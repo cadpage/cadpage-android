@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 <!-- App Strings -->
-   <string name="app_name">LCFRPage</string>   
+   <string name="app_name">CADPage</string>   
    <string name="new_text_at">New Call Received at %s</string>
    <string name="unread_text_waiting">%d other unread message(s)</string>
    <string name="mms_subject">Subject:</string>
@@ -30,24 +30,24 @@
    <string name="button_disabled">Disabled</string>
    
 <!-- Main Preferences -->
-   <string name="pref_config_title">LCFRPage Configuration</string>
+   <string name="pref_config_title">CADPage Configuration</string>
    <string name="pref_other_title">Other</string>
 
    <string name="pref_enabled_title">Enable SMS Popup</string>
-   <string name="pref_enabled_summaryon">SMS Popup is enabled</string>
-   <string name="pref_enabled_summaryoff">SMS Popup is disabled</string>
+   <string name="pref_enabled_summaryon">CADPage is enabled</string>
+   <string name="pref_enabled_summaryoff">CADPage is disabled</string>
 
    <string name="pref_about_title">About</string>
    <string name="pref_about_summary">About SMS Popup</string>
-   <string name="pref_about_text">Created by: Adam K\nEmail: adam@everythingandroid.net\nBlog: http://www.everythingandroid.net\n\nSMS Popup is a simple application that shows a dialog when an SMS is received - turning on the screen and unlocking the keyguard if needed.  It shows the most recent message, who it\'s from and the contact picture if available.\n\nFeel free to email me any comments, suggestions or bugs.\n\nGerman translation by: Feyyaz A.\nEmail: f_alingan@hotmail.com\nWebsite: http://www.yenio.com\n\nDutch translation by: mellie@xs4all.nl\n\nSpanish translation by: Diego Fernández\nEmail: profediego@gmail.com\n\nRussian translation by: Artem Kavalerov\nEmail: artem.kavalerov@gmail.com\n\nCredits to Min Tran for the app icon.\n(http://min.frexy.com)\n</string>
+   <string name="pref_about_text">Modified by Derrick Bennett, based on Code by : Adam K\nEmail: adam@everythingandroid.net\nBlog: http://www.everythingandroid.net\n\nSMS Popup is a simple application that shows a dialog when an SMS is received - turning on the screen and unlocking the keyguard if needed.  It shows the most recent message, who it\'s from and the contact picture if available.\n\nFeel free to email me any comments, suggestions or bugs.\n\nGerman translation by: Feyyaz A.\nEmail: f_alingan@hotmail.com\nWebsite: http://www.yenio.com\n\nDutch translation by: mellie@xs4all.nl\n\nSpanish translation by: Diego Fernández\nEmail: profediego@gmail.com\n\nRussian translation by: Artem Kavalerov\nEmail: artem.kavalerov@gmail.com\n\nCredits to Min Tran for the app icon.\n(http://min.frexy.com)\n</string>
 
    <string name="pref_faq_title">FAQ</string>
    <string name="pref_faq_summary">Frequently Asked Questions</string>
-   <string name="pref_faq_url">http://code.google.com/p/android-smspopup/wiki/FAQ</string>
+   <string name="pref_faq_url">http://code.google.com/p/cadpage/wiki/FAQ</string>
 
    <string name="pref_releasenotes_title">What\'s New?</string>
    <string name="pref_releasenotes_summary">See what\'s new in this version</string>
-   <string name="pref_releasenotes_text">\nhttp://code.google.com/p/android-smspopup/wiki/ReleaseNotes</string>
+   <string name="pref_releasenotes_text">\nhttp://code.google.com/p/cadpage/wiki/ReleaseNotes</string>
 
    <string name="pref_sendemail_title">E-mail the Developer</string>
    <string name="pref_sendemail_summary">E-mail comments or bugs to the developer</string>
@@ -57,7 +57,7 @@
    
 <!-- Additional Preferences -->
    <string name="pref_additional_title">Additional Settings</string>
-   <string name="pref_additional_summary">Additional SMS Popup configuration</string>
+   <string name="pref_additional_summary">Additional CADPage configuration</string>
 
    <string name="pref_timeout_title">Screen Timeout</string>
    <string name="pref_timeout_summary">The screen will sleep after this time</string>
