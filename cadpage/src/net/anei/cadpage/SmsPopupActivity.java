@@ -12,6 +12,8 @@ import net.anei.cadpage.preferences.ButtonListPreference;
 import net.anei.cadpage.wrappers.ContactWrapper;
 import net.anei.cadpage.wrappers.TextToSpeechWrapper;
 import net.anei.cadpage.wrappers.TextToSpeechWrapper.OnInitListener;
+import android.R.array;
+import android.R.string;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -136,6 +138,7 @@ public class SmsPopupActivity extends Activity {
   private static boolean androidTextToSpeechAvailable = false;
   private TTS eyesFreeTts = null;
   private TextToSpeechWrapper androidTts = null;
+  
 
   // Establish whether the Android TextToSpeech class is available to us
   static {
@@ -1081,7 +1084,20 @@ private void  mapMessage()  {
 	
 }
 	
-
+private void decodePage(string Text){
+	// Take call from SMS Message and divide data up.
+	 String strCall;
+	 String strAddress;
+	 String strApt;
+	 String strCross;
+	 String strBox;
+	 String strADC;
+	 array arrUnit;
+	 
+	 
+	
+	
+}
 	
 	
   private void closeMessage() {

@@ -47,7 +47,7 @@
       android:launchMode="singleTask"
       android:configChanges="keyboardHidden|orientation"
       android:screenOrientation="user"
-      android:taskAffinity="net.everythingandroid.smspopup.popup">
+      android:taskAffinity="net.anei.cadpage.popup">
     </activity>
     <activity  
     android:name=".Maps"
@@ -67,7 +67,7 @@
       </intent-filter>
       <intent-filter>
         <action
-          android:name="net.everythingandroid.smspopup.MESSAGE_RECEIVED" />
+          android:name="net.anei.cadpage.MESSAGE_RECEIVED" />
       </intent-filter>
       <intent-filter>
         <action
@@ -78,15 +78,15 @@
       android:name=".ExternalEventReceiver">
       <intent-filter>
         <action
-          android:name="net.everythingandroid.smspopup.ENABLE" />
+          android:name="net.anei.cadpage.ENABLE" />
       </intent-filter>
       <intent-filter>
         <action
-          android:name="net.everythingandroid.smspopup.DISABLE" />
+          android:name="net.anei.cadpage.DISABLE" />
       </intent-filter>
       <intent-filter>
         <action
-          android:name="net.everythingandroid.smspopup.DONATED" />
+          android:name="net.anei.cadpage.DONATED" />
       </intent-filter>
       <intent-filter>
         <action

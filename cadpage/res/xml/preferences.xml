@@ -3,7 +3,7 @@
   xmlns:android="http://schemas.android.com/apk/res/android">
   <PreferenceCategory
     android:title="@string/pref_config_title">
-    <net.everythingandroid.smspopup.preferences.AppEnabledCheckBoxPreference
+    <net.anei.cadpage.preferences.AppEnabledCheckBoxPreference
       android:key="@string/pref_enabled_key"
       android:title="@string/pref_enabled_title"
       android:summaryOn="@string/pref_enabled_summaryon"
@@ -28,7 +28,7 @@
               android:summaryOn="@string/pref_popup_enabled_summaryon"
               android:summaryOff="@string/pref_popup_enabled_summaryoff"
               android:defaultValue="true" />
-            <net.everythingandroid.smspopup.preferences.DialogCheckBoxPreference
+            <net.anei.cadpage.preferences.DialogCheckBoxPreference
               android:key="@string/pref_notif_enabled_key"
               android:title="@string/pref_notif_enabled_title"
               android:summaryOn="@string/pref_notif_enabled_summaryon"
@@ -43,7 +43,7 @@
               android:showSilent="true"
               android:dependency="@string/pref_notif_enabled_key"
               android:defaultValue="content://settings/system/notification_sound" />
-            <net.everythingandroid.smspopup.preferences.TestNotificationDialogPreference
+            <net.anei.cadpage.preferences.TestNotificationDialogPreference
               android:key="@string/pref_notif_test_key"
               android:dialogIcon="@drawable/android:ic_dialog_alert"
               android:title="@string/pref_notif_test_title"
@@ -62,7 +62,7 @@
               android:summaryOff="@string/pref_vibrate_summaryoff"
               android:defaultValue="@string/pref_vibrate_default"
               android:dependency="@string/pref_notif_enabled_key" />
-            <net.everythingandroid.smspopup.preferences.CustomVibrateListPreference
+            <net.anei.cadpage.preferences.CustomVibrateListPreference
               android:key="@string/pref_vibrate_pattern_key"
               android:title="@string/pref_vibrate_pattern_title"
               android:summary="@string/pref_vibrate_pattern_summary"
@@ -80,7 +80,7 @@
               android:summaryOff="@string/pref_flashled_summaryoff"
               android:defaultValue="@string/pref_flashled_default"
               android:dependency="@string/pref_notif_enabled_key" />
-            <net.everythingandroid.smspopup.preferences.CustomLEDColorListPreference
+            <net.anei.cadpage.preferences.CustomLEDColorListPreference
               android:key="@string/pref_flashled_color_key"
               android:title="@string/pref_flashled_color_title"
               android:summary="@string/pref_flashled_color_summary"
@@ -88,7 +88,7 @@
               android:entryValues="@array/pref_led_color_values"
               android:defaultValue="@string/pref_flashled_color_default"
               android:dependency="@string/pref_flashled_key" />
-            <net.everythingandroid.smspopup.preferences.CustomLEDPatternListPreference
+            <net.anei.cadpage.preferences.CustomLEDPatternListPreference
               android:key="@string/pref_flashled_pattern_key"
               android:title="@string/pref_flashled_pattern_title"
               android:summary="@string/pref_flashled_pattern_summary"
@@ -128,7 +128,7 @@
           android:key="@string/contacts_key"
           android:title="@string/pref_contacts_title"
           android:summary="@string/pref_contacts_summary" />
-        <net.everythingandroid.smspopup.preferences.DialogPreference
+        <net.anei.cadpage.preferences.DialogPreference
           android:key="@string/pref_notif_help_key"
           android:title="@string/pref_notif_help_title"
           android:summary="@string/pref_notif_help_summary"
@@ -155,7 +155,7 @@
             android:summaryOn="@string/pref_show_buttons_summaryon"
             android:summaryOff="@string/pref_show_buttons_summaryoff"
             android:defaultValue="@string/pref_show_buttons_default" />
-          <net.everythingandroid.smspopup.preferences.ButtonListPreference
+          <net.anei.cadpage.preferences.ButtonListPreference
             android:key="@string/pref_button1_key"
             android:title="@string/pref_button1_title"
             android:entries="@array/pref_buttons_entries"
@@ -163,7 +163,7 @@
             android:dialogTitle="@string/pref_button1_title"
             android:defaultValue="@string/pref_button1_default"
             android:dependency="@string/pref_show_buttons_key" />
-          <net.everythingandroid.smspopup.preferences.ButtonListPreference
+          <net.anei.cadpage.preferences.ButtonListPreference
             android:key="@string/pref_button2_key"
             android:title="@string/pref_button2_title"
             android:entries="@array/pref_buttons_entries"
@@ -171,7 +171,7 @@
             android:dialogTitle="@string/pref_button2_title"
             android:defaultValue="@string/pref_button2_default"
             android:dependency="@string/pref_show_buttons_key" />
-          <net.everythingandroid.smspopup.preferences.ButtonListPreference
+          <net.anei.cadpage.preferences.ButtonListPreference
             android:key="@string/pref_button3_key"
             android:title="@string/pref_button3_title"
             android:entries="@array/pref_buttons_entries"
@@ -184,7 +184,7 @@
       <PreferenceCategory
         android:title="@string/pref_quickreply_title"
         android:key="@string/pref_quickreply_cat_key">
-        <net.everythingandroid.smspopup.preferences.QuickReplyCheckBoxPreference
+        <net.anei.cadpage.preferences.QuickReplyCheckBoxPreference
           android:key="@string/pref_quickreply_key"
           android:title="@string/pref_quickreply_title"
           android:summaryOn="@string/pref_quickreply_summaryon"
@@ -292,14 +292,14 @@
         android:action="android.intent.action.VIEW"
         android:data="@string/pref_faq_url" />
     </PreferenceScreen>
-    <net.everythingandroid.smspopup.preferences.DialogPreference
+    <net.anei.cadpage.preferences.DialogPreference
       android:key="@string/pref_about_key"
       android:dialogIcon="@drawable/smspopup_icon"
       android:title="@string/pref_about_title"
       android:dialogTitle="@string/app_name"
       android:summary="@string/pref_about_summary"
       android:negativeButtonText="@null" />
-    <net.everythingandroid.smspopup.preferences.EmailDialogPreference
+    <net.anei.cadpage.preferences.EmailDialogPreference
       android:key="@string/pref_sendemail_key"
       android:title="@string/pref_sendemail_title"
       android:summary="@string/pref_sendemail_summary"
