@@ -1,6 +1,12 @@
 package net.anei.cadpage;
 
+import java.util.regex.MatchResult;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 import net.anei.cadpage.SmsPopupUtils.ContactIdentification;
+import android.R.array;
+import android.R.string;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
@@ -10,9 +16,10 @@ import android.text.format.DateUtils;
 
 public class SmsMmsMessage {
   // Private EXTRAS strings
-  private static final String PREFIX = "net.everythingandroid.smspopup.";
+  private static final String PREFIX = "net.anei.cadpage.";
   private static final String EXTRAS_FROM_ADDRESS   = PREFIX + "EXTRAS_FROM_ADDRESS";
   private static final String EXTRAS_MESSAGE_BODY   = PREFIX + "EXTRAS_MESSAGE_BODY";
+  private static final String EXTRAS_MESSAGE_FULL   = PREFIX + "EXTRAS_MESSAGE_FULL";
   private static final String EXTRAS_TIMESTAMP      = PREFIX + "EXTRAS_TIMESTAMP";
   private static final String EXTRAS_UNREAD_COUNT   = PREFIX + "EXTRAS_UNREAD_COUNT";
   private static final String EXTRAS_THREAD_ID      = PREFIX + "EXTRAS_THREAD_ID";
@@ -41,6 +48,7 @@ public class SmsMmsMessage {
   private Context context;
   private String fromAddress = null;
   private String messageBody = null;
+  private String messageFull = null;
   private long timestamp = 0;
   private int unreadCount = 0;
   private long threadId = 0;
@@ -53,6 +61,7 @@ public class SmsMmsMessage {
   private long messageId = 0;
   private boolean fromEmailGateway = false;
   private MessageClass messageClass = null;
+
 
   /**
    * Construct SmsMmsMessage given a raw message (created from pdu), used for when
@@ -75,19 +84,24 @@ public class SmsMmsMessage {
     String body;
     if (messages.length == 1 || sms.isReplace()) {
       body = sms.getDisplayMessageBody();
+      messageFull = sms.getMessageBody();
     } else {
       StringBuilder bodyText = new StringBuilder();
       for (int i = 0; i < messages.length; i++) {
         bodyText.append(messages[i].getMessageBody());
       }
       body = bodyText.toString();
+      messageFull = body;
     }
     messageBody = body;
+     
+
+    
 
     /*
      * Lookup the rest of the info from the system db
      */
-
+/* WE DON'T Use the rest here.
     ContactIdentification contactIdentify = null;
 
     // If this SMS is from an email gateway then lookup contactId by email address
@@ -113,9 +127,11 @@ public class SmsMmsMessage {
     if (contactName == null) {
       contactName = context.getString(android.R.string.unknownName);
     }
+    */
   }
 
-  /**
+
+/**
    * Construct SmsMmsMessage for getMmsDetails() - fetched from the MMS database table
    * @return
    */
@@ -198,6 +214,7 @@ public class SmsMmsMessage {
     context = _context;
     fromAddress = b.getString(EXTRAS_FROM_ADDRESS);
     messageBody = b.getString(EXTRAS_MESSAGE_BODY);
+    messageFull = b.getString(EXTRAS_MESSAGE_FULL);
     timestamp = b.getLong(EXTRAS_TIMESTAMP);
     contactId = b.getString(EXTRAS_CONTACT_ID);
     contactLookupKey = b.getString(EXTRAS_CONTACT_LOOKUP);
@@ -237,6 +254,7 @@ public class SmsMmsMessage {
     Bundle b = new Bundle();
     b.putString(EXTRAS_FROM_ADDRESS, fromAddress);
     b.putString(EXTRAS_MESSAGE_BODY, messageBody);
+    b.putString(EXTRAS_MESSAGE_FULL, messageFull);
     b.putLong(EXTRAS_TIMESTAMP, timestamp);
     b.putString(EXTRAS_CONTACT_ID, contactId);
     b.putString(EXTRAS_CONTACT_LOOKUP, contactLookupKey);
@@ -338,6 +356,12 @@ public class SmsMmsMessage {
     return messageBody;
   }
 
+  public String getMessageFull() {
+	    if (messageFull == null) {
+	      messageFull = "";
+	    }
+	    return messageFull;
+	  }
   public int getMessageType() {
     return messageType;
   }
