@@ -142,4 +142,15 @@
     <item>@string/pref_custom</item>
   </string-array>
 
+<string-array name="aCallData">
+<item>@string/call_Type</item>
+<item>@string/call_Address</item>
+<item>call_City</item>
+<item>call_Apt</item>
+<item>call_Cross</item>
+<item>call_Box</item>
+<item>call_Adc</item>
+<item>call_Unit</item>
+<item>@string/call_Body</item>
+</string-array>
 </resources>

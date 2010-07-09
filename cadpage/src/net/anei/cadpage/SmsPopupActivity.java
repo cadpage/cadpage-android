@@ -28,6 +28,7 @@ import android.content.pm.ActivityInfo;
 import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
 import android.content.res.Configuration;
+import android.content.res.Resources;
 import android.database.Cursor;
 import android.database.MatrixCursor;
 import android.graphics.Bitmap;
@@ -140,8 +141,9 @@ public class SmsPopupActivity extends Activity {
   private TTS eyesFreeTts = null;
   private TextToSpeechWrapper androidTts = null;
   
-  private String[] CallData = {"0","0","0","0","0","0","0","0","0"} ;
-  
+ // private String[] CallData = {"0","0","0","0","0","0","0","0","0"} ;
+	Resources res = getResources();
+	String[] callData = res.getStringArray(R.array.aCallData);
   
   
 
@@ -604,6 +606,7 @@ private String decodePage(String body) {
 		// Take call from SMS Message and divide data up.
 		// Sample Call "Call:
 
+
 		  String strData = body.substring(0, body.length());
 		  Log.v("Message Body of:" + strData);
 		  
@@ -618,7 +621,7 @@ private String decodePage(String body) {
 //		  String strDebug;
 //		  int cIndex = 0;
 		  strData.replaceAll("[:]", ",");
-		  String AData[] = strData.split(",");
+		  String[] AData = strData.split(",");
 		  
 		  strCall = AData[0].substring(5);
 		  // Need to check for single address or Intersection address.
@@ -636,20 +639,19 @@ private String decodePage(String body) {
 		  strBox = AData[4].substring(4);
 		  strADC = AData[5].substring(4,AData[5].indexOf("["));
 		  
+		  
 
 
-		 CallData[0] = strCall ;
-		 CallData[1] = strAddress;
-		 CallData[2] = strCity;
-		 CallData[3] = strApt;
-		 CallData[4] = strCross;
-		 CallData[5] = strBox;
-		 CallData[6] = strADC;
-		 CallData[7] = strUnit;
-		 CallData[8] = body;
+		 callData[0] = strCall ;
+		 callData[1] = strAddress;
+		 callData[2] = strCity;
+		 callData[3] = strApt;
+		 callData[4] = strCross;
+		 callData[5] = strBox;
+		 callData[6] = strADC;
+		 callData[7] = strUnit;
+		 callData[8] = body;
 		 
-		  
-		  
 		return null;
 }
 
@@ -754,143 +756,7 @@ private String decodePage(String body) {
          * Quick Reply Dialog
          */
       case DIALOG_QUICKREPLY:
-        LayoutInflater factory = getLayoutInflater();
-        final View qrLayout = factory.inflate(R.layout.message_quick_reply, null);
-        qrEditText = (EditText) qrLayout.findViewById(R.id.QuickReplyEditText);
-        final TextView qrCounterTextView =
-          (TextView) qrLayout.findViewById(R.id.QuickReplyCounterTextView);
-        final Button qrSendButton = (Button) qrLayout.findViewById(R.id.send_button);
 
-        final ImageButton voiceRecognitionButton =
-          (ImageButton) qrLayout.findViewById(R.id.SpeechRecogButton);
-
-        voiceRecognitionButton.setOnClickListener(new OnClickListener() {
-          public void onClick(View view) {
-            final Intent intent = new Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH);
-            intent.putExtra(RecognizerIntent.EXTRA_LANGUAGE_MODEL,
-                RecognizerIntent.LANGUAGE_MODEL_FREE_FORM);
-
-            // Check if the device has the ability to do speech recognition
-            final PackageManager packageManager = SmsPopupActivity.this.getPackageManager();
-            List<ResolveInfo> list = packageManager.queryIntentActivities(intent, 0);
-
-            if (list.size() > 0) {
-              // TODO: really I should allow voice input here without unlocking first (I allow
-              // quick replies without unlock anyway)
-              exitingKeyguardSecurely = true;
-              ManageKeyguard.exitKeyguardSecurely(new LaunchOnKeyguardExit() {
-                public void LaunchOnKeyguardExitSuccess() {
-                  SmsPopupActivity.this.startActivityForResult(intent,
-                      VOICE_RECOGNITION_REQUEST_CODE);
-                }
-              });
-            } else {
-              Toast.makeText(SmsPopupActivity.this, R.string.error_no_voice_recognition,
-                  Toast.LENGTH_LONG).show();
-              view.setEnabled(false);
-            }
-          }
-        });
-
-        qrEditText.addTextChangedListener(new QmTextWatcher(this, qrCounterTextView, qrSendButton));
-        qrEditText.setOnEditorActionListener(new OnEditorActionListener() {
-          public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
-
-            // event != null means enter key pressed
-            if (event != null) {
-              // if shift is not pressed then move focus to send button
-              if (!event.isShiftPressed()) {
-                if (v != null) {
-                  View focusableView = v.focusSearch(View.FOCUS_RIGHT);
-                  if (focusableView != null) {
-                    focusableView.requestFocus();
-                    return true;
-                  }
-                }
-              }
-
-              // otherwise allow keypress through
-              return false;
-            }
-
-            if (actionId == EditorInfo.IME_ACTION_SEND) {
-              if (v != null) {
-                sendQuickReply(v.getText().toString());
-              }
-              return true;
-            }
-
-            // else consume
-            return true;
-          }
-        });
-
-        quickreplyTextView = (TextView) qrLayout.findViewById(R.id.QuickReplyTextView);
-        QmTextWatcher.getQuickReplyCounterText(
-            qrEditText.getText().toString(), qrCounterTextView, qrSendButton);
-
-        qrSendButton.setOnClickListener(new OnClickListener() {
-          public void onClick(View v) {
-            sendQuickReply(qrEditText.getText().toString());
-          }
-        });
-
-        // Construct basic AlertDialog using AlertDialog.Builder
-        final AlertDialog qrAlertDialog = new AlertDialog.Builder(this)
-        .setIcon(android.R.drawable.ic_dialog_email)
-        .setTitle(R.string.quickreply_title)
-        .create();
-
-        // Set the custom layout with no spacing at the bottom
-        qrAlertDialog.setView(qrLayout, 0, 5, 0, 0);
-
-        // Preset messages button
-        Button presetButton = (Button) qrLayout.findViewById(R.id.PresetMessagesButton);
-        presetButton.setOnClickListener(new OnClickListener() {
-          public void onClick(View v) {
-            showDialog(DIALOG_PRESET_MSG);
-          }
-        });
-
-        // Cancel button
-        Button cancelButton = (Button) qrLayout.findViewById(R.id.CancelButton);
-        cancelButton.setOnClickListener(new OnClickListener() {
-          public void onClick(View v) {
-            if (qrAlertDialog != null) {
-              hideSoftKeyboard();
-              qrAlertDialog.dismiss();
-            }
-          }
-        });
-
-        // Ensure this dialog is counted as "editable" (so soft keyboard will always show on top)
-        qrAlertDialog.getWindow().clearFlags(WindowManager.LayoutParams.FLAG_ALT_FOCUSABLE_IM);
-
-        qrAlertDialog.setOnDismissListener(new OnDismissListener() {
-          public void onDismiss(DialogInterface dialog) {
-            if (Log.DEBUG) Log.v("Quick Reply Dialog: onDissmiss()");
-          }
-        });
-
-        // Update quick reply views now that they have been created
-        updateQuickReplyView("");
-
-        /*
-         * TODO: due to what seems like a bug, setting selection to 0 here doesn't seem to work
-         * but setting it to 1 first then back to 0 does.  I couldn't find a way around this :|
-         * To reproduce, comment out the below line and set a quick reply signature, when
-         * clicking Quick Reply the cursor will be positioned at the end of the EditText
-         * rather than the start.
-         */
-        if (qrEditText.getText().toString().length() > 0) qrEditText.setSelection(1);
-
-        qrEditText.setSelection(0);
-
-        return qrAlertDialog;
-
-        /*
-         * Preset messages dialog
-         */
       case DIALOG_PRESET_MSG:
         mDbAdapter.open(true);
         mCursor = mDbAdapter.fetchAllQuickMessages();
@@ -1145,7 +1011,7 @@ private void  mapMessage()  {
 	if (Log.DEBUG) Log.v("Request Received to Map Call");
 	Intent i =new Intent(SmsPopupActivity.this,Maps.class);
 	Bundle bun = new Bundle();
-	bun.putStringArray("CallData", CallData);
+	bun.putStringArray("CallData", callData);
 	i.putExtras(bun);
 	startActivity(i);
 	
