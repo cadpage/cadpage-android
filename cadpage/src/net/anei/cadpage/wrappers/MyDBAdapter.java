@@ -16,6 +16,8 @@ private static final int DATABASE_VERSION = 1;
 public static final String KEY_ID="_id";
 
 // The name and column index of each column in your database. 
+public static final String KEY_Date="date";
+public static final String KEY_Time="time";
 public static final String KEY_Call="call";
 public static final String KEY_Address="address";
 public static final String KEY_Apt="apt";
@@ -31,6 +33,8 @@ public static final String KEY_Archive="archive";
 private static final String DATABASE_CREATE = "create table " + 
  DATABASE_TABLE + " (" + KEY_ID + 
  " integer primary key autoincrement, " +
+ KEY_Date + " text default CURRENT_DATE" +
+ KEY_Time + " test default CURRENT_TIME" +
  KEY_Call + " text null" +
  KEY_Address + " text null" +
  KEY_Apt + " text null" +
