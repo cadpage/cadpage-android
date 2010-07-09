@@ -37,6 +37,7 @@ import android.os.AsyncTask;
 import android.preference.PreferenceManager;
 import android.provider.Contacts;
 import android.speech.RecognizerIntent;
+import android.text.Selection;
 import android.text.TextUtils;
 import android.view.ContextMenu;
 import android.view.Display;
@@ -138,6 +139,10 @@ public class SmsPopupActivity extends Activity {
   private static boolean androidTextToSpeechAvailable = false;
   private TTS eyesFreeTts = null;
   private TextToSpeechWrapper androidTts = null;
+  
+  private String[] CallData = {"0","0","0","0","0","0","0","0","0"} ;
+  
+  
   
 
   // Establish whether the Android TextToSpeech class is available to us
@@ -488,7 +493,14 @@ public class SmsPopupActivity extends Activity {
 
     // Store message
     message = newMessage;
-
+    String strMessage = newMessage.getMessageFull();
+    int idx = strMessage.indexOf("Call:");
+    
+    if (idx >= 0) {
+    	// Decode the call page and place the data in the database
+    	decodePage(strMessage);
+    } 
+    
     // If it's a MMS message, just show the MMS layout
     if (message.getMessageType() == SmsMmsMessage.MESSAGE_TYPE_MMS) {
       if (mmsView == null) {
@@ -587,6 +599,59 @@ public class SmsPopupActivity extends Activity {
     }
     messageReceivedTV.setText(headerText);
   }
+  
+private String decodePage(String body) {
+		// Take call from SMS Message and divide data up.
+		// Sample Call "Call:
+
+		  String strData = body.substring(0, body.length());
+		  Log.v("Message Body of:" + strData);
+		  
+		  String strCall;
+		  String strAddress;
+		  String strCity;
+		  String strApt;
+		  String strCross;
+		  String strBox;
+		  String strADC;
+		  String strUnit;
+//		  String strDebug;
+//		  int cIndex = 0;
+		  strData.replaceAll("[:]", ",");
+		  String AData[] = strData.split(",");
+		  
+		  strCall = AData[0].substring(5);
+		  // Need to check for single address or Intersection address.
+		  // Intersection address has a / and two  - cities
+		  strAddress = AData[1].substring(0,(AData[1].indexOf("-")));
+		  strCity = AData[1].substring(AData[1].indexOf("-")+1,AData[1].indexOf("Apt")-1);
+		  if (strCity.compareTo("CH") == 0  ){ strCity="Chantilly, VA";}
+		  else if (strCity.compareTo("LB")==0){ strCity="Leesburg, VA";}
+		  else if (strCity.compareTo("AL")==0){ strCity="Aldie, VA";}
+		  else if (strCity.compareTo("ST")==0){ strCity="Sterling, VA";}
+		  
+		  strApt = AData[1].substring(AData[1].indexOf("Apt:"));
+		  strCross = AData[2].substring(5);
+		  strUnit = AData[3];
+		  strBox = AData[4].substring(4);
+		  strADC = AData[5].substring(4,AData[5].indexOf("["));
+		  
+
+
+		 CallData[0] = strCall ;
+		 CallData[1] = strAddress;
+		 CallData[2] = strCity;
+		 CallData[3] = strApt;
+		 CallData[4] = strCross;
+		 CallData[5] = strBox;
+		 CallData[6] = strADC;
+		 CallData[7] = strUnit;
+		 CallData[8] = body;
+		 
+		  
+		  
+		return null;
+}
 
   /*
    * This handles hiding and showing various views depending on the privacy
@@ -1079,25 +1144,15 @@ private void  mapMessage()  {
 	   */
 	if (Log.DEBUG) Log.v("Request Received to Map Call");
 	Intent i =new Intent(SmsPopupActivity.this,Maps.class);
+	Bundle bun = new Bundle();
+	bun.putStringArray("CallData", CallData);
+	i.putExtras(bun);
 	startActivity(i);
 	
 	
 }
 	
-private void decodePage(string Text){
-	// Take call from SMS Message and divide data up.
-	 String strCall;
-	 String strAddress;
-	 String strApt;
-	 String strCross;
-	 String strBox;
-	 String strADC;
-	 array arrUnit;
-	 
-	 
-	
-	
-}
+
 	
 	
   private void closeMessage() {
