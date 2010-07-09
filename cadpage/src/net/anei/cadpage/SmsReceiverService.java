@@ -1,6 +1,8 @@
 package net.anei.cadpage;
 
 import net.anei.cadpage.ManagePreferences.Defaults;
+import android.R.array;
+import android.R.string;
 import android.app.Activity;
 import android.app.PendingIntent;
 import android.app.Service;
