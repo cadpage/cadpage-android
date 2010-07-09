@@ -324,4 +324,9 @@
     <string name="pref_led_pattern_entries_normal">Normal</string>
     <string name="pref_led_pattern_entries_slow">Slow</string>
 <string name="button_map">Map Call</string>
+
+
+<string name="CallAddress">None</string>
+<string name="CallType">None</string>
+<string name="CallXStr">None</string>
 </resources>

@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:orientation="vertical"
     android:layout_width="fill_parent" 
     android:layout_height="fill_parent">
- 
+ <TextView
+ 		android:id="@+id/MapText"
+ 		android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content"
+ 		android:text="@string/CallAddress"
+ 		
+ />
     <com.google.android.maps.MapView 
         android:id="@+id/mapView"
         android:layout_width="fill_parent"
@@ -12,4 +19,4 @@
         android:apiKey="0srUI2D4-1MNAlEtjycDCEX-ztDkgLyECNeDBmg"
         />
  
-</RelativeLayout>
+</LinearLayout>
