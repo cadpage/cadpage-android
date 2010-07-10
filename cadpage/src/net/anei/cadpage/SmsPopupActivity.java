@@ -142,8 +142,8 @@ public class SmsPopupActivity extends Activity {
   private TextToSpeechWrapper androidTts = null;
   
  // private String[] CallData = {"0","0","0","0","0","0","0","0","0"} ;
-	Resources res = getResources();
-	String[] callData = res.getStringArray(R.array.aCallData);
+	
+	private String[] callData;
   
   
 
@@ -161,7 +161,8 @@ public class SmsPopupActivity extends Activity {
   protected void onCreate(Bundle bundle) {
     super.onCreate(bundle);
     if (Log.DEBUG) Log.v("SMSPopupActivity: onCreate()");
-
+    Resources res = getResources();
+    callData = res.getStringArray(R.array.aCallData);
     // First things first, acquire wakelock, otherwise the phone may sleep
     //ManageWakeLock.acquirePartial(getApplicationContext());
 
@@ -194,9 +195,9 @@ public class SmsPopupActivity extends Activity {
     messageScrollView = (ScrollView) findViewById(R.id.MessageScrollView);
 
     // Find the ImageView that will show the contact photo
-    photoImageView = (ImageView) findViewById(R.id.FromImageView);
-    contactPhotoPlaceholderDrawable =
-      getResources().getDrawable(SmsPopupUtils.CONTACT_PHOTO_PLACEHOLDER);
+    //photoImageView = (ImageView) findViewById(R.id.FromImageView);
+    //contactPhotoPlaceholderDrawable =
+    //  getResources().getDrawable(SmsPopupUtils.CONTACT_PHOTO_PLACEHOLDER);
 
     // Enable long-press context menu
     registerForContextMenu(findViewById(R.id.MainLinearLayout));
@@ -537,34 +538,8 @@ public class SmsPopupActivity extends Activity {
       refreshPrivacy();
     }
 
-    // Fetch contact photo in background
-    if (contactPhoto == null) {
-      setContactPhotoToDefault(photoImageView);
-      new FetchContactPhotoTask().execute(message.getContactId());
-    } else {
-      setContactPhoto(photoImageView, contactPhoto);
-    }
-
     // Show QuickContact card on photo imageview click (only available on eclair+)
-    if (!SmsPopupUtils.PRE_ECLAIR) {
-
-      contactLookupUri = null;
-      String contactId = message.getContactId();
-      if (contactId != null) {
-        contactLookupUri = ContactWrapper.getLookupUri(Long.valueOf(contactId),
-            message.getContactLookupKey());
-      }
-
-      photoImageView.setOnClickListener(new OnClickListener() {
-        public void onClick(View v) {
-          if (contactLookupUri != null) {
-            ContactWrapper.showQuickContact(SmsPopupActivity.this, v, contactLookupUri,
-                ContactWrapper.QUICKCONTACT_MODE_MEDIUM, null);
-          }
-        }
-      });
-    }
-
+ 
     // If only 1 unread message waiting
     if (message.getUnreadCount() <= 1) {
       if (unreadCountView != null) {
@@ -593,9 +568,9 @@ public class SmsPopupActivity extends Activity {
     String headerText = getString(R.string.new_text_at, message.getFormattedTimestamp().toString());
 
     // Set the from, message and header views
-    fromTV.setText(message.getContactName());
+    fromTV.setText(callData[0]);
     if (message.getMessageType() == SmsMmsMessage.MESSAGE_TYPE_SMS) {
-      messageTV.setText(message.getMessageBody());
+      messageTV.setText(callData[1] + "\n X: " + callData[4] + "\n Units: " + callData[7]);
     } else {
       mmsSubjectTV.setText(getString(R.string.mms_subject) + " " + message.getMessageBody());
     }

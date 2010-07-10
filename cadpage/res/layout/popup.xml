@@ -28,7 +28,7 @@
     <TextView
       android:text="Text here"
       android:id="@+id/MessageTextView"
-      android:autoLink="all"
+      android:autoLink="none"
       android:textAppearance="?android:attr/textAppearanceMedium"
       android:textColor="?android:attr/textColorPrimaryDisableOnly"
       android:layout_height="wrap_content"
