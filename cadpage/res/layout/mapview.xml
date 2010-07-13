@@ -19,4 +19,13 @@
         android:apiKey="0srUI2D4-1MNAlEtjycDCEX-ztDkgLyECNeDBmg"
         />
  
+<Button android:text="@+id/Button01" 
+android:id="@+id/BShowSat" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" android:clickable="true">
+</Button>
+<Button android:id="@+id/BMapClose" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"  android:text="@string/button_close" android:clickable="true">
+</Button>
 </LinearLayout>
