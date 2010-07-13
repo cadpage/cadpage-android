@@ -595,18 +595,29 @@ private String decodePage(String body) {
 		  String strUnit;
 //		  String strDebug;
 //		  int cIndex = 0;
-		  strData.replaceAll("[:]", ",");
+		  strData.replace(":", ",");
 		  String[] AData = strData.split(",");
 		  
 		  strCall = AData[0].substring(5);
 		  // Need to check for single address or Intersection address.
+		  if (AData[1].contains("/")  ){
+			  // This is an intersection and not a street
+			   String[] strTemp = AData[1].split("/");
+			  strAddress = strTemp[0].substring(0,(strTemp[0].indexOf("-")));
+			  strCity = strTemp[0].substring(strTemp[0].indexOf("-")+1);
+		  }else {
+			  strAddress = AData[1].substring(0,(AData[1].indexOf("-")));
+			  strCity = AData[1].substring(AData[1].indexOf("-")+1,AData[1].indexOf("Apt")-1);
+		  }
 		  // Intersection address has a / and two  - cities
-		  strAddress = AData[1].substring(0,(AData[1].indexOf("-")));
-		  strCity = AData[1].substring(AData[1].indexOf("-")+1,AData[1].indexOf("Apt")-1);
+		  if (strAddress.length() < 4) {
+			  strAddress = "Error Street not Found.";
+		  }
 		  if (strCity.compareTo("CH") == 0  ){ strCity="Chantilly, VA";}
 		  else if (strCity.compareTo("LB")==0){ strCity="Leesburg, VA";}
 		  else if (strCity.compareTo("AL")==0){ strCity="Aldie, VA";}
 		  else if (strCity.compareTo("ST")==0){ strCity="Sterling, VA";}
+		  else if (strCity.length() < 1){ strCity="Error";}
 		  
 		  strApt = AData[1].substring(AData[1].indexOf("Apt:"));
 		  strCross = AData[2].substring(5);
@@ -989,6 +1000,7 @@ private void  mapMessage()  {
 	bun.putStringArray("CallData", callData);
 	i.putExtras(bun);
 	startActivity(i);
+	closeMessage();
 	
 	
 }
