@@ -33,13 +33,13 @@
    <string name="pref_config_title">CADPage Configuration</string>
    <string name="pref_other_title">Other</string>
 
-   <string name="pref_enabled_title">Enable SMS Popup</string>
+   <string name="pref_enabled_title">Enable CADPage</string>
    <string name="pref_enabled_summaryon">CADPage is enabled</string>
    <string name="pref_enabled_summaryoff">CADPage is disabled</string>
 
    <string name="pref_about_title">About</string>
-   <string name="pref_about_summary">About SMS Popup</string>
-   <string name="pref_about_text">Modified by Derrick Bennett, based on Code by : Adam K\n</string>
+   <string name="pref_about_summary">About CAD Page</string>
+   <string name="pref_about_text">Modified by Derrick Bennett, based on Code by : Adam K (SMS Popup Application)\n</string>
 
    <string name="pref_faq_title">FAQ</string>
    <string name="pref_faq_summary">Frequently Asked Questions</string>
@@ -243,8 +243,8 @@
   <string name="pref_button3_title">Button 3 Configuration</string>
     
 <!-- Donate Strings (not used right now) -->
-  <string name="pref_donate_title">Donate to SMS Popup</string>    
-  <string name="pref_donate_text">SMS Popup is a free application that I work on in my spare time.  If you find it useful, and can spare a few bucks, a donation would be much appreciated.\n\nThanks!</string>
+  <string name="pref_donate_title">Donate to CadPage</string>    
+  <string name="pref_donate_text">CADPage is free. Donate if you like it</string>
   <string name="pref_donate_market_button">Donate via Android Market</string>
   <string name="pref_donate_paypal_button">Donate via PayPal</string>
 
@@ -327,7 +327,7 @@
 
 
 <string name="CallAddress">None</string>
-<string name="CallType">None</string>
+
 <string name="CallXStr">None</string>
 <string name="call_Type">none</string>
 <string name="call_Address">none</string>
