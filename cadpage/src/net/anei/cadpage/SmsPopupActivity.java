@@ -598,7 +598,7 @@ private String decodePage(String body) {
 		  strData.replace(":", ",");
 		  String[] AData = strData.split(",");
 		  
-		  strCall = AData[0].substring(5);
+		  strCall = AData[0].substring(AData[0].indexOf("Call:",0)+5);
 		  // Need to check for single address or Intersection address.
 		  if (AData[1].contains("/")  ){
 			  // This is an intersection and not a street

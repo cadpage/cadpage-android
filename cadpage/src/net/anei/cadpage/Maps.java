@@ -16,6 +16,8 @@ import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.graphics.Point;
 import android.graphics.RectF;
+import android.view.View.OnClickListener;
+import android.widget.Button;
 import android.widget.TextView;
 import com.google.android.maps.GeoPoint;
 import com.google.android.maps.MapActivity;
@@ -31,6 +33,9 @@ public  class Maps extends MapActivity {
 	}
 	private GeoPoint p;
 	private String Call;
+	private Button BShowSat;
+	private Button BClose;
+	
 	MapOverlay positionOverlay;
 	
 	 @Override
@@ -42,7 +47,7 @@ public  class Maps extends MapActivity {
 		    
 	    Bundle bun = getIntent().getExtras();
 	    final String callData[] = bun.getStringArray("CallData");
-	    Call = callData[0];
+	    Call = callData[0].substring(callData[0].indexOf("Call:",0)+5);
 	    // This spawns a new thread to do the map lookup so that it doesn't break the interface.
 	    Thread searchAdress = new Thread() {
 	      public void run(){
@@ -75,7 +80,8 @@ public  class Maps extends MapActivity {
 			   }
 		    };
 		    
-	
+
+	 
 	 public boolean MapAddress(String callData[]) {
 		    
 		 String strAddress = callData[1];
@@ -113,6 +119,10 @@ public void drawMap(){
 	    		// Put exception catch here
 		        mapView = (MapView) findViewById(R.id.mapView);
 		        TextView mapText = (TextView) findViewById(R.id.MapText);
+		        BShowSat = (Button)this.findViewById(R.id.BShowSat);
+		        BClose = (Button)this.findViewById(R.id.BMapClose);
+		        BShowSat.setOnClickListener(ShowSat());
+		        BClose.setOnClickListener(MapClose());
 		        mapText.setText(callData[1]);
 		        mapView.setBuiltInZoomControls(true);
 		        mapView.setSatellite(false);
@@ -131,6 +141,24 @@ public void drawMap(){
 		        mapView.invalidate();
 }
 		
+private OnClickListener ShowSat() {
+	// TODO Auto-generated method stub
+	MapView mapView = (MapView) findViewById(R.id.mapView);
+	if (mapView.isSatellite()){ mapView.setSatellite(false); }
+	else { mapView.setSatellite(true);
+	}
+	return null;
+}
+
+
+private OnClickListener MapClose() {
+	// TODO Auto-generated method stub
+	this.finish();
+	return null;
+}
+
+
+
 public class MapOverlay extends Overlay {
 	@Override
 	public void draw(Canvas canvas, MapView mapView, boolean shadow){

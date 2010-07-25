@@ -2,4 +2,5 @@
 <resources>
 <!-- Activity background color -->
   <drawable name="class_zero_background">#7f040000</drawable>    
+<color name="map_header">#EEEEEE</color>
 </resources>
