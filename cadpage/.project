@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>SMSPopup</name>
+	<name>CadPage</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -30,4 +30,11 @@
 		<nature>com.android.ide.eclipse.adt.AndroidNature</nature>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>res/raw/newgq.wav</name>
+			<type>1</type>
+			<location>C:/source/workspace/CadPage/res/raw/newgq.wav</location>
+		</link>
+	</linkedResources>
 </projectDescription>

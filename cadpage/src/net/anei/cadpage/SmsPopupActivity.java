@@ -347,7 +347,7 @@ public class SmsPopupActivity extends Activity {
     setIntent(intent);
 
     // Force a reload of the contact photo
-    contactPhoto = null;
+    //contactPhoto = null;
 
     // Re-populate views with new intent data (ie. new sms data)
     populateViews(intent.getExtras());
@@ -1000,7 +1000,6 @@ private void  mapMessage()  {
 	bun.putStringArray("CallData", callData);
 	i.putExtras(bun);
 	startActivity(i);
-	closeMessage();
 	
 	
 }

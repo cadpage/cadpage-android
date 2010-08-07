@@ -49,7 +49,7 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
       //Get version number, not sure if there is a better way to do this
       version = " v" +
       pm.getPackageInfo(
-          SmsPopupConfigActivity.class.getPackage().getName(), 0).versionName;
+        SmsPopupConfigActivity.class.getPackage().getName(), 0).versionName;
     } catch (NameNotFoundException e) {
       version = "";
     }
@@ -66,8 +66,8 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
     emailPref.setVersion(version);
 
     // Set intent for contact notification option
-    final PreferenceScreen contactsPS =
-      (PreferenceScreen) findPreference(getString(R.string.contacts_key));
+   final PreferenceScreen contactsPS =
+     (PreferenceScreen) findPreference(getString(R.string.contacts_key));
     contactsPS.setIntent(
         new Intent(this, net.anei.cadpage.ConfigContactsActivity.class));
 

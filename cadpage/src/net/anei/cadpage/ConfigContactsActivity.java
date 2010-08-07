@@ -84,8 +84,8 @@ public class ConfigContactsActivity extends ListActivity {
 
     mDbAdapter = new SmsPopupDbAdapter(getApplicationContext());
 
-    SynchronizeContactNames mSyncContactNames = new SynchronizeContactNames();
-    mSyncContactNames.execute(new Object());
+    //SynchronizeContactNames mSyncContactNames = new SynchronizeContactNames();
+    //mSyncContactNames.execute(new Object());
   }
 
   @Override

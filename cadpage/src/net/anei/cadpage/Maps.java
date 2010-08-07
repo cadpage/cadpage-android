@@ -16,6 +16,7 @@ import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.graphics.Point;
 import android.graphics.RectF;
+import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.TextView;
@@ -27,7 +28,7 @@ import com.google.android.maps.Overlay;
 import com.google.android.maps.Projection;
 
 
-public  class Maps extends MapActivity {
+public  class Maps extends MapActivity implements OnClickListener {
 	protected boolean isRouteDisplayed() {
 		return false;
 	}
@@ -51,7 +52,7 @@ public  class Maps extends MapActivity {
 	    // This spawns a new thread to do the map lookup so that it doesn't break the interface.
 	    Thread searchAdress = new Thread() {
 	      public void run(){
-	    	  Boolean res ;
+	    	  Boolean res = false ;
 	    	  res = MapAddress(callData);
 	    	  if (res = true){
 	    	  showAdressResults.sendEmptyMessage(0);
@@ -109,7 +110,7 @@ public  class Maps extends MapActivity {
 	}
 		 
 
-public void drawMap(){	 
+public void drawMap() {	 
     MapView mapView;
     MapController mc;
     Bundle bun = getIntent().getExtras();
@@ -121,11 +122,13 @@ public void drawMap(){
 		        TextView mapText = (TextView) findViewById(R.id.MapText);
 		        BShowSat = (Button)this.findViewById(R.id.BShowSat);
 		        BClose = (Button)this.findViewById(R.id.BMapClose);
-		        BShowSat.setOnClickListener(ShowSat());
-		        BClose.setOnClickListener(MapClose());
+		        mapView.setSatellite(false);
+		        BShowSat.setText("SAT:Off");
+		        BShowSat.setOnClickListener(this);
+		        BClose.setOnClickListener(this);
 		        mapText.setText(callData[1]);
 		        mapView.setBuiltInZoomControls(true);
-		        mapView.setSatellite(false);
+		        
 		        mapView.setStreetView(true);
 		        
 		        if (Log.DEBUG) Log.v("Reverse Geocoding Address");
@@ -141,21 +144,20 @@ public void drawMap(){
 		        mapView.invalidate();
 }
 		
-private OnClickListener ShowSat() {
+private void ShowSat() {
 	// TODO Auto-generated method stub
 	MapView mapView = (MapView) findViewById(R.id.mapView);
 	if (mapView.isSatellite()){ mapView.setSatellite(false); }
-	else { mapView.setSatellite(true);
+	else { 
+		mapView.setSatellite(true);
+		BShowSat.setText("SAT:On");
 	}
-	return null;
+	
 }
 
 
-private OnClickListener MapClose() {
-	// TODO Auto-generated method stub
-	this.finish();
-	return null;
-}
+
+
 
 
 
@@ -184,4 +186,24 @@ public class MapOverlay extends Overlay {
 		}
 	}
 }
+
+
+
+
+
+@Override
+public void onClick(View v) {
+	// TODO Auto-generated method stub
+	switch(v.getId()){
+	
+	case R.id.BMapClose:
+		this.finish();
+		break;
+	case R.id.BShowSat:
+		ShowSat();
+		break;
+	}
+	
 }
+}
+

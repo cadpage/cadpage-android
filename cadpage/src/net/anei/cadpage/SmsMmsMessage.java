@@ -151,13 +151,13 @@ public class SmsMmsMessage {
     ContactIdentification contactIdentify = null;
 
     if (PhoneNumberUtils.isWellFormedSmsAddress(fromAddress)) {
-      contactIdentify = SmsPopupUtils.getPersonIdFromPhoneNumber(context, fromAddress);
-      contactName = PhoneNumberUtils.formatNumber(fromAddress);
-      fromEmailGateway = false;
+   //   contactIdentify = SmsPopupUtils.getPersonIdFromPhoneNumber(context, fromAddress);
+    //  contactName = PhoneNumberUtils.formatNumber(fromAddress);
+    //  fromEmailGateway = false;
     } else {
-      contactIdentify = SmsPopupUtils.getPersonIdFromEmail(context, fromAddress);
-      contactName = fromAddress.trim();
-      fromEmailGateway = true;
+    //  contactIdentify = SmsPopupUtils.getPersonIdFromEmail(context, fromAddress);
+    //  contactName = fromAddress.trim();
+    //  fromEmailGateway = true;
     }
 
     if (contactIdentify != null) {

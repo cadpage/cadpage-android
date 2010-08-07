@@ -344,6 +344,7 @@ public class ManageNotification {
       }
 
       notification.sound = alarmSoundURI;
+      //notification.sound = Uri.parse("android.resource://net.anei.cadpage/raw/newgq.wav");
     }
 
     // Set intent to execute if the "clear all" notifications button is pressed -
