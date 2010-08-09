@@ -2,8 +2,11 @@ package net.anei.cadpage;
 
 
 import android.os.Bundle;
+
+import java.io.File;
+import java.io.IOException;
 import java.util.ArrayList;
-import java.util.List;
+import net.anei.cadpage.utils;
 
 import net.anei.cadpage.ManageKeyguard.LaunchOnKeyguardExit;
 import net.anei.cadpage.ManagePreferences.Defaults;
@@ -33,6 +36,8 @@ import android.database.Cursor;
 import android.database.MatrixCursor;
 import android.graphics.Bitmap;
 import android.graphics.drawable.Drawable;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.preference.PreferenceManager;
@@ -271,12 +276,17 @@ public class SmsPopupActivity extends Activity {
 
     mDbAdapter = new SmsPopupDbAdapter(getApplicationContext());
 
+
+    
     wakeApp();
 
     // Eula.show(this);
   }
 
-  /*
+
+
+ 
+/*
    * Internal class to handle dynamic button functions on popup
    */
   class PopupButton implements OnClickListener {
@@ -995,16 +1005,38 @@ private void  mapMessage()  {
 	   * Use custom Google map url for hydrants and such
 	   */
 	if (Log.DEBUG) Log.v("Request Received to Map Call");
+	
+
 	Intent i =new Intent(SmsPopupActivity.this,Maps.class);
 	Bundle bun = new Bundle();
 	bun.putStringArray("CallData", callData);
 	i.putExtras(bun);
 	startActivity(i);
+
+
+
 	
 	
 }
 	
+private boolean haveNet(){
+	
+	
+    
+    ConnectivityManager connec =  (ConnectivityManager)getSystemService(Context.CONNECTIVITY_SERVICE);
+     if ( connec.getNetworkInfo(0).getState() == NetworkInfo.State.CONNECTED ||  connec.getNetworkInfo(1).getState() == NetworkInfo.State.CONNECTING  ) {
 
+  //text.setText("hey your online!!!")     ;  
+    	 return true;
+  //Do something in here when we are connected   
+              }
+              else if ( connec.getNetworkInfo(0).getState() == NetworkInfo.State.DISCONNECTED ||  connec.getNetworkInfo(1).getState() == NetworkInfo.State.DISCONNECTED   ) {
+  //text.setText("Look your not online");    
+            	  return false;
+              }
+	
+	return false;
+}
 	
 	
   private void closeMessage() {

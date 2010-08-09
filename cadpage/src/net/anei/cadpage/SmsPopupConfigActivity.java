@@ -1,5 +1,8 @@
 package net.anei.cadpage;
 
+import java.io.File;
+import java.io.IOException;
+
 import net.anei.cadpage.preferences.AppEnabledCheckBoxPreference;
 import net.anei.cadpage.preferences.ButtonListPreference;
 import net.anei.cadpage.preferences.DialogPreference;
@@ -223,6 +226,7 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
     mDbAdapter.open(true); // Open database read-only
     mDbAdapter.close();
 
+    installNotification();
     // Eula.show(this);
 
     //    for (int i=0; i<1000; i++) {
@@ -332,5 +336,19 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
 
     settings.commit();
   }
+  
+  private void installNotification() {
+		// TODO Auto-generated method stub
+		File fAlert = new File("/sdcard/media/audio/notifications/generalquarter.wav");
+		if (fAlert.exists()){
+			if (Log.DEBUG) {Log.v("Notification File Already exists. Not Installing");}
+
+		} else {
+			utils myutils = new utils();
+				myutils.saveas(this,R.raw.generalquarter);
+
+			 
+		}
+	}
 
 }

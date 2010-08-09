@@ -30,11 +30,4 @@
 		<nature>com.android.ide.eclipse.adt.AndroidNature</nature>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
-	<linkedResources>
-		<link>
-			<name>res/raw/newgq.wav</name>
-			<type>1</type>
-			<location>C:/source/workspace/CadPage/res/raw/newgq.wav</location>
-		</link>
-	</linkedResources>
 </projectDescription>

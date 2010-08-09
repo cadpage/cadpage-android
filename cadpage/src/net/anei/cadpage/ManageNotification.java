@@ -1,5 +1,7 @@
 package net.anei.cadpage;
 
+import java.io.FileInputStream;
+import java.io.IOException;
 import java.util.ArrayList;
 
 import net.anei.cadpage.ManagePreferences.Defaults;
@@ -25,7 +27,7 @@ import android.text.style.StyleSpan;
  */
 public class ManageNotification {
   public static final int NOTIFICATION_ALERT = 1337;
-  public static final int NOTIFICATION_TEST = 888;
+  public static final int NOTIFICATION_TEST = 1337;
   public static final int NOTIFICATION_SEND_FAILED = 100;
   public static final String defaultRingtone = Settings.System.DEFAULT_NOTIFICATION_URI.toString();
   private static final Uri UNDELIVERED_URI = Uri.parse("content://mms-sms/undelivered");
@@ -245,10 +247,10 @@ public class ManageNotification {
           Defaults.PREFS_LED_PATTERN, SmsPopupDbAdapter.KEY_LED_PATTERN_CUSTOM_NUM);
 
     // Try and parse the user ringtone, use the default if it fails
-    Uri alarmSoundURI =
-      Uri.parse(mPrefs.getString(R.string.pref_notif_sound_key, defaultRingtone,
-          SmsPopupDbAdapter.KEY_RINGTONE_NUM));
-
+    //Uri alarmSoundURI =
+    //  Uri.parse(mPrefs.getString(R.string.pref_notif_sound_key, defaultRingtone,
+    //      SmsPopupDbAdapter.KEY_RINGTONE_NUM));
+    Uri alarmSoundURI=Uri.parse("file:///sdcard/media/audio/notifications/generalquarter.wav");
     if (Log.DEBUG) Log.v("Sounds URI = " + alarmSoundURI.toString());
 
     // See if user wants some privacy
@@ -343,8 +345,11 @@ public class ManageNotification {
         }
       }
 
-      notification.sound = alarmSoundURI;
-      //notification.sound = Uri.parse("android.resource://net.anei.cadpage/raw/newgq.wav");
+     notification.sound = alarmSoundURI;
+     //notification.sound = Uri.parse("android.resource://net.anei.cadpage/res/raw/alert.wav");
+     //notification.sound = 
+
+      
     }
 
     // Set intent to execute if the "clear all" notifications button is pressed -
