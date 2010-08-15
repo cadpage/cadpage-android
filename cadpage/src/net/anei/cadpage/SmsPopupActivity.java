@@ -627,6 +627,7 @@ private String decodePage(String body) {
 		  else if (strCity.compareTo("LB")==0){ strCity="Leesburg, VA";}
 		  else if (strCity.compareTo("AL")==0){ strCity="Aldie, VA";}
 		  else if (strCity.compareTo("ST")==0){ strCity="Sterling, VA";}
+		  else if (strCity.compareTo("MB")==0){ strCity="Middleburg, VA";}
 		  else if (strCity.length() < 1){ strCity="Error";}
 		  
 		  strApt = AData[1].substring(AData[1].indexOf("Apt:"));

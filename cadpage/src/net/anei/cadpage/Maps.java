@@ -19,7 +19,6 @@ import android.graphics.RectF;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
-import android.widget.TextView;
 import com.google.android.maps.GeoPoint;
 import com.google.android.maps.MapActivity;
 import com.google.android.maps.MapController;
@@ -36,6 +35,7 @@ public  class Maps extends MapActivity implements OnClickListener {
 	private String Call;
 	private Button BShowSat;
 	private Button BClose;
+	private Button BDriveDir;
 	
 	MapOverlay positionOverlay;
 	
@@ -48,7 +48,7 @@ public  class Maps extends MapActivity implements OnClickListener {
 		    
 	    Bundle bun = getIntent().getExtras();
 	    final String callData[] = bun.getStringArray("CallData");
-	    Call = callData[0].substring(callData[0].indexOf("Call:",0)+5);
+	    Call = callData[0];//.substring(callData[0].indexOf("Call:",0)+4);
 	    // This spawns a new thread to do the map lookup so that it doesn't break the interface.
 	    Thread searchAdress = new Thread() {
 	      public void run(){
@@ -119,14 +119,17 @@ public void drawMap() {
 	    		 setContentView(R.layout.mapview);
 	    		// Put exception catch here
 		        mapView = (MapView) findViewById(R.id.mapView);
-		        TextView mapText = (TextView) findViewById(R.id.MapText);
+		        //TextView mapText = (TextView) findViewById(R.id.MapText);
 		        BShowSat = (Button)this.findViewById(R.id.BShowSat);
 		        BClose = (Button)this.findViewById(R.id.BMapClose);
+		        BDriveDir = (Button)this.findViewById(R.id.BDriveDir);
 		        mapView.setSatellite(false);
 		        BShowSat.setText("SAT:Off");
 		        BShowSat.setOnClickListener(this);
 		        BClose.setOnClickListener(this);
-		        mapText.setText(callData[1]);
+		        BDriveDir.setOnClickListener(this);
+		        //mapText.setTextSize(12);
+		        BDriveDir.setText(callData[1]);
 		        mapView.setBuiltInZoomControls(true);
 		        
 		        mapView.setStreetView(true);
@@ -176,10 +179,10 @@ public class MapOverlay extends Overlay {
 			paint.setARGB(250,255,0,0);
 			paint.setAntiAlias(true);
 			paint.setFakeBoldText(true);
-			int rad =9;
+			int rad =6;
 			RectF oval = new RectF(myPoint.x-rad,myPoint.y-rad,myPoint.x+rad,myPoint.y+rad);
-			canvas.drawOval(oval, paint);
-			canvas.drawText(Call, myPoint.x+rad, myPoint.y, paint);
+			canvas.drawRect(oval, paint);
+			canvas.drawText(Call, myPoint.x+rad+2, myPoint.y+2, paint);
 		}
 		else {
 			//draw on shadow		
@@ -202,7 +205,16 @@ public void onClick(View v) {
 	case R.id.BShowSat:
 		ShowSat();
 		break;
+	case R.id.BDriveDir:
+		DriveDir();
+		break;
 	}
+	
+}
+
+
+private void DriveDir() {
+	// TODO Auto-generated method stub
 	
 }
 }

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="fill_parent">
-<view android:id="@+id/mapView" class="com.google.android.maps.MapView"  android:enabled="true" android:clickable="true" android:apiKey="0srUI2D4-1MNAlEtjycDCEX-ztDkgLyECNeDBmg" android:layout_height="fill_parent" android:layout_width="fill_parent" />
+<view android:id="@+id/mapView" class="com.google.android.maps.MapView"  android:enabled="true" android:clickable="true" android:apiKey="0srUI2D4-1MM5TbJNVVqpipEuZabyD6KkLkT4bQ" android:layout_height="fill_parent" android:layout_width="fill_parent" />
  
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
     android:orientation="horizontal"
@@ -13,13 +13,8 @@
 </Button>
 <Button android:id="@+id/BMapClose" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/button_close" android:clickable="true">
 </Button>
- <TextView
- 		android:id="@+id/MapText"
- 		android:layout_width="wrap_content" 
-    	android:layout_height="wrap_content"
- 		android:text="@string/CallAddress"
- 		/>
-
+<Button android:id="@+id/BDriveDir" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/CallAddress" android:clickable="true">
+</Button>
 
 </LinearLayout>
 </FrameLayout>
