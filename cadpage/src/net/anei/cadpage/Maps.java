@@ -142,9 +142,10 @@ public void drawMap() {
 		        
 		        positionOverlay = new MapOverlay();
 		        List<Overlay> overlays = mapView.getOverlays();
-		        overlays.add(positionOverlay);
-		        mc = mapView.getController();
+		        
 		        try {
+		        overlays.add(positionOverlay);
+			    mc = mapView.getController();
 		        mc.setCenter(p);
 		        mc.setZoom(19); 
 		        mapView.invalidate();
