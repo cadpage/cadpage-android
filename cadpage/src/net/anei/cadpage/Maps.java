@@ -28,6 +28,9 @@ import com.google.android.maps.Projection;
 
 
 public  class Maps extends MapActivity implements OnClickListener {
+	private static final int Click_Ok = 0;
+	private static final int Click_Cancel = 0;
+
 	protected boolean isRouteDisplayed() {
 		return false;
 	}
@@ -141,11 +144,23 @@ public void drawMap() {
 		        List<Overlay> overlays = mapView.getOverlays();
 		        overlays.add(positionOverlay);
 		        mc = mapView.getController();
-		       
+		        try {
 		        mc.setCenter(p);
 		        mc.setZoom(19); 
 		        mapView.invalidate();
+		        } catch (Exception ex) {
+		        	if (Log.DEBUG) Log.v("Error on MC SetCenter" + ex.toString());
+		        	Dialog locationError = new AlertDialog.Builder(
+		    				 Maps.this).setIcon(0).setTitle("Error").setPositiveButton("Ok", null)
+		    				.setMessage("Sorry, the address can not be found.")
+		    				.create();
+		    		  		locationError.show();
+		        }
 }
+
+   
+
+
 		
 private void ShowSat() {
 	// TODO Auto-generated method stub

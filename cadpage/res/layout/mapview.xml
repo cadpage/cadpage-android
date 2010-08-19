@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="fill_parent">
-<view android:id="@+id/mapView" class="com.google.android.maps.MapView"  android:enabled="true" android:clickable="true" android:apiKey="0srUI2D4-1MM5TbJNVVqpipEuZabyD6KkLkT4bQ" android:layout_height="fill_parent" android:layout_width="fill_parent" />
- 
+<view android:id="@+id/mapView" class="com.google.android.maps.MapView"  android:enabled="true" android:clickable="true"  android:apiKey="0srUI2D4-1MN3cEvcy079xglEv4_1vjXlm1oi0g"  android:layout_height="fill_parent" android:layout_width="fill_parent" />
+ // debug key android:apiKey="0srUI2D4-1MM5TbJNVVqpipEuZabyD6KkLkT4bQ"
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
     android:orientation="horizontal"
     android:layout_width="fill_parent" 

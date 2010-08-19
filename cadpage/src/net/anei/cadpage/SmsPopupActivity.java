@@ -512,7 +512,7 @@ public class SmsPopupActivity extends Activity {
     if (idx >= 0) {
     	// Decode the call page and place the data in the database
     	decodePage(strMessage);
-    } 
+   
     
     // If it's a MMS message, just show the MMS layout
     if (message.getMessageType() == SmsMmsMessage.MESSAGE_TYPE_MMS) {
@@ -573,7 +573,8 @@ public class SmsPopupActivity extends Activity {
         }
       });
     }
-
+   
+    
     // Update TextView that contains the timestamp for the incoming message
     String headerText = getString(R.string.new_text_at, message.getFormattedTimestamp().toString());
 
@@ -585,7 +586,11 @@ public class SmsPopupActivity extends Activity {
       mmsSubjectTV.setText(getString(R.string.mms_subject) + " " + message.getMessageBody());
     }
     messageReceivedTV.setText(headerText);
+  } else { // end if on idx check
+	  myFinish();
   }
+  } //end of function
+
   
 private String decodePage(String body) {
 		// Take call from SMS Message and divide data up.
@@ -598,11 +603,11 @@ private String decodePage(String body) {
 		  String strCall;
 		  String strAddress;
 		  String strCity;
-		  String strApt;
-		  String strCross;
-		  String strBox;
-		  String strADC;
-		  String strUnit;
+		  String strApt ="";
+		  String strCross="";
+		  String strBox="";
+		  String strADC="";
+		  String strUnit="";
 //		  String strDebug;
 //		  int cIndex = 0;
 		  strData.replace(":", ",");
@@ -629,13 +634,16 @@ private String decodePage(String body) {
 		  else if (strCity.compareTo("ST")==0){ strCity="Sterling, VA";}
 		  else if (strCity.compareTo("MB")==0){ strCity="Middleburg, VA";}
 		  else if (strCity.length() < 1){ strCity="Error";}
-		  
+		
+		  try {
 		  strApt = AData[1].substring(AData[1].indexOf("Apt:"));
 		  strCross = AData[2].substring(5);
 		  strUnit = AData[3];
 		  strBox = AData[4].substring(4);
 		  strADC = AData[5].substring(4,AData[5].indexOf("["));
-		  
+		  } catch (Exception ex) {
+			  if (Log.DEBUG) Log.v("Exception in DecodePage-" + ex.toString());
+		  }
 		  
 
 
