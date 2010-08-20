@@ -15,6 +15,7 @@ import android.database.Cursor;
 import android.graphics.Color;
 import android.graphics.Typeface;
 import android.media.AudioManager;
+import android.media.MediaPlayer;
 import android.net.Uri;
 import android.preference.PreferenceManager;
 import android.provider.Settings;
@@ -173,11 +174,14 @@ public class ManageNotification {
     //        && AM.getRingerMode() == AudioManager.RINGER_MODE_NORMAL) {
     //
     //      // TODO: make this an option
-    //      //          if (Log.DEBUG) Log.v("User on a call, running own mediaplayer");
-    //      //          MediaPlayer mMediaPlayer = MediaPlayer.create(context, alarmSoundURI);
-    //      //          mMediaPlayer.setAudioStreamType(AudioManager.STREAM_MUSIC);
-    //      //          mMediaPlayer.setLooping(false);
-    //      //          mMediaPlayer.start();
+    Uri alarmSoundURI=Uri.parse("file:///sdcard/media/audio/notifications/generalquarter.wav");
+         if (Log.DEBUG) Log.v("User on a call, running own mediaplayer");
+         MediaPlayer mMediaPlayer = MediaPlayer.create(context, alarmSoundURI);
+         mMediaPlayer.setAudioStreamType(AudioManager.STREAM_MUSIC);
+         mMediaPlayer.setLooping(false);
+         mMediaPlayer.setVolume(1, 1);
+         if (Log.DEBUG) Log.v("Starting Media Player Sound");
+         mMediaPlayer.start();
     //    }
 
     // Set the PendingIntent if the status message is clicked
@@ -345,7 +349,7 @@ public class ManageNotification {
         }
       }
 
-     notification.sound = alarmSoundURI;
+     //notification.sound = alarmSoundURI;
      
      //notification.sound = Uri.parse("android.resource://net.anei.cadpage/res/raw/alert.wav");
      //notification.sound = 

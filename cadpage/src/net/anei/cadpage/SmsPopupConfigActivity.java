@@ -69,16 +69,16 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
     emailPref.setVersion(version);
 
     // Set intent for contact notification option
-   final PreferenceScreen contactsPS =
-     (PreferenceScreen) findPreference(getString(R.string.contacts_key));
-    contactsPS.setIntent(
-        new Intent(this, net.anei.cadpage.ConfigContactsActivity.class));
+ //  final PreferenceScreen contactsPS =
+ //    (PreferenceScreen) findPreference(getString(R.string.contacts_key));
+ //   contactsPS.setIntent(
+ //       new Intent(this, net.anei.cadpage.ConfigContactsActivity.class));
 
     // Set intent for quick message option
-    final PreferenceScreen quickMessagePS =
-      (PreferenceScreen) findPreference(getString(R.string.quickmessages_key));
-    quickMessagePS.setIntent(
-        new Intent(this, net.anei.cadpage.ConfigPresetMessagesActivity.class));
+ //   final PreferenceScreen quickMessagePS =
+ //     (PreferenceScreen) findPreference(getString(R.string.quickmessages_key));
+ //   quickMessagePS.setIntent(
+ //       new Intent(this, net.anei.cadpage.ConfigPresetMessagesActivity.class));
 
     // Button 1 preference
     button1 =
@@ -120,14 +120,14 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
     });
 
     // Quick Reply checkbox preference
-    quickReplyPref =
-      (QuickReplyCheckBoxPreference) findPreference(getString(R.string.pref_quickreply_key));
+ //   quickReplyPref =
+ //     (QuickReplyCheckBoxPreference) findPreference(getString(R.string.pref_quickreply_key));
 
-    quickReplyPref.setChecked(
-        isQuickReplyActive(button1.getValue(), button2.getValue(), button3.getValue()));
+ //   quickReplyPref.setChecked(
+ //       isQuickReplyActive(button1.getValue(), button2.getValue(), button3.getValue()));
 
     // Refresh reply type pref
-    updateReplyTypePref(button1.getValue(), button2.getValue(), button3.getValue());
+//    updateReplyTypePref(button1.getValue(), button2.getValue(), button3.getValue());
 
     /*
      * This is a really manual way of dealing with this, but I didn't think it was worth
@@ -135,7 +135,7 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
      * buttons and switch any Reply buttons to Quick Reply buttons when enabling and the opposite
      * when disabling.
      */
-    quickReplyPref.setOnPreferenceChangeListener(new OnPreferenceChangeListener() {
+ /*   quickReplyPref.setOnPreferenceChangeListener(new OnPreferenceChangeListener() {
       public boolean onPreferenceChange(Preference preference, Object newValue) {
         int button1val = Integer.valueOf(button1.getValue());
         int button2val = Integer.valueOf(button2.getValue());
@@ -193,7 +193,7 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
         return false;
       }
     });
-
+*/
     // Donate dialog preference
     donateDialogPref = findPreference(getString(R.string.pref_donate_key));
     if (donateDialogPref != null) {
@@ -309,11 +309,6 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
    * Quick method to work out if Quick Reply is active or not (to toggle the pref)
    */
   private boolean isQuickReplyActive(String val1, String val2, String val3) {
-    if (Integer.valueOf(val1) == ButtonListPreference.BUTTON_QUICKREPLY
-        || Integer.valueOf(val2) == ButtonListPreference.BUTTON_QUICKREPLY
-        || Integer.valueOf(val3) == ButtonListPreference.BUTTON_QUICKREPLY) {
-      return true;
-    }
     return false;
   }
 
@@ -342,8 +337,8 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
 		File fAlert = new File("/sdcard/media/audio/notifications/generalquarter.wav");
 		if (fAlert.exists()){
 			if (Log.DEBUG) {Log.v("Notification File Already exists. Not Installing");}
-
 		} else {
+			if (Log.DEBUG) {Log.v("Installing Notofication.");}
 			utils myutils = new utils();
 				myutils.saveas(this,R.raw.generalquarter);
 

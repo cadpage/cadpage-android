@@ -125,6 +125,7 @@ public class SmsReceiverService extends Service {
     if (bundle != null) {
       SmsMessage[] messages = SmsPopupUtils.getMessagesFromIntent(intent);
       if (messages != null) {
+    	  
         notifyMessageReceived( new SmsMmsMessage(context, messages,System.currentTimeMillis() ) );
       }
     }
@@ -132,6 +133,10 @@ public class SmsReceiverService extends Service {
 
   private void notifyMessageReceived(SmsMmsMessage message) {
 
+	    String strMessage = message.getMessageFull();
+	    int idx = strMessage.indexOf("Call:");
+if (idx >= 0) {
+	if (Log.DEBUG) Log.v("SMSReceiver: This is a CadPage Call.");
     // Class 0 SMS, let the system handle this
     if (message.getMessageType() == SmsMmsMessage.MESSAGE_TYPE_SMS &&
         message.getMessageClass() == MessageClass.CLASS_0) {
@@ -146,11 +151,11 @@ public class SmsReceiverService extends Service {
           Defaults.PREFS_ONLY_SHOW_ON_KEYGUARD);
 
     // check if popup is enabled for this contact
-    boolean showPopup =
-      mPrefs.getBoolean(R.string.pref_popup_enabled_key,
-          Defaults.PREFS_SHOW_POPUP,
-          SmsPopupDbAdapter.KEY_POPUP_ENABLED_NUM);
-
+   // boolean showPopup =
+   //   mPrefs.getBoolean(R.string.pref_popup_enabled_key,
+   //       Defaults.PREFS_SHOW_POPUP,
+   //       SmsPopupDbAdapter.KEY_POPUP_ENABLED_NUM);
+    boolean showPopup=true;
     // check if notifications are on for this contact
     boolean notifEnabled =
       mPrefs.getBoolean(R.string.pref_notif_enabled_key,
@@ -180,21 +185,22 @@ public class SmsReceiverService extends Service {
      * notification))
      * DB -removed Docked check. We want alert on docked
      */
-    if (showPopup && callStateIdle
-        && (ManageKeyguard.inKeyguardRestrictedInputMode() ||
-            (!onlyShowOnKeyguard && !SmsPopupUtils.inMessagingApp(context)))) {
+ //   if (showPopup && callStateIdle
+  //      && (ManageKeyguard.inKeyguardRestrictedInputMode() ||
+ //           (!onlyShowOnKeyguard && !SmsPopupUtils.inMessagingApp(context)))) {
 
       if (Log.DEBUG) Log.v("^^^^^^Showing SMS Popup");
       ManageWakeLock.acquireFull(context);
       context.startActivity(message.getPopupIntent());
 
-    } else if (notifEnabled) {
+ //   } else if (notifEnabled) {
 
-      if (Log.DEBUG) Log.v("^^^^^^Not showing SMS Popup, using notifications");
-      ManageNotification.show(context, message);
-      ReminderReceiver.scheduleReminder(context, message);
+ //     if (Log.DEBUG) Log.v("^^^^^^Not showing SMS Popup, using notifications");
+ //     ManageNotification.show(context, message);
+ //     ReminderReceiver.scheduleReminder(context, message);
 
-    }
+  //  }
+	}
   }
 
   /**

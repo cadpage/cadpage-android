@@ -124,10 +124,6 @@
               android:dependency="@string/pref_notif_repeat_key" />
           </PreferenceCategory>
         </PreferenceScreen>
-        <PreferenceScreen
-          android:key="@string/contacts_key"
-          android:title="@string/pref_contacts_title"
-          android:summary="@string/pref_contacts_summary" />
         <net.anei.cadpage.preferences.DialogPreference
           android:key="@string/pref_notif_help_key"
           android:title="@string/pref_notif_help_title"
@@ -180,36 +176,6 @@
             android:defaultValue="@string/pref_button3_default"
             android:dependency="@string/pref_show_buttons_key" />
         </PreferenceScreen>
-      </PreferenceCategory>
-      <PreferenceCategory
-        android:title="@string/pref_quickreply_title"
-        android:key="@string/pref_quickreply_cat_key">
-        <net.anei.cadpage.preferences.QuickReplyCheckBoxPreference
-          android:key="@string/pref_quickreply_key"
-          android:title="@string/pref_quickreply_title"
-          android:summaryOn="@string/pref_quickreply_summaryon"
-          android:summaryOff="@string/pref_quickreply_summaryoff"
-          android:defaultValue="@string/pref_quickreply_default" />
-        <EditTextPreference
-          android:key="@string/pref_notif_signature_key"
-          android:title="@string/pref_notif_signature_title"
-          android:summary="@string/pref_notif_signature_summary"
-          android:dialogIcon="@android:drawable/ic_dialog_info"
-          android:dialogTitle="@string/pref_notif_signature_title"
-          android:dependency="@string/pref_quickreply_key" />
-        <CheckBoxPreference
-          android:key="@string/pref_delivery_report_key"
-          android:title="@string/pref_delivery_report_title"
-          android:summary="@string/pref_delivery_report_summary"
-          android:defaultValue="@string/pref_delivery_report_default"
-          android:dependency="@string/pref_quickreply_key" />
-        <CheckBoxPreference
-          android:key="@string/pref_split_message_key"
-          android:title="@string/pref_split_message_title"
-          android:summaryOn="@string/pref_split_message_summaryon"
-          android:summaryOff="@string/pref_split_message_summaryoff"
-          android:defaultValue="@string/pref_split_message_default"
-          android:dependency="@string/pref_quickreply_key" />
       </PreferenceCategory>
       <PreferenceCategory
         android:title="@string/pref_screen_category">
@@ -283,7 +249,7 @@
     android:title="@string/pref_other_title">
     <Preference
       android:key="@string/pref_donate_key"
-      android:title="@string/pref_donate_title" />
+      android:title="@string/pref_donate_title" ></Preference>
     <PreferenceScreen
       android:key="@string/pref_faq_key"
       android:title="@string/pref_faq_title"
