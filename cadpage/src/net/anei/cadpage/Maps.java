@@ -55,9 +55,9 @@ public  class Maps extends MapActivity implements OnClickListener {
 	    // This spawns a new thread to do the map lookup so that it doesn't break the interface.
 	    Thread searchAdress = new Thread() {
 	      public void run(){
-	    	  Boolean res = false ;
+	    	  Boolean res = false  ;
 	    	  res = MapAddress(callData);
-	    	  if (res = true){
+	    	  if (res == true){
 	    	  showAdressResults.sendEmptyMessage(0);
 	    	  pd.dismiss();
 	    	  } else {
@@ -100,14 +100,17 @@ public  class Maps extends MapActivity implements OnClickListener {
 	             p = new GeoPoint(
 	                     (int) (addresses.get(0).getLatitude() * 1E6), 
 	                     (int) (addresses.get(0).getLongitude() * 1E6));
+	             
 	             return true;
-	         }    
+	         }  else {
+	        	  Log.v("No Address Matches");
+	        	 return false;
+	         }
 	     } catch (IOException e) {
 	         Log.v("Error in GeoCode function E:"  + e.getMessage());
 	         //MapAddress();
 	         return false;
 	     }
-		return false;
 	     
 	     
 	}
