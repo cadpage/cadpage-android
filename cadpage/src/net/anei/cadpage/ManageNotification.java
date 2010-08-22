@@ -103,9 +103,9 @@ public class ManageNotification {
     long timestamp = message.getTimestamp();
 
     // Check if there are unread messages - if not, we're done :)
-    if (unreadCount < 1) {
-      return;
-    }
+    //if (unreadCount < 1) {
+    //  return;
+    //}
 
     PopupNotification n = buildNotification(context, message.getContactId(), onlyUpdate, notif);
 
@@ -152,7 +152,8 @@ public class ManageNotification {
       contentText = context.getString(R.string.notification_multiple_text, unreadCount);
       // smsIntent = SMSPopupUtils.getSmsIntent();
     } else { // Else 1 message, set text and intent accordingly
-      contentTitle = contactName;
+      //contentTitle = contactName;
+      contentTitle = "Alert";
       contentText = messageBody;
       smsIntent = message.getReplyIntent(n.replyToThread);
     }
@@ -174,15 +175,16 @@ public class ManageNotification {
     //        && AM.getRingerMode() == AudioManager.RINGER_MODE_NORMAL) {
     //
     //      // TODO: make this an option
-    Uri alarmSoundURI=Uri.parse("file:///sdcard/media/audio/notifications/generalquarter.wav");
-         if (Log.DEBUG) Log.v("User on a call, running own mediaplayer");
-         MediaPlayer mMediaPlayer = MediaPlayer.create(context, alarmSoundURI);
-         mMediaPlayer.setAudioStreamType(AudioManager.STREAM_MUSIC);
-         mMediaPlayer.setLooping(false);
-         mMediaPlayer.setVolume(1, 1);
-         if (Log.DEBUG) Log.v("Starting Media Player Sound");
-         mMediaPlayer.start();
-    //    }
+   // Uri alarmSoundURI=Uri.parse("file:///sdcard/media/audio/notifications/generalquarter.wav");
+   //   if (Log.DEBUG) Log.v("running own mediaplayer");
+   //     MediaPlayer mMediaPlayer = MediaPlayer.create(context, alarmSoundURI);
+   //
+   //    mMediaPlayer.setAudioStreamType(AudioManager.STREAM_MUSIC);
+   //     mMediaPlayer.setLooping(false);
+   //     mMediaPlayer.setVolume(1, 1);
+   //      if (Log.DEBUG) Log.v("Starting Media Player Sound");
+   //     mMediaPlayer.start();
+    //   }
 
     // Set the PendingIntent if the status message is clicked
     PendingIntent notifIntent = PendingIntent.getActivity(context, 0, smsIntent, 0);
@@ -353,7 +355,14 @@ public class ManageNotification {
      
      //notification.sound = Uri.parse("android.resource://net.anei.cadpage/res/raw/alert.wav");
      //notification.sound = 
-
+      //Uri alarmSoundURI=Uri.parse("file:///sdcard/media/audio/notifications/generalquarter.wav");
+      if (Log.DEBUG) Log.v("running own mediaplayer");
+      MediaPlayer mMediaPlayer = MediaPlayer.create(context, alarmSoundURI);
+      mMediaPlayer.setAudioStreamType(AudioManager.STREAM_MUSIC);
+      mMediaPlayer.setLooping(false);
+      mMediaPlayer.setVolume(1, 1);
+      if (Log.DEBUG) Log.v("Starting Media Player Sound");
+      mMediaPlayer.start();
       
     }
 

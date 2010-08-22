@@ -633,6 +633,8 @@ private String decodePage(String body) {
 		  else if (strCity.compareTo("AL")==0){ strCity="Aldie, VA";}
 		  else if (strCity.compareTo("ST")==0){ strCity="Sterling, VA";}
 		  else if (strCity.compareTo("MB")==0){ strCity="Middleburg, VA";}
+		  else if (strCity.compareTo("AB")==0){ strCity="Ashburn, VA";}
+		  else if (strCity.compareTo("SP")==0){ strCity="Sterling, VA";}
 		  else if (strCity.length() < 1){ strCity="Error";}
 		
 		  try {
@@ -1010,18 +1012,23 @@ private String decodePage(String body) {
    */
   
 private void  mapMessage()  {
-	  /* Map the message in Google maps. There is a different function for driving directions.
-	   * Use custom Google map url for hydrants and such
-	   */
+	  Boolean bNet = false;
 	if (Log.DEBUG) Log.v("Request Received to Map Call");
-	
-
+	bNet = haveNet();
+	if (bNet == true) {
 	Intent i =new Intent(SmsPopupActivity.this,Maps.class);
 	Bundle bun = new Bundle();
 	bun.putStringArray("CallData", callData);
 	i.putExtras(bun);
 	startActivity(i);
-
+	} else {
+		if (Log.DEBUG) Log.v("Error: No Network Connection.");
+		Dialog locationError = new AlertDialog.Builder(
+				 this).setIcon(0).setTitle("Error").setPositiveButton("Ok", null)
+				.setMessage("Unable to Map Address due to Network Failure.")
+				.create();
+		  		locationError.show();
+	}
 
 
 	

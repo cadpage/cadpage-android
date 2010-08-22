@@ -12,6 +12,7 @@ import android.os.Message;
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.app.ProgressDialog;
+import android.content.DialogInterface;
 import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.graphics.Point;
@@ -39,13 +40,14 @@ public  class Maps extends MapActivity implements OnClickListener {
 	private Button BShowSat;
 	private Button BClose;
 	private Button BDriveDir;
-	
+	private Boolean bSearch = false;
 	MapOverlay positionOverlay;
 	
 	 @Override
 	    public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		if (Log.DEBUG) Log.v("Starting Map Launch");
+		
 		 final ProgressDialog pd;
 		    pd = ProgressDialog.show(Maps.this, "Working..", "Searching for address", true, false);
 		    
@@ -58,30 +60,46 @@ public  class Maps extends MapActivity implements OnClickListener {
 	    	  Boolean res = false  ;
 	    	  res = MapAddress(callData);
 	    	  if (res == true){
+	    		  bSearch=true;
 	    	  showAdressResults.sendEmptyMessage(0);
 	    	  pd.dismiss();
 	    	  } else {
-	    		  Dialog locationError = new AlertDialog.Builder(
-	    				 Maps.this).setIcon(0).setTitle("Error").setPositiveButton("Ok", null)
-	    				.setMessage("Sorry, the address can not be found.")
-	    				.create();
-	    		  		locationError.show();
+	    		  pd.dismiss();
+	    		  bSearch=false;
 	    	  }
-	    	  
+
 	      }
 	      
 	    };
 	    
 	    searchAdress.start();
 	    
+
 	    if (Log.DEBUG) Log.v("Mapping Completed;");
+	    
 	 
 	 }
 	 private Handler showAdressResults = new Handler() {
 			@Override
 			   public void handleMessage(Message msg) {
+		  	    if (bSearch== false){
+			    	Dialog locationError = new AlertDialog.Builder(
+		   				 Maps.this).setIcon(0).setTitle("Error").setPositiveButton("Ok", new DialogInterface.OnClickListener() {
+							
+							@Override
+							public void onClick(DialogInterface dialog, int which) {
+								dialog.cancel();
+								Maps.this.finish();
+							}
+						})
+		   				.setMessage("Sorry, the address can not be found.")
+		   				.create();
+
+		   		  		locationError.show();
+			    } else {
 				   	drawMap();
 			   }
+			}
 		    };
 		    
 
@@ -233,7 +251,7 @@ public void onClick(View v) {
 
 
 private void DriveDir() {
-	// TODO Auto-generated method stub
+	// Find Current Position.
 	
 }
 }
