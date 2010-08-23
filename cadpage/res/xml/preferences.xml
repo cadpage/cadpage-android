@@ -260,7 +260,7 @@
     </PreferenceScreen>
     <net.anei.cadpage.preferences.DialogPreference
       android:key="@string/pref_about_key"
-      android:dialogIcon="@drawable/smspopup_icon"
+      android:dialogIcon="@drawable/cadpage_icon"
       android:title="@string/pref_about_title"
       android:dialogTitle="@string/app_name"
       android:summary="@string/pref_about_summary"
@@ -269,7 +269,7 @@
       android:key="@string/pref_sendemail_key"
       android:title="@string/pref_sendemail_title"
       android:summary="@string/pref_sendemail_summary"
-      android:dialogIcon="@drawable/smspopup_icon"
+      android:dialogIcon="@drawable/cadpage_icon"
       android:dialogTitle="@string/pref_sendemail_title"
       android:dialogMessage="@string/pref_sendemail_dialog"
       android:positiveButtonText="@string/pref_sendemail_buttonok"
