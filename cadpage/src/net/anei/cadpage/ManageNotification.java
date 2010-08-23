@@ -213,7 +213,10 @@ public class ManageNotification {
     if (!mPrefs.getBoolean(
         R.string.pref_notif_enabled_key,
         Defaults.PREFS_NOTIF_ENABLED,
-        SmsPopupDbAdapter.KEY_ENABLED_NUM)) {
+        SmsPopupDbAdapter.KEY_ENABLED_NUM) && !mPrefs.getBoolean(
+                R.string.pref_notif_override_key,
+                Defaults.PREFS_NOTIF_OVERRIDE,
+                SmsPopupDbAdapter.KEY_ENABLED_NUM)) {
       return null;
     }
 
@@ -351,20 +354,32 @@ public class ManageNotification {
         }
       }
 
-     //notification.sound = alarmSoundURI;
+      if (!mPrefs.getBoolean(
+    	        R.string.pref_notif_override_key,
+    	        Defaults.PREFS_NOTIF_OVERRIDE,
+    	        SmsPopupDbAdapter.KEY_ENABLED_NUM)) {
+
      
      //notification.sound = Uri.parse("android.resource://net.anei.cadpage/res/raw/alert.wav");
      //notification.sound = 
       //Uri alarmSoundURI=Uri.parse("file:///sdcard/media/audio/notifications/generalquarter.wav");
       if (Log.DEBUG) Log.v("running own mediaplayer");
+      try {
       MediaPlayer mMediaPlayer = MediaPlayer.create(context, alarmSoundURI);
-      mMediaPlayer.setAudioStreamType(AudioManager.STREAM_MUSIC);
+      mMediaPlayer.setAudioStreamType(NOTIFICATION_ALERT);
+      //mMediaPlayer.setAudioStreamType(NOTIFICATION_ALERT);
+      //mMediaPlayer.setAudioStreamType(AudioManager.STREAM_MUSIC);
       mMediaPlayer.setLooping(false);
       mMediaPlayer.setVolume(1, 1);
       if (Log.DEBUG) Log.v("Starting Media Player Sound");
       mMediaPlayer.start();
-      
-    }
+      } catch (NullPointerException e){
+    	  Log.v("Exception: At Notification Tone Playback." + e.toString()); 	  
+      }
+      }else 
+    notification.sound = alarmSoundURI;
+    	}
+    
 
     // Set intent to execute if the "clear all" notifications button is pressed -
     // basically stop any future reminders.

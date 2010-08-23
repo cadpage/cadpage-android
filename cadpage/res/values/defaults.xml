@@ -9,7 +9,7 @@
    <string name="pref_show_buttons_default">true</string>
    <string name="pref_show_delete_button_default">false</string>
    <string name="pref_blur_default">true</string>
-   <string name="pref_notif_enabled_default">false</string>
+   <string name="pref_notif_enabled_default">false</string><string name="pref_notif_override_default">false</string>
    <string name="pref_popup_enabled_default">true</string>
    <string name="pref_vibrate_default">true</string>
    <string name="pref_vibrate_pattern_default">0,1200</string>
@@ -29,4 +29,5 @@
    <string name="pref_autorotate_default">true</string>
    <string name="pref_screen_on_default">true</string>
    
+
 </resources>

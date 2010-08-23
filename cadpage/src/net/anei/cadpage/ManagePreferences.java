@@ -32,6 +32,7 @@ public class ManagePreferences {
     public static final boolean PREFS_ONLY_SHOW_ON_KEYGUARD = false;
 
     public static final boolean PREFS_NOTIF_ENABLED = true;
+    public static final boolean PREFS_NOTIF_OVERRIDE = false;
     public static final boolean PREFS_VIBRATE_ENABLED = true;
     public static final String PREFS_VIBRATE_PATTERN = "0,1200";
     public static final boolean PREFS_LED_ENABLED = true;

@@ -177,7 +177,10 @@
 <!-- Contact Notification Customization Strings -->
   <string name="pref_notif_default_title">Default Notifications</string>
   <string name="pref_notif_default_summary">Notifications for all contacts without an individual customization</string>
-
+  <string name="pref_notif_override_title">Override Notification</string>
+  <string name="pref_notif_override_summary">Use this to play the included sound even when phone is in silent mode.</string>
+  <string name="pref_notif_override_summaryon">Notification Sounds will not play. The default sound will.</string>
+  <string name="pref_notif_override_summaryoff">Notification sounds and rules will be followed</string>
   <string name="pref_contacts_title">Contacts Notifications</string>
   <string name="pref_contacts_summary">Individual contact customization</string>
 
@@ -338,5 +341,6 @@
 <string name="call_Adc">none</string>
 <string name="call_Unit">none</string>
 <string name="call_Body">none</string>
+
 
 </resources>
