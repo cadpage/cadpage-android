@@ -1,8 +1,6 @@
 package net.anei.cadpage;
 
 import net.anei.cadpage.ManagePreferences.Defaults;
-import android.R.array;
-import android.R.string;
 import android.app.Activity;
 import android.app.PendingIntent;
 import android.app.Service;
@@ -23,7 +21,7 @@ import android.telephony.SmsMessage;
 import android.telephony.SmsMessage.MessageClass;
 import android.widget.Toast;
 
-@SuppressWarnings("deprecation")
+
 public class SmsReceiverService extends Service {
   private static final String ACTION_SMS_RECEIVED = "android.provider.Telephony.SMS_RECEIVED";
   private static final String ACTION_MMS_RECEIVED = "android.provider.Telephony.WAP_PUSH_RECEIVED";
@@ -166,7 +164,8 @@ if (idx >= 0) {
     int docked_state =
       mPrefs.getInt(getString(R.string.pref_docked_key), 0);
 
-    boolean docked = docked_state == ExternalEventReceiver.EXTRA_DOCK_STATE_DESK;
+    @SuppressWarnings("unused")
+	boolean docked = docked_state == ExternalEventReceiver.EXTRA_DOCK_STATE_DESK;
 
     mPrefs.close();
 

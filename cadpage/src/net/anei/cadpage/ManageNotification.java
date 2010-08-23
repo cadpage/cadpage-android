@@ -253,10 +253,10 @@ public class ManageNotification {
           Defaults.PREFS_LED_PATTERN, SmsPopupDbAdapter.KEY_LED_PATTERN_CUSTOM_NUM);
 
     // Try and parse the user ringtone, use the default if it fails
-    //Uri alarmSoundURI =
-    //  Uri.parse(mPrefs.getString(R.string.pref_notif_sound_key, defaultRingtone,
-    //      SmsPopupDbAdapter.KEY_RINGTONE_NUM));
-    Uri alarmSoundURI=Uri.parse("file:///sdcard/media/audio/notifications/generalquarter.wav");
+    Uri alarmSoundURI =
+      Uri.parse(mPrefs.getString(R.string.pref_notif_sound_key, defaultRingtone,
+          SmsPopupDbAdapter.KEY_RINGTONE_NUM));
+    //Uri alarmSoundURI=Uri.parse("file:///sdcard/media/audio/notifications/generalquarter.wav");
     if (Log.DEBUG) Log.v("Sounds URI = " + alarmSoundURI.toString());
 
     // See if user wants some privacy

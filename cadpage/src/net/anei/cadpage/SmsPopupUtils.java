@@ -63,13 +63,13 @@ public class SmsPopupUtils {
   // The max size of either the width or height of the contact photo
   public static final int CONTACT_PHOTO_MAXSIZE = 1024;
 
-  private static final String[] AUTHOR_CONTACT_INFO = { "Adam K <smspopup@everythingandroid.net>" };
-  private static final String[] AUTHOR_CONTACT_INFO_DONATE = { "Adam K <smspopup+donate@everythingandroid.net>" };
+  private static final String[] AUTHOR_CONTACT_INFO = { "CadPage cadpage@arcolavfd.org" };
+  private static final String[] AUTHOR_CONTACT_INFO_DONATE = { "CadPage cadpage@arcolavfd.org" };
 
   public static final Uri DONATE_PAYPAL_URI =
-    Uri.parse("https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8246419");
+    Uri.parse("Not Available Yet");
   public static final Uri DONATE_MARKET_URI =
-    Uri.parse("market://search?q=pname:net.everythingandroid.smspopupdonate");
+    Uri.parse("Not Available Yet");
 
   // Platform detection
   public static final int SDK_VERSION_ECLAIR = 5;

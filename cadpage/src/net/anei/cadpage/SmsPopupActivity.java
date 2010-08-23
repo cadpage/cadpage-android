@@ -511,7 +511,7 @@ public class SmsPopupActivity extends Activity {
     
     if (idx >= 0) {
     	// Decode the call page and place the data in the database
-    	decodePage(strMessage);
+    	decodeLCFRPage(strMessage);
    
     
     // If it's a MMS message, just show the MMS layout
@@ -592,7 +592,7 @@ public class SmsPopupActivity extends Activity {
   } //end of function
 
   
-private String decodePage(String body) {
+private String decodeLCFRPage(String body) {
 		// Take call from SMS Message and divide data up.
 		// Sample Call "Call:
 
@@ -619,6 +619,7 @@ private String decodePage(String body) {
 			  // This is an intersection and not a street
 			   String[] strTemp = AData[1].split("/");
 			  strAddress = strTemp[0].substring(0,(strTemp[0].indexOf("-")));
+			  strAddress = strAddress + " and " +  strTemp[1].substring(0,(strTemp[1].indexOf("-")));
 			  strCity = strTemp[0].substring(strTemp[0].indexOf("-")+1);
 		  }else {
 			  strAddress = AData[1].substring(0,(AData[1].indexOf("-")));
@@ -635,6 +636,15 @@ private String decodePage(String body) {
 		  else if (strCity.compareTo("MB")==0){ strCity="Middleburg, VA";}
 		  else if (strCity.compareTo("AB")==0){ strCity="Ashburn, VA";}
 		  else if (strCity.compareTo("SP")==0){ strCity="Sterling, VA";}
+		  else if (strCity.compareTo("BL")==0){ strCity="Bluemont, VA";}
+		  else if (strCity.compareTo("CE")==0){ strCity="Centreville, VA";}
+		  else if (strCity.compareTo("HA")==0){ strCity="Hamilton, VA";}
+		  else if (strCity.compareTo("LV")==0){ strCity="Lovettsville, VA";}
+		  else if (strCity.compareTo("PA")==0){ strCity="Paris, VA";}
+		  else if (strCity.compareTo("PV")==0){ strCity="Purceville, VA";}
+		  else if (strCity.compareTo("PS")==0){ strCity="Paeonian, VA";}
+		  else if (strCity.compareTo("RH")==0){ strCity="Round Hill, VA";}
+		  else if (strCity.compareTo("UP")==0){ strCity="Upperville, VA";}
 		  else if (strCity.length() < 1){ strCity="Error";}
 		
 		  try {
