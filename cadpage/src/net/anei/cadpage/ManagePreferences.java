@@ -25,12 +25,11 @@ public class ManagePreferences {
     public static final boolean PREFS_AUTOROTATE = true;
     public static final boolean PREFS_PRIVACY = false;
     public static final boolean PREFS_SHOW_BUTTONS = true;
-    public static final String PREFS_BUTTON1 = String.valueOf(ButtonListPreference.BUTTON_CLOSE);
+    public static final String PREFS_BUTTON1 = String.valueOf(ButtonListPreference.BUTTON_MAP);
     public static final String PREFS_BUTTON2 = String.valueOf(ButtonListPreference.BUTTON_DELETE);
-    public static final String PREFS_BUTTON3 = String.valueOf(ButtonListPreference.BUTTON_REPLY);
+    public static final String PREFS_BUTTON3 = String.valueOf(ButtonListPreference.BUTTON_CLOSE);
     public static final boolean PREFS_SHOW_POPUP = true;
     public static final boolean PREFS_ONLY_SHOW_ON_KEYGUARD = false;
-
     public static final boolean PREFS_NOTIF_ENABLED = true;
     public static final boolean PREFS_NOTIF_OVERRIDE = false;
     public static final boolean PREFS_VIBRATE_ENABLED = true;

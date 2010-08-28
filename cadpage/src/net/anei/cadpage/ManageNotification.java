@@ -174,7 +174,7 @@ public class ManageNotification {
     //    if (callState == TelephonyManager.CALL_STATE_OFFHOOK
     //        && AM.getRingerMode() == AudioManager.RINGER_MODE_NORMAL) {
     //
-    //      // TODO: make this an option
+    //      // 
    // Uri alarmSoundURI=Uri.parse("file:///sdcard/media/audio/notifications/generalquarter.wav");
    //   if (Log.DEBUG) Log.v("running own mediaplayer");
    //     MediaPlayer mMediaPlayer = MediaPlayer.create(context, alarmSoundURI);
@@ -208,15 +208,14 @@ public class ManageNotification {
 
     ManagePreferences mPrefs = new ManagePreferences(context, contactId);
     AudioManager AM = (AudioManager) context.getSystemService(Context.AUDIO_SERVICE);
-
+    Uri alarmSoundURI;
     // Check if notifications are enabled - if not, we're done :)
     if (!mPrefs.getBoolean(
         R.string.pref_notif_enabled_key,
         Defaults.PREFS_NOTIF_ENABLED,
         SmsPopupDbAdapter.KEY_ENABLED_NUM) && !mPrefs.getBoolean(
                 R.string.pref_notif_override_key,
-                Defaults.PREFS_NOTIF_OVERRIDE,
-                SmsPopupDbAdapter.KEY_ENABLED_NUM)) {
+                Defaults.PREFS_NOTIF_OVERRIDE)) {
       return null;
     }
 
@@ -256,12 +255,12 @@ public class ManageNotification {
           Defaults.PREFS_LED_PATTERN, SmsPopupDbAdapter.KEY_LED_PATTERN_CUSTOM_NUM);
 
     // Try and parse the user ringtone, use the default if it fails
-    Uri alarmSoundURI =
-      Uri.parse(mPrefs.getString(R.string.pref_notif_sound_key, defaultRingtone,
-          SmsPopupDbAdapter.KEY_RINGTONE_NUM));
+    // If Notifications are On then get ring tone setting
+    //if (mPrefs.getBoolean(R.string.pref_notif_enabled_key,Defaults.PREFS_NOTIF_ENABLED,SmsPopupDbAdapter.KEY_ENABLED_NUM)) {
+     alarmSoundURI = Uri.parse(mPrefs.getString(R.string.pref_notif_sound_key, defaultRingtone, SmsPopupDbAdapter.KEY_RINGTONE_NUM));
     //Uri alarmSoundURI=Uri.parse("file:///sdcard/media/audio/notifications/generalquarter.wav");
-    if (Log.DEBUG) Log.v("Sounds URI = " + alarmSoundURI.toString());
-
+    if (Log.DEBUG){ Log.v("Sounds URI = " + alarmSoundURI.toString());}
+    //}
     // See if user wants some privacy
     boolean privacyMode =
       mPrefs.getBoolean(R.string.pref_privacy_key, Defaults.PREFS_PRIVACY);
@@ -354,33 +353,30 @@ public class ManageNotification {
         }
       }
 
-      if (!mPrefs.getBoolean(
-    	        R.string.pref_notif_override_key,
-    	        Defaults.PREFS_NOTIF_OVERRIDE,
-    	        SmsPopupDbAdapter.KEY_ENABLED_NUM)) {
-
-     
-     //notification.sound = Uri.parse("android.resource://net.anei.cadpage/res/raw/alert.wav");
-     //notification.sound = 
-      //Uri alarmSoundURI=Uri.parse("file:///sdcard/media/audio/notifications/generalquarter.wav");
-      if (Log.DEBUG) Log.v("running own mediaplayer");
-      try {
-      MediaPlayer mMediaPlayer = MediaPlayer.create(context, alarmSoundURI);
-      mMediaPlayer.setAudioStreamType(NOTIFICATION_ALERT);
+      if ( mPrefs.getBoolean(R.string.pref_notif_override_key,Defaults.PREFS_NOTIF_OVERRIDE) 
+    		  || mPrefs.getBoolean(R.string.pref_notif_enabled_key,Defaults.PREFS_NOTIF_ENABLED,SmsPopupDbAdapter.KEY_ENABLED_NUM)) {
+    	  if (mPrefs.getBoolean(R.string.pref_notif_override_key,Defaults.PREFS_NOTIF_OVERRIDE)) {
+    		  	if (Log.DEBUG){ Log.v("OVERRIDE ON: running own mediaplayer");}
+    	  alarmSoundURI=Uri.parse("file:///sdcard/media/audio/notifications/generalquarter.wav");
+    	  	try { 	  
+    	  		MediaPlayer mMediaPlayer = MediaPlayer.create(context, alarmSoundURI);
       //mMediaPlayer.setAudioStreamType(NOTIFICATION_ALERT);
-      //mMediaPlayer.setAudioStreamType(AudioManager.STREAM_MUSIC);
-      mMediaPlayer.setLooping(false);
-      mMediaPlayer.setVolume(1, 1);
-      if (Log.DEBUG) Log.v("Starting Media Player Sound");
-      mMediaPlayer.start();
-      } catch (NullPointerException e){
-    	  Log.v("Exception: At Notification Tone Playback." + e.toString()); 	  
-      }
-      }else 
-    notification.sound = alarmSoundURI;
-    	}
-    
-
+      //mMediaPlayer.setAudioStreamType(NOTIFICATION_ALERT);
+    	  		mMediaPlayer.setAudioStreamType(AudioManager.STREAM_MUSIC);
+    	  		mMediaPlayer.setLooping(false);
+    	  		mMediaPlayer.setVolume(1, 1);
+    	  			if (Log.DEBUG){ Log.v("Starting Media Player Sound");}
+    	  		mMediaPlayer.start();
+    	  	} catch (NullPointerException e){
+    	  		Log.v("Exception: At Notification Tone Playback." + e.toString()); 	  
+    	  	}
+    	  }	 
+    	  if (mPrefs.getBoolean(R.string.pref_notif_enabled_key,Defaults.PREFS_NOTIF_ENABLED,SmsPopupDbAdapter.KEY_ENABLED_NUM)) {
+    		  notification.sound = alarmSoundURI;
+    	  }
+      }// end notification check section
+   } // end !onlyupdate
+ 
     // Set intent to execute if the "clear all" notifications button is pressed -
     // basically stop any future reminders.
     Intent deleteIntent = new Intent(new Intent(context, ReminderReceiver.class));
@@ -392,13 +388,14 @@ public class ManageNotification {
     PopupNotification popupNotification = new PopupNotification(notification);
     popupNotification.replyToThread = replyToThread;
     popupNotification.privacyMode = privacyMode;
-
-    return popupNotification;
+    
+    return popupNotification ;
+    
   }
 
   // Clear the standard notification alert
   public static void clear(Context context) {
-    clear(context, NOTIFICATION_ALERT);
+   clear(context, NOTIFICATION_ALERT);
   }
 
   // Clear a single notification

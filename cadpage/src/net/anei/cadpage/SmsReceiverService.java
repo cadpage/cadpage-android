@@ -190,6 +190,7 @@ if (idx >= 0) {
 
       if (Log.DEBUG) Log.v("^^^^^^Showing SMS Popup");
       ManageWakeLock.acquireFull(context);
+      ManageNotification.show(context, message);
       context.startActivity(message.getPopupIntent());
 
  //   } else if (notifEnabled) {

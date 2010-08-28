@@ -1,6 +1,5 @@
 package net.anei.cadpage.wrappers;
 
-import android.content.ContentValues;
 import android.content.Context;
 import android.database.*;
 import android.database.sqlite.*;
