@@ -63,4 +63,5 @@
    <string name="pref_autorotate_key">autorotate</string>
    <string name="pref_screen_on_key">screenon</string>
    <string name="pref_docked_key">docked</string>
+<string name="pref_location_key">location</string>
 </resources>

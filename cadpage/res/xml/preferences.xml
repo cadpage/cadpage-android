@@ -245,13 +245,14 @@
           android:defaultValue="@string/pref_onlyShowOnKeyguard_default" />
       </PreferenceCategory>
     </PreferenceScreen>
-    <PreferenceScreen
-      android:key="@string/quickmessages_key"
-      android:title="@string/pref_message_presets_title"
-      android:summary="@string/pref_message_presets_summary"
-      android:dependency="@string/pref_enabled_key">
-    </PreferenceScreen>
-  </PreferenceCategory>
+    <ListPreference 
+    android:key="@string/pref_location_key"
+    android:title="@string/pref_location_title"
+    android:entries="@array/pref_location_options"
+    android:entryValues="@array/pref_location_values"
+    android:dialogTitle="Select Location"
+    android:defaultValue="Loudoun, VA" />
+    </PreferenceCategory>
   <PreferenceCategory
     android:key="@string/pref_other_key"
     android:title="@string/pref_other_title">

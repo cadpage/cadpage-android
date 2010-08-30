@@ -343,4 +343,7 @@
 <string name="call_Body">none</string>
 
 
+
+<string name="pref_location">location</string>
+<string name="pref_location_title">Location</string>
 </resources>

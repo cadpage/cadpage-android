@@ -118,7 +118,7 @@ public class SmsReceiverService extends Service {
    */
   private void handleSmsReceived(Intent intent) {
     if (Log.DEBUG) Log.v("SMSReceiver: Intercept SMS");
-
+    ManageNotification.bAlert=true;
     Bundle bundle = intent.getExtras();
     if (bundle != null) {
       SmsMessage[] messages = SmsPopupUtils.getMessagesFromIntent(intent);
@@ -132,7 +132,24 @@ public class SmsReceiverService extends Service {
   private void notifyMessageReceived(SmsMmsMessage message) {
 
 	    String strMessage = message.getMessageFull();
-	    int idx = strMessage.indexOf("Call:");
+	    ManagePreferences mPrefs = new ManagePreferences(context, message.getContactId());
+	    String sLocation = mPrefs.getString(R.string.pref_location,Defaults.PREFS_LOCATION);
+	    int iLocation = Integer.parseInt(sLocation);
+	    int idx = -1;
+	    
+	    switch (iLocation) {
+	    case 1:
+	    	idx = strMessage.indexOf("Call:");
+	    	break;
+	    case 2:
+	    	idx = strMessage.indexOf("TYPE:");
+	    	break;
+	    }
+	   
+
+	    
+	    
+	    
 if (idx >= 0) {
 	if (Log.DEBUG) Log.v("SMSReceiver: This is a CadPage Call.");
     // Class 0 SMS, let the system handle this
@@ -141,7 +158,7 @@ if (idx >= 0) {
       return;
     }
     // Fetch preferences
-    ManagePreferences mPrefs = new ManagePreferences(context, message.getContactId());
+    
 
     // Whether or not the popup should only show when keyguard is on
     boolean onlyShowOnKeyguard =
@@ -221,7 +238,7 @@ if (idx >= 0) {
 
       if (mmsMessage != null) {
         if (Log.DEBUG) Log.v("MMS found in content provider");
-        notifyMessageReceived(mmsMessage);
+        //notifyMessageReceived(mmsMessage);
       } else {
         if (Log.DEBUG) Log.v("MMS not found, sleeping (count is " + count + ")");
         count++;

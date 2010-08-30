@@ -1,7 +1,5 @@
 package net.anei.cadpage;
 
-import java.io.FileInputStream;
-import java.io.IOException;
 import java.util.ArrayList;
 
 import net.anei.cadpage.ManagePreferences.Defaults;
@@ -32,6 +30,7 @@ public class ManageNotification {
   public static final int NOTIFICATION_SEND_FAILED = 100;
   public static final String defaultRingtone = Settings.System.DEFAULT_NOTIFICATION_URI.toString();
   private static final Uri UNDELIVERED_URI = Uri.parse("content://mms-sms/undelivered");
+  public static Boolean bAlert = true; 
 
   /*
    * Class to hold the popup notification elements
@@ -81,7 +80,7 @@ public class ManageNotification {
     // TODO: can I just use Notification.setLatestEventInfo() to update instead?
 
     if (message != null) {
-      if (message.getUnreadCount() > 0) {
+      if (bAlert==true) {
         notify(context, message, true, NOTIFICATION_ALERT);
         return;
       }
@@ -103,9 +102,10 @@ public class ManageNotification {
     long timestamp = message.getTimestamp();
 
     // Check if there are unread messages - if not, we're done :)
-    //if (unreadCount < 1) {
-    //  return;
-    //}
+    if (bAlert==false) {
+    	if (Log.DEBUG){ Log.v("ManageNotification: Not Notifying. ");}
+      return;
+    }
 
     PopupNotification n = buildNotification(context, message.getContactId(), onlyUpdate, notif);
 
@@ -375,6 +375,7 @@ public class ManageNotification {
     		  notification.sound = alarmSoundURI;
     	  }
       }// end notification check section
+      
    } // end !onlyupdate
  
     // Set intent to execute if the "clear all" notifications button is pressed -
@@ -388,7 +389,7 @@ public class ManageNotification {
     PopupNotification popupNotification = new PopupNotification(notification);
     popupNotification.replyToThread = replyToThread;
     popupNotification.privacyMode = privacyMode;
-    
+    bAlert=false; // stop duplicate alerts.
     return popupNotification ;
     
   }

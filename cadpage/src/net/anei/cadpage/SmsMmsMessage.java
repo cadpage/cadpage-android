@@ -3,8 +3,6 @@ package net.anei.cadpage;
 import java.util.regex.MatchResult;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
-import net.anei.cadpage.SmsPopupUtils.ContactIdentification;
 import android.R.array;
 import android.R.string;
 import android.content.Context;
@@ -148,7 +146,7 @@ public class SmsMmsMessage {
 
     fromAddress = SmsPopupUtils.getMmsAddress(context, messageId);
 
-    ContactIdentification contactIdentify = null;
+    //ContactIdentification contactIdentify = null;
 
     if (PhoneNumberUtils.isWellFormedSmsAddress(fromAddress)) {
    //   contactIdentify = SmsPopupUtils.getPersonIdFromPhoneNumber(context, fromAddress);
@@ -160,11 +158,7 @@ public class SmsMmsMessage {
     //  fromEmailGateway = true;
     }
 
-    if (contactIdentify != null) {
-      contactId = contactIdentify.contactId;
-      contactLookupKey = contactIdentify.contactLookup;
-      contactName = contactIdentify.contactName;
-    }
+ 
   }
 
   /**
@@ -180,24 +174,9 @@ public class SmsMmsMessage {
     timestamp = _timestamp;
     messageType = _messageType;
 
-    ContactIdentification contactIdentify = null;
+   
 
-    if (PhoneNumberUtils.isWellFormedSmsAddress(fromAddress)) {
-      contactIdentify = SmsPopupUtils.getPersonIdFromPhoneNumber(context, fromAddress);
-      contactName = PhoneNumberUtils.formatNumber(fromAddress);
-      fromEmailGateway = false;
-    } else {
-      contactIdentify = SmsPopupUtils.getPersonIdFromEmail(context, fromAddress);
-      contactName = fromAddress;
-      fromEmailGateway = true;
-    }
-
-    if (contactIdentify != null) {
-      contactId = contactIdentify.contactId;
-      contactLookupKey = contactIdentify.contactLookup;
-      contactName = contactIdentify.contactName;
-    }
-
+  
     unreadCount = _unreadCount;
     threadId = _threadId;
     messageId = _messageId;
@@ -389,7 +368,7 @@ public class SmsMmsMessage {
 
   public void locateThreadId() {
     if (threadId == 0) {
-      threadId = SmsPopupUtils.findThreadIdFromAddress(context, fromAddress);
+     // threadId = SmsPopupUtils.findThreadIdFromAddress(context, fromAddress);
     }
   }
 

@@ -1,8 +1,6 @@
 package net.anei.cadpage;
 
 import java.util.List;
-
-import net.anei.cadpage.wrappers.ContactWrapper;
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.app.ListActivity;
@@ -52,27 +50,9 @@ public class ConfigContactsActivity extends ListActivity {
     requestWindowFeature(Window.FEATURE_PROGRESS);
     setContentView(R.layout.config_contacts_activity);
 
-    ContentResolver content = getContentResolver();
-    Cursor cursor =
-      content.query(
-          ContactWrapper.getContentUri(),
-          ContactWrapper.getBasePeopleProjection(),
-          null,
-          null,
-          ContactWrapper.getDefaultSortOrder());
-    ContactListAdapter adapter = new ContactListAdapter(this, cursor);
 
-    final AutoCompleteTextView contactsAutoComplete =
-      (AutoCompleteTextView) findViewById(R.id.ContactsAutoCompleteTextView);
-    contactsAutoComplete.setAdapter(adapter);
-
-    contactsAutoComplete.setOnItemClickListener(new OnItemClickListener() {
-      public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-        startActivity(getConfigPerContactIntent(id));
-        contactsAutoComplete.setText("");
-      }
-    });
-
+  
+ 
     mListView = getListView();
     mListView.setOnCreateContextMenuListener(new OnCreateContextMenuListener() {
       public void onCreateContextMenu(ContextMenu menu, View v, ContextMenuInfo menuInfo) {
@@ -170,8 +150,8 @@ public class ConfigContactsActivity extends ListActivity {
     //    //i.putExtra(PHONE, "mobile");
     //    startActivityForResult(i, REQ_CODE_CHOOSE_CONTACT);
 
-    startActivityForResult(
-        new Intent(Intent.ACTION_PICK, ContactWrapper.getContentUri()), REQ_CODE_CHOOSE_CONTACT);
+   // startActivityForResult(
+    //    new Intent(Intent.ACTION_PICK, ContactWrapper.getContentUri()), REQ_CODE_CHOOSE_CONTACT);
   }
 
   @Override
@@ -247,7 +227,7 @@ public class ConfigContactsActivity extends ListActivity {
           return true;
         case CONTEXT_MENU_DELETE_ID:
           if (Log.DEBUG) Log.v("Deleting contact " + info.id);
-          mDbAdapter.deleteContact(info.id);
+       //   mDbAdapter.deleteContact(info.id);
           fillData();
           return true;
         default:
@@ -286,106 +266,6 @@ public class ConfigContactsActivity extends ListActivity {
    * system database
    * 
    */
-  private class SynchronizeContactNames extends AsyncTask<Object, Integer, Object> {
-    private SmsPopupDbAdapter mDbAdapter;
-    private Cursor mCursor, sysContactCursor;
-    private ContentResolver mContentResolver;
-    private int totalCount;
-
-    @Override
-    protected void onPreExecute() {
-      mDbAdapter = new SmsPopupDbAdapter(getApplicationContext());
-      mDbAdapter.open(true);
-      mCursor = mDbAdapter.fetchAllContacts();
-      if (mCursor == null) {
-        totalCount = 0;
-      } else {
-        ConfigContactsActivity.this.startManagingCursor(mCursor);
-        totalCount = mCursor.getCount();
-        mContentResolver = ConfigContactsActivity.this.getContentResolver();
-      }
-    }
-
-    @Override
-    protected Bitmap doInBackground(Object... params) {
-      if (mCursor != null) {
-        int count = 0;
-        long contactId;
-        String contactName;
-        String sysContactName;
-        String rawSysContactName;
-
-        // loop through the local sms popup contacts table
-        while (mCursor.moveToNext()) {
-          count++;
-
-          contactName = mCursor.getString(SmsPopupDbAdapter.KEY_CONTACT_NAME_NUM);
-          contactId = mCursor.getLong(SmsPopupDbAdapter.KEY_CONTACT_ID_NUM);
-          // Log.v("Name("+count+"): " + contactName);
-
-          // fetch the system db contact name
-          sysContactCursor =
-            mContentResolver.query(
-                Uri.withAppendedPath(ContactWrapper.getContentUri(), String.valueOf(contactId)),
-                new String[] {ContactWrapper.getColumn(ContactWrapper.COL_DISPLAY_NAME)},
-                null, null, null);
-
-          if (sysContactCursor != null) {
-            ConfigContactsActivity.this.startManagingCursor(sysContactCursor);
-            if (sysContactCursor.moveToFirst()) {
-              rawSysContactName = sysContactCursor.getString(0);
-              if (rawSysContactName != null) {
-                sysContactName = rawSysContactName.trim();
-                if (!contactName.equals(sysContactName)) {
-                  // if different, update the local db
-                  mDbAdapter.updateContact(contactId, SmsPopupDbAdapter.KEY_CONTACT_NAME,
-                      sysContactName);
-                }
-              }
-            } else {
-              // if this contact has been removed from the system db then delete
-              // from the local db
-              mDbAdapter.deleteContact(contactId, false);
-            }
-            sysContactCursor.close();
-          }
-
-          // try { Thread.sleep(3000); } catch (InterruptedException e) {}
-
-          // update progress dialog
-          publishProgress(count);
-        }
-      }
-
-      // fill (refresh) the listview with latest data (must run on UI thread)
-      runOnUiThread(new Runnable() {
-        public void run() {
-          fillData();
-        }
-      });
-
-      return null;
-    }
-
-    @Override
-    protected void onProgressUpdate(Integer... values) {
-      getWindow().setFeatureInt(Window.FEATURE_PROGRESS,
-          Window.PROGRESS_END * values[0] / totalCount);
-    }
-
-    @Override
-    protected void onPostExecute(Object result) {
-      getWindow().setFeatureInt(Window.FEATURE_PROGRESS, Window.PROGRESS_END);
-      if (mCursor != null) mCursor.close();
-      if (mDbAdapter != null) mDbAdapter.close();
-    }
-
-    @Override
-    protected void onCancelled() {
-      if (mCursor != null) mCursor.close();
-      if (mDbAdapter != null) mDbAdapter.close();
-    }
-  }
 
   // XXX compiler bug in javac 1.5.0_07-164, we need to implement Filterable
   // to make compilation work
@@ -416,25 +296,6 @@ public class ConfigContactsActivity extends ListActivity {
       return cursor.getString(1);
     }
 
-    @Override
-    public Cursor runQueryOnBackgroundThread(CharSequence constraint) {
-      if (getFilterQueryProvider() != null) {
-        return getFilterQueryProvider().runQuery(constraint);
-      }
 
-      StringBuilder buffer = null;
-      String[] args = null;
-      if (constraint != null) {
-        buffer = new StringBuilder();
-        buffer.append("UPPER(");
-        buffer.append(ContactWrapper.getColumn(ContactWrapper.COL_DISPLAY_NAME));
-        buffer.append(") GLOB ?");
-        args = new String[] {"*" + constraint.toString().toUpperCase() + "*"};
-      }
-
-      return mContent.query(ContactWrapper.getContentUri(),
-          ContactWrapper.getBasePeopleProjection(),
-          buffer == null ? null : buffer.toString(), args, ContactWrapper.getDefaultSortOrder());
-    }
   }
 }

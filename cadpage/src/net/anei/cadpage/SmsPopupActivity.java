@@ -7,12 +7,10 @@ import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import net.anei.cadpage.utils;
-
 import net.anei.cadpage.ManageKeyguard.LaunchOnKeyguardExit;
 import net.anei.cadpage.ManagePreferences.Defaults;
 import net.anei.cadpage.controls.QmTextWatcher;
 import net.anei.cadpage.preferences.ButtonListPreference;
-import net.anei.cadpage.wrappers.ContactWrapper;
 import net.anei.cadpage.wrappers.TextToSpeechWrapper;
 import net.anei.cadpage.wrappers.TextToSpeechWrapper.OnInitListener;
 import android.R.array;
@@ -84,7 +82,6 @@ public class SmsPopupActivity extends Activity {
   private SharedPreferences mPrefs;
   private InputMethodManager inputManager = null;
   private View inputView = null;
-
   private TextView fromTV;
   private TextView messageReceivedTV;
   private TextView messageTV;
@@ -94,11 +91,6 @@ public class SmsPopupActivity extends Activity {
   private EditText qrEditText = null;
   private ProgressDialog mProgressDialog = null;
 
-  private ImageView photoImageView = null;
-  private Drawable contactPhotoPlaceholderDrawable = null;
-  private Bitmap contactPhoto = null;
-  private static int contactPhotoMargin = 3;
-  private static int contactPhotoDefaultMargin = 10;
 
   private ViewStub unreadCountViewStub;
   private View unreadCountView = null;
@@ -115,7 +107,6 @@ public class SmsPopupActivity extends Activity {
   private boolean privacyMode = false;
   private boolean messageViewed = true;
   private String signatureText;
-  private Uri contactLookupUri = null;
 
   private static final double WIDTH = 0.9;
   private static final int MAX_WIDTH = 640;
@@ -149,7 +140,7 @@ public class SmsPopupActivity extends Activity {
  // private String[] CallData = {"0","0","0","0","0","0","0","0","0"} ;
 	
 	private String[] callData;
-  
+    private int iLoc;
   
 
   // Establish whether the Android TextToSpeech class is available to us
@@ -176,7 +167,9 @@ public class SmsPopupActivity extends Activity {
 
     // Get shared prefs
     mPrefs = PreferenceManager.getDefaultSharedPreferences(this);
-
+    String sLocation = mPrefs.getString(getString(R.string.pref_location),Defaults.PREFS_LOCATION);
+    int iLocation = Integer.parseInt(sLocation);
+    iLoc = iLocation;
     // Check if screen orientation should be "user" or "behind" based on prefs
     if (mPrefs.getBoolean(getString(R.string.pref_autorotate_key), Defaults.PREFS_AUTOROTATE)) {
       setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_USER);
@@ -268,7 +261,7 @@ public class SmsPopupActivity extends Activity {
     }
 
     if (bundle == null) {
-      contactPhoto = null;
+      //contactPhoto = null;
       populateViews(getIntent().getExtras());
     } else { // this activity was recreated after being destroyed (ie. on orientation change)
       populateViews(bundle);
@@ -326,9 +319,6 @@ public class SmsPopupActivity extends Activity {
           break;
         case ButtonListPreference.BUTTON_REPLY: // Reply
           replyToMessage(true);
-          break;
-        case ButtonListPreference.BUTTON_QUICKREPLY: // Quick Reply
-          quickReply();
           break;
         case ButtonListPreference.BUTTON_REPLY_BY_ADDRESS: // Quick Reply
           replyToMessage(false);
@@ -507,11 +497,29 @@ public class SmsPopupActivity extends Activity {
     // Store message
     message = newMessage;
     String strMessage = newMessage.getMessageFull();
-    int idx = strMessage.indexOf("Call:");
+
+    int idx = -1;
+
+    switch (iLoc) {
+    case 1:
+    	idx = strMessage.indexOf("Call:");
+    	break;
+    case 2:
+    	idx = strMessage.indexOf("TYPE:");
+    	break;
+    }
     
     if (idx >= 0) {
     	// Decode the call page and place the data in the database
-    	decodeLCFRPage(strMessage);
+        switch (iLoc) {
+        case 1:
+        	decodeLCFRPage(strMessage);
+        	break;
+        case 2:
+        	decodeSuffolkPage(strMessage);
+        	break;
+        }
+    	
    
     
     // If it's a MMS message, just show the MMS layout
@@ -598,7 +606,7 @@ private String decodeLCFRPage(String body) {
 
 
 		  String strData = body.substring(0, body.length());
-		  Log.v("Message Body of:" + strData);
+		  Log.v("decodeLCFRPage: Message Body of:" + strData);
 		  
 		  String strCall;
 		  String strAddress;
@@ -645,6 +653,9 @@ private String decodeLCFRPage(String body) {
 		  else if (strCity.compareTo("PS")==0){ strCity="Paeonian, VA";}
 		  else if (strCity.compareTo("RH")==0){ strCity="Round Hill, VA";}
 		  else if (strCity.compareTo("UP")==0){ strCity="Upperville, VA";}
+		  else if (strCity.compareTo("FX19")==0){ strCity="Fairfax, VA";}
+		  else if (strCity.compareTo("FX")==0){ strCity="Fairfax, VA";}
+		  else if (strCity.compareTo("FQ")==0){ strCity="Faquier, VA";}
 		  else if (strCity.length() < 1){ strCity="Error";}
 		
 		  try {
@@ -672,6 +683,81 @@ private String decodeLCFRPage(String body) {
 		return null;
 }
 
+private String decodeSuffolkPage(String body) {
+	/* Sample Suffolk Page
+	 * TYPE: GAS LEAKS / GAS ODOR (NATURAL / L.P.G.) LOC: 11 BRENTWOOD PKWY BRENTW HOMELESS SHELTER CROSS: PENNSYLVANIA AV / SUFFOLK AV CODE: 60-B-2 TIME: 12:54:16
+	 * or  TYPE: STRUCTURE FIRE LOC: 81 NEW HAMPSHIRE AV NBAYSH  CROSS: E FORKS RD / E 3 AV CODE: 69-D-10 TIME: 16:36:48
+	 * 
+	 */
+	
+	  String strData = body.substring(0, body.length());
+	  Log.v("DecodeSuffolkPage: Message Body of:" + strData);
+	  
+	  String strCall="";
+	  String strAddress="";
+	  String tmpAddress="";
+	  String strCity="";
+	  String strApt ="";
+	  String strCross="";
+	  String strBox="";
+	  String strADC="";
+	  String strUnit="";
+//	  String strDebug;
+//	  int cIndex = 0;
+	  strData.replace(":", ",");
+	  String[] AData = strData.split(":");
+
+	  try {
+	  strCall = AData[1].substring(0,(AData[1].length()-4));
+	  // Need to check for single address or Intersection address.
+	  if (AData[2].contains("/")  ){
+		  // This is an intersection and not a street
+		   String[] strTemp = AData[2].split("/");
+		  //strAddress = strTemp[0].substring(0,(strTemp[0].indexOf("-")));
+		   tmpAddress = strTemp[0];
+		  tmpAddress = tmpAddress + " and " +  strTemp[1];
+	  }else {
+		  tmpAddress = AData[2];
+	  }
+	  if (tmpAddress.contains("BRENTW")){
+		 strAddress= tmpAddress.substring(0,tmpAddress.lastIndexOf("BRENTW"));
+		 strCity = "Brentwood, NY";
+	  } else if (strAddress.contains("NBAYSH")){
+		 strAddress= tmpAddress.substring(0, tmpAddress.lastIndexOf("NBAYSH")); 
+		 strCity = "Bay Shore, NY ";
+	  }
+	  // Intersection address has a / and two  - cities
+	  if (strAddress.length() < 4) {
+		  strAddress = "Error Street not Found.";
+	  }
+	  
+	
+
+	  //strApt = AData[1].substring(AData[1].indexOf("Apt:"));
+	  strApt= "";
+	  strCross =  AData[3].substring(0,(AData[3].length()-5));
+	  strUnit = ""; //AData[3];
+	  strBox = "";//AData[4].substring(4);
+	  strADC = "";//AData[5].substring(4,AData[5].indexOf("["));
+	  } catch (Exception ex) {
+		  if (Log.DEBUG) Log.v("Exception in decodeSuffolk-" + ex.toString());
+	  }
+	  
+
+
+	 callData[0] = strCall ;
+	 callData[1] = strAddress;
+	 callData[2] = strCity;
+	 callData[3] = strApt;
+	 callData[4] = strCross;
+	 callData[5] = strBox;
+	 callData[6] = strADC;
+	 callData[7] = strUnit;
+	 callData[8] = body;
+	 
+	return null;
+	
+}
   /*
    * This handles hiding and showing various views depending on the privacy
    * settings of the app and the current state of the phone (keyguard on or off)
@@ -769,54 +855,6 @@ private String decodeLCFRPage(String body) {
         .setNegativeButton(android.R.string.cancel, null)
         .create();
 
-        /*
-         * Quick Reply Dialog
-         */
-      case DIALOG_QUICKREPLY:
-
-      case DIALOG_PRESET_MSG:
-        mDbAdapter.open(true);
-        mCursor = mDbAdapter.fetchAllQuickMessages();
-        startManagingCursor(mCursor);
-
-        AlertDialog.Builder mDialogBuilder =
-          new AlertDialog.Builder(this)
-        .setIcon(android.R.drawable.ic_dialog_email)
-        .setTitle(R.string.pref_message_presets_title)
-        .setOnCancelListener(new OnCancelListener() {
-          public void onCancel(DialogInterface dialog) {
-            showDialog(DIALOG_QUICKREPLY);
-          }
-        });
-
-        // If user has some presets defined ...
-        if (mCursor != null && mCursor.getCount() > 0) {
-
-          mDialogBuilder.setCursor(mCursor, new DialogInterface.OnClickListener() {
-            public void onClick(DialogInterface dialog, int item) {
-              if (Log.DEBUG) Log.v("Item clicked = " + item);
-              mCursor.moveToPosition(item);
-              if (Log.DEBUG)
-                Log.v("Item text = " + mCursor.getString(SmsPopupDbAdapter.KEY_QUICKMESSAGE_NUM));
-
-              quickReply(mCursor.getString(SmsPopupDbAdapter.KEY_QUICKMESSAGE_NUM));
-            }
-          }, SmsPopupDbAdapter.KEY_QUICKMESSAGE);
-        } else { // Otherwise display a placeholder as user has no presets
-          MatrixCursor emptyCursor =
-            new MatrixCursor(new String[] {SmsPopupDbAdapter.KEY_ROWID,
-                SmsPopupDbAdapter.KEY_QUICKMESSAGE});
-          emptyCursor.addRow(new String[] {"0", getString(R.string.message_presets_empty_text)});
-          mDialogBuilder.setCursor(emptyCursor, new DialogInterface.OnClickListener() {
-            public void onClick(DialogInterface dialog, int item) {
-              // startActivity(new Intent(
-              // SmsPopupActivity.this.getApplicationContext(),
-              // net.everythingandroid.smspopup.ConfigPresetMessagesActivity.class));
-            }
-          }, SmsPopupDbAdapter.KEY_QUICKMESSAGE);
-        }
-
-        return mDialogBuilder.create();
 
         /*
          * Loading Dialog
@@ -887,20 +925,11 @@ private String decodeLCFRPage(String body) {
       case CONTEXT_DELETE_ID:
         showDialog(DIALOG_DELETE);
         break;
-      case CONTEXT_REPLY_ID:
-        replyToMessage();
-        break;
-      case CONTEXT_QUICKREPLY_ID:
-        quickReply();
-        break;
       case CONTEXT_INBOX_ID:
         gotoInbox();
         break;
       case CONTEXT_TTS_ID:
         speakMessage();
-        break;
-      case CONTEXT_VIEWCONTACT_ID:
-        viewContact();
         break;
     }
     return super.onContextItemSelected(item);
@@ -916,7 +945,7 @@ private String decodeLCFRPage(String body) {
     if (requestCode == VOICE_RECOGNITION_REQUEST_CODE && resultCode == RESULT_OK) {
       ArrayList<String> matches = data.getStringArrayListExtra(RecognizerIntent.EXTRA_RESULTS);
       if (Log.DEBUG) Log.v("Voice recog text: " + matches.get(0));
-      quickReply(matches.get(0));
+      //quickReply(matches.get(0));
     }
   }
 
@@ -1149,82 +1178,6 @@ private boolean haveNet(){
     myFinish();
   }
 
-  /**
-   * Sends the actual quick reply message
-   */
-  private void sendQuickReply(String quickReplyMessage) {
-    hideSoftKeyboard();
-    if (quickReplyMessage != null) {
-      if (quickReplyMessage.length() > 0) {
-        Intent i =
-          new Intent(SmsPopupActivity.this.getApplicationContext(), SmsPopupUtilsService.class);
-        i.setAction(SmsPopupUtilsService.ACTION_QUICKREPLY);
-        i.putExtras(quickReplySmsMessage.toBundle());
-        i.putExtra(SmsMmsMessage.EXTRAS_QUICKREPLY, quickReplyMessage);
-        if (Log.DEBUG) Log.v("Sending message to " + quickReplySmsMessage.getContactName());
-        SmsPopupUtilsService.beginStartingService(SmsPopupActivity.this.getApplicationContext(), i);
-        ManageNotification.clearAll(this);
-        Toast.makeText(this, R.string.quickreply_sending_toast, Toast.LENGTH_LONG).show();
-        myFinish();
-      } else {
-        Toast.makeText(this, R.string.quickreply_nomessage_toast, Toast.LENGTH_LONG).show();
-      }
-    }
-  }
-
-  /**
-   * Show the quick reply dialog, resetting the text in the edittext and storing
-   * the current SmsMmsMessage (in case another message comes in)
-   */
-  private void quickReply() {
-    quickReply("");
-  }
-
-  /**
-   * Show the quick reply dialog, if text passed is null or empty then store the
-   * current SmsMmsMessage (in case another message comes in)
-   */
-  private void quickReply(String text) {
-
-    // If this is a MMS just use regular reply
-    if (message.getMessageType() == SmsMmsMessage.MESSAGE_TYPE_MMS) {
-      replyToMessage();
-    } else { // Else show the quick reply dialog
-      if (text == null || "".equals(text)) {
-        quickReplySmsMessage = message;
-      }
-      updateQuickReplyView(text);
-      showDialog(DIALOG_QUICKREPLY);
-    }
-  }
-
-  /**
-   * View contact that has the message address (or create if it doesn't exist)
-   */
-  private void viewContact() {
-    Intent contactIntent = new Intent(Contacts.Intents.SHOW_OR_CREATE_CONTACT);
-    if (message.getMessageType() == SmsMmsMessage.MESSAGE_TYPE_MMS || message.isEmail()) {
-      contactIntent.setData(Uri.fromParts("mailto", message.getAddress(), null));
-    } else {
-      contactIntent.setData(Uri.fromParts("tel", message.getAddress(), null));
-    }
-    startActivity(contactIntent);
-  }
-
-  /**
-   * Refresh the quick reply view - update the edittext and the counter
-   */
-  private void updateQuickReplyView(String editText) {
-    if (Log.DEBUG) Log.v("updateQuickReplyView - '" + editText + "'");
-    if (qrEditText != null && editText != null) {
-      qrEditText.setText(editText + signatureText);
-      qrEditText.setSelection(editText.length());
-    }
-    if (quickreplyTextView != null) {
-      quickreplyTextView.setText(getString(R.string.quickreply_from_text,
-          quickReplySmsMessage.getContactName()));
-    }
-  }
 
   @Override
   public void onConfigurationChanged(Configuration newConfig) {
@@ -1247,56 +1200,7 @@ private boolean haveNet(){
     mainLL.setMinimumWidth(width);
     mainLL.invalidate();
   }
-
-  /*
-   * Sets contact photo to a default placeholder image
-   */
-  private void setContactPhotoToDefault(ImageView photoImageView) {
-
-    // Reset background and padding
-    photoImageView.setBackgroundResource(0);
-    photoImageView.setPadding(0, 0, 0, 0);
-
-    // Set margins for placeholder image
-    MarginLayoutParams mLP = (MarginLayoutParams) photoImageView.getLayoutParams();
-    final int scaledMargin =
-      (int) (contactPhotoDefaultMargin * this.getResources().getDisplayMetrics().density);
-
-    mLP.setMargins(scaledMargin, scaledMargin, scaledMargin, scaledMargin);
-    photoImageView.setLayoutParams(mLP);
-
-    // Set placeholder image
-    photoImageView.setImageDrawable(contactPhotoPlaceholderDrawable);
-  }
-
-  /*
-   * Sets contact photo to the target imageview
-   */
-  private void setContactPhoto(ImageView photoImageView, Bitmap contactPhoto) {
-
-    if (contactPhoto == null) {
-      setContactPhotoToDefault(photoImageView);
-      return;
-    }
-
-    // Update background and padding
-    if (SmsPopupUtils.PRE_ECLAIR) {
-      photoImageView.setBackgroundResource(android.R.drawable.picture_frame);
-    } else {
-      photoImageView.setBackgroundResource(R.drawable.quickcontact_badge_small);
-    }
-
-    // Set margins for image
-    MarginLayoutParams mLP = (MarginLayoutParams) photoImageView.getLayoutParams();
-    final int scaledMargin =
-      (int) (contactPhotoMargin * this.getResources().getDisplayMetrics().density);
-    mLP.setMargins(scaledMargin, scaledMargin, scaledMargin, scaledMargin);
-    photoImageView.setLayoutParams(mLP);
-
-    // Set contact photo image
-    photoImageView.setImageBitmap(contactPhoto);
-  }
-
+ 
   /**
    * Show the soft keyboard and store the view that triggered it
    */
@@ -1322,24 +1226,9 @@ private boolean haveNet(){
     inputView = null;
   }
 
-  /**
-   * AsyncTask to fetch contact photo in background
-   */
-  private class FetchContactPhotoTask extends AsyncTask<String, Integer, Bitmap> {
-    @Override
-    protected Bitmap doInBackground(String... params) {
-      if (Log.DEBUG) Log.v("Loading contact photo in background...");
-      // try { Thread.sleep(2000); } catch (InterruptedException e) {}
-      return SmsPopupUtils.getPersonPhoto(SmsPopupActivity.this.getApplicationContext(), params[0]);
-    }
+ 
 
-    @Override
-    protected void onPostExecute(Bitmap result) {
-      if (Log.DEBUG) Log.v("Done loading contact photo");
-      contactPhoto = result;
-      if (result != null) {
-        setContactPhoto(photoImageView, contactPhoto);
-      }
-    }
+ 
+    
   }
-}
+

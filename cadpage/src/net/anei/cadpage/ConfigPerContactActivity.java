@@ -104,38 +104,38 @@ public class ConfigPerContactActivity extends PreferenceActivity {
        * If the contact is not yet in our db ...
        */
       if (contact == null) {
-        createContact(contactId);
-        contact = mDbAdapter.fetchContactSettings(contactId);
+    //    createContact(contactId);
+   //     contact = mDbAdapter.fetchContactSettings(contactId);
         if (contact == null) {
           if (Log.DEBUG) Log.v("Error creating or fetching contact");
           finish();
         }
       }
 
-      startManagingCursor(contact);
+     // startManagingCursor(contact);
 
       /*
        * Retrieve preferences from database
        */
-      retrievePreferences(contact);
+     // retrievePreferences(contact);
 
       /*
        * Add preference layout from XML
        */
-      addPreferencesFromResource(R.xml.configcontact);
+     // addPreferencesFromResource(R.xml.configcontact);
 
       /*
        * Customize Activity title + main notif enabled preference summaries
        */
-      String contactName = contact.getString(SmsPopupDbAdapter.KEY_CONTACT_NAME_NUM);
-      setTitle(getString(R.string.contact_customization_title, contactName));
-
+     // String contactName = contact.getString(SmsPopupDbAdapter.KEY_CONTACT_NAME_NUM);
+   //   setTitle(getString(R.string.contact_customization_title, contactName));
+//
       CheckBoxPreference enabledPref =
         (CheckBoxPreference) findPreference(getString(R.string.c_pref_notif_enabled_key));
-      enabledPref.setSummaryOn(
-          getString(R.string.contact_customization_enabled, contactName));
-      enabledPref.setSummaryOff(
-          getString(R.string.contact_customization_disabled, contactName));
+  //    enabledPref.setSummaryOn(
+   //       getString(R.string.contact_customization_enabled, contactName));
+  //    enabledPref.setSummaryOff(
+  //        getString(R.string.contact_customization_disabled, contactName));
       enabledPref.setOnPreferenceChangeListener(onPrefChangeListener);
 
       /*
@@ -310,17 +310,12 @@ public class ConfigPerContactActivity extends PreferenceActivity {
         finish();
         return true;
       case MENU_DELETE_ID:
-        mDbAdapter.deleteContact(contactId);
+       // mDbAdapter.deleteContact(contactId);
         finish();
         return true;
     }
     return false;
   }
 
-  private void createContact(long contactId) {
-    getIntent().putExtra(EXTRA_CONTACT_ID, contactId);
-    mDbAdapter.createContact(contactId);
-    mDbAdapter.updateContactSummary(contactId);
-  }
 
 }

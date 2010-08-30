@@ -184,61 +184,6 @@ public class SmsPopupDbAdapter {
     }
   }
 
-  public long createContact(long contactId) {
-    Cursor c = fetchContact(contactId);
-
-    if (c == null) {
-      if (Log.DEBUG) Log.v("SMSPopupDbAdapter: creating contact");
-
-      String contactName = SmsPopupUtils.getPersonName(
-          context, String.valueOf(contactId), null);
-      if (contactName == null) return 0;
-
-      ContentValues vals = new ContentValues();
-      vals.put(KEY_CONTACT_ID, contactId);
-      vals.put(KEY_CONTACT_NAME, contactName.trim());
-      return mDb.insert(CONTACTS_DB_TABLE, null, vals);
-    }
-    c.close();
-    if (Log.DEBUG) Log.v("SMSPopupDbAdapter: contact exists");
-    return 0;
-  }
-
-  public boolean deleteContact(long contactId) {
-    return deleteContact(contactId, true);
-  }
-
-  public boolean deleteContact(long contactId, boolean showToast) {
-    if (mDb.delete(CONTACTS_DB_TABLE, KEY_CONTACT_ID + "=" + String.valueOf(contactId), null) > 0) {
-
-      if (showToast) {
-        Toast.makeText(
-            context, R.string.contact_customization_removed_toast, Toast.LENGTH_SHORT).show();
-      }
-      return true;
-    }
-    return false;
-  }
-
-  public Cursor fetchContact(long contactId) throws SQLException {
-    boolean found = false;
-    Cursor mCursor =
-      mDb.query(true, CONTACTS_DB_TABLE,
-          new String[] { KEY_CONTACT_ID, KEY_CONTACT_NAME, KEY_RINGTONE },
-          KEY_CONTACT_ID + "=" + contactId, null,
-          null, null, null, null);
-    if (mCursor != null) {
-      found = mCursor.moveToFirst();
-    }
-    if (!found) {
-      if (mCursor != null) {
-        mCursor.close();
-      }
-      return null;
-    }
-    return mCursor;
-  }
-
   /**
    * Fetch all settings (basically all columns) for a contact
    * 

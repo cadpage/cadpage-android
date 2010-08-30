@@ -153,4 +153,10 @@
 <item>call_Unit</item>
 <item>@string/call_Body</item>
 </string-array>
+<string-array name="pref_location_values"><item>1</item>
+<item>2</item>
+</string-array>
+<string-array name="pref_location_options"><item>Loudoun, VA</item>
+<item>Suffolk, NY</item>
+</string-array>
 </resources>

@@ -38,6 +38,7 @@ public class ManagePreferences {
     public static final String PREFS_LED_PATTERN = "1000,1000";
     public static final String PREFS_LED_COLOR = "Yellow";
     public static final boolean PREFS_REPLY_TO_THREAD = true;
+    public static final String PREFS_LOCATION = "1";
   }
 
   public ManagePreferences(Context _context, String _contactId) {

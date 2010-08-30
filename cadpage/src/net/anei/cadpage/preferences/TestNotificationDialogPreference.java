@@ -44,20 +44,9 @@ public class TestNotificationDialogPreference extends DialogPreference {
 
     // Create a test SmsMmsMessage
     String testPhone = "123-456-7890";
-    SmsPopupDbAdapter mDbAdapter = new SmsPopupDbAdapter(context);
+ //   SmsPopupDbAdapter mDbAdapter = new SmsPopupDbAdapter(context);
 
-    // If contactId is set, use it's phone else just use a default.
-    if ( contactId != null ) {
-      mDbAdapter.open(true); // Open database read-only
-
-      Cursor contactCursor = mDbAdapter.fetchContact(Long.valueOf(contactId));
-      if (contactCursor != null) {
-        testPhone = contactCursor.getString(SmsPopupDbAdapter.KEY_CONTACT_NAME_NUM);
-        contactCursor.close();
-      }
-
-      mDbAdapter.close();
-    }
+  
 
     SmsMmsMessage message =
       new SmsMmsMessage(context, testPhone, context.getString(R.string.pref_notif_test_title),
