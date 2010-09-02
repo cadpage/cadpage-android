@@ -725,6 +725,9 @@ private String decodeSuffolkPage(String body) {
 	  } else if (strAddress.contains("NBAYSH")){
 		 strAddress= tmpAddress.substring(0, tmpAddress.lastIndexOf("NBAYSH")); 
 		 strCity = "Bay Shore, NY ";
+	  } else if (strAddress.contains("BAYSHO")){
+			 strAddress= tmpAddress.substring(0, tmpAddress.lastIndexOf("NBAYSH")); 
+			 strCity = "Bay Shore, NY ";
 	  }
 	  // Intersection address has a / and two  - cities
 	  if (strAddress.length() < 4) {

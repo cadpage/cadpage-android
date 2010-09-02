@@ -93,6 +93,7 @@ public class SmsReceiverService extends Service {
       if (Log.DEBUG) Log.v("SMSReceiverService: handleMessage()");
 
       int serviceId = msg.arg1;
+      try {
       Intent intent = (Intent) msg.obj;
       String action = intent.getAction();
       String dataType = intent.getType();
@@ -106,7 +107,9 @@ public class SmsReceiverService extends Service {
       } else if (ACTION_MESSAGE_RECEIVED.equals(action)) {
         handleMessageReceived(intent);
       }
-
+      } catch (Exception e) {
+    	  Log.v("Handler: Nullpointer " + e.getMessage());
+      }
       // NOTE: We MUST not call stopSelf() directly, since we need to
       // make sure the wake lock acquired by AlertReceiver is released.
       finishStartingService(SmsReceiverService.this, serviceId);
@@ -134,6 +137,9 @@ public class SmsReceiverService extends Service {
 	    String strMessage = message.getMessageFull();
 	    ManagePreferences mPrefs = new ManagePreferences(context, message.getContactId());
 	    String sLocation = mPrefs.getString(R.string.pref_location,Defaults.PREFS_LOCATION);
+	    if (sLocation.contains("Loudoun")){
+	    	sLocation="1";
+	    }
 	    int iLocation = Integer.parseInt(sLocation);
 	    int idx = -1;
 	    
