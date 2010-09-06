@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CommitComments>	<CommitComment>Resolved issues 2 and 3. Added check for our calls and abortBroadcast</CommitComment>
-	<CommitComment>gen file not in svn</CommitComment>
-	<CommitComment>new default alert sound. from http://policeinterceptor.com/navysounds.htm</CommitComment>
-	<CommitComment>lots of updates. Added new sound, fixed some map stuff and alerts. Updated default values. Working on personal contact code removal as we don&apos;t need it.</CommitComment>
-</CommitComments>
