@@ -42,7 +42,6 @@ public class SmsReceiverService extends Service {
   private ServiceHandler mServiceHandler;
   private Looper mServiceLooper;
   private int mResultCode;
-  public static Boolean bCadCall =false;
 
   private static final Object mStartingServiceSync = new Object();
   private static PowerManager.WakeLock mStartingService;
@@ -159,7 +158,6 @@ public class SmsReceiverService extends Service {
 	    
 if (idx >= 0) {
 	if (Log.DEBUG) Log.v("SMSReceiver: This is a CadPage Call.");
-	bCadCall=true;
     // Class 0 SMS, let the system handle this
     if (message.getMessageType() == SmsMmsMessage.MESSAGE_TYPE_SMS &&
         message.getMessageClass() == MessageClass.CLASS_0) {

@@ -7,7 +7,6 @@ import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import net.anei.cadpage.utils;
-import net.anei.cadpage.SmsReceiver;
 import net.anei.cadpage.ManageKeyguard.LaunchOnKeyguardExit;
 import net.anei.cadpage.ManagePreferences.Defaults;
 import net.anei.cadpage.controls.QmTextWatcher;
@@ -511,7 +510,6 @@ public class SmsPopupActivity extends Activity {
     }
     
     if (idx >= 0) {
-
     	// Decode the call page and place the data in the database
         switch (iLoc) {
         case 1:
