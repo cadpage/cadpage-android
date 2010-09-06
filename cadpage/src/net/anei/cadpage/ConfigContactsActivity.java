@@ -48,7 +48,7 @@ public class ConfigContactsActivity extends ListActivity {
   public void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     requestWindowFeature(Window.FEATURE_PROGRESS);
-    setContentView(R.layout.config_contacts_activity);
+    
 
 
   
