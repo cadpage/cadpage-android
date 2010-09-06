@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;CadPage/bin/CadPage.apk&apos;" deleteContents="false" description="Delete resource &apos;CadPage/bin/CadPage.apk&apos;" element1="/CadPage/bin/CadPage.apk" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1282971068419"/>
+</session>

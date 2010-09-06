@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="500" key="CommitDialog.weights.0"/>
+	<item value="500" key="CommitDialog.weights.1"/>
+	<item value="166" key="SetSvnPropertyDialog.location.y"/>
+	<item value="253" key="HistoryTableProvider.SVNHistoryPage.Author"/>
+	<item value="578" key="SetSvnPropertyDialog.location.x"/>
+	<item value="516" key="SetSvnPropertyDialog.size.y"/>
+	<item value="15" key="CommitDialog.location.y"/>
+	<item value="-1163" key="CommitDialog.location.x"/>
+	<item value="525" key="SetSvnPropertyDialog.size.x"/>
+	<item value="317" key="HistoryTableProvider.SVNHistoryPage.Date"/>
+	<item value="633" key="HistoryTableProvider.SVNHistoryPage.Comment"/>
+	<item value="1163" key="CommitDialog.size.x"/>
+	<item value="1020" key="CommitDialog.size.y"/>
+	<item value="127" key="HistoryTableProvider.SVNHistoryPage.Revision"/>
+	<section name="CommitWizard">
+		<item value="false" key="ShowCompare"/>
+		<item value="500" key="VWeight2"/>
+		<item value="500" key="VWeight1"/>
+	</section>
+</section>
