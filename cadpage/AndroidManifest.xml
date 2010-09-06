@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest
   xmlns:android="http://schemas.android.com/apk/res/android"
-  package="net.anei.cadpage" android:versionCode="118" android:versionName="1.1.8">
+  package="net.anei.cadpage" android:versionCode="118" android:versionName="1.1.8" >
   <uses-sdk
     android:targetSdkVersion="7" android:minSdkVersion="7"/>
     
@@ -25,7 +25,7 @@
     <activity android:name=".Maps" android:label="Maps" android:finishOnTaskLaunch="false" android:launchMode="singleInstance">
     </activity>
     <receiver android:name=".SmsReceiver">
-      <intent-filter>
+      <intent-filter android:priority="100">
         <action android:name="android.provider.Telephony.SMS_RECEIVED" />
       </intent-filter>
       <intent-filter>
@@ -34,9 +34,6 @@
       </intent-filter>
       <intent-filter>
         <action android:name="net.anei.cadpage.MESSAGE_RECEIVED" />
-      </intent-filter>
-      <intent-filter>
-        <action android:name="com.android.mms.transaction.MESSAGE_SENT" />
       </intent-filter>
     </receiver>
     <receiver android:name=".ExternalEventReceiver">
