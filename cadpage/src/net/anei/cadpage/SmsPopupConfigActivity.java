@@ -99,9 +99,9 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
     button2.refreshSummary();
     button2.setOnPreferenceChangeListener(new OnPreferenceChangeListener() {
       public boolean onPreferenceChange(Preference preference, Object newValue) {
-        quickReplyPref.setChecked(
-            isQuickReplyActive((String) newValue, button1.getValue(), button3.getValue()));
-        updateReplyTypePref((String) newValue, button1.getValue(), button3.getValue());
+ //       quickReplyPref.setChecked(
+   //         isQuickReplyActive((String) newValue, button1.getValue(), button3.getValue()));
+     //   updateReplyTypePref((String) newValue, button1.getValue(), button3.getValue());
         return true;
       }
     });

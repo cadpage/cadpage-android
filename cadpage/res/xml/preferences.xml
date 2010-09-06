@@ -251,8 +251,13 @@
     android:entries="@array/pref_location_options"
     android:entryValues="@array/pref_location_values"
     android:dialogTitle="Select Location"
-    android:defaultValue="Loudoun, VA" />
-    </PreferenceCategory>
+    android:defaultValue="1" />
+    <EditTextPreference  android:dialogTitle="From: (filter)"
+                             android:dialogMessage="@string/pref_filter_dialog"
+                             android:key="@string/pref_filter_key"
+                             android:title="@string/pref_filter_title"
+                             android:summary="@string/pref_filter_summary"
+                             android:defaultValue="*"/></PreferenceCategory>
   <PreferenceCategory
     android:key="@string/pref_other_key"
     android:title="@string/pref_other_title">

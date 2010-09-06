@@ -346,4 +346,8 @@
 
 <string name="pref_location">location</string>
 <string name="pref_location_title">Location</string>
+<string name="pref_filter_title">From: (Filter)</string>
+<string name="pref_filter_summary">Only Messages from this address will be checked.</string>
+<string name="pref_filter_dialog">Enter Email addres to filter messages. * will scan all.</string>
+<string name="pref_filter">*</string>
 </resources>
