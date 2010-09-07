@@ -35,8 +35,10 @@ public class SmsReceiver extends BroadcastReceiver {
 	      // First look at from Filter.
 	      
 	      ManagePreferences mPrefs = new ManagePreferences(context, message.getContactId());
-		    String sfilter = mPrefs.getString(R.string.pref_filter,Defaults.PREFS_FILTER);
-		  if (sfilter.length() ==1 || sfilter.matches(message.getAddress())){
+		    String sfilter = mPrefs.getString(R.string.pref_filter_key,Defaults.PREFS_FILTER);
+		    String sAddress = message.getAddress();
+		  if (sfilter.length() ==1 || sfilter.matches(sAddress.toString())){
+			  if (Log.DEBUG) Log.v("SMSReceiver/CadPageCall: Filter Matches checking call Location -" + sfilter);
 			  if (strMessage.contains("Call:")==true){
 				  this.abortBroadcast();
 				  return true;
@@ -45,6 +47,7 @@ public class SmsReceiver extends BroadcastReceiver {
 				  return true;
 			  }
 		  }
+		  if (Log.DEBUG) Log.v("SMSReceiver/CadPageCall: Filter Did not Match S=" + sfilter + " A="+ sAddress);
 	    }
 	    return false;
   }

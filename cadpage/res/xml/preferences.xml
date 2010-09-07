@@ -252,7 +252,7 @@
     android:entryValues="@array/pref_location_values"
     android:dialogTitle="Select Location"
     android:defaultValue="1" />
-    <EditTextPreference  android:dialogTitle="From: (filter)"
+    <EditTextPreference  android:dialogTitle="From: @string/pref_filter"
                              android:dialogMessage="@string/pref_filter_dialog"
                              android:key="@string/pref_filter_key"
                              android:title="@string/pref_filter_title"
