@@ -150,6 +150,9 @@ public class SmsReceiverService extends Service {
 	    case 2:
 	    	idx = strMessage.indexOf("TYPE:");
 	    	break;
+	    case 3:
+	    	idx=strMessage.indexOf("Map:");
+	    	break;
 	    }
 	   
 

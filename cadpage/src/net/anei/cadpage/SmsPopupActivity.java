@@ -518,6 +518,9 @@ public class SmsPopupActivity extends Activity {
         case 2:
         	decodeSuffolkPage(strMessage);
         	break;
+        case 3: 
+        	decodeHarrisPage(strMessage);
+        	break;
         }
     	
    
@@ -692,6 +695,95 @@ private String decodeSuffolkPage(String body) {
 	
 	  String strData = body.substring(0, body.length());
 	  Log.v("DecodeSuffolkPage: Message Body of:" + strData);
+	  
+	  String strCall="";
+	  String strAddress="";
+	  String tmpAddress="";
+	  String strCity="";
+	  String strApt ="";
+	  String strCross="";
+	  String strBox="";
+	  String strADC="";
+	  String strUnit="";
+//	  String strDebug;
+//	  int cIndex = 0;
+	  strData.replace(":", ",");
+	  String[] AData = strData.split(":");
+
+	  try {
+	  strCall = AData[1].substring(0,(AData[1].length()-4));
+	  // Need to check for single address or Intersection address.
+	  if (AData[2].contains("/")  ){
+		  // This is an intersection and not a street
+		   String[] strTemp = AData[2].split("/");
+		  //strAddress = strTemp[0].substring(0,(strTemp[0].indexOf("-")));
+		   tmpAddress = strTemp[0];
+		  tmpAddress = tmpAddress + " and " +  strTemp[1];
+	  }else {
+		  tmpAddress = AData[2];
+	  }
+	  if (tmpAddress.contains("BRENTW")){
+		 strAddress= tmpAddress.substring(0,tmpAddress.lastIndexOf("BRENTW"));
+		 strCity = "Brentwood, NY";
+	  } else if (strAddress.contains("NBAYSH")){
+		 strAddress= tmpAddress.substring(0, tmpAddress.lastIndexOf("NBAYSH")); 
+		 strCity = "Bay Shore, NY ";
+	  } else if (strAddress.contains("BAYSHO")){
+			 strAddress= tmpAddress.substring(0, tmpAddress.lastIndexOf("NBAYSH")); 
+			 strCity = "Bay Shore, NY ";
+	  }
+	  // Intersection address has a / and two  - cities
+	  if (strAddress.length() < 4) {
+		  strAddress = "Error Street not Found.";
+	  }
+	  
+	
+
+	  //strApt = AData[1].substring(AData[1].indexOf("Apt:"));
+	  strApt= "";
+	  strCross =  AData[3].substring(0,(AData[3].length()-5));
+	  strUnit = ""; //AData[3];
+	  strBox = "";//AData[4].substring(4);
+	  strADC = "";//AData[5].substring(4,AData[5].indexOf("["));
+	  } catch (Exception ex) {
+		  if (Log.DEBUG) Log.v("Exception in decodeSuffolk-" + ex.toString());
+	  }
+	  
+
+
+	 callData[0] = strCall ;
+	 callData[1] = strAddress;
+	 callData[2] = strCity;
+	 callData[3] = strApt;
+	 callData[4] = strCross;
+	 callData[5] = strBox;
+	 callData[6] = strADC;
+	 callData[7] = strUnit;
+	 callData[8] = body;
+	 
+	return null;
+	
+}
+
+private String decodeHarrisPage(String body) {
+	/* Sample Harris Page
+	 * 11:58 W HILLSIDE DR/EASTEX FRWY, ; Map:414D Sub: Nat:MA-MUTUAL AID / ASSIST AGENCY Units:E91 T81 T73 E-E39 X-St:EASTEX
+
+1of2:09/06 11:56 W HILLSIDE DR/EASTEX FRWY, ; Map:414D Sub: Nat:MA-MUTUAL AID / ASSIST AGENCY Units:E91 T81 T73 E-L19 X-St:EASTEX
+
+1of2:09/06 11:28 19707 WOOD WALK LN, ; Map:337U Sub:PINEHURST OF ATASCOCITA Nat:09E01-ARREST - NOT BREATHING Units:E-M19 E-M29 E-7900
+
+1of2:09/05 08:56 19226 AQUATIC DR, ; Map:378A Sub:WALDEN ON LAKE HOUSTON Nat:52B01G-FIRE ALARM - RESIDENTIAL Units:ATFD E-E39 X-
+
+1of2:09/04 19:45 17219 KOBUK VALLEY CIR, ; Map:377E Sub:EAGLE SPRINGS Nat:67B03U-OUTSIDE FIRE - INVESTIGA Units:E-E39 X-St:*** Dead
+
+1of2:09/03 08:14 LILES LN/WOODLAND HILLS DR, ; Map:376H Sub:ATASCOCITA FOREST Nat:29-MOTOR VEHICLE INCIDENT Units:E-M19 E-E39 X-
+
+	
+	 */
+	
+	  String strData = body.substring(0, body.length());
+	  Log.v("DecodeHarrisPage: Message Body of:" + strData);
 	  
 	  String strCall="";
 	  String strAddress="";

@@ -45,6 +45,9 @@ public class SmsReceiver extends BroadcastReceiver {
 			  } else if (strMessage.contains("TYPE:")==true){
 				  this.abortBroadcast();
 				  return true;
+			  }else if (strMessage.contains("Map:")==true){
+					  this.abortBroadcast();
+					  return true;
 			  }
 		  }
 		  if (Log.DEBUG) Log.v("SMSReceiver/CadPageCall: Filter Did not Match S=" + sfilter + " A="+ sAddress);
