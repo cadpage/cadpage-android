@@ -40,6 +40,7 @@ public class ManagePreferences {
     public static final boolean PREFS_REPLY_TO_THREAD = true;
     public static final String PREFS_LOCATION = "1";
     public static final String PREFS_FILTER = "*";
+    public static final boolean PREFS_USE_GOOGLE_MAP_APP = false;
   }
 
   public ManagePreferences(Context _context, String _contactId) {

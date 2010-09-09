@@ -60,7 +60,7 @@
               android:dependency="@string/pref_notif_enabled_key"
               android:negativeButtonText="@null" />
           
-</PreferenceCategory>
+          </PreferenceCategory>
           <PreferenceCategory
             android:title="@string/pref_vibrate_category_title">
             <CheckBoxPreference
@@ -243,6 +243,12 @@
           android:summaryOn="@string/pref_onlyShowOnKeyguard_summaryon"
           android:summaryOff="@string/pref_onlyShowOnKeyguard_summaryoff"
           android:defaultValue="@string/pref_onlyShowOnKeyguard_default" />
+        <CheckBoxPreference
+          android:key="@string/pref_useGoogleMapApp_key"
+          android:title="@string/pref_useGoogleMapApp_title"
+          android:summaryOn="@string/pref_useGoogleMapApp_summaryon"
+          android:summaryOff="@string/pref_useGoogleMapApp_summaryoff"
+          android:defaultValue="@string/pref_useGoogleMapApp_default" />
       </PreferenceCategory>
     </PreferenceScreen>
     <ListPreference 

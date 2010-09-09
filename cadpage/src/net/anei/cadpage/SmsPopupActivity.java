@@ -15,6 +15,9 @@ import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.app.ProgressDialog;
+import android.app.SearchManager;
+import android.content.ActivityNotFoundException;
+import android.content.ComponentName;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -80,6 +83,7 @@ public class SmsPopupActivity extends Activity {
   private boolean replying = false;
   private boolean inbox = false;
   private boolean privacyMode = false;
+  private boolean useGoogleMapApp = false;
   private boolean messageViewed = true;
   private String signatureText;
 
@@ -151,6 +155,11 @@ public class SmsPopupActivity extends Activity {
     // Fetch privacy mode
     privacyMode =
       mPrefs.getBoolean(getString(R.string.pref_privacy_key), Defaults.PREFS_PRIVACY);
+    
+    // Fetch google map app mode
+    useGoogleMapApp =
+      mPrefs.getBoolean(getString(R.string.pref_useGoogleMapApp_key), Defaults.PREFS_USE_GOOGLE_MAP_APP);
+      
 
     signatureText = mPrefs.getString(getString(R.string.pref_notif_signature_key), "");
     if (signatureText.length() > 0) signatureText = " " + signatureText;
@@ -275,9 +284,11 @@ public class SmsPopupActivity extends Activity {
           break;
         case ButtonListPreference.BUTTON_CLOSE: // Close
 //          closeMessage();
+          finish();
           break;
         case ButtonListPreference.BUTTON_DELETE: // Delete
           showDialog(DIALOG_DELETE);
+          finish();
           break;
         case ButtonListPreference.BUTTON_DELETE_NO_CONFIRM: // Delete no confirmation
 //          deleteMessage();
@@ -1157,29 +1168,39 @@ private Properties parseMessage(String body) {
    * Close the message window/popup, mark the message read if the user has this option on
    */
   
-private void  mapMessage()  {
-	  Boolean bNet = false;
-	if (Log.DEBUG) Log.v("Request Received to Map Call");
-	bNet = haveNet();
-	if (bNet == true) {
-	Intent i =new Intent(SmsPopupActivity.this,Maps.class);
-	Bundle bun = new Bundle();
-	bun.putStringArray("CallData", callData);
-	i.putExtras(bun);
-	startActivity(i);
-	} else {
-		if (Log.DEBUG) Log.v("Error: No Network Connection.");
-		Dialog locationError = new AlertDialog.Builder(
-				 this).setIcon(0).setTitle("Error").setPositiveButton("Ok", null)
-				.setMessage("Unable to Map Address due to Network Failure.")
-				.create();
-		  		locationError.show();
-	}
-
-
-	
-	
-}
+  private void  mapMessage()  {
+    if (Log.DEBUG) Log.v("Request Received to Map Call");
+    if (haveNet()) {
+      if(useGoogleMapApp) {
+        String searchStr = callData[1];
+        if (callData[2].length() > 0) searchStr = searchStr + ", " + callData[2];
+        Intent intent = new Intent(Intent.ACTION_SEARCH);
+        intent.setComponent(new ComponentName("com.google.android.apps.maps", "com.google.android.maps.MapsActivity"));
+        intent.putExtra(SearchManager.QUERY, searchStr);
+        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        
+        try {
+            startActivity(intent);
+        } catch (ActivityNotFoundException ex) {
+            Log.e("Could not find com.google.android.maps.Maps activity");
+        }
+        
+      } else {
+        Intent i =new Intent(SmsPopupActivity.this,Maps.class);
+        Bundle bun = new Bundle();
+        bun.putStringArray("CallData", callData);
+        i.putExtras(bun);
+        startActivity(i);
+      }
+    } else {
+      if (Log.DEBUG) Log.v("Error: No Network Connection.");
+      Dialog locationError = new AlertDialog.Builder(
+          this).setIcon(0).setTitle("Error").setPositiveButton("Ok", null)
+          .setMessage("Unable to Map Address due to Network Failure.")
+          .create();
+      locationError.show();
+    }
+  }
 	
 private boolean haveNet(){
 	
