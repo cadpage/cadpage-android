@@ -3,18 +3,14 @@ package net.anei.cadpage;
 
 import android.os.Bundle;
 
-import java.io.File;
-import java.io.IOException;
 import java.util.ArrayList;
-import net.anei.cadpage.utils;
+import java.util.Properties;
+
 import net.anei.cadpage.ManageKeyguard.LaunchOnKeyguardExit;
 import net.anei.cadpage.ManagePreferences.Defaults;
-import net.anei.cadpage.controls.QmTextWatcher;
 import net.anei.cadpage.preferences.ButtonListPreference;
 import net.anei.cadpage.wrappers.TextToSpeechWrapper;
 import net.anei.cadpage.wrappers.TextToSpeechWrapper.OnInitListener;
-import android.R.array;
-import android.R.string;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -24,50 +20,30 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.DialogInterface.OnCancelListener;
-import android.content.DialogInterface.OnDismissListener;
 import android.content.pm.ActivityInfo;
-import android.content.pm.PackageManager;
-import android.content.pm.ResolveInfo;
 import android.content.res.Configuration;
 import android.content.res.Resources;
-import android.database.Cursor;
-import android.database.MatrixCursor;
-import android.graphics.Bitmap;
-import android.graphics.drawable.Drawable;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
-import android.net.Uri;
-import android.os.AsyncTask;
 import android.preference.PreferenceManager;
-import android.provider.Contacts;
 import android.speech.RecognizerIntent;
-import android.text.Selection;
 import android.text.TextUtils;
 import android.view.ContextMenu;
 import android.view.Display;
-import android.view.KeyEvent;
-import android.view.LayoutInflater;
 import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewStub;
 import android.view.Window;
-import android.view.WindowManager;
 import android.view.ContextMenu.ContextMenuInfo;
 import android.view.View.OnClickListener;
-import android.view.ViewGroup.MarginLayoutParams;
 import android.view.WindowManager.LayoutParams;
-import android.view.inputmethod.EditorInfo;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.ImageButton;
-import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ScrollView;
 import android.widget.TextView;
 import android.widget.Toast;
-import android.widget.TextView.OnEditorActionListener;
 
 import com.google.tts.TTS;
 import com.google.tts.TTSVersionAlert;
@@ -78,7 +54,6 @@ public class SmsPopupActivity extends Activity {
   private SmsMmsMessage message;
 
   private boolean exitingKeyguardSecurely = false;
-  private Bundle bundle = null;
   private SharedPreferences mPrefs;
   private InputMethodManager inputManager = null;
   private View inputView = null;
@@ -125,11 +100,7 @@ public class SmsPopupActivity extends Activity {
 
   private static final int VOICE_RECOGNITION_REQUEST_CODE = 8888;
 
-  private TextView quickreplyTextView;
-  private SmsMmsMessage quickReplySmsMessage;
-
   private SmsPopupDbAdapter mDbAdapter;
-  private Cursor mCursor = null;
 
   // TextToSpeech variables
   private boolean ttsInitialized = false;
@@ -260,16 +231,10 @@ public class SmsPopupActivity extends Activity {
       }
     }
 
-    if (bundle == null) {
-      //contactPhoto = null;
-      populateViews(getIntent().getExtras());
-    } else { // this activity was recreated after being destroyed (ie. on orientation change)
-      populateViews(bundle);
-    }
+    populateViews(getIntent());
+
 
     mDbAdapter = new SmsPopupDbAdapter(getApplicationContext());
-
-
     
     wakeApp();
 
@@ -309,22 +274,22 @@ public class SmsPopupActivity extends Activity {
         case ButtonListPreference.BUTTON_DISABLED: // Disabled
           break;
         case ButtonListPreference.BUTTON_CLOSE: // Close
-          closeMessage();
+//          closeMessage();
           break;
         case ButtonListPreference.BUTTON_DELETE: // Delete
           showDialog(DIALOG_DELETE);
           break;
         case ButtonListPreference.BUTTON_DELETE_NO_CONFIRM: // Delete no confirmation
-          deleteMessage();
+//          deleteMessage();
           break;
         case ButtonListPreference.BUTTON_REPLY: // Reply
-          replyToMessage(true);
+//          replyToMessage(true);
           break;
         case ButtonListPreference.BUTTON_REPLY_BY_ADDRESS: // Quick Reply
-          replyToMessage(false);
+//          replyToMessage(false);
           break;
         case ButtonListPreference.BUTTON_INBOX: // Inbox
-          gotoInbox();
+//          gotoInbox();
           break;
         case ButtonListPreference.BUTTON_TTS: // Text-to-Speech
           speakMessage();
@@ -350,7 +315,7 @@ public class SmsPopupActivity extends Activity {
     //contactPhoto = null;
 
     // Re-populate views with new intent data (ie. new sms data)
-    populateViews(intent.getExtras());
+    populateViews(intent);
 
     wakeApp();
   }
@@ -440,52 +405,50 @@ public class SmsPopupActivity extends Activity {
     if (Log.DEBUG) Log.v("SMSPopupActivity: onSaveInstanceState()");
 
     // Save values from most recent bundle (ie. most recent message)
-    outState.putAll(bundle);
+    outState.putAll(getIntent().getExtras());
   }
 
   /*
    * Customized activity finish. Ensures the notification is in sync and cancels
    * any scheduled reminders (as the user has interrupted the app.
    */
-  private void myFinish() {
-    if (Log.DEBUG) Log.v("myFinish()");
+//  private void myFinish() {
+//    if (Log.DEBUG) Log.v("myFinish()");
+//
+//    if (inbox) {
+//      ManageNotification.clearAll(getApplicationContext());
+//    } else {
+//
+//      // Start a service that will update the notification in the status bar
+//      Intent i = new Intent(getApplicationContext(), SmsPopupUtilsService.class);
+//      i.setAction(SmsPopupUtilsService.ACTION_UPDATE_NOTIFICATION);
+//
+//      // Convert current message to bundle
+//      message.addToIntent(i);
+//
+//      // We need to know if the user is replying - if so, the entire thread id should
+//      // be ignored when working out the message tally in the notification bar.
+//      // We can't rely on the system database as it may take a little while for the
+//      // reply intent to fire and load up the messaging up (after which the messages
+//      // will be marked read in the database).
+//      i.putExtra(SmsMmsMessage.EXTRAS_REPLYING, replying);
+//
+//      // Start the service
+//      SmsPopupUtilsService.beginStartingService(SmsPopupActivity.this.getApplicationContext(), i);
+//    }
+//
+//    // Cancel any reminder notifications
+//    ReminderReceiver.cancelReminder(getApplicationContext());
+//
+//    // Finish up the activity
+//    finish();
+//  }
 
-    if (inbox) {
-      ManageNotification.clearAll(getApplicationContext());
-    } else {
-
-      // Start a service that will update the notification in the status bar
-      Intent i = new Intent(getApplicationContext(), SmsPopupUtilsService.class);
-      i.setAction(SmsPopupUtilsService.ACTION_UPDATE_NOTIFICATION);
-
-      // Convert current message to bundle
-      i.putExtras(message.toBundle());
-
-      // We need to know if the user is replying - if so, the entire thread id should
-      // be ignored when working out the message tally in the notification bar.
-      // We can't rely on the system database as it may take a little while for the
-      // reply intent to fire and load up the messaging up (after which the messages
-      // will be marked read in the database).
-      i.putExtra(SmsMmsMessage.EXTRAS_REPLYING, replying);
-
-      // Start the service
-      SmsPopupUtilsService.beginStartingService(SmsPopupActivity.this.getApplicationContext(), i);
-    }
-
-    // Cancel any reminder notifications
-    ReminderReceiver.cancelReminder(getApplicationContext());
-
-    // Finish up the activity
-    finish();
-  }
-
-  // Populate views via bundle
-  private void populateViews(Bundle b) {
-    // Store bundle
-    bundle = b;
+  // Populate views from intent
+  private void populateViews(Intent intent) {
 
     // Regenerate the SmsMmsMessage from the extras bundle
-    populateViews(new SmsMmsMessage(getApplicationContext(), bundle));
+    populateViews(new SmsMmsMessage(getApplicationContext(), intent));
   }
 
   /*
@@ -498,19 +461,7 @@ public class SmsPopupActivity extends Activity {
     message = newMessage;
     String strMessage = newMessage.getMessageFull();
 
-    int idx = -1;
-
-    switch (iLoc) {
-    case 1:
-    	idx = strMessage.indexOf("Call:");
-    	break;
-    case 2:
-    	idx = strMessage.indexOf("TYPE:");
-    	break;
-    }
-    
-    if (idx >= 0) {
-    	// Decode the call page and place the data in the database
+    // Decode the call page and place the data in the database
         switch (iLoc) {
         case 1:
         	decodeLCFRPage(strMessage);
@@ -521,6 +472,9 @@ public class SmsPopupActivity extends Activity {
         case 3: 
         	decodeHarrisPage(strMessage);
         	break;
+        case 4:
+          decodeBentonCoPage(strMessage);
+          break;
         }
     	
    
@@ -532,12 +486,12 @@ public class SmsPopupActivity extends Activity {
         mmsSubjectTV = (TextView) mmsView.findViewById(R.id.MmsSubjectTextView);
 
         // The ViewMMS button
-        Button viewMmsButton = (Button) mmsView.findViewById(R.id.ViewMmsButton);
-        viewMmsButton.setOnClickListener(new OnClickListener() {
-          public void onClick(View v) {
-            replyToMessage();
-          }
-        });
+//        Button viewMmsButton = (Button) mmsView.findViewById(R.id.ViewMmsButton);
+//        viewMmsButton.setOnClickListener(new OnClickListener() {
+//          public void onClick(View v) {
+//            replyToMessage();
+//          }
+//        });
       }
       messageScrollView.setVisibility(View.GONE);
       // privacyViewStub.setVisibility(View.GONE);
@@ -577,12 +531,13 @@ public class SmsPopupActivity extends Activity {
       tv.setText(textWaiting);
 
       // The inbox button
-      Button inboxButton = (Button) unreadCountView.findViewById(R.id.InboxButton);
-      inboxButton.setOnClickListener(new OnClickListener() {
-        public void onClick(View v) {
-          gotoInbox();
-        }
-      });
+//      Button inboxButton = (Button) unreadCountView.findViewById(R.id.InboxButton);
+//      inboxButton.setOnClickListener(new OnClickListener(){
+//
+//        @Override
+//        public void onClick(View v) {
+//          gotoInbox();
+//        }});
     }
    
     
@@ -597,9 +552,13 @@ public class SmsPopupActivity extends Activity {
       mmsSubjectTV.setText(getString(R.string.mms_subject) + " " + message.getMessageBody());
     }
     messageReceivedTV.setText(headerText);
-  } else { // end if on idx check
-	  myFinish();
-  }
+    
+    // There used to be a call to myFinish() that was invoked if this method was
+    // passed a message that was not a CAD page.  I am about as certain as I can
+    // possibly be that this is no longer possible, which is why this call no
+    // longer exists.  But the comment remains as a possible clue if someone
+    // should discover I was wrong.
+    
   } //end of function
 
   
@@ -853,6 +812,54 @@ private String decodeHarrisPage(String body) {
 	return null;
 	
 }
+
+private void decodeBentonCoPage(String body) {
+    
+    // Sample Benton County Page
+    // (Corvallis Alert) INC: CODE 1 MEDICAL\nADD:1740 MAIN ST\nAPT:\nCITY:PHILOMATH\nX:N 17TH ST * N 18TH ST\nMAP:540-365\nCFS:0907010-119\nDIS:PHILOMATH FIRE
+    
+    Log.v("DecodeBentonCo: Message Body of:" + body);
+    
+    Properties props = parseMessage(body);
+    
+    String strCall=props.getProperty("INC", "");
+    String strAddress=props.getProperty("ADD", "");
+    String strCity=props.getProperty("CITY", "");
+    String strApt =props.getProperty("APT", "");
+    String strCross=props.getProperty("X", "");
+    String strBox="";
+    String strADC="";
+    String strUnit="";
+    callData[0] = strCall ;
+    callData[1] = strAddress;
+    callData[2] = strCity;
+    callData[3] = strApt;
+    callData[4] = strCross;
+    callData[5] = strBox;
+    callData[6] = strADC;
+    callData[7] = strUnit;
+    callData[8] = body;
+}
+
+/**
+ * General purpose message parser.  Parses 
+ * @param body
+ * @return
+ */
+private Properties parseMessage(String body) {
+    Properties props = new Properties();
+    String[] lines = body.split("\n");
+    for (String line : lines) {
+        int ndx = line.indexOf(':');
+        if (ndx < 0 || ndx+1 == line.length()) continue;
+        String key = line.substring(0, ndx).trim();
+        String value = line.substring(ndx+1).trim();
+        ndx = key.lastIndexOf(' ');
+        if (ndx >= 0) key = key.substring(ndx+1);
+        props.put(key, value);
+    }
+    return props;
+}
   /*
    * This handles hiding and showing various views depending on the privacy
    * settings of the app and the current state of the phone (keyguard on or off)
@@ -861,7 +868,10 @@ private String decodeHarrisPage(String body) {
     if (Log.DEBUG) Log.v("refreshPrivacy()");
     messageViewed = true;
 
-    if (message.getMessageType() == SmsMmsMessage.MESSAGE_TYPE_SMS) {
+    // This gets called before onNewIntent() which mean message may not be set
+    // Don't understand this well enough to know how this should be handled, but
+    // for now this will keep the app from closing  -kec
+    if (message != null && message.getMessageType() == SmsMmsMessage.MESSAGE_TYPE_SMS) {
       if (privacyMode) {
         // We need to init the keyguard class so we can check if the keyguard is
         // on
@@ -912,8 +922,9 @@ private String decodeHarrisPage(String body) {
 
     // See if a notification has been played for this message...
     if (message.getNotify()) {
-      // Store extra to signify we have already notified for this message
-      bundle.putBoolean(SmsMmsMessage.EXTRAS_NOTIFY, false);
+      
+      // Indicate that we have already notified for this message
+      message.resetNotify();
 
       // Reset the reminderCount to 0 just to be sure
       message.updateReminderCount(0);
@@ -944,7 +955,8 @@ private String decodeHarrisPage(String body) {
         .setMessage(getString(R.string.pref_show_delete_button_dialog_text))
         .setPositiveButton(android.R.string.ok, new DialogInterface.OnClickListener() {
           public void onClick(DialogInterface dialog, int whichButton) {
-            deleteMessage();
+//           This will need to do something someday, but for now deleting msg is a NOOP            
+//            deleteMessage();
           }
         })
         .setNegativeButton(android.R.string.cancel, null)
@@ -1011,24 +1023,24 @@ private String decodeHarrisPage(String body) {
   /*
    * Context Menu Item Selected
    */
-  @Override
-  public boolean onContextItemSelected(MenuItem item) {
-    switch (item.getItemId()) {
-      case CONTEXT_CLOSE_ID:
-        closeMessage();
-        break;
-      case CONTEXT_DELETE_ID:
-        showDialog(DIALOG_DELETE);
-        break;
-      case CONTEXT_INBOX_ID:
-        gotoInbox();
-        break;
-      case CONTEXT_TTS_ID:
-        speakMessage();
-        break;
-    }
-    return super.onContextItemSelected(item);
-  }
+//  @Override
+//  public boolean onContextItemSelected(MenuItem item) {
+//    switch (item.getItemId()) {
+//      case CONTEXT_CLOSE_ID:
+//        closeMessage();
+//        break;
+//      case CONTEXT_DELETE_ID:
+//        showDialog(DIALOG_DELETE);
+//        break;
+//      case CONTEXT_INBOX_ID:
+//        gotoInbox();
+//        break;
+//      case CONTEXT_TTS_ID:
+//        speakMessage();
+//        break;
+//    }
+//    return super.onContextItemSelected(item);
+//  }
 
   /*
    * Handle the results from the recognition activity.
@@ -1189,41 +1201,41 @@ private boolean haveNet(){
 }
 	
 	
-  private void closeMessage() {
-    if (messageViewed) {
-      Intent i = new Intent(getApplicationContext(), SmsPopupUtilsService.class);
-      /*
-       * Switched back to mark messageId as read for >v1.0.6 (marking thread as read is slow
-       * for really large threads)
-       */
-      i.setAction(SmsPopupUtilsService.ACTION_MARK_MESSAGE_READ);
-      //i.setAction(SmsPopupUtilsService.ACTION_MARK_THREAD_READ);
-      i.putExtras(message.toBundle());
-      SmsPopupUtilsService.beginStartingService(getApplicationContext(), i);
-    }
-
-    // Finish up this activity
-    myFinish();
-  }
+//  private void closeMessage() {
+//    if (messageViewed) {
+//      Intent i = new Intent(getApplicationContext(), SmsPopupUtilsService.class);
+//      /*
+//       * Switched back to mark messageId as read for >v1.0.6 (marking thread as read is slow
+//       * for really large threads)
+//       */
+//      i.setAction(SmsPopupUtilsService.ACTION_MARK_MESSAGE_READ);
+//      //i.setAction(SmsPopupUtilsService.ACTION_MARK_THREAD_READ);
+//      message.addToIntent(i);
+//      SmsPopupUtilsService.beginStartingService(getApplicationContext(), i);
+//    }
+//
+//    // Finish up this activity
+//    myFinish();
+//  }
 
   /**
    * Reply to the current message, start the reply intent
    */
-  private void replyToMessage(final boolean replyToThread) {
-    exitingKeyguardSecurely = true;
-    ManageKeyguard.exitKeyguardSecurely(new LaunchOnKeyguardExit() {
-      public void LaunchOnKeyguardExitSuccess() {
-        Intent reply = message.getReplyIntent(replyToThread);
-        SmsPopupActivity.this.getApplicationContext().startActivity(reply);
-        replying = true;
-        myFinish();
-      }
-    });
-  }
+//  private void replyToMessage(final boolean replyToThread) {
+//    exitingKeyguardSecurely = true;
+//    ManageKeyguard.exitKeyguardSecurely(new LaunchOnKeyguardExit() {
+//      public void LaunchOnKeyguardExitSuccess() {
+//        Intent reply = message.getReplyIntent(replyToThread);
+//        SmsPopupActivity.this.getApplicationContext().startActivity(reply);
+//        replying = true;
+//        myFinish();
+//      }
+//    });
+//  }
 
-  private void replyToMessage() {
-    replyToMessage(true);
-  }
+//  private void replyToMessage() {
+//    replyToMessage(true);
+//  }
 
   /**
    * View the private message (this basically just unlocks the keyguard and then
@@ -1249,29 +1261,29 @@ private boolean haveNet(){
   /**
    * Take the user to the messaging app inbox
    */
-  private void gotoInbox() {
-    exitingKeyguardSecurely = true;
-    ManageKeyguard.exitKeyguardSecurely(new LaunchOnKeyguardExit() {
-      public void LaunchOnKeyguardExitSuccess() {
-        Intent i = SmsPopupUtils.getSmsInboxIntent();
-        SmsPopupActivity.this.getApplicationContext().startActivity(i);
-        inbox = true;
-        myFinish();
-      }
-    });
-  }
+//  private void gotoInbox() {
+//    exitingKeyguardSecurely = true;
+//    ManageKeyguard.exitKeyguardSecurely(new LaunchOnKeyguardExit() {
+//      public void LaunchOnKeyguardExitSuccess() {
+//        Intent i = SmsPopupUtils.getSmsInboxIntent();
+//        SmsPopupActivity.this.getApplicationContext().startActivity(i);
+//        inbox = true;
+//        myFinish();
+//      }
+//    });
+//  }
 
   /**
    * Delete the current message from the system database
    */
-  private void deleteMessage() {
-    Intent i =
-      new Intent(SmsPopupActivity.this.getApplicationContext(), SmsPopupUtilsService.class);
-    i.setAction(SmsPopupUtilsService.ACTION_DELETE_MESSAGE);
-    i.putExtras(message.toBundle());
-    SmsPopupUtilsService.beginStartingService(SmsPopupActivity.this.getApplicationContext(), i);
-    myFinish();
-  }
+//  private void deleteMessage() {
+//    Intent i =
+//      new Intent(SmsPopupActivity.this.getApplicationContext(), SmsPopupUtilsService.class);
+//    i.setAction(SmsPopupUtilsService.ACTION_DELETE_MESSAGE);
+//    message.addToIntent(i);
+//    SmsPopupUtilsService.beginStartingService(SmsPopupActivity.this.getApplicationContext(), i);
+//    myFinish();
+//  }
 
 
   @Override

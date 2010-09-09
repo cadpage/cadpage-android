@@ -4,7 +4,6 @@ import android.app.Service;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.os.Bundle;
 import android.os.Handler;
 import android.os.HandlerThread;
 import android.os.IBinder;
@@ -89,8 +88,7 @@ public class ReminderReceiverService extends Service {
   private void processReminder(Intent intent) {
     int unreadSms = SmsPopupUtils.getUnreadMessagesCount(context);
     if (unreadSms > 0) {
-      Bundle b = intent.getExtras();
-      SmsMmsMessage message = new SmsMmsMessage(context, b);
+      SmsMmsMessage message = new SmsMmsMessage(context, intent);
 
       SharedPreferences myPrefs = PreferenceManager.getDefaultSharedPreferences(context);
       int repeat_times =

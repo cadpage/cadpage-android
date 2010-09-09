@@ -17,8 +17,6 @@ import android.os.PowerManager;
 import android.os.Process;
 import android.telephony.SmsManager;
 import android.telephony.TelephonyManager;
-import android.telephony.SmsMessage;
-import android.telephony.SmsMessage.MessageClass;
 import android.widget.Toast;
 
 
@@ -93,7 +91,6 @@ public class SmsReceiverService extends Service {
       if (Log.DEBUG) Log.v("SMSReceiverService: handleMessage()");
 
       int serviceId = msg.arg1;
-      try {
       Intent intent = (Intent) msg.obj;
       String action = intent.getAction();
       String dataType = intent.getType();
@@ -107,9 +104,7 @@ public class SmsReceiverService extends Service {
       } else if (ACTION_MESSAGE_RECEIVED.equals(action)) {
         handleMessageReceived(intent);
       }
-      } catch (Exception e) {
-    	  Log.v("Handler: Nullpointer " + e.getMessage());
-      }
+      
       // NOTE: We MUST not call stopSelf() directly, since we need to
       // make sure the wake lock acquired by AlertReceiver is released.
       finishStartingService(SmsReceiverService.this, serviceId);
@@ -122,59 +117,21 @@ public class SmsReceiverService extends Service {
   private void handleSmsReceived(Intent intent) {
     if (Log.DEBUG) Log.v("SMSReceiver: Intercept SMS");
     ManageNotification.bAlert=true;
-    Bundle bundle = intent.getExtras();
-    if (bundle != null) {
-      SmsMessage[] messages = SmsPopupUtils.getMessagesFromIntent(intent);
-      if (messages != null) {
-    	  
-        notifyMessageReceived( new SmsMmsMessage(context, messages,System.currentTimeMillis() ) );
-      }
-    }
+    notifyMessageReceived( new SmsMmsMessage(context, intent));
   }
 
   private void notifyMessageReceived(SmsMmsMessage message) {
-
-	    String strMessage = message.getMessageFull();
-	    ManagePreferences mPrefs = new ManagePreferences(context, message.getContactId());
-	    String sLocation = mPrefs.getString(R.string.pref_location,Defaults.PREFS_LOCATION);
-	    if (sLocation.contains("Loudoun")){
-	    	sLocation="1";
-	    }
-	    int iLocation = Integer.parseInt(sLocation);
-	    int idx = -1;
-	    
-	    switch (iLocation) {
-	    case 1:
-	    	idx = strMessage.indexOf("Call:");
-	    	break;
-	    case 2:
-	    	idx = strMessage.indexOf("TYPE:");
-	    	break;
-	    case 3:
-	    	idx=strMessage.indexOf("Map:");
-	    	break;
-	    }
-	   
-
-	    
-	    
-	    
-if (idx >= 0) {
-	if (Log.DEBUG) Log.v("SMSReceiver: This is a CadPage Call.");
-    // Class 0 SMS, let the system handle this
-    if (message.getMessageType() == SmsMmsMessage.MESSAGE_TYPE_SMS &&
-        message.getMessageClass() == MessageClass.CLASS_0) {
-      return;
-    }
-    // Fetch preferences
     
+    if (Log.DEBUG) Log.v("SMSReceiver: This is a CadPage Call.");
+
+    ManagePreferences mPrefs = new ManagePreferences(context, message.getContactId());
 
     // Whether or not the popup should only show when keyguard is on
     boolean onlyShowOnKeyguard =
       mPrefs.getBoolean(R.string.pref_onlyShowOnKeyguard_key,
           Defaults.PREFS_ONLY_SHOW_ON_KEYGUARD);
 
-    // check if popup is enabled for this contact
+   // check if popup is enabled for this contact
    // boolean showPopup =
    //   mPrefs.getBoolean(R.string.pref_popup_enabled_key,
    //       Defaults.PREFS_SHOW_POPUP,
@@ -190,8 +147,7 @@ if (idx >= 0) {
     int docked_state =
       mPrefs.getInt(getString(R.string.pref_docked_key), 0);
 
-    @SuppressWarnings("unused")
-	boolean docked = docked_state == ExternalEventReceiver.EXTRA_DOCK_STATE_DESK;
+    boolean docked = docked_state == ExternalEventReceiver.EXTRA_DOCK_STATE_DESK;
 
     mPrefs.close();
 
@@ -226,7 +182,6 @@ if (idx >= 0) {
  //     ReminderReceiver.scheduleReminder(context, message);
 
   //  }
-	}
   }
 
   /**

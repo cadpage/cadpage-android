@@ -143,24 +143,26 @@
   </string-array>
 
 <string-array name="aCallData">
-<item>@string/call_Type</item>
-<item>@string/call_Address</item>
-<item>call_City</item>
-<item>call_Apt</item>
-<item>call_Cross</item>
-<item>call_Box</item>
-<item>call_Adc</item>
-<item>call_Unit</item>
-<item>@string/call_Body</item>
+  <item>@string/call_Type</item>
+  <item>@string/call_Address</item>
+  <item>call_City</item>
+  <item>call_Apt</item>
+  <item>call_Cross</item>
+  <item>call_Box</item>
+  <item>call_Adc</item>
+  <item>call_Unit</item>
+  <item>@string/call_Body</item>
 </string-array>
-<string-array name="pref_location_values"><item>1</item>
-<item>2</item>
-<item>3</item>
-<item>4</item>
+<string-array name="pref_location_values">
+  <item>1</item>
+  <item>2</item>
+  <item>3</item>
+  <item>4</item>
 </string-array>
-<string-array name="pref_location_options"><item>Loudoun, VA</item>
-<item>Suffolk, NY</item>
-<item>Harris, Tx</item>
-<item></item>
+<string-array name="pref_location_options">
+  <item>Loudoun, VA</item>
+  <item>Suffolk, NY</item>
+  <item>Harris, Tx</item>
+  <item>Benton County, OR</item>
 </string-array>
 </resources>

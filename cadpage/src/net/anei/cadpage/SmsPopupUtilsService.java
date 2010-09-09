@@ -76,19 +76,19 @@ public class SmsPopupUtilsService extends Service {
 
       if (ACTION_MARK_THREAD_READ.equals(action)) {
         if (Log.DEBUG) Log.v("SMSPopupUtilsService: Marking thread read");
-        SmsMmsMessage message = new SmsMmsMessage(context, intent.getExtras());
+        SmsMmsMessage message = new SmsMmsMessage(context, intent);
         message.setThreadRead();
       } else if (ACTION_MARK_MESSAGE_READ.equals(action)) {
         if (Log.DEBUG) Log.v("SMSPopupUtilsService: Marking message read");
-        SmsMmsMessage message = new SmsMmsMessage(context, intent.getExtras());
+        SmsMmsMessage message = new SmsMmsMessage(context, intent);
         message.setMessageRead();
       } else if (ACTION_DELETE_MESSAGE.equals(action)) {
         if (Log.DEBUG) Log.v("SMSPopupUtilsService: Deleting message");
-        SmsMmsMessage message = new SmsMmsMessage(context, intent.getExtras());
+        SmsMmsMessage message = new SmsMmsMessage(context, intent);
         message.delete();
       } else if (ACTION_QUICKREPLY.equals(action)) {
         if (Log.DEBUG) Log.v("SMSPopupUtilsService: Quick Reply to message");
-        SmsMmsMessage message = new SmsMmsMessage(context, intent.getExtras());
+        SmsMmsMessage message = new SmsMmsMessage(context, intent);
         //message.setThreadRead();
         message.replyToMessage(intent.getStringExtra(SmsMmsMessage.EXTRAS_QUICKREPLY));
       } else if (ACTION_UPDATE_NOTIFICATION.equals(action)) {
@@ -111,7 +111,7 @@ public class SmsPopupUtilsService extends Service {
     SmsMmsMessage message;
     if (ignoreThread) {
       // If ignoring messages from the thread, pass the full message over
-      message = new SmsMmsMessage(context, intent.getExtras());
+      message = new SmsMmsMessage(context, intent);
     } else {
       // Otherwise we can just calculate unread messages by checking the
       // database as normal

@@ -49,7 +49,7 @@ public class ReminderReceiver extends BroadcastReceiver {
       Intent reminderIntent = new Intent(context, ReminderReceiver.class);
       reminderIntent.setAction(ReminderReceiverService.ACTION_REMIND);
       message.incrementReminderCount();
-      reminderIntent.putExtras(message.toBundle());
+      message.addToIntent(reminderIntent);
       // reminderIntent.putExtra(EXTRAS_COUNT, count + 1);
 
       reminderPendingIntent =

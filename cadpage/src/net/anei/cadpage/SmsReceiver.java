@@ -4,8 +4,8 @@ import net.anei.cadpage.ManagePreferences.Defaults;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
-import android.os.Bundle;
 import android.telephony.SmsMessage;
+import android.telephony.SmsMessage.MessageClass;
 
 public class SmsReceiver extends BroadcastReceiver {
 
@@ -15,44 +15,67 @@ public class SmsReceiver extends BroadcastReceiver {
     intent.setClass(context, SmsReceiverService.class);
     intent.putExtra("result", getResultCode());
 
-    /*
-     * This service will process the activity and show the popup (+ play notifications)
-     * after it's work is done the service will be stopped.
-     */
-    if (CadPageCall(context,intent)==true){
-    SmsReceiverService.beginStartingService(context, intent);
+    // Convert Intent into an SMS/MSS message
+    SmsMessage[] messages = SmsPopupUtils.getMessagesFromIntent(intent);
+    SmsMmsMessage message = new SmsMmsMessage(context, messages,System.currentTimeMillis());
+
+    // And determine if this is a CAD Page call
+    if (message != null && cadPageCall(context, message)){
+      
+      // If it is, abort broadcast to any other receivers
+      // add add the messaging information to the intent
+      // and forward it to SmsReceiverService
+      abortBroadcast();
+      message.addToIntent(intent);
+      SmsReceiverService.beginStartingService(context, intent);
     }
   }
-  // We need to determine if this message is for us. If so then stop further alerting to the default sms app.
-  // We have the priority for sms receive set at 100 in the manifest so if we abort the broadcast other apps will not get the message
-  public boolean CadPageCall(Context context,Intent intent){
-	    Bundle bundle = intent.getExtras();
-	    if (bundle != null) {
-	      SmsMessage[] messages = SmsPopupUtils.getMessagesFromIntent(intent);
-	      SmsMmsMessage message = new SmsMmsMessage(context, messages,System.currentTimeMillis() );
-	      String strMessage = message.getMessageFull();
-	      
-	      // First look at from Filter.
-	      
-	      ManagePreferences mPrefs = new ManagePreferences(context, message.getContactId());
-		    String sfilter = mPrefs.getString(R.string.pref_filter_key,Defaults.PREFS_FILTER);
-		    String sAddress = message.getAddress();
-		  if (sfilter.length() ==1 || sfilter.matches(sAddress.toString())){
-			  if (Log.DEBUG) Log.v("SMSReceiver/CadPageCall: Filter Matches checking call Location -" + sfilter);
-			  if (strMessage.contains("Call:")==true){
-				  this.abortBroadcast();
-				  return true;
-			  } else if (strMessage.contains("TYPE:")==true){
-				  this.abortBroadcast();
-				  return true;
-			  }else if (strMessage.contains("Map:")==true){
-					  this.abortBroadcast();
-					  return true;
-			  }
-		  }
-		  if (Log.DEBUG) Log.v("SMSReceiver/CadPageCall: Filter Did not Match S=" + sfilter + " A="+ sAddress);
-	    }
-	    return false;
+
+  /**
+   * Determine if this intent message is a CAD page call
+   * @param context message context
+   * @param intent Intent
+   * @return true if message is a CAD page call that should be processed further
+   */
+  private boolean cadPageCall(Context context, SmsMmsMessage message){
+
+    String strMessage = message.getMessageFull();
+    
+    // Class 0 SMS, let the system handle this
+    if (message.getMessageType() == SmsMmsMessage.MESSAGE_TYPE_SMS &&
+        message.getMessageClass() == MessageClass.CLASS_0) return false;
+
+    // First look at from Filter.
+    ManagePreferences mPrefs = new ManagePreferences(context, message.getContactId());
+    String sFilter = mPrefs.getString(R.string.pref_filter_key,Defaults.PREFS_FILTER);
+    String sAddress = message.getAddress();
+    if (! match(sAddress, sFilter)) return false;
+
+    if (Log.DEBUG) Log.v("SMSReceiver/CadPageCall: Filter Matches checking call Location -" + sFilter);
+
+    // Next look up location code and use it to see if this message contains the trigger phrase
+    String sLocation = mPrefs.getString(R.string.pref_location,Defaults.PREFS_LOCATION);
+    if (sLocation.contains("Loudoun")){
+      sLocation="1";
+    }
+    int iLocation = Integer.parseInt(sLocation);
+    String[] phrases = new String[]{"Call:", "TYPE:", "Map:", "(Corvallis Alert)"};
+    if (iLocation > phrases.length) return false;
+    return (strMessage.indexOf(phrases[iLocation-1]) >= 0);
+  }
+
+  /**
+   * See if message sender matches filter
+   * @param address message sender address
+   * @param filter message sender filter
+   * @return true if sender matches filter
+   */
+  private boolean match(String address, String filter) {
+    if (filter == null || filter.length() == 0) return true;
+
+    // Convert the filter expression into a regular expression
+    filter = filter.replaceAll(".", "\\.").replaceAll("?", ".").replaceAll("*", ".*");
+    return address.matches(filter);
   }
 }
 

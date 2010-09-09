@@ -1,10 +1,5 @@
 package net.anei.cadpage;
 
-import java.util.regex.MatchResult;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-import android.R.array;
-import android.R.string;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
@@ -27,9 +22,9 @@ public class SmsMmsMessage {
   private static final String EXTRAS_MESSAGE_TYPE   = PREFIX + "EXTRAS_MESSAGE_TYPE";
   private static final String EXTRAS_MESSAGE_ID     = PREFIX + "EXTRAS_MESSAGE_ID";
   private static final String EXTRAS_EMAIL_GATEWAY  = PREFIX + "EXTRAS_EMAIL_GATEWAY";
+  private static final String EXTRAS_NOTIFY         = PREFIX + "EXTRAS_NOTIFY";
 
   // Public EXTRAS strings
-  public static final String EXTRAS_NOTIFY         = PREFIX + "EXTRAS_NOTIFY";
   public static final String EXTRAS_REMINDER_COUNT = PREFIX + "EXTRAS_REMINDER_COUNT";
   public static final String EXTRAS_REPLYING       = PREFIX + "EXTRAS_REPLYING";
   public static final String EXTRAS_QUICKREPLY     = PREFIX + "EXTRAS_QUICKREPLY";
@@ -189,8 +184,9 @@ public class SmsMmsMessage {
   /**
    * Construct SmsMmsMessage from an extras bundle
    */
-  public SmsMmsMessage(Context _context, Bundle b) {
+  public SmsMmsMessage(Context _context, Intent i) {
     context = _context;
+    Bundle b = i.getExtras();
     fromAddress = b.getString(EXTRAS_FROM_ADDRESS);
     messageBody = b.getString(EXTRAS_MESSAGE_BODY);
     messageFull = b.getString(EXTRAS_MESSAGE_FULL);
@@ -227,31 +223,29 @@ public class SmsMmsMessage {
   }
 
   /**
-   * Convert all SmsMmsMessage data to an extras bundle to send via an intent
+   * Attach all SmsMmsMessage data to an intent
    */
-  public Bundle toBundle() {
-    Bundle b = new Bundle();
-    b.putString(EXTRAS_FROM_ADDRESS, fromAddress);
-    b.putString(EXTRAS_MESSAGE_BODY, messageBody);
-    b.putString(EXTRAS_MESSAGE_FULL, messageFull);
-    b.putLong(EXTRAS_TIMESTAMP, timestamp);
-    b.putString(EXTRAS_CONTACT_ID, contactId);
-    b.putString(EXTRAS_CONTACT_LOOKUP, contactLookupKey);
-    b.putString(EXTRAS_CONTACT_NAME, contactName);
-    b.putInt(EXTRAS_UNREAD_COUNT, unreadCount);
-    b.putLong(EXTRAS_THREAD_ID, threadId);
-    b.putInt(EXTRAS_MESSAGE_TYPE, messageType);
-    b.putBoolean(EXTRAS_NOTIFY, notify);
-    b.putInt(EXTRAS_REMINDER_COUNT, reminderCount);
-    b.putLong(EXTRAS_MESSAGE_ID, messageId);
-    b.putBoolean(EXTRAS_EMAIL_GATEWAY, fromEmailGateway);
-    return b;
+  public void addToIntent(Intent i) {
+    i.putExtra(EXTRAS_FROM_ADDRESS, fromAddress);
+    i.putExtra(EXTRAS_MESSAGE_BODY, messageBody);
+    i.putExtra(EXTRAS_MESSAGE_FULL, messageFull);
+    i.putExtra(EXTRAS_TIMESTAMP, timestamp);
+    i.putExtra(EXTRAS_CONTACT_ID, contactId);
+    i.putExtra(EXTRAS_CONTACT_LOOKUP, contactLookupKey);
+    i.putExtra(EXTRAS_CONTACT_NAME, contactName);
+    i.putExtra(EXTRAS_UNREAD_COUNT, unreadCount);
+    i.putExtra(EXTRAS_THREAD_ID, threadId);
+    i.putExtra(EXTRAS_MESSAGE_TYPE, messageType);
+    i.putExtra(EXTRAS_NOTIFY, notify);
+    i.putExtra(EXTRAS_REMINDER_COUNT, reminderCount);
+    i.putExtra(EXTRAS_MESSAGE_ID, messageId);
+    i.putExtra(EXTRAS_EMAIL_GATEWAY, fromEmailGateway);
   }
 
   public Intent getPopupIntent() {
     Intent popup = new Intent(context, SmsPopupActivity.class);
     popup.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_EXCLUDE_FROM_RECENTS);
-    popup.putExtras(toBundle());
+    addToIntent(popup);
     return popup;
   }
 
@@ -348,6 +342,10 @@ public class SmsMmsMessage {
   public boolean getNotify() {
     if (Log.DEBUG) Log.v("getNotify() - notify is " + notify);
     return notify;
+  }
+  
+  public void resetNotify() {
+    notify = false;
   }
 
   public int getReminderCount() {
