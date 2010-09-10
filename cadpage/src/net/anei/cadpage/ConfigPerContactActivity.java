@@ -154,7 +154,7 @@ public class ConfigPerContactActivity extends PreferenceActivity {
 
       TestNotificationDialogPreference testPref =
         (TestNotificationDialogPreference) findPreference(getString(R.string.c_pref_notif_test_key));
-      testPref.setContactId(contact.getLong(SmsPopupDbAdapter.KEY_CONTACT_ID_NUM));
+      // testPref.setContactId(contact.getLong(SmsPopupDbAdapter.KEY_CONTACT_ID_NUM));
 
       /*
        * Vibrate Prefs

@@ -3,17 +3,14 @@ package net.anei.cadpage.preferences;
 import net.anei.cadpage.ManageNotification;
 import net.anei.cadpage.R;
 import net.anei.cadpage.SmsMmsMessage;
-import net.anei.cadpage.SmsPopupDbAdapter;
 import android.content.Context;
 import android.content.DialogInterface;
-import android.database.Cursor;
 import android.preference.DialogPreference;
 import android.util.AttributeSet;
 import android.view.View;
 
 public class TestNotificationDialogPreference extends DialogPreference {
   private Context context;
-  private String contactId = null;
 
   public TestNotificationDialogPreference(Context _context, AttributeSet attrs) {
     super(_context, attrs);
@@ -23,14 +20,6 @@ public class TestNotificationDialogPreference extends DialogPreference {
   public TestNotificationDialogPreference(Context _context, AttributeSet attrs, int defStyle) {
     super(_context, attrs, defStyle);
     context = _context;
-  }
-
-  public void setContactId(String _contactId) {
-    contactId = _contactId;
-  }
-
-  public void setContactId(long _contactId) {
-    contactId = String.valueOf(_contactId);
   }
 
   @Override
@@ -50,7 +39,7 @@ public class TestNotificationDialogPreference extends DialogPreference {
 
     SmsMmsMessage message =
       new SmsMmsMessage(context, testPhone, context.getString(R.string.pref_notif_test_title),
-          0, contactId, null, testPhone, 1, 0, SmsMmsMessage.MESSAGE_TYPE_SMS);
+          0, SmsMmsMessage.MESSAGE_TYPE_SMS);
 
     // Show notification
     ManageNotification.show(context, message, ManageNotification.NOTIFICATION_TEST);

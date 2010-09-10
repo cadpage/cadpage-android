@@ -76,24 +76,24 @@ public class SmsPopupUtilsService extends Service {
 
       if (ACTION_MARK_THREAD_READ.equals(action)) {
         if (Log.DEBUG) Log.v("SMSPopupUtilsService: Marking thread read");
-        SmsMmsMessage message = new SmsMmsMessage(context, intent);
-        message.setThreadRead();
+//        SmsMmsMessage message = new SmsMmsMessage(context, intent);
+//        message.setThreadRead();
       } else if (ACTION_MARK_MESSAGE_READ.equals(action)) {
         if (Log.DEBUG) Log.v("SMSPopupUtilsService: Marking message read");
-        SmsMmsMessage message = new SmsMmsMessage(context, intent);
-        message.setMessageRead();
+//        SmsMmsMessage message = new SmsMmsMessage(context, intent);
+//        message.setMessageRead();
       } else if (ACTION_DELETE_MESSAGE.equals(action)) {
         if (Log.DEBUG) Log.v("SMSPopupUtilsService: Deleting message");
         SmsMmsMessage message = new SmsMmsMessage(context, intent);
-        message.delete();
+//        message.delete();
       } else if (ACTION_QUICKREPLY.equals(action)) {
         if (Log.DEBUG) Log.v("SMSPopupUtilsService: Quick Reply to message");
         SmsMmsMessage message = new SmsMmsMessage(context, intent);
         //message.setThreadRead();
-        message.replyToMessage(intent.getStringExtra(SmsMmsMessage.EXTRAS_QUICKREPLY));
+//        message.replyToMessage(intent.getStringExtra(SmsMmsMessage.EXTRAS_QUICKREPLY));
       } else if (ACTION_UPDATE_NOTIFICATION.equals(action)) {
         if (Log.DEBUG) Log.v("SMSPopupUtilsService: Updating notification");
-        updateNotification(intent);
+//        updateNotification(intent);
       }
 
       // NOTE: We MUST not call stopSelf() directly, since we need to
@@ -101,30 +101,30 @@ public class SmsPopupUtilsService extends Service {
       finishStartingService(SmsPopupUtilsService.this, serviceId);
     }
   }
-
-  private void updateNotification(Intent intent) {
-    // In the case the user is "replying" to the message (ie. starting an
-    // external intent) we need to ignore all messages in the thread when
-    // calculating the unread messages to show in the status notification
-    boolean ignoreThread = intent.getBooleanExtra(SmsMmsMessage.EXTRAS_REPLYING, false);
-
-    SmsMmsMessage message;
-    if (ignoreThread) {
-      // If ignoring messages from the thread, pass the full message over
-      message = new SmsMmsMessage(context, intent);
-    } else {
-      // Otherwise we can just calculate unread messages by checking the
-      // database as normal
-      message = null;
-    }
-
-    // Get the most recent message + total message counts
-    SmsMmsMessage recentMessage = SmsPopupUtils.getRecentMessage(context, message);
-
-    // Update the notification in the status bar
-    ManageNotification.update(context, recentMessage);
-
-  }
+//
+//  private void updateNotification(Intent intent) {
+//    // In the case the user is "replying" to the message (ie. starting an
+//    // external intent) we need to ignore all messages in the thread when
+//    // calculating the unread messages to show in the status notification
+//    boolean ignoreThread = intent.getBooleanExtra(SmsMmsMessage.EXTRAS_REPLYING, false);
+//
+//    SmsMmsMessage message;
+//    if (ignoreThread) {
+//      // If ignoring messages from the thread, pass the full message over
+//      message = new SmsMmsMessage(context, intent);
+//    } else {
+//      // Otherwise we can just calculate unread messages by checking the
+//      // database as normal
+//      message = null;
+//    }
+//
+//    // Get the most recent message + total message counts
+//    SmsMmsMessage recentMessage = SmsPopupUtils.getRecentMessage(context, message);
+//
+//    // Update the notification in the status bar
+//    ManageNotification.update(context, recentMessage);
+//
+//  }
 
   /**
    * Start the service to process the current event notifications, acquiring the

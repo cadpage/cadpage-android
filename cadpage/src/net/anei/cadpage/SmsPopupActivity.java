@@ -61,7 +61,6 @@ public class SmsPopupActivity extends Activity {
   private SmsMmsMessage message;
 
   private boolean exitingKeyguardSecurely = false;
-  private SharedPreferences mPrefs;
   private InputMethodManager inputManager = null;
   private View inputView = null;
   private TextView fromTV;
@@ -86,10 +85,7 @@ public class SmsPopupActivity extends Activity {
   private boolean wasVisible = false;
   private boolean replying = false;
   private boolean inbox = false;
-  private boolean privacyMode = false;
-  private boolean useGoogleMapApp = false;
   private boolean messageViewed = true;
-  private String signatureText;
 
   private static final double WIDTH = 0.9;
   private static final int MAX_WIDTH = 640;
@@ -119,7 +115,6 @@ public class SmsPopupActivity extends Activity {
  // private String[] CallData = {"0","0","0","0","0","0","0","0","0"} ;
 	
 	private String[] callData;
-    private int iLoc;
   
 
   // Establish whether the Android TextToSpeech class is available to us
@@ -143,30 +138,13 @@ public class SmsPopupActivity extends Activity {
 
     requestWindowFeature(Window.FEATURE_NO_TITLE);
     setContentView(R.layout.popup);
-
-    // Get shared prefs
-    mPrefs = PreferenceManager.getDefaultSharedPreferences(this);
-    String sLocation = mPrefs.getString(getString(R.string.pref_location),Defaults.PREFS_LOCATION);
-    int iLocation = Integer.parseInt(sLocation);
-    iLoc = iLocation;
     // Check if screen orientation should be "user" or "behind" based on prefs
-    if (mPrefs.getBoolean(getString(R.string.pref_autorotate_key), Defaults.PREFS_AUTOROTATE)) {
+    if (ManagePreferences.autoRotate()) {
       setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_USER);
     } else {
       setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_BEHIND);
     }
 
-    // Fetch privacy mode
-    privacyMode =
-      mPrefs.getBoolean(getString(R.string.pref_privacy_key), Defaults.PREFS_PRIVACY);
-    
-    // Fetch google map app mode
-    useGoogleMapApp =
-      mPrefs.getBoolean(getString(R.string.pref_useGoogleMapApp_key), Defaults.PREFS_USE_GOOGLE_MAP_APP);
-      
-
-    signatureText = mPrefs.getString(getString(R.string.pref_notif_signature_key), "");
-    if (signatureText.length() > 0) signatureText = " " + signatureText;
 
     resizeLayout();
 
@@ -190,6 +168,10 @@ public class SmsPopupActivity extends Activity {
     privacyViewStub = (ViewStub) findViewById(R.id.PrivacyViewStub);
     buttonsLL = findViewById(R.id.ButtonLinearLayout);
 
+
+    // Get shared prefs
+    SharedPreferences mPrefs = PreferenceManager.getDefaultSharedPreferences(this);
+    
     // See if user wants to show buttons on the popup
     if (!mPrefs.getBoolean(
         getString(R.string.pref_show_buttons_key), Defaults.PREFS_SHOW_BUTTONS)) {
@@ -477,7 +459,7 @@ public class SmsPopupActivity extends Activity {
     String strMessage = newMessage.getMessageFull();
 
     // Decode the call page and place the data in the database
-        switch (iLoc) {
+        switch (Integer.parseInt(ManagePreferences.location())) {
         case 1:
         	decodeLCFRPage(strMessage);
         	break;
@@ -528,8 +510,6 @@ public class SmsPopupActivity extends Activity {
       refreshPrivacy();
     }
 
-    // Show QuickContact card on photo imageview click (only available on eclair+)
- 
     // If only 1 unread message waiting
     if (message.getUnreadCount() <= 1) {
       if (unreadCountView != null) {
@@ -931,7 +911,7 @@ private Properties parseMessage(String body) {
     // Don't understand this well enough to know how this should be handled, but
     // for now this will keep the app from closing  -kec
     if (message != null && message.getMessageType() == SmsMmsMessage.MESSAGE_TYPE_SMS) {
-      if (privacyMode) {
+      if (ManagePreferences.privacyMode()) {
         // We need to init the keyguard class so we can check if the keyguard is
         // on
         ManageKeyguard.initialize(getApplicationContext());
@@ -1219,7 +1199,7 @@ private Properties parseMessage(String body) {
   private void  mapMessage()  {
     if (Log.DEBUG) Log.v("Request Received to Map Call");
     if (haveNet()) {
-      if(useGoogleMapApp) {
+      if(ManagePreferences.useGoogleMapApp()) {
         String searchStr = callData[1];
         if (callData[2].length() > 0) searchStr = searchStr + ", " + callData[2];
         Intent intent = new Intent(Intent.ACTION_SEARCH);

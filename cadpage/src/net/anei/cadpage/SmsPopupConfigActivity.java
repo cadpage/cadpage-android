@@ -48,6 +48,7 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
     // we have to enable Top level exception handling here
     TopExceptionHandler.enable(this);
     addPreferencesFromResource(R.xml.preferences);
+    ManagePreferences.setupPreferences(this);
 
     //Try and find app version number
     String version;

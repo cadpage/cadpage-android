@@ -11,15 +11,12 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.graphics.Color;
-import android.graphics.Typeface;
 import android.media.AudioManager;
 import android.media.MediaPlayer;
 import android.net.Uri;
 import android.preference.PreferenceManager;
 import android.provider.Settings;
-import android.text.Spannable;
 import android.text.SpannableString;
-import android.text.style.StyleSpan;
 
 /*
  * This class handles the Notifications (sounds/vibrate/LED)
@@ -98,7 +95,6 @@ public class ManageNotification {
     // Fetch info from the message object
     int unreadCount = message.getUnreadCount();
     String messageBody = message.getMessageBody();
-    String contactName = message.getContactName();
     long timestamp = message.getTimestamp();
 
     // Check if there are unread messages - if not, we're done :)
@@ -107,7 +103,7 @@ public class ManageNotification {
       return;
     }
 
-    PopupNotification n = buildNotification(context, message.getContactId(), onlyUpdate, notif);
+    PopupNotification n = buildNotification(context, onlyUpdate, notif);
 
     if (n == null) return;
 
@@ -131,15 +127,10 @@ public class ManageNotification {
       // the name of the person, otherwise scroll the name and message
       if (n.privacyMode && ManageKeyguard.inKeyguardRestrictedInputMode()) {
         scrollText =
-          new SpannableString(context.getString(R.string.notification_scroll_privacy, contactName));
+          new SpannableString(context.getString(R.string.notification_scroll_privacy));
       } else {
         scrollText =
-          new SpannableString(context.getString(R.string.notification_scroll, contactName,
-              messageBody));
-
-        // Set contact name as bold
-        scrollText.setSpan(new StyleSpan(Typeface.BOLD), 0, contactName.length(),
-            Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+          new SpannableString(context.getString(R.string.notification_scroll, messageBody));
       }
     }
 
@@ -155,7 +146,7 @@ public class ManageNotification {
       //contentTitle = contactName;
       contentTitle = "Alert";
       contentText = messageBody;
-      smsIntent = message.getReplyIntent(n.replyToThread);
+//      smsIntent = message.getReplyIntent(n.replyToThread);
     }
 
     /*
@@ -203,10 +194,10 @@ public class ManageNotification {
   /*
    * Build the notification from user preferences
    */
-  private static PopupNotification buildNotification(Context context, String contactId,
+  private static PopupNotification buildNotification(Context context,
       boolean onlyUpdate, int notif) {
 
-    ManagePreferences mPrefs = new ManagePreferences(context, contactId);
+    ManagePreferences mPrefs = new ManagePreferences(context, null);
     AudioManager AM = (AudioManager) context.getSystemService(Context.AUDIO_SERVICE);
     Uri alarmSoundURI;
     // Check if notifications are enabled - if not, we're done :)
@@ -262,8 +253,7 @@ public class ManageNotification {
     if (Log.DEBUG){ Log.v("Sounds URI = " + alarmSoundURI.toString());}
     //}
     // See if user wants some privacy
-    boolean privacyMode =
-      mPrefs.getBoolean(R.string.pref_privacy_key, Defaults.PREFS_PRIVACY);
+    boolean privacyMode = ManagePreferences.privacyMode();
 
     boolean replyToThread =
       mPrefs.getBoolean(R.string.pref_reply_to_thread_key, Defaults.PREFS_REPLY_TO_THREAD);
@@ -404,14 +394,6 @@ public class ManageNotification {
     NotificationManager myNM =
       (NotificationManager) context.getSystemService(Context.NOTIFICATION_SERVICE);
     myNM.cancel(notif);
-  }
-
-  /*
-   * Build the notification with no contactId
-   */
-  private static PopupNotification buildNotification(Context context,
-      boolean onlyUpdate, int notif) {
-    return buildNotification(context, "0", onlyUpdate, notif);
   }
 
   public static void clearAll(Context context, boolean reply) {

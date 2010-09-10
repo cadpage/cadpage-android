@@ -1,6 +1,5 @@
 package net.anei.cadpage;
 
-import net.anei.cadpage.ManagePreferences.Defaults;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
@@ -46,18 +45,14 @@ public class SmsReceiver extends BroadcastReceiver {
         message.getMessageClass() == MessageClass.CLASS_0) return false;
 
     // First look at from Filter.
-    ManagePreferences mPrefs = new ManagePreferences(context, message.getContactId());
-    String sFilter = mPrefs.getString(R.string.pref_filter_key,Defaults.PREFS_FILTER);
+    String sFilter = ManagePreferences.filter();
     String sAddress = message.getAddress();
     if (! match(sAddress, sFilter)) return false;
 
     if (Log.DEBUG) Log.v("SMSReceiver/CadPageCall: Filter Matches checking call Location -" + sFilter);
 
     // Next look up location code and use it to see if this message contains the trigger phrase
-    String sLocation = mPrefs.getString(R.string.pref_location,Defaults.PREFS_LOCATION);
-    if (sLocation.contains("Loudoun")){
-      sLocation="1";
-    }
+    String sLocation = ManagePreferences.location();
     int iLocation = Integer.parseInt(sLocation);
     String[] phrases = new String[]{"Call:", "TYPE:", "Map:", "(Corvallis Alert)"};
     if (iLocation > phrases.length) return false;

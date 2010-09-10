@@ -57,7 +57,6 @@
    <string name="pref_donated_key">donated</string>
    <string name="pref_quickreply_key">quickreply</string>
    <string name="pref_quickreply_cat_key">qrcat</string>
-   <string name="pref_notif_signature_key">signature</string>
    <string name="pref_delivery_report_key">deliveryreport</string>
    <string name="pref_split_message_key">splitmessage</string>    
    <string name="pref_autorotate_key">autorotate</string>

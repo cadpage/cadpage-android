@@ -148,50 +148,50 @@ public class SmsPopupUtils {
       if (Log.DEBUG) Log.v("thread id " + threadId + " marked as read, result = " + result);
     }
   }
-
-  /**
-   * Tries to locate the message id (from the system database), given the message
-   * thread id, the timestamp of the message and the type of message (sms/mms)
-   */
-  public static long findMessageId(Context context, long threadId, long timestamp,
-      String body, int messageType) {
-
-    long id = 0;
-    String selection = "body = " + DatabaseUtils.sqlEscapeString(body);
-    final String sortOrder = "date DESC";
-    final String[] projection = new String[] { "_id", "date", "thread_id", "body" };
-
-    if (threadId > 0) {
-      if (Log.DEBUG) Log.v("Trying to find message ID");
-      if (SmsMmsMessage.MESSAGE_TYPE_MMS == messageType) {
-        // It seems MMS timestamps are stored in a seconds, whereas SMS timestamps are in millis
-        selection += " and date = " + (timestamp / 1000);
-      }
-
-      // Log.v("Where is: " + where);
-      // Log.v("ThreadId is: " + threadId);
-
-      Cursor cursor = context.getContentResolver().query(
-          ContentUris.withAppendedId(CONVERSATION_CONTENT_URI, threadId),
-          projection,
-          selection,
-          null,
-          sortOrder);
-
-      if (cursor != null) {
-        try {
-          if (cursor.moveToFirst()) {
-            id = cursor.getLong(0);
-            if (Log.DEBUG) Log.v("Message id found = " + id);
-            //Log.v("Timestamp = " + cursor.getLong(1));
-          }
-        } finally {
-          cursor.close();
-        }
-      }
-    }
-    return id;
-  }
+//
+//  /**
+//   * Tries to locate the message id (from the system database), given the message
+//   * thread id, the timestamp of the message and the type of message (sms/mms)
+//   */
+//  public static long findMessageId(Context context, long threadId, long timestamp,
+//      String body, int messageType) {
+//
+//    long id = 0;
+//    String selection = "body = " + DatabaseUtils.sqlEscapeString(body);
+//    final String sortOrder = "date DESC";
+//    final String[] projection = new String[] { "_id", "date", "thread_id", "body" };
+//
+//    if (threadId > 0) {
+//      if (Log.DEBUG) Log.v("Trying to find message ID");
+//      if (SmsMmsMessage.MESSAGE_TYPE_MMS == messageType) {
+//        // It seems MMS timestamps are stored in a seconds, whereas SMS timestamps are in millis
+//        selection += " and date = " + (timestamp / 1000);
+//      }
+//
+//      // Log.v("Where is: " + where);
+//      // Log.v("ThreadId is: " + threadId);
+//
+//      Cursor cursor = context.getContentResolver().query(
+//          ContentUris.withAppendedId(CONVERSATION_CONTENT_URI, threadId),
+//          projection,
+//          selection,
+//          null,
+//          sortOrder);
+//
+//      if (cursor != null) {
+//        try {
+//          if (cursor.moveToFirst()) {
+//            id = cursor.getLong(0);
+//            if (Log.DEBUG) Log.v("Message id found = " + id);
+//            //Log.v("Timestamp = " + cursor.getLong(1));
+//          }
+//        } finally {
+//          cursor.close();
+//        }
+//      }
+//    }
+//    return id;
+//  }
 
   /**
    * Tries to delete a message from the system database, given the thread id,
@@ -585,8 +585,7 @@ public class SmsPopupUtils {
           }
 
           SmsMmsMessage smsMessage = new SmsMmsMessage(
-              context, address, body, timestamp, threadId,
-              count, messageId, SmsMmsMessage.MESSAGE_TYPE_SMS);
+              context, address, body, timestamp, SmsMmsMessage.MESSAGE_TYPE_SMS);
 
           return smsMessage;
 
@@ -613,55 +612,55 @@ public class SmsPopupUtils {
   /*
    * 
    */
-  public static SmsMmsMessage getMmsDetails(Context context, long ignoreThreadId) {
+//  public static SmsMmsMessage getMmsDetails(Context context, long ignoreThreadId) {
+//
+//    final String[] projection = new String[] { "_id", "thread_id", "date", "sub", "sub_cs" };
+//    String selection = UNREAD_CONDITION;
+//    String[] selectionArgs = null;
+//    final String sortOrder = "date DESC";
+//    int count = 0;
+//
+//    if (ignoreThreadId > 0) {
+//      selection += " and thread_id != ?";
+//      selectionArgs = new String[] { String.valueOf(ignoreThreadId) };
+//    }
+//
+//    Cursor cursor = context.getContentResolver().query(
+//        MMS_INBOX_CONTENT_URI,
+//        projection,
+//        selection,
+//        selectionArgs,
+//        sortOrder);
+//
+//    if (cursor != null) {
+//      try {
+//        count = cursor.getCount();
+//        if (count > 0) {
+//          cursor.moveToFirst();
+//          //          String[] columns = cursor.getColumnNames();
+//          //          for (int i=0; i<columns.length; i++) {
+//          //            Log.v("columns " + i + ": " + columns[i] + ": "
+//          //                + cursor.getString(i));
+//          //          }
+//          long messageId = cursor.getLong(0);
+//          long threadId = cursor.getLong(1);
+//          long timestamp = cursor.getLong(2) * 1000;
+//          String subject = cursor.getString(3);
+//
+//          return new SmsMmsMessage(context, messageId, threadId, timestamp,
+//              subject, count, SmsMmsMessage.MESSAGE_TYPE_MMS);
+//        }
+//
+//      } finally {
+//        cursor.close();
+//      }
+//    }
+//    return null;
+//  }
 
-    final String[] projection = new String[] { "_id", "thread_id", "date", "sub", "sub_cs" };
-    String selection = UNREAD_CONDITION;
-    String[] selectionArgs = null;
-    final String sortOrder = "date DESC";
-    int count = 0;
-
-    if (ignoreThreadId > 0) {
-      selection += " and thread_id != ?";
-      selectionArgs = new String[] { String.valueOf(ignoreThreadId) };
-    }
-
-    Cursor cursor = context.getContentResolver().query(
-        MMS_INBOX_CONTENT_URI,
-        projection,
-        selection,
-        selectionArgs,
-        sortOrder);
-
-    if (cursor != null) {
-      try {
-        count = cursor.getCount();
-        if (count > 0) {
-          cursor.moveToFirst();
-          //          String[] columns = cursor.getColumnNames();
-          //          for (int i=0; i<columns.length; i++) {
-          //            Log.v("columns " + i + ": " + columns[i] + ": "
-          //                + cursor.getString(i));
-          //          }
-          long messageId = cursor.getLong(0);
-          long threadId = cursor.getLong(1);
-          long timestamp = cursor.getLong(2) * 1000;
-          String subject = cursor.getString(3);
-
-          return new SmsMmsMessage(context, messageId, threadId, timestamp,
-              subject, count, SmsMmsMessage.MESSAGE_TYPE_MMS);
-        }
-
-      } finally {
-        cursor.close();
-      }
-    }
-    return null;
-  }
-
-  public static SmsMmsMessage getMmsDetails(Context context) {
-    return getMmsDetails(context, 0);
-  }
+//  public static SmsMmsMessage getMmsDetails(Context context) {
+//    return getMmsDetails(context, 0);
+//  }
 
   public static String getMmsAddress(Context context, long messageId) {
     final String[] projection =  new String[] { "address", "contact_id", "charset", "type" };
@@ -713,47 +712,6 @@ public class SmsPopupUtils {
       return match.group(1);
     }
     return displayString;
-  }
-
-  /*
-   * Get the most recent unread message, returning in a SmsMmsMessage which is
-   * suitable for updating the notification.  Optional param is the message object:
-   * we can pull out the thread id of this message in the case the user is "replying"
-   * to the message and we should ignore all messages in the thread when working out
-   * what to display in the notification bar (as these messages will soon be marked read
-   * but we can't be sure when the messaging app will actually start).
-   * 
-   */
-  public static SmsMmsMessage getRecentMessage(Context context, SmsMmsMessage ignoreMessage) {
-    long ignoreThreadId = 0;
-
-    if (ignoreMessage != null) {
-      ignoreThreadId = ignoreMessage.getThreadId();
-    }
-
-    SmsMmsMessage smsMessage = getSmsDetails(context, ignoreThreadId);
-    SmsMmsMessage mmsMessage = getMmsDetails(context, ignoreThreadId);
-
-    if (mmsMessage == null && smsMessage != null) {
-      return smsMessage;
-    }
-
-    if (mmsMessage != null && smsMessage == null) {
-      return mmsMessage;
-    }
-
-    if (mmsMessage != null && smsMessage != null) {
-      if (mmsMessage.getTimestamp() < smsMessage.getTimestamp()) {
-        return mmsMessage;
-      }
-      return smsMessage;
-    }
-
-    return null;
-  }
-
-  public static SmsMmsMessage getRecentMessage(Context context) {
-    return getRecentMessage(context, null);
   }
 
   /**

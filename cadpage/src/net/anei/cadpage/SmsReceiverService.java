@@ -33,8 +33,8 @@ public class SmsReceiverService extends Service {
    * This is the number of retries and pause between retries that we will keep
    * checking the system message database for the latest incoming message
    */
-  private static final int MESSAGE_RETRY = 8;
-  private static final int MESSAGE_RETRY_PAUSE = 1000;
+//  private static final int MESSAGE_RETRY = 8;
+//  private static final int MESSAGE_RETRY_PAUSE = 1000;
 
   private Context context;
   private ServiceHandler mServiceHandler;
@@ -98,7 +98,7 @@ public class SmsReceiverService extends Service {
       if (ACTION_SMS_RECEIVED.equals(action)) {
         handleSmsReceived(intent);
       } else if (ACTION_MMS_RECEIVED.equals(action) && MMS_DATA_TYPE.equals(dataType)) {
-        handleMmsReceived(intent);
+//        handleMmsReceived(intent);
       } else if (MESSAGE_SENT_ACTION.equals(action)) {
         handleSmsSent(intent);
       } else if (ACTION_MESSAGE_RECEIVED.equals(action)) {
@@ -124,7 +124,7 @@ public class SmsReceiverService extends Service {
     
     if (Log.DEBUG) Log.v("SMSReceiver: This is a CadPage Call.");
 
-    ManagePreferences mPrefs = new ManagePreferences(context, message.getContactId());
+    ManagePreferences mPrefs = new ManagePreferences(context, null);
 
     // Whether or not the popup should only show when keyguard is on
     boolean onlyShowOnKeyguard =
@@ -187,33 +187,33 @@ public class SmsReceiverService extends Service {
   /**
    * Handle receiving a MMS message
    */
-  private void handleMmsReceived(Intent intent) {
-    if (Log.DEBUG) Log.v("MMS received!");
-    SmsMmsMessage mmsMessage = null;
-    int count = 0;
-
-    // Ok this is super hacky, but fixes the case where this code
-    // runs before the system MMS transaction service (that stores
-    // the MMS details in the database). This should really be
-    // a content listener that waits for a while then gives up...
-    while (mmsMessage == null && count < MESSAGE_RETRY) {
-
-      mmsMessage = SmsPopupUtils.getMmsDetails(context);
-
-      if (mmsMessage != null) {
-        if (Log.DEBUG) Log.v("MMS found in content provider");
-        //notifyMessageReceived(mmsMessage);
-      } else {
-        if (Log.DEBUG) Log.v("MMS not found, sleeping (count is " + count + ")");
-        count++;
-        try {
-          Thread.sleep(MESSAGE_RETRY_PAUSE);
-        } catch (InterruptedException e) {
-          // e.printStackTrace();
-        }
-      }
-    }
-  }
+//  private void handleMmsReceived(Intent intent) {
+//    if (Log.DEBUG) Log.v("MMS received!");
+//    SmsMmsMessage mmsMessage = null;
+//    int count = 0;
+//
+//    // Ok this is super hacky, but fixes the case where this code
+//    // runs before the system MMS transaction service (that stores
+//    // the MMS details in the database). This should really be
+//    // a content listener that waits for a while then gives up...
+//    while (mmsMessage == null && count < MESSAGE_RETRY) {
+//
+//      mmsMessage = SmsPopupUtils.getMmsDetails(context);
+//
+//      if (mmsMessage != null) {
+//        if (Log.DEBUG) Log.v("MMS found in content provider");
+//        //notifyMessageReceived(mmsMessage);
+//      } else {
+//        if (Log.DEBUG) Log.v("MMS not found, sleeping (count is " + count + ")");
+//        count++;
+//        try {
+//          Thread.sleep(MESSAGE_RETRY_PAUSE);
+//        } catch (InterruptedException e) {
+//          // e.printStackTrace();
+//        }
+//      }
+//    }
+//  }
 
   /**
    * Handle receiving an arbitrary message (potentially coming from a 3rd party app)
