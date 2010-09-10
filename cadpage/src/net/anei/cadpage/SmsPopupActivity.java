@@ -2,7 +2,11 @@ package net.anei.cadpage;
 
 
 import android.os.Bundle;
+import android.os.Environment;
 
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.util.ArrayList;
 import java.util.Properties;
 
@@ -570,9 +574,53 @@ public class SmsPopupActivity extends Activity {
     // longer exists.  But the comment remains as a possible clue if someone
     // should discover I was wrong.
     
+    //Will add a Database method in the future.
+    //storeFileMessage();
+    
   } //end of function
 
   
+private void storeFileMessage() {
+	// Store the message in a flat file for History.
+	//Use calldata to get information.
+	String sFileName = R.string.app_file_dir +"/" + R.string.app_file_name;
+	if (externalStorageAvailable()){
+		File sdcard = Environment.getExternalStorageDirectory();
+		try {
+			FileOutputStream fos = openFileOutput(sFileName,Context.MODE_APPEND);
+		} catch (FileNotFoundException e) {
+			if (Log.DEBUG) Log.v("Exception in storeFileMessage Open for Writing." + e.toString());
+			e.printStackTrace();
+		}
+		StringBuilder text = new StringBuilder();
+		
+	}
+}
+
+private boolean externalStorageAvailable() {
+	// From google
+	boolean mExternalStorageAvailable = false;
+	boolean mExternalStorageWriteable = false;
+	String state = Environment.getExternalStorageState();
+
+	if (Environment.MEDIA_MOUNTED.equals(state)) {
+	    // We can read and write the media
+	    mExternalStorageAvailable = mExternalStorageWriteable = true;
+	} else if (Environment.MEDIA_MOUNTED_READ_ONLY.equals(state)) {
+	    // We can only read the media
+	    mExternalStorageAvailable = true;
+	    mExternalStorageWriteable = false;
+	} else {
+	    // Something else is wrong. It may be one of many other states, but all we need
+	    //  to know is we can neither read nor write
+	    mExternalStorageAvailable = mExternalStorageWriteable = false;
+	}
+	if (mExternalStorageAvailable==true && mExternalStorageWriteable==true){
+		return true;
+	}
+	return false;
+}
+
 private String decodeLCFRPage(String body) {
 		// Take call from SMS Message and divide data up.
 		// Sample Call "Call:
