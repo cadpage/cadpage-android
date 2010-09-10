@@ -71,11 +71,8 @@ public class SmsReceiver extends BroadcastReceiver {
    * @return true if sender matches filter
    */
   private boolean match(String address, String filter) {
-    if (filter == null || filter.length() == 0) return true;
-
-    // Convert the filter expression into a regular expression
-    filter = filter.replaceAll(".", "\\.").replaceAll("?", ".").replaceAll("*", ".*");
-    return address.matches(filter);
+    return (filter == null || filter.length() == 0 ||
+             filter.equals("*")  || filter.equals(address));
   }
 }
 
