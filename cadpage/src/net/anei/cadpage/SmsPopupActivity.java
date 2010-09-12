@@ -7,6 +7,7 @@ import android.os.Environment;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Properties;
 
@@ -83,7 +84,6 @@ public class SmsPopupActivity extends Activity {
   private LinearLayout mainLL = null;
 
   private boolean wasVisible = false;
-  private boolean replying = false;
   private boolean inbox = false;
   private boolean messageViewed = true;
 
@@ -560,7 +560,7 @@ public class SmsPopupActivity extends Activity {
   } //end of function
 
   
-private void storeFileMessage() {
+private void storeFileMessage(String sMessage) {
 	// Store the message in a flat file for History.
 	//Use calldata to get information.
 	String sFileName = R.string.app_file_dir +"/" + R.string.app_file_name;
@@ -568,6 +568,12 @@ private void storeFileMessage() {
 		File sdcard = Environment.getExternalStorageDirectory();
 		try {
 			FileOutputStream fos = openFileOutput(sFileName,Context.MODE_APPEND);
+			try {
+				fos.write(sMessage.getBytes());
+			} catch (IOException e) {
+				if (Log.DEBUG) Log.v("Exception in storeFileMessage Open for Writing." + e.toString());
+				e.printStackTrace();
+			}
 		} catch (FileNotFoundException e) {
 			if (Log.DEBUG) Log.v("Exception in storeFileMessage Open for Writing." + e.toString());
 			e.printStackTrace();
@@ -956,7 +962,6 @@ private Properties parseMessage(String body) {
     ManageWakeLock.acquireFull(getApplicationContext());
     ManageWakeLock.releasePartial();
 
-    replying = false;
     inbox = false;
 
     // See if a notification has been played for this message...

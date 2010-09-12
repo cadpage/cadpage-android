@@ -1,5 +1,6 @@
 package net.anei.cadpage.wrappers;
 
+import android.content.ContentValues;
 import android.content.Context;
 import android.database.*;
 import android.database.sqlite.*;
@@ -9,10 +10,12 @@ import android.util.Log;
 public class MyDBAdapter {
 private static final String DATABASE_NAME = "cadpage.db";
 private static final String DATABASE_TABLE = "mainTable";
+private static final String DATABASE_RAW_TABLE = "rawTable";
 private static final int DATABASE_VERSION = 1;
 
 // The index (key) column name for use in where clauses.
 public static final String KEY_ID="_id";
+public static final String KEY_R_ID="_id";
 
 // The name and column index of each column in your database. 
 public static final String KEY_Date="date";
@@ -26,6 +29,7 @@ public static final String KEY_ADC="adc";
 public static final String KEY_UNITS="units";
 public static final String KEY_NOTES="notes";
 public static final String KEY_Archive="archive";
+public static final String KEY_RAW="raw";
 
 
 // SQL Statement to create a new database.
@@ -33,7 +37,7 @@ private static final String DATABASE_CREATE = "create table " +
  DATABASE_TABLE + " (" + KEY_ID + 
  " integer primary key autoincrement, " +
  KEY_Date + " text default CURRENT_DATE" +
- KEY_Time + " test default CURRENT_TIME" +
+ KEY_Time + " text default CURRENT_TIME" +
  KEY_Call + " text null" +
  KEY_Address + " text null" +
  KEY_Apt + " text null" +
@@ -44,6 +48,12 @@ private static final String DATABASE_CREATE = "create table " +
  KEY_NOTES + " text null" +
  KEY_Archive + "integer default 0" +
  		");" ;
+
+private static final String DATABASE_RAW_CREATE = "create table " + 
+DATABASE_RAW_TABLE + " (" + KEY_R_ID + " integer primary key autoincrement, " +
+KEY_Date + " text default CURRENT_DATE, " +
+KEY_Time + " text default CURRENT_TIME, " +
+KEY_RAW + 	" text );" ;
 
 // Variable to hold the database instance
 private SQLiteDatabase db;
@@ -57,6 +67,19 @@ public long insertCall(String strCall) {
 	
 	
 	return 0;
+}
+
+public long insertRaw(String strMessage) {
+	ContentValues newValues = new ContentValues();
+	newValues.put(KEY_RAW, strMessage);
+	return db.insert(DATABASE_RAW_TABLE, null, newValues);
+	
+}
+
+public Cursor getRawEntries(String MaxRows) {
+	
+	return db.query(DATABASE_RAW_TABLE, new String[] {KEY_R_ID, KEY_RAW}, null, null, null, null, KEY_R_ID,MaxRows);
+	
 }
 public MyDBAdapter(Context _context) {
  context = _context;
@@ -84,7 +107,8 @@ private static class myDbHelper extends SQLiteOpenHelper {
  // to create a new one. 
  @Override
  public void onCreate(SQLiteDatabase _db) {
-   _db.execSQL(DATABASE_CREATE);
+  // _db.execSQL(DATABASE_CREATE);
+   _db.execSQL(DATABASE_RAW_CREATE);
  }
 
  // Called when there is a database version mismatch meaning that the version
@@ -102,6 +126,7 @@ private static class myDbHelper extends SQLiteOpenHelper {
 
    // The simplest case is to drop the old table and create a new one.
    _db.execSQL("DROP TABLE IF EXISTS " + DATABASE_TABLE);
+   _db.execSQL("DROP TABLE IF EXISTS " + DATABASE_RAW_TABLE);
    // Create a new one.
    onCreate(_db);
  }

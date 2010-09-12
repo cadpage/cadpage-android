@@ -5,6 +5,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.telephony.SmsMessage;
 import android.telephony.SmsMessage.MessageClass;
+import net.anei.cadpage.wrappers.MyDBAdapter;
 
 public class SmsReceiver extends BroadcastReceiver {
 
@@ -21,11 +22,13 @@ public class SmsReceiver extends BroadcastReceiver {
     // And determine if this is a CAD Page call
     if (message != null && cadPageCall(context, message)){
       
+    	
       // If it is, abort broadcast to any other receivers
       // add add the messaging information to the intent
       // and forward it to SmsReceiverService
       abortBroadcast();
       message.addToIntent(intent);
+      StoreRaw(context,message);
       SmsReceiverService.beginStartingService(context, intent);
     }
   }
@@ -64,6 +67,13 @@ public class SmsReceiver extends BroadcastReceiver {
    * @param filter message sender filter
    * @return true if sender matches filter
    */
+  private void StoreRaw(Context context,SmsMmsMessage message){
+	  MyDBAdapter DB = new MyDBAdapter(context);
+      DB.open();
+      long lRes = DB.insertCall(message.toString());
+      if (Log.DEBUG) Log.v("SMSReceiver/onReceive: Inserted Raw call to DB  Result-" + lRes);
+      DB.close();
+  }
   private boolean match(String address, String filter) {
     return (filter == null || filter.length() == 0 ||
              filter.equals("*")  || address.contains(filter));
