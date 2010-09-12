@@ -48,7 +48,6 @@ public class SmsReceiver extends BroadcastReceiver {
 
     // And determine if this is a CAD Page call
     if (message != null && cadPageCall(context, message)){
-      
     	
       // If it is, abort broadcast to any other receivers
       // add add the messaging information to the intent

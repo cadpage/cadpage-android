@@ -39,11 +39,7 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
   public void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     
-    // This probably shouldn't be the launch activity, but since it is
-    // we have to enable Top level exception handling here
-    TopExceptionHandler.enable(this);
     addPreferencesFromResource(R.xml.preferences);
-    ManagePreferences.setupPreferences(this);
 
     //Try and find app version number
     String version;
