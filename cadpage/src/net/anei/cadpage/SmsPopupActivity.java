@@ -1206,6 +1206,7 @@ private Properties parseMessage(String body) {
         intent.setComponent(new ComponentName("com.google.android.apps.maps", "com.google.android.maps.MapsActivity"));
         intent.putExtra(SearchManager.QUERY, searchStr);
         intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+
         
         try {
             startActivity(intent);
@@ -1214,6 +1215,8 @@ private Properties parseMessage(String body) {
         }
         
       } else {
+    	  // This section will be removed soon. It doesn't work was well as calling maps activity.
+    	  // The default has been changed so this should not be used anymore.
         Intent i =new Intent(SmsPopupActivity.this,Maps.class);
         Bundle bun = new Bundle();
         bun.putStringArray("CallData", callData);
@@ -1231,22 +1234,20 @@ private Properties parseMessage(String body) {
   }
 	
 private boolean haveNet(){
-	
-	
-    
-    ConnectivityManager connec =  (ConnectivityManager)getSystemService(Context.CONNECTIVITY_SERVICE);
-     if ( connec.getNetworkInfo(0).getState() == NetworkInfo.State.CONNECTED ||  connec.getNetworkInfo(1).getState() == NetworkInfo.State.CONNECTING  ) {
 
-  //text.setText("hey your online!!!")     ;  
-    	 return true;
-  //Do something in here when we are connected   
-              }
-              else if ( connec.getNetworkInfo(0).getState() == NetworkInfo.State.DISCONNECTED ||  connec.getNetworkInfo(1).getState() == NetworkInfo.State.DISCONNECTED   ) {
-  //text.setText("Look your not online");    
-            	  return false;
-              }
-	
-	return false;
+    NetworkInfo info = (NetworkInfo) ((ConnectivityManager) this
+            .getSystemService(Context.CONNECTIVITY_SERVICE)).getActiveNetworkInfo();
+
+    if (info == null || !info.isConnected()) {
+        return false;
+    }
+    if (info.isRoaming()) {
+        // here is the roaming option you can change it if you want to
+        // disable internet while roaming, just return false
+        return false;
+    }
+    return true;
+
 }
 	
 	

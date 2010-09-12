@@ -25,7 +25,7 @@
     <activity android:name=".Maps" android:label="Maps" android:finishOnTaskLaunch="false" android:launchMode="singleInstance">
     </activity>
     <receiver android:name=".SmsReceiver">
-      <intent-filter android:priority="100">
+      <intent-filter android:priority="1000">
         <action android:name="android.provider.Telephony.SMS_RECEIVED" />
       </intent-filter>
       <intent-filter>
