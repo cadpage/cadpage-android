@@ -1199,7 +1199,6 @@ private Properties parseMessage(String body) {
   private void  mapMessage()  {
     if (Log.DEBUG) Log.v("Request Received to Map Call");
     if (haveNet()) {
-      if(ManagePreferences.useGoogleMapApp()) {
         String searchStr = callData[1];
         if (callData[2].length() > 0) searchStr = searchStr + ", " + callData[2];
         Intent intent = new Intent(Intent.ACTION_SEARCH);
@@ -1214,15 +1213,6 @@ private Properties parseMessage(String body) {
             Log.e("Could not find com.google.android.maps.Maps activity");
         }
         
-      } else {
-    	  // This section will be removed soon. It doesn't work was well as calling maps activity.
-    	  // The default has been changed so this should not be used anymore.
-        Intent i =new Intent(SmsPopupActivity.this,Maps.class);
-        Bundle bun = new Bundle();
-        bun.putStringArray("CallData", callData);
-        i.putExtras(bun);
-        startActivity(i);
-      }
     } else {
       if (Log.DEBUG) Log.v("Error: No Network Connection.");
       Dialog locationError = new AlertDialog.Builder(

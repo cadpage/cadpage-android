@@ -14,12 +14,6 @@
       android:title="@string/pref_notif_title"
       android:summary="@string/pref_notif_summary"
       android:dependency="@string/pref_enabled_key">
-      <PreferenceCategory
-        android:title="@string/pref_notif_category_title">
-        <PreferenceScreen
-          android:key="pref_notif_default_key"
-          android:title="@string/pref_notif_default_title"
-          android:summary="@string/pref_notif_default_summary">
           <PreferenceCategory
             android:title="@string/pref_notif_default_title">
             <CheckBoxPreference
@@ -132,16 +126,6 @@
               android:dependency="@string/pref_notif_repeat_key" />
           </PreferenceCategory>
         </PreferenceScreen>
-        <net.anei.cadpage.preferences.DialogPreference
-          android:key="@string/pref_notif_help_key"
-          android:title="@string/pref_notif_help_title"
-          android:summary="@string/pref_notif_help_summary"
-          android:dialogIcon="@android:drawable/ic_dialog_info"
-          android:dialogTitle="@string/pref_notif_help_summary"
-          android:dialogMessage="@string/pref_notif_help_message"
-          android:negativeButtonText="@null" />
-      </PreferenceCategory>
-    </PreferenceScreen>
     <PreferenceScreen
       android:title="@string/pref_additional_title"
       android:key="pref_additional_key"
@@ -243,12 +227,6 @@
           android:summaryOn="@string/pref_onlyShowOnKeyguard_summaryon"
           android:summaryOff="@string/pref_onlyShowOnKeyguard_summaryoff"
           android:defaultValue="@string/pref_onlyShowOnKeyguard_default" />
-        <CheckBoxPreference
-          android:key="@string/pref_useGoogleMapApp_key"
-          android:title="@string/pref_useGoogleMapApp_title"
-          android:summaryOn="@string/pref_useGoogleMapApp_summaryon"
-          android:summaryOff="@string/pref_useGoogleMapApp_summaryoff"
-          android:defaultValue="@string/pref_useGoogleMapApp_default" />
       </PreferenceCategory>
     </PreferenceScreen>
     <ListPreference 
@@ -258,7 +236,7 @@
     android:entryValues="@array/pref_location_values"
     android:dialogTitle="Select Location"
     android:defaultValue="1" />
-    <EditTextPreference  android:dialogTitle="From: @string/pref_filter"
+    <EditTextPreference  android:dialogTitle="From: (Filter)"
                              android:dialogMessage="@string/pref_filter_dialog"
                              android:key="@string/pref_filter_key"
                              android:title="@string/pref_filter_title"
@@ -267,9 +245,6 @@
   <PreferenceCategory
     android:key="@string/pref_other_key"
     android:title="@string/pref_other_title">
-    <Preference
-      android:key="@string/pref_donate_key"
-      android:title="@string/pref_donate_title" ></Preference>
     <PreferenceScreen
       android:key="@string/pref_faq_key"
       android:title="@string/pref_faq_title"
