@@ -1,7 +1,6 @@
 package net.anei.cadpage;
 
 import java.io.File;
-import java.io.IOException;
 
 import net.anei.cadpage.preferences.AppEnabledCheckBoxPreference;
 import net.anei.cadpage.preferences.ButtonListPreference;
@@ -20,7 +19,6 @@ import android.preference.Preference;
 import android.preference.PreferenceActivity;
 import android.preference.PreferenceCategory;
 import android.preference.PreferenceManager;
-import android.preference.PreferenceScreen;
 import android.preference.Preference.OnPreferenceChangeListener;
 import android.preference.Preference.OnPreferenceClickListener;
 import android.telephony.TelephonyManager;
@@ -29,7 +27,6 @@ import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
-import android.widget.Toast;
 
 public class SmsPopupConfigActivity extends PreferenceActivity {
   private static final int DIALOG_DONATE = Menu.FIRST;
@@ -192,6 +189,20 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
       }
     });
 */
+    // Test message response
+    Preference testmsgPref = findPreference(getString(R.string.pref_testmsg_key));
+//    testmsgPref.setEnabled(SmsReceiver.isRepeatEnabled(this));
+    testmsgPref.setOnPreferenceClickListener(new OnPreferenceClickListener(){
+      @Override
+      public boolean onPreferenceClick(Preference preference) {
+        Intent intent = new Intent("android.provider.Telephony.SMS_RECEIVED");
+        intent.setClass(SmsPopupConfigActivity.this, SmsReceiver.class);
+        intent.putExtra("repeat_last", true);
+        SmsPopupConfigActivity.this.sendOrderedBroadcast(intent, null);
+        return true;
+      }});
+    
+    
     // Donate dialog preference
     donateDialogPref = findPreference(getString(R.string.pref_donate_key));
     if (donateDialogPref != null) {
@@ -259,11 +270,6 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
 
     boolean enabled = myPrefs.getBoolean(getString(R.string.pref_enabled_key), true);
     mEnabledPreference.setChecked(enabled);
-
-    // If enabled, send a broadcast to disable other SMS Popup apps
-    if (enabled) {
-      SmsPopupUtils.disableOtherSMSPopup(this);
-    }
   }
 
   @Override

@@ -1,5 +1,10 @@
 package net.anei.cadpage;
 
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
+
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
@@ -8,16 +13,38 @@ import android.telephony.SmsMessage.MessageClass;
 import net.anei.cadpage.wrappers.MyDBAdapter;
 
 public class SmsReceiver extends BroadcastReceiver {
+  
+  private static String MSG_FILENAME = "last.msg";
 
   @Override
   public void onReceive(Context context, Intent intent) {
     if (Log.DEBUG) Log.v("SMSReceiver: onReceive()");
+    
     intent.setClass(context, SmsReceiverService.class);
     intent.putExtra("result", getResultCode());
 
-    // Convert Intent into an SMS/MSS message
-    SmsMessage[] messages = SmsPopupUtils.getMessagesFromIntent(intent);
-    SmsMmsMessage message = new SmsMmsMessage(context, messages,System.currentTimeMillis());
+    SmsMmsMessage message = null;
+    
+    // If repeat_last flag is set, this is a fake intent instructing us
+    // to reprocess the most recently recieved message (that passed the 
+    // sender address filter
+    if (intent.getBooleanExtra("repeat_last", false)) {
+      ObjectInputStream is = null;
+      try {
+        is = new ObjectInputStream(
+          context.openFileInput(MSG_FILENAME));
+        message = SmsMmsMessage.readObject(context, is);
+      } catch (Exception ex) {
+        Log.e(ex);
+      } finally {
+        if (is != null) try {is.close();} catch (IOException ex) {}
+      }
+    }
+    // Otherwise convert Intent into an SMS/MSS message
+    else {
+      SmsMessage[] messages = SmsPopupUtils.getMessagesFromIntent(intent);
+      message = new SmsMmsMessage(context, messages,System.currentTimeMillis());
+    }
 
     // And determine if this is a CAD Page call
     if (message != null && cadPageCall(context, message)){
@@ -28,7 +55,6 @@ public class SmsReceiver extends BroadcastReceiver {
       // and forward it to SmsReceiverService
       abortBroadcast();
       message.addToIntent(intent);
-      StoreRaw(context,message);
       SmsReceiverService.beginStartingService(context, intent);
     }
   }
@@ -52,6 +78,18 @@ public class SmsReceiver extends BroadcastReceiver {
     String sAddress = message.getAddress();
     if (! match(sAddress, sFilter)) return false;
     if (Log.DEBUG) Log.v("SMSReceiver/CadPageCall: Filter Matches checking call Location -" + sFilter);
+    
+    // Save message to file for future test use
+    ObjectOutputStream os = null;
+    try {
+      os = new ObjectOutputStream(
+        context.openFileOutput(MSG_FILENAME, Context.MODE_PRIVATE));
+      os.writeObject(message);
+    } catch (IOException ex) {
+      Log.e(ex);
+    } finally {
+      if (os != null) try {os.close();} catch (IOException ex) {}
+    }
 
     // Next look up location code and use it to see if this message contains the trigger phrase
     String sLocation = ManagePreferences.location();
@@ -61,19 +99,6 @@ public class SmsReceiver extends BroadcastReceiver {
     return (strMessage.indexOf(phrases[iLocation-1]) >= 0);
   }
 
-  /**
-   * See if message sender matches filter
-   * @param address message sender address
-   * @param filter message sender filter
-   * @return true if sender matches filter
-   */
-  private void StoreRaw(Context context,SmsMmsMessage message){
-	  MyDBAdapter DB = new MyDBAdapter(context);
-      DB.open();
-      long lRes = DB.insertCall(message.toString());
-      if (Log.DEBUG) Log.v("SMSReceiver/onReceive: Inserted Raw call to DB  Result-" + lRes);
-      DB.close();
-  }
   private boolean match(String address, String filter) {
     return (filter == null || filter.length() == 0 ||
              filter.equals("*")  || address.contains(filter));

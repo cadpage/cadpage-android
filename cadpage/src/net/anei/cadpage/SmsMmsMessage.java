@@ -1,5 +1,8 @@
 package net.anei.cadpage;
 
+import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.io.OptionalDataException;
 import java.io.Serializable;
 
 import android.content.Context;
@@ -38,7 +41,7 @@ public class SmsMmsMessage implements Serializable {
   public static final int MESSAGE_COMPARE_TIME_BUFFER = 5000; // 5 seconds
 
   // Main message object private vars
-  private Context context;
+  private transient Context context;           // Can't be serialized, restore afterwards
   private String fromAddress = null;
   private String messageBody = null;
   private String messageFull = null;
@@ -309,5 +312,16 @@ public class SmsMmsMessage implements Serializable {
 //
 //    return sender.sendMessage();
 //  }
+  
+  /**
+   * Read serialized SmsMmsMessage object from Object input stream
+   */
+  public static SmsMmsMessage readObject(Context context, ObjectInputStream is) 
+  throws OptionalDataException, ClassNotFoundException, IOException {
+    SmsMmsMessage message = (SmsMmsMessage)is.readObject();
+    if (message != null) message.context = context;
+    return message;
+
+  }
 
 }

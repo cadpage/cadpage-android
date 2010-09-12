@@ -242,6 +242,9 @@
                              android:title="@string/pref_filter_title"
                              android:summary="@string/pref_filter_summary"
                              android:defaultValue="*"/></PreferenceCategory>
+  <Preference
+    android:key="@string/pref_testmsg_key"
+    android:title="@string/pref_testmsg_title" ></Preference>
   <PreferenceCategory
     android:key="@string/pref_other_key"
     android:title="@string/pref_other_title">

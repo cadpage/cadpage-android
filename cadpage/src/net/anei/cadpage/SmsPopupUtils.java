@@ -835,22 +835,12 @@ public class SmsPopupUtils {
           PackageManager.COMPONENT_ENABLED_STATE_DEFAULT,
           PackageManager.DONT_KILL_APP);
 
-      // Send a broadcast to disable other SMS Popup apps
-      disableOtherSMSPopup(context);
-
     } else {
       if (Log.DEBUG) Log.v("SMSPopup receiver is disabled");
       pm.setComponentEnabledSetting(cn,
           PackageManager.COMPONENT_ENABLED_STATE_DISABLED,
           PackageManager.DONT_KILL_APP);
     }
-  }
-
-  public static void disableOtherSMSPopup(Context context) {
-    // Send a broadcast to disable SMS Popup Pro
-    Intent i = new Intent(ExternalEventReceiver.ACTION_SMSPOPUP_DISABLE);
-    i.setClassName("net.everythingandroid.smspopuppro", "net.everythingandroid.smspopuppro.ExternalEventReceiver");
-    context.sendBroadcast(i);
   }
 
   /**

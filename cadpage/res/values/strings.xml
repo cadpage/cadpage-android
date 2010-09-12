@@ -81,6 +81,8 @@
    <string name="pref_useGoogleMapApp_title">Use Google Maps Application</string>
    <string name="pref_useGoogleMapApp_summaryon">Call Map button will launch Google Maps application</string>
    <string name="pref_useGoogleMapApp_summaryoff">Call Map button wil launch local Map window</string>
+   
+   <string name="pref_testmsg_title">Test response to last page</string>
 
    <string name="pref_require_unlock_title">Require Screen Unlock</string>
    <string name="pref_require_unlock_summaryon">Buttons will be hidden till screen is unlocked</string>
