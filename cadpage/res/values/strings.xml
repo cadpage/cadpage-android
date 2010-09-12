@@ -332,18 +332,6 @@
 
 <string name="CallAddress">None</string>
 
-<string name="CallXStr">None</string>
-<string name="call_Type">none</string>
-<string name="call_Address">none</string>
-<string name="call_Cross">none</string>
-<string name="call_Apt">none</string>
-<string name="call_City">none</string>
-<string name="call_Box">none</string>
-<string name="call_Adc">none</string>
-<string name="call_Unit">none</string>
-<string name="call_Body">none</string>
-
-
 
 <string name="pref_location">location</string>
 <string name="pref_location_title">Location</string>

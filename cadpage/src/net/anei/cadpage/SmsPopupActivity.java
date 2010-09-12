@@ -111,10 +111,8 @@ public class SmsPopupActivity extends Activity {
   private static boolean androidTextToSpeechAvailable = false;
   private TTS eyesFreeTts = null;
   private TextToSpeechWrapper androidTts = null;
-  
- // private String[] CallData = {"0","0","0","0","0","0","0","0","0"} ;
 	
-	private String[] callData;
+	private SmsMsgParser parser;
   
 
   // Establish whether the Android TextToSpeech class is available to us
@@ -131,8 +129,6 @@ public class SmsPopupActivity extends Activity {
   protected void onCreate(Bundle bundle) {
     super.onCreate(bundle);
     if (Log.DEBUG) Log.v("SMSPopupActivity: onCreate()");
-    Resources res = getResources();
-    callData = res.getStringArray(R.array.aCallData);
     // First things first, acquire wakelock, otherwise the phone may sleep
     //ManageWakeLock.acquirePartial(getApplicationContext());
 
@@ -456,25 +452,7 @@ public class SmsPopupActivity extends Activity {
 
     // Store message
     message = newMessage;
-    String strMessage = newMessage.getMessageFull();
-
-    // Decode the call page and place the data in the database
-        switch (Integer.parseInt(ManagePreferences.location())) {
-        case 1:
-        	decodeLCFRPage(strMessage);
-        	break;
-        case 2:
-        	decodeSuffolkPage(strMessage);
-        	break;
-        case 3: 
-        	decodeHarrisPage(strMessage);
-        	break;
-        case 4:
-          decodeBentonCoPage(strMessage);
-          break;
-        }
-    	
-   
+    parser = new SmsMsgParser(newMessage.getMessageFull());
     
     // If it's a MMS message, just show the MMS layout
     if (message.getMessageType() == SmsMmsMessage.MESSAGE_TYPE_MMS) {
@@ -540,9 +518,20 @@ public class SmsPopupActivity extends Activity {
     String headerText = getString(R.string.new_text_at, message.getFormattedTimestamp().toString());
 
     // Set the from, message and header views
-    fromTV.setText(callData[0]);
+    fromTV.setText(parser.getCall());
     if (message.getMessageType() == SmsMmsMessage.MESSAGE_TYPE_SMS) {
-      messageTV.setText(callData[1] + "\n X: " + callData[4] + "\n Units: " + callData[7]);
+      StringBuilder sb = new StringBuilder(parser.getAddress());
+      if (parser.getCity().length() > 0) {
+        sb.append('\n');
+        sb.append(parser.getCity());
+      }
+      sb.append("\nX:");
+      sb.append(parser.getCross());
+      if (parser.getUnit().length() > 0) {
+        sb.append("\nUnits");
+        sb.append(parser.getUnit());
+      }
+      messageTV.setText(sb.toString());
     } else {
       mmsSubjectTV.setText(getString(R.string.mms_subject) + " " + message.getMessageBody());
     }
@@ -605,305 +594,6 @@ private boolean externalStorageAvailable() {
 		return true;
 	}
 	return false;
-}
-
-private String decodeLCFRPage(String body) {
-		// Take call from SMS Message and divide data up.
-		// Sample Call "Call:
-
-
-		  String strData = body.substring(0, body.length());
-		  Log.v("decodeLCFRPage: Message Body of:" + strData);
-		  
-		  String strCall;
-		  String strAddress;
-		  String strCity;
-		  String strApt ="";
-		  String strCross="";
-		  String strBox="";
-		  String strADC="";
-		  String strUnit="";
-//		  String strDebug;
-//		  int cIndex = 0;
-		  strData.replace(":", ",");
-		  String[] AData = strData.split(",");
-		  
-		  strCall = AData[0].substring(AData[0].indexOf("Call:",0)+5);
-		  // Need to check for single address or Intersection address.
-		  if (AData[1].contains("/")  ){
-			  // This is an intersection and not a street
-			   String[] strTemp = AData[1].split("/");
-			  strAddress = strTemp[0].substring(0,(strTemp[0].indexOf("-")));
-			  strAddress = strAddress + " and " +  strTemp[1].substring(0,(strTemp[1].indexOf("-")));
-			  strCity = strTemp[0].substring(strTemp[0].indexOf("-")+1);
-		  }else {
-			  strAddress = AData[1].substring(0,(AData[1].indexOf("-")));
-			  strCity = AData[1].substring(AData[1].indexOf("-")+1,AData[1].indexOf("Apt")-1);
-		  }
-		  // Intersection address has a / and two  - cities
-		  if (strAddress.length() < 4) {
-			  strAddress = "Error Street not Found.";
-		  }
-		  if (strCity.compareTo("CH") == 0  ){ strCity="Chantilly, VA";}
-		  else if (strCity.compareTo("LB")==0){ strCity="Leesburg, VA";}
-		  else if (strCity.compareTo("AL")==0){ strCity="Aldie, VA";}
-		  else if (strCity.compareTo("ST")==0){ strCity="Sterling, VA";}
-		  else if (strCity.compareTo("MB")==0){ strCity="Middleburg, VA";}
-		  else if (strCity.compareTo("AB")==0){ strCity="Ashburn, VA";}
-		  else if (strCity.compareTo("SP")==0){ strCity="Sterling, VA";}
-		  else if (strCity.compareTo("BL")==0){ strCity="Bluemont, VA";}
-		  else if (strCity.compareTo("CE")==0){ strCity="Centreville, VA";}
-		  else if (strCity.compareTo("HA")==0){ strCity="Hamilton, VA";}
-		  else if (strCity.compareTo("LV")==0){ strCity="Lovettsville, VA";}
-		  else if (strCity.compareTo("PA")==0){ strCity="Paris, VA";}
-		  else if (strCity.compareTo("PV")==0){ strCity="Purceville, VA";}
-		  else if (strCity.compareTo("PS")==0){ strCity="Paeonian, VA";}
-		  else if (strCity.compareTo("RH")==0){ strCity="Round Hill, VA";}
-		  else if (strCity.compareTo("UP")==0){ strCity="Upperville, VA";}
-		  else if (strCity.compareTo("FX19")==0){ strCity="Fairfax, VA";}
-		  else if (strCity.compareTo("FX")==0){ strCity="Fairfax, VA";}
-		  else if (strCity.compareTo("FQ")==0){ strCity="Faquier, VA";}
-		  else if (strCity.length() < 1){ strCity="Error";}
-		
-		  try {
-		  strApt = AData[1].substring(AData[1].indexOf("Apt:"));
-		  strCross = AData[2].substring(5);
-		  strUnit = AData[3];
-		  strBox = AData[4].substring(4);
-		  strADC = AData[5].substring(4,AData[5].indexOf("["));
-		  } catch (Exception ex) {
-			  if (Log.DEBUG) Log.v("Exception in DecodePage-" + ex.toString());
-		  }
-		  
-
-
-		 callData[0] = strCall ;
-		 callData[1] = strAddress;
-		 callData[2] = strCity;
-		 callData[3] = strApt;
-		 callData[4] = strCross;
-		 callData[5] = strBox;
-		 callData[6] = strADC;
-		 callData[7] = strUnit;
-		 callData[8] = body;
-		 
-		return null;
-}
-
-private String decodeSuffolkPage(String body) {
-	/* Sample Suffolk Page
-	 * TYPE: GAS LEAKS / GAS ODOR (NATURAL / L.P.G.) LOC: 11 BRENTWOOD PKWY BRENTW HOMELESS SHELTER CROSS: PENNSYLVANIA AV / SUFFOLK AV CODE: 60-B-2 TIME: 12:54:16
-	 * or  TYPE: STRUCTURE FIRE LOC: 81 NEW HAMPSHIRE AV NBAYSH  CROSS: E FORKS RD / E 3 AV CODE: 69-D-10 TIME: 16:36:48
-	 * 
-	 */
-	
-	  String strData = body.substring(0, body.length());
-	  Log.v("DecodeSuffolkPage: Message Body of:" + strData);
-	  
-	  String strCall="";
-	  String strAddress="";
-	  String tmpAddress="";
-	  String strCity="";
-	  String strApt ="";
-	  String strCross="";
-	  String strBox="";
-	  String strADC="";
-	  String strUnit="";
-//	  String strDebug;
-//	  int cIndex = 0;
-	  strData.replace(":", ",");
-	  String[] AData = strData.split(":");
-
-	  try {
-	  strCall = AData[1].substring(0,(AData[1].length()-4));
-	  // Need to check for single address or Intersection address.
-	  if (AData[2].contains("/")  ){
-		  // This is an intersection and not a street
-		   String[] strTemp = AData[2].split("/");
-		  //strAddress = strTemp[0].substring(0,(strTemp[0].indexOf("-")));
-		   tmpAddress = strTemp[0];
-		  tmpAddress = tmpAddress + " and " +  strTemp[1];
-	  }else {
-		  tmpAddress = AData[2];
-	  }
-	  if (tmpAddress.contains("BRENTW")){
-		 strAddress= tmpAddress.substring(0,tmpAddress.lastIndexOf("BRENTW"));
-		 strCity = "Brentwood, NY";
-	  } else if (strAddress.contains("NBAYSH")){
-		 strAddress= tmpAddress.substring(0, tmpAddress.lastIndexOf("NBAYSH")); 
-		 strCity = "Bay Shore, NY ";
-	  } else if (strAddress.contains("BAYSHO")){
-			 strAddress= tmpAddress.substring(0, tmpAddress.lastIndexOf("NBAYSH")); 
-			 strCity = "Bay Shore, NY ";
-	  }
-	  // Intersection address has a / and two  - cities
-	  if (strAddress.length() < 4) {
-		  strAddress = "Error Street not Found.";
-	  }
-	  
-	
-
-	  //strApt = AData[1].substring(AData[1].indexOf("Apt:"));
-	  strApt= "";
-	  strCross =  AData[3].substring(0,(AData[3].length()-5));
-	  strUnit = ""; //AData[3];
-	  strBox = "";//AData[4].substring(4);
-	  strADC = "";//AData[5].substring(4,AData[5].indexOf("["));
-	  } catch (Exception ex) {
-		  if (Log.DEBUG) Log.v("Exception in decodeSuffolk-" + ex.toString());
-	  }
-	  
-
-
-	 callData[0] = strCall ;
-	 callData[1] = strAddress;
-	 callData[2] = strCity;
-	 callData[3] = strApt;
-	 callData[4] = strCross;
-	 callData[5] = strBox;
-	 callData[6] = strADC;
-	 callData[7] = strUnit;
-	 callData[8] = body;
-	 
-	return null;
-	
-}
-
-private String decodeHarrisPage(String body) {
-	/* Sample Harris Page
-	 * 11:58 W HILLSIDE DR/EASTEX FRWY, ; Map:414D Sub: Nat:MA-MUTUAL AID / ASSIST AGENCY Units:E91 T81 T73 E-E39 X-St:EASTEX
-
-1of2:09/06 11:56 W HILLSIDE DR/EASTEX FRWY, ; Map:414D Sub: Nat:MA-MUTUAL AID / ASSIST AGENCY Units:E91 T81 T73 E-L19 X-St:EASTEX
-
-1of2:09/06 11:28 19707 WOOD WALK LN, ; Map:337U Sub:PINEHURST OF ATASCOCITA Nat:09E01-ARREST - NOT BREATHING Units:E-M19 E-M29 E-7900
-
-1of2:09/05 08:56 19226 AQUATIC DR, ; Map:378A Sub:WALDEN ON LAKE HOUSTON Nat:52B01G-FIRE ALARM - RESIDENTIAL Units:ATFD E-E39 X-
-
-1of2:09/04 19:45 17219 KOBUK VALLEY CIR, ; Map:377E Sub:EAGLE SPRINGS Nat:67B03U-OUTSIDE FIRE - INVESTIGA Units:E-E39 X-St:*** Dead
-
-1of2:09/03 08:14 LILES LN/WOODLAND HILLS DR, ; Map:376H Sub:ATASCOCITA FOREST Nat:29-MOTOR VEHICLE INCIDENT Units:E-M19 E-E39 X-
-
-	
-	 */
-	
-	  String strData = body.substring(0, body.length());
-	  Log.v("DecodeHarrisPage: Message Body of:" + strData);
-	  
-	  String strCall="";
-	  String strAddress="";
-	  String tmpAddress="";
-	  String strCity="";
-	  String strApt ="";
-	  String strCross="";
-	  String strBox="";
-	  String strADC="";
-	  String strUnit="";
-//	  String strDebug;
-//	  int cIndex = 0;
-	  strData.replace(":", ",");
-	  String[] AData = strData.split(":");
-
-	  try {
-	  strCall = AData[1].substring(0,(AData[1].length()-4));
-	  // Need to check for single address or Intersection address.
-	  if (AData[2].contains("/")  ){
-		  // This is an intersection and not a street
-		   String[] strTemp = AData[2].split("/");
-		  //strAddress = strTemp[0].substring(0,(strTemp[0].indexOf("-")));
-		   tmpAddress = strTemp[0];
-		  tmpAddress = tmpAddress + " and " +  strTemp[1];
-	  }else {
-		  tmpAddress = AData[2];
-	  }
-	  if (tmpAddress.contains("BRENTW")){
-		 strAddress= tmpAddress.substring(0,tmpAddress.lastIndexOf("BRENTW"));
-		 strCity = "Brentwood, NY";
-	  } else if (strAddress.contains("NBAYSH")){
-		 strAddress= tmpAddress.substring(0, tmpAddress.lastIndexOf("NBAYSH")); 
-		 strCity = "Bay Shore, NY ";
-	  } else if (strAddress.contains("BAYSHO")){
-			 strAddress= tmpAddress.substring(0, tmpAddress.lastIndexOf("NBAYSH")); 
-			 strCity = "Bay Shore, NY ";
-	  }
-	  // Intersection address has a / and two  - cities
-	  if (strAddress.length() < 4) {
-		  strAddress = "Error Street not Found.";
-	  }
-	  
-	
-
-	  //strApt = AData[1].substring(AData[1].indexOf("Apt:"));
-	  strApt= "";
-	  strCross =  AData[3].substring(0,(AData[3].length()-5));
-	  strUnit = ""; //AData[3];
-	  strBox = "";//AData[4].substring(4);
-	  strADC = "";//AData[5].substring(4,AData[5].indexOf("["));
-	  } catch (Exception ex) {
-		  if (Log.DEBUG) Log.v("Exception in decodeSuffolk-" + ex.toString());
-	  }
-	  
-
-
-	 callData[0] = strCall ;
-	 callData[1] = strAddress;
-	 callData[2] = strCity;
-	 callData[3] = strApt;
-	 callData[4] = strCross;
-	 callData[5] = strBox;
-	 callData[6] = strADC;
-	 callData[7] = strUnit;
-	 callData[8] = body;
-	 
-	return null;
-	
-}
-
-private void decodeBentonCoPage(String body) {
-    
-    // Sample Benton County Page
-    // (Corvallis Alert) INC: CODE 1 MEDICAL\nADD:1740 MAIN ST\nAPT:\nCITY:PHILOMATH\nX:N 17TH ST * N 18TH ST\nMAP:540-365\nCFS:0907010-119\nDIS:PHILOMATH FIRE
-    
-    Log.v("DecodeBentonCo: Message Body of:" + body);
-    
-    Properties props = parseMessage(body);
-    
-    String strCall=props.getProperty("INC", "");
-    String strAddress=props.getProperty("ADD", "");
-    String strCity=props.getProperty("CITY", "");
-    String strApt =props.getProperty("APT", "");
-    String strCross=props.getProperty("X", "");
-    String strBox="";
-    String strADC="";
-    String strUnit="";
-    callData[0] = strCall ;
-    callData[1] = strAddress;
-    callData[2] = strCity;
-    callData[3] = strApt;
-    callData[4] = strCross;
-    callData[5] = strBox;
-    callData[6] = strADC;
-    callData[7] = strUnit;
-    callData[8] = body;
-}
-
-/**
- * General purpose message parser.  Parses 
- * @param body
- * @return
- */
-private Properties parseMessage(String body) {
-    Properties props = new Properties();
-    String[] lines = body.split("\n");
-    for (String line : lines) {
-        int ndx = line.indexOf(':');
-        if (ndx < 0 || ndx+1 == line.length()) continue;
-        String key = line.substring(0, ndx).trim();
-        String value = line.substring(ndx+1).trim();
-        ndx = key.lastIndexOf(' ');
-        if (ndx >= 0) key = key.substring(ndx+1);
-        props.put(key, value);
-    }
-    return props;
 }
   /*
    * This handles hiding and showing various views depending on the privacy
@@ -1204,8 +894,8 @@ private Properties parseMessage(String body) {
   private void  mapMessage()  {
     if (Log.DEBUG) Log.v("Request Received to Map Call");
     if (haveNet()) {
-        String searchStr = callData[1];
-        if (callData[2].length() > 0) searchStr = searchStr + ", " + callData[2];
+        String searchStr = parser.getAddress();
+        if (parser.getCity().length() > 0) searchStr = searchStr + ", " + parser.getCity();
         Intent intent = new Intent(Intent.ACTION_SEARCH);
         intent.setComponent(new ComponentName("com.google.android.apps.maps", "com.google.android.maps.MapsActivity"));
         intent.putExtra(SearchManager.QUERY, searchStr);

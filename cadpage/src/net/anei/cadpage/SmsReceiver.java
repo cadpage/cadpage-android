@@ -1,7 +1,6 @@
 package net.anei.cadpage;
 
 import java.io.IOException;
-import java.io.InputStream;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 
@@ -10,7 +9,6 @@ import android.content.Context;
 import android.content.Intent;
 import android.telephony.SmsMessage;
 import android.telephony.SmsMessage.MessageClass;
-import net.anei.cadpage.wrappers.MyDBAdapter;
 
 public class SmsReceiver extends BroadcastReceiver {
   
@@ -89,13 +87,8 @@ public class SmsReceiver extends BroadcastReceiver {
     } finally {
       if (os != null) try {os.close();} catch (IOException ex) {}
     }
-
-    // Next look up location code and use it to see if this message contains the trigger phrase
-    String sLocation = ManagePreferences.location();
-    int iLocation = Integer.parseInt(sLocation);
-    String[] phrases = new String[]{"Call:", "TYPE:", "Map:", "(Corvallis Alert)"};
-    if (iLocation > phrases.length) return false;
-    return (strMessage.indexOf(phrases[iLocation-1]) >= 0);
+    
+    return SmsMsgParser.isPageMsg(strMessage);
   }
 
   private boolean match(String address, String filter) {
