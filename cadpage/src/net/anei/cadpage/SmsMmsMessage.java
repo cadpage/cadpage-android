@@ -51,9 +51,25 @@ public class SmsMmsMessage implements Serializable {
   private transient int reminderCount = 0;     // Ditto
   private boolean fromEmailGateway = false;
   private MessageClass messageClass = null;
-  private boolean read = false;                // Currently unused, but will be needed - is serialized
+  private boolean read = false;             
+  private boolean locked = false;
   
   
+  public boolean isRead() {
+    return read;
+  }
+  
+  public void setRead(boolean read) {
+    this.read = read;
+  }
+  
+  public boolean isLocked() {
+    return locked;
+  }
+  
+  public void setLocked(boolean locked) {
+    this.locked = locked;
+  }
 
 
   /**

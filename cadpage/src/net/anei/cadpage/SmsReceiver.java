@@ -1,5 +1,6 @@
 package net.anei.cadpage;
 
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
@@ -32,6 +33,7 @@ public class SmsReceiver extends BroadcastReceiver {
         is = new ObjectInputStream(
           context.openFileInput(MSG_FILENAME));
         message = SmsMmsMessage.readObject(context, is);
+      } catch (FileNotFoundException ex) {
       } catch (Exception ex) {
         Log.e(ex);
       } finally {

@@ -97,13 +97,14 @@ public class SmsReceiverService extends Service {
 
       if (ACTION_SMS_RECEIVED.equals(action)) {
         handleSmsReceived(intent);
-      } else if (ACTION_MMS_RECEIVED.equals(action) && MMS_DATA_TYPE.equals(dataType)) {
+      } 
+//      else if (ACTION_MMS_RECEIVED.equals(action) && MMS_DATA_TYPE.equals(dataType)) {
 //        handleMmsReceived(intent);
-      } else if (MESSAGE_SENT_ACTION.equals(action)) {
-        handleSmsSent(intent);
-      } else if (ACTION_MESSAGE_RECEIVED.equals(action)) {
-        handleMessageReceived(intent);
-      }
+//      } else if (MESSAGE_SENT_ACTION.equals(action)) {
+//        handleSmsSent(intent);
+//      } else if (ACTION_MESSAGE_RECEIVED.equals(action)) {
+//        handleMessageReceived(intent);
+//      }
       
       // NOTE: We MUST not call stopSelf() directly, since we need to
       // make sure the wake lock acquired by AlertReceiver is released.
@@ -218,96 +219,96 @@ public class SmsReceiverService extends Service {
   /**
    * Handle receiving an arbitrary message (potentially coming from a 3rd party app)
    */
-  private void handleMessageReceived(Intent intent) {
-    if (Log.DEBUG) Log.v("SMSReceiver: Intercept Message");
-
-    Bundle bundle = intent.getExtras();
-
-    /*
-     * FROM: ContactURI -or- display name and display address -or- display address
-     * MESSAGE BODY: message body
-     * TIMESTAMP: optional (will use system timestamp)
-     * 
-     * QUICK REPLY INTENT:
-     * REPLY INTENT:
-     * DELETE INTENT:
-     */
-
-    if (bundle != null) {
-
-      //notifySmsReceived(new SmsMmsMessage(context, messages, System.currentTimeMillis()));
-    }
-  }
+//  private void handleMessageReceived(Intent intent) {
+//    if (Log.DEBUG) Log.v("SMSReceiver: Intercept Message");
+//
+//    Bundle bundle = intent.getExtras();
+//
+//    /*
+//     * FROM: ContactURI -or- display name and display address -or- display address
+//     * MESSAGE BODY: message body
+//     * TIMESTAMP: optional (will use system timestamp)
+//     * 
+//     * QUICK REPLY INTENT:
+//     * REPLY INTENT:
+//     * DELETE INTENT:
+//     */
+//
+//    if (bundle != null) {
+//
+//      //notifySmsReceived(new SmsMmsMessage(context, messages, System.currentTimeMillis()));
+//    }
+//  }
 
   /*
    * Handler to deal with showing Toast messages for message sent status
    */
-  public Handler mToastHandler = new Handler() {
-    @Override
-    public void handleMessage(Message msg) {
-
-      if (msg != null) {
-        switch (msg.what) {
-          case TOAST_HANDLER_MESSAGE_SENT:
-            Toast.makeText(SmsReceiverService.this,
-                SmsReceiverService.this.getString(R.string.quickreply_sent_toast),
-                Toast.LENGTH_SHORT).show();
-            break;
-          case TOAST_HANDLER_MESSAGE_SEND_LATER:
-            Toast.makeText(SmsReceiverService.this,
-                SmsReceiverService.this.getString(R.string.quickreply_failed_send_later),
-                Toast.LENGTH_SHORT).show();
-            break;
-          case TOAST_HANDLER_MESSAGE_FAILED:
-            Toast.makeText(SmsReceiverService.this,
-                SmsReceiverService.this.getString(R.string.quickreply_failed),
-                Toast.LENGTH_SHORT).show();
-            break;
-        }
-      }
-    }
-  };
+//  public Handler mToastHandler = new Handler() {
+//    @Override
+//    public void handleMessage(Message msg) {
+//
+//      if (msg != null) {
+//        switch (msg.what) {
+//          case TOAST_HANDLER_MESSAGE_SENT:
+//            Toast.makeText(SmsReceiverService.this,
+//                SmsReceiverService.this.getString(R.string.quickreply_sent_toast),
+//                Toast.LENGTH_SHORT).show();
+//            break;
+//          case TOAST_HANDLER_MESSAGE_SEND_LATER:
+//            Toast.makeText(SmsReceiverService.this,
+//                SmsReceiverService.this.getString(R.string.quickreply_failed_send_later),
+//                Toast.LENGTH_SHORT).show();
+//            break;
+//          case TOAST_HANDLER_MESSAGE_FAILED:
+//            Toast.makeText(SmsReceiverService.this,
+//                SmsReceiverService.this.getString(R.string.quickreply_failed),
+//                Toast.LENGTH_SHORT).show();
+//            break;
+//        }
+//      }
+//    }
+//  };
 
   /*
    * Handle the result of a sms being sent
    */
-  private void handleSmsSent(Intent intent) {
-    if (Log.DEBUG) Log.v("SMSReceiver: Handle SMS sent");
-
-    // Check the result and notify the user
-    if (mResultCode == Activity.RESULT_OK) {
-      if (Log.DEBUG) Log.v("SMSReceiver: Message was sent");
-      mToastHandler.sendEmptyMessage(TOAST_HANDLER_MESSAGE_SENT);
-    } else if ((mResultCode == SmsManager.RESULT_ERROR_RADIO_OFF) ||
-        (mResultCode == SmsManager.RESULT_ERROR_NO_SERVICE)) {
-      if (Log.DEBUG) Log.v("SMSReceiver: Error sending message (will send later)");
-      // The system shows a Toast here so no need to show one
-      //mToastHandler.sendEmptyMessage(TOAST_HANDLER_MESSAGE_SEND_LATER);
-    } else {
-      if (Log.DEBUG) Log.v("SMSReceiver: Error sending message");
-      //ManageNotification.notifySendFailed(this);
-      mToastHandler.sendEmptyMessage(TOAST_HANDLER_MESSAGE_FAILED);
-    }
-
-    /*
-     * Now let's forward the same intent onto the system app to make sure
-     * things there are processed correctly
-     */
-    Intent sysIntent = intent.setClassName(
-        SmsMessageSender.MMS_PACKAGE_NAME,
-        SmsMessageSender.MMS_SENT_CLASS_NAME);
-    //    Log.v("sysIntent = " + sysIntent.toString());
-    //    Log.v("bundle = " + sysIntent.getExtras().toString());
-
-    /*
-     * Start the broadcast via PendingIntent so result code is passed over correctly
-     */
-    try {
-      PendingIntent.getBroadcast(this, 0, sysIntent, 0).send(mResultCode);
-    } catch (CanceledException e) {
-      e.printStackTrace();
-    }
-  }
+//  private void handleSmsSent(Intent intent) {
+//    if (Log.DEBUG) Log.v("SMSReceiver: Handle SMS sent");
+//
+//    // Check the result and notify the user
+//    if (mResultCode == Activity.RESULT_OK) {
+//      if (Log.DEBUG) Log.v("SMSReceiver: Message was sent");
+//      mToastHandler.sendEmptyMessage(TOAST_HANDLER_MESSAGE_SENT);
+//    } else if ((mResultCode == SmsManager.RESULT_ERROR_RADIO_OFF) ||
+//        (mResultCode == SmsManager.RESULT_ERROR_NO_SERVICE)) {
+//      if (Log.DEBUG) Log.v("SMSReceiver: Error sending message (will send later)");
+//      // The system shows a Toast here so no need to show one
+//      //mToastHandler.sendEmptyMessage(TOAST_HANDLER_MESSAGE_SEND_LATER);
+//    } else {
+//      if (Log.DEBUG) Log.v("SMSReceiver: Error sending message");
+//      //ManageNotification.notifySendFailed(this);
+//      mToastHandler.sendEmptyMessage(TOAST_HANDLER_MESSAGE_FAILED);
+//    }
+//
+//    /*
+//     * Now let's forward the same intent onto the system app to make sure
+//     * things there are processed correctly
+//     */
+//    Intent sysIntent = intent.setClassName(
+//        SmsMessageSender.MMS_PACKAGE_NAME,
+//        SmsMessageSender.MMS_SENT_CLASS_NAME);
+//    //    Log.v("sysIntent = " + sysIntent.toString());
+//    //    Log.v("bundle = " + sysIntent.getExtras().toString());
+//
+//    /*
+//     * Start the broadcast via PendingIntent so result code is passed over correctly
+//     */
+//    try {
+//      PendingIntent.getBroadcast(this, 0, sysIntent, 0).send(mResultCode);
+//    } catch (CanceledException e) {
+//      e.printStackTrace();
+//    }
+//  }
 
   /**
    * Start the service to process the current event notifications, acquiring the

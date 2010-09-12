@@ -9,7 +9,6 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Properties;
 
 import net.anei.cadpage.ManageKeyguard.LaunchOnKeyguardExit;
 import net.anei.cadpage.ManagePreferences.Defaults;
@@ -30,7 +29,6 @@ import android.content.SharedPreferences;
 import android.content.DialogInterface.OnCancelListener;
 import android.content.pm.ActivityInfo;
 import android.content.res.Configuration;
-import android.content.res.Resources;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.preference.PreferenceManager;

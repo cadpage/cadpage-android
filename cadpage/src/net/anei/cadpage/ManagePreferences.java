@@ -40,6 +40,12 @@ public class ManagePreferences {
     return prefs.getString(R.string.pref_filter_key);
   }
 
+  public static int historyCount() {
+    // TODO Really add this to preferences
+    // for now just return a constant
+    return 10;
+  }
+
   
   
   
