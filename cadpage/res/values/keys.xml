@@ -47,7 +47,6 @@
    <string name="c_pref_flashled_pattern_key">c_flashled_pattern</string>
    <string name="c_pref_flashled_pattern_custom_key">c_flashled_pattern_custom</string>
    <string name="c_pref_category">c_pref_category</string>
-   <string name="pref_notif_help_key">notif_help</string>
    <string name="quickmessages_key">quickmessages_key</string>
    <string name="pref_reply_to_thread_key">replytype</string>
    <string name="pref_button1_key">button1</string>

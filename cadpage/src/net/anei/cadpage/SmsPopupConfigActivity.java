@@ -84,35 +84,35 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
     button1 =
       (ButtonListPreference) findPreference(getString(R.string.pref_button1_key));
     button1.refreshSummary();
-    button1.setOnPreferenceChangeListener(new OnPreferenceChangeListener() {
-      public boolean onPreferenceChange(Preference preference, Object newValue) {
-        return true;
-      }
-    });
+//    button1.setOnPreferenceChangeListener(new OnPreferenceChangeListener() {
+//      public boolean onPreferenceChange(Preference preference, Object newValue) {
+//        return true;
+//      }
+//    });
 
     // Button 2 preference
     button2 =
       (ButtonListPreference) findPreference(getString(R.string.pref_button2_key));
     button2.refreshSummary();
-    button2.setOnPreferenceChangeListener(new OnPreferenceChangeListener() {
-      public boolean onPreferenceChange(Preference preference, Object newValue) {
+//    button2.setOnPreferenceChangeListener(new OnPreferenceChangeListener() {
+//      public boolean onPreferenceChange(Preference preference, Object newValue) {
  //       quickReplyPref.setChecked(
    //         isQuickReplyActive((String) newValue, button1.getValue(), button3.getValue()));
      //   updateReplyTypePref((String) newValue, button1.getValue(), button3.getValue());
-        return true;
-      }
-    });
+//        return true;
+//      }
+//    });
 
     // Button 3 preference
     button3 =
       (ButtonListPreference) findPreference(getString(R.string.pref_button3_key));
     button3.refreshSummary();
-    button3.setOnPreferenceChangeListener(new OnPreferenceChangeListener() {
-      public boolean onPreferenceChange(Preference preference, Object newValue) {
-        updateReplyTypePref((String) newValue, button1.getValue(), button2.getValue());
-        return true;
-      }
-    });
+//    button3.setOnPreferenceChangeListener(new OnPreferenceChangeListener() {
+//      public boolean onPreferenceChange(Preference preference, Object newValue) {
+//        updateReplyTypePref((String) newValue, button1.getValue(), button2.getValue());
+//        return true;
+//      }
+//    });
 
     // Quick Reply checkbox preference
  //   quickReplyPref =

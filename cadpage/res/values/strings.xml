@@ -111,7 +111,6 @@
    <string name="pref_notif_summary">Notification configuration</string>
    
    <!-- Category headings -->
-   <string name="pref_notif_category_title">Notification Configuration</string>
    <string name="pref_vibrate_category_title">Vibrate Configuration</string>
    <string name="pref_flashled_category_title">LED Configuration</string>
    <string name="pref_reminder_category_title">Reminder Configuration</string>
@@ -189,10 +188,6 @@
   <string name="pref_notif_override_summaryoff">Notification sounds and rules will be followed</string>
   <string name="pref_contacts_title">Contacts Notifications</string>
   <string name="pref_contacts_summary">Individual contact customization</string>
-
-  <string name="pref_notif_help_title">Help - I\'m confused!</string>
-  <string name="pref_notif_help_summary">Notifications Help</string>
-  <string name="pref_notif_help_message">Please see the FAQ.</string>
 
   <string name="contact_customization_add">Add Custom Notifications</string>
   <string name="contact_customization_edit">Edit Custom Notification</string>
