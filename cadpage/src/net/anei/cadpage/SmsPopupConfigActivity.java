@@ -7,7 +7,6 @@ import net.anei.cadpage.preferences.AppEnabledCheckBoxPreference;
 import net.anei.cadpage.preferences.ButtonListPreference;
 import net.anei.cadpage.preferences.DialogPreference;
 import net.anei.cadpage.preferences.EmailDialogPreference;
-import net.anei.cadpage.preferences.QuickReplyCheckBoxPreference;
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.Context;
@@ -35,7 +34,6 @@ import android.widget.Toast;
 public class SmsPopupConfigActivity extends PreferenceActivity {
   private static final int DIALOG_DONATE = Menu.FIRST;
   private Preference donateDialogPref = null;
-  private QuickReplyCheckBoxPreference quickReplyPref;
   private ButtonListPreference button1;
   private ButtonListPreference button2;
   private ButtonListPreference button3;
@@ -91,9 +89,6 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
     button1.refreshSummary();
     button1.setOnPreferenceChangeListener(new OnPreferenceChangeListener() {
       public boolean onPreferenceChange(Preference preference, Object newValue) {
-        quickReplyPref.setChecked(
-            isQuickReplyActive((String) newValue, button2.getValue(), button3.getValue()));
-        updateReplyTypePref((String) newValue, button2.getValue(), button3.getValue());
         return true;
       }
     });

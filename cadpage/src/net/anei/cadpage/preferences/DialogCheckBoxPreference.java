@@ -1,9 +1,6 @@
 package net.anei.cadpage.preferences;
 
-import net.anei.cadpage.ManageNotification;
-import net.anei.cadpage.R;
-import net.anei.cadpage.ReminderReceiver;
-import android.app.AlertDialog;
+
 import android.content.Context;
 import android.preference.CheckBoxPreference;
 import android.util.AttributeSet;
@@ -29,7 +26,8 @@ public class DialogCheckBoxPreference extends CheckBoxPreference {
   @Override
   protected void onClick() {
     super.onClick();
-    if (isChecked()) {
+    // We don't need this popup as we hope to have higher priority and avoid local sms notifications
+    /* if (isChecked()) {
       new AlertDialog.Builder(context)
         .setIcon(android.R.drawable.ic_dialog_alert)
         .setTitle(context.getString(R.string.pref_notif_title))
@@ -39,6 +37,6 @@ public class DialogCheckBoxPreference extends CheckBoxPreference {
     } else {
       ManageNotification.clearAll(context);
       ReminderReceiver.cancelReminder(context);
-    }
-  }
+     }
+ */ }
 }

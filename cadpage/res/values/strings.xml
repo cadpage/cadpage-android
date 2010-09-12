@@ -10,7 +10,7 @@
    <string name="notification_multiple_title">New messages</string>
    <string name="notification_multiple_text">%d unread messages.</string>
    <string name="notification_scroll">%s</string>
-   <string name="notification_scroll_privacy">New Page:</string>
+   <string name="notification_scroll_privacy">New Call:</string>
 
 <!-- Button Strings -->   
    <string name="button_close">Close</string>

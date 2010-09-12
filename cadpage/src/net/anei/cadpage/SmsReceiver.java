@@ -48,7 +48,6 @@ public class SmsReceiver extends BroadcastReceiver {
     String sFilter = ManagePreferences.filter();
     String sAddress = message.getAddress();
     if (! match(sAddress, sFilter)) return false;
-
     if (Log.DEBUG) Log.v("SMSReceiver/CadPageCall: Filter Matches checking call Location -" + sFilter);
 
     // Next look up location code and use it to see if this message contains the trigger phrase
@@ -67,7 +66,7 @@ public class SmsReceiver extends BroadcastReceiver {
    */
   private boolean match(String address, String filter) {
     return (filter == null || filter.length() == 0 ||
-             filter.equals("*")  || filter.equals(address));
+             filter.equals("*")  || address.contains(filter));
   }
 }
 
