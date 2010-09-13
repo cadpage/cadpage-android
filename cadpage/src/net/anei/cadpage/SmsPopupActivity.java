@@ -526,7 +526,7 @@ public class SmsPopupActivity extends Activity {
       sb.append("\nX:");
       sb.append(parser.getCross());
       if (parser.getUnit().length() > 0) {
-        sb.append("\nUnits");
+        sb.append("\nUnits: ");
         sb.append(parser.getUnit());
       }
       messageTV.setText(sb.toString());
@@ -892,7 +892,7 @@ private boolean externalStorageAvailable() {
   private void  mapMessage()  {
     if (Log.DEBUG) Log.v("Request Received to Map Call");
     if (haveNet()) {
-        String searchStr = parser.getAddress();
+        String searchStr = parser.getFullAddress();
         if (parser.getCity().length() > 0) searchStr = searchStr + ", " + parser.getCity();
         Intent intent = new Intent(Intent.ACTION_SEARCH);
         intent.setComponent(new ComponentName("com.google.android.apps.maps", "com.google.android.maps.MapsActivity"));

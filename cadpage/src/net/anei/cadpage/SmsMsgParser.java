@@ -17,6 +17,7 @@ public class SmsMsgParser {
   private String strBox= "" ;
   private String strADC= "" ;
   private String strUnit= "" ;
+  private String strState="";
   
   /**
    * Return original message text
@@ -39,6 +40,10 @@ public class SmsMsgParser {
     return strAddress;
   }
 
+  public String getFullAddress() {
+	  String FullAddress = strAddress + " , " + strCity + " " + strState; 
+	    return FullAddress ;
+	  }
   /**
    * @return the call city
    */
@@ -129,7 +134,7 @@ public class SmsMsgParser {
 
 
         Log.v("decodeLCFRPage: Message Body of:" + body);
-        
+        strState = "VA";
         String[] AData = body.split(",");
         
         strCall = AData[0].substring(AData[0].indexOf("Call:",0)+5);
@@ -148,25 +153,25 @@ public class SmsMsgParser {
         if (strAddress.length() < 4) {
           strAddress = "Error Street not Found.";
         }
-        if (strCity.compareTo("CH") == 0  ){ strCity="Chantilly, VA";}
-        else if (strCity.compareTo("LB")==0){ strCity="Leesburg, VA";}
-        else if (strCity.compareTo("AL")==0){ strCity="Aldie, VA";}
-        else if (strCity.compareTo("ST")==0){ strCity="Sterling, VA";}
-        else if (strCity.compareTo("MB")==0){ strCity="Middleburg, VA";}
-        else if (strCity.compareTo("AB")==0){ strCity="Ashburn, VA";}
-        else if (strCity.compareTo("SP")==0){ strCity="Sterling, VA";}
-        else if (strCity.compareTo("BL")==0){ strCity="Bluemont, VA";}
-        else if (strCity.compareTo("CE")==0){ strCity="Centreville, VA";}
-        else if (strCity.compareTo("HA")==0){ strCity="Hamilton, VA";}
-        else if (strCity.compareTo("LV")==0){ strCity="Lovettsville, VA";}
-        else if (strCity.compareTo("PA")==0){ strCity="Paris, VA";}
-        else if (strCity.compareTo("PV")==0){ strCity="Purceville, VA";}
-        else if (strCity.compareTo("PS")==0){ strCity="Paeonian, VA";}
-        else if (strCity.compareTo("RH")==0){ strCity="Round Hill, VA";}
-        else if (strCity.compareTo("UP")==0){ strCity="Upperville, VA";}
-        else if (strCity.compareTo("FX19")==0){ strCity="Fairfax, VA";}
-        else if (strCity.compareTo("FX")==0){ strCity="Fairfax, VA";}
-        else if (strCity.compareTo("FQ")==0){ strCity="Faquier, VA";}
+        if (strCity.compareTo("CH") == 0  ){ strCity="Chantilly";}
+        else if (strCity.compareTo("LB")==0){ strCity="Leesburg";}
+        else if (strCity.compareTo("AL")==0){ strCity="Aldie";}
+        else if (strCity.compareTo("ST")==0){ strCity="Sterling";}
+        else if (strCity.compareTo("MB")==0){ strCity="Middleburg";}
+        else if (strCity.compareTo("AB")==0){ strCity="Ashburn";}
+        else if (strCity.compareTo("SP")==0){ strCity="Sterling";}
+        else if (strCity.compareTo("BL")==0){ strCity="Bluemont";}
+        else if (strCity.compareTo("CE")==0){ strCity="Centreville";}
+        else if (strCity.compareTo("HA")==0){ strCity="Hamilton";}
+        else if (strCity.compareTo("LV")==0){ strCity="Lovettsville";}
+        else if (strCity.compareTo("PA")==0){ strCity="Paris";}
+        else if (strCity.compareTo("PV")==0){ strCity="Purceville";}
+        else if (strCity.compareTo("PS")==0){ strCity="Paeonian";}
+        else if (strCity.compareTo("RH")==0){ strCity="Round Hill";}
+        else if (strCity.compareTo("UP")==0){ strCity="Upperville";}
+        else if (strCity.compareTo("FX19")==0){ strCity="Fairfax";}
+        else if (strCity.compareTo("FX")==0){ strCity="Fairfax";}
+        else if (strCity.compareTo("FQ")==0){ strCity="Faquier";}
         else if (strCity.length() < 1){ strCity="Error";}
       
         try {
@@ -190,7 +195,7 @@ public class SmsMsgParser {
       Log.v("DecodeSuffolkPage: Message Body of:" + body);
       
       String[] AData = body.split(":");
-
+      strState="NY";
       String tmpAddress = "";
       try {
       strCall = AData[1].substring(0,(AData[1].length()-4));
@@ -206,13 +211,13 @@ public class SmsMsgParser {
       }
       if (tmpAddress.contains("BRENTW")){
        strAddress= tmpAddress.substring(0,tmpAddress.lastIndexOf("BRENTW"));
-       strCity = "Brentwood, NY";
+       strCity = "Brentwood";
       } else if (strAddress.contains("NBAYSH")){
        strAddress= tmpAddress.substring(0, tmpAddress.lastIndexOf("NBAYSH")); 
-       strCity = "Bay Shore, NY ";
+       strCity = "Bay Shore ";
       } else if (strAddress.contains("BAYSHO")){
          strAddress= tmpAddress.substring(0, tmpAddress.lastIndexOf("NBAYSH")); 
-         strCity = "Bay Shore, NY ";
+         strCity = "Bay Shore ";
       }
       // Intersection address has a / and two  - cities
       if (strAddress.length() < 4) {
@@ -251,32 +256,30 @@ public class SmsMsgParser {
     
       Log.v("DecodeHarrisPage: Message Body of:" + body);
       String tmpAddress="";
-      
+      strState="TX";
       String[] AData = body.split(":");
 
       try {
-      strCall = AData[1].substring(0,(AData[1].length()-4));
+      strCall = AData[4];
       // Need to check for single address or Intersection address.
-      if (AData[2].contains("/")  ){
+      if (AData[1].contains("/")  ){
         // This is an intersection and not a street
-         String[] strTemp = AData[2].split("/");
+         String[] strTemp = AData[1].split("/");
+         strTemp[0] = strTemp[0].substring(2);
         //strAddress = strTemp[0].substring(0,(strTemp[0].indexOf("-")));
          tmpAddress = strTemp[0];
-        tmpAddress = tmpAddress + " and " +  strTemp[1];
+
+        tmpAddress = tmpAddress + " and " +  strTemp[1].substring(0,strTemp[1].indexOf(","));
       }else {
-        tmpAddress = AData[2];
+        tmpAddress = AData[1].substring(2,AData[1].indexOf(","));
       }
-      if (tmpAddress.contains("BRENTW")){
-       strAddress= tmpAddress.substring(0,tmpAddress.lastIndexOf("BRENTW"));
-       strCity = "Brentwood, NY";
-      } else if (strAddress.contains("NBAYSH")){
-       strAddress= tmpAddress.substring(0, tmpAddress.lastIndexOf("NBAYSH")); 
-       strCity = "Bay Shore, NY ";
-      } else if (strAddress.contains("BAYSHO")){
-         strAddress= tmpAddress.substring(0, tmpAddress.lastIndexOf("NBAYSH")); 
-         strCity = "Bay Shore, NY ";
+      if (! strCall.contains("MA-MUTUAL AID")){
+    	  strCity = " Humble ";
+      } else {
+    	  strCity = " ";
       }
       // Intersection address has a / and two  - cities
+      strAddress= tmpAddress;
       if (strAddress.length() < 4) {
         strAddress = "Error Street not Found.";
       }
@@ -285,10 +288,10 @@ public class SmsMsgParser {
 
       //strApt = AData[1].substring(AData[1].indexOf("Apt:"));
       strApt= "";
-      strCross =  AData[3].substring(0,(AData[3].length()-5));
-      strUnit = ""; //AData[3];
+      strCross =  AData[6];
+      strUnit = AData[5].substring(0,(AData[5].length()-5)); //AData[3];
       strBox = "";//AData[4].substring(4);
-      strADC = "";//AData[5].substring(4,AData[5].indexOf("["));
+      strADC = AData[2].substring(0,AData[2].length()-4);//AData[5].substring(4,AData[5].indexOf("["));
       } catch (Exception ex) {
         if (Log.DEBUG) Log.v("Exception in decodeSuffolk-" + ex.toString());
       }
@@ -300,7 +303,7 @@ public class SmsMsgParser {
       // (Corvallis Alert) INC: CODE 1 MEDICAL\nADD:1740 MAIN ST\nAPT:\nCITY:PHILOMATH\nX:N 17TH ST * N 18TH ST\nMAP:540-365\nCFS:0907010-119\nDIS:PHILOMATH FIRE
       
       Log.v("DecodeBentonCo: Message Body of:" + body);
-      
+      strState="OR";
       Properties props = parseMessage(body);
       
       strCall=props.getProperty("INC", "");
