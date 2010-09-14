@@ -9,6 +9,9 @@ import android.database.sqlite.SQLiteOpenHelper;
 import android.text.TextUtils;
 import android.widget.Toast;
 
+/**
+ * Another class destined for the dust bin of history
+ */
 public class SmsPopupDbAdapter {
 
   private static final String CONTACTS_DB_TABLE = "contacts";

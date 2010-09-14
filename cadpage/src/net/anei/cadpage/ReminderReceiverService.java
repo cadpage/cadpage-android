@@ -13,6 +13,10 @@ import android.os.PowerManager;
 import android.os.Process;
 import android.preference.PreferenceManager;
 
+/**
+ * Another class that is being phased out.  All of this logic is being moved
+ * into ReminderReceiver
+ */
 public class ReminderReceiverService extends Service {
   public static final String ACTION_REMIND = "net.everythingandroid.smspopup.ACTION_REMIND";
   public static final String ACTION_OTHER = "net.everythingandroid.smspopup.ACTION_OTHER";
@@ -99,7 +103,8 @@ public class ReminderReceiverService extends Service {
       // values of repeat_times as follows:
       // -1 repeat indefinitely
       // positive value is exact number of repeats
-      if (message.getReminderCount() <= repeat_times || repeat_times == -1) {
+//      if (message.getReminderCount() <= repeat_times || repeat_times == -1) {
+      if (true) {
         ManageNotification.show(context, message);
         ReminderReceiver.scheduleReminder(context, message);
         if (myPrefs.getBoolean(context.getString(R.string.pref_notif_repeat_screen_on_key),

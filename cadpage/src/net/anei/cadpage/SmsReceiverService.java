@@ -139,10 +139,7 @@ public class SmsReceiverService extends Service {
    //       SmsPopupDbAdapter.KEY_POPUP_ENABLED_NUM);
     boolean showPopup=true;
     // check if notifications are on for this contact
-    boolean notifEnabled =
-      mPrefs.getBoolean(R.string.pref_notif_enabled_key,
-          Defaults.PREFS_NOTIF_ENABLED,
-          SmsPopupDbAdapter.KEY_ENABLED_NUM);
+    boolean notifEnabled = ManagePreferences.notifyEnabled();
 
     // get docked state of phone
     int docked_state =

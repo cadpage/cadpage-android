@@ -31,6 +31,9 @@ import android.widget.TextView;
 import android.widget.AdapterView.AdapterContextMenuInfo;
 import android.widget.AdapterView.OnItemClickListener;
 
+/**
+ * Class destined to be removed
+ */
 public class ConfigContactsActivity extends ListActivity {
   private SmsPopupDbAdapter mDbAdapter;
 

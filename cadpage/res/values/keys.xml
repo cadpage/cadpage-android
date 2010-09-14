@@ -48,7 +48,6 @@
    <string name="c_pref_flashled_pattern_custom_key">c_flashled_pattern_custom</string>
    <string name="c_pref_category">c_pref_category</string>
    <string name="quickmessages_key">quickmessages_key</string>
-   <string name="pref_reply_to_thread_key">replytype</string>
    <string name="pref_button1_key">button1</string>
    <string name="pref_button2_key">button2</string>
    <string name="pref_button3_key">button3</string>
@@ -65,4 +64,6 @@
    <string name="pref_filter_key">filter</string>
    <string name="pref_useGoogleMapApp_key">useGoogleMapApp</string>
    <string name="pref_testmsg_key">testmsg</string>
+   
+   <string name="settings_key">settings</string>
 </resources>

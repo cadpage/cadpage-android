@@ -3,6 +3,7 @@ package net.anei.cadpage;
 import net.anei.cadpage.preferences.ButtonListPreference;
 import android.content.Context;
 import android.content.SharedPreferences;
+import android.net.Uri;
 import android.preference.PreferenceManager;
 
 public class ManagePreferences {
@@ -45,6 +46,63 @@ public class ManagePreferences {
     // for now just return a constant
     return 10;
   }
+  
+  public static boolean notifyRepeat() {
+    return prefs.getBoolean(R.string.pref_notif_repeat_key);
+  }
+  
+  public static int repeatInterval() {
+    return Integer.parseInt(prefs.getString(R.string.pref_notif_repeat_interval_key));
+  }
+  
+  public static int repeatTimes() {
+    return Integer.parseInt(prefs.getString(R.string.pref_notif_repeat_times_key));
+  }
+  
+  public static boolean notifyEnabled() {
+    return prefs.getBoolean(R.string.pref_notif_enabled_key);
+  }
+  
+  public static boolean notifyOverride() {
+    return prefs.getBoolean(R.string.pref_notif_override_key);
+  }
+  
+  public static boolean vibrate() {
+    return prefs.getBoolean(R.string.pref_vibrate_key);
+  }
+  
+  public static String vibratePattern() {
+    return prefs.getString(R.string.pref_vibrate_pattern_key);
+  }
+  
+  public static String vibratePatternCustom() {
+    return prefs.getString(R.string.pref_vibrate_pattern_custom_key);
+  }
+  
+  public static boolean flashLED() {
+    return prefs.getBoolean(R.string.pref_flashled_key);
+  }
+  
+  public static String flashLEDColor() {
+    return prefs.getString(R.string.pref_flashled_color_key);
+  }
+  
+  public static String flashLEDColorCustom() {
+    return prefs.getString(R.string.pref_flashled_color_custom_key);
+  }
+  
+  public static String flashLEDPattern() {
+    return prefs.getString(R.string.pref_flashled_pattern_key);
+  }
+  
+  public static String flashLEDPatternCustom() {
+    return prefs.getString(R.string.pref_flashled_pattern_custom_key);
+  }
+  
+  public static String notifySound() {
+    return prefs.getString(R.string.pref_notif_sound_key);
+  }
+
 
   
   
@@ -89,14 +147,6 @@ public class ManagePreferences {
     public static final String PREFS_BUTTON3 = String.valueOf(ButtonListPreference.BUTTON_CLOSE);
     public static final boolean PREFS_SHOW_POPUP = true;
     public static final boolean PREFS_ONLY_SHOW_ON_KEYGUARD = false;
-    public static final boolean PREFS_NOTIF_ENABLED = true;
-    public static final boolean PREFS_NOTIF_OVERRIDE = false;
-    public static final boolean PREFS_VIBRATE_ENABLED = true;
-    public static final String PREFS_VIBRATE_PATTERN = "0,1200";
-    public static final boolean PREFS_LED_ENABLED = true;
-    public static final String PREFS_LED_PATTERN = "1000,1000";
-    public static final String PREFS_LED_COLOR = "Yellow";
-    public static final boolean PREFS_REPLY_TO_THREAD = true;
   }
   
   // All of the following methods are deprecated, but we only officially

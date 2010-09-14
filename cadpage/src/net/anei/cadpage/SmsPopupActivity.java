@@ -8,7 +8,12 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.net.URI;
 import java.util.ArrayList;
+
+import com.google.tts.TTS;
+import com.google.tts.TTSVersionAlert;
+import com.google.tts.TTS.InitListener;
 
 import net.anei.cadpage.ManageKeyguard.LaunchOnKeyguardExit;
 import net.anei.cadpage.ManagePreferences.Defaults;
@@ -31,6 +36,7 @@ import android.content.pm.ActivityInfo;
 import android.content.res.Configuration;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
+import android.net.Uri;
 import android.preference.PreferenceManager;
 import android.speech.RecognizerIntent;
 import android.text.TextUtils;
@@ -51,11 +57,7 @@ import android.widget.ScrollView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.google.tts.TTS;
-import com.google.tts.TTSVersionAlert;
-import com.google.tts.TTS.InitListener;
 
-@SuppressWarnings("deprecation")
 public class SmsPopupActivity extends Activity {
   private SmsMmsMessage message;
 
@@ -72,8 +74,6 @@ public class SmsPopupActivity extends Activity {
   private ProgressDialog mProgressDialog = null;
 
 
-  private ViewStub unreadCountViewStub;
-  private View unreadCountView = null;
   private ViewStub mmsViewStub;
   private View mmsView = null;
   private ViewStub privacyViewStub;
@@ -82,8 +82,6 @@ public class SmsPopupActivity extends Activity {
   private LinearLayout mainLL = null;
 
   private boolean wasVisible = false;
-  private boolean inbox = false;
-  private boolean messageViewed = true;
 
   private static final double WIDTH = 0.9;
   private static final int MAX_WIDTH = 640;
@@ -101,8 +99,6 @@ public class SmsPopupActivity extends Activity {
   private static final int CONTEXT_VIEWCONTACT_ID = Menu.FIRST + 6;
 
   private static final int VOICE_RECOGNITION_REQUEST_CODE = 8888;
-
-  private SmsPopupDbAdapter mDbAdapter;
 
   // TextToSpeech variables
   private boolean ttsInitialized = false;
@@ -157,7 +153,6 @@ public class SmsPopupActivity extends Activity {
     registerForContextMenu(findViewById(R.id.MainLinearLayout));
 
     // Assign view stubs
-    unreadCountViewStub = (ViewStub) findViewById(R.id.UnreadCountViewStub);
     mmsViewStub = (ViewStub) findViewById(R.id.MmsViewStub);
     privacyViewStub = (ViewStub) findViewById(R.id.PrivacyViewStub);
     buttonsLL = findViewById(R.id.ButtonLinearLayout);
@@ -221,13 +216,6 @@ public class SmsPopupActivity extends Activity {
     }
 
     populateViews(getIntent());
-
-
-    mDbAdapter = new SmsPopupDbAdapter(getApplicationContext());
-    
-    wakeApp();
-
-    // Eula.show(this);
   }
 
 
@@ -283,7 +271,7 @@ public class SmsPopupActivity extends Activity {
 //          gotoInbox();
           break;
         case ButtonListPreference.BUTTON_TTS: // Text-to-Speech
-          speakMessage();
+//          speakMessage();
           break;
         case ButtonListPreference.BUTTON_MAP: // Google Map the Call
           mapMessage();
@@ -307,8 +295,6 @@ public class SmsPopupActivity extends Activity {
 
     // Re-populate views with new intent data (ie. new sms data)
     populateViews(intent);
-
-    wakeApp();
   }
 
   @Override
@@ -357,8 +343,6 @@ public class SmsPopupActivity extends Activity {
       ClearAllReceiver.removeCancel(getApplicationContext());
       ClearAllReceiver.clearAll(!exitingKeyguardSecurely);
     }
-
-    mDbAdapter.close();
   }
 
   @Override
@@ -452,6 +436,9 @@ public class SmsPopupActivity extends Activity {
     message = newMessage;
     parser = new SmsMsgParser(newMessage.getMessageFull());
     
+    // Flag message read
+    message.setRead(true);
+    
     // If it's a MMS message, just show the MMS layout
     if (message.getMessageType() == SmsMmsMessage.MESSAGE_TYPE_MMS) {
       if (mmsView == null) {
@@ -485,32 +472,6 @@ public class SmsPopupActivity extends Activity {
       // Refresh privacy settings (hide/show message) depending on privacy setting
       refreshPrivacy();
     }
-
-    // If only 1 unread message waiting
-    if (message.getUnreadCount() <= 1) {
-      if (unreadCountView != null) {
-        unreadCountView.setVisibility(View.GONE);
-      }
-    } else { // More unread messages waiting, show the extra view
-      if (unreadCountView == null) {
-        unreadCountView = unreadCountViewStub.inflate();
-      }
-      unreadCountView.setVisibility(View.VISIBLE);
-      TextView tv = (TextView) unreadCountView.findViewById(R.id.UnreadCountTextView);
-
-      String textWaiting = getString(R.string.unread_text_waiting, message.getUnreadCount() - 1);
-      tv.setText(textWaiting);
-
-      // The inbox button
-//      Button inboxButton = (Button) unreadCountView.findViewById(R.id.InboxButton);
-//      inboxButton.setOnClickListener(new OnClickListener(){
-//
-//        @Override
-//        public void onClick(View v) {
-//          gotoInbox();
-//        }});
-    }
-   
     
     // Update TextView that contains the timestamp for the incoming message
     String headerText = getString(R.string.new_text_at, message.getFormattedTimestamp().toString());
@@ -599,7 +560,6 @@ private boolean externalStorageAvailable() {
    */
   final private void refreshPrivacy() {
     if (Log.DEBUG) Log.v("refreshPrivacy()");
-    messageViewed = true;
 
     // This gets called before onNewIntent() which mean message may not be set
     // Don't understand this well enough to know how this should be handled, but
@@ -611,7 +571,6 @@ private boolean externalStorageAvailable() {
         ManageKeyguard.initialize(getApplicationContext());
 
         if (ManageKeyguard.inKeyguardRestrictedInputMode()) {
-          messageViewed = false;
 
           if (privacyView == null) {
             privacyView = privacyViewStub.inflate();
@@ -650,23 +609,11 @@ private boolean externalStorageAvailable() {
     ManageWakeLock.acquireFull(getApplicationContext());
     ManageWakeLock.releasePartial();
 
-    inbox = false;
+    // Schedule a reminder notification
+    ReminderReceiver.scheduleReminder(getApplicationContext(), message);
 
-    // See if a notification has been played for this message...
-    if (message.getNotify()) {
-      
-      // Indicate that we have already notified for this message
-      message.resetNotify();
-
-      // Reset the reminderCount to 0 just to be sure
-      message.updateReminderCount(0);
-
-      // Schedule a reminder notification
-      ReminderReceiver.scheduleReminder(getApplicationContext(), message);
-
-      // Run the notification
-      ManageNotification.show(getApplicationContext(), message);
-    }
+    // Run the notification
+    ManageNotification.show(getApplicationContext(), message);
   }
 
   /*
@@ -833,7 +780,8 @@ private boolean externalStorageAvailable() {
       ReminderReceiver.cancelReminder(getApplicationContext());
 
       // We'll use update notification to stop the sound playing
-      ManageNotification.update(getApplicationContext(), message);
+      // This doesn't work anymore.  Will have to be reimplemented somehow
+      // ManageNotification.update(getApplicationContext(), message);
 
       if (androidTextToSpeechAvailable) {
         // Android text-to-speech available (normally found on Android 1.6+, aka Donut)
@@ -894,11 +842,12 @@ private boolean externalStorageAvailable() {
     if (haveNet()) {
         String searchStr = parser.getFullAddress();
         if (parser.getCity().length() > 0) searchStr = searchStr + ", " + parser.getCity();
-        Intent intent = new Intent(Intent.ACTION_SEARCH);
-        intent.setComponent(new ComponentName("com.google.android.apps.maps", "com.google.android.maps.MapsActivity"));
-        intent.putExtra(SearchManager.QUERY, searchStr);
-        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-
+//        Intent intent = new Intent(Intent.ACTION_SEARCH);
+//        intent.setComponent(new ComponentName("com.google.android.apps.maps", "com.google.android.maps.MapsActivity"));
+//        intent.putExtra(SearchManager.QUERY, searchStr);
+//        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        Uri uri = Uri.parse("geo:0,0?q=" + Uri.encode(searchStr));
+        Intent intent = new Intent(Intent.ACTION_VIEW, uri);
         
         try {
             startActivity(intent);

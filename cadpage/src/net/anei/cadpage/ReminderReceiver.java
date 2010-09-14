@@ -5,11 +5,14 @@ import android.app.PendingIntent;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
-import android.content.SharedPreferences;
-import android.preference.PreferenceManager;
 
 public class ReminderReceiver extends BroadcastReceiver {
-  private static PendingIntent reminderPendingIntent = null;
+  
+  public static final String ACTION_OTHER = "net.everythingandroid.smspopup.ACTION_OTHER";
+
+  private static final String ACTION_REMIND = "net.everythingandroid.smspopup.ACTION_REMIND";
+  
+  private static String EXTRAS_COUNT = "EXTRAS_REMINDER_COUNT";
 
   /*
    * We're not going to do anything in the onReceive() as taking too long here
@@ -19,8 +22,32 @@ public class ReminderReceiver extends BroadcastReceiver {
    */
   @Override
   public void onReceive(Context context, Intent intent) {
-    intent.setClass(context, ReminderReceiverService.class);
-    ReminderReceiverService.beginStartingService(context, intent);
+    if (Log.DEBUG) Log.v("ReminderReceivere: onReceive()");
+
+    String action = intent.getAction();
+
+    if (ACTION_REMIND.equals(action)) {
+      if (Log.DEBUG) Log.v("ReminderReceiver: processReminder()");
+      processReminder(context, intent);
+    } else if (Intent.ACTION_DELETE.equals(action)) {
+
+      if (Log.DEBUG) Log.v("ReminderReceiver: cancelReminder()");
+      ReminderReceiver.cancelReminder(context);
+    }
+  }
+
+  private void processReminder(Context context, Intent intent) {
+    
+      SmsMmsMessage message = new SmsMmsMessage(context, intent);
+      int repeatCount = intent.getIntExtra(EXTRAS_COUNT, 0);
+      ManageNotification.show(context, message);
+      
+      if (repeatCount > 0) repeatCount--;
+
+      if (repeatCount != 0) {
+        ReminderReceiver.scheduleReminder(context, message, repeatCount);
+        ManageWakeLock.acquireFull(context);
+    }
   }
 
   /*
@@ -29,35 +56,32 @@ public class ReminderReceiver extends BroadcastReceiver {
    * taken from user preferences.
    */
   public static void scheduleReminder(Context context, SmsMmsMessage message) {
+    int repeat = ManagePreferences.repeatTimes();
+    if (repeat != 0) {
+      scheduleReminder(context, message, repeat);
+    }
+  }
 
-    SharedPreferences myPrefs = PreferenceManager.getDefaultSharedPreferences(context);
-
-    boolean reminder_notifications =
-      myPrefs.getBoolean(context.getString(R.string.pref_notif_repeat_key),
-          Boolean.valueOf(context.getString(R.string.pref_notif_repeat_default)));
-
+  public static void scheduleReminder(Context context, SmsMmsMessage message, int repeat) {
+    boolean reminder_notifications = ManagePreferences.notifyRepeat();
     if (reminder_notifications) {
-      int reminder_interval =
-        Integer.parseInt(myPrefs.getString(
-            context.getString(R.string.pref_notif_repeat_interval_key),
-            context.getString(R.string.pref_notif_repeat_interval_default)));
 
-      reminder_interval *= 60;
-
+      int reminderInterval = ManagePreferences.repeatInterval();
+      reminderInterval *= 60;
+      
       AlarmManager myAM = (AlarmManager) context.getSystemService(Context.ALARM_SERVICE);
 
       Intent reminderIntent = new Intent(context, ReminderReceiver.class);
-      reminderIntent.setAction(ReminderReceiverService.ACTION_REMIND);
-      message.incrementReminderCount();
+      reminderIntent.setAction(ACTION_REMIND);
       message.addToIntent(reminderIntent);
-      // reminderIntent.putExtra(EXTRAS_COUNT, count + 1);
+      reminderIntent.putExtra(EXTRAS_COUNT, repeat);
 
-      reminderPendingIntent =
+      PendingIntent reminderPendingIntent =
         PendingIntent.getBroadcast(context, 0, reminderIntent, PendingIntent.FLAG_CANCEL_CURRENT);
 
-      long triggerTime = System.currentTimeMillis() + (reminder_interval * 1000);
-      if (Log.DEBUG) Log.v("ReminderReceiver: scheduled reminder notification in " + reminder_interval
-          + " seconds, count is " + message.getReminderCount());
+      long triggerTime = System.currentTimeMillis() + (reminderInterval * 1000);
+      if (Log.DEBUG) Log.v("ReminderReceiver: scheduled reminder notification in " + reminderInterval
+          + " seconds, count is " + 999);
       myAM.set(AlarmManager.RTC_WAKEUP, triggerTime, reminderPendingIntent);
     }
   }
@@ -67,12 +91,12 @@ public class ReminderReceiver extends BroadcastReceiver {
    * before it ends up playing.
    */
   public static void cancelReminder(Context context) {
-    if (reminderPendingIntent != null) {
-      AlarmManager myAM = (AlarmManager) context.getSystemService(Context.ALARM_SERVICE);
-      myAM.cancel(reminderPendingIntent);
-      reminderPendingIntent.cancel();
-      reminderPendingIntent = null;
-      if (Log.DEBUG) Log.v("ReminderReceiver: cancelReminder()");
-    }
+
+    Intent reminderIntent = new Intent(context, ReminderReceiver.class);
+    reminderIntent.setAction(ACTION_REMIND);
+    PendingIntent reminderPendingIntent =
+      PendingIntent.getBroadcast(context, 0, reminderIntent, PendingIntent.FLAG_CANCEL_CURRENT);
+    reminderPendingIntent.cancel();
+    if (Log.DEBUG) Log.v("ReminderReceiver: cancelReminder()");
   }
 }

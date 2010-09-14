@@ -25,12 +25,8 @@ public class SmsMmsMessage implements Serializable {
   private static final String EXTRAS_TIMESTAMP      = PREFIX + "EXTRAS_TIMESTAMP";
   private static final String EXTRAS_MESSAGE_TYPE   = PREFIX + "EXTRAS_MESSAGE_TYPE";
   private static final String EXTRAS_EMAIL_GATEWAY  = PREFIX + "EXTRAS_EMAIL_GATEWAY";
-  private static final String EXTRAS_NOTIFY         = PREFIX + "EXTRAS_NOTIFY";
-
-  // Public EXTRAS strings
-  public static final String EXTRAS_REMINDER_COUNT = PREFIX + "EXTRAS_REMINDER_COUNT";
-  public static final String EXTRAS_REPLYING       = PREFIX + "EXTRAS_REPLYING";
-  public static final String EXTRAS_QUICKREPLY     = PREFIX + "EXTRAS_QUICKREPLY";
+  private static final String EXTRAS_READ           = PREFIX + "EXTRAS_READ";
+  private static final String EXTRAS_LOCKED         = PREFIX + "EXTRAS_LOCKED";
 
   // Message types
   public static final int MESSAGE_TYPE_SMS = 0;
@@ -47,8 +43,6 @@ public class SmsMmsMessage implements Serializable {
   private String messageFull = null;
   private long timestamp = 0;
   private int messageType = 0;
-  private transient boolean notify = true;    // DOesn't belong here - not serialized
-  private transient int reminderCount = 0;     // Ditto
   private boolean fromEmailGateway = false;
   private MessageClass messageClass = null;
   private boolean read = false;             
@@ -160,9 +154,9 @@ public class SmsMmsMessage implements Serializable {
     messageFull = b.getString(EXTRAS_MESSAGE_FULL);
     timestamp = b.getLong(EXTRAS_TIMESTAMP);
     messageType = b.getInt(EXTRAS_MESSAGE_TYPE, MESSAGE_TYPE_SMS);
-    notify = b.getBoolean(EXTRAS_NOTIFY, false);
-    reminderCount = b.getInt(EXTRAS_REMINDER_COUNT, 0);
     fromEmailGateway = b.getBoolean(EXTRAS_EMAIL_GATEWAY, false);
+    read = b.getBoolean(EXTRAS_READ, false);
+    locked = b.getBoolean(EXTRAS_LOCKED, false);
   }
 
   /**
@@ -174,9 +168,9 @@ public class SmsMmsMessage implements Serializable {
     i.putExtra(EXTRAS_MESSAGE_FULL, messageFull);
     i.putExtra(EXTRAS_TIMESTAMP, timestamp);
     i.putExtra(EXTRAS_MESSAGE_TYPE, messageType);
-    i.putExtra(EXTRAS_NOTIFY, notify);
-    i.putExtra(EXTRAS_REMINDER_COUNT, reminderCount);
     i.putExtra(EXTRAS_EMAIL_GATEWAY, fromEmailGateway);
+    i.putExtra(EXTRAS_READ, read);
+    i.putExtra(EXTRAS_LOCKED, locked);
   }
 
   public Intent getPopupIntent() {
@@ -222,12 +216,6 @@ public class SmsMmsMessage implements Serializable {
 //    return getReplyIntent(true);
 //  }
 
-  // We will need to get an uread message count from somewhere, but this
-  // is definately not the place for it
-  public int getUnreadCount() {
-    return 0;
-  }
-
   public long getTimestamp() {
     return timestamp;
   }
@@ -256,52 +244,6 @@ public class SmsMmsMessage implements Serializable {
   public int getMessageType() {
     return messageType;
   }
-
-  public boolean getNotify() {
-    if (Log.DEBUG) Log.v("getNotify() - notify is " + notify);
-    return notify;
-  }
-  
-  public void resetNotify() {
-    notify = false;
-  }
-
-  public int getReminderCount() {
-    return reminderCount;
-  }
-
-  public void updateReminderCount(int count) {
-    reminderCount = count;
-  }
-
-  public void incrementReminderCount() {
-    reminderCount++;
-  }
-
-//  public void delete() {
-//    SmsPopupUtils.deleteMessage(context, getMessageId(), threadId, messageType);
-//  }
-
-//  public void locateThreadId() {
-//    if (threadId == 0) {
-//     // threadId = SmsPopupUtils.findThreadIdFromAddress(context, fromAddress);
-//    }
-//  }
-//
-//  public void locateMessageId() {
-//    if (messageId == 0) {
-//      if (threadId == 0) {
-//        locateThreadId();
-//      }
-//      messageId =
-//        SmsPopupUtils.findMessageId(context, threadId, timestamp, messageBody, messageType);
-//    }
-//  }
-//
-//  public long getMessageId() {
-//    locateMessageId();
-//    return messageId;
-//  }
 
   public String getAddress() {
     return fromAddress;

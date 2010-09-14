@@ -19,7 +19,6 @@ import android.preference.Preference;
 import android.preference.PreferenceActivity;
 import android.preference.PreferenceCategory;
 import android.preference.PreferenceManager;
-import android.preference.Preference.OnPreferenceChangeListener;
 import android.preference.Preference.OnPreferenceClickListener;
 import android.telephony.TelephonyManager;
 import android.view.LayoutInflater;
@@ -303,33 +302,6 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
         .create();
     }
     return super.onCreateDialog(id);
-  }
-
-  /*
-   * Quick method to work out if Quick Reply is active or not (to toggle the pref)
-   */
-  private boolean isQuickReplyActive(String val1, String val2, String val3) {
-    return false;
-  }
-
-  /*
-   * Updates reply-type preference based on the value passed
-   */
-  private void updateReplyTypePref(String val1, String val2, String val3) {
-    SharedPreferences mPrefs = PreferenceManager.getDefaultSharedPreferences(this);
-    SharedPreferences.Editor settings = mPrefs.edit();
-
-    if (Integer.valueOf(val1) == ButtonListPreference.BUTTON_REPLY_BY_ADDRESS
-        || Integer.valueOf(val2) == ButtonListPreference.BUTTON_REPLY_BY_ADDRESS
-        || Integer.valueOf(val3) == ButtonListPreference.BUTTON_REPLY_BY_ADDRESS) {
-      settings.putBoolean(getString(R.string.pref_reply_to_thread_key), false);
-      //      if (Log.DEBUG) Log.v("Reply to address set");
-    } else {
-      settings.putBoolean(getString(R.string.pref_reply_to_thread_key), true);
-      //      if (Log.DEBUG) Log.v("Reply to threadId set");
-    }
-
-    settings.commit();
   }
   
   private void installNotification() {
