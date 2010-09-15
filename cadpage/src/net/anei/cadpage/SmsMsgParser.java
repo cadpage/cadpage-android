@@ -41,7 +41,7 @@ public class SmsMsgParser {
   }
 
   public String getFullAddress() {
-	  String FullAddress = strAddress + " , " + strCity + " " + strState; 
+	  String FullAddress =  strAddress + " , " + strCity + ", " + strState; 
 	    return FullAddress ;
 	  }
   /**
