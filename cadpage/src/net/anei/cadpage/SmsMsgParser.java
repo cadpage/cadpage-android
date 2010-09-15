@@ -18,6 +18,7 @@ public class SmsMsgParser {
   private String strADC= "" ;
   private String strUnit= "" ;
   private String strState="";
+  private String strMap = "";
   
   /**
    * Return original message text
@@ -41,9 +42,17 @@ public class SmsMsgParser {
   }
 
   public String getFullAddress() {
-	  String FullAddress =  strAddress + " , " + strCity + ", " + strState; 
-	    return FullAddress ;
-	  }
+    StringBuilder sb = new StringBuilder(strAddress);
+    if (strCity.length() > 0) {
+      sb.append(", ");
+      sb.append(strCity);
+    } 
+    if (strState.length() > 0) {
+      sb.append(", ");
+      sb.append(strState);
+    }
+    return sb.toString();
+	}
   /**
    * @return the call city
    */
@@ -91,6 +100,13 @@ public class SmsMsgParser {
    */
   public String getUnit() {
     return strUnit;
+  }
+  
+  /**
+   * @return map code
+   */
+  public String getMap() {
+    return strMap;
   }
   
   /**
@@ -290,8 +306,6 @@ public class SmsMsgParser {
       if (strAddress.length() < 4) {
         strAddress = "Error Street not Found.";
       }
-      
-    
 
       //strApt = AData[1].substring(AData[1].indexOf("Apt:"));
       strApt= "";
@@ -318,6 +332,7 @@ public class SmsMsgParser {
       strCity=props.getProperty("CITY", "");
       strApt =props.getProperty("APT", "");
       strCross=props.getProperty("X", "");
+      strMap=props.getProperty("MAP", "");
       strBox="";
       strADC="";
       strUnit="";

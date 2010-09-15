@@ -8,7 +8,6 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
-import java.net.URI;
 import java.util.ArrayList;
 
 import com.google.tts.TTS;
@@ -24,9 +23,7 @@ import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.app.ProgressDialog;
-import android.app.SearchManager;
 import android.content.ActivityNotFoundException;
-import android.content.ComponentName;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -480,9 +477,15 @@ public class SmsPopupActivity extends Activity {
     fromTV.setText(parser.getCall());
     if (message.getMessageType() == SmsMmsMessage.MESSAGE_TYPE_SMS) {
       StringBuilder sb = new StringBuilder(parser.getAddress());
+      String delim="\n";
       if (parser.getCity().length() > 0) {
-        sb.append('\n');
+        sb.append(delim);
+        delim = ", ";
         sb.append(parser.getCity());
+      }
+      if (parser.getState().length() > 0) {
+        sb.append(delim);
+        sb.append(parser.getState());
       }
       sb.append("\nX:");
       sb.append(parser.getCross());
@@ -840,13 +843,7 @@ private boolean externalStorageAvailable() {
   private void  mapMessage()  {
     if (Log.DEBUG) Log.v("Request Received to Map Call");
     if (haveNet()) {
-        String searchStr = parser.getAddress();
-        if (parser.getCity().length() > 0) searchStr = searchStr + ", " + parser.getCity();
-        if (parser.getState().length()> 0) searchStr = searchStr+ ", " + parser.getState();
-//        Intent intent = new Intent(Intent.ACTION_SEARCH);
-//        intent.setComponent(new ComponentName("com.google.android.apps.maps", "com.google.android.maps.MapsActivity"));
-//        intent.putExtra(SearchManager.QUERY, searchStr);
-//        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        String searchStr = parser.getFullAddress();
         Uri uri = Uri.parse("geo:0,0?q=" + Uri.encode(searchStr));
         Intent intent = new Intent(Intent.ACTION_VIEW, uri);
         
