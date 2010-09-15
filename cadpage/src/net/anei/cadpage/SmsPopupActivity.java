@@ -840,8 +840,9 @@ private boolean externalStorageAvailable() {
   private void  mapMessage()  {
     if (Log.DEBUG) Log.v("Request Received to Map Call");
     if (haveNet()) {
-        String searchStr = parser.getFullAddress();
+        String searchStr = parser.getAddress();
         if (parser.getCity().length() > 0) searchStr = searchStr + ", " + parser.getCity();
+        if (parser.getState().length()> 0) searchStr = searchStr+ ", " + parser.getState();
 //        Intent intent = new Intent(Intent.ACTION_SEARCH);
 //        intent.setComponent(new ComponentName("com.google.android.apps.maps", "com.google.android.maps.MapsActivity"));
 //        intent.putExtra(SearchManager.QUERY, searchStr);

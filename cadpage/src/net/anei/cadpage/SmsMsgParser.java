@@ -52,6 +52,13 @@ public class SmsMsgParser {
   }
 
   /**
+   * @return the call city
+   */
+  public String getState() {
+    return strState;
+  }
+
+  /**
    * @return the call appt number
    */
   public String getApt() {
