@@ -1,5 +1,6 @@
 package net.anei.cadpage;
 
+import java.net.URLEncoder;
 import java.util.Properties;
 
 
@@ -19,6 +20,7 @@ public class SmsMsgParser {
   private String strUnit= "" ;
   private String strState="";
   private String strMap = "";
+private String strTemp;
   
   /**
    * Return original message text
@@ -44,14 +46,17 @@ public class SmsMsgParser {
   public String getFullAddress() {
     StringBuilder sb = new StringBuilder(strAddress);
     if (strCity.length() > 0) {
-      sb.append(", ");
+      sb.append(" ");
       sb.append(strCity);
     } 
     if (strState.length() > 0) {
-      sb.append(", ");
+      sb.append(" ");
       sb.append(strState);
     }
-    return sb.toString();
+    
+    String strFullAddress = URLEncoder.encode(sb.toString());
+    //strFullAddress = strFullAddress + "&z=9";
+    return strFullAddress;
 	}
   /**
    * @return the call city
@@ -119,7 +124,7 @@ public class SmsMsgParser {
     // Next look up location code and use it to see if this message contains the trigger phrase
     String sLocation = ManagePreferences.location();
     int iLocation = Integer.parseInt(sLocation);
-    String[] phrases = new String[]{"Call:", "TYPE:", "Map:", "(Corvallis Alert)"};
+    String[] phrases = new String[]{"Call:", "TYPE:", "Map:", "(Corvallis Alert)","Cad:","OCSO E911:"};
     if (iLocation > phrases.length) return false;
     return (msgText.indexOf(phrases[iLocation-1]) >= 0);
   }
@@ -280,26 +285,27 @@ public class SmsMsgParser {
       Log.v("DecodeHarrisPage: Message Body of:" + body);
       String tmpAddress="";
       strState="TX";
-      String[] AData = body.split(":");
-
-      try {
-      strCall = AData[4];
+     // String[] AData = body.split(":");
+      String strBody = body.substring(16);
+      try { 
+    	  String[] AData = strBody.split(":");
+      strCall = AData[3];
       // Need to check for single address or Intersection address.
-      if (AData[1].contains("/")  ){
+      if (AData[0].contains("/")  ){
         // This is an intersection and not a street
-         String[] strTemp = AData[1].split("/");
+         String[] strTemp = AData[0].split("/");
          strTemp[0] = strTemp[0].substring(2);
         //strAddress = strTemp[0].substring(0,(strTemp[0].indexOf("-")));
          tmpAddress = strTemp[0];
 
         tmpAddress = tmpAddress + " and " +  strTemp[1].substring(0,strTemp[1].indexOf(","));
       }else {
-        tmpAddress = AData[1].substring(2,AData[1].indexOf(","));
+        tmpAddress = AData[0].substring(1,AData[0].indexOf(","));
       }
       if (! strCall.contains("MA-MUTUAL AID")){
-    	  strCity = " Humble ";
+    	  strCity = "Humble";
       } else {
-    	  strCity = " ";
+    	  strCity = "";
       }
       // Intersection address has a / and two  - cities
       strAddress= tmpAddress;
@@ -309,14 +315,15 @@ public class SmsMsgParser {
 
       //strApt = AData[1].substring(AData[1].indexOf("Apt:"));
       strApt= "";
-      strCross =  AData[6];
-      strUnit = AData[5].substring(0,(AData[5].length()-5)); //AData[3];
-      strBox = "";//AData[4].substring(4);
-      strADC = AData[2].substring(0,AData[2].length()-4);//AData[5].substring(4,AData[5].indexOf("["));
-      } catch (Exception ex) {
-        if (Log.DEBUG) Log.v("Exception in decodeSuffolk-" + ex.toString());
+      strADC = AData[1].substring(0,AData[1].length()-4);//AData[5].substring(4,AData[5].indexOf("["));
+      strUnit = AData[4].substring(0,(AData[4].length()-5)); //AData[3];
+      strCross =  AData[5];
+      strBox = "";//AData[4].substring(4);  
+      } catch (IndexOutOfBoundsException ex) {
+        Log.v("Exception in decodeHarris-" + ex.getMessage());
       }
   }
+  
 
   private void decodeBentonCoPage(String body) {
       
@@ -358,4 +365,105 @@ public class SmsMsgParser {
       return props;
   }
 
+  
+  private void decodeOconeePage(String body) {
+	    /* Sample Oconee Page
+	     CSO E911:Return Phone: 7060000000 S28 SICK PERSON 4047 COLHAM FERRY RD 8583046 
+OCSO E911:Return Phone: 7060000000 S28 SICK PERSON 385 JEFFERSON AVE 2029728 
+OCSO E911:1090F FIRE ALARM 1021 WOOD HOLLOW LN 5482767 CRYSTAL HILLS DR
+OCSO E911:1073 SMOKE 1421 BEVERLY DR 5495253 NONA DRIVE
+OCSO E911:1070 FIRE 1280 ASHLAND DR 7250300 HWY 53
+	     */
+	    
+	      Log.v("DecodeOconeePage: Message Body of:" + body);
+	      String tmpAddress="";
+	      strState="GA";
+	     // String[] AData = body.split(":");
+	      String strBody = body.substring(16);
+	      try { 
+	    	  String[] AData = strBody.split(":");
+	      strCall = AData[3];
+	      // Need to check for single address or Intersection address.
+	      if (AData[0].contains("/")  ){
+	        // This is an intersection and not a street
+	         String[] strTemp = AData[0].split("/");
+	         strTemp[0] = strTemp[0].substring(2);
+	        //strAddress = strTemp[0].substring(0,(strTemp[0].indexOf("-")));
+	         tmpAddress = strTemp[0];
+
+	        tmpAddress = tmpAddress + " and " +  strTemp[1].substring(0,strTemp[1].indexOf(","));
+	      }else {
+	        tmpAddress = AData[0].substring(1,AData[0].indexOf(","));
+	      }
+	      if (! strCall.contains("MA-MUTUAL AID")){
+	    	  strCity = "Humble";
+	      } else {
+	    	  strCity = "";
+	      }
+	      // Intersection address has a / and two  - cities
+	      strAddress= tmpAddress;
+	      if (strAddress.length() < 4) {
+	        strAddress = "Error Street not Found.";
+	      }
+
+	      //strApt = AData[1].substring(AData[1].indexOf("Apt:"));
+	      strApt= "";
+	      strADC = AData[1].substring(0,AData[1].length()-4);//AData[5].substring(4,AData[5].indexOf("["));
+	      strUnit = AData[4].substring(0,(AData[4].length()-5)); //AData[3];
+	      strCross =  AData[5];
+	      strBox = "";//AData[4].substring(4);  
+	      } catch (IndexOutOfBoundsException ex) {
+	        Log.v("Exception in decodeOconee-" + ex.getMessage());
+	      }
+  	}
+  private void decodeHerkimerPage(String body) {
+	    /* Sample Oconee Page
+	     CSO E911:Return Phone: 7060000000 S28 SICK PERSON 4047 COLHAM FERRY RD 8583046 
+OCSO E911:Return Phone: 7060000000 S28 SICK PERSON 385 JEFFERSON AVE 2029728 
+OCSO E911:1090F FIRE ALARM 1021 WOOD HOLLOW LN 5482767 CRYSTAL HILLS DR
+OCSO E911:1073 SMOKE 1421 BEVERLY DR 5495253 NONA DRIVE
+OCSO E911:1070 FIRE 1280 ASHLAND DR 7250300 HWY 53
+	     */
+	    
+	      Log.v("DecodeHerkimerPage: Message Body of:" + body);
+	      String tmpAddress="";
+	      strState="NY";
+	     // String[] AData = body.split(":");
+	      String strBody = body.substring(16);
+	      try { 
+	    	  String[] AData = strBody.split(":");
+	      strCall = AData[3];
+	      // Need to check for single address or Intersection address.
+	      if (AData[0].contains("/")  ){
+	        // This is an intersection and not a street
+	         String[] strTemp = AData[0].split("/");
+	         strTemp[0] = strTemp[0].substring(2);
+	        //strAddress = strTemp[0].substring(0,(strTemp[0].indexOf("-")));
+	         tmpAddress = strTemp[0];
+
+	        tmpAddress = tmpAddress + " and " +  strTemp[1].substring(0,strTemp[1].indexOf(","));
+	      }else {
+	        tmpAddress = AData[0].substring(1,AData[0].indexOf(","));
+	      }
+	      if (! strCall.contains("MA-MUTUAL AID")){
+	    	  strCity = "Humble";
+	      } else {
+	    	  strCity = "";
+	      }
+	      // Intersection address has a / and two  - cities
+	      strAddress= tmpAddress;
+	      if (strAddress.length() < 4) {
+	        strAddress = "Error Street not Found.";
+	      }
+
+	      //strApt = AData[1].substring(AData[1].indexOf("Apt:"));
+	      strApt= "";
+	      strADC = AData[1].substring(0,AData[1].length()-4);//AData[5].substring(4,AData[5].indexOf("["));
+	      strUnit = AData[4].substring(0,(AData[4].length()-5)); //AData[3];
+	      strCross =  AData[5];
+	      strBox = "";//AData[4].substring(4);  
+	      } catch (IndexOutOfBoundsException ex) {
+	        Log.v("Exception in decodeHerkimer-" + ex.getMessage());
+	      }
+	  }
 }
