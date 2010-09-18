@@ -43,7 +43,10 @@ public class CallHistoryActivity extends Activity {
       Intent intent = new Intent(this, SmsPopupConfigActivity.class);
       startActivity(intent);
       return true;
-        
+    case R.id.exit_item:
+    	this.finish();
+    	return true;
+    	
     default:
         return super.onOptionsItemSelected(item);
     }

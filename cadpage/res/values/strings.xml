@@ -343,4 +343,5 @@
 <string name="pref_filter">*</string>
 <string name="app_file_dir">/Android/data/cadpage/files/</string>
 <string name="app_file_name">callhistory.csv</string>
+<string name="exit">Exit</string>
 </resources>
