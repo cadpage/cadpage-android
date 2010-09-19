@@ -152,6 +152,12 @@ private String strTemp;
         case 4:
           decodeBentonCoPage(strMessage);
           break;
+        case 5:
+        	decodeHerkimerPage(strMessage);
+        	break;
+        case 6:
+        	decodeOconeePage(strMessage);
+        	break;
         }
 
   }
@@ -364,10 +370,12 @@ private String strTemp;
       }
       return props;
   }
+
   
   private void decodeOconeePage(String body) {
 	    /* Sample Oconee Page
-	     CSO E911:Return Phone: 7060000000 S28 SICK PERSON 4047 COLHAM FERRY RD 8583046 
+	     * 
+	     * CSO E911:Return Phone: 7060000000 S28 SICK PERSON 4047 COLHAM FERRY RD 8583046 
 OCSO E911:Return Phone: 7060000000 S28 SICK PERSON 385 JEFFERSON AVE 2029728 
 OCSO E911:1090F FIRE ALARM 1021 WOOD HOLLOW LN 5482767 CRYSTAL HILLS DR
 OCSO E911:1073 SMOKE 1421 BEVERLY DR 5495253 NONA DRIVE
@@ -378,28 +386,19 @@ OCSO E911:1070 FIRE 1280 ASHLAND DR 7250300 HWY 53
 	      String tmpAddress="";
 	      strState="GA";
 	     // String[] AData = body.split(":");
-	      String strBody = body.substring(16);
+	      String strBody = body.substring(10);
+	   // Somtimes the calls have phone numbers. move past that.
+    	  if (strBody.contains("Return Phone:") && strBody.length()>25) {
+    		  strBody = strBody.substring(24);
+    	  }
 	      try { 
-	    	  String[] AData = strBody.split(":");
-	      strCall = AData[3];
-	      // Need to check for single address or Intersection address.
-	      if (AData[0].contains("/")  ){
-	        // This is an intersection and not a street
-	         String[] strTemp = AData[0].split("/");
-	         strTemp[0] = strTemp[0].substring(2);
-	        //strAddress = strTemp[0].substring(0,(strTemp[0].indexOf("-")));
-	         tmpAddress = strTemp[0];
+	    	  String[] AData = strBody.split(" ");
+	    	  
+	    	  int indx = AData.length ;
+	    	  
+	    	  //strCall = AData[0] + ;
 
-	        tmpAddress = tmpAddress + " and " +  strTemp[1].substring(0,strTemp[1].indexOf(","));
-	      }else {
-	        tmpAddress = AData[0].substring(1,AData[0].indexOf(","));
-	      }
-	      if (! strCall.contains("MA-MUTUAL AID")){
-	    	  strCity = "Humble";
-	      } else {
-	    	  strCity = "";
-	      }
-	      // Intersection address has a / and two  - cities
+
 	      strAddress= tmpAddress;
 	      if (strAddress.length() < 4) {
 	        strAddress = "Error Street not Found.";
@@ -412,43 +411,54 @@ OCSO E911:1070 FIRE 1280 ASHLAND DR 7250300 HWY 53
 	      strCross =  AData[5];
 	      strBox = "";//AData[4].substring(4);  
 	      } catch (IndexOutOfBoundsException ex) {
-	        Log.v("Exception in decodeOconee-" + ex.getMessage());
+	        Log.v("Exception in decodeOconee-" + ex.getStackTrace());
 	      }
   	}
   private void decodeHerkimerPage(String body) {
-	    /* Sample Oconee Page
-	     CSO E911:Return Phone: 7060000000 S28 SICK PERSON 4047 COLHAM FERRY RD 8583046 
-OCSO E911:Return Phone: 7060000000 S28 SICK PERSON 385 JEFFERSON AVE 2029728 
-OCSO E911:1090F FIRE ALARM 1021 WOOD HOLLOW LN 5482767 CRYSTAL HILLS DR
-OCSO E911:1073 SMOKE 1421 BEVERLY DR 5495253 NONA DRIVE
-OCSO E911:1070 FIRE 1280 ASHLAND DR 7250300 HWY 53
+	    /* Sample Herkimer Page
+(EMS   >EMS CALL) 185 GUIDEBOARD RD XS: DAIRY HILL RD NORWAY AAAAAAA AAAAAAA 3150000000 Map: Grids:, Cad: 2010-0000049305
+(MVA   >MOTOR VEHICLE ACCIDENT) 5781 STHY 28 XS: TOWN LINE NEWPORT AAAAAA AAAAA 3150000000 Map: Grids:, Cad: 2010-0000049651
+(EMS   >EMS CALL) 808 OLD STATE RD NEWPORT AAAAAAAA 8880000000 Map: Grids:, Cad: 2010-0000049432
+
 	     */
 	    
 	      Log.v("DecodeHerkimerPage: Message Body of:" + body);
 	      String tmpAddress="";
 	      strState="NY";
 	     // String[] AData = body.split(":");
-	      String strBody = body.substring(16);
+	      
 	      try { 
 	    	  String[] AData = strBody.split(":");
-	      strCall = AData[3];
-	      // Need to check for single address or Intersection address.
-	      if (AData[0].contains("/")  ){
-	        // This is an intersection and not a street
-	         String[] strTemp = AData[0].split("/");
-	         strTemp[0] = strTemp[0].substring(2);
-	        //strAddress = strTemp[0].substring(0,(strTemp[0].indexOf("-")));
-	         tmpAddress = strTemp[0];
-
-	        tmpAddress = tmpAddress + " and " +  strTemp[1].substring(0,strTemp[1].indexOf(","));
-	      }else {
-	        tmpAddress = AData[0].substring(1,AData[0].indexOf(","));
-	      }
-	      if (! strCall.contains("MA-MUTUAL AID")){
-	    	  strCity = "Humble";
-	      } else {
-	    	  strCity = "";
-	      }
+	    	  strCall = AData[0].substring(1,AData[0].indexOf(")"));
+	    	  strCall = strCall.replaceAll("\\s\\s", "");
+	    	  strCall.trim();
+	      // Need to Make sure there is a XS in the Call:
+	    	  tmpAddress = AData[0].substring(AData[0].indexOf(")")+1);
+	    	  
+ 
+	    	  if (body.contains("XS:")){
+	    		  String aAddress[] = AData[1].split(" ");
+		    	  int ndx = aAddress.length;
+	    		  if ((aAddress[ndx-1].startsWith("888") || aAddress[ndx-1].startsWith("800")) && ndx>5 ){
+	    			  strCity = aAddress[ndx-4];
+	    		  }else {
+	    			  strCity = aAddress[ndx-5];
+	    		  }
+	    		  tmpAddress = tmpAddress.substring(0,tmpAddress.length()-2); 
+	    		  strCross =  AData[1].substring(0,AData[1].indexOf(strCity));
+	    	  } else {
+	    		  String aAddress[] = tmpAddress.split(" ");
+		    	  int ndx = aAddress.length;
+	    		  if ((aAddress[ndx-1].startsWith("888") || aAddress[ndx-1].startsWith("800")) && ndx>4 ){
+	    			  strCity = aAddress[ndx-3];
+	    		  }else {
+	    			  strCity = aAddress[ndx-4];
+	    		  }
+	    		  tmpAddress = tmpAddress.substring(0,tmpAddress.indexOf(strCity));
+	    		  strCross="";
+	    	  }
+	    	  
+	    	  tmpAddress.trim();
 	      // Intersection address has a / and two  - cities
 	      strAddress= tmpAddress;
 	      if (strAddress.length() < 4) {
@@ -457,12 +467,11 @@ OCSO E911:1070 FIRE 1280 ASHLAND DR 7250300 HWY 53
 
 	      //strApt = AData[1].substring(AData[1].indexOf("Apt:"));
 	      strApt= "";
-	      strADC = AData[1].substring(0,AData[1].length()-4);//AData[5].substring(4,AData[5].indexOf("["));
-	      strUnit = AData[4].substring(0,(AData[4].length()-5)); //AData[3];
-	      strCross =  AData[5];
+	      strADC = AData[2].substring(0,AData[2].length()-5);//AData[5].substring(4,AData[5].indexOf("["));
+	      strUnit = AData[AData.length-1]; //AData[3];
 	      strBox = "";//AData[4].substring(4);  
 	      } catch (IndexOutOfBoundsException ex) {
-	        Log.v("Exception in decodeHerkimer-" + ex.getMessage());
+	        Log.v("Exception in decodeHerkimer-" + ex.getStackTrace());
 	      }
 	  }
 }
