@@ -11,6 +11,7 @@ import android.os.Bundle;
 import android.telephony.*;
 import android.telephony.SmsMessage.MessageClass;
 import android.text.format.DateUtils;
+import android.widget.TextView;
 
 public class SmsMmsMessage implements Serializable {
 
@@ -47,6 +48,7 @@ public class SmsMmsMessage implements Serializable {
   private MessageClass messageClass = null;
   private boolean read = false;             
   private boolean locked = false;
+  private transient String call = null;
   
   
   public boolean isRead() {
@@ -173,13 +175,6 @@ public class SmsMmsMessage implements Serializable {
     i.putExtra(EXTRAS_LOCKED, locked);
   }
 
-  public Intent getPopupIntent() {
-    Intent popup = new Intent(context, SmsPopupActivity.class);
-    popup.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_EXCLUDE_FROM_RECENTS);
-    addToIntent(popup);
-    return popup;
-  }
-
 //  /**
 //   * Fetch the "reply to" message intent
 //   * 
@@ -252,6 +247,15 @@ public class SmsMmsMessage implements Serializable {
   public boolean isEmail() {
     return fromEmailGateway;
   }
+  
+  public String getCall() {
+    if (call == null) {
+      call = new SmsMsgParser(getMessageFull()).getCall();
+    }
+    return call;
+  }
+  
+  
 
 //  /**
 //   * Sned a reply to this message

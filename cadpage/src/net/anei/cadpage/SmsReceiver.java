@@ -50,11 +50,9 @@ public class SmsReceiver extends BroadcastReceiver {
     if (message != null && cadPageCall(context, message)){
     	
       // If it is, abort broadcast to any other receivers
-      // add add the messaging information to the intent
-      // and forward it to SmsReceiverService
+      // and launch the main page with this message
       abortBroadcast();
-      message.addToIntent(intent);
-      SmsReceiverService.beginStartingService(context, intent);
+      CallHistoryActivity.launchActivity(context, message);
     }
   }
 

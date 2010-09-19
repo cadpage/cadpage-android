@@ -7,24 +7,20 @@ import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
-import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.media.AudioManager;
 import android.media.MediaPlayer;
 import android.net.Uri;
-import android.preference.PreferenceManager;
-import android.provider.Settings;
 import android.text.SpannableString;
 
 /*
  * This class handles the Notifications (sounds/vibrate/LED)
  */
 public class ManageNotification {
-  public static final int NOTIFICATION_ALERT = 1337;
-  public static final int NOTIFICATION_TEST = 1337;
-  public static final int NOTIFICATION_SEND_FAILED = 100;
-  public static final String defaultRingtone = Settings.System.DEFAULT_NOTIFICATION_URI.toString();
-  public static Boolean bAlert = true; 
+
+  private static final int NOTIFICATION_ALERT = 1337;
+  
+  private static MediaPlayer mMediaPlayer = null;
 
   /*
    * Class to hold the popup notification elements
@@ -42,7 +38,7 @@ public class ManageNotification {
         (NotificationManager) context.getSystemService(Context.NOTIFICATION_SERVICE);
 
       // Seems this is needed for the number value to take effect on the Notification
-      myNM.cancel(notif);
+      myNM.cancel(NOTIFICATION_ALERT);
 
       if (Log.DEBUG) Log.v("*** Notify running ***");
       myNM.notify(notif, notification);
@@ -50,37 +46,15 @@ public class ManageNotification {
   }
 
   /*
-   * Show/play the notification given a SmsMmsMessage and a notification ID
-   * (really just NOTIFICATION_ALERT for the main alert and NOTIFICATION_TEST
-   * for the test notification from the preferences screen)
-   */
-  public static void show(Context context, SmsMmsMessage message, int notif) {
-    notify(context, message, notif);
-  }
-
-  /*
-   * Default to NOTIFICATION_ALERT if notif is left out
-   */
-  public static void show(Context context, SmsMmsMessage message) {
-    notify(context, message, NOTIFICATION_ALERT);
-  }
-
-  /*
    * The main notify method
    */
-  private static void notify(Context context, SmsMmsMessage message, int notif) {
+  public static void show(Context context, SmsMmsMessage message) {
 
     // Fetch info from the message object
-    String messageBody = message.getMessageBody();
+    String call = message.getCall();
     long timestamp = message.getTimestamp();
 
-    // Check if there are unread messages - if not, we're done :)
-    if (bAlert==false) {
-    	if (Log.DEBUG){ Log.v("ManageNotification: Not Notifying. ");}
-      return;
-    }
-
-    PopupNotification n = buildNotification(context, notif);
+    PopupNotification n = buildNotification(context);
 
     if (n == null) return;
 
@@ -96,14 +70,14 @@ public class ManageNotification {
         new SpannableString(context.getString(R.string.notification_scroll_privacy));
     } else {
       scrollText =
-        new SpannableString(context.getString(R.string.notification_scroll, messageBody));
+        new SpannableString(context.getString(R.string.notification_scroll, call));
     }
 
     // The default intent when the notification is clicked (Inbox)
     Intent smsIntent = CallHistoryActivity.getLaunchIntent(context);
 
     contentTitle = "Alert";
-    contentText = messageBody;
+    contentText = call;
 
     /*
      * Ok, let's create our Notification object and set up all its parameters.
@@ -119,13 +93,13 @@ public class ManageNotification {
 
     // Set the messages that show when the status bar is pulled down
     n.notification.setLatestEventInfo(context, contentTitle, contentText, notifIntent);
-    n.notify(context, notif);
+    n.notify(context, NOTIFICATION_ALERT);
   }
 
   /*
    * Build the notification from user preferences
    */
-  private static PopupNotification buildNotification(Context context, int notif) {
+  private static PopupNotification buildNotification(Context context) {
 
     AudioManager AM = (AudioManager) context.getSystemService(Context.AUDIO_SERVICE);
     Uri alarmSoundURI;
@@ -138,14 +112,11 @@ public class ManageNotification {
     // Get some preferences: vibrate and vibrate_pattern prefs
     boolean vibrate = ManagePreferences.vibrate();
     String vibrate_pattern_raw = ManagePreferences.vibratePattern();
-    String vibrate_pattern_custom_raw = ManagePreferences.vibratePatternCustom();
 
     // Get LED preferences
     boolean flashLed = ManagePreferences.flashLED();
     String flashLedCol = ManagePreferences.flashLEDColor();
-    String flashLedColCustom = ManagePreferences.flashLEDColorCustom();
     String flashLedPattern = ManagePreferences.flashLEDPattern();
-    String flashLedPatternCustom = ManagePreferences.flashLEDPatternCustom();
 
     // Try and parse the user ringtone, use the default if it fails
     // If Notifications are On then get ring tone setting
@@ -178,27 +149,28 @@ public class ManageNotification {
       int[] led_pattern = null;
 
       if (context.getString(R.string.pref_custom_val).equals(flashLedPattern)) {
-        led_pattern = parseLEDPattern(flashLedPatternCustom);
+        led_pattern = parseLEDPattern(ManagePreferences.flashLEDPatternCustom());
       } else {
         led_pattern = parseLEDPattern(flashLedPattern);
       }
+
 
       // Set to default if there was a problem
       if (led_pattern == null) {
         led_pattern =
           parseLEDPattern(context.getString(R.string.pref_flashled_pattern_default));
       }
-
-      notification.ledOnMS = led_pattern[0];
-      notification.ledOffMS = led_pattern[1];
-
+      
       /*
        * Set up LED color
        */
       // Check if a custom color is set
       if (context.getString(R.string.pref_custom_val).equals(flashLedCol)) {
-        flashLedCol = flashLedColCustom;
+        flashLedCol = ManagePreferences.flashLEDColorCustom();
       }
+
+      notification.ledOnMS = led_pattern[0];
+      notification.ledOffMS = led_pattern[1];
 
       // Default in case the parse fails
       int col = Color.parseColor(context.getString(R.string.pref_flashled_color_default));
@@ -222,11 +194,11 @@ public class ManageNotification {
     if ((vibrate || AudioManager.RINGER_MODE_VIBRATE == AM.getRingerMode())) {
       long[] vibrate_pattern = null;
       if (context.getString(R.string.pref_custom_val).equals(vibrate_pattern_raw)) {
-        vibrate_pattern = parseVibratePattern(vibrate_pattern_custom_raw);
+        vibrate_pattern = parseVibratePattern(ManagePreferences.vibratePatternCustom());
       } else {
         vibrate_pattern = parseVibratePattern(vibrate_pattern_raw);
       }
-      if (vibrate_pattern != null) {
+     if (vibrate_pattern != null) {
         notification.vibrate = vibrate_pattern;
       } else {
         notification.defaults = Notification.DEFAULT_VIBRATE;
@@ -237,16 +209,12 @@ public class ManageNotification {
       if (ManagePreferences.notifyOverride()) {
         if (Log.DEBUG){ Log.v("OVERRIDE ON: running own mediaplayer");}
         alarmSoundURI=Uri.parse("file:///sdcard/media/audio/notifications/generalquarter.wav");
-        try { 	  
-          MediaPlayer mMediaPlayer = MediaPlayer.create(context, alarmSoundURI);
-          mMediaPlayer.setAudioStreamType(AudioManager.STREAM_MUSIC);
-          mMediaPlayer.setLooping(false);
-          mMediaPlayer.setVolume(1, 1);
-          if (Log.DEBUG){ Log.v("Starting Media Player Sound");}
-          mMediaPlayer.start();
-        } catch (NullPointerException e){
-          Log.v("Exception: At Notification Tone Playback." + e.toString()); 	  
-        }
+        mMediaPlayer = MediaPlayer.create(context, alarmSoundURI);
+        mMediaPlayer.setAudioStreamType(AudioManager.STREAM_MUSIC);
+        mMediaPlayer.setLooping(false);
+        mMediaPlayer.setVolume(1, 1);
+        if (Log.DEBUG){ Log.v("Starting Media Player Sound");}
+        mMediaPlayer.start();
       } else {	 
         notification.sound = alarmSoundURI;
       }
@@ -262,37 +230,18 @@ public class ManageNotification {
 
     PopupNotification popupNotification = new PopupNotification(notification);
     popupNotification.privacyMode = privacyMode;
-    bAlert=false; // stop duplicate alerts.
     return popupNotification ;
     
   }
 
-  // Clear the standard notification alert
-  public static void clear(Context context) {
-   clear(context, NOTIFICATION_ALERT);
-  }
-
   // Clear a single notification
-  public static void clear(Context context, int notif) {
+  public static void clear(Context context) {
     NotificationManager myNM =
       (NotificationManager) context.getSystemService(Context.NOTIFICATION_SERVICE);
-    myNM.cancel(notif);
-  }
-
-  public static void clearAll(Context context, boolean reply) {
-    SharedPreferences myPrefs = PreferenceManager.getDefaultSharedPreferences(context);
-
-    if (reply
-        || myPrefs.getBoolean(context.getString(R.string.pref_markread_key),
-            Boolean.parseBoolean(context.getString(R.string.pref_markread_default)))) {
-      NotificationManager myNM =
-        (NotificationManager) context.getSystemService(Context.NOTIFICATION_SERVICE);
-      myNM.cancelAll();
-    }
-  }
-
-  public static void clearAll(Context context) {
-    clearAll(context, true);
+    myNM.cancel(NOTIFICATION_ALERT);
+    
+    // Stop media player if running
+    if (mMediaPlayer != null) mMediaPlayer.stop();
   }
 
   /**

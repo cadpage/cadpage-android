@@ -257,7 +257,7 @@ public class SmsPopupUtils {
           context.getString(R.string.pref_notif_sound_key),
           context.getString(R.string.pref_vibrate_key),
           context.getString(R.string.pref_vibrate_pattern_key),
-          context.getString(R.string.pref_vibrate_pattern_custom_key),
+//          context.getString(R.string.pref_vibrate_pattern_custom_key),
           context.getString(R.string.pref_flashled_key),
           context.getString(R.string.pref_flashled_color_key),
           context.getString(R.string.pref_notif_repeat_key),
@@ -685,71 +685,71 @@ public class SmsPopupUtils {
    * This function will see if the most recent activity was the system messaging app so we can suppress
    * the popup as the user is likely already viewing messages or composing a new message
    */
-  public static final boolean inMessagingApp(Context context) {
-    // TODO: move these to static strings somewhere
-    final String PACKAGE_NAME = "com.android.mms";
-    //final String COMPOSE_CLASS_NAME = "com.android.mms.ui.ComposeMessageActivity";
-    final String CONVO_CLASS_NAME = "com.android.mms.ui.ConversationList";
-
-    ActivityManager mAM = (ActivityManager) context.getSystemService(Context.ACTIVITY_SERVICE);
-
-    List<RunningTaskInfo> mRunningTaskList = mAM.getRunningTasks(1);
-    Iterator<RunningTaskInfo> mIterator = mRunningTaskList.iterator();
-    if (mIterator.hasNext()) {
-      RunningTaskInfo mRunningTask = mIterator.next();
-      if (mRunningTask != null) {
-        ComponentName runningTaskComponent = mRunningTask.baseActivity;
-
-        //				Log.v("baseActivity = " + mRunningTask.baseActivity.toString());
-        //				Log.v("topActivity = " + mRunningTask.topActivity.toString());
-
-        if (PACKAGE_NAME.equals(runningTaskComponent.getPackageName()) &&
-            CONVO_CLASS_NAME.equals(runningTaskComponent.getClassName())) {
-          if (Log.DEBUG) Log.v("User in messaging app - from running task");
-          return true;
-        }
-      }
-    }
-
-    /*
-		List<RecentTaskInfo> mActivityList = mAM.getRecentTasks(1, 0);
-		Iterator<RecentTaskInfo> mIterator = mActivityList.iterator();
-
-		if (mIterator.hasNext()) {
-			RecentTaskInfo mRecentTask = (RecentTaskInfo) mIterator.next();
-			Intent recentTaskIntent = mRecentTask.baseIntent;
-
-			if (recentTaskIntent != null) {
-				ComponentName recentTaskComponentName = recentTaskIntent.getComponent();
-				if (recentTaskComponentName != null) {
-					String recentTaskClassName = recentTaskComponentName.getClassName();
-					if (PACKAGE_NAME.equals(recentTaskComponentName.getPackageName()) &&
-							(COMPOSE_CLASS_NAME.equals(recentTaskClassName) ||
-							 CONVO_CLASS_NAME.equals(recentTaskClassName))) {
-						if (Log.DEBUG) Log.v("User in messaging app");
-						return true;
-					}
-				}
-			}
-		}
-     */
-
-    /*
-		These appear to be the 2 main intents that mean the user is using the messaging app
-
-		action "android.intent.action.MAIN"
-		data null
-		class "com.android.mms.ui.ConversationList"
-		package "com.android.mms"
-
-		action "android.intent.action.VIEW"
-		data "content://mms-sms/threadID/3"
-		class "com.android.mms.ui.ComposeMessageActivity"
-		package "com.android.mms"
-     */
-
-    return false;
-  }
+//  public static final boolean inMessagingApp(Context context) {
+//    // TODO: move these to static strings somewhere
+//    final String PACKAGE_NAME = "com.android.mms";
+//    //final String COMPOSE_CLASS_NAME = "com.android.mms.ui.ComposeMessageActivity";
+//    final String CONVO_CLASS_NAME = "com.android.mms.ui.ConversationList";
+//
+//    ActivityManager mAM = (ActivityManager) context.getSystemService(Context.ACTIVITY_SERVICE);
+//
+//    List<RunningTaskInfo> mRunningTaskList = mAM.getRunningTasks(1);
+//    Iterator<RunningTaskInfo> mIterator = mRunningTaskList.iterator();
+//    if (mIterator.hasNext()) {
+//      RunningTaskInfo mRunningTask = mIterator.next();
+//      if (mRunningTask != null) {
+//        ComponentName runningTaskComponent = mRunningTask.baseActivity;
+//
+//        //				Log.v("baseActivity = " + mRunningTask.baseActivity.toString());
+//        //				Log.v("topActivity = " + mRunningTask.topActivity.toString());
+//
+//        if (PACKAGE_NAME.equals(runningTaskComponent.getPackageName()) &&
+//            CONVO_CLASS_NAME.equals(runningTaskComponent.getClassName())) {
+//          if (Log.DEBUG) Log.v("User in messaging app - from running task");
+//          return true;
+//        }
+//      }
+//    }
+//
+//    /*
+//		List<RecentTaskInfo> mActivityList = mAM.getRecentTasks(1, 0);
+//		Iterator<RecentTaskInfo> mIterator = mActivityList.iterator();
+//
+//		if (mIterator.hasNext()) {
+//			RecentTaskInfo mRecentTask = (RecentTaskInfo) mIterator.next();
+//			Intent recentTaskIntent = mRecentTask.baseIntent;
+//
+//			if (recentTaskIntent != null) {
+//				ComponentName recentTaskComponentName = recentTaskIntent.getComponent();
+//				if (recentTaskComponentName != null) {
+//					String recentTaskClassName = recentTaskComponentName.getClassName();
+//					if (PACKAGE_NAME.equals(recentTaskComponentName.getPackageName()) &&
+//							(COMPOSE_CLASS_NAME.equals(recentTaskClassName) ||
+//							 CONVO_CLASS_NAME.equals(recentTaskClassName))) {
+//						if (Log.DEBUG) Log.v("User in messaging app");
+//						return true;
+//					}
+//				}
+//			}
+//		}
+//     */
+//
+//    /*
+//		These appear to be the 2 main intents that mean the user is using the messaging app
+//
+//		action "android.intent.action.MAIN"
+//		data null
+//		class "com.android.mms.ui.ConversationList"
+//		package "com.android.mms"
+//
+//		action "android.intent.action.VIEW"
+//		data "content://mms-sms/threadID/3"
+//		class "com.android.mms.ui.ComposeMessageActivity"
+//		package "com.android.mms"
+//     */
+//
+//    return false;
+//  }
 
   /**
    * Enables or disables the main SMS receiver

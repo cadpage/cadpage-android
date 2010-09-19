@@ -3,7 +3,6 @@ package net.anei.cadpage;
 import net.anei.cadpage.preferences.ButtonListPreference;
 import android.content.Context;
 import android.content.SharedPreferences;
-import android.net.Uri;
 import android.preference.PreferenceManager;
 
 public class ManagePreferences {
@@ -75,10 +74,6 @@ public class ManagePreferences {
     return prefs.getString(R.string.pref_vibrate_pattern_key);
   }
   
-  public static String vibratePatternCustom() {
-    return prefs.getString(R.string.pref_vibrate_pattern_custom_key);
-  }
-  
   public static boolean flashLED() {
     return prefs.getBoolean(R.string.pref_flashled_key);
   }
@@ -91,6 +86,10 @@ public class ManagePreferences {
     return prefs.getString(R.string.pref_flashled_color_custom_key);
   }
   
+  public static String vibratePatternCustom() {
+    return prefs.getString(R.string.pref_vibrate_pattern_custom_key);
+  }
+  
   public static String flashLEDPattern() {
     return prefs.getString(R.string.pref_flashled_pattern_key);
   }
@@ -101,6 +100,10 @@ public class ManagePreferences {
   
   public static String notifySound() {
     return prefs.getString(R.string.pref_notif_sound_key);
+  }
+  
+  public static boolean onlyShowOnKeyguard() {
+    return prefs.getBoolean(R.string.pref_onlyShowOnKeyguard_key);
   }
 
 
@@ -128,6 +131,12 @@ public class ManagePreferences {
     if (result == null) throw new RuntimeException("No configured preference value found");
     return result;
   }
+  
+  private int getInt(int resPrefId) {
+    int result = mPrefs.getInt(context.getString(resPrefId), Integer.MAX_VALUE);
+    if (result == Integer.MAX_VALUE) throw new RuntimeException("No configured preference value found");
+    return result;
+  }
 
   /*
    * Define all default preferences in this static class.  Unfortunately these are also
@@ -145,8 +154,6 @@ public class ManagePreferences {
     public static final String PREFS_BUTTON1 = String.valueOf(ButtonListPreference.BUTTON_MAP);
     public static final String PREFS_BUTTON2 = String.valueOf(ButtonListPreference.BUTTON_DELETE);
     public static final String PREFS_BUTTON3 = String.valueOf(ButtonListPreference.BUTTON_CLOSE);
-    public static final boolean PREFS_SHOW_POPUP = true;
-    public static final boolean PREFS_ONLY_SHOW_ON_KEYGUARD = false;
   }
   
   // All of the following methods are deprecated, but we only officially

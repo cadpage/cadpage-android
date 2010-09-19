@@ -23,7 +23,9 @@ import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.app.ProgressDialog;
+import android.app.SearchManager;
 import android.content.ActivityNotFoundException;
+import android.content.ComponentName;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -244,6 +246,10 @@ public class SmsPopupActivity extends Activity {
     }
 
     public void onClick(View v) {
+      
+      // Any button clears the notice
+      ManageNotification.clear(getApplicationContext());
+      
       switch (buttonId) {
         case ButtonListPreference.BUTTON_DISABLED: // Disabled
           break;
@@ -433,9 +439,6 @@ public class SmsPopupActivity extends Activity {
     message = newMessage;
     parser = new SmsMsgParser(newMessage.getMessageFull());
     
-    // Flag message read
-    message.setRead(true);
-    
     // If it's a MMS message, just show the MMS layout
     if (message.getMessageType() == SmsMmsMessage.MESSAGE_TYPE_MMS) {
       if (mmsView == null) {
@@ -489,6 +492,10 @@ public class SmsPopupActivity extends Activity {
       }
       sb.append("\nX:");
       sb.append(parser.getCross());
+      if (parser.getMap().length() > 0) {
+        sb.append("\nMAP:");
+        sb.append(parser.getMap());
+      }
       if (parser.getUnit().length() > 0) {
         sb.append("\nUnits: ");
         sb.append(parser.getUnit());
@@ -1012,10 +1019,20 @@ private boolean haveNet(){
     inputManager.hideSoftInputFromWindow(inputView.getApplicationWindowToken(), 0);
     inputView = null;
   }
+  
+  /**
+   * Create intent that can be used to launch this activity
+   * @param context context
+   * @param message message to be displayed
+   * @return
+   */
 
- 
-
- 
-    
+  public static void launchActivity(Context context, SmsMmsMessage message) {
+    Intent popup = new Intent(context, SmsPopupActivity.class);
+    popup.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_EXCLUDE_FROM_RECENTS);
+    message.addToIntent(popup);
+    context.startActivity(popup);
   }
+
+}
 

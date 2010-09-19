@@ -2,7 +2,7 @@
 <resources>
 <!-- App Strings -->
    <string name="app_name">CADPage</string>   
-   <string name="app_title">CAD Pages:</string>   
+   <string name="call_history">Call History:</string>   
    <string name="new_text_at">New Call Received at %s</string>
    <string name="mms_subject">Subject:</string>
    

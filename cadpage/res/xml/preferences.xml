@@ -22,13 +22,13 @@
               android:summaryOn="@string/pref_popup_enabled_summaryon"
               android:summaryOff="@string/pref_popup_enabled_summaryoff"
               android:defaultValue="true" />
-            <net.anei.cadpage.preferences.DialogCheckBoxPreference
+            <CheckBoxPreference
               android:key="@string/pref_notif_enabled_key"
               android:title="@string/pref_notif_enabled_title"
               android:summaryOn="@string/pref_notif_enabled_summaryon"
               android:summaryOff="@string/pref_notif_enabled_summaryoff"
               android:defaultValue="false" />
-            <net.anei.cadpage.preferences.DialogCheckBoxPreference
+            <CheckBoxPreference
               android:key="@string/pref_notif_override_key"
               android:title="@string/pref_notif_override_title"
 			  android:summary="@string/pref_notif_override_summary"

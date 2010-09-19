@@ -25,7 +25,7 @@ public class TestNotificationDialogPreference extends DialogPreference {
   @Override
   public void onDismiss(DialogInterface dialog) {
     super.onDismiss(dialog);
-    ManageNotification.clear(context, ManageNotification.NOTIFICATION_TEST);
+    ManageNotification.clear(context);
   }
 
   @Override
@@ -42,7 +42,7 @@ public class TestNotificationDialogPreference extends DialogPreference {
           0, SmsMmsMessage.MESSAGE_TYPE_SMS);
 
     // Show notification
-    ManageNotification.show(context, message, ManageNotification.NOTIFICATION_TEST);
+    ManageNotification.show(context, message);
 
     return super.onCreateDialogView();
   }

@@ -364,7 +364,6 @@ private String strTemp;
       }
       return props;
   }
-
   
   private void decodeOconeePage(String body) {
 	    /* Sample Oconee Page

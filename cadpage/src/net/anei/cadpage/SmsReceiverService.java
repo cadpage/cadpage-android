@@ -20,6 +20,9 @@ import android.telephony.TelephonyManager;
 import android.widget.Toast;
 
 
+/**
+ * This class is slated for removal
+ */
 public class SmsReceiverService extends Service {
   private static final String ACTION_SMS_RECEIVED = "android.provider.Telephony.SMS_RECEIVED";
   private static final String ACTION_MMS_RECEIVED = "android.provider.Telephony.WAP_PUSH_RECEIVED";
@@ -117,7 +120,7 @@ public class SmsReceiverService extends Service {
    */
   private void handleSmsReceived(Intent intent) {
     if (Log.DEBUG) Log.v("SMSReceiver: Intercept SMS");
-    ManageNotification.bAlert=true;
+//    ManageNotification.bAlert=true;
     notifyMessageReceived( new SmsMmsMessage(context, intent));
   }
 
@@ -129,8 +132,8 @@ public class SmsReceiverService extends Service {
 
     // Whether or not the popup should only show when keyguard is on
     boolean onlyShowOnKeyguard =
-      mPrefs.getBoolean(R.string.pref_onlyShowOnKeyguard_key,
-          Defaults.PREFS_ONLY_SHOW_ON_KEYGUARD);
+      mPrefs.getBoolean(R.string.pref_onlyShowOnKeyguard_key, false);
+//          Defaults.PREFS_ONLY_SHOW_ON_KEYGUARD);
 
    // check if popup is enabled for this contact
    // boolean showPopup =
@@ -142,8 +145,8 @@ public class SmsReceiverService extends Service {
     boolean notifEnabled = ManagePreferences.notifyEnabled();
 
     // get docked state of phone
-    int docked_state =
-      mPrefs.getInt(getString(R.string.pref_docked_key), 0);
+    int docked_state = 0;
+//      mPrefs.getInt(getString(R.string.pref_docked_key), 0);
 
     boolean docked = docked_state == ExternalEventReceiver.EXTRA_DOCK_STATE_DESK;
 
@@ -171,7 +174,7 @@ public class SmsReceiverService extends Service {
       if (Log.DEBUG) Log.v("^^^^^^Showing SMS Popup");
       ManageWakeLock.acquireFull(context);
       ManageNotification.show(context, message);
-      context.startActivity(message.getPopupIntent());
+      SmsPopupActivity.launchActivity(context, message);
 
  //   } else if (notifEnabled) {
 

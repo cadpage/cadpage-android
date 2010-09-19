@@ -35,9 +35,6 @@ public class ExternalEventReceiver extends BroadcastReceiver {
 
       SharedPreferences.Editor settings =
         PreferenceManager.getDefaultSharedPreferences(context).edit();
-
-      int event = intent.getIntExtra(EXTRA_DOCK_STATE, -1);
-      settings.putInt(context.getString(R.string.pref_docked_key), event);
       settings.commit();
 
       //      switch (event) {

@@ -41,9 +41,6 @@ public class CustomVibrateListPreference extends ListPreference {
 
     if (positiveResult) {
       getPrefs();
-      if (context.getString(R.string.pref_custom_val).equals(vibrate_pattern)) {
-        showDialog();
-      }
     }
   }
 

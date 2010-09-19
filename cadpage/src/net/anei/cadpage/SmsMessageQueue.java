@@ -5,62 +5,69 @@ import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.io.Serializable;
-import java.util.Collection;
-import java.util.Collections;
+import java.util.ArrayList;
 import java.util.Iterator;
-import java.util.LinkedList;
+import java.util.List;
 
 import android.content.Context;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.ArrayAdapter;
+import android.widget.ListAdapter;
 
 public class SmsMessageQueue implements Serializable {
   
-  /**
-   * 
-   */
   private static final long serialVersionUID = 1L;
 
   private static String QUEUE_FILENAME = "message.queue";
   
-  private LinkedList<SmsMmsMessage> queue = new LinkedList<SmsMmsMessage>();
+  private List<SmsMmsMessage> queue = new ArrayList<SmsMmsMessage>();
   private Context context;
+  private Adapter adapter = null;
   
+  private static SmsMessageQueue msgQueue = null;
+  
+  @SuppressWarnings("unchecked")
   public SmsMessageQueue(Context context) {
     this.context = context;
     ObjectInputStream is = null;
     try {
       is = new ObjectInputStream(
         context.openFileInput(QUEUE_FILENAME));
-      int count = is.readInt();
-      for (int j = 0; j<count; j++) {
-        SmsMmsMessage message = SmsMmsMessage.readObject(context, is);
-        queue.add(message);
-      }
+      queue = (ArrayList<SmsMmsMessage>)is.readObject();
     } catch (FileNotFoundException ex) {
     } catch (Exception ex) {
       Log.e(ex);
     } finally {
       if (is != null) try {is.close();} catch (IOException ex) {}
     }
+    
+    msgQueue = this;
   }
 
   /**
    * Save queue to persistent file
    */
-  public synchronized void save() {
+  private synchronized void save() {
     ObjectOutputStream os = null;
     try {
       os = new ObjectOutputStream(
         context.openFileOutput(QUEUE_FILENAME, Context.MODE_PRIVATE));
-      os.write(queue.size());
-      for (SmsMmsMessage msg : queue) {
-        os.writeObject(msg);
-      }
-      os.writeObject(this);
+      os.writeObject(queue);
     } catch (IOException ex) {
       Log.e(ex);
     } finally {
       if (os != null) try {os.close();} catch (IOException ex) {}
     }
+  }
+  
+  private void notifyDataChange() {
+    if (adapter != null) adapter.notifyDataSetChanged();
+    save();
+  }
+  
+  public static void dataChange() {
+    if (msgQueue != null) msgQueue.notifyDataChange();
   }
   
   /**
@@ -71,7 +78,7 @@ public class SmsMessageQueue implements Serializable {
   public synchronized void addNewMsg(SmsMmsMessage msg) {
     
     // Add message to beginning of queue
-    queue.addFirst(msg);
+    queue.add(0, msg);
     
     // Get history limit
     int limit = ManagePreferences.historyCount();
@@ -99,6 +106,7 @@ public class SmsMessageQueue implements Serializable {
         }
       }
     }
+    notifyDataChange();
   }
   
   /**
@@ -106,11 +114,13 @@ public class SmsMessageQueue implements Serializable {
    */
   public void clearAll() {
     
-    // Make another pass through the list deleting anything over the keep limit
-    for (Iterator<SmsMmsMessage> itr = queue.iterator(); ; itr.hasNext()) {
+    // Delete everything this has been read and isn't locked
+    for (Iterator<SmsMmsMessage> itr = queue.iterator(); itr.hasNext(); ) {
       SmsMmsMessage m = itr.next();
       if (m.isRead() && !m.isLocked()) itr.remove();
     }
+    
+    notifyDataChange();
   }
 
   /**
@@ -129,10 +139,31 @@ public class SmsMessageQueue implements Serializable {
   }
   
   /**
-   * @return an unmodifiable collection of the current queue contents
+   * @return ListAdapter that can be bound to ListView to display call history
    */
-  public Collection<SmsMmsMessage> getMessages() {
-    return Collections.unmodifiableCollection(queue);
+  public ListAdapter listAdapter(Context context) {
+    adapter = new Adapter(context);
+    return adapter;
   }
   
+  /**
+   * Private ListAdapter class
+   */
+  private class Adapter extends ArrayAdapter<SmsMmsMessage> {
+    
+    Context context;
+
+    public Adapter(Context context) {
+      super(context, 0, queue);
+      this.context = context;
+    }
+
+    /* (non-Javadoc)
+     * @see android.widget.ArrayAdapter#getView(int, android.view.View, android.view.ViewGroup)
+     */
+    @Override
+    public View getView(int position, View convertView, ViewGroup parent) {
+      return new HistoryMsgTextView(context, queue.get(position));
+    }
+  }
 }
