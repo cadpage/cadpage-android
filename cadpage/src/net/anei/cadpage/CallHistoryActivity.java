@@ -13,8 +13,6 @@ import android.widget.TextView;
 public class CallHistoryActivity extends ListActivity {
   
   private static final String EXTRA_INCOMING_MSG = "CallHistoryActivity.MESSAGE";
-  
-  private SmsMessageQueue msgQueue;
 
   /* (non-Javadoc)
    * @see android.app.Activity#onCreate(android.os.Bundle)
@@ -24,7 +22,7 @@ public class CallHistoryActivity extends ListActivity {
     super.onCreate(savedInstanceState);
     
     // Reload existing message queue
-    msgQueue = new SmsMessageQueue(this);
+    SmsMessageQueue.setupInstance(this);
     
     // Set up list heading
     TextView tv = new TextView(this);
@@ -32,7 +30,7 @@ public class CallHistoryActivity extends ListActivity {
     getListView().addHeaderView(tv);
     
     // Set up message queue list adapter
-    setListAdapter(msgQueue.listAdapter(this));
+    setListAdapter(SmsMessageQueue.getInstance().listAdapter(this));
     
     startup();
   }
@@ -56,6 +54,7 @@ public class CallHistoryActivity extends ListActivity {
   private void startup() {
     Intent intent = getIntent();
     
+    SmsMessageQueue msgQueue = SmsMessageQueue.getInstance();
     
     // If there is an incoming message in this intent, retrieve it, add it
     // to our message queue, and determine if if should popup the display
@@ -90,7 +89,7 @@ public class CallHistoryActivity extends ListActivity {
       
       // Flag message read
       msg.setRead(true);
-      SmsMessageQueue.dataChange();
+      msgQueue.notifyDataChange();
       SmsPopupActivity.launchActivity(this, msg);
     }
   }

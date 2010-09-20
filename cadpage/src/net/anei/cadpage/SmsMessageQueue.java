@@ -9,7 +9,9 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
+import android.app.Activity;
 import android.content.Context;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
@@ -25,10 +27,8 @@ public class SmsMessageQueue implements Serializable {
   private Context context;
   private Adapter adapter = null;
   
-  private static SmsMessageQueue msgQueue = null;
-  
   @SuppressWarnings("unchecked")
-  public SmsMessageQueue(Context context) {
+  private SmsMessageQueue(Context context) {
     this.context = context;
     ObjectInputStream is = null;
     try {
@@ -61,13 +61,9 @@ public class SmsMessageQueue implements Serializable {
     }
   }
   
-  private void notifyDataChange() {
+  public void notifyDataChange() {
     if (adapter != null) adapter.notifyDataSetChanged();
     save();
-  }
-  
-  public static void dataChange() {
-    if (msgQueue != null) msgQueue.notifyDataChange();
   }
   
   /**
@@ -141,9 +137,8 @@ public class SmsMessageQueue implements Serializable {
   /**
    * @return ListAdapter that can be bound to ListView to display call history
    */
-  public ListAdapter listAdapter(Context context) {
-    adapter = new Adapter(context);
-    return adapter;
+  public ListAdapter listAdapter(Activity context) {
+    return new Adapter(context);
   }
   
   /**
@@ -163,7 +158,32 @@ public class SmsMessageQueue implements Serializable {
      */
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-      return new HistoryMsgTextView(context, queue.get(position));
+      View view = convertView;
+      if (view == null) {
+        LayoutInflater li = LayoutInflater.from(context);
+        view = li.inflate(R.layout.msg_list_item, parent, false);
+      }
+      ((HistoryMsgTextView)view).setMessage(queue.get(position));
+      return view;
     }
+  }
+  
+  private static SmsMessageQueue msgQueue = null;
+  
+  /**
+   * Set up singleton message queue object
+   * @param context context used to create object
+   */
+  public static void setupInstance(Context context) {
+    if (msgQueue == null) {
+      msgQueue = new SmsMessageQueue(context);
+    }
+  }
+  
+  /**
+   * @return singleton message queue object
+   */
+  public static SmsMessageQueue getInstance() {
+    return msgQueue;
   }
 }
