@@ -94,7 +94,7 @@ public class SmsMessageQueue implements Serializable {
       int keepCnt = Math.max(0, availCnt - deleteCnt);
       
       // Make another pass through the list deleting anything over the keep limit
-      for (Iterator<SmsMmsMessage> itr = queue.iterator(); ; itr.hasNext()) {
+      for (Iterator<SmsMmsMessage> itr = queue.iterator(); itr.hasNext(); ) {
         SmsMmsMessage m = itr.next();
         if (m.isRead() && !m.isLocked()) {
           if (keepCnt <= 0) itr.remove();
@@ -138,7 +138,8 @@ public class SmsMessageQueue implements Serializable {
    * @return ListAdapter that can be bound to ListView to display call history
    */
   public ListAdapter listAdapter(Activity context) {
-    return new Adapter(context);
+    adapter = new Adapter(context);
+    return adapter;
   }
   
   /**
