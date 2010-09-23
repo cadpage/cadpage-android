@@ -49,6 +49,11 @@ public class ManageNotification {
    * The main notify method
    */
   public static void show(Context context, SmsMmsMessage message) {
+    show(context, message, true);
+  }
+  
+  
+  public static void show(Context context, SmsMmsMessage message, boolean reminder) {
 
     // Fetch info from the message object
     String call = message.getCall();
@@ -94,6 +99,9 @@ public class ManageNotification {
     // Set the messages that show when the status bar is pulled down
     n.notification.setLatestEventInfo(context, contentTitle, contentText, notifIntent);
     n.notify(context, NOTIFICATION_ALERT);
+
+    // Schedule a reminder notification
+    if (reminder) ReminderReceiver.scheduleReminder(context, message);
   }
 
   /*
@@ -236,6 +244,10 @@ public class ManageNotification {
 
   // Clear a single notification
   public static void clear(Context context) {
+
+    // Clear any pending reminders
+    ReminderReceiver.cancelReminder(context);
+
     NotificationManager myNM =
       (NotificationManager) context.getSystemService(Context.NOTIFICATION_SERVICE);
     myNM.cancel(NOTIFICATION_ALERT);

@@ -619,9 +619,6 @@ private boolean externalStorageAvailable() {
     ManageWakeLock.acquireFull(getApplicationContext());
     ManageWakeLock.releasePartial();
 
-    // Schedule a reminder notification
-    ReminderReceiver.scheduleReminder(getApplicationContext(), message);
-
     // Run the notification
     ManageNotification.show(getApplicationContext(), message);
   }
@@ -674,7 +671,6 @@ private boolean externalStorageAvailable() {
     // User interacted so remove all locks and cancel reminders
     ClearAllReceiver.removeCancel(getApplicationContext());
     ClearAllReceiver.clearAll(false);
-    ReminderReceiver.cancelReminder(getApplicationContext());
 
     switch (id) {
       case DIALOG_QUICKREPLY:
@@ -787,7 +783,6 @@ private boolean externalStorageAvailable() {
       // User interacted so remove all locks and cancel reminders
       ClearAllReceiver.removeCancel(getApplicationContext());
       ClearAllReceiver.clearAll(false);
-      ReminderReceiver.cancelReminder(getApplicationContext());
 
       // We'll use update notification to stop the sound playing
       // This doesn't work anymore.  Will have to be reimplemented somehow

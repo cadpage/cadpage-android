@@ -40,7 +40,7 @@ public class ReminderReceiver extends BroadcastReceiver {
     
       SmsMmsMessage message = new SmsMmsMessage(context, intent);
       int repeatCount = intent.getIntExtra(EXTRAS_COUNT, 0);
-      ManageNotification.show(context, message);
+      ManageNotification.show(context, message, false);
       
       if (repeatCount > 0) repeatCount--;
 

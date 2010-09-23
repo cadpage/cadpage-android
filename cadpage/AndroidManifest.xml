@@ -6,7 +6,7 @@
     android:targetSdkVersion="7" android:minSdkVersion="7"/>
     
   <application android:label="@string/app_name" android:icon="@drawable/cadpage_icon" 
-               android:name="net.anei.cadpage.CadPageApplication" android:debuggable="false">
+               android:name="net.anei.cadpage.CadPageApplication" android:debuggable="true">
     <uses-library android:name="com.google.android.maps" />  
     
     
