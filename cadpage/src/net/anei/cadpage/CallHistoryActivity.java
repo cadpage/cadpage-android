@@ -82,8 +82,8 @@ public class CallHistoryActivity extends ListActivity {
       return;
     }
     
-    // If there is one and only one unread message in the queue, launch a 
-    // message popup to display it
+    // If popup is enabled, and there is one and only one unread message in the
+    // queue, launch a message popup to display it
     SmsMmsMessage msg = msgQueue.getDisplayMsg();
     if (msg != null) {
       
@@ -97,26 +97,24 @@ public class CallHistoryActivity extends ListActivity {
 
   private boolean isPopup() {
 
-    // Whether or not the popup should only show when keyguard is on
-    boolean onlyShowOnKeyguard = ManagePreferences.onlyShowOnKeyguard();
+    // If popup isn't enabled, this is as afar as we go
+    if (! ManagePreferences.popupEnabled()) return false;
+
+    // Should popup should only show when keyguard is on
+    if (ManagePreferences.onlyShowOnKeyguard()) {
+      ManageKeyguard.initialize(this);
+      if (! ManageKeyguard.inKeyguardRestrictedInputMode()) return false;
+    }
 
     // Fetch call state, if the user is in a call or the phone is ringing we don't want to show the popup
-    TelephonyManager mTM = (TelephonyManager) getSystemService(Context.TELEPHONY_SERVICE);
-    boolean callStateIdle = mTM.getCallState() == TelephonyManager.CALL_STATE_IDLE;
-
-    // Initialize keyguard manager
-    ManageKeyguard.initialize(this);
-
-    /*
-     * If popup is enabled for this user -AND- the user is not in a call -AND-
-     * -AND- phone is not docked -AND-
-     * (screen is locked -OR- (setting is OFF to only show on keyguard -AND- user is not in messaging app:
-     * then show the popup activity, otherwise check if notifications are on and just use the standard
-     * notification))
-     * DB -removed Docked check. We want alert on docked
-     */
-    return (callStateIdle && 
-             (ManageKeyguard.inKeyguardRestrictedInputMode() || !onlyShowOnKeyguard));
+    if (ManagePreferences.noShowInCall()) {
+      TelephonyManager mTM = (TelephonyManager) getSystemService(Context.TELEPHONY_SERVICE);
+      boolean callStateIdle = mTM.getCallState() == TelephonyManager.CALL_STATE_IDLE;
+      if (!callStateIdle) return false;
+    }
+    
+    // Otherwise OK
+    return true;
   }
 
 

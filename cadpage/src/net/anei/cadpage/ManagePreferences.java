@@ -102,8 +102,16 @@ public class ManagePreferences {
     return prefs.getString(R.string.pref_notif_sound_key);
   }
   
+  public static boolean popupEnabled() {
+    return prefs.getBoolean(R.string.pref_popup_enabled_key);
+  }
+  
   public static boolean onlyShowOnKeyguard() {
     return prefs.getBoolean(R.string.pref_onlyShowOnKeyguard_key);
+  }
+  
+  public static boolean noShowInCall() {
+    return prefs.getBoolean(R.string.pref_noShowInCall_key);
   }
 
 

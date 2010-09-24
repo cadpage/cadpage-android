@@ -58,6 +58,7 @@
    <string name="pref_sendemail_buttoncancel">No way</string>
    
 <!-- Additional Preferences -->
+   <string name="pref_popup_control">Alarm Popup Control</string>
    <string name="pref_additional_title">Additional Settings</string>
    <string name="pref_additional_summary">Additional CADPage configuration</string>
 
@@ -72,13 +73,17 @@
    <string name="pref_privacy_summaryon">Contents of the message will only be shown after unlock</string>
    <string name="pref_privacy_summaryoff">Contents of the message will be shown immediately</string>
 
-   <string name="pref_markread_title">Mark Read</string>
-   <string name="pref_markread_summaryon">Messages will be marked as read when clicking \"Close\"</string>
-   <string name="pref_markread_summaryoff">Messages will not be marked as read when clicking \"Close\"</string>
+   <string name="pref_popup_enabled_title">Show Popup</string>
+   <string name="pref_popup_enabled_summaryon">Alarm will display popup window</string>
+   <string name="pref_popup_enabled_summaryoff">Alarm will not display popup window</string>
 
-   <string name="pref_onlyShowOnKeyguard_title">Restrict Popup</string>
+   <string name="pref_onlyShowOnKeyguard_title">Restrict Keyguard Popup</string>
    <string name="pref_onlyShowOnKeyguard_summaryon">Popup window will only show when keyguard is engaged</string>
    <string name="pref_onlyShowOnKeyguard_summaryoff">Popup will always show</string>
+
+   <string name="pref_noShowInCall_title">Restrict In Call Popup</string>
+   <string name="pref_noShowInCall_summaryon">Popup window will not show when call in progress</string>
+   <string name="pref_noShowInCall_summaryoff">Popup window will show when call in progress</string>
 
    <string name="pref_useGoogleMapApp_title">Use Google Maps Application</string>
    <string name="pref_useGoogleMapApp_summaryon">Call Map button will launch Google Maps application</string>
@@ -121,10 +126,6 @@
    <string name="pref_notif_enabled_summaryon">Notifications are enabled</string>
    <string name="pref_notif_enabled_summaryoff">Notifications are disabled</string>
    <string name="pref_notif_enabled_warning">To avoid conflicts and multiple alerts, please disable the system SMS notifications and any other apps that provide a notification when a SMS is received.\n\nTo turn off the system notification, go to the messaging app, hit menu -> settings and un-check notifications.</string>
-
-   <string name="pref_popup_enabled_title">Show a Popup</string>
-   <string name="pref_popup_enabled_summaryon">Message will open in a popup</string>
-   <string name="pref_popup_enabled_summaryoff">Message will only show in notification area (if enabled)</string>
 
    <string name="pref_notif_test_title">Test Notification</string>
    <string name="pref_notif_test_summary">Test out your notification</string>

@@ -83,71 +83,71 @@ public class SmsPopupUtils {
   /**
    * Marks a specific message as read
    */
-  public static void setMessageRead(Context context, long messageId, int messageType) {
-
-    SharedPreferences myPrefs = PreferenceManager.getDefaultSharedPreferences(context);
-    boolean markRead = myPrefs.getBoolean(
-        context.getString(R.string.pref_markread_key),
-        Boolean.valueOf(context.getString(R.string.pref_markread_default)));
-    if (!markRead) return;
-
-    if (messageId > 0) {
-      ContentValues values = new ContentValues(1);
-      values.put("read", READ_THREAD);
-
-      Uri messageUri;
-
-      if (SmsMmsMessage.MESSAGE_TYPE_MMS == messageType) {
-        // Used to use URI of MMS_CONTENT_URI and it wasn't working, not sure why
-        // this is diff to SMS
-        messageUri = Uri.withAppendedPath(MMS_INBOX_CONTENT_URI, String.valueOf(messageId));
-      } else if (SmsMmsMessage.MESSAGE_TYPE_SMS == messageType) {
-        messageUri = Uri.withAppendedPath(SMS_CONTENT_URI, String.valueOf(messageId));
-      } else {
-        return;
-      }
-
-      // Log.v("messageUri for marking message read: " + messageUri.toString());
-
-      ContentResolver cr = context.getContentResolver();
-      int result;
-      try {
-        result = cr.update(messageUri, values, null, null);
-      } catch (Exception e) {
-        result = 0;
-      }
-      if (Log.DEBUG) Log.v(String.format("message id = %s marked as read, result = %s", messageId, result ));
-    }
-  }
+//  public static void setMessageRead(Context context, long messageId, int messageType) {
+//
+//    SharedPreferences myPrefs = PreferenceManager.getDefaultSharedPreferences(context);
+//    boolean markRead = myPrefs.getBoolean(
+//        context.getString(R.string.pref_markread_key),
+//        Boolean.valueOf(context.getString(R.string.pref_markread_default)));
+//    if (!markRead) return;
+//
+//    if (messageId > 0) {
+//      ContentValues values = new ContentValues(1);
+//      values.put("read", READ_THREAD);
+//
+//      Uri messageUri;
+//
+//      if (SmsMmsMessage.MESSAGE_TYPE_MMS == messageType) {
+//        // Used to use URI of MMS_CONTENT_URI and it wasn't working, not sure why
+//        // this is diff to SMS
+//        messageUri = Uri.withAppendedPath(MMS_INBOX_CONTENT_URI, String.valueOf(messageId));
+//      } else if (SmsMmsMessage.MESSAGE_TYPE_SMS == messageType) {
+//        messageUri = Uri.withAppendedPath(SMS_CONTENT_URI, String.valueOf(messageId));
+//      } else {
+//        return;
+//      }
+//
+//      // Log.v("messageUri for marking message read: " + messageUri.toString());
+//
+//      ContentResolver cr = context.getContentResolver();
+//      int result;
+//      try {
+//        result = cr.update(messageUri, values, null, null);
+//      } catch (Exception e) {
+//        result = 0;
+//      }
+//      if (Log.DEBUG) Log.v(String.format("message id = %s marked as read, result = %s", messageId, result ));
+//    }
+//  }
 
   /**
    * Marks a specific message thread as read - all messages in the thread will
    * be marked read
    */
-  public static void setThreadRead(Context context, long threadId) {
-    SharedPreferences myPrefs = PreferenceManager.getDefaultSharedPreferences(context);
-    boolean markRead = myPrefs.getBoolean(
-        context.getString(R.string.pref_markread_key),
-        Boolean.valueOf(context.getString(R.string.pref_markread_default)));
-
-    if (!markRead) return;
-
-    if (threadId > 0) {
-      ContentValues values = new ContentValues(1);
-      values.put("read", READ_THREAD);
-
-      ContentResolver cr = context.getContentResolver();
-      int result = 0;
-      try {
-        result = cr.update(
-            ContentUris.withAppendedId(CONVERSATION_CONTENT_URI, threadId),
-            values, null, null);
-      } catch (Exception e) {
-        if (Log.DEBUG) Log.v("error marking thread read");
-      }
-      if (Log.DEBUG) Log.v("thread id " + threadId + " marked as read, result = " + result);
-    }
-  }
+//  public static void setThreadRead(Context context, long threadId) {
+//    SharedPreferences myPrefs = PreferenceManager.getDefaultSharedPreferences(context);
+//    boolean markRead = myPrefs.getBoolean(
+//        context.getString(R.string.pref_markread_key),
+//        Boolean.valueOf(context.getString(R.string.pref_markread_default)));
+//
+//    if (!markRead) return;
+//
+//    if (threadId > 0) {
+//      ContentValues values = new ContentValues(1);
+//      values.put("read", READ_THREAD);
+//
+//      ContentResolver cr = context.getContentResolver();
+//      int result = 0;
+//      try {
+//        result = cr.update(
+//            ContentUris.withAppendedId(CONVERSATION_CONTENT_URI, threadId),
+//            values, null, null);
+//      } catch (Exception e) {
+//        if (Log.DEBUG) Log.v("error marking thread read");
+//      }
+//      if (Log.DEBUG) Log.v("thread id " + threadId + " marked as read, result = " + result);
+//    }
+//  }
 //
 //  /**
 //   * Tries to locate the message id (from the system database), given the message
@@ -197,32 +197,32 @@ public class SmsPopupUtils {
    * Tries to delete a message from the system database, given the thread id,
    * the timestamp of the message and the message type (sms/mms).
    */
-  public static void deleteMessage(Context context, long messageId, long threadId, int messageType) {
-
-    if (messageId > 0) {
-      if (Log.DEBUG) Log.v("id of message to delete is " + messageId);
-
-      // We need to mark this message read first to ensure the entire thread is marked as read
-      setMessageRead(context, messageId, messageType);
-
-      // Construct delete message uri
-      Uri deleteUri;
-
-      if (SmsMmsMessage.MESSAGE_TYPE_MMS == messageType) {
-        deleteUri = Uri.withAppendedPath(MMS_CONTENT_URI, String.valueOf(messageId));
-      } else if (SmsMmsMessage.MESSAGE_TYPE_SMS == messageType) {
-        deleteUri = Uri.withAppendedPath(SMS_CONTENT_URI, String.valueOf(messageId));
-      } else {
-        return;
-      }
-      int count = context.getContentResolver().delete(deleteUri, null, null);
-      if (Log.DEBUG) Log.v("Messages deleted: " + count);
-      if (count == 1) {
-        //TODO: should only set the thread read if there are no more unread messages
-        //setThreadRead(context, threadId);
-      }
-    }
-  }
+//  public static void deleteMessage(Context context, long messageId, long threadId, int messageType) {
+//
+//    if (messageId > 0) {
+//      if (Log.DEBUG) Log.v("id of message to delete is " + messageId);
+//
+//      // We need to mark this message read first to ensure the entire thread is marked as read
+//      setMessageRead(context, messageId, messageType);
+//
+//      // Construct delete message uri
+//      Uri deleteUri;
+//
+//      if (SmsMmsMessage.MESSAGE_TYPE_MMS == messageType) {
+//        deleteUri = Uri.withAppendedPath(MMS_CONTENT_URI, String.valueOf(messageId));
+//      } else if (SmsMmsMessage.MESSAGE_TYPE_SMS == messageType) {
+//        deleteUri = Uri.withAppendedPath(SMS_CONTENT_URI, String.valueOf(messageId));
+//      } else {
+//        return;
+//      }
+//      int count = context.getContentResolver().delete(deleteUri, null, null);
+//      if (Log.DEBUG) Log.v("Messages deleted: " + count);
+//      if (count == 1) {
+//        //TODO: should only set the thread read if there are no more unread messages
+//        //setThreadRead(context, threadId);
+//      }
+//    }
+//  }
 
   /**
    * 
@@ -245,7 +245,6 @@ public class SmsPopupUtils {
           context.getString(R.string.pref_timeout_key),
           context.getString(R.string.pref_privacy_key),
           context.getString(R.string.pref_dimscreen_key),
-          context.getString(R.string.pref_markread_key),
           context.getString(R.string.pref_onlyShowOnKeyguard_key),
           context.getString(R.string.pref_show_buttons_key),
           context.getString(R.string.pref_button1_key),

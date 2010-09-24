@@ -9,8 +9,8 @@
    <string name="pref_timeout_key">timeout</string>
    <string name="pref_dimscreen_key">dimscreen</string>
    <string name="pref_privacy_key">privacy</string>
-   <string name="pref_markread_key">markread</string>
    <string name="pref_onlyShowOnKeyguard_key">showonkeyguard</string>
+   <string name="pref_noShowInCall_key">noshowincall</string>
    <string name="pref_require_unlock_key">requireunlock</string>
    <string name="pref_inbox_app_key">inboxapp</string>
    <string name="pref_show_buttons_key">showbuttons</string>
@@ -35,7 +35,6 @@
    <string name="pref_notif_repeat_screen_on_key">notif_repeat_screen_on</string>
    <string name="contacts_key">contacts_key</string>
    <string name="c_pref_notif_enabled_key">c_notification</string>
-   <string name="c_pref_popup_enabled_key">c_popup</string>
    <string name="c_pref_notif_test_key">c_notiftest</string>
    <string name="c_pref_notif_sound_key">c_notifsound</string>
    <string name="c_pref_vibrate_key">c_vibrate</string>
