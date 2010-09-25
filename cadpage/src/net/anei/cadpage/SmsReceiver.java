@@ -43,6 +43,7 @@ public class SmsReceiver extends BroadcastReceiver {
     // Otherwise convert Intent into an SMS/MSS message
     else {
       SmsMessage[] messages = SmsPopupUtils.getMessagesFromIntent(intent);
+      if (messages == null) return;
       message = new SmsMmsMessage(context, messages,System.currentTimeMillis());
     }
 
