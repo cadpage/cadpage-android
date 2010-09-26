@@ -20,13 +20,20 @@ public class SmsMsgParser {
   private String strUnit= "" ;
   private String strState="";
   private String strMap = "";
-private String strTemp;
+  private String strCallId = "";
   
   /**
    * Return original message text
    */
   public String getBody() {
     return strBody;
+  }
+  
+  /**
+   * @return call ID
+   */
+  public String getCallId() {
+    return strCallId;
   }
 
   /**
@@ -171,22 +178,22 @@ private String strTemp;
         strState = "VA";
         String[] AData = body.split(",");
         
-        strCall = AData[0].substring(AData[0].indexOf("Call:",0)+5);
+        int pt = AData[0].indexOf("Call:");
+        if (pt >= 0) strCall = AData[0].substring(pt+5);
+        else strCall = AData[0];
+        
         // Need to check for single address or Intersection address.
-        if (AData[1].contains("/")  ){
-          // This is an intersection and not a street
-           String[] strTemp = AData[1].split("/");
-          strAddress = strTemp[0].substring(0,(strTemp[0].indexOf("-")));
-          strAddress = strAddress + " and " +  strTemp[1].substring(0,(strTemp[1].indexOf("-")));
-          strCity = strTemp[0].substring(strTemp[0].indexOf("-")+1);
-        }else {
-          strAddress = AData[1].substring(0,(AData[1].indexOf("-")));
-          strCity = AData[1].substring(AData[1].indexOf("-")+1,AData[1].indexOf("Apt")-1);
+        for (String addr : AData[1].split("/")) {
+          String[] tmp = addr.split("-");
+          if (strAddress.length() > 0) strAddress += " and ";
+          strAddress += tmp[0];
+          if (tmp.length > 0) strCity = tmp[1];
         }
         // Intersection address has a / and two  - cities
         if (strAddress.length() < 4) {
           strAddress = "Error Street not Found.";
         }
+        
         if (strCity.compareTo("CH") == 0  ){ strCity="Chantilly";}
         else if (strCity.compareTo("LB")==0){ strCity="Leesburg";}
         else if (strCity.compareTo("AL")==0){ strCity="Aldie";}
@@ -346,6 +353,7 @@ private String strTemp;
       strApt =props.getProperty("APT", "");
       strCross=props.getProperty("X", "");
       strMap=props.getProperty("MAP", "");
+      strCallId = props.getProperty("CFS", ""); 
       strBox="";
       strADC="";
       strUnit="";
@@ -371,107 +379,131 @@ private String strTemp;
       return props;
   }
 
-  
+
   private void decodeOconeePage(String body) {
-	    /* Sample Oconee Page
-	     * 
-	     * CSO E911:Return Phone: 7060000000 S28 SICK PERSON 4047 COLHAM FERRY RD 8583046 
-OCSO E911:Return Phone: 7060000000 S28 SICK PERSON 385 JEFFERSON AVE 2029728 
-OCSO E911:1090F FIRE ALARM 1021 WOOD HOLLOW LN 5482767 CRYSTAL HILLS DR
-OCSO E911:1073 SMOKE 1421 BEVERLY DR 5495253 NONA DRIVE
-OCSO E911:1070 FIRE 1280 ASHLAND DR 7250300 HWY 53
-	     */
-	    
-	      Log.v("DecodeOconeePage: Message Body of:" + body);
-	      String tmpAddress="";
-	      strState="GA";
-	     // String[] AData = body.split(":");
-	      String strBody = body.substring(10);
-	   // Somtimes the calls have phone numbers. move past that.
-    	  if (strBody.contains("Return Phone:") && strBody.length()>25) {
-    		  strBody = strBody.substring(24);
-    	  }
-	      try { 
-	    	  String[] AData = strBody.split(" ");
-	    	  
-	    	  int indx = AData.length ;
-	    	  
-	    	  //strCall = AData[0] + ;
+    /* Sample Oconee Page
+     * 
+     * OCSO E911:Return Phone: 7060000000 S28 SICK PERSON 4047 COLHAM FERRY RD 8583046 
+     * OCSO E911:Return Phone: 7060000000 S28 SICK PERSON 385 JEFFERSON AVE 2029728 
+     * OCSO E911:1090F FIRE ALARM 1021 WOOD HOLLOW LN 5482767 CRYSTAL HILLS DR
+     * OCSO E911:1073 SMOKE 1421 BEVERLY DR 5495253 NONA DRIVE
+     * OCSO E911:1070 FIRE 1280 ASHLAND DR 7250300 HWY 53
+     */
 
+    Log.v("DecodeOconeePage: Message Body of:" + body);
+    strCity="Oconee";
+    strState="GA";
 
-	      strAddress= tmpAddress;
-	      if (strAddress.length() < 4) {
-	        strAddress = "Error Street not Found.";
-	      }
+    // Skip everything up to first colon
+    int ipt = body.indexOf(':');
+    if (ipt >= 0) body = body.substring(ipt+1).trim();
 
-	      //strApt = AData[1].substring(AData[1].indexOf("Apt:"));
-	      strApt= "";
-	      strADC = AData[1].substring(0,AData[1].length()-4);//AData[5].substring(4,AData[5].indexOf("["));
-	      strUnit = AData[4].substring(0,(AData[4].length()-5)); //AData[3];
-	      strCross =  AData[5];
-	      strBox = "";//AData[4].substring(4);  
-	      } catch (IndexOutOfBoundsException ex) {
-	        Log.v("Exception in decodeOconee-" + ex.getStackTrace());
-	      }
-  	}
+    // Skip phone number
+    boolean skip = false;
+    int mode = 0;
+    int callCnt = 0;
+    for (String token : body.split("\\s+")) {
+      switch (mode) {
+      
+      // Processing call
+      // Ignore phone number, terminated by numeric token which is assumed to
+      // be start of address
+      case 0:
+        if (skip) {
+          skip = false;
+          continue;
+        }
+        if (token.equalsIgnoreCase("Phone:")) {
+          strCall = "";
+          callCnt = 0;
+          skip = true;
+          continue;
+        }
+        
+        if (callCnt >= 3 || callCnt > 0 && token.matches("\\d{2,}")) {
+        	mode++;
+        	// no break, fall through to address processing
+        } else {
+          callCnt++;
+          if (strCall.length() > 0) strCall += " ";
+          strCall += token;
+          break;
+        }
+        
+      // Processing address
+      // terminated by 7 digit call ID (We think)
+      case 1:
+        if (token.matches("\\d{7}")) {
+          strCallId = token;
+          mode++;
+          break;
+        }
+        if (strAddress.length() > 0) strAddress += " ";
+        strAddress += token;
+        break;
+        
+      // Cross street processing
+      // This actually looks more like an approach street, but assigning it
+      // to cross will at least get it to display
+      case 2:
+        if (strCross.length() > 0) strCross += " ";
+        strCross += token;
+        break;
+      }
+    }
+  }
+  
   private void decodeHerkimerPage(String body) {
 	    /* Sample Herkimer Page
-(EMS   >EMS CALL) 185 GUIDEBOARD RD XS: DAIRY HILL RD NORWAY AAAAAAA AAAAAAA 3150000000 Map: Grids:, Cad: 2010-0000049305
-(MVA   >MOTOR VEHICLE ACCIDENT) 5781 STHY 28 XS: TOWN LINE NEWPORT AAAAAA AAAAA 3150000000 Map: Grids:, Cad: 2010-0000049651
-(EMS   >EMS CALL) 808 OLD STATE RD NEWPORT AAAAAAAA 8880000000 Map: Grids:, Cad: 2010-0000049432
-
+       * (EMS   >EMS CALL) 185 GUIDEBOARD RD XS: DAIRY HILL RD NORWAY AAAAAAA AAAAAAA 3150000000 Map: Grids:, Cad: 2010-0000049305
+       * (MVA   >MOTOR VEHICLE ACCIDENT) 5781 STHY 28 XS: TOWN LINE NEWPORT AAAAAA AAAAA 3150000000 Map: Grids:, Cad: 2010-0000049651
+       * (EMS   >EMS CALL) 808 OLD STATE RD NEWPORT AAAAAAAA 8880000000 Map: Grids:, Cad: 2010-0000049432
 	     */
 	    
 	      Log.v("DecodeHerkimerPage: Message Body of:" + body);
-	      String tmpAddress="";
 	      strState="NY";
-	     // String[] AData = body.split(":");
 	      
-	      try { 
-	    	  String[] AData = strBody.split(":");
-	    	  strCall = AData[0].substring(1,AData[0].indexOf(")"));
-	    	  strCall = strCall.replaceAll("\\s\\s", "");
-	    	  strCall.trim();
-	      // Need to Make sure there is a XS in the Call:
-	    	  tmpAddress = AData[0].substring(AData[0].indexOf(")")+1);
-	    	  
- 
-	    	  if (body.contains("XS:")){
-	    		  String aAddress[] = AData[1].split(" ");
-		    	  int ndx = aAddress.length;
-	    		  if ((aAddress[ndx-1].startsWith("888") || aAddress[ndx-1].startsWith("800")) && ndx>5 ){
-	    			  strCity = aAddress[ndx-4];
-	    		  }else {
-	    			  strCity = aAddress[ndx-5];
-	    		  }
-	    		  tmpAddress = tmpAddress.substring(0,tmpAddress.length()-2); 
-	    		  strCross =  AData[1].substring(0,AData[1].indexOf(strCity));
-	    	  } else {
-	    		  String aAddress[] = tmpAddress.split(" ");
-		    	  int ndx = aAddress.length;
-	    		  if ((aAddress[ndx-1].startsWith("888") || aAddress[ndx-1].startsWith("800")) && ndx>4 ){
-	    			  strCity = aAddress[ndx-3];
-	    		  }else {
-	    			  strCity = aAddress[ndx-4];
-	    		  }
-	    		  tmpAddress = tmpAddress.substring(0,tmpAddress.indexOf(strCity));
-	    		  strCross="";
-	    	  }
-	    	  
-	    	  tmpAddress.trim();
-	      // Intersection address has a / and two  - cities
-	      strAddress= tmpAddress;
-	      if (strAddress.length() < 4) {
-	        strAddress = "Error Street not Found.";
+	      body = body.trim();
+	      if (body.charAt(0) == '(') {
+	        int pt = body.indexOf(')');
+	        if (pt >= 1) {
+	          strCall = body.substring(1, pt);
+	          strCall = strCall.replaceAll("\\s*>", ">");
+	          body = body.substring(pt+1).trim();
+	        }
 	      }
-
-	      //strApt = AData[1].substring(AData[1].indexOf("Apt:"));
-	      strApt= "";
-	      strADC = AData[2].substring(0,AData[2].length()-5);//AData[5].substring(4,AData[5].indexOf("["));
-	      strUnit = AData[AData.length-1]; //AData[3];
-	      strBox = "";//AData[4].substring(4);  
-	      } catch (IndexOutOfBoundsException ex) {
-	        Log.v("Exception in decodeHerkimer-" + ex.getStackTrace());
+	      
+	      // Strip CAD number off end of message
+	      int pt = body.indexOf(" Cad:");
+	      if (pt >= 0) {
+	        strCallId = body.substring(pt+5).trim();
+	        body = body.substring(0, pt).trim();
+	      }
+	      
+	      // Address formatting is very strange.
+	      // Parse by whitespace separated tokens terminated by an entry that
+	      // contains a string of 3 or more 'A' characters.  The last entry 
+	      // before the terminator is the city.
+	      // And any tokens after an "XS:" token are added to the cross rather
+	      // than the address
+	      boolean cross = false;
+	      for (String token : body.split("\\s+")) {
+	        if (token.matches("AAA+")) break;
+	        if (strCity.length() > 0) {
+	          if (!cross) {
+	            if (strAddress.length() > 0) strAddress += " ";
+	            strAddress += strCity;
+	          } else {
+	            if (strCross.length() > 0) strCross += " ";
+	            strCross += strCity;
+	          }
+	        }
+          if (token.equals("XS:")) {
+            cross = true;
+            strCity = "";
+          } else {
+            strCity = token;
+          }
 	      }
 	  }
 }
