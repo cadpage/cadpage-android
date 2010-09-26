@@ -490,8 +490,10 @@ public class SmsPopupActivity extends Activity {
         sb.append(delim);
         sb.append(parser.getState());
       }
-      sb.append("\nX:");
-      sb.append(parser.getCross());
+      if (parser.getCross().length() > 0) {
+        sb.append("\nX:");
+        sb.append(parser.getCross());
+      }
       if (parser.getMap().length() > 0) {
         sb.append("\nMAP:");
         sb.append(parser.getMap());
