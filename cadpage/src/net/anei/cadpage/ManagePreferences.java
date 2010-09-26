@@ -17,11 +17,8 @@ public class ManagePreferences {
     prefs = new ManagePreferences(context);
   }
   
-  /**
-   * @return value of UseGoogleMappApp preference
-   */
-  public static boolean useGoogleMapApp() {
-    return prefs.getBoolean(R.string.pref_useGoogleMapApp_key);
+  public static boolean initialized() {
+    return prefs.getBoolean(R.string.pref_initialized_key);
   }
   
   public static boolean privacyMode() {

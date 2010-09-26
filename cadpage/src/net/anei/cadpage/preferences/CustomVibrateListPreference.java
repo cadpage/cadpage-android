@@ -17,7 +17,6 @@ import android.widget.Toast;
 public class CustomVibrateListPreference extends ListPreference {
   private Context context;
   private ManagePreferences mPrefs = null;
-  private String contactId = null;
   private String vibrate_pattern;
   private String vibrate_pattern_custom;
 
@@ -31,10 +30,6 @@ public class CustomVibrateListPreference extends ListPreference {
     context = c;
   }
 
-  public void setContactId(String _contactId) {
-    contactId = _contactId;
-  }
-
   @Override
   protected void onDialogClosed(boolean positiveResult) {
     super.onDialogClosed(positiveResult);
@@ -46,27 +41,16 @@ public class CustomVibrateListPreference extends ListPreference {
 
   private void getPrefs() {
     if (mPrefs == null) {
-      mPrefs = new ManagePreferences(context, contactId);
+      mPrefs = new ManagePreferences(context, null);
     }
 
-    if (contactId == null) { // Default notifications
-      vibrate_pattern = mPrefs.getString(
-          R.string.pref_vibrate_pattern_key,
-          R.string.pref_vibrate_pattern_default);
-      vibrate_pattern_custom = mPrefs.getString(
-          R.string.pref_vibrate_pattern_custom_key,
-          R.string.pref_vibrate_pattern_default);
+    vibrate_pattern = mPrefs.getString(
+        R.string.pref_vibrate_pattern_key,
+        R.string.pref_vibrate_pattern_default);
+    vibrate_pattern_custom = mPrefs.getString(
+        R.string.pref_vibrate_pattern_custom_key,
+        R.string.pref_vibrate_pattern_default);
 
-    } else { // Contact specific notifications
-      vibrate_pattern = mPrefs.getString(
-          R.string.c_pref_vibrate_pattern_key,
-          R.string.pref_vibrate_pattern_default,
-          SmsPopupDbAdapter.KEY_VIBRATE_PATTERN_NUM);
-      vibrate_pattern_custom = mPrefs.getString(
-          R.string.c_pref_vibrate_pattern_custom_key,
-          R.string.pref_vibrate_pattern_default,
-          SmsPopupDbAdapter.KEY_VIBRATE_PATTERN_CUSTOM_NUM);
-    }
 
     if (vibrate_pattern_custom == null) {
       vibrate_pattern_custom = mPrefs.getString(
@@ -99,22 +83,15 @@ public class CustomVibrateListPreference extends ListPreference {
         String new_pattern = et.getText().toString();
 
         if (mPrefs == null) {
-          mPrefs = new ManagePreferences(context, contactId);
+          mPrefs = new ManagePreferences(context, null);
         }
 
         if (ManageNotification.parseVibratePattern(et.getText().toString()) != null) {
 
-          if (contactId == null) { // Default notifications
-            mPrefs.putString(
-                R.string.pref_vibrate_pattern_custom_key,
-                new_pattern,
-                SmsPopupDbAdapter.KEY_VIBRATE_PATTERN_CUSTOM);
-          } else { // Contact specific notifications
-            mPrefs.putString(
-                R.string.c_pref_vibrate_pattern_custom_key,
-                new_pattern,
-                SmsPopupDbAdapter.KEY_VIBRATE_PATTERN_CUSTOM);
-          }
+          mPrefs.putString(
+              R.string.pref_vibrate_pattern_custom_key,
+              new_pattern,
+              SmsPopupDbAdapter.KEY_VIBRATE_PATTERN_CUSTOM);
 
           Toast.makeText(context, context.getString(R.string.pref_vibrate_pattern_ok),
               Toast.LENGTH_LONG).show();

@@ -40,6 +40,12 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
     
     addPreferencesFromResource(R.xml.preferences);
 
+    // Set preferences initialized flag
+    SharedPreferences.Editor editor = 
+        PreferenceManager.getDefaultSharedPreferences(this).edit();
+    editor.putBoolean(getString(R.string.pref_initialized_key), true);
+    editor.commit();
+
     //Try and find app version number
     String version;
     PackageManager pm = this.getPackageManager();

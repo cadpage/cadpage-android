@@ -21,6 +21,15 @@ public class CallHistoryActivity extends ListActivity {
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     
+    // If preferences have never been initialized, bring up the preference
+    // screen to initialize them now.  This is necessary because the new
+    // preference retrieval logic throws an exception if any requested preference
+    // hasn't been initialized.
+    if (! ManagePreferences.initialized()) {
+      Intent intent = new Intent(this, SmsPopupConfigActivity.class);
+      startActivity(intent);
+    }
+    
     // Reload existing message queue
     SmsMessageQueue.setupInstance(this);
     
