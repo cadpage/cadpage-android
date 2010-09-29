@@ -165,13 +165,27 @@ public class SmsMsgParser {
         case 6:
         	decodeOconeePage(strMessage);
         	break;
+        case 7:
+        	decodeLivingstonPage(strMessage);
+        	break;
+        case 8:
+        	decodeDixHillsPage(strMessage);
+        	break;
+        case 9:
+        	decodeBabylonPage(strMessage); 
+        	break;
         }
 
   }
 
-  private void decodeLCFRPage(String body) {
-      // Take call from SMS Message and divide data up.
-      // Sample Call "Call:
+
+private void decodeLCFRPage(String body) {
+	  /*
+	   * Call:12D02E-SEIZURES CONT,42914 OVERLY SQ-CH Apt:,X-St:NORRINGTON SQ KIR,A6092,Box:1908 ,ADC:5520 G06 [90]
+	   * Call:17D03-FALL PATIENT N,42848 RECTORS CHASE WAY-AB Apt:,X-St:HOYSVILLE MANOR D,A6092 904 ACO9,Box:2618 ,ADC:5400 G03 [89]
+	   * Call:17D03-FALL PATIENT N,42848 RECTORS CHASE WAY-AB Apt:,X-St:HOYSVILLE MANOR D,A6092 904 ACO9,Box:2618 ,ADC:5400 G03 [89]
+	   * Call:20D01H-HEAT EXPOSURE,STONE SPRINGS BLVD-AL/MINERAL SPRINGS CIR-AL Apt:,X-St:GREENSTONE DR & M,A6092 9942 ACO9,Box:0910 ,ADC:5520 B02 [77]
+	   */
 
 
         Log.v("decodeLCFRPage: Message Body of:" + body);
@@ -506,4 +520,66 @@ public class SmsMsgParser {
           }
 	      }
 	  }
+  private void decodeLivingstonPage(String body) { // Issue 17 
+	  /*
+	   * CAD:FYI: ;ALARMF;11555 PLEASANT VIEW DR;INDIAN TRL;SMOKE ALARMS GOING OFF IN THE
+HOUSE FOR THE LAST 30 MIN ON AND OFF/ NO SMOKE OR SMOKE SHOWING [09/24/10
+04:17:07 ECOOK]
+CAD:FYI: ;UNKACC;E M36/PETTYS RD;VEHICLE HIT A POLE/ MALE RUNNING E/B FROM SCENE
+[09/23/10 21:45:06 ECOOK]
+CAD:FYI: ;CHSTPN;8422 PAWNEE TRL;SHOSHONI PASS;[Medical Priority Info] RESPONSE:
+P1 STA 1 4 5 6 7 8 FC FT RESPONDER SCRIPT: 72 year old, Female, Conscious,
+Breathing. Chest Pain (Non-Traumatic). Abnormal breathing. Cal
+CAD:FYI: ;UNCON;8732 RIVER VALLEY RD;[Medical Priority Info] RESPONSE: P1 STA 1
+2 3 4 5 6 7 8 FC FT RESPONDER SCRIPT: 63 year old, Female, Conscious, Breathing.
+Unconscious / Fainting (Near). Not alert. Caller Statement: UNCON.
+	   */
+	  Log.v("DecodeLivingstonPage: Message Body of:" + body);
+      strState="MI";
+      String tmpAddress="";
+      body = body.trim();
+      try { 
+    	  String[] AData = strBody.split(";");
+      strCall = AData[1];
+      // Need to check for single address or Intersection address.
+      if (AData[2].contains("/")  ){
+        // This is an intersection and not a street
+         String[] strTemp = AData[2].split("/");
+         strTemp[0] = strTemp[0].substring(2);
+        //strAddress = strTemp[0].substring(0,(strTemp[0].indexOf("-")));
+         tmpAddress = strTemp[0];
+
+        tmpAddress = tmpAddress + " and " +  strTemp[1].substring(0,strTemp[1].indexOf(";"));
+      }else {
+        tmpAddress = AData[0].substring(1,AData[0].indexOf(";"));
+      }
+      strCity = "Livingston";
+      // Intersection address has a / and two  - cities
+      strAddress= tmpAddress;
+      if (strAddress.length() < 4) {
+        strAddress = "Error Street not Found.";
+      }
+
+      //strApt = AData[1].substring(AData[1].indexOf("Apt:"));
+      strApt= "";
+      strADC = AData[1].substring(0,AData[1].length()-4);//AData[5].substring(4,AData[5].indexOf("["));
+      if (AData[3].length() <20) { //this is a cross street (guessing)
+      strCross =  AData[3];
+      } else {
+    	  strCross = "";
+    	  strUnit = AData[3]; //AData[3];
+      }
+      strBox = "";//AData[4].substring(4);  
+      } catch (IndexOutOfBoundsException ex) {
+        Log.v("Exception in decodeLivingston-" + ex.getMessage());
+      }
+  }
+ private void decodeBabylonPage(String strMessage) {
+		
+	}
+
+ private void decodeDixHillsPage(String strMessage) {
+		
+	}
+
 }
