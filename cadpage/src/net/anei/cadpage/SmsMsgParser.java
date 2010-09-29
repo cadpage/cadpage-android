@@ -193,6 +193,7 @@ private void decodeLCFRPage(String body) {
         String[] AData = body.split(",");
         
         int pt = AData[0].indexOf("Call:");
+        int ndx = AData.length;
         if (pt >= 0) strCall = AData[0].substring(pt+5);
         else strCall = AData[0];
         
@@ -232,10 +233,10 @@ private void decodeLCFRPage(String body) {
         try {
         strApt = AData[1].substring(AData[1].indexOf("Apt:"));
         strCross = AData[2].substring(5);
-        strUnit = AData[3];
-        strBox = AData[4].substring(4);
-        strADC = AData[5].substring(4,AData[5].indexOf("["));
-        } catch (Exception ex) {
+        if (ndx >=3)  {strUnit = AData[3];}
+        if (ndx >= 4) {strBox = AData[4].substring(4);}
+        if (ndx >= 5) {strADC = AData[5].substring(4,AData[5].indexOf("["));}
+        } catch (IndexOutOfBoundsException ex) {
           if (Log.DEBUG) Log.v("Exception in DecodePage-" + ex.toString());
         }
   }
@@ -574,12 +575,31 @@ Unconscious / Fainting (Near). Not alert. Caller Statement: UNCON.
         Log.v("Exception in decodeLivingston-" + ex.getMessage());
       }
   }
- private void decodeBabylonPage(String strMessage) {
-		
+ private void decodeBabylonPage(String body) {
+
 	}
 
- private void decodeDixHillsPage(String strMessage) {
-		
+ private void decodeDixHillsPage(String body) {
+		/*
+* 2010-001784 23:36 *** 16- Rescue *** 17 BRYCEWOOD DR SPIEGEL, LORI A Dix Hills HQ ARISTA DR 31-A-1 UNCONSCIOUS / FAINTING (NEAR) CEWOOD DR DIXHIL TYPE:
+2010-001779 10:34 *** 24/16- Mutual Aid *** 51 BALDWIN PATH  Dix Hills HQ
+2010-001777 15:54 *** 16- Rescue ***  DEER PARK AV DEER PARK AV & MARYLAND ST Dix Hills HQ MARYLAND ST
+2010-001778 15:54 *** 23- Misc Fire ***  DEER PARK AV DEER PARK AV & MARYLAND ST Dix Hills HQ MARYLAND ST
+2010-001774 11:56 *** 13- Structure Fire *** 29 WHITE BIRCH DR FULGONI, MARISSA Dix Hills HQ BALSAM DR 52-B-1G ALARMS TE BIRCH DR DIXHIL TYPE: ALARMS 
+2010-001766 05:54 *** 13- Structure Fire *** 29 WILDWOOD DR TRUEN, CRAIG Dix Hills HQ WHITNEY CT 60-C-1O GAS LEAKS / GAS ODOR (NATURAL / L.P.G.) DWOOD
+		 */
+	  Log.v("DecodeDixHillsPage: Message Body of:" + body);
+	  strState="NY";
+	  String tmpAddress="";
+	  body = body.trim();
+      if (body.contains("***")) {
+	        int pt = body.indexOf("***");
+	        if (pt >= 1) {
+	          int pta = body.indexOf("***",pt+3);	
+	          strCall = body.substring(pt+3, pta);
+	          body = body.substring(pta+1).trim();
+	        }
+	      }
 	}
 
 }
