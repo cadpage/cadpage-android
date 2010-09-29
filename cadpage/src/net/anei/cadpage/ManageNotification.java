@@ -48,12 +48,12 @@ public class ManageNotification {
   /*
    * The main notify method
    */
-  public static void show(Context context, SmsMmsMessage message) {
-    show(context, message, true);
+  public static boolean show(Context context, SmsMmsMessage message) {
+    return show(context, message, true);
   }
   
   
-  public static void show(Context context, SmsMmsMessage message, boolean reminder) {
+  public static boolean show(Context context, SmsMmsMessage message, boolean reminder) {
 
     // Fetch info from the message object
     String call = message.getCall();
@@ -61,7 +61,7 @@ public class ManageNotification {
 
     PopupNotification n = buildNotification(context);
 
-    if (n == null) return;
+    if (n == null) return false;
 
     // The notification title, sub-text and text that will scroll
     String contentTitle;
@@ -102,6 +102,7 @@ public class ManageNotification {
 
     // Schedule a reminder notification
     if (reminder) ReminderReceiver.scheduleReminder(context, message);
+    return true;
   }
 
   /*

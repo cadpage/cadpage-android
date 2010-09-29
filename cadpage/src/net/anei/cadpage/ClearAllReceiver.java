@@ -34,7 +34,7 @@ public class ClearAllReceiver extends BroadcastReceiver {
     if (reenableKeyguard) {
       ManageKeyguard.reenableKeyguard();
     }
-    ManageWakeLock.releaseAll();
+    ManageWakeLock.releaseFull();
   }
 
   /*

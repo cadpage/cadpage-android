@@ -612,20 +612,6 @@ private boolean externalStorageAvailable() {
   }
 
   /*
-   * Wake up the activity, this will acquire the wakelock (turn on the screen)
-   * and sound the notification if needed. This is called once all preparation
-   * is done for this activity (end of onCreate()).
-   */
-  private void wakeApp() {
-    // Time to acquire a full WakeLock (turn on screen)
-    ManageWakeLock.acquireFull(getApplicationContext());
-    ManageWakeLock.releasePartial();
-
-    // Run the notification
-    ManageNotification.show(getApplicationContext(), message);
-  }
-
-  /*
    * Create Dialog
    */
   @Override

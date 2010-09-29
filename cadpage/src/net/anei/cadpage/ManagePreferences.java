@@ -110,6 +110,18 @@ public class ManagePreferences {
   public static boolean noShowInCall() {
     return prefs.getBoolean(R.string.pref_noShowInCall_key);
   }
+  
+  public static boolean screenOn() {
+    return prefs.getBoolean(R.string.pref_screen_on_key);
+  }
+  
+  public static boolean dimScreen() {
+    return prefs.getBoolean(R.string.pref_dimscreen_key);
+  }
+  
+  public static int timeout() {
+    return Integer.parseInt(prefs.getString(R.string.pref_timeout_key));
+  }
 
 
   
