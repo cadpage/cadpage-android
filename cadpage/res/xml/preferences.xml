@@ -38,15 +38,7 @@
               android:showSilent="true"
               android:dependency="@string/pref_notif_enabled_key"
               android:defaultValue="content://settings/system/notification_sound" />
-            <net.anei.cadpage.preferences.TestNotificationDialogPreference
-              android:key="@string/pref_notif_test_key"
-              android:dialogIcon="@drawable/android:ic_dialog_alert"
-              android:title="@string/pref_notif_test_title"
-              android:dialogTitle="@string/pref_notif_test_title"
-              android:dialogMessage="@string/pref_notif_test_message"
-              android:summary="@string/pref_notif_test_summary"
-              android:dependency="@string/pref_notif_enabled_key"
-              android:negativeButtonText="@null" />
+            
           
           </PreferenceCategory>
           <PreferenceCategory
