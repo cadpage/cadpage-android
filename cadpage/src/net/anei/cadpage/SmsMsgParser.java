@@ -131,7 +131,7 @@ public class SmsMsgParser {
     // Next look up location code and use it to see if this message contains the trigger phrase
     String sLocation = ManagePreferences.location();
     int iLocation = Integer.parseInt(sLocation);
-    String[] phrases = new String[]{"Call:", "TYPE:", "Map:", "(Corvallis Alert)","Cad:","OCSO E911:"};
+    String[] phrases = new String[]{"Call:", "TYPE:", "Map:", "(Corvallis Alert)","Cad:","OCSO E911:","CAD:","***",};
     if (iLocation > phrases.length) return false;
     return (msgText.indexOf(phrases[iLocation-1]) >= 0);
   }
@@ -553,9 +553,9 @@ Unconscious / Fainting (Near). Not alert. Caller Statement: UNCON.
         //strAddress = strTemp[0].substring(0,(strTemp[0].indexOf("-")));
          tmpAddress = strTemp[0];
 
-        tmpAddress = tmpAddress + " and " +  strTemp[1].substring(0,strTemp[1].indexOf(";"));
+        tmpAddress = tmpAddress + " and " +  strTemp[1].toString();
       }else {
-        tmpAddress = AData[0].substring(1,AData[0].indexOf(";"));
+        tmpAddress = AData[2].toString();
       }
       strCity = "Livingston";
       // Intersection address has a / and two  - cities
@@ -566,9 +566,10 @@ Unconscious / Fainting (Near). Not alert. Caller Statement: UNCON.
 
       //strApt = AData[1].substring(AData[1].indexOf("Apt:"));
       strApt= "";
-      strADC = AData[1].substring(0,AData[1].length()-4);//AData[5].substring(4,AData[5].indexOf("["));
+      strADC = "" ;// AData[1].substring(0,AData[1].length()-4);//AData[5].substring(4,AData[5].indexOf("["));
       if (AData[3].length() <20) { //this is a cross street (guessing)
       strCross =  AData[3];
+      strUnit = AData[4];
       } else {
     	  strCross = "";
     	  strUnit = AData[3]; //AData[3];

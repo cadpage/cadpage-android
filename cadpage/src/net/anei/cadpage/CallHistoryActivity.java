@@ -155,11 +155,15 @@ public class CallHistoryActivity extends ListActivity {
   @Override
   public boolean onOptionsItemSelected(MenuItem item) {
     // Handle item selection
+	  SmsMessageQueue msgQueue = SmsMessageQueue.getInstance();
     switch (item.getItemId()) {
     case R.id.settings_item:
       Intent intent = new Intent(this, SmsPopupConfigActivity.class);
       startActivity(intent);
       return true;
+    case R.id.clearall_item:
+    	msgQueue.clearAll();
+    	return true;
     case R.id.exit_item:
     	this.finish();
     	return true;
