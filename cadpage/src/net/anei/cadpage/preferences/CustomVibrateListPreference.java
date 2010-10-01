@@ -41,7 +41,7 @@ public class CustomVibrateListPreference extends ListPreference {
 
   private void getPrefs() {
     if (mPrefs == null) {
-      mPrefs = new ManagePreferences(context, null);
+     // mPrefs = new ManagePreferences(context, null);
     }
 
     vibrate_pattern = mPrefs.getString(
@@ -83,7 +83,7 @@ public class CustomVibrateListPreference extends ListPreference {
         String new_pattern = et.getText().toString();
 
         if (mPrefs == null) {
-          mPrefs = new ManagePreferences(context, null);
+          //mPrefs = new ManagePreferences(context, null);
         }
 
         if (ManageNotification.parseVibratePattern(et.getText().toString()) != null) {

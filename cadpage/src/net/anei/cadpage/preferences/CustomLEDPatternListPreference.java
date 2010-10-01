@@ -50,7 +50,7 @@ public class CustomLEDPatternListPreference extends ListPreference {
 
   private void getPrefs() {
     if (mPrefs == null) {
-      mPrefs = new ManagePreferences(context, contactId);
+     // mPrefs = new ManagePreferences(context, contactId);
     }
 
     if (contactId == null) { // Default notifications
@@ -113,7 +113,7 @@ public class CustomLEDPatternListPreference extends ListPreference {
         String stringPattern = onEditText.getText() + "," + offEditText.getText();
 
         if (mPrefs == null) {
-          mPrefs = new ManagePreferences(context, contactId);
+          //mPrefs = new ManagePreferences(context, contactId);
         }
 
         if (ManageNotification.parseLEDPattern(stringPattern) != null) {

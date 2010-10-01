@@ -60,7 +60,7 @@ public class CustomLEDColorListPreference extends ListPreference implements OnSe
 
   private void getPrefs() {
     if (mPrefs == null) {
-      mPrefs = new ManagePreferences(context, contactId);
+     // mPrefs = new ManagePreferences(context, contactId);
     }
 
     if (contactId == null) { // Default notifications
@@ -145,7 +145,7 @@ public class CustomLEDColorListPreference extends ListPreference implements OnSe
         int color = Color.rgb(red, green, blue);
 
         if (mPrefs == null) {
-          mPrefs = new ManagePreferences(context, contactId);
+         // mPrefs = new ManagePreferences(context, contactId);
         }
 
         if (contactId == null) { // Default notifications
