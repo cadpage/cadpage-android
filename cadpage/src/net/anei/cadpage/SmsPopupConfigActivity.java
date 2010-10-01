@@ -311,7 +311,6 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
   }
   
   private void installNotification() {
-		// TODO Auto-generated method stub
 		File fAlert = new File("/sdcard/media/audio/notifications/generalquarter.wav");
 		if (fAlert.exists()){
 			if (Log.DEBUG) {Log.v("Notification File Already exists. Not Installing");}

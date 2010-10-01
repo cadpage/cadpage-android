@@ -191,24 +191,27 @@ private void decodeLCFRPage(String body) {
         Log.v("decodeLCFRPage: Message Body of:" + body);
         strState = "VA";
         String[] AData = body.split(",");
-        
-        int pt = AData[0].indexOf("Call:");
         int ndx = AData.length;
-        if (pt >= 0) strCall = AData[0].substring(pt+5);
-        else strCall = AData[0];
+        if (ndx >= 0) {
+        	int pt = AData[0].indexOf("Call:");
+        		if (pt >= 0) strCall = AData[0].substring(pt+5);
+        }
+        else strCall = body;
         
         // Need to check for single address or Intersection address.
-        for (String addr : AData[1].split("/")) {
-          String[] tmp = addr.split("-");
-          if (strAddress.length() > 0) strAddress += " and ";
-          strAddress += tmp[0];
-          if (tmp.length > 0) strCity = tmp[1];
+        if (ndx >=1){
+	        for (String addr : AData[1].split("/")) {
+	          String[] tmp = addr.split("-");
+	          if (strAddress.length() > 0) strAddress += " and ";
+	          strAddress += tmp[0];
+	          if (tmp.length > 0) strCity = tmp[1];
+	        }
+	        // Intersection address has a / and two  - cities
+	        if (strAddress.length() < 4) {
+	          strAddress = "Error Street not Found.";
+	        }
+	        
         }
-        // Intersection address has a / and two  - cities
-        if (strAddress.length() < 4) {
-          strAddress = "Error Street not Found.";
-        }
-        
         if (strCity.compareTo("CH") == 0  ){ strCity="Chantilly";}
         else if (strCity.compareTo("LB")==0){ strCity="Leesburg";}
         else if (strCity.compareTo("AL")==0){ strCity="Aldie";}
@@ -231,11 +234,11 @@ private void decodeLCFRPage(String body) {
         else if (strCity.length() < 1){ strCity="Error";}
       
         try {
-        strApt = AData[1].substring(AData[1].indexOf("Apt:"));
-        strCross = AData[2].substring(5);
-        if (ndx >=3)  {strUnit = AData[3];}
-        if (ndx >= 4) {strBox = AData[4].substring(4);}
-        if (ndx >= 5) {strADC = AData[5].substring(4,AData[5].indexOf("["));}
+        if (ndx >=1) {strApt = AData[1].substring(AData[1].indexOf("Apt:"));}
+        if (ndx >=2) {strCross = AData[2].substring(5);}
+        if (ndx >=3) {strUnit = AData[3];}
+        if (ndx >=4) {strBox = AData[4].substring(4);}
+        if (ndx >=5) {strADC = AData[5].substring(4,AData[5].indexOf("["));}
         } catch (IndexOutOfBoundsException ex) {
           if (Log.DEBUG) Log.v("Exception in DecodePage-" + ex.toString());
         }

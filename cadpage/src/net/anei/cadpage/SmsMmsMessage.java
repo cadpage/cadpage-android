@@ -254,27 +254,7 @@ public class SmsMmsMessage implements Serializable {
     }
     return call;
   }
-  
-  
-
-//  /**
-//   * Sned a reply to this message
-//   * 
-//   * @param quickreply the message to send
-//   * @return true of the message was sent, false otherwise
-//   */
-//  public boolean replyToMessage(String quickReply) {
-//
-//    // Mark the message we're replying to as read
-//    setMessageRead();
-//
-//    // Send new message
-//    SmsMessageSender sender =
-//      new SmsMessageSender(context, new String[] {fromAddress}, quickReply, 0);
-//
-//    return sender.sendMessage();
-//  }
-  
+    
   /**
    * Read serialized SmsMmsMessage object from Object input stream
    */
