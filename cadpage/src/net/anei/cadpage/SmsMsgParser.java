@@ -543,7 +543,7 @@ Unconscious / Fainting (Near). Not alert. Caller Statement: UNCON.
       String tmpAddress="";
       body = body.trim();
       try { 
-    	  String[] AData = strBody.split(";");
+    	  String[] AData = body.split(";");
       strCall = AData[1];
       // Need to check for single address or Intersection address.
       if (AData[2].contains("/")  ){
@@ -580,7 +580,40 @@ Unconscious / Fainting (Near). Not alert. Caller Statement: UNCON.
       }
   }
  private void decodeBabylonPage(String body) {
+	 Log.v("DecodeBabylonPage: Message Body of:" + body);
+	  strState="NY";
+	  String tmpAddress="";
+	  body = body.trim();
+      if (body.contains("***")) {
+	        int pt = body.indexOf("***");
+	        if (pt >= 0) {
+	          int pta = body.indexOf("***",pt+3);	
+	          strCall = body.substring(pt+3, pta);
+	          body = body.substring(pta+1).trim();
+	          strAddress = body.substring(pta+1,body.length()-2);
+	          
+	        }
+	      }
+      try {
+    	  String[] AData = body.split(":");
+          // Need to check for single address or Intersection address.
+          if (AData[1].contains("/")  ){
+            // This is an intersection and not a street
+             String[] strTemp = AData[1].split("/");
+             //strTemp[0] = strTemp[0].substring(2);
+            //strAddress = strTemp[0].substring(0,(strTemp[0].indexOf("-")));
+             tmpAddress = strTemp[0];
 
+            tmpAddress = tmpAddress + " and " +  strTemp[1].toString();
+          }else {
+            tmpAddress = AData[1].toString();
+          }
+          strCross = tmpAddress;
+          strUnit = AData[3];
+      }catch (IndexOutOfBoundsException ex) {
+        Log.v("Exception in decodeDixHillsPage-" + ex.getMessage());
+      }
+      
 	}
 
  private void decodeDixHillsPage(String body) {
@@ -598,12 +631,24 @@ Unconscious / Fainting (Near). Not alert. Caller Statement: UNCON.
 	  body = body.trim();
       if (body.contains("***")) {
 	        int pt = body.indexOf("***");
-	        if (pt >= 1) {
+	        if (pt >= 0) {
 	          int pta = body.indexOf("***",pt+3);	
 	          strCall = body.substring(pt+3, pta);
 	          body = body.substring(pta+1).trim();
+	          int ptb = body.indexOf("Dix Hills");
+	          tmpAddress = body.substring(pta+1,ptb);
+	          if (tmpAddress.contains(",")){
+	        	  int ptc = tmpAddress.indexOf(",");
+	        	  int ptd = tmpAddress.lastIndexOf(" ",ptc);
+	        	  strAddress = tmpAddress.substring(0,ptd);
+	        	  
+	          }
 	        }
 	      }
+      strCity="Dix Hills";
+      strUnit = "";
+      strCross= "";
+      
 	}
 
 }
