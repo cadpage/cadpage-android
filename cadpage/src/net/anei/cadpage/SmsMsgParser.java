@@ -131,7 +131,7 @@ public class SmsMsgParser {
     // Next look up location code and use it to see if this message contains the trigger phrase
     String sLocation = ManagePreferences.location();
     int iLocation = Integer.parseInt(sLocation);
-    String[] phrases = new String[]{"Call:", "TYPE:", "Map:", "(Corvallis Alert)","Cad:","OCSO E911:","CAD:","***",};
+    String[] phrases = new String[]{"Call:", "TYPE:", "Map:", "(Corvallis Alert)","Cad:","OCSO E911:","CAD:","***","***"};
     if (iLocation > phrases.length) return false;
     return (msgText.indexOf(phrases[iLocation-1]) >= 0);
   }
@@ -590,13 +590,13 @@ Unconscious / Fainting (Near). Not alert. Caller Statement: UNCON.
 	          int pta = body.indexOf("***",pt+3);	
 	          strCall = body.substring(pt+3, pta);
 	          body = body.substring(pta+1).trim();
-	          strAddress = body.substring(pta+1,body.length()-2);
 	          
 	        }
 	      }
       try {
     	  String[] AData = body.split(":");
           // Need to check for single address or Intersection address.
+    	  strAddress = AData[0].substring(2,AData[0].length()-2);
           if (AData[1].contains("/")  ){
             // This is an intersection and not a street
              String[] strTemp = AData[1].split("/");
@@ -604,7 +604,7 @@ Unconscious / Fainting (Near). Not alert. Caller Statement: UNCON.
             //strAddress = strTemp[0].substring(0,(strTemp[0].indexOf("-")));
              tmpAddress = strTemp[0];
 
-            tmpAddress = tmpAddress + " and " +  strTemp[1].toString();
+            tmpAddress = tmpAddress + " and " +  strTemp[1].substring(0,strTemp[1].length()-3);
           }else {
             tmpAddress = AData[1].toString();
           }
