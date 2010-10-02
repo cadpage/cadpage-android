@@ -636,7 +636,7 @@ Unconscious / Fainting (Near). Not alert. Caller Statement: UNCON.
 	          strCall = body.substring(pt+3, pta);
 	          body = body.substring(pta+1).trim();
 	          int ptb = body.indexOf("Dix Hills");
-	          tmpAddress = body.substring(pta+1,ptb);
+	          tmpAddress = body.substring(2,ptb);
 	          if (tmpAddress.contains(",")){
 	        	  int ptc = tmpAddress.indexOf(",");
 	        	  int ptd = tmpAddress.lastIndexOf(" ",ptc);
