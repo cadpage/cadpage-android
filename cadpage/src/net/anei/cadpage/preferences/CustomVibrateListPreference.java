@@ -40,9 +40,9 @@ public class CustomVibrateListPreference extends ListPreference {
   }
 
   private void getPrefs() {
-    if (mPrefs == null) {
-     // mPrefs = new ManagePreferences(context, null);
-    }
+	  if (mPrefs == null) {
+		  mPrefs = new ManagePreferences(context);
+        }
 
     vibrate_pattern = mPrefs.getString(
         R.string.pref_vibrate_pattern_key,
@@ -82,8 +82,8 @@ public class CustomVibrateListPreference extends ListPreference {
       public void onClick(DialogInterface dialog, int whichButton) {
         String new_pattern = et.getText().toString();
 
-        if (mPrefs == null) {
-          //mPrefs = new ManagePreferences(context, null);
+  	  if (mPrefs == null) {
+		  mPrefs = new ManagePreferences(context);
         }
 
         if (ManageNotification.parseVibratePattern(et.getText().toString()) != null) {

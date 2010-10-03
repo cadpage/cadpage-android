@@ -17,7 +17,6 @@ import android.widget.Toast;
 public class CustomLEDPatternListPreference extends ListPreference {
   private Context context;
   private ManagePreferences mPrefs = null;
-  private String contactId = null;
   private String flashLedPattern;
   private String flashLedPatternCustom;
   private int[] led_pattern;
@@ -32,9 +31,6 @@ public class CustomLEDPatternListPreference extends ListPreference {
     context = c;
   }
 
-  public void setContactId(String _contactId) {
-    contactId = _contactId;
-  }
 
   @Override
   protected void onDialogClosed(boolean positiveResult) {
@@ -49,27 +45,16 @@ public class CustomLEDPatternListPreference extends ListPreference {
   }
 
   private void getPrefs() {
-    if (mPrefs == null) {
-     // mPrefs = new ManagePreferences(context, contactId);
-    }
+	  if (mPrefs == null) {
+		  mPrefs = new ManagePreferences(context);
+        }
 
-    if (contactId == null) { // Default notifications
       flashLedPattern = mPrefs.getString(
           R.string.pref_flashled_pattern_key,
           R.string.pref_flashled_pattern_default);
       flashLedPatternCustom = mPrefs.getString(
           R.string.pref_flashled_pattern_custom_key,
           R.string.pref_flashled_pattern_default);
-    } else { // Contact specific notifications
-      flashLedPattern = mPrefs.getString(
-          R.string.c_pref_flashled_pattern_key,
-          R.string.pref_flashled_pattern_default,
-          SmsPopupDbAdapter.KEY_LED_PATTERN_NUM);
-      flashLedPatternCustom = mPrefs.getString(
-          R.string.c_pref_flashled_pattern_custom_key,
-          R.string.pref_flashled_pattern_default,
-          SmsPopupDbAdapter.KEY_LED_PATTERN_CUSTOM_NUM);
-    }
 
     led_pattern = null;
 
@@ -112,25 +97,19 @@ public class CustomLEDPatternListPreference extends ListPreference {
       public void onClick(DialogInterface dialog, int whichButton) {
         String stringPattern = onEditText.getText() + "," + offEditText.getText();
 
-        if (mPrefs == null) {
-          //mPrefs = new ManagePreferences(context, contactId);
+  	  if (mPrefs == null) {
+		  mPrefs = new ManagePreferences(context);
         }
 
         if (ManageNotification.parseLEDPattern(stringPattern) != null) {
 
-          if (contactId == null) { // Default notifications
+          
             mPrefs.putString(
                 R.string.pref_flashled_pattern_custom_key,
                 stringPattern,
                 SmsPopupDbAdapter.KEY_LED_PATTERN_CUSTOM);
 
-          } else { // Contact specific notifications
-            mPrefs.putString(
-                R.string.c_pref_flashled_pattern_custom_key,
-                stringPattern,
-                SmsPopupDbAdapter.KEY_LED_PATTERN_CUSTOM);
-          }
-
+  
           Toast.makeText(context, context.getString(R.string.pref_flashled_pattern_ok),
               Toast.LENGTH_LONG).show();
 

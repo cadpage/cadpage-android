@@ -134,7 +134,7 @@ public class ManagePreferences {
    * private constructor
    * @param _context context
    */
-  private ManagePreferences(Context _context) {
+  public ManagePreferences(Context _context) {
     context = _context;
     mPrefs = PreferenceManager.getDefaultSharedPreferences(context);
   }

@@ -6,8 +6,10 @@ import net.anei.cadpage.SmsPopupDbAdapter;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
+import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.preference.ListPreference;
+import android.preference.PreferenceManager;
 import android.util.AttributeSet;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -20,7 +22,6 @@ import android.widget.SeekBar.OnSeekBarChangeListener;
 public class CustomLEDColorListPreference extends ListPreference implements OnSeekBarChangeListener {
   private Context context;
   private ManagePreferences mPrefs = null;
-  private String contactId = null;
   private String led_color;
   private String led_color_custom;
   private SeekBar redSeekBar;
@@ -42,10 +43,6 @@ public class CustomLEDColorListPreference extends ListPreference implements OnSe
     context = c;
   }
 
-  public void setContactId(String _contactId) {
-    contactId = _contactId;
-  }
-
   @Override
   protected void onDialogClosed(boolean positiveResult) {
     super.onDialogClosed(positiveResult);
@@ -59,11 +56,10 @@ public class CustomLEDColorListPreference extends ListPreference implements OnSe
   }
 
   private void getPrefs() {
-    if (mPrefs == null) {
-     // mPrefs = new ManagePreferences(context, contactId);
-    }
-
-    if (contactId == null) { // Default notifications
+	  if (mPrefs == null) {
+		  mPrefs = new ManagePreferences(context);
+        }
+	  
       led_color = mPrefs.getString(
           R.string.pref_flashled_color_key,
           R.string.pref_flashled_color_default);
@@ -71,18 +67,6 @@ public class CustomLEDColorListPreference extends ListPreference implements OnSe
       led_color_custom = mPrefs.getString(
           R.string.pref_flashled_color_custom_key,
           R.string.pref_flashled_color_default);
-
-    } else { // Contact specific notifications
-      led_color = mPrefs.getString(
-          R.string.c_pref_flashled_color_key,
-          R.string.pref_flashled_color_default,
-          SmsPopupDbAdapter.KEY_LED_COLOR_NUM);
-
-      led_color_custom = mPrefs.getString(
-          R.string.c_pref_flashled_color_custom_key,
-          R.string.pref_flashled_color_default,
-          SmsPopupDbAdapter.KEY_LED_COLOR_CUSTOM_NUM);
-    }
 
     if (mPrefs != null) {
       mPrefs.close();
@@ -145,20 +129,14 @@ public class CustomLEDColorListPreference extends ListPreference implements OnSe
         int color = Color.rgb(red, green, blue);
 
         if (mPrefs == null) {
-         // mPrefs = new ManagePreferences(context, contactId);
+          mPrefs = new ManagePreferences(context);
         }
 
-        if (contactId == null) { // Default notifications
+
           mPrefs.putString(
               R.string.pref_flashled_color_custom_key,
               "#" + Integer.toHexString(color),
               SmsPopupDbAdapter.KEY_LED_COLOR_CUSTOM);
-        } else { // Contact specific notifications
-          mPrefs.putString(
-              R.string.c_pref_flashled_color_custom_key,
-              "#" + Integer.toHexString(color),
-              SmsPopupDbAdapter.KEY_LED_COLOR_CUSTOM);
-        }
 
         if (mPrefs != null) {
           mPrefs.close();
