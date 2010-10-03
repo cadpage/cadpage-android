@@ -58,6 +58,8 @@ import android.widget.Toast;
 
 
 public class SmsPopupActivity extends Activity {
+  
+  private static final String EXTRAS_MSG_ID = "SmsPopupActivity.MSG_ID";
   private SmsMmsMessage message;
 
   private boolean exitingKeyguardSecurely = false;
@@ -254,7 +256,6 @@ public class SmsPopupActivity extends Activity {
         case ButtonListPreference.BUTTON_DISABLED: // Disabled
           break;
         case ButtonListPreference.BUTTON_CLOSE: // Close
-//          closeMessage();
           finish();
           break;
         case ButtonListPreference.BUTTON_DELETE: // Delete
@@ -262,7 +263,7 @@ public class SmsPopupActivity extends Activity {
           finish();
           break;
         case ButtonListPreference.BUTTON_DELETE_NO_CONFIRM: // Delete no confirmation
-//          deleteMessage();
+          deleteMessage();
           break;
         case ButtonListPreference.BUTTON_REPLY: // Reply
 //          replyToMessage(true);
@@ -386,47 +387,20 @@ public class SmsPopupActivity extends Activity {
     outState.putAll(getIntent().getExtras());
   }
 
-  /*
-   * Customized activity finish. Ensures the notification is in sync and cancels
-   * any scheduled reminders (as the user has interrupted the app.
-   */
-//  private void myFinish() {
-//    if (Log.DEBUG) Log.v("myFinish()");
-//
-//    if (inbox) {
-//      ManageNotification.clearAll(getApplicationContext());
-//    } else {
-//
-//      // Start a service that will update the notification in the status bar
-//      Intent i = new Intent(getApplicationContext(), SmsPopupUtilsService.class);
-//      i.setAction(SmsPopupUtilsService.ACTION_UPDATE_NOTIFICATION);
-//
-//      // Convert current message to bundle
-//      message.addToIntent(i);
-//
-//      // We need to know if the user is replying - if so, the entire thread id should
-//      // be ignored when working out the message tally in the notification bar.
-//      // We can't rely on the system database as it may take a little while for the
-//      // reply intent to fire and load up the messaging up (after which the messages
-//      // will be marked read in the database).
-//      i.putExtra(SmsMmsMessage.EXTRAS_REPLYING, replying);
-//
-//      // Start the service
-//      SmsPopupUtilsService.beginStartingService(SmsPopupActivity.this.getApplicationContext(), i);
-//    }
-//
-//    // Cancel any reminder notifications
-//    ReminderReceiver.cancelReminder(getApplicationContext());
-//
-//    // Finish up the activity
-//    finish();
-//  }
-
   // Populate views from intent
   private void populateViews(Intent intent) {
+    
+    // Retrieve message from queue
+    SmsMessageQueue msgQueue = SmsMessageQueue.getInstance();
+    int msgId = intent.getIntExtra(EXTRAS_MSG_ID, 0);
+    SmsMmsMessage msg = msgQueue.getMessage(msgId);
+    
+    // Flag message read
+    msg.setRead(true);
+    msgQueue.notifyDataChange();
 
-    // Regenerate the SmsMmsMessage from the extras bundle
-    populateViews(new SmsMmsMessage(getApplicationContext(), intent));
+    // Populate views from message
+    populateViews(msg);
   }
 
   /*
@@ -434,6 +408,7 @@ public class SmsPopupActivity extends Activity {
    * SmsMmsMessage
    */
   private void populateViews(SmsMmsMessage newMessage) {
+
 
     // Store message
     message = newMessage;
@@ -474,7 +449,7 @@ public class SmsPopupActivity extends Activity {
     }
     
     // Update TextView that contains the timestamp for the incoming message
-    String headerText = getString(R.string.new_text_at, message.getFormattedTimestamp().toString());
+    String headerText = getString(R.string.new_text_at, message.getFormattedTimestamp(this));
 
     // Set the from, message and header views
     fromTV.setText(parser.getCall());
@@ -629,8 +604,7 @@ private boolean externalStorageAvailable() {
         .setMessage(getString(R.string.pref_show_delete_button_dialog_text))
         .setPositiveButton(android.R.string.ok, new DialogInterface.OnClickListener() {
           public void onClick(DialogInterface dialog, int whichButton) {
-//           This will need to do something someday, but for now deleting msg is a NOOP            
-//            deleteMessage();
+            deleteMessage();
           }
         })
         .setNegativeButton(android.R.string.cancel, null)
@@ -869,43 +843,6 @@ private boolean haveNet(){
     return true;
 
 }
-	
-	
-//  private void closeMessage() {
-//    if (messageViewed) {
-//      Intent i = new Intent(getApplicationContext(), SmsPopupUtilsService.class);
-//      /*
-//       * Switched back to mark messageId as read for >v1.0.6 (marking thread as read is slow
-//       * for really large threads)
-//       */
-//      i.setAction(SmsPopupUtilsService.ACTION_MARK_MESSAGE_READ);
-//      //i.setAction(SmsPopupUtilsService.ACTION_MARK_THREAD_READ);
-//      message.addToIntent(i);
-//      SmsPopupUtilsService.beginStartingService(getApplicationContext(), i);
-//    }
-//
-//    // Finish up this activity
-//    myFinish();
-//  }
-
-  /**
-   * Reply to the current message, start the reply intent
-   */
-//  private void replyToMessage(final boolean replyToThread) {
-//    exitingKeyguardSecurely = true;
-//    ManageKeyguard.exitKeyguardSecurely(new LaunchOnKeyguardExit() {
-//      public void LaunchOnKeyguardExitSuccess() {
-//        Intent reply = message.getReplyIntent(replyToThread);
-//        SmsPopupActivity.this.getApplicationContext().startActivity(reply);
-//        replying = true;
-//        myFinish();
-//      }
-//    });
-//  }
-
-//  private void replyToMessage() {
-//    replyToMessage(true);
-//  }
 
   /**
    * View the private message (this basically just unlocks the keyguard and then
@@ -929,31 +866,12 @@ private boolean haveNet(){
   }
 
   /**
-   * Take the user to the messaging app inbox
-   */
-//  private void gotoInbox() {
-//    exitingKeyguardSecurely = true;
-//    ManageKeyguard.exitKeyguardSecurely(new LaunchOnKeyguardExit() {
-//      public void LaunchOnKeyguardExitSuccess() {
-//        Intent i = SmsPopupUtils.getSmsInboxIntent();
-//        SmsPopupActivity.this.getApplicationContext().startActivity(i);
-//        inbox = true;
-//        myFinish();
-//      }
-//    });
-//  }
-
-  /**
    * Delete the current message from the system database
    */
-//  private void deleteMessage() {
-//    Intent i =
-//      new Intent(SmsPopupActivity.this.getApplicationContext(), SmsPopupUtilsService.class);
-//    i.setAction(SmsPopupUtilsService.ACTION_DELETE_MESSAGE);
-//    message.addToIntent(i);
-//    SmsPopupUtilsService.beginStartingService(SmsPopupActivity.this.getApplicationContext(), i);
-//    myFinish();
-//  }
+  private void deleteMessage() {
+    SmsMessageQueue.getInstance().addNewMsg(message);
+    finish();
+  }
 
 
   @Override
@@ -1013,7 +931,7 @@ private boolean haveNet(){
   public static void launchActivity(Context context, SmsMmsMessage message) {
     Intent popup = new Intent(context, SmsPopupActivity.class);
     popup.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_EXCLUDE_FROM_RECENTS);
-    message.addToIntent(popup);
+    popup.putExtra(EXTRAS_MSG_ID, message.getMsgId());
     context.startActivity(popup);
   }
 

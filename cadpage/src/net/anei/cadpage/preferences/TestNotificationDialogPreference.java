@@ -38,7 +38,7 @@ public class TestNotificationDialogPreference extends DialogPreference {
   
 
     SmsMmsMessage message =
-      new SmsMmsMessage(context, testPhone, context.getString(R.string.pref_notif_test_title),
+      new SmsMmsMessage(testPhone, context.getString(R.string.pref_notif_test_title),
           0, SmsMmsMessage.MESSAGE_TYPE_SMS);
 
     // Show notification

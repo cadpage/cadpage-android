@@ -10,7 +10,6 @@ import java.io.*;
 public class TopExceptionHandler implements Thread.UncaughtExceptionHandler {
 
   private static Thread.UncaughtExceptionHandler defaultUEH;
-  private static TopExceptionHandler handler;
 
   private Context context = null;
 

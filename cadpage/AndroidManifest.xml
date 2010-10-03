@@ -56,9 +56,6 @@
     </receiver>
     <receiver android:name=".ClearAllReceiver" />
     <receiver android:name=".ReminderReceiver" />
-    <service android:name=".SmsPopupUtilsService" />
-    <service android:name=".SmsReceiverService" />
-    <service android:name=".ReminderReceiverService" />
   </application>
   <uses-permission
     android:name="android.permission.READ_SMS" />

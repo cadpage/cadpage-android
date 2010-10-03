@@ -7,12 +7,11 @@ import android.content.Context;
 import android.content.Intent;
 
 public class ReminderReceiver extends BroadcastReceiver {
-  
-  public static final String ACTION_OTHER = "net.everythingandroid.smspopup.ACTION_OTHER";
 
   private static final String ACTION_REMIND = "net.everythingandroid.smspopup.ACTION_REMIND";
   
-  private static String EXTRAS_COUNT = "EXTRAS_REMINDER_COUNT";
+  private static String EXTRAS_MSG_ID = "net.anei.cadpage.EXTRAS_MSG_ID";
+  private static String EXTRAS_COUNT = "net.anei.cadpage.EXTRAS_REMINDER_COUNT";
 
   /*
    * We're not going to do anything in the onReceive() as taking too long here
@@ -38,15 +37,18 @@ public class ReminderReceiver extends BroadcastReceiver {
 
   private void processReminder(Context context, Intent intent) {
     
-      SmsMmsMessage message = new SmsMmsMessage(context, intent);
-      int repeatCount = intent.getIntExtra(EXTRAS_COUNT, 0);
-      ManageNotification.show(context, message, false);
-      
-      if (repeatCount > 0) repeatCount--;
+    int msgId = intent.getIntExtra(EXTRAS_MSG_ID, 0);
+    SmsMmsMessage message = SmsMessageQueue.getInstance().getMessage(msgId);
+    if (message == null) return;
+    
+    int repeatCount = intent.getIntExtra(EXTRAS_COUNT, 0);
+    ManageNotification.show(context, message, false);
 
-      if (repeatCount != 0) {
-        ReminderReceiver.scheduleReminder(context, message, repeatCount);
-        ManageWakeLock.acquireFull(context);
+    if (repeatCount > 0) repeatCount--;
+
+    if (repeatCount != 0) {
+      ReminderReceiver.scheduleReminder(context, message, repeatCount);
+      ManageWakeLock.acquireFull(context);
     }
   }
 
@@ -73,7 +75,7 @@ public class ReminderReceiver extends BroadcastReceiver {
 
       Intent reminderIntent = new Intent(context, ReminderReceiver.class);
       reminderIntent.setAction(ACTION_REMIND);
-      message.addToIntent(reminderIntent);
+      reminderIntent.putExtra(EXTRAS_MSG_ID, message.getMsgId());
       reminderIntent.putExtra(EXTRAS_COUNT, repeat);
 
       PendingIntent reminderPendingIntent =

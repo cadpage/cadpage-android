@@ -24,6 +24,7 @@ public class SmsMessageQueue implements Serializable {
   private static String QUEUE_FILENAME = "message.queue";
   
   private List<SmsMmsMessage> queue = new ArrayList<SmsMmsMessage>();
+  private int nextMsgId = 1;
   private Context context;
   private Adapter adapter = null;
   
@@ -40,6 +41,23 @@ public class SmsMessageQueue implements Serializable {
       Log.e(ex);
     } finally {
       if (is != null) try {is.close();} catch (IOException ex) {}
+    }
+    
+    // Set the next message ID to one more than the highest message ID
+    // in the queue
+    boolean assign = false;
+    for (SmsMmsMessage msg : queue) {
+      int msgId = msg.getMsgId();
+      if (msgId == 0) assign = true;
+      if (msgId >= nextMsgId) nextMsgId = msgId+1;
+    }
+    
+    // First time this release is loaded, the saved messages won't have any
+    // message ID's, so they will have to be assigned now.
+    if (assign) {
+      for (SmsMmsMessage msg : queue) {
+        if (msg.getMsgId() == 0) msg.setMsgId(nextMsgId++);
+      }
     }
     
     msgQueue = this;
@@ -72,6 +90,13 @@ public class SmsMessageQueue implements Serializable {
    * @param msg message to be added
    */
   public synchronized void addNewMsg(SmsMmsMessage msg) {
+    
+    // In theory, the next message ID will overflow after a couple thousand
+    // years.  Sounds unlikely, but we must at least consider the possibility
+    if (nextMsgId < 0) clearAll();
+    
+    // Assign next msg ID
+    msg.setMsgId(nextMsgId++);
     
     // Add message to beginning of queue
     queue.add(0, msg);
@@ -106,6 +131,30 @@ public class SmsMessageQueue implements Serializable {
   }
   
   /**
+   * Return message from queue with specified message ID
+   * @param msgId requested message ID
+   * @return requested message if found, null otherwise
+   */
+  public SmsMmsMessage getMessage(int msgId) {
+    for (SmsMmsMessage msg : queue) {
+      if (msgId == msg.getMsgId()) return msg;
+    }
+    return null;
+  }
+  
+  /**
+   * Delete message from message queue (if preset, read and not locked)
+   * @param msg message to be deleted
+   */
+  public void deleteMessage(SmsMmsMessage msg) {
+    
+    // Don't delete unread or locked messages
+    if (!msg.isRead() || msg.isLocked()) return;
+    queue.remove(msg);
+    notifyDataChange();
+  }
+  
+  /**
    * Remove all expendable (read and not locked) messages
    */
   public void clearAll() {
@@ -115,6 +164,8 @@ public class SmsMessageQueue implements Serializable {
       SmsMmsMessage m = itr.next();
       if (m.isRead() && !m.isLocked()) itr.remove();
     }
+    
+    if (queue.isEmpty()) nextMsgId = 1;
     
     notifyDataChange();
   }

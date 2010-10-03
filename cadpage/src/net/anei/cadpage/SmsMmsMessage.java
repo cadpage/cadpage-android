@@ -6,28 +6,14 @@ import java.io.OptionalDataException;
 import java.io.Serializable;
 
 import android.content.Context;
-import android.content.Intent;
-import android.os.Bundle;
 import android.telephony.*;
 import android.telephony.SmsMessage.MessageClass;
 import android.text.format.DateUtils;
-import android.widget.TextView;
 
 public class SmsMmsMessage implements Serializable {
 
   // Serialized object version code
   private static final long serialVersionUID = 1L;
-  
-  // Private EXTRAS strings
-  private static final String PREFIX = "net.anei.cadpage.";
-  private static final String EXTRAS_FROM_ADDRESS   = PREFIX + "EXTRAS_FROM_ADDRESS";
-  private static final String EXTRAS_MESSAGE_BODY   = PREFIX + "EXTRAS_MESSAGE_BODY";
-  private static final String EXTRAS_MESSAGE_FULL   = PREFIX + "EXTRAS_MESSAGE_FULL";
-  private static final String EXTRAS_TIMESTAMP      = PREFIX + "EXTRAS_TIMESTAMP";
-  private static final String EXTRAS_MESSAGE_TYPE   = PREFIX + "EXTRAS_MESSAGE_TYPE";
-  private static final String EXTRAS_EMAIL_GATEWAY  = PREFIX + "EXTRAS_EMAIL_GATEWAY";
-  private static final String EXTRAS_READ           = PREFIX + "EXTRAS_READ";
-  private static final String EXTRAS_LOCKED         = PREFIX + "EXTRAS_LOCKED";
 
   // Message types
   public static final int MESSAGE_TYPE_SMS = 0;
@@ -38,7 +24,6 @@ public class SmsMmsMessage implements Serializable {
   public static final int MESSAGE_COMPARE_TIME_BUFFER = 5000; // 5 seconds
 
   // Main message object private vars
-  private transient Context context;           // Can't be serialized, restore afterwards
   private String fromAddress = null;
   private String messageBody = null;
   private String messageFull = null;
@@ -49,6 +34,7 @@ public class SmsMmsMessage implements Serializable {
   private boolean read = false;             
   private boolean locked = false;
   private transient String call = null;
+  private int msgId = 0;
   
   
   public boolean isRead() {
@@ -56,7 +42,9 @@ public class SmsMmsMessage implements Serializable {
   }
   
   public void setRead(boolean read) {
+    if (read == this.read) return;
     this.read = read;
+    reportDataChange();
   }
   
   public boolean isLocked() {
@@ -64,7 +52,21 @@ public class SmsMmsMessage implements Serializable {
   }
   
   public void setLocked(boolean locked) {
+    if (locked == this.locked) return;
     this.locked = locked;
+    reportDataChange();
+  }
+  
+  public int getMsgId() {
+    return msgId;
+  }
+  
+  public void setMsgId(int msgId) {
+    this.msgId = msgId;
+  }
+  
+  private void reportDataChange() {
+    if (msgId > 0) SmsMessageQueue.getInstance().notifyDataChange();
   }
 
 
@@ -72,10 +74,9 @@ public class SmsMmsMessage implements Serializable {
    * Construct SmsMmsMessage given a raw message (created from pdu), used for when
    * a message is initially received via the network.
    */
-  public SmsMmsMessage(Context _context, SmsMessage[] messages, long _timestamp) {
+  public SmsMmsMessage(SmsMessage[] messages, long _timestamp) {
     SmsMessage sms = messages[0];
 
-    context = _context;
     timestamp = _timestamp;
     messageType = MESSAGE_TYPE_SMS;
 
@@ -106,10 +107,9 @@ public class SmsMmsMessage implements Serializable {
    * Construct SmsMmsMessage for getMmsDetails() - fetched from the MMS database table
    * @return
    */
-  public SmsMmsMessage(Context _context,
+  public SmsMmsMessage(Context context,
       long _timestamp, String _messageBody, int _messageType) {
 
-    context = _context;
     timestamp = _timestamp;
     messageBody = _messageBody;
     messageType = _messageType;
@@ -135,81 +135,14 @@ public class SmsMmsMessage implements Serializable {
    * Construct SmsMmsMessage for getSmsDetails() - info fetched from the SMS
    * database table
    */
-  public SmsMmsMessage(Context _context, String _fromAddress, String _messageBody,
+  public SmsMmsMessage(String _fromAddress, String _messageBody,
       long _timestamp, int _messageType) {
 
-    context = _context;
     fromAddress = _fromAddress;
     messageBody = _messageBody;
     timestamp = _timestamp;
     messageType = _messageType;
   }
-
-  /**
-   * Construct SmsMmsMessage from an extras bundle
-   */
-  public SmsMmsMessage(Context _context, Intent i) {
-    context = _context;
-    Bundle b = i.getExtras();
-    fromAddress = b.getString(EXTRAS_FROM_ADDRESS);
-    messageBody = b.getString(EXTRAS_MESSAGE_BODY);
-    messageFull = b.getString(EXTRAS_MESSAGE_FULL);
-    timestamp = b.getLong(EXTRAS_TIMESTAMP);
-    messageType = b.getInt(EXTRAS_MESSAGE_TYPE, MESSAGE_TYPE_SMS);
-    fromEmailGateway = b.getBoolean(EXTRAS_EMAIL_GATEWAY, false);
-    read = b.getBoolean(EXTRAS_READ, false);
-    locked = b.getBoolean(EXTRAS_LOCKED, false);
-  }
-
-  /**
-   * Attach all SmsMmsMessage data to an intent
-   */
-  public void addToIntent(Intent i) {
-    i.putExtra(EXTRAS_FROM_ADDRESS, fromAddress);
-    i.putExtra(EXTRAS_MESSAGE_BODY, messageBody);
-    i.putExtra(EXTRAS_MESSAGE_FULL, messageFull);
-    i.putExtra(EXTRAS_TIMESTAMP, timestamp);
-    i.putExtra(EXTRAS_MESSAGE_TYPE, messageType);
-    i.putExtra(EXTRAS_EMAIL_GATEWAY, fromEmailGateway);
-    i.putExtra(EXTRAS_READ, read);
-    i.putExtra(EXTRAS_LOCKED, locked);
-  }
-
-//  /**
-//   * Fetch the "reply to" message intent
-//   * 
-//   * @param replyToThread whether or not to reply using the message threadId or using the
-//   * sender address
-//   * 
-//   * @return the intent to pass to startActivity()
-//   */
-//  public Intent getReplyIntent(boolean replyToThread) {
-//    if (messageType == MESSAGE_TYPE_MMS) {
-//      locateThreadId();
-//      return SmsPopupUtils.getSmsToIntent(context, threadId);
-//    } else if (messageType == MESSAGE_TYPE_SMS) {
-//      locateThreadId();
-//      /*
-//       * There are two ways to reply to a message, by "viewing" the threadId or by
-//       * sending a new message to the address.  In most cases we should just execute
-//       * the former, but in some cases its better to send a new message to an address
-//       * (apps like Google Voice will intercept this intent as they don't seem to look
-//       * at the threadId).
-//       */
-//      if (replyToThread && threadId > 0) {
-//        if (Log.DEBUG) Log.v("Replying by threadId: " + threadId);
-//        return SmsPopupUtils.getSmsToIntent(context, threadId);
-//      } else {
-//        if (Log.DEBUG) Log.v("Replying by address: " + fromAddress);
-//        return SmsPopupUtils.getSmsToIntent(context, fromAddress);
-//      }
-//    }
-//    return null;
-//  }
-//
-//  public Intent getReplyIntent() {
-//    return getReplyIntent(true);
-//  }
 
   public long getTimestamp() {
     return timestamp;
@@ -219,7 +152,7 @@ public class SmsMmsMessage implements Serializable {
     return messageClass;
   }
 
-  public CharSequence getFormattedTimestamp() {
+  public CharSequence getFormattedTimestamp(Context context) {
     return DateUtils.formatDateTime(context, timestamp, DateUtils.FORMAT_SHOW_TIME);
   }
 
@@ -258,10 +191,9 @@ public class SmsMmsMessage implements Serializable {
   /**
    * Read serialized SmsMmsMessage object from Object input stream
    */
-  public static SmsMmsMessage readObject(Context context, ObjectInputStream is) 
+  public static SmsMmsMessage readObject(ObjectInputStream is) 
   throws OptionalDataException, ClassNotFoundException, IOException {
     SmsMmsMessage message = (SmsMmsMessage)is.readObject();
-    if (message != null) message.context = context;
     return message;
 
   }

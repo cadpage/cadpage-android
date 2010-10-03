@@ -18,9 +18,6 @@ public class SmsReceiver extends BroadcastReceiver {
   @Override
   public void onReceive(Context context, Intent intent) {
     if (Log.DEBUG) Log.v("SMSReceiver: onReceive()");
-    
-    intent.setClass(context, SmsReceiverService.class);
-    intent.putExtra("result", getResultCode());
 
     SmsMmsMessage message = null;
     
@@ -32,7 +29,7 @@ public class SmsReceiver extends BroadcastReceiver {
       try {
         is = new ObjectInputStream(
           context.openFileInput(MSG_FILENAME));
-        message = SmsMmsMessage.readObject(context, is);
+        message = SmsMmsMessage.readObject(is);
       } catch (FileNotFoundException ex) {
       } catch (Exception ex) {
         Log.e(ex);
@@ -44,7 +41,7 @@ public class SmsReceiver extends BroadcastReceiver {
     else {
       SmsMessage[] messages = SmsPopupUtils.getMessagesFromIntent(intent);
       if (messages == null) return;
-      message = new SmsMmsMessage(context, messages,System.currentTimeMillis());
+      message = new SmsMmsMessage( messages,System.currentTimeMillis());
     }
 
     // And determine if this is a CAD Page call
@@ -53,6 +50,7 @@ public class SmsReceiver extends BroadcastReceiver {
       // If it is, abort broadcast to any other receivers
       // and launch the main page with this message
       abortBroadcast();
+      SmsMessageQueue.getInstance().addNewMsg(message);
       CallHistoryActivity.launchActivity(context, message);
     }
   }

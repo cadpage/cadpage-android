@@ -35,10 +35,6 @@ public class HistoryMsgTextView extends TextView {
         
         if (msg == null) return;
         
-        // Flag message read
-        msg.setRead(true);
-        SmsMessageQueue.getInstance().notifyDataChange();
-        
         // display message popup
         SmsPopupActivity.launchActivity(getContext(), msg);
       }});

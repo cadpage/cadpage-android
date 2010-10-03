@@ -13,7 +13,7 @@ import android.widget.TextView;
 
 public class CallHistoryActivity extends ListActivity {
   
-  private static final String EXTRA_INCOMING_MSG = "CallHistoryActivity.MESSAGE";
+  private static final String EXTRA_INCOMING_MSG_ID = "CallHistoryActivity.MESSAGE_ID";
 
   /* (non-Javadoc)
    * @see android.app.Activity#onCreate(android.os.Bundle)
@@ -70,10 +70,11 @@ public class CallHistoryActivity extends ListActivity {
     // to our message queue, and determine if if should popup the display
     boolean process = true;
     boolean notify = false;
-    if (intent.getBooleanExtra(EXTRA_INCOMING_MSG, false)) {
-      SmsMmsMessage msg = new SmsMmsMessage(this, intent);
+    int msgId = intent.getIntExtra(EXTRA_INCOMING_MSG_ID, 0);
+    if (msgId > 0) {
+      SmsMmsMessage msg = msgQueue.getMessage(msgId);
+      process = false;
       if (msg != null) {
-        msgQueue.addNewMsg(msg);
         notify = ManageNotification.show(this, msg);
         
         process = isPopup();
@@ -103,13 +104,7 @@ public class CallHistoryActivity extends ListActivity {
     // If popup is enabled, and there is one and only one unread message in the
     // queue, launch a message popup to display it
     SmsMmsMessage msg = msgQueue.getDisplayMsg();
-    if (msg != null) {
-      
-      // Flag message read
-      msg.setRead(true);
-      msgQueue.notifyDataChange();
-      SmsPopupActivity.launchActivity(this, msg);
-    }
+    if (msg != null) SmsPopupActivity.launchActivity(this, msg);
   }
 
 
@@ -182,8 +177,7 @@ public class CallHistoryActivity extends ListActivity {
     lockPower(context);
     
     Intent intent = getLaunchIntent(context);
-    message.addToIntent(intent);
-    intent.putExtra(EXTRA_INCOMING_MSG, true);
+    intent.putExtra(EXTRA_INCOMING_MSG_ID, message.getMsgId());
     context.startActivity(intent);
   }
 
