@@ -204,7 +204,11 @@ private void decodeLCFRPage(String body) {
 	          String[] tmp = addr.split("-");
 	          if (strAddress.length() > 0) strAddress += " and ";
 	          strAddress += tmp[0];
-	          if (tmp.length > 0) strCity = tmp[1].substring(0,tmp[1].length()-4);
+	          if (tmp.length > 0) {
+	        	  int pta = tmp[1].indexOf(" ");
+	        	  if (pta <=0) {pta=2;}
+	        	  strCity = tmp[1].substring(0,pta);
+	          }
 	        }
 	        // Intersection address has a / and two  - cities
 	        if (strAddress.length() < 4) {
