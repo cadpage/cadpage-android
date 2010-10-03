@@ -31,6 +31,7 @@ public class SmsMessageQueue implements Serializable {
   @SuppressWarnings("unchecked")
   private SmsMessageQueue(Context context) {
     this.context = context;
+    if (Log.DEBUG) Log.v("SmsMessageQueue: Start");
     ObjectInputStream is = null;
     try {
       is = new ObjectInputStream(
@@ -68,6 +69,7 @@ public class SmsMessageQueue implements Serializable {
    */
   private synchronized void save() {
     ObjectOutputStream os = null;
+    if (Log.DEBUG) Log.v("SmsMessageQueue: Save");
     try {
       os = new ObjectOutputStream(
         context.openFileOutput(QUEUE_FILENAME, Context.MODE_PRIVATE));
@@ -80,6 +82,7 @@ public class SmsMessageQueue implements Serializable {
   }
   
   public void notifyDataChange() {
+	  if (Log.DEBUG) Log.v("SmsMessageQueue: notifyDataChange");  
     if (adapter != null) adapter.notifyDataSetChanged();
     save();
   }
@@ -90,7 +93,7 @@ public class SmsMessageQueue implements Serializable {
    * @param msg message to be added
    */
   public synchronized void addNewMsg(SmsMmsMessage msg) {
-    
+	  if (Log.DEBUG) Log.v("SmsMessageQueue: addNewMsg");
     // In theory, the next message ID will overflow after a couple thousand
     // years.  Sounds unlikely, but we must at least consider the possibility
     if (nextMsgId < 0) clearAll();
@@ -136,6 +139,7 @@ public class SmsMessageQueue implements Serializable {
    * @return requested message if found, null otherwise
    */
   public SmsMmsMessage getMessage(int msgId) {
+	  if (Log.DEBUG) Log.v("SmsMessageQueue: getMessage");
     for (SmsMmsMessage msg : queue) {
       if (msgId == msg.getMsgId()) return msg;
     }
@@ -147,7 +151,7 @@ public class SmsMessageQueue implements Serializable {
    * @param msg message to be deleted
    */
   public void deleteMessage(SmsMmsMessage msg) {
-    
+	  if (Log.DEBUG) Log.v("SmsMessageQueue: deleteMessage");
     // Don't delete unread or locked messages
     if (!msg.isRead() || msg.isLocked()) return;
     queue.remove(msg);
@@ -158,7 +162,7 @@ public class SmsMessageQueue implements Serializable {
    * Remove all expendable (read and not locked) messages
    */
   public void clearAll() {
-    
+	  if (Log.DEBUG) Log.v("SmsMessageQueue: clearAll");
     // Delete everything this has been read and isn't locked
     for (Iterator<SmsMmsMessage> itr = queue.iterator(); itr.hasNext(); ) {
       SmsMmsMessage m = itr.next();
@@ -175,12 +179,17 @@ public class SmsMessageQueue implements Serializable {
    * Null otherwise
    */
   public SmsMmsMessage getDisplayMsg() {
+	  if (Log.DEBUG) Log.v("SmsMessageQueue: getDisplayMsg");
     SmsMmsMessage result = null;
+    try {
     for (SmsMmsMessage msg : queue) {
       if (! msg.isRead()) {
         if (result != null) return null;
         result = msg;
       }
+    }
+    } catch (NullPointerException ex) {
+    	Log.v("SmsMessageQueue: getDisplayMsg: Error on Message Reading");
     }
     return result;
   }
@@ -227,6 +236,7 @@ public class SmsMessageQueue implements Serializable {
    * @param context context used to create object
    */
   public static void setupInstance(Context context) {
+	  if (Log.DEBUG) Log.v("SmsMessageQueue: SetupInstance");
     if (msgQueue == null) {
       msgQueue = new SmsMessageQueue(context);
     }
