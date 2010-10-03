@@ -204,7 +204,7 @@ private void decodeLCFRPage(String body) {
 	          String[] tmp = addr.split("-");
 	          if (strAddress.length() > 0) strAddress += " and ";
 	          strAddress += tmp[0];
-	          if (tmp.length > 0) strCity = tmp[1];
+	          if (tmp.length > 0) strCity = tmp[1].substring(0,tmp[1].length()-4);
 	        }
 	        // Intersection address has a / and two  - cities
 	        if (strAddress.length() < 4) {
@@ -212,6 +212,7 @@ private void decodeLCFRPage(String body) {
 	        }
 	        
         }
+        strCity = strCity.trim();
         if (strCity.compareTo("CH") == 0  ){ strCity="Chantilly";}
         else if (strCity.compareTo("LB")==0){ strCity="Leesburg";}
         else if (strCity.compareTo("AL")==0){ strCity="Aldie";}
