@@ -31,9 +31,6 @@ public class CallHistoryActivity extends ListActivity {
       startActivity(intent);
     }
     
-    // Reload existing message queue
-    SmsMessageQueue.setupInstance(this);
-    
     // Set up list heading
     TextView tv = new TextView(this);
     tv.setText(R.string.call_history);
@@ -175,6 +172,10 @@ public class CallHistoryActivity extends ListActivity {
     
     // Lock device power on until we decide what to do with this message
     lockPower(context);
+    
+    // TODO: All of the sudden the power lock quit working.  Until I can
+    // figure out what is wrong, we will have to apply the full wakelock now
+    ManageWakeLock.acquireFull(context);    
     
     Intent intent = getLaunchIntent(context);
     intent.putExtra(EXTRA_INCOMING_MSG_ID, message.getMsgId());

@@ -17,5 +17,8 @@ public class CadPageApplication extends Application {
     
     TopExceptionHandler.enable(this);
     ManagePreferences.setupPreferences(this);
+    
+    // Reload existing message queue
+    SmsMessageQueue.setupInstance(this);
   }
 }

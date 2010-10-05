@@ -181,15 +181,11 @@ public class SmsMessageQueue implements Serializable {
   public SmsMmsMessage getDisplayMsg() {
 	  if (Log.DEBUG) Log.v("SmsMessageQueue: getDisplayMsg");
     SmsMmsMessage result = null;
-    try {
     for (SmsMmsMessage msg : queue) {
       if (! msg.isRead()) {
         if (result != null) return null;
         result = msg;
       }
-    }
-    } catch (NullPointerException ex) {
-    	Log.v("SmsMessageQueue: getDisplayMsg: Error on Message Reading");
     }
     return result;
   }

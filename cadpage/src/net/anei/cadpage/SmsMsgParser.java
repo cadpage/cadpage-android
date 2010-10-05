@@ -133,7 +133,12 @@ public class SmsMsgParser {
     int iLocation = Integer.parseInt(sLocation);
     String[] phrases = new String[]{"Call:", "TYPE:", "Map:", "(Corvallis Alert)","Cad:","OCSO E911:","CAD:","***","***"};
     if (iLocation > phrases.length) return false;
-    return (msgText.indexOf(phrases[iLocation-1]) >= 0);
+    boolean result = (msgText.indexOf(phrases[iLocation-1]) >= 0);
+    if (! result && Log.DEBUG) {
+      Log.v("Not a CAD message for " + iLocation);
+      Log.v("msg:" + msgText);
+    }
+    return result;
   }
   
   /**
@@ -364,7 +369,9 @@ private void decodeLCFRPage(String body) {
   private void decodeBentonCoPage(String body) {
       
       // Sample Benton County Page
+      // from: alerts@corvallis.ealertgov.com
       // (Corvallis Alert) INC: CODE 1 MEDICAL\nADD:1740 MAIN ST\nAPT:\nCITY:PHILOMATH\nX:N 17TH ST * N 18TH ST\nMAP:540-365\nCFS:0907010-119\nDIS:PHILOMATH FIRE
+      // (Corvallis Alert) INC:COMM FIRE ALARM\nADD:421 S 19TH ST\nAPT:\nCITY:PHILOMATH\nX:ASH ST * CEDAR ST\nMAP:540-360\nCFS:100410-188\nDIS:PHILOMATH FIRE\nDIS:PHI
       
       Log.v("DecodeBentonCo: Message Body of:" + body);
       strState="OR";
