@@ -196,7 +196,8 @@ private void decodeLCFRPage(String body) {
         Log.v("decodeLCFRPage: Message Body of:" + body);
         strState = "VA";
         String[] AData = body.split(",");
-        int ndx = AData.length;
+        int ndx = -1;
+        ndx = AData.length;
         if (ndx >= 0) {
         	int pt = AData[0].indexOf("Call:");
         		if (pt >= 0) strCall = AData[0].substring(pt+5);
