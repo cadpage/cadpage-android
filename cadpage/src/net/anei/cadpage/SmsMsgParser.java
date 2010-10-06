@@ -16,7 +16,6 @@ public class SmsMsgParser {
   private String strApt = "";
   private String strCross = "";
   private String strBox= "" ;
-  private String strADC= "" ;
   private String strUnit= "" ;
   private String strState="";
   private String strMap = "";
@@ -101,13 +100,6 @@ public class SmsMsgParser {
   }
 
   /**
-   * @return the call ADC
-   */
-  public String getADC() {
-    return strADC;
-  }
-
-  /**
    * @return the call unit
    */
   public String getUnit() {
@@ -183,78 +175,57 @@ public class SmsMsgParser {
 
   }
 
+  private static Properties LCFRCityCodes = buildCodeTable(new String[]{
+      "CH", "Chantilly",
+      "LB", "Leesburg",
+      "AL", "Aldie",
+      "ST", "Sterling",
+      "MB", "Middleburg",
+      "AB", "Ashburn",
+      "SP", "Sterling",
+      "BL", "Bluemont",
+      "CE", "Centreville",
+      "HA", "Hamilton",
+      "LV", "Lovettsville",
+      "PA", "Paris",
+      "PV", "Purceville",
+      "PS", "Paeonian",
+      "RH", "Round Hill",
+      "UP", "Upperville",
+      "FX19", "Fairfax",
+      "FX", "Fairfax",
+      "FQ", "Faquier"});
+  private void decodeLCFRPage(String body) {
+    /*
+     * Call:12D02E-SEIZURES CONT,42914 OVERLY SQ-CH Apt:,X-St:NORRINGTON SQ KIR,A6092,Box:1908 ,ADC:5520 G06 [90]
+     * Call:17D03-FALL PATIENT N,42848 RECTORS CHASE WAY-AB Apt:,X-St:HOYSVILLE MANOR D,A6092 904 ACO9,Box:2618 ,ADC:5400 G03 [89]
+     * Call:17D03-FALL PATIENT N,42848 RECTORS CHASE WAY-AB Apt:,X-St:HOYSVILLE MANOR D,A6092 904 ACO9,Box:2618 ,ADC:5400 G03 [89]
+     * Call:20D01H-HEAT EXPOSURE,STONE SPRINGS BLVD-AL/MINERAL SPRINGS CIR-AL Apt:,X-St:GREENSTONE DR & M,A6092 9942 ACO9,Box:0910 ,ADC:5520 B02 [77]
+     */
 
-private void decodeLCFRPage(String body) {
-	  /*
-	   * Call:12D02E-SEIZURES CONT,42914 OVERLY SQ-CH Apt:,X-St:NORRINGTON SQ KIR,A6092,Box:1908 ,ADC:5520 G06 [90]
-	   * Call:17D03-FALL PATIENT N,42848 RECTORS CHASE WAY-AB Apt:,X-St:HOYSVILLE MANOR D,A6092 904 ACO9,Box:2618 ,ADC:5400 G03 [89]
-	   * Call:17D03-FALL PATIENT N,42848 RECTORS CHASE WAY-AB Apt:,X-St:HOYSVILLE MANOR D,A6092 904 ACO9,Box:2618 ,ADC:5400 G03 [89]
-	   * Call:20D01H-HEAT EXPOSURE,STONE SPRINGS BLVD-AL/MINERAL SPRINGS CIR-AL Apt:,X-St:GREENSTONE DR & M,A6092 9942 ACO9,Box:0910 ,ADC:5520 B02 [77]
-	   */
 
+    Log.v("decodeLCFRPage: Message Body of:" + body);
+    strState = "VA";
 
-        Log.v("decodeLCFRPage: Message Body of:" + body);
-        strState = "VA";
-        String[] AData = body.split(",");
-        int ndx = -1;
-        ndx = AData.length;
-        if (ndx >= 0) {
-        	int pt = AData[0].indexOf("Call:");
-        		if (pt >= 0) strCall = AData[0].substring(pt+5);
-        }
-        else strCall = body;
-        
-        // Need to check for single address or Intersection address.
-        if (ndx >=1){
-	        for (String addr : AData[1].split("/")) {
-	          String[] tmp = addr.split("-");
-	          if (strAddress.length() > 0) strAddress += " and ";
-	          strAddress += tmp[0];
-	          if (tmp.length > 0) {
-	        	  int pta = tmp[1].indexOf(" ");
-	        	  if (pta <=0) {pta=2;}
-	        	  strCity = tmp[1].substring(0,pta);
-	          }
-	        }
-	        // Intersection address has a / and two  - cities
-	        if (strAddress.length() < 4) {
-	          strAddress = "Error Street not Found.";
-	        }
-	        
-        }
-        strCity = strCity.trim();
-        if (strCity.compareTo("CH") == 0  ){ strCity="Chantilly";}
-        else if (strCity.compareTo("LB")==0){ strCity="Leesburg";}
-        else if (strCity.compareTo("AL")==0){ strCity="Aldie";}
-        else if (strCity.compareTo("ST")==0){ strCity="Sterling";}
-        else if (strCity.compareTo("MB")==0){ strCity="Middleburg";}
-        else if (strCity.compareTo("AB")==0){ strCity="Ashburn";}
-        else if (strCity.compareTo("SP")==0){ strCity="Sterling";}
-        else if (strCity.compareTo("BL")==0){ strCity="Bluemont";}
-        else if (strCity.compareTo("CE")==0){ strCity="Centreville";}
-        else if (strCity.compareTo("HA")==0){ strCity="Hamilton";}
-        else if (strCity.compareTo("LV")==0){ strCity="Lovettsville";}
-        else if (strCity.compareTo("PA")==0){ strCity="Paris";}
-        else if (strCity.compareTo("PV")==0){ strCity="Purceville";}
-        else if (strCity.compareTo("PS")==0){ strCity="Paeonian";}
-        else if (strCity.compareTo("RH")==0){ strCity="Round Hill";}
-        else if (strCity.compareTo("UP")==0){ strCity="Upperville";}
-        else if (strCity.compareTo("FX19")==0){ strCity="Fairfax";}
-        else if (strCity.compareTo("FX")==0){ strCity="Fairfax";}
-        else if (strCity.compareTo("FQ")==0){ strCity="Faquier";}
-        else if (strCity.length() < 1){ strCity="Error";}
-      
-        try {
-        if (ndx >=1) {strApt = AData[1].substring(AData[1].indexOf("Apt:"));}
-        if (ndx >=2) {strCross = AData[2].substring(5);}
-        if (ndx >=3) {strUnit = AData[3];}
-        if (ndx >=4) {strBox = AData[4].substring(4);}
-        if (ndx >=5) {strADC = AData[5].substring(4,AData[5].indexOf("["));}
-        } catch (IndexOutOfBoundsException ex) {
-          if (Log.DEBUG) Log.v("Exception in DecodePage-" + ex.toString());
-        }
+    // Needs some massaging before it can be run through the standard parser
+    body = body.replace(" Apt:", ",Apt:");
+    Properties props = parseMessage(body, ",", new String[]{"Addr", "Unit"});
+    strCall = props.getProperty("Call", "");
+    parseAddress(props.getProperty("Addr", ""));
+    strApt = props.getProperty("Apt", "");
+    strCross = props.getProperty("X-st", "");
+    strUnit = props.getProperty("Unit", "");
+    strBox = props.getProperty("Box", "");
+    strMap = props.getProperty("ADC", "");
+    
+    strCity = convertCodes(strCity, LCFRCityCodes);
   }
 
+  private static String[] SuffolkCityCodes = new String[]{
+    "BRENTW", "Brentwood",
+    "NBAYSH", "Bay Shore",
+    "BAYSHO", "Bay Shore"
+  };
   private void decodeSuffolkPage(String body) {
     /* Sample Suffolk Page
      * TYPE: GAS LEAKS / GAS ODOR (NATURAL / L.P.G.) LOC: 11 BRENTWOOD PKWY BRENTW HOMELESS SHELTER CROSS: PENNSYLVANIA AV / SUFFOLK AV CODE: 60-B-2 TIME: 12:54:16
@@ -263,47 +234,20 @@ private void decodeLCFRPage(String body) {
      */
     
       Log.v("DecodeSuffolkPage: Message Body of:" + body);
-      
-      String[] AData = body.split(":");
       strState="NY";
-      String tmpAddress = "";
-      try {
-      strCall = AData[1].substring(0,(AData[1].length()-4));
-      // Need to check for single address or Intersection address.
-      if (AData[2].contains("/")  ){
-        // This is an intersection and not a street
-         String[] strTemp = AData[2].split("/");
-        //strAddress = strTemp[0].substring(0,(strTemp[0].indexOf("-")));
-         tmpAddress = strTemp[0];
-        tmpAddress = tmpAddress + " and " +  strTemp[1];
-      }else {
-        tmpAddress = AData[2];
-      }
-      if (tmpAddress.contains("BRENTW")){
-       strAddress= tmpAddress.substring(0,tmpAddress.lastIndexOf("BRENTW"));
-       strCity = "Brentwood";
-      } else if (strAddress.contains("NBAYSH")){
-       strAddress= tmpAddress.substring(0, tmpAddress.lastIndexOf("NBAYSH")); 
-       strCity = "Bay Shore ";
-      } else if (strAddress.contains("BAYSHO")){
-         strAddress= tmpAddress.substring(0, tmpAddress.lastIndexOf("NBAYSH")); 
-         strCity = "Bay Shore ";
-      }
-      // Intersection address has a / and two  - cities
-      if (strAddress.length() < 4) {
-        strAddress = "Error Street not Found.";
-      }
-      
-    
 
-      //strApt = AData[1].substring(AData[1].indexOf("Apt:"));
-      strApt= "";
-      strCross =  AData[3].substring(0,(AData[3].length()-5));
-      strUnit = ""; //AData[3];
-      strBox = "";//AData[4].substring(4);
-      strADC = "";//AData[5].substring(4,AData[5].indexOf("["));
-      } catch (Exception ex) {
-        if (Log.DEBUG) Log.v("Exception in decodeSuffolk-" + ex.toString());
+      Properties props = parseMessage(body, new String[]{"LOC", "CROSS", "CODE", "TIME"});
+      strCall = props.getProperty("TYPE", "");
+      parseAddress(props.getProperty("LOC", ""));
+      strCross = props.getProperty("CROSS", "");
+      
+      for (int ndx = 0; ndx<SuffolkCityCodes.length-1; ndx+= 2) {
+        int ipt = strAddress.lastIndexOf(" " + SuffolkCityCodes[ndx]);
+        if (ipt >= 0) {
+          strAddress = strAddress.substring(0, ipt);
+          strCity = SuffolkCityCodes[ndx+1];
+          break;
+        }
       }
   }
 
@@ -323,47 +267,25 @@ private void decodeLCFRPage(String body) {
 
     
      */
+  
+    Log.v("DecodeHarrisPage: Message Body of:" + body);
+    strState="TX";
     
-      Log.v("DecodeHarrisPage: Message Body of:" + body);
-      String tmpAddress="";
-      strState="TX";
-     // String[] AData = body.split(":");
-      String strBody = body.substring(16);
-      try { 
-    	  String[] AData = strBody.split(":");
-      strCall = AData[3];
-      // Need to check for single address or Intersection address.
-      if (AData[0].contains("/")  ){
-        // This is an intersection and not a street
-         String[] strTemp = AData[0].split("/");
-         strTemp[0] = strTemp[0].substring(2);
-        //strAddress = strTemp[0].substring(0,(strTemp[0].indexOf("-")));
-         tmpAddress = strTemp[0];
-
-        tmpAddress = tmpAddress + " and " +  strTemp[1].substring(0,strTemp[1].indexOf(","));
-      }else {
-        tmpAddress = AData[0].substring(1,AData[0].indexOf(","));
-      }
-      if (! strCall.contains("MA-MUTUAL AID")){
-    	  strCity = "Humble";
-      } else {
-    	  strCity = "";
-      }
-      // Intersection address has a / and two  - cities
-      strAddress= tmpAddress;
-      if (strAddress.length() < 4) {
-        strAddress = "Error Street not Found.";
-      }
-
-      //strApt = AData[1].substring(AData[1].indexOf("Apt:"));
-      strApt= "";
-      strADC = AData[1].substring(0,AData[1].length()-4);//AData[5].substring(4,AData[5].indexOf("["));
-      strUnit = AData[4].substring(0,(AData[4].length()-5)); //AData[3];
-      strCross =  AData[5];
-      strBox = "";//AData[4].substring(4);  
-      } catch (IndexOutOfBoundsException ex) {
-        Log.v("Exception in decodeHarris-" + ex.getMessage());
-      }
+    // Strip first 16 characters off of message
+    if (body.length() <= 16) return;
+    body = "Loc:" + body.substring(16);
+    
+    Properties props = parseMessage(body, new String[]{"Map", "Sub", "Nat", "Units", "X-St"});
+    parseAddress(props.getProperty("Loc", ""));
+    strMap = props.getProperty("Map", "");
+    strCall = props.getProperty("Nat", "");
+    strUnit = props.getProperty("Units", "");
+    strCross = props.getProperty("X-st", "");
+    
+    // Strip extra stuff off of address line
+    int ipt = strAddress.indexOf(',');
+    if (ipt > 0) strAddress = strAddress.substring(0, ipt).trim();
+    if (strCall.contains("MA-MUTUAL AID")) strCity = "Humble";
   }
   
 
@@ -376,7 +298,7 @@ private void decodeLCFRPage(String body) {
       
       Log.v("DecodeBentonCo: Message Body of:" + body);
       strState="OR";
-      Properties props = parseMessage(body);
+      Properties props = parseMessage(body, "\n");
       
       strCall=props.getProperty("INC", "");
       strAddress=props.getProperty("ADD", "");
@@ -385,29 +307,6 @@ private void decodeLCFRPage(String body) {
       strCross=props.getProperty("X", "");
       strMap=props.getProperty("MAP", "");
       strCallId = props.getProperty("CFS", ""); 
-      strBox="";
-      strADC="";
-      strUnit="";
-  }
-
-  /**
-   * General purpose message parser.  Parses 
-   * @param body
-   * @return
-   */
-  private Properties parseMessage(String body) {
-      Properties props = new Properties();
-      String[] lines = body.split("\n");
-      for (String line : lines) {
-          int ndx = line.indexOf(':');
-          if (ndx < 0 || ndx+1 == line.length()) continue;
-          String key = line.substring(0, ndx).trim();
-          String value = line.substring(ndx+1).trim();
-          ndx = key.lastIndexOf(' ');
-          if (ndx >= 0) key = key.substring(ndx+1);
-          props.put(key, value);
-      }
-      return props;
   }
 
 
@@ -579,7 +478,6 @@ Unconscious / Fainting (Near). Not alert. Caller Statement: UNCON.
 
       //strApt = AData[1].substring(AData[1].indexOf("Apt:"));
       strApt= "";
-      strADC = "" ;// AData[1].substring(0,AData[1].length()-4);//AData[5].substring(4,AData[5].indexOf("["));
       if (AData[3].length() <20) { //this is a cross street (guessing)
       strCross =  AData[3];
       strUnit = AData[4];
@@ -663,5 +561,107 @@ Unconscious / Fainting (Near). Not alert. Caller Statement: UNCON.
       strCross= "";
       
 	}
+ 
+ /** 
+  * General purpose parser for formats where there is not a clear delimiter
+  * between key: value item pairs.
+  * @param body message body to be parsed
+  * @param keyWords list of expected keywords
+  * @return Properties object containing the parsed key: value pairs
+  */
+ private Properties parseMessage(String body, String[] keyWords) {
+   StringBuffer sb = new StringBuffer(body);
+   for (String keyWord : keyWords) {
+     int ipt = sb.indexOf(" " + keyWord + ":");
+     if (ipt >= 0) sb.setCharAt(ipt, '\n');
+   }
+   return parseMessage(sb.toString(), "\n");
+ }
 
+ /**
+  * General purpose message parser for formats where there is a clear delimiter
+  * between key: value data pairs 
+  * @param body
+  * @param delim line delimiter
+  * @return
+  */
+ private Properties parseMessage(String body, String delim) {
+   return parseMessage(body, delim, null);
+ }
+ 
+ /**
+  * General purpose parser
+  * @param body of message to be parsed
+  * @param delim expression to be used to separate lines in message
+  * @param missedKeys if not null, an array of keywords to be assigned to
+  * lines that are missing a keyword
+  * @return Properties object containing the parsed line tokens
+  */
+ private Properties parseMessage(String body, String delim, String[] missedKeys) {
+   
+     Properties props = new Properties();
+     String[] lines = body.split(delim);
+     int missed = 0;
+     for (String line : lines) {
+         line = line.trim();
+         int ndx = line.indexOf(':');
+         if (ndx < 0) {
+           if (missedKeys != null && missed < missedKeys.length) {
+             props.put(missedKeys[missed++], line);
+           }
+           continue;
+         }
+         if (ndx+1 == line.length()) continue;
+         String key = line.substring(0, ndx).trim();
+         String value = line.substring(ndx+1).trim();
+         ndx = key.lastIndexOf(' ');
+         if (ndx >= 0) key = key.substring(ndx+1);
+         props.put(key, value);
+     }
+     return props;
+ }
+
+ /**
+  * Parse address line into address and city fields
+  * @param addressLine address line to be parsed
+  */
+ private void parseAddress(String addressLine) {
+   for (String addr : addressLine.split("/")) {
+     String[] tmp = addr.split("-");
+     if (strAddress.length() > 0) strAddress += " and ";
+     strAddress += tmp[0];
+     if (tmp.length > 1) {
+       tmp[1] = tmp[1].trim();
+       int pta = tmp[1].indexOf(" ");
+       if (pta <=0) pta = tmp[1].length();
+       strCity = tmp[1].substring(0,pta);
+     }
+   }
+ }
+
+ /**
+  * Build a code table for use by convertCodeTable
+  * @param table array containing pairs of strings, each pair will be considered
+  * as a key/value pair to be inserted into the code table
+  * @return resulting code table
+  */
+ private static Properties buildCodeTable(String[] table) {
+   Properties props = new Properties();
+   for (int ndx = 0; ndx < table.length-1; ndx+=2) {
+     props.put(table[ndx], table[ndx+1]);
+   }
+   return props;
+ }
+
+ /**
+  * Convert any special codes in an item
+  * @param item String item to be converted
+  * @param codeTable table of codes with corresponding values
+  * @return if item is a key to a codeTable entry, returns the associated value,
+  * otherwise returns item
+  */
+ private String convertCodes(String item, Properties codeTable) {
+   String value = codeTable.getProperty(item);
+   return (value != null ? value : item);
+ }
 }

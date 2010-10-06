@@ -455,6 +455,11 @@ public class SmsPopupActivity extends Activity {
     fromTV.setText(parser.getCall());
     if (message.getMessageType() == SmsMmsMessage.MESSAGE_TYPE_SMS) {
       StringBuilder sb = new StringBuilder(parser.getAddress());
+      String appt = parser.getApt();
+      if (appt.length() > 0) {
+        sb.append(" Apt:"); 
+        sb.append(appt);
+      }
       String delim="\n";
       if (parser.getCity().length() > 0) {
         sb.append(delim);
@@ -472,6 +477,10 @@ public class SmsPopupActivity extends Activity {
       if (parser.getMap().length() > 0) {
         sb.append("\nMAP:");
         sb.append(parser.getMap());
+      }
+      if (parser.getBox().length() > 0) {
+        sb.append("\nBOX:");
+        sb.append(parser.getBox());
       }
       if (parser.getUnit().length() > 0) {
         sb.append("\nUnits: ");
