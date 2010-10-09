@@ -1,8 +1,11 @@
 package net.anei.cadpage;
 
+import java.util.Map;
+
 import net.anei.cadpage.preferences.ButtonListPreference;
 import android.content.Context;
 import android.content.SharedPreferences;
+import android.os.Build;
 import android.preference.PreferenceManager;
 
 public class ManagePreferences {
@@ -21,38 +24,12 @@ public class ManagePreferences {
     return prefs.getBoolean(R.string.pref_initialized_key);
   }
   
-  public static boolean privacyMode() {
-    return prefs.getBoolean(R.string.pref_privacy_key);
-  }
-  
   public static String location() {
     return prefs.getString(R.string.pref_location);
   }
   
-  public static boolean autoRotate() {
-    return prefs.getBoolean(R.string.pref_autorotate_key);
-  }
-  
   public static String filter() {
     return prefs.getString(R.string.pref_filter_key);
-  }
-
-  public static int historyCount() {
-    // TODO Really add this to preferences
-    // for now just return a constant
-    return 10;
-  }
-  
-  public static boolean notifyRepeat() {
-    return prefs.getBoolean(R.string.pref_notif_repeat_key);
-  }
-  
-  public static int repeatInterval() {
-    return Integer.parseInt(prefs.getString(R.string.pref_notif_repeat_interval_key));
-  }
-  
-  public static int repeatTimes() {
-    return Integer.parseInt(prefs.getString(R.string.pref_notif_repeat_times_key));
   }
   
   public static boolean notifyEnabled() {
@@ -63,12 +40,20 @@ public class ManagePreferences {
     return prefs.getBoolean(R.string.pref_notif_override_key);
   }
   
+  public static String notifySound() {
+    return prefs.getString(R.string.pref_notif_sound_key);
+  }
+  
   public static boolean vibrate() {
     return prefs.getBoolean(R.string.pref_vibrate_key);
   }
   
   public static String vibratePattern() {
     return prefs.getString(R.string.pref_vibrate_pattern_key);
+  }
+  
+  public static String vibratePatternCustom() {
+    return prefs.getString(R.string.pref_vibrate_pattern_custom_key);
   }
   
   public static boolean flashLED() {
@@ -83,10 +68,6 @@ public class ManagePreferences {
     return prefs.getString(R.string.pref_flashled_color_custom_key);
   }
   
-  public static String vibratePatternCustom() {
-    return prefs.getString(R.string.pref_vibrate_pattern_custom_key);
-  }
-  
   public static String flashLEDPattern() {
     return prefs.getString(R.string.pref_flashled_pattern_key);
   }
@@ -95,8 +76,16 @@ public class ManagePreferences {
     return prefs.getString(R.string.pref_flashled_pattern_custom_key);
   }
   
-  public static String notifySound() {
-    return prefs.getString(R.string.pref_notif_sound_key);
+  public static boolean notifyRepeat() {
+    return prefs.getBoolean(R.string.pref_notif_repeat_key);
+  }
+  
+  public static int repeatInterval() {
+    return Integer.parseInt(prefs.getString(R.string.pref_notif_repeat_interval_key));
+  }
+  
+  public static int repeatTimes() {
+    return Integer.parseInt(prefs.getString(R.string.pref_notif_repeat_times_key));
   }
   
   public static boolean popupEnabled() {
@@ -115,14 +104,93 @@ public class ManagePreferences {
     return prefs.getBoolean(R.string.pref_screen_on_key);
   }
   
+  public static int timeout() {
+    return Integer.parseInt(prefs.getString(R.string.pref_timeout_key));
+  }
+  
   public static boolean dimScreen() {
     return prefs.getBoolean(R.string.pref_dimscreen_key);
   }
   
-  public static int timeout() {
-    return Integer.parseInt(prefs.getString(R.string.pref_timeout_key));
+  public static boolean privacyMode() {
+    return prefs.getBoolean(R.string.pref_privacy_key);
+  }
+  
+  public static boolean autoRotate() {
+    return prefs.getBoolean(R.string.pref_autorotate_key);
   }
 
+  public static int historyCount() {
+    // TODO Really add this to preferences
+    // for now just return a constant
+    return 10;
+  }
+
+
+  /**
+   * Append configuration information to constructed message
+   * @param context active context
+   * @param sb Stringbuilder object where message is constructed
+   */
+  public static void addConfigInfo(Context context, StringBuilder sb) {
+    sb.append(String.format("\n\n----------\nSysinfo - %s\nModel: %s\n\n",
+        Build.FINGERPRINT, Build.MODEL));
+    
+    sb.append("Preference Configuration:\n");
+
+    // Array of preference keys to include in email
+    final int[] pref_keys = {
+        R.string.pref_initialized_key,
+        R.string.pref_enabled_key,
+        R.string.pref_location_key,
+        R.string.pref_filter_key,
+        
+        R.string.pref_notif_enabled_key,
+        R.string.pref_notif_override_key,
+        R.string.pref_notif_sound_key,
+        
+        R.string.pref_vibrate_key,
+        R.string.pref_vibrate_pattern_key,
+        R.string.pref_vibrate_pattern_custom_key,
+        
+        R.string.pref_flashled_key,
+        R.string.pref_flashled_color_key,
+        R.string.pref_flashled_color_custom_key,
+        R.string.pref_flashled_pattern_key,
+        R.string.pref_flashled_pattern_custom_key,
+
+        R.string.pref_notif_repeat_key,
+        R.string.pref_notif_repeat_times_key,
+        R.string.pref_notif_repeat_interval_key,
+
+        R.string.pref_popup_enabled_key,
+        R.string.pref_onlyShowOnKeyguard_key,
+        R.string.pref_noShowInCall_key,
+        
+        R.string.pref_screen_on_key,
+        R.string.pref_timeout_key,
+        R.string.pref_dimscreen_key,
+        R.string.pref_privacy_key,
+        
+        R.string.pref_autorotate_key,
+        
+        R.string.pref_show_buttons_key,
+        R.string.pref_button1_key,
+        R.string.pref_button2_key,
+        R.string.pref_button3_key,
+    };
+
+    Map<String, ?> map = prefs.mPrefs.getAll();
+    
+    for (int key : pref_keys) {
+      String keyName = context.getString(key);
+      sb.append(String.format("%s: %s\n", keyName, map.get(keyName)));
+    }
+
+    // Add locale info
+    sb.append(String.format("locale: %s\n",
+        context.getResources().getConfiguration().locale.getDisplayName()));
+  }
 
   
   

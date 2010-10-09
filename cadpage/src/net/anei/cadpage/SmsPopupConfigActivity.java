@@ -5,14 +5,11 @@ import java.io.File;
 import net.anei.cadpage.preferences.AppEnabledCheckBoxPreference;
 import net.anei.cadpage.preferences.ButtonListPreference;
 import net.anei.cadpage.preferences.DialogPreference;
-import net.anei.cadpage.preferences.EmailDialogPreference;
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.content.pm.PackageManager;
-import android.content.pm.PackageManager.NameNotFoundException;
 import android.os.Bundle;
 import android.preference.CheckBoxPreference;
 import android.preference.Preference;
@@ -46,28 +43,11 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
     editor.putBoolean(getString(R.string.pref_initialized_key), true);
     editor.commit();
 
-    //Try and find app version number
-    String version;
-    PackageManager pm = this.getPackageManager();
-    try {
-      //Get version number, not sure if there is a better way to do this
-      version = " v" +
-      pm.getPackageInfo(
-        SmsPopupConfigActivity.class.getPackage().getName(), 0).versionName;
-    } catch (NameNotFoundException e) {
-      version = "";
-    }
-
     // Set the version number in the about dialog preference
     final DialogPreference aboutPref =
       (DialogPreference) findPreference(getString(R.string.pref_about_key));
-    aboutPref.setDialogTitle(getString(R.string.app_name) + version);
+    aboutPref.setDialogTitle(SmsPopupUtils.getNameVersion(this));
     aboutPref.setDialogLayoutResource(R.layout.about);
-
-    // Set the version number in the email preference dialog
-    final EmailDialogPreference emailPref =
-      (EmailDialogPreference) findPreference(getString(R.string.pref_sendemail_key));
-    emailPref.setVersion(version);
 
     // Set intent for contact notification option
  //  final PreferenceScreen contactsPS =

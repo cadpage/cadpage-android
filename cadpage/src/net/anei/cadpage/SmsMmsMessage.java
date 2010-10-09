@@ -8,6 +8,7 @@ import java.io.Serializable;
 import android.content.Context;
 import android.telephony.*;
 import android.telephony.SmsMessage.MessageClass;
+import android.text.format.DateFormat;
 import android.text.format.DateUtils;
 
 public class SmsMmsMessage implements Serializable {
@@ -35,7 +36,7 @@ public class SmsMmsMessage implements Serializable {
   private boolean locked = false;
   private transient String call = null;
   private int msgId = 0;
-  
+
   
   public boolean isRead() {
     return read;
@@ -187,7 +188,40 @@ public class SmsMmsMessage implements Serializable {
     }
     return call;
   }
+
+
+  /**
+   * Append message information to support message under construction
+   * @param sb String builder holding message being constructed
+   */
+  public void addMessageInfo(Context context, StringBuilder sb) {
+    sb.append("\nMessage Contents\n");
     
+    sb.append("Time:");
+    sb.append(DateFormat.getLongDateFormat(context).format(timestamp));
+    sb.append(" ");
+    sb.append(DateFormat.getTimeFormat(context).format(timestamp));
+
+    sb.append("\nFrom:");
+    sb.append(fromAddress);
+    
+    sb.append("\nType:");
+    sb.append(messageType);
+    
+    sb.append("\nClass:");
+    sb.append(messageClass);
+    
+    sb.append("\nGateway:");
+    sb.append(fromEmailGateway);
+    
+    sb.append("\nBody:");
+    sb.append(messageBody);
+    
+    sb.append("\nFull Text:");
+    sb.append(messageFull);
+    sb.append('\n');
+  }
+   
   /**
    * Read serialized SmsMmsMessage object from Object input stream
    */
