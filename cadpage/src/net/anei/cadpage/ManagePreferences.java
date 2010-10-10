@@ -24,6 +24,10 @@ public class ManagePreferences {
     return prefs.getBoolean(R.string.pref_initialized_key);
   }
   
+  public static boolean smspassthru() {
+	    return prefs.getBoolean(R.string.pref_passthrusms_key);
+	  }
+  
   public static String location() {
     return prefs.getString(R.string.pref_location);
   }
@@ -178,6 +182,7 @@ public class ManagePreferences {
         R.string.pref_button1_key,
         R.string.pref_button2_key,
         R.string.pref_button3_key,
+        R.string.pref_passthrusms_key,
     };
 
     Map<String, ?> map = prefs.mPrefs.getAll();

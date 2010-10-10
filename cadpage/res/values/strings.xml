@@ -346,4 +346,7 @@
 <string name="app_file_name">callhistory.csv</string>
 <string name="exit">Exit</string>
 <string name="clearall_text">Clear All</string>
+<string name="pref_passthrusms_title">Pass Calls through to SMS Client</string>
+<string name="pref_passthrusms_summaryoff">Do not pass CadPage calls to SMS Client</string>
+<string name="pref_passthrusms_summaryon">Pass all calls through to default SMS Client</string>
 </resources>

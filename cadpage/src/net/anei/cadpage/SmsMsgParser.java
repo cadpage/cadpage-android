@@ -1,7 +1,10 @@
 package net.anei.cadpage;
 
 import java.net.URLEncoder;
+import java.util.Date;
 import java.util.Properties;
+
+import android.text.format.Time;
 
 
 /**
@@ -489,6 +492,12 @@ Unconscious / Fainting (Near). Not alert. Caller Statement: UNCON.
       }
   }
  private void decodeBabylonPage(String body) {
+	 /*
+	  * *** 13 - Structure Fire *** 147 CHERUBINA LN CS: LEADER AVE  / SKIDMORE RD TOA: 22:37 09/22/10 OIL BURNER NORTH BABYLON FC 2010-002398 HY: 8' 11
+*** 13 - Structure Fire *** 514 MOUNT PL CS: ESSEX ST  / LAKEWAY DR TOA: 19:55 09/22/10 NORTH BABYLON FC 2010-002393 HY: 12' 533 MOUNT PL @ ESSE
+*** 2nd/16 - Rescue *** 733 HIGHRIDGE RD CS: OCONNER RD  / NARLAND LN TOA: 20:46 09/22/10 a/m pysch emer NORTH BABYLON FC 2010-002395
+*** 23 - Miscellaneous Fire *** SR CITZ APTS (5 BLDGS) COMPLEX 15 WEEKS RD CS: DEER PARK AVE  / MULHOLLAND DR TOA: 11:07 09/23/10 INVEST NORTH B
+	  */
 	 Log.v("DecodeBabylonPage: Message Body of:" + body);
 	  strState="NY";
 	  String tmpAddress="";
@@ -519,6 +528,12 @@ Unconscious / Fainting (Near). Not alert. Caller Statement: UNCON.
           }
           strCross = tmpAddress;
           strUnit = AData[3];
+          if (body.contains("FC ")){
+        	  int iStart = body.indexOf("FC ");
+        	  int iEnd = body.indexOf(" ",iStart+3);
+        	  if (iEnd <=0) {iEnd = body.length(); }
+        	  strUnit = strUnit + " #" + body.substring(iStart+3, iEnd);      	  
+          }
       }catch (IndexOutOfBoundsException ex) {
         Log.v("Exception in decodeDixHillsPage-" + ex.getMessage());
       }

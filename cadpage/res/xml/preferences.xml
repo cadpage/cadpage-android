@@ -147,7 +147,9 @@
           android:summaryOff="@string/pref_noShowInCall_summaryoff"
           android:defaultValue="@string/pref_noShowInCall_default" 
           android:dependency="@string/pref_popup_enabled_key"/>
-      </PreferenceCategory>
+      <CheckBoxPreference
+          android:summaryOff="@string/pref_passthrusms_summaryoff" android:summaryOn="@string/pref_passthrusms_summaryon" android:defaultValue="@string/pref_passthrusms_default" android:title="@string/pref_passthrusms_title" android:key="@string/pref_passthrusms_key"/>
+</PreferenceCategory>
       <PreferenceCategory
         android:title="@string/pref_screen_category">
         <CheckBoxPreference
