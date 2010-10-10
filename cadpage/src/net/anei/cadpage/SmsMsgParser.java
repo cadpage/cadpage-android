@@ -172,11 +172,32 @@ public class SmsMsgParser {
         case 9:
         	decodeBabylonPage(strMessage); 
         	break;
+        case 10:
+        	decodeMaconPage(strMessage);
+        	break;
         }
 
   }
 
-  private static Properties LCFRCityCodes = buildCodeTable(new String[]{
+  private void decodeMaconPage(String body) {
+	/*
+	 * 911 CENTER:88S >STRUCTURE FIRE REPORTED AT 1650 WIDE HORIZON DR FRANKLIN AAAAA, AAAAA 5555554752 Map: Grids:0,0
+911 CENTER:90F >FIRE ALARM 120 RIVERVIEW ST FRANKLIN ANGEL MEDICAL CENTER 5555558411 Map: Grids:0,0
+911 CENTER:88S >STRUCTURE FIRE REPORTED AT 289 SUTTON LN FRANKLIN AAAAA, AAAAAAA& AAAAAA 5555550077 Map: Grids:0,0
+911 CENTER:MED >EMERGENCY RUN 248 HARRISON AVE XS: W MAIN ST TO BRYSON CITY RD FRANKLIN AAAAAA, CHARMAYNE 5555553738 Map: Grids:0,0
+911 CENTER:C1 >EMERGENCY RUN 11 CHATTACHOEE LN FRANKLIN VERIZON WIRELESS 5555555059
+911 CENTER:C1 >EMERGENCY RUN 236 PAULINE AVE XS: ULCO DR FRANKLIN AAAAA, AAAAAAA P 5555555567 Map: Grids:0,0
+911 CENTER:88S >STRUCTURE FIRE REPORTED AT 1682 LEATHERMAN GAP RD FRANKLIN  AAA, ANGIE 5555554829 Map: Grids:0,0
+911 CENTER:50 >VEHICLE ACCIDENT 837 GEORGIA RD FRANKLIN AAAAA 5555558237 Map: Grids:0,0
+	 */
+	  Log.v("decodeLCFRPage: Message Body of:" + body);
+	  strState = "NC";
+	  body= body.replace(">","Call:");
+	  
+	  
+}
+
+private static Properties LCFRCityCodes = buildCodeTable(new String[]{
       "CH", "Chantilly",
       "LB", "Leesburg",
       "AL", "Aldie",

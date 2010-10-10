@@ -151,6 +151,7 @@
 <item>7</item>
 <item>8</item>
 <item>9</item>
+<item>10</item>
 </string-array>
 <string-array name="pref_location_options">
   <item>Loudoun, VA</item>
@@ -162,5 +163,6 @@
 <item>Livingston, MI</item>
 <item>Dix Hills, NY</item>
 <item>Babylon, NY</item>
+<item>Macon County, NC</item>
 </string-array>
 </resources>
