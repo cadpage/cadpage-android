@@ -1,10 +1,6 @@
 package net.anei.cadpage;
 
-import java.net.URLEncoder;
-import java.util.Date;
 import java.util.Properties;
-
-import android.text.format.Time;
 
 
 /**
@@ -127,10 +123,6 @@ public class SmsMsgParser {
     String[] phrases = new String[]{"Call:", "TYPE:", "Map:", "(Corvallis Alert)","Cad:","OCSO E911:","CAD:","***","***"};
     if (iLocation > phrases.length) return false;
     boolean result = (msgText.indexOf(phrases[iLocation-1]) >= 0);
-    if (! result && Log.DEBUG) {
-      Log.v("Not a CAD message for " + iLocation);
-      Log.v("msg:" + msgText);
-    }
     return result;
   }
   
@@ -512,9 +504,10 @@ Unconscious / Fainting (Near). Not alert. Caller Statement: UNCON.
         Log.v("Exception in decodeLivingston-" + ex.getMessage());
       }
   }
+  
  private void decodeBabylonPage(String body) {
 	 /*
-	  * *** 13 - Structure Fire *** 147 CHERUBINA LN CS: LEADER AVE  / SKIDMORE RD TOA: 22:37 09/22/10 OIL BURNER NORTH BABYLON FC 2010-002398 HY: 8' 11
+*** 13 - Structure Fire *** 147 CHERUBINA LN CS: LEADER AVE  / SKIDMORE RD TOA: 22:37 09/22/10 OIL BURNER NORTH BABYLON FC 2010-002398 HY: 8' 11
 *** 13 - Structure Fire *** 514 MOUNT PL CS: ESSEX ST  / LAKEWAY DR TOA: 19:55 09/22/10 NORTH BABYLON FC 2010-002393 HY: 12' 533 MOUNT PL @ ESSE
 *** 2nd/16 - Rescue *** 733 HIGHRIDGE RD CS: OCONNER RD  / NARLAND LN TOA: 20:46 09/22/10 a/m pysch emer NORTH BABYLON FC 2010-002395
 *** 23 - Miscellaneous Fire *** SR CITZ APTS (5 BLDGS) COMPLEX 15 WEEKS RD CS: DEER PARK AVE  / MULHOLLAND DR TOA: 11:07 09/23/10 INVEST NORTH B
@@ -563,7 +556,7 @@ Unconscious / Fainting (Near). Not alert. Caller Statement: UNCON.
 
  private void decodeDixHillsPage(String body) {
 		/*
-* 2010-001784 23:36 *** 16- Rescue *** 17 BRYCEWOOD DR SPIEGEL, LORI A Dix Hills HQ ARISTA DR 31-A-1 UNCONSCIOUS / FAINTING (NEAR) CEWOOD DR DIXHIL TYPE:
+2010-001784 23:36 *** 16- Rescue *** 17 BRYCEWOOD DR SPIEGEL, LORI A Dix Hills HQ ARISTA DR 31-A-1 UNCONSCIOUS / FAINTING (NEAR) CEWOOD DR DIXHIL TYPE:
 2010-001779 10:34 *** 24/16- Mutual Aid *** 51 BALDWIN PATH  Dix Hills HQ
 2010-001777 15:54 *** 16- Rescue ***  DEER PARK AV DEER PARK AV & MARYLAND ST Dix Hills HQ MARYLAND ST
 2010-001778 15:54 *** 23- Misc Fire ***  DEER PARK AV DEER PARK AV & MARYLAND ST Dix Hills HQ MARYLAND ST

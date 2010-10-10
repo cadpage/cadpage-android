@@ -48,11 +48,10 @@ public class SmsReceiver extends BroadcastReceiver {
     // And determine if this is a CAD Page call
     if (message != null && cadPageCall(context, message)){
     	
-      // If it is, abort broadcast to any other receivers
-      Boolean bSmsPass = ManagePreferences.smspassthru();
-      if (bSmsPass==false) {
-      abortBroadcast();
-      }
+      // If it is, and we are not configured to do otherwise, 
+      // abort broadcast to any other receivers
+      if (! ManagePreferences.smspassthru()) abortBroadcast();
+
       // Add new message to the message queue
       SmsMessageQueue.getInstance().addNewMsg(message);
     
