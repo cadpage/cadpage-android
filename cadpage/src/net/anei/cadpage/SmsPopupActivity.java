@@ -9,6 +9,8 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import com.google.tts.TTS;
 import com.google.tts.TTSVersionAlert;
@@ -817,7 +819,13 @@ private boolean externalStorageAvailable() {
     if (Log.DEBUG) Log.v("Request Received to Map Call");
     if (haveNet()) {
         String searchStr = parser.getFullAddress();
-        Uri uri = Uri.parse("geo:0,0?q=" + Uri.encode(searchStr));
+        String coords = parseGPSCoords(searchStr);
+        if (coords != null) {
+          searchStr = coords;
+        } else {
+          searchStr = Uri.encode(searchStr);
+        }
+        Uri uri = Uri.parse("geo:0,0?q=" + searchStr);
         if (Log.DEBUG) Log.v("mapMessage: SearchStr=" + searchStr);
         Intent intent = new Intent(Intent.ACTION_VIEW, uri);
         
@@ -853,6 +861,23 @@ private boolean haveNet(){
     return true;
 
 }
+
+
+/**
+ * Look for GPS coordinates in address line.  If found, parse them into a
+ * set of coordinates that Google Maps will recognize
+ */
+private String parseGPSCoords(String address) {
+  Matcher match = GPSPattern.matcher(address);
+  if (!match.find()) return null;
+  
+  String latitude = match.group(1);
+  String longitude = match.group(2);
+  if (Character.isDigit(longitude.charAt(0))) longitude = "-" + longitude;
+  return latitude + "," + longitude;
+}
+private static final Pattern GPSPattern = 
+  Pattern.compile("\\b([+-]?[0-9]+\\.[0-9]+)\\W+([+-]?[0-9]+\\.[0-9]+)\\b");
 
   /**
    * View the private message (this basically just unlocks the keyguard and then

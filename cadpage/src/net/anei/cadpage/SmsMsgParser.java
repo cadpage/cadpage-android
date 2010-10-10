@@ -60,9 +60,7 @@ public class SmsMsgParser {
       sb.append(strState);
     }
     
-    String strFullAddress = URLEncoder.encode(sb.toString());
-    //strFullAddress = strFullAddress + "&z=9";
-    return strFullAddress;
+    return sb.toString();
 	}
   /**
    * @return the call city
