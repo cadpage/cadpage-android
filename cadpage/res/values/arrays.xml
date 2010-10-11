@@ -158,11 +158,25 @@
   <item>Suffolk, NY</item>
   <item>Harris, Tx</item>
   <item>Benton County, OR</item>
-<item>Herkimer, NY</item>
-<item>Oconee, GA</item>
-<item>Livingston, MI</item>
-<item>Dix Hills, NY</item>
-<item>Babylon, NY</item>
-<item>Macon County, NC</item>
+  <item>Herkimer, NY</item>
+  <item>Oconee, GA</item>
+  <item>Livingston, MI</item>
+  <item>Dix Hills, NY</item>
+  <item>Babylon, NY</item>
+  <item>Macon County, NC</item>
+</string-array>
+
+<string-array name="email_devel_addr">
+  <item>cadpage@arcolavfd.org</item>
+</string-array>
+<string-array name="email_devel_subject">
+  <item>general comment</item>
+  <item>message problem</item>
+  <item>crash report</item>
+</string-array>
+<string-array name="email_devel_text">
+  <item>Would you like to send an email to the CadPage developers about general issues or comments?</item>
+  <item>Would you like to send an email to the CadPage developers about issues or problems with this particular message?</item>
+  <item>Oh dear, it seems that CadPage has crashed.  Would you like report this problem to the CadPage developers?</item>
 </string-array>
 </resources>

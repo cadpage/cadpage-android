@@ -244,7 +244,8 @@
                              android:defaultValue="*"/></PreferenceCategory>
   <Preference
     android:key="@string/pref_testmsg_key"
-    android:title="@string/pref_testmsg_title" ></Preference>
+    android:title="@string/pref_testmsg_title" >
+  </Preference>
   <PreferenceCategory
     android:key="@string/pref_other_key"
     android:title="@string/pref_other_title">
@@ -263,14 +264,9 @@
       android:dialogTitle="@string/app_name"
       android:summary="@string/pref_about_summary"
       android:negativeButtonText="@null" />
-    <net.anei.cadpage.preferences.EmailDialogPreference
-      android:key="@string/pref_sendemail_key"
-      android:title="@string/pref_sendemail_title"
-      android:summary="@string/pref_sendemail_summary"
-      android:dialogIcon="@drawable/cadpage_icon"
-      android:dialogTitle="@string/pref_sendemail_title"
-      android:dialogMessage="@string/pref_sendemail_dialog"
-      android:positiveButtonText="@string/pref_sendemail_buttonok"
-      android:negativeButtonText="@string/pref_sendemail_buttoncancel" />
+  <Preference
+    android:key="@string/pref_email_key"
+    android:title="@string/pref_email_title" 
+    android:summary="@string/pref_email_summary" />
   </PreferenceCategory>
 </PreferenceScreen>

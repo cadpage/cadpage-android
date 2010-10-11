@@ -195,7 +195,7 @@ public class SmsMmsMessage implements Serializable {
    * @param sb String builder holding message being constructed
    */
   public void addMessageInfo(Context context, StringBuilder sb) {
-    sb.append("\nMessage Contents\n");
+    sb.append("\n\nMessage Contents\n");
     
     sb.append("Time:");
     sb.append(DateFormat.getLongDateFormat(context).format(timestamp));

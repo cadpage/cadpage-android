@@ -41,7 +41,7 @@
 
    <string name="pref_about_title">About</string>
    <string name="pref_about_summary">About CAD Page</string>
-   <string name="pref_about_text">Modified by Derrick Bennett, based on Code by : Adam K (SMS Popup Application)\n</string>
+   <string name="pref_about_text">Modified by Derrick Bennett and Ken Corbin, based on Code by : Adam K (SMS Popup Application)\n</string>
 
    <string name="pref_faq_title">FAQ</string>
    <string name="pref_faq_summary">Frequently Asked Questions</string>
@@ -50,12 +50,6 @@
    <string name="pref_releasenotes_title">What\'s New?</string>
    <string name="pref_releasenotes_summary">See what\'s new in this version</string>
    <string name="pref_releasenotes_text">\nhttp://code.google.com/p/cadpage/wiki/ReleaseNotes</string>
-
-   <string name="pref_sendemail_title">E-mail the Developer</string>
-   <string name="pref_sendemail_summary">E-mail comments or bugs to the developer</string>
-   <string name="pref_sendemail_dialog">Can I include your system information in the e-mail (this will help me troubleshoot bugs easier)?</string>
-   <string name="pref_sendemail_buttonok">Sure</string>
-   <string name="pref_sendemail_buttoncancel">No way</string>
    
 <!-- Additional Preferences -->
    <string name="pref_popup_control">Alarm Popup Control</string>
@@ -90,6 +84,8 @@
    <string name="pref_useGoogleMapApp_summaryoff">Call Map button wil launch local Map window</string>
    
    <string name="pref_testmsg_title">Test response to last page</string>
+   <string name="pref_email_title">E-mail the Developer</string>
+   <string name="pref_email_summary">E-mail comments or bugs to the developer</string>
 
    <string name="pref_require_unlock_title">Require Screen Unlock</string>
    <string name="pref_require_unlock_summaryon">Buttons will be hidden till screen is unlocked</string>
@@ -330,23 +326,30 @@
     <string name="pref_led_pattern_entries_fast">Fast</string>
     <string name="pref_led_pattern_entries_normal">Normal</string>
     <string name="pref_led_pattern_entries_slow">Slow</string>
-<string name="button_map">Map Call</string>
+    <string name="button_map">Map Call</string>
+    
+    
+    <string name="CallAddress">None</string>
+    
+    
+    <string name="pref_location">location</string>
+    <string name="pref_location_title">Location</string>
+    <string name="pref_filter_title">From: (Filter)</string>
+    <string name="pref_filter_summary">Only Messages from this address will be checked.</string>
+    <string name="pref_filter_dialog">Enter Email addres to filter messages. * will scan all.</string>
+    <string name="pref_filter">*</string>
+    <string name="app_file_dir">/Android/data/cadpage/files/</string>
+    <string name="app_file_name">callhistory.csv</string>
+    <string name="exit">Exit</string>
+    <string name="clearall_text">Clear All</string>
+    <string name="pref_passthrusms_title">Pass Calls through to SMS Client</string>
+    <string name="pref_passthrusms_summaryoff">Do not pass CadPage calls to SMS Client</string>
+    <string name="pref_passthrusms_summaryon">Pass all calls through to default SMS Client</string>
+    
+    <string name="pref_sendemail_title">E-mail the developers</string>
+    <string name="pref_sendemail_summary">E-mail comments or bugs to the developers</string>
+    
+    <string name="sendemail_btn_ok">Send</string>
+    <string name="sendemail_btn_cancel">Cancel</string>
 
-
-<string name="CallAddress">None</string>
-
-
-<string name="pref_location">location</string>
-<string name="pref_location_title">Location</string>
-<string name="pref_filter_title">From: (Filter)</string>
-<string name="pref_filter_summary">Only Messages from this address will be checked.</string>
-<string name="pref_filter_dialog">Enter Email addres to filter messages. * will scan all.</string>
-<string name="pref_filter">*</string>
-<string name="app_file_dir">/Android/data/cadpage/files/</string>
-<string name="app_file_name">callhistory.csv</string>
-<string name="exit">Exit</string>
-<string name="clearall_text">Clear All</string>
-<string name="pref_passthrusms_title">Pass Calls through to SMS Client</string>
-<string name="pref_passthrusms_summaryoff">Do not pass CadPage calls to SMS Client</string>
-<string name="pref_passthrusms_summaryon">Pass all calls through to default SMS Client</string>
 </resources>

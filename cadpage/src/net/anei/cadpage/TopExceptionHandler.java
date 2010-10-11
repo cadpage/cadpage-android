@@ -8,6 +8,8 @@ import java.io.*;
  * stack.trace file before rethrowing the exception
  */
 public class TopExceptionHandler implements Thread.UncaughtExceptionHandler {
+  
+  private static final String STACKTRACE_FILE = "stack.trace";
 
   private static Thread.UncaughtExceptionHandler defaultUEH;
 
@@ -33,14 +35,37 @@ public class TopExceptionHandler implements Thread.UncaughtExceptionHandler {
     String report = sw.toString();
 
     // And write it to stack.trace
+    FileOutputStream trace = null; 
     try {
-      FileOutputStream trace = 
-        context.openFileOutput("stack.trace", Context.MODE_PRIVATE);
+      trace = context.openFileOutput(STACKTRACE_FILE, Context.MODE_PRIVATE);
       trace.write(report.getBytes());
       trace.close();
     } catch(IOException ioe) {}
+    finally {
+      if (trace != null) try { trace.close(); } catch (IOException ex) {}
+    }
 
     // Finally throw the exception again
     defaultUEH.uncaughtException(t, e);
+  }
+
+  /**
+   * Append most recent stack trace to message body being constructed
+   * @param context current context
+   * @param body StringBuilder containing message body under construction
+   */
+  public static void addCrashReport(Context context, StringBuilder body) {
+    BufferedInputStream trace = null;
+    try {
+      trace = new BufferedInputStream(context.openFileInput(STACKTRACE_FILE));
+      body.append("\n\n");
+      int chr;
+      while ((chr = trace.read()) >= 0) {
+        body.append(chr);
+      }
+    } catch (IOException ex) {}
+    finally {
+      if (trace != null) try { trace.close(); } catch (IOException ex) {}
+    }
   }
 }

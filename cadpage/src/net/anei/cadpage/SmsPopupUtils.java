@@ -42,41 +42,10 @@ public class SmsPopupUtils {
   // The max size of either the width or height of the contact photo
   public static final int CONTACT_PHOTO_MAXSIZE = 1024;
 
-  private static final String[] AUTHOR_CONTACT_INFO = { "cadpage@arcolavfd.org" };
-  private static final String[] AUTHOR_CONTACT_INFO_DONATE = { "cadpage@arcolavfd.org" };
-
   public static final Uri DONATE_PAYPAL_URI =
     Uri.parse("Not Available Yet");
   public static final Uri DONATE_MARKET_URI =
     Uri.parse("Not Available Yet");
-
-  /**
-   * Launch support request email
-   * @param context context of request
-   * @param reason short description of request
-   * @param includeConfig true if user authorized including configuration information
-   * @param message if not null, message to be included in request
-   */
-  public static void launchEmailToIntent(Context context, String reason, 
-                                           boolean includeConfig, SmsMmsMessage message) {
-    Intent msg = new Intent(Intent.ACTION_SEND);
-
-    SharedPreferences myPrefs = PreferenceManager.getDefaultSharedPreferences(context);
-    boolean donated = myPrefs.getBoolean(context.getString(R.string.pref_donated_key), false);
-
-    StringBuilder body = new StringBuilder();
-
-    if (message != null) message.addMessageInfo(context, body);
-    if (includeConfig) ManagePreferences.addConfigInfo(context, body);
-
-    msg.putExtra(Intent.EXTRA_EMAIL, donated ? AUTHOR_CONTACT_INFO_DONATE : AUTHOR_CONTACT_INFO);
-    msg.putExtra(Intent.EXTRA_SUBJECT, getNameVersion(context) + " " + reason);
-    msg.putExtra(Intent.EXTRA_TEXT, body.toString());
-
-    msg.setType("message/rfc822");
-    context.startActivity(Intent.createChooser(
-        msg, context.getString(R.string.pref_sendemail_title)));
-  }
   
   
   private static String nameVersion = null;

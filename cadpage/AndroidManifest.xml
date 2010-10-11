@@ -17,14 +17,10 @@
       </intent-filter>
     </activity>
 
-    <activity android:name=".SmsPopupConfigActivity" android:label="@string/pref_config_title" android:launchMode="singleTask" android:configChanges="keyboardHidden|orientation">
-      <intent-filter>
-      </intent-filter>
-    </activity>
-    <activity android:name=".ConfigPresetMessagesActivity" android:label="@string/pref_message_presets_title" android:launchMode="singleTop" android:configChanges="keyboardHidden|orientation">
-    </activity>
-    <activity android:name=".SmsPopupActivity" android:theme="@android:style/Theme.Dialog" android:launchMode="singleTask" android:configChanges="keyboardHidden|orientation" android:screenOrientation="user" android:taskAffinity="net.anei.cadpage.popup">
-    </activity>
+    <activity android:name=".SmsPopupConfigActivity" android:label="@string/pref_config_title" android:launchMode="singleTask" android:configChanges="keyboardHidden|orientation"/>
+    <activity android:name=".ConfigPresetMessagesActivity" android:label="@string/pref_message_presets_title" android:launchMode="singleTop" android:configChanges="keyboardHidden|orientation"/>
+    <activity android:name=".SmsPopupActivity" android:theme="@android:style/Theme.Dialog" android:launchMode="singleTask" android:configChanges="keyboardHidden|orientation" android:screenOrientation="user" android:taskAffinity="net.anei.cadpage.popup"/>
+    <activity android:name=".EmailDeveloperActivity" android:theme="@android:style/Theme.Dialog" android:launchMode="singleTask" android:configChanges="keyboardHidden|orientation" android:screenOrientation="user"/>
     <receiver android:name=".SmsReceiver">
       <intent-filter android:priority="1000">
         <action android:name="android.provider.Telephony.SMS_RECEIVED" />
@@ -79,15 +75,15 @@
   <uses-permission
     android:name="android.permission.READ_PHONE_STATE" />
 
-<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+<!--uses-permission android:name="android.permission.INTERNET"></uses-permission-->
 
 
-<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"></uses-permission>
-<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
+<!--uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"></uses-permission-->
+<!--uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission-->
 
 <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
 
-<uses-permission android:name="android.permission.READ_CONTACTS"></uses-permission>
+<!--uses-permission android:name="android.permission.READ_CONTACTS"></uses-permission-->
 
 
 

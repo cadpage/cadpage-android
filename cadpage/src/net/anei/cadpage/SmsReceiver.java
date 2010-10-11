@@ -8,6 +8,7 @@ import java.io.ObjectOutputStream;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
+import android.preference.Preference;
 import android.telephony.SmsMessage;
 import android.telephony.TelephonyManager;
 import android.telephony.SmsMessage.MessageClass;
@@ -15,6 +16,7 @@ import android.telephony.SmsMessage.MessageClass;
 public class SmsReceiver extends BroadcastReceiver {
   
   private static String MSG_FILENAME = "last.msg";
+  private static String EXTRA_REPEAT_LAST = "net.anei.cadpage.SmsReceive.REPEAT_LAST";
 
   @Override
   public void onReceive(Context context, Intent intent) {
@@ -25,18 +27,8 @@ public class SmsReceiver extends BroadcastReceiver {
     // If repeat_last flag is set, this is a fake intent instructing us
     // to reprocess the most recently recieved message (that passed the 
     // sender address filter
-    if (intent.getBooleanExtra("repeat_last", false)) {
-      ObjectInputStream is = null;
-      try {
-        is = new ObjectInputStream(
-          context.openFileInput(MSG_FILENAME));
-        message = SmsMmsMessage.readObject(is);
-      } catch (FileNotFoundException ex) {
-      } catch (Exception ex) {
-        Log.e(ex);
-      } finally {
-        if (is != null) try {is.close();} catch (IOException ex) {}
-      }
+    if (intent.getBooleanExtra(EXTRA_REPEAT_LAST, false)) {
+      message = getLastMessage(context);
     }
     // Otherwise convert Intent into an SMS/MSS message
     else {
@@ -138,6 +130,38 @@ public class SmsReceiver extends BroadcastReceiver {
     
     // Otherwise OK
     return true;
+  }
+  
+  /**
+   * Request most recently received page be reprocessed
+   * @param context requesting context
+   */
+  public static void repeatLastPage(Context context) {
+    Intent intent = new Intent("android.provider.Telephony.SMS_RECEIVED");
+    intent.setClass(context, SmsReceiver.class);
+    intent.putExtra(EXTRA_REPEAT_LAST, true);
+    context.sendOrderedBroadcast(intent, null);
+  }
+
+  /**
+   * Retrieve most recently processed message
+   * @param context current context
+   * @return most recently processed message if found, null otherwise
+   */
+  public static SmsMmsMessage getLastMessage(Context context) {
+    SmsMmsMessage msg = null;
+    ObjectInputStream is = null;
+    try {
+      is = new ObjectInputStream(
+        context.openFileInput(MSG_FILENAME));
+      msg = SmsMmsMessage.readObject(is);
+    } catch (FileNotFoundException ex) {
+    } catch (Exception ex) {
+      Log.e(ex);
+    } finally {
+      if (is != null) try {is.close();} catch (IOException ex) {}
+    }
+    return msg;
   }
 }
 

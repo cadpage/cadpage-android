@@ -6,7 +6,6 @@
    <string name="pref_about_key">about</string>
    <string name="pref_faq_key">faq</string>
    <string name="pref_releasenotes_key">releasenotes</string>
-   <string name="pref_sendemail_key">sendemail</string>
    <string name="pref_timeout_key">timeout</string>
    <string name="pref_dimscreen_key">dimscreen</string>
    <string name="pref_privacy_key">privacy</string>
@@ -62,6 +61,7 @@
    <string name="pref_filter_key">filter</string>
    <string name="pref_useGoogleMapApp_key">useGoogleMapApp</string>
    <string name="pref_testmsg_key">testmsg</string>
+   <string name="pref_email_key">emaildev</string>
    
    <string name="settings_key">settings</string>
 <string name="pref_passthrusms_key">passthrusms</string>

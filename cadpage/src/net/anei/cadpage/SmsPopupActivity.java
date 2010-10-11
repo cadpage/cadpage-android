@@ -126,11 +126,10 @@ public class SmsPopupActivity extends Activity {
   protected void onCreate(Bundle bundle) {
     super.onCreate(bundle);
     if (Log.DEBUG) Log.v("SMSPopupActivity: onCreate()");
-    // First things first, acquire wakelock, otherwise the phone may sleep
-    //ManageWakeLock.acquirePartial(getApplicationContext());
 
     requestWindowFeature(Window.FEATURE_NO_TITLE);
     setContentView(R.layout.popup);
+    
     // Check if screen orientation should be "user" or "behind" based on prefs
     if (ManagePreferences.autoRotate()) {
       setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_USER);

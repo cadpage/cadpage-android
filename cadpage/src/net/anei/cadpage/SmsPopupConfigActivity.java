@@ -172,17 +172,21 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
 */
     // Test message response
     Preference testmsgPref = findPreference(getString(R.string.pref_testmsg_key));
-//    testmsgPref.setEnabled(SmsReceiver.isRepeatEnabled(this));
     testmsgPref.setOnPreferenceClickListener(new OnPreferenceClickListener(){
       @Override
       public boolean onPreferenceClick(Preference preference) {
-        Intent intent = new Intent("android.provider.Telephony.SMS_RECEIVED");
-        intent.setClass(SmsPopupConfigActivity.this, SmsReceiver.class);
-        intent.putExtra("repeat_last", true);
-        SmsPopupConfigActivity.this.sendOrderedBroadcast(intent, null);
+        SmsReceiver.repeatLastPage(SmsPopupConfigActivity.this);
         return true;
       }});
     
+    // Email developer response
+    Preference emailPref = findPreference(getString(R.string.pref_email_key));
+    emailPref.setOnPreferenceClickListener(new OnPreferenceClickListener(){
+      @Override
+      public boolean onPreferenceClick(Preference preference) {
+        EmailDeveloperActivity.sendDeveloperEmail(SmsPopupConfigActivity.this, EmailDeveloperActivity.EmailType.GENERAL);
+        return true;
+      }});
     
     // Donate dialog preference
     donateDialogPref = findPreference(getString(R.string.pref_donate_key));
