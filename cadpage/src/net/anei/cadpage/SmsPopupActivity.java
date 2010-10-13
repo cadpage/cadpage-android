@@ -44,6 +44,8 @@ import android.text.TextUtils;
 import android.view.ContextMenu;
 import android.view.Display;
 import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewStub;
 import android.view.Window;
@@ -279,7 +281,7 @@ public class SmsPopupActivity extends Activity {
 //          speakMessage();
           break;
         case ButtonListPreference.BUTTON_MAP: // Google Map the Call
-          mapMessage();
+          message.menuItemSelected(SmsPopupActivity.this, R.id.map_item);
           break;
       }
     }
@@ -413,7 +415,7 @@ public class SmsPopupActivity extends Activity {
 
     // Store message
     message = newMessage;
-    parser = new SmsMsgParser(newMessage.getMessageFull());
+    parser = message.getParser();
     
     // If it's a MMS message, just show the MMS layout
     if (message.getMessageType() == SmsMmsMessage.MESSAGE_TYPE_MMS) {
@@ -503,30 +505,6 @@ public class SmsPopupActivity extends Activity {
     //storeFileMessage();
     
   } //end of function
-
-  
-private void storeFileMessage(String sMessage) {
-	// Store the message in a flat file for History.
-	//Use calldata to get information.
-	String sFileName = R.string.app_file_dir +"/" + R.string.app_file_name;
-	if (externalStorageAvailable()){
-		File sdcard = Environment.getExternalStorageDirectory();
-		try {
-			FileOutputStream fos = openFileOutput(sFileName,Context.MODE_APPEND);
-			try {
-				fos.write(sMessage.getBytes());
-			} catch (IOException e) {
-				if (Log.DEBUG) Log.v("Exception in storeFileMessage Open for Writing." + e.toString());
-				e.printStackTrace();
-			}
-		} catch (FileNotFoundException e) {
-			if (Log.DEBUG) Log.v("Exception in storeFileMessage Open for Writing." + e.toString());
-			e.printStackTrace();
-		}
-		StringBuilder text = new StringBuilder();
-		
-	}
-}
 
 private boolean externalStorageAvailable() {
 	// From google
@@ -661,43 +639,45 @@ private boolean externalStorageAvailable() {
     }
   }
 
+
+  /* (non-Javadoc)
+   * @see android.app.Activity#onCreateOptionsMenu(android.view.Menu)
+   */
+  @Override
+  public boolean onCreateOptionsMenu(Menu menu) {
+    super.onCreateOptionsMenu(menu);
+    
+    SmsMmsMessage.createMenu(this, menu, true);
+    return true;
+  }
+
+  /* (non-Javadoc)
+   * @see android.app.Activity#onOptionsItemSelected(android.view.MenuItem)
+   */
+  @Override
+  public boolean onOptionsItemSelected(MenuItem item) {
+    if (message.menuItemSelected(this, item.getItemId())) return true;
+    return super.onOptionsItemSelected(item);
+  }
+
   /*
    * Create Context Menu (Long-press menu)
    */
   @Override
   public void onCreateContextMenu(ContextMenu menu, View v, ContextMenuInfo menuInfo) {
     super.onCreateContextMenu(menu, v, menuInfo);
-
-    menu.add(Menu.NONE, CONTEXT_VIEWCONTACT_ID, Menu.NONE, getString(R.string.view_contact));
-    menu.add(Menu.NONE, CONTEXT_CLOSE_ID, Menu.NONE, getString(R.string.button_close));
-    menu.add(Menu.NONE, CONTEXT_DELETE_ID, Menu.NONE, getString(R.string.button_delete));
-    menu.add(Menu.NONE, CONTEXT_REPLY_ID, Menu.NONE, getString(R.string.button_reply));
-    menu.add(Menu.NONE, CONTEXT_QUICKREPLY_ID, Menu.NONE, getString(R.string.button_quickreply));
-    menu.add(Menu.NONE, CONTEXT_TTS_ID, Menu.NONE, getString(R.string.button_tts));
-    menu.add(Menu.NONE, CONTEXT_INBOX_ID, Menu.NONE, getString(R.string.button_inbox));
+    
+    SmsMmsMessage.createMenu(this, menu, true);
   }
 
   /*
    * Context Menu Item Selected
    */
-//  @Override
-//  public boolean onContextItemSelected(MenuItem item) {
-//    switch (item.getItemId()) {
-//      case CONTEXT_CLOSE_ID:
-//        closeMessage();
-//        break;
-//      case CONTEXT_DELETE_ID:
-//        showDialog(DIALOG_DELETE);
-//        break;
-//      case CONTEXT_INBOX_ID:
-//        gotoInbox();
-//        break;
-//      case CONTEXT_TTS_ID:
-//        speakMessage();
-//        break;
-//    }
-//    return super.onContextItemSelected(item);
-//  }
+  @Override
+  public boolean onContextItemSelected(MenuItem item) {
+    if (message.menuItemSelected(this, item.getItemId())) return true;
+    return super.onContextItemSelected(item);
+  }
 
   /*
    * Handle the results from the recognition activity.
@@ -809,74 +789,6 @@ private boolean externalStorageAvailable() {
       }
     }
   }
-
-  /**
-   * Close the message window/popup, mark the message read if the user has this option on
-   */
-  
-  private void  mapMessage()  {
-    if (Log.DEBUG) Log.v("Request Received to Map Call");
-    if (haveNet()) {
-        String searchStr = parser.getFullAddress();
-        String coords = parseGPSCoords(searchStr);
-        if (coords != null) {
-          searchStr = coords;
-        } else {
-          searchStr = Uri.encode(searchStr);
-        }
-        Uri uri = Uri.parse("geo:0,0?q=" + searchStr);
-        if (Log.DEBUG) Log.v("mapMessage: SearchStr=" + searchStr);
-        Intent intent = new Intent(Intent.ACTION_VIEW, uri);
-        
-        try {
-            startActivity(intent);
-        } catch (ActivityNotFoundException ex) {
-            Log.e("Could not find com.google.android.maps.Maps activity");
-        }
-        
-    } else {
-      if (Log.DEBUG) Log.v("Error: No Network Connection.");
-      Dialog locationError = new AlertDialog.Builder(
-          this).setIcon(0).setTitle("Error").setPositiveButton("Ok", null)
-          .setMessage("Unable to Map Address due to Network Failure.")
-          .create();
-      locationError.show();
-    }
-  }
-	
-private boolean haveNet(){
-
-    NetworkInfo info = (NetworkInfo) ((ConnectivityManager) this
-            .getSystemService(Context.CONNECTIVITY_SERVICE)).getActiveNetworkInfo();
-
-    if (info == null || !info.isConnected()) {
-        return false;
-    }
-    if (info.isRoaming()) {
-        // here is the roaming option you can change it if you want to
-        // disable internet while roaming, just return false
-        return false;
-    }
-    return true;
-
-}
-
-
-/**
- * Look for GPS coordinates in address line.  If found, parse them into a
- * set of coordinates that Google Maps will recognize
- */
-private String parseGPSCoords(String address) {
-  Matcher match = GPSPattern.matcher(address);
-  if (!match.find()) return null;
-  
-  String latitude = match.group(1);
-  String longitude = match.group(2);
-  if (Character.isDigit(longitude.charAt(0))) longitude = "-" + longitude;
-  return latitude + "," + longitude;
-}
-private static final Pattern GPSPattern = 
-  Pattern.compile("\\b([+-]?[0-9]+\\.[0-9]+)\\W+([+-]?[0-9]+\\.[0-9]+)\\b");
 
   /**
    * View the private message (this basically just unlocks the keyguard and then

@@ -1,7 +1,11 @@
 package net.anei.cadpage;
 
+import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import android.app.AlertDialog;
+import android.app.Dialog;
+import android.content.ActivityNotFoundException;
 import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
@@ -9,6 +13,8 @@ import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.content.pm.PackageManager.NameNotFoundException;
 import android.database.Cursor;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.net.Uri;
 import android.preference.PreferenceManager;
 import android.telephony.SmsMessage;
@@ -180,4 +186,78 @@ public class SmsPopupUtils {
     }
     return version_sdk;
   }
+  
+
+  /**
+   * Request map location for message
+   */
+  public static void  mapMessage(Context context, SmsMsgParser parser)  {
+    if (Log.DEBUG) Log.v("Request Received to Map Call");
+    if (haveNet(context)) {
+        String searchStr = parser.getFullAddress();
+        String coords = parseGPSCoords(searchStr);
+        if (coords != null) {
+          searchStr = coords;
+        } else {
+          searchStr = Uri.encode(searchStr);
+        }
+        Uri uri = Uri.parse("geo:0,0?q=" + searchStr);
+        if (Log.DEBUG) Log.v("mapMessage: SearchStr=" + searchStr);
+        Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+        
+        try {
+            context.startActivity(intent);
+        } catch (ActivityNotFoundException ex) {
+            Log.e("Could not find com.google.android.maps.Maps activity");
+        }
+        
+    } else {
+      if (Log.DEBUG) Log.v("Error: No Network Connection.");
+      Dialog locationError = new AlertDialog.Builder(context)
+          .setIcon(0).setTitle("Error").setPositiveButton("Ok", null)
+          .setMessage("Unable to Map Address due to Network Failure.")
+          .create();
+      locationError.show();
+    }
+  }
+
+  /**
+   * Determine if we have Internet connectivity
+   * @param context current context
+   * @return true if Internet connectivity is established
+   */
+  private static boolean haveNet(Context context){
+
+    NetworkInfo info = (NetworkInfo) ((ConnectivityManager) 
+        context.getSystemService(Context.CONNECTIVITY_SERVICE)).getActiveNetworkInfo();
+
+    if (info == null || !info.isConnected()) {
+      return false;
+    }
+    if (info.isRoaming()) {
+      // here is the roaming option you can change it if you want to
+      // disable Internet while roaming, just return false
+      return false;
+    }
+    return true;
+
+  }
+
+
+  /**
+   * Look for GPS coordinates in address line.  If found, parse them into a
+   * set of coordinates that Google Maps will recognize
+   */
+  private static String parseGPSCoords(String address) {
+    Matcher match = GPSPattern.matcher(address);
+    if (!match.find()) return null;
+
+    String latitude = match.group(1);
+    String longitude = match.group(2);
+    if (Character.isDigit(longitude.charAt(0))) longitude = "-" + longitude;
+    return latitude + "," + longitude;
+  }
+  private static final Pattern GPSPattern = 
+    Pattern.compile("\\b([+-]?[0-9]+\\.[0-9]+)\\W+([+-]?[0-9]+\\.[0-9]+)\\b");
+
 }

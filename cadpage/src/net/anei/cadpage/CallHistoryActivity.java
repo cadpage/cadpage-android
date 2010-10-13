@@ -132,8 +132,7 @@ public class CallHistoryActivity extends ListActivity {
     super.onCreateContextMenu(menu, view, menuInfo);
 
     msgTextView = (HistoryMsgTextView)view;
-    MenuInflater inflater = getMenuInflater();
-    inflater.inflate(R.menu.history_context_menu, menu);
+    SmsMmsMessage.createMenu(this, menu, false);
   }
 
 

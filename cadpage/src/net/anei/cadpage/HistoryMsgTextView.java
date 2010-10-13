@@ -1,5 +1,6 @@
 package net.anei.cadpage;
 
+import android.app.Activity;
 import android.content.Context;
 import android.graphics.Typeface;
 import android.text.format.DateFormat;
@@ -60,7 +61,7 @@ public class HistoryMsgTextView extends TextView {
    * @param itemId Item ID selected
    * @return true if processed, false otherwise
    */
-  public boolean contextMenuItemSelected(Context context, int itemId) {
+  public boolean contextMenuItemSelected(Activity context, int itemId) {
     if (msg == null) return false;
     return msg.menuItemSelected(context, itemId);
   }

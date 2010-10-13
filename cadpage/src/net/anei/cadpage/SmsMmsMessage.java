@@ -5,11 +5,14 @@ import java.io.ObjectInputStream;
 import java.io.OptionalDataException;
 import java.io.Serializable;
 
+import android.app.Activity;
 import android.content.Context;
 import android.telephony.*;
 import android.telephony.SmsMessage.MessageClass;
 import android.text.format.DateFormat;
 import android.text.format.DateUtils;
+import android.view.Menu;
+import android.view.MenuInflater;
 
 public class SmsMmsMessage implements Serializable {
 
@@ -34,7 +37,7 @@ public class SmsMmsMessage implements Serializable {
   private MessageClass messageClass = null;
   private boolean read = false;             
   private boolean locked = false;
-  private transient String call = null;
+  private transient SmsMsgParser parser = null;
   private int msgId = 0;
 
   
@@ -183,10 +186,22 @@ public class SmsMmsMessage implements Serializable {
   }
   
   public String getCall() {
-    if (call == null) {
-      call = new SmsMsgParser(getMessageFull()).getCall();
+    return getParser().getCall();
+  }
+  
+  public SmsMsgParser getParser() {
+    if (parser == null) parser = new SmsMsgParser(messageFull);
+    return parser;
+  }
+  
+  public static void createMenu(Activity context, Menu menu, boolean display) {
+    MenuInflater inflater = context.getMenuInflater();
+    inflater.inflate(R.menu.message_menu, menu);
+    if (display) {
+      menu.removeItem(R.id.open_item);
+    } else {
+      menu.removeItem(R.id.close_item);
     }
-    return call;
   }
 
   /**
@@ -195,18 +210,22 @@ public class SmsMmsMessage implements Serializable {
    * @param itemId Selected Menu ID
    * @return true if menu item processed, false otherwise
    */
-  public boolean menuItemSelected(Context context, int itemId) {
+  public boolean menuItemSelected(Activity context, int itemId) {
     switch (itemId) {
     case R.id.open_item:
       SmsPopupActivity.launchActivity(context, this);
       return true;
       
     case R.id.map_item:
-      // TODO: can't do this until each message has its own parser :(
+      SmsPopupUtils.mapMessage(context, getParser());
       return true;
       
     case R.id.delete_item:
-      // TODO: Not implemented yet :(
+      SmsMessageQueue.getInstance().deleteMessage(this);
+      return true;
+      
+    case R.id.close_item:
+      context.finish();
       return true;
       
     case R.id.email_item:

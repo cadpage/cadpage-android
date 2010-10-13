@@ -350,6 +350,7 @@
     <string name="open_item_text">Open</string>
     <string name="map_item_text">Map</string>
     <string name="delete_item_text">Delete</string>
+    <string name="close_item_text">Close</string>
     <string name="email_item_text">Report Problem</string>   
     
     <!-- Email developer Dialog items -->
