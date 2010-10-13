@@ -54,4 +54,14 @@ public class HistoryMsgTextView extends TextView {
     if (! msg.isRead()) setTypeface(Typeface.DEFAULT_BOLD);
     else setTypeface(Typeface.DEFAULT);
   }
+
+  /**
+   * Process selection from context menu
+   * @param itemId Item ID selected
+   * @return true if processed, false otherwise
+   */
+  public boolean contextMenuItemSelected(Context context, int itemId) {
+    if (msg == null) return false;
+    return msg.menuItemSelected(context, itemId);
+  }
 }

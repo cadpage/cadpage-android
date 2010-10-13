@@ -4,14 +4,20 @@ import android.app.ListActivity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.ContextMenu;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.view.View;
+import android.view.ContextMenu.ContextMenuInfo;
 import android.widget.TextView;
 
 public class CallHistoryActivity extends ListActivity {
   
   private static final String EXTRA_AUTOLAUNCH = "CallHistoryActivity.AUTO_LAUNCH";
+  
+  // keep track of which message text view has opened a context menu
+  private HistoryMsgTextView msgTextView = null;
 
   /* (non-Javadoc)
    * @see android.app.Activity#onCreate(android.os.Bundle)
@@ -19,6 +25,12 @@ public class CallHistoryActivity extends ListActivity {
   @Override
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
+    
+    // If initialization failure in progress, shut down without doing anything
+    if (TopExceptionHandler.isInitFailure()) {
+      finish();
+      return;
+    }
     
     // If preferences have never been initialized, bring up the preference
     // screen to initialize them now.  This is necessary because the new
@@ -111,6 +123,32 @@ public class CallHistoryActivity extends ListActivity {
         return super.onOptionsItemSelected(item);
     }
   }
+
+  /* (non-Javadoc)
+   * @see android.app.Activity#onCreateContextMenu(android.view.ContextMenu, android.view.View, android.view.ContextMenu.ContextMenuInfo)
+   */
+  @Override
+  public void onCreateContextMenu(ContextMenu menu, View view, ContextMenuInfo menuInfo) {
+    super.onCreateContextMenu(menu, view, menuInfo);
+
+    msgTextView = (HistoryMsgTextView)view;
+    MenuInflater inflater = getMenuInflater();
+    inflater.inflate(R.menu.history_context_menu, menu);
+  }
+
+
+  /* (non-Javadoc)
+   * @see android.app.Activity#onContextItemSelected(android.view.MenuItem)
+   */
+  @Override
+  public boolean onContextItemSelected(MenuItem item) {
+    
+    if (msgTextView != null) {
+      if (msgTextView.contextMenuItemSelected(this, item.getItemId())) return true;
+    }
+    return super.onContextItemSelected(item);
+  }
+
 
   /**
    * Launch activity

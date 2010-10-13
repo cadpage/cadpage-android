@@ -14,11 +14,16 @@ public class CadPageApplication extends Application {
   @Override
   public void onCreate() {
     super.onCreate();
-    
-    TopExceptionHandler.enable(this);
-    ManagePreferences.setupPreferences(this);
-    
-    // Reload existing message queue
-    SmsMessageQueue.setupInstance(this);
+    try {
+      ManagePreferences.setupPreferences(this);
+      
+      // Reload existing message queue
+      SmsMessageQueue.setupInstance(this);
+    } catch (Exception ex) {
+      TopExceptionHandler.initializationFailure(this, ex);
+    }
+  
+      TopExceptionHandler.enable(this);
+    Log.v("Initialization complete");
   }
 }

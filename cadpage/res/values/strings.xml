@@ -346,6 +346,13 @@
     <string name="pref_passthrusms_summaryoff">Do not pass CadPage calls to SMS Client</string>
     <string name="pref_passthrusms_summaryon">Pass all calls through to default SMS Client</string>
     
+    <!-- Message menu items -->
+    <string name="open_item_text">Open</string>
+    <string name="map_item_text">Map</string>
+    <string name="delete_item_text">Delete</string>
+    <string name="email_item_text">Report Problem</string>   
+    
+    <!-- Email developer Dialog items -->
     <string name="pref_sendemail_title">E-mail the developers</string>
     <string name="pref_sendemail_summary">E-mail comments or bugs to the developers</string>
     

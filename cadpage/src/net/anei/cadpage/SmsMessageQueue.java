@@ -203,9 +203,9 @@ public class SmsMessageQueue implements Serializable {
    */
   private class Adapter extends ArrayAdapter<SmsMmsMessage> {
     
-    Context context;
+    Activity context;
 
-    public Adapter(Context context) {
+    public Adapter(Activity context) {
       super(context, 0, queue);
       this.context = context;
     }
@@ -219,6 +219,7 @@ public class SmsMessageQueue implements Serializable {
       if (view == null) {
         LayoutInflater li = LayoutInflater.from(context);
         view = li.inflate(R.layout.msg_list_item, parent, false);
+        context.registerForContextMenu(view);
       }
       ((HistoryMsgTextView)view).setMessage(queue.get(position));
       return view;

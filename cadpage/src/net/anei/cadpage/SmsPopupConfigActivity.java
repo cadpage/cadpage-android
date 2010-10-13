@@ -184,7 +184,7 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
     emailPref.setOnPreferenceClickListener(new OnPreferenceClickListener(){
       @Override
       public boolean onPreferenceClick(Preference preference) {
-        EmailDeveloperActivity.sendDeveloperEmail(SmsPopupConfigActivity.this, EmailDeveloperActivity.EmailType.GENERAL);
+        EmailDeveloperActivity.sendGeneralEmail(SmsPopupConfigActivity.this);
         return true;
       }});
     

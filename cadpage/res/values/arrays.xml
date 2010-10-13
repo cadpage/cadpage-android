@@ -173,10 +173,12 @@
   <item>general comment</item>
   <item>message problem</item>
   <item>crash report</item>
+  <item>init failure</item>
 </string-array>
 <string-array name="email_devel_text">
   <item>Would you like to send an email to the CadPage developers about general issues or comments?</item>
   <item>Would you like to send an email to the CadPage developers about issues or problems with this particular message?</item>
   <item>Oh dear, it seems that CadPage has crashed.  Would you like report this problem to the CadPage developers?</item>
+  <item>This is very bad, CadPage can\'t even get started.  Would you like report this problem to the CadPage developers?</item>
 </string-array>
 </resources>

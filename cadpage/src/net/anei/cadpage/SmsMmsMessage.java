@@ -189,6 +189,35 @@ public class SmsMmsMessage implements Serializable {
     return call;
   }
 
+  /**
+   * Handle a menu selection concerning this message
+   * @param context current context
+   * @param itemId Selected Menu ID
+   * @return true if menu item processed, false otherwise
+   */
+  public boolean menuItemSelected(Context context, int itemId) {
+    switch (itemId) {
+    case R.id.open_item:
+      SmsPopupActivity.launchActivity(context, this);
+      return true;
+      
+    case R.id.map_item:
+      // TODO: can't do this until each message has its own parser :(
+      return true;
+      
+    case R.id.delete_item:
+      // TODO: Not implemented yet :(
+      return true;
+      
+    case R.id.email_item:
+      EmailDeveloperActivity.sendMessageEmail(context,  msgId);
+      return true;
+    
+    default:
+      return false;
+    }
+  }
+
 
   /**
    * Append message information to support message under construction
@@ -231,5 +260,4 @@ public class SmsMmsMessage implements Serializable {
     return message;
 
   }
-
 }
