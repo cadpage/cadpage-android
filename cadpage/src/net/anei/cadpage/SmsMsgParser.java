@@ -19,6 +19,8 @@ public class SmsMsgParser {
   private String strState="";
   private String strMap = "";
   private String strCallId = "";
+  private String defCity = "";
+  private String defState="";
   
   /**
    * Return original message text
@@ -48,15 +50,19 @@ public class SmsMsgParser {
     return strAddress;
   }
 
-  public String getFullAddress() {
+  public String getMapAddress() {
     StringBuilder sb = new StringBuilder(strAddress);
-    if (strCity.length() > 0) {
-      sb.append(" ");
-      sb.append(strCity);
+    String city = strCity;
+    if (city.length() == 0) city = defCity;
+    if (city.length() > 0) {
+      sb.append(",");
+      sb.append(city);
     } 
-    if (strState.length() > 0) {
-      sb.append(" ");
-      sb.append(strState);
+    String state = strState;
+    if (state.length() == 0) state = defState;
+    if (state.length() > 0) {
+      sb.append(",");
+      sb.append(state);
     }
     
     return sb.toString();
@@ -183,7 +189,8 @@ public class SmsMsgParser {
 911 CENTER:50 >VEHICLE ACCIDENT 837 GEORGIA RD FRANKLIN AAAAA 5555558237 Map: Grids:0,0
 	 */
 	  Log.v("decodeLCFRPage: Message Body of:" + body);
-	  strState = "NC";
+	  defState = "NC";
+	  defCity = "MACON COUNTY";
 	  body= body.replace(">","Call:");
 	  
 	  
@@ -211,6 +218,7 @@ private static Properties LCFRCityCodes = buildCodeTable(new String[]{
       "FQ", "Faquier"});
   private void decodeLCFRPage(String body) {
     /*
+     * Reporting email: MadisonFD <madisonfd@windstream.net>
      * Call:12D02E-SEIZURES CONT,42914 OVERLY SQ-CH Apt:,X-St:NORRINGTON SQ KIR,A6092,Box:1908 ,ADC:5520 G06 [90]
      * Call:17D03-FALL PATIENT N,42848 RECTORS CHASE WAY-AB Apt:,X-St:HOYSVILLE MANOR D,A6092 904 ACO9,Box:2618 ,ADC:5400 G03 [89]
      * Call:17D03-FALL PATIENT N,42848 RECTORS CHASE WAY-AB Apt:,X-St:HOYSVILLE MANOR D,A6092 904 ACO9,Box:2618 ,ADC:5400 G03 [89]
@@ -219,7 +227,7 @@ private static Properties LCFRCityCodes = buildCodeTable(new String[]{
 
 
     Log.v("decodeLCFRPage: Message Body of:" + body);
-    strState = "VA";
+    defState = "VA";
 
     // Needs some massaging before it can be run through the standard parser
     body = body.replace(" Apt:", ",Apt:");
@@ -248,7 +256,8 @@ private static Properties LCFRCityCodes = buildCodeTable(new String[]{
      */
     
       Log.v("DecodeSuffolkPage: Message Body of:" + body);
-      strState="NY";
+      defState="NY";
+      defCity="SUFFOLK COUNTY";
 
       Properties props = parseMessage(body, new String[]{"LOC", "CROSS", "CODE", "TIME"});
       strCall = props.getProperty("TYPE", "");
@@ -283,7 +292,8 @@ private static Properties LCFRCityCodes = buildCodeTable(new String[]{
      */
   
     Log.v("DecodeHarrisPage: Message Body of:" + body);
-    strState="TX";
+    defState="TX";
+    defCity="HARRIS COUNTY";
     
     // Strip first 16 characters off of message
     if (body.length() <= 16) return;
@@ -311,7 +321,8 @@ private static Properties LCFRCityCodes = buildCodeTable(new String[]{
       // (Corvallis Alert) INC:COMM FIRE ALARM\nADD:421 S 19TH ST\nAPT:\nCITY:PHILOMATH\nX:ASH ST * CEDAR ST\nMAP:540-360\nCFS:100410-188\nDIS:PHILOMATH FIRE\nDIS:PHI
       
       Log.v("DecodeBentonCo: Message Body of:" + body);
-      strState="OR";
+      defState="OR";
+      defCity="BENTON COUNTY";
       Properties props = parseMessage(body, "\n");
       
       strCall=props.getProperty("INC", "");
@@ -335,8 +346,8 @@ private static Properties LCFRCityCodes = buildCodeTable(new String[]{
      */
 
     Log.v("DecodeOconeePage: Message Body of:" + body);
-    strCity="Oconee";
-    strState="GA";
+    defState="GA";
+    defCity="Oconee";
 
     // Skip everything up to first colon
     int ipt = body.indexOf(':');
@@ -398,14 +409,20 @@ private static Properties LCFRCityCodes = buildCodeTable(new String[]{
   }
   
   private void decodeHerkimerPage(String body) {
-	    /* Sample Herkimer Page
+	    /* 
+	     * Sample Herkimer Pages
+	     * Reporting email: Chris Conover <conovercj@ntcnet.com>
+	     * Sender: HC911@herkimercounty.org
        * (EMS   >EMS CALL) 185 GUIDEBOARD RD XS: DAIRY HILL RD NORWAY AAAAAAA AAAAAAA 3150000000 Map: Grids:, Cad: 2010-0000049305
        * (MVA   >MOTOR VEHICLE ACCIDENT) 5781 STHY 28 XS: TOWN LINE NEWPORT AAAAAA AAAAA 3150000000 Map: Grids:, Cad: 2010-0000049651
        * (EMS   >EMS CALL) 808 OLD STATE RD NEWPORT AAAAAAAA 8880000000 Map: Grids:, Cad: 2010-0000049432
+(EMS>EMS CALL) 112 N Main St\nGrids:,, NY X:Fairfield St\nMiddleville Village Paula, Wayne\n5419991234 MAP:
+(EMS>EMS CALL) 54 Fairfield St\nGrids:,, NY X:Fairfield St\nMiddleville Village Willoughby, Ruby\n5419991234 MAP:
+(LIFT>LIFT ASSIST/NON EMER EMS)\n112 N Main St Grids:,, NY\nX:Fairfield St Jones, Ronald\n5419991234 MAP: 
 	     */
 	    
 	      Log.v("DecodeHerkimerPage: Message Body of:" + body);
-	      strState="NY";
+	      defState="NY";
 	      
 	      body = body.trim();
 	      if (body.charAt(0) == '(') {
@@ -465,7 +482,8 @@ CAD:FYI: ;UNCON;8732 RIVER VALLEY RD;[Medical Priority Info] RESPONSE: P1 STA 1
 Unconscious / Fainting (Near). Not alert. Caller Statement: UNCON.
 	   */
 	  Log.v("DecodeLivingstonPage: Message Body of:" + body);
-      strState="MI";
+      defState="MI";
+      defCity = "Livingston";
       String tmpAddress="";
       body = body.trim();
       try { 
@@ -483,7 +501,6 @@ Unconscious / Fainting (Near). Not alert. Caller Statement: UNCON.
       }else {
         tmpAddress = AData[2].toString();
       }
-      strCity = "Livingston";
       // Intersection address has a / and two  - cities
       strAddress= tmpAddress;
       if (strAddress.length() < 4) {
@@ -513,7 +530,7 @@ Unconscious / Fainting (Near). Not alert. Caller Statement: UNCON.
 *** 23 - Miscellaneous Fire *** SR CITZ APTS (5 BLDGS) COMPLEX 15 WEEKS RD CS: DEER PARK AVE  / MULHOLLAND DR TOA: 11:07 09/23/10 INVEST NORTH B
 	  */
 	 Log.v("DecodeBabylonPage: Message Body of:" + body);
-	  strState="NY";
+	  defState="NY";
 	  String tmpAddress="";
 	  body = body.trim();
       if (body.contains("***")) {
@@ -564,7 +581,8 @@ Unconscious / Fainting (Near). Not alert. Caller Statement: UNCON.
 2010-001766 05:54 *** 13- Structure Fire *** 29 WILDWOOD DR TRUEN, CRAIG Dix Hills HQ WHITNEY CT 60-C-1O GAS LEAKS / GAS ODOR (NATURAL / L.P.G.) DWOOD
 		 */
 	  Log.v("DecodeDixHillsPage: Message Body of:" + body);
-	  strState="NY";
+	  defState="NY";
+    defCity="Dix Hills";
 	  String tmpAddress="";
 	  body = body.trim();
       if (body.contains("***")) {
@@ -583,7 +601,6 @@ Unconscious / Fainting (Near). Not alert. Caller Statement: UNCON.
 	          }
 	        }
 	      }
-      strCity="Dix Hills";
       strUnit = "";
       strCross= "";
       

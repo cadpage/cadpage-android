@@ -194,7 +194,7 @@ public class SmsPopupUtils {
   public static void  mapMessage(Context context, SmsMsgParser parser)  {
     if (Log.DEBUG) Log.v("Request Received to Map Call");
     if (haveNet(context)) {
-        String searchStr = parser.getFullAddress();
+        String searchStr = parser.getMapAddress();
         String coords = parseGPSCoords(searchStr);
         if (coords != null) {
           searchStr = coords;
