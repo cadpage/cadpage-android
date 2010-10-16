@@ -116,6 +116,7 @@ public class SmsMmsMessage implements Serializable {
 
     timestamp = _timestamp;
     messageBody = _messageBody;
+    messageFull = _messageBody;
     messageType = _messageType;
 
     fromAddress = SmsPopupUtils.getMmsAddress(context, 0);
@@ -144,6 +145,7 @@ public class SmsMmsMessage implements Serializable {
 
     fromAddress = _fromAddress;
     messageBody = _messageBody;
+    messageFull = _messageBody;
     timestamp = _timestamp;
     messageType = _messageType;
   }
