@@ -17,6 +17,7 @@ public class ManagePreferences {
    * @param context
    */
   public static void setupPreferences(Context context) {
+    PreferenceManager.setDefaultValues(context, R.xml.preferences, false);
     prefs = new ManagePreferences(context);
   }
   
