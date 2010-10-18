@@ -39,8 +39,8 @@
     <item>@string/button_inbox</item>
     <item>@string/button_speak</item>
     <item>@string/button_reply</item>    
-  <item>@string/button_map</item>
-</string-array>
+    <item>@string/button_map</item>
+  </string-array>
   <string-array
     name="pref_buttons_entries">
     <item>@string/button_close</item>
@@ -52,8 +52,8 @@
     <item>@string/button_inbox</item>
     <item>@string/button_tts</item>
     <item>@string/button_map</item><item>@string/button_disabled</item>
-  
-</string-array>
+  </string-array>
+
   <string-array
     name="pref_buttons_values">
     <item>1</item>
@@ -65,11 +65,9 @@
     <item>6</item>
     <item>7</item>
     <item>9</item><item>0</item>
-  
-</string-array>  
+  </string-array>  
 
-    <string-array
-    name="pref_timeout_entries">
+  <string-array name="pref_timeout_entries">
     <item>@string/pref_timeout_entries_10s</item>
     <item>@string/pref_timeout_entries_20s</item>
     <item>@string/pref_timeout_entries_30s</item>
@@ -141,30 +139,50 @@
     <item>@string/pref_led_pattern_entries_slow</item>
     <item>@string/pref_custom</item>
   </string-array>
-<string-array name="pref_location_values">
-  <item>1</item>
-  <item>2</item>
-  <item>3</item>
-  <item>4</item>
-<item>5</item>
-<item>6</item>
-<item>7</item>
-<item>8</item>
-<item>9</item>
-<item>10</item>
-</string-array>
-<string-array name="pref_location_options">
-  <item>Loudoun, VA</item>
-  <item>Suffolk, NY</item>
-  <item>Harris, Tx</item>
-  <item>Benton County, OR</item>
-  <item>Herkimer, NY</item>
-  <item>Oconee, GA</item>
-  <item>Livingston, MI</item>
-  <item>Dix Hills, NY</item>
-  <item>Babylon, NY</item>
-  <item>Macon County, NC</item>
-</string-array>
+  
+  <!-- Used to convert old legacy location codes
+       Does not need to be kept up to date with recent codes -->
+  <string-array name="pref_location_legacy">
+    <item>VALoudounCounty</item>
+    <item>NYSuffolkCounty</item>
+    <item>TXHarrisCounty</item>
+    <item>ORBentonCounty</item>
+    <item>NYHerkimerCounty</item>
+    <item>GAOconeeCounty</item>
+    <item>MILivingstonCounty</item>
+    <item>NYDixHills</item>
+    <item>NYBabylon</item>
+    <item>NCMaconCounty</item>
+  </string-array>
+
+  <!-- Sorted in state name order, which is why NY comes before NC. -->    
+  <string-array name="pref_location_values">
+    <item>General</item>
+    <item>GAOconeeCounty</item>
+    <item>MILivingstonCounty</item>
+    <item>NYBabylon</item>
+    <item>NYDixHills</item>
+    <item>NYHerkimerCounty</item>
+    <item>NYSuffolkCounty</item>
+    <item>NCMaconCounty</item>
+    <item>ORBentonCounty</item>
+    <item>TXHarrisCounty</item>
+    <item>VALoudinCounty</item>
+  </string-array>
+  
+  <string-array name="pref_location_options">
+    <item>Generic Location</item>
+    <item>Oconee County, GA</item>
+    <item>Livingston County, MI</item>
+    <item>Babylon, NY</item>
+    <item>Dix Hills, NY</item>
+    <item>Herkimer County, NY</item>
+    <item>Suffolk, NY</item>
+    <item>Macon County, NC</item>
+    <item>Benton County, OR</item>
+    <item>Harris County, Tx</item>
+    <item>Loudoun, VA</item>
+  </string-array>
 
 <string-array name="email_devel_addr">
   <item>cadpage@arcolavfd.org</item>

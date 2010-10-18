@@ -16,6 +16,7 @@ import android.preference.Preference;
 import android.preference.PreferenceActivity;
 import android.preference.PreferenceCategory;
 import android.preference.PreferenceManager;
+import android.preference.PreferenceScreen;
 import android.preference.Preference.OnPreferenceClickListener;
 import android.telephony.TelephonyManager;
 import android.view.LayoutInflater;
@@ -294,6 +295,25 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
     return super.onCreateDialog(id);
   }
   
+  // If location code changes durring this session, force a rebuild of
+  // the call history data on the off chance that a general format message
+  // can use the new location code.
+  private String oldLocation = null;
+  @Override
+  protected void onStart() {
+    oldLocation = ManagePreferences.location();
+    super.onStart();
+  }
+  
+  @Override
+  protected void onStop() {
+    super.onStop();
+    String location = ManagePreferences.location();
+    if (! location.equals(oldLocation)) {
+      SmsMessageQueue.getInstance().notifyDataChange();
+    }
+  }
+
   private void installNotification() {
 		File fAlert = new File("/sdcard/media/audio/notifications/generalquarter.wav");
 		if (fAlert.exists()){

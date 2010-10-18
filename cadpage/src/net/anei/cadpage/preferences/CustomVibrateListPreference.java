@@ -90,8 +90,7 @@ public class CustomVibrateListPreference extends ListPreference {
 
           mPrefs.putString(
               R.string.pref_vibrate_pattern_custom_key,
-              new_pattern,
-              SmsPopupDbAdapter.KEY_VIBRATE_PATTERN_CUSTOM);
+              new_pattern);
 
           Toast.makeText(context, context.getString(R.string.pref_vibrate_pattern_ok),
               Toast.LENGTH_LONG).show();

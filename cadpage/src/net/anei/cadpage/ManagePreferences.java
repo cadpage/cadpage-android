@@ -3,6 +3,7 @@ package net.anei.cadpage;
 import java.text.DateFormat;
 import java.util.Map;
 
+import net.anei.cadpage.parsers.SmsMsgParser;
 import net.anei.cadpage.preferences.ButtonListPreference;
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -20,6 +21,19 @@ public class ManagePreferences {
   public static void setupPreferences(Context context) {
     PreferenceManager.setDefaultValues(context, R.xml.preferences, false);
     prefs = new ManagePreferences(context);
+    
+    // If location code is the old numeric code, convert it
+    String location = location();
+    if (location.length() <= 2) {
+      int code = Integer.parseInt(location) - 1;
+      String[] legacy = context.getResources().getStringArray(R.array.pref_location_legacy);
+      if (code >= legacy.length) {
+        location = "General";
+      } else {
+        location = legacy[code];
+      }
+      prefs.putString(R.string.pref_location, location);
+    }
   }
   
   public static boolean initialized() {
@@ -132,10 +146,23 @@ public class ManagePreferences {
     return 10;
   }
 
-  private static SmsMsgParser parser = new SmsMsgParser();
   public static SmsMsgParser getParser() {
-    // TODO This should return different subclasses of SmsMsgParser
-    return parser;
+    return getParser(location());
+  }
+  
+  private static String saveLocation = null;
+  private static SmsMsgParser saveParser = null;
+  public static SmsMsgParser getParser(String location) {
+    if (saveLocation == null || ! location.equals(saveLocation)) {
+      String className = "net.anei.cadpage.parsers." + location + "Parser";
+      try {
+        saveParser = (SmsMsgParser)Class.forName(className).newInstance();
+      } catch (Exception ex) {
+        throw new RuntimeException(ex);
+      }
+      saveLocation = location;
+    }
+    return saveParser;
   }
 
 
@@ -298,7 +325,7 @@ public class ManagePreferences {
     return mPrefs.getString(context.getString(resPrefId), defaultVal);
   }
 
-  public void putString(int resPrefId, String newVal, String dbColumnNum) {
+  public void putString(int resPrefId, String newVal) {
     SharedPreferences.Editor settings = mPrefs.edit();
     settings.putString(context.getString(resPrefId), newVal);
     settings.commit();

@@ -2,14 +2,11 @@ package net.anei.cadpage.preferences;
 
 import net.anei.cadpage.ManagePreferences;
 import net.anei.cadpage.R;
-import net.anei.cadpage.SmsPopupDbAdapter;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
-import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.preference.ListPreference;
-import android.preference.PreferenceManager;
 import android.util.AttributeSet;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -135,8 +132,7 @@ public class CustomLEDColorListPreference extends ListPreference implements OnSe
 
           mPrefs.putString(
               R.string.pref_flashled_color_custom_key,
-              "#" + Integer.toHexString(color),
-              SmsPopupDbAdapter.KEY_LED_COLOR_CUSTOM);
+              "#" + Integer.toHexString(color));
 
         if (mPrefs != null) {
           mPrefs.close();

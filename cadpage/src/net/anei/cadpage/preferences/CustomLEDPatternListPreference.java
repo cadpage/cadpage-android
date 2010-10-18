@@ -3,7 +3,6 @@ package net.anei.cadpage.preferences;
 import net.anei.cadpage.ManageNotification;
 import net.anei.cadpage.ManagePreferences;
 import net.anei.cadpage.R;
-import net.anei.cadpage.SmsPopupDbAdapter;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
@@ -106,8 +105,7 @@ public class CustomLEDPatternListPreference extends ListPreference {
           
             mPrefs.putString(
                 R.string.pref_flashled_pattern_custom_key,
-                stringPattern,
-                SmsPopupDbAdapter.KEY_LED_PATTERN_CUSTOM);
+                stringPattern);
 
   
           Toast.makeText(context, context.getString(R.string.pref_flashled_pattern_ok),

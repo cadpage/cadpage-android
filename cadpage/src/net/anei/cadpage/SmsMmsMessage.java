@@ -39,6 +39,7 @@ public class SmsMmsMessage implements Serializable {
   private boolean locked = false;
   private transient SmsMsgInfo info = null;
   private int msgId = 0;
+  private String location = null;
 
   
   public boolean isRead() {
@@ -192,7 +193,27 @@ public class SmsMmsMessage implements Serializable {
   }
   
   public SmsMsgInfo getInfo() {
-    if (info == null) info = ManagePreferences.getParser().parse(messageFull);
+    
+    // Some special logic if the previous location was General
+    // And the current location code preference is not general
+    // And this message text is a valid message faor this location code
+    // then clear the cached location and information and get it again
+    if (location != null && location.equals("General")) {
+      if (! ManagePreferences.location().equals("General")) {
+        if (ManagePreferences.getParser().isPageMsg(messageFull)) {
+          location = null;
+          info = null;
+        }
+      }
+    }
+    
+    // If we don't have an info object, get a new one
+    // If we have a historical location code, use it
+    // Otherwise use the current configured location code.
+    if (info == null) {
+      if (location == null) location = ManagePreferences.location();
+      info = ManagePreferences.getParser(location).parse(messageFull);
+    }
     return info;
   }
   

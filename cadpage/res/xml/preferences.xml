@@ -235,13 +235,14 @@
     android:entries="@array/pref_location_options"
     android:entryValues="@array/pref_location_values"
     android:dialogTitle="Select Location"
-    android:defaultValue="1" />
+    android:defaultValue="General" />
     <EditTextPreference  android:dialogTitle="From: (Filter)"
-                             android:dialogMessage="@string/pref_filter_dialog"
-                             android:key="@string/pref_filter_key"
-                             android:title="@string/pref_filter_title"
-                             android:summary="@string/pref_filter_summary"
-                             android:defaultValue="*"/></PreferenceCategory>
+                         android:dialogMessage="@string/pref_filter_dialog"
+                         android:key="@string/pref_filter_key"
+                         android:title="@string/pref_filter_title"
+                         android:summary="@string/pref_filter_summary"
+                         android:defaultValue="*"/>
+  </PreferenceCategory>
   <Preference
     android:key="@string/pref_testmsg_key"
     android:title="@string/pref_testmsg_title" >
