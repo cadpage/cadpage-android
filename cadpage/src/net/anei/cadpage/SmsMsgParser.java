@@ -480,17 +480,10 @@ Sender: HC911@herkimercounty.org
 	  }
   private void decodeLivingstonPage(String body) { // Issue 17 
 	  /*
-	   * CAD:FYI: ;ALARMF;11555 PLEASANT VIEW DR;INDIAN TRL;SMOKE ALARMS GOING OFF IN THE
-HOUSE FOR THE LAST 30 MIN ON AND OFF/ NO SMOKE OR SMOKE SHOWING [09/24/10
-04:17:07 ECOOK]
-CAD:FYI: ;UNKACC;E M36/PETTYS RD;VEHICLE HIT A POLE/ MALE RUNNING E/B FROM SCENE
-[09/23/10 21:45:06 ECOOK]
-CAD:FYI: ;CHSTPN;8422 PAWNEE TRL;SHOSHONI PASS;[Medical Priority Info] RESPONSE:
-P1 STA 1 4 5 6 7 8 FC FT RESPONDER SCRIPT: 72 year old, Female, Conscious,
-Breathing. Chest Pain (Non-Traumatic). Abnormal breathing. Cal
-CAD:FYI: ;UNCON;8732 RIVER VALLEY RD;[Medical Priority Info] RESPONSE: P1 STA 1
-2 3 4 5 6 7 8 FC FT RESPONDER SCRIPT: 63 year old, Female, Conscious, Breathing.
-Unconscious / Fainting (Near). Not alert. Caller Statement: UNCON.
+CAD:FYI: ;ALARMF;11555 PLEASANT VIEW DR;INDIAN TRL;SMOKE ALARMS GOING OFF IN THE HOUSE FOR THE LAST 30 MIN ON AND OFF/ NO SMOKE OR SMOKE SHOWING [09/24/10 04:17:07 ECOOK]
+CAD:FYI: ;UNKACC;E M36/PETTYS RD;VEHICLE HIT A POLE/ MALE RUNNING E/B FROM SCENE [09/23/10 21:45:06 ECOOK]
+CAD:FYI: ;CHSTPN;8422 PAWNEE TRL;SHOSHONI PASS;[Medical Priority Info] RESPONSE: P1 STA 1 4 5 6 7 8 FC FT RESPONDER SCRIPT: 72 year old, Female, Conscious, Breathing. Chest Pain (Non-Traumatic). Abnormal breathing. Cal
+CAD:FYI: ;UNCON;8732 RIVER VALLEY RD;[Medical Priority Info] RESPONSE: P1 STA 1 2 3 4 5 6 7 8 FC FT RESPONDER SCRIPT: 63 year old, Female, Conscious, Breathing. Unconscious / Fainting (Near). Not alert. Caller Statement: UNCON.
 	   */
 	  Log.v("DecodeLivingstonPage: Message Body of:" + body);
       defState="MI";
@@ -867,6 +860,12 @@ sender: dispatch@northglennambulance.com
 - part 1 of 1 / RC:Run# 10172/8810 E 88TH AVE///Assault/
 - part 1 of 1
 RC:Run# 10119/E 60TH AVE & DAHLIA ST//./Unconscious / Fainting/
+
+**********************************************************
+Waynesville, NC (Caruso Fire & Rescue) (Can use Livingston format)
+Contact: : "bradford1967@hotmail.com" <bradford1967@hotmail.com>
+Sender: CAD@haywoodnc.net
+CAD:1010170008;ROUTINE SICK PERSON;33 GRACE DR;CRUSO RD;JOHNS CREEK RD;12;10/17/2010 10:15:00
 
 **********************************************************
 Unknown from problem report
