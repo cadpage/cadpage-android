@@ -418,17 +418,20 @@ TYPE: OPEN BURNING LOC: 65 GRANT AVE BRENTW CROSS: SUFFOLK AVE 18:39:20 CODE: 54
   
   private void decodeHerkimerPage(String body) {
 	    /* 
-	     * Sample Herkimer Pages
-	     * Reporting email: Chris Conover <conovercj@ntcnet.com>
-	     * Sender: HC911@herkimercounty.org
-       * (EMS   >EMS CALL) 185 GUIDEBOARD RD XS: DAIRY HILL RD NORWAY AAAAAAA AAAAAAA 3150000000 Map: Grids:, Cad: 2010-0000049305
-       * (MVA   >MOTOR VEHICLE ACCIDENT) 5781 STHY 28 XS: TOWN LINE NEWPORT AAAAAA AAAAA 3150000000 Map: Grids:, Cad: 2010-0000049651
-       * (EMS   >EMS CALL) 808 OLD STATE RD NEWPORT AAAAAAAA 8880000000 Map: Grids:, Cad: 2010-0000049432
-These may be new herkimer county pages that are not complatable with the previous ones.  Further information
+Sample Herkimer Pages
+Contact: Robert Tucker <mobilewlightn@gmail.com>
+Sender: HC911@herkimercounty.org <From%3AHC911@herkimercounty.org>
+(EMS   >EMS CALL) 185 GUIDEBOARD RD XS: DAIRY HILL RD NORWAY AAAAAAA AAAAAAA 3150000000 Map: Grids:, Cad: 2010-0000049305
+(MVA   >MOTOR VEHICLE ACCIDENT) 5781 STHY 28 XS: TOWN LINE NEWPORT AAAAAA AAAAA 3150000000 Map: Grids:, Cad: 2010-0000049651
+(EMS   >EMS CALL) 808 OLD STATE RD NEWPORT AAAAAAAA 8880000000 Map: Grids:, Cad: 2010-0000049432
+(EMS   >EMS CALL) 3141 MECHANIC ST XS: MAIN ST NEWPORT VILLAGE JOHN 3157179999 Map: Grids:, Cad: 2010-0000058093
+These may be new herkimer county pages that are not compatible with the previous ones.  Further information
 has been requested.
+Reporting email: Chris Conover <conovercj@ntcnet.com>
+Sender: HC911@herkimercounty.org
 (EMS>EMS CALL) 112 N Main St\nGrids:,, NY X:Fairfield St\nMiddleville Village Paula, Wayne\n5419991234 MAP:
 (EMS>EMS CALL) 54 Fairfield St\nGrids:,, NY X:Fairfield St\nMiddleville Village Willoughby, Ruby\n5419991234 MAP:
-(LIFT>LIFT ASSIST/NON EMER EMS)\n112 N Main St Grids:,, NY\nX:Fairfield St Jones, Ronald\n5419991234 MAP: 
+(LIFT>LIFT ASSIST/NON EMER EMS)\n112 N Main St Grids:,, NY\nX:Fairfield St Jones, Ronald\n5419991234 MAP:
 	     */
 	    
 	      Log.v("DecodeHerkimerPage: Message Body of:" + body);
@@ -452,28 +455,26 @@ has been requested.
 	      }
 	      
 	      // Address formatting is very strange.
-	      // Parse by whitespace separated tokens terminated by an entry that
-	      // contains a string of 3 or more 'A' characters.  The last entry 
-	      // before the terminator is the city.
+	      // There isn't a clear end of address delimiter.  Best we can do is
+	      // terminate when we recognize an known city.
 	      // And any tokens after an "XS:" token are added to the cross rather
 	      // than the address
 	      boolean cross = false;
 	      for (String token : body.split("\\s+")) {
-	        if (token.matches("AAA+")) break;
-	        if (strCity.length() > 0) {
-	          if (!cross) {
-	            if (strAddress.length() > 0) strAddress += " ";
-	            strAddress += strCity;
-	          } else {
-	            if (strCross.length() > 0) strCross += " ";
-	            strCross += strCity;
-	          }
+	        if (token.equals("NORWAY") || token.equals("NEWPORT")) {
+	          strCity = token;
+	          break;
 	        }
           if (token.equals("XS:")) {
             cross = true;
-            strCity = "";
           } else {
-            strCity = token;
+            if (!cross) {
+              if (strAddress.length() > 0) strAddress += " ";
+              strAddress += token;
+            } else {
+              if (strCross.length() > 0) strCross += " ";
+              strCross += token;
+            }
           }
 	      }
 	  }
