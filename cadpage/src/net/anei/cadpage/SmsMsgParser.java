@@ -191,6 +191,8 @@ Sender: 8283420118
 911 CENTER:88S >STRUCTURE FIRE REPORTED AT 1682 LEATHERMAN GAP RD FRANKLIN  AAA, ANGIE 5555559999 Map: Grids:0,0
 911 CENTER:50 >VEHICLE ACCIDENT 837 GEORGIA RD FRANKLIN AAAAA 5555558237 Map: Grids:0,0
 911 CENTER:C1 >EMERGENCY RUN 730 LAKESHORE DR FRANKLIN CHRISTIAN, JOHN SMITH 8285249999 Map: Grids:0,0
+Sender: 8283711473
+911 CENTER:50 >VEHICLE ACCIDENT 428 COWEETA CHURCH RD OTTO SMITH, J 828369999 Map: Grids:0,0
 	 */
 	  Log.v("decodeLCFRPage: Message Body of:" + body);
 	  defState = "NC";
@@ -254,8 +256,11 @@ private static Properties LCFRCityCodes = buildCodeTable(new String[]{
   };
   private void decodeSuffolkPage(String body) {
     /* Sample Suffolk Page
+Contact: Jason Pedota <jpedota805@gmail.com>
+Sender: 6317967579
 TYPE: GAS LEAKS / GAS ODOR (NATURAL / L.P.G.) LOC: 11 BRENTWOOD PKWY BRENTW HOMELESS SHELTER CROSS: PENNSYLVANIA AV / SUFFOLK AV CODE: 60-B-2 TIME: 12:54:16
 TYPE: STRUCTURE FIRE LOC: 81 NEW HAMPSHIRE AV NBAYSH  CROSS: E FORKS RD / E 3 AV CODE: 69-D-10 TIME: 16:36:48
+TYPE: OPEN BURNING LOC: 65 GRANT AVE BRENTW CROSS: SUFFOLK AVE 18:39:20 CODE: 54-C-6
      */
     
       Log.v("DecodeSuffolkPage: Message Body of:" + body);
@@ -578,6 +583,7 @@ Unconscious / Fainting (Near). Not alert. Caller Statement: UNCON.
 
  private void decodeDixHillsPage(String body) {
 		/*
+contact: "Craig Caviness" <ccaviness@dixhillsfd.org>
 sender: paging@dixhillsfd.xohost.com
 2010-001784 23:36 *** 16- Rescue *** 17 BRYCEWOOD DR SPIEGEL, LORI A Dix Hills HQ ARISTA DR 31-A-1 UNCONSCIOUS / FAINTING (NEAR) CEWOOD DR DIXHIL TYPE:
 2010-001779 10:34 *** 24/16- Mutual Aid *** 51 BALDWIN PATH  Dix Hills HQ
@@ -586,31 +592,26 @@ sender: paging@dixhillsfd.xohost.com
 2010-001774 11:56 *** 13- Structure Fire *** 29 WHITE BIRCH DR FULGONI, MARISSA Dix Hills HQ BALSAM DR 52-B-1G ALARMS TE BIRCH DR DIXHIL TYPE: ALARMS 
 2010-001766 05:54 *** 13- Structure Fire *** 29 WILDWOOD DR TRUEN, CRAIG Dix Hills HQ WHITNEY CT 60-C-1O GAS LEAKS / GAS ODOR (NATURAL / L.P.G.) DWOOD
 2010-001919 01:48 *** 16- Rescue *** 179 OAKFIELD AV BRUZZESE, ROCCO  SEAMAN NECK RD 6-D-3 RESPIRATORY KFIELD AV DIXHIL TYPE: RESPIRATORY LOC: 179  OAKFI
+2010-001923 11:44 *** 16- Rescue *** 337 DEER PARK AV SUNRISE ASSISTED LIVING RED MAPLE LA Alert
 		 */
 	  Log.v("DecodeDixHillsPage: Message Body of:" + body);
 	  defState="NY";
     defCity="Dix Hills";
-	  String tmpAddress="";
 	  body = body.trim();
-      if (body.contains("***")) {
-	        int pt = body.indexOf("***");
-	        if (pt >= 0) {
-	          int pta = body.indexOf("***",pt+3);	
-	          strCall = body.substring(pt+3, pta);
-	          body = body.substring(pta+1).trim();
-	          int ptb = body.indexOf("Dix Hills");
-	          tmpAddress = body.substring(2,ptb);
-	          if (tmpAddress.contains(",")){
-	        	  int ptc = tmpAddress.indexOf(",");
-	        	  int ptd = tmpAddress.lastIndexOf(" ",ptc);
-	        	  strAddress = tmpAddress.substring(0,ptd);
-	        	  
-	          }
-	        }
-	      }
-      strUnit = "";
-      strCross= "";
-      
+	  int pt = body.indexOf("***");
+	  if (pt < 0) return;
+    int pta = body.indexOf("***",pt+3);	
+    if (pta < 0) return;
+    strCall = body.substring(pt+3, pta).trim();
+    body = body.substring(pta+3).trim();
+    int ptb = body.toUpperCase().indexOf(" DIX HILLS");
+    if (ptb < 0) ptb = body.length();
+    strAddress = body.substring(0, ptb);
+    int ptc = strAddress.indexOf(",");
+    if (ptc >= 0) {
+      int ptd = strAddress.lastIndexOf(" ",ptc);
+    	if (ptd >= 0) strAddress = strAddress.substring(0,ptd);
+    }
 	}
  
  /** 
@@ -848,11 +849,23 @@ CAD MSG: *D A1   51       14015 DRAKE ST NW  POSS FIRE IN THE WALL...LOTS OF SMO
 **********************************************************
 Smyrna, GA
 Contact: "Dustin Davey" <ddavey@ci.smyrna.ga.us>
+Sender: cad@ci.smyrna.ga.us
 CAD:FYI: ;STRUCTURE FIRE;2501 WOODLANDS DR SE;FLAMES INSIDE FUSE BOX INSIDE CALLERS APARTMENT. SMELLS WIRES BURNING. [08/08/10 22:53:28 DTHACKER];103157
 CAD:Update: ;VEHICLE FIRE;S COBB DR SE/BOURNE DR SE;METRO PCS;OWNER OF VEH CALLED --- ADV ON 280 AT WH [10/11/10 17:46:52 ABERRY] blk dodge charger on fire [10/
 CAD:FYI: ;VEHICLE FIRE;WINDY HILL RD SE/S COBB DR SE;METRO PCS;blk dodge charger on fire [10/11/10 17:46:16 DSNIVELY] ;104107
 CAD:Update: ;STRUCTURE FIRE;501 WALTON WAY SE;S COBB DR SE;apt 501 [09/23/10 15:17:59 MBAGNATO] ;103832
 CAD:FYI: ;FIRE GENERAL;4586-W VALLEY PKWY SE;S COBB DR SE;ASHLEY;heavy smoke [10/09/10 03:49:27 SMAHAMA] smoke coming from the unit below her [10/09/10 03:48:51
+
+**********************************************************
+Northglenn and Comerce City (Adams County), CO
+contact: Brad Jones <brad@jones.name>
+sender: dispatch@northglennambulance.com
+- part 1 of 1 / RC:Run# 10174/6211 OLIVE ST///Pregnancy / Childbirth/
+- part 1 of 1 / RC:Run# 9913/5541 E 67TH AVE//med alarm/Not Available/
+- part 1 of 1 / RC:Run# 9911/7373 BIRCH ST///Unconscious / Fainting/
+- part 1 of 1 / RC:Run# 10172/8810 E 88TH AVE///Assault/
+- part 1 of 1
+RC:Run# 10119/E 60TH AVE & DAHLIA ST//./Unconscious / Fainting/
 
 **********************************************************
 Unknown from problem report
@@ -863,10 +876,20 @@ Unit:E12 UnitSts: Inc#:2010-00000919 Inc:MVANoInj Loc:36 S INTERSTATE 295
 MapRef:R Map 1591 VEH VS DEER, NO INJS, H
 
 **********************************************************
-Unkown from problem report, was trying Suffolk County
+Unknown from problem report, was trying Suffolk County
 contact: "shiloe1@yahoo.com" <shiloe1@yahoo.com>
 sender: news@1rwn.com
 WANTAGH, NY (NASSAU) *M/C MVA* JERUSALEM AVE & DAFFODIL LN. WFD CHF 6900 RPTS M/C VS CAR. E692 O/S. A6918 TO TX AIDED. NY64
 
+**********************************************************
+Unknown from problem report
+contact: Jason Baalman <jason.baalman@gmail.com>
+sender: riprun@westamptonfire.org <From%3Ariprun@westamptonfire.org>
+14:27:34
+EMS E EMS Call
+3400
+22 WOODHURST DR
+LAURELWOOD LA/LAURELWOOD LA
+PREGNANT F/ STOMACH PAIN
 **************************************************************************/
 }
