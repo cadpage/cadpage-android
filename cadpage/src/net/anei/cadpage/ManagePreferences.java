@@ -1,5 +1,6 @@
 package net.anei.cadpage;
 
+import java.text.DateFormat;
 import java.util.Map;
 
 import net.anei.cadpage.preferences.ButtonListPreference;
@@ -129,6 +130,12 @@ public class ManagePreferences {
     // TODO Really add this to preferences
     // for now just return a constant
     return 10;
+  }
+
+  private static SmsMsgParser parser = new SmsMsgParser();
+  public static SmsMsgParser getParser() {
+    // TODO This should return different subclasses of SmsMsgParser
+    return parser;
   }
 
 

@@ -111,7 +111,7 @@ public class SmsPopupActivity extends Activity {
   private TTS eyesFreeTts = null;
   private TextToSpeechWrapper androidTts = null;
 	
-	private SmsMsgParser parser;
+	private SmsMsgInfo info;
   
 
   // Establish whether the Android TextToSpeech class is available to us
@@ -415,7 +415,7 @@ public class SmsPopupActivity extends Activity {
 
     // Store message
     message = newMessage;
-    parser = message.getParser();
+    info = message.getInfo();
     
     // If it's a MMS message, just show the MMS layout
     if (message.getMessageType() == SmsMmsMessage.MESSAGE_TYPE_MMS) {
@@ -455,39 +455,39 @@ public class SmsPopupActivity extends Activity {
     String headerText = getString(R.string.new_text_at, message.getFormattedTimestamp(this));
 
     // Set the from, message and header views
-    fromTV.setText(parser.getCall());
+    fromTV.setText(info.getCall());
     if (message.getMessageType() == SmsMmsMessage.MESSAGE_TYPE_SMS) {
-      StringBuilder sb = new StringBuilder(parser.getAddress());
-      String appt = parser.getApt();
+      StringBuilder sb = new StringBuilder(info.getAddress());
+      String appt = info.getApt();
       if (appt.length() > 0) {
         sb.append(" Apt:"); 
         sb.append(appt);
       }
       String delim="\n";
-      if (parser.getCity().length() > 0) {
+      if (info.getCity().length() > 0) {
         sb.append(delim);
         delim = ", ";
-        sb.append(parser.getCity());
+        sb.append(info.getCity());
       }
-      if (parser.getState().length() > 0) {
+      if (info.getState().length() > 0) {
         sb.append(delim);
-        sb.append(parser.getState());
+        sb.append(info.getState());
       }
-      if (parser.getCross().length() > 0) {
+      if (info.getCross().length() > 0) {
         sb.append("\nX:");
-        sb.append(parser.getCross());
+        sb.append(info.getCross());
       }
-      if (parser.getMap().length() > 0) {
+      if (info.getMap().length() > 0) {
         sb.append("\nMAP:");
-        sb.append(parser.getMap());
+        sb.append(info.getMap());
       }
-      if (parser.getBox().length() > 0) {
+      if (info.getBox().length() > 0) {
         sb.append("\nBOX:");
-        sb.append(parser.getBox());
+        sb.append(info.getBox());
       }
-      if (parser.getUnit().length() > 0) {
+      if (info.getUnit().length() > 0) {
         sb.append("\nUnits: ");
-        sb.append(parser.getUnit());
+        sb.append(info.getUnit());
       }
       messageTV.setText(sb.toString());
     } else {

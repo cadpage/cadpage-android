@@ -98,7 +98,7 @@ public class SmsReceiver extends BroadcastReceiver {
       if (os != null) try {os.close();} catch (IOException ex) {}
     }
     
-    return SmsMsgParser.isPageMsg(strMessage);
+    return ManagePreferences.getParser().isPageMsg(strMessage);
   }
 
   private boolean match(String address, String filter) {

@@ -37,7 +37,7 @@ public class SmsMmsMessage implements Serializable {
   private MessageClass messageClass = null;
   private boolean read = false;             
   private boolean locked = false;
-  private transient SmsMsgParser parser = null;
+  private transient SmsMsgInfo info = null;
   private int msgId = 0;
 
   
@@ -188,12 +188,12 @@ public class SmsMmsMessage implements Serializable {
   }
   
   public String getCall() {
-    return getParser().getCall();
+    return getInfo().getCall();
   }
   
-  public SmsMsgParser getParser() {
-    if (parser == null) parser = new SmsMsgParser(messageFull);
-    return parser;
+  public SmsMsgInfo getInfo() {
+    if (info == null) info = ManagePreferences.getParser().parse(messageFull);
+    return info;
   }
   
   public static void createMenu(Activity context, Menu menu, boolean display) {
@@ -219,7 +219,7 @@ public class SmsMmsMessage implements Serializable {
       return true;
       
     case R.id.map_item:
-      SmsPopupUtils.mapMessage(context, getParser());
+      SmsPopupUtils.mapMessage(context, getInfo());
       return true;
       
     case R.id.delete_item:
