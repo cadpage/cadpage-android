@@ -99,7 +99,7 @@ public abstract class SmsMsgParser {
    for (String addr : addressLine.split("/")) {
      String[] tmp = addr.split("-");
      if (data.strAddress.length() > 0) data.strAddress += " and ";
-     data.strAddress += tmp[0];
+     data.strAddress += tmp[0].trim();
      if (tmp.length > 1) {
        tmp[1] = tmp[1].trim();
        int pta = tmp[1].indexOf(" ");

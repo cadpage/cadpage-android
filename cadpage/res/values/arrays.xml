@@ -169,6 +169,7 @@
     <item>ORBentonCounty</item>
     <item>ORPrineville</item>
     <item>TXHarrisCounty</item>
+    <item>VAHenryCounty</item>
     <item>VALoudinCounty</item>
   </string-array>
   
@@ -185,6 +186,7 @@
     <item>Benton County, OR</item>
     <item>Prineville, OR</item>
     <item>Harris County, Tx</item>
+    <item>Henry County, VA</item>
     <item>Loudoun, VA</item>
   </string-array>
 
