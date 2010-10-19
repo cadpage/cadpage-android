@@ -65,7 +65,15 @@ Dix Hills
 2010-001766 05:54 *** 13- Structure Fire *** 29 WILDWOOD DR TRUEN, CRAIG Dix Hills HQ WHITNEY CT 60-C-1O GAS LEAKS / GAS ODOR (NATURAL / L.P.G.) DWOOD
 2010-001919 01:48 *** 16- Rescue *** 179 OAKFIELD AV BRUZZESE, ROCCO  SEAMAN NECK RD 6-D-3 RESPIRATORY KFIELD AV DIXHIL TYPE: RESPIRATORY LOC: 179  OAKFI
 2010-001923 11:44 *** 16- Rescue *** 337 DEER PARK AV SUNRISE ASSISTED LIVING RED MAPLE LA Alert
-
+***************************************************************************
+ORPrineville
+(PPD) 6:01 PM\nNEW EVENT PFD\nMED1\n1201: 1271\n228 SW MEADOWLAKES DR\nPRINEVILLE
+(PPD) 3:17 PM\nNEW EVENT PFD\nMVA\n1201: 1273 / 1225\nLAMONTA/PIONEER CUTSTOCK\nPRINEVILLE
+**********************************************************
+INTiptonCounty
+CAD:G49;OUTSIDE FIRE-FIELD/WOODS;6001;6500 N 400 E
+CAD:A5,R45;INJURED IN FALL;4000;E VINE ST/S WASHINGTON ST;[Medical Priority Info] RESPONSE: Bravo RESPONDER SCRIPT: You are responding to a patient involved in a fall
+CAD:A5,R45;UNKNOWN MEDICAL PROBLEM;4004;3421 N SR 19;[Medical Priority Info] RESPONSE: Bravo RESPONDER SCRIPT: You are responding to a patient with an unknown problem
 ***************************************************************************
 Currently unsupported districts 
 ***************************************************************************
@@ -94,38 +102,6 @@ AMBULANCE, SICK PERSON (SPECIFIC DIAGNOSIS): 56 YOF SICK 26-A-5 IFO BUILDING at 
 MISC CALL, CHIEFS INVESTIGATION: GENERAL FIRE ALARM 52C04 Residential (multiple) at 700H HEALTH SCIENCES DR, STONY BROOK  c/s: NICOLLS RD   O: CHAPIN APTS - S : 26-A-16 at 20 FAWN LN W, SOUTH SETAUKET  c/s: LONGBOW LN . . 00:20:06
 AMBULANCE, HEMORRHAGE / LACERATIONS: 21-A-1 - 61 YOM - CUT TO HAND at 8 HOLLY LN, EAST SETAUKET  c/s: CRANE NECK RD . . 16:57:21
 MISC CALL WITH RESCUE, MVA: 29-B-1U - INJURIES at C/O, Setauket  c/s: WIRELESS RD . . 16:08:02
-
-**********************************************************
-Prineville, OR
-Reporting email: 5414603655@vzwpix.com
-Sender:dispatch@prinevillepd.org
-
-(PPD) 6:01 PM
-NEW EVENT PFD
-MED1
-1201: 1271
-228 SW MEADOWLAKES DR
-PRINEVILLE
-
-(PPD) 3:17 PM
-NEW EVENT PFD
-MVA
-1201: 1273 / 1225
-LAMONTA/PIONEER CUTSTOCK
-PRINEVILLE
-
-**********************************************************
-Tipton County, IN (or TN?)
-reporting email: Amy Lane <ammlane@gmail.com>
-sender: CAD@tipco.com
-CAD:A5,R45,T43,E42,E41,T46;STRUCTURE FIRE RESIDENTIAL;4003;3000 N US 31 NB
-CAD:WEATHER;SEVERE WEATHER;CITY;121-A W MADISON ST
-CAD:G49;OUTSIDE FIRE-FIELD/WOODS;6001;6500 N 400 E
-CAD:A5,R45;INJURED IN FALL;4000;E VINE ST/S WASHINGTON ST;[Medical Priority Info] RESPONSE: Bravo RESPONDER SCRIPT: You are responding to a patient involved in a fall
-CAD:A5,R45;UNKNOWN MEDICAL PROBLEM;4004;3421 N SR 19;[Medical Priority Info] RESPONSE: Bravo RESPONDER SCRIPT: You are responding to a patient with an unknown problem
-CAD:A5,R45;INJURED IN FALL;4002;304 E 625 N;hx of dementia [10/06/10 18:51:56 DARCIR] [Medical Priority Info] RESPONSE: Alpha RESPONDER SCRIPT: You are responding to
-CAD:G49;OUTSIDE FIRE-FIELD/WOODS;6001;6500 N 400 E
-Notes: 4 digit number between description and address should be ignored
 
 **********************************************************
 Henry County, VA

@@ -159,13 +159,15 @@
   <string-array name="pref_location_values">
     <item>General</item>
     <item>GAOconeeCounty</item>
+    <item>INTiptonCounty</item>
     <item>MILivingstonCounty</item>
     <item>NYBabylon</item>
     <item>NYDixHills</item>
     <item>NYHerkimerCounty</item>
     <item>NYSuffolkCounty</item>
-    <item>NCMaconCounty</item>
+    <!--item>NCMaconCounty</item-->
     <item>ORBentonCounty</item>
+    <item>ORPrineville</item>
     <item>TXHarrisCounty</item>
     <item>VALoudinCounty</item>
   </string-array>
@@ -173,13 +175,15 @@
   <string-array name="pref_location_options">
     <item>Generic Location</item>
     <item>Oconee County, GA</item>
+    <item>Tipton County, IN</item>
     <item>Livingston County, MI</item>
     <item>Babylon, NY</item>
     <item>Dix Hills, NY</item>
     <item>Herkimer County, NY</item>
     <item>Suffolk, NY</item>
-    <item>Macon County, NC</item>
+    <!--item>Macon County, NC</item-->
     <item>Benton County, OR</item>
+    <item>Prineville, OR</item>
     <item>Harris County, Tx</item>
     <item>Loudoun, VA</item>
   </string-array>
