@@ -30,30 +30,44 @@ public class VAHenryCountyParser extends SmsMsgParser {
     data.defState="VA";
     data.defCity="HENRY COUNTY";
     
-    String[] lines = body.split("\n");
-    String tmp = lines[0];
-    if (tmp.startsWith("(CAD Call)")) tmp = tmp.substring(10);
-    data.strCallId = tmp.trim();
-    
-    if (lines.length <= 1) return;
-    tmp = lines[1];
-    int pt = tmp.indexOf(' ');
-    if (pt >= 0) {
-      String tmp2 = tmp.substring(0, pt);
-      if (tmp2.contains("-(")) {
-        data.strUnit = tmp2.trim();
-        tmp = tmp.substring(pt);
+    int ndx = 0;
+    for (String line : body.split("\n")) {
+      ndx++;
+      switch (ndx) {
+      
+      case 1:
+        if (line.startsWith("(CAD Call)")) line = line.substring(10);
+        data.strCallId = line.trim();
+        break;
+        
+      case 2:
+        if (line.contains("RIDGEWAY") || line.contains("MARTINSVILLE")) {
+          ndx++;
+          // Fall through to case 3
+        } else {
+          int pt = line.indexOf(' ');
+          if (pt >= 0) {
+            String tmp = line.substring(0, pt);
+            if (tmp.contains("-(")) {
+              data.strUnit = tmp.trim();
+              line = line.substring(pt);
+            }
+          }
+          data.strCall = line.trim();
+          break;
+        }
+        
+      case 3:
+        
+        line = stripAddressName(line).trim();
+        int pt = line.lastIndexOf(" ");
+        if (pt >= 0) {
+          data.strCity= line.substring(pt+1);
+          line = line.substring(0, pt).trim();
+        }
+        parseAddress(line, data);
+        break;
       }
     }
-    data.strCall = tmp.trim();
-    
-    if (lines.length <= 2) return;
-    tmp = lines[2].trim();
-    pt = tmp.lastIndexOf(" ");
-    if (pt >= 0) {
-      data.strCity= tmp.substring(pt+1);
-      tmp = tmp.substring(0, pt).trim();
-    }
-    parseAddress(tmp, data);
   }
 }

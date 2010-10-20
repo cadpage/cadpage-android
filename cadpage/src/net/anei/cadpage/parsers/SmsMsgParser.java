@@ -1,6 +1,8 @@
 package net.anei.cadpage.parsers;
 
 import java.util.Properties;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import net.anei.cadpage.SmsMsgInfo;
 import net.anei.cadpage.SmsMsgInfo.Data;
@@ -10,6 +12,8 @@ import net.anei.cadpage.SmsMsgInfo.Data;
  * This class is responsible for parsing useful information from an SMS page message
  */
 public abstract class SmsMsgParser {
+  
+  protected static final Pattern NUMERIC = Pattern.compile("\\W\\d+\\W");
   
   /**
    * @return true if this message contain the text phrases that indicate it is 
@@ -89,6 +93,20 @@ public abstract class SmsMsgParser {
          props.put(key, value);
      }
      return props;
+ }
+ 
+ /**
+  * Attempt to strip off any place names that are ahead of a real address
+  * @param address suspected name and address line
+  * @return the stripped address line
+  */
+ protected String stripAddressName(String address) {
+   
+   // If we find a numeric token, assumed to be a house number
+   // strip everything in front of it
+   Matcher match = NUMERIC.matcher(address);
+   if (match.find()) address = address.substring(match.start());
+   return address;
  }
 
  /**
