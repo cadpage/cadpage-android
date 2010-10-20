@@ -44,7 +44,7 @@ Herkimer County
 (EMS   >EMS CALL) 808 OLD STATE RD NEWPORT AAAAAAAA 8880000000 Map: Grids:, Cad: 2010-0000049432
 (EMS   >EMS CALL) 3141 MECHANIC ST XS: MAIN ST NEWPORT VILLAGE JOHN 3157179999 Map: Grids:, Cad: 2010-0000058093
 *******************************************************************************
-Livingstone County
+MILivingstonCounty
 CAD:FYI: ;ALARMF;11555 PLEASANT VIEW DR;INDIAN TRL;SMOKE ALARMS GOING OFF IN THE HOUSE FOR THE LAST 30 MIN ON AND OFF/ NO SMOKE OR SMOKE SHOWING [09/24/10 04:17:07 ECOOK]
 CAD:FYI: ;UNKACC;E M36/PETTYS RD;VEHICLE HIT A POLE/ MALE RUNNING E/B FROM SCENE [09/23/10 21:45:06 ECOOK]
 CAD:FYI: ;CHSTPN;8422 PAWNEE TRL;SHOSHONI PASS;[Medical Priority Info] RESPONSE: P1 STA 1 4 5 6 7 8 FC FT RESPONDER SCRIPT: 72 year old, Female, Conscious, Breathing. Chest Pain (Non-Traumatic). Abnormal breathing. Cal
@@ -109,23 +109,17 @@ AMBULANCE, HEMORRHAGE / LACERATIONS: 21-A-1 - 61 YOM - CUT TO HAND at 8 HOLLY LN
 MISC CALL WITH RESCUE, MVA: 29-B-1U - INJURIES at C/O, Setauket  c/s: WIRELESS RD . . 16:08:02
 
 **********************************************************
-Longview, TX
+Longview, TX (class III)
 Contact: william freer <bfreer67@gmail.com>
 Sender: cems@championems.com
-Run# 30209/ *Non Life Emergency P/2/ Sick Person (Specific Diagnosis)/ 1102
-FRANCIS/ EASTON/ 18:21/ <Unknown>/ bp issues-- dizzy spells-- P
-RC:Run# 30209/*Non Life Emergency P/1/Sick Person (Specific Diagnosis)/1102
-FRANCIS///EASTON/18:21/////<Unknown>/bp issues-- dizzy spells--
-RC:Run# 29907/PR Event/Public Service/CRYSTAL FARMS RD///TATUM/19:15/////PR
-EVENT/ TATUM/Tatum vs Harmony////
-(CAD - part 1 of 1) RC:Run# 29793/*Non Life Emergency P/1/Falls/301 B
-FORREST ACRES///TATUM/22:18/////<Unknown>/////
-(CAD - part 1 of 1) RC:Run# 29764/*Non Life Emergency P/1/Overdose /
-Poisoning (Ingestion)/1100 S ADAMS ST//Panola Apts:
-32/CARTHAGE/17:23/////<Unknown>/////
+Run# 30209/ *Non Life Emergency P/2/ Sick Person (Specific Diagnosis)/ 1102 FRANCIS/ EASTON/ 18:21/ <Unknown>/ bp issues-- dizzy spells-- P
+RC:Run# 30209/*Non Life Emergency P/1/Sick Person (Specific Diagnosis)/1102 FRANCIS///EASTON/18:21/////<Unknown>/bp issues-- dizzy spells--
+RC:Run# 29907/PR Event/Public Service/CRYSTAL FARMS RD///TATUM/19:15/////PR EVENT/ TATUM/Tatum vs Harmony////
+(CAD - part 1 of 1) RC:Run# 29793/*Non Life Emergency P/1/Falls/301 B FORREST ACRES///TATUM/22:18/////<Unknown>/////
+(CAD - part 1 of 1) RC:Run# 29764/*Non Life Emergency P/1/Overdose / Poisoning (Ingestion)/1100 S ADAMS ST//Panola Apts: 32/CARTHAGE/17:23/////<Unknown>/////
 
 **********************************************************
-Andover Fire, Anoka county, Minnesota
+Andover Fire, Anoka county, Minnesota (class III)
 Contact: Matt K <mattkohout@gmail.com>
 Sender: cad.cad@co.anoka.mn.us
 INC: field is an incident number

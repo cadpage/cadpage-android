@@ -159,6 +159,7 @@
   <string-array name="pref_location_values">
     <item>General</item>
     <item>GAOconeeCounty</item>
+    <item>GASmyrna</item>
     <item>INTiptonCounty</item>
     <item>MILivingstonCounty</item>
     <item>NYBabylon</item>
@@ -176,6 +177,7 @@
   <string-array name="pref_location_options">
     <item>Generic Location</item>
     <item>Oconee County, GA</item>
+    <item>Smyrna, GA</item>
     <item>Tipton County, IN</item>
     <item>Livingston County, MI</item>
     <item>Babylon, NY</item>
