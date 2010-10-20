@@ -33,7 +33,7 @@ public class INMadisonCountyParser extends SmsMsgParser {
     Properties props = parseMessage(body, keywords);
     body = body.trim();
     data.strUnit = props.getProperty("Unit", "");
-    data.strAddress = props.getProperty("Loc", "");
+    parseAddress(props.getProperty("Loc", ""), data);
     data.strCall = props.getProperty("Inc", "");
   }
 }
