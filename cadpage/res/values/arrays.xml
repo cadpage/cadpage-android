@@ -152,12 +152,13 @@
     <item>MILivingstonCounty</item>
     <item>NYDixHills</item>
     <item>NYBabylon</item>
-    <item>NCMaconCounty</item>
+    <!--item>NCMaconCounty</item-->
   </string-array>
 
   <!-- Sorted in state name order, which is why NY comes before NC. -->    
   <string-array name="pref_location_values">
     <item>General</item>
+    <item>COAdamsCounty</item>
     <item>GAOconeeCounty</item>
     <item>GASmyrna</item>
     <item>INTiptonCounty</item>
@@ -176,6 +177,7 @@
   
   <string-array name="pref_location_options">
     <item>Generic Location</item>
+    <item>Adams County, CO</item>
     <item>Oconee County, GA</item>
     <item>Smyrna, GA</item>
     <item>Tipton County, IN</item>
