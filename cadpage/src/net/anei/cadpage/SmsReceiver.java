@@ -74,7 +74,7 @@ public class SmsReceiver extends BroadcastReceiver {
    */
   private boolean cadPageCall(Context context, SmsMmsMessage message){
 
-    String strMessage = message.getMessageFull();
+    String strMessage = message.getMessageBody();
     
     // Class 0 SMS, let the system handle this
     if (message.getMessageType() == SmsMmsMessage.MESSAGE_TYPE_SMS &&
