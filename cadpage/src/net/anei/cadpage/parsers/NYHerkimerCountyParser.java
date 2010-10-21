@@ -11,6 +11,7 @@ Sender: HC911@herkimercounty.org <From%3AHC911@herkimercounty.org>
 (MVA   >MOTOR VEHICLE ACCIDENT) 5781 STHY 28 XS: TOWN LINE NEWPORT AAAAAA AAAAA 3150000000 Map: Grids:, Cad: 2010-0000049651
 (EMS   >EMS CALL) 808 OLD STATE RD NEWPORT AAAAAAAA 8880000000 Map: Grids:, Cad: 2010-0000049432
 (EMS   >EMS CALL) 3141 MECHANIC ST XS: MAIN ST NEWPORT VILLAGE JOHN 3157179999 Map: Grids:, Cad: 2010-0000058093
+(EMS   >EMS CALL) 3746 BLACK CREEK RD Apt: C Bldg XS: TAYLOR BROOK RD RUSSIA CROFOOT, E 3158265805 Map: Grids:,Cad: 2010-0000058750
 These may be new herkimer county pages that are not compatible with the previous ones.  Further information
 has been requested.
 Reporting email: Chris Conover <conovercj@ntcnet.com>
@@ -55,23 +56,40 @@ public class NYHerkimerCountyParser extends SmsMsgParser {
     // terminate when we recognize an known city.
     // And any tokens after an "XS:" token are added to the cross rather
     // than the address
-    boolean cross = false;
+    // Any tokens after an APT: token are added to apartment
+    int type = 0;
     for (String token : body.split("\\s+")) {
-      if (token.equals("NORWAY") || token.equals("NEWPORT")) {
+      if (token.equalsIgnoreCase("NORWAY") || token.equalsIgnoreCase("NEWPORT")
+          || token.equalsIgnoreCase("RUSSIA")) {
         data.strCity = token;
         break;
       }
-      if (token.equals("XS:")) {
-        cross = true;
+      if (token.equalsIgnoreCase("XS:") || token.equalsIgnoreCase("X:")) {
+        type = 1;
+      } else if (token.equalsIgnoreCase("APT:")) {
+        type = 2;
+      } else if (token.equalsIgnoreCase("MAP:")) {
+        break;
       } else {
-        if (!cross) {
-          if (data.strAddress.length() > 0) data.strAddress += " ";
-          data.strAddress += token;
-        } else {
-          if (data.strCross.length() > 0) data.strCross += " ";
-          data.strCross += token;
+        switch (type) {
+        case 0:
+          data.strAddress = append(data.strAddress, token);
+          break;
+          
+        case 1:
+          data.strCross = append(data.strCross, token);
+          break;
+          
+        case 2:
+          data.strApt = append(data.strApt, token);
+          break;
         }
       }
     }
+  }
+  
+  private String append(String base, String token) {
+    if (base.length() == 0) return token;
+    return base + " " + token;
   }
 }
