@@ -19,7 +19,7 @@ public class NYDixHillsParser extends SmsMsgParser {
 
   @Override
   public boolean isPageMsg(String body) {
-    return body.contains("***");
+    return body.length() > 22 && body.substring(17, 22).equals(" *** ");
   }
 
   @Override
@@ -28,6 +28,8 @@ public class NYDixHillsParser extends SmsMsgParser {
     data.defState="NY";
     data.defCity="Dix Hills";
     body = body.trim();
+    if (body.length() < 11) return;
+    data.strCallId = body.substring(0,11);
     int pt = body.indexOf("***");
     if (pt < 0) return;
     int pta = body.indexOf("***",pt+3); 
