@@ -49,20 +49,14 @@ public class HistoryMsgTextView extends TextView {
     long time = msg.getTimestamp();
     String text = DateFormat.getLongDateFormat(context).format(time) + " " +
                   DateFormat.getTimeFormat(context).format(time) +
-                  (msg.isLocked() ? " (L)" : "") +
+                  (msg.isLocked() ? " (Locked)" : "") +
                   "\n" + msg.getCall();
     setText(text);
     if (! msg.isRead()) setTypeface(Typeface.DEFAULT_BOLD);
     else setTypeface(Typeface.DEFAULT);
   }
 
-  /**
-   * Process selection from context menu
-   * @param itemId Item ID selected
-   * @return true if processed, false otherwise
-   */
-  public boolean contextMenuItemSelected(Activity context, int itemId) {
-    if (msg == null) return false;
-    return msg.menuItemSelected(context, itemId);
+  public SmsMmsMessage getMessage() {
+    return msg;
   }
 }

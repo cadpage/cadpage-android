@@ -348,7 +348,10 @@
     
     <!-- Message menu items -->
     <string name="open_item_text">Open</string>
+    <string name="ack_item_text">Ack</string>
     <string name="map_item_text">Map</string>
+    <string name="lock_item_text">Lock</string>
+    <string name="unlock_item_text">Unlock</string>
     <string name="delete_item_text">Delete</string>
     <string name="close_item_text">Close</string>
     <string name="email_item_text">Report Problem</string>   

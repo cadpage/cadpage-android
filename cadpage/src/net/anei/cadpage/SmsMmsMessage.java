@@ -7,12 +7,14 @@ import java.io.Serializable;
 
 import android.app.Activity;
 import android.content.Context;
-import android.telephony.*;
+import android.telephony.PhoneNumberUtils;
+import android.telephony.SmsMessage;
 import android.telephony.SmsMessage.MessageClass;
 import android.text.format.DateFormat;
 import android.text.format.DateUtils;
 import android.view.Menu;
 import android.view.MenuInflater;
+import android.view.MenuItem;
 
 public class SmsMmsMessage implements Serializable {
 
@@ -60,6 +62,10 @@ public class SmsMmsMessage implements Serializable {
     if (locked == this.locked) return;
     this.locked = locked;
     reportDataChange();
+  }
+  
+  public void toggleLocked() {
+    setLocked(! isLocked());
   }
   
   public int getMsgId() {
@@ -217,6 +223,12 @@ public class SmsMmsMessage implements Serializable {
     return info;
   }
   
+  /**
+   * Create option or context menu for message
+   * @param context current context
+   * @param menu menu to be constructed
+   * @param display true if called from popup menu display
+   */
   public static void createMenu(Activity context, Menu menu, boolean display) {
     MenuInflater inflater = context.getMenuInflater();
     inflater.inflate(R.menu.message_menu, menu);
@@ -226,25 +238,48 @@ public class SmsMmsMessage implements Serializable {
       menu.removeItem(R.id.close_item);
     }
   }
+  
+  public void prepareMenu(Activity context, Menu menu) {
+    
+    // Disable map item if we have no address
+    MenuItem item = menu.findItem(R.id.map_item);
+    if (item != null) item.setEnabled(getInfo().getAddress().length() > 0);
+    
+    // Change label on toggle lock item depending on current lock state
+    item = menu.findItem(R.id.toggle_lock_item);
+    if (item != null) {
+      item.setTitle(isLocked() ? R.string.unlock_item_text : R.string.lock_item_text);
+    }
+  }
 
   /**
    * Handle a menu selection concerning this message
    * @param context current context
    * @param itemId Selected Menu ID
+   * @param display true if called from message display dialog
    * @return true if menu item processed, false otherwise
    */
-  public boolean menuItemSelected(Activity context, int itemId) {
+  public boolean menuItemSelected(Activity context, int itemId, boolean display) {
     switch (itemId) {
     case R.id.open_item:
       SmsPopupActivity.launchActivity(context, this);
+      return true;
+      
+    case R.id.ack_item:
+      // Doesn't do anything yet (except clear notification)
       return true;
       
     case R.id.map_item:
       SmsPopupUtils.mapMessage(context, getInfo());
       return true;
       
+    case R.id.toggle_lock_item:
+      toggleLocked();
+      return true;
+      
     case R.id.delete_item:
       SmsMessageQueue.getInstance().deleteMessage(this);
+      if (display) context.finish();
       return true;
       
     case R.id.close_item:

@@ -133,6 +133,7 @@ public class CallHistoryActivity extends ListActivity {
 
     msgTextView = (HistoryMsgTextView)view;
     SmsMmsMessage.createMenu(this, menu, false);
+    msgTextView.getMessage().prepareMenu(this, menu);
   }
 
 
@@ -143,7 +144,10 @@ public class CallHistoryActivity extends ListActivity {
   public boolean onContextItemSelected(MenuItem item) {
     
     if (msgTextView != null) {
-      if (msgTextView.contextMenuItemSelected(this, item.getItemId())) return true;
+      SmsMmsMessage msg = msgTextView.getMessage();
+      if (msg != null) {
+        if (msg.menuItemSelected(this, item.getItemId(), false)) return true;
+      }
     }
     return super.onContextItemSelected(item);
   }

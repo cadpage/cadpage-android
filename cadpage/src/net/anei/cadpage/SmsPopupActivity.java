@@ -4,13 +4,7 @@ package net.anei.cadpage;
 import android.os.Bundle;
 import android.os.Environment;
 
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.IOException;
 import java.util.ArrayList;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 import com.google.tts.TTS;
 import com.google.tts.TTSVersionAlert;
@@ -25,9 +19,6 @@ import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.app.ProgressDialog;
-import android.app.SearchManager;
-import android.content.ActivityNotFoundException;
-import android.content.ComponentName;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -35,16 +26,12 @@ import android.content.SharedPreferences;
 import android.content.DialogInterface.OnCancelListener;
 import android.content.pm.ActivityInfo;
 import android.content.res.Configuration;
-import android.net.ConnectivityManager;
-import android.net.NetworkInfo;
-import android.net.Uri;
 import android.preference.PreferenceManager;
 import android.speech.RecognizerIntent;
 import android.text.TextUtils;
 import android.view.ContextMenu;
 import android.view.Display;
 import android.view.Menu;
-import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewStub;
@@ -94,14 +81,6 @@ public class SmsPopupActivity extends Activity {
   private static final int DIALOG_QUICKREPLY = Menu.FIRST + 1;
   private static final int DIALOG_PRESET_MSG = Menu.FIRST + 2;
   private static final int DIALOG_LOADING = Menu.FIRST + 3;
-
-  private static final int CONTEXT_CLOSE_ID = Menu.FIRST;
-  private static final int CONTEXT_DELETE_ID = Menu.FIRST + 1;
-  private static final int CONTEXT_REPLY_ID = Menu.FIRST + 2;
-  private static final int CONTEXT_QUICKREPLY_ID = Menu.FIRST + 3;
-  private static final int CONTEXT_INBOX_ID = Menu.FIRST + 4;
-  private static final int CONTEXT_TTS_ID = Menu.FIRST + 5;
-  private static final int CONTEXT_VIEWCONTACT_ID = Menu.FIRST + 6;
 
   private static final int VOICE_RECOGNITION_REQUEST_CODE = 8888;
 
@@ -281,7 +260,7 @@ public class SmsPopupActivity extends Activity {
 //          speakMessage();
           break;
         case ButtonListPreference.BUTTON_MAP: // Google Map the Call
-          message.menuItemSelected(SmsPopupActivity.this, R.id.map_item);
+          message.menuItemSelected(SmsPopupActivity.this, R.id.map_item, true);
           break;
       }
     }
@@ -656,7 +635,7 @@ private boolean externalStorageAvailable() {
    */
   @Override
   public boolean onOptionsItemSelected(MenuItem item) {
-    if (message.menuItemSelected(this, item.getItemId())) return true;
+    if (message.menuItemSelected(this, item.getItemId(), true)) return true;
     return super.onOptionsItemSelected(item);
   }
 
@@ -675,7 +654,7 @@ private boolean externalStorageAvailable() {
    */
   @Override
   public boolean onContextItemSelected(MenuItem item) {
-    if (message.menuItemSelected(this, item.getItemId())) return true;
+    if (message.menuItemSelected(this, item.getItemId(), true)) return true;
     return super.onContextItemSelected(item);
   }
 
