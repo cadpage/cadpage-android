@@ -22,6 +22,11 @@ Sender: HC911@herkimercounty.org
 */
 
 public class NYHerkimerCountyParser extends SmsMsgParser {
+  
+  private static final MatchList cityList = 
+    new MatchList(new String[]
+      {"NORWAY", "NEWPORT", "RUSSIA", "POLAND", "NEWPORT", "FAIRFIELD",
+       "MIDDLEVILLE", "OHIO", "DEERFIELD"}); 
 
   @Override
   public boolean isPageMsg(String body) {
@@ -59,8 +64,7 @@ public class NYHerkimerCountyParser extends SmsMsgParser {
     // Any tokens after an APT: token are added to apartment
     int type = 0;
     for (String token : body.split("\\s+")) {
-      if (token.equalsIgnoreCase("NORWAY") || token.equalsIgnoreCase("NEWPORT")
-          || token.equalsIgnoreCase("RUSSIA")) {
+      if (cityList.contains(token)) {
         data.strCity = token;
         break;
       }
