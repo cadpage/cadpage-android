@@ -170,6 +170,40 @@ Call time
 Street not
 
 **********************************************************
+Alleghany County, MD  (Class I?)
+Contact: Joseph Hoffman <Jphoffman0@frostburg.edu>
+Sender: unpredicatable
+The number following the CFS is the date followed by call number that day.
+Ex: CFS MMDDYY-CALL#
+
+FRM:LogiSYSCAD
+SUBJ:CAD Page for CFS 100110-96
+MSG:UNCONCIOUS/UNRESPONSIVE 91 S BROADWAY
+Units: A53 CO16
+
+FRM:LogiSYSCAD
+SUBJ:CAD Page for CFS 100710-102
+MSG:AUTOMATIC HOUSE ALARM 106 SUNSET DR
+Units: CO2 ENG9 A52 TR16
+
+FRM:LogiSYSCAD
+SUBJ:CAD Page for CFS 101310-67
+MSG:HOUSE FIRE           147 ORMAND ST
+Units: ENG16 TR16 ENG17
+
+FRM:LogiSYSCAD
+SUBJ:CAD Page for CFS 101510-80
+MSG:HOUSE FIRE           72 HOSPITAL ROAD
+Units: ENG16 TR16 ENG17
+
+Any intersection or ³Proximity of...² are dispatched like the following:
+
+FRM:LogiSYSCAD
+SUBJ:CAD Page for CFS 100210-88
+MSG:SMOKE INVESTIGATION  U:LOWER CONSEL RD
+Units: CO16
+
+**********************************************************
 * Misc formats received with problem reports
 **********************************************************
 Unknown from problem report

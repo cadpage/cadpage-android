@@ -15,9 +15,14 @@ sender:  *@ridgewayrescue.com
 (CAD Call) 2010095057\nRSI-(2) SICK UNKNOWN MEDICAL\n129 KIRK ST 4 MARTINSVILLE
 (CAD Call) 2010095041\nMOTOR VEHICLE CRASH\n3 MARHILL DR RIDGEWAY
 (CAD Call) 2010095011\nR2-(1) DIFFICULTY BREATHING\n999 MORGAN FORD RD RIDGEWAY
+(CAD Call) 2010098333\nSUSPICIOUS CIRCUMSTANCES\nDOLLAR GENERAL (MOREHEAD AVE)\n390 MOREHEAD AVE RIDGEWAY\nWHT MALE, DARK SHIRT
 */
 
 public class VAHenryCountyParser extends SmsMsgParser {
+  
+  private static final MatchList cityList = 
+    new MatchList(new String[]
+      {"RIDGEWAY", "MARTINSVILLE", "SPENCER", "BASSETT", "COLLINSVILLE", "FIELDALE", "AXTON"}); 
 
   @Override
   public boolean isPageMsg(String body) {
@@ -29,23 +34,38 @@ public class VAHenryCountyParser extends SmsMsgParser {
     Log.v("DecodeHenryCountyPage: Message Body of:" + body);
     data.defState="VA";
     data.defCity="HENRY COUNTY";
-    
+
+    String addressLine = null;
     int ndx = 0;
     for (String line : body.split("\n")) {
+      line = line.trim();
       ndx++;
-      switch (ndx) {
       
-      case 1:
+      // First line always contains call ID
+      if (ndx == 1) {
         if (line.startsWith("(CAD Call)")) line = line.substring(10);
         data.strCallId = line.trim();
-        break;
+      }
+      
+      else {
         
-      case 2:
-        if (line.contains("RIDGEWAY") || line.contains("MARTINSVILLE")) {
-          ndx++;
-          // Fall through to case 3
-        } else {
-          int pt = line.indexOf(' ');
+        // Beyond that, an address line can occur anywhere, so we always
+        // have to check it.  Address line identified when last token matches
+        // one of our cities, and is always the last thing we process
+        int pt = line.lastIndexOf(' ');
+        if (pt >= 0) {
+          String token = line.substring(pt+1);
+          if (cityList.contains(token)) {
+            line = stripAddressName(line.substring(0, pt));
+            parseAddress(line, data);
+            data.strCity = token;
+            break;
+          }
+        }
+        
+        // If not address line, line 2 contains the unit and call description
+        if (ndx == 2) {
+          pt = line.indexOf(' ');
           if (pt >= 0) {
             String tmp = line.substring(0, pt);
             if (tmp.contains("-(")) {
@@ -54,20 +74,19 @@ public class VAHenryCountyParser extends SmsMsgParser {
             }
           }
           data.strCall = line.trim();
-          break;
         }
         
-      case 3:
-        
-        line = stripAddressName(line).trim();
-        int pt = line.lastIndexOf(" ");
-        if (pt >= 0) {
-          data.strCity= line.substring(pt+1);
-          line = line.substring(0, pt).trim();
+        // Line 3 contains the tentative address line we will use if we don't
+        // find a real address line
+        else if (ndx == 3) {
+          addressLine = line;
         }
-        parseAddress(line, data);
-        break;
       }
+    }
+    
+    // If we didn't find a definitive address line, parse the tentative address line
+    if (data.strCity.length() == 0 && addressLine != null) {
+      parseAddress(stripAddressName(addressLine), data);
     }
   }
 }

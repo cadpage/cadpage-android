@@ -1,6 +1,8 @@
 package net.anei.cadpage.parsers;
 
+import java.util.HashSet;
 import java.util.Properties;
+import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -22,7 +24,7 @@ public abstract class SmsMsgParser {
   public abstract boolean isPageMsg(String msgText);
   
   /**
-   * constructor
+   * build information object
    * @param strMessage SMS message text to be parsed
    */
   public SmsMsgInfo parse(String strMessage) {
@@ -43,7 +45,7 @@ public abstract class SmsMsgParser {
   * @param keyWords list of expected keywords
   * @return Properties object containing the parsed key: value pairs
   */
- protected Properties parseMessage(String body, String[] keyWords) {
+ protected static Properties parseMessage(String body, String[] keyWords) {
    StringBuffer sb = new StringBuffer(body);
    for (String keyWord : keyWords) {
      int ipt = sb.indexOf(" " + keyWord + ":");
@@ -59,7 +61,7 @@ public abstract class SmsMsgParser {
   * @param delim line delimiter
   * @return
   */
- protected Properties parseMessage(String body, String delim) {
+ protected static Properties parseMessage(String body, String delim) {
    return parseMessage(body, delim, null);
  }
  
@@ -71,7 +73,7 @@ public abstract class SmsMsgParser {
   * lines that are missing a keyword
   * @return Properties object containing the parsed line tokens
   */
- protected Properties parseMessage(String body, String delim, String[] missedKeys) {
+ protected static Properties parseMessage(String body, String delim, String[] missedKeys) {
    
      Properties props = new Properties();
      String[] lines = body.split(delim);
@@ -100,7 +102,7 @@ public abstract class SmsMsgParser {
   * @param address suspected name and address line
   * @return the stripped address line
   */
- protected String stripAddressName(String address) {
+ protected static String stripAddressName(String address) {
    
    // If we find a numeric token, assumed to be a house number
    // strip everything in front of it
@@ -113,7 +115,7 @@ public abstract class SmsMsgParser {
   * Parse address line into address and city fields
   * @param addressLine address line to be parsed
   */
- protected void parseAddress(String addressLine, SmsMsgInfo.Data data) {
+ protected static void parseAddress(String addressLine, SmsMsgInfo.Data data) {
    for (String addr : addressLine.split("/")) {
      String[] tmp = addr.split("-");
      if (data.strAddress.length() > 0) data.strAddress += " and ";
@@ -148,8 +150,34 @@ public abstract class SmsMsgParser {
   * @return if item is a key to a codeTable entry, returns the associated value,
   * otherwise returns item
   */
- protected String convertCodes(String item, Properties codeTable) {
+ protected static String convertCodes(String item, Properties codeTable) {
    String value = codeTable.getProperty(item);
    return (value != null ? value : item);
+ }
+ 
+ /**
+  * Class containing a list of strings that tokens will need to be checked against
+  */
+ protected static class MatchList {
+   
+   private Set<String> set;
+
+   /**
+    * Constructor
+    * @param list list of strings that tokens will be checked against
+    */
+   public MatchList(String[] list) {
+     set = new HashSet<String>(list.length);
+     for (String entry : list) set.add(entry.toUpperCase());
+   }
+   
+   /**
+    * Determine if token is in list
+    * @param token token to be checked
+    * @return true if token is in list
+    */
+   public boolean contains(String token) {
+     return set.contains(token.toUpperCase());
+   }
  }
 }
