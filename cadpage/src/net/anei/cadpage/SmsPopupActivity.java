@@ -631,6 +631,15 @@ private boolean externalStorageAvailable() {
   }
 
   /* (non-Javadoc)
+   * @see android.app.Activity#onPrepareOptionsMenu(android.view.Menu)
+   */
+  @Override
+  public boolean onPrepareOptionsMenu(Menu menu) {
+    message.prepareMenu(this, menu);
+    return true;
+  }
+
+  /* (non-Javadoc)
    * @see android.app.Activity#onOptionsItemSelected(android.view.MenuItem)
    */
   @Override
@@ -645,8 +654,8 @@ private boolean externalStorageAvailable() {
   @Override
   public void onCreateContextMenu(ContextMenu menu, View v, ContextMenuInfo menuInfo) {
     super.onCreateContextMenu(menu, v, menuInfo);
-    
     SmsMmsMessage.createMenu(this, menu, true);
+    message.prepareMenu(this, menu);
   }
 
   /*

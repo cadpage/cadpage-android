@@ -117,6 +117,7 @@ public abstract class SmsMsgParser {
   * @param addressLine address line to be parsed
   */
  protected static void parseAddress(String addressLine, SmsMsgInfo.Data data) {
+   addressLine = addressLine.trim();
    for (String addr : addressLine.split("/")) {
      String[] tmp = addr.split("-");
      if (data.strAddress.length() > 0) data.strAddress += " and ";

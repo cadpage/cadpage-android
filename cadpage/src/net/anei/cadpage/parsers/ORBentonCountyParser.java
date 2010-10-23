@@ -11,6 +11,7 @@ Contact: kencx@peak.org
 Sender: alerts@corvallis.ealertgov.com
 (Corvallis Alert) INC: CODE 1 MEDICAL\nADD:1740 MAIN ST\nAPT:\nCITY:PHILOMATH\nX:N 17TH ST * N 18TH ST\nMAP:540-365\nCFS:0907010-119\nDIS:PHILOMATH FIRE
 (Corvallis Alert) INC:COMM FIRE ALARM\nADD:421 S 19TH ST\nAPT:\nCITY:PHILOMATH\nX:ASH ST * CEDAR ST\nMAP:540-360\nCFS:100410-188\nDIS:PHILOMATH FIRE\nDIS:PHI
+(Corvallis Alert) INC:UNKNOWN MEDICAL\nADD:504 MELVILL CRESCENT AV [PHILOMATH]\nAPT:\nCITY:PHILOMATH\nX:SUNSHINE AV\nMAP:550-385\nCFS:101710-223\nDIS:PHILOM
 */
 
 public class ORBentonCountyParser extends SmsMsgParser {
@@ -30,6 +31,15 @@ public class ORBentonCountyParser extends SmsMsgParser {
     
     data.strCall=props.getProperty("INC", "");
     data.strAddress=props.getProperty("ADD", "");
+    int pt = data.strAddress.lastIndexOf(' ');
+    if (pt >= 0) {
+      String token = data.strAddress.substring(pt+1);
+      if (token.charAt(0) == '[' && token.charAt(token.length()-1) == ']') {
+        data.strAddress = data.strAddress.substring(0, pt).trim();
+        data.strCity = token.substring(1, token.length()-2);
+      }
+    }
+
     data.strCity=props.getProperty("CITY", "");
     data.strApt =props.getProperty("APT", "");
     data.strCross=props.getProperty("X", "");
