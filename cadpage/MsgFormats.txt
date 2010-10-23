@@ -175,6 +175,17 @@ Call time
 Street not
 
 **********************************************************
+Amityville Fider, NY (Class III)
+Need Amityville Fider and Babylon combo 
+Contact: age405 <sage405@gmail.com>
+Sender: paging@alpinesoftware.com <From%3Apaging@alpinesoftware.com>
+C/S must mean cross street
+*SIGNAL 16* 129 FRANCESCA WAY C/S SARAH CT AND COUNTYLINE RD TOA: 13:47 RUN#10-1227
+SIG16A 30 HARBOR NORTH C/S OF S. BAYVIEW TO THE DEAD END DIABETIC COMA TOA 20:24 RUN# 10-1235
+ SIG 16/23 MVA CAR VS BYCYCLE SUNRISE HWY AND COUNTYLINE RD TOA 16:08 RUN #10-1233
+ SIG 16 182  MERRICK RD C/S BROADWAY AND WEST HIGH SCHOOL PARKING LOT A/F SICK TOA 21:41
+ SIG 16 ER DOX 365 BROADWAY CROSS STREETS OF DIXION AND ALBANY TOA 13:46 RUN#10-1229
+**********************************************************
 * Misc formats received with problem reports
 **********************************************************
 Unknown from problem report
@@ -205,6 +216,5 @@ PREGNANT F/ STOMACH PAIN
 Unknown from problem report
 contact: sage405 <sage405@gmail.com>
 sender: paging@alpinesoftware.com <From%3Apaging@alpinesoftware.com>
-*SIGNAL 16* 129 FRANCESCA WAY C/S SARAH CT AND COUNTYLINE RD TOA: 13:47 RUN#10-1227
 
 **************************************************************************
