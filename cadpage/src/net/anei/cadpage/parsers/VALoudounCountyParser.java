@@ -16,7 +16,7 @@ Call:20D01H-HEAT EXPOSURE,STONE SPRINGS BLVD-AL/MINERAL SPRINGS CIR-AL Apt:,X-St
 
 ***/
 
-public class VALoudinCountyParser extends SmsMsgParser {
+public class VALoudounCountyParser extends SmsMsgParser {
 
   private static final String[]LCFRkeywords = new String[]{"Call:", "Apt:", "X-St:"};
   private static final Properties LCFRCityCodes = buildCodeTable(new String[]{
