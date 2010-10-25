@@ -11,11 +11,15 @@ Call:12D02E-SEIZURES CONT,42914 OVERLY SQ-CH Apt:,X-St:NORRINGTON SQ KIR,A6092,B
 Call:17D03-FALL PATIENT N,42848 RECTORS CHASE WAY-AB Apt:,X-St:HOYSVILLE MANOR D,A6092 904 ACO9,Box:2618 ,ADC:5400 G03 [89]
 Call:17D03-FALL PATIENT N,42848 RECTORS CHASE WAY-AB Apt:,X-St:HOYSVILLE MANOR D,A6092 904 ACO9,Box:2618 ,ADC:5400 G03 [89]
 Call:20D01H-HEAT EXPOSURE,STONE SPRINGS BLVD-AL/MINERAL SPRINGS CIR-AL Apt:,X-St:GREENSTONE DR & M,A6092 9942 ACO9,Box:0910 ,ADC:5520 B02 [77]
+
+([cad13] ) Call:30A01-TRAUMA NOT DAN,775 GATEWAY DR SE-LB Apt:CLUBHS,X-St:SYCOLIN RD SE VAN,M6132 ACO13,Box:2013 ,ADC:515
+
 ***/
 
 public class VALoudinCountyParser extends SmsMsgParser {
 
-  private static Properties LCFRCityCodes = buildCodeTable(new String[]{
+  private static final String[]LCFRkeywords = new String[]{"Call:", "Apt:", "X-St:"};
+  private static final Properties LCFRCityCodes = buildCodeTable(new String[]{
         "CH", "Chantilly",
         "LB", "Leesburg",
         "AL", "Aldie",
@@ -38,7 +42,7 @@ public class VALoudinCountyParser extends SmsMsgParser {
 
   @Override
   public boolean isPageMsg(String body) {
-    return body.startsWith("Call:");
+    return isPageMsg(body, LCFRkeywords);
   }
 
   @Override

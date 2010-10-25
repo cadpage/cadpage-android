@@ -38,6 +38,25 @@ public abstract class SmsMsgParser {
   }
 
   protected abstract void parse(String strMessage, Data data);
+  
+
+  /**
+   * Convenience method to identify a page message by checking to see if
+   * it contains a sequence of key phrases in the proper order
+   * @param body body of message to be checked
+   * @param keywords array of key phrases used to identify paging message
+   * @return true if all key phrases were found.
+   */
+  protected boolean isPageMsg(String body, String[] keywords) {
+    int ipt = 0;
+    for (String keyword : keywords) {
+      ipt = body.indexOf(keyword, ipt);
+      if (ipt < 0) return false;
+      ipt += keyword.length();
+    }
+    return true;
+  }
+
  
  /** 
   * General purpose parser for formats where there is not a clear delimiter
