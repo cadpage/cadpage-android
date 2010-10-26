@@ -153,80 +153,43 @@ public class SmsPopupActivity extends Activity {
 
     } else {
 
-      // Button 1
-      final Button button1 = (Button) findViewById(R.id.button1);
-      PopupButton button1Vals =
-        new PopupButton(getApplicationContext(), Integer.parseInt(mPrefs.getString(
-            getString(R.string.pref_button1_key), Defaults.PREFS_BUTTON1)));
-      button1.setOnClickListener(button1Vals);
-      button1.setText(button1Vals.buttonText);
-      button1.setVisibility(button1Vals.buttonVisibility);
-
-      // Button 2
-      final Button button2 = (Button) findViewById(R.id.button2);
-      PopupButton button2Vals =
-        new PopupButton(getApplicationContext(), Integer.parseInt(mPrefs.getString(
-            getString(R.string.pref_button2_key), Defaults.PREFS_BUTTON2)));
-      button2.setOnClickListener(button2Vals);
-      button2.setText(button2Vals.buttonText);
-      button2.setVisibility(button2Vals.buttonVisibility);
-
-      // Button 3
-      final Button button3 = (Button) findViewById(R.id.button3);
-      PopupButton button3Vals =
-        new PopupButton(getApplicationContext(), Integer.parseInt(mPrefs.getString(
-            getString(R.string.pref_button3_key), Defaults.PREFS_BUTTON3)));
-      button3.setOnClickListener(button3Vals);
-      button3.setText(button3Vals.buttonText);
-      button3.setVisibility(button3Vals.buttonVisibility);
-
-      /*
-       * This is really hacky. There are two types of reply buttons (quick reply
-       * and reply). If the user has selected to show both the replies then the
-       * text on the buttons should be different. If they only use one then the
-       * text can just be "Reply".
-       */
-      int numReplyButtons = 0;
-      if (button1Vals.isReplyButton) numReplyButtons++;
-      if (button2Vals.isReplyButton) numReplyButtons++;
-      if (button3Vals.isReplyButton) numReplyButtons++;
-
-      if (numReplyButtons == 1) {
-        if (button1Vals.isReplyButton) button1.setText(R.string.button_reply);
-        if (button2Vals.isReplyButton) button2.setText(R.string.button_reply);
-        if (button3Vals.isReplyButton) button3.setText(R.string.button_reply);
+      // Setup the buttons
+      int[] buttonIDs = new int[]{R.id.button1, R.id.button2, R.id.button3};
+      for (int ndx = 1; ndx<=3; ndx++) {
+        Button btn = (Button) findViewById(buttonIDs[ndx-1]);
+        new PopupButtonHandler(getApplicationContext(), ndx, btn);
       }
     }
-
+    
+    // Populate display fields
     populateViews(getIntent());
   }
 
-
-
+  // List of menu items associated with each button ID.
+  static final int[] ITEM_ID_LIST = new int[]{
+    0, R.id.ack_item, R.id.map_item, R.id.toggle_lock_item, 
+    R.id.delete_item, R.id.close_item, R.id.email_item
+  };
  
-/*
+  /*
    * Internal class to handle dynamic button functions on popup
    */
-  class PopupButton implements OnClickListener {
-    private int buttonId;
-    public boolean isReplyButton;
-    public String buttonText;
-    public int buttonVisibility = View.VISIBLE;
+  class PopupButtonHandler implements OnClickListener {
+    public int itemId;
 
-    public PopupButton(Context mContext, int id) {
-      buttonId = id;
-      isReplyButton = false;
-      if (buttonId == ButtonListPreference.BUTTON_REPLY
-          || buttonId == ButtonListPreference.BUTTON_QUICKREPLY
-          || buttonId == ButtonListPreference.BUTTON_REPLY_BY_ADDRESS) {
-        isReplyButton = true;
-      }
-      String[] buttonTextArray = mContext.getResources().getStringArray(R.array.buttons_text);
-      buttonText = buttonTextArray[buttonId];
+    public PopupButtonHandler(Context mContext, int buttonNum, Button button) {
+      int buttonId = ManagePreferences.popupButton(buttonNum);
+      
+      String[] buttonTextArray = mContext.getResources().getStringArray(R.array.button_text);
+      button.setText(buttonTextArray[buttonId]);
 
-      if (buttonId == ButtonListPreference.BUTTON_DISABLED) { // Disabled
-        buttonVisibility = View.GONE;
-      }
+      itemId = ITEM_ID_LIST[buttonId];
+      
+      button.setVisibility(itemId == 0 ? View.GONE : View.VISIBLE);
+      button.setOnClickListener(this);
+      
+      // TODO: Need some logic to change text and enable status depending on
+      // current message state like we do for the menu items.
     }
 
     public void onClick(View v) {
@@ -234,35 +197,8 @@ public class SmsPopupActivity extends Activity {
       // Any button clears the notice
       ManageNotification.clear(getApplicationContext());
       
-      switch (buttonId) {
-        case ButtonListPreference.BUTTON_DISABLED: // Disabled
-          break;
-        case ButtonListPreference.BUTTON_CLOSE: // Close
-          finish();
-          break;
-        case ButtonListPreference.BUTTON_DELETE: // Delete
-          showDialog(DIALOG_DELETE);
-          finish();
-          break;
-        case ButtonListPreference.BUTTON_DELETE_NO_CONFIRM: // Delete no confirmation
-          deleteMessage();
-          break;
-        case ButtonListPreference.BUTTON_REPLY: // Reply
-//          replyToMessage(true);
-          break;
-        case ButtonListPreference.BUTTON_REPLY_BY_ADDRESS: // Quick Reply
-//          replyToMessage(false);
-          break;
-        case ButtonListPreference.BUTTON_INBOX: // Inbox
-//          gotoInbox();
-          break;
-        case ButtonListPreference.BUTTON_TTS: // Text-to-Speech
-//          speakMessage();
-          break;
-        case ButtonListPreference.BUTTON_MAP: // Google Map the Call
-          message.menuItemSelected(SmsPopupActivity.this, R.id.map_item, true);
-          break;
-      }
+      // Perform the requested action
+      message.menuItemSelected(SmsPopupActivity.this, itemId, true);
     }
   }
 

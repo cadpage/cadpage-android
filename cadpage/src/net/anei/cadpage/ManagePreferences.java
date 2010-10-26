@@ -1,6 +1,5 @@
 package net.anei.cadpage;
 
-import java.text.DateFormat;
 import java.util.Map;
 
 import net.anei.cadpage.parsers.SmsMsgParser;
@@ -148,6 +147,24 @@ public class ManagePreferences {
 
   public static SmsMsgParser getParser() {
     return getParser(location());
+  }
+  
+  public static int popupButton(int button) {
+    //TODO some day this will be configurable
+    
+    switch (button) {
+    case 1:
+      return 1;   // Button 1 is acknowledge button
+      
+    case 2:
+      return 2;   // Button 2 is map button
+      
+    case 3:
+      return 5;   // Button 3 is close button
+      
+    default:    // Anything else is disabled
+      return 0;
+    }
   }
   
   private static String saveLocation = null;

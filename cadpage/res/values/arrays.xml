@@ -28,6 +28,33 @@
     <item>10</item>
     <item>-1</item>
   </string-array>
+  
+  <!--  Configurable popup dialog buttons -->
+  <string-array name="button_text">
+    <item>@string/button_disabled</item>
+    <item>@string/ack_item_text</item>
+    <item>@string/map_item_text</item>
+    <item>@string/lock_item_text</item>
+    <item>@string/delete_item_text</item>
+    <item>@string/close_item_text</item>
+    <item>@string/email_item_text</item>
+  </string-array>
+  <item type="id" name="ack_item"/>
+  <item type="id" name="map_item"/>
+  <item type="id" name="toggle_lock_item"/>
+  <item type="id" name="delete_item"/>
+  <item type="id" name="close_item"/>
+  <item type="id" name="email_item"/>
+  <integer-array name="button_id">
+    <item>0</item>
+    <item>@id/ack_item</item>
+    <item>@id/map_item</item>
+    <item>@id/toggle_lock_item</item>
+    <item>@id/delete_item</item>
+    <item>@id/close_item</item>
+    <item>@id/email_item</item>
+  </integer-array>
+  
   <string-array
     name="buttons_text">
     <item>@string/button_disabled</item>
@@ -51,7 +78,8 @@
     <item>@string/button_replybyaddress</item>
     <item>@string/button_inbox</item>
     <item>@string/button_tts</item>
-    <item>@string/button_map</item><item>@string/button_disabled</item>
+    <item>@string/button_map</item>
+    <item>@string/button_disabled</item>
   </string-array>
 
   <string-array
