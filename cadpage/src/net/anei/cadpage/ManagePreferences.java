@@ -3,13 +3,17 @@ package net.anei.cadpage;
 import java.util.Map;
 
 import net.anei.cadpage.parsers.SmsMsgParser;
-import net.anei.cadpage.preferences.ButtonListPreference;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.os.Build;
 import android.preference.PreferenceManager;
 
 public class ManagePreferences {
+  
+  // Preference version.  This needs to be incremented every time a new
+  // configuration setting is added to force it to initialize properly
+  // when the new release is first run.
+  private static final int PREFERENCE_VERSION = 1;
   
   private static ManagePreferences prefs;
 
@@ -18,8 +22,26 @@ public class ManagePreferences {
    * @param context
    */
   public static void setupPreferences(Context context) {
-    PreferenceManager.setDefaultValues(context, R.xml.preferences, false);
+    
+    // Initialize the preference object
     prefs = new ManagePreferences(context);
+
+    // Before we do anything else, see what the old preference version number was
+    int oldVersion = prefs.getInt(R.string.pref_version_key, 0);
+    
+    // If the old version doesn't match the current version, we need to reload
+    // the preference defaults and update the preference version
+    if (oldVersion != PREFERENCE_VERSION) {
+      PreferenceManager.setDefaultValues(context, R.xml.preferences, true);
+      prefs.getInt(R.string.pref_version_key, PREFERENCE_VERSION);
+    }
+    
+    // If old version was < 1, we need to reset the popup button configuration settings
+    if (oldVersion < 1) {
+      prefs.putString(R.string.pref_button1_key, context.getString(R.string.pref_button1_default));
+      prefs.putString(R.string.pref_button2_key, context.getString(R.string.pref_button2_default));
+      prefs.putString(R.string.pref_button3_key, context.getString(R.string.pref_button3_default));
+    }
     
     // If location code is the old numeric code, convert it
     String location = location();
@@ -149,18 +171,21 @@ public class ManagePreferences {
     return getParser(location());
   }
   
+  public static boolean showButtons() {
+    return prefs.getBoolean(R.string.pref_show_buttons_key);
+  }
+  
   public static int popupButton(int button) {
-    //TODO some day this will be configurable
     
     switch (button) {
     case 1:
-      return 1;   // Button 1 is acknowledge button
+      return Integer.parseInt(prefs.getString(R.string.pref_button1_key));
       
     case 2:
-      return 2;   // Button 2 is map button
+      return Integer.parseInt(prefs.getString(R.string.pref_button2_key));
       
     case 3:
-      return 5;   // Button 3 is close button
+      return Integer.parseInt(prefs.getString(R.string.pref_button3_key));
       
     default:    // Anything else is disabled
       return 0;
@@ -274,28 +299,24 @@ public class ManagePreferences {
     return result;
   }
   
+  private int getInt(int resPrefId, int defValue) {
+    return mPrefs.getInt(context.getString(resPrefId), defValue);
+  }
+  
   private int getInt(int resPrefId) {
     int result = mPrefs.getInt(context.getString(resPrefId), Integer.MAX_VALUE);
     if (result == Integer.MAX_VALUE) throw new RuntimeException("No configured preference value found");
     return result;
   }
 
-  /*
-   * Define all default preferences in this static class.  Unfortunately these are also
-   * stored in the resource xml files for use by the preference xml so they should be
-   * updated in both places if a change is required.
-   * 
-   * All of this is deprecated. New logic doesn't code defaults that would only
-   * take effect if the code requests a preference for an ID that isn't defined
-   * in the preference configuration.  New static method logic tries to throw
-   * an exception if this situation occurs.
-   * 
-   */
-  public static final class Defaults {
-    public static final boolean PREFS_SHOW_BUTTONS = true;
-    public static final String PREFS_BUTTON1 = String.valueOf(ButtonListPreference.BUTTON_MAP);
-    public static final String PREFS_BUTTON2 = String.valueOf(ButtonListPreference.BUTTON_DELETE);
-    public static final String PREFS_BUTTON3 = String.valueOf(ButtonListPreference.BUTTON_CLOSE);
+  public void putString(int resPrefId, String newVal) {
+    SharedPreferences.Editor settings = mPrefs.edit();
+    settings.putString(context.getString(resPrefId), newVal);
+    settings.commit();
+  }
+
+  public int putInt(String pref, int defaultVal) {
+    return mPrefs.getInt(pref, defaultVal);
   }
   
   // All of the following methods are deprecated, but we only officially
@@ -340,16 +361,6 @@ public class ManagePreferences {
 
   public String getString(int resPrefId, String defaultVal) {
     return mPrefs.getString(context.getString(resPrefId), defaultVal);
-  }
-
-  public void putString(int resPrefId, String newVal) {
-    SharedPreferences.Editor settings = mPrefs.edit();
-    settings.putString(context.getString(resPrefId), newVal);
-    settings.commit();
-  }
-
-  public int getInt(String pref, int defaultVal) {
-    return mPrefs.getInt(pref, defaultVal);
   }
 
   public void close() {}

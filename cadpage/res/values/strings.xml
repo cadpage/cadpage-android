@@ -14,12 +14,9 @@
    <string name="notification_scroll">%s</string>
    <string name="notification_scroll_privacy">New Call:</string>
 
-<!-- Button Strings -->   
-   <string name="button_close">Close</string>
+<!-- Button Strings    
    <string name="button_reply">Reply</string>
    <string name="button_inbox">Inbox</string>
-   <string name="button_view">View</string>
-   <string name="button_view_mms">View MMS</string>
    <string name="button_delete">Delete</string>
    <string name="button_next">Next</string>
    <string name="button_previous">Previous</string>
@@ -29,7 +26,11 @@
    <string name="button_speak">Speak</string>
    <string name="button_delete_noconfirm">Delete (no confirmation)</string>
    <string name="button_quickreply">Quick Reply</string>
+   -->
    <string name="button_disabled">Disabled</string>
+   <string name="button_view">View</string>
+   <string name="button_view_mms">View MMS</string>
+   <string name="button_close">Close</string>
    
 <!-- Main Preferences -->
    <string name="pref_config_title">CADPage Configuration</string>
@@ -326,7 +327,6 @@
     <string name="pref_led_pattern_entries_fast">Fast</string>
     <string name="pref_led_pattern_entries_normal">Normal</string>
     <string name="pref_led_pattern_entries_slow">Slow</string>
-    <string name="button_map">Map Call</string>
     
     
     <string name="CallAddress">None</string>

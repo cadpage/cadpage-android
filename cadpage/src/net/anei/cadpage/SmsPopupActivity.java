@@ -11,7 +11,6 @@ import com.google.tts.TTSVersionAlert;
 import com.google.tts.TTS.InitListener;
 
 import net.anei.cadpage.ManageKeyguard.LaunchOnKeyguardExit;
-import net.anei.cadpage.ManagePreferences.Defaults;
 import net.anei.cadpage.preferences.ButtonListPreference;
 import net.anei.cadpage.wrappers.TextToSpeechWrapper;
 import net.anei.cadpage.wrappers.TextToSpeechWrapper.OnInitListener;
@@ -91,6 +90,8 @@ public class SmsPopupActivity extends Activity {
   private TextToSpeechWrapper androidTts = null;
 	
 	private SmsMsgInfo info;
+	
+	private PopupButtonHandler[] btnHandlers = null;
   
 
   // Establish whether the Android TextToSpeech class is available to us
@@ -140,24 +141,20 @@ public class SmsPopupActivity extends Activity {
     privacyViewStub = (ViewStub) findViewById(R.id.PrivacyViewStub);
     buttonsLL = findViewById(R.id.ButtonLinearLayout);
 
-
-    // Get shared prefs
-    SharedPreferences mPrefs = PreferenceManager.getDefaultSharedPreferences(this);
-    
-    // See if user wants to show buttons on the popup
-    if (!mPrefs.getBoolean(
-        getString(R.string.pref_show_buttons_key), Defaults.PREFS_SHOW_BUTTONS)) {
+    if (! ManagePreferences.showButtons()) {
 
       // Hide button layout
       buttonsLL.setVisibility(View.GONE);
+      btnHandlers = null;
 
     } else {
 
       // Setup the buttons
       int[] buttonIDs = new int[]{R.id.button1, R.id.button2, R.id.button3};
+      if (btnHandlers == null) btnHandlers = new PopupButtonHandler[3];
       for (int ndx = 1; ndx<=3; ndx++) {
         Button btn = (Button) findViewById(buttonIDs[ndx-1]);
-        new PopupButtonHandler(getApplicationContext(), ndx, btn);
+        btnHandlers[ndx-1] = new PopupButtonHandler(getApplicationContext(), ndx, btn);
       }
     }
     
@@ -176,20 +173,25 @@ public class SmsPopupActivity extends Activity {
    */
   class PopupButtonHandler implements OnClickListener {
     public int itemId;
+    public Button button;
 
     public PopupButtonHandler(Context mContext, int buttonNum, Button button) {
+      
+      this.button = button;
+      
       int buttonId = ManagePreferences.popupButton(buttonNum);
       
-      String[] buttonTextArray = mContext.getResources().getStringArray(R.array.button_text);
+      String[] buttonTextArray = mContext.getResources().getStringArray(R.array.pref_button_text);
       button.setText(buttonTextArray[buttonId]);
 
       itemId = ITEM_ID_LIST[buttonId];
       
       button.setVisibility(itemId == 0 ? View.GONE : View.VISIBLE);
       button.setOnClickListener(this);
-      
-      // TODO: Need some logic to change text and enable status depending on
-      // current message state like we do for the menu items.
+    }
+    
+    public void prepareButton(SmsMmsMessage msg) {
+      msg.prepareButton(itemId, button);
     }
 
     public void onClick(View v) {
@@ -199,6 +201,9 @@ public class SmsPopupActivity extends Activity {
       
       // Perform the requested action
       message.menuItemSelected(SmsPopupActivity.this, itemId, true);
+      
+      // Reset button status in case anything has changed
+      prepareButtons();
     }
   }
 
@@ -334,6 +339,9 @@ public class SmsPopupActivity extends Activity {
 
     // Store message
     message = newMessage;
+    
+    // Make any adjustments to buttons
+    if (btnHandlers != null) prepareButtons();
     info = message.getInfo();
     
     // If it's a MMS message, just show the MMS layout
@@ -424,6 +432,15 @@ public class SmsPopupActivity extends Activity {
     //storeFileMessage();
     
   } //end of function
+
+  /**
+   * Make any last minute corrections to button statuses
+   */
+  private void prepareButtons() {
+    for (PopupButtonHandler btnHandler : btnHandlers) {
+      btnHandler.prepareButton(message);
+    }
+  }
 
 private boolean externalStorageAvailable() {
 	// From google

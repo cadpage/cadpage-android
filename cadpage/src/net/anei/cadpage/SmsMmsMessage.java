@@ -15,6 +15,8 @@ import android.text.format.DateUtils;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
 
 public class SmsMmsMessage implements Serializable {
 
@@ -240,15 +242,91 @@ public class SmsMmsMessage implements Serializable {
   }
   
   public void prepareMenu(Activity context, Menu menu) {
+    for (int ndx = 0; ndx < menu.size(); ndx++) {
+      final MenuItem item = menu.getItem(ndx);
+      prepareItem(new ItemObject() {
+        
+        @Override
+        public int getId() {
+          return item.getItemId();
+        }
+
+        @Override
+        public void setEnabled(boolean enabled) {
+          item.setEnabled(enabled);
+        }
+
+        @Override
+        public void setTitle(int resId) {
+          item.setTitle(resId);
+        }
+
+        @Override
+        public void setVisible(boolean visible) {
+          item.setVisible(visible);
+        }
+        
+      });
+    }
+  }
+  
+  public void prepareButton(int itemId, Button button) {
+    final int fItemId = itemId;
+    final Button fBtn = button;
+    prepareItem(new ItemObject(){
+      
+      @Override
+      public int getId() {
+        return fItemId;
+      }
+
+      @Override
+      public void setEnabled(boolean enabled) {
+        fBtn.setEnabled(enabled);
+      }
+
+      @Override
+      public void setTitle(int resId) {
+        fBtn.setText(resId);
+      }
+
+      @Override
+      public void setVisible(boolean visible) {
+        fBtn.setVisibility(visible ? View.VISIBLE : View.GONE);
+      }
+    });
+  }
+  
+  private interface ItemObject {
+    public int getId();
+    public void setTitle(int resId);
+    public void setEnabled(boolean enabled);
+    public void setVisible(boolean visible);
+  }
+  
+  private void prepareItem(ItemObject item) {
+    
+    switch (item.getId()) {
+    
+    // Disabled button is never visible
+    case 0:
+      item.setVisible(false);
+      break;
     
     // Disable map item if we have no address
-    MenuItem item = menu.findItem(R.id.map_item);
-    if (item != null) item.setEnabled(getInfo().getAddress().length() > 0);
+    case R.id.map_item:
+      item.setEnabled(getInfo().getAddress().length() > 0);
+      break;
     
     // Change label on toggle lock item depending on current lock state
-    item = menu.findItem(R.id.toggle_lock_item);
-    if (item != null) {
+    case  R.id.toggle_lock_item:
       item.setTitle(isLocked() ? R.string.unlock_item_text : R.string.lock_item_text);
+      break;
+      
+    // Delete is only enabled if message has been read and is not locked
+    case R.id.delete_item:
+      item.setEnabled(read && ! locked);
+      break;
     }
   }
 
