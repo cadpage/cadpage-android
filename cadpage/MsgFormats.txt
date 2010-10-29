@@ -109,7 +109,14 @@ FRM:LogiSYSCAD\nSUBJ:CAD Page for CFS 100110-96\nMSG:UNCONCIOUS/UNRESPONSIVE 91 
 FRM:LogiSYSCAD\nSUBJ:CAD Page for CFS 100710-102\nMSG:AUTOMATIC HOUSE ALARM 106 SUNSET DR\nUnits: CO2 ENG9 A52 TR16
 FRM:LogiSYSCAD\nSUBJ:CAD Page for CFS 101310-67\nMSG:HOUSE FIRE           147 ORMAND ST\nUnits: ENG16 TR16 ENG17
 ***************************************************************************
-Currently unsupported districts 
+***************************************************************************
+Districts that are not yet supported.  Class indicates implementation difficulty
+class I - Easy ones with clear and obvious field delimiters
+class II - We could probably parse address if we had list of town/city codes terminating the address
+           These could be done immediately, but since we are going to have to do a smart address
+           parser in the near future, I am choosing to make the city lookup part of that smart parser
+           so it will handle the corner case where a unknown city is specified.
+class III - No obvious address delimiter, waiting for development of smart address parser
 ***************************************************************************
 Centreville, MD (class III)
 qac911:*D 4-2 COMMERCIAL BLDG FIRE DUNKIN DONUTS @500 CHURCH HILL RD COMMERCIAL BOX Q04
@@ -189,12 +196,14 @@ SIG16A 30 HARBOR NORTH C/S OF S. BAYVIEW TO THE DEAD END DIABETIC COMA TOA 20:24
  SIG 16 182  MERRICK RD C/S BROADWAY AND WEST HIGH SCHOOL PARKING LOT A/F SICK TOA 21:41
  SIG 16 ER DOX 365 BROADWAY CROSS STREETS OF DIXION AND ALBANY TOA 13:46 RUN#10-1229
 **********************************************************
-Unidentified request - (class I) waiting for more info
+Accomack County, VA - (class I)
 Contact: niblett25@gmail.com
 Sender: cad@esva911.org
+Field 3 is unknown
+Field 4-5 make up a map code
+Field 6-7 are cross streets
 CAD:STROKE;6225 HOLLAND RD;NEWC;A25;A6;DEBRA LN;R J DR
 CAD:ACCIDENT WITH INJURY;12432 LANKFORD HWY;HALL;A59;B6;FOX DR;JOHN TAYLOR RD
-CAD:ABDOMINAL PAIN;15361 LANKFORD HWY;MAPP;A68;D4;GILLESPIE LN;SHERWOOD DR;MILE MARKER 125
 CAD:ABDOMINAL PAIN;15361 LANKFORD HWY;MAPP;A68;D4;GILLESPIE LN;SHERWOOD DR;MILE MARKER 125
 **********************************************************
 * Misc formats received with problem reports
