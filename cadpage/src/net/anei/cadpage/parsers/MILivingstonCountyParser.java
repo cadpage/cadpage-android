@@ -24,7 +24,9 @@ public class MILivingstonCountyParser extends SmsMsgParser {
     body = body.trim();
     String[] AData = body.split(";");
     data.strCall = AData[1];
+    if (AData.length <= 2) return;
     parseAddress(AData[2], data);
+    if (AData.length <= 3) return;
     if (AData[3].length() <20) data.strCross =  AData[3];
   }
 }
