@@ -23,6 +23,7 @@ public class MILivingstonCountyParser extends SmsMsgParser {
     data.defCity = "LIVINGSTON COUNTY";
     body = body.trim();
     String[] AData = body.split(";");
+    if (AData.length <= 1) return;
     data.strCall = AData[1];
     if (AData.length <= 2) return;
     parseAddress(AData[2], data);
