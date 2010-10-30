@@ -216,6 +216,27 @@ Sender: cc_message_notification@usamobility.net
 29-Oct-2010/09:21:10/UNC/18303 OLD TRIANGLE RD ,PWC /03R/E503B E523 M503 STA03R female screaming something is wrong w male in t he house .
 28-Oct-2010/18:35:32/OUTF/CARBOROUGH ST / 19140 WINDSOR RD ,PWC /03R/E503B STA03R /BRUSH ON FIRE BESIDES THE HIGHWAY [53]
 **********************************************************
+Orleans County, NY
+Contact: Wayne Litchfield <LitchfieldW@orleansny.com>
+Sender: ocdispatch@orleansny.com
+Three character township codes use are...
+VAL TAL, BAR TGN ARE ALBION,NY 14411
+VLD YAT ARE LYNDONVILLE,NY 14098
+VMD TRW TSH ARE MEDINA,NY 14103
+VHL TMR TCL ARE HOLLEY,NY 14470
+TKN IS KENDALL,NY 14476
+
+CHEST PAIN 13858 ROUTE 31 TAL 54 yof chest pains 10-c-1
+TRANSFER/INTERFACILITY/PALLIATIVE CARE 200 OHIO ST VMD 
+ASSAULT/SEXUAL ASSAULT 525 WEST AV VMD MALE WITH LOWER LEFG INJURY 
+ASSAULT/SEXUAL ASSAULT 525 WEST AV VMD MALE WITHLOWER LEG INJURY
+CO DETECTOR ACTIVATED FD\n4014 FANCHER RD TMR\nco detector activated allpersons out of house
+CO DETECTOR ACTIVATED FD 4014 FANCHER RD TMR co detector activated allpersons out of house
+CO DETECTOR ACTIVATED FD 4014 FANCHER RD TMR co detector activated allpersons out of house
+SICK PERSON 16762 ROOSEVELT HW TKN 
+SICK PERSON 16762 ROOSEVELT HW TKN PER 154, AMB FOR ILLNESS   DISORIENTED MALE   26-D-
+FALLS 500 MAPLE RIDGE RD VMD 75 YOF  FALLEN   UNABLE TO GET UP
+**********************************************************
 * Misc formats received with problem reports
 **********************************************************
 Unknown from problem report

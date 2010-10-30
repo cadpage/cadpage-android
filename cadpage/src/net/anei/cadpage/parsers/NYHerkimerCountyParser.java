@@ -12,6 +12,7 @@ Sender: HC911@herkimercounty.org <From%3AHC911@herkimercounty.org>
 (EMS   >EMS CALL) 808 OLD STATE RD NEWPORT AAAAAAAA 8880000000 Map: Grids:, Cad: 2010-0000049432
 (EMS   >EMS CALL) 3141 MECHANIC ST XS: MAIN ST NEWPORT VILLAGE JOHN 3157179999 Map: Grids:, Cad: 2010-0000058093
 (EMS   >EMS CALL) 3746 BLACK CREEK RD Apt: C Bldg XS: TAYLOR BROOK RD RUSSIA CROFOOT, E 3158265805 Map: Grids:,Cad: 2010-0000058750
+(FIREST>STRUCTURE FIRE) 1316 HARD SCRABBLE RD XS: BEGIN ESN 029 FAIRFIELD COOK, CORA 3158913818 Map: Grids:, Cad: 2010-0000060399
 These may be new herkimer county pages that are not compatible with the previous ones.  Further information
 has been requested.
 Reporting email: Chris Conover <conovercj@ntcnet.com>
