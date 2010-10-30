@@ -16,7 +16,7 @@ import net.anei.cadpage.SmsMsgInfo.Data;
 public abstract class SmsMsgParser {
   
   // Pattern matching a terminated string of digits
-  protected static final Pattern NUMERIC = Pattern.compile("\\W\\d+\\W");
+  public static final Pattern NUMERIC = Pattern.compile("\\b\\d+\\b");
   
   /**
    * @return true if this message contain the text phrases that indicate it is 

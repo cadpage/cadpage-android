@@ -1,5 +1,7 @@
 package net.anei.cadpage;
 
+import net.anei.cadpage.parsers.SmsMsgParser;
+
 /**
  * This class contains all of the useful data fields that are parsed from
  * the actual message text
@@ -87,12 +89,23 @@ public class SmsMsgInfo {
    */
   public String getMapAddress() {
     StringBuilder sb = new StringBuilder(strAddress);
+    
+    // If there wasn't an address number or intersection marker in address
+    // try appending cross street info as as intersection
+    if (!validAddress() && strCross.length() > 0) {
+      sb.append(" & ");
+      sb.append(strCross);
+    }
+    
+    // Add city if specified, default city otherwise
     String city = strCity;
     if (city.length() == 0) city = defCity;
     if (city.length() > 0) {
       sb.append(",");
       sb.append(city);
     } 
+    
+    // Add state if specified, default state otherwise
     String state = strState;
     if (state.length() == 0) state = defState;
     if (state.length() > 0) {
@@ -102,6 +115,17 @@ public class SmsMsgInfo {
     
     return sb.toString();
 	}
+  
+  /**
+   * @return true if address is valid standalone address
+   * (ie either starts with a house number or contains an intersection marker) 
+   */
+  private boolean validAddress() {
+    int pt = strAddress.indexOf(' ');
+    if (pt > 0 && SmsMsgParser.NUMERIC.matcher(strAddress.substring(0, pt)).matches()) return true;
+    if (strAddress.contains("&") || strAddress.contains(" AND ") || strAddress.contains(" and ")) return true; 
+    return false;
+  }
   
   /**
    * @return the call city
