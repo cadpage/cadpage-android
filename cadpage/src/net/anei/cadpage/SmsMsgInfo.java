@@ -42,7 +42,7 @@ public class SmsMsgInfo {
     public String strPhone="";
     public String defCity = "";
     public String defState="";
-    public String strSupp;
+    public String strSupp="";
   }
 
   /**

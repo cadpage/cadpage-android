@@ -57,9 +57,11 @@ public class NYBabylonParser extends SmsMsgParser {
     if (iLoc > 0){
       int iLoca = sSupp.indexOf("/",iLoc+1);
       sSupp = sSupp.substring(iLoca +3);
-      int iLast = sSupp.lastIndexOf(" ");
-      if (iLast < 0 || iLast > sSupp.length()) {iLast=0;}
-      data.strSupp = sSupp.substring(0, iLast);
+      if (iLoca >= 0) {
+        int iLast = sSupp.lastIndexOf(" ");
+        if (iLast < 0 || iLast > sSupp.length()) {iLast=0;}
+        data.strSupp = sSupp.substring(0, iLast);
+      }
     }
   }
 }
