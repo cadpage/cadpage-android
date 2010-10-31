@@ -46,10 +46,20 @@ public class NYBabylonParser extends SmsMsgParser {
     data.strCall = body.substring(pt+3, pta).trim();
     body = body.substring(pta+3).trim();
     
-    body = "ADDR:" + body.replace(" FC ", " FC:");
+    if (body.contains(" FC ")) { body = "ADDR:" + body.replace(" FC ", " FC:"); }
+    if (body.contains(" FD ")) { body = "ADDR:" + body.replace(" FD ", " FC:"); }
     Properties props = parseMessage(body, keywords);
     parseAddress(props.getProperty("ADDR", ""), data);
     data.strCross = props.getProperty("CS", "");
     data.strCallId = props.getProperty("FC", "");
+    String sSupp = props.getProperty("TOA");
+    int iLoc = sSupp.indexOf("/");
+    if (iLoc > 0){
+      int iLoca = sSupp.indexOf("/",iLoc+1);
+      sSupp = sSupp.substring(iLoca +3);
+      int iLast = sSupp.lastIndexOf(" ");
+      if (iLast < 0 || iLast > sSupp.length()) {iLast=0;}
+      data.strSupp = sSupp.substring(0, iLast);
+    }
   }
 }

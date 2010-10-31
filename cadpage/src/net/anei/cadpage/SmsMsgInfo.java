@@ -21,6 +21,7 @@ public class SmsMsgInfo {
   private String strPhone;
   private String defCity;
   private String defState;
+  private String strSupp;
 
   /**
    * Temporary data class used to pass information to constructor
@@ -41,6 +42,7 @@ public class SmsMsgInfo {
     public String strPhone="";
     public String defCity = "";
     public String defState="";
+    public String strSupp;
   }
 
   /**
@@ -61,6 +63,7 @@ public class SmsMsgInfo {
     strPhone = info.strPhone;
     defCity = info.defCity;
     defState = info.defState;
+    strSupp = info.strSupp;
   }
   
   /**
@@ -181,5 +184,11 @@ public class SmsMsgInfo {
    */
   public String getPhone() {
     return strPhone;
+  }
+  /**
+   * @return the Supp Info 
+   */
+  public String getSupp() {
+    return strSupp;
   }
 }

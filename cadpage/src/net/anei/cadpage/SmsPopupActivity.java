@@ -412,9 +412,19 @@ public class SmsPopupActivity extends Activity {
         sb.append("\nBOX:");
         sb.append(info.getBox());
       }
+      if (info.getSupp().length() >0) {
+        sb.append(delim);
+        sb.append("Info:");
+        sb.append(info.getSupp());
+      }
       if (info.getUnit().length() > 0) {
         sb.append("\nUnits: ");
         sb.append(info.getUnit());
+      }
+      if (info.getCallId().length() >0) {
+        sb.append(delim);
+        sb.append("FC:");
+        sb.append(info.getCallId());
       }
       messageTV.setText(sb.toString());
     } else {
