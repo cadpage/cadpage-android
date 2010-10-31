@@ -363,4 +363,7 @@
     <string name="sendemail_btn_ok">Send</string>
     <string name="sendemail_btn_cancel">Cancel</string>
 
+<string name="pref_disclaimer_title">Disclaimer</string>
+<string name="pref_disclaimer_summary">View Disclaimer regarding cadpage use.</string>
+<string name="pref_disclaimer_url">http://code.google.com/p/cadpage/wiki/Disclaimer</string>
 </resources>
