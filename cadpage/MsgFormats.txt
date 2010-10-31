@@ -222,7 +222,7 @@ Sender: cc_message_notification@usamobility.net
 29-Oct-2010/09:21:10/UNC/18303 OLD TRIANGLE RD ,PWC /03R/E503B E523 M503 STA03R female screaming something is wrong w male in t he house .
 28-Oct-2010/18:35:32/OUTF/CARBOROUGH ST / 19140 WINDSOR RD ,PWC /03R/E503B STA03R /BRUSH ON FIRE BESIDES THE HIGHWAY [53]
 **********************************************************
-Orleans County, NY
+Orleans County, NY (class III) but may change, they are working on changing dispatch procedures.
 Contact: Wayne Litchfield <LitchfieldW@orleansny.com>
 Sender: ocdispatch@orleansny.com
 Three character township codes use are...
@@ -242,6 +242,11 @@ CO DETECTOR ACTIVATED FD 4014 FANCHER RD TMR co detector activated allpersons ou
 SICK PERSON 16762 ROOSEVELT HW TKN 
 SICK PERSON 16762 ROOSEVELT HW TKN PER 154, AMB FOR ILLNESS   DISORIENTED MALE   26-D-
 FALLS 500 MAPLE RIDGE RD VMD 75 YOF  FALLEN   UNABLE TO GET UP
+
+Under proposed dispatch standards
+BREATHING PROBLEMS; 231 CHAMBERLAIN ST VAL; 17yom t/b    6-c-1; TEST FROM ORLEANS
+CARDIAC/RESPIRATORY ARREST, 16044 GLIDDEN RD TCL, 61 YOM UNATTENDED /COLD  IN WARM ENVIRNMENT WILLIAM JAROSINSKI   
+FALLS; 1794 OAK ORCHARD RD TCR; 49 yom fell out of tub difficulty breathing   17d4  PRI 1
 **********************************************************
 * Misc formats received with problem reports
 **********************************************************
