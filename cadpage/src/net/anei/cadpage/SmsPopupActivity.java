@@ -416,8 +416,7 @@ public class SmsPopupActivity extends Activity {
         sb.append(info.getBox());
       }
       if (info.getSupp().length() >0) {
-        sb.append(delim);
-        sb.append("Info:");
+        sb.append("\nInfo:");
         sb.append(info.getSupp());
       }
       if (info.getUnit().length() > 0) {
@@ -425,8 +424,7 @@ public class SmsPopupActivity extends Activity {
         sb.append(info.getUnit());
       }
       if (info.getCallId().length() >0) {
-        sb.append(delim);
-        sb.append("CID:");
+        sb.append("\nCID:");
         sb.append(info.getCallId());
       }
       messageTV.setText(sb.toString());
