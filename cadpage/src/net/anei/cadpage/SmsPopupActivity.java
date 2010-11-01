@@ -320,7 +320,10 @@ public class SmsPopupActivity extends Activity {
     
     // This shouldn't be possible, unless someone other than SmsReceiver is
     // sending rouge intents to us.  But we had better catch it, just in case
-    if (msg == null) finish();
+    if (msg == null) {
+      finish();
+      return;
+    }
     
     // Flag message read
     msg.setRead(true);
