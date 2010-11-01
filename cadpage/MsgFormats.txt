@@ -251,6 +251,34 @@ BREATHING PROBLEMS; 126 E BANK ST VAL; 76 yom B/P SWEATS DIZZY  6D4  PRI 1;
 HEART PROBLEMS/AICD; 15140 RIDGE RD TGN; 50 YOM RAPID HEART 180 BPS ; PRI 1 19c4;
 TRAFFIC/TRANSPORTATION INCIDENTS; 14681 RIDGE RD TGN; REPORTED 2 CAR MINOR INJ MVA   29-B-1;
 **********************************************************
+Chester Country, PA (Class I)
+Contact: "buckhunter1113@aol.com" <buckhunter1113@aol.com>
+Sender: station24@comcast.net
+(Convert \n to blanks, then use the keyword parser
+
+ Initial Type: ACCINJA    Final Type: ACCINJA (ACCIDENT - INJURIES / ALS *)
+ Loc: W BALTIMORE PK/SCARLETT RD ,60    (V)
+ AKA:
+
+ Initial Type: BFALL      Final Type: BFALL   (FALLS - BLS / LIFT ASSIST *)
+ Loc: 118 RACE ST ,03 -- RACE PARK APTS btwn E STATE ST & E C
+
+ Initial Type: BSICK      Final Type: BSICK   (SICK PERSON - BLS *)
+ Loc: 415 MEGAN CT ,62  btwn VICTORIA GARDENS DR & AZALEA LA (V)
+ AKA
+
+ Initial Type: ACVA       Final Type: ACVA    (CVA/STROKE - ALS *)
+ Loc: 509 HAZEL AV ,03  btwn N WALNUT ST & WILSON RD (V)
+ AKA:   Munic
+
+ Initial Type: ALARMF     Final Type: ALARMF  (ALARM - FIRE *)
+ Loc: 100 E SOUTH ST ,03 -- KENNETT HIGH SCHOOL btwn S BROAD ST & CHURCH A
+
+ Initial Type: AOD        Final Type: AOD     (OVERDOSE - ALS *)
+ Loc: 6 WAYS LA ,62  btwn MUNICIPAL BOUNDARY & E CYPRESS ST (V)
+ AKA:
+
+**********************************************************
 * Misc formats received with problem reports
 **********************************************************
 Unknown from problem report

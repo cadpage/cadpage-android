@@ -426,7 +426,7 @@ public class SmsPopupActivity extends Activity {
       }
       if (info.getCallId().length() >0) {
         sb.append(delim);
-        sb.append("FC:");
+        sb.append("CID:");
         sb.append(info.getCallId());
       }
       messageTV.setText(sb.toString());

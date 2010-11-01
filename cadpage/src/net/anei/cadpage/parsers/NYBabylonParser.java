@@ -1,6 +1,8 @@
 package net.anei.cadpage.parsers;
 
 import java.util.Properties;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import net.anei.cadpage.Log;
 import net.anei.cadpage.SmsMsgInfo.Data;
@@ -26,7 +28,10 @@ import net.anei.cadpage.SmsMsgInfo.Data;
 
 public class NYBabylonParser extends SmsMsgParser {
   
-  private static String[] keywords = new String[]{"ADDR", "CS", "TOA", "FC", "HY"};
+  private static final String[] keywords = new String[]{"ADDR", "CS", "TOA", "FC", "HY"};
+  
+  private static final Pattern TIME_DATE = Pattern.compile("\\d\\d:\\d\\d \\d\\d/\\d\\d/\\d\\d ");
+  private static final String[] districtList = new String[]{"NORTH BABYLON", "AMITYVILLE"};
 
   @Override
   public boolean isPageMsg(String body) {
@@ -46,22 +51,20 @@ public class NYBabylonParser extends SmsMsgParser {
     data.strCall = body.substring(pt+3, pta).trim();
     body = body.substring(pta+3).trim();
     
-    if (body.contains(" FC ")) { body = "ADDR:" + body.replace(" FC ", " FC:"); }
-    if (body.contains(" FD ")) { body = "ADDR:" + body.replace(" FD ", " FC:"); }
+    body = "ADDR:" + body.replace(" FC ", " FC:").replace(" FD ", " FC:");
     Properties props = parseMessage(body, keywords);
     parseAddress(props.getProperty("ADDR", ""), data);
     data.strCross = props.getProperty("CS", "");
     data.strCallId = props.getProperty("FC", "");
     String sSupp = props.getProperty("TOA");
-    int iLoc = sSupp.indexOf("/");
-    if (iLoc > 0){
-      int iLoca = sSupp.indexOf("/",iLoc+1);
-      sSupp = sSupp.substring(iLoca +3);
-      if (iLoca >= 0) {
-        int iLast = sSupp.lastIndexOf(" ");
-        if (iLast < 0 || iLast > sSupp.length()) {iLast=0;}
-        data.strSupp = sSupp.substring(0, iLast);
+    Matcher match = TIME_DATE.matcher(sSupp);
+    if (match.find()) sSupp = sSupp.substring(match.end());
+    for (String district : districtList) {
+      if (sSupp.endsWith(district)) {
+        sSupp = sSupp.substring(0, sSupp.length()-district.length()).trim();
+        break;
       }
     }
+    data.strSupp = sSupp;
   }
 }
