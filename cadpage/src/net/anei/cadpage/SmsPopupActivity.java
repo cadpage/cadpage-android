@@ -387,7 +387,9 @@ public class SmsPopupActivity extends Activity {
     // Set the from, message and header views
     fromTV.setText(info.getCall());
     if (message.getMessageType() == SmsMmsMessage.MESSAGE_TYPE_SMS) {
-      StringBuilder sb = new StringBuilder(info.getAddress());
+      StringBuilder sb = new StringBuilder(info.getPlace());
+      if (sb.length() > 0) sb.append('\n');
+      sb.append(info.getAddress());
       String appt = info.getApt();
       if (appt.length() > 0) {
         sb.append(" Apt:"); 

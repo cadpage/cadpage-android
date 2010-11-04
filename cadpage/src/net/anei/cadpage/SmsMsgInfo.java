@@ -9,6 +9,7 @@ import net.anei.cadpage.parsers.SmsMsgParser;
 public class SmsMsgInfo {
 
   private String strCall;
+  private String strPlace;
   private String strAddress;
   private String strCity;
   private String strApt;
@@ -30,6 +31,7 @@ public class SmsMsgInfo {
    */
   public static class Data {
     public String strCall = "";
+    public String strPlace = "";
     public String strAddress = "";
     public String strCity = "";
     public String strApt = "";
@@ -51,6 +53,7 @@ public class SmsMsgInfo {
    */
   public SmsMsgInfo(Data info) {
     strCall = info.strCall;
+    strPlace = info.strPlace;
     strAddress = info.strAddress;
     strCity = info.strCity;
     strApt = info.strApt;
@@ -78,6 +81,13 @@ public class SmsMsgInfo {
    */
   public String getCall() {
     return strCall;
+  }
+  
+  /**
+   * @return return place name
+   */
+  public String getPlace() {
+    return strPlace;
   }
 
   /**

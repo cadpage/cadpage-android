@@ -18,7 +18,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
    * Type code indicating what kind of information might preceed the address
    * portion of this message
    */
-  public  enum StartType {START_ADDR, START_CALL, START_SKIP};
+  public  enum StartType {START_ADDR, START_CALL, START_PLACE, START_SKIP};
   
   // Main dictionary maps words to a bitmap indicating what is important about that word
   private final Map<String, Integer> dictionary = new HashMap<String, Integer>();
@@ -141,7 +141,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
       
     } while (false);
     
-    fillInData(sType == StartType.START_CALL, data);
+    fillInData(sType, data);
   }
   
   /**
@@ -374,7 +374,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
    * @param startCall if call description should be parsed from 
    * beginning of the address field
    */
-  private void fillInData(boolean startCall, SmsMsgInfo.Data data) {
+  private void fillInData(StartType startType, SmsMsgInfo.Data data) {
     
     int end = endAll;
     if (startCity >= 0) {
@@ -392,7 +392,14 @@ public abstract class SmartAddressParser extends SmsMsgParser {
       end = startAddress;
     }
     
-    if (startCall) data.strCall = buildData(0, end);
+    switch (startType) {
+    case START_CALL:
+      data.strCall = buildData(0, end);
+      break;
+    case START_PLACE:
+      data.strPlace = buildData(0, end);
+      break;
+    }
   }
 
   /**
