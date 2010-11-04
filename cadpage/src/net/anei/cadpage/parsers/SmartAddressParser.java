@@ -66,6 +66,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
         "PATH",
         "PIKE",
         "COURT", "CT",
+        "TER",
         "HWY");
     setupDictionary(ID_ROUTE_PFX, "RT", "ST", "US", "FS", "INTERSTATE", "I", "HWY", "STHWY");
     setupDictionary(ID_DIRECTION, "N", "NE", "E", "SE", "S", "SW", "W", "NW");
@@ -112,8 +113,13 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     
     // Parse line into tokens and categorize each token
     // While we are doing this, identify the index of the last city
-    String[] tokens = address.split("\\s+");
-    int[] tokenType = new int[tokens.length];
+    tokens = address.split("\\s+");
+    tokenType = new int[tokens.length];
+    lastCity = -1;
+    startAddress = -1;  
+    startCross = -1;
+    startCity = -1;
+    endAll = -1;
     
     for (int ndx = 0; ndx < tokens.length; ndx++) {
       tokenType[ndx] = findType(tokens[ndx]);
@@ -222,11 +228,13 @@ public abstract class SmartAddressParser extends SmsMsgParser {
       while (true) {
         ndx++;
         if (ndx >= tokens.length) return false; 
-        if (isType(ndx, ID_CONNECTOR) &&
-            isType(ndx-1, ID_ROAD_SFX)) {
-          sAddr = ndx - 2;
-          if (sAddr > 0 && isType(sAddr-1, ID_DIRECTION)) sAddr--;
-          break;
+        if (isType(ndx, ID_CONNECTOR)) {
+          if (isType(ndx-1, ID_ROAD_SFX) ||
+              isType(ndx-1, ID_NUMBER) & ndx>2 & isType(ndx-2, ID_ROUTE_PFX)) {
+            sAddr = ndx - 2;
+            if (sAddr > 0 && isType(sAddr-1, ID_DIRECTION)) sAddr--;
+            break;
+          }
         }
       }
     }
@@ -237,7 +245,13 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     // Change the connector to something Google maps will always recognize
     tokens[ndx] = "&";
     
-    // And find end of second road
+    // If there is a city terminating the address, just parse up to it
+    if (parseToCity(ndx)) {
+      startAddress = sAddr;
+      return true;
+    }
+    
+    // Otherwise find end of second road
     ndx = findRoadEnd(ndx+1);
     if (ndx < 0) return false;
     
@@ -308,11 +322,11 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     
     startAddress = stNdx;
     for (int ndx = 0; ndx < tokens.length; ndx++) {
-      if (isType(ndx, ID_CROSS_STREET)) startCross = ndx;
+      if (isType(ndx, ID_CROSS_STREET)) startCross = ndx + 1;
       if (isType(ndx, ID_CITY)) {
         startCity = ndx;
         endAll = ndx+1;
-        break;
+        return true;
       }
     }
     return false;
@@ -365,6 +379,9 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     while (true) {
       if (isType(end, ID_ROAD_SFX)) return end+1;
       if (isType(end, ID_CROSS_STREET)) return end;
+      
+      // A number preceeded by a route prefix counts as a road
+      if (isType(end, ID_NUMBER) && end > 0 && isType(end-1, ID_ROUTE_PFX)) return end+1;
       if (++end - start > 2) return -1;
     }
   }
@@ -384,7 +401,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     
     if (startCross >= 0) {
       data.strCross = buildData(startCross, end);
-      end = startCross;
+      end = startCross - 1;
     }
     
     if (startAddress >= 0) {

@@ -201,4 +201,18 @@ public class SmsMsgInfo {
   public String getSupp() {
     return strSupp;
   }
+  
+  /**
+   * @return the default city 
+   */
+  public String getDefCity() {
+    return defCity;
+  }
+  
+  /**
+   * @return the default state 
+   */
+  public String getDefState() {
+    return defState;
+  }
 }
