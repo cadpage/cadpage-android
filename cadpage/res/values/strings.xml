@@ -366,4 +366,8 @@
 <string name="pref_disclaimer_title">Disclaimer</string>
 <string name="pref_disclaimer_summary">View Disclaimer regarding cadpage use.</string>
 <string name="pref_disclaimer_url">http://code.google.com/p/cadpage/wiki/Disclaimer</string>
+<string name="callback_item_text">Phone</string>
+<string name="pref_callback_dialog">Enter Callback Phone Number</string>
+<string name="pref_callback_title">Callback Number</string>
+<string name="pref_callback_summary">When configured there will be a &quot;Phone&quot; button configured to call this number.</string>
 </resources>
