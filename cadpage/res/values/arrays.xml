@@ -188,7 +188,8 @@
     <item>TXHarrisCounty</item>
     <item>VAHenryCounty</item>
     <item>VALoudounCounty</item>
-  </string-array>
+  <item>VAAccomackCounty</item>
+</string-array>
   
   <string-array name="pref_location_options">
     <item>Generic Location</item>
@@ -210,7 +211,8 @@
     <item>Harris County, TX</item>
     <item>Henry County, VA</item>
     <item>Loudoun, VA</item>
-  </string-array>
+  <item>Accomack County, VA</item>
+</string-array>
 
 <string-array name="email_devel_addr">
   <item>support@cadpage.org</item>
