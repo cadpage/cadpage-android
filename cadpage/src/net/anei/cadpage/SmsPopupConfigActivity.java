@@ -266,16 +266,7 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
         LayoutInflater factory = getLayoutInflater();
         final View donateView = factory.inflate(R.layout.donate, null);
 
-        Button donateMarketButton = (Button) donateView.findViewById(R.id.DonateMarketButton);
-        donateMarketButton.setOnClickListener(new OnClickListener() {
-          public void onClick(View v) {
-            Intent i = new Intent(Intent.ACTION_VIEW);
-            i.setData(SmsPopupUtils.DONATE_MARKET_URI);
-            SmsPopupConfigActivity.this.startActivity(
-                Intent.createChooser(i, getString(R.string.pref_donate_title)));
-          }
-        });
-
+       
         Button donatePaypalButton = (Button) donateView.findViewById(R.id.DonatePaypalButton);
         donatePaypalButton.setOnClickListener(new OnClickListener() {
           public void onClick(View v) {
