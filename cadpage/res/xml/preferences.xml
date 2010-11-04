@@ -218,6 +218,12 @@
             android:defaultValue="@string/pref_button3_default"
             android:dependency="@string/pref_show_buttons_key" />
         </PreferenceScreen>
+        <EditTextPreference  android:dialogTitle="Callback"
+            android:dialogMessage="@string/pref_callback_dialog"
+            android:key="@string/pref_callback_key"
+            android:title="@string/pref_callback_title"
+            android:summary="@string/pref_callback_summary"
+            android:defaultValue="" />
       </PreferenceCategory>
       <PreferenceCategory
         android:title="@string/pref_other_title">
