@@ -186,12 +186,12 @@
     <item>ORPrineville</item>
     <item>PALancasterCounty</item>
     <item>TXHarrisCounty</item>
+    <item>VAAccomackCounty</item>
     <item>VAHenryCounty</item>
     <item>VALoudounCounty</item>
-  <item>VAAccomackCounty</item>
 </string-array>
   
-  <string-array name="pref_location_options">
+<string-array name="pref_location_options">
     <item>Generic Location</item>
     <item>Adams County, CO</item>
     <item>Oconee County, GA</item>
@@ -209,9 +209,9 @@
     <item>Prineville, OR</item>
     <item>Lancaster County, PA</item>
     <item>Harris County, TX</item>
+    <item>Accomack County, VA</item>
     <item>Henry County, VA</item>
     <item>Loudoun, VA</item>
-  <item>Accomack County, VA</item>
 </string-array>
 
 <string-array name="email_devel_addr">

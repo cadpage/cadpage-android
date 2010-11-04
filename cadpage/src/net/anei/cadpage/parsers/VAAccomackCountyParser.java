@@ -29,19 +29,21 @@ public class VAAccomackCountyParser extends SmsMsgParser {
     data.defState="VA";
     data.defCity="ACCOMACK COUNTY";
 
-      String[] lines = body.substring(4).split(";");
-      if (lines.length > 1) data.strCall = lines[0];
-      if (lines.length > 3) parseAddress(lines[1], data);
-      if (lines.length <= 3) return;
-      data.strMap = " " + lines[3] + ", " + lines[4];
-      if (lines.length <= 4) return;
-      if (lines[5].length() < 0) return;
-      if (lines[6].length() < 0) 
-        {
-        data.strCross = lines[5];
-        }
-      else
-        data.strCross = lines[5]+ " & " + lines[6];
-    
+    String[] lines = body.substring(4).split(";");
+    data.strCall = lines[0];
+    if (lines.length <= 1) return;
+    parseAddress(lines[1], data);
+    if (lines.length <= 3) return;
+    data.strMap = lines[3];
+    if (lines.length <= 4) return;
+    data.strMap = data.strMap + "," + lines[4];
+    if (lines.length <= 5) return;
+    data.strCross = lines[5];
+    if (lines.length <= 6) return;
+    if (lines[6].length() > 0) {
+      data.strCross = data.strCross + " & " + lines[6];
+    }
+    if (lines.length <= 7) return;
+    data.strSupp = lines[7];
   }
 }
