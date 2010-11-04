@@ -38,6 +38,7 @@ public class VALoudounCountyParser extends SmsMsgParser {
         "RH", "Round Hill",
         "UP", "Upperville",
         "FX19", "Fairfax",
+        "FX11", "Fairfax",
         "FX", "Fairfax",
         "FQ", "Faquier"});
 
@@ -54,6 +55,7 @@ public class VALoudounCountyParser extends SmsMsgParser {
 
     // Needs some massaging before it can be run through the standard parser
     body = body.replace(" Apt:", ",Apt:");
+    body = body.replace(" [", ",Ext:");
     Properties props = parseMessage(body, ",", new String[]{"Addr", "Unit"});
     data.strCall = props.getProperty("Call", "");
     parseAddress(props.getProperty("Addr", ""), data);
