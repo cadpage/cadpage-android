@@ -27,6 +27,9 @@ public class SmartAddressParserTest extends BaseParserTest {
     doTest(ADDR, "MY HOME IN KENSBURG LOOKS NICE", 
         "ADDR:MY HOME IN", 
         "CITY:KENSBURG");
+    doTest(ADDR, "My home in Kensburg looks nice",
+        "ADDR:My home in",
+        "CITY:Kensburg");
   }
   
   @Test
@@ -46,6 +49,10 @@ public class SmartAddressParserTest extends BaseParserTest {
     doTest(SKIP, "SOME DAY OVER THE RAINBOW 100 BLUEBIRDS SING IN KENSBURG HIGH",
         "ADDR:100 BLUEBIRDS SING IN",
         "CITY:KENSBURG");
+    doTest(SKIP, "BARK PLACE 500 US-30 DOWNTOWN",
+        "ADDR:500 US-30");
+    doTest(SKIP, "BARK PLACE 500 st123 downstairs",
+        "ADDR:500 st123");
   }
   
   @Test
@@ -82,6 +89,8 @@ public class SmartAddressParserTest extends BaseParserTest {
         "ADDR:HWY 20 & WEST HILLS RD");
     doTest(SKIP, "NOW SEE IF CAN WE FIND W HILLS RD/HWY 20 WITHOUT A CITY",
         "ADDR:W HILLS RD & HWY 20");
+    doTest(SKIP, "LOOKING FOR I-90 & US231 SOMEWHERE",
+        "ADDR:I-90 & US231");
   }
   
   @Test
@@ -90,8 +99,38 @@ public class SmartAddressParserTest extends BaseParserTest {
     		"ADDR:BLAKSLY CREEK RD");
     doTest(SKIP, "WHERE CAN I FIND BLAKSLY CREEK RD IN CHICAGO",
         "ADDR:CREEK RD");
-    doTest(SKIP, "WHERE CAN I FIND N BLAKSLY CREEK RD IN CHICAGO",
-        "ADDR:N BLAKSLY CREEK RD");
+    doTest(SKIP, "WHERE CAN I FIND N BLAKSLY CREEK RD IN KENSBURG",
+        "ADDR:CREEK RD IN",
+        "CITY:KENSBURG");
+    doTest(ADDR, "US 26 IN CHICAGO",
+        "ADDR:US 26");
+    doTest(SKIP, "WHERE CAN I FIND I 506 IN CHICAGO",
+        "ADDR:I 506");
+    doTest(SKIP, "WHERE CAN I FIND ST 101 SOMEWHERE OUT WEST",
+        "ADDR:ST 101");
+    doTest(SKIP, "WHERE IS BLAKSLY CREED RD X: BLUE LN IN KENSBURG",
+        "ADDR:CREED RD",
+        "X:BLUE LN IN",
+        "CITY:KENSBURG");
+    doTest(SKIP, "WHERE IS ST 345 X: PINE ST IN CHICAGO",
+        "ADDR:ST 345",
+        "X:PINE ST");
+    doTest(SKIP, "CAN YOU FIND I-25 OUT THERE SOMEWHERE",
+        "ADDR:I-25");
+    doTest(SKIP, "WHAT ABOUT us123 PERHAPS",
+        "ADDR:us123");
+  }
+  
+  @Test
+  public void testParseFallback() {
+    doTest(ADDR, "SOMETIMES THINGS JUST DONT WORK",
+        "ADDR:SOMETIMES THINGS JUST DONT WORK");
+    doTest(SKIP, "SOMETIMES THINGS JUST DONT WORK",
+        "ADDR:SOMETIMES THINGS JUST DONT WORK");
+    doTest(CALL, "SOMETIMES THINGS JUST DONT WORK",
+        "CALL:SOMETIMES THINGS JUST DONT WORK");
+    doTest(PLACE, "SOMETIMES THINGS JUST DONT WORK",
+        "PLACE:SOMETIMES THINGS JUST DONT WORK");
   }
   
   private void doTest(StartType sType, String test, String ... result) {
@@ -105,7 +144,7 @@ public class SmartAddressParserTest extends BaseParserTest {
       super(cities);
     }
     
-    private StartType startType = null;
+    private StartType startType = StartType.START_ADDR;
     
     public void setStartType(StartType startType) {
       this.startType = startType;
