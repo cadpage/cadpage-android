@@ -184,14 +184,16 @@
     <!--item>NCMaconCounty</item-->
     <item>ORBentonCounty</item>
     <item>ORPrineville</item>
+    <item>PAChesterCounty</item>
     <item>PALancasterCounty</item>
     <item>TXHarrisCounty</item>
     <item>VAAccomackCounty</item>
     <item>VAHenryCounty</item>
     <item>VALoudounCounty</item>
-</string-array>
+    <item>VAPriceWilliamCounty</item>
+    </string-array>
   
-<string-array name="pref_location_options">
+  <string-array name="pref_location_options">
     <item>Generic Location</item>
     <item>Adams County, CO</item>
     <item>Oconee County, GA</item>
@@ -207,11 +209,16 @@
     <!--item>Macon County, NC</item-->
     <item>Benton County, OR</item>
     <item>Prineville, OR</item>
+    <item>Chester County, PA</item>
     <item>Lancaster County, PA</item>
     <item>Harris County, TX</item>
     <item>Accomack County, VA</item>
     <item>Henry County, VA</item>
     <item>Loudoun, VA</item>
+    <item>Prince William County, VA</item>
+    
+    
+  
 </string-array>
 
 <string-array name="email_devel_addr">
