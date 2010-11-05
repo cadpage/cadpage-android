@@ -143,7 +143,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
       // Total failure, assign the entire field to either the call description
       // or the address
       endAll = tokens.length;
-      if (sType != StartType.START_CALL) startAddress = 0;
+      if (sType != StartType.START_CALL && sType != StartType.START_PLACE) startAddress = 0;
       
     } while (false);
     
@@ -235,6 +235,10 @@ public abstract class SmartAddressParser extends SmsMsgParser {
             if (sAddr > 0 && isType(sAddr-1, ID_DIRECTION)) sAddr--;
             break;
           }
+          if (isRoadToken(ndx-1)) {
+            sAddr = ndx-1;
+            break;
+          }
         }
       }
     }
@@ -276,6 +280,8 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     int ndx = 0;
 
     // If address starts at beginning of field, find end of address and
+    // Don't have to look for city because we wouldn't be here if both startAddr
+    // and city was found
     if (startAddr) {
       sAddr = 0;
       ndx = findRoadEnd(0);
@@ -283,30 +289,42 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     }
     
     // Otherwise, scan forward looking for a <road-sfx>
-    // Then back up 1 places assuming the road consists of one token.
-    // If the previous token is a direction, back up one more to include that.
+    //            that isn't the start of a <route-pfx> <number> combination
+    // or number preceded by a <route-pfx>
     else {
       ndx = 0;
       while (true) {
         ndx++;
+        sAddr = ndx - 1;
         if (ndx >= tokens.length) return false; 
         if (isType(ndx, ID_ROAD_SFX)) {
-          sAddr = ndx - 1;
-          if (sAddr > 0 && isType(sAddr-1, ID_DIRECTION)) sAddr--;
+          if (!isType(ndx, ID_ROUTE_PFX) || !isType(ndx+1, ID_NUMBER)) break;
+        }
+        if (ndx > 0 && isType(ndx, ID_NUMBER) && isType(ndx-1, ID_ROUTE_PFX)) break;
+        if (isRoadToken(ndx)) {
+          sAddr = ndx;
           break;
         }
       }
+      // Then back up 1 places assuming the road consists of one token.
+      // If the previous token is a direction, back up one more to include that.
+      // increment end pointer past the road terminator and carry on to next step
+      if (sAddr > 0 && isType(sAddr-1, ID_DIRECTION)) sAddr--;
+      ndx++;
     }
     
     // When we get here, 
     // saddr points to beginning of address
     // ndx points past the end of the road
     
-    // We have a successful intersection parse
+    // We have a naked road parse
     startAddress = sAddr;
     endAll = ndx;
     
-    // But there might be some additional cross street info we can parse
+    // See if we can parse out to a city
+    if (parseToCity(startAddress)) return true;
+    
+    // Nope, see if we can find some cross street info
     findCrossStreet();
     return true;
   }
@@ -372,16 +390,23 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     // If this starts with a street direction, skip over it
     if (isType(start, ID_DIRECTION)) start++;
     
+    // A stand alone road token can terminate the road search, but it must
+    // be the first thing in the search sequnce
+    if (isRoadToken(start)) return start+1;
+    
     // Now start looking for a street suffix (or cross street indicator
     // If we have to pass more than two tokens before finding, give up
     
     int end = start+1;
     while (true) {
+      
       if (isType(end, ID_ROAD_SFX)) return end+1;
       if (isType(end, ID_CROSS_STREET)) return end;
       
-      // A number preceeded by a route prefix counts as a road
+      // A number preceded by a route prefix counts as a road
       if (isType(end, ID_NUMBER) && end > 0 && isType(end-1, ID_ROUTE_PFX)) return end+1;
+      
+      // If potential road gets too long, give up
       if (++end - start > 2) return -1;
     }
   }
@@ -439,7 +464,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
   private int findType(String token) {
     
     // If token is in dictionary, return the associated type code
-    Integer iType = dictionary.get(token);
+    Integer iType = dictionary.get(token.toUpperCase());
     if (iType != null) return iType;
     
     if (NUMERIC.matcher(token).matches()) return ID_NUMBER;
@@ -449,5 +474,27 @@ public abstract class SmartAddressParser extends SmsMsgParser {
   private boolean isType(int ndx, int mask) {
     if (ndx >= tokenType.length) return false; 
     return (tokenType[ndx] & mask) != 0;
+  }
+  
+  // Determine if token is a single standalone road token
+  // such as I-234, or US50
+  private boolean isRoadToken(int ndx) {
+    
+    // First letter has to be alphabetic and last character has to be digit
+    if (ndx >= tokenType.length) return false; 
+    String token = tokens[ndx];
+    if (!Character.isLetter(token.charAt(0))) return false;
+    if (!Character.isDigit(token.charAt(token.length()-1))) return false;
+    
+    // Strip off trailing digits
+    // and a single separating dash
+    int pt = token.length()-1;
+    while (Character.isDigit(token.charAt(pt-1))) pt--;
+    if (token.charAt(pt-1) == '-') pt--;
+    
+    // Shift what is left to upper case and see if what is left is a route prefix
+    token = token.substring(0, pt).toUpperCase();
+    Integer mask = dictionary.get(token);
+    return (mask != null && (mask&ID_ROUTE_PFX) != 0);
   }
 }
