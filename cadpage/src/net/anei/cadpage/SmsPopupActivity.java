@@ -157,8 +157,8 @@ public class SmsPopupActivity extends Activity {
         Button btn = (Button) findViewById(buttonIDs[ndx-1]);
         btnHandlers[ndx-1] = new PopupButtonHandler(getApplicationContext(), ndx, btn);
       }
+      View btnCB = findViewById(R.id.btnCallback);
       if ( ManagePreferences.getCallback().length() > 0 ){
-        View btnCB = findViewById(R.id.btnCallback);
         btnCB.setVisibility(View.VISIBLE);
         btnCB.setOnClickListener(new View.OnClickListener() {
           @Override
@@ -168,14 +168,14 @@ public class SmsPopupActivity extends Activity {
               Intent intent = new Intent(Intent.ACTION_CALL);
               intent.setData(Uri.parse(urlPhone));
               startActivity(intent);
-           } catch (Exception e) {
+            } catch (Exception e) {
               Log.v("SMSPopupActivity: Phone call failed" + e.getMessage());
-           }
+            }
 
           }
         });
-        
       }
+      else btnCB.setVisibility(View.GONE);
     } 
      
     

@@ -207,6 +207,10 @@ public class ManagePreferences {
     return saveParser;
   }
 
+  public static String getCallback() {
+    return prefs.getString(R.string.pref_callback_key);
+  }
+
 
   /**
    * Append configuration information to constructed message
@@ -260,6 +264,7 @@ public class ManagePreferences {
         R.string.pref_button1_key,
         R.string.pref_button2_key,
         R.string.pref_button3_key,
+        R.string.pref_callback_key
     };
 
     Map<String, ?> map = prefs.mPrefs.getAll();
@@ -361,10 +366,6 @@ public class ManagePreferences {
 
   public String getString(int resPrefId, String defaultVal) {
     return mPrefs.getString(context.getString(resPrefId), defaultVal);
-  }
-
-  public static String getCallback() {
-    return prefs.getString(R.string.pref_callback_key);
   }
   public void close() {}
 }
