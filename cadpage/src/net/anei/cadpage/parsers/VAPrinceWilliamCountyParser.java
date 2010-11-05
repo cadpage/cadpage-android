@@ -19,53 +19,69 @@ public class VAPrinceWilliamCountyParser extends SmsMsgParser {
 
   @Override
   public boolean isPageMsg(String body) {
-    return body.contains(",PWC");
+    return body.charAt(11) == '/' && body.charAt(20) == '/';
   } 
 
 
   @Override
   protected void parse(String body, Data data) {
-    Log.v("DecodePrinceWilliamCountyPage: Message Body of:" + body);
     data.defState="VA";
-    data.defCity = "Prince William COUNTY";
+    data.defCity = "PRINCE WILLIAM COUNTY";
 
-    String[] lines = body.split("/");  
-    data.strCall = lines[2];  
-    if (lines.length <= 1) return;  
-    parseAddress(lines[3], data);  
-    if (lines.length <= 3) return;  
+    String[] lines = body.split("/");
+    int ndx = 0;
+    for (String line : lines) {
+      line = line.trim();
+      switch (ndx++) {
+      
+      case 2:
+        // Call description
+        data.strCall = line;
+        break;
+        
+      case 3:
+        // Address line
+        int pt = line.indexOf(',');
+        if (pt >= 0) line = line.substring(0, pt).trim();
+        parseAddress(line, data);
+        break;
+      
+      case 4:
+        // optional cross street or box number
+        // if cross street, loop back looking for box number
+        if (! isBox(line)){
+          if (data.strCross.length() > 0) data.strCross += " & ";
+          pt = line.indexOf(',');
+          if (pt >= 0) line = line.substring(0, pt).trim();
+          data.strCross += line;
+          ndx--;
+          break;
+        }
+        data.strBox = line;
+        break;
 
-    //Determine if there is a XS present
-    if (lines[3].contains("PWC"))//No cross street included
-    {
-      int ptc = data.strAddress.indexOf(",");
-      if (ptc >= 0) data.strAddress = data.strAddress.substring(0,ptc).trim();
-      if (lines.length <= 4) return;
-      data.strBox = lines[4];
-      if (lines.length <= 5) return;
-      data.strUnit = lines[5];
-      if (lines.length <= 6) return;
-      data.strSupp = lines[6];
+      case 5:
+        // Unit
+        data.strUnit = line;
+        break;
+        
+      case 6: 
+        // supp info, repeats till end of msg
+        if (line.length() > 0) {
+          if (data.strSupp.length() > 0) data.strSupp += " / ";
+          data.strSupp += line;
+        }
+        ndx--;
+        break;
+      }
     }
-    else// Cross street present
-    {
-      if (lines.length <= 4) return;
-      data.strCross = lines[4];
-      int ptc = data.strCross.indexOf(",");
-      if (ptc >= 0) data.strCross = data.strCross.substring(0,ptc).trim();
-      if (lines.length <= 5) return;
-      data.strBox = lines[5];
-      if (lines.length <= 6) return;
-      data.strUnit = lines[6];
-      if (lines.length <= 7) return;
-      data.strSupp = lines[7];
-      if (lines.length <= 8) return;
-      data.strSupp = lines[7] + lines[8];
-      if (lines.length <= 9) return;
-      data.strSupp = lines[7] + lines[8] + lines[9];
-    }
-
-
   }
-
+  
+  // See if this is an address termination field
+  // must be 2 or 3 characters long of which the first two
+  // are digits
+  private boolean isBox(String line) {
+    if (line.length() != 2 && line.length() != 3) return false;
+    return (Character.isDigit(line.charAt(0)) && Character.isDigit(line.charAt(1)));
+  }
 }
