@@ -363,5 +363,8 @@ public class ManagePreferences {
     return mPrefs.getString(context.getString(resPrefId), defaultVal);
   }
 
+  public static String getCallback() {
+    return prefs.getString(R.string.pref_callback_key);
+  }
   public void close() {}
 }

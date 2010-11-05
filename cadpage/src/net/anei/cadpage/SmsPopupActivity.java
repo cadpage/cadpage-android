@@ -1,6 +1,7 @@
 package net.anei.cadpage;
 
 
+import android.net.Uri;
 import android.os.Bundle;
 import android.os.Environment;
 
@@ -156,7 +157,29 @@ public class SmsPopupActivity extends Activity {
         Button btn = (Button) findViewById(buttonIDs[ndx-1]);
         btnHandlers[ndx-1] = new PopupButtonHandler(getApplicationContext(), ndx, btn);
       }
-    }
+      if ( ManagePreferences.getCallback().length() > 0 ){
+        View btnCB = findViewById(R.id.btnCallback);
+        btnCB.setVisibility(View.VISIBLE);
+        btnCB.setOnClickListener(new View.OnClickListener() {
+          @Override
+          public void onClick(View v) {
+            try {
+              String urlPhone = "tel:" + ManagePreferences.getCallback();
+              Intent intent = new Intent(Intent.ACTION_CALL);
+              intent.setData(Uri.parse(urlPhone));
+              startActivity(intent);
+           } catch (Exception e) {
+              Log.v("SMSPopupActivity: Phone call failed" + e.getMessage());
+           }
+
+          }
+        });
+        
+      }
+    } 
+     
+    
+
     
     // Populate display fields
     populateViews(getIntent());
