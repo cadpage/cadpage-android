@@ -13,7 +13,7 @@ public class ManagePreferences {
   // Preference version.  This needs to be incremented every time a new
   // configuration setting is added to force it to initialize properly
   // when the new release is first run.
-  private static final int PREFERENCE_VERSION = 1;
+  private static final int PREFERENCE_VERSION = 2;
   
   private static ManagePreferences prefs;
 

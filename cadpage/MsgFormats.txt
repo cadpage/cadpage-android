@@ -1,7 +1,3 @@
-                                                                     
-                                                                     
-                                                                     
-                                             
 *******************************************************************************
 Supported district message formats
 This isn't intended to be the final or full documentation for different 
@@ -113,7 +109,6 @@ FRM:LogiSYSCAD\nSUBJ:CAD Page for CFS 100110-96\nMSG:UNCONCIOUS/UNRESPONSIVE 91 
 FRM:LogiSYSCAD\nSUBJ:CAD Page for CFS 100710-102\nMSG:AUTOMATIC HOUSE ALARM 106 SUNSET DR\nUnits: CO2 ENG9 A52 TR16
 FRM:LogiSYSCAD\nSUBJ:CAD Page for CFS 101310-67\nMSG:HOUSE FIRE           147 ORMAND ST\nUnits: ENG16 TR16 ENG17
 ***************************************************************************
-**********************************************************
 Accomack County, VA 
 Contact: niblett25@gmail.com
 Sender: cad@esva911.org
@@ -124,7 +119,6 @@ CAD:STROKE;6225 HOLLAND RD;NEWC;A25;A6;DEBRA LN;R J DR
 CAD:ACCIDENT WITH INJURY;12432 LANKFORD HWY;HALL;A59;B6;FOX DR;JOHN TAYLOR RD
 CAD:ABDOMINAL PAIN;15361 LANKFORD HWY;MAPP;A68;D4;GILLESPIE LN;SHERWOOD DR;MILE MARKER 125
 ********************************************************************************************
-**********************************************************
 Chester Country, PA 
 Contact: "buckhunter1113@aol.com" <buckhunter1113@aol.com>
 Sender: station24@comcast.net
