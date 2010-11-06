@@ -1,6 +1,5 @@
 package net.anei.cadpage.parsers;
 
-import net.anei.cadpage.Log;
 import net.anei.cadpage.SmsMsgInfo.Data;
 /*
 contact: "Craig Caviness" <ccaviness@dixhillsfd.org>
@@ -17,7 +16,7 @@ sender: paging@dixhillsfd.xohost.com
 *** Google doesn't understand PA, translate to CARLS STRAIGHT PATH & S SERVICE RD
 */
 
-public class NYDixHillsParser extends SmsMsgParser {
+public class NYDixHillsParser extends SmartAddressParser {
 
   @Override
   public boolean isPageMsg(String body) {
@@ -26,9 +25,8 @@ public class NYDixHillsParser extends SmsMsgParser {
 
   @Override
   protected void parse(String body, Data data) {
-    Log.v("DecodeDixHillsPage: Message Body of:" + body);
     data.defState="NY";
-    data.defCity="Dix Hills";
+    data.defCity="DIX HILLS";
     body = body.trim();
     if (body.length() < 11) return;
     data.strCallId = body.substring(0,11);
@@ -38,13 +36,21 @@ public class NYDixHillsParser extends SmsMsgParser {
     if (pta < 0) return;
     data.strCall = body.substring(pt+3, pta).trim();
     body = body.substring(pta+3).trim();
-    int ptb = body.toUpperCase().indexOf(" DIX HILLS");
-    if (ptb < 0) ptb = body.length();
-    parseAddress(body.substring(0, ptb), data);
-    int ptc = data.strAddress.indexOf(",");
-    if (ptc >= 0) {
-      int ptd = data.strAddress.lastIndexOf(" ",ptc);
-      if (ptd >= 0) data.strAddress = data.strAddress.substring(0,ptd);
-    }
+    body = cleanup(body);
+    parseAddress(StartType.START_ADDR, body, data);
+  }
+    
+    // For some totally bizarre reason, the first street of an intersection is
+    // doubled and has to be cleaned up
+  private String cleanup(String body) {
+    
+    int pt = body.indexOf(" & ");
+    if (pt < 0) return body;
+    
+    int pta = body.indexOf(' ');
+    String first = body.substring(0, pta+1);
+    int ptb = body.indexOf(" " + first);
+    if (ptb < 0 || ptb > pt) return body;
+    return body.substring(0,ptb) + body.substring(pt);
   }
 }
