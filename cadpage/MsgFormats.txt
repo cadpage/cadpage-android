@@ -144,7 +144,7 @@ Sender: station24@comcast.net
  Loc: 6 WAYS LA ,62  btwn MUNICIPAL BOUNDARY & E CYPRESS ST (V)
  AKA:
  **********************************************************
-Prince William County, VA (class I)
+Prince William County, VA
 Contact: Rodney Fielding <rfielding@d-trs.com>
 Sender: cc_message_notification@usamobility.net
 29-Oct-2010/11:07:25/OUTF/15742 DUMFRIES RD / 15726 CARRS BROOKE WY ,PWC /17/E517 STA17 /ON NB  DUMFRIES RD  / BTW CARRS BROOK AND TODDBURY
@@ -154,6 +154,14 @@ Sender: cc_message_notification@usamobility.net
 29-Oct-2010/09:21:10/UNC/18303 OLD TRIANGLE RD ,PWC /03R/E503B E523 M503 STA03R female screaming something is wrong w male in t he house .
 28-Oct-2010/18:35:32/OUTF/CARBOROUGH ST / 19140 WINDSOR RD ,PWC /03R/E503B STA03R /BRUSH ON FIRE BESIDES THE HIGHWAY [53]
 ***************************************************************************
+Centreville, MD
+qac911:*D 4-2 COMMERCIAL BLDG FIRE DUNKIN DONUTS @500 CHURCH HILL RD COMMERCIAL BOX Q04
+qac911:*D 4-5 MVC W/ENTRAPMENT RT301NB / RT304 RESCUE BOX Q04
+qac911:*D 5-1 LG BRUSH/GRASS FIRE RT405 / WINDSWEPT FARM LN BRUSH BOX Q05
+qac911:*D 4-5 UNCONSCIOUS/FAINTING RT301NB / ROLLING BRIDGE RD UNCONSCIOUS Q04
+qac911:*D 5-2 MVC W/ROLLOVER RT301NB / HAYDEN RD RESCUE BOX Q05
+qac911:*D 4-7 MVC W/ROLLOVER 1627 RUTHSBURG RD RESCUE BOX Q04
+***************************************************************************
 Districts that are not yet supported.  Class indicates implementation difficulty
 class I - Easy ones with clear and obvious field delimiters
 class II - We could probably parse address if we had list of town/city codes terminating the address
@@ -161,15 +169,6 @@ class II - We could probably parse address if we had list of town/city codes ter
            parser in the near future, I am choosing to make the city lookup part of that smart parser
            so it will handle the corner case where a unknown city is specified.
 class III - No obvious address delimiter, waiting for development of smart address parser
-***************************************************************************
-Centreville, MD (class III)
-qac911:*D 4-2 COMMERCIAL BLDG FIRE DUNKIN DONUTS @500 CHURCH HILL RD COMMERCIAL BOX Q04
-qac911:*D 4-5 MVC W/ENTRAPMENT RT301NB / RT304 RESCUE BOX Q04
-qac911:*D 5-1 LG BRUSH/GRASS FIRE RT405 / WINDSWEPT FARM LN BRUSH BOX Q05
-qac911:*D 4-5 UNCONSCIOUS/FAINTING RT301NB / ROLLING BRIDGE RD UNCONSCIOUS Q04
-qac911:*D 5-2 MVC W/ROLLOVER RT301NB / HAYDEN RD RESCUE BOX Q05
-qac911:*D 4-7 MVC W/ROLLOVER 1627 RUTHSBURG RD RESCUE BOX Q04
-
 **********************************************************
 Harford, MD (Use Herkimer logic, class II)
 Contact: "Greg Dietrich" <greg.dietrich@nvfc10.org>

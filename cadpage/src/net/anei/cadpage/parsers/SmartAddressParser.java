@@ -474,10 +474,10 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     
     switch (startType) {
     case START_CALL:
-      data.strCall = buildData(0, end);
+      data.strCall = buildData(0, end).replaceAll(" / ", "/");
       break;
     case START_PLACE:
-      data.strPlace = buildData(0, end);
+      data.strPlace = buildData(0, end).replaceAll(" / ", "/");
       break;
     }
   }
@@ -519,24 +519,54 @@ public abstract class SmartAddressParser extends SmsMsgParser {
   }
   
   // Determine if token is a single standalone road token
-  // such as I-234, or US50
+  // such as I-234, or US50, or RT250NB :(
   private boolean isRoadToken(int ndx) {
     
-    // First letter has to be alphabetic and last character has to be digit
+    // Get the string token
     if (ndx >= tokenType.length) return false; 
     String token = tokens[ndx];
-    if (!Character.isLetter(token.charAt(0))) return false;
-    if (!Character.isDigit(token.charAt(token.length()-1))) return false;
     
-    // Strip off trailing digits
-    // and a single separating dash
-    int pt = token.length()-1;
-    while (Character.isDigit(token.charAt(pt-1))) pt--;
-    if (token.charAt(pt-1) == '-') pt--;
+    // See how many letters there are at start of token
+    int pt = 0;
+    while (pt < token.length() && Character.isLetter(token.charAt(pt))) pt++;
     
-    // Shift what is left to upper case and see if what is left is a route prefix
-    token = token.substring(0, pt).toUpperCase();
-    Integer mask = dictionary.get(token);
-    return (mask != null && (mask&ID_ROUTE_PFX) != 0);
+    // If zero, or if entire token is letters, the answer is no
+    if (pt == 0 || pt == token.length()) return false;
+    
+    // If next character is a dash, skip over it
+    int pta = pt;
+    if (token.charAt(pt) == '-') pt++;
+    
+    // If next character is not a digit, answer is no
+    if (pt >= token.length() || ! Character.isDigit(token.charAt(pt))) return false;
+    
+    // Shift the alpha portion upper case and see if what is left is a route prefix
+    String pfx = token.substring(0, pta).toUpperCase();
+    Integer mask = dictionary.get(pfx);
+    if (mask == null || (mask&ID_ROUTE_PFX) == 0) return false;
+    
+    // Looks promising.  Now scan over any digits and see what we have left
+    do pt++; while (pt < token.length() && Character.isDigit(token.charAt(pt)));
+    
+    // If we are at end of string, answer is yes
+    if (pt == token.length()) return true;
+    
+    // Otherwise, the answer depends on if the remaining suffix looks like some
+    // kind of highway qualifier (NB = north bound for example)
+    String sfx = token.substring(pt).toUpperCase();
+    
+    do {
+      if (sfx.length() == 2 && sfx.charAt(1) == 'B' &&
+          "NESW".indexOf(sfx.charAt(0)) >= 0) break;
+      
+      // Nothing recognized, return false
+      return false;
+      
+    } while (false);
+    
+    // OK, this looks valid.
+    // But Google maps won't recognize the highway qualifier, so we have to get rid of it
+    tokens[ndx] = token.substring(0, pt);
+    return true;
   }
 }
