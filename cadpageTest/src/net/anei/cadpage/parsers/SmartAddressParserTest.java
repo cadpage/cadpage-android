@@ -23,7 +23,8 @@ public class SmartAddressParserTest extends BaseParserTest {
   }
   
   @Test
-  public void testSomething() {
+  public void testProblems() {
+    
     doTest(CALL, TestParser.FLAG_START_FLD_REQ, 
         "1073 SMOKE 1421 BEVERLY DR 5495253 NONA DRIVE",
         "CALL:1073 SMOKE",
