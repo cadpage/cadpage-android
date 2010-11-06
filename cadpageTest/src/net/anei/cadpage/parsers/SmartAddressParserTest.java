@@ -23,6 +23,13 @@ public class SmartAddressParserTest extends BaseParserTest {
   }
   
   @Test
+  public void testSomething() {
+    doTest(CALL, "1073 SMOKE 1421 BEVERLY DR 5495253 NONA DRIVE",
+        "CALL:1073 SMOKE",
+        "ADDR:1421 BEVERLY DR");
+  }
+  
+  @Test
   public void testTrivialAddress() {
     doTest(ADDR, "MY HOME IN KENSBURG LOOKS NICE", 
         "ADDR:MY HOME IN", 
