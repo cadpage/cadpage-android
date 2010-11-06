@@ -72,6 +72,6 @@ public class MDAlleganyCountyParser extends SmsMsgParser {
     if (address != null) parseAddress(address, data);
     
     // UNITS: line contains the units
-    data.strUnit = props.getProperty("Units");
+    data.strUnit = props.getProperty("Units", "");
   }
 }
