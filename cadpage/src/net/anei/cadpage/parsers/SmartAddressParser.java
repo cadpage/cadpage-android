@@ -107,6 +107,15 @@ public abstract class SmartAddressParser extends SmsMsgParser {
    */
   protected void parseAddress(StartType sType, String address, SmsMsgInfo.Data data) {
 
+    lastCity = -1;
+    startAddress = -1;  
+    startCross = -1;
+    startCity = -1;
+    endAll = -1;
+
+    // Check for null string
+    if (address.length() == 0) return;
+
     // Make sure any / character will parse by itself
     // Before we do that we have to protect the C/S cross street indicator
     address = address.replaceAll(" C/S ", " XS: ").replaceAll("/", " / ");
@@ -115,11 +124,6 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     // While we are doing this, identify the index of the last city
     tokens = address.split("\\s+");
     tokenType = new int[tokens.length];
-    lastCity = -1;
-    startAddress = -1;  
-    startCross = -1;
-    startCity = -1;
-    endAll = -1;
     
     for (int ndx = 0; ndx < tokens.length; ndx++) {
       tokenType[ndx] = findType(tokens[ndx]);
@@ -148,6 +152,15 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     } while (false);
     
     fillInData(sType, data);
+  }
+
+  /**
+   * Called after address has been parsed
+   * @return the part of the line after the address
+   */
+  public String getLeft() {
+    if (endAll < 0) return "";
+    return buildData(endAll, tokens.length);
   }
   
   /**

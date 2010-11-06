@@ -13,13 +13,19 @@ TYPE: STRUCTURE FIRE LOC: 81 NEW HAMPSHIRE AV NBAYSH  CROSS: E FORKS RD / E 3 AV
 TYPE: OPEN BURNING LOC: 65 GRANT AVE BRENTW CROSS: SUFFOLK AVE 18:39:20 CODE: 54-C-6
 */
 
-public class NYSuffolkCountyParser extends SmsMsgParser {
+public class NYSuffolkCountyParser extends SmartAddressParser {
 
-  private static String[] SuffolkCityCodes = new String[]{
+  private static String[] citiesCodes = new String[]{"BRENTW", "NBAYSH", "BAYSHO"};
+  
+  private Properties cityCodeTable = buildCodeTable(new String[]{
     "BRENTW", "Brentwood",
     "NBAYSH", "Bay Shore",
     "BAYSHO", "Bay Shore"
-  };
+  });
+  
+  public NYSuffolkCountyParser() {
+    super(citiesCodes);
+  }
 
   @Override
   public boolean isPageMsg(String body) {
@@ -29,22 +35,16 @@ public class NYSuffolkCountyParser extends SmsMsgParser {
   @Override
   protected void parse(String body, Data data) {
   
-    Log.v("DecodeSuffolkPage: Message Body of:" + body);
     data.defState="NY";
     data.defCity="SUFFOLK COUNTY";
 
     Properties props = parseMessage(body, new String[]{"LOC", "CROSS", "CODE", "TIME"});
     data.strCall = props.getProperty("TYPE", "");
-    parseAddress(props.getProperty("LOC", ""), data);
+    parseAddress(StartType.START_ADDR, props.getProperty("LOC", ""), data);
+    data.strPlace = getLeft();
     data.strCross = props.getProperty("CROSS", "");
+    data.strMap = props.getProperty("CODE");
     
-    for (int ndx = 0; ndx<SuffolkCityCodes.length-1; ndx+= 2) {
-      int ipt = data.strAddress.lastIndexOf(" " + SuffolkCityCodes[ndx]);
-      if (ipt >= 0) {
-        data.strAddress = data.strAddress.substring(0, ipt);
-        data.strCity = SuffolkCityCodes[ndx+1];
-        break;
-      }
-    }
+    data.strCity = convertCodes(data.strCity, cityCodeTable);
   }
 }
