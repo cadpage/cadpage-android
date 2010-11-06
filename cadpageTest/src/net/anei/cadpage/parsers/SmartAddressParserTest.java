@@ -142,6 +142,24 @@ public class SmartAddressParserTest extends BaseParserTest {
         "PLACE:SOMETIMES THINGS JUST DONT WORK");
   }
   
+  @Test 
+  public void testSlashDesc() {
+    doTest(CALL, "MVA W/ROLLOVER 500 N SUMMER ST",
+        "CALL:MVA W/ROLLOVER",
+        "ADDR:500 N SUMMER ST");
+  }
+  
+  @Test
+  public void testRoadTokens() {
+    doTest(SKIP, "AT US-30", "ADDR:US-30");
+    doTest(SKIP, "AT us30", "ADDR:us30");
+    doTest(SKIP, "AT ST30NB", "ADDR:ST30");
+    doTest(SKIP, "AT I105WB", "ADDR:I105");
+    
+    doTest(SKIP, "AT ST30A", "ADDR:AT ST30A");
+    doTest(SKIP, "AT ST30NBA", "ADDR:AT ST30NBA");
+  }
+  
   private void doTest(StartType sType, String test, String ... result) {
     doTest(sType, 0, test, result);
   }
