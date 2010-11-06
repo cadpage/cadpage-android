@@ -41,7 +41,14 @@ public class NYSetauketParser extends SmartAddressParser {
     //data.strCall = body.substring(0,body.indexOf(":"));
     // Call Info is two parts all before the word at which we made into LOC
     
-    parseAddress(StartType.START_CALL, props.getProperty("LOC", ""), data);
+    String sAddress = props.getProperty("LOC");
+    if (sAddress.contains(",")){
+      int indx = sAddress.indexOf(",");
+      data.strAddress = sAddress.substring(0,indx);
+      data.strCity = sAddress.substring(indx + 1);
+    } else {
+      data.strAddress = sAddress;
+    }
     String sCall = props.getProperty("CALL");
     if ( sCall.contains(":")){ 
       data.strCall= sCall.substring(0,sCall.indexOf(":"));
