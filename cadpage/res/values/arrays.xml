@@ -164,7 +164,7 @@
     <item>MILivingstonCounty</item>
     <item>NYDixHills</item>
     <item>NYBabylon</item>
-    <!--item>NCMaconCounty</item-->
+    <item>NCMaconCounty</item>
   </string-array>
 
   <!-- Sorted in state name order, which is why NY comes before NC. -->    
@@ -182,7 +182,7 @@
     <item>NYHerkimerCounty</item>
     <item>NYSetauket</item>
     <item>NYSuffolkCounty</item>
-    <!--item>NCMaconCounty</item-->
+    <item>NCMaconCounty</item>
     <item>ORBentonCounty</item>
     <item>ORPrineville</item>
     <item>PAChesterCounty</item>
@@ -208,7 +208,7 @@
     <item>Herkimer County, NY</item>
     <item>Setauket, NY</item>
     <item>Suffolk, NY</item>
-    <!--item>Macon County, NC</item-->
+    <item>Macon County, NC</item>
     <item>Benton County, OR</item>
     <item>Prineville, OR</item>
     <item>Chester County, PA</item>
@@ -218,10 +218,7 @@
     <item>Henry County, VA</item>
     <item>Loudoun, VA</item>
     <item>Prince William County, VA</item>
-    
-    
-  
-</string-array>
+  </string-array>
 
 <string-array name="email_devel_addr">
   <item>support@cadpage.org</item>

@@ -1,5 +1,7 @@
 package net.anei.cadpage.parsers;
 
+import java.util.Properties;
+
 import net.anei.cadpage.Log;
 import net.anei.cadpage.SmsMsgInfo.Data;
 /*
@@ -18,7 +20,13 @@ Sender: 8283711473
 911 CENTER:50 >VEHICLE ACCIDENT 428 COWEETA CHURCH RD OTTO SMITH, J 828369999 Map: Grids:0,0
 */
 
-public class NCMaconCountyParser extends SmsMsgParser {
+public class NCMaconCountyParser extends SmartAddressParser {
+  
+  private static final String[] CITY_CODES = new String[]{"FRANKLIN"};
+  
+  public NCMaconCountyParser() {
+    super(CITY_CODES);
+  }
 
   @Override
   public boolean isPageMsg(String body) {
@@ -27,9 +35,18 @@ public class NCMaconCountyParser extends SmsMsgParser {
 
   @Override
   protected void parse(String body, Data data) {
-    Log.v("decodeMaconPage: Message Body of:" + body);
     data.defState = "NC";
     data.defCity = "MACON COUNTY";
+    
     body= body.replace(">","Call:");
+    Properties props = parseMessage(body, new String[]{"CENTER", "Call", "Map", "Grids"});
+    
+    String line = props.getProperty("Call", "");
+    parseAddress(StartType.START_CALL, line, data);
+    
+    // some cleanup stuff
+    if (data.strCall.endsWith(" REPORTED AT")) {
+      data.strCall = data.strCall.substring(0, data.strCall.length()-12);
+    }
   }
 }
