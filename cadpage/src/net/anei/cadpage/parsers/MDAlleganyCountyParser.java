@@ -16,6 +16,9 @@ FRM:LogiSYSCAD\nSUBJ:CAD Page for CFS 100710-102\nMSG:AUTOMATIC HOUSE ALARM 106 
 FRM:LogiSYSCAD\nSUBJ:CAD Page for CFS 101310-67\nMSG:HOUSE FIRE           147 ORMAND ST\nUnits: ENG16 TR16 ENG17
 FRM:LogiSYSCAD\nSUBJ:CAD Page for CFS 101510-80\nMSG:HOUSE FIRE           72 HOSPITAL ROAD\nUnits: ENG16 TR16 ENG17
 FRM:LogiSYSCAD\nSUBJ:CAD Page for CFS 100210-88\nMSG:SMOKE INVESTIGATION  U:LOWER CONSEL RD\nUnits: CO16
+
+WARNING!!  Sending the following message crashes the emulator
+FRM:LogiSYSCAD\nSUBJ:CAD Page for CFS 110510-132\nMSG:AUTOMATIC HOUSE ALARM 150 MAPLE ST\x09Units: ENG16 TR16 ENG17
 */
 
 public class MDAlleganyCountyParser extends SmsMsgParser {
@@ -35,6 +38,7 @@ public class MDAlleganyCountyParser extends SmsMsgParser {
     data.defState="MD";
     data.defCity="ALLEGANY COUNTY";
     
+    body = body.replaceAll("\t", "\n");
     Properties props = parseMessage(body, "\n");
     
     // SUBJ: line contains the call ID as the last token
