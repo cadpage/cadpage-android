@@ -24,7 +24,8 @@ public class SmartAddressParserTest extends BaseParserTest {
   
   @Test
   public void testSomething() {
-    doTest(CALL, "1073 SMOKE 1421 BEVERLY DR 5495253 NONA DRIVE",
+    doTest(CALL, TestParser.FLAG_START_FLD_REQ, 
+        "1073 SMOKE 1421 BEVERLY DR 5495253 NONA DRIVE",
         "CALL:1073 SMOKE",
         "ADDR:1421 BEVERLY DR");
   }
@@ -141,20 +142,26 @@ public class SmartAddressParserTest extends BaseParserTest {
   }
   
   private void doTest(StartType sType, String test, String ... result) {
-    parser.setStartType(sType);
+    doTest(sType, 0, test, result);
+  }
+  
+  private void doTest(StartType sType, int flags, String test, String ... result) {
+    parser.setStartTypeFlags(sType, flags);
     doTest("", test, result);
   }
   
   private static class TestParser extends SmartAddressParser {
     
+    private StartType startType = StartType.START_ADDR;
+    private int flags;
+    
     public TestParser(String[] cities) {
       super(cities);
     }
     
-    private StartType startType = StartType.START_ADDR;
-    
-    public void setStartType(StartType startType) {
+    public void setStartTypeFlags(StartType startType, int flags) {
       this.startType = startType;
+      this.flags = flags;
     }
 
     @Override
@@ -164,7 +171,7 @@ public class SmartAddressParserTest extends BaseParserTest {
 
     @Override
     protected void parse(String message, Data data) {
-      parseAddress(startType, message, data);
+      parseAddress(startType, flags, message, data);
     }
   }
 
