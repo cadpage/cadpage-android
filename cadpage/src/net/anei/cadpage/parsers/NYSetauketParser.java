@@ -2,7 +2,6 @@ package net.anei.cadpage.parsers;
 
 import java.util.Properties;
 import net.anei.cadpage.SmsMsgInfo.Data;
-import net.anei.cadpage.parsers.SmartAddressParser.StartType;
 
 /* Sample Pages.
 AMBULANCE, CONVULSIONS / SEIZURES: 12-D-2 44 YOF SEIZURES at 43 NEAL PATH, SETAUKET   O: FAIRFIELD GABLES            TRUSS . . 19:39:51

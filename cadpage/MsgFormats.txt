@@ -214,9 +214,14 @@ CAD MSG: *D A2   56       CO7 NW / CO58 NW  STRONG GAS ODOR IN THE AREA INC:1001
 CAD MSG: *D A1   51       14015 DRAKE ST NW  POSS FIRE IN THE WALL...LOTS OF SMOKE FROM THE BASEMENT...EVERYONE ISOUT INC:10019127  
 
 **********************************************************
-Waynesville, NC (Caruso Fire & Rescue) (Can use Livingston format) (Class I - Hold for more info)
+Haywood County, NC (Caruso Fire & Rescue) (Can use Livingston format) (Class I)
 Contact: : "bradford1967@hotmail.com" <bradford1967@hotmail.com>
 Sender: CAD@haywoodnc.net
+
+I would start this one from scratch, Livinston works because it is close, but not the same.
+This is another variable field position format, like VAPrinceWilliamCounty.  There can be 0 to 2 crossroad fields.
+When you get to the crossroad field, see if it is a numeric field (The base class NUMERIC pattern helps), if it isn't
+add field to cross road field and decrement field index so next field will be processed as a crossroad as well.
 CAD:1010170008;ROUTINE SICK PERSON;33 GRACE DR;CRUSO RD;JOHNS CREEK RD;12;10/17/2010 10:15:00
 CAD:1011010007;ROUTINE SICK PERSON;59 YAH WAY;MUNDY FIELD RD;12;11/01/2010 12:29:40
 CAD:1010300004;EMERGENCY TRAFFIC ACCIDENT;9600 CRUSO RD/BURNETTE COVE RD;12;10/30/2010 10:07:00
@@ -224,6 +229,7 @@ CAD:11538 CRUSO RD;12;ROUTINE FALL
 CAD:1010310024;EMERGENCY HEMORRHAGE LACERATIO;8573 CRUSO RD;SAWMILL ACRES LN;HARLEY DAVIDSON DR;12;10/31/2010 21:54:21
 CAD:1011050024;EMERGENCY UNCONSCIOUS FAINTING;50 MUSTANG ALLEY DR;CRUSO RD;HAPPY WAY;12;11/05/2010 20:19:31
 CAD:1011050011;EMERGENCY BREATHING PROBLEMS;12695 CRUSO RD;EVERIDGE DR;COLD CREEK RD;12;11/05/2010 12:02:51
+CAD:1011070002;69D7 CHIMNEY FIRE;296 MATTHEW LN;SHADY BROOK RD;MOUNTAIN VISTA RD;19;11/07/2010 01:02:10
 Case ID
 Nature
 Street Address

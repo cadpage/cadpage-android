@@ -1,7 +1,6 @@
 package net.anei.cadpage.parsers;
 
 
-import net.anei.cadpage.Log;
 import net.anei.cadpage.SmsMsgInfo.Data;
 
 /*Prince William County, VA (class I)
