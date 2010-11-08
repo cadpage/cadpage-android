@@ -4,30 +4,21 @@ import java.util.Properties;
 
 import net.anei.cadpage.SmsMsgInfo.Data;
 
-/* Sample Oconee Page
+/* Sample Longview Page
  * 
-Run# 30209/ *Non Life Emergency P/2/ Sick Person (Specific Diagnosis)/ 1102
-FRANCIS/ EASTON/ 18:21/ <Unknown>/ bp issues-- dizzy spells-- P
+RC:Run# 30209/ *Non Life Emergency P/2/ Sick Person (Specific Diagnosis)/ 1102 FRANCIS/ EASTON/ 18:21/ <Unknown>/ bp issues-- dizzy spells-- P
+RC:Run# 30209/*Non Life Emergency P/1/Sick Person (Specific Diagnosis)/1102 FRANCIS///EASTON/18:21/////<Unknown>/bp issues-- dizzy spells--
+RC:Run# 29907/PR Event/Public Service/CRYSTAL FARMS RD///TATUM/19:15/////PR EVENT/ TATUM/Tatum vs Harmony////
+RC:Run# 29793/*Non Life Emergency P/1/Falls/301 B FORREST ACRES///TATUM/22:18/////<Unknown>/////
+RC:Run# 29764/*Non Life Emergency P/1/Overdose / Poisoning (Ingestion)/1100 S ADAMS ST//Panola Apts: 32/CARTHAGE/17:23/////<Unknown>/////
 
-RC:Run# 30209/*Non Life Emergency P/1/Sick Person (Specific Diagnosis)/1102
-FRANCIS///EASTON/18:21/////<Unknown>/bp issues-- dizzy spells--
-
-RC:Run# 29907/PR Event/Public Service/CRYSTAL FARMS RD///TATUM/19:15/////PR
-EVENT/ TATUM/Tatum vs Harmony////
-
-RC:Run# 29793/*Non Life Emergency P/1/Falls/301 B
-FORREST ACRES///TATUM/22:18/////<Unknown>/////
-
-RC:Run# 29764/*Non Life Emergency P/1/Overdose /
-Poisoning (Ingestion)/1100 S ADAMS ST//Panola Apts:
-32/CARTHAGE/17:23/////<Unknown>/////
  */
 
 public class TXLongviewParser extends SmartAddressParser {
 
   @Override
   public boolean isPageMsg(String body) {
-    return body.startsWith("RC:Run#");
+    return body.startsWith("RC:Run# ");
   }
 
   @Override
