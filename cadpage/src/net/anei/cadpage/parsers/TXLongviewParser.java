@@ -1,5 +1,7 @@
 package net.anei.cadpage.parsers;
 
+import java.util.Properties;
+
 import net.anei.cadpage.SmsMsgInfo.Data;
 
 /* Sample Oconee Page
@@ -39,6 +41,8 @@ public class TXLongviewParser extends SmartAddressParser {
 
     // Replace # with :
     body = body.replace("Run#", "Call:");
+
+    Properties props = parseMessage(body, new String[]{"CALL","LOC","CROSS","O",});
     // Now try to find call description and address
     parseAddress(StartType.START_CALL,  body, data);
     body = getLeft();
