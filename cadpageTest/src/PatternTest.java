@@ -5,23 +5,17 @@ import java.util.regex.Pattern;
 
 public class PatternTest {
 
-  static final Pattern GPSPattern = 
-    Pattern.compile("\\W*\\b([+-]?[0-9]+\\.[0-9]+)\\W+([+-]?[0-9]+\\.[0-9]+)\\b\\W*");
-  
-  public static final Pattern NUMERIC = Pattern.compile("\\b\\d+\\b");
+  static final Pattern MAPPattern = 
+    Pattern.compile("\\b\\d{1,2}-[A-Z]-\\d{1,2}[A-Z]?\\b");
   
   public static void main(String[] args) {
-    doTest("   0.999");
-    doTest("999.999");
-    doTest("@123.0@24.567@ ,");
-    doTest("AB123.5 23.56");
-    doTest("123.5 15.2DE");
-    
-    System.out.println("NUMERIC-42: " + NUMERIC.matcher("B42").find());
+    doTest("12-A-9");
+    doTest("HELP 1-C-33D ME");
+    doTest("HELP 1-C-33 ME");
   }
   
   private static void doTest(String test) {
-    Matcher match = GPSPattern.matcher(test);
+    Matcher match = MAPPattern.matcher(test);
     System.out.print(test);
     if (! match.find()) {
       System.out.print(" no match");

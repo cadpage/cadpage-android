@@ -14,17 +14,17 @@ public class SmartAddressParserTest extends BaseParserTest {
   private static final StartType SKIP = StartType.START_SKIP;
   
   private static final String[] CITY_LIST = new String[]{"KENSBURG"};
+  private static final String DEF_STATE = "XX";
 
   private TestParser parser;
   
   public SmartAddressParserTest() {
-    parser = new TestParser(CITY_LIST);
+    parser = new TestParser(CITY_LIST, DEF_STATE);
     setParser(parser, "", "");
   }
   
   @Test
   public void testProblems() {
-    
     doTest(CALL, TestParser.FLAG_START_FLD_REQ, 
         "1073 SMOKE 1421 BEVERLY DR 5495253 NONA DRIVE",
         "CALL:1073 SMOKE",
@@ -62,6 +62,16 @@ public class SmartAddressParserTest extends BaseParserTest {
         "ADDR:500 US-30");
     doTest(SKIP, "BARK PLACE 500 st123 downstairs",
         "ADDR:500 st123");
+    doTest(SKIP, "TRY 123 JOHN SMITH ST N FOR SIZE",
+        "ADDR:123 JOHN SMITH ST N");
+    doTest(SKIP, "OR MAYBE 200 US30 N BACK",
+        "ADDR:200 US30 N");
+    doTest(SKIP, "NUMBER 25 MASKING ADDRESS AT 143 N JUNIOR ST DOWNTOWN",
+        "ADDR:143 N JUNIOR ST");
+    doTest(SKIP, "DRIVING ON 3224 XX 456",
+        "ADDR:3224 XX 456");
+    doTest(SKIP, "BUT USING 123 N THIRD DR N JUST ISNT RIGHT",
+        "ADDR:123 N THIRD DR");
   }
   
   @Test
@@ -100,6 +110,12 @@ public class SmartAddressParserTest extends BaseParserTest {
         "ADDR:W HILLS RD & HWY 20");
     doTest(SKIP, "LOOKING FOR I-90 & US231 SOMEWHERE",
         "ADDR:I-90 & US231");
+    doTest(SKIP, "WHAT ABOUT BLACK ST N & W SOMERSET RD ANYONE",
+        "ADDR:BLACK ST N & W SOMERSET RD");
+    doTest(SKIP, "SOMEWHERE NEAR US50 N & BLACK ST DOWN",
+        "ADDR:US50 N & BLACK ST");
+    doTest(SKIP, "THIS IS N JOHNSON AVE S & BLACK ST VERY BAD FORM",
+        "ADDR:JOHNSON AVE S & BLACK ST");
   }
   
   @Test
@@ -128,6 +144,12 @@ public class SmartAddressParserTest extends BaseParserTest {
         "ADDR:I-25");
     doTest(SKIP, "WHAT ABOUT us123 PERHAPS",
         "ADDR:us123");
+    doTest(SKIP, "MAYBE BLACK ST N WILL WORK",
+        "ADDR:BLACK ST N");
+    doTest(SKIP, "HOW ABOUT US-150 N DUDE",
+        "ADDR:US-150 N");
+    doTest(SKIP, "BAD BOY N BIGHILL RD S BOB",
+        "ADDR:N BIGHILL RD");
   }
   
   @Test
@@ -174,8 +196,8 @@ public class SmartAddressParserTest extends BaseParserTest {
     private StartType startType = StartType.START_ADDR;
     private int flags;
     
-    public TestParser(String[] cities) {
-      super(cities);
+    public TestParser(String[] cities, String state) {
+      super(cities, state);
     }
     
     public void setStartTypeFlags(StartType startType, int flags) {
