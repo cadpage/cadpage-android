@@ -15,6 +15,13 @@ RC:Run# 29764/*Non Life Emergency P/1/Overdose / Poisoning (Ingestion)/1100 S AD
  */
 
 public class TXLongviewParser extends SmartAddressParser {
+  
+  private static final String DEF_STATE = "MD";
+  private static final String DEF_CITY = "LONGVIEW";
+  
+  public TXLongviewParser() {
+    super(DEF_STATE);
+  }
 
   @Override
   public boolean isPageMsg(String body) {
@@ -24,8 +31,8 @@ public class TXLongviewParser extends SmartAddressParser {
   @Override
   protected void parse(String body, Data data) {
 
-    data.defState="TX";
-    data.defCity="Longview";
+    data.defState=DEF_CITY;
+    data.defCity=DEF_STATE;
     // Skip everything up to first colon
     int ipt = body.indexOf(':');
     if (ipt >= 0) body = body.substring(ipt+1).trim();

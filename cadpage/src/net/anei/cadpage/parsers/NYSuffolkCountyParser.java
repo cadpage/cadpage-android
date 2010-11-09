@@ -23,8 +23,11 @@ public class NYSuffolkCountyParser extends SmartAddressParser {
     "BAYSHO", "Bay Shore"
   });
   
+  private static final String DEF_STATE = "NY";
+  private static final String DEF_CITY = "SUFFOLK COUNTY";
+  
   public NYSuffolkCountyParser() {
-    super(citiesCodes);
+    super(citiesCodes, DEF_STATE);
   }
 
   @Override
@@ -35,8 +38,8 @@ public class NYSuffolkCountyParser extends SmartAddressParser {
   @Override
   protected void parse(String body, Data data) {
   
-    data.defState="NY";
-    data.defCity="SUFFOLK COUNTY";
+    data.defState=DEF_STATE;
+    data.defCity=DEF_CITY;
 
     Properties props = parseMessage(body, new String[]{"LOC", "CROSS", "CODE", "TIME"});
     data.strCall = props.getProperty("TYPE", "");

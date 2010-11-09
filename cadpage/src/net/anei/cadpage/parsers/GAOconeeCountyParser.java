@@ -12,6 +12,13 @@ import net.anei.cadpage.SmsMsgInfo.Data;
  */
 
 public class GAOconeeCountyParser extends SmartAddressParser {
+  
+  private static final String DEF_STATE = "GA";
+  private static final String DEF_CITY = "OCONEE COUNTY";
+  
+  public GAOconeeCountyParser() {
+    super(DEF_STATE);
+  }
 
   @Override
   public boolean isPageMsg(String body) {
@@ -21,8 +28,8 @@ public class GAOconeeCountyParser extends SmartAddressParser {
   @Override
   protected void parse(String body, Data data) {
 
-    data.defState="GA";
-    data.defCity="OCONEE COUNTY";
+    data.defState=DEF_STATE;
+    data.defCity=DEF_CITY;
 
     // Skip everything up to first colon
     int ipt = body.indexOf(':');

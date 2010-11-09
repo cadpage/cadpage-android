@@ -50,9 +50,20 @@ public abstract class SmartAddressParser extends SmsMsgParser {
   // Bitmask bit indicating numeric token
   private static final int ID_NUMBER = 0x200;
   
+  public SmartAddressParser(String[] cities, String state) {
+    this();
+    setupDictionary(ID_CITY, cities);
+    setupDictionary(ID_ROUTE_PFX, new String[]{state});
+  }
+  
   public SmartAddressParser(String[] cities) {
     this();
     setupDictionary(ID_CITY, cities);
+  }
+  
+  public SmartAddressParser(String state) {
+    this();
+    setupDictionary(ID_ROUTE_PFX, new String[]{state});
   }
   
   // Default constructor
@@ -209,25 +220,32 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     // of a road name and cannot be a house number.
     
     int sAddr = isFlagSet(FLAG_START_FLD_REQ) ? 1 : 0;
+    int sEnd;
     while (true) {
-      
-      if (sAddr >= tokens.length) return false;
-      if (isType(sAddr, ID_NUMBER)) {
-        if (sAddr > 0 && isType(sAddr-1, ID_ROUTE_PFX)) return false;
-        break;
+      while (true) {
+        
+        if (sAddr >= tokens.length) return false;
+        if (isType(sAddr, ID_NUMBER)) {
+          if (sAddr > 0 && isType(sAddr-1, ID_ROUTE_PFX)) return false;
+          break;
+        }
+        if (startAddr) return false;
+        sAddr++;
       }
-      if (startAddr) return false;
+      
+      // If we found a city beyond this start point, just use that as the terminator
+      if (parseToCity(sAddr)) return true;
+      
+      // Otherwise, see if we can find a road starting from the next token
+      sEnd = findRoadEnd(sAddr+1);
+      if (sEnd > 0) break;
+      
+      // This isn't what we are looking for
+      // Increment the search index and look for something else
       sAddr++;
     }
     
-    // If we found a city beyond this start point, just use that as the terminator
-    if (parseToCity(sAddr)) return true;
-    
-    // Otherwise, see if we can find a road starting from the next token
-    int sEnd = findRoadEnd(sAddr+1);
-    if (sEnd < 0) return false;
-    
-    // If it has, we have found what we need to have found and we are going
+    // We have found what we need to have found and we are going
     // to be successful
     startAddress = sAddr;
     endAll = sEnd;
@@ -263,22 +281,27 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     // If the previous token is a direction, back up one more to include that.
     else {
       ndx = 1;
+      boolean dirFound = false;
       while (true) {
         ndx++;
         if (ndx >= tokens.length) return false; 
         if (isType(ndx, ID_CONNECTOR)) {
-          if (isType(ndx-1, ID_ROAD_SFX) ||
-              isType(ndx-1, ID_NUMBER) & ndx>2 & isType(ndx-2, ID_ROUTE_PFX)) {
-            sAddr = ndx - 2;
-            if (sAddr > 0 && isType(sAddr-1, ID_DIRECTION)) sAddr--;
-            break;
-          }
-          if (isRoadToken(ndx-1)) {
-            sAddr = ndx-1;
-            break;
+          sAddr = ndx-1;
+          dirFound = isType(sAddr, ID_DIRECTION);
+          if (dirFound) sAddr--;
+          
+          if (isRoadToken(sAddr)) break;
+          
+          if (sAddr > 0) { 
+            sAddr--;
+            if (isType(sAddr+1, ID_ROAD_SFX)) break;
+            if (isType(sAddr, ID_ROUTE_PFX) & ndx>2 & isType(sAddr+1, ID_NUMBER)) break;
           }
         }
       }
+      
+      // If road is preceded by a direction, include that
+      if (!dirFound && sAddr > 0 && isType(sAddr-1, ID_DIRECTION)) sAddr--;
     }
     
     // When we get here, 
@@ -346,9 +369,13 @@ public abstract class SmartAddressParser extends SmsMsgParser {
       }
       // Then back up 1 places assuming the road consists of one token.
       // If the previous token is a direction, back up one more to include that.
-      // increment end pointer past the road terminator and carry on to next step
-      if (sAddr > 0 && isType(sAddr-1, ID_DIRECTION)) sAddr--;
+      boolean dirFound =  (sAddr > 0 && isType(sAddr-1, ID_DIRECTION));
+      if (dirFound) sAddr--;
+      
+      // increment end pointer past the road terminator
+      // If the following token is a direction, increment end pointer past that too
       ndx++;
+      if (!dirFound && isType(ndx, ID_DIRECTION)) ndx++;
     }
     
     // When we get here, 
@@ -426,27 +453,33 @@ public abstract class SmartAddressParser extends SmsMsgParser {
   private int findRoadEnd(int start) {
     
     // If this starts with a street direction, skip over it
-    if (isType(start, ID_DIRECTION)) start++;
+    boolean dirFound = isType(start, ID_DIRECTION); 
+    if (dirFound) start++;
     
     // A stand alone road token can terminate the road search, but it must
-    // be the first thing in the search sequnce
-    if (isRoadToken(start)) return start+1;
-    
-    // Now start looking for a street suffix (or cross street indicator
-    // If we have to pass more than two tokens before finding, give up
-    
+    // be the first thing in the search sequence
     int end = start+1;
-    while (true) {
+    if (! isRoadToken(start)) {
       
-      if (isType(end, ID_ROAD_SFX)) return end+1;
-      if (isType(end, ID_CROSS_STREET)) return end;
+      // Now start looking for a street suffix (or cross street indicator
+      // If we have to pass more than two tokens before finding, give up
       
-      // A number preceded by a route prefix counts as a road
-      if (isType(end, ID_NUMBER) && end > 0 && isType(end-1, ID_ROUTE_PFX)) return end+1;
-      
-      // If potential road gets too long, give up
-      if (++end - start > 2) return -1;
+      while (true) {
+        
+        if (isType(end, ID_ROAD_SFX)) {end++; break; }
+        if (isType(end, ID_CROSS_STREET)) break;
+        
+        // A number preceded by a route prefix counts as a road
+        if (isType(end, ID_NUMBER) && end > 0 && isType(end-1, ID_ROUTE_PFX)) {end++; break;}
+        
+        // If potential road gets too long, give up
+        if (++end - start > 2) return -1;
+      }
     }
+    
+    // If road is followed by a direction, include that
+    if (! dirFound && isType(end, ID_DIRECTION)) end++;
+    return end;
   }
 
   /**

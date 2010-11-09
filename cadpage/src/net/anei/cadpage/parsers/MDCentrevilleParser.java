@@ -13,6 +13,13 @@ qac911:*D 4-7 MVC W/ROLLOVER 1627 RUTHSBURG RD RESCUE BOX Q04
 ******************************************************************************/
 
 public class MDCentrevilleParser extends SmartAddressParser {
+  
+  private static final String DEF_STATE = "MD";
+  private static final String DEF_CITY = "CENTREVILLE";
+  
+  public MDCentrevilleParser() {
+    super(DEF_STATE);
+  }
 
   @Override
   public boolean isPageMsg(String body) {
@@ -22,8 +29,8 @@ public class MDCentrevilleParser extends SmartAddressParser {
   @Override
   protected void parse(String body, Data data) {
 
-    data.defState="MD";
-    data.defCity="CENTREVILLE";
+    data.defState=DEF_STATE;
+    data.defCity=DEF_CITY;
     
     // Strip off prefix
     if (body.length() <= 10) return;

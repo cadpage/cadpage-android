@@ -1,6 +1,5 @@
 package net.anei.cadpage.parsers;
 
-import java.util.Properties;
 import java.util.regex.Pattern;
 import java.util.regex.Matcher;
 
@@ -22,6 +21,13 @@ MEDICAL Box 40-26 1724 VINEYARD TRL (RAMSHORN TRL) TW40,PM17 SEIZURES; 0035 [1/4
  */
 
 public class MDArnoldParser extends SmartAddressParser {
+  
+  private static final String DEF_STATE = "MD";
+  private static final String DEF_CITY = "Arnold";
+  
+  public MDArnoldParser() {
+    super(DEF_STATE);
+  }
 
   @Override
   public boolean isPageMsg(String body) {
@@ -32,8 +38,8 @@ public class MDArnoldParser extends SmartAddressParser {
   @Override
   protected void parse(String body, Data data) {
 
-    data.defState="MD";
-    data.defCity="Arnold";
+    data.defState=DEF_STATE;
+    data.defCity=DEF_CITY;
     String sBox = body;
     Pattern BOX = Pattern.compile("\\s\\d\\d-[a-zA-Z0-9][a-zA-Z0-9]\\s");
     Matcher match = BOX.matcher(sBox);

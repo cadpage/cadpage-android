@@ -177,6 +177,22 @@ public abstract class SmsMsgParser {
  }
  
  /**
+  * Utility method to cut a selected subfield out of a string field and 
+  * return everything that is left
+  * @param field field are working on
+  * @param start start index of subfield to be removed
+  * @param end end index of subfield to be removed
+  * @return Remainder of field once subfield has been removed.
+  */
+ protected static String cutOut(String field, int start, int end) {
+   String pfx = field.substring(0,start).trim();
+   String sfx = field.substring(end).trim();
+   if (pfx.length() == 0) return sfx;
+   if (sfx.length() == 0) return pfx;
+   return pfx + " " + sfx;
+ }
+ 
+ /**
   * Class containing a list of strings that tokens will need to be checked against
   */
  protected static class MatchList {

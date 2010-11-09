@@ -17,6 +17,13 @@ sender: paging@dixhillsfd.xohost.com
 */
 
 public class NYDixHillsParser extends SmartAddressParser {
+  
+  private static final String DEF_STATE = "NY";
+  private static final String DEF_CITY = "DIX HILLS";
+  
+  public NYDixHillsParser() {
+    super(DEF_STATE);
+  }
 
   @Override
   public boolean isPageMsg(String body) {
@@ -25,8 +32,8 @@ public class NYDixHillsParser extends SmartAddressParser {
 
   @Override
   protected void parse(String body, Data data) {
-    data.defState="NY";
-    data.defCity="DIX HILLS";
+    data.defState=DEF_STATE;
+    data.defCity=DEF_CITY;
     body = body.trim();
     if (body.length() < 11) return;
     data.strCallId = body.substring(0,11);

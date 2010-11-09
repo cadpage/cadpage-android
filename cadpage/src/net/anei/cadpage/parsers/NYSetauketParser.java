@@ -1,6 +1,9 @@
 package net.anei.cadpage.parsers;
 
 import java.util.Properties;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 import net.anei.cadpage.SmsMsgInfo.Data;
 
 /* Sample Pages.
@@ -11,47 +14,51 @@ AMBULANCE, HEMORRHAGE / LACERATIONS: 21-A-1 - 61 YOM - CUT TO HAND at 8 HOLLY LN
 MISC CALL WITH RESCUE, MVA: 29-B-1U - INJURIES at C/O, Setauket  c/s: WIRELESS RD . . 16:08:02
  */
 
-public class NYSetauketParser extends SmartAddressParser {
-
-  private static String[] citiesCodes = new String[]{"SETAUKET", "SOUTH SETAUKET", "EAST SETAUKET", "WEST SETAUKET", "NORTH SETAUKET"};
+public class NYSetauketParser extends SmsMsgParser {
   
-
+  private static final String DEF_STATE = "NY";
+  private static final String DEF_CITY = "SETAUKET";
   
-  public NYSetauketParser() {
-    super(citiesCodes);
-  }
+  private static final Pattern MAP_CODE = Pattern.compile("\\b\\d{1,2}-[A-Z]-\\d{1,2}[A-Z]?\\b");
 
   @Override
   public boolean isPageMsg(String body) {
     body = body.toUpperCase();
-    return body.contains("SETAUKET") ;
+    return body.toUpperCase().contains("SETAUKET") ;
   }
 
   @Override
   protected void parse(String body, Data data) {
   
-    data.defState="NY";
-    data.defCity="Setauket";
+    data.defState=DEF_STATE;
+    data.defCity=DEF_CITY;
 
-    body = body.replace(" at ", " LOC: ");
+    body = body.replace(" at ", " LOC: ").replace(" . . ", " TIME:");
     body = "CALL: " + body;
     body = body.replace("c/s", "CROSS");
-    Properties props = parseMessage(body, new String[]{"CALL","LOC","CROSS","O",});
+    Properties props = parseMessage(body, new String[]{"CALL","LOC","CROSS","O","TIME"});
     //data.strCall = body.substring(0,body.indexOf(":"));
     // Call Info is two parts all before the word at which we made into LOC
     
-    String sAddress = props.getProperty("LOC");
+    String sAddress = props.getProperty("LOC", "");
     if (sAddress.contains(",")){
       int indx = sAddress.indexOf(",");
-      data.strAddress = sAddress.substring(0,indx);
-      data.strCity = sAddress.substring(indx + 1);
+      data.strAddress = sAddress.substring(0,indx).trim();
+      data.strCity = sAddress.substring(indx + 1).trim();
     } else {
       data.strAddress = sAddress;
     }
-    String sCall = props.getProperty("CALL");
-    if ( sCall.contains(":")){ 
-      data.strCall= sCall.substring(0,sCall.indexOf(":"));
-      data.strSupp= sCall.substring(sCall.indexOf(":")+1);
+    String sCall = props.getProperty("CALL", "");
+    int ipt = sCall.indexOf(':');
+    if (ipt >= 0) {
+      data.strCall= sCall.substring(0,ipt).trim();
+      data.strSupp= sCall.substring(ipt+1).trim();
+      Matcher match = MAP_CODE.matcher(data.strSupp);
+      if (match.find()) {
+        data.strMap = data.strSupp.substring(match.start(), match.end());
+        data.strSupp = cutOut(data.strSupp, match.start(), match.end());
+        if (data.strSupp.startsWith("- ")) data.strSupp = data.strSupp.substring(2).trim();
+      }
     } else {
       data.strCall = sCall;
     }

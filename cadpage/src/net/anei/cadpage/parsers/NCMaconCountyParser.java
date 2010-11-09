@@ -23,8 +23,11 @@ public class NCMaconCountyParser extends SmartAddressParser {
   
   private static final String[] CITY_CODES = new String[]{"FRANKLIN"};
   
+  private static final String DEF_STATE = "NC";
+  private static final String DEF_CITY = "MACON COUNTY";
+ 
   public NCMaconCountyParser() {
-    super(CITY_CODES);
+    super(CITY_CODES, DEF_CITY);
   }
 
   @Override
@@ -34,8 +37,8 @@ public class NCMaconCountyParser extends SmartAddressParser {
 
   @Override
   protected void parse(String body, Data data) {
-    data.defState = "NC";
-    data.defCity = "MACON COUNTY";
+    data.defState = DEF_STATE;
+    data.defCity = DEF_CITY;
     
     body= body.replace(">","Call:");
     Properties props = parseMessage(body, new String[]{"CENTER", "Call", "Map", "Grids"});
