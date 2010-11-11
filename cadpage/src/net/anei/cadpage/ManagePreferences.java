@@ -55,6 +55,19 @@ public class ManagePreferences {
       }
       prefs.putString(R.string.pref_location, location);
     }
+    
+    // Ditto if is a newer parser code that has been renamed,
+    else {
+      String[] oldCodes = context.getResources().getStringArray(R.array.old_location_values);
+      for (int ndx = 0; ndx < oldCodes.length; ndx++) {
+        if (location.equals(oldCodes[ndx])) {
+          String[] newCodes = context.getResources().getStringArray(R.array.new_location_values);
+          location = newCodes[ndx];
+          prefs.putString(R.string.pref_location, location);
+          break;
+        }
+      }
+    }
   }
   
   public static boolean initialized() {

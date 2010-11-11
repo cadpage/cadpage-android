@@ -166,11 +166,20 @@
     <item>NYBabylon</item>
     <item>NCMaconCounty</item>
   </string-array>
+  
+  <!-- Pair of arrays used to convert existing location code values when an
+       existing Parser needs to be renamed for some reason -->
+  <string-array name="old_location_values">
+    <item>COAdamsCounty</item> <!-- V1.1.21 -->
+  </string-array>
+  <string-array name="new_location_values">
+    <item>CONorthglennEMS</item>
+  </string-array>
 
   <!-- Sorted in state name order, which is why NY comes before NC. -->    
   <string-array name="pref_location_values">
     <item>General</item>
-    <item>COAdamsCounty</item>
+    <item>CONorthglennEMS</item>
     <item>GAOconeeCounty</item>
     <item>GASmyrna</item>
     <item>INMadisonCounty</item>
@@ -199,7 +208,7 @@
   
   <string-array name="pref_location_options">
     <item>Generic Location</item>
-    <item>Adams County, CO</item>
+    <item>Northglenn EMS, CO</item>
     <item>Oconee County, GA</item>
     <item>Smyrna, GA</item>
     <item>Madison County, IN</item>

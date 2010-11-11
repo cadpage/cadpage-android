@@ -13,7 +13,7 @@ sender: dispatch@northglennambulance.com
 - part 1 of 1 / RC:Run# 10119/E 60TH AVE & DAHLIA ST//./Unconscious / Fainting/
 */
 
-public class COAdamsCountyParser extends SmsMsgParser {
+public class CONorthglennEMSParser extends SmsMsgParser {
 
   @Override
   public boolean isPageMsg(String body) {
