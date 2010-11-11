@@ -1,6 +1,5 @@
 package net.anei.cadpage.parsers;
 
-import net.anei.cadpage.Log;
 import net.anei.cadpage.SmsMsgInfo.Data;
 /*
 Smyrna, GA
@@ -22,13 +21,28 @@ public class GASmyrnaParser extends SmsMsgParser {
 
   @Override
   protected void parse(String body, Data data) {
-    Log.v("DecodeSmyrnaPage: Message Body of:" + body);
     data.defState="GA";
     data.defCity = "SMYRNA";
     body = body.trim();
     String[] AData = body.split(";");
-    data.strCall = AData[1];
+    
+    if (AData.length <= 1) return;
+    data.strCall = AData[1].trim();
+    
+    if (AData.length <= 2) return;
     parseAddress(AData[2].replace("-", " "), data);
-    if (AData[3].length() <20) data.strCross =  AData[3];
+    
+    int ndx = 3;
+    while (ndx < AData.length) {
+       String fld = AData[ndx].trim();
+       int pt = fld.indexOf('[');
+       if (pt >= 0) {
+         data.strSupp = fld.substring(0,pt).trim();
+         break;
+       }
+       if (data.strCross.length() > 0) data.strCross += " & ";
+       data.strCross += fld;
+       ndx++;
+    }
   }
 }
