@@ -31,6 +31,10 @@ Sender: station24@comcast.net
  Initial Type: AOD        Final Type: AOD     (OVERDOSE - ALS *)
  Loc: 6 WAYS LA ,62  btwn MUNICIPAL BOUNDARY & E CYPRESS ST (V)
  AKA:
+ 
+(Station 24 EMS Call) Initial Type: BSICK      Final Type: BSICK
+(SICK PERSON - BLS *)
+Loc: 301 VICTORIA GARDENS DR ,62 -- BRANDYWINE ASSISTED LIVNG btwn L
  */
 
 
@@ -38,19 +42,23 @@ public class PAChesterCountyParser extends SmsMsgParser {
 
   @Override
   public boolean isPageMsg(String body) {
-    return body.contains("Initial Type:");
+    if (body.startsWith("(")) {
+      int pt = body.indexOf(')');
+      if (pt < 0) return false;
+      body = body.substring(pt+1).trim();
+    }
+    return body.startsWith("Initial Type:");
   } 
 
 
   @Override
   protected void parse(String body, Data data) {
-    Log.v("DecodeChesterCountyPage: Message Body of:" + body);
     data.defState="PA";
     data.defCity = "CHESTER COUNTY";
 
-    // Strip first 31 characters off of message
-    if (body.length() <= 31) return;
-    body = body.substring(31);
+    int pt = body.indexOf("Final Type:"); 
+    if (pt < 0) return;
+    body = body.substring(pt+6);
 
     // Replace key chars for easier parsing
     body = body.replace("\n"," ");
