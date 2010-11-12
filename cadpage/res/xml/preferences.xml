@@ -279,5 +279,14 @@
     android:key="@string/pref_email_key"
     android:title="@string/pref_email_title" 
     android:summary="@string/pref_email_summary" />
-  </PreferenceCategory>
+  <PreferenceScreen 
+  android:key="@string/pref_donate_key" 
+  android:title="@string/pref_donate_title" android:enabled="true">
+  <intent
+    android:action="android.intent.action.MAIN"
+    android:targetPackage="net.anei.cadpage"
+    android:targetClass="net.anei.cadpage.donate"
+    />
+  </PreferenceScreen>
+</PreferenceCategory>
 </PreferenceScreen>

@@ -248,7 +248,7 @@
     
 <!-- Donate Strings (not used right now) -->
   <string name="pref_donate_title">Donate to CadPage</string>    
-  <string name="pref_donate_text">CADPage is free. Donate if you like it</string>
+  <string name="pref_donate_text">CadPage is a free product. If you would like to support the developers and their time please visit www.cadpage.org and click on the Donate button.</string>
   <string name="pref_donate_market_button">Donate via Android Market</string>
   <string name="pref_donate_paypal_button">Donate via PayPal</string>
 
