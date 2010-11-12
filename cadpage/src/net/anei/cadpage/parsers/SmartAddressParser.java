@@ -1,6 +1,8 @@
 package net.anei.cadpage.parsers;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 import net.anei.cadpage.SmsMsgInfo;
@@ -50,15 +52,21 @@ public abstract class SmartAddressParser extends SmsMsgParser {
   // Bitmask bit indicating numeric token
   private static final int ID_NUMBER = 0x200;
   
+  // Bitmask bit indicating start of multiword token
+  private static final int ID_MULTIWORD = 0x400;
+  
+  // List of multiple word cities that need to be converted to and from single tokens
+  List<String[]> mWordCities = null;
+  
   public SmartAddressParser(String[] cities, String state) {
     this();
-    setupDictionary(ID_CITY, cities);
+    setupCities(cities);
     setupDictionary(ID_ROUTE_PFX, new String[]{state});
   }
   
   public SmartAddressParser(String[] cities) {
     this();
-    setupDictionary(ID_CITY, cities);
+    setupCities(cities);
   }
   
   public SmartAddressParser(String state) {
@@ -85,7 +93,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
         "COURT", "CT",
         "TER",
         "HWY");
-    setupDictionary(ID_ROUTE_PFX, "RT", "ST", "US", "FS", "INTERSTATE", "I", "HWY", "STHWY");
+    setupDictionary(ID_ROUTE_PFX, "RT", "ST", "SRT", "US", "FS", "INTERSTATE", "I", "HWY", "STHWY");
     setupDictionary(ID_DIRECTION, "N", "NE", "E", "SE", "S", "SW", "W", "NW");
     setupDictionary(ID_CONNECTOR, "AND", "/", "&");
     
@@ -93,13 +101,39 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     setupDictionary(ID_CROSS_STREET, "XS:", "X:");
   }
   
+  private void setupCities(String[] cities) {
+
+    // Run thorough the city list
+    for (String city : cities) {
+      
+      // If city name contains a blank, things get complicated
+      if (city.contains(" ")) {
+        
+        // Break up city name into token list and add it to mWordCities
+        if (mWordCities == null) mWordCities = new ArrayList<String[]>();
+        String[] tokenList = city.split(" +");
+        mWordCities.add(tokenList);
+        
+        // And add the first token to the dictionary as an incomplete city
+        setupDictionary(ID_CITY | ID_MULTIWORD, tokenList[0]);
+      }
+      
+      // Otherwise, we just add this to dictionary as a normal city
+      setupDictionary(ID_CITY, city);
+    }
+  }
+  
   private void setupDictionary(int bitMask, String ... args) {
     for (String arg : args) {
-      int newMask = bitMask;
-      Integer oldMask = dictionary.get(arg);
-      if (oldMask != null) newMask |= oldMask;
-      dictionary.put(arg, newMask);
+      setupDictioanry(bitMask, arg);
     }
+  }
+
+  private void setupDictioanry(int bitMask, String arg) {
+    int newMask = bitMask;
+    Integer oldMask = dictionary.get(arg);
+    if (oldMask != null) newMask |= oldMask;
+    dictionary.put(arg, newMask);
   }
   
   
@@ -150,9 +184,9 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     // Check for null string
     if (address.length() == 0) return;
 
-    // Make sure any / character will parse by itself
+    // Make sure any / or & character will parse by itself
     // Before we do that we have to protect the C/S cross street indicator
-    address = address.replaceAll(" C/S ", " XS: ").replaceAll("/", " / ");
+    address = address.replaceAll(" C/S ", " XS: ").replaceAll("/", " / ").replaceAll("&", " & ");
     
     // Parse line into tokens and categorize each token
     // While we are doing this, identify the index of the last city
@@ -406,13 +440,47 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     startAddress = stNdx;
     for (int ndx = 0; ndx < tokens.length; ndx++) {
       if (isType(ndx, ID_CROSS_STREET)) startCross = ndx + 1;
-      if (isType(ndx, ID_CITY)) {
+      int endCity = findEndCity(ndx);
+      if (endCity >= 0) {
         startCity = ndx;
-        endAll = ndx+1;
+        endAll = endCity;
         return true;
       }
     }
     return false;
+  }
+  
+  /**
+   * Find the end of a city that starts at the current index
+   * @param ndx current index
+   * @return one past the last token in city if city was found,
+   * -1 if this is not a city.
+   */
+  private int findEndCity(int ndx) {
+    
+    // If this isn't a city or city start the answer is no
+    if (! isType(ndx, ID_CITY)) return -1;
+    
+    // If this is a complete one word city, the answer is yes
+    if (! isType(ndx, ID_MULTIWORD)) return ndx+1;
+    
+    // So this might be the start of a multi-word city, we will have to
+    // compare each possible multi-word city against the current token
+    // list to see if we have a match
+    for (String[] tokenList : mWordCities) {
+      boolean match = true;
+      for (int j = 0; j< tokenList.length; j++) {
+        if (ndx+j >= tokens.length ||
+            ! tokenList[j].equalsIgnoreCase(tokens[ndx+j])) {
+          match = false;
+          break;
+        }
+      }
+      if (match) return ndx + tokenList.length;
+    }
+    
+    // No match found
+    return -1;
   }
 
   /**
