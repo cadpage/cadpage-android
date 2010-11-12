@@ -13,7 +13,7 @@ public class SmartAddressParserTest extends BaseParserTest {
   private static final StartType PLACE = StartType.START_PLACE;
   private static final StartType SKIP = StartType.START_SKIP;
   
-  private static final String[] CITY_LIST = new String[]{"KENSBURG"};
+  private static final String[] CITY_LIST = new String[]{"KENSBURG", "KEN TOWN"};
   private static final String DEF_STATE = "XX";
 
   private TestParser parser;
@@ -25,6 +25,10 @@ public class SmartAddressParserTest extends BaseParserTest {
   
   @Test
   public void testProblems() {
+    doTest(SKIP, "ACCIDENT SRT24&SAINT MARYS RD KEN TOWN UNDER",
+        "ADDR:SRT24 & SAINT MARYS RD",
+        "CITY:KEN TOWN");
+    
     doTest(CALL, TestParser.FLAG_START_FLD_REQ, 
         "1073 SMOKE 1421 BEVERLY DR 5495253 NONA DRIVE",
         "CALL:1073 SMOKE",
@@ -39,6 +43,9 @@ public class SmartAddressParserTest extends BaseParserTest {
     doTest(ADDR, "My home in Kensburg looks nice",
         "ADDR:My home in",
         "CITY:Kensburg");
+    doTest(ADDR, "My home in ken town is better",
+        "ADDR:My home in",
+        "CITY:ken town");
   }
   
   @Test
@@ -58,6 +65,9 @@ public class SmartAddressParserTest extends BaseParserTest {
     doTest(SKIP, "SOME DAY OVER THE RAINBOW 100 BLUEBIRDS SING IN KENSBURG HIGH",
         "ADDR:100 BLUEBIRDS SING IN",
         "CITY:KENSBURG");
+    doTest(SKIP, "WHERE 24 BLOOD KEN TOWN STORY",
+        "ADDR:24 BLOOD",
+        "CITY:KEN TOWN");
     doTest(SKIP, "BARK PLACE 500 US-30 DOWNTOWN",
         "ADDR:500 US-30");
     doTest(SKIP, "BARK PLACE 500 st123 downstairs",
@@ -80,6 +90,10 @@ public class SmartAddressParserTest extends BaseParserTest {
         "ADDR:1000 SUNBURY ONCE",
         "X:ACROSS TOWN",
         "CITY:KENSBURG");
+    doTest(ADDR, "1000 SUNBURY ONCE XS: ACROSS TOWN KEN TOWN JUNK",
+        "ADDR:1000 SUNBURY ONCE",
+        "X:ACROSS TOWN",
+        "CITY:KEN TOWN");
     doTest(SKIP, "WAIT TILL 500 NORTH LN X: JACKSON ST BELOW SUNDANCE",
         "ADDR:500 NORTH LN",
         "X:JACKSON ST");
@@ -116,6 +130,9 @@ public class SmartAddressParserTest extends BaseParserTest {
         "ADDR:US50 N & BLACK ST");
     doTest(SKIP, "THIS IS N JOHNSON AVE S & BLACK ST VERY BAD FORM",
         "ADDR:JOHNSON AVE S & BLACK ST");
+    doTest(SKIP, "ACCIDENT W/INJURY SRT24&SAINT MARYS RD KEN TOWN UNDER",
+        "ADDR:SRT24 & SAINT MARYS RD",
+        "CITY:KEN TOWN");
   }
   
   @Test
