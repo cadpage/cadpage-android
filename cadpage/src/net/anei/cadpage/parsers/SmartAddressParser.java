@@ -462,25 +462,38 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     if (! isType(ndx, ID_CITY)) return -1;
     
     // If this is a complete one word city, the answer is yes
-    if (! isType(ndx, ID_MULTIWORD)) return ndx+1;
+    int endNdx = -1;
+    if (! isType(ndx, ID_MULTIWORD)) {
+      endNdx = ndx + 1;
+    }
     
-    // So this might be the start of a multi-word city, we will have to
+    // Otherwise this might be the start of a multi-word city, we will have to
     // compare each possible multi-word city against the current token
     // list to see if we have a match
-    for (String[] tokenList : mWordCities) {
-      boolean match = true;
-      for (int j = 0; j< tokenList.length; j++) {
-        if (ndx+j >= tokens.length ||
-            ! tokenList[j].equalsIgnoreCase(tokens[ndx+j])) {
-          match = false;
+    else {
+      for (String[] tokenList : mWordCities) {
+        boolean match = true;
+        for (int j = 0; j< tokenList.length; j++) {
+          if (ndx+j >= tokens.length ||
+              ! tokenList[j].equalsIgnoreCase(tokens[ndx+j])) {
+            match = false;
+            break;
+          }
+        }
+        if (match) {
+          endNdx = ndx + tokenList.length;
           break;
         }
       }
-      if (match) return ndx + tokenList.length;
     }
     
-    // No match found
-    return -1;
+    // If we didn't find a city, return -1
+    if (endNdx < 0) return -1;
+    
+    // If we did find a city, check to make sure it isn't followed by
+    // a road suffix before we return it's end
+    if (isType(endNdx, ID_ROAD_SFX)) return -1;
+    return endNdx;
   }
 
   /**

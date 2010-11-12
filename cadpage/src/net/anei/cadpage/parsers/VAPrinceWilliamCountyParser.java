@@ -20,7 +20,7 @@ public class VAPrinceWilliamCountyParser extends SmsMsgParser {
 
   @Override
   public boolean isPageMsg(String body) {
-    return body.charAt(11) == '/' && body.charAt(20) == '/';
+    return body.length() > 20 && body.charAt(11) == '/' && body.charAt(20) == '/';
   } 
 
 
