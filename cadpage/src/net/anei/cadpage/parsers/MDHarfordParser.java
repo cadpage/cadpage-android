@@ -23,8 +23,12 @@ public class MDHarfordParser extends SmartAddressParser {
   private static final String DEF_CITY = "HARFORD";
   private static final String DEF_STATE = "MD";
   
-  private static final String[] CITY_LIST = 
-    new String[]{"PYLESVILLE", "BATCHELDER", "WHITE HALL"};
+  private static final String[] CITY_LIST =new String[]{
+    "ABERDEEN", "BEL AIR", "HAVRE DE GRACE", "JOPPA", "ABINGDON", "BELCAMP",
+    "LEVEL", "CHURCHVILLE", "DARLINGTON", "WHITEFORD", "JARRETTSVILLE", "STREET",
+    "HICKORY", "FALLSTON", "JOPPATOWNE", "FAWN GROVE", "DELTA", "PYLESVILLE", 
+    "WHITE HALL"};
+  
   private static final String[] KEYWORDS = new String[]{"BOX", "Cad"}; 
 
   public MDHarfordParser() {
