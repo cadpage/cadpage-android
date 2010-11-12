@@ -25,9 +25,6 @@ public class SmartAddressParserTest extends BaseParserTest {
   
   @Test
   public void testProblems() {
-    doTest(SKIP, "ACCIDENT SRT24&SAINT MARYS RD KEN TOWN UNDER",
-        "ADDR:SRT24 & SAINT MARYS RD",
-        "CITY:KEN TOWN");
     
     doTest(CALL, TestParser.FLAG_START_FLD_REQ, 
         "1073 SMOKE 1421 BEVERLY DR 5495253 NONA DRIVE",
@@ -67,6 +64,12 @@ public class SmartAddressParserTest extends BaseParserTest {
         "CITY:KENSBURG");
     doTest(SKIP, "WHERE 24 BLOOD KEN TOWN STORY",
         "ADDR:24 BLOOD",
+        "CITY:KEN TOWN");
+    doTest(SKIP, "BAD TOWN KEN AT 100 KEN TOWN RD KENSBURG EXTRA",
+        "ADDR:100 KEN TOWN RD",
+        "CITY:KENSBURG");
+    doTest(SKIP, "BAD TOWN KEN AT 100 KENSBURG RD KEN TOWN EXTRA",
+        "ADDR:100 KENSBURG RD",
         "CITY:KEN TOWN");
     doTest(SKIP, "BARK PLACE 500 US-30 DOWNTOWN",
         "ADDR:500 US-30");

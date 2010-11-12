@@ -22,9 +22,10 @@ public abstract class BaseParserTest {
   @Test
   public void testBadMsg() {
     // Just call the parser with a badly formated msg and make sure it doesn't croak
+    parser.isPageMsg("BAD MSG");
     parser.parse("BAD MSG", new SmsMsgInfo.Data());
+    parser.isPageMsg("");
     parser.parse("", new SmsMsgInfo.Data());
-    parser.parse(" ", new SmsMsgInfo.Data());
   }
   
   /**
