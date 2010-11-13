@@ -183,12 +183,17 @@ AMBULANCE, SICK PERSON (SPECIFIC DIAGNOSIS): 56 YOF SICK 26-A-5 IFO BUILDING at 
 MISC CALL, CHIEFS INVESTIGATION: GENERAL FIRE ALARM 52C04 Residential (multiple) at 700H HEALTH SCIENCES DR, STONY BROOK  c/s: NICOLLS RD   O: CHAPIN APTS - S : 26-A-16 at 20 FAWN LN W, SOUTH SETAUKET  c/s: LONGBOW LN . . 00:20:06
 AMBULANCE, HEMORRHAGE / LACERATIONS: 21-A-1 - 61 YOM - CUT TO HAND at 8 HOLLY LN, EAST SETAUKET  c/s: CRANE NECK RD . . 16:57:21
 ***************************************************************************
-***************************************************************************
 Berks County, PA (PABerksCountyParser)
 Contact: "thirty5tripleuno@yahoo.com" <thirty5tripleuno@yahoo.com>
 CAD MSG: *D MVAUNK   E STATE ST / S KEMP ST 0082 2 VEH / COMP IS ANDREW BROOKS / INVOLVED // AT THE INTERSECTION B
 CAD MSG: *D SF       28 NOBLE ST 0081 SEES FLAMES IN BASEMENT //ADVISED TO EVAC /
 CAD MSG: *D MVAENT   FORGEDALE RD / DAVIDS DR 0087 2VEHS HEAD ON/2 VICTIMS ENTRAPPED /1 FEMALE SERIOUSLY INJ/BLEED﻿﻿
+***************************************************************************
+Hayword County, NC (NCHaywoodCountyParser)
+CAD:1010170008;ROUTINE SICK PERSON;33 GRACE DR;CRUSO RD;JOHNS CREEK RD;12;10/17/2010 10:15:00
+CAD:1011010007;ROUTINE SICK PERSON;59 YAH WAY;MUNDY FIELD RD;12;11/01/2010 12:29:40
+CAD:1010300004;EMERGENCY TRAFFIC ACCIDENT;9600 CRUSO RD/BURNETTE COVE RD;12;10/30/2010 10:07:00
+***************************************************************************
 ***************************************************************************
 ***************************************************************************
 Districts that are not yet supported.  Class indicates implementation difficulty
@@ -198,36 +203,6 @@ class II - We could probably parse address if we had list of town/city codes ter
            parser in the near future, I am choosing to make the city lookup part of that smart parser
            so it will handle the corner case where a unknown city is specified.
 class III - No obvious address delimiter, waiting for development of smart address parser
-**********************************************************
-Haywood County, NC (Caruso Fire & Rescue) (Can use Livingston format) (Class I)
-Contact: : "bradford1967@hotmail.com" <bradford1967@hotmail.com>
-Sender: CAD@haywoodnc.net
-
-I would start this one from scratch, Livinston works because it is close, but not the same.
-This is another variable field position format, like VAPrinceWilliamCounty.  There can be 0 to 2 crossroad fields.
-When you get to the crossroad field, see if it is a numeric field (The base class NUMERIC pattern helps), if it isn't
-add field to cross road field and decrement field index so next field will be processed as a crossroad as well.
-CAD:1010170008;ROUTINE SICK PERSON;33 GRACE DR;CRUSO RD;JOHNS CREEK RD;12;10/17/2010 10:15:00
-CAD:1011010007;ROUTINE SICK PERSON;59 YAH WAY;MUNDY FIELD RD;12;11/01/2010 12:29:40
-CAD:1010300004;EMERGENCY TRAFFIC ACCIDENT;9600 CRUSO RD/BURNETTE COVE RD;12;10/30/2010 10:07:00
-CAD:11538 CRUSO RD;12;ROUTINE FALL
-CAD:1010310024;EMERGENCY HEMORRHAGE LACERATIO;8573 CRUSO RD;SAWMILL ACRES LN;HARLEY DAVIDSON DR;12;10/31/2010 21:54:21
-CAD:1011050024;EMERGENCY UNCONSCIOUS FAINTING;50 MUSTANG ALLEY DR;CRUSO RD;HAPPY WAY;12;11/05/2010 20:19:31
-CAD:1011050011;EMERGENCY BREATHING PROBLEMS;12695 CRUSO RD;EVERIDGE DR;COLD CREEK RD;12;11/05/2010 12:02:51
-CAD:1011070002;69D7 CHIMNEY FIRE;296 MATTHEW LN;SHADY BROOK RD;MOUNTAIN VISTA RD;19;11/07/2010 01:02:10
-CAD:ROUTINE TRANSPORT;12695 CRUSO RD;CA;RM-525 TO HOME;MED6 CALL AND REQ ST12, FR12 RESPOND TO THE RESIDENCE TO HELP THEM GET PT BACK INTO HOUSE [11/11/10 :1of2
-CAD:1011110016;ROUTINE CONVULSIONS SEIZURES;12588 CRUSO RD;EVERIDGE DR;COLD CREEK RD;12;11/11/2010 19:24:02
-CAD:1011110019;ROUTINE SICK PERSON;311 PISGAH CREEK RD;EDGEWATER LN;PISGAH MOUNTAIN RD;12;11/11/2010 20:58:54
-Case ID
-Nature
-Street Address
-Business (If applicable)
-Crossroad 1
-Crossroad2
-District
-Call time
-Street not
-
 **********************************************************
 Amityville Fider, NY (Class III)
 Need Amityville Fider and Babylon combo 
