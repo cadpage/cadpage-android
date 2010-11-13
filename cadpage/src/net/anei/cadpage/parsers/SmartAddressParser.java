@@ -93,7 +93,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
         "COURT", "CT",
         "TER",
         "HWY");
-    setupDictionary(ID_ROUTE_PFX, "RT", "ST", "SRT", "US", "FS", "INTERSTATE", "I", "HWY", "STHWY");
+    setupDictionary(ID_ROUTE_PFX, "RT", "ST", "SRT", "US", "FS", "INTERSTATE", "I", "HWY", "STHWY", "CO");
     setupDictionary(ID_DIRECTION, "N", "NE", "E", "SE", "S", "SW", "W", "NW");
     setupDictionary(ID_CONNECTOR, "AND", "/", "&");
     
@@ -673,7 +673,13 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     
     // If next character is a dash, skip over it
     int pta = pt;
-    if (token.charAt(pt) == '-') pt++;
+    
+    int ptBreak = pt;
+    boolean dashFound = (token.charAt(pt) == '-');
+    if (dashFound) {
+      pt++;
+      ptBreak = -1;
+    }
     
     // If next character is not a digit, answer is no
     if (pt >= token.length() || ! Character.isDigit(token.charAt(pt))) return false;
@@ -687,24 +693,39 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     do pt++; while (pt < token.length() && Character.isDigit(token.charAt(pt)));
     
     // If we are at end of string, answer is yes
-    if (pt == token.length()) return true;
-    
     // Otherwise, the answer depends on if the remaining suffix looks like some
     // kind of highway qualifier (NB = north bound for example)
-    String sfx = token.substring(pt).toUpperCase();
-    
-    do {
-      if (sfx.length() == 2 && sfx.charAt(1) == 'B' &&
-          "NESW".indexOf(sfx.charAt(0)) >= 0) break;
+    if (pt != token.length()) {
+      String sfx = token.substring(pt).toUpperCase();
       
-      // Nothing recognized, return false
-      return false;
+      do {
+        if (sfx.length() == 2 && sfx.charAt(1) == 'B' &&
+            "NESW".indexOf(sfx.charAt(0)) >= 0) break;
+        
+        // Nothing recognized, return false
+        return false;
+        
+      } while (false);
       
-    } while (false);
+      // OK, this looks valid.
+      // But Google maps won't recognize the highway qualifier, so we have to get rid of it
+      tokens[ndx] = token.substring(0, pt);
+    }
     
-    // OK, this looks valid.
-    // But Google maps won't recognize the highway qualifier, so we have to get rid of it
-    tokens[ndx] = token.substring(0, pt);
+    // OK, we've concluded this is a valid single word road name.  Now we
+    // need to clean up some things Google can't handle
+    
+    // Google doesn't handle some prefixes with a dash separator, so just to
+    // be on the safe side, we always insert one if it wasn't there initially
+    // Unless this is a RT prefix, in which cas the dash just doesn't work at all
+    if (ptBreak >= 0 && !pfx.equals("RT")) {
+      tokens[ndx] = tokens[ndx].substring(0, ptBreak) + "-" + tokens[ndx].substring(ptBreak);
+    }
+    
+    // And Google doesn't like the SRT prefix, change it it to ST
+    if (pfx.equals("SRT")) {
+      tokens[ndx] = "ST" + tokens[ndx].substring(3);
+    }
     return true;
   }
 }

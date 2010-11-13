@@ -64,23 +64,23 @@ public class MNAnokaCountyParser extends SmartAddressParser {
       // An @ separates the place name from address,
       // But we cannot assume which one comes first. we have to check both
       // sides to see which makes a better address.
+      
+      // Which one we pick has to be parsed a second time to pick up some
+      // of the subtle changes the parser makes
       pt = addressLine.indexOf('@');
       if (pt < 0) {
-        data.strAddress = addressLine;
+        parseAddress(StartType.START_ADDR, addressLine, data);
       } else {
         String part1 = addressLine.substring(0, pt).trim();
         String part2 = addressLine.substring(pt+1).trim();
         if (checkAddress(part1) > checkAddress(part2)) {
-          data.strAddress = part1;
+          parseAddress(StartType.START_ADDR, part1, data);
           data.strPlace = part2;
         } else {
-          data.strAddress = part2;
           data.strPlace = part1;
+          parseAddress(StartType.START_ADDR, part2, data);
         }
       }
-      
-      // Either way, and slashes in address my be replaced with &
-      data.strAddress = data.strAddress.replaceAll("/", "&");
     }
     
     // If we don't find the expected double blank, parser it as a name/address
