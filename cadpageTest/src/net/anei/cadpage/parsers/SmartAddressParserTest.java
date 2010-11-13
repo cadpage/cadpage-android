@@ -5,6 +5,8 @@ import net.anei.cadpage.parsers.SmartAddressParser.StartType;
 
 import org.junit.Test;
 
+import static org.junit.Assert.*;
+
 
 public class SmartAddressParserTest extends BaseParserTest {
   
@@ -200,6 +202,18 @@ public class SmartAddressParserTest extends BaseParserTest {
     
     doTest(SKIP, "AT ST30A", "ADDR:AT ST30A");
     doTest(SKIP, "AT ST30NBA", "ADDR:AT ST30NBA");
+  }
+  
+  @Test
+  public void testCheckAddress() {
+    assertEquals(4, parser.checkAddress("HOW DO WE GET TO KEN TOWN"));
+    assertEquals(0, parser.checkAddress("HOW DO WE GET TO KEN TOWN EXTRA"));
+    assertEquals(3, parser.checkAddress("400 N BLACK HAWK DR"));
+    assertEquals(0, parser.checkAddress("400 N BLACK HAWK DR EXTRA"));
+    assertEquals(2, parser.checkAddress("US 50 & SE JEFFERSON ST"));
+    assertEquals(0, parser.checkAddress("US 50 & SE JEFFERSON ST EXTRA"));
+    assertEquals(1, parser.checkAddress("SMITH RD"));
+    assertEquals(0, parser.checkAddress("SMITH RD EXTRA"));
   }
   
   private void doTest(StartType sType, String test, String ... result) {
