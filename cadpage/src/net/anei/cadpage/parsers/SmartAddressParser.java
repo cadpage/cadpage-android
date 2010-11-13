@@ -146,6 +146,18 @@ public abstract class SmartAddressParser extends SmsMsgParser {
   private int startCross = -1;
   private int startCity = -1;
   private int endAll = -1;
+  
+  /**
+   * Determine if a string looks like a valid address
+   * @param address Address string to be checked
+   * @return zero if string is not recognized as valid address, otherwise a
+   * numeric value in which higher values indicate better addresses
+   */
+  protected int checkAddress(String address) {
+    int result = parseAddress(StartType.START_ADDR, 0, address);
+    if (endAll < tokens.length) result = 0;
+    return result;
+  }
 
   /**
    * Parse address line
@@ -173,6 +185,22 @@ public abstract class SmartAddressParser extends SmsMsgParser {
    * @param data data object to be filled with information from parsed address field.
    */
   protected void parseAddress(StartType sType, int flags, String address, SmsMsgInfo.Data data) {
+    parseAddress(sType, flags, address);
+    fillInData(sType, data);
+  }
+  
+  /**
+   * Internal method that does the real parsing
+   * @param sType indicates what we now about start of address field
+   *         START_ADDR - field starts with the address
+   *         START_CALL - field starts with call description followed by address
+   *         START_SKIP - field starts with something we aren't interested in,
+   *                      followed by address
+   * @param flags - Special processing flags                     
+   * @param address address field to be parsed
+   * @return integer indicating how good this address is, higher number mean better fit
+   */
+  private int parseAddress(StartType sType, int flags, String address) {
 
     this.flags = flags;
     lastCity = -1;
@@ -182,7 +210,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     endAll = -1;
 
     // Check for null string
-    if (address.length() == 0) return;
+    if (address.length() == 0) return 0;
 
     // Make sure any / or & character will parse by itself
     // Before we do that we have to protect the C/S cross street indicator
@@ -199,27 +227,23 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     }
     
     // Now comes the hard part.
-    do {
-      
-      // See if the address starts at the beginning of this field
-      // this will make life a lot easier
-      boolean startAddr = (sType == StartType.START_ADDR);
-      
-      // We have a number of basic patters that we will recognize
-      // Try each one until we find one that works
-      if (parseTrivialAddress(startAddr)) break;
-      if (parseSimpleAddress(startAddr)) break;
-      if (parseIntersection(startAddr)) break;
-      if (parseNakedRoad(startAddr)) break;
-      
-      // Total failure, assign the entire field to either the call description
-      // or the address
-      endAll = tokens.length;
-      if (sType != StartType.START_CALL && sType != StartType.START_PLACE) startAddress = 0;
-      
-    } while (false);
     
-    fillInData(sType, data);
+    // See if the address starts at the beginning of this field
+    // this will make life a lot easier
+    boolean startAddr = (sType == StartType.START_ADDR);
+    
+    // We have a number of basic patters that we will recognize
+    // Try each one until we find one that works
+    if (parseTrivialAddress(startAddr)) return 4;
+    if (parseSimpleAddress(startAddr)) return 3;
+    if (parseIntersection(startAddr)) return 2;
+    if (parseNakedRoad(startAddr)) return 1;
+    
+    // Total failure, assign the entire field to either the call description
+    // or the address
+    endAll = tokens.length;
+    if (sType != StartType.START_CALL && sType != StartType.START_PLACE) startAddress = 0;
+    return 0;
   }
 
   /**

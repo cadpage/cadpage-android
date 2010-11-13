@@ -7,8 +7,6 @@ import android.widget.RelativeLayout;
 
 import com.paypal.android.MEP.CheckoutButton;
 import com.paypal.android.MEP.PayPal;
-import com.paypal.android.MEP.PayPalReceiverDetails;
-import com.paypal.android.MEP.PayPalPayment;
 
 public class Donate extends Activity {
   
