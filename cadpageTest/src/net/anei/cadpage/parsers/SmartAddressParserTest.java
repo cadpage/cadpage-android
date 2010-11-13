@@ -76,11 +76,11 @@ public class SmartAddressParserTest extends BaseParserTest {
     doTest(SKIP, "BARK PLACE 500 US-30 DOWNTOWN",
         "ADDR:500 US-30");
     doTest(SKIP, "BARK PLACE 500 st123 downstairs",
-        "ADDR:500 st123");
+        "ADDR:500 st-123");
     doTest(SKIP, "TRY 123 JOHN SMITH ST N FOR SIZE",
         "ADDR:123 JOHN SMITH ST N");
     doTest(SKIP, "OR MAYBE 200 US30 N BACK",
-        "ADDR:200 US30 N");
+        "ADDR:200 US-30 N");
     doTest(SKIP, "NUMBER 25 MASKING ADDRESS AT 143 N JUNIOR ST DOWNTOWN",
         "ADDR:143 N JUNIOR ST");
     doTest(SKIP, "DRIVING ON 3224 XX 456",
@@ -128,15 +128,15 @@ public class SmartAddressParserTest extends BaseParserTest {
     doTest(SKIP, "NOW SEE IF CAN WE FIND W HILLS RD/HWY 20 WITHOUT A CITY",
         "ADDR:W HILLS RD & HWY 20");
     doTest(SKIP, "LOOKING FOR I-90 & US231 SOMEWHERE",
-        "ADDR:I-90 & US231");
+        "ADDR:I-90 & US-231");
     doTest(SKIP, "WHAT ABOUT BLACK ST N & W SOMERSET RD ANYONE",
         "ADDR:BLACK ST N & W SOMERSET RD");
     doTest(SKIP, "SOMEWHERE NEAR US50 N & BLACK ST DOWN",
-        "ADDR:US50 N & BLACK ST");
+        "ADDR:US-50 N & BLACK ST");
     doTest(SKIP, "THIS IS N JOHNSON AVE S & BLACK ST VERY BAD FORM",
         "ADDR:JOHNSON AVE S & BLACK ST");
     doTest(SKIP, "ACCIDENT W/INJURY SRT24&SAINT MARYS RD KEN TOWN UNDER",
-        "ADDR:SRT24 & SAINT MARYS RD",
+        "ADDR:ST-24 & SAINT MARYS RD",
         "CITY:KEN TOWN");
   }
   
@@ -165,7 +165,7 @@ public class SmartAddressParserTest extends BaseParserTest {
     doTest(SKIP, "CAN YOU FIND I-25 OUT THERE SOMEWHERE",
         "ADDR:I-25");
     doTest(SKIP, "WHAT ABOUT us123 PERHAPS",
-        "ADDR:us123");
+        "ADDR:us-123");
     doTest(SKIP, "MAYBE BLACK ST N WILL WORK",
         "ADDR:BLACK ST N");
     doTest(SKIP, "HOW ABOUT US-150 N DUDE",
@@ -196,9 +196,10 @@ public class SmartAddressParserTest extends BaseParserTest {
   @Test
   public void testRoadTokens() {
     doTest(SKIP, "AT US-30", "ADDR:US-30");
-    doTest(SKIP, "AT us30", "ADDR:us30");
-    doTest(SKIP, "AT ST30NB", "ADDR:ST30");
-    doTest(SKIP, "AT I105WB", "ADDR:I105");
+    doTest(SKIP, "AT us30", "ADDR:us-30");
+    doTest(SKIP, "AT ST30NB", "ADDR:ST-30");
+    doTest(SKIP, "AT I105WB", "ADDR:I-105");
+    doTest(SKIP, "AT CO7", "ADDR:CO-7");
     
     doTest(SKIP, "AT ST30A", "ADDR:AT ST30A");
     doTest(SKIP, "AT ST30NBA", "ADDR:AT ST30NBA");

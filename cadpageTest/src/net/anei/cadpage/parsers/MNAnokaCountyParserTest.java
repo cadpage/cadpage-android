@@ -52,14 +52,14 @@ public class MNAnokaCountyParserTest extends BaseParserTest {
     doTest("T6",
         "CAD MSG: *D A1   59       RR TRACKS / BUNKER LAKE BLVD NW  PD ACCIDENT/BLOCKING/NEED SGT TO RESPOND ALSO / FIRE RTN FOR WASH DOWN INC:10019310",
         "CALL:*D A1   59",
-        "ADDR:RR TRACKS & BUNKER LAKE BLVD NW",
+        "ADDR:RR TRACKS / BUNKER LAKE BLVD NW",
         "INFO:PD ACCIDENT/BLOCKING/NEED SGT TO RESPOND ALSO / FIRE RTN FOR WASH DOWN",
         "ID:10019310");
     
     doTest("T7",
         "CAD MSG: *D A2   56       CO7 NW / CO58 NW  STRONG GAS ODOR IN THE AREA INC:10019278",
         "CALL:*D A2   56",
-        "ADDR:CO7 NW & CO58 NW",
+        "ADDR:CO-7 NW & CO-58 NW",
         "INFO:STRONG GAS ODOR IN THE AREA",
         "ID:10019278");
     
