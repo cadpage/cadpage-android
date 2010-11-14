@@ -456,6 +456,13 @@ Medical Box 17-QA BRIDE POINT DR /COX [Unit NECK] [RD BX1-10] MOA PM17 MVC; PM17
 Kingston, NY or Ulster County (Class I) (NYKingstonParser)
 
 Parser completed with one tweak. Added a check for Venue of "King City" and made in "Kingston" Emailed contact about this.
+Reply:
+my knowledge into the workings of the cad are limited, extremely limited.
+i know it is a county wide dispatch, and that kingston along with many other municipalities access the county cad.
+i believe your deduction that king city is kingston, to be true.
+in kingston alone, we have 6 separate fire companies and mobile life dispatch (ems).
+specifically, companies 1 (E1 & R1), 2 (E2 & T1), 3 (E3 & E9), 4 (E4 and S1), 5 (E5), 6 (E6), 8 (Marine1),and Car1 Car2 &Car3.
+
 Contact: Chris Pale <copper_and_common_sense@yahoo.com>
 
 ((2058) RLIN/ ) Unit:ENG6 UnitSts: Loc:487 WASHINGTON AV  XSts:TAYLOR/CITY LINE 

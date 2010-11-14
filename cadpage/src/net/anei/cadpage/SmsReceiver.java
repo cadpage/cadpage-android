@@ -83,7 +83,17 @@ public class SmsReceiver extends BroadcastReceiver {
     // First look at from Filter.
     String sFilter = ManagePreferences.filter();
     String sAddress = message.getAddress();
+    // If the filter has a comma then it is multiple addresses to check.
+    if (sFilter.contains(",")){
+      int res = 0; //this will trigger a return false once all done
+      String sFilters[] = sFilter.split(",");
+      for (String filter : sFilters) {
+        if (match(sAddress,filter)) { res =1;}
+      }
+      if (res==0) { return false; }
+    } else {  
     if (! match(sAddress, sFilter)) return false;
+    }
     if (Log.DEBUG) Log.v("SMSReceiver/CadPageCall: Filter Matches checking call Location -" + sFilter);
     
     // Save message to file for future test use
