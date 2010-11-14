@@ -25,6 +25,7 @@ public class OHSugarCreekParser extends SmsMsgParser {
   protected void parse(String body, Data data) {
     data.defState = "OH";
     data.defCity = "SugarCreek";
+    body = body.replaceAll("\t", ",");
     Properties props = parseMessage(body, SugarCreekkeywords);
     data.strCall = props.getProperty("Ct", "");
     parseAddress(props.getProperty("Loc", ""), data);
