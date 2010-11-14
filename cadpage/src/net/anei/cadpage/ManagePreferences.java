@@ -103,6 +103,9 @@ public class ManagePreferences {
   }
   
   public static String vibratePatternCustom() {
+    if ( prefs.getString(R.string.pref_vibrate_pattern_custom_key) == null){
+      return prefs.getString(R.string.pref_vibrate_pattern_key);
+    }
     return prefs.getString(R.string.pref_vibrate_pattern_custom_key);
   }
   
@@ -115,6 +118,9 @@ public class ManagePreferences {
   }
   
   public static String flashLEDColorCustom() {
+    if (prefs.getString(R.string.pref_flashled_color_custom_key)==null){
+      return prefs.getString(R.string.pref_flashled_color_key);
+    }
     return prefs.getString(R.string.pref_flashled_color_custom_key);
   }
   
@@ -123,6 +129,9 @@ public class ManagePreferences {
   }
   
   public static String flashLEDPatternCustom() {
+    if (prefs.getString(R.string.pref_flashled_pattern_custom_key)==null){
+      return prefs.getString(R.string.pref_flashled_pattern_key);
+    }
     return prefs.getString(R.string.pref_flashled_pattern_custom_key);
   }
   
