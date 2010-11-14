@@ -453,7 +453,9 @@ MEDICAL Box 19-13 1572 SECRETARIAT DR (MAN O WAR CT) A19,PM17 CHEST PAIN; 1341 [
 Medical Box 40-83 RT50 E/BESTGATE RD MU40,E40,E172 MVC; 1238 [5/283] /lm-7
 Medical Box 17-QA BRIDE POINT DR /COX [Unit NECK] [RD BX1-10] MOA PM17 MVC; PM17 REQ TAX 3 1133 ...
 **********************************************************
-Kingston, NY or Ulster County (Class I)
+Kingston, NY or Ulster County (Class I) (NYKingstonParser)
+
+Parser completed with one tweak. Added a check for Venue of "King City" and made in "Kingston" Emailed contact about this.
 Contact: Chris Pale <copper_and_common_sense@yahoo.com>
 
 ((2058) RLIN/ ) Unit:ENG6 UnitSts: Loc:487 WASHINGTON AV  XSts:TAYLOR/CITY LINE 
