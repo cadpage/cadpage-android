@@ -13,7 +13,7 @@ TYPE: OPEN BURNING LOC: 65 GRANT AVE BRENTW CROSS: SUFFOLK AVE 18:39:20 CODE: 54
 TYPE: BLEEDING / LACERATIONS LOC: 462 SPUR DR N NBAYSH  CROSS: WB SSP OFF RAMP-X42N 5TH AV / E 3 AV CODE: 21-A-1 TIME: 03:36:22
 */
 
-public class NYSuffolkCountyParser extends SmartAddressParser {
+public class NYBrentwoodParser extends SmartAddressParser {
 
   private static String[] citiesCodes = new String[]{"BRENTW", "NBAYSH", "BAYSHO"};
   
@@ -26,7 +26,7 @@ public class NYSuffolkCountyParser extends SmartAddressParser {
   private static final String DEF_STATE = "NY";
   private static final String DEF_CITY = "SUFFOLK COUNTY";
   
-  public NYSuffolkCountyParser() {
+  public NYBrentwoodParser() {
     super(citiesCodes, DEF_STATE);
   }
 
