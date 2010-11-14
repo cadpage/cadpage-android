@@ -5,17 +5,16 @@ import java.util.regex.Pattern;
 
 public class PatternTest {
 
-  static final Pattern MAPPattern = 
-    Pattern.compile("\\b\\d{1,2}-[A-Z]-\\d{1,2}[A-Z]?\\b");
+  static final Pattern MAP_PATTERN = Pattern.compile("\\b\\d{1,2}-?[A-Za-z]-?\\d\\b");
   
   public static void main(String[] args) {
     doTest("12-A-9");
-    doTest("HELP 1-C-33D ME");
-    doTest("HELP 1-C-33 ME");
+    doTest("HELP 7d4 ME");
+    doTest("HELP 12A9 ME");
   }
   
   private static void doTest(String test) {
-    Matcher match = MAPPattern.matcher(test);
+    Matcher match = MAP_PATTERN.matcher(test);
     System.out.print(test);
     if (! match.find()) {
       System.out.print(" no match");
