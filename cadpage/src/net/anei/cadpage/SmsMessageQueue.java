@@ -45,12 +45,13 @@ public class SmsMessageQueue implements Serializable {
     }
     
     // Set the next message ID to one more than the highest message ID
-    // in the queue
+    // in the queue, and fix any obsolete location codes
     boolean assign = false;
     for (SmsMmsMessage msg : queue) {
       int msgId = msg.getMsgId();
       if (msgId == 0) assign = true;
       if (msgId >= nextMsgId) nextMsgId = msgId+1;
+      msg.fixOldLocation(context);
     }
     
     // First time this release is loaded, the saved messages won't have any

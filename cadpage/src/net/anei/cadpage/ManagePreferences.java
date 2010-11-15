@@ -58,16 +58,28 @@ public class ManagePreferences {
     
     // Ditto if is a newer parser code that has been renamed,
     else {
-      String[] oldCodes = context.getResources().getStringArray(R.array.old_location_values);
-      for (int ndx = 0; ndx < oldCodes.length; ndx++) {
-        if (location.equals(oldCodes[ndx])) {
-          String[] newCodes = context.getResources().getStringArray(R.array.new_location_values);
-          location = newCodes[ndx];
-          prefs.putString(R.string.pref_location, location);
-          break;
-        }
+      String newLocation = convertOldLocationCode(context, location);
+      if (! location.equals(newLocation)) {
+        prefs.putString(R.string.pref_location, newLocation);
       }
     }
+  }
+  
+  /**
+   * Convert any old obsolete location codes to new equivalent
+   * @param current context
+   * @param location location to be checked
+   * @return the new location that should be used
+   */
+  public static String convertOldLocationCode(Context context, String location) {
+    String[] oldCodes = context.getResources().getStringArray(R.array.old_location_values);
+    for (int ndx = 0; ndx < oldCodes.length; ndx++) {
+      if (location.equals(oldCodes[ndx])) {
+        String[] newCodes = context.getResources().getStringArray(R.array.new_location_values);
+        return newCodes[ndx];
+      }
+    }
+    return location;
   }
   
   public static boolean initialized() {

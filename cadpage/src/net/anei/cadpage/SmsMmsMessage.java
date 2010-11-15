@@ -415,4 +415,12 @@ public class SmsMmsMessage implements Serializable {
     return message;
 
   }
+
+  /**
+   * Fix any obsolete location codes
+   * @param context current context
+   */
+  public void fixOldLocation(Context context) {
+    if (location != null) location = ManagePreferences.convertOldLocationCode(context, location);
+  }
 }
