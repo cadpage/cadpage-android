@@ -403,6 +403,9 @@ public class SmsMmsMessage implements Serializable {
     
     sb.append("\nFull Text:");
     sb.append(messageFull);
+    
+    sb.append("\nLocation:");
+    sb.append(location);
     sb.append('\n');
   }
    
