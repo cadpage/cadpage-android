@@ -56,7 +56,7 @@ public class NYBabylonParser extends SmsMsgParser {
     parseAddress(props.getProperty("ADDR", ""), data);
     data.strCross = props.getProperty("CS", "");
     data.strCallId = props.getProperty("FC", "");
-    String sSupp = props.getProperty("TOA");
+    String sSupp = props.getProperty("TOA", "");
     Matcher match = TIME_DATE.matcher(sSupp);
     if (match.find()) sSupp = sSupp.substring(match.end());
     for (String district : districtList) {
