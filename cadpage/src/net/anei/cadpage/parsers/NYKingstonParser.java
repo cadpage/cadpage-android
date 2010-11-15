@@ -14,7 +14,7 @@ import net.anei.cadpage.SmsMsgInfo.Data;
 
 public class NYKingstonParser extends SmsMsgParser {
 
-  private static final String[]Kingstonkeywords = new String[]{"Unit","UnitSts","Loc", "XSts", "Venue", "Inc","Time"};
+  private static final String[]Kingstonkeywords = new String[]{"Unit","UnitSts","Loc", "XSts", "Venue", "Inc","Date", "Time"};
 
   @Override
   public boolean isPageMsg(String body) {
@@ -24,17 +24,18 @@ public class NYKingstonParser extends SmsMsgParser {
   @Override
   protected void parse(String body, Data data) {
     data.defState = "NY";
+    data.defCity = "Kingston";
 
     Properties props = parseMessage(body, Kingstonkeywords);
-    data.defCity = props.getProperty("Venue", "");
-    if (data.defCity.contains("King City")) { data.defCity="Kinsgton,Ulster";} 
+    data.strCity = props.getProperty("Venue", "").replaceAll(" +", " ");
+    if (data.strCity.toUpperCase().startsWith("KING CITY")) { data.strCity="Kingston,Ulster";} 
     data.strCall = props.getProperty("Inc", "");
     parseAddress(props.getProperty("Loc", ""), data);
     data.strCross = props.getProperty("XSts", "");
     data.strUnit = props.getProperty("Unit", "");
     String sSupp = props.getProperty("Time","");
-    sSupp = sSupp.substring(sSupp.indexOf(" "));
-    data.strSupp = sSupp.trim();
+    int ipt = sSupp.indexOf(' ');
+    if (ipt >= 0) data.strSupp = sSupp.substring(ipt+1).trim();
     
   }
 }

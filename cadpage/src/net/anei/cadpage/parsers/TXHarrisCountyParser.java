@@ -35,7 +35,7 @@ public class TXHarrisCountyParser extends SmsMsgParser {
   protected void parse(String body, Data data) {
   
     data.defState="TX";
-    data.defCity="Harris";
+    data.defCity="HARRIS COUNTY";
     
     // Strip message prefix
     
