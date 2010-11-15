@@ -14,7 +14,7 @@ We use Cisco Public Safety’s ECAD program to page out CFS events.  CAD does send
 
 public class OHSugarCreekParser extends SmsMsgParser {
 
-  private static final String[]SugarCreekkeywords = new String[]{"Ct", "Loc", "Apt", "XSt", "Grid", "Units","Rmk"};
+  private static final String[]SugarCreekkeywords = new String[]{"Ct", "Loc", "Apt", "XSt", "Grid", "Units"};
 
   @Override
   public boolean isPageMsg(String body) {
