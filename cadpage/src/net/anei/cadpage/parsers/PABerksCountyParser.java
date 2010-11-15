@@ -14,6 +14,7 @@ CAD MSG: *D FTEST    STATION 35 @110 PARK AV 0082 BERKS TESING THE TEXT PAGING S
 CAD MSG: *D MVAUNK   NOBLE ST / BASTIAN RD 0079 ONE CAR, OCCUPIED, INTO A FIELD // ONLY LANDMARK SHE COULD MEN﻿﻿
 CAD MSG: *D SF       28 NOBLE ST 0081 SEES FLAMES IN BASEMENT //ADVISED TO EVAC /
 CAD MSG: *D MVAENT   FORGEDALE RD / DAVIDS DR 0087 2VEHS HEAD ON/2 VICTIMS ENTRAPPED /1 FEMALE SERIOUSLY INJ/BLEED﻿﻿
+Subject:1/2\nCAD MSG: *D FTELE    STATION 35 @110 PARK AV 0082 CALL REF ITEMS SHE HAS THAT ARE BELEIVED TO BELONG TO YOUR COMPA
 */
 
 public class PABerksCountyParser extends SmsMsgParser {
@@ -25,13 +26,18 @@ public class PABerksCountyParser extends SmsMsgParser {
 
   @Override
   public boolean isPageMsg(String body) {
-    return body.startsWith("CAD MSG: ");
+    return body.contains("CAD MSG: ");
   }
 
   @Override
   protected void parse(String body, Data data) {
     data.defState = DEF_STATE;
     data.defCity = DEF_CITY;
+
+    // Strip off any prefix
+    int pt = body.indexOf("CAD MSG: ");
+    if (pt < 0) return;
+    body = body.substring(pt);
     
     // Extract primary call description
     if (body.length() < 20) return;
@@ -53,7 +59,7 @@ public class PABerksCountyParser extends SmsMsgParser {
     
     // An '@' splits place name from address
     String address = body.substring(0, match.start()).trim();
-    int pt = address.indexOf('@');
+    pt = address.indexOf('@');
     if (pt >= 0) {
       data.strPlace = address.substring(0, pt).trim();
       address = address.substring(pt+1).trim();
