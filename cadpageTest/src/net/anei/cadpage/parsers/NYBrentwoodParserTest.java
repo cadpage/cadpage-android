@@ -36,5 +36,14 @@ public class NYBrentwoodParserTest extends BaseParserTest {
         "X:SUFFOLK AVE",
         "CITY:Brentwood",
         "MAP:54-C-6");
+ 
+    doTest("T4",
+        "TYPE: PREGNANCY / CHILDBIRTH / MISCARRIAGE LOC: 330 MOTOR PKWY HAUPPA:@FELDMAN, KRAMER & MONACO STE 400  CROSS: WASHINGTON AV / MARCUS BLVD C",
+        "CALL:PREGNANCY / CHILDBIRTH / MISCARRIAGE",
+        "PLACE:FELDMAN, KRAMER & MONACO STE 400",
+        "ADDR:330 MOTOR PKWY",
+        "X:WASHINGTON AV / MARCUS BLVD C",
+        "CITY:Hauppauge");
+
   }
 }
