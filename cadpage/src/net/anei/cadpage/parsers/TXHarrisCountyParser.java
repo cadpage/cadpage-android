@@ -23,12 +23,14 @@ public class TXHarrisCountyParser extends SmsMsgParser {
   protected void parse(String body, Data data) {
   
     data.defState="TX";
-    data.defCity="HARRIS COUNTY";
+    data.defCity="Harris";
     
-    // Strip first 16 characters off of message
-    if (body.length() <= 16) return;
-    body = "Loc:" + body.substring(16);
-    
+    //Find first spot after time
+    if ( body.contains(":")){
+      int i = body.indexOf(":");
+      i = body.indexOf(" ",i);
+      body = "Loc:" +body.substring(i);
+    }
     Properties props = parseMessage(body, new String[]{"Map", "Sub", "Nat", "Units", "X-St"});
     parseAddress(props.getProperty("Loc", ""), data);
     data.strMap = props.getProperty("Map", "");
