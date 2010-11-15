@@ -55,12 +55,6 @@ public abstract class SmartAddressParser extends SmsMsgParser {
   // Bitmask bit indicating start of multiword token
   private static final int ID_MULTIWORD = 0x400;
   
-  // Bitmask bit indicating a start address marker
-  private static final int ID_START_MARKER = 0x800;
-  
-  // Bitmask bit indicating token had a preceding @ character
-  private static final int ID_INCL_START_MARKER = 0x1000;
-  
   // List of multiple word cities that need to be converted to and from single tokens
   List<String[]> mWordCities = null;
   
@@ -102,7 +96,6 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     setupDictionary(ID_ROUTE_PFX, "RT", "ST", "SRT", "US", "FS", "INTERSTATE", "I", "HWY", "STHWY", "CO");
     setupDictionary(ID_DIRECTION, "N", "NE", "E", "SE", "S", "SW", "W", "NW");
     setupDictionary(ID_CONNECTOR, "AND", "/", "&");
-    setupDictionary(ID_START_MARKER, "AT", "@");
     
     // C/S should be in this list, but it gets changed before we parse stuff
     setupDictionary(ID_CROSS_STREET, "XS:", "X:");
@@ -149,7 +142,6 @@ public abstract class SmartAddressParser extends SmsMsgParser {
   private String[] tokens;
   private int[] tokenType;
   private int lastCity = -1;
-  private int endPrefix = -1;
   private int startAddress = -1;  
   private int startCross = -1;
   private int startCity = -1;
@@ -212,7 +204,6 @@ public abstract class SmartAddressParser extends SmsMsgParser {
 
     this.flags = flags;
     lastCity = -1;
-    endPrefix = -1;
     startAddress = -1;  
     startCross = -1;
     startCity = -1;
@@ -227,43 +218,30 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     
     // Parse line into tokens and categorize each token
     // While we are doing this, identify the index of the last city
-    // And see if we have a keyword flagging the start of the address
     tokens = address.split("\\s+");
     tokenType = new int[tokens.length];
     
-    endPrefix = startAddress = (sType == StartType.START_ADDR? 0 : -1);
     for (int ndx = 0; ndx < tokens.length; ndx++) {
-      setType(ndx);
-      if (startAddress < 0) {
-        if (isType(ndx, ID_START_MARKER)) {
-          endPrefix = ndx;
-          startAddress = ndx + 1;
-        } else if (isType(ndx, ID_INCL_START_MARKER)) {
-          endPrefix = startAddress = ndx;
-        }
-      }
+      tokenType[ndx] = findType(tokens[ndx]);
       if (isType(ndx, ID_CITY)) lastCity = ndx;
     }
     
     // Now comes the hard part.
     
+    // See if the address starts at the beginning of this field
+    // this will make life a lot easier
+    boolean startAddr = (sType == StartType.START_ADDR);
+    
     // We have a number of basic patters that we will recognize
     // Try each one until we find one that works
-    if (parseTrivialAddress()) return 4;
-    if (parseSimpleAddress()) return 3;
-    if (parseIntersection()) return 2;
-    if (parseNakedRoad()) return 1;
+    if (parseTrivialAddress(startAddr)) return 4;
+    if (parseSimpleAddress(startAddr)) return 3;
+    if (parseIntersection(startAddr)) return 2;
+    if (parseNakedRoad(startAddr)) return 1;
     
     // Total failure, assign the entire field to either the call description
     // or the address
     endAll = tokens.length;
-    if (startAddress < 0 ) {
-      if (sType == StartType.START_SKIP) {
-        endPrefix = startAddress = 0;
-      } else {
-        endPrefix = endAll;
-      }
-    }
     if (sType != StartType.START_CALL && sType != StartType.START_PLACE) startAddress = 0;
     return 0;
   }
@@ -282,24 +260,24 @@ public abstract class SmartAddressParser extends SmsMsgParser {
    * beginning of the text and we have found a city to mark the end
    * of the address (would that life were always this simple
    */
-  private boolean parseTrivialAddress() {
+  private boolean parseTrivialAddress(boolean startAddr) {
     
-    if (startAddress < 0) return false;
-    return parseToCity(startAddress);
+    if (!startAddr) return false;
+    return parseToCity(0);
   }
 
   /**
    * Look for the basic address looking like
    *     <number> <street name> <street suffix>
    */
-  private boolean parseSimpleAddress() {
+  private boolean parseSimpleAddress(boolean startAddr) {
     
     // Look for a numeric field which we assume is the house number
     // If field starts with address this has to be the first token
     // Exception, numeric fields that follow a route prefix are part
     // of a road name and cannot be a house number.
     
-    int sAddr = startAddress >= 0 ? startAddress : isFlagSet(FLAG_START_FLD_REQ) ? 1 : 0;
+    int sAddr = isFlagSet(FLAG_START_FLD_REQ) ? 1 : 0;
     int sEnd;
     while (true) {
       while (true) {
@@ -309,7 +287,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
           if (sAddr > 0 && isType(sAddr-1, ID_ROUTE_PFX)) return false;
           break;
         }
-        if (startAddress >= 0) return false;
+        if (startAddr) return false;
         sAddr++;
       }
       
@@ -338,19 +316,20 @@ public abstract class SmartAddressParser extends SmsMsgParser {
   /**
    * Look for intersection adddress with the basic form of
    *    <roadname> <road sfx> <connector> <roadname> <road sfx>
-   * @return true if successful
+   * @param startAddr
+   * @return
    */
-  private boolean parseIntersection() {
+  private boolean parseIntersection(boolean startAddr) {
     
     // First lets figure out where the address starts
-    int sAddr;
-    int ndx;
+    int sAddr = isFlagSet(FLAG_START_FLD_REQ) ? 1 : 0;
+    int ndx = sAddr;
 
     // If address starts at beginning of field, find end of address and
     // confirm that it starts with a road followed by a connector
-    if (startAddress >= 0) {
-      sAddr = startAddress;
-      ndx = findRoadEnd(startAddress);
+    if (startAddr) {
+      sAddr = 0;
+      ndx = findRoadEnd(0);
       if (ndx < 0) return false;
       if (! isType(ndx, ID_CONNECTOR)) return false;
     }
@@ -359,8 +338,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     // Then back up 2 places assuming the road consists of one token.
     // If the previous token is a direction, back up one more to include that.
     else {
-      int start = isFlagSet(FLAG_START_FLD_REQ) ? 1 : 0;
-      ndx = start + 1;
+      ndx = 1;
       boolean dirFound = false;
       while (true) {
         ndx++;
@@ -372,7 +350,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
           
           if (isRoadToken(sAddr)) break;
           
-          if (sAddr > start) { 
+          if (sAddr > 0) { 
             sAddr--;
             if (isType(sAddr+1, ID_ROAD_SFX)) break;
             if (isType(sAddr, ID_ROUTE_PFX) & ndx>2 & isType(sAddr+1, ID_NUMBER)) break;
@@ -381,7 +359,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
       }
       
       // If road is preceded by a direction, include that
-      if (!dirFound && sAddr > start && isType(sAddr-1, ID_DIRECTION)) sAddr--;
+      if (!dirFound && sAddr > 0 && isType(sAddr-1, ID_DIRECTION)) sAddr--;
     }
     
     // When we get here, 
@@ -392,7 +370,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     
     // If there is a city terminating the address, just parse up to it
     if (parseToCity(ndx)) {
-      endPrefix = startAddress = sAddr;
+      startAddress = sAddr;
       return true;
     }
     
@@ -401,7 +379,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     if (ndx < 0) return false;
     
     // If we found that, we have a successful intersection parse
-    endPrefix = startAddress = sAddr;
+    startAddress = sAddr;
     endAll = ndx;
     
     // But there might be some additional cross street info we can parse
@@ -412,17 +390,20 @@ public abstract class SmartAddressParser extends SmsMsgParser {
   /**
    * Look for simple road without a house number or intersection
    *    <roadname> <roadsfx>
-   * @return true if found 
+   * @return true if 
    */
-  private boolean parseNakedRoad() {
+  private boolean parseNakedRoad(boolean startAddr) {
 
-    int ndx;
+    // First lets figure out where the address starts
+    int sAddr = isFlagSet(FLAG_START_FLD_REQ) ? 1 : 0;
+    int ndx = sAddr;
 
     // If address starts at beginning of field, find end of address and
     // Don't have to look for city because we wouldn't be here if both startAddr
     // and city was found
-    if (startAddress >= 0) {
-      ndx = findRoadEnd(startAddress);
+    if (startAddr) {
+      sAddr = 0;
+      ndx = findRoadEnd(0);
       if (ndx < 0) return false;
     }
     
@@ -430,9 +411,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     //            that isn't the start of a <route-pfx> <number> combination
     // or number preceded by a <route-pfx>
     else {
-      int start = isFlagSet(FLAG_START_FLD_REQ) ? 1 : 0;
-      ndx = start;
-      int sAddr;
+      ndx = 0;
       while (true) {
         ndx++;
         sAddr = ndx - 1;
@@ -440,7 +419,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
         if (isType(ndx, ID_ROAD_SFX)) {
           if (!isType(ndx, ID_ROUTE_PFX) || !isType(ndx+1, ID_NUMBER)) break;
         }
-        if (ndx > start && isType(ndx, ID_NUMBER) && isType(ndx-1, ID_ROUTE_PFX)) break;
+        if (ndx > 0 && isType(ndx, ID_NUMBER) && isType(ndx-1, ID_ROUTE_PFX)) break;
         if (isRoadToken(ndx)) {
           sAddr = ndx;
           break;
@@ -455,14 +434,14 @@ public abstract class SmartAddressParser extends SmsMsgParser {
       // If the following token is a direction, increment end pointer past that too
       ndx++;
       if (!dirFound && isType(ndx, ID_DIRECTION)) ndx++;
-      endPrefix = startAddress = sAddr;
     }
     
     // When we get here, 
-    // startAddress points to beginning of address
+    // saddr points to beginning of address
     // ndx points past the end of the road
     
     // We have a naked road parse
+    startAddress = sAddr;
     endAll = ndx;
     
     // See if we can parse out to a city
@@ -610,6 +589,8 @@ public abstract class SmartAddressParser extends SmsMsgParser {
 
   /**
    * Fill data object with information from parsed line
+   * @param startCall if call description should be parsed from 
+   * beginning of the address field
    */
   private void fillInData(StartType startType, SmsMsgInfo.Data data) {
     
@@ -631,10 +612,10 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     
     switch (startType) {
     case START_CALL:
-      data.strCall = buildData(0, endPrefix).replaceAll(" / ", "/");
+      data.strCall = buildData(0, end).replaceAll(" / ", "/");
       break;
     case START_PLACE:
-      data.strPlace = buildData(0, endPrefix).replaceAll(" / ", "/");
+      data.strPlace = buildData(0, end).replaceAll(" / ", "/");
       break;
     }
   }
@@ -656,28 +637,14 @@ public abstract class SmartAddressParser extends SmsMsgParser {
   }
 
   // Identify token type
-  private void setType(int ndx) {
-    String token = tokens[ndx];
-    
-    // If token is longer than 1 char and starts with an @
-    // Strip off the @ and add the ID_INCL_START_MARK flag
-    int mask = 0;
-   if (token.length() > 1 && token.charAt(0) == '@') {
-     tokens[ndx] = token = token.substring(1);
-     mask = ID_INCL_START_MARKER;
-   }
+  private int findType(String token) {
     
     // If token is in dictionary, return the associated type code
     Integer iType = dictionary.get(token.toUpperCase());
-    if (iType != null) {
-      tokenType[ndx] = (mask | iType);
-    }
+    if (iType != null) return iType;
     
-    else if (NUMERIC.matcher(token).matches()) {
-      tokenType[ndx] = (mask | ID_NUMBER);
-    } else {
-      tokenType[ndx] =  mask;
-    }
+    if (NUMERIC.matcher(token).matches()) return ID_NUMBER;
+    return 0;
   }
   
   private boolean isType(int ndx, int mask) {
