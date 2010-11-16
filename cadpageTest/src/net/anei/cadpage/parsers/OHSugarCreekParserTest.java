@@ -18,7 +18,8 @@ public class OHSugarCreekParserTest extends BaseParserTest {
         "X:BAYBERRY COVE D LAKEMAN DR",
         "BOX:003F",
         "ADDR:4336 STATE RT 725",
-        "UNIT:72"
+        "UNIT:72",
+        "MAP:003F"
         );
 
     doTest("T2",
@@ -27,7 +28,8 @@ public class OHSugarCreekParserTest extends BaseParserTest {
         "BOX:0001",
         "X:BELFAST DR",
         "UNIT:M71   B70   P219",
-        "ADDR:4334 KILLIAN CT"
+        "ADDR:4334 KILLIAN CT",
+        "MAP:0001"
         );
     
     doTest("T3",
@@ -36,7 +38,8 @@ public class OHSugarCreekParserTest extends BaseParserTest {
         "ADDR:I 675 N & 8MM",
         "X:WILMINGTON PIKE FEEDWIRE RD",
         "BOX:0045",
-        "UNIT:72"
+        "UNIT:72",
+        "MAP:0045"
         );
     
     doTest("T4",
@@ -45,7 +48,8 @@ public class OHSugarCreekParserTest extends BaseParserTest {
         "ADDR:FEEDWIRE RD & WINSHIRE TER",
         "X:LITTLE SUGARCRE LEDGESTONE BLVD",
         "BOX:0002",
-        "UNIT:C70   B70   E71   M72   P228"
+        "UNIT:C70   B70   E71   M72   P228",
+        "MAP:0002"
         );
     
     doTest("T5",
@@ -54,7 +58,8 @@ public class OHSugarCreekParserTest extends BaseParserTest {
         "X:CLYO RD         WILMINGTON PIKE",
         "BOX:003A",
         "ADDR:5980 WILMINGTON PIKE",
-        "UNIT:72"
+        "UNIT:72",
+        "MAP:003A"
         );
     
   }
