@@ -14,7 +14,7 @@ We use Cisco Public Safety�s ECAD program to page out CFS events.  CAD does se
 
 public class OHSugarCreekParser extends SmsMsgParser {
 
-  private static final String[]SugarCreekkeywords = new String[]{"Ct", "Loc", "Apt", "XSt", "Grid", "Units", "Rmk"};
+  private static final String[]SugarCreekkeywords = new String[]{"Ct", "Loc", "Apt", "XSt", "Grid", "Units"};
 
   @Override
   public boolean isPageMsg(String body) {
@@ -25,15 +25,19 @@ public class OHSugarCreekParser extends SmsMsgParser {
   protected void parse(String body, Data data) {
     data.defState = "OH";
     data.defCity = "SugarCreek";
-    body = body.replaceAll("\t", " ");
+    body = body.replaceAll("(  )+", " ");
     Properties props = parseMessage(body, SugarCreekkeywords);
     data.strCall = props.getProperty("Ct", "");
+    data.strCall = data.strCall.trim();
     parseAddress(props.getProperty("Loc", ""), data);
     data.strApt = props.getProperty("Apt", "");
     data.strCross = props.getProperty("XSt", "");
-    data.strMap = props.getProperty("Grid", "");
-    data.strUnit = props.getProperty("Units", "");
     data.strBox = props.getProperty("Grid", "");
+    data.strUnit = props.getProperty("Units", "");
+    if (data.strUnit.contains("Rmk:")) {
+        data.strUnit = data.strUnit.substring(0,data.strUnit.indexOf("Rmk:"));
+        data.strUnit = data.strUnit.trim();
+      }
     data.strSupp = props.getProperty("Rmk","");
     
   }
