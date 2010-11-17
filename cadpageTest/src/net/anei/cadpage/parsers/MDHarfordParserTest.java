@@ -60,5 +60,15 @@ public class MDHarfordParserTest extends BaseParserTest {
         "X:SAINT MARYS RD",
         "CITY:PYLESVILLE",
         "ID:2010-0000162161");
+    
+    doTest("T6",
+        "Subject:HCCAD\n[!] EOC:F03 WIRES >WIRES/POLE SHAWNEE DR&WALTERS MILL RD XS: WALTERS MILL RD FOREST HILL NOT ENTERED Cad: 2010-000019169",
+        "UNIT:F03",
+        "CALL:WIRES >WIRES/POLE",
+        "ADDR:SHAWNEE DR & WALTERS MILL RD",
+        "X:WALTERS MILL RD",
+        "CITY:FOREST HILL",
+        "ID:2010-000019169");
+
   }
 }
