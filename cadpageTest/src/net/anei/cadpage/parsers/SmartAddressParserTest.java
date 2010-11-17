@@ -186,6 +186,20 @@ public class SmartAddressParserTest extends BaseParserTest {
         "PLACE:SOMETIMES THINGS JUST DONT WORK");
   }
   
+  @Test
+  public void testAtAddress() {
+    doTest(PLACE, "BIG HOME AT KENS LAST HOUSE KEN TOWN",
+        "PLACE:BIG HOME",
+        "ADDR:KENS LAST HOUSE",
+        "CITY:KEN TOWN");
+    doTest(PLACE, "BIG HOME @1000 N THIRD AVE DOWN SOUTH",
+        "PLACE:BIG HOME",
+        "ADDR:1000 N THIRD AVE");
+    doTest(PLACE, "BIG HOME @ JACKSON RD & HAVEL DR AWAY",
+        "PLACE:BIG HOME",
+        "ADDR:JACKSON RD & HAVEL DR");
+  }
+  
   @Test 
   public void testSlashDesc() {
     doTest(CALL, "MVA W/ROLLOVER 500 N SUMMER ST",
