@@ -33,7 +33,7 @@ public class ManagePreferences {
     // the preference defaults and update the preference version
     if (oldVersion != PREFERENCE_VERSION) {
       PreferenceManager.setDefaultValues(context, R.xml.preferences, true);
-      prefs.getInt(R.string.pref_version_key, PREFERENCE_VERSION);
+      prefs.putInt(R.string.pref_version_key, PREFERENCE_VERSION);
     }
     
     // If old version was < 1, we need to reset the popup button configuration settings
@@ -354,8 +354,10 @@ public class ManagePreferences {
     settings.commit();
   }
 
-  public int putInt(String pref, int defaultVal) {
-    return mPrefs.getInt(pref, defaultVal);
+  public void putInt(int resPrefId, int newVal) {
+    SharedPreferences.Editor settings = mPrefs.edit();
+    settings.putInt(context.getString(resPrefId), newVal);
+    settings.commit();
   }
   
   // All of the following methods are deprecated, but we only officially
