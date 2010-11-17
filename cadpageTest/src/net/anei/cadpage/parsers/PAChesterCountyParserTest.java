@@ -47,5 +47,12 @@ public class PAChesterCountyParserTest extends BaseParserTest {
         "CALL:BSICK (SICK PERSON - BLS *)",
         "ADDR:301 VICTORIA GARDENS DR",
         "X:L");
+    
+    doTest("T6",
+        "Subject:Station24 Fire Call<br>\n" + 
+        " Initial Type: ACCUNK     Final Type: ACCUNK  (ACCIDENT - UNKNOWN INJURIES *)  Loc: SB RT 82 SO E SOUTH ST ,0&#13;<br>",
+        "CALL:ACCUNK  (ACCIDENT - UNKNOWN INJURIES *)",
+        "ADDR:SB RT 82 SO E SOUTH ST");
+
   }
 }
