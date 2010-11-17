@@ -529,6 +529,23 @@ Dispatched
 MVA-PI
 HUGHES ST, WHITESBORO VILLAGE/ WEST ST, WHITESBORO VILLAGE
 **********************************************************
+Belmore, NY
+Contact: Timothy Beuth <tbeuth@gmail.com>
+Sender: paging@alpinesoftware.com
+
+Not much to trigger off of.  contains word 'at' and ends with time.  Don't try
+to process out of service msgs.
+
+RESCUE at 2438 BEDFORD PLACE. . 11:34:04
+AUTO ACCIDENT at intersection of BELTAGH AVENUE and BELLMORE AVENUE. . 15:03:39
+AUTO ACCIDENT at 2971 LEE PLACE. . 04:08:29
+MUTUAL AID RESCUE at 3015 CHERYL ROAD. . 19:12:04
+AUTOMATIC ALARM BUILDING . . UNREGISTERED ALARM at 609 SUNRISE HIGHWAY. . 11:46:13
+HAZMAT - NATURAL GAS INTERIOR . . ODOR INSIDE at 1 SUNRISE HIGHWAY. . 05:07:37
+HOUSE FIRE . . SMOKE IN THE HOUSE at 2764 MARTIN AVENUE. . 17:09:53
+6011 IS OUT OF SERVICE
+6011 IS BACK IN SERVICE 
+**********************************************************
 **********************************************************
 * Misc formats received with problem reports
 **********************************************************
