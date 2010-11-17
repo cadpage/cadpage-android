@@ -12,6 +12,7 @@ TYPE: STRUCTURE FIRE LOC: 81 NEW HAMPSHIRE AV NBAYSH  CROSS: E FORKS RD / E 3 AV
 TYPE: OPEN BURNING LOC: 65 GRANT AVE BRENTW CROSS: SUFFOLK AVE 18:39:20 CODE: 54-C-6
 TYPE: BLEEDING / LACERATIONS LOC: 462 SPUR DR N NBAYSH  CROSS: WB SSP OFF RAMP-X42N 5TH AV / E 3 AV CODE: 21-A-1 TIME: 03:36:22
 TYPE: PREGNANCY / CHILDBIRTH / MISCARRIAGE LOC: 330 MOTOR PKWY HAUPPA:@FELDMAN, KRAMER & MONACO STE 400  CROSS: WASHINGTON AV / MARCUS BLVD C
+TYPE: PSYCHIATRIC / ABNORMAL BEHAVIOR / SUICIDE LOC: 200 WIRELESS BLVD HAUPPA: @SOCIAL SERVICES HAUPPAUGE INTERVIEW AREA CROSS: MORELAND RD /
 */
 
 public class NYBrentwoodParser extends SmartAddressParser {
@@ -43,11 +44,24 @@ public class NYBrentwoodParser extends SmartAddressParser {
     data.defState=DEF_STATE;
     data.defCity=DEF_CITY;
 
-    body = body.replaceAll(":@", " ");
     Properties props = parseMessage(body, new String[]{"LOC", "CROSS", "CODE", "TIME"});
     data.strCall = props.getProperty("TYPE", "");
-    parseAddress(StartType.START_ADDR, props.getProperty("LOC", ""), data);
-    data.strPlace = getLeft();
+    String sAddress = props.getProperty("LOC", "").replaceAll(":", " ");
+    int pt = sAddress.indexOf('@');
+    if (pt >= 0) {
+      data.strPlace = sAddress.substring(pt+1).trim();
+      sAddress = sAddress.substring(0,pt).trim();
+      pt = sAddress.lastIndexOf(' ');
+      if (pt >= 0) {
+        data.strCity = sAddress.substring(pt+1);
+        sAddress = sAddress.substring(0, pt).trim();
+      }
+      parseAddress(sAddress, data);
+    }
+    else {
+      parseAddress(StartType.START_ADDR, sAddress, data);
+      data.strPlace = getLeft();
+    }
     data.strCross = props.getProperty("CROSS", "");
     data.strMap = props.getProperty("CODE", "");
     

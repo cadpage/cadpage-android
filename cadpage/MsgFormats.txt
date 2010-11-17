@@ -498,6 +498,10 @@ WIRES . . POWER CONDENSER FIRE at intersection of PATCHOGUE-HOLBROOK RD and FURR
 WORKING STRUCTURE FIRE at 223 SPRINGMEADOW DR. . 16:22:21
 AMBULANCE CALL . . E/M RESP 6D2 at 76 LINCOLN AVE. . 17:48:14
 **********************************************************
+Contact: David baker <baker.davidm@gmail.com>
+Sender: qac911@atlanticbb.net <From%3Aqac911@atlanticbb.net>
+(Text Message) qac911:*D 4-2 CO ALARM 212 NORTHFIELD WAY LOCAL BOX Q04
+**********************************************************
 * Misc formats received with problem reports
 **********************************************************
 Unknown from problem report
