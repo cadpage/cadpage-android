@@ -34,6 +34,8 @@ Sender: station24@comcast.net
 (Station 24 EMS Call) Initial Type: BSICK      Final Type: BSICK
 (SICK PERSON - BLS *)
 Loc: 301 VICTORIA GARDENS DR ,62 -- BRANDYWINE ASSISTED LIVNG btwn L
+
+Subject:Station24 Fire Call<br>\n Initial Type: ACCUNK     Final Type: ACCUNK  (ACCIDENT - UNKNOWN INJURIES *)  Loc: SB RT 82 SO E SOUTH ST ,0&#13;<br>
  */
 
 
@@ -41,12 +43,7 @@ public class PAChesterCountyParser extends SmsMsgParser {
 
   @Override
   public boolean isPageMsg(String body) {
-    if (body.startsWith("(")) {
-      int pt = body.indexOf(')');
-      if (pt < 0) return false;
-      body = body.substring(pt+1).trim();
-    }
-    return body.startsWith("Initial Type:");
+    return body.contains("Initial Type:") && body.contains("Final Type:");
   } 
 
 
@@ -68,10 +65,10 @@ public class PAChesterCountyParser extends SmsMsgParser {
     data.strCross = props.getProperty("btwn", "");
 
     //Get address up to comma
-    parseAddress(props.getProperty("Loc", ""), data);
-    int ptc = data.strAddress.indexOf(",");
-    if (ptc >= 0) data.strAddress = data.strAddress.substring(0,ptc).trim();
-
+    String sAddress = props.getProperty("Loc", "");
+    int ptc = sAddress.indexOf(",");
+    if (ptc >= 0) sAddress = sAddress.substring(0,ptc).trim();
+    parseAddress(sAddress, data);
     
     data.strSupp = props.getProperty("AKA", "");
 
