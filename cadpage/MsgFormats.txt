@@ -411,6 +411,9 @@ Sender: paging@alpinesoftware.com <From%3Apaging@alpinesoftware.com>
 Falls, Not dangerous body area at 6 CROWN RD, ROCKY POINT  c/s: FISH RD . . 08:00:02
 Automatic Alarm, Residential at 38 CHERYL DR, SHOREHAM  c/s: COBBLESTONE DR . . 08:23:03
 Breathing Problems, Abnormal breathing at 151 BROADWAY, ROCKY POINT  c/s: CLUBHOUSE DR . . 12:42:23<br>
+Breathing Problems, Difficulty Speaking Between Breaths at 6 CROWN RD, ROCKY POINT  c/s: FISH RD . . 16:09:05<br>
+Breathing Problems, Difficulty Speaking Between Breaths at 6 CROWN RD, ROCKY POINT  c/s: FISH RD . . 16:09:05<br>
+Cardiac or Respiratory Arrest, Not breathing at all at 258 GLEN DR, SHOREHAM  c/s: LEISURE DR . . 14:31:40<br>
 **********************************************************
 Sugar Creek Township, OH (Class I)
 Ct:EMS MINOR       Loc:4336 STATE RT 725            Apt:      XSt:BAYBERRY COVE D LAKEMAN DR      Grid:003F Units:72                                        Rmk:"
@@ -501,6 +504,31 @@ AMBULANCE CALL . . E/M RESP 6D2 at 76 LINCOLN AVE. . 17:48:14
 Contact: David baker <baker.davidm@gmail.com>
 Sender: qac911@atlanticbb.net <From%3Aqac911@atlanticbb.net>
 (Text Message) qac911:*D 4-2 CO ALARM 212 NORTHFIELD WAY LOCAL BOX Q04
+**********************************************************
+Oneida County, NY
+Contact: jim humphreys <jimmycrack79@gmail.com>
+Sender: <"dispatch@oc911.org"@unknown.person>
+
+o;?WHIF:2010:0648
+Dispatched
+EMS/BREATHING PROBLEMS
+111 HARDCASTLE AVE, WHITESBORO VILLAGE (MERITON DR/PERIMETER RD)
+
+o;?WHIF:2010:0641
+Dispatched
+EMS/DIABETIC PROBLEM
+31 MOHAWK ST, WHITESBORO VILLAGE (/SAUQUOIT STNear:AMERICAN LEGION POST
+
+o;?WHIF:2010:0636
+Dispatched
+INVESTIGATE
+124 HARTS HILL TERR, WHITESTOWN (GILBERT RD/Near:HARTS HILL INN)
+
+o;?WHIF:2010:0644
+Dispatched
+MVA-PI
+HUGHES ST, WHITESBORO VILLAGE/ WEST ST, WHITESBORO VILLAGE
+**********************************************************
 **********************************************************
 * Misc formats received with problem reports
 **********************************************************

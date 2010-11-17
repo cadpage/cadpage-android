@@ -16,6 +16,8 @@ Under box number, the N in this case actually represents a 10## box. Also notice
 [!] EOC:A1091 MVA >MV ACCIDENT W/INJURY SRT24&SAINT MARYS RD XS: SAINT MARYS RD PYLESVILLE DEDRICK.PATTI Cad: 2010-0000162161
 [!] EOC:E1011 MVA >MV ACCIDENT W/INJURY SRT24&SAINT MARYS RD XS: SAINT MARYS RD PYLESVILLE DEDRICK.PATTI Cad: 2010-0000162161
 
+Subject:HCCAD\n[!] EOC:F03 WIRES >WIRES/POLE SHAWNEE DR&WALTERS MILL RD XS: WALTERS MILL RD FOREST HILL NOT ENTERED Cad: 2010-000019169
+
 
  */
 public class MDHarfordParser extends SmartAddressParser {
@@ -27,7 +29,7 @@ public class MDHarfordParser extends SmartAddressParser {
     "ABERDEEN", "BEL AIR", "HAVRE DE GRACE", "JOPPA", "ABINGDON", "BELCAMP",
     "LEVEL", "CHURCHVILLE", "DARLINGTON", "WHITEFORD", "JARRETTSVILLE", "STREET",
     "HICKORY", "FALLSTON", "JOPPATOWNE", "FAWN GROVE", "DELTA", "PYLESVILLE", 
-    "WHITE HALL"};
+    "WHITE HALL", "FOREST HILL"};
   
   private static final String[] KEYWORDS = new String[]{"BOX", "Cad"}; 
 
@@ -36,7 +38,7 @@ public class MDHarfordParser extends SmartAddressParser {
   }
   @Override
   public boolean isPageMsg(String body) {
-    return body.startsWith("[!] EOC:");
+    return body.contains("[!] EOC:");
   }
 
   @Override
