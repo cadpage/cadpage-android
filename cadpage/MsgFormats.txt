@@ -218,7 +218,7 @@ class III - No obvious address delimiter, waiting for development of smart addre
 **********************************************************
 Amityville Fider, NY (Class III) Part of the Suffolk County Cabal
 Need Amityville Fider and Babylon combo 
-Contact: age405 <sage405@gmail.com>
+Contact: sage405 <sage405@gmail.com>
 Sender: paging@alpinesoftware.com <From%3Apaging@alpinesoftware.com>
 C/S must mean cross street
 *SIGNAL 16* 129 FRANCESCA WAY C/S SARAH CT AND COUNTYLINE RD TOA: 13:47 RUN#10-1227
@@ -226,11 +226,6 @@ SIG16A 30 HARBOR NORTH C/S OF S. BAYVIEW TO THE DEAD END DIABETIC COMA TOA 20:24
  SIG 16/23 MVA CAR VS BYCYCLE SUNRISE HWY AND COUNTYLINE RD TOA 16:08 RUN #10-1233
  SIG 16 182  MERRICK RD C/S BROADWAY AND WEST HIGH SCHOOL PARKING LOT A/F SICK TOA 21:41
  SIG 16 ER DOX 365 BROADWAY CROSS STREETS OF DIXION AND ALBANY TOA 13:46 RUN#10-1229
- 
-*** 16 - Rescue *** 41 WILLIAMS AVE CS: CAMPBELL ST  / MOORE ST TOA: 18:01 10/25/10 E/F UNCONCIOUS-NOT BREATHING AMITYVILLE FD 2010-000231
-*** 16 - Rescue *** 100 PARK AVE CS: IRELAND PL  / CEDAR ST TOA: 05:28 10/30/10 E/M  AMITYVILLE FD 2010-000235
-*** 16 - Rescue *** 47 DIXON AVE CS: RT 110  / ALBANY AVE TOA: 20:28 10/27/10 77Y/O FEMALE CHOKING AMITYVILLE FD 2010-000233
-*** 24/16 - Mutual Aid *** CHURCH OF GOD 102 COOLIDGE AVE CS: ROSEWOODAVE  / STEELE PL TOA: 17:49 10/28/10 VOV AMITYVILLE FD 2010-000234
 **********************************************************
 Rockingham County, VA (class II)
 Contact: Spencer Gibson <stgibs@gmail.com>
