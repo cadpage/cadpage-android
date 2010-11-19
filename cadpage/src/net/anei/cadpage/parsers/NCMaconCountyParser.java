@@ -47,10 +47,5 @@ public class NCMaconCountyParser extends SmartAddressParser {
     
     String line = props.getProperty("Call", "");
     parseAddress(StartType.START_CALL, line, data);
-    
-    // some cleanup stuff
-    if (data.strCall.endsWith(" REPORTED AT")) {
-      data.strCall = data.strCall.substring(0, data.strCall.length()-12);
-    }
   }
 }

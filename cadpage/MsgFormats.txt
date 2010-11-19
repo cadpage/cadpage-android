@@ -199,14 +199,17 @@ BREATHING PROBLEMS; 231 CHAMBERLAIN ST VAL; 17yom t/b    6-c-1; TEST FROM ORLEAN
 CARDIAC/RESPIRATORY ARREST; 16044 GLIDDEN RD TCL; 61 YOM UNATTENDED /COLD  IN WARM ENVIRNMENT JOHN SMITH   
 FALLS; 1794 OAK ORCHARD RD TCR; 49 yom fell out of tub difficulty breathing   17d4  PRI 1
 ***************************************************************************
-Sugarcreek Township, OH (OHSugarCreekParser) Contact czappanti <at> sugarcreektownship.com
+Sugarcreek Township, OH (OHSugarCreekParser) 
 Ct:EMS MINOR       Loc:4336 STATE RT 725            Apt:      XSt:BAYBERRY COVE D LAKEMAN DR      Grid:003F Units:72                                        Rmk:
-We use Cisco Public Safety�s ECAD program to page out CFS events.  CAD does send out multiple pages per event � one for the call and each responding unit.  Below are sample texts for review:
 Ct:FIRE ALARM - RE Loc:4334 KILLIAN CT              Apt:      XSt:BELFAST DR                      Grid:0001 Units:M71   B70   P219                          Rmk:
 Ct:EMS MINOR       Loc:I 675 N/8MM                  Apt:      XSt:WILMINGTON PIKE FEEDWIRE RD     Grid:0045 Units:72                                        Rmk:
 Ct:TRAFFIC ACCIDEN Loc:FEEDWIRE RD/WINSHIRE TER     Apt:      XSt:LITTLE SUGARCRE LEDGESTONE BLVD Grid:0002 Units:C70   B70   E71   M72   P228              Rmk:
 Ct:OTHER FIRE      Loc:5980 WILMINGTON PIKE         Apt:      XSt:CLYO RD         WILMINGTON PIKE Grid:003A Units:72                                        Rmk:
 ***************************************************************************
+RockinghamCounty, VA (VARockinghamCountyParser)
+R40 EMS-CARDIAC CONDITION 1751 MAIN AVE HAR CFS# 2010-082726 CROSS: GARBERS CHURCH RD/S HIGH ST
+R40 EMS-MENTAL PROBLEM 445 N MAIN ST 44 HAR CFS# 2010-082451 CROSS: WOLFE ST/ROCK ST
+R40 EMS-ABDOMINAL PAIN 1737 MORELAND DR HAR CFS# 2010-083119 CROSS: PHEASANT RUN CIR/ASHFORD CT
 ***************************************************************************
 Districts that are not yet supported.  Class indicates implementation difficulty
 class I - Easy ones with clear and obvious field delimiters
@@ -216,188 +219,17 @@ class II - We could probably parse address if we had list of town/city codes ter
            so it will handle the corner case where a unknown city is specified.
 class III - No obvious address delimiter, waiting for development of smart address parser
 **********************************************************
-Amityville Fider, NY (Class III) Part of the Suffolk County Cabal
+Amityville Fider, NY (Class III) (Hold for more info)
 Need Amityville Fider and Babylon combo 
 Contact: sage405 <sage405@gmail.com>
 Sender: paging@alpinesoftware.com <From%3Apaging@alpinesoftware.com>
+Format may be changing soon.  Hold until we get more details.
 C/S must mean cross street
 *SIGNAL 16* 129 FRANCESCA WAY C/S SARAH CT AND COUNTYLINE RD TOA: 13:47 RUN#10-1227
 SIG16A 30 HARBOR NORTH C/S OF S. BAYVIEW TO THE DEAD END DIABETIC COMA TOA 20:24 RUN# 10-1235
  SIG 16/23 MVA CAR VS BYCYCLE SUNRISE HWY AND COUNTYLINE RD TOA 16:08 RUN #10-1233
  SIG 16 182  MERRICK RD C/S BROADWAY AND WEST HIGH SCHOOL PARKING LOT A/F SICK TOA 21:41
  SIG 16 ER DOX 365 BROADWAY CROSS STREETS OF DIXION AND ALBANY TOA 13:46 RUN#10-1229
-**********************************************************
-Rockingham County, VA (class II)
-Contact: Spencer Gibson <stgibs@gmail.com>
-Sender: messaging@iamresponding.com or mailbox@hrecc.org
-
-R40 EMS-CARDIAC CONDITION 1751 MAIN AVE HAR CFS# 2010-082726 CROSS: GARBERS
-CHURCH RD/S HIGH ST
-
-R40 EMS-MENTAL PROBLEM 445 N MAIN ST 44 HAR CFS# 2010-082451 CROSS: WOLFE
-ST/ROCK ST
-
-R40 EMS-ABDOMINAL PAIN 1737 MORELAND DR HAR CFS# 2010-083119 CROSS: PHEASANT
-RUN CIR/ASHFORD CT
-
-Note that the following is an example of an address with an apartment/suite:
-
-R40 EMS-CHEST PAIN 235 LAYMAN ST 101 HAR CFS# 2010-083046 CROSS: N MAIN
-ST/LONGVIEW DR
-
-Block example:
-R40 TRAFFIC CRASH 300 BOYERS RD BLK HAR CFS# 2010-082984 CROSS: MYSTIC WOODS
-LN/CULLISON CT
-
-Intersection example:
-R40 TRAFFIC CRASH RESERVOIR ST & CANTRELL AV HAR CFS# 2010-082327
-
-Notice that there is a space before R40. I think this is a function of the
-fact that we have our pages sent via I am responding.
-
-Some departments have a leading blank and some do not.  Other departments start
-with a different code, but it will always be Rnn or Cnn.
-
-The city codes we use are:
-
-BRO BROADWAY
-BRI BRIDGEWATER
-HAR HARRISONBURG
-SIN SINGERS GLEN
-CLO CLOVER HILL
-HIN HINTON
-MOU MOUNT CRAWFORD
-TIM TIMBERVILLE
-DAY DAYTON
-GRO GROTTOES
-MCG MCGAHEYSVILLE
-PEN PENN LAIRD
-ELK ELKTON
-WEY WEYERS CAVE
-NEW NEW MARKET
-STA STANLEY
-LUR LURAY
-SHE SHENANDOAH
-
-Finally, those addresses most likely won't map (made some of them up), so
-here's a few that will, in the format in which they would arrive:
-
-238 E WATER ST 118 (118 is an apt number)
-1700 RESERVOIR ST
-251 N INTERSTATE 81
-242 S INTERSTATE 81
-1183 DEVON LN A
-4561 S VALLEY PK (we use somewhat strange 2-char street type suffixes.)
-
-Possible call descriptions follow.  If we find one, it marks teh break between
-description and address.  If we don't we will have to use the smart parser to
-find the break between description and address
-
-EMS-OTHER
-EMS-ABDOMINAL PAIN
-EMS-ALLERGIC REACTION
-EMS-ALS ASSIST
-EMS-ALTERED LOC
-EMS-AMPUTATION
-EMS-ASSAULT; INJURIES FROM
-EMS-AVULSION
-EMS-BACK PAIN
-EMS-ANIMAL BITE
-EMS-BURNS
-EMS-CARDIAC CONDITION
-EMS-CHEST PAIN
-EMS-CHOKING
-EMS-CO INHALATION
-EMS-CODE BLUE
-EMS-DIABETIC EMERGENCY
-EMS-DIFFICULTY BREATHING
-EMS-PERSON DOWN
-EMS-ELECTROCUTION
-EMS-EYE PROBLEM
-EMS-FALLS
-EMS-GUNSHOT
-EMS-HEADACHE
-EMS-HEAT/COLD EXPOSURE
-EMS-HEMORRHAGING
-EMS-ILLNESS
-EMS-LACERATION
-EMS-MENTAL PROBLEM
-EMS-OB RELATED EVENT
-EMS-OVERDOSE/POISONING
-EMS-SEIZURES
-EMS-STAB WOUND
-EMS-STROKE
-EMS-TRAUMA INJURIES
-EMS-UNCONSCIOUS
-EMS-UNKNOWN MADICAL
-911 OPEN LINE
-AUTOMATIC FIRE ALARM
-AIRCRAFT INCIDENT
-MEDICAL ALARM
-ALARM SOUNDING
-ATTEMPTED SUICIDE
-BOMB THREAT
-BRUSH FIRE
-BRUSH FIRE THREATENING A STRUC
-CHIMNEY FIRE
-CO DETECTOR ACTIVATION
-POSSIBLE CO EVENT
-STRUCTURE COLLAPSE
-CONSTRUCTION ACCIDENT
-CONTROLLED BURN
-TRAFFIC CRASH
-TRAFFIC CRASH INVOLVING A BUS
-TRAFFIC CRASH W/PEDESTRIAN
-TRAFFIC CRASH INVOLVING A STRU
-DUMPSTER FIRE
-ELEVATOR ENTRAPMENT
-EXPLOSION
-FARM ACCIDENT
-FILL QUARTERS
-FORREST FIRE
-GRASS FIRE
-GRASS FIRE THREATENING A STRUC
-HAZMAT INCIDENT
-HAZMAT LEVEL 3 INCIDENT
-HOSTAGE/BARRICADE
-INDUSTRIAL ACCIDENT
-LANDING ZONE
-LINES DOWN
-LOCK OUT SERVICE
-MENTAL CASE
-MULCH FIRE
-MULCH FIRE THREATENING A STRUC
-ODOR INVESTIGATION
-ODOR INVESTIGATION IN STRUCTUR
-OFFICER INVOLVED SHOOTING
-SUSPICIOUS PACKAGE
-PUBLIC SERVICE CALL
-RAPE
-REKINDLE
-GROUND RESCUE
-GROUND SEARCH
-SMOKE INVESTIGATION
-LARGE SPILL
-SMALL SPILL
-STAND-BY
-POSSIBLE STRUCTURE FIRE
-STRUCTURE FIRE
-SUICIDE
-TECHNICAL RESCUE
-TRAIN CRASH
-TRAIN FIRE
-TRANSFORMER FIRE
-TRASH FIRE
-TREE FIRE
-TREE FIRE THREATENING A STRUCTUR
-UNAUTHORIZED BURN
-UNKNOWN SITUATION
-UNKNOWN FIRE
-VEHICLE FIRE
-VEHICLE FIRE THREATENING A STRUCTURE
-WATER EVENT
-WATER REMOVAL
-
 **********************************************************
 Suffolk County, NY  (class II)
 (Apparently a different dispatch format from our Suffolk County??  Hold for more info)
@@ -624,6 +456,9 @@ Cross Streets : 150-198  N RIVERSIDE DR * 142-148 PARK RD
 **********************************************************
 Montgomery County, MD
 Contact: Alain Pankopf <hockeylaxboy11@gmail.com>
+Sender: rc.355@c-msg.net 
+4 digit code is a box code
+Town codes are indecipherable, drop them
 
 MCo / [mCAD] * D * 2301 * BUILDING FIRE * 1620 E JEFFERSON ST ,RO * E723 E703 E721 E726 E705B AT723 AT703 RS703 A723 BC703 BC704 D3 D5 DFRS INV CEALRM CODE BCNOT
 MCo / [mCAD] * D * 0302 * BUILDING FIRE * 733 MONROE ST ,RO * E723 E733 E726 E725 E721 AT703 AT723 RS741B M723 BC703 BC704 D3 D5 DFRS INV CEALRM CODE BCNOT
@@ -634,9 +469,51 @@ MCo / [mCAD] * D * 0503 * HOUSE FIRE * 4805 FLANDERS AVE ,MCG * E705B E723 E720 
 MCo / [mCAD] * D * 0318 * STABBING - ALS1 * 9300 KEY WEST AVE / 15200 SHADY GROVE RD ,RO * M703 BCNOT EMSNOT E703 D3 ECC25 DFRS
 MCo / [mCAD] * D * 0301 * PIC w/ ENTRAPMENT -ALS1 * 1180 EDMONSTON DR / 1100 WADE AVE ,RO * M703 RS703 E703 D3 EMS EMSNOT BCNOT DFRS
 
-**please include the box area's on the cad page, they are very helpful
-finding your way in my county (they are the 4 digit #'s following
-""MCo / [mCAD] * D * #### *""
+Units start with prefixes (all else should be discarded)
+A – Ambulance (BLS EMS Transport Unit)
+AB – Air Boat
+ALS – ALS Chase Car
+AR – Air Unit
+AT – Tower (Aerial Tower)
+BC – Battalion Chief
+DC – Duty Chief
+E – Engine
+ECC CAD – Emergency Communication Center CAD dispatch console
+EMS – EMS Supervisor
+EW – Engine Tanker
+HM – Haz Mat
+HSU – Haz Mat Support Unit
+M – Medic (ALS EMS Transport Unit)
+MAB – Medical Ambulance Bus (20 patient EMS transport unit)
+MSU – Medical Support Unit (Mass casualty EMS supplies)
+NCR – National Capital Region Communications Unit
+RAT – Reserve Aerial Tower
+RE – Reserve Engine
+RECON – Urban Search & Rescue Recon Unit
+RS – Rescue Squad (Heavy Rescue)
+SOP – Special Operations Chief
+T – Truck
+U – Unit
+W – Tanker (Water Tender)
+XTP – Urban Search & Rescue Roll-off Transport Unit
+
+**********************************************************
+Franklin County, VA
+Contact: Larry Davids <davidsla07@gmail.com
+Sender: mailbox@franklincountyva.org
+Going to change systems in another month, wait for updated info before using these
+VIRIL H GOODE HWY will cause problems if we still have to use smart parser
+S07 or Cnn is the unit
+
+MAILBOX:S07 EMS-OTHER/DEFINE 18360 VIRGIL H GOODE HWY 124 RMT CFS# 2010-030542 CROSS: SHADY LN/BLACKWATER RIVER
+MAILBOX:S07 EMS-CHEST PAIN 413 WOODDALE DR RMT CFS# 2010-030355 CROSS: VIRGIL H GOODE HWY/DEAD END
+MAILBOX:S07 EMS-PATIENT FALLEN 3005 GREEN LEVEL RD RMT CFS# 2010-030541 CROSS: GRASSY HILL RD/LITTLE MOUNTAIN DR
+MAILBOX:S07 EMS-CARDIAC VIRGIL H GOODE HWY & LINK ST RMT CFS# 2010-030580
+MAILBOX:S07 EMS-HIGH BLOOD PRESSURE 1808 BETHLEHEM RD BML CFS# 2010-030643 CROSS: BETHANY RD/DILLONS MILL RD
+**********************************************************
+Anonymous request
+Contact: Dale Fogle <pullersnet@gmail.com>
+(FredCo) [CAD] CT: CHEST PAIN  1811 MONOCACY BLVD FRE1: @WAL MART: PHARMACY  ESZ: 215 MAP: 4448J9  Disp: A29,A247,M17
 **********************************************************
 **********************************************************
 * Misc formats received with problem reports

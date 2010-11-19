@@ -215,4 +215,39 @@ public class SmsMsgInfo {
   public String getDefState() {
     return defState;
   }
+  
+
+  /**
+   * Append message information to support message under construction
+   * @param sb String builder holding message being constructed
+   */
+  public void addMessageInfo(StringBuilder sb) {
+    sb.append("\n\nParser Info");
+    
+    addInfo(sb, "Call", strCall);
+    addInfo(sb, "Place", strPlace);
+    addInfo(sb, "Addr", strAddress);
+    addInfo(sb, "City", strCity);
+    addInfo(sb, "Apt", strApt);
+    addInfo(sb, "X", strCross);
+    addInfo(sb, "Box", strBox);
+    addInfo(sb, "Unit", strUnit);
+    addInfo(sb, "St", strState);
+    addInfo(sb, "Map", strMap);
+    addInfo(sb, "ID", strCallId);
+    addInfo(sb, "Ph", strPhone);
+    addInfo(sb, "Info", strSupp);
+  }
+  
+  private void addInfo(StringBuilder sb, String title, String value) {
+    if (value.length() > 0) {
+      sb.append('\n');
+      sb.append(title);
+      sb.append(':');
+      sb.append(value);
+    }
+  }
+
+
+
 }

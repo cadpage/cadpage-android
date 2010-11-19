@@ -20,6 +20,7 @@ CAD MSG: *D A1   59       RR TRACKS / BUNKER LAKE BLVD NW  PD ACCIDENT/BLOCKING/
 CAD MSG: *D A2   56       CO7 NW / CO58 NW  STRONG GAS ODOR IN THE AREA INC:10019278  
 CAD MSG: *D A1   51       14015 DRAKE ST NW  POSS FIRE IN THE WALL...LOTS OF SMOKE FROM THE BASEMENT...EVERYONE ISOUT INC:10019127
 CAD MSG: *D A1   32R      13645 HIDDEN CREEK DR NW  63 YO DIAB HUSB W/LOW BLOOD SUGARS...41 ..... AMB ORD / TRANSF INC:10022305
+CAD MSG: *D A2   50       DAKOTAH ST NW / VALLEY DR NW  LARGE FIRE BEHIND A HOUSE ON THE NORTH SIDE OF THE INTERSECTION ..NOTABLE TO TELL WHAT IS BURNING INC:100
 */
 
 public class MNAnokaCountyParser extends SmartAddressParser {
@@ -33,7 +34,7 @@ public class MNAnokaCountyParser extends SmartAddressParser {
 
   @Override
   public boolean isPageMsg(String body) {
-    return body.startsWith("CAD MSG: ");
+    return body.contains("CAD MSG: ");
   }
 
   @Override
@@ -42,12 +43,16 @@ public class MNAnokaCountyParser extends SmartAddressParser {
     data.defCity = DEF_CITY;
     
     // Extract primary call description
+    int pt = body.indexOf("CAD MSG: ");
+    if (pt < 0) return;
+    body = body.substring(pt);
+    
     if (body.length() < 26) return;
     data.strCall = body.substring(9, 26).trim();
     body = body.substring(26);
     
     // Extract call ID if there is one
-    int pt = body.lastIndexOf(" INC:");
+    pt = body.lastIndexOf(" INC:");
     if (pt >= 0) {
       int pt2 = body.indexOf(' ', pt+5);
       if (pt2 < 0) pt2 = body.length();

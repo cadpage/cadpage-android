@@ -1,9 +1,11 @@
 package net.anei.cadpage.parsers;
 
 import java.util.ArrayList;
+import java.util.Enumeration;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Properties;
 
 import net.anei.cadpage.SmsMsgInfo;
 
@@ -70,9 +72,20 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     setupDictionary(ID_ROUTE_PFX, new String[]{state});
   }
   
+  public SmartAddressParser(Properties cityTable, String state) {
+    this();
+    setupCities(getKeywords(cityTable));
+    setupDictionary(ID_ROUTE_PFX, new String[]{state});
+  }
+  
   public SmartAddressParser(String[] cities) {
     this();
     setupCities(cities);
+  }
+  
+  public SmartAddressParser(Properties cityTable) {
+    this();
+    setupCities(getKeywords(cityTable));
   }
   
   public SmartAddressParser(String state) {
@@ -106,6 +119,15 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     
     // C/S should be in this list, but it gets changed before we parse stuff
     setupDictionary(ID_CROSS_STREET, "XS:", "X:");
+  }
+  
+  private String[] getKeywords(Properties table) {
+    String[] result = new String[table.size()];
+    int ndx = 0;
+    for (Enumeration<?> e = table.propertyNames(); e.hasMoreElements(); ) {
+      result[ndx++] = (String)e.nextElement();
+    }
+    return result;
   }
   
   private void setupCities(String[] cities) {
@@ -612,6 +634,11 @@ public abstract class SmartAddressParser extends SmsMsgParser {
    * Fill data object with information from parsed line
    */
   private void fillInData(StartType startType, SmsMsgInfo.Data data) {
+    
+    // If prefix ends with some variation of "REPORTED AT" drop the 
+    // REPORTED (AT has already been dropped)
+    if (endPrefix > 0 && isType(endPrefix, ID_START_MARKER) &&
+        tokens[endPrefix-1].equalsIgnoreCase("REPORTED")) endPrefix--;
     
     int end = endAll;
     if (startCity >= 0) {

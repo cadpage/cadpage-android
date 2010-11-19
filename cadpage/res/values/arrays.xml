@@ -114,7 +114,7 @@
     <item>@string/pref_vibrate_pattern_entries_long</item>
     <item>@string/pref_vibrate_pattern_entries_multiple_short</item>
     <item>@string/pref_vibrate_pattern_entries_multiple_long</item>
-    <item>@string/pref_custom</item>
+    <!--item>@string/pref_custom</item-->
   </string-array>
   <string-array
     name="pref_led_color_values">
@@ -134,7 +134,7 @@
     <item>@string/pref_led_color_yellow</item>
     <item>@string/pref_led_color_magenta</item>
     <item>@string/pref_led_color_cyan</item>
-    <item>@string/pref_custom</item>
+    <!--item>@string/pref_custom</item-->
   </string-array>
 
   <string-array
@@ -213,6 +213,7 @@
     <item>VAHenryCounty</item>
     <item>VALoudounCounty</item>
     <item>VAPrinceWilliamCounty</item>
+    <item>VARockinghamCounty</item>
     </string-array>
   
   <string-array name="pref_location_options">
@@ -249,6 +250,7 @@
     <item>Henry County, VA</item>
     <item>Loudoun, VA</item>
     <item>Prince William County, VA</item>
+    <item>Rockingham County, VA</item>
   </string-array>
 
 <string-array name="email_devel_addr">
