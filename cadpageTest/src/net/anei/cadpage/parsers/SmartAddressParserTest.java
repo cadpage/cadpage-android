@@ -29,7 +29,7 @@ public class SmartAddressParserTest extends BaseParserTest {
   public void testProblems() {
     
     doTest(CALL, TestParser.FLAG_START_FLD_REQ, 
-        "1073 SMOKE 1421 BEVERLY DR 5495253 NONA DRIVE",
+        "1073 SMOKE 1421 BEVERLY DR BOSA NONA DRIVE",
         "CALL:1073 SMOKE",
         "ADDR:1421 BEVERLY DR");
   }
@@ -201,6 +201,26 @@ public class SmartAddressParserTest extends BaseParserTest {
     doTest(CALL, "BIG FIRE REPORTED AT 200 NE JOHNSON DR BELOW",
         "CALL:BIG FIRE",
         "ADDR:200 NE JOHNSON DR");
+  }
+  
+  public void testAptNumbers() {
+    doTest(ADDR, "1500 BLACK ST APT: 10J XX XS: JOHN & MARY KENSBURG HOME",
+        "ADDR:1500 BLACK ST",
+        "APT:10J XX",
+        "X:JOHN & MARY",
+        "CITY:KENSBURG");
+    
+    doTest(ADDR, "1500 BLACK ST APT: 6XX BELOW",
+        "ADDR:1500 BLACK ST",
+        "APT:6XX");
+    
+    doTest(ADDR, "1500 BLACK ST 44A BELOW",
+        "ADDR:1500 BLACK ST",
+        "APT:44A");
+    
+    doTest(ADDR, "1500 BLACK ST #20 BELOW",
+        "ADDR:1500 BLACK ST",
+        "APT:#20");
   }
   
   @Test 
