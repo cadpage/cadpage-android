@@ -106,7 +106,7 @@
     <item>0,300,100,300,100,300,100,300,100,300
     </item>
     <item>0,800,200,800,200,800</item>
-    <item>custom</item>
+    <!--item>custom</item-->
   </string-array>
   <string-array
     name="pref_vibrate_pattern_entries">
@@ -124,7 +124,7 @@
     <item>Yellow</item>
     <item>Magenta</item>
     <item>Cyan</item>
-    <item>custom</item>
+    <!--item>custom</item-->
   </string-array>
   <string-array
     name="pref_led_color_entries">
