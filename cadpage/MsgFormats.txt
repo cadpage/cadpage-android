@@ -211,6 +211,10 @@ R40 EMS-CARDIAC CONDITION 1751 MAIN AVE HAR CFS# 2010-082726 CROSS: GARBERS CHUR
 R40 EMS-MENTAL PROBLEM 445 N MAIN ST 44 HAR CFS# 2010-082451 CROSS: WOLFE ST/ROCK ST
 R40 EMS-ABDOMINAL PAIN 1737 MORELAND DR HAR CFS# 2010-083119 CROSS: PHEASANT RUN CIR/ASHFORD CT
 ***************************************************************************
+***************************************************************************
+***************************************************************************
+***************************************************************************
+***************************************************************************
 Districts that are not yet supported.  Class indicates implementation difficulty
 class I - Easy ones with clear and obvious field delimiters
 class II - We could probably parse address if we had list of town/city codes terminating the address
@@ -241,15 +245,6 @@ Breathing Problems, Abnormal breathing at 151 BROADWAY, ROCKY POINT  c/s: CLUBHO
 Breathing Problems, Difficulty Speaking Between Breaths at 6 CROWN RD, ROCKY POINT  c/s: FISH RD . . 16:09:05<br>
 Breathing Problems, Difficulty Speaking Between Breaths at 6 CROWN RD, ROCKY POINT  c/s: FISH RD . . 16:09:05<br>
 Cardiac or Respiratory Arrest, Not breathing at all at 258 GLEN DR, SHOREHAM  c/s: LEISURE DR . . 14:31:40<br>
-**********************************************************
-Sugar Creek Township, OH (Class I)
-Ct:EMS MINOR       Loc:4336 STATE RT 725            Apt:      XSt:BAYBERRY COVE D LAKEMAN DR      Grid:003F Units:72                                        Rmk:"
-We use Cisco Public Safety’s ECAD program to page out CFS events.  CAD does send out multiple pages per event – one for the call and each responding unit.  Below are sample texts for review:
-
-"Ct:FIRE ALARM - RE Loc:4334 KILLIAN CT              Apt:      XSt:BELFAST DR                      Grid:0001 Units:M71   B70   P219                          Rmk:"
-"Ct:EMS MINOR       Loc:I 675 N/8MM                  Apt:      XSt:WILMINGTON PIKE FEEDWIRE RD     Grid:0045 Units:72                                        Rmk:"
-"Ct:TRAFFIC ACCIDEN Loc:FEEDWIRE RD/WINSHIRE TER     Apt:      XSt:LITTLE SUGARCRE LEDGESTONE BLVD Grid:0002 Units:C70   B70   E71   M72   P228              Rmk:"
-"Ct:OTHER FIRE      Loc:5980 WILMINGTON PIKE         Apt:      XSt:CLYO RD         WILMINGTON PIKE Grid:003A Units:72                                        Rmk:"
 **********************************************************
 Greeley, CO (Class I)
 In Weld county, doesn't know if this is county wide format.
@@ -469,7 +464,8 @@ MCo / [mCAD] * D * 0503 * HOUSE FIRE * 4805 FLANDERS AVE ,MCG * E705B E723 E720 
 MCo / [mCAD] * D * 0318 * STABBING - ALS1 * 9300 KEY WEST AVE / 15200 SHADY GROVE RD ,RO * M703 BCNOT EMSNOT E703 D3 ECC25 DFRS
 MCo / [mCAD] * D * 0301 * PIC w/ ENTRAPMENT -ALS1 * 1180 EDMONSTON DR / 1100 WADE AVE ,RO * M703 RS703 E703 D3 EMS EMSNOT BCNOT DFRS
 
-Units start with prefixes (all else should be discarded)
+valid units consist of specific prefix followed by 3 digits.  All else should be
+discarded.
 A – Ambulance (BLS EMS Transport Unit)
 AB – Air Boat
 ALS – ALS Chase Car
@@ -501,7 +497,6 @@ XTP – Urban Search & Rescue Roll-off Transport Unit
 Franklin County, VA
 Contact: Larry Davids <davidsla07@gmail.com
 Sender: mailbox@franklincountyva.org
-Going to change systems in another month, wait for updated info before using these
 VIRIL H GOODE HWY will cause problems if we still have to use smart parser
 S07 or Cnn is the unit
 
@@ -510,10 +505,52 @@ MAILBOX:S07 EMS-CHEST PAIN 413 WOODDALE DR RMT CFS# 2010-030355 CROSS: VIRGIL H 
 MAILBOX:S07 EMS-PATIENT FALLEN 3005 GREEN LEVEL RD RMT CFS# 2010-030541 CROSS: GRASSY HILL RD/LITTLE MOUNTAIN DR
 MAILBOX:S07 EMS-CARDIAC VIRGIL H GOODE HWY & LINK ST RMT CFS# 2010-030580
 MAILBOX:S07 EMS-HIGH BLOOD PRESSURE 1808 BETHLEHEM RD BML CFS# 2010-030643 CROSS: BETHANY RD/DILLONS MILL RD
+
+RMT is Rocky Mount, VA
+BML is Boones Mill, VA
+CAL would be Calaway, VA
+
 **********************************************************
 Anonymous request
 Contact: Dale Fogle <pullersnet@gmail.com>
 (FredCo) [CAD] CT: CHEST PAIN  1811 MONOCACY BLVD FRE1: @WAL MART: PHARMACY  ESZ: 215 MAP: 4448J9  Disp: A29,A247,M17
+**********************************************************
+Waynesboro, VA (Augusta County)
+Contact: Bruce C <rescue5medic@gmail.com>
+Sender: Dispatch2@ci.waynesboro.va.us or Dispatch@ci.waynesboro.va.us
+The prefix is probably not real, it matches the sender user name.  Don't count on it.
+We may not be able to impover on what th general location already provides :(
+Dispatch2:RESPOND SEIZURES 14 FRONTIER RIDGE CT, AP1302 SARS 1
+Dispatch2:MVC, HEAD ON COLLISION MAIN-ROSSER-BROAD
+Dispatch:RESPOND - 2ND CALL - CHEST PAIN - 1142 NEW HOPE RD, AP3
+Dispatch:RESPOND GENERAL ILLNESS 1429 2ND ST MEDICAL ALARM ACTIVATION
+Dispatch:RESPOND 2ND CALL 216 ELKIN CIR CHEST PAINS
+Dispatch:RESPOND - 809 GRAYSON AVE - VEH OVER AN EMBANKMENT
+Dispatch:300 BLK PATTON FARM RD - SQAUD 2 REQUESTED - PRI1 PT WITH ENTRAPMENT - OPERATE COUNTY 1
+**********************************************************
+Combo group Seaford and Sussex County, DE
+Contact: "Calvin Yelverton" <cyelverton@seaford87.com>
+Sender: msg@cfmsg.org, msg@cfmsg.net, msg@cfmsg.com
+
+Seaford, DE 
+
+204a is an appt number
+
+87 EMS] -- 1A Abdominal Pains (ALS) -- 6412 Woodduck Dr Seaford de, 19973
+[87 FIRE] -- Smoke Investigation -- 6341 Baker Rd Seaford de, 19973
+[87 EMS] -- 6A Breathing Problems (ALS) -- 24642 Shufelt Rd Seaford de, 19973
+[87 FIRE] -- Assist Other Agency -- Hickory Hill Rd/ Guard Rd Seaford de, 19973
+[87 EMS] -- 33A Interfacility (ALS) -- 715 E King St 204a Seaford de, 19973
+[87 EMS] -- 13A Diabetic Problems (ALS) -- 24101 Dove Rd Seaford de, 19973
+
+Sussex County, DE (combine with Seaford)
+81 FIRE] -- Traffic/TransportaionAcdntBLS -- 0 Discount Land Rd & Sussex Hw
+[81 EMS] -- Chest Pain-ALS -- 34544 Doe Dr Laurel 19956
+[81 FIRE] -- Cardiac/Res./Death-ALS -- 815 S Central Ave Laurel 19956 -- Laurel Middle / intermediate n
+[81 EMS] -- Abdominal Pain-BLS -- 30594 SUssex Hwy Laurel 19956 -- Relax Inn
+[81 EMS] -- Unconcious/Fainting(Near)-ALS -- 31574 White Ave Laurel 19956
+[81 EMS] -- Falls-BLS -- 609 Little Creek Dr Laurel 19956
+**********************************************************
 **********************************************************
 **********************************************************
 * Misc formats received with problem reports

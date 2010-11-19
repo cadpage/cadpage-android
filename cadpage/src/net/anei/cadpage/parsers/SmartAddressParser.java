@@ -63,6 +63,9 @@ public abstract class SmartAddressParser extends SmsMsgParser {
   // Bitmask bit indicating token had a preceding @ character
   private static final int ID_INCL_START_MARKER = 0x1000;
   
+  // Bitmask bit indicating token is an appartment selector
+  private static final int ID_APPT = 0x2000;
+  
   // List of multiple word cities that need to be converted to and from single tokens
   List<String[]> mWordCities = null;
   
@@ -119,6 +122,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     
     // C/S should be in this list, but it gets changed before we parse stuff
     setupDictionary(ID_CROSS_STREET, "XS:", "X:");
+    setupDictionary(ID_APPT, "APT:", "APT", "#");
   }
   
   private String[] getKeywords(Properties table) {
@@ -171,8 +175,10 @@ public abstract class SmartAddressParser extends SmsMsgParser {
   private String[] tokens;
   private int[] tokenType;
   private int lastCity = -1;
-  private int endPrefix = -1;
-  private int startAddress = -1;  
+  private int stAddress = -1;
+  private int startAddress = -1; 
+  private int stApt = -1;
+  private int startApt = -1;
   private int startCross = -1;
   private int startCity = -1;
   private int endAll = -1;
@@ -234,8 +240,10 @@ public abstract class SmartAddressParser extends SmsMsgParser {
 
     this.flags = flags;
     lastCity = -1;
-    endPrefix = -1;
-    startAddress = -1;  
+    stAddress = -1;
+    startAddress = -1;
+    stApt = -1;
+    startApt = -1;
     startCross = -1;
     startCity = -1;
     endAll = -1;
@@ -253,15 +261,15 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     tokens = address.split("\\s+");
     tokenType = new int[tokens.length];
     
-    endPrefix = startAddress = (sType == StartType.START_ADDR? 0 : -1);
+    stAddress = startAddress = (sType == StartType.START_ADDR? 0 : -1);
     for (int ndx = 0; ndx < tokens.length; ndx++) {
       setType(ndx);
       if (startAddress < 0) {
         if (isType(ndx, ID_START_MARKER)) {
-          endPrefix = ndx;
+          stAddress = ndx;
           startAddress = ndx + 1;
         } else if (isType(ndx, ID_INCL_START_MARKER)) {
-          endPrefix = startAddress = ndx;
+          stAddress = startAddress = ndx;
         }
       }
       if (isType(ndx, ID_CITY)) lastCity = ndx;
@@ -281,9 +289,9 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     endAll = tokens.length;
     if (startAddress < 0 ) {
       if (sType == StartType.START_SKIP) {
-        endPrefix = startAddress = 0;
+        stAddress = startAddress = 0;
       } else {
-        endPrefix = endAll;
+        stAddress = endAll;
       }
     }
     if (sType != StartType.START_CALL && sType != StartType.START_PLACE) startAddress = 0;
@@ -349,7 +357,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     
     // We have found what we need to have found and we are going
     // to be successful
-    if (startAddress < 0) endPrefix = startAddress = sAddr;
+    if (startAddress < 0) stAddress = startAddress = sAddr;
     endAll = sEnd;
     
     // But there might be some additional cross street info we can parse
@@ -414,7 +422,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     
     // If there is a city terminating the address, just parse up to it
     if (parseToCity(ndx)) {
-      endPrefix = startAddress = sAddr;
+      stAddress = startAddress = sAddr;
       return true;
     }
     
@@ -423,7 +431,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     if (ndx < 0) return false;
     
     // If we found that, we have a successful intersection parse
-    if (startAddress < 0) endPrefix = startAddress = sAddr;
+    if (startAddress < 0) stAddress = startAddress = sAddr;
     endAll = ndx;
     
     // But there might be some additional cross street info we can parse
@@ -477,7 +485,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
       // If the following token is a direction, increment end pointer past that too
       ndx++;
       if (!dirFound && isType(ndx, ID_DIRECTION)) ndx++;
-      endPrefix = startAddress = sAddr;
+      stAddress = startAddress = sAddr;
     }
     
     // When we get here, 
@@ -504,8 +512,12 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     
     if (lastCity <= stNdx) return false;
     
-    if (startAddress < 0) endPrefix = startAddress = stNdx;
+    if (startAddress < 0) stAddress = startAddress = stNdx;
     for (int ndx = 0; ndx < tokens.length; ndx++) {
+      if (isType(ndx, ID_APPT) && startCross < 0) {
+        stApt = ndx;
+        startApt = ndx + 1;
+      }
       if (isType(ndx, ID_CROSS_STREET)) startCross = ndx + 1;
       int endCity = findEndCity(ndx);
       if (endCity >= 0) {
@@ -569,7 +581,22 @@ public abstract class SmartAddressParser extends SmsMsgParser {
    */
   private void findCrossStreet() {
     
-    // if the address isn't followed by a cross street indicator, nothing to find
+    if (endAll >= tokens.length) return;
+    
+    // First lets look for an apartment
+    if (isType(endAll, ID_APPT)) {
+      stApt = endAll++;
+      startApt = endAll;
+    }
+    
+    else if (tokens[endAll].length() <= 4) {
+      char chr = tokens[endAll].charAt(0);
+      if (chr == '#' || Character.isDigit(chr)) {
+        stApt = startApt = endAll++;
+      }
+    }
+    
+    // Now see if we are at a cross street indicator.  If not, nothing to find
     if (! isType(endAll, ID_CROSS_STREET)) return;
     
     // If it was, skip past it 
@@ -637,8 +664,8 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     
     // If prefix ends with some variation of "REPORTED AT" drop the 
     // REPORTED (AT has already been dropped)
-    if (endPrefix > 0 && isType(endPrefix, ID_START_MARKER) &&
-        tokens[endPrefix-1].equalsIgnoreCase("REPORTED")) endPrefix--;
+    if (stAddress > 0 && isType(stAddress, ID_START_MARKER) &&
+        tokens[stAddress-1].equalsIgnoreCase("REPORTED")) stAddress--;
     
     int end = endAll;
     if (startCity >= 0) {
@@ -651,6 +678,11 @@ public abstract class SmartAddressParser extends SmsMsgParser {
       end = startCross - 1;
     }
     
+    if (startApt >= 0) {
+      data.strApt = buildData(startApt, end);
+      end = stApt;
+    }
+    
     if (startAddress >= 0) {
       data.strAddress = buildData(startAddress, end);
       end = startAddress;
@@ -658,10 +690,10 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     
     switch (startType) {
     case START_CALL:
-      data.strCall = buildData(0, endPrefix).replaceAll(" / ", "/");
+      data.strCall = buildData(0, stAddress).replaceAll(" / ", "/");
       break;
     case START_PLACE:
-      data.strPlace = buildData(0, endPrefix).replaceAll(" / ", "/");
+      data.strPlace = buildData(0, stAddress).replaceAll(" / ", "/");
       break;
     }
   }
