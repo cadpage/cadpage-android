@@ -198,6 +198,9 @@ public class SmartAddressParserTest extends BaseParserTest {
     doTest(PLACE, "BIG HOME @ JACKSON RD & HAVEL DR AWAY",
         "PLACE:BIG HOME",
         "ADDR:JACKSON RD & HAVEL DR");
+    doTest(CALL, "BIG FIRE REPORTED AT 200 NE JOHNSON DR BELOW",
+        "CALL:BIG FIRE",
+        "ADDR:200 NE JOHNSON DR");
   }
   
   @Test 
