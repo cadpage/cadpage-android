@@ -346,6 +346,9 @@
     <string name="pref_passthrusms_summaryoff">Do not pass CadPage calls to SMS Client</string>
     <string name="pref_passthrusms_summaryon">Pass all calls through to default SMS Client</string>
     
+    <string name="pref_history_limit_title">Call History Limit</string>
+    <string name="pref_history_limit_summary">Maximum number of calls to save in call history</string>
+    
     <!-- Message menu items -->
     <string name="open_item_text">Open</string>
     <string name="ack_item_text">Ack</string>
@@ -363,11 +366,11 @@
     <string name="sendemail_btn_ok">Send</string>
     <string name="sendemail_btn_cancel">Cancel</string>
 
-<string name="pref_disclaimer_title">Disclaimer</string>
-<string name="pref_disclaimer_summary">View Disclaimer regarding cadpage use.</string>
-<string name="pref_disclaimer_url">http://code.google.com/p/cadpage/wiki/Disclaimer</string>
-<string name="callback_item_text">Phone</string>
-<string name="pref_callback_dialog">Enter Callback Phone Number</string>
-<string name="pref_callback_title">Callback Number</string>
-<string name="pref_callback_summary">When configured there will be a &quot;Phone&quot; button configured to call this number.</string>
+    <string name="pref_disclaimer_title">Disclaimer</string>
+    <string name="pref_disclaimer_summary">View Disclaimer regarding cadpage use.</string>
+    <string name="pref_disclaimer_url">http://code.google.com/p/cadpage/wiki/Disclaimer</string>
+    <string name="callback_item_text">Phone</string>
+    <string name="pref_callback_dialog">Enter Callback Phone Number</string>
+    <string name="pref_callback_title">Callback Number</string>
+    <string name="pref_callback_summary">When configured there will be a &quot;Phone&quot; button configured to call this number.</string>
 </resources>

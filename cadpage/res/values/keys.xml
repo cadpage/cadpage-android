@@ -63,9 +63,10 @@
    <string name="pref_useGoogleMapApp_key">useGoogleMapApp</string>
    <string name="pref_testmsg_key">testmsg</string>
    <string name="pref_email_key">emaildev</string>
+   <string name="pref_history_limit_key">historylimit</string>
    
    <string name="settings_key">settings</string>
-<string name="pref_passthrusms_key">passthrusms</string>
-<string name="pref_disclaimer_key">disclaimer</string>
-<string name="pref_callback_key">callback</string>
+   <string name="pref_passthrusms_key">passthrusms</string>
+   <string name="pref_disclaimer_key">disclaimer</string>
+   <string name="pref_callback_key">callback</string>
 </resources>

@@ -25,8 +25,8 @@
             <CheckBoxPreference
               android:key="@string/pref_notif_override_key"
               android:title="@string/pref_notif_override_title"
-			  android:summary="@string/pref_notif_override_summary"
-			  android:summaryOn="@string/pref_notif_override_summaryon"
+              android:summary="@string/pref_notif_override_summary"
+              android:summaryOn="@string/pref_notif_override_summaryon"
               android:summaryOff="@string/pref_notif_override_summaryoff"
               android:defaultValue="false" />
             <RingtonePreference
@@ -125,6 +125,20 @@
       android:key="pref_additional_key"
       android:summary="@string/pref_additional_summary"
       android:dependency="@string/pref_enabled_key">
+      <ListPreference
+          android:key="@string/pref_history_limit_key"
+          android:title="@string/pref_history_limit_title"
+          android:summary="@string/pref_history_limit_summary"
+          android:entries="@array/pref_history_limit_entries"
+          android:entryValues="@array/pref_history_limit_entries"
+          android:dialogTitle="@string/pref_history_limit_title"
+          android:defaultValue="@string/pref_history_limit_default" />
+      <CheckBoxPreference
+        android:key="@string/pref_autorotate_key"
+        android:title="@string/pref_autorotate_title"
+        android:summaryOn="@string/pref_autorotate_summaryon"
+        android:summaryOff="@string/pref_autorotate_summaryoff"
+        android:defaultValue="@string/pref_autorotate_default" />
       <PreferenceCategory
         android:title="@string/pref_popup_control">
         <CheckBoxPreference
@@ -224,15 +238,6 @@
             android:title="@string/pref_callback_title"
             android:summary="@string/pref_callback_summary"
             android:defaultValue="" />
-      </PreferenceCategory>
-      <PreferenceCategory
-        android:title="@string/pref_other_title">
-        <CheckBoxPreference
-          android:key="@string/pref_autorotate_key"
-          android:title="@string/pref_autorotate_title"
-          android:summaryOn="@string/pref_autorotate_summaryon"
-          android:summaryOff="@string/pref_autorotate_summaryoff"
-          android:defaultValue="@string/pref_autorotate_default" />
       </PreferenceCategory>
     </PreferenceScreen>
     <ListPreference 

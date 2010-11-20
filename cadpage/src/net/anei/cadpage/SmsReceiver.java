@@ -92,7 +92,7 @@ public class SmsReceiver extends BroadcastReceiver {
       }
       if (res==0) { return false; }
     } else {  
-    if (! match(sAddress, sFilter)) return false;
+      if (! match(sAddress, sFilter)) return false;
     }
     if (Log.DEBUG) Log.v("SMSReceiver/CadPageCall: Filter Matches checking call Location -" + sFilter);
     

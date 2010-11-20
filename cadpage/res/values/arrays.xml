@@ -49,35 +49,6 @@
     <item>5</item>
     <item>6</item>
   </string-array>  
-  
-  <!--
-  <string-array
-    name="buttons_text">
-    <item>@string/button_disabled</item>
-    <item>@string/button_close</item>
-    <item>@string/button_delete</item>
-    <item>@string/button_delete</item>
-    <item>@string/button_reply</item>
-    <item>@string/button_quickreply</item>
-    <item>@string/button_inbox</item>
-    <item>@string/button_speak</item>
-    <item>@string/button_reply</item>    
-    <item>@string/button_map</item>
-  </string-array>
-  <string-array
-    name="pref_buttons_entries">
-    <item>@string/button_close</item>
-    <item>@string/button_delete</item>
-    <item>@string/button_delete_noconfirm</item>
-    <item>@string/button_reply</item>
-    <item>@string/button_quickreply</item>
-    <item>@string/button_replybyaddress</item>
-    <item>@string/button_inbox</item>
-    <item>@string/button_tts</item>
-    <item>@string/button_map</item>
-    <item>@string/button_disabled</item>
-  </string-array>
-  -->
 
   <string-array name="pref_timeout_entries">
     <item>@string/pref_timeout_entries_10s</item>
@@ -150,6 +121,13 @@
     <item>@string/pref_led_pattern_entries_normal</item>
     <item>@string/pref_led_pattern_entries_slow</item>
     <item>@string/pref_custom</item>
+  </string-array>
+  
+  <string-array name="pref_history_limit_entries">
+    <item>10</item>
+    <item>20</item>
+    <item>30</item>
+    <item>40</item>
   </string-array>
   
   <!-- Used to convert old legacy location codes

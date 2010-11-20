@@ -13,7 +13,7 @@ public class ManagePreferences {
   // Preference version.  This needs to be incremented every time a new
   // configuration setting is added to force it to initialize properly
   // when the new release is first run.
-  private static final int PREFERENCE_VERSION = 2;
+  private static final int PREFERENCE_VERSION = 3;
   
   private static ManagePreferences prefs;
 
@@ -196,9 +196,7 @@ public class ManagePreferences {
   }
 
   public static int historyCount() {
-    // TODO Really add this to preferences
-    // for now just return a constant
-    return 10;
+    return Integer.parseInt(prefs.getString(R.string.pref_history_limit_key));
   }
 
   public static SmsMsgParser getParser() {
