@@ -224,6 +224,12 @@ Kingston, NY (NYKingston)
 ((59728) SQUI/ )  Unit:ENG6 UnitSts: Loc:77 CORNELL XSts:TREMPER AV/SMITH AV Venue:King  City Inc:Haz Mat Date:11/02/2010 Time:00:45 UNKNOWN ODOR IN BUILDING  Addt
 ((2203) BKIN/ ) Unit:ENG6 UnitSts: Loc:89 NEWKIRK AV XSts:HASBROUCK AV/MAPLE  Venue:King City Inc:Struct Fir Date:11/05/2010 Time:21:39 BASEMENT FULL OF SMOKE ***/
 ***************************************************************************
+Oneida County, NY (NYOneidaCountyParser)
+o;?WHIF:2010:0648\nDispatched\nEMS/BREATHING PROBLEMS\n111 HARDCASTLE AVE, WHITESBORO VILLAGE (MERITON DR/PERIMETER RD)
+o;?WHIF:2010:0641\nDispatched\nEMS/DIABETIC PROBLEM\n31 MOHAWK ST, WHITESBORO VILLAGE (/SAUQUOIT STNear:AMERICAN LEGION POST
+o;?WHIF:2010:0636\nDispatched\nINVESTIGATE\n124 HARTS HILL TERR, WHITESTOWN (GILBERT RD/Near:HARTS HILL INN)
+o;?WHIF:2010:0644\nDispatched\nMVA-PI\nHUGHES ST, WHITESBORO VILLAGE/ WEST ST, WHITESBORO VILLAGE
+***************************************************************************
 ***************************************************************************
 ***************************************************************************
 ***************************************************************************
@@ -312,30 +318,6 @@ Sender: Basepage@mauser.greeleypd.com
 20032,SMKODR,2114 BLUEBELL AV.E4 R1,TEXT:FROM THE SOUTH, STRONG SMELL OF NATURAL GAS UNK WHERE ITS COMING FROM,
 19897,ALARMF,2013 1ST AV.E4 E1 L1,TEXT:AUDIBLE COMING FROM PULL STATION  NW DOOR, NO ATC, PREM PH 970 674 1957 \COMP:OP 311 SHERLOCK PLUS \PH:800 443
 19547,AIRAF ,600 AIRPORT RD.E4,TEXT:PLANE COMING IN WITHOUT LANDING GEAR.  RP WANTS FIRE AND MEDICAL TO RESPOND AND STANDBY. \COMP:MANDY \PH:336-3000,
-**********************************************************
-Oneida County, NY (in progress)
-Contact: jim humphreys <jimmycrack79@gmail.com>
-Sender: <"dispatch@oc911.org"@unknown.person>
-
-o;?WHIF:2010:0648
-Dispatched
-EMS/BREATHING PROBLEMS
-111 HARDCASTLE AVE, WHITESBORO VILLAGE (MERITON DR/PERIMETER RD)
-
-o;?WHIF:2010:0641
-Dispatched
-EMS/DIABETIC PROBLEM
-31 MOHAWK ST, WHITESBORO VILLAGE (/SAUQUOIT STNear:AMERICAN LEGION POST
-
-o;?WHIF:2010:0636
-Dispatched
-INVESTIGATE
-124 HARTS HILL TERR, WHITESTOWN (GILBERT RD/Near:HARTS HILL INN)
-
-o;?WHIF:2010:0644
-Dispatched
-MVA-PI
-HUGHES ST, WHITESBORO VILLAGE/ WEST ST, WHITESBORO VILLAGE
 **********************************************************
 Rocky Point, NY (a divison of Suffolk County, Inc)  (class II)
 (Apparently a different dispatch format from our Suffolk County??  Hold for more info)
@@ -582,6 +564,20 @@ BTWN: COLUMBUS PIKE & NORTH RD IN ORANGE TWP
 RCVD AS Cellular 911
 
 COM:
+**********************************************************
+Washington County, OR
+Contact: Phillip Duncan <phil860@gmail.com>
+Sender:  930010001-0050
+
+Would also like to receive informational pages from address.  Think I'll
+make that a general feature
+
+MVA-UKN INJURY SW TUALATIN VALLEY HW/SW331ST AV (33098 TUALATIN VALLEY/331ST) HIL MAP: 5377D UNIT: C2 E01 R8
+ABDOMINAL PAIN 985 N DAVIS ST (DEAD END & N 10TH AV) CON MAP: 5375D UNIT METWA STA8
+BREATHING PROB 39470 SW GEIGER RD (SW LAFOLLETT RD & FERN HILL RD) CON MAP: 5574B UNIT: METWA STA8
+SICK PERSON/UNKO 1045 N ADAIR ST (N 10TH AV & N 10TH-11TH AL) CON MAP: 5375D UNIT: METWA STA8
+RESIDENTIAL FIRE 822 N 28TH AV (N HOLLADAY DR & N 27TH AV) CON MAP: 5376D UNIT: METWA TIMERC CAS8 CFDUTY SIRN08 E813 E814 E815 E421 R8 T03 COCB1
+
 **********************************************************
 **********************************************************
 **********************************************************

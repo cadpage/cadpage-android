@@ -19,6 +19,7 @@ import net.anei.cadpage.SmsMsgInfo.Data;
 11/12 18:24 Repage: 8922 PINE SHORES DR, ; Map:338S Sub:ATASCOCITA SHORES Nat:60B02-GAS LEAK - UNKNOWN Units:E-E19 X-St:SHOREVIEW LN SUNCOVE LN
 11/12 18:08 Repage: ATASCOCITA RD/TIMBER FOREST D, ; Map:377A Sub: Nat:29-MOTOR VEHICLE INCIDENT Units:HUM2 E-E29 X-St:TIMBER FOREST DR ATASCOCI
 11/12 17:31 E FM 1960/POSSUM PARK RD, ; Map:336T Sub: Nat:68C01-HEAVY SMOKE OUTSIDE Units:E-E39 E-B39 X-St:POSSUM PARK RD E FM 1960
+ / 11/19 17:00 OAK HOLLOW DR-HC/GRANT RD-HC, ; Map:369E Nat:67B01U-SMALL OUTSIDE FIRE Units:E21 E26 B22 X-St:GRANT RD WILLOW LN
 */
 
 public class TXHarrisCountyParser extends SmsMsgParser {
@@ -47,16 +48,18 @@ public class TXHarrisCountyParser extends SmsMsgParser {
     body = "Loc:" + body;
     
     Properties props = parseMessage(body, new String[]{"Map", "Sub", "Nat", "Units", "X-St"});
-    parseAddress(props.getProperty("Loc", ""), data);
+    String sAddr = props.getProperty("Loc", "");
+    ipt = sAddr.indexOf(',');
+    if (ipt > 0) sAddr = sAddr.substring(0, ipt).trim();
+    parseAddress(sAddr, data);
+    if (data.strCity.equals("HC")) data.strCity = "";
+    
     data.strMap = props.getProperty("Map", "");
     data.strPlace = props.getProperty("Sub", "");
     data.strCall = props.getProperty("Nat", "");
     data.strUnit = props.getProperty("Units", "");
     data.strCross = props.getProperty("X-St", "");
     
-    // Strip extra stuff off of address line
-   ipt = data.strAddress.indexOf(',');
-    if (ipt > 0) data.strAddress = data.strAddress.substring(0, ipt).trim();
     if (data.strCall.contains("MA-MUTUAL AID")) data.strCity = "Humble";
   }
 }
