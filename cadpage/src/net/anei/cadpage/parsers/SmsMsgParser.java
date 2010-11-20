@@ -217,4 +217,108 @@ public abstract class SmsMsgParser {
      return set.contains(token.toUpperCase());
    }
  }
+ 
+ /**
+  * Worker class that will parse a into consecutive substrings up to the
+  * next occurrence of a particular parser
+  */
+ protected static class Parser {
+   
+   private String line;
+   private int pt;
+
+   /**
+    * Constructor 
+    * @param line string to be parsed out
+    */
+   public Parser(String line) {
+     init(line);
+   }
+
+   /**
+    * Reset parser with new string
+    * @param line new string to be parsed
+    */
+   public void init(String line) {
+     this.line = line;
+     this.pt = 0;
+   }
+   
+   /**
+    * @param delim delimiter
+    * @return everything up to next occurrence of delimiter
+    */
+   public String get(char delim) {
+     return get(delim, false);
+   }
+   
+   /**
+    * @param delim delimiter
+    * @return everything up to next occurrence of delimiter if found, null otherwise
+    */
+   String getOptional(char delim) {
+     return get(delim, true);
+   }
+   
+   /**
+    * @param delim delimiter
+    * @return everything up to next occurrence of delimiter
+    */
+   public String get(String delim) {
+     return get(delim, false);
+   }
+   
+   /**
+    * @param delim delimiter
+    * @return everything up to next occurrence of delimiter if found, null otherwise
+    */
+   public String getOptional(String delim) {
+     return get(delim, true);
+   }
+   
+   /**
+    * @param delim delimiter
+    * @return everything up to next occurrence of delimiter
+    */
+   public String get() {
+     return get(-1, 0, false);
+   }
+   
+   /**
+    * @param delim delimiter
+    * @param optional true if null should be returned if deliminter not found
+    * @return everything up to next occurrence of delimiter
+    */
+   private String get(char delim, boolean optional) {
+     return get(line.indexOf(delim, pt), 1, optional);
+   }
+   
+   /**
+    * @param delim delimiter
+    * @param optional true if null should be returned if deliminter not found
+    * @return everything up to next occurrence of delimiter
+    */
+   private String get(String delim, boolean optional) {
+     return get(line.indexOf(delim, pt), delim.length(), optional);
+   }
+   
+   /**
+    * @param npt index returned by indexof search
+    * @param len length of delimiter searched for
+    * @param optional true if null should be returned if deliminter not found
+    * @return whatever was found
+    */
+   private String get(int npt, int len, boolean optional) {
+     if (npt < 0) {
+       if (optional) return null;
+       npt = line.length();
+       len = 0;
+     }
+     String result = line.substring(pt, npt).trim();
+     pt = npt + len;
+     while (pt < line.length() && line.charAt(pt)==' ') pt++;
+     return result;
+   }
+ }
+
 }

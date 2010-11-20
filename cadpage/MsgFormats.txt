@@ -211,6 +211,18 @@ R40 EMS-CARDIAC CONDITION 1751 MAIN AVE HAR CFS# 2010-082726 CROSS: GARBERS CHUR
 R40 EMS-MENTAL PROBLEM 445 N MAIN ST 44 HAR CFS# 2010-082451 CROSS: WOLFE ST/ROCK ST
 R40 EMS-ABDOMINAL PAIN 1737 MORELAND DR HAR CFS# 2010-083119 CROSS: PHEASANT RUN CIR/ASHFORD CT
 ***************************************************************************
+Arnold, MD (MDArnoldParser)
+Still Box 40-24A 1872 ANNAPOLIS MALL [CHEESCAKE FACTORY] Kilo E172,TK36 ALARMS/MALLS (WARM ...
+Local Box 19-5 1652 PLEASANT PLAINS RD (OLD SAINT MARGARETS RD) Charlie HOLD,U@*,E172 ELECTRIC ...
+MEDICAL Box 19-13 1572 SECRETARIAT DR (MAN O WAR CT) A19,PM17 CHEST PAIN; 1341 [6/284] /13m-1 
+Medical Box 40-83 RT50 E/BESTGATE RD MU40,E40,E172 MVC; 1238 [5/283] /lm-7
+Medical Box 17-QA BRIDE POINT DR /COX [Unit NECK] [RD BX1-10] MOA PM17 MVC; PM17 REQ TAX 3 1133 ...
+***************************************************************************
+Kingston, NY (NYKingston)
+((2058) RLIN/ ) Unit:ENG6 UnitSts: Loc:487 WASHINGTON AV  XSts:TAYLOR/CITY LINE Venue:King City Inc:Autoalarm Date:11/05/2010  Time:20:44 GENERAL FIRE ALARM Addtl
+((63937) MDAV/ ) Unit:ENG6 UnitSts: Loc:86 HOFFMAN XSts:BROADWAY/MARYS  AV Venue:King City Inc:Struct Fir Date:11/03/2010 Time:21:22 SMOKE CODITION IN  AREA Addtl
+((59728) SQUI/ )  Unit:ENG6 UnitSts: Loc:77 CORNELL XSts:TREMPER AV/SMITH AV Venue:King  City Inc:Haz Mat Date:11/02/2010 Time:00:45 UNKNOWN ODOR IN BUILDING  Addt
+((2203) BKIN/ ) Unit:ENG6 UnitSts: Loc:89 NEWKIRK AV XSts:HASBROUCK AV/MAPLE  Venue:King City Inc:Struct Fir Date:11/05/2010 Time:21:39 BASEMENT FULL OF SMOKE ***/
 ***************************************************************************
 ***************************************************************************
 ***************************************************************************
@@ -222,7 +234,9 @@ class II - We could probably parse address if we had list of town/city codes ter
            parser in the near future, I am choosing to make the city lookup part of that smart parser
            so it will handle the corner case where a unknown city is specified.
 class III - No obvious address delimiter, waiting for development of smart address parser
-**********************************************************
+***************************************************************************
+************** Request holding for one thing or another *******************
+***************************************************************************
 Amityville Fider, NY (Class III) (Hold for more info)
 Need Amityville Fider and Babylon combo 
 Contact: sage405 <sage405@gmail.com>
@@ -235,28 +249,6 @@ SIG16A 30 HARBOR NORTH C/S OF S. BAYVIEW TO THE DEAD END DIABETIC COMA TOA 20:24
  SIG 16 182  MERRICK RD C/S BROADWAY AND WEST HIGH SCHOOL PARKING LOT A/F SICK TOA 21:41
  SIG 16 ER DOX 365 BROADWAY CROSS STREETS OF DIXION AND ALBANY TOA 13:46 RUN#10-1229
 **********************************************************
-Suffolk County, NY  (class II)
-(Apparently a different dispatch format from our Suffolk County??  Hold for more info)
-Contact: Jonathan broder <redorbj@gmail.com>
-Sender: paging@alpinesoftware.com <From%3Apaging@alpinesoftware.com>
-Falls, Not dangerous body area at 6 CROWN RD, ROCKY POINT  c/s: FISH RD . . 08:00:02
-Automatic Alarm, Residential at 38 CHERYL DR, SHOREHAM  c/s: COBBLESTONE DR . . 08:23:03
-Breathing Problems, Abnormal breathing at 151 BROADWAY, ROCKY POINT  c/s: CLUBHOUSE DR . . 12:42:23<br>
-Breathing Problems, Difficulty Speaking Between Breaths at 6 CROWN RD, ROCKY POINT  c/s: FISH RD . . 16:09:05<br>
-Breathing Problems, Difficulty Speaking Between Breaths at 6 CROWN RD, ROCKY POINT  c/s: FISH RD . . 16:09:05<br>
-Cardiac or Respiratory Arrest, Not breathing at all at 258 GLEN DR, SHOREHAM  c/s: LEISURE DR . . 14:31:40<br>
-**********************************************************
-Greeley, CO (Class I)
-In Weld county, doesn't know if this is county wide format.
-Contact: 9703818003@vzwpix.com
-Sender: Basepage@mauser.greeleypd.com 
-20442,ALARMF,23691 CR 60H.E1 E4 L1,TEXT:AUDIBLE FROM GENERAL AND SMOKE DETECTOR \COMP:1ST CLASS SECURITY \PH:800 482 9800,
-20431,SMKODR,1ST ST/8TH AV.E4 L1,TEXT:SMELL OF NATURAL GAS ALL OVER THE AREA \COMP:W012,
-20373,SMKODR,10TH AV/22ND ST.E4 R1,TEXT:STRONG SMELL OF NATURAL GAS IN AIR IN THIS AREA \COMP:MIKE RUANE \PH:608 630 2959,
-20032,SMKODR,2114 BLUEBELL AV.E4 R1,TEXT:FROM THE SOUTH, STRONG SMELL OF NATURAL GAS UNK WHERE ITS COMING FROM,
-19897,ALARMF,2013 1ST AV.E4 E1 L1,TEXT:AUDIBLE COMING FROM PULL STATION  NW DOOR, NO ATC, PREM PH 970 674 1957 \COMP:OP 311 SHERLOCK PLUS \PH:800 443
-19547,AIRAF ,600 AIRPORT RD.E4,TEXT:PLANE COMING IN WITHOUT LANDING GEAR.  RP WANTS FIRE AND MEDICAL TO RESPOND AND STANDBY. \COMP:MANDY \PH:336-3000,
-**********************************************************
 Allegheny County, PA (need more examples and more information)
 Contact: Anthony Cuda <acuda@wpahs.org>
 ALLEGHENY COUNTY 911 :FRCOM3, F1, POSS FIRE COM - SMELL OF SMOKE/BLDG ENDG, SHARPSBURG TOWERS #902, SHP, at 601 MAIN ST #902, SHP, btwn S MAIN ST and 7TH ST, NFD3, 265002, CALLER REPORTING A STRONG SMELL OF "SCHLAK" PAINT OR AMMONIA IN THE BUILDING. CALLER WAS ADVISED TO EVAC, Units:102EN1, 111EN1, 149EN1, 191EN1,
@@ -266,54 +258,12 @@ ALLEGHENY COUNTY 911 :NGASCOM, F1, NATURAL GAS SMELL/LEAK COM BLDG, FREEPORT MED
 Contact: "Cuda, Anthony" <acuda@ccac.edu>
 Sender: 777008816418
 191001, GARAGE ON FIRE, Units:102EN1, 149EN1, 191EN1, 191TK1, 240SQ1, 247TK1, 259EN1, 260TK1, 312RQ40 - From 405 11/13/2010 06:43:58 TXT STOP to opt-out
-********************************************************************
-Arnold MD firemann172@yahoo.com also sent in Centreville MD.
-These were from a screen cap so they may have issues. I asked the user for one's without the ...
-HazMat Box 17-17 1939 BALTO ANNAP BLVD (CARVEL DR) Kilo E171,SQ2,BC2,SU23,SCA,PM39 Chemical ODOR ...
-Local Box 23-6 88 HOYLE LN (BRENDA JOYCE LN) Charlie B17 ELECTRIC WIRES OUTSIDE (COLD); 1404[9...
-Still Box 40-24A 1872 ANNAPOLIS MALL [CHEESCAKE FACTORY] Kilo E172,TK36 ALARMS/MALLS (WARM ...
-Local Box 19-5 1652 PLEASANT PLAINS RD (OLD SAINT MARGARETS RD) Charlie HOLD,U@*,E172 ELECTRIC ...
-MEDICAL Box 19-13 1572 SECRETARIAT DR (MAN O WAR CT) A19,PM17 CHEST PAIN; 1341 [6/284] /13m-1 
-Medical Box 40-83 RT50 E/BESTGATE RD MU40,E40,E172 MVC; 1238 [5/283] /lm-7
-Medical Box 17-QA BRIDE POINT DR /COX [Unit NECK] [RD BX1-10] MOA PM17 MVC; PM17 REQ TAX 3 1133 ...
-**********************************************************
-Kingston, NY or Ulster County (Class I) (NYKingstonParser)
-
-Parser completed with one tweak. Added a check for Venue of "King City" and made in "Kingston" Emailed contact about this.
-Reply:
-my knowledge into the workings of the cad are limited, extremely limited.
-i know it is a county wide dispatch, and that kingston along with many other municipalities access the county cad.
-i believe your deduction that king city is kingston, to be true.
-in kingston alone, we have 6 separate fire companies and mobile life dispatch (ems).
-specifically, companies 1 (E1 & R1), 2 (E2 & T1), 3 (E3 & E9), 4 (E4 and S1), 5 (E5), 6 (E6), 8 (Marine1),and Car1 Car2 &Car3.
-
-Contact: Chris Pale <copper_and_common_sense@yahoo.com>
-
-((2058) RLIN/ ) Unit:ENG6 UnitSts: Loc:487 WASHINGTON AV  XSts:TAYLOR/CITY LINE 
-Venue:King City Inc:Autoalarm Date:11/05/2010  Time:20:44 GENERAL FIRE ALARM 
-Addtl
-
-((63937) MDAV/ ) Unit:ENG6 UnitSts: Loc:86 HOFFMAN XSts:BROADWAY/MARYS  AV 
-Venue:King City Inc:Struct Fir Date:11/03/2010 Time:21:22 SMOKE CODITION IN  
-AREA Addtl
-
-((59728) SQUI/ )  Unit:ENG6 UnitSts: Loc:77 CORNELL XSts:TREMPER AV/SMITH AV 
-Venue:King  City Inc:Haz Mat Date:11/02/2010 Time:00:45 UNKNOWN ODOR IN BUILDING  
-Addt
-
-((2203) BKIN/ ) Unit:ENG6 UnitSts: Loc:89 NEWKIRK AV XSts:HASBROUCK AV/MAPLE  
-Venue:King City Inc:Struct Fir Date:11/05/2010 Time:21:39 BASEMENT FULL OF SMOKE 
-Ad
 **********************************************************
 Niagra County, NY (major parsing issues !!)
 Contact: 7167992315@vtext.com
 ((12474) NCFC MMYERS ) 3111 Sndrs Stlmnt Rd-NCCC-C Bldg unk age f labor pains no further info. BLSP EMS/Air Ops. 1617hrs numerous other calls in cnty. From email 7164383393@niagaracounty.com
 (10444 NCFC JBEILEIN ) DUERO/WILLIAMS  MVA W MINOR INJURIES. From email 7164383393@niagaracounty.com
 (550 NCFC RZASTROW ) 1-AMB TO MVA WITH SHAWNEE/LKPT & SHAWNEE RDS. From email 7164383393@niagaracounty.com
-**********************************************************
-Holbrooklyn FD,NY (part of the Suffolk County franchise?)
-Contact: "bfdtecresq@aol.com" <bfdtecresq@aol.com>
-Sender: Paging@alpinesoftware.com
 **********************************************************
 Holbrook FD, NY (Suffolk County franchise)  Class I
 Contact: "bfdtecresq@aol.com" <bfdtecresq@aol.com>
@@ -327,7 +277,43 @@ Contact: David baker <baker.davidm@gmail.com>
 Sender: qac911@atlanticbb.net <From%3Aqac911@atlanticbb.net>
 (Text Message) qac911:*D 4-2 CO ALARM 212 NORTHFIELD WAY LOCAL BOX Q04
 **********************************************************
-Oneida County, NY
+**********************************************************
+**********************************************************
+Combo group Seaford and Sussex County, DE (in progress)
+Contact: "Calvin Yelverton" <cyelverton@seaford87.com>
+Sender: msg@cfmsg.org, msg@cfmsg.net, msg@cfmsg.com
+
+Seaford, DE 
+
+204a is an appt number
+
+87 EMS] -- 1A Abdominal Pains (ALS) -- 6412 Woodduck Dr Seaford de, 19973
+[87 FIRE] -- Smoke Investigation -- 6341 Baker Rd Seaford de, 19973
+[87 EMS] -- 6A Breathing Problems (ALS) -- 24642 Shufelt Rd Seaford de, 19973
+[87 FIRE] -- Assist Other Agency -- Hickory Hill Rd/ Guard Rd Seaford de, 19973
+[87 EMS] -- 33A Interfacility (ALS) -- 715 E King St 204a Seaford de, 19973
+[87 EMS] -- 13A Diabetic Problems (ALS) -- 24101 Dove Rd Seaford de, 19973
+
+Sussex County, DE (combine with Seaford)
+81 FIRE] -- Traffic/TransportaionAcdntBLS -- 0 Discount Land Rd & Sussex Hw
+[81 EMS] -- Chest Pain-ALS -- 34544 Doe Dr Laurel 19956
+[81 FIRE] -- Cardiac/Res./Death-ALS -- 815 S Central Ave Laurel 19956 -- Laurel Middle / intermediate n
+[81 EMS] -- Abdominal Pain-BLS -- 30594 SUssex Hwy Laurel 19956 -- Relax Inn
+[81 EMS] -- Unconcious/Fainting(Near)-ALS -- 31574 White Ave Laurel 19956
+[81 EMS] -- Falls-BLS -- 609 Little Creek Dr Laurel 19956
+**********************************************************
+Greeley, CO (Class I) (in progress)
+In Weld county, doesn't know if this is county wide format.
+Contact: 9703818003@vzwpix.com
+Sender: Basepage@mauser.greeleypd.com 
+20442,ALARMF,23691 CR 60H.E1 E4 L1,TEXT:AUDIBLE FROM GENERAL AND SMOKE DETECTOR \COMP:1ST CLASS SECURITY \PH:800 482 9800,
+20431,SMKODR,1ST ST/8TH AV.E4 L1,TEXT:SMELL OF NATURAL GAS ALL OVER THE AREA \COMP:W012,
+20373,SMKODR,10TH AV/22ND ST.E4 R1,TEXT:STRONG SMELL OF NATURAL GAS IN AIR IN THIS AREA \COMP:MIKE RUANE \PH:608 630 2959,
+20032,SMKODR,2114 BLUEBELL AV.E4 R1,TEXT:FROM THE SOUTH, STRONG SMELL OF NATURAL GAS UNK WHERE ITS COMING FROM,
+19897,ALARMF,2013 1ST AV.E4 E1 L1,TEXT:AUDIBLE COMING FROM PULL STATION  NW DOOR, NO ATC, PREM PH 970 674 1957 \COMP:OP 311 SHERLOCK PLUS \PH:800 443
+19547,AIRAF ,600 AIRPORT RD.E4,TEXT:PLANE COMING IN WITHOUT LANDING GEAR.  RP WANTS FIRE AND MEDICAL TO RESPOND AND STANDBY. \COMP:MANDY \PH:336-3000,
+**********************************************************
+Oneida County, NY (in progress)
 Contact: jim humphreys <jimmycrack79@gmail.com>
 Sender: <"dispatch@oc911.org"@unknown.person>
 
@@ -350,6 +336,17 @@ o;?WHIF:2010:0644
 Dispatched
 MVA-PI
 HUGHES ST, WHITESBORO VILLAGE/ WEST ST, WHITESBORO VILLAGE
+**********************************************************
+Rocky Point, NY (a divison of Suffolk County, Inc)  (class II)
+(Apparently a different dispatch format from our Suffolk County??  Hold for more info)
+Contact: Jonathan broder <redorbj@gmail.com>
+Sender: paging@alpinesoftware.com <From%3Apaging@alpinesoftware.com>
+Falls, Not dangerous body area at 6 CROWN RD, ROCKY POINT  c/s: FISH RD . . 08:00:02
+Automatic Alarm, Residential at 38 CHERYL DR, SHOREHAM  c/s: COBBLESTONE DR . . 08:23:03
+Breathing Problems, Abnormal breathing at 151 BROADWAY, ROCKY POINT  c/s: CLUBHOUSE DR . . 12:42:23<br>
+Breathing Problems, Difficulty Speaking Between Breaths at 6 CROWN RD, ROCKY POINT  c/s: FISH RD . . 16:09:05<br>
+Breathing Problems, Difficulty Speaking Between Breaths at 6 CROWN RD, ROCKY POINT  c/s: FISH RD . . 16:09:05<br>
+Cardiac or Respiratory Arrest, Not breathing at all at 258 GLEN DR, SHOREHAM  c/s: LEISURE DR . . 14:31:40<br>
 **********************************************************
 Belmore, NY
 Contact: Timothy Beuth <tbeuth@gmail.com>
@@ -528,28 +525,63 @@ Dispatch:RESPOND 2ND CALL 216 ELKIN CIR CHEST PAINS
 Dispatch:RESPOND - 809 GRAYSON AVE - VEH OVER AN EMBANKMENT
 Dispatch:300 BLK PATTON FARM RD - SQAUD 2 REQUESTED - PRI1 PT WITH ENTRAPMENT - OPERATE COUNTY 1
 **********************************************************
-Combo group Seaford and Sussex County, DE
-Contact: "Calvin Yelverton" <cyelverton@seaford87.com>
-Sender: msg@cfmsg.org, msg@cfmsg.net, msg@cfmsg.com
+Deleware County, OH
+Contact: ryan kirby <ryankirby950@gmail.com>
+Sender: 911@co.delaware.oh.us
 
-Seaford, DE 
+Alert: Service Run-Fire) ALRM LVL: 1
+LOC:
+210 BIG RUN RD
+BERLIN TWP
+BTWN: STATE ROUTE 37 E & SOUTH END
+RCVD AS Radio
+COM:
 
-204a is an appt number
+CT:
+9961 at POS 05
 
-87 EMS] -- 1A Abdominal Pains (ALS) -- 6412 Woodduck Dr Seaford de, 19973
-[87 FIRE] -- Smoke Investigation -- 6341 Baker Rd Seaford de, 19973
-[87 EMS] -- 6A Breathing Problems (ALS) -- 24642 Shufelt Rd Seaford de, 19973
-[87 FIRE] -- Assist Other Agency -- Hickory Hill Rd/ Guard Rd Seaford de, 19973
-[87 EMS] -- 33A Interfacility (ALS) -- 715 E King St 204a Seaford de, 19973
-[87 EMS] -- 13A Diabetic Problems (ALS) -- 24101 Dove Rd Seaford de, 19973
 
-Sussex County, DE (combine with Seaford)
-81 FIRE] -- Traffic/TransportaionAcdntBLS -- 0 Discount Land Rd & Sussex Hw
-[81 EMS] -- Chest Pain-ALS -- 34544 Doe Dr Laurel 19956
-[81 FIRE] -- Cardiac/Res./Death-ALS -- 815 S Central Ave Laurel 19956 -- Laurel Middle / intermediate n
-[81 EMS] -- Abdominal Pain-BLS -- 30594 SUssex Hwy Laurel 19956 -- Relax Inn
-[81 EMS] -- Unconcious/Fainting(Near)-ALS -- 31574 White Ave Laurel 19956
-[81 EMS] -- Falls-BLS -- 609 Little Creek Dr Laurel 19956
+ (Alert: Unresponsive / Unconscious) ALRM LVL: 1
+LOC:
+4114 CURVE RD
+BERLIN TWP
+BTWN: WINDING CREEK LN & LACKEY OLD STATE RD
+RCVD AS E-911 Call
+COM:
+PROQA Urg
+
+
+ (Alert: Gas Leak-Residential) ALRM LVL: 1
+LOC:
+210 BIG RUN RD
+BERLIN TWP
+BTWN: STATE ROUTE 37 E & SOUTH END
+
+COM:
+PROQA Urgent Message: basement
+PROQA Urgen
+
+
+(Alert: Fire-Vehicle) ALRM LVL: 1
+LOC:
+ALUM CREEK BIG RUN PARKING LOT NORTH (UPPER)
+606 BIG RUN RD
+BERLIN TWP
+BTWN: STATE ROUTE 37 E & SOUTH END
+
+COM:
+VEHIC
+
+
+Alert: Auto Accident Injuries) ALRM LVL: 1
+LOC:
+SHANAHAN RD/COLUMBUS PIKE
+BERLIN TWP
+BTWN: COLUMBUS PIKE & NORTH RD IN ORANGE TWP
+
+RCVD AS Cellular 911
+
+COM:
 **********************************************************
 **********************************************************
 **********************************************************
