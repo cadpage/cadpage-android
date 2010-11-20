@@ -103,6 +103,14 @@ public class TXHarrisCountyParserTest extends BaseParserTest {
         "CALL:68C01-HEAVY SMOKE OUTSIDE",
         "UNIT:E-E39 E-B39",
         "X:POSSUM PARK RD E FM 1960");
+    
+    doTest("T12",
+        " / 11/19 17:00 OAK HOLLOW DR-HC/GRANT RD-HC, ; Map:369E Nat:67B01U-SMALL OUTSIDE FIRE Units:E21 E26 B22 X-St:GRANT RD WILLOW LN",
+        "ADDR:OAK HOLLOW DR & GRANT RD",
+        "MAP:369E",
+        "CALL:67B01U-SMALL OUTSIDE FIRE",
+        "UNIT:E21 E26 B22",
+        "X:GRANT RD WILLOW LN");
 
   }
 }
