@@ -283,7 +283,7 @@ public class SmartAddressParserTest extends BaseParserTest {
     }
 
     @Override
-    protected void parse(String message, Data data) {
+    public void parse(String message, Data data) {
       parseAddress(startType, flags, message, data);
     }
   }
