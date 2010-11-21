@@ -110,6 +110,9 @@ public class SmartAddressParserTest extends BaseParserTest {
         "X:JACKSON ST & N SWEET HILL RD");
     doTest(SKIP, "WAIT TILL 500 NORTH LN X: JACKSON ST & BAD SWEET HILL RD BELOW SUNDANCE",
         "ADDR:500 NORTH LN",
+        "X:JACKSON ST & BAD SWEET HILL RD");
+    doTest(SKIP, "WAIT TILL 500 NORTH LN X: JACKSON ST & TOO BAD SWEET HILL RD BELOW SUNDANCE",
+        "ADDR:500 NORTH LN",
         "X:JACKSON ST");
   }
   
@@ -138,6 +141,9 @@ public class SmartAddressParserTest extends BaseParserTest {
     doTest(SKIP, "ACCIDENT W/INJURY SRT24&SAINT MARYS RD KEN TOWN UNDER",
         "ADDR:ST-24 & SAINT MARYS RD",
         "CITY:KEN TOWN");
+    doTest(CALL, "MVA-UKN INJURY SW TUALATIN VALLEY HW/SW331ST AV",
+        "CALL:MVA-UKN INJURY",
+        "ADDR:SW TUALATIN VALLEY HW & SW331ST AV");
   }
   
   @Test
@@ -147,6 +153,12 @@ public class SmartAddressParserTest extends BaseParserTest {
     doTest(SKIP, "WHERE CAN I FIND BLAKSLY CREEK RD IN CHICAGO",
         "ADDR:CREEK RD");
     doTest(SKIP, "WHERE CAN I FIND N BLAKSLY CREEK RD IN KENSBURG",
+        "ADDR:N BLAKSLY CREEK RD IN",
+        "CITY:KENSBURG");
+    doTest(SKIP, "WHERE CAN I FIND N SWEET BLAKSLY CREEK RD IN KENSBURG",
+        "ADDR:N SWEET BLAKSLY CREEK RD IN",
+        "CITY:KENSBURG");
+    doTest(SKIP, "WHERE CAN I FIND N BIG SWEET BLAKSLY CREEK RD IN KENSBURG",
         "ADDR:CREEK RD IN",
         "CITY:KENSBURG");
     doTest(ADDR, "US 26 IN CHICAGO",
