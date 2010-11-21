@@ -3,10 +3,10 @@ package net.anei.cadpage.parsers;
 import org.junit.Test;
 
 
-public class TXHarrisCountyParserTest extends BaseParserTest {
+public class TXCyCreekCommCenterParserTest extends BaseParserTest {
   
-  public TXHarrisCountyParserTest() {
-    setParser(new TXHarrisCountyParser(), "HARRIS COUNTY", "TX");
+  public TXCyCreekCommCenterParserTest() {
+    setParser(new TXCyCreekCommCenterParser(), "HARRIS COUNTY", "TX");
   }
   
   @Test
