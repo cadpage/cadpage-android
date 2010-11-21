@@ -22,7 +22,7 @@ import net.anei.cadpage.SmsMsgInfo.Data;
  / 11/19 17:00 OAK HOLLOW DR-HC/GRANT RD-HC, ; Map:369E Nat:67B01U-SMALL OUTSIDE FIRE Units:E21 E26 B22 X-St:GRANT RD WILLOW LN
 */
 
-public class TXHarrisCountyParser extends SmsMsgParser {
+public class TXCyCreekCommCenterParser extends SmsMsgParser {
   
   private static final Pattern MARKER = Pattern.compile("\\d\\d/\\d\\d \\d\\d:\\d\\d ");
 

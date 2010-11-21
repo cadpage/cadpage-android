@@ -262,9 +262,10 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     tokenType = new int[tokens.length];
     
     stAddress = startAddress = (sType == StartType.START_ADDR? 0 : -1);
+    boolean setStart = (startAddress < 0);
     for (int ndx = 0; ndx < tokens.length; ndx++) {
       setType(ndx);
-      if (startAddress < 0) {
+      if (setStart) {
         if (isType(ndx, ID_START_MARKER)) {
           stAddress = ndx;
           startAddress = ndx + 1;

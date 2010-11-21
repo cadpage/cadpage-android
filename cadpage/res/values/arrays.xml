@@ -135,7 +135,7 @@
   <string-array name="pref_location_legacy">
     <item>VALoudounCounty</item>
     <item>NYSuffolkCounty</item>
-    <item>TXHarrisCounty</item>
+    <item>TXCyCreekCommCenter</item>
     <item>ORBentonCounty</item>
     <item>NYHerkimerCounty</item>
     <item>GAOconeeCounty</item>
@@ -149,12 +149,14 @@
        existing Parser needs to be renamed for some reason -->
   <string-array name="old_location_values">
     <item>COAdamsCounty</item> <!-- V1.1.21 -->
-  <item>NYSuffolkCounty</item>
-</string-array>
+    <item>NYSuffolkCounty</item>
+    <item>TXHarrisCounty</item> <!-- V1.1.24 -->
+  </string-array>
   <string-array name="new_location_values">
     <item>CONorthglennEMS</item>
-  <item>NYBrentwood</item>
-</string-array>
+    <item>NYBrentwood</item>
+    <item>TXCyCreekCommCenter</item>
+  </string-array>
 
   <!-- Sorted in state name order, which is why NY comes before NC. -->    
   <string-array name="pref_location_values">
@@ -177,6 +179,7 @@
     <item>NYKingston</item>
     <item>NYOneidaCounty</item>
     <item>NYOrleansCounty</item>
+    <item>NYRockyPoint</item>
     <item>NYSetauket</item>
     <item>NCHaywoodCounty</item>
     <item>NCMaconCounty</item>
@@ -186,7 +189,7 @@
     <item>PABerksCounty</item>
     <item>PAChesterCounty</item>
     <item>PALancasterCounty</item>
-    <item>TXHarrisCounty</item>
+    <item>TXCyCreekCommCenter</item>
     <item>TXLongview</item>
     <item>VAAccomackCounty</item>
     <item>VAHenryCounty</item>
@@ -215,6 +218,7 @@
     <item>Kingston, NY</item>
     <item>Oneida County, NY</item>
     <item>Orleans County, NY</item>
+    <item>Rocky Point, NY</item>
     <item>Setauket, NY</item>
     <item>Haywood County, NC</item>
     <item>Macon County, NC</item>
@@ -224,7 +228,7 @@
     <item>Berks County, PA</item>
     <item>Chester County, PA</item>
     <item>Lancaster County, PA</item>
-    <item>Harris County, TX</item>
+    <item>Cy Creek Comm Center, TX</item>
     <item>Longview, TX</item>
     <item>Accomack County, VA</item>
     <item>Henry County, VA</item>

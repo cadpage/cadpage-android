@@ -44,7 +44,7 @@ public class NYOneidaCountyParser extends SmsMsgParser {
     Parser p = new Parser(flds[3]);
     parseAddress(p.get(','), data);
     data.strCity = p.getOptional('(');
-    if (data.strCity != null) {
+    if (data.strCity.length() > 0) {
       data.strCross = p.get(')');
     } else {
       data.strCity = p.get('/');

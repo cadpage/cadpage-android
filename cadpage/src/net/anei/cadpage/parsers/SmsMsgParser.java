@@ -225,7 +225,8 @@ public abstract class SmsMsgParser {
  protected static class Parser {
    
    private String line;
-   private int pt;
+   private int spt;
+   private int ept;
 
    /**
     * Constructor 
@@ -241,7 +242,8 @@ public abstract class SmsMsgParser {
     */
    public void init(String line) {
      this.line = line;
-     this.pt = 0;
+     this.spt = 0;
+     this.ept = line.length();
    }
    
    /**
@@ -254,10 +256,26 @@ public abstract class SmsMsgParser {
    
    /**
     * @param delim delimiter
-    * @return everything up to next occurrence of delimiter if found, null otherwise
+    * @return everything up to next occurrence of delimiter if found, empty string otherwise
     */
    String getOptional(char delim) {
      return get(delim, true);
+   }
+   
+   /**
+    * @param delim delimiter
+    * @return everything up to next occurrence of delimiter
+    */
+   public String getLast(char delim) {
+     return getLast(delim, false);
+   }
+   
+   /**
+    * @param delim delimiter
+    * @return everything up to next occurrence of delimiter if found, empty string otherwise
+    */
+   String getLastOptional(char delim) {
+     return getLast(delim, true);
    }
    
    /**
@@ -270,10 +288,26 @@ public abstract class SmsMsgParser {
    
    /**
     * @param delim delimiter
-    * @return everything up to next occurrence of delimiter if found, null otherwise
+    * @return everything up to next occurrence of delimiter if found, empty string otherwise
     */
    public String getOptional(String delim) {
      return get(delim, true);
+   }
+   
+   /**
+    * @param delim delimiter
+    * @return everything up to next occurrence of delimiter if found
+    */
+   public String getLast(String delim) {
+     return getLast(delim, false);
+   }
+   
+   /**
+    * @param delim delimiter
+    * @return everything up to next occurrence of delimiter if found, empty string otherwise
+    */
+   public String getLastOptional(String delim) {
+     return getLast(delim, true);
    }
    
    /**
@@ -286,37 +320,74 @@ public abstract class SmsMsgParser {
    
    /**
     * @param delim delimiter
-    * @param optional true if null should be returned if deliminter not found
+    * @param optional true if empty string should be returned if deliminter not found
     * @return everything up to next occurrence of delimiter
     */
    private String get(char delim, boolean optional) {
-     return get(line.indexOf(delim, pt), 1, optional);
+     return get(line.indexOf(delim, spt), 1, optional);
    }
    
    /**
     * @param delim delimiter
-    * @param optional true if null should be returned if deliminter not found
+    * @param optional true if empty string should be returned if deliminter not found
     * @return everything up to next occurrence of delimiter
     */
    private String get(String delim, boolean optional) {
-     return get(line.indexOf(delim, pt), delim.length(), optional);
+     return get(line.indexOf(delim, spt), delim.length(), optional);
+   }
+   
+   /**
+    * @param delim delimiter
+    * @param optional true if empty string should be returned if deliminter not found
+    * @return everything up to next occurrence of delimiter
+    */
+   private String getLast(char delim, boolean optional) {
+     return getLast(line.lastIndexOf(delim, ept-1), 1, optional);
+   }
+   
+   /**
+    * @param delim delimiter
+    * @param optional true if empty string should be returned if deliminter not found
+    * @return everything up to next occurrence of delimiter
+    */
+   private String getLast(String delim, boolean optional) {
+     int len = delim.length();
+     return getLast(line.lastIndexOf(delim, ept-len), len, optional);
    }
    
    /**
     * @param npt index returned by indexof search
     * @param len length of delimiter searched for
-    * @param optional true if null should be returned if deliminter not found
+    * @param optional true if empty string should be returned if deliminter not found
     * @return whatever was found
     */
    private String get(int npt, int len, boolean optional) {
-     if (npt < 0) {
-       if (optional) return null;
-       npt = line.length();
+     if (npt < 0 || npt+len > ept) {
+       if (optional) return "";
+       npt = ept;
        len = 0;
      }
-     String result = line.substring(pt, npt).trim();
-     pt = npt + len;
-     while (pt < line.length() && line.charAt(pt)==' ') pt++;
+     String result = line.substring(spt, npt).trim();
+     spt = npt + len;
+     while (spt < ept && line.charAt(spt)==' ') spt++;
+     return result;
+   }
+   
+   /**
+    * @param npt index returned by indexof search
+    * @param len length of delimiter searched for
+    * @param optional true if empty string should be returned if deliminter not found
+    * @return whatever was found
+    */
+   private String getLast(int npt, int len, boolean optional) {
+     if (npt < 0 || npt<spt) {
+       if (optional) return "";
+       npt = spt;
+       len = 0;
+     }
+     String result = line.substring(npt+len, ept).trim();
+     ept = npt;
+     while (ept > spt && line.charAt(ept-1)==' ') ept--;
      return result;
    }
  }
