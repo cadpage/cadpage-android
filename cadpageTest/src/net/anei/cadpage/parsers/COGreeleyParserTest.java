@@ -22,7 +22,7 @@ public class COGreeleyParserTest extends BaseParserTest {
     doTest("T2",
     	"20431,SMKODR,1ST ST/8TH AV.E4 L1,TEXT:SMELL OF NATURAL GAS ALL OVER THE AREA \\COMP:W012,",
     	"CALL:SMKODR",
-    	"ADDR:1ST ST/8TH AV",
+    	"ADDR:1ST ST & 8TH AV",
     	"ID:20431",
     	"UNIT:E4 L1",
     	"INFO:SMELL OF NATURAL GAS ALL OVER THE AREA"
@@ -30,7 +30,7 @@ public class COGreeleyParserTest extends BaseParserTest {
     doTest("T3",
     	"20373,SMKODR,10TH AV/22ND ST.E4 R1,TEXT:STRONG SMELL OF NATURAL GAS IN AIR IN THIS AREA \\COMP:MIKE RUANE \\PH:608 630 2959,",	
     	"CALL:SMKODR",
-    	"ADDR:10TH AV/22ND ST",
+    	"ADDR:10TH AV & 22ND ST",
     	"ID:20373",
     	"UNIT:E4 R1",
     	"INFO:STRONG SMELL OF NATURAL GAS IN AIR IN THIS AREA"
