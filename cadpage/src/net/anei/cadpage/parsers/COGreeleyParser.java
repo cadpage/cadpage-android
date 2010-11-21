@@ -31,7 +31,7 @@ public class COGreeleyParser extends SmsMsgParser {
 	    	data.strCall = flds[1].trim();
 	    	if ( flds[2].contains(".")){
 	    		int idx= flds[2].indexOf(".");
-		    	data.strAddress = flds[2].substring(0,idx);
+		    	parseAddress(flds[2].substring(0,idx), data);
 		    	data.strUnit = flds[2].substring(idx+1);
 	    	} else {
 	    		data.strAddress = flds[2];
@@ -46,11 +46,7 @@ public class COGreeleyParser extends SmsMsgParser {
 		    		data.strSupp = strSupp.trim();
 		    	}
 	    	}
-	        if (data.strSupp.contains("TEXT:")) {data.strSupp = data.strSupp.substring(5);}
+	      if (data.strSupp.contains("TEXT:")) {data.strSupp = data.strSupp.substring(5);}
 	    }
-	    
-
-
-
 	  }
 	}
