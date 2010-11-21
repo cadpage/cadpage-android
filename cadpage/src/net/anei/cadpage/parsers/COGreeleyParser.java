@@ -1,7 +1,6 @@
 package net.anei.cadpage.parsers;
 
 import net.anei.cadpage.SmsMsgInfo.Data;
-import net.anei.cadpage.parsers.SmsMsgParser.Parser;
 
 /*
  * 20442,ALARMF,23691 CR 60H.E1 E4 L1,TEXT:AUDIBLE FROM GENERAL AND SMOKE DETECTOR \COMP:1ST CLASS SECURITY \PH:800 482 9800,
@@ -15,38 +14,25 @@ import net.anei.cadpage.parsers.SmsMsgParser.Parser;
 
 public class COGreeleyParser extends SmsMsgParser {
 
-	
-	  @Override
-	  public boolean isPageMsg(String body) {
-		  return body.contains(",TEXT:");
-	  }
+  @Override
+  public boolean isPageMsg(String body) {
+    return body.contains(",TEXT:");
+  }
 
-	  @Override
-	  protected void parse(String body, Data data) {
-	    data.defState="CO";
-	    data.defCity = "Greeley";
-	    String[] flds = body.split(",");
-	    if (flds.length > 3) {
-	    	data.strCallId = flds[0];
-	    	data.strCall = flds[1].trim();
-	    	if ( flds[2].contains(".")){
-	    		int idx= flds[2].indexOf(".");
-		    	parseAddress(flds[2].substring(0,idx), data);
-		    	data.strUnit = flds[2].substring(idx+1);
-	    	} else {
-	    		data.strAddress = flds[2];
-	    	}
-	    	if (body.contains("TEXT:")) {
-	    		int iSupp = body.indexOf("TEXT:");
-	    		String strSupp = body.substring(iSupp);
-		    	if (strSupp.contains("COMP:")) {
-			        Parser p = new Parser(strSupp);
-			        data.strSupp = p.get("\\COMP:");
-		    	} else {
-		    		data.strSupp = strSupp.trim();
-		    	}
-	    	}
-	      if (data.strSupp.contains("TEXT:")) {data.strSupp = data.strSupp.substring(5);}
-	    }
-	  }
-	}
+  @Override
+  protected void parse(String body, Data data) {
+    data.defState="CO";
+    data.defCity = "Greeley";
+    String[] flds = body.split(",");
+    if (flds.length > 3) {
+      data.strCallId = flds[0];
+      data.strCall = flds[1].trim();
+      Parser p = new Parser(flds[2]);
+      data.strUnit = p.getLastOptional(".");
+      parseAddress(p.get(), data);
+    }
+    Parser p = new Parser(body);
+    p.get("TEXT:");
+    data.strSupp = p.get("\\COMP:");
+  }
+}
