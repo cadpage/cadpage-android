@@ -201,6 +201,9 @@ public class SmartAddressParserTest extends BaseParserTest {
     doTest(CALL, "BIG FIRE REPORTED AT 200 NE JOHNSON DR BELOW",
         "CALL:BIG FIRE",
         "ADDR:200 NE JOHNSON DR");
+    doTest(CALL, "Not breathing at all at 258 GLEN DR SOMEWHERE",
+        "CALL:Not breathing at all",
+        "ADDR:258 GLEN DR");
   }
   
   public void testAptNumbers() {
