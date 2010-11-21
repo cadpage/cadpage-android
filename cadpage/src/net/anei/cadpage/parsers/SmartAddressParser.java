@@ -107,7 +107,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
         "DRIVE", "DR",
         "SQUARE", "SQ",
         "BLVD",
-        "WAY", "PKWY", "PK", "FWY", "WY",
+        "WAY", "PKWY", "PK", "FWY", "WY", "HW",
         "CIRCLE", "CIR",
         "TRAIL", "TRL",
         "PATH",
@@ -115,7 +115,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
         "COURT", "CT",
         "TER", "TERR",
         "HWY");
-    setupDictionary(ID_ROUTE_PFX, "RT", "ST", "SRT", "US", "FS", "INTERSTATE", "I", "HWY", "STHWY", "CO");
+    setupDictionary(ID_ROUTE_PFX, "RT", "ST", "SRT", "US", "FS", "INTERSTATE", "I", "HW", "HWY", "STHWY", "CO");
     setupDictionary(ID_DIRECTION, "N", "NE", "E", "SE", "S", "SW", "W", "NW");
     setupDictionary(ID_CONNECTOR, "AND", "/", "&");
     setupDictionary(ID_START_MARKER, "AT", "@");
@@ -412,7 +412,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
       }
       
       // If road is preceded by a direction, include that
-      if (!dirFound && sAddr > start && isType(sAddr-1, ID_DIRECTION)) sAddr--;
+      if (!dirFound) sAddr = stretchRoadPrefix(start, sAddr);
     }
     
     // When we get here, 
@@ -477,10 +477,10 @@ public abstract class SmartAddressParser extends SmsMsgParser {
           break;
         }
       }
-      // Then back up 1 places assuming the road consists of one token.
       // If the previous token is a direction, back up one more to include that.
-      boolean dirFound =  (sAddr > 0 && isType(sAddr-1, ID_DIRECTION));
-      if (dirFound) sAddr--;
+      int saveSaddr = sAddr;
+      sAddr = stretchRoadPrefix(start, sAddr);
+      boolean dirFound = (sAddr != saveSaddr);
       
       // increment end pointer past the road terminator
       // If the following token is a direction, increment end pointer past that too
@@ -502,6 +502,27 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     // Nope, see if we can find some cross street info
     findCrossStreet();
     return true;
+  }
+  
+  /**
+   * Called when we found the end of a road name and are guessing at where
+   * it might start
+   * @param start Hard limit on where address can start
+   * @param sAddr index of current start of tentative road name
+   * @return index of presumed road name
+   */
+  private int stretchRoadPrefix(int start, int sAddr) {
+    
+    // Look up to 3 tokensn back to see if we find a direction token
+    // Stop search if we encounther a /, lest we confuse a W/INJURY
+    // as part of a road name
+    for (int j = 1; j<= 3; j++) {
+      int ndx = sAddr - j;
+      if (ndx < start) break;
+      if (tokens[ndx].equals("/")) break;
+      if (isType(ndx, ID_DIRECTION)) return sAddr-j; 
+    }
+    return sAddr;
   }
   
   /**
@@ -649,7 +670,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
         if (isType(end, ID_NUMBER) && end > 0 && isType(end-1, ID_ROUTE_PFX)) {end++; break;}
         
         // If potential road gets too long, give up
-        if (++end - start > 2) return -1;
+        if (++end - start > 3) return -1;
       }
     }
     
