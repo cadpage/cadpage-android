@@ -161,6 +161,7 @@
   <!-- Sorted in state name order, which is why NY comes before NC. -->    
   <string-array name="pref_location_values">
     <item>General</item>
+    <item>COGreeley</item>
     <item>CONorthglennEMS</item>
     <item>GAOconeeCounty</item>
     <item>GASmyrna</item>
@@ -201,6 +202,7 @@
   
   <string-array name="pref_location_options">
     <item>Generic Location</item>
+    <item>Greeley, CO</item>
     <item>Northglenn EMS, CO</item>
     <item>Oconee County, GA</item>
     <item>Smyrna, GA</item>
