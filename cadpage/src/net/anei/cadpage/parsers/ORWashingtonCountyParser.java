@@ -27,7 +27,8 @@ public class ORWashingtonCountyParser extends SmartAddressParser {
   
   private static final Properties CITY_TABLE = buildCodeTable(new String[]{
       "HIL", "HILLSBORO",
-      "CON", "CORNELIUS"
+      "CON", "CORNELIUS",
+      "FG",  "FOREST GROVE"
   });
   
   public ORWashingtonCountyParser() {
