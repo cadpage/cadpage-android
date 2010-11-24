@@ -227,6 +227,7 @@ public class ManagePreferences {
   private static String saveLocation = null;
   private static SmsMsgParser saveParser = null;
   public static SmsMsgParser getParser(String location) {
+    if (location == null) location = location();
     if (saveLocation == null || ! location.equals(saveLocation)) {
       String className = "net.anei.cadpage.parsers." + location + "Parser";
       try {

@@ -45,6 +45,29 @@ public class SmsMsgInfo {
     public String defCity = "";
     public String defState="";
     public String strSupp="";
+    
+
+    /**
+     * @return relative score that can be used to pick out the better result
+     * from multiple possible parsings
+     */
+    public int score() {
+      int result = 0;
+      if (strAddress.length() > 0) result += 10000;
+      if (strCall.length() > 0) result += 1000;
+      if (strCity.length() > 0) result += 100;
+      if (strApt.length() > 0) result += 10;
+      if (strCross.length() > 0) result += 100;
+      if (strBox.length() > 0) result += 10;
+      if (strUnit.length() > 0) result += 10;
+      if (strState.length() > 0) result += 10;
+      if (strMap.length() > 0) result += 10;
+      if (strPlace.length() > 0) result += 10;
+      if (strCallId.length() > 0) result += 10;
+      if (strPhone.length() > 0) result += 1;
+      if (strSupp.length() > 0) result += 1;
+      return result;
+    }
   }
 
   /**

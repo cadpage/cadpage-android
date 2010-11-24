@@ -5,6 +5,8 @@ import java.io.ObjectInputStream;
 import java.io.OptionalDataException;
 import java.io.Serializable;
 
+import net.anei.cadpage.parsers.SmsMsgParser;
+
 import android.app.Activity;
 import android.content.Context;
 import android.telephony.PhoneNumberUtils;
@@ -219,8 +221,9 @@ public class SmsMmsMessage implements Serializable {
     // If we have a historical location code, use it
     // Otherwise use the current configured location code.
     if (info == null) {
-      if (location == null) location = ManagePreferences.location();
-      info = ManagePreferences.getParser(location).parse(messageFull);
+      SmsMsgParser parser = ManagePreferences.getParser(location);
+      info = parser.parse(messageBody);
+      if (location == null) location = parser.getParserCode();
     }
     return info;
   }

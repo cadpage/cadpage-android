@@ -56,6 +56,18 @@ public abstract class SmsMsgParser {
     }
     return true;
   }
+  
+  /**
+   * @return parser code identifying the parser that actually was used
+   */
+  public String getParserCode() {
+    // This will be overridden in the parser group classes, but here we
+    // just extract the parser code from our own class name
+    
+    String clsName = this.getClass().getName();
+    int ipt = clsName.lastIndexOf('.');
+    return clsName.substring(ipt+1, clsName.length()-6);
+  }
 
  
  /** 
