@@ -569,6 +569,107 @@ RCVD AS Cellular 911
 
 COM:
 **********************************************************
+Gloucester County, NJ
+Contact: Rich Danner <richdanner@comcast.net>
+Sender: alert_@private.gloucesteralert.com
+
+EXAMPLE #1 - In District (Harrison Township) MVC Call: 
+  Sta:23-1 
+  Type:MVC 
+  Loc:233 N MAIN ST                 
+  Ven:HARRISON 
+  Dsp-07:56:31     
+  Clr- 
+
+EXAMPLE #2 - In District (Harrison Township) EMS Seizure Call: 
+  Sta:23-1 
+  Type:SEIZ 
+  Loc:143 SALVATORE DR               
+  Ven:HARRISON 
+  Dsp-15:26:16     
+  Clr- 
+
+EXAMPLE #3 - Mutual Aid (Woolwich Township) Dwelling Fire Call: 
+  Sta:23-1 
+  Type:DWEL 
+  Loc:296 WESTBROOK DR               
+  Ven:WOOLWICH 
+  Dsp-08:16:44     
+  Clr- 
+
+EXAMPLE #4  - In District (Harrison Township) MVC Call: 
+  Sta:23-1 
+  Type:MVC 
+  Loc:203 N MAIN ST                 
+  Ven:HARRISON 
+  Dsp-09:34:52     
+  Clr- 
+
+EXAMPLE #5 - Mutual Aid (South Harrison Twp) Fire Alarm System Call: 
+  Sta:23-1 
+  Type:MVC 
+  Loc:203 N MAIN ST                 
+  Ven:HARRISON 
+  Dsp-09:34:52     
+  Clr- 
+
+EXAMPLE #5 - Mutual Aid (South Harrison Twp) Fire Alarm System Call: 
+  Sta:23-1 
+  Type:ALRM 
+  Loc:7 FERRELL RD APT A             
+  Ven:S 
+  Dsp-14:55:22     
+  Clr- 
+
+EXAMPLE #6  - Mutual Aid (South Harrison Twp) Brush Fire Call: 
+  Sta:23-1 
+  Type:BRSH 
+  Loc:54 VESTRY RD                   
+  Ven:S 
+  Dsp-12:40:42 
+  Clr- 
+
+EXAMPLE #7 - In District (Harrison Township) EMS Fall Victim Call: 
+  Sta:23-1 
+  Type:FALL 
+  Loc:115 FRANKLIN DR               
+  Ven:HARRISON 
+  Dsp-16:01:31     
+  Clr- 
+
+EXAMPLE #8 - In District (Harrison Township) Brush Fire Call: 
+  Sta:23-1 
+  Type:BRSH 
+  Loc:49 TURTLE CREEK DR             
+  Ven:HARRISON 
+  Dsp- 
+  Clr- 
+
+EXAMPLE #9 - Mutual Aid (Woolwich Township) MVC Fire Call: 
+  Sta:23-1 
+  Type:MVC 
+  Loc:2227 RT 322                   
+  Ven:WOOLWICH 
+  Dsp-11:25:11     
+  Clr- 
+**********************************************************
+Unknown but currently using VAAccomackCounty
+Contact:james johnson <jjohnson1179@gmail.com>
+Looks same as Hayword County, NC  (Close, but appears to add a town)
+CAD:300;FALLS;5914 BOX IRON RD;GIRDLETREE;PINE ST;TAYLOR LANDING RD;11/23/2010 08:31:38
+**********************************************************
+Emmitsburg, MD (Northern Federick County)
+Contact:dalefogle@aol.com
+(CAD) [FredCo] CT: HOUSE / FIRE-VISIBLE 6801 HARBAUGH RD CSAB:NEXT TO HER HOME ESZ: 626 MAP: 3996A6 Disp: [23]
+(CAD) [FredCo] CT: WOODS FIRE 7819-B FRIENDS CREEK RD CEMB ESZ: 627 MAP: 3996F6 Disp: E63,B66,DNR [36]
+(CAD) [FredCo] CT: COMMERCIAL FIRE ALARM / AUTOMATIC 4 PAWS PL THUR: @CATOCTIN VETERINARY CLINIC ESZ: 1001 MAP: 4108E9 Disp: E102,TWR6 [37]
+(CAD) [FredCo] CT: OUTSIDE INVESTIGATION @MA ADAM CO: @RT15SB/BOYLE RD ESZ: -1 Disp: E63 [38]
+       This was a mutual aid call to Adams Co. Pa at Rt.15 South Bound at the Boyle Rd. overpass
+(CAD) [FredCo] CT: HOUSE / ODOR 9152 OLD KILN RD CEMB ESZ: 617 MAP: 4109E4 Disp: E63,E102,A268,TWR6,ET64 [39]
+(CAD) [FredCo] CT: COMMERCIAL FIRE ALARM / AUTOMATIC 102 OLD OAK PL THUR ESZ: 1001 MAP: 4222D2 Disp: E102,TWR6 [41]
+(CAD) [FredCo] CT: COMMERCIAL FIRE ALARM / WATERFLOW 100 CREAMERY CT: @EMMITSBURG GLASS CO ESZ: 620 MAP: 3997K9 Disp: E63,TWR6 [42]
+(CAD) [FredCo] CT: PERSON FIRE (INSIDE) 16825 S SETON AVE CEMB: @NATIONAL EMERGENCY TRAINING CENTER:SIMULATION LAB ESZ: 620 MAP: 3997H9 Disp: [34]
+**********************************************************
 **********************************************************
 **********************************************************
 * Misc formats received with problem reports
