@@ -8,6 +8,12 @@ import static org.junit.Assert.*;
 
 
 public class SmsMsgParserTest {
+  
+  @Test
+  public void testParserCode() {
+    SmsMsgParser parser = new ORBentonCountyParser();
+    assertEquals("ORBentonCounty", parser.getParserCode());
+  }
 
   @Test
   public void testParser() {
