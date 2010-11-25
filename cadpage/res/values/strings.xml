@@ -58,7 +58,7 @@
    <string name="pref_additional_summary">Additional CADPage configuration</string>
 
    <string name="pref_timeout_title">Screen Timeout</string>
-   <string name="pref_timeout_summary">The screen will sleep after this time</string>
+   <string name="pref_timeout_summary">The screen will sleep after this time.  Cur value: %s</string>
 
    <string name="pref_dimscreen_title">Dim Popup Screen</string>
    <string name="pref_dimscreen_summaryon">Popup screen will be dim (saves battery)</string>
@@ -136,7 +136,7 @@
    <string name="pref_vibrate_summaryoff">Vibrate is off</string>
 
    <string name="pref_vibrate_pattern_title">Vibrate Pattern</string>
-   <string name="pref_vibrate_pattern_summary">Set the vibration pattern</string>
+   <string name="pref_vibrate_pattern_summary">Set the vibration pattern.  Cur value: %s</string>
    <string name="pref_vibrate_pattern_ok">Custom vibrate pattern set</string>
    <string name="pref_vibrate_pattern_bad">Custom vibrate pattern invalid</string>
    <string name="pref_vibrate_pattern_help">Enter a custom vibrate pattern, in the format:\nmillisOff, millisOn, etc.\n\nFor example:\n0,1000\n0,500,200,500,200,500</string>
@@ -148,7 +148,7 @@
    <string name="pref_flashled_summaryoff">Do not blink LED when a message is received</string>
    
    <string name="pref_flashled_color_title">LED Color</string>
-   <string name="pref_flashled_color_summary">The color of the LED</string>
+   <string name="pref_flashled_color_summary">The color of the LED.  Cur value: %s</string>
       <string name="pref_flashled_color_custom_dialog_red">Red:</string>
    <string name="pref_flashled_color_custom_dialog_green">Green:</string>
    <string name="pref_flashled_color_custom_dialog_blue">Blue:</string>
@@ -156,7 +156,7 @@
    <string name="pref_flashled_color_custom_set">Custom LED color set</string>
 
    <string name="pref_flashled_pattern_title">LED Blink Rate</string>
-   <string name="pref_flashled_pattern_summary">Set the speed the LED blinks</string>
+   <string name="pref_flashled_pattern_summary">Set the speed the LED blinks.  Cur value: %s</string>
    <string name="pref_flashled_pattern_ok">Custom LED blink rate set</string>
    <string name="pref_flashled_pattern_bad">Custom LED blink rate is invalid</string>
    <string name="pref_flashled_pattern_help">Enter the time in milliseconds to turn the LED on and off</string>
@@ -168,11 +168,11 @@
    <string name="pref_notif_repeat_summaryoff">Unread message reminders are disabled</string>
 
    <string name="pref_notif_repeat_interval_title">Reminder Interval</string>
-   <string name="pref_notif_repeat_interval_summary">The time period between notification reminders</string>
+   <string name="pref_notif_repeat_interval_summary">The time period between notification reminders. Cur value: %s </string>
    <string name="pref_notif_repeat_interval_dialogTitle">Interval (minutes)</string>
 
    <string name="pref_notif_repeat_times_title">Number of Reminders</string>
-   <string name="pref_notif_repeat_times_summary">The number of reminder notifications to play</string>
+   <string name="pref_notif_repeat_times_summary">The number of reminder notifications to play.  Cur value: %s</string>
 
    <string name="pref_notif_repeat_screen_on_title">Screen On for Reminders</string>
    <string name="pref_notif_repeat_screen_on_summaryon">Reminders will turn screen on again</string>
@@ -334,8 +334,9 @@
     
     <string name="pref_location">location</string>
     <string name="pref_location_title">Location</string>
+    <string name="pref_location_summary">Cur location: %s</string>
     <string name="pref_filter_title">From: (Filter)</string>
-    <string name="pref_filter_summary">Only Messages from this address will be checked.</string>
+    <string name="pref_filter_summary">Only Messages from this address will be checked.  Cur value: %s</string>
     <string name="pref_filter_dialog">Enter Email addres to filter messages. * will scan all. Use a , to separate multiple addresses.</string>
     <string name="pref_filter">*</string>
     <string name="app_file_dir">/Android/data/cadpage/files/</string>
@@ -347,7 +348,7 @@
     <string name="pref_passthrusms_summaryon">Pass all calls through to default SMS Client</string>
     
     <string name="pref_history_limit_title">Call History Limit</string>
-    <string name="pref_history_limit_summary">Maximum number of calls to save in call history</string>
+    <string name="pref_history_limit_summary">Maximum number of calls to save in call history. Cur value: %s</string>
     
     <!-- Message menu items -->
     <string name="open_item_text">Open</string>
@@ -372,5 +373,9 @@
     <string name="callback_item_text">Phone</string>
     <string name="pref_callback_dialog">Enter Callback Phone Number</string>
     <string name="pref_callback_title">Callback Number</string>
-    <string name="pref_callback_summary">When configured there will be a &quot;Phone&quot; button configured to call this number.</string>
+    <string name="pref_callback_summary">When configured there will be a &quot;Phone&quot; button configured to call this number.  Cur value: %s</string>
+    
+    <!-- Location settings -->
+    <string name="pref_location_screen_title">Location Information</string>
+    <string name="pref_location_screen_summary">CAD Page Processing Details</string>
 </resources>

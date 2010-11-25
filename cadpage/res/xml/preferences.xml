@@ -9,6 +9,8 @@
       android:summaryOn="@string/pref_enabled_summaryon"
       android:summaryOff="@string/pref_enabled_summaryoff"
       android:defaultValue="true" />
+      
+    <!-- Notifications screen -->  
     <PreferenceScreen
       android:key="pref_notif_key"
       android:title="@string/pref_notif_title"
@@ -101,7 +103,7 @@
               android:summaryOn="@string/pref_notif_repeat_summaryon"
               android:summaryOff="@string/pref_notif_repeat_summaryoff"
               android:defaultValue="@string/pref_notif_repeat_default" />
-            <ListPreference
+            <net.anei.cadpage.preferences.ListPreference
               android:key="@string/pref_notif_repeat_times_key"
               android:title="@string/pref_notif_repeat_times_title"
               android:summary="@string/pref_notif_repeat_times_summary"
@@ -109,7 +111,7 @@
               android:entryValues="@array/pref_notif_repeat_times_values"
               android:defaultValue="@string/pref_notif_repeat_times_default"
               android:dependency="@string/pref_notif_repeat_key" />
-            <ListPreference
+            <net.anei.cadpage.preferences.ListPreference
               android:key="@string/pref_notif_repeat_interval_key"
               android:title="@string/pref_notif_repeat_interval_title"
               android:summary="@string/pref_notif_repeat_interval_summary"
@@ -119,13 +121,15 @@
               android:defaultValue="@string/pref_notif_repeat_interval_default"
               android:dependency="@string/pref_notif_repeat_key" />
           </PreferenceCategory>
-        </PreferenceScreen>
+    </PreferenceScreen>
+    
+    <!-- Additional Settings Screen -->
     <PreferenceScreen
       android:title="@string/pref_additional_title"
       android:key="pref_additional_key"
       android:summary="@string/pref_additional_summary"
       android:dependency="@string/pref_enabled_key">
-      <ListPreference
+      <net.anei.cadpage.preferences.ListPreference
           android:key="@string/pref_history_limit_key"
           android:title="@string/pref_history_limit_title"
           android:summary="@string/pref_history_limit_summary"
@@ -163,7 +167,7 @@
           android:dependency="@string/pref_popup_enabled_key"/>
       <CheckBoxPreference
           android:summaryOff="@string/pref_passthrusms_summaryoff" android:summaryOn="@string/pref_passthrusms_summaryon" android:defaultValue="@string/pref_passthrusms_default" android:title="@string/pref_passthrusms_title" android:key="@string/pref_passthrusms_key"/>
-</PreferenceCategory>
+      </PreferenceCategory>
       <PreferenceCategory
         android:title="@string/pref_screen_category">
         <CheckBoxPreference
@@ -172,7 +176,7 @@
           android:summaryOn="@string/pref_screen_on_summaryon"
           android:summaryOff="@string/pref_screen_on_summaryoff"
           android:defaultValue="@string/pref_screen_on_default" />
-        <ListPreference
+        <net.anei.cadpage.preferences.ListPreference
           android:key="@string/pref_timeout_key"
           android:title="@string/pref_timeout_title"
           android:summary="@string/pref_timeout_summary"
@@ -207,57 +211,72 @@
             android:summaryOn="@string/pref_show_buttons_summaryon"
             android:summaryOff="@string/pref_show_buttons_summaryoff"
             android:defaultValue="@string/pref_show_buttons_default" />
-          <net.anei.cadpage.preferences.ButtonListPreference
+          <net.anei.cadpage.preferences.ListPreference
             android:key="@string/pref_button1_key"
             android:title="@string/pref_button1_title"
+            android:summary="@string/pref_button_summary"
             android:entries="@array/pref_button_text"
             android:entryValues="@array/pref_button_values"
             android:dialogTitle="@string/pref_button1_title"
             android:defaultValue="@string/pref_button1_default"
             android:dependency="@string/pref_show_buttons_key" />
-          <net.anei.cadpage.preferences.ButtonListPreference
+          <net.anei.cadpage.preferences.ListPreference
             android:key="@string/pref_button2_key"
             android:title="@string/pref_button2_title"
+            android:summary="@string/pref_button_summary"
             android:entries="@array/pref_button_text"
             android:entryValues="@array/pref_button_values"
             android:dialogTitle="@string/pref_button2_title"
             android:defaultValue="@string/pref_button2_default"
             android:dependency="@string/pref_show_buttons_key" />
-          <net.anei.cadpage.preferences.ButtonListPreference
+          <net.anei.cadpage.preferences.ListPreference
             android:key="@string/pref_button3_key"
             android:title="@string/pref_button3_title"
+            android:summary="@string/pref_button_summary"
             android:entries="@array/pref_button_text"
             android:entryValues="@array/pref_button_values"
             android:dialogTitle="@string/pref_button3_title"
             android:defaultValue="@string/pref_button3_default"
             android:dependency="@string/pref_show_buttons_key" />
         </PreferenceScreen>
-        <EditTextPreference  android:dialogTitle="Callback"
-            android:dialogMessage="@string/pref_callback_dialog"
-            android:key="@string/pref_callback_key"
-            android:title="@string/pref_callback_title"
-            android:summary="@string/pref_callback_summary"
-            android:defaultValue="" />
       </PreferenceCategory>
     </PreferenceScreen>
-    <ListPreference 
-    android:key="@string/pref_location_key"
-    android:title="@string/pref_location_title"
-    android:entries="@array/pref_location_options"
-    android:entryValues="@array/pref_location_values"
-    android:dialogTitle="Select Location"
-    android:defaultValue="General" />
-    <EditTextPreference  android:dialogTitle="From: (Filter)"
-                         android:dialogMessage="@string/pref_filter_dialog"
-                         android:key="@string/pref_filter_key"
-                         android:title="@string/pref_filter_title"
-                         android:summary="@string/pref_filter_summary"
-                         android:defaultValue="*"/>
+    
+    <!-- Location settings screen -->
+    <PreferenceScreen
+      android:title="@string/pref_location_screen_title"
+      android:summary="@string/pref_location_screen_summary"
+      android:dependency="@string/pref_enabled_key">
+      
+      <net.anei.cadpage.preferences.ListPreference 
+      android:key="@string/pref_location_key"
+      android:title="@string/pref_location_title"
+      android:summary="@string/pref_location_summary"
+      android:entries="@array/pref_location_options"
+      android:entryValues="@array/pref_location_values"
+      android:dialogTitle="Select Location"
+      android:defaultValue="General" />
+      <net.anei.cadpage.preferences.EditTextPreference  
+                           android:dialogTitle="From: (Filter)"
+                           android:dialogMessage="@string/pref_filter_dialog"
+                           android:key="@string/pref_filter_key"
+                           android:title="@string/pref_filter_title"
+                           android:summary="@string/pref_filter_summary"
+                           android:defaultValue="*"/>
+      <net.anei.cadpage.preferences.EditTextPreference  
+          android:dialogTitle="Callback"
+          android:dialogMessage="@string/pref_callback_dialog"
+          android:key="@string/pref_callback_key"
+          android:title="@string/pref_callback_title"
+          android:summary="@string/pref_callback_summary"
+          android:defaultValue="" />
+      <Preference
+        android:key="@string/pref_testmsg_key"
+        android:title="@string/pref_testmsg_title" >
+      </Preference>
+    </PreferenceScreen>
+    
   </PreferenceCategory>
-  <Preference
-    android:key="@string/pref_testmsg_key"
-    android:title="@string/pref_testmsg_title" >
-  </Preference>
   <PreferenceCategory
     android:key="@string/pref_other_key"
     android:title="@string/pref_other_title">
