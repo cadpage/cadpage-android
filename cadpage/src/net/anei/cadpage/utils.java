@@ -8,7 +8,6 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
-import android.app.Activity;
 import android.content.ContentValues;
 import android.content.Context;
 import android.content.Intent;

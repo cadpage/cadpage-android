@@ -7,7 +7,6 @@ import android.database.SQLException;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.text.TextUtils;
-import android.widget.Toast;
 
 /**
  * Another class destined for the dust bin of history
