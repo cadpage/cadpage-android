@@ -131,7 +131,6 @@ public class ManageNotification {
     // If Notifications are On then get ring tone setting
     //if (mPrefs.getBoolean(R.string.pref_notif_enabled_key,Defaults.PREFS_NOTIF_ENABLED,SmsPopupDbAdapter.KEY_ENABLED_NUM)) {
      alarmSoundURI = Uri.parse(ManagePreferences.notifySound());
-    //Uri alarmSoundURI=Uri.parse("file:///sdcard/media/audio/notifications/generalquarter.wav");
     if (Log.DEBUG){ Log.v("Sounds URI = " + alarmSoundURI.toString());}
     //}
     // See if user wants some privacy
@@ -217,8 +216,7 @@ public class ManageNotification {
     if ( ManagePreferences.notifyOverride() || ManagePreferences.notifyEnabled()) { 
       if (ManagePreferences.notifyOverride()) {
         if (Log.DEBUG){ Log.v("OVERRIDE ON: running own mediaplayer");}
-        alarmSoundURI=Uri.parse("file:///sdcard/media/audio/notifications/generalquarter.wav");
-        mMediaPlayer = MediaPlayer.create(context, alarmSoundURI);
+        mMediaPlayer = MediaPlayer.create(context, R.raw.generalquarter);
         mMediaPlayer.setAudioStreamType(AudioManager.STREAM_MUSIC);
         mMediaPlayer.setLooping(false);
         mMediaPlayer.setVolume(1, 1);
