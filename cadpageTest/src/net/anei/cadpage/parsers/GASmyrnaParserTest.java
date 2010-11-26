@@ -3,9 +3,9 @@ package net.anei.cadpage.parsers;
 import org.junit.Test;
 
 
-public class GAOSmyrnaParserTest extends BaseParserTest {
+public class GASmyrnaParserTest extends BaseParserTest {
   
-  public GAOSmyrnaParserTest() {
+  public GASmyrnaParserTest() {
     setParser(new GASmyrnaParser(), "SMYRNA", "GA");
   }
   
