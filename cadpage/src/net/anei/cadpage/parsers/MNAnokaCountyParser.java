@@ -31,23 +31,23 @@ public class MNAnokaCountyParser extends SmartAddressParser {
   public MNAnokaCountyParser() {
     super(DEF_STATE);
   }
-
+  
   @Override
-  public boolean isPageMsg(String body) {
-    return body.contains("CAD MSG: ");
+  public String getFilter() {
+    return "cad.cad@co.anoka.mn.us";
   }
 
   @Override
-  protected void parse(String body, Data data) {
+  protected boolean parseMsg(String body, Data data) {
     data.defState = DEF_STATE;
     data.defCity = DEF_CITY;
     
     // Extract primary call description
     int pt = body.indexOf("CAD MSG: ");
-    if (pt < 0) return;
+    if (pt < 0) return false;
     body = body.substring(pt);
     
-    if (body.length() < 26) return;
+    if (body.length() < 26) return false;
     data.strCall = body.substring(9, 26).trim();
     body = body.substring(26);
     
@@ -97,5 +97,6 @@ public class MNAnokaCountyParser extends SmartAddressParser {
       parseAddress(StartType.START_PLACE, body, data);
       data.strSupp = getLeft();
     }
+    return true;
   }
 }

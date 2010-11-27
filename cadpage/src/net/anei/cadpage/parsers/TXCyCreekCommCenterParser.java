@@ -27,13 +27,7 @@ public class TXCyCreekCommCenterParser extends SmsMsgParser {
   private static final Pattern MARKER = Pattern.compile("\\d\\d/\\d\\d \\d\\d:\\d\\d ");
 
   @Override
-  public boolean isPageMsg(String body) {
-    Matcher match = MARKER.matcher(body);
-    return match.find() && match.start() < 10;
-  }
-
-  @Override
-  protected void parse(String body, Data data) {
+  protected boolean parseMsg(String body, Data data) {
   
     data.defState="TX";
     data.defCity="HARRIS COUNTY";
@@ -41,7 +35,7 @@ public class TXCyCreekCommCenterParser extends SmsMsgParser {
     // Strip message prefix
     
     Matcher match = MARKER.matcher(body);
-    if (!match.find()) return;
+    if (!match.find() || match.start() >= 10) return false;
     int ipt = match.end();
     body = body.substring(ipt);
     if (body.startsWith("Repage: ")) body = body.substring(8);
@@ -51,7 +45,7 @@ public class TXCyCreekCommCenterParser extends SmsMsgParser {
     String sAddr = props.getProperty("Loc", "");
     ipt = sAddr.indexOf(',');
     if (ipt > 0) sAddr = sAddr.substring(0, ipt).trim();
-    parseAddress(sAddr, data);
+    parseAddressCity(sAddr, data);
     if (data.strCity.equals("HC")) data.strCity = "";
     
     data.strMap = props.getProperty("Map", "");
@@ -61,5 +55,6 @@ public class TXCyCreekCommCenterParser extends SmsMsgParser {
     data.strCross = props.getProperty("X-St", "");
     
     if (data.strCall.contains("MA-MUTUAL AID")) data.strCity = "Humble";
+    return true;
   }
 }

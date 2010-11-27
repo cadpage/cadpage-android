@@ -22,14 +22,14 @@ public class NYRockyPointParser extends SmartAddressParser {
   public NYRockyPointParser() {
     super(DEF_STATE);
   }
-
+  
   @Override
-  public boolean isPageMsg(String body) {
-    return body.contains(" . . ");
+  public String getFilter() {
+    return "paging@alpinesoftware.com";
   }
 
   @Override
-  protected void parse(String body, Data data) {
+  protected boolean parseMsg(String body, Data data) {
 
     data.defState=DEF_STATE;
     data.defCity=DEF_CITY;
@@ -37,12 +37,14 @@ public class NYRockyPointParser extends SmartAddressParser {
     Parser p = new Parser(body);
     
     // Drop call time at end of message
-    p.getLastOptional(" . . ");
+    if (p.getLastOptional(" . . ").length() == 0) return false;
 
     // get everything else
     data.strCross = p.getLastOptional(" c/s:");
     data.strCity = p.getLastOptional(',');
     data.strAddress = p.getLastOptional(" at ");
     data.strCall = p.get();
+    
+    return true;
   }
 }

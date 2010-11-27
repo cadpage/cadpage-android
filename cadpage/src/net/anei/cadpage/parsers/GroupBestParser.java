@@ -8,23 +8,27 @@ import net.anei.cadpage.SmsMsgInfo.Data;
  * that accepts each message 
  */
 
-public class GroupBestParser extends GroupBaseParser {
+public class GroupBestParser extends SmsMsgParser {
+  
+  private SmsMsgParser[] parsers;
+  
+  private SmsMsgParser lastParser = null;
   
   public GroupBestParser(SmsMsgParser ... parsers) {
-    super(parsers);
+    this.parsers = parsers;
   }
-  
+
+
   @Override
-  public SmsMsgInfo parse(String body) {
+  public SmsMsgInfo parseMsg(String body) {
 
     SmsMsgParser bestParser = null;
     int bestScore = -1;
     Data bestData = null;
     
-    for (SmsMsgParser parser : getParsers()) {
-      if (parser.isPageMsg(body)) {
-        Data tmp = new Data();
-        parser.parse(body, tmp);
+    for (SmsMsgParser parser : parsers) {
+      Data tmp = new Data();
+      if (parser.parseMsg(body, tmp)) {
         int newScore = tmp.score();
         if (newScore > bestScore) {
           bestParser = parser;
@@ -34,8 +38,23 @@ public class GroupBestParser extends GroupBaseParser {
       }
     }
     
-    setParser(bestParser);
-    if (bestData == null) bestData = new Data();
+    lastParser = bestParser;
+    if (bestData == null) return null;
     return new SmsMsgInfo(bestData);
   }
+
+  // We have to override this to satisfy abstract requirements, but it will
+  // never be called and doesn't have to do anything
+  @Override
+  protected boolean parseMsg(String strMessage, Data data) {
+    return false;
+  }
+  
+  // Override getParserCode to relay request to the parser that really
+  // parsed the information
+  @Override
+  public String getParserCode() {
+    return lastParser.getParserCode();
+  }
+
 }

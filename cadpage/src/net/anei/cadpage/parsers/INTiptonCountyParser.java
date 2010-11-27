@@ -16,7 +16,12 @@ CAD:G49;OUTSIDE FIRE-FIELD/WOODS;6001;6500 N 400 E
 Notes: 4 digit number between description and address should be ignored
 */
 
-public class INTiptonCountyParser extends SmsMsgParser {
+public class INTiptonCountyParser extends SmsMsgParserLegacy {
+  
+  @Override
+  public String getFilter() {
+    return "CAD@tipco.com";
+  }
 
   @Override
   public boolean isPageMsg(String body) {

@@ -22,6 +22,7 @@ CAD:FYI: ;ALARMF;11555 PLEASANT VIEW DR;INDIAN TRL;SMOKE ALARMS GOING OFF IN THE
 CAD:FYI: ;UNKACC;E M36/PETTYS RD;VEHICLE HIT A POLE/ MALE RUNNING E/B FROM SCENE [09/23/10 21:45:06 ECOOK]
 CAD:FYI: ;CHSTPN;8422 PAWNEE TRL;SHOSHONI PASS;[Medical Priority Info] RESPONSE: P1 STA 1 4 5 6 7 8 FC FT RESPONDER SCRIPT: 72 year old, Female, Conscious, Breathing. Chest Pain (Non-Traumatic). Abnormal breathing. Cal
 CAD:FYI: ;UNCON;8732 RIVER VALLEY RD;[Medical Priority Info] RESPONSE: P1 STA 1 2 3 4 5 6 7 8 FC FT RESPONDER SCRIPT: 63 year old, Female, Conscious, Breathing. Unconscious / Fainting (Near). Not alert. Caller Statement: UNCON.
+CAD:FYI: ;HEMLAC;SHEHAN RD/WHITEWOOD RD;[Medical Priority Info]RESPONSE: P1 STA 1 4 5 6 7 8 FC FT RESPONDER SCRIPT: 35 year old, Female, Conscious, Brea
 
 Pagecopy-Fr:CAD@lc911\nCAD:FYI: ;CHSTPN;7251 HAMBURG RD;WELLE RD;[Medical Priority Info] RESPONSE: P1 STA 1 3 4 5 6 7 8 FC FT RESPONDER S
 */
@@ -36,25 +37,27 @@ public class DispatchAParser extends SmsMsgParser {
     this.defState = defState;
   }
 
-  @Override
-  public boolean isPageMsg(String body) {
+  private boolean isPageMsg(String body) {
     int pt = body.indexOf("CAD:");
     if (pt < 0) return false;
     return (pt == 0 || body.charAt(pt-1) == '\n');
   }
 
   @Override
-  protected void parse(String body, Data data) {
+  protected boolean parseMsg(String body, Data data) {
+    
+    if (!isPageMsg(body)) return false;
+    
     data.defState=defState;
     data.defCity = defCity;
     
     body = body.trim();
     String[] AData = body.split(";");
     
-    if (AData.length <= 1) return;
+    if (AData.length <= 1) return false;
     data.strCall = AData[1].trim();
     
-    if (AData.length <= 2) return;
+    if (AData.length <= 2) return false;
     parseAddress(AData[2].replace("-", " "), data);
     
     int ndx = 3;
@@ -69,5 +72,6 @@ public class DispatchAParser extends SmsMsgParser {
        data.strCross += fld;
        ndx++;
     }
+    return true;
   }
 }

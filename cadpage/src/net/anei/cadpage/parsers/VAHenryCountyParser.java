@@ -1,6 +1,5 @@
 package net.anei.cadpage.parsers;
 
-import net.anei.cadpage.Log;
 import net.anei.cadpage.SmsMsgInfo.Data;
 /*
 Henry County, VA (class I)
@@ -18,75 +17,98 @@ sender:  *@ridgewayrescue.com
 (CAD Call) 2010098333\nSUSPICIOUS CIRCUMSTANCES\nDOLLAR GENERAL (MOREHEAD AVE)\n390 MOREHEAD AVE RIDGEWAY\nWHT MALE, DARK SHIRT
 */
 
-public class VAHenryCountyParser extends SmsMsgParser {
+public class VAHenryCountyParser extends SmartAddressParser {
   
-  private static final MatchList cityList = 
-    new MatchList(new String[]
-      {"RIDGEWAY", "MARTINSVILLE", "SPENCER", "BASSETT", "COLLINSVILLE", "FIELDALE", "AXTON"}); 
+  private static final String DEF_STATE = "VA";
+  private static final String DEF_CITY = "HENRY COUNTY";
 
-  @Override
-  public boolean isPageMsg(String body) {
-    return body.startsWith("(CAD Call)");
+  private static final String[] CITY_LIST = new String[]
+      {"RIDGEWAY", "MARTINSVILLE", "SPENCER", "BASSETT", "COLLINSVILLE", "FIELDALE", "AXTON"}; 
+  private static final MatchList CITY_MATCH = new MatchList(CITY_LIST);
+  
+  public VAHenryCountyParser() {
+    super(CITY_LIST, DEF_STATE);
   }
 
   @Override
-  protected void parse(String body, Data data) {
-    Log.v("DecodeHenryCountyPage: Message Body of:" + body);
-    data.defState="VA";
-    data.defCity="HENRY COUNTY";
+  public String getFilter() {
+    return "@ridgewayrescue.com";
+  }
 
-    String addressLine = null;
-    int ndx = 0;
-    for (String line : body.split("\n")) {
-      line = line.trim();
-      ndx++;
-      
-      // First line always contains call ID
-      if (ndx == 1) {
-        if (line.startsWith("(CAD Call)")) line = line.substring(10);
-        data.strCallId = line.trim();
-      }
-      
-      else {
-        
-        // Beyond that, an address line can occur anywhere, so we always
-        // have to check it.  Address line identified when last token matches
-        // one of our cities, and is always the last thing we process
-        int pt = line.lastIndexOf(' ');
-        if (pt >= 0) {
-          String token = line.substring(pt+1);
-          if (cityList.contains(token)) {
-            line = stripAddressName(line.substring(0, pt));
-            parseAddress(line, data);
-            data.strCity = token;
-            break;
-          }
-        }
-        
-        // If not address line, line 2 contains the unit and call description
-        if (ndx == 2) {
-          pt = line.indexOf(' ');
-          if (pt >= 0) {
-            String tmp = line.substring(0, pt);
-            if (tmp.contains("-(")) {
-              data.strUnit = tmp.trim();
-              line = line.substring(pt);
-            }
-          }
-          data.strCall = line.trim();
-        }
-        
-        // Line 3 contains the tentative address line we will use if we don't
-        // find a real address line
-        else if (ndx == 3) {
-          addressLine = line;
+  @Override
+  protected boolean parseMsg(String body, Data data) {
+
+    if (! body.startsWith("(CAD Call)")) return false;
+
+    data.defState=DEF_STATE;
+    data.defCity=DEF_CITY;
+
+    // Split body by newline terminators
+    String[] lines = body.split(" *\n *");
+    
+    // First pass through lines looking for the address line
+    // which we identify because it ends with one of our known city names
+    int addrNdx = -1;
+    for (int ndx = 1; ndx < lines.length; ndx++) {
+      String line = lines[ndx];
+      int pt = line.lastIndexOf(' ');
+      if (pt >= 0) {
+        String token = line.substring(pt+1);
+        if (CITY_MATCH.contains(token)) {
+          addrNdx = ndx;
+          break;
         }
       }
     }
     
-    // If we didn't find a definitive address line, parse the tentative address line
-    if (data.strCity.length() == 0 && addressLine != null) {
-      parseAddress(stripAddressName(addressLine), data);
+    // If we didn't find an address line, pick line 2 if there is one
+    // or the last line if their isn't
+    if (addrNdx < 0) addrNdx = Math.min(2, lines.length-1);
+
+    // Now make a second pass through the lines
+    for (int ndx = 0; ndx < lines.length; ndx++) {
+      String line = lines[ndx];
+      
+      // First line always contains call ID
+      if (ndx == 0) {
+        if (line.startsWith("(CAD Call)")) line = line.substring(10).trim();
+        data.strCallId = line;
+      }
+      
+      // If not address line, line 2 contains the unit and call description
+      else if (ndx == 1 && ndx < addrNdx) {
+        int pt = line.indexOf(' ');
+        if (pt >= 0) {
+          String tmp = line.substring(0, pt);
+          if (tmp.contains("-(")) {
+            data.strUnit = tmp.trim();
+            line = line.substring(pt+1);
+          }
+        }
+        data.strCall = line.trim();
+      }
+      
+      // Beyond the second line, any line before the address line contains a place name
+      else if (ndx < addrNdx) {
+        if (data.strPlace.length() > 0) data.strPlace += ' ';
+        data.strPlace += line;
+      }
+      
+      // When we get to the address line, use the smart address parser to pick
+      // the beginning of the address from any preceding place names.  Unless we
+      // already have a place name, in which case address must start the line
+      else if (ndx == addrNdx) {
+        StartType start = (data.strPlace.length() > 0 ? StartType.START_ADDR : StartType.START_PLACE);
+        parseAddress(start, line, data);
+      }
+      
+      // Lines beyond the address line go into supplemental info
+      else {
+        if (data.strSupp.length() > 0) data.strSupp += " / ";
+        data.strSupp += line;
+      }
     }
+    
+    return true;
   }
 }

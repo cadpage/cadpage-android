@@ -21,19 +21,21 @@ CAD:MAN POWER SEARCH CHILD;698 MASSIE RD;CHARLOTTESVILLE VA;MASSIE RD;ARLINGTON 
  */
 
 public class VAAccomackCountyParser extends SmsMsgParser {
-
-    @Override
-    public boolean isPageMsg(String body) {
-      return body.startsWith("CAD:");
-    }
+  
+  @Override
+  public String getFilter() {
+    return "cad@esva911.org";
+  }
 
   @Override
-  protected void parse(String body, Data data) {
+  protected boolean parseMsg(String body, Data data) {
+    
+    if (! body.startsWith("CAD:")) return false;
 
     data.defState="VA";
     data.defCity="ACCOMACK COUNTY";
 
-    if (body.length() < 4) return;
+    if (body.length() < 4) return false;
     
     String[] lines = body.substring(4).split(";");
     int ndx = 0;
@@ -85,5 +87,6 @@ public class VAAccomackCountyParser extends SmsMsgParser {
         break;
       }
     }
+    return true;
   }
 }

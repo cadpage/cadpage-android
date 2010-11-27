@@ -3,10 +3,12 @@ package net.anei.cadpage.parsers;
 import java.util.HashSet;
 import java.util.Properties;
 import java.util.Set;
-import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import net.anei.cadpage.ManageParsers;
+import net.anei.cadpage.SmsMmsMessage;
 import net.anei.cadpage.SmsMsgInfo;
+import net.anei.cadpage.SmsPopupUtils;
 import net.anei.cadpage.SmsMsgInfo.Data;
 
 
@@ -19,26 +21,81 @@ public abstract class SmsMsgParser {
   public static final Pattern NUMERIC = Pattern.compile("\\b\\d+\\b");
   
   /**
-   * @return true if this message contain the text phrases that indicate it is 
-   * a valid page message
-   */
-  public abstract boolean isPageMsg(String msgText);
-  
-  /**
    * build information object
    * @param strMessage SMS message text to be parsed
+   * @return new message information object if successful, false otherwise
    */
-  public SmsMsgInfo parse(String strMessage) {
+  protected SmsMsgInfo parseMsg(String strMessage) {
     
     // Decode the call page and place the data in the database
 
-    SmsMsgInfo.Data data = new SmsMsgInfo.Data();
-    parse(strMessage, data);
+    Data data = new Data();
+    if (! parseMsg(strMessage, data)) return null;
     return new SmsMsgInfo(data);
   }
 
-  protected abstract void parse(String strMessage, Data data);
+  /**
+   * Parse information object from message
+   * @param strMessage message text to be parsed
+   * @param data data object to be constructed
+   * @return true if successful, false otherwise
+   */
+  protected abstract boolean parseMsg(String strMessage, Data data);
   
+  /**
+   * @return Filter associated with this parser
+   */
+  public String getFilter() {
+    return "";
+  }
+  
+  
+  /**
+   * Determine if message is a valid CAD message for this parser, and parse
+   * all information from the message if it is
+   * @param msg message to be parsed
+   * @return true if this message contain the text phrases that indicate it is 
+   * a valid page message
+   */
+  public boolean isPageMsg(SmsMmsMessage msg) {
+    return isPageMsg(msg, true, false);
+  }
+  
+  
+  /**
+   * Determine if message is a valid CAD message for this parser, and parse
+   * all information from the message if it is
+   * @overrideFilter true if parser filters should be overridden
+   * @genAlert true if general alerts should be accepted
+   * @param msg message to be parsed
+   * @return true if this message contain the text phrases that indicate it is 
+   * a valid page message
+   */
+  public boolean isPageMsg(SmsMmsMessage msg, boolean overrideFilter, boolean genAlert) {
+
+    // If parser filter is not being overridden, and the message address does not
+    // the parser filter, message should be rejected
+    String filter = getFilter();
+    if (! overrideFilter && ! SmsPopupUtils.matchFilter(msg.getAddress(), filter)) return false;
+    
+    // See what the parseMsg method thinks of this
+    String msgBody = msg.getMessageBody();
+    SmsMsgInfo info = parseMsg(msgBody);
+    
+    // If this isn't a valid CAD page, see if we should treat it as a general alert
+    // If not then return failure
+    if (info == null) {
+      if (!overrideFilter && genAlert && getFilter().length() > 1) {
+        return ManageParsers.getInstance().getAlertParser().isPageMsg(msg);
+      }
+      return false;
+    }
+    
+    // Save parser code and information object in message so we won't have to
+    // go through all of this again
+    msg.setParserInfo(getParserCode(), info);
+    return true;
+  }
 
   /**
    * Convenience method to identify a page message by checking to see if
@@ -128,37 +185,50 @@ public abstract class SmsMsgParser {
      }
      return props;
  }
- 
+
  /**
-  * Attempt to strip off any place names that are ahead of a real address
-  * @param address suspected name and address line
-  * @return the stripped address line
+  * Parse address line into address and city fields treating anything behind a
+  * dash as a city
+  * @param addressLine address line to be parsed
+  * @param data message info object to be filled
   */
- protected static String stripAddressName(String address) {
-   
-   // If we find a numeric token, assumed to be a house number
-   // strip everything in front of it
-   Matcher match = NUMERIC.matcher(address);
-   if (match.find()) address = address.substring(match.start());
-   return address;
+ protected static void parseAddressCity(String addressLine, SmsMsgInfo.Data data) {
+   parseAddress(addressLine, data, true); 
+ }
+
+ /**
+  * Parse address line into address fields
+  * @param addressLine address line to be parsed
+  * @param data message info object to be filled
+  */
+ protected static void parseAddress(String addressLine, SmsMsgInfo.Data data) {
+   parseAddress(addressLine, data, false); 
  }
 
  /**
   * Parse address line into address and city fields
   * @param addressLine address line to be parsed
+  * @param data message info object to be filled
+  * @param parseCity true if cities should be parsed with dashes
   */
- protected static void parseAddress(String addressLine, SmsMsgInfo.Data data) {
+ private static void parseAddress(String addressLine, SmsMsgInfo.Data data, 
+                                     boolean parseCity) {
    addressLine = addressLine.trim();
+   
+   // Periods used with abbreviations also cause trouble.  Just get rid of all periods
+   addressLine = addressLine.replaceAll("\\.", "");
+
    for (String addr : addressLine.split("/")) {
-     String[] tmp = addr.split("-");
-     if (data.strAddress.length() > 0) data.strAddress += " & ";
-     data.strAddress += tmp[0].trim();
-     if (tmp.length > 1) {
-       tmp[1] = tmp[1].trim();
-       int pta = tmp[1].indexOf(" ");
-       if (pta <=0) pta = tmp[1].length();
-       data.strCity = tmp[1].substring(0,pta);
+     addr = addr.trim();
+     if (parseCity) {
+       int pt = addr.lastIndexOf('-');
+       if (pt > 0) {
+         data.strCity = addr.substring(pt+1).trim();
+         addr = addr.substring(0, pt).trim();
+       }
      }
+     if (data.strAddress.length() > 0) data.strAddress += " & ";
+     data.strAddress += addr;
    }
  }
 

@@ -25,22 +25,23 @@ HOUSE FIRE . . SMOKE IN THE HOUSE at 2764 MARTIN AVENUE. . 17:09:53
 public class NYBelmoreParser extends SmsMsgParser {
   
   private static final Pattern EOL_MARK = Pattern.compile(". . \\d\\d:\\d\\d:\\d\\d *$");
-
-    @Override
-    public boolean isPageMsg(String body) {
-      if (! body.contains(" at ")) return false;
-      return EOL_MARK.matcher(body).find();
-    }
+  
+  @Override
+  public String getFilter() {
+    return "paging@alpinesoftware.com";
+  }
 
   @Override
-  protected void parse(String body, Data data) {
+  protected boolean parseMsg(String body, Data data) {
+    
+    if (! body.contains(" at ")) return false;
 
     data.defState="NY";
     data.defCity="BELMORE";
     
     // Strip off trailing time mark
     Matcher match = EOL_MARK.matcher(body);
-    if (! match.find()) return;
+    if (! match.find()) return false;
     body = body.substring(0, match.start()).trim();
     
     Parser p = new Parser(body);
@@ -56,5 +57,6 @@ public class NYBelmoreParser extends SmsMsgParser {
     if (data.strAddress.startsWith("intersection of ")) {
       data.strAddress = data.strAddress.substring(16).trim();
     }
+    return true;
   }
 }

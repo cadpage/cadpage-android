@@ -2,7 +2,6 @@ package net.anei.cadpage.parsers;
 
 import java.util.Properties;
 
-import net.anei.cadpage.Log;
 import net.anei.cadpage.SmsMsgInfo.Data;
 /*
 Madison County (Alexandria), IN
@@ -17,17 +16,18 @@ Unit:AM45 UnitSts: Loc:124 DARIN CT Venue:RICHLA TWP Inc:SEIZURE Date:10/29/2010
 
 public class INMadisonCountyParser extends SmsMsgParser {
   
-  private static final String[] keywords = new String[] {"Unit", "UnitSts", "Loc", "Venue", "Inc", "Date", "Addtl"};
-                                                      
-
+  private static final String[] keywords = new String[] {"Unit", "UnitSts", "Loc", "Venue", "Inc", "Date", "Time", "Addtl"};
+  
   @Override
-  public boolean isPageMsg(String body) {
-    return body.startsWith("Unit:");
+  public String getFilter() {
+    return "Mplus@madisoncty.com";
   }
-
+ 
   @Override
-  protected void parse(String body, Data data) {
-    Log.v("DecodeMadisonCountyPage: Message Body of:" + body);
+  protected boolean parseMsg(String body, Data data) {
+
+    if (! body.startsWith("Unit:")) return false;
+    
     data.defState="IN";
     data.defCity = "MADISON COUNTY";
     
@@ -36,5 +36,14 @@ public class INMadisonCountyParser extends SmsMsgParser {
     data.strUnit = props.getProperty("Unit", "");
     parseAddress(props.getProperty("Loc", ""), data);
     data.strCall = props.getProperty("Inc", "");
+    
+    String sTime = props.getProperty("Time", "");
+    if (sTime.length() > 6) data.strSupp  = sTime.substring(6).trim();
+    String sAddtl = props.getProperty("Addtl", "");
+    if (sAddtl.length() > 0) {
+      if (data.strSupp.length() > 0) data.strSupp += ' ';
+      data.strSupp += sAddtl;
+    }
+    return true;
   }
 }

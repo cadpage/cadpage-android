@@ -34,14 +34,14 @@ public class ORWashingtonCountyParser extends SmartAddressParser {
   public ORWashingtonCountyParser() {
     super(DEF_STATE);
   }
-
+  
   @Override
-  public boolean isPageMsg(String body) {
-    return body.contains(" MAP:");
+  public String getFilter() {
+    return "930010";
   }
 
   @Override
-  protected void parse(String body, Data data) {
+  protected boolean parseMsg(String body, Data data) {
 
     data.defState=DEF_STATE;
     data.defCity=DEF_CITY;
@@ -60,7 +60,9 @@ public class ORWashingtonCountyParser extends SmartAddressParser {
     
     parseAddress(StartType.START_CALL, p.get(), data);
     
-    data.strMap = props.getProperty("MAP", "");
+    data.strMap = props.getProperty("MAP");
+    if (data.strMap == null) return false;
     data.strUnit = props.getProperty("UNIT", "");
+    return true;
   }
 }

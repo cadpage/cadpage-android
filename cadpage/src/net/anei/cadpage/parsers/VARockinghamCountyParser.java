@@ -58,20 +58,20 @@ public class VARockinghamCountyParser extends SmartAddressParser {
     super(CITY_CODE_TABLE, DEF_STATE);
     buildCallDictionary();
   }
-
+  
   @Override
-  public boolean isPageMsg(String body) {
-    return MARKER.matcher(body).find();
+  public String getFilter() {
+    return "messaging@iamresponding.com,mailbox@hrecc.org";
   }
   
   @Override
-  protected void parse(String body, Data data) {
+  protected boolean parseMsg(String body, Data data) {
     data.defCity=DEF_CITY;
     data.defState=DEF_STATE;
     
     // Locate the marker to determine where our part of the message starts
     Matcher match = MARKER.matcher(body);
-    if (! match.find()) return;
+    if (! match.find()) return false;
     body = body.substring(match.end()).trim();
     
     // Adjust it a bit and parse out the main fields
@@ -113,6 +113,8 @@ public class VARockinghamCountyParser extends SmartAddressParser {
     
     // Either way, we need to convert the city code
     data.strCity = convertCodes(data.strCity, CITY_CODE_TABLE);
+    
+    return true;
   }
   
   // This is a list of all of the expected call descriptions indexed by the first

@@ -134,7 +134,7 @@
        Does not need to be kept up to date with recent codes -->
   <string-array name="pref_location_legacy">
     <item>VALoudounCounty</item>
-    <item>NYSuffolkCounty</item>
+    <item>NYBrentwood</item>
     <item>TXCyCreekCommCenter</item>
     <item>ORBentonCounty</item>
     <item>NYHerkimerCounty</item>
@@ -180,6 +180,7 @@
     <item>NYBrentwood</item>
     <item>NYDixHills</item>
     <item>NYHerkimerCounty</item>
+    <item>NYHolbrook</item>
     <item>NYKingston</item>
     <item>NYOneidaCounty</item>
     <item>NYOrleansCounty</item>
@@ -224,6 +225,7 @@
     <item>Brentwood, NY</item>
     <item>Dix Hills, NY</item>
     <item>Herkimer County, NY</item>
+    <item>Holbrook, NY</item>
     <item>Kingston, NY</item>
     <item>Oneida County, NY</item>
     <item>Orleans County, NY</item>

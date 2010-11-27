@@ -1,6 +1,5 @@
 package net.anei.cadpage.parsers;
 
-import net.anei.cadpage.Log;
 import net.anei.cadpage.SmsMsgInfo.Data;
 /*
 Prineville, OR
@@ -13,21 +12,25 @@ Neither of these maps, sloppy addresses
 */
 
 public class ORPrinevilleParser extends SmsMsgParser {
-
+  
   @Override
-  public boolean isPageMsg(String body) {
-    return body.startsWith("(PPD)");
+  public String getFilter() {
+    return "dispatch@prinevillepd.org";
   }
 
   @Override
-  protected void parse(String body, Data data) {
-    Log.v("decodePrinevillePage: Message Body of:" + body);
+  protected boolean parseMsg(String body, Data data) {
+    
+    if (!body.startsWith("(PPD)")) return false;
+    
     data.defState = "OR";
     data.defCity = "PRINEVILLE";
     
     String[] lines = body.split("\n");
-    if (lines.length > 2) data.strCall = lines[2];
-    if (lines.length > 4) parseAddress(lines[4], data);
+    if (lines.length <= 4) return false;
+    data.strCall = lines[2].trim();
+    parseAddress(lines[4].trim(), data);
     if (lines.length > 5) data.strCity = lines[5];
+    return true;
   }
 }

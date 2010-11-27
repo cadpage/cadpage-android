@@ -52,14 +52,13 @@
    <string name="pref_button3_key">button3</string>
    <string name="pref_donate_key">donate</string>
    <string name="pref_donated_key">donated</string>
-   <string name="pref_quickreply_key">quickreply</string>
-   <string name="pref_quickreply_cat_key">qrcat</string>
    <string name="pref_delivery_report_key">deliveryreport</string>
-   <string name="pref_split_message_key">splitmessage</string>    
    <string name="pref_autorotate_key">autorotate</string>
    <string name="pref_screen_on_key">screenon</string>
    <string name="pref_location_key">location</string>
+   <string name="pref_override_filter_key">override_filter</string>
    <string name="pref_filter_key">filter</string>
+   <string name="pref_gen_alert_key">gen_alert</string>
    <string name="pref_useGoogleMapApp_key">useGoogleMapApp</string>
    <string name="pref_testmsg_key">testmsg</string>
    <string name="pref_email_key">emaildev</string>

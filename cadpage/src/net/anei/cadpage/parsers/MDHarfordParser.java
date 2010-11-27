@@ -35,20 +35,21 @@ public class MDHarfordParser extends SmartAddressParser {
   public MDHarfordParser() {
     super(CITY_LIST, DEF_STATE);
   }
-  @Override
-  public boolean isPageMsg(String body) {
-    return body.contains("[!] EOC:");
+  
+  public String getFilter() {
+    return "@c-msg.net";
   }
 
   @Override
-  protected void parse(String body, Data data) {
+  protected boolean parseMsg(String body, Data data) {
+
+    if (!body.contains("[!] EOC:")) return false;
     
     data.defCity = DEF_CITY;
     data.defState=DEF_STATE;
     
     // First token following EOC: is the unit
     int pt = body.indexOf("EOC:");
-    if (pt < 0) return;
     body = body.substring(pt+4).trim();
     pt = body.indexOf(' ');
     data.strUnit = body.substring(0, pt);
@@ -65,5 +66,7 @@ public class MDHarfordParser extends SmartAddressParser {
     Properties props = parseMessage(body, KEYWORDS);
     data.strBox = props.getProperty("BOX", "");
     data.strCallId = props.getProperty("Cad", "");
+    
+    return true;
   }
 }

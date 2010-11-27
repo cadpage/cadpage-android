@@ -22,18 +22,15 @@ public class MDCentrevilleParser extends SmartAddressParser {
   }
 
   @Override
-  public boolean isPageMsg(String body) {
-    return body.startsWith("qac911:*D ");
-  }
+  protected boolean parseMsg(String body, Data data) {
 
-  @Override
-  protected void parse(String body, Data data) {
+    if (!body.startsWith("qac911:*D ")) return false;
 
     data.defState=DEF_STATE;
     data.defCity=DEF_CITY;
     
     // Strip off prefix
-    if (body.length() <= 10) return;
+    if (body.length() <= 10) return false;
     body = body.substring(10);
     
     // Sometimes that use an @ to mark the start of the address
@@ -54,5 +51,6 @@ public class MDCentrevilleParser extends SmartAddressParser {
     
     // OK, go do your magic!!
     parseAddress(sType, body, data);
+    return true;
   }
 }

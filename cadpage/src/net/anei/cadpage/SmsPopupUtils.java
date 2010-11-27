@@ -260,4 +260,31 @@ public class SmsPopupUtils {
   private static final Pattern GPSPattern = 
     Pattern.compile("\\b([+-]?[0-9]+\\.[0-9]+)\\W+([+-]?[0-9]+\\.[0-9]+)\\b");
 
+  /**
+   * Determine if message address matches address filter
+   * @param sAddress message address
+   * @param sFilter address filter
+   * @return true if message address satisfies filter
+   */
+  public static boolean matchFilter(String sAddress, String sFilter) {
+    
+    if (sFilter == null) return true;
+    
+    // A filter with length of 0 or 1 is invalid and is always passed
+    if (sFilter.length() <= 1) return true;
+    
+    // Filter can consist of multiple address filters separated by comas
+    for (String tFilter : sFilter.split(",")) {
+      tFilter = tFilter.trim();
+      
+      // A subfilter with length of 0 or 1 is invalid and is ignored
+      // Doing otherwise makes it too difficult to determine whether or not
+      // an active filter is in lplace
+      if (tFilter.length() <= 1) continue;
+      
+      // Otherwise filter is passed if it matches any substring in the address 
+      if (sAddress.contains(tFilter)) return true;
+    }
+    return false;
+  }
 }

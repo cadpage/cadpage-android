@@ -29,12 +29,9 @@ public class TXLongviewParser extends SmartAddressParser {
   }
 
   @Override
-  public boolean isPageMsg(String body) {
-    return body.startsWith("RC:Run# ");
-  }
+  protected boolean parseMsg(String body, Data data) {
 
-  @Override
-  protected void parse(String body, Data data) {
+    if (! body.startsWith("RC:Run# ")) return false;
 
     data.defCity=DEF_CITY;
     data.defState=DEF_STATE;
@@ -55,22 +52,22 @@ public class TXLongviewParser extends SmartAddressParser {
         break;
       }
     }
-    if (timeLine == -1) return;
+    if (timeLine == -1) return false;
     
     // Field in front of time marker is always the city
     int ndx = timeLine-1;
-    if (ndx < 0) return;
+    if (ndx < 0) return false;
     data.strCity = flds[ndx];
     
     // Field in front of that is usually the address, but may contain an apartment number
-    if (--ndx < 0) return;
+    if (--ndx < 0) return false;
     fld = flds[ndx];
     if (fld.toUpperCase().contains("APT")) {
       pt = fld.lastIndexOf(':');
       if (pt < 0) pt = fld.lastIndexOf(' ');
       if (pt >= 0) {
         data.strApt = fld.substring(pt+1).trim();
-        if (--ndx < 0) return;
+        if (--ndx < 0) return false;
       }
     }
     
@@ -90,5 +87,6 @@ public class TXLongviewParser extends SmartAddressParser {
       if (data.strSupp.length() > 0) data.strSupp += "/";
       data.strSupp += flds[ndx];
     }
+    return true;
   }
 }

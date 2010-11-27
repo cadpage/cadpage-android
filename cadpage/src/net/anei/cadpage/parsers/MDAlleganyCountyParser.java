@@ -21,7 +21,7 @@ WARNING!!  Sending the following message crashes the emulator
 FRM:LogiSYSCAD\nSUBJ:CAD Page for CFS 110510-132\nMSG:AUTOMATIC HOUSE ALARM 150 MAPLE ST\x09Units: ENG16 TR16 ENG17
 */
 
-public class MDAlleganyCountyParser extends SmsMsgParser {
+public class MDAlleganyCountyParser extends SmsMsgParserLegacy {
   
   // Pattern matching a sequence of two or more blanks
   protected static final Pattern MULT_BLANKS = Pattern.compile("  +");

@@ -12,7 +12,7 @@ We use Cisco Public Safety�s ECAD program to page out CFS events.  CAD does se
 "Ct:OTHER FIRE      Loc:5980 WILMINGTON PIKE         Apt:      XSt:CLYO RD         WILMINGTON PIKE Grid:003A Units:72                                        Rmk:"
 ***/
 
-public class OHSugarCreekParser extends SmsMsgParser {
+public class OHSugarCreekParser extends SmsMsgParserLegacy {
 
   private static final String[]SugarCreekkeywords = new String[]{"Ct", "Loc", "Apt", "XSt", "Grid", "Units"};
 

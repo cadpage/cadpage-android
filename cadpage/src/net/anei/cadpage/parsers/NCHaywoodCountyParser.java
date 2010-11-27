@@ -32,21 +32,23 @@ Call time
 Street not
 */
 
-
 public class NCHaywoodCountyParser extends SmsMsgParser {
 
   @Override
-  public boolean isPageMsg(String body) {
-    return body.startsWith("CAD:");
-  } 
+  public String getFilter() {
+    return "CAD@haywoodnc.net";
+  }
 
 
   @Override
-  protected void parse(String body, Data data) {
+  protected boolean parseMsg(String body, Data data) {
+    
+    if (! body.startsWith("CAD:")) return false;
+    
     data.defState="NC";
     data.defCity = "HAYWOOD COUNTY";
 
-    if (body.length() < 4) return;
+    if (body.length() < 4) return false;
     String[] lines = body.substring(4).split(";");
     int ndx = 0;
     for (String line : lines) {
@@ -101,6 +103,8 @@ public class NCHaywoodCountyParser extends SmsMsgParser {
         
       if (ndx > 4) break;
     }
+    
+    return true;
   }
 
 

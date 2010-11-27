@@ -18,14 +18,17 @@ Sender: cc_message_notification@usamobility.net
 
 public class VAPrinceWilliamCountyParser extends SmsMsgParser {
 
-  @Override
-  public boolean isPageMsg(String body) {
+
+  private boolean isPageMsg(String body) {
     return body.length() > 20 && body.charAt(11) == '/' && body.charAt(20) == '/';
   } 
 
 
   @Override
-  protected void parse(String body, Data data) {
+  protected boolean parseMsg(String body, Data data) {
+    
+    if (!isPageMsg(body)) return false;
+    
     data.defState="VA";
     data.defCity = "PRINCE WILLIAM COUNTY";
 
@@ -76,6 +79,7 @@ public class VAPrinceWilliamCountyParser extends SmsMsgParser {
         break;
       }
     }
+    return true;
   }
   
   // See if this is an address termination field

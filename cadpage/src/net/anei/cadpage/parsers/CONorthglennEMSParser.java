@@ -1,6 +1,5 @@
 package net.anei.cadpage.parsers;
 
-import net.anei.cadpage.Log;
 import net.anei.cadpage.SmsMsgInfo.Data;
 /*
 Northglenn and Comerce City (Adams County), CO
@@ -14,20 +13,21 @@ sender: dispatch@northglennambulance.com
 */
 
 public class CONorthglennEMSParser extends SmsMsgParser {
-
+  
   @Override
-  public boolean isPageMsg(String body) {
-    return body.contains("RC:Run# ");
+  public String getFilter() {
+    return "dispatch@northglennambulance.com";
   }
 
   @Override
-  protected void parse(String body, Data data) {
-    Log.v("DecodeAdamsCountyPage: Message Body of:" + body);
+  protected boolean parseMsg(String body, Data data) {
+
     data.defState="CO";
     data.defCity = "ADAMS COUNTY";
     
     int pt = body.indexOf("RC:Run# ");
-    if (pt < 0) return;
+    if (pt < 0) return false;
+    
     body = body.substring(pt+8);
     int ndx = 0;
     for (String line : body.split("/+")) {
@@ -50,5 +50,6 @@ public class CONorthglennEMSParser extends SmsMsgParser {
         break;
       }
     }
+    return true;
   }
 }

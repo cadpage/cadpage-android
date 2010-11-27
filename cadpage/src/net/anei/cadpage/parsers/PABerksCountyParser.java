@@ -25,28 +25,23 @@ public class PABerksCountyParser extends SmsMsgParser {
   private static final Pattern MUNI_CODE_PAT = Pattern.compile(" 00\\d\\d ");
 
   @Override
-  public boolean isPageMsg(String body) {
-    return body.contains("CAD MSG: ");
-  }
-
-  @Override
-  protected void parse(String body, Data data) {
+  protected boolean parseMsg(String body, Data data) {
     data.defState = DEF_STATE;
     data.defCity = DEF_CITY;
 
     // Strip off any prefix
     int pt = body.indexOf("CAD MSG: ");
-    if (pt < 0) return;
+    if (pt < 0) return false;
     body = body.substring(pt);
     
     // Extract primary call description
-    if (body.length() < 20) return;
+    if (body.length() < 20) return false;
     data.strCall = body.substring(9, 20).trim();
     body = body.substring(20);
     
     // Look for a 4 digit station ID, this marks the end of the address
     Matcher match = MUNI_CODE_PAT.matcher(body);
-    if (! match.find()) return;
+    if (! match.find()) return false;
     
     String muniCode = body.substring(match.start()+1, match.end()-1);
     int iMuniCode = Integer.parseInt(muniCode);
@@ -69,6 +64,8 @@ public class PABerksCountyParser extends SmsMsgParser {
     
     // Anything beyond that is supplemental info
     data.strSupp = body.replaceAll("//+", "/");
+    
+    return true;
   }
   
   private static final int FIRST_MUNI_CODE = 19;

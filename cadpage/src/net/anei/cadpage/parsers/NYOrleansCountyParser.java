@@ -36,36 +36,27 @@ public class NYOrleansCountyParser extends SmsMsgParser {
   });
   
   private static final Pattern MAP_PATTERN = Pattern.compile("\\b\\d{1,2}-?[A-Za-z]-?\\d\\b");
-
+  
   @Override
-  public boolean isPageMsg(String body) {
-    
-    // Not much to identify these.  Find second semicolon and check the the
-    // token in front of it is 3 character city code
-    int pt = body.indexOf(';');
-    if (pt < 0) return false;
-    pt = body.indexOf(';', pt+1);
-    if (pt < 0) return false;
-    while (body.charAt(pt-1) == ' ') pt--;
-    if (pt < 3) return false;
-    String code = body.substring(pt-3, pt);
-    return CITY_CODES.containsKey(code);
+  public String getFilter() {
+    return "ocdispatch@orleansny.com";
   }
 
   @Override
-  protected void parse(String body, Data data) {
+  protected boolean parseMsg(String body, Data data) {
     data.defState="NY";
     data.defCity = "ORLEANS COUNTY";
     
     String[] flds = body.split(";");
     data.strCall = flds[0].trim();
     
-    if (flds.length <= 1) return;
+    if (flds.length <= 1) return false;
     String fld = flds[1].trim();
     int pt = fld.lastIndexOf(' ');
-    if (pt < 0) return;
+    if (pt < 0) return false;
     data.strAddress = fld.substring(0, pt).trim().replace("/", "&");
-    data.strCity = convertCodes(fld.substring(pt+1), CITY_CODES);
+    data.strCity = CITY_CODES.getProperty(fld.substring(pt+1));
+    if (data.strCity == null) return false;
     
     // Anything else is extra info
     for (int ndx = 2; ndx < flds.length; ndx++) {
@@ -85,5 +76,6 @@ public class NYOrleansCountyParser extends SmsMsgParser {
       else if (part1.length() == 0) data.strSupp = part2;
       else data.strSupp = part1 + " " + part2;
     }
+    return true;
   }
 }

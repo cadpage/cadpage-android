@@ -14,7 +14,7 @@ o;?WHIF:2010:0644\nDispatched\nMVA-PI\nHUGHES ST, WHITESBORO VILLAGE/ WEST ST, W
 
 */
 
-public class NYOneidaCountyParser extends SmsMsgParser {
+public class NYOneidaCountyParser extends SmsMsgParserLegacy {
 
   @Override
   public boolean isPageMsg(String body) {

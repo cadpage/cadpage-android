@@ -21,12 +21,9 @@ public class GAOconeeCountyParser extends SmartAddressParser {
   }
 
   @Override
-  public boolean isPageMsg(String body) {
-    return body.startsWith("OCSO E911:");
-  }
+  protected boolean parseMsg(String body, Data data) {
 
-  @Override
-  protected void parse(String body, Data data) {
+    if (!body.startsWith("OCSO E911:")) return false;
 
     data.defState=DEF_STATE;
     data.defCity=DEF_CITY;
@@ -39,7 +36,7 @@ public class GAOconeeCountyParser extends SmartAddressParser {
     if (body.toUpperCase().startsWith("RETURN PHONE:")) {
       body = body.substring(13).trim();
       ipt = body.indexOf(' ');
-      if (ipt <= 0) return;
+      if (ipt <= 0) return false;
       data.strPhone = body.substring(0, ipt);
       body = body.substring(ipt+1).trim();
     }
@@ -50,12 +47,14 @@ public class GAOconeeCountyParser extends SmartAddressParser {
     
     // Next should be a 7 digit numeric value that we want to skip
     ipt = body.indexOf(' ');
-    if (ipt < 0) return;
+    if (ipt < 0) return true;
     if (NUMERIC.matcher(body.substring(0,ipt)).matches()) {
       body = body.substring(ipt+1).trim();
     }
     
     // Everything else is a cross street
     data.strCross = body;
+    
+    return true;
   }
 }

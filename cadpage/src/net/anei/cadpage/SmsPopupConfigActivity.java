@@ -1,12 +1,12 @@
 package net.anei.cadpage;
 
-import java.io.File;
-
+import net.anei.cadpage.parsers.SmsMsgParser;
 import net.anei.cadpage.preferences.AppEnabledCheckBoxPreference;
 import net.anei.cadpage.preferences.DialogPreference;
+import net.anei.cadpage.preferences.EditTextPreference;
+import net.anei.cadpage.preferences.ListPreference;
 import android.app.AlertDialog;
 import android.app.Dialog;
-import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -15,8 +15,8 @@ import android.preference.Preference;
 import android.preference.PreferenceActivity;
 import android.preference.PreferenceCategory;
 import android.preference.PreferenceManager;
+import android.preference.Preference.OnPreferenceChangeListener;
 import android.preference.Preference.OnPreferenceClickListener;
-import android.telephony.TelephonyManager;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.View;
@@ -26,6 +26,11 @@ import android.widget.Button;
 public class SmsPopupConfigActivity extends PreferenceActivity {
   private static final int DIALOG_DONATE = Menu.FIRST;
   private Preference donateDialogPref = null;
+  
+  private String parserFilter = "";
+  private CheckBoxPreference overrideFilterPref;
+  private EditTextPreference filterPref;
+  private CheckBoxPreference genAlertPref;
 
   @Override
   public void onCreate(Bundle savedInstanceState) {
@@ -44,6 +49,49 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
       (DialogPreference) findPreference(getString(R.string.pref_about_key));
     aboutPref.setDialogTitle(SmsPopupUtils.getNameVersion(this));
     aboutPref.setDialogLayoutResource(R.layout.about);
+    
+    // The location, filter override checkbox, and filter edit box have a complex
+    // relationship.  The override checkbox is enabled only when the location parser
+    // has a default parser to override.  If it doesn't then it is disabled by forced
+    // to true.  The filter is enabled when the override box is checked, whether it
+    // is enabled or not.  We have to do this ourselves because the Android dependency
+    // logic considers the value to be false if it isn't enabled.
+    
+    // On top of all that, the general alert box is enabled only if the current
+    // parser has a default filter OR a user filter has been specified
+
+    genAlertPref = (CheckBoxPreference)
+        findPreference(getString(R.string.pref_gen_alert_key));
+    filterPref = (EditTextPreference)findPreference(getString(R.string.pref_filter_key));
+    filterPref.setOnPreferenceChangeListener(new OnPreferenceChangeListener(){
+      @Override
+      public boolean onPreferenceChange(Preference preference, Object newValue) {
+        String filter = (String)newValue;
+        genAlertPref.setEnabled(filter.length() > 1 || parserFilter.length() > 0);
+        return true;
+      }
+    });
+
+    overrideFilterPref = (CheckBoxPreference)
+        findPreference(getString(R.string.pref_override_filter_key));
+    filterPref.setEnabled(overrideFilterPref.isChecked());
+    overrideFilterPref.setOnPreferenceChangeListener(new OnPreferenceChangeListener(){
+      @Override
+      public boolean onPreferenceChange(Preference preference, Object newValue) {
+        filterPref.setEnabled((Boolean)newValue);
+        return true;
+      }
+    });
+    ListPreference locationPref = (ListPreference)
+        findPreference(getString(R.string.pref_location_key));
+    adjustLocationChange(locationPref.getValue(), false);
+    locationPref.setOnPreferenceChangeListener(new OnPreferenceChangeListener(){
+      @Override
+      public boolean onPreferenceChange(Preference preference, Object newValue) {
+        adjustLocationChange((String)newValue, true);
+        return true;
+      }
+    });
 
     // Test message response
     Preference testmsgPref = findPreference(getString(R.string.pref_testmsg_key));
@@ -73,34 +121,41 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
         }
       });
     }
+  }
 
-    // Split long messages preference (for some CDMA carriers like Verizon)
-    CheckBoxPreference splitLongMessagesPref =
-      (CheckBoxPreference) findPreference(getString(R.string.pref_split_message_key));
-
-    // This pref is only shown for CDMA phones
-    if (splitLongMessagesPref != null) {
-      TelephonyManager mTM = (TelephonyManager) getSystemService(Context.TELEPHONY_SERVICE);
-      if (mTM.getPhoneType() != TelephonyManager.PHONE_TYPE_CDMA) {
-        PreferenceCategory quickreplyPrefCategory =
-          (PreferenceCategory) findPreference(getString(R.string.pref_quickreply_cat_key));
-        quickreplyPrefCategory.removePreference(splitLongMessagesPref);
-        splitLongMessagesPref = null;
-      }
+  /**
+   * Make any necessary adjustments necessary
+   * when the location preference is changed
+   * @param location new location preference value
+   * @param change true if location value has been changed
+   */
+  private void adjustLocationChange(String location, boolean change) {
+    
+    // Get the parser and see if it has a default filter
+    // Save it in parserFilter so other preferences know what it is
+    SmsMsgParser parser = ManageParsers.getInstance().getParser(location);
+    parserFilter = parser.getFilter();
+    
+    // If the parser has a filter, enable the override checkbox, set its value to true
+    // And insert the default filter value in the summary off message
+    // And unilaterally enable the general alert box
+    if (parserFilter.length() > 0) {
+      overrideFilterPref.setEnabled(true);
+      if (change) overrideFilterPref.setChecked(false);
+      overrideFilterPref.setSummaryOff(getString(R.string.pref_override_filter_summaryoff, parserFilter));
+      filterPref.setEnabled(overrideFilterPref.isChecked());
+      genAlertPref.setEnabled(true);
     }
-
-    // Opening and closing the database will trigger the update or create
-    // TODO: this should be done on a separate thread to prevent "not responding" messages
-    SmsPopupDbAdapter mDbAdapter = new SmsPopupDbAdapter(this);
-    mDbAdapter.open(true); // Open database read-only
-    mDbAdapter.close();
-
-    installNotification();
-    // Eula.show(this);
-
-    //    for (int i=0; i<1000; i++) {
-    //      new SmsMessageSender(this, new String[] {"12345"}, "message " + i, 10).sendMessage();
-    //    }
+    
+    // If there is no parser filter, the override box is disabled but forced to true
+    // the general alert box is enabled only if the user filter
+    else {
+      overrideFilterPref.setEnabled(false);
+      overrideFilterPref.setChecked(true);
+      filterPref.setEnabled(true);
+      String filter = filterPref.getText();
+      genAlertPref.setEnabled(filter.length() > 1);
+    }
   }
 
   @Override
@@ -160,7 +215,7 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
     return super.onCreateDialog(id);
   }
   
-  // If location code changes durring this session, force a rebuild of
+  // If location code changes during this session, force a rebuild of
   // the call history data on the off chance that a general format message
   // can use the new location code.
   private String oldLocation = null;
@@ -178,18 +233,4 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
       SmsMessageQueue.getInstance().notifyDataChange();
     }
   }
-
-  private void installNotification() {
-		File fAlert = new File("/sdcard/media/audio/notifications/generalquarter.wav");
-		if (fAlert.exists()){
-			if (Log.DEBUG) {Log.v("Notification File Already exists. Not Installing");}
-		} else {
-			if (Log.DEBUG) {Log.v("Installing Notofication.");}
-			utils myutils = new utils();
-				myutils.saveas(this,R.raw.generalquarter);
-
-			 
-		}
-	}
-
 }

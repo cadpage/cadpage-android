@@ -15,22 +15,25 @@ Sender: alerts@corvallis.ealertgov.com
 */
 
 public class ORBentonCountyParser extends SmsMsgParser {
-
+  
   @Override
-  public boolean isPageMsg(String body) {
-    return body.startsWith("(Corvallis Alert)");
+  public String getFilter() {
+    return "alerts@corvallis.ealertgov.com";
   }
 
   @Override
-  protected void parse(String body, Data data) {
-    
+  protected boolean parseMsg(String body, Data data) {
+    if (!body.startsWith("(Corvallis Alert)")) return false;
+
     Log.v("DecodeBentonCo: Message Body of:" + body);
     data.defState="OR";
     data.defCity="BENTON COUNTY";
     Properties props = parseMessage(body, "\n");
     
-    data.strCall=props.getProperty("INC", "");
-    data.strAddress=props.getProperty("ADD", "");
+    data.strCall=props.getProperty("INC", null);
+    data.strAddress=props.getProperty("ADD", null);
+    if (data.strCall == null || data.strAddress == null) return false;
+    
     int pt = data.strAddress.lastIndexOf(' ');
     if (pt >= 0) {
       String token = data.strAddress.substring(pt+1);
@@ -44,6 +47,8 @@ public class ORBentonCountyParser extends SmsMsgParser {
     data.strApt =props.getProperty("APT", "");
     data.strCross=props.getProperty("X", "");
     data.strMap=props.getProperty("MAP", "");
-    data.strCallId = props.getProperty("CFS", ""); 
+    data.strCallId = props.getProperty("CFS", "");
+    
+    return true;
   }
 }

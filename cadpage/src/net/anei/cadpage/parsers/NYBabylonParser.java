@@ -26,7 +26,7 @@ import net.anei.cadpage.SmsMsgInfo.Data;
 
 */
 
-public class NYBabylonParser extends SmsMsgParser {
+public class NYBabylonParser extends SmsMsgParserLegacy {
   
   private static final String[] keywords = new String[]{"ADDR", "CS", "TOA", "FC", "HY"};
   

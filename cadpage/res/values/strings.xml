@@ -14,19 +14,6 @@
    <string name="notification_scroll">%s</string>
    <string name="notification_scroll_privacy">New Call:</string>
 
-<!-- Button Strings    
-   <string name="button_reply">Reply</string>
-   <string name="button_inbox">Inbox</string>
-   <string name="button_delete">Delete</string>
-   <string name="button_next">Next</string>
-   <string name="button_previous">Previous</string>
-   <string name="button_unlock">Unlock</string>
-   <string name="button_tts">Text-to-speech</string>
-   
-   <string name="button_speak">Speak</string>
-   <string name="button_delete_noconfirm">Delete (no confirmation)</string>
-   <string name="button_quickreply">Quick Reply</string>
-   -->
    <string name="button_disabled">Disabled</string>
    <string name="button_view">View</string>
    <string name="button_view_mms">View MMS</string>
@@ -111,7 +98,7 @@
    <string name="pref_blur_summaryoff">The background behind the message window will not be blurred</string>
 
 <!-- Notification Preferences -->
-   <string name="pref_notif_title">Notifications</string>
+   <string name="pref_notif_title">Notification Settings</string>
    <string name="pref_notif_summary">Notification configuration</string>
    
    <!-- Category headings -->
@@ -335,10 +322,20 @@
     <string name="pref_location">location</string>
     <string name="pref_location_title">Location</string>
     <string name="pref_location_summary">Cur location: %s</string>
+    
+    <string name="pref_override_filter_title">Override location filter</string>
+    <string name="pref_override_filter_summaryon">Location filter will be overridden</string>
+    <string name="pref_override_filter_summaryoff">Location filter %s is active</string>
+    
     <string name="pref_filter_title">From: (Filter)</string>
     <string name="pref_filter_summary">Only Messages from this address will be checked.  Cur value: %s</string>
-    <string name="pref_filter_dialog">Enter Email addres to filter messages. * will scan all. Use a , to separate multiple addresses.</string>
+    <string name="pref_filter_dialog">Enter Email address to filter messages. No entry will scan all. Use a , to separate multiple addresses.</string>
     <string name="pref_filter">*</string>
+    
+    <string name="pref_gen_alert_title">Process general alerts</string>
+    <string name="pref_gen_alert_summaryon">Will process general alerts</string>
+    <string name="pref_gen_alert_summaryoff">Will not process general alerts</string>
+    
     <string name="app_file_dir">/Android/data/cadpage/files/</string>
     <string name="app_file_name">callhistory.csv</string>
     <string name="exit">Exit</string>
@@ -376,6 +373,6 @@
     <string name="pref_callback_summary">When configured there will be a &quot;Phone&quot; button configured to call this number.  Cur value: %s</string>
     
     <!-- Location settings -->
-    <string name="pref_location_screen_title">Location Information</string>
+    <string name="pref_location_screen_title">Location Settings</string>
     <string name="pref_location_screen_summary">CAD Page Processing Details</string>
 </resources>

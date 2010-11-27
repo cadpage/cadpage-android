@@ -40,20 +40,23 @@ Subject:Station24 Fire Call<br>\n Initial Type: ACCUNK     Final Type: ACCUNK  (
 
 
 public class PAChesterCountyParser extends SmsMsgParser {
+  
+  @Override
+  public String getFilter() {
+    return "station24@comcast.net";
+  }
+
 
   @Override
-  public boolean isPageMsg(String body) {
-    return body.contains("Initial Type:") && body.contains("Final Type:");
-  } 
-
-
-  @Override
-  protected void parse(String body, Data data) {
+  protected boolean parseMsg(String body, Data data) {
+    
+    if (!body.contains("Initial Type:")) return false;
+    
     data.defState="PA";
     data.defCity = "CHESTER COUNTY";
 
     int pt = body.indexOf("Final Type:"); 
-    if (pt < 0) return;
+    if (pt < 0) return false;
     body = body.substring(pt+6);
 
     // Replace key chars for easier parsing
@@ -71,7 +74,7 @@ public class PAChesterCountyParser extends SmsMsgParser {
     parseAddress(sAddress, data);
     
     data.strSupp = props.getProperty("AKA", "");
-
+    
+    return true;
   }
-
 } 

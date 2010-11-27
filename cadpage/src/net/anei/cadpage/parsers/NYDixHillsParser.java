@@ -24,27 +24,30 @@ public class NYDixHillsParser extends SmartAddressParser {
   public NYDixHillsParser() {
     super(DEF_STATE);
   }
-
+  
   @Override
-  public boolean isPageMsg(String body) {
-    return body.length() > 22 && body.substring(17, 22).equals(" *** ");
+  public String getFilter() {
+    return "paging@dixhillsfd.xohost.com";
   }
 
   @Override
-  protected void parse(String body, Data data) {
+  protected boolean parseMsg(String body, Data data) {
+    
+    if (body.length() < 22 ||! body.substring(17, 22).equals(" *** ")) return false;
     data.defState=DEF_STATE;
     data.defCity=DEF_CITY;
     body = body.trim();
-    if (body.length() < 11) return;
+    if (body.length() < 11) return false;
     data.strCallId = body.substring(0,11);
     int pt = body.indexOf("***");
-    if (pt < 0) return;
+    if (pt < 0) return false;
     int pta = body.indexOf("***",pt+3); 
-    if (pta < 0) return;
+    if (pta < 0) return false;
     data.strCall = body.substring(pt+3, pta).trim();
     body = body.substring(pta+3).trim();
     body = cleanup(body);
     parseAddress(StartType.START_ADDR, body, data);
+    return true;
   }
     
     // For some totally bizarre reason, the first street of an intersection is

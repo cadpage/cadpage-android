@@ -39,14 +39,16 @@ public class NYHerkimerCountyParser extends SmartAddressParser {
   public NYHerkimerCountyParser() {
     super(CITY_LIST, DEF_STATE);
   }
-
+  
   @Override
-  public boolean isPageMsg(String body) {
-    return body.contains(" Grids:");
+  public String getFilter() {
+    return "HC911@herkimercounty.org";
   }
 
   @Override
-  protected void parse(String body, Data data) {
+  protected boolean parseMsg(String body, Data data) {
+    
+    if (! body.contains(" Grids:")) return false;
     
     data.defState=DEF_STATE;
     data.defCity = DEF_CITY;
@@ -57,7 +59,7 @@ public class NYHerkimerCountyParser extends SmartAddressParser {
     // First field is the hardest
     // Parse call description from front
     String line = props.getProperty("Loc", "");
-    if (line.length() < 10) return;
+    if (line.length() < 10) return false;
     if (line.charAt(0) == '(') {
       int pt = line.indexOf(')');
       if (pt >= 1) {
@@ -74,5 +76,7 @@ public class NYHerkimerCountyParser extends SmartAddressParser {
     
     // Strip CAD number off end of message
     data.strCallId = props.getProperty("Cad", "");
+    
+    return true;
   }
 }

@@ -33,12 +33,10 @@ public class NCMaconCountyParser extends SmartAddressParser {
   }
 
   @Override
-  public boolean isPageMsg(String body) {
-    return body.startsWith("911 CENTER:");
-  }
-
-  @Override
-  protected void parse(String body, Data data) {
+  protected boolean parseMsg(String body, Data data) {
+    
+    if (! body.startsWith("911 CENTER:")) return false;
+    
     data.defState = DEF_STATE;
     data.defCity = DEF_CITY;
     
@@ -47,5 +45,6 @@ public class NCMaconCountyParser extends SmartAddressParser {
     
     String line = props.getProperty("Call", "");
     parseAddress(StartType.START_CALL, line, data);
+    return true;
   }
 }

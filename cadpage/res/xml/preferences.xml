@@ -256,13 +256,29 @@
       android:entryValues="@array/pref_location_values"
       android:dialogTitle="Select Location"
       android:defaultValue="General" />
+      
+      <CheckBoxPreference
+          android:key="@string/pref_override_filter_key"
+          android:title="@string/pref_override_filter_title"
+          android:summaryOn="@string/pref_override_filter_summaryon"
+          android:summaryOff="@string/pref_override_filter_summaryoff"
+          android:defaultValue="@string/pref_override_filter_default" />
+      
       <net.anei.cadpage.preferences.EditTextPreference  
-                           android:dialogTitle="From: (Filter)"
-                           android:dialogMessage="@string/pref_filter_dialog"
-                           android:key="@string/pref_filter_key"
-                           android:title="@string/pref_filter_title"
-                           android:summary="@string/pref_filter_summary"
-                           android:defaultValue="*"/>
+          android:dialogTitle="From: (Filter)"
+          android:dialogMessage="@string/pref_filter_dialog"
+          android:key="@string/pref_filter_key"
+          android:title="@string/pref_filter_title"
+          android:summary="@string/pref_filter_summary"
+          android:defaultValue=""/>
+      
+      <CheckBoxPreference
+          android:key="@string/pref_gen_alert_key"
+          android:title="@string/pref_gen_alert_title"
+          android:summaryOn="@string/pref_gen_alert_summaryon"
+          android:summaryOff="@string/pref_gen_alert_summaryoff"
+          android:defaultValue="@string/pref_gen_alert_default" />
+                          
       <net.anei.cadpage.preferences.EditTextPreference  
           android:dialogTitle="Callback"
           android:dialogMessage="@string/pref_callback_dialog"
@@ -270,10 +286,12 @@
           android:title="@string/pref_callback_title"
           android:summary="@string/pref_callback_summary"
           android:defaultValue="" />
+          
       <Preference
         android:key="@string/pref_testmsg_key"
         android:title="@string/pref_testmsg_title" >
       </Preference>
+      
     </PreferenceScreen>
     
   </PreferenceCategory>

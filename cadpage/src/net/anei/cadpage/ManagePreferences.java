@@ -2,7 +2,6 @@ package net.anei.cadpage;
 
 import java.util.Map;
 
-import net.anei.cadpage.parsers.SmsMsgParser;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.os.Build;
@@ -13,7 +12,7 @@ public class ManagePreferences {
   // Preference version.  This needs to be incremented every time a new
   // configuration setting is added to force it to initialize properly
   // when the new release is first run.
-  private static final int PREFERENCE_VERSION = 3;
+  private static final int PREFERENCE_VERSION = 4;
   
   private static ManagePreferences prefs;
 
@@ -90,8 +89,16 @@ public class ManagePreferences {
     return prefs.getString(R.string.pref_location);
   }
   
+  public static boolean overrideFilter() {
+    return prefs.getBoolean(R.string.pref_override_filter_key);
+  }
+  
   public static String filter() {
     return prefs.getString(R.string.pref_filter_key);
+  }
+  
+  public static boolean genAlert() {
+    return prefs.getBoolean(R.string.pref_gen_alert_key);
   }
   
   public static boolean notifyEnabled() {
@@ -198,10 +205,6 @@ public class ManagePreferences {
   public static int historyCount() {
     return Integer.parseInt(prefs.getString(R.string.pref_history_limit_key));
   }
-
-  public static SmsMsgParser getParser() {
-    return getParser(location());
-  }
   
   public static boolean showButtons() {
     return prefs.getBoolean(R.string.pref_show_buttons_key);
@@ -222,22 +225,6 @@ public class ManagePreferences {
     default:    // Anything else is disabled
       return 0;
     }
-  }
-  
-  private static String saveLocation = null;
-  private static SmsMsgParser saveParser = null;
-  public static SmsMsgParser getParser(String location) {
-    if (location == null) location = location();
-    if (saveLocation == null || ! location.equals(saveLocation)) {
-      String className = "net.anei.cadpage.parsers." + location + "Parser";
-      try {
-        saveParser = (SmsMsgParser)Class.forName(className).newInstance();
-      } catch (Exception ex) {
-        throw new RuntimeException(ex);
-      }
-      saveLocation = location;
-    }
-    return saveParser;
   }
 
   public static String getCallback() {

@@ -18,40 +18,29 @@ All calls in Erie County, New York. Town of Clarence Center.
 */
 
 
-public class NYAmherstParser extends SmartAddressParser {
-
-	
-	  @Override
-	  public boolean isPageMsg(String body) {
-		  return body.startsWith("CLA ");
-	  }
+public class NYAmherstParser extends SmsMsgParser {
+  
+    private static final Pattern BOX = Pattern.compile("\\s[A-Z][A-Z][A-Z]\\.?\\s");
 
 	  @Override
-	  protected void parse(String body, Data data) {
+	  protected boolean parseMsg(String body, Data data) { 
+
+	    if (! body.startsWith("CLA ")) return false;
+
 	    data.defState="NY";
 	    data.defCity="AMHERST";
 	    
-	    if (body.contains("CLA ")){
-	    body = body.substring(3);
-	    body = body.trim();
-	    }
+	    body = body.substring(4).trim();
 	    String strAddr = "";
-
-	    Pattern BOX = Pattern.compile("\\s[A-Z][A-Z][A-Z]");
+	    
 	    Matcher match = BOX.matcher(body);
-	    if (match.find()) {
-	      strAddr = body.substring(0,match.start());
-	      data.strCall = body.substring(match.start());
-	    }
-	    data.strCall = data.strCall.trim();
+	    if (!match.find()) return false;
+	    strAddr = body.substring(0,match.start()).trim();
+	    data.strCall = body.substring(match.start()).trim();
 	    
-	    strAddr = strAddr.trim();
+	    parseAddress(strAddr, data);
 	    
-	    parseAddress(StartType.START_ADDR, strAddr, data);
-	    data.strAddress = data.strAddress.replaceAll("\\.", "");
-
-
-
+	    return true;
 	  }
 	}
 	

@@ -15,12 +15,10 @@ import net.anei.cadpage.SmsMsgInfo.Data;
 public class COGreeleyParser extends SmsMsgParser {
 
   @Override
-  public boolean isPageMsg(String body) {
-    return body.contains(",TEXT:");
-  }
+  protected boolean parseMsg(String body, Data data) {
+    
+    if (!body.contains(",TEXT:")) return false;
 
-  @Override
-  protected void parse(String body, Data data) {
     data.defState="CO";
     data.defCity = "Greeley";
     String[] flds = body.split(",");
@@ -34,5 +32,7 @@ public class COGreeleyParser extends SmsMsgParser {
     Parser p = new Parser(body);
     p.get("TEXT:");
     data.strSupp = p.get("\\COMP:");
+    
+    return true;
   }
 }

@@ -12,7 +12,7 @@ import net.anei.cadpage.SmsMsgInfo.Data;
 
 ((2203) BKIN/ ) Unit:ENG6 UnitSts: Loc:89 NEWKIRK AV XSts:HASBROUCK AV/MAPLE  Venue:King City Inc:Struct Fir Date:11/05/2010 Time:21:39 BASEMENT FULL OF SMOKE ***/
 
-public class NYKingstonParser extends SmsMsgParser {
+public class NYKingstonParser extends SmsMsgParserLegacy {
 
   private static final String[]Kingstonkeywords = new String[]{"Unit","UnitSts","Loc", "XSts", "Venue", "Inc","Date", "Time"};
 

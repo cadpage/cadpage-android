@@ -84,7 +84,6 @@ public class SmsMmsMessage implements Serializable {
     if (msgId > 0) SmsMessageQueue.getInstance().notifyDataChange();
   }
 
-
   /**
    * Construct SmsMmsMessage given a raw message (created from pdu), used for when
    * a message is initially received via the network.
@@ -143,13 +142,10 @@ public class SmsMmsMessage implements Serializable {
     //  contactName = fromAddress.trim();
     //  fromEmailGateway = true;
     }
-
- 
   }
 
   /**
-   * Construct SmsMmsMessage for getSmsDetails() - info fetched from the SMS
-   * database table
+   * Construct dummy SmsMmsMessage test notifications 
    */
   public SmsMmsMessage(String _fromAddress, String _messageBody,
       long _timestamp, int _messageType) {
@@ -159,7 +155,15 @@ public class SmsMmsMessage implements Serializable {
     messageFull = _messageBody;
     timestamp = _timestamp;
     messageType = _messageType;
+    location = "GeneralAlert";
   }
+  
+
+  public void setParserInfo(String location, SmsMsgInfo info) {
+    this.location = location;
+    this.info = info;
+  }
+
 
   public long getTimestamp() {
     return timestamp;
@@ -206,13 +210,15 @@ public class SmsMmsMessage implements Serializable {
     
     // Some special logic if the previous location was General
     // And the current location code preference is not general
-    // And this message text is a valid message faor this location code
-    // then clear the cached location and information and get it again
+    // And this message text is a valid message for this location code
+    // then use the results of the new location code.
+    // NOTE: Our location and info members will be set as a side effect of
+    // a successful isPageMsg call
     if (location != null && location.equals("General")) {
-      if (! ManagePreferences.location().equals("General")) {
-        if (ManagePreferences.getParser().isPageMsg(messageFull)) {
-          location = null;
-          info = null;
+      String curLocCode = ManagePreferences.location();
+      if (! curLocCode.equals("General")) {
+        if (ManageParsers.getInstance().getParser(curLocCode).isPageMsg(this)) {
+          return info;
         }
       }
     }
@@ -220,10 +226,18 @@ public class SmsMmsMessage implements Serializable {
     // If we don't have an info object, get a new one
     // If we have a historical location code, use it
     // Otherwise use the current configured location code.
+    // Again, location and info members are set as a side effect of a successful
+    // isPageMsg method call
     if (info == null) {
-      SmsMsgParser parser = ManagePreferences.getParser(location);
-      info = parser.parse(messageBody);
-      if (location == null) location = parser.getParserCode();
+      SmsMsgParser parser = ManageParsers.getInstance().getParser(location);
+      if (! parser.isPageMsg(this)) {
+        
+        // It is almost impossible for the the parser call to fail for a
+        // message where it previously succeeded.  But if it happens
+        // try again with the general alert parser, which will never fail
+        parser = ManageParsers.getInstance().getAlertParser();
+        parser.isPageMsg(this);
+      }
     }
     return info;
   }

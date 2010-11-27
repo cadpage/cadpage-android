@@ -1,6 +1,5 @@
 package net.anei.cadpage.parsers;
 
-import net.anei.cadpage.Log;
 import net.anei.cadpage.SmsMsgInfo.Data;
 /*
 Lancaster County, PA
@@ -22,16 +21,17 @@ then the time of dispatch.
 */
 
 public class PALancasterCountyParser extends SmsMsgParser {
-                                                      
-
+  
   @Override
-  public boolean isPageMsg(String body) {
-    return body.startsWith("(") && body.contains("~");
+  public String getFilter() {
+    return "911@lcwc911.us";
   }
 
   @Override
-  protected void parse(String body, Data data) {
-    Log.v("DecodeLancasterCountyPage: Message Body of:" + body);
+  protected boolean parseMsg(String body, Data data) {
+    
+    if (!body.startsWith("(") || ! body.contains("~")) return false;
+    
     data.defState="PA";
     data.defCity = "LANCASTER COUNTY";
     
@@ -74,5 +74,6 @@ public class PALancasterCountyParser extends SmsMsgParser {
         break;
       }
     }
+    return true;
   }
 }

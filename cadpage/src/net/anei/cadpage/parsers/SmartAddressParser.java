@@ -114,7 +114,8 @@ public abstract class SmartAddressParser extends SmsMsgParser {
         "PIKE",
         "COURT", "CT",
         "TER", "TERR",
-        "HWY");
+        "HWY",
+        "MALL");
     setupDictionary(ID_ROUTE_PFX, "RT", "ST", "SRT", "US", "FS", "INTERSTATE", "I", "HW", "HWY", "STHWY", "CO", "CR");
     setupDictionary(ID_DIRECTION, "N", "NE", "E", "SE", "S", "SW", "W", "NW");
     setupDictionary(ID_CONNECTOR, "AND", "/", "&");
@@ -190,8 +191,20 @@ public abstract class SmartAddressParser extends SmsMsgParser {
    * numeric value in which higher values indicate better addresses
    */
   protected int checkAddress(String address) {
+    return checkAddress(address, 0);
+  }
+  
+  /**
+   * Determine if a string looks like a valid address
+   * @param address Address string to be checked
+   * @param extra number of extra tokens (presumably city names) that can
+   * be ignored at the end of the line
+   * @return zero if string is not recognized as valid address, otherwise a
+   * numeric value in which higher values indicate better addresses
+   */
+  protected int checkAddress(String address, int extra) {
     int result = parseAddress(StartType.START_ADDR, 0, address);
-    if (endAll < tokens.length) result = 0;
+    if (tokens.length-endAll > extra) result = 0;
     return result;
   }
 
@@ -254,6 +267,9 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     // Make sure any / or & character will parse by itself
     // Before we do that we have to protect the C/S cross street indicator
     address = address.replaceAll(" C/S ", " XS: ").replaceAll("/", " / ").replaceAll("&", " & ");
+    
+    // Periods used with abbreviations also cause trouble.  Just get rid of all periods
+    address = address.replaceAll("\\.", "");
     
     // Parse line into tokens and categorize each token
     // While we are doing this, identify the index of the last city
@@ -329,7 +345,9 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     // If field starts with address this has to be the first token
     // Exception, numeric fields that follow a route prefix are part
     // of a road name and cannot be a house number.
-    
+    // Exception to exception, CO is a valid route prefix, but it could also
+    // be an abbreviation for COMPANY in a prefix name.  So we won't count it
+    // as a route prefix
     int sAddr = startAddress >= 0 ? startAddress : isFlagSet(FLAG_START_FLD_REQ) ? 1 : 0;
     int sEnd;
     while (true) {
@@ -337,7 +355,8 @@ public abstract class SmartAddressParser extends SmsMsgParser {
         
         if (sAddr >= tokens.length) return false;
         if (isType(sAddr, ID_NUMBER)) {
-          if (sAddr > 0 && isType(sAddr-1, ID_ROUTE_PFX)) return false;
+          if (sAddr > 0 && isType(sAddr-1, ID_ROUTE_PFX) && 
+              !tokens[sAddr-1].equalsIgnoreCase("CO")) return false;
           break;
         }
         if (startAddress >= 0) return false;

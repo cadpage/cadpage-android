@@ -6,17 +6,15 @@ import net.anei.cadpage.SmsMsgInfo.Data;
 public class GeneralParser extends SmartAddressParser {
 
   @Override
-  public boolean isPageMsg(String body) {
+  protected boolean parseMsg(String body, Data data) {
     
     // Accept anything, but only if there is a valid sender filter
-    return (ManagePreferences.filter().length() > 1);
-  }
-
-  @Override
-  protected void parse(String body, Data data) {
+    if (ManagePreferences.filter().length() <= 1) return false;
 
     // Lets see what the smart parser can make of this
     body = body.replaceAll("\n", " ");
     parseAddress(StartType.START_CALL, body, data);
+    
+    return true;
   }
 }

@@ -34,12 +34,9 @@ public class NYBrentwoodParser extends SmartAddressParser {
   }
 
   @Override
-  public boolean isPageMsg(String body) {
-    return body.startsWith("TYPE:");
-  }
+  protected boolean parseMsg(String body, Data data) {
 
-  @Override
-  protected void parse(String body, Data data) {
+    if (! body.startsWith("TYPE:")) return false;
   
     data.defState=DEF_STATE;
     data.defCity=DEF_CITY;
@@ -66,5 +63,7 @@ public class NYBrentwoodParser extends SmartAddressParser {
     data.strMap = props.getProperty("CODE", "");
     
     data.strCity = convertCodes(data.strCity, cityCodeTable);
+    
+    return true;
   }
 }
