@@ -37,12 +37,10 @@ public class VAPittsylvaniaCountyParser extends SmsMsgParser {
         });
 
   @Override
-  public boolean isPageMsg(String body) {
-    return body.contains(":CAD:");
-  }
-
-  @Override
-  protected void parse(String body, Data data) {
+  protected boolean parseMsg(String body, Data data) {
+    
+    if (!body.contains(":CAD:")) return false;
+    
     data.defState = "VA";
     data.defCity = "PITTSYLVANIA";
     // Needs some massaging before it can be run through the standard parser
@@ -58,5 +56,6 @@ public class VAPittsylvaniaCountyParser extends SmsMsgParser {
     	if (idx > 1 && (idx+8 < body.length())){ data.strSupp = body.substring(idx); data.strSupp=data.strSupp.trim();}
     }
     data.strCity = convertCodes(data.strCity, PITTSCityCodes);
+    return true;
   }
 }
