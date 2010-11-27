@@ -34,7 +34,7 @@ public class NYAmherstParserTest extends BaseParserTest {
     doTest("T5",
     	    "CLA Salt rd. & County rd. MVA. 1/2 mile north of county.",
     	    "CALL:MVA. 1/2 mile north of county.",
-    	    "ADDR:Salt rd / County rd"
+    	    "ADDR:Salt rd & County rd"
     	    );	
     
     
