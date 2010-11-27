@@ -312,7 +312,7 @@
     </PreferenceScreen>
     <net.anei.cadpage.preferences.DialogPreference
       android:key="@string/pref_about_key"
-      android:dialogIcon="@drawable/cadpage_icon"
+      android:dialogIcon="@drawable/ic_launcher"
       android:title="@string/pref_about_title"
       android:dialogTitle="@string/app_name"
       android:summary="@string/pref_about_summary"

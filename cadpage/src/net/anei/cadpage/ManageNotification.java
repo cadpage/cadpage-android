@@ -89,7 +89,7 @@ public class ManageNotification {
      */
 
     // Set the icon, scrolling text and timestamp
-    n.notification.icon = R.drawable.stat_notify_sms;
+    n.notification.icon = R.drawable.ic_stat_notify;
     n.notification.tickerText = scrollText;
     n.notification.when = timestamp;
 

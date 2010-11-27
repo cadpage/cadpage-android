@@ -206,7 +206,7 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
         });
 
         return new AlertDialog.Builder(this)
-        .setIcon(R.drawable.cadpage_icon)
+        .setIcon(R.drawable.ic_launcher)
         .setTitle(R.string.pref_donate_title)
         .setView(donateView)
         .setPositiveButton(android.R.string.ok, null)
