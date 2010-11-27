@@ -200,6 +200,7 @@
     <item>VAAccomackCounty</item>
     <item>VAHenryCounty</item>
     <item>VALoudounCounty</item>
+    <item>VAPittsylvaniaCounty</item>
     <item>VAPrinceWilliamCounty</item>
     <item>VARockinghamCounty</item>
     </string-array>
@@ -245,6 +246,7 @@
     <item>Accomack County, VA</item>
     <item>Henry County, VA</item>
     <item>Loudoun, VA</item>
+    <item>Pittsylvania County, VA</item>
     <item>Prince William County, VA</item>
     <item>Rockingham County, VA</item>
   </string-array>
