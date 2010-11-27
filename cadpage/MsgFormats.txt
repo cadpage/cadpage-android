@@ -275,6 +275,15 @@ Sussex County, DE (DESussexCountyParser)
 [86 EMS] -- 17A1 -- 18958 Coastal Hwy Lewes
 [86 Fire] -- F - Auto Fire Alarm -- Hallmark, Parcel Post, Safeway -- 19266 Coastal Hwy Rehoboth -- INC #602
 [86 Fire] -- F - Standby -- Bethany Beach Station 70 Rehoboth Beach -- INC #599
+[87 EMS] -- 1A Abdominal Pains (ALS) -- 6412 Woodduck Dr Seaford de, 19973
+[87 FIRE] -- Smoke Investigation -- 6341 Baker Rd Seaford de, 19973
+***************************************************************************
+Pittsylvania County, VA (VAPittsylvaniaCountyParser)
+701:CAD:TRAFFIC ACCIDENT PI;100 MALMAISON RD/U S HIGHWAY NO 29; BLA
+700:CAD:ABDOMINAL DISTRESS; 701 E WITT RD;BLA;WITT LN;MOUNT VIEW RD;[Medical Priority Info] PROBLEM:CHEST HURTING #PATS: 1 AGE: 77 Years SEX: Male
+699:CAD:RESPIRATORY DISTRESS;600 NORTH POINTE LN;DAN;SEMINOLE DR;[Medical Priority Info] PROBLEM: TROUBLE BREATHING #PATS: 1 AGE: 5 Months SEX
+698:CAD:RESPIRATORY DISTRESS;1000 LAWLESS CREEK RD;BLA;PRITCHETT LN;DAKE DR;[Medical Priority Info] PROBLEM: DIFF BREATHING #PATS: 1 AGE: 13 Y
+***************************************************************************
 ***************************************************************************
 ***************************************************************************
 ***************************************************************************
@@ -300,7 +309,7 @@ SIG16A 30 HARBOR NORTH C/S OF S. BAYVIEW TO THE DEAD END DIABETIC COMA TOA 20:24
  SIG 16 182  MERRICK RD C/S BROADWAY AND WEST HIGH SCHOOL PARKING LOT A/F SICK TOA 21:41
  SIG 16 ER DOX 365 BROADWAY CROSS STREETS OF DIXION AND ALBANY TOA 13:46 RUN#10-1229
 **********************************************************
-Allegheny County, PA (need more examples and more information)
+Allegheny County, PA (need more examples and more information) (notice: 11/27)
 Contact: Anthony Cuda <acuda@wpahs.org>
 ALLEGHENY COUNTY 911 :FRCOM3, F1, POSS FIRE COM - SMELL OF SMOKE/BLDG ENDG, SHARPSBURG TOWERS #902, SHP, at 601 MAIN ST #902, SHP, btwn S MAIN ST and 7TH ST, NFD3, 265002, CALLER REPORTING A STRONG SMELL OF "SCHLAK" PAINT OR AMMONIA IN THE BUILDING. CALLER WAS ADVISED TO EVAC, Units:102EN1, 111EN1, 149EN1, 191EN1,
 ALLEGHENY COUNTY 911 :NGASRES, F1, NATURAL GAS SMELL/LEAK RES BLDG, 40 EASTON RD, FOX, btwn CHAPEL OAK RD and OLD MILL RD, ON THE STREET, IN FRONT OF, NFD3, 157001, Medical ProQA recommends dispatch at this time, Units:102EN1, 157EN1, 172EN1 - From 405 11/11/2010 12:17:38 TXT STOP to opt-out
@@ -310,40 +319,17 @@ Contact: "Cuda, Anthony" <acuda@ccac.edu>
 Sender: 777008816418
 191001, GARAGE ON FIRE, Units:102EN1, 149EN1, 191EN1, 191TK1, 240SQ1, 247TK1, 259EN1, 260TK1, 312RQ40 - From 405 11/13/2010 06:43:58 TXT STOP to opt-out
 **********************************************************
-Niagra County, NY (major parsing issues !!)
+Niagra County, NY (major parsing issues !!) (notice 11/27)
 Contact: 7167992315@vtext.com
 ((12474) NCFC MMYERS ) 3111 Sndrs Stlmnt Rd-NCCC-C Bldg unk age f labor pains no further info. BLSP EMS/Air Ops. 1617hrs numerous other calls in cnty. From email 7164383393@niagaracounty.com
 (10444 NCFC JBEILEIN ) DUERO/WILLIAMS  MVA W MINOR INJURIES. From email 7164383393@niagaracounty.com
 (550 NCFC RZASTROW ) 1-AMB TO MVA WITH SHAWNEE/LKPT & SHAWNEE RDS. From email 7164383393@niagaracounty.com
 **********************************************************
-Contact: David baker <baker.davidm@gmail.com>
+Contact: David baker <baker.davidm@gmail.com> (notice 11/27)
 Sender: qac911@atlanticbb.net <From%3Aqac911@atlanticbb.net>
 (Text Message) qac911:*D 4-2 CO ALARM 212 NORTHFIELD WAY LOCAL BOX Q04
 **********************************************************
 **********************************************************
-**********************************************************
-Combo group Seaford and Sussex County, DE (in progress)
-Contact: "Calvin Yelverton" <cyelverton@seaford87.com>
-Sender: msg@cfmsg.org, msg@cfmsg.net, msg@cfmsg.com
-
-Seaford, DE 
-
-204a is an appt number
-
-[87 EMS] -- 1A Abdominal Pains (ALS) -- 6412 Woodduck Dr Seaford de, 19973
-[87 FIRE] -- Smoke Investigation -- 6341 Baker Rd Seaford de, 19973
-[87 EMS] -- 6A Breathing Problems (ALS) -- 24642 Shufelt Rd Seaford de, 19973
-[87 FIRE] -- Assist Other Agency -- Hickory Hill Rd/ Guard Rd Seaford de, 19973
-[87 EMS] -- 33A Interfacility (ALS) -- 715 E King St 204a Seaford de, 19973
-[87 EMS] -- 13A Diabetic Problems (ALS) -- 24101 Dove Rd Seaford de, 19973
-
-Sussex County, DE (combine with Seaford)
-[81 FIRE] -- Traffic/TransportaionAcdntBLS -- 0 Discount Land Rd & Sussex Hw
-[81 EMS] -- Chest Pain-ALS -- 34544 Doe Dr Laurel 19956
-[81 FIRE] -- Cardiac/Res./Death-ALS -- 815 S Central Ave Laurel 19956 -- Laurel Middle / intermediate n
-[81 EMS] -- Abdominal Pain-BLS -- 30594 SUssex Hwy Laurel 19956 -- Relax Inn
-[81 EMS] -- Unconcious/Fainting(Near)-ALS -- 31574 White Ave Laurel 19956
-[81 EMS] -- Falls-BLS -- 609 Little Creek Dr Laurel 19956
 **********************************************************
 Pittsylvania County, VA
 Contact: steve flowers <lflowerscprogram@yahoo.com>
