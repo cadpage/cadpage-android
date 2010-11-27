@@ -45,6 +45,9 @@ public class SmartAddressParserTest extends BaseParserTest {
     doTest(ADDR, "My home in ken town is better",
         "ADDR:My home in",
         "CITY:ken town");
+    doTest(ADDR, "Big st/Lost rd ken town",
+        "ADDR:Big st & Lost rd",
+        "CITY:ken town");
   }
   
   @Test

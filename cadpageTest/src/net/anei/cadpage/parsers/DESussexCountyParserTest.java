@@ -10,6 +10,10 @@ public class DESussexCountyParserTest extends BaseParserTest {
   }
   
   @Test
+  public void testProblem() {
+  }
+  
+  @Test
   public void testParser() {
     doTest("T1",
     		"[86 EMS] -- 31C2 -- 33384 Hartford Ct Lewes",
@@ -39,7 +43,8 @@ public class DESussexCountyParserTest extends BaseParserTest {
     doTest("T5",
         "[86 Fire] -- F - Standby -- Bethany Beach Station 70 Rehoboth Beach -- INC #599",
         "CALL:F - Standby",
-        "ADDR:Bethany Beach Station 70 Rehoboth Beach"
+        "ADDR:Bethany Beach Station 70",
+        "CITY:Rehoboth Beach"
         );
     doTest("T6",
     		"[83 FIRE] -- Traffic/TransportationAcdntALS -- 228 W Dupont Hwy Millsboro 19966 -- Food Lion (83)",
@@ -70,8 +75,8 @@ public class DESussexCountyParserTest extends BaseParserTest {
     doTest("T10",
         "[83 FIRE] -- Traffic/TransportationAcdntBLS -- 0 Dupont Blvd & Av Of Honor Georgetown 19947",
         "CALL:Traffic/TransportationAcdntBLS",
-        "ADDR:Dupont Blvd",
-        "CITY:& Av Of Honor Georgetown"
+        "ADDR:Dupont Blvd & Av Of Honor",
+        "CITY:Georgetown"
         );
     doTest("T11",
     		"[83 FIRE] -- Structure Fire -- 0 JOHNSON RD & JESTICE FARM RD Laurel 19956",
@@ -85,6 +90,85 @@ public class DESussexCountyParserTest extends BaseParserTest {
         "ADDR:28723 Woodcrest Dr",
         "CITY:Harbeson"
         );
+    
+    doTest("T20",
+        "[81 FIRE] -- Traffic/TransportaionAcdntBLS -- 0 Discount Land Rd & Sussex Hw",
+        "CALL:Traffic/TransportaionAcdntBLS",
+        "ADDR:Discount Land Rd & Sussex Hw"
+        );
+    doTest("T21",
+        "[81 EMS] -- Chest Pain-ALS -- 34544 Doe Dr Laurel 19956",
+        "CALL:Chest Pain-ALS",
+        "ADDR:34544 Doe Dr",
+        "CITY:Laurel"
+        );
+    doTest("T22",
+        "[81 FIRE] -- Cardiac/Res./Death-ALS -- 815 S Central Ave Laurel 19956 -- Laurel Middle / intermediate n",
+        "CALL:Cardiac/Res./Death-ALS",
+        "PLACE:Laurel Middle / intermediate n",
+        "ADDR:815 S Central Ave",
+        "CITY:Laurel"
+        );
+    doTest("T23",
+        "[81 EMS] -- Abdominal Pain-BLS -- 30594 SUssex Hwy Laurel 19956 -- Relax Inn",
+        "CALL:Abdominal Pain-BLS",
+        "ADDR:30594 SUssex Hwy",
+        "CITY:Laurel",
+        "PLACE:Relax Inn"
+        );
+    doTest("T24",
+        "[81 EMS] -- Unconcious/Fainting(Near)-ALS -- 31574 White Ave Laurel 19956",
+        "CALL:Unconcious/Fainting(Near)-ALS",
+        "ADDR:31574 White Ave",
+        "CITY:Laurel"
+        );
+    doTest("T25",
+        "[81 EMS] -- Falls-BLS -- 609 Little Creek Dr Laurel 19956",
+        "CALL:Falls-BLS",
+        "ADDR:609 Little Creek Dr",
+        "CITY:Laurel"
+        );
+  }
+  
+  @Test
+  public void testSeaford() {
+    doTest("T30",
+        "[87 EMS] -- 1A Abdominal Pains (ALS) -- 6412 Woodduck Dr Seaford de, 19973",
+        "CALL:1A Abdominal Pains (ALS)",
+        "ADDR:6412 Woodduck Dr",
+        "CITY:Seaford"
+        );
+    doTest("T31",
+        "[87 FIRE] -- Smoke Investigation -- 6341 Baker Rd Seaford de, 19973",
+        "CALL:Smoke Investigation",
+        "ADDR:6341 Baker Rd",
+        "CITY:Seaford"
+        );
+    doTest("T32",
+        "[87 EMS] -- 6A Breathing Problems (ALS) -- 24642 Shufelt Rd Seaford de, 19973",
+        "CALL:6A Breathing Problems (ALS)",
+        "ADDR:24642 Shufelt Rd",
+        "CITY:Seaford"
+        );
+    doTest("T33",
+        "[87 FIRE] -- Assist Other Agency -- Hickory Hill Rd/ Guard Rd Seaford de, 19973",
+        "CALL:Assist Other Agency",
+        "ADDR:Hickory Hill Rd & Guard Rd",
+        "CITY:Seaford"
+        );
+    doTest("T34",
+        "[87 EMS] -- 33A Interfacility (ALS) -- 715 E King St 204a Seaford de, 19973",
+        "CALL:33A Interfacility (ALS)",
+        "ADDR:715 E King St 204a",
+        "CITY:Seaford"
+        );
+    doTest("T35",
+        "[87 EMS] -- 13A Diabetic Problems (ALS) -- 24101 Dove Rd Seaford de, 19973",
+        "CALL:13A Diabetic Problems (ALS)",
+        "ADDR:24101 Dove Rd",
+        "CITY:Seaford"
+        );
+
 
     
   }
