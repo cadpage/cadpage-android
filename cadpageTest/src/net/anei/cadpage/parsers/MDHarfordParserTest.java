@@ -35,7 +35,7 @@ public class MDHarfordParserTest extends BaseParserTest {
     doTest("T3",        
         "[!] EOC:A1091 DIAB >DIABETIC EMRG. 2145 HARKINS RD XS: SAINT PAULS CHURCH RD PYLESVILLE ROHREAUGH,KEN BOX: N04 Cad: 2010-0000162445",
         "UNIT:A1091",
-        "CALL:DIAB >DIABETIC EMRG.",
+        "CALL:DIAB >DIABETIC EMRG",
         "ADDR:2145 HARKINS RD",
         "X:SAINT PAULS CHURCH RD",
         "CITY:PYLESVILLE",

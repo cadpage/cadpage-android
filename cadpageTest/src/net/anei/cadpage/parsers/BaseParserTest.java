@@ -22,10 +22,8 @@ public abstract class BaseParserTest {
   @Test
   public void testBadMsg() {
     // Just call the parser with a badly formated msg and make sure it doesn't croak
-    parser.isPageMsg("BAD MSG");
-    parser.parse("BAD MSG", new SmsMsgInfo.Data());
-    parser.isPageMsg("");
-    parser.parse("", new SmsMsgInfo.Data());
+    parser.parseMsg("BAD MSG");
+    parser.parseMsg("");
   }
   
   /**
@@ -35,8 +33,6 @@ public abstract class BaseParserTest {
    * @param result - expected results
    */
   public void doTest(String title, String test, String ... result) {
-    
-    assertTrue(title + ":isPage", parser.isPageMsg(test));
     
     SmsMsgInfo.Data data = new SmsMsgInfo.Data();
     for (String str : result) {
@@ -59,7 +55,8 @@ public abstract class BaseParserTest {
       else fail("Keyword " + sType + " is not defined");
     }
     
-    SmsMsgInfo info = parser.parse(test);
+    SmsMsgInfo info = parser.parseMsg(test);
+    assertNotNull(title + ":parse", info);
     
     assertEquals(title + ":Call", data.strCall, info.getCall());
     assertEquals(title + ":Place", data.strPlace, info.getPlace());

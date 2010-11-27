@@ -293,13 +293,9 @@ public class SmartAddressParserTest extends BaseParserTest {
     }
 
     @Override
-    public boolean isPageMsg(String msgText) {
-      return true;
-    }
-
-    @Override
-    public void parse(String message, Data data) {
+    public boolean parseMsg(String message, Data data) {
       parseAddress(startType, flags, message, data);
+      return true;
     }
   }
 
