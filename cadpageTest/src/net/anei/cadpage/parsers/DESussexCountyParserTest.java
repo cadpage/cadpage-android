@@ -28,7 +28,6 @@ public class DESussexCountyParserTest extends BaseParserTest {
     		"CALL:F - Auto Fire Alarm",
     		"ADDR:19266 Coastal Hwy",
     		"CITY:Rehoboth",
-    		"ID:#602",
     		"INFO:Hallmark, Parcel Post, Safeway"
     		);
     doTest("T4",
