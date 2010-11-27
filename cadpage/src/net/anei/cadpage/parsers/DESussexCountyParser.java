@@ -15,6 +15,22 @@ import net.anei.cadpage.SmsMsgInfo.Data;
 [83 FIRE] -- Traffic/TransportationAcdntBLS -- 0 Dupont Blvd & Av Of Honor Georgetown 19947
 [83 FIRE] -- Structure Fire -- 0 JOHNSON RD & JESTICE FARM RD Laurel 19956
 [83 FIRE] -- Cardiac/Resp./Death-ALS -- 28723 Woodcrest Dr Harbeson 19951
+
+[81 FIRE] -- Traffic/TransportaionAcdntBLS -- 0 Discount Land Rd & Sussex Hw
+[81 EMS] -- Chest Pain-ALS -- 34544 Doe Dr Laurel 19956
+[81 FIRE] -- Cardiac/Res./Death-ALS -- 815 S Central Ave Laurel 19956 -- Laurel Middle / intermediate n
+[81 EMS] -- Abdominal Pain-BLS -- 30594 SUssex Hwy Laurel 19956 -- Relax Inn
+[81 EMS] -- Unconcious/Fainting(Near)-ALS -- 31574 White Ave Laurel 19956
+[81 EMS] -- Falls-BLS -- 609 Little Creek Dr Laurel 19956
+
+Specific to Seaford
+[87 EMS] -- 1A Abdominal Pains (ALS) -- 6412 Woodduck Dr Seaford de, 19973
+[87 FIRE] -- Smoke Investigation -- 6341 Baker Rd Seaford de, 19973
+[87 EMS] -- 6A Breathing Problems (ALS) -- 24642 Shufelt Rd Seaford de, 19973
+[87 FIRE] -- Assist Other Agency -- Hickory Hill Rd/ Guard Rd Seaford de, 19973
+[87 EMS] -- 33A Interfacility (ALS) -- 715 E King St 204a Seaford de, 19973
+[87 EMS] -- 13A Diabetic Problems (ALS) -- 24101 Dove Rd Seaford de, 19973
+
  */
 
 
@@ -23,10 +39,18 @@ public class DESussexCountyParser extends SmartAddressParser {
   private static final String DEF_STATE = "DE";
   private static final String DEF_CITY = "SUSSEX COUNTY";
   
+  private static final String[] CITY_LIST = new String[] {
+    "BETHANY BEACH", "BETHEL", "BLADES", "BRIDGEVILLE", "DAGSBORO", "DELMAR",
+    "DEWEY BEACH", "ELENDALE", "FENWICK ISLAND", "FRANKFORD", "GEORGETOWN",
+    "GREENWOOD", "HENLOPEN ACRES", "LAUREL", "LEWES", "MILFORD", "MILLSBORO",
+    "MILLVILLE", "MILTON", "OCEAN VIEW", "REHOBOTH BEACH", "SEAFORD", "SELBYVILLE",
+    "SLAUGHTER BEACH", "SOUTH BETHANY"
+  };
+                                                       
+  
   public DESussexCountyParser() {
-    super(DEF_STATE);
+    super(CITY_LIST, DEF_STATE);
   }
-
 
   @Override
   protected boolean parseMsg(String body, Data data) {
@@ -71,17 +95,30 @@ public class DESussexCountyParser extends SmartAddressParser {
     if (sAddress.length() < 2) return false;
     if (sAddress.startsWith("0 ")) sAddress = sAddress.substring(2).trim();
     
-    // Run the smart parser on this, and see what is left
+    // Run the smart parser on this
     parseAddress(StartType.START_ADDR, sAddress, data);
-    sAddress = getLeft();
-    
-    // If the last token in what is left is a 5 digit zip code, strip it off
-    Parser p = new Parser(sAddress);
-    String zip = p.getLastOptional(' ');
-    if (zip.length() == 5 && NUMERIC.matcher(zip).matches()) sAddress = p.get();
-    
-    // Whatever is left is our city
-    data.strCity = sAddress;
+      
+      // Hopefully it found a city, if not we will have to parse one out
+      // of what is left
+      if (data.strCity.length() == 0) {
+        
+        // If the last token in what is left is a 5 digit zip code, strip it off
+        sAddress = getLeft();
+        Parser p = new Parser(sAddress);
+        String last = p.getLastOptional(' ');
+        if (last.length() == 5 && NUMERIC.matcher(last).matches()) sAddress = p.get();
+        
+        // If last character is a comma, get rid of it
+        
+        // If the new last token is "DE" with or without a trailing comma, strip it off 
+        p = new Parser(sAddress);
+        last = p.getLastOptional(' ');
+        if (last.endsWith(",")) last = last.substring(0, last.length()-1);
+        if (last.equalsIgnoreCase("DE")) sAddress = p.get();
+      
+        // Whatever is left is our city
+        data.strCity = sAddress;
+      }
 
     return true;
   }

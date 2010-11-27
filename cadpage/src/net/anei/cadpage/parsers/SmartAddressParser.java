@@ -321,7 +321,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
    */
   public String getLeft() {
     if (endAll < 0) return "";
-    return buildData(endAll, tokens.length);
+    return buildData(endAll, tokens.length, false);
   }
   
   /**
@@ -331,8 +331,9 @@ public abstract class SmartAddressParser extends SmsMsgParser {
    */
   private boolean parseTrivialAddress() {
     
+    // OK, we have to have at least 2 items before the city
     if (startAddress < 0) return false;
-    return parseToCity(startAddress);
+    return parseToCity(startAddress+2);
   }
 
   /**
@@ -437,9 +438,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     // When we get here, 
     // saddr points to beginning of address
     // ndx points to the first connector after the first road name.
-    // Change the connector to something Google maps will always recognize
-    tokens[ndx] = "&";
-    
+
     // If there is a city terminating the address, just parse up to it
     if (parseToCity(ndx)) {
       stAddress = startAddress = sAddr;
@@ -554,7 +553,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     if (lastCity <= stNdx) return false;
     
     if (startAddress < 0) stAddress = startAddress = stNdx;
-    for (int ndx = 0; ndx < tokens.length; ndx++) {
+    for (int ndx = stNdx; ndx < tokens.length; ndx++) {
       if (isType(ndx, ID_APPT) && startCross < 0) {
         stApt = ndx;
         startApt = ndx + 1;
@@ -710,31 +709,31 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     
     int end = endAll;
     if (startCity >= 0) {
-      data.strCity = buildData(startCity, end);
+      data.strCity = buildData(startCity, end, false);
       end = startCity;
     }
     
     if (startCross >= 0) {
-      data.strCross = buildData(startCross, end);
+      data.strCross = buildData(startCross, end, false);
       end = startCross - 1;
     }
     
     if (startApt >= 0) {
-      data.strApt = buildData(startApt, end);
+      data.strApt = buildData(startApt, end, false);
       end = stApt;
     }
     
     if (startAddress >= 0) {
-      data.strAddress = buildData(startAddress, end);
+      data.strAddress = buildData(startAddress, end, true);
       end = startAddress;
     }
     
     switch (startType) {
     case START_CALL:
-      data.strCall = buildData(0, stAddress).replaceAll(" / ", "/");
+      data.strCall = buildData(0, stAddress, false).replaceAll(" / ", "/");
       break;
     case START_PLACE:
-      data.strPlace = buildData(0, stAddress).replaceAll(" / ", "/");
+      data.strPlace = buildData(0, stAddress, false).replaceAll(" / ", "/");
       break;
     }
   }
@@ -743,14 +742,17 @@ public abstract class SmartAddressParser extends SmsMsgParser {
    * Construct data field from the token sequence from given start and end position
    * @param start starting token index
    * @param end ending token index
+   * @param addr true if we are processing the address field
    * @return Constructed data field.
    */
-  private String buildData(int start, int end) {
+  private String buildData(int start, int end, boolean addr) {
     
     StringBuilder sb = new StringBuilder();
     for (int ndx = start; ndx < end; ndx++) {
       if (ndx != start) sb.append(' ');
-      sb.append(tokens[ndx]);
+      String token = tokens[ndx];
+      if (addr && isType(ndx, ID_CONNECTOR)) token = "&";
+      sb.append(token);
     }
     return sb.toString();
   }
