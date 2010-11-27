@@ -30,21 +30,24 @@ public class DESussexCountyParser extends SmartAddressParser {
 	  @Override
 	  protected void parse(String body, Data data) {
 	    data.defState="DE";
-
-	    int ipt = body.indexOf('-');
-	    if (ipt >= 0) body = body.substring(ipt+2).trim();
-
-	    parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ, body, data);
-	    //body = getLeft();
-	    // if Call still has -- in it at end remove.
-	    if (data.strCall.contains("--")){
-	    	int idx = data.strCall.indexOf("-");
-	    	data.strCall = data.strCall.substring(0,idx);
-	    }
-	    data.strCall = data.strCall.trim();
-	    data.strSupp=getLeft();	    
-
-
+	    data.defCity = "SUSSEX";
+	    String strAddress = "";
+	    // First divide up the call
+	    String strBody[] = body.split("--");
+	    // Always ignore the 0 field.
+	    int idx = strBody.length;
+	    if (idx==3) {strAddress = strBody[2]; }
+	    if (idx==5) {strAddress = strBody[3]; data.strSupp=strBody[2]; }
+	    if (idx==4) {
+	    	strAddress = strBody[2]; 
+	    	data.strSupp= strBody[3]; 
+	    	}
+	    strAddress = strAddress.trim();
+	    parseAddress(StartType.START_ADDR, strAddress, data);
+	    data.strCity= getLeft();
+	    if (idx>1 ) {data.strCall = strBody[1]; }
+	    data.strSupp = data.strSupp.trim();
+	    data.strCall = data.strCall.trim();   
 
 	  }
 	}
