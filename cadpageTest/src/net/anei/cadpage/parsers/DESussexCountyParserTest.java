@@ -40,7 +40,7 @@ public class DESussexCountyParserTest extends BaseParserTest {
     doTest("T5",
     		"[83 FIRE] -- Structure Fire -- 0 JOHNSON RD & JESTICE FARM RD Laurel 19956",
     		"CALL:Structure Fire",
-    		"ADDR:0 JOHNSON RD / JESTICE FARM RD",
+    		"ADDR:0 JOHNSON RD & JESTICE FARM RD",
     		"CITY:Laurel 19956"
     		);
     
