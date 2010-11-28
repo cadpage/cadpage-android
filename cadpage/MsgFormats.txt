@@ -413,51 +413,6 @@ Apt: ////
 KISTLER
 Cross Streets : 150-198  N RIVERSIDE DR * 142-148 PARK RD
 **********************************************************
-Montgomery County, MD
-Contact: Alain Pankopf <hockeylaxboy11@gmail.com>
-Sender: rc.355@c-msg.net 
-4 digit code is a box code
-Town codes are indecipherable, drop them
-
-MCo / [mCAD] * D * 2301 * BUILDING FIRE * 1620 E JEFFERSON ST ,RO * E723 E703 E721 E726 E705B AT723 AT703 RS703 A723 BC703 BC704 D3 D5 DFRS INV CEALRM CODE BCNOT
-MCo / [mCAD] * D * 0302 * BUILDING FIRE * 733 MONROE ST ,RO * E723 E733 E726 E725 E721 AT703 AT723 RS741B M723 BC703 BC704 D3 D5 DFRS INV CEALRM CODE BCNOT
-MCo / [mCAD] * D * 0301 * HOUSE FIRE * 1006 DE BECK DR ,RO * E703 E723 E721 E725 E733 AT703 T731 RS703 A703 BC703 BC704 D3 D5 DFRS INV CEALRM CODE BCNOT
-MCo / [mCAD] * D * 2312 * UNCONFIRMED POWDER * 5700 BOU AVE ,MCG (TARGET STORE) * E723 AT723 A723 M703 HM707 E720 D3 BC703 DFRS BCNOT HIRT ECC
-MCo / [mCAD] * D * 0801 * BOX ALARM * 17211 KING JAMES WAY ,MCG * E728 E731 E703 T731 RS703 A708C BC705 BC703 D8 D3 DFRS INV CEALRM CODE BCNOT
-MCo / [mCAD] * D * 0503 * HOUSE FIRE * 4805 FLANDERS AVE ,MCG * E705B E723 E720 E750 E726 AT723 AT751 RS742 A705B BC704 BC703 D5 D3 DFRS INV CEALRM CODE BCNOT
-MCo / [mCAD] * D * 0318 * STABBING - ALS1 * 9300 KEY WEST AVE / 15200 SHADY GROVE RD ,RO * M703 BCNOT EMSNOT E703 D3 ECC25 DFRS
-MCo / [mCAD] * D * 0301 * PIC w/ ENTRAPMENT -ALS1 * 1180 EDMONSTON DR / 1100 WADE AVE ,RO * M703 RS703 E703 D3 EMS EMSNOT BCNOT DFRS
-
-valid units consist of specific prefix followed by 3 digits.  All else should be
-discarded.
-A – Ambulance (BLS EMS Transport Unit)
-AB – Air Boat
-ALS – ALS Chase Car
-AR – Air Unit
-AT – Tower (Aerial Tower)
-BC – Battalion Chief
-DC – Duty Chief
-E – Engine
-ECC CAD – Emergency Communication Center CAD dispatch console
-EMS – EMS Supervisor
-EW – Engine Tanker
-HM – Haz Mat
-HSU – Haz Mat Support Unit
-M – Medic (ALS EMS Transport Unit)
-MAB – Medical Ambulance Bus (20 patient EMS transport unit)
-MSU – Medical Support Unit (Mass casualty EMS supplies)
-NCR – National Capital Region Communications Unit
-RAT – Reserve Aerial Tower
-RE – Reserve Engine
-RECON – Urban Search & Rescue Recon Unit
-RS – Rescue Squad (Heavy Rescue)
-SOP – Special Operations Chief
-T – Truck
-U – Unit
-W – Tanker (Water Tender)
-XTP – Urban Search & Rescue Roll-off Transport Unit
-
-**********************************************************
 Franklin County, VA
 Contact: Larry Davids <davidsla07@gmail.com
 Sender: mailbox@franklincountyva.org
