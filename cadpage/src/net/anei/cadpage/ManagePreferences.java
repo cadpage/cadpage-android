@@ -248,7 +248,9 @@ public class ManagePreferences {
         R.string.pref_initialized_key,
         R.string.pref_enabled_key,
         R.string.pref_location_key,
+        R.string.pref_override_filter_key,
         R.string.pref_filter_key,
+        R.string.pref_gen_alert_key,
         
         R.string.pref_notif_enabled_key,
         R.string.pref_notif_override_key,
