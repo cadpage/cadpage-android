@@ -1,5 +1,8 @@
 package net.anei.cadpage;
 
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 import net.anei.cadpage.parsers.SmsMsgParser;
 
 /**
@@ -124,7 +127,7 @@ public class SmsMsgInfo {
    * @return return mapping address
    */
   public String getMapAddress() {
-    StringBuilder sb = new StringBuilder(strAddress);
+    StringBuilder sb = new StringBuilder(cleanHouseNumbers(strAddress));
     
     // If there wasn't an address number or intersection marker in address
     // try appending cross street info as as intersection
@@ -151,6 +154,32 @@ public class SmsMsgInfo {
     
     return sb.toString();
 	}
+  
+  // Google map isn't found of house numbers mixed with intersections
+  // If we find an intersection marker, remove any house numbers
+  private static final Pattern HOUSE_NUMBER = Pattern.compile("^ *\\d+ *");
+  private String cleanHouseNumbers(String sAddress) {
+    sAddress = sAddress.replace(" and ", " & ");
+    int ipt = sAddress.indexOf('&');
+    if (ipt < 0) return sAddress;
+    
+    Matcher match = HOUSE_NUMBER.matcher(sAddress);
+    for (int part = 2; part >= 1; part--) {
+      switch (part) {
+      case 1:
+        match.region(0, ipt);
+        break;
+        
+      case 2:
+        match.region(ipt+1, sAddress.length());
+      }
+      
+      if (match.find()) {
+        sAddress = sAddress.substring(0, match.start()) + sAddress.substring(match.end());
+      }
+    }
+    return sAddress;
+  }
   
   /**
    * @return true if address is valid standalone address

@@ -35,8 +35,8 @@ public class MDMontgomeryCountyParser extends SmsMsgParser {
 	    
 	    data.defState = "MD";
 	    data.defCity = "MONTGOMERY";
-	    body = body.replace("*", ";");
-	    Properties props = parseMessage(body, ";", new String[]{"Junk","D","ID","Call","Addr","Units"});
+	    Properties props = parseMessage(body, "\\*", new String[]{"Junk","D","BOX","Call","Addr","Units"});
+	    data.strBox = props.getProperty("BOX", "");
 	    data.strCall = props.getProperty("Call", "");
 	    Parser p = new Parser(props.getProperty("Addr", ""));
 	    String strAddress = p.get('(');
