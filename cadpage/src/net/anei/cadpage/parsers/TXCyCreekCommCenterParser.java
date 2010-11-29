@@ -37,7 +37,7 @@ public class TXCyCreekCommCenterParser extends SmsMsgParser {
     // Strip message prefix
     
     Matcher match = MARKER.matcher(body);
-    if (!match.find() || match.start() >= 10) return false;
+    if (!match.find()) return false;
     int ipt = match.end();
     body = body.substring(ipt);
     if (body.startsWith("Repage: ")) body = body.substring(8);

@@ -14,21 +14,16 @@ o;?WHIF:2010:0644\nDispatched\nMVA-PI\nHUGHES ST, WHITESBORO VILLAGE/ WEST ST, W
 o;?WHIF:2010:0677\nDispatched\nEMS/PSYCHIATRIC/SUICIDE ATTEMPT\n19 ELLMORE DR, WHITESBORO VILLAGE (SAUQUOIT ST/WIND PL)
 */
 
-public class NYOneidaCountyParser extends SmsMsgParserLegacy {
+public class NYOneidaCountyParser extends SmsMsgParser {
 
   @Override
-  public boolean isPageMsg(String body) {
-    return body.contains("o;?WHIF:");
-  }
-
-  @Override
-  protected void parse(String body, Data data) {
+  protected boolean parseMsg(String body, Data data) {
 
     data.defState="NY";
     data.defCity="ONEIDA COUNTY";
     
-    int pt = body.indexOf("?WHIF:");
-    if (pt < 0) return;
+    int pt = body.indexOf("o;?WHIF:");
+    if (pt < 0) return false;
     body = body.substring(pt);
     
     String[] flds = body.split(" *\n *");
@@ -37,10 +32,10 @@ public class NYOneidaCountyParser extends SmsMsgParserLegacy {
     pt = fld.indexOf(':');
     if (pt >= 0) data.strCallId = fld.substring(pt+1);
     
-    if (flds.length <= 2) return;
+    if (flds.length <= 2) return false;
     data.strCall = flds[2];
     
-    if (flds.length <= 3) return;
+    if (flds.length <= 3) return false;
     Parser p = new Parser(flds[3]);
     parseAddress(p.get(','), data);
     data.strCity = p.getOptional('(');
@@ -50,5 +45,6 @@ public class NYOneidaCountyParser extends SmsMsgParserLegacy {
       data.strCity = p.get('/');
       data.strCross = p.get();
     }
+    return true;
   }
 }
