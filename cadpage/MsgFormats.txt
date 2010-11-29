@@ -666,7 +666,7 @@ Working structure fire!  Assistance is needed if available.
 Address:298 Ashbrook dr
 DO NOT CALL DISPATCH!!!! (Reported on 09/14/2010 @ 2:20:07 PM)
 **********************************************************
-Charleston County, 
+Charleston County, SC
 Contact: Gary Durgin <gary.durgin@charlestonrescue.com>
 Sender: CDC_Dispatch@charlestoncounty.org ??
 1110-0001587 District 03 Rescue Rescue Needed Address: Orleans Rd / Sam Rittenberg Blvd X Street:   Cmd Channel: Incident 04
@@ -679,72 +679,27 @@ Sender: CDC_Dispatch@charlestoncounty.org ??
 1110-0001589 District 11 A Entrapment Unknown B Address: HIGHWAY 41 / N HIGHWAY 17 X Street:  COSMIC DOGS HOT DOG STAND Cmd Channe
 1110-0001587 District 03 Rescue Rescue Needed Address: Orleans Rd / Sam Rittenberg Blvd X Street:   Cmd Channel: Incident 04
 1110-0001581 District 11 A Rescue Needed Address: 2324 Andover Way X Street: PARSONAGE WOODS LN/BANCROFT LN  Cmd Channel: Incident
-
-These Are Emails that come from the CAD......
-CDC_Dispatch@charlestoncounty.org to me
-show details Nov 26 (3 days ago)
-
 1110-0001562 District 02 Rescue MVA Unknown B Address: Rivers Av / Mark Clark Expwy X Street:  On Mark Clark East Bound Cmd Channel:
- Reply Forward
-
-CDC_Dispatch@charlestoncounty.org1110-0001564 District 03 Rescue MVA Other Hazards B Address: Ashley River Rd ...
-Nov 26 (2 days ago)
-
-CDC_Dispatch@charlestoncounty.org to me
-show details Nov 26 (2 days ago)
-
+1110-0001564 District 03 Rescue MVA Other Hazards B Address: Ashley River Rd ...
 1110-0001564 District 03 Rescue MVA Other Hazards B Address: Ashley River Rd / Dogwood Rd X Street:  ALT# 843-327-8597 Cmd Channel:
- Reply Forward
-
-CDC_Dispatch@charlestoncounty.org1110-0001567 District 03 Rescue MVA Entrapment D Address: Wappoo Rd / Savanna...
-Nov 26 (2 days ago)
-
-CDC_Dispatch@charlestoncounty.org to me
-show details Nov 26 (2 days ago)
-
+1110-0001567 District 03 Rescue MVA Entrapment D Address: Wappoo Rd / Savanna...
 1110-0001567 District 03 Rescue MVA Entrapment D Address: Wappoo Rd / Savannah Hwy X Street:   Cmd Channel:
- Reply Forward
- 
-CDC_Dispatch@charlestoncounty.org1110-0001567 District 03 Rescue MVA Entrapment D Address: Wappoo Rd / Savanna...
-Nov 26 (2 days ago)
-
-CDC_Dispatch@charlestoncounty.org to me
-show details Nov 26 (2 days ago)
-
+1110-0001567 District 03 Rescue MVA Entrapment D Address: Wappoo Rd / Savanna...
 1110-0001567 District 03 Rescue MVA Entrapment D Address: Wappoo Rd / Savannah Hwy X Street:   Cmd Channel: Incident 10
- Reply Forward
- 
-CDC_Dispatch@charlestoncounty.org1110-0001568 District 04 Rescue MVA w/Injury B Address: JAMES ISLAND EXPWY / ...
-Nov 26 (2 days ago)
-
-CDC_Dispatch@charlestoncounty.org to me
-show details Nov 26 (2 days ago)
-
+1110-0001568 District 04 Rescue MVA w/Injury B Address: JAMES ISLAND EXPWY / ...
 1110-0001568 District 04 Rescue MVA  w/Injury B Address: JAMES ISLAND EXPWY / FOLLY RD X Street:  JAMES ISLAND CONNECTOR Cmd Channel: Incident 04
- Reply Forward
- Reply |CDC_Dispatch@charlestoncounty.org<%7CCDC_Dispatch@charlestoncounty.org>to
-me
-show details Nov 27 (2 days ago)
-
 1110-0001570 District 01 Rescue Medical Assist Bravo Response Address: 93 America St X Street: E HAMPSTEAD SQUARE/BLAKE ST  Cmd Channel:
-
-
-CDC_Dispatchcharlestoncounty.org1110-0001568<CDC_Dispatch@charlestoncounty.org1110-0001568>District 04 Rescue MVA w/Injury B Address: JAMES ISLAND EXPWY / ...
-Nov 26
-
-CDC_Dispatch@charlestoncounty.org to me
-show details Nov 26 (2 days ago)
-
+1110-0001568 District 04 Rescue MVA w/Injury B Address: JAMES ISLAND EXPWY / ...
 1110-0001568 District 04 Rescue MVA  w/Injury B Address: JAMES ISLAND EXPWY / FOLLY RD X Street:  JAMES ISLAND CONNECTOR Cmd Channel: Incident 04
-
- fromCDC_Dispatch@charlestoncounty.org
-togary.durgin@charlestonrescue.com
-dateFri, Nov 26, 2010 at 8:54 PM
-subjectDispatch Info
-
 1110-0001568 District 04 Rescue MVA  w/Injury B Address: JAMES ISLAND EXPWY / FOLLY RD X Street:  JAMES ISLAND CONNECTOR Cmd Channel: Incident 04
-
 1110-0001570 District 01 Rescue Medical Assist Bravo Response Address: 93 America St X Street: E HAMPSTEAD SQUARE/BLAKE ST  Cmd Channel:
+**********************************************************
+Islip Hazmat, NY (Suffolk County)
+Contact: "bfdtecresq@aol.com" <bfdtecresq@aol.com>
+Need more examples, these are all different
+HazMat 10 is OOS, HazMat 11 relocated to Fire Rescue. TFN
+Hazmat: gas pumps knocked over at 125 Crooked hill road, Brentwood  c/s: Wicks road   O: 7-11 store . . 11:29:34
+need a team leader to respond to brentwood fire for  gas pump knocked over at 7-11 store at 125 crooked hill road 
 **********************************************************
 **********************************************************
 **********************************************************
