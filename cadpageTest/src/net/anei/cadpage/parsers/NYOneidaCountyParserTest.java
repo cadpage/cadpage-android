@@ -43,5 +43,14 @@ public class NYOneidaCountyParserTest extends BaseParserTest {
         "ADDR:HUGHES ST",
         "CITY:WHITESBORO VILLAGE",
         "X:WEST ST, WHITESBORO VILLAGE");
+    
+    doTest("T5",
+        "o;?WHIF:2010:0677\nDispatched\nEMS/PSYCHIATRIC/SUICIDE ATTEMPT\n19 ELLMORE DR, WHITESBORO VILLAGE (SAUQUOIT ST/WIND PL)",
+        "ID:2010:0677",
+        "CALL:EMS/PSYCHIATRIC/SUICIDE ATTEMPT",
+        "ADDR:19 ELLMORE DR",
+        "CITY:WHITESBORO VILLAGE",
+        "X:SAUQUOIT ST/WIND PL");
+
   }
 }
