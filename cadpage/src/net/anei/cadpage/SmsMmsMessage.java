@@ -424,8 +424,6 @@ public class SmsMmsMessage implements Serializable {
     sb.append("\nLocation:");
     sb.append(location);
     sb.append('\n');
-    
-    if (location.equals("MNAnokaCounty")) getInfo().addMessageInfo(sb);
   }
    
   /**

@@ -31,6 +31,11 @@ Specific to Seaford
 [87 EMS] -- 33A Interfacility (ALS) -- 715 E King St 204a Seaford de, 19973
 [87 EMS] -- 13A Diabetic Problems (ALS) -- 24101 Dove Rd Seaford de, 19973
 
+[STA:91] -- Unknown Problem(Man Down)-BLS -- 31905 Long Neck Rd Millsboro 19966 -- Wilmington Trust Company
+[STA:91] -- Breathing Problems-ALS -- 32523 E Baltimore Ct Millsboro 19966
+[STA:91] -- Falls-BLS -- 0 Long Neck Rd & School Ln Millsboro 19966 -- NO IDEA
+[STA:91] -- Convulsions/Seizures-BLS -- 32532 Long Neck Rd Millsboro 19966 -- Lingo Creek Apt
+
  */
 
 
