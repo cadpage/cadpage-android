@@ -12,6 +12,9 @@ o;?WHIF:2010:0641\nDispatched\nEMS/DIABETIC PROBLEM\n31 MOHAWK ST, WHITESBORO VI
 o;?WHIF:2010:0636\nDispatched\nINVESTIGATE\n124 HARTS HILL TERR, WHITESTOWN (GILBERT RD/Near:HARTS HILL INN)
 o;?WHIF:2010:0644\nDispatched\nMVA-PI\nHUGHES ST, WHITESBORO VILLAGE/ WEST ST, WHITESBORO VILLAGE
 o;?WHIF:2010:0677\nDispatched\nEMS/PSYCHIATRIC/SUICIDE ATTEMPT\n19 ELLMORE DR, WHITESBORO VILLAGE (SAUQUOIT ST/WIND PL)
+i>¿WEVF:2010:0170\nDispatched\nEMS/STROKE/CVA\n9132 MAIN ST, WESTERN (GIFFORD HILL RD/GEORGE STNear:WOODS VALLEY
+i>¿WEVF:2010:0171\nDispatchedWIRES DOWN/BURNHILLSIDE RD, WESTERN
+i>¿WEVF:2010:0169\nDispatched\nFIRE STRUCTURE7893 GIFFORD HILL RD, WESTERN (CAMRODEN RD/ROUTE 46)
 */
 
 public class NYOneidaCountyParser extends SmsMsgParser {
@@ -22,15 +25,18 @@ public class NYOneidaCountyParser extends SmsMsgParser {
     data.defState="NY";
     data.defCity="ONEIDA COUNTY";
     
-    int pt = body.indexOf("o;?WHIF:");
+    int pt = body.indexOf("\nDispatched\n");
     if (pt < 0) return false;
-    body = body.substring(pt);
+    
+    pt = body.lastIndexOf(':', pt-1);
+    if (pt < 0) return false;
+    pt = body.lastIndexOf(':', pt-1);
+    if (pt < 0) return false;
+    body = body.substring(pt+1);
     
     String[] flds = body.split(" *\n *");
 
-    String fld = flds[0];
-    pt = fld.indexOf(':');
-    if (pt >= 0) data.strCallId = fld.substring(pt+1);
+    data.strCallId = flds[0];
     
     if (flds.length <= 2) return false;
     data.strCall = flds[2];

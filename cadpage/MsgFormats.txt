@@ -650,6 +650,7 @@ Contact: 5168050593@vtext.com
 **********************************************************
 Martinez, GA (Martinez Columbia Fire Rescue
 Contact: "Brent Willis" <bwillis@mvfd.net>
+Sender: no-reply@mvfd.net
  
 Working structure fire!  Assistance is needed if available.
 Address: 611 KETTLE CREEK DR
@@ -664,6 +665,22 @@ A firefighter rode in with EMS from station _3  need someone to standby. Please 
 Working structure fire!  Assistance is needed if available.
 Address:298 Ashbrook dr
 DO NOT CALL DISPATCH!!!! (Reported on 09/14/2010 @ 2:20:07 PM)
+
+Working structure fire! Assistance is needed if available.
+330 HACKAMORE TRL
+DO NOT CALL DISPATCH!!!! (Reported on 10/22/2010 @ 9:50:55 PM)
+
+Working structure fire! Assistance is needed if available.
+Address:298 Ashbrook dr
+DO NOT CALL DISPATCH!!!! (Reported on 09/14/2010 @ 2:20:07 PM)
+
+Working structure fire! Assistance is needed if available.
+Address:ACROSS FROM 3736 CATUS TRAIL
+DO NOT CALL DISPATCH!!!! (Reported on 09/08/2010 @ 3:53:59 PM)
+
+Working structure fire! Assistance is needed if available.
+Address:711 HIDDEN PL OFF HWY 28
+DO NOT CALL DISPATCH!!!! (Reported on 8/12/2010 @ 9:24:21 AM)
 **********************************************************
 Charleston County, SC
 Contact: Gary Durgin <gary.durgin@charlestonrescue.com>
@@ -716,6 +733,29 @@ Contact: 5163697556@vtext.com
 ***SIG 8***  AUTO HARBOR HILLS PHARMACY 310 GLEN COVE ROAD [EAST HILLS] c/s: KENNEDY ROAD/RED GROUND ROAD ADTNL: WATERFLOW/565375563 GRID: N-14 TOA: 13:25
 ***SIG 8***  PROP  15 POPLAR DR [EAST HILLS] c/s: CHESTNUT DR/APPLETREE LA ADTNL: BBQ NEXT TO DECK GRID: L-14 TOA: 18:10 11/29/2010
 **********************************************************
+Farmingdale, NY
+Contact: Frank Romano <fromano129@gmail.com>
+Sender: paging@alpinesoftware.com.
+CAD Software: Red Alert
+
+Looks like Holbrook, NY uses same format.
+
+Signal 9 . . Stroke (CVA) at 64 DOUD ST. . 11:31:21
+General Alarm . . SMOKE ODOR IN AREA at 36 WAVERLY PL. . 17:04:46
+House Fire . . Electrical Fire at 23 BEECHWOOD ST. . 18:24:03
+Motor Vehicle Accident . . With Aided at intersection of MAIN ST and FULTON ST. . 11:46:09
+Signal 9 . . Cardiac / Respiratory Arrest at 610 CONKLIN ST. . 06:20:05
+**********************************************************
+Adams County, CO
+Contact: "Matt Kehoe" <mjkehoe@gmail.com>
+Sender: ipspage@adcom911.org
+ADAM CCPD are agency codes that can be discarded.  But might be good idea to use ADAM as address terminator
+
+Subject:IPS I/Page Notification E 64TH AVE/MONACO ST ADAM CCPD 09:51:48 TYPE CODE: ACCI CALLER NAME: TIME: 09:51:48 Comments: -104.90947
+Subject:IPS I/Page Notification 6950 NIAGARA ST ADAM CCPD 11:04:10 TYPE CODE: EMS CALLER NAME: FELIX - 13YO TIME: 11:04:10 Comments: 15YO
+Subject:IPS I/Page Notification 10220 BRIGHTON RD ADAM CCPD:DIVERSIFIES TRUCK AND RV 17:22:11 TYPE CODE: NONSTR CALLER NAME: BOB TIME: 17:
+Subject:IPS I/Page Notification US HIGHWAY 85 NB/E 77TH AVE ADAM ADAM 03:34:04 TYPE CODE: NONSTR CALLER NAME: ASHLEY TIME: 03:34:04 Commen
+Subject:IPS I/Page Notification 9900 E 102ND AVE ADAM CCPD:USF 06:06:49 TYPE CODE: FRALRM CALLER NAME: ADT TIME: 06:06:49 Comments: WATER
 **********************************************************
 **********************************************************
 **********************************************************
