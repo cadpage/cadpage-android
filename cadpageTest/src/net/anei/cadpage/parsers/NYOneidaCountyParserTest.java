@@ -51,6 +51,13 @@ public class NYOneidaCountyParserTest extends BaseParserTest {
         "ADDR:19 ELLMORE DR",
         "CITY:WHITESBORO VILLAGE",
         "X:SAUQUOIT ST/WIND PL");
-
+    
+    doTest("T6",
+        "i>¿WEVF:2010:0170\nDispatched\nEMS/STROKE/CVA\n9132 MAIN ST, WESTERN (GIFFORD HILL RD/GEORGE STNear:WOODS VALLEY",
+        "ID:2010:0170",
+        "CALL:EMS/STROKE/CVA",
+        "ADDR:9132 MAIN ST",
+        "CITY:WESTERN",
+        "X:GIFFORD HILL RD/GEORGE STNear:WOODS VALLEY");
   }
 }
