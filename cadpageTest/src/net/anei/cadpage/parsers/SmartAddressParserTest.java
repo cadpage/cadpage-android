@@ -207,18 +207,23 @@ public class SmartAddressParserTest extends BaseParserTest {
         "PLACE:BIG HOME",
         "ADDR:KENS LAST HOUSE",
         "CITY:KEN TOWN");
-    doTest(PLACE, "BIG HOME @1000 N THIRD AVE DOWN SOUTH",
+    doTest(PLACE, "BIG HOME @BAD 1000 N THIRD AVE",
         "PLACE:BIG HOME",
-        "ADDR:1000 N THIRD AVE");
-    doTest(PLACE, "BIG HOME @ JACKSON RD & HAVEL DR AWAY",
+        "ADDR:BAD 1000 N THIRD AVE");
+    doTest(PLACE, "BIG HOME @ BAD JACKSON RD & HAVEL DR AWAY",
         "PLACE:BIG HOME",
-        "ADDR:JACKSON RD & HAVEL DR");
-    doTest(CALL, "BIG FIRE REPORTED AT 200 NE JOHNSON DR BELOW",
+        "ADDR:BAD JACKSON RD & HAVEL DR");
+    doTest(CALL, "BIG FIRE REPORTED AT BAD 200 NE JOHNSON DR",
         "CALL:BIG FIRE",
-        "ADDR:200 NE JOHNSON DR");
+        "ADDR:BAD 200 NE JOHNSON DR");
     doTest(CALL, "Not breathing at all at 258 GLEN DR SOMEWHERE",
         "CALL:Not breathing at all",
         "ADDR:258 GLEN DR");
+    doTest(CALL, "EMERGENCY RUN 31 SCROGGS RD XS: LOUISA CHAPEL @ 1020 KENSBURG EXTRA",
+        "CALL:EMERGENCY RUN",
+        "ADDR:31 SCROGGS RD",
+        "X:LOUISA CHAPEL @ 1020",
+        "CITY:KENSBURG");
   }
   
   public void testAptNumbers() {

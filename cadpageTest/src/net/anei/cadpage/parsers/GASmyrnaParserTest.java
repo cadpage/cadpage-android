@@ -23,7 +23,7 @@ public class GASmyrnaParserTest extends BaseParserTest {
         "CALL:VEHICLE FIRE",
         "ADDR:S COBB DR SE & BOURNE DR SE",
         "X:METRO PCS",
-        "INFO:OWNER OF VEH CALLED --- ADV ON 280 AT WH");
+        "INFO:OWNER OF VEH CALLED --- ADV ON 280 AT WH / blk dodge charger on fire");
 
     doTest("T3",
         "CAD:FYI: ;VEHICLE FIRE;WINDY HILL RD SE/S COBB DR SE;METRO PCS;blk dodge charger on fire [10/11/10 17:46:16 DSNIVELY] ;104107",
@@ -44,6 +44,6 @@ public class GASmyrnaParserTest extends BaseParserTest {
         "CALL:FIRE GENERAL",
         "ADDR:4586 W VALLEY PKWY SE",
         "X:S COBB DR SE & ASHLEY",
-        "INFO:heavy smoke");
+        "INFO:heavy smoke / smoke coming from the unit below her");
  }
 }

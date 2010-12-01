@@ -11,6 +11,7 @@ public class NCMaconCountyParserTest extends BaseParserTest {
   
   @Test
   public void testParser() {
+    
     doTest("T1",
         "911 CENTER:88S >STRUCTURE FIRE REPORTED AT 1650 WIDE HORIZON DR FRANKLIN AAAAA, AAAAA 5555559999 Map: Grids:0,0",
         "CALL:STRUCTURE FIRE",
@@ -34,6 +35,13 @@ public class NCMaconCountyParserTest extends BaseParserTest {
         "CALL:EMERGENCY RUN",
         "ADDR:248 HARRISON AVE",
         "X:W MAIN ST TO BRYSON CITY RD",
+        "CITY:FRANKLIN");
+    
+    doTest("T5",
+        "911 CENTER:C1 >EMERGENCY RUN 31 SCROGGS RD XS: LOUISA CHAPEL @ 1020 FRANKLIN VERIZON WIRELESS 8283713353 Map: Grids:0,0",
+        "CALL:EMERGENCY RUN",
+        "ADDR:31 SCROGGS RD",
+        "X:LOUISA CHAPEL @ 1020",
         "CITY:FRANKLIN");
 
     doTest("T15",
