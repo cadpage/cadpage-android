@@ -41,6 +41,11 @@ public class MDCentrevilleParserTest extends BaseParserTest {
         "qac911:*D 4-7 MVC W/ROLLOVER 1627 RUTHSBURG RD RESCUE BOX Q04",
         "CALL:4-7 MVC W/ROLLOVER",
         "ADDR:1627 RUTHSBURG RD");
+    
+    doTest("T7",
+        "(text message) qac911:*D 4-2 CO ALARM 212 NORTHFIELD WAY LOCAL BOX Q04",
+        "CALL:4-2 CO ALARM",
+        "ADDR:212 NORTHFIELD WAY");
 
   }
 }
