@@ -66,12 +66,43 @@ public class DispatchAParser extends SmsMsgParser {
        int pt = fld.indexOf('[');
        if (pt >= 0) {
          data.strSupp = fld.substring(0,pt).trim();
+         
+         // Look for extra information behind the date/time mark
+         pt = fld.indexOf(']', pt+1);
+         if (pt < 0) break;
+         fld = fld.substring(pt+1).trim();
+         
+         // Two distircts store data in different ways
+         // Livingston starts with a RESPONSE: code
+         // and we want to grab everything behind a SCRIPT: token
+         String extra = "";
+         if (fld.startsWith("RESPONSE:")) {
+           Parser p = new Parser(fld);
+           extra = p.getLastOptional("SCRIPT:");
+         }
+         
+         // Everyone else wants everything between date/time marks
+         else {
+           Parser p = new Parser(fld);
+           extra = p.get("["); 
+         }
+         
+         // If we got anything, add it to supplemental info
+         if (extra.length() > 0) {
+           if (data.strSupp.length() > 0) data.strSupp += " / ";
+           data.strSupp += extra;
+         }
+         
+         // And break out of here
          break;
        }
        if (data.strCross.length() > 0) data.strCross += " & ";
        data.strCross += fld;
        ndx++;
     }
+    
+    // Look for script information behind the date/time marker
+    
     return true;
   }
 }

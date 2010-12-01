@@ -58,10 +58,10 @@ public abstract class SmartAddressParser extends SmsMsgParser {
   private static final int ID_MULTIWORD = 0x400;
   
   // Bitmask bit indicating a start address marker
-  private static final int ID_START_MARKER = 0x800;
+  private static final int ID_AT_MARKER = 0x800;
   
   // Bitmask bit indicating token had a preceding @ character
-  private static final int ID_INCL_START_MARKER = 0x1000;
+  private static final int ID_INCL_AT_MARKER = 0x1000;
   
   // Bitmask bit indicating token is an appartment selector
   private static final int ID_APPT = 0x2000;
@@ -119,7 +119,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     setupDictionary(ID_ROUTE_PFX, "RT", "ST", "SRT", "US", "FS", "INTERSTATE", "I", "HW", "HWY", "STHWY", "CO", "CR");
     setupDictionary(ID_DIRECTION, "N", "NE", "E", "SE", "S", "SW", "W", "NW");
     setupDictionary(ID_CONNECTOR, "AND", "/", "&");
-    setupDictionary(ID_START_MARKER, "AT", "@");
+    setupDictionary(ID_AT_MARKER, "AT", "@");
     
     // C/S should be in this list, but it gets changed before we parse stuff
     setupDictionary(ID_CROSS_STREET, "XS:", "X:");
@@ -270,27 +270,9 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     
     // Periods used with abbreviations also cause trouble.  Just get rid of all periods
     address = address.replaceAll("\\.", "");
-    
-    // Parse line into tokens and categorize each token
-    // While we are doing this, identify the index of the last city
-    // And see if we have a keyword flagging the start of the address
-    tokens = address.split("\\s+");
-    tokenType = new int[tokens.length];
-    
-    stAddress = startAddress = (sType == StartType.START_ADDR? 0 : -1);
-    boolean setStart = (startAddress < 0);
-    for (int ndx = 0; ndx < tokens.length; ndx++) {
-      setType(ndx);
-      if (setStart) {
-        if (isType(ndx, ID_START_MARKER)) {
-          stAddress = ndx;
-          startAddress = ndx + 1;
-        } else if (isType(ndx, ID_INCL_START_MARKER)) {
-          stAddress = startAddress = ndx;
-        }
-      }
-      if (isType(ndx, ID_CITY)) lastCity = ndx;
-    }
+
+    // Set up token list and types
+    setTokenTypes(sType, address);
     
     // Now comes the hard part.
     
@@ -704,7 +686,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     
     // If prefix ends with some variation of "REPORTED AT" drop the 
     // REPORTED (AT has already been dropped)
-    if (stAddress > 0 && isType(stAddress, ID_START_MARKER) &&
+    if (stAddress > 0 && isType(stAddress, ID_AT_MARKER) &&
         tokens[stAddress-1].equalsIgnoreCase("REPORTED")) stAddress--;
     
     int end = endAll;
@@ -757,17 +739,41 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     return sb.toString();
   }
 
+  private void setTokenTypes(StartType sType, String address) {
+    // Parse line into tokens and categorize each token
+    // While we are doing this, identify the index of the last city
+    // And see if we have a keyword flagging the start of the address
+    tokens = address.split("\\s+");
+    tokenType = new int[tokens.length];
+    
+    stAddress = startAddress = (sType == StartType.START_ADDR? 0 : -1);
+    boolean setStart = (startAddress < 0);
+    for (int ndx = 0; ndx < tokens.length; ndx++) {
+      setType(ndx, setStart);
+      if (isType(ndx, ID_CROSS_STREET)) setStart = false;
+      if (setStart) {
+        if (isType(ndx, ID_AT_MARKER)) {
+          stAddress = ndx;
+          startAddress = ndx + 1;
+        } else if (isType(ndx, ID_INCL_AT_MARKER)) {
+          stAddress = startAddress = ndx;
+        }
+      }
+      if (isType(ndx, ID_CITY)) lastCity = ndx;
+    }
+  }
+
   // Identify token type
-  private void setType(int ndx) {
+  private void setType(int ndx, boolean checkAt) {
     String token = tokens[ndx];
     
     // If token is longer than 1 char and starts with an @
     // Strip off the @ and add the ID_INCL_START_MARK flag
     int mask = 0;
-   if (token.length() > 1 && token.charAt(0) == '@') {
-     tokens[ndx] = token = token.substring(1);
-     mask = ID_INCL_START_MARKER;
-   }
+    if (checkAt && token.length() > 1 && token.charAt(0) == '@') {
+      tokens[ndx] = token = token.substring(1);
+      mask = ID_INCL_AT_MARKER;
+    }
     
     // If token is in dictionary, return the associated type code
     Integer iType = dictionary.get(token.toUpperCase());

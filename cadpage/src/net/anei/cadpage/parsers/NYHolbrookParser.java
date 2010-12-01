@@ -25,6 +25,7 @@ AMBULANCE CALL: E/F FALL 17B1  at 229 SPRINGMEADOW DR #G, HOLBROOK  c/s: BEECH L
 VEHICLE FIRE: CAR FIRE - MULTIPLE CALLS at 24 ANNANDALE ROAD  c/s: INVERNESS ROAD . . 06:07:57
 
 Islip Hazmat team
+Contact: "bfdtecresq@aol.com" <bfdtecresq@aol.com>
 HazMat 10 is OOS, HazMat 11 relocated to Fire Rescue. TFN
 Hazmat: gas pumps knocked over at 125 Crooked hill road, Brentwood  c/s: Wicks road   O: 7-11 store . . 11:29:34
 need a team leader to respond to brentwood fire for  gas pump knocked over at 7-11 store at 125 crooked hill road
