@@ -397,6 +397,7 @@ KISTLER
 Cross Streets : 150-198  N RIVERSIDE DR * 142-148 PARK RD
 **********************************************************
 Franklin County, VA
+DB: This is the exact same format as Rockingham. I copied that parser and added the 3 additional city codes and changed the filter.
 Contact: Larry Davids <davidsla07@gmail.com
 Sender: mailbox@franklincountyva.org
 VIRIL H GOODE HWY will cause problems if we still have to use smart parser

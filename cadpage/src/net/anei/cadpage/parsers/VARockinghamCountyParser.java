@@ -129,6 +129,7 @@ public class VARockinghamCountyParser extends SmartAddressParser {
     // Loop through all call descriptions
     for (String call : new String[]{
         "EMS-OTHER",
+        "EMS-OTHER/DEFINE",
         "EMS-ABDOMINAL PAIN",
         "EMS-ALLERGIC REACTION",
         "EMS-ALS ASSIST",
