@@ -135,9 +135,31 @@ public abstract class SmsMsgParser {
   * @return Properties object containing the parsed key: value pairs
   */
  protected static Properties parseMessage(String body, String[] keyWords) {
+   
+   // The hard part is checking for partial keywords that might have gotten
+   // cut off by the SMS text limit
+   int ipt = body.lastIndexOf(' ');
+   ipt = body.length();
+   for (int cnt = 1; cnt <= 2; cnt++) {
+     ipt = body.lastIndexOf(' ', ipt-1);
+     if (ipt < 0) break;
+     String tail = body.substring(ipt+1);
+     for (String key : keyWords) {
+       if (key.startsWith(tail)) {
+         body = body.substring(0, ipt).trim();
+         ipt = 0;
+         break;
+       }
+     }
+     if (ipt == 0) break;
+   }
+   
+   // The easy part, search for each keyword occurance and replace the blank
+   // in front of it with a newline.  Then we can call the normal parseMessage
+   // with a newline delimiter
    StringBuffer sb = new StringBuffer(body);
    for (String keyWord : keyWords) {
-     int ipt = sb.indexOf(" " + keyWord + ":");
+     ipt = sb.indexOf(" " + keyWord + ":");
      if (ipt >= 0) sb.setCharAt(ipt, '\n');
    }
    return parseMessage(sb.toString(), "\n");
