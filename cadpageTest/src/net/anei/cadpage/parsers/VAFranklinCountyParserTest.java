@@ -6,7 +6,7 @@ import org.junit.Test;
 public class VAFranklinCountyParserTest extends BaseParserTest {
   
   public VAFranklinCountyParserTest() {
-    setParser(new VAFranklinCountyParser(), "FRANKLIN", "VA");
+    setParser(new VAFranklinCountyParser(), "FRANKLIN COUNTY", "VA");
   }
   
   @Test
