@@ -42,7 +42,7 @@ public class NYBrentwoodParserTest extends BaseParserTest {
         "CALL:PREGNANCY / CHILDBIRTH / MISCARRIAGE",
         "PLACE:FELDMAN, KRAMER & MONACO STE 400",
         "ADDR:330 MOTOR PKWY",
-        "X:WASHINGTON AV / MARCUS BLVD C",
+        "X:WASHINGTON AV / MARCUS BLVD",
         "CITY:Hauppauge");
 
     doTest("T5",

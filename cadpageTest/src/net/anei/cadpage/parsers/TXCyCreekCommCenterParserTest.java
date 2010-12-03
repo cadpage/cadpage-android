@@ -34,7 +34,7 @@ public class TXCyCreekCommCenterParserTest extends BaseParserTest {
         "MAP:378A",
         "PLACE:WALDEN ON LAKE HOUSTON",
         "CALL:52B01G-FIRE ALARM - RESIDENTIAL",
-        "UNIT:ATFD E-E39 X-");
+        "UNIT:ATFD E-E39");
     
     doTest("T4",
       "1of2:09/04 19:45 17219 KOBUK VALLEY CIR, ; Map:377E Sub:EAGLE SPRINGS Nat:67B03U-OUTSIDE FIRE - INVESTIGA Units:E-E39 X-St:*** Dead",
@@ -51,7 +51,7 @@ public class TXCyCreekCommCenterParserTest extends BaseParserTest {
         "MAP:376H",
         "PLACE:ATASCOCITA FOREST",
         "CALL:29-MOTOR VEHICLE INCIDENT",
-        "UNIT:E-M19 E-E39 X-");
+        "UNIT:E-M19 E-E39");
 
     doTest("T6",
         "11/15 11:28 19506 SWEETGUM FOREST DR, ; Map:337V Sub:PINEHURST OF ATASCOCITA Nat:28B01U-STROKE/CVA - UNKNOWN Units:E-E39 X-St:TWELFTH FAIRWAY *** Dead",

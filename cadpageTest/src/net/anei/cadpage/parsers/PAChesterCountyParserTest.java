@@ -30,7 +30,7 @@ public class PAChesterCountyParserTest extends BaseParserTest {
         "AKA",
         "CALL:BSICK   (SICK PERSON - BLS *)",
         "ADDR:415 MEGAN CT",
-        "X:VICTORIA GARDENS DR & AZALEA LA (V) AKA");
+        "X:VICTORIA GARDENS DR & AZALEA LA (V)");
 
     doTest("T4",
         "Initial Type: ACVA       Final Type: ACVA    (CVA/STROKE - ALS *)\n" +
