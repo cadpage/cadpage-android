@@ -1,5 +1,7 @@
 package net.anei.cadpage.parsers;
 
+import java.util.Properties;
+
 /*
 Franklin County, VA 
 MAILBOX:S07 EMS-OTHER/DEFINE 18360 VIRGIL H GOODE HWY 124 RMT CFS# 2010-030542 CROSS: SHADY LN/BLACKWATER RIVER
@@ -11,8 +13,17 @@ MAILBOX:S07 EMS-HIGH BLOOD PRESSURE 1808 BETHLEHEM RD BML CFS# 2010-030643 CROSS
 
 public class VAFranklinCountyParser extends DispatchDAPROParser {
   
+  
+  private static final Properties CITY_CODE_TABLE = 
+    buildCodeTable(new String[]{
+      "RMT", "Rocky Mount",
+      "BML", "Boones Mill",
+      "CAL", "Calaway"
+    });
+
+  
   public VAFranklinCountyParser() {
-		    setDefaults("FRANKLIN", "VA");
+	  super(CITY_CODE_TABLE, "FRANKLIN COUNTY", "VA");
   }
 		  
   

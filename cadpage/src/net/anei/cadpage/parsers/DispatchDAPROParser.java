@@ -1,5 +1,6 @@
 package net.anei.cadpage.parsers;
 
+import java.util.Comparator;
 import java.util.Properties;
 import java.util.SortedSet;
 import java.util.TreeSet;
@@ -11,49 +12,38 @@ import net.anei.cadpage.SmsMsgInfo.Data;
 DAPRO Systems http://www.daprosystems.com/
 Currently used by Rockingham, VA and Franklin, VA
 
+Rockingham County, VA 
+R40 EMS-CARDIAC CONDITION 1751 MAIN AVE HAR CFS# 2010-082726 CROSS: GARBERS CHURCH RD/S HIGH ST
+R40 EMS-MENTAL PROBLEM 445 N MAIN ST 44 HAR CFS# 2010-082451 CROSS: WOLFE ST/ROCK ST
+R40 EMS-ABDOMINAL PAIN 1737 MORELAND DR HAR CFS# 2010-083119 CROSS: PHEASANT RUN CIR/ASHFORD CT
+R40 EMS-CHEST PAIN 235 LAYMAN ST 101 HAR CFS# 2010-083046 CROSS: N MAIN ST/LONGVIEW DR
+R40 TRAFFIC CRASH 300 BOYERS RD BLK HAR CFS# 2010-082984 CROSS: MYSTIC WOODS LN/CULLISON CT
+R40 TRAFFIC CRASH RESERVOIR ST & CANTRELL AV HAR CFS# 2010-082327
+
+Franklin County, VA 
+MAILBOX:S07 EMS-OTHER/DEFINE 18360 VIRGIL H GOODE HWY 124 RMT CFS# 2010-030542 CROSS: SHADY LN/BLACKWATER RIVER
+MAILBOX:S07 EMS-CHEST PAIN 413 WOODDALE DR RMT CFS# 2010-030355 CROSS: VIRGIL H GOODE HWY/DEAD END
+MAILBOX:S07 EMS-PATIENT FALLEN 3005 GREEN LEVEL RD RMT CFS# 2010-030541 CROSS: GRASSY HILL RD/LITTLE MOUNTAIN DR
+MAILBOX:S07 EMS-CARDIAC VIRGIL H GOODE HWY & LINK ST RMT CFS# 2010-030580
+MAILBOX:S07 EMS-HIGH BLOOD PRESSURE 1808 BETHLEHEM RD BML CFS# 2010-030643 CROSS: BETHANY RD/DILLONS MILL RD
 */
 
 public class DispatchDAPROParser extends SmartAddressParser {
+
+  private String defCity;
+  private String defState;
   
-	  private String defCity;
-	  private String defState;
+  private Properties cityCodeTable;
 	
-  public void setDefaults(String defCity, String defState) {
-		    this.defCity = defCity;
-		    this.defState = defState;
-		  }
-  
   private static final String[] KEYWORDS = new String[]{"LOC", "CFS", "CROSS"};
-  
-  private static final Properties CITY_CODE_TABLE = 
-    buildCodeTable(new String[]{
-    	"RMT", "Rocky Mount",
-    	"BML", "Boones Mill",
-    	"CAL", "Calaway",
-        "BRO", "BROADWAY",
-        "BRI", "BRIDGEWATER",
-        "HAR", "HARRISONBURG",
-        "SIN", "SINGERS GLEN",
-        "CLO", "CLOVER HILL",
-        "HIN", "HINTON",
-        "MOU", "MOUNT CRAWFORD",
-        "TIM", "TIMBERVILLE",
-        "DAY", "DAYTON",
-        "GRO", "GROTTOES",
-        "MCG", "MCGAHEYSVILLE",
-        "PEN", "PENN LAIRD",
-        "ELK", "ELKTON",
-        "WEY", "WEYERS CAVE",
-        "NEW", "NEW MARKET",
-        "STA", "STANLEY",
-        "LUR", "LURAY",
-        "SHE", "SHENANDOAH"
-    });
   
   private static final Pattern MARKER = Pattern.compile("\\b[SRC]\\d\\d\\b");
   
-  public DispatchDAPROParser() {
-    super(CITY_CODE_TABLE);
+  public DispatchDAPROParser(Properties cityCodeTable, String defCity, String defState) {
+    super(cityCodeTable, defState);
+    this.cityCodeTable = cityCodeTable;
+    this.defCity = defCity;
+    this.defState = defState;
     buildCallDictionary();
   }
   
@@ -105,14 +95,19 @@ public class DispatchDAPROParser extends SmartAddressParser {
     }
     
     // Either way, we need to convert the city code
-    data.strCity = convertCodes(data.strCity, CITY_CODE_TABLE);
+    data.strCity = convertCodes(data.strCity, cityCodeTable);
     
     return true;
   }
   
-  // This is a list of all of the expected call descriptions indexed by the first
-  // word in each description
-  private static TreeSet<String> callDictionary = new TreeSet<String>();
+  // This is a tree set containing all of the expected call descriptions
+  // sorted in reverse order because we need to search the tree backward and
+  // Android implementation of TreeSet lacks features that make that easy
+  private static TreeSet<String> callDictionary = new TreeSet<String>(new Comparator<String>(){
+    @Override
+    public int compare(String str1, String str2) {
+      return -str1.compareTo(str2);
+    }});
   
   /**
    * Build call description dictionary
@@ -133,6 +128,7 @@ public class DispatchDAPROParser extends SmartAddressParser {
         "EMS-BACK PAIN",
         "EMS-ANIMAL BITE",
         "EMS-BURNS",
+        "EMS-CARDIAC",
         "EMS-CARDIAC CONDITION",
         "EMS-CHEST PAIN",
         "EMS-CHOKING",
@@ -148,11 +144,13 @@ public class DispatchDAPROParser extends SmartAddressParser {
         "EMS-HEADACHE",
         "EMS-HEAT/COLD EXPOSURE",
         "EMS-HEMORRHAGING",
+        "EMS-HIGH BLOOD PRESSURE",
         "EMS-ILLNESS",
         "EMS-LACERATION",
         "EMS-MENTAL PROBLEM",
         "EMS-OB RELATED EVENT",
         "EMS-OVERDOSE/POISONING",
+        "EMS-PATIENT FALLEN",
         "EMS-SEIZURES",
         "EMS-STAB WOUND",
         "EMS-STROKE",
@@ -226,20 +224,24 @@ public class DispatchDAPROParser extends SmartAddressParser {
         "VEHICLE FIRE THREATENING A STRUCTURE",
         "WATER EVENT",
         "WATER REMOVAL"
-    }) callDictionary.add(call);
+    }) callDictionary.add(call + " ");
   }
   
   private String getCallDesc(String body) {
     
-    // This is so clever, just search the call dictionary sorted set
+    // Search the call dictionary sorted set for the highest entry less than or
+    // equal to message body.  If the body starts with this string, we have a
+    // match.  If not, we have to keep searching backward through the sorted set
     // for the entry less than or equal to the message body
-    // If android supported the floor() function this would have been
-    // perfect.  As it is, it will fail if the body consists of the call
-    // description and nothing else.  Which really isn't realistic
-    SortedSet<String> head =  callDictionary.headSet(body);
-    if (head.isEmpty()) return null;
-    String call = head.last();
-    if (body.startsWith(call)) return call;
+    
+    // We reversed the tree order so we can accomplish this trick without
+    // needing a backward read feature, with Android seems to be lacking
+    String firstWord = new Parser(body).get(' ');
+    SortedSet<String> tail =  callDictionary.tailSet(body);
+    for (String call : tail) {
+      if (body.startsWith(call)) return call.trim();
+      if (!call.startsWith(firstWord)) return null;
+    }
     return null;
   }
 }

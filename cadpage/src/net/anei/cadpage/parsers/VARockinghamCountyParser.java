@@ -1,5 +1,7 @@
 package net.anei.cadpage.parsers;
 
+import java.util.Properties;
+
 /*
 Rockingham County, VA (class II)
 Contact: Spencer Gibson <stgibs@gmail.com>
@@ -20,9 +22,33 @@ public class VARockinghamCountyParser extends DispatchDAPROParser {
   
   private static final String DEF_STATE = "VA";
   private static final String DEF_CITY = "ROCKINGHAM COUNTY";
+  
+  
+  private static final Properties CITY_CODE_TABLE = 
+    buildCodeTable(new String[]{
+        "BRO", "BROADWAY",
+        "BRI", "BRIDGEWATER",
+        "HAR", "HARRISONBURG",
+        "SIN", "SINGERS GLEN",
+        "CLO", "CLOVER HILL",
+        "HIN", "HINTON",
+        "MOU", "MOUNT CRAWFORD",
+        "TIM", "TIMBERVILLE",
+        "DAY", "DAYTON",
+        "GRO", "GROTTOES",
+        "MCG", "MCGAHEYSVILLE",
+        "PEN", "PENN LAIRD",
+        "ELK", "ELKTON",
+        "WEY", "WEYERS CAVE",
+        "NEW", "NEW MARKET",
+        "STA", "STANLEY",
+        "LUR", "LURAY",
+        "SHE", "SHENANDOAH"
+    });
+  
 	  
 	  public VARockinghamCountyParser() {
-			    setDefaults(DEF_CITY, DEF_STATE);
+			 super(CITY_CODE_TABLE, DEF_CITY, DEF_STATE);
 	  }
 			  
 }
