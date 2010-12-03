@@ -183,7 +183,7 @@ public class EmailDeveloperActivity extends Activity {
   }
   
   /**
-   * Request an Email reporting a CadPage crash
+   * Request an Email reporting a CADPage crash
    * @param context current context
    */
   public static void sendCrashEmail(Context context) {

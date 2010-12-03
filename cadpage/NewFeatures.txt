@@ -1,7 +1,7 @@
 Cool features under consideration
 
 *******************************************************************************
-Issue #27.  Add preference config item for a phone number that will be autoamatically
+DONE Issue #27.  Add preference config item for a phone number that will be autoamatically
 dialed when user selects 'Ack' menu item.
 *******************************************************************************
 Issue #28.  Add some kind of feature to notify users when a new version 
