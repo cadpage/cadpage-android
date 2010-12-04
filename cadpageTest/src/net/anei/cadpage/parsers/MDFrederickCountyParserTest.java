@@ -3,20 +3,21 @@ package net.anei.cadpage.parsers;
 import org.junit.Test;
 
 
-public class MDFredrickCountyParserTest extends BaseParserTest {
+public class MDFrederickCountyParserTest extends BaseParserTest {
   
-  public MDFredrickCountyParserTest() {
-    setParser(new MDFredrickCountyParser(), "FREDRICK COUNTY", "MD");
+  public MDFrederickCountyParserTest() {
+    setParser(new MDFrederickCountyParser(), "FREDERICK COUNTY", "MD");
   }
   
   @Test
   public void testParser() {
+        
     doTest("T1",
         "(CAD) [FredCo] CT: HOUSE / FIRE-VISIBLE 6801 HARBAUGH RD CSAB:NEXT TO HER HOME ESZ: 626 MAP: 3996A6 Disp: [23]" ,
         "CALL:HOUSE/FIRE-VISIBLE",
         "ADDR:6801 HARBAUGH RD",
         "CITY:Sabillasville",
-        "INFO:NEXT TO HER HOME",
+        "PLACE:NEXT TO HER HOME",
         "BOX:626",
         "MAP:3996A6"
         );
@@ -34,7 +35,7 @@ public class MDFredrickCountyParserTest extends BaseParserTest {
         "CALL:COMMERCIAL FIRE ALARM/AUTOMATIC",
         "ADDR:4 PAWS PL",
         "CITY:Thurmont",
-        "INFO:@CATOCTIN VETERINARY CLINIC",
+        "PLACE:@CATOCTIN VETERINARY CLINIC",
         "UNIT:E102,TWR6",
         "BOX:1001",
         "MAP:4108E9"
@@ -44,16 +45,27 @@ public class MDFredrickCountyParserTest extends BaseParserTest {
         "CALL:PERSON FIRE (INSIDE)",
         "ADDR:16825 S SETON AVE",
         "CITY:Emmitsburg",
-        "INFO:@NATIONAL EMERGENCY TRAINING CENTER:SIMULATION LAB",
+        "PLACE:@NATIONAL EMERGENCY TRAINING CENTER:SIMULATION LAB",
         "BOX:620",
         "MAP:3997H9"
         );
     doTest("T5",
         "(CAD) [FredCo] CT: OUTSIDE INVESTIGATION @MA ADAM CO: @RT15SB/BOYLE RD ESZ: -1 Disp: E63 [38]" ,
-        "CALL:OUTSIDE INVESTIGATION",
-        "ADDR:RT15SB/BOYLE RD",
+        "CALL:Mutual Aid: OUTSIDE INVESTIGATION",
+        "ADDR:RT15SB & BOYLE RD",
+        "CITY:Adams County",
         "UNIT:E63",
         "BOX:-1"
+        );
+    doTest("T6",
+        "(FredCo) [CAD] CT: CHEST PAIN  1811 MONOCACY BLVD FRE1: @WAL MART: PHARMACY  ESZ: 215 MAP: 4448J9  Disp: A29,A247,M17",
+        "CALL:CHEST PAIN",
+        "ADDR:1811 MONOCACY BLVD",
+        "CITY:Frederick City",
+        "PLACE:@WAL MART: PHARMACY",
+        "MAP:4448J9",
+        "UNIT:A29,A247,M17",
+        "BOX:215"
         );
     
   }
