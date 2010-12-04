@@ -23,7 +23,7 @@ Sender:  www.codemessaging.net
 
 ***/
 
-public class MDFredrickCountyParser extends SmartAddressParser {
+public class MDFrederickCountyParser extends SmartAddressParser {
 
   private static final String[]Fredrickkeywords = new String[]{"CT", "ESZ", "MAP", "Disp",};
   
@@ -43,7 +43,7 @@ public class MDFredrickCountyParser extends SmartAddressParser {
         "FRAN CO", "Franklinn County"
     });
 
-  public MDFredrickCountyParser(){
+  public MDFrederickCountyParser(){
     super(CITY_CODE_TABLE);
   }
 

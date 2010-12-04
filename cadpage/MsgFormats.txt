@@ -219,41 +219,6 @@ Hayword County, NC (NCHaywoodCountyParser)
 CAD:1010170008;ROUTINE SICK PERSON;33 GRACE DR;CRUSO RD;JOHNS CREEK RD;12;10/17/2010 10:15:00
 CAD:1011010007;ROUTINE SICK PERSON;59 YAH WAY;MUNDY FIELD RD;12;11/01/2010 12:29:40
 CAD:1010300004;EMERGENCY TRAFFIC ACCIDENT;9600 CRUSO RD/BURNETTE COVE RD;12;10/30/2010 10:07:00
-**********************************************************
-Worcester County, MD
-Contact:james johnson <jjohnson1179@gmail.com>
-Contact: BIGJOHNSON1179@vtext.com
-ANother one with challenging inconsistent field placement :(
-Looks same as Hayword County, NC  (Close, but appears to add a town)
-CAD:300;FALLS;5914 BOX IRON RD;GIRDLETREE;PINE ST;TAYLOR LANDING RD;11/23/2010 08:31:38
-CAD:300;SICK PERSON;5822 DUKES RD;GIRDLETREE;RAILROAD AVE;SNOW HILL RD;11/16/2010 09:21:04
-CAD:300;FALLS;5914 BOX IRON RD;GIRDLETREE;PINE ST;TAYLOR LANDING RD;11/23/2010 08:31:38
-CAD:100;TRAFFIC TRANSPORTATION ACC;3543 AYDELOTTE RD;DIST: 7.94 FT;POCOMOKE;BRANTLEY RD;SHEEPHOUSE RD;11/16/2010 00:31:42
-CAD:100;PROPANE OR NATURAL GAS LEAK;1010 CLARKE AVE;POCOMOKE;ANN ST;MCMICHAEL AVE;11/12/2010 10:31:09
-CAD:100;FIRE ALARM;125 NEWTOWNE BLVD;HOLIDAY INN EXPRESS;POCOMOKE;OLD SNOW HILL RD;11/12/2010 08:15:38
-CAD:100;TRAFFIC TRANSPORTATION ACC;DIVIDING CREEK RD/WORTH RD;DIST: 25.70 FT;POCOMOKE;11/10/2010 15:20:42
-CAD:MUTUAL AID ASSIST OUTSIDE AGY;4264 FIREHOUSE ST;NEWCHURCH STATION 1;NEW CHURCH;DEPOT ST;LANKFORD LN;11/08/2010 20:34:48
-CAD:100;TRAFFIC TRANSPORTATION ACC;OCEAN HWY/WORCESTER HWY;PRIOR TO 113;POCOMOKE;11/08/2010 01:15:41
-CAD:100;UNCONSCIOUS FAINTING;275 NEWTOWNE BLVD;BLDG LOWES;LOWES OF POCOMOKE;POCOMOKE;OLD SNOW HILL RD;11/07/2010 11:25:06
-CAD:100;BREATHING PROBLEMS;906-16 LYNNHAVEN DR;POCOMOKE;8TH ST;HALEYS WAY;10/24/2010 06:58:01
-CAD:S5;MUTUAL AID ASSIST OUTSIDE AGY;8987 COURTHOUSE HILL RD;POCOMOKE;DIVIDING CREEK RD;WALLACE TAYLOR RD;10/22/2010 22:01:04
-CAD:100;UNCONSCIOUS FAINTING;1130 OLD VIRGINIA RD;POCOMOKE NAZARENE CHURCH;POCOMOKE;OCEAN HWY;SOUTHERN FIELDS DR;10/17/2010 11:32:35
-CAD:100;CARDIAC OR RESPIRATORY ARREST;2330 WORCESTER HWY;GRND FLR;POCOMOKE;OLD SNOW HILL RD;LAMBERTSON RD;10/18/2010 19:23:41
-CAD:100;RESIDENTIAL STRUCTURE FIRE;208 14TH ST;POCOMOKE;MARKET ST;CEDAR RUN;10/23/2010 07:12:12
-CAD:100;BREATHING PROBLEMS;906-16 LYNNHAVEN DR;POCOMOKE;8TH ST;HALEYS WAY;10/24/2010 06:58:01  
-
-Station codes
-100=POCOMOKE CITY
-200= STOCKTON MD
-300=GIRDLETREE MD. WITCH IS WERE I AM
-400=SNOWHILL MD
-500=NEWARK MD
-600=BERLIN MD
-700=OCEAN CITY MD BUT THEY HAVE DIFF DISPATCH THE THE REST OF THE COUNTY
-800=SHOWELL
-900=BISHOPVILLE
-NO 1000 STATION
-1100=OCEAN PINES
 ***************************************************************************
 Orleans County, NY (NYOrleansCountyParser)
 BREATHING PROBLEMS; 231 CHAMBERLAIN ST VAL; 17yom t/b    6-c-1; TEST FROM ORLEANS
@@ -353,6 +318,11 @@ Charleston County, SC (SCCharlestonCounty, SC)
 1110-0001574 District 03 Rescue MVA Entrapment D Address: Playground Rd / Ashley River Rd X Street:   Cmd Channel: Incident 07
 1110-0001568 District 04 Rescue MVA  w/Injury B Address: JAMES ISLAND EXPWY / FOLLY RD X Street:  JAMES ISLAND CONNECTOR Cmd Chann
 ***************************************************************************
+Frederick County, MD (MDFrederickCountyParser)
+(CAD) [FredCo] CT: HOUSE / FIRE-VISIBLE 6801 HARBAUGH RD CSAB:NEXT TO HER HOME ESZ: 626 MAP: 3996A6 Disp: [23]
+(CAD) [FredCo] CT: WOODS FIRE 7819-B FRIENDS CREEK RD CEMB ESZ: 627 MAP: 3996F6 Disp: E63,B66,DNR [36]
+(CAD) [FredCo] CT: COMMERCIAL FIRE ALARM / AUTOMATIC 4 PAWS PL THUR: @CATOCTIN VETERINARY CLINIC ESZ: 1001 MAP: 4108E9 Disp: E102,TWR6 [37]
+***************************************************************************
 ***************************************************************************
 ***************************************************************************
 ***************************************************************************
@@ -440,10 +410,6 @@ Cross Streets : 400-406  SIXTH ST * 1-14 CASTLE CT
 Apt: ////
 KISTLER
 Cross Streets : 150-198  N RIVERSIDE DR * 142-148 PARK RD
-**********************************************************
-Anonymous request
-Contact: Dale Fogle <pullersnet@gmail.com>
-(FredCo) [CAD] CT: CHEST PAIN  1811 MONOCACY BLVD FRE1: @WAL MART: PHARMACY  ESZ: 215 MAP: 4448J9  Disp: A29,A247,M17
 **********************************************************
 Greene County NY (or Athens FD)
 Contact: 8456569957@mms.att.net
@@ -609,34 +575,6 @@ EXAMPLE #9 - Mutual Aid (Woolwich Township) MVC Fire Call:
   Dsp-11:25:11     
   Clr- 
 **********************************************************
-Emmitsburg, MD (Northern Federick County)
-Contact: dalefogle@aol.com
-Sender:  www.codemessaging.net
-
-THUR Thurmont
-CEMB Emmitsburg 
-CSAB Sabillasville
-CWAL Walkersville
-CFR2 (north of) Frederick City
-WOOD Woodsboro
-CNMA New Market
-
-Mutual aid to 
-ADAM - Adams County, PA
-ADCO - Franklinn County, PA
-Carrol County, MD
-Washington County, MD
-
-(CAD) [FredCo] CT: HOUSE / FIRE-VISIBLE 6801 HARBAUGH RD CSAB:NEXT TO HER HOME ESZ: 626 MAP: 3996A6 Disp: [23]
-(CAD) [FredCo] CT: WOODS FIRE 7819-B FRIENDS CREEK RD CEMB ESZ: 627 MAP: 3996F6 Disp: E63,B66,DNR [36]
-(CAD) [FredCo] CT: COMMERCIAL FIRE ALARM / AUTOMATIC 4 PAWS PL THUR: @CATOCTIN VETERINARY CLINIC ESZ: 1001 MAP: 4108E9 Disp: E102,TWR6 [37]
-(CAD) [FredCo] CT: OUTSIDE INVESTIGATION @MA ADAM CO: @RT15SB/BOYLE RD ESZ: -1 Disp: E63 [38]
-       This was a mutual aid call to Adams Co. Pa at Rt.15 South Bound at the Boyle Rd. overpass
-(CAD) [FredCo] CT: HOUSE / ODOR 9152 OLD KILN RD CEMB ESZ: 617 MAP: 4109E4 Disp: E63,E102,A268,TWR6,ET64 [39]
-(CAD) [FredCo] CT: COMMERCIAL FIRE ALARM / AUTOMATIC 102 OLD OAK PL THUR ESZ: 1001 MAP: 4222D2 Disp: E102,TWR6 [41]
-(CAD) [FredCo] CT: COMMERCIAL FIRE ALARM / WATERFLOW 100 CREAMERY CT: @EMMITSBURG GLASS CO ESZ: 620 MAP: 3997K9 Disp: E63,TWR6 [42]
-(CAD) [FredCo] CT: PERSON FIRE (INSIDE) 16825 S SETON AVE CEMB: @NATIONAL EMERGENCY TRAINING CENTER:SIMULATION LAB ESZ: 620 MAP: 3997H9 Disp: [34]
-**********************************************************
 Mystery contact.  But these resolve nicely in the Bablyon NY location
 Contact: 5168050593@vtext.com
 *** 16 - Rescue *** 99 OVERTON ST CS: JEFFERSON AVE  / DEER PARK AVE TOA: 15:06 11/25/10 E/F SICK DEER PARK FIRE DISTRICT
@@ -723,6 +661,138 @@ Subject:IPS I/Page Notification 10220 BRIGHTON RD ADAM CCPD:DIVERSIFIES TRUCK AN
 Subject:IPS I/Page Notification US HIGHWAY 85 NB/E 77TH AVE ADAM ADAM 03:34:04 TYPE CODE: NONSTR CALLER NAME: ASHLEY TIME: 03:34:04 Commen
 Subject:IPS I/Page Notification 9900 E 102ND AVE ADAM CCPD:USF 06:06:49 TYPE CODE: FRALRM CALLER NAME: ADT TIME: 06:06:49 Comments: WATER
 **********************************************************
+Davis County, UT
+Contact: Justin Arbogast <arby115@gmail.com>
+Sender: paging@co.davis.ut.us
+System: Spillman
+
+paging@co.davis.ut.us<http://us.mc330.mail.yahoo.com/mc/compose?to=paging@co.davis.ut.us>/
+DCSO / Fire Alarm Comm
+2645 N MAIN ST; 12D ACTION ZONE GYMNASTI
+KEY PAD / RP PENDING
+
+Child Birth
+2539 N 475 W; #B
+17:02:14 11/29/2010 - dmaples
+ProQA Medical Recommended Dispatch Level = 24D5
+28 year old, Female, Conscious, B
+
+Pregnancy Prob
+2248 N 75 W
+22:20:36 11/28/2010 - carchbol
+ProQA Medical Recommended Dispatch Level = 24D4
+19 year old, Female, Conscious, Br
+
+Fainting
+177 W 1850 N
+20:55:02 11/26/2010 - vjones
+ProQA Medical Recommended Dispatch Level = 31D2
+75 year old, Male, Unconscious, Breathing
+
+Fainting
+1086 N 450 W
+20:23:18 11/26/2010 - ebutcher
+ProQA Medical Recommended Dispatch Level = 31D4
+52 year old, Female, Conscious, Breathi
+
+paging@co.davis.ut.us<http://us.mc330.mail.yahoo.com/mc/compose?to=paging@co.davis.ut.us>/
+DCSO / Acc PI Alpha
+2300 N MAIN ST
+NEG INJURIES, DODGE DURANGO, 2006 TOYT,
+16:14:58 11/24/2010 - D Bird
+IN THE TURNING LANE
+
+paging@co.davis.ut.us<http://us.mc330.mail.yahoo.com/mc/compose?to=paging@co.davis.ut.us>/
+DCSO / Domestic
+31 W 1600 N; 8
+man & woman it has been physical, no weapons, alcohol involved, they are
+both
+outside
+
+paging@co.davis.ut.us<http://us.mc330.mail.yahoo.com/mc/compose?to=paging@co.davis.ut.us>/
+DCSO / Medical Standby
+78 W 800 N
+.SUICIDAL TRYING TO GET A KNIFE
+
+**********************************************************
+Bucks County, PA
+Contact: "Ryan Pankoe" <rpankoe@gmail.com>
+Sender: 8276,a@bnn.us
+911:SQ134  type:BTAI    adr:S LIMEKILN PK/UPPER STATE RD ,48  aai:  box:74064  map:3033F7  tm:21:05:23  ED1042264
+911:SQ134  type:ARESP   adr:4217 HORSESHOE WY ,36  btwn BERRY BROW DR &amp; SPARROW WY  aai:  box:60002  map:2921B10  tm:05:02:04  ED1042293  
+911:SQ134  type:ARESP   adr:221 HAMPSHIRE DR ,48  btwn CORNWALL DR &amp; SURREY RD  aai:  box:74062  map:3033E6  tm:14:06:02  ED1042334  
+911:SQ134  type:AFAINT  adr:1553 LOWER STATE RD ,29  btwn BRISTOL RD &amp; OLD NEW RD  aai:  box:78054  map:3034E7  tm:20:28:45  ED1042385  
+911:SQ134  type:BTAI    adr:1235 S TOWNSHIP LINE RD ,36  btwn CHALFONT RD &amp; LIMEKILN PK  aai:  box:61003  map:2921D10  tm:12:02:56  ED1042577  
+911:SQ134  type:BBLED   adr:102 HARRISON FORGE CT ,48  btwn E FAIRWOOD DR &amp; CUL DE SAC  aai:  box:34030  map:3033H1  tm:14:38:26  ED1042595  
+0001/0002 911:SQ134  type:ATRAN   adr:2343 BETHLEHEM PK #312 ,36 -- DOCK MEADOWS NH btwn UNIONVILLE PK &amp; CHURCH RD  aai:GO TO CHURCH RD NORTH ENTRANCE  
+0002/0002 box:60063 map:3032E3 &nbsp;tm:14:48:06 ED1042598&nbsp;
+911:SQ134  type:BINJ    adr:BARC HOUSE ,47 at 80 PUEBLO RD ,47 btwn LENAPE DR &amp; UTE RD  aai:DOWNSTAIRS  box:34033  map:3033J2  tm:16:57:04  ED1043086  
+911:STA19  type:FALRM   adr:DTH ,29 at 595 W STATE ST ,29 btwn PROGRESS DR &amp; RT 611 BY  aai:215 345-2200  box:19051  map:3034G2  tm:12:37:42  FD101999
+
+21 - Bedminster Twp.
+22 - Bensalem Twp.
+23 - Bridgeton Twp.
+24 - Bristol Boro.
+25 - Bristol Twp.
+26 - Buckingham Twp.
+27 - Chalfont Boro.
+28 - Doylestown Boro.
+29 - Doylestown Twp.
+31 - Dublin Boro.
+32 - Durham Twp.
+33 - East Rockhill
+34 - Falls Twp.
+35 - Haycock Twp.
+36 - Hilltown Twp.
+37 - Hulmeville Boro.
+38 - Ivyland Boro.
+39 - Langhorne Boro.
+41 - Langhorne Manor Boro.
+42 - Lower Makefield Twp.
+43 - Lower Southampton Twp.
+44 - Middletown Twp.
+45 - Milford Twp.
+46 - Morrisville Boro.
+47 - New Britain Boro.
+48 - New Britain Twp.
+49 - New Hope Boro.
+51 - Newtown Boro.
+52 - Newtown Twp.
+53 - Nockamixon Twp.
+54 - Northampton Twp.
+55 - Penndel Boro.
+56 - Perkasie Boro.
+57 - Plumstead Twp.
+58 - Quakertown Twp.
+59 - Richland Twp.
+61 - Richlandtown Boro.
+62 - Riegelsville Boro.
+63 - Sellersville Boro.
+64 - Silverdale Boro.
+65 - Solebury Twp.
+66 - Springfield Twp.
+67 - Telford Boro.
+68 - Tinicum Twp.
+69 - Trumbauersville Boro.
+71 - Tullytown Boro.
+72 - Upper Makefield Twp.
+73 - U. Southampton Twp.
+74 - Warminster Twp.
+75 - Warrington Twp.
+76 - Warwick Twp.
+77 - Pennridge Regional PD
+78 - Wrightstown Twp.
+79 - Yardley Boro.
+81 - Radio Repair Shop
+83 - State Park Rangers (Neshaminy)
+84 - Pa. State Constables
+85 - Sheriff
+86 - Couthouse Security
+88 - Neshaminy Manor Sec.
+89 - Domestic Affairs
+91 - A State Fish and Game
+98 - State Park Rangers (Tyler)
+
 **********************************************************
 **********************************************************
 * Misc formats received with problem reports
