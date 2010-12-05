@@ -37,7 +37,7 @@ public class NYBelmoreParser extends SmsMsgParser {
     if (! body.contains(" at ")) return false;
 
     data.defState="NY";
-    data.defCity="BELMORE";
+    data.defCity="BELLMORE";
     
     // Strip off trailing time mark
     Matcher match = EOL_MARK.matcher(body);
