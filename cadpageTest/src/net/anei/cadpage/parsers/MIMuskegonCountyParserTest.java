@@ -48,5 +48,10 @@ public class MIMuskegonCountyParserTest extends BaseParserTest {
         "X:DULEY DR/W MCMILLAN RD",
         "INFO:FGRAS"
         );
+    doTest("T6",
+        "CAD:FYI: ;N WEBER RD/W MICHILLINDA RD;PI1",
+        "CALL:Unkown",
+        "ADDR:N WEBER RD & W MICHILLINDA RD",
+        "INFO:PI1");
  }
 }
