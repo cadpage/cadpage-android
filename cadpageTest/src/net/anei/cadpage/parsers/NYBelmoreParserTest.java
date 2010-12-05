@@ -6,7 +6,7 @@ import org.junit.Test;
 public class NYBelmoreParserTest extends BaseParserTest {
   
   public NYBelmoreParserTest() {
-    setParser(new NYBelmoreParser(), "BELMORE", "NY");
+    setParser(new NYBelmoreParser(), "BELLMORE", "NY");
   }
   
   @Test
