@@ -308,6 +308,16 @@ Frederick County, MD (MDFrederickCountyParser)
 (CAD) [FredCo] CT: HOUSE / FIRE-VISIBLE 6801 HARBAUGH RD CSAB:NEXT TO HER HOME ESZ: 626 MAP: 3996A6 Disp: [23]
 (CAD) [FredCo] CT: WOODS FIRE 7819-B FRIENDS CREEK RD CEMB ESZ: 627 MAP: 3996F6 Disp: E63,B66,DNR [36]
 (CAD) [FredCo] CT: COMMERCIAL FIRE ALARM / AUTOMATIC 4 PAWS PL THUR: @CATOCTIN VETERINARY CLINIC ESZ: 1001 MAP: 4108E9 Disp: E102,TWR6 [37]
+**************************************************************************
+Muskegon County, MI (MIMuskegonCountyParser)
+CAD:FYI: ;7610 EASY ST;BENSTON RD;WHITEHALL RD;MED1
+CAD:FYI: ;322 E MUSKEGON AV;S LIVINGSTON ST;S BALDWIN ST;WIRED
+CAD:FYI: ;1387 W HOLTON WHITEHALL RD;AUTOMOBILE RD;HYDE PARK RD;MED1
+***************************************************************************
+Mifflin County, PA (PAMifflinCountyParser)
+(CAD Page for CFS 111710-43) ALS - Uncon/Syncope\n1 DERRY PARK DR\nApt:\nBURNHAM\nCross Streets : 400-412  S LOGAN BLVD
+(CAD Page for CFS 111710-42) URG - Ment/Emot/Psych\n41 INDUSTRIAL PARK RD\nApt: A\nGRANVILLE\nCross Streets : 708-924  LOOP RD * 2120-2456 MIDDLE RD
+(CAD Page for CFS 111710-37) ALS - Breathing Difficulty\n27 ANDERSON ST\nApt:\nBRATTON\nCross Streets : 1-19  MATTAWANA BLVD
 ***************************************************************************
 ***************************************************************************
 ***************************************************************************
@@ -354,48 +364,6 @@ Contact: 7167992315@vtext.com
 **********************************************************
 **********************************************************
 **********************************************************
-Mifflin County, PA
-Contact: Eric Moist <emoist@ymail.com>
-Sender: cmessages@co.mifflin.pa.us and cadmessages@co.mifflin.pa.us 
-
-(CAD Page for CFS 111710-43) ALS - Uncon/Syncope
-1 DERRY PARK DR
-Apt: 
-BURNHAM
-Cross Streets : 400-412  S LOGAN BLVD
-
-
-(CAD Page for CFS 111710-42) URG - Ment/Emot/Psych
-41 INDUSTRIAL PARK RD
-Apt: A
-GRANVILLE
-Cross Streets : 708-924  LOOP RD * 2120-2456 MIDDLE RD
-
-(CAD Page for CFS 111710-37) ALS - Breathing Difficulty
-27 ANDERSON ST
-Apt: 
-BRATTON
-Cross Streets : 1-19  MATTAWANA BLVD
-
-
-(CAD Page for CFS 111710-2) ALS - Motor Vehicle Accident
-ROSEWOOD AVE and US HIGHWAY 522 NORTH
-Apt: //
-DERRY
-Cross Streets : 1-24  ROSEWOOD AVE
-
-(CAD Page for CFS 111610-52) ALS - Breathing Difficulty
-163 SUMMIT DR
-Apt: 
-DERRY
-Cross Streets : 400-406  SIXTH ST * 1-14 CASTLE CT
-
-
-(CAD Page for CFS 111510-56) ALS - Diabetic
-7 MAPLE ST
-Apt: ////
-KISTLER
-Cross Streets : 150-198  N RIVERSIDE DR * 142-148 PARK RD
 **********************************************************
 Greene County NY (or Athens FD)
 Contact: 8456569957@mms.att.net
@@ -828,7 +796,6 @@ I will list all the townships in the county and the towns in those townships
       - Royalton
    - Liberty Township
       - Baltimore
-
 **********************************************************
 **********************************************************
 **********************************************************
