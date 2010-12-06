@@ -6,6 +6,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Properties;
+import java.util.regex.Pattern;
 
 import net.anei.cadpage.SmsMsgInfo;
 
@@ -65,6 +66,8 @@ public abstract class SmartAddressParser extends SmsMsgParser {
   
   // Bitmask bit indicating token is an appartment selector
   private static final int ID_APPT = 0x2000;
+  
+  private static final Pattern PAT_HOUSE_NUMBER = Pattern.compile("\\d+(-?[A-Z])?");
   
   // List of multiple word cities that need to be converted to and from single tokens
   List<String[]> mWordCities = null;
@@ -337,7 +340,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
       while (true) {
         
         if (sAddr >= tokens.length) return false;
-        if (isType(sAddr, ID_NUMBER)) {
+        if (isHouseNumber(sAddr)) {
           if (sAddr > 0 && isType(sAddr-1, ID_ROUTE_PFX) && 
               !tokens[sAddr-1].equalsIgnoreCase("CO")) return false;
           break;
@@ -868,5 +871,19 @@ public abstract class SmartAddressParser extends SmsMsgParser {
       tokens[ndx] = "ST" + tokens[ndx].substring(3);
     }
     return true;
+  }
+  
+  // Determine if token is a valid house number
+  private boolean isHouseNumber(int ndx) {
+    
+    // If numeric token, answer is yes
+    if (isType(ndx, ID_NUMBER)) return true;
+    
+    // Try it against the numeric street number pattern
+    // which allows a trailing letter qualifier
+    if (ndx >= tokens.length) return false;
+    if (PAT_HOUSE_NUMBER.matcher(tokens[ndx]).matches()) return true;
+    return false;
+    
   }
 }
