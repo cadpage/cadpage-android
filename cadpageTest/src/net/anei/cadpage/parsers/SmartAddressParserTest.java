@@ -255,14 +255,22 @@ public class SmartAddressParserTest extends BaseParserTest {
   
   @Test
   public void testRoadTokens() {
-    doTest(SKIP, "AT US-30", "ADDR:US-30");
-    doTest(SKIP, "AT us30", "ADDR:us-30");
-    doTest(SKIP, "AT ST30NB", "ADDR:ST-30");
-    doTest(SKIP, "AT I105WB", "ADDR:I-105");
-    doTest(SKIP, "AT CO7", "ADDR:CO-7");
+    doTest(SKIP, "BAD US-30", "ADDR:US-30");
+    doTest(SKIP, "BAD us30", "ADDR:us-30");
+    doTest(SKIP, "BAD ST30NB", "ADDR:ST-30");
+    doTest(SKIP, "BAD I105WB", "ADDR:I-105");
+    doTest(SKIP, "BAD CO7", "ADDR:CO-7");
     
-    doTest(SKIP, "AT ST30A", "ADDR:AT ST30A");
-    doTest(SKIP, "AT ST30NBA", "ADDR:AT ST30NBA");
+    doTest(SKIP, "BAD ST30A", "ADDR:BAD ST30A");
+    doTest(SKIP, "BAD ST30NBA", "ADDR:BAD ST30NBA");
+  }
+  
+  @Test
+  public void testHouseNumbers() {
+    doTest(SKIP, "BAD 100 BLACK ST", "ADDR:100 BLACK ST");
+    doTest(SKIP, "BAD 100-A BLACK ST", "ADDR:100-A BLACK ST");
+    doTest(SKIP, "BAD 100B BLACK ST", "ADDR:100B BLACK ST");
+    doTest(SKIP, "BAD 100AB BLACK ST", "ADDR:BLACK ST");
   }
   
   @Test
