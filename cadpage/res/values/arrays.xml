@@ -184,6 +184,7 @@
     <item>NYBelmore</item>
     <item>NYBrentwood</item>
     <item>NYDixHills</item>
+    <item>NYGreeneCounty</item>
     <item>NYHerkimerCounty</item>
     <item>NYHolbrook</item>
     <item>NYKingston</item>
@@ -193,6 +194,7 @@
     <item>NYSetauket</item>
     <item>NCHaywoodCounty</item>
     <item>NCMaconCounty</item>
+    <item>OHDelewareCounty</item>
     <item>OHSugarCreek</item>
     <item>ORBentonCounty</item>
     <item>ORPrineville</item>
@@ -211,6 +213,7 @@
     <item>VAPittsylvaniaCounty</item>
     <item>VAPrinceWilliamCounty</item>
     <item>VARockinghamCounty</item>
+    <item>VAWaynesboro</item>
     </string-array>
   
   <string-array name="pref_location_options">
@@ -238,6 +241,7 @@
     <item>Bellmore, NY</item>
     <item>Brentwood, NY</item>
     <item>Dix Hills, NY</item>
+    <item>Greene County, NY</item>
     <item>Herkimer County, NY</item>
     <item>Holbrook, NY</item>
     <item>Kingston, NY</item>
@@ -247,6 +251,7 @@
     <item>Setauket, NY</item>
     <item>Haywood County, NC</item>
     <item>Macon County, NC</item>
+    <item>Deleware County, OH</item>
     <item>SugarCreek Twns, OH</item>
     <item>Benton County, OR</item>
     <item>Prineville, OR</item>
@@ -265,6 +270,7 @@
     <item>Pittsylvania County, VA</item>
     <item>Prince William County, VA</item>
     <item>Rockingham County, VA</item>
+    <item>Waynesboro, VA</item>
   </string-array>
 
 <string-array name="email_devel_addr">

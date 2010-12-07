@@ -331,6 +331,10 @@ Mifflin County, PA (PAMifflinCountyParser)
 (CAD Page for CFS 111710-42) URG - Ment/Emot/Psych\n41 INDUSTRIAL PARK RD\nApt: A\nGRANVILLE\nCross Streets : 708-924  LOOP RD * 2120-2456 MIDDLE RD
 (CAD Page for CFS 111710-37) ALS - Breathing Difficulty\n27 ANDERSON ST\nApt:\nBRATTON\nCross Streets : 1-19  MATTAWANA BLVD
 ***************************************************************************
+Waynesboro, VA (VAWaynesboroParser)
+Dispatch2:RESPOND SEIZURES 14 FRONTIER RIDGE CT, AP1302 SARS 1
+Dispatch2:MVC, HEAD ON COLLISION MAIN-ROSSER-BROAD
+Dispatch:RESPOND - 2ND CALL - CHEST PAIN - 1142 NEW HOPE RD, AP3
 ***************************************************************************
 ***************************************************************************
 Districts that are not yet supported.  Class indicates implementation difficulty
@@ -374,76 +378,7 @@ Contact: 7167992315@vtext.com
 **********************************************************
 **********************************************************
 **********************************************************
-Waynesboro, VA (Augusta County)
-Contact: Bruce C <rescue5medic@gmail.com>
-Sender: Dispatch2@ci.waynesboro.va.us or Dispatch@ci.waynesboro.va.us
-The prefix is probably not real, it matches the sender user name.  Don't count on it.
-We may not be able to impover on what th general location already provides :(
-Dispatch2:RESPOND SEIZURES 14 FRONTIER RIDGE CT, AP1302 SARS 1
-Dispatch2:MVC, HEAD ON COLLISION MAIN-ROSSER-BROAD
-Dispatch:RESPOND - 2ND CALL - CHEST PAIN - 1142 NEW HOPE RD, AP3
-Dispatch:RESPOND GENERAL ILLNESS 1429 2ND ST MEDICAL ALARM ACTIVATION
-Dispatch:RESPOND 2ND CALL 216 ELKIN CIR CHEST PAINS
-Dispatch:RESPOND - 809 GRAYSON AVE - VEH OVER AN EMBANKMENT
-Dispatch:300 BLK PATTON FARM RD - SQAUD 2 REQUESTED - PRI1 PT WITH ENTRAPMENT - OPERATE COUNTY 1
 **********************************************************
-Deleware County, OH
-Contact: ryan kirby <ryankirby950@gmail.com>
-Sender: 911@co.delaware.oh.us
-
-Alert: Service Run-Fire) ALRM LVL: 1
-LOC:
-210 BIG RUN RD
-BERLIN TWP
-BTWN: STATE ROUTE 37 E & SOUTH END
-RCVD AS Radio
-COM:
-
-CT:
-9961 at POS 05
-
-
- (Alert: Unresponsive / Unconscious) ALRM LVL: 1
-LOC:
-4114 CURVE RD
-BERLIN TWP
-BTWN: WINDING CREEK LN & LACKEY OLD STATE RD
-RCVD AS E-911 Call
-COM:
-PROQA Urg
-
-
- (Alert: Gas Leak-Residential) ALRM LVL: 1
-LOC:
-210 BIG RUN RD
-BERLIN TWP
-BTWN: STATE ROUTE 37 E & SOUTH END
-
-COM:
-PROQA Urgent Message: basement
-PROQA Urgen
-
-
-(Alert: Fire-Vehicle) ALRM LVL: 1
-LOC:
-ALUM CREEK BIG RUN PARKING LOT NORTH (UPPER)
-606 BIG RUN RD
-BERLIN TWP
-BTWN: STATE ROUTE 37 E & SOUTH END
-
-COM:
-VEHIC
-
-
-Alert: Auto Accident Injuries) ALRM LVL: 1
-LOC:
-SHANAHAN RD/COLUMBUS PIKE
-BERLIN TWP
-BTWN: COLUMBUS PIKE & NORTH RD IN ORANGE TWP
-
-RCVD AS Cellular 911
-
-COM:
 **********************************************************
 Gloucester County, NJ
 Contact: Rich Danner <richdanner@comcast.net>
