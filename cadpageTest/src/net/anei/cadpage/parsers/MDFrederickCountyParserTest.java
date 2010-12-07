@@ -54,6 +54,7 @@ public class MDFrederickCountyParserTest extends BaseParserTest {
         "CALL:Mutual Aid: OUTSIDE INVESTIGATION",
         "ADDR:RT15SB & BOYLE RD",
         "CITY:Adams County",
+        "ST:PA",
         "UNIT:E63",
         "BOX:-1"
         );
