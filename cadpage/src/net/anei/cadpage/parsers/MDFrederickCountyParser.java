@@ -39,8 +39,8 @@ public class MDFrederickCountyParser extends SmartAddressParser {
         "CNMA","New Market",
         "ADAM","Adams County", //PA
         "ADAM CO", "Adams County",
-        "ADCO","Franklinn County", //PA
-        "FRAN CO", "Franklinn County"
+        "ADCO","Franklin County", //PA
+        "FRAN CO", "Franklin County"
     });
 
   public MDFrederickCountyParser(){
@@ -84,6 +84,9 @@ public class MDFrederickCountyParser extends SmartAddressParser {
     data.strBox = props.getProperty("ESZ", "");
     data.strUnit = props.getProperty("Disp", "");
     data.strCity = convertCodes(data.strCity, CITY_CODE_TABLE);
+    if (data.strCity.equals("Franklin County") || data.strCity.equals("Adams County")) {
+      data.strState = "PA";
+    }
     if (data.strUnit.contains("[") && data.strUnit.contains("]")) {
         data.strUnit = data.strUnit.substring(0,data.strUnit.indexOf("[")).trim();
       }
