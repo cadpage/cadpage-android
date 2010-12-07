@@ -18,7 +18,7 @@ public class TXCyCreekCommCenterParserTest extends BaseParserTest {
         "CALL:MA-MUTUAL AID / ASSIST AGENCY",
         "UNIT:E91 T81 T73 E-L19",
         "X:EASTEX",
-        "CITY:Humble");
+        "CITY:HOUSTON");
 
     doTest("T2",
         "1of2:09/06 11:28 19707 WOOD WALK LN, ; Map:337U Sub:PINEHURST OF ATASCOCITA Nat:09E01-ARREST - NOT BREATHING Units:E-M19 E-M29 E-7900",
