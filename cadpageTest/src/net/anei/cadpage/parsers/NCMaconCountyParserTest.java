@@ -53,6 +53,7 @@ public class NCMaconCountyParserTest extends BaseParserTest {
     doTest("T16",
         "911 CENTER:50 >VEHICLE ACCIDENT 428 COWEETA CHURCH RD OTTO SMITH, J 828369999 Map: Grids:0,0",
         "CALL:VEHICLE ACCIDENT",
-        "ADDR:428 COWEETA CHURCH RD");
+        "ADDR:428 COWEETA CHURCH RD",
+        "CITY:OTTO");
   }
 }
