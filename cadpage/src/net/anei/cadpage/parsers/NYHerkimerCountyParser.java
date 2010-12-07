@@ -1,7 +1,5 @@
 package net.anei.cadpage.parsers;
 
-import java.util.Properties;
-
 import net.anei.cadpage.SmsMsgInfo.Data;
 
 /* 
@@ -24,7 +22,7 @@ Sender: HC911@herkimercounty.org
 
 */
 
-public class NYHerkimerCountyParser extends SmartAddressParser {
+public class NYHerkimerCountyParser extends DispatchBParser {
   
   private static final String DEF_CITY = "HERKIMER COUNTY";
   private static final String DEF_STATE = "NY";
@@ -33,50 +31,27 @@ public class NYHerkimerCountyParser extends SmartAddressParser {
     {"NORWAY", "NEWPORT", "RUSSIA", "POLAND", "NEWPORT", "FAIRFIELD",
      "MIDDLEVILLE", "OHIO", "DEERFIELD"}; 
   
-  private static final String[] KEYWORDS = 
-    new String[]{"Loc", "Map:", "Grids", "Cad"};
-  
   public NYHerkimerCountyParser() {
-    super(CITY_LIST, DEF_STATE);
+    super(CITY_LIST, DEF_CITY, DEF_STATE);
   }
   
   @Override
   public String getFilter() {
     return "HC911@herkimercounty.org";
   }
-
+  
   @Override
-  protected boolean parseMsg(String body, Data data) {
-    
-    if (! body.contains(" Grids:")) return false;
-    
-    data.defState=DEF_STATE;
-    data.defCity = DEF_CITY;
-    
-    body = "Loc: " + body.trim();
-    Properties props = parseMessage(body, KEYWORDS);
-    
-    // First field is the hardest
-    // Parse call description from front
-    String line = props.getProperty("Loc", "");
+  public boolean parseAddrField(String line, Data data) {
     if (line.length() < 10) return false;
-    if (line.charAt(0) == '(') {
-      int pt = line.indexOf(')');
-      if (pt >= 1) {
-        data.strCall = line.substring(1, pt);
-        data.strCall = data.strCall.replaceAll("\\s+>", ">");
-        line = line.substring(pt+1).trim();
-      }
-    }
+    if (line.charAt(0) != '(') return false;
+    int pt = line.indexOf(')');
+    if (pt < 0) return false;
+    data.strCall = line.substring(1, pt);
+    data.strCall = data.strCall.replaceAll("\\s+>", ">");
+    line = line.substring(pt+1).trim();
     
     // Call smart parser for rest of it
     parseAddress(StartType.START_ADDR, line, data);
-    
-    // Fish out cad page and we're done
-    
-    // Strip CAD number off end of message
-    data.strCallId = props.getProperty("Cad", "");
-    
     return true;
   }
 }

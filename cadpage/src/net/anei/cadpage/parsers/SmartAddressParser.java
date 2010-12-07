@@ -64,8 +64,13 @@ public abstract class SmartAddressParser extends SmsMsgParser {
   // Bitmask bit indicating token had a preceding @ character
   private static final int ID_INCL_AT_MARKER = 0x1000;
   
-  // Bitmask bit indicating token is an appartment selector
+  // Bitmask bit indicating token is an apartment selector
   private static final int ID_APPT = 0x2000;
+  
+  // Bitmask bit indicating token is a complete single word token
+  // both this and the ID_MULTIWORD flag may be set if a token is both
+  // a single complete token and the start of a multiword token
+  private static final int ID_COMPLETE = 0x4000;
   
   private static final Pattern PAT_HOUSE_NUMBER = Pattern.compile("\\d+(-?[A-Z])?");
   
@@ -156,7 +161,9 @@ public abstract class SmartAddressParser extends SmsMsgParser {
       }
       
       // Otherwise, we just add this to dictionary as a normal city
-      setupDictionary(ID_CITY, city);
+      else {
+        setupDictionary(ID_CITY | ID_COMPLETE, city);
+      }
     }
   }
   
@@ -565,16 +572,11 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     // If this isn't a city or city start the answer is no
     if (! isType(ndx, ID_CITY)) return -1;
     
-    // If this is a complete one word city, the answer is yes
+    // If this is the start of a multi-word city, see if
+    // we find a match in the muti-word city list
+    // If there are multiple matches, pick the longest
     int endNdx = -1;
-    if (! isType(ndx, ID_MULTIWORD)) {
-      endNdx = ndx + 1;
-    }
-    
-    // Otherwise this might be the start of a multi-word city, we will have to
-    // compare each possible multi-word city against the current token
-    // list to see if we have a match
-    else {
+    if (isType(ndx, ID_MULTIWORD)) {
       for (String[] tokenList : mWordCities) {
         boolean match = true;
         for (int j = 0; j< tokenList.length; j++) {
@@ -585,18 +587,21 @@ public abstract class SmartAddressParser extends SmsMsgParser {
           }
         }
         if (match) {
-          endNdx = ndx + tokenList.length;
-          break;
+          int tmp = ndx + tokenList.length;
+          if (tmp > endNdx) endNdx = tmp;
         }
       }
     }
-    
-    // If we didn't find a city, return -1
-    if (endNdx < 0) return -1;
+
+    // If we didn't find a multi-word city see if this token is
+    // a singleword city
+    if (endNdx < 0 && isType(ndx, ID_COMPLETE)) {
+      endNdx = ndx + 1;
+    }
     
     // If we did find a city, check to make sure it isn't followed by
     // a road suffix before we return it's end
-    if (isType(endNdx, ID_ROAD_SFX)) return -1;
+    if (endNdx >= 0 && isType(endNdx, ID_ROAD_SFX)) return -1;
     return endNdx;
   }
 

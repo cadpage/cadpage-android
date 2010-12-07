@@ -1,8 +1,5 @@
 package net.anei.cadpage.parsers;
 
-import java.util.Properties;
-
-import net.anei.cadpage.SmsMsgInfo.Data;
 /*
 Contact: Ryan Hursey <ryanhursey@gmail.com>
 Sender: 8283420118
@@ -22,30 +19,24 @@ Sender: 8283711473
 911 CENTER:50 >VEHICLE ACCIDENT 428 COWEETA CHURCH RD OTTO SMITH, J 828369999 Map: Grids:0,0
 */
 
-public class NCMaconCountyParser extends SmartAddressParser {
+public class NCMaconCountyParser extends DispatchBParser {
   
-  private static final String[] CITY_CODES = new String[]{"FRANKLIN"};
-  
+  private static final String[] CITY_CODES = new String[]{
+    "FRANKLIN", "HIGHLANDS", "OTTO",
+    "FRANKLIN TWP", "HIGHLANDS TWP", "SUGARFORK TWP", "BURNINGTOWN TWP",
+    "CARTOOGECHAYE TWP", "ELLIJAY TWP", "NANTAHALA TWP", "SMITHBRIDGE TWP",
+    "MILLSHOAL TWP"
+  };
+
   private static final String DEF_STATE = "NC";
   private static final String DEF_CITY = "MACON COUNTY";
  
   public NCMaconCountyParser() {
-    super(CITY_CODES, DEF_CITY);
+    super(CITY_CODES, DEF_CITY, DEF_STATE);
   }
-
+  
   @Override
-  protected boolean parseMsg(String body, Data data) {
-    
-    if (! body.startsWith("911 CENTER:")) return false;
-    
-    data.defState = DEF_STATE;
-    data.defCity = DEF_CITY;
-    
-    body= body.replace(">","Call:");
-    Properties props = parseMessage(body, new String[]{"CENTER", "Call", "Map", "Grids"});
-    
-    String line = props.getProperty("Call", "");
-    parseAddress(StartType.START_CALL, line, data);
-    return true;
+  protected boolean isPageMsg(String body) {
+    return body.startsWith("911 CENTER:");
   }
 }

@@ -1,7 +1,5 @@
 package net.anei.cadpage.parsers;
 
-import java.util.Properties;
-
 import net.anei.cadpage.SmsMsgInfo.Data;
 
 /*
@@ -19,7 +17,7 @@ Under box number, the N in this case actually represents a 10## box. Also notice
 
 Subject:HCCAD\n[!] EOC:F03 WIRES >WIRES/POLE SHAWNEE DR&WALTERS MILL RD XS: WALTERS MILL RD FOREST HILL NOT ENTERED Cad: 2010-000019169
  */
-public class MDHarfordParser extends SmartAddressParser {
+public class MDHarfordParser extends DispatchBParser {
   
   private static final String DEF_CITY = "HARFORD";
   private static final String DEF_STATE = "MD";
@@ -29,44 +27,36 @@ public class MDHarfordParser extends SmartAddressParser {
     "LEVEL", "CHURCHVILLE", "DARLINGTON", "WHITEFORD", "JARRETTSVILLE", "STREET",
     "HICKORY", "FALLSTON", "JOPPATOWNE", "FAWN GROVE", "DELTA", "PYLESVILLE", 
     "WHITE HALL", "FOREST HILL"};
-  
-  private static final String[] KEYWORDS = new String[]{"BOX", "Cad"}; 
 
   public MDHarfordParser() {
-    super(CITY_LIST, DEF_STATE);
+    super(CITY_LIST, DEF_CITY, DEF_STATE);
   }
   
   public String getFilter() {
     return "@c-msg.net";
   }
+  
+  @Override
+  protected boolean isPageMsg(String body) {
+    return true;
+  }
 
   @Override
   protected boolean parseMsg(String body, Data data) {
-
-    if (!body.contains("[!] EOC:")) return false;
     
-    data.defCity = DEF_CITY;
-    data.defState=DEF_STATE;
+    if (!body.contains("[!] EOC:")) return false;
     
     // First token following EOC: is the unit
     int pt = body.indexOf("EOC:");
+    if (pt < 0) return false;
     body = body.substring(pt+4).trim();
     pt = body.indexOf(' ');
+    if (pt < 0) return false;
     data.strUnit = body.substring(0, pt);
     body = body.substring(pt+1).trim();
+    if (!super.parseMsg(body, data)) return false;
     
-    // Now we need the smart parser
-    parseAddress(StartType.START_CALL, body, data);
-    if (data.strCross.startsWith("X ")) {
-      data.strCross = data.strCross.substring(2).trim();
-    }
-    body = getLeft();
-    
-    // The rest can be parsed reasonably 
-    Properties props = parseMessage(body, KEYWORDS);
-    data.strBox = props.getProperty("BOX", "");
-    data.strCallId = props.getProperty("Cad", "");
-    
+    if (data.strCross.startsWith("X ")) data.strCross = data.strCross.substring(2);
     return true;
   }
 }
