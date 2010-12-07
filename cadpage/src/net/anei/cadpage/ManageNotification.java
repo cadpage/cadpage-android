@@ -252,7 +252,11 @@ public class ManageNotification {
     myNM.cancel(NOTIFICATION_ALERT);
     
     // Stop media player if running
-    if (mMediaPlayer != null) mMediaPlayer.stop();
+    if (mMediaPlayer != null) {
+      mMediaPlayer.stop();
+      mMediaPlayer.release();
+      mMediaPlayer = null;
+    }
   }
 
   /**
