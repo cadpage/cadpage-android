@@ -22,6 +22,7 @@ import net.anei.cadpage.SmsMsgInfo.Data;
  / 11/19 17:00 OAK HOLLOW DR-HC/GRANT RD-HC, ; Map:369E Nat:67B01U-SMALL OUTSIDE FIRE Units:E21 E26 B22 X-St:GRANT RD WILLOW LN
 
 11/28 12:49 6006 WOODMANCOTE DR-HC, ; Map:337X- Nat:27-STABBING / SHOOTING Units:E-M29 X-St:DANALYN CT CLOYANNA LN
+12/07 12:26 14231 CELLINI DR-HC, ; Map:368P- Nat:MA-MUTUAL AID / ASSIST AGENCY Units:MUTAID E24 X-St:TERREBONE DR BONAPARTE DR
 */
 
 public class TXCyCreekCommCenterParser extends SmsMsgParser {
@@ -56,7 +57,7 @@ public class TXCyCreekCommCenterParser extends SmsMsgParser {
     data.strUnit = props.getProperty("Units", "");
     data.strCross = props.getProperty("X-St", "");
     
-    if (data.strCall.contains("MA-MUTUAL AID")) data.strCity = "Humble";
+    if (data.strCall.contains("MA-MUTUAL AID")) data.strCity = "HOUSTON";
     return true;
   }
 }
