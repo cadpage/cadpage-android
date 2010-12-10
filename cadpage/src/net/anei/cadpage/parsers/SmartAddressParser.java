@@ -123,7 +123,8 @@ public abstract class SmartAddressParser extends SmsMsgParser {
         "COURT", "CT",
         "TER", "TERR",
         "HWY",
-        "MALL");
+        "MALL",
+        "GTWY");
     setupDictionary(ID_ROUTE_PFX, "RT", "ST", "SRT", "US", "FS", "INTERSTATE", "I", "HW", "HWY", "STHWY", "CO", "CR");
     setupDictionary(ID_DIRECTION, "N", "NE", "E", "SE", "S", "SW", "W", "NW");
     setupDictionary(ID_CONNECTOR, "AND", "/", "&");
