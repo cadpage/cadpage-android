@@ -14,6 +14,7 @@ public class GeneralParser extends SmartAddressParser {
     // Lets see what the smart parser can make of this
     body = body.replaceAll("\n", " ");
     parseAddress(StartType.START_CALL, body, data);
+    data.strSupp = getLeft();
     
     return true;
   }

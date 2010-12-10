@@ -157,7 +157,8 @@ public class SmsMsgInfo {
   
   // Google map isn't found of house numbers mixed with intersections
   // If we find an intersection marker, remove any house numbers
-  private static final Pattern HOUSE_NUMBER = Pattern.compile("^ *\\d+ *");
+  private static final Pattern HOUSE_NUMBER = Pattern.compile("^ *\\d+ +");
+  private static final Pattern STREET_SFX = Pattern.compile("^ *(AV|AVE|ST)\\b");
   private String cleanHouseNumbers(String sAddress) {
     sAddress = sAddress.replace(" and ", " & ");
     int ipt = sAddress.indexOf('&');
@@ -175,7 +176,14 @@ public class SmsMsgInfo {
       }
       
       if (match.find()) {
-        sAddress = sAddress.substring(0, match.start()) + sAddress.substring(match.end());
+        // Safety check, don't mess with number if followed by AV, AVE, or ST
+        int st = match.start();
+        int end = match.end();
+        Matcher match2 = STREET_SFX.matcher(sAddress);
+        match2.region(end, match.regionEnd());
+        if (! match2.find()) {
+          sAddress = sAddress.substring(0, st) + sAddress.substring(end);
+        }
       }
     }
     return sAddress;
