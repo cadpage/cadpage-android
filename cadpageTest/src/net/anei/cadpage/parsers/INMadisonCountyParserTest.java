@@ -48,7 +48,7 @@ public class INMadisonCountyParserTest extends BaseParserTest {
     doTest("T6",
         "Unit:EMA1 Loc:3727 N 200E Venue:RICHLA TWP Inc:Accidnt PI Date:12/09/2010 Time:10:31 UNKNOWN  CAR VS POL ",
         "UNIT:EMA1",
-        "ADDR:3727 N 200E Venue",
+        "ADDR:3727 N 200E",
         "CALL:Accidnt PI",
         "INFO:UNKNOWN  CAR VS POL"
         );
