@@ -18,6 +18,9 @@ public class SmsMsgInfoTest {
     doMapTest("CR1", "1000 PINE ST,KENBURG,XX", "1000 PINE ST", "MULBERY RD");
     doMapTest("CR2", "PINE ST & BLACK ST,KENBURG,XX", "PINE ST & BLACK ST", "MULBERY RD");
     doMapTest("CR3", "PINE ST & MULBERY RD,KENBURG,XX", "PINE ST", "MULBERY RD");
+    
+    doMapTest("CN1", "11TH AV&18TH ST,KENBURG,XX", "11TH AV&18TH ST");
+    doMapTest("CN2", "11 AV & 18 ST,KENBURG,XX", "11 AV & 18 ST");
   }
   
   private void doMapTest(String title, String result, String address) {

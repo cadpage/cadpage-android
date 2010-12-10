@@ -28,6 +28,11 @@ public class SmartAddressParserTest extends BaseParserTest {
   @Test
   public void testProblems() {
     
+    doTest(CALL,
+        "***SIG 8***  AUTO PIERCE DAY CAMP 37 MINEOLA AVE [ROSLYN] c/s: REGENT PL/GLEN AVE ADTNL: MANSION/NO PERMIT GRID: K-14 TOA: 08:32 12/07/2010",
+        "CALL:***SIG 8*** AUTO PIERCE DAY CAMP",
+        "ADDR:37 MINEOLA AVE");
+    
     doTest(CALL, TestParser.FLAG_START_FLD_REQ, 
         "1073 SMOKE 1421 BEVERLY DR BOSA NONA DRIVE",
         "CALL:1073 SMOKE",
