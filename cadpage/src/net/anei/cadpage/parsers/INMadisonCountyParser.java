@@ -44,6 +44,7 @@ public class INMadisonCountyParser extends SmsMsgParser {
       if (data.strSupp.length() > 0) data.strSupp += ' ';
       data.strSupp += sAddtl;
     }
+    data.strCity = data.defCity + ", Anderson ";
     return true;
   }
 }
