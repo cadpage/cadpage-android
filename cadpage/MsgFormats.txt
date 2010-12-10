@@ -756,6 +756,148 @@ Sender: Aegispage@lackawannacounty.org
 (Dispatch) Unit:14-9 Status:Dispatched Location:524 DEACON ST, 14 Call Type:BLS Call Time:12/7/2010 6:22:58 AM Call Number:245 Quadrant:F14 District:
   for covingtong vol fire co dalevillevpa.
 **********************************************************
+Prince Georges County, MD
+ Prince Georges, Anne Arundel, and Charles counties. and Howard County
+Contact: charles woodland <lollipopjuggs@gmail.com>
+Contact: Russ <rcfireblitz@gmail.com>
+System: Fireblitz
+From: @fireblitz.com
+
+------------------------------
+From: 09@fireblitz.com
+
+55: BUILDING FIRE
+E809 TK809 BO804
+4637 37TH ST (ALLISON ST & DEAD END)
+12/07 04:51
+http://fireblitz.com/09/9.html
+------------------------------
+
+------------------------------
+From: s@fireblitz.com
+
+0-2 H12: PI
+S11 R11
+PG INDIAN HEAD HWY/FARMINGTON RD WEST
+Notes: WANTS ENGINE AND AMBULANCE FROM STATION 11
+12/07 06:14
+http://fireblitz.com/11/0.html
+------------------------------
+
+------------------------------
+From: e@fireblitz.com
+
+26: INVESTIGATION
+E817
+6036 PARKLAND CT (OLD SILVER HILL RD & OLD SILVER HILL RD)
+12/06 22:40
+http://fireblitz.com/17/9.html
+------------------------------
+
+------------------------------
+From: sq@fireblitz.com
+
+48: FD ACCIDENT
+SQ818 B802
+ANNAPOLIS RD/PRINCESS GARDEN PY (9006 ANNAPOLIS RD/5900 PRINCESS GARD
+12/07 07:02
+http://fireblitz.com/18/6.html
+------------------------------
+
+------------------------------
+From: a@fireblitz.com
+
+24: OVERDOSE - ALS
+A824 MD847, CHARLIE OD/NOT ALRT
+1605 AIRPORT LN (SCHALL RD & BERRY RD)
+12/07 07:14
+http://fireblitz.com/24/8.html
+------------------------------
+
+------------------------------
+From: a@fireblitz.com
+
+27: INJURED/SICK
+A827
+6304 MAXWELL DR #4 (CARSWELL AV & MORRIS AV)
+12/07 05:14
+http://fireblitz.com/27/2.html
+------------------------------
+
+------------------------------
+From: 33@fireblitz.com
+
+46: BUILDING FIRE
+E833 TK833 BO802
+1200 CAPITAL CENTER BL (BLVD AT THE CAP CTR)
+12/07 00:51
+http://fireblitz.com/33/9.html
+------------------------------
+
+------------------------------
+From: 37@fireblitz.com
+
+46: BUILDING FIRE
+E837 TK837 BO802
+1200 CAPITAL CENTER BL (BLVD AT THE CAP CTR)
+12/07 00:51
+http://fireblitz.com/37/5.html
+------------------------------
+
+------------------------------
+From: a@fireblitz.com
+
+49: MEDIC LOCAL
+A849
+13218 DEERFIELD RD (DEAD END & MATTHEWS CT)
+12/06 23:00
+http://fireblitz.com/49/1.html
+
+> Yes - these are the actual SMS texts.  The From line was included because
+> that was requested.  It is not in the message body.  If there are multiple
+> suppression units dispatched, you will station-number@ otherwise you will
+> see a@ for ambo, tk@ for truck etc.  If ambo and engine are dispatched, eg,
+> you will see e@.  That is just background, you should use the units from the
+> body.  It is just useful for selecting alert tones on phones.
+
+> That's correct.  Here is an example with numbered lines:
+> 
+> 0 From: 37@fireblitz.com
+> 
+> 1 46: BUILDING FIRE
+> 2 E837 TK837 BO802
+> 3 1200 CAPITAL CENTER BL (BLVD AT THE CAP CTR)
+> 4 12/07 00:51
+> 5 http://fireblitz.com/37/5.html
+> 
+> 1 has first due station optionally followed by map page or box area
+> separated by dash.  Eg, 46, 46-18, 46-37b.  It can't be used for city lookup
+> because you can't determine jurisdiction from the text and if you knew, it
+> usually throws google off anyway.  Also, it may be 0 indicating mutual aid
+> to a neighboring jurisdiction.
+> 
+> 2 has Units dispatched.  Most only get their own units, so usually that is
+> one but as many as three or so.  Some get the full assignment.  May also be
+> followed by remarks separated by comma (the CHARLIE OD above).  Most
+> stations don't want the remarks, some do.  Ignore any remarks.  You can
+> ignore from comma on.
+> 
+> 3 has street address.  Usually cross streets are in parentheses but
+> sometimes there are none or a building etc is given instead (as in this
+> case).  If it is at an intersection it will usually be street1/street2 with
+> no parentheses.
+> 
+> 4 is date and time.   You may see a Notes line here followed by date and
+> time.  You can ignore any Notes.  Most stations don't get them and they are
+> arbitrary.
+> 
+> 5 has a link that expires.
+**********************************************************
+Mystery request
+Contact: Steve Litchford <stevelitchford@gmail.com>
+Sender: epage-owner@delmar74fire.com <From%3Aepage-owner@delmar74fire.com>
+(AD Alert) 74AST      Call at 101 Delaware Ave              Delmar Nursing and RehabilitatCity19940      Problem Interfacillity/Palliative-ALS
+**********************************************************
 **********************************************************
 **********************************************************
 * Misc formats received with problem reports

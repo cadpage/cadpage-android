@@ -16,6 +16,7 @@ R40 EMS-ABDOMINAL PAIN 1737 MORELAND DR HAR CFS# 2010-083119 CROSS: PHEASANT RUN
 R40 EMS-CHEST PAIN 235 LAYMAN ST 101 HAR CFS# 2010-083046 CROSS: N MAIN ST/LONGVIEW DR
 R40 TRAFFIC CRASH 300 BOYERS RD BLK HAR CFS# 2010-082984 CROSS: MYSTIC WOODS LN/CULLISON CT
 R40 TRAFFIC CRASH RESERVOIR ST & CANTRELL AV HAR CFS# 2010-082327
+(Rescue 40) R40 ODOR INVESTIGATION IN STRUCTUR 290 WARREN SERVICE DR HAR CFS# 2010-091415 CROSS: BLUESTONE DR/DEAD END
 */
 
 public class VARockinghamCountyParser extends DispatchDAPROParser {
@@ -50,5 +51,9 @@ public class VARockinghamCountyParser extends DispatchDAPROParser {
 	  public VARockinghamCountyParser() {
 			 super(CITY_CODE_TABLE, DEF_CITY, DEF_STATE);
 	  }
-			  
+	  
+	  @Override
+	  public String getFilter() {
+	    return "messaging@iamresponding.com,mailbox@hrecc.org";
+	  }
 }
