@@ -45,12 +45,12 @@ public class INMadisonCountyParserTest extends BaseParserTest {
         "ADDR:124 DARIN CT",
         "CALL:SEIZURE",
         "INFO:18 MO/POSS SEIZURE");
+    
     doTest("T6",
-        "Unit:EMA1 Loc:3727 N 200E Venue:RICHLA TWP Inc:Accidnt PI Date:12/09/2010 Time:10:31 UNKNOWN  CAR VS POL ",
+        "Subject:{EMAOPS} (62533) CAD Page Unit:EMA1 Loc:3727 N 200E Venue:RICHLA TWP Inc:Accidnt PI Date:12/09/2010 Time:10:31 UNKNOWN  CAR VS POL",
         "UNIT:EMA1",
         "ADDR:3727 N 200E",
         "CALL:Accidnt PI",
-        "INFO:UNKNOWN  CAR VS POL"
-        );
+        "INFO:UNKNOWN  CAR VS POL");
   }
 }
