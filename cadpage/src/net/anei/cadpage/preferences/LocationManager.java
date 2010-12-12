@@ -1,19 +1,17 @@
 package net.anei.cadpage.preferences;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Comparator;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
 import android.content.Context;
-import android.content.res.Resources;
 import android.preference.Preference;
 import android.preference.Preference.OnPreferenceChangeListener;
 
+import net.anei.cadpage.ManageParsers;
 import net.anei.cadpage.ManagePreferences;
-import net.anei.cadpage.R;
 
 /**
  * Class coordinates everything that needs to be done about the location setting
@@ -87,17 +85,7 @@ public class LocationManager {
     
     for (String loc : ManagePreferences.location().split(",")) {
       locationList.add(loc);
-    }
-    Resources res = ctx.getResources();
-    String[] locValues = res.getStringArray(R.array.pref_location_values);
-    String[] locNames = res.getStringArray(R.array.pref_location_options);
-    for (int ndx = 0; ndx < locationList.size(); ndx++) {
-      int locNdx = Arrays.binarySearch(locValues, locationList.get(ndx), LOC_COMPARE);
-      if (locNdx < 0) {
-        throw new RuntimeException("Could not find name for location " + locValues[ndx]);
-      }
-      nameList.add(locNames[locNdx]);
-      
+      nameList.add(ManageParsers.getInstance().getLocName(loc));
     }
   }
   

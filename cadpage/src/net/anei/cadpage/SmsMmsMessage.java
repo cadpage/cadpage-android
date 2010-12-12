@@ -206,6 +206,10 @@ public class SmsMmsMessage implements Serializable {
     return getInfo().getCall();
   }
   
+  public String getLocation() {
+    return location;
+  }
+  
   public SmsMsgInfo getInfo() {
     
     // Some special logic if the previous location was General

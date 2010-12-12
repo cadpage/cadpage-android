@@ -3,6 +3,9 @@ package net.anei.cadpage;
 import java.util.HashMap;
 import java.util.Map;
 
+import android.content.Context;
+import android.content.res.Resources;
+
 import net.anei.cadpage.parsers.GroupBestParser;
 import net.anei.cadpage.parsers.SmsMsgParser;
 
@@ -20,6 +23,8 @@ public class ManageParsers {
   
   private String curLocCode = null;
   private SmsMsgParser curParser = null;
+  
+  private Map<String,String> parserNames = null;
  
   // Private constructor, no body can build this except getInstance()
   private ManageParsers() {}
@@ -86,6 +91,32 @@ public class ManageParsers {
    */
   public SmsMsgParser getAlertParser() {
     return getParser(ALERT_PARSER);
+  }
+
+  /**
+   * Prime the parser name map.  Calling this enables future calls to
+   * getLocName()
+   * @param ctx current context
+   */
+  public void setupNames(Context ctx) {
+    parserNames = new HashMap<String,String>();
+    Resources res = ctx.getResources();
+    String[] locValues = res.getStringArray(R.array.pref_location_values);
+    String[] locNames = res.getStringArray(R.array.pref_location_options);
+    for (int ii = 0; ii<locValues.length; ii++) {
+      parserNames.put(locValues[ii], locNames[ii]);
+    }
+  }
+  
+  /**
+   * Return location name associated with location code
+   * @param location location code
+   * @return location name 
+   */
+  public String getLocName(String location) {
+    if (parserNames == null) return "";
+    String name = parserNames.get(location);
+    return (name != null ? name : "");
   }
   
   private static ManageParsers instance = new ManageParsers();

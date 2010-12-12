@@ -283,6 +283,13 @@
           android:summaryOn="@string/pref_gen_alert_summaryon"
           android:summaryOff="@string/pref_gen_alert_summaryoff"
           android:defaultValue="@string/pref_gen_alert_default" />
+      
+      <CheckBoxPreference
+          android:key="@string/pref_show_source_key"
+          android:title="@string/pref_show_source_title"
+          android:summaryOn="@string/pref_show_source_summaryon"
+          android:summaryOff="@string/pref_show_source_summaryoff"
+          android:defaultValue="@string/pref_show_source_default" />
                           
       <net.anei.cadpage.preferences.EditTextPreference  
           android:dialogTitle="Callback"

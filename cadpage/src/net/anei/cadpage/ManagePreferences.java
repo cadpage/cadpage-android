@@ -12,6 +12,9 @@ public class ManagePreferences {
   // Preference version.  This needs to be incremented every time a new
   // configuration setting is added to force it to initialize properly
   // when the new release is first run.
+  // (OK, if you know what you are doing, and the only new settings added
+  // are boolean settings that default to false, you can get away with not
+  // changing this)
   private static final int PREFERENCE_VERSION = 4;
   
   private static ManagePreferences prefs;
@@ -103,6 +106,10 @@ public class ManagePreferences {
   
   public static boolean genAlert() {
     return prefs.getBoolean(R.string.pref_gen_alert_key);
+  }
+  
+  public static boolean showSource() {
+    return prefs.getBoolean(R.string.pref_show_source_key);
   }
   
   public static boolean notifyEnabled() {
@@ -255,6 +262,8 @@ public class ManagePreferences {
         R.string.pref_override_filter_key,
         R.string.pref_filter_key,
         R.string.pref_gen_alert_key,
+        R.string.pref_show_source_key,
+        R.string.pref_callback_key,
         
         R.string.pref_notif_enabled_key,
         R.string.pref_notif_override_key,
@@ -289,8 +298,7 @@ public class ManagePreferences {
         R.string.pref_show_buttons_key,
         R.string.pref_button1_key,
         R.string.pref_button2_key,
-        R.string.pref_button3_key,
-        R.string.pref_callback_key
+        R.string.pref_button3_key
     };
 
     Map<String, ?> map = prefs.mPrefs.getAll();

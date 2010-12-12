@@ -16,6 +16,7 @@ public class CadPageApplication extends Application {
     super.onCreate();
     try {
       ManagePreferences.setupPreferences(this);
+      ManageParsers.getInstance().setupNames(this);
       
       // Reload existing message queue
       SmsMessageQueue.setupInstance(this);

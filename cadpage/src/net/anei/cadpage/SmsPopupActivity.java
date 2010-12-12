@@ -402,12 +402,17 @@ public class SmsPopupActivity extends Activity {
     }
     
     // Update TextView that contains the timestamp for the incoming message
-    String source = info.getSource();
-    String timeStamp = message.getFormattedTimestamp(this).toString();
     String headerText;
-    if (source.length() > 0) {
+    String timeStamp = message.getFormattedTimestamp(this).toString();
+    if (ManagePreferences.showSource()) { 
+      String source = info.getSource();
+      if (source.length() == 0) {
+        source = ManageParsers.getInstance().getLocName(newMessage.getLocation());
+        int ipt = source.indexOf(',');
+        if (ipt >= 0) source = source.substring(0,ipt).trim();
+      }
       headerText = getString(R.string.src_text_at, source, timeStamp);//
-    } else {
+    } else { 
       headerText = getString(R.string.new_text_at, timeStamp);
     }
 

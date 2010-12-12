@@ -4,7 +4,7 @@
    <string name="app_name">CADPage</string>   
    <string name="call_history">Call History:</string>   
    <string name="new_text_at">New Call Received at %s</string>
-   <string name="src_text_at">% call received at %s</string>
+   <string name="src_text_at">%s call at %s</string>
    <string name="mms_subject">Subject:</string>
    
 <!-- Menu Strings -->
@@ -340,6 +340,10 @@
     <string name="pref_gen_alert_title">Process general alerts</string>
     <string name="pref_gen_alert_summaryon">Will process general alerts</string>
     <string name="pref_gen_alert_summaryoff">Will not process general alerts</string>
+    
+    <string name="pref_show_source_title">Show page source</string>
+    <string name="pref_show_source_summaryon">Will display source of alert</string>
+    <string name="pref_show_source_summaryoff">Will not display source of alert</string>
     
     <string name="app_file_dir">/Android/data/cadpage/files/</string>
     <string name="app_file_name">callhistory.csv</string>

@@ -62,6 +62,7 @@
    <string name="pref_override_filter_key">override_filter</string>
    <string name="pref_filter_key">filter</string>
    <string name="pref_gen_alert_key">gen_alert</string>
+   <string name="pref_show_source_key">show_source</string>
    <string name="pref_useGoogleMapApp_key">useGoogleMapApp</string>
    <string name="pref_testmsg_key">testmsg</string>
    <string name="pref_email_key">emaildev</string>
