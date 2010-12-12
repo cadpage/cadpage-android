@@ -24,5 +24,12 @@ public class MDCarolineCountyParserTest extends BaseParserTest {
         "ADDR:22542 Dover Bridge Rd",
         "CITY:Preston",
         "X:Poplar Neck Rd, Tanyard Rd / Bethlehem Rd");
+    
+    doTest("T3",
+        "(Chief ALT) [200 Fire] 17 A-Falls -- 21182 Marsh Creek Rd Preston - XSts: Frazier Neck Rd / Bethlehem Rd",
+        "CALL:17 A-Falls",
+        "ADDR:21182 Marsh Creek Rd",
+        "CITY:Preston",
+        "X:Frazier Neck Rd / Bethlehem Rd");
   }
 }

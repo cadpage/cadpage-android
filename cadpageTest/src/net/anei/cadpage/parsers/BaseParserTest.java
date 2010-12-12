@@ -22,8 +22,9 @@ public abstract class BaseParserTest {
   @Test
   public void testBadMsg() {
     // Just call the parser with a badly formated msg and make sure it doesn't croak
-    parser.parseMsg("BAD MSG");
-    parser.parseMsg("");
+    SmsMsgInfo.Data data = new SmsMsgInfo.Data();
+    parser.parseMsg("BAD MSG", data);
+    parser.parseMsg("", data);
   }
   
   /**
@@ -55,8 +56,10 @@ public abstract class BaseParserTest {
       else fail("Keyword " + sType + " is not defined");
     }
     
-    SmsMsgInfo info = parser.parseMsg(test);
-    assertNotNull(title + ":parse", info);
+    SmsMsgInfo.Data tData = new SmsMsgInfo.Data();
+    boolean good = parser.parseMsg(test, tData);
+    assertTrue(title + ":parse", good);
+    SmsMsgInfo info = new SmsMsgInfo(tData);
     
     assertEquals(title + ":Call", data.strCall, info.getCall());
     assertEquals(title + ":Place", data.strPlace, info.getPlace());
