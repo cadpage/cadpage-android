@@ -23,9 +23,11 @@ public class SmsMsgInfo {
   private String strMap;
   private String strCallId;
   private String strPhone;
+  private String strSupp;
+  private String strSource;
   private String defCity;
   private String defState;
-  private String strSupp;
+  
 
   /**
    * Temporary data class used to pass information to constructor
@@ -45,9 +47,10 @@ public class SmsMsgInfo {
     public String strMap = "";
     public String strCallId = "";
     public String strPhone="";
+    public String strSupp="";
+    public String strSource = "";
     public String defCity = "";
     public String defState="";
-    public String strSupp="";
     
 
     /**
@@ -90,9 +93,10 @@ public class SmsMsgInfo {
     strMap = info.strMap;
     strCallId = info.strCallId;
     strPhone = info.strPhone;
+    strSupp = info.strSupp;
+    strSource = info.strSource;
     defCity = info.defCity;
     defState = info.defState;
-    strSupp = info.strSupp;
   }
   
   /**
@@ -261,6 +265,13 @@ public class SmsMsgInfo {
   public String getSupp() {
     return strSupp;
   }
+  /**
+   * @return the page source 
+   */
+  public String getSource() {
+    return strSource;
+  }
+  
   
   /**
    * @return the default city 

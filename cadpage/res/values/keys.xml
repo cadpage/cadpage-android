@@ -55,7 +55,10 @@
    <string name="pref_delivery_report_key">deliveryreport</string>
    <string name="pref_autorotate_key">autorotate</string>
    <string name="pref_screen_on_key">screenon</string>
+   <string name="pref_loc_desc_key">locationDesc</string>
    <string name="pref_location_key">location</string>
+   <string name="pref_location_tree_key">locationTree</string>
+   <string name="pref_location_mtree_key">locationMTree</string>
    <string name="pref_override_filter_key">override_filter</string>
    <string name="pref_filter_key">filter</string>
    <string name="pref_gen_alert_key">gen_alert</string>

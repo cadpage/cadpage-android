@@ -52,14 +52,14 @@ public class ManagePreferences {
       } else {
         location = legacy[code];
       }
-      prefs.putString(R.string.pref_location, location);
+      setLocation(location);
     }
     
     // Ditto if is a newer parser code that has been renamed,
     else {
       String newLocation = convertOldLocationCode(context, location);
       if (! location.equals(newLocation)) {
-        prefs.putString(R.string.pref_location, newLocation);
+        setLocation(newLocation);
       }
     }
   }
@@ -86,7 +86,11 @@ public class ManagePreferences {
   }
   
   public static String location() {
-    return prefs.getString(R.string.pref_location);
+    return prefs.getString(R.string.pref_location_key, "General");
+  }
+  
+  public static void setLocation(String newLocation) {
+    prefs.putString(R.string.pref_location_key, newLocation);
   }
   
   public static boolean overrideFilter() {

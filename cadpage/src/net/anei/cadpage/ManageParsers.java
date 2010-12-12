@@ -3,6 +3,7 @@ package net.anei.cadpage;
 import java.util.HashMap;
 import java.util.Map;
 
+import net.anei.cadpage.parsers.GroupBestParser;
 import net.anei.cadpage.parsers.SmsMsgParser;
 
 
@@ -41,12 +42,28 @@ public class ManageParsers {
     SmsMsgParser parser = parserMap.get(location);
     if (parser == null) {
       
-      // No such luck.  We will have to find the parser class and instantiate it
-      String className = "net.anei.cadpage.parsers." + location + "Parser";
-      try {
-        parser = (SmsMsgParser)Class.forName(className).newInstance();
-      } catch (Exception ex) {
-        throw new RuntimeException(ex);
+      // Otherwise we need to create a new parser
+      // First see if there are multiple location parsers
+      if (location.contains(",")) {
+        
+        // If there are, call ourselves recursively to allocate each
+        // individual parser
+        String[] locationList = location.split(",");
+        SmsMsgParser[] parserList = new SmsMsgParser[locationList.length];
+        for (int ii = 0; ii<locationList.length; ii++) {
+          parserList[ii] = getParser(locationList[ii]);
+        }
+        parser = new GroupBestParser(parserList);
+      }
+      
+      // Otherwise find the parser class and instantiate it
+      else {
+        String className = "net.anei.cadpage.parsers." + location + "Parser";
+        try {
+          parser = (SmsMsgParser)Class.forName(className).newInstance();
+        } catch (Exception ex) {
+          throw new RuntimeException(ex);
+        }
       }
       
       // Then save the location and parser in our parser table 

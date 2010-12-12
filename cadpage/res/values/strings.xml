@@ -4,6 +4,7 @@
    <string name="app_name">CADPage</string>   
    <string name="call_history">Call History:</string>   
    <string name="new_text_at">New Call Received at %s</string>
+   <string name="src_text_at">% call received at %s</string>
    <string name="mms_subject">Subject:</string>
    
 <!-- Menu Strings -->
@@ -319,9 +320,13 @@
     <string name="CallAddress">None</string>
     
     
-    <string name="pref_location">location</string>
-    <string name="pref_location_title">Location</string>
-    <string name="pref_location_summary">Cur location: %s</string>
+    <string name="pref_loc_desc_title">Current Location</string>
+    
+    <string name="pref_location_title">Set Single Location</string>
+    <string name="pref_location_summary">Select a single location</string>
+    
+    <string name="pref_multi_location_title">Set Multiple Locations</string>
+    <string name="pref_multi_location_summary">Select multiple locations</string>
     
     <string name="pref_override_filter_title">Override location filter</string>
     <string name="pref_override_filter_summaryon">Location filter will be overridden</string>
@@ -330,7 +335,7 @@
     <string name="pref_filter_title">From: (Filter)</string>
     <string name="pref_filter_summary">Only Messages from this address will be checked.  Cur value: %s</string>
     <string name="pref_filter_dialog">Enter Email address to filter messages. No entry will scan all. Use a , to separate multiple addresses.</string>
-    <string name="pref_filter">*</string>
+    <string name="pref_filter"></string>
     
     <string name="pref_gen_alert_title">Process general alerts</string>
     <string name="pref_gen_alert_summaryon">Will process general alerts</string>

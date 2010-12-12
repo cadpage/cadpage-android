@@ -25,13 +25,24 @@ public abstract class SmsMsgParser {
    * @param strMessage SMS message text to be parsed
    * @return new message information object if successful, false otherwise
    */
-  protected SmsMsgInfo parseMsg(String strMessage) {
+  protected Data parseMsg(SmsMmsMessage msg, boolean overrideFilter, boolean genAlert) {
+
+    // If parser filter is not being overridden, and the message address does not
+    // the parser filter, message should be rejected
+    String filter = getFilter();
+    if (! overrideFilter && ! SmsPopupUtils.matchFilter(msg.getAddress(), filter)) return null;
     
     // Decode the call page and place the data in the database
-
+    String strMessage = msg.getMessageBody();
     Data data = new Data();
-    if (! parseMsg(strMessage, data)) return null;
-    return new SmsMsgInfo(data);
+    if (parseMsg(strMessage, data)) return data;
+    
+    // If this isn't a valid CAD page, see if we should treat it as a general alert
+    // If not then return failure
+    if (!overrideFilter && genAlert && filter.length() > 1) {
+      return ManageParsers.getInstance().getAlertParser().parseMsg(msg, overrideFilter, genAlert);
+    }
+    return null;
   }
 
   /**
@@ -72,27 +83,14 @@ public abstract class SmsMsgParser {
    * a valid page message
    */
   public boolean isPageMsg(SmsMmsMessage msg, boolean overrideFilter, boolean genAlert) {
-
-    // If parser filter is not being overridden, and the message address does not
-    // the parser filter, message should be rejected
-    String filter = getFilter();
-    if (! overrideFilter && ! SmsPopupUtils.matchFilter(msg.getAddress(), filter)) return false;
     
     // See what the parseMsg method thinks of this
-    String msgBody = msg.getMessageBody();
-    SmsMsgInfo info = parseMsg(msgBody);
-    
-    // If this isn't a valid CAD page, see if we should treat it as a general alert
-    // If not then return failure
-    if (info == null) {
-      if (!overrideFilter && genAlert && getFilter().length() > 1) {
-        return ManageParsers.getInstance().getAlertParser().isPageMsg(msg);
-      }
-      return false;
-    }
+    Data data = parseMsg(msg, overrideFilter, genAlert);
+    if (data == null) return false;
     
     // Save parser code and information object in message so we won't have to
     // go through all of this again
+    SmsMsgInfo info = new SmsMsgInfo(data);
     msg.setParserInfo(getParserCode(), info);
     return true;
   }

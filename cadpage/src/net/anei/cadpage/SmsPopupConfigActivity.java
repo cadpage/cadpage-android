@@ -4,17 +4,21 @@ import net.anei.cadpage.parsers.SmsMsgParser;
 import net.anei.cadpage.preferences.AppEnabledCheckBoxPreference;
 import net.anei.cadpage.preferences.DialogPreference;
 import net.anei.cadpage.preferences.EditTextPreference;
-import net.anei.cadpage.preferences.ListPreference;
+import net.anei.cadpage.preferences.LocationCheckBoxPreference;
+import net.anei.cadpage.preferences.LocationListPreference;
+import net.anei.cadpage.preferences.LocationManager;
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.content.res.Resources;
 import android.os.Bundle;
 import android.preference.CheckBoxPreference;
 import android.preference.Preference;
 import android.preference.PreferenceActivity;
 import android.preference.PreferenceCategory;
 import android.preference.PreferenceManager;
+import android.preference.PreferenceScreen;
 import android.preference.Preference.OnPreferenceChangeListener;
 import android.preference.Preference.OnPreferenceClickListener;
 import android.view.LayoutInflater;
@@ -50,6 +54,13 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
     aboutPref.setDialogTitle(SmsPopupUtils.getNameVersion(this));
     aboutPref.setDialogLayoutResource(R.layout.about);
     
+    // Set up the two location preference screens
+    Preference descPreference = findPreference(getString(R.string.pref_loc_desc_key));
+    LocationManager locMgr = new LocationManager(this, descPreference);
+    setupLocationMenu(R.string.pref_location_tree_key, false, locMgr);
+    setupLocationMenu(R.string.pref_location_mtree_key, true, locMgr);
+    locMgr.updateDisplay();
+    
     // The location, filter override checkbox, and filter edit box have a complex
     // relationship.  The override checkbox is enabled only when the location parser
     // has a default parser to override.  If it doesn't then it is disabled by forced
@@ -82,10 +93,9 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
         return true;
       }
     });
-    ListPreference locationPref = (ListPreference)
-        findPreference(getString(R.string.pref_location_key));
-    adjustLocationChange(locationPref.getValue(), false);
-    locationPref.setOnPreferenceChangeListener(new OnPreferenceChangeListener(){
+    
+    adjustLocationChange(ManagePreferences.location(), false);
+    locMgr.setOnPreferenceChangeListener(new OnPreferenceChangeListener(){
       @Override
       public boolean onPreferenceChange(Preference preference, Object newValue) {
         adjustLocationChange((String)newValue, true);
@@ -233,4 +243,66 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
       SmsMessageQueue.getInstance().notifyDataChange();
     }
   }
+  
+
+  /**
+   * Set up location menu tree
+   * @param resId resource ID of the preference screen to be constructd
+   * @param multi true if we are building a multi-location preference tree
+   * false if we are building a normal single location preference tree
+   */
+  private void setupLocationMenu(int resId, boolean multi, LocationManager locMgr) {
+    
+    // Get a list of all of the location codes and state names.
+    Resources res = getResources();
+    String[] stateNames = res.getStringArray(R.array.pref_state_names);
+    String[] locValues = res.getStringArray(R.array.pref_location_values);
+    String[] locNames = res.getStringArray(R.array.pref_location_options);
+    
+    // Get the preference screen we will be building
+    PreferenceScreen main = (PreferenceScreen)findPreference(res.getString(resId));
+    int stNdx = 0;
+    String stCode = null;
+    int startNdx = -1;
+    for (int ndx = 0; ndx <= locValues.length; ndx++) {
+      String stPrefix = (ndx < locValues.length ? locValues[ndx].substring(0,2) : "**");
+      if (stCode == null || ! stCode.equals(stPrefix)) {
+        if (stCode != null) {
+          String stName = stateNames[stNdx++];
+          if (! stName.startsWith(stCode)) {
+            throw new RuntimeException("Found state " + stName + " while looking for " + stCode);
+          }
+          if (! multi) {
+            LocationListPreference list = new LocationListPreference(this, locMgr);
+            list.setTitle(stName.substring(3));
+            int locCnt = ndx - startNdx;
+            String[] values = new String[locCnt];
+            String[] options = new String[locCnt];
+            System.arraycopy(locValues, startNdx, values, 0, locCnt);
+            System.arraycopy(locNames, startNdx, options, 0, locCnt);
+            list.setEntryValues(values);
+            list.setEntries(options);
+          
+            main.addPreference(list);
+          } else {
+            PreferenceScreen sub = getPreferenceManager().createPreferenceScreen(this);
+            sub.setTitle(stName.substring(3));
+            for (int ii = startNdx; ii<ndx; ii++) {
+              sub.addPreference(
+                  new LocationCheckBoxPreference(this, locValues[ii], 
+                                                 locNames[ii], locMgr)
+              );
+            }
+            
+            main.addPreference(sub);
+          }
+        }
+        if (ndx >= locValues.length) break;
+
+        startNdx = ndx;
+        stCode = stPrefix;
+      }
+    }
+  }
+
 }

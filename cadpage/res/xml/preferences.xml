@@ -247,15 +247,20 @@
       android:title="@string/pref_location_screen_title"
       android:summary="@string/pref_location_screen_summary"
       android:dependency="@string/pref_enabled_key">
+        
+      <Preference
+        android:key="@string/pref_loc_desc_key"
+        android:title="@string/pref_loc_desc_title"/>
       
-      <net.anei.cadpage.preferences.ListPreference 
-      android:key="@string/pref_location_key"
-      android:title="@string/pref_location_title"
-      android:summary="@string/pref_location_summary"
-      android:entries="@array/pref_location_options"
-      android:entryValues="@array/pref_location_values"
-      android:dialogTitle="Select Location"
-      android:defaultValue="General" />
+      <PreferenceScreen
+        android:key="@string/pref_location_tree_key"
+        android:title="@string/pref_location_title"
+        android:summary="@string/pref_location_summary"/>
+      
+      <PreferenceScreen
+        android:key="@string/pref_location_mtree_key"
+        android:title="@string/pref_multi_location_title"
+        android:summary="@string/pref_multi_location_summary"/>
       
       <CheckBoxPreference
           android:key="@string/pref_override_filter_key"

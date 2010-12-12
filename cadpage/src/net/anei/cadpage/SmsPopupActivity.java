@@ -402,7 +402,14 @@ public class SmsPopupActivity extends Activity {
     }
     
     // Update TextView that contains the timestamp for the incoming message
-    String headerText = getString(R.string.new_text_at, message.getFormattedTimestamp(this));
+    String source = info.getSource();
+    String timeStamp = message.getFormattedTimestamp(this).toString();
+    String headerText;
+    if (source.length() > 0) {
+      headerText = getString(R.string.src_text_at, source, timeStamp);//
+    } else {
+      headerText = getString(R.string.new_text_at, timeStamp);
+    }
 
     // Set the from, message and header views
     fromTV.setText(info.getCall());
