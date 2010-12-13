@@ -767,8 +767,10 @@ Sender: Aegispage@lackawannacounty.org
 (Dispatch) Unit:14-9 Status:Dispatched Location:524 DEACON ST, 14 Call Type:BLS Call Time:12/7/2010 6:22:58 AM Call Number:245 Quadrant:F14 District:
 (Dispatch) Unit:14-9 Status:Dispatched Location:132 UNION MILL RD WINSHIP RD / LANGAN RD, VAN BRUNT ST, 14 Call Type:ALS Call Time:12/11/2010 11:27:5
 (Dispatch) Unit:CH53 Status:Dispatched Location:0 ASTON MOUNTAIN RD, 53 Call Type:ACCI Call Time:12/11/2010 1:12:10 PM Call Number:446 Quadrant:F53 D
-(Dispatch) Unit:ch14 Status:Dispatched Location:0 LEHIGH RD, 14 Call
-Type:BRSH Call Time:12/12/2010 9:01:17 AM Call Number:872 Quadrant:F14 District:
+(Dispatch) Unit:ch14 Status:Dispatched Location:0 LEHIGH RD, 14 Call Type:BRSH Call Time:12/12/2010 9:01:17 AM Call Number:872 Quadrant:F14 District:
+(Dispatch) Unit:CH53 Status:Dispatched Location:0 ASTON MOUNTAIN RD, 53 Call Type:ACCI Call Time:12/11/2010 1:12:10 PM Call Number:446 Quadrant:F53 D
+(Dispatch) Controlled Burn 7 Maple St in Covington Twp
+(Dispatch) Unit:14-9 Status:Dispatched Location:298 1ST AVE DEAD END / DRINKER TPKE, 14 Common Name:DIAPERS COM Call Type:BLS Call Time:12/12/2010 5:
   for covingtong vol fire co dalevillevpa.
 **********************************************************
 Prince Georges County, MD

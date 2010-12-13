@@ -42,8 +42,9 @@ public class LocationManager {
     STATE_MAP.put("MD", "MARYLAND");
     STATE_MAP.put("MA", "MASSACHUSETTS");
     STATE_MAP.put("MI", "MICHIGAN");
+    STATE_MAP.put("MN", "MINNESOTA");
     STATE_MAP.put("MS", "MISSISSIPPI");
-    STATE_MAP.put("MS", "MISSOURI");
+    STATE_MAP.put("MO", "MISSOURI");
     STATE_MAP.put("MT", "MONTANA");
     
     STATE_MAP.put("NE", "NEBRASKA");

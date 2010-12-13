@@ -16,6 +16,9 @@ Unit:AM45 UnitSts: Loc:124 DARIN CT Venue:RICHLA TWP Inc:SEIZURE Date:10/29/2010
 Contact: Jason Quimby <fjquimby@gmail.com>
 Subject:{EMAOPS} (62533) CAD Page Unit:EMA1 Loc:3727 N 200E Venue:RICHLA TWP Inc:Accidnt PI Date:12/09/2010 Time:10:31 UNKNOWN  CAR VS POL
 Subject:(62534) Dispatch\nUnit:ST50 UnitSts: Loc:207 E MAIN ST Venue:CHESTERFIE STATION 50 Inc:Fire Date:12/09/2010 Time:12:00 STAND BY YO
+
+Brent Jensen <brent.cutfd28@gmail.com>
+Fwd: (62208) DISPATCH) Unit:AM51 UnitSts: Loc:3363 E 200N Venue:UNION TWP Inc:Accidnt PI Date:12/04/2010 Time:09:59 CAR HIT POLE/CONSCIOUS BUT HIT HEAD/NOT A
 */
 
 public class INMadisonCountyParser extends SmsMsgParser {
