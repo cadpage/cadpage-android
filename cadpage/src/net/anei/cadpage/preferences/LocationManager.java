@@ -165,18 +165,23 @@ public class LocationManager {
     
     // First rebuild the persistent preference setting
     if (locationList.isEmpty()) locationList.add("General");
+    String newLocation;
     if (locationList.size() == 1) {
-      ManagePreferences.setLocation(locationList.get(0));
+      newLocation = locationList.get(0);
     } else {
       StringBuilder sb = new StringBuilder();
       for (String loc : locationList) {
         if (sb.length() > 0) sb.append(",");
         sb.append(loc);
       }
-      ManagePreferences.setLocation(sb.toString());
-      if (listener != null) {
-        listener.onPreferenceChange(null, sb.toString());
-      }
+      newLocation = sb.toString();
+    }
+    
+    // Set preference and
+    // call notification listener if there is one
+    ManagePreferences.setLocation(newLocation);
+    if (listener != null) {
+      listener.onPreferenceChange(null, newLocation);
     }
     
     // Set the summary display on both location preference screens
