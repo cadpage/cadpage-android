@@ -38,13 +38,48 @@ public class NYHerkimerCountyParserTest extends BaseParserTest {
         "ID:2010-0000060399");
     
     doTest("T4",
-      "(LIFT  >LIFT ASSIST/NON EMER EMS) 3746 BLACK CREEK RD Apt: LOTC Bldg XS: TAYLOR BROOK RD RUSSIA JOHN SMITH 3158265805 Map: Grids:, Cad: 2010-0000064384",
-      "CALL:LIFT>LIFT ASSIST/NON EMER EMS",
-      "ADDR:3746 BLACK CREEK RD",
-      "APT:LOTC Bldg",
-      "X:TAYLOR BROOK RD",
-      "CITY:RUSSIA",
-      "ID:2010-0000064384");
+        "(LIFT  >LIFT ASSIST/NON EMER EMS) 3746 BLACK CREEK RD Apt: LOTC Bldg XS: TAYLOR BROOK RD RUSSIA JOHN SMITH 3158265805 Map: Grids:, Cad: 2010-0000064384",
+        "CALL:LIFT>LIFT ASSIST/NON EMER EMS",
+        "ADDR:3746 BLACK CREEK RD",
+        "APT:LOTC Bldg",
+        "X:TAYLOR BROOK RD",
+        "CITY:RUSSIA",
+        "ID:2010-0000064384");
+    
+    doTest("T11",
+        "(EMS>EMS CALL) 112 N Main St\nGrids:,, NY X:Fairfield St\nMiddleville Village Smith, John\n5419991234 MAP:",
+        "CALL:EMS>EMS CALL",
+        "ADDR:112 N Main St",
+        "X:Fairfield St",
+        "CITY:Middleville");
+    
+    doTest("T12",
+        "(EMS>EMS CALL) 54 Fairfield St\nGrids:,, NY X:Fairfield St\nMiddleville Village Smith, John\n5419991234 MAP:",
+        "CALL:EMS>EMS CALL",
+        "ADDR:54 Fairfield St",
+        "X:Fairfield St",
+        "CITY:Middleville");
+    
+    doTest("T13",
+        "(LIFT>LIFT ASSIST/NON EMER EMS)\n112 N Main St Grids:,, NY\nX:Fairfield St Smith, John\n5419991234 MAP:",
+        "CALL:LIFT>LIFT ASSIST/NON EMER EMS",
+        "ADDR:112 N Main St",
+        "X:Fairfield St");
 
+    doTest("21",
+        "264 CHURCH ST XS: N ANN ST LITTLE FALLS CITY SLABE,CAROL 3158231466 Map: Grids:, Cad: 2010-0000068836",
+        "ADDR:264 CHURCH ST",
+        "X:N ANN ST",
+        "CITY:LITTLE FALLS CITY",
+        "ID:2010-0000068836");
+
+    doTest("T22",
+        "168 FURNACE ST Apt: 1 Bldg XS: W MAIN ST LITTLE FALLS CITY SCLARZ, RANDY 3155085302 Map: Grids:, Cad: 2010-0000068790I",
+        "ADDR:168 FURNACE ST",
+        "APT:1 Bldg",
+        "X:W MAIN ST",
+        "CITY:LITTLE FALLS CITY",
+        "ID:2010-0000068790I");
+    
   }
 }
