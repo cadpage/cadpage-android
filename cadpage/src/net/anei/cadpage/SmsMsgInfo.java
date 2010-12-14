@@ -166,29 +166,38 @@ public class SmsMsgInfo {
   private String cleanHouseNumbers(String sAddress) {
     sAddress = sAddress.replace(" and ", " & ");
     int ipt = sAddress.indexOf('&');
-    if (ipt < 0) return sAddress;
-    
-    Matcher match = HOUSE_NUMBER.matcher(sAddress);
-    for (int part = 2; part >= 1; part--) {
-      switch (part) {
-      case 1:
-        match.region(0, ipt);
-        break;
-        
-      case 2:
-        match.region(ipt+1, sAddress.length());
-      }
+    if (ipt >= 0) {
       
-      if (match.find()) {
-        // Safety check, don't mess with number if followed by AV, AVE, or ST
-        int st = match.start();
-        int end = match.end();
-        Matcher match2 = STREET_SFX.matcher(sAddress);
-        match2.region(end, match.regionEnd());
-        if (! match2.find()) {
-          sAddress = sAddress.substring(0, st) + sAddress.substring(end);
+      Matcher match = HOUSE_NUMBER.matcher(sAddress);
+      for (int part = 2; part >= 1; part--) {
+        switch (part) {
+        case 1:
+          match.region(0, ipt);
+          break;
+          
+        case 2:
+          match.region(ipt+1, sAddress.length());
+        }
+        
+        if (match.find()) {
+          // Safety check, don't mess with number if followed by AV, AVE, or ST
+          int st = match.start();
+          int end = match.end();
+          Matcher match2 = STREET_SFX.matcher(sAddress);
+          match2.region(end, match.regionEnd());
+          if (! match2.find()) {
+            sAddress = sAddress.substring(0, st) + sAddress.substring(end);
+          }
         }
       }
+    }
+    
+    // If it isn't an intersection, check for a appt number
+    // Generally google ignores appt numbers, but it chokes on one that
+    // starts with a #
+    else {
+      ipt = sAddress.lastIndexOf(' ');
+      if (sAddress.charAt(ipt+1) == '#') sAddress = sAddress.substring(0, ipt).trim();
     }
     return sAddress;
   }
