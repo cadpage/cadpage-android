@@ -53,6 +53,7 @@ public abstract class BaseParserTest {
       else if (sType.equals("ID")) data.strCallId = str;
       else if (sType.equals("PHONE")) data.strPhone = str;
       else if (sType.equals("INFO")) data.strSupp = str;
+      else if (sType.equals("SRC")) data.strSource = str;
       else fail("Keyword " + sType + " is not defined");
     }
     
