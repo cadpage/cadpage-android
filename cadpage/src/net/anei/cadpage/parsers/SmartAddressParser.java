@@ -279,6 +279,9 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     // Before we do that we have to protect the C/S cross street indicator
     address = address.replaceAll(" C/S ", " XS: ").replaceAll("/", " / ").replaceAll("&", " & ");
     
+    // Make sure any colon keyword parsers by itself
+    address = address.replaceAll(":", ": ");
+    
     // Periods used with abbreviations also cause trouble.  Just get rid of all periods
     address = address.replaceAll("\\.", "");
 
