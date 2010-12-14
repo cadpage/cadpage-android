@@ -38,8 +38,7 @@ public class DispatchAParser extends SmsMsgParser {
 
   private boolean isPageMsg(String body) {
     int pt = body.indexOf("CAD:");
-    if (pt < 0) return false;
-    return (pt == 0 || body.charAt(pt-1) == '\n');
+    return (pt >= 0);
   }
 
   @Override
@@ -71,7 +70,7 @@ public class DispatchAParser extends SmsMsgParser {
          if (pt < 0) break;
          fld = fld.substring(pt+1).trim();
          
-         // Two distircts store data in different ways
+         // Two districts store data in different ways
          // Livingston starts with a RESPONSE: code
          // and we want to grab everything behind a SCRIPT: token
          String extra = "";
