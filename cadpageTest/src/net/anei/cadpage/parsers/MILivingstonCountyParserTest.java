@@ -49,5 +49,12 @@ public class MILivingstonCountyParserTest extends BaseParserTest {
         "CALL:CHSTPN",
         "ADDR:7251 HAMBURG RD",
         "X:WELLE RD");
+    
+    doTest("T7",
+        "1 of 3\nFRM:CAD@livingstoncounty.livco\nMSG:CAD:FYI: ;CITAF;5579 E GRAND RIVER;WILDWOOD DR;Event spawned from CITIZEN ASSIST LAW. [12/10/10\n(Con't) 2 of 3\n20:08:59 SPHILLIPS] CALLER LIVES NEXT DOOR TO THE ADDRESS OF THE WATER MAIN BREAK [12/10/10 20:04:40 HROSSNER] CALLER ADV OF A WATER MAIN\n(Con 3 of 3\nBREAK(End)",
+        "CALL:CITAF",
+        "ADDR:5579 E GRAND RIVER",
+        "X:WILDWOOD DR",
+        "INFO:Event spawned from CITIZEN ASSIST LAW. / CALLER LIVES NEXT DOOR TO THE ADDRESS OF THE WATER MAIN BREAK");
   }
 }
