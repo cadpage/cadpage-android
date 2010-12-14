@@ -364,6 +364,12 @@ for Prince Georges, Anne Arundel, and Charles counties. and Howard County
 0-2 H12: PI\nS11 R11\nPG INDIAN HEAD HWY/FARMINGTON RD WEST\nNotes: WANTS ENGINE AND AMBULANCE FROM STATION 11\n12/07 06:14\nhttp://fireblitz.com/11/0.html
 26: INVESTIGATION\nE817\n6036 PARKLAND CT (OLD SILVER HILL RD & OLD SILVER HILL RD)\n12/06 22:40\nhttp://fireblitz.com/17/9.html
 ***************************************************************************
+Gloucester County, NJ
+Sta:23-1\nType:MVC\nLoc:233 N MAIN ST\nVen:HARRISON\nDsp-07:56:31\nClr- 
+Sta:23-1\nType:SEIZ\nLoc:143 SALVATORE DR\nVen:HARRISON\nDsp-15:26:16\nClr- 
+Sta:23-1\nType:DWEL\nLoc:296 WESTBROOK DR\nVen:WOOLWICH\nDsp-08:16:44\nClr- 
+***************************************************************************
+***************************************************************************
 ***************************************************************************
 ***************************************************************************
 Districts that are not yet supported.  Class indicates implementation difficulty
@@ -408,99 +414,6 @@ Contact: 7167992315@vtext.com
 **********************************************************
 **********************************************************
 **********************************************************
-**********************************************************
-Gloucester County, NJ
-Contact: Rich Danner <richdanner@comcast.net>
-Sender: alert_@private.gloucesteralert.com
-
-Venue S = South harrison township
-
-EXAMPLE #1 - In District (Harrison Township) MVC Call: 
-  Sta:23-1 
-  Type:MVC 
-  Loc:233 N MAIN ST                 
-  Ven:HARRISON 
-  Dsp-07:56:31     
-  Clr- 
-
-EXAMPLE #2 - In District (Harrison Township) EMS Seizure Call: 
-  Sta:23-1 
-  Type:SEIZ 
-  Loc:143 SALVATORE DR               
-  Ven:HARRISON 
-  Dsp-15:26:16     
-  Clr- 
-
-EXAMPLE #3 - Mutual Aid (Woolwich Township) Dwelling Fire Call: 
-  Sta:23-1 
-  Type:DWEL 
-  Loc:296 WESTBROOK DR               
-  Ven:WOOLWICH 
-  Dsp-08:16:44     
-  Clr- 
-
-EXAMPLE #4  - In District (Harrison Township) MVC Call: 
-  Sta:23-1 
-  Type:MVC 
-  Loc:203 N MAIN ST                 
-  Ven:HARRISON 
-  Dsp-09:34:52     
-  Clr- 
-
-EXAMPLE #5 - Mutual Aid (South Harrison Twp) Fire Alarm System Call: 
-  Sta:23-1 
-  Type:MVC 
-  Loc:203 N MAIN ST                 
-  Ven:HARRISON 
-  Dsp-09:34:52     
-  Clr- 
-
-EXAMPLE #5 - Mutual Aid (South Harrison Twp) Fire Alarm System Call: 
-  Sta:23-1 
-  Type:ALRM 
-  Loc:7 FERRELL RD APT A             
-  Ven:S 
-  Dsp-14:55:22     
-  Clr- 
-
-EXAMPLE #6  - Mutual Aid (South Harrison Twp) Brush Fire Call: 
-  Sta:23-1 
-  Type:BRSH 
-  Loc:54 VESTRY RD                   
-  Ven:S 
-  Dsp-12:40:42 
-  Clr- 
-
-EXAMPLE #7 - In District (Harrison Township) EMS Fall Victim Call: 
-  Sta:23-1 
-  Type:FALL 
-  Loc:115 FRANKLIN DR               
-  Ven:HARRISON 
-  Dsp-16:01:31     
-  Clr- 
-
-EXAMPLE #8 - In District (Harrison Township) Brush Fire Call: 
-  Sta:23-1 
-  Type:BRSH 
-  Loc:49 TURTLE CREEK DR             
-  Ven:HARRISON 
-  Dsp- 
-  Clr- 
-
-EXAMPLE #9 - Mutual Aid (Woolwich Township) MVC Fire Call: 
-  Sta:23-1 
-  Type:MVC 
-  Loc:2227 RT 322                   
-  Ven:WOOLWICH 
-  Dsp-11:25:11     
-  Clr- 
-  
-Sta:23-1 
-Type:MVC 
-Loc:TOMLIN STATION RD             
-Ven:HARRISON 
-Dsp-17:31:56     
-Clr- 
 **********************************************************
 Martinez, GA (Martinez Columbia Fire Rescue
 Contact: "Brent Willis" <bwillis@mvfd.net>
@@ -718,6 +631,9 @@ Unknown, NJ
 Contact: "jces9063@aol.com" <jces9063@aol.com>
 Sender: news@1rwn.com
 SADDLE BROOK, NJ (BERGEN) MULTI VEH MVA RT 80 IAO MM 62.2. 6 CAR MVA W/ INJS. SVCS O/S. NJ422
+(CAD)  RESPOND: #10-0092 ENGLEWOOD CLIFFS BOR*580 Sylvan Ave * *SUITE B *DEMAREST AVE/UNNAMED STREET *Unknown Problem (Man Down)-BLS08:23 Code:31B01
+(CAD) S332 RESPOND: #10-0090603 ENGLEWOOD CITY *143 Engle St * * *E DEMAREST AVE/CHESTNUT ST *Falls-BLS 10:46 Code:17b01 
+(CAD) S332 CANCEL: #10-0090603 ENGLEWOOD CITY *143 Engle St Paged:10:46 Enrte:10:48 Scene:10:54 Avail:11:33 Cxl Rsn: Refused Medical Aid Code:17b01
 
 Sender: miccom@nnjmicu.org
 (CAD) S332 RESPOND: #10-0090603 ENGLEWOOD CITY *143 Engle St * * *E DEMAREST AVE/CHESTNUT ST *Falls-BLS 10:46 Code:17b01
@@ -846,7 +762,7 @@ Contact: Joe Orsolini <muzz3256@gmail.com>
 Works for 911 center
 Sender: CAD@acuecc.org
 System: Premier CAD by Motorola
-(EARLYSVILL is a station name and is always 10 characters long)
+(EARLYSVILL is a station name and is always 10 characters long, padded with blanks if necessary)
 AC stands for Albermarle county and never changes
 
 EARLYSVILL EXTRICATION AD: SEMINOLE TRL&FRAYS MILL RD CTY: AC LOC: SB JUST S OF THE STOPLIGHT CALLER WAS GOING NB AND SAW A VEHICLE ROLL OVER SE
@@ -869,6 +785,71 @@ MAILBOX:SQ02 (3)ACCIDENT 021400 TIMBERLAKE RD CFS# 2010-061105 2 CAR MVA. WITH E
 MAILBOX:SQ02 STABBING 005450 COLONIAL HWY EVI CFS# 2010-061047 STAGE IN THE AREA, DO NOT GO TO THE SCENE
 MAILBOX:SQ02 UNRESPONSIVE 000218 LAKE FOREST DR CFS# 2010-060825
 MAILBOX:SQ02 HANGUP 911 000381 HORIZON DR CFS# 2010-060777 FEMALE ADVISED SOMETHING ABOUT THE RESCUE SQ. LINE DISCONNECTED
+**********************************************************
+Elk County, PA (also dispatches Cameron County)
+Contact: "McAllister, Mike" <mamcallister@elkoes.com>
+Sender: alerts@elkcounty911.ealertgov.com
+System: Logisys CAD
+
+Inc: DIABETIC PROBLEMS Add: 890 BURNING WELL RD 
+City: JONES 
+XSt: OLD KANE RD * ROCKY RUN RD 
+Agency: ST MARYS AMB 
+
+Inc: FALLS Add: 185 CENTER ST 
+City: ST_MARYS 
+XSt: N SAINT MARYS ST * MCGILL ST 
+Agency: ST MARYS AMB 
+
+Inc: SICK PERSON Add: 352 STATE ST 
+City: ST_MARYS 
+XSt: ANTHONY RD * RIDGWAY ST MARYS RD 
+Agency: ST MARYS AMB 
+
+Inc: TRANSFER/INTERFACILITY Add: 755 JOHNSONBURG RD 
+City: ST_MARYS 
+XSt: MAURUS ST * SHERRY RD 
+Agency: ST MARYS AMB 
+
+Inc: TRAFFIC ACCIDENT/INJURIES Add: IRISHTOWN RD and MAIN ST 
+City: FOX 
+XSt: SKYLINE DR * TAYLOR ST 
+Agency: ST MARYS AMB 
+
+Inc: ALARMS-COMMERCIAL Add: 109 JEEP RD 
+City: ST_MARYS 
+XSt: S SAINT MARYS ST 
+Agency: ST MARYS AMB 
+
+Inc: SICK PERSON Add: 303 CHESTNUT ST 
+City: ST_MARYS 
+XSt: E MILL ST * OAK ST 
+Agency: ST MARYS AMB 
+Elk County Municipalities 
+
+St Marys        (City)
+Ridgway     (Borough)
+Ridgway     (Township)
+Johnsonburg (Borough)
+Fox             (Township)
+Jay             (Township)
+Highland        (Township)
+Millstone       (Township)
+Spring Sreek(Township)
+Horton  (Township)
+Jones           (Township)
+Benezette       (Township)
+
+Cameron County Municipalities
+
+Shippen (Township)
+Portage (Township)
+Lumber  (Township)
+Emporium        (Borough)
+Gibson  (Township)
+Driftwood       (Borough)
+Grove           (Township)
+
 **********************************************************
 **********************************************************
 **********************************************************
