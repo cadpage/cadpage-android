@@ -53,15 +53,12 @@ MAILBOX:S07 EMS-PATIENT FALLEN 3005 GREEN LEVEL RD RMT CFS# 2010-030541 CROSS: G
 *******************************************************************************
 * DispatchProQAParser subclasses
 *******************************************************************************
-CONorthglennEMS CopyOfDispatchAParser
+North Glenn EMS, CO (CONorthglennEMSParser)
 - part 1 of 1 / RC:Run# 10174/6211 OLIVE ST///Pregnancy / Childbirth/
 - part 1 of 1 / RC:Run# 9913/5541 E 67TH AVE//med alarm/Not Available/
 - part 1 of 1 / RC:Run# 9911/7373 BIRCH ST///Unconscious / Fainting/
 *******************************************************************************
-Medstar IL (Medical only in Randolf, Clinton, and St Clair counties)
-Contact: l.keirstead@yahoo.com,6154407605@vzwpix.com
-Sender: emsdispatch@medstarems.net
-System: ProQA
+Medstar SW IL (ILMedstarParser)
 [- part 1 of 1]  RC:Run# 34870/64 WEST BOUND//across from weight station/////male subj white car hit by a truck isp en route/<PROQA_DET>
 [- part 1 of 1]  RC:Run# 34859/505 LEMANS WAY///SCC PG 15/FAIRVIEW HEIGHTS///55yof unc diff b possible overdose on pills - adavan tramadol/<PROQA_DET>
 [- part 1 of 1]  RC:Run# 34577/20 KINDER ST//cah/SCC PG 11/EAST SAINT LOUIS///31f c/b chest and back px cardiac hx  ProQA comments: chest px/10D04
@@ -385,9 +382,11 @@ Dorchester County, MD
 DOR911:CT:COMMERCIAL FIRE ALAR 2715 OCEAN GTWY @HOLIDAY INN CAMB BOX:1-1 DUE:EN1-1 EN1-2 :DC
 DOR911:CT:GAS LEAK OUTSIDE 513 RACE ST CAMB BOX:1-2 DUE: EN1-1 EN1-2 :DC
 DOR911:CT:VEHICLE FIRE HARDEES @800 WOODS RD CAMB BOX:1-1 DUE:EN1-3 EN1-4 :DC
-DOR911:CT:STRUCTURE FIRE 118 VIRGINIA AVE CAMB BOX:1-1 DUE: EN1-1 EN1-2 EN1-3 RS1-1 TW1-1 P100 :DC
-DOR911:CT:SICK PERSON 5226 WOODS RD @CAMBRIDGE CLUB APT 6 APT 6127 CAMB BOX:1-1 DUE: P101 RS1-1 :DC
 ***************************************************************************
+Erie County, NY
+AMH 238 WESTFIELD RD EMS 79 YO F/  CHEST PAIN
+AMH 52 ENDICOTT DR EMS 82 YO M
+AMH 670 LONGMEADOW RD EMS 71 Y/O F CHEST PAINS, DIFFICULTY BREATHING
 ***************************************************************************
 ***************************************************************************
 ***************************************************************************
@@ -927,48 +926,6 @@ CAD:458 HITES RD;UNCON/FAINT-UNCON/BREATHING;CARSON LN;GEM DR
 CAD:2044-79 FAIRFAX PIKE;PREGNANCY-LABOR;APPRENTICE LN
 CAD:250 COSTELLO DR;FILL STATION;FRONT ROYAL PIKE;PRINCE FREDERICK DR
 CAD:3632 VALLEY PIKE;FALL - POSS DANGEROUS;COMMONWEALTH CT;FAY ST
-**********************************************************
-Erie County, NY
-Contact: "Buttino, John" <John.Buttino@erie.gov>   (network administrator)
-AMH 238 WESTFIELD RD EMS 79 YO F/  CHEST PAIN
-AMH 52 ENDICOTT DR EMS 82 YO M
-AMH 670 LONGMEADOW RD EMS 71 Y/O F CHEST PAINS, DIFFICULTY BREATHING
-AMH 3030 SHERIDAN DR EMS RM 146 58 M TROUBLE BREATHING
-AMH 35 ELM RD EMS 69M CHEST/ARM PAIN
-
-The AMH is fixed for all companies dispatched by Amherst Fire Control.
-The EMS is the nature of the call. Some of the other Values that may be
-seen are listed below.
-
-AMA             MUTUAL AID-Automatic Mutual Aid                   
-AP              AIRPORT ALERT                                    
-AST             MISCELLANEOUS-Assist                             
-BA              ALARMS-Box Alarm                                 
-DUP             Duplicate Call                                    
-E911            Emergency Call                                    
-EMA             ALARMS-EMS Alarm                                 
-EMS             EMS-Emergency Medical Service                    
-EMSC            EMS-Emergency Medical Service Cold               
-F               Structure                                        
-FAL             ALARMS-Fire Alarm Activation                     
-HM              HAZMAT-Leak, Spill                               
-MAA             MUTUAL AID-Ambulance                             
-MAF             MUTUAL AID-Fire                                  
-MAR             MUTUAL AID-Rescue                                
-MAS             MUTUAL AID-Standby                               
-MF              Miscellaneous                                    
-MVA             EMS-Motor Vehicle Accident                       
-MVF             Motor Vehicle                                    
-NOT             Notification                                     
-POL             Police Emergency                                 
-R               EMS-Rescue                                       
-SA              Silent Alarm                                     
-TR              EMS-Transportation                               
-TRC             EMS-Transportation Cold                          
-TRH             EMS-Transportation Hot  
-
-Pass list of codes to smart parser as the city list, then move city field to call field. 
-Hokey, but should work.                         
 
 **********************************************************
 Woodbury County, IA
