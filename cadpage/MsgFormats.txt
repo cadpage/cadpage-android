@@ -157,7 +157,7 @@ Sender: Basepage@mauser.greeleypd.com
 19897,ALARMF,2013 1ST AV.E4 E1 L1,TEXT:AUDIBLE COMING FROM PULL STATION  NW DOOR, NO ATC, PREM PH 970 674 1957 \COMP:OP 311 SHERLOCK PLUS \PH:800 443
 19547,AIRAF ,600 AIRPORT RD.E4,TEXT:PLANE COMING IN WITHOUT LANDING GEAR.  RP WANTS FIRE AND MEDICAL TO RESPOND AND STANDBY. \COMP:MANDY \PH:336-3000,
 ***************************************************************************
-CONorthglennEMSCopyOfDispatchAParser
+CONorthglennEMS CopyOfDispatchAParser
 - part 1 of 1 / RC:Run# 10174/6211 OLIVE ST///Pregnancy / Childbirth/
 - part 1 of 1 / RC:Run# 9913/5541 E 67TH AVE//med alarm/Not Available/
 - part 1 of 1 / RC:Run# 9911/7373 BIRCH ST///Unconscious / Fainting/
@@ -368,6 +368,13 @@ Gloucester County, NJ
 Sta:23-1\nType:MVC\nLoc:233 N MAIN ST\nVen:HARRISON\nDsp-07:56:31\nClr- 
 Sta:23-1\nType:SEIZ\nLoc:143 SALVATORE DR\nVen:HARRISON\nDsp-15:26:16\nClr- 
 Sta:23-1\nType:DWEL\nLoc:296 WESTBROOK DR\nVen:WOOLWICH\nDsp-08:16:44\nClr- 
+**********************************************************
+Dorchester County, MD
+DOR911:CT:COMMERCIAL FIRE ALAR 2715 OCEAN GTWY @HOLIDAY INN CAMB BOX:1-1 DUE:EN1-1 EN1-2 :DC
+DOR911:CT:GAS LEAK OUTSIDE 513 RACE ST CAMB BOX:1-2 DUE: EN1-1 EN1-2 :DC
+DOR911:CT:VEHICLE FIRE HARDEES @800 WOODS RD CAMB BOX:1-1 DUE:EN1-3 EN1-4 :DC
+DOR911:CT:STRUCTURE FIRE 118 VIRGINIA AVE CAMB BOX:1-1 DUE: EN1-1 EN1-2 EN1-3 RS1-1 TW1-1 P100 :DC
+DOR911:CT:SICK PERSON 5226 WOODS RD @CAMBRIDGE CLUB APT 6 APT 6127 CAMB BOX:1-1 DUE: P101 RS1-1 :DC
 ***************************************************************************
 ***************************************************************************
 ***************************************************************************
@@ -410,10 +417,69 @@ Contact: 7167992315@vtext.com
 (10444 NCFC JBEILEIN ) DUERO/WILLIAMS  MVA W MINOR INJURIES. From email 7164383393@niagaracounty.com
 (550 NCFC RZASTROW ) 1-AMB TO MVA WITH SHAWNEE/LKPT & SHAWNEE RDS. From email 7164383393@niagaracounty.com
 **********************************************************
+Alternate Chester County, PA
+Contact: Glenn Heininger <glenn.heininger@gmail.com>
+Sender: paging@minquas.org
+Very messy text format, haven't figured out exact what is what.
+More info requested 12/14
 **********************************************************
 **********************************************************
 **********************************************************
 **********************************************************
+**********************************************************
+Deschutes County, OR
+Contact:joanne day <frankday12@gmail.com>
+Sender: 911@deschutes.org
+
+*Page #1*
+Chest Pain Breathing normally => 35   -C-STA500-9395 SW SCOUT CAMP TRL-Map 131208-11:38:0
+
+*Chest Pain Breathing normally-- Description*
+*C--- Class  A,B,C*
+*STA500--- Station 500 Crooked River Ranch Fire Station*
+*9395 SW SCOUT CAMP TRL--- Address*
+*Map 131208--- Our map locations for the maps in our apparatus *
+*18:47:56--- Time*
+
+*Page #2*
+Sick Person Vomiting   -A-STA500-13852 SW CANYON DR-Map 131216-18:47:56
+
+*Sick Person Vomiting-- Description*
+*A--- Class  A,B,C*
+*STA500--- Station 500 Crooked River Ranch Fire Station*
+*13852 SW CANYON DR--- Address*
+*Map 131216--- Our map locations for the maps in our apparatus *
+*18:47:56--- Time*
+
+*Page #3*
+DEAD BODY/DEATH R3-R3-STA500-14537 SW STALLION DR-Map 131223-10:23:46
+
+*DEAD BODY/DEATH- Description*
+*STA500--- Station 500 Crooked River Ranch Fire Station*
+*14537 SW STALLION DR--- Address*
+*Map 131223--- Our map locations for the maps in our apparatus *
+*18:47:56--- Time*
+
+*Page #4*
+Falls Unk status Ground-B-STA500-13345 SW CINDER DR-Map 131215-00:30:04
+
+*Page #5*
+Traffic Accidents HIGH MECH - Rollover-D2-STA500-SW BADGER RD/SW CHINOOK DR--13:11:56
+
+Cross street of Badger and Chinook
+
+*Page #6*
+Sick Person Abnormal breathing -C-512,571-8431 SW BASALT DR-Map 131216-10:46:05
+
+*Page #7*
+Sick Person Vomiting   -A-STA500-13812 SW CANYON DR-Map 131216-18:47:56
+
+*Page #8*
+T-shirts or sweatshirts tonight instead of Class B shirts per Chief crr
+
+*Information Page*
+*
+
 **********************************************************
 Martinez, GA (Martinez Columbia Fire Rescue
 Contact: "Brent Willis" <bwillis@mvfd.net>
@@ -448,21 +514,11 @@ DO NOT CALL DISPATCH!!!! (Reported on 09/08/2010 @ 3:53:59 PM)
 Working structure fire! Assistance is needed if available.
 Address:711 HIDDEN PL OFF HWY 28
 DO NOT CALL DISPATCH!!!! (Reported on 8/12/2010 @ 9:24:21 AM)
-**********************************************************
-Alternate Chester County, PA
-Contact: Glenn Heininger <glenn.heininger@gmail.com>
-Sender: paging@minquas.org
-Very messy text format....
-**********************************************************
-Cambridge, MD
-Very Similar to Fredrick County, MD, May be same vendor
-Contact:ryan travers <traversboy@gmail.com>
-Sender:dor911@docogonet.com
-DOR911:CT:COMMERCIAL FIRE ALAR 2715 OCEAN GTWY @HOLIDAY INN CAMB BOX:1-1 DUE:EN1-1 EN1-2 :DC
-DOR911:CT:GAS LEAK OUTSIDE 513 RACE ST CAMB BOX:1-2 DUE: EN1-1 EN1-2 :DC
-DOR911:CT:VEHICLE FIRE HARDEES @800 WOODS RD CAMB BOX:1-1 DUE:EN1-3 EN1-4 :DC
-DOR911:CT:STRUCTURE FIRE 118 VIRGINIA AVE CAMB BOX:1-1 DUE: EN1-1 EN1-2 EN1-3 RS1-1 TW1-1 P100 :DC
-DOR911:CT:SICK PERSON 5226 WOODS RD @CAMBRIDGE CLUB APT 6 APT 6127 CAMB BOX:1-1 DUE: P101 RS1-1 :DC
+
+A firefighter rode in with EMS from station 9_ need someone to standby. Please contact dispatch if you can cover (Reported on 11/26/2010 @ 6:32:18 PM) 
+ 
+TRAINING DEC 16TH @ HQ QUARTERLY DINNER ALL VOL PLEASE ATTEND (Reported on 12/13/2010 @ 9:09:45 AM) 
+
 **********************************************************
 Nassau County, NY
 Contact: "rhfd48@optonline.net" <rhfd48@optonline.net>
@@ -634,6 +690,7 @@ SADDLE BROOK, NJ (BERGEN) MULTI VEH MVA RT 80 IAO MM 62.2. 6 CAR MVA W/ INJS. SV
 (CAD)  RESPOND: #10-0092 ENGLEWOOD CLIFFS BOR*580 Sylvan Ave * *SUITE B *DEMAREST AVE/UNNAMED STREET *Unknown Problem (Man Down)-BLS08:23 Code:31B01
 (CAD) S332 RESPOND: #10-0090603 ENGLEWOOD CITY *143 Engle St * * *E DEMAREST AVE/CHESTNUT ST *Falls-BLS 10:46 Code:17b01 
 (CAD) S332 CANCEL: #10-0090603 ENGLEWOOD CITY *143 Engle St Paged:10:46 Enrte:10:48 Scene:10:54 Avail:11:33 Cxl Rsn: Refused Medical Aid Code:17b01
+(CAD) S2 RESPOND: #10-0092818 FORT LEE BORO *0 - 0 Bridge Plz N *WALGREENS * *LEMOINE AVE/LEMOINE AVE *Traumatic Injuries-BLS 16:01 Code:30bt1
 
 Sender: miccom@nnjmicu.org
 (CAD) S332 RESPOND: #10-0090603 ENGLEWOOD CITY *143 Engle St * * *E DEMAREST AVE/CHESTNUT ST *Falls-BLS 10:46 Code:17b01
@@ -849,13 +906,107 @@ Emporium        (Borough)
 Gibson  (Township)
 Driftwood       (Borough)
 Grove           (Township)
+**********************************************************
+Frederick County, VA
+Contact: Timothy Vaught <tvaught5388@gmail.com>
+Sender: CAD@co.frederick.va.us
+CAD:107 HICKORY HILL DR;GENERAL ILL-NEW ONSET IMMOBILE;LAUREL HILL DR;LAKESIDE DR
+CAD:458 HITES RD;UNCON/FAINT-UNCON/BREATHING;CARSON LN;GEM DR
+CAD:2044-79 FAIRFAX PIKE;PREGNANCY-LABOR;APPRENTICE LN
+CAD:250 COSTELLO DR;FILL STATION;FRONT ROYAL PIKE;PRINCE FREDERICK DR
+CAD:3632 VALLEY PIKE;FALL - POSS DANGEROUS;COMMONWEALTH CT;FAY ST
+**********************************************************
+Southwestern IL (Randolf, Clinton, and St Clair counties)
+Contact: l.keirstead@yahoo.com,6154407605@vzwpix.com
+Sender: emsdispatch@medstarems.net
+System: ProQA
+[- part 1 of 1]  RC:Run# 34870/64 WEST BOUND//across from weight station/////male subj white car hit by a truck isp en route/<PROQA_DET>
+[- part 1 of 1]  RC:Run# 34859/505 LEMANS WAY///SCC PG 15/FAIRVIEW HEIGHTS///55yof unc diff b possible overdose on pills - adavan tramadol/<PROQA_DET>
+[- part 1 of 1]  RC:Run# 34577/20 KINDER ST//cah/SCC PG 11/EAST SAINT LOUIS///31f c/b chest and back px cardiac hx  ProQA comments: chest px/10D04
+[- part 1 of 1]  RC:Run# 34384/1308 CORLISS//westinghouse and n greenmount//SHILO///38m c/b rapid heart rate/<PROQA_DET>
+[- part 1 of 1]  RC:Run# 34620/13 LOISEL DR///SCC PG 14/EAST SAINT LOUIS///70 M C/B CONFUSED ProQA comments: UNK/31D03
+**********************************************************
+Erie County, NY
+Contact: "Buttino, John" <John.Buttino@erie.gov>   (network administrator)
+AMH 238 WESTFIELD RD EMS 79 YO F/  CHEST PAIN
+AMH 52 ENDICOTT DR EMS 82 YO M
+AMH 670 LONGMEADOW RD EMS 71 Y/O F CHEST PAINS, DIFFICULTY BREATHING
+AMH 3030 SHERIDAN DR EMS RM 146 58 M TROUBLE BREATHING
+AMH 35 ELM RD EMS 69M CHEST/ARM PAIN
 
+The AMH is fixed for all companies dispatched by Amherst Fire Control.
+The EMS is the nature of the call. Some of the other Values that may be
+seen are listed below.
+
+AMA             MUTUAL AID-Automatic Mutual Aid                   
+AP              AIRPORT ALERT                                    
+AST             MISCELLANEOUS-Assist                             
+BA              ALARMS-Box Alarm                                 
+DUP             Duplicate Call                                    
+E911            Emergency Call                                    
+EMA             ALARMS-EMS Alarm                                 
+EMS             EMS-Emergency Medical Service                    
+EMSC            EMS-Emergency Medical Service Cold               
+F               Structure                                        
+FAL             ALARMS-Fire Alarm Activation                     
+HM              HAZMAT-Leak, Spill                               
+MAA             MUTUAL AID-Ambulance                             
+MAF             MUTUAL AID-Fire                                  
+MAR             MUTUAL AID-Rescue                                
+MAS             MUTUAL AID-Standby                               
+MF              Miscellaneous                                    
+MVA             EMS-Motor Vehicle Accident                       
+MVF             Motor Vehicle                                    
+NOT             Notification                                     
+POL             Police Emergency                                 
+R               EMS-Rescue                                       
+SA              Silent Alarm                                     
+TR              EMS-Transportation                               
+TRC             EMS-Transportation Cold                          
+TRH             EMS-Transportation Hot  
+
+Pass list of codes to smart parser as the city list, then move city field to call field. 
+Hokey, but should work.                         
+
+**********************************************************
+Woodbury County, IA
+Contact: "Luke Nixa, NREMT-B" <LCN427812@cableone.net>
+
+J:FIRE ALARM/813 N DERBY LN NORTH SIOUX PORTIONABLES/ FREEDOM DR & DEVILSFOOD DR/NSIOUX/ 72B1 72EMS9 72E4 72E5 72F7 72Q6 72R8/ PORTIONABLES.... WATER FLOW ALARM
+J:FIRE SM VEHICLE/110 SODRAC DR NORTH SIOUX RED CARPET INN/ RIVER DR &/NSIOUX/ 72B1 72EMS9 72E4 72E5 72F7 72Q6 72R8/ TRUCK SMOKING LOOKS ON FIRE- NOBODY AROUND -IN FRONT OF INN
+J:STROKE/300 CENTENNIAL DR NORTH SIOUX ALORICA/ N MERRILL AVE & GATEWAY DR/NSIOUX/ 72EMS9/ 49YO FEMALE  - HAS HAD ONE IN THE PAST - USE MIDDLE DOORS
+J:CHOKING/215 WALLACE AVE NORTH SIOUX/ N MAIN ST & ROSE ST/NSIOUX/ 72EMS9
+
+/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\
+
+EXPLINATION (I'm sure you probably already know this):
+
+Take the first page, for example:
+
+J: ----------------------------------- *actually not sure what this represents*
+FIRE ALARM --------------------------- type of incident
+813 N DERBY LN ----------------------- address
+NORTH SIOUX -------------------------- city of North Sioux City
+PORTIONABLES ------------------------- business name
+FREEDOM DR & DEVILSFOOD DR ----------- intersecting streets that incident is between
+NSIOUX ------------------------------- department being paged
+72B1 72EMS9 72E4 72E5 72F7 72Q6 72R8 - units responding (the 72 refers to the department, what follows is the actual truck identifier i.e. B1, E4, E5, etc.)
+PORTIONABLES.... WATER FLOW ALARM ---- comments from dispatch
+**********************************************************
+Putnam County, NY (Brewster)
+Contact: mike miller <eightytwo247@gmail.com>
+Sender: 911@putnamcountyny.gov
+STRUCTURE FIRE/RESIDENTIAL||34 MOUNTAIN BROOK DR  STA 11 XS MEMORIAL DR/LEONA DR|NARR WPH1-E
+(CAD) CHEST PAIN||35 OAK ST  STA 11 XS HOYT  ST/MERRITT ST|NARR PROQA SUMMARY:DELTA 10D01 CHEST PAIN PATIENT WITH CHEST PAIN. 55-YEAR-OLD  FEMALE, CONSCIOUS
+AUTOMATIC FIRE ALARM|METRO NORTH MECHANICAL SHOP|PROSPECT HILL RD  STA 11 XS  |NARR GENERAL
+TRAFFIC/TRANSPORTATION ACCIDEN||I 684  N STA 11 XS I-84  E|NARR MVA W/ INJURIES- FEMALE SUBJECT COMPLAINING OF NECK AND BACK PAIN
+TRAFFIC/TRANSPORTATION ACCIDEN||92 FOGGINTOWN RD  STA 11 XS FARM TO MARKET RD/HAWKS LN|NARR 1 CAR PIAA/UNK INJ PERSON: (COMPLAINANT) (FMLS) CHRISTINE
 **********************************************************
 **********************************************************
 **********************************************************
 * Misc formats received with problem reports
 **********************************************************
-Unknown from problem reporttr
+Unknown from problem reportts
 Contact: James Mayhew <kc4bpx@gmail.com>
 Sender: e911@ps400.hanoverva.org <From%3Ae911@ps400.hanoverva.org>
 Subject:(21777) a

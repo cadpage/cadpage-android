@@ -31,6 +31,18 @@ public abstract class SmartAddressParser extends SmsMsgParser {
    */
   public static final int FLAG_START_FLD_REQ = 0x0001;
   
+  /**
+   * Flag indicating that an @ mark will be used to mark the start of a
+   * place name following the normal address instead of an address
+   */
+  public static final int FLAG_AT_PLACE = 0x0002;
+  
+  /**
+   * Flag indicating that an @ mark can be used to mark either the start of
+   * an address or the start of a place name following an address
+   */
+  public static final int FLAG_AT_BOTH = 0x0004;
+  
   // Main dictionary maps words to a bitmap indicating what is important about that word
   private final Map<String, Integer> dictionary = new HashMap<String, Integer>();
   
@@ -187,9 +199,11 @@ public abstract class SmartAddressParser extends SmsMsgParser {
   private String[] tokens;
   private int[] tokenType;
   private int lastCity = -1;
-  private int stAddress = -1;
+  private int initAddress = -1;
   private int startAddress = -1; 
-  private int stApt = -1;
+  private int initPlace = -1;
+  private int startPlace = -1;
+  private int initApt = -1;
   private int startApt = -1;
   private int startCross = -1;
   private int startCity = -1;
@@ -264,9 +278,11 @@ public abstract class SmartAddressParser extends SmsMsgParser {
 
     this.flags = flags;
     lastCity = -1;
-    stAddress = -1;
+    initAddress = -1;
     startAddress = -1;
-    stApt = -1;
+    initPlace = -1;
+    startPlace = -1;
+    initApt = -1;
     startApt = -1;
     startCross = -1;
     startCity = -1;
@@ -297,17 +313,8 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     if (parseIntersection()) return 2;
     if (parseNakedRoad()) return 1;
     
-    // Total failure, assign the entire field to either the call description
-    // or the address
-    endAll = tokens.length;
-    if (startAddress < 0 ) {
-      if (sType == StartType.START_SKIP) {
-        stAddress = startAddress = 0;
-      } else {
-        stAddress = endAll;
-      }
-    }
-    if (sType != StartType.START_CALL && sType != StartType.START_PLACE) startAddress = 0;
+    // If all else fails, use the fallback parser
+    parseFallback(sType);
     return 0;
   }
 
@@ -347,6 +354,8 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     // as a route prefix
     int sAddr = startAddress >= 0 ? startAddress : isFlagSet(FLAG_START_FLD_REQ) ? 1 : 0;
     int sEnd;
+    boolean flexAt = isFlagSet(FLAG_AT_BOTH);
+    boolean locked = false;
     while (true) {
       while (true) {
         
@@ -356,12 +365,17 @@ public abstract class SmartAddressParser extends SmsMsgParser {
               !tokens[sAddr-1].equalsIgnoreCase("CO")) return false;
           break;
         }
-        if (startAddress >= 0) return false;
+        if (startAddress >= 0 || locked) return false;
+        if (flexAt && isType(sAddr, ID_INCL_AT_MARKER)) return false;
         sAddr++;
+        if (flexAt && isType(sAddr, ID_AT_MARKER)) locked = true;
       }
       
       // If we found a city beyond this start point, just use that as the terminator
-      if (parseToCity(sAddr)) return true;
+      if (parseToCity(sAddr)) {
+        if (locked) initAddress--;
+        return true;
+      }
       
       // Otherwise, see if we can find a road starting from the next token
       sEnd = findRoadEnd(sAddr+1);
@@ -374,7 +388,8 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     
     // We have found what we need to have found and we are going
     // to be successful
-    if (startAddress < 0) stAddress = startAddress = sAddr;
+    if (startAddress < 0) initAddress = startAddress = sAddr;
+    if (locked) initAddress--;
     endAll = sEnd;
     
     // But there might be some additional cross street info we can parse
@@ -392,14 +407,16 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     // First lets figure out where the address starts
     int sAddr;
     int ndx;
+    
+    boolean flexAt = isFlagSet(FLAG_AT_BOTH);
+    boolean atStart = false;
 
     // If address starts at beginning of field, find end of address and
     // confirm that it starts with a road followed by a connector
     if (startAddress >= 0) {
-      sAddr = startAddress;
-      ndx = findRoadEnd(startAddress);
+      ndx = startIntersection(startAddress);;
       if (ndx < 0) return false;
-      if (! isType(ndx, ID_CONNECTOR)) return false;
+      sAddr = startAddress;
     }
     
     // Otherwise, scan forward looking for a <road-sfx> <connector> combination
@@ -407,12 +424,19 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     // If the previous token is a direction, back up one more to include that.
     else {
       int start = isFlagSet(FLAG_START_FLD_REQ) ? 1 : 0;
-      ndx = start + 1;
+      ndx = start;
       boolean dirFound = false;
       while (true) {
+        if (flexAt && isType(ndx, ID_AT_MARKER)) atStart = true;
         ndx++;
-        if (ndx >= tokens.length) return false; 
-        if (isType(ndx, ID_CONNECTOR)) {
+        if (ndx >= tokens.length) return false;
+        if (atStart || flexAt && isType(ndx, ID_INCL_AT_MARKER)) {
+          sAddr = ndx;
+          ndx = startIntersection(sAddr);;
+          if (ndx < 0) return false;
+          break;
+        }
+        if (ndx-start >= 2 && isType(ndx, ID_CONNECTOR)) {
           sAddr = ndx-1;
           dirFound = isType(sAddr, ID_DIRECTION);
           if (dirFound) sAddr--;
@@ -437,7 +461,8 @@ public abstract class SmartAddressParser extends SmsMsgParser {
 
     // If there is a city terminating the address, just parse up to it
     if (parseToCity(ndx)) {
-      stAddress = startAddress = sAddr;
+      initAddress = startAddress = sAddr;
+      if (atStart) initAddress--;
       return true;
     }
     
@@ -446,7 +471,10 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     if (ndx < 0) return false;
     
     // If we found that, we have a successful intersection parse
-    if (startAddress < 0) stAddress = startAddress = sAddr;
+    if (startAddress < 0) { 
+      initAddress = startAddress = sAddr;
+      if (atStart) initAddress--;
+    }
     endAll = ndx;
     
     // But there might be some additional cross street info we can parse
@@ -455,6 +483,18 @@ public abstract class SmartAddressParser extends SmsMsgParser {
   }
   
   /**
+   * Try to parse first part intersection starting at specified index
+   * @param sAddr starting index
+   * @return index of connector if successful, otherwise -1
+   */
+  private int startIntersection(int sAddr) {
+    int ndx = findRoadEnd(sAddr);
+    if (ndx < 0) return -1;
+    if (! isType(ndx, ID_CONNECTOR)) return -1;
+    return ndx;
+  }
+
+  /**
    * Look for simple road without a house number or intersection
    *    <roadname> <roadsfx>
    * @return true if found 
@@ -462,6 +502,9 @@ public abstract class SmartAddressParser extends SmsMsgParser {
   private boolean parseNakedRoad() {
 
     int ndx;
+    
+    boolean flexAt = isFlagSet(FLAG_AT_BOTH);
+    boolean atStart = false;
 
     // If address starts at beginning of field, find end of address and
     // Don't have to look for city because we wouldn't be here if both startAddr
@@ -479,9 +522,18 @@ public abstract class SmartAddressParser extends SmsMsgParser {
       ndx = start;
       int sAddr;
       while (true) {
+        if (flexAt && isType(ndx, ID_AT_MARKER)) atStart = true;
         ndx++;
         sAddr = ndx - 1;
-        if (ndx >= tokens.length) return false; 
+        if (ndx >= tokens.length) return false;
+        if (atStart || flexAt && isType(ndx, ID_INCL_AT_MARKER)) {
+          sAddr = ndx;
+          ndx = findRoadEnd(sAddr);
+          ndx--;
+          if (ndx < 0) return false;
+          break;
+        }
+        
         if (isType(ndx, ID_ROAD_SFX)) {
           if (!isType(ndx, ID_ROUTE_PFX) || !isType(ndx+1, ID_NUMBER)) break;
         }
@@ -500,7 +552,8 @@ public abstract class SmartAddressParser extends SmsMsgParser {
       // If the following token is a direction, increment end pointer past that too
       ndx++;
       if (!dirFound && isType(ndx, ID_DIRECTION)) ndx++;
-      stAddress = startAddress = sAddr;
+      initAddress = startAddress = sAddr;
+      if (atStart) initAddress--;
     }
     
     // When we get here, 
@@ -517,6 +570,69 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     findCrossStreet();
     return true;
   }
+
+  /**
+   * Fallback parser used when nothing else works
+   * @param sType
+   */
+  private void parseFallback(StartType sType) {
+    // Total failure, assign the entire field to either the call description
+    // or the address
+    endAll = tokens.length;
+    
+    // if @ is used as a fixed start address marker (default operation)
+    // then we would have used one to set startAddress and no longer need
+    // to worry about it
+    
+    // If @ is being used as an Optional start address marker, startAddress
+    // would not be set and we have to look through the token string to
+    // see if we find a @ marker
+    if (startAddress < 0 && isFlagSet(FLAG_AT_BOTH)) {
+      for (int ndx = 0; ndx < endAll; ndx++) {
+        if (isType(ndx, ID_AT_MARKER)) {
+          initAddress = ndx;
+          startAddress = ndx+1;
+          break;
+        } else if (isType(ndx, ID_INCL_AT_MARKER)) {
+          initAddress = startAddress = ndx;
+          break;
+        }
+      }
+      
+      // If we found a flexable @ to start the address, see if we can parse
+      // to an ending city
+      if (startAddress >= 0) {
+        if (parseToCity(startAddress)) return;
+      }
+    }
+    
+    // If we still don't have an start address, assign the entire line
+    // to whatever the prefix would be assigned as.  If prefix was being
+    // skipped or there is no prefix, assign everything to the address
+    if (startAddress < 0) {
+      if (sType == StartType.START_CALL || sType == StartType.START_PLACE) {
+        initAddress = startAddress = endAll;
+      } else {
+        initAddress = startAddress = 0;
+      }
+    }
+    
+    // We aren't done yet.
+    // if @ are being used to mark a place name, see if we can find one
+    // in what we have for an address and split the rest into a place name
+    if (isFlagSet(FLAG_AT_BOTH | FLAG_AT_PLACE)) {
+      for (int ndx = startAddress+1; ndx<endAll; ndx++) {
+        if (isType(ndx, ID_AT_MARKER)) {
+          initPlace = ndx;
+          startPlace = ndx+1;
+          break;
+        } else if (isType(ndx, ID_INCL_AT_MARKER)) {
+          initPlace = startPlace = ndx;
+          break;
+        }
+      }
+    }
+  }
   
   /**
    * Called when we found the end of a road name and are guessing at where
@@ -527,7 +643,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
    */
   private int stretchRoadPrefix(int start, int sAddr) {
     
-    // Look up to 3 tokensn back to see if we find a direction token
+    // Look up to 3 tokens back to see if we find a direction token
     // Stop search if we encounther a /, lest we confuse a W/INJURY
     // as part of a road name
     for (int j = 1; j<= 3; j++) {
@@ -548,15 +664,48 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     
     if (lastCity <= stNdx) return false;
     
-    if (startAddress < 0) stAddress = startAddress = stNdx;
-    for (int ndx = stNdx; ndx < tokens.length; ndx++) {
-      if (isType(ndx, ID_APPT) && startCross < 0) {
-        stApt = ndx;
-        startApt = ndx + 1;
+    boolean flexAt = isFlagSet(FLAG_AT_PLACE | FLAG_AT_BOTH);
+    
+    int inApt = -1;
+    int stApt = -1;
+    int inPlace = -1;
+    int stPlace = -1;
+    int stCross = -1;
+    
+    for (int ndx = stNdx+1; ndx < tokens.length; ndx++) {
+      
+      // Check for place name
+      if (flexAt && stApt < 0 && stCross < 0) {
+        if (isType(ndx, ID_AT_MARKER)) {
+          inPlace = ndx;
+          stPlace = ndx+1;
+        } else if (isType(ndx, ID_INCL_AT_MARKER)) {
+          inPlace = stPlace = ndx;
+        }
       }
-      if (isType(ndx, ID_CROSS_STREET)) startCross = ndx + 1;
+      
+      // Check for apartment marker
+      if (stCross < 0) {
+        if (isType(ndx, ID_APPT)) {
+          inApt = ndx;
+          stApt = ndx + 1;
+        }
+        else if (tokens[ndx].startsWith("#")) {
+          inApt = stApt = ndx;
+        }
+      }
+      
+      
+      // Check for cross street marker
+      if (isType(ndx, ID_CROSS_STREET)) stCross = ndx + 1;
       int endCity = findEndCity(ndx);
       if (endCity >= 0) {
+        if (startAddress < 0) initAddress = startAddress = stNdx;
+        initPlace = inPlace;
+        startPlace = stPlace;
+        initApt = inApt;
+        startApt = stApt;
+        startCross = stCross;
         startCity = ndx;
         endAll = endCity;
         return true;
@@ -617,17 +766,39 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     
     if (endAll >= tokens.length) return;
     
-    // First lets look for an apartment
-    if (isType(endAll, ID_APPT)) {
-      stApt = endAll++;
-      startApt = endAll;
+    // check for optional place marker
+    if (isFlagSet(FLAG_AT_PLACE | FLAG_AT_BOTH)) {
+      if (isType(endAll, ID_AT_MARKER)) {
+        initPlace = endAll++;
+        startPlace = endAll;
+      }
+      else if (isType(endAll, ID_INCL_AT_MARKER)) {
+        initPlace = startPlace = endAll;
+      }
+      
+      // Alas, we don't have any way to guess at how long the place name
+      // might be.  Default to one word, unless we find another marker
+      // further down the road
+      if (startPlace >= 0) {
+        endAll++;
+        for (int ndx = endAll; ndx < tokens.length; ndx++) {
+          if (isType(ndx, ID_APPT | ID_CROSS_STREET) ||
+              isAptToken(ndx)) {
+            endAll = ndx;
+            break;
+          }
+        }
+      }
     }
     
-    else if (tokens[endAll].length() <= 4) {
-      char chr = tokens[endAll].charAt(0);
-      if (chr == '#' || Character.isDigit(chr)) {
-        stApt = startApt = endAll++;
-      }
+    // First lets look for an apartment
+    if (isType(endAll, ID_APPT)) {
+      initApt = endAll++;
+      startApt = endAll++;
+    }
+    
+    else if (endAll < tokens.length && tokens[endAll].startsWith("#")) {
+      initApt = startApt = endAll++;
     }
     
     // Now see if we are at a cross street indicator.  If not, nothing to find
@@ -698,8 +869,8 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     
     // If prefix ends with some variation of "REPORTED AT" drop the 
     // REPORTED (AT has already been dropped)
-    if (stAddress > 0 && isType(stAddress, ID_AT_MARKER) &&
-        tokens[stAddress-1].equalsIgnoreCase("REPORTED")) stAddress--;
+    if (initAddress > 0 && isType(initAddress, ID_AT_MARKER) &&
+        tokens[initAddress-1].equalsIgnoreCase("REPORTED")) initAddress--;
     
     int end = endAll;
     if (startCity >= 0) {
@@ -714,7 +885,12 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     
     if (startApt >= 0) {
       data.strApt = buildData(startApt, end, false);
-      end = stApt;
+      end = initApt;
+    }
+    
+    if (startPlace >= 0) {
+      data.strPlace = buildData(startPlace, end,false);
+      end = initPlace;
     }
     
     if (startAddress >= 0) {
@@ -724,10 +900,12 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     
     switch (startType) {
     case START_CALL:
-      data.strCall = buildData(0, stAddress, false).replaceAll(" / ", "/");
+      data.strCall = buildData(0, initAddress, false).replaceAll(" / ", "/");
       break;
     case START_PLACE:
-      data.strPlace = buildData(0, stAddress, false).replaceAll(" / ", "/");
+      if (data.strPlace.length() == 0) {
+        data.strPlace = buildData(0, initAddress, false).replaceAll(" / ", "/");
+      }
       break;
     }
   }
@@ -757,18 +935,19 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     // And see if we have a keyword flagging the start of the address
     tokens = address.split("\\s+");
     tokenType = new int[tokens.length];
+    boolean flexAt = isFlagSet(FLAG_AT_PLACE | FLAG_AT_BOTH);
     
-    stAddress = startAddress = (sType == StartType.START_ADDR? 0 : -1);
-    boolean setStart = (startAddress < 0);
+    initAddress = startAddress = (sType == StartType.START_ADDR? 0 : -1);
+    boolean setStart = (startAddress < 0 || flexAt);
     for (int ndx = 0; ndx < tokens.length; ndx++) {
       setType(ndx, setStart);
       if (isType(ndx, ID_CROSS_STREET)) setStart = false;
-      if (setStart) {
+      if (setStart && !flexAt) {
         if (isType(ndx, ID_AT_MARKER)) {
-          stAddress = ndx;
+          initAddress = ndx;
           startAddress = ndx + 1;
         } else if (isType(ndx, ID_INCL_AT_MARKER)) {
-          stAddress = startAddress = ndx;
+          initAddress = startAddress = ndx;
         }
       }
       if (isType(ndx, ID_CITY)) lastCity = ndx;
@@ -894,5 +1073,15 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     if (PAT_HOUSE_NUMBER.matcher(tokens[ndx]).matches()) return true;
     return false;
     
+  }
+  
+  // Determine if token at index is a standalone appartment number
+  private boolean isAptToken(int ndx) {
+    if (ndx >= tokens.length) return false;
+    String token = tokens[ndx];
+    
+    if (token.length() > 4) return false;
+    char chr = token.charAt(0);
+    return (chr == '#' || Character.isDigit(chr));
   }
 }

@@ -24,6 +24,9 @@ Sender:  www.codemessaging.net
 ***/
 
 public class MDFrederickCountyParser extends SmartAddressParser {
+  
+  private static final String DEF_STATE = "MD";
+  private static final String DEF_CITY = "FREDERICK COUNTY";
 
   private static final String[]Fredrickkeywords = new String[]{"CT", "ESZ", "MAP", "Disp",};
   
@@ -44,7 +47,7 @@ public class MDFrederickCountyParser extends SmartAddressParser {
     });
 
   public MDFrederickCountyParser(){
-    super(CITY_CODE_TABLE);
+    super(CITY_CODE_TABLE, DEF_STATE);
   }
 
   
@@ -54,8 +57,8 @@ public class MDFrederickCountyParser extends SmartAddressParser {
     
     if (!body.contains("[FredCo]") && !body.contains("(FredCo)")) return false;
     
-    data.defState = "MD";
-    data.defCity = "FREDERICK COUNTY";
+    data.defState = DEF_STATE;
+    data.defCity = DEF_CITY;
     
     // If there is a : right after city then there is Supp data between City Code and ESZ:
     
