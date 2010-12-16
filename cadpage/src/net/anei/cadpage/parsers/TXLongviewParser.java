@@ -16,32 +16,19 @@ We have no examples of cross street or intersections, so we are probably handlin
 
  */
 
-public class TXLongviewParser extends SmartAddressParser {
+public class TXLongviewParser extends DispatchProQAParser {
   
   private static final String DEF_STATE = "TX";
   private static final String DEF_CITY = "LONGVIEW";
   
-  private static final Pattern SPLIT_PATTERN = Pattern.compile(" */+ *");
   private static final Pattern TIME_PATTERN = Pattern.compile("\\d\\d:\\d\\d");
   
   public TXLongviewParser() {
-    super(DEF_STATE);
+    super(DEF_STATE, DEF_CITY);
   }
 
   @Override
-  protected boolean parseMsg(String body, Data data) {
-
-    if (! body.startsWith("RC:Run# ")) return false;
-
-    data.defCity=DEF_CITY;
-    data.defState=DEF_STATE;
-    
-    String[] flds = SPLIT_PATTERN.split(body);
-    
-    // Extract call ID from first field
-    String fld = flds[0];
-    int pt = fld.lastIndexOf(' ');
-    if (pt >= 0) data.strCallId = fld.substring(pt+1);
+  protected boolean parseFields(String[] flds, Data data) {
     
     // Fields are tightly delimited but very loosely positioned
     // Only consistent field we can identify is a time marker, so lets find it
@@ -61,9 +48,9 @@ public class TXLongviewParser extends SmartAddressParser {
     
     // Field in front of that is usually the address, but may contain an apartment number
     if (--ndx < 0) return false;
-    fld = flds[ndx];
+    String fld = flds[ndx];
     if (fld.toUpperCase().contains("APT")) {
-      pt = fld.lastIndexOf(':');
+      int pt = fld.lastIndexOf(':');
       if (pt < 0) pt = fld.lastIndexOf(' ');
       if (pt >= 0) {
         data.strApt = fld.substring(pt+1).trim();
@@ -76,7 +63,7 @@ public class TXLongviewParser extends SmartAddressParser {
     
     // Construct the call description with everything from field 2 up to the
     // address field
-    for (pt = 1; pt<ndx; pt++) {
+    for (int pt = 0; pt<ndx; pt++) {
       if (data.strCall.length() > 0) data.strCall += "/";
       data.strCall += flds[pt];
     }
