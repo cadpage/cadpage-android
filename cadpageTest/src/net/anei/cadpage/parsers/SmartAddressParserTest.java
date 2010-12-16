@@ -15,6 +15,8 @@ public class SmartAddressParserTest extends BaseParserTest {
   private static final StartType PLACE = StartType.START_PLACE;
   private static final StartType SKIP = StartType.START_SKIP;
   
+  private static final int FLAG_AT_BOTH = SmartAddressParser.FLAG_AT_BOTH;
+  
   private static final String[] CITY_LIST = new String[]{"KENSBURG", "KEN TOWN"};
   private static final String DEF_STATE = "XX";
 
@@ -28,6 +30,12 @@ public class SmartAddressParserTest extends BaseParserTest {
   @Test
   public void testProblems() {
     
+    doTest(CALL, FLAG_AT_BOTH,
+        "VEHICLE FIRE HARDEES @800 WOODS RD KENSBURG",
+        "CALL:VEHICLE FIRE HARDEES",
+        "ADDR:800 WOODS RD",
+        "CITY:KENSBURG");
+   
     doTest(CALL,
         "***SIG 8***  AUTO PIERCE DAY CAMP 37 MINEOLA AVE [ROSLYN] c/s: REGENT PL/GLEN AVE ADTNL: MANSION/NO PERMIT GRID: K-14 TOA: 08:32 12/07/2010",
         "CALL:***SIG 8*** AUTO PIERCE DAY CAMP",
@@ -229,6 +237,57 @@ public class SmartAddressParserTest extends BaseParserTest {
         "ADDR:31 SCROGGS RD",
         "X:LOUISA CHAPEL @ 1020",
         "CITY:KENSBURG");
+  }
+  
+  @Test
+  public void testFlexAtAddress() {
+    doTest(CALL, FLAG_AT_BOTH, "BIG HOME @ KENS LAST HOUSE @ BIG RED KEN TOWN",
+        "CALL:BIG HOME",
+        "ADDR:KENS LAST HOUSE",
+        "PLACE:BIG RED",
+        "CITY:KEN TOWN");
+    doTest(CALL, FLAG_AT_BOTH, "BIG HOME @KENS LAST HOUSE @BIG RED KEN TOWN",
+        "CALL:BIG HOME",
+        "ADDR:KENS LAST HOUSE",
+        "PLACE:BIG RED",
+        "CITY:KEN TOWN");
+    doTest(CALL, FLAG_AT_BOTH, "BIG HOME @1000 N THIRD AVE",
+        "CALL:BIG HOME",
+        "ADDR:1000 N THIRD AVE");
+    doTest(CALL, FLAG_AT_BOTH, "BIG HOME @JACKSON RD & HAVEL DR AWAY",
+        "CALL:BIG HOME",
+        "ADDR:JACKSON RD & HAVEL DR");
+    doTest(CALL, FLAG_AT_BOTH, "BIG HOME @N JEFFERSON ST AWAY",
+        "CALL:BIG HOME",
+        "ADDR:N JEFFERSON ST");
+    doTest(CALL, FLAG_AT_BOTH, "PROBLEM 250 N 28TH ST @COLUMBIA PICTURES APT 5 AWAY",
+        "CALL:PROBLEM",
+        "ADDR:250 N 28TH ST",
+        "PLACE:COLUMBIA PICTURES",
+        "APT:5");
+    doTest(CALL, FLAG_AT_BOTH, "PROBLEM 250 N 28TH ST @ COLUMBIA PICTURES APT 5 AWAY",
+        "CALL:PROBLEM",
+        "ADDR:250 N 28TH ST",
+        "PLACE:COLUMBIA PICTURES",
+        "APT:5");
+    doTest(CALL, FLAG_AT_BOTH, "MY PROBLEM ANDERSON RD/PETER ST @BIG TOP XS: JOHN RD AND JILL ST AWAY",
+        "CALL:MY PROBLEM",
+        "ADDR:ANDERSON RD & PETER ST",
+        "PLACE:BIG TOP",
+        "X:JOHN RD AND JILL ST");
+    doTest(CALL, FLAG_AT_BOTH, "MY PROBLEM ANDERSON RD/PETER ST @ BIG TOP XS: JOHN RD AND JILL ST AWAY",
+        "CALL:MY PROBLEM",
+        "ADDR:ANDERSON RD & PETER ST",
+        "PLACE:BIG TOP",
+        "X:JOHN RD AND JILL ST");
+    doTest(CALL, FLAG_AT_BOTH, "YOUR PROBLEM N GREEN HILL RD @CLEMINTINE JOHNSON",
+        "CALL:YOUR PROBLEM",
+        "ADDR:N GREEN HILL RD",
+        "PLACE:CLEMINTINE");
+    doTest(CALL, FLAG_AT_BOTH, "YOUR PROBLEM N GREEN HILL RD @ CLEMINTINE JOHNSON",
+        "CALL:YOUR PROBLEM",
+        "ADDR:N GREEN HILL RD",
+        "PLACE:CLEMINTINE");
   }
   
   public void testAptNumbers() {
