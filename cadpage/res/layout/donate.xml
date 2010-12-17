@@ -27,6 +27,7 @@
       android:layout_height="wrap_content"
       android:id="@+id/DonatePaypalButton"
       android:layout_gravity="center_horizontal"
-      android:text="@string/pref_donate_paypal_button" android:visibility="gone"></Button>
+      android:text="@string/pref_donate_paypal_button" 
+      android:visibility="gone"></Button>
   </LinearLayout>
 </ScrollView>

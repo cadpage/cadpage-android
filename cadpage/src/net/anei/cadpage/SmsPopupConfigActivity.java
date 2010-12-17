@@ -1,5 +1,11 @@
 package net.anei.cadpage;
 
+import com.paypal.android.MEP.CheckoutButton;
+import com.paypal.android.MEP.PayPal;
+import com.paypal.android.MEP.PayPalActivity;
+import com.paypal.android.MEP.PayPalPayment;
+import com.paypal.android.MEP.PayPalReceiverDetails;
+
 import net.anei.cadpage.parsers.SmsMsgParser;
 import net.anei.cadpage.preferences.AppEnabledCheckBoxPreference;
 import net.anei.cadpage.preferences.DialogPreference;
@@ -7,6 +13,7 @@ import net.anei.cadpage.preferences.EditTextPreference;
 import net.anei.cadpage.preferences.LocationCheckBoxPreference;
 import net.anei.cadpage.preferences.LocationListPreference;
 import net.anei.cadpage.preferences.LocationManager;
+import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.Intent;
@@ -205,13 +212,32 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
         LayoutInflater factory = getLayoutInflater();
         final View donateView = factory.inflate(R.layout.donate, null);
 
-       
-        Button donatePaypalButton = (Button) donateView.findViewById(R.id.DonatePaypalButton);
-        donatePaypalButton.setOnClickListener(new OnClickListener() {
+        PayPal ppObj = PayPal.initWithAppID(this, "APP-80W284485P519543T", PayPal.ENV_NONE);
+        CheckoutButton launchPayPalButton = ppObj.getCheckoutButton(this, PayPal.BUTTON_278x43, CheckoutButton.TEXT_DONATE);
+        
+        //launchPayPalButton = (Button) donateView.findViewById(R.id.DonatePaypalButton);
+        launchPayPalButton.setOnClickListener(new OnClickListener() {
           public void onClick(View v) {
-            Intent i = new Intent(Intent.ACTION_VIEW);
-            i.setData(SmsPopupUtils.DONATE_PAYPAL_URI);
-            SmsPopupConfigActivity.this.startActivity(i);
+           // Intent i = new Intent(Intent.ACTION_VIEW);
+           // i.setData(SmsPopupUtils.DONATE_PAYPAL_URI);
+           // SmsPopupConfigActivity.this.startActivity(i);
+            
+            PayPalPayment newPayment = new PayPalPayment();
+            newPayment.setCurrencyType("USD");
+            newPayment.setRecipient("support@cadpage.org");
+            Intent checkoutIntent = PayPal.getInstance().checkout(newPayment, getBaseContext());
+            checkoutIntent.putExtra(PayPalActivity.EXTRA_PAYMENT_INFO, newPayment);
+            startActivityForResult(checkoutIntent, 1);
+          }
+
+          public void onActivityResults(int requestCode, int resultCode, Intent data) {
+            switch(resultCode) {
+            case Activity.RESULT_OK:
+            break;
+            case Activity.RESULT_CANCELED:
+            break;
+            case PayPalActivity.RESULT_FAILURE:
+            }
           }
         });
 
