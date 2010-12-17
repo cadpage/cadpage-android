@@ -59,5 +59,13 @@ public class NYOneidaCountyParserTest extends BaseParserTest {
         "ADDR:9132 MAIN ST",
         "CITY:WESTERN",
         "X:GIFFORD HILL RD/GEORGE STNear:WOODS VALLEY");
+    
+    doTest("T7",
+        "o;?WHIF:2010:0704>Dispatched>EMS/ABDOMINAL PAIN>20 MOHAWK ST, WHITESBORO VILLAGE (SAUQUOIT ST/FERNBANK CIR; Near:AMERICAN LEGION POST 1113)",
+        "ID:2010:0704",
+        "CALL:EMS/ABDOMINAL PAIN",
+        "ADDR:20 MOHAWK ST",
+        "CITY:WHITESBORO VILLAGE",
+        "X:SAUQUOIT ST/FERNBANK CIR; Near:AMERICAN LEGION POST 1113");
   }
 }
