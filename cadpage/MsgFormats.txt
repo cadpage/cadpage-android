@@ -719,7 +719,7 @@ EMS1 RFE3  P: 1 LOC: 227 LONE OAK CIR X: INDIA HOOK RD / INDIA HOOK RD * VILLAGE
 EMS9  P: 1 LOC: 101 SEDGEWOOD DR X: EBENEZER RD / WINTHROP DR * * Rock Hill * * Trauma Emergency * MED OPS 2/SUICIDE ATTEMPT * SAUNDRA WHITE NAR:  RHPD ADVISED  18 YOM/TIED SHIRT AROUND HIS NECK/STUCK HEAD IN TOILET/COMBATIVE/HAS BEEN GIVEN MEDS TO HELP HIM CALM DOWN/BANGING HEAD ON WALL/ENTER AT FRONT OF FACILITY BEHIND FOUNDERS  INC#: 2010-00023234
 **********************************************************
 Jefferson County, NY
-Contact: "jayscad@yahoo.com" <jayscad@yahoo.com>
+Contact: "jayscad@yahoo.com" <jayscad@yahoo.com>,jay greening <jagx91@gmail.com>
 Sender: tirescue@googlegroups.com
 BREATHING PROBL|18077 REED POINT RD:ORLEANS(T)|77 YO MALE DIFF BREATHING
 ABDOMINAL PAIN|18081 REED POINT RD:ORLEANS(T)|79F  :ProQA Medical Case Entry Finished You are responding to a patient with abdominal pain.  The patient is a  79-year-old female, who is conscious and breathing.  Abdominal Pain / Problems.  Caller Statement: ABDOMINAL PAIN.
@@ -865,7 +865,8 @@ CAD:3632 VALLEY PIKE;FALL - POSS DANGEROUS;COMMONWEALTH CT;FAY ST
 
 **********************************************************
 Woodbury County, IA
-Contact: "Luke Nixa, NREMT-B" <LCN427812@cableone.net>
+Contact: "Luke Nixa, NREMT-B" <LCN427812@cableone.net> (email bouncing
+System: Sunguard CAD
 
 J:FIRE ALARM/813 N DERBY LN NORTH SIOUX PORTIONABLES/ FREEDOM DR & DEVILSFOOD DR/NSIOUX/ 72B1 72EMS9 72E4 72E5 72F7 72Q6 72R8/ PORTIONABLES.... WATER FLOW ALARM
 J:FIRE SM VEHICLE/110 SODRAC DR NORTH SIOUX RED CARPET INN/ RIVER DR &/NSIOUX/ 72B1 72EMS9 72E4 72E5 72F7 72Q6 72R8/ TRUCK SMOKING LOOKS ON FIRE- NOBODY AROUND -IN FRONT OF INN
@@ -923,6 +924,7 @@ Sender:911dispatch@embarqmail.com
 
 There is code to unscramble these in MILivingstonCountyParser.  Move it to base
 parser class.
+Units will be 4 digits, or xFDn or Mnn.  Break at first one found
  
  1 of 2
 FRM:911dispatch@embarqmail.com 
@@ -969,7 +971,16 @@ SUBJ:DO NOT REPLY
 MSG:VEHICLE FIRE  28795 HIGHWAY 17  PULASKI COUNTY CrossStreets: Sassafras Ln 0.12 mi S
 (Con't) 2 of 2
 Highway AB 0.27 mi NE HFD1 Call Received Time: 12/3/2010 02:07:51 Dispatch: 12/3/2010 02:08:38(End)
-Connected by MOTOBLUR™
+**********************************************************
+Pueblo RFD, CO
+Contact: Steven Passig <giz5312@gmail.com>
+Sender: surepage@wdsl.us
+System: Spillman mobile
+(Page ) 12:43PM 11/28 RURAL FIRE in the area of 1543 Cooper Pl report of heavy smoke no flames showing...kr
+(Page ) 04:26PM 12/13 rural fire:  hwy 50 & 27th ln; north side, 10 ft fire...tdb
+(Page ) 04:52PM 11/27 ATTN RURAL FIRE: 28141 south rd....male poss overdose...jaa
+(Page ) 09:18AM 12/11 rural fire  33550 hwy 96 E Lot 379 35 yof convulsions
+(Page ) 11:45PM 11/15 ATTN RURAL FIRE: 1917 n santa fe ave...at the car wash....39yof...seizure...jaa
 **********************************************************
 **********************************************************
 **********************************************************
