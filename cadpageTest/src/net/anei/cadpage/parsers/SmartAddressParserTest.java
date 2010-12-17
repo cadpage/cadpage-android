@@ -16,6 +16,7 @@ public class SmartAddressParserTest extends BaseParserTest {
   private static final StartType SKIP = StartType.START_SKIP;
   
   private static final int FLAG_AT_BOTH = SmartAddressParser.FLAG_AT_BOTH;
+  private static final int FLAG_ANCHOR_END = SmartAddressParser.FLAG_ANCHOR_END;
   
   private static final String[] CITY_LIST = new String[]{"KENSBURG", "KEN TOWN"};
   private static final String DEF_STATE = "XX";
@@ -290,6 +291,15 @@ public class SmartAddressParserTest extends BaseParserTest {
         "PLACE:CLEMINTINE");
   }
   
+  @Test
+  public void testEndAnchor() {
+    doTest(PLACE, FLAG_ANCHOR_END, "BLACK STREET 500 W TOWNSEND BLOCK APT 50",
+    		"PLACE:BLACK STREET",
+    		"ADDR:500 W TOWNSEND BLOCK",
+    		"APT:50");
+  }
+  
+  @Test
   public void testAptNumbers() {
     doTest(ADDR, "1500 BLACK ST APT: 10J XX XS: JOHN & MARY KENSBURG HOME",
         "ADDR:1500 BLACK ST",
