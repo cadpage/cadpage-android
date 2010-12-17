@@ -43,6 +43,11 @@ public abstract class SmartAddressParser extends SmsMsgParser {
    */
   public static final int FLAG_AT_BOTH = 0x0004;
   
+  /**
+   * Flag indicating that address should extend to end of parsed data field
+   */
+  public static final int FLAG_ANCHOR_END = 0x0008;
+  
   // Main dictionary maps words to a bitmap indicating what is important about that word
   private final Map<String, Integer> dictionary = new HashMap<String, Integer>();
   
@@ -136,7 +141,8 @@ public abstract class SmartAddressParser extends SmsMsgParser {
         "TER", "TERR",
         "HWY",
         "MALL",
-        "GTWY");
+        "GTWY",
+        "PLAZ", "PLAZA");
     setupDictionary(ID_ROUTE_PFX, "RT", "ST", "SRT", "US", "FS", "INTERSTATE", "I", "HW", "HWY", "STHWY", "CO", "CR");
     setupDictionary(ID_DIRECTION, "N", "NE", "E", "SE", "S", "SW", "W", "NW");
     setupDictionary(ID_CONNECTOR, "AND", "/", "&");
@@ -662,7 +668,11 @@ public abstract class SmartAddressParser extends SmsMsgParser {
    */
   private boolean parseToCity(int stNdx) {
     
-    if (lastCity <= stNdx) return false;
+    // If FLAG_ANCHOR_END is set, we are going to parse this to the
+    // end of the line without looking for a city
+    boolean parseToEnd = isFlagSet(FLAG_ANCHOR_END);
+    
+    if (!parseToEnd && lastCity <= stNdx) return false;
     
     boolean flexAt = isFlagSet(FLAG_AT_PLACE | FLAG_AT_BOTH);
     
@@ -698,18 +708,34 @@ public abstract class SmartAddressParser extends SmsMsgParser {
       
       // Check for cross street marker
       if (isType(ndx, ID_CROSS_STREET)) stCross = ndx + 1;
-      int endCity = findEndCity(ndx);
-      if (endCity >= 0) {
-        if (startAddress < 0) initAddress = startAddress = stNdx;
-        initPlace = inPlace;
-        startPlace = stPlace;
-        initApt = inApt;
-        startApt = stApt;
-        startCross = stCross;
-        startCity = ndx;
-        endAll = endCity;
-        return true;
+      
+      // Is there a city here?
+      if (! parseToEnd) {
+        int endCity = findEndCity(ndx);
+        if (endCity >= 0) {
+          if (startAddress < 0) initAddress = startAddress = stNdx;
+          initPlace = inPlace;
+          startPlace = stPlace;
+          initApt = inApt;
+          startApt = stApt;
+          startCross = stCross;
+          startCity = ndx;
+          endAll = endCity;
+          return true;
+        }
       }
+    }
+    
+    // If we are parsing to end of field, return successful status
+    if (parseToEnd) {
+      if (startAddress < 0) initAddress = startAddress = stNdx;
+      initPlace = inPlace;
+      startPlace = stPlace;
+      initApt = inApt;
+      startApt = stApt;
+      startCross = stCross;
+      endAll = tokens.length;
+      return true;
     }
     return false;
   }
@@ -797,7 +823,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
       startApt = endAll++;
     }
     
-    else if (endAll < tokens.length && tokens[endAll].startsWith("#")) {
+    else if (isAptToken(endAll)) {
       initApt = startApt = endAll++;
     }
     

@@ -389,16 +389,24 @@ DEAD BODY/DEATH R3-R3-STA500-14537 SW STALLION DR-Map 131223-10:23:46
 Falls Unk status Ground-B-STA500-13345 SW CINDER DR-Map 131215-00:30:04
 Traffic Accidents HIGH MECH - Rollover-D2-STA500-SW BADGER RD/SW CHINOOK DR--13:11:56
 ***************************************************************************
+Nassau County, NY (NYNassauCountyParser)
+***SIG 9***  AMBU  27 PINE DR N [ROSLYN] c/s: PINE (S) DR/VERITY LA ADTNL: DIFF BREATHING GRID: K-14 TOA: 21:16 11/30/2010
+***CHIEF***  AUTO BAR FRITES 400 WHEATLEY PLAZ [GREENVALE] c/s: GLEN COVE ROAD/NORTHERN BLVD ADTNL: ZONE 20 GRID: M-13 TOA: 18:28 11/30/2010
+***SIG 9***  AMBU BURGER KING 110 NORTHERN BLVD [GREENVALE] c/s: TOWN PATH/GLEN COVE ROAD ADTNL: FEMALE FEELING FAINT GRID: M-13 TOA: 16:19 11/30/2010
+***MVA***  SERVICE ROAD N [OLD WESTBURY] c/s: RED GROUND ROAD/ ADTNL:  GRID: N-15 TOA: 15:45 11/30/2010
+***SIG 8***  AUTO HARBOR HILLS PHARMACY 310 GLEN COVE ROAD [EAST HILLS] c/s: KENNEDY ROAD/RED GROUND ROAD ADTNL: WATERFLOW/565375563 GRID: N-14 TOA: 13:25
+***SIG 8***  PROP  15 POPLAR DR [EAST HILLS] c/s: CHESTNUT DR/APPLETREE LA ADTNL: BBQ NEXT TO DECK GRID: L-14 TOA: 18:10 11/29/2010
+***SIG 8***  AUTO  27 WAGON ROAD [EAST HILLS] c/s: SALEM ROAD/WINTHROP ROAD ADTNL: 56A2582/ GOLDFETTER RES GRID: M-14 TOA: 21:24 12/04/2010
+***SIG 9***  AMBU SUN HARBOR MANOR HEALTH FACILITY 255 WARNER AVE [ROSLYN] c/s: .CARLYLE PL/.ST MARKS PL ADTNL: 3RD FL-3 NORTH-CHEST PAINS GRID: L-15 TOA:
+***CHIEF***  AUTO  1506 OLD NORTHERN BLVD [ROSLYN] c/s: BRYANT AVE/NORTHERN BLVD ADTNL: FRATELLI MARKET PL-5612934-SMK DET GRID: L-13 TOA: 16:59 12/04/201
+***GENERAL***  BUIL GREAT SHAPES 190 MINEOLA AVE [ROSLYN HEIGHTS] c/s: HIGH ST/POWERHOUSE ROAD ADTNL: ODOR OF BURNING IN BLD-GREAT SHAPES GRID: K-15 TOA:
+***SIG 8***  AUTO PIERCE DAY CAMP 37 MINEOLA AVE [ROSLYN] c/s: REGENT PL/GLEN AVE ADTNL: MANSION/NO PERMIT GRID: K-14 TOA: 08:32 12/07/2010
+***CHIEF***  INVES  52 THE HEMLOCKS [ROSLYN ESTATES] c/s: SOUTH BRANCH/THE PINES ADTNL: SOMETHING BEEPING IN HOUSE GRID: J-15 TOA: 08:07 12/07/2010
 ***************************************************************************
 ***************************************************************************
 ***************************************************************************
 Districts that are not yet supported.  Class indicates implementation difficulty
 class I - Easy ones with clear and obvious field delimiters
-class II - We could probably parse address if we had list of town/city codes terminating the address
-           These could be done immediately, but since we are going to have to do a smart address
-           parser in the near future, I am choosing to make the city lookup part of that smart parser
-           so it will handle the corner case where a unknown city is specified.
-class III - No obvious address delimiter, waiting for development of smart address parser
 ***************************************************************************
 ************** Request holding for one thing or another *******************
 ***************************************************************************
@@ -477,26 +485,6 @@ DO NOT CALL DISPATCH!!!! (Reported on 8/12/2010 @ 9:24:21 AM)
 A firefighter rode in with EMS from station 9_ need someone to standby. Please contact dispatch if you can cover (Reported on 11/26/2010 @ 6:32:18 PM) 
  
 TRAINING DEC 16TH @ HQ QUARTERLY DINNER ALL VOL PLEASE ATTEND (Reported on 12/13/2010 @ 9:09:45 AM) 
-
-**********************************************************
-Nassau County, NY
-Contact: "rhfd48@optonline.net" <rhfd48@optonline.net>
-Contact: 5163697556@vtext.com
-Contact: Jeff Laureano  516-369-7556
-Possible that message sometimes split over two messages and we will need logic to aggregate messages
-Not absolutely confirmed yet
-***SIG 9***  AMBU  27 PINE DR N [ROSLYN] c/s: PINE (S) DR/VERITY LA ADTNL: DIFF BREATHING GRID: K-14 TOA: 21:16 11/30/2010
-***CHIEF***  AUTO BAR FRITES 400 WHEATLEY PLAZ [GREENVALE] c/s: GLEN COVE ROAD/NORTHERN BLVD ADTNL: ZONE 20 GRID: M-13 TOA: 18:28 11/30/2010
-***SIG 9***  AMBU BURGER KING 110 NORTHERN BLVD [GREENVALE] c/s: TOWN PATH/GLEN COVE ROAD ADTNL: FEMALE FEELING FAINT GRID: M-13 TOA: 16:19 11/30/2010
-***MVA***  SERVICE ROAD N [OLD WESTBURY] c/s: RED GROUND ROAD/ ADTNL:  GRID: N-15 TOA: 15:45 11/30/2010
-***SIG 8***  AUTO HARBOR HILLS PHARMACY 310 GLEN COVE ROAD [EAST HILLS] c/s: KENNEDY ROAD/RED GROUND ROAD ADTNL: WATERFLOW/565375563 GRID: N-14 TOA: 13:25
-***SIG 8***  PROP  15 POPLAR DR [EAST HILLS] c/s: CHESTNUT DR/APPLETREE LA ADTNL: BBQ NEXT TO DECK GRID: L-14 TOA: 18:10 11/29/2010
-***SIG 8***  AUTO  27 WAGON ROAD [EAST HILLS] c/s: SALEM ROAD/WINTHROP ROAD ADTNL: 56A2582/ GOLDFETTER RES GRID: M-14 TOA: 21:24 12/04/2010
-***SIG 9***  AMBU SUN HARBOR MANOR HEALTH FACILITY 255 WARNER AVE [ROSLYN] c/s: .CARLYLE PL/.ST MARKS PL ADTNL: 3RD FL-3 NORTH-CHEST PAINS GRID: L-15 TOA:
-***CHIEF***  AUTO  1506 OLD NORTHERN BLVD [ROSLYN] c/s: BRYANT AVE/NORTHERN BLVD ADTNL: FRATELLI MARKET PL-5612934-SMK DET GRID: L-13 TOA: 16:59 12/04/201
-***GENERAL***  BUIL GREAT SHAPES 190 MINEOLA AVE [ROSLYN HEIGHTS] c/s: HIGH ST/POWERHOUSE ROAD ADTNL: ODOR OF BURNING IN BLD-GREAT SHAPES GRID: K-15 TOA:
-***SIG 8***  AUTO PIERCE DAY CAMP 37 MINEOLA AVE [ROSLYN] c/s: REGENT PL/GLEN AVE ADTNL: MANSION/NO PERMIT GRID: K-14 TOA: 08:32 12/07/2010
-***CHIEF***  INVES  52 THE HEMLOCKS [ROSLYN ESTATES] c/s: SOUTH BRANCH/THE PINES ADTNL: SOMETHING BEEPING IN HOUSE GRID: J-15 TOA: 08:07 12/07/2010
 **********************************************************
 Adams County, CO
 Contact: "Matt Kehoe" <mjkehoe@gmail.com>
