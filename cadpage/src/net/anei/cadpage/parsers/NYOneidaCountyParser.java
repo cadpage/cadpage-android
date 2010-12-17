@@ -15,6 +15,7 @@ o;?WHIF:2010:0677\nDispatched\nEMS/PSYCHIATRIC/SUICIDE ATTEMPT\n19 ELLMORE DR, W
 i>¿WEVF:2010:0170\nDispatched\nEMS/STROKE/CVA\n9132 MAIN ST, WESTERN (GIFFORD HILL RD/GEORGE STNear:WOODS VALLEY
 i>¿WEVF:2010:0171\nDispatchedWIRES DOWN/BURNHILLSIDE RD, WESTERN
 i>¿WEVF:2010:0169\nDispatched\nFIRE STRUCTURE7893 GIFFORD HILL RD, WESTERN (CAMRODEN RD/ROUTE 46)
+o;?WHIF:2010:0704>Dispatched>EMS/ABDOMINAL PAIN>20 MOHAWK ST, WHITESBORO VILLAGE (SAUQUOIT ST/FERNBANK CIR; Near:AMERICAN LEGION POST 1113)
 */
 
 public class NYOneidaCountyParser extends SmsMsgParser {
@@ -25,6 +26,7 @@ public class NYOneidaCountyParser extends SmsMsgParser {
     data.defState="NY";
     data.defCity="ONEIDA COUNTY";
     
+    body = body.replaceAll(">", "\n");
     int pt = body.indexOf("\nDispatched\n");
     if (pt < 0) return false;
     
