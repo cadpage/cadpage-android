@@ -131,7 +131,9 @@ public class SmsMsgInfo {
    * @return return mapping address
    */
   public String getMapAddress() {
-    StringBuilder sb = new StringBuilder(cleanHouseNumbers(strAddress));
+    String sAddr = cleanBounds(strAddress);
+    sAddr = cleanHouseNumbers(sAddr);
+    StringBuilder sb = new StringBuilder(sAddr);
     
     // If there wasn't an address number or intersection marker in address
     // try appending cross street info as as intersection
@@ -159,6 +161,12 @@ public class SmsMsgInfo {
     return sb.toString();
 	}
   
+  // Clean up and NB, SB, EB, or WB words
+  private String cleanBounds(String sAddr) {
+    return sAddr.replaceAll(" NB ", " ").replaceAll(" SB ", " ")
+        .replaceAll(" EB ", " ").replaceAll(" WB ", " ");
+  }
+
   // Google map isn't found of house numbers mixed with intersections
   // If we find an intersection marker, remove any house numbers
   private static final Pattern HOUSE_NUMBER = Pattern.compile("^ *\\d+ +");
