@@ -156,7 +156,7 @@ public class SmsReceiver extends BroadcastReceiver {
     try {
       is = new ObjectInputStream(
         context.openFileInput(MSG_FILENAME));
-      msg = SmsMmsMessage.readObject(is);
+      msg = (SmsMmsMessage)is.readObject();
     } catch (FileNotFoundException ex) {
     } catch (Exception ex) {
       Log.e(ex);

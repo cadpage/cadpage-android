@@ -1,8 +1,6 @@
 package net.anei.cadpage;
 
 import java.io.IOException;
-import java.io.ObjectInputStream;
-import java.io.OptionalDataException;
 import java.io.Serializable;
 
 import net.anei.cadpage.parsers.SmsMsgParser;
@@ -33,7 +31,7 @@ public class SmsMmsMessage implements Serializable {
   public static final int MESSAGE_COMPARE_TIME_BUFFER = 5000; // 5 seconds
 
   // Main message object private vars
-  private String address = null;
+  private String fromAddress = null;
   private String messageBody = null;
   private long timestamp = 0;
   private int messageType = 0;
@@ -98,7 +96,7 @@ public class SmsMmsMessage implements Serializable {
     /*
      * Fetch data from raw SMS
      */
-    address = sms.getDisplayOriginatingAddress();
+    fromAddress = sms.getDisplayOriginatingAddress();
     fromEmailGateway = sms.isEmail();
     messageClass = sms.getMessageClass();
 
@@ -125,13 +123,22 @@ public class SmsMmsMessage implements Serializable {
   public SmsMmsMessage(String _fromAddress, String _messageBody,
       long _timestamp, int _messageType) {
 
-    address = _fromAddress;
+    fromAddress = _fromAddress;
     messageBody = _messageBody;
     timestamp = _timestamp;
     messageType = _messageType;
     location = "GeneralAlert";
     
     // Calculate the from address and body to be used for parsing purposes
+    getParseInfo();
+  }
+  
+  /**
+   * Read serialized SmsMmsMessage object from Object input stream
+   */
+  private void readObject(java.io.ObjectInputStream stream)
+  throws IOException, ClassNotFoundException {
+    stream.defaultReadObject();
     getParseInfo();
   }
   
@@ -168,7 +175,7 @@ public class SmsMmsMessage implements Serializable {
         case 1:
           // Next line must from a FRM: line
           if (! line.startsWith("FRM:")) break;
-          parseAddress = line.substring(4);
+          parseAddress = line.substring(4).trim();
           break;
           
         case 2:
@@ -202,7 +209,7 @@ public class SmsMmsMessage implements Serializable {
       }
     }
 
-    parseAddress = address;
+    parseAddress = fromAddress;
     parseMessageBody = messageBody;
   }
   
@@ -447,7 +454,7 @@ public class SmsMmsMessage implements Serializable {
     sb.append(DateFormat.getTimeFormat(context).format(timestamp));
 
     sb.append("\nFrom:");
-    sb.append(address);
+    sb.append(fromAddress);
 
     sb.append("\nEff From:");
     sb.append(parseAddress);
@@ -470,16 +477,6 @@ public class SmsMmsMessage implements Serializable {
     sb.append("\nLocation:");
     sb.append(location);
     sb.append('\n');
-  }
-   
-  /**
-   * Read serialized SmsMmsMessage object from Object input stream
-   */
-  public static SmsMmsMessage readObject(ObjectInputStream is) 
-  throws OptionalDataException, ClassNotFoundException, IOException {
-    SmsMmsMessage message = (SmsMmsMessage)is.readObject();
-    return message;
-
   }
 
   /**

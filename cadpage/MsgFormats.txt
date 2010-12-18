@@ -403,10 +403,15 @@ Nassau County, NY (NYNassauCountyParser)
 ***SIG 8***  AUTO PIERCE DAY CAMP 37 MINEOLA AVE [ROSLYN] c/s: REGENT PL/GLEN AVE ADTNL: MANSION/NO PERMIT GRID: K-14 TOA: 08:32 12/07/2010
 ***CHIEF***  INVES  52 THE HEMLOCKS [ROSLYN ESTATES] c/s: SOUTH BRANCH/THE PINES ADTNL: SOMETHING BEEPING IN HOUSE GRID: J-15 TOA: 08:07 12/07/2010
 ***************************************************************************
+Martinez, GA (Martinez Columbia Fire Rescue
+Working structure fire!  Assistance is needed if available.\nAddress: 611 KETTLE CREEK DR\nDO NOT CALL DISPATCH!!!! (Reported on 11/21/2010 @ 12:39:39 AM)
+Working structure fire!  Assistance is needed if available.\n330 HACKAMORE TRL\nDO NOT CALL DISPATCH!!!! (Reported on 10/22/2010 @ 9:50:55 PM)
+Working structure fire!  Assistance is needed if available.\nAddress:298 Ashbrook dr\nDO NOT CALL DISPATCH!!!! (Reported on 09/14/2010 @ 2:20:07 PM)
 ***************************************************************************
 ***************************************************************************
-Districts that are not yet supported.  Class indicates implementation difficulty
-class I - Easy ones with clear and obvious field delimiters
+***************************************************************************
+***************************************************************************
+Districts that are not yet supported.
 ***************************************************************************
 ************** Request holding for one thing or another *******************
 ***************************************************************************
@@ -448,43 +453,6 @@ More info requested 12/14
 **********************************************************
 **********************************************************
 **********************************************************
-Martinez, GA (Martinez Columbia Fire Rescue
-Contact: "Brent Willis" <bwillis@mvfd.net>
-Sender: no-reply@mvfd.net
- 
-Working structure fire!  Assistance is needed if available.
-Address: 611 KETTLE CREEK DR
-DO NOT CALL DISPATCH!!!! (Reported on 11/21/2010 @ 12:39:39 AM)
-
-Working structure fire!  Assistance is needed if available.
-330 HACKAMORE TRL
-DO NOT CALL DISPATCH!!!! (Reported on 10/22/2010 @ 9:50:55 PM)
-
-A firefighter rode in with EMS from station _3  need someone to standby. Please contact dispatch if you can cover (Reported on 11/25/2010 @ 5:03:21 PM)
-
-Working structure fire!  Assistance is needed if available.
-Address:298 Ashbrook dr
-DO NOT CALL DISPATCH!!!! (Reported on 09/14/2010 @ 2:20:07 PM)
-
-Working structure fire! Assistance is needed if available.
-330 HACKAMORE TRL
-DO NOT CALL DISPATCH!!!! (Reported on 10/22/2010 @ 9:50:55 PM)
-
-Working structure fire! Assistance is needed if available.
-Address:298 Ashbrook dr
-DO NOT CALL DISPATCH!!!! (Reported on 09/14/2010 @ 2:20:07 PM)
-
-Working structure fire! Assistance is needed if available.
-Address:ACROSS FROM 3736 CATUS TRAIL
-DO NOT CALL DISPATCH!!!! (Reported on 09/08/2010 @ 3:53:59 PM)
-
-Working structure fire! Assistance is needed if available.
-Address:711 HIDDEN PL OFF HWY 28
-DO NOT CALL DISPATCH!!!! (Reported on 8/12/2010 @ 9:24:21 AM)
-
-A firefighter rode in with EMS from station 9_ need someone to standby. Please contact dispatch if you can cover (Reported on 11/26/2010 @ 6:32:18 PM) 
- 
-TRAINING DEC 16TH @ HQ QUARTERLY DINNER ALL VOL PLEASE ATTEND (Reported on 12/13/2010 @ 9:09:45 AM) 
 **********************************************************
 Adams County, CO
 Contact: "Matt Kehoe" <mjkehoe@gmail.com>
@@ -680,7 +648,7 @@ I will list all the townships in the county and the towns in those townships
    - Liberty Township
       - Baltimore
 **********************************************************
-Lackawanna County 
+Lackawanna County, PA
 Contact: greg rhodes <grhodes908@gmail.com>
 Sender: Aegispage@lackawannacounty.org
 (Dispatch) Unit:14-9 Status:Dispatched Location:524 DEACON ST, 14 Call Type:BLS Call Time:12/7/2010 6:22:58 AM Call Number:245 Quadrant:F14 District:
@@ -692,6 +660,8 @@ Sender: Aegispage@lackawannacounty.org
 (Dispatch) Unit:14-9 Status:Dispatched Location:298 1ST AVE DEAD END / DRINKER TPKE, 14 Common Name:DIAPERS COM Call Type:BLS Call Time:12/12/2010 5:
 (Dispatch) Unit:CH53 Status:Dispatched Location:RT 690 / BOWENS RD, 53 Call Type:ACCI Call Time:12/17/2010 11:04:51 PM Call Number:413 Quadrant:F53 D
    in Spring Brook TWP
+[Dispatch]  Unit:ch14 Status:Dispatched Location:662 DRINKER TPKE AM HUGHES BLVD / ROSS DR, 14 Call Type:ACCI Call Time:12/18/2010 6:05:58 AM Call Num
+   Covington TWP, PA
 **********************************************************
 Mystery request
 Contact: Steve Litchford <stevelitchford@gmail.com>
