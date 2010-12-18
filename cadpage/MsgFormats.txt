@@ -403,10 +403,20 @@ Nassau County, NY (NYNassauCountyParser)
 ***SIG 8***  AUTO PIERCE DAY CAMP 37 MINEOLA AVE [ROSLYN] c/s: REGENT PL/GLEN AVE ADTNL: MANSION/NO PERMIT GRID: K-14 TOA: 08:32 12/07/2010
 ***CHIEF***  INVES  52 THE HEMLOCKS [ROSLYN ESTATES] c/s: SOUTH BRANCH/THE PINES ADTNL: SOMETHING BEEPING IN HOUSE GRID: J-15 TOA: 08:07 12/07/2010
 ***************************************************************************
-Martinez, GA (Martinez Columbia Fire Rescue
+Martinez, GA (GAMartinezParser)
 Working structure fire!  Assistance is needed if available.\nAddress: 611 KETTLE CREEK DR\nDO NOT CALL DISPATCH!!!! (Reported on 11/21/2010 @ 12:39:39 AM)
 Working structure fire!  Assistance is needed if available.\n330 HACKAMORE TRL\nDO NOT CALL DISPATCH!!!! (Reported on 10/22/2010 @ 9:50:55 PM)
 Working structure fire!  Assistance is needed if available.\nAddress:298 Ashbrook dr\nDO NOT CALL DISPATCH!!!! (Reported on 09/14/2010 @ 2:20:07 PM)
+***************************************************************************
+Adams County, CO (COAdamsCountyParser)
+Subject:IPS I/Page Notification E 64TH AVE/MONACO ST ADAM CCPD 09:51:48 TYPE CODE: ACCI CALLER NAME: TIME: 09:51:48 Comments: -104.90947
+Subject:IPS I/Page Notification 6950 NIAGARA ST ADAM CCPD 11:04:10 TYPE CODE: EMS CALLER NAME: FELIX - 13YO TIME: 11:04:10 Comments: 15YO
+Subject:IPS I/Page Notification 10220 BRIGHTON RD ADAM CCPD:DIVERSIFIES TRUCK AND RV 17:22:11 TYPE CODE: NONSTR CALLER NAME: BOB TIME: 17:
+***************************************************************************
+Davis County, UT
+paging@co.davis.ut.us<http://us.mc330.mail.yahoo.com/mc/compose?to=paging@co.davis.ut.us>/\nDCSO / Fire Alarm Comm\n2645 N MAIN ST; 12D ACTION ZONE GYMNASTI\nKEY PAD / RP PENDING
+Child Birth\n2539 N 475 W; #B\n17:02:14 11/29/2010 - dmaples\nProQA Medical Recommended Dispatch Level = 24D5\n28 year old, Female, Conscious, B
+Pregnancy Prob\n2248 N 75 W\n22:20:36 11/28/2010 - carchbol\nProQA Medical Recommended Dispatch Level = 24D4\n19 year old, Female, Conscious, Br
 ***************************************************************************
 ***************************************************************************
 ***************************************************************************
@@ -451,60 +461,6 @@ More info requested 12/14
 **********************************************************
 **********************************************************
 **********************************************************
-**********************************************************
-Davis County, UT
-Contact: Justin Arbogast <arby115@gmail.com>
-Sender: paging@co.davis.ut.us
-System: Spillman
-
-paging@co.davis.ut.us<http://us.mc330.mail.yahoo.com/mc/compose?to=paging@co.davis.ut.us>/
-DCSO / Fire Alarm Comm
-2645 N MAIN ST; 12D ACTION ZONE GYMNASTI
-KEY PAD / RP PENDING
-
-Child Birth
-2539 N 475 W; #B
-17:02:14 11/29/2010 - dmaples
-ProQA Medical Recommended Dispatch Level = 24D5
-28 year old, Female, Conscious, B
-
-Pregnancy Prob
-2248 N 75 W
-22:20:36 11/28/2010 - carchbol
-ProQA Medical Recommended Dispatch Level = 24D4
-19 year old, Female, Conscious, Br
-
-Fainting
-177 W 1850 N
-20:55:02 11/26/2010 - vjones
-ProQA Medical Recommended Dispatch Level = 31D2
-75 year old, Male, Unconscious, Breathing
-
-Fainting
-1086 N 450 W
-20:23:18 11/26/2010 - ebutcher
-ProQA Medical Recommended Dispatch Level = 31D4
-52 year old, Female, Conscious, Breathi
-
-paging@co.davis.ut.us<http://us.mc330.mail.yahoo.com/mc/compose?to=paging@co.davis.ut.us>/
-DCSO / Acc PI Alpha
-2300 N MAIN ST
-NEG INJURIES, DODGE DURANGO, 2006 TOYT,
-16:14:58 11/24/2010 - D Bird
-IN THE TURNING LANE
-
-paging@co.davis.ut.us<http://us.mc330.mail.yahoo.com/mc/compose?to=paging@co.davis.ut.us>/
-DCSO / Domestic
-31 W 1600 N; 8
-man & woman it has been physical, no weapons, alcohol involved, they are
-both
-outside
-
-paging@co.davis.ut.us<http://us.mc330.mail.yahoo.com/mc/compose?to=paging@co.davis.ut.us>/
-DCSO / Medical Standby
-78 W 800 N
-.SUICIDAL TRYING TO GET A KNIFE
-
 **********************************************************
 Bucks County, PA
 Contact: "Ryan Pankoe" <rpankoe@gmail.com>

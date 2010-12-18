@@ -175,6 +175,7 @@
     <item>PA Pennsylvania</item>
     <item>SC South Carolina</item>
     <item>TX Texas</item>
+    <item>UT Utah</item>
     <item>VA Virginia</item>
   </string-array>
 
@@ -236,6 +237,7 @@
     <item>SCCharlestonCounty</item>
     <item>TXCyCreekCommCenter</item>
     <item>TXLongview</item>
+    <item>UTDavisCounty</item>
     <item>VAAccomackCounty</item>
     <item>VAFranklinCounty</item>
     <item>VAHenryCounty</item>
@@ -303,6 +305,7 @@
     <item>Charleston County, SC</item>
     <item>Cy Creek Comm Center, TX</item>
     <item>Longview, TX</item>
+    <item>Davis County, UT</item>
     <item>Accomack County, VA</item>
     <item>Franklin County, VA</item>
     <item>Henry County, VA</item>
