@@ -124,5 +124,15 @@ public class NYNassauCountyParserTest extends BaseParserTest {
         "X:SOUTH BRANCH/THE PINES",
         "INFO:SOMETHING BEEPING IN HOUSE",
         "MAP:J-15");
+    
+    doTest("T6",
+        "***MUTUAID***  MAF SUNY 223 STORE HILL ROAD N [OLD WESTBURY] c/s: B GATE ROAD/ ADTNL: FAS TRUCK--WANG HALL TOA: 06:17 12/18/2010",
+        "CALL:MUTUAID - MAF",
+        "PLACE:SUNY",
+        "ADDR:223 STORE HILL ROAD N",
+        "CITY:OLD WESTBURY",
+        "X:B GATE ROAD/",
+        "INFO:FAS TRUCK--WANG HALL");
+   
   }
 }
