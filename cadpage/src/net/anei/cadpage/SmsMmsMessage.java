@@ -9,7 +9,6 @@ import net.anei.cadpage.parsers.SmsMsgParser;
 
 import android.app.Activity;
 import android.content.Context;
-import android.telephony.PhoneNumberUtils;
 import android.telephony.SmsMessage;
 import android.telephony.SmsMessage.MessageClass;
 import android.text.format.DateFormat;
@@ -34,9 +33,8 @@ public class SmsMmsMessage implements Serializable {
   public static final int MESSAGE_COMPARE_TIME_BUFFER = 5000; // 5 seconds
 
   // Main message object private vars
-  private String fromAddress = null;
+  private String address = null;
   private String messageBody = null;
-  private String messageFull = null;
   private long timestamp = 0;
   private int messageType = 0;
   private boolean fromEmailGateway = false;
@@ -46,6 +44,9 @@ public class SmsMmsMessage implements Serializable {
   private transient SmsMsgInfo info = null;
   private int msgId = 0;
   private String location = null;
+  
+  private transient String parseAddress = null;
+  private transient String parseMessageBody = null;
 
   
   public boolean isRead() {
@@ -97,51 +98,25 @@ public class SmsMmsMessage implements Serializable {
     /*
      * Fetch data from raw SMS
      */
-    fromAddress = sms.getDisplayOriginatingAddress();
+    address = sms.getDisplayOriginatingAddress();
     fromEmailGateway = sms.isEmail();
     messageClass = sms.getMessageClass();
 
     String body;
     if (messages.length == 1 || sms.isReplace()) {
       body = sms.getDisplayMessageBody();
-      messageFull = sms.getMessageBody();
     } else {
       StringBuilder bodyText = new StringBuilder();
       for (int i = 0; i < messages.length; i++) {
         bodyText.append(messages[i].getMessageBody());
       }
       body = bodyText.toString();
-      messageFull = body;
     }
     messageBody = body;
-  }
+    
+    // Calculate the from address and body to be used for parsing purposes
+    getParseInfo();
 
-
-/**
-   * Construct SmsMmsMessage for getMmsDetails() - fetched from the MMS database table
-   * @return
-   */
-  public SmsMmsMessage(Context context,
-      long _timestamp, String _messageBody, int _messageType) {
-
-    timestamp = _timestamp;
-    messageBody = _messageBody;
-    messageFull = _messageBody;
-    messageType = _messageType;
-
-    fromAddress = SmsPopupUtils.getMmsAddress(context, 0);
-
-    //ContactIdentification contactIdentify = null;
-
-    if (PhoneNumberUtils.isWellFormedSmsAddress(fromAddress)) {
-   //   contactIdentify = SmsPopupUtils.getPersonIdFromPhoneNumber(context, fromAddress);
-    //  contactName = PhoneNumberUtils.formatNumber(fromAddress);
-    //  fromEmailGateway = false;
-    } else {
-    //  contactIdentify = SmsPopupUtils.getPersonIdFromEmail(context, fromAddress);
-    //  contactName = fromAddress.trim();
-    //  fromEmailGateway = true;
-    }
   }
 
   /**
@@ -150,12 +125,85 @@ public class SmsMmsMessage implements Serializable {
   public SmsMmsMessage(String _fromAddress, String _messageBody,
       long _timestamp, int _messageType) {
 
-    fromAddress = _fromAddress;
+    address = _fromAddress;
     messageBody = _messageBody;
-    messageFull = _messageBody;
     timestamp = _timestamp;
     messageType = _messageType;
     location = "GeneralAlert";
+    
+    // Calculate the from address and body to be used for parsing purposes
+    getParseInfo();
+  }
+  
+  /**
+   * Perform any front end unscrambling required to recover the original text
+   * message sent by dispatch for parsing purposes.
+   */
+  private void getParseInfo() {
+    
+    // Set message body to empty string if we don't have one
+    if (messageBody == null) messageBody = "";
+    
+    /* Decode patterns that look like this.....
+    1 of 3
+    FRM:CAD@livingstoncounty.livco
+    SUBJ:DO NOT REPLY
+    MSG:CAD:FYI: ;CITAF;5579 E GRAND RIVER;WILDWOOD DR;Event spawned from CITIZEN ASSIST LAW. [12/10/10
+    (Con't) 2 of 3
+    20:08:59 SPHILLIPS] CALLER LIVES NEXT DOOR TO THE ADDRESS OF THE WATER MAINBREAK [12/10/10 20:04:40 HROSSNER] CALLER ADV OF A WATER MAIN
+    (Con 3 of 3
+    BREAK(End)
+    */
+    if (messageBody.contains("\nFRM:")) {
+      boolean good = false;
+      int ndx = 0;
+      StringBuilder sb = new StringBuilder();
+      for (String line : messageBody.split("\n")) {
+        switch (ndx++) {
+        
+        case 0:
+          // Skip first line in all cases
+          break;
+          
+        case 1:
+          // Next line must from a FRM: line
+          if (! line.startsWith("FRM:")) break;
+          parseAddress = line.substring(4);
+          break;
+          
+        case 2:
+          // Looking for a MSG: line
+          // If we find a SUBJ: line, skip to next one
+          if (line.startsWith("SUBJ:")) {
+            ndx--;
+            break;
+          }
+          if (line.startsWith("MSG:")) {
+            sb.append(line.substring(4));
+            good = true;
+            break;
+          }
+          
+        case 3:
+          // After that, skip every other line
+          break;
+          
+        case 4:
+          sb.append(line);
+          ndx -= 2;
+          break;
+        }
+      }
+      if (good) {
+        int len = sb.length()-5;
+        if (sb.substring(len).equals("(End)")) sb.setLength(len);
+        parseMessageBody = sb.toString();
+        return;
+      }
+    }
+
+    parseAddress = address;
+    parseMessageBody = messageBody;
   }
   
 
@@ -178,24 +226,15 @@ public class SmsMmsMessage implements Serializable {
   }
 
   public String getMessageBody() {
-    if (messageBody == null) {
-      messageBody = "";
-    }
-    return messageBody;
+    return parseMessageBody;
   }
-
-  public String getMessageFull() {
-	    if (messageFull == null) {
-	      messageFull = "";
-	    }
-	    return messageFull;
-	  }
+  
   public int getMessageType() {
     return messageType;
   }
 
   public String getAddress() {
-    return fromAddress;
+    return parseAddress;
   }
 
   public boolean isEmail() {
@@ -408,7 +447,10 @@ public class SmsMmsMessage implements Serializable {
     sb.append(DateFormat.getTimeFormat(context).format(timestamp));
 
     sb.append("\nFrom:");
-    sb.append(fromAddress);
+    sb.append(address);
+
+    sb.append("\nEff From:");
+    sb.append(parseAddress);
     
     sb.append("\nType:");
     sb.append(messageType);
@@ -422,8 +464,8 @@ public class SmsMmsMessage implements Serializable {
     sb.append("\nBody:");
     sb.append(messageBody);
     
-    sb.append("\nFull Text:");
-    sb.append(messageFull);
+    sb.append("\nEff Body:");
+    sb.append(parseMessageBody);
     
     sb.append("\nLocation:");
     sb.append(location);
