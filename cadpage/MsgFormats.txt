@@ -5,7 +5,7 @@ message formats, but it is a good summary to look through for something similar
 to a new district format
 *******************************************************************************
 * DispatchAParser subclasses
-**********************************************************
+*******************************************************************************
 Smyrna,GA (GASmyrnaParser)
 CAD:FYI: ;STRUCTURE FIRE;2501 WOODLANDS DR SE;FLAMES INSIDE FUSE BOX INSIDE CALLERS APARTMENT. SMELLS WIRES BURNING. [08/08/10 22:53:28 DTHACKER];103157
 CAD:Update: ;VEHICLE FIRE;S COBB DR SE/BOURNE DR SE;METRO PCS;OWNER OF VEH CALLED --- ADV ON 280 AT WH [10/11/10 17:46:52 ABERRY] blk dodge charger on fire [10/
@@ -64,7 +64,7 @@ Medstar SW IL (ILMedstarParser)
 [- part 1 of 1]  RC:Run# 34577/20 KINDER ST//cah/SCC PG 11/EAST SAINT LOUIS///31f c/b chest and back px cardiac hx  ProQA comments: chest px/10D04
 [- part 1 of 1]  RC:Run# 34384/1308 CORLISS//westinghouse and n greenmount//SHILO///38m c/b rapid heart rate/<PROQA_DET>
 [- part 1 of 1]  RC:Run# 34620/13 LOISEL DR///SCC PG 14/EAST SAINT LOUIS///70 M C/B CONFUSED ProQA comments: UNK/31D03
-**********************************************************
+*******************************************************************************
 Longview, TX (TXLongViewParser)
 Run# 30209/ *Non Life Emergency P/2/ Sick Person (Specific Diagnosis)/ 1102 FRANCIS/ EASTON/ 18:21/ <Unknown>/ bp issues-- dizzy spells-- P
 RC:Run# 30209/*Non Life Emergency P/1/Sick Person (Specific Diagnosis)/1102 FRANCIS///EASTON/18:21/////<Unknown>/bp issues-- dizzy spells--
@@ -73,22 +73,22 @@ RC:Run# 29907/PR Event/Public Service/CRYSTAL FARMS RD///TATUM/19:15/////PR EVEN
 (CAD - part 1 of 1) RC:Run# 29764/*Non Life Emergency P/1/Overdose / Poisoning (Ingestion)/1100 S ADAMS ST//Panola Apts: 32/CARTHAGE/17:23/////<Unknown>/////
 *******************************************************************************
 * Unknown
-**********************************************************
+*******************************************************************************
 Setauket, NY (NYSetauketParser)
 AMBULANCE, SICK PERSON (SPECIFIC DIAGNOSIS): 56 YOF SICK 26-A-5 IFO BUILDING at 5000 ROUTE 347, East Setauket  c/s: ARROWHEAD LN SOUTH   O: KOHLS . . 14:54:20
 MISC CALL, CHIEFS INVESTIGATION: GENERAL FIRE ALARM 52C04 Residential (multiple) at 700H HEALTH SCIENCES DR, STONY BROOK  c/s: NICOLLS RD   O: CHAPIN APTS - S : 26-A-16 at 20 FAWN LN W, SOUTH SETAUKET  c/s: LONGBOW LN . . 00:20:06
 AMBULANCE, HEMORRHAGE / LACERATIONS: 21-A-1 - 61 YOM - CUT TO HAND at 8 HOLLY LN, EAST SETAUKET  c/s: CRANE NECK RD . . 16:57:21
-***************************************************************************
+*******************************************************************************
 Rocky Point, NY (NYRockyPointParser)
 Falls, Not dangerous body area at 6 CROWN RD, ROCKY POINT  c/s: FISH RD . . 08:00:02
 Automatic Alarm, Residential at 38 CHERYL DR, SHOREHAM  c/s: COBBLESTONE DR . . 08:23:03
 Breathing Problems, Abnormal breathing at 151 BROADWAY, ROCKY POINT  c/s: CLUBHOUSE DR . . 12:42:23<br>
-***************************************************************************
+*******************************************************************************
 Holbrook,NY (NYHolbrookParser)
 MOTOR VEHICLE ACCIDENT . . MVA 29D4 at intersection of GREENBELT PKWY and PATCHOGUE-HOLBROOK RD. . 10:48:57
 WIRES . . POWER CONDENSER FIRE at intersection of PATCHOGUE-HOLBROOK RD and FURROWS RD. . 07:14:36
 WORKING STRUCTURE FIRE at 223 SPRINGMEADOW DR. . 16:22:21
-**********************************************************
+*******************************************************************************
 Farmingdale, NY
 Contact: Frank Romano <fromano129@gmail.com>
 Sender: paging@alpinesoftware.com.
@@ -418,6 +418,10 @@ paging@co.davis.ut.us<http://us.mc330.mail.yahoo.com/mc/compose?to=paging@co.dav
 Child Birth\n2539 N 475 W; #B\n17:02:14 11/29/2010 - dmaples\nProQA Medical Recommended Dispatch Level = 24D5\n28 year old, Female, Conscious, B
 Pregnancy Prob\n2248 N 75 W\n22:20:36 11/28/2010 - carchbol\nProQA Medical Recommended Dispatch Level = 24D4\n19 year old, Female, Conscious, Br
 ***************************************************************************
+Bucks County, PA
+911:SQ134  type:BTAI    adr:S LIMEKILN PK/UPPER STATE RD ,48  aai:  box:74064  map:3033F7  tm:21:05:23  ED1042264
+911:SQ134  type:ARESP   adr:4217 HORSESHOE WY ,36  btwn BERRY BROW DR &amp; SPARROW WY  aai:  box:60002  map:2921B10  tm:05:02:04  ED1042293  
+911:SQ134  type:ARESP   adr:221 HAMPSHIRE DR ,48  btwn CORNWALL DR &amp; SURREY RD  aai:  box:74062  map:3033E6  tm:14:06:02  ED1042334  
 ***************************************************************************
 ***************************************************************************
 ***************************************************************************
@@ -461,85 +465,6 @@ More info requested 12/14
 **********************************************************
 **********************************************************
 **********************************************************
-**********************************************************
-Bucks County, PA
-Contact: "Ryan Pankoe" <rpankoe@gmail.com>
-Sender: 8276,a@bnn.us
-911:SQ134  type:BTAI    adr:S LIMEKILN PK/UPPER STATE RD ,48  aai:  box:74064  map:3033F7  tm:21:05:23  ED1042264
-911:SQ134  type:ARESP   adr:4217 HORSESHOE WY ,36  btwn BERRY BROW DR &amp; SPARROW WY  aai:  box:60002  map:2921B10  tm:05:02:04  ED1042293  
-911:SQ134  type:ARESP   adr:221 HAMPSHIRE DR ,48  btwn CORNWALL DR &amp; SURREY RD  aai:  box:74062  map:3033E6  tm:14:06:02  ED1042334  
-911:SQ134  type:AFAINT  adr:1553 LOWER STATE RD ,29  btwn BRISTOL RD &amp; OLD NEW RD  aai:  box:78054  map:3034E7  tm:20:28:45  ED1042385  
-911:SQ134  type:BTAI    adr:1235 S TOWNSHIP LINE RD ,36  btwn CHALFONT RD &amp; LIMEKILN PK  aai:  box:61003  map:2921D10  tm:12:02:56  ED1042577  
-911:SQ134  type:BBLED   adr:102 HARRISON FORGE CT ,48  btwn E FAIRWOOD DR &amp; CUL DE SAC  aai:  box:34030  map:3033H1  tm:14:38:26  ED1042595  
-0001/0002 911:SQ134  type:ATRAN   adr:2343 BETHLEHEM PK #312 ,36 -- DOCK MEADOWS NH btwn UNIONVILLE PK &amp; CHURCH RD  aai:GO TO CHURCH RD NORTH ENTRANCE  
-0002/0002 box:60063 map:3032E3 &nbsp;tm:14:48:06 ED1042598&nbsp;
-911:SQ134  type:BINJ    adr:BARC HOUSE ,47 at 80 PUEBLO RD ,47 btwn LENAPE DR &amp; UTE RD  aai:DOWNSTAIRS  box:34033  map:3033J2  tm:16:57:04  ED1043086  
-911:STA19  type:FALRM   adr:DTH ,29 at 595 W STATE ST ,29 btwn PROGRESS DR &amp; RT 611 BY  aai:215 345-2200  box:19051  map:3034G2  tm:12:37:42  FD101999
-911:SQ134  type:ASEIZ   adr:BRISTOL RD/UPPER STATE RD ,29  aai:AT ENTR TO BLOOMING GLEN  box:34041  map:3033K5  tm:11:01:28  ED1043679  
-
-21 - Bedminster Twp.
-22 - Bensalem Twp.
-23 - Bridgeton Twp.
-24 - Bristol Boro.
-25 - Bristol Twp.
-26 - Buckingham Twp.
-27 - Chalfont Boro.
-28 - Doylestown Boro.
-29 - Doylestown Twp.
-31 - Dublin Boro.
-32 - Durham Twp.
-33 - East Rockhill
-34 - Falls Twp.
-35 - Haycock Twp.
-36 - Hilltown Twp.
-37 - Hulmeville Boro.
-38 - Ivyland Boro.
-39 - Langhorne Boro.
-41 - Langhorne Manor Boro.
-42 - Lower Makefield Twp.
-43 - Lower Southampton Twp.
-44 - Middletown Twp.
-45 - Milford Twp.
-46 - Morrisville Boro.
-47 - New Britain Boro.
-48 - New Britain Twp.
-49 - New Hope Boro.
-51 - Newtown Boro.
-52 - Newtown Twp.
-53 - Nockamixon Twp.
-54 - Northampton Twp.
-55 - Penndel Boro.
-56 - Perkasie Boro.
-57 - Plumstead Twp.
-58 - Quakertown Twp.
-59 - Richland Twp.
-61 - Richlandtown Boro.
-62 - Riegelsville Boro.
-63 - Sellersville Boro.
-64 - Silverdale Boro.
-65 - Solebury Twp.
-66 - Springfield Twp.
-67 - Telford Boro.
-68 - Tinicum Twp.
-69 - Trumbauersville Boro.
-71 - Tullytown Boro.
-72 - Upper Makefield Twp.
-73 - U. Southampton Twp.
-74 - Warminster Twp.
-75 - Warrington Twp.
-76 - Warwick Twp.
-77 - Pennridge Regional PD
-78 - Wrightstown Twp.
-79 - Yardley Boro.
-81 - Radio Repair Shop
-83 - State Park Rangers (Neshaminy)
-84 - Pa. State Constables
-85 - Sheriff
-86 - Couthouse Security
-88 - Neshaminy Manor Sec.
-89 - Domestic Affairs
-91 - A State Fish and Game
-98 - State Park Rangers (Tyler)
 **********************************************************
 Unknown, NJ
 Contact: "jces9063@aol.com" <jces9063@aol.com>
@@ -895,6 +820,17 @@ System: Spillman mobile
 (Page ) 04:52PM 11/27 ATTN RURAL FIRE: 28141 south rd....male poss overdose...jaa
 (Page ) 09:18AM 12/11 rural fire  33550 hwy 96 E Lot 379 35 yof convulsions
 (Page ) 11:45PM 11/15 ATTN RURAL FIRE: 1917 n santa fe ave...at the car wash....39yof...seizure...jaa
+**********************************************************
+Davidson County, NC
+Contact: Rsk <rskbok09@yahoo.com>
+Sender: cad@davidsoncountync.gov
+CAD:50PD-MOTOR VEH/PD ONLY;3248 FRIENDSHIP LEDFORD RD;2010024643;SADDLECHASE LN;MOTSINGER RD;OIL AND FLUIDS ON ROADWAY [12/17/10 11:05:24 BHUGHES] UDTS: 
+CAD:P29-TRAFFIC ACCIDENT-BRAVO;I 85 S/MM 99;2010024707;[Medical Priority Info] PROBLEM: traffic accident # PATS: 1 AGE: Unknown Range SEX: Unknown CONSCIOU
+CAD:HOUSE/SINGLE DWELLING;3637 BECKS CHURCH RD;2010024363;HUCKLE PL;NC HWY 47;[Fire Priority Info] PROBLEM: KITCHEN FIRE [12/14/10 18:25:04 BPOOLE] [Fire P
+CAD:P26-SICK-DELTA;4970 REID RD;2010024356;EASTVIEW DR;[Medical Priority Info] PROBLEM: SICK # PATS: 1 AGE: 78 Years SEX: Female CONSCIOUS: Yes BREATHING:
+CAD:Co Fire Tac3 for call;I 85 S/MM 99; THA;7703351053
+CAD:cancel further response;I 85 S/MM 99; THA;7703351053
+**********************************************************
 **********************************************************
 **********************************************************
 **********************************************************
