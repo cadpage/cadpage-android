@@ -164,7 +164,10 @@ public class LocationManager {
   private void refresh() {
     
     // First rebuild the persistent preference setting
-    if (locationList.isEmpty()) locationList.add("General");
+    if (locationList.isEmpty()) {
+      locationList.add("General");
+      nameList.add("Generic Location");
+    }
     String newLocation;
     if (locationList.size() == 1) {
       newLocation = locationList.get(0);
