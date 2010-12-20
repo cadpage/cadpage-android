@@ -50,5 +50,14 @@ public class ILMedstarParserTest extends BaseParserTest {
         "CITY:EAST SAINT LOUIS",
         "CALL:70 M C / B CONFUSED");
     
+    doTest("T6",
+        "(- part 1 of 1) RC:Run# 35456/STATE HWY 157 & STATE HWY 15//Centerville/SCC PG 13/EAST SAINT LOUIS///pedestian struck/<PROQA_DET>",
+        "ID:35456",
+        "ADDR:STATE HWY 157 & STATE HWY 15",
+        "X:Centerville",
+        "MAP:13",
+        "CITY:EAST SAINT LOUIS",
+        "CALL:pedestian struck");
+    
   }
 }
