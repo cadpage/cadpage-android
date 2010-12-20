@@ -49,44 +49,71 @@ public class MDPrinceGeorgesCountyParser extends SmsMsgParser {
     data.defState = "MD";
     data.defCity = "PRINCE GEORGES COUNTY";  
     
-    // First line contains a station ID & map page followed by a colon and call description
-    Parser p = new Parser(lines[0]);
-    String station = p.get(':');
-    data.strCall = p.get();
-    
-    // If the station contains a dash, there is a map page
-    p = new Parser(station);
-    data.strMap = p.getLastOptional('-');
-    station = p.get();
-    
-    // First two characters *MIGHT* be a county code
-    if (station.length() >= 2) {
-      String code = station.substring(0,2);
-      String county = COUNTY_CODES.getProperty(code);
-      if (county != null) {
-        data.defCity = county;
-        if (code.equals("DC")) data.defState = "DC";
-        station = station.substring(2);
+    int ndx = 1;
+    for (String line : lines) {
+      line = line.trim();
+      
+      switch (ndx) {
+        
+        // First line contains a station ID & map page followed by a colon and call description
+      case 1:
+        Parser p = new Parser(line);
+        String station = p.get(':');
+        data.strCall = p.get();
+        
+        // If the station contains a dash, there is a map page
+        p = new Parser(station);
+        data.strMap = p.getLastOptional('-');
+        station = p.get();
+        
+        // First two characters *MIGHT* be a county code
+        if (station.length() >= 2) {
+          String code = station.substring(0,2);
+          String county = COUNTY_CODES.getProperty(code);
+          if (county != null) {
+            data.defCity = county;
+            if (code.equals("DC")) data.defState = "DC";
+            station = station.substring(2);
+          }
+        }
+        
+        // Anything left is the response station
+        data.strSource = station;
+        ndx++;
+        break;
+        
+        // Second line is units
+      case 2:
+        p = new Parser(line);
+        data.strUnit = p.get(',');
+        ndx++;
+        break;
+        
+        // Third line is address, possibly with cross streets in parens
+      case 3:
+        if (line.startsWith("PG ")) line = line.substring(3).trim();
+        p = new Parser(line);
+        String sAddress = p.get('(');
+        parseAddress(sAddress, data);
+        data.strCross = p.get(')');
+        ndx++;
+        break;
+        
+        // Fourth line may have notes
+      case 4:
+        if (line.startsWith("Notes:")) {
+          data.strSupp = line.substring(6).trim();
+          break;
+        }
+        
+        // But should eventually have the firebiz URL
+        if (line.startsWith("http://")) {
+          if (data.strSupp.length() > 0) data.strSupp += '\n';
+          data.strSupp += line;
+          ndx++;
+          break;
+        }
       }
-    }
-    
-    // Anything left is the response station
-    data.strSource = station;
-    
-    // Second line is units
-    p = new Parser(lines[1]);
-    data.strUnit = p.get(',');
-    
-    // Third line is address, possibly with cross streets in parens
-    if (lines[2].startsWith("PG ")) lines[2] = lines[2].substring(3);
-    p = new Parser(lines[2]);
-    String sAddress = p.get('(');
-    parseAddress(sAddress, data);
-    data.strCross = p.get(')');
-    
-    // Fourth line may have notes
-    if (lines[3].startsWith("Notes:")) {
-      data.strSupp = lines[3].substring(6).trim();
     }
     
     return true;
