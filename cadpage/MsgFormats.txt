@@ -831,6 +831,14 @@ CAD:P26-SICK-DELTA;4970 REID RD;2010024356;EASTVIEW DR;[Medical Priority Info] P
 CAD:Co Fire Tac3 for call;I 85 S/MM 99; THA;7703351053
 CAD:cancel further response;I 85 S/MM 99; THA;7703351053
 **********************************************************
+Amrstrong County, PA
+Contact: larry umbaugh <lumbaugh17@gmail.com>
+Sender: 911dispatch@co.armstrong.pa.us
+473 TROY HILL RD AIRPORT RD / MCGREGOR RD FMISC 39992 05:40 7245453398
+11878 STATE ROUTE 85 ARMSDALE RD / CRYTZER RD ORPHANS OF THE STORMVAENT 40313 19:09 7247120225
+141 ADAMS RD STATE ROUTE 85 / BALLOCK LN FMISC 40720 09:07 7247837418
+[Dispatch]  580 N CHERRY ST HOOKS LN / SPRUCE LN FSTR2 41628 13:58 7246640045
+[Dispatch]  868 STATE ROUTE 28/66 MECHLING RD / SLOAN HILL RD VAENT 42068 15:55 7248597657
 **********************************************************
 **********************************************************
 **********************************************************
