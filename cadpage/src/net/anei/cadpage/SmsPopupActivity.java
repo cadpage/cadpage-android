@@ -26,6 +26,7 @@ import android.content.pm.ActivityInfo;
 import android.content.res.Configuration;
 import android.speech.RecognizerIntent;
 import android.text.TextUtils;
+import android.text.util.Linkify;
 import android.view.ContextMenu;
 import android.view.Display;
 import android.view.Menu;
@@ -123,6 +124,7 @@ public class SmsPopupActivity extends Activity {
     // Find the main textviews
     fromTV = (TextView) findViewById(R.id.FromTextView);
     messageTV = (TextView) findViewById(R.id.MessageTextView);
+    messageTV.setAutoLinkMask(Linkify.WEB_URLS);
     messageReceivedTV = (TextView) findViewById(R.id.HeaderTextView);
     messageScrollView = (ScrollView) findViewById(R.id.MessageScrollView);
 

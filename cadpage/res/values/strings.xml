@@ -322,10 +322,10 @@
     
     <string name="pref_loc_desc_title">Current Location</string>
     
-    <string name="pref_location_title">Set Single Location</string>
+    <string name="pref_location_title">Select Single Location</string>
     <string name="pref_location_summary">Select a single location</string>
     
-    <string name="pref_multi_location_title">Set Multiple Locations</string>
+    <string name="pref_multi_location_title">Select Multiple Locations</string>
     <string name="pref_multi_location_summary">Select multiple locations</string>
     
     <string name="pref_override_filter_title">Override location filter</string>
