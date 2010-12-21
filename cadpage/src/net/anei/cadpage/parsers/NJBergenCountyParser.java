@@ -1,0 +1,64 @@
+package net.anei.cadpage.parsers;
+
+import net.anei.cadpage.SmsMsgInfo.Data;
+
+/*
+Bergen County, NJ
+Contact: "jces9063@aol.com" <jces9063@aol.com>
+Sender: miccom@nnjmicu.org
+
+(CAD)  RESPOND: #10-0092 ENGLEWOOD CLIFFS BOR*580 Sylvan Ave * *SUITE B *DEMAREST AVE/UNNAMED STREET *Unknown Problem (Man Down)-BLS08:23 Code:31B01
+(CAD) S332 RESPOND: #10-0090603 ENGLEWOOD CITY *143 Engle St * * *E DEMAREST AVE/CHESTNUT ST *Falls-BLS 10:46 Code:17b01 
+(CAD) S332 CANCEL: #10-0090603 ENGLEWOOD CITY *143 Engle St Paged:10:46 Enrte:10:48 Scene:10:54 Avail:11:33 Cxl Rsn: Refused Medical Aid Code:17b01
+(CAD) S2 RESPOND: #10-0092818 FORT LEE BORO *0 - 0 Bridge Plz N *WALGREENS * *LEMOINE AVE/LEMOINE AVE *Traumatic Injuries-BLS 16:01 Code:30bt1
+ */
+
+
+public class NJBergenCountyParser extends SmsMsgParser {
+  
+  @Override
+  public String getFilter() {
+    return "miccom@nnjmicu.org";
+  }
+
+  @Override
+  protected boolean parseMsg(String body, Data data) {
+    
+    int pt = body.indexOf("(CAD) ");
+    if (pt < 0) return false;
+    body = body.substring(pt+6);
+
+    data.defState="NJ";
+    data.defCity = "BERGEN COUNTY";
+    
+    Parser p = new Parser(body);
+    data.strUnit = p.get(' ');
+    String type = p.get(':');
+    p.get('#');
+    data.strCallId = p.get(' ');
+    data.strCity = p.get('*');
+    
+    if (type.equals("CANCEL")) {
+      data.strCall = "CANCEL";
+      parseAddress(p.get("Paged:"), data);
+      return data.strAddress.length() > 0;
+    }
+    
+    if (! type.equals("RESPOND")) return false;
+    parseAddress(p.get('*'), data);
+    if (data.strAddress.length() == 0) return false;
+    
+    data.strPlace = p.get('*');
+    data.strApt = p.get('*');
+    data.strCross = p.get('*');
+    data.strCall = p.get("-BLS");
+    
+    for (String suffix : new String[]{" BOR", " BORO"}) {
+      if (data.strCity.endsWith(suffix)) {
+        data.strCity = data.strCity.substring(0, data.strCity.length()-suffix.length());
+      }
+    }
+    
+    return true;
+  }
+}
