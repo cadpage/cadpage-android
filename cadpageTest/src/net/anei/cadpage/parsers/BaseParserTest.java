@@ -75,6 +75,7 @@ public abstract class BaseParserTest {
     assertEquals(title + ":ID", data.strCallId, info.getCallId());
     assertEquals(title + ":Phone", data.strPhone, info.getPhone());
     assertEquals(title + ":Supp", data.strSupp, info.getSupp());
+    assertEquals(title + ":Src", data.strSource, info.getSource());
     
     assertEquals(title + ":DefCity", defCity, info.getDefCity());
     assertEquals(title + ":DefState", defState, info.getDefState());
