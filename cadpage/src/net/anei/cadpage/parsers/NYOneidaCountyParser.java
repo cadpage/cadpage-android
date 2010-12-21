@@ -3,7 +3,7 @@ package net.anei.cadpage.parsers;
 import net.anei.cadpage.SmsMsgInfo.Data;
 
 /*    
-Oneida County, NY (in progress)
+Oneida County, NY
 Contact: jim humphreys <jimmycrack79@gmail.com>
 Sender: <"dispatch@oc911.org"@unknown.person>
 

@@ -517,7 +517,7 @@ I will list all the townships in the county and the towns in those townships
 **********************************************************
 Lackawanna County, PA
 Contact: greg rhodes <grhodes908@gmail.com>
-Sender: Aegispage@lackawannacounty.org
+Sender: aegispage@lackawannacounty.org
 (Dispatch) Unit:14-9 Status:Dispatched Location:524 DEACON ST, 14 Call Type:BLS Call Time:12/7/2010 6:22:58 AM Call Number:245 Quadrant:F14 District:
 (Dispatch) Unit:14-9 Status:Dispatched Location:132 UNION MILL RD WINSHIP RD / LANGAN RD, VAN BRUNT ST, 14 Call Type:ALS Call Time:12/11/2010 11:27:5
 (Dispatch) Unit:CH53 Status:Dispatched Location:0 ASTON MOUNTAIN RD, 53 Call Type:ACCI Call Time:12/11/2010 1:12:10 PM Call Number:446 Quadrant:F53 D
@@ -529,6 +529,8 @@ Sender: Aegispage@lackawannacounty.org
    in Spring Brook TWP
 [Dispatch]  Unit:ch14 Status:Dispatched Location:662 DRINKER TPKE AM HUGHES BLVD / ROSS DR, 14 Call Type:ACCI Call Time:12/18/2010 6:05:58 AM Call Num
    Covington TWP, PA
+(Dispatch) Unit:T14 Status:Dispatched Location:SCRANTON POCONO HWY / DRINKER TPKE, 14 Call Type:AFA Call Time:12/21/2010 8:56:18 AM Call Number:802 Q
+    Dual dispatch of 53 spring brook two pa and 14 daleville pa  
 **********************************************************
 Mystery request
 Contact: Steve Litchford <stevelitchford@gmail.com>
@@ -876,6 +878,23 @@ INC# <call #>
 
 BELLAVISTA
 STA43
+**********************************************************
+Buncombe county, NC
+Contact:  "dean.castaldo@att.net" <dean.castaldo@att.net>
+CAD:433 LONG SHOALS RD;B21U;SUBJECT STILL DOWN;EDGAR BULLUCK;FALLS;LEDBETTER RD;CLAYTON RD
+CAD:1 HAMBY DR;B9;(FR) STRUCTURE FIRE;OWENBY COVE RD
+**********************************************************
+Vigo County, IN
+Contact: Billy Roberts <thfd334@gmail.com>
+Sender: 37284
+System: Cisco
+Exact match OHSugarCreekParser!!!
+Ct:FALL Loc:3301 ST MARY'S RD Apt: XSt:BLOOMTOWN RD US HWY 150 Grid:112D Units:E-42 TC-1 Rmk:92 YOLD FML; FELL; FACE DOWN ON FLOOR -
+Ct:FALL Loc:309 N CHURCH ST Apt: XSt:PARIS AV Grid:0WTH Units:E-41 TC-2 Rmk:65 Years F ;fall
+Ct:CHEST PAIN Loc:500 W PARIS AV Apt: XSt:6TH ST WTH 4TH ST WTH Grid:0WTH Units:E-41 TC-1 Rmk:
+Ct:CHOKING Loc:2925 N MAPLE PL Apt: XSt:LOCUST AV Grid:0126 Units:E-42 TC-1 Rmk:18 Months F ;CHOKING
+Ct:MVA-UNKNOWN-INJ Loc:US HWY 40/INTERSTATE 70 Apt: XSt: Grid:0169 Units:E-41 Rmk:SEMI AND PASSENGER CAR//UNKNOWN Injuries
+**********************************************************
 **********************************************************
 **********************************************************
 **********************************************************
