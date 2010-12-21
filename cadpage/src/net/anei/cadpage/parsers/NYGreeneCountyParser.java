@@ -18,7 +18,7 @@ public class NYGreeneCountyParser extends DispatchBParser {
   private static final String[] CITY_CODES = new String[]{
     "ASHLAND", "ATHENS", "CAIRO", "CATSKILL", "COXSACKIE", "DURHAM", "GREENVILLE",
     "HALCOTT", "HUNTER", "JEFFERSON HEIGHTS", "JEWETT", "LEEDS", "LEXINGTON", "NEW BALITMORE",
-    "PALENVILLE", "PRATTSVILLE", "TANNERSVILLE", "WINDHAM", "VENTE"};
+    "PALENVILLE", "PRATTSVILLE", "TANNERSVILLE", "WINDHAM"};
 
   
   

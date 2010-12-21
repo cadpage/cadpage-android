@@ -56,6 +56,7 @@ public class DispatchDAPROParser extends SmartAddressParser {
     // Locate the marker to determine where our part of the message starts
     Matcher match = MARKER.matcher(body);
     if (! match.find()) return false;
+    data.strSource = body.substring(match.start(), match.end());
     body = body.substring(match.end()).trim();
     
     // Adjust it a bit and parse out the main fields
