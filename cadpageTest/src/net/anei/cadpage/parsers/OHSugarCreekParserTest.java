@@ -16,7 +16,7 @@ public class OHSugarCreekParserTest extends BaseParserTest {
         "Ct:EMS MINOR       Loc:4336 STATE RT 725            Apt:      XSt:BAYBERRY COVE D LAKEMAN DR      Grid:003F Units:72                                        Rmk:",
         "CALL:EMS MINOR",
         "X:BAYBERRY COVE D LAKEMAN DR",
-        "BOX:003F",
+        "MAP:003F",
         "ADDR:4336 STATE RT 725",
         "UNIT:72"
         );
@@ -24,9 +24,9 @@ public class OHSugarCreekParserTest extends BaseParserTest {
     doTest("T2",
         "Ct:FIRE ALARM - RE Loc:4334 KILLIAN CT              Apt:      XSt:BELFAST DR                      Grid:0001 Units:M71   B70   P219                          Rmk:",
         "CALL:FIRE ALARM - RE",
-        "BOX:0001",
+        "MAP:0001",
         "X:BELFAST DR",
-        "UNIT:M71  B70  P219",
+        "UNIT:M71 B70 P219",
         "ADDR:4334 KILLIAN CT"
         );
     
@@ -35,7 +35,7 @@ public class OHSugarCreekParserTest extends BaseParserTest {
         "CALL:EMS MINOR",
         "ADDR:I 675 N & 8MM",
         "X:WILMINGTON PIKE FEEDWIRE RD",
-        "BOX:0045",
+        "MAP:0045",
         "UNIT:72"
         );
     
@@ -44,15 +44,15 @@ public class OHSugarCreekParserTest extends BaseParserTest {
         "CALL:TRAFFIC ACCIDEN",
         "ADDR:FEEDWIRE RD & WINSHIRE TER",
         "X:LITTLE SUGARCRE LEDGESTONE BLVD",
-        "BOX:0002",
-        "UNIT:C70  B70  E71  M72  P228"
+        "MAP:0002",
+        "UNIT:C70 B70 E71 M72 P228"
         );
     
     doTest("T5",
         "Ct:OTHER FIRE      Loc:5980 WILMINGTON PIKE         Apt:      XSt:CLYO RD         WILMINGTON PIKE Grid:003A Units:72                                        Rmk:",
         "CALL:OTHER FIRE",
-        "X:CLYO RD  WILMINGTON PIKE",
-        "BOX:003A",
+        "X:CLYO RD WILMINGTON PIKE",
+        "MAP:003A",
         "ADDR:5980 WILMINGTON PIKE",
         "UNIT:72"
         );
