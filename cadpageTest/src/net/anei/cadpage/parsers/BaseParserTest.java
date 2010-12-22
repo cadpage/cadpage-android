@@ -2,6 +2,7 @@ package net.anei.cadpage.parsers;
 
 import org.junit.Test;
 
+import net.anei.cadpage.SmsMmsMessage;
 import net.anei.cadpage.SmsMsgInfo;
 
 import static org.junit.Assert.*;
@@ -15,6 +16,11 @@ public abstract class BaseParserTest {
   
   public void setParser(SmsMsgParser parser, String defCity, String defState) {
     this.parser = parser;
+    this.defCity = defCity;
+    this.defState = defState;
+  }
+  
+  public void setDefaults(String defCity, String defState) {
     this.defCity = defCity;
     this.defState = defState;
   }
@@ -57,10 +63,9 @@ public abstract class BaseParserTest {
       else fail("Keyword " + sType + " is not defined");
     }
     
-    SmsMsgInfo.Data tData = new SmsMsgInfo.Data();
-    boolean good = parser.parseMsg(test, tData);
-    assertTrue(title + ":parse", good);
-    SmsMsgInfo info = new SmsMsgInfo(tData);
+    SmsMmsMessage msg = new SmsMmsMessage("1112223333", test, 0L, 0);
+    assertTrue(title + ":parse", parser.isPageMsg(msg));
+    SmsMsgInfo info = msg.getInfo();
     
     assertEquals(title + ":Call", data.strCall, info.getCall());
     assertEquals(title + ":Place", data.strPlace, info.getPlace());

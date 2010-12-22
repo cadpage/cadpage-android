@@ -19,13 +19,14 @@ public class SmartAddressParserTest extends BaseParserTest {
   private static final int FLAG_ANCHOR_END = SmartAddressParser.FLAG_ANCHOR_END;
   
   private static final String[] CITY_LIST = new String[]{"KENSBURG", "KEN TOWN"};
+  private static final String DEF_CITY = "STATE OF MIND";
   private static final String DEF_STATE = "XX";
 
   private TestParser parser;
   
   public SmartAddressParserTest() {
-    parser = new TestParser(CITY_LIST, DEF_STATE);
-    setParser(parser, "", "");
+    parser = new TestParser(CITY_LIST, DEF_CITY, DEF_STATE);
+    setParser(parser, DEF_CITY, DEF_STATE);
   }
   
   @Test
@@ -373,8 +374,8 @@ public class SmartAddressParserTest extends BaseParserTest {
     private StartType startType = StartType.START_ADDR;
     private int flags;
     
-    public TestParser(String[] cities, String state) {
-      super(cities, state);
+    public TestParser(String[] cities, String city,  String state) {
+      super(cities, city, state);
     }
     
     public void setStartTypeFlags(StartType startType, int flags) {
