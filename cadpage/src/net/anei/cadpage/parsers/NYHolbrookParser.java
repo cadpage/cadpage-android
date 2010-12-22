@@ -35,6 +35,10 @@ public class NYHolbrookParser extends SmsMsgParser {
   
   private static final String[] KEYWORDS = new String[]{"Loc","c/s", "O"};
   
+  public NYHolbrookParser() {
+    super("HOLBROOK", "NY");
+  }
+  
   @Override
   public String getFilter() {
     return "Paging@alpinesoftware.co";
@@ -42,8 +46,6 @@ public class NYHolbrookParser extends SmsMsgParser {
   
   @Override
   protected boolean parseMsg(String body, Data data) {
-    data.defCity="HOLBROOK";
-    data.defState="NY";
     
     Parser p = new Parser(body);
     String extra = p.getLastOptional(". . ");

@@ -41,6 +41,10 @@ public class NJGloucesterCountyParser extends SmsMsgParser {
       "WEST DEPTFORD", "W DEPTFORD TWP",
       "WOOLWICH", "WOOLWICH TWP"
   });
+  
+  public NJGloucesterCountyParser() {
+    super("GLOUCESTER COUNTY", "NJ");
+  }
  
   @Override
   public String getFilter() {
@@ -51,9 +55,6 @@ public class NJGloucesterCountyParser extends SmsMsgParser {
   protected boolean parseMsg(String body, Data data) {
     
     if (!isPageMsg(body, KEYWORDS)) return false;
-
-    data.defState="NJ";
-    data.defCity = "GLOUCESTER COUNTY";
     
     Properties props = parseMessage(body, "\n");
     data.strSource = props.getProperty("Sta", "");

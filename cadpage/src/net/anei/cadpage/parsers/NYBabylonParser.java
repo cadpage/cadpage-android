@@ -4,7 +4,6 @@ import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import net.anei.cadpage.Log;
 import net.anei.cadpage.SmsMsgInfo.Data;
 /*
 *** 13 - Structure Fire *** 147 CHERUBINA LN CS: LEADER AVE  / SKIDMORE RD TOA: 22:37 09/22/10 OIL BURNER NORTH BABYLON FC 2010-002398 HY: 8' 11
@@ -34,45 +33,46 @@ Contact: Andres Gutierrez <caramys22@gmail.com>
 *** 16 - Rescue *** 111 LIBERTY ST CS: DEER PARK AVE  / PINE ACRES BLVD TOA: 20:06 12/12/10 82YR MALE CHEST PAIN DEER PARK FIRE DISTRICT
 */
 
-public class NYBabylonParser extends SmsMsgParserLegacy {
+public class NYBabylonParser extends SmartAddressParser {
   
-  private static final String[] keywords = new String[]{"ADDR", "CS", "TOA", "FC", "HY"};
+  private static final String[] keywords = new String[]{"ADDR", "CS", "TOA", "HY"};
   
   private static final Pattern TIME_DATE = Pattern.compile("\\d\\d:\\d\\d \\d\\d/\\d\\d/\\d\\d ");
-  private static final String[] districtList = new String[]{"NORTH BABYLON", "AMITYVILLE"};
-
-  @Override
-  public boolean isPageMsg(String body) {
-    return body.startsWith("***");
+  private static final String[] districtList = new String[]{"NORTH BABYLON FC", "AMITYVILLE FD", "DEER PARK FIRE DISTRICT"};
+  
+  public NYBabylonParser() {
+    super("BABYLON", "NY");
   }
   
   @Override
-  protected void parse(String body, Data data) {
-    Log.v("DecodeBabylonPage: Message Body of:" + body);
-    data.defCity = "BABYLON";
-    data.defState="NY";
+  protected boolean parseMsg(String body, Data data) {
     
     int pt = body.indexOf("***");
-    if (pt < 0) return;
+    if (pt < 0) return false;
     int pta = body.indexOf("***",pt+3); 
-    if (pta < 0) return;
+    if (pta < 0) return false;
     data.strCall = body.substring(pt+3, pta).trim();
     body = body.substring(pta+3).trim();
     
-    body = "ADDR:" + body.replace(" FC ", " FC:").replace(" FD ", " FC:");
+    body = "ADDR:" + body;
     Properties props = parseMessage(body, keywords);
-    parseAddress(props.getProperty("ADDR", ""), data);
+    parseAddress(StartType.START_PLACE, FLAG_ANCHOR_END, props.getProperty("ADDR", ""), data);
     data.strCross = props.getProperty("CS", "");
-    data.strCallId = props.getProperty("FC", "");
     String sSupp = props.getProperty("TOA", "");
     Matcher match = TIME_DATE.matcher(sSupp);
-    if (match.find()) sSupp = sSupp.substring(match.end());
+    if (match.find()) sSupp = sSupp.substring(match.end()).trim();
+    boolean found = false;
     for (String district : districtList) {
-      if (sSupp.endsWith(district)) {
-        sSupp = sSupp.substring(0, sSupp.length()-district.length()).trim();
+      pt = sSupp.indexOf(district);
+      if (pt >= 0) {
+        data.strSupp = sSupp.substring(0, pt).trim();
+        data.strSource = district;
+        data.strCallId = sSupp.substring(pt + district.length()).trim();
+        found = true;
         break;
       }
     }
-    data.strSupp = sSupp;
+    if (!found) data.strSupp = sSupp;
+    return true;
   }
 }

@@ -24,6 +24,10 @@ MCo / [mCAD] * D * 0301 * PIC w/ ENTRAPMENT -ALS1 * 1180 EDMONSTON DR / 1100 WAD
 
 public class MDMontgomeryCountyParser extends SmsMsgParser {
   
+  public MDMontgomeryCountyParser() {
+    super("MONTGOMERY", "MD");
+  }
+  
 	public String getFilter() {
 		return "rc.355@c-msg.net";
 	}
@@ -33,8 +37,6 @@ public class MDMontgomeryCountyParser extends SmsMsgParser {
 	    
 	    if (!body.contains("[mCAD]")) return false;
 	    
-	    data.defState = "MD";
-	    data.defCity = "MONTGOMERY";
 	    Properties props = parseMessage(body, "\\*", new String[]{"Junk","D","BOX","Call","Addr","Units"});
 	    data.strBox = props.getProperty("BOX", "");
 	    data.strCall = props.getProperty("Call", "");

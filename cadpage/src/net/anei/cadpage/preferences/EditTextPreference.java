@@ -30,11 +30,15 @@ public class EditTextPreference extends android.preference.EditTextPreference {
       refreshSummary();
     }
   }
-
+  
   public void refreshSummary() {
+    refreshSummary(getText());
+  }
+
+  public void refreshSummary(String newValue) {
     if (origSummary == null) origSummary = getSummary();
     if (origSummary != null) {
-      setSummary(String.format(origSummary.toString(), getText()));
+      setSummary(String.format(origSummary.toString(), newValue));
     }
   }
 }

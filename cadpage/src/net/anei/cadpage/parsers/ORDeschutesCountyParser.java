@@ -23,6 +23,10 @@ public class ORDeschutesCountyParser extends SmsMsgParser {
   
   private static final Pattern UNIT_PAT = Pattern.compile("(\\d\\d\\d)(,\\d\\d\\d)*");
   
+  public ORDeschutesCountyParser() {
+    super("DESCHUTES COUNTY", "OR");
+  }
+  
   @Override
   public String getFilter() {
     return "911@deschutes.org";
@@ -37,9 +41,6 @@ public class ORDeschutesCountyParser extends SmsMsgParser {
     body = body.replaceAll(" - ", "__");
     String[] flds = body.split("-");
     if (flds.length < 5) return false;
-    
-    data.defState = "OR";
-    data.defCity = "DESCHUTES COUNTY";
     
     int ndx = 1;
     for (String fld : flds) {

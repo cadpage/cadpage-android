@@ -47,7 +47,7 @@ public class MDFrederickCountyParser extends SmartAddressParser {
     });
 
   public MDFrederickCountyParser(){
-    super(CITY_CODE_TABLE, DEF_STATE);
+    super(CITY_CODE_TABLE, DEF_CITY, DEF_STATE);
   }
 
   
@@ -56,9 +56,6 @@ public class MDFrederickCountyParser extends SmartAddressParser {
     
     
     if (!body.contains("[FredCo]") && !body.contains("(FredCo)")) return false;
-    
-    data.defState = DEF_STATE;
-    data.defCity = DEF_CITY;
     
     // If there is a : right after city then there is Supp data between City Code and ESZ:
     

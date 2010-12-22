@@ -13,20 +13,14 @@ import net.anei.cadpage.SmsMsgInfo.Data;
 
 public class GAOconeeCountyParser extends SmartAddressParser {
   
-  private static final String DEF_STATE = "GA";
-  private static final String DEF_CITY = "OCONEE COUNTY";
-  
   public GAOconeeCountyParser() {
-    super(DEF_STATE);
+    super("OCONEE COUNTY", "GA");
   }
 
   @Override
   protected boolean parseMsg(String body, Data data) {
 
     if (!body.startsWith("OCSO E911:")) return false;
-
-    data.defState=DEF_STATE;
-    data.defCity=DEF_CITY;
 
     // Skip everything up to first colon
     int ipt = body.indexOf(':');

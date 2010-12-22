@@ -20,14 +20,11 @@ public class MDCentrevilleParser extends SmartAddressParser {
   private static final String DEF_CITY = "CENTREVILLE";
   
   public MDCentrevilleParser() {
-    super(DEF_STATE);
+    super(DEF_CITY, DEF_STATE);
   }
 
   @Override
   protected boolean parseMsg(String body, Data data) {
-
-    data.defState=DEF_STATE;
-    data.defCity=DEF_CITY;
 
     int ipt = body.indexOf("qac911:*D ");
     if (ipt < 0) return false;

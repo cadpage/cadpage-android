@@ -54,16 +54,13 @@ public class DESussexCountyParser extends SmartAddressParser {
                                                        
   
   public DESussexCountyParser() {
-    super(CITY_LIST, DEF_STATE);
+    super(CITY_LIST, DEF_CITY, DEF_STATE);
   }
 
   @Override
   protected boolean parseMsg(String body, Data data) {
 
     if (!body.contains("] -- ")) return false;
-
-    data.defState = DEF_STATE;
-    data.defCity = DEF_CITY;
 
     // First divide up the call
     String strBody[] = body.split("--");

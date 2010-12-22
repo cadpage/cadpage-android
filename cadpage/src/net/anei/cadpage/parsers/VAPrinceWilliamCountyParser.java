@@ -17,6 +17,10 @@ Sender: cc_message_notification@usamobility.net
 
 
 public class VAPrinceWilliamCountyParser extends SmsMsgParser {
+  
+  public VAPrinceWilliamCountyParser() {
+    super("PRINCE WILLIAM COUNTY", "VA");
+  }
 
 
   private boolean isPageMsg(String body) {
@@ -29,9 +33,6 @@ public class VAPrinceWilliamCountyParser extends SmsMsgParser {
     
     if (!isPageMsg(body)) return false;
     
-    data.defState="VA";
-    data.defCity = "PRINCE WILLIAM COUNTY";
-
     String[] lines = body.split("/");
     int ndx = 0;
     for (String line : lines) {

@@ -39,9 +39,15 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
   private Preference donateDialogPref = null;
   
   private String parserFilter = "";
+  private String parserDefCity = "";
+  private String parserDefState = "";
   private CheckBoxPreference overrideFilterPref;
   private EditTextPreference filterPref;
   private CheckBoxPreference genAlertPref;
+  
+  private CheckBoxPreference overrideDefaultPref;
+  private EditTextPreference defCityPref;
+  private EditTextPreference defStatePref;
 
   @Override
   public void onCreate(Bundle savedInstanceState) {
@@ -110,6 +116,39 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
       }
     });
 
+    // Have to play some games with the override default settings
+    // If the override defaults is turned on, enable the default city and state items
+    // If it is turned off, force the default city and state to the current parser
+    // defaults and disable them.
+    overrideDefaultPref = (CheckBoxPreference)
+        findPreference(getString(R.string.pref_override_default_key));
+    defCityPref = (EditTextPreference) 
+        findPreference(getString(R.string.pref_defcity_key));
+    defStatePref = (EditTextPreference)
+        findPreference(getString(R.string.pref_defstate_key));
+    
+    overrideDefaultPref = (CheckBoxPreference)
+        findPreference(getString(R.string.pref_override_default_key));
+    overrideDefaultPref.setOnPreferenceChangeListener(new OnPreferenceChangeListener(){
+      @Override
+      public boolean onPreferenceChange(Preference preference, Object newValue) {
+        boolean value = ((Boolean)newValue).booleanValue();
+        if (! value) {
+          defCityPref.setText(parserDefCity);
+          defCityPref.refreshSummary();
+          defStatePref.setText(parserDefState);
+          defStatePref.refreshSummary();
+        }
+        defCityPref.setEnabled(value);
+        defStatePref.setEnabled(value);
+        return true;
+      }});
+    
+    // Make an initial call to our preference change listener to set up the
+    // correct default summary displays
+    overrideDefaultPref.getOnPreferenceChangeListener().
+        onPreferenceChange(overrideDefaultPref, ManagePreferences.overrideDefaults());
+
     // Test message response
     Preference testmsgPref = findPreference(getString(R.string.pref_testmsg_key));
     testmsgPref.setOnPreferenceClickListener(new OnPreferenceClickListener(){
@@ -152,6 +191,8 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
     // Save it in parserFilter so other preferences know what it is
     SmsMsgParser parser = ManageParsers.getInstance().getParser(location);
     parserFilter = parser.getFilter();
+    parserDefCity = parser.getDefaultCity();
+    parserDefState = parser.getDefaultState();
     
     // If the parser has a filter, enable the override checkbox, set its value to true
     // And insert the default filter value in the summary off message
@@ -172,6 +213,22 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
       filterPref.setEnabled(true);
       String filter = filterPref.getText();
       genAlertPref.setEnabled(filter.length() > 1);
+    }
+    
+    // Any time the location parser changes, reset the override default loc setting
+    // OK, its a little more complicated than that.  If the override default setting
+    // is on, we can just turn it off and let the onPreferenceChange listener take
+    // care of things.  If it is already off, we have to call the onPreferenceChange
+    // listener ourselves so it will update the propert summary displays
+    // If that isn't complicated enough, the overrideDefaultPref setting won't
+    // be initialized the first time we are called, but that first call has the
+    // change parameter set to false, so this logic gets skipped.
+    if (change) {
+      if (overrideDefaultPref.isChecked()) {
+        overrideDefaultPref.setChecked(false);
+      } else {
+        overrideDefaultPref.getOnPreferenceChangeListener().onPreferenceChange(overrideDefaultPref, false);
+      }
     }
   }
 
@@ -273,7 +330,7 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
 
   /**
    * Set up location menu tree
-   * @param resId resource ID of the preference screen to be constructd
+   * @param resId resource ID of the preference screen to be constructed
    * @param multi true if we are building a multi-location preference tree
    * false if we are building a normal single location preference tree
    */
@@ -299,7 +356,7 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
             throw new RuntimeException("Found state " + stName + " while looking for " + stCode);
           }
           if (! multi) {
-            LocationListPreference list = new LocationListPreference(this, locMgr);
+            LocationListPreference list = new LocationListPreference(this, locMgr, main);
             list.setTitle(stName.substring(3));
             int locCnt = ndx - startNdx;
             String[] values = new String[locCnt];

@@ -13,6 +13,10 @@ Neither of these maps, sloppy addresses
 
 public class ORPrinevilleParser extends SmsMsgParser {
   
+  ORPrinevilleParser() {
+    super("PRINEVILLE", "OR");
+  }
+  
   @Override
   public String getFilter() {
     return "dispatch@prinevillepd.org";
@@ -22,9 +26,6 @@ public class ORPrinevilleParser extends SmsMsgParser {
   protected boolean parseMsg(String body, Data data) {
     
     if (!body.startsWith("(PPD)")) return false;
-    
-    data.defState = "OR";
-    data.defCity = "PRINEVILLE";
     
     String[] lines = body.split("\n");
     if (lines.length <= 4) return false;

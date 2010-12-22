@@ -34,6 +34,10 @@ public class TXCyCreekCommCenterParser extends SmsMsgParser {
   
   private static final Pattern MARKER = Pattern.compile("\\d\\d/\\d\\d \\d\\d:\\d\\d ");
   
+  public TXCyCreekCommCenterParser() {
+    super("HARRIS COUNTY", "TX");
+  }
+  
   @Override
   public String getFilter() {
     return "CommCenter@ccems.com";
@@ -41,9 +45,6 @@ public class TXCyCreekCommCenterParser extends SmsMsgParser {
 
   @Override
   protected boolean parseMsg(String body, Data data) {
-  
-    data.defState="TX";
-    data.defCity="HARRIS COUNTY";
     
     // Strip message prefix
     

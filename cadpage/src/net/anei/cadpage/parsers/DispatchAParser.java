@@ -28,12 +28,8 @@ Pagecopy-Fr:CAD@lc911\nCAD:FYI: ;CHSTPN;7251 HAMBURG RD;WELLE RD;[Medical Priori
 
 public class DispatchAParser extends SmsMsgParser {
   
-  private String defCity;
-  private String defState;
-  
   public DispatchAParser(String defCity, String defState) {
-    this.defCity = defCity;
-    this.defState = defState;
+    super(defCity, defState);
   }
 
   private boolean isPageMsg(String body) {
@@ -45,9 +41,6 @@ public class DispatchAParser extends SmsMsgParser {
   protected boolean parseMsg(String body, Data data) {
     
     if (!isPageMsg(body)) return false;
-    
-    data.defState=defState;
-    data.defCity = defCity;
     
     body = body.trim();
     String[] AData = body.split(";");

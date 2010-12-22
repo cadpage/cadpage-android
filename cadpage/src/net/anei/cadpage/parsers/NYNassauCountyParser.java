@@ -34,7 +34,7 @@ public class NYNassauCountyParser extends SmartAddressParser {
   private static final String[] KEYWORDS = new String[]{"LOC", "c/s", "ADTNL", "GRID", "TOA"};
 
   public NYNassauCountyParser() {
-    super(DEF_STATE);
+    super(DEF_CITY, DEF_STATE);
   }
 
   @Override
@@ -46,9 +46,6 @@ public class NYNassauCountyParser extends SmartAddressParser {
     int pt2 = body.indexOf("*** ", pt1);
     if (pt2 < 0) return false;
     data.strCall = body.substring(pt1, pt2).trim();
-
-    data.defState = DEF_STATE;
-    data.defCity = DEF_CITY;
     
     body = "LOC:" + body.substring(pt2+4).trim();
     Properties props = parseMessage(body, KEYWORDS);

@@ -65,6 +65,9 @@
    <string name="pref_show_source_key">show_source</string>
    <string name="pref_useGoogleMapApp_key">useGoogleMapApp</string>
    <string name="pref_testmsg_key">testmsg</string>
+   <string name="pref_override_default_key">overrideDefaultLoc</string>
+   <string name="pref_defstate_key">defaultState</string>
+   <string name="pref_defcity_key">defaultCity</string>
    <string name="pref_email_key">emaildev</string>
    <string name="pref_history_limit_key">historylimit</string>
    

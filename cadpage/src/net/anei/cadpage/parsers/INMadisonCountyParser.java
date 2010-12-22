@@ -17,6 +17,7 @@ Contact: Jason Quimby <fjquimby@gmail.com>
 Subject:{EMAOPS} (62533) CAD Page Unit:EMA1 Loc:3727 N 200E Venue:RICHLA TWP Inc:Accidnt PI Date:12/09/2010 Time:10:31 UNKNOWN  CAR VS POL
 Subject:(62534) Dispatch\nUnit:ST50 UnitSts: Loc:207 E MAIN ST Venue:CHESTERFIE STATION 50 Inc:Fire Date:12/09/2010 Time:12:00 STAND BY YO
 Subject:(63067) DISP\nUnit:U20 UnitSts: Loc:53RD ST/SCATTERFIELD Venue:ANDERSON Inc:Accidnt PI Date:12/17/2010 Time:12:06 NECK PAIN/IN PRK
+Subject:{ST30} (63312) Dispatch\nUnit:RS35 Loc:2278 N 600W Venue:LAFAYE TWP Inc:FALL Date:12/22/2010 Time:07:03 65YOM FELL ON ICE IN DRIVEW
 
 Brent Jensen <brent.cutfd28@gmail.com>
 Fwd: (62208) DISPATCH) Unit:AM51 UnitSts: Loc:3363 E 200N Venue:UNION TWP Inc:Accidnt PI Date:12/04/2010 Time:09:59 CAR HIT POLE/CONSCIOUS BUT HIT HEAD/NOT A
@@ -25,6 +26,29 @@ Fwd: (62208) DISPATCH) Unit:AM51 UnitSts: Loc:3363 E 200N Venue:UNION TWP Inc:Ac
 public class INMadisonCountyParser extends SmsMsgParser {
   
   private static final String[] keywords = new String[] {"Unit", "UnitSts", "Loc", "Venue", "Inc", "Date", "Time", "Addtl"};
+  
+/**  
+  private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "CHESTERFIE", "CHESTERFIELD",
+      "COUNTRY CL", "COUNTRY CLUB HEIGHTS",
+      "MARKLEVILL", "MARKLEVILLE",
+      "RIVER FORE", "RIVER FOREST",
+      "WOODLAWN H", "WOODLAWN HEIGHTS",
+      "ANDERS TWP", "ANDERSON TWP",
+      "DUCK C TWP", "DUCK CREEK TWP",
+      "FALL C TWP", "FALL CREEK TWP",
+      "JACKSO TWP", "JACKSON TWP",
+      "LAFAYE TWP", "LAFAYETTE TWP",
+      "PIPE C TWP", "PIPE CREEK TWP",
+      "RICHLA TWP", "RICHLAND TWP",
+      "STONEY TWP", "STONEY CREEK TWP",
+      "VAN BU TWP", "VAN BUREN TWP"
+  });
+**/
+ 
+  public INMadisonCountyParser() {
+    super("MADISON COUNTY", "IN");
+  }
   
   @Override
   public String getFilter() {
@@ -37,9 +61,6 @@ public class INMadisonCountyParser extends SmsMsgParser {
     int ipt = body.indexOf("Unit:");
     if (ipt < 0) return false;
     body = body.substring(ipt);
-    
-    data.defState="IN";
-    data.defCity = "MADISON COUNTY";
     
     Properties props = parseMessage(body, keywords);
     body = body.trim();

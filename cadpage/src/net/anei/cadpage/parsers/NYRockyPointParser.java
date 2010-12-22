@@ -20,7 +20,7 @@ public class NYRockyPointParser extends SmartAddressParser {
   private static final String DEF_CITY = "ROCKY POINT";
   
   public NYRockyPointParser() {
-    super(DEF_STATE);
+    super(DEF_CITY, DEF_STATE);
   }
   
   @Override
@@ -30,9 +30,6 @@ public class NYRockyPointParser extends SmartAddressParser {
 
   @Override
   protected boolean parseMsg(String body, Data data) {
-
-    data.defState=DEF_STATE;
-    data.defCity=DEF_CITY;
 
     Parser p = new Parser(body);
     

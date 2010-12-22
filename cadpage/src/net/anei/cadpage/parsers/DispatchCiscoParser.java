@@ -23,12 +23,8 @@ Ct:MVA-UNKNOWN-INJ Loc:US HWY 40/INTERSTATE 70 Apt: XSt: Grid:0169 Units:E-41 Rm
 
 public class DispatchCiscoParser extends SmsMsgParser {
   
-  private String defCity;
-  private String defState;
-  
   public DispatchCiscoParser(String defCity, String defState) {
-    this.defCity = defCity;
-    this.defState = defState;
+    super(defCity, defState);
   }
 
   private static final String[]KEYWORDS = 
@@ -38,8 +34,6 @@ public class DispatchCiscoParser extends SmsMsgParser {
   protected boolean parseMsg(String body, Data data) {
     
     if (!isPageMsg(body, KEYWORDS)) return false;
-    data.defCity = defCity;
-    data.defState = defState;
     body = body.replaceAll(" +", " ");
     Properties props = parseMessage(body, KEYWORDS);
     data.strCall = props.getProperty("Ct", "");

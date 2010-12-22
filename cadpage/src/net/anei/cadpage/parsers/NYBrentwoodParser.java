@@ -30,16 +30,13 @@ public class NYBrentwoodParser extends SmartAddressParser {
   private static final String DEF_CITY = "SUFFOLK COUNTY";
   
   public NYBrentwoodParser() {
-    super(citiesCodes, DEF_STATE);
+    super(citiesCodes, DEF_CITY, DEF_STATE);
   }
 
   @Override
   protected boolean parseMsg(String body, Data data) {
 
     if (! body.startsWith("TYPE:")) return false;
-  
-    data.defState=DEF_STATE;
-    data.defCity=DEF_CITY;
 
     Properties props = parseMessage(body, new String[]{"LOC", "CROSS", "CODE", "TIME"});
     data.strCall = props.getProperty("TYPE", "");

@@ -3,12 +3,19 @@ package net.anei.cadpage.parsers;
 import net.anei.cadpage.SmsMsgInfo.Data;
 
 public class GeneralAlertParser extends SmsMsgParser {
+  
+  public GeneralAlertParser() {
+    super("", "");
+  }
 
   @Override
   protected boolean parseMsg(String body, Data data) {
 
-    // Everything goes in the call description
-    data.strCall = body;
+    // Everything goes in the place name.  Odd choice, but it comes out 
+    // looking right without a prefix keyword.  if we put the entire text
+    // in the call field it won't wrap more than two lines.
+    data.strCall = "GENERAL ALERT";
+    data.strPlace = body;
     return true;
   }
 }

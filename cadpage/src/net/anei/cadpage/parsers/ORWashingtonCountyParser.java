@@ -32,7 +32,7 @@ public class ORWashingtonCountyParser extends SmartAddressParser {
   });
   
   public ORWashingtonCountyParser() {
-    super(DEF_STATE);
+    super(DEF_CITY, DEF_STATE);
   }
   
   @Override
@@ -42,9 +42,6 @@ public class ORWashingtonCountyParser extends SmartAddressParser {
 
   @Override
   protected boolean parseMsg(String body, Data data) {
-
-    data.defState=DEF_STATE;
-    data.defCity=DEF_CITY;
 
     Properties props = parseMessage("LOC:" + body, KEYWORDS);
     

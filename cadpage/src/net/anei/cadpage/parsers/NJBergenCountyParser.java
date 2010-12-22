@@ -16,6 +16,10 @@ Sender: miccom@nnjmicu.org
 
 public class NJBergenCountyParser extends SmsMsgParser {
   
+  public NJBergenCountyParser() {
+    super("BERGEN COUNTY", "NJ");
+  }
+  
   @Override
   public String getFilter() {
     return "miccom@nnjmicu.org";
@@ -27,9 +31,6 @@ public class NJBergenCountyParser extends SmsMsgParser {
     int pt = body.indexOf("(CAD) ");
     if (pt < 0) return false;
     body = body.substring(pt+6);
-
-    data.defState="NJ";
-    data.defCity = "BERGEN COUNTY";
     
     Parser p = new Parser(body);
     data.strUnit = p.get(' ');

@@ -15,12 +15,13 @@ Sender: msg@cfmsg.com <From%3Amsg@cfmsg.com>
 
 
 public class MDCarolineCountyParser extends SmsMsgParser {
+  
+  public MDCarolineCountyParser() {
+    super("CAROLINE COUNTY", "MD");
+  }
 
   @Override
   protected boolean parseMsg(String body, Data data) {
-
-    data.defState="MD";
-    data.defCity = "CAROLINE COUNTY";
     
     int ipt = body.indexOf("(Chief ALT)");
     if (ipt < 0) return false;

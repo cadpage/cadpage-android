@@ -15,7 +15,7 @@ Call:20D01H-HEAT EXPOSURE,STONE SPRINGS BLVD-AL/MINERAL SPRINGS CIR-AL Apt:,X-St
 ([cad13] ) Call:ALS-ALS EMERGENCY   ,16591 COURAGE CT-LB Apt:,X-St:LOUDOUN CENTER PL,M6131 ACO13,Box:2024 ,ADC:5158 C08 [
 ***/
 
-public class VALoudounCountyParser extends SmsMsgParserLegacy {
+public class VALoudounCountyParser extends SmsMsgParser {
 
   private static final String[]LCFRkeywords = new String[]{"Call:", "Apt:", "X-St:"};
   private static final Properties LCFRCityCodes = buildCodeTable(new String[]{
@@ -39,17 +39,15 @@ public class VALoudounCountyParser extends SmsMsgParserLegacy {
         "FX11", "Fairfax",
         "FX", "Fairfax",
         "FQ", "Faquier"});
-
-  @Override
-  public boolean isPageMsg(String body) {
-    return isPageMsg(body, LCFRkeywords);
+  
+  public VALoudounCountyParser() {
+    super("LOUDOUN COUNTY", "VA");
   }
 
   @Override
-  protected void parse(String body, Data data) {
-
-    data.defState = "VA";
-    data.defCity = "LOUDOUN COUNTY";
+  protected boolean parseMsg(String body, Data data) {
+    
+    if (! isPageMsg(body, LCFRkeywords)) return false;
 
     // Needs some massaging before it can be run through the standard parser
     body = body.replace(" Apt:", ",Apt:");
@@ -64,5 +62,7 @@ public class VALoudounCountyParser extends SmsMsgParserLegacy {
     data.strMap = props.getProperty("ADC", "");
     
     data.strCity = convertCodes(data.strCity, LCFRCityCodes);
+    
+    return true;
   }
 }

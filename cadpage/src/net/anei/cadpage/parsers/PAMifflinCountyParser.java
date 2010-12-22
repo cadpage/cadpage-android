@@ -24,6 +24,10 @@ public class PAMifflinCountyParser extends SmsMsgParser {
       "ARMAGH", "BRATTON", "BROWN", "DECATUR", "DERRY", "GRANVILLE", "MENNO", "OLIVER", "UNION", "WAYNE"
   });
   
+  public PAMifflinCountyParser() {
+    super("MIFFLIN COUNTY", "PA");
+  }
+  
   @Override
   public String getFilter() {
     return "cmessages@co.mifflin.pa.us,cadmessages@co.mifflin.pa.us";
@@ -34,9 +38,6 @@ public class PAMifflinCountyParser extends SmsMsgParser {
     
     int ipt = body.indexOf("(CAD Page for CFS ");
     if (ipt < 0) return false;
-    
-    data.defState = "PA";
-    data.defCity = "MIFFLIN COUNTY";
     
     ipt += 17;
     int ept = body.indexOf(')', ipt);

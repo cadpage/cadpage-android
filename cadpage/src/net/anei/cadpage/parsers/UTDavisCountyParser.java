@@ -25,6 +25,10 @@ public class UTDavisCountyParser extends SmsMsgParser {
   
   private static final Pattern TIME_PAT = Pattern.compile("^\\d\\d:\\d\\d:\\d\\d .*");
   
+  public UTDavisCountyParser() {
+    super("DAVIS COUNTY", "UT");
+  }
+  
   @Override
   public String getFilter() {
     return "paging@co.davis.ut.us";
@@ -32,9 +36,6 @@ public class UTDavisCountyParser extends SmsMsgParser {
 
   @Override
   protected boolean parseMsg(String body, Data data) {
-    
-    data.defState = "UT";
-    data.defCity = "DAVIS COUNTY";
 
     int ndx = 1;
     boolean good = false;

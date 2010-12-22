@@ -35,14 +35,16 @@ public class VAPittsylvaniaCountyParser extends SmsMsgParser {
 		  "SUT","Sutherlin",
 		  "LON","Long Island",
         });
+  
+  public VAPittsylvaniaCountyParser() {
+    super("PITTSYLVANIA", "VA");
+  }
 
   @Override
   protected boolean parseMsg(String body, Data data) {
     
     if (!body.contains(":CAD:")) return false;
     
-    data.defState = "VA";
-    data.defCity = "PITTSYLVANIA";
     // Needs some massaging before it can be run through the standard parser
     body = body.replace(":CAD:", "CAD;");
     body = body.replace("PROBLEM:", "PROBLEM;");

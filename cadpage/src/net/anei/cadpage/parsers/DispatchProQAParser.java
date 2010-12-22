@@ -30,19 +30,12 @@ Medstar SW IL
 
 public class DispatchProQAParser extends SmsMsgParser {
   
-  private String defState;
-  private String defCity;
-  
-  protected DispatchProQAParser(String defState, String defCity) {
-    this.defState = defState;
-    this.defCity = defCity;
+  protected DispatchProQAParser(String defCity, String defState) {
+    super(defCity, defState);
   }
 
   @Override
   protected boolean parseMsg(String body, Data data) {
-
-    data.defState=defState;
-    data.defCity = defCity;
     
     // Parse run number from first field
     int pt = body.indexOf("RC:Run# ");

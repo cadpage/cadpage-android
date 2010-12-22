@@ -17,6 +17,7 @@ public class GroupBestParser extends SmsMsgParser {
   private SmsMsgParser lastParser = null;
   
   public GroupBestParser(SmsMsgParser ... parsers) {
+    super(parsers[0].getDefaultCity(), parsers[0].getDefaultState());
     
     this.parsers = parsers;
     

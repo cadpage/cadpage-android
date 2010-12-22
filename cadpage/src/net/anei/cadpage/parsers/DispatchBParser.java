@@ -52,17 +52,12 @@ GREENE 911:ALARMF>FIRE ALARM 558 SLEEPY HOLLOW RD ATHENS ADT SECURITY-OP ANDREA-
 
 public class DispatchBParser extends SmartAddressParser {
   
-  private String defCity;
-  private String defState;
-  
   private static final String[] FIXED_KEYWORDS = new String[]{"Map", "Grids", "Cad"};
   private static final String[] KEYWORDS = 
     new String[]{"Loc", "BOX", "Map:", "Grids", "Cad"};
   
   public DispatchBParser(String[] cityList, String defCity, String defState) {
-    super(cityList, defState);
-    this.defCity = defCity;
-    this.defState = defState;
+    super(cityList, defCity, defState);
   }
   
   /**
@@ -93,9 +88,6 @@ public class DispatchBParser extends SmartAddressParser {
   protected boolean parseMsg(String body, Data data) {
     
     if (! isPageMsg(body)) return false;
-    
-    data.defState=defState;
-    data.defCity = defCity;
     
     body = "Loc: " + body;
     Properties props = parseMessage(body, KEYWORDS);

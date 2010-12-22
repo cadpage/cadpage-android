@@ -23,11 +23,13 @@ public class PABerksCountyParser extends SmsMsgParser {
   private static final String DEF_CITY = "BERKS COUNTY";
   
   private static final Pattern MUNI_CODE_PAT = Pattern.compile(" 00\\d\\d ");
+  
+  public PABerksCountyParser() {
+    super(DEF_CITY, DEF_STATE);
+  }
 
   @Override
   protected boolean parseMsg(String body, Data data) {
-    data.defState = DEF_STATE;
-    data.defCity = DEF_CITY;
 
     // Strip off any prefix
     int pt = body.indexOf("CAD MSG: ");

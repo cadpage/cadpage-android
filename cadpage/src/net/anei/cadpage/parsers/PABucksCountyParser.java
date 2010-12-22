@@ -30,6 +30,10 @@ public class PABucksCountyParser extends SmsMsgParser {
   private static final String[] KEYWORDS = 
       new String[]{"911", "type", "adr", "btwn", "aai", "box", "map", "tm"};
   
+  public PABucksCountyParser() {
+    super("BUCKS COUNTY", "PA");
+  }
+  
   @Override
   public String getFilter() {
     return "@bnn.us";
@@ -40,9 +44,6 @@ public class PABucksCountyParser extends SmsMsgParser {
     
     int pt = body.indexOf("911:");
     if (pt < 0) return false;
-
-    data.defState="PA";
-    data.defCity = "BUCKS COUNTY";
     
     body = body.replaceAll(" btwn ", " btwn:").replaceAll("&nbsp;", " ").replaceAll("&amp;", "&").trim();
     Properties props = parseMessage(body, KEYWORDS);

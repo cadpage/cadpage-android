@@ -30,9 +30,6 @@ MAILBOX:S07 EMS-HIGH BLOOD PRESSURE 1808 BETHLEHEM RD BML CFS# 2010-030643 CROSS
 */
 
 public class DispatchDAPROParser extends SmartAddressParser {
-
-  private String defCity;
-  private String defState;
   
   private Properties cityCodeTable;
 	
@@ -41,17 +38,13 @@ public class DispatchDAPROParser extends SmartAddressParser {
   private static final Pattern MARKER = Pattern.compile("\\b[SRC]\\d\\d\\b");
   
   public DispatchDAPROParser(Properties cityCodeTable, String defCity, String defState) {
-    super(cityCodeTable, defState);
+    super(cityCodeTable, defCity, defState);
     this.cityCodeTable = cityCodeTable;
-    this.defCity = defCity;
-    this.defState = defState;
     buildCallDictionary();
   }
   
   @Override
   protected boolean parseMsg(String body, Data data) {
-	   data.defState=defState;
-	   data.defCity=defCity;
     
     // Locate the marker to determine where our part of the message starts
     Matcher match = MARKER.matcher(body);

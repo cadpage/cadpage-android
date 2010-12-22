@@ -23,7 +23,7 @@ public class VAWaynesboroParser extends SmartAddressParser {
   private static final String DEF_CITY = "WAYNESBORO";
   
   public VAWaynesboroParser() {
-    super(DEF_STATE);
+    super(DEF_CITY, DEF_STATE);
   }
   
   @Override
@@ -33,9 +33,6 @@ public class VAWaynesboroParser extends SmartAddressParser {
 
   @Override
   protected boolean parseMsg(String body, Data data) {
-    
-    data.defState = DEF_STATE;
-    data.defCity = DEF_CITY;
     
     // Strip everything in from of colon
     int ipt = body.indexOf(':');

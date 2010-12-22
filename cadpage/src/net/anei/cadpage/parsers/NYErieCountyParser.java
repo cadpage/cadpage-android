@@ -48,16 +48,13 @@ public class NYErieCountyParser extends SmartAddressParser {
   private static final String DEF_CITY = "ERIE COUNTY";
   
   public NYErieCountyParser() {
-    super(DEF_STATE);
+    super(DEF_CITY, DEF_STATE);
   }
 
   @Override
   protected boolean parseMsg(String body, Data data) {
     
     if (! body.startsWith("AMH ")) return false;
-
-    data.defState= DEF_STATE;
-    data.defCity = DEF_CITY;
     
     parseAddress(StartType.START_ADDR, body.substring(4), data);
     data.strCall = getLeft();

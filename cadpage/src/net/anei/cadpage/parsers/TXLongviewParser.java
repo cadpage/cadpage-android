@@ -24,7 +24,7 @@ public class TXLongviewParser extends DispatchProQAParser {
   private static final Pattern TIME_PATTERN = Pattern.compile("\\d\\d:\\d\\d");
   
   public TXLongviewParser() {
-    super(DEF_STATE, DEF_CITY);
+    super(DEF_CITY, DEF_STATE);
   }
 
   @Override

@@ -4,6 +4,10 @@ import net.anei.cadpage.ManagePreferences;
 import net.anei.cadpage.SmsMsgInfo.Data;
 
 public class GeneralParser extends SmartAddressParser {
+  
+  public GeneralParser() {
+    super("","");
+  }
 
   @Override
   protected boolean parseMsg(String body, Data data) {

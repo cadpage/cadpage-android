@@ -19,9 +19,16 @@ Subject:IPS I/Page Notification 9900 E 102ND AVE ADAM CCPD:USF 06:06:49 TYPE COD
 
 public class COAdamsCountyParser extends SmsMsgParser {
   
+  private static String DEF_CITY = "ADAMS COUNTY";
+  private static String DEF_STATE = "CO";
+  
   private static final String CAD_MARKER = "Subject:IPS I/Page Notification ";
   private static final String[] KEYWORDS = 
-    new String[]{"LOC", "TYPE CODE", "CALLER NAME", "TIME", "Comments"}; 
+    new String[]{"LOC", "TYPE CODE", "CALLER NAME", "TIME", "Comments"};
+  
+  public COAdamsCountyParser() {
+    super(DEF_CITY,DEF_STATE);
+  }
   
   @Override
   public String getFilter() {
@@ -35,8 +42,8 @@ public class COAdamsCountyParser extends SmsMsgParser {
     if (pt < 0) return false;
     body = "LOC:" + body.substring(pt+CAD_MARKER.length());
 
-    data.defState="CO";
-    data.defCity = "ADAMS COUNTY";
+    data.defState= DEF_STATE;
+    data.defCity = DEF_CITY;
     
     Properties props = parseMessage(body, KEYWORDS);
     String sAddr = props.getProperty("LOC", "");

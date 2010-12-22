@@ -40,6 +40,6 @@ NO 1000 STATION
 public class MDWorcesterCountyParser extends DispatchOSSIParser {
  
   public MDWorcesterCountyParser() {
-    setDefaults("WORCESTER COUNTY", "MD");
+    super("WORCESTER COUNTY", "MD");
   }
 }

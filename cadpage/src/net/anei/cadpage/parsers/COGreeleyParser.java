@@ -15,13 +15,15 @@ import net.anei.cadpage.SmsMsgInfo.Data;
 
 public class COGreeleyParser extends SmsMsgParser {
 
+  public COGreeleyParser() {
+    super("Greeley", "CO");
+  }
+
   @Override
   protected boolean parseMsg(String body, Data data) {
     
     if (!body.contains(",TEXT:")) return false;
 
-    data.defState="CO";
-    data.defCity = "Greeley";
     String[] flds = body.split(",");
     if (flds.length > 3) {
       data.strCallId = flds[0];

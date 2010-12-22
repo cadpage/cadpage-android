@@ -2,7 +2,6 @@ package net.anei.cadpage.parsers;
 
 import java.util.Properties;
 
-import net.anei.cadpage.Log;
 import net.anei.cadpage.SmsMsgInfo.Data;
 
 /*    
@@ -16,6 +15,10 @@ Sender: alerts@corvallis.ealertgov.com
 
 public class ORBentonCountyParser extends SmsMsgParser {
   
+  public ORBentonCountyParser() {
+    super("BENTON COUNTY", "OR");
+  }
+  
   @Override
   public String getFilter() {
     return "alerts@corvallis.ealertgov.com";
@@ -25,9 +28,6 @@ public class ORBentonCountyParser extends SmsMsgParser {
   protected boolean parseMsg(String body, Data data) {
     if (!body.startsWith("(Corvallis Alert)")) return false;
 
-    Log.v("DecodeBentonCo: Message Body of:" + body);
-    data.defState="OR";
-    data.defCity="BENTON COUNTY";
     Properties props = parseMessage(body, "\n");
     
     data.strCall=props.getProperty("INC", null);

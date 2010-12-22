@@ -22,6 +22,10 @@ then the time of dispatch.
 
 public class PALancasterCountyParser extends SmsMsgParser {
   
+  public PALancasterCountyParser() {
+    super("LANCASTER COUNTY", "PA");
+  }
+  
   @Override
   public String getFilter() {
     return "911@lcwc911.us";
@@ -31,9 +35,6 @@ public class PALancasterCountyParser extends SmsMsgParser {
   protected boolean parseMsg(String body, Data data) {
     
     if (!body.startsWith("(") || ! body.contains("~")) return false;
-    
-    data.defState="PA";
-    data.defCity = "LANCASTER COUNTY";
     
     int ndx = 0;
     for (String line : body.split("~")) {

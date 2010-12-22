@@ -33,7 +33,7 @@ public class ILMedstarParser extends DispatchProQAParser {
       
   
   public ILMedstarParser() {
-    super("IL", "");
+    super("", "IL");
   }
   
   @Override

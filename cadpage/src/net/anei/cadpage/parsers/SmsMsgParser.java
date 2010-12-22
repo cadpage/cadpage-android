@@ -17,8 +17,30 @@ import net.anei.cadpage.SmsMsgInfo.Data;
  */
 public abstract class SmsMsgParser {
   
+  private String defCity;
+  private String defState;
+  
   // Pattern matching a terminated string of digits
   public static final Pattern NUMERIC = Pattern.compile("\\b\\d+\\b");
+  
+  public SmsMsgParser(String defCity, String defState) {
+    this.defCity = defCity;
+    this.defState = defState;
+  }
+
+  /**
+   * @return parsers default city
+   */
+  public String getDefaultCity() {
+    return defCity;
+  }
+
+  /**
+   * @return parsers default state
+   */
+  public String getDefaultState() {
+    return defState;
+  }
   
   /**
    * build information object
@@ -35,7 +57,11 @@ public abstract class SmsMsgParser {
     // Decode the call page and place the data in the database
     String strMessage = msg.getMessageBody();
     Data data = new Data();
-    if (parseMsg(strMessage, data)) return data;
+    if (parseMsg(strMessage, data)) {
+      data.defCity = defCity;
+      data.defState = defState;
+      return data;
+    }
     
     // If this isn't a valid CAD page, see if we should treat it as a general alert
     // If not then return failure
@@ -493,5 +519,4 @@ public abstract class SmsMsgParser {
      return result;
    }
  }
-
 }

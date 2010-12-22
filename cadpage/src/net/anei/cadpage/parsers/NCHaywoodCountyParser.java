@@ -33,6 +33,10 @@ Street not
 */
 
 public class NCHaywoodCountyParser extends SmsMsgParser {
+  
+  public NCHaywoodCountyParser() {
+    super("HAYWOOD COUNTY", "NC");
+  }
 
   @Override
   public String getFilter() {
@@ -44,9 +48,6 @@ public class NCHaywoodCountyParser extends SmsMsgParser {
   protected boolean parseMsg(String body, Data data) {
     
     if (! body.startsWith("CAD:")) return false;
-    
-    data.defState="NC";
-    data.defCity = "HAYWOOD COUNTY";
 
     if (body.length() < 4) return false;
     String[] lines = body.substring(4).split(";");

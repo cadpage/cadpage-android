@@ -56,26 +56,18 @@ Street not
 
 public class DispatchOSSIParser extends SmsMsgParser {
 
-	  private String defCity;
-	  private String defState;
-	  private int cadVersion;
+	  private int cadVersion = 1;
 	  
 	  private static final Pattern TIME_DATE = Pattern.compile("\\d\\d/\\d\\d/\\d\\d\\d\\d \\d\\d:\\d\\d:\\d\\d");
 	  
-  public void setDefaults(String defCity, String defState) {
-	    this.defCity = defCity;
-	    this.defState = defState;
-	  }
+  public DispatchOSSIParser(String defCity, String defState) {
+    super(defCity, defState);
+  }
 
   @Override
   protected boolean parseMsg(String body, Data data) {
     
     if (! body.startsWith("CAD:")) return false;
-    
-    data.defState=defState;
-    data.defCity = defCity;
-    if (defCity== "WORCESTER COUNTY") {cadVersion=1;}
-    if (defCity== "HAYWOOD COUNTY") {cadVersion=2;}
 
     if (body.length() < 4) return false;
     String[] lines = body.substring(4).split(";");
@@ -179,13 +171,6 @@ public class DispatchOSSIParser extends SmsMsgParser {
     return true;
   }
 
-
-  private boolean isCallId(String line) {
-    int pt = line.indexOf(' ');
-    if (pt >= 0) line = line.substring(0,pt);
-    return line.length() == 3 && Character.isDigit(line.charAt(0)) &&
-      ! NUMERIC.matcher(line).matches();
-  }
   private boolean isDateTime(String line) {
 	  Matcher match = TIME_DATE.matcher(line);
 	  return match.matches();

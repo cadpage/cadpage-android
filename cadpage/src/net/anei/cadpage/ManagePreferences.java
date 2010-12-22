@@ -15,7 +15,7 @@ public class ManagePreferences {
   // (OK, if you know what you are doing, and the only new settings added
   // are boolean settings that default to false, you can get away with not
   // changing this)
-  private static final int PREFERENCE_VERSION = 4;
+  private static final int PREFERENCE_VERSION = 5;
   
   private static ManagePreferences prefs;
 
@@ -110,6 +110,18 @@ public class ManagePreferences {
   
   public static boolean showSource() {
     return prefs.getBoolean(R.string.pref_show_source_key);
+  }
+  
+  public static boolean overrideDefaults() {
+    return prefs.getBoolean(R.string.pref_override_default_key);
+  }
+  
+  public static String defaultCity() {
+    return prefs.getString(R.string.pref_defcity_key);
+  }
+  
+  public static String defaultState() {
+    return prefs.getString(R.string.pref_defstate_key);
   }
   
   public static boolean notifyEnabled() {

@@ -22,7 +22,7 @@ public class NYDixHillsParser extends SmartAddressParser {
   private static final String DEF_CITY = "DIX HILLS";
   
   public NYDixHillsParser() {
-    super(DEF_STATE);
+    super(DEF_CITY, DEF_STATE);
   }
   
   @Override

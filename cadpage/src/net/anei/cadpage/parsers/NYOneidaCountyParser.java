@@ -19,12 +19,13 @@ o;?WHIF:2010:0704>Dispatched>EMS/ABDOMINAL PAIN>20 MOHAWK ST, WHITESBORO VILLAGE
 */
 
 public class NYOneidaCountyParser extends SmsMsgParser {
+  
+  public NYOneidaCountyParser() {
+    super("ONEIDA COUNTY", "NY");
+  }
 
   @Override
   protected boolean parseMsg(String body, Data data) {
-
-    data.defState="NY";
-    data.defCity="ONEIDA COUNTY";
     
     body = body.replaceAll(">", "\n");
     int pt = body.indexOf("\nDispatched\n");

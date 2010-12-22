@@ -94,35 +94,18 @@ public abstract class SmartAddressParser extends SmsMsgParser {
   // List of multiple word cities that need to be converted to and from single tokens
   List<String[]> mWordCities = null;
   
-  public SmartAddressParser(String[] cities, String state) {
-    this();
-    setupCities(cities);
-    setupDictionary(ID_ROUTE_PFX, new String[]{state});
-  }
-  
-  public SmartAddressParser(Properties cityTable, String state) {
-    this();
-    setupCities(getKeywords(cityTable));
-    setupDictionary(ID_ROUTE_PFX, new String[]{state});
-  }
-  
-  public SmartAddressParser(String[] cities) {
-    this();
+  public SmartAddressParser(String[] cities, String defCity, String defState) {
+    this(defCity, defState);
     setupCities(cities);
   }
   
-  public SmartAddressParser(Properties cityTable) {
-    this();
+  public SmartAddressParser(Properties cityTable, String defCity, String defState) {
+    this(defCity, defState);
     setupCities(getKeywords(cityTable));
   }
   
-  public SmartAddressParser(String state) {
-    this();
-    setupDictionary(ID_ROUTE_PFX, new String[]{state});
-  }
-  
-  // Default constructor
-  public SmartAddressParser() {
+  public SmartAddressParser(String defCity, String defState) {
+    super(defCity, defState);
     setupDictionary(ID_ROAD_SFX, 
         "AVENUE", "AV", "AVE", 
         "STREET", "ST", 
@@ -144,6 +127,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
         "GTWY",
         "PLAZ", "PLAZA");
     setupDictionary(ID_ROUTE_PFX, "RT", "ST", "SRT", "US", "FS", "INTERSTATE", "I", "HW", "HWY", "STHWY", "CO", "CR");
+    setupDictionary(ID_ROUTE_PFX, new String[]{defState});
     setupDictionary(ID_DIRECTION, "N", "NE", "E", "SE", "S", "SW", "W", "NW", "NB", "EB", "SB", "WB");
     setupDictionary(ID_CONNECTOR, "AND", "/", "&");
     setupDictionary(ID_AT_MARKER, "AT", "@");

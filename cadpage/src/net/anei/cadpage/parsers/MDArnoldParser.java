@@ -37,14 +37,11 @@ public class MDArnoldParser extends SmartAddressParser {
   private static final Pattern BOX = Pattern.compile("\\b\\d\\d-[A-Z0-9]{1,3}\\b");
 
   public MDArnoldParser() {
-    super(DEF_STATE);
+    super(DEF_CITY, DEF_STATE);
   }
 
   @Override
   protected boolean parseMsg(String body, Data data) {
-
-    data.defState=DEF_STATE;
-    data.defCity=DEF_CITY;
     
     Matcher match = BOX.matcher(body);
     if (! match.find()) return false;

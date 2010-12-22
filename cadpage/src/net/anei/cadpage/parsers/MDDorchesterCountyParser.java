@@ -27,7 +27,7 @@ public class MDDorchesterCountyParser extends SmartAddressParser {
     });
 
   public MDDorchesterCountyParser(){
-    super(CITY_CODE_TABLE, DEF_STATE);
+    super(CITY_CODE_TABLE, DEF_CITY, DEF_STATE);
   }
   
   public String getFilter() {
@@ -41,9 +41,6 @@ public class MDDorchesterCountyParser extends SmartAddressParser {
     int ipt = body.indexOf("DOR911:CT:");
     if (ipt < 0) return false;
     body = body.substring(ipt+7).replaceAll(" :DC", "");;
-    
-    data.defState = DEF_STATE;
-    data.defCity = DEF_CITY;;
     
     // If there is a : right after city then there is Supp data between City Code and ESZ:
     

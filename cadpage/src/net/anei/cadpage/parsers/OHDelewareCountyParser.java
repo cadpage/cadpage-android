@@ -17,6 +17,10 @@ Sender: 911@co.delaware.oh.us
 
 public class OHDelewareCountyParser extends SmsMsgParser {
   
+  public OHDelewareCountyParser() {
+    super("DELEWARE COUNTY", "OH");
+  }
+  
   @Override
   public String getFilter() {
     return "911@co.delaware.oh.us";
@@ -25,9 +29,6 @@ public class OHDelewareCountyParser extends SmsMsgParser {
   @Override
   protected boolean parseMsg(String body, Data data) {
 
-    data.defState="OH";
-    data.defCity = "DELEWARE COUNTY";
-    
     String[] lines = body.split(" *\n *");
     // First line contains the call description
     String line = lines[0];

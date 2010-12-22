@@ -475,14 +475,11 @@ Sender: paging@minquas.org
 Very messy text format, haven't figured out exact what is what.
 More info requested 12/14
 **********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
 Fairfield County, OH
 Contact: Brian Malone <ptfd13@gmail.com>
 Sender: radio@sheriff.fairfield.oh.us
 System: Emergitech.
-User working on fixing the extraneous space
+User working on fixing the extraneous space  (contact 12/21)
 [DIS44]- NATURE: ACAL LOCATION: 114 ACADEMY ST PLEASANTV ILLE BETWEEN S MAIN ST / LINCOLN AV COMMENTS: NO APT GIVENGENDERAL FIRE -DIS44 Fairfield 911
 [DIS15]- NATURE: S29 LOCATION: 2295 ELDER RD NE PLEASAN T TWP BETWEEN US RT 22 / BERRY RD COMMENTS: 67 YOF SEVERE A BD & SIDE PAINS. -DIS15 Fairfield
 [DIS20]- NATURE: C4 LOCATION: 4815 OLD MILLERSPORT RD NE PLEASANT TWP BETWEEN OLD MILL RD / CARROLL-EASTERN RD CO MMENTS: REF TO 2 VEHICLES, 1 INTO CO
@@ -515,6 +512,9 @@ I will list all the townships in the county and the towns in those townships
       - Royalton
    - Liberty Township
       - Baltimore
+**********************************************************
+**********************************************************
+**********************************************************
 **********************************************************
 Lackawanna County, PA
 Contact: greg rhodes <grhodes908@gmail.com>
@@ -851,6 +851,7 @@ Contact: Andrew Himmer <himmer1w1@gmail.com>
 Contact: Keith Stumpf <keith.stumpf@yahoo.com>
 Sender: cfcrs8@gmail.com
 0833*HEART RELATED*37 LILLIAN CIR*BARNES CORNER RD*HOPEWELL RD*RS*11:04:07*10023098
+0841*SICK PERSON*480 HARRISVILLE RD*THRUWAY DR*WYATT LN*COLO*13:46:15*10023234
 **********************************************************
 Bella Vista, CA (Shasta County?)
 Contact: Cody Lande <cody.lande@gmail.com>
@@ -884,11 +885,26 @@ Buncombe county, NC
 Contact:  "dean.castaldo@att.net" <dean.castaldo@att.net>
 CAD:433 LONG SHOALS RD;B21U;SUBJECT STILL DOWN;EDGAR BULLUCK;FALLS;LEDBETTER RD;CLAYTON RD
 CAD:1 HAMBY DR;B9;(FR) STRUCTURE FIRE;OWENBY COVE RD
+CAD:411 POCONO CT;B21U;EGERTON, NANCY;CHEST PAIN;ROCKY MOUNTAIN WAY
+CAD:3055 SWEETEN CREEK RD;SMOKE DET/;PECHINEY PLASTIC PACKAGIN;ADT;(FR) FIRE ALARM;WESLEY DR;FAR HORIZONS LN;10015419
+CAD:206 ROYAL PINES DR;B21;TAYLOR, ROBERT E;UNCONSCIOUS/ FAINTING;SWEETEN CREEK RD;APPIAN WAY
 **********************************************************
 Unknown, was trying to use Nassau County)
 Contact: Tommy Johnson <tjohnson377.tj@gmail.com>
 Sender: paging@alpinesoftware.com <From%3Apaging@alpinesoftware.com>
 FireCom:  46 TREDWELL AVE (SIG 9-AMBU) CARDIAC MALE
+**********************************************************
+Charles County, MD
+Contact: Darrin Tomlinson <lackeychargers08@verizon.net>
+Sender: rc.263@c-msg.net
+
+(*CAD*) [CAD] UNDETERMINED FIRE MIDDLETOWN RD / LYLES PL 3H11-9G1 CALLER LIVES ON CADWELL ST AND CAN SEE A LARGE FIRE THRU THE WOODS...UNSURE WHAT IT IS F103490
+(*CAD*) [CAD] TROUBLE BREATHING, RESPIRATORY DISTRESS, EMS, ALS, 6C, 6D 3465 LAUREL DR 7 H3 65 year old, Female, Conscious, Breathing. Breathing Problems. Abnor
+(*CAD*) [CAD] CO DETECTOR, CARBON MONOXIDE, 8A 2204 JASON CT 7 K2 CALLER ADVISED HIS BSMT CO DETECTOR IS GOING OFF. F103510001 1022578 02:01
+(*CAD*) [CAD] UNKNOWN MEDICAL ALARM, EMS, BLS, 32B 3487 HIGHGROVE DR 8 H5 Age unknown, Gender unknown, Consciousness unknown, Breathing status unknown. Unknown 
+(*CAD*) [CAD] 10-50 PI, EMS, BLS, 29A HAWTHORNE RD / CHICAMUXEN RD 7 F11 Age unknown, Gender unknown, Consciousness unknown, Breathing status unknown. Unknown n
+(*CAD*) [CAD] MULTI FAMILY HOUSE FIRE, TOWNHOUSE, M/F, APARTMENT, 130 KALMIA CT 17 F6 DRYER ON FIRE / ADVISED TO GET OUT F103550006 1022816 12:07
+**********************************************************
 **********************************************************
 **********************************************************
 **********************************************************

@@ -21,14 +21,15 @@ All calls in Erie County, New York. Town of Clarence Center.
 public class NYAmherstParser extends SmsMsgParser {
   
     private static final Pattern BOX = Pattern.compile("\\s[A-Z][A-Z][A-Z]\\.?\\s");
+    
+    public NYAmherstParser() {
+      super("AMHERST", "NY");
+    }
 
 	  @Override
 	  protected boolean parseMsg(String body, Data data) { 
 
 	    if (! body.startsWith("CLA ")) return false;
-
-	    data.defState="NY";
-	    data.defCity="AMHERST";
 	    
 	    body = body.substring(4).trim();
 	    String strAddr = "";

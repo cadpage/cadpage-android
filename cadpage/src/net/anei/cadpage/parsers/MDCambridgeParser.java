@@ -29,7 +29,7 @@ public class MDCambridgeParser extends SmartAddressParser {
     });
 
   public MDCambridgeParser(){
-    super(CITY_CODE_TABLE);
+    super(CITY_CODE_TABLE, "CAMBRIDGE", "MD");
   }
 
   
@@ -38,9 +38,6 @@ public class MDCambridgeParser extends SmartAddressParser {
     
     
     if (!body.contains("DOR911") ) return false;
-    
-    data.defState = "MD";
-    data.defCity = "CAMBRIDGE";
     
     // If there is a : right after city then there is Supp data between City Code and ESZ:
     body = body.substring(body.indexOf(":")+1);

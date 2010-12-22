@@ -143,8 +143,11 @@ public class SmsMsgInfo {
     }
     
     // Add city if specified, default city otherwise
+    boolean override = ManagePreferences.overrideDefaults();
     String city = strCity;
-    if (city.length() == 0) city = defCity;
+    if (city.length() == 0) {
+      city = (override ? ManagePreferences.defaultCity() :  defCity);
+    }
     if (city.length() > 0) {
       sb.append(",");
       sb.append(city);
@@ -152,7 +155,9 @@ public class SmsMsgInfo {
     
     // Add state if specified, default state otherwise
     String state = strState;
-    if (state.length() == 0) state = defState;
+    if (state.length() == 0) {
+      state = (override ? ManagePreferences.defaultState() : defState);
+    }
     if (state.length() > 0) {
       sb.append(",");
       sb.append(state);

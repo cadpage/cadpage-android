@@ -38,6 +38,10 @@ Sender: CDC_Dispatch@charlestoncounty.org ??
 public class SCCharlestonCountyParser extends SmsMsgParser {
   private static final String[] KEYWORDS = new String[]{"CALL","Address", "X Street", "Cmd Channel"};
   
+  public SCCharlestonCountyParser() {
+    super("CHARLESTON COUNTY", "SC");
+  }
+  
   @Override
   public String getFilter() {
     return "CDC_Dispatch@charlestoncounty.org";

@@ -37,6 +37,10 @@ public class NYOrleansCountyParser extends SmsMsgParser {
   
   private static final Pattern MAP_PATTERN = Pattern.compile("\\b\\d{1,2}-?[A-Za-z]-?\\d\\b");
   
+  public NYOrleansCountyParser() {
+    super("ORLEANS COUNTY", "NY");
+  }
+  
   @Override
   public String getFilter() {
     return "ocdispatch@orleansny.com";
@@ -44,8 +48,6 @@ public class NYOrleansCountyParser extends SmsMsgParser {
 
   @Override
   protected boolean parseMsg(String body, Data data) {
-    data.defState="NY";
-    data.defCity = "ORLEANS COUNTY";
     
     String[] flds = body.split(";");
     data.strCall = flds[0].trim();

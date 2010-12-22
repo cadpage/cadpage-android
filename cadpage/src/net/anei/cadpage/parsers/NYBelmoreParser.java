@@ -26,6 +26,10 @@ public class NYBelmoreParser extends SmsMsgParser {
   
   private static final Pattern EOL_MARK = Pattern.compile(". . \\d\\d:\\d\\d:\\d\\d *$");
   
+  public NYBelmoreParser() {
+    super("BELLMORE", "NY");
+  }
+  
   @Override
   public String getFilter() {
     return "paging@alpinesoftware.com";
@@ -35,9 +39,6 @@ public class NYBelmoreParser extends SmsMsgParser {
   protected boolean parseMsg(String body, Data data) {
     
     if (! body.contains(" at ")) return false;
-
-    data.defState="NY";
-    data.defCity="BELLMORE";
     
     // Strip off trailing time mark
     Matcher match = EOL_MARK.matcher(body);

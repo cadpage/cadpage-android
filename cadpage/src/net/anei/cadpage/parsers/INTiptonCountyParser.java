@@ -1,6 +1,5 @@
 package net.anei.cadpage.parsers;
 
-import net.anei.cadpage.Log;
 import net.anei.cadpage.SmsMsgInfo.Data;
 /*
 Tipton County, IN (or TN?)
@@ -16,7 +15,11 @@ CAD:G49;OUTSIDE FIRE-FIELD/WOODS;6001;6500 N 400 E
 Notes: 4 digit number between description and address should be ignored
 */
 
-public class INTiptonCountyParser extends SmsMsgParserLegacy {
+public class INTiptonCountyParser extends SmsMsgParser {
+  
+  public INTiptonCountyParser() {
+    super("TIPTON COUNTY", "IN");
+  }
   
   @Override
   public String getFilter() {
@@ -24,20 +27,18 @@ public class INTiptonCountyParser extends SmsMsgParserLegacy {
   }
 
   @Override
-  public boolean isPageMsg(String body) {
-    return body.startsWith("CAD:");
-  }
+  protected boolean parseMsg(String body, Data data) {
 
-  @Override
-  protected void parse(String body, Data data) {
-    Log.v("decodeTiptonPage: Message Body of:" + body);
-    data.defState = "IN";
-    data.defCity = "TIPTON COUNTY";
-    
-    if (body.length() < 4) return;
+    if (! body.startsWith("CAD:")) return false;
     String[] lines = body.substring(4).split(";");
-    data.strUnit = lines[0];
-    if (lines.length > 1) data.strCall = lines[1];
+    data.strUnit = lines[0].trim();
+    if (lines.length > 1) data.strCall = lines[1].trim();
+    if (lines.length > 2) data.strCallId = lines[2].trim();
     if (lines.length > 3) parseAddress(lines[3], data);
+    if (lines.length > 4) {
+      Parser p = new Parser(lines[4]);
+      data.strSupp = p.get('[');
+    }
+    return true;
   }
 }

@@ -1,10 +1,7 @@
 package net.anei.cadpage.parsers;
 
 import java.util.Properties;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
-import net.anei.cadpage.Log;
 import net.anei.cadpage.SmsMsgInfo.Data;
 
 /*    
@@ -21,22 +18,16 @@ WARNING!!  Sending the following message crashes the emulator
 FRM:LogiSYSCAD\nSUBJ:CAD Page for CFS 110510-132\nMSG:AUTOMATIC HOUSE ALARM 150 MAPLE ST\x09Units: ENG16 TR16 ENG17
 */
 
-public class MDAlleganyCountyParser extends SmsMsgParserLegacy {
+public class MDAlleganyCountyParser extends SmartAddressParser {
   
-  // Pattern matching a sequence of two or more blanks
-  protected static final Pattern MULT_BLANKS = Pattern.compile("  +");
-
-  @Override
-  public boolean isPageMsg(String body) {
-    return body.startsWith("FRM:LogiSYSCAD\n");
+  public MDAlleganyCountyParser() {
+    super("ALLEGANY COUNTY", "MD");
   }
 
   @Override
-  protected void parse(String body, Data data) {
+  protected boolean parseMsg(String body, Data data) {
     
-    Log.v("DecodeAlleganyCo: Message Body of:" + body);
-    data.defState="MD";
-    data.defCity="ALLEGANY COUNTY";
+    if (! body.startsWith("FRM:LogiSYSCAD\n")) return false;
     
     body = body.replaceAll("\t", "\n");
     Properties props = parseMessage(body, "\n");
@@ -50,32 +41,21 @@ public class MDAlleganyCountyParser extends SmsMsgParserLegacy {
     // MSG: line contains call description and address.
     // The separator can be several different things
     line = props.getProperty("MSG", "");
-    String address = null;
-    Matcher match;
     
-    // Address may start with "U:"
+    // Address may be separated by a U: marker
     pt = line.indexOf(" U:");
     if (pt >= 0) {
       data.strCall = line.substring(0, pt).trim();
-      address = line.substring(pt+3).trim();
+      parseAddress(line.substring(pt+3).trim(), data);;
     }
     
-    // May be separated by string of 2 or more blanks
-    else if ((match = MULT_BLANKS.matcher(line)).find()) {
-      data.strCall = line.substring(0, match.start());
-      address = line.substring(match.end());
+    // Otherwise invoke the smart parser to split the call from the address
+    else {
+      parseAddress(StartType.START_CALL, FLAG_ANCHOR_END, line, data);
     }
-    
-    // Or address may start with a numeric token
-    else if ((match = NUMERIC.matcher(line)).find()) {
-      data.strCall = line.substring(0,match.start()).trim();
-      address = line.substring(match.start());
-    }
-    
-    // parse address line
-    if (address != null) parseAddress(address, data);
     
     // UNITS: line contains the units
     data.strUnit = props.getProperty("Units", "");
+    return true;
   }
 }

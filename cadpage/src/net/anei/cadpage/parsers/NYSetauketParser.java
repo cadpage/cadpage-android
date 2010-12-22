@@ -14,23 +14,18 @@ AMBULANCE, HEMORRHAGE / LACERATIONS: 21-A-1 - 61 YOM - CUT TO HAND at 8 HOLLY LN
 MISC CALL WITH RESCUE, MVA: 29-B-1U - INJURIES at C/O, Setauket  c/s: WIRELESS RD . . 16:08:02
  */
 
-public class NYSetauketParser extends SmsMsgParserLegacy {
-  
-  private static final String DEF_STATE = "NY";
-  private static final String DEF_CITY = "SETAUKET";
+public class NYSetauketParser extends SmsMsgParser {
   
   private static final Pattern MAP_CODE = Pattern.compile("\\b\\d{1,2}-[A-Z]-\\d{1,2}[A-Z]?\\b");
-
-  @Override
-  public boolean isPageMsg(String body) {
-    return body.toUpperCase().contains("SETAUKET") ;
+  
+  public NYSetauketParser() {
+    super("SETAUKET", "NY");
   }
 
   @Override
-  protected void parse(String body, Data data) {
-  
-    data.defState=DEF_STATE;
-    data.defCity=DEF_CITY;
+  protected boolean parseMsg(String body, Data data) {
+
+    if (! body.toUpperCase().contains("SETAUKET")) return false;
 
     body = body.replace(" at ", " LOC: ").replace(" . . ", " TIME:");
     body = "CALL: " + body;
@@ -63,5 +58,6 @@ public class NYSetauketParser extends SmsMsgParserLegacy {
     }
     data.strCross = props.getProperty("CROSS", "");
 
+    return true;
   }
 }

@@ -34,6 +34,10 @@ public class MDPrinceGeorgesCountyParser extends SmsMsgParser {
       "DC", "WASHINGTON"
   });
   
+  public MDPrinceGeorgesCountyParser() {
+    super("PRINCE GEORGES COUNTY", "MD");
+  }
+  
   @Override
   public String getFilter() {
     return "@fireblitz.com";
@@ -45,9 +49,6 @@ public class MDPrinceGeorgesCountyParser extends SmsMsgParser {
     String[] lines = body.split("\n");
     if (lines.length != 5 && lines.length != 6) return false;
     if (! lines[lines.length-1].startsWith("http://fireblitz.com/")) return false;
-    
-    data.defState = "MD";
-    data.defCity = "PRINCE GEORGES COUNTY";  
     
     int ndx = 1;
     for (String line : lines) {

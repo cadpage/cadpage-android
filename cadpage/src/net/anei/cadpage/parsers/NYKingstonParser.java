@@ -12,19 +12,18 @@ import net.anei.cadpage.SmsMsgInfo.Data;
 
 ((2203) BKIN/ ) Unit:ENG6 UnitSts: Loc:89 NEWKIRK AV XSts:HASBROUCK AV/MAPLE  Venue:King City Inc:Struct Fir Date:11/05/2010 Time:21:39 BASEMENT FULL OF SMOKE ***/
 
-public class NYKingstonParser extends SmsMsgParserLegacy {
+public class NYKingstonParser extends SmsMsgParser {
 
   private static final String[]Kingstonkeywords = new String[]{"Unit","UnitSts","Loc", "XSts", "Venue", "Inc","Date", "Time"};
-
-  @Override
-  public boolean isPageMsg(String body) {
-    return isPageMsg(body, Kingstonkeywords);
+  
+  public NYKingstonParser() {
+    super("Kingston", "NY");
   }
 
   @Override
-  protected void parse(String body, Data data) {
-    data.defState = "NY";
-    data.defCity = "Kingston";
+  protected boolean parseMsg(String body, Data data) {
+
+    if (!isPageMsg(body, Kingstonkeywords)) return false;
 
     Properties props = parseMessage(body, Kingstonkeywords);
     data.strCity = props.getProperty("Venue", "").replaceAll(" +", " ");
@@ -36,6 +35,7 @@ public class NYKingstonParser extends SmsMsgParserLegacy {
     String sSupp = props.getProperty("Time","");
     int ipt = sSupp.indexOf(' ');
     if (ipt >= 0) data.strSupp = sSupp.substring(ipt+1).trim();
+    return true;
     
   }
 }

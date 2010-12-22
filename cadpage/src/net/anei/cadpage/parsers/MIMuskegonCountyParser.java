@@ -16,6 +16,10 @@ CAD:FYI: ;N WEBER RD/W MICHILLINDA RD;PI1
  */
 public class MIMuskegonCountyParser extends SmsMsgParser {
   
+  public MIMuskegonCountyParser() {
+    super("MUSKEGON COUNTY", "MI");
+  }
+  
   @Override
   public String getFilter() {
     return "cad@mcd911.net";
@@ -25,9 +29,6 @@ public class MIMuskegonCountyParser extends SmsMsgParser {
   protected boolean parseMsg(String body, Data data) {
     
     if (!body.startsWith("CAD:FYI:")) return false;
-    
-    data.defState="MI";
-    data.defCity = "MUSKEGON COUNTY";
     
     body = body.trim();
     String[] AData = body.split(";");

@@ -270,7 +270,7 @@
           android:defaultValue="@string/pref_override_filter_default" />
       
       <net.anei.cadpage.preferences.EditTextPreference  
-          android:dialogTitle="From: (Filter)"
+          android:dialogTitle="@string/pref_filter_title"
           android:dialogMessage="@string/pref_filter_dialog"
           android:key="@string/pref_filter_key"
           android:title="@string/pref_filter_title"
@@ -303,6 +303,33 @@
         android:key="@string/pref_testmsg_key"
         android:title="@string/pref_testmsg_title" >
       </Preference>
+      
+      <CheckBoxPreference
+          android:key="@string/pref_override_default_key"
+          android:title="@string/pref_override_default_title"
+          android:summaryOn="@string/pref_override_default_summaryon"
+          android:summaryOff="@string/pref_override_default_summaryoff"
+          android:defaultValue="@string/pref_override_default_default" />
+      
+      <net.anei.cadpage.preferences.EditTextPreference  
+          android:dialogTitle="@string/pref_defcity_title"
+          android:dialogMessage="@string/pref_defcity_dialog"
+          android:key="@string/pref_defcity_key"
+          android:title="@string/pref_defcity_title"
+          android:summary="@string/pref_defcity_summary"
+          android:capitalize="characters"
+          android:inputType="textVisiblePassword"
+          android:defaultValue=""/>
+      
+      <net.anei.cadpage.preferences.EditTextPreference  
+          android:dialogTitle="@string/pref_defstate_title"
+          android:dialogMessage="@string/pref_defstate_dialog"
+          android:key="@string/pref_defstate_key"
+          android:title="@string/pref_defstate_title"
+          android:summary="@string/pref_defstate_summary"
+          android:capitalize="characters"
+          android:inputType="textVisiblePassword"
+          android:defaultValue=""/>
       
     </PreferenceScreen>
     

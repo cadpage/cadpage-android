@@ -27,7 +27,7 @@ public class VAHenryCountyParser extends SmartAddressParser {
   private static final MatchList CITY_MATCH = new MatchList(CITY_LIST);
   
   public VAHenryCountyParser() {
-    super(CITY_LIST, DEF_STATE);
+    super(CITY_LIST, DEF_CITY, DEF_STATE);
   }
 
   @Override
@@ -39,9 +39,6 @@ public class VAHenryCountyParser extends SmartAddressParser {
   protected boolean parseMsg(String body, Data data) {
 
     if (! body.startsWith("(CAD Call)")) return false;
-
-    data.defState=DEF_STATE;
-    data.defCity=DEF_CITY;
 
     // Split body by newline terminators
     String[] lines = body.split(" *\n *");

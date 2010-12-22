@@ -17,6 +17,10 @@ Working structure fire! Assistance is needed if available.\nAddress:711 HIDDEN P
 
 public class GAMartinezParser extends SmsMsgParser {
   
+  public GAMartinezParser() {
+    super("MARTINEZ", "GA");
+  }
+  
   @Override
   public String getFilter() {
     return "no-reply@mvfd.net";
@@ -27,9 +31,6 @@ public class GAMartinezParser extends SmsMsgParser {
     
     String[] lines = body.split("\n");
     if ( !(lines.length == 3) || ! lines[2].startsWith("DO NOT CALL DISPATCH!!!!")) return false;
-
-    data.defState="GA";
-    data.defCity = "MARTINEZ";
     
     data.strCall = lines[0].trim();
     
