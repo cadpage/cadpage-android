@@ -282,8 +282,10 @@ public class SmsPopupUtils {
       // an active filter is in lplace
       if (tFilter.length() <= 1) continue;
       
-      // Otherwise filter is passed if it matches any substring in the address 
-      if (sAddress.contains(tFilter)) return true;
+      // Otherwise filter is passed if it matches any substring in the address
+      // Check should be case insensitive, which we accomplish by downshifting
+      // both the address and the filter
+      if (sAddress.toLowerCase().contains(tFilter.toLowerCase())) return true;
     }
     return false;
   }

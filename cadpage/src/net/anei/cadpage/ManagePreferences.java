@@ -276,6 +276,9 @@ public class ManagePreferences {
         R.string.pref_gen_alert_key,
         R.string.pref_show_source_key,
         R.string.pref_callback_key,
+        R.string.pref_override_default_key,
+        R.string.pref_defcity_key,
+        R.string.pref_defstate_key,
         
         R.string.pref_notif_enabled_key,
         R.string.pref_notif_override_key,

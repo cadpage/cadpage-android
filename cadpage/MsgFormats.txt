@@ -536,7 +536,10 @@ Sender: aegispage@lackawannacounty.org
 Mystery request
 Contact: Steve Litchford <stevelitchford@gmail.com>
 Sender: epage-owner@delmar74fire.com <From%3Aepage-owner@delmar74fire.com>
-(AD Alert) 74AST      Call at 101 Delaware Ave              Delmar Nursing and RehabilitatCity19940      Problem Interfacillity/Palliative-ALS
+(CAD Alert) 74AST      Call at 101 Delaware Ave              Delmar Nursing and RehabilitatCity19940      Problem Interfacillity/Palliative-ALS
+
+Sender: wfpage-owner@delmar74fire.com <From%3Awfpage-owner@delmar74fire.com>
+CAD:2010110683;PI ACCIDENT;8859 JERSEY RD;DELM;CONNELLY MILL RD;ADKINS RD;[Medical Priority Info] RESPONSE: Bravo RESPONDER SCRIPT: 25 year old, Male,
 **********************************************************
 Waterloo, IA (or Black Hawk County)
 Contact: Ryan Mahood <331medic@gmail.com>
@@ -853,7 +856,7 @@ Sender: cfcrs8@gmail.com
 0833*HEART RELATED*37 LILLIAN CIR*BARNES CORNER RD*HOPEWELL RD*RS*11:04:07*10023098
 0841*SICK PERSON*480 HARRISVILLE RD*THRUWAY DR*WYATT LN*COLO*13:46:15*10023234
 **********************************************************
-Bella Vista, CA (Shasta County?)
+Shasta County, CA (was Bella Vista)
 Contact: Cody Lande <cody.lande@gmail.com>
 Sender: btrinitybob+caf_=5307373826=vtext.com@gmail.com
 There are three addresses, and the first one is not always the best
@@ -888,11 +891,7 @@ CAD:1 HAMBY DR;B9;(FR) STRUCTURE FIRE;OWENBY COVE RD
 CAD:411 POCONO CT;B21U;EGERTON, NANCY;CHEST PAIN;ROCKY MOUNTAIN WAY
 CAD:3055 SWEETEN CREEK RD;SMOKE DET/;PECHINEY PLASTIC PACKAGIN;ADT;(FR) FIRE ALARM;WESLEY DR;FAR HORIZONS LN;10015419
 CAD:206 ROYAL PINES DR;B21;TAYLOR, ROBERT E;UNCONSCIOUS/ FAINTING;SWEETEN CREEK RD;APPIAN WAY
-**********************************************************
-Unknown, was trying to use Nassau County)
-Contact: Tommy Johnson <tjohnson377.tj@gmail.com>
-Sender: paging@alpinesoftware.com <From%3Apaging@alpinesoftware.com>
-FireCom:  46 TREDWELL AVE (SIG 9-AMBU) CARDIAC MALE
+CAD:345 I26 W;8283372724 DIST: 1003.28 FT;VERIZON WIRELESS;CHEST PAIN;I26 W TO BREVARD RD;10015456
 **********************************************************
 Charles County, MD
 Contact: Darrin Tomlinson <lackeychargers08@verizon.net>
@@ -904,6 +903,9 @@ Sender: rc.263@c-msg.net
 (*CAD*) [CAD] UNKNOWN MEDICAL ALARM, EMS, BLS, 32B 3487 HIGHGROVE DR 8 H5 Age unknown, Gender unknown, Consciousness unknown, Breathing status unknown. Unknown 
 (*CAD*) [CAD] 10-50 PI, EMS, BLS, 29A HAWTHORNE RD / CHICAMUXEN RD 7 F11 Age unknown, Gender unknown, Consciousness unknown, Breathing status unknown. Unknown n
 (*CAD*) [CAD] MULTI FAMILY HOUSE FIRE, TOWNHOUSE, M/F, APARTMENT, 130 KALMIA CT 17 F6 DRYER ON FIRE / ADVISED TO GET OUT F103550006 1022816 12:07
+**********************************************************
+Lincoln County, NC
+Contact: "Chris Garner" <cgarner@taylorviola.com>
 **********************************************************
 **********************************************************
 **********************************************************
