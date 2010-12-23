@@ -2,9 +2,15 @@ package net.anei.cadpage;
 
 import static org.junit.Assert.*;
 
+import org.junit.BeforeClass;
 import org.junit.Test;
 
 public class SmsMsgInfoTest {
+  
+  @BeforeClass
+  public static void classSetup() {
+    new TestManagePreferences().setOverrideDefault(false);
+  }
 
   @Test
   public void testGetMapAddress() {
