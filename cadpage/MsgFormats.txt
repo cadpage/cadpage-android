@@ -435,6 +435,10 @@ Lackawanna County, PA (PALackawannaCountyParser)
 (Dispatch) Unit:14-9 Status:Dispatched Location:132 UNION MILL RD WINSHIP RD / LANGAN RD, VAN BRUNT ST, 14 Call Type:ALS Call Time:12/11/2010 11:27:5
 (Dispatch) Unit:CH53 Status:Dispatched Location:0 ASTON MOUNTAIN RD, 53 Call Type:ACCI Call Time:12/11/2010 1:12:10 PM Call Number:446 Quadrant:F53 D
 ***************************************************************************
+Black Hawk County, IA
+10-127299 MVA ROLLOVER/20 HWY SERGEANT RD WATERLOO
+10-124880 MVA ROLLOVER 1941 W 6TH ST EUREKA/ MITCHELL/WATERLOO
+***************************************************************************
 ***************************************************************************
 ***************************************************************************
 ***************************************************************************
@@ -514,9 +518,6 @@ I will list all the townships in the county and the towns in those townships
    - Liberty Township
       - Baltimore
 **********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
 Delmar NJ, looking to implement second parser for MD
 Contact: Steve Litchford <stevelitchford@gmail.com>
 Sender: epage-owner@delmar74fire.com <From%3Aepage-owner@delmar74fire.com>
@@ -525,11 +526,8 @@ Sender: epage-owner@delmar74fire.com <From%3Aepage-owner@delmar74fire.com>
 Sender: wfpage-owner@delmar74fire.com <From%3Awfpage-owner@delmar74fire.com>
 CAD:2010110683;PI ACCIDENT;8859 JERSEY RD;DELM;CONNELLY MILL RD;ADKINS RD;[Medical Priority Info] RESPONSE: Bravo RESPONDER SCRIPT: 25 year old, Male,
 **********************************************************
-Waterloo, IA (or Black Hawk County)
-Contact: Ryan Mahood <331medic@gmail.com>
-Sender: Swmail@bhcso.org,Xmail@connectingyou.com
-10-127299 MVA ROLLOVER/20 HWY SERGEANT RD WATERLOO
-10-124880 MVA ROLLOVER 1941 W 6TH ST EUREKA/ MITCHELL/WATERLOO
+**********************************************************
+**********************************************************
 **********************************************************
 York County, SC 
 Contact: "Carter, John" <john.carter@yorkcountygov.com>
@@ -879,11 +877,11 @@ CAD:345 I26 W;8283372724 DIST: 1003.28 FT;VERIZON WIRELESS;CHEST PAIN;I26 W TO B
 CAD:59 SMOKEMONT DR;B21U;BEYER,JAMES;HEART PROBLEMS;BEAR PAW LN;BOUNDARY TREE PASS
 CAD:100 OAK TER;B21;TREE DOWN IN POWERLINES;VERIZON;(FR) LINES DOWN;N OAK TER;ROYAL PINES DR
 CAD:16 BLUE HERON DR;B213;BECKHAM, LINDA & MALACHY;FALLS;RIVER CANE DR
+CAD:BCFR ASSISTANCE REQUESTED;32 MCINTYRE DR;AS03;Event spawned from ASSIST LAW ENFORCEMENT.  [12/23/10 16:54:46 HONEYCJ] [LAW] COMP IS REQ EMS COME TO CHECK HER  [12/23/10 16:54:08 BRADLEYC]\nEvent spawned from DOMESTIC DISTURBANCE.  [12/23
 **********************************************************
 Charles County, MD
 Contact: Darrin Tomlinson <lackeychargers08@verizon.net>
 Sender: rc.263@c-msg.net
-
 (*CAD*) [CAD] UNDETERMINED FIRE MIDDLETOWN RD / LYLES PL 3H11-9G1 CALLER LIVES ON CADWELL ST AND CAN SEE A LARGE FIRE THRU THE WOODS...UNSURE WHAT IT IS F103490
 (*CAD*) [CAD] TROUBLE BREATHING, RESPIRATORY DISTRESS, EMS, ALS, 6C, 6D 3465 LAUREL DR 7 H3 65 year old, Female, Conscious, Breathing. Breathing Problems. Abnor
 (*CAD*) [CAD] CO DETECTOR, CARBON MONOXIDE, 8A 2204 JASON CT 7 K2 CALLER ADVISED HIS BSMT CO DETECTOR IS GOING OFF. F103510001 1022578 02:01
