@@ -134,6 +134,10 @@ public class ManagePreferences {
     return prefs.getString(R.string.pref_defstate_key);
   }
   
+  public static int logLimit() {
+    return Integer.parseInt(prefs.getString(R.string.pref_loglimit_key));
+  }
+  
   public static boolean notifyEnabled() {
     return prefs.getBoolean(R.string.pref_notif_enabled_key);
   }
@@ -289,6 +293,7 @@ public class ManagePreferences {
         R.string.pref_override_default_key,
         R.string.pref_defcity_key,
         R.string.pref_defstate_key,
+        R.string.pref_loglimit_key,
         
         R.string.pref_notif_enabled_key,
         R.string.pref_notif_override_key,

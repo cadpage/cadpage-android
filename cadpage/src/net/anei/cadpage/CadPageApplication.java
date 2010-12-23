@@ -18,13 +18,16 @@ public class CadPageApplication extends Application {
       ManagePreferences.setupPreferences(this);
       ManageParsers.getInstance().setupNames(this);
       
+      // Reload log buffer queue
+      SmsMsgLogBuffer.setup(this);
+      
       // Reload existing message queue
       SmsMessageQueue.setupInstance(this);
     } catch (Exception ex) {
       TopExceptionHandler.initializationFailure(this, ex);
     }
   
-      TopExceptionHandler.enable(this);
+    TopExceptionHandler.enable(this);
     Log.v("Initialization complete");
   }
 }

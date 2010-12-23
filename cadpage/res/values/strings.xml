@@ -356,6 +356,9 @@
     <string name="pref_defstate_summary">Cur value: %s</string>
     <string name="pref_defstate_dialog">Enter default state location</string>
     
+    <string name="pref_loglimit_title">Message Report Limit</string>
+    <string name="pref_loglimit_summary">Number of messages to include in problem reports\nCur value: %s</string>
+    
     <string name="app_file_dir">/Android/data/cadpage/files/</string>
     <string name="app_file_name">callhistory.csv</string>
     <string name="exit">Exit</string>

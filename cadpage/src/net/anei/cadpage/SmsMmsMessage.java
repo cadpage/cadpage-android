@@ -45,6 +45,11 @@ public class SmsMmsMessage implements Serializable {
   
   private transient String parseAddress = null;
   private transient String parseMessageBody = null;
+  
+  // Temporary fields being monitored to see if they will be of any
+  // use in identifying multi-part messages
+  private long sentTime = 0L;
+  private int iccIndex = 0;
 
   
   public boolean isRead() {
@@ -99,6 +104,8 @@ public class SmsMmsMessage implements Serializable {
     fromAddress = sms.getDisplayOriginatingAddress();
     fromEmailGateway = sms.isEmail();
     messageClass = sms.getMessageClass();
+    sentTime = sms.getTimestampMillis();
+    iccIndex = sms.getIndexOnIcc();
 
     String body;
     if (messages.length == 1 || sms.isReplace()) {
@@ -476,6 +483,15 @@ public class SmsMmsMessage implements Serializable {
     
     sb.append("\nLocation:");
     sb.append(location);
+    
+    sb.append("\nSend time:");
+    sb.append(sentTime);
+    sb.append("\nRec time: ");
+    sb.append(timestamp);
+    sb.append("\nICC Index:");
+    sb.append(iccIndex);
+    
+    
     sb.append('\n');
   }
 

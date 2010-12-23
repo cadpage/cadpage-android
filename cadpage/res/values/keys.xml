@@ -68,6 +68,7 @@
    <string name="pref_override_default_key">overrideDefaultLoc</string>
    <string name="pref_defstate_key">defaultState</string>
    <string name="pref_defcity_key">defaultCity</string>
+   <string name="pref_loglimit_key">loglimit</string>
    <string name="pref_email_key">emaildev</string>
    <string name="pref_history_limit_key">historylimit</string>
    

@@ -1,10 +1,5 @@
 package net.anei.cadpage;
 
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
-
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
@@ -14,7 +9,6 @@ import android.telephony.SmsMessage.MessageClass;
 
 public class SmsReceiver extends BroadcastReceiver {
   
-  private static String MSG_FILENAME = "last.msg";
   private static String EXTRA_REPEAT_LAST = "net.anei.cadpage.SmsReceive.REPEAT_LAST";
 
   @Override
@@ -30,7 +24,7 @@ public class SmsReceiver extends BroadcastReceiver {
     // to reprocess the most recently recieved message (that passed the 
     // sender address filter
     if (intent.getBooleanExtra(EXTRA_REPEAT_LAST, false)) {
-      message = getLastMessage(context);
+      message = SmsMsgLogBuffer.getInstance().getLastMessage();
     }
     // Otherwise convert Intent into an SMS/MSS message
     else {
@@ -56,17 +50,8 @@ public class SmsReceiver extends BroadcastReceiver {
     }
     if (Log.DEBUG) Log.v("SMSReceiver/CadPageCall: Filter Matches checking call Location -" + sFilter);
     
-    // Save message to file for future test use
-    ObjectOutputStream os = null;
-    try {
-      os = new ObjectOutputStream(
-        context.openFileOutput(MSG_FILENAME, Context.MODE_PRIVATE));
-      os.writeObject(message);
-    } catch (IOException ex) {
-      Log.e(ex);
-    } finally {
-      if (os != null) try {os.close();} catch (IOException ex) {}
-    }
+    // Save message for future test or error reporting use
+    SmsMsgLogBuffer.getInstance().add(message);
     
     // See if the current parser will handle this message
     boolean genAlert = ManagePreferences.genAlert();
@@ -143,27 +128,6 @@ public class SmsReceiver extends BroadcastReceiver {
     intent.setClass(context, SmsReceiver.class);
     intent.putExtra(EXTRA_REPEAT_LAST, true);
     context.sendOrderedBroadcast(intent, null);
-  }
-
-  /**
-   * Retrieve most recently processed message
-   * @param context current context
-   * @return most recently processed message if found, null otherwise
-   */
-  public static SmsMmsMessage getLastMessage(Context context) {
-    SmsMmsMessage msg = null;
-    ObjectInputStream is = null;
-    try {
-      is = new ObjectInputStream(
-        context.openFileInput(MSG_FILENAME));
-      msg = (SmsMmsMessage)is.readObject();
-    } catch (FileNotFoundException ex) {
-    } catch (Exception ex) {
-      Log.e(ex);
-    } finally {
-      if (is != null) try {is.close();} catch (IOException ex) {}
-    }
-    return msg;
   }
 }
 

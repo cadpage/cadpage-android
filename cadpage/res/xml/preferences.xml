@@ -330,6 +330,14 @@
           android:capitalize="characters"
           android:inputType="textVisiblePassword"
           android:defaultValue=""/>
+      <net.anei.cadpage.preferences.ListPreference
+        android:key="@string/pref_loglimit_key"
+        android:title="@string/pref_loglimit_title"
+        android:summary="@string/pref_loglimit_summary"
+        android:entries="@array/pref_loglimit_values"
+        android:entryValues="@array/pref_loglimit_values"
+        android:dialogTitle="@string/pref_loglimit_title"
+        android:defaultValue="@string/pref_loglimit_default"/>
       
     </PreferenceScreen>
     

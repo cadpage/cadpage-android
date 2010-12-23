@@ -123,10 +123,10 @@ public class EmailDeveloperActivity extends Activity {
           SmsMmsMessage message;
           if (type == EmailType.MESSAGE) {
             message = SmsMessageQueue.getInstance().getMessage(msgId);
+            if (message != null) message.addMessageInfo(context, body);
           } else {
-            message = SmsReceiver.getLastMessage(context);
+            SmsMsgLogBuffer.getInstance().addMessageInfo(context, body);
           }
-          if (message != null) message.addMessageInfo(context, body);
         }
         
         // If configuration info requested, add that as well

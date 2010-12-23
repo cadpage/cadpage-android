@@ -28,6 +28,12 @@
     <item>10</item>
     <item>-1</item>
   </string-array>
+  <string-array name="pref_loglimit_values">
+    <item>1</item>
+    <item>2</item>
+    <item>3</item>
+    <item>4</item>
+  </string-array>
   
   <!--  Configurable popup dialog buttons -->
   <string-array name="pref_button_text">
