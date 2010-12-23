@@ -26,7 +26,8 @@ public class ManagePreferences {
   public static void setupPreferences(Context context) {
     
     // Initialize the preference object
-    prefs = new ManagePreferences(context);
+    prefs = new ManagePreferences();
+    prefs.setContext(context);
 
     // Before we do anything else, see what the old preference version number was
     int oldVersion = prefs.getInt(R.string.pref_version_key, 0);
@@ -82,6 +83,15 @@ public class ManagePreferences {
       }
     }
     return location;
+  }
+  
+  /**
+   * Backdoor allows test classes to substitute their own ManagerPreference object
+   * for the standard one
+   * @param prefs custom ManagerPreference object
+   */
+  protected static void setTestPreference(ManagePreferences prefs) {
+    ManagePreferences.prefs = prefs;
   }
   
   public static boolean initialized() {
@@ -334,30 +344,33 @@ public class ManagePreferences {
   private Context context;
   private SharedPreferences mPrefs;
   
+  
+  protected ManagePreferences() {}
+  
   /**
    * private constructor
    * @param _context context
    */
-  public ManagePreferences(Context _context) {
+   void setContext(Context _context) {
     context = _context;
     mPrefs = PreferenceManager.getDefaultSharedPreferences(context);
   }
   
-  private boolean getBoolean(int resPrefId) {
+  protected boolean getBoolean(int resPrefId) {
     return mPrefs.getBoolean(context.getString(resPrefId), false);
   }
   
-  private String getString(int resPrefId) {
+  protected String getString(int resPrefId) {
     String result = mPrefs.getString(context.getString(resPrefId), null);
     if (result == null) throw new RuntimeException("No configured preference value found");
     return result;
   }
   
-  private int getInt(int resPrefId, int defValue) {
+  protected int getInt(int resPrefId, int defValue) {
     return mPrefs.getInt(context.getString(resPrefId), defValue);
   }
   
-  private int getInt(int resPrefId) {
+  protected int getInt(int resPrefId) {
     int result = mPrefs.getInt(context.getString(resPrefId), Integer.MAX_VALUE);
     if (result == Integer.MAX_VALUE) throw new RuntimeException("No configured preference value found");
     return result;
@@ -382,8 +395,8 @@ public class ManagePreferences {
    * @deprecated - Preferred alternatives is to set up and use the static methods
    * to retrieve preference values 
    */
-  public ManagePreferences(Context _context, String _contactId) {
-    this(_context);
+  public ManagePreferences(Context _context) {
+    setContext(_context);
   }
 
   public boolean getBoolean(int resPrefId, int resDefaultId, int dbColumnNum) {
