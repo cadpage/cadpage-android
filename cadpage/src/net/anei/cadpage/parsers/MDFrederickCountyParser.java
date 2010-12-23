@@ -61,6 +61,7 @@ public class MDFrederickCountyParser extends SmartAddressParser {
     
     Properties props = parseMessage(body, Fredrickkeywords);
     String strAddr = props.getProperty("CT");
+    if (strAddr == null) return false;
     
     // Everything changes if this is a Mutual aid call
     int ipt = strAddr.indexOf(" @MA ");
