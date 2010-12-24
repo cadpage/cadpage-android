@@ -21,6 +21,8 @@ From: @fireblitz.com
 46: BUILDING FIRE\nE833 TK833 BO802\n1200 CAPITAL CENTER BL (BLVD AT THE CAP CTR)\n12/07 00:51\nhttp://fireblitz.com/33/9.html
 46: BUILDING FIRE\nE837 TK837 BO802\n1200 CAPITAL CENTER BL (BLVD AT THE CAP CTR)\n12/07 00:51\nhttp://fireblitz.com/37/5.html
 49: MEDIC LOCAL\nA849\n13218 DEERFIELD RD (DEAD END & MATTHEWS CT)\n12/06 23:00\nhttp://fireblitz.com/49/1.html
+
+48: TOWNHOUSE FIRE\nE818 BO802\n9903 BREEZY KNOLL CT [DEAD END & GREEN HAVEN RD]\n12/23 23:32\nhttp://fireblitz.com/18/8.shtm
  */
 
 
@@ -91,12 +93,22 @@ public class MDPrinceGeorgesCountyParser extends SmsMsgParser {
         break;
         
         // Third line is address, possibly with cross streets in parens
+        // or square brackets
       case 3:
         if (line.startsWith("PG ")) line = line.substring(3).trim();
-        p = new Parser(line);
-        String sAddress = p.get('(');
+        int pt1 = line.indexOf('(');
+        if (pt1 < 0) pt1 = line.indexOf('[');
+        String sAddress;
+        if (pt1 < 0) {
+          sAddress = line;
+        } else {
+          sAddress = line.substring(0, pt1).trim();
+          char cEnd = (line.charAt(pt1)=='(' ? ')' : ']');
+          int pt2 = line.indexOf(cEnd, pt1+1);
+          if (pt2 < 0) pt2 = line.length();
+          data.strCross = line.substring(pt1+1, pt2);
+        }
         parseAddress(sAddress, data);
-        data.strCross = p.get(')');
         ndx++;
         break;
         

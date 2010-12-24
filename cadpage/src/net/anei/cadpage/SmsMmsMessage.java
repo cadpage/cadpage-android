@@ -44,6 +44,7 @@ public class SmsMmsMessage implements Serializable {
   private String location = null;
   
   private transient String parseAddress = null;
+  private transient String parseSubject = null;
   private transient String parseMessageBody = null;
   
   // Temporary fields being monitored to see if they will be of any
@@ -127,16 +128,32 @@ public class SmsMmsMessage implements Serializable {
   /**
    * Construct dummy SmsMmsMessage test notifications 
    */
-  public SmsMmsMessage(String _fromAddress, String _messageBody,
-      long _timestamp, int _messageType) {
+  public SmsMmsMessage(String fromAddress, String subject, String messageBody,
+      long timestamp, int messageType) {
 
-    fromAddress = _fromAddress;
-    messageBody = _messageBody;
-    timestamp = _timestamp;
-    messageType = _messageType;
-    location = "GeneralAlert";
+    this.fromAddress = fromAddress;
+    this.messageBody = messageBody;
+    this.timestamp = timestamp;
+    this.messageType = messageType;
+    this.location = "GeneralAlert";
     
-    // Calculate the from address and body to be used for parsing purposes
+    this.parseAddress = fromAddress;
+    this.parseSubject =subject;
+    this.parseMessageBody = messageBody;
+  }
+
+  /**
+   * Construct test SmsMmsMessage message to check getParseInfo() logic 
+   */
+  public SmsMmsMessage(String fromAddress, String messageBody,
+      long timestamp, int messageType) {
+
+    this.fromAddress = fromAddress;
+    this.messageBody = messageBody;
+    this.timestamp = timestamp;
+    this.messageType = messageType;
+    this.location = "GeneralAlert";
+    
     getParseInfo();
   }
   
@@ -167,56 +184,66 @@ public class SmsMmsMessage implements Serializable {
     20:08:59 SPHILLIPS] CALLER LIVES NEXT DOOR TO THE ADDRESS OF THE WATER MAINBREAK [12/10/10 20:04:40 HROSSNER] CALLER ADV OF A WATER MAIN
     (Con 3 of 3
     BREAK(End)
+    
+    Or This
+    
+    FRM:e@fireblitz.com <Body%3AFRM%3Ae@fireblitz.com>
+    MSG:48: TOWNHOUSE FIRE
+    E818 BO802
+    9903 BREEZY KNOLL CT [DEAD END & GREEN HAVEN RD]
+    12/23 23:32
+    http://fireblitz.com/18/8.shtm
     */
-    if (messageBody.contains("\nFRM:")) {
-      boolean good = false;
-      int ndx = 0;
-      StringBuilder sb = new StringBuilder();
-      for (String line : messageBody.split("\n")) {
-        switch (ndx++) {
-        
-        case 0:
-          // Skip first line in all cases
-          break;
-          
-        case 1:
-          // Next line must from a FRM: line
-          if (! line.startsWith("FRM:")) break;
-          parseAddress = line.substring(4).trim();
-          break;
-          
-        case 2:
-          // Looking for a MSG: line
-          // If we find a SUBJ: line, skip to next one
-          if (line.startsWith("SUBJ:")) {
-            ndx--;
-            break;
+    int pt1 = -1;
+    int pt2 = -1;
+    if (messageBody.startsWith("FRM:")) {
+      pt1 = 0;
+      pt2 = 4;
+    } else {
+      pt1 = messageBody.indexOf("\nFRM:");
+      pt2 = pt1 + 5;
+    }
+    if (pt1 >= 0) {
+      int pt3 = messageBody.indexOf('\n', pt2);
+      if (pt3 >= 0) {
+        parseAddress = messageBody.substring(pt2, pt3).trim();
+        pt1 = pt3;
+        pt3 = messageBody.indexOf("\nSUBJ:", pt1);
+        parseSubject = "";
+        if (pt3 >= 0) {
+          pt1 = pt3;
+          pt2 = pt3 + 6;
+          pt3 = messageBody.indexOf('\n', pt2);
+          if (pt3 >= 0) {
+            parseSubject = messageBody.substring(pt2, pt3);
+            pt1 = pt3;
           }
-          if (line.startsWith("MSG:")) {
-            sb.append(line.substring(4));
-            good = true;
-            break;
-          }
-          
-        case 3:
-          // After that, skip every other line
-          break;
-          
-        case 4:
-          sb.append(line);
-          ndx -= 2;
-          break;
         }
-      }
-      if (good) {
-        int len = sb.length()-5;
-        if (sb.substring(len).equals("(End)")) sb.setLength(len);
-        parseMessageBody = sb.toString();
-        return;
+        pt3 = messageBody.indexOf("\nMSG:", pt1);
+        if (pt3 >= 0) {
+          pt1 = pt3;
+          pt2 = pt1 + 5;
+          StringBuilder sb = new StringBuilder();
+          boolean skipBreak = false;
+          for (String line : messageBody.substring(pt2).split("\n")) {
+            if (line.startsWith("(Con")) {
+              skipBreak = true;
+            } else {
+              if (! skipBreak && sb.length() > 0) sb.append('\n');
+              sb.append(line);
+              skipBreak = false;
+            }
+          }
+          int len = sb.length()-5;
+          if (sb.substring(len).equals("(End)")) sb.setLength(len);
+          parseMessageBody = sb.toString();
+          return;
+        }
       }
     }
 
     parseAddress = fromAddress;
+    parseSubject = "";
     parseMessageBody = messageBody;
   }
   
@@ -237,6 +264,10 @@ public class SmsMmsMessage implements Serializable {
 
   public CharSequence getFormattedTimestamp(Context context) {
     return DateUtils.formatDateTime(context, timestamp, DateUtils.FORMAT_SHOW_TIME);
+  }
+  
+  public String getSubject() {
+    return parseSubject;
   }
 
   public String getMessageBody() {
@@ -474,6 +505,9 @@ public class SmsMmsMessage implements Serializable {
     
     sb.append("\nGateway:");
     sb.append(fromEmailGateway);
+    
+    sb.append("\nSubject:");
+    sb.append(parseSubject);
     
     sb.append("\nBody:");
     sb.append(messageBody);

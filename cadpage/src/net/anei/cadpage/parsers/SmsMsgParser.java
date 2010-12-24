@@ -50,14 +50,14 @@ public abstract class SmsMsgParser {
   protected Data parseMsg(SmsMmsMessage msg, boolean overrideFilter, boolean genAlert) {
 
     // If parser filter is not being overridden, and the message address does not
-    // the parser filter, message should be rejected
+    // match the parser filter, message should be rejected
     String filter = getFilter();
     if (! overrideFilter && ! SmsPopupUtils.matchFilter(msg.getAddress(), filter)) return null;
     
     // Decode the call page and place the data in the database
     String strMessage = msg.getMessageBody();
     Data data = new Data();
-    if (parseMsg(strMessage, data)) {
+    if (parseSubject(msg.getSubject(), data) && parseMsg(strMessage, data)) {
       data.defCity = defCity;
       data.defState = defState;
       return data;
@@ -69,6 +69,17 @@ public abstract class SmsMsgParser {
       return ManageParsers.getInstance().getAlertParser().parseMsg(msg, overrideFilter, genAlert);
     }
     return null;
+  }
+
+  /**
+   * Parse information form message subject
+   * Doesn't do anything, but can be overridden subclasses if necessary
+   * @param subject message subject
+   * @param data data object to be constructed
+   * @return true if successful, false otherwise
+   */
+  protected boolean parseSubject(String subject, Data data) {
+    return true;
   }
 
   /**
