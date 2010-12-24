@@ -40,6 +40,17 @@ public abstract class BaseParserTest {
    * @param result - expected results
    */
   public void doTest(String title, String test, String ... result) {
+    doSubTest(title, "", test, result);
+  }
+  
+  /**
+   * Main parse test method
+   * @param title - test name
+   * @param subject - test subject
+   * @param test - test message
+   * @param result - expected results
+   */
+  public void doSubTest(String title, String subject, String test, String ... result) {
     
     SmsMsgInfo.Data data = new SmsMsgInfo.Data();
     for (String str : result) {

@@ -92,5 +92,14 @@ public class MDPrinceGeorgesCountyParserTest extends BaseParserTest {
         "ADDR:13218 DEERFIELD RD",
         "X:DEAD END & MATTHEWS CT",
         "INFO:http://fireblitz.com/49/1.html");
+    
+    doTest("T10",
+        "48: TOWNHOUSE FIRE\nE818 BO802\n9903 BREEZY KNOLL CT [DEAD END & GREEN HAVEN RD]\n12/23 23:32\nhttp://fireblitz.com/18/8.shtm",
+        "SRC:48",
+        "CALL:TOWNHOUSE FIRE",
+        "UNIT:E818 BO802",
+        "ADDR:9903 BREEZY KNOLL CT",
+        "X:DEAD END & GREEN HAVEN RD",
+        "INFO:http://fireblitz.com/18/8.shtm");
  }
 }
