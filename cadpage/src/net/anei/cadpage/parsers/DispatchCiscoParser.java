@@ -21,10 +21,10 @@ Ct:MVA-UNKNOWN-INJ Loc:US HWY 40/INTERSTATE 70 Apt: XSt: Grid:0169 Units:E-41 Rm
 
 ***/
 
-public class DispatchCiscoParser extends SmsMsgParser {
+public class DispatchCiscoParser extends SmartAddressParser {
   
-  public DispatchCiscoParser(String defCity, String defState) {
-    super(defCity, defState);
+  public DispatchCiscoParser(Properties cityCodes, String defCity, String defState) {
+    super(cityCodes, defCity, defState);
   }
 
   private static final String[]KEYWORDS = 
@@ -38,7 +38,7 @@ public class DispatchCiscoParser extends SmsMsgParser {
     Properties props = parseMessage(body, KEYWORDS);
     data.strCall = props.getProperty("Ct", "");
     data.strCall = data.strCall.trim();
-    parseAddress(props.getProperty("Loc", ""), data);
+    parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END, props.getProperty("Loc", ""), data);
     data.strApt = props.getProperty("Apt", "");
     data.strCross = props.getProperty("XSt", "");
     data.strMap = props.getProperty("Grid", "");

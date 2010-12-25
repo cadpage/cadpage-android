@@ -48,6 +48,8 @@ public abstract class SmartAddressParser extends SmsMsgParser {
    */
   public static final int FLAG_ANCHOR_END = 0x0008;
   
+  private Properties cityCodes = null;
+  
   // Main dictionary maps words to a bitmap indicating what is important about that word
   private final Map<String, Integer> dictionary = new HashMap<String, Integer>();
   
@@ -99,9 +101,10 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     setupCities(cities);
   }
   
-  public SmartAddressParser(Properties cityTable, String defCity, String defState) {
+  public SmartAddressParser(Properties cityCodes, String defCity, String defState) {
     this(defCity, defState);
-    setupCities(getKeywords(cityTable));
+    if (cityCodes != null) setupCities(getKeywords(cityCodes));
+    this.cityCodes = cityCodes;
   }
   
   public SmartAddressParser(String defCity, String defState) {
@@ -695,9 +698,9 @@ public abstract class SmartAddressParser extends SmsMsgParser {
       if (isType(ndx, ID_CROSS_STREET)) stCross = ndx + 1;
       
       // Is there a city here?
-      if (! parseToEnd) {
-        int endCity = findEndCity(ndx);
-        if (endCity >= 0) {
+      int endCity = findEndCity(ndx);
+      if (endCity >= 0) {
+        if (!parseToEnd || endCity == tokens.length) {
           if (startAddress < 0) initAddress = startAddress = stNdx;
           initPlace = inPlace;
           startPlace = stPlace;
@@ -886,6 +889,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     int end = endAll;
     if (startCity >= 0) {
       data.strCity = buildData(startCity, end, false);
+      if (cityCodes != null) data.strCity = convertCodes(data.strCity, cityCodes);
       end = startCity;
     }
     

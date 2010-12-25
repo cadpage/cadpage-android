@@ -1,5 +1,7 @@
 package net.anei.cadpage.parsers;
 
+import java.util.Properties;
+
 /***
 Vigo County, IN
 Contact: Billy Roberts <thfd334@gmail.com>
@@ -11,12 +13,19 @@ Ct:CHEST PAIN Loc:500 W PARIS AV Apt: XSt:6TH ST WTH 4TH ST WTH Grid:0WTH Units:
 Ct:CHOKING Loc:2925 N MAPLE PL Apt: XSt:LOCUST AV Grid:0126 Units:E-42 TC-1 Rmk:18 Months F ;CHOKING
 Ct:MVA-UNKNOWN-INJ Loc:US HWY 40/INTERSTATE 70 Apt: XSt: Grid:0169 Units:E-41 Rmk:SEMI AND PASSENGER CAR//UNKNOWN Injuries
 Ct:EMS MAJOR Loc:6244 WILMINGTON PIKE Apt: XSt:CLYO RD CENTER POINT DR Grid:003B Units:C70 M71 P223 Rmk:
+
+Contact: "Dennis Boyd" <dboyd462@gmail.com>
+Ct:FIRE-ENTRAPMENT Loc:101 N 7TH ST WTH Apt: XSt:JOHNSON AV MILLER AV Grid:0WTH Units:E-41 E-42 L-41 R-41 Rmk:HOUSE ON FIRE PEOPLE STILL INSIDE
 ***/
 
 public class INVigoCountyParser extends DispatchCiscoParser {
   
+  private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "WTH", "WEST TERRE HAUTE"
+  });
+  
   public INVigoCountyParser() {
-    super("VIGO COUNTY", "IN");
+    super(CITY_CODES, "VIGO COUNTY", "IN");
   }
   
   @Override

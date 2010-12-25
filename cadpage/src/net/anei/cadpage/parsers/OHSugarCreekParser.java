@@ -12,6 +12,6 @@ We use Cisco Public Safety�s ECAD program to page out CFS events.  CAD does se
 public class OHSugarCreekParser extends DispatchCiscoParser {
   
   public OHSugarCreekParser() {
-    super("SugarCreek", "OH");
+    super(null, "SugarCreek", "OH");
   }
 }

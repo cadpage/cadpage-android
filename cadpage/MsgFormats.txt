@@ -685,6 +685,10 @@ Contact: "Luke Nixa NREMT-B" <lcn42781@cableone.net>
 Sender: 712-253-8205
 System: Sunguard CAD
 
+Towns in S Dakota
+NORTH SIOUX, DAKOTA DUNES, and WYNSTONE.
+Get rest from Wikipedia
+
 J:FIRE ALARM/813 N DERBY LN NORTH SIOUX PORTIONABLES/ FREEDOM DR & DEVILSFOOD DR/NSIOUX/ 72B1 72EMS9 72E4 72E5 72F7 72Q6 72R8/ PORTIONABLES.... WATER FLOW ALARM
 J:FIRE SM VEHICLE/110 SODRAC DR NORTH SIOUX RED CARPET INN/ RIVER DR &/NSIOUX/ 72B1 72EMS9 72E4 72E5 72F7 72Q6 72R8/ TRUCK SMOKING LOOKS ON FIRE- NOBODY AROUND -IN FRONT OF INN
 J:STROKE/300 CENTENNIAL DR NORTH SIOUX ALORICA/ N MERRILL AVE & GATEWAY DR/NSIOUX/ 72EMS9/ 49YO FEMALE  - HAS HAD ONE IN THE PAST - USE MIDDLE DOORS
@@ -893,12 +897,27 @@ Contact: "Chris Garner" <cgarner@taylorviola.com>
 Madison County, AL
 Contact: Mark Wehrwein <heyblue17@gmail.com>
 Sender: cad.page@madco911.com
+MDCO = Madison county
+HSV = Huntsville
 IPS I/Page Notification / Loc: 7583 WALL TRIANA HWY MDCO: @URGENT MEDCARE EVT#: C1009726 TYPE: M TIME: 13:36:55
 IPS I/Page Notification / Loc: 2525 OLD RAILROAD BED RD MDCO EVT#: C1009579 TYPE: M TIME: 16:53:25
 IPS I/Page Notification / Loc: HIGHWAY 53/KELLY SPRING RD HSV: alias HWY 53/KELLY SPRING EVT#: C1009577 TYPE: MVA/I TIME: 14:12:44
 IPS I/Page Notification / Loc: 101 VASSER CIR MDCO EVT#: C1009575 TYPE: M TIME: 13:54:54
 IPS I/Page Notification / Loc: 106 CHESAPEAKE BLVD MDCO EVT#: C1009490 TYPE: M TIME: 16:04:25
 IPS I/Page Notification / Loc: 120 EMERALD DR MDCO EVT#: C1009484 TYPE: M TIME: 12:07:46
+
+Open call whether or not to expand the type codes.
+UNKMED is unknown medical
+M is medical
+FR is fire rescue
+MVA/I is motor vehicle accident with injury
+F/ALARMS is fire alarm
+ALM/M is a medical alarm
+MVA/E is motor vehicle accident with entrapment
+F/OUTSIDE_FIRE is outside fire
+F/STRUCTURE is structure fire
+**********************************************************
+**********************************************************
 **********************************************************
 **********************************************************
 * Misc formats received with problem reports
