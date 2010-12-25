@@ -13,7 +13,7 @@ Neither of these maps, sloppy addresses
 
 public class ORPrinevilleParser extends SmsMsgParser {
   
-  ORPrinevilleParser() {
+  public ORPrinevilleParser() {
     super("PRINEVILLE", "OR");
   }
   
