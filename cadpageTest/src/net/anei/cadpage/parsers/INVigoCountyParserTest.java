@@ -55,5 +55,15 @@ public class INVigoCountyParserTest extends BaseParserTest {
         "UNIT:E-41",
         "INFO:SEMI AND PASSENGER CAR//UNKNOWN Injuries");
     
+    doTest("T6",
+        "Ct:FIRE-ENTRAPMENT Loc:101 N 7TH ST WTH Apt: XSt:JOHNSON AV MILLER AV Grid:0WTH Units:E-41 E-42 L-41 R-41 Rmk:HOUSE ON FIRE PEOPLE STILL INSIDE",
+        "CALL:FIRE-ENTRAPMENT",
+        "ADDR:101 N 7TH ST",
+        "CITY:WEST TERRE HAUTE",
+        "X:JOHNSON AV MILLER AV",
+        "MAP:0WTH",
+        "UNIT:E-41 E-42 L-41 R-41",
+        "INFO:HOUSE ON FIRE PEOPLE STILL INSIDE");
+    
   }
 }
