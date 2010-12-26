@@ -60,6 +60,18 @@ public class SmsMmsMessageTest {
         "LogiSYSCAD",
         "CAD Page for CFS 100110-96",
         "UNCONCIOUS/UNRESPONSIVE 91 S BROADWAY\nUnits: A53 CO16");
+    
+    doParseTest("NYOneidaCounty",
+        "FRM:dispatch@oc911.org\nMSG:i>¿WEVF:2010:0181Dispatched10D02-DIFFICULTY SPEAKING BETWEEN BREATHS9071 DOPP HILL RD, WESTERN (ROUTE 46/;)",
+        "dispatch@oc911.org",
+        "",
+        "i>¿WEVF:2010:0181Dispatched10D02-DIFFICULTY SPEAKING BETWEEN BREATHS9071 DOPP HILL RD, WESTERN (ROUTE 46/;)");
+    
+    doParseTest("TxCyCreekComCenter",
+        "CommCenter@ccems.com <Body%3ACommCenter@ccems.com> [] TAP OUT (SAL)",
+        "CommCenter@ccems.com <Body%3ACommCenter@ccems.com>",
+        "",
+        "TAP OUT (SAL)");
 
   }
   
