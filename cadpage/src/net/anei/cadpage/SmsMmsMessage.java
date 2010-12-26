@@ -241,7 +241,22 @@ public class SmsMmsMessage implements Serializable {
         }
       }
     }
-
+    
+    /* Decode patterns that look like this 
+    CommCenter@ccems.com <Body%3ACommCenter@ccems.com> [] TAP OUT (SAL)
+     */
+    int ipt = messageBody.indexOf(" [] ");
+    if (ipt >= 0) {
+      int ipt2 = messageBody.indexOf('@');
+      parseAddress = messageBody.substring(0, ipt).trim();
+      if (parseAddress.contains("@")) {
+        parseSubject = "";
+        parseMessageBody = messageBody.substring(ipt+4).trim();
+        return;
+      }
+    }
+    
+    // Otherwise treat this as a normal message
     parseAddress = fromAddress;
     parseSubject = "";
     parseMessageBody = messageBody;
