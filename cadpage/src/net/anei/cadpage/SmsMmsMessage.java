@@ -175,6 +175,9 @@ public class SmsMmsMessage implements Serializable {
     // Set message body to empty string if we don't have one
     if (messageBody == null) messageBody = "";
     
+    // Start by decoding commo HTML sequences
+    String body = messageBody.replaceAll("&nbsp;",  " ").replaceAll("&amp;",  "&");
+    
     /* Decode patterns that look like this.....
     1 of 3
     FRM:CAD@livingstoncounty.livco
@@ -196,36 +199,36 @@ public class SmsMmsMessage implements Serializable {
     */
     int pt1 = -1;
     int pt2 = -1;
-    if (messageBody.startsWith("FRM:")) {
+    if (body.startsWith("FRM:")) {
       pt1 = 0;
       pt2 = 4;
     } else {
-      pt1 = messageBody.indexOf("\nFRM:");
+      pt1 = body.indexOf("\nFRM:");
       pt2 = pt1 + 5;
     }
     if (pt1 >= 0) {
-      int pt3 = messageBody.indexOf('\n', pt2);
+      int pt3 = body.indexOf('\n', pt2);
       if (pt3 >= 0) {
-        parseAddress = messageBody.substring(pt2, pt3).trim();
+        parseAddress = body.substring(pt2, pt3).trim();
         pt1 = pt3;
-        pt3 = messageBody.indexOf("\nSUBJ:", pt1);
+        pt3 = body.indexOf("\nSUBJ:", pt1);
         parseSubject = "";
         if (pt3 >= 0) {
           pt1 = pt3;
           pt2 = pt3 + 6;
-          pt3 = messageBody.indexOf('\n', pt2);
+          pt3 = body.indexOf('\n', pt2);
           if (pt3 >= 0) {
-            parseSubject = messageBody.substring(pt2, pt3);
+            parseSubject = body.substring(pt2, pt3);
             pt1 = pt3;
           }
         }
-        pt3 = messageBody.indexOf("\nMSG:", pt1);
+        pt3 = body.indexOf("\nMSG:", pt1);
         if (pt3 >= 0) {
           pt1 = pt3;
           pt2 = pt1 + 5;
           StringBuilder sb = new StringBuilder();
           boolean skipBreak = false;
-          for (String line : messageBody.substring(pt2).split("\n")) {
+          for (String line : body.substring(pt2).split("\n")) {
             if (line.startsWith("(Con")) {
               skipBreak = true;
             } else {
@@ -245,13 +248,12 @@ public class SmsMmsMessage implements Serializable {
     /* Decode patterns that look like this 
     CommCenter@ccems.com <Body%3ACommCenter@ccems.com> [] TAP OUT (SAL)
      */
-    int ipt = messageBody.indexOf(" [] ");
+    int ipt = body.indexOf(" [] ");
     if (ipt >= 0) {
-      int ipt2 = messageBody.indexOf('@');
-      parseAddress = messageBody.substring(0, ipt).trim();
+      parseAddress = body.substring(0, ipt).trim();
       if (parseAddress.contains("@")) {
         parseSubject = "";
-        parseMessageBody = messageBody.substring(ipt+4).trim();
+        parseMessageBody = body.substring(ipt+4).trim();
         return;
       }
     }
@@ -259,7 +261,7 @@ public class SmsMmsMessage implements Serializable {
     // Otherwise treat this as a normal message
     parseAddress = fromAddress;
     parseSubject = "";
-    parseMessageBody = messageBody;
+    parseMessageBody = body;
   }
   
 

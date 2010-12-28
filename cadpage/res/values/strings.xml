@@ -4,7 +4,7 @@
    <string name="app_name">CADPage</string>   
    <string name="call_history">Call History:</string>   
    <string name="new_text_at">New Call Received at %s</string>
-   <string name="src_text_at">%s call at %s</string>
+   <string name="src_text_at">%1$s call at %2$s</string>
    <string name="mms_subject">Subject:</string>
    
 <!-- Menu Strings -->
@@ -12,7 +12,7 @@
    <string name="settings">Settings</string>   
 
 <!-- Notification Strings -->
-   <string name="notification_scroll">%s</string>
+   <string name="notification_scroll">%1$s</string>
    <string name="notification_scroll_privacy">New Call:</string>
 
    <string name="button_disabled">Disabled</string>
@@ -211,7 +211,6 @@
     
 <!-- Quick Reply Strings -->
   <string name="message_counter">%d chars remaining</string>
-  <string name="message_counter_multiple">%d chars remaining, %d messages</string>
     
   <string name="quickreply_title">Quick Reply</string>
   <string name="quickreply_from_text">To: %s</string>
