@@ -937,6 +937,12 @@ CAD:4 WALDEN RIDGE DR;GENERAL ALARM;SIMPLEX;(FR) FIRE ALARM;HENDERSONVILLE RD;10
 CAD:50 PINEHURST CIR;B21;GENERAL ALARM;GLEN ARDEN ELEMENTARY SCHOOL;SIMPLEX;(FR) FIRE ALARM;SAINT JOHNS ST
 CAD:1 HENDERSON COUNTY HWY;B21;710 LINDSEY LOOP RD;(FR) MUTUAL AID;HENDERSONVILLE RD
 CAD:202 SOUTHWAY GARDEN RD;B21;FALLS;SWEETEN CREEK RD
+CAD:1845 BREVARD RD;B212;LUNCHROOM;CPU INC;CONVULSIONS / SEIZURES;COMMERCE WAY;PLATINUM CT
+CAD:50-BLK CONCORD RD;B213;ASST STRANDED MOTORIST;RAINEY, AARON;(FR) SERVICE ANY TYPE;LAURELTON LN;WALSH TRCE
+CAD:2251 HENDERSONVILLE RD;B21;MOUNTAIN ENERGY;ABDOMINAL PAINS / PROBLEMS;FOREST LN S;ROYAL PINES DR
+CAD:331 CEDAR LN;B21;SWAIN, J WEAVER;DIABETIC PROBLEMS;MAPLE CT;MOSS LN
+CAD:25 OLD SHOALS RD;SIMPLEX;(FR) FIRE ALARM;DOWNING DR;GLENN BRIDGE RD;10015691
+CAD:277 MILLS GAP RD;B213;SMOKE DETECTOR;CPI;(FR) FIRE ALARM;PINNERS COVE RD;SURREY RUN
 **********************************************************
 Charles County, MD
 Contact: Darrin Tomlinson <lackeychargers08@verizon.net>
@@ -1031,6 +1037,9 @@ System: Firecom
 [Fire CAD Message]  New Fire Run: 2010-63654,Nature: 12D02E-SEIZURE - Continuous or Multiple seizures,MR54,Location: 12246 TRAIL HOLLOW DR,Buildi
 **********************************************************
 **********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
 * Misc formats received with problem reports
 **********************************************************
 Unknown from problem reportts
@@ -1061,3 +1070,7 @@ Contact: Jim Disinger <diceyduce@aol.com>
 Sender: dispatch613+bncCJu-xN6_FhDgt5LmBBoEujh5Gw@googlegroups.com
 This looks like a variation of LCFR
 ([cad13] ) Call:30A01-TRAUMA NOT DAN,775 GATEWAY DR SE-LB Apt:CLUBHS,X-St:SYCOLIN RD SE VAN,M6132 ACO13,Box:2013 ,ADC:515
+**************************************************************************
+Unknown from problem report
+Contact: Adam Sparks <asparks453@gmail.com>
+2010-189098*1211 PECAN ST***CONOVER**OVERDOSE*********
