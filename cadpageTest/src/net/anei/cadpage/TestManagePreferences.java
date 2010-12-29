@@ -14,6 +14,10 @@ public class TestManagePreferences extends ManagePreferences {
   public void setOverrideDefault(boolean newVal) {
     putBoolean(R.string.pref_override_default_key, newVal);
   }
+  
+  public void setFilter(String filter) {
+    prefMap.put(R.string.pref_filter_key, filter);
+  }
 
   public void putBoolean(int resPrefId, boolean newVal) {
     prefMap.put(resPrefId, newVal);

@@ -17,7 +17,7 @@ public class NYUlsterCountyParserTest extends BaseParserTest {
         "UNIT:ENG6",
         "ADDR:487 WASHINGTON AV",
         "X:TAYLOR/CITY LINE",
-        "CITY:Kingston,Ulster",
+        "CITY:KINGSTON",
         "CALL:Autoalarm",
         "INFO:GENERAL FIRE ALARM Addtl");
 
@@ -26,7 +26,7 @@ public class NYUlsterCountyParserTest extends BaseParserTest {
         "UNIT:ENG6",
         "ADDR:487 WASHINGTON AV",
         "X:TAYLOR/CITY LINE",
-        "CITY:Kingston,Ulster",
+        "CITY:KINGSTON",
         "CALL:Autoalarm",
         "INFO:GENERAL FIRE ALARM Addtl");
 
@@ -35,7 +35,7 @@ public class NYUlsterCountyParserTest extends BaseParserTest {
         "UNIT:ENG6",
         "ADDR:86 HOFFMAN",
         "X:BROADWAY/MARYS  AV",
-        "CITY:Kingston,Ulster",
+        "CITY:KINGSTON",
         "CALL:Struct Fir",
         "INFO:SMOKE CODITION IN  AREA Addtl");
 
@@ -44,7 +44,7 @@ public class NYUlsterCountyParserTest extends BaseParserTest {
         "UNIT:ENG6",
         "ADDR:77 CORNELL",
         "X:TREMPER AV/SMITH AV",
-        "CITY:Kingston,Ulster",
+        "CITY:KINGSTON",
         "CALL:Haz Mat",
         "INFO:UNKNOWN ODOR IN BUILDING  Addt");
         		
@@ -54,7 +54,7 @@ public class NYUlsterCountyParserTest extends BaseParserTest {
         "UNIT:ENG6",
         "ADDR:89 NEWKIRK AV",
         "X:HASBROUCK AV/MAPLE",
-        "CITY:Kingston,Ulster",
+        "CITY:KINGSTON",
         "CALL:Struct Fir",
         "INFO:BASEMENT FULL OF SMOKE");
     
