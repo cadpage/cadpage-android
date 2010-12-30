@@ -445,6 +445,12 @@ FM2  P: 1 LOC: 9657 BLACK HORSE RUN X: * * * * Structure Fire * YCF OPS 2/STR FI
 RFE1 RFE5 RFE2 RFL1 RFB1  P: 1 LOC: 229 BLANCHE CIR X: STROUPE ST / CRAWFORD RD * CRAWFORD PARK * Rock Hill * * Structure Fire * RHF OPS 2/ STRUCT FIRE * NAR:  ABANDONED HOUSE ON FIRE, FLAMES VISIBLE  INC#: 2010-00005928 
 P: 1 LOC: E  MAIN ST X: S  ANDERSON RD * * Rock Hill * * Vehicle Fire * YCF OPS 2/VEHICLE FIRE * STANLEY YOUNG NAR:  SMOKE COMING FROM HIS CAR//IN THE PARKING LOT ROCK TAVERN AND BAR NUMBER 2  INC#: 2010-00000439
 ***************************************************************************
+Jefferson County, NY (NYJeffrsonCountyParser)
+BREATHING PROBL|18077 REED POINT RD:ORLEANS(T)|77 YO MALE DIFF BREATHING
+ABDOMINAL PAIN|18081 REED POINT RD:ORLEANS(T)|79F  :ProQA Medical Case Entry Finished You are responding to a patient with abdominal pain.  The patient is a  79-year-old female, who is conscious and breathing.  Abdominal Pain / Problems.  Caller Statement: ABDOMINAL PAIN.
+ASSIST-EMS|I 81 MM 176 N:ALEXANDRIA(T)|1 mile south of 50 in the north bound lane   vehicle appears to be stuck in mediun    unkn9ow if occupied  :3D63 REQUESTING EMS RESPOND.  ONE FEMALE OCCUPANT COMPLAINING OF WRIST PAIN.
+***************************************************************************
+***************************************************************************
 ***************************************************************************
 ***************************************************************************
 Districts that are not yet supported.
@@ -464,13 +470,13 @@ SIG16A 30 HARBOR NORTH C/S OF S. BAYVIEW TO THE DEAD END DIABETIC COMA TOA 20:24
  SIG 16 ER DOX 365 BROADWAY CROSS STREETS OF DIXION AND ALBANY TOA 13:46 RUN#10-1229
 **********************************************************
 Allegheny County, PA (needs to concatenate 3 sequential messages)
-Contact: Anthony Cuda <acuda@wpahs.org>
+Contact: Anthony Cuda <acuda@wpahs.org>,"Cuda, Anthony" <acuda@ccac.edu>
+Sender: 777008816418
 ALLEGHENY COUNTY 911 :FRCOM3, F1, POSS FIRE COM - SMELL OF SMOKE/BLDG ENDG, SHARPSBURG TOWERS #902, SHP, at 601 MAIN ST #902, SHP, btwn S MAIN ST and 7TH ST, NFD3, 265002, CALLER REPORTING A STRONG SMELL OF "SCHLAK" PAINT OR AMMONIA IN THE BUILDING. CALLER WAS ADVISED TO EVAC, Units:102EN1, 111EN1, 149EN1, 191EN1,
 ALLEGHENY COUNTY 911 :NGASRES, F1, NATURAL GAS SMELL/LEAK RES BLDG, 40 EASTON RD, FOX, btwn CHAPEL OAK RD and OLD MILL RD, ON THE STREET, IN FRONT OF, NFD3, 157001, Medical ProQA recommends dispatch at this time, Units:102EN1, 157EN1, 172EN1 - From 405 11/11/2010 12:17:38 TXT STOP to opt-out
 ALLEGHENY COUNTY 911 :NGASCOM, F1, NATURAL GAS SMELL/LEAK COM BLDG, FREEPORT MEDICAL ASSOC, ASP, at 241 FREEPORT RD, ASP, SUITE 7-FOX CHAPEL DERMETOLOGY, btwn CENTER AVE and EASTERN AVE, NFD3, 102001, STRONG SMELL OF NATURAL GAS IN THE BLDG, Units:102EN1, 111EN2, 157RQ1, 191TK1, 260RQ1, 265TK1 - From 405 11/10/2010 10:02:01 TXT STOP to opt-out
+ALLEGHENY COUNTY 911 :NGASRES, F1, NATURAL GAS SMELL/LEAK RES BLDG, 262 EMERSON RD, SHA, btwn JORDAN LN and HAWTHORNE RD, NFD3, 260001, NAT TXT STOP to opt-out
 
-Contact: "Cuda, Anthony" <acuda@ccac.edu>
-Sender: 777008816418
 191001, GARAGE ON FIRE, Units:102EN1, 149EN1, 191EN1, 191TK1, 240SQ1, 247TK1, 259EN1, 260TK1, 312RQ40 - From 405 11/13/2010 06:43:58 TXT STOP to opt-out
 **********************************************************
 Niagra County, NY (major parsing issues !!) (notice 11/27)

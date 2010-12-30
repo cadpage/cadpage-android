@@ -39,7 +39,8 @@ public class NJGloucesterCountyParser extends SmsMsgParser {
       "S", "S HARRISON TWP",
       "WASHINGTON", "WASHINGTON TWP",
       "WEST DEPTFORD", "W DEPTFORD TWP",
-      "WOOLWICH", "WOOLWICH TWP"
+      "WOOLWICH", "WOOLWICH TWP",
+      "WOODBRYHGT", "WOODBURY HEIGHTS"
   });
   
   public NJGloucesterCountyParser() {
