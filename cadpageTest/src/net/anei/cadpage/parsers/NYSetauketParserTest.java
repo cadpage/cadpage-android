@@ -17,7 +17,7 @@ public class NYSetauketParserTest extends BaseParserTest {
         "CALL:AMBULANCE, CONVULSIONS / SEIZURES",
         "ADDR:43 NEAL PATH",
         "CITY:SETAUKET",
-        "MAP:12-D-2",
+        "CODE:12-D-2",
         "INFO:44 YOF SEIZURES");
 
     doTest("T2",
@@ -26,7 +26,7 @@ public class NYSetauketParserTest extends BaseParserTest {
         "ADDR:5000 ROUTE 347",
         "CITY:East Setauket",
         "X:ARROWHEAD LN SOUTH",
-        "MAP:26-A-5",
+        "CODE:26-A-5",
         "INFO:56 YOF SICK IFO BUILDING");
     
     doTest("T3",
@@ -43,7 +43,7 @@ public class NYSetauketParserTest extends BaseParserTest {
         "ADDR:8 HOLLY LN",
         "CITY:EAST SETAUKET",
         "X:CRANE NECK RD",
-        "MAP:21-A-1",
+        "CODE:21-A-1",
         "INFO:61 YOM - CUT TO HAND");
         
     doTest("T5",
@@ -52,7 +52,7 @@ public class NYSetauketParserTest extends BaseParserTest {
         "ADDR:C/O",
         "CITY:Setauket",
         "X:WIRELESS RD",
-        "MAP:29-B-1U",
+        "CODE:29-B-1U",
         "INFO:INJURIES");
     
   }
