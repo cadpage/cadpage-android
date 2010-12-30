@@ -31,6 +31,12 @@ public class SmsMsgInfoTest {
     doMapTest("APT1", "144 MAIN ST,KENBURG,XX", "144 MAIN ST #14");
     
     doMapTest("BND1", "US HIGHWAY 85 & E 77TH AVE,KENBURG,XX", "US HIGHWAY 85 NB & E 77TH AVE");
+    doMapTest("BND2", "US HIGHWAY 85 & E 77TH AVE,KENBURG,XX", "US HIGHWAY 85 WB- & E 77TH AVE");
+    doMapTest("BND3", "US HIGHWAY 85 WB-ST & E 77TH AVE,KENBURG,XX", "US HIGHWAY 85 WB-ST & E 77TH AVE");
+    doMapTest("BND4", "US HIGHWAY 100,KENBURG,XX", "US HIGHWAY 100 SB");
+    
+    doMapPlaceTest("PLC1", "PARK PLACE,US HIGHWAY 100,KENBURG,XX", "US HIGHWAY 100", "PARK PLACE");
+    doMapPlaceTest("PLC2", "850 US HIGHWAY 100,KENBURG,XX", "850 US HIGHWAY 100", "PARK PLACE");
   }
   
   private void doMapTest(String title, String result, String address) {
@@ -48,6 +54,18 @@ public class SmsMsgInfoTest {
     data.strCross = cross;
     data.strCity = city;
     data.strState = state;
+    
+    data.defCity = "KENBURG";
+    data.defState = "XX";
+    
+    SmsMsgInfo info = new SmsMsgInfo(data);
+    assertEquals(title, result, info.getMapAddress());
+  }
+  
+  private void doMapPlaceTest(String title, String result, String address, String place) { 
+    SmsMsgInfo.Data data = new SmsMsgInfo.Data();
+    data.strAddress = address;
+    data.strPlace = place;
     
     data.defCity = "KENBURG";
     data.defState = "XX";
