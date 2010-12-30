@@ -60,13 +60,19 @@ public class TXCyCreekCommCenterParser extends SmsMsgParser {
     
     Properties props = parseMessage(body, new String[]{"Map", "Sub", "Nat", "Units", "X-St"});
     String sAddr = props.getProperty("Loc", "");
-    ipt = sAddr.indexOf(',');
-    if (ipt > 0) sAddr = sAddr.substring(0, ipt).trim();
-    parseAddressCity(sAddr, data);
+    Parser p = new Parser(sAddr);
+    if (sAddr.startsWith("<tel:")) {
+      p.get("<tel:");
+      data.strPhone = p.get('>');
+    }
+    parseAddressCity(p.get(','), data);
     if (data.strCity.equals("HC")) data.strCity = "";
+    data.strPlace = p.get(';');
+    data.strApt = p.get();
     
     data.strMap = props.getProperty("Map", "");
-    data.strPlace = props.getProperty("Sub", "");
+    String sPlace = props.getProperty("Sub", "");
+    if (sPlace.length() > 0) data.strPlace = sPlace;
     data.strCall = props.getProperty("Nat", "");
     data.strUnit = props.getProperty("Units", "");
     data.strCross = props.getProperty("X-St", "");

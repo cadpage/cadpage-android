@@ -24,6 +24,7 @@ public class SmsMsgInfo {
   private String strCallId;
   private String strPhone;
   private String strSupp;
+  private String strCode;
   private String strSource;
   private String defCity;
   private String defState;
@@ -48,6 +49,7 @@ public class SmsMsgInfo {
     public String strCallId = "";
     public String strPhone="";
     public String strSupp="";
+    public String strCode="";
     public String strSource = "";
     public String defCity = "";
     public String defState="";
@@ -72,6 +74,7 @@ public class SmsMsgInfo {
       if (strCallId.length() > 0) result += 10;
       if (strPhone.length() > 0) result += 1;
       if (strSupp.length() > 0) result += 1;
+      if (strCode.length() > 0) result += 1;
       return result;
     }
   }
@@ -94,6 +97,7 @@ public class SmsMsgInfo {
     strCallId = info.strCallId;
     strPhone = info.strPhone;
     strSupp = info.strSupp;
+    strCode = info.strCode;
     strSource = info.strSource;
     defCity = info.defCity;
     defState = info.defState;
@@ -175,10 +179,10 @@ public class SmsMsgInfo {
   
   // Clean up and NB, SB, EB, or WB words
 
-  private static final Pattern DIRBOUND_PAT = Pattern.compile("\\s(N|S|E|W)B-?(\\s|$)");
+  private static final Pattern DIRBOUND_PAT = Pattern.compile("\\s(N|S|E|W)B\\b");
   private String cleanBounds(String sAddr) {
     Matcher match = DIRBOUND_PAT.matcher(sAddr);
-    return match.replaceAll(" ").trim();
+    return match.replaceAll("").trim();
   }
 
   // Google map isn't found of house numbers mixed with intersections
@@ -298,6 +302,14 @@ public class SmsMsgInfo {
   public String getSupp() {
     return strSupp;
   }
+  
+  /***
+   * @return call type code
+   */
+  public String getCode() {
+    return strCode;
+  }
+  
   /**
    * @return the page source 
    */
@@ -341,6 +353,7 @@ public class SmsMsgInfo {
     addInfo(sb, "ID", strCallId);
     addInfo(sb, "Ph", strPhone);
     addInfo(sb, "Info", strSupp);
+    addInfo(sb, "Code", strCode);
   }
   
   private void addInfo(StringBuilder sb, String title, String value) {
