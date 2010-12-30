@@ -559,24 +559,6 @@ CAD:2010110683;PI ACCIDENT;8859 JERSEY RD;DELM;CONNELLY MILL RD;ADKINS RD;[Medic
 **********************************************************
 **********************************************************
 **********************************************************
-Jefferson County, NY
-Contact: "jayscad@yahoo.com" <jayscad@yahoo.com>,jay greening <jagx91@gmail.com>
-Sender: tirescue@googlegroups.com
-BREATHING PROBL|18077 REED POINT RD:ORLEANS(T)|77 YO MALE DIFF BREATHING
-ABDOMINAL PAIN|18081 REED POINT RD:ORLEANS(T)|79F  :ProQA Medical Case Entry Finished You are responding to a patient with abdominal pain.  The patient is a  79-year-old female, who is conscious and breathing.  Abdominal Pain / Problems.  Caller Statement: ABDOMINAL PAIN.
-ASSIST-EMS|I 81 MM 176 N:ALEXANDRIA(T)|1 mile south of 50 in the north bound lane   vehicle appears to be stuck in mediun    unkn9ow if occupied  :3D63 REQUESTING EMS RESPOND.  ONE FEMALE OCCUPANT COMPLAINING OF WRIST PAIN.
-CHEST PAIN|622 JOHN ST:CLAYTON(V)|59 FEMALE/CARDIAC ISSUES
-MVA-PI|SHIMEL RD & STATE ROUTE 411:ORLEANS(T)|1 VEH OFF ROAD - MINOR INJURY
-FIRE ALARM|37382 ORLEANS CEMETERY RD:ORLEANS(T)|CAPUTO RESIDENCE GENERAL SMOKE ALARM
-
-Sender: lvfd27@googlegroups.com
-FALL|34226 CARTER STREET RD:ORLEANS(T)|  CALLBACK=(315)489-3188 LAT=  LON=  
-UNC=    06315-489-3188 12/05 17:38:29  071                                 
-Verizon Wireless            WPH1                 Honey Flats Road - SW  
-Sector                   LaFargeville                  NY                     
-                                LAT:+044.158612  LON:-075.905035ELV:+00000  
-COF:1709      COP:100MTN:315-511-4647       CPF:VZW  -911ai.com-             
-ESN:01315
 **********************************************************
 Southhampton Village, NY
 Contact: Chris Mckay <ccmckay18@gmail.com>
@@ -943,6 +925,7 @@ CAD:2251 HENDERSONVILLE RD;B21;MOUNTAIN ENERGY;ABDOMINAL PAINS / PROBLEMS;FOREST
 CAD:331 CEDAR LN;B21;SWAIN, J WEAVER;DIABETIC PROBLEMS;MAPLE CT;MOSS LN
 CAD:25 OLD SHOALS RD;SIMPLEX;(FR) FIRE ALARM;DOWNING DR;GLENN BRIDGE RD;10015691
 CAD:277 MILLS GAP RD;B213;SMOKE DETECTOR;CPI;(FR) FIRE ALARM;PINNERS COVE RD;SURREY RUN
+CAD:156 LOWER CHRIST SCHOOL RD/BALDWIN RD;B213;VERIZON;(Z)MOTOR VEH ACCIDENT UNKNOWN
 **********************************************************
 Charles County, MD
 Contact: Darrin Tomlinson <lackeychargers08@verizon.net>
@@ -1010,6 +993,16 @@ Contact:  Brian Miller. Xtfd62@yahoo.com, 9376732333@messaging.sprintp
 MBLS-MEDICAL Location: 160 RICHARD DR DAYTON XENIA RD / ROBERT LN XENIA TWP Time: 17:31 Units: M51  Common
 FMALS-MEDIC AL Location: 378 WINDING TRL LAMPLIGHTER PL, WOODLAND DR / HELEN AVE XENIA TWP Time: 16:39 Unit
 FGRA-GRASS/FIELD Location: 731 HOOK RD OLD HOOK RD / S BICKETT RD XENIA TWP Time: 11:52 Units:  Common Name
+FMBLS-MEDICAL Location: 721 KINSEY RD CRESTLINE DR / APOLLO DR XENIA TWP Time: 23:36 Units:  Common Name: I
+FGRA-GRASS/FIELD Location: 731 HOOK RD OLD HOOK RD / S BICKETT RD XENIA TWP Time: 11:52 Units:  Common Name
+FMBLS-MEDICAL Location: 160 RICHARD DR DAYTON XENIA RD / ROBERT LN XENIA TWP Time: 17:31 Units: M51  Common
+CRUI Location: STEVENSON RD US 42 E XENIA TWP Time: 23:52 Units: E51 M51 CHF50  Common Name: Info:  IN A DI
+FMALS-MEDIC AL Location: 378 WINDING TRL LAMPLIGHTER PL, WOODLAND DR / HELEN AVE XENIA TWP Time: 16:39 Unit
+CRPI Location: 413 CLIFTON RD LITTLE MIAMI SCENIC BIKE PATH / CLARK RUN RD XENIA TWP Time: 19:17 Units: E51
+CRUI Location: STEVENSON RD US 42 E XENIA TWP Time: 23:52 Units: E51 M51 CHF50  Common Name: Info:  IN A DI
+FMBLS-MEDICAL Location: 9 SEXTON DR OLD SPRINGFIELD PIKE / OLD SPRINGFIELD PIKE XENIA TWP Time: 21:28 Units
+FACO-FIRE ALARM COMMERCIAL Location: 121 FAIRGROUND RD GREENE COUNTY FAIRGROUNDS / BEAVERCREEK LN XENIA TWP
+FMBLS-MEDICAL Location: 1154 HOOK RD S BICKETT RD / OLD HOOK RD XENIA TWP Time: 13:36 Units: M52  Common Na
 **********************************************************
 Wicomico County, MD
 Contact: Jeff Paige <jeff.paige219@gmail.com>
@@ -1036,13 +1029,23 @@ Contact: Brian Mulligan <fireguyl19@gmail.com>
 System: Firecom
 [Fire CAD Message]  New Fire Run: 2010-63654,Nature: 12D02E-SEIZURE - Continuous or Multiple seizures,MR54,Location: 12246 TRAIL HOLLOW DR,Buildi
 **********************************************************
+Unknown
+Contact: "Ole Dean K." <koehmstedt@gmail.com>
+Sender: 93001xxx
+CAD:Evacuation In-Progress;70 MYSTICAL CT; GARN;(S)JORDAN RIDGE (N)
+CAD:OPS5;CLD;52C02C;CARBON MONOXIDE ALARM;70 MYSTICAL CT;(S)JORDAN RIDGE (N);GALAXY DR;DENA HOLLOMAN;12/28/2010 22:20:35;CLD1
+CAD:CLDFR;CLD;17B01G;INJURED PERSON;104 LAKEVIEW CT;(S)SOUTH RIDGE (N);SOUTH RIDGE DR;DOBERT, HENRY;12/28/2010 11:00:58;CLDR1
 **********************************************************
+East Rockaway, NY (in Nassau County)
+Contact: Tommy Johnson <tjohnson377.tj@gmail.com>
+Sender: paging@alpinesoftware.com <From%3Apaging@alpinesoftware.com>
+FireCom:  3 HUDSON ST E (GENERAL-AUTO) FIRE ALARM RINGING
 **********************************************************
 **********************************************************
 **********************************************************
 * Misc formats received with problem reports
 **********************************************************
-Unknown from problem reportts
+Unknown from problem reports
 Contact: James Mayhew <kc4bpx@gmail.com>
 Sender: e911@ps400.hanoverva.org <From%3Ae911@ps400.hanoverva.org>
 Subject:(21777) a
