@@ -11,6 +11,7 @@ public class TXCyCreekCommCenterParserTest extends BaseParserTest {
   
   @Test
   public void testParser() {
+    
     doTest("T1",
         "1of2:09/06 11:56 W HILLSIDE DR/EASTEX FRWY, ; Map:414D Sub: Nat:MA-MUTUAL AID / ASSIST AGENCY Units:E91 T81 T73 E-L19 X-St:EASTEX",
         "ADDR:W HILLSIDE DR & EASTEX FRWY",
@@ -111,6 +112,17 @@ public class TXCyCreekCommCenterParserTest extends BaseParserTest {
         "CALL:67B01U-SMALL OUTSIDE FIRE",
         "UNIT:E21 E26 B22",
         "X:GRANT RD WILLOW LN");
+    
+    doTest("T13",
+        "12/29 11:17 <tel:177575> N SAM HOUSTON PKWY W EB, SAM HOUSTON RACE PARK; FL 1 Map:370T- Nat:71B01-VEHICLE FIRE Units:E24 NWE43 B23 X-St:FAIRBANKS N HOUSTON RD N",
+        "PHONE:177575",
+        "ADDR:N SAM HOUSTON PKWY W EB",
+        "PLACE:SAM HOUSTON RACE PARK",
+        "APT:FL 1",
+        "MAP:370T-",
+        "CALL:71B01-VEHICLE FIRE",
+        "UNIT:E24 NWE43 B23",
+        "X:FAIRBANKS N HOUSTON RD");
 
   }
 }
