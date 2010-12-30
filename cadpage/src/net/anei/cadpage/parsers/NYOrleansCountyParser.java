@@ -35,7 +35,7 @@ public class NYOrleansCountyParser extends SmsMsgParser {
       "TKN", "KENDALL"
   });
   
-  private static final Pattern MAP_PATTERN = Pattern.compile("\\b\\d{1,2}-?[A-Za-z]-?\\d\\b");
+  private static final Pattern CODE_PATTERN = Pattern.compile("\\b\\d{1,2}-?[A-Za-z]-?\\d\\b");
   
   public NYOrleansCountyParser() {
     super("ORLEANS COUNTY", "NY");
@@ -68,10 +68,10 @@ public class NYOrleansCountyParser extends SmsMsgParser {
       data.strSupp += fld;
     }
     
-    // There might be a map code buried in there, see if we can find it
-    Matcher match = MAP_PATTERN.matcher(data.strSupp);
+    // There might be a type code buried in there, see if we can find it
+    Matcher match = CODE_PATTERN.matcher(data.strSupp);
     if (match.find()) {
-      data.strMap = data.strSupp.substring(match.start(), match.end());
+      data.strCode = data.strSupp.substring(match.start(), match.end());
       String part1 = data.strSupp.substring(0, match.start()).trim();
       String part2 = data.strSupp.substring(match.end()).trim();
       if (part2.length() == 0) data.strSupp = part1;

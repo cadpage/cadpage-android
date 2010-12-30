@@ -61,7 +61,7 @@ public class NYBrentwoodParser extends SmartAddressParser {
       data.strPlace = getLeft();
     }
     data.strCross = props.getProperty("CROSS", "");
-    data.strMap = props.getProperty("CODE", "");
+    data.strCode = props.getProperty("CODE", "");
     
     data.strCity = convertCodes(data.strCity, cityCodeTable);
     

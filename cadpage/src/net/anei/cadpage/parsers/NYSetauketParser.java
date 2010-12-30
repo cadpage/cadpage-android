@@ -16,7 +16,7 @@ MISC CALL WITH RESCUE, MVA: 29-B-1U - INJURIES at C/O, Setauket  c/s: WIRELESS R
 
 public class NYSetauketParser extends SmsMsgParser {
   
-  private static final Pattern MAP_CODE = Pattern.compile("\\b\\d{1,2}-[A-Z]-\\d{1,2}[A-Z]?\\b");
+  private static final Pattern CODE_PATTERN = Pattern.compile("\\b\\d{1,2}-[A-Z]-\\d{1,2}[A-Z]?\\b");
   
   public NYSetauketParser() {
     super("SETAUKET", "NY");
@@ -47,9 +47,9 @@ public class NYSetauketParser extends SmsMsgParser {
     if (ipt >= 0) {
       data.strCall= sCall.substring(0,ipt).trim();
       data.strSupp= sCall.substring(ipt+1).trim();
-      Matcher match = MAP_CODE.matcher(data.strSupp);
+      Matcher match = CODE_PATTERN.matcher(data.strSupp);
       if (match.find()) {
-        data.strMap = data.strSupp.substring(match.start(), match.end());
+        data.strCode = data.strSupp.substring(match.start(), match.end());
         data.strSupp = cutOut(data.strSupp, match.start(), match.end());
         if (data.strSupp.startsWith("- ")) data.strSupp = data.strSupp.substring(2).trim();
       }
