@@ -126,7 +126,6 @@ public class SmsMsgInfo {
   public String getAddress() {
     return strAddress;
   }
-
   /**
    * @return return mapping address
    */
@@ -137,9 +136,17 @@ public class SmsMsgInfo {
     
     // If there wasn't an address number or intersection marker in address
     // try appending cross street info as as intersection
-    if (!validAddress() && strCross.length() > 0) {
-      sb.append(" & ");
-      sb.append(strCross);
+    if (!validAddress()) {
+      if (strCross.length() > 0) {
+        sb.append(" & ");
+        sb.append(strCross);
+      }
+    
+      // If that didn't work, lets hope a place name will be enough
+      else if (strPlace.length() > 0) {
+        sb.insert(0, ',');
+        sb.insert(0, strPlace);
+      }
     }
     
     // Add city if specified, default city otherwise
@@ -167,9 +174,11 @@ public class SmsMsgInfo {
 	}
   
   // Clean up and NB, SB, EB, or WB words
+
+  private static final Pattern DIRBOUND_PAT = Pattern.compile("\\s(N|S|E|W)B-?(\\s|$)");
   private String cleanBounds(String sAddr) {
-    return sAddr.replaceAll(" NB ", " ").replaceAll(" SB ", " ")
-        .replaceAll(" EB ", " ").replaceAll(" WB ", " ");
+    Matcher match = DIRBOUND_PAT.matcher(sAddr);
+    return match.replaceAll(" ").trim();
   }
 
   // Google map isn't found of house numbers mixed with intersections
@@ -210,7 +219,9 @@ public class SmsMsgInfo {
     // starts with a #
     else {
       ipt = sAddress.lastIndexOf(' ');
-      if (sAddress.charAt(ipt+1) == '#') sAddress = sAddress.substring(0, ipt).trim();
+      if (ipt+1 < sAddress.length() && sAddress.charAt(ipt+1) == '#') {
+        sAddress = sAddress.substring(0, ipt).trim();
+      }
     }
     return sAddress;
   }
