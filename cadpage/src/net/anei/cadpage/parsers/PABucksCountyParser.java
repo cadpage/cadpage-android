@@ -36,7 +36,7 @@ public class PABucksCountyParser extends SmsMsgParser {
   
   @Override
   public String getFilter() {
-    return "@bnn.us";
+    return "8276,@bnn.us";
   }
 
   @Override
