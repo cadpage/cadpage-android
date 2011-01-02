@@ -268,6 +268,7 @@ public abstract class SmsMsgParser {
   * @param data message info object to be filled
   * @param parseCity true if cities should be parsed with dashes
   */
+ private static final Pattern INTERSECT = Pattern.compile("/|&");
  private static void parseAddress(String addressLine, SmsMsgInfo.Data data, 
                                      boolean parseCity) {
    addressLine = addressLine.trim();
@@ -275,7 +276,7 @@ public abstract class SmsMsgParser {
    // Periods used with abbreviations also cause trouble.  Just get rid of all periods
    addressLine = addressLine.replaceAll("\\.", "");
 
-   for (String addr : addressLine.split("/")) {
+   for (String addr : INTERSECT.split(addressLine)) {
      addr = addr.trim();
      if (parseCity) {
        int pt = addr.lastIndexOf('-');
