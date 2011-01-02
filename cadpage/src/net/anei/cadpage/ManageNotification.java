@@ -1,5 +1,6 @@
 package net.anei.cadpage;
 
+import java.io.IOException;
 import java.util.ArrayList;
 
 import android.app.Notification;
@@ -7,9 +8,11 @@ import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
+import android.content.res.AssetFileDescriptor;
 import android.graphics.Color;
 import android.media.AudioManager;
 import android.media.MediaPlayer;
+import android.media.MediaPlayer.OnErrorListener;
 import android.net.Uri;
 import android.text.SpannableString;
 
@@ -21,6 +24,16 @@ public class ManageNotification {
   private static final int NOTIFICATION_ALERT = 1337;
   
   private static MediaPlayer mMediaPlayer = null;
+  
+  @SuppressWarnings("serial")
+  private static class MediaFailureException extends RuntimeException {
+    MediaFailureException(String desc) {
+      super(desc);
+    }
+    MediaFailureException(String desc, Throwable cause) {
+      super(desc, cause);
+    }
+  }
 
   /*
    * Class to hold the popup notification elements
@@ -101,7 +114,7 @@ public class ManageNotification {
     n.notify(context, NOTIFICATION_ALERT);
 
     // Schedule a reminder notification
-    if (reminder) ReminderReceiver.scheduleReminder(context, message);
+    if (reminder && !ManagePreferences.notifyOverride()) ReminderReceiver.scheduleReminder(context, message);
     return true;
   }
 
@@ -216,12 +229,25 @@ public class ManageNotification {
     if ( ManagePreferences.notifyOverride() || ManagePreferences.notifyEnabled()) { 
       if (ManagePreferences.notifyOverride()) {
         if (Log.DEBUG){ Log.v("OVERRIDE ON: running own mediaplayer");}
-        mMediaPlayer = MediaPlayer.create(context, R.raw.generalquarter);
-        mMediaPlayer.setAudioStreamType(AudioManager.STREAM_MUSIC);
-        mMediaPlayer.setLooping(false);
-        mMediaPlayer.setVolume(1, 1);
-        if (Log.DEBUG){ Log.v("Starting Media Player Sound");}
-        mMediaPlayer.start();
+        if (mMediaPlayer == null) {
+          try {
+            mMediaPlayer = new MediaPlayer();
+            mMediaPlayer.setOnErrorListener(new OnErrorListener(){
+              @Override
+              public boolean onError(MediaPlayer mp, int what, int extra) {
+                throw new MediaFailureException("Media Player failure - what:" + what + " extra:" + extra);
+              }});
+            AssetFileDescriptor fd = context.getResources().openRawResourceFd(R.raw.generalquarter);
+            mMediaPlayer.setDataSource(fd.getFileDescriptor(), fd.getStartOffset(), fd.getLength());
+            mMediaPlayer.prepare();
+            mMediaPlayer.setAudioStreamType(AudioManager.STREAM_MUSIC);
+            mMediaPlayer.setLooping(true);
+            mMediaPlayer.setVolume(1.0f, 1.0f);
+            mMediaPlayer.start();
+          } catch (IOException ex) {
+            throw new MediaFailureException(ex.getMessage(), ex);
+          }
+        }
       } else {	 
         notification.sound = alarmSoundURI;
       }
