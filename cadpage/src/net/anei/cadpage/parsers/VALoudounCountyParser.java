@@ -48,10 +48,18 @@ public class VALoudounCountyParser extends SmsMsgParser {
   protected boolean parseMsg(String body, Data data) {
     
     if (! isPageMsg(body, LCFRkeywords)) return false;
+    
+    // Clean off extra junk at both ends
+    body = body.trim();
+    if (body.charAt(0) == '(') {
+      int pt = body.indexOf(')');
+      if (pt >= 0) body = body.substring(pt+1).trim();
+    }
+    int pt = body.lastIndexOf('[');
+    if (pt >= 0) body = body.substring(0, pt).trim();
 
     // Needs some massaging before it can be run through the standard parser
     body = body.replace(" Apt:", ",Apt:");
-    body = body.replace(" [", ",Ext:");
     Properties props = parseMessage(body, ",", new String[]{"Addr", "Unit"});
     data.strCall = props.getProperty("Call", "");
     parseAddressCity(props.getProperty("Addr", ""), data);

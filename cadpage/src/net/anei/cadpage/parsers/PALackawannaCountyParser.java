@@ -29,7 +29,7 @@ Sender: aegispage@lackawannacounty.org
 public class PALackawannaCountyParser extends SmartAddressParser {
 
   private static final String[] KEYWORDS = 
-    new String[]{"Unit", "Status", "Location", "Call Type", "Common Name", "Call Time", 
+    new String[]{"Unit", "Status", "Location", "Common Name", "Call Type", "Call Time", 
                  "Call Number", "Quadrant", "District"};
   
 //  private static final Properties CITY_CODES = buildCodeTable(new String[]{
@@ -51,7 +51,7 @@ public class PALackawannaCountyParser extends SmartAddressParser {
     
     if (! body.startsWith("(Dispatch) ") && !body.startsWith("[Dispatch] ")) return false;
     
-    Properties props = parseMessage(body, KEYWORDS);
+    Properties props = parseMessage(body.substring(11), KEYWORDS);
     data.strUnit = props.getProperty("Unit", "");
     String sAddr = props.getProperty("Location");
     if (sAddr == null) return false;
@@ -61,9 +61,9 @@ public class PALackawannaCountyParser extends SmartAddressParser {
     if (sAddr.startsWith("0 ")) sAddr = sAddr.substring(2);
     parseAddress(StartType.START_ADDR, sAddr, data);
     data.strCross = getLeft();
-    data.strPlace = props.getProperty("Name", "");
-    data.strCall = props.getProperty("Type", "");
-    data.strCallId = props.getProperty("Number", "");
+    data.strPlace = props.getProperty("Common Name", "");
+    data.strCall = props.getProperty("Call Type", "");
+    data.strCallId = props.getProperty("Call Number", "");
     data.strMap = props.getProperty("Quadrant", "");
     
     return true;

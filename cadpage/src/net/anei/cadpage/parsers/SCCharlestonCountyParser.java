@@ -64,8 +64,8 @@ public class SCCharlestonCountyParser extends SmsMsgParser {
 
     data.strCall = props.getProperty("CALL", "");
     parseAddress(props.getProperty("Address", ""),data);
-    data.strCross = props.getProperty("Street", "");
-    data.strSupp = props.getProperty("Channel","");
+    data.strCross = props.getProperty("X Street", "");
+    data.strSupp = props.getProperty("Cmd Channel","");
 
     return true;
   }

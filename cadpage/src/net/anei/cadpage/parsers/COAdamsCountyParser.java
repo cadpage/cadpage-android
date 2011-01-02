@@ -45,7 +45,7 @@ public class COAdamsCountyParser extends SmsMsgParser {
     if (pt < 0) return false;
     parseAddress(sAddr.substring(0, pt), data);
     
-    data.strCall = props.getProperty("CODE");
+    data.strCall = props.getProperty("TYPE CODE");
     
     // There is a comment field, but it never seems to have enough info to
     // make it worth parsing

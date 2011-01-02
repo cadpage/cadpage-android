@@ -171,33 +171,93 @@ public abstract class SmsMsgParser {
   */
  protected static Properties parseMessage(String body, String[] keyWords) {
    
-   // The hard part is checking for partial keywords that might have gotten
-   // cut off by the SMS text limit
-   int ipt = body.lastIndexOf(' ');
-   ipt = body.length();
-   for (int cnt = 1; cnt <= 2; cnt++) {
-     ipt = body.lastIndexOf(' ', ipt-1);
-     if (ipt < 0) break;
-     String tail = body.substring(ipt+1);
-     for (String key : keyWords) {
-       if (key.startsWith(tail)) {
-         body = body.substring(0, ipt).trim();
-         ipt = 0;
+   Properties props = new Properties();
+   
+   int iKey = -1;  // Current key table pointer
+   int iStartPt = 0;   // current data field start index
+   
+   // Loop processing each keyword found
+   do {
+     
+     // Start searching for the next keyword starting at the current data field
+     int iColonPt = iStartPt;
+     int iEndPt = -1;
+     int iNxtKey = -1;
+     
+     // This loop checks each ':' characters looking for one that
+     // matches an available keyword
+     while (true) {
+       
+       // Find the next colon character, if there isn't one, bail out
+       iColonPt = body.indexOf(':', iColonPt+1);
+       if (iColonPt < 0) break;
+       
+       // Next search the available keywords to see if this colon
+       // defines one of them
+       for (int ndx = iKey+1; ndx < keyWords.length; ndx++) {
+         String key = keyWords[ndx];
+         int len = key.length();
+         int iTempPt = iColonPt - len;
+         if (iTempPt < iStartPt) continue;
+         if (iTempPt > 0 && body.charAt(iTempPt-1)!=' ') continue;
+         if (!body.substring(iTempPt,iColonPt).equals(key)) continue;
+         iNxtKey = ndx;
+         iEndPt = iTempPt;
          break;
        }
+       
+       // If we found a keyword for this colon, bail out of loop
+       // Otherwise try looking for another colon
+       if (iEndPt >= 0) break;
      }
-     if (ipt == 0) break;
-   }
+     
+     // Coming up of the preceding loop, we either found a valid keyword
+     // with index iNextPt, starting at iEndPT and ending at iColonPt.
+     // Or we didn't.  If we didn't we need to go through some more
+     // cleverness to find the end of the current field.
+     if (iNxtKey < 0) {
+       
+       // Normally this would be the end of the message body
+       // But we are going to be clever and see if the last token in 
+       // the message body looks like a truncated available keyword.
+       // if it is, we will trim that part off.
+       iEndPt = body.length();
+       int iTempPt = iEndPt;
+       for (int cnt = 1; cnt <= 2; cnt++) {
+         iTempPt = body.lastIndexOf(' ', iTempPt-1);
+         if (iTempPt < 0) break;
+         String tail = body.substring(iTempPt+1);
+         for (int ndx = iKey+1; ndx < keyWords.length; ndx++) {
+           if (keyWords[ndx].startsWith(tail)) {
+             iEndPt = iTempPt;
+             iTempPt = 0;
+             break;
+           }
+         }
+         if (iTempPt == 0) break;
+       }
+     }
+     
+     // By this point we have identified 
+     //   iKey     current keyword index (or -1 if none)
+     //   iNxtKey  Next keyword index (or -1 if none)
+     //   iStartPt Start of data field associated with iKey
+     //   iEndPt   End of data field associated with iKey
+     //   iColonPn Colon terminating next keyword
+     
+     // Save current key:value pair and get ready to start looking for the
+     // end of the next keyword
+     if (iKey >= 0) {
+       String value = body.substring(iStartPt, iEndPt).trim();
+       if (value.length() > 0) {
+         props.put(keyWords[iKey], body.substring(iStartPt, iEndPt).trim());
+       }
+     }
+     iKey = iNxtKey;
+     iStartPt = iColonPt + 1;
+   } while (iKey >= 0);
    
-   // The easy part, search for each keyword occurance and replace the blank
-   // in front of it with a newline.  Then we can call the normal parseMessage
-   // with a newline delimiter
-   StringBuffer sb = new StringBuffer(body);
-   for (String keyWord : keyWords) {
-     ipt = sb.indexOf(" " + keyWord + ":");
-     if (ipt >= 0) sb.setCharAt(ipt, '\n');
-   }
-   return parseMessage(sb.toString(), "\n");
+   return props;
  }
 
  /**
@@ -236,8 +296,6 @@ public abstract class SmsMsgParser {
          if (ndx+1 == line.length()) continue;
          String key = line.substring(0, ndx).trim();
          String value = line.substring(ndx+1).trim();
-         ndx = key.lastIndexOf(' ');
-         if (ndx >= 0) key = key.substring(ndx+1);
          props.put(key, value);
      }
      return props;

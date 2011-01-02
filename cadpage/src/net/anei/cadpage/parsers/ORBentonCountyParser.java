@@ -26,7 +26,9 @@ public class ORBentonCountyParser extends SmsMsgParser {
 
   @Override
   protected boolean parseMsg(String body, Data data) {
-    if (!body.startsWith("(Corvallis Alert)")) return false;
+    int pt = body.indexOf("(Corvallis Alert) ");
+    if (pt < 0) return false;
+    body = body.substring(pt+18);
 
     Properties props = parseMessage(body, "\n");
     
@@ -34,7 +36,7 @@ public class ORBentonCountyParser extends SmsMsgParser {
     data.strAddress=props.getProperty("ADD", null);
     if (data.strCall == null || data.strAddress == null) return false;
     
-    int pt = data.strAddress.lastIndexOf(' ');
+    pt = data.strAddress.lastIndexOf(' ');
     if (pt >= 0) {
       String token = data.strAddress.substring(pt+1);
       if (token.charAt(0) == '[' && token.charAt(token.length()-1) == ']') {

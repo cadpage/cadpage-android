@@ -58,7 +58,7 @@ public class TXCyCreekCommCenterParser extends SmsMsgParser {
     if (body.startsWith("Repage: ")) body = body.substring(8);
     body = "Loc:" + body;
     
-    Properties props = parseMessage(body, new String[]{"Map", "Sub", "Nat", "Units", "X-St"});
+    Properties props = parseMessage(body, new String[]{"Loc", "Map", "Sub", "Nat", "Units", "X-St"});
     String sAddr = props.getProperty("Loc", "");
     Parser p = new Parser(sAddr);
     if (sAddr.startsWith("<tel:")) {

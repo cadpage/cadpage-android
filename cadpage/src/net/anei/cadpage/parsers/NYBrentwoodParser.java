@@ -42,7 +42,7 @@ public class NYBrentwoodParser extends SmartAddressParser {
 
     if (! body.startsWith("TYPE:")) return false;
 
-    Properties props = parseMessage(body, new String[]{"LOC", "CROSS", "CODE", "TIME"});
+    Properties props = parseMessage(body, new String[]{"TYPE", "LOC", "CROSS", "CODE", "TIME"});
     data.strCall = props.getProperty("TYPE", "");
     String sAddress = props.getProperty("LOC", "").replaceAll(":", " ");
     int pt = sAddress.indexOf('@');

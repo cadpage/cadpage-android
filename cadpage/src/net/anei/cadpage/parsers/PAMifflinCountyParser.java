@@ -57,7 +57,7 @@ public class PAMifflinCountyParser extends SmsMsgParser {
     if (TOWNSHIPS.contains(data.strCity)) data.strCity += " TWP"; 
     
     data.strApt = props.getProperty("Apt", "").replaceAll("/", "");
-    data.strCross = props.getProperty("Streets", "");
+    data.strCross = props.getProperty("Cross Streets", "");
     
     return true;
   }

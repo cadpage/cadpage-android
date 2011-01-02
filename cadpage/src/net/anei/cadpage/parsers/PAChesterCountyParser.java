@@ -66,7 +66,7 @@ public class PAChesterCountyParser extends SmsMsgParser {
     body = body.replace("\n"," ");
     body = body.replace(" btwn "," btwn:");
 
-    Properties props = parseMessage(body, new String[]{"Type","btwn","Loc","AKA"});
+    Properties props = parseMessage(body, new String[]{"Type","Loc","btwn","AKA"});
     data.strCall = props.getProperty("Type", "");
     data.strCross = props.getProperty("btwn", "");
 
