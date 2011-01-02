@@ -33,7 +33,7 @@ public class VAAlbemarleCountyParserTest extends BaseParserTest {
         "CALL:RES STRUCTURE FIRE",
         "ADDR:4235 WOODTHRUSH LN",
         "INFO:SMOKE AND FIRE IN THE HOUSE",
-        "X:5001 MEADOWLARK");
+        "X:5001 MEADOWLARK CT");
     
     doTest("T4",
         "EARLYSVILL MVA AD: SEMINOLE TRL&LEWIS AND CLARK D CTY: AC LOC: NB LANE 5 OR 6 CARS INVOLVED, UNKNWON INJURIES",

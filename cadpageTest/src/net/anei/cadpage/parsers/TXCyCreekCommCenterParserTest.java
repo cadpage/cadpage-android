@@ -122,7 +122,7 @@ public class TXCyCreekCommCenterParserTest extends BaseParserTest {
         "MAP:370T-",
         "CALL:71B01-VEHICLE FIRE",
         "UNIT:E24 NWE43 B23",
-        "X:FAIRBANKS N HOUSTON RD");
+        "X:FAIRBANKS N HOUSTON RD N");
 
   }
 }
