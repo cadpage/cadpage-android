@@ -31,17 +31,22 @@ Contact: Andres Gutierrez <caramys22@gmail.com>
 *** 2nd/16 - Rescue *** INVALID 185 W 7TH ST CS: PARK AVE  / CENTRAL AVE TOA: 10:35 12/13/10 80 YR FEM VOMITTING WEAK DEER PARK FIRE DISTRICT
 *** 16 - Rescue *** 189 W 10TH ST CS: PARK AVE  / CENTRAL AVE TOA: 07:53 12/13/10 A/F SYNCOPAL DEER PARK FIRE DISTRICT
 *** 16 - Rescue *** 111 LIBERTY ST CS: DEER PARK AVE  / PINE ACRES BLVD TOA: 20:06 12/12/10 82YR MALE CHEST PAIN DEER PARK FIRE DISTRICT
+
+Contact: Dave <dave923@optonline.net>
+Sender: pjfiremanager@optonline.net
+***23- Wires/Electrical Hazard*** THEATRE THREE* 412 MAIN ST PORT JEFFERSON CS: SPRING ST  / MAPLE PL TOA: 14:18 01/02/11 PT JEFFERSON 2011-000003 PJFD
 */
 
 public class NYBabylonParser extends SmartAddressParser {
   
-  private static final String[] keywords = new String[]{"ADDR", "CS", "TOA", "HY"};
+  private static final String[] KEYWORDS = new String[]{"ADDR", "CS", "TOA", "HY"};
   
   private static final Pattern TIME_DATE = Pattern.compile("\\d\\d:\\d\\d \\d\\d/\\d\\d/\\d\\d ");
-  private static final String[] districtList = new String[]{"NORTH BABYLON FC", "AMITYVILLE FD", "DEER PARK FIRE DISTRICT"};
+  private static final String[] DISTRICT_LIST = new String[]{"NORTH BABYLON FC", "AMITYVILLE FD", "DEER PARK FIRE DISTRICT", "PT JEFFERSON"};
+  private static final String[] CITY_LIST = new String[]{"PORT JEFFERSON", "BELLE TERRE"};
   
   public NYBabylonParser() {
-    super("BABYLON", "NY");
+    super(CITY_LIST, "SUFFOLK COUNTY", "NY");
   }
   
   @Override
@@ -55,19 +60,22 @@ public class NYBabylonParser extends SmartAddressParser {
     body = body.substring(pta+3).trim();
     
     body = "ADDR:" + body;
-    Properties props = parseMessage(body, keywords);
+    Properties props = parseMessage(body, KEYWORDS);
     parseAddress(StartType.START_PLACE, FLAG_ANCHOR_END, props.getProperty("ADDR", ""), data);
+    if (data.strPlace.endsWith("*")) data.strPlace = data.strPlace.substring(0, data.strPlace.length()-1).trim(); 
     data.strCross = props.getProperty("CS", "");
     String sSupp = props.getProperty("TOA", "");
     Matcher match = TIME_DATE.matcher(sSupp);
     if (match.find()) sSupp = sSupp.substring(match.end()).trim();
     boolean found = false;
-    for (String district : districtList) {
+    for (String district : DISTRICT_LIST) {
       pt = sSupp.indexOf(district);
       if (pt >= 0) {
         data.strSupp = sSupp.substring(0, pt).trim();
         data.strSource = district;
         data.strCallId = sSupp.substring(pt + district.length()).trim();
+        pt = data.strCallId.indexOf(' ');
+        if (pt >= 0) data.strCallId = data.strCallId.substring(0, pt);
         found = true;
         break;
       }
