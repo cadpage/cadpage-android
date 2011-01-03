@@ -57,5 +57,14 @@ public class OHSugarCreekParserTest extends BaseParserTest {
         "UNIT:72"
         );
     
+    doTest("T6",
+        "Ct:EMS MINOR       Loc:6244 WILMINGTON PIKE         Apt:      XSt:CLYO RD         CENTER POINT DR Grid:003B Units:E74   M72   R70   P241",
+        "CALL:EMS MINOR",
+        "X:CLYO RD CENTER POINT DR",
+        "MAP:003B",
+        "ADDR:6244 WILMINGTON PIKE",
+        "UNIT:E74   M72   R70   P241");
+        
+    
   }
 }
