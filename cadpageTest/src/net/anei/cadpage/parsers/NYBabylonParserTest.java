@@ -6,7 +6,7 @@ import org.junit.Test;
 public class NYBabylonParserTest extends BaseParserTest {
   
   public NYBabylonParserTest() {
-    setParser(new NYBabylonParser(), "BABYLON", "NY");
+    setParser(new NYBabylonParser(), "SUFFOLK COUNTY", "NY");
   }
   
   @Test
@@ -165,6 +165,17 @@ public class NYBabylonParserTest extends BaseParserTest {
         "X:DEER PARK AVE  / PINE ACRES BLVD",
         "INFO:82YR MALE CHEST PAIN",
         "SRC:DEER PARK FIRE DISTRICT");
+    
+    doTest("T30",
+        "***23- Wires/Electrical Hazard*** THEATRE THREE* 412 MAIN ST PORT JEFFERSON CS: SPRING ST  / MAPLE PL TOA: 14:18 01/02/11 PT JEFFERSON 2011-000003 PJFD",
+        "CALL:23- Wires/Electrical Hazard",
+        "PLACE:THEATRE THREE",
+        "ADDR:412 MAIN ST",
+        "CITY:PORT JEFFERSON",
+        "X:SPRING ST  / MAPLE PL",
+        "SRC:PT JEFFERSON",
+        "ID:2011-000003");
+        
     
   }
 }
