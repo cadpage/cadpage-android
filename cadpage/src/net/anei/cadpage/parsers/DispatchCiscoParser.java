@@ -11,6 +11,7 @@ We use Cisco Public Safety�s ECAD program to page out CFS events.  CAD does se
 "Ct:EMS MINOR       Loc:I 675 N/8MM                  Apt:      XSt:WILMINGTON PIKE FEEDWIRE RD     Grid:0045 Units:72                                        Rmk:"
 "Ct:TRAFFIC ACCIDEN Loc:FEEDWIRE RD/WINSHIRE TER     Apt:      XSt:LITTLE SUGARCRE LEDGESTONE BLVD Grid:0002 Units:C70   B70   E71   M72   P228              Rmk:"
 "Ct:OTHER FIRE      Loc:5980 WILMINGTON PIKE         Apt:      XSt:CLYO RD         WILMINGTON PIKE Grid:003A Units:72                                        Rmk:"
+Ct:EMS MINOR       Loc:6244 WILMINGTON PIKE         Apt:      XSt:CLYO RD         CENTER POINT DR Grid:003B Units:E74   M72   R70   P241 
 
 Vigo County, IN
 Ct:FALL Loc:3301 ST MARY'S RD Apt: XSt:BLOOMTOWN RD US HWY 150 Grid:112D Units:E-42 TC-1 Rmk:92 YOLD FML; FELL; FACE DOWN ON FLOOR -
@@ -33,11 +34,14 @@ public class DispatchCiscoParser extends SmartAddressParser {
   @Override
   protected boolean parseMsg(String body, Data data) {
     
-    if (!isPageMsg(body, KEYWORDS)) return false;
     body = body.replaceAll(" +", " ");
     Properties props = parseMessage(body, KEYWORDS);
-    data.strCall = props.getProperty("Ct", "");
+    data.strCall = props.getProperty("Ct");
+    if (data.strCall == null) return false;
     data.strCall = data.strCall.trim();
+    
+    String sAddress = props.getProperty("Loc");
+    if (sAddress == null) return false;
     parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END, props.getProperty("Loc", ""), data);
     data.strApt = props.getProperty("Apt", "");
     data.strCross = props.getProperty("XSt", "");
