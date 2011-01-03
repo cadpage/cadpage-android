@@ -43,7 +43,9 @@ public class NYBabylonParser extends SmartAddressParser {
   
   private static final Pattern TIME_DATE = Pattern.compile("\\d\\d:\\d\\d \\d\\d/\\d\\d/\\d\\d ");
   private static final String[] DISTRICT_LIST = new String[]{"NORTH BABYLON FC", "AMITYVILLE FD", "DEER PARK FIRE DISTRICT", "PT JEFFERSON"};
-  private static final String[] CITY_LIST = new String[]{"PORT JEFFERSON", "BELLE TERRE"};
+  private static final String[] CITY_LIST = new String[]{
+    "PORT JEFFERSON", "BELLE TERRE", "MOUNT SINAI", "STONY BROOK", "MILLER PLACE", "CORAM"
+  };
   
   public NYBabylonParser() {
     super(CITY_LIST, "SUFFOLK COUNTY", "NY");
