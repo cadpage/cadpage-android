@@ -49,7 +49,7 @@ public class VAAlbemarleCountyParser extends SmsMsgParser {
     data.strApt = props.getProperty("APT", "");
     
     String sAddress = props.getProperty("AD");
-    if (sAddress.length() == 0) return false;
+    if (sAddress == null) return false;
     parseAddress(sAddress, data);
     
     String city = props.getProperty("CTY", "");
