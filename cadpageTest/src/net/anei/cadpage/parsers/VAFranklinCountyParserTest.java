@@ -56,6 +56,15 @@ public class VAFranklinCountyParserTest extends BaseParserTest {
     		"X:BETHANY RD/DILLONS MILL RD",
     		"ID:2010-030643"
     	);
+    doTest("T6",
+        "MAILBOX:C07 FIRE-ALARM COMMERCIAL 3325 GRASSY HILL RD RMT CFS# 2010-033866 CROSS: JAMESTOWN RD/CALLAWAY RD",
+        "SRC:C07",
+        "CALL:FIRE-ALARM COMMERCIAL",
+        "CITY:Rocky Mount",
+        "ADDR:3325 GRASSY HILL RD",
+        "X:JAMESTOWN RD/CALLAWAY RD",
+        "ID:2010-033866"
+        );
     
   }   
 }
