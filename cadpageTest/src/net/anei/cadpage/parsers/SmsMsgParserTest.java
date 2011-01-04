@@ -83,7 +83,8 @@ public class SmsMsgParserTest {
         "JUNK CALL:MY CALL NEW TYPE:HELLO OLD TYPE:ONE TIME INFO:",
         "CALL:MY CALL",
         "NEW TYPE:HELLO",
-        "OLD TYPE:ONE TIME");
+        "OLD TYPE:ONE TIME",
+        "INFO:");
 
     doKeyTest("T3", 
         "JUNK CALL:MY CALL OLD TYPE:ONE TIME INF",

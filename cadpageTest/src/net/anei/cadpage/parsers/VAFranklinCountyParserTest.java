@@ -66,6 +66,16 @@ public class VAFranklinCountyParserTest extends BaseParserTest {
         "ID:2010-033866"
         );
     
+    doTest("T6",
+        "S: M:MAILBOX:DP1 ACCIDENT-INJURY 330 FRANKLIN ST RMT CFS# 2011-000224 CROSS: CLAIBORNE AVE/CHURCH ST",
+        "SRC:DP1",
+        "CALL:ACCIDENT-INJURY",
+        "CITY:Rocky Mount",
+        "ADDR:330 FRANKLIN ST",
+        "X:CLAIBORNE AVE/CHURCH ST",
+        "ID:2011-000224");
+        
+    
   }   
 }
   

@@ -63,7 +63,7 @@ public class OHSugarCreekParserTest extends BaseParserTest {
         "X:CLYO RD CENTER POINT DR",
         "MAP:003B",
         "ADDR:6244 WILMINGTON PIKE",
-        "UNIT:E74   M72   R70   P241");
+        "UNIT:E74 M72 R70 P241");
         
     
   }

@@ -3,10 +3,10 @@ package net.anei.cadpage.parsers;
 import org.junit.Test;
 
 
-public class NYBabylonParserTest extends BaseParserTest {
+public class NYSuffolkCountyBParserTest extends BaseParserTest {
   
-  public NYBabylonParserTest() {
-    setParser(new NYBabylonParser(), "SUFFOLK COUNTY", "NY");
+  public NYSuffolkCountyBParserTest() {
+    setParser(new NYSuffolkCountyBParser(), "SUFFOLK COUNTY", "NY");
   }
   
   @Test
