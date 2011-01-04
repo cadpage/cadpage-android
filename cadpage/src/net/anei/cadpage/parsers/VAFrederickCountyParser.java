@@ -1,7 +1,6 @@
 package net.anei.cadpage.parsers;
 
 import net.anei.cadpage.SmsMsgInfo.Data;
-import net.anei.cadpage.parsers.SmsMsgParser.Parser;
 
 /*
 Frederick County, VA

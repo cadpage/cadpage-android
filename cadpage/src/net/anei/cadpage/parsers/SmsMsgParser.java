@@ -248,10 +248,7 @@ public abstract class SmsMsgParser {
      // Save current key:value pair and get ready to start looking for the
      // end of the next keyword
      if (iKey >= 0) {
-       String value = body.substring(iStartPt, iEndPt).trim();
-       if (value.length() > 0) {
-         props.put(keyWords[iKey], body.substring(iStartPt, iEndPt).trim());
-       }
+       props.put(keyWords[iKey], body.substring(iStartPt, iEndPt).trim());
      }
      iKey = iNxtKey;
      iStartPt = iColonPt + 1;

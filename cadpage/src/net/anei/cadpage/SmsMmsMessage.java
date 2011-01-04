@@ -176,7 +176,7 @@ public class SmsMmsMessage implements Serializable {
     if (messageBody == null) messageBody = "";
     
     // Start by decoding commo HTML sequences
-    String body = messageBody.replaceAll("&nbsp;",  " ").replaceAll("&amp;",  "&");
+    String body = messageBody.replaceAll("&nbsp;",  " ").replaceAll("&amp;",  "&").replaceAll("<br>", "\n");
     
     /* Decode patterns that look like this.....
     1 of 3

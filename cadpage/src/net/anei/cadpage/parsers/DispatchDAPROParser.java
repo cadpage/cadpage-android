@@ -20,6 +20,7 @@ R40 EMS-CHEST PAIN 235 LAYMAN ST 101 HAR CFS# 2010-083046 CROSS: N MAIN ST/LONGV
 R40 TRAFFIC CRASH 300 BOYERS RD BLK HAR CFS# 2010-082984 CROSS: MYSTIC WOODS LN/CULLISON CT
 R40 TRAFFIC CRASH RESERVOIR ST & CANTRELL AV HAR CFS# 2010-082327
 (Rescue 40) R40 ODOR INVESTIGATION IN STRUCTUR 290 WARREN SERVICE DR HAR CFS# 2010-091415 CROSS: BLUESTONE DR/DEAD END
+S: M:MAILBOX:DP1 ACCIDENT-INJURY 330 FRANKLIN ST RMT CFS# 2011-000224 CROSS: CLAIBORNE AVE/CHURCH ST
 
 Franklin County, VA 
 MAILBOX:S07 EMS-OTHER/DEFINE 18360 VIRGIL H GOODE HWY 124 RMT CFS# 2010-030542 CROSS: SHADY LN/BLACKWATER RIVER
@@ -35,7 +36,7 @@ public class DispatchDAPROParser extends SmartAddressParser {
 	
   private static final String[] KEYWORDS = new String[]{"LOC", "CFS", "CROSS"};
   
-  private static final Pattern MARKER = Pattern.compile("\\b[SRC]\\d\\d\\b");
+  private static final Pattern MARKER = Pattern.compile("\\b([SRC]\\d\\d|DP\\d)\\b");
   
   public DispatchDAPROParser(Properties cityCodeTable, String defCity, String defState) {
     super(cityCodeTable, defCity, defState);

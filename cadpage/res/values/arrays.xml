@@ -157,11 +157,27 @@
     <item>NYSuffolkCounty</item>
     <item>TXHarrisCounty</item> <!-- V1.1.24 -->
     <item>NYKingston</item>
+    <item>NYBrentwood</item>
+    <item>NYBabylon</item>
+    <item>NYHolbrook</item>
+    <item>NYFarmingdale</item>
+    <item>NYSetauket</item>
+    <item>NYRockyPoint</item>
+    <item>NYBelmore</item>
+    <item>NYSouthhamptonVillage</item>
   </string-array>
   <string-array name="new_location_values">
     <item>NYBrentwood</item>
     <item>TXCyCreekCommCenter</item>
     <item>NYUlsterCounty</item>
+    <item>NYSuffolkCountyA</item>
+    <item>NYSuffolkCountyB</item>
+    <item>NYSuffolkCountyC</item>
+    <item>NYSuffolkCountyC</item>
+    <item>NYSuffolkCountyC</item>
+    <item>NYSuffolkCountyC</item>
+    <item>NYSuffolkCountyC</item>
+    <item>NYSuffolkCountyC</item>
   </string-array>
   
   <!-- Array of state names -->
@@ -222,22 +238,17 @@
     <item>NJBergenCounty</item>
     <item>NJGloucesterCounty</item>
     <item>NYAmherst</item>
-    <item>NYBabylon</item>
-    <item>NYBelmore</item>
-    <item>NYBrentwood</item>
     <item>NYDixHills</item>
     <item>NYErieCounty</item>
-    <item>NYFarmingdale</item>
     <item>NYGreeneCounty</item>
     <item>NYHerkimerCounty</item>
-    <item>NYHolbrook</item>
     <item>NYJeffersonCounty</item>
     <item>NYNassauCounty</item>
     <item>NYOneidaCounty</item>
     <item>NYOrleansCounty</item>
-    <item>NYRockyPoint</item>
-    <item>NYSetauket</item>
-    <item>NYSouthhamptonVillage</item>
+    <item>NYSuffolkCountyA</item>
+    <item>NYSuffolkCountyB</item>
+    <item>NYSuffolkCountyC</item>
     <item>NYUlsterCounty</item>
     <item>NCHaywoodCounty</item>
     <item>NCMaconCounty</item>
@@ -304,22 +315,17 @@
     <item>Bergen County, NJ</item>
     <item>Gloucester County, NJ</item>
     <item>Amherst, NY</item>
-    <item>Babylon, NY</item>
-    <item>Bellmore, NY</item>
-    <item>Brentwood, NY</item>
     <item>Dix Hills, NY</item>
     <item>Erie County, NY</item>
-    <item>Farmingdale, NY</item>
     <item>Greene County, NY</item>
     <item>Herkimer County, NY</item>
-    <item>Holbrook, NY</item>
     <item>JeffersonCounty, NY</item>
     <item>Nassau County, NY</item>
     <item>Oneida County, NY</item>
     <item>Orleans County, NY</item>
-    <item>Rocky Point, NY</item>
-    <item>Setauket, NY</item>
-    <item>South Hampton Village, NY</item>
+    <item>Suffolk County (A), NY</item>
+    <item>Suffolk County (B), NY</item>
+    <item>Suffolk County (C), NY</item>
     <item>Ulster County, NY</item>
     <item>Haywood County, NC</item>
     <item>Macon County, NC</item>

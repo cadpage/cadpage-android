@@ -10,7 +10,8 @@ import java.util.regex.Pattern;
 import net.anei.cadpage.SmsMsgInfo.Data;
 /*
 DAPRO Systems http://www.daprosystems.com/ (This version is different enough that I did not use the builtin dapro
-Campbell County, VA (was Lynchburg)
+Campbell County, VA 
+Contact: efhammermeister@yahoo.com,EFHAMMERMEISTER@vtext.com
 MAILBOX:SQ02 MVC/MOTOR VEHICLE CRASH/ACCIDE 002364 WATERLICK RD/LEESVILLE RD CFS# 2010-061119 REF TO A 3 CAR MVA. AT FIRST A REPORT OF NO PI. NO NEED FOR FIRE. VASI ADV THAT T
 MAILBOX:SQ02 (3)ACCIDENT 021400 TIMBERLAKE RD CFS# 2010-061105 2 CAR MVA. WITH ENTRAPMENT
 MAILBOX:SQ02 STABBING 005450 COLONIAL HWY EVI CFS# 2010-061047 STAGE IN THE AREA, DO NOT GO TO THE SCENE
@@ -65,7 +66,7 @@ public class VACampbellCountyParser extends SmartAddressParser {
     
     // OK, now to work out the address field
     // Google doesn't handle the "BLK" qualifier so get rid of it
-    String sAddress = props.getProperty("LOC");
+    String sAddress = props.getProperty("LOC", "");
     sAddress = sAddress.replaceAll(" BLK ", " ");
     
     // See if we can identify a call description from our canned list
