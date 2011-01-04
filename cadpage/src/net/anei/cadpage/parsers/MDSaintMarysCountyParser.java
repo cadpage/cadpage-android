@@ -16,12 +16,13 @@ System: Pro QA Medical & Pro QA Fire
 15:24:31*Working House Fire*20242 POINT LOOKOUT RD*OLD GREAT MILLS RD*INDIAN BRIDGE RD*GREAT MILLS*CO3 CO9 CO6 CO1 CO5 CO39 CO6R*
 21:11:30*Commercial Building Fire*46528 VALLEY CT APT3019*SPRING VALLEY DR*DEAD END*LEXINGTON PARK*CO3 CO13 CO9 TK3 CO7 TK7 CO39*Using ProQA Fire*
 23:14:28*Heart Problems*22521 IVERSON DR UNIT3*AMBER DR*CUL DE SAC*CALIFORNIA*CO9*55YOF C/A/B; RAPID HEART RATE AND WEAK; HX DIABETES;*
+((37593) CAD ) 22:12:45*CO Detector With Symptons*21353 FOXGLOVE CT*DEAD END*BAYWOODS RD*HERMANVILLE*CO3 CO39*Using ProQA Fire*
  */
 
 
 public class MDSaintMarysCountyParser extends SmartAddressParser {
   
-  private static final Pattern MARKER = Pattern.compile("^\\d\\d:\\d\\d:\\d\\d\\*");
+  private static final Pattern MARKER = Pattern.compile("\\b\\d\\d:\\d\\d:\\d\\d\\*");
   
   public MDSaintMarysCountyParser() {
     super("SAINT MARYS COUNTY", "MD");
@@ -36,6 +37,7 @@ public class MDSaintMarysCountyParser extends SmartAddressParser {
   protected boolean parseMsg(String body, Data data) {
     Matcher match = MARKER.matcher(body);
     if (!match.find()) return false;
+    body = body.substring(match.start());
     
     String[] flds = body.split("\\*");
     if (flds.length < 6) return false;
