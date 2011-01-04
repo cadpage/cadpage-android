@@ -55,5 +55,15 @@ public class MDSaintMarysCountyParserTest extends BaseParserTest {
         "UNIT:CO9",
         "INFO:55YOF C/A/B; RAPID HEART RATE AND WEAK; HX DIABETES;");
     
+    doTest("T6",
+        "((37593) CAD ) 22:12:45*CO Detector With Symptons*21353 FOXGLOVE CT*DEAD END*BAYWOODS RD*HERMANVILLE*CO3 CO39*Using ProQA Fire*",
+        "CALL:CO Detector With Symptons",
+        "ADDR:21353 FOXGLOVE CT",
+        "X:DEAD END / BAYWOODS RD",
+        "CITY:HERMANVILLE",
+        "UNIT:CO3 CO39",
+        "INFO:Using ProQA Fire");
+        
+    
   }
 }
