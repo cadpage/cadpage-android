@@ -30,11 +30,6 @@ public class NYJeffersonCountyParser extends SmsMsgParser {
   public NYJeffersonCountyParser() {
     super("JEFFERSON COUNTY", "NY");
   }
-  
-  @Override
-  public String getFilter() {
-    return "tirescue@googlegroups.com";
-  }
 
   @Override
   protected boolean parseMsg(String body, Data data) {
