@@ -49,13 +49,28 @@ public class TestManagePreferences extends ManagePreferences {
   }
 
   @Override
+  public String getString(int resPrefId, String defaultVal) {
+    return (String)getPreference(resPrefId, defaultVal);
+  }
+
+  @Override
   protected String getString(int resPrefId) {
     return (String)getPreference(resPrefId);
   }
   
   private Object getPreference(int resPrefId) {
+    return getPreference(resPrefId, null);
+  }
+  
+  private Object getPreference(int resPrefId, Object defValue) {
+  
     Object result = prefMap.get(resPrefId);
-    if (result == null) throw new RuntimeException("Test preference has not been set");
+    if (result == null) {
+      if (defValue == null) {
+        throw new RuntimeException("Test preference has not been set");
+      }
+      result = defValue;
+    }
     return result;
   }
   

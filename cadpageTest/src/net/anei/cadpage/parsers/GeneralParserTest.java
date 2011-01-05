@@ -6,15 +6,17 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 
 
-public class GeneralStarParserTest extends BaseParserTest {
+public class GeneralParserTest extends BaseParserTest {
   
-  public GeneralStarParserTest() {
-    setParser(new GeneralStarParser(), "", "");
+  public GeneralParserTest() {
+    setParser(new GeneralParser(), "", "");
   }
   
+  @SuppressWarnings("static-access")
   @BeforeClass
   public static void classSetup() {
     TestManagePreferences pmgr = new TestManagePreferences();
+    pmgr.setLocation("General");
     pmgr.setOverrideDefault(true);
     pmgr.setFilter("1112223333");
   }
