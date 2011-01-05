@@ -319,9 +319,9 @@ public class SmsMmsMessage implements Serializable {
     // then use the results of the new location code.
     // NOTE: Our location and info members will be set as a side effect of
     // a successful isPageMsg call
-    if (location != null && location.equals("General")) {
+    if (location != null && location.startsWith("General")) {
       String curLocCode = ManagePreferences.location();
-      if (! curLocCode.equals("General")) {
+      if (! curLocCode.startsWith("General")) {
         if (ManageParsers.getInstance().getParser(curLocCode).isPageMsg(this)) {
           return info;
         }

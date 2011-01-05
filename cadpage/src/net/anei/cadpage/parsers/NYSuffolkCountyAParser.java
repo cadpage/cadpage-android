@@ -41,15 +41,16 @@ public class NYSuffolkCountyAParser extends SmartAddressParser {
   private static final String[] KEYWORDS = new String[]{"TYPE", "LOC", "CROSS", "CODE", "TIME"};
 
   private static final Properties CITY_TABLE = buildCodeTable(new String[]{
-    "BRENTW", "Brentwood",
-    "NBAYSH", "Bay Shore",
-    "BAYSHO", "Bay Shore",
-    "HAUPPA", "Hauppauge",
-    "CENTEM", "Center Moriches",
-    "EMORIC", "East Moriches",
-    "SHIRLE", "Shirley",
-    "MORICH", "Moriches",
-    "MASTIC", "Mastic"
+      "BAYSHO", "Bay Shore",
+      "BRENTW", "Brentwood",
+      "CENTEM", "Center Moriches",
+      "EMORIC", "East Moriches",
+      "HAUPPA", "Hauppauge",
+      "MANORV", "Manorville",
+      "MASTIC", "Mastic",
+      "MORICH", "Moriches",
+      "NBAYSH", "Bay Shore",
+      "SHIRLE", "Shirley"
   });
   
   private static final String DEF_STATE = "NY";

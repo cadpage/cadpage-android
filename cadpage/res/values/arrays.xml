@@ -165,6 +165,7 @@
     <item>NYRockyPoint</item>
     <item>NYBelmore</item>
     <item>NYSouthhamptonVillage</item>
+    <item>GeneralStar</item>
   </string-array>
   <string-array name="new_location_values">
     <item>NYBrentwood</item>
@@ -178,6 +179,7 @@
     <item>NYSuffolkCountyC</item>
     <item>NYSuffolkCountyC</item>
     <item>NYSuffolkCountyC</item>
+    <item>General</item>
   </string-array>
   
   <!-- Array of state names -->
@@ -207,7 +209,6 @@
   <!-- Sorted in state name order, which is why NY comes before NC. -->    
   <string-array name="pref_location_values">
     <item>General</item>
-    <item>GeneralStar</item>
     <item>COAdamsCounty</item>
     <item>COGreeley</item>
     <item>CONorthglennEMS</item>
@@ -285,7 +286,6 @@
   
   <string-array name="pref_location_options">
     <item>Generic Location</item>
-    <item>Generic Location (star delim)</item>
     <item>Adams County, CO</item>
     <item>Greeley, CO</item>
     <item>Northglenn EMS, CO</item>

@@ -941,6 +941,9 @@ CAD:347 I26 E;B21;8282169743;T-Mobile USA;(Z)MOTOR VEH ACCIDENT INJURY;I26 E TO 
 CAD:103 APPALACHIAN BLVD;B212;RM 309;HEATHER GLEN AT ARDEN WOODS;HEATHER GLEN AT ARDENWOODS;BREATHING PROBLEMS;ROCKY MOUNTAIN WAY
 CAD:2533 HENDERSONVILLE RD;B21;RM 242;CRESCENT VIEW;CRESCENT VIEW;UNCONSCIOUS/ FAINTING;UPPER LAUREL DR;NESBITT DR
 CAD:122 EDGEWOOD DR;BOTSFORD , BARBERA;LIFE-LINE;FALLS;DOWNING DR;DOWNING DR;11000163
+CAD:342 DONNYBROOK DR;B212;SMELL OF GAS IN THE AREA;BOB ANDERSON;(FR) INVESTIGATION;AUBURNDALE DR
+CAD:2400 APPALACHIAN BLVD;B212;CLUBHOUSE DINING RM;ARDENWOODS - CLUB HOUSE;ARDENWOODS RETIREMENT COMMUNIT;CHOKING;ROCKY MOUNTAIN WAY
+CAD:30 HUNTER DR;B21U;STROKE;SLEEPY GAP RD
 **********************************************************
 Charles County, MD
 Contact: Darrin Tomlinson <lackeychargers08@verizon.net>
@@ -1097,6 +1100,31 @@ Contact: Tommy Johnson <tjohnson377.tj@gmail.com>
 Sender: paging@alpinesoftware.com <From%3Apaging@alpinesoftware.com>
 FireCom:  3 HUDSON ST E (GENERAL-AUTO) FIRE ALARM RINGING
 **********************************************************
+Johnson County, KS
+Contact: Mike Morse <michaeltmorse@gmail.com>
+Sender: 93001xxx    (email) ecc1@jocogov.org<mailto:ecc1@jocogov.org>
+Add: 2908 W 48th Ter Apt: Loc: Nature: MEDICAL Grid: 19/1. Incident# 10-3560129 Cross:Dead End/MISSION RD
+Add: 5055 Buena Vista St Apt: Loc: Nature: Bleeding - Laceration Grid: 18/1. Incident# 10-3560040 Cross:W 51ST ST/SYCAMORE DR
+Add: 2435 Drury Ln Apt: Loc: Nature: Auto Alarm - Residence Grid: 34/1. Incident# 10-3560070 Cross:OAKWOOD RD/OVERHILL RD
+Add: 6028 Mission Rd Apt: Loc: Nature: MEDICAL Grid: 34/1. Incident# 10-3560106 Cross:EASTVALE DR/W 61ST ST
+Add: 4817 Skyline Dr Apt: Loc: Nature: Building Fire Grid: 18/1. Incident# 10-3620163 Cross:W 48TH ST/Dead End
+Add: Broadmoor St & Johnson Dr Apt: Loc: Nature: Injury Accident Grid: 32/1. Incident# 10-3640058 Cross:
+Add: Shawnee Mission Pkwy & Nal Apt: Loc: Nature: Injury Accident C2 Grid: 32/1. Incident# 10-3640048 Cross:
+**********************************************************
+Catawaba County, NC
+Contact: kevin head <headly1531@gmail.com>
+Sender: E-911@catawbacountync.gov
+|2011-000821*213 9TH ST SW***CONOVER**STRUCTURE*********
+|2010-190520*3977 C & B FARM RD***CONOVER**AUTO PD*********
+|2010-188877*1127 2ND ST NE*218**CONOVER**LIFELINE*********
+|2010-188192*1405 DEBORAH HERMAN RD SW***CONOVER**FIRE ALARM*********
+|2011-000273*1104 CONOVER BLVD E***CONOVER**VEHICLE FIRE*********
+|2010-190520*3977 C & B FARM RD***CONOVER**AUTO PD*********
+
+Contact: Adam Sparks <asparks453@gmail.com>
+2010-189098*1211 PECAN ST***CONOVER**OVERDOSE*********
+**********************************************************
+**********************************************************
 **********************************************************
 **********************************************************
 * Misc formats received with problem reports
@@ -1130,7 +1158,3 @@ Contact: Jim Disinger <diceyduce@aol.com>
 Sender: dispatch613+bncCJu-xN6_FhDgt5LmBBoEujh5Gw@googlegroups.com
 This looks like a variation of LCFR
 ([cad13] ) Call:30A01-TRAUMA NOT DAN,775 GATEWAY DR SE-LB Apt:CLUBHS,X-St:SYCOLIN RD SE VAN,M6132 ACO13,Box:2013 ,ADC:515
-**************************************************************************
-Unknown from problem report
-Contact: Adam Sparks <asparks453@gmail.com>
-2010-189098*1211 PECAN ST***CONOVER**OVERDOSE*********

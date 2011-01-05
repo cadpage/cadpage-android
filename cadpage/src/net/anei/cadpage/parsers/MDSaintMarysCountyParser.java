@@ -8,6 +8,7 @@ import net.anei.cadpage.SmsMsgInfo.Data;
 /*
 Saint Marys County, MD
 Contact: "Jason Adams" <jadams@bdvfd.org> or jadams@bdvfd.org or 2405384664@vzwpix.com
+Contact: Brian Brown <brian.brown86@gmail.com>
 Sender: mplus@co.saint-marys.md.us
 System: Pro QA Medical & Pro QA Fire
 

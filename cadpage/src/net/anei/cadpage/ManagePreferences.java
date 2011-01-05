@@ -436,5 +436,6 @@ public class ManagePreferences {
   public String getString(int resPrefId, String defaultVal) {
     return mPrefs.getString(context.getString(resPrefId), defaultVal);
   }
+  
   public void close() {}
 }
