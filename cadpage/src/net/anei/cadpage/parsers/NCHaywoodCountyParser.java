@@ -6,7 +6,8 @@ import net.anei.cadpage.SmsMsgInfo.Data;
 /*
 
 Haywood County, NC (Caruso Fire & Rescue)
-Contact: : "bradford1967@hotmail.com" <bradford1967@hotmail.com>
+Contact: bradford1967@hotmail.com" <bradford1967@hotmail.com>
+Contact: Kevin Wheeler <moo2175@gmail.com>
 Sender: CAD@haywoodnc.net
 
 CAD:1010170008;ROUTINE SICK PERSON;33 GRACE DR;CRUSO RD;JOHNS CREEK RD;12;10/17/2010 10:15:00

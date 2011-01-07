@@ -119,14 +119,14 @@
     <item>300,300</item>
     <item>1000,1000</item>
     <item>3000,3000</item>
-    <item>custom</item>
+    <!--item>custom</item-->
   </string-array>
   <string-array
     name="pref_led_pattern_entries">
     <item>@string/pref_led_pattern_entries_fast</item>
     <item>@string/pref_led_pattern_entries_normal</item>
     <item>@string/pref_led_pattern_entries_slow</item>
-    <item>@string/pref_custom</item>
+    <!--item>@string/pref_custom</item-->
   </string-array>
   
   <string-array name="pref_history_limit_entries">

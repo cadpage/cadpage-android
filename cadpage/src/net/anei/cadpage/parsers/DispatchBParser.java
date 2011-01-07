@@ -5,6 +5,8 @@ import java.util.Properties;
 import net.anei.cadpage.SmsMsgInfo.Data;
 
 /*
+This has been identified as Interact GIS system
+
 Herkimer County, NY 
 (EMS   >EMS CALL) 185 GUIDEBOARD RD XS: DAIRY HILL RD NORWAY AAAAAAA AAAAAAA 3150000000 Map: Grids:, Cad: 2010-0000049305
 (MVA   >MOTOR VEHICLE ACCIDENT) 5781 STHY 28 XS: TOWN LINE NEWPORT AAAAAA AAAAA 3150000000 Map: Grids:, Cad: 2010-0000049651
