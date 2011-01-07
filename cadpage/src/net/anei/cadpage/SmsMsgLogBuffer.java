@@ -1,0 +1,98 @@
+package net.anei.cadpage;
+
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
+import java.util.LinkedList;
+
+import android.content.Context;
+
+/**
+ * Buffers SMS messages so they can be included in problem reports and 
+ * developer emails
+ */
+public class SmsMsgLogBuffer {
+  
+  private static final String LOG_FILENAME = "log.msg.buffer";
+  
+  private Context context;
+  
+  private LinkedList<SmsMmsMessage> msgQueue = new LinkedList<SmsMmsMessage>();
+  
+  /**
+   * private constructor
+   */
+  @SuppressWarnings("unchecked")
+  private SmsMsgLogBuffer(Context context) {
+    this.context = context;
+    ObjectInputStream is = null;
+    try {
+      is = new ObjectInputStream(
+        context.openFileInput(LOG_FILENAME));
+      msgQueue = (LinkedList<SmsMmsMessage>)is.readObject();
+    } catch (FileNotFoundException ex) {
+      msgQueue = new LinkedList<SmsMmsMessage>();
+    } catch (Exception ex) {
+      Log.e(ex);
+    } finally {
+      if (is != null) try {is.close();} catch (IOException ex) {}
+    }
+  }
+
+  /**
+   * Add new message to message log buffer
+   * @param msg message to be added
+   */
+  public void add(SmsMmsMessage msg) {
+    
+    // Add new message to beginning of queue
+    msgQueue.addFirst(msg);
+    
+    // Remove messages from end of queue to satisfily log limit
+    int limit = ManagePreferences.logLimit();
+    while (msgQueue.size() > limit) msgQueue.removeLast();
+    
+    // Persist entire list to file
+    ObjectOutputStream os = null;
+    try {
+      os = new ObjectOutputStream(
+        context.openFileOutput(LOG_FILENAME, Context.MODE_PRIVATE));
+      os.writeObject(msgQueue);
+    } catch (IOException ex) {
+      Log.e(ex);
+    } finally {
+      if (os != null) try {os.close();} catch (IOException ex) {}
+    }
+  }
+  
+  /**
+   * @return last message added to queue
+   */
+  public SmsMmsMessage getLastMessage() {
+    
+    // Queue is stored in reverse order, so get the first message
+    if (msgQueue.size() == 0) return null;
+    return msgQueue.getFirst();
+  }
+
+  /**
+   * Append message information to support message under construction
+   * @param sb String builder holding message being constructed
+   */
+  public void addMessageInfo(Context context, StringBuilder sb) {
+    for (SmsMmsMessage msg : msgQueue) {
+      msg.addMessageInfo(context, sb);
+    }
+  }
+  
+  private static SmsMsgLogBuffer instance = null;
+  
+  public static void setup(Context context) {
+    instance = new SmsMsgLogBuffer(context); 
+  }
+  
+  public static SmsMsgLogBuffer getInstance() {
+    return instance;
+  }
+}
