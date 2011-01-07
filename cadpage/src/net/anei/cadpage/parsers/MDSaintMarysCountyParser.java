@@ -20,12 +20,22 @@ System: Pro QA Medical & Pro QA Fire
 23:14:28*Heart Problems*22521 IVERSON DR UNIT3*AMBER DR*CUL DE SAC*CALIFORNIA*CO9*55YOF C/A/B; RAPID HEART RATE AND WEAK; HX DIABETES;*
 ((37593) CAD ) 22:12:45*CO Detector With Symptons*21353 FOXGLOVE CT*DEAD END*BAYWOODS RD*HERMANVILLE*CO3 CO39*Using ProQA Fire*
 ((44333) CAD ) 00:35:39*CHIMNEY FIRE*25120 DOVE POINT LN*PARSONS MILL RD*DEAD END*LOVEVILLE*CO1 TK1 CO7*Using ProQA Fire*
+
+((46589) CAD) 14:02:26*Stroke**APT A2**22027 OXFORD CT APTA2*GLOUCESTER CT*DEAD END*LEXINGTON PARK*CO39*Using ProQA Medical*
+((46677) CAD) 13:59:56*Chest Pain*40452 MEDLEYS LN*LAUREL GROVE RD*LOVEVILLE RD*OAKVILLE*CO79 ALS*subject has pacemaker*
+((46589) CAD) 13:29:15*Breathing Difficulties**ST MARYS NURSING CENTER**21585 PEABODY ST RM441A*HOLLYWOOD RD*DEAD END*LEONARDTOWN*CO19 CO79 ALS*hx copd*
+((46589) CAD) 12:47:33*Chest Pain*17498 GRAYSON RD*BEACHVILLE RD*VILLA RD*ST INIGOES*CO49R ALS*Using ProQA Medical*
+((46589) CAD) 12:14:40*Sick Person**NEWTOWNE VILLAGE APTS**22810 DORSEY ST APT309*CONNELY CT*DEAD END*LEONARDTOWN*CO19 CO79 A799*Using ProQA Medical*
+((46589) CAD) 12:08:40*Sick Person*46104 SALTMARSH CT*WEST WESTBURY BL*DEAD END*LEXINGTON PARK*CO39 A397*Using ProQA Medical*
+((47017) CAD ) 21:24:45*Seizures/Convulsions*THREE OAK CENTER*46905 LEI DR*THREE NOTCH RD*SOUTH CORAL DR*LEXINGTON PARK*ALS CO39*Using ProQA
+
  */
 
 
 public class MDSaintMarysCountyParser extends SmartAddressParser {
   
   private static final Pattern MARKER = Pattern.compile("\\b\\d\\d:\\d\\d:\\d\\d\\*");
+  private static final Pattern PLACE = Pattern.compile("\\*\\*([^*]+)\\*\\*");
   
   public MDSaintMarysCountyParser() {
     super("SAINT MARYS COUNTY", "MD");
@@ -41,6 +51,14 @@ public class MDSaintMarysCountyParser extends SmartAddressParser {
     Matcher match = MARKER.matcher(body);
     if (!match.find()) return false;
     body = body.substring(match.start());
+    
+    // Special case, field delimited by double starts is a place name
+    // that should be removed from the message string
+    match = PLACE.matcher(body);
+    if (match.find()) {
+      data.strPlace = body.substring(match.start(1), match.end(1));
+      body = body.substring(0, match.start()+1) + body.substring(match.end());
+    }
     
     String[] flds = body.split("\\*");
     if (flds.length < 6) return false;
@@ -66,7 +84,20 @@ public class MDSaintMarysCountyParser extends SmartAddressParser {
         } else {
           ndx++;
         }
+        
+        // Parse the address
         parseAddress(StartType.START_ADDR, fld, data);
+        
+        // If it didn't look like an address, switch it to the
+        // place name and try again with the next field
+        if (getStatus() == 0 && data.strPlace.length() == 0) {
+          data.strPlace = data.strAddress;
+          data.strAddress = "";
+          ndx -= 2;
+          break;
+        }
+        
+        // Otherwise, anything remaining is considered an apt
         data.strApt = getLeft();
         break;
         

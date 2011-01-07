@@ -203,6 +203,8 @@ public abstract class SmartAddressParser extends SmsMsgParser {
   private int startCity = -1;
   private int endAll = -1;
   
+  private int status = -1;
+  
   /**
    * Determine if a string looks like a valid address
    * @param address Address string to be checked
@@ -253,8 +255,17 @@ public abstract class SmartAddressParser extends SmsMsgParser {
    * @param data data object to be filled with information from parsed address field.
    */
   protected void parseAddress(StartType sType, int flags, String address, SmsMsgInfo.Data data) {
-    parseAddress(sType, flags, address);
+    status = parseAddress(sType, flags, address);
     fillInData(sType, data);
+  }
+  
+  /**
+   * Determine if the string that we just parsed looks like an address
+   * @return zero if string was not recognized as valid address, otherwise a
+   * numeric value in which higher values indicate better addresses
+   */
+  protected int getStatus() {
+    return status;
   }
   
   /**
