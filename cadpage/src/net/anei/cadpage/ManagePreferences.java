@@ -1,5 +1,7 @@
 package net.anei.cadpage;
 
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Map;
 
 import android.content.Context;
@@ -75,14 +77,44 @@ public class ManagePreferences {
    * @return the new location that should be used
    */
   public static String convertOldLocationCode(Context context, String location) {
+    
+    // Scan through all of the location codes looking to see if any of thm
+    // match an old code
     String[] oldCodes = context.getResources().getStringArray(R.array.old_location_values);
-    for (int ndx = 0; ndx < oldCodes.length; ndx++) {
-      if (location.equals(oldCodes[ndx])) {
-        String[] newCodes = context.getResources().getStringArray(R.array.new_location_values);
-        return newCodes[ndx];
+    String[] locs = location.split(",");
+    boolean bad = false;
+    for (String loc : locs) {
+      for (String code : oldCodes) {
+        if (loc.equals(code)) {
+          bad = true;
+          break;
+        }
       }
+      if (bad) break;
     }
-    return location;
+    
+    // If not, the usual case, return the original location string
+    if (!bad) return location;
+    
+    String[] newCodes = context.getResources().getStringArray(R.array.new_location_values);
+    ArrayList<String> locList = new ArrayList<String>();
+    for (String loc : locs) {
+      for (int ndx = 0; ndx < oldCodes.length; ndx++) {
+        if (loc.equals(oldCodes[ndx])) {
+          loc = newCodes[ndx];
+          break;
+        }
+      }
+      if (!locList.contains(loc)) locList.add(loc);
+    }
+    
+    Collections.sort(locList);
+    StringBuilder sb = new StringBuilder();
+    for (String loc : locList) {
+      if (sb.length() > 0) sb.append(',');
+      sb.append(loc);
+    }
+    return sb.toString();
   }
   
   /**

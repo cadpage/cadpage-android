@@ -8,6 +8,7 @@ import net.anei.cadpage.SmsMsgInfo.Data;
 Emmitsburg, MD (Northern Federick County)
 Contact: dalefogle@aol.com
 Contact: Dale Fogle <pullersnet@gmail.com>
+Contact: Brian Kelch <flamekiller20@gmail.com>
 Sender:  www.codemessaging.net
  
 (CAD) [FredCo] CT: HOUSE / FIRE-VISIBLE 6801 HARBAUGH RD CSAB:NEXT TO HER HOME ESZ: 626 MAP: 3996A6 Disp: [23]

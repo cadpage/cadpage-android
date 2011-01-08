@@ -44,30 +44,47 @@ public class ManageParsers {
     if (location.equals(curLocCode)) return curParser;
     
     // Second level cache, see if it is the our table of parsers by location
+    if (curLocation == null) curLocation = ManagePreferences.location();
     SmsMsgParser parser = parserMap.get(location);
     if (parser == null) {
       
-      // Otherwise we need to create a new parser
-      // First see if there are multiple location parsers
-      if (location.contains(",")) {
+      try {
         
-        // If there are, call ourselves recursively to allocate each
-        // individual parser
-        String[] locationList = location.split(",");
-        SmsMsgParser[] parserList = new SmsMsgParser[locationList.length];
-        for (int ii = 0; ii<locationList.length; ii++) {
-          parserList[ii] = getParser(locationList[ii]);
+        // Otherwise we need to create a new parser
+        // First see if there are multiple location parsers
+        if (location.contains(",")) {
+          
+          // If there are, call ourselves recursively to allocate each
+          // individual parser
+          String[] locationList = location.split(",");
+          SmsMsgParser[] parserList = new SmsMsgParser[locationList.length];
+          for (int ii = 0; ii<locationList.length; ii++) {
+            parserList[ii] = getParser(locationList[ii]);
+          }
+          parser = new GroupBestParser(parserList);
         }
-        parser = new GroupBestParser(parserList);
-      }
+        
+        // Otherwise find the parser class and instantiate it
+        else {
+          String className = "net.anei.cadpage.parsers." + location + "Parser";
+          try {
+            parser = (SmsMsgParser)Class.forName(className).newInstance();
+          } catch (Exception ex) {
+            throw new RuntimeException(ex.getMessage(), ex);
+          }
+        }
+      } 
       
-      // Otherwise find the parser class and instantiate it
-      else {
-        String className = "net.anei.cadpage.parsers." + location + "Parser";
-        try {
-          parser = (SmsMsgParser)Class.forName(className).newInstance();
-        } catch (Exception ex) {
-          throw new RuntimeException(ex);
+      // Normally, we don't try to correct consequences of program bugs
+      // But users can get caught with an unsable app when we have a bad location
+      // code.  So if that is the problem we will fix it before rethrowing the
+      // exception
+      catch (RuntimeException ex) {
+        if (location.equals(curLocation)) { 
+          ManagePreferences.setLocation("General");
+          throw new RuntimeException("Error instantiating parser for " + location, ex);
+        } else {
+          throw ex;
         }
       }
       
@@ -78,7 +95,6 @@ public class ManageParsers {
     // Before we return the parser we found, see if the requested location
     // matches the current location setting.  If it does, save the values
     // in the first level cache
-    if (curLocation == null) curLocation = ManagePreferences.location();
     if (location.equals(curLocation)) {
       curLocCode = location;
       curParser = parser;
