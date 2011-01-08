@@ -10,6 +10,11 @@ public class MDFrederickCountyParserTest extends BaseParserTest {
   }
   
   @Test
+  public void testBadMsg() {
+    doBadTest("I will be there till about 11 so if u want come on in");
+  }
+  
+  @Test
   public void testParser() {
         
     doTest("T1",
@@ -53,6 +58,14 @@ public class MDFrederickCountyParserTest extends BaseParserTest {
         "(CAD) [FredCo] CT: OUTSIDE INVESTIGATION @MA ADAM CO: @RT15SB/BOYLE RD ESZ: -1 Disp: E63 [38]" ,
         "CALL:Mutual Aid: OUTSIDE INVESTIGATION",
         "ADDR:RT15SB & BOYLE RD",
+        "CITY:Adams County",
+        "ST:PA",
+        "UNIT:E63",
+        "BOX:-1"
+        );
+    doTest("T5A",
+        "(CAD) [FredCo] CT: OUTSIDE INVESTIGATION @MA ADAM CO ESZ: -1 Disp: E63 [38]" ,
+        "CALL:Mutual Aid: OUTSIDE INVESTIGATION",
         "CITY:Adams County",
         "ST:PA",
         "UNIT:E63",

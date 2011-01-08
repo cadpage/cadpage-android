@@ -33,6 +33,11 @@ public abstract class BaseParserTest {
     parser.parseMsg("", data);
   }
   
+  public void doBadTest(String test) {
+    SmsMmsMessage msg = new SmsMmsMessage("1112223333", test, 0L, 0);
+    assertFalse(parser.isPageMsg(msg));
+  }
+  
   /**
    * Main parse test method
    * @param title - test name
