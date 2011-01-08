@@ -68,10 +68,13 @@ public class MDFrederickCountyParser extends SmartAddressParser {
     if (ipt >= 0) {
       data.strCall = "Mutual Aid: " + strAddr.substring(0, ipt).trim();
       int ipt2 = strAddr.indexOf(':', ipt);
-      if (ipt2 < 0) ipt2 = strAddr.length();
-      data.strCity = strAddr.substring(ipt+5, ipt2).trim();
-      strAddr = strAddr.substring(ipt2+1).trim().replaceAll("@", "");
-      parseAddress(strAddr, data);
+      if (ipt2 < 0) {
+        data.strCity = strAddr.substring(ipt+5).trim();
+      } else {
+        data.strCity = strAddr.substring(ipt+5, ipt2).trim();
+        strAddr = strAddr.substring(ipt2+1).trim().replaceAll("@", "");
+        parseAddress(strAddr, data);
+      }
     }
 
     else {
