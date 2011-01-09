@@ -35,7 +35,7 @@
               android:key="@string/pref_notif_sound_key"
               android:title="@string/pref_notif_sound_title"
               android:summary="@string/pref_notif_sound_summary"
-              android:ringtoneType="notification"
+              android:ringtoneType="all"
               android:showDefault="true"
               android:showSilent="true"
               android:dependency="@string/pref_notif_enabled_key"
