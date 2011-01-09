@@ -42,6 +42,8 @@ public class IAWoodburyCountyParser extends SmartAddressParser {
     
     String[] lines = body.split("/");
     int ndx = 0;
+    int iCrossShift = 0;
+    
     for (String line : lines) {
       line = line.trim();
       switch (ndx++) {
@@ -62,16 +64,35 @@ public class IAWoodburyCountyParser extends SmartAddressParser {
       
       case 2:
         // Cross Street. If only one street will end with & which we drop
-        if (line.endsWith("&")){
-          data.strCross = line.substring(0,line.length()-1).trim();
+        // If There is no cross. Move on.
+        if (line.contains(" ")) {
+          if (line.endsWith("&")){
+            data.strCross = line.substring(0,line.length()-1).trim();
+          } else {
+            data.strCross = line;
+          }
         } else {
-        data.strCross = line;
+          iCrossShift = 1;
         }
         break;
 
+      case 3:
+        if (iCrossShift ==1 ){
+          data.strUnit = line;
+        }
+        break;
+        
       case 4:
-        // Unit
+        // Unit or supp
+        if (iCrossShift ==0 ){
         data.strUnit = line;
+        } else {
+          if (line.length() > 0) {
+            if (data.strSupp.length() > 0) data.strSupp += " / ";
+            data.strSupp += line;
+          }
+          ndx--;
+        }
         break;
         
       case 5: 
