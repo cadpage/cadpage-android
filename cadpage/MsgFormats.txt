@@ -1041,7 +1041,6 @@ Lehigh County PA
 Contact: "Don Smith" <asstjr03@ptd.net>  (911 employee)
 Sender: 911@lehighcounty.org
 System: PRINTRAK
-May be 2 part messages
 
 ST0100 TYP: RESP DIST-ABN BREATH APT: 8 AD: 4015 SCHOENECK RD CTY: LOWER MACUNGIE LOC: BIG O MHP CN: NURSE JULIE CMT1: **CHARLIE BREATHING PROBLEMS - ABNORMAL REATHING CMT2: 57 YEAR OLD MALE | 502 LBS | FULL OF FLUID | BLOOD IN STOOL | TIME: 10:11 UNTS: FD/30CHIEFS FD/ST01 XST2: MOUNTAIN RD
 ST0100 TYP: NON-DWELL STRUCTURE AD: 8635 HENSINGERSVILLE RD CTY: 06 LONGSWAMP CMT1: **NON-DWELLING STRUCTURE FIRE (SHED, DETATCHED GARAGE) CMT2: FULLY INVOLVED STRUCTURE FIRE TIME: 01:37 UNTS: FD/ST01 XST: WALKER RD XST2: 8603 OAK HOLLOW LN
@@ -1061,6 +1060,12 @@ ST3000 TYP: SPILL &lt;50 GAL UNCNTD AD: KROCKS RD&amp;HAMILTON BLVD CTY: LOWER M
 This one's on the PA Turnpike (I-476 at mile marker 57.4 NB).. You'll see how it's put in here with the mile marker:
 ST3000 TYP: MVA-ROLLOVER AD: I476MM57 4NB CTY: SOUTH WHITEHALL LOC: I476MM57 4NB CMT1: **DELTA MVA WITH ROLLOVER CMT2: ONE VEHICLE&nbsp;ON THE TURNPIKE ANOTHER POSSIBLY FLIPPED OVER THE GUARDRAIL TIME: 11:57 UNTS: FD/30CHIEFS FD/ST30 FD/A6298 FD/ST62MN FD/R3041 FD/E3012 XST: TILGHMAN ST XST2: RT22
 ST3000 TYP: MVA WITH RESCUE AD: WILD CHERRY LN&amp;VALLEY STREAM L CTY: LOWER MACUNGIE CN: DALE METZGER CMT1: **DELTA MVA WITH RESCUE (ALERT RESCUE TONES AS NECESSARY) CMT2: VEHICLE HIT HTE BRIDGE | MALE TRAPPED INTHE VEHICLE TIME: 07:04 UNTS: FD/30CHIEFS FD/ST30&nbsp;FD/A6682 FD/ST66 FD/E3012 FD/R3041
+
+Unknown?
+Contact: George Ewings <gewings@gmail.com>
+From: OC911@ocinets01.orangecounty.local
+DEPTWK     TYP: MVA WITH INJURIES AD: 637 ST RTE 211 W CTY: WALLKILL CN: PAULIE SMITH CMT1: CAR OFF ROADWAY UNK INJURIES TIM
+
 **********************************************************
 Xenia township, OH
 Contact:  Brian Miller. Xtfd62@yahoo.com, 9376732333@messaging.sprintp
@@ -1185,6 +1190,21 @@ Contact: Me <matt565@carolina.rr.com>
 CAD:1322 WAYNEWOOD DR;FALLS EMD;S26;B-CF2;WHITAKER PL;DOBSON DR;01/07/2011 10:18:3
 
 **********************************************************
+Butler County, KS
+Contact: Brandon Russell <brandon.russell11@gmail.com>
+Sender: dispatch@bucoks.com
+System: New World
+he actual communication center is located in El
+Doardo, KS. Other cities in the county include Augusta, Andover, Rose Hill,
+Benton, Towanda, Leon, Douglass, Latham and Cassoday, KS.
+[Incident Notification]  17D FALL (MAP PAGE): 26E (ADDRESS): 1611 N FAIRWAY DR Augusta (CROSS ST): N CLUB HOUSE DR / E FAIRWAY CT (NARR):  ProQA Medical Questionnai
+[Incident Notification]  6D DIFF BREATHING (MAP PAGE): 22C (ADDRESS): 524 S EMPORIA ST El Dorado (CROSS ST): W CAVE SPRINGS AVE / W LOCUST AVE (NARR): ProQA Medica
+(Incident Notification) 10D CHEST PAIN (MAP PAGE): 9 (ADDRESS): 5957 NE 80TH ST County (CROSS ST): NE ELLIS RD / NE HWY 177 (NARR):  ProQA Medical Questionnaire Co
+(Incident Notification) 6E ECHO DIFF BREATH (MAP PAGE): 36F (ADDRESS): 218 E ROSEWOOD ST Rose Hill (CROSS ST): N MAIN ST / N MEEKER CT (NARR):  a  as fd3  es fd3
+(Incident Notification) 31D UNCONCIOUS (MAP PAGE): 15 (ADDRESS): 955 N HAVERHILL RD El Dorado (CROSS ST): W PIONEER DR / W 6TH AVE (NARR):  acting alittle confused
+[Incident Notification]  13D DIABETIC EMERGENCY (MAP PAGE): 25B (ADDRESS): 726 N PROSPERITY LN Andover (CROSS ST): W ELLEN LN / DEAD END (NARR):  rp
+**********************************************************
+**********************************************************
 **********************************************************
 **********************************************************
 * Misc formats received with problem reports
@@ -1218,3 +1238,5 @@ Contact: Jim Disinger <diceyduce@aol.com>
 Sender: dispatch613+bncCJu-xN6_FhDgt5LmBBoEujh5Gw@googlegroups.com
 This looks like a variation of LCFR
 ([cad13] ) Call:30A01-TRAUMA NOT DAN,775 GATEWAY DR SE-LB Apt:CLUBHS,X-St:SYCOLIN RD SE VAN,M6132 ACO13,Box:2013 ,ADC:515
+**************************************************************************
+
