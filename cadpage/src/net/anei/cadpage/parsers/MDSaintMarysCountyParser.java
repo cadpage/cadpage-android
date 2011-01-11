@@ -10,6 +10,11 @@ Saint Marys County, MD
 Contact: "Jason Adams" <jadams@bdvfd.org> or jadams@bdvfd.org or 2405384664@vzwpix.com
 Contact: Brian Brown <brian.brown86@gmail.com>
 Contact: patrick woodburn <patlvfd@gmail.com>
+Contact: Latoya Beaumont <beaumontlt.lb@gmail.com>
+Contact: "scherry3626@aol.com" <scherry3626@aol.com>
+Contact: Patrick Stanley <work3750@gmail.com>
+Contact: john douglass <jdouglassx@gmail.com>
+Contact: Crystal Jackson <crazyredheadmd@gmail.com>
 Sender: mplus@co.saint-marys.md.us
 System: Pro QA Medical & Pro QA Fire
 
@@ -20,6 +25,7 @@ System: Pro QA Medical & Pro QA Fire
 23:14:28*Heart Problems*22521 IVERSON DR UNIT3*AMBER DR*CUL DE SAC*CALIFORNIA*CO9*55YOF C/A/B; RAPID HEART RATE AND WEAK; HX DIABETES;*
 ((37593) CAD ) 22:12:45*CO Detector With Symptons*21353 FOXGLOVE CT*DEAD END*BAYWOODS RD*HERMANVILLE*CO3 CO39*Using ProQA Fire*
 ((44333) CAD ) 00:35:39*CHIMNEY FIRE*25120 DOVE POINT LN*PARSONS MILL RD*DEAD END*LOVEVILLE*CO1 TK1 CO7*Using ProQA Fire*
+((60350) CAD ) 18:34:06*Breathing Difficulties*22030 OXFORD CT APT*GLOUCESTER CT*DEAD END*LEXINGTON PARK*ALS CO39 CO6R*66YOF HIGH BLOOD
 
 ((46589) CAD) 14:02:26*Stroke**APT A2**22027 OXFORD CT APTA2*GLOUCESTER CT*DEAD END*LEXINGTON PARK*CO39*Using ProQA Medical*
 ((46677) CAD) 13:59:56*Chest Pain*40452 MEDLEYS LN*LAUREL GROVE RD*LOVEVILLE RD*OAKVILLE*CO79 ALS*subject has pacemaker*
@@ -28,6 +34,9 @@ System: Pro QA Medical & Pro QA Fire
 ((46589) CAD) 12:14:40*Sick Person**NEWTOWNE VILLAGE APTS**22810 DORSEY ST APT309*CONNELY CT*DEAD END*LEONARDTOWN*CO19 CO79 A799*Using ProQA Medical*
 ((46589) CAD) 12:08:40*Sick Person*46104 SALTMARSH CT*WEST WESTBURY BL*DEAD END*LEXINGTON PARK*CO39 A397*Using ProQA Medical*
 ((47017) CAD ) 21:24:45*Seizures/Convulsions*THREE OAK CENTER*46905 LEI DR*THREE NOTCH RD*SOUTH CORAL DR*LEXINGTON PARK*ALS CO39*Using ProQA
+
+Contact: Doug Walmsley <dcwalmsley@md.metrocast.net>
+((57079) CAD ) 16:18:26*Breathing Difficulties*CHESAPEAKE SHORES*21412 GREAT MILLS RD*SUBURBAN DR*SANNERS LN*LEXINGTON PARK*CO39 A397 ALS M3*RM102B-FRONT
 
  */
 
