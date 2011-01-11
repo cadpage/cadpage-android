@@ -32,6 +32,13 @@ public class SmartAddressParserTest extends BaseParserTest {
   @Test
   public void testProblems() {
     
+    doTest(ADDR, "22030 OXFORD CT APT",
+        "ADDR:22030 OXFORD CT");
+    
+    doTest(ADDR, "22030 OXFORD CT APT KEN TOWN",
+        "ADDR:22030 OXFORD CT",
+        "CITY:KEN TOWN");
+    
     doTest(CALL, FLAG_AT_BOTH,
         "VEHICLE FIRE HARDEES @800 WOODS RD KENSBURG",
         "CALL:VEHICLE FIRE HARDEES",
