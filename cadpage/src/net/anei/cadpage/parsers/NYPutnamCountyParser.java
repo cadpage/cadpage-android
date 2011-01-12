@@ -38,12 +38,14 @@ public class NYPutnamCountyParser extends SmsMsgParser {
   parseAddress(body.substring(idx1+1,idx2-1), data);
   data.strCross= body.substring(idx4+4,idx3).trim();
   data.strSupp = body.substring(idx3+1);
-  if (data.strSupp.contains("NARR")) {
-    data.strSupp = data.strSupp.substring(4).trim();
-  }
   if (data.strCall.contains("(CAD)")) {
     data.strCall = data.strCall.substring(5).trim();
   }
+  data.strCall = body.substring(idx2+1,idx4).trim() + ":" + data.strCall;
+  if (data.strSupp.contains("NARR")) {
+    data.strSupp = data.strSupp.substring(4).trim();
+  }
+  
 
   return true;
   }
