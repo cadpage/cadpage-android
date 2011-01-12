@@ -1,7 +1,5 @@
 package net.anei.cadpage.parsers;
 
-import java.util.Properties;
-
 import net.anei.cadpage.SmsMsgInfo.Data;
 
 
