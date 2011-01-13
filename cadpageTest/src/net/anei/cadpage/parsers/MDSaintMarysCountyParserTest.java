@@ -135,6 +135,70 @@ public class MDSaintMarysCountyParserTest extends BaseParserTest {
         "UNIT:ALS CO39",
         "INFO:Using ProQA");
     
-        
+    doTest("T17",
+        "((57079) CAD ) 16:18:26*Breathing Difficulties*CHESAPEAKE SHORES*21412 GREAT MILLS RD*SUBURBAN DR*SANNERS LN*LEXINGTON PARK*CO39 A397 ALS M3*RM102B-FRONT",
+        "CALL:Breathing Difficulties",
+        "PLACE:CHESAPEAKE SHORES",
+        "ADDR:21412 GREAT MILLS RD",
+        "X:SUBURBAN DR / SANNERS LN",
+        "CITY:LEXINGTON PARK",
+        "UNIT:CO39 A397 ALS M3",
+        "INFO:RM102B-FRONT");
+    
+    doTest("T18",
+        "((61165) CAD ) 07:09:07*Sick Person*46369 HATTONS REST LN*DEAD END*POINT LOOKOUT RD*PARK HALL*CO39*Using ProQA Medical*",
+        "CALL:Sick Person",
+        "ADDR:46369 HATTONS REST LN",
+        "X:DEAD END / POINT LOOKOUT RD",
+        "CITY:PARK HALL",
+        "UNIT:CO39",
+        "INFO:Using ProQA Medical");
+
+    doTest("T19",
+        "((60056) CAD ) 18:14:19*Traumatic Injuries*21121 ACE LN*WINDING WY*SHORT WY*LORD CALVERT TRLPK*CO39*Using ProQA Medical*",
+        "CALL:Traumatic Injuries",
+        "ADDR:21121 ACE LN",
+        "X:WINDING WY / SHORT WY",
+        "CITY:LORD CALVERT TRLPK",
+        "UNIT:CO39",
+        "INFO:Using ProQA Medical");
+          
+    doTest("T20",
+        "((59734) CAD ) 16:59:32*Eye Problems/Injuries*LA QUINTA INN*22769 THREE NOTCH RD*CHANCELLORS RUN RD*GUNSTON DR*CALIFORNIA*CO39*at the front desk*",
+        "CALL:Eye Problems/Injuries",
+        "PLACE:LA QUINTA INN",
+        "ADDR:22769 THREE NOTCH RD",
+        "X:CHANCELLORS RUN RD / GUNSTON DR",
+        "CITY:CALIFORNIA",
+        "UNIT:CO39",
+        "INFO:at the front desk");
+     
+    doTest("T21",
+        "((62231) CAD ) 15:12:53*Sick Person*CHESAPEAKE SHORES*21412 GREAT MILLS RD*SUBURBAN DR*SANNERS LN*LEXINGTON PARK*CO39*97 yr/f with GI bleed   rm 223A  (b",
+        "CALL:Sick Person",
+        "PLACE:CHESAPEAKE SHORES",
+        "ADDR:21412 GREAT MILLS RD",
+        "X:SUBURBAN DR / SANNERS LN",
+        "CITY:LEXINGTON PARK",
+        "UNIT:CO39",
+        "INFO:97 yr/f with GI bleed   rm 223A  (b");
+              
+    doTest("T22",
+        "((62650) CAD ) 17:06:15*Personal Injury Accident*GOV THOMAS JOHNSON BRIDGE*46100 PATUXENT BEACH RD*NORTH PATUXENT BEACH RD*DEAD",
+        "CALL:Personal Injury Accident",
+        "PLACE:GOV THOMAS JOHNSON BRIDGE",
+        "ADDR:46100 PATUXENT BEACH RD",
+        "X:NORTH PATUXENT BEACH RD / DEAD");
+          
+    doTest("T23",
+        "((557) CAD ) 23:33:54*Breathing Difficulties*CEDAR LANE APARTMENTS*22680 CEDAR LANE CT APT2204*POINT LOOKOUT RD*CEDAR LANE RD*LEONARDTOWN*ALS CO19*74YOM",
+        "CALL:Breathing Difficulties",
+        "PLACE:CEDAR LANE APARTMENTS",
+        "ADDR:2680 CEDAR LANE CT APT2204",
+        "X:POINT LOOKOUT RD / CEDAR LANE RD",
+        "CITY:LEONARDTOWN",
+        "UNIT:ALS CO1",
+        "INFO:74YOM");
+            
   }
 }
