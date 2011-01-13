@@ -20,6 +20,11 @@ MCo / [mCAD] * D * 0801 * BOX ALARM * 17211 KING JAMES WAY ,MCG * E728 E731 E703
 MCo / [mCAD] * D * 0503 * HOUSE FIRE * 4805 FLANDERS AVE ,MCG * E705B E723 E720 E750 E726 AT723 AT751 RS742 A705B BC704 BC703 D5 D3 DFRS INV CEALRM CODE BCNOT
 MCo / [mCAD] * D * 0318 * STABBING - ALS1 * 9300 KEY WEST AVE / 15200 SHADY GROVE RD ,RO * M703 BCNOT EMSNOT E703 D3 ECC25 DFRS
 MCo / [mCAD] * D * 0301 * PIC w/ ENTRAPMENT -ALS1 * 1180 EDMONSTON DR / 1100 WADE AVE ,RO * M703 RS703 E703 D3 EMS EMSNOT BCNOT DFRS
+
+Contact: Keith Stakes <kstakes2@aol.com>
+Sender: MC Emergency Network
+CAD MSG: * D * 3132 * BOX ALARM * 209 FOUNTAIN GREEN LA ,GA  * E708 E722 E729 E734 E728 T731 AT708 RS703 M73M
+
 */
 
 public class MDMontgomeryCountyParser extends SmsMsgParser {
@@ -29,31 +34,33 @@ public class MDMontgomeryCountyParser extends SmsMsgParser {
   }
   
 	public String getFilter() {
-		return "rc.355@c-msg.net";
+		return "rc.355@c-msg.net,MC Emergency Network";
 	}
 	
 	@Override
 	protected boolean parseMsg(String body, Data data) {
-	    
-	    if (!body.contains("[mCAD]")) return false;
-	    
-	    Properties props = parseMessage(body, "\\*", new String[]{"Junk","D","BOX","Call","Addr","Units"});
-	    data.strBox = props.getProperty("BOX", "");
-	    data.strCall = props.getProperty("Call", "");
-	    Parser p = new Parser(props.getProperty("Addr", ""));
-	    String strAddress = p.get('(');
-	    data.strPlace = p.get(')');
-	    p = new Parser(strAddress);
-	    p.getLastOptional(',');
-	    parseAddress(p.get(), data);
-	    for (String unit : props.getProperty("Units", "").split(" +")) {
-	      if (validUnit(unit)) {
-	        if (data.strUnit.length() > 0) data.strUnit += ' ';
-	        data.strUnit += unit;
-	      }
-	    }
-	    return true;
-	  }
+  
+	  int pt = body.indexOf(" * D * ");
+	  if (pt < 0) return false;
+	  body = body.substring(pt+7).trim();
+    
+    Properties props = parseMessage(body, "\\*", new String[]{"BOX","Call","Addr","Units"});
+    data.strBox = props.getProperty("BOX", "");
+    data.strCall = props.getProperty("Call", "");
+    Parser p = new Parser(props.getProperty("Addr", ""));
+    String strAddress = p.get('(');
+    data.strPlace = p.get(')');
+    p = new Parser(strAddress);
+    p.getLastOptional(',');
+    parseAddress(p.get(), data);
+    for (String unit : props.getProperty("Units", "").split(" +")) {
+      if (validUnit(unit)) {
+        if (data.strUnit.length() > 0) data.strUnit += ' ';
+        data.strUnit += unit;
+      }
+    }
+    return true;
+  }
 
 	// Determine if unit code is valid reportable unit
   
