@@ -116,8 +116,23 @@ public class GeneralParserTest extends BaseParserTest {
           "X:ANTHONY RD",
           "INFO:RIDGWAY ST MARYS RD",
           "SRC:ST MARYS AMB"); 
-
-
+    
+    doTest("T12",
+        "DEPTWK     TYP: MEDICAL ASSISTANCE AD: 455 SCHUTT ROAD EXT CTY: WALLKILL CN: MOBILE LIFE CMT1: EVALUATION FROM MVA CMT2: Ori",
+        "CALL:MEDICAL ASSISTANCE",
+        "ADDR:455 SCHUTT ROAD EXT",
+        "CITY:WALLKILL",
+        "PLACE:MOBILE LIFE",
+        "INFO:EVALUATION FROM MVA / Ori");
+    
+    doTest("T13",
+        "DEPTWK     TYP: HEMORHAGE/LACERATION BLD: 10 APT: 1001 AD: 203 GENUNG ST CTY: WALLKILL CN: BERNADETTE CMT1: MLACERATION TO H",
+        "CALL:HEMORHAGE/LACERATION",
+        "APT:10-1001",
+        "ADDR:203 GENUNG ST",
+        "CITY:WALLKILL",
+        "PLACE:BERNADETTE",
+        "INFO:MLACERATION TO H");
 
   }
 }
