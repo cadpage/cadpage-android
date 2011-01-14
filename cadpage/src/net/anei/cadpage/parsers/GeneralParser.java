@@ -29,7 +29,7 @@ public class GeneralParser extends SmartAddressParser {
     loadMap(FieldType.PLACE, "NAME", "COMMON", "CN", "O");
     loadMap(FieldType.ADDRESS, "ADDRESS", "LOC", "ADDR", "AD", "ADR", "ADD", "LOCATION");
     loadMap(FieldType.CITY, "CITY", "CTY", "VENUE", "VEN");
-    loadMap(FieldType.APT, "APT");
+    loadMap(FieldType.APT, "APT", "BLDG", "BLD");
     loadMap(FieldType.CROSS, "CROSS", "X", "XS", "XST", "XST2", "X-ST", "C/S", "CS", "BTWN");
     loadMap(FieldType.BOX, "BOX", "BX", "ADC");
     loadMap(FieldType.UNIT, "UNIT", "UNITS", "RESPONSE", "DUE", "UNTS", "UNT");
@@ -125,7 +125,8 @@ public class GeneralParser extends SmartAddressParser {
           break;
           
         case APT:
-          data.strApt = fld;
+          if (data.strApt.length() > 0) data.strApt += "-";
+          data.strApt += fld;
           break;
           
         case CROSS:

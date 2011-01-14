@@ -132,7 +132,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
         "TURNPIKE", "TPKE");
     setupDictionary(ID_ROUTE_PFX, "RT", "RTE", "ST", "SRT", "US", "FS", "INTERSTATE", "I", "HW", "HWY", "STHWY", "CO", "CR");
     setupDictionary(ID_ROUTE_PFX, new String[]{defState});
-    setupDictionary(ID_DIRECTION, "N", "NE", "E", "SE", "S", "SW", "W", "NW", "NB", "EB", "SB", "WB");
+    setupDictionary(ID_DIRECTION, "N", "NE", "E", "SE", "S", "SW", "W", "NW", "NB", "EB", "SB", "WB", "EXT");
     setupDictionary(ID_CONNECTOR, "AND", "/", "&");
     setupDictionary(ID_AT_MARKER, "AT", "@");
     
