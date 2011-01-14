@@ -74,6 +74,15 @@ HOUSE FIRE . . SMOKE IN THE HOUSE at 2764 MARTIN AVENUE. . 17:09:53
 6011 IS OUT OF SERVICE
 6011 IS BACK IN SERVICE 
 
+Levittown Fire Department, Nassau County, NY (Also in Nassau County)
+Contact: Adam Freed <afreed00789@gmail.com>
+Sender: paging@rednmxcad.com <From%3Apaging@rednmxcad.com>
+System: Red Alert
+[Auto Alarm]  at 2890 HEMPSTEAD TPKE #A, LEVITTOWN  c/s: SHELTER LN   O: THE LITTLE GYM . . 16:01:16
+[Phone In]  at 47 STEVEDORE LN, LEVITTOWN  c/s: PARSON LN   O: CAIOLA . . 10:24:26
+Signal 9 at 62 FLAMINGO RD, LEVITTOWN  c/s: GULL LN   O: OLSEN . . 09:34:27
+Brush Fires at TARRY LN / BAYBERRY LN, LEVITTOWN . . 14:28:07
+
 */
 
 public class NYSuffolkCountyCParser extends SmsMsgParser {

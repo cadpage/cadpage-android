@@ -50,6 +50,8 @@ Franklin County, VA (VAFranklinCountyParser)
 MAILBOX:S07 EMS-OTHER/DEFINE 18360 VIRGIL H GOODE HWY 124 RMT CFS# 2010-030542 CROSS: SHADY LN/BLACKWATER RIVER
 MAILBOX:S07 EMS-CHEST PAIN 413 WOODDALE DR RMT CFS# 2010-030355 CROSS: VIRGIL H GOODE HWY/DEAD END
 MAILBOX:S07 EMS-PATIENT FALLEN 3005 GREEN LEVEL RD RMT CFS# 2010-030541 CROSS: GRASSY HILL RD/LITTLE MOUNTAIN DR
+
+
 *******************************************************************************
 * DispatchProQAParser subclasses
 *******************************************************************************
@@ -1293,6 +1295,19 @@ MEDS: Med case 20110112112218-GMALSTRO Start
        3180     CANYON FERRY RD - N S
 MAP: MAP P10
 MAP: MAP B18 TXT STOP to opt-out
+**********************************************************
+Buffalo, NY
+Contact: Kunch <joshkunch@msn.com>
+Sender: 2002000004
+RC:Run# 4330/1 Hot 911 & Pvt/28B1 Stroke/CVA-unknown status/189 LANGFIELD DR///BUFFALO/14215////14:18/<Unknown>////X=TOWER ST&SUFFOLK ST
+**********************************************************
+Somewhere in VA
+Contact: Shane Taylor <hm88jr@gmail.com>
+Sender: 93001045
+MAILBOX:RS3 PAIN 16 E MAIN ST LUR CFS# 2011-000782 CROSS: BROAD ST/TANNERY RD
+**********************************************************
+**********************************************************
+**********************************************************
 **********************************************************
 **********************************************************
 **********************************************************
