@@ -36,6 +36,11 @@ Specific to Seaford
 [STA:91] -- Falls-BLS -- 0 Long Neck Rd & School Ln Millsboro 19966 -- NO IDEA
 [STA:91] -- Convulsions/Seizures-BLS -- 32532 Long Neck Rd Millsboro 19966 -- Lingo Creek Apt
 
+Contact: Sean Humphreys <hump7777@gmail.com>
+Sender: msg@cfmsg.com <From%3Amsg@cfmsg.com>
+(Chief ALT) [86 EMS] -- 1C6 -- 1 Sconset Ct Rehoboth Beach
+(Chief ALT) [86 EMS] -- 26C2 -- 36121 Knight St Rehoboth Beach
+
  */
 
 
