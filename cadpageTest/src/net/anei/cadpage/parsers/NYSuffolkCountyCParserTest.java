@@ -306,5 +306,40 @@ public class NYSuffolkCountyCParserTest extends BaseParserTest {
         "CALL:HOUSE FIRE - SMOKE IN THE HOUSE",
         "ADDR:2764 MARTIN AVENUE");
   }
+  
+  @Test
+  public void testLevittownParser() {
+    
+    doTest("T1",
+        "[Auto Alarm]  at 2890 HEMPSTEAD TPKE #A, LEVITTOWN  c/s: SHELTER LN   O: THE LITTLE GYM . . 16:01:16",
+        "CALL:[Auto Alarm]",
+        "ADDR:2890 HEMPSTEAD TPKE #A",
+        "CITY:LEVITTOWN",
+        "X:SHELTER LN",
+        "PLACE:THE LITTLE GYM");
+    
+    doTest("T2",
+        "[Phone In]  at 47 STEVEDORE LN, LEVITTOWN  c/s: PARSON LN   O: CAIOLA . . 10:24:26",
+        "CALL:[Phone In]",
+        "ADDR:47 STEVEDORE LN",
+        "CITY:LEVITTOWN",
+        "X:PARSON LN",
+        "PLACE:CAIOLA");
+    
+    doTest("T3",
+        "Signal 9 at 62 FLAMINGO RD, LEVITTOWN  c/s: GULL LN   O: OLSEN . . 09:34:27",
+        "CALL:Signal 9",
+        "ADDR:62 FLAMINGO RD",
+        "CITY:LEVITTOWN",
+        "X:GULL LN",
+        "PLACE:OLSEN");
+    
+    doTest("T4",
+        "Brush Fires at TARRY LN / BAYBERRY LN, LEVITTOWN . . 14:28:07",
+        "CALL:Brush Fires",
+        "ADDR:TARRY LN & BAYBERRY LN",
+        "CITY:LEVITTOWN");
+    
+  }
 
 }
