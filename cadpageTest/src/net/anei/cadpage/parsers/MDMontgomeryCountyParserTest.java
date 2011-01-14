@@ -62,6 +62,13 @@ public class MDMontgomeryCountyParserTest extends BaseParserTest {
     		"ADDR:17211 KING JAMES WAY",
     		"UNIT:E728 E731 E703 T731 RS703 A708C BC705 BC703"
     		);
-    		
+    doTest("T6",
+        "CAD MSG: * D * 3132 * BOX ALARM * 209 FOUNTAIN GREEN LA ,GA  * E708 E722 E729 E734 E728 T731 AT708 RS703 M73M",
+        "BOX:3132",
+        "CALL:BOX ALARM",
+        "ADDR:209 FOUNTAIN GREEN LA",
+        "UNIT:E708 E722 E729 E734 E728 T731 AT708 RS703");
+
   }
+  
 }

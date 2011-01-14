@@ -107,6 +107,16 @@ public class GeneralParserTest extends BaseParserTest {
           "MAP:3225",
           "ID:009012",
           "UNIT:VOL33");
+    
+    doTest("T11",
+          "Inc: SICK PERSON Add: 352 STATE ST\nCity: ST_MARYS\nXSt: ANTHONY RD * RIDGWAY ST MARYS RD\nAgency: ST MARYS AMB", 
+          "CALL:SICK PERSON",
+          "ADDR:352 STATE ST",
+          "CITY:ST_MARYS",
+          "X:ANTHONY RD",
+          "INFO:RIDGWAY ST MARYS RD",
+          "SRC:ST MARYS AMB"); 
+
 
 
   }
