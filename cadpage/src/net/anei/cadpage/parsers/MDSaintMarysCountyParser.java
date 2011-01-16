@@ -90,6 +90,9 @@ public class MDSaintMarysCountyParser extends SmartAddressParser {
     String[] flds = body.split("\\*+");
     if (flds.length < 6) return false;
     
+    Result lastResult = null;
+    String lastFld = null;
+    boolean intersection = false;
     int ndx = 0;
     for (String fld : flds) {
       fld = fld.trim();
@@ -106,60 +109,74 @@ public class MDSaintMarysCountyParser extends SmartAddressParser {
         
       case 2:
         // Address line
-        if (fld.endsWith(" INTERSECTN")) {
-          fld = fld.substring(0, fld.length()-11).trim();
-        } else {
-          ndx++;
-        }
         
-        // Parse the address
-        parseAddress(StartType.START_ADDR, fld, data);
-        
-        // If it didn't look like an address, switch it to the
-        // place name and try again with the next field
-        if (getStatus() == 0 && data.strPlace.length() == 0) {
-          data.strPlace = data.strAddress;
-          data.strAddress = "";
-          ndx -= 2;
+        // If line ends with intersection, it is positively the
+        // address field.  Any previously found field goes into the place
+        // field, and we process the next intersecting address field.
+        intersection = fld.endsWith(" INTERSECTN");
+        if (intersection) {
+          if (lastFld != null) data.strPlace = lastFld;
+          parseAddress(StartType.START_ADDR, fld.substring(0, fld.length()-11), data);
+          data.strApt = getLeft();
           break;
         }
         
-        // Otherwise, anything remaining is considered an apt
-        data.strApt = getLeft();
-        break;
+        // Otherwise parse the address.  We always parse the first two
+        // fields to see which one has the best address
+        Result result = parseAddress(StartType.START_ADDR, fld);
+        if (lastResult == null) {
+          lastFld = fld;
+          lastResult = result;
+          ndx--;
+          break;
+        }
+        
+        // If this field looks better than the previous one
+        // treat the prev field as a place and and parse this an address;
+        if (lastResult.getStatus() < result.getStatus()) {
+          data.strPlace = lastFld;
+          result.getData(data);
+          data.strApt = result.getLeft();
+          break;
+        }
+        
+        // If the previous field looks like the better than this one
+        // parse the previous address and drop through to treat this
+        // one as the first cross street
+        lastResult.getData(data);
+        data.strApt = lastResult.getLeft();
+        ndx++;
         
       case 3:
-        // intersecting street
-        data.strAddress = data.strAddress + " & " + fld;
-        ndx += 2;
+        // Cross street 1
+        // If the address field marked an intersection, there will only
+        // be one cross street.  The mapping logic will merge it into the
+        // mapping address if needed so we don't have to
+        data.strCross = fld;
+        if (intersection) ndx++;
         break;
         
       case 4:
-        // Cross street 1
-        data.strCross = fld;
-        break;
-        
-      case 5:
         // Cross street 2
         data.strCross = data.strCross + " / " + fld;
         break;
         
-      case 6:
+      case 5:
         // town
         data.strCity = fld;
         break;
         
-      case 7:
+      case 6:
         // Units
         data.strUnit = fld;
         break;
         
-      case 8:
+      case 7:
         // Description
         data.strSupp = fld;
         break;
         
-      case 9:
+      case 8:
         // Additional description
         data.strSupp = data.strSupp + " / " + fld;
         ndx--;
