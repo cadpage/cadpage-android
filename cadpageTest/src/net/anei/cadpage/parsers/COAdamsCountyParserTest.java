@@ -25,6 +25,7 @@ public class COAdamsCountyParserTest extends BaseParserTest {
     doTest("T3",
         "Subject:IPS I/Page Notification 10220 BRIGHTON RD ADAM CCPD:DIVERSIFIES TRUCK AND RV 17:22:11 TYPE CODE: NONSTR CALLER NAME: BOB TIME: 17:",
         "ADDR:10220 BRIGHTON RD",
+        "PLACE:DIVERSIFIES TRUCK AND RV",
         "CALL:NONSTR");
       
     doTest("T4",
@@ -35,7 +36,14 @@ public class COAdamsCountyParserTest extends BaseParserTest {
     doTest("T5",
         "Subject:IPS I/Page Notification 9900 E 102ND AVE ADAM CCPD:USF 06:06:49 TYPE CODE: FRALRM CALLER NAME: ADT TIME: 06:06:49 Comments: WATER",
         "ADDR:9900 E 102ND AVE",
+        "PLACE:USF",
         "CALL:FRALRM");
+    
+    doTest("T6",
+        "Subject:IPS I/Page Notification\n26900 E COLFAX AVE ARAP ARAP,454: @FOX RIDGE FARMS 17:19:15 TYPE CODE: EMS CALLER NAME:  TIME: 17:19:15 Co",
+        "ADDR:26900 E COLFAX AVE",
+        "PLACE:FOX RIDGE FARMS",
+        "CALL:EMS");
     
   }
 }

@@ -32,9 +32,6 @@ public class SmartAddressParserTest extends BaseParserTest {
   @Test
   public void testProblems() {
     
-    doTest(ADDR, "22030 OXFORD CT APT",
-        "ADDR:22030 OXFORD CT");
-    
     doTest(ADDR, "22030 OXFORD CT APT KEN TOWN",
         "ADDR:22030 OXFORD CT",
         "CITY:KEN TOWN");
@@ -54,6 +51,28 @@ public class SmartAddressParserTest extends BaseParserTest {
         "1073 SMOKE 1421 BEVERLY DR BOSA NONA DRIVE",
         "CALL:1073 SMOKE",
         "ADDR:1421 BEVERLY DR");
+  }
+  
+  @Test
+  public void testDoubleRoutes() {
+
+    doTest(ADDR, "134 US HIGHWAY 85 NB EXTRA",
+        "ADDR:134 US HIGHWAY 85 NB");
+    doTest(ADDR, "US HIGHWAY 85 NB/E 77TH AVE ADAM ADAM",
+        "ADDR:US HIGHWAY 85 NB & E 77TH AVE");
+    doTest("ADDR", "ST HWY 85 EXTRA",
+        "ADDR:ST HWY 85");
+
+    doTest(CALL, "BAD STUFF 134 US HIGHWAY 85 NB EXTRA",
+        "CALL:BAD STUFF",
+        "ADDR:134 US HIGHWAY 85 NB");
+    doTest(CALL, "BAD STUFF US HIGHWAY 85 NB/E 77TH AVE ADAM ADAM",
+        "CALL:BAD STUFF",
+        "ADDR:US HIGHWAY 85 NB & E 77TH AVE");
+    doTest("ADDR", "BAD STUFF ST HWY 85 EXTRA",
+        "CALL:BAD STUFF",
+        "ADDR:ST HWY 85");
+
   }
   
   @Test
