@@ -11,11 +11,22 @@ public class MDSaintMarysCountyParserTest extends BaseParserTest {
   
   @Test
   public void testParser() {
+
+    doTest("T16",
+        "((47017) CAD ) 21:24:45*Seizures/Convulsions*THREE OAK CENTER*46905 LEI DR*THREE NOTCH RD*SOUTH CORAL DR*LEXINGTON PARK*ALS CO39*Using ProQA",
+        "CALL:Seizures/Convulsions",
+        "PLACE:THREE OAK CENTER",
+        "ADDR:46905 LEI DR",
+        "X:THREE NOTCH RD / SOUTH CORAL DR",
+        "CITY:LEXINGTON PARK",
+        "UNIT:ALS CO39",
+        "INFO:Using ProQA");
     
     doTest("T1",
         "21:10:05*Personal Injury Accident*22607 THREE NOTCH RD INTERSECTN*MACARTHUR BL*LEXINGTON PARK*CO9 CO3 SQ3 CO39 CO79 A796*N/B LANES TWO VEHICLES AT LEAST ONE INJURY*",
         "CALL:Personal Injury Accident",
-        "ADDR:22607 THREE NOTCH RD & MACARTHUR BL",
+        "ADDR:22607 THREE NOTCH RD",
+        "X:MACARTHUR BL",
         "CITY:LEXINGTON PARK",
         "UNIT:CO9 CO3 SQ3 CO39 CO79 A796",
         "INFO:N/B LANES TWO VEHICLES AT LEAST ONE INJURY");
@@ -23,7 +34,8 @@ public class MDSaintMarysCountyParserTest extends BaseParserTest {
     doTest("T2",
         "14:41:22*Personal Injury Accident*21050 WILLOWS RD INTERSECTN*ABBERLY CREST LN*LEXINGTON PARK*CO3 CO39 CO6R*",
         "CALL:Personal Injury Accident",
-        "ADDR:21050 WILLOWS RD & ABBERLY CREST LN",
+        "ADDR:21050 WILLOWS RD",
+        "X:ABBERLY CREST LN",
         "CITY:LEXINGTON PARK",
         "UNIT:CO3 CO39 CO6R");
     
@@ -204,10 +216,11 @@ public class MDSaintMarysCountyParserTest extends BaseParserTest {
         "((557) CAD ) 23:33:54*Breathing Difficulties*CEDAR LANE APARTMENTS*22680 CEDAR LANE CT APT2204*POINT LOOKOUT RD*CEDAR LANE RD*LEONARDTOWN*ALS CO19*74YOM",
         "CALL:Breathing Difficulties",
         "PLACE:CEDAR LANE APARTMENTS",
-        "ADDR:2680 CEDAR LANE CT APT2204",
+        "ADDR:22680 CEDAR LANE",
+        "APT:CT APT2204",
         "X:POINT LOOKOUT RD / CEDAR LANE RD",
         "CITY:LEONARDTOWN",
-        "UNIT:ALS CO1",
+        "UNIT:ALS CO19",
         "INFO:74YOM");
             
   }
