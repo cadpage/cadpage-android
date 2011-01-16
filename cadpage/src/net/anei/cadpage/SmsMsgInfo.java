@@ -26,6 +26,7 @@ public class SmsMsgInfo {
   private String strSupp;
   private String strCode;
   private String strSource;
+  private String strName;
   private String defCity;
   private String defState;
   
@@ -51,6 +52,7 @@ public class SmsMsgInfo {
     public String strSupp="";
     public String strCode="";
     public String strSource = "";
+    public String strName = "";
     public String defCity = "";
     public String defState="";
     
@@ -99,6 +101,7 @@ public class SmsMsgInfo {
     strSupp = info.strSupp;
     strCode = info.strCode;
     strSource = info.strSource;
+    strName = info.strName;
     defCity = info.defCity;
     defState = info.defState;
   }
@@ -315,6 +318,13 @@ public class SmsMsgInfo {
    */
   public String getSource() {
     return strSource;
+  }
+  
+  /**
+   * @return name
+   */
+  public String getName() {
+    return strName;
   }
   
   

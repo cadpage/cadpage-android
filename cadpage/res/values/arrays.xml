@@ -247,6 +247,7 @@
     <item>NYJeffersonCounty</item>
     <item>NYNassauCounty</item>
     <item>NYOneidaCounty</item>
+    <item>NYOrangeCounty</item>
     <item>NYOrleansCounty</item>
     <item>NYPutnamCounty</item>
     <item>NYSuffolkCountyAll</item>
@@ -268,6 +269,7 @@
     <item>PAElkCounty</item>
     <item>PALackawannaCounty</item>
     <item>PALancasterCounty</item>
+    <item>PALehighCounty</item>
     <item>PAMifflinCounty</item>
     <item>SCCharlestonCounty</item>
     <item>SCYorkCounty</item>
@@ -327,6 +329,7 @@
     <item>JeffersonCounty, NY</item>
     <item>Nassau County, NY</item>
     <item>Oneida County, NY</item>
+    <item>Orange County, NY</item>
     <item>Orleans County, NY</item>
     <item>Putnam County, NY</item>
     <item>Suffolk County (All), NY</item>
@@ -348,6 +351,7 @@
     <item>Elk County, PA</item>
     <item>Lackawanna County, PA</item>
     <item>Lancaster County, PA</item>
+    <item>Lehigh County, PA</item>
     <item>Mifflin County, PA</item>
     <item>Charleston County, SC</item>
     <item>York County, SC</item>
