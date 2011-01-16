@@ -57,7 +57,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
   private static final int ID_ROAD_SFX = 1;
   
   // Bitmask bit indicating dictionary word is a route number prefix
-  private static final int ID_ROUTE_PFX = 2;
+  private static final int ID_ROUTE_PFX_PFX = 2;
   
   // Bitmask bit indicating dictionary word is a direction modifier
   private static final int ID_DIRECTION = 4;
@@ -90,6 +90,14 @@ public abstract class SmartAddressParser extends SmsMsgParser {
   // both this and the ID_MULTIWORD flag may be set if a token is both
   // a single complete token and the start of a multiword token
   private static final int ID_COMPLETE = 0x4000;
+  
+  // Bitmask bit indicating token is a route prefix that can be extended
+  // by another normal route prefix
+  private static final int ID_ROUTE_PFX_EXT =  0x8000;
+  
+  // Bitmask indicating dictionary word is either a route number prefix or a
+  // route prefix extender
+  private static final int ID_ROUTE_PFX = ID_ROUTE_PFX_PFX | ID_ROUTE_PFX_EXT;
   
   private static final Pattern PAT_HOUSE_NUMBER = Pattern.compile("\\d+(-?[A-Z])?");
   
@@ -130,8 +138,9 @@ public abstract class SmartAddressParser extends SmsMsgParser {
         "GTWY",
         "PLAZ", "PLAZA",
         "TURNPIKE", "TPKE");
-    setupDictionary(ID_ROUTE_PFX, "RT", "RTE", "ST", "SRT", "US", "FS", "INTERSTATE", "I", "HW", "HWY", "STHWY", "CO", "CR");
-    setupDictionary(ID_ROUTE_PFX, new String[]{defState});
+    setupDictionary(ID_ROUTE_PFX_EXT, "RT", "RTE", "HWY", "HIGHWAY");
+    setupDictionary(ID_ROUTE_PFX_PFX, "ST", "SRT", "US", "FS", "INTERSTATE", "I", "HW", "STHWY", "USHWY", "CO", "CR");
+    setupDictionary(ID_ROUTE_PFX_PFX, new String[]{defState});
     setupDictionary(ID_DIRECTION, "N", "NE", "E", "SE", "S", "SW", "W", "NW", "NB", "EB", "SB", "WB", "EXT");
     setupDictionary(ID_CONNECTOR, "AND", "/", "&");
     setupDictionary(ID_AT_MARKER, "AT", "@");
@@ -451,7 +460,12 @@ public abstract class SmartAddressParser extends SmsMsgParser {
           if (sAddr > start) { 
             sAddr--;
             if (isType(sAddr+1, ID_ROAD_SFX)) break;
-            if (isType(sAddr, ID_ROUTE_PFX) & ndx>2 & isType(sAddr+1, ID_NUMBER)) break;
+            if (isType(sAddr, ID_ROUTE_PFX) & ndx>2 & isType(sAddr+1, ID_NUMBER)) {
+              if (sAddr > start && 
+                  isType(sAddr, ID_ROUTE_PFX_EXT) && 
+                  isType(sAddr-1, ID_ROUTE_PFX_PFX)) sAddr--;
+              break;
+            }
           }
         }
       }
@@ -540,7 +554,10 @@ public abstract class SmartAddressParser extends SmsMsgParser {
         }
         
         if (isType(ndx, ID_ROAD_SFX)) {
-          if (!isType(ndx, ID_ROUTE_PFX) || !isType(ndx+1, ID_NUMBER)) break;
+          boolean startHwy = 
+              (isType(ndx, ID_ROUTE_PFX) && isType(ndx+1, ID_NUMBER)) ||
+              (isType(ndx, ID_ROUTE_PFX_PFX) && isType(ndx+1, ID_ROUTE_PFX_EXT) && isType(ndx+2, ID_NUMBER));
+          if (!startHwy) break; 
         }
         if (ndx > start && isType(ndx, ID_NUMBER) && isType(ndx-1, ID_ROUTE_PFX)) break;
         if (isRoadToken(ndx)) {
@@ -548,6 +565,13 @@ public abstract class SmartAddressParser extends SmsMsgParser {
           break;
         }
       }
+      
+      // See if this is a two part route name
+      if (sAddr > 0 &&
+          isType(sAddr, ID_ROUTE_PFX_EXT) && isType(sAddr-1, ID_ROUTE_PFX_PFX)) {
+        sAddr--;
+      }
+
       // If the previous token is a direction, back up one more to include that.
       int saveSaddr = sAddr;
       sAddr = stretchRoadPrefix(start, sAddr);
@@ -862,26 +886,46 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     boolean dirFound = isType(start, ID_DIRECTION); 
     if (dirFound) start++;
     
-    // A stand alone road token can terminate the road search, but it must
-    // be the first thing in the search sequence
-    int end = start+1;
-    if (! isRoadToken(start)) {
+    // Dummy loop that we can break out of when we find a road end
+    int end;
+    do {
       
-      // Now start looking for a street suffix (or cross street indicator
+      // A stand alone road token can terminate the road search, but it must
+      // be the first thing in the search sequence
+      if (isRoadToken(start)) {
+        end = start+1;
+        break;
+      }
+      
+      // See if this is a numbered highway
+      if (isType(start, ID_ROUTE_PFX)) {
+        end = start + 1;
+        if (isType(start, ID_ROUTE_PFX_PFX) && isType(start+1, ID_ROUTE_PFX_EXT)) end++;
+        if (isType(end, ID_NUMBER)) {
+          end++;
+          break;
+        }
+      }
+      
+      // Still no luck,
+      // start looking for a street suffix (or cross street indicator
       // If we have to pass more than two tokens before finding, give up
-      
-      while (true) {
-        
+      end = start;
+      boolean good = false;
+      while (++end - start <= 3) {
+
+        good = true;
         if (isType(end, ID_ROAD_SFX)) {end++; break; }
         if (isType(end, ID_CROSS_STREET)) break;
         
         // A number preceded by a route prefix counts as a road
         if (isType(end, ID_NUMBER) && end > 0 && isType(end-1, ID_ROUTE_PFX)) {end++; break;}
-        
-        // If potential road gets too long, give up
-        if (++end - start > 3) return -1;
+        good = false;
       }
-    }
+      
+      if (!good) return -1;
+      
+    } while (false);
     
     // If road is followed by a direction, include that
     if (! dirFound && isType(end, ID_DIRECTION)) end++;
