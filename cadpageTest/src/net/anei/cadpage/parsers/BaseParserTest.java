@@ -77,6 +77,7 @@ public abstract class BaseParserTest {
       else if (sType.equals("INFO")) data.strSupp = str;
       else if (sType.equals("SRC")) data.strSource = str;
       else if (sType.equals("CODE")) data.strCode = str;
+      else if (sType.equals("NAME")) data.strName = str;
       else fail("Keyword " + sType + " is not defined");
     }
     
@@ -99,6 +100,7 @@ public abstract class BaseParserTest {
     assertEquals(title + ":Supp", data.strSupp, info.getSupp());
     assertEquals(title + ":Src", data.strSource, info.getSource());
     assertEquals(title + ":Code", data.strCode, info.getCode());
+    assertEquals(title + ":Name", data.strName, info.getName());
     
     assertEquals(title + ":DefCity", defCity, info.getDefCity());
     assertEquals(title + ":DefState", defState, info.getDefState());
