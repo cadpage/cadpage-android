@@ -189,8 +189,18 @@ public class MDSaintMarysCountyParserTest extends BaseParserTest {
         "PLACE:GOV THOMAS JOHNSON BRIDGE",
         "ADDR:46100 PATUXENT BEACH RD",
         "X:NORTH PATUXENT BEACH RD / DEAD");
-          
+    
     doTest("T23",
+        "((14072) CAD ) 08:27:10*Sick Person*BANK OF AMERICA*21800 NORTH SHANGRI LA DR*THREE NOTCH RD*GREAT MILLS RD*LEXINGTON PARK*CO39 A397*Using ProQA",
+        "CALL:Sick Person",
+        "PLACE:BANK OF AMERICA",
+        "ADDR:21800 NORTH SHANGRI LA DR",
+        "X:THREE NOTCH RD / GREAT MILLS RD",
+        "CITY:LEXINGTON PARK",
+        "UNIT:CO39 A397",
+        "INFO:Using ProQA");
+          
+    doTest("T24",
         "((557) CAD ) 23:33:54*Breathing Difficulties*CEDAR LANE APARTMENTS*22680 CEDAR LANE CT APT2204*POINT LOOKOUT RD*CEDAR LANE RD*LEONARDTOWN*ALS CO19*74YOM",
         "CALL:Breathing Difficulties",
         "PLACE:CEDAR LANE APARTMENTS",
