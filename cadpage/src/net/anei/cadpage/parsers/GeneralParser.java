@@ -101,7 +101,11 @@ public class GeneralParser extends SmartAddressParser {
           break;
           
         case CALL:
-          if (fld.length() > 2) data.strCall = fld;
+          // Call description, but sometimes call descriptions are followed
+          // by an address
+          if (fld.length() <= 2) break;
+          parseAddress(StartType.START_CALL, fld, data);
+          if (data.strSupp.length() == 0) data.strSupp = getLeft();
           break;
           
         case PLACE:
@@ -177,9 +181,10 @@ public class GeneralParser extends SmartAddressParser {
         if (data.strAddress.length() == 0) {
           StartType st = (data.strCall.length() == 0 ? StartType.START_CALL :
                           data.strPlace.length() == 0 ? StartType.START_PLACE : StartType.START_SKIP);
-          parseAddress(st, fld, data);
-          if (getStatus() > 0) {
+          Result res = parseAddress(st, fld);
+          if (res.getStatus() > 0) {
             // Bingo!  Anything past the address goes into info
+            res.getData(data);
             data.strSupp = getLeft();
             
             // If we have some leading call info, use it.  If not, 
@@ -187,9 +192,6 @@ public class GeneralParser extends SmartAddressParser {
             if (data.strCall.length() == 0 && last != null) data.strCall = last;
             continue;
           }
-          
-          // No go, Reset any field that might been set by our miscalculation
-          data.strCall = data.strAddress = "";
         }
         
         // Does this look like a call ID?

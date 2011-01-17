@@ -139,6 +139,7 @@ public class SmsMsgInfo {
   public String getMapAddress() {
     String sAddr = cleanBounds(strAddress);
     sAddr = cleanHouseNumbers(sAddr);
+    sAddr = cleanDoubleRoutes(sAddr);
     StringBuilder sb = new StringBuilder(sAddr);
     
     // If there wasn't an address number or intersection marker in address
@@ -232,6 +233,29 @@ public class SmsMsgInfo {
     }
     return sAddress;
   }
+
+  // Google can handle things like ST 666 or US 666 or RTE 666.
+  // But it doesn't loke US RTE 666
+  // If we find a construct like that, remove the middle section
+  private static final Pattern DBL_ROUTE_PTN = 
+    Pattern.compile("\\b(US|ST) +(RT|RTE|HW|HWY) +(\\d+)\\b", Pattern.CASE_INSENSITIVE);
+  private String cleanDoubleRoutes(String sAddress) {
+    Matcher match = DBL_ROUTE_PTN.matcher(sAddress);
+    int pt = 0;
+    if (!match.find(pt)) return sAddress;
+    
+    StringBuilder sb = new StringBuilder();
+    do {
+      sb.append(sAddress.substring(pt, match.start()));
+      sb.append(sAddress.substring(match.start(1), match.end(1)));
+      sb.append(' ');
+      sb.append(sAddress.substring(match.start(3), match.end(3)));
+      pt = match.end();
+    } while (match.find(pt));
+    sb.append(sAddress.substring(pt));
+    return sb.toString();
+  }
+
   
   /**
    * @return true if address is valid standalone address
