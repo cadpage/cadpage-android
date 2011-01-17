@@ -133,6 +133,12 @@ public class GeneralParserTest extends BaseParserTest {
         "CITY:WALLKILL",
         "PLACE:BERNADETTE",
         "INFO:MLACERATION TO H");
+    
+    doTest("T14",
+        "Subject:FredCo\n[CAD] CT: HOUSE / APPLIANCE FIRE (STRUCTURE PRE-ALERT) 6715 MEADOW LAWN CIR",
+        "CALL:HOUSE/APPLIANCE FIRE (STRUCTURE PRE-ALERT)",
+        "ADDR:6715 MEADOW LAWN CIR");
+        
 
   }
 }

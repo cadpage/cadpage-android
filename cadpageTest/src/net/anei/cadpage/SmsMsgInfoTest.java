@@ -35,6 +35,9 @@ public class SmsMsgInfoTest {
     
     doMapPlaceTest("PLC1", "PARK PLACE,US HIGHWAY 100,KENBURG,XX", "US HIGHWAY 100", "PARK PLACE");
     doMapPlaceTest("PLC2", "850 US HIGHWAY 100,KENBURG,XX", "850 US HIGHWAY 100", "PARK PLACE");
+    
+    doMapTest("DR1", "345 W US 30,KENBURG,XX", "345 W US RT 30");
+    doMapTest("DR2", "345 w st 30,KENBURG,XX", "345 w st hwy 30");
   }
   
   private void doMapTest(String title, String result, String address) {
