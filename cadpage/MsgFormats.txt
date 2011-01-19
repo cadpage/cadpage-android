@@ -110,6 +110,25 @@ Suffolk County (A), NY (NYSuffolkCountyAParser)
 TYPE: GAS LEAKS / GAS ODOR (NATURAL / L.P.G.) LOC: 11 BRENTWOOD PKWY BRENTW HOMELESS SHELTER CROSS: PENNSYLVANIA AV / SUFFOLK AV CODE: 60-B-2 TIME: 12:54:16
 TYPE: STRUCTURE FIRE LOC: 81 NEW HAMPSHIRE AV NBAYSH  CROSS: E FORKS RD / E 3 AV CODE: 69-D-10 TIME: 16:36:48
 TYPE: OPEN BURNING LOC: 65 GRANT AVE BRENTW CROSS: SUFFOLK AVE 18:39:20 CODE: 54-C-6
+*******************************************************************************
+Lee County FL
+We receive our dispatch services from Lee Control. 
+(Lee county public safety division. They dispatch for Lee county EMS and 15 different fire districts including mine, Fort Myers Beach fire control district.) 
+I contacted Lee control and they advised that they use printrak for their CAD software. I receive calls via radio and text message in real time, texts are received from leecontrol@leegov.com. A couple calls as requested follow.
+From:LeeControl@LeeGov.com
+
+Body:ZURES CMT2: Original Location : LIGHTHOUSE RESORT TIKI BAR TIME: 16:34 FBFBA32 FBFBE31 XST: 1 MATANZAS BRIDGE XST2: 1067 FOURTH ST 
+Eff Body:ZURES CMT2: Original Location : LIGHTHOUSE RESORT TIKI BAR TIME: 16:34 FBFBA32 FBFBE31 XST: 1 MATANZAS BRIDGE XST2: 1067 FOURTH ST 
+
+
+Body:10116004231 TYP: SEIZURES AD: 1051 FIFTH ST CTY: FT MYERS BEACH LOC: LIGHTHOUSE RESORT TIKI BAR CN: VERIZON WIRELESS CMT1: CONVULSIONS / 
+Eff Body:10116004231 TYP: SEIZURES AD: 1051 FIFTH ST CTY: FT MYERS BEACH LOC: LIGHTHOUSE RESORT TIKI BAR CN: VERIZON WIRELESS CMT1: CONVULSIONS / 
+
+Body:MS CMT2: Original Location : BAYSIDE ESTATES TIME: 08:35 FBFBA32 FBFBE33XST: 17681 EGLANTINE LN 
+Eff Body:MS CMT2: Original Location : BAYSIDE ESTATES TIME: 08:35 FBFBA32 FBFBE33XST: 17681 EGLANTINE LN 
+
+Body:10116004116 TYP: BREATHING PROBLEM AD: 11610 DOGWOOD LN CTY: FT MYERS BEACH LOC: BAYSIDE ESTATES CN: KESTLER, BARBARA CMT1: BREATHING PRO 
+Eff Body:10116004116 TYP: BREATHING PROBLEM AD: 11610 DOGWOOD LN CTY: FT MYERS BEACH LOC: BAYSIDE ESTATES CN: KESTLER, BARBARA CMT1: BREATHING PRO 
 ********************************************************************************
 Suffolk County (B), NY (NSuffolkCountyBParser)
 *** 13 - Structure Fire *** 147 CHERUBINA LN CS: LEADER AVE  / SKIDMORE RD TOA: 22:37 09/22/10 OIL BURNER NORTH BABYLON FC 2010-002398 HY: 8' 11
