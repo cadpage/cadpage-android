@@ -23,16 +23,6 @@ public class GeneralParserTest extends BaseParserTest {
   
   @Test
   public void testProblem() {
-    
-    doTest("T15",
-        "10116004231 TYP: SEIZURES AD: 1051 FIFTH ST CTY: FT MYERS BEACH LOC: LIGHTHOUSE RESORT TIKI BAR CN: VERIZON WIRELESS CMT1: CONVULSIONS /",
-        "ID:10116004231",
-        "CALL:SEIZURES",
-        "ADDR:1051 FIFTH ST",
-        "CITY:FT MYERS BEACH",
-        "PLACE:LIGHTHOUSE RESORT TIKI BAR",
-        "NAME:VERIZON WIRELESS",
-        "INFO:CONVULSIONS /");
   }
   
   @Test
@@ -158,6 +148,15 @@ public class GeneralParserTest extends BaseParserTest {
         "PLACE:LIGHTHOUSE RESORT TIKI BAR",
         "NAME:VERIZON WIRELESS",
         "INFO:CONVULSIONS /");
+    
+    doTest("T16",
+        "DEPTWK     TYP: FAINTING/UNCON APT: 240 AD: 563 ST RTE 211 E CTY: WALLKILL CN: LISA CMT1: MPASSED OUT IN THE TUB 44 YEAR OLD",
+        "CALL:FAINTING/UNCON",
+        "APT:240",
+        "ADDR:563 ST RTE 211 E",
+        "CITY:WALLKILL",
+        "PLACE:LISA",
+        "INFO:MPASSED OUT IN THE TUB 44 YEAR OLD");
 
   }
 }
