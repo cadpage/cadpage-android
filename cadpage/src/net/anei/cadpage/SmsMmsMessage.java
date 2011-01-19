@@ -238,7 +238,7 @@ public class SmsMmsMessage implements Serializable {
             }
           }
           int len = sb.length()-5;
-          if (sb.substring(len).equals("(End)")) sb.setLength(len);
+          if (len >= 0 && sb.substring(len).equals("(End)")) sb.setLength(len);
           parseMessageBody = sb.toString();
           return;
         }
