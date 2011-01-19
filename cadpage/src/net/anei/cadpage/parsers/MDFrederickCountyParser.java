@@ -26,6 +26,9 @@ Contact: Mike Ringer <mpr0317@gmail.com>
 Sender: rc.360@c-msg.net <From%3Arc.360@c-msg.net>
 (CAD) [FredCo] CT: TROUBLE BREATHING 142 E SOUTH ST FRE1 ESZ: 303 MAP: 4566E5 Disp: A38,M31 [85]
 
+Contact: "windyhollowgrowers@hotmail.com" <windyhollowgrowers@hotmail.com>
+(FredCo) [CAD] CT: HOUSE / FIRE-VISIBLE CACO: @MA CARRCO: 1594 BAUST CHURCH RD ESZ: 9902 Disp: ET94,
+
 ***/
 
 public class MDFrederickCountyParser extends SmartAddressParser {
@@ -48,7 +51,8 @@ public class MDFrederickCountyParser extends SmartAddressParser {
         "ADAM","Adams County", //PA
         "ADAM CO", "Adams County",
         "ADCO","Franklin County", //PA
-        "FRAN CO", "Franklin County"
+        "FRAN CO", "Franklin County",
+        "CARRCO", "Carroll County",
     });
 
   public MDFrederickCountyParser(){
