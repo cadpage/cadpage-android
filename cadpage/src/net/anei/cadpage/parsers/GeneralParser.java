@@ -63,6 +63,12 @@ public class GeneralParser extends SmartAddressParser {
 
     String last = null;
 
+    boolean keywordDesc = false;
+    boolean foundAddr = false;
+    Result bestRes = null;
+    String bestAddr = null;
+    String secondAddr = null;
+
     while (nextDelim != null) {
       
       // Parse the next field
@@ -101,27 +107,48 @@ public class GeneralParser extends SmartAddressParser {
           break;
           
         case CALL:
-          // Call description, but sometimes call descriptions are followed
-          // by an address
+          // Call description, ignore if less than 3 characters
           if (fld.length() <= 2) break;
-          parseAddress(StartType.START_CALL, fld, data);
-          if (data.strSupp.length() == 0) data.strSupp = getLeft();
+          keywordDesc = true;
+          
+          // If we already have a call desc, append this to it
+          if (data.strCall.length() > 0) {
+            data.strCall += " / ";
+            data.strCall += fld;
+          }
+          
+          // Otherwise run it through the smart parser just in case the
+          // call desc is followed by an address
+          else {
+            parseAddress(StartType.START_CALL, fld, data);
+            if (data.strSupp.length() == 0) data.strSupp = getLeft();
+          }
           break;
           
         case PLACE:
-          data.strPlace = fld;
+          if (data.strPlace.length() == 0) data.strPlace = fld;
           break;
           
         case ADDRESS:
+          // We  might have  multiple address fields
+          // Keep track of which one looks like the best address
+          // Also keep the first second place address in case we want to
+          // use it as a call description
+          foundAddr = true;
           StartType st = (data.strCall.length() == 0 ? StartType.START_CALL :
                           data.strPlace.length() == 0 ? StartType.START_PLACE : StartType.START_SKIP);
-          parseAddress(st, fld, data);
-          data.strSupp = getLeft();
+          Result res = parseAddress(st, fld);
+          if (bestRes == null || res.getStatus() > bestRes.getStatus()) {
+            if (secondAddr == null) secondAddr = bestAddr;
+            bestAddr = fld;
+            bestRes = res;
+          } else {
+            if (secondAddr == null) secondAddr = fld;
+          }
           
           // If we have some leading call info, use it.  If not, 
           // treat the last unidentified field as the call
           if (data.strCall.length() == 0 && last != null) data.strCall = last;
-
           break;
           
         case CITY:
@@ -178,12 +205,13 @@ public class GeneralParser extends SmartAddressParser {
       else {
         
         // If we haven't found an address yet, see if this is it
-        if (data.strAddress.length() == 0) {
+        if (!foundAddr) {
           StartType st = (data.strCall.length() == 0 ? StartType.START_CALL :
                           data.strPlace.length() == 0 ? StartType.START_PLACE : StartType.START_SKIP);
           Result res = parseAddress(st, fld);
           if (res.getStatus() > 0) {
             // Bingo!  Anything past the address goes into info
+            foundAddr = true;
             res.getData(data);
             data.strSupp = getLeft();
             
@@ -209,7 +237,7 @@ public class GeneralParser extends SmartAddressParser {
         // None of the above
         // If we haven't found an address yet, save this field for use as a possible
         // call field when we find the address. 
-        if (data.strAddress.length() == 0) {
+        if (! foundAddr) {
           last = fld;
           continue;
         }
@@ -245,6 +273,28 @@ public class GeneralParser extends SmartAddressParser {
       }
     }
     
+    // next resolve any multiple address keyword fields
+    if (bestRes != null) {
+      String saveCall = data.strCall;
+      bestRes.getData(data);
+      if (data.strCall.length() == 0 || keywordDesc) data.strCall = saveCall;
+      String supp = bestRes.getLeft();
+      if (supp.length() > 0) {
+        if (data.strSupp.length() > 0) {
+          supp = supp + " / " + data.strSupp;
+        }
+        data.strSupp = supp;
+      }
+
+      // If there were multiple address keywords, the second best one
+      // becomes the place.  Any existing place is demoted to a name
+      if (secondAddr != null) {
+        if (data.strPlace.length() > 0) data.strName = data.strPlace;
+        data.strPlace =  secondAddr;
+      }
+    }
+
+    // Return success if we found an address
     return data.strAddress.length() > 0;
   }
 }

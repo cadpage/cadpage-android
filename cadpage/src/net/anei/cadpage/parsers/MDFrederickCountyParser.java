@@ -22,6 +22,10 @@ Sender:  www.codemessaging.net
 (CAD) [FredCo] CT: PERSON FIRE (INSIDE) 16825 S SETON AVE CEMB: @NATIONAL EMERGENCY TRAINING CENTER:SIMULATION LAB ESZ: 620 MAP: 3997H9 Disp: [34]                    Rmk:"
 (FredCo) [CAD] CT: CHEST PAIN  1811 MONOCACY BLVD FRE1: @WAL MART: PHARMACY  ESZ: 215 MAP: 4448J9  Disp: A29,A247,M17
 
+Contact: Mike Ringer <mpr0317@gmail.com>
+Sender: rc.360@c-msg.net <From%3Arc.360@c-msg.net>
+(CAD) [FredCo] CT: TROUBLE BREATHING 142 E SOUTH ST FRE1 ESZ: 303 MAP: 4566E5 Disp: A38,M31 [85]
+
 ***/
 
 public class MDFrederickCountyParser extends SmartAddressParser {
