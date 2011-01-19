@@ -82,5 +82,13 @@ public class MDFrederickCountyParserTest extends BaseParserTest {
         "BOX:215"
         );
     
+    doTest("T7",
+        "(FredCo) [CAD] CT: HOUSE / FIRE-VISIBLE CACO: @MA CARRCO: 1594 BAUST CHURCH RD ESZ: 9902 Disp: ET94,",
+        "CALL:Mutual Aid: HOUSE / FIRE-VISIBLE CACO:",
+        "ADDR:1594 BAUST CHURCH RD",
+        "CITY:Carroll County",
+        "BOX:9902",
+        "UNIT:ET94,");
+    
   }
 }
