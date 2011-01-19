@@ -72,5 +72,16 @@ public class VALoudounCountyParserTest extends BaseParserTest {
         "UNIT:M6131 ACO13",
         "BOX:2024",
         "MAP:5158 C08");
+    
+    doTest("T7",
+        "bmckenna+caf_=5712385054=vtext.com@arcolavfd.org Call:31A01-FAINTED NOW AL,24801 PINEBROOK RD-CH Apt:110,X-St:TALL CEDARS PKWY ,A619 M6091 ACO19,Box:1921 ,ADC:5520 F01 [97]",
+        "CALL:31A01-FAINTED NOW AL",
+        "ADDR:24801 PINEBROOK RD",
+        "CITY:Chantilly",
+        "APT:110",
+        "X:TALL CEDARS PKWY",
+        "UNIT:A619 M6091 ACO19",
+        "BOX:1921",
+        "MAP:5520 F01");
   }
 }
