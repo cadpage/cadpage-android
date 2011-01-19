@@ -11,16 +11,6 @@ public class MDSaintMarysCountyParserTest extends BaseParserTest {
   
   @Test
   public void testParser() {
-
-    doTest("T16",
-        "((47017) CAD ) 21:24:45*Seizures/Convulsions*THREE OAK CENTER*46905 LEI DR*THREE NOTCH RD*SOUTH CORAL DR*LEXINGTON PARK*ALS CO39*Using ProQA",
-        "CALL:Seizures/Convulsions",
-        "PLACE:THREE OAK CENTER",
-        "ADDR:46905 LEI DR",
-        "X:THREE NOTCH RD / SOUTH CORAL DR",
-        "CITY:LEXINGTON PARK",
-        "UNIT:ALS CO39",
-        "INFO:Using ProQA");
     
     doTest("T1",
         "21:10:05*Personal Injury Accident*22607 THREE NOTCH RD INTERSECTN*MACARTHUR BL*LEXINGTON PARK*CO9 CO3 SQ3 CO39 CO79 A796*N/B LANES TWO VEHICLES AT LEAST ONE INJURY*",
@@ -75,7 +65,15 @@ public class MDSaintMarysCountyParserTest extends BaseParserTest {
         "CITY:HERMANVILLE",
         "UNIT:CO3 CO39",
         "INFO:Using ProQA Fire");
-        
+    
+    doTest("T7",
+        "20:51:10*Chest Pain*19673 NORTH SNOW HILL MANOR RD*SOUTH SNOW HILL MANOR RD*LYARD RD*ST MARYS CITY*CO39 A398 ALS*PT. DOES HAVE A PACEMAKER",
+        "CALL:Chest Pain",
+        "ADDR:19673 NORTH SNOW HILL MANOR RD",
+        "X:SOUTH SNOW HILL MANOR RD / LYARD RD",
+        "CITY:ST MARYS CITY",
+        "UNIT:CO39 A398 ALS",
+        "INFO:PT. DOES HAVE A PACEMAKER");
 
     doTest("T10",
         "((46589) CAD) 14:02:26*Stroke**APT A2**22027 OXFORD CT APTA2*GLOUCESTER CT*DEAD END*LEXINGTON PARK*CO39*Using ProQA Medical*",

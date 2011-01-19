@@ -72,6 +72,12 @@ public class SmsMmsMessageTest {
         "CommCenter@ccems.com <Body%3ACommCenter@ccems.com>",
         "",
         "TAP OUT (SAL)");
+    
+    doParseTest("shortMsg",
+        "FRM:CommCenter@ccems.com\nMSG:BAD",
+        "CommCenter@ccems.com",
+        "",
+        "BAD");
 
   }
   
