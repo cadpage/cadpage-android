@@ -290,7 +290,6 @@ public abstract class SmsMsgParser {
            }
            continue;
          }
-         if (ndx+1 == line.length()) continue;
          String key = line.substring(0, ndx).trim();
          String value = line.substring(ndx+1).trim();
          props.put(key, value);

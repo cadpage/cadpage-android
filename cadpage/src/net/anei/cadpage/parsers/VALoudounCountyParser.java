@@ -13,11 +13,13 @@ Call:20D01H-HEAT EXPOSURE,STONE SPRINGS BLVD-AL/MINERAL SPRINGS CIR-AL Apt:,X-St
 ([cad13] ) Call:30A01-TRAUMA NOT DAN,775 GATEWAY DR SE-LB Apt:CLUBHS,X-St:SYCOLIN RD SE VAN,M6132 ACO13,Box:2013 ,ADC:515
 ([cad13] ) Call:PUBR-PUBLIC SERVICE-,60 IDA LEE DR NW-LB Apt:,X-St:KING ST N  ,A6133 A6134 Z613,Box:0113 ,ADC:5157 K01 [2
 ([cad13] ) Call:ALS-ALS EMERGENCY   ,16591 COURAGE CT-LB Apt:,X-St:LOUDOUN CENTER PL,M6131 ACO13,Box:2024 ,ADC:5158 C08 [
+
+Contact: rebecca mckenna <emtco9516@gmail.com>
+bmckenna+caf_=5712385054=vtext.com@arcolavfd.org Call:31A01-FAINTED NOW AL,24801 PINEBROOK RD-CH Apt:110,X-St:TALL CEDARS PKWY ,A619 M6091 ACO19,Box:1921 ,ADC:5520 F01 [97]
 ***/
 
 public class VALoudounCountyParser extends SmsMsgParser {
 
-  private static final String[]LCFRkeywords = new String[]{"Call:", "Apt:", "X-St:"};
   private static final Properties LCFRCityCodes = buildCodeTable(new String[]{
         "CH", "Chantilly",
         "LB", "Leesburg",
@@ -47,15 +49,12 @@ public class VALoudounCountyParser extends SmsMsgParser {
   @Override
   protected boolean parseMsg(String body, Data data) {
     
-    if (! isPageMsg(body, LCFRkeywords)) return false;
-    
     // Clean off extra junk at both ends
-    body = body.trim();
-    if (body.charAt(0) == '(') {
-      int pt = body.indexOf(')');
-      if (pt >= 0) body = body.substring(pt+1).trim();
-    }
-    int pt = body.lastIndexOf('[');
+    int pt = body.indexOf("Call:");
+    if (pt < 0) return false;
+    
+    body = body.substring(pt);
+    pt = body.lastIndexOf('[');
     if (pt >= 0) body = body.substring(0, pt).trim();
 
     // Needs some massaging before it can be run through the standard parser
@@ -63,8 +62,11 @@ public class VALoudounCountyParser extends SmsMsgParser {
     Properties props = parseMessage(body, ",", new String[]{"Addr", "Unit"});
     data.strCall = props.getProperty("Call", "");
     parseAddressCity(props.getProperty("Addr", ""), data);
-    data.strApt = props.getProperty("Apt", "");
-    data.strCross = props.getProperty("X-St", "");
+    if (data.strAddress.length() == 0) return false;
+    data.strApt = props.getProperty("Apt");
+    if (data.strApt == null) return false;
+    data.strCross = props.getProperty("X-St");
+    if (data.strCross == null) return false;
     data.strUnit = props.getProperty("Unit", "");
     data.strBox = props.getProperty("Box", "");
     data.strMap = props.getProperty("ADC", "");
