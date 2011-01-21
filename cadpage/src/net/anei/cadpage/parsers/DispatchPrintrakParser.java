@@ -74,7 +74,8 @@ public class DispatchPrintrakParser extends SmsMsgParser {
   @Override
   protected boolean parseMsg(String body, Data data) {
     
-    if (!body.contains(" TYP:") || !body.contains(" AD:")) return false;
+    if (!body.contains(" TYP:") &&
+        !body.contains(" AD:")) return false;
     
     Properties props = parseMessage("STA:" + body, KEYWORDS);
     data.strSource = props.getProperty("STA", "");
