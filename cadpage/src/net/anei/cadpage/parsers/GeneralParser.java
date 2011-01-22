@@ -10,7 +10,7 @@ import net.anei.cadpage.SmsMsgInfo.Data;
 
 public class GeneralParser extends SmartAddressParser {
   
-  private static final Pattern DELIM_PATTERN = Pattern.compile(";|,|\\*|\\n|\\b[A-Z][A-Za-z0-9-#]*:|\\bC/S:|\\b[A-Z][A-Za-z]*#");
+  private static final Pattern DELIM_PATTERN = Pattern.compile(";|,|\\*|\\n|\\||\\b[A-Z][A-Za-z0-9-#]*:|\\bC/S:|\\b[A-Z][A-Za-z]*#");
   private static final Pattern CALL_ID_PATTERN = Pattern.compile("\\d[\\d-]+\\d");
   private static final Pattern UNIT_PATTERN = Pattern.compile("([A-Z]+[0-9]+\\s+)+");
   
