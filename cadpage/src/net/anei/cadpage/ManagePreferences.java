@@ -17,7 +17,7 @@ public class ManagePreferences {
   // (OK, if you know what you are doing, and the only new settings added
   // are boolean settings that default to false, you can get away with not
   // changing this)
-  private static final int PREFERENCE_VERSION = 5;
+  private static final int PREFERENCE_VERSION = 6;
   
   private static ManagePreferences prefs;
 
@@ -168,6 +168,10 @@ public class ManagePreferences {
   
   public static int logLimit() {
     return Integer.parseInt(prefs.getString(R.string.pref_loglimit_key));
+  }
+  
+  public static boolean suppressDupMsg() {
+    return prefs.getBoolean(R.string.pref_suppress_dup_msg_key);
   }
   
   public static boolean notifyEnabled() {

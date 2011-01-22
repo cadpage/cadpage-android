@@ -331,14 +331,19 @@
           android:inputType="textVisiblePassword"
           android:defaultValue=""/>
       <net.anei.cadpage.preferences.ListPreference
-        android:key="@string/pref_loglimit_key"
-        android:title="@string/pref_loglimit_title"
-        android:summary="@string/pref_loglimit_summary"
-        android:entries="@array/pref_loglimit_values"
-        android:entryValues="@array/pref_loglimit_values"
-        android:dialogTitle="@string/pref_loglimit_title"
-        android:defaultValue="@string/pref_loglimit_default"/>
-      
+          android:key="@string/pref_loglimit_key"
+          android:title="@string/pref_loglimit_title"
+          android:summary="@string/pref_loglimit_summary"
+          android:entries="@array/pref_loglimit_values"
+          android:entryValues="@array/pref_loglimit_values"
+          android:dialogTitle="@string/pref_loglimit_title"
+          android:defaultValue="@string/pref_loglimit_default"/>
+      <CheckBoxPreference
+          android:key="@string/pref_suppress_dup_msg_key"
+          android:title="@string/pref_suppress_dup_msg_title"
+          android:summaryOn="@string/pref_suppress_dup_msg_summaryon"
+          android:summaryOff="@string/pref_suppress_dup_msg_summaryoff"
+          android:defaultValue="@string/pref_suppress_dup_msg_default" />
     </PreferenceScreen>
     
   </PreferenceCategory>

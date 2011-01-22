@@ -52,7 +52,6 @@ public class SmsMmsMessage implements Serializable {
   private long sentTime = 0L;
   private int iccIndex = 0;
 
-  
   public boolean isRead() {
     return read;
   }
@@ -553,5 +552,20 @@ public class SmsMmsMessage implements Serializable {
    */
   public void fixOldLocation(Context context) {
     if (location != null) location = ManagePreferences.convertOldLocationCode(context, location);
+  }
+
+  
+  @Override
+  public boolean equals(Object obj) {
+    if (!(obj instanceof SmsMmsMessage)) return false;
+    SmsMmsMessage msg = (SmsMmsMessage)obj;
+    return (match(fromAddress, msg.fromAddress) &&
+             match(messageBody, msg.messageBody));
+  }
+  
+  private boolean match(String s1, String s2) {
+    if (s1 == null && s2 == null) return true;
+    if (s1 == null || s2 == null) return false;
+    return s1.equals(s2);
   }
 }

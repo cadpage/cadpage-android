@@ -51,7 +51,12 @@ public class SmsReceiver extends BroadcastReceiver {
     if (Log.DEBUG) Log.v("SMSReceiver/CadPageCall: Filter Matches checking call Location -" + sFilter);
     
     // Save message for future test or error reporting use
-    SmsMsgLogBuffer.getInstance().add(message);
+    // If message is rejected as duplicate, don't do anything except call
+    // abortbroadcast to keep it from going to anyone else
+    if (! SmsMsgLogBuffer.getInstance().add(message)) {
+      if (! ManagePreferences.smspassthru()) abortBroadcast();
+      return;
+    }
     
     // See if the current parser will handle this message
     boolean genAlert = ManagePreferences.genAlert();

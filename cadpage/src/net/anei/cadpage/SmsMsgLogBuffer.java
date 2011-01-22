@@ -43,8 +43,20 @@ public class SmsMsgLogBuffer {
   /**
    * Add new message to message log buffer
    * @param msg message to be added
+   * @returns true if message was added, false if message should
+   * be suppressed because it duplicates a message already in the log
+   * buffer
    */
-  public void add(SmsMmsMessage msg) {
+  public boolean add(SmsMmsMessage msg) {
+    
+    // If we are suppressing duplicate messages, see if the new message
+    // duplicates one already in the queue.  If queued message wasn't
+    // identified as some kind of CAD message, don't check it
+    if (ManagePreferences.suppressDupMsg()) {
+      for (SmsMmsMessage msg2 : msgQueue) {
+        if (msg.equals(msg2)) return false;
+      }
+    }
     
     // Add new message to beginning of queue
     msgQueue.addFirst(msg);
@@ -64,6 +76,7 @@ public class SmsMsgLogBuffer {
     } finally {
       if (os != null) try {os.close();} catch (IOException ex) {}
     }
+    return true;
   }
   
   /**
