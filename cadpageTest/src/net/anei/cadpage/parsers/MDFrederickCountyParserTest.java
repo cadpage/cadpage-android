@@ -90,5 +90,14 @@ public class MDFrederickCountyParserTest extends BaseParserTest {
         "BOX:9902",
         "UNIT:ET94,");
     
+    doTest("T18",
+        "[FredCo] CT: INJURY FROM VEHICLE ACCIDENT LL(-77:23:59.6013,39:21:53.1520): @I270NB / MONOCACY RIVER ESZ: 327002 MAP: 46",
+        "CALL:INJURY FROM VEHICLE ACCIDENT",
+        "ADDR:LL(-77:23:59.6013,39:21:53.1520)",
+        "PLACE:@I270NB / MONOCACY RIVER",
+        "BOX:327002",
+        "MAP:46");
+        
+    
   }
 }

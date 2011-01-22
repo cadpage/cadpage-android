@@ -157,6 +157,23 @@ public class GeneralParserTest extends BaseParserTest {
         "CITY:WALLKILL",
         "PLACE:LISA",
         "INFO:MPASSED OUT IN THE TUB 44 YEAR OLD");
+    
+    doTest("T17",
+        "10121005439 TYP: FAINTING AD: 450 OLD SAN CARLOS BLVD CTY: FT MYERS BEACH LOC: FRONT LOBBY CN: METRO PCS CMT1: UNCONSCIOUS / FAINTING (NE",
+        "ID:10121005439",
+        "CALL:FAINTING",
+        "ADDR:450 OLD SAN CARLOS BLVD",
+        "CITY:FT MYERS BEACH",
+        "PLACE:FRONT LOBBY",
+        "NAME:METRO PCS",
+        "INFO:UNCONSCIOUS / FAINTING (NE");
+    
+    doTest("T18",
+        "1101-005780*565 ARLIE LN***LILLINGTON***GRASS/FIELD FIRE****1144****",
+        "ID:1101-005780",
+        "ADDR:565 ARLIE LN",
+        "CALL:LILLINGTON",
+        "INFO:GRASS/FIELD FIRE * 1144");
 
   }
 }

@@ -28,6 +28,7 @@ public class SmartAddressParserTest extends BaseParserTest {
     parser = new TestParser(CITY_LIST, DEF_CITY, DEF_STATE);
     setParser(parser, DEF_CITY, DEF_STATE);
   }
+
   
   @Test
   public void testProblems() {
@@ -391,6 +392,19 @@ public class SmartAddressParserTest extends BaseParserTest {
     assertEquals(0, parser.checkAddress("US 50 & SE JEFFERSON ST EXTRA"));
     assertEquals(1, parser.checkAddress("SMITH RD"));
     assertEquals(0, parser.checkAddress("SMITH RD EXTRA"));
+  }
+
+  @Test
+  public void testGpsCoords() {
+    doTest(CALL, "VEHICLE ACCIDENT LL(-77:23:59.6013,39:21:53.1520) DOWN TOWN",
+        "CALL:VEHICLE ACCIDENT",
+        "ADDR:LL(-77:23:59.6013,39:21:53.1520)");
+    doTest(ADDR, "VEHICLE ACCIDENT LL(-77:23:59.6013 39:21:53.1520) DOWN TOWN",
+        "ADDR:VEHICLE ACCIDENT LL(-77:23:59.6013,39:21:53.1520)");
+    doTest(CALL, FLAG_ANCHOR_END,
+        "VEHICLE ACCIDENT LL(-77.42356013 39.23521520) DOWN TOWN",
+        "CALL:VEHICLE ACCIDENT",
+        "ADDR:LL(-77.42356013,39.23521520) DOWN TOWN");
   }
   
   private void doTest(StartType sType, String test, String ... result) {
