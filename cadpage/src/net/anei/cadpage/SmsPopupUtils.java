@@ -12,7 +12,6 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.content.pm.PackageManager.NameNotFoundException;
-import android.database.Cursor;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.net.Uri;
@@ -20,39 +19,10 @@ import android.preference.PreferenceManager;
 import android.telephony.SmsMessage;
 
 public class SmsPopupUtils {
-  //Content URIs for SMS app, these may change in future SDK
-  public static final Uri MMS_SMS_CONTENT_URI = Uri.parse("content://mms-sms/");
-  public static final Uri THREAD_ID_CONTENT_URI =
-    Uri.withAppendedPath(MMS_SMS_CONTENT_URI, "threadID");
-  public static final Uri CONVERSATION_CONTENT_URI =
-    Uri.withAppendedPath(MMS_SMS_CONTENT_URI, "conversations");
-  public static final String SMSTO_URI = "smsto:";
 
-  public static final Uri SMS_CONTENT_URI = Uri.parse("content://sms");
-  public static final Uri SMS_INBOX_CONTENT_URI = Uri.withAppendedPath(SMS_CONTENT_URI, "inbox");
+  public static final Pattern GPSPattern = 
+    Pattern.compile("\\b([+-]?[0-9]+\\.[0-9]{4,}|[+-]?[0-9]+:[0-9]+:[0-9]+\\.[0-9]{4,})[,\\W]\\W*([+-]?[0-9]+\\.[0-9]{4,}|[+-]?[0-9]+:[0-9]+:[0-9]+\\.[0-9]{4,})\\b");
 
-  public static final Uri MMS_CONTENT_URI = Uri.parse("content://mms");
-  public static final Uri MMS_INBOX_CONTENT_URI = Uri.withAppendedPath(MMS_CONTENT_URI, "inbox");
-
-  public static final String SMSMMS_ID = "_id";
-  public static final String SMS_MIME_TYPE = "vnd.android-dir/mms-sms";
-  public static final int READ_THREAD = 1;
-  public static final int MESSAGE_TYPE_SMS = 1;
-  public static final int MESSAGE_TYPE_MMS = 2;
-
-  public static final int CONTACT_PHOTO_PLACEHOLDER = android.R.drawable.ic_dialog_info;
-
-  // The size of the contact photo thumbnail on the popup
-  public static final int CONTACT_PHOTO_THUMBSIZE = 96;
-
-  // The max size of either the width or height of the contact photo
-  public static final int CONTACT_PHOTO_MAXSIZE = 1024;
-
-  public static final Uri DONATE_PAYPAL_URI =
-    Uri.parse("Not Available Yet");
-  public static final Uri DONATE_MARKET_URI =
-    Uri.parse("Not Available Yet");
-  
   
   private static String nameVersion = null;
   public static String getNameVersion(Context context) {
@@ -73,35 +43,6 @@ public class SmsPopupUtils {
       nameVersion = context.getString(R.string.app_name) + version;
     }
     return nameVersion;
-  }
-
-  public static String getMmsAddress(Context context, long messageId) {
-    final String[] projection =  new String[] { "address", "contact_id", "charset", "type" };
-    final String selection = "type=137"; // "type="+ PduHeaders.FROM,
-
-    Uri.Builder builder = MMS_CONTENT_URI.buildUpon();
-    builder.appendPath(String.valueOf(messageId)).appendPath("addr");
-
-    Cursor cursor = context.getContentResolver().query(
-        builder.build(),
-        projection,
-        selection,
-        null, null);
-
-    if (cursor != null) {
-      try {
-        if (cursor.moveToFirst()) {
-          // Apparently contact_id is always empty in this table so we can't get it from here
-
-          // Just return the address
-          return cursor.getString(0);
-        }
-      } finally {
-        cursor.close();
-      }
-    }
-
-    return context.getString(android.R.string.unknownName);
   }
 
   public static final Pattern NAME_ADDR_EMAIL_PATTERN =
@@ -252,13 +193,46 @@ public class SmsPopupUtils {
     Matcher match = GPSPattern.matcher(address);
     if (!match.find()) return null;
 
-    String latitude = match.group(1);
-    String longitude = match.group(2);
-    if (Character.isDigit(longitude.charAt(0))) longitude = "-" + longitude;
-    return latitude + "," + longitude;
+    double c1 = cvtGpsCoord(match.group(1));
+    double c2 = cvtGpsCoord(match.group(2));
+    
+    // There isn't a consistent standard as to which is latitude and
+    // which is longitude, so we will have to make some guesses.
+    double latitude, longitude;
+    if (c1 < 0) {
+      latitude = c2;
+      longitude = c1;
+    } else if (c2 < 0) {
+      latitude = c1;
+      longitude = c2;
+    } else if (c1 > c2) {
+      latitude = c2;
+      longitude = -c1;
+    } else {
+      latitude = c1;
+      longitude = -c2;
+    }
+    return "" + latitude + "," + longitude;
   }
-  private static final Pattern GPSPattern = 
-    Pattern.compile("\\b([+-]?[0-9]+\\.[0-9]+)\\W+([+-]?[0-9]+\\.[0-9]+)\\b");
+
+  /**
+   * Convert GPS coordinate in degree:min:sec form to strait degrees
+   */
+  private static double cvtGpsCoord(String coord) {
+    int pt1 = coord.indexOf(':');
+    if (pt1 < 0) return Double.parseDouble(coord);
+    int pt2 = coord.indexOf(':', pt1+1);
+    String sDeg = coord.substring(0, pt1);
+    char sgn = sDeg.charAt(0);
+    boolean neg = (sgn == '-');
+    if (neg || sgn == '+') sDeg = sDeg.substring(1);
+    int deg = Integer.parseInt(sDeg);
+    int min = Integer.parseInt(coord.substring(pt1+1,pt2));
+    double sec = Double.parseDouble(coord.substring(pt2+1));
+    double result = deg + min/60. + sec/3600.;
+    if (neg) result = -result;
+    return result;
+  }
 
   /**
    * Determine if message address matches address filter

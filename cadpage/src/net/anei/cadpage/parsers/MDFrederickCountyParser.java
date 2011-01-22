@@ -29,6 +29,8 @@ Sender: rc.360@c-msg.net <From%3Arc.360@c-msg.net>
 Contact: "windyhollowgrowers@hotmail.com" <windyhollowgrowers@hotmail.com>
 (FredCo) [CAD] CT: HOUSE / FIRE-VISIBLE CACO: @MA CARRCO: 1594 BAUST CHURCH RD ESZ: 9902 Disp: ET94,
 (FredCo) [CAD] CT: HEMORRHAGE CACO: @MA CARRCO: 915 FRANCIS SCOTT KEY HWY ESZ: 9902 Disp: SU9
+
+[FredCo] CT: INJURY FROM VEHICLE ACCIDENT LL(-77:23:59.6013,39:21:53.1520): @I270NB / MONOCACY RIVER ESZ: 327002 MAP: 46
 ***/
 
 public class MDFrederickCountyParser extends SmartAddressParser {
@@ -87,10 +89,23 @@ public class MDFrederickCountyParser extends SmartAddressParser {
     }
 
     else {
-      Parser p = new Parser(strAddr);
-      strAddr = p.get(':');
-      data.strPlace = p.get();
-      parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ, strAddr, data);
+      
+      // Look for a colon marking the start of the place name
+      // too make things more interesting, we have to skip over any colons
+      // in an LL(...) function which marks GPS coordinates
+      int p1 = strAddr.indexOf(':');
+      if (p1 >= 0) {
+        int p2 = strAddr.indexOf('(');
+        if (p2 >= 0 && p2 < p1) {
+          p2 = strAddr.indexOf(')', p2+1);
+          if (p2 >= 0) p1 = strAddr.indexOf(':', p2+1);
+        }
+      }
+      if (p1 >= 0) {
+        data.strPlace = strAddr.substring(p1+1).trim();
+        strAddr = strAddr.substring(0, p1).trim();
+      }
+      parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ | FLAG_ANCHOR_END , strAddr, data);
     }
     
     data.strMap = props.getProperty("MAP", "");

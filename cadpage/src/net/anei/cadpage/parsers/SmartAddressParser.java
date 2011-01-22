@@ -6,9 +6,11 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Properties;
+import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.SmsMsgInfo;
+import net.anei.cadpage.SmsPopupUtils;
 
 /**
  * Abstract message parser class that adds support for "smart" address parsing.
@@ -304,16 +306,33 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     // Check for null string
     result.status = 0;
     if (address.length() == 0) return result;
+    
+    // Before we do anything else, see if we can find some GPS coordinates
+    // in this address.  If we do find them, pack them so they will parse
+    // into a single token
+    String gpsCoords = null;
+    Matcher match = SmsPopupUtils.GPSPattern.matcher(address);
+    if (match.find()) {
+      gpsCoords = match.group(1) + ',' + match.group(2); 
+      address = address.substring(0, match.start()) + gpsCoords 
+                  + address.substring(match.end());
+    }
 
-    // Make sure any / or & character will parse by itself
-    // Before we do that we have to protect the C/S cross street indicator
-    address = address.replaceAll(" C/S ", " XS: ").replaceAll("/", " / ").replaceAll("&", " & ");
-    
-    // Make sure any colon keyword parsers by itself
-    address = address.replaceAll(":", ": ");
-    
-    // Periods used with abbreviations also cause trouble.  Just get rid of all periods
-    address = address.replaceAll("\\.", "");
+    // We have a lot of pre parsing adjustments that must be made to normal
+    // address strings, but get skipped if we have already identified this
+    // as a GSP coordinate address
+    else {
+      
+      // Make sure any / or & character will parse by itself
+      // Before we do that we have to protect the C/S cross street indicator
+      address = address.replaceAll(" C/S ", " XS: ").replaceAll("/", " / ").replaceAll("&", " & ");
+      
+      // Make sure any colon keyword parsers by itself
+      address = address.replaceAll(":", ": ");
+      
+      // Periods used with abbreviations also cause trouble.  Just get rid of all periods
+      address = address.replaceAll("\\.", "");
+    }
 
     // Set up token list and types
     setTokenTypes(sType, address, result);
@@ -327,6 +346,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     // Try each one until we find one that works
     result.status = 4;
     if (parseTrivialAddress(result)) return result;
+    if (parseGPSCoords(result, gpsCoords)) return result;
     result.status = 3;
     if (parseSimpleAddress(result)) return result;
     result.status = 2;
@@ -358,6 +378,31 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     // OK, we have to have at least 2 items before the city
     if (result.startAddress < 0) return false;
     return parseToCity(result.startAddress+2, result);
+  }
+
+  /**
+   * Handle special case where the prospective address contains a token
+   * that contains valid GPS coordinates
+   */
+  private boolean parseGPSCoords(Result result, String gpsCoords) {
+    
+    // If no GPS coordinates were found, return false
+    if (gpsCoords == null) return false;
+    
+    // We have already packed the GPS coordinates into a single token
+    // now find that token
+    int gpsNdx = 0;
+    for (; gpsNdx < tokens.length; gpsNdx++) {
+      if (tokens[gpsNdx].contains(gpsCoords)) break;
+    }
+    if (gpsNdx >= tokens.length) throw new RuntimeException("GPS coordinates not found");
+
+    // Expand address to beginning or end of token string if required by
+    // constraints
+    result.startAddress = result.initAddress = 
+      (result.startType == StartType.START_ADDR ? 0 : gpsNdx);
+    result.endAll = (isFlagSet(FLAG_ANCHOR_END) ? tokens.length : gpsNdx+1);
+    return true;
   }
 
   /**
