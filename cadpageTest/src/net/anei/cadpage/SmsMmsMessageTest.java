@@ -73,11 +73,35 @@ public class SmsMmsMessageTest {
         "",
         "TAP OUT (SAL)");
     
+    doParseTest("MDHarford",
+        "Subject:HCCAD\n[!] EOC:F03 WIRES >WIRES/POLE SHAWNEE DR&WALTERS MILL RD XS: WALTERS MILL RD FOREST HILL NOT ENTERED Cad: 2010-000019169",
+        "ken@cadpage.org",
+        "!",
+        "EOC:F03 WIRES >WIRES/POLE SHAWNEE DR&WALTERS MILL RD XS: WALTERS MILL RD FOREST HILL NOT ENTERED Cad: 2010-000019169");
+    
     doParseTest("shortMsg",
         "FRM:CommCenter@ccems.com\nMSG:BAD",
         "CommCenter@ccems.com",
         "",
         "BAD");
+    
+    doParseTest("(sub)msg",
+        "(THE SUBJECT(ID 3342)) HELLO DOLLY",
+        "ken@cadpage.org",
+        "THE SUBJECT(ID 3342)",
+        "HELLO DOLLY");
+    
+    doParseTest("[sub]msg",
+        "[THE SUBJECT[ID 3342]] HELLO DOLLY",
+        "ken@cadpage.org",
+        "THE SUBJECT[ID 3342]",
+        "HELLO DOLLY");
+    
+    doParseTest("(s1)[s2]",
+        "(SUBJECT ONE) [ SUBJECT TWO ] HELLO BABE",
+        "ken@cadpage.org",
+        "SUBJECT TWO",
+        "HELLO BABE");
 
   }
   

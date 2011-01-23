@@ -13,6 +13,7 @@ public class MDCarolineCountyParserTest extends BaseParserTest {
   public void testParser() {
     doTest("T1",
         "(Chief ALT) [PM13] 26 A-Sick Person -- 520 Kerr Ave Denton - XSts: Dead End / Daffin Ln",
+        "SRC:PM13",
         "CALL:26 A-Sick Person",
         "ADDR:520 Kerr Ave",
         "CITY:Denton",
@@ -20,6 +21,7 @@ public class MDCarolineCountyParserTest extends BaseParserTest {
     
     doTest("T2",
         "(Chief ALT) [200 Fire] Wires Down -- 22542 Dover Bridge Rd Preston - XSts: Poplar Neck Rd, Tanyard Rd / Bethlehem Rd",
+        "SRC:200 Fire",
         "CALL:Wires Down",
         "ADDR:22542 Dover Bridge Rd",
         "CITY:Preston",
@@ -27,6 +29,7 @@ public class MDCarolineCountyParserTest extends BaseParserTest {
     
     doTest("T3",
         "(Chief ALT) [200 Fire] 17 A-Falls -- 21182 Marsh Creek Rd Preston - XSts: Frazier Neck Rd / Bethlehem Rd",
+        "SRC:200 Fire",
         "CALL:17 A-Falls",
         "ADDR:21182 Marsh Creek Rd",
         "CITY:Preston",

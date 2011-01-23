@@ -312,15 +312,15 @@ public class NYSuffolkCountyCParserTest extends BaseParserTest {
     
     doTest("T1",
         "[Auto Alarm]  at 2890 HEMPSTEAD TPKE #A, LEVITTOWN  c/s: SHELTER LN   O: THE LITTLE GYM . . 16:01:16",
-        "CALL:[Auto Alarm]",
+        "CALL:Auto Alarm",
         "ADDR:2890 HEMPSTEAD TPKE #A",
         "CITY:LEVITTOWN",
         "X:SHELTER LN",
         "PLACE:THE LITTLE GYM");
     
     doTest("T2",
-        "[Phone In]  at 47 STEVEDORE LN, LEVITTOWN  c/s: PARSON LN   O: CAIOLA . . 10:24:26",
-        "CALL:[Phone In]",
+        "Phone In  at 47 STEVEDORE LN, LEVITTOWN  c/s: PARSON LN   O: CAIOLA . . 10:24:26",
+        "CALL:Phone In",
         "ADDR:47 STEVEDORE LN",
         "CITY:LEVITTOWN",
         "X:PARSON LN",

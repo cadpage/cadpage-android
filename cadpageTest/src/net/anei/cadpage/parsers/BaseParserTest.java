@@ -29,8 +29,8 @@ public abstract class BaseParserTest {
   public void testBadMsg() {
     // Just call the parser with a badly formated msg and make sure it doesn't croak
     SmsMsgInfo.Data data = new SmsMsgInfo.Data();
-    parser.parseMsg("BAD MSG", data);
-    parser.parseMsg("", data);
+    parser.parseMsg("", "BAD MSG", data);
+    parser.parseMsg("", "", data);
   }
   
   public void doBadTest(String test) {

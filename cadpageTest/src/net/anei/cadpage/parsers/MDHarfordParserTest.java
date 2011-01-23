@@ -12,17 +12,6 @@ public class MDHarfordParserTest extends BaseParserTest {
   @Test
   public void testParser() {
     
-    doTest("T6",
-        "Subject:HCCAD\n[!] EOC:F03 WIRES >WIRES/POLE SHAWNEE DR&WALTERS MILL RD XS: WALTERS MILL RD FOREST HILL NOT ENTERED Cad: 2010-000019169",
-        "UNIT:F03",
-        "CALL:WIRES/POLE",
-        "ADDR:SHAWNEE DR & WALTERS MILL RD",
-        "X:WALTERS MILL RD",
-        "CITY:FOREST HILL",
-        "ID:2010-000019169");
-
-    
-    
     doTest("T1",
         "[!] EOC:A1091 UNC >UNCONSCIOUS 2200 CHANNEL RD XS: X BIG BRANCH BRDG #127 PYLESVILLE CRIZER,KIM BOX: N08 Cad: 2010-0000162717",
         "UNIT:A1091",
