@@ -66,7 +66,7 @@ public class ManageParsers {
         
         // Otherwise find the parser class and instantiate it
         else {
-          String className = "net.anei.cadpage.parsers." + location + "Parser";
+          String className = getParserClassname(location);
           try {
             parser = (SmsMsgParser)Class.forName(className).newInstance();
           } catch (Exception ex) {
@@ -100,6 +100,32 @@ public class ManageParsers {
       curParser = parser;
     }
     return parser;
+  }
+  
+  /**
+   * Get fully qualified parser class name associated with location
+   * @param location requested location
+   * @return parser class name
+   */
+  private String getParserClassname(String location) {
+    
+    String pkg = null;
+    if (Character.isUpperCase(location.charAt(1))) {
+      pkg = location.substring(0,2);
+    } else if (location.startsWith("Dispatch")) {
+      pkg = "dispatch";
+    } else if (location.startsWith("General")) {
+      pkg = "general";
+    }
+    StringBuffer sb = new StringBuffer("net.anei.cadpage.parsers.");
+    if (pkg != null) {
+      sb.append(pkg);
+      sb.append('.');
+    }
+    sb.append(location);
+    sb.append("Parser");
+    return sb.toString();
+
   }
   
   /**

@@ -419,7 +419,7 @@ public abstract class SmsMsgParser {
   * Worker class that will parse a into consecutive substrings up to the
   * next occurrence of a particular parser
   */
- protected static class Parser {
+ public static class Parser {
    
    private String line;
    private int spt;
@@ -455,7 +455,7 @@ public abstract class SmsMsgParser {
     * @param delim delimiter
     * @return everything up to next occurrence of delimiter if found, empty string otherwise
     */
-   String getOptional(char delim) {
+   public String getOptional(char delim) {
      return get(delim, true);
    }
    
@@ -471,7 +471,7 @@ public abstract class SmsMsgParser {
     * @param delim delimiter
     * @return everything up to next occurrence of delimiter if found, empty string otherwise
     */
-   String getLastOptional(char delim) {
+   public String getLastOptional(char delim) {
      return getLast(delim, true);
    }
    
