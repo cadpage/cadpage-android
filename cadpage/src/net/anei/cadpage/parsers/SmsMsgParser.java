@@ -55,9 +55,10 @@ public abstract class SmsMsgParser {
     if (! overrideFilter && ! SmsPopupUtils.matchFilter(msg.getAddress(), filter)) return null;
     
     // Decode the call page and place the data in the database
+    String strSubject = msg.getSubject();
     String strMessage = msg.getMessageBody();
     Data data = new Data();
-    if (parseSubject(msg.getSubject(), data) && parseMsg(strMessage, data)) {
+    if (parseMsg(strSubject, strMessage, data)) {
       data.defCity = defCity;
       data.defState = defState;
       return data;
@@ -72,14 +73,14 @@ public abstract class SmsMsgParser {
   }
 
   /**
-   * Parse information form message subject
-   * Doesn't do anything, but can be overridden subclasses if necessary
-   * @param subject message subject
+   * Parse information object from message
+   * @param strSubject message subject to be parsed
+   * @param strMessage message text to be parsed
    * @param data data object to be constructed
    * @return true if successful, false otherwise
    */
-  protected boolean parseSubject(String subject, Data data) {
-    return true;
+  protected boolean parseMsg(String strSubject, String strMessage, Data data) {
+    return parseMsg(strMessage, data);
   }
 
   /**
@@ -88,7 +89,9 @@ public abstract class SmsMsgParser {
    * @param data data object to be constructed
    * @return true if successful, false otherwise
    */
-  protected abstract boolean parseMsg(String strMessage, Data data);
+  protected boolean parseMsg(String strMessage, Data data) {
+    throw new RuntimeException("parseMsg method was not overridden");
+  }
   
   /**
    * @return Filter associated with this parser

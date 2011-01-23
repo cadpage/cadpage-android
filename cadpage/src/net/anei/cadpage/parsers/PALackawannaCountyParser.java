@@ -47,11 +47,11 @@ public class PALackawannaCountyParser extends SmartAddressParser {
   }
 
   @Override
-  protected boolean parseMsg(String body, Data data) {
+  protected boolean parseMsg(String subject, String body, Data data) {
     
-    if (! body.startsWith("(Dispatch) ") && !body.startsWith("[Dispatch] ")) return false;
+    if (! subject.equals("Dispatch")) return false;
     
-    Properties props = parseMessage(body.substring(11), KEYWORDS);
+    Properties props = parseMessage(body, KEYWORDS);
     data.strUnit = props.getProperty("Unit", "");
     String sAddr = props.getProperty("Location");
     if (sAddr == null) return false;

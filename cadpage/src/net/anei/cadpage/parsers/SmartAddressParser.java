@@ -1245,7 +1245,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
       for (int ndx = start; ndx < end; ndx++) {
         if (ndx != start) sb.append(' ');
         String token = tokens[ndx];
-        if (addr && isType(ndx, ID_CONNECTOR)) token = "&";
+        if (addr && token.equals("/")) token = "&";
         sb.append(token);
       }
       return sb.toString();

@@ -27,17 +27,14 @@ public class OHDelewareCountyParser extends SmsMsgParser {
   }
   
   @Override
-  protected boolean parseMsg(String body, Data data) {
+  protected boolean parseMsg(String subject, String body, Data data) {
+    
+    if (! subject.startsWith("Alert: ")) return false;
+    data.strCall = subject.substring(7).trim();
 
-    String[] lines = body.split(" *\n *");
-    // First line contains the call description
-    String line = lines[0];
-    int pt1 = line.indexOf("(Alert: ");
-    if (pt1 < 0) return false;
-    pt1 += 7;
-    int pt2 = line.indexOf(')', pt1);
-    if (pt2 < 0) return false;
-    data.strCall = line.substring(pt1, pt2).trim();
+    String[] lines = body.split("\n");
+    
+    // First line is ignored
         
     // Second line always contains LOC: keyword
     if (lines.length <= 1) return false;
@@ -48,7 +45,7 @@ public class OHDelewareCountyParser extends SmsMsgParser {
     int ndx = 4;
     for ( ; ndx<=5; ndx++) {
       if (ndx >= lines.length) return false;
-      line = lines[ndx];
+      String line = lines[ndx];
       if (line.startsWith("BTWN: ")) {
         data.strCross = line.substring(6).trim();
         break;

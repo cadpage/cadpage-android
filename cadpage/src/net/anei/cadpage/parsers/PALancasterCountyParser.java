@@ -32,9 +32,10 @@ public class PALancasterCountyParser extends SmsMsgParser {
   }
 
   @Override
-  protected boolean parseMsg(String body, Data data) {
+  protected boolean parseMsg(String subject, String body, Data data) {
     
-    if (!body.startsWith("(") || ! body.contains("~")) return false;
+    if (subject.length() == 0 || ! body.contains("~")) return false;
+    data.strCall = subject;
     
     int ndx = 0;
     for (String line : body.split("~")) {
@@ -43,12 +44,8 @@ public class PALancasterCountyParser extends SmsMsgParser {
       switch (ndx) {
       
       case 1:
-        int pt = line.indexOf(")");
-        if (pt >= 0) {
-          data.strCall = line.substring(1, pt);
-          data.strCity = line.substring(pt+1).trim();
-          if (data.strCity.contains("LANC")) data.strCity = "LANCASTER";
-        }
+        data.strCity = line;
+        if (data.strCity.contains("LANC")) data.strCity = "LANCASTER";
         break;
         
       case 2:

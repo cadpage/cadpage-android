@@ -177,90 +177,135 @@ public class SmsMmsMessage implements Serializable {
     // Start by decoding commo HTML sequences
     String body = messageBody.replaceAll("&nbsp;",  " ").replaceAll("&amp;",  "&").replaceAll("<br>", "\n");
     
-    /* Decode patterns that look like this.....
-    1 of 3
-    FRM:CAD@livingstoncounty.livco
-    SUBJ:DO NOT REPLY
-    MSG:CAD:FYI: ;CITAF;5579 E GRAND RIVER;WILDWOOD DR;Event spawned from CITIZEN ASSIST LAW. [12/10/10
-    (Con't) 2 of 3
-    20:08:59 SPHILLIPS] CALLER LIVES NEXT DOOR TO THE ADDRESS OF THE WATER MAINBREAK [12/10/10 20:04:40 HROSSNER] CALLER ADV OF A WATER MAIN
-    (Con 3 of 3
-    BREAK(End)
-    
-    Or This
-    
-    FRM:e@fireblitz.com <Body%3AFRM%3Ae@fireblitz.com>
-    MSG:48: TOWNHOUSE FIRE
-    E818 BO802
-    9903 BREEZY KNOLL CT [DEAD END & GREEN HAVEN RD]
-    12/23 23:32
-    http://fireblitz.com/18/8.shtm
-    */
-    int pt1 = -1;
-    int pt2 = -1;
-    if (body.startsWith("FRM:")) {
-      pt1 = 0;
-      pt2 = 4;
-    } else {
-      pt1 = body.indexOf("\nFRM:");
-      pt2 = pt1 + 5;
-    }
-    if (pt1 >= 0) {
-      int pt3 = body.indexOf('\n', pt2);
-      if (pt3 >= 0) {
-        parseAddress = body.substring(pt2, pt3).trim();
-        pt1 = pt3;
-        pt3 = body.indexOf("\nSUBJ:", pt1);
-        parseSubject = "";
-        if (pt3 >= 0) {
-          pt1 = pt3;
-          pt2 = pt3 + 6;
-          pt3 = body.indexOf('\n', pt2);
-          if (pt3 >= 0) {
-            parseSubject = body.substring(pt2, pt3);
-            pt1 = pt3;
-          }
-        }
-        pt3 = body.indexOf("\nMSG:", pt1);
-        if (pt3 >= 0) {
-          pt1 = pt3;
-          pt2 = pt1 + 5;
-          StringBuilder sb = new StringBuilder();
-          boolean skipBreak = false;
-          for (String line : body.substring(pt2).split("\n")) {
-            if (line.startsWith("(Con")) {
-              skipBreak = true;
-            } else {
-              if (! skipBreak && sb.length() > 0) sb.append('\n');
-              sb.append(line);
-              skipBreak = false;
-            }
-          }
-          int len = sb.length()-5;
-          if (len >= 0 && sb.substring(len).equals("(End)")) sb.setLength(len);
-          parseMessageBody = sb.toString();
-          return;
-        }
-      }
-    }
-    
-    /* Decode patterns that look like this 
-    CommCenter@ccems.com <Body%3ACommCenter@ccems.com> [] TAP OUT (SAL)
-     */
-    int ipt = body.indexOf(" [] ");
-    if (ipt >= 0) {
-      parseAddress = body.substring(0, ipt).trim();
-      if (parseAddress.contains("@")) {
-        parseSubject = "";
-        parseMessageBody = body.substring(ipt+4).trim();
-        return;
-      }
-    }
-    
-    // Otherwise treat this as a normal message
+    // default address and subject to obvious values
     parseAddress = fromAddress;
     parseSubject = "";
-    parseMessageBody = body;
+    
+    // Dummy loop we can break out of
+    do {
+      
+      /* Decode patterns that look like this.....
+      1 of 3
+      FRM:CAD@livingstoncounty.livco
+      SUBJ:DO NOT REPLY
+      MSG:CAD:FYI: ;CITAF;5579 E GRAND RIVER;WILDWOOD DR;Event spawned from CITIZEN ASSIST LAW. [12/10/10
+      (Con't) 2 of 3
+      20:08:59 SPHILLIPS] CALLER LIVES NEXT DOOR TO THE ADDRESS OF THE WATER MAINBREAK [12/10/10 20:04:40 HROSSNER] CALLER ADV OF A WATER MAIN
+      (Con 3 of 3
+      BREAK(End)
+      
+      Or This
+      
+      FRM:e@fireblitz.com <Body%3AFRM%3Ae@fireblitz.com>
+      MSG:48: TOWNHOUSE FIRE
+      E818 BO802
+      9903 BREEZY KNOLL CT [DEAD END & GREEN HAVEN RD]
+      12/23 23:32
+      http://fireblitz.com/18/8.shtm
+      */
+      int pt1 = -1;
+      int pt2 = -1;
+      if (body.startsWith("FRM:")) {
+        pt1 = 0;
+        pt2 = 4;
+      } else {
+        pt1 = body.indexOf("\nFRM:");
+        pt2 = pt1 + 5;
+      }
+      if (pt1 >= 0) {
+        int pt3 = body.indexOf('\n', pt2);
+        if (pt3 >= 0) {
+          parseAddress = body.substring(pt2, pt3).trim();
+          pt1 = pt3;
+          pt3 = body.indexOf("\nSUBJ:", pt1);
+          parseSubject = "";
+          if (pt3 >= 0) {
+            pt1 = pt3;
+            pt2 = pt3 + 6;
+            pt3 = body.indexOf('\n', pt2);
+            if (pt3 >= 0) {
+              parseSubject = body.substring(pt2, pt3);
+              pt1 = pt3;
+            }
+          }
+          pt3 = body.indexOf("\nMSG:", pt1);
+          if (pt3 >= 0) {
+            pt1 = pt3;
+            pt2 = pt1 + 5;
+            StringBuilder sb = new StringBuilder();
+            boolean skipBreak = false;
+            for (String line : body.substring(pt2).split("\n")) {
+              if (line.startsWith("(Con")) {
+                skipBreak = true;
+              } else {
+                if (! skipBreak && sb.length() > 0) sb.append('\n');
+                sb.append(line);
+                skipBreak = false;
+              }
+            }
+            int len = sb.length()-5;
+            if (len >= 0 && sb.substring(len).equals("(End)")) sb.setLength(len);
+            body = sb.toString();
+            break;
+          }
+        }
+      }
+      
+      /* Decode patterns that look like this 
+      CommCenter@ccems.com <Body%3ACommCenter@ccems.com> [] TAP OUT (SAL)
+       */
+      int ipt = body.indexOf(" [] ");
+      if (ipt >= 0) {
+        parseAddress = body.substring(0, ipt).trim();
+        if (parseAddress.contains("@")) {
+          parseSubject = "";
+          body = body.substring(ipt+4).trim();
+          break;
+        }
+      }
+      
+      /* Decode patterns that look like this
+      Subject:HCCAD\nEOC:F03 WIRES >WIRES/POLE SHAWNEE DR&WALTERS MILL RD XS: WALTERS MILL RD FOREST HILL NOT ENTERED Cad: 2010-000019169
+      */
+      if (body.startsWith("Subject:")) {
+        ipt = body.indexOf('\n');
+        if (ipt >= 0) {
+          parseSubject = body.substring(8,ipt).trim();
+          body = body.substring(ipt+1).trim();
+          break;
+        }
+      }
+
+    } while (false);
+    
+    // Finally, leading values in square or round brackets are turned into
+    // message subjects.  There may be more than one of these, in which case
+    // only the last is retained
+    int pt1 = 0;
+    while (pt1 < body.length()) {
+      while (pt1 < body.length() && body.charAt(pt1) == ' ') pt1++;
+      if (pt1 >= body.length()) break;
+      
+      char d1 = body.charAt(pt1);
+      if (d1 != '(' && d1 != '[') break;
+      
+      char d2 = (d1 == '(' ? ')' : ']');
+      int level = 0;
+      int pt2;
+      for (pt2 = pt1; pt2 < body.length(); pt2++) {
+        char c = body.charAt(pt2);
+        if (c == d1) level++;
+        if (c == d2) level--;
+        if (level == 0) {
+          parseSubject = body.substring(pt1+1, pt2).trim();
+          pt1 = pt2+1;
+          break;
+        }
+      }
+      if (pt2 >= body.length()) break;
+    }
+    
+    parseMessageBody = body.substring(pt1);
   }
   
 

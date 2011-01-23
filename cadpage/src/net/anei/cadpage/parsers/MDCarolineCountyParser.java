@@ -22,14 +22,11 @@ public class MDCarolineCountyParser extends SmsMsgParser {
   }
 
   @Override
-  protected boolean parseMsg(String body, Data data) {
+  protected boolean parseMsg(String subject, String body, Data data) {
     
-    int ipt = body.indexOf("(Chief ALT)");
-    if (ipt < 0) return false;
-    body = body.substring(ipt+10).trim();
-    
+
+    data.strSource = subject;
     Parser p = new Parser(body);
-    p.get("]");
     data.strCall = p.getOptional(" -- ");
     if (data.strCall.length() == 0) return false;
     

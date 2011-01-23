@@ -44,13 +44,11 @@ public class MDHarfordParser extends DispatchBParser {
   @Override
   protected boolean parseMsg(String body, Data data) {
     
-    if (!body.contains("[!] EOC:")) return false;
     
     // First token following EOC: is the unit
-    int pt = body.indexOf("EOC:");
-    if (pt < 0) return false;
-    body = body.substring(pt+4).trim();
-    pt = body.indexOf(' ');
+    if (! body.startsWith("EOC:")) return false;
+    body = body.substring(4).trim();
+    int pt = body.indexOf(' ');
     if (pt < 0) return false;
     data.strUnit = body.substring(0, pt);
     body = body.substring(pt+1).trim();

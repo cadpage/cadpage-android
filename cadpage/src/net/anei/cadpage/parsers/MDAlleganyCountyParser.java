@@ -44,18 +44,12 @@ public class MDAlleganyCountyParser extends SmartAddressParser {
   public String getFilter() {
     return "LogiSYSCAD";
   }
-  
-  @Override
-  protected boolean parseSubject(String subject, Data data) {
-    if (! subject.startsWith("CAD Page for CFS ")) return false;
-    data.strCallId = subject.substring(17).trim();
-    return true;
-  }
-  
-  
 
   @Override
-  protected boolean parseMsg(String body, Data data) {
+  protected boolean parseMsg(String subject, String body, Data data) {
+    
+    if (! subject.startsWith("CAD Page for CFS ")) return false;
+    data.strCallId = subject.substring(17).trim();
     
     body = body.replaceAll("\t", "\n");
     Properties props = parseMessage("MSG:" + body, "\n");

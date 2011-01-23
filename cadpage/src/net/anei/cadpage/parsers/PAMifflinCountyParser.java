@@ -34,16 +34,11 @@ public class PAMifflinCountyParser extends SmsMsgParser {
   }
 
   @Override
-  protected boolean parseMsg(String body, Data data) {
+  protected boolean parseMsg(String subject, String body, Data data) {
     
-    int ipt = body.indexOf("(CAD Page for CFS ");
-    if (ipt < 0) return false;
+    if (!subject.startsWith("CAD Page for CFS ")) return false;
+    data.strCallId = subject.substring(17).trim();
     
-    ipt += 17;
-    int ept = body.indexOf(')', ipt);
-    if (ept < 0) return false;
-    data.strCallId = body.substring(ipt, ept).trim();
-    body = body.substring(ept+1);
     Properties props = parseMessage(body, "\n", FIXED_KEYS);
     
     data.strCall = props.getProperty("CALL");

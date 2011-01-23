@@ -36,9 +36,9 @@ public class VAHenryCountyParser extends SmartAddressParser {
   }
 
   @Override
-  protected boolean parseMsg(String body, Data data) {
+  protected boolean parseMsg(String subject, String body, Data data) {
 
-    if (! body.startsWith("(CAD Call)")) return false;
+    if (! subject.equals("CAD Call")) return false;
 
     // Split body by newline terminators
     String[] lines = body.split(" *\n *");

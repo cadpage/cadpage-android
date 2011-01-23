@@ -100,13 +100,17 @@ public class NYSuffolkCountyCParser extends SmsMsgParser {
   }
 
   @Override
-  protected boolean parseMsg(String body, Data data) {
+  protected boolean parseMsg(String subject, String body, Data data) {
     
     // Look for the trailing time signature
     // If we find it, strip it off.
     Matcher match = TIME_MARK.matcher(body);
     if (!match.find()) return false;
     body = body.substring(0,match.start()).trim();
+    
+    // Call is sometimes in square brackets, which got treated as a subject
+    // in which case it needs to be restored
+    if (subject.length() > 0) body = subject + " " + body;
     
     // Also must have at " at " keyword which we will change to "LOC:"
     // If there happen to be more than one, only change the last one

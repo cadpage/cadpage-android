@@ -49,9 +49,9 @@ public class NYHerkimerCountyParser extends DispatchBParser {
   }
   
   @Override
-  protected boolean parseMsg(String body, Data data) {
+  protected boolean parseMsg(String subject, String body, Data data) {
     if (!super.isPageMsg(body) && !body.contains("Grids:,, NY")) return false; 
-    body = body.replaceAll("\n", " ").replaceAll(" Grids:,, NY ", " ");
+    body = "(" + subject + ") " + body.replaceAll("\n", " ").replaceAll(" Grids:,, NY ", " ");
     return super.parseMsg(body, data);
   }
   

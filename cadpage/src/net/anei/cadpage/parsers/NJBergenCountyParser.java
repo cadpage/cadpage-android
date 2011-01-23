@@ -26,26 +26,27 @@ public class NJBergenCountyParser extends SmsMsgParser {
   }
 
   @Override
-  protected boolean parseMsg(String body, Data data) {
+  protected boolean parseMsg(String subject, String body, Data data) {
     
-    int pt = body.indexOf("(CAD) ");
-    if (pt < 0) return false;
-    body = body.substring(pt+6);
+    if (!subject.equals("CAD")) return false;
     
     Parser p = new Parser(body);
-    data.strUnit = p.get(' ');
-    String type = p.get(':');
+    String type = p.get(' ');
+    if (!type.equals("CANCEL:") && !type.equals("RESPOND:")) {
+      data.strUnit = type;
+      type = p.get(' ');
+    }
     p.get('#');
     data.strCallId = p.get(' ');
     data.strCity = p.get('*');
     
-    if (type.equals("CANCEL")) {
+    if (type.equals("CANCEL:")) {
       data.strCall = "CANCEL";
       parseAddress(p.get("Paged:"), data);
       return data.strAddress.length() > 0;
     }
     
-    if (! type.equals("RESPOND")) return false;
+    if (! type.equals("RESPOND:")) return false;
     parseAddress(p.get('*'), data);
     if (data.strAddress.length() == 0) return false;
     

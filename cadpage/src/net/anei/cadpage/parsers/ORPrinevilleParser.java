@@ -23,9 +23,9 @@ public class ORPrinevilleParser extends SmsMsgParser {
   }
 
   @Override
-  protected boolean parseMsg(String body, Data data) {
+  protected boolean parseMsg(String subject, String body, Data data) {
     
-    if (!body.startsWith("(PPD)")) return false;
+    if (! subject.equals("PPD")) return false;
     
     String[] lines = body.split("\n");
     if (lines.length <= 4) return false;

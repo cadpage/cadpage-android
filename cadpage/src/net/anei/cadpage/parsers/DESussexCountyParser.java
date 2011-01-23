@@ -63,54 +63,56 @@ public class DESussexCountyParser extends SmartAddressParser {
   }
 
   @Override
-  protected boolean parseMsg(String body, Data data) {
+  protected boolean parseMsg(String subject, String body, Data data) {
 
-    if (!body.contains("] -- ")) return false;
+    data.strSource = subject;
+    
+    if (!body.startsWith("-- ")) return false;
+    body = body.substring(3).trim();
 
     // First divide up the call
-    String strBody[] = body.split("--");
-    if (strBody.length < 3) return false;
+    String strBody[] = body.split(" *-- *");
+    if (strBody.length < 2) return false;
 
-    // Always ignore the 0 field.
-    // field 1 -s the call description
-    data.strCall = strBody[1].trim();
+    // field 0 - the call description
+    data.strCall = strBody[0].trim();
 
     // See how many fields we have
     int fldCnt = strBody.length;
 
-    // If more than 3 and the last fields starts with "INC ", ignore it
-    if (fldCnt > 3 && strBody[fldCnt-1].trim().startsWith("INC ")) fldCnt--;
+    // If more than 2 and the last fields starts with "INC ", ignore it
+    if (fldCnt > 2 && strBody[fldCnt-1].trim().startsWith("INC ")) fldCnt--;
 
     // If we are down to 3 fields, the last one is the address line and
     // nothing needs to be worried about
-    String sAddress;
-    if (fldCnt == 3) {
-      sAddress = strBody[2].trim();
+    Result result;
+    if (fldCnt == 2) {
+      result = parseAddress(strBody[1]);
     }
 
     // Otherwise we have big problems, one of lines 3 and 4 is the address
     // line and one is a place name.  But we don't know which is which.
     else {
-      String[] flds = new String[]{strBody[2].trim(), strBody[3].trim()};
-      int ndx = findBestAddress(flds);
-      sAddress = flds[ndx];
-      data.strPlace = flds[1-ndx];
+      Result res2 = parseAddress(strBody[1]);
+      Result res3 = parseAddress(strBody[2]);
+      if (res2.getStatus() >= res3.getStatus()) {
+        result = res2;
+        data.strPlace = strBody[2];
+      } else {
+        result = res3;
+        data.strPlace = strBody[1];
+      }
     }
 
-    // Sometimes the address has a leading zero for unknown reasons
-    // which needs to be removed
-    if (sAddress.length() < 2) return false;
-    if (sAddress.startsWith("0 ")) sAddress = sAddress.substring(2).trim();
-    
-    // Run the smart parser on this
-    parseAddress(StartType.START_ADDR, sAddress, data);
+    if (result.getStatus() == 0) return false;
+    result.getData(data);
       
       // Hopefully it found a city, if not we will have to parse one out
       // of what is left
       if (data.strCity.length() == 0) {
         
         // If the last token in what is left is a 5 digit zip code, strip it off
-        sAddress = getLeft();
+        String sAddress = getLeft();
         Parser p = new Parser(sAddress);
         String last = p.getLastOptional(' ');
         if (last.length() == 5 && NUMERIC.matcher(last).matches()) sAddress = p.get();
@@ -129,39 +131,11 @@ public class DESussexCountyParser extends SmartAddressParser {
 
     return true;
   }
-
-  /**
-   * Examine list of possible address fields and return the index of the
-   * most likely candidate
-   * @param flds array of possible address fields
-   * @return index of best candidate
-   */
-  private int findBestAddress(String[] flds) {
-    
-    // Phase 1, if it starts with a leading zero, it is probably an address
-    for (int ndx = 0; ndx<flds.length; ndx++) {
-      if (flds[ndx].startsWith("0 ")) return ndx;
-    }
-    
-    // Phase 2, if it ends with a 5 digit zip code, it is probably an address
-    for (int ndx = 0; ndx<flds.length; ndx++) {
-      Parser p = new Parser(flds[ndx]);
-      String last = p.getLastOptional(' ');
-      if (last.length() == 5 && NUMERIC.matcher(last).matches()) return ndx;
-    }
-    
-    // Phase 3, we have to ask the address parser for its opinion
-    int bestNdx = 0;
-    int bestScore = -1;
-    for (int ndx = 0; ndx<flds.length; ndx++) {
-      int score = checkAddress(flds[ndx], 1);
-      if (score > bestScore) {
-        bestNdx = ndx;
-        bestScore = score;
-      }
-    }
-    
-    return bestNdx;
+  
+  private Result parseAddress(String address) {
+    address = address.trim();
+    if (address.startsWith("0 ")) address = address.substring(2).trim();
+    return parseAddress(StartType.START_ADDR, address);
   }
 }
 

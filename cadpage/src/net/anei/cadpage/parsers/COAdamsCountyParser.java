@@ -22,7 +22,7 @@ Subject:IPS I/Page Notification\n26900 E COLFAX AVE ARAP ARAP,454: @FOX RIDGE FA
 
 public class COAdamsCountyParser extends SmartAddressParser {
   
-  private static final String CAD_MARKER = "Subject:IPS I/Page Notification";
+  private static final String CAD_MARKER = "Subject:IPS I/Page Notification ";
   private static final String[] KEYWORDS = 
     new String[]{"LOC", "TYPE CODE", "CALLER NAME", "TIME", "Comments"};
   
@@ -43,11 +43,13 @@ public class COAdamsCountyParser extends SmartAddressParser {
   }
 
   @Override
-  protected boolean parseMsg(String body, Data data) {
+  protected boolean parseMsg(String subject, String body, Data data) {
+    
+    if (subject.length() > 0) body = "Subject:" + subject + ' ' + body;
     
     int pt = body.indexOf(CAD_MARKER);
     if (pt < 0) return false;
-    body = "LOC:" + body.substring(pt+CAD_MARKER.length()+1);
+    body = "LOC:" + body.substring(pt+CAD_MARKER.length());
     
     Properties props = parseMessage(body, KEYWORDS);
     String sAddr = props.getProperty("LOC", "");
