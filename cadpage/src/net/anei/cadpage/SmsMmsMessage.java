@@ -238,7 +238,9 @@ public class SmsMmsMessage implements Serializable {
               if (line.startsWith("(Con")) {
                 skipBreak = true;
               } else {
-                if (! skipBreak && sb.length() > 0) sb.append('\n');
+                if (sb.length() > 0) {
+                  sb.append(skipBreak ? ' ' : '\n');
+                }
                 sb.append(line);
                 skipBreak = false;
               }
