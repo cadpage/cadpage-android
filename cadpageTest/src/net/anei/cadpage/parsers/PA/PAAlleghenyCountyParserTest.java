@@ -30,12 +30,12 @@ public class PAAlleghenyCountyParserTest extends BaseParserTest {
         "ALLEGHENY COUNTY 911 :NGASRES, F1, NATURAL GAS SMELL/LEAK RES BLDG, 40 EASTON RD, FOX, btwn CHAPEL OAK RD and OLD MILL RD, ON THE STREET, IN FRONT OF, NFD3, 157001, Medical ProQA recommends dispatch at this time, Units:102EN1, 157EN1, 172EN1 - From 405 11/11/2010 12:17:38 TXT STOP to opt-out",
         "CALL:NGASRES - NATURAL GAS SMELL/LEAK RES BLDG",
         "ADDR:40 EASTON RD",
-        "FOX CHAPEL",
+        "CITY:FOX CHAPEL",
         "X:CHAPEL OAK RD and OLD MILL RD",
         "INFO:ON THE STREET / IN FRONT OF / Medical ProQA recommends dispatch at this time",
         "SRC:NFD3",
         "ID:157001",
-        "UNIT:102EN1 157EN1, 172EN1");
+        "UNIT:102EN1 157EN1 172EN1");
     
     doTest("T3",
         "ALLEGHENY COUNTY 911 :NGASCOM, F1, NATURAL GAS SMELL/LEAK COM BLDG, FREEPORT MEDICAL ASSOC, ASP, at 241 FREEPORT RD, ASP, SUITE 7-FOX CHAPEL DERMETOLOGY, btwn CENTER AVE and EASTERN AVE, NFD3, 102001, STRONG SMELL OF NATURAL GAS IN THE BLDG, Units:102EN1, 111EN2, 157RQ1, 191TK1, 260RQ1, 265TK1 - From 405 11/10/2010 10:02:01 TXT STOP to opt-out",
@@ -63,7 +63,7 @@ public class PAAlleghenyCountyParserTest extends BaseParserTest {
         "ALLEGHENY COUNTY 911 :NGASOUT, F2, NATURAL GAS SMELL/LEAK OUTSIDE, 22 4TH ST, SHP, btwn SHORT CANAL ST and PILGRIM WAY, NFD3, 265001, STRON TXT STOP to opt-out",
         "CALL:NGASOUT - NATURAL GAS SMELL/LEAK OUTSIDE", 
         "ADDR:22 4TH ST", 
-        "CITY:SHALER", 
+        "CITY:SHARPSBURG", 
         "X:SHORT CANAL ST and PILGRIM WAY", 
         "SRC:NFD3", 
         "ID:265001", 
@@ -84,7 +84,7 @@ public class PAAlleghenyCountyParserTest extends BaseParserTest {
         "CALL:29B1 - TRAFFIC -WITH INJURIES", 
         "ADDR:THOMPSON RUN RD & SUNNY HILL DR", 
         "CITY:ROSS",
-        "INFO:<310/ 0> /  GARAGE ON FIRE", 
+        "INFO:<310/ 0> / GARAGE ON FIRE", 
         "SRC:NFD3", 
         "ID:247006 191001",
         "UNIT:102EN1 149EN1 191EN1 191TK1 240SQ1 247TK1 259EN1 260TK1 312RQ40");
