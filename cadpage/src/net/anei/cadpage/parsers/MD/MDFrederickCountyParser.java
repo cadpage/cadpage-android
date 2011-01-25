@@ -1,9 +1,9 @@
 package net.anei.cadpage.parsers.MD;
 
 import java.util.Properties;
+
 import net.anei.cadpage.SmsMsgInfo.Data;
 import net.anei.cadpage.parsers.SmartAddressParser;
-import net.anei.cadpage.parsers.SmartAddressParser.StartType;
 
 /***
 **********************************************************

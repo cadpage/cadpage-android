@@ -81,8 +81,8 @@ public class PAAlleghenyCountyParser extends SmsMsgParser {
       String fld = flds[ndx++];
       
       // Except for fields that start with btwn which become cross strees
-      if (flds[ndx].startsWith("btwn ")) {
-        data.strCross = flds[ndx].substring(5).trim();
+      if (fld.startsWith("btwn ")) {
+        data.strCross = fld.substring(5).trim();
         continue;
       }
       if (ID_PTN.matcher(fld).matches()) {

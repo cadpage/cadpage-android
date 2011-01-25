@@ -4,7 +4,6 @@ import java.util.Properties;
 
 import net.anei.cadpage.SmsMsgInfo.Data;
 import net.anei.cadpage.parsers.SmsMsgParser;
-import net.anei.cadpage.parsers.SmsMsgParser.Parser;
 
 /*
 Prince Georges County, MD

@@ -4,7 +4,6 @@ import java.util.Properties;
 
 import net.anei.cadpage.SmsMsgInfo.Data;
 import net.anei.cadpage.parsers.SmartAddressParser;
-import net.anei.cadpage.parsers.SmartAddressParser.StartType;
 
 /*    
 Alleghany County, MD

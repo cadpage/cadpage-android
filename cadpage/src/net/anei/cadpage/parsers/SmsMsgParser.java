@@ -58,11 +58,9 @@ public abstract class SmsMsgParser {
     String strSubject = msg.getSubject();
     String strMessage = msg.getMessageBody();
     Data data = new Data();
-    if (parseMsg(strSubject, strMessage, data)) {
-      data.defCity = defCity;
-      data.defState = defState;
-      return data;
-    }
+    data.defCity = defCity;
+    data.defState = defState;
+    if (parseMsg(strSubject, strMessage, data)) return data;
     
     // If this isn't a valid CAD page, see if we should treat it as a general alert
     // If not then return failure

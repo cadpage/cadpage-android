@@ -2,7 +2,6 @@ package net.anei.cadpage.parsers.MD;
 
 import net.anei.cadpage.SmsMsgInfo.Data;
 import net.anei.cadpage.parsers.SmartAddressParser;
-import net.anei.cadpage.parsers.SmartAddressParser.StartType;
 
 /******************************************************************************
 Centreville, MD Sample messages

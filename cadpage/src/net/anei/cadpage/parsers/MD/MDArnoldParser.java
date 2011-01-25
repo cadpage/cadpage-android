@@ -6,9 +6,6 @@ import java.util.regex.Pattern;
 
 import net.anei.cadpage.SmsMsgInfo.Data;
 import net.anei.cadpage.parsers.SmartAddressParser;
-import net.anei.cadpage.parsers.SmsMsgParser;
-import net.anei.cadpage.parsers.SmartAddressParser.StartType;
-import net.anei.cadpage.parsers.SmsMsgParser.Parser;
 
 /* Sample Arnold Pages.
  * 
