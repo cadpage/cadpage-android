@@ -8,7 +8,6 @@ import net.anei.cadpage.SmsMsgInfo.Data;
 import net.anei.cadpage.parsers.SmartAddressParser;
 
 /*
-**********************************************************
 Pulaski County, MO (and Laclede County)
 Contact: "Mike Garrett" <hfpd.1835@yahoo.com>
 Sender:911dispatch@embarqmail.com
@@ -17,14 +16,7 @@ There is code to unscramble these in MILivingstonCountyParser.  Move it to base
 parser class.
 Units will be 4 digits, or xFDn or Mnn.  Break at first one found
 
- 1 of 3
-FRM:911dispatch@embarqmail.com 
-SUBJ:DO NOT REPLY
-MSG:STRUCTURE FIRE RESIDENTIAL  11280 BATTLE LN  PULASKI COUNTY CrossStreets: Highway
-(Con't) 2 of 3
-17 0.42 mi W CFD1 DFD2 M23 TCFD1 DFD2 1553 1552 1562 1560 1351 1501 PCSD1 RESCUE MILLER T1 WRFD1 SRFD1 1902 1361 1952 T2 1650 HFD1 Call
-(Con't) 3 of 3
-Received Time: 12/6/2010 20:46:54 Dispatch: 12/6/2010 21:50:29(End)
+ 1 of 3\nFRM:911dispatch@embarqmail.com\nSUBJ:DO NOT REPLY\nMSG:STRUCTURE FIRE RESIDENTIAL  11280 BATTLE LN  PULASKI COUNTY CrossStreets: Highway\n(Con't) 2 of 3\n17 0.42 mi W CFD1 DFD2 M23 TCFD1 DFD2 1553 1552 1562 1560 1351 1501 PCSD1 RESCUE MILLER T1 WRFD1 SRFD1 1902 1361 1952 T2 1650 HFD1 Call\n(Con't) 3 of 3\nReceived Time: 12/6/2010 20:46:54 Dispatch: 12/6/2010 21:50:29(End)
 
 STRUCTURE FIRE RESIDENTIAL  11280 BATTLE LN  PULASKI COUNTY CrossStreets: Highway 17 0.42 mi W CFD1 DFD2 M23 TCFD1 DFD2 1553 1552 1562 1560 1351 1501 PCSD1 RESCUE MILLER T1 WRFD1 SRFD1 1902 1361 1952 T2 1650 HFD1 Call Received Time: 12/6/2010 20:46:54 Dispatch: 12/6/2010 21:50:29
 STRUCTURE FIRE RESIDENTIAL  27465 SINGLE DR UNIT PULASKI COUNTY CrossStreets: Highway AA 0.30 mi N HFD1 Call Received Time: 12/13/2010 5:05:49 Dispatch: 12/13/2010 5:07:30
