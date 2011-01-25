@@ -1352,9 +1352,6 @@ know. I will contact our paging provider to make these adjustments. We use
 Logisys CAD which sends a message to MIS Scienes. MIS Sciences are the 
 people who send out our paging for us.
 **********************************************************
-Cyfair FD (Harris County, TX)
-Contact: "Steven Lindsay" <steven@snl-ent.com>
-**********************************************************
 Peoria County, IL
 Contact: trey <treyamccoy@gmail.com>
 Sender: *firepage@ci.peoria.il.us*<firepage@ci.peoria.il.us>
@@ -1495,10 +1492,48 @@ Location: 1 STOKES COUNTY: @STOKES COUNTY: 2312 HWY 65 E Nature: Unconscious/Unr
 Location: 6206 REIDSVILLE RD FC: @CREEKSIDE MANOR Nature: Chest Pain/Heart Problems P:1  - WITH_SYMPTOMS DISTRICT: R31 X Str: GOODWILL CHURCH RD/PINEY GR
 Location: 9350 FREEMAN RD FC Nature: Headache P:1  - VISION_PROBLEMS DISTRICT: R31 X Str: PINEY GROVE RD/GOODWILL CHURCH RD CALLER NAME: MARTIN, NAOMI
 Location: 6000BLK REIDSVILLE RD FC Nature: PUBLIC SERVICE CALL P:3  - default DISTRICT: F31 X Str: BRINKLEY RD/GOODWILL CHURCH RD CALLER NAME:
-Nature: PUBLIC SERVICE CALL P:3  - default DISTRICT: F31 X Str: FOXFIRE RD/WHISPERING PINES DR CALLER NAME: PATSY LEE
 Location: 1105 WHISPERING PINES DR FC Nature: Power Lines Arcing on Pole P:2  - default DISTRICT: F31 X Str: WARDS POND CT/QUAIL HOLLOW RD CALLER NAME:
 Location: 5825 POPPY SEED DR FC Nature: Brush Fire P:1  - default DISTRICT: F31 X Str: BRINKLEY PARK DR/JILAIN ST CALLER NAME: CARANNA, KENWYN
 **********************************************************
+Guilford County, NC
+Contact: Shane Taylor <dstaylor9@gmail.com>
+Sender: @edsipatches.com 
+System: OSSI CAD?
+
+The first section [summerfieldfiredist Jan24-10:01] is added by edispatches
+so isn't important
+
+The second section CAD:SMFD;ST09 is from the CAD system and gives the
+district and station but it is only the indicator of the fire district the
+call is in not what station or units will be responding. So it shouldn't be
+used for a filter but is useful information.
+
+The third section 52C03C or 50PI of 69D06 or 29B01 etc are the type of call
+(Most come from the priority One standard codes but not always)
+
+Fourth section is generally an abbreviation of the plain text type of call.
+
+Fifth is the Address (Probably the only real important part of the
+information they give us)
+
+[summerfieldfiredist Jan24-10:01]  CAD:SMFD;ST09;1;52C03C;FIRAL;7607 BLUE SAGE CT
+[summerfieldfiredist Jan19-18:15]  CAD:SMFD;ST29;1;50PI;SCALESVILLE RD/LAKE BRANDT RD
+[summerfieldfiredist Jan18-19:08]  CAD:1;MUTUAL;150 WAYNOR DR;GALLENT RD;STRUCTURE FIRE
+
+This one is an example of a mutual aid call outside of Guilford County
+(summerfieldfiredist Jan18-17:00) CAD:SMFD;ST29;1;25D01;PSYCH;8579 HUDSON JAMES RD;WRIGHTS FARM LN
+
+[summerfieldfiredist Jan18-03:16]  CAD:SMFD;ST39;1;29B01;50PI;PLAINFIELD RD/LAKE BRANDT RD;BETWEEN LAKE BRANDT AND CHURCH ST
+(summerfieldfiredist Jan21-03:25) CAD:SMFD;ST09;1;67B01;OSFIR;2523 PLEASANT RIDGE RD;SADDLEWOOD DR;DIST: 35.58 FT
+(summerfieldfiredist Jan23-06:49) CAD:SMFD;ST39;1;17B03;FALL;6251 LAKE BRANDT RD;HI-LO LN
+[summerfieldfiredist Jan23-19:20]  CAD:OKRD;ST51;1;69D11;STRUC;4529 PEEPLES RD;RIDING TRAIL CT
+[summerfieldfiredist Jan23-19:18]  CAD:OKRD;ST51;1;STRUC;4529 PEEPLES RD;RIDING TRAIL CT
+[summerfieldfiredist Jan23-20:23]  CAD:OKRD;ST51;1;69D06;STRUC;5371 NORTHWEST SCHOOL RD;TRAIL PIEDMONT GREENWAY
+
+(summerfieldfiredist Jan24-10:31) CAD:UNDER CONTROL;7607 BLUE SAGE CT; SU
+(summerfieldfiredist Jan23-11:25) CAD:UNDER CONTROL;6308 PEPPERMILL DR; OAK
+(summerfieldfiredist Jan23-19:48) CAD:UNDER CONTROL;4529 PEEPLES RD; OAK
+
 **********************************************************
 **********************************************************
 **********************************************************
