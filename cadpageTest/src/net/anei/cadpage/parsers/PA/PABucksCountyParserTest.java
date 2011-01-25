@@ -83,7 +83,7 @@ public class PABucksCountyParserTest extends BaseParserTest {
     doTest("T7",
         "911:SQ134  type:BINJ    adr:BARC HOUSE ,47 at 80 PUEBLO RD ,47 btwn LENAPE DR &amp; UTE RD  aai:DOWNSTAIRS  box:34033  map:3033J2  tm:16:57:04  ED1043086",  
         "SRC:SQ134",
-        "CALL:BINJ - INJURY",
+        "CALL:BINJ - MINOR INJURY - NON CRITICAL",
         "PLACE:BARC HOUSE",
         "ADDR:80 PUEBLO RD",
         "CITY:NEW BRITAIN",
