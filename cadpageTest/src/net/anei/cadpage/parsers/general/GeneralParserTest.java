@@ -29,6 +29,17 @@ public class GeneralParserTest extends BaseParserTest {
   
   @Test
   public void testParser() {
+    
+    doTest("T19",
+        "Loc: 118 S 4TH ST YNGWD_B X-sts: CHESTNUT ST & LOCUST ST  Inc#:F11000861 NATURE: FIRE  CALLER: ANTHONY GALADIAY TOC: 19:08:40 Comments: FLAMES COMING OUT OF THE WALL  Disp: E26-1",
+        "ADDR:118 S 4TH ST",
+        "INFO:YNGWD_B / FLAMES COMING OUT OF THE WALL",
+        "X:CHESTNUT ST & LOCUST ST",
+        "ID:F11000861",
+        "CALL:FIRE",
+        "NAME:ANTHONY GALADIAY",
+        "SRC:E26-1");
+
     doTest("T1",
         "2010-189098*1211 PECAN ST***CONOVER**OVERDOSE*********",
         "ID:2010-189098",
@@ -176,6 +187,16 @@ public class GeneralParserTest extends BaseParserTest {
         "ADDR:565 ARLIE LN",
         "CALL:LILLINGTON",
         "INFO:GRASS/FIELD FIRE * 1144");
+    
+    doTest("T19",
+        "Loc: 118 S 4TH ST YNGWD_B X-sts: CHESTNUT ST & LOCUST ST  Inc#:F11000861 NATURE: FIRE  CALLER: ANTHONY GALADIAY TOC: 19:08:40 Comments: FLAMES COMING OUT OF THE WALL  Disp: E26-1",
+        "ADDR:118 S 4TH ST",
+        "INFO:YNGWD_B / FLAMES COMING OUT OF THE WALL",
+        "X:CHESTNUT ST & LOCUST ST",
+        "ID:F11000861",
+        "CALL:FIRE",
+        "NAME:ANTHONY GALADIAY",
+        "SRC:E26-1");
 
   }
 }
