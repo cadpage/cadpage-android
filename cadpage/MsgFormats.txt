@@ -1453,6 +1453,8 @@ Larimer County, CO (also Weld and Boulder Counties)
 Contact: Shane Doyon <shanedoyon@gmail.com>
 Sender: BFPD@notifyall.com
 System: Tritech?
+Weld County is a cross street.
+Default to Larimer county, but provide way to override empty set (None or NA)
 (BFPD) (CFS) Power Lines Down/Arcing        // E County Road 4 & Weld County // Apt/Lot            // Radio:MAC 5 NE                       //
 (BFPD) (CFS) MVA Unk Injury                 // 248790 Interstate 25 Sb // Apt/Lot            // Radio:TALK GP3                       // MM 249 SB I25
 (BFPD) (CFS) Grass / Wildland Fire          // 5307 Foothills Dr  // Apt/Lot            // Radio:TALK GP3                       //

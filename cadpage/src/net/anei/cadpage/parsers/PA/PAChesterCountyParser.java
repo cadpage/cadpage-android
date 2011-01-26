@@ -8,8 +8,7 @@ import net.anei.cadpage.parsers.SmsMsgParser;
 /* 
  * Chester Country, PA (Class I)
 Contact: "buckhunter1113@aol.com" <buckhunter1113@aol.com>
-Sender: station24@comcast.net
-(Convert \n to blanks, then use the keyword parser
+Sender: gallison39@comcast.net
 
  Initial Type: ACCINJA    Final Type:ACCINJA (ACCIDENT - INJURIES / ALS *) 
  Loc: W BALTIMORE PK/SCARLETT RD ,60    (V) AKA:
@@ -50,7 +49,7 @@ public class PAChesterCountyParser extends SmsMsgParser {
   
   @Override
   public String getFilter() {
-    return "station24@comcast.net";
+    return "gallison39@comcast.net";
   }
 
 
