@@ -185,6 +185,7 @@
   <!-- Array of state names -->
   <string-array name="pref_state_names">
     <item>Ge General location</item>
+    <item>CA California</item>
     <item>CO Colorado</item>
     <item>DE Deleware</item>
     <item>GA Georgia</item>
@@ -211,6 +212,7 @@
   <string-array name="pref_location_values">
     <item>General</item>
     <item>GeneralSlash</item>
+    <item>CAShastaCounty</item>
     <item>COAdamsCounty</item>
     <item>COGreeley</item>
     <item>CONorthglennEMS</item>
@@ -297,6 +299,7 @@
   <string-array name="pref_location_options">
     <item>Generic Location</item>
     <item>Generic (slash delim)</item>
+    <item>Shasta County, CA</item>
     <item>Adams County, CO</item>
     <item>Greeley, CO</item>
     <item>Northglenn EMS, CO</item>
