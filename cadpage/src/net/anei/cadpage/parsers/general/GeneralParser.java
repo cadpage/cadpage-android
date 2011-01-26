@@ -13,10 +13,10 @@ public class GeneralParser extends SmartAddressParser {
   
   private static final Pattern DELIM_PATTERN = Pattern.compile(";|,|\\*|\\n|\\||\\b[A-Z][A-Za-z0-9-#]*:|\\bC/S:|\\b[A-Z][A-Za-z]*#");
   private static final Pattern CALL_ID_PATTERN = Pattern.compile("\\d[\\d-]+\\d");
-  private static final Pattern UNIT_PATTERN = Pattern.compile("([A-Z]+[0-9]+\\s+)+");
+  private static final Pattern UNIT_PATTERN = Pattern.compile("([A-Z]{1,4}[0-9]{1,4}\\s+)+");
   
   // Field types that we can identify 
-  private enum FieldType {SKIP, CALL, PLACE, ADDRESS, CITY, APT, CROSS, BOX, UNIT, MAP, ID, PHONE, SUPP, CODE, SRC};
+  private enum FieldType {SKIP, CALL, PLACE, ADDRESS, CITY, APT, CROSS, BOX, UNIT, MAP, ID, PHONE, SUPP, CODE, SRC, NAME};
   
   // Map of keywords to field types
   private Map<String, FieldType> keywordMap = new HashMap<String, FieldType>();
@@ -25,7 +25,7 @@ public class GeneralParser extends SmartAddressParser {
     super("","");
     
     // Initialize keyword map
-    loadMap(FieldType.SKIP, "TIME", "TOA", "DATE", "TM");
+    loadMap(FieldType.SKIP, "TIME", "TOA", "DATE", "TM", "TOC");
     loadMap(FieldType.CALL, "CALL", "TYPE", "TYP", "CT", "NAT", "NATURE", "INC");
     loadMap(FieldType.PLACE, "NAME", "COMMON", "CN", "O");
     loadMap(FieldType.ADDRESS, "ADDRESS", "LOC", "ADDR", "AD", "ADR", "ADD", "LOCATION");
@@ -35,10 +35,11 @@ public class GeneralParser extends SmartAddressParser {
     loadMap(FieldType.BOX, "BOX", "BX", "ADC");
     loadMap(FieldType.UNIT, "UNIT", "UNITS", "RESPONSE", "DUE", "UNTS", "UNT");
     loadMap(FieldType.MAP, "MAP", "GRID", "GRIDS", "QUADRANT", "QUAD");
-    loadMap(FieldType.ID, "ID", "CFS", "RUN", "EVT#");
+    loadMap(FieldType.ID, "ID", "CFS", "RUN", "EVT#", "INC#");
     loadMap(FieldType.PHONE, "PHONE", "PH");
     loadMap(FieldType.SUPP, "INFO", "CMT", "CMT1", "CMT2", "SCRIPT", "COMMENTS", "RMK");
     loadMap(FieldType.SRC, "STA", "ST", "DISP", "DIS", "DIST", "DISTRICT", "AGENCY");
+    loadMap(FieldType.NAME, "CALLER");
   }
   
   private void loadMap(FieldType type, String ... keywords) {
@@ -197,6 +198,10 @@ public class GeneralParser extends SmartAddressParser {
           
         case SRC:
           data.strSource = fld;
+          break;
+          
+        case NAME:
+          data.strName = fld;
           break;
           
         }
