@@ -277,6 +277,19 @@ public class SmsMmsMessage implements Serializable {
           break;
         }
       }
+      
+      /* Decode patterns that look like this
+        Dispatch@ci.waynesboro.va.us <Body%3ADispatch@ci.waynesboro.va.us> Msg: Dispatch:2ND CALL 1001 HOPEMAN PKWY, ZAP12 INJURIES FROM PREVIOUS MVA
+      */
+      ipt = body.indexOf(" Msg:");
+      if (ipt >= 0) {
+        String addr = body.substring(0,ipt).trim();
+        if (addr.contains("@") && ! addr.contains(":")) {
+          parseAddress = addr;
+          body = body.substring(ipt+5).trim();
+          break;
+        }
+      }
 
     } while (false);
     

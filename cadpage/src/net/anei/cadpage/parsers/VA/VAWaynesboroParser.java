@@ -30,7 +30,7 @@ public class VAWaynesboroParser extends SmartAddressParser {
   private static final String DEF_STATE = "VA";
   private static final String DEF_CITY = "WAYNESBORO";
   
-  private static final Pattern MARKER = Pattern.compile("\\bDispatch2?:");
+  private static final Pattern MARKER = Pattern.compile("^Dispatch2?:");
   
   public VAWaynesboroParser() {
     super(DEF_CITY, DEF_STATE);
