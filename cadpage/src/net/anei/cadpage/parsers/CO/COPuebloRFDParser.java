@@ -1,6 +1,5 @@
 package net.anei.cadpage.parsers.CO;
 
-import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -22,9 +21,8 @@ System: Spillman mobile
 
 public class COPuebloRFDParser extends SmartAddressParser {
   
-  private static final String CAD_MARKER = "Page";
-  
-  private static final Pattern TIME_MARK = Pattern.compile(".*\\d\\d:\\d\\d[A-Z][A-Z] \\d\\d/\\d\\d");
+  private static final Pattern TIME_MARK = Pattern.compile("^\\d\\d:\\d\\d[A-Z][A-Z] \\d\\d/\\d\\d ");
+  private static final Pattern DELIM = Pattern.compile(" *\\.{2,} *");
     
   public COPuebloRFDParser() {
     super("PUEBLO COUNTY", "CO");
@@ -37,29 +35,26 @@ public class COPuebloRFDParser extends SmartAddressParser {
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
+
+    if (!subject.equals("Page")) return false;
+    Matcher match = TIME_MARK.matcher(body);
+    if (! match.find()) return false;
+    body = body.substring(match.end()).trim().replaceAll(";", "");
     
-    if (subject.length() > 0) body = "Subject:" + subject + ' ' + body;
+    String[] flds = DELIM.split(body);
+    int fldCnt = flds.length;
+    if (flds[fldCnt-1].length() <= 3) fldCnt--;
+    if (fldCnt == 0) return false;
     
-    int pt = body.indexOf(CAD_MARKER);
-    int ipt = 0;
-    if (pt < 0) return false;
-    body =  body.substring(pt+CAD_MARKER.length());
-    String sAddr = body.trim();
-    if (body.contains("...")) {
-      ipt = body.indexOf("...");
-      body = body.replace("...", "#");
-      sAddr = body.substring(0,ipt);
-    } 
-    Matcher match = TIME_MARK.matcher(sAddr);
-    if (match.find()) {
-      sAddr = sAddr.substring(match.end());
+    
+    parseAddress(StartType.START_CALL, flds[0], data);
+    data.strSupp = getLeft();
+    
+    for (int jj = 1; jj<fldCnt; jj++) {
+      if (data.strSupp.length() > 0) data.strSupp += " / ";
+      data.strSupp += flds[jj];
     }
 
-   // if (sAddr.contains("&")) sAddr=  sAddr.replace("&","/");
-    parseAddress(StartType.START_CALL, sAddr, data);
-    data.strCall = data.strCall.trim();
-    data.strSupp = getLeft().trim();
-    if (data.strSupp.length() <1 ) data.strSupp = body.substring(ipt);
     return true;
   }
 }

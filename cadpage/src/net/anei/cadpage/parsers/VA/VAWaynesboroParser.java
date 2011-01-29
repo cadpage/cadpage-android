@@ -55,6 +55,7 @@ public class VAWaynesboroParser extends SmartAddressParser {
     
     // This is about as good as we are going to get
     parseAddress(StartType.START_CALL, body, data);
+    if (getStatus() == 0) return false;
     data.strSupp = getLeft();
     
     if (data.strCall.endsWith(" -")) {

@@ -544,6 +544,19 @@ CAD:50PD-MOTOR VEH/PD ONLY;3248 FRIENDSHIP LEDFORD RD;2010024643;SADDLECHASE LN;
 CAD:P29-TRAFFIC ACCIDENT-BRAVO;I 85 S/MM 99;2010024707;[Medical Priority Info] PROBLEM: traffic accident # PATS: 1 AGE: Unknown Range SEX: Unknown CONSCIOU
 CAD:HOUSE/SINGLE DWELLING;3637 BECKS CHURCH RD;2010024363;HUCKLE PL;NC HWY 47;[Fire Priority Info] PROBLEM: KITCHEN FIRE [12/14/10 18:25:04 BPOOLE] [Fire P
 ***************************************************************************
+Pueblo RFD, CO
+Contact: Steven Passig <giz5312@gmail.com>
+Sender: surepage@wdsl.us
+System: Spillman mobile
+(Page ) 12:43PM 11/28 RURAL FIRE in the area of 1543 Cooper Pl report of heavy smoke no flames showing...kr
+(Page ) 04:26PM 12/13 rural fire:  hwy 50 & 27th ln; north side, 10 ft fire...tdb
+(Page ) 04:52PM 11/27 ATTN RURAL FIRE: 28141 south rd....male poss overdose...jaa
+(Page ) 09:18AM 12/11 rural fire  33550 hwy 96 E Lot 379 35 yof convulsions
+(Page ) 11:45PM 11/15 ATTN RURAL FIRE: 1917 n santa fe ave...at the car wash....39yof...seizure...jaa
+***************************************************************************
+***************************************************************************
+***************************************************************************
+***************************************************************************
 ***************************************************************************
 ***************************************************************************
 Districts that are not yet supported.
@@ -656,15 +669,6 @@ No samples
 **********************************************************
 **********************************************************
 **********************************************************
-Pueblo RFD, CO
-Contact: Steven Passig <giz5312@gmail.com>
-Sender: surepage@wdsl.us
-System: Spillman mobile
-(Page ) 12:43PM 11/28 RURAL FIRE in the area of 1543 Cooper Pl report of heavy smoke no flames showing...kr
-(Page ) 04:26PM 12/13 rural fire:  hwy 50 & 27th ln; north side, 10 ft fire...tdb
-(Page ) 04:52PM 11/27 ATTN RURAL FIRE: 28141 south rd....male poss overdose...jaa
-(Page ) 09:18AM 12/11 rural fire  33550 hwy 96 E Lot 379 35 yof convulsions
-(Page ) 11:45PM 11/15 ATTN RURAL FIRE: 1917 n santa fe ave...at the car wash....39yof...seizure...jaa
 **********************************************************
 Amrstrong County, PA
 Contact: larry umbaugh <lumbaugh17@gmail.com>
@@ -1615,6 +1619,14 @@ Sender: Receiver address
 110127 042557110270043/01-27-11/04:25:49/ABDOMINAL PROBLEMS/3201 TROWBRIDGE RD/ALBANY/DEVON DR/BEATTIE RD/E01/MED5/
 (01/02)110126 064823110260088/01-26-11/06:47:46/DIABETIC/2823 GILLIONVILLE RD/ALBANY/EVERGREEN ASSISTED LIVING/N WESTOVER BLV/NATIONAL CT/E01/98 YOF C/B  SUGAR (02/02) IS  58/MED5/
 **********************************************************
+Cumberland County, NC
+Contact: Travis Walker <tjwalker2212@gmail.com>
+Sender: cad@co.cumberland.nc.us
+[S] DEERFIELD (N)C4;01/28/2011 13:19:07;POSS DANGEROUS BODY AREA FALL;ST22;441 WAPITI DR;WILDERNESS DR
+[S] SPRING LAKE (PLAT BOOK 11, PAGE 3)+/- (N)C4;01/27/2011 22:09:28;CLAMMY BREATHING PROBLEMS;ST22;115-401 LAKE AVE;S FIRST ST;GATEWAY IN
+[S]  (N)C4;01/27/2011 17:08:27;UNKNOWN STATUS TRAFFIC ACCIDEN;ST22;670 LILLINGTON HWY;HOLLAND DR;WALMART
+[S] OVERHILLS PARK (N)C4;01/27/2011 15:20:35;ABNORMAL BREATHING SICK PERSON;ST22;3110 HUNTLEY ST;ROBBIE CIR
+[S] R G CREECH (N)C4;01/27/2011 13:23:42;WIRES DOWN (NO SMOKE OR ARC);ST22;200 RUPE ST;SCARBOROUGH ST
 **********************************************************
 **********************************************************
 **********************************************************
