@@ -20,10 +20,6 @@ public class VAWaynesboroParserTest extends BaseParserTest {
         "CALL:SEIZURES",
         "ADDR:14 FRONTIER RIDGE CT",
         "INFO:AP1302 SARS 1");
-    
-    doTest("T2",
-        "Dispatch2:MVC, HEAD ON COLLISION MAIN-ROSSER-BROAD",
-        "CALL:MVC HEAD ON COLLISION MAIN-ROSSER-BROAD");
 
     doTest("T3",
         "Dispatch:RESPOND - 2ND CALL - CHEST PAIN - 1142 NEW HOPE RD, AP3",

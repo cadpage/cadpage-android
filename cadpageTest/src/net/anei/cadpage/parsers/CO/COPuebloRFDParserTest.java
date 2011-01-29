@@ -23,15 +23,15 @@ public class COPuebloRFDParserTest extends BaseParserTest {
     
     doTest("T2",
         "(Page ) 04:26PM 12/13 rural fire:  hwy 50 & 27th ln; north side, 10 ft fire...tdb",
-        "ADDR:hwy 50",
+        "ADDR:hwy 50 & 27th ln",
         "CALL:rural fire:",
-        "INFO:& 27th ln; north side, 10 ft fire");
+        "INFO:north side, 10 ft fire");
     
     doTest("T3", 
         "(Page ) 04:52PM 11/27 ATTN RURAL FIRE: 28141 south rd....male poss overdose...jaa",
         "ADDR:28141 south rd",
         "CALL:ATTN RURAL FIRE:",
-        "INFO:#.male poss overdose#jaa");
+        "INFO:male poss overdose");
     
     doTest("T4",
         "(Page ) 09:18AM 12/11 rural fire  33550 hwy 96 E Lot 379 35 yof convulsions",
@@ -43,7 +43,7 @@ public class COPuebloRFDParserTest extends BaseParserTest {
         "(Page ) 11:45PM 11/15 ATTN RURAL FIRE: 1917 n santa fe ave...at the car wash....39yof...seizure...jaa",
         "ADDR:1917 n santa fe ave",
         "CALL:ATTN RURAL FIRE:",
-        "INFO:#at the car wash#.39yof#seizure#jaa");
+        "INFO:at the car wash / 39yof / seizure");
     
     
   }
