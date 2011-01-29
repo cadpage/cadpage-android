@@ -115,6 +115,12 @@ public class SmsMmsMessageTest {
         "ken@cadpage.org",
         "SUBJECT TWO",
         "HELLO BABE");
+    
+    doParseTest("VAWaynesboro",
+        "Dispatch@ci.waynesboro.va.us <Body%3ADispatch@ci.waynesboro.va.us> Msg: Dispatch:2ND CALL 1001 HOPEMAN PKWY, ZAP12 INJURIES FROM PREVIOUS MVA",
+        "Dispatch@ci.waynesboro.va.us <Body%3ADispatch@ci.waynesboro.va.us>",
+        "",
+        "Dispatch:2ND CALL 1001 HOPEMAN PKWY, ZAP12 INJURIES FROM PREVIOUS MVA");
 
   }
   
