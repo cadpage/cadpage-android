@@ -41,7 +41,7 @@ public class ALMadisonCountyParser extends SmartAddressParser {
       "ALM/M",          "MEDICAL ALARM",
       "MVA/E",          "MVA W/ ENTRAPMENT",
       "F/OUTSIDE_FIRE", "OUTSIDE FIRE",
-      "F/STRUCTURE",    "STRUCTURE FILE"
+      "F/STRUCTURE",    "STRUCTURE FIRE"
   });
   
   public ALMadisonCountyParser() {
@@ -50,7 +50,7 @@ public class ALMadisonCountyParser extends SmartAddressParser {
   
   @Override
   public String getFilter() {
-    return "ipspage@adcom911.org";
+    return "cad.page@madco911.com";
   }
 
   @Override

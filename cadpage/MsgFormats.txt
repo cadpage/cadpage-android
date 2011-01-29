@@ -1622,6 +1622,8 @@ Sender: Receiver address
 Cumberland County, NC
 Contact: Travis Walker <tjwalker2212@gmail.com>
 Sender: cad@co.cumberland.nc.us
+ST22 is station ID
+First field is not a reliable town name that Google recognizes, maybe place name would be best
 [S] DEERFIELD (N)C4;01/28/2011 13:19:07;POSS DANGEROUS BODY AREA FALL;ST22;441 WAPITI DR;WILDERNESS DR
 [S] SPRING LAKE (PLAT BOOK 11, PAGE 3)+/- (N)C4;01/27/2011 22:09:28;CLAMMY BREATHING PROBLEMS;ST22;115-401 LAKE AVE;S FIRST ST;GATEWAY IN
 [S]  (N)C4;01/27/2011 17:08:27;UNKNOWN STATUS TRAFFIC ACCIDEN;ST22;670 LILLINGTON HWY;HOLLAND DR;WALMART
