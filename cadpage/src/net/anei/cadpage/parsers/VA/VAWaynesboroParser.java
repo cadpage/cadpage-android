@@ -1,5 +1,8 @@
 package net.anei.cadpage.parsers.VA;
 
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 import net.anei.cadpage.SmsMsgInfo.Data;
 import net.anei.cadpage.parsers.SmartAddressParser;
 
@@ -27,6 +30,8 @@ public class VAWaynesboroParser extends SmartAddressParser {
   private static final String DEF_STATE = "VA";
   private static final String DEF_CITY = "WAYNESBORO";
   
+  private static final Pattern MARKER = Pattern.compile("\\bDispatch2?:");
+  
   public VAWaynesboroParser() {
     super(DEF_CITY, DEF_STATE);
   }
@@ -39,9 +44,9 @@ public class VAWaynesboroParser extends SmartAddressParser {
   @Override
   protected boolean parseMsg(String body, Data data) {
     
-    // Strip everything in from of colon
-    int ipt = body.indexOf(':');
-    if (ipt >= 0) body = body.substring(ipt+1).trim();
+    Matcher match = MARKER.matcher(body);
+    if (!match.find()) return false;
+    body = body.substring(match.end()).trim();
     
     if (body.startsWith("RESPOND ")) {
       body = body.substring(7).trim();
