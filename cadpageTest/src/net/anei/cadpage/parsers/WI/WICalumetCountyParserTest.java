@@ -20,7 +20,7 @@ public class WICalumetCountyParserTest extends BaseParserTest {
         "ID:FHA110114000008",
         "CALL:RESCUE ADVANCED LIFE",
         "ADDR:N8016 PIGEON RD",
-        "CITY:CALAUMET COUNTY",
+        "CITY:CALUMET COUNTY",
         "NAME:BRUSE",
         "INFO:11 MONTH OLD INFANT WITH SOMETHING STUCK I");
 
@@ -42,7 +42,7 @@ public class WICalumetCountyParserTest extends BaseParserTest {
         "ID:FHA110116000010",
         "CALL:RESCUE ADVANCED LIFE",
         "ADDR:W5872 EASTER LILY DR",
-        "CITY:CALAUMET COUNTY",
+        "CITY:CALUMET COUNTY",
         "NAME:SWEERE, SHANNON",
         "INFO:13YOA FEMALE BAD");
     
@@ -52,7 +52,7 @@ public class WICalumetCountyParserTest extends BaseParserTest {
         "ID:FHA110123000017",
         "CALL:VEHICLE ACCIDENT",
         "ADDR:W7170 HWY 114",
-        "CITY:CALAUMET COUNTY",
+        "CITY:CALUMET COUNTY",
         "NAME:VANDEHEY, FRANCIS",
         "INFO:**POINT TO POINT TO OUSO TO DISPATCH");
     
@@ -62,7 +62,7 @@ public class WICalumetCountyParserTest extends BaseParserTest {
         "ID:FHA110123000016",
         "CALL:RESCUE ADVANCED LIFE",
         "ADDR:N9664 EMERALD LN",
-        "CITY:CALAUMET COUNTY",
+        "CITY:CALUMET COUNTY",
         "NAME:HELLINGSON KATIE",
         "INFO:60YOA FEMALE DIFFICULTY BREATH");
         

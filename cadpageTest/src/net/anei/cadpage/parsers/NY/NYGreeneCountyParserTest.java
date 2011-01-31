@@ -27,6 +27,7 @@ public class NYGreeneCountyParserTest extends BaseParserTest {
         "CALL:FIRE ALARM",
         "ADDR:558 SLEEPY HOLLOW RD",
         "CITY:ATHENS",
+        "MAP:62",
         "ID:2010-0000033344");
     
     doTest("T3",
