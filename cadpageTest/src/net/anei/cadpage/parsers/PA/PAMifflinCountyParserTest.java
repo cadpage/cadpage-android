@@ -63,5 +63,13 @@ public class PAMifflinCountyParserTest extends BaseParserTest {
         "ADDR:7 MAPLE ST",
         "CITY:KISTLER",
         "X:150-198  N RIVERSIDE DR * 142-148 PARK RD");
+    
+    doTest("T7",
+        "FRM:cmessages@co.mifflin.pa.us<Body%3AFRM%3Acmessages@co.mifflin.pa.us>\nSUBJ:CAD Page for CFS 013011-1\nMSG:Residential Fire\n56 RED SHALE LN\nApt:\nBRATTON\nCross Streets : 26-92  CARLISLE GAP RD",
+        "ID:013011-1",
+        "CALL:Residential Fire",
+        "ADDR:56 RED SHALE LN",
+        "CITY:BRATTON TWP",
+        "X:26-92  CARLISLE GAP RD");
  }
 }
