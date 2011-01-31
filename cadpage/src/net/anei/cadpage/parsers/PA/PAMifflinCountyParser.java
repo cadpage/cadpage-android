@@ -16,6 +16,9 @@ Sender: cmessages@co.mifflin.pa.us and cadmessages@co.mifflin.pa.us
 (CAD Page for CFS 111710-2) ALS - Motor Vehicle Accident\nROSEWOOD AVE and US HIGHWAY 522 NORTH\nApt: //\nDERRY\nCross Streets : 1-24  ROSEWOOD AVE
 (CAD Page for CFS 111610-52) ALS - Breathing Difficulty\n163 SUMMIT DR\nApt:\nDERRY\nCross Streets : 400-406  SIXTH ST * 1-14 CASTLE CT
 (CAD Page for CFS 111510-56) ALS - Diabetic\n7 MAPLE ST\nApt: ////\nKISTLER\nCross Streets : 150-198  N RIVERSIDE DR * 142-148 PARK RD
+
+Contact: justin trego <jtrego77@gmail.com>
+FRM:cmessages@co.mifflin.pa.us<Body%3AFRM%3Acmessages@co.mifflin.pa.us>\nSUBJ:CAD Page for CFS 013011-1\nMSG:Residential Fire\n56 RED SHALE LN\nApt:\nBRATTON\nCross Streets : 26-92  CARLISLE GAP RD
 */
 
 public class PAMifflinCountyParser extends SmsMsgParser {

@@ -17,24 +17,7 @@ HAFR       PRI: 1 INC: FHA110125000019 TYP: RESCUE ADVANCED LIFE AD: N9085 N COO
 HAFR       PRI: 1 INC: FHA110126000021 TYP: RESCUE ADVANCED LIFE AD: N9114 NOE RD CTY: CMTH CN: COLE, KATHY CMT1: HAND INJURY TIME: 19:22 GAGCA1 HAM321 X
 HAFR       PRI: 1 INC: FHA110117000011 TYP: RESCUE ADVANCED LIFE AD: CTY TK KK&NOE RD CTY: CMTH CN: TAUS,ANNETTE CMT1: 44 YR OLD FEMALE WITH CHEST PAINS
 HAFR       PRI: 1 INC: FHA110127000023 TYP: STRUCTURE FIRE AD: W2825 EMMONS CTY: BUCT CN: BUCHANAN FIRE CMT1: **POINT TO POINT TO OUSO TO DISPATCH BUCHAN
-
-Town of Brotherton.    CMBT
-City of Brillion.              CMCB
-City of Chilton.              CMCC
-City of Kiel.                    CMCK
-City of New Holstein    CMCN
-Town of Charlestown.    CMCT
-Village of Sherwood.    CMSV
-Town of Brillion.           CMTB
-Town of Chilton.            CMTC
-Town of Harrison.         CMTH
-Town of New Holstein.  CMTN
-Town of Rantoul.           CMTR
-Town of Stockbridge.    CMTS
-Town of Woodville.        CMTW
-Village of Hilbert.           CMVH
-Village of Potter.             CMVP
-Village of Stockbridge.    CMVS
+HAFR       PRI: 1 INC: FHA110130000024 TYP: RESCUE ADVANCED LIFE AD: W5095 GOLF COURSE RD CTY: CMSV LOC: HIGH CLIFF SUPPER CL CMT1: Original Location : H
  */
 
 
@@ -44,11 +27,11 @@ public class WICalumetCountyParser extends DispatchPrintrakParser {
       // Brown County
       "ASHW", "ASHWAUBENON",
       "CGB",  "GREEN BAY",
-      "TGB",  "TOWN OF GREEN BAY",
+      "TGB",  "BROWN COUNTY", // "GREEN BAY TWP",
       "DENM", "DENMARK",
       "NEWD", "NEW DENMARK",
-      "VWRI", "WRIGHTSTOWN VILLAGE",
-      "TWRI", "WRIGHTSTOWN TOWN",
+      "VWRI", "WRIGHTSTOWN",
+      "TWRI", "BROWN COUNTY", // "WRIGHTSTOWN TWP",
       "ROCK", "ROCKLAND",
       "DEPE", "DEPERE",
       "PULA", "PULASKI",
@@ -68,40 +51,77 @@ public class WICalumetCountyParser extends DispatchPrintrakParser {
       "MORR", "MORRISON",
       
       // Calumet County
-      "CMBT", "BROTHERTON",
+      "CMBT", "CALAUMET COUNTY",  // "BROTHERTON",
       "CMCB", "BRILLION",
       "CMCC", "CHILTON",
       "CMCK", "KIEL",
       "CMCN", "NEW HOLSTEIN",
-      "CMCT", "CHARLESTOWN",
-      "CMSV", "SHERWOOD",
-      "CMTH", "HARRISON",
-      "CMTN", "NEW HOLSTEIN",
-      "CMTR", "RANTOUL",
-      "CMTS", "STOCKBRIDGE",
-      "CMTW", "WOODVILLE",
+      "CMCT", "CALAUMET COUNTY",  // "CHARLESTOWN TWP",
+      "CMTB", "CALAUMET COUNTY",  // "BRILLION TWP",
+      "CMSV", "CALAUMET COUNTY",  // "SHERWOOD TWP",
+      "CMTH", "CALAUMET COUNTY",  // "HARRISON TWP",
+      "CMTN", "CALAUMET COUNTY",  // "NEW HOLSTEIN TWP",
+      "CMTR", "CALAUMET COUNTY",  // "RANTOUL TWP",
+      "CMTS", "CALAUMET COUNTY",  // "STOCKBRIDGE TWP",
+      "CMTW", "CALAUMET COUNTY",  // "WOODVILLE TWP",
       "CMVH", "HILBERT",
       "CMVP", "POTTER",
       "CMVS", "STOCKBRIDGE",
       
-      // Outagamie Countie
+      // Outagamie County
       "APPL", "APPLETON",
       "KAUC", "KAUKAUNA",
       "SEYC", "SEYMOUR",
       "NEWL", "NEW LONDON",
-      "BLCT", "BLACK CREEK",
-      "BUCT", "BUCHANAN",
-      "CENT", "CENTER",
+      "BLCT", "OUTAGAMIE COUNTY", // "BLACK CREEK TWP",
+      "BUCT", "OUTAGAMIE COUNTY", // "BUCHANAN TWP",
+      "CENT", "OUTAGAMIE COUNTY", // "CENTER TWP",
       "COLV", "COMBINED LOCKS",
-      "DALT", "DALE",
-      "DRCT", "DEER CREEK",
-      "ELLT", "ELLINGTON",
-      "FRET", "FREEDOM",
-      "GRCT", "GRAND CHUTE"
+      "DALT", "OUTAGAMIE COUNTY", // "DALE TWP",
+      "DRCT", "OUTAGAMIE COUNTY", // "DEER CREEK TWP",
+      "ELLT", "OUTAGAMIE COUNTY", // "ELLINGTON TWP",
+      "FRET", "OUTAGAMIE COUNTY", // "FREEDOM TWP",
+      "GRCT", "OUTAGAMIE COUNTY", // "GRAND CHUTE TWP",
+      "GRVT", "OUTAGAMIE COUNTY", // "GREENVILLE TWP",
+      "HORT", "OUTAGAMIE COUNTY", // "HORTONVILLE TWP",
+      "HORV", "HORTONVILLE",
+      "KAUT", "OUTAGAMIE COUNTY", // "KAUKAUNA TWP",
+      "KIMV", "KIMBERLY",
+      "LIBT", "OUTAGAMIE COUNTY", // "LIBERTY TWP",
+      "LTCV", "LITTLE CHUTE", 
+      "MPCT", "OUTAGAMIE COUNTY", // "MAPLE CREEK TWP",
+      "ONET", "ONEIDA",
+      "OSBT", "OUTAGAMIE COUNTY", // "OSBORN TWP",
+      "SEYT", "OUTAGAMIE COUNTY", // "SEYMOUR TWP",
+      "VANT", "OUTAGAMIE COUNTY", // "VANDENBROEK TWP",
+      
+      // Winnebago County
+      "WALG", "WINNEBAGO COUNTY", // "ALOGMA TWP",
+      "WBLA", "WINNEBAGO COUNTY", // "BLACK WOLF TWP",
+      "WCLA", "WINNEBAGO COUNTY", // "CLAYTON TWP",
+      "WCME", "MENASHA",
+      "WMEN", "MENASHA",
+      "WNEE", "NEENAH",
+      "WNEK", "WINNEBAGO COUNTY", // "NEKIMI TWP",
+      "WNEP", "WINNEBAGO COUNTY", // "NEPEUSKUN TWP",
+      "WOMR", "OMRO",
+      "WOSH", "OSHKOSH",
+      "WPOY", "WINNEBAGO COUNTY", // "POYGAN TWP",
+      "WRUS", "WINNEBAGO COUNTY", // "RUSHFORD TWP",
+      "WTME", "WINNEBAGO COUNTY", // "MENASHA TWP",
+      "WTNE", "WINNEBAGO COUNTY", // "NEENAH TWP",
+      "WTOM", "WINNEBAGO COUNTY", // "OMRO TWP",
+      "WTOS", "WINNEBAGO COUNTY", // "OSHKOSH TWP",
+      "WTWN", "WINNEBAGO COUNTY", // "WINNECONNE TWP",
+      "WUTI", "WINNEBAGO COUNTY", // "UTICA TWP",
+      "WVIN", "WINNEBAGO COUNTY", // "VINLAND TWP",
+      "WWCR", "WINNEBAGO COUNTY", // "WINCHESTER TWP",
+      "WWNE", "WINNEBAGO COUNTY", // "WINNECONNE TWP",
+      "WWOL", "WINNEBAGO COUNTY", // "WOLF RIVER TWP"
   });
   
   public WICalumetCountyParser() {
-    super(CITY_TABLE, "CALUMET", "WI");
+    super(CITY_TABLE, "CALUMET COUNTY", "WI");
   }
   
   @Override
