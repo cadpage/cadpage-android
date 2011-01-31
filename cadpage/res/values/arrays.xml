@@ -207,6 +207,7 @@
     <item>TX Texas</item>
     <item>UT Utah</item>
     <item>VA Virginia</item>
+    <item>WI Wisconsin</item>
   </string-array>
 
   <!-- Sorted in state name order, which is why NY comes before NC. -->    
@@ -298,6 +299,7 @@
     <item>VAPrinceWilliamCounty</item>
     <item>VARockinghamCounty</item>
     <item>VAWaynesboro</item>
+    <item>WICalumetCounty</item>
     </string-array>
   
   <string-array name="pref_location_options">
@@ -388,6 +390,7 @@
     <item>Prince William County, VA</item>
     <item>Rockingham County, VA</item>
     <item>Waynesboro, VA</item>
+    <item>Calumet County, WI</item>
   </string-array>
 
 <string-array name="email_devel_addr">
