@@ -290,6 +290,18 @@ public class SmsMmsMessage implements Serializable {
           break;
         }
       }
+      
+      /* Decode patterns that look like this
+       * Pagecopy-Fr:CAD@livingstoncounty.livco\nCAD:FYI: ;OVDOSE;4676 KENMORE DR;[Medical Priority Info] RESPONSE: P1 STA 1
+       */
+      if (body.startsWith("Pagecopy-Fr:")) {
+        ipt = body.indexOf('\n', 12);
+        if (ipt >= 0) {
+          parseAddress = body.substring(12, ipt).trim();
+          body = body.substring(ipt+1).trim();
+          break;
+        }
+      }
 
     } while (false);
     
