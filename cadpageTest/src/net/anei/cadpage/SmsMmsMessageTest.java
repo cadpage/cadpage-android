@@ -9,6 +9,12 @@ public class SmsMmsMessageTest {
   @Test
   public void testParseInfo() {
     
+    doParseTest("MILivingstonCounty",
+        "Pagecopy-Fr:CAD@livingstoncounty.livco\nCAD:FYI: ;OVDOSE;4676 KENMORE DR;[Medical Priority Info] RESPONSE: P1 STA 1",
+        "CAD@livingstoncounty.livco",
+        "",
+        "CAD:FYI: ;OVDOSE;4676 KENMORE DR;[Medical Priority Info] RESPONSE: P1 STA 1");
+    
     doParseTest("MOPulaskiCounty",
         "1 of 3\n" +
         "FRM:911dispatch@embarqmail.com\n" + 
@@ -121,7 +127,6 @@ public class SmsMmsMessageTest {
         "Dispatch@ci.waynesboro.va.us <Body%3ADispatch@ci.waynesboro.va.us>",
         "",
         "Dispatch:2ND CALL 1001 HOPEMAN PKWY, ZAP12 INJURIES FROM PREVIOUS MVA");
-
   }
   
   private void doParseTest(String title, String body, String expFrom, String expSubject, String expBody) {
