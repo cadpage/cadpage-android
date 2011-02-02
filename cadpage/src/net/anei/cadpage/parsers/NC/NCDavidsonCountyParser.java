@@ -24,6 +24,9 @@ CAD:SMOKE INVESTIGATION;JOHNSONTOWN RD/TAFT HEDRICK RD;2010025211;no need for di
 CAD:P29-TRAFFIC ACCIDENT-BRAVO;I 85 N/MM 98;2010025251;[Medical Priority Info] PROBLEM: 10-50 # PATS: 255 AGE: Unknown Range SEX: Unkn
 CAD:CANCEL;2006 JOHNSONTOWN RD; THA
 CAD:Co Fire TAC4 for call;I 85 S/MM 96; LEX;4075477164
+
+Contact: jon story <jstory2186@gmail.com>
+CAD:Co Fire Tac3 for call;3136 MOCK RD; HP
 ***/
 
 public class NCDavidsonCountyParser extends SmsMsgParser {
@@ -56,7 +59,8 @@ public class NCDavidsonCountyParser extends SmsMsgParser {
     data.strCall = props.getProperty("Call", "");
     parseAddress(props.getProperty("Addr", ""), data);
     data.strCross = props.getProperty("Cross", "");
-    if (data.strCross.contains("[") && data.strCross.contains("]") || data.strCross.contains(",") ||isLower(data.strCross)) data.strCross = "";
+    if (data.strCross.contains("[") && data.strCross.contains("]") || data.strCross.contains(",") || 
+        data.strCross.length() > 0 && isLower(data.strCross)) data.strCross = "";
     data.strCallId = props.getProperty("ID","");
     data.strSupp = props.getProperty("Info","");
     //data.strCity= props.getProperty("City", "");
