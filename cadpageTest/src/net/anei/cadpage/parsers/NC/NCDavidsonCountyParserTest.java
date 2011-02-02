@@ -70,6 +70,22 @@ public class NCDavidsonCountyParserTest extends BaseParserTest {
         "INFO:10-50 # PATS: 255 AGE: Unknown Range SEX: Unkn"
         );
 
+    doTest("T20",
+        "CAD:CANCEL;2006 JOHNSONTOWN RD; THA",
+        "CALL:CANCEL",
+        "ADDR:2006 JOHNSONTOWN RD");
+    
+    doTest("T21",
+        "CAD:Co Fire TAC4 for call;I 85 S/MM 96; LEX;4075477164",
+        "CALL:Co Fire TAC4 for call",
+        "ADDR:I 85 S/MM 96");
+    
+    doTest("T22",
+        "CAD:Co Fire Tac3 for call;3136 MOCK RD; HP",
+        "CALL:Co Fire Tac3 for call",
+        "ADDR:3136 MOCK RD");
+        
+
   }
 }
 
