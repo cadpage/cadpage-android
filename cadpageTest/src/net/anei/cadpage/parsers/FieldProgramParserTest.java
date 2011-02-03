@@ -84,7 +84,33 @@ public class FieldProgramParserTest extends BaseParserTest {
         "ID? INFO",
         "LIGHT",
         "INFO:LIGHT");
-}
+    
+    doFieldTest("INTLS 1",
+        "INTLS? INFO",
+        "XX;HELP",
+        "INFO:HELP");
+    doFieldTest("INTLS 2",
+        "INTLS? INFO",
+        "KEC;HELP",
+        "INFO:HELP");
+    doFieldTest("INTLS 3",
+        "INTLS? INFO",
+        "X;HELP",
+        "INFO:X");
+    doFieldTest("INTLS 4",
+        "INTLS? INFO",
+        "ab;HELP",
+        "INFO:ab");
+    
+  }
+  
+  @Test
+  public void testInfoAptField() {
+    doFieldTest("T1", "INFO", "apt    201", "APT:201");
+    doFieldTest("T2", "INFO", "aptnuk X", "INFO:aptnuk X");
+    doFieldTest("T3", "INFO", "APT:16F", "APT:16F");
+    doFieldTest("T4", "INFO", "APT# 30", "APT:30");
+  }
   
   @Test
   public void testRequiredFields() {
@@ -169,6 +195,8 @@ public class FieldProgramParserTest extends BaseParserTest {
         "CALL:FIRE",
         "INFO:LINE1 / LINE2 / LINE3",
         "CITY:KEN TOWN");
+    
+    doFieldTest("Optional field at end of program", "X?", "12");
   }
   
   @Test
@@ -186,6 +214,27 @@ public class FieldProgramParserTest extends BaseParserTest {
         "BLACK RD;WHITE ST;STONEVILLE",
         "X:BLACK RD & WHITE ST",
         "INFO:STONEVILLE");
+    
+    doFieldTest("Deferred conditional repeat field",
+        "INFO+? ID",
+        "LINE1;LINE2;LINE3;666",
+        "INFO:LINE1 / LINE2 / LINE3",
+        "ID:666");
+    
+    doFieldTest("Long deferred conditional repeat field",
+        "INFO+? PLACE NAME ID",
+        "LINE1;LINE2;LINE3;BIG HOUSE;KEN CORBIN;666",
+        "INFO:LINE1 / LINE2 / LINE3",
+        "PLACE:BIG HOUSE",
+        "NAME:KEN CORBIN",
+        "ID:666");
+    
+    doFieldTest("empty deferred conditional repeat field",
+        "INFO+? PLACE NAME ID",
+        "BIG HOUSE;KEN CORBIN;666",
+        "PLACE:BIG HOUSE",
+        "NAME:KEN CORBIN",
+        "ID:666");
   }
   
   @Test
@@ -204,13 +253,13 @@ public class FieldProgramParserTest extends BaseParserTest {
   }
   
   private void doFieldTest(String title, String program, String body, String ... result) {
-    parser.compile(program);
+    parser.setProgram(program);
     doTest(title, body, result);
     
   }
   
   private void doFieldFail(String title, String program, String body) {
-    parser.compile(program);
+    parser.setProgram(program);
     assertFalse(parser.parseMsg(body, new Data()));
   }
   

@@ -41,14 +41,16 @@ public class INTiptonCountyParserTest extends BaseParserTest {
         "UNIT:A5,R45",
         "CALL:INJURED IN FALL",
         "ID:4000",
-        "ADDR:E VINE ST & S WASHINGTON ST");
+        "ADDR:E VINE ST & S WASHINGTON ST",
+        "INFO:You are responding to a patient involved in a fall");
     
     doTest("T5",
         "CAD:A5,R45;UNKNOWN MEDICAL PROBLEM;4004;3421 N SR 19;[Medical Priority Info] RESPONSE: Bravo RESPONDER SCRIPT: You are responding to a patient with an unknown problem",
         "UNIT:A5,R45",
         "CALL:UNKNOWN MEDICAL PROBLEM",
         "ID:4004",
-        "ADDR:3421 N SR 19");
+        "ADDR:3421 N SR 19",
+        "INFO:You are responding to a patient with an unknown problem");
     
     doTest("T6",
         "CAD:A5,R45;INJURED IN FALL;4002;304 E 625 N;hx of dementia [10/06/10 18:51:56 DARCIR] [Medical Priority Info] RESPONSE: Alpha RESPONDER SCRIPT: You are responding to",
@@ -56,7 +58,7 @@ public class INTiptonCountyParserTest extends BaseParserTest {
         "CALL:INJURED IN FALL",
         "ID:4002",
         "ADDR:304 E 625 N",
-        "INFO:hx of dementia");
+        "INFO:hx of dementia / You are responding to");
     
     doTest("T7",
         "CAD:G49;OUTSIDE FIRE-FIELD/WOODS;6001;6500 N 400 E",

@@ -61,6 +61,6 @@ public class NYDixHillsParserTest extends BaseParserTest {
         "2010-001991 08:42 *** 23- Misc Fire ***  CARLLS STRAIGHT PATH CARLLS STRAIGHT PA & S SERVICE RD S SERVICE RD",
         "ID:2010-001991",
         "CALL:23- Misc Fire",
-        "ADDR:CARLLS STRAIGHT PATH & S SERVICE RD");
+        "ADDR:CARLLS STRAIGHT PATH & S SERVICE RD S");
   }
 }

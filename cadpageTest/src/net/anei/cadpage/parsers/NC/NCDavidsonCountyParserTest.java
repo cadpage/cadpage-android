@@ -20,8 +20,8 @@ public class NCDavidsonCountyParserTest extends BaseParserTest {
         "ID:2010024643",
         "CALL:50PD-MOTOR VEH/PD ONLY",
         "ADDR:3248 FRIENDSHIP LEDFORD RD",
-        "X:SADDLECHASE LN",
-        "INFO:OIL AND FLUIDS ON ROADWAY");
+        "X:SADDLECHASE LN & MOTSINGER RD",
+        "INFO:OIL AND FLUIDS ON ROADWAY / UDTS:");
     
     doTest("T2",
         "CAD:P29-TRAFFIC ACCIDENT-BRAVO;I 85 S/MM 99;2010024707;[Medical Priority Info] PROBLEM: traffic accident # PATS: 1 AGE: Unknown Range SEX: Unknown CONSCIOU",
@@ -35,7 +35,7 @@ public class NCDavidsonCountyParserTest extends BaseParserTest {
         "ID:2010024363",
         "CALL:HOUSE/SINGLE DWELLING",
         "ADDR:3637 BECKS CHURCH RD",
-        "X:HUCKLE PL",
+        "X:HUCKLE PL & NC HWY 47",
         "INFO:KITCHEN FIRE"
         );
     doTest("T4",
@@ -51,7 +51,7 @@ public class NCDavidsonCountyParserTest extends BaseParserTest {
         "ID:2010025333",
         "CALL:P29-TRAFFIC ACCIDENT-BRAVO",
         "ADDR:I 85 S & MM 96",
-        "INFO:unk on inj, near mm97"
+        "INFO:unk on inj, near mm97 / JUST NORTH OF THE 96....UKN INJ"
         );
     
     doTest("T6",
@@ -78,7 +78,8 @@ public class NCDavidsonCountyParserTest extends BaseParserTest {
     doTest("T21",
         "CAD:Co Fire TAC4 for call;I 85 S/MM 96; LEX;4075477164",
         "CALL:Co Fire TAC4 for call",
-        "ADDR:I 85 S/MM 96");
+        "ADDR:I 85 S & MM 96",
+        "ID:4075477164");
     
     doTest("T22",
         "CAD:Co Fire Tac3 for call;3136 MOCK RD; HP",

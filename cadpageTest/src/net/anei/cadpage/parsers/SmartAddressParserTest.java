@@ -131,7 +131,7 @@ public class SmartAddressParserTest extends BaseParserTest {
     doTest(SKIP, "DRIVING ON 3224 XX 456",
         "ADDR:3224 XX 456");
     doTest(SKIP, "BUT USING 123 N THIRD DR N JUST ISNT RIGHT",
-        "ADDR:123 N THIRD DR");
+        "ADDR:123 N THIRD DR N");
   }
   
   @Test
@@ -182,7 +182,7 @@ public class SmartAddressParserTest extends BaseParserTest {
     doTest(SKIP, "SOMEWHERE NEAR US50 N & BLACK ST DOWN",
         "ADDR:US-50 N & BLACK ST");
     doTest(SKIP, "THIS IS N JOHNSON AVE S & BLACK ST VERY BAD FORM",
-        "ADDR:JOHNSON AVE S & BLACK ST");
+        "ADDR:N JOHNSON AVE S & BLACK ST");
     doTest(SKIP, "ACCIDENT W/INJURY SRT24&SAINT MARYS RD KEN TOWN UNDER",
         "ADDR:ST-24 & SAINT MARYS RD",
         "CITY:KEN TOWN");
@@ -228,7 +228,7 @@ public class SmartAddressParserTest extends BaseParserTest {
     doTest(SKIP, "HOW ABOUT US-150 N DUDE",
         "ADDR:US-150 N");
     doTest(SKIP, "BAD BOY N BIGHILL RD S BOB",
-        "ADDR:N BIGHILL RD");
+        "ADDR:N BIGHILL RD S");
   }
   
   @Test
