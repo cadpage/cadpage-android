@@ -24,9 +24,8 @@ CAD MSG: *D A1   32R      13645 HIDDEN CREEK DR NW  63 YO DIAB HUSB W/LOW BLOOD 
 CAD MSG: *D A2   50       DAKOTAH ST NW / VALLEY DR NW  LARGE FIRE BEHIND A HOUSE ON THE NORTH SIDE OF THE INTERSECTION ..NOTABLE TO TELL WHAT IS BURNING INC:100
 
 Unknown
-Contact: Mike Christian <lfdmikec@gmail.com>
-/ CAD MSG: *D S1   39F      7783 233 LN NE  GEN SMOKE/FIRE ALRM.. INC:11001880
-
+Contact: Mike Christian <lfdmikec@gmail.com>, 16512789021@tmomail.net
+cad.cad@co.Anoka.mn.us / / CAD MSG: *D S1 39F 7783 233 LN NE GEN SMOKE/FIRE ALRM.. INC:11001880
 */
 
 public class MNAnokaCountyParser extends SmartAddressParser {

@@ -2,6 +2,8 @@ package net.anei.cadpage;
 
 import java.io.IOException;
 import java.io.Serializable;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.SmsMsgParser;
 
@@ -302,6 +304,16 @@ public class SmsMmsMessage implements Serializable {
           break;
         }
       }
+      
+      /* Decode patterns that match EMAIL_PATTERN, which is basically an email address
+       * followed by one of a set of known delimiters
+       */
+      Matcher match = EMAIL_PATTERN.matcher(body);
+      if (match.find()) {
+        parseAddress = body.substring(0, match.end(1));
+        body = body.substring(match.end()).trim();
+        break;
+      }
 
     } while (false);
     
@@ -334,6 +346,9 @@ public class SmsMmsMessage implements Serializable {
     
     parseMessageBody = body.substring(pt1);
   }
+  
+  private static final Pattern EMAIL_PATTERN = 
+    Pattern.compile("^([\\w\\.]+@[\\w\\.]+)( / / )");
   
 
   public void setParserInfo(String location, SmsMsgInfo info) {
