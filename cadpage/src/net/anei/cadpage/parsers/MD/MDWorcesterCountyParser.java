@@ -1,13 +1,13 @@
 package net.anei.cadpage.parsers.MD;
 
+import java.util.regex.Pattern;
+
 import net.anei.cadpage.parsers.dispatch.DispatchOSSIParser;
 
 /*
 Worcester County, MD
 Contact:james johnson <jjohnson1179@gmail.com>
 Contact: BIGJOHNSON1179@vtext.com
-ANother one with challenging inconsistent field placement :(
-Looks same as Hayword County, NC  (Close, but appears to add a town)
 CAD:300;FALLS;5914 BOX IRON RD;GIRDLETREE;PINE ST;TAYLOR LANDING RD;11/23/2010 08:31:38
 CAD:300;SICK PERSON;5822 DUKES RD;GIRDLETREE;RAILROAD AVE;SNOW HILL RD;11/16/2010 09:21:04
 CAD:300;FALLS;5914 BOX IRON RD;GIRDLETREE;PINE ST;TAYLOR LANDING RD;11/23/2010 08:31:38
@@ -40,8 +40,52 @@ NO 1000 STATION
 */
 
 public class MDWorcesterCountyParser extends DispatchOSSIParser {
+  
+  private static final String[] CITY_LIST = new String[]{
+    "POCOMOKE",
+    "BERLIN",
+    "OCEAN CITY",
+    "SNOW HILL",
+    "BISHOPVILLE",
+    "GIRDLETREE",
+    "NEWARK",
+    "OCEAN PINES",
+    "SHOWELL",
+    "STOCKTON",
+    "WEST OCEAN CITY",
+    "WHALEYVILLE",
+    "BOXION",
+    "CEDARTOWN",
+    "FRIENDSHIP",
+    "GERMANTOWN",
+    "GOODWILL",
+    "KLEJ GRANGE",
+    "LIBERTOWN",
+    "NASSAWANGO HILLS",
+    "POPLARTOWN",
+    "PUBLIC LANDING",
+    "SINNEPUXENT",
+    "SOUTH POINT",
+    "TAYLORVILLE",
+    "WHITEON"
+    
+    
+  };
  
   public MDWorcesterCountyParser() {
-    super("WORCESTER COUNTY", "MD");
+    super(CITY_LIST, "WORCESTER COUNTY", "MD",
+    		   "SRC? CALL ADDR PLACE? CITY! X X INFO+");
+  }
+  
+  private static final Pattern SOURCE_PAT = Pattern.compile("[0-9]{1,2}00|S[0-9]");
+  private class MySourceField extends SourceField {
+    public MySourceField() {
+      setPattern(SOURCE_PAT);
+    }
+  }
+  @Override
+  protected Field getField(String name) {
+    if (name.equals("SRC")) return new MySourceField();
+    return super.getField(name);
   }
 }

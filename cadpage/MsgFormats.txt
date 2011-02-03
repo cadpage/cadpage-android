@@ -4,7 +4,7 @@ This isn't intended to be the final or full documentation for different
 message formats, but it is a good summary to look through for something similar
 to a new district format
 *******************************************************************************
-* DispatchAParser subclasses
+* DispatchOSSIParser subclasses
 *******************************************************************************
 Smyrna,GA (GASmyrnaParser)
 CAD:FYI: ;STRUCTURE FIRE;2501 WOODLANDS DR SE;FLAMES INSIDE FUSE BOX INSIDE CALLERS APARTMENT. SMELLS WIRES BURNING. [08/08/10 22:53:28 DTHACKER];103157
@@ -57,6 +57,11 @@ Wicomico County, MD (MDWicomicoCountyParser)
 1638:CAD:2010110703;STRUCTURE FIRE;27887 POINTERS LN;SALI;SPANIEL CT;OXBRIDGE DR
 1639:CAD:2010110960;STRUCTURE FIRE;914 E CHURCH ST;SALI;HOLLAND AVE;WALSTON AVE
 1640:CAD:2010110997;PETROLEUM SPILL;2530 N SALISBURY BLVD;SALI;N ZION RD;N ZION RD
+*******************************************************************************
+Worcester County, MD (MDWorcesterCountyParser)
+CAD:300;FALLS;5914 BOX IRON RD;GIRDLETREE;PINE ST;TAYLOR LANDING RD;11/23/2010 08:31:38
+CAD:300;SICK PERSON;5822 DUKES RD;GIRDLETREE;RAILROAD AVE;SNOW HILL RD;11/16/2010 09:21:04
+CAD:300;FALLS;5914 BOX IRON RD;GIRDLETREE;PINE ST;TAYLOR LANDING RD;11/23/2010 08:31:38
 *******************************************************************************
 * DispatchBParser subclasses
 *******************************************************************************

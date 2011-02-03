@@ -1,7 +1,7 @@
 package net.anei.cadpage.parsers.VA;
 
 import java.util.Properties;
-import net.anei.cadpage.parsers.dispatch.DispatchAParser;
+import net.anei.cadpage.parsers.dispatch.DispatchOSSIParser;
 
 /***
 701:CAD:TRAFFIC ACCIDENT PI;100 MALMAISON RD/U S HIGHWAY NO 29; BLA
@@ -15,7 +15,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchAParser;
 693:CAD:DIABETIC;228 BETHEL RD;DAN;BETHEL CT;[Medical Priority Info] PROBLEM: female sugar is high # PATS: 1 AGE: 83 Years SEX: Female CONSCIOU
 ***/
 
-public class VAPittsylvaniaCountyParser extends DispatchAParser {
+public class VAPittsylvaniaCountyParser extends DispatchOSSIParser {
 
 
   private static final Properties CITY_CODES= buildCodeTable(new String[]{

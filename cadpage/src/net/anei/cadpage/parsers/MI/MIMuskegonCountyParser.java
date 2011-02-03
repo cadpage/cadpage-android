@@ -1,7 +1,7 @@
 package net.anei.cadpage.parsers.MI;
 
 import net.anei.cadpage.SmsMsgInfo.Data;
-import net.anei.cadpage.parsers.dispatch.DispatchAParser;
+import net.anei.cadpage.parsers.dispatch.DispatchOSSIParser;
 
 /*
 Muskegon County, MI 
@@ -15,7 +15,7 @@ CAD:FYI: ;2715 N WEBER RD;DULEY DR;W MCMILLAN RD;FGRAS
 CAD:FYI: ;4252 W BARD RD;SIMONELLI RD;ORSHAL RD;FAR
 CAD:FYI: ;N WEBER RD/W MICHILLINDA RD;PI1
  */
-public class MIMuskegonCountyParser extends DispatchAParser {
+public class MIMuskegonCountyParser extends DispatchOSSIParser {
   
   public MIMuskegonCountyParser() {
     super("MUSKEGON COUNTY", "MI",

@@ -53,6 +53,9 @@ public class FieldProgramParser extends SmartAddressParser {
   // table converting city codes to city names
   private Properties cityCodes = null;
   
+  // Original program string
+  private String programStr;
+  
   private Step program;
   
   public FieldProgramParser(String[] cities, String defCity, String defState, String programStr) {
@@ -73,11 +76,20 @@ public class FieldProgramParser extends SmartAddressParser {
   }
   
   /**
+   * @return uncompiled program string
+   */
+  public String getProgram() {
+    return programStr;
+  }
+  
+  /**
    * Compile program string into a Step tree that will execute the requested
    * field assignments
    * @param programStr program string to be compiled
    */
   protected void setProgram(String programStr) {
+    
+    this.programStr = programStr;
     
     // Split program string into field terms
     String[] fieldTerms = programStr.split(" ");

@@ -1,6 +1,6 @@
 package net.anei.cadpage.parsers.VA;
 
-import net.anei.cadpage.parsers.dispatch.DispatchAParser;
+import net.anei.cadpage.parsers.dispatch.DispatchOSSIParser;
 
 /*
 Frederick County, VA
@@ -12,7 +12,7 @@ CAD:2044-79 FAIRFAX PIKE;PREGNANCY-LABOR;APPRENTICE LN
 CAD:250 COSTELLO DR;FILL STATION;FRONT ROYAL PIKE;PRINCE FREDERICK DR
 CAD:3632 VALLEY PIKE;FALL - POSS DANGEROUS;COMMONWEALTH CT;FAY ST
  */
-public class VAFrederickCountyParser extends DispatchAParser {
+public class VAFrederickCountyParser extends DispatchOSSIParser {
   
   public VAFrederickCountyParser() {
     super("FREDERICK COUNTY", "VA",

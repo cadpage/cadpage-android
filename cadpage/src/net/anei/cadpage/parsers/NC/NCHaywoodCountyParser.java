@@ -2,7 +2,7 @@ package net.anei.cadpage.parsers.NC;
 
 
 import net.anei.cadpage.SmsMsgInfo.Data;
-import net.anei.cadpage.parsers.dispatch.DispatchAParser;
+import net.anei.cadpage.parsers.dispatch.DispatchOSSIParser;
 
 /*
 
@@ -34,7 +34,7 @@ Call time
 Street not
 */
 
-public class NCHaywoodCountyParser extends DispatchAParser {
+public class NCHaywoodCountyParser extends DispatchOSSIParser {
   
   public NCHaywoodCountyParser() {
     super("HAYWOOD COUNTY", "NC",

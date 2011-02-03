@@ -1,6 +1,6 @@
 package net.anei.cadpage.parsers.IN;
 
-import net.anei.cadpage.parsers.dispatch.DispatchAParser;
+import net.anei.cadpage.parsers.dispatch.DispatchOSSIParser;
 
 /*
 Tipton County, IN
@@ -15,7 +15,7 @@ CAD:A5,R45;INJURED IN FALL;4002;304 E 625 N;hx of dementia [10/06/10 18:51:56 DA
 CAD:G49;OUTSIDE FIRE-FIELD/WOODS;6001;6500 N 400 E
 */
 
-public class INTiptonCountyParser extends DispatchAParser {
+public class INTiptonCountyParser extends DispatchOSSIParser {
   
   public INTiptonCountyParser() {
     super("TIPTON COUNTY", "IN",

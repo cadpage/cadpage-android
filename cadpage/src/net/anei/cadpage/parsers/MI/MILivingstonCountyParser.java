@@ -1,6 +1,6 @@
 package net.anei.cadpage.parsers.MI;
 
-import net.anei.cadpage.parsers.dispatch.DispatchAParser;
+import net.anei.cadpage.parsers.dispatch.DispatchOSSIParser;
 
 /*
 Livingston County, MI
@@ -24,7 +24,7 @@ Pagecopy-Fr:CAD@livingstoncounty.livco\nCAD:FYI: ;OVDOSE;4676 KENMORE DR;[Medica
 
 */
 
-public class MILivingstonCountyParser extends DispatchAParser {
+public class MILivingstonCountyParser extends DispatchOSSIParser {
   
   public String getFilter() {
     return "CAD@livingstoncounty.livco";

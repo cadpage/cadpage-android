@@ -1,179 +1,152 @@
 package net.anei.cadpage.parsers.dispatch;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.SmsMsgInfo.Data;
-import net.anei.cadpage.parsers.SmsMsgParser;
+import net.anei.cadpage.parsers.FieldProgramParser;
 
-/* This is the Parser for OSSI Pages. http://www.sungardps.com/products/ossipublicsafetysolution.aspx/
-Currently Haywood, NC and Worcester,MD use this parser
+/**
+ * This class parses messages from OSSI CAD software
+ *
+ * Format always starts with "CAD:" and generally consists of a series of
+ * semicolon delimited fields which will be processed according to a program
+ * passed from the subclass.
+ * 
+ * There are, of course, some exception
+ * The text may contain a leading numeric call ID and a colon before the CAD:
+ * marker.  Subclasses will indicate this by inserting an ID: term as the
+ * first field term in the program
+ * 
+ * The text may contain some text in square brackets.  This comes in two flavors
+ * 
+ * [mm/dd/yy hh:mm:ss xxxxxx] appears to be an subsequent update marker, it will
+ * be treated as field delimiter
+ * 
+ * [Medical Priority Info] or [Fire Priority Info]
+ * The field that follows this may one of the two following formats
+ * RESPONSE: xxxxxx RESPONDER SCRIPT: xxxxxx
+ * PROBLEM: xxxxx # PATS: n AGE:  SEX:  xxxxxxx
+ * 
+ * In this case we will skip all text up to and including the keyword
+ * "RESPONDER SCRIPT: or "PROBLEM:"
+ * 
+ * In addition, the last field in the string may be a date/time indicator
+ * or a truncated piece of a date/time indicator.  If this is the case
+ * drop it from further consideration
+ **/
 
-Haywood County, NC (Caruso Fire & Rescue)
-CAD:1010170008;ROUTINE SICK PERSON;33 GRACE DR;CRUSO RD;JOHNS CREEK RD;12;10/17/2010 10:15:00
-CAD:1011010007;ROUTINE SICK PERSON;59 YAH WAY;MUNDY FIELD RD;12;11/01/2010 12:29:40
-CAD:1010300004;EMERGENCY TRAFFIC ACCIDENT;9600 CRUSO RD/BURNETTE COVE RD;12;10/30/2010 10:07:00
-CAD:11538 CRUSO RD;12;ROUTINE FALL
-CAD:1010310024;EMERGENCY HEMORRHAGE LACERATIO;8573 CRUSO RD;SAWMILL ACRES LN;HARLEY DAVIDSON DR;12;10/31/2010 21:54:21
-CAD:1011050024;EMERGENCY UNCONSCIOUS FAINTING;50 MUSTANG ALLEY DR;CRUSO RD;HAPPY WAY;12;11/05/2010 20:19:31
-CAD:1011050011;EMERGENCY BREATHING PROBLEMS;12695 CRUSO RD;EVERIDGE DR;COLD CREEK RD;12;11/05/2010 12:02:51
-CAD:1011070002;69D7 CHIMNEY FIRE;296 MATTHEW LN;SHADY BROOK RD;MOUNTAIN VISTA RD;19;11/07/2010 01:02:10
-CAD:ROUTINE TRANSPORT;12695 CRUSO RD;CA;RM-525 TO HOME;MED6 CALL AND REQ ST12, FR12 RESPOND TO THE RESIDENCE TO HELP THEM GET PT BACK INTO HOUSE [11/11/10 :1of2
-CAD:1011110016;ROUTINE CONVULSIONS SEIZURES;12588 CRUSO RD;EVERIDGE DR;COLD CREEK RD;12;11/11/2010 19:24:02
-CAD:1011110019;ROUTINE SICK PERSON;311 PISGAH CREEK RD;EDGEWATER LN;PISGAH MOUNTAIN RD;12;11/11/2010 20:58:54
+public class DispatchOSSIParser extends FieldProgramParser {
+  
+  private boolean leadID = false;
+  
+  // Pattern searching for a leading square bracket or semicolon
+  private static final Pattern DELIM = Pattern.compile("\\[|;");
+  
+  // Pattern searching for "PROBLEM: or "RESPONDER SCRIPT:"
+  private static final Pattern KEYWORD = Pattern.compile("\\b(PROBLEM:|RESPONDER SCRIPT:)");
+  
+  public DispatchOSSIParser(String defCity, String defState, String program) {
+    super(defCity, defState, "SKIP");
+    setup(program);
+  }
+  
+  public DispatchOSSIParser(Properties cityCodes, String defCity, String defState, String program) {
+    super(cityCodes, defCity, defState, "SKIP");
+    setup(program);
+  }
+  
+  public DispatchOSSIParser(String[] cityList, String defCity, String defState, String program) {
+    super(cityList, defCity, defState, "SKIP");
+    setup(program);
+  }
 
-Worcester County, MD
-Contact:james johnson <jjohnson1179@gmail.com>
-Contact: BIGJOHNSON1179@vtext.com
-ANother one with challenging inconsistent field placement :(
-Looks same as Hayword County, NC  (Close, but appears to add a town)
-CAD:300;FALLS;5914 BOX IRON RD;GIRDLETREE;PINE ST;TAYLOR LANDING RD;11/23/2010 08:31:38
-CAD:300;SICK PERSON;5822 DUKES RD;GIRDLETREE;RAILROAD AVE;SNOW HILL RD;11/16/2010 09:21:04
-CAD:300;FALLS;5914 BOX IRON RD;GIRDLETREE;PINE ST;TAYLOR LANDING RD;11/23/2010 08:31:38
-CAD:100;TRAFFIC TRANSPORTATION ACC;3543 AYDELOTTE RD;DIST: 7.94 FT;POCOMOKE;BRANTLEY RD;SHEEPHOUSE RD;11/16/2010 00:31:42
-CAD:100;PROPANE OR NATURAL GAS LEAK;1010 CLARKE AVE;POCOMOKE;ANN ST;MCMICHAEL AVE;11/12/2010 10:31:09
-CAD:100;FIRE ALARM;125 NEWTOWNE BLVD;HOLIDAY INN EXPRESS;POCOMOKE;OLD SNOW HILL RD;11/12/2010 08:15:38
-CAD:100;TRAFFIC TRANSPORTATION ACC;DIVIDING CREEK RD/WORTH RD;DIST: 25.70 FT;POCOMOKE;11/10/2010 15:20:42
-CAD:MUTUAL AID ASSIST OUTSIDE AGY;4264 FIREHOUSE ST;NEWCHURCH STATION 1;NEW CHURCH;DEPOT ST;LANKFORD LN;11/08/2010 20:34:48
-CAD:100;TRAFFIC TRANSPORTATION ACC;OCEAN HWY/WORCESTER HWY;PRIOR TO 113;POCOMOKE;11/08/2010 01:15:41
-CAD:100;UNCONSCIOUS FAINTING;275 NEWTOWNE BLVD;BLDG LOWES;LOWES OF POCOMOKE;POCOMOKE;OLD SNOW HILL RD;11/07/2010 11:25:06
-CAD:100;BREATHING PROBLEMS;906-16 LYNNHAVEN DR;POCOMOKE;8TH ST;HALEYS WAY;10/24/2010 06:58:01
-CAD:S5;MUTUAL AID ASSIST OUTSIDE AGY;8987 COURTHOUSE HILL RD;POCOMOKE;DIVIDING CREEK RD;WALLACE TAYLOR RD;10/22/2010 22:01:04
-CAD:100;UNCONSCIOUS FAINTING;1130 OLD VIRGINIA RD;POCOMOKE NAZARENE CHURCH;POCOMOKE;OCEAN HWY;SOUTHERN FIELDS DR;10/17/2010 11:32:35
-CAD:100;CARDIAC OR RESPIRATORY ARREST;2330 WORCESTER HWY;GRND FLR;POCOMOKE;OLD SNOW HILL RD;LAMBERTSON RD;10/18/2010 19:23:41
-CAD:100;RESIDENTIAL STRUCTURE FIRE;208 14TH ST;POCOMOKE;MARKET ST;CEDAR RUN;10/23/2010 07:12:12
-CAD:100;BREATHING PROBLEMS;906-16 LYNNHAVEN DR;POCOMOKE;8TH ST;HALEYS WAY;10/24/2010 06:58:01  
-
-Case ID
-Nature
-Street Address
-Business (If applicable)
-Crossroad 1
-Crossroad2
-District
-Call time
-Street not
-
-*/
-
-public class DispatchOSSIParser extends SmsMsgParser {
-
-	  private int cadVersion = 1;
-	  
-	  private static final Pattern TIME_DATE = Pattern.compile("\\d\\d/\\d\\d/\\d\\d\\d\\d \\d\\d:\\d\\d:\\d\\d");
-	  
-  public DispatchOSSIParser(String defCity, String defState) {
-    super(defCity, defState);
+  private void setup(String program) {
+    if (program.startsWith("ID:")) {
+      leadID = true;
+      program = program.substring(3).trim();
+    }
+    setProgram(program);
   }
 
   @Override
   protected boolean parseMsg(String body, Data data) {
     
-    if (! body.startsWith("CAD:")) return false;
-
-    if (body.length() < 4) return false;
-    String[] lines = body.substring(4).split(";");
-    int ndx = 0;
-    int iCityMoved = 0;
-    for (String line : lines) {
-      line = line.trim();
-      switch (ndx++) {
-      
-      // Call ID, not always present, >9 numeric digits/
-      // if not present fall through
-      case 0:
-        if(line.length() == 3 && NUMERIC.matcher(line).matches()) {
-          data.strUnit = line;
-          break;
-        }
-        ndx++;
-      
-      // Call description, also not always present but harder to identify
-      // Must start with 'ROUTINE', 'EMERGANCY' or 4 character code starting
-      // with a digit and containing at least one non-digit
-      case 1:
-          data.strCall = line;
-          break;
-        //ndx++;
-
-      // The next thing has to be an address
-      case 2:
-        data.strAddress = line.replaceAll("/", "&");
-        break;
-
-      //CAD1 or CAD2: Should Be City. 
-      //CAD1:  If it has DIST: or PROP in it then the next field is City and this is supplemental 
-      case 3:
-    	if (cadVersion ==1) {
-    		if (line.contains("DIST:") || line.contains("PRIOR TO")){
-    			data.strSupp = line.trim();
-    			iCityMoved = 1;
-    			break;
-    		} else if(line.contains(" ")) {
-    			data.strSupp = line.trim();
-    			iCityMoved = 1;
-    			break;
-    		}else {
-    			data.strCity = line.trim();
-    			break;
-    		}
-    	} 
-    	if (cadVersion ==2) {
-        if (data.strCross.length() > 0) data.strCross += " & ";
-        data.strCross += line;
-        ndx--;
-        break;
-    	}
-      
-      // If we skipped the call description, the field following the
-      // terminator might be the call description, or it might be a date
-      case 4:
-    	if (iCityMoved == 1 && cadVersion == 1) {
-    		// This is really the city field.
-    		data.strCity = line.trim();
-    		break;
-    	} 
-    	
-    	if (iCityMoved == 0 && cadVersion ==1) {
-    		// This is the First Cross Street.
-    		if (data.strCross.length() > 0) data.strCross += " & ";
-    	       data.strCross += line;
-    	    break;
-    	}
-    	
-        if (data.strCall.length() == 0 && line.length() > 0 && 
-            ! Character.isDigit(line.charAt(0))) {
-          data.strCall = line;
-          break;
-        }
-        
-     
-      // For CAD1: this is the second cross street.
-      case 5:
-      	if (cadVersion == 1 && !isDateTime(line)) {
-    		// This is the first Cross Street.
-      		if (data.strCross.length() > 0) data.strCross += " & ";
- 	       data.strCross += line;
- 	       break;
-    	} 
-    	  
-      case 6:
-    	  if (iCityMoved == 1 && cadVersion == 1 && !isDateTime(line)) {
-      		// This is the second Cross Street.
-        		if (data.strCross.length() > 0) data.strCross += " & ";
-   	       data.strCross += line;
-   	       break;
-      	} 
-    	  
-    	  
-      }   
-      if (ndx > 6) break;
+    // If format has a leading ID, strip that off
+    if (leadID) {
+      int pt = body.indexOf(':');
+      if (pt < 0) return false;
+      data.strCallId = body.substring(0,pt).trim();
+      if (!NUMERIC.matcher(data.strCallId).matches()) return false;
+      body = body.substring(pt+1).trim();
     }
     
-    return true;
-  }
+    // Body must start with 'CAD:'
+    if (!body.startsWith("CAD:")) return false;
+    
+    // Break down string into generally semicolon delimited fields
+    // with some complications involving text in square brackets
+    
+    List<String> fields = new ArrayList<String>();
+    Matcher match = DELIM.matcher(body);
+    int st = 4;
 
-  private boolean isDateTime(String line) {
-	  Matcher match = TIME_DATE.matcher(line);
-	  return match.matches();
-	  }
+    boolean priInfo = false;
+    while (st < body.length()) {
+      
+      // search for the next delimiter (either ; or [
+      char delim;
+      int pt;
+      if (match.find(st)) {
+        pt = match.start();
+        delim = body.charAt(pt);
+      } else {
+        pt = body.length();
+        delim = 0;
+      }
+
+      // The next field consists of everything from the starting point
+      // up to the location of the delimiter
+      // If the delimiter in front of this term was a square bracket term
+      // Search for and delete any text up to including the keywords
+      // "PROBLEM:" or "RESPONDER SCRIPT:"
+      
+      String field = body.substring(st,pt).trim();
+      if (priInfo) {
+        Matcher match2 = KEYWORD.matcher(field);
+        if (!match2.find()) field = null;
+        else field = field.substring(match2.end()).trim();
+      }
+      if (field != null) fields.add(field);
+      
+      // Find the start of the next field
+      // if the delimiter was an open square bracket, the start of the
+      // next field will follow the closing square bracket
+      st = pt+1;
+      priInfo = false;
+      if (delim == '[') {
+        pt = body.indexOf(']', st);
+        if (pt < 0) pt = body.length();
+        priInfo = body.substring(st, pt).contains("Priority Info");
+        st = pt + 1;
+      }
+    }
+    
+    // Almost there.  Check to see if the last term looks like a date/time stamp
+    // or the truncated remains of a date/time stamp.  If it does, remove it
+    int ndx = fields.size()-1;
+    if (ndx == 0) return false;  // don't think this can happen, but better check
+    String field = fields.get(ndx);
+    if (field.length()>0 && Character.isDigit(field.charAt(0))) {
+      field = field.replaceAll("\\d", "N");
+      if ("NN/NN/NNNN NN:NN:NN".startsWith(field)) fields.remove(ndx);
+    }
+
+    // We have a nice clean array of data fields, pass it to the programmer
+    // field processor to parse
+    return parseFields(fields.toArray(new String[fields.size()]), data);
+  }
 }

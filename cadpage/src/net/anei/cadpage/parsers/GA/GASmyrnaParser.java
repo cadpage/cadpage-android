@@ -1,6 +1,6 @@
 package net.anei.cadpage.parsers.GA;
 
-import net.anei.cadpage.parsers.dispatch.DispatchAParser;
+import net.anei.cadpage.parsers.dispatch.DispatchOSSIParser;
 
 /*
 Smyrna, GA
@@ -13,7 +13,7 @@ CAD:Update: ;STRUCTURE FIRE;501 WALTON WAY SE;S COBB DR SE;apt 501 [09/23/10 15:
 CAD:FYI: ;FIRE GENERAL;4586-W VALLEY PKWY SE;S COBB DR SE;ASHLEY;heavy smoke [10/09/10 03:49:27 SMAHAMA] smoke coming from the unit below her [10/09/10 03:48:51
 
 */
-public class GASmyrnaParser extends DispatchAParser {
+public class GASmyrnaParser extends DispatchOSSIParser {
   
   public GASmyrnaParser() {
     super("SMYRNA", "GA",

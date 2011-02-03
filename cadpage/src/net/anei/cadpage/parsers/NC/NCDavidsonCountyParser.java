@@ -1,6 +1,6 @@
 package net.anei.cadpage.parsers.NC;
 
-import net.anei.cadpage.parsers.dispatch.DispatchAParser;
+import net.anei.cadpage.parsers.dispatch.DispatchOSSIParser;
 
 /***
 Davidson County, NC
@@ -24,7 +24,7 @@ Contact: jon story <jstory2186@gmail.com>
 CAD:Co Fire Tac3 for call;3136 MOCK RD; HP
 ***/
 
-public class NCDavidsonCountyParser extends DispatchAParser {
+public class NCDavidsonCountyParser extends DispatchOSSIParser {
 
 
   public NCDavidsonCountyParser() {

@@ -3,7 +3,7 @@ package net.anei.cadpage.parsers.MD;
 import java.util.Properties;
 
 import net.anei.cadpage.SmsMsgInfo.Data;
-import net.anei.cadpage.parsers.dispatch.DispatchAParser;
+import net.anei.cadpage.parsers.dispatch.DispatchOSSIParser;
 
 /* 
 **********************************************************
@@ -25,7 +25,7 @@ Mutual aid from Delmar
 CAD:2010110683;PI ACCIDENT;8859 JERSEY RD;DELM;CONNELLY MILL RD;ADKINS RD;[Medical Priority Info] RESPONSE: Bravo RESPONDER SCRIPT: 25 year old, Male,
 */
 
-public class MDWicomicoCountyParser extends DispatchAParser {
+public class MDWicomicoCountyParser extends DispatchOSSIParser {
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "ALLE", "ALLEN",
