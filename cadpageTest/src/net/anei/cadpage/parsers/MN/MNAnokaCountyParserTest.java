@@ -72,5 +72,6 @@ public class MNAnokaCountyParserTest extends BaseParserTest {
         "ADDR:14015 DRAKE ST NW",
         "INFO:POSS FIRE IN THE WALL...LOTS OF SMOKE FROM THE BASEMENT...EVERYONE ISOUT",
         "ID:10019127");
+        
   }
 }

@@ -9,6 +9,12 @@ public class SmsMmsMessageTest {
   @Test
   public void testParseInfo() {
     
+    doParseTest("MNAnokaCOunty",
+        "cad.cad@co.Anoka.mn.us / / CAD MSG: *D S1 39F 7783 233 LN NE GEN SMOKE/FIRE ALRM.. INC:11001880",
+        "cad.cad@co.Anoka.mn.us",
+        "",
+        "CAD MSG: *D S1 39F 7783 233 LN NE GEN SMOKE/FIRE ALRM.. INC:11001880");
+    
     doParseTest("MILivingstonCounty",
         "Pagecopy-Fr:CAD@livingstoncounty.livco\nCAD:FYI: ;OVDOSE;4676 KENMORE DR;[Medical Priority Info] RESPONSE: P1 STA 1",
         "CAD@livingstoncounty.livco",
