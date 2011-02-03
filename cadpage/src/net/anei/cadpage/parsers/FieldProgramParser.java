@@ -40,9 +40,26 @@ import net.anei.cadpage.SmsMsgInfo.Data;
  *    field processor for this and possibly subsequent field terms 
  *    
  * Field Qualifiers
- *  All conditional fields
- *    Z - suppress condition checks.  This is useful is this fields condition
- *    check is less reliable than another field behind it  
+ *   All conditional fields
+ *     Z - suppress condition checks.  This is useful is this fields condition
+ *     check is less reliable than another field behind it  
+ *    
+ * The ugly details on optional fields
+ * 
+ * Some data fields (like ADDR, ID, and X) have internal logic
+ * to make a decision as to whether a particular data field is valid or not.
+ * For these, the ? qualifier just calls that fields validation logic and uses
+ * that to determine whether or not the field is present.
+ * 
+ * Others, like PLACE and INFO, have no such logic.  Yet we can and often do
+ * use the ? qualifier when the field may or may not be present.  In such cases
+ * the program looks for the next field after the optional field that does have
+ * validation logic and tries to process that field on the assumption that the
+ * optional field is missing.  If the validation fails, it proceeds assuming
+ * the optional field is present.  The exact logic on which fields to check and
+ * in what order is made when the parser class is instantiated, the program
+ * string you pass is compiled into a set of parse and validation steps which
+ * can then be executed when a string needs to be parsed.
  */
 
 public class FieldProgramParser extends SmartAddressParser {
