@@ -128,7 +128,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
         "DRIVE", "DR",
         "SQUARE", "SQ",
         "BLVD",
-        "WAY", "PKWY", "PK", "FWY", "WY", "HW",
+        "WAY", "PKWY", "PK", "FWY", "WY", "HW", "EXPW",
         "CIRCLE", "CIR",
         "TRAIL", "TRL",
         "PATH",
@@ -139,7 +139,8 @@ public abstract class SmartAddressParser extends SmsMsgParser {
         "MALL",
         "GTWY",
         "PLAZ", "PLAZA",
-        "TURNPIKE", "TPKE");
+        "TURNPIKE", "TPKE",
+        "PASS");
     setupDictionary(ID_ROUTE_PFX_EXT, "RT", "RTE", "HW", "HWY", "HIGHWAY");
     setupDictionary(ID_ROUTE_PFX_PFX, "ST", "SRT", "US", "FS", "INTERSTATE", "I", "STHWY", "USHWY", "CO", "CR");
     setupDictionary(ID_ROUTE_PFX_PFX, new String[]{defState});
@@ -504,8 +505,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
         }
         if (ndx-start >= 2 && isType(ndx, ID_CONNECTOR)) {
           sAddr = ndx-1;
-          dirFound = isType(sAddr, ID_DIRECTION);
-          if (dirFound) sAddr--;
+          if (isType(sAddr, ID_DIRECTION)) sAddr--;
           
           if (isRoadToken(sAddr)) break;
           
@@ -625,14 +625,12 @@ public abstract class SmartAddressParser extends SmsMsgParser {
       }
 
       // If the previous token is a direction, back up one more to include that.
-      int saveSaddr = sAddr;
       sAddr = stretchRoadPrefix(start, sAddr);
-      boolean dirFound = (sAddr != saveSaddr);
       
       // increment end pointer past the road terminator
       // If the following token is a direction, increment end pointer past that too
       ndx++;
-      if (!dirFound && isType(ndx, ID_DIRECTION)) ndx++;
+      if (isType(ndx, ID_DIRECTION)) ndx++;
       result.initAddress = result.startAddress = sAddr;
       if (atStart) result.initAddress--;
     }
@@ -935,8 +933,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
   private int findRoadEnd(int start) {
     
     // If this starts with a street direction, skip over it
-    boolean dirFound = isType(start, ID_DIRECTION); 
-    if (dirFound) start++;
+    if (isType(start, ID_DIRECTION)) start++;
     
     // Dummy loop that we can break out of when we find a road end
     int end;
@@ -980,7 +977,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     } while (false);
     
     // If road is followed by a direction, include that
-    if (! dirFound && isType(end, ID_DIRECTION)) end++;
+    if (isType(end, ID_DIRECTION)) end++;
     return end;
   }
 
@@ -1170,6 +1167,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
      * numeric value in which higher values indicate better addresses
      */
     public int getStatus(int extra) {
+      if (tokens == null) return 0;
       if (tokens.length-endAll > extra) return 0;
       return status;
     }

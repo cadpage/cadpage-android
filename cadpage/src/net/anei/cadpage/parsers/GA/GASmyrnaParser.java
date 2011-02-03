@@ -16,7 +16,8 @@ CAD:FYI: ;FIRE GENERAL;4586-W VALLEY PKWY SE;S COBB DR SE;ASHLEY;heavy smoke [10
 public class GASmyrnaParser extends DispatchAParser {
   
   public GASmyrnaParser() {
-    super("SMYRNA", "GA");
+    super("SMYRNA", "GA",
+           "SKIP CALL ADDR! X+? INFO+? ID");
   }
   
   @Override

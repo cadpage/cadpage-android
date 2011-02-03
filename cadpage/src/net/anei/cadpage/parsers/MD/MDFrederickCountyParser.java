@@ -33,6 +33,9 @@ Contact: "windyhollowgrowers@hotmail.com" <windyhollowgrowers@hotmail.com>
 (FredCo) [CAD] CT: HEMORRHAGE CACO: @MA CARRCO: 915 FRANCIS SCOTT KEY HWY ESZ: 9902 Disp: SU9
 
 [FredCo] CT: INJURY FROM VEHICLE ACCIDENT LL(-77:23:59.6013,39:21:53.1520): @I270NB / MONOCACY RIVER ESZ: 327002 MAP: 46
+
+Contact: Bill Green <wbgreen1@gmail.com>
+(CAD) [FredCo] CT: HOUSE / SMOKE 238 DEPAUL ST EMMB ESZ: 601 MAP: 3997J8 Disp: E63,ACE232,E102,CCE111,E132,A268,RS6,TWR6,CCLDR5,BAT900,SFT900
 ***/
 
 public class MDFrederickCountyParser extends SmartAddressParser {

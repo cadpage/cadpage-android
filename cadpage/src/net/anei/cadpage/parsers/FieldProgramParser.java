@@ -1,6 +1,7 @@
 package net.anei.cadpage.parsers;
 
 import java.util.Properties;
+import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.SmsMsgInfo.Data;
@@ -57,18 +58,18 @@ public class FieldProgramParser extends SmartAddressParser {
   public FieldProgramParser(String[] cities, String defCity, String defState, String programStr) {
     super(cities, defCity, defState);
     this.cities = cities;
-    compile(programStr);
+    setProgram(programStr);
   }
   
   public FieldProgramParser(Properties cityCodes, String defCity, String defState, String programStr) {
     super(cityCodes, defCity, defState);
     this.cityCodes = cityCodes;
-    compile(programStr);
+    setProgram(programStr);
   }
   
   public FieldProgramParser(String defCity, String defState, String programStr) {
     super(defCity, defState);
-    compile(programStr);
+    setProgram(programStr);
   }
   
   /**
@@ -76,7 +77,7 @@ public class FieldProgramParser extends SmartAddressParser {
    * field assignments
    * @param programStr program string to be compiled
    */
-  void compile(String programStr) {
+  protected void setProgram(String programStr) {
     
     // Split program string into field terms
     String[] fieldTerms = programStr.split(" ");
@@ -104,7 +105,12 @@ public class FieldProgramParser extends SmartAddressParser {
     // is a deferred optional field, but we will invoke it with an initial
     // index of -1 so things will work out
     int optBreak = -1;
+    boolean optRepeat = false;
     fieldSteps[0].setNextStep(fieldSteps[1]);
+    
+    // And we need a tail step so fail branches at the end of the program
+    // will have something to branch to
+    Step tail = new Step(null, false);
     
     
     // Now to start a second pass, this will will figure out just how the
@@ -113,7 +119,7 @@ public class FieldProgramParser extends SmartAddressParser {
       
       // Get the current, and next steps in normal sequence
       Step step = fieldSteps[ndx+1];
-      Step next = ndx+1 < fieldTerms.length ? fieldSteps[ndx+2] : null;
+      Step next = ndx+1 < fieldTerms.length ? fieldSteps[ndx+2] : tail;
       
       // we will start by assuming things progress in a normal flow, until
       // we determine otherwise.  Next data increment defaults to one which
@@ -139,9 +145,10 @@ public class FieldProgramParser extends SmartAddressParser {
         if (step.canFail()) {
           
           // It is, now things get tricky
-          // The decision step needs to be cloned because it will have to
-          // appear twice in the step program
-          Step newStep = step.cloneStep();
+          // If this is a normal deferred condition, The decision step needs to 
+          // be cloned because it will have to appear twice in the step program.
+          // This isn't a problem when a repeat condtional is deferrred
+          Step newStep = optRepeat ? step : step.cloneStep();
           
           // The step before the optional break has to jump to our new cloned
           // decision step, adjusting the field increment under the assumption 
@@ -154,19 +161,35 @@ public class FieldProgramParser extends SmartAddressParser {
           // Failure branch will jump back to the optional branch, and proceed
           // normally from there, which includes processing the original step
           // for this field without a failure option
-          newStep.setFailStep(fieldSteps[optBreak+1]);
+          Step optStep = fieldSteps[optBreak+1];
+          newStep.setFailStep(optStep);
           newStep.setFailInc(-(delta-1));
+          
+          // If this is a deferred conditional repeat, the optional repeat
+          // step has to jump back to this decision step to see if it should
+          // continue looping.  If this isn't a repeat, we do nothing, and
+          // the logic will flow normally along the steps between the option
+          // step and the decision step, executing the original step for
+          // this field that still does not have a failure branch
+          if (optRepeat) {
+            optStep.setNextStep(step);
+            optStep.setNextInc(delta);
+          }
           
           // The success branch will execute a chain of steps cloned from all
           // of the steps between the optional step and this decision step
           // (which may be empty if the two are next to each other) then
           // skip this step and take up normal processing with the next step
+          // For repeat conditional process, it is not necessary to clone the
+          // intervening steps because they repeating step never tries to
+          // execute them
           newStep.setNextInc(-(delta-1));
           Step prev = newStep;
           int nextInc = 1;
           for (int jj = optBreak+1; jj<ndx; jj++) {
             nextInc = 2;
-            newStep = fieldSteps[jj+1].cloneStep();
+            newStep = fieldSteps[jj+1];
+            if (!optRepeat) newStep = newStep.cloneStep();
             prev.setNextStep(newStep);
             prev = newStep;
           }
@@ -196,11 +219,12 @@ public class FieldProgramParser extends SmartAddressParser {
             step.setFailStep(next);
           } 
           
-          // If it can't detect failures, life gets very interesting.  So 
-          // interesting that we aren't going to try to deal with it right now.
+          // If it can't detect failures, we have to defer the decision
+          // which is going to pretty much work the way the regular deferred
+          // optional field words
           else {
-            // TODO Someday we can really implement this, really isn't that hard
-            throw new RuntimeException("Field cannot test validity: " + fieldTerms[ndx]);
+            optRepeat = true;
+            optBreak = ndx;
           }
         }
       }
@@ -220,6 +244,7 @@ public class FieldProgramParser extends SmartAddressParser {
         // or not based on a subsequent field that can be validated.  For now
         // just remember where the option break is
         else {
+          optRepeat = false;
           optBreak = ndx;
         }
       }
@@ -714,10 +739,21 @@ public class FieldProgramParser extends SmartAddressParser {
   /**
    * Supplemental info field processor
    */
+  static final Pattern APT_PAT = Pattern.compile("^APT( |:|#) *", Pattern.CASE_INSENSITIVE);
   public class InfoField extends Field {
+    
     
     @Override
     public void parse(String field, Data data) {
+      
+      // Some special keywords will divert info to other fields
+      if (field.length() <= 10 && data.strApt.length() == 0) {
+        Matcher match = APT_PAT.matcher(field);
+        if (match.find()) {
+          data.strApt = field.substring(match.end());
+          return;
+        }
+      }
       data.strSupp = append(data.strSupp, " / ", field);
     }
   }
@@ -766,6 +802,23 @@ public class FieldProgramParser extends SmartAddressParser {
   }
   
   /**
+   * Initials field processor
+   * Field containing dispatcher initials, which is skipped
+   * but has ability to verify initials contents
+   */
+  private static final Pattern INITLS_PAT = Pattern.compile("[A-Z]{2,3}");
+  public class InitialsField extends Field {
+    
+    public InitialsField() {
+      setPattern(INITLS_PAT);
+    }
+
+    @Override
+    public void parse(String field, Data data) {
+    }
+  }
+  
+  /**
    * Look up the field processor associated with name
    * This should be overridden by classes that need some special field
    * processing
@@ -791,6 +844,7 @@ public class FieldProgramParser extends SmartAddressParser {
     if (name.equals("CODE")) return new CodeField();
     if (name.equals("NAME")) return new NameField();
     if (name.equals("SKIP")) return new SkipField();
+    if (name.equals("INTLS")) return new InitialsField();
     
     // TODO Add and END field processor that does nothing but can test for
     // the end of the data sequence

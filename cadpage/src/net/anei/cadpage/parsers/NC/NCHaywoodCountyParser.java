@@ -2,7 +2,7 @@ package net.anei.cadpage.parsers.NC;
 
 
 import net.anei.cadpage.SmsMsgInfo.Data;
-import net.anei.cadpage.parsers.SmsMsgParser;
+import net.anei.cadpage.parsers.dispatch.DispatchAParser;
 
 /*
 
@@ -34,87 +34,50 @@ Call time
 Street not
 */
 
-public class NCHaywoodCountyParser extends SmsMsgParser {
+public class NCHaywoodCountyParser extends DispatchAParser {
   
   public NCHaywoodCountyParser() {
-    super("HAYWOOD COUNTY", "NC");
+    super("HAYWOOD COUNTY", "NC",
+           "ID? CALL? ADDR! X? X?");
   }
 
   @Override
   public String getFilter() {
     return "CAD@haywoodnc.net";
   }
+  
+  // We need a call class that can verify its existence
+  // To be valid must start with 'ROUTINE', 'EMERGENCY' or 4 character code 
+  // starting with a digit and containing at least one non-digit
+  private class MyCallField extends CallField {
 
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+
+    @Override
+    public boolean checkParse(String field, Data data) {
+      if (!isValid(field)) return false;
+      parse(field, data);
+      return true;
+    }
+
+    private boolean isValid(String field) {
+      if (field.startsWith("ROUTINE")) return true;
+      if (field.startsWith("EMERGENCY")) return true;
+
+      int pt = field.indexOf(' ');
+      if (pt >= 0) field = field.substring(0,pt);
+      return field.length() == 4 && Character.isDigit(field.charAt(0)) &&
+              ! NUMERIC.matcher(field).matches();
+    }
+  }
 
   @Override
-  protected boolean parseMsg(String body, Data data) {
-    
-    if (! body.startsWith("CAD:")) return false;
-
-    if (body.length() < 4) return false;
-    String[] lines = body.substring(4).split(";");
-    int ndx = 0;
-    for (String line : lines) {
-      line = line.trim();
-      switch (ndx++) {
-      
-      // Call ID, not always present, >9 numeric digits/
-      // if not present fall through
-      case 0:
-        if(line.length() >= 10 && NUMERIC.matcher(line).matches()) {
-          data.strCallId = line;
-          break;
-        }
-        ndx++;
-      
-      // Call description, also not always present but harder to identify
-      // Must start with 'ROUTINE', 'EMERGANCY' or 4 character code starting
-      // with a digit and containing at least one non-digit
-      case 1:
-        if (line.startsWith("ROUTINE") || line.startsWith("EMERGENCY") ||
-            isCallId(line)) {
-          data.strCall = line;
-          break;
-        }
-        ndx++;
-
-      // The next thing has to be an address
-      case 2:
-        data.strAddress = line.replaceAll("/", "&");
-        break;
-
-      // followed by any number of cross streets
-      // terminated by a 2 digit code (or 'CA')
-      case 3:
-        if (line.equals("CA") ||
-            line.length() == 2 && NUMERIC.matcher(line).matches()) break;
-        
-        if (data.strCross.length() > 0) data.strCross += " & ";
-        data.strCross += line;
-        ndx--;
-        break;
-      
-      // If we skipped the call description, the field following the
-      // terminator might be the call description, or it might be a date
-      case 4:
-        if (data.strCall.length() == 0 && line.length() > 0 && 
-            ! Character.isDigit(line.charAt(0))) {
-          data.strCall = line;
-        }
-        break;
-      }
-        
-      if (ndx > 4) break;
-    }
-    
-    return true;
+  protected Field getField(String name) {
+    if (name.equals("CALL")) return new MyCallField();
+    return super.getField(name);
   }
-
-
-  private boolean isCallId(String line) {
-    int pt = line.indexOf(' ');
-    if (pt >= 0) line = line.substring(0,pt);
-    return line.length() == 4 && Character.isDigit(line.charAt(0)) &&
-      ! NUMERIC.matcher(line).matches();
-  }
+  
 }

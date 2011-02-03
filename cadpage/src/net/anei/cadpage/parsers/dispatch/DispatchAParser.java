@@ -1,100 +1,152 @@
 package net.anei.cadpage.parsers.dispatch;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Properties;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 import net.anei.cadpage.SmsMsgInfo.Data;
-import net.anei.cadpage.parsers.SmsMsgParser;
+import net.anei.cadpage.parsers.FieldProgramParser;
 
 /**
  * This class parses messages from some as yet unidentified CAD software vendor
+ *
+ * Format always starts with "CAD:" and generally consists of a series of
+ * semicolon delimited fields which will be processed according to a program
+ * passed from the subclass.
+ * 
+ * There are, of course, some exception
+ * The text may contain a leading numeric call ID and a colon before the CAD:
+ * marker.  Subclasses will indicate this by inserting an ID: term as the
+ * first field term in the program
+ * 
+ * The text may contain some text in square brackets.  This comes in two flavors
+ * 
+ * [mm/dd/yy hh:mm:ss xxxxxx] appears to be an subsequent update marker, it will
+ * be treated as field delimiter
+ * 
+ * [Medical Priority Info] or [Fire Priority Info]
+ * The field that follows this may one of the two following formats
+ * RESPONSE: xxxxxx RESPONDER SCRIPT: xxxxxx
+ * PROBLEM: xxxxx # PATS: n AGE:  SEX:  xxxxxxx
+ * 
+ * In this case we will skip all text up to and including the keyword
+ * "RESPONDER SCRIPT: or "PROBLEM:"
+ * 
+ * In addition, the last field in the string may be a date/time indicator
+ * or a truncated piece of a date/time indicator.  If this is the case
+ * drop it from further consideration
  **/
 
-/*
-Smyrna, GA
-Contact: "Dustin Davey" <ddavey@ci.smyrna.ga.us>
-Sender: cad@ci.smyrna.ga.us
-CAD:FYI: ;STRUCTURE FIRE;2501 WOODLANDS DR SE;FLAMES INSIDE FUSE BOX INSIDE CALLERS APARTMENT. SMELLS WIRES BURNING. [08/08/10 22:53:28 DTHACKER];103157
-CAD:Update: ;VEHICLE FIRE;S COBB DR SE/BOURNE DR SE;METRO PCS;OWNER OF VEH CALLED --- ADV ON 280 AT WH [10/11/10 17:46:52 ABERRY] blk dodge charger on fire [10/
-CAD:FYI: ;VEHICLE FIRE;WINDY HILL RD SE/S COBB DR SE;METRO PCS;blk dodge charger on fire [10/11/10 17:46:16 DSNIVELY] ;104107
-CAD:Update: ;STRUCTURE FIRE;501 WALTON WAY SE;S COBB DR SE;apt 501 [09/23/10 15:17:59 MBAGNATO] ;103832
-CAD:FYI: ;FIRE GENERAL;4586-W VALLEY PKWY SE;S COBB DR SE;ASHLEY;heavy smoke [10/09/10 03:49:27 SMAHAMA] smoke coming from the unit below her [10/09/10 03:48:51
-
-Livingston County, MI
-CAD:FYI: ;ALARMF;11555 PLEASANT VIEW DR;INDIAN TRL;SMOKE ALARMS GOING OFF IN THE HOUSE FOR THE LAST 30 MIN ON AND OFF/ NO SMOKE OR SMOKE SHOWING [09/24/10 04:17:07 ECOOK]
-CAD:FYI: ;UNKACC;E M36/PETTYS RD;VEHICLE HIT A POLE/ MALE RUNNING E/B FROM SCENE [09/23/10 21:45:06 ECOOK]
-CAD:FYI: ;CHSTPN;8422 PAWNEE TRL;SHOSHONI PASS;[Medical Priority Info] RESPONSE: P1 STA 1 4 5 6 7 8 FC FT RESPONDER SCRIPT: 72 year old, Female, Conscious, Breathing. Chest Pain (Non-Traumatic). Abnormal breathing. Cal
-CAD:FYI: ;UNCON;8732 RIVER VALLEY RD;[Medical Priority Info] RESPONSE: P1 STA 1 2 3 4 5 6 7 8 FC FT RESPONDER SCRIPT: 63 year old, Female, Conscious, Breathing. Unconscious / Fainting (Near). Not alert. Caller Statement: UNCON.
-CAD:FYI: ;HEMLAC;SHEHAN RD/WHITEWOOD RD;[Medical Priority Info]RESPONSE: P1 STA 1 4 5 6 7 8 FC FT RESPONDER SCRIPT: 35 year old, Female, Conscious, Brea
-
-Pagecopy-Fr:CAD@lc911\nCAD:FYI: ;CHSTPN;7251 HAMBURG RD;WELLE RD;[Medical Priority Info] RESPONSE: P1 STA 1 3 4 5 6 7 8 FC FT RESPONDER S
-*/
-
-public class DispatchAParser extends SmsMsgParser {
+public class DispatchAParser extends FieldProgramParser {
   
-  public DispatchAParser(String defCity, String defState) {
-    super(defCity, defState);
+  private boolean leadID = false;
+  
+  // Pattern searching for a leading square bracket or semicolon
+  private static final Pattern DELIM = Pattern.compile("\\[|;");
+  
+  // Pattern searching for "PROBLEM: or "RESPONDER SCRIPT:"
+  private static final Pattern KEYWORD = Pattern.compile("\\b(PROBLEM:|RESPONDER SCRIPT:)");
+  
+  public DispatchAParser(String defCity, String defState, String program) {
+    super(defCity, defState, "SKIP");
+    setup(program);
+  }
+  
+  public DispatchAParser(Properties cityCodes, String defCity, String defState, String program) {
+    super(cityCodes, defCity, defState, "SKIP");
+    setup(program);
+  }
+  
+  public DispatchAParser(String[] cityList, String defCity, String defState, String program) {
+    super(cityList, defCity, defState, "SKIP");
+    setup(program);
   }
 
-  private boolean isPageMsg(String body) {
-    int pt = body.indexOf("CAD:");
-    return (pt >= 0);
+  private void setup(String program) {
+    if (program.startsWith("ID:")) {
+      leadID = true;
+      program = program.substring(3).trim();
+    }
+    setProgram(program);
   }
 
   @Override
   protected boolean parseMsg(String body, Data data) {
     
-    if (!isPageMsg(body)) return false;
-    
-    body = body.trim();
-    String[] AData = body.split(";");
-    
-    if (AData.length <= 1) return false;
-    data.strCall = AData[1].trim();
-    
-    if (AData.length <= 2) return false;
-    parseAddress(AData[2].replace("-", " "), data);
-    
-    int ndx = 3;
-    while (ndx < AData.length) {
-       String fld = AData[ndx].trim();
-       int pt = fld.indexOf('[');
-       if (pt >= 0) {
-         data.strSupp = fld.substring(0,pt).trim();
-         
-         // Look for extra information behind the date/time mark
-         pt = fld.indexOf(']', pt+1);
-         if (pt < 0) break;
-         fld = fld.substring(pt+1).trim();
-         
-         // Two districts store data in different ways
-         // Livingston starts with a RESPONSE: code
-         // and we want to grab everything behind a SCRIPT: token
-         String extra = "";
-         if (fld.startsWith("RESPONSE:")) {
-           Parser p = new Parser(fld);
-           extra = p.getLastOptional("SCRIPT:");
-         }
-         
-         // Everyone else wants everything between date/time marks
-         else {
-           Parser p = new Parser(fld);
-           extra = p.get("["); 
-         }
-         
-         // If we got anything, add it to supplemental info
-         if (extra.length() > 0) {
-           if (data.strSupp.length() > 0) data.strSupp += " / ";
-           data.strSupp += extra;
-         }
-         
-         // And break out of here
-         break;
-       }
-       if (data.strCross.length() > 0) data.strCross += " & ";
-       data.strCross += fld;
-       ndx++;
+    // If format has a leading ID, strip that off
+    if (leadID) {
+      int pt = body.indexOf(':');
+      if (pt < 0) return false;
+      data.strCallId = body.substring(0,pt).trim();
+      if (!NUMERIC.matcher(data.strCallId).matches()) return false;
+      body = body.substring(pt+1).trim();
     }
     
-    // Look for script information behind the date/time marker
+    // Body must start with 'CAD:'
+    if (!body.startsWith("CAD:")) return false;
     
-    return true;
+    // Break down string into generally semicolon delimited fields
+    // with some complications involving text in square brackets
+    
+    List<String> fields = new ArrayList<String>();
+    Matcher match = DELIM.matcher(body);
+    int st = 4;
+
+    boolean priInfo = false;
+    while (st < body.length()) {
+      
+      // search for the next delimiter (either ; or [
+      char delim;
+      int pt;
+      if (match.find(st)) {
+        pt = match.start();
+        delim = body.charAt(pt);
+      } else {
+        pt = body.length();
+        delim = 0;
+      }
+
+      // The next field consists of everything from the starting point
+      // up to the location of the delimiter
+      // If the delimiter in front of this term was a square bracket term
+      // Search for and delete any text up to including the keywords
+      // "PROBLEM:" or "RESPONDER SCRIPT:"
+      
+      String field = body.substring(st,pt).trim();
+      if (priInfo) {
+        Matcher match2 = KEYWORD.matcher(field);
+        if (!match2.find()) field = null;
+        else field = field.substring(match2.end()).trim();
+      }
+      if (field != null) fields.add(field);
+      
+      // Find the start of the next field
+      // if the delimiter was an open square bracket, the start of the
+      // next field will follow the closing square bracket
+      st = pt+1;
+      priInfo = false;
+      if (delim == '[') {
+        pt = body.indexOf(']', st);
+        if (pt < 0) pt = body.length();
+        priInfo = body.substring(st, pt).contains("Priority Info");
+        st = pt + 1;
+      }
+    }
+    
+    // Almost there.  Check to see if the last term looks like a date/time stamp
+    // or the truncated remains of a date/time stamp.  If it does, remove it
+    int ndx = fields.size()-1;
+    if (ndx == 0) return false;  // don't think this can happen, but better check
+    String field = fields.get(ndx);
+    if (field.length()>0 && Character.isDigit(field.charAt(0))) {
+      field = field.replaceAll("\\d", "N");
+      if ("NN/NN/NNNN NN:NN:NN".startsWith(field)) fields.remove(ndx);
+    }
+
+    // We have a nice clean array of data fields, pass it to the programmer
+    // field processor to parse
+    return parseFields(fields.toArray(new String[fields.size()]), data);
   }
 }

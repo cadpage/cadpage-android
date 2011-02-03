@@ -1,7 +1,7 @@
 package net.anei.cadpage.parsers.MI;
 
 import net.anei.cadpage.SmsMsgInfo.Data;
-import net.anei.cadpage.parsers.SmsMsgParser;
+import net.anei.cadpage.parsers.dispatch.DispatchAParser;
 
 /*
 Muskegon County, MI 
@@ -15,10 +15,11 @@ CAD:FYI: ;2715 N WEBER RD;DULEY DR;W MCMILLAN RD;FGRAS
 CAD:FYI: ;4252 W BARD RD;SIMONELLI RD;ORSHAL RD;FAR
 CAD:FYI: ;N WEBER RD/W MICHILLINDA RD;PI1
  */
-public class MIMuskegonCountyParser extends SmsMsgParser {
+public class MIMuskegonCountyParser extends DispatchAParser {
   
   public MIMuskegonCountyParser() {
-    super("MUSKEGON COUNTY", "MI");
+    super("MUSKEGON COUNTY", "MI",
+           "SKIP ADDR! X? X? CALL");
   }
   
   @Override
@@ -29,24 +30,8 @@ public class MIMuskegonCountyParser extends SmsMsgParser {
   @Override
   protected boolean parseMsg(String body, Data data) {
     
-    if (!body.startsWith("CAD:FYI:")) return false;
-    
-    body = body.trim();
-    String[] AData = body.split(";");
-    
-    data.strCall = "Unkown";
-    
-    if (AData.length <= 1) return false;
-    parseAddress(AData[1].replace("-", " ").trim(), data);
-    
-    if (AData.length <= 2) return true;
-    for (int ndx = 2; ndx<AData.length-1; ndx++) {
-      if (data.strCross.length() > 0) data.strCross += "/";
-      data.strCross += AData[ndx].trim();
-    }
-    
-    data.strSupp = AData[AData.length-1];
-    
+    if (! super.parseMsg(body, data)) return false;
+    if (data.strCall.length() == 0) data.strCall = "Unknown";
     return true;
   }
 }

@@ -31,6 +31,7 @@ public class MILivingstonCountyParser extends DispatchAParser {
   }
   
   public MILivingstonCountyParser() {
-    super("LIVINGSTON COUNTY", "MI");
+    super("LIVINGSTON COUNTY", "MI",
+           "SKIP CALL ADDR! X? X? INFO+");
   }
 }

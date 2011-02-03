@@ -1,8 +1,7 @@
 package net.anei.cadpage.parsers.VA;
 
 import java.util.Properties;
-import net.anei.cadpage.SmsMsgInfo.Data;
-import net.anei.cadpage.parsers.SmsMsgParser;
+import net.anei.cadpage.parsers.dispatch.DispatchAParser;
 
 /***
 701:CAD:TRAFFIC ACCIDENT PI;100 MALMAISON RD/U S HIGHWAY NO 29; BLA
@@ -16,10 +15,10 @@ import net.anei.cadpage.parsers.SmsMsgParser;
 693:CAD:DIABETIC;228 BETHEL RD;DAN;BETHEL CT;[Medical Priority Info] PROBLEM: female sugar is high # PATS: 1 AGE: 83 Years SEX: Female CONSCIOU
 ***/
 
-public class VAPittsylvaniaCountyParser extends SmsMsgParser {
+public class VAPittsylvaniaCountyParser extends DispatchAParser {
 
 
-  private static final Properties PITTSCityCodes = buildCodeTable(new String[]{
+  private static final Properties CITY_CODES= buildCodeTable(new String[]{
 		  "BLA","Blairs",
 		  "DAN","Danville",
 		  "GRE","Gretna",
@@ -38,27 +37,7 @@ public class VAPittsylvaniaCountyParser extends SmsMsgParser {
         });
   
   public VAPittsylvaniaCountyParser() {
-    super("PITTSYLVANIA", "VA");
-  }
-
-  @Override
-  protected boolean parseMsg(String body, Data data) {
-    
-    if (!body.contains(":CAD:")) return false;
-    
-    // Needs some massaging before it can be run through the standard parser
-    body = body.replace(":CAD:", "CAD;");
-    body = body.replace("PROBLEM:", "PROBLEM;");
-    Properties props = parseMessage(body, ";", new String[]{"ID","Call","Addr","City","Cross","ExtraCross","Junk","Info"});
-    data.strCall = props.getProperty("Call", "");
-    parseAddress(props.getProperty("Addr", ""), data);
-    data.strCross = props.getProperty("Cross", "");
-    data.strCity= props.getProperty("City", "");
-    if (body.contains("PROBLEM;")){
-    	int idx = body.indexOf("PROBLEM;") +8;
-    	if (idx > 1 && (idx+8 < body.length())){ data.strSupp = body.substring(idx); data.strSupp=data.strSupp.trim();}
-    }
-    data.strCity = convertCodes(data.strCity, PITTSCityCodes);
-    return true;
+    super(CITY_CODES, "PITTSYLVANIA COUNTY", "VA",
+           "ID: CALL ADDR! CITY X? X? INFO+");
   }
 }
