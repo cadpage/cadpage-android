@@ -1,0 +1,70 @@
+package net.anei.cadpage.parsers.WI;
+
+import net.anei.cadpage.parsers.BaseParserTest;
+
+import org.junit.Test;
+
+
+public class WICalumetCountyParserTest extends BaseParserTest {
+  
+  public WICalumetCountyParserTest() {
+    setParser(new WICalumetCountyParser(), "CALUMET COUNTY", "WI");
+  }
+  
+  @Test
+  public void testParser() {
+
+    doTest("T1",
+        "HAFR       PRI: 1 INC: FHA110114000008 TYP: RESCUE ADVANCED LIFE AD: N8016 PIGEON RD CTY: CMSV CN: BRUSE CMT1: 11 MONTH OLD INFANT WITH SOMETHING STUCK I",
+        "SRC:HAFR",
+        "ID:FHA110114000008",
+        "CALL:RESCUE ADVANCED LIFE",
+        "ADDR:N8016 PIGEON RD",
+        "CITY:CALUMET COUNTY",
+        "NAME:BRUSE",
+        "INFO:11 MONTH OLD INFANT WITH SOMETHING STUCK I");
+
+    
+    doTest("T2",
+        "BUFD       PRI: 1 INC: FBU110115000010 TYP: ACCIDENT - C AD: CTY TK CE&OUTAGAMIE RD CTY: BUCT CN: KARNER,BEN CMT1: ***IF 2191 OR 2192 IS RESPONDING ALSO",
+        "SRC:BUFD",
+        "ID:FBU110115000010",
+        "CALL:ACCIDENT - C",
+        "ADDR:CTY TK CE & OUTAGAMIE RD",
+        "CITY:OUTAGAMIE COUNTY",
+        "NAME:KARNER,BEN",
+        "INFO:***IF 2191 OR 2192 IS RESPONDING ALSO");
+    
+    
+    doTest("T3",
+        "HAFR       PRI: 1 INC: FHA110116000010 TYP: RESCUE ADVANCED LIFE AD: W5872 EASTER LILY DR CTY: CMTH CN: SWEERE, SHANNON CMT1: 13YOA FEMALE BAD",
+        "SRC:HAFR",
+        "ID:FHA110116000010",
+        "CALL:RESCUE ADVANCED LIFE",
+        "ADDR:W5872 EASTER LILY DR",
+        "CITY:CALUMET COUNTY",
+        "NAME:SWEERE, SHANNON",
+        "INFO:13YOA FEMALE BAD");
+    
+    doTest("T4",
+        "HAFR       PRI: 1 INC: FHA110123000017 TYP: VEHICLE ACCIDENT AD: W7170 HWY 114 CTY: CMTH CN: VANDEHEY, FRANCIS CMT1: **POINT TO POINT TO OUSO TO DISPATCH",
+        "SRC:HAFR",
+        "ID:FHA110123000017",
+        "CALL:VEHICLE ACCIDENT",
+        "ADDR:W7170 HWY 114",
+        "CITY:CALUMET COUNTY",
+        "NAME:VANDEHEY, FRANCIS",
+        "INFO:**POINT TO POINT TO OUSO TO DISPATCH");
+    
+    doTest("T5",
+        "HAFR       PRI: 1 INC: FHA110123000016 TYP: RESCUE ADVANCED LIFE AD: N9664 EMERALD LN CTY: CMTH CN: HELLINGSON KATIE CMT1: 60YOA FEMALE DIFFICULTY BREATH",
+        "SRC:HAFR",
+        "ID:FHA110123000016",
+        "CALL:RESCUE ADVANCED LIFE",
+        "ADDR:N9664 EMERALD LN",
+        "CITY:CALUMET COUNTY",
+        "NAME:HELLINGSON KATIE",
+        "INFO:60YOA FEMALE DIFFICULTY BREATH");
+        
+  }
+}

@@ -1,0 +1,278 @@
+package net.anei.cadpage.parsers;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
+
+import org.junit.Test;
+
+import net.anei.cadpage.SmsMmsMessage;
+import net.anei.cadpage.SmsMsgInfo;
+
+import static org.junit.Assert.*;
+
+
+public abstract class BaseParserTest {
+
+  private SmsMsgParser parser;
+  private String defCity;
+  private String defState;
+  
+  public void setParser(SmsMsgParser parser, String defCity, String defState) {
+    this.parser = parser;
+    this.defCity = defCity;
+    this.defState = defState;
+  }
+  
+  public void setDefaults(String defCity, String defState) {
+    this.defCity = defCity;
+    this.defState = defState;
+  }
+  
+  @Test
+  public void testBadMsg() {
+    // Just call the parser with a badly formated msg and make sure it doesn't croak
+    SmsMsgInfo.Data data = new SmsMsgInfo.Data();
+    parser.parseMsg("", "BAD MSG", data);
+    parser.parseMsg("", "", data);
+  }
+  
+  public void doBadTest(String test) {
+    SmsMmsMessage msg = new SmsMmsMessage("1112223333", test, 0L, 0);
+    assertFalse(parser.isPageMsg(msg));
+  }
+  
+  /**
+   * Main parse test method
+   * @param title - test name
+   * @param test - test message
+   * @param result - expected results
+   */
+  public void doTest(String title, String test, String ... result) {
+    doSubTest(title, "", test, result);
+  }
+  
+  /**
+   * Main parse test method
+   * @param title - test name
+   * @param subject - test subject
+   * @param test - test message
+   * @param result - expected results
+   */
+  public void doSubTest(String title, String subject, String test, String ... result) {
+    
+    SmsMsgInfo.Data data = new SmsMsgInfo.Data();
+    for (String str : result) {
+      int pt = str.indexOf(':');
+      String sType = str.substring(0, pt);
+      str = str.substring(pt+1);
+      if (sType.equals("CALL")) data.strCall = str;
+      else if (sType.equals("PLACE")) data.strPlace = str;
+      else if (sType.equals("ADDR")) data.strAddress = str;
+      else if (sType.equals("CITY")) data.strCity = str;
+      else if (sType.equals("APT")) data.strApt = str;
+      else if (sType.equals("X")) data.strCross = str;
+      else if (sType.equals("BOX")) data.strBox = str;
+      else if (sType.equals("UNIT")) data.strUnit = str;
+      else if (sType.equals("ST")) data.strState = str;
+      else if (sType.equals("MAP")) data.strMap = str;
+      else if (sType.equals("ID")) data.strCallId = str;
+      else if (sType.equals("PHONE")) data.strPhone = str;
+      else if (sType.equals("INFO")) data.strSupp = str;
+      else if (sType.equals("SRC")) data.strSource = str;
+      else if (sType.equals("CODE")) data.strCode = str;
+      else if (sType.equals("NAME")) data.strName = str;
+      else fail("Keyword " + sType + " is not defined");
+    }
+    
+    SmsMmsMessage msg = new SmsMmsMessage("1112223333", test, 0L, 0);
+    assertTrue(title + ":parse", parser.isPageMsg(msg));
+    SmsMsgInfo info = msg.getInfo();
+    
+    assertEquals(title + ":Call", data.strCall, info.getCall());
+    assertEquals(title + ":Place", data.strPlace, info.getPlace());
+    assertEquals(title + ":Address", data.strAddress, info.getAddress());
+    assertEquals(title + ":City", data.strCity, info.getCity());
+    assertEquals(title + ":Apt", data.strApt, info.getApt());
+    assertEquals(title + ":Cross", data.strCross, info.getCross());
+    assertEquals(title + ":Box", data.strBox, info.getBox());
+    assertEquals(title + ":Unit", data.strUnit, info.getUnit());
+    assertEquals(title + ":State", data.strState, info.getState());
+    assertEquals(title + ":Map", data.strMap, info.getMap());
+    assertEquals(title + ":ID", data.strCallId, info.getCallId());
+    assertEquals(title + ":Phone", data.strPhone, info.getPhone());
+    assertEquals(title + ":Supp", data.strSupp, info.getSupp());
+    assertEquals(title + ":Src", data.strSource, info.getSource());
+    assertEquals(title + ":Code", data.strCode, info.getCode());
+    assertEquals(title + ":Name", data.strName, info.getName());
+    
+    assertEquals(title + ":DefCity", defCity, info.getDefCity());
+    assertEquals(title + ":DefState", defState, info.getDefState());
+  }
+  
+  /**
+   * Generate test code for current parser from text string read from stdin
+   */
+  public void generateTests() {
+    generateTests("T1");
+  }
+  
+  private static final Map<String,String> KEYWORD_MAP = new HashMap<String,String>(); 
+  static {
+    KEYWORD_MAP.put("CALL", "CALL");
+    KEYWORD_MAP.put("PLACE", "PLACE");
+    KEYWORD_MAP.put("ADDR", "ADDR");
+    KEYWORD_MAP.put("CITY", "CITY");
+    KEYWORD_MAP.put("APT", "APT");
+    KEYWORD_MAP.put("X", "X");
+    KEYWORD_MAP.put("BOX","BOX");
+    KEYWORD_MAP.put("UNIT", "UNIT");
+    KEYWORD_MAP.put("ST", "ST");
+    KEYWORD_MAP.put("MAP", "MAP");
+    KEYWORD_MAP.put("ID", "ID");
+    KEYWORD_MAP.put("PHONE", "PHONE");
+    KEYWORD_MAP.put("INFO", "INFO");
+    KEYWORD_MAP.put("SRC", "SRC");
+    KEYWORD_MAP.put("CODE", "CODE");
+    KEYWORD_MAP.put("NAME", "NAME");
+  }
+  
+  /**
+   * Generate test code for current parser from text string read from stdin
+   * @param title title of first test
+   */
+  public void generateTests(String title) {
+    
+    // Get list of terms to display
+    String[] terms = getTestTerms();
+    
+    // Read list of test strings
+    String[] testMsgs = getTestMsgs();
+    
+    // And generate a test for each test string
+    for (String testMsg : testMsgs) {
+      generateTest(title, testMsg, terms);
+      title = incTitle(title);
+    }
+  }
+  
+  private String[] getTestTerms() {
+
+    String prog;
+    if (parser instanceof FieldProgramParser) {
+      prog = ((FieldProgramParser)parser).getProgram();
+      prog = prog.replaceAll("\\(|\\)", " ");
+    } else {
+      throw new RuntimeException("Cannot generate tests for this parser");
+    }
+    
+    List<String> termList = new ArrayList<String>();
+    Set<String> termSet = new HashSet<String>();
+    for (String term : prog.split(" +")) {
+      int pt = 0;
+      while (pt < term.length() && Character.isUpperCase(term.charAt(pt))) pt++;
+      term = term.substring(0,pt);
+      term = KEYWORD_MAP.get(term);
+      if (term == null) continue;
+      for (String s : term.split("\\|")) {
+        if (termSet.add(s)) termList.add(s);
+      }
+    }
+    
+    return termList.toArray(new String[termList.size()]);
+  }
+
+  /**
+   * Get a list of test messages. terminated by a blank line or EOF
+   * @return array of test messages
+   */
+  private String[] getTestMsgs() {
+    
+    BufferedReader ir = new BufferedReader(new InputStreamReader(System.in));
+    
+    List<String> msgList = new ArrayList<String>();
+    System.out.println("Enter test messages, terminated by an empty line");
+    while (true) {
+      String line = null;
+      try { line = ir.readLine(); } catch (IOException ex) {};
+      if (line == null) break;
+      line = line.trim();
+      if (line.length() == 0) break;
+      msgList.add(line);
+    }
+    return msgList.toArray(new String[msgList.size()]);
+  }
+
+  /**
+   * Write one test code to stdout
+   * @param title test title
+   * @param test text message to be tested
+   * @param terms list of expected value names
+   */
+  private void generateTest(String title, String test, String[] terms) {
+    
+    SmsMmsMessage msg = new SmsMmsMessage("1112223333", test, 0L, 0);
+    boolean result =  parser.isPageMsg(msg);
+    SmsMsgInfo info = msg.getInfo();
+    
+    System.out.println("");
+    System.out.println("    doTest(\"" + title + "\"," + (!result ? "    // ****Parser failed****" : ""));
+    System.out.print("        \"" + test + "\"");
+    for (int jj = 0; jj<terms.length; jj++) {
+      String term = terms[jj];
+      String value = getValue(info, term);
+      if (value.length() == 0) continue;
+      System.out.print(",\n        \"" + term + ":" + value + "\"");
+    }
+    System.out.println(");");
+  }
+
+  /**
+   * Retrieve specified value from message info object
+   * @param info message info object
+   * @param sType requested value type
+   * @return value of requested type
+   */
+  private String getValue(SmsMsgInfo info, String sType) {
+    if (sType.equals("CALL")) return info.getCall();
+    if (sType.equals("PLACE")) return info.getPlace();
+    if (sType.equals("ADDR")) return info.getAddress();
+    if (sType.equals("CITY")) return info.getCity();
+    if (sType.equals("APT")) return info.getApt();
+    if (sType.equals("X")) return info.getCross();
+    if (sType.equals("BOX")) return info.getBox();
+    if (sType.equals("UNIT")) return info.getUnit();
+    if (sType.equals("ST")) return info.getState();
+    if (sType.equals("MAP")) return info.getMap();
+    if (sType.equals("ID")) return info.getCallId();
+    if (sType.equals("PHONE")) return info.getPhone();
+    if (sType.equals("INFO")) return info.getSupp();
+    if (sType.equals("SRC")) return info.getSource();
+    if (sType.equals("CODE")) return info.getCode();
+    if (sType.equals("NAME")) return info.getName();
+    else throw new RuntimeException("Keyword " + sType + " is not defined");
+  }
+  
+  /**
+   * Increment test title
+   * @param title current test title
+   * @return next test title
+   */
+  private String incTitle(String title) {
+    
+    // Identify the trailing digit portion of the title
+    int brk = 0;
+    for (int jj = 0; jj<title.length(); jj++) {
+      if (! Character.isDigit(title.charAt(jj))) brk = jj+1;
+    }
+    int testNo = Integer.parseInt(title.substring(brk)) + 1;
+    return title.substring(0,brk) + String.format("%" + (title.length()-brk) + "d", testNo);
+    
+  }
+}
