@@ -116,13 +116,6 @@ public abstract class BaseParserTest {
     assertEquals(title + ":DefState", defState, info.getDefState());
   }
   
-  /**
-   * Generate test code for current parser from text string read from stdin
-   */
-  public void generateTests() {
-    generateTests("T1");
-  }
-  
   private static final Map<String,String> KEYWORD_MAP = new HashMap<String,String>(); 
   static {
     KEYWORD_MAP.put("CALL", "CALL");
@@ -145,12 +138,32 @@ public abstract class BaseParserTest {
   
   /**
    * Generate test code for current parser from text string read from stdin
+   */
+  public void generateTests() {
+    generateTests("T1", null);
+  }
+  
+  /**
+   * Generate test code for current parser from text string read from stdin
    * @param title title of first test
    */
   public void generateTests(String title) {
+    generateTests(title, null);
+  }
+    
+    /**
+     * Generate test code for current parser from text string read from stdin
+     * @param title title of first test
+     */
+    public void generateTests(String title, String fieldNames) {
     
     // Get list of terms to display
-    String[] terms = getTestTerms();
+    String[] terms;
+    if (fieldNames != null) {
+      terms = fieldNames.split(" ");
+    } else {
+      terms = getTestTerms();
+    }
     
     // Read list of test strings
     String[] testMsgs = getTestMsgs();
@@ -169,7 +182,7 @@ public abstract class BaseParserTest {
       prog = ((FieldProgramParser)parser).getProgram();
       prog = prog.replaceAll("\\(|\\)", " ");
     } else {
-      throw new RuntimeException("Cannot generate tests for this parser");
+      throw new RuntimeException("Cannot construct field list for this parser");
     }
     
     List<String> termList = new ArrayList<String>();
@@ -178,10 +191,11 @@ public abstract class BaseParserTest {
       int pt = 0;
       while (pt < term.length() && Character.isUpperCase(term.charAt(pt))) pt++;
       term = term.substring(0,pt);
-      term = KEYWORD_MAP.get(term);
-      if (term == null) continue;
-      for (String s : term.split("\\|")) {
-        if (termSet.add(s)) termList.add(s);
+      String term2 = ((FieldProgramParser)parser).getField(term).getFieldNames();
+      if (term2 == null) term2 = KEYWORD_MAP.get(term);
+      if (term2 == null) continue;
+      for (String term3 : term2.split(" +")) {
+        if (termSet.add(term3)) termList.add(term3);
       }
     }
     
@@ -218,11 +232,16 @@ public abstract class BaseParserTest {
   private void generateTest(String title, String test, String[] terms) {
     
     SmsMmsMessage msg = new SmsMmsMessage("1112223333", test, 0L, 0);
-    boolean result =  parser.isPageMsg(msg);
-    SmsMsgInfo info = msg.getInfo();
+    if (!parser.isPageMsg(msg)) {
+      System.out.println();
+      System.out.println("// ************************ PARSE FAILURE *****************************");
+      System.out.println("// " + test);
+      return;
+    }
     
+    SmsMsgInfo info = msg.getInfo();
     System.out.println("");
-    System.out.println("    doTest(\"" + title + "\"," + (!result ? "    // ****Parser failed****" : ""));
+    System.out.println("    doTest(\"" + title + "\",");
     System.out.print("        \"" + test + "\"");
     for (int jj = 0; jj<terms.length; jj++) {
       String term = terms[jj];
