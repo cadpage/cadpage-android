@@ -573,6 +573,17 @@ public class FieldProgramParser extends SmartAddressParser {
      * parse data field
      */
     abstract public void parse(String field, Data data);
+    
+    /**
+     * Return blank separated names of the base info fields that might be set by this field
+     * If this returns null, the name of of the field term used to look up
+     * this field will be used.  It should be overridden by any field processor
+     * that sets an info field other than the one described by its name
+     * @return
+     */
+    public String getFieldNames() {
+      return null;
+    }
   }
 
   /**
@@ -784,6 +795,11 @@ public class FieldProgramParser extends SmartAddressParser {
         }
       }
       data.strSupp = append(data.strSupp, " / ", field);
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "INFO APT";
     }
   }
 
