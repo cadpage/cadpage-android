@@ -200,6 +200,38 @@ public class FieldProgramParserTest extends BaseParserTest {
   }
   
   @Test
+  public void testBackToBackOptionalFields() {
+    
+    doFieldTest("preset - present",
+        "PLACE? CITY INFO? ID",
+        "BIG MAC;KEN TOWN;LINE1;666",
+        "PLACE:BIG MAC",
+        "CITY:KEN TOWN",
+        "INFO:LINE1",
+        "ID:666");
+    
+    doFieldTest("preset - ABSENT",
+        "PLACE? CITY INFO? ID",
+        "BIG MAC;KEN TOWN;666",
+        "PLACE:BIG MAC",
+        "CITY:KEN TOWN",
+        "ID:666");
+    
+    doFieldTest("absent - present",
+        "PLACE? CITY INFO? ID",
+        "KEN TOWN;LINE1;666",
+        "CITY:KEN TOWN",
+        "INFO:LINE1",
+        "ID:666");
+    
+    doFieldTest("absent - absent",
+        "PLACE? CITY INFO? ID",
+        "KEN TOWN;666",
+        "CITY:KEN TOWN",
+        "ID:666");
+  }
+  
+  @Test
   public void testRepeatFields() {
     
     doFieldTest("Infinite repeat field",
