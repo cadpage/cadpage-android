@@ -1,5 +1,7 @@
 package net.anei.cadpage.parsers;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -73,7 +75,7 @@ public class FieldProgramParser extends SmartAddressParser {
   // Original program string
   private String programStr;
   
-  private Step program;
+  private StepLink startLink;
   
   public FieldProgramParser(String[] cities, String defCity, String defState, String programStr) {
     super(cities, defCity, defState);
@@ -109,51 +111,48 @@ public class FieldProgramParser extends SmartAddressParser {
     this.programStr = programStr;
     
     // Split program string into field terms
-    String[] fieldTerms = programStr.split(" ");
+    List<String> fieldTerms = tokenize(programStr);;
+    
+    // Construct a head link and tail node and compile the tokens between them
+    this.startLink = new StepLink(0);
+    Step tail = new Step(null, false);
+    compile(this.startLink, fieldTerms, tail);
+  }
+  
+  private void compile(StepLink headLink, List<String> fieldTerms, Step tail) {
     
     // Build arrays of term info and of field steps for each field term
-    // The steps array has an extra entry at the beginning that is only used
-    // to track the program start point
-    FieldTermInfo[] infoList = new FieldTermInfo[fieldTerms.length];
-    Step[] fieldSteps = new Step[fieldTerms.length+1];
-    fieldSteps[0] = new Step(null, false);
+    FieldTermInfo[] infoList = new FieldTermInfo[fieldTerms.size()];
+    Step[] fieldSteps = new Step[fieldTerms.size()];
 
     // First pass through the field terms, constructing the appropriate field
     // and program step that will be used.
-    for (int ndx = 0; ndx < fieldTerms.length; ndx++) {
-      FieldTermInfo info = new FieldTermInfo(fieldTerms[ndx]);
+    for (int ndx = 0; ndx < fieldTerms.size(); ndx++) {
+      FieldTermInfo info = new FieldTermInfo(fieldTerms.get(ndx));
       infoList[ndx] = info; 
       Field field = getField(info.name);
       field.setQual(info.qual);
       field.setTrigger(info.trigger);
-      fieldSteps[ndx+1] = new Step(field, info.required);
+      fieldSteps[ndx] = new Step(field, info.required);
     }
 
-    // The first (dummy) step just links to the first real step.  We have to
-    // keep the 1 field increment so things work out if the first field
-    // is a deferred optional field, but we will invoke it with an initial
-    // index of -1 so things will work out
+    // Initialize stuff, and link the heading link to the first step
     int optBreak = -1;
     boolean optRepeat = false;
-    fieldSteps[0].setNextStep(fieldSteps[1]);
-    
-    // And we need a tail step so fail branches at the end of the program
-    // will have something to branch to
-    Step tail = new Step(null, false);
-    
+    headLink.setLink(fieldSteps[0]);
     
     // Now to start a second pass, this will will figure out just how the
     // steps need to be linked together
-    for (int ndx = 0; ndx < fieldTerms.length; ndx++) {
+    for (int ndx = 0; ndx < fieldTerms.size(); ndx++) {
       
-      // Get the current, and next steps in normal sequence
-      Step step = fieldSteps[ndx+1];
-      Step next = ndx+1 < fieldTerms.length ? fieldSteps[ndx+2] : tail;
+      // Get the previous link, and current, and next steps in normal sequence
+      Step step = fieldSteps[ndx];
+      Step next = ndx+1 < fieldTerms.size() ? fieldSteps[ndx+1] : tail;
       
       // we will start by assuming things progress in a normal flow, until
       // we determine otherwise.  Next data increment defaults to one which
       // is what we want
-      step.setNextStep(next);
+      step.getSuccLink().setLink(next);
       
       // Check term info for things that would disrupt the natural order of
       // things
@@ -163,67 +162,87 @@ public class FieldProgramParser extends SmartAddressParser {
       // somewhere behind us.
       if (optBreak >= 0) {
         
-        // We are looking for a normal testable field that can resolve the
+        // We are looking for a normal testable field that can resolve the condition
         // status of the untestable one.  If we find repeat or optional step
         // before that, all is lost
-        if (info.repeat || info.optional) {
-          throw new RuntimeException("Deferred optional status of " + fieldTerms[optBreak] + " not resolved before " + fieldTerms[ndx]);
+        if (info.repeat || info.optional || info.branch) {
+          throw new RuntimeException("Deferred optional status of " + fieldTerms.get(optBreak) + " not resolved before " + fieldTerms.get(ndx));
         }
         
         // OK, is this our testable determination step?
         if (step.canFail()) {
           
-          // It is, now things get tricky
-          // If this is a normal deferred condition, The decision step needs to 
-          // be cloned because it will have to appear twice in the step program.
-          // This isn't a problem when a repeat condtional is deferrred
-          Step newStep = optRepeat ? step : step.cloneStep();
-          
-          // The step before the optional break has to jump to our new cloned
-          // decision step, adjusting the field increment under the assumption 
-          // that there the optional data field is not, in fact, present.
+          // There are three reasons why a condition check is deferred
+          // First it could be terminating an earlier repeat block
           int delta = ndx - optBreak;
-          fieldSteps[optBreak].setNextStep(newStep);
-          fieldSteps[optBreak].setNextInc(delta);
-          
-          // A step failure here implies that the optional field does exist
-          // Failure branch will jump back to the optional branch, and proceed
-          // normally from there, which includes processing the original step
-          // for this field without a failure option
-          Step optStep = fieldSteps[optBreak+1];
-          newStep.setFailStep(optStep);
-          newStep.setFailInc(-(delta-1));
-          
-          // If this is a deferred conditional repeat, the optional repeat
-          // step has to jump back to this decision step to see if it should
-          // continue looping.  If this isn't a repeat, we do nothing, and
-          // the logic will flow normally along the steps between the option
-          // step and the decision step, executing the original step for
-          // this field that still does not have a failure branch
+          Step optStep = fieldSteps[optBreak];
           if (optRepeat) {
-            optStep.setNextStep(step);
-            optStep.setNextInc(delta);
+            
+            // Redirect all links to the conditional repeat node to this, decision, node
+            // Assuming that the optional node field does not exist.
+            // Note, this include the link originally set up from the repeat node to itself
+            fieldSteps[optBreak].redirect(step, delta-1);
+            
+            // Failure link jumps back to the optional repeat node, which we now assume
+            // does exist
+            step.getFailLink().setLink(optStep, -(delta-1));
+            
+            // Success link is trickier
+            // If optional node and decision node are next to each other,
+            // Success link just moves on the the next node normally
+            if (delta == 1) {
+              step.getSuccLink().setLink(next);
+            }
+            
+            // If there is a sequence of steps between the option and decision
+            // steps success link jumps back to the first one, the success
+            // link of the last one jumps over the decision step to point to
+            // the following step
+            else {
+              step.getSuccLink().setLink(fieldSteps[optBreak+1], -delta);
+              fieldSteps[ndx-1].getSuccLink().setLink(next, 1);
+            }
           }
           
-          // The success branch will execute a chain of steps cloned from all
-          // of the steps between the optional step and this decision step
-          // (which may be empty if the two are next to each other) then
-          // skip this step and take up normal processing with the next step
-          // For repeat conditional process, it is not necessary to clone the
-          // intervening steps because they repeating step never tries to
-          // execute them
-          newStep.setNextInc(-(delta-1));
-          Step prev = newStep;
-          int nextInc = 1;
-          for (int jj = optBreak+1; jj<ndx; jj++) {
-            nextInc = 2;
-            newStep = fieldSteps[jj+1];
-            if (!optRepeat) newStep = newStep.cloneStep();
-            prev.setNextStep(newStep);
-            prev = newStep;
+          // Otherwise this is a normal deferred conditional test
+          else {
+            
+            // The decision step needs to 
+            // be cloned because it will have to appear twice in the step program.
+            Step newStep = step.cloneStep();
+
+            // redirect all links to the optional step to the decision step
+            // assuming that the optional field does not exist
+            optStep.redirect(newStep, delta-1);
+            
+            // A step failure here implies that the optional field does exist
+            // Failure branch will jump back to the optional branch, and proceed
+            // normally from there, which includes processing the original step
+            // for this field without a failure option
+            newStep.getFailLink().setLink(optStep,-(delta-1));
+            
+            // If the optional and decision steps are next to each other
+            // the success branch can just move on the the next step normally
+            if (delta == 1) {
+              newStep.getSuccLink().setLink(next);
+            }
+            
+            // Otherwise, the success branch will execute a chain of steps cloned from all
+            // of the steps between the optional step and this decision step
+            // (which may be empty if the two are next to each other) then
+            // skip this step and take up normal processing with the next step
+            else {
+              int incAdj = -delta;
+              StepLink prevLink = newStep.getSuccLink();
+              for (int jj = optBreak+1; jj<ndx; jj++) {
+                newStep = fieldSteps[jj].cloneStep();
+                prevLink.setLink(newStep, incAdj);
+                prevLink = newStep.getSuccLink();
+                incAdj = 0;
+              }
+              prevLink.setLink(next, 1);
+            }
           }
-          prev.setNextStep(next);
-          prev.setNextInc(nextInc);
           
           // And finally, reset the optional break so we can resume
           // normal processing
@@ -236,16 +255,16 @@ public class FieldProgramParser extends SmartAddressParser {
         
         // It does, normal chain links back to the same step, processing
         // Consecutive fields until something happens
-        step.setNextStep(step);
+        step.getSuccLink().setLink(step);
         
         // If optional flag is set as well as repeat flag, we have some other
-        // wierdness
+        // weirdness
         if (info.optional) {
           
           // If the step can detect failures, we can set the failure branch
           // to the next step, processing the same field there
           if (step.canFail()) {
-            step.setFailStep(next);
+            step.getFailLink().setLink(next);
           } 
           
           // If it can't detect failures, we have to defer the decision
@@ -265,7 +284,7 @@ public class FieldProgramParser extends SmartAddressParser {
         // We just set the fail condition to process the next step with the
         // same data field
         if (step.canFail()) {
-          step.setFailStep(next);
+          step.getFailLink().setLink(next);
         }
         
         // Otherwise, life gets complicated.
@@ -277,16 +296,87 @@ public class FieldProgramParser extends SmartAddressParser {
           optBreak = ndx;
         }
       }
+      
+      // Otherwise, there is nothing unusual or extraordinary about this step
+      // It will just link to the next step and field.
+      // Unless it is a skip step in which case we can redirect all incoming
+      // links to the next step and field
+      else if (step.isSkipStep()) {
+        step.redirect(next, 1);
+      } else {
+        step.getSuccLink().setLink(next);
+      }
     }
     
     // End of second pass
     // If we are still trying to resolve an optional break, complain
     if (optBreak >= 0) {
-      throw new RuntimeException("Deferred optional status of " + fieldTerms[optBreak] + " was never resolved");
+      throw new RuntimeException("Deferred optional status of " + fieldTerms.get(optBreak) + " was never resolved");
+    }
+  }
+  
+  /**
+   * Break program string up into an array of tokens.  Tokens are generally
+   * separated by blanks, but a list of items in parenethesis will be combined
+   * into a single token
+   * @param programStr program string to be compiled
+   * @return list of program terms from program string
+   */
+  private static List<String> tokenize(String programStr) {
+    
+    // Initialize stuff
+    List<String> tokenList = new ArrayList<String>();
+    StringBuilder sb = null;
+    int level = 0;
+    
+    // Break string down into blank delimited tokens and run through them
+    for (String token : programStr.split(" +")) {
+      
+      // If we are working at the bottom level (which most of the time we will)
+      if (level == 0) {
+        
+        if (token.equals(")")) {
+          throw new RuntimeException("Mismatched parens in " + programStr);
+        }
+        
+        // Check for open paren.  If we find one, crate a StringBuilder and 
+        // save it there
+        if (token.equals("(")) {
+          sb = new StringBuilder(token);
+          level++;
+        }
+        
+        // Otherwise add this token to the token list
+        else tokenList.add(token);
+      } 
+      
+      // If we aren't at level zero, we are working with something in parenthesis
+      else {
+        
+        // Append this token to the saved string builder
+        sb.append(' ');
+        sb.append(token);
+        
+        // Adjust the parenthesis nesting level
+        if (token.equals("(")) level++;
+        if (token.equals(")")) {
+          if (--level == 0) {
+            
+            // If we have closed the last paren create a token from the 
+            // StringBuilder and save it in the token list
+            tokenList.add(sb.toString());
+            sb = null;
+          }
+        }
+      }
     }
     
-    // Save first node as the start of the step program
-    program = fieldSteps[0];
+    // All done, but make sure we don't have any unmatched open parens
+    if (level > 0) {
+      throw new RuntimeException("Missing closing paren in" + programStr);
+    }
+    
+    return tokenList;
   }
   
   /**
@@ -299,6 +389,7 @@ public class FieldProgramParser extends SmartAddressParser {
     boolean required = false;
     boolean repeat = false;
     boolean optional = false;
+    boolean branch = false;
     char trigger = 0;
     
     FieldTermInfo(String fieldTerm) {
@@ -359,7 +450,7 @@ public class FieldProgramParser extends SmartAddressParser {
    * @return true if parsing was successful
    */
   public boolean parseFields(String[] fields, Data data) {
-    return program.process(fields, -1, data);
+    return startLink.exec(fields, 0, data);
   }
   
   
@@ -369,38 +460,73 @@ public class FieldProgramParser extends SmartAddressParser {
     private boolean required;
     
     private Field field;
-    private Step nextStep = null;
-    private int nextInc = 1;
-    private Step failStep = null;;
-    private int failInc = 0;
+    private StepLink succLink = new StepLink(1);
+    private StepLink failLink= null;
     
+    // List of all links pointing to this step
+    private List<StepLink> inLinks = new ArrayList<StepLink>();
+    
+    /**
+     * Constructor
+     * @param field Field processed by this step (can be null)
+     * @param required true if this is a required step
+     */
     public Step(Field field, boolean required) {
       this.field = field;
       this.required = required;
     }
 
-    public void setNextStep(Step nextStep) {
-      this.nextStep = nextStep;
-    }
-
-    public void setNextInc(int nextInc) {
-      this.nextInc = nextInc;
-    }
-
-    public void setFailStep(Step failStep) {
-      this.failStep = failStep;
-    }
-
-    public void setFailInc(int failInc) {
-      this.failInc = failInc;
+    /**
+     * @return Link to be taken on step parse succeeds
+     */
+    public StepLink getSuccLink() {
+      return succLink;
     }
     
+    /**
+     * @return link to be taken when step parse fails
+     */
+    public StepLink getFailLink() {
+      if (failLink == null) failLink = new StepLink(0);
+      return failLink;
+    }
+    
+    /**
+     * @return list of all links pointing to this step
+     */
+    public List<StepLink> getInLinks() {
+      return inLinks;
+    }
+    
+    /**
+     * @return true if step can validate its data field (ie can report parse failure)
+     */
     public boolean canFail() {
-      return field.doCanFail();
+      return field != null && field.doCanFail();
     }
     
+    /**
+     * @return a clone of the current step
+     */
     public Step cloneStep() {
       return new Step(field, required);
+    }
+    
+    /**
+     * @return true if this is a NOP skip step
+     */
+    public boolean isSkipStep() {
+      return field == null || field.getClass() == SkipField.class;
+    }
+    
+    /**
+     * Redirect all links pointing to this step to some other step
+     * possibly adjusting the data field increment
+     * @param newStep New step that links should be redirected to
+     * @param incAdj Data field increment adjustment
+     */
+    public void redirect(Step newStep, int incAdj) {
+      while (! inLinks.isEmpty()) inLinks.remove(0).setLink(newStep, incAdj);
     }
 
     /**
@@ -427,7 +553,7 @@ public class FieldProgramParser extends SmartAddressParser {
       // not, it will not be given that option
       boolean success = true;
       if (field != null) {
-        if (failStep != null) {
+        if (failLink != null) {
           success = field.doCheckParse(flds[ndx], data);
         }
         else {
@@ -435,15 +561,14 @@ public class FieldProgramParser extends SmartAddressParser {
         }
       }
       
-      // Now determine which step and data field increment should be used
-      Step step = (success ? nextStep : failStep);
-      int inc = (success ? nextInc : failInc);
+      // Jump to the next step
+      StepLink link = (success ? succLink : failLink);
       
-      // if the next step is null, the program has completed and we can
+      // if the next step link is null, the program has completed and we can
       // return a successful result.  Otherwise call ourselves to process
       // the next step on the program.
-      if (step == null) return true;
-      return step.process(flds, ndx + inc, data);
+      if (link == null) return true;
+      return link.exec(flds, ndx, data);
     }
     
     /**
@@ -460,16 +585,51 @@ public class FieldProgramParser extends SmartAddressParser {
       if (required) return false;
       
       // If there are no more program steps, return success
-      if (nextStep == null) return true;
+      if (succLink == null) return true;
 
       // One special case, if the success step loops back to itself
       // follow the fail step instead of the next step
-      Step step = (nextStep == this ? failStep : nextStep);
-      if (step == null) return true;
+      StepLink link = succLink;
+      if (link.getStep() == this) link = failLink;
+      if (link == null || link.getStep() == null) return true;
       
       // Still undetermined, return the failure status of the next step
-      return step.checkFailure();
+      return link.getStep().checkFailure();
     }
+  }
+  
+  /**
+   * This class contains the information needed to link a Step to another Step
+   */
+  private static class StepLink {
+    private Step step;
+    private int inc;
+    
+    public StepLink(int inc) {
+      this.step = null;
+      this.inc = inc;
+    }
+    
+    public Step getStep() {
+      return step;
+    }
+    
+    public void setLink(Step step) {
+      setLink(step, 0);
+    }
+    
+    public void setLink(Step step, int incAdj) {
+      if (this.step != null) this.step.getInLinks().remove(this);
+      this.step = step;
+      if (step != null) step.getInLinks().add(this);
+      this.inc += incAdj;
+    }
+    
+    public boolean exec(String[] flds, int ndx, Data data) {
+      if (step == null) return true;
+      return step.process(flds, ndx+inc, data);
+    }
+    
   }
 
   /*
