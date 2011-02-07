@@ -40,7 +40,7 @@ public class DispatchDAPROParser extends SmartAddressParser {
 	
   private static final String[] KEYWORDS = new String[]{"LOC", "CFS", "CROSS"};
   
-  private static final Pattern MARKER = Pattern.compile("\\b([SRC]\\d\\d|DP\\d)\\b");
+  private static final Pattern MARKER = Pattern.compile("([SRC]\\d\\d|DP\\d)\\b");
   
   public DispatchDAPROParser(Properties cityCodeTable, String defCity, String defState) {
     super(cityCodeTable, defCity, defState);
@@ -54,6 +54,7 @@ public class DispatchDAPROParser extends SmartAddressParser {
     // Locate the marker to determine where our part of the message starts
     Matcher match = MARKER.matcher(body);
     if (! match.find()) return false;
+    if (match.start() > 20) return false;
     data.strSource = body.substring(match.start(), match.end());
     body = body.substring(match.end()).trim();
     
