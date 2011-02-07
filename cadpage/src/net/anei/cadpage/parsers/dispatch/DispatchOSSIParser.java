@@ -138,7 +138,7 @@ public class DispatchOSSIParser extends FieldProgramParser {
     // Almost there.  Check to see if the last term looks like a date/time stamp
     // or the truncated remains of a date/time stamp.  If it does, remove it
     int ndx = fields.size()-1;
-    if (ndx == 0) return false;  // don't think this can happen, but better check
+    if (ndx < 0) return false;
     String field = fields.get(ndx);
     if (field.length()>0 && Character.isDigit(field.charAt(0))) {
       field = field.replaceAll("\\d", "N");
