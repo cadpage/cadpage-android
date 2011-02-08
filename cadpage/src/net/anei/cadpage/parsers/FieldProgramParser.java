@@ -62,6 +62,19 @@ import net.anei.cadpage.SmsMsgInfo.Data;
  * in what order is made when the parser class is instantiated, the program
  * string you pass is compiled into a set of parse and validation steps which
  * can then be executed when a string needs to be parsed.
+ * 
+ * Conditional branches
+ * 
+ * Conditional branches are an advanced feature that can be incredibly
+ * useful in certain cases.  If there is a point in your program where
+ * different field patterns may be possible, they can be enclosed in
+ * parenthesis and separated by pipe characters.  For example
+ * 
+ * CALL ADDR ( CITY STATE | MAP ) INFO+
+ * 
+ * All of the conditional branches in a group, except the last one, must have
+ * contain a validatable field that will be used to determine if this is the
+ * correct branch to process
  */
 
 public class FieldProgramParser extends SmartAddressParser {
@@ -106,53 +119,74 @@ public class FieldProgramParser extends SmartAddressParser {
    * field assignments
    * @param programStr program string to be compiled
    */
-  protected void setProgram(String programStr) {
+  protected void setProgram(String program) {
     
-    this.programStr = programStr;
+    if (program == null) return;
     
-    // Split program string into field terms
-    List<String> fieldTerms = tokenize(programStr);;
+    this.programStr = program;
     
     // Construct a head link and tail node and compile the tokens between them
     this.startLink = new StepLink(0);
     Step tail = new Step(null, false);
-    compile(this.startLink, fieldTerms, tail);
+    compile(this.startLink, program, tail, null);
+    
+    // Now that we no longer need it, reduce the tail node
+    tail.removeSkip();
   }
   
-  private void compile(StepLink headLink, List<String> fieldTerms, Step tail) {
+  /**
+   * Compile program string into a chain of program steps
+   * @param headLink The step link that should end up pointing to the start
+   * of the program chain
+   * @param program Program string to be compiled
+   * @param tail Program step were all execution chains should terminate
+   * @param failStep If not null, the step that should be jumped to if
+   * a data stream cannot be matched to the program.  If null, no attempt 
+   * will be made to validate the data stream.
+   */
+  private void compile(StepLink headLink, String program, Step tail, Step failStep) {
+    
+    // Empty string is a special, easily handled, case
+    if (program.length() == 0) {
+      headLink.setLink(tail, 0);
+      return;
+    }
+    
+    // Split program string into field terms
+    String[] fieldTerms = tokenize(program);;
     
     // Build arrays of term info and of field steps for each field term
-    FieldTermInfo[] infoList = new FieldTermInfo[fieldTerms.size()];
-    Step[] fieldSteps = new Step[fieldTerms.size()];
+    FieldTermInfo[] infoList = new FieldTermInfo[fieldTerms.length];
+    Step[] fieldSteps = new Step[fieldTerms.length];
 
     // First pass through the field terms, constructing the appropriate field
     // and program step that will be used.
-    for (int ndx = 0; ndx < fieldTerms.size(); ndx++) {
-      FieldTermInfo info = new FieldTermInfo(fieldTerms.get(ndx));
-      infoList[ndx] = info; 
-      Field field = getField(info.name);
-      field.setQual(info.qual);
-      field.setTrigger(info.trigger);
+    for (int ndx = 0; ndx < fieldTerms.length; ndx++) {
+      FieldTermInfo info = new FieldTermInfo(fieldTerms[ndx]);
+      infoList[ndx] = info;
+      Field field = null;
+      if (!info.branch){ 
+        field = getField(info.name);
+        field.setQual(info.qual);
+        field.setTrigger(info.trigger);
+      }
       fieldSteps[ndx] = new Step(field, info.required);
     }
 
     // Initialize stuff, and link the heading link to the first step
-    int optBreak = -1;
+    // If there is a failure step (meaning we are compiling a conditional branch)
+    // There is an implicit decision required about the first node
+    int optBreak = (failStep != null ? 0 : -1);
     boolean optRepeat = false;
     headLink.setLink(fieldSteps[0]);
     
     // Now to start a second pass, this will will figure out just how the
     // steps need to be linked together
-    for (int ndx = 0; ndx < fieldTerms.size(); ndx++) {
+    for (int ndx = 0; ndx < fieldTerms.length; ndx++) {
       
       // Get the previous link, and current, and next steps in normal sequence
       Step step = fieldSteps[ndx];
-      Step next = ndx+1 < fieldTerms.size() ? fieldSteps[ndx+1] : tail;
-      
-      // we will start by assuming things progress in a normal flow, until
-      // we determine otherwise.  Next data increment defaults to one which
-      // is what we want
-      step.getSuccLink().setLink(next);
+      Step next = ndx+1 < fieldTerms.length ? fieldSteps[ndx+1] : tail;
       
       // Check term info for things that would disrupt the natural order of
       // things
@@ -166,17 +200,42 @@ public class FieldProgramParser extends SmartAddressParser {
         // status of the untestable one.  If we find repeat or optional step
         // before that, all is lost
         if (info.repeat || info.optional || info.branch) {
-          throw new RuntimeException("Deferred optional status of " + fieldTerms.get(optBreak) + " not resolved before " + fieldTerms.get(ndx));
+          throw new RuntimeException("Deferred optional status of " + fieldTerms[optBreak] + 
+                                      " not resolved before " + fieldTerms[ndx]);
         }
         
         // OK, is this our testable determination step?
         if (step.canFail()) {
           
           // There are three reasons why a condition check is deferred
-          // First it could be terminating an earlier repeat block
+          // First we could be processing a conditional branch subprogram
           int delta = ndx - optBreak;
           Step optStep = fieldSteps[optBreak];
-          if (optRepeat) {
+          if (failStep != null) {
+            
+            // Start link should point to this node
+            // with the appropriate index adjustment
+            headLink.setLink(step, delta);
+            
+            // Failure link jumps to failure step, reversing the index adjustment
+            step.getFailLink().setLink(failStep, -delta);
+            
+            // Success link can go two different ways
+            // if the decision step is the first step, success links to the next step
+            if (delta == 0) {
+              step.getSuccLink().setLink(next);
+            }
+            
+            // Otherwise, success link jumps back to first step, and the step
+            // before the decision step bypasses the decision step
+            else {
+              step.getSuccLink().setLink(fieldSteps[optBreak], -(delta+1));
+              fieldSteps[ndx-1].getSuccLink().setLink(next, 1);
+            }
+            
+          }
+          // First it could be terminating an earlier repeat block
+          else if (optRepeat) {
             
             // Redirect all links to the conditional repeat node to this, decision, node
             // Assuming that the optional node field does not exist.
@@ -209,7 +268,10 @@ public class FieldProgramParser extends SmartAddressParser {
             
             // The decision step needs to 
             // be cloned because it will have to appear twice in the step program.
+            // The original step will not be a decision step and will flow
+            // normally to the next step
             Step newStep = step.cloneStep();
+            step.getSuccLink().setLink(next);
 
             // redirect all links to the optional step to the decision step
             // assuming that the optional field does not exist
@@ -233,14 +295,16 @@ public class FieldProgramParser extends SmartAddressParser {
             // skip this step and take up normal processing with the next step
             else {
               int incAdj = -delta;
-              StepLink prevLink = newStep.getSuccLink();
+              Step prevStep = newStep;
               for (int jj = optBreak+1; jj<ndx; jj++) {
                 newStep = fieldSteps[jj].cloneStep();
-                prevLink.setLink(newStep, incAdj);
-                prevLink = newStep.getSuccLink();
+                prevStep.getSuccLink().setLink(newStep, incAdj);
+                prevStep.removeSkip();
+                prevStep = newStep;
                 incAdj = 0;
               }
-              prevLink.setLink(next, 1);
+              prevStep.getSuccLink().setLink(next, 1);
+              prevStep.removeSkip();
             }
           }
           
@@ -248,9 +312,16 @@ public class FieldProgramParser extends SmartAddressParser {
           // normal processing
           optBreak = -1;
         }
+        
+        // Otherwise, we are still searching for a decision mode, follow
+        // normal logic flow
+        else {
+          step.getSuccLink().setLink(next);
+        }
       }
       
-      // OK, that wasn't a problem, see if this step has a repeat flag
+      // So we aren't in deferred decision mode
+      // See if this node is flagged to repeat
       else if (info.repeat) {
         
         // It does, normal chain links back to the same step, processing
@@ -280,6 +351,9 @@ public class FieldProgramParser extends SmartAddressParser {
       // Next thing to check is a optional flag without the repeat flag
       else if (info.optional) {
         
+        // In any case, logic from from this step goes to the next step
+        step.getSuccLink().setLink(next);
+        
         // If this step can do its own validity testing, life is wonderful
         // We just set the fail condition to process the next step with the
         // same data field
@@ -299,11 +373,7 @@ public class FieldProgramParser extends SmartAddressParser {
       
       // Otherwise, there is nothing unusual or extraordinary about this step
       // It will just link to the next step and field.
-      // Unless it is a skip step in which case we can redirect all incoming
-      // links to the next step and field
-      else if (step.isSkipStep()) {
-        step.redirect(next, 1);
-      } else {
+      else {
         step.getSuccLink().setLink(next);
       }
     }
@@ -311,18 +381,60 @@ public class FieldProgramParser extends SmartAddressParser {
     // End of second pass
     // If we are still trying to resolve an optional break, complain
     if (optBreak >= 0) {
-      throw new RuntimeException("Deferred optional status of " + fieldTerms.get(optBreak) + " was never resolved");
+      throw new RuntimeException("Deferred optional status of " + fieldTerms[optBreak] + 
+                                  " was never resolved");
+    }
+    
+    // And now for a final third pass to expand any conditional branch terms
+    for (int ndx = 0; ndx < fieldTerms.length; ndx++) {
+      if (infoList[ndx].branch) {
+        
+        // Split the branch step into a branch head and tail steps
+        Step branchHead = fieldSteps[ndx];
+        Step branchTail = branchHead.split();
+        
+        //  Next break the field term up into the different conditional branches
+        String term = fieldTerms[ndx];
+        term = term.substring(1, term.length()-1);
+        String[] branchTerms = term.split("\\|");
+        
+        // Loop through each of the optional branches
+        int cnt = 0;
+        for (String branchTerm : branchTerms) {
+          branchTerm = branchTerm.trim();
+          
+          // We need a temporary skip step with no data increment to link 
+          // each conditional branch chains to the next.  Except for the
+          // last one where we have no failure step
+          Step linkStep = (++cnt == branchTerms.length ? null : new Step());
+          
+          // Each branch will be compiled using the branch head step as the
+          // start step, the branch tail step as the tail step, and the new
+          // link step as the branch failure step
+          compile(branchHead.getSuccLink(), branchTerm, branchTail, linkStep);
+          branchHead.removeSkip();
+          branchHead = linkStep;
+        }
+        branchTail.removeSkip();
+      }
+    }
+    
+    // Fourth pass to remove any remaining SKIP steps
+    // We can't do this in the 2nd pass because a subsequent node might have
+    // tried to link back to it
+    for (Step step : fieldSteps) {
+      step.removeSkip();
     }
   }
   
   /**
    * Break program string up into an array of tokens.  Tokens are generally
-   * separated by blanks, but a list of items in parenethesis will be combined
+   * separated by blanks, but a list of items in parenthesis will be combined
    * into a single token
    * @param programStr program string to be compiled
    * @return list of program terms from program string
    */
-  private static List<String> tokenize(String programStr) {
+  private static String[] tokenize(String programStr) {
     
     // Initialize stuff
     List<String> tokenList = new ArrayList<String>();
@@ -376,7 +488,15 @@ public class FieldProgramParser extends SmartAddressParser {
       throw new RuntimeException("Missing closing paren in" + programStr);
     }
     
-    return tokenList;
+    return tokenList.toArray(new String[tokenList.size()]);
+  }
+  
+  /**
+   * Check for any skip nodes that missed our optimization process
+   * only called by the test suite
+   */
+  void checkForSkips() {
+    startLink.getStep().checkForSkips();
   }
   
   /**
@@ -393,6 +513,13 @@ public class FieldProgramParser extends SmartAddressParser {
     char trigger = 0;
     
     FieldTermInfo(String fieldTerm) {
+      
+      // If this is a conditional branch, just set the branch flag and return
+      // The branch will be expanded later
+      if (fieldTerm.startsWith("(")) {
+        branch = true;
+        return;
+      }
       
       int len = fieldTerm.length();
       int pt = 0;
@@ -466,6 +593,8 @@ public class FieldProgramParser extends SmartAddressParser {
     // List of all links pointing to this step
     private List<StepLink> inLinks = new ArrayList<StepLink>();
     
+    private boolean checked = false;
+    
     /**
      * Constructor
      * @param field Field processed by this step (can be null)
@@ -474,6 +603,16 @@ public class FieldProgramParser extends SmartAddressParser {
     public Step(Field field, boolean required) {
       this.field = field;
       this.required = required;
+    }
+
+    /**
+     * Create a NOOP step that does absolutely nothing.  This is useful
+     * as a temporary link point when we compile conditional branches
+     */
+    public Step() {
+      this.field = null;
+      this.required = false;
+      succLink = new StepLink(0);
     }
 
     /**
@@ -511,6 +650,38 @@ public class FieldProgramParser extends SmartAddressParser {
     public Step cloneStep() {
       return new Step(field, required);
     }
+
+    /**
+     * Split a branch step into two different steps.  The original stepp will
+     * retain all of the incoming links, the returned step will retain the
+     * original outgoing link with the data index increment reduced by one
+     * @return
+     */
+    public Step split() {
+      Step step = cloneStep();
+      step.succLink.setLink(succLink.getStep(), -1);
+      succLink = new StepLink(0);
+      return step;
+    }
+
+    /**
+     * If this is a skip step, remove it from the program tree, redirecting all
+     * incoming links to the next link in the chain.  Care should be taken not
+     * to remove a skip link that is still in the fieldSteps array and may be
+     * processed by something else
+     */
+    public void removeSkip() {
+      
+      // Only remove links that do nothing and make no decisions
+      if (! isSkipStep() || failLink != null) return;
+      
+      redirect(succLink.getStep(), succLink.getInc());
+      
+      // Not really necessary, but this will clear the targets incoming links entry to
+      // this step, allowing it to be GCed.
+      succLink.setLink(null);
+      
+    }
     
     /**
      * @return true if this is a NOP skip step
@@ -540,11 +711,19 @@ public class FieldProgramParser extends SmartAddressParser {
      */
     public boolean process(String[] flds, int ndx, Data data) {
       
-      // If we have passed the end of the data fields, all we have to
-      // do is check that there are no remaining required fields that have
-      // not been processed
+      // Have we passed the end of the data stream
       if (ndx >= flds.length) {
-        return checkFailure();
+
+        // Yep, if there is a failre link, execute it
+        if (failLink != null){
+          return failLink.exec(flds, ndx, data);
+        } 
+        
+        // Otherwise check to make sure there are no required fields in
+        // the remaining program steps
+        else {
+          return checkFailure();
+        }
       }
       
       // Next we invoke our field object to process the current data field.
@@ -596,6 +775,24 @@ public class FieldProgramParser extends SmartAddressParser {
       // Still undetermined, return the failure status of the next step
       return link.getStep().checkFailure();
     }
+
+    public void checkForSkips() {
+      
+      // Use the checked flag to ensure we check the same node twice
+      
+      if (checked) return;
+      checked = true;
+      
+      // If this is a skip node,optimization has failed
+      if (isSkipStep()) {
+        throw new RuntimeException("Skip node still present in program tree");
+      }
+      
+      // Check both branches
+      if (succLink != null && succLink.getStep() != null) succLink.getStep().checkForSkips();
+      if (failLink != null && failLink.getStep() != null) failLink.getStep().checkForSkips();
+      
+    }
   }
   
   /**
@@ -609,9 +806,13 @@ public class FieldProgramParser extends SmartAddressParser {
       this.step = null;
       this.inc = inc;
     }
-    
+
     public Step getStep() {
       return step;
+    }
+    
+    public int getInc() {
+      return inc;
     }
     
     public void setLink(Step step) {
