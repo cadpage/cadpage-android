@@ -16,14 +16,17 @@ IPS I/Page Notification / Loc: HIGHWAY 53/KELLY SPRING RD HSV: alias HWY 53/KELL
 IPS I/Page Notification / Loc: 101 VASSER CIR MDCO EVT#: C1009575 TYPE: M TIME: 13:54:54
 IPS I/Page Notification / Loc: 106 CHESAPEAKE BLVD MDCO EVT#: C1009490 TYPE: M TIME: 16:04:25
 IPS I/Page Notification / Loc: 120 EMERALD DR MDCO EVT#: C1009484 TYPE: M TIME: 12:07:46
+
+Contact: NICK GOODMAN <hemsi89@gmail.com>
+(IPS I/Page Notification) EVENT: E1105513 Loc: 116 DRYSDALE DR MDCO EVT#: E1105513 TYPE: M TIME: 08:48:15
  */
 
 
 public class ALMadisonCountyParser extends SmartAddressParser {
   
-  private static final String CAD_MARKER = "IPS I/Page Notification / ";
+  private static final String CAD_MARKER = "IPS I/Page Notification";
   private static final String[] KEYWORDS = 
-    new String[]{"Loc", "EVT#", "TYPE", "TIME"};
+    new String[]{"EVENT", "Loc", "EVT#", "TYPE", "TIME"};
   
   private static final Properties CITY_TABLE = buildCodeTable(new String[]{
       "MDCO",  "MADISON COUNTY",
@@ -54,12 +57,14 @@ public class ALMadisonCountyParser extends SmartAddressParser {
   }
 
   @Override
-  protected boolean parseMsg(String body, Data data) {
+  protected boolean parseMsg(String subject, String body, Data data) {
     
-    int pt = body.indexOf(CAD_MARKER);
-    if (pt < 0) return false;
-    body = body.substring(pt+CAD_MARKER.length()).replaceAll(" alias ", "@");
-    
+   if (! subject.equals(CAD_MARKER)) {
+     if (! body.startsWith(CAD_MARKER + " / ")) return false;
+      body = body.substring(CAD_MARKER.length()+3);
+    }
+   
+    body = body.replaceAll(" alias ", "@");
     Properties props = parseMessage(body, KEYWORDS);
     String sAddr = props.getProperty("Loc");
     if (sAddr == null) return false;
@@ -68,6 +73,7 @@ public class ALMadisonCountyParser extends SmartAddressParser {
     data.strPlace = p.get();
     
     data.strCallId = props.getProperty("EVT#", "");
+    if (data.strCallId.length() == 0) data.strCallId = props.getProperty("EVENT:");
     data.strCall = convertCodes(props.getProperty("TYPE", ""), TYPE_CODES);
     
     return true;
