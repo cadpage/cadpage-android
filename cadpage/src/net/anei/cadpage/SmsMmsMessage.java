@@ -296,11 +296,12 @@ public class SmsMmsMessage implements Serializable {
       /* Decode patterns that look like this
        * Pagecopy-Fr:CAD@livingstoncounty.livco\nCAD:FYI: ;OVDOSE;4676 KENMORE DR;[Medical Priority Info] RESPONSE: P1 STA 1
        */
-      if (body.startsWith("Pagecopy-Fr:")) {
-        ipt = body.indexOf('\n', 12);
-        if (ipt >= 0) {
-          parseAddress = body.substring(12, ipt).trim();
-          body = body.substring(ipt+1).trim();
+      ipt = body.indexOf("Pagecopy-Fr:");
+      if (ipt >= 0) {
+        int ipt2 = body.indexOf('\n', ipt+12);
+        if (ipt2 >= 0) {
+          parseAddress = body.substring(ipt+12, ipt2).trim();
+          body = body.substring(ipt2+1).trim();
           break;
         }
       }

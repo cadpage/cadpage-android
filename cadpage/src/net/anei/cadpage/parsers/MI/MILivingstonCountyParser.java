@@ -22,6 +22,9 @@ CAD:FYI: ;DIABET;31 STRATFORD LN;NEWCASTLE LN;[Medical Priority Info] RESPONSE: 
 Contact: Jordan Zernick <zernick1115@gmail.com>
 Pagecopy-Fr:CAD@livingstoncounty.livco\nCAD:FYI: ;OVDOSE;4676 KENMORE DR;[Medical Priority Info] RESPONSE: P1 STA 1
 
+Contact: Casey Yost <caseyyost@gmail.com>
+firediver11+caf_=5176671194=vtext.com@gmail.comPagecopy-Fr:CAD@livingstoncounty.livco\nCAD:FYI: ;SEIZUR;131 STRATFORD LN;BELMONT LN;[Medical Priority Info]
+
 */
 
 public class MILivingstonCountyParser extends DispatchOSSIParser {
