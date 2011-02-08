@@ -58,6 +58,13 @@ public class ALMadisonCountyParserTest extends BaseParserTest {
         "ID:C1009484",
         "CALL:MEDICAL");
     
+    doTest("T7",
+        "(IPS I/Page Notification) EVENT: E1105513 Loc: 116 DRYSDALE DR MDCO EVT#: E1105513 TYPE: M TIME: 08:48:15",
+        "ADDR:116 DRYSDALE DR",
+        "CITY:MADISON COUNTY",
+        "ID:E1105513",
+        "CALL:MEDICAL");
+    
         
   }
 }
