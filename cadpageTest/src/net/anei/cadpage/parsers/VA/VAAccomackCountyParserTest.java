@@ -44,7 +44,7 @@ public class VAAccomackCountyParserTest extends BaseParserTest {
         "CITY:HARRINGTON",
         "ST:DE",
         "X:FOX HUNTERS RD & WHITELEYBURG RD",
-        "INFO:4345793096");
+        "ID:4345793096");
 
     doTest("T5",
         "CAD:MISSING PERSON STANDBY;26208 WALNUT TREE RD;EDEN MD;S UPPER FERRY RD;WALNUT TREE RD;4345793096",
@@ -53,7 +53,7 @@ public class VAAccomackCountyParserTest extends BaseParserTest {
         "CITY:EDEN",
         "ST:MD",
         "X:S UPPER FERRY RD & WALNUT TREE RD",
-        "INFO:4345793096");
+        "ID:4345793096");
         
     doTest("T6",
         "CAD:MAN POWER SEARCH CHILD;698 MASSIE RD;CHARLOTTESVILLE VA;MASSIE RD;ARLINGTON BLVD;4345793096",
@@ -62,6 +62,6 @@ public class VAAccomackCountyParserTest extends BaseParserTest {
         "CITY:CHARLOTTESVILLE",
         "ST:VA",
         "X:MASSIE RD & ARLINGTON BLVD",
-        "INFO:4345793096");
+        "ID:4345793096");
   }
 }
