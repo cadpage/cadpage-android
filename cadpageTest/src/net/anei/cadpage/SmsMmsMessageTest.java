@@ -21,6 +21,13 @@ public class SmsMmsMessageTest {
         "",
         "CAD:FYI: ;OVDOSE;4676 KENMORE DR;[Medical Priority Info] RESPONSE: P1 STA 1");
     
+    doParseTest("MILivingstonCounty2",
+        "firediver11+caf_=5176671194=vtext.com@gmail.comPagecopy-Fr:CAD@livingstoncounty.livco\nCAD:FYI: ;SEIZUR;131 STRATFORD LN;BELMONT LN;[Medical Priority Info]",
+        "CAD@livingstoncounty.livco",
+        "",
+        "CAD:FYI: ;SEIZUR;131 STRATFORD LN;BELMONT LN;[Medical Priority Info]");
+
+    
     doParseTest("MOPulaskiCounty",
         "1 of 3\n" +
         "FRM:911dispatch@embarqmail.com\n" + 

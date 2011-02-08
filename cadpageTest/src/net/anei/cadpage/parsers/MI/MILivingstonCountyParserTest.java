@@ -59,5 +59,13 @@ public class MILivingstonCountyParserTest extends BaseParserTest {
         "ADDR:5579 E GRAND RIVER",
         "X:WILDWOOD DR",
         "INFO:Event spawned from CITIZEN ASSIST LAW. / CALLER LIVES NEXT DOOR TO THE ADDRESS OF THE WATER MAIN BREAK / CALLER ADV OF A WATER MAIN BREAK");
+    
+    doTest("T8",
+        "firediver11+caf_=5176671194=vtext.com@gmail.comPagecopy-Fr:CAD@livingstoncounty.livco\nCAD:FYI: ;SEIZUR;131 STRATFORD LN;BELMONT LN;[Medical Priority Info]",
+        "CALL:SEIZUR",
+        "ADDR:131 STRATFORD LN",
+        "X:BELMONT LN");
+        
+
   }
 }
