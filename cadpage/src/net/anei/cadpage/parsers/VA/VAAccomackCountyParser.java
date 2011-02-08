@@ -1,7 +1,7 @@
 package net.anei.cadpage.parsers.VA;
 
 import net.anei.cadpage.SmsMsgInfo.Data;
-import net.anei.cadpage.parsers.SmsMsgParser;
+import net.anei.cadpage.parsers.dispatch.DispatchOSSIParser;
 
 /* Accomack Test Pages
 Accomack County, VA - (class I)
@@ -21,10 +21,11 @@ CAD:MISSING PERSON STANDBY;26208 WALNUT TREE RD;EDEN MD;S UPPER FERRY RD;WALNUT 
 CAD:MAN POWER SEARCH CHILD;698 MASSIE RD;CHARLOTTESVILLE VA;MASSIE RD;ARLINGTON BLVD;4345793096
  */
 
-public class VAAccomackCountyParser extends SmsMsgParser {
+public class VAAccomackCountyParser extends DispatchOSSIParser {
   
   public VAAccomackCountyParser() {
-    super("ACCOMACK COUNTY", "VA");
+    super("ACCOMACK COUNTY", "VA",
+           "CALL ADDR ( CITYST | SKIP MAP MAP ) X X ( ID | INFO )");
   }
   
   @Override
@@ -32,66 +33,43 @@ public class VAAccomackCountyParser extends SmsMsgParser {
     return "cad@esva911.org";
   }
 
-  @Override
-  protected boolean parseMsg(String body, Data data) {
-    
-    if (! body.startsWith("CAD:")) return false;
+  // We need a special field parser to handle the CITYST field
+  private class CityStField extends Field {
 
-    data.defState="VA";
-    data.defCity="ACCOMACK COUNTY";
-
-    if (body.length() < 4) return false;
-    
-    String[] lines = body.substring(4).split(";");
-    int ndx = 0;
-    for (String line : lines) {
-      line = line.trim();
-      switch(ndx++) {
-      
-      case 0:
-        // Call desc
-        data.strCall = line;
-        break;
-        
-      case 1:
-        // address
-        parseAddress(line, data);
-        break;
-        
-      case 2:
-        // This could be a city & state
-        if (line.contains(" ")) {
-          Parser p = new Parser(line);
-          data.strState = p.getLast(' ');
-          data.strCity = p.get();
-          
-          // Skip over the two map codes
-          ndx += 2;
-          break;
-        }
-        
-        // Or it could be a strange field that we skip
-        break;
-        
-      case 3:
-      case 4:
-        // Map codes
-        if (data.strMap.length() > 0) data.strMap += ",";
-        data.strMap += line;
-        break;
-        
-      case 5:
-      case 6:
-        // Cross streets
-        if (data.strCross.length() > 0) data.strCross += " & ";
-        data.strCross += line;
-        break;
-        
-      case 7:
-        data.strSupp = line;
-        break;
-      }
+    @Override
+    public boolean canFail() {
+      return true;
     }
-    return true;
+
+    @Override
+    public boolean checkParse(String field, Data data) {
+      if (! field.contains(" ")) return false;
+      parse(field, data);
+      return true;
+    }
+
+    @Override
+    public void parse(String field, Data data) {
+      Parser p = new Parser(field);
+      data.strCity = p.get(' ');
+      data.strState = p.get();
+    }
   }
+  
+  // And we need a special MAP field that will append two map data fields
+  private class MyMapField extends MapField {
+    @Override
+    public void parse(String field, Data data) {
+      data.strMap = append(data.strMap, ",", field);
+    }
+  }
+
+  @Override
+  protected Field getField(String name) {
+    if (name.equals("CITYST")) return new CityStField();
+    if (name.equals("MAP")) return new MyMapField();
+    return super.getField(name);
+  }
+  
+  
 }
