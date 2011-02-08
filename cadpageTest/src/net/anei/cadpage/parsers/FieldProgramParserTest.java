@@ -15,12 +15,70 @@ public class FieldProgramParserTest extends BaseParserTest {
   FieldProgramParser parser;
   
   public FieldProgramParserTest() {
-    parser = new TestParser(CITY_LIST, DEF_CITY, DEF_STATE, "SKIP");
+    parser = new TestParser(CITY_LIST, DEF_CITY, DEF_STATE, null);
     setParser(parser, DEF_CITY, DEF_STATE);
   }
   
   @Test
   public void testproblem() {
+    
+    doFieldTest("complex-4",
+        "SKIP ( CITY ST PLACE | PLACE CITY ST | INFO INFO ID | ) NAME",
+        "SKIP;KCORBIN",
+        "NAME:KCORBIN");
+  }
+  
+  @Test
+  public void testconditionalBranch() {
+    
+    doFieldTest("Empty",
+        "CALL ( ) ID",
+        "FIRE;666",
+        "CALL:FIRE",
+        "ID:666");
+    
+    doFieldTest("simple-1",
+        "CALL ( CITY ST | INFO INFO ) ID",
+        "FIRE FIRE;KEN TOWN;PA;666",
+        "CALL:FIRE FIRE",
+        "CITY:KEN TOWN",
+        "ST:PA",
+        "ID:666");
+    
+    doFieldTest("simple-2",
+        "CALL ( CITY ST | INFO INFO ) ID",
+        "FIRE FIRE;LINE1;LINE2;666",
+        "CALL:FIRE FIRE",
+        "INFO:LINE1 / LINE2",
+        "ID:666");
+    
+    doFieldTest("complex-1",
+        "SKIP ( CITY ST PLACE | PLACE CITY ST | INFO INFO ID | ) NAME",
+        "SKIP;KEN TOWN;PA;BOBS BURGERS;KCORBIN",
+        "CITY:KEN TOWN",
+        "ST:PA",
+        "PLACE:BOBS BURGERS",
+        "NAME:KCORBIN");
+    
+    doFieldTest("complex-2",
+        "SKIP ( CITY ST PLACE | PLACE CITY ST | INFO INFO ID | ) NAME",
+        "SKIP;BOBS BURGERS;KEN TOWN;PA;KCORBIN",
+        "CITY:KEN TOWN",
+        "ST:PA",
+        "PLACE:BOBS BURGERS",
+        "NAME:KCORBIN");
+    
+    doFieldTest("complex-3",
+        "SKIP ( CITY ST PLACE | PLACE CITY ST | INFO INFO ID | ) NAME",
+        "SKIP;LINE1;LINE2;666;KCORBIN",
+        "INFO:LINE1 / LINE2",
+        "ID:666",
+        "NAME:KCORBIN");
+    
+    doFieldTest("complex-4",
+        "SKIP ( CITY ST PLACE | PLACE CITY ST | INFO INFO ID | ) NAME",
+        "SKIP;KCORBIN",
+        "NAME:KCORBIN");
   }
   
   @Test
@@ -158,6 +216,13 @@ public class FieldProgramParserTest extends BaseParserTest {
         "CALL:HELLO DOLLY",
         "INFO:BLUE LIGHT");
     
+    doFieldTest("Optional field present skips",
+        "CALL SKIP CITY? SKIP INFO",
+        "HELLO DOLLY;JUNK;KEN TOWN;JUNK;BLUE LIGHT",
+        "CALL:HELLO DOLLY",
+        "CITY:KEN TOWN",
+        "INFO:BLUE LIGHT");
+    
     doFieldTest("Triggered Optional field present",
         "CITY?% INFO",
         "%MYTOWN;MY LIFE",
@@ -192,6 +257,21 @@ public class FieldProgramParserTest extends BaseParserTest {
     doFieldTest("Long deferred opt field absent",
         "CALL PLACE? INFO INFO INFO CITY",
         "FIRE;LINE1;LINE2;LINE3;KEN TOWN",
+        "CALL:FIRE",
+        "INFO:LINE1 / LINE2 / LINE3",
+        "CITY:KEN TOWN");
+    
+    doFieldTest("Long deferred opt field present skips",
+        "CALL SKIP PLACE? SKIP INFO INFO INFO SKIP CITY",
+        "FIRE;SKIP;LONGVIEW;SKIP;LINE1;LINE2;LINE3;SKIP;KEN TOWN",
+        "CALL:FIRE",
+        "PLACE:LONGVIEW",
+        "INFO:LINE1 / LINE2 / LINE3",
+        "CITY:KEN TOWN");
+    
+    doFieldTest("Long deferred opt field absent skips",
+        "CALL SKIP PLACE? SKIP INFO INFO INFO SKIP CITY",
+        "FIRE;SKIP;SKIP;LINE1;LINE2;LINE3;SKIP;KEN TOWN",
         "CALL:FIRE",
         "INFO:LINE1 / LINE2 / LINE3",
         "CITY:KEN TOWN");
@@ -284,14 +364,22 @@ public class FieldProgramParserTest extends BaseParserTest {
         "CITY:KEN TOWN");
   }
   
+  @Override
+  public void testBadMsg() {
+    parser.setProgram("SKIP");
+    super.testBadMsg();
+  }
+
   private void doFieldTest(String title, String program, String body, String ... result) {
     parser.setProgram(program);
+    parser.checkForSkips();
     doTest(title, body, result);
     
   }
   
   private void doFieldFail(String title, String program, String body) {
     parser.setProgram(program);
+    parser.checkForSkips();
     assertFalse(parser.parseMsg(body, new Data()));
   }
   
