@@ -25,7 +25,7 @@ public class VAAccomackCountyParser extends DispatchOSSIParser {
   
   public VAAccomackCountyParser() {
     super("ACCOMACK COUNTY", "VA",
-           "CALL ADDR ( CITYST | SKIP MAP MAP ) X X ( ID | INFO )");
+           "CALL ADDR! ( CITYST | SKIP MAP MAP ) X X ( ID | INFO )");
   }
   
   @Override
