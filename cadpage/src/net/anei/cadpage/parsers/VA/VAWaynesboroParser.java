@@ -38,7 +38,7 @@ public class VAWaynesboroParser extends SmartAddressParser {
   
   @Override
   public String getFilter() {
-    return "Dispatch@ci.waynesboro.va.us,Dispatch2@ci.waynesboro.va.us,Dispatch3@ci.waynesboro.va.us";
+    return "@ci.waynesboro.va.us";
   }
 
   @Override
