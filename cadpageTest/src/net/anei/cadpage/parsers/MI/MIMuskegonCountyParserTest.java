@@ -51,5 +51,11 @@ public class MIMuskegonCountyParserTest extends BaseParserTest {
         "CAD:FYI: ;N WEBER RD/W MICHILLINDA RD;PI1",
         "ADDR:N WEBER RD & W MICHILLINDA RD",
         "CALL:PI1");
+    doTest("T7",
+        "CAD:FYI: ;ADMIRAL PETROLEUM CO;1007 E COLBY ST;S HALL ST;PETERSON RD;PI1",
+        "PLACE:ADMIRAL PETROLEUM CO",
+        "ADDR:1007 E COLBY ST",
+        "X:S HALL ST & PETERSON RD",
+        "CALL:PI1");
  }
 }
