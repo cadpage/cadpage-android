@@ -14,6 +14,11 @@ public class SmsMsgInfoTest {
 
   @Test
   public void testGetMapAddress() {
+    
+    doMapTest("PAArmstrongCounty", 
+        "868 STATE 28,KENBURG,XX",
+        "868 STATE ROUTE 28");
+    
     doMapTest("CLHS1", "BROADWAY &S 10TH ST,KENBURG,XX", 
                        "1600 BROADWAY & 4500 S 10TH ST");
 
