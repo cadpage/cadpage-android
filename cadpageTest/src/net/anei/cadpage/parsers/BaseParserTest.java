@@ -180,7 +180,7 @@ public abstract class BaseParserTest {
     String prog;
     if (parser instanceof FieldProgramParser) {
       prog = ((FieldProgramParser)parser).getProgram();
-      prog = prog.replaceAll("\\(|\\)", " ");
+      prog = prog.replaceAll("\\(|\\||\\)", " ").trim();
     } else {
       throw new RuntimeException("Cannot construct field list for this parser");
     }
@@ -189,7 +189,7 @@ public abstract class BaseParserTest {
     Set<String> termSet = new HashSet<String>();
     for (String term : prog.split(" +")) {
       int pt = 0;
-      while (pt < term.length() && Character.isUpperCase(term.charAt(pt))) pt++;
+      while (pt < term.length() && Character.isJavaIdentifierPart(term.charAt(pt))) pt++;
       term = term.substring(0,pt);
       String term2 = ((FieldProgramParser)parser).getField(term).getFieldNames();
       if (term2 == null) term2 = KEYWORD_MAP.get(term);
