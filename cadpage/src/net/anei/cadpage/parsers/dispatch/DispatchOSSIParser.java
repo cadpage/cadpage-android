@@ -49,6 +49,10 @@ public class DispatchOSSIParser extends FieldProgramParser {
   // Pattern searching for "PROBLEM: or "RESPONDER SCRIPT:"
   private static final Pattern KEYWORD = Pattern.compile("\\b(PROBLEM:|RESPONDER SCRIPT:)");
   
+  // Pattern marking a trailing token that may need to be removed
+  private static final Pattern TAIL_PAT = Pattern.compile("CLDR?[0-9]");
+
+  
   public DispatchOSSIParser(String defCity, String defState, String program) {
     super(defCity, defState, "SKIP");
     setup(program);
@@ -134,11 +138,18 @@ public class DispatchOSSIParser extends FieldProgramParser {
         st = pt + 1;
       }
     }
+
+    int ndx = fields.size()-1;
+    if (ndx < 0) return false;
+
+    // If the trailing field is present, start by removing it
+    if (TAIL_PAT.matcher(fields.get(ndx)).matches()) {
+      fields.remove(ndx--);
+      if (ndx < 0) return false;
+    }
     
     // Almost there.  Check to see if the last term looks like a date/time stamp
     // or the truncated remains of a date/time stamp.  If it does, remove it
-    int ndx = fields.size()-1;
-    if (ndx < 0) return false;
     String field = fields.get(ndx);
     if (field.length()>0 && Character.isDigit(field.charAt(0))) {
       field = field.replaceAll("\\d", "N");

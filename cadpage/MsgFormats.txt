@@ -795,14 +795,6 @@ MO = Montgomery
 [Fire CAD Message]  2011-64534,CLOSED CALL: DISP 18:06:34,AVL 18:24:17,.
 [Fire CAD Message]  Run# 2010-63824 Trk E51,E54,E55,E31,T51,T31,TN51,FM1,BAT5,TN31 TAC NORTH (01900149-940),. 
 **********************************************************
-Johnston County, NC
-Contact: "Ole Dean K." <koehmstedt@gmail.com>
-Sender: 93001xxx
-Use OSSI parser
-CAD:Evacuation In-Progress;70 MYSTICAL CT; GARN;(S)JORDAN RIDGE (N)
-CAD:OPS5;CLD;52C02C;CARBON MONOXIDE ALARM;70 MYSTICAL CT;(S)JORDAN RIDGE (N);GALAXY DR;DENA HOLLOMAN;12/28/2010 22:20:35;CLD1
-CAD:CLDFR;CLD;17B01G;INJURED PERSON;104 LAKEVIEW CT;(S)SOUTH RIDGE (N);SOUTH RIDGE DR;DOBERT, HENRY;12/28/2010 11:00:58;CLDR1
-**********************************************************
 East Rockaway, NY (in Nassau County)
 Contact: Tommy Johnson <tjohnson377.tj@gmail.com>
 Sender: paging@alpinesoftware.com <From%3Apaging@alpinesoftware.com>
@@ -1418,6 +1410,7 @@ Default to Larimer county, but provide way to override empty set (None or NA)
 **********************************************************
 Westmoreland County, PA
 Contact: Barry Karelitz <bkemt6@gmail.com>
+Contact: Anthony Collins <anthonycollins48@gmail.com>
 Sender: alert@emgcall.net
 
 Structural calls:
