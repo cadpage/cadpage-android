@@ -525,7 +525,10 @@ public class FieldProgramParser extends SmartAddressParser {
       int pt = 0;
       
       // parse field name
-      while (pt < len && Character.isUpperCase(fieldTerm.charAt(pt))) pt++;
+      if (! Character.isUpperCase(fieldTerm.charAt(pt++))) {
+        throw new RuntimeException("Invalid field term: " + fieldTerm);
+      }
+      while (pt < len && Character.isJavaIdentifierPart(fieldTerm.charAt(pt))) pt++;
       name = fieldTerm.substring(0, pt);
       
       // parse field qualifier, if it exists
@@ -562,7 +565,7 @@ public class FieldProgramParser extends SmartAddressParser {
         trigger = fieldTerm.charAt(pt++);
       }
       
-      if (pt < len) {
+      else {
         throw new RuntimeException("Invalid field term: " + fieldTerm);
       }
     }
