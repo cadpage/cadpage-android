@@ -238,7 +238,7 @@ public class SmsMsgInfo {
   // But it doesn't loke US RTE 666
   // If we find a construct like that, remove the middle section
   private static final Pattern DBL_ROUTE_PTN = 
-    Pattern.compile("\\b(US|ST) +(RT|RTE|HW|HWY) +(\\d+)\\b", Pattern.CASE_INSENSITIVE);
+    Pattern.compile("\\b(US|ST|STATE) +(RT|RTE|ROUTE|HW|HWY) +(\\d+)\\b", Pattern.CASE_INSENSITIVE);
   private String cleanDoubleRoutes(String sAddress) {
     Matcher match = DBL_ROUTE_PTN.matcher(sAddress);
     int pt = 0;

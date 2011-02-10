@@ -10,6 +10,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.SmsMsgInfo;
+import net.anei.cadpage.SmsMsgInfo.Data;
 import net.anei.cadpage.SmsPopupUtils;
 
 /**
@@ -142,7 +143,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
         "TURNPIKE", "TPKE",
         "PASS",
         "EST");
-    setupDictionary(ID_ROUTE_PFX_EXT, "RT", "RTE", "HW", "HWY", "HIGHWAY");
+    setupDictionary(ID_ROUTE_PFX_EXT, "RT", "RTE", "ROUTE", "HW", "HWY", "HIGHWAY");
     setupDictionary(ID_ROUTE_PFX_PFX, "ST", "SRT", "US", "FS", "INTERSTATE", "I", "STHWY", "USHWY", "CO", "CR");
     setupDictionary(ID_ROUTE_PFX_PFX, new String[]{defState});
     setupDictionary(ID_DIRECTION, "N", "NE", "E", "SE", "S", "SW", "W", "NW", "NB", "EB", "SB", "WB", "EXT");
@@ -1223,6 +1224,15 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     }
 
     /**
+     * Special variant of getData that places all address information in the
+     * cross street field
+     */
+    public void getCrossData(Data data) {
+      String sCross = buildData(startAddress, endAll, true);
+      data.strCross = append(data.strCross, " & ", sCross);
+    }
+
+    /**
      * Called after address has been parsed
      * @return the part of the line after the address
      */
@@ -1249,5 +1259,5 @@ public abstract class SmartAddressParser extends SmsMsgParser {
       }
       return sb.toString();
     }
-}
+  }
 }

@@ -414,6 +414,19 @@ public abstract class SmsMsgParser {
  }
  
  /**
+  * Convenience method to append two strings with a connector
+  * @param str1 first string
+  * @param connector connector string
+  * @param str2 second string
+  * @return appended string
+  */
+ protected String append(String str1, String connector, String str2) {
+   if (str1.length() == 0) return str2;
+   if (str2.length() == 0) return str1;
+   return str1 + connector + str2;
+ }
+ 
+ /**
   * Worker class that will parse a into consecutive substrings up to the
   * next occurrence of a particular parser
   */

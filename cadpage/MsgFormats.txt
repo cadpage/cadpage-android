@@ -695,19 +695,6 @@ CAD:1299 WITMORE RD/OLD MONROE MARSHVILLE RD;ACCIDENT EMD;S09;B-CF2;01/21/2011 1
 **********************************************************
 **********************************************************
 **********************************************************
-Amrstrong County, PA
-Contact: larry umbaugh <lumbaugh17@gmail.com>
-Sender: 911dispatch@co.armstrong.pa.us
-5 digit number is the call ID.
-Between the address and call ID is the call request code or place name concatentated
-with call request code.
-List of cad codes at http://co.armstrong.pa.us/departments/public-services/publicsafety-e911#911
-
-473 TROY HILL RD AIRPORT RD / MCGREGOR RD FMISC 39992 05:40 7245453398
-11878 STATE ROUTE 85 ARMSDALE RD / CRYTZER RD ORPHANS OF THE STORMVAENT 40313 19:09 7247120225
-141 ADAMS RD STATE ROUTE 85 / BALLOCK LN FMISC 40720 09:07 7247837418
-[Dispatch]  580 N CHERRY ST HOOKS LN / SPRUCE LN FSTR2 41628 13:58 7246640045
-[Dispatch]  868 STATE ROUTE 28/66 MECHLING RD / SLOAN HILL RD VAENT 42068 15:55 7248597657
 **********************************************************
 Charles County, MD
 Contact: Darrin Tomlinson <lackeychargers08@verizon.net>
