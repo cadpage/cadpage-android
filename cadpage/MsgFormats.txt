@@ -576,6 +576,11 @@ Guilford County, NC (NCGuilfordCountyParser)
 [summerfieldfiredist Jan19-18:15]  CAD:SMFD;ST29;1;50PI;SCALESVILLE RD/LAKE BRANDT RD
 [summerfieldfiredist Jan18-19:08]  CAD:1;MUTUAL;150 WAYNOR DR;GALLENT RD;STRUCTURE FIRE
 ***************************************************************************
+Johnston County, NC (NCJonhstonCountyParser)
+CAD:Evacuation In-Progress;70 MYSTICAL CT; GARN;(S)JORDAN RIDGE (N)
+CAD:OPS5;CLD;52C02C;CARBON MONOXIDE ALARM;70 MYSTICAL CT;(S)JORDAN RIDGE (N);GALAXY DR;DENA HOLLOMAN;12/28/2010 22:20:35;CLD1
+CAD:CLDFR;CLD;17B01G;INJURED PERSON;104 LAKEVIEW CT;(S)SOUTH RIDGE (N);SOUTH RIDGE DR;DOBERT, HENRY;12/28/2010 11:00:58;CLDR1
+CAD:OPS;CLD;10C02;CHEST PAINS;643 BIG PINE RD;PEACE LN;GOVERNMENT RD;ESTERLENE MILLER;02/09/2011 15:21:31;CLDR2
 ***************************************************************************
 ***************************************************************************
 ***************************************************************************
@@ -811,82 +816,6 @@ Add: 4817 Skyline Dr Apt: Loc: Nature: Building Fire Grid: 18/1. Incident# 10-36
 Add: Broadmoor St & Johnson Dr Apt: Loc: Nature: Injury Accident Grid: 32/1. Incident# 10-3640058 Cross:
 Add: Shawnee Mission Pkwy & Nal Apt: Loc: Nature: Injury Accident C2 Grid: 32/1. Incident# 10-3640048 Cross:
 **********************************************************
-Catawaba County, NC
-Contact: kevin head <headly1531@gmail.com>
-Contact: Paul Couch <theprofit1611@gmail.com>
-Sender: E-911@catawbacountync.gov
-|2011-000821*213 9TH ST SW***CONOVER**STRUCTURE*********
-|2010-190520*3977 C & B FARM RD***CONOVER**AUTO PD*********
-|2010-188877*1127 2ND ST NE*218**CONOVER**LIFELINE*********
-|2010-188192*1405 DEBORAH HERMAN RD SW***CONOVER**FIRE ALARM*********
-|2011-000273*1104 CONOVER BLVD E***CONOVER**VEHICLE FIRE*********
-|2010-190520*3977 C & B FARM RD***CONOVER**AUTO PD*********
-
-Contact: Adam Sparks <asparks453@gmail.com>
-2010-189098*1211 PECAN ST***CONOVER**OVERDOSE*********
-
-Contact:"Brian A Drum" <BADRUM@catawbacountync.gov>
-Example of a call with most everything turned on and filled in
-
-2011-020998*100 SOUTHWEST BLVD*B*1*NEWTON**TESTING*ALARMING TESTING*CATAWBA COUNTY SHERIFFS OFFICE*828-464-5241*C51*363*Medical: No*Hazards: No*02/09/2011 07:52:50 : pos4 : BADRUM   Landmark: CATAWBA COUNTY SHERIFFS OFFICE*
-
-Example of a call using cross streets
-
-2011-021005*SHERRILLS FORD RD // ALLEY RD***CATAWBA**TESTING*ALARMING TESTING*TEST*828-   -*ZZZ,C51**Medical: No*Hazards: No*02/09/2011 08:07:18 : pos4 : BADRUM   SHERRILLS FORD RD//ALLEY RD*
-
-Example of a call with most everything turned on and filled in
-
-2011-021016*1101 S BRADY AV*E*12*NEWTON**TESTING*ALARMING TESTING*EMS STANDBY NEWTON AREA*828-465-0034*C51*364*Medical: No*Hazards: No*02/09/2011 08:20:34 : pos4 : BADRUM   Landmark: EMS STANDBY NEWTON AREA*
-
-Example of a call with most everything turned on and filled in
-
-2011-021018*100 SOUTHWEST BLVD*A**NEWTON*Landmark Comment: AED 1ST FLOOR LOBBY HALLWAY NEAR PUBLIC REST ROOMS*TESTING*ALARMING TESTING**828-465-8200*C51*363*Medical: No*Hazards: No*02/09/2011 08:26:53 : pos4 : BADRUM   Landmark: CATAWBA COUNTY GOVERNMENT CENTER  Landmark Comment: AED 1ST FLOOR LOBBY HALLWAY NEAR PUBLIC REST ROOMS*
-
-Examples of what most calls look like currently
-
-2011-021063*2204 WITHERS RD***MAIDEN**OVERDOSE*********
-
-2011-021052*35 S US 321 HWY***NEWTON**Traffic Stop*********
-
-2011-021048*3724 ROCK BRIDGE DR NE***CONOVER**ALARM RES*********
-
-2011-021037*3983 HOKE ST***CLAREMONT**TRAUMATIC IN*********
-
- 
-
-Above are some example pages if everything was turned on with the CAD paging. Each field is separated by an asterisk * . Below is a list of each field and if they are used or not.
-
-Call Number
-
-Location (Address)
-
-Apartment / Suite
-
-Floor / Building (not turned on currently but maybe in the future)
-
-City
-
-Location Comment (not turned on)
-
-Complaint
-
-Complaint Description (not turned on)
-
-Caller Name (not turned on currently but maybe in the future)
-
-Phone Number (not turned on currently but maybe in the future)
-
-Units Assigned (not turned on currently but maybe in the future)
-
-Internal ESN (not turned on)
-
-Medical Information (not turned on)
-
-Hazards Information (not turned on)
-
-Narrative (not turned on)
-
-**********************************************************
 Unknown
 Contact: "Arnold, Douglas" <Douglas.Arnold@montgomerycountymd.gov>
 Sender: rc.283@c-msg.net
@@ -1084,6 +1013,7 @@ CHAPMAN HWY-SVFD/HENDRON CHAPEL RD-SVFD
 Jefferson County, WA
 Contact: "rtmcallister@yahoo.com" <rtmcallister@yahoo.com>
 Sender: iamresponding.com
+Hold until more info about pending CAD vendor change
 (JCFD5) JeffCom911 XDC CAD Email Call Details:Case Number:Date:Agency:Disco/Gardner FDSequence Number:JCF5:2011:01:09:1Unit:01TONEDAddress:HWY 101 / MP 278
 [JCFD5]  JeffCom911 XDC CAD Email Call Details:Case Number:Date:Agency:Disco/Gardner FDSequence Number:JCF5:2011:01:07:1Unit:E51Address:EAGLEMOUNT RD / H
 (JCFD5) JeffCom911 XDC CAD Email Call Details:Case Number:Date:Agency:Disco/Gardner FDSequence Number:JCF5:2011:01:10:1Unit:01TONEDAddress:FIRE - ST 52
@@ -1863,6 +1793,24 @@ Same format as Centerville, MD
 Talbot 911:*D 61 B-ABDOMINAL PAIN 319 LINDEN AVE T60
 Talbot 911:*D 70 A-CHEST PAIN 5656 BLACK WALNUT POINT RD BREATHING NORMAL <35 T70
 **********************************************************
+MedStar
+Contact: brubin@med-starambulance.com
+930 Quad 2070 - VS 100 CLIFF AVE 2 VS Unconsc/Faint C3 2011-00000870
+930 Quad 460 - BR 904 SNOWBERRY AVE BR Conv Seizure C3 2011-00000374
+930 I 90 / HWY 23 Injury Accident C1 2011-0000004
+930 Quad 2060 - VS I 90 MM 410VS Sick Person C1 2011-00000028
+930 Quad 2060 - VS 26472 484TH AVE VS Diabetic C2 2011-00000003
+930 Quad 2010 - SR 26525 482ND AVE BR Medical Emergency 2011-00000621
+930 Quad 460 - BR 3008 E ASPEN BLVD BR Falls C1 2011-00000051
+930 Quad 460 - BR 1625 RUSHMORE DR BR Family Dispute 2011-00000347 
+
+930 indicates our ambulance station number
+Quad 460 indicates the quadrant that our dispatchers use
+BR indicates the city the call is in BR=Brandon SD, VS=Valley Springs SD, SR= Splitrock township. All of these are in Minnehaha County in South Dakota
+1625 RUSHMORE DR is the actual address of the call
+Family Dispute is the nature of the call
+2011-00000347 is the year and call number so far
+
 **********************************************************
 **********************************************************
 **********************************************************
