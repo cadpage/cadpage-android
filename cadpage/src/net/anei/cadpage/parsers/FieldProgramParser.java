@@ -22,7 +22,7 @@ import net.anei.cadpage.SmsMsgInfo.Data;
  *    Subclasses can override the default field processors, or add their own
  *    by overriding the getField() method
  *    
- * 2) An optional colon followed by one or more alphanumeric characters that
+ * 2) An optional slash followed by one or more alphanumeric characters that
  *    can be used to designate special handling by this field processor.
  *    
  * 3) An optional exclamation point [!] which indicates that this field is
@@ -75,6 +75,13 @@ import net.anei.cadpage.SmsMsgInfo.Data;
  * All of the conditional branches in a group, except the last one, must have
  * contain a validatable field that will be used to determine if this is the
  * correct branch to process
+ * 
+ * Keyword tags
+ * 
+ * tagged field can be defined by prefixing the field term with a tag name and
+ * a colon.  A tagged field term will only match a data field that starts with
+ * that tag name and a colon.  Tagged and positional (untagged) fields can 
+ * be intermixed.
  */
 
 public class FieldProgramParser extends SmartAddressParser {
@@ -88,7 +95,11 @@ public class FieldProgramParser extends SmartAddressParser {
   // Original program string
   private String programStr;
   
+  // Start of program steps
   private StepLink startLink;
+  
+  // True if any of our program steps contain a tag
+  private boolean parseTags = false;
   
   public FieldProgramParser(String[] cities, String defCity, String defState, String programStr) {
     super(cities, defCity, defState);
@@ -123,11 +134,12 @@ public class FieldProgramParser extends SmartAddressParser {
     
     if (program == null) return;
     
+    parseTags = false;
     this.programStr = program;
     
     // Construct a head link and tail node and compile the tokens between them
     this.startLink = new StepLink(0);
-    Step tail = new Step(null, false);
+    Step tail = new Step(null, null, false);
     compile(this.startLink, program, tail, null);
     
     // Now that we no longer need it, reduce the tail node
@@ -170,7 +182,7 @@ public class FieldProgramParser extends SmartAddressParser {
         field.setQual(info.qual);
         field.setTrigger(info.trigger);
       }
-      fieldSteps[ndx] = new Step(field, info.required);
+      fieldSteps[ndx] = new Step(info.tag, field, info.required);
     }
 
     // Initialize stuff, and link the heading link to the first step
@@ -198,8 +210,8 @@ public class FieldProgramParser extends SmartAddressParser {
         
         // We are looking for a normal testable field that can resolve the condition
         // status of the untestable one.  If we find repeat or optional step
-        // before that, all is lost
-        if (info.repeat || info.optional || info.branch) {
+        // or tagged step before that, all is lost
+        if (info.repeat || info.optional || info.branch || info.tag != null) {
           throw new RuntimeException("Deferred optional status of " + fieldTerms[optBreak] + 
                                       " not resolved before " + fieldTerms[ndx]);
         }
@@ -504,6 +516,7 @@ public class FieldProgramParser extends SmartAddressParser {
    * field term
    */
   private static class FieldTermInfo {
+    String tag = null;
     String name = null;
     String qual = null;
     boolean required = false;
@@ -522,21 +535,31 @@ public class FieldProgramParser extends SmartAddressParser {
       }
       
       int len = fieldTerm.length();
-      int pt = 0;
+      int st = 0;
       
-      // parse field name
+      // parse field or tag name
+      int pt = st;
       if (! Character.isUpperCase(fieldTerm.charAt(pt++))) {
         throw new RuntimeException("Invalid field term: " + fieldTerm);
       }
       while (pt < len && Character.isJavaIdentifierPart(fieldTerm.charAt(pt))) pt++;
-      name = fieldTerm.substring(0, pt);
+      if (pt < fieldTerm.length() && fieldTerm.charAt(pt) == ':') {
+        tag = fieldTerm.substring(st, pt);
+        st = ++pt;
+        if (! Character.isUpperCase(fieldTerm.charAt(pt++))) {
+          throw new RuntimeException("Invalid field term: " + fieldTerm);
+        }
+        while (pt < len && Character.isJavaIdentifierPart(fieldTerm.charAt(pt))) pt++;
+      }
+      
+      name = fieldTerm.substring(st, pt);
       
       // parse field qualifier, if it exists
       if (pt >= len) return;
       char chr = fieldTerm.charAt(pt++);
-      if (chr == ':') {
+      if (chr == '/') {
         
-        int st = pt;
+        st = pt;
         if (pt >= len) return;
         while (pt < len && Character.isUpperCase(fieldTerm.charAt(pt))) pt++;
         qual = fieldTerm.substring(st, pt);
@@ -559,7 +582,7 @@ public class FieldProgramParser extends SmartAddressParser {
       }
       
       // Check for optional [?] indicator
-      if (chr == '?') {
+      if (tag == null && chr == '?') {
         optional = true;
         if (pt >= len) return;
         trigger = fieldTerm.charAt(pt++);
@@ -585,8 +608,11 @@ public class FieldProgramParser extends SmartAddressParser {
   
   
   // This class performs one program step
+  private static final Pattern TAG_PATTERN = Pattern.compile("(\\w+): *(.*)");
+  private static final Pattern WORD_PATTERN = Pattern.compile("\\w+");
   private class Step {
     
+    private String tag;
     private boolean required;
     
     private Field field;
@@ -603,9 +629,12 @@ public class FieldProgramParser extends SmartAddressParser {
      * @param field Field processed by this step (can be null)
      * @param required true if this is a required step
      */
-    public Step(Field field, boolean required) {
+    public Step(String tag, Field field, boolean required) {
+      this.tag = tag;
       this.field = field;
       this.required = required;
+      
+      if (tag != null) parseTags = true;
     }
 
     /**
@@ -651,7 +680,7 @@ public class FieldProgramParser extends SmartAddressParser {
      * @return a clone of the current step
      */
     public Step cloneStep() {
-      return new Step(field, required);
+      return new Step(tag, field, required);
     }
 
     /**
@@ -690,6 +719,7 @@ public class FieldProgramParser extends SmartAddressParser {
      * @return true if this is a NOP skip step
      */
     public boolean isSkipStep() {
+      if (tag != null) return false;
       return field == null || field.getClass() == SkipField.class;
     }
     
@@ -729,6 +759,76 @@ public class FieldProgramParser extends SmartAddressParser {
         }
       }
       
+      // Now we have to deal with any tag complications
+      // Default is to process this step with this data field
+      Step procStep = this;
+      String curFld = flds[ndx].trim();
+      if (parseTags) {
+        while (true) {
+          
+          // See if data field is tagged
+          // if it is extract the tag and adjust the current field value
+          String curTag = null;
+          Matcher match = TAG_PATTERN.matcher(curFld);
+          if (match.matches()) {
+            curTag = curFld.substring(match.start(1), match.end(1));
+            curFld = curFld.substring(match.start(2), match.end(2));
+          }
+          
+          // If data field is tagged, search the program steps for one with
+          // a matching tag
+          if (curTag != null) {
+            boolean skipReq = false;
+            while (procStep != null && !curTag.equals(procStep.tag)) {
+              if (procStep.required) skipReq = true;;
+              procStep = procStep.succLink == null ? null : succLink.getStep();
+            }
+            
+            // If we didn't find one, skip over this data field and go on to
+            // the next one
+            if (procStep == null) {
+              procStep = this;
+              if (++ndx >= flds.length) return checkFailure();
+              curFld = flds[ndx].trim();
+              continue;
+            }
+            
+            // We did find one,
+            // If we had to skip over a required field, return failure
+            // Otherwise we are ready to process this step
+            if (skipReq) return false;
+            break;
+          }
+          
+          // Data field is not tagged
+          // If it is the last field, check to see if it might be a truncated
+          // tag for a future step.  If it is, we are finished
+          if (ndx == flds.length-1 && WORD_PATTERN.matcher(curFld).matches()) {
+            Step tStep = procStep;
+            while (true) {
+              if (tStep.succLink == null) break;
+              tStep = tStep.succLink.getStep();
+              if (tStep == null) break;
+              if (tStep.tag != null && curFld.startsWith(tStep.tag)) return checkFailure();
+            }
+          }
+          
+          // if the current step is also untagged, process it normally
+          if (tag == null) break;
+          
+          // If the current step is tagged, untagged data fields will be ignored
+          // until we come to a tagged step
+          procStep = this;
+          if (++ndx >= flds.length) return checkFailure();
+          curFld = flds[ndx].trim();
+          continue;
+        }
+      }
+      return procStep.process2(curFld, flds, ndx, data);
+    }
+
+    public boolean process2(String curFld, String[] flds, int ndx, Data data) {
+      
       // Next we invoke our field object to process the current data field.
       // If there is a fail step, we will ask the field object to check to
       // see if this is a valid data field before parsing it.  if there is
@@ -736,10 +836,10 @@ public class FieldProgramParser extends SmartAddressParser {
       boolean success = true;
       if (field != null) {
         if (failLink != null) {
-          success = field.doCheckParse(flds[ndx], data);
+          success = field.doCheckParse(curFld, data);
         }
         else {
-          field.parse(flds[ndx], data);
+          field.parse(curFld, data);
         }
       }
       
