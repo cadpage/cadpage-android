@@ -223,6 +223,42 @@ public class MDSaintMarysCountyParserTest extends BaseParserTest {
         "CITY:LEONARDTOWN",
         "UNIT:ALS CO19",
         "INFO:74YOM");
-            
+
+     doTest("T25",
+         "((19239) CAD ) 20:51:10*Chest Pain*19673 NORTH SNOW HILL MANOR RD*SOUTH SNOW HILL MANOR RD*LYARD RD*ST MARYS CITY*CO39 A398 ALS*PT. DOES HAVE A PACEMAKER",
+         "CALL:Chest Pain",
+         "ADDR:19673 NORTH SNOW HILL MANOR RD",
+         "X:SOUTH SNOW HILL MANOR RD / LYARD RD",
+         "CITY:ST MARYS CITY",
+         "UNIT:CO39 A398 ALS",
+         "INFO:PT. DOES HAVE A PACEMAKER");
+
+     doTest("T26",
+         "((20390) CAD ) 09:06:30*Sick Person*CAMPUS CENTER*47600 MILL FIELD DR*POINT LOOKOUT RD*DEAD END*ST MARYS CITY*CO39*2ND FLOOR;*",
+         "CALL:Sick Person",
+         "PLACE:CAMPUS CENTER",
+         "ADDR:47600 MILL FIELD DR",
+         "X:POINT LOOKOUT RD / DEAD END",
+         "CITY:ST MARYS CITY",
+         "UNIT:CO39",
+         "INFO:2ND FLOOR;");
+
+     doTest("T27",
+         "((49639) CAD ) 17:18:40*Mutual Aid*14386 SOUTH SOLOMONS ISLAND RD*CO9 CO7 CO3*",
+         "CALL:Mutual Aid",
+         "ADDR:14386 SOUTH SOLOMONS ISLAND RD",
+         "UNIT:CO9 CO7 CO3");
+    
+     doTest("T28",
+          "((23645) CAD ) 07:33:05*Mutual Aid EMS*401 EP WORTH CT*CO9*302; unresponsive*",
+          "CALL:Mutual Aid EMS",
+          "ADDR:401 EP WORTH CT",
+          "UNIT:CO9",
+          "INFO:302; unresponsive");
+           
+  }
+  
+  public static void main(String[] args) {
+    new MDSaintMarysCountyParserTest().generateTests("T25", "CALL PLACE ADDR APT X CITY UNIT INFO");
   }
 }
