@@ -21,11 +21,6 @@ public class FieldProgramParserTest extends BaseParserTest {
   
   @Test
   public void testproblem() {
-    
-    doFieldTest("complex-4",
-        "SKIP ( CITY ST PLACE | PLACE CITY ST | INFO INFO ID | ) NAME",
-        "SKIP;KCORBIN",
-        "NAME:KCORBIN");
   }
   
   @Test
@@ -358,11 +353,48 @@ public class FieldProgramParserTest extends BaseParserTest {
         "CITY:AVE OF WISDOM");
     
     doFieldTest("With",
-        "ADDR:Z? CITY",
+        "ADDR/Z? CITY",
         "AVE OF WISDOM;KEN TOWN",
         "ADDR:AVE OF WISDOM",
         "CITY:KEN TOWN");
   }
+  
+  @Test
+  public void testTagFields() {
+
+    doFieldTest("Basic",
+        "CALL LOC:ADDR! CTY:CITY RUN:ID",
+        "FIRE; LOC: 100 PINE ST; CTY: BLACKBURG; RUN:666",
+        "CALL:FIRE",
+        "ADDR:100 PINE ST",
+        "CITY:BLACKBURG",
+        "ID:666");
+    
+    doFieldTest("Missing City",
+        "CALL LOC:ADDR! CTY:CITY RUN:ID",
+        "FIRE; LOC: 100 PINE ST; RUN:666",
+        "CALL:FIRE",
+        "ADDR:100 PINE ST",
+        "ID:666");
+
+    doFieldTest("Basic",
+        "CALL LOC:ADDR! CTY:CITY RUN:ID",
+        "FIRE; LOC: 100 PINE ST; CTY: BLACKBURG; RUN:666",
+        "CALL:FIRE",
+        "ADDR:100 PINE ST",
+        "CITY:BLACKBURG",
+        "ID:666");
+    
+    doFieldTest("Missing ID",
+        "CALL LOC:ADDR! CTY:CITY RUN:ID",
+        "FIRE; LOC: 100 PINE ST",
+        "CALL:FIRE",
+        "ADDR:100 PINE ST");
+
+    doFieldFail("Missing City",
+        "CALL LOC:ADDR! CTY:CITY RUN:ID",
+        "FIRE; CTY: BLACKBURG; RUN:666");
+}
   
   @Override
   public void testBadMsg() {
