@@ -13,7 +13,7 @@ public class NYErieCountyParserTest extends BaseParserTest {
   }
   
   @Test
-  public void testParser() {
+  public void testAmhParser() {
     
     doTest("T1",
         "AMH 238 WESTFIELD RD EMS 79 YO F/  CHEST PAIN",
@@ -39,6 +39,17 @@ public class NYErieCountyParserTest extends BaseParserTest {
         "AMH 35 ELM RD EMS 69M CHEST/ARM PAIN",
         "ADDR:35 ELM RD",
         "CALL:EMS 69M CHEST / ARM PAIN");
-        
+  }
+  
+  @Test
+  public void testErieParser() {
+    doTest("T1",
+        "ALERT@ERIE.GOV FIRE CO-DETECTOR 262 MILLER ST APT: GARAGE LANCASTER TOWN CO DETECTOR ACTIV / NO SYMPTOMS",
+        "CALL:FIRE CO-DETECTOR",
+        "ADDR:262 MILLER ST",
+        "APT:GARAGE",
+        "CITY:LANCASTER TOWN",
+        "INFO:CO DETECTOR ACTIV / NO SYMPTOMS");
+
   }
 }

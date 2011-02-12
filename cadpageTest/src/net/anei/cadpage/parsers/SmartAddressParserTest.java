@@ -407,6 +407,10 @@ public class SmartAddressParserTest extends BaseParserTest {
         "ADDR:LL(-77.42356013,39.23521520) DOWN TOWN");
   }
   
+  @Override
+  public void testBadMsg() {
+  }
+  
   private void doTest(StartType sType, String test, String ... result) {
     doTest(sType, 0, test, result);
   }

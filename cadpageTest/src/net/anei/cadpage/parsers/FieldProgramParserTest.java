@@ -366,7 +366,7 @@ public class FieldProgramParserTest extends BaseParserTest {
   
   @Override
   public void testBadMsg() {
-    parser.setProgram("SKIP");
+    parser.setProgram("SKIP ADDR!");
     super.testBadMsg();
   }
 
