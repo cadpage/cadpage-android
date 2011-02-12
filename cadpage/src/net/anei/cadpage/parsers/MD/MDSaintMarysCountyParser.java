@@ -27,7 +27,6 @@ System: Pro QA Medical & Pro QA Fire
 ((37593) CAD ) 22:12:45*CO Detector With Symptons*21353 FOXGLOVE CT*DEAD END*BAYWOODS RD*HERMANVILLE*CO3 CO39*Using ProQA Fire*
 ((44333) CAD ) 00:35:39*CHIMNEY FIRE*25120 DOVE POINT LN*PARSONS MILL RD*DEAD END*LOVEVILLE*CO1 TK1 CO7*Using ProQA Fire*
 ((60350) CAD ) 18:34:06*Breathing Difficulties*22030 OXFORD CT APT*GLOUCESTER CT*DEAD END*LEXINGTON PARK*ALS CO39 CO6R*66YOF HIGH BLOOD
-
 ((46589) CAD) 14:02:26*Stroke**APT A2**22027 OXFORD CT APTA2*GLOUCESTER CT*DEAD END*LEXINGTON PARK*CO39*Using ProQA Medical*
 ((46677) CAD) 13:59:56*Chest Pain*40452 MEDLEYS LN*LAUREL GROVE RD*LOVEVILLE RD*OAKVILLE*CO79 ALS*subject has pacemaker*
 ((46589) CAD) 13:29:15*Breathing Difficulties**ST MARYS NURSING CENTER**21585 PEABODY ST RM441A*HOLLYWOOD RD*DEAD END*LEONARDTOWN*CO19 CO79 ALS*hx copd*
@@ -35,7 +34,9 @@ System: Pro QA Medical & Pro QA Fire
 ((46589) CAD) 12:14:40*Sick Person**NEWTOWNE VILLAGE APTS**22810 DORSEY ST APT309*CONNELY CT*DEAD END*LEONARDTOWN*CO19 CO79 A799*Using ProQA Medical*
 ((46589) CAD) 12:08:40*Sick Person*46104 SALTMARSH CT*WEST WESTBURY BL*DEAD END*LEXINGTON PARK*CO39 A397*Using ProQA Medical*
 ((47017) CAD ) 21:24:45*Seizures/Convulsions*THREE OAK CENTER*46905 LEI DR*THREE NOTCH RD*SOUTH CORAL DR*LEXINGTON PARK*ALS CO39*Using ProQA
-((14072) CAD ) 08:27:10*Sick Person*BANK OF AMERICA*21800 NORTH SHANGRI LA DR*THREE NOTCH RD*GREAT MILLS RD*LEXINGTON PARK*CO39 A397*Using ProQA
+( CAD ) 18:49:29*Sick Person*BRETON MEDICAL GROUP BLDG #3*22576 MACARTHUR BL SUITE 354*HALSEY CT*THREE NOTCH RD*SAN SOUCI*CO39 A387*Using ProQA Me(14072) CAD ) 08:27:10*Sick Person*BANK OF AMERICA*21800 NORTH SHANGRI LA DR*THREE NOTCH RD*GREAT MILLS RD*LEXINGTON PARK*CO39 A397*Using ProQA
+((49169) CAD ) 15:07:57*Sick Person*46656 FLOWER OF THE FOREST RD*WILLOWS RD*DEAD END*LEXINGTON PARK*CO39*Using ProQA Medical* Eff Body:15:07:57*Sick Person*46656 FLOWER OF THE FOREST RD*WILLOWS RD*DEAD END*LEXINGTON PARK*CO39*Using ProQA Medical*
+((49639) CAD ) 17:18:40*Mutual Aid*14386 SOUTH SOLOMONS ISLAND RD*CO9 CO7 CO3*
 
 ((23645) CAD ) 07:33:05*Mutual Aid EMS*401 EP WORTH CT*CO9*302; unresponsive*
 ((19239) CAD ) 20:51:10*Chest Pain*19673 NORTH SNOW HILL MANOR RD*SOUTH SNOW HILL MANOR RD*LYARD RD*ST MARYS CITY*CO39 A398 ALS*PT. DOES HAVE A PACEMAKER
@@ -93,14 +94,16 @@ public class MDSaintMarysCountyParser extends SmartAddressParser {
     }
     
     String[] flds = body.split("\\*+");
-    if (flds.length < 6) return false;
+    if (flds.length < 4) return false;
     
     Result lastResult = null;
     String lastFld = null;
     boolean intersection = false;
+    boolean mutualAid = false;
     int ndx = 0;
     for (String fld : flds) {
       fld = fld.trim();
+      
       switch (ndx++) {
       
       case 0:
@@ -110,10 +113,19 @@ public class MDSaintMarysCountyParser extends SmartAddressParser {
       case 1:
         // Call description
         data.strCall = fld;
+        mutualAid = fld.startsWith("Mutual Aid");
         break;
         
       case 2:
         // Address line
+        
+        // If mutual aid call, this is the only address
+        // and we skip to unit field next
+        if (mutualAid) {
+          parseAddress(fld, data);
+          ndx += 3;
+          break;
+        }
         
         // If line ends with intersection, it is positively the
         // address field.  Any previously found field goes into the place

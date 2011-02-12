@@ -713,40 +713,40 @@ Sender: rc.263@c-msg.net
 
 Contact: Emmitt Newman <bigpickles25@gmail.com> ,3013998478@messaging.sprintpcs.com
 
-Fwd: Subject:*CAD*
+Subject:*CAD*
 System: Keystone
 [CAD] GAS LEAK INSIDE
 A S/F SINGLE FAMILY DWELLING 5748 OAK CT 7 E11 SMELLS GAS INSIDE HOME AND IN GARAGE F103640012 102
 
-Fwd: Subject:*CAD*
+Subject:*CAD*
 [CAD] 10-50 PI EXTRICATION, TRAPPED, PINNED, EMS, ALS, 29B, 29D 9275 IRONSIDES RD RT 425, MT HOPE ELEM SCHOOL A/O 23 H4-
 
-Fwd: Subject:*CAD*
+Subject:*CAD*
 [CAD] GAS LEAK
 INSIDE A S/F SINGLE FAMILY DWELLING 5748 OAK CT 7 E11 SMELLS GAS INSIDE HOME AND IN GARAGE F103640012 102
 
-Fwd: Subject:*CAD*
+Subject:*CAD*
 [CAD] 10-50 PI FIRE EMS APPARATUS TRUCK AMBULANCE HAWTHORNE RD / MANOR LA 15 J3 10-17 ADV SHE WAS ASSAULTED BY HER FRIEN
 
-Fwd: Subject:*CAD*
+Subject:*CAD*
 [CAD] 10-50 PI, EMS, BLS, 29A HAWTHORNE RD / CHICAMUXEN RD 7 F11 Age unknown, Gender unknown, Consciousness unknown, Bre
 
-Fwd: Subject:*CAD*
+Subject:*CAD*
 [CAD] COMMERCIAL BUILDING FIRE, STRUCTURE, BLDG, 4975 HAWTHORNE RD, PENNYS TAVERN NEXT TO 7 C7 NEXT TO BLDG, CHILD CARE
 
-Fwd: Subject:*CAD*
+Subject:*CAD*
 [CAD] UNDETERMINED FIRE INNSBRUCK CT / MASONS SPRING RD 14 K7 CALLER REPORTING LARGE FIRE VISIBLE A/F INNBRUCK CT,UNK WH
 
-Fwd: Subject:*CAD*
+Subject:*CAD*
 [CAD] 10-50 PI MOTORCYCLE, EMS, ALS, ATV, BICYCLE, BIKE, 29B, 29D RIPLEY RD, 2 MILES FROM ANNAPOLIS WOODS RD 15 F6 Age u
 
-Fwd: Subject:*CAD*
+Subject:*CAD*
 [CAD] MULTI FAMILY HOUSE FIRE, TOWNHOUSE, M/F, APARTMENT, 1 HICKORY LN, APT #307 17 G6 CALLER ADVISED HAS ODOR OF SMOKE
 
-Fwd: Subject:*CAD*
+Subject:*CAD*
 [CAD] MULTI FAMILY HOUSE FIRE, TOWNHOUSE, M/F, APARTMENT, 28 FAIRHILL LN 6 H6 ODER OF SMOKE IN EQUIPMENT ROOM. F10338000
 
-Fwd: Subject:*CAD*
+Subject:*CAD*
 [CAD] AFA - SINGLE FAMILY DWELLING, FIRE ALARM, S/F HOUSE 6445 MASON SPRINGS RD 15 A4 HALLWAY S/D, PHONE WAS PUT DOWN, N
 
 Contact: Mark Kaufmann <markeng1trk@gmail.com>
@@ -1793,8 +1793,10 @@ Same format as Centerville, MD
 Talbot 911:*D 61 B-ABDOMINAL PAIN 319 LINDEN AVE T60
 Talbot 911:*D 70 A-CHEST PAIN 5656 BLACK WALNUT POINT RD BREATHING NORMAL <35 T70
 **********************************************************
-MedStar
+Minnehaha county, SD
 Contact: brubin@med-starambulance.com
+Sender: mtooley@911metro.org
+
 930 Quad 2070 - VS 100 CLIFF AVE 2 VS Unconsc/Faint C3 2011-00000870
 930 Quad 460 - BR 904 SNOWBERRY AVE BR Conv Seizure C3 2011-00000374
 930 I 90 / HWY 23 Injury Accident C1 2011-0000004
@@ -1804,13 +1806,23 @@ Contact: brubin@med-starambulance.com
 930 Quad 460 - BR 3008 E ASPEN BLVD BR Falls C1 2011-00000051
 930 Quad 460 - BR 1625 RUSHMORE DR BR Family Dispute 2011-00000347 
 
+Why two town codes?  Second one is actual town
+Put C1-3 codes in code for now
+
 930 indicates our ambulance station number
 Quad 460 indicates the quadrant that our dispatchers use
 BR indicates the city the call is in BR=Brandon SD, VS=Valley Springs SD, SR= Splitrock township. All of these are in Minnehaha County in South Dakota
 1625 RUSHMORE DR is the actual address of the call
 Family Dispute is the nature of the call
 2011-00000347 is the year and call number so far
-
+**********************************************************
+Cabbarus County, NC
+Contact: Michael Martocchio <maccaronimartocchio@gmail.com>
+Sender: CAD@cabarruscounty.us
+CAD:ASSAULT W/ INJURY;2339 ODELL SCHOOL RD;CON;CONCORD HOUSE;HILLSDELL DR;LOCKWOOD RD;RAINTREE, HEALTH CARE OF CONCO
+**********************************************************
+**********************************************************
+**********************************************************
 **********************************************************
 **********************************************************
 **********************************************************
