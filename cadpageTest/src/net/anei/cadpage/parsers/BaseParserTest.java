@@ -218,6 +218,7 @@ public abstract class BaseParserTest {
       if (line == null) break;
       line = line.trim();
       if (line.length() == 0) break;
+      line = line.replace("\\n", "\n");
       msgList.add(line);
     }
     return msgList.toArray(new String[msgList.size()]);
@@ -242,14 +243,18 @@ public abstract class BaseParserTest {
     SmsMsgInfo info = msg.getInfo();
     System.out.println("");
     System.out.println("    doTest(\"" + title + "\",");
-    System.out.print("        \"" + test + "\"");
+    System.out.print("        \"" + escape(test) + "\"");
     for (int jj = 0; jj<terms.length; jj++) {
       String term = terms[jj];
       String value = getValue(info, term);
       if (value.length() == 0) continue;
-      System.out.print(",\n        \"" + term + ":" + value + "\"");
+      System.out.print(",\n        \"" + term + ":" + escape(value) + "\"");
     }
     System.out.println(");");
+  }
+
+  private String escape(String value) {
+    return value.replaceAll("\\n", "\\\\n");
   }
 
   /**

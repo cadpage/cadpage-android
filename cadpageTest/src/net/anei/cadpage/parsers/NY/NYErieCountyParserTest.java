@@ -51,5 +51,16 @@ public class NYErieCountyParserTest extends BaseParserTest {
         "CITY:LANCASTER TOWN",
         "INFO:CO DETECTOR ACTIV / NO SYMPTOMS");
 
+    doTest("T2",
+        "ALERT@ERIE.GOV EMS 4779 TRANSIT RD LANCASTER TOWN GREEN DODGE CALIBER 25 YO FEMALE FEELS AS THOUGH SHE MAY PASS OUT",
+        "CALL:EMS",
+        "ADDR:4779 TRANSIT RD",
+        "CITY:LANCASTER TOWN",
+        "INFO:GREEN DODGE CALIBER 25 YO FEMALE FEELS AS THOUGH SHE MAY PASS OUT");
+
+  }
+  
+  public static void main(String[] args) {
+    new NYErieCountyParserTest().generateTests("T2", "CALL ADDR APT INFO");
   }
 }
