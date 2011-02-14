@@ -102,6 +102,7 @@ public class MDCharlesCountyParser extends SmartAddressParser {
     
     // If we have both a unit and code mark, what is left is an address
     // with a possible comma separated place
+    // Dummy loop to break out of
     do {
       if (codeSt >= 0 && unitSt >= 0) {
         Parser p = new Parser(body);
@@ -110,26 +111,25 @@ public class MDCharlesCountyParser extends SmartAddressParser {
         break;
       }
       
-      // We have some special logic if we have the end of the address marked with a comma
+      // We have some special logic if we have the end of the address marked
+      // and we have comma separated fields in what is left
       if (codeSt >= 0) {
         int pt = body.lastIndexOf(',');
         if (pt >= 0) {
+          
+          // Split out last field.  If it contains a valid address, make it so
           String fld1 = body.substring(0,pt).trim();
-          String fld2 = body.substring(pt).trim();
-          if (checkAddress(fld2) > 0) {
-            data.strCall = fld1;
-            parseAddress(fld2, data);
+          String fld2 = body.substring(pt+1).trim();
+          Result res2 = parseAddress(StartType.START_CALL, FLAG_ANCHOR_END, fld2);
+          if (res2.getStatus() > 0) {
+            res2.getData(data);
+            data.strCall = append(fld1, ", ",  data.strCall);
             break;
-          } else {
-            data.strPlace = fld2;
-            body = fld1;
-          }
-          pt = body.lastIndexOf(',');
-          if (pt >= 0) {
-            data.strCall = body.substring(0,pt).trim();
-            parseAddress(body.substring(pt+1).trim(), data);
-            break;
-          }
+          } 
+
+          // If not, turn it into a place name and parse what is left
+          data.strPlace = fld2;
+          body = fld1;
         }
       } 
       

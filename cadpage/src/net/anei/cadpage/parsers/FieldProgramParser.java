@@ -44,7 +44,10 @@ import net.anei.cadpage.SmsMsgInfo.Data;
  * Field Qualifiers
  *   All conditional fields
  *     Z - suppress condition checks.  This is useful is this fields condition
- *     check is less reliable than another field behind it  
+ *     check is less reliable than another field behind it
+ *     
+ *   City fields
+ *     c - parse -xx city convention
  *    
  * The ugly details on optional fields
  * 
@@ -544,7 +547,7 @@ public class FieldProgramParser extends SmartAddressParser {
       }
       while (pt < len && Character.isJavaIdentifierPart(fieldTerm.charAt(pt))) pt++;
       if (pt < fieldTerm.length() && fieldTerm.charAt(pt) == ':') {
-        tag = fieldTerm.substring(st, pt);
+        tag = fieldTerm.substring(st, pt).replace("_", " ");
         st = ++pt;
         if (! Character.isUpperCase(fieldTerm.charAt(pt++))) {
           throw new RuntimeException("Invalid field term: " + fieldTerm);
@@ -552,7 +555,7 @@ public class FieldProgramParser extends SmartAddressParser {
         while (pt < len && Character.isJavaIdentifierPart(fieldTerm.charAt(pt))) pt++;
       }
       
-      name = fieldTerm.substring(st, pt);
+      name = fieldTerm.substring(st, pt);  
       
       // parse field qualifier, if it exists
       if (pt >= len) return;
@@ -561,7 +564,7 @@ public class FieldProgramParser extends SmartAddressParser {
         
         st = pt;
         if (pt >= len) return;
-        while (pt < len && Character.isUpperCase(fieldTerm.charAt(pt))) pt++;
+        while (pt < len && Character.isJavaIdentifierPart(fieldTerm.charAt(pt))) pt++;
         qual = fieldTerm.substring(st, pt);
         if (pt >= len) return;
         chr = fieldTerm.charAt(pt++);
@@ -608,8 +611,6 @@ public class FieldProgramParser extends SmartAddressParser {
   
   
   // This class performs one program step
-  private static final Pattern TAG_PATTERN = Pattern.compile("(\\w+): *(.*)");
-  private static final Pattern WORD_PATTERN = Pattern.compile("\\w+");
   private class Step {
     
     private String tag;
@@ -747,7 +748,7 @@ public class FieldProgramParser extends SmartAddressParser {
       // Have we passed the end of the data stream
       if (ndx >= flds.length) {
 
-        // Yep, if there is a failre link, execute it
+        // Yep, if there is a failure link, execute it
         if (failLink != null){
           return failLink.exec(flds, ndx, data);
         } 
@@ -769,10 +770,10 @@ public class FieldProgramParser extends SmartAddressParser {
           // See if data field is tagged
           // if it is extract the tag and adjust the current field value
           String curTag = null;
-          Matcher match = TAG_PATTERN.matcher(curFld);
-          if (match.matches()) {
-            curTag = curFld.substring(match.start(1), match.end(1));
-            curFld = curFld.substring(match.start(2), match.end(2));
+          int pt = curFld.indexOf(':');
+          if (pt >= 0) {
+            curTag = curFld.substring(0, pt).trim();
+            curFld = curFld.substring(pt+1).trim();
           }
           
           // If data field is tagged, search the program steps for one with
@@ -781,7 +782,7 @@ public class FieldProgramParser extends SmartAddressParser {
             boolean skipReq = false;
             while (procStep != null && !curTag.equals(procStep.tag)) {
               if (procStep.required) skipReq = true;;
-              procStep = procStep.succLink == null ? null : succLink.getStep();
+              procStep = procStep.succLink == null ? null : procStep.succLink.getStep();
             }
             
             // If we didn't find one, skip over this data field and go on to
@@ -803,13 +804,13 @@ public class FieldProgramParser extends SmartAddressParser {
           // Data field is not tagged
           // If it is the last field, check to see if it might be a truncated
           // tag for a future step.  If it is, we are finished
-          if (ndx == flds.length-1 && WORD_PATTERN.matcher(curFld).matches()) {
+          if (ndx == flds.length-1) {
             Step tStep = procStep;
             while (true) {
               if (tStep.succLink == null) break;
               tStep = tStep.succLink.getStep();
               if (tStep == null) break;
-              if (tStep.tag != null && curFld.startsWith(tStep.tag)) return checkFailure();
+              if (tStep.tag != null && tStep.tag.startsWith(curFld)) return checkFailure();
             }
           }
           
@@ -1064,11 +1065,19 @@ public class FieldProgramParser extends SmartAddressParser {
    */
   public class AddressField extends Field {
     
+    private boolean incCity = false;
+    
     @Override
     public boolean canFail() {
       return true;
     }
     
+    @Override
+    public void setQual(String qual) {
+      incCity = qual != null && qual.contains("c");
+      super.setQual(qual);
+    }
+
     @Override
     public boolean checkParse(String field, Data data) {
       if (checkAddress(field) <= 0) return false;
@@ -1078,7 +1087,17 @@ public class FieldProgramParser extends SmartAddressParser {
 
     @Override
     public void parse(String field, Data data) {
-      parseAddress(field, data);
+      if (incCity) {
+        parseAddressCity(field, data);
+        if (cityCodes != null) data.strCity = convertCodes(data.strCity, cityCodes);
+      } else {
+        parseAddress(field, data);
+      }
+    }
+
+    @Override
+    public String getFieldNames() {
+      return "ADDR CITY";
     }
   }
 
@@ -1137,12 +1156,19 @@ public class FieldProgramParser extends SmartAddressParser {
    */
   public class CrossField extends Field {
     
+    private boolean incCity = false;
     
     @Override
     public boolean canFail() {
       return true;
     }
-  
+    
+    @Override
+    public void setQual(String qual) {
+      incCity = qual != null && qual.contains("c");
+      super.setQual(qual);
+    }
+ 
     @Override
     public boolean checkParse(String field, Data data) {
       if (checkAddress(field) == 0) return false;
@@ -1152,6 +1178,10 @@ public class FieldProgramParser extends SmartAddressParser {
 
     @Override
     public void parse(String field, Data data) {
+      if (incCity) {
+        int pt = field.indexOf('-');
+        if (pt >= 0) field = field.substring(0,pt).trim();
+      }
       data.strCross = append(data.strCross, " & ", field);
     }
   }
