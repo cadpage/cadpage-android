@@ -104,6 +104,9 @@ public class FieldProgramParser extends SmartAddressParser {
   // True if any of our program steps contain a tag
   private boolean parseTags = false;
   
+  // List of tags on the main path
+  private String[] tagList = null;
+  
   public FieldProgramParser(String[] cities, String defCity, String defState, String programStr) {
     super(cities, defCity, defState);
     this.cities = cities;
@@ -147,6 +150,17 @@ public class FieldProgramParser extends SmartAddressParser {
     
     // Now that we no longer need it, reduce the tail node
     tail.removeSkip();
+    
+    // And finally build a list of tags we can use to parse undelimited messages
+    if (parseTags) {
+      List<String> tags = new ArrayList<String>();
+      Step step = startLink.getStep();
+      while (step != null) {
+        if (step.getTag() != null) tags.add(step.getTag());
+        step = step.getNextStep();
+      }
+      tagList = tags.toArray(new String[tags.size()]);
+    }
   }
   
   /**
@@ -202,6 +216,7 @@ public class FieldProgramParser extends SmartAddressParser {
       // Get the previous link, and current, and next steps in normal sequence
       Step step = fieldSteps[ndx];
       Step next = ndx+1 < fieldTerms.length ? fieldSteps[ndx+1] : tail;
+      step.setNextStep(next);
       
       // Check term info for things that would disrupt the natural order of
       // things
@@ -427,6 +442,7 @@ public class FieldProgramParser extends SmartAddressParser {
           // start step, the branch tail step as the tail step, and the new
           // link step as the branch failure step
           compile(branchHead.getSuccLink(), branchTerm, branchTail, linkStep);
+          branchHead.setNextStep(branchHead.getSuccLink().getStep());
           branchHead.removeSkip();
           branchHead = linkStep;
         }
@@ -597,7 +613,18 @@ public class FieldProgramParser extends SmartAddressParser {
     }
   }
   
-  
+  @Override
+  protected boolean parseMsg(String body, Data data) {
+    
+    // We cannot break an undelimited message into fields without tag definitions
+    if (!parseTags) {
+      throw new RuntimeException("FieldProgramParser cannot parse message without tag definitions");
+    }
+    
+    String[] fields = parseMessageFields(body, tagList);
+    return parseFields(fields, data);
+  }
+
   /**
    * This method is invoked to process an array of parsed fields as determined
    * by the field program passed to the constructor
@@ -606,7 +633,7 @@ public class FieldProgramParser extends SmartAddressParser {
    * @return true if parsing was successful
    */
   public boolean parseFields(String[] fields, Data data) {
-    return startLink.exec(fields, 0, data);
+    return startLink.exec(fields, 0, data, null);
   }
   
   
@@ -619,6 +646,7 @@ public class FieldProgramParser extends SmartAddressParser {
     private Field field;
     private StepLink succLink = new StepLink(1);
     private StepLink failLink= null;
+    private Step nextStep = null;
     
     // List of all links pointing to this step
     private List<StepLink> inLinks = new ArrayList<StepLink>();
@@ -649,6 +677,13 @@ public class FieldProgramParser extends SmartAddressParser {
     }
 
     /**
+     * @return step tag
+     */
+    public String getTag() {
+      return tag;
+    }
+
+    /**
      * @return Link to be taken on step parse succeeds
      */
     public StepLink getSuccLink() {
@@ -661,6 +696,21 @@ public class FieldProgramParser extends SmartAddressParser {
     public StepLink getFailLink() {
       if (failLink == null) failLink = new StepLink(0);
       return failLink;
+    }
+    
+    /**
+     * @return the next step in the field step sequence
+     */
+    public Step getNextStep() {
+      return nextStep;
+    }
+    
+    /**
+     * Set the next step
+     * @param nextStep new next step value
+     */
+    public void setNextStep(Step nextStep) {
+      this.nextStep = nextStep;
     }
     
     /**
@@ -681,11 +731,13 @@ public class FieldProgramParser extends SmartAddressParser {
      * @return a clone of the current step
      */
     public Step cloneStep() {
-      return new Step(tag, field, required);
+      Step newStep = new Step(tag, field, required);
+      newStep.nextStep = nextStep;
+      return newStep;
     }
 
     /**
-     * Split a branch step into two different steps.  The original stepp will
+     * Split a branch step into two different steps.  The original step will
      * retain all of the incoming links, the returned step will retain the
      * original outgoing link with the data index increment reduced by one
      * @return
@@ -741,16 +793,17 @@ public class FieldProgramParser extends SmartAddressParser {
      * @param flds Array of fields being processed
      * @param ndx current field index
      * @param data Data object being set up
+     * @param lastStep most recently executed step
      * @return true if successful, false otherwise
      */
-    public boolean process(String[] flds, int ndx, Data data) {
+    public boolean process(String[] flds, int ndx, Data data, Step lastStep) {
       
       // Have we passed the end of the data stream
       if (ndx >= flds.length) {
 
         // Yep, if there is a failure link, execute it
         if (failLink != null){
-          return failLink.exec(flds, ndx, data);
+          return failLink.exec(flds, ndx, data, this);
         } 
         
         // Otherwise check to make sure there are no required fields in
@@ -782,7 +835,7 @@ public class FieldProgramParser extends SmartAddressParser {
             boolean skipReq = false;
             while (procStep != null && !curTag.equals(procStep.tag)) {
               if (procStep.required) skipReq = true;;
-              procStep = procStep.succLink == null ? null : procStep.succLink.getStep();
+              procStep = procStep.nextStep;
             }
             
             // If we didn't find one, skip over this data field and go on to
@@ -806,19 +859,21 @@ public class FieldProgramParser extends SmartAddressParser {
           // tag for a future step.  If it is, we are finished
           if (ndx == flds.length-1) {
             Step tStep = procStep;
-            while (true) {
-              if (tStep.succLink == null) break;
-              tStep = tStep.succLink.getStep();
-              if (tStep == null) break;
+            while (tStep != null) {
               if (tStep.tag != null && tStep.tag.startsWith(curFld)) return checkFailure();
+              tStep = tStep.nextStep;
             }
           }
           
           // if the current step is also untagged, process it normally
           if (tag == null) break;
           
-          // If the current step is tagged, untagged data fields will be ignored
-          // until we come to a tagged step
+          // If the current step is tagged, untagged data fields will usually be 
+          // ignored until we come to a tagged step.  An exception is made if
+          // the current step tag matches the previous step tag, in which case it
+          // is assumed taht the untagged data field inherits the tag from a
+          // previous data field.
+          if (lastStep != null && tag.equals(lastStep.tag)) break;
           procStep = this;
           if (++ndx >= flds.length) return checkFailure();
           curFld = flds[ndx].trim();
@@ -851,7 +906,7 @@ public class FieldProgramParser extends SmartAddressParser {
       // return a successful result.  Otherwise call ourselves to process
       // the next step on the program.
       if (link == null) return true;
-      return link.exec(flds, ndx, data);
+      return link.exec(flds, ndx, data, this);
     }
     
     /**
@@ -868,16 +923,10 @@ public class FieldProgramParser extends SmartAddressParser {
       if (required) return false;
       
       // If there are no more program steps, return success
-      if (succLink == null) return true;
-
-      // One special case, if the success step loops back to itself
-      // follow the fail step instead of the next step
-      StepLink link = succLink;
-      if (link.getStep() == this) link = failLink;
-      if (link == null || link.getStep() == null) return true;
+      if (nextStep == null) return true;
       
       // Still undetermined, return the failure status of the next step
-      return link.getStep().checkFailure();
+      return nextStep.checkFailure();
     }
 
     public void checkForSkips() {
@@ -930,9 +979,9 @@ public class FieldProgramParser extends SmartAddressParser {
       this.inc += incAdj;
     }
     
-    public boolean exec(String[] flds, int ndx, Data data) {
+    public boolean exec(String[] flds, int ndx, Data data, Step lastStep) {
       if (step == null) return true;
-      return step.process(flds, ndx+inc, data);
+      return step.process(flds, ndx+inc, data, lastStep);
     }
     
   }

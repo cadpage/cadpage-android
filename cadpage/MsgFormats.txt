@@ -576,6 +576,10 @@ Montgomery County, TX (TXMontgomeryCountyParser)
 [Fire CAD Message]  New Fire Run: 2010-63564,Nature: 19D04-HEART PROBLEMS - Clammy,MR51,Location: HIGHWAY 105 W & S FM 1486,Building: ,Cross: ,,G
 [Fire CAD Message]  New Fire Run: 2010-63733,Nature: F15-ILLEGAL BURN,E55;,Location: 14321 FOREST CIR E-MO,Building: ,Cross: 14658 FOREST CIR-MO,
 ***************************************************************************
+Johnson County, KS
+Add: 2908 W 48th Ter Apt: Loc: Nature: MEDICAL Grid: 19/1. Incident# 10-3560129 Cross:Dead End/MISSION RD
+Add: 5055 Buena Vista St Apt: Loc: Nature: Bleeding - Laceration Grid: 18/1. Incident# 10-3560040 Cross:W 51ST ST/SYCAMORE DR
+Add: 2435 Drury Ln Apt: Loc: Nature: Auto Alarm - Residence Grid: 34/1. Incident# 10-3560070 Cross:OAKWOOD RD/OVERHILL RD
 ***************************************************************************
 ***************************************************************************
 ***************************************************************************
@@ -680,21 +684,19 @@ Sender: epage-owner@delmar74fire.com <From%3Aepage-owner@delmar74fire.com>
 Sender: wfpage-owner@delmar74fire.com <From%3Awfpage-owner@delmar74fire.com>
 CAD:2010110683;PI ACCIDENT;8859 JERSEY RD;DELM;CONNELLY MILL RD;ADKINS RD;[Medical Priority Info] RESPONSE: Bravo RESPONDER SCRIPT: 25 year old, Male,
 **********************************************************
+Lincoln County, NC
+Contact: "Chris Garner" <cgarner@taylorviola.com>
+No Samples (reminder 2/13/2011)
+**********************************************************
+**********************************************************
+**********************************************************
+*********       Not County locations          ************
+**********************************************************
 Lyon Township, MI
 Contact: Donald Collick" <DCollick@lyontwp.org>
 Sender: Mailbox@ccgvn.net
 System: Codespear
 No samples
-**********************************************************
-Lincoln County, NC
-Contact: "Chris Garner" <cgarner@taylorviola.com>
-No Samples
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
 **********************************************************
 Xenia township, OH
 Contact:  Brian Miller. Xtfd62@yahoo.com, 9376732333@messaging.sprintp
@@ -730,16 +732,11 @@ Contact: Tommy Johnson <tjohnson377.tj@gmail.com>
 Sender: paging@alpinesoftware.com <From%3Apaging@alpinesoftware.com>
 FireCom:  3 HUDSON ST E (GENERAL-AUTO) FIRE ALARM RINGING
 **********************************************************
-Johnson County, KS
-Contact: Mike Morse <michaeltmorse@gmail.com>
-Sender: 93001xxx    (email) ecc1@jocogov.org<mailto:ecc1@jocogov.org>
-Add: 2908 W 48th Ter Apt: Loc: Nature: MEDICAL Grid: 19/1. Incident# 10-3560129 Cross:Dead End/MISSION RD
-Add: 5055 Buena Vista St Apt: Loc: Nature: Bleeding - Laceration Grid: 18/1. Incident# 10-3560040 Cross:W 51ST ST/SYCAMORE DR
-Add: 2435 Drury Ln Apt: Loc: Nature: Auto Alarm - Residence Grid: 34/1. Incident# 10-3560070 Cross:OAKWOOD RD/OVERHILL RD
-Add: 6028 Mission Rd Apt: Loc: Nature: MEDICAL Grid: 34/1. Incident# 10-3560106 Cross:EASTVALE DR/W 61ST ST
-Add: 4817 Skyline Dr Apt: Loc: Nature: Building Fire Grid: 18/1. Incident# 10-3620163 Cross:W 48TH ST/Dead End
-Add: Broadmoor St & Johnson Dr Apt: Loc: Nature: Injury Accident Grid: 32/1. Incident# 10-3640058 Cross:
-Add: Shawnee Mission Pkwy & Nal Apt: Loc: Nature: Injury Accident C2 Grid: 32/1. Incident# 10-3640048 Cross:
+**********************************************************
+**********************************************************
+**********************************************************
+******        READY TO ROLL ******************************
+**********************************************************
 **********************************************************
 Unknown
 Contact: "Arnold, Douglas" <Douglas.Arnold@montgomerycountymd.gov>
@@ -942,101 +939,6 @@ Hold until more info about pending CAD vendor change
 (JCFD5) JeffCom911 XDC CAD Email Call Details:Case Number:Date:Agency:Disco/Gardner FDSequence Number:JCF5:2011:01:09:1Unit:01TONEDAddress:HWY 101 / MP 278
 [JCFD5]  JeffCom911 XDC CAD Email Call Details:Case Number:Date:Agency:Disco/Gardner FDSequence Number:JCF5:2011:01:07:1Unit:E51Address:EAGLEMOUNT RD / H
 (JCFD5) JeffCom911 XDC CAD Email Call Details:Case Number:Date:Agency:Disco/Gardner FDSequence Number:JCF5:2011:01:10:1Unit:01TONEDAddress:FIRE - ST 52
-**********************************************************
-Lewis and Clark County, MT
-Contact: "Scott OConnell" <soconnell@ci.helena.mt.us> (911 System admin)
-Contact: 4064598617@vzwpix.com, Bryan Backeberg <bbackeberg.bb@gmail.com>
-Sender: Varies
-Address will start with "U:" if unverified by CAD system
-
-UNITS:#759        
-CFS:112210-49     
-TYP:Parking complaint   
-LOC:1259 N ROBERTS ST                 
-BUSN:               
-APT:    
-CMP:jane blatch 
-PHONE:     555-6489      
-CMNTS: WHITE TOYOTA PC PARKED BLOCKING ALLEY
-MAP: MAP P10
-MAP: COP6
-MAP: MAP K10
-
-UNITS:#535        
-CFS:112210-47     
-TYP:Suspicious Circum/Persons/Veh
-LOC:3370 CB LOOP                      
-BUSN:               
-APT:    
-CMP:JOHN MELCHER 
-PHONE:     439-1234      
-CMNTS: COMP SAID HIS DOGS WERE NOT OUT AND FEELS HE IS BEING HARASSED BY 595
-COMP REPORTS 595 TOLD HIM HIS DOGS WERE OUT AND 595 CAME ONTO HIS PROPERTY
-MAP: MAP P10
-
-
-UNITS:557 #539    
-CFS:112210-48     
-TYP:Juvenile Codes      
-LOC:GREEN MEADOW DR and W CUSTER AVE  
-BUSN:               
-APT:    
-CMP:JOHN DOE  
-PHONE:     465-1234      
-CMNTS: [557]CRT 10-97 MTG W/ALYSSA
-730 EM  32427.5
-754 WILL BE FOLLOWING 730 TO HOSPITAL
-730 TRANSPORTING AND I AM FOLLOWING
-730 SM 32425.3
-PER 730 THEY WILL TPORT ALYSSIA
-[557]OUT W/MHP127
-MHP STOPPED AT LYNDALE / RODNEY
-[557]WILL BE 10-85 TO ST PETES
-MHP127 ADV MELISSA IS HITTING HER FATHER
-COMP REQ 722 COME TO E
-
-(Recived on cell phone)
-HELENA 911 (CAD Page for CFS 011211-37) UNITS:EVAFR/EHEFR STPH1
-CFS:011211-37     
-TYP:MEDICAL CALLS       
-LOC:3816 WYLIE DR                     
-BUSN:               
-APT:    
-CMP:harvey marshall
-PHONE:     (406)459-0683 
-CMNTS: COMP REPORTS THAT HIS SON IS INSULIN DEP, IS CONSCIOUS AND BREATHING, BUT DOWN ON THE FLOOR
- MEDS: Med case 20110112112218-GMALSTRO Start
-       3180     CANYON FERRY RD - N S
-MAP: MAP P10
-MAP: MAP B18 TXT STOP to opt-out
-
-HELENA 911 (CAD Page for CFS 011211-37) UNITS:EVAFR/EHEFR STPH1
-CFS:011211-37
-TYP:MEDICAL CALLS
-LOC:3816 WYLIE DR
-BUSN:
-APT:
-CMP:harvey marshall
-PHONE:     (406)459-0683
-CMNTS: COMP REPORTS THAT HIS SON IS INSULIN DEP, IS CONSCIOUS AND BREATHING,
-BUT DOWN ON THE FLOOR
-MEDS: Med case 20110112112218-GMALSTRO Start
-       3180     CANYON FERRY RD - N S
-MAP: MAP P10
-MAP: MAP B18 TXT STOP to opt-out
-
-Contact: Bryan Backeberg <bbackeberg.bb@gmail.com>
-HELENA 911 (CAD Page for CFS 020611-6) UNITS:EVAFR/EHEFR 519 510 5A3
-CFS:020611-6
-TYP:MEDICAL ALARM
-LOC:213 E PACIFIC ST
-BUSN:
-APT:
-CMP:MARCUS-LIFE LINE
-PHONE:     888-289-2018
-CMNTS: REQ WELFARE CHECK
-45 YOF PUSHED LIFE LINE ** NOT RESPONDING
-MAP: MAP P10 TXT STOP to opt-out
 **********************************************************
 Buffalo, NY
 Contact: Kunch <joshkunch@msn.com>

@@ -1,6 +1,8 @@
 package net.anei.cadpage.parsers;
 
+import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Properties;
 import java.util.Set;
 import java.util.regex.Pattern;
@@ -173,7 +175,29 @@ public abstract class SmsMsgParser {
  protected static Properties parseMessage(String body, String[] keyWords) {
    
    Properties props = new Properties();
+   String[] flds = parseMessageFields(body, keyWords);
+   for (String fld : flds) {
+     int pt = fld.indexOf(':');
+     if (pt > 0) {
+       String key = fld.substring(0,pt).trim();
+       String value = fld.substring(pt+1).trim();
+       props.setProperty(key, value);
+     }
+   }
+   return props;
+ }
+ 
+ 
+ /** 
+  * General purpose parser for formats where there is not a clear delimiter
+  * between key: value item pairs.
+  * @param body message body to be parsed
+  * @param keyWords list of expected keywords
+  * @return Array of data fields broken up by defined keywords
+  */
+ protected static String[] parseMessageFields(String body, String[] keyWords) {
    
+   List<String> fields = new ArrayList<String>();
    int iKey = -1;  // Current key table pointer
    int iStartPt = 0;   // current data field start index
    
@@ -190,6 +214,7 @@ public abstract class SmsMsgParser {
      while (true) {
        
        // Find the next colon character, if there isn't one, bail out
+       int iDataPt = iColonPt;
        iColonPt = body.indexOf(':', iColonPt+1);
        if (iColonPt < 0) break;
        
@@ -199,7 +224,7 @@ public abstract class SmsMsgParser {
          String key = keyWords[ndx];
          int len = key.length();
          int iTempPt = iColonPt - len;
-         if (iTempPt < iStartPt) continue;
+         if (iTempPt < iDataPt) continue;
          if (iTempPt > 0 && body.charAt(iTempPt-1)!=' ') continue;
          if (!body.substring(iTempPt,iColonPt).equals(key)) continue;
          iNxtKey = ndx;
@@ -246,16 +271,14 @@ public abstract class SmsMsgParser {
      //   iEndPt   End of data field associated with iKey
      //   iColonPn Colon terminating next keyword
      
-     // Save current key:value pair and get ready to start looking for the
+     // Save current field and get ready to start looking for the
      // end of the next keyword
-     if (iKey >= 0) {
-       props.put(keyWords[iKey], body.substring(iStartPt, iEndPt).trim());
-     }
+     fields.add(body.substring(iStartPt, iEndPt).trim());
      iKey = iNxtKey;
-     iStartPt = iColonPt + 1;
+     iStartPt = iEndPt;
    } while (iKey >= 0);
    
-   return props;
+   return fields.toArray(new String[fields.size()]);
  }
 
  /**

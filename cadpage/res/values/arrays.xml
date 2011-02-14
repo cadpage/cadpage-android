@@ -193,10 +193,12 @@
     <item>IL Illinois</item>
     <item>IN Indiana</item>
     <item>IA Iowa</item>
+    <item>KS Kansas</item>
     <item>MD Maryland</item>
     <item>MI Michigan</item>
     <item>MN Minnesota</item>
     <item>MO Missouri</item>
+    <item>MT Montana</item>
     <item>NJ New Jersey</item>
     <item>NY New York</item>
     <item>NC North Carolina</item>
@@ -231,6 +233,7 @@
     <item>INVigoCounty</item>
     <item>IABlackHawkCounty</item>
     <item>IAWoodburyCounty</item>
+    <item>KSJohnsonCounty</item>
     <item>MDAlleganyCounty</item>
     <item>MDArnold</item>
     <item>MDCambridge</item>
@@ -250,6 +253,7 @@
     <item>MIMuskegonCounty</item>
     <item>MNAnokaCounty</item>
     <item>MOPulaskiCounty</item>
+    <item>MTLewisAndClarkCounty</item>
     <item>NJBergenCounty</item>
     <item>NJGloucesterCounty</item>
     <item>NYAmherst</item>
@@ -332,6 +336,7 @@
     <item>Vigo County, IN</item>
     <item>Black Hawk County, IA</item>
     <item>Woodbury County, IA</item>
+    <item>Johnson County, KS</item>
     <item>Allegany County, MD</item>
     <item>Arnold, MD</item>
     <item>Cambridge, MD</item>
@@ -351,6 +356,7 @@
     <item>Muskegon County, MI</item>
     <item>Anoka County, MN</item>
     <item>Pulaski County, MO</item>
+    <item>Lewis &amp; Clark County, MT</item>
     <item>Bergen County, NJ</item>
     <item>Gloucester County, NJ</item>
     <item>Amherst, NY</item>
