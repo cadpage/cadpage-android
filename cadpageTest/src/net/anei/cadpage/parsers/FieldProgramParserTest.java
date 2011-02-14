@@ -406,6 +406,34 @@ public class FieldProgramParserTest extends BaseParserTest {
         "STRUCTURE FIRE;New Run Num: 666",
         "CALL:STRUCTURE FIRE",
         "ID:666");
+    
+    doFieldTest("repeat",
+        "Typ:CALL Com:INFO+ Run:ID",
+        "Typ:FIRE;Com:LINE1;Com:LINE2;Run:666",
+        "CALL:FIRE",
+        "INFO:LINE1 / LINE2",
+        "ID:666");
+    
+    doFieldTest("no repeat",
+        "Typ:CALL Com:INFO Run:ID",
+        "Typ:FIRE;Com:LINE1;Com:LINE2;Run:666",
+        "CALL:FIRE",
+        "INFO:LINE1",
+        "ID:666");
+    
+    doFieldTest("inherited tag",
+        "Typ:CALL Com:INFO+ Run:ID",
+        "Typ:FIRE;Com:LINE1;LINE2;LINE3;Run:666",
+        "CALL:FIRE",
+        "INFO:LINE1 / LINE2 / LINE3",
+        "ID:666");
+    
+    doFieldTest("skip untagged fields",
+        "Typ:CALL Com:INFO Run:ID",
+        "Typ:FIRE;Com:LINE1;LINE2;LINE3;Run:666",
+        "CALL:FIRE",
+        "INFO:LINE1",
+        "ID:666");
 }
   
   @Override
