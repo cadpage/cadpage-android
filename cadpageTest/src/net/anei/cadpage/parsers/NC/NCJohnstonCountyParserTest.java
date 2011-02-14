@@ -22,7 +22,8 @@ public class NCJohnstonCountyParserTest extends BaseParserTest {
 
     doTest("T2",
         "CAD:OPS5;CLD;52C02C;CARBON MONOXIDE ALARM;70 MYSTICAL CT;(S)JORDAN RIDGE (N);GALAXY DR;DENA HOLLOMAN;12/28/2010 22:20:35;CLD1",
-        "SRC:OPS5",
+        "INFO:OPS5",
+        "SRC:CLD",
         "CODE:52C02C",
         "CALL:CARBON MONOXIDE ALARM",
         "ADDR:70 MYSTICAL CT",
@@ -31,7 +32,8 @@ public class NCJohnstonCountyParserTest extends BaseParserTest {
 
     doTest("T3",
         "CAD:CLDFR;CLD;17B01G;INJURED PERSON;104 LAKEVIEW CT;(S)SOUTH RIDGE (N);SOUTH RIDGE DR;DOBERT, HENRY;12/28/2010 11:00:58;CLDR1",
-        "SRC:CLDFR",
+        "INFO:CLDFR",
+        "SRC:CLD",
         "CODE:17B01G",
         "CALL:INJURED PERSON",
         "ADDR:104 LAKEVIEW CT",
@@ -40,7 +42,8 @@ public class NCJohnstonCountyParserTest extends BaseParserTest {
 
     doTest("T4",
         "CAD:OPS;CLD;10C02;CHEST PAINS;643 BIG PINE RD;PEACE LN;GOVERNMENT RD;ESTERLENE MILLER;02/09/2011 15:21:31;CLDR2",
-        "SRC:OPS",
+        "INFO:OPS",
+        "SRC:CLD",
         "CODE:10C02",
         "CALL:CHEST PAINS",
         "ADDR:643 BIG PINE RD",
@@ -49,7 +52,8 @@ public class NCJohnstonCountyParserTest extends BaseParserTest {
 
     doTest("T5",
         "CAD:OPS;CLD;06D02;DIFFICULTY BREATHING;101 CHERRY CT;ALLEN RD;DAVIS, JOHN;02/09/2011 15:08:36;CLDR1",
-        "SRC:OPS",
+        "INFO:OPS",
+        "SRC:CLD",
         "CODE:06D02",
         "CALL:DIFFICULTY BREATHING",
         "ADDR:101 CHERRY CT",
@@ -58,7 +62,8 @@ public class NCJohnstonCountyParserTest extends BaseParserTest {
 
     doTest("T6",
         "CAD:OPS4;CLD;52B01S;FIRE ALARM;330 STEEL BRIDGE RD;CONTENDER DR;CLEVELAND RD;BROADVIEW;02/09/2011 12:18:09;CLD1",
-        "SRC:OPS4",
+        "INFO:OPS4",
+        "SRC:CLD",
         "CODE:52B01S",
         "CALL:FIRE ALARM",
         "ADDR:330 STEEL BRIDGE RD",
@@ -67,14 +72,16 @@ public class NCJohnstonCountyParserTest extends BaseParserTest {
 
     doTest("T7",
         "CAD:OPS4;CLD;MVA PERSONAL INJURY;WATKINS RD/CLEVELAND RD;SPRINT PCS;02/08/2011 07:18:56;CLD1",
-        "SRC:OPS4",
+        "INFO:OPS4",
+        "SRC:CLD",
         "CALL:MVA PERSONAL INJURY",
         "ADDR:WATKINS RD & CLEVELAND RD",
         "X:SPRINT PCS");
 
     doTest("T8",
         "CAD:OPS4;CLD;GAS LEAK NATURAL GAS/PROPANE;105 JOSEPHINE RD;CLEVELAND RD;MOONLIGHT DR;POLENTA ELEMENTARY SCHOOL;SUSAN;02/08/2011",
-        "SRC:OPS4",
+        "INFO:OPS4",
+        "SRC:CLD",
         "CALL:GAS LEAK NATURAL GAS/PROPANE",
         "ADDR:105 JOSEPHINE RD",
         "X:CLEVELAND RD & MOONLIGHT DR",
@@ -88,7 +95,8 @@ public class NCJohnstonCountyParserTest extends BaseParserTest {
 
     doTest("T10",
         "CAD:OPS7;CLD;VEHICLE FIRE;314 I-40 HWY;314.5;SPRINT PCS;02/07/2011 15:54:03;CLD1",
-        "SRC:OPS7",
+        "INFO:OPS7",
+        "SRC:CLD",
         "CALL:VEHICLE FIRE",
         "ADDR:314 I-40 HWY",
         "X:314.5 & SPRINT PCS");
@@ -104,9 +112,38 @@ public class NCJohnstonCountyParserTest extends BaseParserTest {
         "CALL:No Add`l Personnel / Unit",
         "ADDR:314 I-40 HWY",
         "X:BENS & 314.5");
+
+    doTest("T20",
+        "CAD:OPS;FOD;17A01G;INJURED PERSON;439 LONG BRANCH RD;BLACK CREEK RD;BANKS ST;DUPREE, KENNETH L & CATHERINE;02/14/2011 07:25:26;FODR1",
+        "INFO:OPS",
+        "SRC:FOD",
+        "CODE:17A01G",
+        "CALL:INJURED PERSON",
+        "ADDR:439 LONG BRANCH RD",
+        "X:BLACK CREEK RD & BANKS ST",
+        "NAME:DUPREE, KENNETH L & CATHERINE");
+
+    doTest("T21",
+        "CAD:OPS;STA6;17A01;INJURED PERSON;439 LONG BRANCH RD;BLACK CREEK RD;BANKS ST;DUPREE, KENNETH L & CATHERINE;02/14/2011 07:08:53;EMS62",
+        "INFO:OPS",
+        "SRC:STA6",
+        "CODE:17A01",
+        "CALL:INJURED PERSON",
+        "ADDR:439 LONG BRANCH RD",
+        "X:BLACK CREEK RD & BANKS ST",
+        "NAME:DUPREE, KENNETH L & CATHERINE");
+
+    doTest("T22",
+        "CAD:OPS;STA6;CVA/STROKE;3800-B US 701 HWY S;STEWART RD;PEACH ORCHARD RD;BENSON AREA MEDICAL CENTER INC;02/14/2011 15:49:44;FOR6X,EMS52",
+        "INFO:OPS",
+        "SRC:STA6",
+        "CALL:CVA/STROKE",
+        "ADDR:3800-B US 701 HWY S",
+        "X:STEWART RD & PEACH ORCHARD RD",
+        "NAME:BENSON AREA MEDICAL CENTER INC");
   }
   
   public static void main(String[] args) {
-    new NCJohnstonCountyParserTest().generateTests();
+    new NCJohnstonCountyParserTest().generateTests("T20");
   }
 }
