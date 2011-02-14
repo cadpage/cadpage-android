@@ -58,6 +58,13 @@ public class NYErieCountyParserTest extends BaseParserTest {
         "CITY:LANCASTER TOWN",
         "INFO:GREEN DODGE CALIBER 25 YO FEMALE FEELS AS THOUGH SHE MAY PASS OUT");
 
+    doTest("T3",
+        "ALERT@ERIE.GOV EMS 4805 TRANSIT RD APT: 1106 LANCASTER TOWN EMS- 59 YO MALE, LEG PAIN AS A RESULT OF A FALL EARLIER",
+        "CALL:EMS",
+        "ADDR:4805 TRANSIT RD",
+        "APT:1106",
+        "INFO:EMS- 59 YO MALE, LEG PAIN AS A RESULT OF A FALL EARLIER");
+
   }
   
   public static void main(String[] args) {

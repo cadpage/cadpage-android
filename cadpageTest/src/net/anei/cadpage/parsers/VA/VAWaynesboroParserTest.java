@@ -54,5 +54,14 @@ public class VAWaynesboroParserTest extends BaseParserTest {
         "CALL:FALL BACK INJURY",
         "ADDR:368 WALNUT AVE");
 
+    doTest("T9",
+        "Dispatch2@ci.waynesboro.va.us Msg: Dispatch2:RESPOND LIFELINE ACTIVATION - FALL SPRINGDALE APTS 300 S WAYNE AVE APT 12",
+        "CALL:LIFELINE ACTIVATION - FALL SPRINGDALE APTS",
+        "ADDR:300 S WAYNE AVE",
+        "APT:12");
+  }
+  
+  public static void main(String[] args) {
+    new VAWaynesboroParserTest().generateTests("T9", "CALL ADDR APT INFO");
   }
 }
