@@ -188,9 +188,10 @@ public abstract class BaseParserTest {
     List<String> termList = new ArrayList<String>();
     Set<String> termSet = new HashSet<String>();
     for (String term : prog.split(" +")) {
-      int pt = 0;
+      int st = term.indexOf(':')+1;
+      int pt = st;
       while (pt < term.length() && Character.isJavaIdentifierPart(term.charAt(pt))) pt++;
-      term = term.substring(0,pt);
+      term = term.substring(st,pt);
       String term2 = ((FieldProgramParser)parser).getField(term).getFieldNames();
       if (term2 == null) term2 = KEYWORD_MAP.get(term);
       if (term2 == null) continue;

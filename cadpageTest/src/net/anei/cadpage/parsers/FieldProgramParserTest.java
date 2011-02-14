@@ -21,6 +21,12 @@ public class FieldProgramParserTest extends BaseParserTest {
   
   @Test
   public void testproblem() {
+    
+    doFieldTest("tag w/blanks",
+        "CALL New_Run_Num:ID",
+        "STRUCTURE FIRE;New Run Num: 666",
+        "CALL:STRUCTURE FIRE",
+        "ID:666");
   }
   
   @Test
@@ -394,6 +400,12 @@ public class FieldProgramParserTest extends BaseParserTest {
     doFieldFail("Missing City",
         "CALL LOC:ADDR! CTY:CITY RUN:ID",
         "FIRE; CTY: BLACKBURG; RUN:666");
+    
+    doFieldTest("tag w/blanks",
+        "CALL New_Run_Num:ID",
+        "STRUCTURE FIRE;New Run Num: 666",
+        "CALL:STRUCTURE FIRE",
+        "ID:666");
 }
   
   @Override

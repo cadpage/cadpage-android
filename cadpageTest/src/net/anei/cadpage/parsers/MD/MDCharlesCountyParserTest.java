@@ -129,7 +129,7 @@ public class MDCharlesCountyParserTest extends BaseParserTest {
         "Subject:*CAD*\n[CAD] MULTI FAMILY HOUSE FIRE, TOWNHOUSE, M/F, APARTMENT, 1 HICKORY LN, APT #307 17 G6 CALLER ADVISED HAS ODOR OF SMOKE",
         "CALL:MULTI FAMILY HOUSE FIRE, TOWNHOUSE, M/F, APARTMENT",
         "ADDR:1 HICKORY LN",
-        "PLACE:APT #307",
+        "APT:#307",
         "CODE:17 G6",
         "INFO:CALLER ADVISED HAS ODOR OF SMOKE");
 
