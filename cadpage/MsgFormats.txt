@@ -44,6 +44,11 @@ CAD:433 LONG SHOALS RD;B21U;SUBJECT STILL DOWN;EDGAR BULLUCK;FALLS;LEDBETTER RD;
 CAD:1 HAMBY DR;B9;(FR) STRUCTURE FIRE;OWENBY COVE RD
 CAD:411 POCONO CT;B21U;EGERTON, NANCY;CHEST PAIN;ROCKY MOUNTAIN WAY
 ***************************************************************************
+Cabarrus County, NC (NCCabarrusCountyParser)
+CAD:ASSAULT W/ INJURY;2339 ODELL SCHOOL RD;CON;CONCORD HOUSE;HILLSDELL DR;LOCKWOOD RD;RAINTREE, HEALTH CARE OF CONCO
+CAD:BREATHING PROBLEMS;5412 ASHBURY LN;DAV;TERRILL RIDGE DR;TERRILL RIDGE DR;BRACEY III JOSEPH O     
+CAD:STRUCTURE FIRE;1606 DUCKHORN ST NW;CON;From CPD:;RAVENSCROFT LN NW;INDIAN BEECH AV NW;BUCKELEW, HEATHER     
+***************************************************************************
 Hayword County, NC (NCHaywoodCountyParser)
 CAD:1010170008;ROUTINE SICK PERSON;33 GRACE DR;CRUSO RD;JOHNS CREEK RD;12;10/17/2010 10:15:00
 CAD:1011010007;ROUTINE SICK PERSON;59 YAH WAY;MUNDY FIELD RD;12;11/01/2010 12:29:40
@@ -1642,11 +1647,6 @@ BR indicates the city the call is in BR=Brandon SD, VS=Valley Springs SD, SR= Sp
 1625 RUSHMORE DR is the actual address of the call
 Family Dispute is the nature of the call
 2011-00000347 is the year and call number so far
-**********************************************************
-Cabbarus County, NC
-Contact: Michael Martocchio <maccaronimartocchio@gmail.com>
-Sender: CAD@cabarruscounty.us
-CAD:ASSAULT W/ INJURY;2339 ODELL SCHOOL RD;CON;CONCORD HOUSE;HILLSDELL DR;LOCKWOOD RD;RAINTREE, HEALTH CARE OF CONCO
 **********************************************************
 Harnet County, NC
 Contact: Beverly Williams <bwilliams.co9@gmail.com>
