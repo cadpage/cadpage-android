@@ -21,10 +21,12 @@ public class SmsReceiver extends BroadcastReceiver {
     SmsMmsMessage message = null;
     
     // If repeat_last flag is set, this is a fake intent instructing us
-    // to reprocess the most recently recieved message (that passed the 
+    // to reprocess the most recently received message (that passed the 
     // sender address filter
-    if (intent.getBooleanExtra(EXTRA_REPEAT_LAST, false)) {
+    boolean repeat = intent.getBooleanExtra(EXTRA_REPEAT_LAST, false);
+    if (repeat) {
       message = SmsMsgLogBuffer.getInstance().getLastMessage();
+      if (message != null) message.setRead(false);
     }
     // Otherwise convert Intent into an SMS/MSS message
     else {
@@ -51,9 +53,10 @@ public class SmsReceiver extends BroadcastReceiver {
     if (Log.DEBUG) Log.v("SMSReceiver/CadPageCall: Filter Matches checking call Location -" + sFilter);
     
     // Save message for future test or error reporting use
-    // If message is rejected as duplicate, don't do anything except call
+    // If message is rejected as duplicate, and it wasn't a requested repeat
+    // don't do anything except call
     // abortbroadcast to keep it from going to anyone else
-    if (! SmsMsgLogBuffer.getInstance().add(message)) {
+    if (! SmsMsgLogBuffer.getInstance().add(message) && !repeat) {
       if (! ManagePreferences.smspassthru()) abortBroadcast();
       return;
     }
