@@ -22,6 +22,7 @@ public class MDHarfordParserTest extends BaseParserTest {
         "ADDR:2200 CHANNEL RD",
         "X:BIG BRANCH BRDG #127",
         "CITY:PYLESVILLE",
+        "NAME:CRIZER,KIM",
         "BOX:N08",
         "ID:2010-0000162717");
 
@@ -32,6 +33,7 @@ public class MDHarfordParserTest extends BaseParserTest {
         "ADDR:1606 SCOTT RD",
         "X:FAWN GROVE RD",
         "CITY:PYLESVILLE",
+        "NAME:BATCHELDER,MICHELLE",
         "BOX:N04",
         "ID:2010-0000162427");
     
@@ -42,6 +44,7 @@ public class MDHarfordParserTest extends BaseParserTest {
         "ADDR:2145 HARKINS RD",
         "X:SAINT PAULS CHURCH RD",
         "CITY:PYLESVILLE",
+        "NAME:ROHREAUGH,KEN",
         "BOX:N04",
         "ID:2010-0000162445");
         
@@ -52,6 +55,7 @@ public class MDHarfordParserTest extends BaseParserTest {
         "ADDR:4873 CAREA RD",
         "X:WALNUT SPRING CT",
         "CITY:WHITE HALL",
+        "NAME:SHERBS,ROBERT",
         "BOX:N08",
         "ID:2010-0000162395");
         
@@ -62,6 +66,7 @@ public class MDHarfordParserTest extends BaseParserTest {
         "ADDR:ST-24 & SAINT MARYS RD",
         "X:SAINT MARYS RD",
         "CITY:PYLESVILLE",
+        "NAME:DEDRICKPATTI",
         "ID:2010-0000162161");
     
     doTest("T6",
@@ -71,6 +76,7 @@ public class MDHarfordParserTest extends BaseParserTest {
         "ADDR:SHAWNEE DR & WALTERS MILL RD",
         "X:WALTERS MILL RD",
         "CITY:FOREST HILL",
+        "NAME:NOT ENTERED",
         "ID:2010-000019169");
 
   }

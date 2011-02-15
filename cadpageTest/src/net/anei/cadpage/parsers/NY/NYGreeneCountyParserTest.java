@@ -20,6 +20,7 @@ public class NYGreeneCountyParserTest extends BaseParserTest {
         "CALL:WIRES DOWN/ARCING",
         "ADDR:117 RIVER RD",
         "CITY:ATHENS",
+        "NAME:BRAUMULLER, HELENE",
         "ID:2010-0000033052");
     
     doTest("T2",
@@ -27,6 +28,7 @@ public class NYGreeneCountyParserTest extends BaseParserTest {
         "CALL:FIRE ALARM",
         "ADDR:558 SLEEPY HOLLOW RD",
         "CITY:ATHENS",
+        "NAME:ADT SECURITY-OP ANDREA-",
         "MAP:62",
         "ID:2010-0000033344");
     
@@ -34,6 +36,7 @@ public class NYGreeneCountyParserTest extends BaseParserTest {
         "GREENE 911:SMOKE >SMOKE INVESTIGATION 2ND ST VENTE JOEAN Cad: 2010-0000034969",
         "CALL:SMOKE INVESTIGATION",
         "ADDR:2ND ST",
+        "NAME:VENTE JOEAN",
         "ID:2010-0000034969");
     
     doTest("T4",
@@ -41,6 +44,7 @@ public class NYGreeneCountyParserTest extends BaseParserTest {
         "CALL:MVA WITH INJURIES",
         "ADDR:MARKET ST",
         "CITY:ATHENS",
+        "NAME:BUCHAKIAN,DAVID",
         "ID:2010-0000033852");
     
     doTest("T5",
@@ -48,6 +52,7 @@ public class NYGreeneCountyParserTest extends BaseParserTest {
         "CALL:STRUCTURE FIRE",
         "ADDR:408 W BRIDGE ST",
         "CITY:CATSKILL",
+        "NAME:LAIRD, JACQUELYNN",
         "ID:2010-0000034875");
     
   }

@@ -19,6 +19,7 @@ public class GADadeCountyParserTest extends BaseParserTest {
         "ADDR:367 GRAY RD",
         "X:224 FAWN DAWN DR",
         "PLACE:NEW SALEM",
+        "NAME:KATY DILLS",
         "MAP:10-D1,E1",
         "ID:2011-0000000796");
     
@@ -28,6 +29,7 @@ public class GADadeCountyParserTest extends BaseParserTest {
         "ADDR:391 BIBLE GULF RD",
         "X:869 TATUM GULF RD OFF OLD STATE RD",
         "PLACE:HEAD RIVER",
+        "NAME:KEATON, GLENN",
         "MAP:12-D2",
         "ID:2011-0000000651");
 
@@ -37,6 +39,7 @@ public class GADadeCountyParserTest extends BaseParserTest {
         "ADDR:2862 YANKEE RD",
         "X:HWY 157 S",
         "PLACE:HEAD RIVER",
+        "NAME:KEENER, CAROL",
         "MAP:11,12",
         "ID:2011-0000001152");
         
@@ -46,6 +49,7 @@ public class GADadeCountyParserTest extends BaseParserTest {
         "ADDR:13500 HWY 136 E",
         "X:N & S MOORE RD",
         "PLACE:NEW SALEM",
+        "NAME:ROBERTS, CHIP",
         "MAP:6,15",
         "ID:2011-0000000992");
         
@@ -55,6 +59,7 @@ public class GADadeCountyParserTest extends BaseParserTest {
         "ADDR:2321 OLD STATE RD",
         "X:16548 HWY 157 S",
         "PLACE:HEAD RIVER",
+        "NAME:CHAD LANIER",
         "MAP:11,12",
         "ID:2011-0000001270");
         
@@ -62,6 +67,7 @@ public class GADadeCountyParserTest extends BaseParserTest {
         "DADE COUNTY 911:78 >ASSISTANCE/ MUTUAL AID 84 RUSHING WATER TRL CHRISTY / WALKER Cad: 2011-0000001334",
         "CALL:ASSISTANCE/MUTUAL AID",
         "ADDR:84 RUSHING WATER TRL",
+        "NAME:CHRISTY / WALKER",
         "ID:2011-0000001334");
         
   }
