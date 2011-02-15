@@ -615,7 +615,7 @@ public class SmsMmsMessage implements Serializable {
     sb.append(parseSubject);
     
     sb.append("\nBody:");
-    sb.append(messageBody);
+    sb.append(escape(messageBody));
     
     sb.append("\nEff Body:");
     sb.append(parseMessageBody);
@@ -632,6 +632,28 @@ public class SmsMmsMessage implements Serializable {
     
     
     sb.append('\n');
+  }
+
+  /**
+   * Escape a string containing tabs, newlines, or multiple spaces so it
+   * will better survive transmission through an email message
+   * @param message message to be escaped
+   * @return escaped message
+   */
+  private static final Pattern MULT_SPACES = Pattern.compile(" {2,}");
+  static String escape(String message) {
+    message = message.replaceAll("\t", "\\\\t");
+    message = message.replaceAll("\n", "\\\\n\n");
+    Matcher match = MULT_SPACES.matcher(message);
+    if (match.find()) {
+      StringBuffer sb = new StringBuffer();
+      do {
+        match.appendReplacement(sb, "\\\\" + (match.end()-match.start()) + "s");
+      } while (match.find());
+      match.appendTail(sb);
+      message = sb.toString();
+    }
+    return message;
   }
 
   /**
