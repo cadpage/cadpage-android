@@ -29,16 +29,6 @@ public class GeneralParserTest extends BaseParserTest {
   
   @Test
   public void testParser() {
-    
-    doTest("T19",
-        "Loc: 118 S 4TH ST YNGWD_B X-sts: CHESTNUT ST & LOCUST ST  Inc#:F11000861 NATURE: FIRE  CALLER: ANTHONY GALADIAY TOC: 19:08:40 Comments: FLAMES COMING OUT OF THE WALL  Disp: E26-1",
-        "ADDR:118 S 4TH ST",
-        "INFO:YNGWD_B / FLAMES COMING OUT OF THE WALL",
-        "X:CHESTNUT ST & LOCUST ST",
-        "ID:F11000861",
-        "CALL:FIRE",
-        "NAME:ANTHONY GALADIAY",
-        "SRC:E26-1");
 
     doTest("T1",
         "2010-189098*1211 PECAN ST***CONOVER**OVERDOSE*********",
@@ -101,7 +91,7 @@ public class GeneralParserTest extends BaseParserTest {
         "CALL:CARBON MONOXIDE",
         "ADDR:8A 2204 JASON CT",
         "APT:7",
-        "INFO:K2 CALLER ADVISED HIS BSMT CO DETECTOR IS GOING OFF F103510001 1022578 02: 01");
+        "INFO:K2 CALLER ADVISED HIS BSMT CO DETECTOR IS GOING OFF F103510001 1022578");
     
     doTest("T9",
         "CAD:16 BLUE HERON DR;B213;BECKHAM, LINDA & MALACHY;FALLS;RIVER CANE DR",
@@ -197,6 +187,11 @@ public class GeneralParserTest extends BaseParserTest {
         "CALL:FIRE",
         "NAME:ANTHONY GALADIAY",
         "SRC:E26-1");
+    
+    doTest("T20",
+        "(From 911 Center) 02/14/11 16:26 5 CEDAR LN BRUTUS Cardiac",
+        "CALL:BRUTUS Cardiac",
+        "ADDR:5 CEDAR LN");
 
   }
 }

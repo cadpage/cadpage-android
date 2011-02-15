@@ -63,6 +63,7 @@ public class NYErieCountyParserTest extends BaseParserTest {
         "CALL:EMS",
         "ADDR:4805 TRANSIT RD",
         "APT:1106",
+        "CITY:LANCASTER TOWN",
         "INFO:EMS- 59 YO MALE, LEG PAIN AS A RESULT OF A FALL EARLIER");
 
   }
