@@ -692,6 +692,15 @@ CAD:2010110683;PI ACCIDENT;8859 JERSEY RD;DELM;CONNELLY MILL RD;ADKINS RD;[Medic
 Lincoln County, NC
 Contact: "Chris Garner" <cgarner@taylorviola.com>
 No Samples (reminder 2/13/2011)
+Unknown
+******************************************************************************************************************************************************************************
+Contact: "Arnold, Douglas" <Douglas.Arnold@montgomerycountymd.gov>
+Sender: rc.283@c-msg.net
+(WCo) [!] 13726 OLIVER DR, MICROTEL SUITES HOTEL - BREATHING PROBLEMS - R75,CO13 - 1100302 16:39
+
+Contact: "m00se66189@aol.com" <m00se66189@aol.com>
+Sender: rc.306@c-msg.net
+(WCo) [!] BURNSIDE BRIDGE RD / FERNROCK LN - PIC, PERS INJURY COLLISION  - CO1,R19 - 1101829 10:28
 **********************************************************
 **********************************************************
 **********************************************************
@@ -871,28 +880,6 @@ Contact: "Wassell, Michael" <MWassell@avfd.com>
 ******        READY TO ROLL ******************************
 **********************************************************
 **********************************************************
-Unknown
-Contact: "Arnold, Douglas" <Douglas.Arnold@montgomerycountymd.gov>
-Sender: rc.283@c-msg.net
-(WCo) [!] 13726 OLIVER DR, MICROTEL SUITES HOTEL - BREATHING PROBLEMS - R75,CO13 - 1100302 16:39
-
-Contact: "m00se66189@aol.com" <m00se66189@aol.com>
-Sender: rc.306@c-msg.net
-(WCo) [!] BURNSIDE BRIDGE RD / FERNROCK LN - PIC, PERS INJURY COLLISION  - CO1,R19 - 1101829 10:28
-******************************************************************************************************************************************************************************
-Anderson County, SC
-Contact: Kevin Blakely <kblakely@sgfdfire.com>
-Sender: varies
-System: Interact GIS 5.16
-use DispatchBParser
-Will have to split town fields joined to phone number :(
-ANDERSON CO 911:29B1 >MVA-ALS PRI1 3814 N HIGHWAY 29 XS: BROOKS RD - DORCHESTER RD BELTON PLATINUM PLUS Map: Grids:0,0 Cad: 2011-0000004351
-ANDERSON CO 911:29B4 >MVA-ALS PRI1 HIGHWAY 29 N MICHAEL QUEEN2214421 Cad: 2011-0000004070
-ANDERSON CO 911:32 >UNKNOWN PROBLEM 1216 ROUND ABOUT TRL JOSH 201-4436 Cad: 2011-0000004370
-ANDERSON CO 911:17B1 >FALLS-ALS PRI1-FR 110 FRANKLIN RD ANDERSON HAWKINS, PAUL Map: Grids:0,0 Cad: 2011-0000004223
-ANDERSON CO 911:31 >UNCONSCIOUS/FAINTING 210 KIRK LN Apt: 11 Bldg PENDLETON6463347 MICHELLE DURHAM Map: Grids:0,0 Cad: 2011-0000004465
-ANDERSON CO  911:13A1 >DIABETIC-ALS PRI2 7900 HIGHWAY 76 PENDLETON OFFICER SUMMERS 934-3443 Map: Grids:0,0 Cad: 2011-0000004494
-**********************************************************
 Union County, NY
 Contact: Me <matt565@carolina.rr.com>
 Close to Frederick County, but not perfect match
@@ -922,6 +909,7 @@ CAD: OB EMERGENCY:WEYERS CAVE SHELL/ TEXACO:149 WEYERS CAVE RD:P O BOX 184:TRIAN
 Broome County, NY
 Contact: Chuck Rogers <cmr49a@gmail.com> (Dispatch CAD Administrator)
 Sender: messaging@iamresponding.com <From%3Amessaging@iamresponding.com>
+System: New World
 (49 Sanitaria Spr Fire) 49-DIABETIC-C :2786 ROUTE 79 :78 yo fem high blood sugar/unable t   &lt;13C02&gt; :78 year old, Female, Conscious, Breathing.  A
 **********************************************************
 Unknown?
