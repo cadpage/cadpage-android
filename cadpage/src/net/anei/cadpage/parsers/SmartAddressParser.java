@@ -142,7 +142,8 @@ public abstract class SmartAddressParser extends SmsMsgParser {
         "PLAZ", "PLAZA",
         "TURNPIKE", "TPKE",
         "PASS",
-        "EST");
+        "EST",
+        "RUN");
     setupDictionary(ID_ROUTE_PFX_EXT, "RT", "RTE", "ROUTE", "HW", "HWY", "HIGHWAY");
     setupDictionary(ID_ROUTE_PFX_PFX, "ST", "SRT", "US", "FS", "INTERSTATE", "I", "STHWY", "USHWY", "CO", "CR");
     setupDictionary(ID_ROUTE_PFX_PFX, new String[]{defState});

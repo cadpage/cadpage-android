@@ -11,6 +11,8 @@ import net.anei.cadpage.parsers.SmartAddressParser;
 
 public class GeneralParser extends SmartAddressParser {
   
+  private static final Pattern DATE_PATTERN = Pattern.compile("\\b\\d\\d/\\d\\d/\\d\\d(\\d\\d)?\\b");
+  private static final Pattern TIME_PATTERN = Pattern.compile("\\b\\d\\d:\\d\\d\\b");
   private static final Pattern DELIM_PATTERN = Pattern.compile(";|,|\\*|\\n|\\||\\b[A-Z][A-Za-z0-9-#]*:|\\bC/S:|\\b[A-Z][A-Za-z]*#");
   private static final Pattern CALL_ID_PATTERN = Pattern.compile("\\d[\\d-]+\\d");
   private static final Pattern UNIT_PATTERN = Pattern.compile("([A-Z]{1,4}[0-9]{1,4}\\s+)+");
@@ -56,6 +58,10 @@ public class GeneralParser extends SmartAddressParser {
     
     // Starting with CAD: confuses things
     if (body.startsWith("CAD:")) body = body.substring(4).trim();
+    
+    // Strip out any date and time fields
+    body = DATE_PATTERN.matcher(body).replaceAll("");
+    body = TIME_PATTERN.matcher(body).replaceAll("");
 
     // Parse text into different fields separated by delimiters
     // that match DELIM_PATTERN
@@ -219,11 +225,18 @@ public class GeneralParser extends SmartAddressParser {
             // Bingo!  Anything past the address goes into info
             foundAddr = true;
             res.getData(data);
-            data.strSupp = getLeft();
             
             // If we have some leading call info, use it.  If not, 
             // treat the last unidentified field as the call
             if (data.strCall.length() == 0 && last != null) data.strCall = last;
+            
+            // If we got any call info from anywhere, extra stuff goes into info 
+            // otherwise it goes into the call description
+            if (data.strCall.length() == 0) {
+              data.strCall = getLeft();
+            } else {
+              data.strSupp = getLeft();
+            }
             continue;
           }
         }

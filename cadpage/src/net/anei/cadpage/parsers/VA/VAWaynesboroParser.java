@@ -23,6 +23,7 @@ Dispatch:300 BLK PATTON FARM RD - SQAUD 2 REQUESTED - PRI1 PT WITH ENTRAPMENT - 
 Contact: Eric Taylor <ericferretttt@gmail.com>
 Dispatch2@ci.waynesboro.va.us Msg: Dispatch2:RESPOND 368 WALNUT AVE FALL, BACK INJURY
 Dispatch2@ci.waynesboro.va.us Msg: Dispatch2:RESPOND LIFELINE ACTIVATION - FALL SPRINGDALE APTS 300 S WAYNE AVE APT 12
+Dispatch@ci.waynesboro.va.us Msg: Dispatch:RESPOND 142 PHEASANT RUN HEADACHE, DIFFICULTY , 14 Y/O COUNTY 1
 
  */
 
