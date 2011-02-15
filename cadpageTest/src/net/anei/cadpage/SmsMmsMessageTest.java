@@ -154,4 +154,11 @@ public class SmsMmsMessageTest {
     assertEquals(title + ":SUBJ", expSubject, msg.getSubject());
     assertEquals(title + ":BODY", expBody, msg.getMessageBody());
   }
+  
+  @Test
+  public void testEscape() {
+    assertEquals("BIG RED ONE", SmsMmsMessage.escape("BIG RED ONE"));
+    assertEquals("BIG RED ONE\\n\n\\tOVER THERE\\n\nSIX\\6sSPACES\\3s3", 
+                 SmsMmsMessage.escape("BIG RED ONE\n\tOVER THERE\nSIX      SPACES   3"));
+  }
 }
