@@ -66,9 +66,23 @@ public class NYErieCountyParserTest extends BaseParserTest {
         "CITY:LANCASTER TOWN",
         "INFO:EMS- 59 YO MALE, LEG PAIN AS A RESULT OF A FALL EARLIER");
 
+    doTest("T4",
+        "ALERT@ERIE.GOV EMS 48 BENTLEY CR LANCASTER TOWN 79 Y/O FEMALE LETHARGIC",
+        "CALL:EMS",
+        "ADDR:48 BENTLEY CR",
+        "CITY:LANCASTER TOWN",
+        "INFO:79 Y / O FEMALE LETHARGIC");
+    
+    doTest("T5",
+        "ALERT@ERIE.GOV FIRE CO-DETECTOR 47 VIA DONATO E LANCASTER TOWN CO DETECTOR NO SYMPTOMS REFER TWIN DISTRICT FD",
+        "CALL:FIRE CO-DETECTOR",
+        "ADDR:47 VIA DONATO E",
+        "CITY:LANCASTER TOWN",
+        "INFO:CO DETECTOR NO SYMPTOMS REFER TWIN DISTRICT FD");
+
   }
   
   public static void main(String[] args) {
-    new NYErieCountyParserTest().generateTests("T2", "CALL ADDR APT INFO");
+    new NYErieCountyParserTest().generateTests("T6", "CALL ADDR APT CITY INFO");
   }
 }
