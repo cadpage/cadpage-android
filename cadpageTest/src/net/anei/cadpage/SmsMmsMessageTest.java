@@ -26,6 +26,12 @@ public class SmsMmsMessageTest {
         "CAD@livingstoncounty.livco",
         "",
         "CAD:FYI: ;SEIZUR;131 STRATFORD LN;BELMONT LN;[Medical Priority Info]");
+    
+    doParseTest("MILivingstonCounty3",
+        "Pagecopy-Fr:CAD@livingstoncounty.livco CAD:Update: ;FALL;3031 WM36;[EMS] HAS BEEN VOMITTING - DIABETIC [02/14/11 09:55:08 RLADOUCEUR] [Me",
+        "CAD@livingstoncounty.livco",
+        "",
+        "CAD:Update: ;FALL;3031 WM36;[EMS] HAS BEEN VOMITTING - DIABETIC [02/14/11 09:55:08 RLADOUCEUR] [Me");
 
     
     doParseTest("MOPulaskiCounty",
