@@ -591,6 +591,16 @@ Add: 2908 W 48th Ter Apt: Loc: Nature: MEDICAL Grid: 19/1. Incident# 10-3560129 
 Add: 5055 Buena Vista St Apt: Loc: Nature: Bleeding - Laceration Grid: 18/1. Incident# 10-3560040 Cross:W 51ST ST/SYCAMORE DR
 Add: 2435 Drury Ln Apt: Loc: Nature: Auto Alarm - Residence Grid: 34/1. Incident# 10-3560070 Cross:OAKWOOD RD/OVERHILL RD
 ***************************************************************************
+Butler County, KS
+[Incident Notification]  17D FALL (MAP PAGE): 26E (ADDRESS): 1611 N FAIRWAY DR Augusta (CROSS ST): N CLUB HOUSE DR / E FAIRWAY CT (NARR):  ProQA Medical Questionnai
+[Incident Notification]  6D DIFF BREATHING (MAP PAGE): 22C (ADDRESS): 524 S EMPORIA ST El Dorado (CROSS ST): W CAVE SPRINGS AVE / W LOCUST AVE (NARR): ProQA Medica
+(Incident Notification) 10D CHEST PAIN (MAP PAGE): 9 (ADDRESS): 5957 NE 80TH ST County (CROSS ST): NE ELLIS RD / NE HWY 177 (NARR):  ProQA Medical Questionnaire Co
+(Incident Notification) 6E ECHO DIFF BREATH (MAP PAGE): 36F (ADDRESS): 218 E ROSEWOOD ST Rose Hill (CROSS ST): N MAIN ST / N MEEKER CT (NARR):  a  as fd3  es fd3
+(Incident Notification) 31D UNCONCIOUS (MAP PAGE): 15 (ADDRESS): 955 N HAVERHILL RD El Dorado (CROSS ST): W PIONEER DR / W 6TH AVE (NARR):  acting alittle confused
+[Incident Notification]  13D DIABETIC EMERGENCY (MAP PAGE): 25B (ADDRESS): 726 N PROSPERITY LN Andover (CROSS ST): W ELLEN LN / DEAD END (NARR):  rp
+***************************************************************************
+***************************************************************************
+***************************************************************************
 ***************************************************************************
 ***************************************************************************
 ***************************************************************************
@@ -706,6 +716,48 @@ Sender: rc.283@c-msg.net
 Contact: "m00se66189@aol.com" <m00se66189@aol.com>
 Sender: rc.306@c-msg.net
 (WCo) [!] BURNSIDE BRIDGE RD / FERNROCK LN - PIC, PERS INJURY COLLISION  - CO1,R19 - 1101829 10:28
+**********************************************************
+Agusta County, VA
+Contact:Josh Sprouse <firemedic1812@gmail.com>
+Sender:cad@co.augusta.va.us
+Need more samples 2/15
+CAD: Chest Pain:81 Fountain Cave RD:RT 605 - Wonderly / 10203: Cave Hill LN:Rockfish RD
+CAD: OB EMERGENCY:WEYERS CAVE SHELL/ TEXACO:149 WEYERS CAVE RD:P O BOX 184:TRIANGLE DR:SR 222:CNTY-1
+**********************************************************
+Broome County, NY
+Contact: Chuck Rogers <cmr49a@gmail.com> (Dispatch CAD Administrator)
+Sender: messaging@iamresponding.com <From%3Amessaging@iamresponding.com>
+System: New World
+Need more samples (2/15)
+(49 Sanitaria Spr Fire) 49-DIABETIC-C :2786 ROUTE 79 :78 yo fem high blood sugar/unable t   &lt;13C02&gt; :78 year old, Female, Conscious, Breathing.  A
+**********************************************************
+Unknown?
+Contact: Cody Shell <spiritcontra@gmail.com>
+More examples 2/15
+
+fake call(s)
+MEDIC 000, INC# 0000000, LOC 3636 TALILUNA AVE-KNOX, APT 119  PRI 1A, PAT.COND E06, MAP 6061-L , X1 TUGALOO DR KENNESAW DR , ADDLOC , BLDG SEQUOYAH SQUARE CONDO, DEST
+
+
+I640-KNOX/N BROADWAY-KNOX
+I75-KNOX/MERCHANTS RD-KNOX
+1916 LEVY DR-POWL
+6619 BEAVER RIDGE RD-KARN
+CHAPMAN HWY-SVFD/HENDRON CHAPEL RD-SVFD
+**********************************************************
+Jefferson County, WA
+Contact: "rtmcallister@yahoo.com" <rtmcallister@yahoo.com>
+Sender: iamresponding.com
+Hold until more info about pending CAD vendor change
+(JCFD5) JeffCom911 XDC CAD Email Call Details:Case Number:Date:Agency:Disco/Gardner FDSequence Number:JCF5:2011:01:09:1Unit:01TONEDAddress:HWY 101 / MP 278
+[JCFD5]  JeffCom911 XDC CAD Email Call Details:Case Number:Date:Agency:Disco/Gardner FDSequence Number:JCF5:2011:01:07:1Unit:E51Address:EAGLEMOUNT RD / H
+(JCFD5) JeffCom911 XDC CAD Email Call Details:Case Number:Date:Agency:Disco/Gardner FDSequence Number:JCF5:2011:01:10:1Unit:01TONEDAddress:FIRE - ST 52
+**********************************************************
+Elkhart County, IN
+Contact: Chris Lanpher <chrislanpher@gmail.com>
+Sender: <elkco911@eccdomain.local>
+Need more samples 2/15
+62499 ST RD13 GOSHENAmbulance CallCLIN,M1J01/16/2011 10:46:33 : pos7 HARMOF   Geo Comment: 00120D  CLIN CEN  CLINTON BRICK MENNONITE CHURCH.....GO TO THE
 **********************************************************
 **********************************************************
 **********************************************************
@@ -879,47 +931,6 @@ Contact: "Wassell, Michael" <MWassell@avfd.com>
 [AVFD FIRE][Repage] - Mvi - Unknown -- Will Clayton Pkwy & atascoci -- Map: 376C- -- Xst's: Atascocita Rd Hunters Ter -- Units: E-M29 E-E39 - 201105192
 (atascoci is Atascocita Road)
 **********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-******        READY TO ROLL ******************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-Agusta County, VA
-Contact:Josh Sprouse <firemedic1812@gmail.com>
-Sender:cad@co.augusta.va.us
-CAD: Chest Pain:81 Fountain Cave RD:RT 605 - Wonderly / 10203: Cave Hill LN:Rockfish RD
-CAD: OB EMERGENCY:WEYERS CAVE SHELL/ TEXACO:149 WEYERS CAVE RD:P O BOX 184:TRIANGLE DR:SR 222:CNTY-1
-**********************************************************
-Broome County, NY
-Contact: Chuck Rogers <cmr49a@gmail.com> (Dispatch CAD Administrator)
-Sender: messaging@iamresponding.com <From%3Amessaging@iamresponding.com>
-System: New World
-(49 Sanitaria Spr Fire) 49-DIABETIC-C :2786 ROUTE 79 :78 yo fem high blood sugar/unable t   &lt;13C02&gt; :78 year old, Female, Conscious, Breathing.  A
-**********************************************************
-Unknown?
-Contact: Cody Shell <spiritcontra@gmail.com>
-
-fake call(s)
-MEDIC 000, INC# 0000000, LOC 3636 TALILUNA AVE-KNOX, APT 119  PRI 1A, PAT.COND E06, MAP 6061-L , X1 TUGALOO DR KENNESAW DR , ADDLOC , BLDG SEQUOYAH SQUARE CONDO, DEST
-MM380 EAST (WEST OF EXIT)-KNOX
-
-I640-KNOX/N BROADWAY-KNOX
-I75-KNOX/MERCHANTS RD-KNOX
-1916 LEVY DR-POWL
-6619 BEAVER RIDGE RD-KARN
-CHAPMAN HWY-SVFD/HENDRON CHAPEL RD-SVFD
-**********************************************************
-Jefferson County, WA
-Contact: "rtmcallister@yahoo.com" <rtmcallister@yahoo.com>
-Sender: iamresponding.com
-Hold until more info about pending CAD vendor change
-(JCFD5) JeffCom911 XDC CAD Email Call Details:Case Number:Date:Agency:Disco/Gardner FDSequence Number:JCF5:2011:01:09:1Unit:01TONEDAddress:HWY 101 / MP 278
-[JCFD5]  JeffCom911 XDC CAD Email Call Details:Case Number:Date:Agency:Disco/Gardner FDSequence Number:JCF5:2011:01:07:1Unit:E51Address:EAGLEMOUNT RD / H
-(JCFD5) JeffCom911 XDC CAD Email Call Details:Case Number:Date:Agency:Disco/Gardner FDSequence Number:JCF5:2011:01:10:1Unit:01TONEDAddress:FIRE - ST 52
-**********************************************************
 Buffalo, NY
 Contact: Kunch <joshkunch@msn.com>
 Sender: 2002000004
@@ -937,10 +948,13 @@ Sender: msg@cfmsg.com
 (Chief ALT) [STA:700] - Nature:Vehicle Fire - ADD:8878 Stephen Decatur Hwy OCMD - Cross STS:Clark Rd & Landings Blvd
 [Chief ALT]  [STA:700] - Nature:Mutual Aid Fire - ADD:1 W Indian St OCMD - Cross STS:Bay St & E Indian St
 **********************************************************
-Elkhart County, IN
-Contact: Chris Lanpher <chrislanpher@gmail.com>
-Sender: <elkco911@eccdomain.local>
-62499 ST RD13 GOSHENAmbulance CallCLIN,M1J01/16/2011 10:46:33 : pos7 HARMOF   Geo Comment: 00120D  CLIN CEN  CLINTON BRICK MENNONITE CHURCH.....GO TO THE
+**********************************************************
+**********************************************************
+**********************************************************
+******        READY TO ROLL ******************************
+**********************************************************
+**********************************************************
+**********************************************************
 **********************************************************
 Lee County, FL
 Contact: Jacob Lamb <jhlamb268@gmail.com>

@@ -25,6 +25,9 @@ Pagecopy-Fr:CAD@livingstoncounty.livco\nCAD:FYI: ;OVDOSE;4676 KENMORE DR;[Medica
 Contact: Casey Yost <caseyyost@gmail.com>
 firediver11+caf_=5176671194=vtext.com@gmail.comPagecopy-Fr:CAD@livingstoncounty.livco\nCAD:FYI: ;SEIZUR;131 STRATFORD LN;BELMONT LN;[Medical Priority Info]
 
+Contact: Jeff Vaden <jeffvaden@gmail.com>
+Pagecopy-Fr:CAD@livingstoncounty.livco CAD:Update: ;FALL;3031 WM36;[EMS] HAS BEEN VOMITTING - DIABETIC [02/14/11 09:55:08 RLADOUCEUR] [Me
+
 */
 
 public class MILivingstonCountyParser extends DispatchOSSIParser {

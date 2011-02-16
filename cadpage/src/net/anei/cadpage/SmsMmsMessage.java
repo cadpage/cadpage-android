@@ -171,6 +171,10 @@ public class SmsMmsMessage implements Serializable {
    * Perform any front end unscrambling required to recover the original text
    * message sent by dispatch for parsing purposes.
    */
+  
+  private static final Pattern PAGECOPY_PATTERN = Pattern.compile("Pagecopy-Fr:(\\S*)\\s");
+  private static final Pattern EMAIL_PATTERN = 
+    Pattern.compile("^([\\w\\.]+@[\\w\\.]+)( / / )");
   private void getParseInfo() {
     
     // Set message body to empty string if we don't have one
@@ -296,20 +300,17 @@ public class SmsMmsMessage implements Serializable {
       /* Decode patterns that look like this
        * Pagecopy-Fr:CAD@livingstoncounty.livco\nCAD:FYI: ;OVDOSE;4676 KENMORE DR;[Medical Priority Info] RESPONSE: P1 STA 1
        */
-      ipt = body.indexOf("Pagecopy-Fr:");
-      if (ipt >= 0) {
-        int ipt2 = body.indexOf('\n', ipt+12);
-        if (ipt2 >= 0) {
-          parseAddress = body.substring(ipt+12, ipt2).trim();
-          body = body.substring(ipt2+1).trim();
-          break;
-        }
+      Matcher match = PAGECOPY_PATTERN.matcher(body);
+      if (match.find()) {
+        parseAddress = match.group(1);
+        body = body.substring(match.end()).trim();
+        break;
       }
       
       /* Decode patterns that match EMAIL_PATTERN, which is basically an email address
        * followed by one of a set of known delimiters
        */
-      Matcher match = EMAIL_PATTERN.matcher(body);
+      match = EMAIL_PATTERN.matcher(body);
       if (match.find()) {
         parseAddress = body.substring(0, match.end(1));
         body = body.substring(match.end()).trim();
@@ -347,9 +348,6 @@ public class SmsMmsMessage implements Serializable {
     
     parseMessageBody = body.substring(pt1);
   }
-  
-  private static final Pattern EMAIL_PATTERN = 
-    Pattern.compile("^([\\w\\.]+@[\\w\\.]+)( / / )");
   
 
   public void setParserInfo(String location, SmsMsgInfo info) {

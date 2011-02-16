@@ -1149,9 +1149,9 @@ public class FieldProgramParser extends SmartAddressParser {
       incCity = qual.contains("c");
       
       int pt = qual.indexOf('S');
-      startType = StartType.START_ADDR;
-      parseFlags = FLAG_ANCHOR_END;
       if (pt >= 0) {
+        startType = StartType.START_ADDR;
+        parseFlags = FLAG_ANCHOR_END;
         do {
           if (++pt >= qual.length()) break;
           char chr = qual.charAt(pt);
