@@ -14,6 +14,7 @@ import org.junit.Test;
 
 import net.anei.cadpage.SmsMmsMessage;
 import net.anei.cadpage.SmsMsgInfo;
+import net.anei.cadpage.parsers.FieldProgramParser.Field;
 
 import static org.junit.Assert.*;
 
@@ -191,8 +192,16 @@ public abstract class BaseParserTest {
       int st = term.indexOf(':')+1;
       int pt = st;
       while (pt < term.length() && Character.isJavaIdentifierPart(term.charAt(pt))) pt++;
-      term = term.substring(st,pt);
-      String term2 = ((FieldProgramParser)parser).getField(term).getFieldNames();
+      String term1 = term.substring(st,pt);
+      String qual = null;
+      if (pt < term.length() && term.charAt(pt) == '/') {
+        st = ++pt;
+        while (pt < term.length() && Character.isJavaIdentifierPart(term.charAt(pt))) pt++;
+        qual = term.substring(st,pt); 
+      }
+      Field fld = ((FieldProgramParser)parser).getField(term1);
+      fld.setQual(qual);
+      String term2 = fld.getFieldNames();
       if (term2 == null) term2 = KEYWORD_MAP.get(term);
       if (term2 == null) continue;
       for (String term3 : term2.split(" +")) {
