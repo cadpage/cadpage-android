@@ -46,8 +46,23 @@ import net.anei.cadpage.SmsMsgInfo.Data;
  *     Z - suppress condition checks.  This is useful is this fields condition
  *     check is less reliable than another field behind it
  *     
- *   City fields
+ *   Address fields
  *     c - parse -xx city convention
+ *     S - Invoke smart parser logic, this is followed by two characters
+ *         The first determines what can come ahead of the address
+ *         X - nothing
+ *         C - call description
+ *         P - Place name
+ *         S - something we can skip
+ *         The second determines what data comes after the address
+ *         X - nothing
+ *         C - call description
+ *         P - place name
+ *         S - something we can skip
+ *         a - apartment
+ *         U - unit
+ *         N - name
+ *         I - supplemental info
  *    
  * The ugly details on optional fields
  * 
@@ -1116,6 +1131,13 @@ public class FieldProgramParser extends SmartAddressParser {
     
     private boolean incCity = false;
     
+    // Smart address parser info
+    private StartType startType = null;
+    private String startField = null;
+    private int parseFlags = 0;
+    private String tailField = null;
+    private Field tailData = null;
+    
     @Override
     public boolean canFail() {
       return true;
@@ -1123,30 +1145,92 @@ public class FieldProgramParser extends SmartAddressParser {
     
     @Override
     public void setQual(String qual) {
-      incCity = qual != null && qual.contains("c");
+      if (qual == null) return;
+      incCity = qual.contains("c");
+      
+      int pt = qual.indexOf('S');
+      startType = StartType.START_ADDR;
+      parseFlags = FLAG_ANCHOR_END;
+      if (pt >= 0) {
+        do {
+          if (++pt >= qual.length()) break;
+          char chr = qual.charAt(pt);
+          int pt2 = "CPS".indexOf(chr);
+          if (pt2 >= 0) {
+            startField = new String[]{"CALL","PLACE",null}[pt2];
+            startType = new StartType[]{StartType.START_CALL,StartType.START_PLACE,StartType.START_SKIP}[pt2];
+            if (++pt >= qual.length()) break;
+            chr = qual.charAt(pt);
+          }
+          
+          pt2 = "CPSaUNI".indexOf(chr);
+          if (pt2 >= 0) {
+            parseFlags = 0;
+            tailField = new String[]{"CALL","PLACE","SKIP","APT","UNIT","NAME","INFO"}[pt2];
+            tailData = getField(tailField);
+          }
+          
+        } while (false);
+      }
       super.setQual(qual);
     }
 
     @Override
     public boolean checkParse(String field, Data data) {
-      if (checkAddress(field) <= 0) return false;
-      parse(field, data);
+      
+      // If we aren't using the smart parser, just call check address and parse the field
+      if (startType == null) {
+        if (checkAddress(field) <= 0) return false;
+        parse(field, data);
+      }
+      
+      // If smart parser is being used, invoke it to parse the field, but do not
+      // pass the FLAG_ANCHOR_END flag which would invalidate the results.
+      // If the address should be anchored at the end, and there is any text left
+      // following the address, return false
+      else {
+        Result res = parseAddress(startType, field);
+        if (res.getStatus() <= 0) return false;
+        if ((parseFlags & FLAG_ANCHOR_END) != 0 && getLeft().length() > 0) return false;
+        
+        // Looks good, lets parse out the data
+        res.getData(data);
+        if (tailData != null) tailData.parse(res.getLeft(), data);
+      }
       return true;
     }
 
     @Override
     public void parse(String field, Data data) {
-      if (incCity) {
-        parseAddressCity(field, data);
-        if (cityCodes != null) data.strCity = convertCodes(data.strCity, cityCodes);
+      if (startType == null) {
+        if (incCity) {
+          parseAddressCity(field, data);
+          if (cityCodes != null) data.strCity = convertCodes(data.strCity, cityCodes);
+        } else {
+          parseAddress(field, data);
+        }
       } else {
-        parseAddress(field, data);
+        parseAddress(startType, parseFlags, field, data);
+        if (tailData != null) tailData.parse(getLeft(), data);
       }
     }
 
     @Override
     public String getFieldNames() {
-      return "ADDR CITY";
+      StringBuilder sb = new StringBuilder();
+      if (startType == null) {
+        sb.append("ADDR");
+        if (incCity) sb.append(" CITY");
+      }
+      
+      else {
+        if (startField != null) {
+          sb.append(startField);
+        }
+        sb.append(" ADDR APT CITY ");
+        if (tailField != null) sb.append(tailField); 
+      }
+      return sb.toString().trim();
     }
   }
 

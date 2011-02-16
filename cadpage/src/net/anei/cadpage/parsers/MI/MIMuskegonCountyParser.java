@@ -20,7 +20,7 @@ public class MIMuskegonCountyParser extends DispatchOSSIParser {
   
   public MIMuskegonCountyParser() {
     super("MUSKEGON COUNTY", "MI",
-           "SKIP PLACE? ADDR! X? X? CALL");
+           "SKIP PLACE? ADDR/S! X? X? CALL");
   }
   
   @Override
