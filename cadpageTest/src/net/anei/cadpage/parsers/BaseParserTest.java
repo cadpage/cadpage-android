@@ -202,7 +202,7 @@ public abstract class BaseParserTest {
       Field fld = ((FieldProgramParser)parser).getField(term1);
       fld.setQual(qual);
       String term2 = fld.getFieldNames();
-      if (term2 == null) term2 = KEYWORD_MAP.get(term);
+      if (term2 == null) term2 = KEYWORD_MAP.get(term1);
       if (term2 == null) continue;
       for (String term3 : term2.split(" +")) {
         if (termSet.add(term3)) termList.add(term3);
