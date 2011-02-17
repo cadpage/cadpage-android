@@ -21,65 +21,6 @@ public class FieldProgramParserTest extends BaseParserTest {
   
   @Test
   public void testproblem() {
-    
-    doFieldTest("tag w/blanks",
-        "CALL New_Run_Num:ID",
-        "STRUCTURE FIRE;New Run Num: 666",
-        "CALL:STRUCTURE FIRE",
-        "ID:666");
-  }
-  
-  @Test
-  public void testconditionalBranch() {
-    
-    doFieldTest("Empty",
-        "CALL ( ) ID",
-        "FIRE;666",
-        "CALL:FIRE",
-        "ID:666");
-    
-    doFieldTest("simple-1",
-        "CALL ( CITY ST | INFO INFO ) ID",
-        "FIRE FIRE;KEN TOWN;PA;666",
-        "CALL:FIRE FIRE",
-        "CITY:KEN TOWN",
-        "ST:PA",
-        "ID:666");
-    
-    doFieldTest("simple-2",
-        "CALL ( CITY ST | INFO INFO ) ID",
-        "FIRE FIRE;LINE1;LINE2;666",
-        "CALL:FIRE FIRE",
-        "INFO:LINE1 / LINE2",
-        "ID:666");
-    
-    doFieldTest("complex-1",
-        "SKIP ( CITY ST PLACE | PLACE CITY ST | INFO INFO ID | ) NAME",
-        "SKIP;KEN TOWN;PA;BOBS BURGERS;KCORBIN",
-        "CITY:KEN TOWN",
-        "ST:PA",
-        "PLACE:BOBS BURGERS",
-        "NAME:KCORBIN");
-    
-    doFieldTest("complex-2",
-        "SKIP ( CITY ST PLACE | PLACE CITY ST | INFO INFO ID | ) NAME",
-        "SKIP;BOBS BURGERS;KEN TOWN;PA;KCORBIN",
-        "CITY:KEN TOWN",
-        "ST:PA",
-        "PLACE:BOBS BURGERS",
-        "NAME:KCORBIN");
-    
-    doFieldTest("complex-3",
-        "SKIP ( CITY ST PLACE | PLACE CITY ST | INFO INFO ID | ) NAME",
-        "SKIP;LINE1;LINE2;666;KCORBIN",
-        "INFO:LINE1 / LINE2",
-        "ID:666",
-        "NAME:KCORBIN");
-    
-    doFieldTest("complex-4",
-        "SKIP ( CITY ST PLACE | PLACE CITY ST | INFO INFO ID | ) NAME",
-        "SKIP;KCORBIN",
-        "NAME:KCORBIN");
   }
   
   @Test
@@ -366,6 +307,59 @@ public class FieldProgramParserTest extends BaseParserTest {
   }
   
   @Test
+  public void testconditionalBranch() {
+    
+    doFieldTest("Empty",
+        "CALL ( ) ID",
+        "FIRE;666",
+        "CALL:FIRE",
+        "ID:666");
+    
+    doFieldTest("simple-1",
+        "CALL ( CITY ST | INFO INFO ) ID",
+        "FIRE FIRE;KEN TOWN;PA;666",
+        "CALL:FIRE FIRE",
+        "CITY:KEN TOWN",
+        "ST:PA",
+        "ID:666");
+    
+    doFieldTest("simple-2",
+        "CALL ( CITY ST | INFO INFO ) ID",
+        "FIRE FIRE;LINE1;LINE2;666",
+        "CALL:FIRE FIRE",
+        "INFO:LINE1 / LINE2",
+        "ID:666");
+    
+    doFieldTest("complex-1",
+        "SKIP ( CITY ST PLACE | PLACE CITY ST | INFO INFO ID | ) NAME",
+        "SKIP;KEN TOWN;PA;BOBS BURGERS;KCORBIN",
+        "CITY:KEN TOWN",
+        "ST:PA",
+        "PLACE:BOBS BURGERS",
+        "NAME:KCORBIN");
+    
+    doFieldTest("complex-2",
+        "SKIP ( CITY ST PLACE | PLACE CITY ST | INFO INFO ID | ) NAME",
+        "SKIP;BOBS BURGERS;KEN TOWN;PA;KCORBIN",
+        "CITY:KEN TOWN",
+        "ST:PA",
+        "PLACE:BOBS BURGERS",
+        "NAME:KCORBIN");
+    
+    doFieldTest("complex-3",
+        "SKIP ( CITY ST PLACE | PLACE CITY ST | INFO INFO ID | ) NAME",
+        "SKIP;LINE1;LINE2;666;KCORBIN",
+        "INFO:LINE1 / LINE2",
+        "ID:666",
+        "NAME:KCORBIN");
+    
+    doFieldTest("complex-4",
+        "SKIP ( CITY ST PLACE | PLACE CITY ST | INFO INFO ID | ) NAME",
+        "SKIP;KCORBIN",
+        "NAME:KCORBIN");
+  }
+  
+  @Test
   public void testTagFields() {
 
     doFieldTest("Basic",
@@ -434,7 +428,28 @@ public class FieldProgramParserTest extends BaseParserTest {
         "CALL:FIRE",
         "INFO:LINE1",
         "ID:666");
-}
+  }
+  
+  @Test
+  public void testSmartAddressField() {
+    
+    doFieldTest("CX", "ADDR/SCX", "FIRE 100 MAIN ST",
+        "CALL:FIRE",
+        "ADDR:100 MAIN ST");
+    
+    doFieldTest("PX", "ADDR/SPX", "FIRE 100 MAIN ST",
+        "PLACE:FIRE",
+        "ADDR:100 MAIN ST");
+    
+    doFieldTest("CP", "ADDR/SCP", "FIRE 100 MAIN ST BIG JOHNS",
+        "CALL:FIRE",
+        "ADDR:100 MAIN ST",
+        "PLACE:BIG JOHNS");
+    
+    doFieldTest("XP", "ADDR/SXP!", "100 MAIN ST BIG JOHNS",
+        "ADDR:100 MAIN ST",
+        "PLACE:BIG JOHNS");
+  }
   
   @Override
   public void testBadMsg() {
