@@ -32,11 +32,16 @@ Sender: CommCenter@ccems.com <From%3ACommCenter@ccems.com>
 
 Contact: Bryan Perry <Bryan.Perry@ccvfd.com>
 12/29 11:17 7575<tel:177575> N SAM HOUSTON PKWY W EB-, SAM HOUSTON RACE PARK; FL 1 Map:370T- Nat:71B01-VEHICLE FIRE Units:E24 NWE43 B23 X-St:FAIRBANKS N HOUSTON RD N
+
+Contact: Patrick Boren <boren.patrick@gmail.com>
+02/16 FM 2920-HC/RHODES RD-HC, ; Map:291N- Sub: Nat:29-MOTOR VEHICLE INCIDENT Units:M510 FO290 X-St:RHODES RD MARCIN DR 201107335
+
 */
 
 public class TXCyCreekCommCenterParser extends SmsMsgParser {
   
-  private static final Pattern MARKER = Pattern.compile("\\d\\d/\\d\\d \\d\\d:\\d\\d ");
+  private static final Pattern MARKER = Pattern.compile("\\d\\d/\\d\\d (\\d\\d:\\d\\d )?");
+  private static final Pattern TRAILER = Pattern.compile(" +\\d{8,} *$");
   
   public TXCyCreekCommCenterParser() {
     super("HARRIS COUNTY", "TX");
@@ -54,8 +59,11 @@ public class TXCyCreekCommCenterParser extends SmsMsgParser {
     
     Matcher match = MARKER.matcher(body);
     if (!match.find()) return false;
-    int ipt = match.end();
-    body = body.substring(ipt);
+    body = body.substring(match.end()).trim();
+    
+    match = TRAILER.matcher(body);
+    if (match.find()) body = body.substring(0,match.start());
+    
     if (body.startsWith("Repage: ")) body = body.substring(8);
     body = "Loc:" + body;
     
