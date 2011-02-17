@@ -724,13 +724,6 @@ Need more samples 2/15
 CAD: Chest Pain:81 Fountain Cave RD:RT 605 - Wonderly / 10203: Cave Hill LN:Rockfish RD
 CAD: OB EMERGENCY:WEYERS CAVE SHELL/ TEXACO:149 WEYERS CAVE RD:P O BOX 184:TRIANGLE DR:SR 222:CNTY-1
 **********************************************************
-Broome County, NY
-Contact: Chuck Rogers <cmr49a@gmail.com> (Dispatch CAD Administrator)
-Sender: messaging@iamresponding.com <From%3Amessaging@iamresponding.com>
-System: New World
-Need more samples (2/15)
-(49 Sanitaria Spr Fire) 49-DIABETIC-C :2786 ROUTE 79 :78 yo fem high blood sugar/unable t   &lt;13C02&gt; :78 year old, Female, Conscious, Breathing.  A
-**********************************************************
 Unknown?
 Contact: Cody Shell <spiritcontra@gmail.com>
 More examples 2/15
@@ -955,6 +948,20 @@ Sender: msg@cfmsg.com
 **********************************************************
 **********************************************************
 **********************************************************
+**********************************************************
+Broome County, NY
+Contact: Chuck Rogers <cmr49a@gmail.com> (Dispatch CAD Administrator)
+Sender: messaging@iamresponding.com <From%3Amessaging@iamresponding.com>
+System: New World
+(49 Sanitaria Spr Fire) 49-DIABETIC-C :2786 ROUTE 79 :78 yo fem high blood sugar/unable t   &lt;13C02&gt; :78 year old, Female, Conscious, Breathing.  A
+25:DIABETIC-C :412 ADAMS AV APT 1S :67 yom diabetic / low sugar &lt;13C01&gt; :67 year old, Male, Conscious, Breathing. Not alert (Combative or Agg ressive). Cross Sts:TRACY ST/RIVERVIEW DR 01:29 02/07/2011 2011-00002425 Caller:BATTISTI,MAURICE,, Phone:607-239-4661 V/Endicott
+25:OVERDOSE-B :431 E MAIN ST MANLEY'S 25-1 :FEM INTOX - CONSC/ALERT 22.09 TXFR 23-B-1 : Cross Sts:LODER AV/VESTAL AV 00:52 02/07/2011 2011-00002423 Caller:LASKOWSKY,OFC,, Phone: V/Endicott
+25:FALLS -D :600 HIGH AV UHS SKILLED NURSING :87 YOF FALLEN/NOT ALERT 17-D-3 : ADULT CARE/DAVIS AV ENTRANCE ROOM 413 FLR 4 Cross Sts:W EDWARD ST/RIVER TERR 22:50 02/06/2011 2011-00002416 Caller:IDEAL SENIOR LIVING, Phone:607-786-7449 V/Endicott
+25:ALARM-BLDG :9 HILLSIDE CT APT 4 :POSS FIRE ALARM GOING OFF / TENANTS LEFT :NO SMELL OF SMOKE OR FIRE SEEN COMPL IN APT 1 Cross Sts:W MAIN ST/DEAD END 18:03 02/06/2011 2011-00000251 Caller:RANDO,TIM,, Phone:607-727-1115 V/Endicot
+25:ALARM-BLDG :722 W MAIN ST :GENERAL ALARM : ENJOY GOLF COURSE Cross Sts:ENDICOTT V-LINE/INDUSTRIAL PARK RD 14:40 02/06/2011 2011-00000249 Caller:SENTRY OP 79,,, Phone: V/Endicott
+(25 Endicott Fire) 25-BREATHNG-C :308 ARTHUR AV APT 3 :40 yom diff breathing &lt;06C01&gt; :40 year old, Male, Conscious, Breathing. Abnormal breathing  (Asthma) . Cross StsE MAIN ST/TRACY ST 00:12 02/01/2011 2011-00002020 CallerWILLIAMS,CINDY,, Phone000-242-5076 V/Endicott
+(25 Endicott Fire) 25:CHSTPAIN-C :415 E MAIN ST LOURDES PRIMARY 25 :41 yof chest pain &lt;10C04&gt; :41 year old, Female, Conscious, Breathing.  Breathing normally =&gt; 35. Cross Sts:LODER AV/VESTAL AV 17:39 02/01/2011 2011-00002058 Caller:CUTTING,SANDY,, Phone:607-786-180 V/Endicott
+(25 Endicott Fire) 25:SEIZURES-D :326 JENNINGS ST :42 yof seizure                        &lt;12D02&gt; :42 year old, Female, Unconscious, Breathing.  CO
 **********************************************************
 Lee County, FL
 Contact: Jacob Lamb <jhlamb268@gmail.com>
@@ -1649,6 +1656,41 @@ Sender: cayuga911@co.cayuga.ny.us
 (From 911 Center) 02/14/11 14:59 8318 W  LOOP RD MONTEZUMA General  
 (From 911 Center) 02/14/11 12:19 PINE ST PARK ST PORT BYRON Collapse
 (From 911 Center) 02/14/11 10:29 7 EVERGREEN LN BRUTUS Stroke
+
+        Cayuga, County of 
+       Auburn, City of 
+       Aurelius, Town of 
+           Cayuga, Village of 
+       Brutus, Town of 
+           Weedsport, Village of 
+       Cato, Town of 
+           Meridian, Village of 
+           Cato, Village of 
+       Conquest, Town of 
+       Fleming, Town of 
+       Genoa, Town of 
+       Ira, Town of 
+       Ledyard, Town of 
+           Aurora, Village of 
+       Locke, Town of 
+       Mentz, Town of 
+           Port Byron, Village of 
+       Montezuma, Town of 
+       Moravia, Town of 
+           Moravia, Village of 
+       Niles, Town of 
+       Owasco, Town of 
+       Scipio, Town of 
+       Sempronius, Town of 
+       Sennett, Town of 
+       Springport, Town of 
+           Union Springs, Village of 
+       Sterling, Town of 
+           Fair Haven, Village of 
+       Summerhill, Town of 
+       Throop, Town of 
+       Venice, Town of 
+       Victory, Town of 
 **********************************************************
 Mecklenburg County, NC ($20)
 Contact: Rick <very.orange@gmail.com>
@@ -1780,8 +1822,11 @@ RCVD AS Phone
 COM:
 RAPID HEART BEAT
 87 YOF CARDIAC HX. CHARLIE
-
 **********************************************************
+Masonville, KY (Daviess County?)
+Contact: 2703147339@mms.att.net
+Sender:
+1 of 2 FRM:911-CENTER@911Center@central MSG: 911-CENTER:MBD >BREATHING DIFFICULTY 6261 MILLERS MILL RD XS: HIGHWAY 142 PHILPOT MARTIN Map: (Con't) 2 of 2 Grids:, Cad: 2011-0000013315 (End) 1 of 2 FRM:911-CENTER@911Center@central MSG: 911-CENTER:ACCINJ>ACCIDENT WITH INJURIES 3970 CRANE POND RD XS: U S HIGHWAY 231 PHILPOT JOHNS, AMY (Con't) 2 of 2 Map: Grids:, Cad: 2011-0000013291 (End)FRM:911-CENTER@911Center@central MSG:911-CENTER:FF >WILDLAND FIRE 9707 OLD HARTFORD RD XS: U S HIGHWAY 231 UTICA KIPLING, ED Map: Grids:, Cad: 2011-0000013076
 **********************************************************
 **********************************************************
 **********************************************************
