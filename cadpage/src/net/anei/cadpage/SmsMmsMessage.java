@@ -180,8 +180,9 @@ public class SmsMmsMessage implements Serializable {
     // Set message body to empty string if we don't have one
     if (messageBody == null) messageBody = "";
     
-    // Start by decoding commo HTML sequences
-    String body = messageBody.replaceAll("&nbsp;",  " ").replaceAll("&amp;",  "&").replaceAll("<br>", "\n");
+    // Start by decoding common HTML sequences
+    String body = messageBody.replaceAll("&nbsp;",  " ").replaceAll("&amp;",  "&")
+                             .replaceAll("<br>", "\n").replaceAll("&gt;", ">").replaceAll("&lt;", "<");
     
     // default address and subject to obvious values
     parseAddress = fromAddress;

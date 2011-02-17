@@ -595,10 +595,11 @@ Butler County, KS
 [Incident Notification]  17D FALL (MAP PAGE): 26E (ADDRESS): 1611 N FAIRWAY DR Augusta (CROSS ST): N CLUB HOUSE DR / E FAIRWAY CT (NARR):  ProQA Medical Questionnai
 [Incident Notification]  6D DIFF BREATHING (MAP PAGE): 22C (ADDRESS): 524 S EMPORIA ST El Dorado (CROSS ST): W CAVE SPRINGS AVE / W LOCUST AVE (NARR): ProQA Medica
 (Incident Notification) 10D CHEST PAIN (MAP PAGE): 9 (ADDRESS): 5957 NE 80TH ST County (CROSS ST): NE ELLIS RD / NE HWY 177 (NARR):  ProQA Medical Questionnaire Co
-(Incident Notification) 6E ECHO DIFF BREATH (MAP PAGE): 36F (ADDRESS): 218 E ROSEWOOD ST Rose Hill (CROSS ST): N MAIN ST / N MEEKER CT (NARR):  a  as fd3  es fd3
-(Incident Notification) 31D UNCONCIOUS (MAP PAGE): 15 (ADDRESS): 955 N HAVERHILL RD El Dorado (CROSS ST): W PIONEER DR / W 6TH AVE (NARR):  acting alittle confused
-[Incident Notification]  13D DIABETIC EMERGENCY (MAP PAGE): 25B (ADDRESS): 726 N PROSPERITY LN Andover (CROSS ST): W ELLEN LN / DEAD END (NARR):  rp
 ***************************************************************************
+Broome County, NY
+(49 Sanitaria Spr Fire) 49-DIABETIC-C :2786 ROUTE 79 :78 yo fem high blood sugar/unable t   &lt;13C02&gt; :78 year old, Female, Conscious, Breathing.  A
+25:DIABETIC-C :412 ADAMS AV APT 1S :67 yom diabetic / low sugar &lt;13C01&gt; :67 year old, Male, Conscious, Breathing. Not alert (Combative or Agg ressive). Cross Sts:TRACY ST/RIVERVIEW DR 01:29 02/07/2011 2011-00002425 Caller:BATTISTI,MAURICE,, Phone:607-239-4661 V/Endicott
+25:OVERDOSE-B :431 E MAIN ST MANLEY'S 25-1 :FEM INTOX - CONSC/ALERT 22.09 TXFR 23-B-1 : Cross Sts:LODER AV/VESTAL AV 00:52 02/07/2011 2011-00002423 Caller:LASKOWSKY,OFC,, Phone: V/Endicott
 ***************************************************************************
 ***************************************************************************
 ***************************************************************************
@@ -949,19 +950,6 @@ Sender: msg@cfmsg.com
 **********************************************************
 **********************************************************
 **********************************************************
-Broome County, NY
-Contact: Chuck Rogers <cmr49a@gmail.com> (Dispatch CAD Administrator)
-Sender: messaging@iamresponding.com <From%3Amessaging@iamresponding.com>
-System: New World
-(49 Sanitaria Spr Fire) 49-DIABETIC-C :2786 ROUTE 79 :78 yo fem high blood sugar/unable t   &lt;13C02&gt; :78 year old, Female, Conscious, Breathing.  A
-25:DIABETIC-C :412 ADAMS AV APT 1S :67 yom diabetic / low sugar &lt;13C01&gt; :67 year old, Male, Conscious, Breathing. Not alert (Combative or Agg ressive). Cross Sts:TRACY ST/RIVERVIEW DR 01:29 02/07/2011 2011-00002425 Caller:BATTISTI,MAURICE,, Phone:607-239-4661 V/Endicott
-25:OVERDOSE-B :431 E MAIN ST MANLEY'S 25-1 :FEM INTOX - CONSC/ALERT 22.09 TXFR 23-B-1 : Cross Sts:LODER AV/VESTAL AV 00:52 02/07/2011 2011-00002423 Caller:LASKOWSKY,OFC,, Phone: V/Endicott
-25:FALLS -D :600 HIGH AV UHS SKILLED NURSING :87 YOF FALLEN/NOT ALERT 17-D-3 : ADULT CARE/DAVIS AV ENTRANCE ROOM 413 FLR 4 Cross Sts:W EDWARD ST/RIVER TERR 22:50 02/06/2011 2011-00002416 Caller:IDEAL SENIOR LIVING, Phone:607-786-7449 V/Endicott
-25:ALARM-BLDG :9 HILLSIDE CT APT 4 :POSS FIRE ALARM GOING OFF / TENANTS LEFT :NO SMELL OF SMOKE OR FIRE SEEN COMPL IN APT 1 Cross Sts:W MAIN ST/DEAD END 18:03 02/06/2011 2011-00000251 Caller:RANDO,TIM,, Phone:607-727-1115 V/Endicot
-25:ALARM-BLDG :722 W MAIN ST :GENERAL ALARM : ENJOY GOLF COURSE Cross Sts:ENDICOTT V-LINE/INDUSTRIAL PARK RD 14:40 02/06/2011 2011-00000249 Caller:SENTRY OP 79,,, Phone: V/Endicott
-(25 Endicott Fire) 25-BREATHNG-C :308 ARTHUR AV APT 3 :40 yom diff breathing &lt;06C01&gt; :40 year old, Male, Conscious, Breathing. Abnormal breathing  (Asthma) . Cross StsE MAIN ST/TRACY ST 00:12 02/01/2011 2011-00002020 CallerWILLIAMS,CINDY,, Phone000-242-5076 V/Endicott
-(25 Endicott Fire) 25:CHSTPAIN-C :415 E MAIN ST LOURDES PRIMARY 25 :41 yof chest pain &lt;10C04&gt; :41 year old, Female, Conscious, Breathing.  Breathing normally =&gt; 35. Cross Sts:LODER AV/VESTAL AV 17:39 02/01/2011 2011-00002058 Caller:CUTTING,SANDY,, Phone:607-786-180 V/Endicott
-(25 Endicott Fire) 25:SEIZURES-D :326 JENNINGS ST :42 yof seizure                        &lt;12D02&gt; :42 year old, Female, Unconscious, Breathing.  CO
 **********************************************************
 Lee County, FL
 Contact: Jacob Lamb <jhlamb268@gmail.com>

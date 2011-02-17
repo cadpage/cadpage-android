@@ -1159,10 +1159,10 @@ public class FieldProgramParser extends SmartAddressParser {
           if (pt2 >= 0) {
             startField = new String[]{"CALL","PLACE",null}[pt2];
             startType = new StartType[]{StartType.START_CALL,StartType.START_PLACE,StartType.START_SKIP}[pt2];
-            if (++pt >= qual.length()) break;
-            chr = qual.charAt(pt);
           }
           
+          if (++pt >= qual.length()) break;
+          chr = qual.charAt(pt);
           pt2 = "CPSaUNI".indexOf(chr);
           if (pt2 >= 0) {
             parseFlags = 0;
