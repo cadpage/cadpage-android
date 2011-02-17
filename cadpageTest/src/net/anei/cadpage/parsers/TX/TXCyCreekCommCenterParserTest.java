@@ -126,6 +126,18 @@ public class TXCyCreekCommCenterParserTest extends BaseParserTest {
         "CALL:71B01-VEHICLE FIRE",
         "UNIT:E24 NWE43 B23",
         "X:FAIRBANKS N HOUSTON RD N");
+    
+    doTest("T14",
+        "02/16 FM 2920-HC/RHODES RD-HC, ; Map:291N- Sub: Nat:29-MOTOR VEHICLE INCIDENT Units:M510 FO290 X-St:RHODES RD MARCIN DR 201107335",
+        "ADDR:FM 2920 & RHODES RD",
+        "MAP:291N-",
+        "CALL:29-MOTOR VEHICLE INCIDENT",
+        "UNIT:M510 FO290",
+        "X:RHODES RD MARCIN DR");
 
+  }
+  
+  public static void main(String[] args) {
+    new TXCyCreekCommCenterParserTest().generateTests("T14", "PHONE ADDR PLACE APT MAP CALL UNIT X");
   }
 }
