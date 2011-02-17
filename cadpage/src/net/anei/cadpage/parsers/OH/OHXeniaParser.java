@@ -33,6 +33,7 @@ FMBLS-MEDICAL Location: 467 WILSON DR REGINA DR / MEADOW LN XENIA TWP Time: 23:3
 FRES-RESIDENTIAL FIRE Location: 710 HAWKINS RD CREEKSIDE TRAIL BIKE PATH / FORD RD XENIA TWP Time: 20:51 Un
 FMALS-MEDIC AL Location: 1264 BOYD RD DEAD END / US 68 S XENIA TWP Time: 21:25 Units: M52 E52  Common Name:
 FMBLS-MEDICAL Location: 1154 HOOK RD S BICKETT RD / OLD HOOK RD XENIA TWP Time: 17:17 Units:  Common Name:
+
  */
 
 
@@ -40,7 +41,7 @@ public class OHXeniaParser extends FieldProgramParser {
   
   public OHXeniaParser() {
     super("GREENE COUNTY", "OH",
-           "CALL Location:ADDR Time:SKIP Units:UNIT Common_Name:NAME Info:INFO");
+           "CALL Location:ADDR! Time:SKIP! Units:UNIT Common_Name:NAME Info:INFO");
   }
   
   private class MyAddressField extends AddressField {
