@@ -42,6 +42,9 @@ Sender: msg@cfmsg.com <From%3Amsg@cfmsg.com>
 (Chief ALT) [86 EMS] -- 1C6 -- 1 Sconset Ct Rehoboth Beach
 (Chief ALT) [86 EMS] -- 26C2 -- 36121 Knight St Rehoboth Beach
 
+Contact: cmr199182@yahoo.com
+(Chief ALT) [82 EMS] -- Medical Alert -- 18240 Robinsonville Rd Lewes 19958 -- Gosling Creek Purchase/ 123 Ha
+
  */
 
 
@@ -84,7 +87,7 @@ public class DESussexCountyParser extends SmartAddressParser {
     // If more than 2 and the last fields starts with "INC ", ignore it
     if (fldCnt > 2 && strBody[fldCnt-1].trim().startsWith("INC ")) fldCnt--;
 
-    // If we are down to 3 fields, the last one is the address line and
+    // If we are down to 2 fields, the last one is the address line and
     // nothing needs to be worried about
     Result result;
     if (fldCnt == 2) {

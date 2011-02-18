@@ -5,7 +5,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchOSSIParser;
 /* 
 Union County, NC
 Contact: David Bruce <dbruce0571@gmail.com>
-Sender: CAD@uc.co.union.nc.us
+Sender: cad@uc.co.union.nc.us
 
 CAD:3711 WHITE STORE RD;WINGATE;OUTSIDE FIRE;S09;WITMORE RD;NASH RD;02/15/2011 13:21:38
 
@@ -20,6 +20,6 @@ public class NCUnionCountyParser extends DispatchOSSIParser {
   
   @Override
   public String getFilter() {
-    return "CAD@buncombecounty.org";
+    return "cad@uc.co.union.nc.us";
   }
 }
