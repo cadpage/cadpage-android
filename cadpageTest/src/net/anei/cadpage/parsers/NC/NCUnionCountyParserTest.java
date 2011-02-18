@@ -15,13 +15,14 @@ public class NCUnionCountyParserTest extends BaseParserTest {
   public void testParser() {
 
     doTest("T1",
-        "CAD:3711 WHITE STORE RD;WINGATE;OUTSIDE FIRE;S09;WITMORE RD;NASH RD;02/15/2011 13:21:38",
-        "ADDR:3711 WHITE STORE RD",
+        "CAD:3812 E HWY 74;WINGATE;SICK PERSON EMD;S09;FX-CF2;BIVENS ST;N STEWART ST;02/18/2011 16:03:05;FOOD LION WINGATE",
+        "ADDR:3812 E HWY 74",
         "CITY:WINGATE",
-        "CALL:OUTSIDE FIRE",
+        "CALL:SICK PERSON EMD",
         "SRC:S09",
-        "X:WITMORE RD & NASH RD");
-
+        "INFO:FX-CF2",
+        "X:BIVENS ST & N STEWART ST",
+        "PLACE:FOOD LION WINGATE");
   }
   
 
