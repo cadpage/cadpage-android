@@ -13,6 +13,7 @@ public class OHXeniaParserTest extends BaseParserTest {
   
   @Test
   public void testParser() {
+    
     doTest("T1",
         "MBLS-MEDICAL Location: 160 RICHARD DR DAYTON XENIA RD / ROBERT LN XENIA TWP Time: 17:31 Units: M51  Common",
         "CALL:MBLS-MEDICAL",
@@ -98,13 +99,11 @@ public class OHXeniaParserTest extends BaseParserTest {
         "X:OLD SPRINGFIELD PIKE & OLD SPRINGFIELD PIKE",
         "CITY:XENIA TWP");
 
-   // doTest("T12",
-   //     "FACO-FIRE ALARM COMMERCIAL Location: 121 FAIRGROUND RD GREENE COUNTY FAIRGROUNDS / BEAVERCREEK LN XENIA TWP",
-   //     "CALL=FACO-FIRE ALARM COMMERCIAL",
-   //     "ADDR=121 FAIRGROUND RD",
-   //     "X=GREENE COUNTY FAIRGROUNDS / BEAVERCREEK LN XENIA",
-   //     "CITY=XENIA TWP"
-   //     );
+    doTest("T12",
+        "FACO-FIRE ALARM COMMERCIAL Location: 121 FAIRGROUND RD GREENE COUNTY FAIRGROUNDS / BEAVERCREEK LN XENIA TWP",
+        "CALL:FACO-FIRE ALARM COMMERCIAL",
+        "ADDR:121 FAIRGROUND RD",
+        "X:GREENE COUNTY FAIRGROUNDS & BEAVERCREEK LN XENIA TWP");
 
     doTest("T13",
         "FMBLS-MEDICAL Location: 1154 HOOK RD S BICKETT RD / OLD HOOK RD XENIA TWP Time: 13:36 Units: M52  Common Na",
@@ -210,7 +209,7 @@ public class OHXeniaParserTest extends BaseParserTest {
     
   }
   
-//  public static void main(String[] args) {
-//    new OHXeniaParserTest().generateTests("T1");
-//  }
+  public static void main(String[] args) {
+    new OHXeniaParserTest().generateTests("T1");
+  }
 }
