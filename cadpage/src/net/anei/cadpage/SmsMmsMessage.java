@@ -239,6 +239,7 @@ public class SmsMmsMessage implements Serializable {
           if (pt3 >= 0) {
             pt1 = pt3;
             pt2 = pt1 + 5;
+            if (body.length() > pt2 && Character.isWhitespace(body.charAt(pt2))) pt2++;
             StringBuilder sb = new StringBuilder();
             boolean skipBreak = false;
             for (String line : body.substring(pt2).split("\n")) {
@@ -254,7 +255,7 @@ public class SmsMmsMessage implements Serializable {
             }
             int len = sb.length()-5;
             if (len >= 0 && sb.substring(len).equals("(End)")) sb.setLength(len);
-            body = sb.toString();
+            body = sb.toString().trim();
             break;
           }
         }
