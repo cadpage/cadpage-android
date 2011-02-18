@@ -203,6 +203,14 @@ public class DESussexCountyParserTest extends BaseParserTest {
         "ADDR:24101 Dove Rd",
         "CITY:Seaford"
         );
+    
+    doTest("T36",
+        "(Chief ALT) [82 EMS] -- Medical Alert -- 18240 Robinsonville Rd Lewes 19958 -- Gosling Creek Purchase/ 123 Ha",
+        "SRC:82 EMS",
+        "CALL:Medical Alert",
+        "ADDR:18240 Robinsonville Rd",
+        "CITY:Lewes",
+        "PLACE:Gosling Creek Purchase/ 123 Ha");
 
 
     
