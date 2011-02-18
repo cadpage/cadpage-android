@@ -189,6 +189,7 @@
     <item>CA California</item>
     <item>CO Colorado</item>
     <item>DE Deleware</item>
+    <item>FL Florida</item>
     <item>GA Georgia</item>
     <item>IL Illinois</item>
     <item>IN Indiana</item>
@@ -224,6 +225,7 @@
     <item>CONorthglennEMS</item>
     <item>COPuebloRFD</item>
     <item>DESussexCounty</item>
+    <item>FLLeeCounty</item>
     <item>GADadeCounty</item>
     <item>GAMartinez</item>
     <item>GAOconeeCounty</item>
@@ -333,6 +335,7 @@
     <item>Northglenn EMS, CO</item>
     <item>Pueblo RFD, CO</item>
     <item>Sussex County, DE</item>
+    <item>Lee County, FL</item>
     <item>Dade County, GA</item>
     <item>Martinez, GA</item>
     <item>Oconee County, GA</item>

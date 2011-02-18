@@ -129,7 +129,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
         "DRIVE", "DR",
         "SQUARE", "SQ",
         "BLVD",
-        "WAY", "PKWY", "PK", "FWY", "WY", "HW", "EXPW",
+        "WAY", "PKWY", "PKY", "PK", "FWY", "WY", "HW", "EXPW",
         "CIRCLE", "CIR",
         "TRAIL", "TRL",
         "PATH",
