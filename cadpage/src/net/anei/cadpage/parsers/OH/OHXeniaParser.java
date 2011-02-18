@@ -41,7 +41,7 @@ public class OHXeniaParser extends FieldProgramParser {
   
   public OHXeniaParser() {
     super("GREENE COUNTY", "OH",
-           "CALL Location:ADDR! Time:SKIP! Units:UNIT Common_Name:NAME Info:INFO");
+           "CALL Location:ADDR! Time:SKIP Units:UNIT Common_Name:NAME Info:INFO");
   }
   
   private class MyAddressField extends AddressField {
