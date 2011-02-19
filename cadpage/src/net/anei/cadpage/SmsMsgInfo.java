@@ -30,6 +30,10 @@ public class SmsMsgInfo {
   private String defCity;
   private String defState;
   
+  // Flag set when parser determines that message is incomplete
+  // and another part should be expected
+  private boolean expectMore;
+  
 
   /**
    * Temporary data class used to pass information to constructor
@@ -55,6 +59,8 @@ public class SmsMsgInfo {
     public String strName = "";
     public String defCity = "";
     public String defState="";
+    
+    public boolean expectMore = false;
     
 
     /**
@@ -104,6 +110,7 @@ public class SmsMsgInfo {
     strName = info.strName;
     defCity = info.defCity;
     defState = info.defState;
+    expectMore = info.expectMore;
   }
   
   /**
@@ -364,6 +371,13 @@ public class SmsMsgInfo {
    */
   public String getDefState() {
     return defState;
+  }
+  
+  /**
+   * @return true if additional messages are expected
+   */
+  public boolean isExpectMore() {
+    return expectMore;
   }
   
 

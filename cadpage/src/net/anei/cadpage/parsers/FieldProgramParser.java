@@ -160,7 +160,7 @@ public class FieldProgramParser extends SmartAddressParser {
     
     // Construct a head link and tail node and compile the tokens between them
     this.startLink = new StepLink(0);
-    Step tail = new Step(null, null, false);
+    Step tail = new Step(null, null, null);
     compile(this.startLink, program, tail, null);
     
     // Now that we no longer need it, reduce the tail node
@@ -545,6 +545,13 @@ public class FieldProgramParser extends SmartAddressParser {
     startLink.getStep().checkForSkips();
   }
   
+  // Enum report required status of a program step
+  // NORMAL - nothing special
+  // REQUIRED - If not present, message will be rejected
+  // EXPECTED - If not present, message will be accepted, but will be flagged
+  // as expecting more input
+  private enum EReqStatus {NORMAL, REQUIRED, EXPECTED};
+  
   /**
    * This class holds all of the basic information parsed from a program string
    * field term
@@ -553,7 +560,7 @@ public class FieldProgramParser extends SmartAddressParser {
     String tag = null;
     String name = null;
     String qual = null;
-    boolean required = false;
+    EReqStatus required = EReqStatus.NORMAL;
     boolean repeat = false;
     boolean optional = false;
     boolean branch = false;
@@ -602,8 +609,8 @@ public class FieldProgramParser extends SmartAddressParser {
       }
       
       // Check for Required [!] indicator
-      if (chr == '!') {
-        required = true;
+      if (chr == '!' || chr == '%') {
+        required = (chr == '!' ? EReqStatus.REQUIRED : EReqStatus.EXPECTED);
         if (pt >= len) return;
         chr = fieldTerm.charAt(pt++);
       }
@@ -656,7 +663,7 @@ public class FieldProgramParser extends SmartAddressParser {
   private class Step {
     
     private String tag;
-    private boolean required;
+    private EReqStatus required;
     
     private Field field;
     private StepLink succLink = new StepLink(1);
@@ -673,7 +680,7 @@ public class FieldProgramParser extends SmartAddressParser {
      * @param field Field processed by this step (can be null)
      * @param required true if this is a required step
      */
-    public Step(String tag, Field field, boolean required) {
+    public Step(String tag, Field field, EReqStatus required) {
       this.tag = tag;
       this.field = field;
       this.required = required;
@@ -687,7 +694,7 @@ public class FieldProgramParser extends SmartAddressParser {
      */
     public Step() {
       this.field = null;
-      this.required = false;
+      this.required = null;
       succLink = new StepLink(0);
     }
 
@@ -824,7 +831,7 @@ public class FieldProgramParser extends SmartAddressParser {
         // Otherwise check to make sure there are no required fields in
         // the remaining program steps
         else {
-          return checkFailure();
+          return checkFailure(data);
         }
       }
       
@@ -849,7 +856,7 @@ public class FieldProgramParser extends SmartAddressParser {
           if (curTag != null) {
             boolean skipReq = false;
             while (procStep != null && !curTag.equals(procStep.tag)) {
-              if (procStep.required) skipReq = true;;
+              if (procStep.required == EReqStatus.REQUIRED) skipReq = true;;
               procStep = procStep.nextStep;
             }
             
@@ -857,7 +864,7 @@ public class FieldProgramParser extends SmartAddressParser {
             // the next one
             if (procStep == null) {
               procStep = this;
-              if (++ndx >= flds.length) return checkFailure();
+              if (++ndx >= flds.length) return checkFailure(data);
               curFld = flds[ndx].trim();
               continue;
             }
@@ -875,7 +882,9 @@ public class FieldProgramParser extends SmartAddressParser {
           if (ndx == flds.length-1) {
             Step tStep = procStep;
             while (tStep != null) {
-              if (tStep.tag != null && tStep.tag.startsWith(curFld)) return checkFailure();
+              if (tStep.tag != null && tStep.tag.startsWith(curFld)) {
+                return checkFailure(data);
+              }
               tStep = tStep.nextStep;
             }
           }
@@ -890,7 +899,7 @@ public class FieldProgramParser extends SmartAddressParser {
           // previous data field.
           if (lastStep != null && tag.equals(lastStep.tag)) break;
           procStep = this;
-          if (++ndx >= flds.length) return checkFailure();
+          if (++ndx >= flds.length) return checkFailure(data);
           curFld = flds[ndx].trim();
           continue;
         }
@@ -932,16 +941,17 @@ public class FieldProgramParser extends SmartAddressParser {
      * @return true if there are no required fields remaining in the normal
      * program sequence
      */
-    private boolean checkFailure() {
+    private boolean checkFailure(Data data) {
 
       // If this is a required step, return failure
-      if (required) return false;
+      if (required == EReqStatus.REQUIRED) return false;
+      if (required == EReqStatus.EXPECTED) data.expectMore = true; 
       
       // If there are no more program steps, return success
       if (nextStep == null) return true;
       
       // Still undetermined, return the failure status of the next step
-      return nextStep.checkFailure();
+      return nextStep.checkFailure(data);
     }
 
     public void checkForSkips() {

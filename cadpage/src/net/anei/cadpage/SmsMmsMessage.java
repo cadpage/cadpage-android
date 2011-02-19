@@ -48,6 +48,7 @@ public class SmsMmsMessage implements Serializable {
   private transient String parseAddress = null;
   private transient String parseSubject = null;
   private transient String parseMessageBody = null;
+  private transient boolean expectMore = false;
   
   // Temporary fields being monitored to see if they will be of any
   // use in identifying multi-part messages
@@ -171,7 +172,10 @@ public class SmsMmsMessage implements Serializable {
    * Perform any front end unscrambling required to recover the original text
    * message sent by dispatch for parsing purposes.
    */
-  
+  private static final Pattern[] MSG_HEADER_PTNS = new Pattern[]{
+    Pattern.compile("^(000\\d)/(000\\d)\\b"),
+    Pattern.compile("^(\\d)of(\\d):")
+  };
   private static final Pattern PAGECOPY_PATTERN = Pattern.compile("Pagecopy-Fr:(\\S*)\\s");
   private static final Pattern EMAIL_PATTERN = 
     Pattern.compile("^([\\w\\.]+@[\\w\\.]+)( / / )");
@@ -190,6 +194,22 @@ public class SmsMmsMessage implements Serializable {
     
     // Dummy loop we can break out of
     do {
+      
+      // Check the message header pattern,these contain a msg number and total
+      // counts.  If the values don't match, set the flag indicating more data
+      // is expected
+      Matcher match = null;
+      boolean found = false;
+      for (Pattern ptn : MSG_HEADER_PTNS) {
+        match = ptn.matcher(body);
+        found = match.find();
+        if (found) break;
+      }
+      if (found) {
+        if (! match.group(1).equals(match.group(2))) expectMore = true;
+        body = body.substring(match.end()).trim();
+        break;
+      }
       
       /* Decode patterns that look like this.....
       1 of 3
@@ -302,7 +322,7 @@ public class SmsMmsMessage implements Serializable {
       /* Decode patterns that look like this
        * Pagecopy-Fr:CAD@livingstoncounty.livco\nCAD:FYI: ;OVDOSE;4676 KENMORE DR;[Medical Priority Info] RESPONSE: P1 STA 1
        */
-      Matcher match = PAGECOPY_PATTERN.matcher(body);
+      match = PAGECOPY_PATTERN.matcher(body);
       if (match.find()) {
         parseAddress = match.group(1);
         body = body.substring(match.end()).trim();
@@ -396,6 +416,10 @@ public class SmsMmsMessage implements Serializable {
   
   public String getLocation() {
     return location;
+  }
+  
+  public boolean isExpectMore() {
+    return expectMore;
   }
   
   public SmsMsgInfo getInfo() {
@@ -622,6 +646,9 @@ public class SmsMmsMessage implements Serializable {
     
     sb.append("\nLocation:");
     sb.append(location);
+    
+    sb.append("\nExpectMore:");
+    sb.append(expectMore);
     
     sb.append("\nSend time:");
     sb.append(sentTime);

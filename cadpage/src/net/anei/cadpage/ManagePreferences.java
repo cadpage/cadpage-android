@@ -174,6 +174,11 @@ public class ManagePreferences {
     return prefs.getBoolean(R.string.pref_suppress_dup_msg_key);
   }
   
+  public static int partMsgTimeout() {
+    // Two minutes for initial testing
+    return 120;
+  }
+  
   public static boolean notifyEnabled() {
     return prefs.getBoolean(R.string.pref_notif_enabled_key);
   }
