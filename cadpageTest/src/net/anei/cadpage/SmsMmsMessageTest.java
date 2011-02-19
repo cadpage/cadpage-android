@@ -167,11 +167,32 @@ public class SmsMmsMessageTest {
         "CAD MSG: *D TREESDWN FORGEDALE RD / CLAY VALLEY RD 0087 PSP IS REQ FIRE\nCO FOR TREE REMOVAL FROM ROADWAY // PSP NOT ON LOC BC");
   }
   
+  @Test
+  public void testParseBreak() {
+    
+    doParseTest("HDR1", "0001/0003 THIS IS A TEST",
+                "ken@cadpage.org", "", "THIS IS A TEST", true);
+    
+    doParseTest("HDR1-done", "0003/0003 THIS IS ANOTHER TEST",
+                "ken@cadpage.org", "", "THIS IS ANOTHER TEST", false);
+    
+    doParseTest("HDR2", "1of3:THIS IS A TEST",
+                "ken@cadpage.org", "", "THIS IS A TEST", true);
+    
+    doParseTest("HDR2-done", "3of3:THIS IS ANOTHER TEST",
+                "ken@cadpage.org", "", "THIS IS ANOTHER TEST", false);
+  }
+  
   private void doParseTest(String title, String body, String expFrom, String expSubject, String expBody) {
+    doParseTest(title, body, expFrom, expSubject, expBody, false);
+  }
+  
+  private void doParseTest(String title, String body, String expFrom, String expSubject, String expBody, boolean expMore) {
     SmsMmsMessage msg = new SmsMmsMessage("ken@cadpage.org", body, 0L, 0);
     assertEquals(title + ":FROM", expFrom, msg.getAddress());
     assertEquals(title + ":SUBJ", expSubject, msg.getSubject());
     assertEquals(title + ":BODY", expBody, msg.getMessageBody());
+    assertEquals(title + ":MORE", expMore, msg.isExpectMore());
   }
   
   @Test
