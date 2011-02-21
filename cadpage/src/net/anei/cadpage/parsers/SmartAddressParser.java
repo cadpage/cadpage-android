@@ -98,6 +98,9 @@ public abstract class SmartAddressParser extends SmsMsgParser {
   // by another normal route prefix
   private static final int ID_ROUTE_PFX_EXT =  0x8000;
   
+  // Bitmask bit indicating token is an ambiguous road suffix
+  private static final int ID_AMBIG_ROAD_SFX = 0x10000;
+  
   // Bitmask indicating dictionary word is either a route number prefix or a
   // route prefix extender
   private static final int ID_ROUTE_PFX = ID_ROUTE_PFX_PFX | ID_ROUTE_PFX_EXT;
@@ -144,6 +147,10 @@ public abstract class SmartAddressParser extends SmsMsgParser {
         "PASS",
         "EST",
         "RUN");
+    
+    setupDictionary(ID_AMBIG_ROAD_SFX, 
+        "PLACE", "TRAIL", "PATH", "PIKE", "COURT", "MALL", "TURNPIKE", "PASS", "RUN");
+        
     setupDictionary(ID_ROUTE_PFX_EXT, "RT", "RTE", "ROUTE", "HW", "HWY", "HIGHWAY");
     setupDictionary(ID_ROUTE_PFX_PFX, "ST", "SR", "SRT", "US", "FS", "INTERSTATE", "I", "STHWY", "USHWY", "CO", "CR");
     setupDictionary(ID_ROUTE_PFX_PFX, new String[]{defState});
@@ -495,7 +502,6 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     else {
       int start = isFlagSet(FLAG_START_FLD_REQ) ? 1 : 0;
       ndx = start;
-      boolean dirFound = false;
       while (true) {
         if (flexAt && isType(ndx, ID_AT_MARKER)) atStart = true;
         ndx++;
@@ -506,15 +512,18 @@ public abstract class SmartAddressParser extends SmsMsgParser {
           if (ndx < 0) return false;
           break;
         }
-        if (ndx-start >= 2 && isType(ndx, ID_CONNECTOR)) {
+        if (ndx-start >= 1 && isType(ndx, ID_CONNECTOR)) {
           sAddr = ndx-1;
           if (isType(sAddr, ID_DIRECTION)) sAddr--;
           
-          if (isRoadToken(sAddr)) break;
+          if (sAddr >= start && isRoadToken(sAddr)) break;
           
           if (sAddr > start) { 
             sAddr--;
-            if (isType(sAddr+1, ID_ROAD_SFX)) break;
+            if (isType(sAddr+1, ID_ROAD_SFX)) {
+              if (sAddr > start && isType(sAddr, ID_AMBIG_ROAD_SFX)) sAddr--;
+              break;
+            }
             if (isType(sAddr, ID_ROUTE_PFX) & ndx>2 & isType(sAddr+1, ID_NUMBER)) {
               if (sAddr > start && 
                   isType(sAddr, ID_ROUTE_PFX_EXT) && 
@@ -526,7 +535,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
       }
       
       // If road is preceded by a direction, include that
-      if (!dirFound) sAddr = stretchRoadPrefix(start, sAddr);
+      sAddr = stretchRoadPrefix(start, sAddr);
     }
     
     // When we get here, 
@@ -591,6 +600,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     // Otherwise, scan forward looking for a <road-sfx>
     //            that isn't the start of a <route-pfx> <number> combination
     // or number preceded by a <route-pfx>
+    // or an ambiguous <road-sfx> followed by a second <road-sfx>
     else {
       int start = isFlagSet(FLAG_START_FLD_REQ) ? 1 : 0;
       ndx = start;
@@ -611,7 +621,9 @@ public abstract class SmartAddressParser extends SmsMsgParser {
         if (isType(ndx, ID_ROAD_SFX)) {
           boolean startHwy = 
               (isType(ndx, ID_ROUTE_PFX) && isType(ndx+1, ID_NUMBER)) ||
-              (isType(ndx, ID_ROUTE_PFX_PFX) && isType(ndx+1, ID_ROUTE_PFX_EXT) && isType(ndx+2, ID_NUMBER));
+              (isType(ndx, ID_ROUTE_PFX_PFX) && isType(ndx+1, ID_ROUTE_PFX_EXT) && isType(ndx+2, ID_NUMBER)) ||
+              (isType(ndx, ID_AMBIG_ROAD_SFX) && (isType(ndx+1, ID_ROAD_SFX)));
+          
           if (!startHwy) break; 
         }
         if (ndx > start && isType(ndx, ID_NUMBER) && isType(ndx-1, ID_ROUTE_PFX)) break;
@@ -623,7 +635,8 @@ public abstract class SmartAddressParser extends SmsMsgParser {
       
       // See if this is a two part route name
       if (sAddr > 0 &&
-          isType(sAddr, ID_ROUTE_PFX_EXT) && isType(sAddr-1, ID_ROUTE_PFX_PFX)) {
+          (isType(sAddr, ID_ROUTE_PFX_EXT) && isType(sAddr-1, ID_ROUTE_PFX_PFX) ||
+           isType(sAddr, ID_AMBIG_ROAD_SFX))) {
         sAddr--;
       }
 
@@ -967,7 +980,11 @@ public abstract class SmartAddressParser extends SmsMsgParser {
       while (++end - start <= 3) {
 
         good = true;
-        if (isType(end, ID_ROAD_SFX)) {end++; break; }
+        if (isType(end, ID_ROAD_SFX) &&
+            (! (isType(end, ID_AMBIG_ROAD_SFX) && isType(end+1, ID_ROAD_SFX)))) {
+          end++; 
+          break; 
+        }
         if (isType(end, ID_CROSS_STREET)) break;
         
         // A number preceded by a route prefix counts as a road
