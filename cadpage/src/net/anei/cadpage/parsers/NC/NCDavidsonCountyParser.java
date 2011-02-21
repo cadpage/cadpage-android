@@ -22,6 +22,9 @@ CAD:Co Fire TAC4 for call;I 85 S/MM 96; LEX;4075477164
 
 Contact: jon story <jstory2186@gmail.com>
 CAD:Co Fire Tac3 for call;3136 MOCK RD; HP
+
+Contact: Bradley Nations <bradley.nations@hollygrovefire.org>
+  / CAD:Fire Under Control;N COUNTY HOME RD/BRIAR PATCH DR; LEX;3473996166\n
 ***/
 
 public class NCDavidsonCountyParser extends DispatchOSSIParser {

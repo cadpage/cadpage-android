@@ -79,6 +79,9 @@ public class DispatchOSSIParser extends FieldProgramParser {
   @Override
   protected boolean parseMsg(String body, Data data) {
     
+    // Strip off leading /
+    if (body.startsWith("/")) body = body.substring(2).trim();
+    
     // If format has a leading ID, strip that off
     if (leadID) {
       int pt = body.indexOf(':');

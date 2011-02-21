@@ -1,5 +1,6 @@
 package net.anei.cadpage.parsers.NY;
 
+
 import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -83,6 +84,9 @@ System: Red Alert
 Signal 9 at 62 FLAMINGO RD, LEVITTOWN  c/s: GULL LN   O: OLSEN . . 09:34:27
 Brush Fires at TARRY LN / BAYBERRY LN, LEVITTOWN . . 14:28:07
 
+Brentwood, NY
+General Alarm, Auto Fire Alarm at 601 SUFFOLK AVE #201, BRENTWOOD  c/s: ADAMS AVE   O: LONG ISLAND EYE SURGICAL CARE . . 08:56:41
+
 */
 import net.anei.cadpage.parsers.SmsMsgParser;
 
@@ -97,7 +101,7 @@ public class NYSuffolkCountyCParser extends SmsMsgParser {
   
   @Override
   public String getFilter() {
-    return "paging@alpinesoftware.co";
+    return "paging@alpinesoftware.com";
   }
 
   @Override
