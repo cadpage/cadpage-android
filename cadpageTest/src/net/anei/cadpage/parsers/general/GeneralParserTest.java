@@ -192,6 +192,14 @@ public class GeneralParserTest extends BaseParserTest {
         "(From 911 Center) 02/14/11 16:26 5 CEDAR LN BRUTUS Cardiac",
         "CALL:BRUTUS Cardiac",
         "ADDR:5 CEDAR LN");
+    
+    doTest("T21",
+        "FSTRUC>STRUCTURE FIRE 1890 SR 232 XS: LAUREL POINT ISABEL RD LAUREL BUTLER, SHAWN Map: Grids:, Cad: 2011-0000014744<br>",
+        "CALL:FSTRUC>STRUCTURE FIRE",
+        "ADDR:1890 SR 232",
+        "X:LAUREL POINT ISABEL RD LAUREL BUTLER",
+        "INFO:SHAWN",
+        "ID:2011-0000014744");
 
   }
 }

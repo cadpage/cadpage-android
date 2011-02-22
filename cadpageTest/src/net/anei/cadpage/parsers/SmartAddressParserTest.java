@@ -32,6 +32,11 @@ public class SmartAddressParserTest extends BaseParserTest {
   
   @Test
   public void testProblems() {
+    doTest(SKIP, "LA LA LA COUNTRY PLACE CT & W 16TH ST BEYOND",
+    "ADDR:COUNTRY PLACE CT & W 16TH ST");
+    
+    doTest(ADDR, "COUNTRY PLACE CT / RENAISSANCE WOOD CT XENIA TWP",
+        "ADDR:COUNTRY PLACE CT & RENAISSANCE WOOD CT");
     
     doTest(ADDR, "22030 OXFORD CT APT KEN TOWN",
         "ADDR:22030 OXFORD CT",
@@ -132,6 +137,10 @@ public class SmartAddressParserTest extends BaseParserTest {
         "ADDR:3224 XX 456");
     doTest(SKIP, "BUT USING 123 N THIRD DR N JUST ISNT RIGHT",
         "ADDR:123 N THIRD DR N");
+    doTest(ADDR, "2000 COUNTRY PLACE CT EXTRA", 
+        "ADDR:2000 COUNTRY PLACE CT");
+    doTest(SKIP, "JUNK STUFF 2000 COUNTRY PLACE CT EXTRA", 
+        "ADDR:2000 COUNTRY PLACE CT");
   }
   
   @Test
@@ -165,6 +174,8 @@ public class SmartAddressParserTest extends BaseParserTest {
   public void testIntersections() {
     doTest(ADDR, "BLACK ST & WEST HILLS RD AFTER HOURS",
         "ADDR:BLACK ST & WEST HILLS RD");
+    doTest(ADDR, "COUNTRY PLACE CT & W 16TH ST BEYOND",
+        "ADDR:COUNTRY PLACE CT & W 16TH ST");
     doTest(SKIP, "CAN WE FIND HWY 20 AND WEST HILLS RD KENSBURG BLACK",
         "ADDR:HWY 20 AND WEST HILLS RD",
         "CITY:KENSBURG");
@@ -189,6 +200,8 @@ public class SmartAddressParserTest extends BaseParserTest {
     doTest(CALL, "MVA-UKN INJURY SW TUALATIN VALLEY HW/SW331ST AV",
         "CALL:MVA-UKN INJURY",
         "ADDR:SW TUALATIN VALLEY HW & SW331ST AV");
+    doTest(SKIP, "LA LA LA COUNTRY PLACE CT & W 16TH ST BEYOND",
+        "ADDR:COUNTRY PLACE CT & W 16TH ST");
   }
   
   @Test
@@ -208,6 +221,8 @@ public class SmartAddressParserTest extends BaseParserTest {
         "CITY:KENSBURG");
     doTest(ADDR, "US 26 IN CHICAGO",
         "ADDR:US 26");
+    doTest(ADDR, "COUNTRY PLACE CT DOWNTOWN",
+        "ADDR:COUNTRY PLACE CT");
     doTest(SKIP, "WHERE CAN I FIND I 506 IN CHICAGO",
         "ADDR:I 506");
     doTest(SKIP, "WHERE CAN I FIND ST 101 SOMEWHERE OUT WEST",
@@ -229,6 +244,8 @@ public class SmartAddressParserTest extends BaseParserTest {
         "ADDR:US-150 N");
     doTest(SKIP, "BAD BOY N BIGHILL RD S BOB",
         "ADDR:N BIGHILL RD S");
+    doTest(SKIP, "LOGSTON COUNTRY PLACE CT DOWNTOWN",
+        "ADDR:COUNTRY PLACE CT");
   }
   
   @Test

@@ -344,5 +344,22 @@ public class NYSuffolkCountyCParserTest extends BaseParserTest {
         "CITY:LEVITTOWN");
     
   }
+  
+  @Test
+  public void testBrentwood() {
+
+    doTest("T1",
+        "General Alarm, Auto Fire Alarm at 601 SUFFOLK AVE #201, BRENTWOOD  c/s: ADAMS AVE   O: LONG ISLAND EYE SURGICAL CARE . . 08:56:41",
+        "CALL:General Alarm, Auto Fire Alarm",
+        "ADDR:601 SUFFOLK AVE #201",
+        "CITY:BRENTWOOD",
+        "X:ADAMS AVE",
+        "PLACE:LONG ISLAND EYE SURGICAL CARE");
+    
+  }
+  
+  public static void main(String[] args) {
+    new NYSuffolkCountyCParserTest().generateTests("T1", "CALL ADDR CITY X PLACE");
+  }
 
 }

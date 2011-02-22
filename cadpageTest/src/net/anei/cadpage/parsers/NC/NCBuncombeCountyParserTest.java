@@ -698,8 +698,8 @@ public class NCBuncombeCountyParserTest extends BaseParserTest {
         "X:LOWER GRASSY BRANCH RD & JULIANNE PL");
   }
   
-//
-//  public static void main(String[] args) {
-//    new NCBuncombeCountyParserTest().generateTests("T2");
-//  }
+
+  public static void main(String[] args) {
+    new NCBuncombeCountyParserTest().generateTests("T89");
+  }
 }

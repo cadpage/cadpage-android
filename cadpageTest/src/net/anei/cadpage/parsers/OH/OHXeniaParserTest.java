@@ -131,7 +131,8 @@ public class OHXeniaParserTest extends BaseParserTest {
         "FMBLS-MEDICAL Location: 2960 W  ENON RD SR 235 / W HYDE RD XENIA TWP Time: 12:02 Units: M51  Common Name: G",
         "CALL:FMBLS-MEDICAL",
         "ADDR:2960 W ENON RD",
-        "X:SR 235 & W HYDE RD XENIA TWP",
+        "X:SR 235 & W HYDE RD",
+        "CITY:XENIA TWP",
         "UNIT:M51",
         "NAME:G");
 
@@ -174,8 +175,9 @@ public class OHXeniaParserTest extends BaseParserTest {
     doTest("T22",
         "FMBLS-MEDICAL Location: 1541 SR 380 COUNTRY PLACE CT / RENAISSANCE WOOD CT XENIA TWP Time: 00:28 Units: M52",
         "CALL:FMBLS-MEDICAL",
-        "ADDR:1541 SR 380 COUNTRY PLACE",
-        "X:CT & RENAISSANCE WOOD CT XENIA TWP",
+        "ADDR:1541 SR 380",
+        "X:COUNTRY PLACE CT & RENAISSANCE WOOD CT",
+        "CITY:XENIA TWP",
         "UNIT:M52");
 
     doTest("T23",
