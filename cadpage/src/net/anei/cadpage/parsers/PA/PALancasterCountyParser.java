@@ -11,6 +11,9 @@ Sender: 911@lcwc911.us
 (AUTO ALARM-HIGH OCCUPANCY) MANHEIM TWP~115 BLUE STREAK BLVD~SCHOOL RD~VALLEY RD~ENG271,ENG272~15:12:34^
 (HAZ MAT INCIDENT-1A) LANC CITY~753 S PLUM ST~17 ALY~JUNIATA ST~HAZ291~08:19:13^
 
+Contact: Matthew Lenker <strappy39@gmail.com>
+VEH ACCIDENT-ENTRAPMENT-1A / ELIZABETHTOWN BORO~E COLLEGE AVE / S SPRUCE ST~~TRK74,ENG741~08:54:12^\n
+
 The Text in the parentheses is the call nature.  Next, the municipality,
 then a tilde symbol then the location. Intersections are shown as to roads
 separated by a forward slash. Next is another tilde symbol followed by the
@@ -35,7 +38,7 @@ public class PALancasterCountyParser extends SmsMsgParser {
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     
-    if (subject.length() == 0 || ! body.contains("~")) return false;
+    if (! body.contains("~")) return false;
     data.strCall = subject;
     
     int ndx = 0;
@@ -45,8 +48,16 @@ public class PALancasterCountyParser extends SmsMsgParser {
       switch (ndx) {
       
       case 1:
+        int pt = line.indexOf('/');
+        if (pt >= 0) {
+          data.strCall = line.substring(0,pt).trim();
+          line = line.substring(pt+1).trim();
+        } else {
+          if (data.strCall.length() == 0) return false;
+        }
         data.strCity = line;
-        if (data.strCity.contains("LANC")) data.strCity = "LANCASTER";
+        if (data.strCity.endsWith(" BORO")) data.strCity = data.strCity.substring(0, data.strCity.length()-5).trim();
+        if (data.strCity.startsWith("LANC")) data.strCity = "LANCASTER";
         break;
         
       case 2:
