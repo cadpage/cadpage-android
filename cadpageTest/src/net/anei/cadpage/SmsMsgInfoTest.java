@@ -43,6 +43,10 @@ public class SmsMsgInfoTest {
     
     doMapTest("DR1", "345 W US 30,KENBURG,XX", "345 W US RT 30");
     doMapTest("DR2", "345 w st 30,KENBURG,XX", "345 w st hwy 30");
+    
+    doMapTest("BLK1", "6000 REIDSVILLE RD,KENBURG,XX", "6000BLK REIDSVILLE RD");
+    doMapTest("BLK2", "6000 OBLKA ST,KENBURG,XX", "6000 OBLKA ST");
+    doMapTest("BLK3", "100 OAK FEST RD,KENBURG,XX", "{100} OAK FEST RD");
   }
   
   private void doMapTest(String title, String result, String address) {
