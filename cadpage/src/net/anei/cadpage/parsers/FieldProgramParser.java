@@ -122,6 +122,14 @@ public class FieldProgramParser extends SmartAddressParser {
   // List of tags on the main path
   private String[] tagList = null;
   
+  public static String setExpectFlag(String program, String fldTerm) {
+    if (fldTerm == null) return program;
+    int pt = program.indexOf(fldTerm);
+    if (pt < 0) throw new RuntimeException("Field term not found");
+    pt += fldTerm.length();
+    return program.substring(0,pt) + '%' + program.substring(pt);
+  }
+  
   public FieldProgramParser(String[] cities, String defCity, String defState, String programStr) {
     super(cities, defCity, defState);
     this.cities = cities;

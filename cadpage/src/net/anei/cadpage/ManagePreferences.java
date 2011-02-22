@@ -170,13 +170,12 @@ public class ManagePreferences {
     return Integer.parseInt(prefs.getString(R.string.pref_loglimit_key));
   }
   
-  public static boolean suppressDupMsg() {
-    return prefs.getBoolean(R.string.pref_suppress_dup_msg_key);
+  public static int partMsgTimeout() {
+    return Integer.parseInt(prefs.getString(R.string.pref_msgtimeout_key));
   }
   
-  public static int partMsgTimeout() {
-    // Two minutes for initial testing
-    return 120;
+  public static boolean suppressDupMsg() {
+    return prefs.getBoolean(R.string.pref_suppress_dup_msg_key);
   }
   
   public static boolean notifyEnabled() {

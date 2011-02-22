@@ -1,5 +1,7 @@
 package net.anei.cadpage;
 
+import android.app.AlarmManager;
+import android.app.PendingIntent;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
@@ -9,22 +11,39 @@ import android.telephony.SmsMessage.MessageClass;
 
 public class SmsReceiver extends BroadcastReceiver {
   
-  private static String EXTRA_REPEAT_LAST = "net.anei.cadpage.SmsReceive.REPEAT_LAST";
+  private static final String EXTRA_TIMEOUT = "net.anei.cadpage.SmsReceive.MSG_TIMEOUT";
+  private static final String EXTRA_REPEAT_LAST = "net.anei.cadpage.SmsReceive.REPEAT_LAST";
+  
+  // Stored text message in the process of being reconstructed
+  // Technically, this should be persisted in case application is shut down
+  // between the receipt of multiple messages, but the time interval that we need
+  // to keep it is pretty small, so we'll just take our chances
+  private static SmsMmsMessage bufferMsg = null;
 
   @Override
-  public void onReceive(Context context, Intent intent) {
+  public synchronized void onReceive(Context context, Intent intent) {
     if (Log.DEBUG) Log.v("SMSReceiver: onReceive()");
     
     // If initialization failure in progress, shut down without doing anything
     if (TopExceptionHandler.isInitFailure()) return;
 
     SmsMmsMessage message = null;
+
+    boolean timeout = intent.getBooleanExtra(EXTRA_TIMEOUT, false);
+    boolean repeat = intent.getBooleanExtra(EXTRA_REPEAT_LAST, false);
     
+    // If buffered message has timed out, get ready to process it
+    // We don't cancel the alarm when the buffered message does get processed
+    // so when the alarm goes off, we need to check if it is still active.
+    if (timeout) {
+      message = bufferMsg;
+      bufferMsg = null;
+      if (message == null) return;
+    }
     // If repeat_last flag is set, this is a fake intent instructing us
     // to reprocess the most recently received message (that passed the 
     // sender address filter
-    boolean repeat = intent.getBooleanExtra(EXTRA_REPEAT_LAST, false);
-    if (repeat) {
+    else if (repeat) {
       message = SmsMsgLogBuffer.getInstance().getLastMessage();
       if (message != null) message.setRead(false);
     }
@@ -40,45 +59,77 @@ public class SmsReceiver extends BroadcastReceiver {
     // Class 0 SMS, let the system handle this
     if (message.getMessageType() == SmsMmsMessage.MESSAGE_TYPE_SMS &&
         message.getMessageClass() == MessageClass.CLASS_0) return;
-
-    // If the parser filter has been overridden, see if this passes the
-    // user sender filter
-    boolean overrideFilter = ManagePreferences.overrideFilter();
-    String sFilter = "";
-    if (overrideFilter) {
-      sFilter = ManagePreferences.filter();
-      String sAddress = message.getAddress();
-      if (! SmsPopupUtils.matchFilter(sAddress, sFilter)) return;
-    }
-    if (Log.DEBUG) Log.v("SMSReceiver/CadPageCall: Filter Matches checking call Location -" + sFilter);
     
-    // Save message for future test or error reporting use
-    // If message is rejected as duplicate, and it wasn't a requested repeat
-    // don't do anything except call
-    // abortbroadcast to keep it from going to anyone else
-    if (! SmsMsgLogBuffer.getInstance().add(message) && !repeat) {
+    // If we are processing a timed out buffered message, the message has
+    // already been checked and logged and we can skip all kinds of stuff
+    if (! timeout) {
+        
+      // Collect the important preference settings
+      boolean overrideFilter = ManagePreferences.overrideFilter();
+      String sFilter = (overrideFilter ? ManagePreferences.filter() : "");
+      int msgTimeout = ManagePreferences.partMsgTimeout();
+  
+      // If we are reconstructing a multiple text page, The only requirement is
+      // that this message has to come from the same sender
+      // If it passes that, merge the two together.
+      if (bufferMsg != null) {
+        if (!bufferMsg.getAddress().equals(message.getAddress())) return;
+      }
+      
+      // Otherwise if the parser filter has been overridden, see if this passes the
+      // user sender filter
+      else {
+        if (overrideFilter) {
+          String sAddress = message.getAddress();
+          if (! SmsPopupUtils.matchFilter(sAddress, sFilter)) return;
+        }
+        if (Log.DEBUG) Log.v("SMSReceiver/CadPageCall: Filter Matches checking call Location -" + sFilter);
+      }
+      
+      // Save message for future test or error reporting use
+      // If message is rejected as duplicate, and it wasn't a requested repeat
+      // don't do anything except call
+      // abortbroadcast to keep it from going to anyone else
+      if (! SmsMsgLogBuffer.getInstance().add(message) && !repeat) {
+        if (! ManagePreferences.smspassthru()) abortBroadcast();
+        return;
+      }
+      
+      // If we have a buffered message, merge this one into it
+      if (bufferMsg != null) {
+        bufferMsg.merge(message);
+        message = bufferMsg;
+        bufferMsg = null;
+      }
+      
+      // See if the current parser will handle this message
+      boolean genAlert = ManagePreferences.genAlert();
+      boolean isPage = 
+          ManageParsers.getInstance().getParser(null).isPageMsg(message, overrideFilter, genAlert);
+      
+      // If it didn't, see if we can accept this as a general page
+      // which only happens if the general alert config settings is set and there
+      // is an active user filter
+      if (! isPage && genAlert && sFilter.length()>1) {
+        isPage = ManageParsers.getInstance().getAlertParser().isPageMsg(message, overrideFilter, genAlert);
+      }
+      
+      // If not a cad page, we're done with this
+      if (! isPage) return;
+    	
+      // If it is, and we are not configured to do otherwise, 
+      // abort broadcast to any other receivers
       if (! ManagePreferences.smspassthru()) abortBroadcast();
-      return;
+      
+      // If parser expect a message continuation, save this one and return
+      if (msgTimeout > 0 && message.isExpectMore()) {
+        if (bufferMsg == null) {
+          bufferMsg = message;
+          setReminder(context, msgTimeout);
+        }
+        return;
+      }
     }
-    
-    // See if the current parser will handle this message
-    boolean genAlert = ManagePreferences.genAlert();
-    boolean isPage = 
-        ManageParsers.getInstance().getParser(null).isPageMsg(message, overrideFilter, genAlert);
-    
-    // If it didn't, see if we can accept this as a general page
-    // which only happens if the general alert config settings is set and there
-    // is an active user filter
-    if (! isPage && genAlert && sFilter.length()>1) {
-      isPage = ManageParsers.getInstance().getAlertParser().isPageMsg(message, overrideFilter, genAlert);
-    }
-    
-    // If not a cad page, we're done with this
-    if (! isPage) return;
-  	
-    // If it is, and we are not configured to do otherwise, 
-    // abort broadcast to any other receivers
-    if (! ManagePreferences.smspassthru()) abortBroadcast();
 
     // Add new message to the message queue
     SmsMessageQueue.getInstance().addNewMsg(message);
@@ -97,6 +148,27 @@ public class SmsReceiver extends BroadcastReceiver {
 
     // And finally, launch the main application screen
     if (process) CallHistoryActivity.launchActivity(context, message);
+  }
+
+
+  /**
+   * Set up an alarm to timeout and process a reconstructed message if the
+   * expected other parts of the page never show up
+   * @param msgTimeout timeout interval in seconds
+   */
+  private void setReminder(Context context, int msgTimeout) {
+    
+    AlarmManager myAM = (AlarmManager) context.getSystemService(Context.ALARM_SERVICE);
+
+    Intent intent = new Intent("android.provider.Telephony.SMS_RECEIVED");
+    intent.setClass(context, SmsReceiver.class);
+    intent.putExtra(EXTRA_TIMEOUT, true);
+
+    PendingIntent reminderPendingIntent =
+      PendingIntent.getBroadcast(context, 0, intent, PendingIntent.FLAG_CANCEL_CURRENT);
+
+    long triggerTime = System.currentTimeMillis() + (msgTimeout * 1000);
+    myAM.set(AlarmManager.RTC_WAKEUP, triggerTime, reminderPendingIntent);
   }
 
 

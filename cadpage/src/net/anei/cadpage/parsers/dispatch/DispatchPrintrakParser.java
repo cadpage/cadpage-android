@@ -74,12 +74,20 @@ Lee County, FL added as well
 public class DispatchPrintrakParser extends FieldProgramParser {
   
   public DispatchPrintrakParser(String defCity, String defState) {
-    this(null, defCity, defState);
+    this(null, defCity, defState, null);
+  }
+  
+  public DispatchPrintrakParser(String defCity, String defState, String expTerm) {
+    this(null, defCity, defState, expTerm);
   }
   
   public DispatchPrintrakParser(Properties cityCodes, String defCity, String defState) {
+    this(cityCodes, defCity, defState, null);
+  }
+  
+  public DispatchPrintrakParser(Properties cityCodes, String defCity, String defState, String expTerm) {
     super(cityCodes, defCity, defState,
-          "SRC PRI:SKIP INC:ID TYP:CALL! BLD:APT APT:APT AD:ADDR! CTY:CITY LOC:PLACE CN:NAME CMT1:INFO CMT2:INFO TIME:SKIP UNTS:UNIT XST:X XST2:X");
+          setExpectFlag("SRC PRI:SKIP INC:ID TYP:CALL! BLD:APT APT:APT AD:ADDR! CTY:CITY LOC:PLACE CN:NAME CMT1:INFO CMT2:INFO TIME:SKIP UNTS:UNIT XST:X XST2:X", expTerm));
   }
   
   private class MyAptField extends AptField {

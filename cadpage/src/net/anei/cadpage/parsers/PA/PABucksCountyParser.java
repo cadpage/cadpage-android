@@ -50,6 +50,7 @@ public class PABucksCountyParser extends SmsMsgParser {
     
     int pt = body.indexOf("911:");
     if (pt < 0) return false;
+    data.expectMore = true;
     
     body = body.replaceAll(" btwn ", " btwn:").replaceAll("&nbsp;", " ").replaceAll("&amp;", "&").trim();
     Properties props = parseMessage(body, KEYWORDS);
@@ -82,9 +83,12 @@ public class PABucksCountyParser extends SmsMsgParser {
     data.strBox = props.getProperty("box", "");
     data.strMap = props.getProperty("map", "");
     
-    String tm = props.getProperty("tm", "");
-    p = new Parser(tm);
-    data.strCallId = p.getLastOptional(' ');   
+    String tm = props.getProperty("tm");
+    if (tm != null) {
+      data.expectMore = false;
+      p = new Parser(tm);
+      data.strCallId = p.getLastOptional(' ');
+    }
     
     // Add call description
     String desc = TYPE_CODES.getProperty(data.strCall);

@@ -330,6 +330,7 @@
           android:capitalize="characters"
           android:inputType="textVisiblePassword"
           android:defaultValue=""/>
+          
       <net.anei.cadpage.preferences.ListPreference
           android:key="@string/pref_loglimit_key"
           android:title="@string/pref_loglimit_title"
@@ -338,6 +339,16 @@
           android:entryValues="@array/pref_loglimit_values"
           android:dialogTitle="@string/pref_loglimit_title"
           android:defaultValue="@string/pref_loglimit_default"/>
+      
+      <net.anei.cadpage.preferences.EditTextPreference  
+          android:dialogTitle="@string/pref_msgtimeout_title"
+          android:dialogMessage="@string/pref_msgtimeout_dialog"
+          android:key="@string/pref_msgtimeout_key"
+          android:title="@string/pref_msgtimeout_title"
+          android:summary="@string/pref_msgtimeout_summary"
+          android:inputType="number"
+          android:defaultValue="@string/pref_msgtimeout_default"/>
+          
       <CheckBoxPreference
           android:key="@string/pref_suppress_dup_msg_key"
           android:title="@string/pref_suppress_dup_msg_title"

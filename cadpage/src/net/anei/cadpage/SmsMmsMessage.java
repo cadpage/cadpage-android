@@ -2,6 +2,8 @@ package net.anei.cadpage;
 
 import java.io.IOException;
 import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -35,6 +37,12 @@ public class SmsMmsMessage implements Serializable {
   // Main message object private vars
   private String fromAddress = null;
   private String messageBody = null;
+  
+  // List of messages appended to original message
+  // Yes it would have made more sense to put the original message in the list
+  // as well, but then we would loose backward compatibility with messages
+  // saved before the extra message list was added.
+  private List<String> extraMsgBody = null;
   private long timestamp = 0;
   private int messageType = 0;
   private boolean fromEmailGateway = false;
@@ -158,6 +166,17 @@ public class SmsMmsMessage implements Serializable {
     
     getParseInfo();
   }
+
+  /**
+   * Merge parsed data from a subsequent text message
+   * @param message subsequent text message
+   */
+  public void merge(SmsMmsMessage message) {
+    if (extraMsgBody == null) extraMsgBody = new ArrayList<String>();
+    extraMsgBody.add(message.messageBody);
+    parseMessageBody = parseMessageBody + " " + message.parseMessageBody;
+    expectMore = message.expectMore;
+  }
   
   /**
    * Read serialized SmsMmsMessage object from Object input stream
@@ -166,12 +185,21 @@ public class SmsMmsMessage implements Serializable {
   throws IOException, ClassNotFoundException {
     stream.defaultReadObject();
     getParseInfo();
+    if (extraMsgBody != null) {
+      for (String msgBody : extraMsgBody) {
+        String saveAddress = parseAddress;
+        String saveSubject = parseSubject;
+        String saveBody = parseMessageBody;
+        expectMore = false;
+        getParseInfo(msgBody);
+        parseAddress = saveAddress;
+        parseSubject = saveSubject;
+        parseMessageBody = saveBody + " " + parseMessageBody;
+      }
+    }
   }
   
-  /**
-   * Perform any front end unscrambling required to recover the original text
-   * message sent by dispatch for parsing purposes.
-   */
+  // Patterns used to perform front end descrambling
   private static final Pattern[] MSG_HEADER_PTNS = new Pattern[]{
     Pattern.compile("^(000\\d)/(000\\d)\\b"),
     Pattern.compile("^(\\d)of(\\d):")
@@ -179,14 +207,24 @@ public class SmsMmsMessage implements Serializable {
   private static final Pattern PAGECOPY_PATTERN = Pattern.compile("Pagecopy-Fr:(\\S*)\\s");
   private static final Pattern EMAIL_PATTERN = 
     Pattern.compile("^([\\w\\.]+@[\\w\\.]+)( / / )");
+  private static final Pattern S_M_PATTERN = Pattern.compile("^S: *([^:]*) +M:");
+  
+  /**
+   * Perform any front end unscrambling required to recover the original text
+   * message sent by dispatch for parsing purposes.
+   */
   private void getParseInfo() {
+    getParseInfo(messageBody);
+  }
+  
+  private void getParseInfo(String body) {
     
     // Set message body to empty string if we don't have one
-    if (messageBody == null) messageBody = "";
+    if (body == null) body = "";
     
     // Start by decoding common HTML sequences
-    String body = messageBody.replaceAll("&nbsp;",  " ").replaceAll("&amp;",  "&")
-                             .replaceAll("<br>", "\n").replaceAll("&gt;", ">").replaceAll("&lt;", "<");
+    body = body.replaceAll("&nbsp;",  " ").replaceAll("&amp;",  "&")
+               .replaceAll("<br>", "\n").replaceAll("&gt;", ">").replaceAll("&lt;", "<");
     
     // default address and subject to obvious values
     parseAddress = fromAddress;
@@ -329,6 +367,16 @@ public class SmsMmsMessage implements Serializable {
         break;
       }
       
+      /* Decode patterns that look like
+       * S:subject M:msg
+       */
+      match = S_M_PATTERN.matcher(body);
+      if (match.find()) {
+        parseSubject = match.group(1);
+        body = body.substring(match.end()).trim();
+        break;
+      }
+      
       /* Decode patterns that match EMAIL_PATTERN, which is basically an email address
        * followed by one of a set of known delimiters
        */
@@ -419,7 +467,9 @@ public class SmsMmsMessage implements Serializable {
   }
   
   public boolean isExpectMore() {
-    return expectMore;
+    if (expectMore) return true;
+    if (info != null) return info.isExpectMore();
+    return false;
   }
   
   public SmsMsgInfo getInfo() {
@@ -640,6 +690,12 @@ public class SmsMmsMessage implements Serializable {
     
     sb.append("\nBody:");
     sb.append(escape(messageBody));
+    if (extraMsgBody != null) {
+      for (String body : extraMsgBody) {
+        sb.append("\nBody:");
+        sb.append(escape(body));
+      }
+    }
     
     sb.append("\nEff Body:");
     sb.append(parseMessageBody);

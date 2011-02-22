@@ -8,7 +8,7 @@ import android.content.Intent;
 
 public class ReminderReceiver extends BroadcastReceiver {
 
-  private static final String ACTION_REMIND = "net.everythingandroid.smspopup.ACTION_REMIND";
+  private static final String ACTION_REMIND = "net.anei.cadpage.ACTION_REMIND";
   
   private static String EXTRAS_MSG_ID = "net.anei.cadpage.EXTRAS_MSG_ID";
   private static String EXTRAS_COUNT = "net.anei.cadpage.EXTRAS_REMINDER_COUNT";

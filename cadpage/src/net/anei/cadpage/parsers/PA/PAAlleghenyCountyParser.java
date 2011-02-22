@@ -20,7 +20,7 @@ ALLEGHENY COUNTY 911 :29B1, F1, TRAFFIC -WITH INJURIES, THOMPSON RUN RD/SUNNY HI
 
 Split messages, same send time
 ALLEGHENY COUNTY 911 :09E1A, E0, NOT BREATHING AT ALL -COLD/STIFF IN WARM, 9116 WALNUT ST, PLU, btwn APPLE AVE and PINE ST, EMD1, E48505, 68 YOM NOT BREATHING,
-THINKS HE IS DECEASED, Unit:487 - From 504 02/08/2011 19:30:00 TXT
+THINKS HE IS DECEASED, Units:487 - From 504 02/08/2011 19:30:00 TXT STOP to opt-out
 
 
 
@@ -46,10 +46,17 @@ public class PAAlleghenyCountyParser extends SmsMsgParser {
     body = body.substring(pt+MARKER.length());
     
     // Remove trailing stuff that we aren't interested in
+    data.expectMore = true;
     pt = body.indexOf(" - From");
-    if (pt >= 0) body = body.substring(0, pt).trim();
+    if (pt >= 0) {
+      data.expectMore = false;
+      body = body.substring(0, pt).trim();
+    }
     pt = body.indexOf(" TXT STOP");
-    if (pt >= 0) body = body.substring(0, pt).trim();
+    if (pt >= 0) {
+      data.expectMore = false;
+      body = body.substring(0, pt).trim();
+    }
     
     // Split body into comma separated fields
     String[] flds = body.split(" *, *");
