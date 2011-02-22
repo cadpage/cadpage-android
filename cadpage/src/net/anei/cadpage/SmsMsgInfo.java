@@ -144,14 +144,15 @@ public class SmsMsgInfo {
    * @return return mapping address
    */
   public String getMapAddress() {
-    String sAddr = cleanBounds(strAddress);
+    String sAddr = cleanBlock(strAddress);
+    sAddr = cleanBounds(sAddr);
     sAddr = cleanHouseNumbers(sAddr);
     sAddr = cleanDoubleRoutes(sAddr);
     StringBuilder sb = new StringBuilder(sAddr);
     
     // If there wasn't an address number or intersection marker in address
     // try appending cross street info as as intersection
-    if (!validAddress()) {
+    if (!validAddress(sAddr)) {
       if (strCross.length() > 0) {
         sb.append(" & ");
         sb.append(strCross);
@@ -187,6 +188,18 @@ public class SmsMsgInfo {
     
     return sb.toString();
 	}
+  
+  // Clean up any BLK indicators
+  // Remove occurance of BLK bracketed by non-alpha characters
+  private static final Pattern BLK_PAT = Pattern.compile("[^A-Z](BLK)[^A-Z]");
+  private String cleanBlock(String sAddr) {
+    sAddr = sAddr.replaceAll("[\\{\\}]", "");
+    Matcher match = BLK_PAT.matcher(sAddr);
+    if (match.find()) {
+      sAddr = sAddr.substring(0,match.start(1)) + sAddr.substring(match.end(1));
+    }
+    return sAddr;
+  }
   
   // Clean up and NB, SB, EB, or WB words
 
@@ -268,10 +281,10 @@ public class SmsMsgInfo {
    * @return true if address is valid standalone address
    * (ie either starts with a house number or contains an intersection marker) 
    */
-  private boolean validAddress() {
-    int pt = strAddress.indexOf(' ');
-    if (pt > 0 && SmsMsgParser.NUMERIC.matcher(strAddress.substring(0, pt)).matches()) return true;
-    if (strAddress.contains("&") || strAddress.contains(" AND ") || strAddress.contains(" and ")) return true; 
+  private boolean validAddress(String sAddr) {
+    int pt = sAddr.indexOf(' ');
+    if (pt > 0 && SmsMsgParser.NUMERIC.matcher(sAddr.substring(0, pt)).matches()) return true;
+    if (sAddr.contains("&") || sAddr.contains(" AND ") || sAddr.contains(" and ")) return true; 
     return false;
   }
   
