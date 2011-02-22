@@ -52,5 +52,17 @@ public class PALancasterCountyParserTest extends BaseParserTest {
         "ADDR:753 S PLUM ST",
         "X:17 ALY & JUNIATA ST",
         "UNIT:HAZ291");
+
+    doTest("T6",
+        "VEH ACCIDENT-ENTRAPMENT-1A / ELIZABETHTOWN BORO~E COLLEGE AVE / S SPRUCE ST~~TRK74,ENG741~08:54:12^\n",
+        "CALL:VEH ACCIDENT-ENTRAPMENT-1A",
+        "CITY:ELIZABETHTOWN",
+        "ADDR:E COLLEGE AVE & S SPRUCE ST",
+        "UNIT:TRK74,ENG741");
+  }
+  
+  
+  public static void main(String[] args) {
+    new PALancasterCountyParserTest().generateTests("T6", "CALL CITY ADDR X UNIT");
   }
 }
