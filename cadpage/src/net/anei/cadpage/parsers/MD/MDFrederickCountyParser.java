@@ -36,6 +36,9 @@ Contact: "windyhollowgrowers@hotmail.com" <windyhollowgrowers@hotmail.com>
 
 Contact: Bill Green <wbgreen1@gmail.com>
 (CAD) [FredCo] CT: HOUSE / SMOKE 238 DEPAUL ST EMMB ESZ: 601 MAP: 3997J8 Disp: E63,ACE232,E102,CCE111,E132,A268,RS6,TWR6,CCLDR5,BAT900,SFT900
+
+Contact: "bubbaclary@yahoo.com" <bubbaclary@yahoo.com>
+(CAD) [FredCo] CT: CARDIAC PATIENT 12 AFTON CT BRUN ESZ: 502 MAP: 4683C9 SUBDIV: GALYN MANOR Disp: A199,M20,A209,5FR [93]
 ***/
 
 public class MDFrederickCountyParser extends SmartAddressParser {
@@ -47,19 +50,20 @@ public class MDFrederickCountyParser extends SmartAddressParser {
   
   private static final Properties CITY_CODE_TABLE = 
     buildCodeTable(new String[]{
-        "THUR","Thurmont",
-        "CEMB","Emmitsburg",
-        "CSAB","Sabillasville",
-        "CWAL","Walkersville",
-        "CFR2","Frederick City",
-        "FRE1", "Frederick City",
-        "WOOD","Woodsboro",
-        "CNMA","New Market",
         "ADAM","Adams County", //PA
         "ADAM CO", "Adams County",
         "ADCO","Franklin County", //PA
-        "FRAN CO", "Franklin County",
+        "BRUN","Brunswick",   
         "CARRCO", "Carroll County",
+        "CEMB","Emmitsburg",
+        "CFR2","Frederick City",
+        "CNMA","New Market",
+        "CSAB","Sabillasville",
+        "CWAL","Walkersville",
+        "FRAN CO", "Franklin County",
+        "FRE1", "Frederick City",
+        "THUR","Thurmont",
+        "WOOD","Woodsboro",
     });
 
   public MDFrederickCountyParser(){
