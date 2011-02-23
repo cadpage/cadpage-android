@@ -202,7 +202,8 @@ public class SmsMmsMessage implements Serializable {
   // Patterns used to perform front end descrambling
   private static final Pattern[] MSG_HEADER_PTNS = new Pattern[]{
     Pattern.compile("^(000\\d)/(000\\d)\\b"),
-    Pattern.compile("^(\\d)of(\\d):")
+    Pattern.compile("^(\\d)of(\\d):"),
+    Pattern.compile("^\\((\\d)/(\\d)\\)")
   };
   private static final Pattern PAGECOPY_PATTERN = Pattern.compile("Pagecopy-Fr:(\\S*)\\s");
   private static final Pattern EMAIL_PATTERN = 

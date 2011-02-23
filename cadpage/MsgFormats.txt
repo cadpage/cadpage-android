@@ -1765,6 +1765,7 @@ really needed) |
 Clermont county, OH
 Contact: carl jervis <cjervis911@yahoo.com>
 Sender: 911-center@co.clermont.oh.us
+System: CAD Interactive 6.1.1.63
 FSTRUC>STRUCTURE FIRE 1890 SR 232 XS: LAUREL POINT ISABEL RD LAUREL BUTLER, SHAWN Map: Grids:, Cad: 2011-0000014744<br>
 MED >MED GENERIC DO NOT DELETE 2458 SR 756 XS: SR 743 WASHINGTON TOWNSHIP BETTLES,LINDA Map: Grids:, Cad: 2011-0000015125<br>
 **********************************************************
@@ -1773,6 +1774,7 @@ Contact: Michael Gevas <mgevas@valleyfordfire.com>
 Loc: HWY1/VALLEY FORD ROAD VFR BOX: 3540 TYP:TC CN: CHP LOG # 632 C#: TYPE CODE: TC CALLER NAME: CHP LOG # 632 CALLER ADDR:  TIME: 11:07:31 COM: ** Case n
 Loc: 1320 BAY VIEW ST BBY:@ BODEGA UNION CHURCH BOX : 3433 B3 TYP: GAS-IN CN: BODEGA BAY UNION CHURCH C#: (707)875-3559 TYPE CODE: GAS-IN CALLER NAME: BODEGA
 Loc: BBY:@HWY 1MM012.42 BOX:3332 B TYP: TC-EX CN: CHP LOG 344 C#: TYPE CODE: TC_EX CALLER NAME:CHP LOG 344 CALLER ADDR:  TIME: 03:44:34 COM: OVER TURN
+Loc: 1400 VALLEY FORD FREESTONE RD VFR BOX: 3439 B TYP: SER-PA CN: JOANNA C#: (707) 876-3288 TYPE CODE: SER-PA CALLER NAME: JOANNA CALLER ADDR:  TIME: 13:01
 **********************************************************
 Chester County, PA (2nd Chester County format)
 Contact: Jason Wilkins <j.wilkins728@gmail.com>
@@ -1842,6 +1844,7 @@ ROCHESTER, RANDOLF
 New Castle County, DE
 Contact: Jeff Hill <jeff.hill25@gmail.com>
 Sender: rc.322@c-msg.net
+code following address is a grid code that does not need to be displayed
 (25CAD) [FB] F00 19:58 1 - T:69D5 (L3*MULTI-RESIDENTIAL FIRE) L:755 MONTCLAIR DR #2 ,PF *NAAMANS APTS - X:btwn NAAMANS RD ~ SOCIETY DR DESC: smoke fromneighbors
 (25CAD) [FB] F00 12:11 1 - T:69D7 (L3*CHIMNEY FIRE) L:2007 FERNDALE DR ,X1 *WESTWOOD MANOR - X:btwn FORREST RD ~ VEALE RD DESC: chimney.?!?!
  [FB] F00 03:14 1 - T:69D6 (L3*RESIDENTIAL FIRE) L:108 CARLIE RD ,NT *LYNNFIELD - X:btwn HOMEWOOD RD ~ RIDGELAND RD
