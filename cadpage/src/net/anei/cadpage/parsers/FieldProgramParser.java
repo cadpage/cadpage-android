@@ -591,14 +591,16 @@ public class FieldProgramParser extends SmartAddressParser {
       if (! Character.isUpperCase(fieldTerm.charAt(pt++))) {
         throw new RuntimeException("Invalid field term: " + fieldTerm);
       }
-      while (pt < len && Character.isJavaIdentifierPart(fieldTerm.charAt(pt))) pt++;
+      while (pt < len && 
+             (Character.isJavaIdentifierPart(fieldTerm.charAt(pt)) || fieldTerm.charAt(pt)=='-')) pt++;
       if (pt < fieldTerm.length() && fieldTerm.charAt(pt) == ':') {
         tag = fieldTerm.substring(st, pt).replace("_", " ");
         st = ++pt;
         if (! Character.isUpperCase(fieldTerm.charAt(pt++))) {
           throw new RuntimeException("Invalid field term: " + fieldTerm);
         }
-        while (pt < len && Character.isJavaIdentifierPart(fieldTerm.charAt(pt))) pt++;
+        while (pt < len && 
+            (Character.isJavaIdentifierPart(fieldTerm.charAt(pt)) || fieldTerm.charAt(pt)=='-')) pt++;
       }
       
       name = fieldTerm.substring(st, pt);  
