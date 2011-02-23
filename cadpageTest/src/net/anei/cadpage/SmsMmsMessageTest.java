@@ -193,6 +193,12 @@ public class SmsMmsMessageTest {
     
     doParseTest("HDR2-done", "3of3:THIS IS ANOTHER TEST",
                 "ken@cadpage.org", "", "THIS IS ANOTHER TEST", false);
+    
+    doParseTest("HDR3", "(1/2) I LOVE MY MOTHER",
+                "ken@cadpage.org", "", "I LOVE MY MOTHER", true);
+    
+    doParseTest("HDR3-done", "(2/2) I LOVE MY MOTHER",
+                "ken@cadpage.org", "", "I LOVE MY MOTHER", false);
   }
   
   private void doParseTest(String title, String body, String expFrom, String expSubject, String expBody) {

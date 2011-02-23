@@ -200,6 +200,13 @@ public class GeneralParserTest extends BaseParserTest {
         "X:LAUREL POINT ISABEL RD LAUREL BUTLER",
         "INFO:SHAWN",
         "ID:2011-0000014744");
+    
+    doTest("T22",
+        "CAD:WCRS;424;02/23/2011 14:14:08;ACCIDENT W/INJURY;750 FISHING CREEK ARBOR RD",
+        "ID:424",
+        "CALL:ACCIDENT W/INJURY",
+        "ADDR:750 FISHING CREEK ARBOR RD");
+        
 
   }
 }
