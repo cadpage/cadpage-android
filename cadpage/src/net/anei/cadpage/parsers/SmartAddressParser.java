@@ -1044,16 +1044,21 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     }
     
     // If token is in dictionary, return the associated type code
+    // City codes are not permitted to follow intersection connectrs, cross
+    // street markers, or at markers for fear thay might be a street with the
+    // same name as a city
     Integer iType = dictionary.get(token.toUpperCase());
     if (iType != null) {
-      tokenType[ndx] = (mask | iType);
+      mask |= iType;
+      if (ndx > 0 && isType(ndx-1, ID_CONNECTOR | ID_CROSS_STREET | ID_AT_MARKER)) {
+        mask &= ~ID_CITY;
+      }
     }
     
     else if (NUMERIC.matcher(token).matches()) {
-      tokenType[ndx] = (mask | ID_NUMBER);
-    } else {
-      tokenType[ndx] =  mask;
+      mask |= ID_NUMBER;
     }
+    tokenType[ndx] =  mask;
   }
   
   private boolean isType(int ndx, int mask) {

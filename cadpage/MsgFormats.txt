@@ -77,6 +77,11 @@ Pittsylvania County, VA (VAPittsylvaniaCountyParser)
 *******************************************************************************
 * DispatchBParser subclasses
 *******************************************************************************
+Clermont county, OH
+FSTRUC>STRUCTURE FIRE 1890 SR 232 XS: LAUREL POINT ISABEL RD LAUREL BUTLER, SHAWN Map: Grids:, Cad: 2011-0000014744
+MED >MED GENERIC DO NOT DELETE 2458 SR 756 XS: SR 743 WASHINGTON TOWNSHIP BETTLES,LINDA Map: Grids:, Cad: 2011-0000015125
+FDUMP >DUMPSTER FIRE 2601 WILDWOOD LN XS: SR 222 TATE TOWNSHIP WIRELESS-VERIZON(XYP) Map: Grids:, Cad: 2011-0000015892
+*******************************************************************************
 Daviess County, KY (KYDaviessCountyParser)
 911-CENTER:MBD >BREATHING DIFFICULTY 6261 MILLERS MILL RD XS: HIGHWAY 142 PHILPOT MARTIN Map: Grids:, Cad: 2011-0000013315
 911-CENTER:ACCINJ>ACCIDENT WITH INJURIES 3970 CRANE POND RD XS: U S HIGHWAY 231 PHILPOT JOHNS, AMY Map: Grids:, Cad: 2011-0000013291
@@ -1774,16 +1779,6 @@ LINTHICUM (town or area)| ANNE ARUNDEL (county, this field never changes) |
 AUTO ACCIDENT (type of incident) | AVIATION BLVD & TERMINAL RD (Location)
 | MVC INVOL BWI BUS. 1 INJ.  (Notes on dispatch)| 31 (dispater ID, not
 really needed) |
-**********************************************************
-Clermont county, OH
-Contact: carl jervis <cjervis911@yahoo.com>
-Sender: 911-center@co.clermont.oh.us
-System: CAD Interactive 6.1.1.63
-FSTRUC>STRUCTURE FIRE 1890 SR 232 XS: LAUREL POINT ISABEL RD LAUREL BUTLER, SHAWN Map: Grids:, Cad: 2011-0000014744
-MED >MED GENERIC DO NOT DELETE 2458 SR 756 XS: SR 743 WASHINGTON TOWNSHIP BETTLES,LINDA Map: Grids:, Cad: 2011-0000015125
-FDUMP >DUMPSTER FIRE 2601 WILDWOOD LN XS: SR 222 TATE TOWNSHIP WIRELESS-VERIZON(XYP) Map: Grids:, Cad: 2011-0000015892
-EVENT: 26A01 LOC:2902 SR 133 Cad: 2011-0000016012 DSP >03:49 Case: 0000000185 Disp: ER >03:52 OS >03:53 ERH >04:01 CMH ERH >04:15 Man Timer Turned: OFF
-06D02 >BREATHING PROBLEMS 2458 SR 756 XS: SR 743 WASHINGTON TOWNSHIP LESTER,CURTIS Map: Grids:, Cad: 2011-0000016117<br>
 **********************************************************
 Sonoma County, CA
 Contact: Michael Gevas <mgevas@valleyfordfire.com>
