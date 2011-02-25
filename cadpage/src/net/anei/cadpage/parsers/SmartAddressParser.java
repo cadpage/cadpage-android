@@ -1050,7 +1050,8 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     Integer iType = dictionary.get(token.toUpperCase());
     if (iType != null) {
       mask |= iType;
-      if (ndx > 0 && isType(ndx-1, ID_CONNECTOR | ID_CROSS_STREET | ID_AT_MARKER)) {
+      if (ndx > 0 && isType(ndx-1, ID_CONNECTOR | ID_CROSS_STREET | ID_AT_MARKER) ||
+          ndx > 1 && isType(ndx-2, ID_CONNECTOR | ID_CROSS_STREET | ID_AT_MARKER) && isType(ndx-1, ID_DIRECTION)) {
         mask &= ~ID_CITY;
       }
     }
