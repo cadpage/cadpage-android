@@ -1,7 +1,9 @@
 package net.anei.cadpage.parsers.WI;
 
 import java.util.Properties;
+import java.util.regex.Pattern;
 
+import net.anei.cadpage.SmsMsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchPrintrakParser;
 
 /*
@@ -18,6 +20,8 @@ HAFR       PRI: 1 INC: FHA110126000021 TYP: RESCUE ADVANCED LIFE AD: N9114 NOE R
 HAFR       PRI: 1 INC: FHA110117000011 TYP: RESCUE ADVANCED LIFE AD: CTY TK KK&NOE RD CTY: CMTH CN: TAUS,ANNETTE CMT1: 44 YR OLD FEMALE WITH CHEST PAINS
 HAFR       PRI: 1 INC: FHA110127000023 TYP: STRUCTURE FIRE AD: W2825 EMMONS CTY: BUCT CN: BUCHANAN FIRE CMT1: **POINT TO POINT TO OUSO TO DISPATCH BUCHAN
 HAFR       PRI: 1 INC: FHA110130000024 TYP: RESCUE ADVANCED LIFE AD: W5095 GOLF COURSE RD CTY: CMSV LOC: HIGH CLIFF SUPPER CL CMT1: Original Location : H
+HAFR       PRI: 1 INC: FHA110224000047 TYP: RESCUE ADVANCED LIFE AD: W6013 BLAZING STAR DR CTY: CMTH CN: WILLIAMS-SERVANT GRE CMT1: 35 FEMALE SUBJECT VAG
+
  */
 
 
@@ -27,11 +31,11 @@ public class WICalumetCountyParser extends DispatchPrintrakParser {
       // Brown County
       "ASHW", "ASHWAUBENON",
       "CGB",  "GREEN BAY",
-      "TGB",  "BROWN COUNTY", // "GREEN BAY TWP",
+      "TGB",  "GREEN BAY",
       "DENM", "DENMARK",
       "NEWD", "NEW DENMARK",
       "VWRI", "WRIGHTSTOWN",
-      "TWRI", "BROWN COUNTY", // "WRIGHTSTOWN TWP",
+      "TWRI", "WRIGHTSTOWN",
       "ROCK", "ROCKLAND",
       "DEPE", "DEPERE",
       "PULA", "PULASKI",
@@ -51,19 +55,19 @@ public class WICalumetCountyParser extends DispatchPrintrakParser {
       "MORR", "MORRISON",
       
       // Calumet County
-      "CMBT", "CALAUMET COUNTY",  // "BROTHERTON",
+      "CMBT", "BROTHERTON",
       "CMCB", "BRILLION",
       "CMCC", "CHILTON",
       "CMCK", "KIEL",
       "CMCN", "NEW HOLSTEIN",
-      "CMCT", "CALUMET COUNTY",  // "CHARLESTOWN TWP",
-      "CMTB", "CALUMET COUNTY",  // "BRILLION TWP",
-      "CMSV", "CALUMET COUNTY",  // "SHERWOOD TWP",
-      "CMTH", "CALUMET COUNTY",  // "HARRISON TWP",
-      "CMTN", "CALUMET COUNTY",  // "NEW HOLSTEIN TWP",
-      "CMTR", "CALUMET COUNTY",  // "RANTOUL TWP",
-      "CMTS", "CALUMET COUNTY",  // "STOCKBRIDGE TWP",
-      "CMTW", "CALUMET COUNTY",  // "WOODVILLE TWP",
+      "CMCT", "CHARLESTOWN",
+      "CMTB", "BRILLION",
+      "CMSV", "SHERWOOD",
+      "CMTH", "HARRISON",
+      "CMTN", "NEW HOLSTEIN",
+      "CMTR", "RANTOUL",
+      "CMTS", "STOCKBRIDGE",
+      "CMTW", "WOODVILLE",
       "CMVH", "HILBERT",
       "CMVP", "POTTER",
       "CMVS", "STOCKBRIDGE",
@@ -73,52 +77,54 @@ public class WICalumetCountyParser extends DispatchPrintrakParser {
       "KAUC", "KAUKAUNA",
       "SEYC", "SEYMOUR",
       "NEWL", "NEW LONDON",
-      "BLCT", "OUTAGAMIE COUNTY", // "BLACK CREEK TWP",
-      "BUCT", "OUTAGAMIE COUNTY", // "BUCHANAN TWP",
-      "CENT", "OUTAGAMIE COUNTY", // "CENTER TWP",
+      "BLCT", "BLACK CREEK",
+      "BUCT", "BUCHANAN",
+      "CENT", "CENTER",
       "COLV", "COMBINED LOCKS",
-      "DALT", "OUTAGAMIE COUNTY", // "DALE TWP",
-      "DRCT", "OUTAGAMIE COUNTY", // "DEER CREEK TWP",
-      "ELLT", "OUTAGAMIE COUNTY", // "ELLINGTON TWP",
-      "FRET", "OUTAGAMIE COUNTY", // "FREEDOM TWP",
-      "GRCT", "OUTAGAMIE COUNTY", // "GRAND CHUTE TWP",
-      "GRVT", "OUTAGAMIE COUNTY", // "GREENVILLE TWP",
-      "HORT", "OUTAGAMIE COUNTY", // "HORTONVILLE TWP",
+      "DALT", "DALE",
+      "DRCT", "DEER CREEK",
+      "ELLT", "ELLINGTON",
+      "FRET", "FREEDOM",
+      "GRCT", "GRAND CHUTE",
+      "GRVT", "GREENVILLE",
+      "HORT", "HORTONVILLE",
       "HORV", "HORTONVILLE",
-      "KAUT", "OUTAGAMIE COUNTY", // "KAUKAUNA TWP",
+      "KAUT", "KAUKAUNA",
       "KIMV", "KIMBERLY",
-      "LIBT", "OUTAGAMIE COUNTY", // "LIBERTY TWP",
+      "LIBT", "LIBERTY",
       "LTCV", "LITTLE CHUTE", 
-      "MPCT", "OUTAGAMIE COUNTY", // "MAPLE CREEK TWP",
+      "MPCT", "MAPLE CREEK",
       "ONET", "ONEIDA",
-      "OSBT", "OUTAGAMIE COUNTY", // "OSBORN TWP",
-      "SEYT", "OUTAGAMIE COUNTY", // "SEYMOUR TWP",
-      "VANT", "OUTAGAMIE COUNTY", // "VANDENBROEK TWP",
+      "OSBT", "OSBORN",
+      "SEYT", "SEYMOUR",
+      "VANT", "VANDENBROEK",
       
       // Winnebago County
-      "WALG", "WINNEBAGO COUNTY", // "ALOGMA TWP",
-      "WBLA", "WINNEBAGO COUNTY", // "BLACK WOLF TWP",
-      "WCLA", "WINNEBAGO COUNTY", // "CLAYTON TWP",
+      "WALG", "ALOGMA",
+      "WBLA", "BLACK WOLF",
+      "WCLA", "CLAYTON",
       "WCME", "MENASHA",
       "WMEN", "MENASHA",
       "WNEE", "NEENAH",
-      "WNEK", "WINNEBAGO COUNTY", // "NEKIMI TWP",
-      "WNEP", "WINNEBAGO COUNTY", // "NEPEUSKUN TWP",
+      "WNEK", "NEKIMI",
+      "WNEP", "NEPEUSKUN",
       "WOMR", "OMRO",
       "WOSH", "OSHKOSH",
-      "WPOY", "WINNEBAGO COUNTY", // "POYGAN TWP",
-      "WRUS", "WINNEBAGO COUNTY", // "RUSHFORD TWP",
-      "WTME", "WINNEBAGO COUNTY", // "MENASHA TWP",
-      "WTNE", "WINNEBAGO COUNTY", // "NEENAH TWP",
-      "WTOM", "WINNEBAGO COUNTY", // "OMRO TWP",
-      "WTOS", "WINNEBAGO COUNTY", // "OSHKOSH TWP",
-      "WTWN", "WINNEBAGO COUNTY", // "WINNECONNE TWP",
-      "WUTI", "WINNEBAGO COUNTY", // "UTICA TWP",
-      "WVIN", "WINNEBAGO COUNTY", // "VINLAND TWP",
-      "WWCR", "WINNEBAGO COUNTY", // "WINCHESTER TWP",
-      "WWNE", "WINNEBAGO COUNTY", // "WINNECONNE TWP",
-      "WWOL", "WINNEBAGO COUNTY", // "WOLF RIVER TWP"
+      "WPOY", "POYGAN",
+      "WRUS", "RUSHFORD",
+      "WTME", "MENASHA",
+      "WTNE", "NEENAH",
+      "WTOM", "OMRO",
+      "WTOS", "OSHKOSH",
+      "WTWN", "WINNECONNE",
+      "WUTI", "UTICA",
+      "WVIN", "VINLAND",
+      "WWCR", "WINCHESTER",
+      "WWNE", "WINNECONNE",
+      "WWOL", "WOLF RIVER"
   });
+  
+  private static final Pattern HOUSE_NBR_PTN = Pattern.compile("^([NWSE])(\\d+)\\b");
   
   public WICalumetCountyParser() {
     super(CITY_TABLE, "CALUMET COUNTY", "WI");
@@ -127,5 +133,20 @@ public class WICalumetCountyParser extends DispatchPrintrakParser {
   @Override
   public String getFilter() {
     return "Admin.Foxcomm@co.calumet.wi.us";
+  }
+  
+  @Override
+  protected boolean parseMsg(String body, Data data) {
+    
+    if (!super.parseMsg(body, data)) return false;
+    
+    // There are two address adjustments that need to be made.
+    // First need to insert a space into a N3345 type address
+    data.strAddress = HOUSE_NBR_PTN.matcher(data.strAddress).replaceFirst("$1 $2");
+    
+    // Next we have to replace "CTY TK" with "COUNTY RD"
+    data.strAddress = data.strAddress.replaceFirst("CTY TK", "COUNTY RD");
+    
+    return true;
   }
 }

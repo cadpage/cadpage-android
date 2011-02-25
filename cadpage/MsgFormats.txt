@@ -796,6 +796,11 @@ Sender: <elkco911@eccdomain.local>
 Need more samples 2/15
 62499 ST RD13 GOSHENAmbulance CallCLIN,M1J01/16/2011 10:46:33 : pos7 HARMOF   Geo Comment: 00120D  CLIN CEN  CLINTON BRICK MENNONITE CHURCH.....GO TO THE
 **********************************************************
+Washtenaw county, MI
+Contact: Jordan Burns <aatfd1224@gmail.com>
+Waiting for sample pages
+Contact 2/24/2011
+**********************************************************
 **********************************************************
 **********************************************************
 *********       Not County locations          ************
@@ -1075,9 +1080,6 @@ people who send out our paging for us.
 **********************************************************
 **********************************************************
 **********************************************************
-**********************************************************
-Washtenaw county, MI
-Contact: Jordan Burns <aatfd1224@gmail.com>
 **********************************************************
 Lexington & Rockbridge Counties VA
 Contact: Robert Jennette <robert.jennette@lexingtonfire.org>
