@@ -32,6 +32,7 @@ public class SmartAddressParserTest extends BaseParserTest {
   
   @Test
   public void testProblems() {
+    
     doTest(SKIP, "LA LA LA COUNTRY PLACE CT & W 16TH ST BEYOND",
     "ADDR:COUNTRY PLACE CT & W 16TH ST");
     
@@ -57,6 +58,20 @@ public class SmartAddressParserTest extends BaseParserTest {
         "1073 SMOKE 1421 BEVERLY DR BOSA NONA DRIVE",
         "CALL:1073 SMOKE",
         "ADDR:1421 BEVERLY DR");
+  }
+  
+  @Test
+  public void testRoadCityConflicts() {
+    doTest(ADDR, "300 KENSBURG ST KENSBURG EXTRA",
+        "ADDR:300 KENSBURG ST",
+        "CITY:KENSBURG");
+    doTest(ADDR, "100 BLACK ST XS: KENSBURG RD KENSBURG EXTRA",
+        "ADDR:100 BLACK ST",
+        "X:KENSBURG RD",
+        "CITY:KENSBURG");
+    doTest(ADDR, "KENSBURG RD & KENSBURG AVE KENSBURG EXTRA",
+        "ADDR:KENSBURG RD & KENSBURG AVE",
+        "CITY:KENSBURG");
   }
   
   @Test
