@@ -1,6 +1,8 @@
 package net.anei.cadpage.parsers.dispatch;
 
 import java.util.Properties;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import net.anei.cadpage.SmsMsgInfo.Data;
 import net.anei.cadpage.parsers.SmartAddressParser;
@@ -78,6 +80,15 @@ ANDERSON CO 911:17B1 >FALLS-ALS PRI1-FR 110 FRANKLIN RD ANDERSON HAWKINS, PAUL M
 ANDERSON CO 911:31 >UNCONSCIOUS/FAINTING 210 KIRK LN Apt: 11 Bldg PENDLETON6463347 MICHELLE DURHAM Map: Grids:0,0 Cad: 2011-0000004465
 ANDERSON CO 911:13A1 >DIABETIC-ALS PRI2 7900 HIGHWAY 76 PENDLETON OFFICER SUMMERS 934-3443 Map: Grids:0,0 Cad: 2011-0000004494
 
+Summer County, TN
+INITIAL.\nSC EMS COMMUNICATIONS:42 >NON-SPECIFIC DIAGNOSIS 521 SHUTE LN XS: SHORESIDE DR HENDERSONVILLE  MIKE 6158249869 Map: Grids:0,0
+INITIAL.\nSC EMS COMMUNICATIONS:50 >STROKE-CVA 114 MOONLIGHT DR HENDERSONVILLE AT&T MOBILITY 6153058788 Map: Grids:0,0
+INITIAL.\nSC EMS COMMUNICATIONS:2 >FIRE ALARM 1109 LAKE RISE OVERLOOK HENDERSONVILLE L., JOHN 6158264086 Map: Grids:0,0
+INITIAL.\nSC EMS COMMUNICATIONS:43 >OTHER-FIRE 209 BROOKHAVEN DR GALLATIN W., MYRA 6154529951 Map: Grids:0,0
+INITIAL.\nSC EMS COMMUNICATIONS:32 >HAZARDOUS MATERIALS 2079 MORGANS WAY GALLATIN Map: Grids:0,0
+INITIAL.\nSC EMS COMMUNICATIONS:10 >BREATHING PROBLEMS A 1080 BRADLEY RD GALLATIN E., ROGER D 6154528905 Map: Grids:0,0
+INITIAL.\nSC EMS COMMUNICATIONS:2 >FIRE ALARM 1005 LAKE RISE PL HENDERSONVILLE HAY, BRUCE 6158262033 Map: Grids:0,0
+
 */
 
 public class DispatchBParser extends SmartAddressParser {
@@ -85,6 +96,7 @@ public class DispatchBParser extends SmartAddressParser {
   private static final String[] FIXED_KEYWORDS = new String[]{"Map", "Grids", "Cad"};
   private static final String[] KEYWORDS = 
     new String[]{"Loc", "BOX", "Map", "Grids", "Cad"};
+  private static final Pattern PHONE_PTN = Pattern.compile(" (\\d{10})$");
   
   public DispatchBParser(String[] cityList, String defCity, String defState) {
     super(cityList, defCity, defState);
@@ -114,6 +126,11 @@ public class DispatchBParser extends SmartAddressParser {
     // Default is to ignore everything up to the first '>'
     int ipt = field.indexOf('>');
     if (ipt >= 0) field = field.substring(ipt+1);
+    Matcher match = PHONE_PTN.matcher(field);
+    if (match.find()) {
+      data.strPhone = match.group(1);
+      field = field.substring(0,match.start()).trim();
+    }
     parseAddress(StartType.START_CALL, field, data);
     data.strName = getLeft();
     return true;
@@ -127,12 +144,12 @@ public class DispatchBParser extends SmartAddressParser {
     body = "Loc: " + body;
     Properties props = parseMessage(body, KEYWORDS);
     
-    parseAddrField(props.getProperty("Loc", ""), data);
+    if (!parseAddrField(props.getProperty("Loc", ""), data)) return false;
     
     data.strBox = props.getProperty("BOX", "");
     data.strMap = props.getProperty("Map", "");
-    // Not using the Grids: keyword for now
-    data.strCallId = props.getProperty("Cad", "");
+    String callId = props.getProperty("Cad");
+    if (callId != null) data.strCallId = callId;
     
     return true;
   }

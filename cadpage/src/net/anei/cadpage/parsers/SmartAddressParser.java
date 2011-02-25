@@ -336,7 +336,12 @@ public abstract class SmartAddressParser extends SmsMsgParser {
       
       // Make sure any / or & character will parse by itself
       // Before we do that we have to protect the C/S cross street indicator
+      // Another disaster that needs to be prevented is breaking up AT&T into
+      // AT and an &
+      boolean att = address.contains("AT&T");
+      if (att) address = address.replaceAll("AT&T", "AT%T");
       address = address.replaceAll(" C/S ", " XS: ").replaceAll("/", " / ").replaceAll("&", " & ");
+      if (att) address = address.replaceAll("AT%T", "AT&T");
       
       // Make sure any colon keyword parsers by itself
       address = address.replaceAll(":", ": ");
