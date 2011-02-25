@@ -1,0 +1,51 @@
+Cool features under consideration
+
+*******************************************************************************
+DONE Issue #27.  Add preference config item for a phone number that will be autoamatically
+dialed when user selects 'Ack' menu item.
+*******************************************************************************
+Issue #28.  Add some kind of feature to notify users when a new version 
+of CadPage is available (Derrick)
+*******************************************************************************
+Complete implementation of smart address parser and use it to finish rest
+of new district requests (Ken)
+*******************************************************************************
+Smarten up the preference menu list items so they display the selected value in
+option summary.  Users can see what the value is without going into the list.  
+The Button configuration items already do this, just a mater of creating a new
+base class that supports that as a general feature.
+*******************************************************************************
+Toggle menu item that switches the popup display between the current formated
+display and a raw unformatted message display.  Useful if user want to look for
+information in the message that isn't picked up by our parsers.
+*******************************************************************************
+Add option to display phone numbers in the call description.  Very few formats
+include callback phone numbers, and I'm not sure putting them on the display
+screen is a good idea, but some users might want it.  Any phone number in the
+call description should automatically convert to a link that initiates the 
+phone call.
+*******************************************************************************
+Convert the current location list configuration item to a two stage tree where
+users first specify a state and then a location within that state.  This is
+going to be challenging.  Isn't really needed now, but as our supported location
+list continues to expand, it is going to be absolutely necessary at some point.
+*******************************************************************************
+Add default mapping city and state config items.  Useful in cases where the
+defaults supplied by the parser are inadequate.  This can help with small 
+districts where the parser covers a lot of extra territory with many duplicate
+addresses.  Amityville in particular.
+*******************************************************************************
+Reenable the Donate feature with Derricks new Paypal URL.
+*******************************************************************************
+Add some logic to identify repeat pages for same incident.  Usually this will
+just replace the previous entry in the history list, but some parsers will
+combine information from both calls.  (That last is harder that it sounds, we have
+to keep information from the original message somewhere). 
+*******************************************************************************
+Set up a comprehensive test suite!!!!!
+*******************************************************************************
+Add supplemental information support for existing parsers where that information
+is available.
+*******************************************************************************
+Comprehensive user manual would be nice
+*******************************************************************************
