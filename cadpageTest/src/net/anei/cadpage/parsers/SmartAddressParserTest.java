@@ -72,6 +72,9 @@ public class SmartAddressParserTest extends BaseParserTest {
     doTest(ADDR, "KENSBURG RD & KENSBURG AVE KENSBURG EXTRA",
         "ADDR:KENSBURG RD & KENSBURG AVE",
         "CITY:KENSBURG");
+    doTest(ADDR, "300 N KENSBURG ST KENSBURG EXTRA",
+        "ADDR:300 N KENSBURG ST",
+        "CITY:KENSBURG");
   }
   
   @Test
