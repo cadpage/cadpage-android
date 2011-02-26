@@ -26,10 +26,8 @@
       android:gravity="center_vertical"
       android:autoLink="phone"
       android:textAppearance="?android:attr/textAppearanceLarge"
-      android:maxLines="2"
       android:layout_height="wrap_content"
       android:text="Text Here"
-      android:ellipsize="end"
       android:paddingBottom="2dp" />
     <TextView
       android:id="@+id/HeaderTextView"

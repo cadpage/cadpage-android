@@ -30,7 +30,8 @@
       android:layout_width="fill_parent"
       android:gravity="center"
       android:paddingRight="10dp"
-      android:paddingLeft="10dp" />
+      android:paddingLeft="10dp"
+      android:scrollbars="vertical" />
   </ScrollView>
   <ViewStub
     android:id="@+id/MmsViewStub"
