@@ -645,6 +645,10 @@ Loc: 118 S 4TH ST YNGWD_B X-sts: CHESTNUT ST & LOCUST ST  Inc#:F11000861 NATURE:
 Loc: 400 PAINTERSVILLE RD HEMP_T: @SUPER VALUE PERISHABLE WAREHOUSE X-sts: S CENTER AVE &   Inc#:F11001007 NATURE: AFA  CALLER: ADT....KANDRA TOC: 06:46:18 Comments: GENERAL & DRY RISER #9 WATER FLOW WATC  Disp: E28,E25-2,TL26,E27
 Loc: 325 N CENTER AVE N_STANTN_B: @KFC X-sts: WESTMORE AVE & HIGHLAND AVE Inc#:F11001017 NATURE: FIRE  CALLER: STEVEN NELSON TOC: 10:33:44 Comments: WATER IS COMING IN THRU THE LIGHTS POSS ELECTRICAL FIRE HE SAW SMOPKE IN THE KITC E26-1,E25-2,E19,E27
 ***************************************************************************
+Lexington & Rockbridge Counties VA (VALexingtonRockbridgeCounty)
+[LCAD] Type: EMS-TRNSPORT Loc: 429 W NELSON ST Units: LXRS1, City: LEXINGTON 1/27/2011 2:10:08 PM SPORT. BRUSHY 1\nMessage Created 1/27/2011 2:10:00 PM
+[LCAD] Type: EMS-PAIN Loc: GREEN HILL APT Units: LXRS1, City: LEXINGTON 1/27/2011 1:22:32 AM **Nearest Address: 475 FOREST GROVE RD, LEXINGTON49 YOF HAVING A PANIC ATTACK & CAN`T FEEL LEGS.OPERATE BRUSHY 1\nMessage Created 1/27/2011 1:22:00 AM
+[LCAD] Type: EMS-FALL Loc: 431 W NELSON ST Units: CO09A,LR17, City: LEXINGTON 1/26/2011 5:39:37 PM **Nearest Address: 1305 ENFIELD RD, LEXINGTON38 YO MALE HIT A ROCK WALL GASHES SWELLING[01/26/2011 17:39:45 : pos1 : LHUCH]SLIDING WITH THE KIDS\nMessage Created 1/26/2011 5:45:00 PM
 ***************************************************************************
 ***************************************************************************
 ***************************************************************************
@@ -1081,36 +1085,6 @@ people who send out our paging for us.
 **********************************************************
 **********************************************************
 **********************************************************
-Lexington & Rockbridge Counties VA
-Contact: Robert Jennette <robert.jennette@lexingtonfire.org>
-Sender: @c-msg.net
-
-[LCAD] Type: EMS-TRNSPORT Loc: 429 W NELSON ST Units: LXRS1, City: LEXINGTON 1/27/2011 2:10:08 PM SPORT. BRUSHY 1
-Message Created 1/27/2011 2:10:00 PM
-
-[LCAD] Type: EMS-PAIN Loc: GREEN HILL APT Units: LXRS1, City: LEXINGTON 1/27/2011 1:22:32 AM **Nearest Address: 475 FOREST GROVE RD, LEXINGTON49 YOF HAVING A PANIC ATTACK & CAN`T FEEL LEGS.OPERATE BRUSHY 1
-Message Created 1/27/2011 1:22:00 AM
-
-[LCAD] Type: EMS-FALL Loc: 431 W NELSON ST Units: CO09A,LR17, City: LEXINGTON 1/26/2011 5:39:37 PM **Nearest Address: 1305 ENFIELD RD, LEXINGTON38 YO MALE HIT A ROCK WALL GASHES SWELLING[01/26/2011 17:39:45 : pos1 : LHUCH]SLIDING WITH THE KIDS
-Message Created 1/26/2011 5:45:00 PM
-
-[LCAD] Type: EMS-FALL Loc: 431 W NELSON ST Units: LXRS1, City: LEXINGTON 1/26/2011 5:39:37 PM **Nearest Address: 1305 ENFIELD RD, LEXINGTON38 YO MALE HIT A ROCK WALL GASHES SWELLING
-Message Created 1/26/2011 5:39:00 PM
-
-[LCAD] Type: ACCIDENT MVC Loc: 60 WILLOW SPRINGS RD Units: LXRS2, City: LEXINGTON 1/26/2011 2:39:40 PM BLEEDING FROM HEAD AND ARM OTHER SIDE OF DAYS INN D2
-Message Created 1/26/2011 2:39:00 PM
-
-[LCAD] Type: ACCIDENT MVC Loc: MAURY RIVER RD Units: CO09A, City: LEXINGTON 1/26/2011 2:37:32 PM **Nearest Address: 1305 ENFIELD RD, LEXINGTONSINGLE VEHICLE OVERTURNED, APPROX 2 MILES LONGS CAMPGROUND
-Message Created 1/26/2011 2:37:00 PM
-
-[LCAD] Type: ACCIDENT MVC Loc: 81 SB 201 SB Units: B75,EM1,LXRS1,R73, City: FAIRFIELD 1/26/2011 2:23:09 PM **Nearest Address: NoneALTIMA GREY FEMALE BACK PAIN
-Message Created 1/26/2011 2:34:00 PM
-
-[LCAD] Type: ACCIDENT MVC Loc: 60 W 1/2 W DAYS INN AND SHELL STATION Units: CO09A,LXRS1, City: LEXINGTON 1/26/2011 12:55:37 PM **Nearest Address: NoneSILVER VAN SLID OFF ROAD OVER EMBANKMENT ON IT HIT TREES UNKNOWN INJURIES
-Message Created 1/26/2011 12:56:00 PM
-
-[LCAD] Type: EMS-HEM Loc: 160 KENDAL DR Units: LXRS1, City: LEXINGTON 1/26/2011 11:00:36 AM D FOR MALE RECTAL BLEED BORDEN CENTER RM106
-Message Created 1/26/2011 11:00:00 AM
 **********************************************************
 Dougherty County, Albany Ga
 Contact: Darren Eubanks <medic7046@gmail.com>
