@@ -23,6 +23,11 @@ Sender: msg@cfmsg.com
 */
 
 public class MDOceanCityParser extends FieldProgramParser {
+
+  private String address1 = null;
+  private String address2 = null;
+  private int addrStat1 = -1;
+  private int addrStat2 = -1;
   
   @Override
   public String getFilter() {
@@ -31,7 +36,7 @@ public class MDOceanCityParser extends FieldProgramParser {
   
   public MDOceanCityParser() {
     super("OCEAN CITY", "MD",
-           "Nature:CALL! LOC:ADDR! PLACE ADD:ADDR Cross_STS:X");
+           "Nature:CALL! LOC:ADDR PLACE ADD:ADDR Cross_STS:X");
   }
   
   @Override
@@ -41,20 +46,32 @@ public class MDOceanCityParser extends FieldProgramParser {
     
     // The OCMD city codes just confused things, better to get rid of them
     body = body.replaceAll(" OCMD ", " ");
-    return parseFields(body.split(" *- *"), data);
+    if (! parseFields(body.split(" *- *"), data)) return false;
+    
+    // Pick the best address as the address
+    // If no place name was found, use the second best address
+    if (address1 == null) return false;
+    parseAddress(address1, data);
+    if (data.strPlace.length() == 0 && address2 != null) data.strPlace = address2;
+    return true;
   }
   
+  // This text fromat has two address fields, and the real address might
+  // be in either one.
   private class MyAddressField extends AddressField {
 
     @Override
     public void parse(String field, Data data) {
-      parseAddress(StartType.START_ADDR, field, data);
-      Parser p = new Parser(getLeft());
-      data.strPlace = p.getOptional(',');
-      field = p.get();
-      Result res = parseAddress(StartType.START_ADDR, field);
-      res.getCrossData(data);
-      data.strCity = res.getLeft();
+      int status = checkAddress(field);
+      if (address1 == null || status > addrStat1) {
+        address2 = address1;
+        addrStat2 = addrStat1;
+        address1 = field;
+        addrStat1 = status;
+      } else if (address2 == null || status > addrStat2) {
+        address2 = field;
+        addrStat2 = status;
+      }
     }
 
     @Override
