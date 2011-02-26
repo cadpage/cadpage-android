@@ -268,35 +268,35 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
       case DIALOG_DONATE:
         LayoutInflater factory = getLayoutInflater();
         final View donateView = factory.inflate(R.layout.donate, null);
-
-        PayPal ppObj = PayPal.initWithAppID(this, "APP-80W284485P519543T", PayPal.ENV_NONE);
-        CheckoutButton launchPayPalButton = ppObj.getCheckoutButton(this, PayPal.BUTTON_278x43, CheckoutButton.TEXT_DONATE);
-        
-        //launchPayPalButton = (Button) donateView.findViewById(R.id.DonatePaypalButton);
-        launchPayPalButton.setOnClickListener(new OnClickListener() {
-          public void onClick(View v) {
-           // Intent i = new Intent(Intent.ACTION_VIEW);
-           // i.setData(SmsPopupUtils.DONATE_PAYPAL_URI);
-           // SmsPopupConfigActivity.this.startActivity(i);
-            
-            PayPalPayment newPayment = new PayPalPayment();
-            newPayment.setCurrencyType("USD");
-            newPayment.setRecipient("support@cadpage.org");
-            Intent checkoutIntent = PayPal.getInstance().checkout(newPayment, getBaseContext());
-            checkoutIntent.putExtra(PayPalActivity.EXTRA_PAYMENT_INFO, newPayment);
-            startActivityForResult(checkoutIntent, 1);
-          }
-
-          public void onActivityResults(int requestCode, int resultCode, Intent data) {
-            switch(resultCode) {
-            case Activity.RESULT_OK:
-            break;
-            case Activity.RESULT_CANCELED:
-            break;
-            case PayPalActivity.RESULT_FAILURE:
-            }
-          }
-        });
+//
+//        PayPal ppObj = PayPal.initWithAppID(this, "APP-80W284485P519543T", PayPal.ENV_NONE);
+//        CheckoutButton launchPayPalButton = ppObj.getCheckoutButton(this, PayPal.BUTTON_278x43, CheckoutButton.TEXT_DONATE);
+//        
+//        //launchPayPalButton = (Button) donateView.findViewById(R.id.DonatePaypalButton);
+//        launchPayPalButton.setOnClickListener(new OnClickListener() {
+//          public void onClick(View v) {
+//           // Intent i = new Intent(Intent.ACTION_VIEW);
+//           // i.setData(SmsPopupUtils.DONATE_PAYPAL_URI);
+//           // SmsPopupConfigActivity.this.startActivity(i);
+//            
+//            PayPalPayment newPayment = new PayPalPayment();
+//            newPayment.setCurrencyType("USD");
+//            newPayment.setRecipient("support@cadpage.org");
+//            Intent checkoutIntent = PayPal.getInstance().checkout(newPayment, getBaseContext());
+//            checkoutIntent.putExtra(PayPalActivity.EXTRA_PAYMENT_INFO, newPayment);
+//            startActivityForResult(checkoutIntent, 1);
+//          }
+//
+//          public void onActivityResults(int requestCode, int resultCode, Intent data) {
+//            switch(resultCode) {
+//            case Activity.RESULT_OK:
+//            break;
+//            case Activity.RESULT_CANCELED:
+//            break;
+//            case PayPalActivity.RESULT_FAILURE:
+//            }
+//          }
+//        });
 
         return new AlertDialog.Builder(this)
         .setIcon(R.drawable.ic_launcher)
