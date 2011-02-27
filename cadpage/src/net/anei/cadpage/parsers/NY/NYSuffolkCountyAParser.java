@@ -35,6 +35,11 @@ TYPE: ALARMS LOC: 127 CRYSTAL BEACH BLVD MORICH  CROSS: BEVERLY CT / CODE: 52-B-
 Manorville Community Ambulance, NY
 Contact: Christopher Greco <cgreco31@gmail.com>
 TYPE: PSYCHIATRIC / ABNORMAL BEHAVIOR / SUICIDE LOC: 79 ABBOTT AV MASTIC ***_VIP_***: CROSS: ELGIN ST / FOXCROFT ST CODE: 25-B-6 TIME: 14:36:05
+
+Oakdale
+Contact: Michael Heerbrandt <wsfd145@gmail.com>
+Sender: PAGING@WSFD.COM
+TYPE: ALARMS LOC: 100 PATRICIA CT OAKDAL @OAKDALE APARTMENTS    APARTMENT 3 CROSS: RACE PL /  CODE: 52-C-1S TIME: 19:16:55
 */
 
 public class NYSuffolkCountyAParser extends SmartAddressParser {
@@ -51,6 +56,7 @@ public class NYSuffolkCountyAParser extends SmartAddressParser {
       "MASTIC", "Mastic",
       "MORICH", "Moriches",
       "NBAYSH", "Bay Shore",
+      "OAKDAL", "Oakdale",
       "SHIRLE", "Shirley"
   });
   
