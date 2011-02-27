@@ -650,11 +650,17 @@ Lexington & Rockbridge Counties VA (VALexingtonRockbridgeCounty)
 [LCAD] Type: EMS-PAIN Loc: GREEN HILL APT Units: LXRS1, City: LEXINGTON 1/27/2011 1:22:32 AM **Nearest Address: 475 FOREST GROVE RD, LEXINGTON49 YOF HAVING A PANIC ATTACK & CAN`T FEEL LEGS.OPERATE BRUSHY 1\nMessage Created 1/27/2011 1:22:00 AM
 [LCAD] Type: EMS-FALL Loc: 431 W NELSON ST Units: CO09A,LR17, City: LEXINGTON 1/26/2011 5:39:37 PM **Nearest Address: 1305 ENFIELD RD, LEXINGTON38 YO MALE HIT A ROCK WALL GASHES SWELLING[01/26/2011 17:39:45 : pos1 : LHUCH]SLIDING WITH THE KIDS\nMessage Created 1/26/2011 5:45:00 PM
 ***************************************************************************
-Dougherty County, Albany Ga
+Dougherty County, GA (GADoughertyCountyParser)
 110126 152104110260350/01-26-11/15:20:15/ALTERED MENTAL STATE/1906 LULLWATER RD/ALBANY/FOREST GLEN DR/SUMMIT DR/E01/73YOF C/B/MED5/
 110126 191509110260454/01-26-11/19:12:59/PERSON ILL/1905 BARNESDALE WAY/ALBANY/ROBINHOOD RD/LADY MARION LN/E01/58YM C/B  LOTS OF PAIN,PAIN IN FEET/MED5/
 110126 125725110260273/01-26-11/12:57:03/STROKE/803 BEECHWOOD DR/ALBANY/WHITE OAK DR/VINE LN/E01/MED5/
 ***************************************************************************
+Cumberland County, NC (NCCumberlandCountyParser)
+[S] DEERFIELD (N)C4;01/28/2011 13:19:07;POSS DANGEROUS BODY AREA FALL;ST22;441 WAPITI DR;WILDERNESS DR
+[S] SPRING LAKE (PLAT BOOK 11, PAGE 3)+/- (N)C4;01/27/2011 22:09:28;CLAMMY BREATHING PROBLEMS;ST22;115-401 LAKE AVE;S FIRST ST;GATEWAY IN
+[S]  (N)C4;01/27/2011 17:08:27;UNKNOWN STATUS TRAFFIC ACCIDEN;ST22;670 LILLINGTON HWY;HOLLAND DR;WALMART
+[S] OVERHILLS PARK (N)C4;01/27/2011 15:20:35;ABNORMAL BREATHING SICK PERSON;ST22;3110 HUNTLEY ST;ROBBIE CIR
+[S] R G CREECH (N)C4;01/27/2011 13:23:42;WIRES DOWN (NO SMOKE OR ARC);ST22;200 RUPE ST;SCARBOROUGH ST
 ***************************************************************************
 ***************************************************************************
 ***************************************************************************
@@ -1094,16 +1100,6 @@ people who send out our paging for us.
 **********************************************************
 **********************************************************
 **********************************************************
-Cumberland County, NC
-Contact: Travis Walker <tjwalker2212@gmail.com>
-Sender: cad@co.cumberland.nc.us
-ST22 is station ID
-First field is not a reliable town name that Google recognizes, maybe place name would be best
-[S] DEERFIELD (N)C4;01/28/2011 13:19:07;POSS DANGEROUS BODY AREA FALL;ST22;441 WAPITI DR;WILDERNESS DR
-[S] SPRING LAKE (PLAT BOOK 11, PAGE 3)+/- (N)C4;01/27/2011 22:09:28;CLAMMY BREATHING PROBLEMS;ST22;115-401 LAKE AVE;S FIRST ST;GATEWAY IN
-[S]  (N)C4;01/27/2011 17:08:27;UNKNOWN STATUS TRAFFIC ACCIDEN;ST22;670 LILLINGTON HWY;HOLLAND DR;WALMART
-[S] OVERHILLS PARK (N)C4;01/27/2011 15:20:35;ABNORMAL BREATHING SICK PERSON;ST22;3110 HUNTLEY ST;ROBBIE CIR
-[S] R G CREECH (N)C4;01/27/2011 13:23:42;WIRES DOWN (NO SMOKE OR ARC);ST22;200 RUPE ST;SCARBOROUGH ST
 **********************************************************
 Genesee County, MI
 Contact: JUSTIN BURSE <jburse@emergencymedstat.com>
