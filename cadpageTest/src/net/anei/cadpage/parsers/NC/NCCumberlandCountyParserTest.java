@@ -1,0 +1,68 @@
+package net.anei.cadpage.parsers.NC;
+
+import net.anei.cadpage.parsers.BaseParserTest;
+
+import org.junit.Test;
+
+
+public class NCCumberlandCountyParserTest extends BaseParserTest {
+  
+  public NCCumberlandCountyParserTest() {
+    setParser(new NCCumberlandCountyParser(), "CUMBERLAND COUNTY", "NC");
+  }
+  
+  @Test
+  public void testParser() {
+
+    doTest("T1",
+        "[S] DEERFIELD (N)C4;01/28/2011 13:19:07;POSS DANGEROUS BODY AREA FALL;ST22;441 WAPITI DR;WILDERNESS DR",
+        "PLACE:DEERFIELD",
+        "UNIT:C4",
+        "CALL:POSS DANGEROUS BODY AREA FALL",
+        "SRC:ST22",
+        "ADDR:441 WAPITI DR",
+        "X:WILDERNESS DR");
+
+    doTest("T2",
+        "[S] SPRING LAKE (PLAT BOOK 11, PAGE 3)+/- (N)C4;01/27/2011 22:09:28;CLAMMY BREATHING PROBLEMS;ST22;115-401 LAKE AVE;S FIRST ST;GATEWAY IN",
+        "PLACE:GATEWAY IN",
+        "UNIT:C4",
+        "CALL:CLAMMY BREATHING PROBLEMS",
+        "SRC:ST22",
+        "ADDR:115-401 LAKE AVE",
+        "X:S FIRST ST");
+
+    doTest("T3",
+        "[S]  (N)C4;01/27/2011 17:08:27;UNKNOWN STATUS TRAFFIC ACCIDEN;ST22;670 LILLINGTON HWY;HOLLAND DR;WALMART",
+        "PLACE:WALMART",
+        "UNIT:C4",
+        "CALL:UNKNOWN STATUS TRAFFIC ACCIDEN",
+        "SRC:ST22",
+        "ADDR:670 LILLINGTON HWY",
+        "X:HOLLAND DR");
+
+    doTest("T4",
+        "[S] OVERHILLS PARK (N)C4;01/27/2011 15:20:35;ABNORMAL BREATHING SICK PERSON;ST22;3110 HUNTLEY ST;ROBBIE CIR",
+        "PLACE:OVERHILLS PARK",
+        "UNIT:C4",
+        "CALL:ABNORMAL BREATHING SICK PERSON",
+        "SRC:ST22",
+        "ADDR:3110 HUNTLEY ST",
+        "X:ROBBIE CIR");
+
+    doTest("T5",
+        "[S] R G CREECH (N)C4;01/27/2011 13:23:42;WIRES DOWN (NO SMOKE OR ARC);ST22;200 RUPE ST;SCARBOROUGH ST",
+        "PLACE:R G CREECH",
+        "UNIT:C4",
+        "CALL:WIRES DOWN (NO SMOKE OR ARC)",
+        "SRC:ST22",
+        "ADDR:200 RUPE ST",
+        "X:SCARBOROUGH ST");
+
+  }
+  
+
+  public static void main(String[] args) {
+    new NCCumberlandCountyParserTest().generateTests("T1");
+  }
+}
