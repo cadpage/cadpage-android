@@ -50,10 +50,18 @@ public class OHClermontCountyParserTest extends BaseParserTest {
         "CITY:WASHINGTON TOWNSHIP",
         "NAME:LESTER,CURTIS",
         "ID:2011-0000016117");
+
+    doTest("T5",
+        "29B01 >TRAFF OR TRANSPT ACC/MVA W/INJ BETHEL HYGIENE RD&amp;SR 133 XS: SR 133 TATE TOWNSHIP Cad: 2011-0000016983",
+        "CALL:TRAFF OR TRANSPT ACC/MVA W/INJ BETHEL",
+        "ADDR:HYGIENE RD & SR 133",
+        "X:SR 133",
+        "CITY:TATE TOWNSHIP",
+        "ID:2011-0000016983");
       
   }
   
   public static void main(String[] args) {
-    new OHClermontCountyParserTest().generateTests("T1", "CALL ADDR X CITY NAME ID");
+    new OHClermontCountyParserTest().generateTests("T5", "CALL ADDR X CITY NAME ID");
   }
 }
