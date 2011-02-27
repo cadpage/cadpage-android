@@ -6,9 +6,9 @@ import net.anei.cadpage.parsers.NY.NYSuffolkCountyAParser;
 import org.junit.Test;
 
 
-public class NYSuffolkCountyATest extends BaseParserTest {
+public class NYSuffolkCountyAParserTest extends BaseParserTest {
   
-  public NYSuffolkCountyATest() {
+  public NYSuffolkCountyAParserTest() {
     setParser(new NYSuffolkCountyAParser(), "SUFFOLK COUNTY", "NY");
   }
   
@@ -123,5 +123,18 @@ public class NYSuffolkCountyATest extends BaseParserTest {
         "X:ELGIN ST / FOXCROFT ST",
         "CODE:25-B-6");
 
+
+    doTest("T17",
+        "TYPE: ALARMS LOC: 100 PATRICIA CT OAKDAL @OAKDALE APARTMENTS    APARTMENT 3 CROSS: RACE PL /  CODE: 52-C-1S TIME: 19:16:55",
+        "CALL:ALARMS",
+        "ADDR:100 PATRICIA CT",
+        "CITY:Oakdale",
+        "PLACE:OAKDALE APARTMENTS    APARTMENT 3",
+        "X:RACE PL /",
+        "CODE:52-C-1S");
+  }
+  
+  public static void main(String[] args) {
+    new NYSuffolkCountyAParserTest().generateTests("T18", "CALL ADDR CITY PLACE X CODE");
   }
 }
