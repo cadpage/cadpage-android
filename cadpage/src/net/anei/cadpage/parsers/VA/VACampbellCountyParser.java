@@ -8,6 +8,8 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.SmsMsgInfo.Data;
+import net.anei.cadpage.parsers.SmartAddressParser;
+
 /*
 DAPRO Systems http://www.daprosystems.com/ (This version is different enough that I did not use the builtin dapro
 Campbell County, VA 
@@ -19,7 +21,6 @@ MAILBOX:SQ02 UNRESPONSIVE 000218 LAKE FOREST DR CFS# 2010-060825
 MAILBOX:SQ02 HANGUP 911 000381 HORIZON DR CFS# 2010-060777 FEMALE ADVISED SOMETHING ABOUT THE RESCUE SQ. LINE DISCONNECTED
 
 */
-import net.anei.cadpage.parsers.SmartAddressParser;
 
 public class VACampbellCountyParser extends SmartAddressParser {
   
