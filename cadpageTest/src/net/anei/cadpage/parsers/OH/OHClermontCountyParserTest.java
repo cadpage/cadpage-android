@@ -58,10 +58,28 @@ public class OHClermontCountyParserTest extends BaseParserTest {
         "X:SR 133",
         "CITY:TATE TOWNSHIP",
         "ID:2011-0000016983");
-      
+
+    doTest("T6",
+        "29B01 >TRAFF OR TRANSPT ACC/MVA W/INJ LAUREL PT ISABEL RD&BECKELHYMER RD XS: BECKELHYMER RD WASHINGTON TOWNSHIP HAYMOND,LINDA S Cad: 2011-0000017231",
+        "CALL:TRAFF OR TRANSPT ACC/MVA W/INJ LAUREL PT",
+        "ADDR:ISABEL RD & BECKELHYMER RD",
+        "X:BECKELHYMER RD",
+        "CITY:WASHINGTON TOWNSHIP",
+        "NAME:HAYMOND,LINDA S",
+        "ID:2011-0000017231");
+
+    doTest("T7",
+        "FWIRES>WIRES DOWN E OSBORNE ST&N EAST ST XS: N EAST ST BETHEL JEFF W/RUMPKE Cad: 2011-0000017232",
+        "CALL:WIRES DOWN",
+        "ADDR:E OSBORNE ST & N EAST ST",
+        "X:N EAST ST",
+        "CITY:BETHEL",
+        "NAME:JEFF W / RUMPKE",
+        "ID:2011-0000017232");
+     
   }
   
   public static void main(String[] args) {
-    new OHClermontCountyParserTest().generateTests("T5", "CALL ADDR X CITY NAME ID");
+    new OHClermontCountyParserTest().generateTests("T6", "CALL ADDR X CITY NAME ID");
   }
 }
