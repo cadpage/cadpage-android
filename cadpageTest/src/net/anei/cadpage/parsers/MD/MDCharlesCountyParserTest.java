@@ -146,11 +146,21 @@ public class MDCharlesCountyParserTest extends BaseParserTest {
         "ADDR:6445 MASON SPRINGS RD",
         "CODE:15 A4",
         "INFO:HALLWAY S/D, PHONE WAS PUT DOWN, N");
+
+    doTest("T18",
+        "(*CAD*) [CAD] ASSIST THE AMBULANCE, MISC 10200 LA PLATA RD (RT 488), CCNH 109B 17 H6-K4 NEEDED FOR MANPOWER F110610005 1103803 11:10",
+        "CALL:ASSIST THE",
+        "UNIT:AMBULANCE, MISC",
+        "ADDR:10200 LA PLATA RD (RT 488)",
+        "PLACE:CCNH 109B",
+        "CODE:17 H6",
+        "INFO:-K4 NEEDED FOR MANPOWER",
+        "ID:F110610005");
   
   }
     
   public static void main(String[] args) {
-    new MDCharlesCountyParserTest().generateTests("T1", "CALL UNIT ADDR PLACE CODE INFO ID");
+    new MDCharlesCountyParserTest().generateTests("T18", "CALL UNIT ADDR PLACE CODE INFO ID");
   }
 
 }
