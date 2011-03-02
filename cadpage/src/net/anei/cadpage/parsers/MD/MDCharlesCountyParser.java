@@ -33,11 +33,13 @@ Subject:*CAD*\n[CAD] MULTI FAMILY HOUSE FIRE, TOWNHOUSE, M/F, APARTMENT, 1 HICKO
 Subject:*CAD*\n[CAD] MULTI FAMILY HOUSE FIRE, TOWNHOUSE, M/F, APARTMENT, 28 FAIRHILL LN 6 H6 ODER OF SMOKE IN EQUIPMENT ROOM. F10338000
 Subject:*CAD*\n[CAD] AFA - SINGLE FAMILY DWELLING, FIRE ALARM, S/F HOUSE 6445 MASON SPRINGS RD 15 A4 HALLWAY S/D, PHONE WAS PUT DOWN, N
 
+(*CAD*) [CAD] ASSIST THE AMBULANCE, MISC 10200 LA PLATA RD (RT 488), CCNH 109B 17 H6-K4 NEEDED FOR MANPOWER F110610005 1103803 11:10
+
  */
 
 public class MDCharlesCountyParser extends SmartAddressParser {
   
-  private static final Pattern UNIT_PATTERN = Pattern.compile("(,? +(EMS|ALS|BLS|APPARATUS|TRUCK|AMBULANCE|MOTORCYCLE|ATV|BICYCLE|BIKE|\\d{1,2}[A-D]))+");
+  private static final Pattern UNIT_PATTERN = Pattern.compile("(,? +(EMS|ALS|BLS|APPARATUS|TRUCK|AMBULANCE|MOTORCYCLE|ATV|BICYCLE|BIKE|MISC|\\d{1,2}[A-D]))+");
   private static final Pattern CODE_PATTERN = Pattern.compile("\\b\\d{1,2} [A-Z]\\d{1,2}\\b");
   private static final Pattern ID_PATTERN = Pattern.compile("\\bF\\d{9}\\b");
   

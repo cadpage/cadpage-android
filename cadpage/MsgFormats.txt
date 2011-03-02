@@ -1211,9 +1211,16 @@ Contact: Daniel Buschmann <wr63hiway@gmail.com>, la41hiway@yahoo.com, 631-484-56
 Sender: 911@co.sullivan.ny.us <From%3A911@co.sullivan.ny.us>
 (911 Page) 09:33 Type: E-26A Sick Person Loc: 25 CARRIER X: No Cross Streets Found V: V/Liberty CN:
 (911 Page) 06:53 Type: E-13A Diabetic Problem Loc: 159 N MAIN X: No Cross Streets Found V: V/Liberty CN:
-911 page 09;17 type: E-29B MVA LOC:STHY 52 X: HYSANA RD V: LIBERTY CN:
+(911 page 09;17 type: E-29B MVA LOC:STHY 52 X: HYSANA RD V: LIBERTY CN:
 (911 page) 13:25 type:E-6D Breathimg Problem Loc: 124 Hunter Lake Dr X: Dead End/ Lily Pond Rd, Hunter Lake Rd V: Rockland CN:
-
+(911 Page) 10:20 Type: E-17A Fall Victim Loc: 27 ACADEMY ST X: CHESTNUT ST / ST PAULS PL V: V/Liberty CN:
+(911 Page) 10:03 Type: E-33C Transfer/Interfacility Loc: 170 LAKE ST X: CARRIER ST / STHY 55, W LAKE ST V: V/Liberty CN:
+(911 Page) 09:31 Type: E-33A Transfer/Interfacility Loc: 170 LAKE ST X: CARRIER ST / STHY 55, W LAKE ST V: V/Liberty CN:
+(911 Page) 09:18 Type: E-33C Transfer/Interfacility Loc: 170 LAKE ST X: CARRIER ST / STHY 55, W LAKE ST V: V/Liberty CN:
+(911 Page) 13:49 Type: E-10D Chest Pain Loc: 170 LAKE ST X: CARRIER ST / STHY 55, W LAKE ST V: V/Liberty CN:
+(911 Page) 13:38 Type: E-21B Hemorrhage/Laceration Loc: 36 S MAIN ST X: JOHN ST / DARBEE LN, N MAIN ST, CHESTNUT ST V: V/Liberty CN:
+(911 Page) 12:35 Type: E- 6D Breathing Problem Loc: 256 SUNSET LAKE RD X: COMMUNITY LN / AIRPORT RD V: Liberty CN:
+(911 Page) 10:20 Type: E-17A Fall Victim Loc: 27 ACADEMY ST X: CHESTNUT ST / ST PAULS PL V: V/Liberty CN:
 **********************************************************
 Carroll County, MD
 Contact: Brett Pearce <brett.a.pearce@gmail.com>
