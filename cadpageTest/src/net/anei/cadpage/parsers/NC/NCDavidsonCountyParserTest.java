@@ -91,6 +91,12 @@ public class NCDavidsonCountyParserTest extends BaseParserTest {
         "CALL:Fire Under Control",
         "ADDR:N COUNTY HOME RD & BRIAR PATCH DR",
         "ID:3473996166");
+
+    doTest("T24",
+        "  / CAD:Co Fire Tac5 for call;I 85 S/MM 96; LEX;3367062145",
+        "CALL:Co Fire Tac5 for call",
+        "ADDR:I 85 S & MM 96",
+        "ID:3367062145");
   }
   
   public static void main(String[] args) {
