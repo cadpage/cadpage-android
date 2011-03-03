@@ -5,9 +5,9 @@ import net.anei.cadpage.parsers.BaseParserTest;
 import org.junit.Test;
 
 
-public class GADoughertyParserTest extends BaseParserTest {
+public class GADoughertyCountyParserTest extends BaseParserTest {
   
-  public GADoughertyParserTest() {
+  public GADoughertyCountyParserTest() {
     setParser(new GADoughertyCountyParser(), "DOUGHERTY COUNTY", "GA");
   }
   
@@ -78,6 +78,6 @@ public class GADoughertyParserTest extends BaseParserTest {
   }
   
   public static void main(String[] args) {
-    new GADoughertyParserTest().generateTests("T1");
+    new GADoughertyCountyParserTest().generateTests("T1");
   }
 }
