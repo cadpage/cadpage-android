@@ -667,6 +667,10 @@ Cumberland County, NC (NCCumberlandCountyParser)
 [S] OVERHILLS PARK (N)C4;01/27/2011 15:20:35;ABNORMAL BREATHING SICK PERSON;ST22;3110 HUNTLEY ST;ROBBIE CIR
 [S] R G CREECH (N)C4;01/27/2011 13:23:42;WIRES DOWN (NO SMOKE OR ARC);ST22;200 RUPE ST;SCARBOROUGH ST
 ***************************************************************************
+Sullivan County, NY (NYSulivanCountyParser)
+(911 Page) 09:33 Type: E-26A Sick Person Loc: 25 CARRIER X: No Cross Streets Found V: V/Liberty CN:
+(911 Page) 06:53 Type: E-13A Diabetic Problem Loc: 159 N MAIN X: No Cross Streets Found V: V/Liberty CN:
+(911 Page) 09;17 Type: E-29B MVA Loc:STHY 52 X: HYSANA RD V: LIBERTY CN:
 ***************************************************************************
 ***************************************************************************
 ***************************************************************************
@@ -822,6 +826,112 @@ Washtenaw county, MI
 Contact: Jordan Burns <aatfd1224@gmail.com>
 Waiting for sample pages
 Contact 2/24/2011
+**********************************************************
+Genesee County, MI
+Contact: JUSTIN BURSE <jburse@emergencymedstat.com>
+Sender: dispatch@emergencymedstat.com
+System: SweetCAD
+
+Messages sent in 3 parts
+More samples and explanations needed 3/2
+
+4TRUCK:606RUN#:_11-­‐01-­‐0406-­‐1Location:2024 
+  HICKORY   
+  LNDISP20110125    
+  191841START   
+  MILES:0.0 
+    
+    
+  ENRT:
+1922SCENE:  
+  1934LEFTSCN:  
+  1937PUP   
+  MILES:3.0 
+    
+    
+  AT    
+  DEST: 
+  1958DROP  
+  MILES:13.0    
+    
+  LEFT  
+  DEST: 
+  2014AVAIL:    
+  2014
+
+4TRUCK:606RUN#:_11-­‐01-­‐0403-­‐1Location:11940    
+  N.    
+  SAGINAW   
+  STDISP20110125    
+  135720START   
+  MILES:0.0 
+    
+    
+  ENRT:
+1357SCENE:  
+  1357LEFTSCN:  
+  1412PUP   
+  MILES:0.4 
+    
+    
+  AT    
+  DEST: 
+  1427DROP  
+  MILES:14.0    
+    
+  LEFT  
+  DEST: 
+  1439AVAIL:    
+  1439
+
+4TRUCK:606RUN#:_11-­‐01-­‐0406-­‐1Location:2024 
+  HICKORY   
+  LNDISP20110125    
+  191841START   
+  MILES:0.0 
+    
+    
+  ENRT:
+1922SCENE:  
+  1934LEFTSCN:  
+  1937PUP   
+  MILES:3.0 
+    
+    
+  AT    
+  DEST: 
+  1958DROP  
+  MILES:13.0    
+    
+  LEFT  
+  DEST: 
+  2014AVAIL:    
+  2014
+
+4TRUCK:606RUN#:_11-­‐01-­‐0403-­‐1Location:11940    
+  N.    
+  SAGINAW   
+  STDISP20110125    
+  135720START   
+  MILES:0.0 
+    
+    
+  ENRT:
+1357SCENE:  
+  1357LEFTSCN:  
+  1412PUP   
+  MILES:0.4 
+    
+    
+  AT    
+  DEST: 
+  1427DROP  
+  MILES:14.0    
+    
+  LEFT  
+  DEST: 
+  1439AVAIL:    
+  1439
 **********************************************************
 **********************************************************
 **********************************************************
@@ -1106,126 +1216,6 @@ people who send out our paging for us.
 **********************************************************
 **********************************************************
 **********************************************************
-Genesee County, MI
-Contact: JUSTIN BURSE <jburse@emergencymedstat.com>
-Sender: dispatch@emergencymedstat.com
-System: SweetCAD
-
-Messages sent in 3 parts
-
-4TRUCK:606RUN#:_11-­‐01-­‐0406-­‐1Location:2024 
-  HICKORY   
-  LNDISP20110125    
-  191841START   
-  MILES:0.0 
-    
-    
-  ENRT:
-1922SCENE:  
-  1934LEFTSCN:  
-  1937PUP   
-  MILES:3.0 
-    
-    
-  AT    
-  DEST: 
-  1958DROP  
-  MILES:13.0    
-    
-  LEFT  
-  DEST: 
-  2014AVAIL:    
-  2014
-
-4TRUCK:606RUN#:_11-­‐01-­‐0403-­‐1Location:11940    
-  N.    
-  SAGINAW   
-  STDISP20110125    
-  135720START   
-  MILES:0.0 
-    
-    
-  ENRT:
-1357SCENE:  
-  1357LEFTSCN:  
-  1412PUP   
-  MILES:0.4 
-    
-    
-  AT    
-  DEST: 
-  1427DROP  
-  MILES:14.0    
-    
-  LEFT  
-  DEST: 
-  1439AVAIL:    
-  1439
-
-4TRUCK:606RUN#:_11-­‐01-­‐0406-­‐1Location:2024 
-  HICKORY   
-  LNDISP20110125    
-  191841START   
-  MILES:0.0 
-    
-    
-  ENRT:
-1922SCENE:  
-  1934LEFTSCN:  
-  1937PUP   
-  MILES:3.0 
-    
-    
-  AT    
-  DEST: 
-  1958DROP  
-  MILES:13.0    
-    
-  LEFT  
-  DEST: 
-  2014AVAIL:    
-  2014
-
-4TRUCK:606RUN#:_11-­‐01-­‐0403-­‐1Location:11940    
-  N.    
-  SAGINAW   
-  STDISP20110125    
-  135720START   
-  MILES:0.0 
-    
-    
-  ENRT:
-1357SCENE:  
-  1357LEFTSCN:  
-  1412PUP   
-  MILES:0.4 
-    
-    
-  AT    
-  DEST: 
-  1427DROP  
-  MILES:14.0    
-    
-  LEFT  
-  DEST: 
-  1439AVAIL:    
-  1439
-**********************************************************
-Sullivan County, NY
-Contact: Daniel Buschmann <wr63hiway@gmail.com>, la41hiway@yahoo.com, 631-484-5655
-Sender: 911@co.sullivan.ny.us <From%3A911@co.sullivan.ny.us>
-(911 Page) 09:33 Type: E-26A Sick Person Loc: 25 CARRIER X: No Cross Streets Found V: V/Liberty CN:
-(911 Page) 06:53 Type: E-13A Diabetic Problem Loc: 159 N MAIN X: No Cross Streets Found V: V/Liberty CN:
-(911 page 09;17 type: E-29B MVA LOC:STHY 52 X: HYSANA RD V: LIBERTY CN:
-(911 page) 13:25 type:E-6D Breathimg Problem Loc: 124 Hunter Lake Dr X: Dead End/ Lily Pond Rd, Hunter Lake Rd V: Rockland CN:
-(911 Page) 10:20 Type: E-17A Fall Victim Loc: 27 ACADEMY ST X: CHESTNUT ST / ST PAULS PL V: V/Liberty CN:
-(911 Page) 10:03 Type: E-33C Transfer/Interfacility Loc: 170 LAKE ST X: CARRIER ST / STHY 55, W LAKE ST V: V/Liberty CN:
-(911 Page) 09:31 Type: E-33A Transfer/Interfacility Loc: 170 LAKE ST X: CARRIER ST / STHY 55, W LAKE ST V: V/Liberty CN:
-(911 Page) 09:18 Type: E-33C Transfer/Interfacility Loc: 170 LAKE ST X: CARRIER ST / STHY 55, W LAKE ST V: V/Liberty CN:
-(911 Page) 13:49 Type: E-10D Chest Pain Loc: 170 LAKE ST X: CARRIER ST / STHY 55, W LAKE ST V: V/Liberty CN:
-(911 Page) 13:38 Type: E-21B Hemorrhage/Laceration Loc: 36 S MAIN ST X: JOHN ST / DARBEE LN, N MAIN ST, CHESTNUT ST V: V/Liberty CN:
-(911 Page) 12:35 Type: E- 6D Breathing Problem Loc: 256 SUNSET LAKE RD X: COMMUNITY LN / AIRPORT RD V: Liberty CN:
-(911 Page) 10:20 Type: E-17A Fall Victim Loc: 27 ACADEMY ST X: CHESTNUT ST / ST PAULS PL V: V/Liberty CN:
 **********************************************************
 Carroll County, MD
 Contact: Brett Pearce <brett.a.pearce@gmail.com>
