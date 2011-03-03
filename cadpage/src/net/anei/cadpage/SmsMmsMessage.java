@@ -203,7 +203,8 @@ public class SmsMmsMessage implements Serializable {
   private static final Pattern[] MSG_HEADER_PTNS = new Pattern[]{
     Pattern.compile("^(000\\d)/(000\\d)\\b"),
     Pattern.compile("^(\\d)of(\\d):"),
-    Pattern.compile("^\\((\\d)/(\\d)\\)")
+    Pattern.compile("^\\((\\d)/(\\d)\\)"),
+    Pattern.compile("\\[(\\d) of (\\d)\\]$")
   };
   private static final Pattern PAGECOPY_PATTERN = Pattern.compile("Pagecopy-Fr:(\\S*)\\s");
   private static final Pattern EMAIL_PATTERN = 
@@ -246,7 +247,8 @@ public class SmsMmsMessage implements Serializable {
       }
       if (found) {
         if (! match.group(1).equals(match.group(2))) expectMore = true;
-        body = body.substring(match.end()).trim();
+        if (match.start() == 0) body = body.substring(match.end()).trim();
+        else body = body.substring(0,match.start()).trim();
         break;
       }
       
