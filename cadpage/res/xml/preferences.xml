@@ -184,6 +184,14 @@
           android:entryValues="@array/pref_timeout_values"
           android:defaultValue="@string/pref_timeout_default"
           android:dependency="@string/pref_screen_on_key" />
+        <net.anei.cadpage.preferences.ListPreference
+          android:key="@string/pref_textsize_key"
+          android:title="@string/pref_textsize_title"
+          android:summary="@string/pref_textsize_summary"
+          android:entries="@array/pref_textsize_entries"
+          android:entryValues="@array/pref_textsize_values"
+          android:defaultValue="@string/pref_textsize_default"
+          android:dependency="@string/pref_screen_on_key" />  
         <CheckBoxPreference
           android:key="@string/pref_dimscreen_key"
           android:title="@string/pref_dimscreen_title"

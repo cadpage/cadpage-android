@@ -17,7 +17,7 @@ public class ManagePreferences {
   // (OK, if you know what you are doing, and the only new settings added
   // are boolean settings that default to false, you can get away with not
   // changing this)
-  private static final int PREFERENCE_VERSION = 7;
+  private static final int PREFERENCE_VERSION = 8;
   
   private static ManagePreferences prefs;
 
@@ -211,6 +211,13 @@ public class ManagePreferences {
   
   public static String flashLEDColor() {
     return prefs.getString(R.string.pref_flashled_color_key);
+  }
+  
+  public static String textSize() {
+    if (prefs.getString(R.string.pref_textsize_key)==null){
+      return prefs.getString(R.string.pref_textsize_default);
+    }
+   return  prefs.getString(R.string.pref_textsize_key);
   }
   
   public static String flashLEDColorCustom() {

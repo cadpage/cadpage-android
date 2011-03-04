@@ -2,10 +2,14 @@ package net.anei.cadpage;
 
 import android.content.Context;
 import android.graphics.Typeface;
+import android.preference.Preference;
 import android.text.format.DateFormat;
 import android.util.AttributeSet;
 import android.view.View;
 import android.widget.TextView;
+import android.preference.PreferenceManager;
+import net.anei.cadpage.preferences.DialogPreference;
+import android.content.SharedPreferences;
 
 public class HistoryMsgTextView extends TextView {
   
@@ -50,6 +54,8 @@ public class HistoryMsgTextView extends TextView {
                   DateFormat.getTimeFormat(context).format(time) +
                   (msg.isLocked() ? " (Locked)" : "") +
                   "\n" + msg.getCall();
+    float ftextSize = Integer.parseInt(ManagePreferences.textSize());
+    this.setTextSize(ftextSize);
     setText(text);
     if (! msg.isRead()) setTypeface(Typeface.DEFAULT_BOLD);
     else setTypeface(Typeface.DEFAULT);

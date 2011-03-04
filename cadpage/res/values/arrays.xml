@@ -64,7 +64,8 @@
     <item>@string/pref_timeout_entries_2m</item>
     <item>@string/pref_timeout_entries_5m</item>
     <item>@string/pref_timeout_entries_10m</item>
-  </string-array>
+  
+</string-array>
   <string-array
     name="pref_timeout_values">
     <item>10</item>
@@ -477,5 +478,13 @@
   <item>Would you like to send an email to the CadPage developers about issues or problems with this particular message?</item>
   <item>Oh dear, it seems that CadPage has crashed.  Would you like report this problem to the CadPage developers?</item>
   <item>This is very bad, CadPage can\'t even get started.  Would you like report this problem to the CadPage developers?</item>
+</string-array>
+<string-array name="pref_textsize_entries"><item>@string/pref_textsize_small</item>
+<item>@string/pref_textsize_medium</item>
+<item>@string/pref_textsize_large</item>
+</string-array>
+<string-array name="pref_textsize_values"><item>14</item>
+<item>16</item>
+<item>20</item>
 </string-array>
 </resources>
