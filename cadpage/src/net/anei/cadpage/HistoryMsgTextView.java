@@ -2,14 +2,10 @@ package net.anei.cadpage;
 
 import android.content.Context;
 import android.graphics.Typeface;
-import android.preference.Preference;
 import android.text.format.DateFormat;
 import android.util.AttributeSet;
 import android.view.View;
 import android.widget.TextView;
-import android.preference.PreferenceManager;
-import net.anei.cadpage.preferences.DialogPreference;
-import android.content.SharedPreferences;
 
 public class HistoryMsgTextView extends TextView {
   

@@ -7,10 +7,8 @@ import net.anei.cadpage.preferences.EditTextPreference;
 import net.anei.cadpage.preferences.LocationCheckBoxPreference;
 import net.anei.cadpage.preferences.LocationListPreference;
 import net.anei.cadpage.preferences.LocationManager;
-import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
-import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.res.Resources;
 import android.os.Bundle;
@@ -25,8 +23,6 @@ import android.preference.Preference.OnPreferenceClickListener;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.View;
-import android.view.View.OnClickListener;
-import android.widget.Button;
 
 public class SmsPopupConfigActivity extends PreferenceActivity {
   private static final int DIALOG_DONATE = Menu.FIRST;
@@ -305,10 +301,13 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
   // If location code changes during this session, force a rebuild of
   // the call history data on the off chance that a general format message
   // can use the new location code.
+  // Ditto if history screen text size changes
   private String oldLocation = null;
+  private String oldTextSize =null;
   @Override
   protected void onStart() {
     oldLocation = ManagePreferences.location();
+    oldTextSize = ManagePreferences.textSize();
     super.onStart();
   }
   
@@ -316,7 +315,8 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
   protected void onStop() {
     super.onStop();
     String location = ManagePreferences.location();
-    if (! location.equals(oldLocation)) {
+    String textSize = ManagePreferences.textSize();
+    if (! location.equals(oldLocation) || ! textSize.equals(oldTextSize)) {
       SmsMessageQueue.getInstance().notifyDataChange();
     }
   }
