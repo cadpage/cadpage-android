@@ -208,6 +208,7 @@
     <item>OR Oregon</item>
     <item>PA Pennsylvania</item>
     <item>SC South Carolina</item>
+    <item>SD South Dakota</item>
     <item>TN Tennessee</item>
     <item>TX Texas</item>
     <item>UT Utah</item>
@@ -318,6 +319,7 @@
     <item>SCAndersonCounty</item>
     <item>SCCharlestonCounty</item>
     <item>SCYorkCounty</item>
+    <item>SDMinnehahaCounty</item>
     <item>TNSumnerCounty</item>
     <item>TXCyCreekCommCenter</item>
     <item>TXLongview</item>
@@ -440,6 +442,7 @@
     <item>Anderson County, SC</item>
     <item>Charleston County, SC</item>
     <item>York County, SC</item>
+    <item>Minnehaha County, SD</item>
     <item>Sumner County, TN</item>
     <item>Cy Creek Comm Center, TX</item>
     <item>Longview, TX</item>

@@ -677,6 +677,13 @@ Brantley county, GA (GABrantleyCountyParser)
 [Disp CVFD Case # 2011-1-1473 Call # 22262]  1/25/2011 0:55:31 /1070 /9513 /HWY 121 /BRUSH BEHIND HUMPTEY DUMPTEY
 [Disp CVFD Case # 2011-1-1452 Call # 22241]  1/24/2011 17:06:14 /1070 /602 /WARE COUNTY LINE RD /WOODS FIRE
 ***************************************************************************
+Minnehaha county, SD
+930 Quad 2070 - VS 100 CLIFF AVE 2 VS Unconsc/Faint C3 2011-00000870
+930 Quad 460 - BR 904 SNOWBERRY AVE BR Conv Seizure C3 2011-00000374
+930 Quad 2060 - VS I 90 MM 410 VS Sick Person C1 2011-00000028
+***************************************************************************
+***************************************************************************
+***************************************************************************
 ***************************************************************************
 *********** Districts that are not yet supported. *************************
 ***************************************************************************
@@ -943,6 +950,24 @@ Sender: rc.380@c-msg.net <From%3Arc.380@c-msg.net>
 Need more info 3/2
 (Co12) [!] CT:UC 6513 CARROLL HIGHLANDS RD SYKE BOX:1211 DUE:X127 E123 [66]
 **********************************************************
+Aransas County, TX
+Contact: albert howie <stp89vision@yahoo.com>
+Sender: psccommunications@gmail.com
+System: INFORAD
+Just too unstructured to make any sense out of :(  3/3/11
+Subject:ALERT PAGE\n611 S AUSTIN,,STRONG ODOR OF GAS
+Subject:ALERT PAGE\n400 rabbit run road trash can on fire
+Subject:ALERT PAGE\nENTERPRIZE AND DANA FOR A SLIGHT ODOR OF GAS
+Subject:ALERT PAGE\nGRASS FIRE SOUTH OF CARBON BLACK AT 2300 BSN 35 N OF AP
+**********************************************************
+Talbot County, MD
+Contact: "jg0169586@yahoo.com" <jg0169586@yahoo.com>
+Sender: msg@cfmsg.com
+Same format as Centerville, MD
+Need more samples (3/3/11)
+Talbot 911:*D 61 B-ABDOMINAL PAIN 319 LINDEN AVE T60
+Talbot 911:*D 70 A-CHEST PAIN 5656 BLACK WALNUT POINT RD BREATHING NORMAL <35 T70
+**********************************************************
 **********************************************************
 **********************************************************
 *********       Not County locations          ************
@@ -1111,15 +1136,7 @@ Sender: msg@cfmsg.com
 (Chief ALT) [700 Auto] - Nature:Auto Alarm - LOC:2700 Baltimore Ave - Dunes Motel - ADD:(s) (n)boardwalk OCMD - Cross STS:28th St & 27th St
 [Chief ALT]  [700 Auto] - Nature:Auto Alarm - LOC:1701 Atlantic Ave - Holiday Inn Hotel & Suites - ADD:(s) (n)boardwalk OCMD - Cross STS:18th St & 17th St
 **********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-******        READY TO ROLL ******************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
+************** EMAIL ONLY ********************************
 **********************************************************
 Clearfield County, PA
 Contact: Joe Mitchell <jmitchell@clearfield911.com> (works for 911 center)
@@ -1218,15 +1235,6 @@ a page.  If there is anything I can influence to make things easier let me
 know. I will contact our paging provider to make these adjustments. We use 
 Logisys CAD which sends a message to MIS Scienes. MIS Sciences are the 
 people who send out our paging for us.
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
 **********************************************************
 Burlington County, NJ
 Contact: Jerseyfirefighter@gmail.com
@@ -1409,44 +1417,8 @@ Additional Inc#s:
 The Call Taker is HENCKEN DEBBIE A
 The Dispatcher is WECKENBROCK MICHAEL G
 **********************************************************
-Aransas County, TX
-Contact: albert howie <stp89vision@yahoo.com>
-Sender: psccommunications@gmail.com
-System: INFORAD
-Subject:ALERT PAGE\n611 S AUSTIN,,STRONG ODOR OF GAS
-Subject:ALERT PAGE\n400 rabbit run road trash can on fire
-Subject:ALERT PAGE\nENTERPRIZE AND DANA FOR A SLIGHT ODOR OF GAS
-Subject:ALERT PAGE\nGRASS FIRE SOUTH OF CARBON BLACK AT 2300 BSN 35 N OF AP
+******        READY TO ROLL ******************************
 **********************************************************
-Talbot County, MD
-Contact: "jg0169586@yahoo.com" <jg0169586@yahoo.com>
-Sender: msg@cfmsg.com
-Same format as Centerville, MD
-Talbot 911:*D 61 B-ABDOMINAL PAIN 319 LINDEN AVE T60
-Talbot 911:*D 70 A-CHEST PAIN 5656 BLACK WALNUT POINT RD BREATHING NORMAL <35 T70
-**********************************************************
-Minnehaha county, SD
-Contact: brubin@med-starambulance.com
-Sender: mtooley@911metro.org
-
-930 Quad 2070 - VS 100 CLIFF AVE 2 VS Unconsc/Faint C3 2011-00000870
-930 Quad 460 - BR 904 SNOWBERRY AVE BR Conv Seizure C3 2011-00000374
-930 I 90 / HWY 23 Injury Accident C1 2011-0000004
-930 Quad 2060 - VS I 90 MM 410VS Sick Person C1 2011-00000028
-930 Quad 2060 - VS 26472 484TH AVE VS Diabetic C2 2011-00000003
-930 Quad 2010 - SR 26525 482ND AVE BR Medical Emergency 2011-00000621
-930 Quad 460 - BR 3008 E ASPEN BLVD BR Falls C1 2011-00000051
-930 Quad 460 - BR 1625 RUSHMORE DR BR Family Dispute 2011-00000347 
-
-Why two town codes?  Second one is actual town
-Put C1-3 codes in code for now
-
-930 indicates our ambulance station number
-Quad 460 indicates the quadrant that our dispatchers use
-BR indicates the city the call is in BR=Brandon SD, VS=Valley Springs SD, SR= Splitrock township. All of these are in Minnehaha County in South Dakota
-1625 RUSHMORE DR is the actual address of the call
-Family Dispute is the nature of the call
-2011-00000347 is the year and call number so far
 **********************************************************
 Harnet County, NC
 Contact: Beverly Williams <bwilliams.co9@gmail.com>
