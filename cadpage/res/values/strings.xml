@@ -405,10 +405,10 @@
     <!-- Location settings -->
     <string name="pref_location_screen_title">Location Settings</string>
     <string name="pref_location_screen_summary">CAD Page Processing Details</string>
-<string name="pref_textsize_large">Large</string>
-<string name="pref_textsize_medium">Medium</string>
-<string name="pref_textsize_small">Small</string>
-
-<string name="pref_textsize_summary">Select the Text size for History Screen Messages</string>
-<string name="pref_textsize_title">Text Size</string>
+    <string name="pref_textsize_large">Large</string>
+    <string name="pref_textsize_medium">Medium</string>
+    <string name="pref_textsize_small">Small</string>
+    
+    <string name="pref_textsize_summary">Select the Text size for History Screen Messages</string>
+    <string name="pref_textsize_title">Text Size</string>
 </resources>

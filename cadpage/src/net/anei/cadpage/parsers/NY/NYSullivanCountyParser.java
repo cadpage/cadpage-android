@@ -34,7 +34,7 @@ public class NYSullivanCountyParser extends FieldProgramParser {
     
     @Override
     public String getFilter() {
-      return "911@co.sullivan.ny.us ";
+      return "911@co.sullivan.ny.us";
     }
 
 	  @Override

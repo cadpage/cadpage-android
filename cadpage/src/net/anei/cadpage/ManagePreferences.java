@@ -214,9 +214,6 @@ public class ManagePreferences {
   }
   
   public static String textSize() {
-    if (prefs.getString(R.string.pref_textsize_key)==null){
-      return prefs.getString(R.string.pref_textsize_default);
-    }
    return  prefs.getString(R.string.pref_textsize_key);
   }
   

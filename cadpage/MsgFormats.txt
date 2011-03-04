@@ -682,6 +682,10 @@ Minnehaha county, SD
 930 Quad 460 - BR 904 SNOWBERRY AVE BR Conv Seizure C3 2011-00000374
 930 Quad 2060 - VS I 90 MM 410 VS Sick Person C1 2011-00000028
 ***************************************************************************
+Cayuga County, NY (NYCayugaCountyParser)
+(From 911 Center) 02/14/11 16:26 5 CEDAR LN BRUTUS Cardiac
+(From 911 Center) 02/14/11 14:59 8318 W  LOOP RD MONTEZUMA General  
+(From 911 Center) 02/14/11 12:19 PINE ST PARK ST PORT BYRON Collapse
 ***************************************************************************
 ***************************************************************************
 ***************************************************************************
@@ -967,6 +971,12 @@ Same format as Centerville, MD
 Need more samples (3/3/11)
 Talbot 911:*D 61 B-ABDOMINAL PAIN 319 LINDEN AVE T60
 Talbot 911:*D 70 A-CHEST PAIN 5656 BLACK WALNUT POINT RD BREATHING NORMAL <35 T70
+**********************************************************
+Harnet County, NC
+Contact: Beverly Williams <bwilliams.co9@gmail.com>
+Sender: cadpage@harnett.org
+Need more samples (3/3/11)
+1102-012074*8326 NC 27 W***LILLINGTON***RESIDENTIAL STRUCTURE FIRE****1175****
 **********************************************************
 **********************************************************
 **********************************************************
@@ -1420,53 +1430,6 @@ The Dispatcher is WECKENBROCK MICHAEL G
 ******        READY TO ROLL ******************************
 **********************************************************
 **********************************************************
-Harnet County, NC
-Contact: Beverly Williams <bwilliams.co9@gmail.com>
-Sender: cadpage@harnett.org
-1102-012074*8326 NC 27 W***LILLINGTON***RESIDENTIAL STRUCTURE FIRE****1175****
-**********************************************************
-Cayuga County, NY
-Contact: Corey <crooker1@twcny.rr.com>
-Sender: cayuga911@co.cayuga.ny.us
-(From 911 Center) 02/14/11 16:26 5 CEDAR LN BRUTUS Cardiac
-(From 911 Center) 02/14/11 14:59 8318 W  LOOP RD MONTEZUMA General  
-(From 911 Center) 02/14/11 12:19 PINE ST PARK ST PORT BYRON Collapse
-(From 911 Center) 02/14/11 10:29 7 EVERGREEN LN BRUTUS Stroke
-
-        Cayuga, County of 
-       Auburn, City of 
-       Aurelius, Town of 
-           Cayuga, Village of 
-       Brutus, Town of 
-           Weedsport, Village of 
-       Cato, Town of 
-           Meridian, Village of 
-           Cato, Village of 
-       Conquest, Town of 
-       Fleming, Town of 
-       Genoa, Town of 
-       Ira, Town of 
-       Ledyard, Town of 
-           Aurora, Village of 
-       Locke, Town of 
-       Mentz, Town of 
-           Port Byron, Village of 
-       Montezuma, Town of 
-       Moravia, Town of 
-           Moravia, Village of 
-       Niles, Town of 
-       Owasco, Town of 
-       Scipio, Town of 
-       Sempronius, Town of 
-       Sennett, Town of 
-       Springport, Town of 
-           Union Springs, Village of 
-       Sterling, Town of 
-           Fair Haven, Village of 
-       Summerhill, Town of 
-       Throop, Town of 
-       Venice, Town of 
-       Victory, Town of 
 **********************************************************
 Mecklenburg County, NC ($20)
 Contact: Rick <very.orange@gmail.com>
