@@ -51,7 +51,6 @@
     </receiver>
     <receiver android:name=".ClearAllReceiver" />
     <receiver android:name=".ReminderReceiver" />
-  <activity android:name="com.paypal.android.MEP.PayPalActivity"></activity>
 </application>
   <uses-permission
     android:name="android.permission.READ_SMS" />

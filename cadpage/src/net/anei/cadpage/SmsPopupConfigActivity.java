@@ -1,11 +1,5 @@
 package net.anei.cadpage;
 
-import com.paypal.android.MEP.CheckoutButton;
-import com.paypal.android.MEP.PayPal;
-import com.paypal.android.MEP.PayPalActivity;
-import com.paypal.android.MEP.PayPalPayment;
-import com.paypal.android.MEP.PayPalReceiverDetails;
-
 import net.anei.cadpage.parsers.SmsMsgParser;
 import net.anei.cadpage.preferences.AppEnabledCheckBoxPreference;
 import net.anei.cadpage.preferences.DialogPreference;
