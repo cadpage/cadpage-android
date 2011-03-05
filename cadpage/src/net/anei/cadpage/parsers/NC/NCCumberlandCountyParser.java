@@ -13,6 +13,7 @@ Sender: cad@co.cumberland.nc.us
 [S]  (N)C4;01/27/2011 17:08:27;UNKNOWN STATUS TRAFFIC ACCIDEN;ST22;670 LILLINGTON HWY;HOLLAND DR;WALMART
 [S] OVERHILLS PARK (N)C4;01/27/2011 15:20:35;ABNORMAL BREATHING SICK PERSON;ST22;3110 HUNTLEY ST;ROBBIE CIR
 [S] R G CREECH (N)C4;01/27/2011 13:23:42;WIRES DOWN (NO SMOKE OR ARC);ST22;200 RUPE ST;SCARBOROUGH ST
+CAD:(S) (N)C4;03/04/2011 21:18:43;UNKNOWN OUTSIDE FIRE;ST22;2700-BLK BRAGG BLVD
 
 */
 
@@ -30,7 +31,10 @@ public class NCCumberlandCountyParser extends DispatchOSSIParser {
   
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
-    if (!subject.equals("S") && !subject.equals("N")) return false;
+    if (subject.equals("S") || subject.equals("N")) {} 
+    else if (body.startsWith("CAD:(S)")) {
+      body = body.substring(7).trim();
+    } else return false;
     return parseFields(body.split(";"), data);
   }
   

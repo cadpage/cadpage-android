@@ -31,7 +31,7 @@ public class NYCayugaCountyParser extends SmartAddressParser {
     "IRA",
     "LEDYARD", "AURORA",
     "LOCKE",
-    "MENTZ", "PORT BRYON",
+    "MENTZ", "PORT BYRON",
     "MONTEZUMA",
     "MORAVIA", "MORAVIA",
     "NILES", 

@@ -67,10 +67,8 @@ public class DispatchDAPROParser extends SmartAddressParser {
     data.strCross = props.getProperty("CROSS", "");
     
     // OK, now to work out the address field
-    // Google doesn't handle the "BLK" qualifier so get rid of it
     String sAddress = props.getProperty("LOC");
     if (sAddress.length() == 0) return false;
-    sAddress = sAddress.replaceAll(" BLK ", " ");
     
     // See if we can identify a call description from our canned list
     String callDesc = getCallDesc(sAddress);

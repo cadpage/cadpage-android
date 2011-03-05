@@ -191,13 +191,11 @@ public class SmsMsgInfo {
   
   // Clean up any BLK indicators
   // Remove occurance of BLK bracketed by non-alpha characters
-  private static final Pattern BLK_PAT = Pattern.compile("[^A-Z](BLK)[^A-Z]");
+  private static final Pattern BLK_PAT = Pattern.compile("(?:-|(?<![A-Z]))BLK(?![A-Z])");
   private String cleanBlock(String sAddr) {
     sAddr = sAddr.replaceAll("[\\{\\}]", "");
     Matcher match = BLK_PAT.matcher(sAddr);
-    if (match.find()) {
-      sAddr = sAddr.substring(0,match.start(1)) + sAddr.substring(match.end(1));
-    }
+    sAddr = match.replaceFirst("");
     return sAddr;
   }
   

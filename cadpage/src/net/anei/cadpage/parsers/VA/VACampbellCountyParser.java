@@ -67,9 +67,7 @@ public class VACampbellCountyParser extends SmartAddressParser {
     
     
     // OK, now to work out the address field
-    // Google doesn't handle the "BLK" qualifier so get rid of it
     String sAddress = props.getProperty("LOC", "");
-    sAddress = sAddress.replaceAll(" BLK ", " ");
     
     // See if we can identify a call description from our canned list
     String callDesc = getCallDesc(sAddress);
