@@ -222,6 +222,7 @@
     <item>GeneralSlash</item>
     <item>ALMadisonCounty</item>
     <item>CAShastaCounty</item>
+    <item>CASonomaCounty</item>
     <item>COAdamsCounty</item>
     <item>COGreeley</item>
     <item>COLarimerCounty</item>
@@ -347,6 +348,7 @@
     <item>Generic (slash delim)</item>
     <item>Madison County, AL</item>
     <item>Shasta County, CA</item>
+    <item>Sonoma County, CA</item>
     <item>Adams County, CO</item>
     <item>Greeley, CO</item>
     <item>Larimer County, CO</item>
