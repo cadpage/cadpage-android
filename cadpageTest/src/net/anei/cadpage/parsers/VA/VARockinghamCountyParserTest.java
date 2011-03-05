@@ -58,7 +58,7 @@ public class VARockinghamCountyParserTest extends BaseParserTest {
         "R40 TRAFFIC CRASH 300 BOYERS RD BLK HAR CFS# 2010-082984 CROSS: MYSTIC WOODS LN/CULLISON CT",
         "SRC:R40",
         "CALL:TRAFFIC CRASH",
-        "ADDR:300 BOYERS RD",
+        "ADDR:300 BOYERS RD BLK",
         "CITY:HARRISONBURG",
         "ID:2010-082984",
         "X:MYSTIC WOODS LN/CULLISON CT");

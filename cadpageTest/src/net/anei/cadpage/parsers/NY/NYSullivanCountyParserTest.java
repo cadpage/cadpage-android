@@ -97,9 +97,30 @@ public class NYSullivanCountyParserTest extends BaseParserTest {
         "ADDR:27 ACADEMY ST",
         "X:CHESTNUT ST / ST PAULS PL",
         "CITY:Liberty");
+
+    doTest("T13",
+        "(911 Page) 03:34 Type: E-33C Transfer/Interfacility Loc: 170 LAKE ST X: CARRIER ST / STHY 55, W LAKE ST V: V/Liberty CN:",
+        "CALL:E-33C Transfer/Interfacility",
+        "ADDR:170 LAKE ST",
+        "X:CARRIER ST / STHY 55, W LAKE ST",
+        "CITY:Liberty");
+
+    doTest("T14",
+        "(911 Page) 22:55 Type: E-33C Transfer/Interfacility Loc: 256 SUNSET LAKE RD X: COMMUNITY LN / AIRPORT RD V: Liberty CN:",
+        "CALL:E-33C Transfer/Interfacility",
+        "ADDR:256 SUNSET LAKE RD",
+        "X:COMMUNITY LN / AIRPORT RD",
+        "CITY:Liberty");
+
+    doTest("T15",
+        "(911 Page) 20:27 Type: E- 1C Abdominal Pain Loc: 358 E BROADWAY X: RICHARDSON AV / SPRING ST V: V/Monticello CN:",
+        "CALL:E- 1C Abdominal Pain",
+        "ADDR:358 E BROADWAY",
+        "X:RICHARDSON AV / SPRING ST",
+        "CITY:Monticello");
   }
   
   public static void main(String[] args) {
-    new NYSullivanCountyParserTest().generateTests("T1");
+    new NYSullivanCountyParserTest().generateTests("T13");
   }
 }

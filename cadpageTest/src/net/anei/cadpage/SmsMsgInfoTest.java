@@ -47,6 +47,7 @@ public class SmsMsgInfoTest {
     doMapTest("BLK1", "6000 REIDSVILLE RD,KENBURG,XX", "6000BLK REIDSVILLE RD");
     doMapTest("BLK2", "6000 OBLKA ST,KENBURG,XX", "6000 OBLKA ST");
     doMapTest("BLK3", "100 OAK FEST RD,KENBURG,XX", "{100} OAK FEST RD");
+    doMapTest("BLK4", "2700 BRAGG BLVD,KENBURG,XX", "2700-BLK BRAGG BLVD");
   }
   
   private void doMapTest(String title, String result, String address) {

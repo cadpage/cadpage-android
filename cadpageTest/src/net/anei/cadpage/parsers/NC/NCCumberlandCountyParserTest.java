@@ -59,10 +59,18 @@ public class NCCumberlandCountyParserTest extends BaseParserTest {
         "ADDR:200 RUPE ST",
         "X:SCARBOROUGH ST");
 
+
+    doTest("T6",
+        "CAD:(S) (N)C4;03/04/2011 21:18:43;UNKNOWN OUTSIDE FIRE;ST22;2700-BLK BRAGG BLVD",
+        "UNIT:C4",
+        "CALL:UNKNOWN OUTSIDE FIRE",
+        "SRC:ST22",
+        "ADDR:2700-BLK BRAGG BLVD");
+
   }
   
 
   public static void main(String[] args) {
-    new NCCumberlandCountyParserTest().generateTests("T1");
+    new NCCumberlandCountyParserTest().generateTests("T6");
   }
 }
