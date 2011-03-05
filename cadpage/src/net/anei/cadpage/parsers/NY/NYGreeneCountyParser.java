@@ -5,7 +5,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchBParser;
 /*
 Greene County NY (or Athens FD)
 Contact: 8456569957@mms.att.net
-Sender: 200-200-000
+Sender: 200-200-0004
 GREENE 911:WIRES >WIRES DOWN / ARCING 117 RIVER RD ATHENS BRAUMULLER, HELENE Map: Grids:0,0 Cad: 2010-0000033052
 GREENE 911:ALARMF>FIRE ALARM 558 SLEEPY HOLLOW RD ATHENS ADT SECURITY-OP ANDREA- Map:62 Grids:0,0 Cad: 2010-0000033344
 
@@ -33,7 +33,7 @@ public class NYGreeneCountyParser extends DispatchBParser {
   
   @Override
   public String getFilter() {
-    return "200-200-000";
+    return "200-200-0004";
   }
   
   @Override
