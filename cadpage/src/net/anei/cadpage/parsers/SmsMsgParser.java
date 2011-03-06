@@ -5,6 +5,7 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Properties;
 import java.util.Set;
+import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.ManageParsers;
@@ -347,12 +348,20 @@ public abstract class SmsMsgParser {
   * @param parseCity true if cities should be parsed with dashes
   */
  private static final Pattern INTERSECT = Pattern.compile("/|&");
+ private static final Pattern APT = Pattern.compile("(?:\\bAPT\\b|#) *([^ ]+)$");
  private static void parseAddress(String addressLine, SmsMsgInfo.Data data, 
                                      boolean parseCity) {
    addressLine = addressLine.trim();
    
    // Periods used with abbreviations also cause trouble.  Just get rid of all periods
    addressLine = addressLine.replaceAll("\\.", "");
+   
+   // Pick off trailing address
+   Matcher match = APT.matcher(addressLine);
+   if (match.find()) {
+     data.strApt = match.group(1);
+     addressLine = addressLine.substring(0,match.start()).trim();
+   }
 
    for (String addr : INTERSECT.split(addressLine)) {
      addr = addr.trim();
