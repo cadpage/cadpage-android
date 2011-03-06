@@ -338,6 +338,8 @@ public class ManagePreferences {
         R.string.pref_defcity_key,
         R.string.pref_defstate_key,
         R.string.pref_loglimit_key,
+        R.string.pref_msgtimeout_key,
+        R.string.pref_suppress_dup_msg_key,
         
         R.string.pref_notif_enabled_key,
         R.string.pref_notif_override_key,
@@ -364,6 +366,7 @@ public class ManagePreferences {
         
         R.string.pref_screen_on_key,
         R.string.pref_timeout_key,
+        R.string.pref_textsize_key,
         R.string.pref_dimscreen_key,
         R.string.pref_privacy_key,
         
