@@ -1309,6 +1309,7 @@ RAPID HEART BEAT
 Erlanger Dispatch, KY (in Kenton County)
 Contact: "Jeremy Sheehan" <jsheehan@elsmerefd.com>
 Sender: pscc@ci.erlanger.ky.us
+(12 users waiting for this)
 
 (Alert: Fire Structure) ALRM LVL: 1\n
 LOC:\n
@@ -1469,6 +1470,11 @@ HEAVY SMOKE CONDITION IN THE AREA - UNK WHAT'S IT'S ACTUALLY COMING FROM
 02:18
 ROCHESTER, RANDOLF
 717-468-8174
+**********************************************************
+Unknown (trying Prince Georges County, MD)
+Contact: "spierce091187@yahoo.com" <spierce091187@yahoo.com>
+Sender: bhvfd14@gmail.com
+(ALERT) [35]: MULTI FAMILY DWE (APTF): 10 PARKWAY (CRESCENT RD AND CRESCENT RD): TEXT:ProQA recommends dispatch at this time PH:301-982-7357 \SOURCE:RESD (MTF): E
 **********************************************************
 ************** EMAIL ONLY ********************************
 **********************************************************
@@ -1753,13 +1759,6 @@ The Dispatcher is WECKENBROCK MICHAEL G
 **********************************************************
 ******        READY TO ROLL ******************************
 **********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
 Fluvanna County, VA
 Contact: brian powell <brianpowell307@gmail.com>
 Sender: 6245
@@ -1769,12 +1768,6 @@ MAILBOX@[166.61.196.210] MAILBOX:CO1 MOTOR VEHICLE ACCIDENT MINOR INJURIES REPOR
 MAILBOX@[166.61.196.210] MAILBOX:CO1 ACTIVATED CARBON MONOXIDE ALARM 212 BEECHWOOD LN INCIDENT # 330 CROSS STREET BYBEES CHURCH ROAD
 MAILBOX@[166.61.196.210] MAILBOX:CO1 MOTOR VEHICLE ACCIDENT 000000 RISING SUN//GEORGES MILL INCD # 359 GEORGE'S MILL & RISING SUN RD
 MAILBOX@[166.61.196.210] MAILBOX:CO1 STRUCTURE FIRE 000000 STANLEY LN /BYBEES CHURCH incid #365// caller sees barn on fire// xst stanley ln// 2 xst dog wood
-**********************************************************
-**********************************************************
-Unknown (trying Prince Georges County, MD)
-Contact: "spierce091187@yahoo.com" <spierce091187@yahoo.com>
-Sender: bhvfd14@gmail.com
-(ALERT) [35]: MULTI FAMILY DWE (APTF): 10 PARKWAY (CRESCENT RD AND CRESCENT RD): TEXT:ProQA recommends dispatch at this time PH:301-982-7357 \SOURCE:RESD (MTF): E
 **********************************************************
 Morrow County, OH
 Contact: Joseph Coil <mgfd1924@gmail.com>,"Joseph & Jeanette Coil" <firefightercoil@yahoo.com>
@@ -1881,6 +1874,22 @@ RCVD AS 911\n
 \n
 COM:\n
 IN CAR CANNOT GET OUT NEEDS HELP UNABLE TO GET OUT DUE TO SOME UNKNO
+**********************************************************
+Santiam County, OR
+Contact: "Gene Dershewitz" <geneder@wvi.com>
+Sender: denniss@santiam911.org
+(INCIDENT INFO) MEDICAL 15192 LIBBY LN SE MAP 4922 ...FROM SANTIAM 911
+(INCIDENT INFO) MEDICAL 15192 LIBBY LN SE # 4922 ...FROM SANTIAM 911
+(INCIDENT INFO) MEDICAL 5654 MARION HILL RD SE MAP 4832A  ...FROM SANTIAM 911
+(INCIDENT INFO) MVA WEST STAYTON/SNODDY MAP/4526 ...FROM SANTIAM 911
+
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
 **********************************************************
 **********************************************************
 **********************************************************

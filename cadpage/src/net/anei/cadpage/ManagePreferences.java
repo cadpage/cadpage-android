@@ -167,11 +167,11 @@ public class ManagePreferences {
   }
   
   public static int logLimit() {
-    return Integer.parseInt(prefs.getString(R.string.pref_loglimit_key));
+    return prefs.getIntValue(R.string.pref_loglimit_key);
   }
   
   public static int partMsgTimeout() {
-    return Integer.parseInt(prefs.getString(R.string.pref_msgtimeout_key));
+    return prefs.getIntValue(R.string.pref_msgtimeout_key);
   }
   
   public static boolean suppressDupMsg() {
@@ -240,11 +240,11 @@ public class ManagePreferences {
   }
   
   public static int repeatInterval() {
-    return Integer.parseInt(prefs.getString(R.string.pref_notif_repeat_interval_key));
+    return prefs.getIntValue(R.string.pref_notif_repeat_interval_key);
   }
   
   public static int repeatTimes() {
-    return Integer.parseInt(prefs.getString(R.string.pref_notif_repeat_times_key));
+    return prefs.getIntValue(R.string.pref_notif_repeat_times_key);
   }
   
   public static boolean popupEnabled() {
@@ -268,7 +268,7 @@ public class ManagePreferences {
   }
   
   public static int timeout() {
-    return Integer.parseInt(prefs.getString(R.string.pref_timeout_key));
+    return prefs.getIntValue(R.string.pref_timeout_key);
   }
   
   public static boolean dimScreen() {
@@ -284,7 +284,7 @@ public class ManagePreferences {
   }
 
   public static int historyCount() {
-    return Integer.parseInt(prefs.getString(R.string.pref_history_limit_key));
+    return prefs.getIntValue(R.string.pref_history_limit_key);
   }
   
   public static boolean showButtons() {
@@ -295,13 +295,13 @@ public class ManagePreferences {
     
     switch (button) {
     case 1:
-      return Integer.parseInt(prefs.getString(R.string.pref_button1_key));
+      return prefs.getIntValue(R.string.pref_button1_key);
       
     case 2:
-      return Integer.parseInt(prefs.getString(R.string.pref_button2_key));
+      return prefs.getIntValue(R.string.pref_button2_key);
       
     case 3:
-      return Integer.parseInt(prefs.getString(R.string.pref_button3_key));
+      return prefs.getIntValue(R.string.pref_button3_key);
       
     default:    // Anything else is disabled
       return 0;
@@ -418,6 +418,16 @@ public class ManagePreferences {
     return result;
   }
   
+  protected int getIntValue(int resPrefId) {
+    return getIntValue(resPrefId, 0);
+  }
+  
+  protected int getIntValue(int resPrefId, int defValue) {
+    String val = getString(resPrefId);
+    if (val.length() == 0) return defValue;
+    return Integer.parseInt(val);
+  }
+  
   protected int getInt(int resPrefId, int defValue) {
     return mPrefs.getInt(context.getString(resPrefId), defValue);
   }
@@ -434,7 +444,7 @@ public class ManagePreferences {
     settings.commit();
   }
 
-  public void putInt(int resPrefId, int newVal) {
+  protected void putInt(int resPrefId, int newVal) {
     SharedPreferences.Editor settings = mPrefs.edit();
     settings.putInt(context.getString(resPrefId), newVal);
     settings.commit();
