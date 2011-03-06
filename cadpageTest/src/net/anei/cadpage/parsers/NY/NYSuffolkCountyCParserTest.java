@@ -96,7 +96,8 @@ public class NYSuffolkCountyCParserTest extends BaseParserTest {
         "CALL:AMBULANCE CALL",
         "INFO:E/F FALL",
         "CODE:17B1",
-        "ADDR:229 SPRINGMEADOW DR #G",
+        "ADDR:229 SPRINGMEADOW DR",
+        "APT:G",
         "CITY:HOLBROOK",
         "X:BEECH LN");
     
@@ -316,7 +317,8 @@ public class NYSuffolkCountyCParserTest extends BaseParserTest {
     doTest("T1",
         "[Auto Alarm]  at 2890 HEMPSTEAD TPKE #A, LEVITTOWN  c/s: SHELTER LN   O: THE LITTLE GYM . . 16:01:16",
         "CALL:Auto Alarm",
-        "ADDR:2890 HEMPSTEAD TPKE #A",
+        "ADDR:2890 HEMPSTEAD TPKE",
+        "APT:A",
         "CITY:LEVITTOWN",
         "X:SHELTER LN",
         "PLACE:THE LITTLE GYM");
@@ -351,7 +353,8 @@ public class NYSuffolkCountyCParserTest extends BaseParserTest {
     doTest("T1",
         "General Alarm, Auto Fire Alarm at 601 SUFFOLK AVE #201, BRENTWOOD  c/s: ADAMS AVE   O: LONG ISLAND EYE SURGICAL CARE . . 08:56:41",
         "CALL:General Alarm, Auto Fire Alarm",
-        "ADDR:601 SUFFOLK AVE #201",
+        "ADDR:601 SUFFOLK AVE",
+        "APT:201",
         "CITY:BRENTWOOD",
         "X:ADAMS AVE",
         "PLACE:LONG ISLAND EYE SURGICAL CARE");

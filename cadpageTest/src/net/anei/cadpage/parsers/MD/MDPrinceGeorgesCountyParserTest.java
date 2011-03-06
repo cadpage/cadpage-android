@@ -65,7 +65,8 @@ public class MDPrinceGeorgesCountyParserTest extends BaseParserTest {
         "SRC:27",
         "CALL:INJURED/SICK",
         "UNIT:A827",
-        "ADDR:6304 MAXWELL DR #4",
+        "ADDR:6304 MAXWELL DR",
+        "APT:4",
         "X:CARSWELL AV & MORRIS AV",
         "INFO:http://fireblitz.com/27/2.html");
       
