@@ -24,7 +24,7 @@ public class MDCharlesCountyParserTest extends BaseParserTest {
         "CALL:TROUBLE BREATHING, RESPIRATORY DISTRESS",
         "UNIT:EMS, ALS, 6C, 6D",
         "ADDR:3465 LAUREL DR",
-        "CODE:7 H3",
+        "MAP:7 H3",
         "INFO:65 year old, Female, Conscious, Breathing. Breathing Problems. Abnor");
 
     doTest("T3",
@@ -32,7 +32,7 @@ public class MDCharlesCountyParserTest extends BaseParserTest {
         "CALL:CO DETECTOR, CARBON MONOXIDE",
         "UNIT:8A",
         "ADDR:2204 JASON CT",
-        "CODE:7 K2",
+        "MAP:7 K2",
         "INFO:CALLER ADVISED HIS BSMT CO DETECTOR IS GOING OFF.",
         "ID:F103510001");
 
@@ -41,7 +41,7 @@ public class MDCharlesCountyParserTest extends BaseParserTest {
         "CALL:UNKNOWN MEDICAL ALARM",
         "UNIT:EMS, BLS, 32B",
         "ADDR:3487 HIGHGROVE DR",
-        "CODE:8 H5",
+        "MAP:8 H5",
         "INFO:Age unknown, Gender unknown, Consciousness unknown, Breathing status unknown. Unknown");
 
     doTest("T5",
@@ -49,14 +49,14 @@ public class MDCharlesCountyParserTest extends BaseParserTest {
         "CALL:10-50 PI",
         "UNIT:EMS, BLS, 29A",
         "ADDR:HAWTHORNE RD & CHICAMUXEN RD",
-        "CODE:7 F11",
+        "MAP:7 F11",
         "INFO:Age unknown, Gender unknown, Consciousness unknown, Breathing status unknown. Unknown n");
 
     doTest("T6",
         "(*CAD*) [CAD] MULTI FAMILY HOUSE FIRE, TOWNHOUSE, M/F, APARTMENT, 130 KALMIA CT 17 F6 DRYER ON FIRE / ADVISED TO GET OUT F103550006 1022816 12:07",
         "CALL:MULTI FAMILY HOUSE FIRE, TOWNHOUSE, M/F, APARTMENT",
         "ADDR:130 KALMIA CT",
-        "CODE:17 F6",
+        "MAP:17 F6",
         "INFO:DRYER ON FIRE / ADVISED TO GET OUT",
         "ID:F103550006");
 
@@ -64,7 +64,7 @@ public class MDCharlesCountyParserTest extends BaseParserTest {
         "Subject:*CAD*\n[CAD] GAS LEAK INSIDE\nA S/F SINGLE FAMILY DWELLING 5748 OAK CT 7 E11 SMELLS GAS INSIDE HOME AND IN GARAGE F103640012 102",
         "CALL:GAS LEAK INSIDE A S/F SINGLE FAMILY DWELLING",
         "ADDR:5748 OAK CT",
-        "CODE:7 E11",
+        "MAP:7 E11",
         "INFO:SMELLS GAS INSIDE HOME AND IN GARAGE",
         "ID:F103640012");
 
@@ -74,14 +74,14 @@ public class MDCharlesCountyParserTest extends BaseParserTest {
         "UNIT:EMS, ALS, 29B, 29D",
         "ADDR:9275 IRONSIDES RD RT 425",
         "PLACE:MT HOPE ELEM SCHOOL A/O",
-        "CODE:23 H4",
+        "MAP:23 H4",
         "INFO:-");
 
     doTest("T9",
         "Subject:*CAD*\n[CAD] GAS LEAK\nINSIDE A S/F SINGLE FAMILY DWELLING 5748 OAK CT 7 E11 SMELLS GAS INSIDE HOME AND IN GARAGE F103640012 102",
         "CALL:GAS LEAK INSIDE A S/F SINGLE FAMILY DWELLING",
         "ADDR:5748 OAK CT",
-        "CODE:7 E11",
+        "MAP:7 E11",
         "INFO:SMELLS GAS INSIDE HOME AND IN GARAGE",
         "ID:F103640012");
 
@@ -90,7 +90,7 @@ public class MDCharlesCountyParserTest extends BaseParserTest {
         "CALL:10-50 PI FIRE",
         "UNIT:EMS APPARATUS TRUCK AMBULANCE",
         "ADDR:HAWTHORNE RD & MANOR LA",
-        "CODE:15 J3",
+        "MAP:15 J3",
         "INFO:10-17 ADV SHE WAS ASSAULTED BY HER FRIEN");
 
     doTest("T11",
@@ -98,7 +98,7 @@ public class MDCharlesCountyParserTest extends BaseParserTest {
         "CALL:10-50 PI",
         "UNIT:EMS, BLS, 29A",
         "ADDR:HAWTHORNE RD & CHICAMUXEN RD",
-        "CODE:7 F11",
+        "MAP:7 F11",
         "INFO:Age unknown, Gender unknown, Consciousness unknown, Bre");
 
     doTest("T12",
@@ -106,14 +106,14 @@ public class MDCharlesCountyParserTest extends BaseParserTest {
         "CALL:COMMERCIAL BUILDING FIRE, STRUCTURE, BLDG",
         "ADDR:4975 HAWTHORNE RD",
         "PLACE:PENNYS TAVERN NEXT TO",
-        "CODE:7 C7",
+        "MAP:7 C7",
         "INFO:NEXT TO BLDG, CHILD CARE");
 
     doTest("T13",
         "Subject:*CAD*\n[CAD] UNDETERMINED FIRE INNSBRUCK CT / MASONS SPRING RD 14 K7 CALLER REPORTING LARGE FIRE VISIBLE A/F INNBRUCK CT,UNK WH",
         "CALL:UNDETERMINED FIRE",
         "ADDR:INNSBRUCK CT & MASONS SPRING RD",
-        "CODE:14 K7",
+        "MAP:14 K7",
         "INFO:CALLER REPORTING LARGE FIRE VISIBLE A/F INNBRUCK CT,UNK WH");
 
     doTest("T14",
@@ -122,7 +122,7 @@ public class MDCharlesCountyParserTest extends BaseParserTest {
         "UNIT:MOTORCYCLE, EMS, ALS, ATV, BICYCLE, BIKE, 29B, 29D",
         "ADDR:RIPLEY RD",
         "PLACE:2 MILES FROM ANNAPOLIS WOODS RD",
-        "CODE:15 F6",
+        "MAP:15 F6",
         "INFO:Age u");
 
     doTest("T15",
@@ -130,21 +130,21 @@ public class MDCharlesCountyParserTest extends BaseParserTest {
         "CALL:MULTI FAMILY HOUSE FIRE, TOWNHOUSE, M/F, APARTMENT",
         "ADDR:1 HICKORY LN",
         "APT:#307",
-        "CODE:17 G6",
+        "MAP:17 G6",
         "INFO:CALLER ADVISED HAS ODOR OF SMOKE");
 
     doTest("T16",
         "Subject:*CAD*\n[CAD] MULTI FAMILY HOUSE FIRE, TOWNHOUSE, M/F, APARTMENT, 28 FAIRHILL LN 6 H6 ODER OF SMOKE IN EQUIPMENT ROOM. F10338000",
         "CALL:MULTI FAMILY HOUSE FIRE, TOWNHOUSE, M/F, APARTMENT",
         "ADDR:28 FAIRHILL LN",
-        "CODE:6 H6",
+        "MAP:6 H6",
         "INFO:ODER OF SMOKE IN EQUIPMENT ROOM. F10338000");
 
     doTest("T17",
         "Subject:*CAD*\n[CAD] AFA - SINGLE FAMILY DWELLING, FIRE ALARM, S/F HOUSE 6445 MASON SPRINGS RD 15 A4 HALLWAY S/D, PHONE WAS PUT DOWN, N",
         "CALL:AFA - SINGLE FAMILY DWELLING, FIRE ALARM, S/F HOUSE",
         "ADDR:6445 MASON SPRINGS RD",
-        "CODE:15 A4",
+        "MAP:15 A4",
         "INFO:HALLWAY S/D, PHONE WAS PUT DOWN, N");
 
     doTest("T18",
@@ -153,8 +153,8 @@ public class MDCharlesCountyParserTest extends BaseParserTest {
         "UNIT:AMBULANCE, MISC",
         "ADDR:10200 LA PLATA RD (RT 488)",
         "PLACE:CCNH 109B",
-        "CODE:17 H6",
-        "INFO:-K4 NEEDED FOR MANPOWER",
+        "MAP:17 H6-K4",
+        "INFO:NEEDED FOR MANPOWER",
         "ID:F110610005");
   
   }
