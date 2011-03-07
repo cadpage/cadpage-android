@@ -54,6 +54,7 @@ public class GeneralParser extends SmartAddressParser {
   protected boolean parseMsg(String body, Data data) {
     
     // Accept anything, but only if there is a valid sender filter
+    if (! ManagePreferences.overrideFilter()) return false;
     if (ManagePreferences.filter().length() <= 1) return false;
     
     // Starting with CAD: confuses things
