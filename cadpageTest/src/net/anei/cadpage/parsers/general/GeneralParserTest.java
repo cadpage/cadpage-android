@@ -19,7 +19,7 @@ public class GeneralParserTest extends BaseParserTest {
   public static void classSetup() {
     TestManagePreferences pmgr = new TestManagePreferences();
     pmgr.setLocation("General");
-    pmgr.setOverrideDefault(true);
+    pmgr.setOverrideFilter(true);
     pmgr.setFilter("1112223333");
   }
   

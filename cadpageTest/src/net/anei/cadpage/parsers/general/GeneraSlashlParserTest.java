@@ -19,7 +19,7 @@ public class GeneraSlashlParserTest extends BaseParserTest {
   public static void classSetup() {
     TestManagePreferences pmgr = new TestManagePreferences();
     pmgr.setLocation("GeneralSlash");
-    pmgr.setOverrideDefault(true);
+    pmgr.setOverrideFilter(true);
     pmgr.setFilter("1112223333");
   }
   
