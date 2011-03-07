@@ -40,7 +40,7 @@ Subject:*CAD*\n[CAD] AFA - SINGLE FAMILY DWELLING, FIRE ALARM, S/F HOUSE 6445 MA
 public class MDCharlesCountyParser extends SmartAddressParser {
   
   private static final Pattern UNIT_PATTERN = Pattern.compile("(,? +(EMS|ALS|BLS|APPARATUS|TRUCK|AMBULANCE|MOTORCYCLE|ATV|BICYCLE|BIKE|MISC|\\d{1,2}[A-D]))+");
-  private static final Pattern CODE_PATTERN = Pattern.compile("\\b\\d{1,2} [A-Z]\\d{1,2}\\b");
+  private static final Pattern MAP_PATTERN = Pattern.compile("\\b\\d{1,2} [A-Z]\\d{1,2}(?:-[A-Z]\\d{1,2})?\\b");
   private static final Pattern ID_PATTERN = Pattern.compile("\\bF\\d{9}\\b");
   
   @Override
@@ -67,12 +67,12 @@ public class MDCharlesCountyParser extends SmartAddressParser {
     
     // There is almost always a code pattern (or whatever it really is)
     // marking the end of the address
-    int codeSt = -1;
-    int codeEnd = -1;
-    match = CODE_PATTERN.matcher(body);
+    int mapSt = -1;
+    int mapEnd = -1;
+    match = MAP_PATTERN.matcher(body);
     if (match.find()) {
-      codeSt = match.start();
-      codeEnd = match.end();
+      mapSt = match.start();
+      mapEnd = match.end();
     }
     
     // And we can usually find a unit pattern marking the beginning of the address
@@ -81,16 +81,16 @@ public class MDCharlesCountyParser extends SmartAddressParser {
     int unitEnd = -1;
     match = UNIT_PATTERN.matcher(body);
     while (match.find()) {
-      if (codeSt >= 0 && match.end() >= codeSt) break;
+      if (mapSt >= 0 && match.end() >= mapSt) break;
       unitSt = match.start();
       unitEnd = match.end();
     }
     
     // If there was a code match, strip off the code and trailing info
-    if (codeSt >= 0) {
-      data.strCode = body.substring(codeSt, codeEnd);
-      data.strSupp = body.substring(codeEnd).trim();
-      body = body.substring(0,codeSt).trim();
+    if (mapSt >= 0) {
+      data.strMap = body.substring(mapSt, mapEnd);
+      data.strSupp = body.substring(mapEnd).trim();
+      body = body.substring(0,mapSt).trim();
     }
     
     // If there was a unit match, strip off the leading call description and unit
@@ -106,7 +106,7 @@ public class MDCharlesCountyParser extends SmartAddressParser {
     // with a possible comma separated place
     // Dummy loop to break out of
     do {
-      if (codeSt >= 0 && unitSt >= 0) {
+      if (mapSt >= 0 && unitSt >= 0) {
         Parser p = new Parser(body);
         parseAddress(p.get(','), data);
         data.strPlace = p.get();
@@ -115,7 +115,7 @@ public class MDCharlesCountyParser extends SmartAddressParser {
       
       // We have some special logic if we have the end of the address marked
       // and we have comma separated fields in what is left
-      if (codeSt >= 0) {
+      if (mapSt >= 0) {
         int pt = body.lastIndexOf(',');
         if (pt >= 0) {
           
@@ -138,7 +138,7 @@ public class MDCharlesCountyParser extends SmartAddressParser {
       // Otherwise we have to use the smart parser to separate out what we didn't get
       StartType start = (unitSt >= 0 ? StartType.START_ADDR : StartType.START_CALL);
       // Otherwise we have to use the smart parser to separate out what we didn't get
-      int flags = (codeSt >= 0 ? FLAG_ANCHOR_END : 0);
+      int flags = (mapSt >= 0 ? FLAG_ANCHOR_END : 0);
       parseAddress(start, flags, body, data);
 
       if (data.strCall.endsWith(",")) data.strCall = data.strCall.substring(0, data.strCall.length()-1).trim();

@@ -985,12 +985,6 @@ More samples and explanations needed 3/2
   1439AVAIL:    
   1439
 **********************************************************
-Carroll County, MD
-Contact: Brett Pearce <brett.a.pearce@gmail.com>
-Sender: rc.380@c-msg.net <From%3Arc.380@c-msg.net>
-Need more info 3/2
-(Co12) [!] CT:UC 6513 CARROLL HIGHLANDS RD SYKE BOX:1211 DUE:X127 E123 [66]
-**********************************************************
 Aransas County, TX
 Contact: albert howie <stp89vision@yahoo.com>
 Sender: psccommunications@gmail.com
@@ -1759,6 +1753,47 @@ The Dispatcher is WECKENBROCK MICHAEL G
 **********************************************************
 ******        READY TO ROLL ******************************
 **********************************************************
+Carroll County, MD
+Contact: Brett Pearce <brett.a.pearce@gmail.com>
+Sender: @c-msg.net
+(Co12) [!] CT:UC 6513 CARROLL HIGHLANDS RD SYKE BOX:1211 DUE:X127 E123 [66]
+
+Contact: Shawn <countryfireman@gmail.com>
+(Co12) [!] CT:BLS SHOPPERS FOOD WHSE @6300 GEORGETOWN BLVD SYKE BOX:1224 DUE:X128 [69]
+(Co12) [!] CT:BLS 5584 COMPTON LA SYKE BOX:1214 DUE:X129 [70]
+[Co12] [!] CT:INVEST KABIK CT / RAILROAD DR E WOOD BOX:1204 DUE:B125 [68]
+(Co12) [!] CT:INVEST KABIK CT / RAILROAD DR E WOOD BOX:1204 DUE:B125 [68]
+(Co12) [!] CT:ALS 1820 VINCENZA DR @MARVIN GARDENS APT C SYKE BOX:1232 DUE:X128 [71]
+[Co14] [!] CT:SERVICE 3215 HOOPERS DELIGHT RD NWIN BOX:1411 DUE:U14 [18]
+(Co14) [!] CT:SERVICE 3215 HOOPERS DELIGHT RD NWIN BOX:1411 DUE:U14 [18]
+[Co14] [!] CT:BLS 5401 ENTERPRISE ST ; ALLEGRA PRINT SYKE BOX:1416 DUE:X149 [33]
+(Co14) [!] CT:BLS 5401 ENTERPRISE ST ; ALLEGRA PRINT SYKE BOX:1416 DUE:X149 [33]
+
+Need to retrieve lost subjects, need list of city codes
+
+There are a total of 14 companies in the county, not sure of their
+email/message address is but here is a list of companies in Carroll County,
+Maryland Fire and Rescue;
+
+Mt. Airy (Co1)
+Hampstead (Co2)
+Westminster (Co3)
+Manchester (Co4)
+Taneytown (Co5)
+Pleasant Valley (Co6)
+Lineboro (Co7)
+Union Bridge (Co8)
+Reese (Co9)
+New Windsor (Co10)
+Harney (Co11)
+Sykesville (Co12)
+Gamber (Co13)
+Winfield (Co14)
+
+SYKE
+WOOD
+NWIN
+**********************************************************
 Fluvanna County, VA
 Contact: brian powell <brianpowell307@gmail.com>
 Sender: 6245
@@ -1875,9 +1910,10 @@ RCVD AS 911\n
 COM:\n
 IN CAR CANNOT GET OUT NEEDS HELP UNABLE TO GET OUT DUE TO SOME UNKNO
 **********************************************************
-Santiam County, OR
+Marion County, OR
 Contact: "Gene Dershewitz" <geneder@wvi.com>
 Sender: denniss@santiam911.org
+Waiting for more info on text formats
 (INCIDENT INFO) MEDICAL 15192 LIBBY LN SE MAP 4922 ...FROM SANTIAM 911
 (INCIDENT INFO) MEDICAL 15192 LIBBY LN SE # 4922 ...FROM SANTIAM 911
 (INCIDENT INFO) MEDICAL 5654 MARION HILL RD SE MAP 4832A  ...FROM SANTIAM 911
