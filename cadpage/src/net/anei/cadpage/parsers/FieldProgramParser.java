@@ -791,6 +791,7 @@ public class FieldProgramParser extends SmartAddressParser {
       
       // Only remove links that do nothing and make no decisions
       if (! isSkipStep() || failLink != null) return;
+      if (succLink.getStep() == this) return;
       
       redirect(succLink.getStep(), succLink.getInc());
       
