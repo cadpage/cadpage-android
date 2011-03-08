@@ -139,7 +139,7 @@ public class SmsMmsMessageTest {
     doParseTest("MDHarford",
         "Subject:HCCAD\n[!] EOC:F03 WIRES >WIRES/POLE SHAWNEE DR&WALTERS MILL RD XS: WALTERS MILL RD FOREST HILL NOT ENTERED Cad: 2010-000019169",
         "ken@cadpage.org",
-        "!",
+        "HCCAD|!",
         "EOC:F03 WIRES >WIRES/POLE SHAWNEE DR&WALTERS MILL RD XS: WALTERS MILL RD FOREST HILL NOT ENTERED Cad: 2010-000019169");
     
     doParseTest("shortMsg",
@@ -163,7 +163,7 @@ public class SmsMmsMessageTest {
     doParseTest("(s1)[s2]",
         "(SUBJECT ONE) [ SUBJECT TWO ] HELLO BABE",
         "ken@cadpage.org",
-        "SUBJECT TWO",
+        "SUBJECT ONE|SUBJECT TWO",
         "HELLO BABE");
     
     doParseTest("VAWaynesboro",
