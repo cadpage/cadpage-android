@@ -467,15 +467,6 @@ Nassau County, NY (NYNassauCountyParser)
 ***SIG 9***  AMBU  27 PINE DR N [ROSLYN] c/s: PINE (S) DR/VERITY LA ADTNL: DIFF BREATHING GRID: K-14 TOA: 21:16 11/30/2010
 ***CHIEF***  AUTO BAR FRITES 400 WHEATLEY PLAZ [GREENVALE] c/s: GLEN COVE ROAD/NORTHERN BLVD ADTNL: ZONE 20 GRID: M-13 TOA: 18:28 11/30/2010
 ***SIG 9***  AMBU BURGER KING 110 NORTHERN BLVD [GREENVALE] c/s: TOWN PATH/GLEN COVE ROAD ADTNL: FEMALE FEELING FAINT GRID: M-13 TOA: 16:19 11/30/2010
-***MVA***  SERVICE ROAD N [OLD WESTBURY] c/s: RED GROUND ROAD/ ADTNL:  GRID: N-15 TOA: 15:45 11/30/2010
-***SIG 8***  AUTO HARBOR HILLS PHARMACY 310 GLEN COVE ROAD [EAST HILLS] c/s: KENNEDY ROAD/RED GROUND ROAD ADTNL: WATERFLOW/565375563 GRID: N-14 TOA: 13:25
-***SIG 8***  PROP  15 POPLAR DR [EAST HILLS] c/s: CHESTNUT DR/APPLETREE LA ADTNL: BBQ NEXT TO DECK GRID: L-14 TOA: 18:10 11/29/2010
-***SIG 8***  AUTO  27 WAGON ROAD [EAST HILLS] c/s: SALEM ROAD/WINTHROP ROAD ADTNL: 56A2582/ GOLDFETTER RES GRID: M-14 TOA: 21:24 12/04/2010
-***SIG 9***  AMBU SUN HARBOR MANOR HEALTH FACILITY 255 WARNER AVE [ROSLYN] c/s: .CARLYLE PL/.ST MARKS PL ADTNL: 3RD FL-3 NORTH-CHEST PAINS GRID: L-15 TOA:
-***CHIEF***  AUTO  1506 OLD NORTHERN BLVD [ROSLYN] c/s: BRYANT AVE/NORTHERN BLVD ADTNL: FRATELLI MARKET PL-5612934-SMK DET GRID: L-13 TOA: 16:59 12/04/201
-***GENERAL***  BUIL GREAT SHAPES 190 MINEOLA AVE [ROSLYN HEIGHTS] c/s: HIGH ST/POWERHOUSE ROAD ADTNL: ODOR OF BURNING IN BLD-GREAT SHAPES GRID: K-15 TOA:
-***SIG 8***  AUTO PIERCE DAY CAMP 37 MINEOLA AVE [ROSLYN] c/s: REGENT PL/GLEN AVE ADTNL: MANSION/NO PERMIT GRID: K-14 TOA: 08:32 12/07/2010
-***CHIEF***  INVES  52 THE HEMLOCKS [ROSLYN ESTATES] c/s: SOUTH BRANCH/THE PINES ADTNL: SOMETHING BEEPING IN HOUSE GRID: J-15 TOA: 08:07 12/07/2010
 ***************************************************************************
 Martinez, GA (GAMartinezParser)
 Working structure fire!  Assistance is needed if available.\nAddress: 611 KETTLE CREEK DR\nDO NOT CALL DISPATCH!!!! (Reported on 11/21/2010 @ 12:39:39 AM)
@@ -707,6 +698,10 @@ FD20 C-5 FIRE ALARM, 347 JENNINGS RD
 FR200 FALL, HAWKS RD
 FD20 C-36 STAND BY AT BASE, 641 MOCKSVILLE HWY
 ***************************************************************************
+Carroll County, MD
+(Co12) [!] CT:UC 6513 CARROLL HIGHLANDS RD SYKE BOX:1211 DUE:X127 E123 [66]
+(Co12) [!] CT:BLS SHOPPERS FOOD WHSE @6300 GEORGETOWN BLVD SYKE BOX:1224 DUE:X128 [69]
+(Co12) [!] CT:BLS 5584 COMPTON LA SYKE BOX:1214 DUE:X129 [70]
 ***************************************************************************
 ***************************************************************************
 ***************************************************************************
@@ -1053,6 +1048,8 @@ off inparking garage [01/12/11 22:10:44 DLOCASCIO]:2of2
 39:CAD:FYI: ;NBFD;FIRE ALARM;18101 POINT LOOKOUT DR;NB;NB;01/12/2011 22:10:16;TRASHROOM 1 SMOKE DETECTOR [01/12/11 22:11:43 NHUGHES] fire alarms going :1of2
 40:CAD:FYI: ;NBFD;STRUCTURE FIRE;1020-264 W NASA PKWY;WB;WBW;01/13/2011 11:46:25;smoke inside [01/13/11 11:45:40 TSWANSON]
 41:CAD:FYI: ;NBFD;ACCIDENT MAJOR;NASA PKWY/ST JOHN BLVD;HO;NB;01/18/2011 12:53:59
+CAD:FYI: ;NBFD;UNCONSCIOUS;1427 SAXONY LN;NB;NB;03/06/2011 14:30:40;female down in bathroom [03/06/11 14:30:28 DCOOLEY
+CAD:FYI: ;NBFD;ASSIST BY FIRE;3000 E NASA PKWY;SB;03/06/2011 15:38:43;boat [03/06/11 15:35:58 DCOOLEY]
 **********************************************************
 Cy-Fair Volunteer FD (Harris County, TX)
 Contact: "Steven Lindsay" <steven@snl-ent.com>
@@ -1753,46 +1750,6 @@ The Dispatcher is WECKENBROCK MICHAEL G
 **********************************************************
 ******        READY TO ROLL ******************************
 **********************************************************
-Carroll County, MD
-Contact: Brett Pearce <brett.a.pearce@gmail.com>
-Sender: @c-msg.net
-(Co12) [!] CT:UC 6513 CARROLL HIGHLANDS RD SYKE BOX:1211 DUE:X127 E123 [66]
-
-Contact: Shawn <countryfireman@gmail.com>
-(Co12) [!] CT:BLS SHOPPERS FOOD WHSE @6300 GEORGETOWN BLVD SYKE BOX:1224 DUE:X128 [69]
-(Co12) [!] CT:BLS 5584 COMPTON LA SYKE BOX:1214 DUE:X129 [70]
-[Co12] [!] CT:INVEST KABIK CT / RAILROAD DR E WOOD BOX:1204 DUE:B125 [68]
-(Co12) [!] CT:INVEST KABIK CT / RAILROAD DR E WOOD BOX:1204 DUE:B125 [68]
-(Co12) [!] CT:ALS 1820 VINCENZA DR @MARVIN GARDENS APT C SYKE BOX:1232 DUE:X128 [71]
-[Co14] [!] CT:SERVICE 3215 HOOPERS DELIGHT RD NWIN BOX:1411 DUE:U14 [18]
-(Co14) [!] CT:SERVICE 3215 HOOPERS DELIGHT RD NWIN BOX:1411 DUE:U14 [18]
-[Co14] [!] CT:BLS 5401 ENTERPRISE ST ; ALLEGRA PRINT SYKE BOX:1416 DUE:X149 [33]
-(Co14) [!] CT:BLS 5401 ENTERPRISE ST ; ALLEGRA PRINT SYKE BOX:1416 DUE:X149 [33]
-
-Need to retrieve lost subjects, need list of city codes
-
-There are a total of 14 companies in the county, not sure of their
-email/message address is but here is a list of companies in Carroll County,
-Maryland Fire and Rescue;
-
-Mt. Airy (Co1)
-Hampstead (Co2)
-Westminster (Co3)
-Manchester (Co4)
-Taneytown (Co5)
-Pleasant Valley (Co6)
-Lineboro (Co7)
-Union Bridge (Co8)
-Reese (Co9)
-New Windsor (Co10)
-Harney (Co11)
-Sykesville (Co12)
-Gamber (Co13)
-Winfield (Co14)
-
-SYKE = SKYSVILLE
-WOOD = WOODBINE
-NWIN = NEW WINDSOR
 **********************************************************
 Fluvanna County, VA
 Contact: brian powell <brianpowell307@gmail.com>

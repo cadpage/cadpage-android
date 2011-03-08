@@ -286,13 +286,12 @@ public class SmsMmsMessage implements Serializable {
           parseAddress = body.substring(pt2, pt3).trim();
           pt1 = pt3;
           pt3 = body.indexOf("\nSUBJ:", pt1);
-          parseSubject = "";
           if (pt3 >= 0) {
             pt1 = pt3;
             pt2 = pt3 + 6;
             pt3 = body.indexOf('\n', pt2);
             if (pt3 >= 0) {
-              parseSubject = body.substring(pt2, pt3);
+              addSubject(body.substring(pt2, pt3));
               pt1 = pt3;
             }
           }
@@ -329,7 +328,6 @@ public class SmsMmsMessage implements Serializable {
       if (ipt >= 0) {
         parseAddress = body.substring(0, ipt).trim();
         if (parseAddress.contains("@")) {
-          parseSubject = "";
           body = body.substring(ipt+4).trim();
           break;
         }
@@ -341,7 +339,7 @@ public class SmsMmsMessage implements Serializable {
       if (body.startsWith("Subject:")) {
         ipt = body.indexOf('\n');
         if (ipt >= 0) {
-          parseSubject = body.substring(8,ipt).trim();
+          addSubject(body.substring(8,ipt).trim());
           body = body.substring(ipt+1).trim();
           break;
         }
@@ -375,7 +373,7 @@ public class SmsMmsMessage implements Serializable {
        */
       match = S_M_PATTERN.matcher(body);
       if (match.find()) {
-        parseSubject = match.group(1);
+        addSubject(match.group(1));
         body = body.substring(match.end()).trim();
         break;
       }
@@ -411,7 +409,7 @@ public class SmsMmsMessage implements Serializable {
         if (c == d1) level++;
         if (c == d2) level--;
         if (level == 0) {
-          parseSubject = body.substring(pt1+1, pt2).trim();
+          addSubject(body.substring(pt1+1, pt2).trim());
           pt1 = pt2+1;
           break;
         }
@@ -420,6 +418,12 @@ public class SmsMmsMessage implements Serializable {
     }
     
     parseMessageBody = body.substring(pt1);
+  }
+  
+  public void addSubject(String subject) {
+    if (subject.length() == 0) return;
+    if (parseSubject.length() == 0) parseSubject = subject;
+    else parseSubject = parseSubject + '|' + subject;
   }
   
 

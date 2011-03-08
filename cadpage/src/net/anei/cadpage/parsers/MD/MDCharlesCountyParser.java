@@ -57,7 +57,7 @@ public class MDCharlesCountyParser extends SmartAddressParser {
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     
-    if (! subject.equals("CAD") && ! subject.equals("*CAD*")) return false;
+    if (! subject.equals("*CAD*|CAD")) return false;
     
     Matcher match = ID_PATTERN.matcher(body);
     if (match.find()) {

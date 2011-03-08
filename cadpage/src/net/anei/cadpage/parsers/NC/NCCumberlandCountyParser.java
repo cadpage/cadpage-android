@@ -31,7 +31,11 @@ public class NCCumberlandCountyParser extends DispatchOSSIParser {
   
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
-    if (subject.equals("S") || subject.equals("N")) {} 
+    if (subject.endsWith("|N")) {
+      subject = subject.substring(0,subject.length()-2);
+      body = "(N) " + body;
+    }
+    if (subject.equals("S")) {} 
     else if (body.startsWith("CAD:(S)")) {
       body = body.substring(7).trim();
     } else return false;

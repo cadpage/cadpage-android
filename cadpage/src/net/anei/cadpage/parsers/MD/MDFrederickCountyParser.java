@@ -74,7 +74,14 @@ public class MDFrederickCountyParser extends SmartAddressParser {
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     
-    if (!subject.equals("FredCo") && !subject.equals("CAD")) return false;
+    String[] subjects = subject.split("\\|");
+    if (subjects.length > 2) return false;
+    if (subjects.length == 2) {
+      if (subjects[0].equals("CAD")) subject = subjects[1];
+      else if (subjects[1].equals("CAD")) subject = subjects[0];
+      else return false;
+    }
+    if (!subject.equals("FredCo")) return false;
     
     // If there is a : right after city then there is Supp data between City Code and ESZ:
     

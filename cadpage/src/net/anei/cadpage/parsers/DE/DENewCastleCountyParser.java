@@ -34,8 +34,10 @@ public class DENewCastleCountyParser extends FieldProgramParser {
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
-    if (! subject.equals("FB")) return false;
+    String[] subjects = subject.split("\\|");
+    if (! subjects[subjects.length-1].equals("FB")) return false;
     if (! body.startsWith("F00 ")) return false;
+    if (subjects.length == 2) data.strSource = subjects[0]; 
     return super.parseMsg(body, data);
   }
   
@@ -68,6 +70,11 @@ public class DENewCastleCountyParser extends FieldProgramParser {
   public Field getField(String name) {
     if (name.equals("ADDR")) return new MyAddressField();
     return super.getField(name);
+  }
+
+  @Override
+  public String getProgram() {
+    return "SRC " + super.getProgram();
   }
 }
 

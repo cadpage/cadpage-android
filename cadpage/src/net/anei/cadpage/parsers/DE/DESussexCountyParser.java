@@ -69,6 +69,12 @@ public class DESussexCountyParser extends SmartAddressParser {
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
 
+    String[] subjects = subject.split("\\|");
+    if (subjects.length > 2) return false;
+    if (subjects.length == 2) {
+      if (!subjects[0].equals("Chief ALT")) return false;
+      subject = subjects[1];
+    }
     data.strSource = subject;
     
     if (!body.startsWith("-- ")) return false;

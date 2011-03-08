@@ -40,7 +40,7 @@ public class COLarimerCountyParser extends FieldProgramParser {
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     
-    if (!subject.equals("CFS")) return false;
+    if (!subject.equals("BFPD|CFS")) return false;
 
     String[] flds = SEPARATOR.split(body);
     return parseFields(flds, data);
