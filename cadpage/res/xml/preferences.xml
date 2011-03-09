@@ -358,6 +358,13 @@
           android:defaultValue="@string/pref_msgtimeout_default"/>
           
       <CheckBoxPreference
+          android:key="@string/pref_split_blank_ins_key"
+          android:title="@string/pref_split_blank_ins_title"
+          android:summaryOn="@string/pref_split_blank_ins_summaryon"
+          android:summaryOff="@string/pref_split_blank_ins_summaryoff"
+          android:defaultValue="@string/pref_split_blank_ins_default" />
+          
+      <CheckBoxPreference
           android:key="@string/pref_suppress_dup_msg_key"
           android:title="@string/pref_suppress_dup_msg_title"
           android:summaryOn="@string/pref_suppress_dup_msg_summaryon"

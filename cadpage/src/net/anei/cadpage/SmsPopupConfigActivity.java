@@ -304,10 +304,12 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
   // Ditto if history screen text size changes
   private String oldLocation = null;
   private String oldTextSize =null;
+  private boolean oldSplitBlank = false;
   @Override
   protected void onStart() {
     oldLocation = ManagePreferences.location();
     oldTextSize = ManagePreferences.textSize();
+    oldSplitBlank = ManagePreferences.splitBlankIns();
     super.onStart();
   }
   
@@ -316,6 +318,8 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
     super.onStop();
     String location = ManagePreferences.location();
     String textSize = ManagePreferences.textSize();
+    boolean splitBlank = ManagePreferences.splitBlankIns();
+    if (splitBlank != oldSplitBlank) SmsMessageQueue.getInstance().splitDelimChange();
     if (! location.equals(oldLocation) || ! textSize.equals(oldTextSize)) {
       SmsMessageQueue.getInstance().notifyDataChange();
     }

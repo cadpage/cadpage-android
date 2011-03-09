@@ -82,6 +82,24 @@ public class SmsMessageQueue implements Serializable {
     }
   }
   
+  
+  /**
+   * Rebuild parse information (if necessary) after the insert blanks between
+   * spit message option has changed
+   */
+  public void splitDelimChange() {
+    boolean change = false;
+    for (SmsMmsMessage msg : queue) {
+      if (msg.splitDelimChange()) change = true;
+    }
+    if (change) notifyDataChange();
+  }
+
+  
+  /**
+   * Notify call history list that something has changed and view needs to 
+   * be refreshed
+   */
   public void notifyDataChange() {
 	  if (Log.DEBUG) Log.v("SmsMessageQueue: notifyDataChange");  
     if (adapter != null) adapter.notifyDataSetChanged();

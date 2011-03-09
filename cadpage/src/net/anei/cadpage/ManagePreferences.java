@@ -17,7 +17,7 @@ public class ManagePreferences {
   // (OK, if you know what you are doing, and the only new settings added
   // are boolean settings that default to false, you can get away with not
   // changing this)
-  private static final int PREFERENCE_VERSION = 8;
+  private static final int PREFERENCE_VERSION = 9;
   
   private static ManagePreferences prefs;
 
@@ -172,6 +172,10 @@ public class ManagePreferences {
   
   public static int partMsgTimeout() {
     return prefs.getIntValue(R.string.pref_msgtimeout_key);
+  }
+  
+  public static boolean splitBlankIns() {
+    return prefs.getBoolean(R.string.pref_split_blank_ins_key);
   }
   
   public static boolean suppressDupMsg() {
@@ -339,6 +343,7 @@ public class ManagePreferences {
         R.string.pref_defstate_key,
         R.string.pref_loglimit_key,
         R.string.pref_msgtimeout_key,
+        R.string.pref_split_blank_ins_key,
         R.string.pref_suppress_dup_msg_key,
         
         R.string.pref_notif_enabled_key,

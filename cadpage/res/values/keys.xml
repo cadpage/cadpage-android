@@ -72,6 +72,7 @@
    <string name="pref_msgtimeout_key">msgtimeout</string>
    <string name="pref_email_key">emaildev</string>
    <string name="pref_history_limit_key">historylimit</string>
+   <string name="pref_split_blank_ins_key">splitBlankIns</string>
    <string name="pref_suppress_dup_msg_key">supDupMsg</string>
    <string name="settings_key">settings</string>
    <string name="pref_passthrusms_key">passthrusms</string>

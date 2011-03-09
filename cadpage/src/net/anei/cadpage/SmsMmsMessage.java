@@ -174,7 +174,8 @@ public class SmsMmsMessage implements Serializable {
   public void merge(SmsMmsMessage message) {
     if (extraMsgBody == null) extraMsgBody = new ArrayList<String>();
     extraMsgBody.add(message.messageBody);
-    parseMessageBody = parseMessageBody + " " + message.parseMessageBody;
+    String delim = (ManagePreferences.splitBlankIns() ? " " : "");
+    parseMessageBody = parseMessageBody + delim + message.parseMessageBody;
     expectMore = message.expectMore;
   }
   
@@ -184,8 +185,29 @@ public class SmsMmsMessage implements Serializable {
   private void readObject(java.io.ObjectInputStream stream)
   throws IOException, ClassNotFoundException {
     stream.defaultReadObject();
+    rebuildParseInfo();
+  }
+  
+  /**
+   * Rebuild parse information (if necessary) after the insert blanks between
+   * spit message option has changed
+   * @return true if message parse information may have changed
+   */
+  public boolean splitDelimChange() {
+    
+    // If this isn't a split CAD page, then nothing needs to be done
+    if (extraMsgBody == null) return false;
+    
+    // Otherwise rebuild the parse message body
+    info = null;
+    rebuildParseInfo();
+    return true;
+  }
+
+  private void rebuildParseInfo() {
     getParseInfo();
     if (extraMsgBody != null) {
+      String delim = (ManagePreferences.splitBlankIns() ? " " : "");
       for (String msgBody : extraMsgBody) {
         String saveAddress = parseAddress;
         String saveSubject = parseSubject;
@@ -194,7 +216,7 @@ public class SmsMmsMessage implements Serializable {
         getParseInfo(msgBody);
         parseAddress = saveAddress;
         parseSubject = saveSubject;
-        parseMessageBody = saveBody + " " + parseMessageBody;
+        parseMessageBody = saveBody + delim + parseMessageBody;
       }
     }
   }
