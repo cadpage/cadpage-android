@@ -4,7 +4,7 @@ import net.anei.cadpage.SmsMsgInfo.Data;
 import net.anei.cadpage.parsers.FieldProgramParser;
 
 /*
-Ocean City, MD  (Not using county dispatch :( )
+Ocean City, MD 
 Contact: Flyin619...@gmail.com
 Sender: msg@cfmsg.com
 
@@ -42,7 +42,14 @@ public class MDOceanCityParser extends FieldProgramParser {
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
     
-    data.strSource = subject;
+    String[] subjects = subject.split("\\|");
+    if (subjects.length != 2 || !subjects[0].equals("Chief ALT")) return false;
+    data.strSource = subjects[1];
+
+    address1 = null;
+    address2 = null;
+    addrStat1 = -1;
+    addrStat2 = -1;
     
     // The OCMD city codes just confused things, better to get rid of them
     body = body.replaceAll(" OCMD ", " ");
@@ -84,5 +91,10 @@ public class MDOceanCityParser extends FieldProgramParser {
   protected Field getField(String name) {
     if (name.equals("ADDR")) return new MyAddressField();
     return super.getField(name);
+  }
+  
+  @Override
+  public String getProgram() {
+    return "SRC " + super.getProgram();
   }
 }
