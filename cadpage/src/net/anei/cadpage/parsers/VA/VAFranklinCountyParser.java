@@ -15,9 +15,6 @@ MAILBOX:S07 EMS-PATIENT FALLEN 3005 GREEN LEVEL RD RMT CFS# 2010-030541 CROSS: G
 MAILBOX:S07 EMS-CARDIAC VIRGIL H GOODE HWY & LINK ST RMT CFS# 2010-030580
 MAILBOX:S07 EMS-HIGH BLOOD PRESSURE 1808 BETHLEHEM RD BML CFS# 2010-030643 CROSS: BETHANY RD/DILLONS MILL RD
 MAILBOX:C07 FIRE-ALARM COMMERCIAL 3325 GRASSY HILL RD RMT CFS# 2010-033866 CROSS: JAMESTOWN RD/CALLAWAY RD
-
-Contact: jeremy smith <countrydude79@gmail.com>
-S: M:MAILBOX:DP1 ACCIDENT-INJURY 330 FRANKLIN ST RMT CFS# 2011-000224 CROSS: CLAIBORNE AVE/CHURCH ST
 */
 
 public class VAFranklinCountyParser extends DispatchDAPROParser {
@@ -32,13 +29,13 @@ public class VAFranklinCountyParser extends DispatchDAPROParser {
 
   
   public VAFranklinCountyParser() {
-	  super(CITY_CODE_TABLE, "FRANKLIN COUNTY", "VA");
+    super(CITY_CODE_TABLE, "FRANKLIN COUNTY", "VA");
   }
-		  
+      
   
   @Override
   public String getFilter() {
     return "mailbox@franklincountyva.org";
   }
-  
+
 }

@@ -40,7 +40,7 @@ public class DispatchDAPROParser extends SmartAddressParser {
 	
   private static final String[] KEYWORDS = new String[]{"LOC", "CFS", "CROSS"};
   
-  private static final Pattern MARKER = Pattern.compile("([SRC]\\d\\d|DP\\d)\\b");
+  private static final Pattern MARKER = Pattern.compile("([SRC]\\d\\d|DP\\d|RS\\d)\\b");
   
   public DispatchDAPROParser(Properties cityCodeTable, String defCity, String defState) {
     super(cityCodeTable, defCity, defState);
