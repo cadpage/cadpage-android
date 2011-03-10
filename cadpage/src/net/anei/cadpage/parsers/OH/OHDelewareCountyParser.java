@@ -1,7 +1,6 @@
 package net.anei.cadpage.parsers.OH;
 
-import net.anei.cadpage.SmsMsgInfo.Data;
-import net.anei.cadpage.parsers.SmsMsgParser;
+import net.anei.cadpage.parsers.dispatch.DispatchA1Parser;
 
 /*
 Deleware County, OH
@@ -16,7 +15,7 @@ Sender: 911@co.delaware.oh.us
  */
 
 
-public class OHDelewareCountyParser extends SmsMsgParser {
+public class OHDelewareCountyParser extends DispatchA1Parser {
   
   public OHDelewareCountyParser() {
     super("DELEWARE COUNTY", "OH");
@@ -25,44 +24,5 @@ public class OHDelewareCountyParser extends SmsMsgParser {
   @Override
   public String getFilter() {
     return "911@co.delaware.oh.us";
-  }
-  
-  @Override
-  protected boolean parseMsg(String subject, String body, Data data) {
-    
-    if (! subject.startsWith("Alert: ")) return false;
-    data.strCall = subject.substring(7).trim();
-
-    String[] lines = body.split("\n");
-    
-    // First line is ignored
-        
-    // Second line always contains LOC: keyword
-    if (lines.length <= 1) return false;
-    if (!lines[1].equals("LOC:")) return false;
-
-    // The location section may contain 2 or 3 lines
-    // Skip ahead to find the cross street line and work backward from it
-    int ndx = 4;
-    for ( ; ndx<=5; ndx++) {
-      if (ndx >= lines.length) return false;
-      String line = lines[ndx];
-      if (line.startsWith("BTWN: ")) {
-        data.strCross = line.substring(6).trim();
-        break;
-      }
-    }
-    if (ndx > 5) return false;
-    
-    // Line just before the cross street lines contains the town
-    data.strCity = lines[--ndx];
-    
-    // Line before that contains the address
-    parseAddress(lines[--ndx], data);
-    
-    // If there is a line before that, it contains the place name
-    if (--ndx > 1) data.strPlace = lines[ndx];
-    
-    return true;
   }
 }

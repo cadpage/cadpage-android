@@ -223,6 +223,27 @@ Lee County, FL
 10118004821 TYP: CHEST PAINS AD: 885 ARAPAHO TRL CTY: FORT MYERS LOC: INDIAN CREEK CN: HANKS, ROBIN & DEAN CMT1: CHEST PAIN (NON TRAUMATI CMT2: Original Location : INDIAN CREEK TIME: 18:29 FBFBA32 FBFBE33 XST: 1205 SHASTA TRL XST2: 1211 SHASTA TRL
 *******************************************************************************
 *******************************************************************************
+* DispatchA1Parser subclasses
+*******************************************************************************
+*******************************************************************************
+Deleware County, OH (OHDelewareCountyParser)
+(Alert: Service Run-Fire) ALRM LVL: 1\nLOC:\n210 BIG RUN RD\nBERLIN TWP\nBTWN: STATE ROUTE 37 E & SOUTH END\nRCVD AS Radio\n\nCOM:\n\nCT:\n9961 at POS 05
+(Alert: Unresponsive / Unconscious) ALRM LVL: 1\nLOC:\n4114 CURVE RD\nBERLIN TWP\nBTWN: WINDING CREEK LN & LACKEY OLD STATE RD\nRCVD AS E-911 Call\nCOM:\nPROQA Urg
+(Alert: Gas Leak-Residential) ALRM LVL: 1\nLOC:\n210 BIG RUN RD\nBERLIN TWP\nBTWN: STATE ROUTE 37 E & SOUTH END\n\nCOM:\nPROQA Urgent Message: basement\nPROQA Urgen
+(Alert: Fire-Vehicle) ALRM LVL: 1\nLOC:\nALUM CREEK BIG RUN PARKING LOT NORTH (UPPER)\n606 BIG RUN RD\nBERLIN TWP\nBTWN: STATE ROUTE 37 E & SOUTH END\n\nCOM:\nVEHIC
+(Alert: Auto Accident Injuries) ALRM LVL: 1\nLOC:\nSHANAHAN RD/COLUMBUS PIKE\nBERLIN TWP\nBTWN: COLUMBUS PIKE & NORTH RD IN ORANGE TWP\n\nRCVD AS Cellular 911\nCOM:
+*******************************************************************************
+Morrow County, OH (OHMorrowCountyParser)
+(Alert: MVA) ALRM LVL: 1\nLOC:\n3556 RD 145\nGILEAD TWP\nBTWN: RD 9 & RD 30\n\nCOM:\nCAR FLIPPED\n1 CAR\n\nCT:\nBRM at POS 02
+(Alert: Fire Occupied Structure) ALRM LVL: 1\nLOC:\n2681 RD 254\nLINCOLN TWP\nBTWN: RD 155 & DEAD END\n\nRCVD AS 911\n\nCOM:\nCHIMNEY FIRE\nGETTING EVERYONE OUT OF THE HOUSE
+(Alert: MVA) ALRM LVL: 1\nLOC:\n156 I-71\nPERRY TWP\nBTWN: MM 156 & MM 158\n\nRCVD AS 911\n\nCOM:\nNB\n2 SEMI\nUNK IF OTHER SEMI IS CARRYING ANY HAZMAT\nACCIDENT IS SPREAD OUT
+*******************************************************************************
+Erlanger Dispatch, KY (KYErlangerDispatchParser)
+(Alert: Fire Structure) ALRM LVL: 1\nLOC:\n709 ORCHARD ST\nELSMERE\nBTWN: MAIN ST & LYTLE AV\n\nRCVD AS E-911 Call\n\nCOM:\nSMOKE FILLED BASEMENT\nHEARD A POP\n\nCT:\n22-
+(Alert: Fire Structure) ALRM LVL: 1\nLOC:\n3812 HARVEST WY\nELSMERE\nBTWN: HARVEST LN & N/A
+(Alert: Fire Structure) ALRM LVL: 1\nLOC:\n416 ELKEN PL\nELSMERE\nBTWN: MAPLE AV & CALDWELL DR
+*******************************************************************************
+*******************************************************************************
 * Suffolk County NY Collection
 *******************************************************************************
 *******************************************************************************
@@ -548,18 +569,6 @@ Union County, NC (NCUnionCountyParser)
 CAD:5413 MONROE ANSONVILLE RD;CHEST PAIN EMD;S09;B-CF2;CLARK ST;ANSONVILLE RD;01/26/2011 05:41:48
 CAD:226 S MAIN ST;GATEWOOD VILLAGE;FIRE ALARM EFD;S09;B2;HINSON ST;GOODWILL LN;01/16/2011 14:04:24
 CAD:1299 WITMORE RD/OLD MONROE MARSHVILLE RD;ACCIDENT EMD;S09;B-CF2;01/21/2011 16:59:15
-***************************************************************************
-Deleware County, OH
-(Alert: Service Run-Fire) ALRM LVL: 1\nLOC:\n210 BIG RUN RD\nBERLIN TWP\nBTWN: STATE ROUTE 37 E & SOUTH END\nRCVD AS Radio\n\nCOM:\n\nCT:\n9961 at POS 05
-(Alert: Unresponsive / Unconscious) ALRM LVL: 1\nLOC:\n4114 CURVE RD\nBERLIN TWP\nBTWN: WINDING CREEK LN & LACKEY OLD STATE RD\nRCVD AS E-911 Call\nCOM:\nPROQA Urg
-(Alert: Gas Leak-Residential) ALRM LVL: 1\nLOC:\n210 BIG RUN RD\nBERLIN TWP\nBTWN: STATE ROUTE 37 E & SOUTH END\n\nCOM:\nPROQA Urgent Message: basement\nPROQA Urgen
-(Alert: Fire-Vehicle) ALRM LVL: 1\nLOC:\nALUM CREEK BIG RUN PARKING LOT NORTH (UPPER)\n606 BIG RUN RD\nBERLIN TWP\nBTWN: STATE ROUTE 37 E & SOUTH END\n\nCOM:\nVEHIC
-(Alert: Auto Accident Injuries) ALRM LVL: 1\nLOC:\nSHANAHAN RD/COLUMBUS PIKE\nBERLIN TWP\nBTWN: COLUMBUS PIKE & NORTH RD IN ORANGE TWP\n\nRCVD AS Cellular 911\nCOM:
-***************************************************************************
-Morrow County, OH (OHMorrowCountyParser)
-(Alert: MVA) ALRM LVL: 1\nLOC:\n3556 RD 145\nGILEAD TWP\nBTWN: RD 9 & RD 30\n\nCOM:\nCAR FLIPPED\n1 CAR\n\nCT:\nBRM at POS 02
-(Alert: Fire Occupied Structure) ALRM LVL: 1\nLOC:\n2681 RD 254\nLINCOLN TWP\nBTWN: RD 155 & DEAD END\n\nRCVD AS 911\n\nCOM:\nCHIMNEY FIRE\nGETTING EVERYONE OUT OF THE HOUSE
-(Alert: MVA) ALRM LVL: 1\nLOC:\n156 I-71\nPERRY TWP\nBTWN: MM 156 & MM 158\n\nRCVD AS 911\n\nCOM:\nNB\n2 SEMI\nUNK IF OTHER SEMI IS CARRYING ANY HAZMAT\nACCIDENT IS SPREAD OUT
 ***************************************************************************
 Xenia township, OH (OHXeniaParser)
 MBLS-MEDICAL Location: 160 RICHARD DR DAYTON XENIA RD / ROBERT LN XENIA TWP Time: 17:31 Units: M51  Common
@@ -1620,107 +1629,6 @@ RCVD AS Phone
 COM:
 RAPID HEART BEAT
 87 YOF CARDIAC HX. CHARLIE
-**********************************************************
-Erlanger Dispatch, KY (in Kenton County)
-Contact: "Jeremy Sheehan" <jsheehan@elsmerefd.com>
-Sender: pscc@ci.erlanger.ky.us
-(12 users waiting for this)
-
-(Alert: Fire Structure) ALRM LVL: 1\n
-LOC:\n
-709 ORCHARD ST\n
-ELSMERE\n
-BTWN: MAIN ST & LYTLE AV\n
-\n
-RCVD AS E-911 Call\n
-\n
-COM:\n
-SMOKE FILLED BASEMENT\n
-HEARD A POP\n
-\n
-CT:\n
-22-
-
-ALRM LVL: 1
-LOC:
-3812 HARVEST WY
-ELSMERE
-BTWN: HARVEST LN & N/A
-
-ALRM LVL: 1
-LOC:
-416 ELKEN PL
-ELSMERE
-BTWN: MAPLE AV & CALDWELL DR
-
-ALRM LVL: 1
-LOC:
-1028 CAPITOL AV
-1
-ELSMERE
-BTWN: GALVIN ST & N/A
-
-ALRM LVL: 1
-LOC:
-ELSMERE FIRE DEPARTMENT
-401 GARVEY AV
-ELSMERE
-BTWN: ASH ST & PALACE AV
-
-ALRM LVL: 1
-LOC:
-LANIGAN'S
-4409 DIXIE HW
-ELSMERE
-BTWN: N/A & N/A
-
-ALRM LVL: 1
-LOC:
-631 WILLOW ST
-ELSMERE
-BTWN: KENTON ST & MAIN ST
-
-ALRM LVL: 1
-LOC:
-WOODCREST MANOR CARE CENTER
-3876 TURKEYFOOT RD
-ELSMERE
-BTWN: TURKEYFOOT RD & INDUSTRIAL RD
-
-ALRM LVL: 1
-LOC:
-120 SPARROW DR
-ELSMERE
-BTWN: N/A & ROBIN DR
-
-ALRM LVL: 1
-LOC:
-430 FOX ST
-ELSMERE
-BTWN: GARVEY AV & MAIN ST
-
-ALRM LVL: 1
-LOC:
-SIGNODE PLASTIC RECYCLING ALLIANCE
-7080 INDUSTRIAL RD
-ELSMERE
-BTWN: NEW BUFFINGTON RD & VULACN DR
-
-ALRM LVL: 1
-LOC:
-ALLENDALE MOBILE HOME PARK
-1150 EDWARDS RD
-ELSMERE
-BTWN: LYTLE AV & N/A
-
-
-Its Elsmere Fire District in Elsmere KY we are in Kenton County. The
-emails come from pscc@ci.erlanger.ky.us. The dispatch center is Erlanger
-Dispatch and they also dispatch for, Erlanger Fire, Elsmere Fire, Fort
-Mitchell Fire, Fort Wright Fire, Park Hills Fire, Edgewood Fire, Ludlow
-Fire, Bromley Fire, along with all the same police agencies. 
-
-This is the dispatch software: 
 **********************************************************
 Chester County, PA (2nd Chester County format)
 Contact: Jason Wilkins <j.wilkins728@gmail.com>

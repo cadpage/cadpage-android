@@ -1,7 +1,6 @@
 package net.anei.cadpage.parsers.OH;
 
-import net.anei.cadpage.SmsMsgInfo.Data;
-import net.anei.cadpage.parsers.FieldProgramParser;
+import net.anei.cadpage.parsers.dispatch.DispatchA1Parser;
 
 /*
 Morrow County, OH
@@ -16,28 +15,14 @@ Sender: mc911@rrohio.com
 (Alert: MVA) ALRM LVL: 1\nLOC:\n5957 RD 28\nCANAAN TWP\nBTWN: RD 135 & ST RT 95\n\nRCVD AS 911\n\nCOM:\nIN CAR CANNOT GET OUT NEEDS HELP UNABLE TO GET OUT DUE TO SOME UNKNO
 
 */
-public class OHMorrowCountyParser extends FieldProgramParser {
+public class OHMorrowCountyParser extends DispatchA1Parser {
 
   public OHMorrowCountyParser() {
-    super("MORROW COUNTY", "OH", 
-           "ALARM_LVL:SKIP LOC:SKIP ADDR! CITY! BTWN:X COM:SKIP INFO+ CT:SKIP INFO+");
+    super("MORROW COUNTY", "OH"); 
   }
   
   @Override
   public String getFilter() {
-    return " mc911@rrohio.com";
-  }
-  
-  @Override
-  protected boolean parseMsg(String subject, String body, Data data) {
-    
-    if (! subject.startsWith("Alert: ")) return false;
-    data.strCall = subject.substring(7).trim();
-    return parseFields(body.split("\\n"), data);
-  }
-  
-  @Override
-  public String getProgram() {
-    return "CALL " + super.getProgram();
+    return "mc911@rrohio.com";
   }
 }
