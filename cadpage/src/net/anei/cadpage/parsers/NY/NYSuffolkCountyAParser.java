@@ -40,6 +40,8 @@ Oakdale
 Contact: Michael Heerbrandt <wsfd145@gmail.com>
 Sender: PAGING@WSFD.COM
 TYPE: ALARMS LOC: 100 PATRICIA CT OAKDAL @OAKDALE APARTMENTS    APARTMENT 3 CROSS: RACE PL /  CODE: 52-C-1S TIME: 19:16:55
+LOC: 298 GREAT RIVER RD GREATR CALLER ADDR: 1625 MONTAUK HWY OAKDAL TIME: 09:12:01
+
 */
 
 public class NYSuffolkCountyAParser extends SmartAddressParser {

@@ -1295,6 +1295,7 @@ Waiting for more info on text formats
 (INCIDENT INFO) MEDICAL 15192 LIBBY LN SE # 4922 ...FROM SANTIAM 911
 (INCIDENT INFO) MEDICAL 5654 MARION HILL RD SE MAP 4832A  ...FROM SANTIAM 911
 (INCIDENT INFO) MVA WEST STAYTON/SNODDY MAP/4526 ...FROM SANTIAM 911
+(INCIDENT INFO) 600/JFA/83   MEDICAL  15684 PLETZER RD SE  MAP 4923 .....FROM SANTIAM 911
 **********************************************************
 Unknown
 Contact: Roderick Brenner <rbrennerjr@gmail.com>
@@ -1306,29 +1307,56 @@ Lyon Township, MI
 Contact: Donald Collick" <DCollick@lyontwp.org>
 Sender: Mailbox@ccgvn.net
 System: Codespear
-No samples  (3/8/11)
+Changing paging system, will contact with new data (3/9/11)
 **********************************************************
 East Rockaway, NY (in Nassau County)
 Contact: Tommy Johnson <tjohnson377.tj@gmail.com>
 Sender: paging@alpinesoftware.com <From%3Apaging@alpinesoftware.com>
 FireCom:  3 HUDSON ST E (GENERAL-AUTO) FIRE ALARM RINGING
+FireCom:  31 MUNSON PL (SIG 9-AMBU) 20F ABDOMINAL PAINS
+
 This appears to be the main Nassau County dispatch, rename existing Nassau County to Bellmore
 Need more samples (3/8/11)
 **********************************************************
-Somewhere in VA
-Contact: Shane Taylor <hm88jr@gmail.com>
-Sender: 93001045
-MAILBOX:RS3 PAIN 16 E MAIN ST LUR CFS# 2011-000782 CROSS: BROAD ST/TANNERY RD
-Looks like Franklin County.
-Need to know city code LUR means   (3/8/11)
+************  READY TO ROLL ******************************
 **********************************************************
-Stanly County, ??
+Stanly County, NC
 Contact: "D. E. Gerald" <trafficfuzz@yahoo.com>
 Sender:CAD@sclg.gov
 CAD:E6-BREATHING PROBLEMS/533 BARRINGER CHAPEL RD/NOR/WIL-KRIS DR/FORK RD/[Medical Priority Info] PROBLEM: cant breathe # PATS: 1 AGE: 24 Years SE
-Need more samples   (3/8/11)
+CAD:E12-SEIZURES/CONVULSION/5761 DOVE LN/NOR/LOOP RD/[Medical Priority Info] PROBLEM: # PATS: 1 AGE: 49 Years SEX: Male CONSCIOUS: No BREATHING: Y
+CAD:E6-BREATHING PROBLEMS/533 BARRINGER CHAPEL RD/NOR/WIL-KRIS DR/FORK RD/[Medical Priority Info] PROBLEM: cant breathe # PATS: 1 AGE: 24 Years SE
+CAD:80-DWELLING ALARM/8947 WHITLEY RD/NOR/W WHITLEY ST﻿
+CAD:80-STRUCTURE ALARM/9029 COTTONVILLE RD/NOR/HINSON RD/S STANLY SCHOOL RD/3 KEYPAD FIRE ALARM, 2 BURGLAR, AND HOLD UP ALARM [03/03/11 19:12:48 C﻿
+CAD:E10-CHEST PAINS/231 PRICE ST/NOR/CARVER ST/WIL-KRIS DR/[Medical Priority Info] PROBLEM: CHEST PAIINS.VOMITTING # PATS: 1 AGE: 66 Years SEX: Ma
+
+NOR = NORWOOD
+BAD-BADIN, ALB-ALBEMARLE, OAK-OAKBORO, LOC-LOCUST 
 **********************************************************
-************  READY TO ROLL ******************************
+Page County, VA
+Contact: Shane Taylor <hm88jr@gmail.com>
+Sender: 93001045
+MAILBOX:RS3 PAIN 16 E MAIN ST LUR CFS# 2011-000782 CROSS: BROAD ST/TANNERY RD
+Same as Franklin County.
+Need to know city code LUR means   (3/8/11)
+LUR=LURAY
+**********************************************************
+Marion County (North), OR
+Contact: Mike Jensen <sfdmike@gmail.com>
+Sender: trex@ci.woodburn.or.us
+System: New World Systems :Aegis Public Safety System
+[(49962]  : ) TONE:  819::RAILWAY:AV:::::3030:VTON,STAF,:SAFE COM STA1@1830/APP CKS@1900 EMS@1945 STA1:20110302:174858
+[(45354]  : ) CVA: 1732::PINE:ST:9::::3029:M24,R404,D411,STAF,N7,:35 Y M C/B/A LEFT SIDE PARALYSIS:20110223:110234
+[(47486]  : ) STRC:::ABIQUA:RD:::HW 213::2833:E435,E485,E405,E415,D411,T489,T418,T419,R484,PGE,TIME,STAF,N7,:LARGE FLAMES APPX 2 MILES EAST:20110226:183324
+[(48144]  : ) SICK: 5024::CROOKED FINGER:RD:::::3340:E485,D411,:75YOM C/B/A DIZZY:20110228:043844
+[(50323]  : ) BREA:12884::MASCHER:RD:::::3230:E415,D411,STAF,:85YOF C/A/SOB FAST HEART RATE/150:20110303:140259
+[(50791]  : ) FALL:  930::OAK:ST:130::::3031:M23,R404,D411,N7,:99YOF C/A/B GLF R HIP PAIN:20110304:073911
+[(52678]  : ) ALM: 1106::PINE:ST:::::3030:E405,D411,N7,:CO2 DETECTOR ALRM AT COMM LOC:20110306:215554
+[(52806]  : ) UNC: 5870::VALLEY VIEW:RD:::::3032:M24,R404,D411,N7,:65YOM UNC/NOT BREA:20110307:073728
+[(53886]  : ) MISC:12622::SILVERTON:RD:::::3030:E415,D411,N7,:FLAMES SEEN FROM FIELD NEAR BY:20110308:190734
+[(53944]  : ) SUIC: 1418::PINE:ST:D::::3030:M24,R404,D411,N7,:64YOF/C/B/SUIC ATTEMPT, SLASHED WRISTS:20110308:194443
+[(54072]  : ) MVA:  918:N:FIRST:ST:::::3031:E405,E435,R404,D411,M23,N7,:ONE VEH ROLLOVER IFO ROTHS STORE:20110309:022055
+[(45886]  : ) MVA:::CASCADE:HW:::STATE:ST:3630:E425,D411,R404,M31,SBLE,SBLR,PGE,E415,LAW,N7,:SINGLE VEH ROLLOVER/ENTRAPMENT, NO INJ:20110224:063549
 **********************************************************
 Nassau Bay (Harris County, TX?)
 Contact: "Robert Hebert /City of Nassau Bay" <robert.hebert@nassaubay.com>
@@ -1702,6 +1730,7 @@ Mitchell Fire, Fort Wright Fire, Park Hills Fire, Edgewood Fire, Ludlow
 Fire, Bromley Fire, along with all the same police agencies. 
 
 This is the dispatch software: 
+**********************************************************
 Chester County, PA (2nd Chester County format)
 Contact: Jason Wilkins <j.wilkins728@gmail.com>
 
