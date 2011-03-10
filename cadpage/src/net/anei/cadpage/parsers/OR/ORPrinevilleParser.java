@@ -1,21 +1,27 @@
 package net.anei.cadpage.parsers.OR;
 
 import net.anei.cadpage.SmsMsgInfo.Data;
+
+import net.anei.cadpage.parsers.FieldProgramParser;
+
 /*
 Prineville, OR
-Reporting email: 5414603655@vzwpix.com
+Contact: 5414603655@vzwpix.com
 Sender:dispatch@prinevillepd.org
 
-Neither of these maps, sloppy addresses
-(PPD) 6:01 PM\nNEW EVENT PFD\nMED1\n1201: 1271\n228 SW MEADOWLAKES DR\nPRINEVILLE
-(PPD) 3:17 PM\nNEW EVENT PFD\nMVA\n1201: 1273 / 1225\nLAMONTA/PIONEER CUTSTOCK\nPRINEVILLE
-*/
-import net.anei.cadpage.parsers.SmsMsgParser;
+[NEW INCIDENT]  INCIDENT NEW\n3/9/2011 1003\nEVENT # 1103090013 PFD\nTEST-FIRE - TEST INCIDENT\nPRIORITY 2 \nLOCATION 387 NE 3RD ST\nCITY PRINEVILLE\nAPT \nPREMISE
+[UNIT DISPATCH]  UNIT DISPATCH\n3/9/2011 1203\nUNITS 1291 \nEVENT # 1103090021 PFD\nFSMK - SMOKE UNKNOWN FIRE S...\nPRIORITY 1 \nLOCATION 1231 SE 5TH ST\nCITY PRI
+[NEW INCIDENT]  INCIDENT NEW\n3/9/2011 1203\nEVENT # 1103090021 PFD\nFSMK - SMOKE UNKNOWN FIRE S...\nPRIORITY 1 \nLOCATION 1231 SE 5TH ST\nCITY PRINEVILLE\nAPT \nP
+(NEW INCIDENT) INCIDENT NEW\n3/9/2011 1203\nEVENT # 1103090021 PFD\nFSMK - SMOKE UNKNOWN FIRE S...\nPRIORITY 1 \nLOCATION 1231 SE 5TH ST\nCITY PRINEVILLE\nAPT \nP
+(NEW INCIDENT) INCIDENT NEW\n3/9/2011 1203\nEVENT # 1103090021 PFD\nFSMK - SMOKE UNKNOWN FIRE S...\nPRIORITY 1 \nLOCATION 1231 SE 5TH ST\nCITY PRINEVILLE\nAPT \nP
 
-public class ORPrinevilleParser extends SmsMsgParser {
+*/
+
+public class ORPrinevilleParser extends FieldProgramParser {
   
   public ORPrinevilleParser() {
-    super("PRINEVILLE", "OR");
+    super("PRINEVILLE", "OR",
+           "SKIP SKIP UNITS:UNIT EVENT:ID! CALL! PRIORITY:SKIP! LOCATION:ADDR! CITY:CITY! APT:APT");
   }
   
   @Override
@@ -24,15 +30,13 @@ public class ORPrinevilleParser extends SmsMsgParser {
   }
 
   @Override
-  protected boolean parseMsg(String subject, String body, Data data) {
+  protected boolean parseMsg(String body, Data data) {
+
+    if (!body.startsWith("INCIDENT NEW\n") && !body.startsWith("UNIT DISPATCH\n")) return false;
     
-    if (! subject.equals("PPD")) return false;
-    
-    String[] lines = body.split("\n");
-    if (lines.length <= 4) return false;
-    data.strCall = lines[2].trim();
-    parseAddress(lines[4].trim(), data);
-    if (lines.length > 5) data.strCity = lines[5];
-    return true;
+    body = body.replace("\nEVENT # ","\nEVENT:").replace("\nUNITS ","\nUNITS:")
+               .replace("\nPRIORITY ","\nPRIORITY:").replace("\nLOCATION ","\nLOCATION:")
+               .replace("\nCITY ","\nCITY:").replace("\nAPT ","\nAPT:");
+    return parseFields(body.split("\n"), data);
   }
 }
