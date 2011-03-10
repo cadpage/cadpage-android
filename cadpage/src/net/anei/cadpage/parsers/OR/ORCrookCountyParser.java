@@ -36,7 +36,7 @@ public class ORCrookCountyParser extends FieldProgramParser {
     
     body = body.replace("\nEVENT # ","\nEVENT:").replace("\nUNITS ","\nUNITS:")
                .replace("\nPRIORITY ","\nPRIORITY:").replace("\nLOCATION ","\nLOCATION:")
-               .replace("\nCITY ","\nCITY:").replace("\nAPT ","\nAPT:");
+               .replace("\nCITY ","\nCITY:").replace("\nAPT \n","\nAPT:");
     return parseFields(body.split("\n"), data);
   }
 }
