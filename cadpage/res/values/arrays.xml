@@ -166,6 +166,7 @@
     <item>NYBelmore</item>
     <item>NYSouthhamptonVillage</item>
     <item>GeneralStar</item>
+    <item>ORPrineville</item>
   </string-array>
   <string-array name="new_location_values">
     <item>NYBrentwood</item>
@@ -180,6 +181,7 @@
     <item>NYSuffolkCountyC</item>
     <item>NYSuffolkCountyC</item>
     <item>General</item>
+    <item>ORCrookCounty</item>
   </string-array>
   
   <!-- Array of state names -->
@@ -312,8 +314,8 @@
     <item>OHSugarCreek</item>
     <item>OHXenia</item>
     <item>ORBentonCounty</item>
+    <item>ORCrookCounty</item>
     <item>ORDeschutesCounty</item>
-    <item>ORPrineville</item>
     <item>ORWashingtonCounty</item>
     <item>PAAlleghenyCounty</item>
     <item>PAArmstrongCounty</item>
@@ -446,8 +448,8 @@
     <item>SugarCreek Twns, OH</item>
     <item>Xenia Twns, OH</item>
     <item>Benton County, OR</item>
+    <item>Crook County, OR</item>
     <item>Deschutes County, OR</item>
-    <item>Prineville, OR</item>
     <item>Washington County, OR</item>
     <item>Allegheny County, PA</item>
     <item>Armstrong County, PA</item>

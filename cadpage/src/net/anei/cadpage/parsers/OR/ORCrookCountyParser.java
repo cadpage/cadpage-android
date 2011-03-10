@@ -17,10 +17,10 @@ Sender:dispatch@prinevillepd.org
 
 */
 
-public class ORPrinevilleParser extends FieldProgramParser {
+public class ORCrookCountyParser extends FieldProgramParser {
   
-  public ORPrinevilleParser() {
-    super("PRINEVILLE", "OR",
+  public ORCrookCountyParser() {
+    super("CROOK COUNTY", "OR",
            "SKIP SKIP UNITS:UNIT EVENT:ID! CALL! PRIORITY:SKIP! LOCATION:ADDR! CITY:CITY! APT:APT");
   }
   
