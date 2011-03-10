@@ -44,7 +44,7 @@ public class DispatchOSSIParser extends FieldProgramParser {
   private boolean leadID = false;
   
   // Pattern searching for a leading square bracket or semicolon
-  private static final Pattern DELIM = Pattern.compile("\\[|;");
+  private Pattern delimPattern = Pattern.compile("\\[|;");
   
   // Pattern searching for "PROBLEM: or "RESPONDER SCRIPT:"
   private static final Pattern KEYWORD = Pattern.compile("\\b(PROBLEM:|RESPONDER SCRIPT:)");
@@ -75,6 +75,10 @@ public class DispatchOSSIParser extends FieldProgramParser {
     }
     setProgram(program);
   }
+  
+  protected void setDelimiter(char delim) {
+    delimPattern = Pattern.compile("\\[|" + delim);
+  }
 
   @Override
   protected boolean parseMsg(String body, Data data) {
@@ -98,7 +102,7 @@ public class DispatchOSSIParser extends FieldProgramParser {
     // with some complications involving text in square brackets
     
     List<String> fields = new ArrayList<String>();
-    Matcher match = DELIM.matcher(body);
+    Matcher match = delimPattern.matcher(body);
     int st = 4;
 
     boolean priInfo = false;
