@@ -1,15 +1,15 @@
 package net.anei.cadpage.parsers.OR;
 
 import net.anei.cadpage.parsers.BaseParserTest;
-import net.anei.cadpage.parsers.OR.ORPrinevilleParser;
+import net.anei.cadpage.parsers.OR.ORCrookCountyParser;
 
 import org.junit.Test;
 
 
-public class ORPrinevilleParserTest extends BaseParserTest {
+public class ORCrookCountyParserTest extends BaseParserTest {
   
-  public ORPrinevilleParserTest() {
-    setParser(new ORPrinevilleParser(), "PRINEVILLE", "OR");
+  public ORCrookCountyParserTest() {
+    setParser(new ORCrookCountyParser(), "CROOK COUNTY", "OR");
   }
   
   @Test
@@ -53,6 +53,6 @@ public class ORPrinevilleParserTest extends BaseParserTest {
   }
   
   public static void main(String[] args) {
-    new ORPrinevilleParserTest().generateTests("T1");
+    new ORCrookCountyParserTest().generateTests("T1");
   }
 }
