@@ -428,6 +428,20 @@ public class FieldProgramParserTest extends BaseParserTest {
         "CALL:FIRE",
         "INFO:LINE1",
         "ID:666");
+    
+    doFieldTest("Mixed tag and untagged",
+        "Typ:CALL ADDR Com:INFO",
+        "Typ:Fire;Block Addr;Com:this is a test",
+        "CALL:Fire",
+        "ADDR:Block Addr",
+        "INFO:this is a test");
+    
+    doFieldTest("Mixed tag and untagged winc inc colon",
+        "Typ:CALL ADDR Com:INFO",
+        "Typ:Fire;Block: Addr;Com:this is a test",
+        "CALL:Fire",
+        "ADDR:Block: Addr",
+        "INFO:this is a test");
   }
   
   @Test
