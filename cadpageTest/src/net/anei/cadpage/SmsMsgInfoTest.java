@@ -30,8 +30,8 @@ public class SmsMsgInfoTest {
     doMapTest("CR2", "PINE ST & BLACK ST,KENBURG,XX", "PINE ST & BLACK ST", "MULBERY RD");
     doMapTest("CR3", "PINE ST & MULBERY RD,KENBURG,XX", "PINE ST", "MULBERY RD");
     
-    doMapTest("CN1", "11TH AV&18TH ST,KENBURG,XX", "11TH AV&18TH ST");
-    doMapTest("CN2", "11 AV & 18 ST,KENBURG,XX", "11 AV & 18 ST");
+    doMapTest("CN1", "11TH AVE&18TH ST,KENBURG,XX", "11TH AVE&18TH ST");
+    doMapTest("CN2", "11 AVE & 18 ST,KENBURG,XX", "11 AVE & 18 ST");
     
     doMapTest("APT1", "144 MAIN ST,KENBURG,XX", "144 MAIN ST #14");
     
@@ -48,6 +48,9 @@ public class SmsMsgInfoTest {
     doMapTest("BLK2", "6000 OBLKA ST,KENBURG,XX", "6000 OBLKA ST");
     doMapTest("BLK3", "100 OAK FEST RD,KENBURG,XX", "{100} OAK FEST RD");
     doMapTest("BLK4", "2700 BRAGG BLVD,KENBURG,XX", "2700-BLK BRAGG BLVD");
+    
+    doMapTest("AV", "150 BLACK AVE,KENBURG,XX", "150 BLACK AV");
+    doMapTest("HW", "HWY 20,KENBURG,XX", "HW 20");
   }
   
   private void doMapTest(String title, String result, String address) {

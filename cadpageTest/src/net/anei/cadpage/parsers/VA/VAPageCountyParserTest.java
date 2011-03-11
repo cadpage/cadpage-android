@@ -22,6 +22,22 @@ public class VAPageCountyParserTest extends BaseParserTest {
         "CITY:LURAY",
         "ID:2011-000782",
         "X:BROAD ST/TANNERY RD");
+
+    doTest("T2",
+        "MAILBOX:RS4 CHEST PAINS 185 GRAY DR STA CFS# 2011-004572 CROSS: AYLOR GRUBBS AV",
+        "SRC:RS4",
+        "CALL:CHEST PAINS",
+        "ADDR:185 GRAY DR",
+        "ID:2011-004572",
+        "X:AYLOR GRUBBS AV");
+
+    doTest("T3",
+        "MAILBOX:RS1 GENERAL ILLNESS 117 PULASKI AV SHE CFS# 2011-004542 CROSS: S SECOND ST/FRONT ST",
+        "SRC:RS1",
+        "CALL:GENERAL ILLNESS",
+        "ADDR:117 PULASKI AV",
+        "ID:2011-004542",
+        "X:S SECOND ST/FRONT ST");
   }
   
   public static void main(String[] args) {
