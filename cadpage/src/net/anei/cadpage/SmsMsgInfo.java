@@ -144,7 +144,9 @@ public class SmsMsgInfo {
    * @return return mapping address
    */
   public String getMapAddress() {
-    String sAddr = cleanBlock(strAddress);
+    String sAddr = strAddress;
+    sAddr = cleanStreetSuffix(sAddr);
+    sAddr = cleanBlock(sAddr);
     sAddr = cleanBounds(sAddr);
     sAddr = cleanHouseNumbers(sAddr);
     sAddr = cleanDoubleRoutes(sAddr);
@@ -189,6 +191,15 @@ public class SmsMsgInfo {
     return sb.toString();
 	}
   
+  // Clean up any street suffix abbreviations that Google isnt' happy with
+  private static final Pattern AV_PTN = Pattern.compile("\\bAV\\b");
+  private static final Pattern HW_PTN = Pattern.compile("\\bHW\\b");
+  private String cleanStreetSuffix(String sAddr) {
+    sAddr = AV_PTN.matcher(sAddr).replaceAll("AVE");
+    sAddr = HW_PTN.matcher(sAddr).replaceAll("HWY");
+    return sAddr;
+  }
+
   // Clean up any BLK indicators
   // Remove occurance of BLK bracketed by non-alpha characters
   private static final Pattern BLK_PAT = Pattern.compile("(?:-|(?<![A-Z]))BLK(?![A-Z])");
