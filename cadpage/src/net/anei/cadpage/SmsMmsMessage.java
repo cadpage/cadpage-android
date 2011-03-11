@@ -226,7 +226,8 @@ public class SmsMmsMessage implements Serializable {
     Pattern.compile("^(000\\d)/(000\\d)\\b"),
     Pattern.compile("^(\\d)of(\\d):"),
     Pattern.compile("^\\((\\d)/(\\d)\\)"),
-    Pattern.compile("\\[(\\d) of (\\d)\\]$")
+    Pattern.compile("\\[(\\d) of (\\d)\\]$"),
+    Pattern.compile(":(\\d)of(\\d)$")
   };
   private static final Pattern PAGECOPY_PATTERN = Pattern.compile("Pagecopy-Fr:(\\S*)\\s");
   private static final Pattern EMAIL_PATTERN = 
