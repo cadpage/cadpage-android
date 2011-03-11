@@ -205,6 +205,12 @@ public class SmsMmsMessageTest {
     
     doParseTest("TRL1-done", "WHERE IS BABY[2 of 2]",
                "ken@cadpage.org", "", "WHERE IS BABY", false);
+    
+    doParseTest("TRL2", "WHERE IS BABY :1of2",
+               "ken@cadpage.org", "", "WHERE IS BABY", true);
+    
+    doParseTest("TRL2-done", "WHERE IS BABY :2of2",
+               "ken@cadpage.org", "", "WHERE IS BABY", false);
   }
   
   private void doParseTest(String title, String body, String expFrom, String expSubject, String expBody) {
