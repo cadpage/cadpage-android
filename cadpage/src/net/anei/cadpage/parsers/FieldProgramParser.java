@@ -856,10 +856,11 @@ public class FieldProgramParser extends SmartAddressParser {
           // See if data field is tagged
           // if it is extract the tag and adjust the current field value
           String curTag = null;
+          String curVal = null;
           int pt = curFld.indexOf(':');
           if (pt >= 0) {
             curTag = curFld.substring(0, pt).trim();
-            curFld = curFld.substring(pt+1).trim();
+            curVal = curFld.substring(pt+1).trim();
           }
           
           // If data field is tagged, search the program steps for one with
@@ -871,10 +872,12 @@ public class FieldProgramParser extends SmartAddressParser {
               procStep = procStep.nextStep;
             }
             
-            // If we didn't find one, skip over this data field and go on to
-            // the next one
+            // If we didn't find one, and this step isn't tagged, assume that
+            // this is an incidental colon and process the step normally
+            // Otherwise skip over this data field and go on to the next one
             if (procStep == null) {
               procStep = this;
+              if (procStep.tag == null) break;
               if (++ndx >= flds.length) return checkFailure(data);
               curFld = flds[ndx].trim();
               continue;
@@ -884,6 +887,7 @@ public class FieldProgramParser extends SmartAddressParser {
             // If we had to skip over a required field, return failure
             // Otherwise we are ready to process this step
             if (skipReq) return false;
+            curFld = curVal;
             break;
           }
           
