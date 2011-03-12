@@ -26,7 +26,7 @@ public class FieldProgramParserTest extends BaseParserTest {
   @Test
   public void testBasicFields() {
     doFieldTest("Fields", 
-        "CALL CALL SKIP PLACE ADDR CITY APT X X UNIT MAP ID PHONE INFO INFO SRC CODE NAME",
+        "CALL CALL SKIP PLACE ADDR CITY APT X X UNIT MAP ID PHONE INFO INFO SRC CODE NAME ADDRCITY",
         "BLACK;BLUE;JUNK;TOWN;123 SOUTH;HOME;20;NORTH;SOUTH;CAR 22;MAPIT;666;222-1234;LINE1;LINE2;ST1;XXX;JOHN",
         "CALL:BLACK / BLUE",
         "PLACE:TOWN",
@@ -42,6 +42,14 @@ public class FieldProgramParserTest extends BaseParserTest {
         "SRC:ST1",
         "CODE:XXX",
         "NAME:JOHN");
+  }
+  
+  public void testCompoundFields() {
+    doFieldTest("Compound fields",
+        "ADDRCITY",
+        "100 BLACK ST, NORTH FACE",
+        "ADDR:100 BLACK ST",
+        "CITY:NORTH FACE");
   }
   
   @Test
