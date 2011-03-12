@@ -666,6 +666,11 @@ Minnehaha county, SD
 930 Quad 460 - BR 904 SNOWBERRY AVE BR Conv Seizure C3 2011-00000374
 930 Quad 2060 - VS I 90 MM 410 VS Sick Person C1 2011-00000028
 *******************************************************************************
+Humble TX (TXHumbleParser)
+[AVFD EMS] - Cardiac -- 17111 Dawn Shadows Dr, Humble -- Map: 376H- -- Xst's: Forest Rain Ln Old Arbor -- Units: E-M29 -- 201105590
+[AVFD EMS] - Diabetic Emergency -- 5310 Moonshadows Dr, Humble -- Map: 337S- -- Xst's: Pocito Ct Wellswood Ct -- Units: E-M29 -- 201105542
+[AVFD EMS] - Medical Call -- 6810 Amber Ash Ct, Humble -- Map: 337Q- -- Xst's: Crimson Oak Trl -- Units: E-M19 -- 201105487
+*******************************************************************************
 Cy Creek Comm Center, TX (TXCyCreekCommCenterParser)
 11:58 W HILLSIDE DR/EASTEX FRWY, ; Map:414D Sub: Nat:MA-MUTUAL AID / ASSIST AGENCY Units:E91 T81 T73 E-E39 X-St:EASTEX
 09/06 11:56 W HILLSIDE DR/EASTEX FRWY, ; Map:414D Sub: Nat:MA-MUTUAL AID / ASSIST AGENCY Units:E91 T81 T73 E-L19 X-St:EASTEX
@@ -1351,11 +1356,10 @@ Sender: <elkco911@eccdomain.local>
 11030918510GOSHENVehicle Accident/UnknownCLIN,M1J03/09/2011 10:34:12 : pos3 : HARMOF   SEMI AND A TK WITH A TRAILER.....SEMI IS ROLLED OVER......CALLED IN
 11022113771GOSHENVehicle Accident/UnknownCLIN02/21/2011 07:39:03 : pos8 : HARMOF   CO RD 34//CO RD 31  Geo Comment: 00120D  CLIN CEN  CO RD 34 W OF CO RD 3
 **********************************************************
-**********************************************************
-**********************************************************
 Cy-Fair Volunteer FD (Harris County, TX)
 Contact: "Steven Lindsay" <steven@snl-ent.com>
 Sender: CAD@CYFAIRVFD.ORG
+Need text msg samples (3/11/11)
 MVA  19001 US 290 INBOUND  (408H) () COMMENTS:1/17/2011 14:52:44 19001 US 290 INBOUND: cross streets: W FM 1960 & NORTHWEST FWY &  & N ELDRIDGE PKWY
 1/17/2011 14:53:17 Incident Case Number automatically assigned : JVFD2011000051
 
@@ -1445,20 +1449,6 @@ ARGENTINA ST & LAKEVIEW DR
 MEDICAL CALL  8350 JONES RD  (409K) () COMMENTS:1/20/2011 10:51:54 8350 JONES RD: cross streets:
 PLEASANT COLONY DR & VILLAGE GREEN DR
 1/20/2011 10:53:03 Incident Case Number automatically assigned : JVFD2011000061
-******************************************************************************************************************************************************************************
-Humble TX, (Harris County)
-Contact: "Wassell, Michael" <MWassell@avfd.com>
-(Merge with DESussexCounty ?)
-
-[AVFD EMS] - Cardiac -- 17111 Dawn Shadows Dr, Humble -- Map: 376H- -- Xst's: Forest Rain Ln Old Arbor -- Units: E-M29 -- 201105590
-[AVFD EMS] - Diabetic Emergency -- 5310 Moonshadows Dr, Humble -- Map: 337S- -- Xst's: Pocito Ct Wellswood Ct -- Units: E-M29 -- 201105542
-[AVFD EMS] - Medical Call -- 6810 Amber Ash Ct, Humble -- Map: 337Q- -- Xst's: Crimson Oak Trl -- Units: E-M19 -- 201105487
-[AVFD EMS] - TAP OUT (ANR)
-[AVFD FIRE] - Fire Alarm - Residential -- 19222 Pinewood Mist Ln, Humble -- Map: 338W- -- Xst's: Pinewood Canyon Ln Pinewo -- Units: ATFD E-E39 -- 201105452
-[AVFD FIRE] - Motor Vehicle Incident -- E Fm 1960 & w Lake Houston P, Humble -- Map: 337Z- -- Xst's: W Lake Houston Pkwy Atasc -- Units: E-M19 E-E39 - 201105443
-(w Lake Houston P is west lake Houston parkway)
-[AVFD FIRE][Repage] - Mvi - Unknown -- Will Clayton Pkwy & atascoci -- Map: 376C- -- Xst's: Atascocita Rd Hunters Ter -- Units: E-M29 E-E39 - 201105192
-(atascoci is Atascocita Road)
 **********************************************************
 Buffalo, NY
 Contact: Kunch <joshkunch@msn.com>

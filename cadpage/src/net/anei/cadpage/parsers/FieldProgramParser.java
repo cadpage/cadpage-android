@@ -63,6 +63,14 @@ import net.anei.cadpage.SmsMsgInfo.Data;
  *         U - unit
  *         N - name
  *         I - supplemental info
+ *         
+ * SPECIAL FIELD NAMES
+ * 
+ * INTLS - operator initials, always skipped but will validated as 1-3 upper case letters
+ * 
+ * ADDRCITY - Address and City field separated by a comma.  Can take all ofthe
+ * special field qualifiers that an address field can.
+ * 
  *    
  * The ugly details on optional fields
  * 
@@ -1299,6 +1307,34 @@ public class FieldProgramParser extends SmartAddressParser {
   }
   
   /**
+   * Field containing address and city separated by a comma
+   */
+  public class AddressCityField extends AddressField {
+    
+    private Field cityField = new CityField(); 
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      int pt = field.lastIndexOf(',');
+      if (pt < 0) return false;
+      return super.checkParse(field.substring(0,pt).trim(), data) &&
+              cityField.checkParse(field.substring(pt+1).trim(), data);
+    }
+    
+    @Override
+    public void parse(String field, Data data) {
+      Parser p = new Parser(field);
+      cityField.parse(p.getLastOptional(','), data);
+      super.parse(p.get(), data);
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return super.getFieldNames() + " CITY";
+    }
+  }
+  
+  /**
    * Apartment field processor
    */
   public class AptField extends Field {
@@ -1515,6 +1551,7 @@ public class FieldProgramParser extends SmartAddressParser {
     if (name.equals("PLACE")) return new PlaceField();
     if (name.equals("ADDR")) return new AddressField();
     if (name.equals("CITY")) return new CityField();
+    if (name.equals("ADDRCITY")) return new AddressCityField();
     if (name.equals("APT")) return new AptField();
     if (name.equals("X")) return new CrossField();
     if (name.equals("BOX")) return new BoxField();
