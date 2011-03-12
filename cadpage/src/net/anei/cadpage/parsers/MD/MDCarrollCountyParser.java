@@ -20,14 +20,18 @@ Sender: @c-msg.net
 (Co12) [!] CT:ALS 1820 VINCENZA DR @MARVIN GARDENS APT C SYKE BOX:1232 DUE:X128 [71]
 [Co14] [!] CT:SERVICE 3215 HOOPERS DELIGHT RD NWIN BOX:1411 DUE:U14 [18]
 [Co14] [!] CT:BLS 5401 ENTERPRISE ST ; ALLEGRA PRINT SYKE BOX:1416 DUE:X149 [33]
+(Co12) [!] CT:CHIM 811 DAVID AV WEST BOX:0316 DUE:TO12 [13]
+(Co12) [!] CT:LOCAL HENRYTON RD / MARRIOTTSVILLE RD ONE MARR BOX:1208 DUE:E123 [12]
 
 */
 
 public class MDCarrollCountyParser extends FieldProgramParser {
 
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "MARR", "MARRIOTTSVILLE",
       "NWIN", "NEW WINDSOR",
       "SYKE", "SYKESVILLE",
+      "WEST", "WESTMINISTER",
       "WOOD", "WOODBINE"
   });
   
