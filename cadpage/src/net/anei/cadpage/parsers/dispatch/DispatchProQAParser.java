@@ -1,6 +1,10 @@
 package net.anei.cadpage.parsers.dispatch;
 
+import java.util.Properties;
+
 import net.anei.cadpage.SmsMsgInfo.Data;
+import net.anei.cadpage.parsers.FieldProgramParser;
+
 /*
 Parser for ProQA Dispatch software
 
@@ -27,12 +31,15 @@ Medstar SW IL
 [- part 1 of 1]  RC:Run# 34620/13 LOISEL DR///SCC PG 14/EAST SAINT LOUIS///70 M C/B CONFUSED ProQA comments: UNK/31D03
 
 */
-import net.anei.cadpage.parsers.SmsMsgParser;
 
-public class DispatchProQAParser extends SmsMsgParser {
+public class DispatchProQAParser extends FieldProgramParser {
   
-  protected DispatchProQAParser(String defCity, String defState) {
-    super(defCity, defState);
+  protected DispatchProQAParser(String defCity, String defState, String program) {
+    super(defCity, defState, program);
+  }
+  
+  protected DispatchProQAParser(Properties cityCodes, String defCity, String defState, String program) {
+    super(cityCodes, defCity, defState, program);
   }
 
   @Override
@@ -45,11 +52,13 @@ public class DispatchProQAParser extends SmsMsgParser {
     int pt2 = body.indexOf("/", pt);
     if (pt2 < 0) return false;
     
-    data.strCallId = body.substring(pt, pt2);
+    data.strCallId = body.substring(pt, pt2).trim();
 
     body = body.substring(pt2+1);
+    pt = body.indexOf("/<PROQA_DET>");
+    if (pt >= 0) body = body.substring(0,pt).trim();
     pt = body.indexOf("ProQA comments:");
-    if (pt >= 0) body = body.substring(0,pt);
+    if (pt >= 0) body = body.substring(0,pt).trim();
 
     // Everything else is variable
     String[] lines = body.split("/+");
@@ -57,25 +66,5 @@ public class DispatchProQAParser extends SmsMsgParser {
       lines[ndx] = lines[ndx].trim();
     }
     return parseFields(lines, data);
-  }
-  
-  /**
-   * This is the most common parsing setup, parser that do not follow
-   * this can override this method
-   * @param lines Array of fields to process
-   * @param data SmsMmsInfo.Data object
-   * @return true if successful
-   */
-  protected boolean parseFields(String[] lines, Data data) {
-    
-    parseAddress(lines[0], data);
-    for (int ndx = 1; ndx < lines.length; ndx++) {
-      String line = lines[ndx];
-      if (line.length() > 1 && !line.equals("<PROQA_DET>")) {
-        if (data.strCall.length() > 0) data.strCall += " / ";
-        data.strCall += line;
-      }
-    }
-    return true;
   }
 }

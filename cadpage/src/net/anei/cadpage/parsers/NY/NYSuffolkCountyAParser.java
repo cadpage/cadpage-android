@@ -42,6 +42,9 @@ Sender: PAGING@WSFD.COM
 TYPE: ALARMS LOC: 100 PATRICIA CT OAKDAL @OAKDALE APARTMENTS    APARTMENT 3 CROSS: RACE PL /  CODE: 52-C-1S TIME: 19:16:55
 LOC: 298 GREAT RIVER RD GREATR CALLER ADDR: 1625 MONTAUK HWY OAKDAL TIME: 09:12:01
 
+Contact: Sean Hendrickson <sean.hendrickson5@gmail.com>
+FWD: TYPE: STRUCTURE FIRE LOC: 1 WILBUR AV MANORV  CROSS: SOHMER ST /  CODE: 69-D-5 TIME: 17:17:43
+
 */
 
 public class NYSuffolkCountyAParser extends SmartAddressParser {
@@ -78,6 +81,7 @@ public class NYSuffolkCountyAParser extends SmartAddressParser {
   protected boolean parseMsg(String body, Data data) {
 
     // Some formats cut the initial TYPE: code
+    if (body.startsWith("FWD:")) body = body.substring(4).trim();
     if (!body.startsWith("TYPE:")) body = "TYPE:" + body;
 
     Properties props = parseMessage(body, KEYWORDS);

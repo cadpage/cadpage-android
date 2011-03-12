@@ -34,15 +34,16 @@ public class ILMedstarParser extends DispatchProQAParser {
       
   
   public ILMedstarParser() {
-    super("", "IL");
+    super(COUNTY_CODES, "", "IL", null);
   }
   
   @Override
   public String getFilter() {
     return "emsdispatch@medstarems.net";
   }
+  
   @Override
-  protected boolean parseFields(String[] fields, Data data) {
+  public boolean parseFields(String[] fields, Data data) {
     
     // First line is always the address
     int ndx = 1;

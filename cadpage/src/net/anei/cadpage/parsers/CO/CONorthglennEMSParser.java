@@ -16,7 +16,8 @@ sender: dispatch@northglennambulance.com
 public class CONorthglennEMSParser extends DispatchProQAParser {
   
   public CONorthglennEMSParser() {
-    super("ADAMS COUNTY", "CO");
+    super("ADAMS COUNTY", "CO",
+           "ADDR CALL+");
   }
   
   @Override

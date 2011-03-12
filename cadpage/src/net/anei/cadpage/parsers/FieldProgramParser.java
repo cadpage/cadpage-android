@@ -1526,7 +1526,7 @@ public class FieldProgramParser extends SmartAddressParser {
    * Field containing dispatcher initials, which is skipped
    * but has ability to verify initials contents
    */
-  private static final Pattern INITLS_PAT = Pattern.compile("[A-Z]{2,3}");
+  private static final Pattern INITLS_PAT = Pattern.compile("[A-Za-z]{2,3}");
   public class InitialsField extends Field {
     
     public InitialsField() {

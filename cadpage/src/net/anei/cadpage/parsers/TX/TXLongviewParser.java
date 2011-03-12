@@ -25,11 +25,11 @@ public class TXLongviewParser extends DispatchProQAParser {
   private static final Pattern TIME_PATTERN = Pattern.compile("\\d\\d:\\d\\d");
   
   public TXLongviewParser() {
-    super(DEF_CITY, DEF_STATE);
+    super(DEF_CITY, DEF_STATE, null);
   }
 
   @Override
-  protected boolean parseFields(String[] flds, Data data) {
+  public boolean parseFields(String[] flds, Data data) {
     
     // Fields are tightly delimited but very loosely positioned
     // Only consistent field we can identify is a time marker, so lets find it
