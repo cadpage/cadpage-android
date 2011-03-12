@@ -132,6 +132,14 @@ public class NYSuffolkCountyAParserTest extends BaseParserTest {
         "PLACE:OAKDALE APARTMENTS    APARTMENT 3",
         "X:RACE PL /",
         "CODE:52-C-1S");
+
+    doTest("T18",
+        "FWD: TYPE: STRUCTURE FIRE LOC: 1 WILBUR AV MANORV  CROSS: SOHMER ST /  CODE: 69-D-5 TIME: 17:17:43",
+        "CALL:STRUCTURE FIRE",
+        "ADDR:1 WILBUR AV",
+        "CITY:Manorville",
+        "X:SOHMER ST /",
+        "CODE:69-D-5");
   }
   
   public static void main(String[] args) {

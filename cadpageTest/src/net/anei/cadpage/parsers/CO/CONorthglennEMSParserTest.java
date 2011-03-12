@@ -43,6 +43,6 @@ public class CONorthglennEMSParserTest extends BaseParserTest {
         "- part 1 of 1 / RC:Run# 10119/E 60TH AVE & DAHLIA ST//./Unconscious / Fainting/",
         "ID:10119",
         "ADDR:E 60TH AVE & DAHLIA ST",
-        "CALL:Unconscious / Fainting");
+        "CALL:. / Unconscious / Fainting");
  }
 }
