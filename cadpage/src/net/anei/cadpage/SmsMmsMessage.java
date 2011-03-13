@@ -124,7 +124,10 @@ public class SmsMmsMessage implements Serializable {
     } else {
       StringBuilder bodyText = new StringBuilder();
       for (int i = 0; i < messages.length; i++) {
-        bodyText.append(messages[i].getMessageBody());
+        // getMessageBody has been throwing exceptions on occasion :(
+        try {
+          bodyText.append(messages[i].getMessageBody());
+        } catch (NullPointerException ex) {Log.e(ex);}
       }
       body = bodyText.toString();
     }
