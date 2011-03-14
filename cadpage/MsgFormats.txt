@@ -144,11 +144,6 @@ INITIAL.\nSC EMS COMMUNICATIONS:2 >FIRE ALARM 1109 LAKE RISE OVERLOOK HENDERSONV
 *******************************************************************************
 * DispatchDAPROPParser subclasses
 *******************************************************************************
-*******************************************************************************
-Buffalo, NY (NYBuffaloParser)
-RC:Run# 4330/1 Hot 911 & Pvt/28B1 Stroke/CVA-unknown status/189 LANGFIELD DR///BUFFALO/14215////14:18/<Unknown>////X=TOWER ST&SUFFOLK ST
-RC:Run# 3992/1 Hot 911 & Pvt/29B1 Traffic/Transport Accidents-injuries/E  LOVEJOY ST & N  OGDEN ST///BUFFALO/14206////17:35/<Unknown>////X=SCHILLER ST&N OGDEN 
-RC:Run# 4364/1 Hot 911 & Pvt/6C1 Breathing Problems-abnormal breathing/2128 ELMWOOD AVE///BUFFALO/14207////15:57/<Unknown>////X=HINMAN ST&DRIVEWAY
 ***************************************************************************
 Campbell County, VA (VACampbellCountyParser)
 MAILBOX:SQ02 MVC/MOTOR VEHICLE CRASH/ACCIDE 002364 WATERLICK RD/LEESVILLE RD CFS# 2010-061119 REF TO A 3 CAR MVA. AT FIRST A REPORT OF NO PI. NO NEED FOR FIRE. VASI ADV THAT T
@@ -183,6 +178,11 @@ Medstar SW IL (ILMedstarParser)
 [- part 1 of 1]  RC:Run# 34577/20 KINDER ST//cah/SCC PG 11/EAST SAINT LOUIS///31f c/b chest and back px cardiac hx  ProQA comments: chest px/10D04
 [- part 1 of 1]  RC:Run# 34384/1308 CORLISS//westinghouse and n greenmount//SHILO///38m c/b rapid heart rate/<PROQA_DET>
 [- part 1 of 1]  RC:Run# 34620/13 LOISEL DR///SCC PG 14/EAST SAINT LOUIS///70 M C/B CONFUSED ProQA comments: UNK/31D03
+*******************************************************************************
+Buffalo, NY (NYBuffaloParser)
+RC:Run# 4330/1 Hot 911 & Pvt/28B1 Stroke/CVA-unknown status/189 LANGFIELD DR///BUFFALO/14215////14:18/<Unknown>////X=TOWER ST&SUFFOLK ST
+RC:Run# 3992/1 Hot 911 & Pvt/29B1 Traffic/Transport Accidents-injuries/E  LOVEJOY ST & N  OGDEN ST///BUFFALO/14206////17:35/<Unknown>////X=SCHILLER ST&N OGDEN 
+RC:Run# 4364/1 Hot 911 & Pvt/6C1 Breathing Problems-abnormal breathing/2128 ELMWOOD AVE///BUFFALO/14207////15:57/<Unknown>////X=HINMAN ST&DRIVEWAY
 *******************************************************************************
 Longview, TX (TXLongViewParser)
 Run# 30209/ *Non Life Emergency P/2/ Sick Person (Specific Diagnosis)/ 1102 FRANCIS/ EASTON/ 18:21/ <Unknown>/ bp issues-- dizzy spells-- P
@@ -1285,14 +1285,6 @@ Subject:ALERT PAGE\n400 rabbit run road trash can on fire
 Subject:ALERT PAGE\nENTERPRIZE AND DANA FOR A SLIGHT ODOR OF GAS
 Subject:ALERT PAGE\nGRASS FIRE SOUTH OF CARBON BLACK AT 2300 BSN 35 N OF AP
 **********************************************************
-Talbot County, MD
-Contact: "jg0169586@yahoo.com" <jg0169586@yahoo.com>
-Sender: msg@cfmsg.com
-Same format as Centerville, MD
-Need more samples (3/3/11)
-Talbot 911:*D 61 B-ABDOMINAL PAIN 319 LINDEN AVE T60
-Talbot 911:*D 70 A-CHEST PAIN 5656 BLACK WALNUT POINT RD BREATHING NORMAL <35 T70
-**********************************************************
 Harnet County, NC
 Contact: Beverly Williams <bwilliams.co9@gmail.com>
 Sender: cadpage@harnett.org
@@ -1350,25 +1342,22 @@ FireCom:  31 MUNSON PL (SIG 9-AMBU) 20F ABDOMINAL PAINS
 This appears to be the main Nassau County dispatch, rename existing Nassau County to Bellmore
 Need more samples (3/8/11)
 **********************************************************
-************  READY TO ROLL ******************************
-**********************************************************
-**********************************************************
-**********************************************************
 Elkhart County, IN
 Contact: Chris Lanpher <chrislanpher@gmail.com>
 Sender: <elkco911@eccdomain.local>
 System: Vision Air
+Current format lacks a call address?? Waiting for clairification (3/12/11)
 62499 ST RD13 GOSHENAmbulance CallCLIN,M1J01/16/2011 10:46:33 : pos7 HARMOF   Geo Comment: 00120D  CLIN CEN  CLINTON BRICK MENNONITE CHURCH.....GO TO THE
 11030918510GOSHENVehicle Accident/UnknownCLIN,M1J03/09/2011 10:34:12 : pos3 : HARMOF   SEMI AND A TK WITH A TRAILER.....SEMI IS ROLLED OVER......CALLED IN
 11022113771GOSHENVehicle Accident/UnknownCLIN02/21/2011 07:39:03 : pos8 : HARMOF   CO RD 34//CO RD 31  Geo Comment: 00120D  CLIN CEN  CO RD 34 W OF CO RD 3
 11031018831MILLERSBURGGas LeakCLIN03/10/2011 12:40:05 : pos2 : ANDREC   Landmark Comment: AUDIBLE 108  WHEN FRONT DOOR IS OPENED  Landmark: GIEREKS  Geo Co
 11031018733GOSHENAmbulance CallCLIN,M3J03/10/2011 03:21:26 : pos7 : BRINGA   Geo Comment: 00120D  CLIN ST3    71YOF, CONS/BREATH, DIZZY, CLAMMY & NAUSEA
-
 **********************************************************
 Cy-Fair Volunteer FD (Harris County, TX)
 Contact: "Steven Lindsay" <steven@snl-ent.com>
 Sender: CAD@CYFAIRVFD.ORG
-Need text msg samples (3/11/11)
+Need sample/confirmation that messages are recieved in SMS text format
+
 MVA  19001 US 290 INBOUND  (408H) () COMMENTS:1/17/2011 14:52:44 19001 US 290 INBOUND: cross streets: W FM 1960 & NORTHWEST FWY &  & N ELDRIDGE PKWY
 1/17/2011 14:53:17 Incident Case Number automatically assigned : JVFD2011000051
 
@@ -1459,6 +1448,101 @@ MEDICAL CALL  8350 JONES RD  (409K) () COMMENTS:1/20/2011 10:51:54 8350 JONES RD
 PLEASANT COLONY DR & VILLAGE GREEN DR
 1/20/2011 10:53:03 Incident Case Number automatically assigned : JVFD2011000061
 **********************************************************
+Hiring Valley Ambulance, SE MI
+Contact: andrew till <mimedic@gmail.com>
+Sender: hva@hva.org
+Need more samples 3/14/11
+**********************************************************
+Unknown (trying Prince Georges County, MD)
+Contact: "spierce091187@yahoo.com" <spierce091187@yahoo.com>
+Sender: bhvfd14@gmail.com
+(ALERT) [35]: MULTI FAMILY DWE (APTF): 10 PARKWAY (CRESCENT RD AND CRESCENT RD): TEXT:ProQA recommends dispatch at this time PH:301-982-7357 \SOURCE:RESD (MTF): E
+**********************************************************
+************  READY TO ROLL ******************************
+**********************************************************
+**********************************************************
+MMR, MI (Claire, Isabella, and Gratiot Counties)
+Contact: Sean Duffy <emt210@gmail.com>
+System: ProQA
+
+Fwd: Subject:<CAD> - part 1 of 1
+RC:Run# 17656/11775 N ISABELLA RD/P-2 Emergency No Lights//Chest Pain (Non-Traumatic)/herrick and pere marquette
+
+Fwd: Subject:<CAD> - part 1 of 1
+RC:0108-A/Run#17656/11:24/11:24/11:25/11:33/11:54/12:00/12:08/12:26/ODOM ATS:0.
+
+Fwd: Subject:<CAD> - part 1 of 1
+RC:Job# 0065-A/ Run# 17612/ was Canceled: Patient Refused Service/07:32/07:34/07:34/07:44/07:55
+
+Fwd: Subject:<CAD> - part 1 of 1
+RC:Run# 17612/7800 LUDINGTON DR/P-3 Downgrade  (No Lts/Sirens)//Falls/x gibson and lake station ave on 
+
+Fwd: Subject:<CAD> - part 1 of 1
+RC:Go to post WEST STATION 27
+
+Fwd: Subject:<CAD> - part 1 of 1
+RC:Go to post WEST STATION 31
+
+Fwd: Subject:<CAD> - part 1 of 1
+RC:Run# 16888/7181 N CLARE/P-1 Life Threatening Emergency//Cardiac or Respiratory Arrest/Death/x forres
+
+Fwd: Subject:<CAD> - part 1 of 1
+trying to check your status on scene. Thanks/ Holly - Medcom
+
+Fwd: Subject:<CAD> - part 1 of 1
+RC:Job# 0214-A/ Run# 16888/ was Canceled: Code 12-Dead On Scene/18:15/18:15/18:16/18:21/19:14
+
+Fwd: Subject:<CAD> - part 1 of 1
+RC:Run# 17723/600 SE 4TH ST/P-1 Life Threatening Emergency/nurses station/Sick Person (Specific Diagnos
+
+Fwd: Subject:<CAD> - part 1 of 1
+RC:0165-A/Run#17723/15:13/15:13/15:15/15:22/15:42/15:46/15:53/16:00/ODOM ATS:0.0/ODOM ATD:0.9/MILES:   
+**********************************************************
+Talbot County, MD
+Contact: "jg0169586@yahoo.com" <jg0169586@yahoo.com>
+Contact: Scott Redmer <sredmer140@gmail.com>
+Sender: msg@cfmsg.com
+Same format as Centerville, MD
+Talbot 911:*D 61 B-ABDOMINAL PAIN 319 LINDEN AVE T60
+Talbot 911:*D 70 A-CHEST PAIN 5656 BLACK WALNUT POINT RD BREATHING NORMAL <35 T70
+Talbot 911:*D 66 MVA/PI OCEAN GTWY / GOLDSBOROUGH ST T60
+Talbot 911:*D 40C B-FALLS/BACK TRAUMA 103 MILES LN POSS DANGER BODY PT T40
+Talbot 911:*D DOR ASSIST EMS 821 FIELDCREST DR D01
+Talbot 911:*D 61 POLICE REQUEST EMS IDLEWILD PARK @116 IDLEWILD AVE BRAVO RESPONSE T60
+Talbot 911:*D 43 SM NON-DWELLING FIRE 7011 HOPKINS NECK RD SHED/DETACH GARAGE T40
+
+The codes following the *D are the box area and then the T__ and such is the
+station number that has the call. We have the following stations in the
+county.
+20  -  Oxford
+30  -  Trappe
+40  -  St. Michaels
+50  -  Cordova
+60  -  Easton
+70  -  Tilghman
+80  -  Queen Ann Hillsboro
+90  -  Talbot County EMS
+
+The D01 is for assisting Dorchester county station 1
+
+Hope this helps. I am really just looking for calls for Sta 90 and those
+were the text I sent. I don't want every fire call for every station because
+we are only alerted for structure fires or co2 alarms.
+**********************************************************
+Calvert County, MD
+Contact: michael smith <lee020988@gmail.com>, 4436247957@vtext.com
+Sender: dispatch@co.cal.md.us
+M Priority 3 Medical  00:02 03/12/11 8536 BAYSIDE RD CHESAPEAKE BEACH 2011-00000445 CO1 abdom. pain
+R Auto Accident Serious S5 R1 A59 A19 M102  21:41 03/11/11 W CHESAPEAKE BEACH RD DUNKIRK 2011-00016920  entrapment  a truck hit a another car
+F Local Box E12  19:23 03/10/11 3741 3RD ST NORTH BEACH 2011-00000438  NEIGHBORS ARE TRYING TO APPROACH IT. THERE IS A CAR UNDER THE TREE, IT
+M Priority 2 Medical A19 M102  17:19 03/10/11 950 E  MT HARMONY RD OWINGS 2011-00000435  ProQA Medical Key Questions have been completed; Disp Dispatch Code:
+F Fire Alarm E11 E51 T1  16:30 03/10/11 1850 PROSPER LN OWINGS 2011-00000433 SNEADES ACE-OW ProQA Fire Questionnaire Completed;
+F Area Box E61 E21 E52 E11 TN5 TN7 T2 S6 A68 NDC  17:52 03/09/11 65 WALTON RD HUNTINGTOWN 2011-00000443  ProQA Fire Questionnaire Completed; D 
+M Priority 2 Medical A19 NOMED  10:45 03/09/11 8818 CHESAPEAKE LIGHTHOUSE DR NORTH BEACH 2011-00000428  ProQA Medical Questionnaire Completed;
+
+ anythings starting with B, E, T, S, R, A, or M followed by 1-3 digits, or
+ anything starting with TN followed by a single digit, or
+ NDC or NOMED or COM
 **********************************************************
 Monroeville, PA (in Allegheny County)
 Contact: Zach Peters <emtpeters@gmail.com>
@@ -1640,10 +1724,18 @@ HEAVY SMOKE CONDITION IN THE AREA - UNK WHAT'S IT'S ACTUALLY COMING FROM
 ROCHESTER, RANDOLF
 717-468-8174
 **********************************************************
-Unknown (trying Prince Georges County, MD)
-Contact: "spierce091187@yahoo.com" <spierce091187@yahoo.com>
-Sender: bhvfd14@gmail.com
-(ALERT) [35]: MULTI FAMILY DWE (APTF): 10 PARKWAY (CRESCENT RD AND CRESCENT RD): TEXT:ProQA recommends dispatch at this time PH:301-982-7357 \SOURCE:RESD (MTF): E
+China Grove, NC (Rowan County, NC)
+Contact: Timothy Ross <firefighter4047@gmail.com>
+Sender: 93001041
+System: OSSI Dispatch
+CHGV=CHINA GROVE
+MOOR=
+CAD:10C4 CHEST PAIN;201 N FRANKLIN ST;SWINK ST;PARK ST;CHGV;4301;RFG1
+CAD:FIRE DEPT SERVICE ASSIGNMENT;213 WASHINGTON ST;KLONDALE ST;CHGV;4301
+CAD:13D1 DIABETIC PROBLEM;1075 DEAL RD;KARRIKER FARMS RD;FIELD TRACE RD;MOOR;CARE INN RETIREMENT CENTER;4002;RFG4
+CAD:RFD COMMAND ESTABLISHED;2470 E NC 152 HWY; CHGV
+**********************************************************
+**********************************************************
 **********************************************************
 * Misc formats received with problem reports
 **********************************************************
