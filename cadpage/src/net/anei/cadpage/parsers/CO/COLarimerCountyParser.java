@@ -21,6 +21,10 @@ Default to Larimer county, but provide way to override empty set (None or NA)
 (BFPD) (CFS) Convulsions/Seizures (C,D)     // 315 Goose Hollow Rd  // Apt/Lot            // Radio:TALK GP2                       //
 (BFPD) (CFS) Breathing Problems (E)         // 512 Redwood Cir  // Apt/Lot            // Radio:                               //
 
+Contact: Josh Valerio <j247valerio@gmail.com>
+Sender: LFR@notifyall.com
+(NOTIFYall msg) (CFS) Alarm Fire / CO with Patients  // 1727 N Wilson Ave              // Apt/Lot 503        // Radio:TALK GP2                       //
+
  */
 
 
@@ -34,15 +38,23 @@ public class COLarimerCountyParser extends FieldProgramParser {
   }
   
   public String getFilter() {
-    return "BFPD@notifyall.com";
+    return "@notifyall.com";
   }
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     
-    if (!subject.equals("BFPD|CFS")) return false;
+    Parser p = new Parser(subject);
+    data.strSource = p.getOptional('|');
+    if (!p.get().equals("CFS")) return false;
+    if (data.strSource.toLowerCase().startsWith("notifyall")) data.strSource = "";
 
     String[] flds = SEPARATOR.split(body);
     return parseFields(flds, data);
+  }
+  
+  @Override
+  public String getProgram() {
+    return "SRC " + super.getProgram();
   }
 }
