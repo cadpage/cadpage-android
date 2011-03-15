@@ -1,9 +1,7 @@
 package net.anei.cadpage.parsers.SC;
 
-import java.util.Properties;
-
 import net.anei.cadpage.SmsMsgInfo.Data;
-import net.anei.cadpage.parsers.SmsMsgParser;
+import net.anei.cadpage.parsers.FieldProgramParser;
 
 /*
 Charleston County, SC
@@ -37,11 +35,11 @@ Sender: CDC_Dispatch@charlestoncounty.org ??
  */
 
 
-public class SCCharlestonCountyParser extends SmsMsgParser {
-  private static final String[] KEYWORDS = new String[]{"CALL","Address", "X Street", "Cmd Channel"};
+public class SCCharlestonCountyAParser extends FieldProgramParser {
   
-  public SCCharlestonCountyParser() {
-    super("CHARLESTON COUNTY", "SC");
+  public SCCharlestonCountyAParser() {
+    super("CHARLESTON COUNTY", "SC",
+           "CALL! Address:ADDR! X_Street:X Cmd_Channel:INFO");
   }
   
   @Override
@@ -51,24 +49,20 @@ public class SCCharlestonCountyParser extends SmsMsgParser {
   
   @Override
   protected boolean parseMsg(String body, Data data) {
-    
-    if (!body.contains(" District ")) return false;
 
     data.defState="SC";
     data.defCity = "CHARLESTON COUNTY";
     
     Parser p = new Parser(body);
-    data.strCallId = p.get(' ');
-    data.strUnit = p.get(' ') + ' ' + p.get(' ');
-    body = "CALL:" + p.get();
-    
-    Properties props = parseMessage(body, KEYWORDS);
-
-    data.strCall = props.getProperty("CALL", "");
-    parseAddress(props.getProperty("Address", ""),data);
-    data.strCross = props.getProperty("X Street", "");
-    data.strSupp = props.getProperty("Cmd Channel","");
-
-    return true;
+    String callId = p.get(' ');
+    if (!p.get(' ').equals("District")) return false;
+    data.strCallId = callId;
+    data.strSource = p.get(' ');
+    return super.parseMsg(p.get(), data);
+  }
+  
+  @Override
+  public String getProgram() {
+    return "ID SRC " + super.getProgram();
   }
 }
