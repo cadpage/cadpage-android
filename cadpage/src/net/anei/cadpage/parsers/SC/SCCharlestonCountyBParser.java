@@ -16,32 +16,14 @@ public class SCCharlestonCountyBParser extends FieldProgramParser {
   
   public SCCharlestonCountyBParser() {
     super("CHARLESTON COUNTY", "SC",
-           "CALL! Address:ADDR! X_Street:X Cmd_Channel:INFO");
-  }
-  
-  @Override
-  public String getFilter() {
-    return "CDC_Dispatch@charlestoncounty.org";
+           "ADDR/SC! X_Street:X! Op_Channel:INFO");
   }
   
   @Override
   protected boolean parseMsg(String body, Data data) {
-
-    data.defState="SC";
-    data.defCity = "CHARLESTON COUNTY";
     
-    Parser p = new Parser(body);
-    String callId = p.get(' ');
-    if (p.get(' ').equals("District")) {
-      data.strCallId = callId;
-      data.strSource = p.get(' ');
-      body = p.get();
-    }
+    // Quick check to eliminate SCCharlestonCountyAParser messages
+    if (body.contains("Address:")) return false;
     return super.parseMsg(body, data);
-  }
-  
-  @Override
-  public String getProgram() {
-    return "ID SRC " + super.getProgram();
   }
 }

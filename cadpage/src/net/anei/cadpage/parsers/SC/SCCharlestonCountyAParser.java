@@ -43,15 +43,7 @@ public class SCCharlestonCountyAParser extends FieldProgramParser {
   }
   
   @Override
-  public String getFilter() {
-    return "CDC_Dispatch@charlestoncounty.org";
-  }
-  
-  @Override
   protected boolean parseMsg(String body, Data data) {
-
-    data.defState="SC";
-    data.defCity = "CHARLESTON COUNTY";
     
     Parser p = new Parser(body);
     String callId = p.get(' ');

@@ -1339,6 +1339,7 @@ Sender: paging@alpinesoftware.com <From%3Apaging@alpinesoftware.com>
 FireCom:  3 HUDSON ST E (GENERAL-AUTO) FIRE ALARM RINGING
 FireCom:  31 MUNSON PL (SIG 9-AMBU) 20F ABDOMINAL PAINS
 FireCom: THE FISHERY 1 MAIN ST (SIG 9-AMBU) MALE FELL-FX WRIST 
+FireCom:  528 ATLANTIC AVE (SIG 9-AMBU) BACK DOOR DIFF BREATHING
 
 This appears to be the main Nassau County dispatch, rename existing Nassau County to Bellmore
 Need more samples (3/8/11)
@@ -1368,7 +1369,7 @@ Sender: bhvfd14@gmail.com
 **********************************************************
 **********************************************************
 Mobile Medical Response, MI (Claire, Isabella, and Gratiot Counties)
-Contact: Sean Duffy <emt210@gmail.com>
+Contact: Sean Duffy <emt210@gmail.com>, 2315981587@messaging.sprintpcs.com
 Sender: mailghost@mobilemedical.org
 System: ProQA
 
@@ -1404,6 +1405,22 @@ RC:Run# 17723/600 SE 4TH ST/P-1 Life Threatening Emergency/nurses station/Sick P
 
 Fwd: Subject:<CAD> - part 1 of 1
 RC:0165-A/Run#17723/15:13/15:13/15:15/15:22/15:42/15:46/15:53/16:00/ODOM ATS:0.0/ODOM ATD:0.9/MILES:   
+
+Fwd: Subject:<CAD> - part 1 of 1
+RC:Run# 17923/10197 S CLARE AVE/P-2 Emergency No Lights//Chest Pain (Non-Traumatic)/dept corrections bu
+
+Fwd: Subject:<CAD> - part 1 of 1
+RC:Run# 17874/521 S SCOTT DR/P-1 Life Threatening Emergency//Breathing Problems/was in ER Saturday/ dx 
+
+Fwd: Subject:<CAD> - part 1 of 1
+RC:Run# 17991/391 MILL ST/P-2 Emergency No Lights/D/Sick Person (Specific Diagnosis)/pt had knee replac
+
+Fwd: Subject:<CAD> - part 1 of 1
+RC:Run# 17893/235 GATEWAY DR/P-1 Life Threatening Emergency/105/Breathing Problems//ALS/CLARE///<Unknow
+
+Fwd: Subject:<CAD> - part 1 of 1
+RC:Run# 17970/602 BEECH ST/P-5 Local Transport/2ND FLOOR 205-A MED SURG/Int-Sick Person-Specify in Comm
+
 **********************************************************
 Talbot County, MD
 Contact: "jg0169586@yahoo.com" <jg0169586@yahoo.com>
@@ -1592,6 +1609,7 @@ PLEASANT COLONY DR & VILLAGE GREEN DR
 Monroeville, PA (in Allegheny County)
 Contact: Zach Peters <emtpeters@gmail.com>
 Sender: alertts@monroeville.pa.us
+DispatchA1
 
 --+++-----
 [Alert: Sick Person]  ALRM LVL: 1
@@ -1768,7 +1786,56 @@ HEAVY SMOKE CONDITION IN THE AREA - UNK WHAT'S IT'S ACTUALLY COMING FROM
 02:18
 ROCHESTER, RANDOLF
 717-468-8174
+**********************************************************
+Loveland-Symmes Fire Department, OH
+Northeast Communication Center, OH
+Contact: Jon Frye <jfrye@safety-center.org>
+Sender; Dispatcher@safety-center.org
+DispatchA1
 
+(NECC) [F] LV:1 ALARM CARBON MONOXIDE NO SYMPTOMS
+/
+1619 W LOVELAND AV
+(LV)
+XS: S LEBANON RD & HEIDELBURG DR
+
+RCVD AS Phone
+
+COM:
+ALARM ACTIVATED
+
+[NECC]  [F] LV:1 ALARM FIRE
+/
+CHILI'S GRILL & BAR
+11329<tel:11329> MONTGOMERY RD
+(SY)
+XS: HARPERSPOINTE DR & E KEMPER RD
+
+RCVD AS Phone
+
+COM:
+F28 FIRE DUCT ALARM
+E9
+(NECC) [F] LV:1 AUTO ACCIDENT INJURY
+/
+FIELDS ERTEL RD/UNION CEMETERY RD
+(SY)
+XS: UNION CEMETERY RD & GREEN ARBORS LN
+
+RCVD AS Phone
+
+COM:
+(NECC) [F] LV:1 AUTO ACCIDENT VEHICLE FIRE
+/
+BECKER
+9695 LOVELAND MADEIRA RD
+(SY)
+XS: HUMPHREY RD & MORGANS TRACE
+
+RCVD AS Phone
+**********************************************************
+**********************************************************
+**********************************************************
 **********************************************************
 **********************************************************
 **********************************************************
