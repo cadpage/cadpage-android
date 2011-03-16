@@ -1338,6 +1338,7 @@ Contact: Tommy Johnson <tjohnson377.tj@gmail.com>
 Sender: paging@alpinesoftware.com <From%3Apaging@alpinesoftware.com>
 FireCom:  3 HUDSON ST E (GENERAL-AUTO) FIRE ALARM RINGING
 FireCom:  31 MUNSON PL (SIG 9-AMBU) 20F ABDOMINAL PAINS
+FireCom: THE FISHERY 1 MAIN ST (SIG 9-AMBU) MALE FELL-FX WRIST 
 
 This appears to be the main Nassau County dispatch, rename existing Nassau County to Bellmore
 Need more samples (3/8/11)
