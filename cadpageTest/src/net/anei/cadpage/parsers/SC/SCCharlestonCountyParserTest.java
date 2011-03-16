@@ -13,7 +13,7 @@ public class SCCharlestonCountyParserTest extends BaseParserTest {
   }
   
   @Test
-  public void testParser() {
+  public void testAParser() {
     doTest("T1",
         "1110-0001587 District 03 Rescue Rescue Needed Address: Orleans Rd / Sam Rittenberg Blvd X Street:   Cmd Channel: Incident 04" ,
         "SRC:03",
@@ -208,7 +208,19 @@ public class SCCharlestonCountyParserTest extends BaseParserTest {
     
   }
   
+  @Test
+  public void testBParser() {
+
+    doTest("T1",
+        "Medical Assist Charlie Respons 1605 Highway 41 X Street: JOE ROUSE RD/JOE ROUSE RD Op Channel: EMS OPS",
+        "CALL:Medical Assist Charlie Respons",
+        "ADDR:1605 Highway 41",
+        "X:JOE ROUSE RD/JOE ROUSE RD",
+        "INFO:EMS OPS");
+    
+  }
+  
   public static void main(String[] args) {
-    new SCCharlestonCountyParserTest().generateTests("T100");
+    new SCCharlestonCountyParserTest().generateTests("T1", "ID SRC CALL ADDR X INFO");
   }
 }
