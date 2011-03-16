@@ -8,7 +8,8 @@ import net.anei.cadpage.parsers.dispatch.DispatchPrintrakParser;
 /*
 Orange County, NY
 Contact: George Ewings <gewings@gmail.com>
-From: OC911@ocinets01.orangecounty.local
+Sender: oc911@co.orange.ny.us, OC911@ocinets01.orangecounty.local, oc911@ocmails02.orangecounty.local, oc911@orangecountygov.com
+
 DEPTWK     TYP: MVA- UNKNOWN STATUS AD: ST RTE 17 W&EXIT 120 W OFF CTY: WALLKILL CN: RICHARD CMT1: CALLER REPORTS A 2 CAR MV
 DEPTWK     TYP: FALLS APT: 621 AD: 121 DUNNING RD CTY: WALLKILL CN: MARGARET TENNISON CMT1: MVISITOR FELL IN PT ROOM ARM AND
 DEPTWK     TYP: PSYCH EMERG BLD: 10 APT: 13B AD: 92 FITZGERALD DR CTY: WALLKILL CN: TRACZ, CAROLINE CMT1: "SEND AS AN ALPHA
@@ -45,7 +46,7 @@ public class NYOrangeCountyParser extends DispatchPrintrakParser {
   
   @Override
   public String getFilter() {
-    return "OC911@ocinets01.orangecounty.local";
+    return "OC911@";
   }
   
   @Override
