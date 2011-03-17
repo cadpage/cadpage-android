@@ -1377,36 +1377,6 @@ Sender: bhvfd14@gmail.com
 **********************************************************
 **********************************************************
 **********************************************************
-Talbot County, MD
-Contact: "jg0169586@yahoo.com" <jg0169586@yahoo.com>
-Contact: Scott Redmer <sredmer140@gmail.com>
-Sender: msg@cfmsg.com
-Same format as Centerville, MD
-Talbot 911:*D 61 B-ABDOMINAL PAIN 319 LINDEN AVE T60
-Talbot 911:*D 70 A-CHEST PAIN 5656 BLACK WALNUT POINT RD BREATHING NORMAL <35 T70
-Talbot 911:*D 66 MVA/PI OCEAN GTWY / GOLDSBOROUGH ST T60
-Talbot 911:*D 40C B-FALLS/BACK TRAUMA 103 MILES LN POSS DANGER BODY PT T40
-Talbot 911:*D DOR ASSIST EMS 821 FIELDCREST DR D01
-Talbot 911:*D 61 POLICE REQUEST EMS IDLEWILD PARK @116 IDLEWILD AVE BRAVO RESPONSE T60
-Talbot 911:*D 43 SM NON-DWELLING FIRE 7011 HOPKINS NECK RD SHED/DETACH GARAGE T40
-
-The codes following the *D are the box area and then the T__ and such is the
-station number that has the call. We have the following stations in the
-county.
-20  -  Oxford
-30  -  Trappe
-40  -  St. Michaels
-50  -  Cordova
-60  -  Easton
-70  -  Tilghman
-80  -  Queen Ann Hillsboro
-90  -  Talbot County EMS
-
-The D01 is for assisting Dorchester county station 1
-
-Hope this helps. I am really just looking for calls for Sta 90 and those
-were the text I sent. I don't want every fire call for every station because
-we are only alerted for structure fires or co2 alarms.
 **********************************************************
 Calvert County, MD
 Contact: michael smith <lee020988@gmail.com>, 4436247957@vtext.com
