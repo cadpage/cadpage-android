@@ -27,6 +27,10 @@ System: New World
 (25 Endicott Fire) 25:SEIZURES-D :326 JENNINGS ST :42 yof seizure                        &lt;12D02&gt; :42 year old, Female, Unconscious, Breathing.  CO
 (59 Five Mile Pt Fire) 59:DIABETIC-C :913 ROUTE 11 APT 2D COUNTRYSIDE VILLAGE :34 YOF DIABETIC PROBLEM               &lt;13C01&gt; :34 year old, Female,
 
+Contact: Kahl <kdmiller324@aol.com>
+Sender: mplus@co.broome.ny.us
+((26873) ) ) 32:ALARM-HOUS :416 E BENITA BLVD :SMOKE ALARM GOING OFF INTERMITTENLY IN :BASEMENT. NO SMOKE OR FIRE VISIBLE-POSS PROBLEM WITH DETECTOR Cross Sts
+
 */
 
 
@@ -45,7 +49,7 @@ public class NYBroomeCountyParser extends FieldProgramParser {
     
     @Override
     public String getFilter() {
-      return "messaging@iamresponding.com";
+      return "messaging@iamresponding.com,mplus@co.broome.ny.us";
     }
 
 	  @Override
@@ -55,6 +59,7 @@ public class NYBroomeCountyParser extends FieldProgramParser {
 	    if (match.find()) body = body.substring(0,match.start()).trim();
 
 	    // Fix up leading field separator
+	    if (body.startsWith(")")) body = body.substring(1).trim();
 	    body = LEADER.matcher(body).replaceFirst("$1 :");
 	    
 	    // Using a colon as both a field separator and a keyword indicator makes life complicated :(
