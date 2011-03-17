@@ -18,7 +18,7 @@ public class ORMarionCountyNParserTest extends BaseParserTest {
         "[(49962]  : ) TONE:  819::RAILWAY:AV:::::3030:VTON,STAF,:SAFE COM STA1@1830/APP CKS@1900 EMS@1945 STA1:20110302:174858",
         "ID:49962",
         "CALL:TONE",
-        "ADDR:819 RAILWAY AVE",
+        "ADDR:819 RAILWAY AV",
         "MAP:3030",
         "UNIT:VTON,STAF",
         "INFO:SAFE COM STA1@1830/APP CKS@1900 EMS@1945 STA1");
@@ -37,7 +37,7 @@ public class ORMarionCountyNParserTest extends BaseParserTest {
         "[(47486]  : ) STRC:::ABIQUA:RD:::HW 213::2833:E435,E485,E405,E415,D411,T489,T418,T419,R484,PGE,TIME,STAF,N7,:LARGE FLAMES APPX 2 MILES EAST:20110226:183324",
         "ID:47486",
         "CALL:STRC",
-        "ADDR:ABIQUA RD & HWY 213",
+        "ADDR:ABIQUA RD & HW 213",
         "MAP:2833",
         "UNIT:E435,E485,E405,E415,D411,T489,T418,T419,R484,PGE,TIME,STAF,N7",
         "INFO:LARGE FLAMES APPX 2 MILES EAST");
@@ -120,14 +120,77 @@ public class ORMarionCountyNParserTest extends BaseParserTest {
         "[(45886]  : ) MVA:::CASCADE:HW:::STATE:ST:3630:E425,D411,R404,M31,SBLE,SBLR,PGE,E415,LAW,N7,:SINGLE VEH ROLLOVER/ENTRAPMENT, NO INJ:20110224:063549",
         "ID:45886",
         "CALL:MVA",
-        "ADDR:CASCADE HWY & STATE ST",
+        "ADDR:CASCADE HW & STATE ST",
         "MAP:3630",
         "UNIT:E425,D411,R404,M31,SBLE,SBLR,PGE,E415,LAW,N7",
         "INFO:SINGLE VEH ROLLOVER/ENTRAPMENT, NO INJ");
 
+    doTest("T13",
+        "((56873) : ) MISC: 8170::CASCADE:HW:::::2733:E485,D411,N7,:POWER LINE DOWN W/LARGE TREE BLKING:20110313:152421",
+        "ID:56873",
+        "CALL:MISC",
+        "ADDR:8170 CASCADE HW",
+        "MAP:2733",
+        "UNIT:E485,D411,N7",
+        "INFO:POWER LINE DOWN W/LARGE TREE BLKING");
+
+    doTest("T14",
+        "((56971) : ) AOA:34000:S:ELLIS:RD:::::2737:E485,N7,:LARGE TREE ONTO HOUSE/UNK FURTHER:20110313:154421",
+        "ID:56971",
+        "CALL:AOA",
+        "ADDR:34000 S ELLIS RD",
+        "MAP:2737",
+        "UNIT:E485,N7",
+        "INFO:LARGE TREE ONTO HOUSE/UNK FURTHER");
+
+    doTest("T15",
+        "((57141) : ) UNC: 3351::SEMINOLE:RD:::::3234:M24,R404,D411,N7,:86 YOF UNC/DIFF B/NOT ALERT:20110313:203929",
+        "ID:57141",
+        "CALL:UNC",
+        "ADDR:3351 SEMINOLE RD",
+        "MAP:3234",
+        "UNIT:M24,R404,D411,N7",
+        "INFO:86 YOF UNC/DIFF B/NOT ALERT");
+
+    doTest("T16",
+        "((57514) : ) UNC:  728:W:MAIN:ST:::::3030:M24,R404,D411,STAF,N7,:74 YOM IN SEIZ:20110314:124736",
+        "ID:57514",
+        "CALL:UNC",
+        "ADDR:728 W MAIN ST",
+        "MAP:3030",
+        "UNIT:M24,R404,D411,STAF,N7",
+        "INFO:74 YOM IN SEIZ");
+
+    doTest("T17",
+        "((57903) : ) MVA:::MT ANGEL:HW:::HOBART:RD:2929:E405,R404,M24,D411,LAW,STAF,N7,:2 VEH MVA/ELDERLY",
+        "ID:57903",
+        "CALL:MVA",
+        "ADDR:MT ANGEL HW & HOBART RD",
+        "MAP:2929",
+        "UNIT:E405,R404,M24,D411,LAW,STAF,N7",
+        "INFO:2 VEH MVA/ELDERLY");
+
+    doTest("T18",
+        "((58711) : ) CVA:  173::STEELHAMMER:RD:::::3031:M24,R404,D411,STAF,N7,:93YOF C/A/B HX OF CVA/NOT ABLE TO SPEAK:20110316:103935",
+        "ID:58711",
+        "CALL:CVA",
+        "ADDR:173 STEELHAMMER RD",
+        "MAP:3031",
+        "UNIT:M24,R404,D411,STAF,N7",
+        "INFO:93YOF C/A/B HX OF CVA/NOT ABLE TO SPEAK");
+
+    doTest("T19",
+        "((58975) : ) PBLC:  206::WESTFIELD:ST:::::3030:E415,D411,STAF,N7,:REQ D411 RESPOND W/LADDER TO GET IN WINDOW:20110316:141622",
+        "ID:58975",
+        "CALL:PBLC",
+        "ADDR:206 WESTFIELD ST",
+        "MAP:3030",
+        "UNIT:E415,D411,STAF,N7",
+        "INFO:REQ D411 RESPOND W/LADDER TO GET IN WINDOW");
+
   }
   
   public static void main(String[] args) {
-    new ORMarionCountyNParserTest().generateTests("T1");
+    new ORMarionCountyNParserTest().generateTests("T13");
   }
 }
