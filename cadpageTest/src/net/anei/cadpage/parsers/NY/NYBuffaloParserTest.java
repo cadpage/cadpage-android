@@ -8,7 +8,7 @@ import org.junit.Test;
 public class NYBuffaloParserTest extends BaseParserTest {
   
   public NYBuffaloParserTest() {
-    setParser(new NYBuffaloParser(), "BUFFALO COUNTY", "NY");
+    setParser(new NYBuffaloParser(), "BUFFALO", "NY");
   }
   
   @Test
@@ -72,10 +72,10 @@ public class NYBuffaloParserTest extends BaseParserTest {
 
     doTest("T8",
         "RC:Run# 929/1 Hot 911 & Pvt/9E1 Cardiac/Resp Arrest/DOA-not breathing at all/69 SIDNEY ST///BUFFALO/14211////09:44/<Unknown>////X=FILLMORE AVE&RICKERT AVE",
-        "CALL:9E1 Cardiac / Resp Arrest",
-        "ADDR:DOA-not breathing at all",
-        "CITY:69 SIDNEY ST",
-        "ID:BUFFALO",
+        "CALL:9E1 Cardiac / Resp Arrest / DOA-not breathing at all",
+        "ADDR:69 SIDNEY ST",
+        "CITY:BUFFALO",
+        "ID:14211",
         "X:FILLMORE AVE&RICKERT AVE");
   }
   

@@ -107,8 +107,8 @@ public class FieldProgramParserTest extends BaseParserTest {
         "INFO:X");
     doFieldTest("INTLS 4",
         "INTLS? INFO",
-        "ab;HELP",
-        "INFO:ab");
+        "ab0;HELP",
+        "INFO:ab0");
     
   }
   

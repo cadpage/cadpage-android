@@ -37,7 +37,7 @@ public class OHDelewareCountyParserTest extends BaseParserTest {
         "ADDR:210 BIG RUN RD",
         "CITY:BERLIN TWP",
         "X:STATE ROUTE 37 E & SOUTH END",
-        "INFO:PROQA Urgen");
+        "INFO:PROQA Urgent Message: basement / PROQA Urgen");
     
     doTest("T4",
         "(Alert: Fire-Vehicle) ALRM LVL: 1\nLOC:\nALUM CREEK BIG RUN PARKING LOT NORTH (UPPER)\n606 BIG RUN RD\nBERLIN TWP\nBTWN: STATE ROUTE 37 E & SOUTH END\n\nCOM:\nVEHIC",

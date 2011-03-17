@@ -79,12 +79,14 @@ public class NYBroomeCountyParserTest extends BaseParserTest {
         "NAME:SENTRY OP 79");
 
     doTest("T7",
-        "(25 Endicott Fire) 25-BREATHNG-C :308 ARTHUR AV APT 3 :40 yom diff breathing &lt;06C01&gt; :40 year old, Male, Conscious, Breathing. Abnormal breathing  (Asthma) . Cross StsE MAIN ST/TRACY ST 00:12 02/01/2011 2011-00002020 Caller:WILLIAMS,CINDY,, Phone:000-242-5076 V/Endicott",
+        "(25 Endicott Fire) 25-BREATHNG-C :308 ARTHUR AV APT 3 :40 yom diff breathing &lt;06C01&gt; :40 year old, Male, Conscious, Breathing. Abnormal breathing  (Asthma) . Cross Sts:E MAIN ST/TRACY ST 00:12 02/01/2011 2011-00002020 Caller:WILLIAMS,CINDY,, Phone:000-242-5076 V/Endicott",
         "SRC:25",
         "CALL:BREATHNG-C",
         "ADDR:308 ARTHUR AV",
         "APT:3",
-        "INFO:40 yom diff breathing <06C01>",
+        "INFO:40 yom diff breathing <06C01> / 40 year old, Male, Conscious, Breathing. Abnormal breathing (Asthma) .",
+        "X:E MAIN ST/TRACY ST",
+        "ID:2011-00002020",
         "NAME:WILLIAMS,CINDY",
         "PHONE:000-242-5076");
 
@@ -106,9 +108,16 @@ public class NYBroomeCountyParserTest extends BaseParserTest {
         "CALL:SEIZURES-D",
         "ADDR:326 JENNINGS ST",
         "INFO:42 yof seizure <12D02> / 42 year old, Female, Unconscious, Breathing. CO");
+
+    doTest("T10",
+        "((26873) ) ) 32:ALARM-HOUS :416 E BENITA BLVD :SMOKE ALARM GOING OFF INTERMITTENLY IN :BASEMENT. NO SMOKE OR FIRE VISIBLE-POSS PROBLEM WITH DETECTOR Cross Sts",
+        "SRC:32",
+        "CALL:ALARM-HOUS",
+        "ADDR:416 E BENITA BLVD",
+        "INFO:SMOKE ALARM GOING OFF INTERMITTENLY IN / BASEMENT. NO SMOKE OR FIRE VISIBLE-POSS PROBLEM WITH DETECTOR Cross Sts");
   }
   
   public static void main(String[] args) {
-    new NYBroomeCountyParserTest().generateTests("T1");
+    new NYBroomeCountyParserTest().generateTests("T10");
   }
 }
