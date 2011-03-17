@@ -23,6 +23,14 @@ System: New World Systems :Aegis Public Safety System
 [(54072]  : ) MVA:  918:N:FIRST:ST:::::3031:E405,E435,R404,D411,M23,N7,:ONE VEH ROLLOVER IFO ROTHS STORE:20110309:022055
 [(45886]  : ) MVA:::CASCADE:HW:::STATE:ST:3630:E425,D411,R404,M31,SBLE,SBLR,PGE,E415,LAW,N7,:SINGLE VEH ROLLOVER/ENTRAPMENT, NO INJ:20110224:063549
 
+((56873) : ) MISC: 8170::CASCADE:HW:::::2733:E485,D411,N7,:POWER LINE DOWN W/LARGE TREE BLKING:20110313:152421
+((56971) : ) AOA:34000:S:ELLIS:RD:::::2737:E485,N7,:LARGE TREE ONTO HOUSE/UNK FURTHER:20110313:154421
+((57141) : ) UNC: 3351::SEMINOLE:RD:::::3234:M24,R404,D411,N7,:86 YOF UNC/DIFF B/NOT ALERT:20110313:203929
+((57514) : ) UNC:  728:W:MAIN:ST:::::3030:M24,R404,D411,STAF,N7,:74 YOM IN SEIZ:20110314:124736
+((57903) : ) MVA:::MT ANGEL:HW:::HOBART:RD:2929:E405,R404,M24,D411,LAW,STAF,N7,:2 VEH MVA/ELDERLY
+((58711) : ) CVA:  173::STEELHAMMER:RD:::::3031:M24,R404,D411,STAF,N7,:93YOF C/A/B HX OF CVA/NOT ABLE TO SPEAK:20110316:103935
+((58975) : ) PBLC:  206::WESTFIELD:ST:::::3030:E415,D411,STAF,N7,:REQ D411 RESPOND W/LADDER TO GET IN WINDOW:20110316:141622
+
 */
 
 public class ORMarionCountyNParser extends FieldProgramParser {
@@ -43,10 +51,9 @@ public class ORMarionCountyNParser extends FieldProgramParser {
   protected boolean parseMsg(String subject, String body, Data data) {
     
     if (! subject.startsWith("(")) return false;
-    data.strCallId = subject.substring(1).trim();
+    data.strCallId = new Parser(subject.substring(1).trim()).get(')');
     
-    if (! body.startsWith(": ) ")) return false;
-    body = body.substring(4).trim();
+    if (body.startsWith(": ) ")) body = body.substring(4).trim();
     
     address[0] = address[1] = "";
     if (! parseFields(body.split(":"), data)) return false;
@@ -65,9 +72,6 @@ public class ORMarionCountyNParser extends FieldProgramParser {
     
     @Override
     public void parse(String fld, Data data) {
-      if (fld.equals("AV")) fld = "AVE";
-      else if (fld.equals("HW")) fld = "HWY";
-      else if (fld.startsWith("HW ")) fld = "HWY " + fld.substring(3);
       address[index] = append(address[index], " ", fld); 
     }
   }
