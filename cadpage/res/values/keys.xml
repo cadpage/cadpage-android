@@ -70,6 +70,7 @@
    <string name="pref_defcity_key">defaultCity</string>
    <string name="pref_loglimit_key">loglimit</string>
    <string name="pref_msgtimeout_key">msgtimeout</string>
+   <string name="pref_split_min_msg_key">split_min_msg</string>
    <string name="pref_email_key">emaildev</string>
    <string name="pref_history_limit_key">historylimit</string>
    <string name="pref_split_blank_ins_key">splitBlankIns</string>

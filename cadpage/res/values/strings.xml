@@ -362,6 +362,9 @@
     <string name="pref_msgtimeout_summary">Multi-message page timeout\nCur value: %s</string>
     <string name="pref_msgtimeout_dialog">Maximum time in seconds to wait for rest of multi-message CAD pages</string>
     
+    <string name="pref_split_min_msg_title">Split message min count</string>
+    <string name="pref_split_min_msg_summary">Minimum expected message count\nCur value: %s</string>
+    
     <string name="pref_split_blank_ins_title">Insert Blanks in Split msgs</string>
     <string name="pref_split_blank_ins_summaryon">Blanks will be inserted between split page texts</string>
     <string name="pref_split_blank_ins_summaryoff">Blanks will not be inserted between split page texts</string>

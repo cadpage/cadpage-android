@@ -357,6 +357,15 @@
           android:inputType="number"
           android:defaultValue="@string/pref_msgtimeout_default"/>
           
+      <net.anei.cadpage.preferences.ListPreference
+          android:key="@string/pref_split_min_msg_key"
+          android:title="@string/pref_split_min_msg_title"
+          android:summary="@string/pref_split_min_msg_summary"
+          android:entries="@array/pref_split_min_msg_values"
+          android:entryValues="@array/pref_split_min_msg_values"
+          android:dialogTitle="@string/pref_split_min_msg_title"
+          android:defaultValue="@string/pref_split_min_msg_default"/>
+          
       <CheckBoxPreference
           android:key="@string/pref_split_blank_ins_key"
           android:title="@string/pref_split_blank_ins_title"

@@ -181,6 +181,15 @@ public class SmsMmsMessage implements Serializable {
     parseMessageBody = parseMessageBody + delim + message.parseMessageBody;
     expectMore = message.expectMore;
   }
+
+  /**
+   * @return number of individual SMS text messages merged into the message
+   */
+  public int msgCount() {
+    int cnt = 1;
+    if (extraMsgBody != null) cnt += extraMsgBody.size();
+    return cnt;
+  }
   
   /**
    * Read serialized SmsMmsMessage object from Object input stream

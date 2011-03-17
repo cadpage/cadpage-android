@@ -122,7 +122,7 @@ public class SmsReceiver extends BroadcastReceiver {
       if (! ManagePreferences.smspassthru()) abortBroadcast();
       
       // If parser expect a message continuation, save this one and return
-      if (msgTimeout > 0 && message.isExpectMore()) {
+      if (msgTimeout > 0 && (message.isExpectMore() || message.msgCount()<ManagePreferences.splitMinMsg())) {
         if (bufferMsg == null) {
           bufferMsg = message;
           setReminder(context, msgTimeout);
