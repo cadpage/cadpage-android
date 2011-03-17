@@ -246,6 +246,11 @@ Lee County, FL
 * DispatchA1Parser subclasses
 *******************************************************************************
 *******************************************************************************
+Erlanger Dispatch, KY (KYErlangerDispatchParser)
+(Alert: Fire Structure) ALRM LVL: 1\nLOC:\n709 ORCHARD ST\nELSMERE\nBTWN: MAIN ST & LYTLE AV\n\nRCVD AS E-911 Call\n\nCOM:\nSMOKE FILLED BASEMENT\nHEARD A POP\n\nCT:\n22-
+(Alert: Fire Structure) ALRM LVL: 1\nLOC:\n3812 HARVEST WY\nELSMERE\nBTWN: HARVEST LN & N/A
+(Alert: Fire Structure) ALRM LVL: 1\nLOC:\n416 ELKEN PL\nELSMERE\nBTWN: MAPLE AV & CALDWELL DR
+*******************************************************************************
 Deleware County, OH (OHDelewareCountyParser)
 (Alert: Service Run-Fire) ALRM LVL: 1\nLOC:\n210 BIG RUN RD\nBERLIN TWP\nBTWN: STATE ROUTE 37 E & SOUTH END\nRCVD AS Radio\n\nCOM:\n\nCT:\n9961 at POS 05
 (Alert: Unresponsive / Unconscious) ALRM LVL: 1\nLOC:\n4114 CURVE RD\nBERLIN TWP\nBTWN: WINDING CREEK LN & LACKEY OLD STATE RD\nRCVD AS E-911 Call\nCOM:\nPROQA Urg
@@ -258,10 +263,10 @@ Morrow County, OH (OHMorrowCountyParser)
 (Alert: Fire Occupied Structure) ALRM LVL: 1\nLOC:\n2681 RD 254\nLINCOLN TWP\nBTWN: RD 155 & DEAD END\n\nRCVD AS 911\n\nCOM:\nCHIMNEY FIRE\nGETTING EVERYONE OUT OF THE HOUSE
 (Alert: MVA) ALRM LVL: 1\nLOC:\n156 I-71\nPERRY TWP\nBTWN: MM 156 & MM 158\n\nRCVD AS 911\n\nCOM:\nNB\n2 SEMI\nUNK IF OTHER SEMI IS CARRYING ANY HAZMAT\nACCIDENT IS SPREAD OUT
 *******************************************************************************
-Erlanger Dispatch, KY (KYErlangerDispatchParser)
-(Alert: Fire Structure) ALRM LVL: 1\nLOC:\n709 ORCHARD ST\nELSMERE\nBTWN: MAIN ST & LYTLE AV\n\nRCVD AS E-911 Call\n\nCOM:\nSMOKE FILLED BASEMENT\nHEARD A POP\n\nCT:\n22-
-(Alert: Fire Structure) ALRM LVL: 1\nLOC:\n3812 HARVEST WY\nELSMERE\nBTWN: HARVEST LN & N/A
-(Alert: Fire Structure) ALRM LVL: 1\nLOC:\n416 ELKEN PL\nELSMERE\nBTWN: MAPLE AV & CALDWELL DR
+Monroeville, PA (PAMonroevilleParser)
+[Alert: Sick Person]  ALRM LVL: 1\nLOC:\n538 FIRETHORN DR\nMONROEVILLE\nBTWN: FIELDSTONE DR & N/A\n\nRCVD AS Phone\n\nCOM:\n23Y/O FEMALE SICK / ALPHA\n\nCT:\nMD103 at
+[Alert: Breathing]  ALRM LVL: 1\nLOC:\n721 HEARTWOOD DR\nMONROEVILLE\nBTWN: COTTONWOOD DR & COTTONWOOD DR\n\nRCVD AS Phone\n\nCOM:\n94 YO FEMALE/DIFF BREATHING/3RD
+[Alert: Fire-Alarm Activation]  ALRM LVL: 1\nLOC:\n245 AZALEA DR\nMONROEVILLE\nBTWN: GARDEN CITY DR & N/A\n\nRCVD AS Phone\n\nCOM:\n2ND FLOOR PULL STATION\n\nCT:\nMD10
 *******************************************************************************
 *******************************************************************************
 * Suffolk County NY Collection
@@ -1489,121 +1494,6 @@ MEDICAL CALL  8350 JONES RD  (409K) () COMMENTS:1/20/2011 10:51:54 8350 JONES RD
 PLEASANT COLONY DR & VILLAGE GREEN DR
 1/20/2011 10:53:03 Incident Case Number automatically assigned : JVFD2011000061
 **********************************************************
-Monroeville, PA (in Allegheny County)
-Contact: Zach Peters <emtpeters@gmail.com>
-Sender: alertts@monroeville.pa.us
-DispatchA1
-
---+++-----
-[Alert: Sick Person]  ALRM LVL: 1
-LOC:
-538 FIRETHORN DR
-MONROEVILLE
-BTWN: FIELDSTONE DR & N/A
-
-RCVD AS Phone
-
-COM:
-23Y/O FEMALE SICK / ALPHA
-
-CT:
-MD103 at
-
-_____________________________
-
-[Alert: Breathing]  ALRM LVL: 1
-LOC:
-721 HEARTWOOD DR
-MONROEVILLE
-BTWN: COTTONWOOD DR & COTTONWOOD DR
-
-RCVD AS Phone
-
-COM:
-94 YO FEMALE/DIFF BREATHING/3RD
-
-------+++++----++++--
-
-[Alert: Fire-Alarm Activation]  ALRM LVL: 1
-LOC:
-245 AZALEA DR
-MONROEVILLE
-BTWN: GARDEN CITY DR & N/A
-
-RCVD AS Phone
-
-COM:
-2ND FLOOR PULL STATION
-
-CT:
-MD10
-
--------++----++-***-----
-
-[Alert: Sick Person]  ALRM LVL: 1
-LOC:
-540 FIRETHORN DR
-MONROEVILLE
-BTWN: FIELDSTONE DR & N/A
-
-RCVD AS Phone
-
-COM:
-79 YOF HIGH TEMP, CHILLS, LETHARGIC. BRAvo
-
----–----------------------------
-
-[Alert: Sick Person]  ALRM LVL: 1
-LOC:
-3912 BARBARA ANN DR
-MONROEVILLE
-BTWN: EVERGREEN DR & N/A
-
-COM:
-90Y/O MALE - FAMILY NOW WANTS PT TRANSPORTED TO HOS
-
---------------------------------------------
-
-[Alert: Abdominal Pain]  ALRM LVL: 1
-LOC:
-166 KEEFER
-PENN HILLS
-BTWN: N/A & N/A
-
-RCVD AS 911
-
-COM:
-86Y/O MALE ABD PAIN / CHARLIE
-
-CT:
-MD103 at POS 01
-
---------------------------------------
-
-[Alert: Fall]  ALRM LVL: 1
-LOC:
-3912 BARBARA ANN DR
-MONROEVILLE
-BTWN: EVERGREEN DR & N/A
-
-RCVD AS Phone
-
-COM:
-92 YO MALE/FELL/NOT BELIEVED TO BE INJURED/3R
-
-----------------------------------------------
-
-[Alert: Heart Problem]  ALRM LVL: 1
-LOC:
-205 HEATHER DR
-MONROEVILLE
-BTWN: DUFF RD & N/A
-
-RCVD AS Phone
-
-COM:
-RAPID HEART BEAT
-87 YOF CARDIAC HX. CHARLIE
 **********************************************************
 Chester County, PA (2nd Chester County format)
 Contact: Jason Wilkins <j.wilkins728@gmail.com>
