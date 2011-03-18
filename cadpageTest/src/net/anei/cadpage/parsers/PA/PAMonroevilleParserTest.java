@@ -55,9 +55,9 @@ public class PAMonroevilleParserTest extends BaseParserTest {
         "INFO:90Y/O MALE - FAMILY NOW WANTS PT TRANSPORTED TO HOS");
 
     doTest("T6",
-        "[Alert: Abdominal Pain]  ALRM LVL: 1\nLOC:\n166 KEEFER RD\nPENN HILLS\nBTWN: N/A & N/A\n\nRCVD AS 911\n\nCOM:\n86Y/O MALE ABD PAIN / CHARLIE\n\nCT:\nMD103 at POS 01",
+        "[Alert: Abdominal Pain]  ALRM LVL: 1\nLOC:\n166 KEEFER\nPENN HILLS\nBTWN: N/A & N/A\n\nRCVD AS 911\n\nCOM:\n86Y/O MALE ABD PAIN / CHARLIE\n\nCT:\nMD103 at POS 01",
         "CALL:Abdominal Pain",
-        "ADDR:166 KEEFER RD",
+        "ADDR:166 KEEFER",
         "CITY:PENN HILLS",
         "X:N/A & N/A",
         "INFO:86Y/O MALE ABD PAIN / CHARLIE / MD103 at POS 01");

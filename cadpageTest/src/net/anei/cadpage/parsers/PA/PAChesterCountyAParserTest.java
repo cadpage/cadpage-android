@@ -6,9 +6,9 @@ import net.anei.cadpage.parsers.PA.PAChesterCountyParser;
 import org.junit.Test;
 
 
-public class PAChesterCountyParserTest extends BaseParserTest {
+public class PAChesterCountyAParserTest extends BaseParserTest {
   
-  public PAChesterCountyParserTest() {
+  public PAChesterCountyAParserTest() {
     setParser(new PAChesterCountyParser(), "CHESTER COUNTY", "PA");
   }
   
