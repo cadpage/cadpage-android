@@ -23,6 +23,10 @@ Sender: @c-msg.net
 (Co12) [!] CT:CHIM 811 DAVID AV WEST BOX:0316 DUE:TO12 [13]
 (Co12) [!] CT:LOCAL HENRYTON RD / MARRIOTTSVILLE RD ONE MARR BOX:1208 DUE:E123 [12]
 
+This isn't parsing right, but we need more info to fix!
+Contact: Troy Hipsley <troy.hipsley@gmail.com>
+(Co2) [!] CT:MA BOX 60-18 19907 YORK RD VCR TG44 BOX:BC DUE:T2 [41]
+
 */
 
 public class MDCarrollCountyParser extends FieldProgramParser {
@@ -73,6 +77,13 @@ public class MDCarrollCountyParser extends FieldProgramParser {
       data.strCity = convertCodes(p.getLast(' '), CITY_CODES);
       fld = p.get();
       
+      // If first word is BOX, strip off a box number
+      p = new Parser(fld);
+      if (p.get(' ').equals("BOX")) {
+        data.strBox = p.get(' ');
+        fld = p.get();
+      }
+      
       // Rest of address could include a place name separated by a ; or @
       // Unfortunately, the two fields might be in either order :(
       // And the place name might contain an apartment
@@ -101,7 +112,7 @@ public class MDCarrollCountyParser extends FieldProgramParser {
     
     @Override
     public String getFieldNames() {
-      return "CALL PLACE ADDR APT CITY";
+      return "CALL BOX PLACE ADDR APT CITY";
     }
     
   }
