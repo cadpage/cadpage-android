@@ -1494,7 +1494,6 @@ MEDICAL CALL  8350 JONES RD  (409K) () COMMENTS:1/20/2011 10:51:54 8350 JONES RD
 PLEASANT COLONY DR & VILLAGE GREEN DR
 1/20/2011 10:53:03 Incident Case Number automatically assigned : JVFD2011000061
 **********************************************************
-**********************************************************
 Chester County, PA (2nd Chester County format)
 Contact: Jason Wilkins <j.wilkins728@gmail.com>
 

@@ -938,6 +938,7 @@ public class FieldProgramParser extends SmartAddressParser {
       // not, it will not be given that option
       boolean success = true;
       if (field != null) {
+        field.setFieldList(flds, ndx);
         if (failLink != null) {
           success = field.doCheckParse(curFld, data);
         }
@@ -1047,6 +1048,9 @@ public class FieldProgramParser extends SmartAddressParser {
     
     private Pattern pattern = null;
     
+    private String[] fieldList;
+    private int index;
+    
     public void setTrigger(char trigger) {
       this.trigger = trigger;
     }
@@ -1085,6 +1089,11 @@ public class FieldProgramParser extends SmartAddressParser {
     public boolean canFail() {
       return pattern != null;
     }
+    
+    public void setFieldList(String[] fieldList, int index) {
+      this.fieldList = fieldList;
+      this.index = index;
+    }
 
     /**
      * Check if field is valid for this position, and if it is parse it.  This
@@ -1122,6 +1131,19 @@ public class FieldProgramParser extends SmartAddressParser {
      * parse data field
      */
     abstract public void parse(String field, Data data);
+
+    /**
+     * Retrieve a data field before or after the current field
+     * @param ndx Relative index of desired field.  0 retrieves this field,
+     * positive values retrieve following fields, negative values retrieve
+     * preceding fields
+     * @return value of requested field if it exists, empty string if it does not
+     */
+    protected String getRelativeField(int ndx) {
+      ndx += index;
+      if (ndx < 0 || ndx >= fieldList.length) return "";
+      return fieldList[ndx];
+    }
     
     /**
      * Return blank separated names of the base info fields that might be set by this field

@@ -47,6 +47,30 @@ public class DispatchA1Parser extends FieldProgramParser {
     return parseFields(body.split("\\n"), data);
   }
   
+  private class MyPlaceField extends PlaceField {
+
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+
+    @Override
+    public boolean checkParse(String field, Data data) {
+
+      // If second following field starts with BTWN: this must be an address
+      // followed by a city
+      if (getRelativeField(2).startsWith("BTWN:")) return false;
+      
+      // If next field looks like an apartment, and third field starts with BTWN:, 
+      // then this must be an address followed by apartment and city
+      if (getRelativeField(1).length()<=3 && getRelativeField(3).startsWith("BTWN:")) return false;
+      
+      // Otherwise, we can be a place field
+      parse(field, data);
+      return true;
+    }
+  }
+  
   private class MyAptField extends AptField {
 
     @Override
@@ -64,6 +88,7 @@ public class DispatchA1Parser extends FieldProgramParser {
   
   @Override
   public Field getField(String name) {
+    if (name.equals("PLACE")) return new MyPlaceField();
     if (name.equals("APT")) return new MyAptField();
     return super.getField(name);
   }
