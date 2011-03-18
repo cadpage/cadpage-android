@@ -1467,6 +1467,10 @@ public class FieldProgramParser extends SmartAddressParser {
    */
   public class PhoneField extends Field {
     
+    public PhoneField() {
+      setPattern(Pattern.compile("\\d{10}|\\d{3}-\\d{3}-\\d{4}"));
+    }
+    
     @Override
     public void parse(String field, Data data) {
       data.strPhone = field;

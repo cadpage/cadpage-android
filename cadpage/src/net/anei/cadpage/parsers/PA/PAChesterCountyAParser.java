@@ -41,9 +41,9 @@ CHIMNEY FIRE **1905 LENAPE UNIONVILLE RD*RED LION RD & MUNICIPAL BOUNDA*POCOPS*2
  */
 
 
-public class PAChesterCountyParser extends SmsMsgParser {
+public class PAChesterCountyAParser extends SmsMsgParser {
   
-  public PAChesterCountyParser() {
+  public PAChesterCountyAParser() {
     super("CHESTER COUNTY", "PA");
   }
   
