@@ -80,9 +80,19 @@ public class MDCarrollCountyParserTest extends BaseParserTest {
         "CITY:SYKESVILLE",
         "BOX:1416",
         "UNIT:X149");
+
+    doTest("T8",
+        "(Co2) [!] CT:MA BOX 60-18 19907 YORK RD VCR TG44 BOX:BC DUE:T2 [41]",
+        "SRC:Co2",
+        "CALL:MA",
+        "BOX:60-18",
+        "ADDR:19907 YORK RD VCR",
+        "CITY:TG44",
+        "BOX:BC",
+        "UNIT:T2");
   }
   
   public static void main(String[] args) {
-    new MDCarrollCountyParserTest().generateTests("T1");
+    new MDCarrollCountyParserTest().generateTests("T8");
   }
 }
