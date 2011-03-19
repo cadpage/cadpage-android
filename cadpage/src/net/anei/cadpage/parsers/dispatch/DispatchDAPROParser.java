@@ -4,15 +4,36 @@ import java.util.Comparator;
 import java.util.Properties;
 import java.util.SortedSet;
 import java.util.TreeSet;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 import net.anei.cadpage.SmsMsgInfo.Data;
+import net.anei.cadpage.parsers.FieldProgramParser;
+
 /*
 DAPRO Systems http://www.daprosystems.com/
-Currently used by Rockingham, VA and Franklin, VA
 
-Rockingham County, VA 
+Campbell County, VA 
+Contact: efhammermeister@yahoo.com,EFHAMMERMEISTER@vtext.com
+MAILBOX:SQ02 MVC/MOTOR VEHICLE CRASH/ACCIDE 002364 WATERLICK RD/LEESVILLE RD CFS# 2010-061119 REF TO A 3 CAR MVA. AT FIRST A REPORT OF NO PI. NO NEED FOR FIRE. VASI ADV THAT T
+MAILBOX:SQ02 (3)ACCIDENT 021400 TIMBERLAKE RD CFS# 2010-061105 2 CAR MVA. WITH ENTRAPMENT
+MAILBOX:SQ02 STABBING 005450 COLONIAL HWY EVI CFS# 2010-061047 STAGE IN THE AREA, DO NOT GO TO THE SCENE
+MAILBOX:SQ02 UNRESPONSIVE 000218 LAKE FOREST DR CFS# 2010-060825
+MAILBOX:SQ02 HANGUP 911 000381 HORIZON DR CFS# 2010-060777 FEMALE ADVISED SOMETHING ABOUT THE RESCUE SQ. LINE DISCONNECTED
+
+Franklin County, VA
+MAILBOX:S07 EMS-OTHER/DEFINE 18360 VIRGIL H GOODE HWY 124 RMT CFS# 2010-030542 CROSS: SHADY LN/BLACKWATER RIVER
+MAILBOX:S07 EMS-CHEST PAIN 413 WOODDALE DR RMT CFS# 2010-030355 CROSS: VIRGIL H GOODE HWY/DEAD END
+MAILBOX:S07 EMS-PATIENT FALLEN 3005 GREEN LEVEL RD RMT CFS# 2010-030541 CROSS: GRASSY HILL RD/LITTLE MOUNTAIN DR
+MAILBOX:S07 EMS-CARDIAC VIRGIL H GOODE HWY & LINK ST RMT CFS# 2010-030580
+MAILBOX:S07 EMS-HIGH BLOOD PRESSURE 1808 BETHLEHEM RD BML CFS# 2010-030643 CROSS: BETHANY RD/DILLONS MILL RD
+MAILBOX:C07 FIRE-ALARM COMMERCIAL 3325 GRASSY HILL RD RMT CFS# 2010-033866 CROSS: JAMESTOWN RD/CALLAWAY RD
+
+Page County, VA
+MAILBOX:RS3 PAIN 16 E MAIN ST LUR CFS# 2011-000782 CROSS: BROAD ST/TANNERY RD
+MAILBOX:RS4 CHEST PAINS 185 GRAY DR STA CFS# 2011-004572 CROSS: AYLOR GRUBBS AV
+MAILBOX:RS1 GENERAL ILLNESS 117 PULASKI AV SHE CFS# 2011-004542 CROSS: S SECOND ST/FRONT ST
+MAILBOX:CO24 COMMERCIAL ALARM 525 MIDDLEBURG RD STA CFS# 2011-005247 CROSS: US HWY BSN 340/GOODRICH RD
+
+Rockingham County, VA (class II)
 R40 EMS-CARDIAC CONDITION 1751 MAIN AVE HAR CFS# 2010-082726 CROSS: GARBERS CHURCH RD/S HIGH ST
 R40 EMS-MENTAL PROBLEM 445 N MAIN ST 44 HAR CFS# 2010-082451 CROSS: WOLFE ST/ROCK ST
 R40 EMS-ABDOMINAL PAIN 1737 MORELAND DR HAR CFS# 2010-083119 CROSS: PHEASANT RUN CIR/ASHFORD CT
@@ -20,30 +41,25 @@ R40 EMS-CHEST PAIN 235 LAYMAN ST 101 HAR CFS# 2010-083046 CROSS: N MAIN ST/LONGV
 R40 TRAFFIC CRASH 300 BOYERS RD BLK HAR CFS# 2010-082984 CROSS: MYSTIC WOODS LN/CULLISON CT
 R40 TRAFFIC CRASH RESERVOIR ST & CANTRELL AV HAR CFS# 2010-082327
 (Rescue 40) R40 ODOR INVESTIGATION IN STRUCTUR 290 WARREN SERVICE DR HAR CFS# 2010-091415 CROSS: BLUESTONE DR/DEAD END
-S: M:MAILBOX:DP1 ACCIDENT-INJURY 330 FRANKLIN ST RMT CFS# 2011-000224 CROSS: CLAIBORNE AVE/CHURCH ST
+(Rescue 40) 100 BLK OF QUALITY STREET IN BWATER IS CLOSED REVIEW THE TRANSMITTED FAX FOR THE ROAD CLOSURE-ECC GROUP PAGED C90
+C30 GRASS FIRE SPOTSWOOD TRL & ROCKINGHAM PIKE ELK CFS# 2010-092361
+C30 EMS-CARDIAC CONDITION 1533 RABBIT DR ELK CFS# 2010-092834 CROSS: N EAST SIDE HWY/DEADEND
+C30 EMS-DIFFICULTY BREATHING 105 ELKMONT DR 2 ELK CFS# 2010-092623 CROSS: S EASTSIDE HWY/DEAD END
+C30 POSSIBLE STRUCTURE FIRE 244 QUAIL CT MCG CFS# 2010-092692 CROSS: ASHBY RD/BETHEL LN
+C30 EMS-TRAUMA INJURIES E SPOTSWOOD AVE & MORGAN AVE ELK CFS# 2010-094660
+C30 EMS-DIFFICULTY BREATHING 3240 THOROUGHFARE RD ELK CFS# 2010-094548 CROSS: WHISPERING WINDS TRL/EPPARD LN
+C30 EMS-DIFFICULTY BREATHING 320 E ROCKINGHAM ST ELK CFS# 2010-094840 CROSS: JACKSON AVE/PAGE ST
+R35 EMS-ILLNESS 516 W SPOTSWOOD TRL ELK CFS# 2011-018309 CROSS: SHENANDOAH AVE/2ND ST
 
-Franklin County, VA 
-MAILBOX:S07 EMS-OTHER/DEFINE 18360 VIRGIL H GOODE HWY 124 RMT CFS# 2010-030542 CROSS: SHADY LN/BLACKWATER RIVER
-MAILBOX:S07 EMS-CHEST PAIN 413 WOODDALE DR RMT CFS# 2010-030355 CROSS: VIRGIL H GOODE HWY/DEAD END
-MAILBOX:S07 EMS-PATIENT FALLEN 3005 GREEN LEVEL RD RMT CFS# 2010-030541 CROSS: GRASSY HILL RD/LITTLE MOUNTAIN DR
-MAILBOX:S07 EMS-CARDIAC VIRGIL H GOODE HWY & LINK ST RMT CFS# 2010-030580
-MAILBOX:S07 EMS-HIGH BLOOD PRESSURE 1808 BETHLEHEM RD BML CFS# 2010-030643 CROSS: BETHANY RD/DILLONS MILL RD
-
-Somewhere in VA
-MAILBOX:RS3 PAIN 16 E MAIN ST LUR CFS# 2011-000782 CROSS: BROAD ST/TANNERY RD
 */
-import net.anei.cadpage.parsers.SmartAddressParser;
 
-public class DispatchDAPROParser extends SmartAddressParser {
+public class DispatchDAPROParser extends FieldProgramParser {
   
   private Properties cityCodeTable;
-	
-  private static final String[] KEYWORDS = new String[]{"LOC", "CFS", "CROSS"};
-  
-  private static final Pattern MARKER = Pattern.compile("([SRC]\\d\\d|DP\\d|RS\\d)\\b");
   
   public DispatchDAPROParser(Properties cityCodeTable, String defCity, String defState) {
-    super(cityCodeTable, defCity, defState);
+    super(defCity, defState,
+           "ADDR/SC! CFS:ID! CROSS:X");
     this.cityCodeTable = cityCodeTable;
     buildCallDictionary();
   }
@@ -51,53 +67,58 @@ public class DispatchDAPROParser extends SmartAddressParser {
   @Override
   protected boolean parseMsg(String body, Data data) {
     
-    // Locate the marker to determine where our part of the message starts
-    Matcher match = MARKER.matcher(body);
-    if (! match.find()) return false;
-    if (match.start() > 20) return false;
-    data.strSource = body.substring(match.start(), match.end());
-    body = body.substring(match.end()).trim();
+    int pt = body.indexOf(" CFS# ");
+    if (pt < 0) return false;
+    pt += 4;
+    body = body.substring(0,pt) + ':' + body.substring(pt+1);
+    if (body.startsWith("MAILBOX:")) body = body.substring(8).trim();
     
-    // Adjust it a bit and parse out the main fields
-    body = "LOC:" + body.replaceAll(" CFS#", " CFS:");
-    Properties props = parseMessage(body, KEYWORDS);
+    if (! super.parseMsg(body, data)) return false;
+    if (data.strAddress.length() == 0) return false;
+    return true;
+  }
+  
+  private class MyAddressField extends AddressField {
     
-    // Lets do the easy ones first
-    data.strCallId = props.getProperty("CFS", "");
-    data.strCross = props.getProperty("CROSS", "");
-    
-    // OK, now to work out the address field
-    String sAddress = props.getProperty("LOC");
-    if (sAddress.length() == 0) return false;
-    
-    // See if we can identify a call description from our canned list
-    String callDesc = getCallDesc(sAddress);
-    if (callDesc != null) {
+    @Override
+    public void parse(String field, Data data) {
       
-      // We got one, the call description comes off the front
-      data.strCall = callDesc;
-      sAddress = sAddress.substring(callDesc.length()).trim();
+      // First token is always the source
+      // Last is always a city code
+      Parser p = new Parser(field);
+      data.strSource = p.get(' ');
+      data.strCity = convertCodes(p.getLast(' '), cityCodeTable);
+      field = p.get();
       
-      // And the last word is the city
-      int pt = sAddress.lastIndexOf(' ');
-      if (pt >= 0) {
-        data.strCity = sAddress.substring(pt+1);
-        sAddress = sAddress.substring(0, pt).trim();
-      }
-      
-      // Anything else an an address
-      parseAddress(sAddress, data);
+      // See if we can identify a call description from our canned list
+      String callDesc = getCallDesc(field);
+      if (callDesc != null) {
+        
+        // We got one, the call description comes off the front
+        data.strCall = callDesc;
+        field = field.substring(callDesc.length()).trim();
+        
+        // And everything else is an address
+        parseAddress(field, data);
+      } 
       
       // No call description match eh
       // We'll have to rely on the smart parser to save us
-    } else {
-      parseAddress(StartType.START_CALL, sAddress, data);
+      else {
+        parseAddress(StartType.START_CALL, FLAG_ANCHOR_END, field, data);
+      }
     }
     
-    // Either way, we need to convert the city code
-    data.strCity = convertCodes(data.strCity, cityCodeTable);
-    
-    return true;
+    @Override
+    public String getFieldNames() {
+      return "SRC CALL ADDR CITY";
+    }
+  }
+  
+  @Override 
+  public Field getField(String name) {
+    if (name.equals("ADDR")) return new MyAddressField();
+    return super.getField(name);
   }
   
   // This is a tree set containing all of the expected call descriptions

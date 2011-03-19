@@ -24,7 +24,9 @@ public class VAPageCountyParser extends DispatchDAPROParser {
   
   private static final Properties CITY_CODE_TABLE = 
     buildCodeTable(new String[]{
-      "LUR", "LURAY"
+      "LUR", "LURAY",
+      "SHE", "SHENANDOAH",
+      "STA", "STANLEY"
     });
 
   
