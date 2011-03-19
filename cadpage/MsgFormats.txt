@@ -1053,6 +1053,11 @@ Need some spacing info in samples (3/5/11)
 Contact: Curtis Eberspacher <curtis.e.eberspacher@gmail.com>
 02172011-337     Received:  18:16    Assigned:  18:16    Enroute:   18:17
 Arrived:   18:20    Pt Contact:         Can
+
+Subject:Text Page\n18758 Silver Quay Dr                                                  Charlie                       17- Falls/Back injur
+Subject:Text Page\n03172011-073     Received:  08:42    Assigned:  08:43    Enroute:   08:45    Arrived:   08:48    Pt Contact:         Can
+Subject:Text Page\n19485 Old Jetton Rd           ste 100   Lakeside Familty Physicians anDelta                         31- Unconsciousness/
+Subject:Text Page\n03172011-239     Received:  16:59    Assigned:  16:59    Enroute:   17:01    Arrived:   17:02    Pt Contact:         Can
 ***************************************************************************
 Amityville Fider, NY (Class III) (Hold for more info)
 Need Amityville Fider and Babylon combo 
@@ -1162,13 +1167,6 @@ Sender: rc.283@c-msg.net
 Contact: "m00se66189@aol.com" <m00se66189@aol.com>
 Sender: rc.306@c-msg.net
 (WCo) [!] BURNSIDE BRIDGE RD / FERNROCK LN - PIC, PERS INJURY COLLISION  - CO1,R19 - 1101829 10:28
-**********************************************************
-Agusta County, VA
-Contact:Josh Sprouse <firemedic1812@gmail.com>
-Sender:cad@co.augusta.va.us
-Need more samples 2/15
-CAD: Chest Pain:81 Fountain Cave RD:RT 605 - Wonderly / 10203: Cave Hill LN:Rockfish RD
-CAD: OB EMERGENCY:WEYERS CAVE SHELL/ TEXACO:149 WEYERS CAVE RD:P O BOX 184:TRIANGLE DR:SR 222:CNTY-1
 **********************************************************
 Unknown?
 Contact: Cody Shell <spiritcontra@gmail.com>
@@ -1361,17 +1359,6 @@ Sender: Mailbox@ccgvn.net
 System: Codespear
 Changing paging system, will contact with new data (3/9/11)
 **********************************************************
-East Rockaway, NY (in Nassau County)
-Contact: Tommy Johnson <tjohnson377.tj@gmail.com>
-Sender: paging@alpinesoftware.com <From%3Apaging@alpinesoftware.com>
-FireCom:  3 HUDSON ST E (GENERAL-AUTO) FIRE ALARM RINGING
-FireCom:  31 MUNSON PL (SIG 9-AMBU) 20F ABDOMINAL PAINS
-FireCom: THE FISHERY 1 MAIN ST (SIG 9-AMBU) MALE FELL-FX WRIST 
-FireCom:  528 ATLANTIC AVE (SIG 9-AMBU) BACK DOOR DIFF BREATHING
-
-This appears to be the main Nassau County dispatch, rename existing Nassau County to Bellmore
-Need more samples (3/8/11)
-**********************************************************
 Elkhart County, IN
 Contact: Chris Lanpher <chrislanpher@gmail.com>
 Sender: <elkco911@eccdomain.local>
@@ -1399,6 +1386,45 @@ Sender: bhvfd14@gmail.com
 **********************************************************
 **********************************************************
 **********************************************************
+**********************************************************
+Agusta County, VA
+Contact: Josh Sprouse <firemedic1812@gmail.com>
+Contact: Christopher Botkin <botkincs@gmail.com>
+Sender:cad@co.augusta.va.us
+CAD: Chest Pain:81 Fountain Cave RD:RT 605 - Wonderly / 10203: Cave Hill LN:Rockfish RD
+CAD: OB EMERGENCY:WEYERS CAVE SHELL/ TEXACO:149 WEYERS CAVE RD:P O BOX 184:TRIANGLE DR:SR 222:CNTY-1
+CAD:LANDING ZONE:BEVERLEY MANOR ELEMENTARY SCH:116 CEDAR GREEN RD:STEVENS LN:PARKERSBURG TPKE
+CAD:AUTOMOBILE ACCIDENT:1519 PARKERSBURG TPKE:159-03:NUCKOLES LN:EIDSON HILL LN:CNTY-2
+CAD:CONTROL BURN INVESTIGATION:300-BLK TRINITY POINT RD:PARKERSBURG TPKE:MILLERS HOLLOW LN:CNTY-2
+CAD:AUTOMOBILE ACCIDENT:3426 MORRIS MILL RD:AREA OF:GALLOPING HILLS RD:SHELLEY LN
+CAD:ELECTRICAL FIRE - DLOC:135 CRAWFORD DR:CRAWFORD MANOR - 11104:MADISON DR:WAYBURN ST:CNTY-
+
+Good afternoon, my name is Christopher Botkin and I am a volunteer
+firefighter for Swoope Volunteer Fire Company and Riverheads Volunteer Fire
+Company in Augusta County, VA. I heard about your Android app from a fellow
+firefighter that works for the City of Waynesboro and went ahead and
+downloaded it from the market. YOUR APP IS AMAZING!!! I would just like to
+help you guys in getting Augusta County properly set up to where it works as
+efficiently and correctly as possible.  Below are a few of the text messages
+that I've received from the CAD before I downloaded your app.  As you can
+see the first part of the message is the location of the incident. That is
+either followed by a MAP PAGE or if a map page is unnavailable it goes
+directly to cross streets. Sometimes if the message isnt too long it will
+tell us the operational frequency (i.e. CNTY-2).  Hope this helps in getting
+your amazing app working for Augusta County, VA.  If you need anything else,
+do not hesitate to ask.
+**********************************************************
+East Rockaway, NY (in Nassau County)
+Contact: Tommy Johnson <tjohnson377.tj@gmail.com>
+Sender: paging@alpinesoftware.com <From%3Apaging@alpinesoftware.com>
+FireCom:  3 HUDSON ST E (GENERAL-AUTO) FIRE ALARM RINGING
+FireCom:  31 MUNSON PL (SIG 9-AMBU) 20F ABDOMINAL PAINS
+FireCom: THE FISHERY 1 MAIN ST (SIG 9-AMBU) MALE FELL-FX WRIST 
+FireCom:  528 ATLANTIC AVE (SIG 9-AMBU) BACK DOOR DIFF BREATHING
+FireCom:  RHAME AVE (DISTRIC-HAZM) SW CORNER/SEWER-ILLEGALE DUMPING
+
+This appears to be the main Nassau County dispatch, rename existing Nassau County to Bellmore
+Need more samples (3/8/11)
 **********************************************************
 Cy-Fair Volunteer FD (Harris County, TX)
 Contact: "Steven Lindsay" <steven@snl-ent.com>
