@@ -37,5 +37,57 @@ public class MDCarolineCountyParserTest extends BaseParserTest {
         "ADDR:21182 Marsh Creek Rd",
         "CITY:Preston",
         "X:Frazier Neck Rd / Bethlehem Rd");
+
+    doTest("T4",
+        "(Chief ALT) [200 EMS] House Fire -- 22272 Havercamp Rd Preston - XSts: Prchal Rd / Poplar Neck Rd",
+        "SRC:200 EMS",
+        "CALL:House Fire",
+        "ADDR:22272 Havercamp Rd",
+        "CITY:Preston",
+        "X:Prchal Rd / Poplar Neck Rd");
+
+    doTest("T5",
+        "(Chief ALT) [200 EMS] 23 B-Overdose / Poisoning -- 320 Park Ave Federalsburg - XSts: Railroad Ave / Academy Ave",
+        "SRC:200 EMS",
+        "CALL:23 B-Overdose / Poisoning",
+        "ADDR:320 Park Ave",
+        "CITY:Federalsburg",
+        "X:Railroad Ave / Academy Ave");
+
+    doTest("T6",
+        "(Chief ALT) [200 EMS] 19 D-Heart Problems / A.i.c.d. -- 121 E Central Ave Federalsburg - XSts: Reliance Ave / N Main St, S Main St, W Central Ave",
+        "SRC:200 EMS",
+        "CALL:19 D-Heart Problems / A.i.c.d.",
+        "ADDR:121 E Central Ave",
+        "CITY:Federalsburg",
+        "X:Reliance Ave / N Main St, S Main St, W Central Ave");
+
+    doTest("T7",
+        "(Chief ALT) [200 EMS] 23 D-Overdose / Poisoning -- 156 Main St Preston - XSts: Harmony Rd / Lednum Ave",
+        "SRC:200 EMS",
+        "CALL:23 D-Overdose / Poisoning",
+        "ADDR:156 Main St",
+        "CITY:Preston",
+        "X:Harmony Rd / Lednum Ave");
+
+    doTest("T8",
+        "(Chief ALT) [200 EMS] 27 B-Stab/gsw/pen. Trauma -- 6181 Bethlehem Rd Preston - XSts: Harmony Rd, Gilpin Point Rd / Bell Creek Rd, Grove Rd",
+        "SRC:200 EMS",
+        "CALL:27 B-Stab/gsw/pen. Trauma",
+        "ADDR:6181 Bethlehem Rd",
+        "CITY:Preston",
+        "X:Harmony Rd, Gilpin Point Rd / Bell Creek Rd, Grove Rd");
+
+    doTest("T9",
+        "(Chief ALT) [200 EMS] 04 B-Assault -- 305 Bloomingdale Ave Federalsburg - XSts: N University Ave / Hayman Dr",
+        "SRC:200 EMS",
+        "CALL:04 B-Assault",
+        "ADDR:305 Bloomingdale Ave",
+        "CITY:Federalsburg",
+        "X:N University Ave / Hayman Dr");
+  }
+  
+  public static void main(String[] args) {
+    new MDCarolineCountyParserTest().generateTests("T6","SRC CALL ADDR CITY X");
   }
 }
