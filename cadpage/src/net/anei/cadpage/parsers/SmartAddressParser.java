@@ -485,6 +485,12 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     if (locked) result.initAddress--;
     result.endAll = sEnd;
     
+    // Special case - simple address can have intersection marker followed by
+    // cross stream info
+    if (isType(sEnd, ID_CONNECTOR)) {
+      findCrossStreetEnd(sEnd + 1, result);
+    }
+    
     // But there might be some additional cross street info we can parse
     findCrossStreet(result);
     return true;
@@ -540,7 +546,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
               if (sAddr > start && isType(sAddr, ID_AMBIG_ROAD_SFX)) sAddr--;
               break;
             }
-            if (isType(sAddr, ID_ROUTE_PFX) & ndx>2 & isType(sAddr+1, ID_NUMBER)) {
+            if (isType(sAddr, ID_ROUTE_PFX) & isType(sAddr+1, ID_NUMBER)) {
               if (sAddr > start && 
                   isType(sAddr, ID_ROUTE_PFX_EXT) && 
                   isType(sAddr-1, ID_ROUTE_PFX_PFX)) sAddr--;
@@ -936,8 +942,16 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     // Now see if we are at a cross street indicator.  If not, nothing to find
     if (! isType(result.endAll, ID_CROSS_STREET)) return;
     
-    // If it was, skip past it 
-    int sCross = result.endAll + 1;
+    findCrossStreetEnd(result.endAll+1, result);
+  }
+
+  /**
+   * Locate end of cross street field
+   * @param sCross
+   * @param result
+   */
+  private void findCrossStreetEnd(int sCross, Result result) {
+
     int sEnd = sCross;
     
     while (true) {

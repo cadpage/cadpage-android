@@ -99,7 +99,8 @@ public class MDCarrollCountyParser extends FieldProgramParser {
       "BC", "BALTIMORE COUNTY",
       "HC", "HOWARD COUNTY",
       "FC", "FREDERICK COUNTY",
-      "AC", "ADAMS COUNTY,PA"
+      "AC", "ADAMS COUNTY,PA",
+      "MC", "MONTGOMERY COUNTY"
   });
   
   // List of call descriptions consisting for multiple words
@@ -166,7 +167,7 @@ public class MDCarrollCountyParser extends FieldProgramParser {
       if (data.strCall.equals("MA")) {
         Parser p = new Parser(fld);
         String tmp = p.get(' ');
-        if (tmp.equals("BOX")) {
+        if (tmp.equals("BOX") || tmp.equals("BC")) {
           data.strBox = p.get(' ');
           fld = p.get();
         } else if (BOX_PTN.matcher(tmp).matches()) {
@@ -178,7 +179,7 @@ public class MDCarrollCountyParser extends FieldProgramParser {
           data.strSupp = match.group().replace(" ", "");
           fld = fld.substring(0,match.start()).trim();
         }
-        parseAddress(StartType.START_ADDR, fld, data);
+        parseAddress(StartType.START_PLACE, fld, data);
         data.strCall = "MA - " + getLeft();
       }
       
@@ -224,7 +225,7 @@ public class MDCarrollCountyParser extends FieldProgramParser {
     
     @Override
     public String getFieldNames() {
-      return "CALL BOX PLACE ADDR APT CITY INFO";
+      return "CALL BOX PLACE ADDR X APT CITY INFO";
     }
   }
   

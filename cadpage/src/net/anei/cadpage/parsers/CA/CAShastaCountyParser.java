@@ -105,6 +105,7 @@ public class CAShastaCountyParser extends SmartAddressParser {
       
       this.status = checkAddress(address);
       if (!address.contains("BLK")) this.status += 100;
+      if (!address.contains("/")) this.status += 10;
     }
 
     @Override
