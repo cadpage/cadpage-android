@@ -51,6 +51,12 @@ public abstract class SmartAddressParser extends SmsMsgParser {
    */
   public static final int FLAG_ANCHOR_END = 0x0008;
   
+  /**
+   * Flag indicating that status should always be calculated, even if
+   * both beginning and end of the address have been identified
+   */
+  public static final int FLAG_CHECK_STATUS = 0x0010;
+  
   private Properties cityCodes = null;
   
   // Main dictionary maps words to a bitmap indicating what is important about that word
@@ -390,6 +396,11 @@ public abstract class SmartAddressParser extends SmsMsgParser {
    * of the address (would that life were always this simple
    */
   private boolean parseTrivialAddress(Result result) {
+    
+    // If caller has locked both ends of the address, and wants an address status
+    // then return failure status so one of the other address parsers can make
+    // some kind of reasonableness check on this
+    if (isFlagSet(FLAG_CHECK_STATUS) && isFlagSet(FLAG_ANCHOR_END) && result.startAddress == 0) return false;
     
     // OK, we have to have at least 2 items before the city
     if (result.startAddress < 0) return false;
