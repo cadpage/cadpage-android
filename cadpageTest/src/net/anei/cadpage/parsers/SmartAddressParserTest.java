@@ -33,8 +33,11 @@ public class SmartAddressParserTest extends BaseParserTest {
   @Test
   public void testProblems() {
     
+    doTest(PLACE, "RT 30/EMORY RD RESCUE",
+        "ADDR:RT 30 & EMORY RD");
+    
     doTest(SKIP, "LA LA LA COUNTRY PLACE CT & W 16TH ST BEYOND",
-    "ADDR:COUNTRY PLACE CT & W 16TH ST");
+        "ADDR:COUNTRY PLACE CT & W 16TH ST");
     
     doTest(ADDR, "COUNTRY PLACE CT / RENAISSANCE WOOD CT XENIA TWP",
         "ADDR:COUNTRY PLACE CT & RENAISSANCE WOOD CT");
@@ -159,6 +162,13 @@ public class SmartAddressParserTest extends BaseParserTest {
         "ADDR:2000 COUNTRY PLACE CT");
     doTest(SKIP, "JUNK STUFF 2000 COUNTRY PLACE CT EXTRA", 
         "ADDR:2000 COUNTRY PLACE CT");
+  }
+  
+  @Test
+  public void testSimpleAddressWithCrossStreets() {
+    doTest(SKIP, "JUNK STUFF 2000 COUNTRY PLACE / N BLACK ST EXTRA",
+           "ADDR:2000 COUNTRY PLACE",
+           "X:N BLACK ST");
   }
   
   @Test

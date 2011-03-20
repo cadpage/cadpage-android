@@ -56,7 +56,7 @@ public class PAArmstrongCountyParserTest extends BaseParserTest {
     doTest("T5",
         "[Dispatch]  868 STATE ROUTE 28/66 MECHLING RD / SLOAN HILL RD VAENT 42068 15:55 7248597657",
         "ADDR:868 STATE ROUTE 28",
-        "X:66 MECHLING RD & SLOAN HILL RD",
+        "X:66 MECHLING RD / SLOAN HILL RD",
         "CALL:VAENT",
         "ID:42068");
  }
