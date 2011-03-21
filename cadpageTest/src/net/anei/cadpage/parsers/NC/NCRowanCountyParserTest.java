@@ -44,6 +44,19 @@ public class NCRowanCountyParserTest extends BaseParserTest {
         "CALL:RFD COMMAND ESTABLISHED",
         "ADDR:2470 E NC 152 HWY",
         "CITY:CHINA GROVE");
+
+    doTest("T5",
+        "CAD:29B1 TRAFFIC ACCIDENT WITH INJ;E NC 152 HWY/S I 85;CHGV;4123;RFG2",
+        "CALL:29B1 TRAFFIC ACCIDENT WITH INJ",
+        "ADDR:E NC 152 HWY & S I 85",
+        "CITY:CHINA GROVE",
+        "INFO:4123 / RFG2");
+
+    doTest("T6",
+        "CAD:RFD COMMAND ESTABLISHED;E NC 152 HWY/S I 85; CHGV",
+        "CALL:RFD COMMAND ESTABLISHED",
+        "ADDR:E NC 152 HWY & S I 85",
+        "CITY:CHINA GROVE");
   }
   
 
