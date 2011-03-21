@@ -84,12 +84,20 @@ Contact: Troy Hipsley <troy.hipsley@gmail.com>
 public class MDCarrollCountyParser extends FieldProgramParser {
 
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "FINK", "FINKSBURG",
       "HAMP", "HAMPSTEAD",
+      "MARR", "MARRIOTSVILLE",
+      "LINE", "LINEBORO",
       "MANC", "MANCHESTER",
-      "MARR", "MARRIOTTSVILLE",
-      "NWIN", "NEW WINDSOR",
-      "SYKE", "SYKESVILLE",
+      "REIS", "REISTERSTOWN",
+      "UPCO", "UPPERCO",
       "WEST", "WESTMINISTER",
+      "KEYM", "KEYMAR",
+      "UNBR", "UNION BRIDGE",
+      "AIRY", "MT AIRY",
+      "NWIM", "NEW WINDSOR",
+      "SYKE", "SYKESVILLE",
+      "TANE", "TANEYTOWN",
       "WOOD", "WOODBINE"
   });
   
