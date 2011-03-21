@@ -1416,6 +1416,154 @@ tell us the operational frequency (i.e. CNTY-2).  Hope this helps in getting
 your amazing app working for Augusta County, VA.  If you need anything else,
 do not hesitate to ask.
 **********************************************************
+Ostego County, NY
+Contact: Jeremy Preston <jeremypreston911@gmail.com>
+Sender: CAD@otsegocounty.com
+
+1 of 10\n
+FRM:CAD@otsegocounty.com\n
+SUBJ:911 EVENT\n
+MSG:HAZARD ALL|WILBER NATIONAL BANK - COOPERS|5378 ST HWY 28\3sSTA COOP3 XS
+CO HWY 26\n
+(Con't) 2 of 10\n
+/WALNUT|09:04|NARR SOUTH OF BANK MVA PDAA NEED FIR POLICE\2sPERSON:
+(COMPLAINANT) (FMLS) TIM\2sDONLAN\n
+Disclaimer:\n
+\n
+This communication,\n
+(Con't 3 of 10\n
+including any attachments, may contain confidential information and is
+intended only for \n
+the individual or entity to whom it is\n
+(Con't) 4 of 10\n
+addressed. Any review, dissemination, or copying of this communication \n
+by anyone other than the intended recipient is strictly\n
+(Con't) 5 of 10\n
+prohibited. If you are not the intended recipient, please \n
+contact the sender by reply e-mail, delete and destroy all copies of the
+origi\n
+More?
+
+1 of 10
+FRM:CAD@otsegocounty.com
+SUBJ:911 EVENT
+MSG:HAZARD ALL|WILBER NATIONAL BANK - COOPERS|5378 ST HWY 28   STA COOP3 XS
+CO HWY 26
+(Con't) 2 of 10
+/WALNUT|09:04|NARR SOUTH OF BANK MVA PDAA NEED FIR POLICE  PERSON:
+(COMPLAINANT) (FMLS) TIM  DONLAN
+Disclaimer:
+This communication,
+(Con't 3 of 10
+including any attachments, may contain confidential information and is
+intended only for
+the individual or entity to whom it is
+(Con't) 4 of 10
+addressed. Any review, dissemination, or copying of this communication
+by anyone other than the intended recipient is strictly
+(Con't) 5 of 10
+prohibited. If you are not the intended recipient, please
+contact the sender by reply e-mail, delete and destroy all copies of the
+origi
+More?
+
+1 of 10
+FRM:CAD@otsegocounty.com
+SUBJ:911 EVENT
+MSG:MVA PD|GRASSLANDS|ST HWY 28   STA COUNTY XS  |09:00|NARR 1 CAR PDMVA
+PERSON: (COMPLAINANT)
+(Con' 2 of 10
+(FMLS) SUE  JENNINGS
+Disclaimer:
+This communication, including any attachments, may contain confidential
+information and is intended
+(Con't) 3 of 10
+only for
+the individual or entity to whom it is addressed. Any review, dissemination,
+or copying of this communication
+by anyone
+(Con't) 4 of 10
+other than the intended recipient is strictly prohibited. If you are not the
+intended recipient, please
+contact the sender by reply
+(Con't) 5 of 10
+e-mail, delete and destroy all copies of the original message. No
+responsibility is
+accepted by Otsego County Government for any loss or
+More?
+
+1 of 10
+FRM:CAD@otsegocounty.com
+SUBJ:911 EVENT
+MSG:TRAFFIC ACCIDENTS|| STA MIDD1 XS ST HWY 166 /CO HWY 52|08:22|NARR CAR
+OVER THE BANK -
+(Con't) 2 of 10
+ROLLOVER PERSON: (COMPLAINANT)
+Disclaimer:
+This communication, including any attachments, may contain confidential
+information and
+(Con't) 3 of 10
+is intended only for
+the individual or entity to whom it is addressed. Any review, dissemination,
+or copying of this communication
+(Con't) 4 of 10
+
+by anyone other than the intended recipient is strictly prohibited. If you
+are not the intended recipient, please
+contact the sender
+(Con't) 5 of 10
+by reply e-mail, delete and destroy all copies of the original message. No
+responsibility is
+accepted by Otsego County Government for an
+More?
+
+1 of 10
+FRM:CAD@otsegocounty.com
+SUBJ:911 EVENT
+MSG:HAZARD ALL|| STA COOP4 XS CO HWY 52 /GATEWAY LN|08:14|NARR 2 CAR MVA NO
+(Con't) 2 of 10
+INJ
+Disclaimer:
+This communication, including any attachments, may contain confidential
+information and is intended only for
+the
+(Con't) 3 of 10
+individual or entity to whom it is addressed. Any review, dissemination, or
+copying of this communication
+by anyone other than the
+(Con't) 4 of 10
+intended recipient is strictly prohibited. If you are not the intended
+recipient, please
+contact the sender by reply e-mail, delete
+(Con't) 5 of 10
+and destroy all copies of the original message. No responsibility is
+accepted by Otsego County Government for any loss or damage arising
+More?
+
+1 of 10
+FRM:CAD@otsegocounty.com
+SUBJ:911 EVENT
+MSG:TRAFFIC ACCIDENTS||4 GLEN AV  STA COOP1 XS CHESTNUT /BRUNLAR
+CT|13:06|NARR WPH2-S
+(Con't) 2 of 10
+VEH/BICYCLE -  PERSON: (COMPLAINANT) (FMLS) ZACK  MAHLUM
+Disclaimer:
+This communication, including any attachments, may contain
+(Con't) 3 of 10
+confidential information and is intended only for
+the individual or entity to whom it is addressed. Any review, dissemination,
+or
+(Con't) 4 of 10
+copying of this communication
+by anyone other than the intended recipient is strictly prohibited. If you
+are not the intended
+(Con't) 5 of 10
+recipient, please
+contact the sender by reply e-mail, delete and destroy all copies of the
+original message. No responsibility is
+acce
+More?
+**********************************************************
 East Rockaway, NY (in Nassau County)
 Contact: Tommy Johnson <tjohnson377.tj@gmail.com>
 Sender: paging@alpinesoftware.com <From%3Apaging@alpinesoftware.com>
@@ -1424,6 +1572,7 @@ FireCom:  31 MUNSON PL (SIG 9-AMBU) 20F ABDOMINAL PAINS
 FireCom: THE FISHERY 1 MAIN ST (SIG 9-AMBU) MALE FELL-FX WRIST 
 FireCom:  528 ATLANTIC AVE (SIG 9-AMBU) BACK DOOR DIFF BREATHING
 FireCom:  RHAME AVE (DISTRIC-HAZM) SW CORNER/SEWER-ILLEGALE DUMPING
+FireCom:  22 RIVERSIDE ROAD (SIG 9-AMBU) DEHYDRATED MA
 
 This appears to be the main Nassau County dispatch, rename existing Nassau County to Bellmore
 Need more samples (3/8/11)
