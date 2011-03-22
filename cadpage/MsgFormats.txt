@@ -1402,6 +1402,9 @@ CAD:ELECTRICAL FIRE - DLOC:135 CRAWFORD DR:CRAWFORD MANOR - 11104:MADISON DR:WAY
 CAD:CONTROL BURN INVESTIGATION:3445 OLD GREENVILLE RD:RT 613 / 245-04:GLORY LN:CHESTNUT RIDGE RD:CNTY-2
 CAD:AUTOMOBILE ACCIDENT:I81NB AREA MM 217.9
 
+Ignore address fields starting with P O or PO
+nnnnn or nnn-nn is a map number.  Ignore anything else in that fild
+
 Good afternoon, my name is Christopher Botkin and I am a volunteer
 firefighter for Swoope Volunteer Fire Company and Riverheads Volunteer Fire
 Company in Augusta County, VA. I heard about your Android app from a fellow
@@ -1416,6 +1419,11 @@ directly to cross streets. Sometimes if the message isnt too long it will
 tell us the operational frequency (i.e. CNTY-2).  Hope this helps in getting
 your amazing app working for Augusta County, VA.  If you need anything else,
 do not hesitate to ask.
+
+The towns that show up are troy, biscoe, Mt. Gilead, star, new london,
+candor, and seagrove just let me know when it is available thanks for all u
+do and your patients
+
 **********************************************************
 Ostego County, NY
 Contact: Jeremy Preston <jeremypreston911@gmail.com>
@@ -1580,18 +1588,19 @@ Montgomery County, NC
 Contact: Kyle Morris <wildlandfire09@gmail.com>
 Sender: @montgomerycountync.com
 
-SDUNN:201107504 105 WHITE TAIL RUN MT GILEAD MAN WITH A GUN jeremy collins
-is there arguing/ :1of2
+SDUNN:201107504 105 WHITE TAIL RUN MT GILEAD MAN WITH A GUN jeremy collins is there arguing/ :1of2
+has a gun/subject is in the yard:2of2
 
 JWHITAKER:106 EAST ALLENTON ST MT GILEAD STATION 2 PAGE 201107494 16:44:24 station 2 will be :1of2
 having cpr class at 7 on Monday the 28th:2of2
 
-has a gun/subject is in the yard:2of2
 MDAVIS:201107560 179 TILLERY DAM RD MT GILEAD ILLEGAL BURN MAN BURNING TRASH NEAR PLANT ON :1of2
 RIVERBED, HAVE ASKED HIM TO PUT IT OUT, REFUSING. EXT 0.:2of2
 
 JWHITAKER:201107575 644 BISCOE RD TROY FIRE ALARM tommy and debbie honeycutt,gen fire and :1of2
 gen burg,no contact on premise,audible:2of2
+
+JWHITAKER:201107593 468 EAST MAIN ST CANDOR FIRE ALARM plant 28,riser 1 water flow
 **********************************************************
 East Rockaway, NY (in Nassau County)
 Contact: Tommy Johnson <tjohnson377.tj@gmail.com>

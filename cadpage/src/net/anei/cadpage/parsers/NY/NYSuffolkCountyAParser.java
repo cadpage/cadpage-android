@@ -96,22 +96,27 @@ public class NYSuffolkCountyAParser extends SmartAddressParser {
     if (data.strCross == null) return false;
     
     String sAddress = props.getProperty("LOC");
-    if (sAddress == null) return false;
-    sAddress = sAddress.replaceAll(":", " ");
-    int pt = sAddress.indexOf('@');
-    if (pt >= 0) {
-      data.strPlace = sAddress.substring(pt+1).trim();
-      sAddress = sAddress.substring(0,pt).trim();
-      pt = sAddress.lastIndexOf(' ');
+    if (sAddress == null) {
+      if (data.strCross.length() == 0) return false;
+      parseAddress(data.strCross, data);
+      data.strCross = "";
+    } else {
+      sAddress = sAddress.replaceAll(":", " ");
+      int pt = sAddress.indexOf('@');
       if (pt >= 0) {
-        data.strCity = sAddress.substring(pt+1);
-        sAddress = sAddress.substring(0, pt).trim();
+        data.strPlace = sAddress.substring(pt+1).trim();
+        sAddress = sAddress.substring(0,pt).trim();
+        pt = sAddress.lastIndexOf(' ');
+        if (pt >= 0) {
+          data.strCity = sAddress.substring(pt+1);
+          sAddress = sAddress.substring(0, pt).trim();
+        }
+        parseAddress(sAddress, data);
       }
-      parseAddress(sAddress, data);
-    }
-    else {
-      parseAddress(StartType.START_ADDR, sAddress, data);
-      data.strPlace = getLeft();
+      else {
+        parseAddress(StartType.START_ADDR, sAddress, data);
+        data.strPlace = getLeft();
+      }
     }
     data.strCode = props.getProperty("CODE", "");
     

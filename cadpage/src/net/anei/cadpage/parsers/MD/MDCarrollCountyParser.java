@@ -95,7 +95,7 @@ public class MDCarrollCountyParser extends FieldProgramParser {
       "KEYM", "KEYMAR",
       "UNBR", "UNION BRIDGE",
       "AIRY", "MT AIRY",
-      "NWIM", "NEW WINDSOR",
+      "NWIN", "NEW WINDSOR",
       "SYKE", "SYKESVILLE",
       "TANE", "TANEYTOWN",
       "WOOD", "WOODBINE"
