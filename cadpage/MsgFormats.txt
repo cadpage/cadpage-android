@@ -1042,6 +1042,7 @@ The Dispatcher is WECKENBROCK MICHAEL G
 Mecklenburg County, NC ($20)
 Contact: Rick <very.orange@gmail.com>
 Sender: paging@rcsepager.com
+System: TriTech VisiCAD
 Need some spacing info in samples (3/5/11)
 
 - *19815 North Cove Rd *        Harris Teeter - Jetton VillageFire -  Emergency        52F-Alarm-FIRE               *Old Jetton Rd/East Battery St*    CORF2     Map - 237237/H4 03162010-040
@@ -1420,12 +1421,177 @@ Ostego County, NY
 Contact: Jeremy Preston <jeremypreston911@gmail.com>
 Sender: CAD@otsegocounty.com
 
-1 of 10\nFRM:CAD@otsegocounty.com\nSUBJ:911 EVENT\nMSG:HAZARD ALL|WILBER NATIONAL BANK - COOPERS|5378 ST HWY 28   STA COOP3 XS CO HWY 26\n(Con't) 2 of 10\n/WALNUT|09:04|NARR SOUTH OF BANK MVA PDAA NEED FIR POLICE  PERSON:\n(COMPLAINANT) (FMLS) TIM  DONLAN\nDisclaimer:\nThis communication,\n(Con't 3 of 10\nincluding any attachments, may contain confidential information and is\nintended only for\nthe individual or entity to whom it is\n(Con't) 4 of 10\naddressed. Any review, dissemination, or copying of this communication\nby anyone other than the intended recipient is strictly\n(Con't) 5 of 10\nprohibited. If you are not the intended recipient, please\ncontact the sender by reply e-mail, delete and destroy all copies of the\norigi\nMore?
-1 of 10\nFRM:CAD@otsegocounty.com\nSUBJ:911 EVENT\nMSG:MVA PD|GRASSLANDS|ST HWY 28   STA COUNTY XS  |09:00|NARR 1 CAR PDMVA\nPERSON: (COMPLAINANT)\n(Con' 2 of 10\n(FMLS) SUE  JENNINGS\nDisclaimer:\nThis communication, including any attachments, may contain confidential\ninformation and is intended\n(Con't) 3 of 10\nonly for\nthe individual or entity to whom it is addressed. Any review, dissemination,\nor copying of this communication\nby anyone\n(Con't) 4 of 10\nother than the intended recipient is strictly prohibited. If you are not the\nintended recipient, please\ncontact the sender by reply\n(Con't) 5 of 10\ne-mail, delete and destroy all copies of the original message. No\nresponsibility is\naccepted by Otsego County Government for any loss or\nMore?
-1 of 10\nFRM:CAD@otsegocounty.com\nSUBJ:911 EVENT\nMSG:TRAFFIC ACCIDENTS|| STA MIDD1 XS ST HWY 166 /CO HWY 52|08:22|NARR CAR\nOVER THE BANK -\n(Con't) 2 of 10\nROLLOVER PERSON: (COMPLAINANT)\nDisclaimer:\nThis communication, including any attachments, may contain confidential\ninformation and\n(Con't) 3 of 10\nis intended only for\nthe individual or entity to whom it is addressed. Any review, dissemination,\nor copying of this communication\n(Con't) 4 of 10\n\nby anyone other than the intended recipient is strictly prohibited. If you\nare not the intended recipient, please\ncontact the sender\n(Con't) 5 of 10\nby reply e-mail, delete and destroy all copies of the original message. No\nresponsibility is\naccepted by Otsego County Government for an\nMore?
-1 of 10\nFRM:CAD@otsegocounty.com\nSUBJ:911 EVENT\nMSG:HAZARD ALL|| STA COOP4 XS CO HWY 52 /GATEWAY LN|08:14|NARR 2 CAR MVA NO\n(Con't) 2 of 10\nINJ\nDisclaimer:\nThis communication, including any attachments, may contain confidential\ninformation and is intended only for\nthe\n(Con't) 3 of 10\nindividual or entity to whom it is addressed. Any review, dissemination, or\ncopying of this communication\nby anyone other than the\n(Con't) 4 of 10\nintended recipient is strictly prohibited. If you are not the intended\nrecipient, please\ncontact the sender by reply e-mail, delete\n(Con't) 5 of 10\nand destroy all copies of the original message. No responsibility is\naccepted by Otsego County Government for any loss or damage arising\nMore?
-1 of 10\nFRM:CAD@otsegocounty.com\nSUBJ:911 EVENT\nMSG:TRAFFIC ACCIDENTS||4 GLEN AV  STA COOP1 XS CHESTNUT /BRUNLAR\nCT|13:06|NARR WPH2-S\n(Con't) 2 of 10\nVEH/BICYCLE -  PERSON: (COMPLAINANT) (FMLS) ZACK  MAHLUM\nDisclaimer:\nThis communication, including any attachments, may contain\n(Con't) 3 of 10\nconfidential information and is intended only for\nthe individual or entity to whom it is addressed. Any review, dissemination,\nor\n(Con't) 4 of 10\ncopying of this communication\nby anyone other than the intended recipient is strictly prohibited. If you\nare not the intended\n(Con't) 5 of 10\nrecipient, please\ncontact the sender by reply e-mail, delete and destroy all copies of the\noriginal message. No responsibility is\nacce\nMore?
+I believe the STA is for station.  We are one FD in one house, but have
+different "districts" as far as the CAD is concerned.  For example COOP1
+would be in the actual village of Cooperstown, COOP2 would be one of our
+primary contract districts, etc.  In the example below MIDD1 would be
+Middlefield fire district, but we are first alarm for heavy rescue on MVAs
+etc.  The second or third group is the physical address: 5378 ST HWY 28=
+5378 State Highway 28.  Then XS are cross streets: CO HWY 26/WALNUT= County
+Highway 26 anf Walnut Ave.  I hope this helps.  If you think the STA may
+still be of value, let me know and I'll attempt to get them, but can't
+guarantee county dispatch will give them to me.
 
+1 of 10\n
+FRM:CAD@otsegocounty.com\n
+SUBJ:911 EVENT\n
+MSG:HAZARD ALL|WILBER NATIONAL BANK - COOPERS|5378 ST HWY 28\3sSTA COOP3 XS
+CO HWY 26\n
+(Con't) 2 of 10\n
+/WALNUT|09:04|NARR SOUTH OF BANK MVA PDAA NEED FIR POLICE\2sPERSON:
+(COMPLAINANT) (FMLS) TIM\2sDONLAN\n
+Disclaimer:\n
+\n
+This communication,\n
+(Con't 3 of 10\n
+including any attachments, may contain confidential information and is
+intended only for \n
+the individual or entity to whom it is\n
+(Con't) 4 of 10\n
+addressed. Any review, dissemination, or copying of this communication \n
+by anyone other than the intended recipient is strictly\n
+(Con't) 5 of 10\n
+prohibited. If you are not the intended recipient, please \n
+contact the sender by reply e-mail, delete and destroy all copies of the
+origi\n
+More?
+
+1 of 10
+FRM:CAD@otsegocounty.com
+SUBJ:911 EVENT
+MSG:HAZARD ALL|WILBER NATIONAL BANK - COOPERS|5378 ST HWY 28   STA COOP3 XS
+CO HWY 26
+(Con't) 2 of 10
+/WALNUT|09:04|NARR SOUTH OF BANK MVA PDAA NEED FIR POLICE  PERSON:
+(COMPLAINANT) (FMLS) TIM  DONLAN
+Disclaimer:
+This communication,
+(Con't 3 of 10
+including any attachments, may contain confidential information and is
+intended only for
+the individual or entity to whom it is
+(Con't) 4 of 10
+addressed. Any review, dissemination, or copying of this communication
+by anyone other than the intended recipient is strictly
+(Con't) 5 of 10
+prohibited. If you are not the intended recipient, please
+contact the sender by reply e-mail, delete and destroy all copies of the
+origi
+More?
+
+1 of 10
+FRM:CAD@otsegocounty.com
+SUBJ:911 EVENT
+MSG:MVA PD|GRASSLANDS|ST HWY 28   STA COUNTY XS  |09:00|NARR 1 CAR PDMVA
+PERSON: (COMPLAINANT)
+(Con' 2 of 10
+(FMLS) SUE  JENNINGS
+Disclaimer:
+This communication, including any attachments, may contain confidential
+information and is intended
+(Con't) 3 of 10
+only for
+the individual or entity to whom it is addressed. Any review, dissemination,
+or copying of this communication
+by anyone
+(Con't) 4 of 10
+other than the intended recipient is strictly prohibited. If you are not the
+intended recipient, please
+contact the sender by reply
+(Con't) 5 of 10
+e-mail, delete and destroy all copies of the original message. No
+responsibility is
+accepted by Otsego County Government for any loss or
+More?
+
+1 of 10
+FRM:CAD@otsegocounty.com
+SUBJ:911 EVENT
+MSG:TRAFFIC ACCIDENTS|| STA MIDD1 XS ST HWY 166 /CO HWY 52|08:22|NARR CAR
+OVER THE BANK -
+(Con't) 2 of 10
+ROLLOVER PERSON: (COMPLAINANT)
+Disclaimer:
+This communication, including any attachments, may contain confidential
+information and
+(Con't) 3 of 10
+is intended only for
+the individual or entity to whom it is addressed. Any review, dissemination,
+or copying of this communication
+(Con't) 4 of 10
+
+by anyone other than the intended recipient is strictly prohibited. If you
+are not the intended recipient, please
+contact the sender
+(Con't) 5 of 10
+by reply e-mail, delete and destroy all copies of the original message. No
+responsibility is
+accepted by Otsego County Government for an
+More?
+
+1 of 10
+FRM:CAD@otsegocounty.com
+SUBJ:911 EVENT
+MSG:HAZARD ALL|| STA COOP4 XS CO HWY 52 /GATEWAY LN|08:14|NARR 2 CAR MVA NO
+(Con't) 2 of 10
+INJ
+Disclaimer:
+This communication, including any attachments, may contain confidential
+information and is intended only for
+the
+(Con't) 3 of 10
+individual or entity to whom it is addressed. Any review, dissemination, or
+copying of this communication
+by anyone other than the
+(Con't) 4 of 10
+intended recipient is strictly prohibited. If you are not the intended
+recipient, please
+contact the sender by reply e-mail, delete
+(Con't) 5 of 10
+and destroy all copies of the original message. No responsibility is
+accepted by Otsego County Government for any loss or damage arising
+More?
+
+1 of 10
+FRM:CAD@otsegocounty.com
+SUBJ:911 EVENT
+MSG:TRAFFIC ACCIDENTS||4 GLEN AV  STA COOP1 XS CHESTNUT /BRUNLAR
+CT|13:06|NARR WPH2-S
+(Con't) 2 of 10
+VEH/BICYCLE -  PERSON: (COMPLAINANT) (FMLS) ZACK  MAHLUM
+Disclaimer:
+This communication, including any attachments, may contain
+(Con't) 3 of 10
+confidential information and is intended only for
+the individual or entity to whom it is addressed. Any review, dissemination,
+or
+(Con't) 4 of 10
+copying of this communication
+by anyone other than the intended recipient is strictly prohibited. If you
+are not the intended
+(Con't) 5 of 10
+recipient, please
+contact the sender by reply e-mail, delete and destroy all copies of the
+original message. No responsibility is
+acce
+More?
+**********************************************************
+Montgomery County, NC
+Contact: Kyle Morris <wildlandfire09@gmail.com>
+Sender: @montgomerycountync.com
+
+SDUNN:201107504 105 WHITE TAIL RUN MT GILEAD MAN WITH A GUN jeremy collins
+is there arguing/ :1of2
+
+JWHITAKER:106 EAST ALLENTON ST MT GILEAD STATION 2 PAGE 201107494 16:44:24 station 2 will be :1of2
+having cpr class at 7 on Monday the 28th:2of2
+
+has a gun/subject is in the yard:2of2
+MDAVIS:201107560 179 TILLERY DAM RD MT GILEAD ILLEGAL BURN MAN BURNING TRASH NEAR PLANT ON :1of2
+RIVERBED, HAVE ASKED HIM TO PUT IT OUT, REFUSING. EXT 0.:2of2
+
+JWHITAKER:201107575 644 BISCOE RD TROY FIRE ALARM tommy and debbie honeycutt,gen fire and :1of2
+gen burg,no contact on premise,audible:2of2
 **********************************************************
 East Rockaway, NY (in Nassau County)
 Contact: Tommy Johnson <tjohnson377.tj@gmail.com>
@@ -1534,7 +1700,6 @@ MEDICAL CALL  8350 JONES RD  (409K) () COMMENTS:1/20/2011 10:51:54 8350 JONES RD
 PLEASANT COLONY DR & VILLAGE GREEN DR
 1/20/2011 10:53:03 Incident Case Number automatically assigned : JVFD2011000061
 **********************************************************
-**********************************************************
 NECC, OH
 Contact: Jon Frye <jfrye@safety-center.org>
 Sender; Dispatcher@safety-center.org
@@ -1581,6 +1746,56 @@ XS: HUMPHREY RD & MORGANS TRACE
 
 RCVD AS Phone
 **********************************************************
+Manvel, TX (In Brazoria County)
+Contact: John Aucoin <johnaucoin@sbcglobal.net>
+Sender: dispatch@manvelpd.org
+[ NEW CALL ]  MVFD
+ALFIRE
+3403 SOUTHFORK PARKWAY
+MANVEL
+1103200011 12:50 PM
+
+ NEW CALL ]  MVFD
+ACCUNK
+S. MASTER / JUST PAST GATES LOOP
+MANVEL
+1102210022 5:25 PM
+
+[ NEW CALL ]  MVFD
+FIRE
+13508 AUTUMN ASH CT
+MANVEL
+1103030017 3:36 PM
+
+[ NEW CALL ]  MVFD
+FIRE
+10516 LEEDY RD
+MANVEL
+1103010018 6:21 PM
+
+[ NEW CALL ]  MVFD
+ALFIRE
+3602 BEHLER
+MANVEL
+1102230010 3:30 PM
+
+[ NEW CALL ]  MVFD
+FIRE
+815 CR 393
+MANVEL
+1102280014 2:47 PM
+
+[ NEW CALL ]  MVFD
+ACCUNK
+288/6
+MANVEL
+1102220014 12:04 PM
+**********************************************************
+Unknown (atempting to use Cy Creek Comm Center, TX)
+Contact: Nathan Mathews <nbmathews807@gmail.com>
+Sender: cad@hcesd-1.org
+
+COMM/RES FIRE AL EXTRUDE 2001-SHELDON RD KEYMAP:458P BOX:2003 X1:UN-NAMED DITCH
 **********************************************************
 **********************************************************
 **********************************************************

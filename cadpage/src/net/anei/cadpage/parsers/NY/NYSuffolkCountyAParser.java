@@ -45,6 +45,9 @@ LOC: 298 GREAT RIVER RD GREATR CALLER ADDR: 1625 MONTAUK HWY OAKDAL TIME: 09:12:
 Contact: Sean Hendrickson <sean.hendrickson5@gmail.com>
 FWD: TYPE: STRUCTURE FIRE LOC: 1 WILBUR AV MANORV  CROSS: SOHMER ST /  CODE: 69-D-5 TIME: 17:17:43
 
+Contact: Chris Wagner <cwagner021@gmail.com>
+TYPE: MOTOR VEHICLE ACCIDENT  CROSS: CHURCH ST / LAKELAND AV CODE: 29-B-1U TIME: 09:04:01
+
 */
 
 public class NYSuffolkCountyAParser extends SmartAddressParser {

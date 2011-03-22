@@ -39,6 +39,9 @@ Contact: Patrick Boren <boren.patrick@gmail.com>
 Contact: Nathan Mathews <nbmathews807@gmail.com>
 03/14 10:10 HUFSMITH KOHRVILLE RD-HC/BOUD, ; Map:289X- Sub: Nat:59C02O-FUEL SPILL - UNCONTAINED Units:E306 HM1 X-St:BOUDREAUX RD
 
+Contact: Nathan Mathews <nbmathews807@gmail.com>
+03/19 09:48 CROSBY TRAINING, ; Map:- Sub: Nat:HM3-HC HAZMAT TRAINING Units:HM1 X-St: 201112139
+
 */
 
 public class TXCyCreekCommCenterParser extends SmsMsgParser {
@@ -52,7 +55,7 @@ public class TXCyCreekCommCenterParser extends SmsMsgParser {
   
   @Override
   public String getFilter() {
-    return "CommCenter@ccems.com";
+    return "CommCenter@ccems.com,93001";
   }
 
   @Override
