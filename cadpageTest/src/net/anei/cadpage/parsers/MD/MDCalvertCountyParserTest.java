@@ -75,9 +75,19 @@ public class MDCalvertCountyParserTest extends BaseParserTest {
         "CITY:NORTH BEACH",
         "ID:2011-00000428",
         "INFO:ProQA Medical Questionnaire Completed;");
+
+    doTest("T8",
+        "(Dispatch Info) M Priority 3 Medical A79  11:44 03/22/11 Box 303 12680 HG TRUEMAN RD LUSBY 2011-00000525 SCHOOL-DOW ES ProQA Medical Questionnaire Completed;",
+        "CALL:M Priority 3 Medical",
+        "UNIT:A79",
+        "BOX:303",
+        "ADDR:12680 HG TRUEMAN RD",
+        "CITY:LUSBY",
+        "ID:2011-00000525",
+        "INFO:SCHOOL-DOW ES ProQA Medical Questionnaire Completed;");
   }
   
   public static void main(String[] args) {
-    new MDCalvertCountyParserTest().generateTests("T1", "CALL UNIT ADDR CITY ID INFO");
+    new MDCalvertCountyParserTest().generateTests("T1", "CALL UNIT BOX ADDR CITY ID INFO");
   }
 }
