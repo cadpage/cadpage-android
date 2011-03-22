@@ -19,9 +19,9 @@ F Fire Alarm E11 E51 T1  16:30 03/10/11 1850 PROSPER LN OWINGS 2011-00000433 SNE
 F Area Box E61 E21 E52 E11 TN5 TN7 T2 S6 A68 NDC  17:52 03/09/11 65 WALTON RD HUNTINGTOWN 2011-00000443  ProQA Fire Questionnaire Completed; D 
 M Priority 2 Medical A19 NOMED  10:45 03/09/11 8818 CHESAPEAKE LIGHTHOUSE DR NORTH BEACH 2011-00000428  ProQA Medical Questionnaire Completed;
 
- anythings starting with B, E, T, S, R, A, or M followed by 1-3 digits, or
- anything starting with TN followed by a single digit, or
- NDC or NOMED or COM
+New text format
+Contact: Marcus Richman <richmanmh@gmail.com>
+(Dispatch Info) M Priority 3 Medical A79  11:44 03/22/11 Box 303 12680 HG TRUEMAN RD LUSBY 2011-00000525 SCHOOL-DOW ES ProQA Medical Questionnaire Completed;
 */
 
 public class MDCalvertCountyParser extends SmartAddressParser {
@@ -62,6 +62,11 @@ public class MDCalvertCountyParser extends SmartAddressParser {
     data.strCall = strCall;
     
     String strAddress = body.substring(timeDateMatch.end(), idMatch.start()).trim();
+    Parser p = new Parser(strAddress);
+    if (p.get(' ').equalsIgnoreCase("BOX")) {
+      data.strBox = p.get(' ');
+      strAddress = p.get();
+    }
     parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END, strAddress, data);
     
     data.strCallId = idMatch.group();
