@@ -41,13 +41,13 @@ public class TXCyCreekCommCenterParserTest extends BaseParserTest {
         "UNIT:ATFD E-E39");
     
     doTest("T4",
-      "1of2:09/04 19:45 17219 KOBUK VALLEY CIR, ; Map:377E Sub:EAGLE SPRINGS Nat:67B03U-OUTSIDE FIRE - INVESTIGA Units:E-E39 X-St:*** Dead",
-      "ADDR:17219 KOBUK VALLEY CIR",
-      "MAP:377E",
-      "PLACE:EAGLE SPRINGS",
-      "CALL:67B03U-OUTSIDE FIRE - INVESTIGA",
-      "UNIT:E-E39",
-      "X:*** Dead");
+        "1of2:09/04 19:45 17219 KOBUK VALLEY CIR, ; Map:377E Sub:EAGLE SPRINGS Nat:67B03U-OUTSIDE FIRE - INVESTIGA Units:E-E39 X-St:*** Dead",
+        "ADDR:17219 KOBUK VALLEY CIR",
+        "MAP:377E",
+        "PLACE:EAGLE SPRINGS",
+        "CALL:67B03U-OUTSIDE FIRE - INVESTIGA",
+        "UNIT:E-E39",
+        "X:*** Dead");
     
     doTest("T5",
         "1of2:09/03 08:14 LILES LN/WOODLAND HILLS DR, ; Map:376H Sub:ATASCOCITA FOREST Nat:29-MOTOR VEHICLE INCIDENT Units:E-M19 E-E39 X-",
@@ -135,9 +135,16 @@ public class TXCyCreekCommCenterParserTest extends BaseParserTest {
         "UNIT:M510 FO290",
         "X:RHODES RD MARCIN DR");
 
+    doTest("T15",
+        "03/19 09:48 CROSBY TRAINING, ; Map:- Sub: Nat:HM3-HC HAZMAT TRAINING Units:HM1 X-St: 201112139",
+        "ADDR:CROSBY TRAINING",
+        "MAP:-",
+        "CALL:HM3-HC HAZMAT TRAINING",
+        "UNIT:HM1");
+
   }
   
   public static void main(String[] args) {
-    new TXCyCreekCommCenterParserTest().generateTests("T14", "PHONE ADDR PLACE APT MAP CALL UNIT X");
+    new TXCyCreekCommCenterParserTest().generateTests("T15", "PHONE ADDR PLACE APT MAP CALL UNIT X");
   }
 }
