@@ -45,7 +45,7 @@ public class PAWestmorelandCountyParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "alert@emgcall.net";
+    return "alert@emgcall.net,alert@emgcall.net,message@ecm2.us";
   }
 
   @Override
