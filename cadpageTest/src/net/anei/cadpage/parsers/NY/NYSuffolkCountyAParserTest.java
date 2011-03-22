@@ -140,9 +140,15 @@ public class NYSuffolkCountyAParserTest extends BaseParserTest {
         "CITY:Manorville",
         "X:SOHMER ST /",
         "CODE:69-D-5");
+
+    doTest("T19",
+        "TYPE: MOTOR VEHICLE ACCIDENT  CROSS: CHURCH ST / LAKELAND AV CODE: 29-B-1U TIME: 09:04:01",
+        "CALL:MOTOR VEHICLE ACCIDENT",
+        "ADDR:CHURCH ST & LAKELAND AV",
+        "CODE:29-B-1U");
   }
   
   public static void main(String[] args) {
-    new NYSuffolkCountyAParserTest().generateTests("T18", "CALL ADDR CITY PLACE X CODE");
+    new NYSuffolkCountyAParserTest().generateTests("T20", "CALL ADDR CITY PLACE X CODE");
   }
 }
