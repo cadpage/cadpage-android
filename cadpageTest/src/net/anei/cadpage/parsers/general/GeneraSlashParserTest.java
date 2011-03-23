@@ -8,9 +8,9 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 
 
-public class GeneraSlashlParserTest extends BaseParserTest {
+public class GeneraSlashParserTest extends BaseParserTest {
   
-  public GeneraSlashlParserTest() {
+  public GeneraSlashParserTest() {
     setParser(new GeneralSlashParser(), "", "");
   }
   
@@ -30,7 +30,7 @@ public class GeneraSlashlParserTest extends BaseParserTest {
         "ID:4581",
         "CALL:JAMES",
         "ADDR:1718 S I ST",
-        "INFO:ER-10 | TACOMA | 773 G6",
+        "INFO:ER-10 / TACOMA / 773 G6",
         "X:11315 BRIDGEPORT WAY SW");
   }
 }
