@@ -245,6 +245,7 @@ public class SmsPopupUtils {
     if (sFilter == null) return true;
     
     // A filter with length of 0 or 1 is invalid and is always passed
+    sFilter = sFilter.trim();
     if (sFilter.length() <= 1) return true;
     
     // Filter can consist of multiple address filters separated by comas

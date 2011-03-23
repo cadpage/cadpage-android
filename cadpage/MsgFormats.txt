@@ -866,7 +866,23 @@ people who send out our paging for us.
 Burlington County, NJ
 Contact: Jerseyfirefighter@gmail.com
 Sender: HSPROWL@co.burlington.nj.us
-EMAIL only!
+
+Sample TXTs (1 alert is broke into 2 txt):
+---1---
+.... (Station 171) : 1  : 628 AVENUE
+D                                         Venue: Southamptn  Located
+Between  : FRONT ST/AVENUE RD Call Time- 08:48:16
+---1---
+---2---
+: 1720 : (609) 442-5407 Caller :  JACKIE TALLON Nature of Call : 79YO F//
+NOT RESPONDING.. =NEG RESP Additional Inc#s
+---2---
+
+\27s: 1720 : (609) 442-5407\16sCaller :\2sJACKIE TALLON Nature of Call
+: 79YO F// NOT RESPONDING.. =NEG RESP Additional Inc#s
+
+
+EMAIL version
  
 Incident Number  : 2011-00000034                    ORI: 03172         Station:  
 Incident Type  . : FIRE F Fire Call            Priority: 1  
@@ -1395,28 +1411,6 @@ Sender: bhvfd14@gmail.com
 **********************************************************
 **********************************************************
 **********************************************************
-Montgomery County, NC
-Contact: Kyle Morris <wildlandfire09@gmail.com>
-Sender: @montgomerycountync.com
-
-SDUNN:201107504 105 WHITE TAIL RUN MT GILEAD MAN WITH A GUN jeremy collins is there arguing/ :1of2
-has a gun/subject is in the yard:2of2
-
-JWHITAKER:106 EAST ALLENTON ST MT GILEAD STATION 2 PAGE 201107494 16:44:24 station 2 will be :1of2
-having cpr class at 7 on Monday the 28th:2of2
-
-MDAVIS:201107560 179 TILLERY DAM RD MT GILEAD ILLEGAL BURN MAN BURNING TRASH NEAR PLANT ON :1of2
-RIVERBED, HAVE ASKED HIM TO PUT IT OUT, REFUSING. EXT 0.:2of2
-
-JWHITAKER:201107575 644 BISCOE RD TROY FIRE ALARM tommy and debbie honeycutt,gen fire and :1of2
-gen burg,no contact on premise,audible:2of2
-
-JWHITAKER:201107593 468 EAST MAIN ST CANDOR FIRE ALARM plant 28,riser 1 water flow
-
-The towns that show up are troy, biscoe, Mt. Gilead, star, new london,
-candor, and seagrove just let me know when it is available thanks for all u
-do and your patients
-
 **********************************************************
 East Rockaway, NY (in Nassau County)
 Contact: Tommy Johnson <tjohnson377.tj@gmail.com>
@@ -1427,9 +1421,44 @@ FireCom: THE FISHERY 1 MAIN ST (SIG 9-AMBU) MALE FELL-FX WRIST
 FireCom:  528 ATLANTIC AVE (SIG 9-AMBU) BACK DOOR DIFF BREATHING
 FireCom:  RHAME AVE (DISTRIC-HAZM) SW CORNER/SEWER-ILLEGALE DUMPING
 FireCom:  22 RIVERSIDE ROAD (SIG 9-AMBU) DEHYDRATED MA
+FireCom:  65 EMMET AVE (GENERAL-AUTO) ESTRIN RES/40A024
 
 This appears to be the main Nassau County dispatch, rename existing Nassau County to Bellmore
 Need more samples (3/8/11)
+**********************************************************
+Lincoln County, NC
+Contact: Jason Reed <jreed@denverfd.com>
+Sender: cad@lincolnsheriff.org
+System: OSSI CAD
+
+MEDICAL
+<NUMBER>:<CAD:><ORGANIZATION>-<EMD CODE>-<Code>-<Broken>-<Out>
+<Illness>-<Address>-<Cross Street>-<Cross Street>-[Medical Priority Info]
+
+4567:CAD:KFD-26D01-26-D-1 SICK PERSON-9999 PALMETTO LN-PANORAMIC LN-TODD LN-[Medical Priority Info] RESPONSE: Delta RESPONDER SCRIPT: You are responding to a patient who is sick (or has a current medical condition). The patient is a <REMOVED PT DATA>, who is conscious and
+4568:CAD:KFD3-06D04-6-D-4 BREATHING PROBLEMS-8888 N NC 16 HWY-DELLING COMMUNICATIONS-CHARTER LN-HAGERS HOLLOW DR-[Medical Priority Info] RESPONSE: Delta RESPONDER SCRIPT: <REMOVED PT DATA>, Conscious, Breathing. Breathing Problems. Clammy. 1.He is completely alert (responding appropriately). 2.He does not have
+4569:CAD:KFD-06D02-6-D-2 BREATHING PROBLEMS-7777 DICK WILSON RD-CAMPGROUND RD-[Medical Priority Info] RESPONSE: Delta RESPONDER SCRIPT: <REMOVED PT DATA>, Conscious, Breathing. Breathing Problems. DIFFICULTY SPEAKING BETWEEN BREATHS. Caller Statement: DIFFICULTY BREATHING AND
+
+FIRE
+Intersection of two roads N LITTLE EGYPT RD and HWY 73
+<NUMBER>:CAD:<ORGANIZATION>-<Nature of Call>-<Street One>/<Street Two> 
+
+4570:CAD:KLF-201101460-SMOKE INVESTIGATION-N LITTLE EGYPT RD/NC 73 HWY-near the ball field [03/22/11 10:13:09 DISPATCHER] blk smoke near track unkn source [03/22/11 10:12:22]
+
+Exact Address
+4571:CAD:KFD-201101410-67D02-OUTSIDE FIRE-1111 SAILVIEW DR-CREPE RIDGE DR-CHAPEL CREEK DR-[Fire Priority Info] RESPONSE: Delta RESPONDER SCRIPT: Outside Fire. Brush/grass fire.Caller Statement: burning brush . 2.The caller is safe and out of danger. 3.Everyone else is safe and out of
+
+Exact Address with Business
+Note the CALVARY BAPTIST CHURCH as the business before the cross streets
+
+1221:CAD:DFD-201101274-ASSIST MOTORIST AGENCY OFFICER-5555 KING WILKINSON RD-CALVARY BAPTIST CHURCH-MOUNTAINBROOK LN-DELLING DOWNS DR-Event spawned from LOG CALL FOR RECORDS. [03/10/2011 20:03:33 SAM] TREE ACROSS THE ROAD [03/10/11 20:03:06 SAM]
+
+Mutual Aid Fire
+<NUMBER>:CAD:<Organization>-<CADnumber>-<unknown number>-<Nature of
+problem>-<Address>-<Business name>-<Cross St 1>-<Cross St 2>
+
+1873:CAD:JLFD-201101315-52C03U-ALARMS FOR FIRE-888 OPTIMIST CLUB RD-WOODMONT CARE CENTER-FORNEY CREEK PKWY-WOODS LN-[Fire Priority Info] RESPONSE: Charlie RESPONDER SCRIPT: Alarms. COMMERCIAL structure (Unknown).Caller Statement: FIRE ALARM . 1.The caller is an alarm
+
 **********************************************************
 Cy-Fair Volunteer FD (Harris County, TX)
 Contact: "Steven Lindsay" <steven@snl-ent.com>
