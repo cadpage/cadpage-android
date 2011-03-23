@@ -724,6 +724,11 @@ EARLYSVILL EXTRICATION AD: SEMINOLE TRL&FRAYS MILL RD CTY: AC LOC: SB JUST S OF 
 EARLYSVILL EMS CALL AD: 1700 FOXTAIL PNES CTY: AC 93YOM, DIFF BREATHING, JUST DISCHARGED FROM HEALTHSOUTH, AWAKE/TALKING XST2: 2497 ASPENWOOD RD
 EARLYSVILL RES STRUCTURE FIRE AD: 4235 WOODTHRUSH LN CTY: AC SMOKE AND FIRE IN THE HOUSE XST: 5001 MEADOWLARK CT
 ***************************************************************************
+Agusta County, VA (VAAugustaCountyParser)
+CAD: Chest Pain:81 Fountain Cave RD:RT 605 - Wonderly / 10203: Cave Hill LN:Rockfish RD
+CAD: OB EMERGENCY:WEYERS CAVE SHELL/ TEXACO:149 WEYERS CAVE RD:P O BOX 184:TRIANGLE DR:SR 222:CNTY-1
+CAD:LANDING ZONE:BEVERLEY MANOR ELEMENTARY SCH:116 CEDAR GREEN RD:STEVENS LN:PARKERSBURG TPKE
+***************************************************************************
 Henrey County, VA (VAHenryCountyParser)
 (CAD Call) 2010094339\nR2-(1) DIFFICULTY BREATHING\n999 MORGAN FORD RD RIDGEWAY
 (CAD Call) 2010094406\nRFA-(3) FALL / FRACTURE\n247 DEVONSHIRE DR RIDGEWAY\nALTERED MENTAL STATUS
@@ -1388,42 +1393,6 @@ Sender: bhvfd14@gmail.com
 **********************************************************
 **********************************************************
 **********************************************************
-Agusta County, VA
-Contact: Josh Sprouse <firemedic1812@gmail.com>
-Contact: Christopher Botkin <botkincs@gmail.com>
-Sender:cad@co.augusta.va.us
-CAD: Chest Pain:81 Fountain Cave RD:RT 605 - Wonderly / 10203: Cave Hill LN:Rockfish RD
-CAD: OB EMERGENCY:WEYERS CAVE SHELL/ TEXACO:149 WEYERS CAVE RD:P O BOX 184:TRIANGLE DR:SR 222:CNTY-1
-CAD:LANDING ZONE:BEVERLEY MANOR ELEMENTARY SCH:116 CEDAR GREEN RD:STEVENS LN:PARKERSBURG TPKE
-CAD:AUTOMOBILE ACCIDENT:1519 PARKERSBURG TPKE:159-03:NUCKOLES LN:EIDSON HILL LN:CNTY-2
-CAD:CONTROL BURN INVESTIGATION:300-BLK TRINITY POINT RD:PARKERSBURG TPKE:MILLERS HOLLOW LN:CNTY-2
-CAD:AUTOMOBILE ACCIDENT:3426 MORRIS MILL RD:AREA OF:GALLOPING HILLS RD:SHELLEY LN
-CAD:ELECTRICAL FIRE - DLOC:135 CRAWFORD DR:CRAWFORD MANOR - 11104:MADISON DR:WAYBURN ST:CNTY-
-CAD:CONTROL BURN INVESTIGATION:3445 OLD GREENVILLE RD:RT 613 / 245-04:GLORY LN:CHESTNUT RIDGE RD:CNTY-2
-CAD:AUTOMOBILE ACCIDENT:I81NB AREA MM 217.9
-
-Ignore address fields starting with P O or PO
-nnnnn or nnn-nn is a map number.  Ignore anything else in that fild
-
-Good afternoon, my name is Christopher Botkin and I am a volunteer
-firefighter for Swoope Volunteer Fire Company and Riverheads Volunteer Fire
-Company in Augusta County, VA. I heard about your Android app from a fellow
-firefighter that works for the City of Waynesboro and went ahead and
-downloaded it from the market. YOUR APP IS AMAZING!!! I would just like to
-help you guys in getting Augusta County properly set up to where it works as
-efficiently and correctly as possible.  Below are a few of the text messages
-that I've received from the CAD before I downloaded your app.  As you can
-see the first part of the message is the location of the incident. That is
-either followed by a MAP PAGE or if a map page is unnavailable it goes
-directly to cross streets. Sometimes if the message isnt too long it will
-tell us the operational frequency (i.e. CNTY-2).  Hope this helps in getting
-your amazing app working for Augusta County, VA.  If you need anything else,
-do not hesitate to ask.
-
-The towns that show up are troy, biscoe, Mt. Gilead, star, new london,
-candor, and seagrove just let me know when it is available thanks for all u
-do and your patients
-
 **********************************************************
 Ostego County, NY
 Contact: Jeremy Preston <jeremypreston911@gmail.com>
@@ -1601,6 +1570,11 @@ JWHITAKER:201107575 644 BISCOE RD TROY FIRE ALARM tommy and debbie honeycutt,gen
 gen burg,no contact on premise,audible:2of2
 
 JWHITAKER:201107593 468 EAST MAIN ST CANDOR FIRE ALARM plant 28,riser 1 water flow
+
+The towns that show up are troy, biscoe, Mt. Gilead, star, new london,
+candor, and seagrove just let me know when it is available thanks for all u
+do and your patients
+
 **********************************************************
 East Rockaway, NY (in Nassau County)
 Contact: Tommy Johnson <tjohnson377.tj@gmail.com>
