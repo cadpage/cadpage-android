@@ -348,8 +348,8 @@ public class SmsMmsMessage implements Serializable {
                 skipBreak = false;
               }
             }
-            int len = sb.length()-5;
-            if (len >= 0 && sb.substring(len).equals("(End)")) sb.setLength(len);
+            trimLast(sb, "(End)");
+            trimLast(sb, "\nMore?");
             body = sb.toString().trim();
             break;
           }
@@ -453,6 +453,12 @@ public class SmsMmsMessage implements Serializable {
     }
     
     parseMessageBody = body.substring(pt1);
+  }
+  
+  private void trimLast(StringBuilder sb, String endCode) {
+    int len = sb.length()-endCode.length();
+    if (len < 0) return;
+    if (sb.substring(len).equals(endCode)) sb.setLength(len);
   }
   
   public void addSubject(String subject) {
