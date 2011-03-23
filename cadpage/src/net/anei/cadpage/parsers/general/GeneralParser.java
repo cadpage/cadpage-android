@@ -13,7 +13,8 @@ public class GeneralParser extends SmartAddressParser {
   
   private static final Pattern DATE_PATTERN = Pattern.compile("\\b\\d\\d/\\d\\d/\\d\\d(\\d\\d)?\\b");
   private static final Pattern TIME_PATTERN = Pattern.compile("\\b\\d\\d:\\d\\d\\b");
-  private static final Pattern DELIM_PATTERN = Pattern.compile(";|,|\\*|\\n|\\||\\b[A-Z][A-Za-z0-9-#]*:|\\bC/S:|\\b[A-Z][A-Za-z]*#");
+  private static final String DELIM_PATTERN_STR = ";|,|\\*|\\n|\\||\\b[A-Z][A-Za-z0-9-#]*:|\\bC/S:|\\b[A-Z][A-Za-z]*#";
+  private static Pattern DELIM_PATTERN; // will be filled in by constructor
   private static final Pattern CALL_ID_PATTERN = Pattern.compile("\\d[\\d-]+\\d");
   private static final Pattern UNIT_PATTERN = Pattern.compile("([A-Z]{1,4}[0-9]{1,4}\\s+)+");
   
@@ -22,9 +23,25 @@ public class GeneralParser extends SmartAddressParser {
   
   // Map of keywords to field types
   private Map<String, FieldType> keywordMap = new HashMap<String, FieldType>();
-  
+
+  /**
+   * Default constructor
+   */
   public GeneralParser() {
+    this(null);
+  }
+  
+  /**
+   * This constructor adds an individual delimiter to the regular delimiter pattern
+   * @param delim Special delimiter
+   */
+  public GeneralParser(String delim) {
     super("","");
+    
+    // Set up delimiter pattern
+    String delimPattern = DELIM_PATTERN_STR;
+    if (delim != null) delimPattern = delim + "|" + delimPattern;
+    DELIM_PATTERN = Pattern.compile(delimPattern);
     
     // Initialize keyword map
     loadMap(FieldType.SKIP, "TIME", "TOA", "DATE", "TM", "TOC");
@@ -33,7 +50,7 @@ public class GeneralParser extends SmartAddressParser {
     loadMap(FieldType.ADDRESS, "ADDRESS", "LOC", "ADDR", "AD", "ADR", "ADD", "LOCATION");
     loadMap(FieldType.CITY, "CITY", "CTY", "VENUE", "VEN");
     loadMap(FieldType.APT, "APT", "BLDG", "BLD");
-    loadMap(FieldType.CROSS, "CROSS", "X", "XS", "XST", "XST2", "X-ST", "C/S", "CS", "BTWN");
+    loadMap(FieldType.CROSS, "CROSS", "X", "XS", "XST", "XST2", "X-ST", "C/S", "CS", "BTWN", "STS");
     loadMap(FieldType.BOX, "BOX", "BX", "ADC");
     loadMap(FieldType.UNIT, "UNIT", "UNITS", "RESPONSE", "DUE", "UNTS", "UNT");
     loadMap(FieldType.MAP, "MAP", "GRID", "GRIDS", "QUADRANT", "QUAD");
@@ -68,6 +85,7 @@ public class GeneralParser extends SmartAddressParser {
     // that match DELIM_PATTERN
     Matcher match = DELIM_PATTERN.matcher(body);
     String nextDelim = "";
+    FieldType nextType = null;
     int pt = 0;
 
     String last = null;
@@ -82,13 +100,25 @@ public class GeneralParser extends SmartAddressParser {
       
       // Parse the next field
       String delim = nextDelim;
+      FieldType type = nextType;
+      
       String fld;
       if (match.find(pt)) {
-        nextDelim = body.substring(match.start(), match.end());
+        nextDelim = match.group();
         fld = body.substring(pt, match.start());
         pt = match.end();
+        
+        // Check delimiter to see if this is something we recognize?
+        if (nextDelim.endsWith(":")) {
+          nextType = keywordMap.get(nextDelim.substring(0, nextDelim.length()-1).toUpperCase());
+        } else if (nextDelim.endsWith("#")) {
+          nextType = FieldType.ID;
+        } else {
+          nextType = null;
+        }
       } else {
         nextDelim = null;
+        nextType = null;
         fld = body.substring(pt);
       }
       fld = fld.trim();
@@ -99,13 +129,9 @@ public class GeneralParser extends SmartAddressParser {
       // If zero length field, nothing to worry about
       if (fld.length() == 0) continue;
       
-      // Check delimiter to see if this is something we recognize?
-      FieldType type = null;
-      if (delim.endsWith(":")) {
-        type = keywordMap.get(delim.substring(0, delim.length()-1).toUpperCase());
-      } else if (delim.endsWith("#")) {
-        type = FieldType.ID;
-      }
+      // If field has a value of "CROSS" and the next delimiter is a cross
+      // street delimiter, ignore it
+      if (fld.equalsIgnoreCase("CROSS") && nextType == FieldType.CROSS) continue; 
       
       // If we have found a recognizable keyword, assign this field to that keyword value
       if (type != null) {

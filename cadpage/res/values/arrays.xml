@@ -228,6 +228,7 @@
   <string-array name="pref_location_values">
     <item>General</item>
     <item>GeneralSlash</item>
+    <item>GeneralDash</item>
     <item>ALMadisonCounty</item>
     <item>CAShastaCounty</item>
     <item>CASonomaCounty</item>
@@ -371,7 +372,8 @@
   
   <string-array name="pref_location_options">
     <item>Generic Location</item>
-    <item>Generic (slash delim)</item>
+    <item>Generic (slash field separator)</item>
+    <item>Generic (dash field separator)</item>
     <item>Madison County, AL</item>
     <item>Shasta County, CA</item>
     <item>Sonoma County, CA</item>
