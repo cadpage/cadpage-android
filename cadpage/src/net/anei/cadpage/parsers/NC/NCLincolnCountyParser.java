@@ -27,7 +27,7 @@ public class NCLincolnCountyParser extends DispatchOSSIParser {
   
   public NCLincolnCountyParser() {
     super("LINCOLN COUNTY", "NC",
-           "ID: ( CODE | SRC ID CODE?) CALL ADDR PLACE? X X? INFO+");
+           "ID: SRC ID? CODE? CALL ADDR PLACE? X X? INFO+");
   }
   
   @Override
@@ -42,18 +42,28 @@ public class NCLincolnCountyParser extends DispatchOSSIParser {
     // description has dashes, which we are going to use a field separators
     // Easy solution is to just get rid of it.
     body = CODE_PTN.matcher(body).replaceFirst("");
+    
+    // Change dashes to regular semicolon field separators
+    body = body.replace('-', ';');
     if (! super.parseMsg(body, data)) return false;
     return true;
   }
   
+  private class MyIdField extends IdField {
+    public MyIdField() {
+      setPattern(Pattern.compile("\\d{9}"));
+    }
+  }
+  
   private class MyCodeField extends CodeField {
     public MyCodeField() {
-      setPattern(Pattern.compile("\\d{2}[A-Z]\\d{2}"));
+      setPattern(Pattern.compile("\\d{2}[A-Z]\\d{2}[A-Z]?"));
     }
   }
   
   @Override
   protected Field getField(String name) {
+    if (name.equals("ID")) return new MyIdField();
     if (name.equals("CODE")) return new MyCodeField();
     return super.getField(name);
   }
