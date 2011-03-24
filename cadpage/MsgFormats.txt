@@ -605,6 +605,10 @@ CAD:OPS5;CLD;52C02C;CARBON MONOXIDE ALARM;70 MYSTICAL CT;(S)JORDAN RIDGE (N);GAL
 CAD:CLDFR;CLD;17B01G;INJURED PERSON;104 LAKEVIEW CT;(S)SOUTH RIDGE (N);SOUTH RIDGE DR;DOBERT, HENRY;12/28/2010 11:00:58;CLDR1
 CAD:OPS;CLD;10C02;CHEST PAINS;643 BIG PINE RD;PEACE LN;GOVERNMENT RD;ESTERLENE MILLER;02/09/2011 15:21:31;CLDR2
 ***************************************************************************
+Mecklenburg County, NC
+Subject:Text Page\n18758 Silver Quay Dr                                                  Charlie                       17- Falls/Back injur
+Subject:Text Page\n19485 Old Jetton Rd           ste 100   Lakeside Familty Physicians anDelta                         31- Unconsciousness/
+***************************************************************************
 Montgomery County, NC (NCMontgomeryCountyParser)
 SDUNN:201107504 105 WHITE TAIL RUN MT GILEAD MAN WITH A GUN jeremy collins is there arguing/ has a gun/subject is in the yard
 JWHITAKER:106 EAST ALLENTON ST MT GILEAD STATION 2 PAGE 201107494 16:44:24 station 2 will be having cpr class at 7 on Monday the 28th
@@ -1246,26 +1250,6 @@ problem>-<Address>-<Business name>-<Cross St 1>-<Cross St 2>
 
 1873:CAD:JLFD-201101315-52C03U-ALARMS FOR FIRE-888 OPTIMIST CLUB RD-WOODMONT CARE CENTER-FORNEY CREEK PKWY-WOODS LN-[Fire Priority Info] RESPONSE: Charlie RESPONDER SCRIPT: Alarms. COMMERCIAL structure (Unknown).Caller Statement: FIRE ALARM . 1.The caller is an alarm
 ***************************************************************************
-Mecklenburg County, NC ($20)
-Contact: Rick <very.orange@gmail.com>
-Sender: paging@rcsepager.com
-System: TriTech VisiCAD
-Need some spacing info in samples (3/5/11)
-
-- *19815 North Cove Rd *        Harris Teeter - Jetton VillageFire -  Emergency        52F-Alarm-FIRE               *Old Jetton Rd/East Battery St*    CORF2     Map - 237237/H4 03162010-040
-- 19822 Oak Leaf Cr             Charlie                                                17-Falls/Back injury(traumtc)Smith Cr/Floral Ln                 CORR1     Map - 238238/B4 03162010-205
-- 19485 Old Jetton Rd           100       Lakeside Familty Physicians/ Charlie         19- Heart problems           *North Cove Rd/West Catawba Av  *  CORR1     Map - 237237/H4 03162010-245
-- 19901 Holiday Ln              DAYS Inn/SMOKE N' GUNS BAR & GDelta                    31- Unconsciousness/Fainting *Sterling Bay Ln East/Catawba Av*  CORR1     Map - 238238/A3 03142010-313
-- 9807 Forsberg Ct              Charlie                                                10- Chest Pain               Ruffner Dr/Ruffner Dr              CORR4     Map - 238238/C6 03152010-177
-
-Contact: Curtis Eberspacher <curtis.e.eberspacher@gmail.com>
-02172011-337     Received:  18:16    Assigned:  18:16    Enroute:   18:17
-Arrived:   18:20    Pt Contact:         Can
-
-Subject:Text Page\n18758 Silver Quay Dr                                                  Charlie                       17- Falls/Back injur
-Subject:Text Page\n03172011-073     Received:  08:42    Assigned:  08:43    Enroute:   08:45    Arrived:   08:48    Pt Contact:         Can
-Subject:Text Page\n19485 Old Jetton Rd           ste 100   Lakeside Familty Physicians anDelta                         31- Unconsciousness/
-Subject:Text Page\n03172011-239     Received:  16:59    Assigned:  16:59    Enroute:   17:01    Arrived:   17:02    Pt Contact:         Can
 **********************************************************
 Brunswick County, NC
 Contact: Tom Rogers <tomrogers2@gmail.com
