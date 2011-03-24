@@ -4,7 +4,7 @@ import net.anei.cadpage.SmsMsgInfo.Data;
 import net.anei.cadpage.parsers.SmsMsgParser;
 
 /*
- East Rockaway, NY (in Nassau County)
+Nassau County, NY (version B)
 Contact: Tommy Johnson <tjohnson377.tj@gmail.com>
 Sender: paging@alpinesoftware.com
 

@@ -6,7 +6,7 @@ import net.anei.cadpage.SmsMsgInfo.Data;
 import net.anei.cadpage.parsers.SmartAddressParser;
 
 /*
-Nassau County, NY
+Nassau County, NY (Version A)
 Contact: "rhfd48@optonline.net" <rhfd48@optonline.net>
 Contact: 5163697556@vtext.com
 Contact: Jeff Laureano  516-369-7556
