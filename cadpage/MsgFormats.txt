@@ -867,229 +867,11 @@ a page.  If there is anything I can influence to make things easier let me
 know. I will contact our paging provider to make these adjustments. We use 
 Logisys CAD which sends a message to MIS Scienes. MIS Sciences are the 
 people who send out our paging for us.
-**********************************************************
-Burlington County, NJ
-Contact: Jerseyfirefighter@gmail.com
-Sender: HSPROWL@co.burlington.nj.us
-
-Sample TXTs (1 alert is broke into 2 txt):
----1---
-.... (Station 171) : 1  : 628 AVENUE
-D                                         Venue: Southamptn  Located
-Between  : FRONT ST/AVENUE RD Call Time- 08:48:16
----1---
----2---
-: 1720 : (609) 442-5407 Caller :  JACKIE TALLON Nature of Call : 79YO F//
-NOT RESPONDING.. =NEG RESP Additional Inc#s
----2---
-
-\27s: 1720 : (609) 442-5407\16sCaller :\2sJACKIE TALLON Nature of Call
-: 79YO F// NOT RESPONDING.. =NEG RESP Additional Inc#s
-
-
-EMAIL version
- 
-Incident Number  : 2011-00000034                    ORI: 03172         Station:  
-Incident Type  . : FIRE F Fire Call            Priority: 1  
-Incident Location: 113 S PLYMOUTH CT                                    Venue: Southamptn  
-Located Between  : HUNTINGTON DR/DEAD END 
-
-Call Time- 23:02:31                                Date- 02/05/2011  
-Dispatch - 23:03:41     En-route-              On-scene-              Depart 1-  
-Arrive 2 -              Depart 2-              In-statn- 
-
-Area: 1700              Section :    1         Beat  . : 1790        Map . . :  
-Grid:  M19              Quadrant: 1724         District: 1724 
-
-Phone Number: (609) 584-3000                Call Source:  TEL 
-
-Caller. . . : NJSP OP 8912 
-
-Units sent  :  
- 03171       F171                 03172       F172 
-
-Nature of Call : FIRE ALARM ACTIVATED/NOTHING IN EVIDENCE 
-
-Additional Inc#s:  
- 03171       201100000045 
-
-The Call Taker is HARRIS THOMAS  
-The Dispatcher is SCHROEDER DUSTIN
-
-
-Incident Number  : 2011-00000120                    ORI: E179
- Station:
-Incident Type  . :  EMS E EMS Call             Priority: 1
-Incident Location: NEWBOLDS CORNER RD
-Venue: Southamptn
- Cross Street . : MAIN ST
-
-Call Time- 17:14:48                                Date- 02/03/2011
-Dispatch - 17:16:24     En-route-              On-scene-              Depart
-1-
-Arrive 2 -              Depart 2-              In-statn-
-
-Area: 1700              Section :    1         Beat  . : 1790        Map . .
-:
-Grid:  M13              Quadrant: 1700         District: 1700
-
-Phone Number: (732) 740-6088                Call Source:  911
-
-Caller. . . : DARA SCHWANK
-
-Units sent  :
- 03171       F1712                E178        E1782
- E179        E179                 03431       F4300
-
-Nature of Call : MVA/CALLER CAN"T GET OUT OF CAR/BREATHING DIF
-
-Additional Info
- WPH2:  RADIUS 02 MILES
-
-Address Checks
-
-Additional Inc#s:
- E178        201100000117             03171       201100000041
- 03431       201100000033
-
-The Call Taker is MILLER ROCHELLE Y
-The Dispatcher is BRIGGS KEVIN S
-
-
-Incident Number  : 2011-00000034                    ORI: 03171
-Station:
-Incident Type  . : FIRE F Fire Call            Priority: 1
-Incident Location: 716 SMITHVILLE RD
- Venue: Southamptn
-Located Between  : RT38/EASTAMPTON TWP LINE
-
-Call Time- 23:57:44                                Date- 01/26/2011
-Dispatch -              En-route-              On-scene-              Depart
-1-
-Arrive 2 -              Depart 2-              In-statn-
-
-Area: 1700              Section :    1         Beat  . : 1790        Map . .
-:
-Grid:  N12              Quadrant: 1711         District: 1711
-
-Phone Number: (609) 351-9047                Call Source:  911
-
-Caller. . . : DARLENE COBBS
-
-Nature of Call : CO DETECTOR KEEPS ACTIVATING
-
-Additional Info
- WPH1:  RADIUS 02 MILES
-
-Additional Inc#s:
-
-The Call Taker is ENDRES DONNA M
-The Dispatcher is SCHROEDER DUSTIN
-
-
-Incident Number  : 2011-00000011                    ORI: 03371
-Station:
-Incident Type  . : FIRE F Fire Call            Priority: 1
-Incident Location: LENAPE TR
- Venue: MedfordLks
- Cross Street . : STOKES RD
-
-Call Time- 19:37:17                                Date- 01/15/2011
-Dispatch - 19:38:43     En-route-              On-scene-              Depart
-1-
-Arrive 2 -              Depart 2-              In-statn-
-
-Area: 3702              Section :   29         Beat  . : 3700        Map . .
-:
-Grid:  G17              Quadrant: 3711         District: 3711
-
-Phone Number: (856) 905-3024                Call Source:  911
-
-Caller. . . : TRICIA
-
-Units sent  :
- 03250       F251                 03250       F252
- 03171       F1712                03281       F281
- 03371       F3711                E379        E379
- 03431       F431
-
-Nature of Call : ALOT OF SMOKE COMING OUT OF A HOUSE
-
-Additional Info
- WPH2:  RADIUS 02 MILES
- THAT IS BETWEEN STOKES AND TUCKERTON
-
-Address Checks
-
-Additional Inc#s:
- E379        201100000010             03171       201100000017
- 03250       201100000037             03281       201100000013
- 03431       201100000016
-
-The Call Taker is MIAL DORINDA R
-The Dispatcher is SCAFIRO MICHAEL J
-
-
-Incident Number  : 2011-00000040                    ORI: E178
- Station:
-Incident Type  . :  EMS E EMS Call             Priority: 1
-Incident Location: RT70
-Venue: Southamptn
- Cross Street . : HUNTINGTON DR
-
-Call Time- 08:26:03                                Date- 01/13/2011
-Dispatch - 08:26:31     En-route-              On-scene-              Depart
-1-
-Arrive 2 -              Depart 2-              In-statn-
-
-Area: 1700              Section :    1         Beat  . : 1790        Map . .
-:
-Grid:  L19              Quadrant: 1720         District: 1720
-
-Phone Number: (856) 816-7418                Call Source:  TEL
-
-Caller. . . : TIKE CHRIS
-
-Units sent  :
- 03171       F1712                03172       F172
- E178        E178                 E179        E179
-
-Nature of Call : VEH HIT TREE W/UNKNWN INJS
-
-Address Checks
-
-Additional Inc#s:
- E179        201100000041             03171       201100000011
- 03172       201100000007
-
-The Call Taker is HENCKEN DEBBIE A
-The Dispatcher is WECKENBROCK MICHAEL G
 ***************************************************************************
 ***************************************************************************
 ************** Request holding for one thing or another *******************
 ***************************************************************************
 ***************************************************************************
-***************************************************************************
-Mecklenburg County, NC ($20)
-Contact: Rick <very.orange@gmail.com>
-Sender: paging@rcsepager.com
-System: TriTech VisiCAD
-Need some spacing info in samples (3/5/11)
-
-- *19815 North Cove Rd *        Harris Teeter - Jetton VillageFire -  Emergency        52F-Alarm-FIRE               *Old Jetton Rd/East Battery St*    CORF2     Map - 237237/H4 03162010-040
-- 19822 Oak Leaf Cr             Charlie                                                17-Falls/Back injury(traumtc)Smith Cr/Floral Ln                 CORR1     Map - 238238/B4 03162010-205
-- 19485 Old Jetton Rd           100       Lakeside Familty Physicians/ Charlie         19- Heart problems           *North Cove Rd/West Catawba Av  *  CORR1     Map - 237237/H4 03162010-245
-- 19901 Holiday Ln              DAYS Inn/SMOKE N' GUNS BAR & GDelta                    31- Unconsciousness/Fainting *Sterling Bay Ln East/Catawba Av*  CORR1     Map - 238238/A3 03142010-313
-- 9807 Forsberg Ct              Charlie                                                10- Chest Pain               Ruffner Dr/Ruffner Dr              CORR4     Map - 238238/C6 03152010-177
-
-Contact: Curtis Eberspacher <curtis.e.eberspacher@gmail.com>
-02172011-337     Received:  18:16    Assigned:  18:16    Enroute:   18:17
-Arrived:   18:20    Pt Contact:         Can
-
-Subject:Text Page\n18758 Silver Quay Dr                                                  Charlie                       17- Falls/Back injur
-Subject:Text Page\n03172011-073     Received:  08:42    Assigned:  08:43    Enroute:   08:45    Arrived:   08:48    Pt Contact:         Can
-Subject:Text Page\n19485 Old Jetton Rd           ste 100   Lakeside Familty Physicians anDelta                         31- Unconsciousness/
-Subject:Text Page\n03172011-239     Received:  16:59    Assigned:  16:59    Enroute:   17:01    Arrived:   17:02    Pt Contact:         Can
 ***************************************************************************
 Amityville Fider, NY (Class III) (Hold for more info)
 Need Amityville Fider and Babylon combo 
@@ -1463,6 +1245,27 @@ Mutual Aid Fire
 problem>-<Address>-<Business name>-<Cross St 1>-<Cross St 2>
 
 1873:CAD:JLFD-201101315-52C03U-ALARMS FOR FIRE-888 OPTIMIST CLUB RD-WOODMONT CARE CENTER-FORNEY CREEK PKWY-WOODS LN-[Fire Priority Info] RESPONSE: Charlie RESPONDER SCRIPT: Alarms. COMMERCIAL structure (Unknown).Caller Statement: FIRE ALARM . 1.The caller is an alarm
+***************************************************************************
+Mecklenburg County, NC ($20)
+Contact: Rick <very.orange@gmail.com>
+Sender: paging@rcsepager.com
+System: TriTech VisiCAD
+Need some spacing info in samples (3/5/11)
+
+- *19815 North Cove Rd *        Harris Teeter - Jetton VillageFire -  Emergency        52F-Alarm-FIRE               *Old Jetton Rd/East Battery St*    CORF2     Map - 237237/H4 03162010-040
+- 19822 Oak Leaf Cr             Charlie                                                17-Falls/Back injury(traumtc)Smith Cr/Floral Ln                 CORR1     Map - 238238/B4 03162010-205
+- 19485 Old Jetton Rd           100       Lakeside Familty Physicians/ Charlie         19- Heart problems           *North Cove Rd/West Catawba Av  *  CORR1     Map - 237237/H4 03162010-245
+- 19901 Holiday Ln              DAYS Inn/SMOKE N' GUNS BAR & GDelta                    31- Unconsciousness/Fainting *Sterling Bay Ln East/Catawba Av*  CORR1     Map - 238238/A3 03142010-313
+- 9807 Forsberg Ct              Charlie                                                10- Chest Pain               Ruffner Dr/Ruffner Dr              CORR4     Map - 238238/C6 03152010-177
+
+Contact: Curtis Eberspacher <curtis.e.eberspacher@gmail.com>
+02172011-337     Received:  18:16    Assigned:  18:16    Enroute:   18:17
+Arrived:   18:20    Pt Contact:         Can
+
+Subject:Text Page\n18758 Silver Quay Dr                                                  Charlie                       17- Falls/Back injur
+Subject:Text Page\n03172011-073     Received:  08:42    Assigned:  08:43    Enroute:   08:45    Arrived:   08:48    Pt Contact:         Can
+Subject:Text Page\n19485 Old Jetton Rd           ste 100   Lakeside Familty Physicians anDelta                         31- Unconsciousness/
+Subject:Text Page\n03172011-239     Received:  16:59    Assigned:  16:59    Enroute:   17:01    Arrived:   17:02    Pt Contact:         Can
 **********************************************************
 Brunswick County, NC
 Contact: Tom Rogers <tomrogers2@gmail.com
@@ -1474,6 +1277,203 @@ MSG:\n
 349:560 CUMBERLAND ST SE BOLIVIA MDL 09B01 11-020650 17:02:34 Cardiac or Respiratiory Arrest / Death\n
 (Con't) 2 of 2\n
 RECV CALL FROM FUNERAL HOME ADVING THAT THEY RECV CALL STATING A FEMALE WAS DEAD AT THIS LOCATION AD(End)
+**********************************************************
+Burlington County, NJ
+Contact: Jerseyfirefighter@gmail.com
+Sender: HSPROWL@co.burlington.nj.us
+
+Sample TXTs (1 alert is broke into 2 txt):
+---1---
+.... (Station 171) : 1  : 628 AVENUE
+D                                         Venue: Southamptn  Located
+Between  : FRONT ST/AVENUE RD Call Time- 08:48:16
+---1---
+---2---
+: 1720 : (609) 442-5407 Caller :  JACKIE TALLON Nature of Call : 79YO F//
+NOT RESPONDING.. =NEG RESP Additional Inc#s
+---2---
+
+\27s: 1720 : (609) 442-5407\16sCaller :\2sJACKIE TALLON Nature of Call
+: 79YO F// NOT RESPONDING.. =NEG RESP Additional Inc#s
+
+
+EMAIL version
+ 
+Incident Number  : 2011-00000034                    ORI: 03172         Station:  
+Incident Type  . : FIRE F Fire Call            Priority: 1  
+Incident Location: 113 S PLYMOUTH CT                                    Venue: Southamptn  
+Located Between  : HUNTINGTON DR/DEAD END 
+
+Call Time- 23:02:31                                Date- 02/05/2011  
+Dispatch - 23:03:41     En-route-              On-scene-              Depart 1-  
+Arrive 2 -              Depart 2-              In-statn- 
+
+Area: 1700              Section :    1         Beat  . : 1790        Map . . :  
+Grid:  M19              Quadrant: 1724         District: 1724 
+
+Phone Number: (609) 584-3000                Call Source:  TEL 
+
+Caller. . . : NJSP OP 8912 
+
+Units sent  :  
+ 03171       F171                 03172       F172 
+
+Nature of Call : FIRE ALARM ACTIVATED/NOTHING IN EVIDENCE 
+
+Additional Inc#s:  
+ 03171       201100000045 
+
+The Call Taker is HARRIS THOMAS  
+The Dispatcher is SCHROEDER DUSTIN
+
+
+Incident Number  : 2011-00000120                    ORI: E179
+ Station:
+Incident Type  . :  EMS E EMS Call             Priority: 1
+Incident Location: NEWBOLDS CORNER RD
+Venue: Southamptn
+ Cross Street . : MAIN ST
+
+Call Time- 17:14:48                                Date- 02/03/2011
+Dispatch - 17:16:24     En-route-              On-scene-              Depart
+1-
+Arrive 2 -              Depart 2-              In-statn-
+
+Area: 1700              Section :    1         Beat  . : 1790        Map . .
+:
+Grid:  M13              Quadrant: 1700         District: 1700
+
+Phone Number: (732) 740-6088                Call Source:  911
+
+Caller. . . : DARA SCHWANK
+
+Units sent  :
+ 03171       F1712                E178        E1782
+ E179        E179                 03431       F4300
+
+Nature of Call : MVA/CALLER CAN"T GET OUT OF CAR/BREATHING DIF
+
+Additional Info
+ WPH2:  RADIUS 02 MILES
+
+Address Checks
+
+Additional Inc#s:
+ E178        201100000117             03171       201100000041
+ 03431       201100000033
+
+The Call Taker is MILLER ROCHELLE Y
+The Dispatcher is BRIGGS KEVIN S
+
+
+Incident Number  : 2011-00000034                    ORI: 03171
+Station:
+Incident Type  . : FIRE F Fire Call            Priority: 1
+Incident Location: 716 SMITHVILLE RD
+ Venue: Southamptn
+Located Between  : RT38/EASTAMPTON TWP LINE
+
+Call Time- 23:57:44                                Date- 01/26/2011
+Dispatch -              En-route-              On-scene-              Depart
+1-
+Arrive 2 -              Depart 2-              In-statn-
+
+Area: 1700              Section :    1         Beat  . : 1790        Map . .
+:
+Grid:  N12              Quadrant: 1711         District: 1711
+
+Phone Number: (609) 351-9047                Call Source:  911
+
+Caller. . . : DARLENE COBBS
+
+Nature of Call : CO DETECTOR KEEPS ACTIVATING
+
+Additional Info
+ WPH1:  RADIUS 02 MILES
+
+Additional Inc#s:
+
+The Call Taker is ENDRES DONNA M
+The Dispatcher is SCHROEDER DUSTIN
+
+
+Incident Number  : 2011-00000011                    ORI: 03371
+Station:
+Incident Type  . : FIRE F Fire Call            Priority: 1
+Incident Location: LENAPE TR
+ Venue: MedfordLks
+ Cross Street . : STOKES RD
+
+Call Time- 19:37:17                                Date- 01/15/2011
+Dispatch - 19:38:43     En-route-              On-scene-              Depart
+1-
+Arrive 2 -              Depart 2-              In-statn-
+
+Area: 3702              Section :   29         Beat  . : 3700        Map . .
+:
+Grid:  G17              Quadrant: 3711         District: 3711
+
+Phone Number: (856) 905-3024                Call Source:  911
+
+Caller. . . : TRICIA
+
+Units sent  :
+ 03250       F251                 03250       F252
+ 03171       F1712                03281       F281
+ 03371       F3711                E379        E379
+ 03431       F431
+
+Nature of Call : ALOT OF SMOKE COMING OUT OF A HOUSE
+
+Additional Info
+ WPH2:  RADIUS 02 MILES
+ THAT IS BETWEEN STOKES AND TUCKERTON
+
+Address Checks
+
+Additional Inc#s:
+ E379        201100000010             03171       201100000017
+ 03250       201100000037             03281       201100000013
+ 03431       201100000016
+
+The Call Taker is MIAL DORINDA R
+The Dispatcher is SCAFIRO MICHAEL J
+
+
+Incident Number  : 2011-00000040                    ORI: E178
+ Station:
+Incident Type  . :  EMS E EMS Call             Priority: 1
+Incident Location: RT70
+Venue: Southamptn
+ Cross Street . : HUNTINGTON DR
+
+Call Time- 08:26:03                                Date- 01/13/2011
+Dispatch - 08:26:31     En-route-              On-scene-              Depart
+1-
+Arrive 2 -              Depart 2-              In-statn-
+
+Area: 1700              Section :    1         Beat  . : 1790        Map . .
+:
+Grid:  L19              Quadrant: 1720         District: 1720
+
+Phone Number: (856) 816-7418                Call Source:  TEL
+
+Caller. . . : TIKE CHRIS
+
+Units sent  :
+ 03171       F1712                03172       F172
+ E178        E178                 E179        E179
+
+Nature of Call : VEH HIT TREE W/UNKNWN INJS
+
+Address Checks
+
+Additional Inc#s:
+ E179        201100000041             03171       201100000011
+ 03172       201100000007
+
+The Call Taker is HENCKEN DEBBIE A
+The Dispatcher is WECKENBROCK MICHAEL G
 **********************************************************
 Cy-Fair Volunteer FD (Harris County, TX)
 Contact: "Steven Lindsay" <steven@snl-ent.com>

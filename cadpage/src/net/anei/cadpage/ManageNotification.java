@@ -20,6 +20,8 @@ import android.text.SpannableString;
  * This class handles the Notifications (sounds/vibrate/LED)
  */
 public class ManageNotification {
+  
+  private static final int MAX_PLAYER_RETRIES = 4;
 
   private static final int NOTIFICATION_ALERT = 1337;
   
@@ -228,26 +230,7 @@ public class ManageNotification {
 
     if ( ManagePreferences.notifyOverride() || ManagePreferences.notifyEnabled()) { 
       if (ManagePreferences.notifyOverride()) {
-        if (Log.DEBUG){ Log.v("OVERRIDE ON: running own mediaplayer");}
-        if (mMediaPlayer == null) {
-          try {
-            mMediaPlayer = new MediaPlayer();
-            mMediaPlayer.setOnErrorListener(new OnErrorListener(){
-              @Override
-              public boolean onError(MediaPlayer mp, int what, int extra) {
-                throw new MediaFailureException("Media Player failure - what:" + what + " extra:" + extra);
-              }});
-            AssetFileDescriptor fd = context.getResources().openRawResourceFd(R.raw.generalquarter);
-            mMediaPlayer.setDataSource(fd.getFileDescriptor(), fd.getStartOffset(), fd.getLength());
-            mMediaPlayer.prepare();
-            mMediaPlayer.setAudioStreamType(AudioManager.STREAM_MUSIC);
-            mMediaPlayer.setLooping(true);
-            mMediaPlayer.setVolume(1.0f, 1.0f);
-            mMediaPlayer.start();
-          } catch (IOException ex) {
-            throw new MediaFailureException(ex.getMessage(), ex);
-          }
-        }
+        startMediaPlayer(context, 0);
       } else {	 
         notification.sound = alarmSoundURI;
       }
@@ -267,6 +250,76 @@ public class ManageNotification {
     
   }
 
+
+  /**
+   * Start up Media player to playoverride alert sound
+   * @param context current context
+   */
+  private synchronized static void startMediaPlayer(Context context, int startCnt) {
+    if (mMediaPlayer == null) {
+      try {
+        mMediaPlayer = new MediaPlayer();
+        MediaErrorListener listener = new MediaErrorListener(context, startCnt);
+        mMediaPlayer.setOnErrorListener(listener);
+        AssetFileDescriptor fd = context.getResources().openRawResourceFd(R.raw.generalquarter);
+        mMediaPlayer.setDataSource(fd.getFileDescriptor(), fd.getStartOffset(), fd.getLength());
+        mMediaPlayer.prepare();
+        mMediaPlayer.setAudioStreamType(AudioManager.STREAM_MUSIC);
+        mMediaPlayer.setLooping(true);
+        mMediaPlayer.setVolume(1.0f, 1.0f);
+        listener.arm();
+        mMediaPlayer.start();
+      } catch (IOException ex) {
+        throw new MediaFailureException(ex.getMessage(), ex);
+      }
+    }
+  }
+
+
+  /**
+   * Stop media player
+   */
+  private synchronized static void stopMediaPlayer() {
+    // Stop media player if running
+    if (mMediaPlayer != null) {
+      mMediaPlayer.stop();
+      mMediaPlayer.release();
+      mMediaPlayer = null;
+    }
+  }
+  
+  // Media error listener
+  // Our job is to shut down and restart the media play if it dies for some
+  // unknown reason.  
+  private static class MediaErrorListener implements OnErrorListener {
+    
+    private Context context;
+    private int startCnt;
+    private boolean armed = false;
+    
+    public MediaErrorListener(Context context, int startCnt) {
+      this.context = context;
+      this.startCnt = startCnt;
+    }
+    
+    public void arm() {
+      armed = true;
+    }
+
+    @Override
+    public boolean onError(MediaPlayer mp, int what, int extra) {
+      if (armed && what == MediaPlayer.MEDIA_ERROR_SERVER_DIED && startCnt < MAX_PLAYER_RETRIES) {
+        Log.e("Restarting Media Player");
+        stopMediaPlayer();
+        startMediaPlayer(context, startCnt+1);
+        return true;
+      }
+
+      throw new MediaFailureException("Media Player failure - what:" + what + " extra:" + extra + " cnt:" + startCnt);
+    }
+    
+  }
+
   // Clear a single notification
   public static void clear(Context context) {
 
@@ -277,12 +330,7 @@ public class ManageNotification {
       (NotificationManager) context.getSystemService(Context.NOTIFICATION_SERVICE);
     myNM.cancel(NOTIFICATION_ALERT);
     
-    // Stop media player if running
-    if (mMediaPlayer != null) {
-      mMediaPlayer.stop();
-      mMediaPlayer.release();
-      mMediaPlayer = null;
-    }
+    stopMediaPlayer();
   }
 
   /**
