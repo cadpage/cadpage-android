@@ -9,9 +9,7 @@ import net.anei.cadpage.parsers.SmsMsgParser;
 /*
 Montgomery County, MD
 Contact: Alain Pankopf <hockeylaxboy11@gmail.com>
-Sender: rc.355@c-msg.net 
-4 digit code is a box code
-Town codes are indecipherable, drop them
+Sender: rc.355@c-msg.net,alrt_36NG@mcen.montgomerycountymd.gov 
 
 MCo / [mCAD] * D * 2301 * BUILDING FIRE * 1620 E JEFFERSON ST ,RO * E723 E703 E721 E726 E705B AT723 AT703 RS703 A723 BC703 BC704 D3 D5 DFRS INV CEALRM CODE BCNOT
 MCo / [mCAD] * D * 0302 * BUILDING FIRE * 733 MONROE ST ,RO * E723 E733 E726 E725 E721 AT703 AT723 RS741B M723 BC703 BC704 D3 D5 DFRS INV CEALRM CODE BCNOT
@@ -35,7 +33,7 @@ public class MDMontgomeryCountyParser extends SmsMsgParser {
   }
   
 	public String getFilter() {
-		return "rc.355@c-msg.net,MC Emergency Network";
+		return "rc.355@c-msg.net,MC Emergency Network,alrt_36NG@mcen.montgomerycountymd.gov";
 	}
 	
 	@Override

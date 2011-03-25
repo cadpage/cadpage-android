@@ -452,7 +452,7 @@ public class SmsMmsMessage implements Serializable {
       if (pt2 >= body.length()) break;
     }
     
-    parseMessageBody = body.substring(pt1);
+    parseMessageBody = body.substring(pt1).trim();
   }
   
   private void trimLast(StringBuilder sb, String endCode) {
