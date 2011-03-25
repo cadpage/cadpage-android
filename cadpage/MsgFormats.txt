@@ -738,6 +738,11 @@ Cy Creek Comm Center, TX (TXCyCreekCommCenterParser)
 09/06 11:56 W HILLSIDE DR/EASTEX FRWY, ; Map:414D Sub: Nat:MA-MUTUAL AID / ASSIST AGENCY Units:E91 T81 T73 E-L19 X-St:EASTEX
 09/06 11:28 19707 WOOD WALK LN, ; Map:337U Sub:PINEHURST OF ATASCOCITA Nat:09E01-ARREST - NOT BREATHING Units:E-M19 E-M29 E-7900
 ***************************************************************************
+Manvel, TX (TXManvelParser)
+[ NEW CALL ]  MVFD\nALFIRE\n3403 SOUTHFORK PARKWAY\nMANVEL\n1103200011 12:50 PM
+[ NEW CALL ]  MVFD\nACCUNK\nS. MASTER / JUST PAST GATES LOOP\nMANVEL\n1102210022 5:25 PM
+[ NEW CALL ]  MVFD\nFIRE\n13508 AUTUMN ASH CT\nMANVEL\n1103030017 3:36 PM
+***************************************************************************
 Montgomery County, TX (TXMontgomeryCountyParser)
 [Fire CAD Message]  New Fire Run: 2010-63654,Nature: 12D02E-SEIZURE - Continuous or Multiple seizures,MR54,Location: 12246 TRAIL HOLLOW DR,Buildi
 [Fire CAD Message]  New Fire Run: 2010-63564,Nature: 19D04-HEART PROBLEMS - Clammy,MR51,Location: HIGHWAY 105 W & S FM 1486,Building: ,Cross: ,,G
@@ -1220,50 +1225,6 @@ Sender: bhvfd14@gmail.com
 **********************************************************
 **********************************************************
 **********************************************************
-Manvel, TX (In Brazoria County)
-Contact: John Aucoin <johnaucoin@sbcglobal.net>
-Sender: dispatch@manvelpd.org
-[ NEW CALL ]  MVFD
-ALFIRE
-3403 SOUTHFORK PARKWAY
-MANVEL
-1103200011 12:50 PM
-
- NEW CALL ]  MVFD
-ACCUNK
-S. MASTER / JUST PAST GATES LOOP
-MANVEL
-1102210022 5:25 PM
-
-[ NEW CALL ]  MVFD
-FIRE
-13508 AUTUMN ASH CT
-MANVEL
-1103030017 3:36 PM
-
-[ NEW CALL ]  MVFD
-FIRE
-10516 LEEDY RD
-MANVEL
-1103010018 6:21 PM
-
-[ NEW CALL ]  MVFD
-ALFIRE
-3602 BEHLER
-MANVEL
-1102230010 3:30 PM
-
-[ NEW CALL ]  MVFD
-FIRE
-815 CR 393
-MANVEL
-1102280014 2:47 PM
-
-[ NEW CALL ]  MVFD
-ACCUNK
-288/6
-MANVEL
-1102220014 12:04 PM
 **********************************************************
 Brunswick County, NC
 Contact: Tom Rogers <tomrogers2@gmail.com
