@@ -2,6 +2,7 @@ package net.anei.cadpage.parsers.PA;
 
 import net.anei.cadpage.parsers.BaseParserTest;
 
+import org.junit.Before;
 import org.junit.Test;
 
 
@@ -9,6 +10,11 @@ public class PAChesterCountyBParserTest extends BaseParserTest {
   
   public PAChesterCountyBParserTest() {
     setParser(new PAChesterCountyBParser(), "CHESTER COUNTY", "PA");
+  }
+  
+  @Before
+  public void setup() {
+    setParser(new PAChesterCountyParser());
   }
   
   @Test
@@ -54,8 +60,8 @@ public class PAChesterCountyBParserTest extends BaseParserTest {
 
     doTest("T5",
         "[Update]\nSMOKE / ODOR INVEST (OUTSIDE)\nRT 41 / RT 841\nLGROVE\nHEAVY SMOKE CONDITION IN THE AREA - UNK WHAT'S IT'S ACTUALLY COMING FROM\n02/16/2011\n02:18\nROCHESTER, RANDOLF\n717-468-8174",
-        "ADDR:SMOKE & ODOR INVEST (OUTSIDE)",
-        "X:RT 41 / RT 841",
+        "CALL:SMOKE / ODOR INVEST (OUTSIDE)",
+        "ADDR:RT 41 & RT 841",
         "INFO:HEAVY SMOKE CONDITION IN THE AREA - UNK WHAT'S IT'S ACTUALLY COMING FROM",
         "CITY:LONDON GROVE TWP",
         "NAME:ROCHESTER, RANDOLF",

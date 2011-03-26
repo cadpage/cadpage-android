@@ -31,6 +31,10 @@ public abstract class BaseParserTest {
     this.defState = defState;
   }
   
+  public void setParser(SmsMsgParser parser) {
+    this.parser = parser;
+  }
+  
   public void setDefaults(String defCity, String defState) {
     this.defCity = defCity;
     this.defState = defState;

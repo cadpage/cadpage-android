@@ -1,15 +1,20 @@
 package net.anei.cadpage.parsers.PA;
 
 import net.anei.cadpage.parsers.BaseParserTest;
-import net.anei.cadpage.parsers.PA.PAChesterCountyParser;
 
+import org.junit.Before;
 import org.junit.Test;
 
 
 public class PAChesterCountyAParserTest extends BaseParserTest {
   
   public PAChesterCountyAParserTest() {
-    setParser(new PAChesterCountyParser(), "CHESTER COUNTY", "PA");
+    setParser(new PAChesterCountyAParser(), "CHESTER COUNTY", "PA");
+  }
+  
+  @Before
+  public void setup() {
+    setParser(new PAChesterCountyParser());
   }
   
   @Test
