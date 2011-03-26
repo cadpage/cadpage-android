@@ -21,11 +21,11 @@ Sender; Dispatcher@safety-center.org
 public class OHNECCParser extends FieldProgramParser {
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
-      "BLUE", "BLUE ASH",
-      "DFTP", "DEERFIELD TWP",
+      "BLUE",  "BLUE ASH",
+      "DFTP",  "DEERFIELD TWP",
       "LV",    "LOVELAND",
-      "MASO", "MASON",
-      "SHRN", "SHARONVILE",
+      "MASO",  "MASON",
+      "SHRN",  "SHARONVILE",
       "SY",    "SYMMES",
       "SYCMTP","SYCAMORE TWP"
   });
