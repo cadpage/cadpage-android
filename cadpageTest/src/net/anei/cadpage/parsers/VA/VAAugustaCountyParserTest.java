@@ -81,6 +81,16 @@ public class VAAugustaCountyParserTest extends BaseParserTest {
         "PLACE:AREA MM 217.9");
   }
   
+  @Test
+  public void testFixLater() {
+
+    doTest("T10",
+        "CAD:AUTOMOBILE ACCIDENT:I81NB AREA MM 217.9",
+        "CALL:AUTOMOBILE ACCIDENT",
+        "ADDR:I-81 PLACE:AREA MM 217.9");
+    
+  }
+  
   public static void main(String[] args) {
     new VAAugustaCountyParserTest().generateTests("T1");
   }

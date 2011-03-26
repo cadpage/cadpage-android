@@ -47,6 +47,12 @@ public class TXNassauBayParserTest extends BaseParserTest {
         "CALL:ASSIST BY FIRE",
         "ADDR:3000 E NASA PKWY",
         "INFO:boat");
+
+    doTest("T6",
+        ":CAD:FYI: ;NBFD;VEHICLE FIRE;18100 UPPER BAY RD;NB;NB;03/26/2011 13:36:15",
+        "SRC:NBFD",
+        "CALL:VEHICLE FIRE",
+        "ADDR:18100 UPPER BAY RD");
  }
   
   public static void main(String[] args) {
