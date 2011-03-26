@@ -50,6 +50,6 @@ public class TXNassauBayParserTest extends BaseParserTest {
  }
   
   public static void main(String[] args) {
-    new TXNassauBayParserTest().generateTests("T1");
+    new TXNassauBayParserTest().generateTests("T6");
   }
 }
