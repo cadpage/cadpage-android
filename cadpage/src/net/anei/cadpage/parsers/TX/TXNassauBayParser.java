@@ -16,13 +16,13 @@ Sender: cad@ossicadpaging
 41:CAD:FYI: ;NBFD;ACCIDENT MAJOR;NASA PKWY/ST JOHN BLVD;HO;NB;01/18/2011 12:53:59
 CAD:FYI: ;NBFD;UNCONSCIOUS;1427 SAXONY LN;NB;NB;03/06/2011 14:30:40;female down in bathroom [03/06/11 14:30:28 DCOOLEY]
 CAD:FYI: ;NBFD;ASSIST BY FIRE;3000 E NASA PKWY;SB;03/06/2011 15:38:43;boat [03/06/11 15:35:58 DCOOLEY]
-CAD:FYI: ;NBFD;VEHICLE FIRE;18100 UPPER BAY RD;NB;NB;03/26/2011 13:36:15
+:CAD:FYI: ;NBFD;VEHICLE FIRE;18100 UPPER BAY RD;NB;NB;03/26/2011 13:36:15
 
  */
 
 public class TXNassauBayParser extends DispatchOSSIParser {
   
-  private static final Pattern PREFIX = Pattern.compile("^\\d+:");
+  private static final Pattern PREFIX = Pattern.compile("^\\d*:");
   
   public TXNassauBayParser() {
     super("NASSAU BAY", "TX",
