@@ -142,52 +142,19 @@
     <item>40</item>
   </string-array>
   
-  <!-- Used to convert old legacy location codes
-       Does not need to be kept up to date with recent codes -->
-  <string-array name="pref_location_legacy">
-    <item>VALoudounCounty</item>
-    <item>NYBrentwood</item>
-    <item>TXCyCreekCommCenter</item>
-    <item>ORBentonCounty</item>
-    <item>NYHerkimerCounty</item>
-    <item>GAOconeeCounty</item>
-    <item>MILivingstonCounty</item>
-    <item>NYDixHills</item>
-    <item>NYBabylon</item>
-    <item>NCMaconCounty</item>
-  </string-array>
-  
   <!-- Pair of arrays used to convert existing location code values when an
        existing Parser needs to be renamed for some reason -->
   <string-array name="old_location_values">
-    <item>NYSuffolkCounty</item>
-    <item>TXHarrisCounty</item> <!-- V1.1.24 -->
-    <item>NYKingston</item>
-    <item>NYBrentwood</item>
-    <item>NYBabylon</item>
-    <item>NYHolbrook</item>
-    <item>NYFarmingdale</item>
-    <item>NYSetauket</item>
-    <item>NYRockyPoint</item>
-    <item>NYBelmore</item>
-    <item>NYSouthhamptonVillage</item>
     <item>GeneralStar</item>
     <item>ORPrineville</item>
+    <item>SCCharlestonCountyA</item>
+    <item>SCCharlestonCountyB</item>
   </string-array>
   <string-array name="new_location_values">
-    <item>NYBrentwood</item>
-    <item>TXCyCreekCommCenter</item>
-    <item>NYUlsterCounty</item>
-    <item>NYSuffolkCountyA</item>
-    <item>NYSuffolkCountyB</item>
-    <item>NYSuffolkCountyC</item>
-    <item>NYSuffolkCountyC</item>
-    <item>NYSuffolkCountyC</item>
-    <item>NYSuffolkCountyC</item>
-    <item>NYSuffolkCountyC</item>
-    <item>NYSuffolkCountyC</item>
     <item>General</item>
     <item>ORCrookCounty</item>
+    <item>SCCharlestonCounty</item>
+    <item>SCCharlestonCounty</item>
   </string-array>
   
   <!-- Array of state names -->

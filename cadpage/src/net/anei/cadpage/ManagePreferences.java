@@ -48,25 +48,11 @@ public class ManagePreferences {
       prefs.putString(R.string.pref_button3_key, context.getString(R.string.pref_button3_default));
     }
     
-    // If location code is the old numeric code, convert it
-    String location = location();
-    if (location.length() <= 2) {
-      int code = Integer.parseInt(location) - 1;
-      String[] legacy = context.getResources().getStringArray(R.array.pref_location_legacy);
-      if (code >= legacy.length) {
-        location = "General";
-      } else {
-        location = legacy[code];
-      }
-      setLocation(location);
-    }
-    
     // Ditto if is a newer parser code that has been renamed,
-    else {
-      String newLocation = convertOldLocationCode(context, location);
-      if (! location.equals(newLocation)) {
-        setLocation(newLocation);
-      }
+    String location = location();
+    String newLocation = convertOldLocationCode(context, location);
+    if (! location.equals(newLocation)) {
+      setLocation(newLocation);
     }
   }
   
