@@ -1543,6 +1543,12 @@ Sender: raycountycentraldispatch@gmail.com
 RCAD WHFD FALLS 514 ARAPAHOE DR  HOMESTEAD VILLAGE CrossStreets: CHEROKEE DR 0.05 mi W HIGHWAY Y 0.16 mi E Description: BETTY JAMES 85 YO FEMALE\n
 FAL
 **********************************************************
+Gasconade County, MO
+Contact: Jason Reed <reedjasonf@gmail.com>
+Sender: central@fidmail.com
+System: Global Dispatch
+Requires MMS support
+MESSAGE / M50 CHEST PAIN  4449 MARIES CR 426 OUT OF COUNTY MapRegions:  CrossStreets: Description:  Dispatch: 3/25/2011 03:51:43\n\n\n\n\n
 **********************************************************
 **********************************************************
 **********************************************************
