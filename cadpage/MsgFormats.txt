@@ -1536,6 +1536,12 @@ Sender: cad@hcesd-1.org
 
 COMM/RES FIRE AL EXTRUDE 2001-SHELDON RD KEYMAP:458P BOX:2003 X1:UN-NAMED DITCH
 **********************************************************
+Ray County, MO
+Contact: "Chief O'Dell" <leeodell@woodheightsfire.com>
+Sender: raycountycentraldispatch@gmail.com
+
+RCAD WHFD FALLS 514 ARAPAHOE DR  HOMESTEAD VILLAGE CrossStreets: CHEROKEE DR 0.05 mi W HIGHWAY Y 0.16 mi E Description: BETTY JAMES 85 YO FEMALE\n
+FAL
 **********************************************************
 **********************************************************
 **********************************************************

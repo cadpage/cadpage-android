@@ -792,6 +792,14 @@ public class SmsMmsMessage implements Serializable {
    */
   public void fixOldLocation(Context context) {
     if (location != null) location = ManagePreferences.convertOldLocationCode(context, location);
+    
+    // That *SHOULD* fix things, but if we still can't retrieve a parser with this
+    // location, force it to "General".
+    try {
+      ManageParsers.getInstance().getParser(location);
+    } catch (RuntimeException ex) {
+      location = "General";
+    }
   }
 
   
