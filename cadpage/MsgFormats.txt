@@ -1549,6 +1549,8 @@ Sender: central@fidmail.com
 System: Global Dispatch
 Requires MMS support
 MESSAGE / M50 CHEST PAIN  4449 MARIES CR 426 OUT OF COUNTY MapRegions:  CrossStreets: Description:  Dispatch: 3/25/2011 03:51:43\n\n\n\n\n
+MESSAGE / M51 MOTOR VEHICLE ACCIDENT-INJURIES  HWY 89  MapRegions:  CrossStreets: Description:  Dispatch: 3/26/2011 11:29:32\n\n\n\n\n
+MESSAGE / M51 MOTOR VEHICLE ACCIDENT-UNKNOWN INJ\2sHWY 89  MapRegions:  CrossStreets: Description:  Dispatch: 3/26/2011 11:39:53\n\n\n\n\n
 **********************************************************
 **********************************************************
 **********************************************************
