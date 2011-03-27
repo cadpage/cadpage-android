@@ -170,7 +170,8 @@ public class SmsMsgInfo {
     // Add city if specified, default city otherwise
     boolean override = ManagePreferences.overrideDefaults();
     String city = strCity;
-    if (city.length() == 0) {
+    if (city.equals("OUT OF COUNTY")) city = "";
+    else if (city.length() == 0) {
       city = (override ? ManagePreferences.defaultCity() :  defCity);
     }
     if (city.length() > 0) {
