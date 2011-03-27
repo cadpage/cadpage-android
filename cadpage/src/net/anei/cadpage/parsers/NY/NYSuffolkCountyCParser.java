@@ -6,6 +6,8 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.SmsMsgInfo.Data;
+import net.anei.cadpage.parsers.SmsMsgParser;
+
 /*
 Suffolk County, NY
 Sender: Paging@alpinesoftware.com
@@ -88,7 +90,6 @@ Brentwood, NY
 General Alarm, Auto Fire Alarm at 601 SUFFOLK AVE #201, BRENTWOOD  c/s: ADAMS AVE   O: LONG ISLAND EYE SURGICAL CARE . . 08:56:41
 
 */
-import net.anei.cadpage.parsers.SmsMsgParser;
 
 public class NYSuffolkCountyCParser extends SmsMsgParser {
   
