@@ -20,6 +20,9 @@ Sender: mtooley@911metro.org
 930 Quad 460 - BR 3008 E ASPEN BLVD BR Falls C1 2011-00000051
 930 Quad 460 - BR 1625 RUSHMORE DR BR Family Dispute 2011-00000347 
 
+Contact: Dusty Kiner <dusty.kiner@gmail.com>
+(Dispatch Page) BR  Quad 460 - BR 1413 RUSHMORE DR 12 BR Falls C1 2011-00000111
+
 */
 
 public class SDMinnehahaCountyParser extends SmartAddressParser {
@@ -31,7 +34,7 @@ public class SDMinnehahaCountyParser extends SmartAddressParser {
   });
   
   private static final Pattern CAD_MSG_PTN = 
-    Pattern.compile("(\\d{3}) (Quad \\d{3,4}) - [A-Z]{2} +(.+?)(?: (C\\d))? (\\d{4}-\\d{8})");
+    Pattern.compile("(\\d{3}|[A-Z]{2}) +(Quad \\d{3,4}) - [A-Z]{2} +(.+?)(?: (C\\d))? (\\d{4}-\\d{8})");
  
   public SDMinnehahaCountyParser() {
     super(CITY_CODES, "MINNEHAHA COUNTY", "SD");
