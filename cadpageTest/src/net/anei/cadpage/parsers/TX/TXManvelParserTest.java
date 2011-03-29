@@ -62,6 +62,13 @@ public class TXManvelParserTest extends BaseParserTest {
         "CALL:ACCUNK",
         "ADDR:288 & 6",
         "CITY:MANVEL");
+    
+    doTest("T8",
+        "NEW CALL / MVFD\nFIRE\n3110 EWING CT\nMANVEL\n1103270030 3:37 PM",
+        "SRC:MVFD",
+        "CALL:FIRE",
+        "ADDR:3110 EWING CT",
+        "CITY:MANVEL");
 
   }
   
