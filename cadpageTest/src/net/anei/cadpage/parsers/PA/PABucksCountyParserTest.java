@@ -130,6 +130,19 @@ public class PABucksCountyParserTest extends BaseParserTest {
         "BOX:60063",
         "MAP:3032E3",
         "ID:ED1042598");
-        
+
+    doTest("T11",
+        "911: STA57  stype:FTAI    adr:FRIER RD/MILL RD ,45  aai:  box:57002  map:  tm:13:51:38  FD1104463    Run: E57",
+        "SRC:STA57",
+        "CALL:FTAI - ACCIDENT W/FIRE & INJ (LOC)",
+        "ADDR:FRIER RD & MILL RD",
+        "CITY:MILFORD TWP",
+        "BOX:57002",
+        "ID:E57");
+       
+  }
+  
+  public static void main(String[] args) {
+    new PABucksCountyParserTest().generateTests("T11", "SRC CALL ADDR APT PLACE CITY X INFO BOX MAP ID");
   }
 }

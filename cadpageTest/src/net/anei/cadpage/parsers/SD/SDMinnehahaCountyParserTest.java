@@ -81,9 +81,19 @@ public class SDMinnehahaCountyParserTest extends BaseParserTest {
         "CITY:BRANDON",
         "CALL:Family Dispute",
         "ID:2011-00000347");
+
+    doTest("T8",
+        "(Dispatch Page) BR  Quad 460 - BR 1413 RUSHMORE DR 12 BR Falls C1 2011-00000111",
+        "SRC:BR",
+        "MAP:Quad 460",
+        "ADDR:1413 RUSHMORE DR 12",
+        "CITY:BRANDON",
+        "CALL:Falls",
+        "CODE:C1",
+        "ID:2011-00000111");
   }
   
   public static void main(String[] args) {
-    new SDMinnehahaCountyParserTest().generateTests("T1", "SRC MAP ADDR CITY CALL CODE ID");
+    new SDMinnehahaCountyParserTest().generateTests("T8", "SRC MAP ADDR CITY CALL CODE ID");
   }
 }
