@@ -33,13 +33,14 @@ Contact: Terry <securetalk@gmail.com>
 Sender: 2674243300
 911: STA57  type:FEMS    adr:SLEEPY HOLLOW RD/SPINNERSTOWN RD ,45  aai:  box:75011  map:2693K9  tm:10:26:44  FD1104574    Run: E75
 911: STA57  stype:FTAI    adr:FRIER RD/MILL RD ,45  aai:  box:57002  map:  tm:13:51:38  FD1104463    Run: E57
+
  */
 
 
 public class PABucksCountyParser extends SmsMsgParser {
   
   private static final String[] KEYWORDS = 
-      new String[]{"911", "type", "adr", "btwn", "aai", "box", "map", "tm"};
+      new String[]{"911", "type", "stype", "adr", "btwn", "aai", "box", "map", "tm"};
   
   public PABucksCountyParser() {
     super("BUCKS COUNTY", "PA");
@@ -83,6 +84,7 @@ public class PABucksCountyParser extends SmsMsgParser {
     
     data.strSource = props.getProperty("911", "");
     data.strCall = props.getProperty("type", "");
+    if (data.strCall.length() == 0) data.strCall = props.getProperty("stype", "");
     data.strCross = props.getProperty("btwn", "");
     data.strSupp = props.getProperty("aai", "");
     data.strBox = props.getProperty("box", "");
