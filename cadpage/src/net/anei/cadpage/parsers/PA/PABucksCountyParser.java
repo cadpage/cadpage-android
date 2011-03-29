@@ -28,6 +28,11 @@ Sender: 8276,a@bnn.us
 
 0001/0002 911: SQ134  type:AALLR   adr:4371 COUNTY LINE RD ,48 -- VERTIS DIRECT MKTG btwn BRITAIN WOOD CI & RR CROSSING  aai:  box:74096 map:3033C7
 0002/0002 tm:09:28:45  ED1102262
+
+Contact: Terry <securetalk@gmail.com>
+Sender: 2674243300
+911: STA57  type:FEMS    adr:SLEEPY HOLLOW RD/SPINNERSTOWN RD ,45  aai:  box:75011  map:2693K9  tm:10:26:44  FD1104574    Run: E75
+911: STA57  stype:FTAI    adr:FRIER RD/MILL RD ,45  aai:  box:57002  map:  tm:13:51:38  FD1104463    Run: E57
  */
 
 
