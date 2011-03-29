@@ -1226,8 +1226,10 @@ Sender: bhvfd14@gmail.com
 Brunswick County, NC
 Contact: Tom Rogers <tomrogers2@gmail.com
 Sender: pagegate@brunswickes.com
+System: Southern Software
 
 Need more samples
+Same software as Montgomer county???
 
  1 of 2\n
 FRM:pagegate@brunswickes.com\n
@@ -1635,6 +1637,8 @@ Lebanon County, PA
 Contact: Loren Miller <lmiller05@gmail.com>
 Sender: 7176798487
 
+Current call logs available at http://lebanonema.org/pager/html/monitor.html
+
 Heidelberg Township 3 GLASSMOYER LN WF - Wildfire/Brush Fire Box 35-05 FG3 A160
 City of Lebanon 541 SPRUCE ST Med Class1 Hemorrhage Box 190-2 199MU
 Cornwall Borough 113 WENGER ST Med Class3 Fall Victim BOX 190-6 A192
@@ -1660,3 +1664,27 @@ South Lebanon Township 518 S 5TH ST SUPPORTIVE CONCEPTS Med Class3 Abdominal Pai
 offices aren't in the County CAD system, so they are entered manually.  Ones
 that are entered manually don't have the * between the address and the
 Common Place.
+
+A       AMBULANCE
+M       MEDIC
+MU      MICU (SOME UNITS HAVE NUMBER FOLLOWED BY MU [193MU])
+BC      BATTALION CHIEF
+
+R       RESCUE
+T       TANKER
+TW      TOWER
+TK      TRUCK
+E       ENGINE
+BR      BRUSH
+SQ      SQUAD
+UT      UTILITY
+SU      SPECIAL UNIT
+W       WAGON
+AT      ATTACK
+PT      PUMPER/TANKER
+FP      FIRE POLICE
+
+Q       QRS (SOMEHOW WE HAVE TRANSFORMED TO PUTTING THE UNIT
+        NUMBER FOLLOWED BY “Q”. ex: 33Q, 47Q, 1Q
+
+

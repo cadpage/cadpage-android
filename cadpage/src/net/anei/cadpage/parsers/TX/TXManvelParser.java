@@ -16,6 +16,8 @@ Sender: dispatch@manvelpd.org
 [ NEW CALL ]  MVFD\nFIRE\n815 CR 393\nMANVEL\n1102280014 2:47 PM
 [ NEW CALL ]  MVFD\nACCUNK\n288/6\nMANVEL\n1102220014 12:04 PM
 
+NEW CALL / MVFD\nFIRE\n3110 EWING CT\nMANVEL\n1103270030 3:37 PM
+
 */
 
 
@@ -38,7 +40,13 @@ public class TXManvelParser extends FieldProgramParser {
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
     
-    if (!subject.equals("NEW CALL")) return false;
+    if (subject.equals("NEW CALL")) {}
+    else if (body.startsWith("NEW CALL / ")) {
+      body = body.substring(10).trim();
+    } else {
+      return false;
+    }
+    
     return parseFields(body.split("\n"), data);
   }
 
