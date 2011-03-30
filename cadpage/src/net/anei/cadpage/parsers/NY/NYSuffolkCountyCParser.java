@@ -1,12 +1,7 @@
 package net.anei.cadpage.parsers.NY;
 
 
-import java.util.Properties;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-
-import net.anei.cadpage.SmsMsgInfo.Data;
-import net.anei.cadpage.parsers.SmsMsgParser;
+import net.anei.cadpage.parsers.dispatch.DispatchRedAlertParser;
 
 /*
 Suffolk County, NY
@@ -65,98 +60,19 @@ MISC ALARM, GAS LEAK at 271 Gin . . 09:24:18
 ALARM - GENERAL at 151 WINDMILL LN, SOUTHAMPTON  c/s: JAGGER LN   O: SVPD HQ . . 12:02:10
 STRUCTURE FIRE, RESIDENTIAL at HILL ST / CAPTAINS NECK LN, SOUTHAMPTON . . 15:36:34
 
-Belmore, NY (Actually in neighboring Nassau county)
-Contact: Timothy Beuth <tbeuth@gmail.com>
-RESCUE at 2438 BEDFORD PLACE. . 11:34:04
-AUTO ACCIDENT at intersection of BELTAGH AVENUE and BELLMORE AVENUE. . 15:03:39
-AUTO ACCIDENT at 2971 LEE PLACE. . 04:08:29
-MUTUAL AID RESCUE at 3015 CHERYL ROAD. . 19:12:04
-AUTOMATIC ALARM BUILDING . . UNREGISTERED ALARM at 609 SUNRISE HIGHWAY. . 11:46:13
-HAZMAT - NATURAL GAS INTERIOR . . ODOR INSIDE at 1 SUNRISE HIGHWAY. . 05:07:37
-HOUSE FIRE . . SMOKE IN THE HOUSE at 2764 MARTIN AVENUE. . 17:09:53
-6011 IS OUT OF SERVICE
-6011 IS BACK IN SERVICE 
-
-Levittown Fire Department, Nassau County, NY (Also in Nassau County)
-Contact: Adam Freed <afreed00789@gmail.com>
-Sender: paging@rednmxcad.com <From%3Apaging@rednmxcad.com>
-System: Red Alert
-[Auto Alarm]  at 2890 HEMPSTEAD TPKE #A, LEVITTOWN  c/s: SHELTER LN   O: THE LITTLE GYM . . 16:01:16
-[Phone In]  at 47 STEVEDORE LN, LEVITTOWN  c/s: PARSON LN   O: CAIOLA . . 10:24:26
-Signal 9 at 62 FLAMINGO RD, LEVITTOWN  c/s: GULL LN   O: OLSEN . . 09:34:27
-Brush Fires at TARRY LN / BAYBERRY LN, LEVITTOWN . . 14:28:07
-
 Brentwood, NY
 General Alarm, Auto Fire Alarm at 601 SUFFOLK AVE #201, BRENTWOOD  c/s: ADAMS AVE   O: LONG ISLAND EYE SURGICAL CARE . . 08:56:41
 
 */
 
-public class NYSuffolkCountyCParser extends SmsMsgParser {
-  
-  private static final Pattern TIME_MARK = Pattern.compile("\\. \\. \\d\\d:\\d\\d:\\d\\d\\s*$");
-  private static final Pattern CODE_PATTERN = Pattern.compile("\\b\\d{1,2}-?[A-Z]-?\\d{1,2}[A-Z]?\\b");
+public class NYSuffolkCountyCParser extends DispatchRedAlertParser {
   
   public NYSuffolkCountyCParser() {
-    super("SUFFOLK COUNTY", "NY");
+    super("SUFFOLK COUNTY","NY");
   }
-  
+
   @Override
   public String getFilter() {
     return "paging@alpinesoftware.com";
-  }
-
-  @Override
-  protected boolean parseMsg(String subject, String body, Data data) {
-    
-    // Look for the trailing time signature
-    // If we find it, strip it off.
-    Matcher match = TIME_MARK.matcher(body);
-    if (!match.find()) return false;
-    body = body.substring(0,match.start()).trim();
-    
-    // Call is sometimes in square brackets, which got treated as a subject
-    // in which case it needs to be restored
-    if (subject.length() > 0) body = subject + " " + body;
-    
-    // Also must have at " at " keyword which we will change to "LOC:"
-    // If there happen to be more than one, only change the last one
-    int pt = body.indexOf(" S:");
-    if (pt <0) pt = body.length();
-    pt = body.lastIndexOf(" at ", pt);
-    if (pt < 0) return false;
-    body = "TYPE:" + body.substring(0, pt) + " LOC: " + body.substring(pt+4);
-    body = body.replace("c/s:", "CROSS:").replaceAll("\\s+", " ");
-    Properties props = parseMessage(body, new String[]{"TYPE","LOC","CROSS","O", "- S"});
-    
-    String sAddress = props.getProperty("LOC", "");
-    if (sAddress.startsWith("intersection of ")) sAddress = sAddress.substring(16);
-    if (sAddress.contains(",")){
-      int indx = sAddress.indexOf(",");
-      data.strCity = sAddress.substring(indx + 1).trim();
-      sAddress = sAddress.substring(0,indx).trim();
-    }
-    // Protect C/O sequence form being treated as an intersection
-    parseAddress(sAddress.replace("C/O", "C%O"), data);
-    data.strAddress = data.strAddress.replace("C%O", "C/O");
-    String sCall = props.getProperty("TYPE", "");
-    int ipt = sCall.indexOf(':');
-    if (ipt >= 0) {
-      data.strCall= sCall.substring(0,ipt).trim();
-      data.strSupp= sCall.substring(ipt+1).trim();
-      match = CODE_PATTERN.matcher(data.strSupp);
-      if (match.find()) {
-        data.strCode = data.strSupp.substring(match.start(), match.end());
-        data.strSupp = cutOut(data.strSupp, match.start(), match.end());
-        if (data.strSupp.startsWith("- ")) data.strSupp = data.strSupp.substring(2).trim();
-      }
-    } else {
-      data.strCall = sCall;
-    }
-    data.strCall = data.strCall.replaceAll("\\. \\.", "-");
-
-    data.strPlace = props.getProperty("O", "");
-    data.strCross = props.getProperty("CROSS", "");
-
-    return true;
   }
 }

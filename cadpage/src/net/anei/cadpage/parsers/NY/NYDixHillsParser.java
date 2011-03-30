@@ -1,6 +1,9 @@
 package net.anei.cadpage.parsers.NY;
 
 import net.anei.cadpage.SmsMsgInfo.Data;
+import net.anei.cadpage.parsers.SmartAddressParser;
+
+
 /*
 contact: "Craig Caviness" <ccaviness@dixhillsfd.org>
 sender: paging@dixhillsfd.xohost.com
@@ -15,7 +18,6 @@ sender: paging@dixhillsfd.xohost.com
 2010-001991 08:42 *** 23- Misc Fire ***  CARLLS STRAIGHT PATH CARLLS STRAIGHT PA & S SERVICE RD S SERVICE RD
 *** Google doesn't understand PA, translate to CARLS STRAIGHT PATH & S SERVICE RD
 */
-import net.anei.cadpage.parsers.SmartAddressParser;
 
 public class NYDixHillsParser extends SmartAddressParser {
   

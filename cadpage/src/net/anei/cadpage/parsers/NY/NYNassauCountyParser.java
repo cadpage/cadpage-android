@@ -10,7 +10,8 @@ Combined location parsers thereof
 public class NYNassauCountyParser extends GroupBestParser {
 
   public NYNassauCountyParser() {
-    super(new NYNassauCountyAParser(), new NYNassauCountyBParser());
+    super(new NYNassauCountyAParser(), new NYNassauCountyBParser(), new NYNassauCountyCParser(),
+           new NYNassauCountyRedAlertParser());
   }
 }
 
