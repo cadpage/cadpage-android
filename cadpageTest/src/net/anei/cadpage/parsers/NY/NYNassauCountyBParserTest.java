@@ -5,9 +5,9 @@ import net.anei.cadpage.parsers.BaseParserTest;
 import org.junit.Test;
 
 
-public class NYNassauCountyParserBTest extends BaseParserTest {
+public class NYNassauCountyBParserTest extends BaseParserTest {
   
-  public NYNassauCountyParserBTest() {
+  public NYNassauCountyBParserTest() {
     setParser(new NYNassauCountyBParser(), "NASSAU COUNTY", "NY");
   }
   
@@ -58,6 +58,6 @@ public class NYNassauCountyParserBTest extends BaseParserTest {
   }
   
   public static void main(String[] args) {
-    new NYNassauCountyParserBTest().generateTests("T1", "ADDR CALL INFO");
+    new NYNassauCountyBParserTest().generateTests("T1", "ADDR CALL INFO");
   }
 }

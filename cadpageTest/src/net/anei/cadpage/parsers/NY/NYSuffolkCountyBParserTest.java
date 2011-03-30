@@ -178,7 +178,5 @@ public class NYSuffolkCountyBParserTest extends BaseParserTest {
         "X:SPRING ST  / MAPLE PL",
         "SRC:PT JEFFERSON",
         "ID:2011-000003");
-        
-    
   }
 }

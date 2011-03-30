@@ -6,9 +6,9 @@ import net.anei.cadpage.parsers.NY.NYNassauCountyAParser;
 import org.junit.Test;
 
 
-public class NYNassauCountyParserATest extends BaseParserTest {
+public class NYNassauCountyAParserTest extends BaseParserTest {
   
-  public NYNassauCountyParserATest() {
+  public NYNassauCountyAParserTest() {
     setParser(new NYNassauCountyAParser(), "NASSAU COUNTY", "NY");
   }
   
