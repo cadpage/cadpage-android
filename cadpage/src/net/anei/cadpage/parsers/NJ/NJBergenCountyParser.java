@@ -44,7 +44,10 @@ public class NJBergenCountyParser extends SmsMsgParser {
     if (type.equals("CANCEL:")) {
       data.strCall = "CANCEL";
       parseAddress(p.get("Paged:"), data);
-      return data.strAddress.length() > 0;
+      if (data.strAddress.length() == 0) return false;
+      p.get("Cxl Rsn:");
+      data.strSupp = p.get();
+      return true;
     }
     
     if (! type.equals("RESPOND:")) return false;
