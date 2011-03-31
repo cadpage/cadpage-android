@@ -206,6 +206,5 @@ public class GeneralParserTest extends BaseParserTest {
         "ID:424",
         "CALL:ACCIDENT W/INJURY",
         "ADDR:750 FISHING CREEK ARBOR RD");
-
   }
 }
