@@ -1389,13 +1389,11 @@ Unknown from problem report
 Contact: Jim Disinger <diceyduce@aol.com>
 Sender: dispatch613+bncCJu-xN6_FhDgt5LmBBoEujh5Gw@googlegroups.com
 This looks like a variation of LCFR
+**************************************************************************
+Unknown trying Sussex County, DE
 ([cad13] ) Call:30A01-TRAUMA NOT DAN,775 GATEWAY DR SE-LB Apt:CLUBHS,X-St:SYCOLIN RD SE VAN,M6132 ACO13,Box:2013 ,ADC:515
-************  READY TO ROLL ******************************
-**********************************************************
-Kent County, DE
-In Progress
-**********************************************************
-**********************************************************
+Contact: "fdbuff@aol.com" <fdbuff@aol.com>
+(*CAD*) [CAD] Sta: 78AS3   Loc: 12319 Sussex Hwy   City: 19950   --- Sick Person(Specific Diag)-BLSPremise 12319 Sussex Hwy
 **********************************************************
 Unknown trying New Castle County, DE
 Contact: Matthew Comegys <mcomegys2832@gmail.com>
@@ -1403,6 +1401,12 @@ Sender: rc.69@c-msg.net
 15CAD / ESC:??DSC:DIFF BREATHING ?! PAT:1 SEX:Female AGE:30Years CON:Y BRE:Y\n\n
 15CAD / [eFB] F00 23:39 1 - T:M6D4 (DIFF BREATHING-CLAMMY) L:758 JAVELIN WY ,HNRN btwn BRIDLE WY ~ TROPHY WY *HUNTERS RUN TP - D\n\n
 15CAD / ESC:??DSC:DIFF BREATHING ?! PAT:1 SEX:Female AGE:30Years CON:Y BRE:Y\n\n
+**********************************************************
+************  READY TO ROLL ******************************
+**********************************************************
+**********************************************************
+Kent County, DE
+In Progress
 **********************************************************
 Lebanon County, PA
 Contact: Loren Miller <lmiller05@gmail.com>
@@ -1457,6 +1461,94 @@ FP      FIRE POLICE
 
 Q       QRS (SOMEHOW WE HAVE TRANSFORMED TO PUTTING THE UNIT
         NUMBER FOLLOWED BY “Q”. ex: 33Q, 47Q, 1Q
+**********************************************************
+Camden County, NJ
+Contact: "N.dalonzo" <nfdfire45@comcast.net>
+Sender: cccdemail@camdencounty@camdencounty.com
+
+(Free SD45) 300 MONMOUTH ST ,14 14  
+MI#:110072287  
+Disp:10:35:34  
+Enr:  
+Arr:  
+Enr Hosp:  
+Arr Hosp:  
+Clr:10:40:34  
+RES#:SD45
+
+(Dispatch SD45) DWELLING  
+312 9TH ST ,14   
+#:  
+X:CENTER/CHERRY  
+ZN:14A  
+CP:  2011-03-31 10:44:12  
+MI#:110073123  
+RES#:SD45
+
+(Dispatch SD45) M.V.A  
+ROUTE 295 SB RAMP TO 76 SB ALJO CUR ,04   
+#:  
+X:/  
+ZN:04Q  
+CP:ROUTE 295 SB RAMP T  2011-03-31 09:06:36  
+MI#:110073062 
+
+(Dispatch SD45) DIABETIC  
+217 BLACK HORSE PK N ,25   
+#:4  
+X:CARLISLE/LAKEVIEW  
+ZN:25B  
+CP:MAX GROUP PHILLY CO  2011-03-30 13:23:26  
+MI#:11007
+
+(Dispatch SD45) DWELLING  
+BURLINGTON ST S/MONMOUTH ST ,14   
+#:  
+X:/  
+ZN:14A  
+CP:  2011-03-30 10:33:28  
+MI#:110072287  
+RES#:SD45
+
+The 2 digit number is a town code and mi is the run number, res is the resource assigned and the zn is the town zone and cp is usually a busniness name etc
+
+    • 1- Audubon 
+    • 2- Audubon Park  
+    • 3- Barrington 
+    • 4- Bellmawr 
+    • 5- Berlin Borough 
+    • 6- Berlin Twp. 
+    • 7- Brooklawn 
+    • 8- Camden City 
+    • 9 Chesilhurst 
+    • 10 Clementon 
+    • 11 Collingswood 
+    • 12 Cherry Hill 
+    • 13 Gibbsboro 
+    • 14 Gloucester City 
+    • 15 Gloucester Twp. 
+    • 16 Haddon Twp  
+    • 17 Haddonfield   
+    • 18 Haddon Heights 
+    • 19 Hi-Nella 
+    • 20 Laurel Springs 
+    • 21-Lawnside 
+    • 22-Lindenwold 
+    • 23-Magnolia 
+    • 24 Merchantville  
+    • 25 Mount Ephraim 
+    • 26 Oaklyn 
+    • 27 Pennsauken Twp 
+    • 28 Pine Hill   
+    • 29 Pine Valley 
+    • 30 Runnemede 
+    • 31 Somerdale 
+    • 32 Stratford 
+    • 33 Tavistock 
+    • 34 Voorhees Twp. 
+    • 35 Waterford Twp. 
+    • 36 Winslow Twp. 
+    • 37 Woodlyne 
 **********************************************************
 Burlington County, NJ
 Contact: Jerseyfirefighter@gmail.com

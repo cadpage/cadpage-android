@@ -26,6 +26,18 @@ System: Red Alert Apline Software
 ***CHIEF***  INVES  52 THE HEMLOCKS [ROSLYN ESTATES] c/s: SOUTH BRANCH/THE PINES ADTNL: SOMETHING BEEPING IN HOUSE GRID: J-15 TOA: 08:07 12/07/2010
 ***MUTUAID***  MAF SUNY 223 STORE HILL ROAD N [OLD WESTBURY] c/s: B GATE ROAD/ ADTNL: FAS TRUCK--WANG HALL TOA: 06:17 12/18/2010
 
+
+*** 30) RESCUE-SIGNAL 9 *** 21 BELMONT AVE CS: DAVID CT TOA: 18:39 03-29-11
+*** 45) BRUSH *** 1 MILLER RD CS: HEMPSTEAD TPKE TOA: 14:48 03-29-11
+*** 11) AFA -HOUSE *** 21 CLARK ST CS: EILEEN AVE TOA: 08:09 03-29-11
+*** 75) CARBON MONOXIDE ALARM *** 91 SUNBEAM AVE CS: SUNNY LN TOA: 04:08 03-26-11
+*** 13) SMOKE INVESTIGATION *** 56 APOLLO CIR CS: HICKEY BLVD TOA: 22:16 03-26-11
+*** 82) MUTUAL AID *** 930 HICKSVILLE FD TO STANDBY CS: CAROLINE ST TOA: 10:10 03-26-11
+*** 20) BUILDING FIRE *** 4105 HEMPSTEAD TPKE CS: HICKSVILLE RD TOA: 20:48 03-21-11
+*** 61) TRUCK FIRE *** HICKSVILLE RD CS: MARTIN RD N TOA: 19:35 03-21-11
+*** 10) HOUSE FIRE *** 22 CRESTLINE AVE CS: HILLTOP AVE TOA: 15:41 03-21-11
+*** 10) HOUSE FIRE *** 212 GILLING RD CS: WHELAN PL TOA: 14:33 03-20-11
+
  */
 
 
@@ -52,6 +64,14 @@ public class NYNassauCountyAParser extends SmartAddressParser {
     
     body = "LOC:" + body.substring(pt2+4).trim();
     Properties props = parseMessage(body, KEYWORDS);
+    
+    // The c/s: keyword is required to distinguish this text format from
+    // the Nassau County version D
+    String sCross = props.getProperty("c/s");
+    if (sCross == null) return false;
+    data.strCross = sCross;
+
+    
     String sAddr = props.getProperty("LOC", "");
     Parser p = new Parser(sAddr);
     data.strCall = data.strCall + " - " + p.get(' ');
@@ -60,7 +80,6 @@ public class NYNassauCountyAParser extends SmartAddressParser {
     if (data.strCity.length() == 0) return false;
     parseAddress(StartType.START_PLACE, FLAG_ANCHOR_END, sAddr, data);
     
-    data.strCross = props.getProperty("c/s", "");
     data.strSupp = props.getProperty("ADTNL", "");
     data.strMap = props.getProperty("GRID", "");
 
