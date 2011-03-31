@@ -39,7 +39,8 @@ public class NJBergenCountyParserTest extends BaseParserTest {
         "ID:10-0090603",
         "CITY:ENGLEWOOD CITY",
         "ADDR:143 Engle St",
-        "CALL:CANCEL");
+        "CALL:CANCEL",
+        "INFO:Refused Medical Aid Code:17b01");
 
     doTest("T4",
         "(CAD) S2 RESPOND: #10-0092818 FORT LEE BORO *0 - 0 Bridge Plz N *WALGREENS * *LEMOINE AVE/LEMOINE AVE *Traumatic Injuries-BLS 16:01 Code:30bt1",
