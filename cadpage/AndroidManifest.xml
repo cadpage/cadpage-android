@@ -51,6 +51,8 @@
     </receiver>
     <receiver android:name=".ClearAllReceiver" />
     <receiver android:name=".ReminderReceiver" />
+
+
 </application>
   <uses-permission
     android:name="android.permission.READ_SMS" />
