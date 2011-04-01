@@ -563,6 +563,11 @@ Bergen County, NJ (NJBergenCountyParser)
 (CAD) S332 CANCEL: #10-0090603 ENGLEWOOD CITY *143 Engle St Paged:10:46 Enrte:10:48 Scene:10:54 Avail:11:33 Cxl Rsn: Refused Medical Aid Code:17b01
 (CAD) S2 RESPOND: #10-0092818 FORT LEE BORO *0 - 0 Bridge Plz N *WALGREENS * *LEMOINE AVE/LEMOINE AVE *Traumatic Injuries-BLS 16:01 Code:30bt1
 ***************************************************************************
+Camden County, NJ (NJCamdenCountyParser)
+(Dispatch SD45) DWELLING\n312 9TH ST ,14\n#:\nX:CENTER/CHERRY\nZN:14A\nCP:  2011-03-31 10:44:12\nMI#:110073123\nRES#:SD45
+(Dispatch SD45) M.V.A\nROUTE 295 SB RAMP TO 76 SB ALJO CUR ,04\n#:\nX:/\nZN:04Q\nCP:ROUTE 295 SB RAMP T  2011-03-31 09:06:36\nMI#:110073062 
+(Dispatch SD45) DIABETIC\n217 BLACK HORSE PK N ,25\n#:4\nX:CARLISLE/LAKEVIEW\nZN:25B\nCP:MAX GROUP PHILLY CO  2011-03-30 13:23:26\nMI#:11007
+***************************************************************************
 Gloucester County, NJ
 Sta:23-1\nType:MVC\nLoc:233 N MAIN ST\nVen:HARRISON\nDsp-07:56:31\nClr- 
 Sta:23-1\nType:SEIZ\nLoc:143 SALVATORE DR\nVen:HARRISON\nDsp-15:26:16\nClr- 
@@ -1416,6 +1421,13 @@ Sender: rc.69@c-msg.net
 15CAD / [eFB] F00 23:39 1 - T:M6D4 (DIFF BREATHING-CLAMMY) L:758 JAVELIN WY ,HNRN btwn BRIDLE WY ~ TROPHY WY *HUNTERS RUN TP - D\n\n
 15CAD / ESC:??DSC:DIFF BREATHING ?! PAT:1 SEX:Female AGE:30Years CON:Y BRE:Y\n\n
 **********************************************************
+Unknown trying Humble, TX
+Contact: Richard Clark <richard686@comcast.net>
+Sender: CAD@hcesd-1.org
+FRM:CAD@hcesd-1.org\n
+MSG:\n
+ID#/ 11-03-09995 / 21B01 / Hemorrhage/Lacerations / 19110 Miller Wilson Rd / BLD:  / KM: 379R / CROSS: LAWRENCE ST/SUNDOWN MEADOWS ST
+**********************************************************
 ************  READY TO ROLL ******************************
 **********************************************************
 **********************************************************
@@ -1423,146 +1435,9 @@ Kent County, DE
 In Progress
 **********************************************************
 Lebanon County, PA
-Contact: Loren Miller <lmiller05@gmail.com>
-Sender: 7176798487
-
-Current call logs available at http://lebanonema.org/pager/html/monitor.html
-
-Heidelberg Township 3 GLASSMOYER LN WF - Wildfire/Brush Fire Box 35-05 FG3 A160
-City of Lebanon 541 SPRUCE ST Med Class1 Hemorrhage Box 190-2 199MU
-Cornwall Borough 113 WENGER ST Med Class3 Fall Victim BOX 190-6 A192
-City of Lebanon 437 NEW ST Med Class1 Abdominal Pain Box190-2 BC190
-City of Lebanon 220 E WEIDMAN ST Med Class1 ALOC Box 190-2 A193 M12-3
-South Lebanon Township 590 S 5TH AVE * Cedar Haven ROOM 313F Med Class1 Heart Problem Box 190-3 193MU
-Palmyra Borough 101 S RAILROAD ST * Palmyra Interfaith Manor AFA - Auto Fire Alarm BOX 1-01 FG 3 W1 E2
-North Cornwall Township 900 TUCK ST * Manor Care Med Class1 Altered Mental Status Box 190-8 193MU
-City of Lebanon LEHMAN ST N 7TH ST MV - Accident w/Injuries Box 15-06 E15-2 R24 AmbCo190
-City of Lebanon S 7TH ST CHESTNUT ST MV - Accident w/Injuries Box 15-03 E15-1 SQ22 R24 AmbCo190
-
-City of Lebanon 544 N 8TH ST Med Class3 302 Commitment Assist MHMR Box 190-2 A198 
-- In this page, they added the Assist MHMR
-
-Heidelberg Township 3 GLASSMOYER LN WF - Wildfire/Brush Fire Box 35-05 FG3 **Second Alert** A160 
-- This is a page with the **Second Alert** added.
-
-Swatara Township 68 SUPERVISORS DR AREA OF WF - Wildfire/Brush Fire Box 47-05 FG-3 E10 R47 AT47 PT47 AmbCo190 
-- This page has "AREA OF" added after the address.
-
-South Lebanon Township 518 S 5TH ST SUPPORTIVE CONCEPTS Med Class3 Abdominal Pain Box 190-4 A198 
-- This page has a Common Place (SUPPORTIVE CONCEPTS) added manually by the dispatcher.  Some of the businesses and
-offices aren't in the County CAD system, so they are entered manually.  Ones
-that are entered manually don't have the * between the address and the
-Common Place.
-
-A       AMBULANCE
-M       MEDIC
-MU      MICU (SOME UNITS HAVE NUMBER FOLLOWED BY MU [193MU])
-BC      BATTALION CHIEF
-
-R       RESCUE
-T       TANKER
-TW      TOWER
-TK      TRUCK
-E       ENGINE
-BR      BRUSH
-SQ      SQUAD
-UT      UTILITY
-SU      SPECIAL UNIT
-W       WAGON
-AT      ATTACK
-PT      PUMPER/TANKER
-FP      FIRE POLICE
-
-Q       QRS (SOMEHOW WE HAVE TRANSFORMED TO PUTTING THE UNIT
-        NUMBER FOLLOWED BY “Q”. ex: 33Q, 47Q, 1Q
+In Progress
+Need implicit & for intersections
 **********************************************************
-Camden County, NJ
-Contact: "N.dalonzo" <nfdfire45@comcast.net>
-Sender: cccdemail@camdencounty@camdencounty.com
-
-(Free SD45) 300 MONMOUTH ST ,14 14  
-MI#:110072287  
-Disp:10:35:34  
-Enr:  
-Arr:  
-Enr Hosp:  
-Arr Hosp:  
-Clr:10:40:34  
-RES#:SD45
-
-(Dispatch SD45) DWELLING  
-312 9TH ST ,14   
-#:  
-X:CENTER/CHERRY  
-ZN:14A  
-CP:  2011-03-31 10:44:12  
-MI#:110073123  
-RES#:SD45
-
-(Dispatch SD45) M.V.A  
-ROUTE 295 SB RAMP TO 76 SB ALJO CUR ,04   
-#:  
-X:/  
-ZN:04Q  
-CP:ROUTE 295 SB RAMP T  2011-03-31 09:06:36  
-MI#:110073062 
-
-(Dispatch SD45) DIABETIC  
-217 BLACK HORSE PK N ,25   
-#:4  
-X:CARLISLE/LAKEVIEW  
-ZN:25B  
-CP:MAX GROUP PHILLY CO  2011-03-30 13:23:26  
-MI#:11007
-
-(Dispatch SD45) DWELLING  
-BURLINGTON ST S/MONMOUTH ST ,14   
-#:  
-X:/  
-ZN:14A  
-CP:  2011-03-30 10:33:28  
-MI#:110072287  
-RES#:SD45
-
-The 2 digit number is a town code and mi is the run number, res is the resource assigned and the zn is the town zone and cp is usually a busniness name etc
-
-    • 1- Audubon 
-    • 2- Audubon Park  
-    • 3- Barrington 
-    • 4- Bellmawr 
-    • 5- Berlin Borough 
-    • 6- Berlin Twp. 
-    • 7- Brooklawn 
-    • 8- Camden City 
-    • 9 Chesilhurst 
-    • 10 Clementon 
-    • 11 Collingswood 
-    • 12 Cherry Hill 
-    • 13 Gibbsboro 
-    • 14 Gloucester City 
-    • 15 Gloucester Twp. 
-    • 16 Haddon Twp  
-    • 17 Haddonfield   
-    • 18 Haddon Heights 
-    • 19 Hi-Nella 
-    • 20 Laurel Springs 
-    • 21-Lawnside 
-    • 22-Lindenwold 
-    • 23-Magnolia 
-    • 24 Merchantville  
-    • 25 Mount Ephraim 
-    • 26 Oaklyn 
-    • 27 Pennsauken Twp 
-    • 28 Pine Hill   
-    • 29 Pine Valley 
-    • 30 Runnemede 
-    • 31 Somerdale 
-    • 32 Stratford 
-    • 33 Tavistock 
-    • 34 Voorhees Twp. 
-    • 35 Waterford Twp. 
-    • 36 Winslow Twp. 
-    • 37 Woodlyne 
 **********************************************************
 Burlington County, NJ
 Contact: Jerseyfirefighter@gmail.com
