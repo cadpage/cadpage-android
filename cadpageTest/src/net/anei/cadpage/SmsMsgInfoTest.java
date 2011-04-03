@@ -15,6 +15,8 @@ public class SmsMsgInfoTest {
   @Test
   public void testGetMapAddress() {
     
+    doMapTest("DR3", "345 XX 22,KENBURG,XX", "345 XX RT 22");
+    
     doMapTest("PAArmstrongCounty", 
         "868 STATE 28,KENBURG,XX",
         "868 STATE ROUTE 28");
@@ -43,6 +45,8 @@ public class SmsMsgInfoTest {
     
     doMapTest("DR1", "345 W US 30,KENBURG,XX", "345 W US RT 30");
     doMapTest("DR2", "345 w st 30,KENBURG,XX", "345 w st hwy 30");
+    doMapTest("DR3", "345 XX 22,KENBURG,XX", "345 XX RT 22");
+    doMapTest("DR4", "345 XY RT 22,KENBURG,XX", "345 XY RT 22");
     
     doMapTest("BLK1", "6000 REIDSVILLE RD,KENBURG,XX", "6000BLK REIDSVILLE RD");
     doMapTest("BLK2", "6000 OBLKA ST,KENBURG,XX", "6000 OBLKA ST");

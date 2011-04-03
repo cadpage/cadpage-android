@@ -27,6 +27,12 @@ public class NCMecklenburgCountyParserTest extends BaseParserTest {
         "PLACE:Lakeside Familty Physicians an",
         "INFO:Delta",
         "CALL:31- Unconsciousness/");
+
+    doTest("T3",
+        "(Text Page) 16710 Northcross Dr                                                   Fire -  Emergency             59-Fuel Spi",
+        "ADDR:16710 Northcross Dr",
+        "INFO:Fire -  Emergency",
+        "CALL:59-Fuel Spi");
  }
   
 

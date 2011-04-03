@@ -95,7 +95,16 @@ public class NYNassauCountyRedAlertParserTest extends BaseParserTest {
         "CITY:HICKSVILLE",
         "X:BLUEBERRY LN",
         "PLACE:KENDALL, ANNA");
-   
+
+    doTest("T2",
+        "BUILDING FIRE: SMOKE IN THE STRUCTURE  at 6 W VILLAGE GRN, HICKSVILLE  c/s: BARTER LN   O: ANNE'S WASH AND DRY . . 13:29:45",
+        "CALL:BUILDING FIRE",
+        "INFO:SMOKE IN THE STRUCTURE",
+        "ADDR:6 W VILLAGE GRN",
+        "CITY:HICKSVILLE",
+        "X:BARTER LN",
+        "PLACE:ANNE'S WASH AND DRY");
+  
   }
   
   @Test

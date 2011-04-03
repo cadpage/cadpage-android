@@ -62,9 +62,23 @@ public class NYNassauCountyCParserTest extends BaseParserTest {
         "PLACE:WESTBURY MIDDLE SCHOOL",
         "ADDR:455 ROCKLAND STREET",
         "X:LINDEN PLACE  / SCHOOL STREET");
+
+    doTest("T8",
+        "SIG 4- SIGNAL 9   MARK,GERTRUDE 701 THE PLAIN ROAD CS: LADENBURG DRIVE  / VALENTINE ROAD TOA: 09:14 04/02/11",
+        "CALL:SIG 4- SIGNAL 9",
+        "PLACE:MARK,GERTRUDE",
+        "ADDR:701 THE PLAIN ROAD",
+        "X:LADENBURG DRIVE  / VALENTINE ROAD");
+
+    doTest("T9",
+        "SIG 4- SIGNAL 9  CODE 96  OUIDIO CASTRO 50 WATERBURY LANE CS: BARD ROAD  / PEPPERIDGE ROAD TOA: 13:23 04/02/11",
+        "CALL:SIG 4- SIGNAL 9 CODE 96",
+        "PLACE:OUIDIO CASTRO",
+        "ADDR:50 WATERBURY LANE",
+        "X:BARD ROAD  / PEPPERIDGE ROAD");
   }
   
   public static void main(String[] args) {
-    new NYNassauCountyCParserTest().generateTests("T1");
+    new NYNassauCountyCParserTest().generateTests("T9");
   }
 }

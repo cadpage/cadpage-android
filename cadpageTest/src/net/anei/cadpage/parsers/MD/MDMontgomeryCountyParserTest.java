@@ -72,6 +72,17 @@ public class MDMontgomeryCountyParserTest extends BaseParserTest {
         "ADDR:209 FOUNTAIN GREEN LA",
         "UNIT:E708 E722 E729 E734 E728 T731 AT708 RS703");
 
+    doTest("T7",
+        "CAD MSG: * D * 3525 * PIC w/VEH OVERTURNED-ALS1 * S270C 121-27 @ 17000 S270 X18 TO X16 HWY ,MCG  * M735 T7",
+        "BOX:3525",
+        "CALL:PIC w/VEH OVERTURNED-ALS1",
+        "ADDR:S270C 121-27 @ 17000 S270 X18 TO X16 HWY",
+        "UNIT:M735");
+
+  }
+  
+  public static void main(String[] args) {
+    new MDMontgomeryCountyParserTest().generateTests("T1", "BOX CALL ADDR UNIT PLACE");
   }
   
 }

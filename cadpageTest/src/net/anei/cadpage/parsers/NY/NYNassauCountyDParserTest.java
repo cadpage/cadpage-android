@@ -73,9 +73,16 @@ public class NYNassauCountyDParserTest extends BaseParserTest {
         "CALL:10) HOUSE FIRE",
         "ADDR:212 GILLING RD",
         "X:WHELAN PL");
+
+    doTest("T11",
+        "FRM:paging@bethpagefd.xohost.com\nMSG:\n2011-000418 *** 21)  AFA BUILDING *** BETHPAGE HIGH SCHOOL 800 STEWART AVE CS: SYCAMORE AVE TOA: 12:03 04-02-11 STATION 4",
+        "ID:2011-000418",
+        "CALL:21)  AFA BUILDING",
+        "ADDR:BETHPAGE HIGH SCHOOL 800 STEWART AVE",
+        "X:SYCAMORE AVE");
   }
   
   public static void main(String[] args) {
-    new NYNassauCountyDParserTest().generateTests("T1");
+    new NYNassauCountyDParserTest().generateTests("T11");
   }
 }

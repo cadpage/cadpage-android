@@ -139,10 +139,21 @@ public class PABucksCountyParserTest extends BaseParserTest {
         "CITY:MILFORD TWP",
         "BOX:57002",
         "ID:E57");
-       
+
+    doTest("T12",
+        "911: STA4  type:RAUTO   adr:PHILMONT AV/E STREET RD ,43  aai:PHILMONT SO STREET  box:04003  map:3261B8  tm:10:21:22  FD1104774    Run: R4 R6 E1",
+        "SRC:STA4",
+        "CALL:RAUTO",
+        "ADDR:PHILMONT AV & E STREET RD",
+        "CITY:LOWER SOUTHAMPTON TWP",
+        "INFO:PHILMONT SO STREET",
+        "BOX:04003",
+        "MAP:3261B8",
+        "ID:E1");
+      
   }
   
   public static void main(String[] args) {
-    new PABucksCountyParserTest().generateTests("T11", "SRC CALL ADDR APT PLACE CITY X INFO BOX MAP ID");
+    new PABucksCountyParserTest().generateTests("T12", "SRC CALL ADDR APT PLACE CITY X INFO BOX MAP ID");
   }
 }
