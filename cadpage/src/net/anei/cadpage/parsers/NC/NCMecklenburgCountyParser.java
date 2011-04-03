@@ -14,6 +14,12 @@ Subject:Text Page\n03172011-073     Received:  08:42    Assigned:  08:43    Enro
 Subject:Text Page\n19485 Old Jetton Rd           ste 100   Lakeside Familty Physicians anDelta                         31- Unconsciousness/
 Subject:Text Page\n03172011-239     Received:  16:59    Assigned:  16:59    Enroute:   17:01    Arrived:   17:02    Pt Contact:         Can
 
+Contact: Tucker Sizemore <tsizemore@gmail.com>
+Sender: @huntersvillefd.com
+(Text Page) 04022011-202     Received:  15:29    Assigned:  15:29    Enroute:            Arrived:            Pt Contact:
+(Text Page) 16710 Northcross Dr                                                   Fire -  Emergency             59-Fuel Spi
+(Text Page) 04022011-238     Received:  16:50    Assigned:  16:50    Enroute:   16:51    Arrived:   16:59    Pt Contact:
+
 */
 
 public class NCMecklenburgCountyParser extends SmsMsgParser {
@@ -24,7 +30,7 @@ public class NCMecklenburgCountyParser extends SmsMsgParser {
   
   @Override
   public String getFilter() {
-    return "paging@rcsepager.com";
+    return "paging@rcsepager.com,@huntersvillefd.com";
   }
   
   @Override

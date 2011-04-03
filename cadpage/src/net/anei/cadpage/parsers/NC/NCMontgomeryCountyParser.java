@@ -17,6 +17,10 @@ MDAVIS:201107560 179 TILLERY DAM RD MT GILEAD ILLEGAL BURN MAN BURNING TRASH NEA
 JWHITAKER:201107575 644 BISCOE RD TROY FIRE ALARM tommy and debbie honeycutt,gen fire and gen burg,no contact on premise,audible
 JWHITAKER:201107593 468 EAST MAIN ST CANDOR FIRE ALARM plant 28,riser 1 water flow
 KMORRIS:1895 NC HWY 24-27 E INT BISCOE INFORMATION 201107696 12:09:59 test
+KMORRIS:2295 NC HWY 24-27 E BISCOE BISCOE PHARMACY STRUCTURE FIRE 201108670 15:41:32
+
+|GCOVINGTON:201108622 303 GREEN TOP RD STAR MAN WITH A GUN BOBBY GILCHREST T35/GUN WILL NOT LET JEANNE CASSIDY LEAVE :1of2
+|HIS RESD, HAS ALSO THREATENED TO CUT HER IF SHE LEAVES.:2of2
 
 */
 
@@ -55,6 +59,11 @@ public class NCMontgomeryCountyParser extends SmartAddressParser {
   
   @Override
   public boolean parseMsg(String body, Data data) {
+    
+    // Pipe character aren't normally used in this format, but they can get
+    // inserted by page splitters in ways that the normal descrambling logic
+    // cannot detect.  So we solve that problem be removing all pipes.
+    body = body.replace("|", "");
     
     // Strip of dispatcher and possible ID from beginning of body
     Matcher match = LEAD_PTN.matcher(body);
@@ -96,7 +105,7 @@ public class NCMontgomeryCountyParser extends SmartAddressParser {
       }
       data.strSupp = body;
     }
-    data.strAddress = data.strAddress.replace(" 99242799 ", " 24 ");
+    data.strAddress = data.strAddress.replace(" 99242799 ", " 24 27 ");
     if (data.strAddress.endsWith(" INT")) {
       data.strAddress = data.strAddress.substring(0,data.strAddress.length()-4).trim();
     }

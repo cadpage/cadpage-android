@@ -9,7 +9,7 @@ import net.anei.cadpage.parsers.SmsMsgParser;
 /*
 Montgomery County, MD
 Contact: Alain Pankopf <hockeylaxboy11@gmail.com>
-Sender: rc.355@c-msg.net,alrt_36NG@mcen.montgomerycountymd.gov 
+Sender: rc.355@c-msg.net,@mcen.montgomerycountymd.gov 
 
 MCo / [mCAD] * D * 2301 * BUILDING FIRE * 1620 E JEFFERSON ST ,RO * E723 E703 E721 E726 E705B AT723 AT703 RS703 A723 BC703 BC704 D3 D5 DFRS INV CEALRM CODE BCNOT
 MCo / [mCAD] * D * 0302 * BUILDING FIRE * 733 MONROE ST ,RO * E723 E733 E726 E725 E721 AT703 AT723 RS741B M723 BC703 BC704 D3 D5 DFRS INV CEALRM CODE BCNOT
@@ -25,6 +25,9 @@ Sender: MC Emergency Network
 CAD MSG: * D * 3132 * BOX ALARM * 209 FOUNTAIN GREEN LA ,GA  * E708 E722 E729 E734 E728 T731 AT708 RS703 M73M
 CAD MSG: * D * 2424 * PIC w/ ENTRAPMENT -ALS1 * 13400 NEW HAMPSHIRE AVE / 2 RANDOLPH RD ,MCG  * A724 E724
 
+Contact: "Ebow Holdbrook-Smith" <ebowhold4u@gmail.com>
+CAD MSG: * D * 3525 * PIC w/VEH OVERTURNED-ALS1 * S270C 121-27 @ 17000 S270 X18 TO X16 HWY ,MCG  * M735 T7
+
 */
 
 public class MDMontgomeryCountyParser extends SmsMsgParser {
@@ -34,7 +37,7 @@ public class MDMontgomeryCountyParser extends SmsMsgParser {
   }
   
 	public String getFilter() {
-		return "rc.355@c-msg.net,MC Emergency Network,alrt_36NG@mcen.montgomerycountymd.gov";
+		return "rc.355@c-msg.net,MC Emergency Network,@mcen.montgomerycountymd.gov";
 	}
 	
 	@Override

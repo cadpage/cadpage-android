@@ -268,21 +268,33 @@ public class SmsMsgInfo {
   // But it doesn't loke US RTE 666
   // If we find a construct like that, remove the middle section
   private static final Pattern DBL_ROUTE_PTN = 
-    Pattern.compile("\\b(CO|US|ST|STATE) +(RT|RTE|ROUTE|HW|HWY) +(\\d+)\\b", Pattern.CASE_INSENSITIVE);
+    Pattern.compile("\\b([A-Z]{2}|STATE) +(RT|RTE|ROUTE|HW|HWY) +(\\d+)\\b", Pattern.CASE_INSENSITIVE);
   private String cleanDoubleRoutes(String sAddress) {
     Matcher match = DBL_ROUTE_PTN.matcher(sAddress);
     int pt = 0;
+    int lastPt = 0;
     if (!match.find(pt)) return sAddress;
     
     StringBuilder sb = new StringBuilder();
     do {
-      sb.append(sAddress.substring(pt, match.start()));
-      sb.append(sAddress.substring(match.start(1), match.end(1)));
-      sb.append(' ');
-      sb.append(sAddress.substring(match.start(3), match.end(3)));
+      String prefix = match.group(1);
+      String suffix = match.group(3);
+      String state = strState;
+      if (strState.length() == 0) state = defState;
+      if (prefix.length() != 2 ||
+          (prefix.equalsIgnoreCase(state) ||
+           prefix.equalsIgnoreCase("CO") ||
+           prefix.equalsIgnoreCase("US") ||
+           prefix.equalsIgnoreCase("ST"))) {
+        sb.append(sAddress.substring(lastPt, match.start()));
+        sb.append(prefix);
+        sb.append(' ');
+        sb.append(suffix);
+        lastPt = match.end();
+      }
       pt = match.end();
     } while (match.find(pt));
-    sb.append(sAddress.substring(pt));
+    sb.append(sAddress.substring(lastPt));
     return sb.toString();
   }
 

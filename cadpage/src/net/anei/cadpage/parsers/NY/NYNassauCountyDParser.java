@@ -1,5 +1,8 @@
 package net.anei.cadpage.parsers.NY;
 
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 import net.anei.cadpage.SmsMsgInfo.Data;
 import net.anei.cadpage.parsers.FieldProgramParser;
 
@@ -20,9 +23,14 @@ Sender: paging@bethpagefd.xohost.com
 *** 10) HOUSE FIRE *** 22 CRESTLINE AVE CS: HILLTOP AVE TOA: 15:41 03-21-11
 *** 10) HOUSE FIRE *** 212 GILLING RD CS: WHELAN PL TOA: 14:33 03-20-11
 
+Contact: jim baudille jr <ncdisp33@gmail.com>
+FRM:paging@bethpagefd.xohost.com\nMSG:\n2011-000418 *** 21)  AFA BUILDING *** BETHPAGE HIGH SCHOOL 800 STEWART AVE CS: SYCAMORE AVE TOA: 12:03 04-02-11 STATION 4
+
 */
 
 public class NYNassauCountyDParser extends FieldProgramParser {
+  
+  private static final Pattern ID_PTN = Pattern.compile("^(\\d{4}-\\d{6}) ");
   
   public NYNassauCountyDParser() {
     super("NASSAU COUNTY", "NY",
@@ -31,6 +39,12 @@ public class NYNassauCountyDParser extends FieldProgramParser {
 
   @Override
   protected boolean parseMsg(String body, Data data) {
+    
+    Matcher match = ID_PTN.matcher(body);
+    if (match.find()) {
+      data.strCallId = match.group(1);
+      body = body.substring(match.end()).trim();
+    }
     
     // Call description is in front of text bracketed by three asterisks
     if (!body.startsWith("***")) return false;
@@ -45,7 +59,7 @@ public class NYNassauCountyDParser extends FieldProgramParser {
   
   @Override
   public String getProgram() {
-    return "CALL " + super.getProgram();
+    return "ID CALL " + super.getProgram();
   }
 }
 
