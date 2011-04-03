@@ -35,7 +35,7 @@ public class TXMontgomeryCountyParser extends FieldProgramParser {
   
   public TXMontgomeryCountyParser() {
     super(CITY_CODES, DEF_CITY, DEF_STATE,
-           "New_Fire_Run:ID Nature:CALL Location:ADDR/c! UNIT Building:APT Cross:X/c");
+           "New_Fire_Run:ID Nature:CALL Location:ADDR/y! UNIT Building:APT Cross:X/c");
   }
   
   @Override

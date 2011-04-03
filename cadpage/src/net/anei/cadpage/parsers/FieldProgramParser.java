@@ -51,9 +51,12 @@ import net.anei.cadpage.SmsMsgInfo.Data;
  *     S - Invoke smart parser logic, this is followed by two characters
  *         The first determines what can come ahead of the address
  *         X - nothing
- *         C - call description
- *         P - Place name
- *         S - something we can skip
+ *         C - call description (req)
+ *         c - call description (opt)
+ *         P - Place name (opt)
+ *         p - place name (req)
+ *         S - something we can skip (opt)
+ *         s - something we can skip (req)
  *         The second determines what data comes after the address
  *         X - nothing
  *         C - call description
@@ -1201,7 +1204,7 @@ public class FieldProgramParser extends SmartAddressParser {
     @Override
     public void setQual(String qual) {
       if (qual == null) return;
-      incCity = qual.contains("c");
+      incCity = qual.contains("y");
       
       int pt = qual.indexOf('S');
       if (pt >= 0) {
@@ -1210,8 +1213,12 @@ public class FieldProgramParser extends SmartAddressParser {
         do {
           if (++pt >= qual.length()) break;
           char chr = qual.charAt(pt);
-          int pt2 = "CPS".indexOf(chr);
+          int pt2 = "cPsCpS".indexOf(chr);
           if (pt2 >= 0) {
+            if (pt2 >= 3) {
+              pt2 -= 3;
+              parseFlags |= FLAG_START_FLD_REQ;
+            }
             startField = new String[]{"CALL","PLACE",null}[pt2];
             startType = new StartType[]{StartType.START_CALL,StartType.START_PLACE,StartType.START_SKIP}[pt2];
           }
@@ -1220,7 +1227,7 @@ public class FieldProgramParser extends SmartAddressParser {
           chr = qual.charAt(pt);
           pt2 = "CPSaUNI".indexOf(chr);
           if (pt2 >= 0) {
-            parseFlags = 0;
+            parseFlags &= ~FLAG_ANCHOR_END;
             tailField = new String[]{"CALL","PLACE","SKIP","APT","UNIT","NAME","INFO"}[pt2];
             tailData = getField(tailField);
           }
