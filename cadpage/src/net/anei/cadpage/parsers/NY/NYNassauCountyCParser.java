@@ -45,10 +45,19 @@ public class NYNassauCountyCParser extends FieldProgramParser {
   private class MyAddressField extends AddressField {
     @Override
     public void parse(String field, Data data) {
-      int pt = field.lastIndexOf("  ");
-      if (pt >= 0) {
-        data.strPlace = field.substring(pt+2).trim();
-        field = field.substring(0,pt).trim();
+      int pt1 = field.indexOf("  ");
+      if (pt1 >= 0) {
+        int pt2 = field.lastIndexOf("  ");
+        if (pt1 == pt2) {
+          if (field.startsWith("CODE ")) {
+            pt2 = field.length();
+          } else {
+            pt1 = -2;
+          }
+        }
+        if (pt1 >= 0) data.strCall = append(data.strCall, " ", field.substring(0,pt1).trim());
+        if (pt2 < field.length()) data.strPlace = field.substring(pt2+2).trim();
+        field = field.substring(pt1+2,pt2).trim();
       }
       super.parse(field, data);
     }
