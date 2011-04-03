@@ -10,7 +10,7 @@ import net.anei.cadpage.parsers.FieldProgramParser;
 /*
 Camden County, NJ
 Contact: "N.dalonzo" <nfdfire45@comcast.net>
-Sender: cccdemail@camdencounty@camdencounty.com
+Sender: cccademail@camdencounty.com 
 
 (Dispatch SD45) DWELLING\n312 9TH ST ,14\n#:\nX:CENTER/CHERRY\nZN:14A\nCP:  2011-03-31 10:44:12\nMI#:110073123\nRES#:SD45
 (Dispatch SD45) M.V.A\nROUTE 295 SB RAMP TO 76 SB ALJO CUR ,04\n#:\nX:/\nZN:04Q\nCP:ROUTE 295 SB RAMP T  2011-03-31 09:06:36\nMI#:110073062 
@@ -30,7 +30,7 @@ public class NJCamdenCountyParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "cccdemail@camdencounty@camdencounty.com";
+    return "cccademail@camdencounty.com";
   }
   
   @Override
