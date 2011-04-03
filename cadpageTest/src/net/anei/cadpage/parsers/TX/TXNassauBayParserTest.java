@@ -53,9 +53,16 @@ public class TXNassauBayParserTest extends BaseParserTest {
         "SRC:NBFD",
         "CALL:VEHICLE FIRE",
         "ADDR:18100 UPPER BAY RD");
+
+    doTest("T7",
+        "CAD:Update: ;WBFD;FIRE ALARM;450 W MEDICAL CENTER BLVD;WB;WBW;04/02/2011 07:22:55;CALLED THE NUMBER BELOW AND REC ANSWERING SERVICE THEY COULD PROVIDE MORE I",
+        "SRC:WBFD",
+        "CALL:FIRE ALARM",
+        "ADDR:450 W MEDICAL CENTER BLVD",
+        "INFO:CALLED THE NUMBER BELOW AND REC ANSWERING SERVICE THEY COULD PROVIDE MORE I");
  }
   
   public static void main(String[] args) {
-    new TXNassauBayParserTest().generateTests("T6");
+    new TXNassauBayParserTest().generateTests("T7");
   }
 }
