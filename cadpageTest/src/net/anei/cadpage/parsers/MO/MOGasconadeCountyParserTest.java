@@ -52,7 +52,15 @@ public class MOGasconadeCountyParserTest extends BaseParserTest {
         "ADDR:901 W EIGHTH ST",
         "CITY:BELLE",
         "X:S SHOCKLEY AVE 0.01 mi NE S APPLE AVE 0.19 mi E");
-        
+
+    doTest("T7",
+        "501 FALL- PERSON FELL FRENE VALLEY HEALTHCARE SOUTH 1016 W HIGHWAY 28 OWENSVILLE MapRegions: OFD SECTOR 1, PAGE 072 CrossStreets: HIGHWAY Y 0.05 mi N S L&D DR 0.44 mi SW Description: 96 YOA FALL BROKEN WRIST Dispatch: 4/3/2011 06:00:43",
+        "CALL:501 FALL- PERSON FELL FRENE VALLEY HEALTHCARE SOUTH",
+        "ADDR:1016 W HIGHWAY 28",
+        "CITY:OWENSVILLE",
+        "MAP:OFD SECTOR 1, PAGE 072",
+        "X:HIGHWAY Y 0.05 mi N S L&D DR 0.44 mi SW",
+        "INFO:96 YOA FALL BROKEN WRIST");
   }
 
   public static void main(String[] args) {
