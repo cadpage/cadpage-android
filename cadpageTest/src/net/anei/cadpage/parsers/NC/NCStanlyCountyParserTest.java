@@ -60,10 +60,33 @@ public class NCStanlyCountyParserTest extends BaseParserTest {
         "CITY:NORWOOD",
         "X:CARVER ST & WIL-KRIS DR",
         "INFO:CHEST PAIINS.VOMITTING # PATS: 1 AGE: 66 Years SEX: Ma");
+
+    doTest("T7",
+        "CAD:80-STRUCTURE ALARM/OLD CHARLOTTE RD/HARWOOD ST/ALB/SMOKE COMING FROM BARN ON OLD CHARLOTTE [04/03/11 17:44:15 BWHITLEY] B/T HARWOOD AND COBLE [04/03/11 17:",
+        "CALL:80-STRUCTURE ALARM",
+        "ADDR:OLD CHARLOTTE RD & OLD CHARLOTTE RD & HARWOOD ST",
+        "CITY:ALBEMARLE",
+        "X:SMOKE COMING FROM BARN ON OLD CHARLOTTE",
+        "INFO:B / T HARWOOD AND COBLE");
+
+    doTest("T8",
+        "CAD:80-STRUCTURE ALARM/1700 WOODHURST LN/ALB/BIRD RD/ANDERSON RD/manual activation [04/03/11 17:54:08 DSHAVER]",
+        "CALL:80-STRUCTURE ALARM",
+        "ADDR:1700 WOODHURST LN",
+        "CITY:ALBEMARLE",
+        "X:BIRD RD & ANDERSON RD",
+        "INFO:manual activation");
+
+    doTest("T9",
+        "CAD:80-DWELLING ALARM/601 EAST ST/ALB/N SEVENTH ST/N EIGHTH ST",
+        "CALL:80-DWELLING ALARM",
+        "ADDR:601 EAST ST",
+        "CITY:ALBEMARLE",
+        "X:N SEVENTH ST & N EIGHTH ST");
   }
   
 
   public static void main(String[] args) {
-    new NCStanlyCountyParserTest().generateTests("T1");
+    new NCStanlyCountyParserTest().generateTests("T7");
   }
 }
