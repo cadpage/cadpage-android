@@ -76,9 +76,15 @@ public class NYNassauCountyCParserTest extends BaseParserTest {
         "PLACE:OUIDIO CASTRO",
         "ADDR:50 WATERBURY LANE",
         "X:BARD ROAD  / PEPPERIDGE ROAD");
+
+    doTest("T10",
+        "SIG 4- SIGNAL 9   AAR AIRCRAFT COMPONENT SERVICE 747 ZECKENDORF BOULEVARD  / DIBBLEE DRIVE TOA: 11:54 04/04/11",
+        "CALL:SIG 4- SIGNAL 9",
+        "PLACE:/ DIBBLEE DRIVE",
+        "ADDR:747 ZECKENDORF BOULEVARD");
   }
   
   public static void main(String[] args) {
-    new NYNassauCountyCParserTest().generateTests("T9");
+    new NYNassauCountyCParserTest().generateTests("T10");
   }
 }
