@@ -89,5 +89,18 @@ public class PAAlleghenyCountyParserTest extends BaseParserTest {
         "SRC:NFD3", 
         "ID:247006 191001",
         "UNIT:102EN1 149EN1 191EN1 191TK1 240SQ1 247TK1 259EN1 260TK1 312RQ40");
+
+    doTest("T8",
+        ":FRVEH, F2, VEHICLE FIRE, 3541 LAKETON RD, PEN, btwn LINDBERG AVE and NELBON AVE, EFD1, 225001",
+        "CALL:FRVEH - VEHICLE FIRE",
+        "ADDR:3541 LAKETON RD",
+        "CITY:PENN HILLS",
+        "X:LINDBERG AVE and NELBON AVE",
+        "SRC:EFD1",
+        "ID:225001");
+  }
+  
+  public static void main(String[] args) {
+    new PAAlleghenyCountyParserTest().generateTests("T8", "CALL ADDR CITY X SRC ID INFO UNIT");
   }
 }
