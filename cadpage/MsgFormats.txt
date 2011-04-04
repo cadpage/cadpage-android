@@ -1434,6 +1434,10 @@ Sender: LC911@lcounty.com
 LC911:ILLNESS    24 S OREGON ST   JOHNSTOWN
 LC911:HEMMORAGE/LACERATION - Location:   14584.00  JUG STREET RD  JERSEY TWP
 **********************************************************
+Another Nassau County, NY parser
+Contact: Edward mccormack <emccorma42@gmail.com>
+Subject:4/4/2011 03:24\nCall: SPILL Sub: SPILL LINDEN BLVD ELMONT Cross: ELMONT ROAD &\2s11-A6, ZONE 5
+**********************************************************
 **********************************************************
 ************  READY TO ROLL ******************************
 **********************************************************
