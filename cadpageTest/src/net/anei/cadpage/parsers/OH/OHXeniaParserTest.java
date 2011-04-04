@@ -12,7 +12,7 @@ public class OHXeniaParserTest extends BaseParserTest {
   }
   
   @Test
-  public void testParser() {
+  public void testXeniwTwpParser() {
     
     doTest("T1",
         "MBLS-MEDICAL Location: 160 RICHARD DR DAYTON XENIA RD / ROBERT LN XENIA TWP Time: 17:31 Units: M51  Common",
@@ -207,7 +207,52 @@ public class OHXeniaParserTest extends BaseParserTest {
         "ADDR:1154 HOOK RD S",
         "X:BICKETT RD & OLD HOOK RD",
         "CITY:XENIA TWP");
+    
+  }
+  
+  @Test
+  public void testJasperTwpParser() {
 
+    doTest("T1",
+        "(Dispatch Info) FMBLS-MEDICAL Location: 738 BLACK FOOT TRL SHAWNEE TRL / ONEIDA TRL NEW JASPER TWP Time: 20:37 Units:  Common Name: Info:  Problem: LO",
+        "CALL:FMBLS-MEDICAL",
+        "ADDR:738 BLACK FOOT TRL",
+        "X:SHAWNEE TRL & ONEIDA TRL",
+        "CITY:NEW JASPER TWP",
+        "INFO:Problem: LO");
+
+    doTest("T2",
+        "(Dispatch Info) FMALS-MEDIC AL Location: 3986 SHAWNEE TRL N LAKESHORE DR / NIAGARA TRL NEW JASPER TWP Time: 14:09 Units: M42 BR14  Common Name: Info:",
+        "CALL:FMALS-MEDIC AL",
+        "ADDR:3986 SHAWNEE TRL N",
+        "X:LAKESHORE DR & NIAGARA TRL",
+        "CITY:NEW JASPER TWP",
+        "UNIT:M42 BR14");
+
+    doTest("T3",
+        "(Dispatch Info) FMBLS-MEDICAL Location: 3811 WAYNESVILLE JAMESTOWN RD ST JOHN RD / MT CARMEL RD NEW JASPER TWP Time: 09:57 Units: M14 BR14  Common Nam",
+        "CALL:FMBLS-MEDICAL",
+        "ADDR:3811 WAYNESVILLE JAMESTOWN RD",
+        "X:ST JOHN RD & MT CARMEL RD",
+        "CITY:NEW JASPER TWP",
+        "UNIT:M14 BR14");
+
+    doTest("T4",
+        "(Dispatch Info) CRUI Location: 3809 JASPER RD ST JOHN RD / APACHE TRL NEW JASPER TWP Time: 18:16 Units:  Common Name: Info:  W 2 PTS NON ER TO GMH  PO",
+        "CALL:CRUI",
+        "ADDR:3809 JASPER RD",
+        "X:ST JOHN RD & APACHE TRL",
+        "CITY:NEW JASPER TWP",
+        "INFO:W 2 PTS NON ER TO GMH  PO");
+
+    doTest("T5",
+        "(Dispatch Info) FMALS-MEDIC AL Location: 2136 E  HOOP RD GULTICE RD / COOPER LN NEW JASPER TWP Time: 06:21 Units: M14 BR14  Common Name: Info:  NOT RE",
+        "CALL:FMALS-MEDIC AL",
+        "ADDR:2136 E HOOP RD",
+        "X:GULTICE RD & COOPER LN",
+        "CITY:NEW JASPER TWP",
+        "UNIT:M14 BR14",
+        "INFO:NOT RE");
     
   }
   
