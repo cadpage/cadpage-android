@@ -22,6 +22,8 @@ Split messages, same send time
 ALLEGHENY COUNTY 911 :09E1A, E0, NOT BREATHING AT ALL -COLD/STIFF IN WARM, 9116 WALNUT ST, PLU, btwn APPLE AVE and PINE ST, EMD1, E48505, 68 YOM NOT BREATHING,
 THINKS HE IS DECEASED, Units:487 - From 504 02/08/2011 19:30:00 TXT STOP to opt-out
 
+:FRVEH, F2, VEHICLE FIRE, 3541 LAKETON RD, PEN, btwn LINDBERG AVE and NELBON AVE, EFD1, 225001
+
 
 
 
@@ -41,13 +43,15 @@ public class PAAlleghenyCountyParser extends SmsMsgParser {
   @Override
   protected boolean parseMsg(String body, Data data) {
 
-    int pt = body.indexOf(MARKER);
-    if (pt < 0) return false;
-    body = body.substring(pt+MARKER.length());
+    if (body.startsWith(MARKER)) {
+      body = body.substring(MARKER.length()).trim();
+    } else if (body.startsWith(":")) {
+      body = body.substring(1).trim();
+    } else return false;
     
     // Remove trailing stuff that we aren't interested in
     data.expectMore = true;
-    pt = body.indexOf(" - From");
+    int pt = body.indexOf(" - From");
     if (pt >= 0) {
       data.expectMore = false;
       body = body.substring(0, pt).trim();
