@@ -66,6 +66,13 @@ public class TXNassauBayParserTest extends BaseParserTest {
         "SRC:WBFD",
         "CALL:ACCIDENT MAJOR",
         "ADDR:MAGNOLIA & S KOBAYSHI");
+
+    doTest("T8",
+        ":CAD:FYI: ;WBFD;SMELL OF SMOKE GAS OUTSIDE;18206 EGRET BAY BLVD;WB;WBE;04/04/2011 17:01:45;SMELL OF NATURAL GAS IN AREA - FENCED AREA NEXT TO ICHIBON [04/04/1",
+        "SRC:WBFD",
+        "CALL:SMELL OF SMOKE GAS OUTSIDE",
+        "ADDR:18206 EGRET BAY BLVD",
+        "INFO:SMELL OF NATURAL GAS IN AREA - FENCED AREA NEXT TO ICHIBON");
  }
   
   public static void main(String[] args) {
