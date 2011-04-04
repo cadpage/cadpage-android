@@ -34,6 +34,15 @@ FRES-RESIDENTIAL FIRE Location: 710 HAWKINS RD CREEKSIDE TRAIL BIKE PATH / FORD 
 FMALS-MEDIC AL Location: 1264 BOYD RD DEAD END / US 68 S XENIA TWP Time: 21:25 Units: M52 E52  Common Name:
 FMBLS-MEDICAL Location: 1154 HOOK RD S BICKETT RD / OLD HOOK RD XENIA TWP Time: 17:17 Units:  Common Name:
 
+New Jasper Township
+Contact: Greg Gould <gould1440@gmail.com>
+Sender: psisn_dispatch@ci.xenia.oh.us
+(Dispatch Info) FMBLS-MEDICAL Location: 738 BLACK FOOT TRL SHAWNEE TRL / ONEIDA TRL NEW JASPER TWP Time: 20:37 Units:  Common Name: Info:  Problem: LO
+(Dispatch Info) FMALS-MEDIC AL Location: 3986 SHAWNEE TRL N LAKESHORE DR / NIAGARA TRL NEW JASPER TWP Time: 14:09 Units: M42 BR14  Common Name: Info:
+(Dispatch Info) FMBLS-MEDICAL Location: 3811 WAYNESVILLE JAMESTOWN RD ST JOHN RD / MT CARMEL RD NEW JASPER TWP Time: 09:57 Units: M14 BR14  Common Nam
+(Dispatch Info) CRUI Location: 3809 JASPER RD ST JOHN RD / APACHE TRL NEW JASPER TWP Time: 18:16 Units:  Common Name: Info:  W 2 PTS NON ER TO GMH  PO
+(Dispatch Info) FMALS-MEDIC AL Location: 2136 E  HOOP RD GULTICE RD / COOPER LN NEW JASPER TWP Time: 06:21 Units: M14 BR14  Common Name: Info:  NOT RE
+
  */
 
 
@@ -42,6 +51,11 @@ public class OHXeniaParser extends FieldProgramParser {
   public OHXeniaParser() {
     super("GREENE COUNTY", "OH",
            "CALL Location:ADDR! Time:SKIP Units:UNIT Common_Name:NAME Info:INFO");
+  }
+  
+  @Override
+  public String getFilter() {
+    return "psisn_dispatch@ci.xenia.oh.us";
   }
   
   private class MyAddressField extends AddressField {
