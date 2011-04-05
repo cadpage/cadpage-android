@@ -18,6 +18,7 @@ Location: 9350 FREEMAN RD FC Nature: Headache P:1  - VISION_PROBLEMS DISTRICT: R
 Location: 6000BLK REIDSVILLE RD FC Nature: PUBLIC SERVICE CALL P:3  - default DISTRICT: F31 X Str: BRINKLEY RD/GOODWILL CHURCH RD CALLER NAME:
 Location: 1105 WHISPERING PINES DR FC Nature: Power Lines Arcing on Pole P:2  - default DISTRICT: F31 X Str: WARDS POND CT/QUAIL HOLLOW RD CALLER NAME:
 Location: 5825 POPPY SEED DR FC Nature: Brush Fire P:1  - default DISTRICT: F31 X Str: BRINKLEY PARK DR/JILAIN ST CALLER NAME: CARANNA, KENWYN
+Location: 1800 SPRINGFIELD FARM CT CL Nature: Breathing Difficulty P:1  - BREATHING_DIFF DISTRICT: R11 X Str: SPRINGFIELD FARM RD/ CALLER NAME:
 
  */
 
@@ -25,7 +26,9 @@ Location: 5825 POPPY SEED DR FC Nature: Brush Fire P:1  - default DISTRICT: F31 
 public class NCForsythCountyParser extends FieldProgramParser {
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
-      "FC", "FORSYTH COUNTY"
+      "FC", "FORSYTH COUNTY",
+      "CL", "CLEMMONS",
+      "LE", "LEWISVILLE"
   });
   
   private static final Pattern MA_PATTERN = Pattern.compile("@(.+):"); 
