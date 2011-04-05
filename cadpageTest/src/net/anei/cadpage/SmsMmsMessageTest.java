@@ -8,6 +8,7 @@ public class SmsMmsMessageTest {
   
   @Test
   public void testParseInfo() {
+        
     
     doParseTest("NCMontgomeryCounty",
         "1 of 10\nFRM:CAD@otsegocounty.com\nSUBJ:911 EVENT\nMSG:HAZARD ALL|WILBER NATIONAL BANK - COOPERS|5378 ST HWY 28   STA COOP3 XS CO HWY 26\n(Con't) 2 of 10\n/WALNUT|09:04|NARR SOUTH OF BANK MVA PDAA NEED FIR POLICE  PERSON: (COMPLAINANT) (FMLS) TIM  DONLAN\nDisclaimer:\n\nThis communication,\n(Con't 3 of 10\nincluding any attachments, may contain confidential information and is intended only for \nthe individual or entity to whom it is\n(Con't) 4 of 10\naddressed. Any review, dissemination, or copying of this communication \nby anyone other than the intended recipient is strictly\n(Con't) 5 of 10\nprohibited. If you are not the intended recipient, please \ncontact the sender by reply e-mail, delete and destroy all copies of the origi\nMore?",
@@ -217,6 +218,10 @@ public class SmsMmsMessageTest {
     
     doParseTest("TRL2-done", "WHERE IS BABY :2of2",
                "ken@cadpage.org", "", "WHERE IS BABY", false);
+    
+    doParseTest("NYSuffolkCounty",
+        "Body:(1/2)Daniel M. Agababian - Sender: paging@firerescuesystems.xohost.com\n*** 16 - Rescue *** 30 DEER SHORE SQ CS: DEER PARK AVE  / BAY SHORE RD TOA: 13:04",
+        "paging@firerescuesystems.xohost.com", "","*** 16 - Rescue *** 30 DEER SHORE SQ CS: DEER PARK AVE  / BAY SHORE RD TOA: 13:04", false);
   }
   
   private void doParseTest(String title, String body, String expFrom, String expSubject, String expBody) {

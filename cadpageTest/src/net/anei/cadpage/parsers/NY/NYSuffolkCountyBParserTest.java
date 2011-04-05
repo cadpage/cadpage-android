@@ -178,5 +178,45 @@ public class NYSuffolkCountyBParserTest extends BaseParserTest {
         "X:SPRING ST  / MAPLE PL",
         "SRC:PT JEFFERSON",
         "ID:2011-000003");
+
+    doTest("T31",
+        "*** 30 - RESCUE *** U.S.A. SKATING RINK 1276 HICKSVILLE RD CS: SUFFOLK AVE  / DOGWOOD LN A-2 TOA: 20:12 03/30/11 2011-000250 Hazmat",
+        "CALL:30 - RESCUE",
+        "PLACE:USA SKATING RINK",
+        "ADDR:1276 HICKSVILLE RD",
+        "X:SUFFOLK AVE  / DOGWOOD LN A-2",
+        "INFO:2011-000250 Hazmat");
+
+    doTest("T32",
+        "*** 16 - Rescue *** 30 DEER SHORE SQ CS: DEER PARK AVE  / BAY SHORE RD TOA: 13:04 04/02/11 F/M STROKE DEER PARK FIRE",
+        "CALL:16 - Rescue",
+        "ADDR:30 DEER SHORE SQ",
+        "X:DEER PARK AVE  / BAY SHORE RD",
+        "INFO:F/M STROKE DEER PARK FIRE");
+
+    doTest("T33",
+        "*** 16/23-Rescue/Miscellaneous *** 1015 GRAND BLVD CS: E INDUSTRY CT  / CORBIN AVE TOA: 12:09 04/02/11 3 Y/O POSSINI",
+        "CALL:16/23-Rescue/Miscellaneous",
+        "ADDR:1015 GRAND BLVD",
+        "X:E INDUSTRY CT  / CORBIN AVE",
+        "INFO:3 Y/O POSSINI");
+
+    doTest("T34",
+        "*** 16 - Rescue *** 1015 GRAND BLVD CS: E INDUSTRY CT  / CORBIN AVE TOA: 12:09 04/02/11 3 Y/O POSSINING  DEER PARK F",
+        "CALL:16 - Rescue",
+        "ADDR:1015 GRAND BLVD",
+        "X:E INDUSTRY CT  / CORBIN AVE",
+        "INFO:3 Y/O POSSINING  DEER PARK F");
+
+    doTest("T35",
+        "*** 16 - Rescue *** 162 OAKLAND AVE CS: W 6TH ST  / W 5TH ST TOA: 10:20 04/02/11 A/F INF FROM A FALL   DEER PARK FIR",
+        "CALL:16 - Rescue",
+        "ADDR:162 OAKLAND AVE",
+        "X:W 6TH ST  / W 5TH ST",
+        "INFO:A/F INF FROM A FALL   DEER PARK FIR");
+  }
+  
+  public static void main(String[] args) {
+    new NYSuffolkCountyBParserTest().generateTests("T31", "CALL PLACE ADDR CITY X INFO SRC ID");
   }
 }
