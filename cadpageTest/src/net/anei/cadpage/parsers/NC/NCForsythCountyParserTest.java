@@ -59,10 +59,18 @@ public class NCForsythCountyParserTest extends BaseParserTest {
         "UNIT:F31",
         "X:BRINKLEY PARK DR/JILAIN ST",
         "NAME:CARANNA, KENWYN");
+
+    doTest("T7",
+        "Location: 1800 SPRINGFIELD FARM CT CL Nature: Breathing Difficulty P:1  - BREATHING_DIFF DISTRICT: R11 X Str: SPRINGFIELD FARM RD/ CALLER NAME:",
+        "ADDR:1800 SPRINGFIELD FARM CT",
+        "CITY:CLEMMONS",
+        "CALL:Breathing Difficulty",
+        "UNIT:R11",
+        "X:SPRINGFIELD FARM RD/");
   }
   
   public static void main(String[] args) {
-    new NCForsythCountyParserTest().generateTests("T1");
+    new NCForsythCountyParserTest().generateTests("T7");
   }
 }
 

@@ -82,9 +82,14 @@ public class NYNassauCountyCParserTest extends BaseParserTest {
         "CALL:SIG 4- SIGNAL 9",
         "PLACE:/ DIBBLEE DRIVE",
         "ADDR:747 ZECKENDORF BOULEVARD");
+
+    doTest("T11",
+        "SIG 6- BRUSH/DUMPSTER    NORTHBOUND WANTAGH STATE PARKWAY N/B WANTAGH STATE PARKWAY TOA: 00:42 04/05/11",
+        "CALL:SIG 6- BRUSH/DUMPSTER",
+        "PLACE:NORTHBOUND WANTAGH STATE PARKWAY N/B WANTAGH STATE PARKWAY");
   }
   
   public static void main(String[] args) {
-    new NYNassauCountyCParserTest().generateTests("T10");
+    new NYNassauCountyCParserTest().generateTests("T11");
   }
 }
