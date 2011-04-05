@@ -9,7 +9,7 @@ import net.anei.cadpage.parsers.FieldProgramParser;
 Westmoreland County, PA
 Contact: Barry Karelitz <bkemt6@gmail.com>
 Contact: Anthony Collins <anthonycollins48@gmail.com>
-Sender: alert@emgcall.net
+Sender: alert@emgcall.net,incident@wcvfd3.org
 
 Loc: 118 S 4TH ST YNGWD_B X-sts: CHESTNUT ST & LOCUST ST  Inc#:F11000861 NATURE: FIRE  CALLER: ANTHONY GALADIAY TOC: 19:08:40 Comments: FLAMES COMING OUT OF THE WALL  Disp: E26-1
 Loc: 400 PAINTERSVILLE RD HEMP_T: @SUPER VALUE PERISHABLE WAREHOUSE X-sts: S CENTER AVE &   Inc#:F11001007 NATURE: AFA  CALLER: ADT....KANDRA TOC: 06:46:18 Comments: GENERAL & DRY RISER #9 WATER FLOW WATC  Disp: E28,E25-2,TL26,E27
@@ -25,17 +25,21 @@ X-sts: ARMBRUST RD & FAIRGROUNDS RD  Inc#:F10019394 NATURE: 29B01 CALLER: PSPG T
 X-sts: HILLIS ST & GENARD LN  Inc#:F10019516 NATURE: 29A01 CALLER: PSPGB TOC: 15:01:13 Comments:  BETWEEN 9 AND WAGNER MAA NOT FIRE TAC 7  Disp: R26
 Loc: 407 N 4TH ST YNGWD_B X-sts: HALLER AVE & OVERHEAD BRIDGE RD Inc#:F11000526 NATURE: AED  CALLER: CRABTREE JAMES T/ RITA TOC: 04:42:15 Comments: 73 YOM / UNCON / NOT BREATHING Response text: Echo Responder script: 73 year old, Male, Unconscious, Not breathing. Cardiac or Respiratory Arrest / Death. CONN MAAS FIRE TAC 10  Disp: E26-1
 Loc: 220 N 5TH ST YNGWD_B X-sts: LINCOLN ST & WASHINGTON AVE  Inc#:F10019293 NATURE: AMBAS CALLER: MAAS TOC: 23:03:07 Comments:  REQ FIRE FOR LIFTING NON EMERGENCY  Disp: E26-1
+Loc: 220 TOLLHOUSE LN N_HUNT_T X-sts: ARONA RD & Inc#:F11004303 NATURE: FIRE CALLER: SHARON KAUFFMAN TOC: 15:52:00 Comments: ODOR OF POSS PLASTIC BURNING IN THE RESDIENCE FT 3\ ADV TO GET OUT OF THE HOUSE...NOHO ADV Disp: E94-2,E57,E02-1,E03-1,Q10
+
+Body: 1 of 3\nFRM:incident@wcvfd3.org\nMSG:\nLoc: 220 TOLLHOUSE LN N_HUNT_T X-sts: ARONA RD & Inc#:F11004303  \nNATURE: FIRE CALLER: SHARON KAUFFMAN TOC:\n(Con't) 2 of 3\n15:52:00 Comments: ODOR OF  \nPOSS PLASTIC BURNING IN THE RESDIENCE FT 3\ ADV TO GET OUT OF THE  \nHOUSE...NOHO ADV Disp:\n(Con't) 3 of 3\nE94-2,E57,E02-1,E03-1,Q10(End)
 
 */
 
 public class PAWestmorelandCountyParser extends FieldProgramParser {
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
-      "HEMP_T",   "HEMPFIELD TWP",
-      "N_STANTN_B","NEW STANTON",
+      "HEMP_T",    "HEMPFIELD TWP",
       "MT_PLEAS_T","MT PLEASANT TWP",
-      "SW_GBG_B", "SW GREENSBURG",
-      "YNGWD_B",  "YOUNGWOOD"
+      "N_HUNT_T",  "N HUNTINGDON TWP",
+      "N_STANTN_B","NEW STANTON",
+      "SW_GBG_B",  "SW GREENSBURG",
+      "YNGWD_B",   "YOUNGWOOD"
   });
   
   public PAWestmorelandCountyParser() {
@@ -45,12 +49,13 @@ public class PAWestmorelandCountyParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "alert@emgcall.net,alert@emgcall.net,message@ecm2.us";
+    return "alert@emgcall.net,alert@emgcall.net,message@ecm2.us,incident@wcvfd3.org";
   }
 
   @Override
   protected boolean parseMsg(String body, Data data) {
-    body = body.replaceAll("Inc#:", "Inc:");
+    body = body.replace("Inc#:", "Inc:").replaceAll("\\s+", " ");
+    
     if (!super.parseMsg(body, data)) return false;
     
     // Intersections go in the cross street and leave the Loc: field empty

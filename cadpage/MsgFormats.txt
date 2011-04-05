@@ -1433,10 +1433,12 @@ Contact: Tom Schwab <ts813822@gmail.com>
 Sender: LC911@lcounty.com
 LC911:ILLNESS    24 S OREGON ST   JOHNSTOWN
 LC911:HEMMORAGE/LACERATION - Location:   14584.00  JUG STREET RD  JERSEY TWP
+LC911:[3298]-- - Nature: HEMMORAGE/LACERATION - Location: 36.00 S MAIN ST   JOHNSTOWN -
+LC911:[3298]-- - Nature: FALLS - Location:    8485.00  WINDY HOLLOW RD NW  LIBERTY TWP -
 **********************************************************
 Another Nassau County, NY parser
 Contact: Edward mccormack <emccorma42@gmail.com>
-Subject:4/4/2011 03:24\nCall: SPILL Sub: SPILL LINDEN BLVD ELMONT Cross: ELMONT ROAD &\2s11-A6, ZONE 5
+Subject:4/4/2011 03:24\nCall: SPILL Sub: SPILL LINDEN BLVD ELMONT Cross: ELMONT ROAD &  11-A6, ZONE 5
 **********************************************************
 **********************************************************
 ************  READY TO ROLL ******************************
