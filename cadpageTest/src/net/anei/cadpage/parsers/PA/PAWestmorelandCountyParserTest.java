@@ -165,10 +165,21 @@ public class PAWestmorelandCountyParserTest extends BaseParserTest {
         "NAME:MAAS",
         "INFO:REQ FIRE FOR LIFTING NON EMERGENCY",
         "UNIT:E26-1");
+
+    doTest("T15",
+        "Loc: 220 TOLLHOUSE LN N_HUNT_T X-sts: ARONA RD & Inc#:F11004303 NATURE: FIRE CALLER: SHARON KAUFFMAN TOC: 15:52:00 Comments: ODOR OF POSS PLASTIC BURNING IN THE RESDIENCE FT 3\\ ADV TO GET OUT OF THE HOUSE...NOHO ADV Disp: E94-2,E57,E02-1,E03-1,Q10",
+        "ADDR:220 TOLLHOUSE LN",
+        "CITY:N HUNTINGDON TWP",
+        "X:ARONA RD &",
+        "ID:F11004303",
+        "CALL:FIRE",
+        "NAME:SHARON KAUFFMAN",
+        "INFO:ODOR OF POSS PLASTIC BURNING IN THE RESDIENCE FT 3\\ ADV TO GET OUT OF THE HOUSE...NOHO ADV",
+        "UNIT:E94-2,E57,E02-1,E03-1,Q10");
        
   }
   
   public static void main(String[] args) {
-    new PAWestmorelandCountyParserTest().generateTests("T1");
+    new PAWestmorelandCountyParserTest().generateTests("T14");
   }
 }
