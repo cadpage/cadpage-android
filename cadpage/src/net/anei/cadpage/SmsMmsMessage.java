@@ -242,8 +242,10 @@ public class SmsMmsMessage implements Serializable {
     Pattern.compile(":(\\d)of(\\d)$")
   };
   private static final Pattern PAGECOPY_PATTERN = Pattern.compile("Pagecopy-Fr:(\\S*)\\s");
-  private static final Pattern EMAIL_PATTERN = 
-    Pattern.compile("^([\\w\\.]+@[\\w\\.]+)( / / )");
+  private static final Pattern[] EMAIL_PATTERNS = new Pattern[]{ 
+    Pattern.compile("^([\\w\\.]+@[\\w\\.]+)( / / )"),
+    Pattern.compile(" - Sender: *([\\w\\.]+@[\\w\\.]+) *\n")
+  };
   private static final Pattern S_M_PATTERN = Pattern.compile("^S: *([^:]*) +M:");
   
   /**
@@ -284,7 +286,6 @@ public class SmsMmsMessage implements Serializable {
         if (! match.group(1).equals(match.group(2))) expectMore = true;
         if (match.start() == 0) body = body.substring(match.end()).trim();
         else body = body.substring(0,match.start()).trim();
-        break;
       }
       
       /* Decode patterns that look like this.....
@@ -416,9 +417,14 @@ public class SmsMmsMessage implements Serializable {
       /* Decode patterns that match EMAIL_PATTERN, which is basically an email address
        * followed by one of a set of known delimiters
        */
-      match = EMAIL_PATTERN.matcher(body);
-      if (match.find()) {
-        parseAddress = body.substring(0, match.end(1));
+      found = false;
+      for (Pattern ptn : EMAIL_PATTERNS) {
+        match = ptn.matcher(body);
+        found = match.find();
+        if (found) break;
+      }
+      if (found) {
+        parseAddress = match.group(1);
         body = body.substring(match.end()).trim();
         break;
       }
@@ -496,6 +502,10 @@ public class SmsMmsMessage implements Serializable {
   
   public int getMessageType() {
     return messageType;
+  }
+  
+  public String getFromAddress() {
+    return fromAddress;
   }
 
   public String getAddress() {

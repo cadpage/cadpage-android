@@ -271,9 +271,6 @@
     <item>NYOtsegoCounty</item>
     <item>NYPutnamCounty</item>
     <item>NYSuffolkCountyAll</item>
-    <item>NYSuffolkCountyA</item>
-    <item>NYSuffolkCountyB</item>
-    <item>NYSuffolkCountyC</item>
     <item>NYSullivanCounty</item>
     <item>NYUlsterCounty</item>
     <item>NCBuncombeCounty</item>
@@ -424,10 +421,7 @@
     <item>Orleans County, NY</item>
     <item>Otsego County, NY</item>
     <item>Putnam County, NY</item>
-    <item>Suffolk County (All), NY</item>
-    <item>Suffolk County (A), NY</item>
-    <item>Suffolk County (B), NY</item>
-    <item>Suffolk County (C), NY</item>
+    <item>Suffolk County, NY</item>
     <item>Sullivan County, NY</item>
     <item>Ulster County, NY</item>
     <item>Buncombe County, NC</item>

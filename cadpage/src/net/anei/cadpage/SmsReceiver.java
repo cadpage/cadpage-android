@@ -73,7 +73,7 @@ public class SmsReceiver extends BroadcastReceiver {
       // that this message has to come from the same sender
       // If it passes that, merge the two together.
       if (bufferMsg != null) {
-        if (!bufferMsg.getAddress().equals(message.getAddress())) return;
+        if (!bufferMsg.getFromAddress().equals(message.getAddress())) return;
       }
       
       // Otherwise if the parser filter has been overridden, see if this passes the
