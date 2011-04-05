@@ -37,9 +37,18 @@ public class PAWestmorelandCountyParser extends FieldProgramParser {
       "HEMP_T",    "HEMPFIELD TWP",
       "MT_PLEAS_T","MT PLEASANT TWP",
       "N_HUNT_T",  "N HUNTINGDON TWP",
+      "PENN_T",    "PENN TWP",
+      "SEWICK_T",  "SEWICKELY TWP",
+      
+      "IRWIN_B",   "IRWIN",
+      "MANOR_B",   "MANOR",
+      "N_IRWIN_B", "NORTH IRWIN",
       "N_STANTN_B","NEW STANTON",
+      "PENN_B",    "PENN",
+      "SUTERSVL_B","SUTERSVILLE",
       "SW_GBG_B",  "SW GREENSBURG",
       "YNGWD_B",   "YOUNGWOOD"
+
   });
   
   public PAWestmorelandCountyParser() {
