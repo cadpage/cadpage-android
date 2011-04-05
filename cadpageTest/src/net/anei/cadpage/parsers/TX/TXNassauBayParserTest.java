@@ -73,9 +73,16 @@ public class TXNassauBayParserTest extends BaseParserTest {
         "CALL:SMELL OF SMOKE GAS OUTSIDE",
         "ADDR:18206 EGRET BAY BLVD",
         "INFO:SMELL OF NATURAL GAS IN AREA - FENCED AREA NEXT TO ICHIBON");
- }
+
+    doTest("T9",
+        ":CAD:FYI: ;WBFD;FIRE ALARM;1001-B W BAY AREA BLVD;WB;WBW;04/05/2011 12:18:03;manual pull in offc [04/05/11 12:18:19 ESALLIER]",
+        "SRC:WBFD",
+        "CALL:FIRE ALARM",
+        "ADDR:1001-B W BAY AREA BLVD",
+        "INFO:manual pull in offc");
+}
   
   public static void main(String[] args) {
-    new TXNassauBayParserTest().generateTests("T8");
+    new TXNassauBayParserTest().generateTests("T10");
   }
 }
