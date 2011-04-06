@@ -18,6 +18,7 @@ public class SmartAddressParserTest extends BaseParserTest {
   private static final int FLAG_AT_BOTH = SmartAddressParser.FLAG_AT_BOTH;
   private static final int FLAG_ANCHOR_END = SmartAddressParser.FLAG_ANCHOR_END;
   private static final int FLAG_IMPLIED_INTERSECT = SmartAddressParser.FLAG_IMPLIED_INTERSECT;
+  private static final int FLAG_PAD_FIELD = SmartAddressParser.FLAG_PAD_FIELD;
   
   private static final String[] CITY_LIST = new String[]{"KENSBURG", "KEN TOWN"};
   private static final String DEF_CITY = "STATE OF MIND";
@@ -33,6 +34,11 @@ public class SmartAddressParserTest extends BaseParserTest {
   
   @Test
   public void testProblems() {
+    
+    doTest(ADDR, FLAG_PAD_FIELD, "100 SE JEFFERSON ST BARK PLACE KENSBURG",
+        "ADDR:100 SE JEFFERSON ST",
+        "SRC:BARK PLACE",
+        "CITY:KENSBURG");
     
     doTest(PLACE, "RT 30/EMORY RD RESCUE",
         "ADDR:RT 30 & EMORY RD");
@@ -463,6 +469,21 @@ public class SmartAddressParserTest extends BaseParserTest {
         "ADDR:JUNK BLOOD RD & N AUNT SALLY AV");
   }
   
+  @Test
+  public void  testPadField() {
+    doTest(ADDR, FLAG_PAD_FIELD, "100 SE JEFFERSON ST BARK PLACE KENSBURG",
+        "ADDR:100 SE JEFFERSON ST",
+        "SRC:BARK PLACE",
+        "CITY:KENSBURG");
+    doTest(ADDR, FLAG_PAD_FIELD | FLAG_ANCHOR_END, "SE JEFFERSON ST & BLACK RD BARK PLACE",
+        "ADDR:SE JEFFERSON ST & BLACK RD",
+        "SRC:BARK PLACE");
+    doTest(SKIP, FLAG_PAD_FIELD, "BAD STUFF PETERSBURG RD BARK PLACE KENSBURG",
+        "ADDR:PETERSBURG RD",
+        "SRC:BARK PLACE",
+        "CITY:KENSBURG");
+  }
+  
   @Override
   public void testBadMsg() {
   }
@@ -493,8 +514,8 @@ public class SmartAddressParserTest extends BaseParserTest {
     @Override
     public boolean parseMsg(String message, Data data) {
       parseAddress(startType, flags, message, data);
+      data.strSource = getPadField();
       return true;
     }
   }
-
 }
