@@ -17,6 +17,7 @@ public class SmartAddressParserTest extends BaseParserTest {
   
   private static final int FLAG_AT_BOTH = SmartAddressParser.FLAG_AT_BOTH;
   private static final int FLAG_ANCHOR_END = SmartAddressParser.FLAG_ANCHOR_END;
+  private static final int FLAG_IMPLIED_INTERSECT = SmartAddressParser.FLAG_IMPLIED_INTERSECT;
   
   private static final String[] CITY_LIST = new String[]{"KENSBURG", "KEN TOWN"};
   private static final String DEF_CITY = "STATE OF MIND";
@@ -450,6 +451,16 @@ public class SmartAddressParserTest extends BaseParserTest {
         "VEHICLE ACCIDENT LL(-77.42356013 39.23521520) DOWN TOWN",
         "CALL:VEHICLE ACCIDENT",
         "ADDR:LL(-77.42356013,39.23521520) DOWN TOWN");
+  }
+
+  @Test
+  public void testImpliedIntersection() {
+    doTest(SKIP, FLAG_IMPLIED_INTERSECT, "RANDOM JUNK BLOOD RD AUNT SALLY AV EXTRA",
+        "ADDR:BLOOD RD & AUNT SALLY AV");
+    doTest(SKIP, FLAG_IMPLIED_INTERSECT, "RANDOM JUNK BLOOD RD N AUNT SALLY AV EXTRA",
+        "ADDR:BLOOD RD & N AUNT SALLY AV");
+    doTest(ADDR, FLAG_IMPLIED_INTERSECT | FLAG_ANCHOR_END, "JUNK BLOOD RD N AUNT SALLY AV",
+        "ADDR:JUNK BLOOD RD & N AUNT SALLY AV");
   }
   
   @Override

@@ -84,9 +84,7 @@ public class PALebanonCountyParserTest extends BaseParserTest {
     doTest("T9",
         "City of Lebanon LEHMAN ST N 7TH ST MV - Accident w/Injuries Box 15-06 E15-2 R24 AmbCo190",
         "CITY:LEBANON",
-        "ADDR:LEHMAN ST N",
-        "APT:7TH",
-        "PLACE:ST",
+        "ADDR:LEHMAN ST & N 7TH ST",
         "CALL:MV - Accident w/Injuries",
         "BOX:15-06",
         "UNIT:E15-2 R24 AmbCo190");
@@ -94,8 +92,7 @@ public class PALebanonCountyParserTest extends BaseParserTest {
     doTest("T10",
         "City of Lebanon S 7TH ST CHESTNUT ST MV - Accident w/Injuries Box 15-03 E15-1 SQ22 R24 AmbCo190",
         "CITY:LEBANON",
-        "ADDR:S 7TH ST",
-        "PLACE:CHESTNUT ST",
+        "ADDR:S 7TH ST & CHESTNUT ST",
         "CALL:MV - Accident w/Injuries",
         "BOX:15-03",
         "UNIT:E15-1 SQ22 R24 AmbCo190");
@@ -133,8 +130,7 @@ public class PALebanonCountyParserTest extends BaseParserTest {
         "CALL:Med Class3 Abdominal Pain",
         "BOX:190-4",
         "UNIT:A198");
-
-  }
+ }
   
   public static void main(String[] args) {
     new PALebanonCountyParserTest().generateTests("T1", "CITY ADDR APT PLACE CALL BOX UNIT");
