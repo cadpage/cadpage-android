@@ -47,7 +47,8 @@ import net.anei.cadpage.SmsMsgInfo.Data;
  *     check is less reliable than another field behind it
  *     
  *   Address fields
- *     c - parse -xx city convention
+ *     y - parse -xx city convention
+ *     i - implied intersection convention
  *     S - Invoke smart parser logic, this is followed by two characters
  *         The first determines what can come ahead of the address
  *         X - nothing
@@ -1203,8 +1204,8 @@ public class FieldProgramParser extends SmartAddressParser {
     
     @Override
     public void setQual(String qual) {
+      super.setQual(qual);
       if (qual == null) return;
-      incCity = qual.contains("y");
       
       int pt = qual.indexOf('S');
       if (pt >= 0) {
@@ -1233,8 +1234,16 @@ public class FieldProgramParser extends SmartAddressParser {
           }
           
         } while (false);
+        qual = qual.substring(0,pt);
       }
-      super.setQual(qual);
+      incCity = qual.contains("y");
+      if (qual.contains("i")) {
+        if (startType == null) {
+          startType = StartType.START_ADDR;
+          parseFlags = FLAG_ANCHOR_END;
+        }
+        parseFlags |= FLAG_IMPLIED_INTERSECT;
+      }
     }
 
     @Override

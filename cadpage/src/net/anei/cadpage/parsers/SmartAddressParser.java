@@ -57,6 +57,12 @@ public abstract class SmartAddressParser extends SmsMsgParser {
    */
   public static final int FLAG_CHECK_STATUS = 0x0010;
   
+  /**
+   * Flag indicating that the & or / between street names for an intersection
+   * type address may not be present and should be implied
+   */
+  public static final int FLAG_IMPLIED_INTERSECT = 0x0020;
+  
   private Properties cityCodes = null;
   
   // Main dictionary maps words to a bitmap indicating what is important about that word
@@ -375,7 +381,12 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     result.status = 2;
     if (parseIntersection(result)) return result;
     result.status = 1;
-    if (parseNakedRoad(result)) return result;
+    if (parseNakedRoad(result)) {
+      // If the naked road pattern detected an implied intersection symbol
+      // promote the result status to intersection
+      if (result.insertAmp >= 0) result.status++; 
+      return result;
+    }
     
     // If all else fails, use the fallback parser
     parseFallback(sType, result);
@@ -399,9 +410,11 @@ public abstract class SmartAddressParser extends SmsMsgParser {
   private boolean parseTrivialAddress(Result result) {
     
     // If caller has locked both ends of the address, and wants an address status
+    // Or we are supposed to insert implied intersection symbols
     // then return failure status so one of the other address parsers can make
     // some kind of reasonableness check on this
-    if (isFlagSet(FLAG_CHECK_STATUS) && isFlagSet(FLAG_ANCHOR_END) && result.startAddress == 0) return false;
+    if (isFlagSet(FLAG_CHECK_STATUS|FLAG_IMPLIED_INTERSECT) && 
+        isFlagSet(FLAG_ANCHOR_END) && result.startAddress == 0) return false;
     
     // OK, we have to have at least 2 items before the city
     if (result.startAddress < 0) return false;
@@ -680,6 +693,26 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     
     // We have a naked road parse
     result.endAll = ndx;
+    
+    // If we are looking for implied interestection markers see if we can
+    // find another street name immediately following this one.  If we can
+    // then set the implied & colum to the end of the first street and set
+    // the end of the address field to the end of the second street.
+    if (isFlagSet(FLAG_IMPLIED_INTERSECT)) {
+      ndx = findRoadEnd(ndx);
+      if (ndx >= 0) {
+        result.insertAmp = result.endAll;
+        result.endAll = ndx;
+        
+        // A direction token between the two streets is ambiguous.  The
+        // initial road parsing logic would have assigned it to the first road
+        // If we find that the first road ends with a direction, but the second
+        // road does not, then reassign the direction token from the end of the
+        // first road to the beginning of the second
+        if (isType(result.insertAmp-1, ID_DIRECTION) &&
+            !isType(result.endAll-1, ID_DIRECTION)) result.insertAmp--;
+      }
+    }
     
     // See if we can parse out to a city
     if (parseToCity(result.startAddress, result)) return true;
@@ -1208,6 +1241,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     private int startCross = -1;
     private int startCity = -1;
     private int endAll = -1;
+    private int insertAmp = -1;
     
     /**
      * @return result status
@@ -1308,6 +1342,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
       StringBuilder sb = new StringBuilder();
       for (int ndx = start; ndx < end; ndx++) {
         if (ndx != start) sb.append(' ');
+        if (addr && ndx == insertAmp) sb.append("& ");
         String token = tokens[ndx];
         if (addr && token.equals("/")) token = "&";
         sb.append(token);

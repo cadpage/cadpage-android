@@ -65,7 +65,7 @@ public class PALebanonCountyParser extends SmartAddressParser {
     data.strBox = match.group(2);
     data.strUnit = body.substring(match.end()).trim();
     
-    parseAddress(StartType.START_ADDR, sAddress, data);
+    parseAddress(StartType.START_ADDR, FLAG_IMPLIED_INTERSECT, sAddress, data);
     data.strPlace = getLeft();
     if (data.strPlace.startsWith("* ")) data.strPlace = data.strPlace.substring(2).trim();
     

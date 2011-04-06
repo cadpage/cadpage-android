@@ -737,6 +737,11 @@ Lancaster (PALancasterCounty)
 (VEH ACCIDENT-MASS TRANSIT-1A) MANHEIM TWP~2475 OREGON PIKE~WHITEMARSH DR~VALLEY RD~ENG271~08:13:50^
 (SPILL CONTROL) EAST DONEGAL TWP~1158 RIVER RD~N BANK ST~ANDERSON FERRY RD~HAZ291~11:55:37^
 ***************************************************************************
+Lebanon County, PA (PALebanonCountyParser)
+Heidelberg Township 3 GLASSMOYER LN WF - Wildfire/Brush Fire Box 35-05 FG3 A160
+City of Lebanon 541 SPRUCE ST Med Class1 Hemorrhage Box 190-2 199MU
+Cornwall Borough 113 WENGER ST Med Class3 Fall Victim BOX 190-6 A192
+***************************************************************************
 Mifflin County, PA (PAMifflinCountyParser)
 (CAD Page for CFS 111710-43) ALS - Uncon/Syncope\n1 DERRY PARK DR\nApt:\nBURNHAM\nCross Streets : 400-412  S LOGAN BLVD
 (CAD Page for CFS 111710-42) URG - Ment/Emot/Psych\n41 INDUSTRIAL PARK RD\nApt: A\nGRANVILLE\nCross Streets : 708-924  LOOP RD * 2120-2456 MIDDLE RD
@@ -1428,17 +1433,6 @@ Sender: GCOVINGTON@montgomerycountync.com
 |GCOVINGTON:201108622 303 GREEN TOP RD STAR MAN WITH A GUN BOBBY GILCHREST T35/GUN WILL NOT LET JEANNE CASSIDY LEAVE :1of2
 |HIS RESD, HAS ALSO THREATENED TO CUT HER IF SHE LEAVES.:2of2
 **********************************************************
-Monroe Township Fire in Johnston, OH in Licking County, OH
-Contact: Tom Schwab <ts813822@gmail.com>
-Sender: LC911@lcounty.com
-LC911:ILLNESS    24 S OREGON ST   JOHNSTOWN
-LC911:HEMMORAGE/LACERATION - Location:   14584.00  JUG STREET RD  JERSEY TWP
-LC911:[3298]-- - Nature: HEMMORAGE/LACERATION - Location: 36.00 S MAIN ST   JOHNSTOWN -
-LC911:[3298]-- - Nature: FALLS - Location:    8485.00  WINDY HOLLOW RD NW  LIBERTY TWP -
-LC911:[4503]-- - Nature: ABDOMINAL PAIN/PROBLEM - Location:    322 BEECH RD NW  JERSEY TWP .  Fema
-LC911:[3298]-- - Nature: HEMMORAGE/LACERATION - Location: 188.00  COMMERCE BL  JOHNSTOWN -
-LC911:[3298]-- - Nature: TRAUMATIC INJURIES (SPECIFIC) - Location:     231.00  COMMERCE BL
-**********************************************************
 Another Nassau County, NY parser
 Contact: Edward mccormack <emccorma42@gmail.com>
 Subject:4/4/2011 03:24\nCall: SPILL Sub: SPILL LINDEN BLVD ELMONT Cross: ELMONT ROAD &  11-A6, ZONE 5
@@ -1467,6 +1461,18 @@ In Progress
 Lebanon County, PA
 In Progress
 Need implicit & for intersections
+**********************************************************
+Licking County, OH
+Contact: Tom Schwab <ts813822@gmail.com>
+Sender: LC911@lcounty.com
+LC911:ILLNESS    24 S OREGON ST   JOHNSTOWN
+LC911:HEMMORAGE/LACERATION - Location:   14584.00  JUG STREET RD  JERSEY TWP
+LC911:[3298]-- - Nature: HEMMORAGE/LACERATION - Location: 36.00 S MAIN ST   JOHNSTOWN -
+LC911:[3298]-- - Nature: FALLS - Location:    8485.00  WINDY HOLLOW RD NW  LIBERTY TWP -
+LC911:[4503]-- - Nature: ABDOMINAL PAIN/PROBLEM - Location:    322 BEECH RD NW  JERSEY TWP .  Fema
+LC911:[3298]-- - Nature: HEMMORAGE/LACERATION - Location: 188.00  COMMERCE BL  JOHNSTOWN -
+LC911:[3298]-- - Nature: TRAUMATIC INJURIES (SPECIFIC) - Location:     231.00  COMMERCE BL
+LC911:[3064]-- - Nature: SICK PERSON (SPECIFIC DIAGNOSIS) - Location:    4977.00  MINK ST NW  MONROE TWP - Comments:
 **********************************************************
 Burlington County, NJ
 Contact: Jerseyfirefighter@gmail.com
