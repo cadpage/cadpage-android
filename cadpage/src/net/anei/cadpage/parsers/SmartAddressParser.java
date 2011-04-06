@@ -63,6 +63,13 @@ public abstract class SmartAddressParser extends SmsMsgParser {
    */
   public static final int FLAG_IMPLIED_INTERSECT = 0x0020;
   
+  /**
+   * Flag indicating the presence of some kind of pad field between the
+   * address proper and the city field.   The field can be retrieved later
+   * with a getPadField() method
+   */
+  public static final int FLAG_PAD_FIELD = 0x0040;
+  
   private Properties cityCodes = null;
   
   // Main dictionary maps words to a bitmap indicating what is important about that word
@@ -395,6 +402,14 @@ public abstract class SmartAddressParser extends SmsMsgParser {
   }
 
   /**
+   * Called after address has been parsed with FLAG_PAD_FIELD flag
+   * @return pad field between address and city
+   */
+  public String getPadField() {
+    return lastResult.getPadField();
+  }
+
+  /**
    * Called after address has been parsed
    * @return the part of the line after the address
    */
@@ -411,9 +426,10 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     
     // If caller has locked both ends of the address, and wants an address status
     // Or we are supposed to insert implied intersection symbols
+    // Or we should parse out a pad field
     // then return failure status so one of the other address parsers can make
     // some kind of reasonableness check on this
-    if (isFlagSet(FLAG_CHECK_STATUS|FLAG_IMPLIED_INTERSECT) && 
+    if (isFlagSet(FLAG_CHECK_STATUS|FLAG_IMPLIED_INTERSECT|FLAG_PAD_FIELD) || 
         isFlagSet(FLAG_ANCHOR_END) && result.startAddress == 0) return false;
     
     // OK, we have to have at least 2 items before the city
@@ -452,6 +468,8 @@ public abstract class SmartAddressParser extends SmsMsgParser {
    */
   private boolean parseSimpleAddress(Result result) {
     
+    boolean padField = isFlagSet(FLAG_PAD_FIELD);
+    
     // Look for a numeric field which we assume is the house number
     // If field starts with address this has to be the first token
     // Exception, numeric fields that follow a route prefix are part
@@ -479,7 +497,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
       }
       
       // If we found a city beyond this start point, just use that as the terminator
-      if (parseToCity(sAddr, result)) {
+      if (! padField && parseToCity(sAddr, result)) {
         if (locked) result.initAddress--;
         return true;
       }
@@ -507,6 +525,13 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     
     // But there might be some additional cross street info we can parse
     findCrossStreet(result);
+    
+    // If we are looking for a pad field between the address and city
+    // now is when we try to find that city
+    if (padField) {
+      result.startPad = result.endAll;
+      parseToCity(result.endAll, result);
+    }
     return true;
   }
 
@@ -516,6 +541,8 @@ public abstract class SmartAddressParser extends SmsMsgParser {
    * @return true if successful
    */
   private boolean parseIntersection(Result result) {
+    
+    boolean padField = isFlagSet(FLAG_PAD_FIELD);
     
     // First lets figure out where the address starts
     int sAddr;
@@ -579,7 +606,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     // ndx points to the first connector after the first road name.
 
     // If there is a city terminating the address, just parse up to it
-    if (parseToCity(ndx, result)) {
+    if (!padField && parseToCity(ndx, result)) {
       result.initAddress = result.startAddress = sAddr;
       if (atStart) result.initAddress--;
       return true;
@@ -598,6 +625,14 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     
     // But there might be some additional cross street info we can parse
     findCrossStreet(result);
+    
+    // If we are looking for a pad field between the address and city
+    // now is when we try to find that city
+    if (padField) {
+      result.startPad = result.endAll;
+      parseToCity(result.endAll, result);
+    }
+
     return true;
   }
   
@@ -624,6 +659,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     
     boolean flexAt = isFlagSet(FLAG_AT_BOTH);
     boolean atStart = false;
+    boolean padField = isFlagSet(FLAG_PAD_FIELD);
 
     // If address starts at beginning of field, find end of address and
     // Don't have to look for city because we wouldn't be here if both startAddr
@@ -715,10 +751,18 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     }
     
     // See if we can parse out to a city
-    if (parseToCity(result.startAddress, result)) return true;
+    if (!padField && parseToCity(result.startAddress, result)) return true;
     
     // Nope, see if we can find some cross street info
     findCrossStreet(result);
+    
+    // If we are looking for a pad field between the address and city
+    // now is when we try to find that city
+    if (padField) {
+      result.startPad = result.endAll;
+      parseToCity(result.endAll, result);
+    }
+
     return true;
   }
 
@@ -1239,6 +1283,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     private int initApt = -1;
     private int startApt = -1;
     private int startCross = -1;
+    private int startPad = -1;
     private int startCity = -1;
     private int endAll = -1;
     private int insertAmp = -1;
@@ -1280,6 +1325,8 @@ public abstract class SmartAddressParser extends SmsMsgParser {
         end = startCity;
       }
       
+      if (startPad >= 0) end = startPad;
+      
       if (startCross >= 0) {
         data.strCross = buildData(startCross, end, false);
         end = startCross - 1;
@@ -1319,6 +1366,17 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     public void getCrossData(Data data) {
       String sCross = buildData(startAddress, endAll, true);
       data.strCross = append(data.strCross, " & ", sCross);
+    }
+    
+    /**
+     * @return the pad field (if any) that lies between the address propert and
+     * the city field
+     */
+    public String getPadField() {
+      if (startPad < 0) return "";
+      int end = endAll;
+      if (startCity >= 0) end = startCity;
+      return buildData(startPad, end, false);
     }
 
     /**
