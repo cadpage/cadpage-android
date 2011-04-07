@@ -35,6 +35,10 @@ Subject:*CAD*\n[CAD] AFA - SINGLE FAMILY DWELLING, FIRE ALARM, S/F HOUSE 6445 MA
 
 (*CAD*) [CAD] ASSIST THE AMBULANCE, MISC 10200 LA PLATA RD (RT 488), CCNH 109B 17 H6-K4 NEEDED FOR MANPOWER F110610005 1103803 11:10
 
+Contact: JLM <akgnome@yahoo.com>
+Sender: ems12alerting-bounces@sms.mdfiretech.com
+10-50 PI MOTORCYCLE, EMS, ALS, ATV, BICYCLE, BIKE, 29B, 29D LEONARDTOWN RD / BILLINGSLEY RD 11 B8 Age unknown, Male, Conscious, Breathing.
+
  */
 
 public class MDCharlesCountyParser extends SmartAddressParser {

@@ -150,7 +150,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
         "LANE", "LN",
         "DRIVE", "DR",
         "SQUARE", "SQ",
-        "BLVD",
+        "BLVD", "BL",
         "WAY", "PKWY", "PKY", "PK", "FWY", "WY", "HW", "EXPW",
         "CIRCLE", "CIR",
         "TRAIL", "TRL",
@@ -861,6 +861,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     // If FLAG_ANCHOR_END is set, we are going to parse this to the
     // end of the line without looking for a city
     boolean parseToEnd = isFlagSet(FLAG_ANCHOR_END);
+    boolean padField = isFlagSet(FLAG_PAD_FIELD);
     
     if (!parseToEnd && lastCity <= stNdx) return false;
     
@@ -874,30 +875,34 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     
     for (int ndx = srcNdx; ndx < tokens.length; ndx++) {
       
-      // Check for place name
-      if (flexAt && stApt < 0 && stCross < 0) {
-        if (isType(ndx, ID_AT_MARKER)) {
-          inPlace = ndx;
-          stPlace = ndx+1;
-        } else if (isType(ndx, ID_INCL_AT_MARKER)) {
-          inPlace = stPlace = ndx;
+      // Only check for fun stuff if it isn't inside a pad field
+      if (!padField) {
+        
+        // Check for place name
+        if (flexAt && stApt < 0 && stCross < 0) {
+          if (isType(ndx, ID_AT_MARKER)) {
+            inPlace = ndx;
+            stPlace = ndx+1;
+          } else if (isType(ndx, ID_INCL_AT_MARKER)) {
+            inPlace = stPlace = ndx;
+          }
         }
+        
+        // Check for apartment marker
+        if (stCross < 0) {
+          if (isType(ndx, ID_APPT)) {
+            inApt = ndx;
+            stApt = ndx + 1;
+          }
+          else if (tokens[ndx].startsWith("#")) {
+            inApt = stApt = ndx;
+          }
+        }
+        
+        
+        // Check for cross street marker
+        if (isType(ndx, ID_CROSS_STREET)) stCross = ndx + 1;
       }
-      
-      // Check for apartment marker
-      if (stCross < 0) {
-        if (isType(ndx, ID_APPT)) {
-          inApt = ndx;
-          stApt = ndx + 1;
-        }
-        else if (tokens[ndx].startsWith("#")) {
-          inApt = stApt = ndx;
-        }
-      }
-      
-      
-      // Check for cross street marker
-      if (isType(ndx, ID_CROSS_STREET)) stCross = ndx + 1;
       
       // Is there a city here?
       int endCity = findEndCity(ndx);
