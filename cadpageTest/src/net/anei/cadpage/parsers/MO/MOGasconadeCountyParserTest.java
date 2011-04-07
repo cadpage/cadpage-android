@@ -61,9 +61,18 @@ public class MOGasconadeCountyParserTest extends BaseParserTest {
         "MAP:OFD SECTOR 1, PAGE 072",
         "X:HIGHWAY Y 0.05 mi N S L&D DR 0.44 mi SW",
         "INFO:96 YOA FALL BROKEN WRIST");
+
+    doTest("T8",
+        "Body: 1 of 2\nFRM:central@fidmail.com\nSUBJ:MESSAGE\nMSG:\n501 ACCIDENTAL INJURY  1009 SPRINGFIELD RD, Apt. APT 21 OWENSVILLE MapRegions: OFD SECTOR 1,\n(Con't) 2 of 2\nPAGE 065, PAGE 122 CrossStreets: CHERRY AVE 0.06 mi SE INDUSTRIAL DR 0.22 mi NE Description:  Dispatch: 4/6/2011 12:08:04\n\n\n\n(End)",
+        "CALL:501 ACCIDENTAL INJURY",
+        "ADDR:1009 SPRINGFIELD RD Apt",
+        "APT:21",
+        "CITY:OWENSVILLE",
+        "MAP:OFD SECTOR 1, PAGE 065, PAGE 122",
+        "X:CHERRY AVE 0.06 mi SE INDUSTRIAL DR 0.22 mi NE");
   }
 
   public static void main(String[] args) {
-    new MOGasconadeCountyParserTest().generateTests("T1");
+    new MOGasconadeCountyParserTest().generateTests("T8");
   }
 }

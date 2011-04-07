@@ -35,11 +35,6 @@ public class SmartAddressParserTest extends BaseParserTest {
   @Test
   public void testProblems() {
     
-    doTest(ADDR, FLAG_PAD_FIELD, "100 SE JEFFERSON ST BARK PLACE KENSBURG",
-        "ADDR:100 SE JEFFERSON ST",
-        "SRC:BARK PLACE",
-        "CITY:KENSBURG");
-    
     doTest(PLACE, "RT 30/EMORY RD RESCUE",
         "ADDR:RT 30 & EMORY RD");
     
@@ -481,6 +476,10 @@ public class SmartAddressParserTest extends BaseParserTest {
     doTest(SKIP, FLAG_PAD_FIELD, "BAD STUFF PETERSBURG RD BARK PLACE KENSBURG",
         "ADDR:PETERSBURG RD",
         "SRC:BARK PLACE",
+        "CITY:KENSBURG");
+    doTest(ADDR, FLAG_PAD_FIELD, "65 S WILLIAMS ST  Suite:APT 102 KENSBURG",
+        "ADDR:65 S WILLIAMS ST",
+        "SRC:Suite: APT 102",
         "CITY:KENSBURG");
   }
   
