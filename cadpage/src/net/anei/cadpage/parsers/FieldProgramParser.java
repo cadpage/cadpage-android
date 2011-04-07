@@ -49,7 +49,7 @@ import net.anei.cadpage.SmsMsgInfo.Data;
  *   Address fields
  *     y - parse -xx city convention
  *     i - implied intersection convention
- *     S - Invoke smart parser logic, this is followed by two characters
+ *     S - Invoke smart parser logic, this is followed by up two 3 characters
  *         The first determines what can come ahead of the address
  *         X - nothing
  *         C - call description (req)
@@ -67,6 +67,11 @@ import net.anei.cadpage.SmsMsgInfo.Data;
  *         U - unit
  *         N - name
  *         I - supplemental info
+ *         The third determines what to do with a special field between the
+ *         regular address and the city field
+ *         X - nothing
+ *         P - place name
+ *         S - something we can skip
  *         
  * SPECIAL FIELD NAMES
  * 
@@ -1196,6 +1201,8 @@ public class FieldProgramParser extends SmartAddressParser {
     private int parseFlags = 0;
     private String tailField = null;
     private Field tailData = null;
+    private String padField = null;
+    private Field padData = null;
     
     @Override
     public boolean canFail() {
@@ -1233,6 +1240,15 @@ public class FieldProgramParser extends SmartAddressParser {
             tailData = getField(tailField);
           }
           
+          if (++pt >= qual.length()) break;
+          chr = qual.charAt(pt);
+          pt2 = "PS".indexOf(chr);
+          if (pt2 >= 0) {
+            parseFlags |= FLAG_PAD_FIELD;
+            padField = new String[]{"PLACE","SKIP"}[pt2];
+            padData = getField(padField);
+          }
+          
         } while (false);
         qual = qual.substring(0,pt);
       }
@@ -1266,6 +1282,7 @@ public class FieldProgramParser extends SmartAddressParser {
         
         // Looks good, lets parse out the data
         res.getData(data);
+        if (padData != null) padData.parse(res.getPadField(), data);
         if (tailData != null) tailData.parse(res.getLeft(), data);
       }
       return true;
@@ -1298,7 +1315,12 @@ public class FieldProgramParser extends SmartAddressParser {
         if (startField != null) {
           sb.append(startField);
         }
-        sb.append(" ADDR APT CITY ");
+        sb.append(" ADDR APT ");
+        if (padField != null) {
+          sb.append(padField);
+          sb.append(' ');
+        }
+        sb.append("CITY ");
         if (tailField != null) sb.append(tailField); 
       }
       return sb.toString().trim();

@@ -58,8 +58,8 @@ public class DEKentCountyParser extends FieldProgramParser {
   private static final Pattern DELIM = Pattern.compile("[^ ]*:");
   
   public DEKentCountyParser() {
-    super(CITY_LIST, "NEW CASTLE COUNTY", "DE",
-           "ADDR/SC Xsts:X CALLER:NAME");
+    super(CITY_LIST, "KENT COUNTY", "DE",
+           "ADDR/SCXP Xsts:X CALLER:NAME");
   }
   
   @Override

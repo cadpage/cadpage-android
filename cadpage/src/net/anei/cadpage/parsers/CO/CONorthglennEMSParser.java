@@ -11,6 +11,8 @@ sender: dispatch@northglennambulance.com
 - part 1 of 1 / RC:Run# 9911/7373 BIRCH ST///Unconscious / Fainting/
 - part 1 of 1 / RC:Run# 10172/8810 E 88TH AVE///Assault/
 - part 1 of 1 / RC:Run# 10119/E 60TH AVE & DAHLIA ST//./Unconscious / Fainting/
+Body:Subject:- part 1 of 1\nRC:Run# 3769/3015 CALIFORNIA ST//out of control child hit head/Not Known//\n
+
 */
 
 public class CONorthglennEMSParser extends DispatchProQAParser {

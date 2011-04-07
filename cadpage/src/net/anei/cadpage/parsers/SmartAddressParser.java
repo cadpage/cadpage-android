@@ -434,7 +434,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     
     // OK, we have to have at least 2 items before the city
     if (result.startAddress < 0) return false;
-    return parseToCity(result.startAddress+2, result);
+    return parseToCity(result.startAddress, result.startAddress+2, result);
   }
 
   /**
@@ -497,7 +497,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
       }
       
       // If we found a city beyond this start point, just use that as the terminator
-      if (! padField && parseToCity(sAddr, result)) {
+      if (! padField && parseToCity(sAddr, sAddr+1, result)) {
         if (locked) result.initAddress--;
         return true;
       }
@@ -530,7 +530,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     // now is when we try to find that city
     if (padField) {
       result.startPad = result.endAll;
-      parseToCity(result.endAll, result);
+      parseToCity(result.startAddress, result.endAll, result);
     }
     return true;
   }
@@ -606,7 +606,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     // ndx points to the first connector after the first road name.
 
     // If there is a city terminating the address, just parse up to it
-    if (!padField && parseToCity(ndx, result)) {
+    if (!padField && parseToCity(sAddr, ndx+1, result)) {
       result.initAddress = result.startAddress = sAddr;
       if (atStart) result.initAddress--;
       return true;
@@ -630,7 +630,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     // now is when we try to find that city
     if (padField) {
       result.startPad = result.endAll;
-      parseToCity(result.endAll, result);
+      parseToCity(result.startAddress, result.endAll, result);
     }
 
     return true;
@@ -751,7 +751,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     }
     
     // See if we can parse out to a city
-    if (!padField && parseToCity(result.startAddress, result)) return true;
+    if (!padField && parseToCity(result.startAddress, result.endAll, result)) return true;
     
     // Nope, see if we can find some cross street info
     findCrossStreet(result);
@@ -760,7 +760,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     // now is when we try to find that city
     if (padField) {
       result.startPad = result.endAll;
-      parseToCity(result.endAll, result);
+      parseToCity(result.startAddress, result.endAll, result);
     }
 
     return true;
@@ -797,7 +797,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
       // If we found a flexable @ to start the address, see if we can parse
       // to an ending city
       if (result.startAddress >= 0) {
-        if (parseToCity(result.startAddress, result)) return;
+        if (parseToCity(result.startAddress, result.startAddress+2, result)) return;
       }
     }
     
@@ -853,9 +853,10 @@ public abstract class SmartAddressParser extends SmsMsgParser {
   /**
    * See if we can parse an address from a known starting point to a city
    * @param stNdx known start of address
+   * @param srcNdx start looking for city here
    * @return true if successful
    */
-  private boolean parseToCity(int stNdx, Result result) {
+  private boolean parseToCity(int stNdx, int srcNdx, Result result) {
     
     // If FLAG_ANCHOR_END is set, we are going to parse this to the
     // end of the line without looking for a city
@@ -871,7 +872,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     int stPlace = -1;
     int stCross = -1;
     
-    for (int ndx = stNdx+1; ndx < tokens.length; ndx++) {
+    for (int ndx = srcNdx; ndx < tokens.length; ndx++) {
       
       // Check for place name
       if (flexAt && stApt < 0 && stCross < 0) {
