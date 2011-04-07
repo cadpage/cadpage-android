@@ -43,6 +43,10 @@ public class SmsMsgInfoTest {
     doMapPlaceTest("PLC1", "PARK PLACE,US HIGHWAY 100,KENBURG,XX", "US HIGHWAY 100", "PARK PLACE");
     doMapPlaceTest("PLC2", "850 US HIGHWAY 100,KENBURG,XX", "850 US HIGHWAY 100", "PARK PLACE");
     
+    doMapTest("RT1", "ST 150 & HWY 12,KENBURG,XX", "ST150 & HWY12");
+    doMapTest("RT2", "SAME XX 30 & XX 15 LAST,KENBURG,XX", "SAME XX30 & XX15 LAST");
+    doMapTest("RT3", "WE75&XX 10,KENBURG,XX", "WE75&XX10");
+    
     doMapTest("DR1", "345 W US 30,KENBURG,XX", "345 W US RT 30");
     doMapTest("DR2", "345 w st 30,KENBURG,XX", "345 w st hwy 30");
     doMapTest("DR3", "345 XX 22,KENBURG,XX", "345 XX RT 22");
