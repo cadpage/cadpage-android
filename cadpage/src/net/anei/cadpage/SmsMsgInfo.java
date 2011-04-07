@@ -149,6 +149,7 @@ public class SmsMsgInfo {
     sAddr = cleanBlock(sAddr);
     sAddr = cleanBounds(sAddr);
     sAddr = cleanHouseNumbers(sAddr);
+    sAddr = cleanRoutes(sAddr);
     sAddr = cleanDoubleRoutes(sAddr);
     StringBuilder sb = new StringBuilder(sAddr);
     
@@ -174,7 +175,7 @@ public class SmsMsgInfo {
     else if (city.length() == 0) {
       city = (override ? ManagePreferences.defaultCity() :  defCity);
     }
-    if (city.length() > 0) {
+    if (city.length() > 0 && !city.equalsIgnoreCase("NONE")) {
       sb.append(",");
       sb.append(city);
     } 
@@ -184,7 +185,7 @@ public class SmsMsgInfo {
     if (state.length() == 0) {
       state = (override ? ManagePreferences.defaultState() : defState);
     }
-    if (state.length() > 0) {
+    if (state.length() > 0 && !state.equalsIgnoreCase("NONE")) {
       sb.append(",");
       sb.append(state);
     }
@@ -260,6 +261,31 @@ public class SmsMsgInfo {
       if (ipt+1 < sAddress.length() && sAddress.charAt(ipt+1) == '#') {
         sAddress = sAddress.substring(0, ipt).trim();
       }
+    }
+    return sAddress;
+  }
+  
+  // Google doesn't always handle single word route names like US30 or HWY10.
+  // This method breaks those up into two separate tokens, also dropping any
+  // direction qualifiers
+  private static final Pattern ROUTE_PTN =
+    Pattern.compile("\\b(RT|RTE|HW|HWY|US|ST|I|CO|CR)(\\d{1,3})(?:[NSEW]B)?\\b", Pattern.CASE_INSENSITIVE);
+  private static final Pattern ROUTE_PTN2 =
+    Pattern.compile("\\b([A-Z]{2})(\\d{1,3})(?:[NSEW]B)?\\b", Pattern.CASE_INSENSITIVE);
+  
+  private String cleanRoutes(String sAddress) {
+    Matcher match = ROUTE_PTN.matcher(sAddress);
+    sAddress = match.replaceAll("$1 $2");
+    
+    match = ROUTE_PTN2.matcher(sAddress);
+    if (match.find()) {
+      StringBuffer sb = new StringBuffer();
+      do {
+        String replace = (defState.equalsIgnoreCase(match.group(1)) ? "$1 $2" : "$0");
+        match.appendReplacement(sb, replace);
+      } while (match.find());
+      match.appendTail(sb);
+      sAddress = sb.toString();
     }
     return sAddress;
   }

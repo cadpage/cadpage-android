@@ -21,6 +21,7 @@ HOUSE FIRE . . SMOKE IN THE HOUSE at 2764 MARTIN AVENUE. . 17:09:53
 6011 IS OUT OF SERVICE
 6011 IS BACK IN SERVICE 
 
+
 Levittown Fire Department
 Contact: Adam Freed <afreed00789@gmail.com>
 Sender: paging@rednmxcad.com <From%3Apaging@rednmxcad.com>

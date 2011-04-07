@@ -27,7 +27,11 @@ import net.anei.cadpage.SmsMsgInfo.Data;
  *    
  * 3) An optional exclamation point [!] which indicates that this field is
  *    required and the parse operation should fail if it runs out of data before
- *    this field is processed
+ *    this field is processed, or
+ *    An optional percent sign [%] which indicates that this field is expected.
+ *    A missing expected field will not cause the parse operation to fail, but
+ *    it will cause Cadpage to wait for a second text message containing the
+ *    rest of the CAD page
  *    
  * 4) An optional plus sign [+] which indicates that this field should repeat
  *    Indefinitely.  Typically this only be used for INFO fields
