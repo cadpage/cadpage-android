@@ -133,6 +133,9 @@ public class SmsReceiver extends BroadcastReceiver {
 
     // Add new message to the message queue
     SmsMessageQueue.getInstance().addNewMsg(message);
+    
+    // Publish message contents if so requested
+    if (ManagePreferences.publishPages()) message.broadcastIntent(context, false);
   
     // Notify user if so configured
     boolean notify = ManageNotification.show(context, message);

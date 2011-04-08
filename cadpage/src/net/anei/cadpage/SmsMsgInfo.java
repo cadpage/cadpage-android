@@ -34,6 +34,9 @@ public class SmsMsgInfo {
   // and another part should be expected
   private boolean expectMore;
   
+  // Cached map address
+  private String strMapAddress = null;
+  
 
   /**
    * Temporary data class used to pass information to constructor
@@ -144,6 +147,9 @@ public class SmsMsgInfo {
    * @return return mapping address
    */
   public String getMapAddress() {
+    
+    if (strMapAddress != null) return strMapAddress;
+    
     String sAddr = strAddress;
     sAddr = cleanStreetSuffix(sAddr);
     sAddr = cleanBlock(sAddr);
@@ -190,7 +196,8 @@ public class SmsMsgInfo {
       sb.append(state);
     }
     
-    return sb.toString();
+    strMapAddress = sb.toString();
+    return strMapAddress;
 	}
   
   // Clean up any street suffix abbreviations that Google isnt' happy with

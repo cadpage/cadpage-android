@@ -11,6 +11,7 @@ import net.anei.cadpage.parsers.SmsMsgParser;
 
 import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.telephony.SmsMessage;
 import android.telephony.SmsMessage.MessageClass;
 import android.text.format.DateFormat;
@@ -20,6 +21,8 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+
+import static net.anei.cadpage.BroadcastBindings.*;
 
 public class SmsMmsMessage implements Serializable {
 
@@ -712,6 +715,50 @@ public class SmsMmsMessage implements Serializable {
     default:
       return false;
     }
+  }
+  
+  /**
+   * Broadcast message information for 3rd part apps
+   * @param context broadcast context
+   * @param republish true if this is a republish event
+   */
+  public void broadcastIntent(Context context, boolean republish) {
+    Intent intent = new Intent(ACTION);
+    intent.putExtra(EXTRA_MSG_ID, msgId);
+    intent.putExtra(EXTRA_REPUBLISH, republish);
+    putExtraString(intent, EXTRA_FROM, parseAddress);
+    putExtraString(intent, EXTRA_SUBJECT, parseSubject);
+    putExtraString(intent, EXTRA_MESSAGE, parseMessageBody);
+    intent.putExtra(EXTRA_TIME, timestamp);
+    putExtraString(intent, EXTRA_LOC_CODE, location);
+    
+    if (info != null) {
+      putExtraString(intent, EXTRA_LOC_CITY, info.getDefCity());
+      putExtraString(intent, EXTRA_LOC_STATE, info.getDefState());
+      putExtraString(intent, EXTRA_PARSE_CALL_CODE, info.getCode());
+      putExtraString(intent, EXTRA_PARSE_CALL, info.getCall());
+      putExtraString(intent, EXTRA_PARSE_INFO, info.getSupp());
+      putExtraString(intent, EXTRA_PARSE_PLACE, info.getPlace());
+      putExtraString(intent, EXTRA_PARSE_ADDRESS, info.getAddress());
+      putExtraString(intent, EXTRA_PARSE_CITY, info.getCity());
+      putExtraString(intent, EXTRA_PARSE_STATE, info.getState());
+      putExtraString(intent, EXTRA_PARSE_MAP_ADDRESS, info.getMapAddress());
+      putExtraString(intent, EXTRA_PARSE_APT, info.getApt());
+      putExtraString(intent, EXTRA_PARSE_MAP, info.getMap());
+      putExtraString(intent, EXTRA_PARSE_BOX, info.getBox());
+      putExtraString(intent, EXTRA_PARSE_AGENCY, info.getSource());
+      putExtraString(intent, EXTRA_PARSE_UNIT, info.getUnit());
+      putExtraString(intent, EXTRA_PARSE_CALL_ID, info.getCallId());
+      putExtraString(intent, EXTRA_PARSE_NAME, info.getName());
+      putExtraString(intent, EXTRA_PARSE_PHONE, info.getPhone());
+    }
+    
+    
+    context.sendBroadcast(intent, PERMISSION);
+  }
+  
+  private static void putExtraString(Intent intent, String key, String value) {
+    if (value.length() > 0) intent.putExtra(key, value);
   }
 
 

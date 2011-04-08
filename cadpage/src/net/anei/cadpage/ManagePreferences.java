@@ -172,6 +172,10 @@ public class ManagePreferences {
     return prefs.getBoolean(R.string.pref_suppress_dup_msg_key);
   }
   
+  public static boolean publishPages() {
+    return false;
+  }
+  
   public static boolean notifyEnabled() {
     return prefs.getBoolean(R.string.pref_notif_enabled_key);
   }
