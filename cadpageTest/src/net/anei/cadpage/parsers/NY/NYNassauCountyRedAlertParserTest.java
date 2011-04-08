@@ -104,7 +104,35 @@ public class NYNassauCountyRedAlertParserTest extends BaseParserTest {
         "CITY:HICKSVILLE",
         "X:BARTER LN",
         "PLACE:ANNE'S WASH AND DRY");
-  
+
+    doTest("T3",
+        "AUTOMATIC ALARM: ZONE 58 / AFA NO ANSWER ON THE CALL BACK  at 111 CANTIAGUE ROCK RD, WESTBURY  c/s: W JOHN ST   O: NASSAU BOCES - CAREER PREPRATORY HIGH S",
+        "CALL:AUTOMATIC ALARM",
+        "INFO:ZONE 58 / AFA NO ANSWER ON THE CALL BACK",
+        "ADDR:111 CANTIAGUE ROCK RD",
+        "CITY:WESTBURY",
+        "X:W JOHN ST",
+        "PLACE:NASSAU BOCES - CAREER PREPRATORY HIGH S");
+
+    doTest("T4",
+        "AUTOMATIC ALARM: WATER FLOW at 108 NEW SOUTH RD #A, HICKSVILLE  c/s: COMMERCIAL ST   O: 108-122 NEW SOUTH ROAD REALTY INC.  (MULTIPLE BUSINESSES) . . 14:2",
+        "CALL:AUTOMATIC ALARM",
+        "INFO:WATER FLOW",
+        "ADDR:108 NEW SOUTH RD",
+        "APT:A",
+        "CITY:HICKSVILLE",
+        "X:COMMERCIAL ST",
+        "PLACE:108-122 NEW SOUTH ROAD REALTY INC. (MULTIPLE BUSINESSES)");
+
+    doTest("T5",
+        "GENERAL ALARM, AUTOMATIC ALARM: FRONT SMOKE DETECTOR/PULL STATION at 284 W PARK AVE, LONG BEACH  c/s: LAURELTON BLVD   O: LONG BEACH",
+        "CALL:GENERAL ALARM, AUTOMATIC ALARM",
+        "INFO:FRONT SMOKE DETECTOR/PULL STATION",
+        "ADDR:284 W PARK AVE",
+        "CITY:LONG BEACH",
+        "X:LAURELTON BLVD",
+        "PLACE:LONG BEACH");
+ 
   }
   
   @Test
@@ -165,7 +193,7 @@ public class NYNassauCountyRedAlertParserTest extends BaseParserTest {
   }
   
   public static void main(String[] args) {
-    new NYNassauCountyRedAlertParserTest().generateTests("T1", "CALL INFO ADDR CITY X PLACE");
+    new NYNassauCountyRedAlertParserTest().generateTests("T3", "CALL INFO ADDR APT CITY X PLACE");
   }
 
 }
