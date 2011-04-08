@@ -17,10 +17,13 @@ Contact: Darren Eubanks <medic7046@gmail.com>
 110127 042557110270043/01-27-11/04:25:49/ABDOMINAL PROBLEMS/3201 TROWBRIDGE RD/ALBANY/DEVON DR/BEATTIE RD/E01/MED5/
 110126 064823110260088/01-26-11/06:47:46/DIABETIC/2823 GILLIONVILLE RD/ALBANY/EVERGREEN ASSISTED LIVING/N WESTOVER BLV/NATIONAL CT/E01/98 YOF C/B  SUGAR IS  58/MED5/
 
+Contact: "Satterfield, Scott" <SScott@dougherty.ga.us>
+140134110980278/04-08-11/14:01:24/HEADACHE/902 CORN AV/ALBANY/HOLLEY HOMES/S HARDING ST/S CLEVELAND ST/E07/56YOF  C/B   HEART RATE IS UP/O2 @ [1 of 2]
+
 */
 public class GADoughertyCountyParser extends FieldProgramParser {
   
-  private static final Pattern MARKER = Pattern.compile("^\\d{6} (\\d{15})/");
+  private static final Pattern MARKER = Pattern.compile("^(?:\\d{6} )?(\\d{15})/");
   
   public GADoughertyCountyParser() {
     super("DOUGHERTY COUNTY", "GA",

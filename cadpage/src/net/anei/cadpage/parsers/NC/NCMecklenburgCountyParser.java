@@ -20,6 +20,7 @@ Sender: @huntersvillefd.com
 (Text Page) 16710 Northcross Dr                                                   Fire -  Emergency             59-Fuel Spi
 (Text Page) 04022011-238     Received:  16:50    Assigned:  16:50    Enroute:   16:51    Arrived:   16:59    Pt Contact:
 
+(Text Page) 19180-19209 Coachmans Trace             GLENRIDGE                     Fire -  Emergency             69-Structure Fire             Meadow Crossing L
 */
 
 public class NCMecklenburgCountyParser extends SmsMsgParser {
