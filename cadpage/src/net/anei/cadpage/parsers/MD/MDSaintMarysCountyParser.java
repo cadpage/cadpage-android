@@ -16,7 +16,7 @@ Contact: "scherry3626@aol.com" <scherry3626@aol.com>
 Contact: Patrick Stanley <work3750@gmail.com>
 Contact: john douglass <jdouglassx@gmail.com>
 Contact: Crystal Jackson <crazyredheadmd@gmail.com>
-Sender: mplus@co.saint-marys.md.us
+Sender: mplus@co.saint-marys.md.us,mplus@STMARYSMD.COM
 System: Pro QA Medical & Pro QA Fire
 
 21:10:05*Personal Injury Accident*22607 THREE NOTCH RD INTERSECTN*MACARTHUR BL*LEXINGTON PARK*CO9 CO3 SQ3 CO39 CO79 A796*N/B LANES TWO VEHICLES AT LEAST ONE INJURY*
@@ -76,7 +76,7 @@ public class MDSaintMarysCountyParser extends SmartAddressParser {
   
   @Override
   public String getFilter() {
-    return "mplus@co.saint-marys.md.us";
+    return "mplus@co.saint-marys.md.us,mplus@STMARYSMD.COM";
   }
 
   @Override
