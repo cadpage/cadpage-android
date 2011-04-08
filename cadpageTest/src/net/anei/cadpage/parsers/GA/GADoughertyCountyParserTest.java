@@ -74,10 +74,21 @@ public class GADoughertyCountyParserTest extends BaseParserTest {
         "X:N WESTOVER BLV & NATIONAL CT",
         "UNIT:E01",
         "INFO:98 YOF C / B  SUGAR IS  58 / MED5");
+
+    doTest("T7",
+        "140134110980278/04-08-11/14:01:24/HEADACHE/902 CORN AV/ALBANY/HOLLEY HOMES/S HARDING ST/S CLEVELAND ST/E07/56YOF  C/B   HEART RATE IS UP/O2 @ [1 of 2]",
+        "ID:140134110980278",
+        "CALL:HEADACHE",
+        "ADDR:902 CORN AV",
+        "CITY:ALBANY",
+        "PLACE:HOLLEY HOMES",
+        "X:S HARDING ST & S CLEVELAND ST",
+        "UNIT:E07",
+        "INFO:56YOF  C / B   HEART RATE IS UP / O2 @");
     
   }
   
   public static void main(String[] args) {
-    new GADoughertyCountyParserTest().generateTests("T1");
+    new GADoughertyCountyParserTest().generateTests("T7");
   }
 }
