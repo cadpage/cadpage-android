@@ -845,7 +845,6 @@ Dispatch2:RESPOND SEIZURES 14 FRONTIER RIDGE CT, AP1302 SARS 1
 Dispatch2:MVC, HEAD ON COLLISION MAIN-ROSSER-BROAD
 Dispatch:RESPOND - 2ND CALL - CHEST PAIN - 1142 NEW HOPE RD, AP3
 ***************************************************************************
-
 ***************************************************************************
 ***************************************************************************
 *********** Districts that are not yet supported. *************************

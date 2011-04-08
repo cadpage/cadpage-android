@@ -31,6 +31,8 @@ LC911:- Nature: HEMMORAGE/LACERATION - Location:     250.00 WOODGATE CT   JOHNST
 LC911:- Nature: DIABETIC PROBLEMS - Location:     406.00 HILLVIEW DR   JOHNSTOWN -
 LC911:- Nature: CHOKING - Location:     155.00  CLARK DR JOHNSTOWN -
 
+LC911:SICK PERSON     48 N KASSON ST   JOHNSTOWN
+
 */
 public class OHLickingCountyParser extends SmartAddressParser {
   

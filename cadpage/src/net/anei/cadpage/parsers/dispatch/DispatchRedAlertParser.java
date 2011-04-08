@@ -104,7 +104,7 @@ CHIEF, WIRE at  SANDY HILL ROAD, OYSTER BAY c/s: MAIN (E) ST, WIRES BURNING . . 
 
 public class DispatchRedAlertParser extends SmsMsgParser {
   
-  private static final Pattern TIME_MARK = Pattern.compile("\\. ?\\. ?\\d\\d:\\d\\d:\\d\\d\\s*$");
+  private static final Pattern TIME_MARK = Pattern.compile("\\. ?\\. ?[\\d:]*$");
   private static final Pattern CODE_PATTERN = Pattern.compile("\\b\\d{1,2}-?[A-Z]-?\\d{1,2}[A-Z]?\\b");
   
   public DispatchRedAlertParser(String defCity, String defState) {
@@ -117,8 +117,7 @@ public class DispatchRedAlertParser extends SmsMsgParser {
     // Look for the trailing time signature
     // If we find it, strip it off.
     Matcher match = TIME_MARK.matcher(body);
-    if (!match.find()) return false;
-    body = body.substring(0,match.start()).trim();
+    if (match.find()) body = body.substring(0,match.start()).trim();
     
     // Call is sometimes in square brackets, which got treated as a subject
     // in which case it needs to be restored
