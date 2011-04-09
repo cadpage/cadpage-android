@@ -22,11 +22,12 @@ Sender: 7770*
 .... (Station 171) : FIRE F Fire Call            Priority: 1  : 26 NEW RD                                            Venue: Tabernacle  Located Between  : SOUTHAMPTON TWP LINE/WALTHAM DR Call Time- 19:50:50                                : 4312 : (609) 268-8218                Caller : JOHN JR MEALE Nature of Call : POSS CHIMNEY FIRE Additional Info    RESD:    MEMBER OF STATION 439 ON LOCATION (REEPORTING BY PHONE)      19:55:26   REPORTING A WORKING CHIMNEY FIRE //     
 .... (Station 171) :  EMS E EMS Call             Priority: 1  : 2400 RT70                                            Venue: Southamptn  Located Between  : BURRS MILL RD/MILE RD Call Time- 15:16:39                                : 1723 : (732) 581-5640                Caller : JOEL MADDEN Nature of Call : VEH INTO TREE Additional Info    WPH2:  RADIUS 04 MILES Additional Inc#s
 .... (Station 171) : 129F E Mva/Fire             Priority: 1  : 2400 RT70                                          Venue: Southamptn  Located Between  : BURRS MILL RD/MILE RD Call Time- 15:16:39                       : 1723 : (732) 581-5640                Caller : JOEL MADDEN Nature of Call : VEH INTO TREE Additional Info    WPH2:  MM24 Additional Inc#s
-
-sms send 1112223333 .... (Station 171) : 129F E Mva/Fire             Priority: 1  : 2400 RT70                                          Venue: Southamptn  Located Between  : BURRS MILL RD/MILE RD Call Time- 15:16:39                       : 1723 : (732) 581-5640                Caller : JOEL
-sms send 1112223333 MADDEN Nature of Call : VEH INTO TREE Additional Info    WPH2:  MM24 Additional Inc#s
+.... (Station 171) : FIRE F Fire Call            Priority: 1  : 412 PRICKETTS MILL RD                                Venue: Tabernacle  Located Between  : MEDFORD LAKES RD/OAKSHADE RD Call Time- 16:20:29                                : 4310 : (609) 268-1974                Caller : JUDY GERBER Nature of Call : CHIMNEY FIRE // Additional Info    RESD: Additional Inc#s
 
 
+sms send 777038306111 .... (Station 171) : FIRE F Fire Call            Priority: 1  : 412 PRICKETTS MILL RD                                Venue: Tabernacle  Located Between  :
+sms send 777038306111 MEDFORD LAKES RD/OAKSHADE RD Call Time- 16:20:29                                : 4310 : (609) 268-1974                Caller : JUDY GERBER Nature of Call :
+sms send 777038306111 CHIMNEY FIRE // Additional Info    RESD: Additional Inc#s
 */
 
 public class NJBurlingtonCountyParser extends FieldProgramParser {

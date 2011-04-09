@@ -1,7 +1,5 @@
 package net.anei.cadpage.parsers.NY;
 
-import java.util.regex.Pattern;
-
 import net.anei.cadpage.SmsMsgInfo.Data;
 import net.anei.cadpage.parsers.FieldProgramParser;
 
@@ -9,38 +7,33 @@ import net.anei.cadpage.parsers.FieldProgramParser;
 Nassau County, NY (version C)
 Contact: Besnik Gjonlekaj <tigerfdny@gmail.com>
 Sender: backup@westburyfd.xohost.com
-System: Fire Rescue Systems
+System: Fire Rescue Systems (SCM)
 
-SIG 14- SIGNAL 8 - FOR AFA  WESTBURY MIDDLE SCHOOL 455 ROCKLAND ST CS: LINDEN PLACE / SCHOOL ST TOA: 13:36 03/27
-SIG 16- AFA  THE SOURCE MALL 1504 OLD COUNTRY ROAD CS: MERCHANTS CONCOURSE / ZECKENDORF BOULEVARD TOA: 06:03 03/27/11
-SIG 4- SIGNAL 9   CABRERA, TULIO 362 WINTHROP STREET CS: POST AVENUE  / LINDEN AVENUE TOA: 11:33 03/26/11
-SIG 3- AUTO ACCIDENT W/AIDED  BOND STREET & OLD COUNTRY ROAD  BOND STREET CS: OLD COUNTRY ROAD TOA: 11:49 03/25/11
-SIG 1- STRUCTURE FIRE   RITE AID 210 POST AVENUE CS: MAPLE AVENUE  / MADISON AVENUE TOA: 10:30 03/24/11
-SIG 3- AUTO ACCIDENT/ HURST TOOL   BENIHANA RESAURANT 920 MERCHANTS CONCOURSE CS: TAYLOR AVENUE  / PRIVADO ROAD TOA: 12:56 03/24/11
-SIG 14- SIGNAL 8 - FOR AFA  WESTBURY MIDDLE SCHOOL 455 ROCKLAND STREET CS: LINDEN PLACE  / SCHOOL STREET TOA: 13:36 03/27/11
-SIG 4- SIGNAL 9   MARK,GERTRUDE 701 THE PLAIN ROAD CS: LADENBURG DRIVE  / VALENTINE ROAD TOA: 09:14 04/02/11
-SIG 4- SIGNAL 9  CODE 96  OUIDIO CASTRO 50 WATERBURY LANE CS: BARD ROAD  / PEPPERIDGE ROAD TOA: 13:23 04/02/11
-SIG 4- SIGNAL 9   AAR AIRCRAFT COMPONENT SERVICE 747 ZECKENDORF BOULEVARD  / DIBBLEE DRIVE TOA: 11:54 04/04/11
-SIG 6- BRUSH/DUMPSTER    NORTHBOUND WANTAGH STATE PARKWAY N/B WANTAGH STATE PARKWAY TOA: 00:42 04/05/11
+* 3- AUTO ACCIDENT W/AIDED * POST ROAD & JERICHO TURNPIKE  POST ROAD CS: JERICHO TURNPIKE TOA: 14:03 04-07-11
+* 16- AFA * PUBLIC STORAGE 1055 STEWART AVENUE CS: MERCHANTS CONCOURSE \ SOUTH STREET TOA: 15:58 04-07-11
+* 8- MUTUAL AID RESCUE * LAND LN CS: CARMAN AVENUE TOA: 11:41 04-08-11
+* 3- AUTO ACCIDENT W/ AIDED * TACO BELL #3204 23 OLD COUNTRY ROAD CS: GRAND STREET \ CENTRAL AVENUE TOA: 13:50 04-08-11
+* 4- SIGNAL 9  * LLOYD L. LANGLEY 248 SHERMAN STREET CS: BROADWAY \ ROMAN AVENUE TOA: 19:47 04-08-11
 
 */
 
 
 public class NYNassauCountyCParser extends FieldProgramParser {
-  
-  private static final Pattern MARKER = Pattern.compile("^SIG \\d{1,2}- ");
 
   public NYNassauCountyCParser() {
     super("NASSAU COUNTY", "NY",
-           "CALL! LOC:ADDR/SP! CS:X TOA:SKIP");
+           "ADDR/SP CS:X TOA:SKIP");
   }
 
   @Override
   protected boolean parseMsg(String body, Data data) {
     
-    if (body.startsWith("***")) return false;
-    if (!MARKER.matcher(body).find()) return false;
-    body = body.replaceFirst("  ", " LOC: ");
+    if (! body.startsWith("* ")) return false;
+    int pt = body.indexOf(" * ", 2);
+    if (pt < 0) return false;
+    data.strCall =  body.substring(2,pt).trim();
+    body = body.substring(pt+3).trim();
+    
     return super.parseMsg(body, data);
   }
   
@@ -69,6 +62,11 @@ public class NYNassauCountyCParser extends FieldProgramParser {
   public Field getField(String name) {
     if (name.equals("ADDR")) return new MyAddressField();
     return super.getField(name);
+  }
+  
+  @Override
+  public String getProgram() {
+    return "CALL " + super.getProgram();
   }
   
 }
