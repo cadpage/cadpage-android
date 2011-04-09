@@ -164,6 +164,8 @@ public class SmartAddressParserTest extends BaseParserTest {
         "ADDR:2000 COUNTRY PLACE CT");
     doTest(SKIP, "JUNK STUFF 2000 COUNTRY PLACE CT EXTRA", 
         "ADDR:2000 COUNTRY PLACE CT");
+    doTest(SKIP, "JUNK STUFF 2000-2100 COUNTRY PLACE CT EXTRA", 
+    "ADDR:2000-2100 COUNTRY PLACE CT");
   }
   
   @Test

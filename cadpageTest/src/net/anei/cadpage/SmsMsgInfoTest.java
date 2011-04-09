@@ -23,10 +23,9 @@ public class SmsMsgInfoTest {
     
     doMapTest("CLHS1", "BROADWAY &S 10TH ST,KENBURG,XX", 
                        "1600 BROADWAY & 4500 S 10TH ST");
-
     doMapTest("CLHS2", "1000 S RT 50,KENBURG,XX", "1000 S RT 50");
-    
     doMapTest("CLHS3", "US 150 & HWY 30,KENBURG,XX", "US 150 & HWY 30");
+    doMapTest("CLHS4", "1100 SE BLACK ST,KENBURG,XX", "1100-1200 SE BLACK ST");
     
     doMapTest("CR1", "1000 PINE ST,KENBURG,XX", "1000 PINE ST", "MULBERY RD");
     doMapTest("CR2", "PINE ST & BLACK ST,KENBURG,XX", "PINE ST & BLACK ST", "MULBERY RD");
