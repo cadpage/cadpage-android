@@ -124,7 +124,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
   // route prefix extender
   private static final int ID_ROUTE_PFX = ID_ROUTE_PFX_PFX | ID_ROUTE_PFX_EXT;
   
-  private static final Pattern PAT_HOUSE_NUMBER = Pattern.compile("\\d+(-?[A-Z])?");
+  private static final Pattern PAT_HOUSE_NUMBER = Pattern.compile("\\d+(?:-\\d+)?(?:-?[A-Z])?");
   
   // List of multiple word cities that need to be converted to and from single tokens
   List<String[]> mWordCities = null;
