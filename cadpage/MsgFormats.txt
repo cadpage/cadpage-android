@@ -226,15 +226,19 @@ Ct:MVA-UNKNOWN-INJ Loc:US HWY 40/INTERSTATE 70 Apt: XSt: Grid:0169 Units:E-41 Rm
 * DispatchPrintrakParser subclasses
 *******************************************************************************
 *******************************************************************************
-Lehigh County PA
-ST0100 TYP: RESP DIST-ABN BREATH APT: 8 AD: 4015 SCHOENECK RD CTY: LOWER MACUNGIE LOC: BIG O MHP CN: NURSE JULIE CMT1: **CHARLIE BREATHING PROBLEMS - ABNORMAL REATHING CMT2: 57 YEAR OLD MALE | 502 LBS | FULL OF FLUID | BLOOD IN STOOL | TIME: 10:11 UNTS: FD/30CHIEFS FD/ST01 XST2: MOUNTAIN RD
-ST0100 TYP: NON-DWELL STRUCTURE AD: 8635 HENSINGERSVILLE RD CTY: 06 LONGSWAMP CMT1: **NON-DWELLING STRUCTURE FIRE (SHED, DETATCHED GARAGE) CMT2: FULLY INVOLVED STRUCTURE FIRE TIME: 01:37 UNTS: FD/ST01 XST: WALKER RD XST2: 8603 OAK HOLLOW LN
-ST0100 TYP: APARTMENT BLDG FIRE AD: 2130 STATE ST CTY: 06 LONGSWAMP CN: BERKS CMT1: **APARTMENT BUILDING FIRE (MULTI-OCCUPANCY RESIDENTIAL) CMT2: REQ ST 01 WIT BERKS ST21 SMOKE FROM BASEMENT IN APT BUILDING TIME: 14:22 UNTS: FD/E111 XST: 175 SCHLOSSBURG ST XST2: 380 JAMES LN
+Greene County, MO
+TYP: RESIDENTIAL FIRE AD: 500 S VENTURA AVE CTY: REPUBLIC MAP: U-8 CN: JOE SNYDER CMT1: * * * CLONE STRUCTURE FIRES TO GF/FHOUSE-FBLDG/BF10/ CMT:AUTO_AID * * * TIME: 22:21 UNTS: RF/BRUSH1 XST: 598 S FOREST LN XST2: 600 W ONEAL RD
+TYP: MEDICAL AD: 1013 E US60 EAST CTY: REPUBLIC MAP: T-9 LOC: PRICE CUTTER CMT1: * * * CLONE STRUCTURE FIRES TO GF/ FHOUSE-FBLDG/BF10/CMT:AUTO_AID * * * CMT2: PERSON FELL OFF BICYCLE -ELDERLY TIME: 19:12 UNTS: RF/ST1
 *******************************************************************************
 Orange County, NY
 DEPTWK     TYP: MVA- UNKNOWN STATUS AD: ST RTE 17 W&EXIT 120 W OFF CTY: WALLKILL CN: RICHARD CMT1: CALLER REPORTS A 2 CAR MV
 DEPTWK     TYP: FALLS APT: 621 AD: 121 DUNNING RD CTY: WALLKILL CN: MARGARET TENNISON CMT1: MVISITOR FELL IN PT ROOM ARM AND
 DEPTWK     TYP: PSYCH EMERG BLD: 10 APT: 13B AD: 92 FITZGERALD DR CTY: WALLKILL CN: TRACZ, CAROLINE CMT1: "SEND AS AN ALPHA
+*******************************************************************************
+Lehigh County PA
+ST0100 TYP: RESP DIST-ABN BREATH APT: 8 AD: 4015 SCHOENECK RD CTY: LOWER MACUNGIE LOC: BIG O MHP CN: NURSE JULIE CMT1: **CHARLIE BREATHING PROBLEMS - ABNORMAL REATHING CMT2: 57 YEAR OLD MALE | 502 LBS | FULL OF FLUID | BLOOD IN STOOL | TIME: 10:11 UNTS: FD/30CHIEFS FD/ST01 XST2: MOUNTAIN RD
+ST0100 TYP: NON-DWELL STRUCTURE AD: 8635 HENSINGERSVILLE RD CTY: 06 LONGSWAMP CMT1: **NON-DWELLING STRUCTURE FIRE (SHED, DETATCHED GARAGE) CMT2: FULLY INVOLVED STRUCTURE FIRE TIME: 01:37 UNTS: FD/ST01 XST: WALKER RD XST2: 8603 OAK HOLLOW LN
+ST0100 TYP: APARTMENT BLDG FIRE AD: 2130 STATE ST CTY: 06 LONGSWAMP CN: BERKS CMT1: **APARTMENT BUILDING FIRE (MULTI-OCCUPANCY RESIDENTIAL) CMT2: REQ ST 01 WIT BERKS ST21 SMOKE FROM BASEMENT IN APT BUILDING TIME: 14:22 UNTS: FD/E111 XST: 175 SCHLOSSBURG ST XST2: 380 JAMES LN
 *******************************************************************************
 Calumet County, WI
 Currently disabled
@@ -950,6 +954,81 @@ a page.  If there is anything I can influence to make things easier let me
 know. I will contact our paging provider to make these adjustments. We use 
 Logisys CAD which sends a message to MIS Scienes. MIS Sciences are the 
 people who send out our paging for us.
+**********************************************************
+Wake County, NC
+Contact: "wendelldispatch@yahoo.com" <wendelldispatch@yahoo.com>
+Sender: wcps@wakegov.com
+
+Looks like email only pages
+
+From: wcps@wakegov.com
+Date: Thu, Apr 7, 2011 2:55 pm
+Subject: WCPS
+To: <wendelldispatch@yahoo.com>
+
+Incident: FHEART: 
+Map: 066O 
+Address: 6437 FALCONWOOD DR 
+Location:  
+Apt:  
+Cross:  CARRINGTON WOODS DR   /   MARTIN POND RD 
+Units: WEB114,
+Talk Group: T16
+City: WCWD 
+Comments: **CARDIAC**
+PRIMARY UNIT CHANGED TO: FD/WEB114
+R
+
+Date: Wed, Apr 6, 2011 7:47 pm
+Subject: WCPS
+To: <wendelldispatch@yahoo.com>
+
+Incident: FGRASS: 
+Map: 066I 
+Address: US 64, HWY EB / WENDELL BLVD 
+Location: EXIT 429 WENDELL BLV 
+Apt:  
+Cross: 
+Units: WEB114,
+Talk Group: O1
+City: WCKD 
+Comments: **GRASS FIRE**
+ORIGINAL LOCATION : EXIT 429 WENDELL BLV
+ON RI
+
+From: wcps@wakegov.com
+Date: Wed, Apr 6, 2011 4:45 pm
+Subject: WCPS
+To: <wendelldispatch@yahoo.com>
+
+Incident: F50IC : 
+Map: 066D 
+Address: US 64, HWY E / ROLESVILLE RD 
+Location: EXIT 430 WB ROLESVIL 
+Apt:  
+Cross: 
+Units: WEE113,WER110,
+Talk Group: T16
+City: WCWD 
+Comments: **ACCIDENT-WITH INJURIES**
+4 VEH ACCIDENT ....JUST EAS
+
+From: wcps@wakegov.com
+Date: Wed, Apr 6, 2011 5:16 pm
+Subject: WCPS
+To: <wendelldispatch@yahoo.com>
+
+Incident: FSEIZ : 
+Map: 066D 
+Address: US 64, HWY E / ROLESVILLE RD 
+Location:  
+Apt:  
+Cross: 
+Units: WEB114,
+Talk Group: T17
+City: WCWD 
+Comments: **SEIZURES**
+ON THE EB, PASSED THE EXIT, IN THE MEDIAN, PT IS INSIDE A GRY NISSAN
 ***************************************************************************
 ***************************************************************************
 ************** Request holding for one thing or another *******************
@@ -1458,18 +1537,12 @@ UD COPIAGUE, NY -SUFFOLK- BANK ROBBERY 314 GREAT NECK RD - POLISH & SLAVIC FEDER
 Hudson, OH
 Contact: "Graham, Bruce" <BGraham@hudson.oh.us>
 Contact: dthompson@hudson.oh.us<mailto:dthompson@hudson.oh.us>
-Sender: 
+Sender: hudsoncad@hudson.oh.us
 HudsonCAD:CAD System 6150,NICHOLSON DR.,,HUDSON EMS,EMS63 YOM, DIABETIC SHOCK
 HudsonCAD:CAD System 0,ANYWHERE,OTHER LOCATION OUT OF CITY,HudsonEMS,EMSMUTAL AID TO TWINSBURG FOR WORKING HOUSE FIRE, 2416 WHITE MARSH
 HudsonCAD:CAD System 6150,NICHOLSON DR.,,HUDSON EMS,EMS
 HudsonCAD:CAD System 75,EXECUTIVE PKWY.,ALLSTATE INSURANCE (75 EXEC),HUDSONEMS,EMSfemale diff breathing allergic reaction first floor front
 HudsonCAD:CAD System 0,W STREETSBORO ST.,91 & 303,HUDSONEMS,EMStest do not respond test only
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-************  READY TO ROLL ******************************
-**********************************************************
 **********************************************************
 Unknown attempting MDAnneArundelCounty parser
 Contact: Michael Brown <mike.a.brown09@gmail.com>
@@ -1505,74 +1578,8 @@ Contact: g wise <firedawg2009@gmail.com>
 Sender: CAD@hcesd-1.org
 / / ID# 11-04-10774 / UNIT: / 67B01 / GRASS/WOODS FIRE / ROSALINDA LN / KARLANDA LN / APT: / BLD: / KM: 373A / XSTRTS:
 **********************************************************
-Wake County, NC
-Contact: "wendelldispatch@yahoo.com" <wendelldispatch@yahoo.com>
-
-From: wcps@wakegov.com
-Date: Thu, Apr 7, 2011 2:55 pm
-Subject: WCPS
-To: <wendelldispatch@yahoo.com>
-
-Incident: FHEART: 
-Map: 066O 
-Address: 6437 FALCONWOOD DR 
-Location:  
-Apt:  
-Cross:  CARRINGTON WOODS DR   /   MARTIN POND RD 
-Units: WEB114,
-Talk Group: T16
-City: WCWD 
-Comments: **CARDIAC**
-PRIMARY UNIT CHANGED TO: FD/WEB114
-R
-
-Date: Wed, Apr 6, 2011 7:47 pm
-Subject: WCPS
-To: <wendelldispatch@yahoo.com>
-
-Incident: FGRASS: 
-Map: 066I 
-Address: US 64, HWY EB / WENDELL BLVD 
-Location: EXIT 429 WENDELL BLV 
-Apt:  
-Cross: 
-Units: WEB114,
-Talk Group: O1
-City: WCKD 
-Comments: **GRASS FIRE**
-ORIGINAL LOCATION : EXIT 429 WENDELL BLV
-ON RI
-
-From: wcps@wakegov.com
-Date: Wed, Apr 6, 2011 4:45 pm
-Subject: WCPS
-To: <wendelldispatch@yahoo.com>
-
-Incident: F50IC : 
-Map: 066D 
-Address: US 64, HWY E / ROLESVILLE RD 
-Location: EXIT 430 WB ROLESVIL 
-Apt:  
-Cross: 
-Units: WEE113,WER110,
-Talk Group: T16
-City: WCWD 
-Comments: **ACCIDENT-WITH INJURIES**
-4 VEH ACCIDENT ....JUST EAS
-
-From: wcps@wakegov.com
-Date: Wed, Apr 6, 2011 5:16 pm
-Subject: WCPS
-To: <wendelldispatch@yahoo.com>
-
-Incident: FSEIZ : 
-Map: 066D 
-Address: US 64, HWY E / ROLESVILLE RD 
-Location:  
-Apt:  
-Cross: 
-Units: WEB114,
-Talk Group: T17
-City: WCWD 
-Comments: **SEIZURES**
-ON THE EB, PASSED THE EXIT, IN THE MEDIAN, PT IS INSIDE A GRY NISSAN
+**********************************************************
+************  READY TO ROLL ******************************
+**********************************************************
+**********************************************************
+**********************************************************
