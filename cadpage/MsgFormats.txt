@@ -1543,6 +1543,8 @@ HudsonCAD:CAD System 0,ANYWHERE,OTHER LOCATION OUT OF CITY,HudsonEMS,EMSMUTAL AI
 HudsonCAD:CAD System 6150,NICHOLSON DR.,,HUDSON EMS,EMS
 HudsonCAD:CAD System 75,EXECUTIVE PKWY.,ALLSTATE INSURANCE (75 EXEC),HUDSONEMS,EMSfemale diff breathing allergic reaction first floor front
 HudsonCAD:CAD System 0,W STREETSBORO ST.,91 & 303,HUDSONEMS,EMStest do not respond test only
+HudsonCAD:CAD System 0,W STREETSBORO ST.,91 & 303,HUDSONEMS,EMStest do not respond test only
+HudsonCAD:CAD System 0,ANYWHERE,OTHER LOCATION OUT OF CITY,HudsonEMS,EMSMUTAL AID TO TWINSBURG FOR WORKING HOUSE FIRE, 2416 WHITE MARSH
 **********************************************************
 Unknown attempting MDAnneArundelCounty parser
 Contact: Michael Brown <mike.a.brown09@gmail.com>
@@ -1577,6 +1579,11 @@ ID#/ 11-03-09995 / 21B01 / Hemorrhage/Lacerations / 19110 Miller Wilson Rd / BLD
 Contact: g wise <firedawg2009@gmail.com>
 Sender: CAD@hcesd-1.org
 / / ID# 11-04-10774 / UNIT: / 67B01 / GRASS/WOODS FIRE / ROSALINDA LN / KARLANDA LN / APT: / BLD: / KM: 373A / XSTRTS:
+**********************************************************
+Grand Hall, Nebraska
+Contact: Tom Chapman <tomchapm48@gmail.com>
+Sender: fire_text@grand-island.com
+**********************************************************
 **********************************************************
 **********************************************************
 ************  READY TO ROLL ******************************
