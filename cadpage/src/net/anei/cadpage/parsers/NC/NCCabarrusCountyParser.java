@@ -26,6 +26,7 @@ public class NCCabarrusCountyParser extends DispatchOSSIParser {
   
   private static Properties CITY_CODES = buildCodeTable(new String[]{
       "HAR",  "HARRISBURG",
+      "HUN", "HUNTERSVILLE",
       "MP",   "MT PLEASANT",
       "CON",  "CONCORD",
       "KAN",  "KANNAPOLIS",

@@ -116,8 +116,12 @@ public class DispatchRedAlertParser extends SmsMsgParser {
     
     // Look for the trailing time signature
     // If we find it, strip it off.
+    boolean ok = false;
     Matcher match = TIME_MARK.matcher(body);
-    if (match.find()) body = body.substring(0,match.start()).trim();
+    if (match.find()) {
+      ok = true;
+      body = body.substring(0,match.start()).trim();
+    }
     
     // Call is sometimes in square brackets, which got treated as a subject
     // in which case it needs to be restored
@@ -160,8 +164,12 @@ public class DispatchRedAlertParser extends SmsMsgParser {
     data.strCall = data.strCall.replaceAll("\\. \\.", "-");
 
     data.strPlace = props.getProperty("O", "");
-    data.strCross = props.getProperty("CROSS", "");
+    String sCross = props.getProperty("CROSS", "");
+    if (sCross != null) {
+      ok = true;
+      data.strCross = sCross;
+    }
 
-    return true;
+    return ok;
   }
 }
