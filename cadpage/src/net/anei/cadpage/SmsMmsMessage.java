@@ -250,6 +250,7 @@ public class SmsMmsMessage implements Serializable {
     Pattern.compile(" - Sender: *([\\w\\.]+@[\\w\\.]+) *\n")
   };
   private static final Pattern S_M_PATTERN = Pattern.compile("^S: *([^:]*) +M:");
+  private static final Pattern PRVS_DB_PATTERN = Pattern.compile("^prvs=\\d+db=([^ ]+) ");
   
   /**
    * Perform any front end unscrambling required to recover the original text
@@ -413,6 +414,16 @@ public class SmsMmsMessage implements Serializable {
       match = S_M_PATTERN.matcher(body);
       if (match.find()) {
         addSubject(match.group(1));
+        body = body.substring(match.end()).trim();
+        break;
+      }
+      
+      /* Decode patterns that look like
+       * prvs=10825513db=mailghost@mobilemedical.org (<CAD> - part 1 of 1) Congratulations to Mary Remington! She has won the PRIDE award this month
+       */
+      match = PRVS_DB_PATTERN.matcher(body);
+      if (match.find()) {
+        parseAddress = match.group(1);
         body = body.substring(match.end()).trim();
         break;
       }
