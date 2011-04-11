@@ -184,6 +184,12 @@ public class SmsMmsMessageTest {
         "",
         "1/2",
         "CAD MSG: *D TREESDWN FORGEDALE RD / CLAY VALLEY RD 0087 PSP IS REQ FIRE\nCO FOR TREE REMOVAL FROM ROADWAY // PSP NOT ON LOC BC");
+    
+    doParseTest("MIMobileMedicalRsponse",
+        "prvs=10825513db=mailghost@mobilemedical.org (<CAD> - part 1 of 1) Congratulations to Mary Remington!",
+        "mailghost@mobilemedical.org",
+        "<CAD> - part 1 of 1",
+        "Congratulations to Mary Remington!");
   }
   
   @Test
