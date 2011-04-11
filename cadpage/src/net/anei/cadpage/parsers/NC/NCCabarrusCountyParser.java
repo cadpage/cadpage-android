@@ -25,10 +25,14 @@ CAD:FALL WITH INJURY;8552 INDIAN SUMMER TR;HAR;TOM SAVAGE DR
 public class NCCabarrusCountyParser extends DispatchOSSIParser {
   
   private static Properties CITY_CODES = buildCodeTable(new String[]{
-      "CON", "CONCORD",
-      "DAV", "DAVIDSON",
-      "HAR", "HARRISBURG",
-      "HUN", "HUNTERSVILLE"
+      "HAR",  "HARRISBURG",
+      "MP",   "MT PLEASANT",
+      "CON",  "CONCORD",
+      "KAN",  "KANNAPOLIS",
+      "DAV",  "DAVIDSON",
+      "LOC",  "LOCUST",
+      "CLT",  "CHARLOTTE",
+      "CHLT", "CHARLOTTE"
   });
   
   public NCCabarrusCountyParser() {
