@@ -40,6 +40,8 @@ public class NJMorrisCountyParser extends SmsMsgParser {
   private static final Pattern MASTER_PTN = 
     Pattern.compile("^(.*) \\[([A-Za-z ]+)\\] \\(([A-Z ]+)\\) - (.*) - (.*) \\d\\d:\\d\\d *$");
   
+  private static final Pattern PLACE_CODE_PTN = Pattern.compile("\\(\\d+\\)$");
+  
   public NJMorrisCountyParser() {
     super("MORRIS COUNTY", "NJ");
   }
@@ -59,6 +61,9 @@ public class NJMorrisCountyParser extends SmsMsgParser {
     if (sAddress.startsWith("***")) sAddress = sAddress.substring(3).trim();
     Parser p = new Parser(sAddress);
     data.strPlace = p.getOptional(',');
+    Matcher match2 = PLACE_CODE_PTN.matcher(data.strPlace);
+    if (match2.find()) 
+      data.strPlace = data.strPlace.substring(0,match2.start()).trim();
     data.strApt = p.getLastOptional(" BLDG ");
     parseAddress(p.get(), data);
     
