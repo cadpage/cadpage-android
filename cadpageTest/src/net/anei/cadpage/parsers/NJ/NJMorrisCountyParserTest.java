@@ -16,7 +16,7 @@ public class NJMorrisCountyParserTest extends BaseParserTest {
 
     doTest("T1",
         "PORZIO BROMBERG & NEWMAN (22) , 100 SOUTHGATE PKY [Morris Twp] (SICK PERSN) - SERIOUS PAIN IN LEGS... UNABLE TO WALK... - E2368 17:14",
-        "PLACE:PORZIO BROMBERG & NEWMAN (22)",
+        "PLACE:PORZIO BROMBERG & NEWMAN",
         "ADDR:100 SOUTHGATE PKY",
         "CITY:Morris Twp",
         "CALL:SICK PERSN",
@@ -49,7 +49,7 @@ public class NJMorrisCountyParserTest extends BaseParserTest {
 
     doTest("T5",
         "MORRIS VIEW NURSING HOME (22) , 540 W HANOVER AVE BLDG MORRIS [Morris  Twp] (BLEEDING) - LACERATION HER RIGHT LEG... IN UNIT 1A ROOM 1108... - E2368 07:54",
-        "PLACE:MORRIS VIEW NURSING HOME (22)",
+        "PLACE:MORRIS VIEW NURSING HOME",
         "ADDR:540 W HANOVER AVE",
         "APT:MORRIS",
         "CITY:Morris  Twp",
@@ -99,7 +99,7 @@ public class NJMorrisCountyParserTest extends BaseParserTest {
 
     doTest("T11",
         "MADISON HOTEL (22), 1 CONVENT RD [Morris Twp] (SICK PERSN) - SICK FEMALE IN LOBBY - E2368 19:01",
-        "PLACE:MADISON HOTEL (22)",
+        "PLACE:MADISON HOTEL",
         "ADDR:1 CONVENT RD",
         "CITY:Morris Twp",
         "CALL:SICK PERSN",
@@ -116,7 +116,7 @@ public class NJMorrisCountyParserTest extends BaseParserTest {
 
     doTest("T13",
         "UNIT 1D ROOM 1422 MORRIS VIEW NURSING HOME (22), 540 W HANOVER AVE [Morris Twp] (SICK PERSN) - FEMALE WITH ALTERMENTAL STATUS - E2366 09:37",
-        "PLACE:UNIT 1D ROOM 1422 MORRIS VIEW NURSING HOME (22)",
+        "PLACE:UNIT 1D ROOM 1422 MORRIS VIEW NURSING HOME",
         "ADDR:540 W HANOVER AVE",
         "CITY:Morris Twp",
         "CALL:SICK PERSN",
@@ -134,7 +134,7 @@ public class NJMorrisCountyParserTest extends BaseParserTest {
 
     doTest("T15",
         "RACEWAY GAS(23), 1701 RT 10 [Morris Plains] (CAR FIRE) - CAR FIRE IN THE FAST LANE - 2399,2398 22:46",
-        "PLACE:RACEWAY GAS(23)",
+        "PLACE:RACEWAY GAS",
         "ADDR:1701 RT 10",
         "CITY:Morris Plains",
         "CALL:CAR FIRE",
