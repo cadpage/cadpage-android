@@ -356,6 +356,11 @@ Nassau County, NY (NYNassauCountyDParser)
 *** 45) BRUSH *** 1 MILLER RD CS: HEMPSTEAD TPKE TOA: 14:48 03-29-11
 *** 11) AFA -HOUSE *** 21 CLARK ST CS: EILEEN AVE TOA: 08:09 03-29-11
 *******************************************************************************
+Nassau County, NY (NYNassauCountyFiretrackerParser)
+(FirePage) ** FFD FIRE CALL ** GENERAL PROB WITH GAS STOVE-POSS LEAK 170 JAY ST\nC/S: DEAN (E) ST / MILTON (E) ST TOA: 17:02 [FireTracker]
+(FirePage) ** FFD FIRE CALL ** DISTRIC DIST CALL FOR SMOKE IN THE AREA CHURCH ST\nC/S: ARCHER ST TOA: 19:12 [FireTracker]
+(FirePage) ** FFD FIRE CALL ** GENERAL APT 72 / 3RD FLOOR / SMOKE 100 N MAIN ST\nC/S: RANDALL AVE / GRAND AVE TOA: 18:50 [FireTracker]
+*******************************************************************************
 *******************************************************************************
 * Individual parser classes
 *******************************************************************************
@@ -1585,8 +1590,8 @@ Contact: Tom Chapman <tomchapm48@gmail.com>
 Sender: fire_text@grand-island.com
 **********************************************************
 **********************************************************
-**********************************************************
 ************  READY TO ROLL ******************************
+**********************************************************
 **********************************************************
 **********************************************************
 **********************************************************
