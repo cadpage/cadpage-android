@@ -250,7 +250,7 @@ public class SmsMmsMessage implements Serializable {
     Pattern.compile(" - Sender: *([\\w\\.]+@[\\w\\.]+) *\n")
   };
   private static final Pattern S_M_PATTERN = Pattern.compile("^S: *([^:]*) +M:");
-  private static final Pattern PRVS_DB_PATTERN = Pattern.compile("^prvs=\\d+db=([^ ]+) ");
+  private static final Pattern PRVS_DB_PATTERN = Pattern.compile("^prvs=[0-9a-f]{10}=([^ ]+) ");
   
   /**
    * Perform any front end unscrambling required to recover the original text

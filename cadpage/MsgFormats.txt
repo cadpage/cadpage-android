@@ -592,6 +592,11 @@ Sta:23-1\nType:MVC\nLoc:233 N MAIN ST\nVen:HARRISON\nDsp-07:56:31\nClr-
 Sta:23-1\nType:SEIZ\nLoc:143 SALVATORE DR\nVen:HARRISON\nDsp-15:26:16\nClr- 
 Sta:23-1\nType:DWEL\nLoc:296 WESTBROOK DR\nVen:WOOLWICH\nDsp-08:16:44\nClr- 
 ***************************************************************************
+Morris County, NJ (NJMorrisCountyParser)
+PORZIO BROMBERG & NEWMAN (22) , 100 SOUTHGATE PKY [Morris Twp] (SICK PERSN) - SERIOUS PAIN IN LEGS... UNABLE TO WALK... - E2368 17:14
+4 JARDINE CT [Morris Twp] (UNCONSCN) - 84 YOM UNCONCIOUS IS BREATHING. - E2368 15:37
+340 SPEEDWELL AVE [Morris Plains] (BREATHING) - MORISM FAMILY MEDICINE ASSOC. DR. JOSEPH OFFICE 50 YOF DIFF BREATHING IS ON OXYGEN FULL TIME - 2398 11:25
+***************************************************************************
 Broome County, NY (NYBroomeCountyParser)
 (49 Sanitaria Spr Fire) 49-DIABETIC-C :2786 ROUTE 79 :78 yo fem high blood sugar/unable t   &lt;13C02&gt; :78 year old, Female, Conscious, Breathing.  A
 25:DIABETIC-C :412 ADAMS AV APT 1S :67 yom diabetic / low sugar &lt;13C01&gt; :67 year old, Male, Conscious, Breathing. Not alert (Combative or Agg ressive). Cross Sts:TRACY ST/RIVERVIEW DR 01:29 02/07/2011 2011-00002425 Caller:BATTISTI,MAURICE,, Phone:607-239-4661 V/Endicott
@@ -1537,7 +1542,12 @@ QUEENS, NY -NYC- MVA GCP @ JEWEL AVE. MVA CAUSING DELAYS. USE CAUTION. MA570
 BROOKLYN, NY -NYC- SEXUAL ASSAULT E 95 ST & WILLMOHR ST. -67 PCT-. 1 YOUNG MALE VIC. PERP IS A BM KNOWN TO VIC. MA570
 UD COPIAGUE, NY -SUFFOLK- BANK ROBBERY 314 GREAT NECK RD - POLISH & SLAVIC FEDERAL CREDIT UNION. PERP LSW GREY APPAREL. REQ K9 & SQUAD. NY3170
 
+Sender: Elmont@Alarms.com
 (4/7/2011 10:37) Call:  Sub: RESC 2095 DUTCH BROADWAY ELMONT Cross: GLAFIL ST & ELMONT ROADMALE WITH HAND STUCK IN BOX CRUSHER 12-B5, ZONE 5
+(4/11/2011 16:24) Call: MVAFIRE Sub: MVA 2095 DUTCH BROADWAY ELMONT Cross: GLAFIL ST & ELMONT ROADCAR INTO POLE CAR SMOKING 12-B5, ZONE 5
+(4/11/2011 13:33) Call: GENERAL Sub: AUTO 2150 HEMPSTEAD TPK ELMONT Cross: CROSS ISLAND PKWY & PLAINFIELD AVE MAP 21, ZONE 1
+(4/11/2011 13:32) Call: GENERAL Sub: AUTO 1835 CENTRAL AVE NO VALLEY STREAM Cross: FENWOOD DR & STUART AVENO PERMIT 16-B7, ZONE 5
+(4/11/2011 05:46) Call:  Sub: AMBU 333 BILTMORE AVE ELMONT Cross: BONTA ST & MURRAY HILL STMALE RESP DISTRESS/ CODE 91 7-A4, ZONE 1
 **********************************************************
 Hudson, OH
 Contact: "Graham, Bruce" <BGraham@hudson.oh.us>
@@ -1589,8 +1599,14 @@ Grand Hall, Nebraska
 Contact: Tom Chapman <tomchapm48@gmail.com>
 Sender: fire_text@grand-island.com
 **********************************************************
+Fayette County, Pennsylvania
+Contact: Michael Wystepek <mjwystepek@gmail.com>
+Sender: mwystepek@gmail.com
+FAYETTE-911:FACINJ>F-ACCIDENT W/ INJURIES VANCES MILL RD NORTH UNION WILSON PAUL 7249637757 Map: Grids:, Cad: 2011-0000029638
+**********************************************************
 **********************************************************
 ************  READY TO ROLL ******************************
+**********************************************************
 **********************************************************
 **********************************************************
 **********************************************************
