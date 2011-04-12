@@ -80,9 +80,16 @@ public class MIMobileMedicalResponseParserTest extends BaseParserTest {
         "ADDR:602 BEECH ST",
         "CALL:P-5 Local Transport",
         "INFO:2ND FLOOR 205-A MED SURG / Int-Sick Person-Specify in Comm");
+
+    doTest("T10",
+        "prvs=10834168ba=mailghost@mobilemedical.org (<CAD> - part 1 of 1) RC:Run# 24453/5186 FENTON/P-3 Downgrade  (No Lts/Sirens)//Overdose / Poisoning (Ingestion)/mundy twp // at kroger",
+        "ID:24453",
+        "ADDR:5186 FENTON",
+        "CALL:P-3 Downgrade  (No Lts/Sirens)",
+        "INFO:Overdose / Poisoning (Ingestion) / mundy twp / at kroger");
   }
   
   public static void main(String[] args) {
-    new MIMobileMedicalResponseParserTest().generateTests("T1");
+    new MIMobileMedicalResponseParserTest().generateTests("T10");
   }
 }
