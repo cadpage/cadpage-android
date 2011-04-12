@@ -173,7 +173,7 @@ public class ManagePreferences {
   }
   
   public static boolean publishPages() {
-    return false;
+    return prefs.getBoolean(R.string.pref_publish_pages_key);
   }
   
   public static boolean notifyEnabled() {
@@ -340,6 +340,7 @@ public class ManagePreferences {
         R.string.pref_split_min_msg_key,
         R.string.pref_split_blank_ins_key,
         R.string.pref_suppress_dup_msg_key,
+        R.string.pref_publish_pages_key,
         
         R.string.pref_notif_enabled_key,
         R.string.pref_notif_override_key,

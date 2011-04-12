@@ -52,8 +52,14 @@
     <receiver android:name=".ClearAllReceiver" />
     <receiver android:name=".ReminderReceiver" />
 
-
-</application>
+  </application>
+      
+  <permission android:name="net.anei.cadpage.RECEIVE_CADPAGE"
+          android:label="@string/cadperm_title"
+          android:description="@string/cadperm_desc"
+          android:permissionGroup="android.permission-group.MESSAGES"
+          android:protectionLevel="dangerous" />
+          
   <uses-permission
     android:name="android.permission.READ_SMS" />
   
