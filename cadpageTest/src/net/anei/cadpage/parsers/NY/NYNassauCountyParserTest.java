@@ -38,4 +38,10 @@ public class NYNassauCountyParserTest {
     }
   }
   
+  public static class TestFiretracker extends NYNassauCountyFiretrackerParserTest {
+    public TestFiretracker() {
+      setParser(new NYNassauCountyParser());
+    }
+  }
+  
 }
