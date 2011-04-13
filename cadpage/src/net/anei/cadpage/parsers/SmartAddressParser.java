@@ -1355,7 +1355,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
       
       switch (startType) {
       case START_CALL:
-        data.strCall = buildData(0, initAddress, false).replaceAll(" / ", "/");
+        data.strCall = append(data.strCall, " / ", buildData(0, initAddress, false).replaceAll(" / ", "/"));
         break;
       case START_PLACE:
         if (data.strPlace.length() == 0) {
