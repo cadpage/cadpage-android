@@ -255,10 +255,50 @@ public class MDSaintMarysCountyParserTest extends BaseParserTest {
           "ADDR:401 EP WORTH CT",
           "UNIT:CO9",
           "INFO:302; unresponsive");
-           
+
+     doTest("T29",
+         "((25655) CAD ) 19:03:50*Mutual Aid*CALVERT CO*CO9 CO7 CO3*Box 3-03*",
+         "CALL:Mutual Aid",
+         "ADDR:CALVERT CO",
+         "UNIT:CO9 CO7 CO3",
+         "INFO:Box 3-03");
+
+     doTest("T30",
+         "((25495) CAD ) 19:03:50*Mutual Aid*CALVERT CO*CO9 CO7 CO3*Box 3-03*",
+         "CALL:Mutual Aid",
+         "ADDR:CALVERT CO",
+         "UNIT:CO9 CO7 CO3",
+         "INFO:Box 3-03");
+
+     doTest("T31",
+         "((25420) CAD ) 18:44:03*Vehicle Fire*NICOLET PARK*21777 BUNKER HILL DR*DEAD END*LEXINGTON PARK*CO3*Using ProQA Fire*",
+         "CALL:Vehicle Fire",
+         "PLACE:NICOLET PARK",
+         "ADDR:21777 BUNKER HILL DR",
+         "X:DEAD END / LEXINGTON PARK",
+         "CITY:CO3",
+         "UNIT:Using ProQA Fire");
+
+     doTest("T32",
+         "((20896) CAD ) 14:43:34*OUTSIDE FIRE*21139 THREE NOTCH RD INTERSECTN*HERMANVILLE RD*HERMANVILLE*CO3*APPROX 1 MILE IN FROM 235*",
+         "CALL:OUTSIDE FIRE",
+         "ADDR:21139 THREE NOTCH RD",
+         "X:HERMANVILLE RD",
+         "CITY:HERMANVILLE",
+         "UNIT:CO3",
+         "INFO:APPROX 1 MILE IN FROM 235");
+
+     doTest("T33",
+         "((24505) CAD ) 12:13:18*1050 PD Structure*21481 SYDNEY DR*SELL DR*LEXINGTON PARK*CO3 SQ3*VEHICLE INTO A HOUSE*",
+         "CALL:1050 PD Structure",
+         "ADDR:21481 SYDNEY DR",
+         "X:SELL DR / LEXINGTON PARK",
+         "CITY:CO3 SQ3",
+         "UNIT:VEHICLE INTO A HOUSE");
+          
   }
   
   public static void main(String[] args) {
-    new MDSaintMarysCountyParserTest().generateTests("T25", "CALL PLACE ADDR APT X CITY UNIT INFO");
+    new MDSaintMarysCountyParserTest().generateTests("T29", "CALL PLACE ADDR APT X CITY UNIT INFO");
   }
 }

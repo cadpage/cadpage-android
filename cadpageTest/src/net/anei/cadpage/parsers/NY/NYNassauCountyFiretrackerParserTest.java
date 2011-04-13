@@ -28,8 +28,9 @@ public class NYNassauCountyFiretrackerParserTest extends BaseParserTest {
 
     doTest("T3",
         "(FirePage) ** FFD FIRE CALL ** GENERAL APT 72 / 3RD FLOOR / SMOKE 100 N MAIN ST\nC/S: RANDALL AVE / GRAND AVE TOA: 18:50 [FireTracker]",
-        "CALL:GENERAL APT",
-        "ADDR:72 & 3RD FLOOR & SMOKE 100 N MAIN ST",
+        "CALL:GENERAL/3RD FLOOR/SMOKE",
+        "APT:72",
+        "ADDR:100 N MAIN ST",
         "X:RANDALL AVE / GRAND AVE");
 
     doTest("T4",
@@ -37,7 +38,14 @@ public class NYNassauCountyFiretrackerParserTest extends BaseParserTest {
         "CALL:STILL",
         "ADDR:WILLOWBROOK LN",
         "X:BROOKSIDE (N) AVE");
-    
+
+    doTest("T5",
+        "(FirePage) ** FFD FIRE CALL ** GENERAL ELEC PROBLEM/APT 415 45 WALLACE ST C/S:\nBROOKLYN AVE / RANDALL AVE TOA: 18:26 [FireTracker]",
+        "CALL:GENERAL ELEC PROBLEM /",
+        "APT:415",
+        "ADDR:45 WALLACE ST",
+        "X:BROOKLYN AVE / RANDALL AVE");
+   
   }
   
   public static void main(String[] args) {
