@@ -356,6 +356,11 @@ Nassau County, NY (NYNassauCountyDParser)
 *** 45) BRUSH *** 1 MILLER RD CS: HEMPSTEAD TPKE TOA: 14:48 03-29-11
 *** 11) AFA -HOUSE *** 21 CLARK ST CS: EILEEN AVE TOA: 08:09 03-29-11
 *******************************************************************************
+Nassau County, NY (NYNassauCountyElmontParser)
+(4/7/2011 10:37) Call:  Sub: RESC 2095 DUTCH BROADWAY ELMONT Cross: GLAFIL ST & ELMONT ROADMALE WITH HAND STUCK IN BOX CRUSHER 12-B5, ZONE 5
+(4/11/2011 16:24) Call: MVAFIRE Sub: MVA 2095 DUTCH BROADWAY ELMONT Cross: GLAFIL ST & ELMONT ROADCAR INTO POLE CAR SMOKING 12-B5, ZONE 5
+(4/11/2011 13:33) Call: GENERAL Sub: AUTO 2150 HEMPSTEAD TPK ELMONT Cross: CROSS ISLAND PKWY & PLAINFIELD AVE MAP 21, ZONE 1
+*******************************************************************************
 Nassau County, NY (NYNassauCountyFiretrackerParser)
 (FirePage) ** FFD FIRE CALL ** GENERAL PROB WITH GAS STOVE-POSS LEAK 170 JAY ST\nC/S: DEAN (E) ST / MILTON (E) ST TOA: 17:02 [FireTracker]
 (FirePage) ** FFD FIRE CALL ** DISTRIC DIST CALL FOR SMOKE IN THE AREA CHURCH ST\nC/S: ARCHER ST TOA: 19:12 [FireTracker]

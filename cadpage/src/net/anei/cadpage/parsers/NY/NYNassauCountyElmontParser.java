@@ -7,6 +7,7 @@ import net.anei.cadpage.SmsMsgInfo.Data;
 import net.anei.cadpage.parsers.FieldProgramParser;
 
 /*
+Nassau County, NY (Elmont)
 Contact: Edward mccormack <emccorma42@gmail.com>
 Contact: HOLEY MOLEY <efd6012@aol.com>
 Sender: Elmont@Alarms.com
@@ -22,7 +23,9 @@ Subject:4/4/2011 03:24\nCall: SPILL Sub: SPILL LINDEN BLVD ELMONT Cross: ELMONT 
 public class NYNassauCountyElmontParser extends FieldProgramParser {
   
   private static final String[] CITY_LIST = new String[]{
-    "ELMONT", "NO VALLEY STREAM"
+    "ELMONT", "NO VALLEY STREAM", "ALDEN MANOR", "FLORAL PARK", "SO FLORAL PARK", 
+    "STEWART MANOR", "MALVERNE", "FRANKLIN SQUARE", "WEST HEMPSTEAD", "HEMPSTEAD",
+    "LYNBROOK", "BELLEROSE", "BELLEROSE TERRACE"
   };
   
   private static final Pattern MAP_ZONE_PTN =
