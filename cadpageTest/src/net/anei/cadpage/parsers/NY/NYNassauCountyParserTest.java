@@ -44,4 +44,10 @@ public class NYNassauCountyParserTest {
     }
   }
   
+  public static class TestElmont extends NYNassauCountyElmontParserTest {
+    public TestElmont() {
+      setParser(new NYNassauCountyParser());
+    }
+  }
+  
 }
