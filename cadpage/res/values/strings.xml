@@ -281,6 +281,10 @@
     <string name="pref_autorotate_summaryon">Popup will always autorotate</string>
     <string name="pref_autorotate_summaryoff">Popup will auto-rotate based on the screen behind it</string>
 
+    <string name="pref_delete_unopen_title">Delete Unopened Calls</string>
+    <string name="pref_delete_unopen_summaryon">Allow unopened calls to be deleted</string>
+    <string name="pref_delete_unopen_summaryoff">Do not allow unopened calls to be deleted</string>
+
     <string name="pref_screen_on_title">Screen On for Popup</string>
     <string name="pref_screen_on_summaryon">Screen will turn on when popup shows</string>
     <string name="pref_screen_on_summaryoff">Screen will not turn on when popup shows</string>

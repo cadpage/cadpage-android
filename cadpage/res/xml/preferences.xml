@@ -138,6 +138,12 @@
           android:dialogTitle="@string/pref_history_limit_title"
           android:defaultValue="@string/pref_history_limit_default" />
       <CheckBoxPreference
+        android:key="@string/pref_delete_unopen_key"
+        android:title="@string/pref_delete_unopen_title"
+        android:summaryOn="@string/pref_delete_unopen_summaryon"
+        android:summaryOff="@string/pref_delete_unopen_summaryoff"
+        android:defaultValue="@string/pref_delete_unopen_default" />
+      <CheckBoxPreference
         android:key="@string/pref_autorotate_key"
         android:title="@string/pref_autorotate_title"
         android:summaryOn="@string/pref_autorotate_summaryon"

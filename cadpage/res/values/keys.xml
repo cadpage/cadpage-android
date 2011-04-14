@@ -57,6 +57,7 @@
    <string name="pref_donated_key">donated</string>
    <string name="pref_delivery_report_key">deliveryreport</string>
    <string name="pref_autorotate_key">autorotate</string>
+   <string name="pref_delete_unopen_key">delete_unopen</string>
    <string name="pref_screen_on_key">screenon</string>
    <string name="pref_loc_desc_key">locationDesc</string>
    <string name="pref_location_key">location</string>
