@@ -1,7 +1,10 @@
 package net.anei.cadpage;
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Date;
 import java.util.Map;
 
 import android.content.Context;
@@ -54,6 +57,9 @@ public class ManagePreferences {
     if (! location.equals(newLocation)) {
       setLocation(newLocation);
     }
+    
+    // Set the install date if it hasn't already been set
+    setInstallDate();
   }
   
   /**
@@ -309,6 +315,30 @@ public class ManagePreferences {
   public static String getCallback() {
     return prefs.getString(R.string.pref_callback_key);
   }
+  
+  public static Date installDate() {
+    String dateStr = prefs.getString(R.string.pref_install_date_key);
+    try {
+      return new SimpleDateFormat("MMddyyyy").parse(dateStr);
+    } catch (ParseException ex) {
+      throw new RuntimeException(ex);
+    }
+  }
+  
+  public static void setInstallDate() {
+    if (prefs.getString(R.string.pref_install_date_key, null) != null) return;
+    String dateStr = new SimpleDateFormat("MMddyyyy").format(new Date());
+    prefs.putString(R.string.pref_install_date_key, dateStr);
+  }
+  
+  public static int paidYear() {
+    return prefs.getInt(R.string.pref_paid_year_key, 0);
+  }
+  
+  public static void setPaidYear(int year) {
+    if (year > 0 && year <= paidYear()) return;
+    prefs.putInt(R.string.pref_paid_year_key, year);
+  }
 
 
   /**
@@ -376,7 +406,10 @@ public class ManagePreferences {
         R.string.pref_show_buttons_key,
         R.string.pref_button1_key,
         R.string.pref_button2_key,
-        R.string.pref_button3_key
+        R.string.pref_button3_key,
+
+        R.string.pref_paid_year_key,
+        R.string.pref_install_date_key
     };
 
     Map<String, ?> map = prefs.mPrefs.getAll();
@@ -391,8 +424,6 @@ public class ManagePreferences {
         context.getResources().getConfiguration().locale.getDisplayName()));
   }
 
-  
-  
   
   private Context context;
   private SharedPreferences mPrefs;

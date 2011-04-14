@@ -10,7 +10,8 @@ import net.anei.cadpage.parsers.FieldProgramParser;
 /*
 Forsyth County, NC
 Contact: Shane Taylor <dstaylor9@gmail.com>
-Sender: forsythcountyfir@bellsouth.net
+Contact: "Fulk, Brad" <bfulk@huntersvillefd.com>
+Sender: forsythcountyfir@bellsouth.net,lfdalltext@lewisvillefire.com
 
 Location: 1 STOKES COUNTY: @STOKES COUNTY: 2312 HWY 65 E Nature: Unconscious/Unresponsive/Syncope P:1  - default DISTRICT: R09 X Str: / CALLER NAME: STOK
 Location: 6206 REIDSVILLE RD FC: @CREEKSIDE MANOR Nature: Chest Pain/Heart Problems P:1  - WITH_SYMPTOMS DISTRICT: R31 X Str: GOODWILL CHURCH RD/PINEY GR
@@ -19,6 +20,7 @@ Location: 6000BLK REIDSVILLE RD FC Nature: PUBLIC SERVICE CALL P:3  - default DI
 Location: 1105 WHISPERING PINES DR FC Nature: Power Lines Arcing on Pole P:2  - default DISTRICT: F31 X Str: WARDS POND CT/QUAIL HOLLOW RD CALLER NAME:
 Location: 5825 POPPY SEED DR FC Nature: Brush Fire P:1  - default DISTRICT: F31 X Str: BRINKLEY PARK DR/JILAIN ST CALLER NAME: CARANNA, KENWYN
 Location: 1800 SPRINGFIELD FARM CT CL Nature: Breathing Difficulty P:1  - BREATHING_DIFF DISTRICT: R11 X Str: SPRINGFIELD FARM RD/ CALLER NAME:
+Location: 4595 STYERS FERRY RD WS Nature: Sick/Unknown P:1  - default DISTRICT: R11 X Str: FOX RIDGE LN/REMINGTON DR CALLER NAME:
 
  */
 
@@ -28,7 +30,8 @@ public class NCForsythCountyParser extends FieldProgramParser {
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "FC", "FORSYTH COUNTY",
       "CL", "CLEMMONS",
-      "LE", "LEWISVILLE"
+      "LE", "LEWISVILLE",
+      "WS", "WINSTON-SALEM"
   });
   
   private static final Pattern MA_PATTERN = Pattern.compile("@(.+):"); 
@@ -40,7 +43,7 @@ public class NCForsythCountyParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "forsythcountyfir@bellsouth.net";
+    return "forsythcountyfir@bellsouth.net,lfdalltext@lewisvillefire.com";
   }
 
   @Override
