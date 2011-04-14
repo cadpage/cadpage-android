@@ -69,9 +69,27 @@ public class NYNassauCountyElmontParserTest extends BaseParserTest {
         "MAP:7-A4",
         "UNIT:ZONE 1");
 
+    doTest("T7",
+        "(4/14/2011 07:54) Call: AUTOMAT Sub: AUTO 219 HEMPSTEAD TPK ELMONT Cross: STERLING ROAD & WARWICK ROADNO PERMIT 7-A3, ZONE 1",
+        "CALL:AUTOMAT / AUTO",
+        "ADDR:219 HEMPSTEAD TPK",
+        "CITY:ELMONT",
+        "INFO:STERLING ROAD & WARWICK ROADNO PERMIT",
+        "MAP:7-A3",
+        "UNIT:ZONE 1");
+
+    doTest("T8",
+        "(4/13/2011 23:35) Call: AUTOMAT Sub: AUTO 817 PRESCOTT ST NO VALLEY STREAM Cross: FLETCHER (N) AVE & LEE ST70146485 - KAHN RES 13-C6, ZONE 5",
+        "CALL:AUTOMAT / AUTO",
+        "ADDR:817 PRESCOTT ST",
+        "CITY:NO VALLEY STREAM",
+        "INFO:FLETCHER (N) AVE & LEE ST70146485 - KAHN RES",
+        "MAP:13-C6",
+        "UNIT:ZONE 5");
+
   }
   
   public static void main(String[] args) {
-    new NYNassauCountyElmontParserTest().generateTests("T1");
+    new NYNassauCountyElmontParserTest().generateTests("T7");
   }
 }

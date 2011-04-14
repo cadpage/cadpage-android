@@ -67,10 +67,18 @@ public class NCForsythCountyParserTest extends BaseParserTest {
         "CALL:Breathing Difficulty",
         "UNIT:R11",
         "X:SPRINGFIELD FARM RD/");
+
+    doTest("T8",
+        "Location: 4595 STYERS FERRY RD WS Nature: Sick/Unknown P:1  - default DISTRICT: R11 X Str: FOX RIDGE LN/REMINGTON DR CALLER NAME:",
+        "ADDR:4595 STYERS FERRY RD",
+        "CITY:WINSTON-SALEM",
+        "CALL:Sick/Unknown",
+        "UNIT:R11",
+        "X:FOX RIDGE LN/REMINGTON DR");
   }
   
   public static void main(String[] args) {
-    new NCForsythCountyParserTest().generateTests("T7");
+    new NCForsythCountyParserTest().generateTests("T8");
   }
 }
 
