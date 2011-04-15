@@ -70,5 +70,17 @@ public class NYOneidaCountyParserTest extends BaseParserTest {
         "ADDR:20 MOHAWK ST",
         "CITY:WHITESBORO VILLAGE",
         "X:SAUQUOIT ST/FERNBANK CIR; Near:AMERICAN LEGION POST 1113");
+
+    doTest("T8",
+        "?LECF:2011:0085>Dispatched\n>17A03 - PUBLIC ASSIST (NO INJURIES AND NO PRIORITY SYMPTOMS)\n>5368 SLONE RD, LEE (LEE CENTER TABERG RD/SKINNER RD;)",
+        "ID:2011:0085",
+        "CALL:17A03 - PUBLIC ASSIST (NO INJURIES AND NO PRIORITY SYMPTOMS)",
+        "ADDR:5368 SLONE RD",
+        "CITY:LEE",
+        "X:LEE CENTER TABERG RD/SKINNER RD;");
+  }
+  
+  public static void main(String[] args) {
+    new NYOneidaCountyParserTest().generateTests("T8", "ID CALL ADDR CITY X");
   }
 }

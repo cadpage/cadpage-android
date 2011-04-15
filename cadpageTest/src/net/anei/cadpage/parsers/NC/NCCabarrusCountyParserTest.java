@@ -73,6 +73,15 @@ public class NCCabarrusCountyParserTest extends BaseParserTest {
         "X:UNTZ RD & ARBOR COMMONS LN");
   }
   
+  @Test
+  public void fixLater() {
+    doTest("XX",
+        "CAD:DAVIDSON RD/MOORESVILLE RD;DAV;SUSPICIOUS VEHICLE",
+        "ADDR:DAVIDSON RD & MOORESVILLE",
+        "CITY:DAVIDSON",
+        "CALL:SUSPICIOUS VEHICLE");
+  }
+  
   public static void main(String[] args) {
     new NCCabarrusCountyParserTest().generateTests();
   }
