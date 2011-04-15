@@ -1,5 +1,7 @@
 package net.anei.cadpage.parsers.NY;
 
+import java.util.regex.Pattern;
+
 import net.anei.cadpage.SmsMsgInfo.Data;
 import net.anei.cadpage.parsers.SmsMsgParser;
 
@@ -29,9 +31,14 @@ Contact: James Brown <landscapesunlimitedcny@gmail.com>
 MSG:i>¿DURF:2011:0013DispatchedALARM EMS5593 ROUTE 46, VERONA (ROUTE 31/FOX ST;)
 MSG:i>¿DURF:2011:0013DispatchedALARM EMS5593 ROUTE 46, VERONA (ROUTE 31/FOX ST;)
 
+Contact: james rouillier jr <scaredtwo@gmail.com>
+?LECF:2011:0085>Dispatched\n>17A03 - PUBLIC ASSIST (NO INJURIES AND NO PRIORITY SYMPTOMS)\n>5368 SLONE RD, LEE (LEE CENTER TABERG RD/SKINNER RD;)
+
 */
 
 public class NYOneidaCountyParser extends SmsMsgParser {
+  
+  private static final Pattern DELIM = Pattern.compile(" *(?:\\n>?|>) *");
   
   public NYOneidaCountyParser() {
     super("ONEIDA COUNTY", "NY");
@@ -45,8 +52,7 @@ public class NYOneidaCountyParser extends SmsMsgParser {
   @Override
   protected boolean parseMsg(String body, Data data) {
     
-    body = body.replaceAll(">", "\n");
-    int pt = body.indexOf("\nDispatched\n");
+    int pt = body.indexOf("Dispatched");
     if (pt < 0) return false;
     
     pt = body.lastIndexOf(':', pt-1);
@@ -55,11 +61,12 @@ public class NYOneidaCountyParser extends SmsMsgParser {
     if (pt < 0) return false;
     body = body.substring(pt+1);
     
-    String[] flds = body.split(" *\n *");
+    
+    String[] flds = DELIM.split(body);
 
     data.strCallId = flds[0];
-    
     if (flds.length <= 2) return false;
+    if (flds[1].equals("Dispatch")) return false;
     data.strCall = flds[2];
     
     if (flds.length <= 3) return false;
