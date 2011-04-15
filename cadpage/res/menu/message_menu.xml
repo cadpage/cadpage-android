@@ -7,4 +7,5 @@
   <item android:id="@+id/delete_item" android:title="@string/delete_item_text" />
   <item android:id="@+id/close_item" android:title="@string/close_item_text" />
   <item android:id="@+id/email_item" android:title="@string/email_item_text"/>
+  <item android:id="@+id/publish_item" android:title="@string/publish_item_text"/>
 </menu>

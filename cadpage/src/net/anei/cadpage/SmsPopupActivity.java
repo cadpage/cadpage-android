@@ -187,7 +187,8 @@ public class SmsPopupActivity extends Activity {
   // List of menu items associated with each button ID.
   static final int[] ITEM_ID_LIST = new int[]{
     0, R.id.ack_item, R.id.map_item, R.id.toggle_lock_item, 
-    R.id.delete_item, R.id.close_item, R.id.email_item
+    R.id.delete_item, R.id.close_item, R.id.email_item,
+    R.id.publish_item
   };
  
   /*
@@ -425,8 +426,19 @@ public class SmsPopupActivity extends Activity {
     sb.append(info.getCall());
     fromTV.setText(sb.toString());
     if (message.getMessageType() == SmsMmsMessage.MESSAGE_TYPE_SMS) {
-      sb = new StringBuilder(info.getPlace());
-      if (sb.length() > 0) sb.append('\n');
+      sb = new StringBuilder();
+      if (ManagePreferences.showPersonal()) {
+        if (info.getName().length() > 0) sb.append(info.getName());
+        if (info.getPhone().length() > 0) {
+          sb.append(" PH:");
+          sb.append(info.getPhone());
+        }
+        if (sb.length() > 0) sb.append('\n');
+      }
+      if (info.getPlace().length() > 0) {
+        sb.append(info.getPlace());
+        sb.append('\n');
+      }
       sb.append(info.getAddress());
       String appt = info.getApt();
       if (appt.length() > 0) {

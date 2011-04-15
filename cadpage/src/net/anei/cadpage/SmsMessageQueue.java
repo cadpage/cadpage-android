@@ -172,7 +172,7 @@ public class SmsMessageQueue implements Serializable {
   public void deleteMessage(SmsMmsMessage msg) {
 	  if (Log.DEBUG) Log.v("SmsMessageQueue: deleteMessage");
     // Don't delete unread or locked messages
-    if (!msg.isRead() || msg.isLocked()) return;
+    if (!msg.canDelete()) return;
     queue.remove(msg);
     notifyDataChange();
   }
@@ -185,7 +185,7 @@ public class SmsMessageQueue implements Serializable {
     // Delete everything this has been read and isn't locked
     for (Iterator<SmsMmsMessage> itr = queue.iterator(); itr.hasNext(); ) {
       SmsMmsMessage m = itr.next();
-      if (m.isRead() && !m.isLocked()) itr.remove();
+      if (m.canDelete()) itr.remove();
     }
     
     if (queue.isEmpty()) nextMsgId = 1;
@@ -199,6 +199,7 @@ public class SmsMessageQueue implements Serializable {
    */
   public SmsMmsMessage getDisplayMsg() {
 	  if (Log.DEBUG) Log.v("SmsMessageQueue: getDisplayMsg");
+	  if (! ManagePreferences.popupEnabled()) return null;
     SmsMmsMessage result = null;
     for (SmsMmsMessage msg : queue) {
       if (! msg.isRead()) {

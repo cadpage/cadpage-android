@@ -283,6 +283,14 @@ public class ManagePreferences {
     return prefs.getBoolean(R.string.pref_privacy_key);
   }
   
+  public static boolean showPersonal() {
+    return prefs.getBoolean(R.string.pref_show_personal_key);
+  }
+  
+  public static boolean deleteUnopen() {
+    return prefs.getBoolean(R.string.pref_delete_unopen_key);
+  }
+  
   public static boolean autoRotate() {
     return prefs.getBoolean(R.string.pref_autorotate_key);
   }
@@ -400,7 +408,9 @@ public class ManagePreferences {
         R.string.pref_textsize_key,
         R.string.pref_dimscreen_key,
         R.string.pref_privacy_key,
+        R.string.pref_show_personal_key,
         
+        R.string.pref_delete_unopen_key,
         R.string.pref_autorotate_key,
         
         R.string.pref_show_buttons_key,

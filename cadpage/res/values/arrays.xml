@@ -50,6 +50,7 @@
     <item>@string/delete_item_text</item>
     <item>@string/close_item_text</item>
     <item>@string/email_item_text</item>
+    <item>@string/publish_item_text</item>
   </string-array>
   <string-array
     name="pref_button_values">
@@ -60,6 +61,7 @@
     <item>4</item>
     <item>5</item>
     <item>6</item>
+    <item>7</item>
   </string-array>  
 
   <string-array name="pref_timeout_entries">

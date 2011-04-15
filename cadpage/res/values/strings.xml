@@ -63,6 +63,10 @@
    <string name="pref_privacy_summaryon">Contents of the message will only be shown after unlock</string>
    <string name="pref_privacy_summaryoff">Contents of the message will be shown immediately</string>
 
+   <string name="pref_show_personal_title">Display Personal Info</string>
+   <string name="pref_show_personal_summaryon">Caller Name/Phone will be displayed</string>
+   <string name="pref_show_personal_summaryoff">Caller Name/Phone will not be displayed</string>
+
    <string name="pref_popup_enabled_title">Show Popup</string>
    <string name="pref_popup_enabled_summaryon">Alarm will display popup window</string>
    <string name="pref_popup_enabled_summaryoff">Alarm will not display popup window</string>
@@ -407,7 +411,8 @@
     <string name="unlock_item_text">Unlock</string>
     <string name="delete_item_text">Delete</string>
     <string name="close_item_text">Close</string>
-    <string name="email_item_text">Report Problem</string>   
+    <string name="email_item_text">Report Problem</string>
+    <string name="publish_item_text">Publish Page</string>   
     
     <!-- Email developer Dialog items -->
     <string name="pref_sendemail_title">E-mail the developers</string>

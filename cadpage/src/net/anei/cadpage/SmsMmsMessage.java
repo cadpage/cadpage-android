@@ -90,6 +90,16 @@ public class SmsMmsMessage implements Serializable {
     setLocked(! isLocked());
   }
   
+  /**
+   * @return true if this message can be deleted
+   */
+  public boolean canDelete() {
+    
+    // Can only be deleted if read and not locked
+    // Config setting allows unread messages to be deleted
+    return (read || ManagePreferences.deleteUnopen()) && ! locked;
+  }
+  
   public int getMsgId() {
     return msgId;
   }
@@ -680,7 +690,7 @@ public class SmsMmsMessage implements Serializable {
       
     // Delete is only enabled if message has been read and is not locked
     case R.id.delete_item:
-      item.setEnabled(read && ! locked);
+      item.setEnabled(canDelete());
       break;
     }
   }
@@ -722,6 +732,9 @@ public class SmsMmsMessage implements Serializable {
     case R.id.email_item:
       EmailDeveloperActivity.sendMessageEmail(context,  msgId);
       return true;
+      
+    case R.id.publish_item:
+      broadcastIntent(context, true);
     
     default:
       return false;
