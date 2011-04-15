@@ -45,10 +45,24 @@ public class NYNassauCountyFiretrackerParserTest extends BaseParserTest {
         "APT:415",
         "ADDR:45 WALLACE ST",
         "X:BROOKLYN AVE / RANDALL AVE");
-   
+
+
+    doTest("T6",
+        "(FirePage) ** FFD FIRE CALL ** CARBON APT 33 116 WEST END AVE C/S: RAY ST / ELINOR\nPL TOA: 11:23 [FireTracker]",
+        "CALL:CARBON",
+        "ADDR:116 WEST END AVE",
+        "APT:33",
+        "X:RAY ST / ELINOR PL");
+
+    doTest("T7",
+        "(FirePage) ** FFD FIRE CALL ** GENERAL 22 PEARSALL AVE C/S: LONG BEACH (N) AVE /\nPENNSYLVANIA AVE TOA: 15:56 [FireTracker]",
+        "CALL:GENERAL",
+        "ADDR:22 PEARSALL AVE",
+        "X:LONG BEACH (N) AVE / PENNSYLVANIA AVE");
+  
   }
   
   public static void main(String[] args) {
-    new NYNassauCountyFiretrackerParserTest().generateTests("T1");
+    new NYNassauCountyFiretrackerParserTest().generateTests("T6");
   }
 }
