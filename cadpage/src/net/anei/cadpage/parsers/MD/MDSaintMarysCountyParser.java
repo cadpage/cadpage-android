@@ -1,5 +1,8 @@
 package net.anei.cadpage.parsers.MD;
 
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -61,20 +64,60 @@ Contact: tim vallandingham <blayre0190@gmail.com>
 ((62650) CAD ) 17:06:15*Personal Injury Accident*GOV THOMAS JOHNSON BRIDGE*46100 PATUXENT BEACH RD*NORTH PATUXENT BEACH RD*DEAD
 
 Contact: Richard Werring <rbwerring@gmail.com>
-(557) CAD ) 23:33:54*Breathing Difficulties*CEDAR LANE APARTMENTS*22680 CEDAR LANE CT APT2204*POINT LOOKOUT RD*CEDAR LANE RD*LEONARDTOWN*ALS CO19*74YOM
-
-
+((557) CAD ) 23:33:54*Breathing Difficulties*CEDAR LANE APARTMENTS*22680 CEDAR LANE CT APT2204*POINT LOOKOUT RD*CEDAR LANE RD*LEONARDTOWN*ALS CO19*74YOM
 
 ((25655) CAD ) 19:03:50*Mutual Aid*CALVERT CO*CO9 CO7 CO3*Box 3-03*
 ((25495) CAD ) 19:03:50*Mutual Aid*CALVERT CO*CO9 CO7 CO3*Box 3-03*
 ((25420) CAD ) 18:44:03*Vehicle Fire*NICOLET PARK*21777 BUNKER HILL DR*DEAD END*LEXINGTON PARK*CO3*Using ProQA Fire*
 ((20896) CAD ) 14:43:34*OUTSIDE FIRE*21139 THREE NOTCH RD INTERSECTN*HERMANVILLE RD*HERMANVILLE*CO3*APPROX 1 MILE IN FROM 235*
+
 ((24505) CAD ) 12:13:18*1050 PD Structure*21481 SYDNEY DR*SELL DR*LEXINGTON PARK*CO3 SQ3*VEHICLE INTO A HOUSE*
+((33038) CAD ) 01:57:14*Hazardous Condition*APT 311 FOXCHASE*45910 FOXCHASE DR APT311*LEXINGTON DR*GREAT MILLS*CO9*Using ProQA Fire*
+((33120) CAD ) 03:41:27*CO Detector No Symptons*45713 SUMMER LN*DEAD END*LORD CALVERT TRLPK*CO3*Using ProQA Fire*
 
  */
 
 
 public class MDSaintMarysCountyParser extends SmartAddressParser {
+  
+  private static Set<String> CITY_LIST = new HashSet<String>(Arrays.asList(new String[]{
+      "CALIFORNIA",
+      "CHARLOTTE HALL",
+      "GOLDEN BEACH",
+      "LEXINGTON PARK",
+      "ABELL",
+      "AVENUE",
+      "BEACHVILLE-ST INIGOES",
+      "BUSHWOOD",
+      "CALLAWAY",
+      "CHAPTICO",
+      "CLEMENTS",
+      "COLTONS POINT",
+      "COMPTON",
+      "DAMERON",
+      "DRAYDEN",
+      "GREAT MILLS",
+      "HELEN",
+      "HERMANVILLE",
+      "HOLLYWOOD",
+      "LEONARDTOWN",
+      "LEXINGTON PARK",
+      "LORD CALVERT TRLPK",
+      "LOVEVILLE",
+      "MADDOX",
+      "MECHANICSVILLE",
+      "MORGANZA",
+      "OAKVILLE",
+      "PARK HALL",
+      "PINEY POINT",
+      "REDGATE",
+      "RIDGE",
+      "ST INIGOES",
+      "ST MARYS CITY",
+      "SCOTLAND",
+      "TALL TIMBERS",
+      "VALLEY LEE"
+  }));
   
   private static final Pattern MARKER = Pattern.compile("\\b\\d\\d:\\d\\d:\\d\\d\\*");
   private static final Pattern PLACE = Pattern.compile("\\*\\*([^*]+)\\*\\*");
@@ -184,12 +227,23 @@ public class MDSaintMarysCountyParser extends SmartAddressParser {
         
       case 4:
         // Cross street 2
-        data.strCross = data.strCross + " / " + fld;
-        break;
+        // If in town list, treat as town
+        if (! CITY_LIST.contains(fld.toUpperCase())) {
+          data.strCross = data.strCross + " / " + fld;
+          break;
+        }
+        
+        // Fall through to next case
+        ndx++;
         
       case 5:
         // town
+        // Whatever Lord Calverts Trlpk is, Google doesn't recognize it
         data.strCity = fld;
+        if (data.strCity.equalsIgnoreCase("LORD CALVERT TRLPK")) {
+          if (data.strPlace.length() == 0) data.strPlace = data.strCity;
+          data.strCity = "";
+        }
         break;
         
       case 6:

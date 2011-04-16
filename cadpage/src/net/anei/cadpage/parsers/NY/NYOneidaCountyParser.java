@@ -34,6 +34,8 @@ MSG:i>¿DURF:2011:0013DispatchedALARM EMS5593 ROUTE 46, VERONA (ROUTE 31/FOX ST;
 Contact: james rouillier jr <scaredtwo@gmail.com>
 ?LECF:2011:0085>Dispatched\n>17A03 - PUBLIC ASSIST (NO INJURIES AND NO PRIORITY SYMPTOMS)\n>5368 SLONE RD, LEE (LEE CENTER TABERG RD/SKINNER RD;)
 
+Contact: eric roux <eroux33@gmail.com>
+?WEMF:2011:0144>Dispatched\n>ASSIST\n>6471 W CARTER RD, WESTMORELAND, NY
 */
 
 public class NYOneidaCountyParser extends SmsMsgParser {
