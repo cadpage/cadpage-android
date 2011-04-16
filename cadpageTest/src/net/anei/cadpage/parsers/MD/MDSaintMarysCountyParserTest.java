@@ -172,7 +172,7 @@ public class MDSaintMarysCountyParserTest extends BaseParserTest {
         "CALL:Traumatic Injuries",
         "ADDR:21121 ACE LN",
         "X:WINDING WY / SHORT WY",
-        "CITY:LORD CALVERT TRLPK",
+        "PLACE:LORD CALVERT TRLPK",
         "UNIT:CO39",
         "INFO:Using ProQA Medical");
           
@@ -275,9 +275,10 @@ public class MDSaintMarysCountyParserTest extends BaseParserTest {
          "CALL:Vehicle Fire",
          "PLACE:NICOLET PARK",
          "ADDR:21777 BUNKER HILL DR",
-         "X:DEAD END / LEXINGTON PARK",
-         "CITY:CO3",
-         "UNIT:Using ProQA Fire");
+         "X:DEAD END",
+         "CITY:LEXINGTON PARK",
+         "UNIT:CO3",
+         "INFO:Using ProQA Fire");
 
      doTest("T32",
          "((20896) CAD ) 14:43:34*OUTSIDE FIRE*21139 THREE NOTCH RD INTERSECTN*HERMANVILLE RD*HERMANVILLE*CO3*APPROX 1 MILE IN FROM 235*",
@@ -292,13 +293,34 @@ public class MDSaintMarysCountyParserTest extends BaseParserTest {
          "((24505) CAD ) 12:13:18*1050 PD Structure*21481 SYDNEY DR*SELL DR*LEXINGTON PARK*CO3 SQ3*VEHICLE INTO A HOUSE*",
          "CALL:1050 PD Structure",
          "ADDR:21481 SYDNEY DR",
-         "X:SELL DR / LEXINGTON PARK",
-         "CITY:CO3 SQ3",
-         "UNIT:VEHICLE INTO A HOUSE");
+         "X:SELL DR",
+         "CITY:LEXINGTON PARK",
+         "UNIT:CO3 SQ3",
+         "INFO:VEHICLE INTO A HOUSE");
+
+     doTest("T34",
+         "((33038) CAD ) 01:57:14*Hazardous Condition*APT 311 FOXCHASE*45910 FOXCHASE DR APT311*LEXINGTON DR*GREAT MILLS*CO9*Using ProQA Fire*",
+         "CALL:Hazardous Condition",
+         "PLACE:APT 311 FOXCHASE",
+         "ADDR:45910 FOXCHASE DR",
+         "APT:APT311",
+         "X:LEXINGTON DR",
+         "CITY:GREAT MILLS",
+         "UNIT:CO9",
+         "INFO:Using ProQA Fire");
+
+     doTest("T35",
+         "((33120) CAD ) 03:41:27*CO Detector No Symptons*45713 SUMMER LN*DEAD END*LORD CALVERT TRLPK*CO3*Using ProQA Fire*",
+         "CALL:CO Detector No Symptons",
+         "PLACE:LORD CALVERT TRLPK",
+         "ADDR:45713 SUMMER LN",
+         "X:DEAD END",
+         "UNIT:CO3",
+         "INFO:Using ProQA Fire");
           
   }
   
   public static void main(String[] args) {
-    new MDSaintMarysCountyParserTest().generateTests("T29", "CALL PLACE ADDR APT X CITY UNIT INFO");
+    new MDSaintMarysCountyParserTest().generateTests("T33", "CALL PLACE ADDR APT X CITY UNIT INFO");
   }
 }
