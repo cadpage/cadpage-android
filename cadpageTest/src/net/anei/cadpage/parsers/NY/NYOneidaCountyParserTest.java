@@ -78,9 +78,17 @@ public class NYOneidaCountyParserTest extends BaseParserTest {
         "ADDR:5368 SLONE RD",
         "CITY:LEE",
         "X:LEE CENTER TABERG RD/SKINNER RD;");
+
+    doTest("T9",
+        "Body:?DEEF:2011:0075>Dispatched\n>WIRES DOWN/BURN\n>6352 WALKER RD, DEERFIELD (CRUIKSHANK RD/MILLER RD;)",
+        "ID:2011:0075",
+        "CALL:WIRES DOWN/BURN",
+        "ADDR:6352 WALKER RD",
+        "CITY:DEERFIELD",
+        "X:CRUIKSHANK RD/MILLER RD;");
   }
   
   public static void main(String[] args) {
-    new NYOneidaCountyParserTest().generateTests("T8", "ID CALL ADDR CITY X");
+    new NYOneidaCountyParserTest().generateTests("T10", "ID CALL ADDR CITY X");
   }
 }

@@ -9,7 +9,7 @@ public class SmsMsgInfoTest {
   
   @BeforeClass
   public static void classSetup() {
-    new TestManagePreferences().setOverrideDefault(false);
+    new TestManagePreferences().setTestOverrideDefault(false);
   }
 
   @Test

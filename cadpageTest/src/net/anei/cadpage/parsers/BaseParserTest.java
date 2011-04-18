@@ -10,20 +10,35 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
+import org.junit.Before;
 import org.junit.Test;
 
 import net.anei.cadpage.SmsMmsMessage;
 import net.anei.cadpage.SmsMsgInfo;
+import net.anei.cadpage.TestManagePreferences;
 import net.anei.cadpage.parsers.FieldProgramParser.Field;
 
 import static org.junit.Assert.*;
 
 
 public abstract class BaseParserTest {
+  
+  private static final String FROM_ADDRESS = "1112223333";
 
   private SmsMsgParser parser;
   private String defCity;
   private String defState;
+  private String fromAddress = FROM_ADDRESS;
+  private TestManagePreferences preferences;
+  
+  protected BaseParserTest() {
+    preferences = new TestManagePreferences();
+    preferences.setTestOverrideDefault(false);
+  }
+  
+  protected TestManagePreferences getPreferences() {
+    return preferences;
+  }
   
   public void setParser(SmsMsgParser parser, String defCity, String defState) {
     this.parser = parser;
@@ -40,16 +55,29 @@ public abstract class BaseParserTest {
     this.defState = defState;
   }
   
+  public void setFromAddress(String fromAddress) {
+    this.fromAddress = fromAddress;
+  }
+  
+  
+  @Before
+  public void baseSetup() {
+    this.setFromAddress(FROM_ADDRESS);
+  }
+  
   @Test
   public void testBadMsg() {
     // Just call the parser with a badly formated msg and make sure it doesn't croak
-    SmsMsgInfo.Data data = new SmsMsgInfo.Data();
-    assertFalse(parser.parseMsg("", "BAD MSG", data));
-    assertFalse(parser.parseMsg("", "", data));
+    checkError("BAD MSG");
+    checkError("");
+  }
+  
+  private void checkError(String test) {
+    parser.isPageMsg(new SmsMmsMessage(fromAddress, test, 0L, 0));
   }
   
   public void doBadTest(String test) {
-    SmsMmsMessage msg = new SmsMmsMessage("1112223333", test, 0L, 0);
+    SmsMmsMessage msg = new SmsMmsMessage(fromAddress, test, 0L, 0);
     assertFalse(parser.isPageMsg(msg));
   }
   
@@ -96,7 +124,7 @@ public abstract class BaseParserTest {
       else fail("Keyword " + sType + " is not defined");
     }
     
-    SmsMmsMessage msg = new SmsMmsMessage("1112223333", test, 0L, 0);
+    SmsMmsMessage msg = new SmsMmsMessage(fromAddress, test, 0L, 0);
     assertTrue(title + ":parse", parser.isPageMsg(msg));
     SmsMsgInfo info = msg.getInfo();
     
@@ -246,7 +274,7 @@ public abstract class BaseParserTest {
    */
   private void generateTest(String title, String test, String[] terms) {
     
-    SmsMmsMessage msg = new SmsMmsMessage("1112223333", test, 0L, 0);
+    SmsMmsMessage msg = new SmsMmsMessage(fromAddress, test, 0L, 0);
     if (!parser.isPageMsg(msg)) {
       System.out.println();
       System.out.println("// ************************ PARSE FAILURE *****************************");

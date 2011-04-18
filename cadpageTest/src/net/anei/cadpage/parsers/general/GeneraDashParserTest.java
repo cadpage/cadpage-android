@@ -3,7 +3,6 @@ package net.anei.cadpage.parsers.general;
 import net.anei.cadpage.TestManagePreferences;
 import net.anei.cadpage.parsers.BaseParserTest;
 
-import org.junit.BeforeClass;
 import org.junit.Test;
 
 
@@ -11,15 +10,10 @@ public class GeneraDashParserTest extends BaseParserTest {
   
   public GeneraDashParserTest() {
     setParser(new GeneralDashParser(), "", "");
-  }
-  
-  @SuppressWarnings("static-access")
-  @BeforeClass
-  public static void classSetup() {
-    TestManagePreferences pmgr = new TestManagePreferences();
-    pmgr.setLocation("GeneralDash");
-    pmgr.setOverrideFilter(true);
-    pmgr.setFilter("1112223333");
+    TestManagePreferences pmgr = getPreferences();
+    pmgr.setTestLocation("GeneralDash");
+    pmgr.setTestOverrideFilter(true);
+    pmgr.setTestFilter("1112223333");
   }
   
   @Test

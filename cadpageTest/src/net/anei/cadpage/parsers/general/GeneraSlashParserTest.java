@@ -4,7 +4,6 @@ import net.anei.cadpage.TestManagePreferences;
 import net.anei.cadpage.parsers.BaseParserTest;
 import net.anei.cadpage.parsers.general.GeneralSlashParser;
 
-import org.junit.BeforeClass;
 import org.junit.Test;
 
 
@@ -12,15 +11,10 @@ public class GeneraSlashParserTest extends BaseParserTest {
   
   public GeneraSlashParserTest() {
     setParser(new GeneralSlashParser(), "", "");
-  }
-  
-  @SuppressWarnings("static-access")
-  @BeforeClass
-  public static void classSetup() {
-    TestManagePreferences pmgr = new TestManagePreferences();
-    pmgr.setLocation("GeneralSlash");
-    pmgr.setOverrideFilter(true);
-    pmgr.setFilter("1112223333");
+    TestManagePreferences pmgr = getPreferences();
+    pmgr.setTestLocation("GeneralSlash");
+    pmgr.setTestOverrideFilter(true);
+    pmgr.setTestFilter("1112223333");
   }
   
   @Test

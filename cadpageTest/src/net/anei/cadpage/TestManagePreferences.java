@@ -11,15 +11,19 @@ public class TestManagePreferences extends ManagePreferences {
     setTestPreference(this);
   }
   
-  public void setOverrideDefault(boolean newVal) {
+  public void setTestLocation(String newLocation) {
+    putString(R.string.pref_location_key, newLocation);
+  }
+  
+  public void setTestOverrideDefault(boolean newVal) {
     putBoolean(R.string.pref_override_default_key, newVal);
   }
   
-  public void setOverrideFilter(boolean newVal) {
+  public void setTestOverrideFilter(boolean newVal) {
     prefMap.put(R.string.pref_override_filter_key, newVal);
   }
   
-  public void setFilter(String filter) {
+  public void setTestFilter(String filter) {
     prefMap.put(R.string.pref_filter_key, filter);
   }
 

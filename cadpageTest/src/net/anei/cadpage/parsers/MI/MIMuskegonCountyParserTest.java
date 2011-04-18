@@ -57,5 +57,15 @@ public class MIMuskegonCountyParserTest extends BaseParserTest {
         "ADDR:1007 E COLBY ST",
         "X:S HALL ST & PETERSON RD",
         "CALL:PI1");
- }
+
+    doTest("T8",
+        "CAD:FYI: ;180 W ASHLAND ST;AUBURN RD;CENTRAL RD;MED1",
+        "ADDR:180 W ASHLAND ST",
+        "X:AUBURN RD & CENTRAL RD",
+        "CALL:MED1");
+  }
+  
+  public static void main(String[] args) {
+    new MIMuskegonCountyParserTest().generateTests("T8", "PLACE ADDR X CALL");
+  }
 }

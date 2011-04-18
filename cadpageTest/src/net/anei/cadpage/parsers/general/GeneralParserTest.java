@@ -4,7 +4,6 @@ import net.anei.cadpage.TestManagePreferences;
 import net.anei.cadpage.parsers.BaseParserTest;
 import net.anei.cadpage.parsers.general.GeneralParser;
 
-import org.junit.BeforeClass;
 import org.junit.Test;
 
 
@@ -12,15 +11,10 @@ public class GeneralParserTest extends BaseParserTest {
   
   public GeneralParserTest() {
     setParser(new GeneralParser(), "", "");
-  }
-  
-  @SuppressWarnings("static-access")
-  @BeforeClass
-  public static void classSetup() {
-    TestManagePreferences pmgr = new TestManagePreferences();
-    pmgr.setLocation("General");
-    pmgr.setOverrideFilter(true);
-    pmgr.setFilter("1112223333");
+    TestManagePreferences pmgr = getPreferences();
+    pmgr.setTestLocation("General");
+    pmgr.setTestOverrideFilter(true);
+    pmgr.setTestFilter("1112223333");
   }
   
   @Test

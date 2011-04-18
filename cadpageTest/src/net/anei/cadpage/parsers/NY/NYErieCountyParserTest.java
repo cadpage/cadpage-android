@@ -10,6 +10,10 @@ public class NYErieCountyParserTest extends BaseParserTest {
   
   public NYErieCountyParserTest() {
     setParser(new NYErieCountyParser(), "ERIE COUNTY", "NY");
+    
+    // This is for the test generator, For unit tests it will be reset
+    // the the default value before each test run
+    setFromAddress("9300xxxx");
   }
   
   @Test
@@ -80,6 +84,32 @@ public class NYErieCountyParserTest extends BaseParserTest {
         "CITY:LANCASTER TOWN",
         "INFO:CO DETECTOR NO SYMPTOMS REFER TWIN DISTRICT FD");
 
+  }
+  
+  @Test
+  public void testDepewParser() {
+    setFromAddress("9300xxxxxx");
+
+    doTest("T1",
+        "NOTIFICATIONS 85 MANITOU ST DEPEW DEPEW FIRE DEPARTMENT- DAILY TEST",
+        "CALL:NOTIFICATIONS",
+        "ADDR:85 MANITOU ST",
+        "CITY:DEPEW",
+        "INFO:DEPEW FIRE DEPARTMENT- DAILY TEST");
+
+    doTest("T2",
+        "NOTIFICATIONS 85 MANITOU ST DEPEW CONDUCTED THE DAILY FIRE RADIO AND PAGER TEST",
+        "CALL:NOTIFICATIONS",
+        "ADDR:85 MANITOU ST",
+        "CITY:DEPEW",
+        "INFO:CONDUCTED THE DAILY FIRE RADIO AND PAGER TEST");
+
+    doTest("T3",
+        "4569 BROADWAY DEPEW COMMERCIAL FIRE ALARM COMING FROM THE BANQUET ROOM",
+        "CALL:COMMERCIAL FIRE ALARM COMING FROM THE BANQUET ROOM",
+        "ADDR:4569 BROADWAY",
+        "CITY:DEPEW");
+    
   }
   
   public static void main(String[] args) {

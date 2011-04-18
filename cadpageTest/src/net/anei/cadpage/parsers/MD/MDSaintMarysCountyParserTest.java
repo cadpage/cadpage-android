@@ -317,10 +317,19 @@ public class MDSaintMarysCountyParserTest extends BaseParserTest {
          "X:DEAD END",
          "UNIT:CO3",
          "INFO:Using ProQA Fire");
-          
+
+     doTest("T36",
+         "((38992) CAD ) 16:54:15*Tree Down*46449 SUE DR*PRATHER DR*LEXINGTON PARK*CO3*TREE IN THE POWER LINES/LINES ARE SPARKING/LEANING ON HOUSE*",
+         "CALL:Tree Down",
+         "ADDR:46449 SUE DR",
+         "X:PRATHER DR",
+         "CITY:LEXINGTON PARK",
+         "UNIT:CO3",
+         "INFO:TREE IN THE POWER LINES/LINES ARE SPARKING/LEANING ON HOUSE");
+         
   }
   
   public static void main(String[] args) {
-    new MDSaintMarysCountyParserTest().generateTests("T33", "CALL PLACE ADDR APT X CITY UNIT INFO");
+    new MDSaintMarysCountyParserTest().generateTests("T37", "CALL PLACE ADDR APT X CITY UNIT INFO");
   }
 }
