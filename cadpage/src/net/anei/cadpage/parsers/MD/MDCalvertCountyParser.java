@@ -22,13 +22,17 @@ M Priority 2 Medical A19 NOMED  10:45 03/09/11 8818 CHESAPEAKE LIGHTHOUSE DR NOR
 New text format
 Contact: Marcus Richman <richmanmh@gmail.com>
 (Dispatch Info) M Priority 3 Medical A79  11:44 03/22/11 Box 303 12680 HG TRUEMAN RD LUSBY 2011-00000525 SCHOOL-DOW ES ProQA Medical Questionnaire Completed;
+
+Contact: Kevin Harness <kay.kh32@gmail.com>
+(Dispatch Info) M Priority 1 Medical E33 A38 SMA796 M105  11:20 04/18/11 Box 302 1105 BACK CREEK LOOP SOLOMONS
+
 */
 
 public class MDCalvertCountyParser extends SmartAddressParser {
   
   private static final String[] CITY_LIST = new String[] {
     "CHESAPEAKE BEACH", "NORTH BEACH", 
-    "DUNKIRK", "HUNTINGTOWN", "LUSBY","OWINGS", "PRINCE FREDERICK", "ST LEONARD", "SOLMONS",
+    "DUNKIRK", "HUNTINGTOWN", "LUSBY","OWINGS", "PRINCE FREDERICK", "ST LEONARD", "SOLOMONS",
     "BARSTOW", "BROOMES ISLAND", "DARES BEACH", "DOWELL", "LOWER MARLBORO", "PORT REPUBLIC", "SUNDERLAND"
   };
   
@@ -50,8 +54,6 @@ public class MDCalvertCountyParser extends SmartAddressParser {
     
     Matcher timeDateMatch = TIME_DATE_PTN.matcher(body);
     if (! timeDateMatch.find()) return false;
-    Matcher idMatch = ID_PTN.matcher(body);
-    if (! idMatch.find(timeDateMatch.end())) return false;
     
     String strCall = body.substring(0,timeDateMatch.start()).trim();
     Matcher unitMatch = UNIT_PTN.matcher(strCall);
@@ -61,7 +63,10 @@ public class MDCalvertCountyParser extends SmartAddressParser {
     }
     data.strCall = strCall;
     
-    String strAddress = body.substring(timeDateMatch.end(), idMatch.start()).trim();
+    Matcher idMatch = ID_PTN.matcher(body);
+    boolean foundID = idMatch.find(timeDateMatch.end());
+    String strAddress = (foundID ? body.substring(timeDateMatch.end(), idMatch.start())
+                                 : body.substring(timeDateMatch.end())).trim();
     Parser p = new Parser(strAddress);
     if (p.get(' ').equalsIgnoreCase("BOX")) {
       data.strBox = p.get(' ');
@@ -69,9 +74,10 @@ public class MDCalvertCountyParser extends SmartAddressParser {
     }
     parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END, strAddress, data);
     
-    data.strCallId = idMatch.group();
-    
-    data.strSupp = body.substring(idMatch.end()).trim();
+    if (foundID) {
+      data.strCallId = idMatch.group();
+      data.strSupp = body.substring(idMatch.end()).trim();
+    }
     return true;
   }
 }
