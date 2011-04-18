@@ -1,5 +1,8 @@
 package net.anei.cadpage.parsers.NY;
 
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 import net.anei.cadpage.SmsMsgInfo.Data;
 import net.anei.cadpage.parsers.SmsMsgParser;
 
@@ -16,10 +19,15 @@ FireCom:  RHAME AVE (DISTRIC-HAZM) SW CORNER/SEWER-ILLEGALE DUMPING
 FireCom:  22 RIVERSIDE ROAD (SIG 9-AMBU) DEHYDRATED MA
 FireCom:  65 EMMET AVE (GENERAL-AUTO) ESTRIN RES/40A024
 
+Contact: cjk152@aol.com
+FRM:paging@alpinesoftware.com\nMSG:\nRedAlert: 528 MERRICK ROAD (SIG 9A-AMBU) SICK MALE
+
 */
 
 
 public class NYNassauCountyBParser extends SmsMsgParser {
+  
+  private static final Pattern MARKER = Pattern.compile("^(?:FireCom:|RedAlert:)");
 
   public NYNassauCountyBParser() {
     super("NASSAU COUNTY", "NY");
@@ -32,8 +40,9 @@ public class NYNassauCountyBParser extends SmsMsgParser {
   @Override
   protected boolean parseMsg(String body, Data data) {
     
-    if (!body.startsWith("FireCom:")) return false;
-    body = body.substring(8);
+    Matcher match = MARKER.matcher(body);
+    if (!match.find()) return false;
+    body = body.substring(match.end()).trim();
     
     int pt1 = body.indexOf('(');
     if (pt1 < 0) return false;
