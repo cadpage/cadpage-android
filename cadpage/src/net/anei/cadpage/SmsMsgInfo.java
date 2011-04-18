@@ -175,11 +175,10 @@ public class SmsMsgInfo {
     }
     
     // Add city if specified, default city otherwise
-    boolean override = ManagePreferences.overrideDefaults();
     String city = strCity;
     if (city.equals("OUT OF COUNTY")) city = "";
     else if (city.length() == 0) {
-      city = (override ? ManagePreferences.defaultCity() :  defCity);
+      city = getDefCity();
     }
     if (city.length() > 0 && !city.equalsIgnoreCase("NONE")) {
       sb.append(",");
@@ -189,7 +188,7 @@ public class SmsMsgInfo {
     // Add state if specified, default state otherwise
     String state = strState;
     if (state.length() == 0) {
-      state = (override ? ManagePreferences.defaultState() : defState);
+      state = getDefState();
     }
     if (state.length() > 0 && !state.equalsIgnoreCase("NONE")) {
       sb.append(",");
@@ -200,7 +199,7 @@ public class SmsMsgInfo {
     return strMapAddress;
 	}
   
-  // Clean up any street suffix abbreviations that Google isnt' happy with
+  // Clean up any street suffix abbreviations that Google isn't happy with
   private static final Pattern AV_PTN = Pattern.compile("\\bAV\\b");
   private static final Pattern HW_PTN = Pattern.compile("\\bHW\\b");
   private String cleanStreetSuffix(String sAddr) {
@@ -436,14 +435,16 @@ public class SmsMsgInfo {
    * @return the default city 
    */
   public String getDefCity() {
-    return defCity;
+    boolean override = ManagePreferences.overrideDefaults();
+    return (override ? ManagePreferences.defaultCity() :  defCity);
   }
   
   /**
    * @return the default state 
    */
   public String getDefState() {
-    return defState;
+    boolean override = ManagePreferences.overrideDefaults();
+    return (override ? ManagePreferences.defaultState() : defState);
   }
   
   /**

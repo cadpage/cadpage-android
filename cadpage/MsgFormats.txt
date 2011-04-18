@@ -1595,11 +1595,6 @@ Grand Hall, Nebraska
 Contact: Tom Chapman <tomchapm48@gmail.com>
 Sender: fire_text@grand-island.com
 **********************************************************
-Fayette County, Pennsylvania
-Contact: Michael Wystepek <mjwystepek@gmail.com>
-Sender: mwystepek@gmail.com
-FAYETTE-911:FACINJ>F-ACCIDENT W/ INJURIES VANCES MILL RD NORTH UNION WILSON PAUL 7249637757 Map: Grids:, Cad: 2011-0000029638
-**********************************************************
 Unknown
 Contact: Randy Kellar <firefighter48239@gmail.com>
 Sender: 9193974737@vtext.com ????
@@ -1609,11 +1604,108 @@ Atlanta, NY in Steuben county
 Contact: kyle sykes <firefightfreak11@gmail.com>
 Sender: NSNYDER3@STNY.RR.COM
 **********************************************************
+Jackson County, IA
+Contact: lyn medinger <medic354@gmail.com>
+Sender: swmail@maquoketaia.com
+S:Dispatch Center M:11-004602 GENERAL MEDICAL/AMBULANCE\n
+33618 MILL CREEK RD\n
+325 AVE / SIEVERDING/RIDGE RD\n
+BELLEVUE\n
+BEA1 BEF1\n
+\n
+\n
+**********************************************************
+Lewis & Clarke County, MT (SAR)
+Contact: Doug Robinson <freedomdoug@gmail.com>
+Sender: 777038645546
+HELENA 911 ([SARpage] Commo Meeting) Commo Meeting AT SAR BLDG MON 4/18/11 1800hrs TXT STOP to opt-out
 **********************************************************
 ************  READY TO ROLL ******************************
 **********************************************************
 **********************************************************
+Fayette County, Pennsylvania
+Contact: Michael Wystepek <mjwystepek@gmail.com>
+Sender: FAYETTE-911@fcema.org
+FAYETTE-911:FACINJ>F-ACCIDENT W/ INJURIES VANCES MILL RD NORTH UNION WILSON PAUL 7249637757 Map: Grids:, Cad: 2011-0000029638
+FAYETTE-911:ESCK_A>E SICK/UNKNOWN ALS 570 FLATWOODS RD XS: TOWN COUNTRY RD FRANKLIN ADAMS, J 7243980234 Map: Grids:, Cad: 2011-0000031363
+FAYETTE-911:FACCNO>F_ACCIDENT NO INJURIES 1829 PITTSBURGH RD XS: RESERVOIR RD FRANKLIN HARPER, FRAN 4126910370 Map: Grids:, Cad: 2011-0000029521
+FAYETTE-911:FACINJ>F-ACCIDENT W/ INJURIES VANCES MILL RD NORTH UNION WILSON PAUL 7249637757 Map: Grids:, Cad: 2011-0000029638
+FAYETTE-911:FACINJ>F-ACCIDENT W/ INJURIES 2418 PITTSBURGH RD XS: RESERVOIR RD & BRADY LN FRANKLIN CHRIS 3046855898 Map: Grids:, Cad: 2011-0000029569
+FAYETTE-911:EBRT_A>E_BREATHING ALS 1829 PITTSBURGH RD XS: RESERVOIR RD FRANKLIN DELBRIDGE JOY 7247106364 Map: Grids:, Cad: 2011-0000030505
+FAYETTE-911:FACINJ>F-ACCIDENT W/ INJURIES BOLDEN RD XS: COOPER RD & PITTSBURGH RD FRANKLIN HIGGNS ERENST 7245526428 Cad: 2011-0000030796
+FAYETTE-911:EBRT_A>E_BREATHING ALS 2527 PITTSBURGH RD FRANKLIN JOHNSON JULIE 7244157363 Map: Grids:, Cad: 2011-0000030936
+FAYETTE-911:FTREE >F_TREE DOWN BUENA VISTA RD XS: FLATWOODS RD FRANKLIN THOMPSON KAREN 7248800052 Map: Grids:, Cad: 2011-0000031144
+FAYETTE-911:FTREE >F_TREE DOWN BITNER RD XS: VANCES MILL RD & ROUND BARN RD FRANKLIN VERIZON WIRELESS 7248808596 Map: Grids:, Cad: 2011-0000031156
+FAYETTE-911:ESCK_A>E SICK/UNKNOWN ALS 570 FLATWOODS RD XS: TOWN COUNTRY RD FRANKLIN ADAMS, J 7243980234 Map: Grids:, Cad: 2011-0000031363
+FAYETTE-911:FTREE >F_TREE DOWN BITNER RD XS: VANCES MILL RD & ROUND BARN RD FRANKLIN ROSINSKI, SUSAN 7248802229 Map: Grids:, Cad: 2011-0000031167
 **********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
+Cattaraugus County, NY
+Contact: steve W <nibacgol@gmail.com>
+Sender: 911@cattco.org,7770
+_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+Unit:WVD1 Loc:9356 ROUTE 240 Between:CONTEL ALY/FELTON HILL RD CN:
+CTV:ASHF Type:BLS BLEED Date:04/10/2011 Time:01:55 Info:67/F
+UNCONTROLLED NOSE BLEED Caller:SMITH,JAMES,, Inc#:2011-00000066
+_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+Unit:WVD1 Loc:9883 DUTCH HILL RD Between:CEMETERY RD/CROSS RD CN:
+CTV:ASHF Type:ALS MVA Date:04/05/2011 Time:11:54 Info:ONE CAR IN DITCH
+W/INJURY Caller:DOE,JANE,, Inc#:2011-00000065
+_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+Unit:WVD1 Loc:5700 HEINZ RD Between:ROUTE 240/END CN: CTV:ASHF
+Type:Stru Fire Date:03/30/2011 Time:10:19 Info:HOUSE FIRE
+Caller:VERIZON WIRELESS,,, Inc#:2011-00000061
+_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+Unit:WVD1 Loc:ROUTE 219/PETERS Between:PETERS RD/ROUTE 219 CN:
+CTV:ASHF Type:BLS MVA Date:03/28/2011 Time:06:10 Info:MVC/2
+VEHICLES/UNK INJURIES Caller:SMITH,JOHN,, Inc#:2011-00000060
+_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+Unit:WVD1 Loc:RICEVILLE RD/MCLAUGHLIN Between:MCLAUGHLIN RD/RICEVILLE
+RD CN: CTV:ASHF Type:Veh Fire Date:03/23/2011 Time:06:24 Info:SNOW
+PLOW ON FIRE Caller:ERIE CO 911,,, Inc#:2011-00000057
+_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+Unit:WVD3 Loc:CONNOISARAULEY RD Between:N CONNOISARAULEY RD/EOTT TOWN
+LINE CN: CTV:ASHF Type:MV Crash Date:03/17/2011 Time:07:23 Info:1 CAR
+MVC, NO INJURY, CAR PARTLY OFF INTO THE  ROADWAY, CAR INTO GUARD RAIL
+Caller:PATIENT,LACEY,, Inc#:2011-00000055
+_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+Unit:WVD1 Loc:5790 FOX VALLEY RD Between:ROUTE 240/THORNWOOD DR CN:
+CTV:ASHF Type:ALS CHSTPN Date:03/22/2011 Time:12:15 Info:70 YOF CHEST
+PAIN Caller:JOHNSON,CHARLES,, Inc#:2011-00000056
+_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+Unit:WVD1 Loc:6567 PLATO RD Between:IRISH HILL RD/JACKMAN HILL RD CN:
+CTV:ELLT Type:ALS CHSTPN Date:03/16/2011 Time:14:28 Info:64/YOF DIFF
+BREATHING CHEST PRESSURE Caller:KEMPSTON,CATHERINE,,
+Inc#:2011-00000193
+_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+Unit:WVD2 Loc:8870 ROUTE 240 Between:ELLI TOWN LINE/ROSZYK HILL RD CN:
+CTV:ASHF Type:Fire Polce Date:03/14/2011 Time:11:27 Info:FIRE POLICE
+FOR DISABLED VEHICLE Caller:WEST VALLEY FIRE CHI,,, Inc#:2011-00000051
+_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+Unit:WVD1 Loc:AHRENS RD Between:PRILL RD/ROUTE 219 CN: CTV:ASHF
+Type:Hazard Date:03/09/2011 Time:15:54 Info:NEXT TO CARSONS
+RESTAURANT, TREE DOWN BLOCKIN G BOTH LANES. Caller:WHITCOMB,LEON,,
+Inc#:2011-00000048
+_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+Unit:WVD1 Loc:8984 ROUTE 219 Between:ELLI TOWN LINE/ASHFORD HOLLOW RD
+CN: CTV:ASHF Type:BLS ABPAIN Date:03/06/2011 Time:18:47 Info:81 YOM
+WITH ABD PAIN AND VOMITING Caller:BIGTREE,EUGENE,, Inc#:2011-00000046
+_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+Unit:WVD1 Loc:4484 RICEVILLE RD Between:KREPPS RD/MCLAUGHLIN RD CN:
+CTV:MACH Type:Stru Fire Date:03/02/2011 Time:13:53 Info:CHIMNEY FIRE
+Caller:MOOSEHEAD,LEONARD,, Inc#:2011-00000058
+_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+Unit:WVD1 Loc:7703 MEYER HILL RD Between:CRUMB HILL RD/REED HILL RD
+CN: CTV:EOTT Type:MHL 9.45 Date:03/01/2011 Time:16:12 Info:A WOMEN
+HERE IS 48 Y/O IS THREATING TO KILL HERSELF. SHE IS HIGHLY
+INTOXICATED.  THERE ARE SHOTGUNS IN THE HOUSE Caller:SMACKLE,ROLAND,,
+Inc#:2011-00005950
+_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+Unit:WVD1 Loc:8616 ROUTE 219 Between:BEAVER MEADOWS RD/ASHF TOWN LINE
+CN: CTV:ELLT Type:Stru Fire Date:02/24/2011 Time:07:58 Info:CHIMNEY
+FIRE, UNKNOWN IF OCCUPIED, PASSER BY Caller:DAY,MR,,
+Inc#:2011-00000043
+_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+Unit:WVD1 Loc:8374 ROHR HILL RD Between:PLATO RD/MILL VALLEY RD CN:
+CTV:EOTT Type:Stru Fire Date:02/05/2011 Time:20:45 Info:POSSIBLE
+STRUCTURE FIRE Caller:STICKMAN,WILLIAM,R, Inc#:2011-00000009
+_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/

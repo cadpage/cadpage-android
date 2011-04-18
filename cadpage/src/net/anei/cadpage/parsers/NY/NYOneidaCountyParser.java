@@ -36,6 +36,10 @@ Contact: james rouillier jr <scaredtwo@gmail.com>
 
 Contact: eric roux <eroux33@gmail.com>
 ?WEMF:2011:0144>Dispatched\n>ASSIST\n>6471 W CARTER RD, WESTMORELAND, NY
+
+Contact: James Griffiths <griffballs72@gmail.com>
+Body:?DEEF:2011:0075>Dispatched\n>WIRES DOWN/BURN\n>6352 WALKER RD, DEERFIELD (CRUIKSHANK RD/MILLER RD;)
+
 */
 
 public class NYOneidaCountyParser extends SmsMsgParser {

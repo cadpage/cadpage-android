@@ -1,5 +1,6 @@
 package net.anei.cadpage.parsers.NY;
 
+import net.anei.cadpage.SmsMmsMessage;
 import net.anei.cadpage.SmsMsgInfo.Data;
 import net.anei.cadpage.parsers.SmartAddressParser;
 
@@ -21,8 +22,10 @@ ALERT@ERIE.GOV FIRE CO-DETECTOR 47 VIA DONATO E LANCASTER TOWN CO DETECTOR NO SY
 ALERT@ERIE.GOV EMS 4805 TRANSIT RD APT: 3105 LANCASTER TOWN EMS/66 YO FEMALE SEVERE HEADACHE/GENERAL ILLNESS REFER TWIN DISTRICT FD REF
 
 Contact: Todd Rzeszutek <firefighter5502@yahoo.com>
-Sender: 93001034
+Sender: 9300xxxx
 NOTIFICATIONS 85 MANITOU ST DEPEW DEPEW FIRE DEPARTMENT- DAILY TEST
+NOTIFICATIONS 85 MANITOU ST DEPEW CONDUCTED THE DAILY FIRE RADIO AND PAGER TEST
+4569 BROADWAY DEPEW COMMERCIAL FIRE ALARM COMING FROM THE BANQUET ROOM
 
 Possible call code values
 
@@ -116,8 +119,16 @@ public class NYErieCountyParser extends SmartAddressParser {
     "WILLIAMSVILLE"
   };
   
+  private SmsMmsMessage msg;
+  
   public NYErieCountyParser() {
     super(CITY_LIST, DEF_CITY, DEF_STATE);
+  }
+
+  @Override
+  protected Data parseMsg(SmsMmsMessage msg, boolean overrideFilter, boolean genAlert) {
+    this.msg = msg;
+    return super.parseMsg(msg, overrideFilter, genAlert);
   }
 
   @Override
@@ -125,6 +136,7 @@ public class NYErieCountyParser extends SmartAddressParser {
     
     if (body.startsWith("AMH ")) return parseAmhMsg(body.substring(4), data);
     if (body.startsWith("ALERT@ERIE.GOV ")) return parseErieMsg(body.substring(15), data);
+    if (msg.getAddress().startsWith("9300")) return parseDepewMsg(body, data); 
     return false;
   }
 
@@ -138,6 +150,17 @@ public class NYErieCountyParser extends SmartAddressParser {
   private boolean parseErieMsg(String body, Data data) {
     parseAddress(StartType.START_CALL, body, data);
     data.strSupp = getLeft();
+    return true;
+  }
+
+  private boolean parseDepewMsg(String body, Data data) {
+    parseAddress(StartType.START_CALL, body, data);
+    if (data.strAddress.length() == 0) return false;
+    if (data.strCall.length() == 0) {
+      data.strCall = getLeft();
+    } else {
+      data.strSupp = getLeft();
+    }
     return true;
   }
 }
