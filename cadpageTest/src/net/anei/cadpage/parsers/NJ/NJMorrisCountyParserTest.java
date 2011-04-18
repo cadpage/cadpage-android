@@ -173,9 +173,17 @@ public class NJMorrisCountyParserTest extends BaseParserTest {
         "CALL:MVA",
         "INFO:PD REQUEST 1 RIG, AIR BAG DEPLOYMENT",
         "UNIT:2398");
+
+    doTest("T20",
+        "SUNRISE ASSISTED LIVING (23), 209 LITTLETON RD [Morris Plains] (SICK PERSN) - 1ST FLOOR...CALLER REPORTS THE FEMALE PATIENT IS SHAKING AND SCREAMING. CALLE",
+        "PLACE:SUNRISE ASSISTED LIVING",
+        "ADDR:209 LITTLETON RD",
+        "CITY:Morris Plains",
+        "CALL:SICK PERSN",
+        "INFO:1ST FLOOR...CALLER REPORTS THE FEMALE PATIENT IS SHAKING AND SCREAMING. CALLE");
   }
   
   public static void main(String[] args) {
-    new NJMorrisCountyParserTest().generateTests("T1", "PLACE ADDR APT CITY CALL INFO UNIT");
+    new NJMorrisCountyParserTest().generateTests("T20", "PLACE ADDR APT CITY CALL INFO UNIT");
   }
 }
