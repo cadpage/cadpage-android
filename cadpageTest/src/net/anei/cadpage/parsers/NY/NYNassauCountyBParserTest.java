@@ -55,6 +55,12 @@ public class NYNassauCountyBParserTest extends BaseParserTest {
         "ADDR:65 EMMET AVE",
         "CALL:GENERAL-AUTO",
         "INFO:ESTRIN RES/40A024");
+
+    doTest("T8",
+        "FRM:paging@alpinesoftware.com\nMSG:\nRedAlert: 528 MERRICK ROAD (SIG 9A-AMBU) SICK MALE",
+        "ADDR:528 MERRICK ROAD",
+        "CALL:SIG 9A-AMBU",
+        "INFO:SICK MALE");
   }
   
   public static void main(String[] args) {
