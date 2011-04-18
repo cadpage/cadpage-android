@@ -33,12 +33,14 @@ POST91-7 (MENNEN ARENA), 161 E HANOVER AVE [Morris Twp] (FALL) - IN BACK OF RINK
 AMERICAN RD / E HANOVER AVE [Morris Plains] (MVA) - 2 CAR MVA, PATIENT COMPLAINING OF HEAD PAIN. HONDA CIVIC VS FORD. VEHICLES IN INTERSECTION - 2398 16:53
 LITTLETON RD / COURT RD [Morris Plains] (MVA) - PD REQUEST 1 RIG, AIR BAG DEPLOYMENT - 2398 12:15
 
+SUNRISE ASSISTED LIVING (23), 209 LITTLETON RD [Morris Plains] (SICK PERSN) - 1ST FLOOR...CALLER REPORTS THE FEMALE PATIENT IS SHAKING AND SCREAMING. CALLE
+
 */
 
 public class NJMorrisCountyParser extends SmsMsgParser {
   
   private static final Pattern MASTER_PTN = 
-    Pattern.compile("^(.*) \\[([A-Za-z ]+)\\] \\(([A-Z ]+)\\) - (.*) - (.*) \\d\\d:\\d\\d *$");
+    Pattern.compile("^(.*) \\[([A-Za-z ]+)\\] \\(([A-Z ]+)\\) - (.*)$");
   
   private static final Pattern PLACE_CODE_PTN = Pattern.compile("\\(\\d+\\)$");
   
@@ -69,8 +71,11 @@ public class NJMorrisCountyParser extends SmsMsgParser {
     
     data.strCity = match.group(2).trim();
     data.strCall = match.group(3).trim();
-    data.strSupp = match.group(4).trim();
-    data.strUnit = match.group(5).trim();
+    p = new Parser(match.group(4));
+    String sExtra = p.getLastOptional(" - ");
+    data.strSupp = p.get();
+    p = new Parser(sExtra);
+    data.strUnit = p.get(' ');
     return true;
   }
 }
