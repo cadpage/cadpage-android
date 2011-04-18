@@ -86,5 +86,18 @@ public class VALoudounCountyParserTest extends BaseParserTest {
         "UNIT:A619 M6091 ACO19",
         "BOX:1921",
         "MAP:5520 F01");
+
+    doTest("T8",
+        "Call:TRK-TRUCK FIRE,HARRY BYRD HWY-LB/GOOSE CREEK-LB Apt:,X-St:GOOSE CREEK LEESB,W606 E601 M6221 BC601 SO600 ECO22 ACO22,Box:2212",
+        "CALL:TRK-TRUCK FIRE",
+        "ADDR:HARRY BYRD HWY & GOOSE CREEK",
+        "CITY:Leesburg",
+        "X:GOOSE CREEK LEESB",
+        "UNIT:W606 E601 M6221 BC601 SO600 ECO22 ACO22",
+        "BOX:2212");
+ }
+  
+  public static void main(String[] args) {
+    new VALoudounCountyParserTest().generateTests("T8", "CALL ADDR CITY APT X UNIT BOX MAP");
   }
 }

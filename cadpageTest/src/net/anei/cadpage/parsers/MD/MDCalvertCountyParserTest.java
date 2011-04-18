@@ -85,9 +85,17 @@ public class MDCalvertCountyParserTest extends BaseParserTest {
         "CITY:LUSBY",
         "ID:2011-00000525",
         "INFO:SCHOOL-DOW ES ProQA Medical Questionnaire Completed;");
+
+    doTest("T9",
+        "(Dispatch Info) M Priority 1 Medical E33 A38 SMA796 M105  11:20 04/18/11 Box 302 1105 BACK CREEK LOOP SOLOMONS",
+        "CALL:M Priority 1 Medical",
+        "UNIT:E33 A38 SMA796 M105",
+        "BOX:302",
+        "ADDR:1105 BACK CREEK LOOP",
+        "CITY:SOLOMONS");
   }
   
   public static void main(String[] args) {
-    new MDCalvertCountyParserTest().generateTests("T1", "CALL UNIT BOX ADDR CITY ID INFO");
+    new MDCalvertCountyParserTest().generateTests("T9", "CALL UNIT BOX ADDR CITY ID INFO");
   }
 }
