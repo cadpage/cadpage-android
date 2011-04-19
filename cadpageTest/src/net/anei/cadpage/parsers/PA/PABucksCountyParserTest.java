@@ -150,10 +150,33 @@ public class PABucksCountyParserTest extends BaseParserTest {
         "BOX:04003",
         "MAP:3261B8",
         "ID:E1");
+
+    doTest("T13",
+        "911: STA53  type:RMAR    adr:LIONS PARK ,24 at 102 SAMUEL CLIFT ST ,24 btwn MILL ST & MARKET ST  aai:  box:51012  map:3375D5  tm:00:59:10  FD1105678 Run: R53 M53 M11",
+        "SRC:STA53",
+        "CALL:RMAR - MARINE RESCUE",
+        "ADDR:102 SAMUEL CLIFT ST",
+        "PLACE:LIONS PARK",
+        "CITY:BRISTOL",
+        "X:MILL ST & MARKET ST",
+        "BOX:51012",
+        "MAP:3375D5",
+        "ID:M11");
+
+    doTest("T14",
+        "911: STA53  type:WIREIN  adr:2218 TRENTON AV ,24  btwn BARRY PL & TAFT ST  aai:  box:53034  map:3375F2  tm:11:40:15  FD1104667    Run: L25 Q51 E50 E52",
+        "SRC:STA53",
+        "CALL:WIREIN - WIRES IN DWELLING",
+        "ADDR:2218 TRENTON AV",
+        "CITY:BRISTOL",
+        "X:BARRY PL & TAFT ST",
+        "BOX:53034",
+        "MAP:3375F2",
+        "ID:E52");
       
   }
   
   public static void main(String[] args) {
-    new PABucksCountyParserTest().generateTests("T12", "SRC CALL ADDR APT PLACE CITY X INFO BOX MAP ID");
+    new PABucksCountyParserTest().generateTests("T13", "SRC CALL ADDR APT PLACE CITY X INFO BOX MAP ID");
   }
 }
