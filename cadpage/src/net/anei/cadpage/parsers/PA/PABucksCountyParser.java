@@ -37,6 +37,9 @@ Sender: 2674243300
 Contact: Ed Ackerman <ed.ackerman@gmail.com>
 911: STA4  type:RAUTO   adr:PHILMONT AV/E STREET RD ,43  aai:PHILMONT SO STREET  box:04003  map:3261B8  tm:10:21:22  FD1104774    Run: R4 R6 E1
 
+Contact: "Russ Swinehart Jr." <snoopfire10@yahoo.com>
+911: STA53  type:RMAR    adr:LIONS PARK ,24 at 102 SAMUEL CLIFT ST ,24 btwn MILL ST & MARKET ST  aai:  box:51012  map:3375D5  tm:00:59:10  FD1105678 Run: R53 M53 M11
+911: STA53  type:WIREIN  adr:2218 TRENTON AV ,24  btwn BARRY PL & TAFT ST  aai:  box:53034  map:3375F2  tm:11:40:15  FD1104667    Run: L25 Q51 E50 E52
 
  */
 
@@ -223,6 +226,8 @@ public class PABucksCountyParser extends SmsMsgParser {
       "FTRUCK",   "TRUCK FIRE (LOC)",
       "FUMEIN",   "FUMES INSIDE STRUCTURE (TAC)",
       "FUMES",    "FUMES OUTSIDE (LOC)",
+      "RMAR",     "MARINE RESCUE",
+      "WIREIN",   "WIRES IN DWELLING",
 
       "AABDO",      "ACUTE ABDOMEN",
       "BABDO",      "ABDOMINAL PAIN",
