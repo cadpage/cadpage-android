@@ -10,12 +10,15 @@ import net.anei.cadpage.parsers.FieldProgramParser;
 /*
 NECC, OH
 Contact: Jon Frye <jfrye@safety-center.org>
-Sender; Dispatcher@safety-center.org
+Sender; Dispatcher@safety-center.org,rc.340@c-msg.net
 
 (NECC) [F] LV:1 ALARM CARBON MONOXIDE NO SYMPTOMS\n/\n1619 W LOVELAND AV\n(LV)\nXS: S LEBANON RD & HEIDELBURG DR\n\nRCVD AS Phone\n\nCOM:\nALARM ACTIVATED
 [NECC]  [F] LV:1 ALARM FIRE\n/\nCHILI'S GRILL & BAR\n11329<tel:11329> MONTGOMERY RD\n(SY)\nXS: HARPERSPOINTE DR & E KEMPER RD\n\nRCVD AS Phone\n\nCOM:\nF28 FIRE DUCT ALARM\nE9
 (NECC) [F] LV:1 AUTO ACCIDENT INJURY\n/\nFIELDS ERTEL RD/UNION CEMETERY RD\n(SY)\nXS: UNION CEMETERY RD & GREEN ARBORS LN\n\nRCVD AS Phone\n\nCOM:
 (NECC) [F] LV:1 AUTO ACCIDENT VEHICLE FIRE\n/\nBECKER\n9695 LOVELAND MADEIRA RD\n(SY)\nXS: HUMPHREY RD & MORGANS TRACE\n\nRCVD AS Phone
+
+Contact: Nate Ritchey <nwritchey911@gmail.com>
+Subject:NECC\n[E] LV:1 EMS SUICIDAL SUBJECT\n/\n11645 THISTLEHILL DR\n(SY)\nXS: HEIDLEBERG DR & SYMBOLA DR\n\nRCVD AS Phone\n\nCOM:\nC\nALLED IN 3RD PARTY-BY THE PATIENTS COUNSELOR -\nJENNIFER REDWITZ - 685.9344\nSHE STATED THAT THE 26-F @ THIS ADDRESS IS \n
 
 */
 public class OHNECCParser extends FieldProgramParser {
@@ -30,6 +33,7 @@ public class OHNECCParser extends FieldProgramParser {
       "SYCMTP","SYCAMORE TWP"
   });
   
+  private static final Pattern SUBJECT_PTN = Pattern.compile("NECC\\|[EF]");
   private static final Pattern PHONE_PTN = Pattern.compile("<tel:(.*)>");
 
   public OHNECCParser() {
@@ -39,13 +43,13 @@ public class OHNECCParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "Dispatcher@safety-center.org";
+    return "Dispatcher@safety-center.org,rc.340@c-msg.net";
   }
   
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     
-    if (! subject.equals("NECC|F")) return false;
+    if (! SUBJECT_PTN.matcher(subject).matches()) return false;
     
     return parseFields(body.split("\\n"), data);
   }
