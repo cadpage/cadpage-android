@@ -12,6 +12,11 @@ public class TXHumbleParserTest extends BaseParserTest {
   }
   
   @Test
+  public void testStatusMsg() {
+    doBadTest("(Chief ALT) [AVFD EMS TIMES] - Incident: 201117017 -- Unit: E-M19 Disp 18:20:53 -- Enroute: 18:22:50 -- Arrived: -- Transport: -- At Hosp: -- Available: 18:24:58");
+  }
+  
+  @Test
   public void testParser() {
 
     doTest("T1",
