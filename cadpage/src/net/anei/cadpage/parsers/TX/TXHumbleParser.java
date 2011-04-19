@@ -16,12 +16,17 @@ Contact: "Wassell, Michael" <MWassell@avfd.com>
 [AVFD FIRE] - Motor Vehicle Incident -- E Fm 1960 & w Lake Houston P, Humble -- Map: 337Z- -- Xst's: W Lake Houston Pkwy Atasc -- Units: E-M19 E-E39 - 201105443
 [AVFD FIRE][Repage] - Mvi - Unknown -- Will Clayton Pkwy & atascoci -- Map: 376C- -- Xst's: Atascocita Rd Hunters Ter -- Units: E-M29 E-E39 - 201105192 
 
+Status message, should not be accepted as CAD page
+(Chief ALT) [AVFD EMS TIMES] - Incident: 201117017 -- Unit: E-M19 Disp 18:20:53 -- Enroute: 18:22:50 -- Arrived: -- Transport: -- At Hosp: -- Available: 18:24:58
  */
 
 public class TXHumbleParser extends DispatchOSSIParser {
   
   // Pattern to find a single dash delimiter followed by a numeric ID token
   private static Pattern TRAIL_DELIM = Pattern.compile(" - (?=\\d+$ *)");
+  
+  // Pattern to identify status messages
+  private static Pattern INCIDENT_PTN = Pattern.compile(" *Incident: \\d{9} *");
   
   public TXHumbleParser() {
     super("HUMBLE", "TX",
@@ -39,7 +44,9 @@ public class TXHumbleParser extends DispatchOSSIParser {
     
     // Split line into double dash delimited fields and process them
     body = body.replace("Xst's:", "Xsts:");
-    return parseFields(body.split(" -- "), data);
+    String[] flds = body.split(" -- ");
+    if (INCIDENT_PTN.matcher(flds[0]).matches()) return false;
+    return parseFields(flds, data);
   }
   
   @Override
