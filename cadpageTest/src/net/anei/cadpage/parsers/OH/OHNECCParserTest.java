@@ -46,10 +46,18 @@ public class OHNECCParserTest extends BaseParserTest {
         "ADDR:9695 LOVELAND MADEIRA RD",
         "CITY:SYMMES",
         "X:HUMPHREY RD & MORGANS TRACE");
+
+    doTest("T5",
+        "Subject:NECC\n[E] LV:1 EMS SUICIDAL SUBJECT\n/\n11645 THISTLEHILL DR\n(SY)\nXS: HEIDLEBERG DR & SYMBOLA DR\n\nRCVD AS Phone\n\nCOM:\nC\nALLED IN 3RD PARTY-BY THE PATIENTS COUNSELOR -\nJENNIFER REDWITZ - 685.9344\nSHE STATED THAT THE 26-F @ THIS ADDRESS IS \n",
+        "CALL:EMS SUICIDAL SUBJECT",
+        "ADDR:11645 THISTLEHILL DR",
+        "CITY:SYMMES",
+        "X:HEIDLEBERG DR & SYMBOLA DR",
+        "INFO:C / ALLED IN 3RD PARTY-BY THE PATIENTS COUNSELOR - / JENNIFER REDWITZ - 685.9344 / SHE STATED THAT THE 26-F @ THIS ADDRESS IS");
      
   }
   
   public static void main(String[] args) {
-    new OHNECCParserTest().generateTests("T1");
+    new OHNECCParserTest().generateTests("T5");
   }
 }
