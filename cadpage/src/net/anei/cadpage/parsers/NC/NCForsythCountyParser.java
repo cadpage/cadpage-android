@@ -22,6 +22,8 @@ Location: 5825 POPPY SEED DR FC Nature: Brush Fire P:1  - default DISTRICT: F31 
 Location: 1800 SPRINGFIELD FARM CT CL Nature: Breathing Difficulty P:1  - BREATHING_DIFF DISTRICT: R11 X Str: SPRINGFIELD FARM RD/ CALLER NAME:
 Location: 4595 STYERS FERRY RD WS Nature: Sick/Unknown P:1  - default DISTRICT: R11 X Str: FOX RIDGE LN/REMINGTON DR CALLER NAME:
 
+Nature: Motor Vehicle Accident P:1  - default DISTRICT: R11 X Str: LEWISVILLE-CLEMMONS RD/REYNOLDS RD CALLER NAME:
+
  */
 
 
@@ -38,7 +40,7 @@ public class NCForsythCountyParser extends FieldProgramParser {
   
   public NCForsythCountyParser() {
     super(CITY_CODES, "FORSYTH COUNTY", "NC",
-           "Location:ADDR/S! Nature:CALL! P:SKIP DISTRICT:UNIT X_Str:X CALLER_NAME:NAME");
+           "Location:ADDR/S Nature:CALL! P:SKIP DISTRICT:UNIT X_Str:X CALLER_NAME:NAME");
   }
   
   @Override
@@ -53,6 +55,14 @@ public class NCForsythCountyParser extends FieldProgramParser {
     
     if (data.strCity.equals(data.defCity)) data.strCity = "";
     if (data.strCross.equals("/")) data.strCross = "";
+    
+    // Intersections seem to be saved as cross streets, at least some of the time
+    if (data.strAddress.length() == 0) {
+      if (data.strCross.length() == 0) return false;
+      String sAddress = data.strCross;
+      data.strCross = "";
+      parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END, sAddress, data);
+    }
     return true;
   }
   
