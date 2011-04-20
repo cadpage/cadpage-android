@@ -75,10 +75,16 @@ public class NCForsythCountyParserTest extends BaseParserTest {
         "CALL:Sick/Unknown",
         "UNIT:R11",
         "X:FOX RIDGE LN/REMINGTON DR");
-  }
+
+    doTest("T9",
+        "Nature: Motor Vehicle Accident P:1  - default DISTRICT: R11 X Str: LEWISVILLE-CLEMMONS RD/REYNOLDS RD CALLER NAME:",
+        "ADDR:LEWISVILLE-CLEMMONS RD & REYNOLDS RD",
+        "CALL:Motor Vehicle Accident",
+        "UNIT:R11");
+ }
   
   public static void main(String[] args) {
-    new NCForsythCountyParserTest().generateTests("T8");
+    new NCForsythCountyParserTest().generateTests("T9");
   }
 }
 
