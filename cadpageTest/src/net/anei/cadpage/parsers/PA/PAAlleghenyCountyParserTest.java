@@ -98,9 +98,18 @@ public class PAAlleghenyCountyParserTest extends BaseParserTest {
         "X:LINDBERG AVE and NELBON AVE",
         "SRC:EFD1",
         "ID:225001");
+
+    doTest("T9",
+        "ALLEGHENY COUNTY 911 :QRS3, Q3, E-3 QRS / EMS ASSIST, 1000 ROSS PARK MALL DR, ROS, btwn ROSS PARK DR and CHERYL DR, CALIFORNIA PIZZA KITCHEN, NFD3, 24700",
+        "CALL:QRS3 - E-3 QRS / EMS ASSIST",
+        "ADDR:1000 ROSS PARK MALL DR",
+        "CITY:ROSS",
+        "X:ROSS PARK DR and CHERYL DR",
+        "INFO:CALIFORNIA PIZZA KITCHEN / NFD3 / 24700");
+   
   }
   
   public static void main(String[] args) {
-    new PAAlleghenyCountyParserTest().generateTests("T8", "CALL ADDR CITY X SRC ID INFO UNIT");
+    new PAAlleghenyCountyParserTest().generateTests("T9", "CALL ADDR CITY X SRC ID INFO UNIT");
   }
 }
