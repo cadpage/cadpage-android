@@ -13,6 +13,11 @@ public class NYSuffolkCountyCParserTest extends BaseParserTest {
   }
   
   @Test
+  public void testNotPage() {
+    doBadTest("I'm at the store");
+  }
+  
+  @Test
   public void testHolbrookParser() {
     
     doTest("T1",
