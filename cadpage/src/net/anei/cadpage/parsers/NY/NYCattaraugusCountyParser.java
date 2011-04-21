@@ -38,9 +38,15 @@ public class NYCattaraugusCountyParser extends FieldProgramParser {
 
   private static Properties CITY_CODES = buildCodeTable(new String[]{
       "ASHF", "ASHFORD",
+      "ELLI", "ELLICOTTVILLE",
       "ELLT", "ELLICOTTVILLE",
       "EOTT", "EAST OTTO",
-      "MACH", "MACHIAS"
+      "DELEVN", "DELEVAN",
+      "MACH", "MACHIAS",
+      "MANS", "MANSFIELD",
+      "OTTO", "OTTO",
+      "SPRGVLL", "SPRINGVILLE",
+      "YORK", "YORKSHIRE"
   });
   
   private static Pattern TRAIL_COMMA_PAT = Pattern.compile("[ ,]+$");

@@ -6,7 +6,7 @@ import net.anei.cadpage.parsers.SmsMsgParser;
 
 
 /* 
- * Chester Country, PA (Class I)
+ * Chester County, PA
 Contact: "buckhunter1113@aol.com" <buckhunter1113@aol.com>
 Sender: gallison39@comcast.net
 
