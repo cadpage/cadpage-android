@@ -1,8 +1,11 @@
 package net.anei.cadpage.parsers;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Properties;
+import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -126,7 +129,7 @@ import net.anei.cadpage.SmsMsgInfo.Data;
 public class FieldProgramParser extends SmartAddressParser {
   
   // list of cities
-  private String[] cities = null;
+  private Set<String> cities = null;
   
   // table converting city codes to city names
   private Properties cityCodes = null;
@@ -153,7 +156,7 @@ public class FieldProgramParser extends SmartAddressParser {
   
   public FieldProgramParser(String[] cities, String defCity, String defState, String programStr) {
     super(cities, defCity, defState);
-    this.cities = cities;
+    this.cities = new HashSet<String>(Arrays.asList(cities));;
     setProgram(programStr);
   }
   
@@ -1351,13 +1354,9 @@ public class FieldProgramParser extends SmartAddressParser {
       }
       
       // Otherwise we must have a cities list
-      for (String city : cities) {
-        if (field.equals(city)) {
-          data.strCity = field;
-          return true;
-        }
-      }
-      return false;
+      if (!cities.contains(field.toUpperCase())) return false;
+      data.strCity = field;
+      return true;
     }
 
     @Override
