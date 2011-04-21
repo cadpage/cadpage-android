@@ -97,5 +97,9 @@ public class BroadcastBindings {
   
   // (string) caller phone number
   public static final String EXTRA_PARSE_PHONE =        PREFIX + "EXTRA_PARSE_PHONE";
+  
+  // (boolean) flag indicating Cadpage is not taking any user visible action in response
+  // to an incoming CAD page
+  public static final String EXTRA_QUIET_MODE =         PREFIX + "EXTRA_QUIET_MODE";
 
 }

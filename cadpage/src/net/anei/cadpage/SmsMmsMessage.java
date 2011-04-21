@@ -756,6 +756,9 @@ public class SmsMmsMessage implements Serializable {
     intent.putExtra(EXTRA_TIME, timestamp);
     putExtraString(intent, EXTRA_LOC_CODE, location);
     
+    intent.putExtra(EXTRA_QUIET_MODE, 
+         !(ManagePreferences.notifyEnabled() || ManagePreferences.popupEnabled()));
+    
     if (info != null) {
       putExtraString(intent, EXTRA_LOC_CITY, info.getDefCity());
       putExtraString(intent, EXTRA_LOC_STATE, info.getDefState());
