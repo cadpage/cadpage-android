@@ -35,6 +35,12 @@ public class SmartAddressParserTest extends BaseParserTest {
   @Test
   public void testProblems() {
     
+    doTest(CALL, "F-ACCIDENT W/ INJURIES BOLDEN RD XS: COOPER RD & PITTSBURGH RD KENSBURG STUFF",
+        "CALL:F-ACCIDENT W/INJURIES",
+        "ADDR:BOLDEN RD",
+        "X:COOPER RD & PITTSBURGH RD",
+        "CITY:KENSBURG");
+    
     doTest(PLACE, "RT 30/EMORY RD RESCUE",
         "ADDR:RT 30 & EMORY RD");
     
@@ -483,6 +489,14 @@ public class SmartAddressParserTest extends BaseParserTest {
         "ADDR:65 S WILLIAMS ST",
         "SRC:Suite: APT 102",
         "CITY:KENSBURG");
+  }
+  
+  @Test
+  public void testBadCross() {
+    doTest(CALL, "SUNSHINE CITY XS: 100 BLACK ST",
+        "CALL:SUNSHINE CITY XS: 100 BLACK ST");
+    doTest(CALL, "SUNSHINE CITY XS: BLACK RD & 10 ST",
+        "CALL:SUNSHINE CITY XS: BLACK RD & 10 ST");
   }
   
   @Override
