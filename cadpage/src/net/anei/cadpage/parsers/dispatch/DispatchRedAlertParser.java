@@ -164,7 +164,7 @@ public class DispatchRedAlertParser extends SmsMsgParser {
     data.strCall = data.strCall.replaceAll("\\. \\.", "-");
 
     data.strPlace = props.getProperty("O", "");
-    String sCross = props.getProperty("CROSS", "");
+    String sCross = props.getProperty("CROSS");
     if (sCross != null) {
       ok = true;
       data.strCross = sCross;
