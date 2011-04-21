@@ -485,6 +485,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
       while (true) {
         
         if (sAddr >= tokens.length) return false;
+        if (isType(sAddr, ID_CROSS_STREET)) return false;
         if (isHouseNumber(sAddr)) {
           if (sAddr > 0 && isType(sAddr-1, ID_ROUTE_PFX) && 
               !tokens[sAddr-1].equalsIgnoreCase("CO")) return false;
@@ -569,6 +570,8 @@ public abstract class SmartAddressParser extends SmsMsgParser {
         if (flexAt && isType(ndx, ID_AT_MARKER)) atStart = true;
         ndx++;
         if (ndx >= tokens.length) return false;
+        if (isType(ndx, ID_CROSS_STREET)) return false;
+
         if (atStart || flexAt && isType(ndx, ID_INCL_AT_MARKER)) {
           sAddr = ndx;
           ndx = startIntersection(sAddr);;
@@ -682,6 +685,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
         ndx++;
         sAddr = ndx - 1;
         if (ndx >= tokens.length) return false;
+        if (isType(ndx, ID_CROSS_STREET)) return false;
         if (atStart || flexAt && isType(ndx, ID_INCL_AT_MARKER)) {
           sAddr = ndx;
           ndx = findRoadEnd(sAddr);
