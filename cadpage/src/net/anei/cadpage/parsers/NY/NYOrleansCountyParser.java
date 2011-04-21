@@ -5,10 +5,14 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.SmsMsgInfo.Data;
+import net.anei.cadpage.parsers.SmsMsgParser;
+
 /*
 Orleans County, NY 
 Contact: Wayne Litchfield <LitchfieldW@orleansny.com>
 Sender: ocdispatch@orleansny.com
+System: EM Systems
+
 Three character township codes use are...
 VAL TAL, BAR TGN ARE ALBION,NY 14411
 VLD YAT ARE LYNDONVILLE,NY 14098
@@ -24,7 +28,6 @@ HEART PROBLEMS/AICD; 15140 RIDGE RD TGN; 50 YOM RAPID HEART 180 BPS ; PRI 1 19c4
 TRAFFIC/TRANSPORTATION INCIDENTS; 14681 RIDGE RD TGN; REPORTED 2 CAR MINOR INJ MVA   29-B-1;
 SICK PERSON; 1579 E KENT RD TCR; 75 yom cathater removed pain PRI 3;
 */
-import net.anei.cadpage.parsers.SmsMsgParser;
 
 public class NYOrleansCountyParser extends SmsMsgParser {
   
