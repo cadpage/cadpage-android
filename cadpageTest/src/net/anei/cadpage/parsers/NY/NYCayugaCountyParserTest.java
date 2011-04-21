@@ -37,6 +37,12 @@ public class NYCayugaCountyParserTest extends BaseParserTest {
         "ADDR:7 EVERGREEN LN",
         "CITY:BRUTUS",
         "CALL:Stroke");
+
+    doTest("T5",
+        "FRM:cayuga911@co.cayuga.ny.us\nSUBJ:From911Center\nMSG:\n04/20/11 13:51 3204 FRANKLIN STREET RD SENNETT Alarm - Fire\n",
+        "ADDR:3204 FRANKLIN STREET RD",
+        "CITY:SENNETT",
+        "CALL:Alarm - Fire");
   }
   
   public static void main(String[] args) {
