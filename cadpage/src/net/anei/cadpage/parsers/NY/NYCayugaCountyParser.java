@@ -14,6 +14,9 @@ Sender: cayuga911@co.cayuga.ny.us
 (From 911 Center) 02/14/11 12:19 PINE ST PARK ST PORT BYRON Collapse
 (From 911 Center) 02/14/11 10:29 7 EVERGREEN LN BRUTUS Stroke
 
+Contact: John Betts <philbert08@yahoo.com>
+FRM:cayuga911@co.cayuga.ny.us\nSUBJ:From911Center\nMSG:\n04/20/11 13:51 3204 FRANKLIN STREET RD SENNETT Alarm - Fire\n
+
 */
 
 
@@ -59,7 +62,8 @@ public class NYCayugaCountyParser extends SmartAddressParser {
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     
-    if (!subject.equalsIgnoreCase("From 911 Center")) return false;
+    if (!subject.equals("From 911 Center") &&
+        !subject.equals("From911Center")) return false;
     Parser p = new Parser(body);
     p.get(' ');
     p.get(' ');
