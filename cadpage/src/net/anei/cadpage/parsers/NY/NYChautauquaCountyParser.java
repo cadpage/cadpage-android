@@ -9,8 +9,8 @@ import net.anei.cadpage.parsers.FieldProgramParser;
 
 /*
 Chautauqua County, NY
-Contact: Patrick Jackson <patjackson52@gmail.com>
-Pages may be split across multiple texts
+Contact: "Chuck Green" <tacticalfire@gmail.com>
+C/O: Patrick Jackson <patjackson52@gmail.com>
 
 CHAUTAUQUA_COUNTY_SHERIFF (MSP CAD) 07:06 *EMS CALL ; 3735 WESTMAN RD ; C/T/V Ellery ; BRET SANTILLI ; 17 yr female seizure  ; A441
 CHAUTAUQUA_COUNTY_SHERIFF (MSP CAD) 00:44 *EMS CALL ; 170 HIGH ACRES MHP ; C/T/V Ellery ; DONALD SCHAUMAN ; hip pain and back pain ; A441 E301 E302 T301 A301 R302 E373 E383 in Sun Room Zone 27 ;
