@@ -25,6 +25,7 @@ Sender: paging@bethpagefd.xohost.com
 
 Contact: jim baudille jr <ncdisp33@gmail.com>
 FRM:paging@bethpagefd.xohost.com\nMSG:\n2011-000418 *** 21)  AFA BUILDING *** BETHPAGE HIGH SCHOOL 800 STEWART AVE CS: SYCAMORE AVE TOA: 12:03 04-02-11 STATION 4
+1 of 2\nFRM:paging@bethpagefd.xohost.com\nMSG:\n2011-000530 *** 30) RESCUE-SIGNAL 9 *** MR ANTHONY MORACE 141 HERMANN AVE N CS: SOPHIA ST TOA:\n(Con't) 2 of 2\n09:52 04-22-11 HEADQUARTERS(End)
 
 */
 
@@ -34,7 +35,7 @@ public class NYNassauCountyDParser extends FieldProgramParser {
   
   public NYNassauCountyDParser() {
     super("NASSAU COUNTY", "NY",
-           "ADDR! CS:X! TOA:SKIP");
+           "ADDR/SP! CS:X! TOA:SKIP");
   }
 
   @Override
