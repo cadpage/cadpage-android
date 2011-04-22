@@ -78,11 +78,20 @@ public class NYNassauCountyDParserTest extends BaseParserTest {
         "FRM:paging@bethpagefd.xohost.com\nMSG:\n2011-000418 *** 21)  AFA BUILDING *** BETHPAGE HIGH SCHOOL 800 STEWART AVE CS: SYCAMORE AVE TOA: 12:03 04-02-11 STATION 4",
         "ID:2011-000418",
         "CALL:21)  AFA BUILDING",
-        "ADDR:BETHPAGE HIGH SCHOOL 800 STEWART AVE",
+        "PLACE:BETHPAGE HIGH SCHOOL",
+        "ADDR:800 STEWART AVE",
         "X:SYCAMORE AVE");
+
+    doTest("T12",
+        "1 of 2\nFRM:paging@bethpagefd.xohost.com\nMSG:\n2011-000530 *** 30) RESCUE-SIGNAL 9 *** MR ANTHONY MORACE 141 HERMANN AVE N CS: SOPHIA ST TOA:\n(Con't) 2 of 2\n09:52 04-22-11 HEADQUARTERS(End)",
+        "ID:2011-000530",
+        "CALL:30) RESCUE-SIGNAL 9",
+        "PLACE:MR ANTHONY MORACE",
+        "ADDR:141 HERMANN AVE N",
+        "X:SOPHIA ST");
   }
   
   public static void main(String[] args) {
-    new NYNassauCountyDParserTest().generateTests("T11");
+    new NYNassauCountyDParserTest().generateTests("T13");
   }
 }
