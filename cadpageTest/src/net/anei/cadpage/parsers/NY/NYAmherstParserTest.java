@@ -39,7 +39,9 @@ public class NYAmherstParserTest extends BaseParserTest {
     	    "CALL:MVA. 1/2 mile north of county.",
     	    "ADDR:Salt rd & County rd"
     	    );	
-    
-    
+  }
+  
+  public static void main(String[] args) {
+    new NYAmherstParserTest().generateTests("T1", "CALL ADDR");
   }
 }

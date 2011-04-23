@@ -121,6 +121,8 @@ public abstract class BaseParserTest {
       else if (sType.equals("SRC")) data.strSource = str;
       else if (sType.equals("CODE")) data.strCode = str;
       else if (sType.equals("NAME")) data.strName = str;
+      else if (sType.equals("PRI")) data.strPriority = str;
+      else if (sType.equals("CH")) data.strChannel = str;
       else fail("Keyword " + sType + " is not defined");
     }
     
@@ -144,6 +146,8 @@ public abstract class BaseParserTest {
     assertEquals(title + ":Src", data.strSource, info.getSource());
     assertEquals(title + ":Code", data.strCode, info.getCode());
     assertEquals(title + ":Name", data.strName, info.getName());
+    assertEquals(title + ":Pri", data.strPriority, info.getPriority());
+    assertEquals(title + ":Ch", data.strChannel, info.getChannel());
     
     assertEquals(title + ":DefCity", defCity, info.getDefCity());
     assertEquals(title + ":DefState", defState, info.getDefState());
@@ -167,6 +171,8 @@ public abstract class BaseParserTest {
     KEYWORD_MAP.put("SRC", "SRC");
     KEYWORD_MAP.put("CODE", "CODE");
     KEYWORD_MAP.put("NAME", "NAME");
+    KEYWORD_MAP.put("PRI", "PRI");
+    KEYWORD_MAP.put("CH", "CH");
   }
   
   /**
@@ -322,6 +328,8 @@ public abstract class BaseParserTest {
     if (sType.equals("SRC")) return info.getSource();
     if (sType.equals("CODE")) return info.getCode();
     if (sType.equals("NAME")) return info.getName();
+    if (sType.equals("PRI")) return info.getPriority();
+    if (sType.equals("CH")) return info.getChannel();
     else throw new RuntimeException("Keyword " + sType + " is not defined");
   }
   

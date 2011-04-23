@@ -450,6 +450,15 @@ public class FieldProgramParserTest extends BaseParserTest {
         "CALL:Fire",
         "ADDR:Block: Addr",
         "INFO:this is a test");
+    
+    doFieldTest("Skip normal tag step",
+        "Typ:CALL ADDR",
+        "BLACK DR");
+    
+    doFieldTest("Skip optional tag step",
+        "Typ:CALL? ADDR",
+        "BLACK DR",
+        "ADDR:BLACK DR");
   }
   
   @Test
