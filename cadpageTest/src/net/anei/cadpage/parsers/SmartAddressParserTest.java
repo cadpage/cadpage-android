@@ -30,6 +30,12 @@ public class SmartAddressParserTest extends BaseParserTest {
     parser = new TestParser(CITY_LIST, DEF_CITY, DEF_STATE);
     setParser(parser, DEF_CITY, DEF_STATE);
   }
+  
+  @Test
+  public void testProblem() {
+    doTest(CALL, "851 FENIMORE RD MAMARONECK_T: @WINGED FOOT COUNTRY CLUB",
+        "ADDR:851 FENIMORE RD");
+  }
 
   
   @Test

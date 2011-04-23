@@ -74,10 +74,9 @@ public class MDWashingtonCountyParserTest extends BaseParserTest {
         "21348 OLD FORGE RD, ST PETERS BEARD LUTHERAN CHURCH - AUTOMATIC FIRE ALARM - COMMERCIAL , IND - CO9 - 1106753 16:45",
         "ADDR:21348 OLD FORGE RD",
         "PLACE:ST PETERS BEARD LUTHERAN CHURCH",
-        "CALL:AUTOMATIC FIRE ALARM",
+        "CALL:AUTOMATIC FIRE ALARM - COMMERCIAL , IND",
         "UNIT:CO9",
-        "ID:1106753",
-        "INFO:COMMERCIAL , IND");
+        "ID:1106753");
 
     doTest("T9",
         "INTERSTATE 70, EXIT35 I70 EB - PIC, PERS INJURY COLLISION - CO16,CO10,R75,R79,E101,P791,P751,SUP160,DC10,RS10,E161,CA75 - 1106746 16:21",
@@ -117,9 +116,17 @@ public class MDWashingtonCountyParserTest extends BaseParserTest {
         "UNIT:CO7,R79,M791,SUP70,P792,C79,RSQE7",
         "ID:1106339");
     
+    doTest("T14",
+        "INTERSTATE 70, 32MM I70 AT REST AREA - ABDOMINAL PAIN - PROBLEMS - R75,R79,CO10 - 1106419 16:28\nDo Not REPLY to this email!!!",
+        "PLACE:32MM I70 AT REST AREA",
+        "ADDR:INTERSTATE 70",
+        "CALL:ABDOMINAL PAIN - PROBLEMS",
+        "UNIT:R75,R79,CO10",
+        "ID:1106419");
+    
   }
   
   public static void main(String[] args) {
-    new MDWashingtonCountyParserTest().generateTests("T1", "ADDR PLACE CITY ST CALL UNIT ID INFO");
+    new MDWashingtonCountyParserTest().generateTests("T1");
   }
 }

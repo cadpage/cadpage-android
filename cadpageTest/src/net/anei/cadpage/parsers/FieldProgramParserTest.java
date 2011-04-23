@@ -21,6 +21,15 @@ public class FieldProgramParserTest extends BaseParserTest {
   
   @Test
   public void testproblem() {
+    
+    doFieldTest("T1", "INFO+? UNIT END",
+        "X1",
+        "UNIT:X1");
+    
+    doFieldTest("T2", "INFO+? UNIT END",
+        "LINE1;LINE2;LINE3;X1",
+        "INFO:LINE1 / LINE2 / LINE3",
+        "UNIT:X1");
   }
   
   @Test
@@ -480,6 +489,19 @@ public class FieldProgramParserTest extends BaseParserTest {
     doFieldTest("XP", "ADDR/SXP!", "100 MAIN ST BIG JOHNS",
         "ADDR:100 MAIN ST",
         "PLACE:BIG JOHNS");
+  }
+  
+  @Test
+  public void testEndField() {
+    
+    doFieldTest("T1", "INFO+? UNIT END",
+        "X1",
+        "UNIT:X1");
+    
+    doFieldTest("T2", "INFO+? UNIT END",
+        "LINE1;LINE2;LINE3;X1",
+        "INFO:LINE1 / LINE2 / LINE3",
+        "UNIT:X1");
   }
   
   @Override
