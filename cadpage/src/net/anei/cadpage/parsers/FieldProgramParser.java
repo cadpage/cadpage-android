@@ -87,6 +87,8 @@ import net.anei.cadpage.SmsMsgInfo.Data;
  * ADDRCITY - Address and City field separated by a comma.  Can take all ofthe
  * special field qualifiers that an address field can.
  * 
+ * END - Does no processing, fails if not beyond the end of the data fields
+ * 
  *    
  * The ugly details on optional fields
  * 
@@ -868,8 +870,13 @@ public class FieldProgramParser extends SmartAddressParser {
       
       // Have we passed the end of the data stream
       if (ndx >= flds.length) {
+        
+        // Yep, if this is an END step, take the success link
+        if (field instanceof EndField) {
+          return succLink.exec(flds, ndx, data, this);
+        }
 
-        // Yep, if there is a failure link, execute it
+        // Otherwise, if there is a failure link, execute it
         if (failLink != null){
           return failLink.exec(flds, ndx, data, this);
         } 
@@ -987,14 +994,18 @@ public class FieldProgramParser extends SmartAddressParser {
       // see if this is a valid data field before parsing it.  if there is
       // not, it will not be given that option
       boolean success = true;
-      if (field != null) {
-        field.setFieldList(flds, ndx);
-        if (failLink != null) {
-          success = field.doCheckParse(curFld, data);
+      try {
+        if (field != null) {
+          field.setFieldList(flds, ndx);
+          if (failLink != null) {
+            success = field.doCheckParse(curFld, data);
+          }
+          else {
+            field.parse(curFld, data);
+          }
         }
-        else {
-          field.parse(curFld, data);
-        }
+      } catch (FieldProgramException ex) {
+        return false;
       }
       
       // Jump to the next step
@@ -1193,6 +1204,13 @@ public class FieldProgramParser extends SmartAddressParser {
       ndx += index;
       if (ndx < 0 || ndx >= fieldList.length) return "";
       return fieldList[ndx];
+    }
+    
+    /**
+     * Abort field program processing and return parse failure
+     */
+    protected void abort() {
+      throw new FieldProgramException();
     }
     
     /**
@@ -1662,6 +1680,27 @@ public class FieldProgramParser extends SmartAddressParser {
   }
   
   /**
+   * End field processor
+   * Does no field processing but can be tested.  Succeeds only if it working
+   * on a data a field beyond the limits of the field array
+   */
+  public class EndField extends SkipField {
+
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      
+      // If called normally, we always fail.  The success condition is
+      // detected by Step.process()
+      return false;
+    }
+  }
+  
+  /**
    * Look up the field processor associated with name
    * This should be overridden by classes that need some special field
    * processing
@@ -1691,10 +1730,14 @@ public class FieldProgramParser extends SmartAddressParser {
     if (name.equals("CH")) return new ChannelField();
     if (name.equals("SKIP")) return new SkipField();
     if (name.equals("INTLS")) return new InitialsField();
+    if (name.equals("END")) return new EndField();
     
     // TODO Add and END field processor that does nothing but can test for
     // the end of the data sequence
     
     throw new RuntimeException("Invalid field name: " + name);
   }
+  
+  @SuppressWarnings("serial")
+  private static class FieldProgramException extends RuntimeException {};
 }

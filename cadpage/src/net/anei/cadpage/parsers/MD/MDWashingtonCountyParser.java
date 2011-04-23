@@ -5,7 +5,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.SmsMsgInfo.Data;
-import net.anei.cadpage.parsers.SmsMsgParser;
+import net.anei.cadpage.parsers.FieldProgramParser;
 
 /*
 Washington County, MD
@@ -28,10 +28,25 @@ INTERSTATE 70, EXIT35 I70 EB - PIC, PERS INJURY COLLISION - CO16,CO10,R75,R79,E1
 20354 LEITERSBURG PIKE, PEN MAR TRAILER SALES INC - NAT GAS ODOR - CO9 - 1106635 00:13
 LEITERSBURG PIKE / MILLERS CHURCH RD - PIC, PERS INJURY COLLISION - CO9,R75,P753,R79 - 1106553 22:22
 MAPLEVILLE RD / JEFFERSON BLVD - PIC, PERS INJURY COLLISION - CO7,R79,M791,SUP70,P792,C79,RSQE7 - 1106339 12:40
+INTERSTATE 70, 32MM I70 AT REST AREA - ABDOMINAL PAIN - PROBLEMS - R75,R79,CO10 - 1106419 16:28\nDo Not REPLY to this email!!!
 
 */
 
-public class MDWashingtonCountyParser extends SmsMsgParser {
+public class MDWashingtonCountyParser extends FieldProgramParser {
+  
+  private static final String[] CITY_LIST = new String[]{
+    "HAGERSTOWN",
+    "BOONSBORO",
+    "CLEAR SPRING",
+    "FUNKSTOWN",
+    "HANCOCK",
+    "KEEDYSVILLE",
+    "SHARPSBURG",
+    "SMITHSBURG",
+    "WILLIAMSPORT",
+    
+    "THURMONT"
+  };
   
   private static final Pattern DELIM = Pattern.compile(" *(?<= )- +");
   private static final Pattern TRAILER = Pattern.compile("(?:(.+) )?(\\d{7}) \\d\\d:\\d\\d(?: (.*))?");
@@ -48,7 +63,8 @@ public class MDWashingtonCountyParser extends SmsMsgParser {
   });
  
   public MDWashingtonCountyParser() {
-    super("WASHINGTON COUNTY", "MD");
+    super(CITY_LIST, "WASHINGTON COUNTY", "MD",
+        "ADDR CITY? CALL! CALL+? UNIT TRAIL! END");
   }
   
   @Override
@@ -63,55 +79,70 @@ public class MDWashingtonCountyParser extends SmsMsgParser {
     int pt = body.indexOf('\n');
     if (pt >= 0) body = body.substring(0,pt).trim();
     
-    // Split body into fields separated by  - 
-    String[] flds = DELIM.split(body);
-    if (flds.length < 4) return false;
-    if (flds.length > 6) return false;
-    
-    // Last field should contain call ID, time, and optional extra info
-    String field = flds[flds.length-1];
-    Matcher match = TRAILER.matcher(field);
-    if (!match.matches()) return false;
-    data.strCallId = match.group(2);
-    data.strSupp = append(n2e(match.group(1)), " / ", n2e(match.group(3)));
-    if (data.strSupp == null) data.strSupp = "";
-    
-    // First field contains option M/A county, address and optional place name
-    Parser p = new Parser(flds[0]);
-    String maCounty = p.getOptional(" CO, ");
-    if (maCounty.length() > 0) {
-      maCounty = COUNTY_CODES.getProperty(maCounty, maCounty);
-      pt = maCounty.indexOf(',');
-      if (pt >= 0) {
-        data.strState = maCounty.substring(pt+1);
-        maCounty = maCounty.substring(0,pt);
-      }
-      data.strCity = maCounty;
-    }
-    parseAddress(p.get(','), data);
-    data.strPlace = p.get();
-    
-    // Next to last field is always unit
-    data.strUnit = flds[flds.length-2];
-    
-    // Now things get complicated.  The call description is the 2nd field, unless
-    // we have a total of 6 fields in which case it is a city associated with an MA county
-    int callNdx = 1;
-    if (flds.length == 6) {
-      callNdx = 2;
-      data.strCity = flds[1];
-    }
-    data.strCall = flds[callNdx];
-    
-    // If we had 5 or 6 fields, the field behind the call description is more
-    // supplemental info
-    if (callNdx+1 < flds.length-2) {
-      data.strSupp = append(data.strSupp, " / ", flds[callNdx+1]);
-    }
-    return true;
+    // Split body into fields separated by  -
+    return parseFields(DELIM.split(body), data);
   }
   
-  private static String n2e(String str) {
-    return str == null ? "" : str;
+  private class MyAddressField extends AddressField {
+    
+    @Override
+    public void parse(String field, Data data) {
+      
+      // First field contains option M/A county, address and optional place name
+      Parser p = new Parser(field);
+      String maCounty = p.getOptional(" CO, ");
+      if (maCounty.length() > 0) {
+        maCounty = COUNTY_CODES.getProperty(maCounty, maCounty);
+        int pt = maCounty.indexOf(',');
+        if (pt >= 0) {
+          data.strState = maCounty.substring(pt+1);
+          maCounty = maCounty.substring(0,pt);
+        }
+        data.strCity = maCounty;
+      }
+      super.parse(p.get(','), data);
+      data.strPlace = p.get();
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "ADDR PLACE CITY ST";
+    }
+  }
+  
+  private class MyCallField extends CallField {
+    @Override
+    public void parse(String field, Data data) {
+      data.strCall = append(data.strCall, " - ", field);
+    }
+  }
+  
+  private class TrailField extends Field {
+
+    @Override
+    public void parse(String field, Data data) {
+      Matcher match = TRAILER.matcher(field);
+      if (!match.matches()) abort();
+      data.strCallId = match.group(2);
+      data.strSupp = append(n2e(match.group(1)), " / ", n2e(match.group(3)));
+      if (data.strSupp == null) data.strSupp = "";
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "ID INFO";
+    }
+    
+    private String n2e(String str) {
+      return str == null ? "" : str;
+    }
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("CALL")) return new MyCallField();
+    if (name.equals("TRAIL")) return new TrailField();
+    return super.getField(name);
   }
 }

@@ -1597,6 +1597,13 @@ QUEENS, NY -NYC- MVA GCP @ JEWEL AVE. MVA CAUSING DELAYS. USE CAUTION. MA570
 BROOKLYN, NY -NYC- SEXUAL ASSAULT E 95 ST & WILLMOHR ST. -67 PCT-. 1 YOUNG MALE VIC. PERP IS A BM KNOWN TO VIC. MA570
 UD COPIAGUE, NY -SUFFOLK- BANK ROBBERY 314 GREAT NECK RD - POLISH & SLAVIC FEDERAL CREDIT UNION. PERP LSW GREY APPAREL. REQ K9 & SQUAD. NY3170
 
+Contact: Louis Sabatino <lousab1@optonline.net>
+Sender: dispatch@firetracker.net
+(FirePage) FSMFD 4/22/2011 TOA:20:47 AMBU [AMBU] 178 RINTIN ST BENRIS AVE ARM\nINJURY [FireTracker]
+
+Contact: "mjty2j@aol.com" <mjty2j@aol.com>
+Sender: ispatch@firetracker.net
+(** TEST ALARM ** DO NOT RESPOND **) FSMFD 8/22/04 TOA:19:25 RESCUE   [AMBU] 292 HERRICKS ROAD CLARISSA ROAD 48 Y/O LOW BP DIFF BREATHING
 **********************************************************
 Hudson, OH
 Contact: "Graham, Bruce" <BGraham@hudson.oh.us>
@@ -1670,14 +1677,20 @@ Contact: Dennis Whittam <dwhittam@gmail.com>
 Sender: frespage@suffolkcountyny.gov
 Kings Park - Structure Fire - 60 Orchid Dr - 3 FD mutuals - FRES4
 **********************************************************
+Unknown (General doesn't work)
+Contact: Steve Weinert <sweinert23@gmail.com>
+Sender: alerts@wensnetwork.com
+101,Cleve-Mass Rd (N),BROOKDALE SENIOR LIVING,Akron17,FALLS DISP, 12S4, 1221 ROOM 107 HEAD INJ FROM FALL ProQA - 96 year old, Male, Cons
+1869,Four Seasons Dr,,Akron 19,HEART PROBLEMS ST1, 12S3, 12S2, 1212 ProQA - 52 year old, Male, Conscious, Breathing. Heart Problems / A.
+292,Lake Point Dr,,Akron 31,UNCONSCIOUS / FAINTING DISP, 12S3, 1221 ProQA - 83 year old, Male, Unconscious, Breathing. Unconscious / Fai
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
 **********************************************************
 **********************************************************
 ************  READY TO ROLL ******************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
 **********************************************************
 **********************************************************
 
