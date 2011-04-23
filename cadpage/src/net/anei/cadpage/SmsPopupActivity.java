@@ -423,6 +423,11 @@ public class SmsPopupActivity extends Activity {
     StringBuilder sb = new StringBuilder();
     sb.append(info.getCode());
     if (sb.length() > 0) sb.append(" - ");
+    if (info.getPriority().length() > 0) {
+      sb.append(" P:");
+      sb.append(info.getPriority());
+      sb.append(' ');
+    }
     sb.append(info.getCall());
     fromTV.setText(sb.toString());
     if (message.getMessageType() == SmsMmsMessage.MESSAGE_TYPE_SMS) {
@@ -474,6 +479,10 @@ public class SmsPopupActivity extends Activity {
       if (info.getUnit().length() > 0) {
         sb.append("\nUnits: ");
         sb.append(info.getUnit());
+      }
+      if (info.getChannel().length() > 0) {
+        sb.append("\nChannel: ");
+        sb.append(info.getChannel());
       }
       if (info.getCallId().length() >0) {
         sb.append("\nCID:");

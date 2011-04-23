@@ -124,6 +124,13 @@ import net.anei.cadpage.SmsMsgInfo.Data;
  * a colon.  A tagged field term will only match a data field that starts with
  * that tag name and a colon.  Tagged and positional (untagged) fields can 
  * be intermixed.
+ * 
+ * A keyword tagged field can be declared optional, which determines what happens
+ * when no matching data field is found.  Normal behavior is to assume that
+ * the tagged data field exists somewhere beyond the end of the field and pretty
+ * much terminates field processing.  The the tagged field is declared optional
+ * with a ? qualifier and no matching data field is found, the tagged field is
+ * simply ignored and processing picks up with the next field.
  */
 
 public class FieldProgramParser extends SmartAddressParser {
@@ -192,7 +199,7 @@ public class FieldProgramParser extends SmartAddressParser {
     
     // Construct a head link and tail node and compile the tokens between them
     this.startLink = new StepLink(0);
-    Step tail = new Step(null, null, null);
+    Step tail = new Step(null, null, null, false);
     compile(this.startLink, program, tail, null);
     
     // Now that we no longer need it, reduce the tail node
@@ -246,7 +253,7 @@ public class FieldProgramParser extends SmartAddressParser {
         field.setQual(info.qual);
         field.setTrigger(info.trigger);
       }
-      fieldSteps[ndx] = new Step(info.tag, field, info.required);
+      fieldSteps[ndx] = new Step(info.tag, field, info.required, info.optional);
     }
 
     // Initialize stuff, and link the heading link to the first step
@@ -407,7 +414,7 @@ public class FieldProgramParser extends SmartAddressParser {
         
         // If optional flag is set as well as repeat flag, we have some other
         // weirdness
-        if (info.optional) {
+        if (info.tag == null && info.optional) {
           
           // If the step can detect failures, we can set the failure branch
           // to the next step, processing the same field there
@@ -426,7 +433,7 @@ public class FieldProgramParser extends SmartAddressParser {
       }
       
       // Next thing to check is a optional flag without the repeat flag
-      else if (info.optional) {
+      else if (info.tag == null && info.optional) {
         
         // In any case, logic from from this step goes to the next step
         step.getSuccLink().setLink(next);
@@ -657,7 +664,7 @@ public class FieldProgramParser extends SmartAddressParser {
       }
       
       // Check for optional [?] indicator
-      if (tag == null && chr == '?') {
+      if (chr == '?') {
         optional = true;
         if (pt >= len) return;
         trigger = fieldTerm.charAt(pt++);
@@ -698,6 +705,7 @@ public class FieldProgramParser extends SmartAddressParser {
     
     private String tag;
     private EReqStatus required;
+    private boolean optional;
     
     private Field field;
     private StepLink succLink = new StepLink(1);
@@ -711,13 +719,16 @@ public class FieldProgramParser extends SmartAddressParser {
     
     /**
      * Constructor
+     * @param tag field tag
      * @param field Field processed by this step (can be null)
-     * @param required true if this is a required step
+     * @param required required status
+     * @param optional optional flag setting
      */
-    public Step(String tag, Field field, EReqStatus required) {
+    public Step(String tag, Field field, EReqStatus required, boolean optional) {
       this.tag = tag;
       this.field = field;
       this.required = required;
+      this.optional = (tag != null) && optional;
       
       if (tag != null) parseTags = true;
     }
@@ -787,7 +798,7 @@ public class FieldProgramParser extends SmartAddressParser {
      * @return a clone of the current step
      */
     public Step cloneStep() {
-      Step newStep = new Step(tag, field, required);
+      Step newStep = new Step(tag, field, required, optional);
       newStep.nextStep = nextStep;
       return newStep;
     }
@@ -875,10 +886,13 @@ public class FieldProgramParser extends SmartAddressParser {
       Step procStep = this;
       String curFld = flds[ndx].trim();
       if (parseTags) {
+        Step startStep = this;
+        int startNdx = ndx;
         while (true) {
           
           // See if data field is tagged
           // if it is extract the tag and adjust the current field value
+          procStep = startStep;
           String curTag = null;
           String curVal = null;
           int pt = curFld.indexOf(':');
@@ -891,6 +905,7 @@ public class FieldProgramParser extends SmartAddressParser {
           // a matching tag
           if (curTag != null) {
             boolean skipReq = false;
+            procStep = startStep;
             while (procStep != null && !curTag.equals(procStep.tag)) {
               if (procStep.required == EReqStatus.REQUIRED) skipReq = true;;
               procStep = procStep.nextStep;
@@ -900,7 +915,7 @@ public class FieldProgramParser extends SmartAddressParser {
             // this is an incidental colon and process the step normally
             // Otherwise skip over this data field and go on to the next one
             if (procStep == null) {
-              procStep = this;
+              procStep = startStep;
               if (procStep.tag == null) break;
               if (++ndx >= flds.length) return checkFailure(data);
               curFld = flds[ndx].trim();
@@ -928,17 +943,36 @@ public class FieldProgramParser extends SmartAddressParser {
             }
           }
           
-          // if the current step is also untagged, process it normally
-          if (tag == null) break;
+          // if the current start step is also untagged, process it normally
+          if (startStep.tag == null) break;
           
           // If the current step is tagged, untagged data fields will usually be 
-          // ignored until we come to a tagged step.  An exception is made if
+          // ignored until we come to the tagged step.  An exception is made if
           // the current step tag matches the previous step tag, in which case it
-          // is assumed taht the untagged data field inherits the tag from a
+          // is assumed that the untagged data field inherits the tag from a
           // previous data field.
-          if (lastStep != null && tag.equals(lastStep.tag)) break;
-          procStep = this;
-          if (++ndx >= flds.length) return checkFailure(data);
+          if (lastStep != null && startStep.tag.equals(lastStep.tag)) break;
+          if (++ndx >= flds.length) {
+            
+            // There is no data field matching this steps tag
+            // If the tagged field is not flagged as optional then the assumption
+            // is that there is a matching tagged field beyond the end of this
+            // this text.  Which means we have reached the end of text processing
+            // and need only check if there are any required fields we haven't
+            // encountered
+            if (!optional) return checkFailure(data);
+            
+            // Otherwise, the assumption is that there is no matching
+            // tagged field.  So we start the whole process all over again
+            // with the next step in the chain
+            ndx = startNdx;
+            lastStep = startStep;
+            startStep = startStep.nextStep;
+            
+            // If this hits the end of the chain, make sure we didn't skip
+            // any required fields
+            if (startStep == null) return checkFailure(data);
+          }
           curFld = flds[ndx].trim();
           continue;
         }
@@ -1577,6 +1611,28 @@ public class FieldProgramParser extends SmartAddressParser {
       data.strName = field;
     }
   }
+
+  /**
+   * Priority field processor
+   */
+  public class PriorityField extends Field {
+
+    @Override
+    public void parse(String field, Data data) {
+      data.strPriority = field;
+    }
+  }
+
+  /**
+   * Name field processor
+   */
+  public class ChannelField extends Field {
+
+    @Override
+    public void parse(String field, Data data) {
+      data.strChannel = field;
+    }
+  }
   
   /**
    * Skip field processor
@@ -1631,6 +1687,8 @@ public class FieldProgramParser extends SmartAddressParser {
     if (name.equals("SRC")) return new SourceField();
     if (name.equals("CODE")) return new CodeField();
     if (name.equals("NAME")) return new NameField();
+    if (name.equals("PRI")) return new PriorityField();
+    if (name.equals("CH")) return new ChannelField();
     if (name.equals("SKIP")) return new SkipField();
     if (name.equals("INTLS")) return new InitialsField();
     

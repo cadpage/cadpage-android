@@ -44,6 +44,10 @@ public class BroadcastBindings {
   // (string) state associated with location parser
   public static final String EXTRA_LOC_STATE =          PREFIX + "EXTRA_LOC_STATE";
   
+  // (boolean) flag indicating Cadpage is not taking any user visible action in response
+  // to an incoming CAD page
+  public static final String EXTRA_QUIET_MODE =         PREFIX + "EXTRA_QUIET_MODE";
+  
   // Everything else is information that has been parsed from the text message
   // These will not always be present
   
@@ -98,8 +102,10 @@ public class BroadcastBindings {
   // (string) caller phone number
   public static final String EXTRA_PARSE_PHONE =        PREFIX + "EXTRA_PARSE_PHONE";
   
-  // (boolean) flag indicating Cadpage is not taking any user visible action in response
-  // to an incoming CAD page
-  public static final String EXTRA_QUIET_MODE =         PREFIX + "EXTRA_QUIET_MODE";
+  // (string) call priority
+  public static final String EXTRA_PARSE_PRIORITY =     PREFIX + "EXTRA_PARSE_PRIORITY";
+  
+  // (string) radio channel
+  public static final String EXTRA_PARSE_CHANNEL =      PREFIX + "EXTRA_PARSE_CHANNEL";
 
 }

@@ -778,6 +778,8 @@ public class SmsMmsMessage implements Serializable {
       putExtraString(intent, EXTRA_PARSE_CALL_ID, info.getCallId());
       putExtraString(intent, EXTRA_PARSE_NAME, info.getName());
       putExtraString(intent, EXTRA_PARSE_PHONE, info.getPhone());
+      putExtraString(intent, EXTRA_PARSE_PRIORITY, info.getPriority());
+      putExtraString(intent, EXTRA_PARSE_CHANNEL, info.getChannel());
     }
     
     

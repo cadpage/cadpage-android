@@ -27,6 +27,8 @@ public class SmsMsgInfo {
   private String strCode;
   private String strSource;
   private String strName;
+  private String strPriority;
+  private String strChannel;
   private String defCity;
   private String defState;
   
@@ -60,6 +62,8 @@ public class SmsMsgInfo {
     public String strCode="";
     public String strSource = "";
     public String strName = "";
+    public String strPriority = "";
+    public String strChannel = "";
     public String defCity = "";
     public String defState="";
     
@@ -111,6 +115,8 @@ public class SmsMsgInfo {
     strCode = info.strCode;
     strSource = info.strSource;
     strName = info.strName;
+    strPriority = info.strPriority;
+    strChannel = info.strChannel;
     defCity = info.defCity;
     defState = info.defState;
     expectMore = info.expectMore;
@@ -430,6 +436,20 @@ public class SmsMsgInfo {
     return strName;
   }
   
+  /**
+   * @return call priority
+   */
+  public String getPriority() {
+    return strPriority;
+  }
+  
+  /**
+   * @return radio channel
+   */
+  public String getChannel() {
+    return strChannel;
+  }
+  
   
   /**
    * @return the default city 
@@ -476,6 +496,10 @@ public class SmsMsgInfo {
     addInfo(sb, "Ph", strPhone);
     addInfo(sb, "Info", strSupp);
     addInfo(sb, "Code", strCode);
+    addInfo(sb, "Src", strSource);
+    addInfo(sb, "Name", "strName");
+    addInfo(sb, "Pri",  strPriority);
+    addInfo(sb, "Ch", strChannel);
   }
   
   private void addInfo(StringBuilder sb, String title, String value) {
