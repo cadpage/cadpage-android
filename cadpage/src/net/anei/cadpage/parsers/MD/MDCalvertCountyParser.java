@@ -26,6 +26,9 @@ Contact: Marcus Richman <richmanmh@gmail.com>
 Contact: Kevin Harness <kay.kh32@gmail.com>
 (Dispatch Info) M Priority 1 Medical E33 A38 SMA796 M105  11:20 04/18/11 Box 302 1105 BACK CREEK LOOP SOLOMONS
 
+Contact: Steve Nero <steve21800@gmail.com>
+(Dispatch Info) M Priority 3 Medical A37  16:52 04/24/11 Box 302 11740 ASBURY CIR SOLOMONS ASBURY APTS-SOUT
+
 */
 
 public class MDCalvertCountyParser extends SmartAddressParser {
@@ -72,7 +75,8 @@ public class MDCalvertCountyParser extends SmartAddressParser {
       data.strBox = p.get(' ');
       strAddress = p.get();
     }
-    parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END, strAddress, data);
+    parseAddress(StartType.START_ADDR, strAddress, data);
+    data.strPlace = getLeft();
     
     if (foundID) {
       data.strCallId = idMatch.group();

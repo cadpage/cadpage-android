@@ -7,11 +7,11 @@ import net.anei.cadpage.parsers.SmartAddressParser;
 
 /***
 **********************************************************
-Emmitsburg, MD (Northern Federick County)
+Frederick County, MD
 Contact: dalefogle@aol.com
 Contact: Dale Fogle <pullersnet@gmail.com>
 Contact: Brian Kelch <flamekiller20@gmail.com>
-Sender:  www.codemessaging.net
+Sender:  www.codemessaging.net,CAD@psb.net
  
 (CAD) [FredCo] CT: HOUSE / FIRE-VISIBLE 6801 HARBAUGH RD CSAB:NEXT TO HER HOME ESZ: 626 MAP: 3996A6 Disp: [23]
 (CAD) [FredCo] CT: WOODS FIRE 7819-B FRIENDS CREEK RD CEMB ESZ: 627 MAP: 3996F6 Disp: E63,B66,DNR [36]
