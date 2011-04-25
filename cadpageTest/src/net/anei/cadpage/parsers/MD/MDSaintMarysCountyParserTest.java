@@ -326,7 +326,16 @@ public class MDSaintMarysCountyParserTest extends BaseParserTest {
          "CITY:LEXINGTON PARK",
          "UNIT:CO3",
          "INFO:TREE IN THE POWER LINES/LINES ARE SPARKING/LEANING ON HOUSE");
-         
+
+     doTest("T37",
+         "((64277) CAD ) 09:48:02*Commercial Fire Alarm*ESPERANZA MIDDLE SCHOOL*22790 MAPLE RD*THREE NOTCH RD*TOWN CREEK*CO9 CO3 TWR9*gen alarm*",
+         "CALL:Commercial Fire Alarm",
+         "PLACE:ESPERANZA MIDDLE SCHOOL",
+         "ADDR:22790 MAPLE RD",
+         "X:THREE NOTCH RD / TOWN CREEK",
+         "CITY:CO9 CO3 TWR9",
+         "UNIT:gen alarm");
+        
   }
   
   public static void main(String[] args) {

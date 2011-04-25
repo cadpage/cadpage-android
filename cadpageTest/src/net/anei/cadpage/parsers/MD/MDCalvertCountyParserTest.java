@@ -93,9 +93,18 @@ public class MDCalvertCountyParserTest extends BaseParserTest {
         "BOX:302",
         "ADDR:1105 BACK CREEK LOOP",
         "CITY:SOLOMONS");
+
+    doTest("T10",
+        "(Dispatch Info) M Priority 3 Medical A37  16:52 04/24/11 Box 302 11740 ASBURY CIR SOLOMONS ASBURY APTS-SOUT",
+        "CALL:M Priority 3 Medical",
+        "UNIT:A37",
+        "BOX:302",
+        "ADDR:11740 ASBURY CIR",
+        "CITY:SOLOMONS",
+        "PLACE:ASBURY APTS-SOUT");
   }
   
   public static void main(String[] args) {
-    new MDCalvertCountyParserTest().generateTests("T9", "CALL UNIT BOX ADDR CITY ID INFO");
+    new MDCalvertCountyParserTest().generateTests("T11", "CALL UNIT BOX ADDR PLACE CITY ID INFO");
   }
 }
