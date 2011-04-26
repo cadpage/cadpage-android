@@ -332,13 +332,22 @@ public class MDSaintMarysCountyParserTest extends BaseParserTest {
          "CALL:Commercial Fire Alarm",
          "PLACE:ESPERANZA MIDDLE SCHOOL",
          "ADDR:22790 MAPLE RD",
-         "X:THREE NOTCH RD / TOWN CREEK",
-         "CITY:CO9 CO3 TWR9",
-         "UNIT:gen alarm");
+         "X:THREE NOTCH RD",
+         "CITY:TOWN CREEK",
+         "UNIT:CO9 CO3 TWR9",
+         "INFO:gen alarm");
         
+     doTest("T38",
+         "((10171) CAD ) 14:06:23*OUTSIDE FIRE*44761 KING WY*SURREY WY*WILDEWOOD*CO9*Using ProQA Fire*",
+         "CALL:OUTSIDE FIRE",
+         "ADDR:44761 KING WY",
+         "X:SURREY WY",
+         "CITY:WILDEWOOD",
+         "UNIT:CO9",
+         "INFO:Using ProQA Fire");
   }
   
   public static void main(String[] args) {
-    new MDSaintMarysCountyParserTest().generateTests("T37", "CALL PLACE ADDR APT X CITY UNIT INFO");
+    new MDSaintMarysCountyParserTest().generateTests("T39", "CALL PLACE ADDR APT X CITY UNIT INFO");
   }
 }

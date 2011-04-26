@@ -54,6 +54,18 @@ public class NYGreeneCountyParserTest extends BaseParserTest {
         "CITY:CATSKILL",
         "NAME:LAIRD, JACQUELYNN",
         "ID:2010-0000034875");
+
+    doTest("T6",
+        "GREENE 911:ALARMF>FIRE ALARM 341 W MAIN ST CATSKILL VILLAGE #401 Map: Grids:, Cad: 2011-0000011139",
+        "CALL:FIRE ALARM",
+        "ADDR:341 W MAIN ST",
+        "CITY:CATSKILL",
+        "NAME:VILLAGE #401",
+        "ID:2011-0000011139");
     
+  }
+  
+  public static void main(String[] args) {
+    new NYGreeneCountyParserTest().generateTests("T6", "CALL ADDR CITY NAME MAP ID");
   }
 }
