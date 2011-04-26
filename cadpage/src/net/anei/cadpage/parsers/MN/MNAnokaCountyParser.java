@@ -26,6 +26,10 @@ CAD MSG: *D A2   50       DAKOTAH ST NW / VALLEY DR NW  LARGE FIRE BEHIND A HOUS
 Unknown
 Contact: Mike Christian <lfdmikec@gmail.com>, 16512789021@tmomail.net
 cad.cad@co.Anoka.mn.us / / CAD MSG: *D S1 39F 7783 233 LN NE GEN SMOKE/FIRE ALRM.. INC:11001880
+
+Contact: "Mike/Jenni Dahlin" <mike.jenni.dahlin@gmail.com>
+CAD MSG: *D D4   32M      3254 90 LN NE  LIFT ASSIST ONLY...LARGE MALE (300+) INC:11007548\n
+
 */
 
 public class MNAnokaCountyParser extends SmartAddressParser {
