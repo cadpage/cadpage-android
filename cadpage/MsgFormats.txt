@@ -1693,7 +1693,22 @@ Stone County, MO
 Contact: Ryan Joy <crazyrockj@gmail.com>
 911-CENTER:FMA MUTUAL AID/ASSIST OUTSIDE AGEN 214 E 5TH ST 4175270913 S MAPLE ST MUTUAL AID ASSIST OUTSIDE AGENCY
 **********************************************************
+Kannapolis, NC ?
+Contact: Jared Gibson <jaredgibson82@gmail.com>
+196:CAD:1;SUICIDE THREAT- NO ATTEMPT;701 RAINBOW DR;K202;LEISURE PARK CIR;LEISURE PARK CIR;** Transfer from CSO ** CSO received: 04/25/2011 18:05:34 Source:
 **********************************************************
+BNN Alerts
+Contact: Louis Sabatino <lousab1@optonline.net>
+Sender: bnnfeed ??
+Hold transport mechansim limited to IM 
+bnnfeed:NY| Nassau| Westbury| *Overturned Auto*| Northern State Pkwy & Brush Hollow Rd| NCPD on scene checking on injury| <C> BNN | BNNDESK | #382673 04/23/2011 17:50:31
+bnnfeed:NY| Nassau| Matinecock| *Car Vs Building*| Chicken Valley Rd & Valley Rd| FD on scene with a vehicle vs bldg, EMS to transport aided.| <C> BNN | BNNDESK | #382853 04/24/2011 08:29:55
+bnnfeed:NY| Nassau| North Merrick| *Mva / Entrapment*| Southern State Pkwy & Meadowbrook State Pkwy| Several calls to NYC and Nassau County reporting an overturned auto with a person trapped, hurst tool requested.| <C> BNN | BNNDESK/NYL057/NYL289/NYL4871/NYL103 | #382860 04/24/2011 10:03:38
+bnnfeed:NY| Nassau| East Meadow| *Near Drowning*| Hempstead Turnpike & Park Blvd| EMS on scene with victim of near drowning.| <C> BNN | BNNDESK/NYL103/NYL4871 | #382862 04/24/2011 10:19:13
+bnnfeed:U/D NY| Suffolk| Brentwood| *Explosion*| 43 4th St| CMD adv pri srches in original structure are negative. awaiting collapse unit to shore up to conduct addt'l srches. addt'l M/A from commack for cameras & listening devices to the scene. numerous roadways closed for long duration of time. extended ops| <C> BNN | NYL690//NYL728/NYL026/NYL4219 | #382871 04/24/2011 11:24:42
+bnnfeed:U/D NY| Suffolk| Brentwood| *Explosion*| 43 4th St| Explosions was felt miles away| <C> BNN | BNNDESK/NYL727/NYL4219/NYL690 | #382871 04/24/2011 11:03:50
+bnnfeed:U/D NY| Suffolk| Brentwood| *Explosion*| 43 4th St| CMD adv EMS transporting (1) to ssh w/ unspecified inj's. Rptd to be a neighbor. Also req radio silence to conduct a sound survey for vics in the original house. Crews in bsmt w/ thermal imaging cameras checking for any vics. M/A from islip for the collapse trailer & w. Islip to the scene| <C> BNN | NYL690//NYL727/NYL026/NYL4219 | #382871 04/24/2011 11:11:26
+bnnfeed:U/D NY| Suffolk| Brentwood| *Explosion*| 43 4th St| CMD adv pri srches in original structure are negative. awaiting collapse unit to shore up to conduct addt'l srches. addt'l M/A from commack for cameras & listening devices to the scene. numerous roadways closed for long duration of time. extended ops| <C> BNN | NYL690//NYL728/NYL026/NYL4219 | #382871 04/24/2011 11:24:42
 **********************************************************
 **********************************************************
 **********************************************************
