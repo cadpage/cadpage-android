@@ -72,6 +72,17 @@ public class MNAnokaCountyParserTest extends BaseParserTest {
         "ADDR:14015 DRAKE ST NW",
         "INFO:POSS FIRE IN THE WALL...LOTS OF SMOKE FROM THE BASEMENT...EVERYONE ISOUT",
         "ID:10019127");
+
+    doTest("T9",
+        "CAD MSG: *D D4   32M      3254 90 LN NE  LIFT ASSIST ONLY...LARGE MALE (300+) INC:11007548\n",
+        "CALL:*D D4   32M",
+        "ADDR:3254 90 LN",
+        "INFO:NE  LIFT ASSIST ONLYLARGE MALE (300+)",
+        "ID:11007548");
         
+  }
+  
+  public static void main(String[] args) {
+    new MNAnokaCountyParserTest().generateTests("T9", "CALL ADDR PLACE INFO ID");
   }
 }

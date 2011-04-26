@@ -15,78 +15,90 @@ public class NJBurlingtonCountyParserTest extends BaseParserTest {
   public void testParser() {
 
     doTest("T1",
-        ".... (Station 171) : 129F E Mva/Fire             Priority: 1  : RT206                                              Venue: Southamptn    Cross Street . : CARRANZA RD Call Time- 16:56:48                                : 1721 : (609) 668-8686                Caller : CHARITA.THOMAS Nature of Call : MVA UNK INJS/FIRE IN VEH Additional Info    WPH1:  RADIUS 02 MILES Additional Inc#s",
+        ".... (Station 171) : 1  \n: 10 WINDING WY                                        Venue: Southamptn  \nLocated Between  : PHEASANT CL/DEAD END \n\nCall Time- 19:13:51                                : 1711 \n\n: (856) 287-8607                Caller : VERIZON WIRELESS \n\nNature of Call : MALE UNCONSCIOUS POSS OVERDOSE \n\nAdditional Info  \n  WPH2:  RADIUS 02 MILES",
         "SRC:Station 171",
-        "CALL:129F E Mva/Fire",
-        "ADDR:RT206 & CARRANZA RD",
+        "PRI:1",
+        "ADDR:10 WINDING WY",
         "CITY:Southampton",
-        "ID:1721",
-        "PHONE:(609) 668-8686",
-        "NAME:CHARITA.THOMAS",
-        "INFO:MVA UNK INJS/FIRE IN VEH\nWPH1:  RADIUS 02 MILES");
+        "X:PHEASANT CL/DEAD END",
+        "ID:1711",
+        "PHONE:(856) 287-8607",
+        "NAME:VERIZON WIRELESS",
+        "INFO:MALE UNCONSCIOUS POSS OVERDOSE / WPH2: RADIUS 02 MILES");
 
     doTest("T2",
-        ".... (Station 171) :   11 F StrctrFire           Priority: 1  : 4209 RT563                                 Venue: Woodland  Located Between  : RT532/S OOY PLACE RD Call Time- 19:30:14                                : 2911 : (609) 848-4053                Caller : RODNEY CONCILMAN  Complaintant: 4211 RT563 Nature of Call : FLAMES COMING OUT OF THE CHIMNEY// Additional Inc#s",
+        ".... (Station 171) : 1  \n: STOCKTONS BRIDGE RD                                  Venue: Pembtn Twp  \n  Cross Street . : SIMONTOWN RD \n\nCall Time- 19:47:43                                : 1822 \n\n: (000) 000-0000                Caller : KGB CARRIER \n\nNature of Call : TRAILER FIRE \n\n  \nF1911 RSPNDING/COLUMN IN SIGHT                               19:50:52 \n\nAdditional Inc#s",
         "SRC:Station 171",
-        "CALL:11 F StrctrFire",
-        "ADDR:4209 RT563",
-        "CITY:Woodland",
-        "X:RT532/S OOY PLACE RD",
-        "ID:2911",
-        "PHONE:(609) 848-4053",
-        "NAME:RODNEY CONCILMAN",
-        "INFO:FLAMES COMING OUT OF THE CHIMNEY//");
+        "PRI:1",
+        "ADDR:STOCKTONS BRIDGE RD & SIMONTOWN RD",
+        "CITY:Pemberton Twp",
+        "ID:1822",
+        "PHONE:(000) 000-0000",
+        "NAME:KGB CARRIER",
+        "INFO:TRAILER FIRE / F1911 RSPNDING/COLUMN IN SIGHT 19:50:52");
 
     doTest("T3",
-        ".... (Station 171) :  EMS E EMS Call             Priority: 1  : 1883 RT38                                          Venue: Southamptn  Located Between  : SMITHVILLE RD/RT206   : DIAMOND M LUMBER Call Time- 09:35:44                      : 1711: (609) 261-2701                Caller : NJSP Nature of Call : MVA / RQST EMS",
+        ".... (Station 171) : 1  \n: 6 PLEASANT ST                                        Venue: Southamptn  \nLocated Between  : MAIN ST/CHURCH ST \n\nCall Time- 13:27:39                                : 1700 \n\n: (609) 859-2302                Caller : RICHARD E FRANTZMAN \n\nNature of Call : MVA//VEH HIT THE HOUSE \n\nAdditional Info \n  RESD: \n\nAdditional Inc#s \n  RESD:  \n  VEHICLE TRYING TO LEAVE SCENE / NO REPORTED INJURIES \n\nAdditional Inc#s",
         "SRC:Station 171",
-        "CALL:EMS E EMS Call",
-        "ADDR:1883 RT38",
+        "PRI:1",
+        "ADDR:6 PLEASANT ST",
         "CITY:Southampton",
-        "X:SMITHVILLE RD/RT206",
-        "PLACE:DIAMOND M LUMBER",
-        "PHONE:1711: (609) 261-2701",
-        "NAME:NJSP",
-        "INFO:MVA / RQST EMS");
+        "X:MAIN ST/CHURCH ST",
+        "ID:1700",
+        "PHONE:(609) 859-2302",
+        "NAME:RICHARD E FRANTZMAN",
+        "INFO:MVA//VEH HIT THE HOUSE / RESD:");
 
     doTest("T4",
-        ".... (Station 171) : FIRE F Fire Call            Priority: 1  : 26 NEW RD                                            Venue: Tabernacle  Located Between  : SOUTHAMPTON TWP LINE/WALTHAM DR Call Time- 19:50:50                                : 4312 : (609) 268-8218                Caller : JOHN JR MEALE Nature of Call : POSS CHIMNEY FIRE Additional Info    RESD:    MEMBER OF STATION 439 ON LOCATION (REEPORTING BY PHONE)      19:55:26   REPORTING A WORKING CHIMNEY FIRE //",
+        ".... (Station 171) : 1  \n: 6 PLEASANT ST                                        Venue: Southamptn  \nLocated Between  : MAIN ST/CHURCH ST \n\nCall Time- 13:27:39                                : 1700 \n\n: (609) 859-2302                Caller : RICHARD E FRANTZMAN \n\nNature of Call : MVA//VEH HIT THE HOUSE \n\nAdditional Info",
         "SRC:Station 171",
-        "CALL:FIRE F Fire Call",
-        "ADDR:26 NEW RD",
-        "CITY:Tabernacle",
-        "X:SOUTHAMPTON TWP LINE/WALTHAM DR",
-        "ID:4312",
-        "PHONE:(609) 268-8218",
-        "NAME:JOHN JR MEALE",
-        "INFO:POSS CHIMNEY FIRE\nRESD:    MEMBER OF STATION 439 ON LOCATION (REEPORTING BY PHONE)      19:55:26   REPORTING A WORKING CHIMNEY FIRE //");
+        "PRI:1",
+        "ADDR:6 PLEASANT ST",
+        "CITY:Southampton",
+        "X:MAIN ST/CHURCH ST",
+        "ID:1700",
+        "PHONE:(609) 859-2302",
+        "NAME:RICHARD E FRANTZMAN",
+        "INFO:MVA//VEH HIT THE HOUSE");
 
     doTest("T5",
-        ".... (Station 171) :  EMS E EMS Call             Priority: 1  : 2400 RT70                                            Venue: Southamptn  Located Between  : BURRS MILL RD/MILE RD Call Time- 15:16:39                                : 1723 : (732) 581-5640                Caller : JOEL MADDEN Nature of Call : VEH INTO TREE Additional Info    WPH2:  RADIUS 04 MILES Additional Inc#s",
+        ".... (Station 171) : 1  \n: 2 RIDGE RD                                           Venue: Southamptn  \nLocated Between  : RED LION RD/RT206  \n: VERIZON 17 \n\nCallTime- 01:28:31                                : 1712 \n\n: (800) 685-1608                Caller : VERIZON SEC  \nComplaintant: OP SHARON \n\nNature of Call : GENERAL FIRE ALARM/NO PHONE ON SITE",
         "SRC:Station 171",
-        "CALL:EMS E EMS Call",
-        "ADDR:2400 RT70",
+        "PRI:1",
+        "ADDR:2 RIDGE RD",
         "CITY:Southampton",
-        "X:BURRS MILL RD/MILE RD",
-        "ID:1723",
-        "PHONE:(732) 581-5640",
-        "NAME:JOEL MADDEN",
-        "INFO:VEH INTO TREE\nWPH2:  RADIUS 04 MILES");
+        "X:RED LION RD/RT206",
+        "PLACE:VERIZON 17",
+        "NAME:VERIZON SEC",
+        "INFO:GENERAL FIRE ALARM/NO PHONE ON SITE");
 
     doTest("T6",
-        ".... (Station 171) : 129F E Mva/Fire             Priority: 1  : 2400 RT70                                          Venue: Southamptn  Located Between  : BURRS MILL RD/MILE RD Call Time- 15:16:39                       : 1723 : (732) 581-5640                Caller : JOEL MADDEN Nature of Call : VEH INTO TREE Additional Info    WPH2:  MM24 Additional Inc#s",
+        ".... (Station 171) : 1  \n: 19 FALCON DR                                         Venue: Southamptn  \nLocated Between  : NEW RD/ROBBINS WY \n\nCall Time- 12:33:33                                  : 1728 \n\n: (609) 859-0179                Caller : T R SUNDSTROM \n\nNature of Call : POSSIBLE FIRE/SMELL AND SEE SMOKE COMING FROM\n\nAdditional Info  \n  NEW RD AREA  \n  NW/AND INSIDE RES /TOT NJSP \n\nAdditional Inc#s",
         "SRC:Station 171",
-        "CALL:129F E Mva/Fire",
-        "ADDR:2400 RT70",
+        "PRI:1",
+        "ADDR:19 FALCON DR",
         "CITY:Southampton",
-        "X:BURRS MILL RD/MILE RD",
-        "ID:1723",
-        "PHONE:(732) 581-5640",
-        "NAME:JOEL MADDEN",
-        "INFO:VEH INTO TREE\nWPH2:  MM24");
+        "X:NEW RD/ROBBINS WY",
+        "ID:1728",
+        "PHONE:(609) 859-0179",
+        "NAME:T R SUNDSTROM",
+        "INFO:POSSIBLE FIRE/SMELL AND SEE SMOKE COMING FROM / NEW RD AREA NW/AND INSIDE RES /TOT NJSP");
+
+    doTest("T7",
+        ".... (Station 171) : 1  \n: 1771 RT206                                           Venue: Southamptn  \nLocated Between  : RT70/RIDGE RD  \n: EXXON 17 (RT206)\n\nCall Time- 07:12:50                              : 1712 \n\n: (609) 859-0060                Caller : E1782 \n\nNature of Call : 2 CAR MVA / \n\nAdditional Inc#s",
+        "SRC:Station 171",
+        "PRI:1",
+        "ADDR:1771 RT206",
+        "CITY:Southampton",
+        "X:RT70/RIDGE RD",
+        "PLACE:EXXON 17 (RT206)",
+        "ID:1712",
+        "PHONE:(609) 859-0060",
+        "NAME:E1782",
+        "INFO:2 CAR MVA /");
   }
   
   public static void main(String[] args) {
-    new NJBurlingtonCountyParserTest().generateTests("T1");
+    new NJBurlingtonCountyParserTest().generateTests("T8");
   }
 }
