@@ -1710,6 +1710,10 @@ bnnfeed:U/D NY| Suffolk| Brentwood| *Explosion*| 43 4th St| Explosions was felt 
 bnnfeed:U/D NY| Suffolk| Brentwood| *Explosion*| 43 4th St| CMD adv EMS transporting (1) to ssh w/ unspecified inj's. Rptd to be a neighbor. Also req radio silence to conduct a sound survey for vics in the original house. Crews in bsmt w/ thermal imaging cameras checking for any vics. M/A from islip for the collapse trailer & w. Islip to the scene| <C> BNN | NYL690//NYL727/NYL026/NYL4219 | #382871 04/24/2011 11:11:26
 bnnfeed:U/D NY| Suffolk| Brentwood| *Explosion*| 43 4th St| CMD adv pri srches in original structure are negative. awaiting collapse unit to shore up to conduct addt'l srches. addt'l M/A from commack for cameras & listening devices to the scene. numerous roadways closed for long duration of time. extended ops| <C> BNN | NYL690//NYL728/NYL026/NYL4219 | #382871 04/24/2011 11:24:42
 **********************************************************
+Cortland County, NY
+Contact: jared gebel <jgebel83@gmail.com>
+Sender: cville@fdcms.com (for Cortlandville FD)
+(3609 PLEASANTVIEW DR) 17:28 , EMS ONLY , 80 YO FEMALE - SUFFERS A BROKEN BACK- UNABLE TO EAT OR DRINK\n RECENTLY RELEASED FROM THE HOSPITAL FO ,
 **********************************************************
 **********************************************************
 ************  READY TO ROLL ******************************
@@ -1731,3 +1735,12 @@ Sender: E911
 E22_INVEST_(VINELAND CITY)1763 CHEROKEE LA_2011-04-24 19:02:46_
 E2902_STRUCTURE_(GREENWICH TWP)176 BAYSIDE RD_2011-04-24 17:27:45_AREA OF THE BAY
 E22_COMM ALARM_(VINELAND CITY)CARNIVAL DISCOUNT LIQUORS / 4039 S MAIN RD_2011-04-24 12:27:19_
+**********************************************************
+Citrus County, FL
+Contact: "Martin Giles" <mgiles@crystalriverfl.org>
+Sender: CC_Message_Notification@usamobility.net
+DispatchPrintrakParser
+FDF01 TYP: MISC FIRE AD: 8038 W PURVIS CT CTY: CRYSTAL RIVER CN: PHILIP CMT1: TREE ON POWERLINE SMOKING. PROGRESS ENERGY FDCA07 FDSTA1 XST2:
+FDF01 TYP: VEHICLE FIRE AD: 1035 S SUNCOAST BLVD CTY: HOMOSASSA LOC: CRYSTAL CHEVROLET CMT1: Original Location : CRYSTAL CHEVROLET CMT2: S/B
+FDF01 TYP: BRUSH FIRE AD: N BASSWOOD AVE&W CHECKERBERRY CTY: CRYSTAL RIVER CMT1: BRUSHFIRE 1/2 ACRE IN THE AREA OF THE ABOVE FDSTA9 FDSTA1 [
+FDF01 TYP: STRUCTURE FIRE AD: 2525 S PINE RIDGE AVE CTY: HOMOSASSA CN: MCKELVEY, JOHN CMT1: SMOKE COMING FROM THE BACK OF THE AREA FDCA03 FD

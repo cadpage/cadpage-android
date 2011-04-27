@@ -20,6 +20,11 @@ qac911:*D 4-7 MVC W/ROLLOVER 1627 RUTHSBURG RD RESCUE BOX Q04
 Contact: david baker <baker.davidm@gmail.com>
 sender:QA911com@qac.org <From%3AQA911com@qac.org>
 (Text Message) QA911com:*D 4-1 UNKNOWN PROBLEM 206 ORCHESTRA PL LIFE STATUS ? Q04
+
+Contact: Joshua Ruby <josh@computerrescuemd.com>
+sender: QA911com@qac.org
+(Text Message) QA911com:*D 1-14 FALLS 1401 CALVERT RD POSS DANG BODY AREA Q01
+
 ******************************************************************************/
 
 public class MDCentrevilleParser extends SmartAddressParser {
@@ -46,7 +51,7 @@ public class MDCentrevilleParser extends SmartAddressParser {
     body = body.substring(match.end());
     
     // OK, go do your magic!!
-    parseAddress(StartType.START_CALL, body, data);
+    parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ, body, data);
     data.strSupp = getLeft();
     return true;
   }

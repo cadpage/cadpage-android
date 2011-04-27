@@ -24,6 +24,11 @@ public class NYNassauCountyCParser extends FieldProgramParser {
     super("NASSAU COUNTY", "NY",
            "ADDR/SP CS:X TOA:SKIP");
   }
+  
+  @Override
+  public String getFilter() {
+    return "backup@westburyfd.xohost.com";
+  }
 
   @Override
   protected boolean parseMsg(String body, Data data) {
