@@ -1090,6 +1090,16 @@ City: WCWD
 Comments: **SEIZURES**
 ON THE EB, PASSED THE EXIT, IN THE MEDIAN, PT IS INSIDE A GRY NISSAN
 ***************************************************************************
+Montgomery, TX
+Contact: "Scott Collins" <policefiremedic@gmail.com>
+New Fire Run: 2011-75288,Nature: 28C01G-STROKE/CVA - Not alert - Greater
+than one hour onset,MR18,Location: 158 CHARLIE,Building: ,Cross: ,,Grid:
+212K,Map: 4476,.
+
+ 
+
+Run# 2011-75288 Trk MR181 FD2>> (01900110-940),.
+***************************************************************************
 ***************************************************************************
 ************** Request holding for one thing or another *******************
 ***************************************************************************
@@ -1715,6 +1725,11 @@ Contact: jared gebel <jgebel83@gmail.com>
 Sender: cville@fdcms.com (for Cortlandville FD)
 (3609 PLEASANTVIEW DR) 17:28 , EMS ONLY , 80 YO FEMALE - SUFFERS A BROKEN BACK- UNABLE TO EAT OR DRINK\n RECENTLY RELEASED FROM THE HOSPITAL FO ,
 **********************************************************
+Erie County, NY (again)
+Contact: afshar yusuf <afshar.yusuf@gmail.com>
+Sender: dispatch@townofhamburgny.com
+*2EMS: 60/M LONG FALL POSSIBLE ARM AND LEG FRACTURE ILS RESPONSE at 3425 OLD LAKEVIEW RD, Hamburg  c/s: ENGEL DR . . 17:31:57\n\n-- \nThis message has bee
+**********************************************************
 **********************************************************
 ************  READY TO ROLL ******************************
 **********************************************************
@@ -1744,3 +1759,14 @@ FDF01 TYP: MISC FIRE AD: 8038 W PURVIS CT CTY: CRYSTAL RIVER CN: PHILIP CMT1: TR
 FDF01 TYP: VEHICLE FIRE AD: 1035 S SUNCOAST BLVD CTY: HOMOSASSA LOC: CRYSTAL CHEVROLET CMT1: Original Location : CRYSTAL CHEVROLET CMT2: S/B
 FDF01 TYP: BRUSH FIRE AD: N BASSWOOD AVE&W CHECKERBERRY CTY: CRYSTAL RIVER CMT1: BRUSHFIRE 1/2 ACRE IN THE AREA OF THE ABOVE FDSTA9 FDSTA1 [
 FDF01 TYP: STRUCTURE FIRE AD: 2525 S PINE RIDGE AVE CTY: HOMOSASSA CN: MCKELVEY, JOHN CMT1: SMOKE COMING FROM THE BACK OF THE AREA FDCA03 FD
+**********************************************************
+Greenville County, ??
+Contact: 8644440080@vtext.com
+CAD:ACKNOWLEDGE CALL;105 CRIMSON GLORY WAY; TRAV;(S) (N)19V
+CAD:FALLS;105 CRIMSON GLORY WAY;TRAV;MIRANDY CT;TINEKE WAY;(S) (N)19V;NG1
+CAD:FIRE ALARM;8 ANDERS RD;GRVL;OLD MCELHANEY RD;(S) (N)24F;Kristy- AOA: sprinkler trip [04/26/11 12:28:12 THILL] ;NG1
+CAD:ACKNOWLEDGE CALL;8 ANDERS RD; GRVL;(S) (N)24F
+CAD:FIRE ALARM;32 HUNT ST;TRAV;ELIZABETH LN;ELIZABETH LN;(S) (N)17O;NAME: CHARLA SMITH, [04/26/11 13:34:03 THILL] SMOKE ALARM GOING OFF [04/26/11 13:33:49
+CAD:ACKNOWLEDGE CALL;32 HUNT ST; TRAV;(S) (N)17O
+CAD:ACKNOWLEDGE CALL;32 HUNT ST; TRAV;(S) (N)17O
+CAD:FALLS;124 JAMISON RD;TRAV;FARMINGTON TRL;WEBB CREEK CT;(S) (N)18F;NG1

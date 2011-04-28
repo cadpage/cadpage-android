@@ -88,7 +88,7 @@ public class DispatchPrintrakParser extends FieldProgramParser {
   
   public DispatchPrintrakParser(Properties cityCodes, String defCity, String defState, String expTerm) {
     super(cityCodes, defCity, defState,
-          setExpectFlag("SRC PRI:SKIP INC:ID TYP:CALL! BLD:APT APT:APT AD:ADDR! CTY:CITY MAP:MAP LOC:PLACE CN:NAME CMT1:INFO CMT2:INFO TIME:SKIP UNTS:UNIT XST:X XST2:X", expTerm));
+          setExpectFlag("SRC PRI:PRI INC:ID TYP:CALL! BLD:APT APT:APT AD:ADDR! CTY:CITY MAP:MAP LOC:PLACE CN:NAME CMT1:INFO CMT2:INFO TIME:SKIP UNTS:UNIT XST:X XST2:X UNTS:UNIT", expTerm));
   }
   
   private class MyAptField extends AptField {

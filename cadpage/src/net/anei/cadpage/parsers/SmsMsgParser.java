@@ -201,12 +201,12 @@ public abstract class SmsMsgParser {
    List<String> fields = new ArrayList<String>();
    int iKey = -1;  // Current key table pointer
    int iStartPt = 0;   // current data field start index
+   int iColonPt = iStartPt;
    
    // Loop processing each keyword found
    do {
      
      // Start searching for the next keyword starting at the current data field
-     int iColonPt = iStartPt;
      int iEndPt = -1;
      int iNxtKey = -1;
      
