@@ -63,5 +63,15 @@ public class MDCentrevilleParserTest extends BaseParserTest {
         "ADDR:206 ORCHESTRA PL",
         "INFO:LIFE STATUS ? Q04");
 
+    doTest("T9",
+        "(Text Message) QA911com:*D 1-14 FALLS 1401 CALVERT RD POSS DANG BODY AREA Q01",
+        "CALL:1-14 FALLS",
+        "ADDR:1401 CALVERT RD",
+        "INFO:POSS DANG BODY AREA Q01");
+
+  }
+  
+  public static void main(String[] args) {
+    new MDCentrevilleParserTest().generateTests("T10", "CALL ADDR INFO");
   }
 }

@@ -33,8 +33,6 @@ public class SmartAddressParserTest extends BaseParserTest {
   
   @Test
   public void testProblem() {
-    doTest(CALL, "851 FENIMORE RD MAMARONECK_T: @WINGED FOOT COUNTRY CLUB",
-        "ADDR:851 FENIMORE RD");
   }
 
   

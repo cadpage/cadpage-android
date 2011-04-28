@@ -19,9 +19,6 @@ public class GeneralParserTest extends BaseParserTest {
   
   @Test
   public void testProblem() {
-    
-    doTest("T23",
-        "851 FENIMORE RD MAMARONECK_T: @WINGED FOOT COUNTRY CLUB, Cross: POCCIA CIR, Type:ALS, , Time out: 14:50:25 Area:");
   }
   
   @Test

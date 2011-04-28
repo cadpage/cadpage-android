@@ -76,8 +76,8 @@ public class MNAnokaCountyParserTest extends BaseParserTest {
     doTest("T9",
         "CAD MSG: *D D4   32M      3254 90 LN NE  LIFT ASSIST ONLY...LARGE MALE (300+) INC:11007548\n",
         "CALL:*D D4   32M",
-        "ADDR:3254 90 LN",
-        "INFO:NE  LIFT ASSIST ONLYLARGE MALE (300+)",
+        "ADDR:3254 90 LN NE",
+        "INFO:LIFT ASSIST ONLY...LARGE MALE (300+)",
         "ID:11007548");
         
   }

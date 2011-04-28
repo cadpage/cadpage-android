@@ -21,15 +21,16 @@ public class FieldProgramParserTest extends BaseParserTest {
   
   @Test
   public void testproblem() {
-    
-    doFieldTest("T1", "INFO+? UNIT END",
-        "X1",
-        "UNIT:X1");
-    
-    doFieldTest("T2", "INFO+? UNIT END",
-        "LINE1;LINE2;LINE3;X1",
-        "INFO:LINE1 / LINE2 / LINE3",
-        "UNIT:X1");
+    doFieldTest("T1", "TYPE:CALL UNTS:UNIT XST:X UNTS:UNIT",
+        "TYPE:FIRE;UNTS:A70;XST:BLACK ST",
+        "CALL:FIRE",
+        "UNIT:A70",
+        "X:BLACK ST");
+    doFieldTest("T2", "TYPE:CALL UNTS:UNIT XST:X UNTS:UNIT",
+        "TYPE:FIRE;XST:BLACK ST;UNTS:A70",
+        "CALL:FIRE",
+        "X:BLACK ST",
+        "UNIT:A70");
   }
   
   @Test

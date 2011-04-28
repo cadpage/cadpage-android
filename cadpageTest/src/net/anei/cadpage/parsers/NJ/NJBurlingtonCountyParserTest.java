@@ -96,6 +96,55 @@ public class NJBurlingtonCountyParserTest extends BaseParserTest {
         "PHONE:(609) 859-0060",
         "NAME:E1782",
         "INFO:2 CAR MVA /");
+
+    doTest("T8",
+        ".... (Station 171) : 1  \n: 413 CHAIRVILLE RD                                    Venue: Southamptn  \n Located Between  : NEW FREEDOM RD/CHURCH RD \n\nCall Time- 14:15:30                                : 1713 \n\n: (609) 714-7797                Caller : LORI FERRI \n\nNature of Call : ALLERGIC REACTION TO MEDS.TROUBLE BREATHING\n\nAdditional Info  \n  RESD:",
+        "SRC:Station 171",
+        "PRI:1",
+        "ADDR:413 CHAIRVILLE RD",
+        "CITY:Southampton",
+        "X:NEW FREEDOM RD/CHURCH RD",
+        "ID:1713",
+        "PHONE:(609) 714-7797",
+        "NAME:LORI FERRI",
+        "INFO:ALLERGIC REACTION TO MEDS.TROUBLE BREATHING / RESD:");
+
+    doTest("T9",
+        ".... (Station 171) : 1  \n: 3 SUNSET BV                                          Venue: Southamptn  \nLocated Between  : RT530/WINDING WY \n\nCall Time- 12:57:51                                : 1711 \n\n: (609) 556-9277                Caller : LENA FRIEDMEN \n\nNature of Call : 65/M C&amp;A/ PNEMONIA// ON O2 \n\nAdditional Info  \n  MOBIL ESTATES",
+        "SRC:Station 171",
+        "PRI:1",
+        "ADDR:3 SUNSET BV",
+        "CITY:Southampton",
+        "X:RT530/WINDING WY",
+        "ID:1711",
+        "PHONE:(609) 556-9277",
+        "NAME:LENA FRIEDMEN",
+        "INFO:65/M C&A/ PNEMONIA// ON O2 / MOBIL ESTATES");
+
+    doTest("T10",
+        ".... (Station 171) : 9  \n: 15 TRENTON RD                                        Venue: Pembtn Twp  \nLocated Between  : BUSANSKY LA/PEMBERTON BROWNS MILLS RD  \n: STA 181 \n\nCall Time- 14:48:58                                : 1811 \n\n: (609) 893-2114                :  TEL \n\nNature of Call : BUSANSKY LA/PEMBERTON BROWNS MILLS RD",
+        "SRC:Station 171",
+        "PRI:9",
+        "ADDR:15 TRENTON RD",
+        "CITY:Pemberton Twp",
+        "X:BUSANSKY LA/PEMBERTON BROWNS MILLS RD",
+        "PLACE:STA 181",
+        "ID:1811",
+        "PHONE:(609) 893-2114",
+        "INFO:BUSANSKY LA/PEMBERTON BROWNS MILLS RD");
+
+    doTest("T11",
+        ".... (Station 171) : 1  \n: 2357 RT206                                           Venue: Southamptn  \nLocated Between  : RT38/EASTAMPTON TWP LINE  \n: VINCENTOWN DINER \n\nCall Time- 15:08:40                                : 1711 \n\n: (609) 354-2191                Caller : RICHARD SIMONE \n\nNature of Call : 2 CAR MVA WITH NECK AND BACK INJURIES/ \n\nAdditional Info  \n  IAO  \n  EVERYONE OUT VEHICLE MOVED TO SIDE/",
+        "SRC:Station 171",
+        "PRI:1",
+        "ADDR:2357 RT206",
+        "CITY:Southampton",
+        "X:RT38/EASTAMPTON TWP LINE",
+        "PLACE:VINCENTOWN DINER",
+        "ID:1711",
+        "PHONE:(609) 354-2191",
+        "NAME:RICHARD SIMONE",
+        "INFO:2 CAR MVA WITH NECK AND BACK INJURIES/ / IAO EVERYONE OUT VEHICLE MOVED TO SIDE/");
   }
   
   public static void main(String[] args) {
