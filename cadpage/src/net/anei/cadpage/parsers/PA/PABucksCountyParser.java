@@ -208,7 +208,7 @@ public class PABucksCountyParser extends SmsMsgParser {
       "FINFO",    "FIRE INFORMATION",
       "FINV",     "FIRE INVESTIGATION (LOC)",
       "FIRE",     "FIRE OTHERS (LOC)",
-      "FIRCAL",   "FIR CALL (EMS)",
+      "FIRCAL",   "FIRE CALL (EMS)",
       "FMPAGE",   "FM PAGE REQUEST",
       "FNURS",    "NURSING HOME FIRE (BOX)",
       "FOBLD",    "OUTBUILDING FIRE (TAC)",
