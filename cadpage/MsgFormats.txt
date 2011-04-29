@@ -1762,11 +1762,3 @@ E911:E22_COMM ALARM_(VINELAND CITY)CARNIVAL DISCOUNT LIQUORS / 4039 S MAIN RD_20
 **********************************************************
 **********************************************************
 **********************************************************
-Nassau County Firepage (B)
-Contact: Louis Sabatino <lousab1@optonline.net>
-Contact: Mike Torregrossa <torr393@gmail.com>
-Sender: dispatch@firetracker.net
-(FirePage) FSMFD 4/22/2011 TOA:20:47 AMBU [AMBU] 178 RINTIN ST BENRIS AVE ARM\nINJURY [FireTracker]
-(FirePage) FSMFD 4/27/2011 TOA:21:12 AMBU [AMBU] 820 FRANKLIN PL GARDEN CITY ROAD\nDIZZY FEMALE VOMITING [FireTracker]
-(FirePage) FSMFD 4/28/2011 TOA:14:59 AMBU [AMBU] 1150 HEMPSTEAD TPK RENKEN BLVD\nIN THE SICK BAY SICK FEMALE [FireTracker]
-(FirePage) FSMFD 4/28/2011 TOA:19:45 AMBU [AMBU] 947 MAPLE DR COURT HOUSE ROAD\nMALE,SHORT OF BREATH [FireTracker]

@@ -19,6 +19,14 @@ Sender: dispatch@firetracker.net
 (FirePage) ** FFD FIRE CALL ** CARBON APT 33 116 WEST END AVE C/S: RAY ST / ELINOR\nPL TOA: 11:23 [FireTracker]
 (FirePage) ** FFD FIRE CALL ** GENERAL 22 PEARSALL AVE C/S: LONG BEACH (N) AVE /\nPENNSYLVANIA AVE TOA: 15:56 [FireTracker]
 
+Contact: Louis Sabatino <lousab1@optonline.net>
+Contact: Mike Torregrossa <torr393@gmail.com>
+Sender: dispatch@firetracker.net
+(FirePage) FSMFD 4/22/2011 TOA:20:47 AMBU [AMBU] 178 RINTIN ST BENRIS AVE ARM\nINJURY [FireTracker]
+(FirePage) FSMFD 4/27/2011 TOA:21:12 AMBU [AMBU] 820 FRANKLIN PL GARDEN CITY ROAD\nDIZZY FEMALE VOMITING [FireTracker]
+(FirePage) FSMFD 4/28/2011 TOA:14:59 AMBU [AMBU] 1150 HEMPSTEAD TPK RENKEN BLVD\nIN THE SICK BAY SICK FEMALE [FireTracker]
+(FirePage) FSMFD 4/28/2011 TOA:19:45 AMBU [AMBU] 947 MAPLE DR COURT HOUSE ROAD\nMALE,SHORT OF BREATH [FireTracker]
+
 */
 public class NYNassauCountyFiretrackerParser extends FieldProgramParser {
 
@@ -36,11 +44,37 @@ public class NYNassauCountyFiretrackerParser extends FieldProgramParser {
   public boolean parseMsg(String subject, String body, Data data) {
     
     if (!subject.equals("FirePage")) return false;
-    if (!body.startsWith("** FFD FIRE CALL ** ")) return false;
     if (!body.endsWith("[FireTracker]")) return false;
-    body = body.substring(20,body.length()-13).trim();
-    body = body.replace('\n', ' ').replace("C/S:", "CS:").replace(" LA ", " LN ");
-    return super.parseMsg(body, data);
+    body = body.substring(0,body.length()-13).trim();
+    if (body.startsWith("** FFD FIRE CALL ** ")) {
+      data.strSource = "FFD";
+      body = body.substring(20).trim();
+      body = body.replace('\n', ' ').replace("C/S:", "CS:").replace(" LA ", " LN ");
+      return super.parseMsg(body, data);
+    }
+    
+    if (body.startsWith("FSMFD ")) {
+      data.strSource = "FSMFD";
+      Parser p = new Parser(body);
+      p.get("TOA:");
+      p.get(" ");
+      data.strCall = p.get('[');
+      p.get(']');
+      body = p.get();
+      if (body.length() == 0) return false;
+      body = body.replace('\n', ' ');
+      parseAddress(StartType.START_ADDR, body, data);
+      body = getLeft();
+      Result res = parseAddress(StartType.START_ADDR, body);
+      if (res.getStatus() > 0) {
+        res.getCrossData(data);
+        body = res.getLeft();
+      }
+      data.strSupp = body;
+      return true;
+      
+    }
+    return false;
   }
   
   private static final Pattern APT_PTN = Pattern.compile("\\bAPT ([^ ]+)\\b");
@@ -60,5 +94,10 @@ public class NYNassauCountyFiretrackerParser extends FieldProgramParser {
   public Field getField(String name) {
     if (name.equals("ADDR")) return new MyAddressField();
     return super.getField(name);
+  }
+  
+  @Override
+  public String getProgram() {
+    return "SRC " + super.getProgram();
   }
 }

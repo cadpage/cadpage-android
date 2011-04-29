@@ -162,7 +162,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
         "MALL",
         "GTWY",
         "PLAZ", "PLAZA",
-        "TURNPIKE", "TPKE",
+        "TURNPIKE", "TPKE", "TPK",
         "PASS",
         "EST",
         "RUN",
