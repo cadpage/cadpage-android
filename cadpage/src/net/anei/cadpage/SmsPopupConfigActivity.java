@@ -355,12 +355,17 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
           }
           if (! multi) {
             LocationListPreference list = new LocationListPreference(this, locMgr, main);
-            list.setTitle(stName.substring(3));
+            String state = stName.substring(3);
+            list.setTitle(state);
+            list.setDialogTitle(state);
             int locCnt = ndx - startNdx;
             String[] values = new String[locCnt];
             String[] options = new String[locCnt];
             System.arraycopy(locValues, startNdx, values, 0, locCnt);
             System.arraycopy(locNames, startNdx, options, 0, locCnt);
+            for (int ii = 0; ii<locCnt; ii++) {
+              options[ii] = stripStateAbbrv(options[ii]);
+            }
             list.setEntryValues(values);
             list.setEntries(options);
           
@@ -371,7 +376,8 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
             for (int ii = startNdx; ii<ndx; ii++) {
               sub.addPreference(
                   new LocationCheckBoxPreference(this, locValues[ii], 
-                                                 locNames[ii], locMgr)
+                                                 stripStateAbbrv(locNames[ii]), 
+                                                 locMgr)
               );
             }
             
@@ -384,6 +390,12 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
         stCode = stPrefix;
       }
     }
+  }
+  
+  private static String stripStateAbbrv(String name) {
+    int pt = name.indexOf(',');
+    if (pt >= 0) name = name.substring(0,pt);
+    return name;
   }
 
 }
