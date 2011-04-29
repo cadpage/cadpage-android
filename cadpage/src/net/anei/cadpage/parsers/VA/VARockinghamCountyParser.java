@@ -60,7 +60,8 @@ public class VARockinghamCountyParser extends DispatchDAPROParser {
         "NEW", "NEW MARKET",
         "STA", "STANLEY",
         "LUR", "LURAY",
-        "SHE", "SHENANDOAH"
+        "SHE", "SHENANDOAH",
+        "KEE", "KEEZLETOWN"
     });
   
 	  
