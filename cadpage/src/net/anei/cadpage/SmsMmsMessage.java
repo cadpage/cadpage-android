@@ -858,8 +858,8 @@ public class SmsMmsMessage implements Serializable {
    */
   private static final Pattern MULT_SPACES = Pattern.compile(" {2,}");
   static String escape(String message) {
-    message = message.replaceAll("\t", "\\\\t");
-    message = message.replaceAll("\n", "\\\\n\n");
+    message = message.replace("\t", "\\t");
+    message = message.replace("\n", "\\n\n");
     Matcher match = MULT_SPACES.matcher(message);
     if (match.find()) {
       StringBuffer sb = new StringBuffer();
