@@ -259,7 +259,7 @@ public class SmsMmsMessage implements Serializable {
     Pattern.compile("^([\\w\\.]+@[\\w\\.]+)( / / )"),
     Pattern.compile(" - Sender: *([\\w\\.]+@[\\w\\.]+) *\n")
   };
-  private static final Pattern S_M_PATTERN = Pattern.compile("^S: *([^:]*) +M:");
+  private static final Pattern E_S_M_PATTERN = Pattern.compile("^(?:([\\w\\.\\-!]+@[\\w\\.]+) *)?S: *([^:]*) +M:");
   private static final Pattern PRVS_DB_PATTERN = Pattern.compile("^prvs=[0-9a-f]{10}=([^ ]+) ");
   
   /**
@@ -421,9 +421,11 @@ public class SmsMmsMessage implements Serializable {
       /* Decode patterns that look like
        * S:subject M:msg
        */
-      match = S_M_PATTERN.matcher(body);
+      match = E_S_M_PATTERN.matcher(body);
       if (match.find()) {
-        addSubject(match.group(1));
+        String from = match.group(1);
+        if (from != null) parseAddress = from;
+        addSubject(match.group(2));
         body = body.substring(match.end()).trim();
         break;
       }
