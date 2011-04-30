@@ -190,6 +190,12 @@ public class SmsMmsMessageTest {
         "mailghost@mobilemedical.org",
         "<CAD> - part 1 of 1",
         "Congratulations to Mary Remington!");
+    
+    doParseTest("NCSurryCounty",
+        "SC911-CallAlert!!@co.surry.nc.us S: M:SC911 - Call Alert!!:Call Number - 110430-103* Address - 1020 NEWSOME ST* City - MOUNT AIRY* Call Type - ACCIDENT PI* *",
+        "SC911-CallAlert!!@co.surry.nc.us",
+        "",
+        "SC911 - Call Alert!!:Call Number - 110430-103* Address - 1020 NEWSOME ST* City - MOUNT AIRY* Call Type - ACCIDENT PI* *");
   }
   
   @Test
