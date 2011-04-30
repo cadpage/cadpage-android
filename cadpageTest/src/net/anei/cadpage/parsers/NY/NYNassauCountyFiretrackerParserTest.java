@@ -73,7 +73,7 @@ public class NYNassauCountyFiretrackerParserTest extends BaseParserTest {
   public void testFSMFDParser() {
 
     doTest("T1",
-        "(FirePage) FSMFD 4/22/2011 TOA:20:47 AMBU [AMBU] 178 RINTIN ST BENRIS AVE ARM\nINJURY [FireTracker]",
+        "(FirePage) *FSMFD* 4/22/2011 TOA:20:47 AMBU [AMBU] 178 RINTIN ST BENRIS AVE ARM\nINJURY [FireTracker]",
         "SRC:FSMFD",
         "CALL:AMBU",
         "ADDR:178 RINTIN ST",
@@ -81,7 +81,7 @@ public class NYNassauCountyFiretrackerParserTest extends BaseParserTest {
         "INFO:ARM INJURY");
 
     doTest("T2",
-        "(FirePage) FSMFD 4/27/2011 TOA:21:12 AMBU [AMBU] 820 FRANKLIN PL GARDEN CITY ROAD\nDIZZY FEMALE VOMITING [FireTracker]",
+        "(FirePage) *FSMFD* 4/27/2011 TOA:21:12 AMBU [AMBU] 820 FRANKLIN PL GARDEN CITY ROAD\nDIZZY FEMALE VOMITING [FireTracker]",
         "SRC:FSMFD",
         "CALL:AMBU",
         "ADDR:820 FRANKLIN PL",
@@ -89,7 +89,7 @@ public class NYNassauCountyFiretrackerParserTest extends BaseParserTest {
         "INFO:DIZZY FEMALE VOMITING");
 
     doTest("T3",
-        "(FirePage) FSMFD 4/28/2011 TOA:14:59 AMBU [AMBU] 1150 HEMPSTEAD TPK RENKEN BLVD\nIN THE SICK BAY SICK FEMALE [FireTracker]",
+        "(FirePage) *FSMFD* 4/28/2011 TOA:14:59 AMBU [AMBU] 1150 HEMPSTEAD TPK RENKEN BLVD\nIN THE SICK BAY SICK FEMALE [FireTracker]",
         "SRC:FSMFD",
         "CALL:AMBU",
         "ADDR:1150 HEMPSTEAD TPK",
@@ -97,17 +97,56 @@ public class NYNassauCountyFiretrackerParserTest extends BaseParserTest {
         "INFO:IN THE SICK BAY SICK FEMALE");
 
     doTest("T4",
-        "(FirePage) FSMFD 4/28/2011 TOA:19:45 AMBU [AMBU] 947 MAPLE DR COURT HOUSE ROAD\nMALE,SHORT OF BREATH [FireTracker]",
+        "(FirePage) *FSMFD* 4/28/2011 TOA:19:45 AMBU [AMBU] 947 MAPLE DR COURT HOUSE ROAD\nMALE,SHORT OF BREATH [FireTracker]",
         "SRC:FSMFD",
         "CALL:AMBU",
         "ADDR:947 MAPLE DR",
         "X:COURT HOUSE ROAD",
         "INFO:MALE,SHORT OF BREATH");
+
+    doTest("T5",
+        "(FirePage) *FSMFD* 4/28/2011 TOA:22:16 AMBU [AMBU] 1031 MOSEFAN ST WILLIAM AVE\nFEMALE FELL,WRIST INJURY [FireTracker]",
+        "SRC:FSMFD",
+        "CALL:AMBU",
+        "ADDR:1031 MOSEFAN ST",
+        "X:WILLIAM AVE",
+        "INFO:FEMALE FELL,WRIST INJURY");
+
+    doTest("T6",
+        "[FirePage]  *FSMFD* 4/28/2011 TOA:22:16 AMBU [AMBU] 1031 MOSEFAN ST WILLIAM AVE FEMALE FELL,WRIST INJURY [FireTracker]",
+        "SRC:FSMFD",
+        "CALL:AMBU",
+        "ADDR:1031 MOSEFAN ST",
+        "X:WILLIAM AVE",
+        "INFO:FEMALE FELL,WRIST INJURY");
+
+    doTest("T7",
+        "(FirePage) *FSMFD* 4/28/2011 TOA:23:14 CARB 1 [CARB] 551 CHESMAN ST NASSAU BLVD NO\nAIDED [FireTracker]",
+        "SRC:FSMFD",
+        "CALL:CARB 1",
+        "ADDR:551 CHESMAN ST",
+        "X:NASSAU BLVD",
+        "INFO:NO AIDED");
+
+    doTest("T8",
+        "(FirePage) *FSMFD* 4/29/2011 TOA:19:21 AMBU [AMBU] 775 CORNELL ROAD ETON ROAD MALE\nFELL-HIP INJURY [FireTracker]",
+        "SRC:FSMFD",
+        "CALL:AMBU",
+        "ADDR:775 CORNELL ROAD",
+        "X:ETON ROAD",
+        "INFO:MALE FELL-HIP INJURY");
+
+    doTest("T9",
+        "(FirePage) *FSMFD* 4/29/2011 TOA:21:59 MUTUAID [MAF] 125 MEACHAM AVE POST AVE\n[FireTracker]",
+        "SRC:FSMFD",
+        "CALL:MUTUAID",
+        "ADDR:125 MEACHAM AVE",
+        "X:POST AVE");
     
   }
   
   public static void main(String[] args) {
     //new NYNassauCountyFiretrackerParserTest().generateTests("T6");
-    new NYNassauCountyFiretrackerParserTest().generateTests("T1", "SRC CALL ADDR X INFO");
+    new NYNassauCountyFiretrackerParserTest().generateTests("T5", "SRC CALL ADDR X INFO");
   }
 }
