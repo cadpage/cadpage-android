@@ -1764,6 +1764,9 @@ Contact: "jcfd560@yahoo.com" <jcfd560@yahoo.com>
 Sender: DISPATCH@jeffersoncountytn.gov
 DISPATCH:1718 BROOKLINE CT JEFFERSON CITY 2011-611597 22:43:08  BREATHING DIFFICULTY
 **********************************************************
+Brown County, WI
+Contact: Wesley Pompa <h2fd24@gmail.com>
+HOFD PRI: 1 INC: FHO110429000014 TYP: VEGETATION FIRE AD: 7571 CTH D CTY: HOLL MAP: 9BD CN: ED CARROL CMT1: WITHIN 10 OF BUILDING, CHANGE TO STRUCTURE CMT2: C
 **********************************************************
 **********************************************************
 **********************************************************
@@ -1771,3 +1774,4 @@ DISPATCH:1718 BROOKLINE CT JEFFERSON CITY 2011-611597 22:43:08  BREATHING DIFFIC
 ************  READY TO ROLL ******************************
 **********************************************************
 **********************************************************
+Rutherford County, NC in progress
