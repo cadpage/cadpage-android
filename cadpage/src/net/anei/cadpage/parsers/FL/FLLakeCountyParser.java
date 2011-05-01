@@ -1,5 +1,7 @@
 package net.anei.cadpage.parsers.FL;
 
+import java.util.regex.Pattern;
+
 import net.anei.cadpage.SmsMsgInfo.Data;
 import net.anei.cadpage.parsers.FieldProgramParser;
 
@@ -56,7 +58,7 @@ public class FLLakeCountyParser extends FieldProgramParser {
   
   public FLLakeCountyParser() {
     super(CITY_LIST, "LAKE COUNTY", "FL",
-        "UNIT CALL ADDR! MISC+? CITY");
+        "CH? UNIT CALL ADDR! MISC+? CITY");
   }
   
   @Override
@@ -64,6 +66,15 @@ public class FLLakeCountyParser extends FieldProgramParser {
     if (!body.startsWith("CAD:")) return false;
     body = body.substring(4).trim();
     return parseFields(body.split("\\* "), data);
+  }
+  
+  private static final Pattern CHANNEL_PTN = Pattern.compile("PS.*"); 
+  private class MyChannelField extends ChannelField {
+    
+    public MyChannelField() {
+      setPattern(CHANNEL_PTN);
+    }
+    
   }
   
   private class MiscField extends Field {
@@ -85,6 +96,7 @@ public class FLLakeCountyParser extends FieldProgramParser {
   
   @Override
   public Field getField(String name) {
+    if (name.equals("CH")) return new MyChannelField();
     if (name.equals("MISC")) return new MiscField();
     return super.getField(name);
   }
