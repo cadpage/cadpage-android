@@ -1779,3 +1779,33 @@ Rutherford County, NC in progress
 Harris County ESD #1, TX in progress
 **********************************************************
 Lake County, FL in progress
+**********************************************************
+Cambria County, PA
+Contact: jacob berkey <jwb932@gmail.com>
+Sender: alerts@cambria.ealertgov.com
+JO-JOHNTOWN
+
+[29] 11 Time: 15:02:29 Nature: 17A01G-Alpha FALL Location: 216 MAIN ST-JO | Sta 35
+[29] 11 Time: 11:54:47 Nature: 29B01-Bravo VEH ACC WITH INJURIES Location: 110 PLAZA DR-LY | Sta 30, Sta 23, Sta 35
+[29] 11 Time: 08:03:01 Nature: 10C02-Charlie CHEST PAIN Location: 315 LOCUST ST-JO | Sta 35 
+[29] 11 Time: 06:45:29 Nature: 17B03G-Bravo FALL Location: WALNUT ST-JO/MAIN ST-JO | Sta 35
+[28] 11 Time: 21:39:31 N t 06D03A D lt BREATHING PROBLEMS Location: 205 CHANDLER AVE-JO | Sta 35, Sta 21, Sta 36
+**********************************************************
+Cortland County, NY
+Contact: jared gebel <jgebel83@gmail.com>
+Sender: cville@fdcms.com or pcarrier@cortlandvillefire.org
+
+Dispatch ** 07:21 ** EMS ONLY ** 1099 STARR RD **
+- ** PIZZOLA, FRANCI ** (607) 753-7 ** [N/a] ** [N/a] ** FATHER HAS BEEN
+CONFUSED
+SEVERE PAIN CANT WALK
+PAIN IS IN BACK
+
+Alarm Close ** 14:41 ** FIRE STRUCTURE ** 30 KELLOGG RD ** Alert Type: KNOX
+BOX Priority: ** CARMER, EDWARD ** (607) 753-0 ** [N/a] ** [N/a] ** LARGE
+AMOUNT OF SMOKE COMING FROM BUILDING
+WAS NOT THERE 15 MINUTES AGO
+Call #: 416 - LOOKS LIKE T ** 04/30/11 ** FIRE ST ** 2011-0000034 **
+CORTLAND_FIRE_DEPARTMENT ** Rip and Run Report
+
+
