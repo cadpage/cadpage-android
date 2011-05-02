@@ -58,7 +58,7 @@ public class FLLakeCountyParser extends FieldProgramParser {
   
   public FLLakeCountyParser() {
     super(CITY_LIST, "LAKE COUNTY", "FL",
-        "CH? UNIT CALL ADDR! MISC+? CITY");
+        "CH? SRC CALL ADDR! MISC+? CITY");
   }
   
   @Override
