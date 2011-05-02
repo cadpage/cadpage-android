@@ -672,6 +672,16 @@ AMH 238 WESTFIELD RD EMS 79 YO F/  CHEST PAIN
 AMH 52 ENDICOTT DR EMS 82 YO M
 AMH 670 LONGMEADOW RD EMS 71 Y/O F CHEST PAINS, DIFFICULTY BREATHING
 ***************************************************************************
+Erie County, NY
+ALERT@ERIE.GOV FIRE CO-DETECTOR 262 MILLER ST APT: GARAGE LANCASTER TOWN CO DETECTOR ACTIV / NO SYMPTOMS
+ALERT@ERIE.GOV EMS 4779 TRANSIT RD LANCASTER TOWN GREEN DODGE CALIBER 25 YO FEMALE FEELS AS THOUGH SHE MAY PASS OUT
+ALERT@ERIE.GOV EMS 4805 TRANSIT RD APT: 1106 LANCASTER TOWN EMS- 59 YO MALE, LEG PAIN AS A RESULT OF A FALL EARLIER
+***************************************************************************
+Erie County, NY
+NOTIFICATIONS 85 MANITOU ST DEPEW DEPEW FIRE DEPARTMENT- DAILY TEST
+NOTIFICATIONS 85 MANITOU ST DEPEW CONDUCTED THE DAILY FIRE RADIO AND PAGER TEST
+4569 BROADWAY DEPEW COMMERCIAL FIRE ALARM COMING FROM THE BANQUET ROOM
+***************************************************************************
 Jefferson County, NY (NYJeffrsonCountyParser)
 BREATHING PROBL|18077 REED POINT RD:ORLEANS(T)|77 YO MALE DIFF BREATHING
 ABDOMINAL PAIN|18081 REED POINT RD:ORLEANS(T)|79F  :ProQA Medical Case Entry Finished You are responding to a patient with abdominal pain.  The patient is a  79-year-old female, who is conscious and breathing.  Abdominal Pain / Problems.  Caller Statement: ABDOMINAL PAIN.
@@ -1780,16 +1790,7 @@ Harris County ESD #1, TX in progress
 **********************************************************
 Lake County, FL in progress
 **********************************************************
-Cambria County, PA
-Contact: jacob berkey <jwb932@gmail.com>
-Sender: alerts@cambria.ealertgov.com
-JO-JOHNTOWN
-
-[29] 11 Time: 15:02:29 Nature: 17A01G-Alpha FALL Location: 216 MAIN ST-JO | Sta 35
-[29] 11 Time: 11:54:47 Nature: 29B01-Bravo VEH ACC WITH INJURIES Location: 110 PLAZA DR-LY | Sta 30, Sta 23, Sta 35
-[29] 11 Time: 08:03:01 Nature: 10C02-Charlie CHEST PAIN Location: 315 LOCUST ST-JO | Sta 35 
-[29] 11 Time: 06:45:29 Nature: 17B03G-Bravo FALL Location: WALNUT ST-JO/MAIN ST-JO | Sta 35
-[28] 11 Time: 21:39:31 N t 06D03A D lt BREATHING PROBLEMS Location: 205 CHANDLER AVE-JO | Sta 35, Sta 21, Sta 36
+Cambria County, PA in progress
 **********************************************************
 Cortland County, NY
 Contact: jared gebel <jgebel83@gmail.com>
@@ -1807,5 +1808,14 @@ AMOUNT OF SMOKE COMING FROM BUILDING
 WAS NOT THERE 15 MINUTES AGO
 Call #: 416 - LOOKS LIKE T ** 04/30/11 ** FIRE ST ** 2011-0000034 **
 CORTLAND_FIRE_DEPARTMENT ** Rip and Run Report
-
-
+**********************************************************
+Erie County, PA
+Contact: 11fullern@gmail.com
+Contact: Patrick Jackson <patjackson52@gmail.com>
+ERIE911:69D6 >STRUC FIRE-SINGLE RESIDENTIAL 8165 PLATZ RD XS: MARKET RD FAIRVIEW TWP LIST JOHN C Map:2034 Grids:, Cad: 2011-0000044804
+ERIE911:55B2P >ELEC HAZ/PWR REPT DISCONNECTED 7656 MAPLE DR XS: CHESTNUT ST FAIRVIEW TWP MUSANTE, JANET Map:2202 Grids:, Cad: 2011-0000045114
+ERIE911:29B4 >MVA - UNKNOWN STATUS 17 I 90 EB XS: I 90 EB RAMP EXIT 16 FAIRVIEW TWP LORD, ISAAC Map:1888 Grids:, Cad: 2011-0000043981
+ERIE911:29B4 >MVA - UNKNOWN STATUS W LAKE RD&WHITEHALL PL XS: LORD RD FAIRVIEW TWP WOOD, RODNEY Cad: 2011-0000042496
+ERIE911:69D6 >STRUC FIRE-SINGLE RESIDENTIAL 6683 OTTEN CT FAIRVIEW TESTI JULIE Cad: 2011-0000039977
+ERIE911:52C3G >FIRE/GENERAL ALARM-COMM STRUC 7301 KLIER DR XS: UNFAIRVIEW FAIRVIEW TWP DAN Map:2302 Grids:, Cad: 2011-0000040143
+ERIE911:69D2 >STRUCTURE FIRE- HIGH RISE 222 W MAIN ST XS: MYRTLE ST GIRARD BORO Map:3217 Grids:, Cad: 2011-0000041382
