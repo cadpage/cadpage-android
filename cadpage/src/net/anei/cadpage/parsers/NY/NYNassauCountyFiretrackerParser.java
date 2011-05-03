@@ -32,6 +32,8 @@ Sender: dispatch@firetracker.net
 (FirePage) *FSMFD* 4/29/2011 TOA:19:21 AMBU [AMBU] 775 CORNELL ROAD ETON ROAD MALE\nFELL-HIP INJURY [FireTracker]
 (FirePage) *FSMFD* 4/29/2011 TOA:21:59 MUTUAID [MAF] 125 MEACHAM AVE POST AVE\n[FireTracker]
 
+(FirePage) FSMFD 5/2/2011 TOA:17:36 AMBU [AMBU] 766 WILLOW ROAD BIRCH ST BROKEN\nHIP [FireTracker]
+
 */
 public class NYNassauCountyFiretrackerParser extends FieldProgramParser {
 
@@ -58,7 +60,7 @@ public class NYNassauCountyFiretrackerParser extends FieldProgramParser {
       return super.parseMsg(body, data);
     }
     
-    if (body.startsWith("*FSMFD* ")) {
+    if (body.startsWith("*FSMFD* ") || body.startsWith("FSMFD")) {
       data.strSource = "FSMFD";
       Parser p = new Parser(body);
       p.get("TOA:");
