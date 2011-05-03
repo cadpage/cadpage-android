@@ -1735,20 +1735,6 @@ Brown County, WI
 Contact: Wesley Pompa <h2fd24@gmail.com>
 HOFD PRI: 1 INC: FHO110429000014 TYP: VEGETATION FIRE AD: 7571 CTH D CTY: HOLL MAP: 9BD CN: ED CARROL CMT1: WITHIN 10 OF BUILDING, CHANGE TO STRUCTURE CMT2: C
 **********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-************  READY TO ROLL ******************************
-**********************************************************
-**********************************************************
-Rutherford County, NC in progress
-**********************************************************
-Harris County ESD #1, TX in progress
-**********************************************************
-Lake County, FL in progress
-**********************************************************
-Cambria County, PA in progress
-**********************************************************
 Cortland County, NY
 Contact: jared gebel <jgebel83@gmail.com>
 Sender: cville@fdcms.com or pcarrier@cortlandvillefire.org
@@ -1766,6 +1752,20 @@ WAS NOT THERE 15 MINUTES AGO
 Call #: 416 - LOOKS LIKE T ** 04/30/11 ** FIRE ST ** 2011-0000034 **
 CORTLAND_FIRE_DEPARTMENT ** Rip and Run Report
 **********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
+************  READY TO ROLL ******************************
+**********************************************************
+**********************************************************
+Rutherford County, NC in progress
+**********************************************************
+Harris County ESD #1, TX in progress
+**********************************************************
+Lake County, FL in progress
+**********************************************************
+Cambria County, PA in progress
+**********************************************************
 Erie County, PA
 Contact: 11fullern@gmail.com
 Contact: Patrick Jackson <patjackson52@gmail.com>
@@ -1777,18 +1777,7 @@ ERIE911:69D6 >STRUC FIRE-SINGLE RESIDENTIAL 6683 OTTEN CT FAIRVIEW TESTI JULIE C
 ERIE911:52C3G >FIRE/GENERAL ALARM-COMM STRUC 7301 KLIER DR XS: UNFAIRVIEW FAIRVIEW TWP DAN Map:2302 Grids:, Cad: 2011-0000040143
 ERIE911:69D2 >STRUCTURE FIRE- HIGH RISE 222 W MAIN ST XS: MYRTLE ST GIRARD BORO Map:3217 Grids:, Cad: 2011-0000041382
 **********************************************************
-Cumberland County, NJ
-Contact: Ryan Feaster <feaster.ryan@gmail.com>
-Sender: E911 ?
-E911:E22_INVEST_(VINELAND CITY)1763 CHEROKEE LA_2011-04-24 19:02:46_
-E911:E2902_STRUCTURE_(GREENWICH TWP)176 BAYSIDE RD_2011-04-24 17:27:45_AREA OF THE BAY
-E911:E22_COMM ALARM_(VINELAND CITY)CARNIVAL DISCOUNT LIQUORS / 4039 S MAIN RD_2011-04-24 12:27:19_
-E911:29R-FA_BLEEDING_(DEERFIELD TWP)246 KENYON AV/SHINDLE RES_2011-05-02 10:25:55_
-E911:29R-FA_BLEEDING_(DEERFIELD TWP)CUMBERLAND COUNTY TEC / 601 BRIDGETON AV_2011-05-02 09:27:47_NURSING OFFICE
-E911:E21_VEHICLE_(VINELAND CITY)S DELSEA DR & W ELMER RD_2011-05-01 18:46:26_
-E911:L2_COMM ALARM_(VINELAND CITY)COURTYARD SCHOOL INC / 1270 S EAST AVE_2011-05-01 17:03:36_
-E911:B2_UNKNOWNF_(VINELAND CITY)1775 ROOSEVELT BLVD / BEHIND_2011-05-01 00:10:13_
-E911:E2901_MVC_(DEERFIELD TWP)BIG OAK RD & MORTON AV_2011-04-30 00:06:19_
+Cumberland County, NJ in progress
 **********************************************************
 Alternate Chester County, PA
 Contact: Glenn Heininger <glenn.heininger@gmail.com>
