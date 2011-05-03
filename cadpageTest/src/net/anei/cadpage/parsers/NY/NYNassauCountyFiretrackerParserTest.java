@@ -142,11 +142,19 @@ public class NYNassauCountyFiretrackerParserTest extends BaseParserTest {
         "CALL:MUTUAID",
         "ADDR:125 MEACHAM AVE",
         "X:POST AVE");
+
+    doTest("T10",
+        "(FirePage) FSMFD 5/2/2011 TOA:17:36 AMBU [AMBU] 766 WILLOW ROAD BIRCH ST BROKEN\nHIP [FireTracker]",
+        "SRC:FSMFD",
+        "CALL:AMBU",
+        "ADDR:766 WILLOW ROAD",
+        "X:BIRCH ST",
+        "INFO:BROKEN HIP");
     
   }
   
   public static void main(String[] args) {
     //new NYNassauCountyFiretrackerParserTest().generateTests("T6");
-    new NYNassauCountyFiretrackerParserTest().generateTests("T5", "SRC CALL ADDR X INFO");
+    new NYNassauCountyFiretrackerParserTest().generateTests("T10", "SRC CALL ADDR X INFO");
   }
 }
