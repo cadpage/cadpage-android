@@ -22,7 +22,7 @@ public class NCRutherfordCountyParser extends FieldProgramParser {
   
   public NCRutherfordCountyParser() {
     super("RUTHERFORD COUNTY", "NC",
-           "Location:ADDR! City:CITY! Call_Type:CALL! Units:UNIT!");
+           "Location:ADDR! SKIP City:CITY! Call_Type:CALL! Units:UNIT!");
   }
   
   @Override
@@ -34,7 +34,7 @@ public class NCRutherfordCountyParser extends FieldProgramParser {
   public boolean parseMsg(String body, Data data) {
     if (!body.startsWith("Paging: ")) return false;
     body = body.substring(8).trim();
-    body = body.replace('\n', ' ').replace('=', ':');
+    body = body.replace("\n", "").replace('=', ':');
     return super.parseFields(body.split("\\*"), data);
   }
 }
