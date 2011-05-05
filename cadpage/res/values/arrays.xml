@@ -287,6 +287,7 @@
     <item>NYOrleansCounty</item>
     <item>NYOtsegoCounty</item>
     <item>NYPutnamCounty</item>
+    <item>NYRocklandCounty</item>
     <item>NYSomers</item>
     <item>NYSuffolkCountyAll</item>
     <item>NYSullivanCounty</item>
@@ -321,6 +322,7 @@
     <item>ORBentonCounty</item>
     <item>ORCrookCounty</item>
     <item>ORDeschutesCounty</item>
+    <item>ORLinnCounty</item>
     <item>ORMarionCountyN</item>
     <item>ORWashingtonCounty</item>
     <item>PAAlleghenyCounty</item>
@@ -456,6 +458,7 @@
     <item>Orleans County, NY</item>
     <item>Otsego County, NY</item>
     <item>Putnam County, NY</item>
+    <item>Rockland County, NY</item>
     <item>Somers, NY</item>
     <item>Suffolk County, NY</item>
     <item>Sullivan County, NY</item>
@@ -490,6 +493,7 @@
     <item>Benton County, OR</item>
     <item>Crook County, OR</item>
     <item>Deschutes County, OR</item>
+    <item>Linn County, OR</item>
     <item>Marion County(N), OR</item>
     <item>Washington County, OR</item>
     <item>Allegheny County, PA</item>
