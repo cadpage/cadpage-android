@@ -65,6 +65,9 @@ General Alarm, Auto Fire Alarm at 601 SUFFOLK AVE #201, BRENTWOOD  c/s: ADAMS AV
 
 Ok maybe disappear is a bit much lol \nIt just all gets to be to much sometimes and that light at the end of the long tunnel looks like a dot
 
+Huntington Manor, NY
+STRUCTURE FIRE at 7 HARE PLACE. . 15:27:04
+
 */
 
 public class NYSuffolkCountyCParser extends DispatchRedAlertParser {
