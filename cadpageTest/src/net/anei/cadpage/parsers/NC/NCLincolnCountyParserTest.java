@@ -84,6 +84,46 @@ public class NCLincolnCountyParserTest extends BaseParserTest {
         "PLACE:WOODMONT CARE CENTER",
         "X:FORNEY CREEK PKWY & WOODS LN",
         "INFO:Alarms. COMMERCIAL structure (Unknown).Caller Statement: FIRE ALARM . 1.The caller is an alarm");
+
+    doTest("T8",
+        "2647:CAD:AFD-201102514-69D09- OUTSIDE FIRE-1394 MICK LN-ORCHARD RD-[Fire Priority Info] Key Questions Complete RESPONSE: Delta RESPONDER SCRIPT: 6.A single-level structure is involved. 7.No one is reported to be injured. [05/03/11 20:54:48 SLINGERFELT] [Fire P",
+        "SRC:AFD",
+        "ID:201102514",
+        "CODE:69D09",
+        "CALL:OUTSIDE FIRE",
+        "ADDR:1394 MICK LN",
+        "X:ORCHARD RD",
+        "INFO:6.A single / level structure is involved. 7.No one is reported to be injured.");
+
+    doTest("T9",
+        "2646:CAD:ELF-31D03-31-D-3 UNCONSCIOUS/FAINTING-6471 NC 73 HWY-EAST LINCOLN HIGH SI-320-S INGLESIDE FARM RD-N LITTLE EGYPT RD-[Medical Priority Info] RESPONSE: Delta RESPONDER SCRIPT: You are responding to a patient who is unconscious (or has fainted). The patient is a 17-year-old female, who is conscious and breathing. No",
+        "SRC:ELF",
+        "ID:2646",
+        "CODE:31D03",
+        "CALL:UNCONSCIOUS/FAINTING",
+        "ADDR:6471 NC 73 HWY",
+        "PLACE:EAST LINCOLN HIGH SI",
+        "X:320 & S INGLESIDE FARM RD",
+        "INFO:N LITTLE EGYPT RD / You are responding to a patient who is unconscious (or has fainted). The patient is a 17 / year / old female, who is conscious and breathing. No");
+
+    doTest("T10",
+        "2642:CAD:ELF-201102489-29B01-29-B-1 TRAFFIC ACCIDENT-N NC 16 HWY/NC 73 HWY-[Medical Priority Info] RESPONSE: Bravo RESPONDER SCRIPT: Age unknown, Female, Conscious, Breathing. Traffic / Transportation Incidents. Injuries. Caller Statement: 2 veh . 1.The incident involves m",
+        "SRC:ELF",
+        "ID:201102489",
+        "CODE:29B01",
+        "CALL:TRAFFIC ACCIDENT",
+        "ADDR:N NC 16 HWY & NC 73 HWY",
+        "X:Age unknown, Female, Conscious, Breathing. Traffic / Transportation Incidents. Injuries. Caller Statement: 2 veh . 1.The incident involves m");
+
+    doTest("T11",
+        "2616:CAD:ELF-201102226-107B01-ASSIST MOTORIST AGENCY OFFICER-5514 NC 73 HWY-SCHRONCE RD-INVERLOCHY RD-JUST BEFORE EAST LINCOLN HIGH SCHOOL [04/19/11 05:22:28 CGRANTLAND] CALLER IS EXTREMELY UPSET [04/19/11 05:21:48 CGRANTLAND] RIGHT HAND SIDE OF RD COMING FROM LINCOLNTON [04/19/11 05:21:39 CGRANT",
+        "SRC:ELF",
+        "ID:201102226",
+        "CALL:107B01",
+        "ADDR:ASSIST MOTORIST AGENCY OFFICER",
+        "PLACE:5514 NC 73 HWY",
+        "X:SCHRONCE RD & INVERLOCHY RD",
+        "INFO:JUST BEFORE EAST LINCOLN HIGH SCHOOL / CALLER IS EXTREMELY UPSET / RIGHT HAND SIDE OF RD COMING FROM LINCOLNTON");
    }
   
   @Test
@@ -101,6 +141,6 @@ public class NCLincolnCountyParserTest extends BaseParserTest {
   
 
   public static void main(String[] args) {
-    new NCLincolnCountyParserTest().generateTests("T1");
+    new NCLincolnCountyParserTest().generateTests("T8");
   }
 }

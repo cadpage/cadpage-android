@@ -290,6 +290,15 @@ public class NYSuffolkCountyCParserTest extends BaseParserTest {
     
   }
   
+  @Test
+  public void testHuntingtonManor() {
+
+    doTest("T1",
+        "STRUCTURE FIRE at 7 HARE PLACE. . 15:27:04",
+        "CALL:STRUCTURE FIRE",
+        "ADDR:7 HARE PLACE");
+  }
+  
   public static void main(String[] args) {
     new NYSuffolkCountyCParserTest().generateTests("T1", "CALL ADDR CITY X PLACE");
   }
