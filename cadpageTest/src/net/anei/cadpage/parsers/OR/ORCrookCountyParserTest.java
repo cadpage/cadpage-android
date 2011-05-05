@@ -61,6 +61,28 @@ public class ORCrookCountyParserTest extends BaseParserTest {
         "ADDR:HWY 27 MP 2",
         "CITY:PRINEVILLE",
         "INFO:SUV");
+
+    doTest("T7",
+        "([PRNV_911] NEW INCIDENT) 5/3/2011 0805\nEVENT # 1105030076 PFD\nMINJ - INJURIES\nPRIORITY 1 \nLOCATION 1265 NW LAMBERT RD\nCITY PRINEVILL",
+        "ID:1105030076 PFD",
+        "CALL:MINJ - INJURIES",
+        "ADDR:1265 NW LAMBERT RD",
+        "CITY:PRINEVILL");
+
+    doTest("T8",
+        "([PRNV_911] NEW INCIDENT) 5/3/2011 0705\nEVENT # 1105030067 PFD\nMFALL - FALL\nPRIORITY 1 \nLOCATION 210 SE 5TH ST\nCITY PRINEVILLE\nAPT 13",
+        "ID:1105030067 PFD",
+        "CALL:MFALL - FALL",
+        "ADDR:210 SE 5TH ST",
+        "CITY:PRINEVILLE",
+        "APT:13");
+
+    doTest("T9",
+        "([PRNV_911] NEW INCIDENT) 5/3/2011 0605\nEVENT # 1105030061 PFD\nMFALL - FALL\nPRIORITY 1 \nLOCATION 14493 SE LEE WAY\nCITY PRINEVILLE\nAPT",
+        "ID:1105030061 PFD",
+        "CALL:MFALL - FALL",
+        "ADDR:14493 SE LEE WAY",
+        "CITY:PRINEVILLE");
   }
   
   public static void main(String[] args) {
