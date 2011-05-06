@@ -1,6 +1,7 @@
 package net.anei.cadpage.parsers.MD;
 
 
+import net.anei.cadpage.TestManagePreferences;
 import net.anei.cadpage.parsers.BaseParserTest;
 
 import org.junit.Test;
@@ -9,6 +10,21 @@ public class MDCharlesCountyParserTest extends BaseParserTest {
   
   public MDCharlesCountyParserTest() {
     setParser(new MDCharlesCountyParser(), "CHARLES COUNTY", "MD");
+    TestManagePreferences pmgr = getPreferences();
+    pmgr.setTestOverrideFilter(false);
+  }
+  
+  @Test
+  public void testProblem() {
+
+    doTest("T5",
+        "FILL IN, MISCELLANEOUS TRANSFER 9765 BEL ALTON NEWTOWN RD, STATION 10 26 D6-F4 F111180003 1107250 05:19",
+        "CALL:FILL IN, MISCELLANEOUS TRANSFER",
+        "ADDR:9765 BEL ALTON NEWTOWN RD",
+        "PLACE:STATION 10",
+        "MAP:26 D6-F4",
+        "ID:F111180003");
+ 
   }
   
   @Test
@@ -158,9 +174,65 @@ public class MDCharlesCountyParserTest extends BaseParserTest {
         "ID:F110610005");
   
   }
+  
+  @Test
+  public void testParser2() {
+
+    doTest("T1",
+        "10-50 PI MOTORCYCLE, EMS, ALS, ATV, BICYCLE, BIKE, 29B, 29D LEONARDTOWN RD / BILLINGSLEY RD 11 B8 Age unknown, Male, Conscious, Breathing.",
+        "CALL:10-50 PI",
+        "UNIT:MOTORCYCLE, EMS, ALS, ATV, BICYCLE, BIKE, 29B, 29D",
+        "ADDR:LEONARDTOWN RD & BILLINGSLEY RD",
+        "MAP:11 B8",
+        "INFO:Age unknown, Male, Conscious, Breathing.");
+
+    doTest("T2",
+        "TREE DOWN, MISC ROCK POINT RD / CEDAR LA 36 H5 TREE ACROSS ENTIRE RDWY F111240003 1107622 06:14",
+        "CALL:TREE DOWN",
+        "UNIT:MISC",
+        "ADDR:ROCK POINT RD & CEDAR LA",
+        "MAP:36 H5",
+        "INFO:TREE ACROSS ENTIRE RDWY",
+        "ID:F111240003");
+
+    doTest("T3",
+        "ANIMAL BITE, ATTACK , EMS ,BLS 3A, 3B 17971 CYPRESS DR 38 G4 3 year old, Male, Conscious, Breathing. Animal Bites / Attacks. SERIOUS hemorrhage. E111180034 1107296",
+        "CALL:ANIMAL BITE, ATTACK , EMS ,BLS",
+        "UNIT:3A, 3B",
+        "ADDR:17971 CYPRESS DR",
+        "MAP:38 G4",
+        "INFO:3 year old, Male, Conscious, Breathing. Animal Bites / Attacks. SERIOUS hemorrhage. E111180034 1107296");
+
+    doTest("T5",
+        "FILL IN, MISCELLANEOUS TRANSFER 9765 BEL ALTON NEWTOWN RD, STATION 10 26 D6-F4 F111180003 1107250 05:19",
+        "CALL:FILL IN, MISCELLANEOUS TRANSFER",
+        "ADDR:9765 BEL ALTON NEWTOWN RD",
+        "PLACE:STATION 10",
+        "MAP:26 D6-F4",
+        "ID:F111180003");
+
+    doTest("T6",
+        "DETACHED SHED / GARAGE FIRE 10855 CHARLES ST, BURCHS GARAGE 17 K12 OUT OF CONTROL BRUSH FIRE..DEPUTY FLICK ON SCENE F111180002 1107249 06:00",
+        "CALL:DETACHED SHED/GARAGE FIRE",
+        "ADDR:10855 CHARLES ST",
+        "PLACE:BURCHS GARAGE",
+        "MAP:17 K12",
+        "INFO:OUT OF CONTROL BRUSH FIRE..DEPUTY FLICK ON SCENE",
+        "ID:F111180002");
+
+    doTest("T7",
+        "10-50 UNDETERMINED, EMS, BLS 29A SWAN POINT RD / ROCK PT RD 36 G11 ACCIDENT IS ON ROCK PT RD IAO SWAN PT RD, UNKNOWN INJURIES, SINGLE VEH INTO TELEPHONE POLE E1107[Class 1,2 & 3 days] ROCK POINT RD / DELOZIER FARM RD 34 A13 CALLER ADVISED FIRE IN FIELD SOMEONE IS TRYING TO PUT IT OUT F110710003 11044",
+        "CALL:10-50 UNDETERMINED",
+        "UNIT:EMS, BLS 29A",
+        "ADDR:SWAN POINT RD & ROCK PT RD",
+        "MAP:36 G11",
+        "INFO:ACCIDENT IS ON ROCK PT RD IAO SWAN PT RD, UNKNOWN INJURIES, SINGLE VEH INTO TELEPHONE POLE E1107[Class 1,2 & 3 days] ROCK POINT RD / DELOZIER FARM RD 34 A13 CALLER ADVISED FIRE IN FIELD SOMEONE IS TRYING TO PUT IT OUT",
+        "ID:F110710003");
+   
+  }
     
   public static void main(String[] args) {
-    new MDCharlesCountyParserTest().generateTests("T18", "CALL UNIT ADDR PLACE CODE INFO ID");
+    new MDCharlesCountyParserTest().generateTests("T2", "CALL UNIT ADDR PLACE CODE MAP INFO ID");
   }
 
 }

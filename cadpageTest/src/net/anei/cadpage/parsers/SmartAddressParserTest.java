@@ -33,11 +33,17 @@ public class SmartAddressParserTest extends BaseParserTest {
   
   @Test
   public void testProblem() {
+    doTest(SKIP, "WHERE 24 BLOOD KEN TOWN STORY",
+        "ADDR:24 BLOOD",
+        "CITY:KEN TOWN");
   }
 
   
   @Test
   public void testProblems() {
+    
+    doTest(CALL, FLAG_ANCHOR_END, "NEXT TO 4574",
+        "CALL:NEXT TO 4574");
     
     doTest(CALL, "F-ACCIDENT W/ INJURIES BOLDEN RD XS: COOPER RD & PITTSBURGH RD KENSBURG STUFF",
         "CALL:F-ACCIDENT W/INJURIES",
