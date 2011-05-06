@@ -308,10 +308,10 @@ public class SmsMsgInfo {
   }
 
   // Google can handle things like ST 666 or US 666 or RTE 666.
-  // But it doesn't loke US RTE 666
+  // But it doesn't like US RTE 666
   // If we find a construct like that, remove the middle section
   private static final Pattern DBL_ROUTE_PTN = 
-    Pattern.compile("\\b([A-Z]{2}|STATE) +(RT|RTE|ROUTE|HW|HWY) +(\\d+)\\b", Pattern.CASE_INSENSITIVE);
+    Pattern.compile("\\b([A-Z]{2}|STATE) *(RT|RTE|ROUTE|HW|HWY|HY) +(\\d+)\\b", Pattern.CASE_INSENSITIVE);
   private String cleanDoubleRoutes(String sAddress) {
     Matcher match = DBL_ROUTE_PTN.matcher(sAddress);
     int pt = 0;
