@@ -50,6 +50,7 @@ public class SmsMsgInfoTest {
     doMapTest("DR2", "345 w st 30,KENBURG,XX", "345 w st hwy 30");
     doMapTest("DR3", "345 XX 22,KENBURG,XX", "345 XX RT 22");
     doMapTest("DR4", "345 XY RT 22,KENBURG,XX", "345 XY RT 22");
+    doMapTest("DR5", "3643 ST 281,KENBURG,XX", "3643 STHY 281");
     
     doMapTest("BLK1", "6000 REIDSVILLE RD,KENBURG,XX", "6000BLK REIDSVILLE RD");
     doMapTest("BLK2", "6000 OBLKA ST,KENBURG,XX", "6000 OBLKA ST");
