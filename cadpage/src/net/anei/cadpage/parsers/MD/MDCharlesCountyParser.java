@@ -4,6 +4,7 @@ package net.anei.cadpage.parsers.MD;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import net.anei.cadpage.ManagePreferences;
 import net.anei.cadpage.SmsMsgInfo.Data;
 import net.anei.cadpage.parsers.SmartAddressParser;
 
@@ -39,17 +40,25 @@ Contact: JLM <akgnome@yahoo.com>
 Sender: ems12alerting-bounces@sms.mdfiretech.com
 10-50 PI MOTORCYCLE, EMS, ALS, ATV, BICYCLE, BIKE, 29B, 29D LEONARDTOWN RD / BILLINGSLEY RD 11 B8 Age unknown, Male, Conscious, Breathing.
 
+Contact: Jason Brooks <jason.w.brooks2@gmail.com>
+Sender: dispatch@ccso.us
+TREE DOWN, MISC ROCK POINT RD / CEDAR LA 36 H5 TREE ACROSS ENTIRE RDWY F111240003 1107622 06:14
+ANIMAL BITE, ATTACK , EMS ,BLS 3A, 3B 17971 CYPRESS DR 38 G4 3 year old, Male, Conscious, Breathing. Animal Bites / Attacks. SERIOUS hemorrhage. E111180034 1107296
+FILL IN, MISCELLANEOUS TRANSFER 9765 BEL ALTON NEWTOWN RD, STATION 10 26 D6-F4 F111180003 1107250 05:19
+DETACHED SHED / GARAGE FIRE 10855 CHARLES ST, BURCHS GARAGE 17 K12 OUT OF CONTROL BRUSH FIRE..DEPUTY FLICK ON SCENE F111180002 1107249 06:00
+10-50 UNDETERMINED, EMS, BLS 29A SWAN POINT RD / ROCK PT RD 36 G11 ACCIDENT IS ON ROCK PT RD IAO SWAN PT RD, UNKNOWN INJURIES, SINGLE VEH INTO TELEPHONE POLE E1107[Class 1,2 & 3 days] ROCK POINT RD / DELOZIER FARM RD 34 A13 CALLER ADVISED FIRE IN FIELD SOMEONE IS TRYING TO PUT IT OUT F110710003 11044
+
  */
 
 public class MDCharlesCountyParser extends SmartAddressParser {
   
-  private static final Pattern UNIT_PATTERN = Pattern.compile("(,? +(EMS|ALS|BLS|APPARATUS|TRUCK|AMBULANCE|MOTORCYCLE|ATV|BICYCLE|BIKE|MISC|\\d{1,2}[A-D]))+");
+  private static final Pattern UNIT_PATTERN = Pattern.compile("(?:,? +(?:EMS|ALS|BLS|APPARATUS|TRUCK|AMBULANCE|MOTORCYCLE|ATV|BICYCLE|BIKE|MISC|\\d{1,2}[A-D]))+\\b");
   private static final Pattern MAP_PATTERN = Pattern.compile("\\b\\d{1,2} [A-Z]\\d{1,2}(?:-[A-Z]\\d{1,2})?\\b");
   private static final Pattern ID_PATTERN = Pattern.compile("\\bF\\d{9}\\b");
   
   @Override
   public String getFilter() {
-    return "rc.263@c-msg.net";
+    return "rc.263@c-msg.net,dispatch@ccso.us";
   }
 
 
@@ -61,12 +70,22 @@ public class MDCharlesCountyParser extends SmartAddressParser {
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     
-    if (! subject.equals("*CAD*|CAD")) return false;
+    boolean good = false;
+    if (subject.equals("*CAD*|CAD")) good = true;
     
     Matcher match = ID_PATTERN.matcher(body);
     if (match.find()) {
+      good = true;
       data.strCallId = body.substring(match.start(),match.end());
       body = body.substring(0,match.start()).trim();
+    }
+    
+    // Either a CAD subject or a pattern match is good enough to classify this
+    // as a CAD page.  But even if neither is found, this could be a possible
+    // page.  But at this point the identification is so weak we will only pursue
+    // it if a valid sender filter exists and has been passed
+    if (!good) {
+      if (ManagePreferences.overrideFilter() && ManagePreferences.filter().length() <= 1) return false;
     }
     
     // There is almost always a code pattern (or whatever it really is)
@@ -100,7 +119,7 @@ public class MDCharlesCountyParser extends SmartAddressParser {
     // If there was a unit match, strip off the leading call description and unit
     if (unitSt >= 0) {
       data.strUnit = body.substring(unitSt, unitEnd).trim();
-      if (data.strUnit.startsWith(", ")) data.strUnit = data.strUnit.substring(2);
+      if (data.strUnit.startsWith(", ")) data.strUnit = data.strUnit.substring(2).trim();
       data.strCall = body.substring(0, unitSt);
       body = body.substring(unitEnd).trim();
       
@@ -114,6 +133,7 @@ public class MDCharlesCountyParser extends SmartAddressParser {
         Parser p = new Parser(body);
         parseAddress(p.get(','), data);
         data.strPlace = p.get();
+        good = true;
         break;
       }
       
@@ -130,6 +150,7 @@ public class MDCharlesCountyParser extends SmartAddressParser {
           if (res2.getStatus() > 0) {
             res2.getData(data);
             data.strCall = append(fld1, ", ",  data.strCall);
+            good = true;
             break;
           } 
 
@@ -164,6 +185,6 @@ public class MDCharlesCountyParser extends SmartAddressParser {
       data.strPlace = "";
     }
     
-    return true;
+    return good;
   }
 }

@@ -498,7 +498,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
       }
       
       // If we found a city beyond this start point, just use that as the terminator
-      if (! padField && parseToCity(sAddr, sAddr+1, result)) {
+      if (! padField && parseToCity(sAddr, sAddr+2, result)) {
         if (locked) result.initAddress--;
         return true;
       }
@@ -609,7 +609,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     // ndx points to the first connector after the first road name.
 
     // If there is a city terminating the address, just parse up to it
-    if (!padField && parseToCity(sAddr, ndx+1, result)) {
+    if (!padField && parseToCity(sAddr, ndx+2, result)) {
       result.initAddress = result.startAddress = sAddr;
       if (atStart) result.initAddress--;
       return true;
@@ -866,8 +866,9 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     // end of the line without looking for a city
     boolean parseToEnd = isFlagSet(FLAG_ANCHOR_END);
     boolean padField = isFlagSet(FLAG_PAD_FIELD);
-    
-    if (!parseToEnd && lastCity <= stNdx) return false;
+
+    if (srcNdx >= tokens.length) return false;
+    if (!parseToEnd && lastCity < srcNdx) return false;
     
     boolean flexAt = isFlagSet(FLAG_AT_PLACE | FLAG_AT_BOTH);
     

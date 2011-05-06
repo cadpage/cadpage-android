@@ -1135,8 +1135,6 @@ New Fire Run: 2011-75288,Nature: 28C01G-STROKE/CVA - Not alert - Greater
 than one hour onset,MR18,Location: 158 CHARLIE,Building: ,Cross: ,,Grid:
 212K,Map: 4476,.
 
- 
-
 Run# 2011-75288 Trk MR181 FD2>> (01900110-940),.
 ***************************************************************************
 ***************************************************************************
@@ -1720,15 +1718,6 @@ bnnfeed:U/D NY| Suffolk| Brentwood| *Explosion*| 43 4th St| Explosions was felt 
 bnnfeed:U/D NY| Suffolk| Brentwood| *Explosion*| 43 4th St| CMD adv EMS transporting (1) to ssh w/ unspecified inj's. Rptd to be a neighbor. Also req radio silence to conduct a sound survey for vics in the original house. Crews in bsmt w/ thermal imaging cameras checking for any vics. M/A from islip for the collapse trailer & w. Islip to the scene| <C> BNN | NYL690//NYL727/NYL026/NYL4219 | #382871 04/24/2011 11:11:26
 bnnfeed:U/D NY| Suffolk| Brentwood| *Explosion*| 43 4th St| CMD adv pri srches in original structure are negative. awaiting collapse unit to shore up to conduct addt'l srches. addt'l M/A from commack for cameras & listening devices to the scene. numerous roadways closed for long duration of time. extended ops| <C> BNN | NYL690//NYL728/NYL026/NYL4219 | #382871 04/24/2011 11:24:42
 **********************************************************
-Cortland County, NY
-Contact: jared gebel <jgebel83@gmail.com>
-Sender: cville@fdcms.com
-(3609 PLEASANTVIEW DR) 17:28 , EMS ONLY , 80 YO FEMALE - SUFFERS A BROKEN BACK- UNABLE TO EAT OR DRINK\n RECENTLY RELEASED FROM THE HOSPITAL FO ,
-
-(839 BENNIE RD) 18:32 , EMS ONLY , 85 YO MALE- DIFF BREATHING\nASPEN WAY UNIT\n\n\n\n,
-(697 MCLEAN RD) 15:50 , CO DETECTOR , CARBON MONOXIDE DETECTOR GOING OFF\nNEWLY BUILT HOUSE\n\n\n\n,
-
-**********************************************************
 Erie County, NY (again)
 Contact: afshar yusuf <afshar.yusuf@gmail.com>
 Sender: dispatch@townofhamburgny.com
@@ -1766,16 +1755,55 @@ Contact: Bill@mydomain.com
 Bill:9783 CHARLEYS CREEK RD TUCKASEGEE MDL 26A03 2011009480 22:20:01 SICK PERSON (SPECIFIC DIAGNOSIS) CALLER ADV SHE HAD HEART SURGERY A LITTLE WHILE AGO AND HER
 **********************************************************
 Prince Georges County, MD (again)
+Requires reverse merge support
+
 Contact: James Busi <jb10766@gmail.com>
 Contact: "nhedrick36@aol.com" <nhedrick36@aol.com>
 Sender: alrtNNN@alert.princegeorgescountymd.gov
+
 (1/2) DISPATCH From FED01:ALS1, Medic Local, 4500 LORDS LANDING RD #205, PP, btwn BISHOPS BEQUEST RD and CAPTAIN
 (1/2) DISPATCH From FED10:ALS1, Medic Local, 6802 BURCH HILL RD, PP, btwn BRANDYWINE RD and COLLIN HILL WAY, TGC2
+
+
+(2/2) 2, 4504, 5884 C 1, Medical ProQA recommends dispatch at this time, Unit:A820
+(1/2) DISPATCH From FED10:BLS0, BLS Amb, 12003 WALLACE LN, PP, btwn DULEY STATION RD and WALLACE LANDING CT, TGC
+(2/2) 2, 4504, 5884 C 1, Medical ProQA recommends dispatch at this time, Unit:A820
+(1/2) DISPATCH From FED10:BLS0, BLS Amb, 12003 WALLACE LN, PP, btwn DULEY STATION RD and WALLACE LANDING CT, TGC
+
+(3/3) TK837
+(2/3) 5882 G 1, Fire ProQA recommends dispatch at this time, Units:BO887, E823, E825, E847, RE840, SQ827, TK832,
+(1/3) DISPATCH From FED10:HOUSEF, House Fire, 10511 MULLIKIN DR, PP, btwn PARKVIEW LN and GATOR PL, TGC3, 2514,
+
+(2/2) 651 K 9, Medical ProQA recommends dispatch at this time, Units:A820, MD845
+(1/2) DISPATCH From FED01:ALS1, Medic Local, 4905 ASHFORD PL, PP, btwn CRANFORD DR and ASHFORD DR, TGA2, 2017, 5
+
+Contact:kevin <kgilmore82@gmail.com>
+Sender: cad1825@alert.princegeorgescountymd.gov
+ 3/3 / 843, E820 
+ 2/3 / 652 K 10, PER ID 1879 FB NEEDED TO RESPOND TO 5TH FL FOR SEMI CONCIOUS SICK CITZ..NFI @ THIS TIME, Units:A
+ 1/3 / DISPATCH From FED01:BLS, BLS Amb, 14741 GOVERNOR ODEN BOWIE DR, PP, btwn ELM ST and MAIN ST, TGA2, 2009, 5
 **********************************************************
 Jackson County, NC
 Contact: Mark wike <para139@yahoo.com>
 Sender: Bill@mydomain.com
 Bill:9783 CHARLEYS CREEK RD TUCKASEGEE MDL 26A03 2011009480 22:20:01 SICK PERSON (SPECIFIC DIAGNOSIS) CALLER ADV SHE HAD HEART SURGERY A LITTLE WHILE AGO AND HER
+**********************************************************
+Onslow County, NC
+Contact: Chris Bennett <fireman2497@gmail.com>
+Sender: CAD@ocmail2.onslownc.gov
+Body: 1 of 2\n
+FRM:CAD@ocmail2.onslownc.gov\n
+MSG:CAD:CONVULSIONS/SEIZURES;187 COSTON RD;RICH;10;[Medical Priority Info]
+Key Questions Complete RESPONSE:\n
+(Con't 2 of 2\n
+Delta RESPONDER SCRIPT: 13 year old, Male, Conscious, Breathing. Convulsions
+/ Seizures. CONTINUOUS or MULTIPLE seizures (Epileptic or P(End)
+**********************************************************
+Charles County, MD (alternate)
+Contact: Donald simms <fire_freak74@yahoo.com>, 2403461358@vtext.com
+MULTI FAMILY HOUSE FIRE, TOWNHOUSE, M/F, APARTMENT, SCOTTSDALE PL, NEXT TO 4574 10 E9 CALLER ADV THAT SHE CAN SEE FLAMES  HERE IS ONE
+STRUC, ODOR OF SMOKE - NO FIRE, M/F DWELLING, TOWNHOUSE, APARTMENT, COMMERCIAL BLDG, MULTI FAMILY HOUSE, BUILDING KG COUNTY, 16257 DALGREN RD
+**********************************************************
 **********************************************************
 **********************************************************
 ************  READY TO ROLL ******************************
@@ -1856,15 +1884,11 @@ CHIMNEY FIRE **1905 LENAPE UNIONVILLE RD*RED LION RD & MUNICIPAL BOUNDA*POCOPS*2
 **********************************************************
 **********************************************************
 **********************************************************
-Unknown using Charles County, MD
-Contact: Donald simms <fire_freak74@yahoo.com>, 2403461358@vtext.com
-MULTI FAMILY HOUSE FIRE, TOWNHOUSE, M/F, APARTMENT, SCOTTSDALE PL, NEXT TO 4574 10 E9 CALLER ADV THAT SHE CAN SEE FLAMES  HERE IS ONE
-
-Contact: Jason Brooks <jason.w.brooks2@gmail.com>
-Sender: dispatch@ccso.us
-TREE DOWN, MISC ROCK POINT RD / CEDAR LA 36 H5 TREE ACROSS ENTIRE RDWY F111240003 1107622 06:14
-ANIMAL BITE, ATTACK , EMS ,BLS 3A, 3B 17971 CYPRESS DR 38 G4 3 year old, Male, Conscious, Breathing. Animal Bites / Attacks. SERIOUS hemorrhage. E111180034 1107296
-TREE DOWN, MISC ROCK POINT RD / CEDAR LA 36 H5 TREE ACROSS ENTIRE RDWY F111240003 1107622 06:14
-FILL IN, MISCELLANEOUS TRANSFER 9765 BEL ALTON NEWTOWN RD, STATION 10 26 D6-F4 F111180003 1107250 05:19
-DETACHED SHED / GARAGE FIRE 10855 CHARLES ST, BURCHS GARAGE 17 K12 OUT OF CONTROL BRUSH FIRE..DEPUTY FLICK ON SCENE F111180002 1107249 06:00
-10-50 UNDETERMINED, EMS, BLS 29A SWAN POINT RD / ROCK PT RD 36 G11 ACCIDENT IS ON ROCK PT RD IAO SWAN PT RD, UNKNOWN INJURIES, SINGLE VEH INTO TELEPHONE POLE E1107[Class 1,2 & 3 days] ROCK POINT RD / DELOZIER FARM RD 34 A13 CALLER ADVISED FIRE IN FIELD SOMEONE IS TRYING TO PUT IT OUT F110710003 11044
+Cortland County, NY
+Contact: jared gebel <jgebel83@gmail.com>
+Sender: cville@fdcms.com
+(3609 PLEASANTVIEW DR) 17:28 , EMS ONLY , 80 YO FEMALE - SUFFERS A BROKEN BACK- UNABLE TO EAT OR DRINK\n RECENTLY RELEASED FROM THE HOSPITAL FO ,
+(839 BENNIE RD) 18:32 , EMS ONLY , 85 YO MALE- DIFF BREATHING\nASPEN WAY UNIT\n\n\n\n,
+(697 MCLEAN RD) 15:50 , CO DETECTOR , CARBON MONOXIDE DETECTOR GOING OFF\nNEWLY BUILT HOUSE\n\n\n\n,
+(3643 STHY 281) 12:31 , EMS ONLY , PARKING LOT B LARGE OVERHEAD DOOR, 27 Y/O MALE DOWN\nSYNCOPAL EPISODE\n\n\n\n,
+(839 BENNIE RD) 08:24 , EMS ONLY , 81 MALE IN LEGASEY COURT NOT ALERT PER NORMAL\n\n\n\n,
