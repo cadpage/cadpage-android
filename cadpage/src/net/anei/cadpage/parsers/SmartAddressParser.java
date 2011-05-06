@@ -180,7 +180,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     
     // C/S should be in this list, but it gets changed before we parse stuff
     setupDictionary(ID_CROSS_STREET, "XS:", "X:");
-    setupDictionary(ID_APPT, "APT:", "APT", "#");
+    setupDictionary(ID_APPT, "APT:", "APT", "#", "SP");
   }
   
   private String[] getKeywords(Properties table) {

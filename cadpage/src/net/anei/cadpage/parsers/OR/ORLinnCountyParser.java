@@ -65,7 +65,7 @@ public class ORLinnCountyParser extends FieldProgramParser {
   
   public ORLinnCountyParser() {
     super(CITY_LIST, "LINN COUNTY", "OR",
-           "CALL CALL!+? ADDR/SXP! X/Z? ID! UNIT INFO");
+           "CALL CALL!+? ADDR/SXP! X/Z? MAP! UNIT INFO");
   }
   
   @Override
@@ -87,8 +87,8 @@ public class ORLinnCountyParser extends FieldProgramParser {
     }
   }
   
-  private class MyIdField extends IdField {
-    public MyIdField() {
+  private class MyMapField extends MapField {
+    public MyMapField() {
       setPattern(Pattern.compile("\\d+(?:[A-Z]\\d\\d)?(?:\\*\\d\\d)?"));
     }
   }
@@ -96,7 +96,7 @@ public class ORLinnCountyParser extends FieldProgramParser {
   @Override
   public Field getField(String name) {
     if (name.equals("CALL")) return new MyCallField();
-    if (name.equals("ID")) return new MyIdField();
+    if (name.equals("MAP")) return new MyMapField();
     return super.getField(name);
   }
 }
