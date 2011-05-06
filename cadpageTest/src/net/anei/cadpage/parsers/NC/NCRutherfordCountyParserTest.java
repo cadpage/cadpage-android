@@ -64,8 +64,8 @@ public class NCRutherfordCountyParserTest extends BaseParserTest {
     
   }
 
-//public static void main(String[] args) {
-//    new NCRutherfordCountyParserTest().generateTests("T1");
-//  }
+public static void main(String[] args) {
+    new NCRutherfordCountyParserTest().generateTests("T1");
+  }
 
 }

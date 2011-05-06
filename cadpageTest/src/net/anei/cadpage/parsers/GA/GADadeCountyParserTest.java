@@ -23,7 +23,7 @@ public class GADadeCountyParserTest extends BaseParserTest {
         "MAP:10-D1,E1",
         "ID:2011-0000000796");
     
-    doTest("T1",
+    doTest("T2",
         "DADE COUNTY 911:M26 >SICK PERSON 391 BIBLE GULF RD XS: 869 TATUM GULF RD OFF OLD STATE RD HEAD RIVER KEATON, GLENN Map:12-D2 Grids:0,0 Cad: 2011-0000000651",
         "CALL:SICK PERSON",
         "ADDR:391 BIBLE GULF RD",
@@ -33,7 +33,7 @@ public class GADadeCountyParserTest extends BaseParserTest {
         "MAP:12-D2",
         "ID:2011-0000000651");
 
-    doTest("T2",
+    doTest("T3",
         "DADE COUNTY 911:M5 >FALL - ANY 2862 YANKEE RD XS: HWY 157 S HEAD RIVER KEENER, CAROL Map:11,12 Grids:0,0 Cad: 2011-0000001152",
         "CALL:FALL - ANY",
         "ADDR:2862 YANKEE RD",
@@ -43,7 +43,7 @@ public class GADadeCountyParserTest extends BaseParserTest {
         "MAP:11,12",
         "ID:2011-0000001152");
         
-    doTest("T3",
+    doTest("T4",
         "DADE COUNTY 911:50PI >M.V.A. - POSSIBLE INJURIES 13500 HWY 136 E XS: N & S MOORE RD NEW SALEM ROBERTS, CHIP Map:6,15 Grids:0,0 Cad: 2011-0000000992",
         "CALL:MVA - POSSIBLE INJURIES",
         "ADDR:13500 HWY 136 E",
@@ -53,7 +53,7 @@ public class GADadeCountyParserTest extends BaseParserTest {
         "MAP:6,15",
         "ID:2011-0000000992");
         
-    doTest("T4",
+    doTest("T5",
         "DADE COUNTY 911:M1 >ABDOMINAL PAIN/PROBLEM 2321 OLD STATE RD XS: 16548 HWY 157 S HEAD RIVER CHAD LANIER Map:11,12 Grids:0,0 Cad: 2011-0000001270",
         "CALL:ABDOMINAL PAIN/PROBLEM",
         "ADDR:2321 OLD STATE RD",
@@ -63,7 +63,7 @@ public class GADadeCountyParserTest extends BaseParserTest {
         "MAP:11,12",
         "ID:2011-0000001270");
         
-    doTest("T5",
+    doTest("T6",
         "DADE COUNTY 911:78 >ASSISTANCE/ MUTUAL AID 84 RUSHING WATER TRL CHRISTY / WALKER Cad: 2011-0000001334",
         "CALL:ASSISTANCE/MUTUAL AID",
         "ADDR:84 RUSHING WATER TRL",
