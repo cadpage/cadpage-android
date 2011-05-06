@@ -26,17 +26,17 @@ public class PACambriaCountyParser extends FieldProgramParser {
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "JO", "JOHNSTOWN"
   });
-  
-  private static final Pattern MARKER = Pattern.compile("^\\[\\d+\\] \\d+ ");
+  // /\\[\\d+\\]
+  private static final Pattern MARKER = Pattern.compile("\\d+ ");
   
   public PACambriaCountyParser() {
     super(CITY_CODES, "CAMBRIA COUNTY", "PA",
-           "Time;SKIP! Nature:CALL! Location:ADDR/y! Sta:UNIT!");
+           "Time:SKIP! Nature:CALL! Location:ADDR/y! Sta:UNIT!");
   }
 
   @Override
   protected boolean parseMsg(String body, Data data) {
-    
+
     Matcher match = MARKER.matcher(body);
     if (!match.find()) return false;
     body = body.substring(match.end()).trim();
