@@ -24,10 +24,12 @@ THINKS HE IS DECEASED, Units:487 - From 504 02/08/2011 19:30:00 TXT STOP to opt-
 
 :FRVEH, F2, VEHICLE FIRE, 3541 LAKETON RD, PEN, btwn LINDBERG AVE and NELBON AVE, EFD1, 225001
 
-
 Contact: Justin Hale <jhale715@yahoo.com>
 ALLEGHENY COUNTY 911 :QRS3, Q3, E-3 QRS / EMS ASSIST, 1000 ROSS PARK MALL DR, ROS, btwn ROSS PARK DR and CHERYL DR, CALIFORNIA PIZZA KITCHEN, NFD3, 24700
 
+Contact: Kevin Armstrong <kevinarmstrong72@gmail.com>
+Sender: 4127802418
+ALLEGHENY COUNTY 911 :27D3S, E0, STABBING - CENTRAL WOUNDS, 612 CENTER AVE, ASP, btwn E 6TH ST and W 8TH ST, NMD1, E14004, Medical ProQA recommends dispatch at this time, Units:142, 269 - From 406 05/07/2011 02:34:31 TXT STOP to opt-out
 
 */
 
@@ -69,8 +71,9 @@ public class PAAlleghenyCountyParser extends SmsMsgParser {
     int fldCnt = flds.length;
     if (fldCnt < 6) return false;
     
-    // Fields 0 & 2 make up the call, field 1 is skipped
+    // Fields 0 & 2 make up the call, field 1 is call priority
     data.strCall = flds[0] + " - " + flds[2];
+    data.strPriority = flds[1];
     
     // Field 3 is up for grabs
     // Field 4 should be a 3 character town code
