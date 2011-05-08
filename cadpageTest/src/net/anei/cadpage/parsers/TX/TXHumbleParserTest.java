@@ -83,24 +83,8 @@ public class TXHumbleParserTest extends BaseParserTest {
         "X:Atascocita Rd Hunters Ter",
         "UNIT:E-M29 E-E39",
         "ID:201105192");
-    
-    doTest("T7",
-        "[AVFD EMS] - Incident 201102564 Unit E-M19 Disp 02:21:28 Enroute 02:25:17 Arrived Transport At Hosp Available 02:41:10",
-        "SRC:AVFD FIRE",
-        "INFO:Disp 02:21:28 Enroute 02:25:17 Arrived Transport At Hosp Available 02:41:10",
-        "UNIT:E-M19",
-        "ID:201102564");
   }
   
-  
-  /* [] - Incident 201102386 Unit E-M29 Disp 21:47:00 Enroute 21:48:10 Arrived 21:51:08 Transport 22:03:03 At Hosp 22:15:07 Available 22:37:58
-
-  [AVFD EMS] - Incident 201102564 Unit E-M19 Disp 02:21:28 Enroute 02:25:17 Arrived Transport At Hosp Available 02:41:10
-
-  [AVFD EMS] - Incident 201102646 Unit E-M19 Disp 17:48:59 Enroute 17:49:04 Arrived 17:56:17 Transport 18:28:34 At Hosp 18:39:50 Available 17:48:59
-
-  [AVFD] - Incident 201102759 Unit E-E39 Disp 11:16:14 Enroute 11:18:31 Arrived 11:25:44 Transport At Hosp Available 11:27:40
-  */
   public static void main(String[] args) {
     new TXHumbleParserTest().generateTests("T1");
   }

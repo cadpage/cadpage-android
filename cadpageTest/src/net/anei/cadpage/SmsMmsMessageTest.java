@@ -234,6 +234,13 @@ public class SmsMmsMessageTest {
     doParseTest("NYSuffolkCounty",
         "Body:(1/2)Daniel M. Agababian - Sender: paging@firerescuesystems.xohost.com\n*** 16 - Rescue *** 30 DEER SHORE SQ CS: DEER PARK AVE  / BAY SHORE RD TOA: 13:04",
         "paging@firerescuesystems.xohost.com", "","*** 16 - Rescue *** 30 DEER SHORE SQ CS: DEER PARK AVE  / BAY SHORE RD TOA: 13:04", false);
+    
+    doParseTest("KYErlanger",
+        "pscc@ci.erlanger.ky.us\nSUBJ:Alert: Unconscious / Unresponsive\nMSG:\nALRM LVL: 1\nLOC:\n32 DUDLEY RD\nEDGEWOOD\nBTWN: MAPLE LN & WILDROSE DR\n\nRCVD AS E-911 Call\n\nCOM:\nSUBJ FELL IN BATHROOM\nUNK IF BREATHING\nBETWEEN THE TOILET AND BATH TUB\n\nCT:\n22-RCA at POS 03\n",
+        "pscc@ci.erlanger.ky.us",
+        "Alert: Unconscious / Unresponsive",
+        "ALRM LVL: 1\nLOC:\n32 DUDLEY RD\nEDGEWOOD\nBTWN: MAPLE LN & WILDROSE DR\n\nRCVD AS E-911 Call\n\nCOM:\nSUBJ FELL IN BATHROOM\nUNK IF BREATHING\nBETWEEN THE TOILET AND BATH TUB\n\nCT:\n22-RCA at POS 03");
+
   }
   
   private void doParseTest(String title, String body, String expFrom, String expSubject, String expBody) {

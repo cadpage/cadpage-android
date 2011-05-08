@@ -212,8 +212,18 @@ public class DESussexCountyParserTest extends BaseParserTest {
         "CITY:Lewes",
         "PLACE:Gosling Creek Purchase/ 123 Ha");
 
-
+    doTest("T37",
+        "(Chief ALT) [82 EMS] -- Interfacillity/Palliative-ALS -- 36101 Seaside Blvd Rehoboth Beach 19971 -- Brandywine Assisted Living",
+        "SRC:82 EMS",
+        "CALL:Interfacillity/Palliative-ALS",
+        "ADDR:36101 Seaside Blvd",
+        "CITY:Rehoboth Beach",
+        "PLACE:Brandywine Assisted Living");
     
+  }
+  
+  public static void main(String[] args) {
+    new DESussexCountyParserTest().generateTests("T38", "SRC CALL ADDR CITY PLACE");
   }
 }
     		
