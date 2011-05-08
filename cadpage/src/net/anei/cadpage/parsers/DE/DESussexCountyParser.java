@@ -44,6 +44,7 @@ Sender: msg@cfmsg.com <From%3Amsg@cfmsg.com>
 
 Contact: cmr199182@yahoo.com
 (Chief ALT) [82 EMS] -- Medical Alert -- 18240 Robinsonville Rd Lewes 19958 -- Gosling Creek Purchase/ 123 Ha
+(Chief ALT) [82 EMS] -- Interfacillity/Palliative-ALS -- 36101 Seaside Blvd Rehoboth Beach 19971 -- Brandywine Assisted Living
 
  */
 
