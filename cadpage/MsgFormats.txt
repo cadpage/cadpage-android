@@ -1974,6 +1974,7 @@ COMMENT: no ad SEVERE THUNDERSTORM WARNING TIL 2:30AM
 **********************************************************
 Wilkes County, NC
 Contact: wfdffps@gmail.com
+Sender: CAD@wilkes.nc.local
 
 FRM:CAD@wilkes.nc.local
 MSG:CAD:WCFD;741;05/09/2011 14:38:38;UNRESPONSIVE;100 WINDING TRAILS PL
