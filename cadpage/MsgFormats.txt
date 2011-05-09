@@ -1841,6 +1841,17 @@ Contact: "firefighter3417@hotmail.com" <firefighter3417@hotmail.com>
 Sender: 3347978569
 Fwd: CAD:AMBULANCE NEEDED;INLAND GAS STATION;17 YOF SEVERE STOMACH PAINS [05/06/11 22:54:49 HAGEN] SR 15 AND SR 5 ER TO STATION [05/06/11 22:55:20 BETH]
 **********************************************************
+St Joseph County, IN
+Contact: Eric Yoder <pennfire38@sbcglobal.net>
+Sender: rc.425@c-msg.net
+Needs to be cleaned up somehow!
+Subject:CAD\n[!] ->Inc Addr = 00017 RIVERCREST DREquip = PENN4Create = 16 17 39Asgned = 16 19 43Eroute = 16 20 40Scene = 16 27 13Tran\n
+Subject:CAD\nsp =Arrive =Avail = 16 29 04Rpt # = 11-21000478\n
+Subject:CAD\n[!] ^ 11425 MCKINLEY HW PE :(55231) BELAIR STGAS LEAK FROM PUTING IN A POST 1626,006NIPSCO 1627,014PEN4A\n
+Subject:CAD\n87, PREMISE # 1619,006574-674-9624 NO KEYHOLDER AT THIS TIME 1619,006OSCEO,ME12 ,PENN4\n
+Subject:CAD\n[!] ^ 17 RIVERCREST DR OS :( 600) N BEECH RDFROM MEDICAL ALARM COMP UNK MED 1617,006CALL BACK # TO ALARM COMP 800-325-17\n
+Subject:CAD\nrrive =Avail = 11 18 45Rpt # = 11-21000477\n
+**********************************************************
 **********************************************************
 **********************************************************
 **********************************************************
@@ -1877,6 +1888,10 @@ Sender: adi62@ridgefirecompany.com
 (1059 SANATOGA RD ,18  bt) 08:49 ** HOUSE FIRE * ** 1059 SANATOGA RD ,18  btwn MEADOW LA & E ** 6201 ** ELECTRIC FIRE IN WALL - FLAMES AND SMOKE\nDETAILS
 (SB FULMER RD SO EBELHARE) 21:26 ** ACCIDENT - MOTORCYCLE * ** SB FULMER RD SO EBELHARE RD ,18\3s(V) ** 6201 ** MC VS TREE ---\nDETAILS TO FOLLOW\n**  **
 (1701 POTTSTOWN PK ,20 --) 14:39 ** ACCIDENT - MOTORCYCLE * ** 1701  POTTSTOWN PK ,20 -- MAIN EVENT SPOR ** 6205 ** TWO DOWN IN THE ROADWAY\n**  **
+(309 STARR ST ,15) ACCIDENT - INJURIES * * VEH VRS POLE\nDETAILS TO FOLLOW\nTYP: ACCUNK\2s--> ACCINJ  \nRSP: 0050\3s--> 0004   \n* 05/08/11 * 11:11 *
+(300 W HIGH ST ,15) ALARM - FIRE * * AFA - GEN - ATN\n* 05/08/11 * 05:42 *
+(325 BRIDGE ST ,15) ACCIDENT - PEDESTRIAN STRUCK * * PD OS WITH ONE  SUBJ ON THE GROUND\nLOC: 300 BRIDGE ST ,15 -->\2s325 BRIDGE ST ,15-\n- FAMILY DOLLAR S * 05/08/11
+(2 N MAIN ST ,15) FUEL SPILL * * ENG65 IS RESPONDING\n* 05/07/11 * 13:31 *
 
 Sender: pfdfire@fdcms.com
 (724 WHEATLAND ST ,15) BRUSH FIRE * * DETAILS TO FOLLOW\n* 04/20/11 * 15:52 *
@@ -1938,4 +1953,5 @@ GREEN PATHFINDER
 PRI: EMA AD: LL(-87:39:45.5030,34:47:57.4231): @WEATHER  TIME:
 01:55:09 EV: WEATHER -: TSTORM-WARNG CS1:  CS2:  RE:  SPECIAL ADDRESS
 COMMENT: no ad SEVERE THUNDERSTORM WARNING TIL 2:30AM
+
 
