@@ -123,6 +123,7 @@ public abstract class BaseParserTest {
       else if (sType.equals("NAME")) data.strName = str;
       else if (sType.equals("PRI")) data.strPriority = str;
       else if (sType.equals("CH")) data.strChannel = str;
+      else if (sType.equals("GPS")) data.strGPSLoc = str;
       else fail("Keyword " + sType + " is not defined");
     }
     
@@ -330,6 +331,7 @@ public abstract class BaseParserTest {
     if (sType.equals("NAME")) return info.getName();
     if (sType.equals("PRI")) return info.getPriority();
     if (sType.equals("CH")) return info.getChannel();
+    if (sType.equals("GPS")) return info.getGPSLoc();
     else throw new RuntimeException("Keyword " + sType + " is not defined");
   }
   
