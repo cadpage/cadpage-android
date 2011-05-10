@@ -1642,13 +1642,24 @@ public class FieldProgramParser extends SmartAddressParser {
   }
 
   /**
-   * Name field processor
+   * Channel field processor
    */
   public class ChannelField extends Field {
 
     @Override
     public void parse(String field, Data data) {
       data.strChannel = field;
+    }
+  }
+
+  /**
+   * GPS field processor
+   */
+  public class GPSField extends Field {
+
+    @Override
+    public void parse(String field, Data data) {
+      data.strGPSLoc = field;
     }
   }
   
@@ -1728,6 +1739,7 @@ public class FieldProgramParser extends SmartAddressParser {
     if (name.equals("NAME")) return new NameField();
     if (name.equals("PRI")) return new PriorityField();
     if (name.equals("CH")) return new ChannelField();
+    if (name.equals("GPS")) return new GPSField();
     if (name.equals("SKIP")) return new SkipField();
     if (name.equals("INTLS")) return new InitialsField();
     if (name.equals("END")) return new EndField();

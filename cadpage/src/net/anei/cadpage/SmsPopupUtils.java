@@ -132,16 +132,13 @@ public class SmsPopupUtils {
   /**
    * Request map location for message
    */
-  public static void  mapMessage(Context context, SmsMsgInfo info)  {
+  public static void  mapMessage(Context context, SmsMsgInfo info, boolean useGPS)  {
     if (Log.DEBUG) Log.v("Request Received to Map Call");
     if (haveNet(context)) {
-        String searchStr = info.getMapAddress();
-        String coords = parseGPSCoords(searchStr);
-        if (coords != null) {
-          searchStr = coords;
-        } else {
-          searchStr = Uri.encode(searchStr);
-        }
+        String searchStr = null;
+        if (useGPS) searchStr = parseGPSCoords(info.getGPSLoc());
+        if (searchStr == null) searchStr = parseGPSCoords(info.getMapAddress());
+        if (searchStr == null) searchStr = Uri.encode(info.getMapAddress());
         Uri uri = Uri.parse("geo:0,0?q=" + searchStr);
         if (Log.DEBUG) Log.v("mapMessage: SearchStr=" + searchStr);
         Intent intent = new Intent(Intent.ACTION_VIEW, uri);

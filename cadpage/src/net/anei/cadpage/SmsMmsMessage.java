@@ -718,7 +718,7 @@ public class SmsMmsMessage implements Serializable {
       return true;
       
     case R.id.map_item:
-      SmsPopupUtils.mapMessage(context, getInfo());
+      SmsPopupUtils.mapMessage(context, getInfo(), false);
       return true;
       
     case R.id.toggle_lock_item:
