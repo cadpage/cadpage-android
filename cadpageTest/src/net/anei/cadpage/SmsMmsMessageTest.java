@@ -196,6 +196,12 @@ public class SmsMmsMessageTest {
         "SC911-CallAlert!!@co.surry.nc.us",
         "",
         "SC911 - Call Alert!!:Call Number - 110430-103* Address - 1020 NEWSOME ST* City - MOUNT AIRY* Call Type - ACCIDENT PI* *");
+
+    doParseTest("KYErlanger",
+        "pscc@ci.erlanger.ky.us\nSUBJ:Alert: Unconscious / Unresponsive\nMSG:\nALRM LVL: 1\nLOC:\n32 DUDLEY RD\nEDGEWOOD\nBTWN: MAPLE LN & WILDROSE DR\n\nRCVD AS E-911 Call\n\nCOM:\nSUBJ FELL IN BATHROOM\nUNK IF BREATHING\nBETWEEN THE TOILET AND BATH TUB\n\nCT:\n22-RCA at POS 03\n",
+        "pscc@ci.erlanger.ky.us",
+        "Alert: Unconscious / Unresponsive",
+        "ALRM LVL: 1\nLOC:\n32 DUDLEY RD\nEDGEWOOD\nBTWN: MAPLE LN & WILDROSE DR\n\nRCVD AS E-911 Call\n\nCOM:\nSUBJ FELL IN BATHROOM\nUNK IF BREATHING\nBETWEEN THE TOILET AND BATH TUB\n\nCT:\n22-RCA at POS 03");
   }
   
   @Test
@@ -219,6 +225,18 @@ public class SmsMmsMessageTest {
     doParseTest("HDR3-done", "(2/2) I LOVE MY MOTHER",
                 "ken@cadpage.org", "", "I LOVE MY MOTHER", false);
     
+    doParseTest("HDR4", " 1/3 / BIG BAD WOLF",
+                "ken@cadpage.org", "", "BIG BAD WOLF", true);
+    
+    doParseTest("HDR4-done", " 3/3 / BIG BAD WOLF",
+                "ken@cadpage.org", "", "BIG BAD WOLF", false);
+    
+    doParseTest("HDR5", "Subject:1/2\nSQ814 APTF, Apartment Fire",
+                "ken@cadpage.org", "", "SQ814 APTF, Apartment Fire", true);
+    
+    doParseTest("HDR5-done", "Subject:2/2\nSQ814 APTF, Apartment Fire",
+                "ken@cadpage.org", "", "SQ814 APTF, Apartment Fire", false);
+    
     doParseTest("TRL1", "WHERE IS BABY[1 of 2]",
                "ken@cadpage.org", "", "WHERE IS BABY", true);
     
@@ -234,12 +252,6 @@ public class SmsMmsMessageTest {
     doParseTest("NYSuffolkCounty",
         "Body:(1/2)Daniel M. Agababian - Sender: paging@firerescuesystems.xohost.com\n*** 16 - Rescue *** 30 DEER SHORE SQ CS: DEER PARK AVE  / BAY SHORE RD TOA: 13:04",
         "paging@firerescuesystems.xohost.com", "","*** 16 - Rescue *** 30 DEER SHORE SQ CS: DEER PARK AVE  / BAY SHORE RD TOA: 13:04", false);
-    
-    doParseTest("KYErlanger",
-        "pscc@ci.erlanger.ky.us\nSUBJ:Alert: Unconscious / Unresponsive\nMSG:\nALRM LVL: 1\nLOC:\n32 DUDLEY RD\nEDGEWOOD\nBTWN: MAPLE LN & WILDROSE DR\n\nRCVD AS E-911 Call\n\nCOM:\nSUBJ FELL IN BATHROOM\nUNK IF BREATHING\nBETWEEN THE TOILET AND BATH TUB\n\nCT:\n22-RCA at POS 03\n",
-        "pscc@ci.erlanger.ky.us",
-        "Alert: Unconscious / Unresponsive",
-        "ALRM LVL: 1\nLOC:\n32 DUDLEY RD\nEDGEWOOD\nBTWN: MAPLE LN & WILDROSE DR\n\nRCVD AS E-911 Call\n\nCOM:\nSUBJ FELL IN BATHROOM\nUNK IF BREATHING\nBETWEEN THE TOILET AND BATH TUB\n\nCT:\n22-RCA at POS 03");
 
   }
   
