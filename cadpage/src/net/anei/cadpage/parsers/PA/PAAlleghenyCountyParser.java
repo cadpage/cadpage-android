@@ -31,6 +31,9 @@ Contact: Kevin Armstrong <kevinarmstrong72@gmail.com>
 Sender: 4127802418
 ALLEGHENY COUNTY 911 :27D3S, E0, STABBING - CENTRAL WOUNDS, 612 CENTER AVE, ASP, btwn E 6TH ST and W 8TH ST, NMD1, E14004, Medical ProQA recommends dispatch at this time, Units:142, 269 - From 406 05/07/2011 02:34:31 TXT STOP to opt-out
 
+Contact: David Gallagher <ffmedic114@gmail.com>
+ALLEGHENY COUNTY 911 :08B1G, E3, HAZMAT-SMELL OF GAS- ALRT/NO DIFF BREATH, 35 LOCUST ST #1STFL, ETN, btwn ELM WAY and WALNUT ST, NMD1, E16001, Medical ProQA recommends dispatch at this time, Units:171, E160ALL - From 404 05/09/2011 19:48:13 TXT STOP to opt-out
+
 */
 
 public class PAAlleghenyCountyParser extends SmsMsgParser {

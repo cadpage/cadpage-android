@@ -29,6 +29,9 @@ Contact: Kevin Harness <kay.kh32@gmail.com>
 Contact: Steve Nero <steve21800@gmail.com>
 (Dispatch Info) M Priority 3 Medical A37  16:52 04/24/11 Box 302 11740 ASBURY CIR SOLOMONS ASBURY APTS-SOUT
 
+Contact: Josh Paiva <jp58709@gmail.com>
+(Dispatch Info) M Priority 1 Medical E33 A37 SMA796 M105  19:25 05/09/11 Box 301 14575 S  SOLOMONS ISLAND RD SOLOMONS Sol Pie
+
 */
 
 public class MDCalvertCountyParser extends SmartAddressParser {

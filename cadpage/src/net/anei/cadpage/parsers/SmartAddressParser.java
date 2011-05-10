@@ -951,6 +951,11 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     // If this isn't a city or city start the answer is no
     if (! isType(ndx, ID_CITY)) return -1;
     
+    // If there is a road suffix in one of the following two tokens, this
+    // must be one of those accursed streets including the city name, but not
+    // the city
+    if (isType(ndx+1, ID_ROAD_SFX) || isType(ndx+2, ID_ROAD_SFX)) return -1;
+    
     // If this is the start of a multi-word city, see if
     // we find a match in the muti-word city list
     // If there are multiple matches, pick the longest

@@ -202,6 +202,7 @@
     <item>General</item>
     <item>GeneralSlash</item>
     <item>GeneralDash</item>
+    <item>ALLauderdaleCounty</item>
     <item>ALMadisonCounty</item>
     <item>CAShastaCounty</item>
     <item>CASonomaCounty</item>
@@ -277,6 +278,7 @@
     <item>NYCattaraugusCounty</item>
     <item>NYCayugaCounty</item>
     <item>NYChautauquaCounty</item>
+    <item>NYCortlandCounty</item>
     <item>NYDixHills</item>
     <item>NYErieCounty</item>
     <item>NYGreeneCounty</item>
@@ -294,6 +296,7 @@
     <item>NYSuffolkCountyAll</item>
     <item>NYSullivanCounty</item>
     <item>NYUlsterCounty</item>
+    <item>NYWestchesterCounty</item>
     <item>NCBuncombeCounty</item>
     <item>NCBurkeCounty</item>
     <item>NCCabarrusCounty</item>
@@ -379,6 +382,7 @@
     <item>Generic Location</item>
     <item>Generic (slash field separator)</item>
     <item>Generic (dash field separator)</item>
+    <item>Lauderdale County, AL</item>
     <item>Madison County, AL</item>
     <item>Shasta County, CA</item>
     <item>Sonoma County, CA</item>
@@ -454,6 +458,7 @@
     <item>Cattaraugus County, NY</item>
     <item>Cayuga County, NY</item>
     <item>Chautauqua County, NY</item>
+    <item>Cortland County, NY</item>
     <item>Dix Hills, NY</item>
     <item>Erie County, NY</item>
     <item>Greene County, NY</item>
@@ -471,6 +476,7 @@
     <item>Suffolk County, NY</item>
     <item>Sullivan County, NY</item>
     <item>Ulster County, NY</item>
+    <item>Westchester County, NY</item>
     <item>Buncombe County, NC</item>
     <item>Burke County, NC</item>
     <item>Cabarrus County, NC</item>
