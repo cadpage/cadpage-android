@@ -29,7 +29,8 @@ public class ALLauderdaleCountyParser extends FieldProgramParser {
   
   private static final Properties CITY_TABLE = buildCodeTable(new String[]{
       "CNTY", "",
-      "KILL", "KILLEN"
+      "KILL", "KILLEN",
+      "STFL", "ST FLORIAN"
   });
   
   public ALLauderdaleCountyParser() {
