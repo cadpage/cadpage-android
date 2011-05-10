@@ -102,6 +102,15 @@ public class MDCalvertCountyParserTest extends BaseParserTest {
         "ADDR:11740 ASBURY CIR",
         "CITY:SOLOMONS",
         "PLACE:ASBURY APTS-SOUT");
+
+    doTest("T11",
+        "(Dispatch Info) M Priority 1 Medical E33 A37 SMA796 M105  19:25 05/09/11 Box 301 14575 S  SOLOMONS ISLAND RD SOLOMONS Sol Pie",
+        "CALL:M Priority 1 Medical",
+        "UNIT:E33 A37 SMA796 M105",
+        "BOX:301",
+        "ADDR:14575 S SOLOMONS ISLAND RD",
+        "PLACE:Sol Pie",
+        "CITY:SOLOMONS");
   }
   
   public static void main(String[] args) {

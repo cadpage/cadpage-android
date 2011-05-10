@@ -33,9 +33,6 @@ public class SmartAddressParserTest extends BaseParserTest {
   
   @Test
   public void testProblem() {
-    doTest(SKIP, "WHERE 24 BLOOD KEN TOWN STORY",
-        "ADDR:24 BLOOD",
-        "CITY:KEN TOWN");
   }
 
   
@@ -507,6 +504,16 @@ public class SmartAddressParserTest extends BaseParserTest {
         "CALL:SUNSHINE CITY XS: 100 BLACK ST");
     doTest(CALL, "SUNSHINE CITY XS: BLACK RD & 10 ST",
         "CALL:SUNSHINE CITY XS: BLACK RD & 10 ST");
+  }
+  
+  @Test
+  public void testConfusedNameRoad() {
+    doTest(ADDR, "1234 S KENSBURG ISLAND RD EXTRA",
+        "ADDR:1234 S KENSBURG ISLAND RD");
+    doTest(ADDR, "S 15 ST & N KENSBURG ISLAND RD EXTRA",
+        "ADDR:S 15 ST & N KENSBURG ISLAND RD");
+    doTest(ADDR, "N KENSBURG ISLAND RD EXTRA",
+        "ADDR:N KENSBURG ISLAND RD");
   }
   
   @Override
