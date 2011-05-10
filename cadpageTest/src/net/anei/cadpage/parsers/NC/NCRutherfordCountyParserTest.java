@@ -61,11 +61,18 @@ public class NCRutherfordCountyParserTest extends BaseParserTest {
         "CITY:Forest City",
         "CALL:ACCIDENT PI",
         "UNIT:SMFD1,RCR1,EMS1");
+
+    doTest("T8",
+        "Paging:Location=376 WOMACK LAKE RD* APT/ROOM* City=FOREST CITY* Call Type=ACCIDENT F* Units=428,MED10,RCR1,SMFD1*",
+        "ADDR:376 WOMACK LAKE RD",
+        "CITY:FOREST CITY",
+        "CALL:ACCIDENT F",
+        "UNIT:428,MED10,RCR1,SMFD1");
     
   }
 
 public static void main(String[] args) {
-    new NCRutherfordCountyParserTest().generateTests("T1");
+    new NCRutherfordCountyParserTest().generateTests("T8");
   }
 
 }
