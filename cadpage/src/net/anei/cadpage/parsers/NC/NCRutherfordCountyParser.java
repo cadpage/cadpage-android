@@ -16,6 +16,10 @@ Paging: Location= HIGH SHOALS CHURCH RD*\nAPT/ROOM* City=Cliffside* Call \nType=
 Paging: Location= OLD HENRIETTA RD & BYERS RD*\nAPT/ROOM* City=Ellenboro* Call \nType= STRANGE ODOR* Units=SMFD1*\nApr 25,10:59am
 Paging: Location= US221 S HWY & HARRIS HENRIETTA RD*\nAPT/ROOM* City=Forest City* Call \nType= ACCIDENT PI* Units=SMFD1,RCR1,EMS1*\nApr 25, 3:31pm
 
+Contact: Jeff Lynn <lynnj163@gmail.com>
+Paging:Location=376 WOMACK LAKE RD* APT/ROOM* City=FOREST CITY* Call Type=ACCIDENT F* Units=428,MED10,RCR1,SMFD1*
+
+
 */
 
 public class NCRutherfordCountyParser extends FieldProgramParser {
@@ -32,8 +36,8 @@ public class NCRutherfordCountyParser extends FieldProgramParser {
   
   @Override
   public boolean parseMsg(String body, Data data) {
-    if (!body.startsWith("Paging: ")) return false;
-    body = body.substring(8).trim();
+    if (!body.startsWith("Paging:")) return false;
+    body = body.substring(7).trim();
     body = body.replace("\n", "").replace('=', ':');
     return super.parseFields(body.split("\\*"), data);
   }
