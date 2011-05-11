@@ -55,10 +55,28 @@ public class NCBurkeCountyParserTest extends BaseParserTest {
         "CODE:26D01",
         "ADDR:5134 RAIN HILL CHURCH RD",
         "X:MOUNT OLIVE CHURCH RD & RAINHILL DR");
+
+    doTest("T6",
+        "CAD:75;MED;31D02;4612 AMBER LN;DENTONS CHAPEL RD;[Medical Priority Info] RESPONSE: Delta RESPONDER SCRIPT: You are responding to a patient who is",
+        "SRC:75",
+        "CALL:MED",
+        "CODE:31D02",
+        "ADDR:4612 AMBER LN",
+        "X:DENTONS CHAPEL RD",
+        "INFO:You are responding to a patient who is");
+
+    doTest("T7",
+        "CAD:75;MED;10D02;1968 CONLEY RD;REESE STORE AV;FOREMAN ST;[Medical Priority Info] RESPONSE: Delta RESPONDER SCRIPT: 44 year old, Male, Conscious,",
+        "SRC:75",
+        "CALL:MED",
+        "CODE:10D02",
+        "ADDR:1968 CONLEY RD",
+        "X:REESE STORE AV & FOREMAN ST",
+        "INFO:44 year old, Male, Conscious,");
   }
   
 
   public static void main(String[] args) {
-    new NCBurkeCountyParserTest().generateTests("T1");
+    new NCBurkeCountyParserTest().generateTests("T8");
   }
 }
