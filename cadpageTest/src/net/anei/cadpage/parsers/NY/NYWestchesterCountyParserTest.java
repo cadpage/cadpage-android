@@ -36,6 +36,42 @@ public class NYWestchesterCountyParserTest extends BaseParserTest {
         "X:ORMOND PL",
         "CALL:STRU",
         "INFO:WPH1");
+
+    doTest("T4",
+        "Subject:IPage\nMADISON AVE/JEFFERSON ST MAMARONECK_T, Cross: MADISON AVE, Type:HAZARD, FLUID, Time out: 14:30:33 Area: MAMTW,Alarm",
+        "ADDR:MADISON AVE & JEFFERSON ST",
+        "CITY:MAMARONECK",
+        "X:MADISON AVE",
+        "CALL:HAZARD / FLUID");
+
+    doTest("T5",
+        "Subject:IPage\n35 N CHATSWORTH AVE MAMARONECK_T: @CARLTON HOUSE APARTMENTS, Cross: JEFFERSON ST, Type:ALARM, COMM, Time out: 19:27:55",
+        "ADDR:35 N CHATSWORTH AVE",
+        "CITY:MAMARONECK",
+        "PLACE:CARLTON HOUSE APARTMENTS",
+        "X:JEFFERSON ST",
+        "CALL:ALARM / COMM");
+
+    doTest("T6",
+        "Subject:IPage\n280 WEAVER ST MAMARONECK_T: @ST JOHN & PAUL SCHOOL, Cross: EDGEWOOD AVE, Type:ALARM, COMM, Time out: 23:48:57 Area: MAMTW,Alarm lev: 0 ,Comments:   GENERAL FIRE ALARM",
+        "ADDR:280 WEAVER ST",
+        "CITY:MAMARONECK",
+        "PLACE:ST JOHN & PAUL SCHOOL",
+        "X:EDGEWOOD AVE",
+        "CALL:ALARM / COMM",
+        "INFO:GENERAL FIRE ALARM");
+
+    doTest("T7",
+        "Subject:IPage\n833 FENIMORE RD MAMARONECK_T, Cross: MOHEGAN RD, Type:ALARM, CO, Time out: 13:39:20 Area: MAMTW,Alarm lev: 0",
+        "ADDR:833 FENIMORE RD",
+        "CITY:MAMARONECK",
+        "X:MOHEGAN RD",
+        "CALL:ALARM / CO");
+  }
+  
+  @Test
+  public void testParserFail() {
+    doBadTest("Subject:IPage\n-073.684659 +040.978189   Duplicate Event:Location = HALSTEAD PL/ORMOND PL, Cross Street 1 = HALSTEAD PL   GARAGE FIRE   ORMOND PL, Cross Street 2 = ORMOND PL,");
   }
   
   @Test
@@ -86,6 +122,6 @@ public class NYWestchesterCountyParserTest extends BaseParserTest {
   }
   
   public static void main(String[] args) {
-    new NYWestchesterCountyParserTest().generateTests("T1");
+    new NYWestchesterCountyParserTest().generateTests("T4");
   }
 }

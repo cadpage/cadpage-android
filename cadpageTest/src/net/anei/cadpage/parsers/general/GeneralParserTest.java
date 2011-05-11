@@ -200,5 +200,11 @@ public class GeneralParserTest extends BaseParserTest {
         "ID:424",
         "CALL:ACCIDENT W/INJURY",
         "ADDR:750 FISHING CREEK ARBOR RD");
+    
+    doTest("T23",
+        "(*CAD*) [CAD] Sta: 78AST   Loc: 7229 Seashore Hwy   --- Falls-BLS",
+        "SRC:78AST",
+        "ADDR:7229 Seashore Hwy",
+        "INFO:--- Falls-BLS");
   }
 }
