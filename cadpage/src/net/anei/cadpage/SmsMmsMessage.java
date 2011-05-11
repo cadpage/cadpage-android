@@ -252,6 +252,7 @@ public class SmsMmsMessage implements Serializable {
     Pattern.compile("^(\\d)of(\\d):"),
     Pattern.compile("^\\((\\d)/(\\d)\\)"),
     Pattern.compile("^ *(\\d)/(\\d) / "),
+    Pattern.compile("^\\( *(\\d) +of +(\\d) *\\)"),
     Pattern.compile("^Subject:(\\d)/(\\d)\\n"),
     Pattern.compile("\\[(\\d) of (\\d)\\]$"),
     Pattern.compile(":(\\d)of(\\d)$")

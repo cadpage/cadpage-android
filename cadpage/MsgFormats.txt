@@ -1649,7 +1649,6 @@ Contact: Samuel Millman <fire7281@gmail.com>
 Sender: rc.212@c-msg.net
 (*CAD*) [CAD] Sta: 78AST   Loc: 7229 Seashore Hwy   --- Falls-BLS
 (*CAD*) [CAD] Sta: 78AST   Loc: 14490 Broad Ave   City: 19950   --- Breathing Problems-ALS    Premise 14490 Broad Ave
-
 **********************************************************
 Unknown trying New Castle County, DE
 Contact: Matthew Comegys <mcomegys2832@gmail.com>
@@ -1924,28 +1923,6 @@ MSG:CAD:WCFD;12;05/06/2011 04:02:34;FIRE ALARM;1605 CURTIS BRIDGE RD
 FRM:CAD@wilkes.nc.local
 MSG:CAD:WCFD;702;05/04/2011 14:53:07;ACCIDENT W/INJURY;1500 RIVER ST
 **********************************************************
-Brown County, WI
-Contact: Wesley Pompa <h2fd24@gmail.com>
-HOFD PRI: 1 INC: FHO110429000014 TYP: VEGETATION FIRE AD: 7571 CTH D CTY: HOLL MAP: 9BD CN: ED CARROL CMT1: WITHIN 10 OF BUILDING, CHANGE TO STRUCTURE CMT2: C
-
-Contact: Jody Hakes <hakesproperties@sbcglobal.net>
-Sender: finstad_rr@co.brown.wi.us
-( 1 of  3) S: M:HBFD PRI: 1 INC: FHB110509000117 TYP: FIRE ALARM AD: 710 BOW BELLS RD CTY: HOBA MAP: 10Y CN: CEC, 2964 CMT1: RESIDENT
-( 2 of  3) IAL FIRE ALARM...UNK WHERE COMING FROM... CMT2: ATTEMTING KEYHOLDERS.. TIME: 15:18 HBHBFD XST: 661 SILVER CREEK DR XS :30 
-( 3 of  3) T2: 3169 FERNDELL ACRES DR 675
-
-( 1 of  3) S: M:HBFD PRI: 1 INC: FHB110407000084 TYP: EXTRICATION RESCUE AD: STH 29/32&SUNLITE DR CTY: HOBA MAP: 12Q CN: SPRINT CMT1:
-( 2 of  3)  INCIDENT CLONED FROM PARENT: LBR110407013154 CMT2: Original Date/Time for Comment: 11/04/07 07:51 TIME: 08:16 HBHBFD <:1 
-( 3 of  3)  012
-
-( 1 of  3) S: M:HBFD PRI: 1 INC: FHB110406000083 TYP: STRUCTURE FIRE AD: 4580 CHOCTAW TR CTY: HOBA MAP: 14R CN: CELLCOM CMT1: HEARD A
-( 2 of  3) ND EXPLOSION AND NOW HOUSE IS ON FIRE - FULLY INVOLVED CMT2: 
-Child Inc LHL110406001545 UPDATE PriUnt to HL/HL440 TIME <5=
-( 3 of  3) : 18:01 HBHBFD CRAM6021 HBHB1R XST: 4550 CROW CT XST2: 4599 CHOCTAW CT & NAVAJO T 349
-
-( 1 of  3) S: M:HBFD PRI: 1 INC: FHB110407000084 TYP: EXTRICATION RESCUE AD: STH 29/32&SUNLITE DR CTY: HOBA MAP: 12Q CN: SPRINT CMT1:
-( 2 of  3)  INCIDENT CLONED FROM PARENT: LBR110407013154 CMT2: Original Date/Time for Comment: 11/04/07 07:51 TIME: 08:16 HBHBFD <:1 
-( 3 of  3) 012
 
 additionally special teams are texted from this email address as follows
 Type SMS message
