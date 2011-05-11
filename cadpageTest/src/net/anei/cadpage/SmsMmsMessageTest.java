@@ -237,6 +237,12 @@ public class SmsMmsMessageTest {
     doParseTest("HDR5-done", "Subject:2/2\nSQ814 APTF, Apartment Fire",
                 "ken@cadpage.org", "", "SQ814 APTF, Apartment Fire", false);
     
+    doParseTest("HDR6", "( 1 of  3) S: M:HBFD PRI: 1 INC: FHB110509000117",
+                "ken@cadpage.org", "", "HBFD PRI: 1 INC: FHB110509000117", true);
+    
+    doParseTest("HDR6", "( 3 of  3) S: M:HBFD PRI: 1 INC: FHB110509000117",
+                "ken@cadpage.org", "", "HBFD PRI: 1 INC: FHB110509000117", false);
+    
     doParseTest("TRL1", "WHERE IS BABY[1 of 2]",
                "ken@cadpage.org", "", "WHERE IS BABY", true);
     

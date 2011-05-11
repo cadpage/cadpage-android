@@ -59,6 +59,8 @@ public class SmsMsgInfoTest {
     
     doMapTest("AV", "150 BLACK AVE,KENBURG,XX", "150 BLACK AV");
     doMapTest("HW", "HWY 20,KENBURG,XX", "HW 20");
+    
+    doMapTest("STH", "ST 29 & 32,KENBURG,XX", "STH 29 & 32");
   }
   
   private void doMapTest(String title, String result, String address) {
