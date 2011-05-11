@@ -1507,6 +1507,10 @@ MSG:\n
 349:560 CUMBERLAND ST SE BOLIVIA MDL 09B01 11-020650 17:02:34 Cardiac or Respiratiory Arrest / Death\n
 (Con't) 2 of 2\n
 RECV CALL FROM FUNERAL HOME ADVING THAT THEY RECV CALL STATING A FEMALE WAS DEAD AT THIS LOCATION AD(End)
+
+Contact: "~Heather~" <sunshine5grl@gmail.com>
+Sender: pagegate@brunswickes.com
+609:POSS DOA @ 3120 BLUE DR IN SUPPLY... 5/10/11 @ 0951... KIM/CCOMM
 **********************************************************
 Cy-Fair Volunteer FD (Harris County, TX)
 Contact: "Steven Lindsay" <steven@snl-ent.com>
@@ -1903,8 +1907,6 @@ ALARM - FIRE **815 E BALTIMORE PK - HILTON GARDENS INN*SCHOOLHOUSE RD & ONIX DR*
 NOTIFY FIRE CHIEF*1695 LENAPE RD - POCOPSON HOME*RED BRIDGE LA & LENAPE UNIONVI*POCOPS*03:12*RP ADV RESIDENT PULLED FI
 BARN FIRE **382 W STREET RD - NEW BOLTON CTR MAIN CM*WIDENER LA & BYRD RD*EMARLB*19:32*SMOKE IN BARN - NO FIRE S
 CHIMNEY FIRE **1905 LENAPE UNIONVILLE RD*RED LION RD & MUNICIPAL BOUNDA*POCOPS*21:30*WOOD STOVE IN BASEMENT, F
-
-
 **********************************************************
 **********************************************************
 Wilkes County, NC
@@ -1922,21 +1924,3 @@ MSG:CAD:WCFD;12;05/06/2011 04:02:34;FIRE ALARM;1605 CURTIS BRIDGE RD
 
 FRM:CAD@wilkes.nc.local
 MSG:CAD:WCFD;702;05/04/2011 14:53:07;ACCIDENT W/INJURY;1500 RIVER ST
-**********************************************************
-
-additionally special teams are texted from this email address as follows
-Type SMS message
-From
-BC_Public_Safety_Communications@co.brown.wi.us
-
-example is Brown County Haz-Mat;
-
- s;Test M:Wednesday Pager Test - Haz Mat Team
-
- s;Hazmat Wednesday Test Page Full Team M:Hazmat Wednesday Test Page Full Team
-
- s;haz-mat test page M:Wednesday Haz-Mat Full Team test page
-
- s;HazMat Full Team Test Page M:Wednesday Test Page
-
- s;HAZ MAT TEAM TEST PAGE M: 
