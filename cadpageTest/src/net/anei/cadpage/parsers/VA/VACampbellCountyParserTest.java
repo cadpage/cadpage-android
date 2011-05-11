@@ -57,9 +57,19 @@ public class VACampbellCountyParserTest extends BaseParserTest {
         "CITY:CAMPBELL COUNTY",
         "ADDR:000381 HORIZON",
         "ID:2010-060777",
-        "INFO:FEMALE ADVISED SOMETHING ABOUT THE RESCUE SQ. LINE DISCONNECTED"
-      );
-    
-  }   
+        "INFO:FEMALE ADVISED SOMETHING ABOUT THE RESCUE SQ. LINE DISCONNECTED");
+
+    doTest("T6",
+        "MAILBOX:CO12 BRUSH/FIELD FIRE 000175 WOODHAVEN DR CFS# 2011-024304",
+        "SRC:CO12",
+        "CALL:BRUSH/FIELD FIRE",
+        "CITY:CAMPBELL COUNTY",
+        "ADDR:000175 WOODHAVEN DR",
+        "ID:2011-024304");
+  }
+  
+  public static void main(String[] args) {
+    new VACampbellCountyParserTest().generateTests("T1", "SRC CALL CITY ADDR ID INFO");
+  }
 }
   
