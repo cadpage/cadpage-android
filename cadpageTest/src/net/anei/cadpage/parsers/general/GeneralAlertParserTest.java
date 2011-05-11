@@ -23,6 +23,11 @@ public class GeneralAlertParserTest extends BaseParserTest {
         "  REMOVE EXTRANEOUS          BLANKS \nFROM ALERT MSG ",
         "CALL:GENERAL ALERT",
         "PLACE:REMOVE EXTRANEOUS   BLANKS\nFROM ALERT MSG");
+    
+    doTest("T2",
+        "(TEST SUBJECT) LONG MESSAGE",
+        "CALL:GENERAL ALERT",
+        "PLACE:(TEST SUBJECT) LONG MESSAGE");
 
   }
 }
