@@ -16,6 +16,10 @@ Sender: CAD@bceoc.org
 |CAD:75;FIRE;67B01;3678 SILVER CREEK CT;SILVER CREEK TER;[Fire Priority Info] RESPONSE: Bravo RESPONDER SCRIPT: Outside Fire. SMALL [1 of 2]
 |CAD:75;MED;26D01;5134 RAIN HILL CHURCH RD;MOUNT OLIVE CHURCH RD;RAINHILL DR;[Medical Priority Info] RESPONSE: Delta RESPONDER SCRIPT: [1 of 2]
 
+Contact: john huffman <threeammetal@gmail.com>
+CAD:75;MED;31D02;4612 AMBER LN;DENTONS CHAPEL RD;[Medical Priority Info] RESPONSE: Delta RESPONDER SCRIPT: You are responding to a patient who is
+CAD:75;MED;10D02;1968 CONLEY RD;REESE STORE AV;FOREMAN ST;[Medical Priority Info] RESPONSE: Delta RESPONDER SCRIPT: 44 year old, Male, Conscious,
+
 */
 
 public class NCBurkeCountyParser extends DispatchOSSIParser {
@@ -32,8 +36,7 @@ public class NCBurkeCountyParser extends DispatchOSSIParser {
   
   @Override
   public boolean parseMsg(String body, Data data) {
-    if (!body.startsWith("|")) return false;
-    body = body.substring(1).trim();
+    if (body.startsWith("|")) body = body.substring(1).trim();
     return super.parseMsg(body, data);
   }
   
