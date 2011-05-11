@@ -21,11 +21,13 @@ DISPATCH From FED10:BLS0, BLS Amb, 12003 WALLACE LN, PP, btwn DULEY STATION RD a
 DISPATCH From FED10:BLS0, BLS Amb, 12003 WALLACE LN, PP, btwn DULEY STATION RD and WALLACE LANDING CT, TGC 2, 4504, 5884 C 1, Medical ProQA recommends dispatch at this time, Unit:A820
 DISPATCH From FED10:HOUSEF, House Fire, 10511 MULLIKIN DR, PP, btwn PARKVIEW LN and GATOR PL, TGC3, 2514, 5882 G 1, Fire ProQA recommends dispatch at this time, Units:BO887, E823, E825, E847, RE840, SQ827, TK832, TK837
 DISPATCH From FED01:ALS1, Medic Local, 4905 ASHFORD PL, PP, btwn CRANFORD DR and ASHFORD DR, TGA2, 2017, 5 651 K 9, Medical ProQA recommends dispatch at this time, Units:A820, MD845
-DISPATCH From FED01:BLS, BLS Amb, 14741 GOVERNOR ODEN BOWIE DR, PP, btwn ELM ST and MAIN ST, TGA2, 2009, 5652 K 10, PER ID 1879 FB NEEDED TO RESPOND TO 5TH FL FOR SEMI CONCIOUS SICK CITZ..NFI @ THIS TIME, Units:A843, E820 
+DISPATCH From FED01:BLS, BLS Amb, 14741 GOVERNOR ODEN BOWIE DR, PP, btwn ELM ST and MAIN ST, TGA2, 2009, 5652 K 10, PER ID 1879 FB NEEDED TO RESPOND TO 5TH FL FOR SEMI CONCIOUS SICK CITZ..NFI @ THIS TIME, Units:A843, E820
 
 BC 887 STREET, Street Alarm, 11113 BIRCH WAY, PP, btwn ELM WAY and PENNY AVE, TGC3, 2515, 5882 G 2, Fire ProQA recommends dispatch at this time, Units:BO887, E825, RE840, SQ827, TK832
-E820 ALS, Medic Local, 15903 BISHOPSTONE TER, PP, btwn GALESHEAD DR and END, TGA2, 2001, 5653 D 5, Police ProQA recommends dispatch at this time, Units:A843, E820, NMR Eff Body:ProQA recommends dispatch at this time, Units:A843, E820, NMR
- 
+E820 ALS, Medic Local, 15903 BISHOPSTONE TER, PP, btwn GALESHEAD DR and END, TGA2, 2001, 5653 D 5, Police ProQA recommends dispatch at this time, Units:A843, E820, NMR
+A820 ALS1, Medic Local, 9805 BROADMOOR TER, PP, btwn BROADMOOR LN and BROADMOOR CT, TGC2, 4505, 5768 C 10, Medical ProQA recommends dispatch at this time, Units:A820, MD845
+A820 BLS, BLS Amb, 20 DIANE DR, TGA2, MAAA, ANNE ARUNDEL BOX 0904 A820 FOR SICK PERSON ON BRAVO W/ MEDIC 9, Unit:A820
+
 Contact: John Hoffman <ejhoffmanjr@gmail.com>
 Sender: cad3815@alert.princegeorgescountymd.gov
 SQ814 APTF, Apartment Fire, 1404 KANAWHA ST #302, PP, btwn 14TH AVE and 15TH AVE, TGA2, 3413, 5409 C 2, Fire ProQA recommends dispatch at this time, Units:BO884, E702, E712, E834, PE844, SQ814, TK801, TK812
@@ -49,7 +51,7 @@ public class MDPrinceGeorgesCountyBParser extends FieldProgramParser {
   
   public MDPrinceGeorgesCountyBParser() {
     super("PRINCE GEORGES COUNTY", "MD",
-           "INIT CALL ADDR/S! PP! btwn:X CH SKIP MAP SKIP Units:UNIT");
+           "INIT CALL ADDR/S! PP? X? SKIP+? CH ( MA | SKIP MAP ) INFO+ Units:UNIT+");
   }
   
   @Override
@@ -59,7 +61,7 @@ public class MDPrinceGeorgesCountyBParser extends FieldProgramParser {
   
   @Override
   public boolean parseMsg(String body, Data data) {
-    body = body.replace(" btwn ", " btwn:");
+    body = body.replace(" Unit:", "Units:");
     return parseFields(body.split(","), data);
   }
   
@@ -68,7 +70,7 @@ public class MDPrinceGeorgesCountyBParser extends FieldProgramParser {
   // field doesn't match any of them, abort the transaction
   private static final Pattern[] MATCH_LIST = new Pattern[]{
     Pattern.compile("DISPATCH From (FED\\d+):([A-Z0-9]+)"),
-    Pattern.compile("([A-Z]+ ?\\d{3}) ([A-Z]+)"),
+    Pattern.compile("([A-Z]+ ?\\d{3}) ([A-Z0-9]+)"),
     Pattern.compile("(SQ\\d+) ([A-Z]+)"),
     Pattern.compile("([\\w ]+ \\d{3}) ([A-Z0-9]+)")
   };
@@ -103,13 +105,79 @@ public class MDPrinceGeorgesCountyBParser extends FieldProgramParser {
     }
   }
   
-  //  The PP field isn't parsed, but it must match PP or LP to be a valid page
-  private class PPField extends Field {
+  //  The PP field isn't parsed, but it must match PP or LP
+  private class PPField extends SkipField {
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      return field.equals("PP") || field.equals("LP");
+    }
+  }
+  
+  // Cross field only exist if it has the correct keyword
+  private class MyCrossField extends CrossField {
+    @Override
+    public boolean checkParse(String field, Data data) {
+      if (field.startsWith("btwn ")) {
+        field = field.substring(5).trim();
+      } else if (field.startsWith("at ")) {
+        field = field.substring(3).trim();
+      } else {
+        return false;
+      }
+      
+      parse(field.trim(), data);
+      return true;
+    }
+  }
+  
+  // Radio channel must start with TG
+  private class MyChannelField extends ChannelField {
+    MyChannelField() {
+      setPattern(Pattern.compile("T[AG].+"));
+    }
+  }
+  
+  // Mutual Aid tag field
+  private class MutualAidField extends CityField {
+    
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      if (!field.startsWith("MA")) return false;
+      if (field.equals("MAAA")) {
+        data.strCity = "ANNE ARUNDEL COUNTY";
+      } else if (field.equals("MACC")) {
+        data.strCity = "CHARLES COUNTY";
+      } else if (field.equals("MAMC")) {
+        data.strCity = "MONTGOMERY COUNTY";
+      }
+      return true;
+    }
+  }
+  
+  // Info field needs to skip junk
+  private class MyInfoField extends InfoField {
     @Override
     public void parse(String field, Data data) {
-      if (field.equals("PP")) return;
-      if (field.equals("LP")) return;
-      abort();
+      if (field.contains("ProQA recommends dispatch at this time")) return;
+      super.parse(field, data);
+    }
+  }
+  
+  // Unit fields join together with comma separators
+  private class MyUnitField extends UnitField {
+    @Override
+    public void parse(String field, Data data) {
+      data.strUnit = append(data.strUnit, ", ", field);
     }
   }
   
@@ -118,6 +186,11 @@ public class MDPrinceGeorgesCountyBParser extends FieldProgramParser {
     if (name.equals("INIT")) return new InitField();
     if (name.equals("CALL")) return new MyCallField();
     if (name.equals("PP")) return new PPField();
+    if (name.equals("X")) return new MyCrossField();
+    if (name.equals("CH")) return new MyChannelField();
+    if (name.equals("MA")) return new MutualAidField();
+    if (name.equals("INFO")) return new MyInfoField();
+    if (name.equals("UNIT")) return new MyUnitField();
     return super.getField(name);
   }
 }

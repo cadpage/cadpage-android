@@ -877,7 +877,9 @@ public class FieldProgramParser extends SmartAddressParser {
         }
 
         // Otherwise, if there is a failure link, execute it
-        if (failLink != null){
+        // Unless it points back to ourselves, which can happen if there was
+        // a repeating condition SKIP step
+        if (failLink != null && failLink.step != this){
           return failLink.exec(flds, ndx, data, this);
         } 
         
