@@ -1493,25 +1493,6 @@ Contact: "spierce091187@yahoo.com" <spierce091187@yahoo.com>
 Sender: bhvfd14@gmail.com
 (ALERT) [35]: MULTI FAMILY DWE (APTF): 10 PARKWAY (CRESCENT RD AND CRESCENT RD): TEXT:ProQA recommends dispatch at this time PH:301-982-7357 \SOURCE:RESD (MTF): E
 **********************************************************
-Brunswick County, NC
-Contact: Tom Rogers <tomrogers2@gmail.com
-Sender: pagegate@brunswickes.com
-System: Southern Software
-
-Need more samples
-Same software as Montgomer county???
-
- 1 of 2\n
-FRM:pagegate@brunswickes.com\n
-MSG:\n
-349:560 CUMBERLAND ST SE BOLIVIA MDL 09B01 11-020650 17:02:34 Cardiac or Respiratiory Arrest / Death\n
-(Con't) 2 of 2\n
-RECV CALL FROM FUNERAL HOME ADVING THAT THEY RECV CALL STATING A FEMALE WAS DEAD AT THIS LOCATION AD(End)
-
-Contact: "~Heather~" <sunshine5grl@gmail.com>
-Sender: pagegate@brunswickes.com
-609:POSS DOA @ 3120 BLUE DR IN SUPPLY... 5/10/11 @ 0951... KIM/CCOMM
-**********************************************************
 Cy-Fair Volunteer FD (Harris County, TX)
 Contact: "Steven Lindsay" <steven@snl-ent.com>
 Sender: CAD@CYFAIRVFD.ORG
@@ -1910,10 +1891,25 @@ MSG:CAD:WCFD;741;05/09/2011 14:38:38;UNRESPONSIVE;100 WINDING TRAILS PL
 FRM:CAD@wilkes.nc.local
 MSG:CAD:WCFD;727;05/09/2011 13:03:25;UNRESPONSIVE;1016 FLETCHER ST
 
-FRM:CAD@wilkes.nc.local
+FRM:CAD@wilkes.nc.localf
 MSG:CAD:WCFD;12;05/06/2011 04:02:34;FIRE ALARM;1605 CURTIS BRIDGE RD
 
 FRM:CAD@wilkes.nc.local
 MSG:CAD:WCFD;702;05/04/2011 14:53:07;ACCIDENT W/INJURY;1500 RIVER ST
 **************************************************************************
 Sussex County, DE (Alternate) in progress
+**********************************************************
+Brunswick County, NC
+Contact: "~Heather~" <sunshine5grl@gmail.com>
+Contact: Tom Rogers <tomrogers2@gmail.com
+Sender: pagegate@brunswickes.com
+System: Southern Software
+
+349:560 CUMBERLAND ST SE BOLIVIA MDL 09B01 11-020650 17:02:34 Cardiac or Respiratiory Arrest / Death RECV CALL FROM FUNERAL HOME ADVING THAT THEY RECV CALL STATING A FEMALE WAS DEAD AT THIS LOCATION AD
+609:POSS DOA @ 3120 BLUE DR IN SUPPLY... 5/10/11 @ 0951... KIM/CCOMM
+415:111 SE 32ND ST OAK ISLAND VERIZON WIRELESS 7045790781 MDL 09E01 11-025910 20:39:44 Cardiac or Respiratiory Arrest - De
+411:22 BOUNDARYLINE DR NW C CALABASH LYNN 9102094924 11-025720 06:59:32 Structure Fire SMELL SOMETHING BURNING IN RESD
+399:1295 DECATOR ST SW SUPPLY PAM 9106339368 MDL 09E01 11-025419 22:11:30 Cardiac or RespArrest  CALLER ADV THE PT IS STIFF
+395:CARDIAC ARREST ATTEMPTING CPR INSTRUCTIONS AT 220 NE 62ND ST OAK ISLAND/DARLENE-CCOMM 04/09/2011@8:15
+391:M24 REQ LIFTING ASSISTANCE NON 10-18...2467 BURGAW ST OFF SEAWSHORE RD IN SUPPLY//CCOMM LESLIE
+354:CEDAR HILL RD TEMPORAILY CLOSED DUE TO 10-50, POLE DOWN.. 4-3-11 @ 0339... KIM/CCOMM

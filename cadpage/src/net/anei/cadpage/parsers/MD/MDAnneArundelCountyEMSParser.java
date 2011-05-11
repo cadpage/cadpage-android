@@ -9,7 +9,7 @@ import net.anei.cadpage.parsers.SmsMsgParser;
 /*
 Anne Arundel County, MD (EMS)
 Contact: Michael Brown <mike.a.brown09@gmail.com>
-Sender: fd500942@aacounty.org
+Sender: fd50NNNN@aacounty.org
 
 *Medical Box 28-8 1496 ANNAPOLIS RD  [BLOCKBUSTER VIDEO] 12-F1 E281,MU29 MVC; 2306 [14/81]  /lm-33/
 *MEDICAL Box 28-13 TELEGRAPH RD/JACKSON GROVE RD 6-K13 E283,MU4 FAINTING; 1328 [9/90]  14m-2
@@ -22,6 +22,9 @@ Local Box 28-27 2615 LOTUSWOOD CT (RIVERSCAPE RD) 12-E7 E283 SERVICE CALL (COLD)
 *MEDICAL Box 28-27 8718 THORNBROOK DR (RIVERSCAPE RD) 12-E7 E281,MU6 HEADACHE; BURNING INSIDE  2001 [15/297]  41m-1
 *MEDICAL Box 28-27 8700 NATURES TRAIL CT  [Unit 304] (RIVERSCAPE RD) 12-E8 A28,PM5 BREATHING PROB; 0524 [4/313]  6m-5
 *Medical Box 28-6 2012 BEALMEAR MILL LN  [Unit 7208] (COWMAN CT) 12-G1 E281,MU29 BACK PAIN; 0539 [1/68]  25d-2
+
+Contact: Len Pfeffer <copolenny@gmail.com>
+*Local Box 17-13 1641 WINCHESTER RD  [MONTESSORI INTL CHILDRENS HOME] E171 HI LIFE/ALARMS SOUNDING (WARM); 1243 [6/88]  /9d-7/
 
 */
 
@@ -36,7 +39,7 @@ public class MDAnneArundelCountyEMSParser extends SmsMsgParser {
   
   @Override
   public String getFilter() {
-    return "fd500942@aacounty.org";
+    return "@aacounty.org";
   }
   
   @Override
