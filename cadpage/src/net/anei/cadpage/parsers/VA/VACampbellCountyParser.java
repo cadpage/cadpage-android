@@ -20,6 +20,8 @@ MAILBOX:SQ02 STABBING 005450 COLONIAL HWY EVI CFS# 2010-061047 STAGE IN THE AREA
 MAILBOX:SQ02 UNRESPONSIVE 000218 LAKE FOREST DR CFS# 2010-060825
 MAILBOX:SQ02 HANGUP 911 000381 HORIZON DR CFS# 2010-060777 FEMALE ADVISED SOMETHING ABOUT THE RESCUE SQ. LINE DISCONNECTED
 
+MAILBOX:CO12 BRUSH/FIELD FIRE 000175 WOODHAVEN DR CFS# 2011-024304
+
 */
 
 public class VACampbellCountyParser extends SmartAddressParser {
@@ -27,7 +29,7 @@ public class VACampbellCountyParser extends SmartAddressParser {
   
   private static final String[] KEYWORDS = new String[]{"LOC", "CFS"};
   
-  private static final Pattern MARKER = Pattern.compile("\\b[S][Q]\\d\\d\\b");
+  private static final Pattern MARKER = Pattern.compile("^MAILBOX:([A-Z]{2}\\d{2}) ");
   
   public VACampbellCountyParser() {
     super("CAMPBELL COUNTY","VA");
@@ -42,7 +44,7 @@ public class VACampbellCountyParser extends SmartAddressParser {
     // Locate the marker to determine where our part of the message starts
     Matcher match = MARKER.matcher(body);
     if (! match.find()) return false;
-    data.strSource = body.substring(match.start(), match.end());
+    data.strSource = match.group(1);
     body = body.substring(match.end()).trim();
     
     // Adjust it a bit and parse out the main fields
