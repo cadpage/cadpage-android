@@ -1644,15 +1644,6 @@ Unknown from problem report
 Contact: Jim Disinger <diceyduce@aol.com>
 Sender: dispatch613+bncCJu-xN6_FhDgt5LmBBoEujh5Gw@googlegroups.com
 This looks like a variation of LCFR
-**************************************************************************
-Unknown trying Sussex County, DE
-([cad13] ) Call:30A01-TRAUMA NOT DAN,775 GATEWAY DR SE-LB Apt:CLUBHS,X-St:SYCOLIN RD SE VAN,M6132 ACO13,Box:2013 ,ADC:515
-Contact: "fdbuff@aol.com" <fdbuff@aol.com>
-(*CAD*) [CAD] Sta: 78AS3   Loc: 12319 Sussex Hwy   City: 19950   --- Sick Person(Specific Diag)-BLSPremise 12319 Sussex Hwy
-Contact: Samuel Millman <fire7281@gmail.com>
-Sender: rc.212@c-msg.net
-(*CAD*) [CAD] Sta: 78AST   Loc: 7229 Seashore Hwy   --- Falls-BLS
-(*CAD*) [CAD] Sta: 78AST   Loc: 14490 Broad Ave   City: 19950   --- Breathing Problems-ALS    Premise 14490 Broad Ave
 **********************************************************
 Unknown trying New Castle County, DE
 Contact: Matthew Comegys <mcomegys2832@gmail.com>
@@ -1924,3 +1915,5 @@ MSG:CAD:WCFD;12;05/06/2011 04:02:34;FIRE ALARM;1605 CURTIS BRIDGE RD
 
 FRM:CAD@wilkes.nc.local
 MSG:CAD:WCFD;702;05/04/2011 14:53:07;ACCIDENT W/INJURY;1500 RIVER ST
+**************************************************************************
+Sussex County, DE (Alternate) in progress
