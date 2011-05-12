@@ -1812,13 +1812,6 @@ BC911:MVAUNK>MOTOR VEH ACC UNKNOWN INJ STATE HIGHWAY 39 JENKINS VERIZON WIRELESS
 Prince Georges County, MD (again)
 Requires reverse merge support
 **********************************************************
-Tulusa, OK
-Contact: Greg Rockin M Ranch <catoosafd23@yahoo.com>
-Sender: pagealert@cityoftulsa.org
-PAGE-OUT / 09:11PM Tue 05/10/2011 2200 N HWY167NB EXPY; UNK WHAT IS ON FIRE CS7 ENR PUBLIC SAFETY COMMUNICATIONS
-PAGE-OUT / 10:40PM Tue 05/10/2011 ***MED EMERG / FALL*** 314 N CHEROKEE ST /// PAFFORD ENRT PUBLIC SAFETY COMMUNICATIONS
-3.02:42AM Wed 05/11/2011 back pain....303 n joanna st, mp 1771....42 yof post back surgery....pafford enr from catoosa..eot PUBLIC SAFETY COMMUNICATIONS
-**********************************************************
 **********************************************************
 **********************************************************
 **********************************************************
@@ -1965,5 +1958,15 @@ BRUSH, WOODS, FIELD FIRE (Class 1,2 & 3 days) CHARLES ST / COOKSEY RD 27 E1 GRAS
 10-50 PI, EMS, BLS, 29A FAULKNER RD / CRAIN HWY 26 D8 19 year old, Female, Conscious, Breathing. Traffic / Transportation Incidents. Unknown sta
 BRUSH, WOODS, FIELD FIRE (Class 1,2 & 3 days) CHARLES ST / COOKSEY RD 27 E1 GRASS ON FIRE POSSIBLY WIRES DOWN F111260014 1107782 16:49 
 FILL IN, MISCELLANEOUS TRANSFER 911 WASHINGTON AVE, STATION 1 17 E3-E4 ENGINE TO STATION 1 F111300021 1108052 19:50
-
-
+**********************************************************
+Tulusa, OK
+Contact: Greg Rockin M Ranch <catoosafd23@yahoo.com>
+Sender: pagealert@cityoftulsa.org
+PAGE-OUT / 09:11PM Tue 05/10/2011 2200 N HWY167NB EXPY; UNK WHAT IS ON FIRE CS7 ENR PUBLIC SAFETY COMMUNICATIONS
+PAGE-OUT / 10:40PM Tue 05/10/2011 ***MED EMERG / FALL*** 314 N CHEROKEE ST /// PAFFORD ENRT PUBLIC SAFETY COMMUNICATIONS
+02:42AM Wed 05/11/2011 back pain....303 n joanna st, mp 1771....42 yof post back surgery....pafford enr from catoosa..eot PUBLIC SAFETY COMMUNICATIONS
+PAGE-OUT / 08:15PM Wed 05/11/2011 MEDICAL / 17835 E Pine St, Lot 6 / not alert PUBLIC SAFETY COMMUNICATIONS
+PAGE-OUT / 06:13PM Wed 05/11/2011 MVA AT 17700 E I44WB EXP; OHP/PAFFORD ENR PUBLIC SAFETY COMMUNICATIONS
+03:50PM Wed 05/11/2011 ***MED EMERG / CP (POST DOM)*** CHEROKEE CASINO LOT D //// PAFFORD ENRT... CASINO WILL HAVE WAIVER AT LIGHT PUBLIC SAFETY COMMUNICATIONS
+09:53PM Tue 05/10/2011 TIMES: REC VIA RADIO CS7 3500 N HWY167/REC 2110 HRS, DISP 2110 , CS7 ARR 2111 HRS, CLEARED 2153 HRS PUBLIC SAFETY COMMUNICATIONS
+09:53PM Tue 05/10/2011 TIMES: REC VIA RADIO CS7 3500 N HWY167/REC 2110 HRS, DISP 2110 , CS7 ARR 2111 HRS, CLEARED 2153 HRS PUBLIC SAFETY COMMUNICATIONS

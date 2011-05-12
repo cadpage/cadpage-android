@@ -1,9 +1,7 @@
 package net.anei.cadpage.parsers.MD;
 
-import java.util.Properties;
-
 import net.anei.cadpage.SmsMsgInfo.Data;
-import net.anei.cadpage.parsers.SmartAddressParser;
+import net.anei.cadpage.parsers.FieldProgramParser;
 
 /*    
 Alleghany County, MD
@@ -33,12 +31,17 @@ CAD Page for CFS 100210-88
   SMOKE INVESTIGATION  U:LOWER CONSEL RD\nUnits: CO16
 CAD Page for CFS 110510-132
   AUTOMATIC HOUSE ALARM 150 MAPLE ST\x09Units: ENG16 TR16 ENG17
+ 
+Contact: Chris Green <mediccgreen@gmail.com>  
+LogiSYSCAD S:CAD Page for CFS 051211-55 M:SERVICE CALL NOT LISTED NEW CREEK                                       Units: A50     \n
+  
 */
 
-public class MDAlleganyCountyParser extends SmartAddressParser {
+public class MDAlleganyCountyParser extends FieldProgramParser {
   
   public MDAlleganyCountyParser() {
-    super("ALLEGANY COUNTY", "MD");
+    super("ALLEGANY COUNTY", "MD",
+           "ADDR/SC Units:UNIT");
   }
   
   @Override
@@ -52,27 +55,36 @@ public class MDAlleganyCountyParser extends SmartAddressParser {
     if (! subject.startsWith("CAD Page for CFS ")) return false;
     data.strCallId = subject.substring(17).trim();
     
-    body = body.replaceAll("\t", "\n");
-    Properties props = parseMessage("MSG:" + body, "\n");
-    
-    // MSG: line contains call description and address.
-    // The separator can be several different things
-    String line = props.getProperty("MSG", "");
-    
-    // Address may be separated by a U: marker
-    int pt = line.indexOf(" U:");
-    if (pt >= 0) {
-      data.strCall = line.substring(0, pt).trim();
-      parseAddress(line.substring(pt+3).trim(), data);;
+    body = body.replaceAll("\\s+", " ");
+    return super.parseMsg(body, data);
+  }
+  
+  private class MyAddressField extends AddressField {
+
+    @Override
+    public void parse(String field, Data data) {
+      // Address may be separated by a U: marker
+      int pt = field.indexOf(" U:");
+      if (pt >= 0) {
+        data.strCall = field.substring(0, pt).trim();
+        parseAddress(field.substring(pt+3).trim(), data);;
+      }
+      
+      // Otherwise invoke the smart parser to split the call from the address
+      else {
+        super.parse(field, data);
+      }
     }
-    
-    // Otherwise invoke the smart parser to split the call from the address
-    else {
-      parseAddress(StartType.START_CALL, FLAG_ANCHOR_END, line, data);
-    }
-    
-    // UNITS: line contains the units
-    data.strUnit = props.getProperty("Units", "");
-    return true;
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("ADDR")) return new MyAddressField();
+    return super.getField(name);
+  }
+  
+  @Override
+  public String getProgram() {
+    return "ID " + super.getProgram();
   }
 }
