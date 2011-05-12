@@ -27,9 +27,10 @@ BC 887 STREET, Street Alarm, 11113 BIRCH WAY, PP, btwn ELM WAY and PENNY AVE, TG
 E820 ALS, Medic Local, 15903 BISHOPSTONE TER, PP, btwn GALESHEAD DR and END, TGA2, 2001, 5653 D 5, Police ProQA recommends dispatch at this time, Units:A843, E820, NMR
 A820 ALS1, Medic Local, 9805 BROADMOOR TER, PP, btwn BROADMOOR LN and BROADMOOR CT, TGC2, 4505, 5768 C 10, Medical ProQA recommends dispatch at this time, Units:A820, MD845
 A820 BLS, BLS Amb, 20 DIANE DR, TGA2, MAAA, ANNE ARUNDEL BOX 0904 A820 FOR SICK PERSON ON BRAVO W/ MEDIC 9, Unit:A820
-
 A820 BLS1, BLS Amb, 5302 WATER ST, PP, btwn MAIN ST and CHURCH ST, TGA2, 2009, 5652 K 10, Police ProQA recommends dispatch at this time, Unit:A820
 E845 HOUSEG, House Gas Leak, 6512 HALLAM DR, PP, btwn HALLAM CT and MEADOW LARK AVE, TGC2, 2308, 5767 F 2, Fire ProQA recommends dispatch at this time, Units:BO883, E823, E845, SQ827, TK825
+
+A843 ALS1, Medic Local, 4321 COLLINGTON RD #3, PP, btwn EVERGREEN PKY and TOWN CENTER BLVD, TGA2, 1608, 54  2/2 / 13 C 9, 3RD FLOOR, Units:A843, E816, NMR
 
 Contact: John Hoffman <ejhoffmanjr@gmail.com>
 Sender: cad3815@alert.princegeorgescountymd.gov
