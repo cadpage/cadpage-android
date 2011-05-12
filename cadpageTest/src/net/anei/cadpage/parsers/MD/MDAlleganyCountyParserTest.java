@@ -56,5 +56,15 @@ public class MDAlleganyCountyParserTest extends BaseParserTest {
         "CALL:AUTOMATIC HOUSE ALARM",
         "ADDR:150 MAPLE ST",
         "UNIT:ENG16 TR16 ENG17");
+
+    doTest("T7",
+        "LogiSYSCAD S:CAD Page for CFS 051211-55 M:SERVICE CALL NOT LISTED NEW CREEK                                       Units: A50     \n",
+        "ID:051211-55",
+        "CALL:SERVICE CALL NOT LISTED NEW CREEK",
+        "UNIT:A50");
+  }
+  
+  public static void main(String[] args) {
+    new MDAlleganyCountyParserTest().generateTests("T7");
   }
 }

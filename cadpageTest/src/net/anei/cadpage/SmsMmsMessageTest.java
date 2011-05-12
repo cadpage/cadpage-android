@@ -202,6 +202,12 @@ public class SmsMmsMessageTest {
         "pscc@ci.erlanger.ky.us",
         "Alert: Unconscious / Unresponsive",
         "ALRM LVL: 1\nLOC:\n32 DUDLEY RD\nEDGEWOOD\nBTWN: MAPLE LN & WILDROSE DR\n\nRCVD AS E-911 Call\n\nCOM:\nSUBJ FELL IN BATHROOM\nUNK IF BREATHING\nBETWEEN THE TOILET AND BATH TUB\n\nCT:\n22-RCA at POS 03");
+    
+    doParseTest("MDAlleganyCounty",
+        "LogiSYSCAD S:CAD Page for CFS 051211-55 M:SERVICE CALL",
+        "LogiSYSCAD",
+        "CAD Page for CFS 051211-55",
+        "SERVICE CALL");
   }
   
   @Test
