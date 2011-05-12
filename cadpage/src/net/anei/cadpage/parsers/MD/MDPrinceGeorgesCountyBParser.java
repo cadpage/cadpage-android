@@ -28,6 +28,9 @@ E820 ALS, Medic Local, 15903 BISHOPSTONE TER, PP, btwn GALESHEAD DR and END, TGA
 A820 ALS1, Medic Local, 9805 BROADMOOR TER, PP, btwn BROADMOOR LN and BROADMOOR CT, TGC2, 4505, 5768 C 10, Medical ProQA recommends dispatch at this time, Units:A820, MD845
 A820 BLS, BLS Amb, 20 DIANE DR, TGA2, MAAA, ANNE ARUNDEL BOX 0904 A820 FOR SICK PERSON ON BRAVO W/ MEDIC 9, Unit:A820
 
+A820 BLS1, BLS Amb, 5302 WATER ST, PP, btwn MAIN ST and CHURCH ST, TGA2, 2009, 5652 K 10, Police ProQA recommends dispatch at this time, Unit:A820
+E845 HOUSEG, House Gas Leak, 6512 HALLAM DR, PP, btwn HALLAM CT and MEADOW LARK AVE, TGC2, 2308, 5767 F 2, Fire ProQA recommends dispatch at this time, Units:BO883, E823, E845, SQ827, TK825
+
 Contact: John Hoffman <ejhoffmanjr@gmail.com>
 Sender: cad3815@alert.princegeorgescountymd.gov
 SQ814 APTF, Apartment Fire, 1404 KANAWHA ST #302, PP, btwn 14TH AVE and 15TH AVE, TGA2, 3413, 5409 C 2, Fire ProQA recommends dispatch at this time, Units:BO884, E702, E712, E834, PE844, SQ814, TK801, TK812

@@ -2,6 +2,7 @@ package net.anei.cadpage.parsers.MD;
 
 import java.util.Arrays;
 import java.util.HashSet;
+import java.util.Properties;
 import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -79,6 +80,8 @@ Contact: Richard Werring <rbwerring@gmail.com>
 Contact: Patrick Stanley <work3750@gmail.com>
 ((10171) CAD ) 14:06:23*OUTSIDE FIRE*44761 KING WY*SURREY WY*WILDEWOOD*CO9*Using ProQA Fire*
 
+Contact: dan kenney <dan@motovationcycles.com>
+((10596) CAD ) 05:36:57*Psychiatric/Suicide Attempt*BURCH MART CHARLOTTE HALL*30295 THREE NOTCH RD*MT WOLF RD*CHAR HALL*CO29*CALLER IS INSIDE THE SHELL S
 
  */
 
@@ -87,6 +90,7 @@ public class MDSaintMarysCountyParser extends SmartAddressParser {
   
   private static Set<String> CITY_LIST = new HashSet<String>(Arrays.asList(new String[]{
       "CALIFORNIA",
+      "CHAR HALL",
       "CHARLOTTE HALL",
       "GOLDEN BEACH",
       "LEXINGTON PARK",
@@ -125,6 +129,10 @@ public class MDSaintMarysCountyParser extends SmartAddressParser {
       "VALLEY LEE",
       "WILDEWOOD"
   }));
+  
+  private static final Properties CITY_ABBRV = buildCodeTable(new String[]{
+      "CHAR HALL", "CHARLOTTE HALL"
+  });
   
   private static final Pattern MARKER = Pattern.compile("\\b\\d\\d:\\d\\d:\\d\\d\\*");
   private static final Pattern PLACE = Pattern.compile("\\*\\*([^*]+)\\*\\*");
@@ -251,6 +259,8 @@ public class MDSaintMarysCountyParser extends SmartAddressParser {
           if (data.strPlace.length() == 0) data.strPlace = data.strCity;
           data.strCity = "";
         }
+        String city = CITY_ABBRV.getProperty(data.strCity);
+        if (city != null) data.strCity = city;
         break;
         
       case 6:
