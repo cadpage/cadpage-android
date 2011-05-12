@@ -144,6 +144,18 @@ public class MDPrinceGeorgesCountyBParserTest extends BaseParserTest {
         "CH:TGC2",
         "MAP:5767 F 2",
         "UNIT:BO883, E823, E845, SQ827, TK825");
+
+    doTest("T7",
+        "A843 ALS1, Medic Local, 4321 COLLINGTON RD #3, PP, btwn EVERGREEN PKY and TOWN CENTER BLVD, TGA2, 1608, 54  2/2 / 13 C 9, 3RD FLOOR, Units:A843, E816, NMR",
+        "SRC:A843",
+        "CALL:ALS1-Medic Local",
+        "ADDR:4321 COLLINGTON RD",
+        "APT:#3",
+        "X:EVERGREEN PKY and TOWN CENTER BLVD",
+        "CH:TGA2",
+        "MAP:54  2/2 / 13 C 9",
+        "INFO:3RD FLOOR",
+        "UNIT:A843, E816, NMR");
   }
   
   @Test
