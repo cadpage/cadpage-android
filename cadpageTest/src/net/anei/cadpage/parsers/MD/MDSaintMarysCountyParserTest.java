@@ -345,6 +345,16 @@ public class MDSaintMarysCountyParserTest extends BaseParserTest {
          "CITY:WILDEWOOD",
          "UNIT:CO9",
          "INFO:Using ProQA Fire");
+
+     doTest("T39",
+         "((10596) CAD ) 05:36:57*Psychiatric/Suicide Attempt*BURCH MART CHARLOTTE HALL*30295 THREE NOTCH RD*MT WOLF RD*CHAR HALL*CO29*CALLER IS INSIDE THE SHELL S",
+         "CALL:Psychiatric/Suicide Attempt",
+         "PLACE:BURCH MART CHARLOTTE HALL",
+         "ADDR:30295 THREE NOTCH RD",
+         "X:MT WOLF RD",
+         "CITY:CHARLOTTE HALL",
+         "UNIT:CO29",
+         "INFO:CALLER IS INSIDE THE SHELL S");
   }
   
   public static void main(String[] args) {

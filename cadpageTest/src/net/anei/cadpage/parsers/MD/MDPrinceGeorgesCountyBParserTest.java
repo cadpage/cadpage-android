@@ -124,6 +124,26 @@ public class MDPrinceGeorgesCountyBParserTest extends BaseParserTest {
         "CITY:ANNE ARUNDEL COUNTY",
         "INFO:ANNE ARUNDEL BOX 0904 A820 FOR SICK PERSON ON BRAVO W/ MEDIC 9",
         "UNIT:A820");
+
+    doTest("T5",
+        "A820 BLS1, BLS Amb, 5302 WATER ST, PP, btwn MAIN ST and CHURCH ST, TGA2, 2009, 5652 K 10, Police ProQA recommends dispatch at this time, Unit:A820",
+        "SRC:A820",
+        "CALL:BLS1-BLS Amb",
+        "ADDR:5302 WATER ST",
+        "X:MAIN ST and CHURCH ST",
+        "CH:TGA2",
+        "MAP:5652 K 10",
+        "UNIT:A820");
+
+    doTest("T6",
+        "E845 HOUSEG, House Gas Leak, 6512 HALLAM DR, PP, btwn HALLAM CT and MEADOW LARK AVE, TGC2, 2308, 5767 F 2, Fire ProQA recommends dispatch at this time, Units:BO883, E823, E845, SQ827, TK825",
+        "SRC:E845",
+        "CALL:HOUSEG-House Gas Leak",
+        "ADDR:6512 HALLAM DR",
+        "X:HALLAM CT and MEADOW LARK AVE",
+        "CH:TGC2",
+        "MAP:5767 F 2",
+        "UNIT:BO883, E823, E845, SQ827, TK825");
   }
   
   @Test
@@ -248,7 +268,7 @@ public class MDPrinceGeorgesCountyBParserTest extends BaseParserTest {
   }
   
   public static void main(String[] args) {
-    new MDPrinceGeorgesCountyBParserTest().generateTests("T1");
+    new MDPrinceGeorgesCountyBParserTest().generateTests("T6");
   }
   
   
