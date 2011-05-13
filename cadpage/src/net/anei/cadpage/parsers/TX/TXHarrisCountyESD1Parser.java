@@ -19,9 +19,7 @@ Unknown Problem / 916 Jones Rd / APT: / BLD: / KM: 460S / XSTRTS: MIZELL ST/STEE
 / 28C09X / Stroke (CVA) / 2726 Waco / APT: / BLD: / KM: 460Y / XSTRTS: DALLAS ST/EAST ST / Box #: 1703
 / 31D03 /Fainting F/O / 409 W Wallisville Rd / APT: / BLD: / KM: 459Q / XSTRTS: N 5TH ST/N 4TH ST / Box #: 1705
 / 60B01 / /ODOR (NAT/LP GASES) / 617 Golden Bend Dr / APT: / BLD: / KM: 459M / XSTRTS: RED HAVEN DR/Dead End / Box #: 1701
-
 /11-05-15429 / 52C03S / 52O1 ALARMS / 16102 E Ih 10 / APT: / BLD: OLD RIVER TERRANCE M / KM: 498G / XSTRTS:IH 10 EAST BAYOU RAMP/IH 10 SH/ Box #:2002
-
 
 */
 

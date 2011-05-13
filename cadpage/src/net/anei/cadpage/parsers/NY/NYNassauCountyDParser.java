@@ -27,15 +27,20 @@ Contact: jim baudille jr <ncdisp33@gmail.com>
 FRM:paging@bethpagefd.xohost.com\nMSG:\n2011-000418 *** 21)  AFA BUILDING *** BETHPAGE HIGH SCHOOL 800 STEWART AVE CS: SYCAMORE AVE TOA: 12:03 04-02-11 STATION 4
 1 of 2\nFRM:paging@bethpagefd.xohost.com\nMSG:\n2011-000530 *** 30) RESCUE-SIGNAL 9 *** MR ANTHONY MORACE 141 HERMANN AVE N CS: SOPHIA ST TOA:\n(Con't) 2 of 2\n09:52 04-22-11 HEADQUARTERS(End)
 
+Contact:"sal234@nmfd-660.com" <sal234@nmfd-660.com>
+Sender: nmfd660@verizon.net
+*** 30 - RESCUE *** CIARDI 41 AMHERST DR CS: N WISCONSIN AVE  / HARRIET PL C-6 TOA: 18:23 05/12/11 2011-000368 3/18/30/38/52 Amherst Drive
+
 */
 
 public class NYNassauCountyDParser extends FieldProgramParser {
   
   private static final Pattern ID_PTN = Pattern.compile("^(\\d{4}-\\d{6}) ");
+  private static final Pattern ID_PTN2 = Pattern.compile("\\b(\\d{4}-\\d{6})\\b");
   
   public NYNassauCountyDParser() {
     super("NASSAU COUNTY", "NY",
-           "ADDR/SP! CS:X! TOA:SKIP");
+           "ADDR/SP! CS:X! TOA:SPEC");
   }
 
   @Override
@@ -56,6 +61,20 @@ public class NYNassauCountyDParser extends FieldProgramParser {
     
     body = body.substring(pt2+4).trim();
     return super.parseMsg(body, data);
+  }
+  
+  private class SpecField extends IdField {
+    @Override
+    public void parse(String field, Data data) {
+      Matcher match = ID_PTN2.matcher(field);
+      if (match.find()) data.strCallId = match.group();
+    }
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("SPEC")) return new SpecField();
+    return super.getField(name);
   }
   
   @Override
