@@ -81,11 +81,22 @@ public class TXHarrisCountyESD1ParserTest extends BaseParserTest {
         "MAP:459M",
         "X:RED HAVEN DR/Dead End",
         "BOX:1701");
-    
+
+    doTest("T9",
+        "/11-05-15429 / 52C03S / 52O1 ALARMS / 16102 E Ih 10 / APT: / BLD: OLD RIVER TERRANCE M / KM: 498G / XSTRTS:IH 10 EAST BAYOU RAMP/IH 10 SH/ Box #:2002",
+        "ID:11-05-15429",
+        "CODE:52C03S",
+        "CALL:52O1 ALARMS",
+        "ADDR:16102 E Ih 10",
+        "APT:OLD RIVER TERRANCE M",
+        "MAP:498G",
+        "X:IH 10 EAST BAYOU RAMP/IH 10 SH/",
+        "BOX:2002");
+   
   }
 
 public static void main(String[] args) {
-    new TXHarrisCountyESD1ParserTest().generateTests("T1");
+    new TXHarrisCountyESD1ParserTest().generateTests("T9");
   }
 
 }
