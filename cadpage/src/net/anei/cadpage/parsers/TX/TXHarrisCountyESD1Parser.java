@@ -20,6 +20,9 @@ Unknown Problem / 916 Jones Rd / APT: / BLD: / KM: 460S / XSTRTS: MIZELL ST/STEE
 / 31D03 /Fainting F/O / 409 W Wallisville Rd / APT: / BLD: / KM: 459Q / XSTRTS: N 5TH ST/N 4TH ST / Box #: 1705
 / 60B01 / /ODOR (NAT/LP GASES) / 617 Golden Bend Dr / APT: / BLD: / KM: 459M / XSTRTS: RED HAVEN DR/Dead End / Box #: 1701
 
+/11-05-15429 / 52C03S / 52O1 ALARMS / 16102 E Ih 10 / APT: / BLD: OLD RIVER TERRANCE M / KM: 498G / XSTRTS:IH 10 EAST BAYOU RAMP/IH 10 SH/ Box #:2002
+
+
 */
 
 
@@ -29,21 +32,27 @@ public class TXHarrisCountyESD1Parser extends FieldProgramParser {
 
   public TXHarrisCountyESD1Parser() {
     super("HARRIS COUNTY", "TX",
-           "CODE? CALL ADDR! ADDR2 APT:APT BLD:APT KM:MAP XSTRTS:X Box:BOX");
+           "ID? CODE? CALL ADDR! ADDR2 APT:APT BLD:APT KM:MAP XSTRTS:X Box:BOX");
   }
   
   @Override
   public boolean parseMsg(String body, Data data) {
-    if (body.startsWith("/ ")) body = body.substring(2).trim();
+    if (body.startsWith("/")) body = body.substring(1).trim();
     body = body.replace("Box #:", "Box:");
     return parseFields(DELIM.split(body), data);
   }
   
+  // ID Field has to fit specific pattern
+  private class MyIdField extends IdField {
+    public MyIdField() {
+      setPattern(Pattern.compile("\\d\\d-\\d\\d-\\d{5}"));
+    }
+  }
+  
   // Code field has to fit specific pattern
-  private static final Pattern CODE_PTN = Pattern.compile("\\d\\d[A-Z]\\d\\d[A-Za-z]?");
   private class MyCodeField extends CodeField {
     public MyCodeField() {
-      setPattern(CODE_PTN);
+      setPattern(Pattern.compile("\\d\\d[A-Z]\\d\\d[A-Za-z]?"));
     }
   }
   
@@ -67,6 +76,7 @@ public class TXHarrisCountyESD1Parser extends FieldProgramParser {
   
   @Override
   public Field getField(String name) {
+    if (name.equals("ID")) return new MyIdField();
     if (name.equals("CODE")) return new MyCodeField();
     if (name.equals("ADDR2")) return new MyAddress2Field();
     if (name.equals("APT")) return new MyAptField();
