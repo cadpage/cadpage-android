@@ -101,17 +101,9 @@ public class MOGasconadeCountyParserTest extends BaseParserTest {
         "CITY:OWENSVILLE",
         "MAP:OFD SECTOR 1, PAGE 073, PAGE 125",
         "X:E JEFFERSON AVE 0.06 mi N E MADISON AVE 0.02 mi SW");
-
-    doTest("T12",
-        "701 736 M50 FIGHT IN PROGRESS  2774 HW HWY P - S SECTOR              5732411289 OWENSVILLE MapRegions:  CrossStreets: Description: IN THE BACK OF SILVER DICK APTS \n\nMALE/FEMALE MALE DRUG THE FEMALE INSIDE.  3RD DOOR DOWN FROM HWY 28.  POSSIBLY G.  \nMALES LEAVING IN A GREEN FORD EXPLORER, HEADING TOWARD HOLT ROAD.  TURNED RIGHT Dispatch: 5/12/2011 07:19:35\n\n\n\n",
-        "UNIT:701 736",
-        "CALL:M50 FIGHT IN PROGRESS",
-        "ADDR:2774 HW HWY P - S SECTOR 5732411289",
-        "CITY:OWENSVILLE",
-        "INFO:IN THE BACK OF SILVER DICK APTS \n\nMALE/FEMALE MALE DRUG THE FEMALE INSIDE.  3RD DOOR DOWN FROM HWY 28.  POSSIBLY G.  \nMALES LEAVING IN A GREEN FORD EXPLORER, HEADING TOWARD HOLT ROAD.  TURNED RIGHT");
   }
 
   public static void main(String[] args) {
-    new MOGasconadeCountyParserTest().generateTests("T9");
+    new MOGasconadeCountyParserTest().generateTests("T12");
   }
 }
