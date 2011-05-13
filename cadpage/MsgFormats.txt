@@ -444,10 +444,15 @@ New Castle County, DE (DENewCastleCountyParser)
 (25CAD) [FB] F00 12:11 1 - T:69D7 (L3*CHIMNEY FIRE) L:2007 FERNDALE DR ,X1 *WESTWOOD MANOR - X:btwn FORREST RD ~ VEALE RD DESC: chimney.?!?!
  [FB] F00 03:14 1 - T:69D6 (L3*RESIDENTIAL FIRE) L:108 CARLIE RD ,NT *LYNNFIELD - X:btwn HOMEWOOD RD ~ RIDGELAND RD
 ***************************************************************************
-Sussex County, DE (DESussexCountyParser)
+Sussex County, DE (DESussexCountyAParser)
 [86 EMS] -- 17A1 -- 18958 Coastal Hwy Lewes
 [86 Fire] -- F - Auto Fire Alarm -- Hallmark, Parcel Post, Safeway -- 19266 Coastal Hwy Rehoboth -- INC #602
 [86 Fire] -- F - Standby -- Bethany Beach Station 70 Rehoboth Beach -- INC #599
+***************************************************************************
+Sussex County, DE (DESussexCountyBParser)
+(*CAD*) [CAD] Sta: 78AS3   Loc: 12319 Sussex Hwy   City: 19950   --- Sick Person(Specific Diag)-BLSPremise 12319 Sussex Hwy
+(*CAD*) [CAD] Sta: 78AST   Loc: 7229 Seashore Hwy   --- Falls-BLS
+(*CAD*) [CAD] Sta: 78AST   Loc: 14490 Broad Ave   City: 19950   --- Breathing Problems-ALS    Premise 14490 Broad Ave
 ***************************************************************************
 Lake County, FL (FLLakeCountyParser)
 CAD:ST56* Unconscious / Fainting* 805 PLUMOSA AVENUE* FRUITLAND PARK*
@@ -1889,7 +1894,6 @@ MSG:CAD:WCFD;12;05/06/2011 04:02:34;FIRE ALARM;1605 CURTIS BRIDGE RD
 FRM:CAD@wilkes.nc.local
 MSG:CAD:WCFD;702;05/04/2011 14:53:07;ACCIDENT W/INJURY;1500 RIVER ST
 **************************************************************************
-Sussex County, DE (Alternate) in progress
 **********************************************************
 Brunswick County, NC
 Contact: "~Heather~" <sunshine5grl@gmail.com>

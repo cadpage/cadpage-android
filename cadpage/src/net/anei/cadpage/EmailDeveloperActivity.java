@@ -1,5 +1,6 @@
 package net.anei.cadpage;
 
+import net.anei.cadpage.donation.DonationManager;
 import android.app.Activity;
 import android.app.AlarmManager;
 import android.app.PendingIntent;
@@ -125,13 +126,15 @@ public class EmailDeveloperActivity extends Activity {
             message = SmsMessageQueue.getInstance().getMessage(msgId);
             if (message != null) message.addMessageInfo(context, body);
           } else {
-            SmsMsgLogBuffer.getInstance().addMessageInfo(context, body);
+            SmsMsgLogBuffer lb = SmsMsgLogBuffer.getInstance();
+            if (lb != null) lb.addMessageInfo(context, body);
           }
         }
         
         // If configuration info requested, add that as well
         if (includeConfigBox.isChecked()) {
           ManagePreferences.addConfigInfo(context, body);
+          DonationManager.instance().addAccountInfo(body);
         }
         
         // Build send email intent and launch it

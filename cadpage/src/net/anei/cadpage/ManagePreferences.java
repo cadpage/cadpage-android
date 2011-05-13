@@ -347,6 +347,23 @@ public class ManagePreferences {
     if (year > 0 && year <= paidYear()) return;
     prefs.putInt(R.string.pref_paid_year_key, year);
   }
+  
+  public static boolean freeRider() {
+    return prefs.getBoolean(R.string.pref_free_rider_key);
+  }
+  
+  public static void setFreeRider(boolean newVal) {
+    if (newVal == freeRider()) return;
+    prefs.putBoolean(R.string.pref_free_rider_key, newVal);
+  }
+  
+  private static void debugDonateInfo(Context context) {
+    SharedPreferences.Editor settings = prefs.mPrefs.edit();
+    settings.putBoolean(context.getString(R.string.pref_free_rider_key), false);
+    settings.putInt(context.getString(R.string.pref_paid_year_key), 0);
+    settings.putString(context.getString(R.string.pref_install_date_key), null);
+    settings.commit();
+  }
 
 
   /**
@@ -419,7 +436,8 @@ public class ManagePreferences {
         R.string.pref_button3_key,
 
         R.string.pref_paid_year_key,
-        R.string.pref_install_date_key
+        R.string.pref_install_date_key,
+        R.string.pref_free_rider_key
     };
 
     Map<String, ?> map = prefs.mPrefs.getAll();
@@ -478,6 +496,12 @@ public class ManagePreferences {
     int result = mPrefs.getInt(context.getString(resPrefId), Integer.MAX_VALUE);
     if (result == Integer.MAX_VALUE) throw new RuntimeException("No configured preference value found");
     return result;
+  }
+  
+  public void putBoolean(int resPrefId, boolean newVal) {
+    SharedPreferences.Editor settings = mPrefs.edit();
+    settings.putBoolean(context.getString(resPrefId), newVal);
+    settings.commit();
   }
 
   public void putString(int resPrefId, String newVal) {

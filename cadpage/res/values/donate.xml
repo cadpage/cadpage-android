@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="donate_free_title">Thank you for your support</string>
+  <string name="donate_demo_title">You have been using Cadpage for %d days</string>
+</resources>

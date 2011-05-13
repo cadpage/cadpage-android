@@ -3,6 +3,9 @@
   xmlns:android="http://schemas.android.com/apk/res/android">
   <PreferenceCategory
     android:title="@string/pref_config_title">
+    <Preference 
+      android:key="@string/pref_donate_status_key"
+      android:title="@string/pref_donate_status_title"/>
     <net.anei.cadpage.preferences.AppEnabledCheckBoxPreference
       android:key="@string/pref_enabled_key"
       android:title="@string/pref_enabled_title"

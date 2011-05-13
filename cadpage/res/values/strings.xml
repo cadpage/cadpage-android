@@ -251,192 +251,216 @@
   <string name="pref_donate_paypal_button">Donate via PayPal</string>
 
 <!-- Misc missing string -->
-   <string name="view_contact">View Contact</string>
+  <string name="view_contact">View Contact</string>
 
 <!-- Quick Reply Checkbox Preference -->
-   <string name="pref_quickreply_title">Quick Reply</string>
-   <string name="pref_quickreply_summaryon">Quick Reply is enabled</string>
-   <string name="pref_quickreply_summaryoff">Quick Reply is disabled</string>
-   <string name="pref_quickreply_bothreplybuttons">Both reply buttons are already active, to configure them please go to the Button Configuration screen</string>
-   <string name="pref_quickreply_noreplybuttons">No reply buttons are currently active, to configure them please go to the Button Configuration screen</string>
+  <string name="pref_quickreply_title">Quick Reply</string>
+  <string name="pref_quickreply_summaryon">Quick Reply is enabled</string>
+  <string name="pref_quickreply_summaryoff">Quick Reply is disabled</string>
+  <string name="pref_quickreply_bothreplybuttons">Both reply buttons are already active, to
+    configure them please go to the Button Configuration screen</string>
+  <string name="pref_quickreply_noreplybuttons">No reply buttons are currently active, to
+    configure them please go to the Button Configuration screen</string>
 
-<!-- Misc missing string -->
-   <string name="button_replybyaddress">Reply (to phone number)</string>
-   
-<!-- Quick Reply Signature pref -->
-   <string name="pref_notif_signature_title">Quick Reply Signature</string>
-   <string name="pref_notif_signature_summary">Appears at the end of every quick reply</string>
+  <!-- Misc missing string -->
+  <string name="button_replybyaddress">Reply (to phone number)</string>
 
-<!-- Eula Strings -->
-    <string name="eula_title">SMS Popup License Agreement</string>
-    <string name="eula_accept">Accept</string>
-    <string name="eula_refuse">Uninstall</string>
+  <!-- Quick Reply Signature pref -->
+  <string name="pref_notif_signature_title">Quick Reply Signature</string>
+  <string name="pref_notif_signature_summary">Appears at the end of every quick reply</string>
 
-<!-- Send message prefs -->
-    <string name="pref_delivery_report_title">Delivery Reports</string>
-    <string name="pref_delivery_report_summary">Request a delivery report for each message you send via quick reply</string>
+  <!-- Eula Strings -->
+  <string name="eula_title">SMS Popup License Agreement</string>
+  <string name="eula_accept">Accept</string>
+  <string name="eula_refuse">Uninstall</string>
 
-    <string name="pref_split_message_title">Split Long Messages</string>
-    <string name="pref_split_message_summaryon">Long messages will be split up (only needed for some CDMA carriers)</string>
-    <string name="pref_split_message_summaryoff">Long messages will not be split up (only needed for some CDMA carriers)</string>
-    
-<!-- Other new prefs -->
-    <string name="pref_autorotate_title">Autorotate Always On</string>
-    <string name="pref_autorotate_summaryon">Popup will always autorotate</string>
-    <string name="pref_autorotate_summaryoff">Popup will auto-rotate based on the screen behind it</string>
+  <!-- Send message prefs -->
+  <string name="pref_delivery_report_title">Delivery Reports</string>
+  <string name="pref_delivery_report_summary">Request a delivery report for each message you
+    send via quick reply</string>
 
-    <string name="pref_delete_unopen_title">Delete Unopened Calls</string>
-    <string name="pref_delete_unopen_summaryon">Allow unopened calls to be deleted</string>
-    <string name="pref_delete_unopen_summaryoff">Do not allow unopened calls to be deleted</string>
+  <string name="pref_split_message_title">Split Long Messages</string>
+  <string name="pref_split_message_summaryon">Long messages will be split up (only needed for
+    some CDMA carriers)</string>
+  <string name="pref_split_message_summaryoff">Long messages will not be split up (only needed
+    for some CDMA carriers)</string>
 
-    <string name="pref_screen_on_title">Screen On for Popup</string>
-    <string name="pref_screen_on_summaryon">Screen will turn on when popup shows</string>
-    <string name="pref_screen_on_summaryoff">Screen will not turn on when popup shows</string>
-    
-    <string name="pref_screen_category">Screen Control</string>
-    
-<!-- Other new Quick Reply prefs -->    
-    <string name="quickreply_sent_toast">Message Sent</string>
-    <string name="quickreply_failed_send_later">Currently unable to send your message. It will be sent when the service becomes available.</string>
-    <string name="quickreply_failed">Message failed to send</string>
+  <!-- Other new prefs -->
+  <string name="pref_autorotate_title">Autorotate Always On</string>
+  <string name="pref_autorotate_summaryon">Popup will always autorotate</string>
+  <string name="pref_autorotate_summaryoff">Popup will auto-rotate based on the screen behind
+    it</string>
+
+  <string name="pref_delete_unopen_title">Delete Unopened Calls</string>
+  <string name="pref_delete_unopen_summaryon">Allow unopened calls to be deleted</string>
+  <string name="pref_delete_unopen_summaryoff">Do not allow unopened calls to be deleted</string>
+
+  <string name="pref_screen_on_title">Screen On for Popup</string>
+  <string name="pref_screen_on_summaryon">Screen will turn on when popup shows</string>
+  <string name="pref_screen_on_summaryoff">Screen will not turn on when popup shows</string>
+
+  <string name="pref_screen_category">Screen Control</string>
+
+  <!-- Other new Quick Reply prefs -->
+  <string name="quickreply_sent_toast">Message Sent</string>
+  <string name="quickreply_failed_send_later">Currently unable to send your message. It will be
+    sent when the service becomes available.</string>
+  <string name="quickreply_failed">Message failed to send</string>
 
 
-<!-- Arrays texts -->
-    <string name="pref_custom">Custom</string>
+  <!-- Arrays texts -->
+  <string name="pref_custom">Custom</string>
 
-    <string name="pref_notif_repeat_times_entries_keep_repeting">Keep repeating</string>
-    
-    <string name="pref_timeout_entries_10s">10 seconds</string>
-    <string name="pref_timeout_entries_20s">20 seconds</string>
-    <string name="pref_timeout_entries_30s">30 seconds</string>
-    <string name="pref_timeout_entries_1m">1 minute</string>
-    <string name="pref_timeout_entries_2m">2 minutes</string>
-    <string name="pref_timeout_entries_5m">5 minutes</string>
-    <string name="pref_timeout_entries_10m">10 minutes</string>
+  <string name="pref_notif_repeat_times_entries_keep_repeting">Keep repeating</string>
 
-    <string name="pref_vibrate_pattern_entries_normal">Normal</string>
-    <string name="pref_vibrate_pattern_entries_long">Long Vibrate</string>
-    <string name="pref_vibrate_pattern_entries_multiple_short">Multiple Short</string>
-    <string name="pref_vibrate_pattern_entries_multiple_long">Multiple Long</string>
+  <string name="pref_timeout_entries_10s">10 seconds</string>
+  <string name="pref_timeout_entries_20s">20 seconds</string>
+  <string name="pref_timeout_entries_30s">30 seconds</string>
+  <string name="pref_timeout_entries_1m">1 minute</string>
+  <string name="pref_timeout_entries_2m">2 minutes</string>
+  <string name="pref_timeout_entries_5m">5 minutes</string>
+  <string name="pref_timeout_entries_10m">10 minutes</string>
 
-    <string name="pref_led_color_blue">Blue</string>
-    <string name="pref_led_color_green">Green</string>
-    <string name="pref_led_color_red">Red</string>
-    <string name="pref_led_color_yellow">Yellow</string>
-    <string name="pref_led_color_magenta">Magenta</string>
-    <string name="pref_led_color_cyan">Cyan</string>
+  <string name="pref_vibrate_pattern_entries_normal">Normal</string>
+  <string name="pref_vibrate_pattern_entries_long">Long Vibrate</string>
+  <string name="pref_vibrate_pattern_entries_multiple_short">Multiple Short</string>
+  <string name="pref_vibrate_pattern_entries_multiple_long">Multiple Long</string>
 
-    <string name="pref_led_pattern_entries_fast">Fast</string>
-    <string name="pref_led_pattern_entries_normal">Normal</string>
-    <string name="pref_led_pattern_entries_slow">Slow</string>
-    
-    
-    <string name="CallAddress">None</string>
-    
-    
-    <string name="pref_loc_desc_title">Current Location</string>
-    
-    <string name="pref_location_title">Select Single Location</string>
-    <string name="pref_location_summary">Select a single location</string>
-    
-    <string name="pref_multi_location_title">Select Multiple Locations</string>
-    <string name="pref_multi_location_summary">Select multiple locations</string>
-    
-    <string name="pref_override_filter_title">Override location filter</string>
-    <string name="pref_override_filter_summaryon">Location filter will be overridden</string>
-    <string name="pref_override_filter_summaryoff">Location filter %s is active</string>
-    
-    <string name="pref_filter_title">From: (Filter)</string>
-    <string name="pref_filter_summary">Only Messages from this address will be checked.  Cur value: %s</string>
-    <string name="pref_filter_dialog">Enter Email address to filter messages. No entry will scan all. Use a , to separate multiple addresses.</string>
-    
-    <string name="pref_gen_alert_title">Process general alerts</string>
-    <string name="pref_gen_alert_summaryon">Will process general alerts</string>
-    <string name="pref_gen_alert_summaryoff">Will not process general alerts</string>
-    
-    <string name="pref_show_source_title">Show page source</string>
-    <string name="pref_show_source_summaryon">Will display source of alert</string>
-    <string name="pref_show_source_summaryoff">Will not display source of alert</string>
-    
-    <string name="pref_override_default_title">Override Default City/State</string>
-    <string name="pref_override_default_summaryon">Use user default dity/state</string>
-    <string name="pref_override_default_summaryoff">Use location default city/state</string>
-    
-    <string name="pref_defcity_title">Default City or County</string>
-    <string name="pref_defcity_summary">Cur value: %s</string>
-    <string name="pref_defcity_dialog">Enter default city or county location</string>
-    
-    <string name="pref_defstate_title">Default State</string>
-    <string name="pref_defstate_summary">Cur value: %s</string>
-    <string name="pref_defstate_dialog">Enter default state location</string>
-    
-    <string name="pref_loglimit_title">Message Report Limit</string>
-    <string name="pref_loglimit_summary">Number of messages to include in problem reports\nCur value: %s</string>
-    
-    <string name="pref_msgtimeout_title">Split message timeout</string>
-    <string name="pref_msgtimeout_summary">Multi-message page timeout\nCur value: %s</string>
-    <string name="pref_msgtimeout_dialog">Maximum time in seconds to wait for rest of multi-message CAD pages</string>
-    
-    <string name="pref_split_min_msg_title">Split message min count</string>
-    <string name="pref_split_min_msg_summary">Minimum expected message count\nCur value: %s</string>
-    
-    <string name="pref_split_blank_ins_title">Insert Blanks in Split msgs</string>
-    <string name="pref_split_blank_ins_summaryon">Blanks will be inserted between split page texts</string>
-    <string name="pref_split_blank_ins_summaryoff">Blanks will not be inserted between split page texts</string>
-    
-    <string name="pref_suppress_dup_msg_title">Suppress duplicate calls</string>
-    <string name="pref_suppress_dup_msg_summaryon">Duplicate calls will be suppressed</string>
-    <string name="pref_suppress_dup_msg_summaryoff">Duplicate calls will be processed</string>
-    
-    <string name="pref_publish_pages_title">Publish CAD pages</string>
-    <string name="pref_publish_pages_summaryon">Cad pages will be published for 3rd party applications</string>
-    <string name="pref_publish_pages_summaryoff">Cad pages will not be published for 3rd party applications</string>
-    
-    <string name="app_file_dir">/Android/data/cadpage/files/</string>
-    <string name="app_file_name">callhistory.csv</string>
-    <string name="exit">Exit</string>
-    <string name="clearall_text">Clear All</string>
-    <string name="pref_passthrusms_title">Pass Calls through to SMS Client</string>
-    <string name="pref_passthrusms_summaryoff">Do not pass CadPage calls to SMS Client</string>
-    <string name="pref_passthrusms_summaryon">Pass all calls through to default SMS Client</string>
-    
-    <string name="pref_history_limit_title">Call History Limit</string>
-    <string name="pref_history_limit_summary">Maximum number of calls to save in call history. Cur value: %s</string>
-    
-    <!-- Message menu items -->
-    <string name="open_item_text">Open</string>
-    <string name="ack_item_text">Ack</string>
-    <string name="map_item_text">Map</string>
-    <string name="lock_item_text">Lock</string>
-    <string name="unlock_item_text">Unlock</string>
-    <string name="delete_item_text">Delete</string>
-    <string name="close_item_text">Close</string>
-    <string name="email_item_text">Report Problem</string>
-    <string name="publish_item_text">Publish Page</string>   
-    
-    <!-- Email developer Dialog items -->
-    <string name="pref_sendemail_title">E-mail the developers</string>
-    <string name="pref_sendemail_summary">E-mail comments or bugs to the developers</string>
-    
-    <string name="sendemail_btn_ok">Send</string>
-    <string name="sendemail_btn_cancel">Cancel</string>
+  <string name="pref_led_color_blue">Blue</string>
+  <string name="pref_led_color_green">Green</string>
+  <string name="pref_led_color_red">Red</string>
+  <string name="pref_led_color_yellow">Yellow</string>
+  <string name="pref_led_color_magenta">Magenta</string>
+  <string name="pref_led_color_cyan">Cyan</string>
 
-    <string name="pref_disclaimer_title">Disclaimer</string>
-    <string name="pref_disclaimer_summary">View Disclaimer regarding cadpage use.</string>
-    <string name="pref_disclaimer_url">http://code.google.com/p/cadpage/wiki/Disclaimer</string>
-    <string name="callback_item_text">Phone</string>
-    <string name="pref_callback_dialog">Enter Callback Phone Number</string>
-    <string name="pref_callback_title">Callback Number</string>
-    <string name="pref_callback_summary">When configured there will be a &quot;Phone&quot; button configured to call this number.  Cur value: %s</string>
-    
-    <!-- Location settings -->
-    <string name="pref_location_screen_title">Location Settings</string>
-    <string name="pref_location_screen_summary">CAD Page Processing Details</string>
-    <string name="pref_textsize_large">Large</string>
-    <string name="pref_textsize_medium">Medium</string>
-    <string name="pref_textsize_small">Small</string>
-    
-    <string name="pref_textsize_summary">Select the Text size for History Screen Messages</string>
-    <string name="pref_textsize_title">Text Size</string>
-<string name="widget_name">CadPage Settings</string>
+  <string name="pref_led_pattern_entries_fast">Fast</string>
+  <string name="pref_led_pattern_entries_normal">Normal</string>
+  <string name="pref_led_pattern_entries_slow">Slow</string>
+
+
+  <string name="CallAddress">None</string>
+
+
+  <string name="pref_loc_desc_title">Current Location</string>
+
+  <string name="pref_location_title">Select Single Location</string>
+  <string name="pref_location_summary">Select a single location</string>
+
+  <string name="pref_multi_location_title">Select Multiple Locations</string>
+  <string name="pref_multi_location_summary">Select multiple locations</string>
+
+  <string name="pref_override_filter_title">Override location filter</string>
+  <string name="pref_override_filter_summaryon">Location filter will be overridden</string>
+  <string name="pref_override_filter_summaryoff">Location filter %s is active</string>
+
+  <string name="pref_filter_title">From: (Filter)</string>
+  <string name="pref_filter_summary">Only Messages from this address will be checked.
+    Cur value: %s</string>
+  <string name="pref_filter_dialog">Enter Email address to filter messages. No entry
+    will scan all. Use a , to separate multiple addresses.</string>
+
+  <string name="pref_gen_alert_title">Process general alerts</string>
+  <string name="pref_gen_alert_summaryon">Will process general alerts</string>
+  <string name="pref_gen_alert_summaryoff">Will not process general alerts</string>
+
+  <string name="pref_show_source_title">Show page source</string>
+  <string name="pref_show_source_summaryon">Will display source of alert</string>
+  <string name="pref_show_source_summaryoff">Will not display source of alert</string>
+
+  <string name="pref_override_default_title">Override Default City/State</string>
+  <string name="pref_override_default_summaryon">Use user default dity/state</string>
+  <string name="pref_override_default_summaryoff">Use location default city/state</string>
+
+  <string name="pref_defcity_title">Default City or County</string>
+  <string name="pref_defcity_summary">Cur value: %s</string>
+  <string name="pref_defcity_dialog">Enter default city or county location</string>
+
+  <string name="pref_defstate_title">Default State</string>
+  <string name="pref_defstate_summary">Cur value: %s</string>
+  <string name="pref_defstate_dialog">Enter default state location</string>
+
+  <string name="pref_loglimit_title">Message Report Limit</string>
+  <string name="pref_loglimit_summary">Number of messages to include in problem
+    reports\nCur value: %s</string>
+
+  <string name="pref_msgtimeout_title">Split message timeout</string>
+  <string name="pref_msgtimeout_summary">Multi-message page timeout\nCur value: %s</string>
+  <string name="pref_msgtimeout_dialog">Maximum time in seconds to wait for rest of
+    multi-message CAD pages</string>
+
+  <string name="pref_split_min_msg_title">Split message min count</string>
+  <string name="pref_split_min_msg_summary">Minimum expected message count\nCur value: %s
+  </string>
+
+  <string name="pref_split_blank_ins_title">Insert Blanks in Split msgs</string>
+  <string name="pref_split_blank_ins_summaryon">Blanks will be inserted between split page texts
+  </string>
+  <string name="pref_split_blank_ins_summaryoff">Blanks will not be inserted between split page
+    texts</string>
+
+  <string name="pref_suppress_dup_msg_title">Suppress duplicate calls</string>
+  <string name="pref_suppress_dup_msg_summaryon">Duplicate calls will be suppressed</string>
+  <string name="pref_suppress_dup_msg_summaryoff">Duplicate calls will be processed</string>
+
+  <string name="pref_publish_pages_title">Publish CAD pages</string>
+  <string name="pref_publish_pages_summaryon">Cad pages will be published for 3rd party
+    applications</string>
+  <string name="pref_publish_pages_summaryoff">Cad pages will not be published for 3rd party
+    applications</string>
+
+  <string name="app_file_dir">/Android/data/cadpage/files/</string>
+  <string name="app_file_name">callhistory.csv</string>
+  <string name="exit">Exit</string>
+  <string name="clearall_text">Clear All</string>
+  <string name="pref_passthrusms_title">Pass Calls through to SMS Client</string>
+  <string name="pref_passthrusms_summaryoff">Do not pass CadPage calls to SMS Client</string>
+  <string name="pref_passthrusms_summaryon">Pass all calls through to default SMS Client
+  </string>
+
+  <string name="pref_history_limit_title">Call History Limit</string>
+  <string name="pref_history_limit_summary">Maximum number of calls to save in call history.
+    Cur value: %s</string>
+
+  <!-- Message menu items -->
+  <string name="open_item_text">Open</string>
+  <string name="ack_item_text">Ack</string>
+  <string name="map_item_text">Map</string>
+  <string name="lock_item_text">Lock</string>
+  <string name="unlock_item_text">Unlock</string>
+  <string name="delete_item_text">Delete</string>
+  <string name="close_item_text">Close</string>
+  <string name="email_item_text">Report Problem</string>
+  <string name="publish_item_text">Publish Page</string>
+
+  <!-- Email developer Dialog items -->
+  <string name="pref_sendemail_title">E-mail the developers</string>
+  <string name="pref_sendemail_summary">E-mail comments or bugs to the developers</string>
+
+  <string name="sendemail_btn_ok">Send</string>
+  <string name="sendemail_btn_cancel">Cancel</string>
+
+  <string name="pref_disclaimer_title">Disclaimer</string>
+  <string name="pref_disclaimer_summary">View Disclaimer regarding cadpage use.</string>
+  <string name="pref_disclaimer_url">http://code.google.com/p/cadpage/wiki/Disclaimer
+  </string>
+  <string name="callback_item_text">Phone</string>
+  <string name="pref_callback_dialog">Enter Callback Phone Number</string>
+  <string name="pref_callback_title">Callback Number</string>
+  <string name="pref_callback_summary">When configured there will be a &quot;Phone&quot;
+    button configured to call this number. Cur value: %s</string>
+
+  <!-- Location settings -->
+  <string name="pref_location_screen_title">Location Settings</string>
+  <string name="pref_location_screen_summary">CAD Page Processing Details</string>
+  <string name="pref_textsize_large">Large</string>
+  <string name="pref_textsize_medium">Medium</string>
+  <string name="pref_textsize_small">Small</string>
+
+  <string name="pref_textsize_summary">Select the Text size for History Screen Messages
+  </string>
+  <string name="pref_textsize_title">Text Size</string>
+  <string name="widget_name">CadPage Settings</string>
+  
+  <!--  Donation settings -->
+  <string name="pref_donate_status_title">Donation Status</string>
 </resources>
