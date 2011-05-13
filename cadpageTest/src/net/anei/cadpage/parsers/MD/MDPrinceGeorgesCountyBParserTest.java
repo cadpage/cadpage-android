@@ -156,6 +156,27 @@ public class MDPrinceGeorgesCountyBParserTest extends BaseParserTest {
         "MAP:54  2/2 / 13 C 9",
         "INFO:3RD FLOOR",
         "UNIT:A843, E816, NMR");
+
+    doTest("T8",
+        "A820 ALS1, Medic Local, 15201 JOPPA PL, PP, btwn JENNINGS MILL DR and END, TGA2, 4313, 5533 B 6, Medical ProQA recommends dispatch at this time, Units:A820, E843, MD818 Eff Body:roQA recommends dispatch at this time, Units:A820, E843, MD818",
+        "SRC:A820",
+        "CALL:ALS1-Medic Local",
+        "ADDR:15201 JOPPA PL",
+        "X:JENNINGS MILL DR and END",
+        "CH:TGA2",
+        "MAP:5533 B 6",
+        "UNIT:A820, E843, A820, E843, MD818");
+
+    doTest("T9",
+        "BC 887 MOTOR, Motorcycle Accident, NB CAP BELT OL A HWY/NB BRANCH AVE, PP, at NB CAP BELT OL A HWY/NB BRANCH AVE, PP <0/0>, TGC2, 2941, 5650 C 9, MOTORCYLCE SLAMMED INTO THE BACK OF A CAR, Unit:BO887",
+        "SRC:BC 887",
+        "CALL:MOTOR-Motorcycle Accident",
+        "ADDR:NB CAP BELT OL A HWY & NB BRANCH AVE",
+        "X:NB CAP BELT OL A HWY/NB BRANCH AVE",
+        "CH:TGC2",
+        "MAP:5650 C 9",
+        "INFO:MOTORCYLCE SLAMMED INTO THE BACK OF A CAR",
+        "UNIT:BO887");
   }
   
   @Test
@@ -280,7 +301,7 @@ public class MDPrinceGeorgesCountyBParserTest extends BaseParserTest {
   }
   
   public static void main(String[] args) {
-    new MDPrinceGeorgesCountyBParserTest().generateTests("T6");
+    new MDPrinceGeorgesCountyBParserTest().generateTests("T8");
   }
   
   

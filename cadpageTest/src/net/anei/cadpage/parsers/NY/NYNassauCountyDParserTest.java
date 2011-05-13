@@ -89,6 +89,14 @@ public class NYNassauCountyDParserTest extends BaseParserTest {
         "PLACE:MR ANTHONY MORACE",
         "ADDR:141 HERMANN AVE N",
         "X:SOPHIA ST");
+
+    doTest("T13",
+        "*** 30 - RESCUE *** CIARDI 41 AMHERST DR CS: N WISCONSIN AVE  / HARRIET PL C-6 TOA: 18:23 05/12/11 2011-000368 3/18/30/38/52 Amherst Drive",
+        "CALL:30 - RESCUE",
+        "PLACE:CIARDI",
+        "ADDR:41 AMHERST DR",
+        "X:N WISCONSIN AVE  / HARRIET PL C-6",
+        "ID:2011-000368");
   }
   
   public static void main(String[] args) {
