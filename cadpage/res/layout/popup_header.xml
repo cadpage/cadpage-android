@@ -27,6 +27,7 @@
       android:autoLink="phone"
       android:textAppearance="?android:attr/textAppearanceLarge"
       android:layout_height="wrap_content"
+      android:maxLines="2"
       android:text="Text Here"
       android:paddingBottom="2dp" />
     <TextView

@@ -420,15 +420,7 @@ public class SmsPopupActivity extends Activity {
     }
 
     // Set the from, message and header views
-    StringBuilder sb = new StringBuilder();
-    sb.append(info.getCode());
-    if (sb.length() > 0) sb.append(" - ");
-    if (info.getPriority().length() > 0) {
-      sb.append(" P:");
-      sb.append(info.getPriority());
-      sb.append(' ');
-    }
-    sb.append(info.getCall());
+    StringBuilder sb = new StringBuilder(info.getTitle());
     fromTV.setText(sb.toString());
     if (message.getMessageType() == SmsMmsMessage.MESSAGE_TYPE_SMS) {
       sb = new StringBuilder();

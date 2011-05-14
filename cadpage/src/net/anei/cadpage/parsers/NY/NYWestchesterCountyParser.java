@@ -31,6 +31,9 @@ IPage / MAMARONECK_T: @I95 NB 07.1 EXIT 17 (CHATSWORTH AVE), Cross: , Type:MVA, 
 IPage / 42 MAPLEWOOD ST MAMARONECK_T, Cross: MURRAY AVE, Type:SERVICE, LOCKOUT, Time out: 17:27:08 Area: MAMTW,Alarm lev: 0
 IPage / 30 HALSTEAD PL RYE, Cross: ORMOND PL, Type:STRU, , Time out: 21:00:33 Area: RYE,Alarm lev: 1 ,Comments:   WPH1
 
+Contact: Grant Nishanian <grantnet10@gmail.com>
+(IPage) MAMTW,Alarm lev: 0 ,Comments:   REAR FIRE ALARM   914-833-2306 1415 BOSTON POST RD MAMARONECK_T: EAST CREEK REALTY, Cross: ALDEN RD, Type:ALARM, COMM, Time out: 10:29:52 Area:
+
 */
 
 

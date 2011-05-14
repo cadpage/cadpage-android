@@ -71,7 +71,7 @@ public class ManageNotification {
   public static boolean show(Context context, SmsMmsMessage message, boolean reminder) {
 
     // Fetch info from the message object
-    String call = message.getCall();
+    String call = message.getInfo().getTitle();
     long timestamp = message.getTimestamp();
 
     PopupNotification n = buildNotification(context);

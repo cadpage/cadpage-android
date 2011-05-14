@@ -152,6 +152,30 @@ public class SmsMsgInfo {
   public String getAddress() {
     return strAddress;
   }
+  
+  /*
+   * @return call title
+   */
+  public String getTitle() {
+    StringBuilder sb = new StringBuilder();
+    if (strPriority.length() > 0) {
+      sb.append("P:");
+      sb.append(strPriority);
+      sb.append(' ');
+    }
+    if (strCode.length() > 0) {
+      sb.append(strCode);
+      sb.append(" - ");
+    }
+    if ((strCall.length() == 0 || strCall.equals("ALERT"))
+         && strSupp.length() > 0) {
+      sb.append(strSupp);
+    } else {
+      sb.append(strCall);
+    }
+    return sb.toString();
+  }
+  
   /**
    * @return return mapping address
    */

@@ -27,6 +27,7 @@ public class HistoryMsgTextView extends TextView {
   }
   
   private void setup() {
+    setLines(2);
     this.setOnClickListener(new OnClickListener(){
 
       @Override
@@ -49,7 +50,7 @@ public class HistoryMsgTextView extends TextView {
     String text = DateFormat.getLongDateFormat(context).format(time) + " " +
                   DateFormat.getTimeFormat(context).format(time) +
                   (msg.isLocked() ? " (Locked)" : "") +
-                  "\n" + msg.getCall();
+                  "\n" + msg.getInfo().getTitle();
     float ftextSize = Integer.parseInt(ManagePreferences.textSize());
     this.setTextSize(ftextSize);
     setText(text);

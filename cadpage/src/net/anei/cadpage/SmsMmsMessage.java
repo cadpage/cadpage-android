@@ -548,10 +548,6 @@ public class SmsMmsMessage implements Serializable {
     return fromEmailGateway;
   }
   
-  public String getCall() {
-    return getInfo().getCall();
-  }
-  
   public String getLocation() {
     return location;
   }
