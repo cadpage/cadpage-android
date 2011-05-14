@@ -51,7 +51,7 @@ public class NYOrleansCountyParser extends SmsMsgParser {
       "TMR", "HOLLEY", 
       "TCL", "HOLLEY",
       "TKN", "KENDALL", 
-      "TGP", "GAINES",  
+      "TGP", "GASPORT",  
       "TYA", "YATES"
   });
   
