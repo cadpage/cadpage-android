@@ -62,6 +62,19 @@ public class NYOrangeCountyParserTest extends BaseParserTest {
         "CITY:ULSTER COUNTY",
         "NAME:ULSTER 911",
         "INFO:REGISTRO RD AND REDDER RD / 67/M UPPER ABDOMIAL PAIN-ALS CALL / WALKER VA / LLEY FIRE DISTRICT");
+
+    doTest("T6",
+        "DEPT13     TYP: MOTOR VEHICLE ACCIDT AD: 1166 US RTE 9W CTY: HIGHLANDS CN: MATTHREW CMT1: MOTORCYCLE DOWN AT THIS LOCATION TWO INJURIES.",
+        "SRC:DEPT13",
+        "CALL:MOTOR VEHICLE ACCIDT",
+        "ADDR:1166 US RTE 9W",
+        "CITY:HIGHLANDS",
+        "NAME:MATTHREW",
+        "INFO:MOTORCYCLE DOWN AT THIS LOCATION TWO INJURIES.");
+ 
+  }
   
+  public static void main(String[] args) {
+    new NYOrangeCountyParserTest().generateTests("T1");
   }
 }
