@@ -19,18 +19,24 @@ Unknown Problem / 916 Jones Rd / APT: / BLD: / KM: 460S / XSTRTS: MIZELL ST/STEE
 / 28C09X / Stroke (CVA) / 2726 Waco / APT: / BLD: / KM: 460Y / XSTRTS: DALLAS ST/EAST ST / Box #: 1703
 / 31D03 /Fainting F/O / 409 W Wallisville Rd / APT: / BLD: / KM: 459Q / XSTRTS: N 5TH ST/N 4TH ST / Box #: 1705
 / 60B01 / /ODOR (NAT/LP GASES) / 617 Golden Bend Dr / APT: / BLD: / KM: 459M / XSTRTS: RED HAVEN DR/Dead End / Box #: 1701
+
+Contact: Nathan Mathews <nbmathews807@gmail.com>
 /11-05-15429 / 52C03S / 52O1 ALARMS / 16102 E Ih 10 / APT: / BLD: OLD RIVER TERRANCE M / KM: 498G / XSTRTS:IH 10 EAST BAYOU RAMP/IH 10 SH/ Box #:2002
+
+
+Call times, should not be accepted
+/ ID#:11-05-15563/ UNIT:E12 / DISP: 18:56:24 / ER: 18:57:10 / OUT: 19:03:05 / AIR: 19:11:31
 
 */
 
 
 public class TXHarrisCountyESD1Parser extends FieldProgramParser {
   
-  private static final Pattern DELIM = Pattern.compile(" *(?: /)+ *");
+  private static final Pattern DELIM = Pattern.compile(" *(?: /)+ *| *(?:/ )+ *");
 
   public TXHarrisCountyESD1Parser() {
     super("HARRIS COUNTY", "TX",
-           "ID? CODE? CALL ADDR! ADDR2 APT:APT BLD:APT KM:MAP XSTRTS:X Box:BOX");
+           "ID? CODE? CALL ADDR! ADDR2 APT:APT! BLD:APT! KM:MAP XSTRTS:X Box:BOX");
   }
   
   @Override
