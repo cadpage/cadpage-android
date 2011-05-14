@@ -27,16 +27,32 @@ BREATHING PROBLEMS; 126 E BANK ST VAL; 76 yom B/P SWEATS DIZZY  6D4  PRI 1;
 HEART PROBLEMS/AICD; 15140 RIDGE RD TGN; 50 YOM RAPID HEART 180 BPS ; PRI 1 19c4;
 TRAFFIC/TRANSPORTATION INCIDENTS; 14681 RIDGE RD TGN; REPORTED 2 CAR MINOR INJ MVA   29-B-1;
 SICK PERSON; 1579 E KENT RD TCR; 75 yom cathater removed pain PRI 3;
+
+Contact: "medinafire6@verizon.net" <medinafire6@verizon.net>
+(FrmFireCntrl1) TRAUMATIC INJURIES; HIP INH 10741 LAKESHORE FL41A RD TYA;LYNDONVILLE EMS MEDINA AMB PR-3
+(FrmFireCntrl3) ALS ONLY RESPONSE; 4540 LINCOLN DR TGP; 58 yof trouble  breathing, decreased level of consciousness 6-d-1
+
 */
 
 public class NYOrleansCountyParser extends SmsMsgParser {
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
-      "VAL", "ALBION", "TAL", "ALBION", "BAR", "ALBION", "TGN", "ALBION", "TCR", "ALBION",
-      "VLD", "LYNDONVILLE", "YAT", "LYNDONVILLE",
-      "VMD", "MEDINA", "TRW", "MEDINA", "TSH", "MEDINA",
-      "VHL", "HOLLEY", "TMR", "HOLLEY", "TCL", "HOLLEY",
-      "TKN", "KENDALL"
+      "VAL", "ALBION", 
+      "TAL", "ALBION", 
+      "BAR", "ALBION", 
+      "TGN", "ALBION", 
+      "TCR", "ALBION",
+      "VLD", "LYNDONVILLE", 
+      "YAT", "LYNDONVILLE",
+      "VMD", "MEDINA", 
+      "TRW", "MEDINA", 
+      "TSH", "MEDINA",
+      "VHL", "HOLLEY", 
+      "TMR", "HOLLEY", 
+      "TCL", "HOLLEY",
+      "TKN", "KENDALL", 
+      "TGP", "GAINES",  
+      "TYA", "YATES"
   });
   
   private static final Pattern CODE_PATTERN = Pattern.compile("\\b\\d{1,2}-?[A-Za-z]-?\\d\\b");
