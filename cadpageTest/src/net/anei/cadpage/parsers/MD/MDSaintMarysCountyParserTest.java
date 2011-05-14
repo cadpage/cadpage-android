@@ -355,9 +355,38 @@ public class MDSaintMarysCountyParserTest extends BaseParserTest {
          "CITY:CHARLOTTE HALL",
          "UNIT:CO29",
          "INFO:CALLER IS INSIDE THE SHELL S");
+
+     doTest("T40",
+         "((16151) CAD ) 17:53:28*Heart Problems*CHARLOTTE HALL VETERANS HOME*29449 CHARLOTTE HALL RD*CHARLOTTE HALL SCHOOL RD*CHAR HALL*ALS CO29*Wing 3B 308B*",
+         "CALL:Heart Problems",
+         "PLACE:CHARLOTTE HALL VETERANS HOME",
+         "ADDR:29449 CHARLOTTE HALL RD",
+         "X:CHARLOTTE HALL SCHOOL RD",
+         "CITY:CHARLOTTE HALL",
+         "UNIT:ALS CO29",
+         "INFO:Wing 3B 308B");
+
+     doTest("T41",
+         "((15958) CAD ) 16:50:03*Sick Person*26875 THREE NOTCH RD*LEELAND RD*LAUREL GROVE*ALS CO29*house on the left*",
+         "CALL:Sick Person",
+         "ADDR:26875 THREE NOTCH RD",
+         "X:LEELAND RD",
+         "CITY:LAUREL GROVE",
+         "UNIT:ALS CO29",
+         "INFO:house on the left");
+
+     doTest("T42",
+         "((15830) CAD ) 15:13:56*Falls/Traumatic*CHARLOTTE HALL TRANSFER STAT*37766 NEW MARKET TURNER RD*ELIZA WY*NEW MARKET*CO29*50 year old, Male, Conscious, Br",
+         "CALL:Falls/Traumatic",
+         "PLACE:CHARLOTTE HALL TRANSFER STAT",
+         "ADDR:37766 NEW MARKET TURNER RD",
+         "X:ELIZA WY",
+         "CITY:NEW MARKET",
+         "UNIT:CO29",
+         "INFO:50 year old, Male, Conscious, Br");
   }
   
   public static void main(String[] args) {
-    new MDSaintMarysCountyParserTest().generateTests("T39", "CALL PLACE ADDR APT X CITY UNIT INFO");
+    new MDSaintMarysCountyParserTest().generateTests("T40", "CALL PLACE ADDR APT X CITY UNIT INFO");
   }
 }
