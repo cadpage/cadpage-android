@@ -68,6 +68,21 @@ public class NYOrleansCountyParserTest extends BaseParserTest {
         "ADDR:1579 E KENT RD",
         "CITY:ALBION",
         "INFO:75 yom cathater removed pain PRI 3");
+
+    doTest("T8",
+        "(FrmFireCntrl1) TRAUMATIC INJURIES; HIP INH 10741 LAKESHORE FL41A RD TYA;LYNDONVILLE EMS MEDINA AMB PR-3",
+        "CALL:TRAUMATIC INJURIES",
+        "ADDR:HIP INH 10741 LAKESHORE FL41A RD",
+        "CITY:YATES",
+        "INFO:LYNDONVILLE EMS MEDINA AMB PR-3");
+
+    doTest("T9",
+        "(FrmFireCntrl3) ALS ONLY RESPONSE; 4540 LINCOLN DR TGP; 58 yof trouble  breathing, decreased level of consciousness 6-d-1",
+        "CALL:ALS ONLY RESPONSE",
+        "ADDR:4540 LINCOLN DR",
+        "CITY:GASPORT",
+        "INFO:58 yof trouble  breathing, decreased level of consciousness",
+        "CODE:6-d-1");
   }
   
   public static void main(String[] args) {
