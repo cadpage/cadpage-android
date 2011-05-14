@@ -83,6 +83,10 @@ Contact: Patrick Stanley <work3750@gmail.com>
 Contact: dan kenney <dan@motovationcycles.com>
 ((10596) CAD ) 05:36:57*Psychiatric/Suicide Attempt*BURCH MART CHARLOTTE HALL*30295 THREE NOTCH RD*MT WOLF RD*CHAR HALL*CO29*CALLER IS INSIDE THE SHELL S
 
+((16151) CAD ) 17:53:28*Heart Problems*CHARLOTTE HALL VETERANS HOME*29449 CHARLOTTE HALL RD*CHARLOTTE HALL SCHOOL RD*CHAR HALL*ALS CO29*Wing 3B 308B*
+((15958) CAD ) 16:50:03*Sick Person*26875 THREE NOTCH RD*LEELAND RD*LAUREL GROVE*ALS CO29*house on the left*
+((15830) CAD ) 15:13:56*Falls/Traumatic*CHARLOTTE HALL TRANSFER STAT*37766 NEW MARKET TURNER RD*ELIZA WY*NEW MARKET*CO29*50 year old, Male, Conscious, Br
+
  */
 
 
@@ -109,6 +113,7 @@ public class MDSaintMarysCountyParser extends SmartAddressParser {
       "HELEN",
       "HERMANVILLE",
       "HOLLYWOOD",
+      "LAUREL GROVE",
       "LEONARDTOWN",
       "LEXINGTON PARK",
       "LORD CALVERT TRLPK",
@@ -116,6 +121,7 @@ public class MDSaintMarysCountyParser extends SmartAddressParser {
       "MADDOX",
       "MECHANICSVILLE",
       "MORGANZA",
+      "NEW MARKET",
       "OAKVILLE",
       "PARK HALL",
       "PINEY POINT",

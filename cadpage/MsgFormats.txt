@@ -1826,7 +1826,35 @@ Sender: 4173802670
 DispatchAParser
 BC911:MVAUNK>MOTOR VEH ACC UNKNOWN INJ STATE HIGHWAY 39 JENKINS VERIZON WIRELESS Cad: 2011-0000009418
 **********************************************************
+Kootenai County. ID
+Contact: "pbarkle1@mac.com" <pbarkle1@mac.com>
+
+KOOTENAI COUNTY SHERIFF Page for volunteers  fully engulfed structure at  
+1576 w Tualatin Dr.  Page sent as part of 2nd alarm.
+Sent by challgren
+ 0000 Confirm 0001 Refuse TXT STOP to opt-out
+
+KOOTENAI COUNTY SHERIFF KCFR
+FIRE STRUCTURE 
+1576 W TUALATIN DR
+F1A  
+F1V
+OPS1 
+VISIBLE FLAMES    IN GARAGE
+13:12:17 04/30/2011 - T.TAYLOR
+RES IS UNOCC
+13:12:50 04/30/2011 - T.TAYLOR
+VEH IN GARAGE    RP SAYS HER HOUSE IS GOING TO BLOW UP
+13:13:00 04/30/2011 - D.WILSON       
+FLAME
+Sent by CLI  Sat Apr 30 13:16:15 2011
+ 0000 Confirm 0001 Refuse TXT STOP to opt-out
 **********************************************************
+Unknown
+Contact: Michael Thaw <yankee.fire11@gmail.com>
+From: CADLCFEMS@louisa.org
+E2011014354;RESCUE NEEDED;UNCONSCIOUS/UNRESPONSIVE/FAINTING;296 SHADY LN;INFO-44 YO M -- FEELING FAINT & DIZZY -- FEELING A LITTLE BETTER AT THIS TIME -- WANTI
+
 **********************************************************
 **********************************************************
 **********************************************************
