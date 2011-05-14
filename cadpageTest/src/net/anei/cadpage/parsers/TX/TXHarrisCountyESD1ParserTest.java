@@ -12,6 +12,11 @@ public class TXHarrisCountyESD1ParserTest extends BaseParserTest {
   }
   
   @Test
+  public void testBadMsg() {
+    doBadTest("/ ID#:11-05-15563/ UNIT:E12 / DISP: 18:56:24 / ER: 18:57:10 / OUT: 19:03:05 / AIR: 19:11:31");
+  }
+  
+  @Test
   public void testParser() {
     doTest("T1",
         "67B01U / GRASS/WOODS FIRE / 2418 LILY LN / APT: / BLD: / KM: 460T / XSTRTS: OLEANDER ST/WISTERIA WAY / Box #: 1705",
@@ -90,7 +95,7 @@ public class TXHarrisCountyESD1ParserTest extends BaseParserTest {
         "ADDR:16102 E Ih 10",
         "APT:OLD RIVER TERRANCE M",
         "MAP:498G",
-        "X:IH 10 EAST BAYOU RAMP/IH 10 SH/",
+        "X:IH 10 EAST BAYOU RAMP/IH 10 SH",
         "BOX:2002");
    
   }
