@@ -69,4 +69,8 @@ public class NYOrleansCountyParserTest extends BaseParserTest {
         "CITY:ALBION",
         "INFO:75 yom cathater removed pain PRI 3");
   }
+  
+  public static void main(String[] args) {
+    new NYOrleansCountyParserTest().generateTests("T1", "CALL ADDR CITY INFO CODE");
+  }
 }
