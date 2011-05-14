@@ -72,6 +72,15 @@ public class NYOrangeCountyParserTest extends BaseParserTest {
         "NAME:MATTHREW",
         "INFO:MOTORCYCLE DOWN AT THIS LOCATION TWO INJURIES.");
  
+    doTest("T7",
+        "DEPTNM    ¿TYP: MEDICAL ASSISTANCE AD: 227 SUMMIT DR CTY: NEW WINDSOR CN: 173 CMT1: EDP TIME: 21:33 XST: 109 PARKDALE DR XST2: 43 ONA LN",
+        "SRC:DEPTNM",
+        "CALL:MEDICAL ASSISTANCE",
+        "ADDR:227 SUMMIT DR",
+        "CITY:NEW WINDSOR",
+        "NAME:173",
+        "INFO:EDP",
+        "X:109 PARKDALE DR & 43 ONA LN");
   }
   
   public static void main(String[] args) {
