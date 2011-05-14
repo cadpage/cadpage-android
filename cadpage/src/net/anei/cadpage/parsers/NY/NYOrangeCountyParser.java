@@ -36,6 +36,9 @@ DEPTPB          TYP: MEDICAL ASSISTANCE AD: 1015 INDIAN SPRINGS RD CN: ULSTER 91
 Contact: Seth Armstrong <setharmstrong31@gmail.com>
 DEPT13     TYP: MOTOR VEHICLE ACCIDT AD: 1166 US RTE 9W CTY: HIGHLANDS CN: MATTHREW CMT1: MOTORCYCLE DOWN AT THIS LOCATION TWO INJURIES.
  
+Contact:  Dave Abbott <davea@a1-services.com>
+DEPTNM    ¿TYP: MEDICAL ASSISTANCE AD: 227 SUMMIT DR CTY: NEW WINDSOR CN: 173 CMT1: EDP TIME: 21:33 XST: 109 PARKDALE DR XST2: 43 ONA LN
+ 
  */
 
 
@@ -55,6 +58,7 @@ public class NYOrangeCountyParser extends DispatchPrintrakParser {
   
   @Override
   public boolean parseMsg(String body, Data data) {
+    body = cleanExtendedChars(body);
     if (!super.parseMsg(body, data)) return false;
     
     // Special handling for Ulster county calls

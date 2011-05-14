@@ -457,6 +457,24 @@ public abstract class SmsMsgParser {
    if (str2.length() == 0) return str1;
    return str1 + connector + str2;
  }
+
+ /**
+  * Convenience method to remove any extended charset characters from input data
+  * @param line input data string
+  * @return input data string purged of any extended charset characters
+  */
+ protected String cleanExtendedChars(String line) {
+   StringBuilder sb = null;
+   for (int ndx = 0; ndx < line.length(); ndx++) {
+     char ch = line.charAt(ndx);
+     if (ch > 127) {
+       if (sb == null) sb = new StringBuilder(line.substring(0,ndx));
+     } else {
+       if (sb != null) sb.append(ch);
+     }
+   }
+   return (sb == null ? line : sb.toString());
+ }
  
  /**
   * Worker class that will parse a into consecutive substrings up to the
