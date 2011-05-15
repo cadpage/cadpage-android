@@ -384,6 +384,15 @@ public class MDSaintMarysCountyParserTest extends BaseParserTest {
          "CITY:NEW MARKET",
          "UNIT:CO29",
          "INFO:50 year old, Male, Conscious, Br");
+
+     doTest("T43",
+         "((18992) CAD ) 07:21:50*Personal Injury Accident*ADF BINGO*29062 THREE NOTCH RD*NEW MARKET VILLAGE RD*NEW MARKET*CO2 SQ2 CO29 EMS42*",
+         "CALL:Personal Injury Accident",
+         "PLACE:ADF BINGO",
+         "ADDR:29062 THREE NOTCH RD",
+         "X:NEW MARKET VILLAGE RD",
+         "CITY:NEW MARKET",
+         "UNIT:CO2 SQ2 CO29 EMS42");
   }
   
   public static void main(String[] args) {

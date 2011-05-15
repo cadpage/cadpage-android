@@ -202,10 +202,22 @@ public class WICalumetCountyParserTest extends BaseParserTest {
         "MAP:12Q",
         "NAME:SPRINT",
         "INFO:INCIDENT CLONED FROM PARENT: LBR110407013154 / Original Date/Time for Comment: 11/04/07 07:51");
+
+    doTest("T6",
+        "HBFD PRI: 1 INC: FHB110515000121 TYP: VEGETATION FIRE AD: FERNANDO DR&PACKERLAND DR CTY: ASHW MAP: 14AE CN: JODY CMT1: WITHIN 10 OF BUILDING, CHANGE TO STRUCTURE CMT2: INCIDENT CLONED FROM PARENT: FAF110515000686 TIME: 01:27 HBEN1711 :74 HBEN1712 21:",
+        "SRC:HBFD",
+        "PRI:1",
+        "ID:FHB110515000121",
+        "CALL:VEGETATION FIRE",
+        "ADDR:FERNANDO DR & PACKERLAND DR",
+        "CITY:ASHWAUBENON",
+        "MAP:14AE",
+        "NAME:JODY",
+        "INFO:WITHIN 10 OF BUILDING, CHANGE TO STRUCTURE / INCIDENT CLONED FROM PARENT: FAF110515000686");
     
   }
   
   public static void main(String[] args) {
-    new WICalumetCountyParserTest().generateTests("T1");
+    new WICalumetCountyParserTest().generateTests("T6");
   }
 }

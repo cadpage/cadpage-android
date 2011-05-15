@@ -87,5 +87,18 @@ public class VARockinghamCountyParserTest extends BaseParserTest {
         "CITY:ELKTON",
         "ID:2010-094548",
         "X:WHISPERING WINDS TRL/EPPARD LN");
+
+    doTest("T9",
+        "MAILBOX@hrecc.org Msg: C80 EMS-FALLS 9718 VALLEY VIEW RD MCG CFS# 2011-034525 CROSS: TREE SIDE LN/LONGLEY RD",
+        "SRC:C80",
+        "CALL:EMS-FALLS",
+        "ADDR:9718 VALLEY VIEW RD",
+        "CITY:MCGAHEYSVILLE",
+        "ID:2011-034525",
+        "X:TREE SIDE LN/LONGLEY RD");
+ }
+  
+  public static void main(String[] args) {
+    new VARockinghamCountyParserTest().generateTests("T1");
   }
 }
