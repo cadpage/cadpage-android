@@ -151,16 +151,14 @@
   <!-- Pair of arrays used to convert existing location code values when an
        existing Parser needs to be renamed for some reason -->
   <string-array name="old_location_values">
-    <item>GeneralStar</item>
-    <item>ORPrineville</item>
     <item>SCCharlestonCountyA</item>
     <item>SCCharlestonCountyB</item>
+    <item>MDArnold</item>
   </string-array>
   <string-array name="new_location_values">
-    <item>General</item>
-    <item>ORCrookCounty</item>
     <item>SCCharlestonCounty</item>
     <item>SCCharlestonCounty</item>
+    <item>MDAnneArundelCounty</item>
   </string-array>
   
   <!-- Array of state names -->
@@ -237,7 +235,6 @@
     <item>KYErlangerDispatch</item>
     <item>MDAlleganyCounty</item>
     <item>MDAnneArundelCounty</item>
-    <item>MDArnold</item>
     <item>MDCalvertCounty</item>
     <item>MDCambridge</item>
     <item>MDCarolineCounty</item>
@@ -419,7 +416,6 @@
     <item>Erlanger Dispatch, KY</item>
     <item>Allegany County, MD</item>
     <item>Anne Arundel County, MD</item>
-    <item>Arnold, MD</item>
     <item>Calvert County, MD</item>
     <item>Cambridge, MD</item>
     <item>Caroline County, MD</item>
