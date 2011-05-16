@@ -86,7 +86,7 @@ Contact: dan kenney <dan@motovationcycles.com>
 ((15958) CAD ) 16:50:03*Sick Person*26875 THREE NOTCH RD*LEELAND RD*LAUREL GROVE*ALS CO29*house on the left*
 ((15830) CAD ) 15:13:56*Falls/Traumatic*CHARLOTTE HALL TRANSFER STAT*37766 NEW MARKET TURNER RD*ELIZA WY*NEW MARKET*CO29*50 year old, Male, Conscious, Br
 ((18992) CAD ) 07:21:50*Personal Injury Accident*ADF BINGO*29062 THREE NOTCH RD*NEW MARKET VILLAGE RD*NEW MARKET*CO2 SQ2 CO29 EMS42*
-
+((26213) CAD ) 22:12:56*Sick Person*39990 MRS GRAVES RD*GEORGE G PL*ORAVILLE*CO29*43 year old, Male, Conscious, Breathing.*
 
  */
 
@@ -124,6 +124,7 @@ public class MDSaintMarysCountyParser extends SmartAddressParser {
       "MORGANZA",
       "NEW MARKET",
       "OAKVILLE",
+      "ORAVILLE",
       "PARK HALL",
       "PINEY POINT",
       "REDGATE",
