@@ -1,7 +1,5 @@
 package net.anei.cadpage.donation;
 
-import java.util.Date;
-
 import android.content.Context;
 import android.graphics.Color;
 import android.preference.Preference;
@@ -11,6 +9,7 @@ import android.text.style.ForegroundColorSpan;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.TextView;
 
 /**
  * This class handles a donation event triggered by an outside event.  Typically
@@ -45,6 +44,7 @@ public abstract class DonateEvent {
    * Get any parameters associated with any display strings
    */
   protected final static int PARM_TITLE = 0;
+  protected final static int PARM_TEXT = 1;
   protected Object[] getTextParms(int type) {
     return null;
   }
@@ -54,11 +54,6 @@ public abstract class DonateEvent {
    * @param ctx current context
    */
   abstract protected void doEvent(Context ctx);
-  
-  
-  private int getAlertColor() {
-    return ALERT_COLORS[alertStatus.ordinal()];
-  }
   
   /**
    * @return true if event is enabled
@@ -81,16 +76,11 @@ public abstract class DonateEvent {
     
     // Set up preference to display the regular title and our specific
     // summary in the appropriate color
-    int color = getAlertColor();
     String title = pref.getTitle().toString();
-    SpannableString span = new SpannableString(title);
-    span.setSpan(new ForegroundColorSpan(color), 0, title.length(), 0);
-    pref.setTitle(span);
+    pref.setTitle(setAlertColor(title));
     
     title = context.getString(titleId, getTextParms(PARM_TITLE));
-    span = new SpannableString(title);
-    span.setSpan(new ForegroundColorSpan(color), 0, title.length(), 0);
-    pref.setSummary(span);
+    pref.setSummary(setAlertColor(title));
 
     // Set up a preference clicked listener
     final Context ctx = context;
@@ -103,6 +93,19 @@ public abstract class DonateEvent {
     
     // And we are done
     return true;
+  }
+  
+  /**
+   * Construct spannable text setting up alert status foreground color
+   * @param input test string to be colored
+   * @return spannable text of input string with appropriate alert foreground color
+   */
+  private CharSequence setAlertColor(CharSequence input) {
+    if (alertStatus == null) return input;
+    int color = ALERT_COLORS[alertStatus.ordinal()];
+    SpannableString span = new SpannableString(input);
+    span.setSpan(new ForegroundColorSpan(color), 0, input.length(), 0);
+    return span;
   }
   
   /**
@@ -120,10 +123,10 @@ public abstract class DonateEvent {
     // Create new button with correct color and title message
     final Context ctx = context;
     Button button = new Button(context);
-    button.setTextColor(getAlertColor());
+    setTextColor(button);
     button.setText(context.getString(titleId, getTextParms(PARM_TITLE)));
     
-    // Set up button clicked listenter to call our doEvent method
+    // Set up button clicked listener to call our doEvent method
     button.setOnClickListener(new View.OnClickListener() {
       @Override
       public void onClick(View v) {
@@ -137,24 +140,10 @@ public abstract class DonateEvent {
   }
   
   /**
-   * Convenience method to calculate number of days elapsed since base date
-   * @param date base date
-   * @return number of days since the base date
+   * Set a text view foreground color to indicated status color
+   * @param view view to be set
    */
-  public static int elapsedDaysSince(Date date) {
-    return elapsedDaysSince(date, new Date());
+  protected void setTextColor(TextView view) {
+    if (alertStatus != null) view.setTextColor(ALERT_COLORS[alertStatus.ordinal()]);
   }
-  
-  /**
-   * Convenience method to calculate number of days elapsed between to dates
-   * @param date1 from date
-   * @param date2 to date
-   * @return number of days between from date and to date, can be negative
-   */
-  public static int elapsedDaysSince(Date date1, Date date2) {
-    // Quick dirty, and wrong, but will do for now
-    long days = date2.getTime() - date1.getTime();
-    return (int)(days/1000/60/60/24);
-  }
-
 }

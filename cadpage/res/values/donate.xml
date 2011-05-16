@@ -1,5 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+  <string name="donate_btn_cancel">Cancel</string>
+  
   <string name="donate_free_title">Thank you for your support</string>
+  <string name="donate_free_text">
+    You have free, lifetime access to Cadpage.\n 
+    Thank your for you past contributions.
+  </string>
+  
   <string name="donate_demo_title">You have been using Cadpage for %d days</string>
+  <string name="donate_demo_text">
+    You have been using Cadpage for %1$d days.  If we were enforcing demo limits
+    "you would have %2$d days left.  But we aren\'t (yet) so don't sweat it."
+  </string>
+  
+  <string name="donate_demo_expire_title">You have been using Cadpage for % days</string>
+  <string name="donate_demo_expire_text">
+    You have been using Cadpage for %1$d days.  If we were enforcing demo limits
+    "the demo would have expired %2$d days ago.  But we aren\'t (yet) so don't sweat it."
+  </string>
 </resources>

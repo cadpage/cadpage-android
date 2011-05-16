@@ -1,6 +1,6 @@
 package net.anei.cadpage;
 
-import net.anei.cadpage.donation.DonationManager;
+import net.anei.cadpage.donation.UserAcctManager;
 import android.app.Activity;
 import android.app.AlarmManager;
 import android.app.PendingIntent;
@@ -134,7 +134,7 @@ public class EmailDeveloperActivity extends Activity {
         // If configuration info requested, add that as well
         if (includeConfigBox.isChecked()) {
           ManagePreferences.addConfigInfo(context, body);
-          DonationManager.instance().addAccountInfo(body);
+          UserAcctManager.instance().addAccountInfo(body);
         }
         
         // Build send email intent and launch it

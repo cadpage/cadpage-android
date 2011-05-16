@@ -1,53 +1,83 @@
 package net.anei.cadpage.donation;
 
-import java.util.Arrays;
+import java.util.Date;
 
 import net.anei.cadpage.ManagePreferences;
-import net.anei.cadpage.R;
-import android.accounts.Account;
-import android.accounts.AccountManager;
-import android.accounts.OnAccountsUpdateListener;
+
 import android.content.Context;
 import android.preference.Preference;
 
-public class DonationManager implements OnAccountsUpdateListener {
+public class DonationManager {
   
-  // Flag to disable untested logic for production runs
-  private static final boolean DISABLE = true;
+  public static final int DEMO_LIMIT_DAYS = 30;
   
-  Context context;
-  private String userEmail = null;
+  // Singleton instance
+  private static DonationManager instance = new DonationManager();
   
-  private DonationManager(Context context) {
-    this.context = context;
-    AccountManager.get(context).addOnAccountsUpdatedListener(this, null, true);
+  // Cached calculated values are only valid until this time
+  private long validLimitTime = 0L;
+  
+  // cached days since Cadpage was installed
+  private int daysSinceInstall;
+  
+  
+  /**
+   * Calculate all cached values
+   */
+  private void calculate() {
+    
+    // If the current day hasn't changed, we can use the cached values
+    long curTime = System.currentTimeMillis();
+    if (curTime < validLimitTime) return;
+    
+    // Convert current time to a JDate, and set the cache limit to midnight
+    // of that day
+    JulianDate curJDate = new JulianDate(new Date(curTime));
+    validLimitTime = curJDate.validUntilTime();
+    
+    // Get the install JDate
+    JulianDate installJDate = new JulianDate(ManagePreferences.installDate());
+    
+    // And calculated cached values
+    daysSinceInstall = installJDate.diffDays(curJDate);
   }
-
-  @Override
-  public void onAccountsUpdated(Account[] accts) {
-    userEmail = null;
-    String[] freeList = context.getResources().getStringArray(R.array.free_rider_list);
-    for (Account acct : accts) {
-      if (acct.type.equals("com.google")) {
-        if (userEmail == null) userEmail = acct.name;
-        if (Arrays.binarySearch(freeList, acct.name.toLowerCase()) >= 0) {
-          userEmail = acct.name;
-          ManagePreferences.setFreeRider(true);
-        }
-      }
-    }
+  
+  private void doReset() {
+    validLimitTime = 0;
+    calculate();
   }
   
 
   /**
-   * Append account information to support message under construction
-   * @param sb String builder holding message being constructed
+   * @return number of days since Cadpage was installed
    */
-  public void addAccountInfo(StringBuilder sb) {
-    sb.append("User:");
-    sb.append(userEmail);
-    sb.append('\n');
+  private int getDaysSinceInstall() {
+    calculate();
+    return daysSinceInstall;
   }
+  
+  /**
+   * Reset all cached day calculations.  This should be called when
+   * any of the preferences values that control the date calculations are changed
+   */
+  public static void reset() {
+    instance.doReset();
+  }
+
+  /**
+   * @return number of days since Cadpage was installed
+   */
+  public static int daysSinceInstall() {
+    return instance.getDaysSinceInstall();
+  }
+  
+
+  // List of toplevel donate events
+  private static final DonateEvent[] events = new DonateEvent[]{
+    FreeDonateEvent.instance(),
+    DemoDonateEvent.instance(),
+    DemoExpireDonateEvent.instance()
+  };
   
   /**
    * Set up the donation status preference in the preference settings
@@ -55,30 +85,11 @@ public class DonationManager implements OnAccountsUpdateListener {
    * @param pref Donation status preference
    */
   public static void setPreference(Context context, Preference pref) {
-    if (DISABLE) {
-      pref.setShouldDisableView(true);
-      pref.setEnabled(false);
-    }
     for (DonateEvent event : events) {
       if (event.setPreference(context, pref)) return;
     }
   }
+  
 
-  // List of toplevel donate events
-  private static final DonateEvent[] events = new DonateEvent[]{
-    FreeDonateEvent.instance(),
-    DemoDonateEvent.instance()
-  };
-  
-  
-  private static DonationManager instance = null;
-  
-  public static void setup(Context context) {
-    instance = new DonationManager(context);
-  }
-  
-  public static DonationManager instance() {
-    return instance;
-  }
 
 }

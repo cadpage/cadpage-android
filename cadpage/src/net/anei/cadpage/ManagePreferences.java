@@ -7,6 +7,8 @@ import java.util.Collections;
 import java.util.Date;
 import java.util.Map;
 
+import net.anei.cadpage.donation.DonationManager;
+
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.os.Build;
@@ -337,6 +339,7 @@ public class ManagePreferences {
     if (prefs.getString(R.string.pref_install_date_key, null) != null) return;
     String dateStr = new SimpleDateFormat("MMddyyyy").format(new Date());
     prefs.putString(R.string.pref_install_date_key, dateStr);
+    DonationManager.reset();
   }
   
   public static int paidYear() {
@@ -369,7 +372,7 @@ public class ManagePreferences {
   /**
    * Append configuration information to constructed message
    * @param context active context
-   * @param sb Stringbuilder object where message is constructed
+   * @param sb StringBuilder object where message is constructed
    */
   public static void addConfigInfo(Context context, StringBuilder sb) {
     sb.append(String.format("\n\n----------\nSysinfo - %s\nModel: %s\n\n",

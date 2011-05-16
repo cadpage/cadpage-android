@@ -27,7 +27,7 @@ import android.view.Menu;
 import android.view.View;
 
 public class SmsPopupConfigActivity extends PreferenceActivity {
-  private static final boolean DISABLE_DONATIONS = true;
+  private static final boolean DISABLE_DONATIONS = false;
   
   private static final int DIALOG_DONATE = Menu.FIRST;
   private Preference donateDialogPref = null;

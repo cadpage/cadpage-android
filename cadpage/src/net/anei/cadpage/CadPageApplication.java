@@ -1,6 +1,6 @@
 package net.anei.cadpage;
 
-import net.anei.cadpage.donation.DonationManager;
+import net.anei.cadpage.donation.UserAcctManager;
 import android.app.Application;
 
 /**
@@ -19,7 +19,7 @@ public class CadPageApplication extends Application {
       ManagePreferences.setupPreferences(this);
       ManageParsers.getInstance().setupNames(this);
      
-      DonationManager.setup(this);
+      UserAcctManager.setup(this);
       
       // Reload log buffer queue
       SmsMsgLogBuffer.setup(this);
