@@ -81,9 +81,19 @@ public class NYOrangeCountyParserTest extends BaseParserTest {
         "NAME:173",
         "INFO:EDP",
         "X:109 PARKDALE DR & 43 ONA LN");
+
+    doTest("T8",
+        "DEPT38 TYP: WIRES DOWN/BURNING AD: 54 RESERVOIR AVE CTY: PORT JERVIS CN: PJ PD CMT1: WIRES DOWN AND BURNING TIME: 04:52 XST: 4 CEDAR ST XST2: SKYLINE DR",
+        "SRC:DEPT38",
+        "CALL:WIRES DOWN/BURNING",
+        "ADDR:54 RESERVOIR AVE",
+        "CITY:PORT JERVIS",
+        "NAME:PJ PD",
+        "INFO:WIRES DOWN AND BURNING",
+        "X:4 CEDAR ST & SKYLINE DR");
   }
   
   public static void main(String[] args) {
-    new NYOrangeCountyParserTest().generateTests("T1");
+    new NYOrangeCountyParserTest().generateTests("T8");
   }
 }
