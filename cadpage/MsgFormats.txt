@@ -326,6 +326,15 @@ NATURAL GAS - OUTSIDE at 108 BIRCH LN, New City c/s: OLD BRICK RD / RED HILLRD .
 AUTOMATIC ALARM at 129 STRAWTOWN RD, New City c/s: VILLAGE WAY / RONE CT . . 00:07:21
 *******************************************************************************
 *******************************************************************************
+* DispatchSouthernParser subclasses
+*******************************************************************************
+*******************************************************************************
+Brunswick County, NC (NCBrunswickCountyParser)
+349:560 CUMBERLAND ST SE BOLIVIA MDL 09B01 11-020650 17:02:34 Cardiac or Respiratiory Arrest / Death RECV CALL FROM FUNERAL HOME ADVING THAT THEY RECV CALL STATING A FEMALE WAS DEAD AT THIS LOCATION AD
+415:111 SE 32ND ST OAK ISLAND VERIZON WIRELESS 7045790781 MDL 09E01 11-025910 20:39:44 Cardiac or Respiratiory Arrest - De
+411:22 BOUNDARYLINE DR NW C CALABASH LYNN 9102094924 11-025720 06:59:32 Structure Fire SMELL SOMETHING BURNING IN RESD
+*******************************************************************************
+*******************************************************************************
 * Suffolk County NY Collection
 *******************************************************************************
 *******************************************************************************
@@ -1643,12 +1652,6 @@ Sender: rc.69@c-msg.net
 15CAD / [eFB] F00 23:39 1 - T:M6D4 (DIFF BREATHING-CLAMMY) L:758 JAVELIN WY ,HNRN btwn BRIDLE WY ~ TROPHY WY *HUNTERS RUN TP - D\n\n
 15CAD / ESC:??DSC:DIFF BREATHING ?! PAT:1 SEX:Female AGE:30Years CON:Y BRE:Y\n\n
 **********************************************************
-Unknown trying Montgomery County, NC
-Contact: mike barrington <michael.barrington509@gmail.com>
-Sender: GCOVINGTON@montgomerycountync.com
-|GCOVINGTON:201108622 303 GREEN TOP RD STAR MAN WITH A GUN BOBBY GILCHREST T35/GUN WILL NOT LET JEANNE CASSIDY LEAVE :1of2
-|HIS RESD, HAS ALSO THREATENED TO CUT HER IF SHE LEAVES.:2of2
-**********************************************************
 Another Nassau County, NY parser
 
 Contact: HOLEY MOLEY <efd6012@aol.com>
@@ -1882,6 +1885,7 @@ WHFD RCAD FALLS 33408 W 160TH ST  RAY COUNTY Description: 91 yof\nfell from stan
 **********************************************************
 **********************************************************
 **********************************************************
+**********************************************************
 ************  READY TO ROLL ******************************
 **********************************************************
 **********************************************************
@@ -1934,23 +1938,10 @@ ALARM - FIRE **815 E BALTIMORE PK - HILTON GARDENS INN*SCHOOLHOUSE RD & ONIX DR*
 NOTIFY FIRE CHIEF*1695 LENAPE RD - POCOPSON HOME*RED BRIDGE LA & LENAPE UNIONVI*POCOPS*03:12*RP ADV RESIDENT PULLED FI
 BARN FIRE **382 W STREET RD - NEW BOLTON CTR MAIN CM*WIDENER LA & BYRD RD*EMARLB*19:32*SMOKE IN BARN - NO FIRE S
 CHIMNEY FIRE **1905 LENAPE UNIONVILLE RD*RED LION RD & MUNICIPAL BOUNDA*POCOPS*21:30*WOOD STOVE IN BASEMENT, F
-**********************************************************
-Brunswick County, NC
-Contact: "~Heather~" <sunshine5grl@gmail.com>
-Contact: Tom Rogers <tomrogers2@gmail.com
-Sender: pagegate@brunswickes.com
-System: Southern Software
 
-349:560 CUMBERLAND ST SE BOLIVIA MDL 09B01 11-020650 17:02:34 Cardiac or Respiratiory Arrest / Death RECV CALL FROM FUNERAL HOME ADVING THAT THEY RECV CALL STATING A FEMALE WAS DEAD AT THIS LOCATION AD
-415:111 SE 32ND ST OAK ISLAND VERIZON WIRELESS 7045790781 MDL 09E01 11-025910 20:39:44 Cardiac or Respiratiory Arrest - De
-411:22 BOUNDARYLINE DR NW C CALABASH LYNN 9102094924 11-025720 06:59:32 Structure Fire SMELL SOMETHING BURNING IN RESD
-399:1295 DECATOR ST SW SUPPLY PAM 9106339368 MDL 09E01 11-025419 22:11:30 Cardiac or RespArrest  CALLER ADV THE PT IS STIFF
-
-609:POSS DOA @ 3120 BLUE DR IN SUPPLY... 5/10/11 @ 0951... KIM/CCOMM
-354:CEDAR HILL RD TEMPORAILY CLOSED DUE TO 10-50, POLE DOWN.. 4-3-11 @ 0339... KIM/CCOMM
-
-395:CARDIAC ARREST ATTEMPTING CPR INSTRUCTIONS AT 220 NE 62ND ST OAK ISLAND/DARLENE-CCOMM 04/09/2011@8:15
-391:M24 REQ LIFTING ASSISTANCE NON 10-18...2467 BURGAW ST OFF SEAWSHORE RD IN SUPPLY//CCOMM LESLIE
+Contact: Sergio Ora <skip513@gmail.com>
+Sender: 47dispatch@gmail.com
+FRM:47dispatch@gmail.com\nMSG:TSOULES SWEENEY AND MARTIN--610-423-4200*ALARM - FIRE **29 DOWLIN FORGE RD*AFA--HEAT DETECTOR--ATN*UWCHLN
 **********************************************************
 Charles County, MD (alternate)
 Contact: Donald simms <fire_freak74@yahoo.com>, 2403461358@vtext.com
@@ -1983,3 +1974,11 @@ Shutchings:115 JACOBS-MOORE LN HURDLE MILLS 2011019797 23:05:28 FIRE STRUCTURE F
 Bmelton:HURDLE MILLS RD / POINDEXTER RD 2011019760 17:21:08 TREE DOWN
 BGILLISPIE:796 WHEELERS CHURCH RD HURDLE MILLS MDL 10C01 2011019661 05:54:13 CHEST PAIN CARD 10
 BROWN:225 CROWN BLVD TIMBERLAKE 2011020040 11:49:49 ALARMS-FIRE design works building 2 general fire alarm adt 8772857397
+**********************************************************
+Hancock County, IN
+Contact: Brandon Wilch <bwilch@bctfd.org>
+Vehicle Accident - PI/4100 N 600W GREENFIELD & W AIRPORT BLV/52/ E71 M71 FG1 BCFP1/gate 2A
+Structure *ALARM*/7935 W 600N MCCORDSVILLE R12B12089 OAKLANDON/N 700W & N 800W/52/ E71 E72 L71 M71 FG1 BCFP1/General fire alarm
+Vehicle Accident - PI/3600 N 600W GREENFIELD/W 350N & W STONER DR/17/ E71 M71 FG3 BCFP1
+Sick / Ill Person/2500 N 700W GREENFIELD/W 200N & W 300N/53/ E71 M71 FG1 BCFP1/LE on traffic stop; requesting check out
+Aircraft Down/5881 W AIRPORT BLV GREENFIELD FUEL DEPOT/N AVIATION WAY & N 600W/18/ T71 BCFP1/Aircraft into a cart; Vietest building
