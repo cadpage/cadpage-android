@@ -29,8 +29,11 @@ TRAFFIC/TRANSPORTATION INCIDENTS; 14681 RIDGE RD TGN; REPORTED 2 CAR MINOR INJ M
 SICK PERSON; 1579 E KENT RD TCR; 75 yom cathater removed pain PRI 3;
 
 Contact: "medinafire6@verizon.net" <medinafire6@verizon.net>
+Contact: "jeffelsenheimer@yahoo.com" <jeffelsenheimer@yahoo.com>
 (FrmFireCntrl1) TRAUMATIC INJURIES; HIP INH 10741 LAKESHORE FL41A RD TYA;LYNDONVILLE EMS MEDINA AMB PR-3
 (FrmFireCntrl3) ALS ONLY RESPONSE; 4540 LINCOLN DR TGP; 58 yof trouble  breathing, decreased level of consciousness 6-d-1
+(FrmFireCntrl 2) HEART PROBLEMS/AICD; 12469 LAKESHORE FL44 RD TYA; 80 yof high BP & pulse 19-c-6
+(FrmFireCntrl1) ALS ONLY RESPONSE; 28 MAIN ST MDL; MEDINA ALS 83 YOF ABDOMINAL PAIN
 
 */
 
@@ -52,7 +55,8 @@ public class NYOrleansCountyParser extends SmsMsgParser {
       "TCL", "HOLLEY",
       "TKN", "KENDALL", 
       "TGP", "GASPORT",  
-      "TYA", "YATES"
+      "TYA", "YATES",
+      "MDL", "MIDDLEPORT"
   });
   
   private static final Pattern CODE_PATTERN = Pattern.compile("\\b\\d{1,2}-?[A-Za-z]-?\\d\\b");

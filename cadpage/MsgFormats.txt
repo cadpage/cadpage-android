@@ -1866,7 +1866,16 @@ OPS4 \n
 MC ACCIDENT    WENT OFF RDWY    CAB    POSS BROKEN COLLARS     CUTS ON FACE   \n
 CONTROLLED
 **********************************************************
+El Dorado County, CA
+Contact: Ken Pauley <ken@pauley.org>
+Sender: AEUCAD@fire.ca.gov
+15-May-2011/16:10:27: HAZ, ELECTRICAL: Inc# 010021: 5537 MORGAN RANCH LOOP ,GEORGETOWN  GEOCHF GEOENG M61 61; ; X: -120 50.5096  Y: 38 54.859
 **********************************************************
+Ray County, MO
+Contact: "Chief O'Dell" <leeodell@woodheightsfire.com>
+Sender: raycountycentraldispatch@gmail.com
+LFD EMS 31004 NOTTINGHAM LN   Description:  CrossStreets: SILVEY RD 6443.06 mi NW SILVEY RD 6443.06 mi NW
+WHFD RCAD FALLS 33408 W 160TH ST  RAY COUNTY Description: 91 yof\nfell from standing position\nconsious and breathing\ncomplaining of l hip pain\nup in 
 **********************************************************
 **********************************************************
 **********************************************************
