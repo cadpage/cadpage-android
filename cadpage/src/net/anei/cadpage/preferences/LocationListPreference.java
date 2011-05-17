@@ -28,7 +28,7 @@ public class LocationListPreference extends ListPreference {
   protected void onDialogClosed(boolean positiveResult) {
     super.onDialogClosed(positiveResult);
     if (positiveResult) {
-      locMgr.setNewLocation(getValue(), getEntry().toString());
+      locMgr.setNewLocation(getValue());
       parent.getDialog().dismiss();
     }
   }

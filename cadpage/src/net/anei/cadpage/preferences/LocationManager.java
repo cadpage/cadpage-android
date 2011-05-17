@@ -99,11 +99,11 @@ public class LocationManager {
    * @param location location code
    * @param name readable location name
    */
-  public void setNewLocation(String location, String name) {
+  public void setNewLocation(String location) {
     locationList.clear();
     locationList.add(location);
     nameList.clear();
-    nameList.add(name);
+    nameList.add(ManageParsers.getInstance().getLocName(location));
     refresh();
   }
   
@@ -115,7 +115,7 @@ public class LocationManager {
    * @param location location code 
    * @param name readable location name
    */
-  public void adjustLocation(boolean checked, String location, String name) {
+  public void adjustLocation(boolean checked, String location) {
     
     // Look through the location list to identify where this location should be
     int ndx = 0;
@@ -132,7 +132,7 @@ public class LocationManager {
     // Otherwise either add or remove this location and name as requested
     if (checked) {
       locationList.add(ndx, location);
-      nameList.add(ndx, name);
+      nameList.add(ndx, ManageParsers.getInstance().getLocName(location));
     } else {
       locationList.remove(ndx);
       nameList.remove(ndx);

@@ -7,14 +7,12 @@ import android.view.View;
 public class LocationCheckBoxPreference extends CheckBoxPreference {
   
   private String location;
-  private String name;
   private LocationManager locMgr;
 
   public LocationCheckBoxPreference(Context context, String location, String name,
                                      LocationManager locMgr) {
     super(context);
     this.location = location;
-    this.name = name;
     this.locMgr = locMgr;
     
     setTitle(name);
@@ -29,7 +27,7 @@ public class LocationCheckBoxPreference extends CheckBoxPreference {
   @Override
   protected void onClick() {
     super.onClick();
-    locMgr.adjustLocation(isChecked(), location, name);
+    locMgr.adjustLocation(isChecked(), location);
   }
 
 }
