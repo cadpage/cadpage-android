@@ -83,9 +83,24 @@ public class NYOrleansCountyParserTest extends BaseParserTest {
         "CITY:GASPORT",
         "INFO:58 yof trouble  breathing, decreased level of consciousness",
         "CODE:6-d-1");
-  }
+
+    doTest("T10",
+        "(FrmFireCntrl 2) HEART PROBLEMS/AICD; 12469 LAKESHORE FL44 RD TYA; 80 yof high BP & pulse 19-c-6",
+        "CALL:HEART PROBLEMS/AICD",
+        "ADDR:12469 LAKESHORE FL44 RD",
+        "CITY:YATES",
+        "INFO:80 yof high BP & pulse",
+        "CODE:19-c-6");
+
+    doTest("T11",
+        "(FrmFireCntrl1) ALS ONLY RESPONSE; 28 MAIN ST MDL; MEDINA ALS 83 YOF ABDOMINAL PAIN",
+        "CALL:ALS ONLY RESPONSE",
+        "ADDR:28 MAIN ST",
+        "CITY:MIDDLEPORT",
+        "INFO:MEDINA ALS 83 YOF ABDOMINAL PAIN");
+ }
   
   public static void main(String[] args) {
-    new NYOrleansCountyParserTest().generateTests("T1", "CALL ADDR CITY INFO CODE");
+    new NYOrleansCountyParserTest().generateTests("T11", "CALL ADDR CITY INFO CODE");
   }
 }
