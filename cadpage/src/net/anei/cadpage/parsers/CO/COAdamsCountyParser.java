@@ -66,7 +66,7 @@ public class COAdamsCountyParser extends SmartAddressParser {
     }
     parseAddress(StartType.START_ADDR, sAddr, data);
     
-    data.strCall = props.getProperty("TYPE CODE");
+    data.strCall = props.getProperty("TYPE CODE", "");
     
     // There is a comment field, but it never seems to have enough info to
     // make it worth parsing
