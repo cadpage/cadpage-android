@@ -1003,7 +1003,7 @@ public class FieldProgramParser extends SmartAddressParser {
             success = field.doCheckParse(curFld, data);
           }
           else {
-            field.parse(curFld, data);
+            field.doParse(curFld, data);
           }
         }
       } catch (FieldProgramException ex) {
@@ -1110,6 +1110,7 @@ public class FieldProgramParser extends SmartAddressParser {
     private char trigger = 0;
     
     private Pattern pattern = null;
+    private boolean hardPattern = false;
     
     private String[] fieldList;
     private int index;
@@ -1128,7 +1129,12 @@ public class FieldProgramParser extends SmartAddressParser {
     }
 
     public void setPattern(Pattern pattern) {
+      setPattern(pattern, false);
+    }
+    
+    public void setPattern(Pattern pattern, boolean hardPattern) {
       this.pattern = pattern;
+      this.hardPattern = hardPattern;
     }
     
     protected boolean isNoVerify() {
@@ -1188,6 +1194,21 @@ public class FieldProgramParser extends SmartAddressParser {
       if (!pattern.matcher(field).matches()) return false;
       parse(field, data);
       return true;
+    }
+    
+    /**
+     * Perform field parsing
+     * @param field field to checked and parsed
+     * @param data data object to be filled in
+     */
+    public void doParse(String field, Data data) {
+      
+      // If a hard pattern is specified, and this doesn't pass it
+      // reject this message
+      if (pattern != null && hardPattern) {
+        if (! pattern.matcher(field).matches()) abort();
+      }
+      parse(field, data);
     }
     
     /*

@@ -1,9 +1,6 @@
 package net.anei.cadpage.parsers.PA;
-import java.util.Properties;
-import java.util.regex.Pattern;
 
 import net.anei.cadpage.SmsMsgInfo.Data;
-import net.anei.cadpage.parsers.FieldProgramParser;
 
 
 /* 
@@ -19,74 +16,14 @@ SMOKE / ODOR INVEST (OUTSIDE)\nRT 41 / RT 841\nLGROVE\nHEAVY SMOKE CONDITION IN 
 
 */
 
-
-public class PAChesterCountyBParser extends FieldProgramParser {
-  
-  private static final Properties CITY_CODES = buildCodeTable(new String[]{
-      "NGARDN", "NEW GARDEN TWP",
-      "LGROVE", "LONDON GROVE TWP"
-      
-  });
+public class PAChesterCountyBParser extends PAChesterCountyBaseParser {
   
   public PAChesterCountyBParser() {
-    super(CITY_CODES, "CHESTER COUNTY", "PA",
-           "CALL ADDRPL! X? APT? INFO+? CITY! INFO+? DATE SKIP NAME? PHONE");
+    super("CALL ADDRPL! X? APT? INFO+? CITY! INFO+? DATE SKIP NAME? PHONE");
   }
-
 
   @Override
   protected boolean parseMsg(String body, Data data) {
-    
     return parseFields(body.split("\n"), data);
-  }
-  
-  private class AddressPlaceField extends AddressField {
-    
-    @Override
-    public void parse(String field, Data data) {
-      Parser p = new Parser(field);
-      super.parse(p.get(" - "), data);
-      data.strName = p.get();
-    }
-    
-    @Override
-    public String getFieldNames() {
-      return "ADDR PLACE";
-    }
-  }
-  
-  private class MyAptField extends AptField {
-
-    @Override
-    public boolean canFail() {
-      return true;
-    }
-
-    @Override
-    public boolean checkParse(String field, Data data) {
-      if (field.startsWith("APT ")) {
-        field = field.substring(4).trim();
-      } else if (field.length() > 4) return false;
-      
-      parse(field, data);
-      return true;
-    }
-  }
-
-  // Date field is skipped, but must match proper date format
-  // (marks the end of the INFO fields
-  private static final Pattern DATE_PATTERN = Pattern.compile("\\d\\d/\\d\\d/\\d\\d\\d\\d");
-  private class DateField extends SkipField {
-    public DateField() {
-      setPattern(DATE_PATTERN);
-    }
-  }
-  
-  @Override
-  public Field getField(String name) {
-    if (name.equals("ADDRPL")) return new AddressPlaceField();
-    if (name.equals("APT")) return new MyAptField();
-    if (name.equals("DATE")) return new DateField();
-    return super.getField(name);
   }
 } 
