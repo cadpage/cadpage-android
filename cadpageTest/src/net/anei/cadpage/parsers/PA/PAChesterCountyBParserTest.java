@@ -2,7 +2,6 @@ package net.anei.cadpage.parsers.PA;
 
 import net.anei.cadpage.parsers.BaseParserTest;
 
-import org.junit.Before;
 import org.junit.Test;
 
 
@@ -10,11 +9,6 @@ public class PAChesterCountyBParserTest extends BaseParserTest {
   
   public PAChesterCountyBParserTest() {
     setParser(new PAChesterCountyBParser(), "CHESTER COUNTY", "PA");
-  }
-  
-  @Before
-  public void setup() {
-    setParser(new PAChesterCountyParser());
   }
   
   @Test
@@ -25,16 +19,18 @@ public class PAChesterCountyBParserTest extends BaseParserTest {
         "CALL:OVERDOSE - ALS *",
         "ADDR:300 CEDAR SPRINGS RD",
         "APT:205",
-        "INFO:W BALTIMORE PK & CEDAR WOODS CI / 3RD HAND INFO/RP NOT ON LOC/UNK AGE MALE SAID HE OD'S ON ON PILLS/RP PUT ME ON HOLD",
+        "X:W BALTIMORE PK & CEDAR WOODS CI",
+        "INFO:3RD HAND INFO/RP NOT ON LOC/UNK AGE MALE SAID HE OD'S ON ON PILLS/RP PUT ME ON HOLD",
         "CITY:NEW GARDEN TWP",
-        "NAME:LIBERTY KNOLL APTS",
+        "PLACE:LIBERTY KNOLL APTS",
         "PHONE:610-388-7400");
 
     doTest("T2",
         "UNKNOWN TYPE FIRE *\n10 ALTEMUS DR\nWATSON MILL RD & DEAD END\nBROAD RUN KNOLL\nACROSS FROM ABV 1/4 MILE\nNGARDN\nSEES FIRE UNSURE IF ITS A BUILDING OR TRASH\n02/21/2011\n08:27\nRIOFSKI, LINDA P\n610-274-0906",
         "CALL:UNKNOWN TYPE FIRE *",
         "ADDR:10 ALTEMUS DR",
-        "INFO:WATSON MILL RD & DEAD END / BROAD RUN KNOLL / ACROSS FROM ABV 1/4 MILE / SEES FIRE UNSURE IF ITS A BUILDING OR TRASH",
+        "X:WATSON MILL RD & DEAD END",
+        "INFO:BROAD RUN KNOLL / ACROSS FROM ABV 1/4 MILE / SEES FIRE UNSURE IF ITS A BUILDING OR TRASH",
         "CITY:NEW GARDEN TWP",
         "NAME:RIOFSKI, LINDA P",
         "PHONE:610-274-0906");
@@ -53,7 +49,8 @@ public class PAChesterCountyBParserTest extends BaseParserTest {
         "ALARM - FIRE *\n8822 GAP NEWPORT PK\nCROSSAN LA & PENN GREEN RD\nRESD - LAFFERTY 610-268-2861\nNGARDN\nSMOKE DETECTOR IN KITCHEN - ENTER THRU BACK DO OR\n02/12/2011\n19:57\nLIFE ALERT-645\n800-638-8222",
         "CALL:ALARM - FIRE *",
         "ADDR:8822 GAP NEWPORT PK",
-        "INFO:CROSSAN LA & PENN GREEN RD / RESD - LAFFERTY 610-268-2861 / SMOKE DETECTOR IN KITCHEN - ENTER THRU BACK DO OR",
+        "X:CROSSAN LA & PENN GREEN RD",
+        "INFO:RESD - LAFFERTY 610-268-2861 / SMOKE DETECTOR IN KITCHEN - ENTER THRU BACK DO OR",
         "CITY:NEW GARDEN TWP",
         "NAME:LIFE ALERT-645",
         "PHONE:800-638-8222");

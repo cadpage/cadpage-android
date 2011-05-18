@@ -4,7 +4,6 @@ import org.junit.experimental.runners.Enclosed;
 import org.junit.runner.RunWith;
 
 
-
 @RunWith(Enclosed.class)
 public class PAChesterCountyParserTest {
   
@@ -16,6 +15,12 @@ public class PAChesterCountyParserTest {
   
   public static class TestB extends PAChesterCountyBParserTest {
     public TestB() {
+      setParser(new PAChesterCountyParser());
+    }
+  }
+  
+  public static class TestC extends PAChesterCountyCParserTest {
+    public TestC() {
       setParser(new PAChesterCountyParser());
     }
   }
