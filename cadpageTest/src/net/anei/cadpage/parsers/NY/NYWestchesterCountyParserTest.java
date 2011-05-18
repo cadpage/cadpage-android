@@ -67,6 +67,15 @@ public class NYWestchesterCountyParserTest extends BaseParserTest {
         "CITY:MAMARONECK",
         "X:MOHEGAN RD",
         "CALL:ALARM / CO");
+
+    doTest("T8",
+        "Subject:IPage\n35 N CHATSWORTH AVE MAMARONECK_T: @CARLTON HOUSE APARTMENTS:APT 3W, Cross: JEFFERSON ST, Type:ALS, , Time out:",
+        "ADDR:35 N CHATSWORTH AVE",
+        "CITY:MAMARONECK",
+        "PLACE:CARLTON HOUSE APARTMENTS",
+        "APT:3W",
+        "X:JEFFERSON ST",
+        "CALL:ALS");
   }
   
   @Test
@@ -122,6 +131,6 @@ public class NYWestchesterCountyParserTest extends BaseParserTest {
   }
   
   public static void main(String[] args) {
-    new NYWestchesterCountyParserTest().generateTests("T4");
+    new NYWestchesterCountyParserTest().generateTests("T8");
   }
 }
