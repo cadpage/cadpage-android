@@ -1780,18 +1780,6 @@ Sender: dispatch@townofhamburgny.com
 *2EMS: 60/M LONG FALL POSSIBLE ARM AND LEG FRACTURE ILS RESPONSE at 3425 OLD LAKEVIEW RD, Hamburg  c/s: ENGEL DR . . 17:31:57\n\n-- \nThis message has bee
 *2EMS: Male fell has a elbow laceration Cold Response at 25 BUFFALO ST #420, Village of Hamburg  c/s: MAIN ST   O: CREEK BEND HGTS APTS . . 05:16:00\n\n-
 **********************************************************
-Jefferson County, TN
-Contact: "jcfd560@yahoo.com" <jcfd560@yahoo.com>
-Sender: DISPATCH@jeffersoncountytn.gov
-DISPATCH:1718 BROOKLINE CT JEFFERSON CITY 2011-611597 22:43:08  BREATHING DIFFICULTY
-**********************************************************
-Jackson County, NC
-Contact: Mark wike <para139@yahoo.com>
-Contact: Bill@mydomain.com
-Sender: Bill@mydomain.com
-Same as Person County, NC
-Bill:9783 CHARLEYS CREEK RD TUCKASEGEE MDL 26A03 2011009480 22:20:01 SICK PERSON (SPECIFIC DIAGNOSIS) CALLER ADV SHE HAD HEART SURGERY A LITTLE WHILE AGO AND HER
-**********************************************************
 Onslow County, NC
 Contact: Chris Bennett <fireman2497@gmail.com>
 Sender: CAD@ocmail2.onslownc.gov
@@ -1969,7 +1957,6 @@ PAGE-OUT / 06:13PM Wed 05/11/2011 MVA AT 17700 E I44WB EXP; OHP/PAFFORD ENR PUBL
 09:53PM Tue 05/10/2011 TIMES: REC VIA RADIO CS7 3500 N HWY167/REC 2110 HRS, DISP 2110 , CS7 ARR 2111 HRS, CLEARED 2153 HRS PUBLIC SAFETY COMMUNICATIONS
 09:53PM Tue 05/10/2011 TIMES: REC VIA RADIO CS7 3500 N HWY167/REC 2110 HRS, DISP 2110 , CS7 ARR 2111 HRS, CLEARED 2153 HRS PUBLIC SAFETY COMMUNICATIONS
 **********************************************************
-**********************************************************
 Hancock County, IN
 Contact: Brandon Wilch <bwilch@bctfd.org>
 Vehicle Accident - PI/4100 N 600W GREENFIELD & W AIRPORT BLV/52/ E71 M71 FG1 BCFP1/gate 2A
@@ -1977,3 +1964,32 @@ Structure *ALARM*/7935 W 600N MCCORDSVILLE R12B12089 OAKLANDON/N 700W & N 800W/5
 Vehicle Accident - PI/3600 N 600W GREENFIELD/W 350N & W STONER DR/17/ E71 M71 FG3 BCFP1
 Sick / Ill Person/2500 N 700W GREENFIELD/W 200N & W 300N/53/ E71 M71 FG1 BCFP1/LE on traffic stop; requesting check out
 Aircraft Down/5881 W AIRPORT BLV GREENFIELD FUEL DEPOT/N AVIATION WAY & N 600W/18/ T71 BCFP1/Aircraft into a cart; Vietest building
+**********************************************************
+Rockland County, NY (alternate)
+Contact: Matthew Stritmater <m.stritmater@sloatsburgfire.org>
+Sender: 44_Control@verizon.net
+
+[Department/Unit #]  -  [Incident Type]    [Address]  Cross: [Cross Street 1] / [Cross Street 2] [Time] [Dispatcher #] - [Dispatcher Name]
+
+15  -  STRUCTURE FIRE    94 ORANGE TRNPK  CROSS: MUNICIPAL PLZ / LIBERTY ROCK RD 17:03 30 - MANN
+15  -  UNKNOWN TYPE - OUTSIDE    265 ORANGE TRNPK  CROSS: UNKNOWN / PARK AV 13:40 50 - HUMPHREY
+15  -  VEHICLE FIRE   TWAY 34.6 NB  CROSS: UNKNOWN / NEW YORK STATE THWY N, NEW YORK STATE THRUWAY - 87 N 13:40 90 - FRIDHANDLER
+15  -  VEHICLE FIRE   TWAY - SLOATSBURG REST AREA  CROSS: NEW YORK STATE THRUWAY - 87 N, NEW YORK STATE THRUWAY - 87 / NEW YORK STATE THRUWAY - 87, NEW YORK STATE THRUWAY - 87 N 17:13 22- BERTOLACCI
+15  -  FLOODING CONDITION    23 SEVEN LAKES DR  CROSS: ALLEN LN / WALDRON TERR 07:37 71 - O'KEEFFE
+15  -  BRUSH/MULCH/RUBBISH OUTSIDE    18 COLONIAL AV  CROSS: POTHAT ST / RICHARD ST 15:12 35 - BATES
+15  -  VEHICLE FIRE    2 STERLING MINE RD  CROSS: ARCADIA CT, CRANBERRY RD / ARCADIA CT 19:40 10 - DELUCIA
+15  -  OVEN/APPLIANCE/COOKING FIRE    151 ORANGE TRNPK  CROSS: LEDGE RD / POST RD 18:07 22- BERTOLACCI
+15  -  ASSIST POLICE OR EMS    15 RICHARD ST  CROSS: COLONIAL AV / STERLING AV 06:50 71 - O'KEEFFE
+**********************************************************
+Jefferson County, TN
+Contact: "jcfd560@yahoo.com" <jcfd560@yahoo.com>
+Sender: DISPATCH@jeffersoncountytn.gov
+DISPATCH:1718 BROOKLINE CT JEFFERSON CITY 2011-611597 22:43:08  BREATHING DIFFICULTY
+DISPATCH:675 E BROADWAY BLVD JEFFERSON CITY 2011-613869 11:31:12 FIRE BRUSH  GRASS FOREST
+DISPATCH:1727 EASLEY RD JEFFERSON CITY 2011-613628 20:57:53 FIRE SMOKE INVESTIGATION
+**********************************************************
+Jackson County, NC
+Contact: Mark wike <para139@yahoo.com>
+Sender: Bill@mydomain.com
+Bill:9783 CHARLEYS CREEK RD TUCKASEGEE MDL 26A03 2011009480 22:20:01 SICK PERSON (SPECIFIC DIAGNOSIS) CALLER ADV SHE HAD HEART SURGERY A LITTLE WHILE AGO AND HER
+Bill:1 CHARLEYS CREEK RD/NEDDY MTN 2011010597 08:40:01 10-50D ACCIDENT/PROPERTY DAMAGE ADVS SINGLE CAR 10-50, NO PI

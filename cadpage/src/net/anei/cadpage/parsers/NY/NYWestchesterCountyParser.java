@@ -19,6 +19,7 @@ Subject:IPage\nMADISON AVE/JEFFERSON ST MAMARONECK_T, Cross: MADISON AVE, Type:H
 Subject:IPage\n35 N CHATSWORTH AVE MAMARONECK_T: @CARLTON HOUSE APARTMENTS, Cross: JEFFERSON ST, Type:ALARM, COMM, Time out: 19:27:55
 Subject:IPage\n280 WEAVER ST MAMARONECK_T: @ST JOHN & PAUL SCHOOL, Cross: EDGEWOOD AVE, Type:ALARM, COMM, Time out: 23:48:57 Area: MAMTW,Alarm lev: 0 ,Comments:   GENERAL FIRE ALARM
 Subject:IPage\n833 FENIMORE RD MAMARONECK_T, Cross: MOHEGAN RD, Type:ALARM, CO, Time out: 13:39:20 Area: MAMTW,Alarm lev: 0
+Subject:IPage\n35 N CHATSWORTH AVE MAMARONECK_T: @CARLTON HOUSE APARTMENTS:APT 3W, Cross: JEFFERSON ST, Type:ALS, , Time out:
 
 // This one should go to general alert
 Subject:IPage\n-073.684659 +040.978189   Duplicate Event:Location = HALSTEAD PL/ORMOND PL, Cross Street 1 = HALSTEAD PL   GARAGE FIRE   ORMOND PL, Cross Street 2 = ORMOND PL,
@@ -31,8 +32,11 @@ IPage / MAMARONECK_T: @I95 NB 07.1 EXIT 17 (CHATSWORTH AVE), Cross: , Type:MVA, 
 IPage / 42 MAPLEWOOD ST MAMARONECK_T, Cross: MURRAY AVE, Type:SERVICE, LOCKOUT, Time out: 17:27:08 Area: MAMTW,Alarm lev: 0
 IPage / 30 HALSTEAD PL RYE, Cross: ORMOND PL, Type:STRU, , Time out: 21:00:33 Area: RYE,Alarm lev: 1 ,Comments:   WPH1
 
+
+
 Contact: Grant Nishanian <grantnet10@gmail.com>
 (IPage) MAMTW,Alarm lev: 0 ,Comments:   REAR FIRE ALARM   914-833-2306 1415 BOSTON POST RD MAMARONECK_T: EAST CREEK REALTY, Cross: ALDEN RD, Type:ALARM, COMM, Time out: 10:29:52 Area:
+
 
 */
 
@@ -79,6 +83,7 @@ public class NYWestchesterCountyParser extends FieldProgramParser {
     @Override
     public void parse(String field, Data data) {
       Parser p = new Parser(field);
+      data.strApt = p.getLastOptional(":APT ");
       data.strPlace = p.getLastOptional(": @");
       data.strCity = p.getLast(' ');
       parseAddress(p.get(), data);
@@ -94,7 +99,7 @@ public class NYWestchesterCountyParser extends FieldProgramParser {
 
     @Override
     public String getFieldNames() {
-      return "ADDR CITY PLACE";
+      return "ADDR CITY PLACE APT";
     }
   }
 
