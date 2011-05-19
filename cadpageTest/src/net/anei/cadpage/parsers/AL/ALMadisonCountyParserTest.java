@@ -64,7 +64,16 @@ public class ALMadisonCountyParserTest extends BaseParserTest {
         "CITY:MADISON COUNTY",
         "ID:E1105513",
         "CALL:MEDICAL");
-    
-        
+
+    doTest("T8",
+        "(R1 IPS I/Page Notification) Loc: TIMBERLANE AV NW/POPLAR AV NW HSV  EVT#: E1120841 TYPE: MVA/E TIME: 13:42:06",
+        "ADDR:TIMBERLANE AV NW & POPLAR AV NW",
+        "CITY:HUNTSVILLE",
+        "ID:E1120841",
+        "CALL:MVA W/ ENTRAPMENT");
+  }
+  
+  public static void main(String[] args) {
+    new ALMadisonCountyParserTest().generateTests("T1", "ADDR CITY ID CALL");
   }
 }
