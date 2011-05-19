@@ -59,7 +59,7 @@ public class ALMadisonCountyParser extends SmartAddressParser {
   
   @Override
   public String getFilter() {
-    return "cad.page@madco911.com";
+    return "cad.page@madco911.com,rescue1-bounces@rescuesquad.net";
   }
 
   @Override
