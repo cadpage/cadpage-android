@@ -1,5 +1,8 @@
 package net.anei.cadpage.parsers.DE;
 
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 import net.anei.cadpage.SmsMsgInfo.Data;
 import net.anei.cadpage.parsers.FieldProgramParser;
 
@@ -24,9 +27,14 @@ Sender: rc.322@c-msg.net
 
 public class DENewCastleCountyParser extends FieldProgramParser {
   
+  private static final Pattern[] MARKERS = new Pattern[]{
+    Pattern.compile("^F00 \\d\\d:\\d\\d 1 - (?=T:\\d\\d)"),
+    Pattern.compile("^\\d\\d:\\d\\d(?=T:\\d\\d)")
+  };
+  
   public DENewCastleCountyParser() {
     super("NEW CASTLE COUNTY", "DE",
-           "SKIP T:CALL! L:ADDR! X:X DESC:INFO");
+           "T:CALL! L:ADDR! X:X DESC:INFO");
   }
   
   @Override
@@ -36,10 +44,23 @@ public class DENewCastleCountyParser extends FieldProgramParser {
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
-    String[] subjects = subject.split("\\|");
-    if (! subjects[subjects.length-1].equals("FB")) return false;
-    if (! body.startsWith("F00 ")) return false;
-    if (subjects.length == 2) data.strSource = subjects[0]; 
+    
+    boolean found = false;
+    for (Pattern ptn : MARKERS) {
+      Matcher match = ptn.matcher(body);
+      if (match.find()) {
+        found = true;
+        body = body.substring(match.end());
+        break;
+      }
+    }
+    if (!found) return false;
+    
+    if (subject.length() > 0) {
+      String[] subjects = subject.split("\\|");
+      if (! subjects[subjects.length-1].equals("FB")) return false;
+      if (subjects.length == 2) data.strSource = subjects[0];
+    }
     return super.parseMsg(body, data);
   }
   

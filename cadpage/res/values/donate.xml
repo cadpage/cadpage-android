@@ -40,7 +40,7 @@
     Our sincere apologies.  Cadpage tracks you by your Google Market account
     "which is %s. If this doesn't match the Paypal account you used to donate"
     to us, we will need some help figuring out who you are. Just clicking the
-    button below to will send us an email that will hopefully clear things up.
+    button below will send us an email that will hopefully clear things up.
   </string>
   
   <string name="donate_paypal_title">Donate through PayPal</string>
