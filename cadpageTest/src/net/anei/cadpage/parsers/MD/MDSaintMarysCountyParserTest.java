@@ -402,9 +402,19 @@ public class MDSaintMarysCountyParserTest extends BaseParserTest {
          "CITY:ORAVILLE",
          "UNIT:CO29",
          "INFO:43 year old, Male, Conscious, Breathing.");
+
+     doTest("T45",
+         "((39425) CAD ) 07:18:31*Sick Person*CHARLOTTE HALL VETERANS HOME*29449 CHARLOTTE HALL RD*CHARLOTTE HALL SCHOOL RD*CHAR HALL*ALS CO29*Room 149B 1D*",
+         "CALL:Sick Person",
+         "PLACE:CHARLOTTE HALL VETERANS HOME",
+         "ADDR:29449 CHARLOTTE HALL RD",
+         "X:CHARLOTTE HALL SCHOOL RD",
+         "CITY:CHARLOTTE HALL",
+         "UNIT:ALS CO29",
+         "INFO:Room 149B 1D");
   }
   
   public static void main(String[] args) {
-    new MDSaintMarysCountyParserTest().generateTests("T44", "CALL PLACE ADDR APT X CITY UNIT INFO");
+    new MDSaintMarysCountyParserTest().generateTests("T45", "CALL PLACE ADDR APT X CITY UNIT INFO");
   }
 }
