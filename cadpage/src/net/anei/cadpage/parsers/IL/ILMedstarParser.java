@@ -45,6 +45,8 @@ public class ILMedstarParser extends DispatchProQAParser {
   @Override
   public boolean parseFields(String[] fields, Data data) {
     
+    if (fields.length < 3) return false;
+    
     // First line is always the address
     int ndx = 1;
     for (String fld : fields) {

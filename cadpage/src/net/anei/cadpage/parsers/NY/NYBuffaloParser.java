@@ -22,7 +22,7 @@ public class NYBuffaloParser extends DispatchProQAParser {
   
   public NYBuffaloParser() {
     super("BUFFALO", "NY",
-           "SKIP CALL CALL+? ADDR CITY ID X:X");
+           "SKIP CALL CALL+? ADDR CITY ID! X:X");
   }
   
   @Override

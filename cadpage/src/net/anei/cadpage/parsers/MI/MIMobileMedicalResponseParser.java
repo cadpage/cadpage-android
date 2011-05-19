@@ -33,7 +33,7 @@ public class MIMobileMedicalResponseParser extends DispatchProQAParser {
   
   public MIMobileMedicalResponseParser() {
     super("", "MI", 
-           "ADDR CALL XTRA+? INFO+");
+           "ADDR CALL! XTRA+? INFO+");
   }
   
   @Override

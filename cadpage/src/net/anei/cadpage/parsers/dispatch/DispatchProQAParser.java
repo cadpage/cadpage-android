@@ -1,6 +1,8 @@
 package net.anei.cadpage.parsers.dispatch;
 
 import java.util.Properties;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import net.anei.cadpage.SmsMsgInfo.Data;
 import net.anei.cadpage.parsers.FieldProgramParser;
@@ -22,6 +24,8 @@ Northglenn EMS, CO
 - part 1 of 1 / RC:Run# 9911/7373 BIRCH ST///Unconscious / Fainting/
 - part 1 of 1 / RC:Run# 10172/8810 E 88TH AVE///Assault/
 - part 1 of 1 / RC:Run# 10119/E 60TH AVE & DAHLIA ST//./Unconscious / Fainting/
+Subject:- part 1 of 1\nRC:Run# 3769/3015 CALIFORNIA ST//out of control child hit head/Not Known//\n
+Subject:- part 1 of 1\nRun# 5678/ 1301 PONTIAC ST/ Fall Victim\n
 
 Medstar SW IL
 [- part 1 of 1]  RC:Run# 34870/64 WEST BOUND//across from weight station/////male subj white car hit by a truck isp en route/<PROQA_DET>
@@ -45,6 +49,8 @@ Subject:<CAD> - part 1 of 1\nRC:Run# 17970/602 BEECH ST/P-5 Local Transport/2ND 
 
 public class DispatchProQAParser extends FieldProgramParser {
   
+  private static final Pattern MARKER = Pattern.compile("\\bRun# ");
+  
   protected DispatchProQAParser(String defCity, String defState, String program) {
     super(defCity, defState, program);
   }
@@ -57,9 +63,9 @@ public class DispatchProQAParser extends FieldProgramParser {
   protected boolean parseMsg(String body, Data data) {
     
     // Parse run number from first field
-    int pt = body.indexOf("RC:Run# ");
-    if (pt < 0) return false;
-    pt += 8;
+    Matcher match = MARKER.matcher(body);
+    if (!match.find()) return false;
+    int pt = match.end();
     int pt2 = body.indexOf("/", pt);
     if (pt2 < 0) return false;
     

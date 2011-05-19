@@ -31,6 +31,8 @@ public class TXLongviewParser extends DispatchProQAParser {
   @Override
   public boolean parseFields(String[] flds, Data data) {
     
+    if (flds.length < 6) return false;
+    
     // Fields are tightly delimited but very loosely positioned
     // Only consistent field we can identify is a time marker, so lets find it
     int timeLine = -1;

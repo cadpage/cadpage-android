@@ -19,7 +19,7 @@ public class NYMonroeCountyParser extends DispatchProQAParser {
   
   public NYMonroeCountyParser() {
     super("MONROE COUNTY", "NY",
-           "ADDR! APT? X:X? PRI CALL INFO+ LOCI:PLACE ENTRY:INFO+ XST:SKIP");
+           "ADDR! APT? X:X? PRI CALL! INFO+ LOCI:PLACE ENTRY:INFO+ XST:SKIP");
   }
 
   @Override
