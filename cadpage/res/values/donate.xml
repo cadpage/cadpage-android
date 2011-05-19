@@ -28,20 +28,6 @@
     limits, you will get another 30 days to think about it.
   </string>
   
-  <string name="donate_free_paypal_title">Donate through PayPal</string>
-  <string name="donate_free_paypal_text">
-    Donations are always appreciated.  The next button will take you to
-    the PayPal webpage where you can contribute even more much appreciated 
-    cash.
-  </string>
-  
-  <string name="donate_paypal_title">Donate through PayPal</string>
-  <string name="donate_paypal_text">
-    Donations are always appreciated.  And a donation of $20 or more will get
-    you on the free Cadpage user list.  The process is not as simple as we
-    would like.
-  </string>
-  
   <string name="donate_no_user_title">"Hey, I've already contributed"</string>
   <string name="donate_no_user_text">
     Our sincere apologies.  Cadpage tracks you by your Google Market account
@@ -56,6 +42,9 @@
     to us, we will need some help figuring out who you are. Just clicking the
     button below to will send us an email that will hopefully clear things up.
   </string>
+  
+  <string name="donate_paypal_title">Donate through PayPal</string>
+  <string name="donate_email_title">Send Email</string>
   
   
 </resources>

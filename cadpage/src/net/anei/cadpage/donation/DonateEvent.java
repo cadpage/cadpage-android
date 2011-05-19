@@ -123,7 +123,6 @@ public abstract class DonateEvent {
     // Create new button with correct color and title message
     final Activity act = activity;
     Button button = new Button(activity);
-    setTextColor(button);
     button.setText(activity.getString(titleId, getTextParms(PARM_TITLE)));
     
     // Set up button clicked listener to call our doEvent method

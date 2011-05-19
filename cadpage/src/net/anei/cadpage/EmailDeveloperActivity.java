@@ -226,7 +226,7 @@ public class EmailDeveloperActivity extends Activity {
    * Send Email about not having correct user identified as Paypal donator
    * @param context current context
    */
-  public static void wrongUserEmail(Context context) {
+  public static void sendWrongUserEmail(Context context) {
     
     // This one sends a request directly to the email client, without
     // bring up a request screen first.

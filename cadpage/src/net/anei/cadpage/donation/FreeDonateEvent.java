@@ -10,7 +10,8 @@ import net.anei.cadpage.R;
 public class FreeDonateEvent extends DonateScreenEvent {
   
   public FreeDonateEvent() {
-    super(AlertStatus.GREEN, R.string.donate_free_title, R.string.donate_free_text);
+    super(AlertStatus.GREEN, R.string.donate_free_title, R.string.donate_free_text,
+          PaypalDonateEvent.instance());
   }
   
   @Override
