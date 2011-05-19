@@ -44,5 +44,15 @@ public class CONorthglennEMSParserTest extends BaseParserTest {
         "ID:10119",
         "ADDR:E 60TH AVE & DAHLIA ST",
         "CALL:. / Unconscious / Fainting");
+
+    doTest("T6",
+        "Subject:- part 1 of 1\nRun# 5678/ 1301 PONTIAC ST/ Fall Victim\n",
+        "ID:5678",
+        "ADDR:1301 PONTIAC ST",
+        "CALL:Fall Victim");
  }
+  
+  public static void main(String[] args) {
+    new CONorthglennEMSParserTest().generateTests("T1", "ID ADDR CALL");
+  }
 }
