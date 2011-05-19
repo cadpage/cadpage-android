@@ -1,6 +1,7 @@
 package net.anei.cadpage;
 
-import net.anei.cadpage.donation.DonationManager;
+import net.anei.cadpage.donation.DeveloperToolsManager;
+import net.anei.cadpage.donation.MainDonateEvent;
 import net.anei.cadpage.parsers.SmsMsgParser;
 import net.anei.cadpage.preferences.AppEnabledCheckBoxPreference;
 import net.anei.cadpage.preferences.DialogPreference;
@@ -17,7 +18,6 @@ import android.preference.CheckBoxPreference;
 import android.preference.Preference;
 import android.preference.PreferenceActivity;
 import android.preference.PreferenceCategory;
-import android.preference.PreferenceGroup;
 import android.preference.PreferenceManager;
 import android.preference.PreferenceScreen;
 import android.preference.Preference.OnPreferenceChangeListener;
@@ -27,7 +27,6 @@ import android.view.Menu;
 import android.view.View;
 
 public class SmsPopupConfigActivity extends PreferenceActivity {
-  private static final boolean DISABLE_DONATIONS = false;
   
   private static final int DIALOG_DONATE = Menu.FIRST;
   private Preference donateDialogPref = null;
@@ -63,21 +62,7 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
     
     // Set up the donation status tracking screens
     Preference donate = (Preference)findPreference(getString(R.string.pref_donate_status_key));
-    DonationManager.setPreference(this, donate);
-    
-    // Drop donate preference from screen so we can check in the code without
-    // it really doing anything  
-    // @TODO remove when ready for production
-    if (DISABLE_DONATIONS) {
-      PreferenceScreen pscreen = getPreferenceScreen();
-      for (int ii = 0; ii < pscreen.getPreferenceCount(); ii++) {
-        Preference p = pscreen.getPreference(ii);
-        if (p instanceof PreferenceGroup) {
-          ((PreferenceGroup)p).removePreference(donate);
-        }
-      }
-    }
-    
+    MainDonateEvent.instance().setPreference(this, donate);
     
     // Set up the two location preference screens
     Preference descPreference = findPreference(getString(R.string.pref_loc_desc_key));
@@ -189,6 +174,9 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
         }
       });
     }
+    
+    // Add developer dialog preference if appropriate
+    DeveloperToolsManager.instance().addPreference(this, getPreferenceScreen());
   }
 
   /**

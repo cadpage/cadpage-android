@@ -5,7 +5,7 @@ import net.anei.cadpage.R;
 public class DemoDonateEvent extends DonateScreenEvent {
 
   protected DemoDonateEvent() {
-    super(AlertStatus.YELLOW, R.string.donate_demo_expire_title, R.string.donate_demo_expire_text);
+    super(AlertStatus.YELLOW, R.string.donate_demo_title, R.string.donate_demo_text);
   }
 
   @Override

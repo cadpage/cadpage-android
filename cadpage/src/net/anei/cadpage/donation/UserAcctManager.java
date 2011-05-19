@@ -33,6 +33,13 @@ public class UserAcctManager implements OnAccountsUpdateListener {
       }
     }
   }
+
+  /**
+   * @return identified user account name
+   */
+  public String getUser() {
+    return userEmail;
+  }
   
 
   /**

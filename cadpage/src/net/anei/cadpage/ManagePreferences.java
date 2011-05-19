@@ -337,7 +337,11 @@ public class ManagePreferences {
   
   public static void setInstallDate() {
     if (prefs.getString(R.string.pref_install_date_key, null) != null) return;
-    String dateStr = new SimpleDateFormat("MMddyyyy").format(new Date());
+    setInstallDate(new Date());
+  }
+  
+  public static void setInstallDate(Date date) {
+    String dateStr = new SimpleDateFormat("MMddyyyy").format(date);
     prefs.putString(R.string.pref_install_date_key, dateStr);
     DonationManager.reset();
   }
@@ -358,14 +362,6 @@ public class ManagePreferences {
   public static void setFreeRider(boolean newVal) {
     if (newVal == freeRider()) return;
     prefs.putBoolean(R.string.pref_free_rider_key, newVal);
-  }
-  
-  private static void debugDonateInfo(Context context) {
-    SharedPreferences.Editor settings = prefs.mPrefs.edit();
-    settings.putBoolean(context.getString(R.string.pref_free_rider_key), false);
-    settings.putInt(context.getString(R.string.pref_paid_year_key), 0);
-    settings.putString(context.getString(R.string.pref_install_date_key), null);
-    settings.commit();
   }
 
 

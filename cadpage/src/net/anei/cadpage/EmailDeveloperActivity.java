@@ -19,7 +19,7 @@ import android.widget.TextView;
  */
 public class EmailDeveloperActivity extends Activity {
   
-  public static enum EmailType { GENERAL, MESSAGE, CRASH, INIT_FAILURE };
+  public static enum EmailType { GENERAL, MESSAGE, CRASH, INIT_FAILURE, WRONG_USER };
   
   private final static String EXTRA_PREFIX="net.anei.cadpage.EmailDeveloperActivity.";
   private final static String EXTRA_TYPE = EXTRA_PREFIX + "EMAIL_TYPE";
@@ -110,50 +110,59 @@ public class EmailDeveloperActivity extends Activity {
       Context context = EmailDeveloperActivity.this;
       
       if (send) {
-        
-        // Build the message text
-        StringBuilder body = new StringBuilder();
-        
-        // If this is a crash report, include a recorded stack trace
-        if (type == EmailType.CRASH || type == EmailType.INIT_FAILURE) {
-          TopExceptionHandler.addCrashReport(context, body);
-        }
-        
-        // If message info requested, add that
-        if (includeMsgBox.isChecked()) {
-          SmsMmsMessage message;
-          if (type == EmailType.MESSAGE) {
-            message = SmsMessageQueue.getInstance().getMessage(msgId);
-            if (message != null) message.addMessageInfo(context, body);
-          } else {
-            SmsMsgLogBuffer lb = SmsMsgLogBuffer.getInstance();
-            if (lb != null) lb.addMessageInfo(context, body);
-          }
-        }
-        
-        // If configuration info requested, add that as well
-        if (includeConfigBox.isChecked()) {
-          ManagePreferences.addConfigInfo(context, body);
-          UserAcctManager.instance().addAccountInfo(body);
-        }
-        
-        // Build send email intent and launch it
-        Intent intent = new Intent(Intent.ACTION_SEND);
-        String[] emailAddr = context.getResources().getStringArray(R.array.email_devel_addr);
-        intent.putExtra(Intent.EXTRA_EMAIL, emailAddr);
-        String emailSubject = SmsPopupUtils.getNameVersion(context) + " " +
-            context.getResources().getStringArray(R.array.email_devel_subject)[type.ordinal()];
-        intent.putExtra(Intent.EXTRA_SUBJECT, emailSubject);
-        intent.putExtra(Intent.EXTRA_TEXT, body.toString());
-        intent.setType("message/rfc822");
-        context.startActivity(Intent.createChooser(
-            intent, context.getString(R.string.pref_sendemail_title)));
+        sendEmailRequest(context, type, includeMsgBox.isChecked(), msgId, includeConfigBox.isChecked());
       }
 
       // And finally close the dialog
       if (type == EmailType.INIT_FAILURE) TopExceptionHandler.forceShutdown(context);
       EmailDeveloperActivity.this.finish();
     }
+  }
+  
+  public static void sendEmailRequest(Context context, EmailType type, 
+                                        boolean includeMsg, int msgId,
+                                        boolean includeCfg) {
+    
+    // Build the message text
+    StringBuilder body = new StringBuilder();
+    
+    
+    
+    // If this is a crash report, include a recorded stack trace
+    if (type == EmailType.CRASH || type == EmailType.INIT_FAILURE) {
+      TopExceptionHandler.addCrashReport(context, body);
+    }
+    
+    // If message info requested, add that
+    if (includeMsg) {
+      SmsMmsMessage message;
+      if (type == EmailType.MESSAGE) {
+        message = SmsMessageQueue.getInstance().getMessage(msgId);
+        if (message != null) message.addMessageInfo(context, body);
+      } else {
+        SmsMsgLogBuffer lb = SmsMsgLogBuffer.getInstance();
+        if (lb != null) lb.addMessageInfo(context, body);
+      }
+    }
+    
+    // If configuration info requested, add that as well
+    if (includeCfg) {
+      ManagePreferences.addConfigInfo(context, body);
+      UserAcctManager.instance().addAccountInfo(body);
+    }
+    
+    // Build send email intent and launch it
+    Intent intent = new Intent(Intent.ACTION_SEND);
+    String[] emailAddr = context.getResources().getStringArray(R.array.email_devel_addr);
+    intent.putExtra(Intent.EXTRA_EMAIL, emailAddr);
+    String emailSubject = SmsPopupUtils.getNameVersion(context) + " " +
+        context.getResources().getStringArray(R.array.email_devel_subject)[type.ordinal()];
+    intent.putExtra(Intent.EXTRA_SUBJECT, emailSubject);
+    intent.putExtra(Intent.EXTRA_TEXT, body.toString());
+    intent.setType("message/rfc822");
+    context.startActivity(Intent.createChooser(
+        intent, context.getString(R.string.pref_sendemail_title)));
+    
   }
   
   
@@ -211,6 +220,17 @@ public class EmailDeveloperActivity extends Activity {
     Intent intent = buildIntent(context, EmailType.INIT_FAILURE, 0);
     intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_SINGLE_TOP);
     context.startActivity(intent);
+  }
+  
+  /**
+   * Send Email about not having correct user identified as Paypal donator
+   * @param context current context
+   */
+  public static void wrongUserEmail(Context context) {
+    
+    // This one sends a request directly to the email client, without
+    // bring up a request screen first.
+    sendEmailRequest(context, EmailType.WRONG_USER, false, 0, true);
   }
 
   /**

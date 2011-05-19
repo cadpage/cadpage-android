@@ -1,6 +1,6 @@
 package net.anei.cadpage.donation;
 
-import android.content.Context;
+import android.app.Activity;
 import android.graphics.Color;
 import android.preference.Preference;
 import android.preference.Preference.OnPreferenceClickListener;
@@ -51,9 +51,9 @@ public abstract class DonateEvent {
   
   /**
    * Called when an event needs to be performed
-   * @param ctx current context
+   * @param activity current context
    */
-  abstract protected void doEvent(Context ctx);
+  abstract protected void doEvent(Activity activity);
   
   /**
    * @return true if event is enabled
@@ -65,11 +65,11 @@ public abstract class DonateEvent {
   /**
    * Set up the root donation status preference for this event, only if it
    * is enabled
-   * @param context current context
+   * @param activity current context
    * @param pref preference to be set up
    * @return true if this preference was set up for this event
    */
-  public boolean setPreference(Context context, Preference pref) {
+  public boolean setPreference(Activity activity, Preference pref) {
     
     // If not enabled, return now
     if (!isEnabled()) return false;
@@ -79,15 +79,15 @@ public abstract class DonateEvent {
     String title = pref.getTitle().toString();
     pref.setTitle(setAlertColor(title));
     
-    title = context.getString(titleId, getTextParms(PARM_TITLE));
+    title = activity.getString(titleId, getTextParms(PARM_TITLE));
     pref.setSummary(setAlertColor(title));
 
     // Set up a preference clicked listener
-    final Context ctx = context;
+    final Activity act = activity;
     pref.setOnPreferenceClickListener(new OnPreferenceClickListener(){
       @Override
       public boolean onPreferenceClick(Preference preference) {
-        doEvent(ctx);
+        doEvent(act);
         return true;
       }});
     
@@ -111,26 +111,26 @@ public abstract class DonateEvent {
   /**
    * Add a control button for this event to a view group, only if this event
    * is enabled
-   * @param context current context
+   * @param activity current context
    * @param parent ViewGroup to which button should be added
    * @return true if button was added to group
    */
-  public boolean addButton(Context context, ViewGroup parent) {
+  public boolean addButton(Activity activity, ViewGroup parent) {
     
     // If event is not enabled, bail out here
     if (!isEnabled()) return false;
     
     // Create new button with correct color and title message
-    final Context ctx = context;
-    Button button = new Button(context);
+    final Activity act = activity;
+    Button button = new Button(activity);
     setTextColor(button);
-    button.setText(context.getString(titleId, getTextParms(PARM_TITLE)));
+    button.setText(activity.getString(titleId, getTextParms(PARM_TITLE)));
     
     // Set up button clicked listener to call our doEvent method
     button.setOnClickListener(new View.OnClickListener() {
       @Override
       public void onClick(View v) {
-        doEvent(ctx);
+        doEvent(act);
       }
     });
     

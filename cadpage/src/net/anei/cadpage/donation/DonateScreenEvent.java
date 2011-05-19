@@ -5,7 +5,6 @@ import java.util.Map;
 
 import net.anei.cadpage.R;
 import android.app.Activity;
-import android.content.Context;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.Window;
@@ -24,6 +23,13 @@ public abstract class DonateScreenEvent extends DonateEvent {
     registerScreenEvent(this);
     this.textId = textId;
     this.events = events;
+  }
+  
+  /**
+   * @return list of donation events assoicated with this screen
+   */
+  public DonateEvent[] getEvents() {
+    return events;
   }
 
   /**
@@ -65,8 +71,12 @@ public abstract class DonateScreenEvent extends DonateEvent {
   }
 
   @Override
-  protected void doEvent(Context ctx) {
-    DonateActivity.launchActivity(ctx, this);
+  protected void doEvent(Activity activity) {
+    DonateActivity.launchActivity(activity, this);
+  }
+
+  // Called when event chain has led to a completed action somwhere
+  public void actionComplete() {
   }
   
   // Map use to identify Screen events by classname

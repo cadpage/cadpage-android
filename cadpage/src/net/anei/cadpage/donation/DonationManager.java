@@ -4,9 +4,6 @@ import java.util.Date;
 
 import net.anei.cadpage.ManagePreferences;
 
-import android.content.Context;
-import android.preference.Preference;
-
 public class DonationManager {
   
   public static final int DEMO_LIMIT_DAYS = 30;
@@ -70,26 +67,4 @@ public class DonationManager {
   public static int daysSinceInstall() {
     return instance.getDaysSinceInstall();
   }
-  
-
-  // List of toplevel donate events
-  private static final DonateEvent[] events = new DonateEvent[]{
-    FreeDonateEvent.instance(),
-    DemoDonateEvent.instance(),
-    DemoExpireDonateEvent.instance()
-  };
-  
-  /**
-   * Set up the donation status preference in the preference settings
-   * @param context current context
-   * @param pref Donation status preference
-   */
-  public static void setPreference(Context context, Preference pref) {
-    for (DonateEvent event : events) {
-      if (event.setPreference(context, pref)) return;
-    }
-  }
-  
-
-
 }
