@@ -80,11 +80,18 @@ public class DENewCastleCountyParserTest extends BaseParserTest {
         "PLACE:MARY CAMPBELL CNTR *WELDIN WOODS",
         "X:btwn JACOB WELDIN PL ~ WELDIN CI",
         "INFO:F");
+
+    doTest("T9",
+        "15:50T:52B1G (L1*RES FIRE ALARM~GENERAL ALAR) L:401 CAMPBELL RD ,KC GREENVILLE - X:KENNETT PK ~ MINKER CT : afa.?!?!",
+        "CALL:52B1G (L1*RES FIRE ALARM~GENERAL ALAR)",
+        "ADDR:401 CAMPBELL RD",
+        "PLACE:GREENVILLE",
+        "X:KENNETT PK ~ MINKER CT : afa.?!?!");
    
   }
   
   public static void main(String[] args) {
-    new DENewCastleCountyParserTest().generateTests("T1");
+    new DENewCastleCountyParserTest().generateTests("T9");
   }
 }
     		

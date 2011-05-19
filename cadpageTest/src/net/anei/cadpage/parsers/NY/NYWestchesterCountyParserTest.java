@@ -76,6 +76,14 @@ public class NYWestchesterCountyParserTest extends BaseParserTest {
         "APT:3W",
         "X:JEFFERSON ST",
         "CALL:ALS");
+
+    doTest("T9",
+        "(IPage) 2 PRINCE WILLOW LN MAMARONECK_T, Cross: OLD WHITE PLAINS RD, Type:SERVICE, WATER, Time out: 17:22:17 Area: MAMTW,Alarm lev: 0 ,Comments:   WATER CONDITION",
+        "ADDR:2 PRINCE WILLOW LN",
+        "CITY:MAMARONECK",
+        "X:OLD WHITE PLAINS RD",
+        "CALL:SERVICE / WATER",
+        "INFO:WATER CONDITION");
   }
   
   @Test
