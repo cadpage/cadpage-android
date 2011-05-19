@@ -19,6 +19,12 @@ IPS I/Page Notification / Loc: 120 EMERALD DR MDCO EVT#: C1009484 TYPE: M TIME: 
 
 Contact: NICK GOODMAN <hemsi89@gmail.com>
 (IPS I/Page Notification) EVENT: E1105513 Loc: 116 DRYSDALE DR MDCO EVT#: E1105513 TYPE: M TIME: 08:48:15
+
+Contact: Medcomm <jddyer@rescuesquad.net>
+Sender: rescue1-bounces@rescuesquad.net
+(R1 IPS I/Page Notification) Loc: 1251 CARTERS GIN RD MDCO EVT#: E1120631 TYPE: MVA/E TIME: 01:50:42
+(R1 IPS I/Page Notification) Loc: TIMBERLANE AV NW/POPLAR AV NW HSV  EVT#: E1120841 TYPE: MVA/E TIME: 13:42:06
+
  */
 
 
@@ -59,7 +65,7 @@ public class ALMadisonCountyParser extends SmartAddressParser {
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     
-   if (! subject.equals(CAD_MARKER)) {
+   if (! subject.contains(CAD_MARKER)) {
      if (! body.startsWith(CAD_MARKER + " / ")) return false;
       body = body.substring(CAD_MARKER.length()+3);
     }
