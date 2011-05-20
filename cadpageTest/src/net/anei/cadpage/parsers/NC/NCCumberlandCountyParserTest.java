@@ -59,7 +59,6 @@ public class NCCumberlandCountyParserTest extends BaseParserTest {
         "ADDR:200 RUPE ST",
         "X:SCARBOROUGH ST");
 
-
     doTest("T6",
         "CAD:(S) (N)C4;03/04/2011 21:18:43;UNKNOWN OUTSIDE FIRE;ST22;2700-BLK BRAGG BLVD",
         "UNIT:C4",
@@ -67,10 +66,19 @@ public class NCCumberlandCountyParserTest extends BaseParserTest {
         "SRC:ST22",
         "ADDR:2700-BLK BRAGG BLVD");
 
+    doTest("T7",
+        "CAD:DIST: 174.69 FT (S)UPTON TYSON (BELRIDGR DR) (N)C10;05/20/2011 08:34:01;CLAMMY CHEST PAIN;ST18;3570 LACEWOOD CT;NC HWY 87 S",
+        "PLACE:UPTON TYSON (BELRIDGR DR)",
+        "UNIT:C10",
+        "CALL:CLAMMY CHEST PAIN",
+        "SRC:ST18",
+        "ADDR:3570 LACEWOOD CT",
+        "X:NC HWY 87 S");
+
   }
   
 
   public static void main(String[] args) {
-    new NCCumberlandCountyParserTest().generateTests("T6");
+    new NCCumberlandCountyParserTest().generateTests("T7");
   }
 }
