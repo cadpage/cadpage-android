@@ -12,11 +12,6 @@ public class PAChesterCountyAParserTest extends BaseParserTest {
     setParser(new PAChesterCountyAParser(), "CHESTER COUNTY", "PA");
   }
   
-  @Before
-  public void setup() {
-    setParser(new PAChesterCountyParser());
-  }
-  
   @Test
   public void testParser() {
     
