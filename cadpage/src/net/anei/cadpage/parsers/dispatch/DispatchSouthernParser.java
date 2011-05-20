@@ -9,10 +9,10 @@ import net.anei.cadpage.parsers.SmartAddressParser;
 /*
 Southern Software CAD
 
-Jefferson County, TN (not yet implemented)
+Jefferson County, TN 
 DISPATCH:1718 BROOKLINE CT JEFFERSON CITY 2011-611597 22:43:08  BREATHING DIFFICULTY
 
-Jackson County, NC (not yet implemented)
+Jackson County, NC 
 Bill:9783 CHARLEYS CREEK RD TUCKASEGEE MDL 26A03 2011009480 22:20:01 SICK PERSON (SPECIFIC DIAGNOSIS) CALLER ADV SHE HAD HEART SURGERY A LITTLE WHILE AGO AND HER
 
 Brunswick County, NC
