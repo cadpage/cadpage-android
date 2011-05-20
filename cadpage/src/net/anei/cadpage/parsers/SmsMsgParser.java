@@ -337,7 +337,7 @@ public abstract class SmsMsgParser {
   * @param addressLine address line to be parsed
   * @param data message info object to be filled
   */
- protected static void parseAddress(String addressLine, SmsMsgInfo.Data data) {
+ protected void parseAddress(String addressLine, SmsMsgInfo.Data data) {
    parseAddress(addressLine, data, false); 
  }
 
