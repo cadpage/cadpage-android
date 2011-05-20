@@ -17,12 +17,12 @@ android:layout_height="wrap_content">
     
 
 
- <ImageView android:id="@+id/imagebutton"
+ <ImageView android:id="@+id/widget_button_cadpage"
   android:layout_width="fill_parent"
-  android:layout_height="wrap_content" android:background="@drawable/cadpage_widget_logo" android:clickable="true"/>
-  <ImageView android:id="@+id/imagebutton"
+  android:layout_height="wrap_content" android:src="@drawable/cadpage_widget_logo" android:clickable="true" android:cropToPadding="true" />
+  <ImageView android:id="@+id/widget_button_notification"
   android:layout_width="wrap_content"
-  android:layout_height="wrap_content" android:background="@drawable/cadpage_widget_bell"/>
+  android:layout_height="wrap_content" android:src="@drawable/cadpage_widget_bell"/>
  
 </LinearLayout>
 </LinearLayout>
