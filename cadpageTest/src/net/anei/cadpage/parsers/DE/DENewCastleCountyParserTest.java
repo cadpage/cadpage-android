@@ -43,7 +43,7 @@ public class DENewCastleCountyParserTest extends BaseParserTest {
     doTest("T4",
         "[FB] F00 08:06 1 - T:55B2 (L1*ELECTRICAL HAZARD-WIRES DWN) L:ELGIN LA~SHIPLEY RD ,QB *OAK LANE MANOR - X: DESC: WIRES DOWN.?!?!",
         "CALL:55B2 (L1*ELECTRICAL HAZARD-WIRES DWN)",
-        "ADDR:ELGIN LA & SHIPLEY RD",
+        "ADDR:ELGIN LN & SHIPLEY RD",
         "PLACE:OAK LANE MANOR",
         "INFO:WIRES DOWN.?!?!");
 
@@ -86,12 +86,97 @@ public class DENewCastleCountyParserTest extends BaseParserTest {
         "CALL:52B1G (L1*RES FIRE ALARM~GENERAL ALAR)",
         "ADDR:401 CAMPBELL RD",
         "PLACE:GREENVILLE",
-        "X:KENNETT PK ~ MINKER CT : afa.?!?!");
-   
+        "X:KENNETT PK ~ MINKER CT",
+        "INFO:afa.?!?!");
+
+    doTest("T10",
+        "23:34T:69D5 (L3*MULTI-RESIDENTIAL FIRE) L:100 ORCHARD LA #1 ,LU *HOLLY OAK - X:WALNUT ST ~ RIDGE RD",
+        "CALL:69D5 (L3*MULTI-RESIDENTIAL FIRE)",
+        "ADDR:100 ORCHARD LN",
+        "PLACE:HOLLY OAK",
+        "X:WALNUT ST ~ RIDGE RD",
+        "APT:1");
+
+    doTest("T11",
+        "17:33T:69D5 (L3*MULTI-RESIDENTIAL FIRE) L:301 HARBOR DR #10 ,ZY *WATER VIEW COURT APTS - X: high xst: GRUBBS LANDING RD : GREASE FIRE.",
+        "CALL:69D5 (L3*MULTI-RESIDENTIAL FIRE)",
+        "ADDR:301 HARBOR DR",
+        "PLACE:WATER VIEW COURT APTS",
+        "X:high xst: GRUBBS LANDING RD",
+        "INFO:GREASE FIRE.",
+        "APT:10");
+
+    doTest("T12",
+        "21:43T:M29B1 (MVC) L:CONCORD PK~MT LEBANON RD ,VE *TALLEYVILLE - :—àDSC:MVC—! PAT:1 SEX:Female AGE:25Years CON:Y BRE:Y",
+        "CALL:M29B1 (MVC)",
+        "ADDR:CONCORD PK & MT LEBANON RD",
+        "PLACE:TALLEYVILLE",
+        "INFO:—àDSC:MVC—! PAT:1 SEX:Female AGE:25Years CON:Y BRE:Y");
+
+    doTest("T13",
+        "15:50T:52B1G (L1*RES FIRE ALARM~GENERAL ALAR) L:401 CAMPBELL RD ,KC *GREENVILLE - X:KENNETT PK ~ MINKER CT : afa.",
+        "CALL:52B1G (L1*RES FIRE ALARM~GENERAL ALAR)",
+        "ADDR:401 CAMPBELL RD",
+        "PLACE:GREENVILLE",
+        "X:KENNETT PK ~ MINKER CT",
+        "INFO:afa.");
+
+    doTest("T14",
+        "13:58T:52B1G (L1*RES FIRE ALARM~GENERAL ALAR) L:102 PONDS LA ,PNGR *PONDS OF GREENVILLE - X:MONTCHANIN RD ~ DEAD-END : afa",
+        "CALL:52B1G (L1*RES FIRE ALARM~GENERAL ALAR)",
+        "ADDR:102 PONDS LN",
+        "PLACE:PONDS OF GREENVILLE",
+        "X:MONTCHANIN RD ~ DEAD-END",
+        "INFO:afa");
+
+    doTest("T15",
+        "22:31T:M29D5 (MVC--NOT ALERT) L:CONCORD PK~INTERSTATE 95 ,HU06 - LI:FROM 202 ONTO 95 SOUTH - :—àDSC:MVC—! PAT:1 SEX:Male AGE:25Years CON:Y BRE:Y",
+        "CALL:M29D5 (MVC--NOT ALERT)",
+        "ADDR:CONCORD PK & INTERSTATE 95",
+        "PLACE:- LI:FROM 202 ONTO 95 SOUTH",
+        "INFO:—àDSC:MVC—! PAT:1 SEX:Male AGE:25Years CON:Y BRE:Y");
+
+    doTest("T16",
+        "09:02T:69D6 (L3*RESIDENTIAL FIRE) L:15 GLENROCK DR ,R5 *RADNOR GREEN - X:BENNING RD ~ PENNSYLVANIA AV : fire",
+        "CALL:69D6 (L3*RESIDENTIAL FIRE)",
+        "ADDR:15 GLENROCK DR",
+        "PLACE:RADNOR GREEN",
+        "X:BENNING RD ~ PENNSYLVANIA AV",
+        "INFO:fire");
+
+    doTest("T17",
+        "19:06T:52C3G (L1*COMMERCIAL FIRE ALARM) L:1001 ROCKLAND RD ,HU06 -- DUPONT CC GOLF COU - LI:EQUIPMENT CENTER - X:BLACK GATES RD ~ COUNTRY CLUB DR",
+        "CALL:52C3G (L1*COMMERCIAL FIRE ALARM)",
+        "ADDR:1001 ROCKLAND RD",
+        "PLACE:DUPONT CC GOLF COU - LI:EQUIPMENT CENTER",
+        "X:BLACK GATES RD ~ COUNTRY CLUB DR");
+
+    doTest("T18",
+        "03:51T:55C1 (L1*ELECTRICAL HAZ W~NEAR WATER) L:112 BUCK RD ,HU07 - LI:IN FRONT OF ABV - X:ARDLEIGH DR ~ GREENOCK DR : transformer",
+        "CALL:55C1 (L1*ELECTRICAL HAZ W~NEAR WATER)",
+        "ADDR:112 BUCK RD",
+        "PLACE:- LI:IN FRONT OF ABV",
+        "X:ARDLEIGH DR ~ GREENOCK DR",
+        "INFO:transformer");
+
+    doTest("T19",
+        "05:26T:71B1 (L1*VEH-FIRE) L:CONCORD PK~PIERCE RD ,GD *DEERHURST - X: : vehicle on fire",
+        "CALL:71B1 (L1*VEH-FIRE)",
+        "ADDR:CONCORD PK & PIERCE RD",
+        "PLACE:DEERHURST",
+        "INFO:vehicle on fire");
+
+    doTest("T20",
+        "21:42T:M29D2M (PEDESTRIAN STRUCK) L:5350 BRANDYWINE PY ,BRTC -- CHRISTMAS TREE SHO high xst: NAAMANS RD *BRANDYWINE TOWNE CENTER - :—àDSC:SUBJ STRUCK—! PAT:1 SEX:Female AGE:30Years CON:Y BRE:Y",
+        "CALL:M29D2M (PEDESTRIAN STRUCK)",
+        "ADDR:5350 BRANDYWINE PY",
+        "PLACE:CHRISTMAS TREE SHO high xst: NAAMANS RD *BRANDYWINE TOWNE CENTER",
+        "INFO:—àDSC:SUBJ STRUCK—! PAT:1 SEX:Female AGE:30Years CON:Y BRE:Y");
+  
   }
   
   public static void main(String[] args) {
-    new DENewCastleCountyParserTest().generateTests("T9");
+    new DENewCastleCountyParserTest().generateTests("T10");
   }
 }
     		
