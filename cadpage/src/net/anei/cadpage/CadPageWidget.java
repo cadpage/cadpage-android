@@ -1,12 +1,10 @@
 package net.anei.cadpage;
 
-import android.app.Service;
 import android.appwidget.AppWidgetManager;
 import android.appwidget.AppWidgetProvider;
 import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
-import android.os.IBinder;
 import android.widget.RemoteViews;
 
 public class CadPageWidget extends AppWidgetProvider {
@@ -23,7 +21,6 @@ public class CadPageWidget extends AppWidgetProvider {
           for (int i=0;i <N ; i++) {
             int appWidgetId = appWidgetIds[i];
             RemoteViews views = new RemoteViews(context.getPackageName(),R.layout.widget);
-            views.setTextViewText(R.id.TextView02, "ON");
             appWidgetManager.updateAppWidget(appWidgetId, views);
           }
     }
