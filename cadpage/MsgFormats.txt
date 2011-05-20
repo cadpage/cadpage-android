@@ -1882,6 +1882,8 @@ El Dorado County, CA
 Contact: Ken Pauley <ken@pauley.org>
 Sender: AEUCAD@fire.ca.gov
 15-May-2011/16:10:27: HAZ, ELECTRICAL: Inc# 010021: 5537 MORGAN RANCH LOOP ,GEORGETOWN  GEOCHF GEOENG M61 61; ; X: -120 50.5096  Y: 38 54.859
+(CAD Page) 19-May-2011/12:37:08: MEDICAL: Inc# 010306: 6530 WENTWORTH SPRINGS RD ,GEORGETOWN (GEORGETOWN ELEMENTARY SCHOOL) GEOCHF GEOENG M89 61; ; X: -120 49.84
+(CAD Page) 17-May-2011/01:52:37: MED, TRAFFIC COLLISION: Inc# 010121: 4800 BLACK OAK MINE RD / 4702 MARSHALL RD ,GARDEN_VALLEY  GRVCHF E2772 E251N M61 51 GEOENGN
 **********************************************************
 Ray County, MO
 Contact: "Chief O'Dell" <leeodell@woodheightsfire.com>
@@ -1933,7 +1935,6 @@ Body: 1 of 2\nFRM:paging@minquas.org\nSUBJ:21 WILLIAMS WY ,39\nMSG:EMOTIONAL DIS
 Contact: Sergio Ora <skip513@gmail.com>
 Sender: 47dispatch@gmail.com
 FRM:47dispatch@gmail.com\nMSG:TSOULES SWEENEY AND MARTIN--610-423-4200*ALARM - FIRE **29 DOWLIN FORGE RD*AFA--HEAT DETECTOR--ATN*UWCHLN
-**********************************************************
 **********************************************************
 ************  READY TO ROLL ******************************
 **********************************************************
@@ -2047,3 +2048,21 @@ GLFD - CF/13375 TYP: COMMERC FIRE ALARM. AD: 2720 COUNTRY CLUB RD LOC: PARK PLAC
 GLFD - CF/13440 TYP: FIRE ALARM(RESDENTL) AD: 200 JOHNSON LAKE RD LOC: MURF/RESD/5831013 CMT1: <<< SEND GLENDALE AND PACOLET ON ALL STRUCTURE FIRES &
 GLFD - CF/09993 TYP: MVA W/INJURY..... AD: CLIFTON GLENDALE RD&GLENDALE A CMT1: <<< SEND GLENDALE AND PACOLET ON ALL STRUCTURE FIRES & ALARMS >>> CMT2
 GLFD - CF/10647 TYP: BRUSH FIRE......... AD: 170 FRETWELL RD CMT1: <<< SEND GLENDALE AND PACOLET ON ALL STRUCTURE FIRES & ALARMS >>> CMT2: <<< BRUSH,
+**********************************************************
+Wilson County, NC
+Contact: Lori OBriant <lobriant@gmail.com>
+Sender: 9300104N
+
+The CAD number associated with the call (1100831), the EMD code (06D02),
+what the call is (BREATHING PROBLEMS), the address (5033 US 264A E), the
+district associated with the CAD for assigning units (2C), cross streets for
+address (RANCH FARM CR; HOLDERS CROSS RD) and the rest of the page is mostly
+what is in the notes field of the call in CAD.  Most of the calls are
+processed this way.
+
+CAD:11000831;06D02;BREATHING PROBLEMS;5036 US 264A E;2C;RANCH FARM CT;HOLDENS CROSS RD;[Medical Priority Info] Key Questions Complete RESPONSE:
+CAD:OUTSIDE FIRE - SMALL;5047 SAWDUST RD;4C;LASSITER MILL RD;TARTTS MILL RD
+CAD:11000827;69D10;STRUCTURE FIRE 1;4659 EVANSDALE RD;5B;OLD STANTONSBURG RD;CASTLEWOOD LN;403 enroute [05/19/11 13:53:19 DPITTMAN] [Fire Priority Info] Key Que
+CAD:STRUCTURE FIRE 1;4659 EVANSDALE RD;5B;OLD STANTONSBURG RD;CASTLEWOOD LN;291-5847 [05/19/11 13:51:05 SBATTS]
+CAD:11000827;69D10;STRUCTURE FIRE 1;4659 EVANSDALE RD;5B;OLD STANTONSBURG RD;CASTLEWOOD LN;403 enroute [05/19/11 13:53:19 DPITTMAN] [Fire Priority Info] Key Que
+CAD:11000831;06D02;BREATHING PROBLEMS;5036 US 264A E;2C;RANCH FARM CT;HOLDENS CROSS RD;[Medical Priority Info] Key Questions Complete RESPONSE: MEDIC & FR RESPO
