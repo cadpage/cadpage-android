@@ -236,10 +236,14 @@ public class SmsMsgInfo {
   private static final Pattern AV_PTN = Pattern.compile("\\bAV\\b");
   private static final Pattern HW_PTN = Pattern.compile("\\bHW\\b");
   private static final Pattern STH_PTN = Pattern.compile("\\bSTH\\b");
+  private static final Pattern PK_PTN = Pattern.compile("\\bPK\\b");
+  private static final Pattern PW_PTN = Pattern.compile("\\bPW\\b");
   private String cleanStreetSuffix(String sAddr) {
     sAddr = AV_PTN.matcher(sAddr).replaceAll("AVE");
     sAddr = HW_PTN.matcher(sAddr).replaceAll("HWY");
     sAddr = STH_PTN.matcher(sAddr).replaceAll("ST");
+    sAddr = PK_PTN.matcher(sAddr).replaceAll("PIKE");
+    sAddr = PW_PTN.matcher(sAddr).replaceAll("PKWY");
     return sAddr;
   }
 
