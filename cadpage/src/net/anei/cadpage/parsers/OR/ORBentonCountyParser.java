@@ -1,6 +1,8 @@
 package net.anei.cadpage.parsers.OR;
 
 import java.util.Properties;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import net.anei.cadpage.SmsMsgInfo.Data;
 import net.anei.cadpage.parsers.SmsMsgParser;
@@ -15,6 +17,8 @@ Sender: alerts@corvallis.ealertgov.com
 */
 
 public class ORBentonCountyParser extends SmsMsgParser {
+  
+  private static final Pattern ADDRESS_PTN = Pattern.compile("(\\d+) *(.*)");
   
   public ORBentonCountyParser() {
     super("BENTON COUNTY", "OR");
@@ -49,6 +53,18 @@ public class ORBentonCountyParser extends SmsMsgParser {
     data.strCross=props.getProperty("X", "");
     data.strMap=props.getProperty("MAP", "");
     data.strCallId = props.getProperty("CFS", "");
+    
+    // Now for some special fixes to work around Dispatch map issues
+    if (data.strCity.equals("PHILOMATH")) {
+      data.strAddress = data.strAddress.replace("MELVILL CRESCENT AV","MELVILL CRESCENT");
+      if (data.strAddress.contains("BEAVER CREEK RD")) {
+        Matcher match = ADDRESS_PTN.matcher(data.strAddress);
+        if (match.matches()) {
+          if (Integer.parseInt(match.group(1)) >= 29397) data.strCity = "CORVALLIS";
+        }
+      }
+    }
+    
     
     return true;
   }
