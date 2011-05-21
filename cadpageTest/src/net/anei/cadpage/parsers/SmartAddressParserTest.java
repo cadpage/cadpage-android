@@ -516,6 +516,18 @@ public class SmartAddressParserTest extends BaseParserTest {
         "ADDR:N KENSBURG ISLAND RD");
   }
   
+  @Test
+  public void testNotAddressTokens() {
+    doTest(CALL, "CALL 1234 () RD",
+        "CALL:CALL 1234 () RD");
+  doTest(CALL, "N () BLACK DR",
+        "CALL:N ()",
+        "ADDR:BLACK DR");
+  doTest(CALL, "CALL N JOHNS HWY & E () ST",
+        "CALL:CALL",
+        "ADDR:N JOHNS HWY");
+  }
+  
   @Override
   public void testBadMsg() {
   }

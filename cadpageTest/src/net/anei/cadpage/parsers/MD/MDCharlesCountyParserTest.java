@@ -228,11 +228,49 @@ public class MDCharlesCountyParserTest extends BaseParserTest {
         "MAP:36 G11",
         "INFO:ACCIDENT IS ON ROCK PT RD IAO SWAN PT RD, UNKNOWN INJURIES, SINGLE VEH INTO TELEPHONE POLE E1107[Class 1,2 & 3 days] ROCK POINT RD / DELOZIER FARM RD 34 A13 CALLER ADVISED FIRE IN FIELD SOMEONE IS TRYING TO PUT IT OUT",
         "ID:F110710003");
-   
+
+    doTest("T8",
+        "STRUC, ODOR OF SMOKE - NO FIRE, M/F DWELLING, TOWNHOUSE, APARTMENT, COMMERCIAL BLDG, MULTI FAMILY HOUSE, BUILDING KG COUNTY, 16257 DALGREN RD",
+        "CALL:STRUC, ODOR OF SMOKE - NO FIRE, M/F DWELLING, TOWNHOUSE, APARTMENT, COMMERCIAL BLDG, MULTI FAMILY HOUSE, BUILDING KG COUNTY",
+        "ADDR:16257 DALGREN RD");
+
+    doTest("T9",
+        "BRUSH, WOODS, FIELD FIRE (Class 1,2 & 3 days) CHARLES ST / COOKSEY RD 27 E1 GRASS ON FIRE  F111260014 this is donnie from Charles county md",
+        "CALL:BRUSH, WOODS, FIELD FIRE (Class 1, 2 & 3 days)",
+        "ADDR:CHARLES ST & COOKSEY RD",
+        "MAP:27 E1",
+        "INFO:GRASS ON FIRE",
+        "ID:F111260014");
+
+    doTest("T10",
+        "10-50 PI, EMS, BLS, 29A FAULKNER RD / CRAIN HWY 26 D8 19 year old, Female, Conscious, Breathing. Traffic / Transportation Incidents. Unknown sta",
+        "CALL:10-50 PI",
+        "UNIT:EMS, BLS, 29A",
+        "ADDR:FAULKNER RD & CRAIN HWY",
+        "MAP:26 D8",
+        "INFO:19 year old, Female, Conscious, Breathing. Traffic / Transportation Incidents. Unknown sta");
+
+    doTest("T11",
+        "BRUSH, WOODS, FIELD FIRE (Class 1,2 & 3 days) CHARLES ST / COOKSEY RD 27 E1 GRASS ON FIRE POSSIBLY WIRES DOWN F111260014 1107782 16:49",
+        "CALL:BRUSH, WOODS, FIELD FIRE (Class 1, 2 & 3 days)",
+        "ADDR:CHARLES ST & COOKSEY RD",
+        "MAP:27 E1",
+        "INFO:GRASS ON FIRE POSSIBLY WIRES DOWN",
+        "ID:F111260014");
+
+    doTest("T12",
+        "FILL IN, MISCELLANEOUS TRANSFER 911 WASHINGTON AVE, STATION 1 17 E3-E4 ENGINE TO STATION 1 F111300021 1108052 19:50",
+        "CALL:FILL IN, MISCELLANEOUS TRANSFER",
+        "ADDR:911 WASHINGTON AVE",
+        "PLACE:STATION 1",
+        "MAP:17 E3-E4",
+        "INFO:ENGINE TO STATION 1",
+        "ID:F111300021");
+ 
   }
     
   public static void main(String[] args) {
-    new MDCharlesCountyParserTest().generateTests("T2", "CALL UNIT ADDR PLACE CODE MAP INFO ID");
+    new MDCharlesCountyParserTest().generateTests("T8", "CALL UNIT ADDR PLACE CODE MAP INFO ID");
   }
 
 }

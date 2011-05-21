@@ -79,5 +79,20 @@ public class MDHarfordParserTest extends BaseParserTest {
         "NAME:NOT ENTERED",
         "ID:2010-000019169");
 
+    doTest("T7",
+        "(HCCAD) [!] EOC:E04 HEMM >HEMORRAGE/LACERATION 4324 HAMPTON HALL CT XS: DEAD END BELCAMP KOWALCHEK,JOHN BOX: 402 Cad: 2011-0000090313",
+        "UNIT:E04",
+        "CALL:HEMORRAGE/LACERATION",
+        "ADDR:4324 HAMPTON HALL CT",
+        "X:DEAD END",
+        "CITY:BELCAMP",
+        "NAME:KOWALCHEK,JOHN",
+        "BOX:402",
+        "ID:2011-0000090313");
+
+  }
+  
+  public static void main(String[] args) {
+    new MDHarfordParserTest().generateTests("T7", "UNIT CALL ADDR X CITY NAME BOX ID");
   }
 }

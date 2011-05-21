@@ -57,10 +57,18 @@ public class NCRowanCountyParserTest extends BaseParserTest {
         "CALL:RFD COMMAND ESTABLISHED",
         "ADDR:E NC 152 HWY & S I 85",
         "CITY:CHINA GROVE");
+
+    doTest("T7",
+        "CAD:STRUCTURE FIRE;625 SIDES RD;GOLD KNOB RD;GOLD KNOB RD;SALS;7106;RFG1",
+        "CALL:STRUCTURE FIRE",
+        "ADDR:625 SIDES RD",
+        "X:GOLD KNOB RD & GOLD KNOB RD",
+        "CITY:SALISBURY",
+        "INFO:7106 / RFG1");
   }
   
 
   public static void main(String[] args) {
-    new NCRowanCountyParserTest().generateTests("T1");
+    new NCRowanCountyParserTest().generateTests("T8");
   }
 }
