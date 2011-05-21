@@ -17,6 +17,12 @@ Under box number, the N in this case actually represents a 10## box. Also notice
 [!] EOC:F03 BUILD >BUILDING FIRE 21 EASTERN AVE XS: S MAIN ST BEL AIR LEBRUN,MARLEEN BOX: 302 Cad: 2010-0000195539
 
 Subject:HCCAD\n[!] EOC:F03 WIRES >WIRES/POLE SHAWNEE DR&WALTERS MILL RD XS: WALTERS MILL RD FOREST HILL NOT ENTERED Cad: 2010-000019169
+
+Contact: Karen Zeiler <kmz1176@gmail.com>
+Sender: rc.391@c-msg.net
+(HCCAD) [!] EOC:E04 HEMM >HEMORRAGE/LACERATION 4324 HAMPTON HALL CT XS: DEAD END BELCAMP KOWALCHEK,JOHN BOX: 402 Cad: 2011-0000090313
+
+
  */
 public class MDHarfordParser extends DispatchBParser {
   

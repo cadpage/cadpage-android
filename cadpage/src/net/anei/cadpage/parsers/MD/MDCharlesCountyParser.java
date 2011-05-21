@@ -48,6 +48,13 @@ FILL IN, MISCELLANEOUS TRANSFER 9765 BEL ALTON NEWTOWN RD, STATION 10 26 D6-F4 F
 DETACHED SHED / GARAGE FIRE 10855 CHARLES ST, BURCHS GARAGE 17 K12 OUT OF CONTROL BRUSH FIRE..DEPUTY FLICK ON SCENE F111180002 1107249 06:00
 10-50 UNDETERMINED, EMS, BLS 29A SWAN POINT RD / ROCK PT RD 36 G11 ACCIDENT IS ON ROCK PT RD IAO SWAN PT RD, UNKNOWN INJURIES, SINGLE VEH INTO TELEPHONE POLE E1107[Class 1,2 & 3 days] ROCK POINT RD / DELOZIER FARM RD 34 A13 CALLER ADVISED FIRE IN FIELD SOMEONE IS TRYING TO PUT IT OUT F110710003 11044
 
+Contact: Donald simms <fire_freak74@yahoo.com>, 2403461358@vtext.com
+STRUC, ODOR OF SMOKE - NO FIRE, M/F DWELLING, TOWNHOUSE, APARTMENT, COMMERCIAL BLDG, MULTI FAMILY HOUSE, BUILDING KG COUNTY, 16257 DALGREN RD
+BRUSH, WOODS, FIELD FIRE (Class 1,2 & 3 days) CHARLES ST / COOKSEY RD 27 E1 GRASS ON FIRE  F111260014 this is donnie from Charles county md
+10-50 PI, EMS, BLS, 29A FAULKNER RD / CRAIN HWY 26 D8 19 year old, Female, Conscious, Breathing. Traffic / Transportation Incidents. Unknown sta
+BRUSH, WOODS, FIELD FIRE (Class 1,2 & 3 days) CHARLES ST / COOKSEY RD 27 E1 GRASS ON FIRE POSSIBLY WIRES DOWN F111260014 1107782 16:49 
+FILL IN, MISCELLANEOUS TRANSFER 911 WASHINGTON AVE, STATION 1 17 E3-E4 ENGINE TO STATION 1 F111300021 1108052 19:50
+
  */
 
 public class MDCharlesCountyParser extends SmartAddressParser {
@@ -165,6 +172,7 @@ public class MDCharlesCountyParser extends SmartAddressParser {
       // Otherwise we have to use the smart parser to separate out what we didn't get
       int flags = (mapSt >= 0 ? FLAG_ANCHOR_END : 0);
       parseAddress(start, flags, body, data);
+      good = (getStatus() > 0);
 
       if (data.strCall.endsWith(",")) data.strCall = data.strCall.substring(0, data.strCall.length()-1).trim();
       

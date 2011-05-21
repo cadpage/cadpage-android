@@ -9,7 +9,9 @@
     <item>dogsled4@comcast.net</item>
     <item>ertaylor@embarqmail.com</item>
     <item>ertaylor@embarqmail.com</item>
+    <item>firediver11@gmail.com</item>
     <item>fireguy2emt@comcast.net</item>
+    <item>hap602@gmail.com</item>
     <item>heyblue@knology.net</item>
     <item>heyblue17@gmail.com</item>
     <item>jd.roberson@gmail.com</item>
@@ -18,8 +20,13 @@
     <item>motovationcycles@gmail.com</item><!-- dan@motovationcycles.com -->
     <item>richard.lieder@ccvfd.com</item>
     <item>sstone1@ymail.com</item>
+    <item>tourdedowd@aol.com</item>
     <item>treyamccoy@gmail.com</item>
     <item>very.orange@gmail.com</item>
+  </string-array>
+  
+  <string-array name="paid_2011">
+    <item>joscwy@gmail.com</item><!-- jwylie@fuse.net -->
   </string-array>
 </resources>
   

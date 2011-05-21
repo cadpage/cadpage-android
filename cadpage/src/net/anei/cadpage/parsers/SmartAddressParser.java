@@ -120,6 +120,9 @@ public abstract class SmartAddressParser extends SmsMsgParser {
   // Bitmask bit indicating token is an ambiguous road suffix
   private static final int ID_AMBIG_ROAD_SFX = 0x10000;
   
+  // Bitmask bit indicatign token cannot be part of an address
+  private static final int ID_NOT_ADDRESS = 0x20000;
+  
   // Bitmask indicating dictionary word is either a route number prefix or a
   // route prefix extender
   private static final int ID_ROUTE_PFX = ID_ROUTE_PFX_PFX | ID_ROUTE_PFX_EXT;
@@ -232,6 +235,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
   private String[] tokens;
   private int[] tokenType;
   private int lastCity = -1;
+  private int startNdx = 0;
   
   // Have to save last result for backward compatibility with some calls
   private Result lastResult = null;
@@ -478,7 +482,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     // Exception to exception, CO is a valid route prefix, but it could also
     // be an abbreviation for COMPANY in a prefix name.  So we won't count it
     // as a route prefix
-    int sAddr = result.startAddress >= 0 ? result.startAddress : isFlagSet(FLAG_START_FLD_REQ) ? 1 : 0;
+    int sAddr = result.startAddress >= 0 ? result.startAddress : startNdx;
     int sEnd;
     boolean flexAt = isFlagSet(FLAG_AT_BOTH);
     boolean locked = false;
@@ -565,7 +569,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     // Then back up 2 places assuming the road consists of one token.
     // If the previous token is a direction, back up one more to include that.
     else {
-      int start = isFlagSet(FLAG_START_FLD_REQ) ? 1 : 0;
+      int start = startNdx;
       ndx = start;
       while (true) {
         if (flexAt && isType(ndx, ID_AT_MARKER)) atStart = true;
@@ -585,7 +589,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
           
           if (sAddr >= start && isRoadToken(sAddr)) break;
           
-          if (sAddr > start) { 
+          if (sAddr > start && !isType(sAddr-1,ID_NOT_ADDRESS)) { 
             sAddr--;
             if (isType(sAddr+1, ID_ROAD_SFX)) {
               if (sAddr > start && isType(sAddr, ID_AMBIG_ROAD_SFX)) sAddr--;
@@ -678,7 +682,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     // or number preceded by a <route-pfx>
     // or an ambiguous <road-sfx> followed by a second <road-sfx>
     else {
-      int start = isFlagSet(FLAG_START_FLD_REQ) ? 1 : 0;
+      int start = startNdx;
       ndx = start;
       int sAddr;
       while (true) {
@@ -695,7 +699,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
           break;
         }
         
-        if (isType(ndx, ID_ROAD_SFX)) {
+        if (isType(ndx, ID_ROAD_SFX) && !isType(sAddr, ID_NOT_ADDRESS)) {
           boolean startHwy = 
               (isType(ndx, ID_ROUTE_PFX) && isType(ndx+1, ID_NUMBER)) ||
               (isType(ndx, ID_ROUTE_PFX_PFX) && isType(ndx+1, ID_ROUTE_PFX_EXT) && isType(ndx+2, ID_NUMBER)) ||
@@ -850,6 +854,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
       int ndx = sAddr - j;
       if (ndx < start) break;
       if (tokens[ndx].equals("/")) break;
+      if (isType(ndx, ID_NOT_ADDRESS)) break;
       if (isType(ndx, ID_DIRECTION)) return sAddr-j; 
     }
     return sAddr;
@@ -883,6 +888,8 @@ public abstract class SmartAddressParser extends SmsMsgParser {
       
       // Only check for fun stuff if it isn't inside a pad field
       if (!padField) {
+        
+        if (isType(ndx, ID_NOT_ADDRESS)) return false;
         
         // Check for place name
         if (flexAt && stApt < 0 && stCross < 0) {
@@ -1014,6 +1021,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
       if (result.startPlace >= 0) {
         result.endAll++;
         for (int ndx = result.endAll; ndx < tokens.length; ndx++) {
+          if (isType(result.endAll, ID_NOT_ADDRESS)) break;
           if (isType(ndx, ID_APPT | ID_CROSS_STREET) ||
               isAptToken(ndx)) {
             result.endAll = ndx;
@@ -1080,6 +1088,8 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     int end;
     do {
       
+      if (isType(start, ID_NOT_ADDRESS)) return -1;
+      
       // A stand alone road token can terminate the road search, but it must
       // be the first thing in the search sequence
       if (isRoadToken(start)) {
@@ -1130,6 +1140,8 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     // Parse line into tokens and categorize each token
     // While we are doing this, identify the index of the last city
     // And see if we have a keyword flagging the start of the address
+    lastCity = -1;
+    startNdx = isFlagSet(FLAG_START_FLD_REQ) ? 1 : 0;
     result.tokens = tokens = address.split("\\s+");
     tokenType = new int[tokens.length];
     boolean flexAt = isFlagSet(FLAG_AT_PLACE | FLAG_AT_BOTH);
@@ -1152,8 +1164,17 @@ public abstract class SmartAddressParser extends SmsMsgParser {
   }
 
   // Identify token type
+  private static final Pattern BAD_CHARS = Pattern.compile("[\\(\\)\\[\\],]");
   private void setType(int ndx, boolean checkAt) {
     String token = tokens[ndx];
+    
+    // If token contains any illegal characters, flag it as a non-address token
+    // and bail out
+    if (BAD_CHARS.matcher(token).find()) {
+      tokenType[ndx] |= ID_NOT_ADDRESS;
+      if (isFlagSet(FLAG_ANCHOR_END)) startNdx = ndx+1;
+      return;
+    }
     
     // If token is longer than 1 char and starts with an @
     // Strip off the @ and add the ID_INCL_START_MARK flag
@@ -1194,6 +1215,9 @@ public abstract class SmartAddressParser extends SmsMsgParser {
   // Determine if token is a single standalone road token
   // such as I-234, or US50, or RT250NB :(
   private boolean isRoadToken(int ndx) {
+    
+    // If illegal char, answer is no
+    if (isType(ndx, ID_NOT_ADDRESS)) return false;
     
     // Get the string token
     if (ndx >= tokenType.length) return false; 
