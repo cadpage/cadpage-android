@@ -167,6 +167,7 @@
     <item>AL Alabama</item>
     <item>CA California</item>
     <item>CO Colorado</item>
+    <item>CT Connecticut</item>
     <item>DE Deleware</item>
     <item>FL Florida</item>
     <item>GA Georgia</item>
@@ -209,6 +210,7 @@
     <item>COLarimerCounty</item>
     <item>CONorthglennEMS</item>
     <item>COPuebloRFD</item>
+    <item>CTTollandCounty</item>
     <item>DEKentCounty</item>
     <item>DENewCastleCounty</item>
     <item>DESussexCounty</item>
@@ -395,6 +397,7 @@
     <item>Larimer County, CO</item>
     <item>Northglenn EMS, CO</item>
     <item>Pueblo RFD, CO</item>
+    <item>Tolland County, CT</item>
     <item>Kent County, DE</item>
     <item>New Castle, DE</item>
     <item>Sussex County, DE</item>
