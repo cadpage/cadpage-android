@@ -23,6 +23,10 @@ Subject:<CAD> - part 1 of 1\nRC:Run# 17970/602 BEECH ST/P-5 Local Transport/2ND 
 
 prvs=10834168ba=mailghost@mobilemedical.org (<CAD> - part 1 of 1) RC:Run# 24453/5186 FENTON/P-3 Downgrade  (No Lts/Sirens)//Overdose / Poisoning (Ingestion)/mundy twp // at kroger
 
+Contact: "jenmdawson@yahoo.com" <jenmdawson@yahoo.co 
+Sender: 6573
+<CAD> - part 1 of 1/ RC:Run# 34376/3300 PAULAN DR/P-1 Life Threatening Emergency//Chest Pain (Non-Traumatic)/72/F/ALS/BAY CITY///<Unknown>/20:04\n\n
+
  */
 
 
@@ -38,12 +42,21 @@ public class MIMobileMedicalResponseParser extends DispatchProQAParser {
   
   @Override
   public String getFilter() {
-    return "mailghost@mobilemedical.org";
+    return "mailghost@mobilemedical.org,6573";
   }
   
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
-    if (!subject.startsWith("<CAD>")) return false;
+    // dummy loop statement
+    do {
+      if (subject.startsWith("<CAD>")) break;
+      if (body.startsWith("<CAD> - ")) {
+        body = body.substring(8).trim();
+        break;
+      }
+      return false;
+    } while (false);
+    
     return super.parseMsg(body, data);
   }
 
