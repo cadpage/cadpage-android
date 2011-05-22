@@ -35,7 +35,7 @@ public class ORBentonCountyParserTest extends BaseParserTest {
     doTest("T3",
         "(Corvallis Alert) INC:UNKNOWN MEDICAL\nADD:504 MELVILL CRESCENT AV [PHILOMATH]\nAPT:\nCITY:PHILOMATH\nX:SUNSHINE AV\nMAP:550-385\nCFS:101710-223\nDIS:PHILOM",
         "CALL:UNKNOWN MEDICAL",
-        "ADDR:504 MELVILL CRESCENT AV",
+        "ADDR:504 MELVILL CRESCENT",
         "CITY:PHILOMATH",
         "X:SUNSHINE AV",
         "MAP:550-385",
