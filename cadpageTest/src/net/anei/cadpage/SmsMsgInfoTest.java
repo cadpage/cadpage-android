@@ -11,17 +11,20 @@ public class SmsMsgInfoTest {
   public static void classSetup() {
     new TestManagePreferences().setTestOverrideDefault(false);
   }
+  
+  @Test
+  public void testProblem() {
+    doMapTest("&", "RED RD & BLACK ST,KENBURG,XX", "RED RD&BLACK ST");
+  }
 
   @Test
   public void testGetMapAddress() {
-    
-    doMapTest("DR3", "345 XX 22,KENBURG,XX", "345 XX RT 22");
     
     doMapTest("PAArmstrongCounty", 
         "868 STATE 28,KENBURG,XX",
         "868 STATE ROUTE 28");
     
-    doMapTest("CLHS1", "BROADWAY &S 10TH ST,KENBURG,XX", 
+    doMapTest("CLHS1", "BROADWAY & S 10TH ST,KENBURG,XX", 
                        "1600 BROADWAY & 4500 S 10TH ST");
     doMapTest("CLHS2", "1000 S RT 50,KENBURG,XX", "1000 S RT 50");
     doMapTest("CLHS3", "US 150 & HWY 30,KENBURG,XX", "US 150 & HWY 30");
@@ -33,7 +36,7 @@ public class SmsMsgInfoTest {
     doMapTest("CR4", "PINE ST & MULBERY RD,KENBURG,XX", "PINE ST", "MULBERY RD/PINE ST");
     doMapTest("CR5", "PINE ST & MULBERY RD,KENBURG,XX", "PINE ST", "MULBERY RD & PINE ST");
     
-    doMapTest("CN1", "11TH AVE&18TH ST,KENBURG,XX", "11TH AVE&18TH ST");
+    doMapTest("CN1", "11TH AVE & 18TH ST,KENBURG,XX", "11TH AVE&18TH ST");
     doMapTest("CN2", "11 AVE & 18 ST,KENBURG,XX", "11 AVE & 18 ST");
     
     doMapTest("APT1", "144 MAIN ST,KENBURG,XX", "144 MAIN ST #14");
@@ -46,7 +49,7 @@ public class SmsMsgInfoTest {
     
     doMapTest("RT1", "ST 150 & HWY 12,KENBURG,XX", "ST150 & HWY12");
     doMapTest("RT2", "SAME XX 30 & XX 15 LAST,KENBURG,XX", "SAME XX30 & XX15 LAST");
-    doMapTest("RT3", "WE75&XX 10,KENBURG,XX", "WE75&XX10");
+    doMapTest("RT3", "WE75 & XX 10,KENBURG,XX", "WE75&XX10");
     
     doMapTest("DR1", "345 W US 30,KENBURG,XX", "345 W US RT 30");
     doMapTest("DR2", "345 w st 30,KENBURG,XX", "345 w st hwy 30");
@@ -61,8 +64,11 @@ public class SmsMsgInfoTest {
     
     doMapTest("AV", "150 BLACK AVE,KENBURG,XX", "150 BLACK AV");
     doMapTest("HW", "HWY 20,KENBURG,XX", "HW 20");
+    doMapTest("HY", "HWY 20,KENBURG,XX", "HY 20");
     
     doMapTest("STH", "ST 29 & 32,KENBURG,XX", "STH 29 & 32");
+    
+    doMapTest("&", "RED RD & BLACK ST,KENBURG,XX", "RED RD&BLACK ST");
   }
   
   private void doMapTest(String title, String result, String address) {
