@@ -94,9 +94,17 @@ public class MIMobileMedicalResponseParserTest extends BaseParserTest {
         "ADDR:3300 PAULAN DR",
         "CALL:P-1 Life Threatening Emergency",
         "INFO:Chest Pain (Non-Traumatic) / 72 / F / ALS / BAY CITY / <Unknown> / 20:04");
-  }
+
+    doTest("T12",
+        "<CAD> - part 1 of 1/ RC:Run# 34848/3375 BOY SCOUT RD/P-1 Life Threatening Emergency//Convulsions/Seizures/x Sherwood & Euclid // 35 F/ALS/BAY CITY///<Unkno",
+        "ID:34848",
+        "ADDR:3375 BOY SCOUT RD",
+        "CALL:P-1 Life Threatening Emergency",
+        "INFO:Convulsions / Seizures / 35 F / ALS / BAY CITY / <Unkno",
+        "X:Sherwood & Euclid");
+ }
   
   public static void main(String[] args) {
-    new MIMobileMedicalResponseParserTest().generateTests("T11");
+    new MIMobileMedicalResponseParserTest().generateTests("T12");
   }
 }

@@ -87,6 +87,6 @@ public class NCStanlyCountyParserTest extends BaseParserTest {
   
 
   public static void main(String[] args) {
-    new NCStanlyCountyParserTest().generateTests("T7");
+    new NCStanlyCountyParserTest().generateTests("T10");
   }
 }
