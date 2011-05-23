@@ -21,6 +21,9 @@ CAD:80-STRUCTURE ALARM/OLD CHARLOTTE RD/HARWOOD ST/ALB/SMOKE COMING FROM BARN ON
 CAD:80-STRUCTURE ALARM/1700 WOODHURST LN/ALB/BIRD RD/ANDERSON RD/manual activation [04/03/11 17:54:08 DSHAVER]
 CAD:80-DWELLING ALARM/601 EAST ST/ALB/N SEVENTH ST/N EIGHTH ST
 
+Contact: Chris Allan <nlcap2405@gmail.com>
+CAD:E13-DIABETIC PROBLEMS/40206 US 52 HWY N/NEW/AUSTIN RD/[Medical Priority Info] PROBLEM: diab prob # PATS: 1 AGE: 83 Years SEX: Male
+
 */
 
 public class NCStanlyCountyParser extends DispatchOSSIParser {
@@ -29,7 +32,8 @@ public class NCStanlyCountyParser extends DispatchOSSIParser {
       "ALB", "ALBEMARLE",
       "BAD", "BADIN",
       "LOC", "LOCUST",
-      "NOR","NORWOOD"
+      "NEW", "NEW LONDON",
+      "NOR", "NORWOOD"
   });
   
   public NCStanlyCountyParser() {
