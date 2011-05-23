@@ -190,6 +190,10 @@ public class SmsMsgInfo {
     sAddr = cleanHouseNumbers(sAddr);
     sAddr = cleanRoutes(sAddr);
     sAddr = cleanDoubleRoutes(sAddr);
+    
+    // Make sure & are surrounded by blanks
+    sAddr = sAddr.replaceAll(" *& *", " & ");
+    
     StringBuilder sb = new StringBuilder(sAddr);
     
     // If there wasn't an address number or intersection marker in address
@@ -238,7 +242,7 @@ public class SmsMsgInfo {
   
   // Clean up any street suffix abbreviations that Google isn't happy with
   private static final Pattern AV_PTN = Pattern.compile("\\bAV\\b");
-  private static final Pattern HW_PTN = Pattern.compile("\\bHW\\b");
+  private static final Pattern HW_PTN = Pattern.compile("\\bH[WY]\\b");
   private static final Pattern STH_PTN = Pattern.compile("\\bSTH\\b");
   private static final Pattern PK_PTN = Pattern.compile("\\bPK\\b");
   private static final Pattern PW_PTN = Pattern.compile("\\bPW\\b");

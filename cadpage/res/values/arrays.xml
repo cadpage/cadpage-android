@@ -203,6 +203,7 @@
     <item>GeneralDash</item>
     <item>ALLauderdaleCounty</item>
     <item>ALMadisonCounty</item>
+    <item>CAElDoradoCounty</item>
     <item>CAShastaCounty</item>
     <item>CASonomaCounty</item>
     <item>COAdamsCounty</item>
@@ -392,6 +393,7 @@
     <item>Generic (dash field separator)</item>
     <item>Lauderdale County, AL</item>
     <item>Madison County, AL</item>
+    <item>El Dorado County, CA</item>
     <item>Shasta County, CA</item>
     <item>Sonoma County, CA</item>
     <item>Adams County, CO</item>
