@@ -196,8 +196,12 @@ public class SmsMsgInfo {
     // try appending cross street info as as intersection
     if (!validAddress(sAddr)) {
       if (strCross.length() > 0) {
+        String sCross = strCross;
+        int pt = sCross.indexOf('/');
+        if (pt < 0) pt = sCross.indexOf('&');
+        if (pt >= 0) sCross = sCross.substring(0, pt).trim();
         sb.append(" & ");
-        sb.append(strCross);
+        sb.append(sCross);
       }
     
       // If that didn't work, lets hope a place name will be enough

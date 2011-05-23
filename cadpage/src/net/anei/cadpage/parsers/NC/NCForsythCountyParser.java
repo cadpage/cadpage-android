@@ -22,8 +22,7 @@ Location: 5825 POPPY SEED DR FC Nature: Brush Fire P:1  - default DISTRICT: F31 
 Location: 1800 SPRINGFIELD FARM CT CL Nature: Breathing Difficulty P:1  - BREATHING_DIFF DISTRICT: R11 X Str: SPRINGFIELD FARM RD/ CALLER NAME:
 Location: 4595 STYERS FERRY RD WS Nature: Sick/Unknown P:1  - default DISTRICT: R11 X Str: FOX RIDGE LN/REMINGTON DR CALLER NAME:
 Nature: Motor Vehicle Accident P:1  - default DISTRICT: R11 X Str: LEWISVILLE-CLEMMONS RD/REYNOLDS RD CALLER NAME:
-
-Location: NB 421 FC Nature: Motor Vehicle Accident P:1\2s- default DISTRICT: R13 X Str: SCOTT RD/SB 421 CALLER NAME: FCSD
+Location: NB 421 FC Nature: Motor Vehicle Accident P:1  - default DISTRICT: R13 X Str: SCOTT RD/SB 421 CALLER NAME: FCSD
 
 
  */
@@ -68,6 +67,7 @@ public class NCForsythCountyParser extends FieldProgramParser {
     return true;
   }
   
+  private static final Pattern FC_PTN = Pattern.compile("\\bFC\\b");
   private class MyAddressField extends AddressField {
     
     @Override
@@ -82,7 +82,14 @@ public class NCForsythCountyParser extends FieldProgramParser {
         data.strPlace = fld.substring(pt+1).trim();
         fld = fld.substring(0,pt).trim();
       }
+      
       super.parse(fld, data);
+      
+      // The use FC (Forsythe County) to indicate county roads,
+      // which neither the smart parser nor Google understand.
+      // so change them to CO. (we can't do this prior to the smart parse
+      // call because 'FC' is a legitimate city code.
+      data.strAddress = FC_PTN.matcher(data.strAddress).replaceAll("CO");
     }
   }
 
