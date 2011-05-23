@@ -5,10 +5,10 @@ import java.util.regex.Pattern;
 
 public class PatternTest {
 
-  private static final Pattern MID_ID_PAT = Pattern.compile(" :\\( *(\\d+) *\\) ");
+  private static final Pattern MID_ID_PAT = Pattern.compile("^([^ ]+):(\\d{8}):\\d\\d/\\d\\d/\\d\\d\\d\\d \\d\\d:\\d\\d:\\d\\d:");
   
   public static void main(String[] args) {
-    doTest("16327 W RIEKENA RD CO :(16300) W SMITHVILLE RD 72 YO MALE JST RELEASED FRM HOSP TODAY FRM BYPASS HAS AN1513,005 INCISION ON CHEST SERIOUS BLEEDING HAS SOAKED THRU TSHIRT1513,005 C/A/B OK RIGHT NOW");
+    doTest("EFD-FD:11051201:05/12/2011 15:44:57:FIRE ALARM: FRANKLI-CARING HOUSE PROJECTS / 18 BLOOMFIELD AVE");
   }
   
   private static void doTest(String test) {

@@ -81,10 +81,18 @@ public class NCForsythCountyParserTest extends BaseParserTest {
         "ADDR:LEWISVILLE-CLEMMONS RD & REYNOLDS RD",
         "CALL:Motor Vehicle Accident",
         "UNIT:R11");
+
+    doTest("T10",
+        "Location: NB 421 FC Nature: Motor Vehicle Accident P:1\2s- default DISTRICT: R13 X Str: SCOTT RD/SB 421 CALLER NAME: FCSD",
+        "ADDR:NB 421 FC",
+        "CALL:Motor Vehicle Accident",
+        "UNIT:R13",
+        "X:SCOTT RD/SB 421",
+        "NAME:FCSD");
  }
   
   public static void main(String[] args) {
-    new NCForsythCountyParserTest().generateTests("T9");
+    new NCForsythCountyParserTest().generateTests("T10");
   }
 }
 
