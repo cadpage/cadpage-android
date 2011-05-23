@@ -30,6 +30,8 @@ public class SmsMsgInfoTest {
     doMapTest("CR1", "1000 PINE ST,KENBURG,XX", "1000 PINE ST", "MULBERY RD");
     doMapTest("CR2", "PINE ST & BLACK ST,KENBURG,XX", "PINE ST & BLACK ST", "MULBERY RD");
     doMapTest("CR3", "PINE ST & MULBERY RD,KENBURG,XX", "PINE ST", "MULBERY RD");
+    doMapTest("CR4", "PINE ST & MULBERY RD,KENBURG,XX", "PINE ST", "MULBERY RD/PINE ST");
+    doMapTest("CR5", "PINE ST & MULBERY RD,KENBURG,XX", "PINE ST", "MULBERY RD & PINE ST");
     
     doMapTest("CN1", "11TH AVE&18TH ST,KENBURG,XX", "11TH AVE&18TH ST");
     doMapTest("CN2", "11 AVE & 18 ST,KENBURG,XX", "11 AVE & 18 ST");
