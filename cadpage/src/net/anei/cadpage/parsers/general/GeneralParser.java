@@ -36,7 +36,21 @@ public class GeneralParser extends SmartAddressParser {
    * @param delim Special delimiter
    */
   public GeneralParser(String delim) {
-    super("","");
+    this("", "", delim);
+  }
+  
+  /**
+   * This constructor specifies default city and state
+   * @param defCity default city
+   * @param defState default state
+   */
+  public GeneralParser(String defCity, String defState) {
+    this(defCity, defState, null);
+  }
+  
+  
+  public GeneralParser(String defCity, String defState, String delim) {
+    super(defCity, defState);
     
     // Set up delimiter pattern
     String delimPattern = DELIM_PATTERN_STR;
@@ -66,13 +80,26 @@ public class GeneralParser extends SmartAddressParser {
       keywordMap.put(keyword, type);
     }
   }
-
-  @Override
-  protected boolean parseMsg(String body, Data data) {
+  
+  /**
+   * Determine if message is a CAD page or not
+   * Can be overridden by subclasses that have a clue
+   * @param subject message subject
+   * @param body message body
+   * @return true if this is a CAD page
+   */
+  protected boolean isPageMsg(String subject, String body) {
     
     // Accept anything, but only if there is a valid sender filter
     if (! ManagePreferences.overrideFilter()) return false;
     if (ManagePreferences.filter().length() <= 1) return false;
+    return true;
+  }
+
+  @Override
+  protected boolean parseMsg(String subject, String body, Data data) {
+    
+    if (!isPageMsg(subject, body)) return false;
     
     // Starting with CAD: confuses things
     if (body.startsWith("CAD:")) body = body.substring(4).trim();

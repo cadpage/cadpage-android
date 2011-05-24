@@ -185,6 +185,7 @@
     <item>NY New York</item>
     <item>NC North Carolina</item>
     <item>OH Ohio</item>
+    <item>OK Oklahoma</item>
     <item>OR Oregon</item>
     <item>PA Pennsylvania</item>
     <item>SC South Carolina</item>
@@ -332,6 +333,7 @@
     <item>OHNECC</item>
     <item>OHSugarCreek</item>
     <item>OHXenia</item>
+    <item>OKTulsa</item>
     <item>ORBentonCounty</item>
     <item>ORCrookCounty</item>
     <item>ORDeschutesCounty</item>
@@ -522,6 +524,7 @@
     <item>NECC, OH</item>
     <item>SugarCreek Twns, OH</item>
     <item>Xenia Twns, OH</item>
+    <item>Tusla, OK</item>
     <item>Benton County, OR</item>
     <item>Crook County, OR</item>
     <item>Deschutes County, OR</item>
