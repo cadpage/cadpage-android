@@ -1,5 +1,7 @@
 package net.anei.cadpage.parsers.NC;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Properties;
 
 import net.anei.cadpage.SmsMsgInfo.Data;
@@ -26,7 +28,7 @@ CAD:E13-DIABETIC PROBLEMS/40206 US 52 HWY N/NEW/AUSTIN RD/[Medical Priority Info
 
 */
 
-public class NCStanlyCountyParser extends DispatchOSSIParser {
+public class NCStanleyCountyParser extends DispatchOSSIParser {
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "ALB", "ALBEMARLE",
@@ -36,9 +38,11 @@ public class NCStanlyCountyParser extends DispatchOSSIParser {
       "NOR", "NORWOOD"
   });
   
-  public NCStanlyCountyParser() {
-    super(CITY_CODES, "STANLY COUNTY", "NC",
-           "CALL CALL? ADDR ADDR? CITY X X? INFO+");
+  private List<String> addressList = new ArrayList<String>();
+  
+  public NCStanleyCountyParser() {
+    super(CITY_CODES, "STANLEY COUNTY", "NC",
+           "CALL ADDR/Z+? CITY! X X? INFO+");
     setDelimiter('/');
   }
   
@@ -47,25 +51,52 @@ public class NCStanlyCountyParser extends DispatchOSSIParser {
     return "CAD@sclg.gov";
   }
   
-  private class MyCallField extends CallField {
-    @Override
-    public void parse(String fld, Data data) {
-      data.strCall = append(data.strCall, "/", fld);
-    }
+  @Override
+  public boolean parseMsg(String subject, String body, Data data) {
+    boolean result = super.parseMsg(subject, body, data);
+    addressList.clear();
+    return result;
   }
   
+  // Things get complicated here, the address field just accumulates fields
+  // until we find a city field
   private class MyAddressField extends AddressField {
     @Override
     public void parse(String fld, Data data) {
-      String oldAddress = data.strAddress;
-      super.parse(fld, data);
-      data.strAddress = append(oldAddress, " & ", data.strAddress);
+      addressList.add(fld);
+    }
+  }
+  
+  // The city list is where we decide what to do with the address fields
+  private class MyCityField extends CityField {
+    @Override
+    public boolean checkParse(String fld, Data data) {
+      if (!super.checkParse(fld, data)) return false;
+      
+      // OK, we found address, now figure out what to do with the address
+      // If there are more than one address field and the last one is a simple
+      // naked road, then merge the last two fields together to form the
+      // address field.  If not, the last field is the only address field
+      int addrNdx = addressList.size()-1;
+      if (addrNdx < 0) abort();
+      String sAddr = addressList.get(addrNdx);
+      if (addrNdx > 0 && checkAddress(sAddr) == 1) {
+        sAddr = addressList.get(--addrNdx) + " & " + sAddr;
+      }
+      parseAddress(sAddr, data);
+      
+      // Any fields in front of the address field will be appended to the
+      // call description
+      for (int ii = 0; ii<addrNdx; ii++) {
+        data.strCall = append(data.strCall, "/", addressList.get(ii));
+      }
+      return true;
     }
   }
   
   @Override
   public Field getField(String name) {
-    if (name.equals("CALL")) return new MyCallField();
+    if (name.equals("CITY")) return new MyCityField();
     if (name.equals("ADDR")) return new MyAddressField();
     return super.getField(name);
   }
