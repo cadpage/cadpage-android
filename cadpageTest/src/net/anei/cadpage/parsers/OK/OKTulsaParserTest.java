@@ -8,7 +8,7 @@ import org.junit.Test;
 public class OKTulsaParserTest extends BaseParserTest {
   
   public OKTulsaParserTest() {
-    setParser(new OKTulsaParser(), "TULUSA", "OK");
+    setParser(new OKTulsaParser(), "TULSA", "OK");
   }
   
   @Test

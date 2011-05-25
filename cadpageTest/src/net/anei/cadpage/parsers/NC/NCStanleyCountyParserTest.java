@@ -5,10 +5,10 @@ import net.anei.cadpage.parsers.BaseParserTest;
 import org.junit.Test;
 
 
-public class NCStanlyCountyParserTest extends BaseParserTest {
+public class NCStanleyCountyParserTest extends BaseParserTest {
   
-  public NCStanlyCountyParserTest() {
-    setParser(new NCStanlyCountyParser(), "STANLY COUNTY", "NC");
+  public NCStanleyCountyParserTest() {
+    setParser(new NCStanleyCountyParser(), "STANLEY COUNTY", "NC");
   }
   
   @Test
@@ -64,7 +64,7 @@ public class NCStanlyCountyParserTest extends BaseParserTest {
     doTest("T7",
         "CAD:80-STRUCTURE ALARM/OLD CHARLOTTE RD/HARWOOD ST/ALB/SMOKE COMING FROM BARN ON OLD CHARLOTTE [04/03/11 17:44:15 BWHITLEY] B/T HARWOOD AND COBLE [04/03/11 17:",
         "CALL:80-STRUCTURE ALARM",
-        "ADDR:OLD CHARLOTTE RD & OLD CHARLOTTE RD & HARWOOD ST",
+        "ADDR:OLD CHARLOTTE RD & HARWOOD ST",
         "CITY:ALBEMARLE",
         "X:SMOKE COMING FROM BARN ON OLD CHARLOTTE",
         "INFO:B / T HARWOOD AND COBLE");
@@ -83,10 +83,18 @@ public class NCStanlyCountyParserTest extends BaseParserTest {
         "ADDR:601 EAST ST",
         "CITY:ALBEMARLE",
         "X:N SEVENTH ST & N EIGHTH ST");
+
+    doTest("T10",
+        "CAD:E13-DIABETIC PROBLEMS/40206 US 52 HWY N/NEW/AUSTIN RD/[Medical Priority Info] PROBLEM: diab prob # PATS: 1 AGE: 83 Years SEX: Male",
+        "CALL:E13-DIABETIC PROBLEMS",
+        "ADDR:40206 US 52 HWY N",
+        "CITY:NEW LONDON",
+        "X:AUSTIN RD",
+        "INFO:diab prob # PATS: 1 AGE: 83 Years SEX: Male");
   }
   
 
   public static void main(String[] args) {
-    new NCStanlyCountyParserTest().generateTests("T10");
+    new NCStanleyCountyParserTest().generateTests("T11");
   }
 }

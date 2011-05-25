@@ -13,15 +13,8 @@ public class SCCharlestonCountyParserTest extends BaseParserTest {
   }
   
   @Test
-  public void testProblems() {
-
-    doTest("T1",
-        "Medical Assist Charlie Respons 1605 Highway 41 X Street: JOE ROUSE RD/JOE ROUSE RD Op Channel: EMS OPS",
-        "CALL:Medical Assist Charlie Respons",
-        "ADDR:1605 Highway 41",
-        "X:JOE ROUSE RD/JOE ROUSE RD",
-        "INFO:EMS OPS");
-    
+  public void testBad() {
+    doBadTest("Dispatch Info) ANY MEMBER AVAILABLE TO ASSIST WITH THE SOCON BASEBALL TOURNAMENT TOMM CONTACT 619 AS SOON AS POSSIBLE. OPR#5");
   }
   
   @Test
