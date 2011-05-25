@@ -31,6 +31,14 @@ Contact:"sal234@nmfd-660.com" <sal234@nmfd-660.com>
 Sender: nmfd660@verizon.net
 *** 30 - RESCUE *** CIARDI 41 AMHERST DR CS: N WISCONSIN AVE  / HARRIET PL C-6 TOA: 18:23 05/12/11 2011-000368 3/18/30/38/52 Amherst Drive
 
+Contact: jmreeves@gmail.com
+*** 330 RESCUE - STROKE *** XYZ RESIDENCE 460 PIPING ROCK RD CS: RUSSET RD  - WELLWOOD RD N-4 TOA: 09:28 05-23-11 STATION 2 STATION 4 STATION 3 2011-000877
+*** 400 AUTO ACCIDENT *** WATCHTOWER LN & N JERUSALEM RD  WATCHTOWER LN CS: N JERUSALEM RD F-7 TOA: 08:53 05-23-11 STATION 2 STATION 4 STATION 1 2011-000876
+*** 630 INVESTIGATION-SMOKE EXT *** XYZ RESIDENCE 39 EDEN LN CS: ELM DR W  - ELM DR E K-3 TOA: 17:11 05-22-11 STATION 2 STATION 4 2011-000873
+*** 210 MAJOR-BLDG FIRE AUTO ALM *** UMBERTO'S PIZZA 1180 WANTAGH AVE CS: DUCKPOND DR  - JERUSALEM AVE H-11 TOA: 06:34 05-22-11 STATION 2 STATION 4 2011-000868
+
+
+
 */
 
 public class NYNassauCountyDParser extends FieldProgramParser {
@@ -63,11 +71,20 @@ public class NYNassauCountyDParser extends FieldProgramParser {
     return super.parseMsg(body, data);
   }
   
-  private class SpecField extends IdField {
+  private class SpecField extends InfoField {
+    
     @Override
     public void parse(String field, Data data) {
+      if (field.length() < 14) return;
+      field = field.substring(14).trim();
+      
       Matcher match = ID_PTN2.matcher(field);
-      if (match.find()) data.strCallId = match.group();
+      if (match.find()) {
+        data.strCallId = match.group(1);
+        field = field.substring(0,match.start()) + field.substring(match.end());
+        field = field.trim().replaceAll("  +", " ");
+      }
+      super.parse(field, data);
     }
   }
   

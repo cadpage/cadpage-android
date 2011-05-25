@@ -2002,7 +2002,7 @@ Contact: Chris <chrisdi9@aol.com>
 Sender: Dispatch@TomsRiver.org
 (Toms River Dispatch) TRFD\nAlarm Fire     \nENRT \n99 Route 37 W; CMC                      \n250  \nF2526 \nalert red on 3f
 
-**********************************************************
+
 **********************************************************
 **********************************************************
 **********************************************************
@@ -2017,7 +2017,6 @@ Deleware County, PA in progress
 Spartanburg County, SC in progress
 **********************************************************
 Wilson County, NC in progress
-**********************************************************
 **********************************************************
 **********************************************************
 Anderson County, TN
@@ -2052,3 +2051,21 @@ paging, and the guy doing the coding just made it different. If you can not
 make the 2 different pages work, I will edit the code to send the same page
 for all calls. Or if you feel it would be much easier for you, ill just go
 ahead and do it.
+**********************************************************
+Nassau County
+Contact: jmreeves@gmail.com
+*** 330 RESCUE - STROKE *** XYZ RESIDENCE 460 PIPING ROCK RD CS: RUSSET RD  - WELLWOOD RD N-4 TOA: 09:28 05-23-11 STATION 2 STATION 4 STATION 3 2011-000877
+*** 400 AUTO ACCIDENT *** WATCHTOWER LN & N JERUSALEM RD  WATCHTOWER LN CS: N JERUSALEM RD F-7 TOA: 08:53 05-23-11 STATION 2 STATION 4 STATION 1 2011-000876
+*** 630 INVESTIGATION-SMOKE EXT *** XYZ RESIDENCE 39 EDEN LN CS: ELM DR W  - ELM DR E K-3 TOA: 17:11 05-22-11 STATION 2 STATION 4 2011-000873
+*** 210 MAJOR-BLDG FIRE AUTO ALM *** UMBERTO'S PIZZA 1180 WANTAGH AVE CS: DUCKPOND DR  - JERUSALEM AVE H-11 TOA: 06:34 05-22-11 STATION 2 STATION 4 2011-000868
+
+There are some examples of our source texts. Residence names were replaced with XYZ for confidentiality reasons. 
+
+The format is as follows:
+1) Alarm Type: Leading *** Followed by an alarm code number and Description (Example: 400 AUTO ACCIDENT)finally trailed by another ***
+2) Location Info: Residence/Business Name followed by the main address, the the cross street. That is then followed by our own district Map Location (Ex. K-3)
+3) Then the alarm time and date (Ex. TOA: 17:11 05-22-11
+4) That is followed by the station assignment (Ex. STATION 1 STATION 3) (We have 7 stations)
+5)Finally it is all concluded with the alarm number (Ex. 2011-00868)
+
+All of this info we would love displayed in the notification. Let me know if you need any other info. Thanks.
