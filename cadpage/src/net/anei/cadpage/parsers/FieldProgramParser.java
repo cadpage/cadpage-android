@@ -192,6 +192,7 @@ public class FieldProgramParser extends SmartAddressParser {
    * field assignments
    * @param programStr program string to be compiled
    */
+  private static final Pattern TAG_PTN = Pattern.compile("\\b([\\w\\-]+):");
   protected void setProgram(String program) {
     
     if (program == null) return;
@@ -208,18 +209,21 @@ public class FieldProgramParser extends SmartAddressParser {
     tail.removeSkip();
     
     // And finally build a list of tags we can use to parse undelimited messages
+    // We used to do this by scanning through the compiled steps, but that misses
+    // tags on conditional branches.  Now we just parse tags from the program string
+    tagList = null;
     if (parseTags) {
       List<String> tags = new ArrayList<String>();
-      Step step = startLink.getStep();
-      while (step != null) {
-        if (step.getTag() != null) tags.add(step.getTag());
-        step = step.getNextStep();
+      Matcher match = TAG_PTN.matcher(program);
+      while (match.find()) {
+        tags.add(match.group(1).replace('_', ' '));;
       }
       tagList = tags.toArray(new String[tags.size()]);
     }
   }
   
   /**
+   * 
    * Compile program string into a chain of program steps
    * @param headLink The step link that should end up pointing to the start
    * of the program chain
@@ -746,13 +750,6 @@ public class FieldProgramParser extends SmartAddressParser {
     }
 
     /**
-     * @return step tag
-     */
-    public String getTag() {
-      return tag;
-    }
-
-    /**
      * @return Link to be taken on step parse succeeds
      */
     public StepLink getSuccLink() {
@@ -765,13 +762,6 @@ public class FieldProgramParser extends SmartAddressParser {
     public StepLink getFailLink() {
       if (failLink == null) failLink = new StepLink(0);
       return failLink;
-    }
-    
-    /**
-     * @return the next step in the field step sequence
-     */
-    public Step getNextStep() {
-      return nextStep;
     }
     
     /**

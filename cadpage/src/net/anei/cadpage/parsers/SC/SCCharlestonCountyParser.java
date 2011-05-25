@@ -39,6 +39,9 @@ Contact: Michael Helms <mhelms1125@gmail.com>
 Sender: CDC_Dispatch@charlestoncounty.org
 Medical Assist Charlie Respons 1605 Highway 41 X Street: JOE ROUSE RD/JOE ROUSE RD Op Channel: EMS OPS
 
+Contact: Gregory Kramer <g.j.kramer@gmail.com>
+(Dispatch Info) ANY MEMBER AVAILABLE TO ASSIST WITH THE SOCON BASEBALL TOURNAMENT TOMM CONTACT 619 AS SOON AS POSSIBLE. OPR#5
+
  */
 
 
@@ -46,7 +49,7 @@ public class SCCharlestonCountyParser extends FieldProgramParser {
   
   public SCCharlestonCountyParser() {
     super("CHARLESTON COUNTY", "SC",
-           "( PREFIX! Address:ADDR! | ADDR/SC! ) X_Street:X Cmd_Channel:INFO  Op_Channel:INFO");
+           "( PREFIX Address:ADDR! X_Street:X Cmd_Channel:INFO | ADDR/SC! X_Street:X Op_Channel:INFO! )");
   }
   
   @Override
