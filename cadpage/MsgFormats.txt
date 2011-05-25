@@ -1026,6 +1026,11 @@ Minnehaha county, SD
 930 Quad 460 - BR 904 SNOWBERRY AVE BR Conv Seizure C3 2011-00000374
 930 Quad 2060 - VS I 90 MM 410 VS Sick Person C1 2011-00000028
 *******************************************************************************
+Anderson County, TN
+(E911) Fire Alarm-Residential - 1534 MOUNTAIN RD ANDERSONVILLE, TN 
+(E911) MVA - Hazards - BETHEL RD CLINTON, TN
+(E911) CVFD FIRST RESP - 3259 W WOLF VALLEY ROAD CLINTON, TN - FALL INJURIES
+*******************************************************************************
 Humble TX (TXHumbleParser)
 [AVFD EMS] - Cardiac -- 17111 Dawn Shadows Dr, Humble -- Map: 376H- -- Xst's: Forest Rain Ln Old Arbor -- Units: E-M29 -- 201105590
 [AVFD EMS] - Diabetic Emergency -- 5310 Moonshadows Dr, Humble -- Map: 337S- -- Xst's: Pocito Ct Wellswood Ct -- Units: E-M29 -- 201105542
@@ -2019,53 +2024,4 @@ Spartanburg County, SC in progress
 Wilson County, NC in progress
 **********************************************************
 **********************************************************
-Anderson County, TN
-Contact: justin massengill <acs0680@gmail.com>
-Sender: page@tnacso.net
-
-05/21/2011 08:14:09 Alley, Josh - 0 AVFD Unit AVFD Paged Message: Fire - Residential - 782 BRUSHY VALLEY RD ANDERSONVILLE, TN - REC:04:51 DISP:04:51 RESP:04:53 ONSC:05:09 INSRV:08:13 TRK#:178730
-05/21/2011 05:00:15 Stringfield, Joyce - 0 AVFD Unit AVFD Paged Message: Fire Alarm-Residential - 1534 MOUNTAIN RD ANDERSONVILLE, TN 
-05/21/2011 04:53:04 Stringfield, Joyce - 0 AVFD Unit AVFD Paged Message: Fire - Residential - 778 BRUSHY VALLEY RD ANDERSONVILLE, TN
-05/19/2011 14:30:58 Bean, Laura - 0 AVFD Unit AVFD Paged Message: Fire - Other - ANDERSONVILLE HWY @ BETHEL ROAD CLINTON, TN - REC:14:25 DISP:14:25 RESP:14:25 ONSC:14:30 INSRV:14:30 TRK#:178572
-05/19/2011 14:25:56 Bean, Laura - 0 AVFD Unit AVFD Paged Message: Fire - Other - ANDERSONVILLE HWY @ BETHEL ROAD CLINTON, TN
-05/18/2011 04:03:39 Letson, Ashley - 0 AVFD Unit AVFD Paged Message: MVA - Hazards - BETHEL RD CLINTON, TN -REC:03:15 DISP:03:17 RESP:03:19 ONSC:03:35 INSRV:04:03 TRK#:178399
-05/18/2011 03:18:01 Letson, Ashley - 0 AVFD Unit AVFD Paged Message: MVA - Hazards - BETHEL RD CLINTON, TN
-
-Pages generated from EMS. Subject, Department, Location of call, call type.
-
-(E911) CVFD FIRST RESP - 3259 W WOLF VALLEY ROAD CLINTON, TN - FALL INJURIES
-(E911) RESC - I75 SB @ MM 119 CLINTON, TN - MVA
-(E911)) MVA - Injury - I75 SB @ MM 119 CLINTON, TN - REC:02:41 DISP:02:41 RESP:02:45 ONSC: INSRV:02:51 TRK#:179132
-(E911) MARFVD FIRST RESP - 1508 LAUREL RD CLINTON, TN - DIFFICULTY BREATHING
-(E911) EMS Assist - 1508 LAUREL RD CLINTON, TN - REC:20:21 DISP:20:23 RESP:20:24 ONSC:20:31 INSRV:20:39 TRK#:179119
-
-Pages generated from FIRE. Subject, call type, location of call. On the
-completed page, the following fields are added: Times, Tracking number.
-
-(E911) Mutual Aid Request - 838 OLIVER SPRINGS HIGHWAY CLINTON, TN
-(E911) Fire - Other - ANDERSONVILLE HWY @ BETHEL ROAD CLINTON, TN
-(E911) Fire - Other - ANDERSONVILLE HWY @ BETHEL ROAD CLINTON, TN - REC:14:25 DISP:14:25 RESP:14:25 ONSC:14:30 INSRV:14:30 TRK#:178572
-
-The pages are different because the fire paging came after the medic unit
-paging, and the guy doing the coding just made it different. If you can not
-make the 2 different pages work, I will edit the code to send the same page
-for all calls. Or if you feel it would be much easier for you, ill just go
-ahead and do it.
 **********************************************************
-Nassau County
-Contact: jmreeves@gmail.com
-*** 330 RESCUE - STROKE *** XYZ RESIDENCE 460 PIPING ROCK RD CS: RUSSET RD  - WELLWOOD RD N-4 TOA: 09:28 05-23-11 STATION 2 STATION 4 STATION 3 2011-000877
-*** 400 AUTO ACCIDENT *** WATCHTOWER LN & N JERUSALEM RD  WATCHTOWER LN CS: N JERUSALEM RD F-7 TOA: 08:53 05-23-11 STATION 2 STATION 4 STATION 1 2011-000876
-*** 630 INVESTIGATION-SMOKE EXT *** XYZ RESIDENCE 39 EDEN LN CS: ELM DR W  - ELM DR E K-3 TOA: 17:11 05-22-11 STATION 2 STATION 4 2011-000873
-*** 210 MAJOR-BLDG FIRE AUTO ALM *** UMBERTO'S PIZZA 1180 WANTAGH AVE CS: DUCKPOND DR  - JERUSALEM AVE H-11 TOA: 06:34 05-22-11 STATION 2 STATION 4 2011-000868
-
-There are some examples of our source texts. Residence names were replaced with XYZ for confidentiality reasons. 
-
-The format is as follows:
-1) Alarm Type: Leading *** Followed by an alarm code number and Description (Example: 400 AUTO ACCIDENT)finally trailed by another ***
-2) Location Info: Residence/Business Name followed by the main address, the the cross street. That is then followed by our own district Map Location (Ex. K-3)
-3) Then the alarm time and date (Ex. TOA: 17:11 05-22-11
-4) That is followed by the station assignment (Ex. STATION 1 STATION 3) (We have 7 stations)
-5)Finally it is all concluded with the alarm number (Ex. 2011-00868)
-
-All of this info we would love displayed in the notification. Let me know if you need any other info. Thanks.
