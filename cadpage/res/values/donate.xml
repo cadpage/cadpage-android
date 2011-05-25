@@ -15,6 +15,21 @@
     Thank your for you contributions.
   </string>
   
+  <string name="donate_paid_title">Your Cadpage subscription is current</string>
+  <string name="donate_paid_text">
+    Your current Cadpage subscription will expire on\n%s
+  </string>
+  
+  <string name="donate_paid_warn_title">Your Cadpage subscription is about to expire</string>
+  <string name="donate_paid_warn_text">
+    Your current Cadpage subscription will expire in %d days
+  </string>
+  
+  <string name="donate_paid_expire_title">Your Cadpage subscription has expired</string>
+  <string name="donate_paid_expire_text">
+    Your current Cadpage subscription expired %d days ago.
+  </string>
+  
   <string name="donate_demo_title">You have been using Cadpage for %d days</string>
   <string name="donate_demo_text">
     You have been using Cadpage for %1$d days.  If we were enforcing demo limits

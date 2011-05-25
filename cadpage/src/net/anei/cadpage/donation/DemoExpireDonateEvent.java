@@ -11,6 +11,11 @@ public class DemoExpireDonateEvent extends DonateScreenEvent {
   }
 
   @Override
+  public boolean isEnabled() {
+    return (DonationManager.status() == DonationManager.DonationStatus.DEMO_EXPIRE);
+  }
+
+  @Override
   protected Object[] getTextParms(int type) {
     int days = DonationManager.daysSinceInstall();
     switch (type) {

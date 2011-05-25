@@ -19,6 +19,21 @@ public class JulianDate {
     year = cal.get(Calendar.YEAR);
     day = cal.get(Calendar.DAY_OF_YEAR);
   }
+
+  /**
+   * Set year
+   * @param year
+   */
+  public void setYears(int year) {
+    this.year = year;
+  }
+  
+  public Date getDate() {
+    Calendar cal = new GregorianCalendar();
+    cal.set(Calendar.YEAR, year);
+    cal.set(Calendar.DAY_OF_YEAR, day);
+    return cal.getTime();
+  }
   
   /**
    * Determine number of days to specified date

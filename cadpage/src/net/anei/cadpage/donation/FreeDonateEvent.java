@@ -1,6 +1,5 @@
 package net.anei.cadpage.donation;
 
-import net.anei.cadpage.ManagePreferences;
 import net.anei.cadpage.R;
 
 /**
@@ -16,7 +15,7 @@ public class FreeDonateEvent extends DonateScreenEvent {
   
   @Override
   public boolean isEnabled() {
-    return ManagePreferences.freeRider();
+    return (DonationManager.status() == DonationManager.DonationStatus.FREE);
   }
   
   private static final FreeDonateEvent instance = new FreeDonateEvent();

@@ -46,13 +46,16 @@ public class DeveloperToolsManager {
   private static class DeveloperListPreference extends ListPreference {
     
     private static final String[] entryList = new String[]{
+      "Stat: Free",
       "Stat: Donate paid",
+      "Stat: Donate warn",
+      "Stat: Donate expired",
       "Stat: Demo",
       "Stat: Demo expired"
     };
     
     private static final String[] valueList = new String[]{
-      "1", "2", "3"
+      "1", "2", "3", "4", "5", "6"
     };
 
     public DeveloperListPreference(Context context) {
@@ -71,18 +74,38 @@ public class DeveloperToolsManager {
       int val = Integer.parseInt(getValue().toString());
       switch (val) {
       
-      case 1:     // Stat: Donate paid
+      case 1:     // Stat: Donate free
         ManagePreferences.setFreeRider(true);
         break;
-      
-      case 2:     // Stat: Demo
+        
+      case 2:     // Stat: Donate paid
         ManagePreferences.setFreeRider(false);
-        setInstallDate(-10);
+        setPaidYear(0);
+        setInstallDate(-20, -1);
         break;
         
-      case 3:     // Stat: Demo expired
+      case 3:     // Stat: Donate warn
         ManagePreferences.setFreeRider(false);
-        setInstallDate(-(DonationManager.DEMO_LIMIT_DAYS+1));
+        setPaidYear(-1);
+        setInstallDate(DonationManager.EXPIRE_WARN_DAYS-2, -3);
+        break;
+        
+      case 4:     // Stat: Donate expire
+        ManagePreferences.setFreeRider(false);
+        setPaidYear(-1);
+        setInstallDate(-1, -3);
+        break;
+      
+      case 5:     // Stat: Demo
+        ManagePreferences.setFreeRider(false);
+        setPaidYear();
+        setInstallDate(-10, 0);
+        break;
+        
+      case 6:     // Stat: Demo expired
+        ManagePreferences.setFreeRider(false);
+        setPaidYear();
+        setInstallDate(-(DonationManager.DEMO_LIMIT_DAYS+1), 0);
         break;
         
       }
@@ -90,10 +113,26 @@ public class DeveloperToolsManager {
     }
     
     
-    private void setInstallDate(int dayOffset) {
+    private void setInstallDate(int dayOffset, int yearOffset) {
       Calendar cal = new GregorianCalendar();
+      cal.set(Calendar.HOUR, 0);
+      cal.set(Calendar.MINUTE, 0);
+      cal.set(Calendar.SECOND, 0);
+      cal.set(Calendar.MILLISECOND, 0);
       cal.add(Calendar.DAY_OF_YEAR, dayOffset);
+      cal.add(Calendar.YEAR, yearOffset);
       ManagePreferences.setInstallDate(cal.getTime());
+    }
+    
+    private void setPaidYear() {
+      setPaidYear(Integer.MIN_VALUE);
+    }
+    
+    private void setPaidYear(int yearOffset) {
+      Calendar cal = new GregorianCalendar();
+      int year = cal.get(Calendar.YEAR);
+      year = yearOffset == Integer.MIN_VALUE ? 0 : year+yearOffset;
+      ManagePreferences.setPaidYear(year);
     }
     
   }

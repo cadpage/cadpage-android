@@ -23,12 +23,18 @@ public class UserAcctManager implements OnAccountsUpdateListener {
   public void onAccountsUpdated(Account[] accts) {
     userEmail = null;
     String[] freeList = context.getResources().getStringArray(R.array.free_rider_list);
+    String[] paid2011List = context.getResources().getStringArray(R.array.paid_2011_list);
     for (Account acct : accts) {
       if (acct.type.equals("com.google")) {
+        String name = acct.name.toLowerCase();
         if (userEmail == null) userEmail = acct.name;
-        if (Arrays.binarySearch(freeList, acct.name.toLowerCase()) >= 0) {
+        if (Arrays.binarySearch(freeList, name) >= 0) {
           userEmail = acct.name;
           ManagePreferences.setFreeRider(true);
+        }
+        if (Arrays.binarySearch(paid2011List, name) >= 0) {
+          ManagePreferences.setPaidYear(2011);
+          if (userEmail == null) userEmail = acct.name;
         }
       }
     }

@@ -351,8 +351,8 @@ public class ManagePreferences {
   }
   
   public static void setPaidYear(int year) {
-    if (year > 0 && year <= paidYear()) return;
     prefs.putInt(R.string.pref_paid_year_key, year);
+    DonationManager.reset();
   }
   
   public static boolean freeRider() {
@@ -362,6 +362,7 @@ public class ManagePreferences {
   public static void setFreeRider(boolean newVal) {
     if (newVal == freeRider()) return;
     prefs.putBoolean(R.string.pref_free_rider_key, newVal);
+    DonationManager.reset();
   }
 
 

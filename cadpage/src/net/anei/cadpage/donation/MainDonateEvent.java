@@ -15,6 +15,9 @@ public class MainDonateEvent extends DonateScreenEvent {
   public MainDonateEvent() {
     super(null, 0, 0,     
         FreeDonateEvent.instance(),
+        PaidDonateEvent.instance(),
+        PaidWarnDonateEvent.instance(),
+        PaidExpireDonateEvent.instance(),
         DemoDonateEvent.instance(),
         DemoExpireDonateEvent.instance());
   }

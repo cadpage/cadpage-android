@@ -12,7 +12,7 @@ public class DemoDonateEvent extends DonateScreenEvent {
 
   @Override
   public boolean isEnabled() {
-    return DonationManager.daysSinceInstall() <= DonationManager.DEMO_LIMIT_DAYS;
+    return (DonationManager.status() == DonationManager.DonationStatus.DEMO);
   }
 
   @Override
