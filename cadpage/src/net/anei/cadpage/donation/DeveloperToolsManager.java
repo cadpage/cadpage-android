@@ -4,6 +4,7 @@ import java.util.Arrays;
 import java.util.Calendar;
 import java.util.GregorianCalendar;
 
+import net.anei.cadpage.ContentQuery;
 import net.anei.cadpage.ManagePreferences;
 import net.anei.cadpage.R;
 import android.content.Context;
@@ -45,21 +46,25 @@ public class DeveloperToolsManager {
   
   private static class DeveloperListPreference extends ListPreference {
     
+    private Context context;
+    
     private static final String[] entryList = new String[]{
       "Stat: Free",
       "Stat: Donate paid",
       "Stat: Donate warn",
       "Stat: Donate expired",
       "Stat: Demo",
-      "Stat: Demo expired"
+      "Stat: Demo expired",
+      "MMS Query"
     };
     
     private static final String[] valueList = new String[]{
-      "1", "2", "3", "4", "5", "6"
+      "1", "2", "3", "4", "5", "6", "7"
     };
 
     public DeveloperListPreference(Context context) {
       super(context);
+      this.context = context;
       setTitle("Developer Debug Tools");
       setSummary("Only available for developers");
       setEntries(entryList);
@@ -108,6 +113,9 @@ public class DeveloperToolsManager {
         setInstallDate(-(DonationManager.DEMO_LIMIT_DAYS+1), 0);
         break;
         
+      case 7:
+//        ContentQuery.query(context);
+        break;
       }
       MainDonateEvent.instance().actionComplete();
     }
