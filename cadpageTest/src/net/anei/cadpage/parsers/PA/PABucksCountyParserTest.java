@@ -138,7 +138,8 @@ public class PABucksCountyParserTest extends BaseParserTest {
         "ADDR:FRIER RD & MILL RD",
         "CITY:MILFORD TWP",
         "BOX:57002",
-        "ID:E57");
+        "ID:FD1104463",
+        "UNIT:E57");
 
     doTest("T12",
         "911: STA4  type:RAUTO   adr:PHILMONT AV/E STREET RD ,43  aai:PHILMONT SO STREET  box:04003  map:3261B8  tm:10:21:22  FD1104774    Run: R4 R6 E1",
@@ -149,7 +150,8 @@ public class PABucksCountyParserTest extends BaseParserTest {
         "INFO:PHILMONT SO STREET",
         "BOX:04003",
         "MAP:3261B8",
-        "ID:E1");
+        "ID:FD1104774",
+        "UNIT:R4 R6 E1");
 
     doTest("T13",
         "911: STA53  type:RMAR    adr:LIONS PARK ,24 at 102 SAMUEL CLIFT ST ,24 btwn MILL ST & MARKET ST  aai:  box:51012  map:3375D5  tm:00:59:10  FD1105678 Run: R53 M53 M11",
@@ -161,7 +163,8 @@ public class PABucksCountyParserTest extends BaseParserTest {
         "X:MILL ST & MARKET ST",
         "BOX:51012",
         "MAP:3375D5",
-        "ID:M11");
+        "ID:FD1105678",
+        "UNIT:R53 M53 M11");
 
     doTest("T14",
         "911: STA53  type:WIREIN  adr:2218 TRENTON AV ,24  btwn BARRY PL & TAFT ST  aai:  box:53034  map:3375F2  tm:11:40:15  FD1104667    Run: L25 Q51 E50 E52",
@@ -172,11 +175,23 @@ public class PABucksCountyParserTest extends BaseParserTest {
         "X:BARRY PL & TAFT ST",
         "BOX:53034",
         "MAP:3375F2",
-        "ID:E52");
-      
+        "ID:FD1104667",
+        "UNIT:L25 Q51 E50 E52");
+
+    doTest("T15",
+        "911: STA53  stype:RAUTO   adr:NEW FALLS RD/PINE AV ,25  aai:  box:12044  map:3262G9  tm:21:30:34  FD1107837    Run: R13 R53 E82",
+        "SRC:STA53",
+        "CALL:RAUTO",
+        "ADDR:NEW FALLS RD & PINE AV",
+        "CITY:BRISTOL TWP",
+        "BOX:12044",
+        "MAP:3262G9",
+        "ID:FD1107837",
+        "UNIT:R13 R53 E82");
+     
   }
   
   public static void main(String[] args) {
-    new PABucksCountyParserTest().generateTests("T13", "SRC CALL ADDR APT PLACE CITY X INFO BOX MAP ID");
+    new PABucksCountyParserTest().generateTests("T15");
   }
 }
