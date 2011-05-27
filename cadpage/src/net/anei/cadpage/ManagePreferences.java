@@ -124,6 +124,14 @@ public class ManagePreferences {
     return prefs.getBoolean(R.string.pref_initialized_key);
   }
   
+  public static String release() {
+    return prefs.getString(R.string.pref_release_key, "");
+  }
+  
+  public static void setRelease(String newRelease) {
+    prefs.putString(R.string.pref_release_key, newRelease);
+  }
+  
   public static String location() {
     return prefs.getString(R.string.pref_location_key, "General");
   }

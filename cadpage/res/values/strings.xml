@@ -463,4 +463,6 @@
   
   <!--  Donation settings -->
   <string name="pref_donate_status_title">Donation Status</string>
+  
+  <string name="release_title">What"'"s new in Cadpage?</string>
 </resources>

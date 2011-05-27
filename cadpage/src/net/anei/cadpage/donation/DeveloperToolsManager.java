@@ -55,7 +55,7 @@ public class DeveloperToolsManager {
       "Stat: Donate expired",
       "Stat: Demo",
       "Stat: Demo expired",
-      "MMS Query"
+      "Reset release info"
     };
     
     private static final String[] valueList = new String[]{
@@ -113,8 +113,8 @@ public class DeveloperToolsManager {
         setInstallDate(-(DonationManager.DEMO_LIMIT_DAYS+1), 0);
         break;
         
-      case 7:
-//        ContentQuery.query(context);
+      case 7:     // Reset release info
+        ManagePreferences.setRelease("");
         break;
       }
       MainDonateEvent.instance().actionComplete();

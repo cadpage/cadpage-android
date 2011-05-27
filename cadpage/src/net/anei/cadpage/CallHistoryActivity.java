@@ -1,5 +1,7 @@
 package net.anei.cadpage;
 
+import android.app.AlertDialog;
+import android.app.Dialog;
 import android.app.ListActivity;
 import android.content.Context;
 import android.content.Intent;
@@ -14,7 +16,7 @@ import android.widget.TextView;
 
 public class CallHistoryActivity extends ListActivity {
   
-  private static final String EXTRA_AUTOLAUNCH = "CallHistoryActivity.AUTO_LAUNCH";
+  private static final int RELEASE_DIALOG = 1;
   
   // keep track of which message text view has opened a context menu
   private HistoryMsgTextView msgTextView = null;
@@ -40,6 +42,8 @@ public class CallHistoryActivity extends ListActivity {
       Intent intent = new Intent(this, SmsPopupConfigActivity.class);
       startActivity(intent);
     }
+    
+    // If release info for this release has not been displayed, do it now
     
     // Set up list heading
     TextView tv = new TextView(this);
@@ -73,17 +77,41 @@ public class CallHistoryActivity extends ListActivity {
     
     SmsMessageQueue msgQueue = SmsMessageQueue.getInstance();
 
-    // If this intent was not flagged as being generated internally, then it 
-    // presumably was launched through some kind of user interaction, 
-    // which means it is time to clear any pending notification
-    if (intent.getBooleanExtra(EXTRA_AUTOLAUNCH, false)) {
+    // We do some special processing if the intent was launched by the user
+    // instead of through some internal trigger.
+    if (intent.getAction().equals(Intent.ACTION_MAIN) &&
+        intent.getCategories().contains(Intent.CATEGORY_LAUNCHER)) {
+      
+      // First clear any pending notification
       ManageNotification.clear(this);
+      
+      // Second, launch the release info dialog if it hasn't already been displayed
+      String release = getString(R.string.release_version);
+      if (! ManagePreferences.release().equals(release)) {
+        ManagePreferences.setRelease(release);
+        showDialog(RELEASE_DIALOG);
+      }
     }
     
     // If popup is enabled, and there is one and only one unread message in the
     // queue, launch a message popup to display it
     SmsMmsMessage msg = msgQueue.getDisplayMsg();
     if (msg != null) SmsPopupActivity.launchActivity(this, msg);
+  }
+
+  @Override
+  protected Dialog onCreateDialog(int id) {
+    switch (id) {
+
+      case RELEASE_DIALOG:
+        return new AlertDialog.Builder(this)
+        .setIcon(R.drawable.ic_launcher)
+        .setTitle(R.string.release_title)
+        .setMessage(R.string.release_text)
+        .setPositiveButton(android.R.string.ok, null)
+        .create();
+    }
+    return super.onCreateDialog(id);
   }
 
 
