@@ -3,7 +3,7 @@ package net.anei.cadpage.parsers.PA;
 import java.util.Properties;
 
 import net.anei.cadpage.SmsMsgInfo.Data;
-import net.anei.cadpage.parsers.SmsMsgParser;
+import net.anei.cadpage.parsers.FieldProgramParser;
 
 /*
 Bucks County, PA
@@ -40,17 +40,16 @@ Contact: Ed Ackerman <ed.ackerman@gmail.com>
 Contact: "Russ Swinehart Jr." <snoopfire10@yahoo.com>
 911: STA53  type:RMAR    adr:LIONS PARK ,24 at 102 SAMUEL CLIFT ST ,24 btwn MILL ST & MARKET ST  aai:  box:51012  map:3375D5  tm:00:59:10  FD1105678 Run: R53 M53 M11
 911: STA53  type:WIREIN  adr:2218 TRENTON AV ,24  btwn BARRY PL & TAFT ST  aai:  box:53034  map:3375F2  tm:11:40:15  FD1104667    Run: L25 Q51 E50 E52
-
+911: STA53  stype:RAUTO   adr:NEW FALLS RD/PINE AV ,25  aai:  box:12044  map:3262G9  tm:21:30:34  FD1107837    Run: R13 R53 E82
+ 
  */
 
 
-public class PABucksCountyParser extends SmsMsgParser {
-  
-  private static final String[] KEYWORDS = 
-      new String[]{"911", "type", "stype", "adr", "btwn", "aai", "box", "map", "tm"};
+public class PABucksCountyParser extends FieldProgramParser {
   
   public PABucksCountyParser() {
-    super("BUCKS COUNTY", "PA");
+    super("BUCKS COUNTY", "PA",
+           "911:SRC! type:CALL! adr:ADDR! btwn:X aai:INFO box:BOX map:MAP tm:ID% Run:UNIT");
   }
   
   @Override
@@ -65,50 +64,62 @@ public class PABucksCountyParser extends SmsMsgParser {
     if (pt < 0) return false;
     data.expectMore = true;
     
-    body = body.replaceAll(" btwn ", " btwn:").replaceAll("&nbsp;", " ").replaceAll("&amp;", "&").trim();
-    Properties props = parseMessage(body, KEYWORDS);
+    body = body.replaceAll(" btwn ", " btwn:").replaceAll(" stype:", " type:").replaceAll("&nbsp;", " ").replaceAll("&amp;", "&").trim();
+    return super.parseMsg(body, data);
+  }
+  
+  private class MyCallField extends CallField {
     
-    String sAddr = props.getProperty("adr", "");
-    Parser p = new Parser(sAddr);
-    data.strPlace = p.getOptional(" at ");
-    if (data.strPlace.length() == 0) data.strPlace = p.getLastOptional("--");
-    if (data.strPlace.length() > 0) {
-      pt = data.strPlace.indexOf(',');
-      if (pt >= 0) data.strPlace = data.strPlace.substring(0, pt).trim();
+    @Override
+    public void parse(String field, Data data) {
+      String desc = TYPE_CODES.getProperty(field);
+      if (desc != null) field = field + " - " + desc;
+      super.parse(field, data);
     }
-    String cityCode = p.getLastOptional(',');
-    parseAddress(p.get(), data);
-    if (cityCode.length() > 0) {
-      try {
-        int iCity = Integer.parseInt(cityCode);
-        iCity = iCity - INIT_TOWN_CODE;
-        if (iCity >= 0 && iCity < TOWN_CODES.length){
-          data.strCity = TOWN_CODES[iCity];
-        }
-      } catch (NumberFormatException ex) {}
+  }
+  
+  private class MyAddressField extends AddressField {
+    
+    @Override
+    public void parse(String sAddr, Data data) {
+      Parser p = new Parser(sAddr);
+      data.strPlace = p.getOptional(" at ");
+      if (data.strPlace.length() == 0) data.strPlace = p.getLastOptional("--");
+      if (data.strPlace.length() > 0) {
+        int pt = data.strPlace.indexOf(',');
+        if (pt >= 0) data.strPlace = data.strPlace.substring(0, pt).trim();
+      }
+      String cityCode = p.getLastOptional(',');
+      super.parse(p.get(), data);
+      if (cityCode.length() > 0) {
+        try {
+          int iCity = Integer.parseInt(cityCode);
+          iCity = iCity - INIT_TOWN_CODE;
+          if (iCity >= 0 && iCity < TOWN_CODES.length){
+            data.strCity = TOWN_CODES[iCity];
+          }
+        } catch (NumberFormatException ex) {}
+      }
     }
+  }
     
+  private class MyIdField extends IdField {
     
-    data.strSource = props.getProperty("911", "");
-    data.strCall = props.getProperty("type", "");
-    if (data.strCall.length() == 0) data.strCall = props.getProperty("stype", "");
-    data.strCross = props.getProperty("btwn", "");
-    data.strSupp = props.getProperty("aai", "");
-    data.strBox = props.getProperty("box", "");
-    data.strMap = props.getProperty("map", "");
-    
-    String tm = props.getProperty("tm");
-    if (tm != null) {
-      data.expectMore = false;
-      p = new Parser(tm);
-      data.strCallId = p.getLastOptional(' ');
+    @Override
+    public void parse(String tm, Data data) {
+      if (tm != null) {
+        Parser p = new Parser(tm);
+        data.strCallId = p.getLastOptional(' ');
+      }
     }
-    
-    // Add call description
-    String desc = TYPE_CODES.getProperty(data.strCall);
-    if (desc != null) data.strCall = data.strCall + " - " + desc;
-    
-    return true;
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("CALL")) return new MyCallField();
+    if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("ID")) return new MyIdField();
+    return super.getField(name);
   }
   
   private static final int INIT_TOWN_CODE = 21;

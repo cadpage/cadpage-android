@@ -625,9 +625,6 @@ public class FieldProgramParser extends SmartAddressParser {
       
       // parse field or tag name
       int pt = st;
-      if (! Character.isLetter(fieldTerm.charAt(pt++))) {
-        throw new RuntimeException("Invalid field term: " + fieldTerm);
-      }
       while (pt < len && 
              (Character.isJavaIdentifierPart(fieldTerm.charAt(pt)) || fieldTerm.charAt(pt)=='-')) pt++;
       if (pt < fieldTerm.length() && fieldTerm.charAt(pt) == ':') {
