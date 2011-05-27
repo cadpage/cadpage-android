@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Calendar;
 import java.util.GregorianCalendar;
 
-import net.anei.cadpage.ContentQuery;
+//import net.anei.cadpage.ContentQuery;
 import net.anei.cadpage.ManagePreferences;
 import net.anei.cadpage.R;
 import android.content.Context;
