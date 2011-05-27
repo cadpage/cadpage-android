@@ -79,8 +79,8 @@ public class CallHistoryActivity extends ListActivity {
 
     // We do some special processing if the intent was launched by the user
     // instead of through some internal trigger.
-    if (intent.getAction().equals(Intent.ACTION_MAIN) &&
-        intent.getCategories().contains(Intent.CATEGORY_LAUNCHER)) {
+    if (intent.getAction().equals(Intent.ACTION_MAIN) && 
+        intent.hasCategory(Intent.CATEGORY_LAUNCHER)) {
       
       // First clear any pending notification
       ManageNotification.clear(this);
