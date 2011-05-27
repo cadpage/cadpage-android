@@ -154,13 +154,13 @@
     <item>SCCharlestonCountyA</item>
     <item>SCCharlestonCountyB</item>
     <item>MDArnold</item>
-    <item>NCStanlyCounty</item>
+    <item>NCStanleyCounty</item>
   </string-array>
   <string-array name="new_location_values">
     <item>SCCharlestonCounty</item>
     <item>SCCharlestonCounty</item>
     <item>MDAnneArundelCounty</item>
-    <item>NCStanleyCounty</item>
+    <item>NCStanlyCounty</item>
   </string-array>
   
   <!-- Array of state names -->
@@ -325,7 +325,7 @@
     <item>NCRowanCounty</item>
     <item>NCRutherfordCounty</item>
     <item>NCSurryCounty</item>
-    <item>NCStanleyCounty</item>
+    <item>NCStanlyCounty</item>
     <item>NCUnionCounty</item>
     <item>NCWilkesCounty</item>
     <item>OHClermontCounty</item>
@@ -517,7 +517,7 @@
     <item>Rowan County, NC</item>
     <item>Rutherford County, NC</item>
     <item>Surry County, NC</item>
-    <item>Stanley County, NC</item>
+    <item>Stanly County, NC</item>
     <item>Union County, NC</item>
     <item>Wilkes County, NC</item>
     <item>Clermont County, OH</item>

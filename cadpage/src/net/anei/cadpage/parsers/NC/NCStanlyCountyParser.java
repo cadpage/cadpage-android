@@ -28,7 +28,7 @@ CAD:E13-DIABETIC PROBLEMS/40206 US 52 HWY N/NEW/AUSTIN RD/[Medical Priority Info
 
 */
 
-public class NCStanleyCountyParser extends DispatchOSSIParser {
+public class NCStanlyCountyParser extends DispatchOSSIParser {
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "ALB", "ALBEMARLE",
@@ -40,8 +40,8 @@ public class NCStanleyCountyParser extends DispatchOSSIParser {
   
   private List<String> addressList = new ArrayList<String>();
   
-  public NCStanleyCountyParser() {
-    super(CITY_CODES, "STANLEY COUNTY", "NC",
+  public NCStanlyCountyParser() {
+    super(CITY_CODES, "STANLY COUNTY", "NC",
            "CALL ADDR/Z+? CITY! X X? INFO+");
     setDelimiter('/');
   }
