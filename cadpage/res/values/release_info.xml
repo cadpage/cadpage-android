@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="release_date">20110527</string>
+  <string name="release_version">v1.4.8</string>
+  <string name="release_text">
+    There are plans to make Cadpage a little less free so we start paying the
+    people who make it possible.  See http://www.cadpage.org/financial-support 
+    for more details\n
+    \n
+    What"'"s new in this release\n
+    New Locations:\n
+    Hancock, IN\n
+    Tolland County, CT\n
+    Somerset County, NJ\n
+    Northampton County, PA\n
+    El Dorado, CA\n
+\n
+    Fixes:\n
+    Charles County, MD\n
+    Rockland County, NY\n
+    Nassau County, NY\n
+    Charleston County, SC\n
+    Stanley County, NC\n
+    Forsyth County, NC\n
+    Mobile Medical Response, MI\n
+    Cumberland County, NC\n
+    New Castle County, DE\n
+  </string>  
+</resources>
+  

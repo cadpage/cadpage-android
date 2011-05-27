@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <string-array name="donate_devel_list">
+    <item>kencorbin101@gmail.com</item>
+  </string-array>
+
+
+  <string name="donate_btn_cancel">Cancel</string>
+  <string name="donate_btn_done">Done</string>
+  
+  <string name="donate_free_title">Thank you for your support</string>
+  <string name="donate_free_text">
+    You have earned free, lifetime access to Cadpage. 
+    Thank your for you contributions.
+  </string>
+  
+  <string name="donate_paid_title">Your Cadpage subscription is current</string>
+  <string name="donate_paid_text">
+    Your current Cadpage subscription will expire on\n%s
+  </string>
+  
+  <string name="donate_paid_warn_title">Your Cadpage subscription is about to expire</string>
+  <string name="donate_paid_warn_text">
+    Your current Cadpage subscription will expire in %d days
+  </string>
+  
+  <string name="donate_paid_expire_title">Your Cadpage subscription has expired</string>
+  <string name="donate_paid_expire_text">
+    Your current Cadpage subscription expired %d days ago.
+  </string>
+  
+  <string name="donate_demo_title">You have been using Cadpage for %d days</string>
+  <string name="donate_demo_text">
+    You have been using Cadpage for %1$d days.  If we were enforcing demo limits
+    "you would have %2$d days left.  But we aren't (yet) so don't worry about it."
+  </string>
+  
+  <string name="donate_demo_expire_title">You have been using Cadpage for %d days</string>
+  <string name="donate_demo_expire_text">
+    You have been using Cadpage for %1$d days.  If we were enforcing demo limits
+    the demo would have expired %2$d days ago.  When we do start enforcing
+    limits, you will get another 30 days to think about it.
+  </string>
+  
+  <string name="donate_no_user_title">"Hey, I've already contributed"</string>
+  <string name="donate_no_user_text">
+    Our sincere apologies.  Cadpage tracks you by your Google Market account
+    "and you don't seem to have one.  Try logging into the Android Market with"
+    your Paypal account and see if that helps.
+  </string>
+  
+  <string name="donate_wrong_user_title">"Hey, I've already contributed"</string>
+  <string name="donate_wrong_user_text">
+    Our sincere apologies.  Cadpage tracks you by your Google Market account
+    "which is %s. If this doesn't match the Paypal account you used to donate"
+    to us, we will need some help figuring out who you are. Just clicking the
+    button below will send us an email that will hopefully clear things up.
+  </string>
+  
+  <string name="donate_paypal_title">Donate through PayPal</string>
+  <string name="donate_email_title">Send Email</string>
+  
+  
+</resources>
