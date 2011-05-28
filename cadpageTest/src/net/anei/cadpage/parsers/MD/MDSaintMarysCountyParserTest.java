@@ -412,9 +412,28 @@ public class MDSaintMarysCountyParserTest extends BaseParserTest {
          "CITY:CHARLOTTE HALL",
          "UNIT:ALS CO29",
          "INFO:Room 149B 1D");
-  }
+
+     doTest("T46",
+         "((10199) CAD ) 18:20:24*Breathing Difficulties*APT 856 LOCUST RIDGE*44792 LOCUST RIDGE CT*SURREY WY*WILDEWOOD*CO79 A797 ALS CO9*59 year old, Male, Consci",
+         "CALL:Breathing Difficulties",
+         "PLACE:APT 856 LOCUST RIDGE",
+         "ADDR:44792 LOCUST RIDGE CT",
+         "X:SURREY WY",
+         "CITY:WILDEWOOD",
+         "UNIT:CO79 A797 ALS CO9",
+         "INFO:59 year old, Male, Consci");
+
+     doTest("T47",
+         "((10056) CAD ) 17:21:51*House Fire*20915 DEER WOOD PARK DR*REDMOND RD*CHESTNUT HILLS*CO9*e132 -4*",
+         "CALL:House Fire",
+         "ADDR:20915 DEER WOOD PARK DR",
+         "X:REDMOND RD",
+         "CITY:CHESTNUT HILLS",
+         "UNIT:CO9",
+         "INFO:e132 -4");
+}
   
   public static void main(String[] args) {
-    new MDSaintMarysCountyParserTest().generateTests("T45", "CALL PLACE ADDR APT X CITY UNIT INFO");
+    new MDSaintMarysCountyParserTest().generateTests("T46", "CALL PLACE ADDR APT X CITY UNIT INFO");
   }
 }
