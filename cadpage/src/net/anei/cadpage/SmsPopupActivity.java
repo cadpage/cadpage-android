@@ -424,14 +424,6 @@ public class SmsPopupActivity extends Activity {
     fromTV.setText(sb.toString());
     if (message.getMessageType() == SmsMmsMessage.MESSAGE_TYPE_SMS) {
       sb = new StringBuilder();
-      if (ManagePreferences.showPersonal()) {
-        if (info.getName().length() > 0) sb.append(info.getName());
-        if (info.getPhone().length() > 0) {
-          sb.append(" PH:");
-          sb.append(info.getPhone());
-        }
-        if (sb.length() > 0) sb.append('\n');
-      }
       if (info.getPlace().length() > 0) {
         sb.append(info.getPlace());
         sb.append('\n');
@@ -471,6 +463,16 @@ public class SmsPopupActivity extends Activity {
       if (info.getUnit().length() > 0) {
         sb.append("\nUnits: ");
         sb.append(info.getUnit());
+      }
+      if (ManagePreferences.showPersonal()) {
+        if (info.getName().length() > 0) {
+          sb.append("\nName:");
+          sb.append(info.getName());
+        }
+        if (info.getPhone().length() > 0) {
+          sb.append("\nPhone:");
+          sb.append(info.getPhone());
+        }
       }
       if (info.getChannel().length() > 0) {
         sb.append("\nChannel: ");
