@@ -89,6 +89,10 @@ Contact: dan kenney <dan@motovationcycles.com>
 ((26213) CAD ) 22:12:56*Sick Person*39990 MRS GRAVES RD*GEORGE G PL*ORAVILLE*CO29*43 year old, Male, Conscious, Breathing.*
 ((39425) CAD ) 07:18:31*Sick Person*CHARLOTTE HALL VETERANS HOME*29449 CHARLOTTE HALL RD*CHARLOTTE HALL SCHOOL RD*CHAR HALL*ALS CO29*Room 149B 1D*
 
+Contact:  Jason Adams <jadams@bdvfd.org>
+((10199) CAD ) 18:20:24*Breathing Difficulties*APT 856 LOCUST RIDGE*44792 LOCUST RIDGE CT*SURREY WY*WILDEWOOD*CO79 A797 ALS CO9*59 year old, Male, Consci
+((10056) CAD ) 17:21:51*House Fire*20915 DEER WOOD PARK DR*REDMOND RD*CHESTNUT HILLS*CO9*e132 -4*
+
  */
 
 
@@ -98,6 +102,7 @@ public class MDSaintMarysCountyParser extends SmartAddressParser {
       "CALIFORNIA",
       "CHAR HALL",
       "CHARLOTTE HALL",
+      "CHESTNUT HILLS",
       "GOLDEN BEACH",
       "LEXINGTON PARK",
       "ABELL",
