@@ -102,6 +102,7 @@ CAD:4 HICKORY TREE RD;B11;VERIZON;(Z)MOTOR VEH ACCIDENT INJURY;LOWER GRASSY BRAN
 
 Contact: Bob sherwood <memphismadman@gmail.com>
 S: M:CAD:25 REYNOLDS MOUNTAIN BLVD;B20;RM 126-A;EMERALD RIDGE;EMERALD RIDGE REHAB AND CARE C;ALLERGIES / REACTIONS;WEAVERVILLE RD
+S:CAD:111 OLD WEAVERVILLE RD;B20;BLAZER, RUTH;UNCONSCIOUS/ FAINTING M: 
 
 */
 
@@ -119,6 +120,9 @@ public class NCBuncombeCountyParser extends DispatchOSSIParser {
   
   @Override
   public boolean parseMsg(String body, Data data) {
+    if (body.startsWith("S:") && body.endsWith(" M:")) {
+      body = body.substring(2, body.length()-3).trim();
+    }
     body = body.replaceAll("\n", " ");
     if (! super.parseMsg(body, data)) return false;
     if (data.strCall.length() == 0) data.strCall = "Unknown";
