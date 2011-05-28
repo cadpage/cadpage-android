@@ -696,6 +696,13 @@ public class NCBuncombeCountyParserTest extends BaseParserTest {
         "UNIT:B11",
         "CALL:(Z)MOTOR VEH ACCIDENT INJURY",
         "X:LOWER GRASSY BRANCH RD & JULIANNE PL");
+
+    doTest("T89",
+        "S:CAD:111 OLD WEAVERVILLE RD;B20;BLAZER, RUTH;UNCONSCIOUS/ FAINTING M:",
+        "ADDR:111 OLD WEAVERVILLE RD",
+        "UNIT:B20",
+        "CALL:UNCONSCIOUS/ FAINTING",
+        "NAME:BLAZER, RUTH");
   }
   
 
