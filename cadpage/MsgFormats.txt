@@ -1879,31 +1879,6 @@ Sender: 4173802670
 DispatchAParser
 BC911:MVAUNK>MOTOR VEH ACC UNKNOWN INJ STATE HIGHWAY 39 JENKINS VERIZON WIRELESS Cad: 2011-0000009418
 **********************************************************
-Kootenai County. ID
-Contact: "pbarkle1@mac.com" <pbarkle1@mac.com>
-Sender: 777-042-84NNN
-
-KOOTENAI COUNTY SHERIFF Page for volunteers  fully engulfed structure at  
-1576 w Tualatin Dr.  Page sent as part of 2nd alarm.
-Sent by challgren
- 0000 Confirm 0001 Refuse TXT STOP to opt-out
-
-KOOTENAI COUNTY SHERIFF KCFR
-FIRE STRUCTURE 
-1576 W TUALATIN DR
-F1A  
-F1V
-OPS1 
-VISIBLE FLAMES    IN GARAGE
-13:12:17 04/30/2011 - T.TAYLOR
-RES IS UNOCC
-13:12:50 04/30/2011 - T.TAYLOR
-VEH IN GARAGE    RP SAYS HER HOUSE IS GOING TO BLOW UP
-13:13:00 04/30/2011 - D.WILSON       
-FLAME
-Sent by CLI  Sat Apr 30 13:16:15 2011
- 0000 Confirm 0001 Refuse TXT STOP to opt-out
-**********************************************************
 Unknown
 Contact: Michael Thaw <yankee.fire11@gmail.com>
 From: CADLCFEMS@louisa.org
@@ -1916,18 +1891,6 @@ from Central]  11-017088 SHORTNESS OF BREATH, ETC.
 1110 HENRYS TRL
 AMBERSTONE DR / DEAD/END
 NATHALIE
-**********************************************************
-Kootenai County, ID
-Contact: "Larry & Elaine Simms" <lesimms@gmail.com>
-System: Spillman coupled through Hiplink
-Body:HAUS\n
-ACCIDENT INJURY\n
-N WATERFORD LOOP & N HAUSER LAKE RD\n
-GW7A \n
-B751\n
-OPS4 \n
-MC ACCIDENT    WENT OFF RDWY    CAB    POSS BROKEN COLLARS     CUTS ON FACE   \n
-CONTROLLED
 **********************************************************
 Ray County, MO
 Contact: "Chief O'Dell" <leeodell@woodheightsfire.com>
@@ -2017,7 +1980,10 @@ Body:?OFD2011-00574>Dispatched\n
 >Disturbance Domestic Injury\n
 >5236 MESCALERO TRL (SUNLAND AVE/WESTMORELAND AVE)
 **********************************************************
-**********************************************************
+Unknown
+Contact: Scott Hooper <evfd1326@gmail.com>
+Sender: dispatch@chiltoncounty.org
+100 COUNTY RD 99 LOT 5 VERBENA 2011043298 18:37:55 SHORTNESS OF BREATH GRANDMOTHER ON CHEMO NOT DOING GOOD 
 **********************************************************
 **********************************************************
 **********************************************************
@@ -2047,3 +2013,59 @@ NAME-DIANE;  LOC-2600 KENZIE TER [@AUTUMN WOODS APT#208;  EVTYPE-FALL;  COMMENTS
 NAME-ERIC;  LOC-3201 DIAMOND EIGHT TER [#106 [@DIAMOND EIGHT TERRACE APT;  EVTYPE-CHOKE;  COMMENTS-3201 DIAMOND EIGHT TER :
 NAME-;  LOC-3114 RANKIN RD;  EVTYPE-ALLERG;  COMMENTS-3114 RANKIN RD : cross streets : 32ND AVE NE & TOWNVIEW AVE  thinks s
 NAME-PEKAREK;  LOC-3008 RANKIN RD;  EVTYPE-HEART;  COMMENTS-3008 RANKIN RD : cross streets : EAST GATE RD & CROFT DR  43 YO
+**********************************************************
+Kenosha County, WI
+Contact:    David Wilkinson <firemedic53142@gmail.com>
+LMC213 #:002011070865 ILS MED at 7701 95TH ST Rem: 50 M ;HEART PROBLEM CONSCIOUS: YES ,BREATHING: YES
+NLB260 #:002011071148 ALS MED at 4204 109TH ST Rem: 69 F ;CHEST PAIN CONSCIOUS: YES ,BREATHING: YES
+DMB193 #:002011072020 BLS MED at 10519 120TH AVE EAST TOURIST INFO CNTR Rem: CHEST PAIN
+DMB193 #:002011072054 SUPERVISOR ALRM at 7887 94TH AVE HOLIDAY INN EXPRESS
+DMB193 #:002011072060 MVA at 80TH AVE and COOPER RD
+**********************************************************
+Kootenai County, ID
+Contact: "pbarkle1@mac.com" <pbarkle1@mac.com>
+Sender: 777-042-84NNN
+
+KOOTENAI COUNTY SHERIFF Page for volunteers  fully engulfed structure at  
+1576 w Tualatin Dr.  Page sent as part of 2nd alarm.
+Sent by challgren
+ 0000 Confirm 0001 Refuse TXT STOP to opt-out
+
+KOOTENAI COUNTY SHERIFF KCFR
+FIRE STRUCTURE 
+1576 W TUALATIN DR
+F1A  
+F1V
+OPS1 
+VISIBLE FLAMES    IN GARAGE
+13:12:17 04/30/2011 - T.TAYLOR
+RES IS UNOCC
+13:12:50 04/30/2011 - T.TAYLOR
+VEH IN GARAGE    RP SAYS HER HOUSE IS GOING TO BLOW UP
+13:13:00 04/30/2011 - D.WILSON       
+FLAME
+Sent by CLI  Sat Apr 30 13:16:15 2011
+ 0000 Confirm 0001 Refuse TXT STOP to opt-out
+
+Contact: "Larry & Elaine Simms" <lesimms@gmail.com>
+System: Spillman coupled through Hiplink
+HAUS\n
+ACCIDENT INJURY\n
+N WATERFORD LOOP & N HAUSER LAKE RD\n
+GW7A \n
+B751\n
+OPS4 \n
+MC ACCIDENT    WENT OFF RDWY    CAB    POSS BROKEN COLLARS     CUTS ON FACE   \n
+CONTROLLED
+
+Contact: Paul Barkley <PFB@mac.com>
+Sender: 7087108417@vzwpix.com
+KCFR
+FIRE STRUCTURE 
+N SMITH LN & E MULLAN AVE
+F1C  
+F1V
+OPS1 
+TRAILER FULLY ENGULFED ON SMITH RD JUST OFF MULLAN   FLAMES FROM WINDOWS AND
+ROOF 
+10:49:32 05/28/20
