@@ -431,9 +431,18 @@ public class MDSaintMarysCountyParserTest extends BaseParserTest {
          "CITY:CHESTNUT HILLS",
          "UNIT:CO9",
          "INFO:e132 -4");
-}
+
+     doTest("T48",
+         "((10896) CAD ) 20:50:43*Personal Injury Accident*26488 YOWAISKI MILL RD*WEST SPICER DR*COUNTRY LAKES*CO2 SQ2 CO29 CO59*PARKED CAR*",
+         "CALL:Personal Injury Accident",
+         "ADDR:26488 YOWAISKI MILL RD",
+         "X:WEST SPICER DR",
+         "CITY:COUNTRY LAKES",
+         "UNIT:CO2 SQ2 CO29 CO59",
+         "INFO:PARKED CAR");
+  }
   
   public static void main(String[] args) {
-    new MDSaintMarysCountyParserTest().generateTests("T46", "CALL PLACE ADDR APT X CITY UNIT INFO");
+    new MDSaintMarysCountyParserTest().generateTests("T48", "CALL PLACE ADDR APT X CITY UNIT INFO");
   }
 }
