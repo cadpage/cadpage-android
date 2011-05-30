@@ -102,9 +102,17 @@ public class MIMobileMedicalResponseParserTest extends BaseParserTest {
         "CALL:P-1 Life Threatening Emergency",
         "INFO:Convulsions / Seizures / 35 F / ALS / BAY CITY / <Unkno",
         "X:Sherwood & Euclid");
- }
+
+    doTest("T13",
+        "<CAD> - part 1 of 1/ Run# 0/ 800 S WASHINGTON AVE/ P-7 Long Distance/ 1/ Int-Overdose/Poisoning (Ingestion)/ EXTRAS: NONE... DECONDITIONING.../PT READY / PCS RE",
+        "ID:0",
+        "ADDR:800 S WASHINGTON AVE",
+        "CALL:P-7 Long Distance",
+        "APT:1",
+        "INFO:Int-Overdose / Poisoning (Ingestion) / EXTRAS: NONE... DECONDITIONING... / PT READY / PCS RE");
+}
   
   public static void main(String[] args) {
-    new MIMobileMedicalResponseParserTest().generateTests("T12");
+    new MIMobileMedicalResponseParserTest().generateTests("T14");
   }
 }
