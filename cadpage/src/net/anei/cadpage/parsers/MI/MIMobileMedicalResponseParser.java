@@ -26,8 +26,8 @@ prvs=10834168ba=mailghost@mobilemedical.org (<CAD> - part 1 of 1) RC:Run# 24453/
 Contact: "jenmdawson@yahoo.com" <jenmdawson@yahoo.co 
 Sender: 6573
 <CAD> - part 1 of 1/ RC:Run# 34376/3300 PAULAN DR/P-1 Life Threatening Emergency//Chest Pain (Non-Traumatic)/72/F/ALS/BAY CITY///<Unknown>/20:04\n\n
-
 <CAD> - part 1 of 1/ RC:Run# 34848/3375 BOY SCOUT RD/P-1 Life Threatening Emergency//Convulsions/Seizures/x Sherwood & Euclid // 35 F/ALS/BAY CITY///<Unkno
+<CAD> - part 1 of 1/ Run# 0/ 800 S WASHINGTON AVE/ P-7 Long Distance/ 1/ Int-Overdose/Poisoning (Ingestion)/ EXTRAS: NONE... DECONDITIONING.../PT READY / PCS RE
 
  */
 
@@ -44,7 +44,7 @@ public class MIMobileMedicalResponseParser extends DispatchProQAParser {
   
   @Override
   public String getFilter() {
-    return "mailghost@mobilemedical.org,6573";
+    return "mailghost@mobilemedical.org,6344,6573";
   }
   
   @Override

@@ -1677,13 +1677,6 @@ MEDICAL CALL  8350 JONES RD  (409K) () COMMENTS:1/20/2011 10:51:54 8350 JONES RD
 PLEASANT COLONY DR & VILLAGE GREEN DR
 1/20/2011 10:53:03 Incident Case Number automatically assigned : JVFD2011000061
 **********************************************************
-Ray County, MO
-Contact: "Chief O'Dell" <leeodell@woodheightsfire.com>
-Sender: raycountycentraldispatch@gmail.com
-
-RCAD WHFD FALLS 514 ARAPAHOE DR  HOMESTEAD VILLAGE CrossStreets: CHEROKEE DR 0.05 mi W HIGHWAY Y 0.16 mi E Description: BETTY JAMES 85 YO FEMALE\n
-FAL
-**********************************************************
 **********************************************************
 **********************************************************
 **********************************************************
@@ -1892,12 +1885,6 @@ from Central]  11-017088 SHORTNESS OF BREATH, ETC.
 AMBERSTONE DR / DEAD/END
 NATHALIE
 **********************************************************
-Ray County, MO
-Contact: "Chief O'Dell" <leeodell@woodheightsfire.com>
-Sender: raycountycentraldispatch@gmail.com
-LFD EMS 31004 NOTTINGHAM LN   Description:  CrossStreets: SILVEY RD 6443.06 mi NW SILVEY RD 6443.06 mi NW
-WHFD RCAD FALLS 33408 W 160TH ST  RAY COUNTY Description: 91 yof\nfell from standing position\nconsious and breathing\ncomplaining of l hip pain\nup in 
-**********************************************************
 Unknown
 Contact: Matt Hatcher <dkht1250@yahoo.com>
 Sender: brandi.blair@comcast.net
@@ -1985,7 +1972,85 @@ Contact: Scott Hooper <evfd1326@gmail.com>
 Sender: dispatch@chiltoncounty.org
 100 COUNTY RD 99 LOT 5 VERBENA 2011043298 18:37:55 SHORTNESS OF BREATH GRANDMOTHER ON CHEMO NOT DOING GOOD 
 **********************************************************
+Ray County, MO
+Contact: "Chief O'Dell" <leeodell@woodheightsfire.com>
+Sender: raycountycentraldispatch@gmail.com
+
+RCAD WHFD FALLS 514 ARAPAHOE DR  HOMESTEAD VILLAGE CrossStreets: CHEROKEE DR 0.05 mi W HIGHWAY Y 0.16 mi E Description: BETTY JAMES 85 YO FEMALE\n
+FAL
+
+LFD EMS 31004 NOTTINGHAM LN   Description:  CrossStreets: SILVEY RD 6443.06 mi NW SILVEY RD 6443.06 mi NW
+WHFD RCAD FALLS 33408 W 160TH ST  RAY COUNTY Description: 91 yof\nfell from standing position\nconsious and breathing\ncomplaining of l hip pain\nup in 
+
+LMED1 LSQ1 L602 SICK PERSON (SPECIFIC DIAGNOSIS) 215 E 5TH ST 3A LAWSON Description: 123254415\n
+PT IS PATRICIA BIDDIX\n
+HIGH BP\n
+67 YO FEMALE\n
+BURNING SE
+
+
+DEPARTMENTS
+WHFD-wood heights fire dept
+LFD-lawson fire dept
+OFD-orrick fire dept
+RFD-richmond fire dept
+RCAD-ray county ambulance district
+EXFD-excelsior springs fire dept
+HFD-hardin fire dept
+
+UNITS
+WHR1-RESCUE 1
+WHP1-PUMPER 1
+WHT2-TANKER 2
+WHB1-BRUSH 1
+WHS1-SQUAD 1
+800-FIRE CHIEF
+802,803,804-asst chiefs
+
+Lawson
+LMED1
+LMED2
+LT1-TANKER
+LT2
+LP1
+LP2
+LP3
+LP4
+LB1-BRUSH
+LB2
+LB3
+LS1-SQUAD
+LR1-RESCUE
+602
+603
+604
+
+RCAD-ray county ambulance district
+MED41,42,43,44-ambulances
+
+ORRICK
+OP1-PUMPER
+OP2
+OT1-TANKER
+OT2
+OB1-BRUSH
+OS1-SQUAD
+315
+
+RICHMOND
+RP5
+RB4
+RP6
+RP2
+RT9
+RR3
+RB7
+400
 **********************************************************
+Mendicino County, CA
+Contact: Mike Maynard <capttwiggy@gmail.com>
+Sender: meucad@fire.ca.gov
+(CAD Page) OTHER MISC. DISPLAY; =L(39.107949,-123.087224) ,UKV (COW MOUNTAIN); Inc# X: -123 5.23344\2sY: 39 6.47694 B1113; testing with b1113
 **********************************************************
 **********************************************************
 **********************************************************
@@ -2016,6 +2081,8 @@ NAME-PEKAREK;  LOC-3008 RANKIN RD;  EVTYPE-HEART;  COMMENTS-3008 RANKIN RD : cro
 **********************************************************
 Kenosha County, WI
 Contact:    David Wilkinson <firemedic53142@gmail.com>
+Sender: @kccjs.org
+First code is dispatcher ID
 LMC213 #:002011070865 ILS MED at 7701 95TH ST Rem: 50 M ;HEART PROBLEM CONSCIOUS: YES ,BREATHING: YES
 NLB260 #:002011071148 ALS MED at 4204 109TH ST Rem: 69 F ;CHEST PAIN CONSCIOUS: YES ,BREATHING: YES
 DMB193 #:002011072020 BLS MED at 10519 120TH AVE EAST TOURIST INFO CNTR Rem: CHEST PAIN

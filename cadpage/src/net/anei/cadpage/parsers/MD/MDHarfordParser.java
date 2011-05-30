@@ -22,7 +22,6 @@ Contact: Karen Zeiler <kmz1176@gmail.com>
 Sender: rc.391@c-msg.net
 (HCCAD) [!] EOC:E04 HEMM >HEMORRAGE/LACERATION 4324 HAMPTON HALL CT XS: DEAD END BELCAMP KOWALCHEK,JOHN BOX: 402 Cad: 2011-0000090313
 
-
  */
 public class MDHarfordParser extends DispatchBParser {
   
