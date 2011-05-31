@@ -24,6 +24,12 @@ Contact:
 Travis McGhee <mcgheetp@gmail.com>
 CAD:DAVIDSON RD/MOORESVILLE RD;DAV;SUSPICIOUS VEHICLE
 CAD:CANCEL;DAVIDSON RD/MOORESVILLE RD; DAV
+
+Contact: ryan sellers <rsellers43@gmail.com>
+Sender: 93001015
+CAD:ASSAULT W/ INJURY;5048 DAFFODIL LN;CON;BRAXTON DR;SABLE CT;BRITTANY STIREWALT
+
+
 */
 
 public class NCCabarrusCountyParser extends DispatchOSSIParser {
@@ -36,16 +42,17 @@ public class NCCabarrusCountyParser extends DispatchOSSIParser {
       "KAN",  "KANNAPOLIS",
       "DAV",  "DAVIDSON",
       "LOC",  "LOCUST",
-      "CLT",  "CHARLOTTE"
+      "CLT",  "CHARLOTTE",
+      "MID",  "MIDLAND"
   });
+  
+  @Override
+  public String getFilter() {
+    return "CAD@cabarruscounty.us, 93001";
+  }
   
   public NCCabarrusCountyParser() {
     super(CITY_CODES, "CABARRUS COUNTY", "NC",
            "CALL! ADDR! CITY PLACE? X X NAME");
-  }
-  
-  @Override
-  public String getFilter() {
-    return "CAD@cabarruscounty.us";
   }
 }
