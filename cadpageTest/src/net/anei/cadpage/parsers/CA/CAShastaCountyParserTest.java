@@ -108,6 +108,20 @@ public class CAShastaCountyParserTest extends BaseParserTest {
         "ID:009298",
         "UNIT:VOL33 E2452",
         "INFO:91 YOM CHEST PAIN");
+
+    doTest("T10",
+        "FIRE, OTHER; 7600 BLACK BUTTE RD / 28502 HWY 44 ,SHINGLETOWN ; ; ; Map: 3678; Inc# 003825; E2460 VOL20 B2408; portable saw on fire.",
+        "CALL:FIRE, OTHER",
+        "ADDR:7600 BLACK BUTTE RD & 28502 HWY 44",
+        "SRC:SHINGLETOWN",
+        "MAP:3678",
+        "ID:003825",
+        "UNIT:E2460 VOL20 B2408",
+        "INFO:portable saw on fire.");
         
+  }
+  
+  public static void main(String[] args) {
+    new CAShastaCountyParserTest().generateTests("T11", "CALL ADDR SRC X MAP ID UNIT INFO");
   }
 }
