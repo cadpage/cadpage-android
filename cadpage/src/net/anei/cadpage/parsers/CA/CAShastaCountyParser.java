@@ -20,6 +20,11 @@ Sender: btrinitybob+caf_=5307373826=vtext.com@gmail.com
 (CAD Page) MEDICAL; 12169 KERN DR ,BELLAVISTA ; ; 21616 BLK KATHY LN; Map: 3225; Inc# 008957; VOL33 E2462; 68 f dxbr
 (CAD Page) MEDICAL; 11894 BEST LN ,BELLAVISTA ; ;  DEAD-END; Map: 3225; Inc# 009298; VOL33 E2452; 91 YOM CHEST PAIN
 
+Contact: Mark Kendall <mark.kendall2408@gmail.com>
+Sender: 5304482408
+FIRE, OTHER; 7600 BLACK BUTTE RD / 28502 HWY 44 ,SHINGLETOWN ; ; ; Map: 3678; Inc# 003825; E2460 VOL20 B2408; portable saw on fire.
+
+
 Semicolon separated
 Call desc
 Address
@@ -44,13 +49,11 @@ public class CAShastaCountyParser extends SmartAddressParser {
   
   @Override
   public String getFilter() {
-    return "vtext.com@gmail.com";
+    return "vtext.com@gmail.com,5304482408";
   }
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
-    
-    if (!subject.equals("CAD Page")) return false;
     
     String[] flds = body.trim().split(" *; *");
     if (flds.length < 6) return false;

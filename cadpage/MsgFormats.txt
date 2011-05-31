@@ -1890,12 +1890,6 @@ Contact: Matt Hatcher <dkht1250@yahoo.com>
 Sender: brandi.blair@comcast.net
 MEDICAL CALL 2589 CO. RD. 6, 75 YEAR OLD MALE COLONOSCOPY THIS MORNING. EXTREME PAIN TODAY
 **********************************************************
-Moore County, NC
-Contact: Daniel Strong <dstrong1970@yahoo.com>
-Sender: dispatch911@moorecountync.gov
-[[911 NOTIFICATION] ]  505 PINEHURST ST ABERDEEN 2011024766 19:52:16 F69 STRUCTURE FIRE LOOKS LIKE BACK DECK ON FIRE
-[[911 NOTIFICATION] ]  1 S. VINELAND SOUTH CELL TOWER 2011025029 09:31:20 M25 PSYCHIATRIC/SUICIDE ATTEMPT
-**********************************************************
 Bernards Township, NJ
 Contact: Ron DePasquale <rondepasquale@gmail.com>
 Sender: alarm-bounces@libertycornerfire.org
@@ -2140,3 +2134,11 @@ OPS1
 TRAILER FULLY ENGULFED ON SMITH RD JUST OFF MULLAN   FLAMES FROM WINDOWS AND
 ROOF 
 10:49:32 05/28/20
+**********************************************************
+Moore County, NC
+Contact: Daniel Strong <dstrong1970@yahoo.com>
+Sender: dispatch911@moorecountync.gov
+[[911 NOTIFICATION] ]  505 PINEHURST ST ABERDEEN 2011024766 19:52:16 F69 STRUCTURE FIRE LOOKS LIKE BACK DECK ON FIRE
+[[911 NOTIFICATION] ]  1 S. VINELAND SOUTH CELL TOWER 2011025029 09:31:20 M25 PSYCHIATRIC/SUICIDE ATTEMPT
+[[911 NOTIFICATION] ]  126 ROBIN HOOD LN ABERDEEN 2011025065 13:37:27 F52 ALARM-FIRE ACTIVATION AC 800 932-3822 OPER SP8
+[[911 NOTIFICATION] ]  632 SAND PIT RD ABERDEEN MDL 07A01 2011025721 11:06:58 M7 BURNS/EXPLOSIONS
