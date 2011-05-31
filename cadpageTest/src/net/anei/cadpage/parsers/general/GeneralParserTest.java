@@ -206,5 +206,12 @@ public class GeneralParserTest extends BaseParserTest {
         "SRC:78AST",
         "ADDR:7229 Seashore Hwy",
         "INFO:--- Falls-BLS");
+    
+    doTest("T24",
+        "(Dispatch Message) ALARMS-CO DETECTOR        \n90 FALLS CREEK TR \nGUARDIAN ALARM 866.883.3100\nCO ALARM SOUNDING, SIGNAL COMES TO ALARM CENTER\nOPR/STACY",
+        "CALL:ALARMS-CO DETECTOR",
+        "ADDR:90 FALLS CREEK TR",
+        "INFO:GUARDIAN ALARM 866.883.3100\n CO ALARM SOUNDING, SIGNAL COMES TO ALARM CENTER\n OPR/STACY");
   }
+  
 }
