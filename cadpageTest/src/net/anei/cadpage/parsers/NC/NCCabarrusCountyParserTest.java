@@ -71,6 +71,14 @@ public class NCCabarrusCountyParserTest extends BaseParserTest {
         "ADDR:1087 ODELL SCHOOL RD",
         "CITY:CONCORD",
         "X:UNTZ RD & ARBOR COMMONS LN");
+
+    doTest("T8",
+        "CAD:ASSAULT W/ INJURY;5048 DAFFODIL LN;CON;BRAXTON DR;SABLE CT;BRITTANY STIREWALT",
+        "CALL:ASSAULT W/ INJURY",
+        "ADDR:5048 DAFFODIL LN",
+        "CITY:CONCORD",
+        "X:BRAXTON DR & SABLE CT",
+        "NAME:BRITTANY STIREWALT");
   }
   
   @Test
@@ -83,6 +91,6 @@ public class NCCabarrusCountyParserTest extends BaseParserTest {
   }
   
   public static void main(String[] args) {
-    new NCCabarrusCountyParserTest().generateTests();
+    new NCCabarrusCountyParserTest().generateTests("T8");
   }
 }
