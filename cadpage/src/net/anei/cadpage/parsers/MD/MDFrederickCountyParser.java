@@ -43,6 +43,7 @@ Contact: "bubbaclary@yahoo.com" <bubbaclary@yahoo.com>
 Contact: Bill Stearn <wstearn@gmail.com>
 Sender: rc.404@c-msg.net
 (CAD) [FredCo] CT: TROUBLE BREATHING / default 13862-A OLD NATIONAL PIKE CMTY TIME: 01:39:41 ESZ: 1521 MAP: 4690B2 Disp: CCM19,CCLS1,RE153
+(CAD) [FredCo] CT: HOUSE / APPLIANCE FIRE (STRUCTURE PRE-ALERT) / default 6405 SPRING FOREST RD CFR1 TIME: 17:14:24 ESZ: 3302 MAP: 4567F5 SUBDIV: SPRING RIDGE Dis
 
 
 ***/
@@ -52,7 +53,7 @@ public class MDFrederickCountyParser extends SmartAddressParser {
   private static final String DEF_STATE = "MD";
   private static final String DEF_CITY = "FREDERICK COUNTY";
 
-  private static final String[]Fredrickkeywords = new String[]{"CT", "CMTY TIME", "ESZ", "MAP", "Disp",};
+  private static final String[]Fredrickkeywords = new String[]{"CT", "TIME", "ESZ", "MAP", "Disp",};
   
   private static final Properties CITY_CODE_TABLE = 
     buildCodeTable(new String[]{
@@ -62,8 +63,10 @@ public class MDFrederickCountyParser extends SmartAddressParser {
         "BRUN","Brunswick",   
         "CARRCO", "Carroll County",
         "CEMB","Emmitsburg",
+        "CFR1","Frederick City",
         "CFR2","Frederick City",
         "CNMA","New Market",
+        "CMTY","Mt Airy",
         "CSAB","Sabillasville",
         "CWAL","Walkersville",
         "FRAN CO", "Franklin County",
