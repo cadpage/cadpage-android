@@ -105,12 +105,21 @@ public class MDFrederickCountyParserTest extends BaseParserTest {
         "(CAD) [FredCo] CT: TROUBLE BREATHING / default 13862-A OLD NATIONAL PIKE CMTY TIME: 01:39:41 ESZ: 1521 MAP: 4690B2 Disp: CCM19,CCLS1,RE153",
         "CALL:TROUBLE BREATHING/default",
         "ADDR:13862-A OLD NATIONAL PIKE",
+        "CITY:Mt Airy",
         "BOX:1521",
         "UNIT:CCM19,CCLS1,RE153",
         "MAP:4690B2");
+
+    doTest("T20",
+        "(CAD) [FredCo] CT: HOUSE / APPLIANCE FIRE (STRUCTURE PRE-ALERT) / default 6405 SPRING FOREST RD CFR1 TIME: 17:14:24 ESZ: 3302 MAP: 4567F5 SUBDIV: SPRING RIDGE Dis",
+        "CALL:HOUSE/APPLIANCE FIRE (STRUCTURE PRE-ALERT)/default",
+        "ADDR:6405 SPRING FOREST RD",
+        "CITY:Frederick City",
+        "BOX:3302",
+        "MAP:4567F5 SUBDIV: SPRING RIDGE");
  }
   
   public static void main(String[] args) {
-    new MDFrederickCountyParserTest().generateTests("T19", "CALL ADDR PLACE BOX UNIT MAP");
+    new MDFrederickCountyParserTest().generateTests("T19", "CALL ADDR CITY PLACE BOX UNIT MAP");
   }
 }
