@@ -10,7 +10,7 @@ public class PaidWarnDonateEvent extends DonateScreenEvent {
   
   public PaidWarnDonateEvent() {
     super(AlertStatus.YELLOW, R.string.donate_paid_warn_title, R.string.donate_paid_warn_text,
-          PaypalDonateEvent.instance());
+          PaypalDonateEvent.instance(), MagicWordEvent.instance());
   }
 
   @Override

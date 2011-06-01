@@ -85,30 +85,35 @@ public class DeveloperToolsManager {
         
       case 2:     // Stat: Donate paid
         ManagePreferences.setFreeRider(false);
+        ManagePreferences.setAuthLocation(null);
         setPaidYear(0);
         setInstallDate(-20, -1);
         break;
         
       case 3:     // Stat: Donate warn
         ManagePreferences.setFreeRider(false);
+        ManagePreferences.setAuthLocation(null);
         setPaidYear(-1);
         setInstallDate(DonationManager.EXPIRE_WARN_DAYS-2, -3);
         break;
         
       case 4:     // Stat: Donate expire
         ManagePreferences.setFreeRider(false);
+        ManagePreferences.setAuthLocation(null);
         setPaidYear(-1);
         setInstallDate(-1, -3);
         break;
       
       case 5:     // Stat: Demo
         ManagePreferences.setFreeRider(false);
+        ManagePreferences.setAuthLocation(null);
         setPaidYear();
         setInstallDate(-10, 0);
         break;
         
       case 6:     // Stat: Demo expired
         ManagePreferences.setFreeRider(false);
+        ManagePreferences.setAuthLocation(null);
         setPaidYear();
         setInstallDate(-(DonationManager.DEMO_LIMIT_DAYS+1), 0);
         break;
@@ -117,7 +122,7 @@ public class DeveloperToolsManager {
         ManagePreferences.setRelease("");
         break;
       }
-      MainDonateEvent.instance().actionComplete();
+      MainDonateEvent.instance().refreshStatus();
     }
     
     

@@ -6,7 +6,7 @@ public class DemoExpireDonateEvent extends DonateScreenEvent {
 
   protected DemoExpireDonateEvent() {
     super(AlertStatus.YELLOW, R.string.donate_demo_expire_title, R.string.donate_demo_expire_text,
-           PaypalDonateEvent.instance(),
+           PaypalDonateEvent.instance(), MagicWordEvent.instance(),
            NoUserDonateEvent.instance(), WrongUserDonateEvent.instance());
   }
 

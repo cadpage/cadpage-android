@@ -20,9 +20,8 @@ public class PaypalDonateEvent extends DonateEvent {
   @Override
   protected void doEvent(Activity activity) {
     Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(TARGET_URL)); 
-    activity.startActivity(intent); 
-    activity.setResult(Activity.RESULT_OK);
-    activity.finish();
+    activity.startActivity(intent);
+    closeEvents(activity);
   }
   
   private static final PaypalDonateEvent instance = new PaypalDonateEvent();

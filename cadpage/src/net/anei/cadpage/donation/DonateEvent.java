@@ -145,4 +145,15 @@ public abstract class DonateEvent {
   protected void setTextColor(TextView view) {
     if (alertStatus != null) view.setTextColor(ALERT_COLORS[alertStatus.ordinal()]);
   }
+  
+  /**
+   * Close all donation events and recalculate the donation status
+   * @param activity activity that launched this event
+   */
+  protected void closeEvents(Activity activity) {
+    MainDonateEvent.instance().refreshStatus();
+    activity.setResult(Activity.RESULT_OK);
+    activity.finish();
+    
+  }
 }

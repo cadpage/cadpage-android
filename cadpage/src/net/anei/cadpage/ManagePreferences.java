@@ -372,6 +372,24 @@ public class ManagePreferences {
     prefs.putBoolean(R.string.pref_free_rider_key, newVal);
     DonationManager.reset();
   }
+  
+  public static String authLocation() {
+    return prefs.getString(R.string.pref_auth_location, "");
+  }
+  
+  public static void setAuthLocation(String newVal) {
+    if (newVal != null && newVal.equals(authLocation())) return;
+    prefs.putString(R.string.pref_auth_location, newVal);
+    DonationManager.reset();
+  }
+  
+  public static String authOrganization() {
+    return prefs.getString(R.string.pref_auth_organization, "");
+  }
+  
+  public static void setAuthOrganization(String newVal) {
+    prefs.putString(R.string.pref_auth_organization, newVal);
+  }
 
 
   /**

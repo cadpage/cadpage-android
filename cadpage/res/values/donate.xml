@@ -14,6 +14,13 @@
     Thank your for you contributions.
   </string>
   
+  <string name="donate_auth_title">Thank you for your support</string>
+  <string name="donate_auth_text">
+    You have free access to Cadpage as a member of\n
+    %s\n
+    Thank you for your support
+  </string>
+  
   <string name="donate_paid_title">Your Cadpage subscription is current</string>
   <string name="donate_paid_text">
     Your current Cadpage subscription will expire on\n%s
@@ -61,10 +68,7 @@
   <string name="donate_email_title">Send Email</string>
   
   <string name="donate_magic_word_title">I have an authorization code</string>
-  <string name="donate_magic_word_text">Enter authorization code</string>
+  <string name="donate_magic_word_text">Enter authorization code for\nCypress Creek VFD</string>
   <string name="donate_magic_word_reject">Sorry, that is not a recognized authorization code</string>
-  <string name="donatg_magic_word_accept">Authorization code verified</string>
-  
-  
   
 </resources>

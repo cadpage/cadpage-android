@@ -11,7 +11,7 @@ public class DonationManager {
   public static final int DEMO_LIMIT_DAYS = 30;
   public static final int EXPIRE_WARN_DAYS = 30;
   
-  public enum DonationStatus {FREE, PAID, PAID_WARN, PAID_EXPIRE, DEMO, DEMO_EXPIRE};
+  public enum DonationStatus {FREE, AUTH_DEPT, PAID, PAID_WARN, PAID_EXPIRE, DEMO, DEMO_EXPIRE};
   
   // Singleton instance
   private static DonationManager instance = new DonationManager();
@@ -67,7 +67,9 @@ public class DonationManager {
     }
     
     if (ManagePreferences.freeRider()) status = DonationStatus.FREE;
-    else if (expireDate != null) {
+    else if (ManagePreferences.authLocation().equals(ManagePreferences.location())) {
+      status = DonationStatus.AUTH_DEPT;
+    } else if (expireDate != null) {
       if (daysTillExpire > EXPIRE_WARN_DAYS) status = DonationStatus.PAID;
       else if (daysTillExpire >= 0) status = DonationStatus.PAID_WARN;
       else status = DonationStatus.PAID_EXPIRE;

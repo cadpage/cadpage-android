@@ -17,8 +17,7 @@ public class EmailDonateEvent extends DonateEvent {
   @Override
   protected void doEvent(Activity activity) {
     EmailDeveloperActivity.sendWrongUserEmail(activity);
-    activity.setResult(Activity.RESULT_OK);
-    activity.finish();
+    closeEvents(activity);
   }
   
   private static final EmailDonateEvent instance = new EmailDonateEvent();
