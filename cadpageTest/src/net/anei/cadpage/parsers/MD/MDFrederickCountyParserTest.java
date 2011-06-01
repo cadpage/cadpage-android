@@ -100,7 +100,17 @@ public class MDFrederickCountyParserTest extends BaseParserTest {
         "PLACE:@I270NB / MONOCACY RIVER",
         "BOX:327002",
         "MAP:46");
-        
-    
+
+    doTest("T19",
+        "(CAD) [FredCo] CT: TROUBLE BREATHING / default 13862-A OLD NATIONAL PIKE CMTY TIME: 01:39:41 ESZ: 1521 MAP: 4690B2 Disp: CCM19,CCLS1,RE153",
+        "CALL:TROUBLE BREATHING/default",
+        "ADDR:13862-A OLD NATIONAL PIKE",
+        "BOX:1521",
+        "UNIT:CCM19,CCLS1,RE153",
+        "MAP:4690B2");
+ }
+  
+  public static void main(String[] args) {
+    new MDFrederickCountyParserTest().generateTests("T19", "CALL ADDR PLACE BOX UNIT MAP");
   }
 }
