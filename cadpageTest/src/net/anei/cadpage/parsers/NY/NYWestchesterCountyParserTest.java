@@ -135,10 +135,19 @@ public class NYWestchesterCountyParserTest extends BaseParserTest {
         "X:ORMOND PL",
         "CALL:STRU",
         "INFO:WPH1");
+
+    doTest("T7",
+        "Subject:IPage\n15 MADISON AVE MAMARONECK_T: @NEW YORK SPORTS CLUB, Cross: BYRON PL, Type:ALS, , Time out: 15:34:49 Area: LARCH,Alarm lev: 0 ,Comments:   KNOX BOX ON PREMISE   DISLOCATED SHOULDER",
+        "ADDR:15 MADISON AVE",
+        "CITY:LARCHMONT",
+        "PLACE:NEW YORK SPORTS CLUB",
+        "X:BYRON PL",
+        "CALL:ALS",
+        "INFO:KNOX BOX ON PREMISE   DISLOCATED SHOULDER");
     
   }
   
   public static void main(String[] args) {
-    new NYWestchesterCountyParserTest().generateTests("T8");
+    new NYWestchesterCountyParserTest().generateTests("T7");
   }
 }
