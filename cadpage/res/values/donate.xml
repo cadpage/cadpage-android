@@ -5,7 +5,6 @@
     <item>kencorbin101@gmail.com</item>
   </string-array>
 
-
   <string name="donate_btn_cancel">Cancel</string>
   <string name="donate_btn_done">Done</string>
   
@@ -60,6 +59,12 @@
   
   <string name="donate_paypal_title">Donate through PayPal</string>
   <string name="donate_email_title">Send Email</string>
+  
+  <string name="donate_magic_word_title">I have an authorization code</string>
+  <string name="donate_magic_word_text">Enter authorization code</string>
+  <string name="donate_magic_word_reject">Sorry, that is not a recognized authorization code</string>
+  <string name="donatg_magic_word_accept">Authorization code verified</string>
+  
   
   
 </resources>
