@@ -39,6 +39,12 @@ Contact: Bill Green <wbgreen1@gmail.com>
 
 Contact: "bubbaclary@yahoo.com" <bubbaclary@yahoo.com>
 (CAD) [FredCo] CT: CARDIAC PATIENT 12 AFTON CT BRUN ESZ: 502 MAP: 4683C9 SUBDIV: GALYN MANOR Disp: A199,M20,A209,5FR [93]
+
+Contact: Bill Stearn <wstearn@gmail.com>
+Sender: rc.404@c-msg.net
+(CAD) [FredCo] CT: TROUBLE BREATHING / default 13862-A OLD NATIONAL PIKE CMTY TIME: 01:39:41 ESZ: 1521 MAP: 4690B2 Disp: CCM19,CCLS1,RE153
+
+
 ***/
 
 public class MDFrederickCountyParser extends SmartAddressParser {
@@ -46,7 +52,7 @@ public class MDFrederickCountyParser extends SmartAddressParser {
   private static final String DEF_STATE = "MD";
   private static final String DEF_CITY = "FREDERICK COUNTY";
 
-  private static final String[]Fredrickkeywords = new String[]{"CT", "ESZ", "MAP", "Disp",};
+  private static final String[]Fredrickkeywords = new String[]{"CT", "CMTY TIME", "ESZ", "MAP", "Disp",};
   
   private static final Properties CITY_CODE_TABLE = 
     buildCodeTable(new String[]{
