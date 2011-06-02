@@ -32,10 +32,6 @@ public class SmsMmsMessage implements Serializable {
   // Message types
   public static final int MESSAGE_TYPE_SMS = 0;
   public static final int MESSAGE_TYPE_MMS = 1;
-  public static final int MESSAGE_TYPE_MESSAGE = 2;
-
-  // Timestamp compare buffer for incoming messages
-  public static final int MESSAGE_COMPARE_TIME_BUFFER = 5000; // 5 seconds
 
   // Main message object private vars
   private String fromAddress = null;
@@ -48,7 +44,6 @@ public class SmsMmsMessage implements Serializable {
   private List<String> extraMsgBody = null;
   private long timestamp = 0;
   private int messageType = 0;
-  private boolean fromEmailGateway = false;
   private MessageClass messageClass = null;
   private boolean read = false;             
   private boolean locked = false;
@@ -126,7 +121,6 @@ public class SmsMmsMessage implements Serializable {
      * Fetch data from raw SMS
      */
     fromAddress = sms.getDisplayOriginatingAddress();
-    fromEmailGateway = sms.isEmail();
     messageClass = sms.getMessageClass();
     sentTime = sms.getTimestampMillis();
     iccIndex = sms.getIndexOnIcc();
@@ -543,10 +537,6 @@ public class SmsMmsMessage implements Serializable {
   public String getAddress() {
     return parseAddress;
   }
-
-  public boolean isEmail() {
-    return fromEmailGateway;
-  }
   
   public String getLocation() {
     return location;
@@ -818,9 +808,6 @@ public class SmsMmsMessage implements Serializable {
     
     sb.append("\nClass:");
     sb.append(messageClass);
-    
-    sb.append("\nGateway:");
-    sb.append(fromEmailGateway);
     
     sb.append("\nSubject:");
     sb.append(parseSubject);

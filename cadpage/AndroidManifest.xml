@@ -28,12 +28,6 @@
         <action android:name="android.provider.Telephony.WAP_PUSH_RECEIVED" />
         <data android:mimeType="application/vnd.wap.mms-message" />
       </intent-filter>
-      <intent-filter>
-        <action android:name="net.anei.cadpage.MESSAGE_RECEIVED" />
-      </intent-filter>
-      <intent-filter>
-        <action android:name="com.android.mms.transaction.MESSAGE_SENT" />
-      </intent-filter>
     </receiver>
     <receiver android:name=".ExternalEventReceiver">
       <intent-filter>

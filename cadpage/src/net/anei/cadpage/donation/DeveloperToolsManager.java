@@ -5,6 +5,7 @@ import java.util.Calendar;
 import java.util.GregorianCalendar;
 
 //import net.anei.cadpage.ContentQuery;
+import net.anei.cadpage.ContentQuery;
 import net.anei.cadpage.ManagePreferences;
 import net.anei.cadpage.R;
 import android.content.Context;
@@ -55,11 +56,12 @@ public class DeveloperToolsManager {
       "Stat: Donate expired",
       "Stat: Demo",
       "Stat: Demo expired",
-      "Reset release info"
+      "Reset release info",
+      "Content Query"
     };
     
     private static final String[] valueList = new String[]{
-      "1", "2", "3", "4", "5", "6", "7"
+      "1", "2", "3", "4", "5", "6", "7", "8"
     };
 
     public DeveloperListPreference(Context context) {
@@ -120,6 +122,10 @@ public class DeveloperToolsManager {
         
       case 7:     // Reset release info
         ManagePreferences.setRelease("");
+        break;
+        
+      case 8:     // Content Query
+        ContentQuery.query(context);
         break;
       }
       MainDonateEvent.instance().refreshStatus();

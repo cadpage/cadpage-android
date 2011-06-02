@@ -5,11 +5,16 @@ import android.app.PendingIntent;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
+import android.os.Bundle;
 import android.telephony.SmsMessage;
 import android.telephony.TelephonyManager;
 import android.telephony.SmsMessage.MessageClass;
 
 public class SmsReceiver extends BroadcastReceiver {
+  
+  private static final String ACTION_SMS_RECEIVED = "android.provider.Telephony.SMS_RECEIVED";
+  private static final String ACTION_MMS_RECEIVED = "android.provider.Telephony.WAP_PUSH_RECEIVED";
+  private static final String MMS_DATA_TYPE = "application/vnd.wap.mms-message";
   
   private static final String EXTRA_TIMEOUT = "net.anei.cadpage.SmsReceive.MSG_TIMEOUT";
   private static final String EXTRA_REPEAT_LAST = "net.anei.cadpage.SmsReceive.REPEAT_LAST";
@@ -47,8 +52,23 @@ public class SmsReceiver extends BroadcastReceiver {
       message = SmsMsgLogBuffer.getInstance().getLastMessage();
       if (message != null) message.setRead(false);
     }
+    
+    // Process incoming MMS message
+    else if (ACTION_MMS_RECEIVED.equals(intent.getAction()) && 
+              MMS_DATA_TYPE.equals(intent.getType())) {
+      
+      // For starters, all we do is log the intent contents
+      Log.w("MMS message received");
+      Log.w(intent.toString());
+      Bundle b = intent.getExtras();
+      if (b != null) Log.w(b.toString());
+      Object data = b.get("data");
+      String sData = new String((byte[])data);
+      Log.w("data=" + sData);
+    }
+     
     // Otherwise convert Intent into an SMS/MSS message
-    else {
+    else if (ACTION_SMS_RECEIVED.equals(intent.getAction())) {
       SmsMessage[] messages = SmsPopupUtils.getMessagesFromIntent(intent);
       if (messages == null) return;
       message = new SmsMmsMessage( messages,System.currentTimeMillis());
