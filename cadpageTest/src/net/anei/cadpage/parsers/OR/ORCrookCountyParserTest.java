@@ -83,9 +83,17 @@ public class ORCrookCountyParserTest extends BaseParserTest {
         "CALL:MFALL - FALL",
         "ADDR:14493 SE LEE WAY",
         "CITY:PRINEVILLE");
+
+    doTest("T10",
+        "S:NEW INCIDENT M:6/2/2011 1006\nEVENT # 1106020016 PFD\nALARM - 1201:1225/1221/1222/...\nPRIORITY 1\nLOCATION 1100 SE LYNN\nCITY PRINEVILLE\nAPT\nPREMISE:\nCOMMENT: SMOKE ALARM//",
+        "ID:1106020016 PFD",
+        "CALL:ALARM - 1201:1225/1221/1222/...",
+        "ADDR:1100 SE LYNN",
+        "CITY:PRINEVILLE",
+        "INFO:SMOKE ALARM//");
   }
   
   public static void main(String[] args) {
-    new ORCrookCountyParserTest().generateTests("T7");
+    new ORCrookCountyParserTest().generateTests("T10");
   }
 }
