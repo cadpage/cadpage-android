@@ -33,6 +33,9 @@ LC911:- Nature: CHOKING - Location:     155.00  CLARK DR JOHNSTOWN -
 
 LC911:SICK PERSON     48 N KASSON ST   JOHNSTOWN
 
+Contact: Michael Simms <michael.a.simm
+LC911:TRAFFIC ACCIDENT 161 WB NEAR BEECH RD\n
+
 */
 public class OHLickingCountyParser extends SmartAddressParser {
   
