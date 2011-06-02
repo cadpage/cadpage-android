@@ -33,7 +33,7 @@ public class NCGuilfordCountyParser extends DispatchOSSIParser {
   
   @Override
   public String getFilter() {
-    return "CAD@buncombecounty.org";
+    return "@edsipatches.com";
   }
   
   @Override
