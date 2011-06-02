@@ -117,9 +117,18 @@ public class MDFrederickCountyParserTest extends BaseParserTest {
         "CITY:Frederick City",
         "BOX:3302",
         "MAP:4567F5 SUBDIV: SPRING RIDGE");
+
+    doTest("T21",
+        "(CAD) [FredCo] CT: HOUSE / FIRE-VISIBLE 808 E SOUTH ST FRE1 TIME: 03:24:42 ESZ: 308 MAP: 4566G5 Disp: E31,E22,E331,E311,A38,RS3,TR42,TWR1,T1,ET233,ET154,BAT900,SF",
+        "CALL:HOUSE/FIRE-VISIBLE",
+        "ADDR:808 E SOUTH ST",
+        "CITY:Frederick City",
+        "BOX:308",
+        "UNIT:E31,E22,E331,E311,A38,RS3,TR42,TWR1,T1,ET233,ET154,BAT900,SF",
+        "MAP:4566G5");
  }
   
   public static void main(String[] args) {
-    new MDFrederickCountyParserTest().generateTests("T19", "CALL ADDR CITY PLACE BOX UNIT MAP");
+    new MDFrederickCountyParserTest().generateTests("T21", "CALL ADDR CITY PLACE BOX UNIT MAP");
   }
 }
