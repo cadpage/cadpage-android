@@ -126,9 +126,18 @@ public class MDFrederickCountyParserTest extends BaseParserTest {
         "BOX:308",
         "UNIT:E31,E22,E331,E311,A38,RS3,TR42,TWR1,T1,ET233,ET154,BAT900,SF",
         "MAP:4566G5");
+
+    doTest("T22",
+        "(CAD) [FredCo] CT: TROUBLE BREATHING / default 7 S FEDERAL ST NEWM TIME: 12:02:44 ESZ: 1501 MAP: 4568H9 Disp: A159,M17",
+        "CALL:TROUBLE BREATHING/default",
+        "ADDR:7 S FEDERAL ST",
+        "CITY:New Market",
+        "BOX:1501",
+        "UNIT:A159,M17",
+        "MAP:4568H9");
  }
   
   public static void main(String[] args) {
-    new MDFrederickCountyParserTest().generateTests("T21", "CALL ADDR CITY PLACE BOX UNIT MAP");
+    new MDFrederickCountyParserTest().generateTests("T23", "CALL ADDR CITY PLACE BOX UNIT MAP");
   }
 }
