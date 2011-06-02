@@ -1743,9 +1743,11 @@ Contact:Mario Orlassino <morlassi@gmail.com>
 Sender: bfc-alert@bfc1.net
 RESCUE-AMBULANCE\n18:09\n06/01/11\nELDERLY FEMALE-STROKE\n3 BALDWIN BLVD\nBAYARD AVE / KNOLLWOOD AVE\nMAP 6-C\n
 
-Contact: Daniel Dutton <ncfm80@gmail.com>
+Contact: Daniel Dutton <ncfm80@gmail.com>,NCFM80@vtext.com,5163186932@vzwpix.com
 Automatic Alarm - Residential, Water Flow: Zone: 43, Response:CO4, CO3\nat 51 GREAT NECK RD, GREAT NECK   c/s: SO. MIDDLE NECK RD.   O: ATRIA (Use For Fire
-
+MVA w/ Aided: Zone: 54, Response:CO5, CO4, CO6 at LAKEVILLE RD / NORTHERN STATE PKWY, LAKE SUCCESS . . 10:28:36
+Automatic Alarm - Residential: Zone: 21, Response:CO2, CO1 at 32 BUCKMINSTER LA, STRATHMORE VILLAGE  c/s: SUSSEX DR   O: URALLEY . . 21:03:10
+Automatic Alarm - Commercial: Zone: 54, Response:CO5, CO4 at 1 DELAWARE DR, LAKE SUCCESS QUARD  c/s: MARCUS AV   O: PARKER JEWISH CENTER-PRO HEALTH . . 1
 **********************************************************
 Hudson, OH
 Contact: "Graham, Bruce" <BGraham@hudson.oh.us>
@@ -2076,6 +2078,11 @@ Contact: Terry Goldhamer <tbg120@gmail.com>
 Sender: DISPATCH@CHAGRINFALLSPD.COM
 (Dispatch Message) ALARMS-CO DETECTOR        \n90 FALLS CREEK TR \nGUARDIAN ALARM 866.883.3100\nCO ALARM SOUNDING, SIGNAL COMES TO ALARM CENTER\nOPR/STACY
 **********************************************************
+Transylvania County, NC
+Contact: 8285771168@vzwpix.com
+911CENTER:45 OAK PARK DR BREVARD CITY 2011-019677 10:43:54 ALARM FIRE (10-37) alarm fire
+**********************************************************
+**********************************************************
 **********************************************************
 ************  READY TO ROLL ******************************
 **********************************************************
@@ -2240,3 +2247,6 @@ FRM:textmsg@lcd911.com\nSUBJ:LCD\nMSG:BRIDGEWATER FIRE RESPOND TO 209 NORTHROP S
 (LCD) MEDIC 4 RESPOND TO 33 HARRY BROOK VILLAGE   NEW MILFORD, , 63 M HEART PROBLEM, 19-D-4 :18:31
 (LCD) MEDIC 4 RESPOND TO  WELLSVILLE AVE AREA OF CANTERBURY ARMS  NEW MILFORD, , 53 F DIABETIC, 13-C-1 :19:43
 (LCD) MEDIC 4 RESPOND TO 33 HARRY BROOK VILLAGE   NEW MILFORD, , 63 M HEART PROBLEM, 19-D-4 :18:31
+(LCD) MEDIC 4 RESPOND TO 1 GLEN AYRE DR\3sNEW MILFORD, , 60 F SICK PERSON, 26-C-1 :10:36
+(LCD) MEDIC 4 RESPOND TO 11 OLD PARK LANE RD NEW MILFORD MEDICAL GROUP  NEW MILFORD, ,   HEART PROBLEM, 19-C-4 :10:57
+(LCD) MEDIC 4 RESPOND TO 1 OLD STATE RD\3sNEW MILFORD, ,\3sDIFF BREATH, 6-C-1 :11:31
