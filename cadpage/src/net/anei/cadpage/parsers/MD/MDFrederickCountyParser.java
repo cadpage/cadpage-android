@@ -45,7 +45,7 @@ Sender: rc.404@c-msg.net
 (CAD) [FredCo] CT: TROUBLE BREATHING / default 13862-A OLD NATIONAL PIKE CMTY TIME: 01:39:41 ESZ: 1521 MAP: 4690B2 Disp: CCM19,CCLS1,RE153
 (CAD) [FredCo] CT: HOUSE / APPLIANCE FIRE (STRUCTURE PRE-ALERT) / default 6405 SPRING FOREST RD CFR1 TIME: 17:14:24 ESZ: 3302 MAP: 4567F5 SUBDIV: SPRING RIDGE Dis
 (CAD) [FredCo] CT: HOUSE / FIRE-VISIBLE 808 E SOUTH ST FRE1 TIME: 03:24:42 ESZ: 308 MAP: 4566G5 Disp: E31,E22,E331,E311,A38,RS3,TR42,TWR1,T1,ET233,ET154,BAT900,SF
-
+(CAD) [FredCo] CT: TROUBLE BREATHING / default 7 S FEDERAL ST NEWM TIME: 12:02:44 ESZ: 1501 MAP: 4568H9 Disp: A159,M17
 
 ***/
 
@@ -72,6 +72,7 @@ public class MDFrederickCountyParser extends SmartAddressParser {
         "CWAL","Walkersville",
         "FRAN CO", "Franklin County",
         "FRE1", "Frederick City",
+        "NEWM", "New Market",
         "THUR","Thurmont",
         "WOOD","Woodsboro",
     });
