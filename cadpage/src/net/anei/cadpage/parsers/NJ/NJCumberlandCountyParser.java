@@ -23,6 +23,10 @@ E911:B2_UNKNOWNF_(VINELAND CITY)1775 ROOSEVELT BLVD / BEHIND_2011-05-01 00:10:13
 E911:E2901_MVC_(DEERFIELD TWP)BIG OAK RD & MORTON AV_2011-04-30 00:06:19_
 E911:E2901_COMM ALARM_(DEERFIELD TWP)MAJOR OIL / 733 LANDIS AV_2011-05-12 09:29:52_
 
+Contact: Will Mosley <willmosleysr@gmail.com>
+NJFFS-FD_WDS/BRSH_(MILLVILLE CITY)MILL VILLAGE APTS / 301 N WADE BLVD_2011-06-02 21:50:47_BEHIND/WOODS
+
+
 */
 
 public class NJCumberlandCountyParser extends FieldProgramParser {
@@ -30,7 +34,7 @@ public class NJCumberlandCountyParser extends FieldProgramParser {
   
   public NJCumberlandCountyParser() {
     super("CUMBERLAND COUNTY", "NJ",
-           "UNIT CALL ADDR SKIP PLACE");
+           "UNIT CALL ADDR TIME! PLACE");
   }
   
   @Override
@@ -40,8 +44,7 @@ public class NJCumberlandCountyParser extends FieldProgramParser {
   
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
-    if (!body.startsWith("E911:")) return false;
-    body = body.substring(5).trim();
+    if (body.startsWith("E911:")) body = body.substring(5).trim();
     return parseFields(body.split("_"), data);
   }
   
@@ -88,6 +91,12 @@ public class NJCumberlandCountyParser extends FieldProgramParser {
     }
   }
   
+  private class TimeStampField extends SkipField {
+    public TimeStampField() {
+      setPattern(Pattern.compile("\\d\\d\\d\\d-\\d\\d-\\d\\d \\d\\d:\\d\\d:\\d\\d"), true);
+    }
+  }
+  
   private class MyPlaceField extends PlaceField {
     @Override
     public void parse(String field, Data data) {
@@ -98,6 +107,7 @@ public class NJCumberlandCountyParser extends FieldProgramParser {
   @Override
   public Field getField(String name) {
     if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("TIME")) return new TimeStampField();
     if (name.equals("PLACE")) return new MyPlaceField();
     return super.getField(name);
   }
