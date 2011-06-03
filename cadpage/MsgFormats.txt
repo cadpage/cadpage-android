@@ -1026,6 +1026,11 @@ Charleston County, SC (SCCharlestonCountyAParser)
 Charleston County, SC (SCCharlestonCountyBParser)
 Medical Assist Charlie Respons 1605 Highway 41 X Street: JOE ROUSE RD/JOE ROUSE RD Op Channel: EMS OPS
 ***************************************************************************
+Spartanburg County, SC (SCSPartanburgCountyParser)
+GLFD - CF/14072 TYP: ..FUEL SPILL........ AD: DOGWOOD CLUB RD&S PINE ST CMT1: <<< FUEL SPILL >>> CMT2: <<< SEND GLENDALE AND PACOLET ON ALL STRUCTURE
+GLFD - CF/13375 TYP: COMMERC FIRE ALARM. AD: 2720 COUNTRY CLUB RD LOC: PARK PLACE ASSISTED LIVING CMT1: <<< SEND GLENDALE AND PACOLET ON ALL STRUCTURE
+GLFD - CF/13440 TYP: FIRE ALARM(RESDENTL) AD: 200 JOHNSON LAKE RD LOC: MURF/RESD/5831013 CMT1: <<< SEND GLENDALE AND PACOLET ON ALL STRUCTURE FIRES &
+***************************************************************************
 York County, SC (SCYorkCountyParser) 
 F212  P: 2 LOC: 375 STARLIGHT DR X: CAUSE WAY LN / ZENITH AV * * Fort Mill * * Trauma * MED OPS 2//FALL W/INJURY * RYAN CORNWEL NAR:  FRONT OF MOTEL CALLER WILL FLAG THEM DOWN  RM 374/53 YOM FELL OFF SCAFFOLDING LAST WEEK FELL AGAIN TODAY/HIP PAIN  INC#: 2010-00009042 
 FM2  P: 1 LOC: 9657 BLACK HORSE RUN X: * * * * Structure Fire * YCF OPS 2/STR FIRE * LANCASTER CNTY NAR:  HWY 521 CHARLOTTE HWY  FT MILL ASSIST ON MUTUAL AIDE  INC#: 2010-00000702 
@@ -2104,9 +2109,7 @@ Contact: 8285771168@vzwpix.com
 ************  READY TO ROLL ******************************
 **********************************************************
 **********************************************************
-Deleware County, PA in progress
 **********************************************************
-Spartanburg County, SC in progress
 **********************************************************
 Wilson County, NC in progress
 **********************************************************
