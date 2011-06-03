@@ -53,6 +53,15 @@ messaging@iamresponding.com (Avoca FD) 226 W WASHINGTON ST #APT 201, BATH VILLAG
 messaging@iamresponding.com (Avoca FD) 8039 SMITH POND RD , HOWARD TOWN OF (MACKEY RD / WESSELS HILL RD) Brush Fire\nAVOCAFDAMB:2011:127
 messaging@iamresponding.com (Avoca FD) THIS IS A TEST MESSAGE FOR I AM RESPONDING TEST\nAVOCFD:2011:57
 
+Contact: Rick Towner <towner.rick@gmail.com>
+Sender: messaging@iamresponding.com
+(Cohocton FD) /CARPET RACK ( 8 MAPLE AV COHOCTON VILLAGE OF )\n12D1 Convulsions Not breathing\nCOHOFAMB:2011:76
+(Cohocton FD) 86 MAPLE AV #FLR 1, COHOCTON VILLAGE OF (STATE ROUTE 962D / SHULTS AV)\n26A 2-11 Sick Person Non-Priority Complaints\nCOHOFAMB:2011:70
+(Cohocton FD) 10298 COUNTY ROUTE 9 , COHOCTON TOWN OF (EVELAND RD / )\n25B6 Psychiatric/Suicide attempt Unknown Status/Other Codes Not Applicable\nCOHOFAM
+(Cohocton FD) 24 N DANSVILLE ST #APT 110, COHOCTON VILLAGE OF\n21D3 Hemorrhage/Lacerations Dangerous Henorrhage\nCOHOFAMB:2011:72
+(Cohocton FD) 6 ERIE ST , COHOCTON TOWN OF (MAIN ST / BOGGS ST)\n12D3 Convulsions Agonal/Ineffective Breathing\nATLANFDAMB:2011:33
+(Cohocton FD) 5 ROSENCRANS ST , COHOCTON VILLAGE OF (LARROWE ST / MAPLE AV)\n31D2 Unconscious/Fainting Unconscious - Effective Breathing\nCOHOFAMB:2011:75
+
 */
 
 
@@ -119,16 +128,38 @@ public class NYSteubenCountyParser extends SmartAddressParser {
     private static final Pattern MASTER2 = Pattern.compile("(.*?) *, *(.*?) *\\( *(.*?/.*?) *\\) *(?:(\\d{1,2}[A-Z]\\d{1,2}) +)?(.*)");
     private static final Pattern MASTER3 = Pattern.compile("(.*?) *, *([^\\(\\)]*?) *(\\d{1,2}[A-Z]\\d{1,2}) +(.*)");
     private static final Pattern MASTER4 = Pattern.compile("(.*?) *, *([^\\(\\)]*?) (?:TOWN|VILLAGE) OF +(.*)");
-	  @Override
-	  protected boolean parseMsg(String body, Data data) { 
 
-	    // Look for starting page signature
-	    Matcher match = MARKER.matcher(body);
-	    if (!match.find()) return false;
-	    data.strSource = match.group(1);
-	    body = body.substring(match.end()).trim();
+    private static final Pattern BAD_BREAK = Pattern.compile("\n(?=\\d{1,2}[A-Z]\\d{0,2} )");
+	  @Override
+	  protected boolean parseMsg(String subject, String body, Data data) { 
+
+	    // There are a couple differnent text signatures we look for
+	    Matcher match;
+	    do {
+  	    // Look for starting page signature
+  	    match = MARKER.matcher(body);
+  	    if (match.find()) {
+  	      data.strSource = match.group(1);
+  	      body = body.substring(match.end()).trim();
+  	      break;
+  	    }
+  	    
+  	    // Sometimes the starting sender address is missing, which means the
+  	    // station code ends up in the description
+  	    if (subject.endsWith(" FD")) {
+  	      data.strSource = subject;
+  	      break;
+  	    }
+  	    
+  	    // Nothing worked, bail out
+  	    return false;
+	    } while (false);
 	    
-	    // Strip everything after the first newline
+	    // Some pages have a line break between the first paren pattern and the
+	    // call code.  If we find this, turn it into a blank
+	    body = BAD_BREAK.matcher(body).replaceFirst(" ");
+	    
+	    // Otherwise, everything after the first line break should be dropped
 	    int pt = body.indexOf('\n');
 	    if (pt >= 0) body = body.substring(0,pt);
 	    
