@@ -5,10 +5,12 @@ import java.util.regex.Pattern;
 
 public class PatternTest {
 
-  private static final Pattern MID_ID_PAT = Pattern.compile(" *& *");
+  private static final Pattern MID_ID_PAT = Pattern.compile("(?:\\bAPT\\b|#APT\\b|#) *([^ ]+)$");
   
   public static void main(String[] args) {
-    doTest("RED RD&BLACK ST");
+    doTest("black APT 23");
+    doTest("black # 23");
+    doTest("black #APT 23");
   }
   
   private static void doTest(String test) {

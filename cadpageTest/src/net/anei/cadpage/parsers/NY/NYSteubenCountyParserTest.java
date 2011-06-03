@@ -12,12 +12,26 @@ public class NYSteubenCountyParserTest extends BaseParserTest {
   }
   
   @Test
-  public void testParser() {
+  public void testProblems() {
+
+    doTest("T2",
+        "(Cohocton FD) 86 MAPLE AV #FLR 1, COHOCTON VILLAGE OF (STATE ROUTE 962D / SHULTS AV)\n26A 2-11 Sick Person Non-Priority Complaints\nCOHOFAMB:2011:70",
+        "SRC:Cohocton FD",
+        "ADDR:86 MAPLE AV #FLR 1",
+        "CITY:COHOCTON",
+        "X:STATE ROUTE 962D / SHULTS AV",
+        "CALL:ALERT",
+        "INFO:26A 2-11 Sick Person Non-Priority Complaints");
+  
+  }
+  
+  @Test
+  public void testAvocaParser() {
 
     doTest("T1",
         "messaging@iamresponding.com (Avoca FD) 64 S MAIN ST #APT OFFICE, AVOCA VILLAGE OF (STATE ROUTE 415 / CARRINGTON ST; Near: COHOCTON VALLEY HOME)6D4 Breathing Problems Clammy\nAVOCAFDA",
         "SRC:Avoca FD",
-        "ADDR:64 S MAIN ST #",
+        "ADDR:64 S MAIN ST",
         "APT:OFFICE",
         "CITY:AVOCA",
         "X:STATE ROUTE 415 / CARRINGTON ST; Near: COHOCTON VALLEY HOME",
@@ -353,7 +367,7 @@ public class NYSteubenCountyParserTest extends BaseParserTest {
     doTest("T38",
         "messaging@iamresponding.com (Avoca FD) 226 W WASHINGTON ST #APT 201, BATH VILLAGE OF (HUBBELL ST / FREEMAN TERR) 10D2 Chest Pain Difficulty Speaking Between Breaths\nBATHAMB:2011:77",
         "SRC:Avoca FD",
-        "ADDR:226 W WASHINGTON ST #",
+        "ADDR:226 W WASHINGTON ST",
         "APT:201",
         "CITY:BATH",
         "X:HUBBELL ST / FREEMAN TERR",
@@ -374,6 +388,68 @@ public class NYSteubenCountyParserTest extends BaseParserTest {
         "SRC:Avoca FD",
         "CALL:ALERT",
         "INFO:THIS IS A TEST MESSAGE FOR I AM RESPONDING TEST");
+
+  }
+  
+  @Test
+  public void testCohoctonParser() {
+
+    doTest("T1",
+        "(Cohocton FD) /CARPET RACK ( 8 MAPLE AV COHOCTON VILLAGE OF )\n12D1 Convulsions Not breathing\nCOHOFAMB:2011:76",
+        "SRC:Cohocton FD",
+        "PLACE:CARPET RACK",
+        "ADDR:8 MAPLE AV",
+        "CITY:COHOCTON",
+        "CODE:12D1",
+        "CALL:Convulsions Not breathing");
+
+    doTest("T2",
+        "(Cohocton FD) 86 MAPLE AV #FLR 1, COHOCTON VILLAGE OF (STATE ROUTE 962D / SHULTS AV)\n26A 2-11 Sick Person Non-Priority Complaints\nCOHOFAMB:2011:70",
+        "SRC:Cohocton FD",
+        "ADDR:86 MAPLE AV #FLR 1",
+        "CITY:COHOCTON",
+        "X:STATE ROUTE 962D / SHULTS AV",
+        "CALL:ALERT",
+        "INFO:26A 2-11 Sick Person Non-Priority Complaints");
+
+    doTest("T3",
+        "(Cohocton FD) 10298 COUNTY ROUTE 9 , COHOCTON TOWN OF (EVELAND RD / )\n25B6 Psychiatric/Suicide attempt Unknown Status/Other Codes Not Applicable\nCOHOFAM",
+        "SRC:Cohocton FD",
+        "ADDR:10298 COUNTY ROAD 9",
+        "CITY:COHOCTON",
+        "X:EVELAND RD",
+        "CODE:25B6",
+        "CALL:ALERT",
+        "INFO:Psychiatric/Suicide attempt Unknown Status/Other Codes Not Applicable");
+
+    doTest("T4",
+        "(Cohocton FD) 24 N DANSVILLE ST #APT 110, COHOCTON VILLAGE OF\n21D3 Hemorrhage/Lacerations Dangerous Henorrhage\nCOHOFAMB:2011:72",
+        "SRC:Cohocton FD",
+        "ADDR:24 N DANSVILLE ST",
+        "APT:110",
+        "CITY:COHOCTON",
+        "CODE:21D3",
+        "CALL:ALERT",
+        "INFO:Hemorrhage/Lacerations Dangerous Henorrhage");
+
+    doTest("T5",
+        "(Cohocton FD) 6 ERIE ST , COHOCTON TOWN OF (MAIN ST / BOGGS ST)\n12D3 Convulsions Agonal/Ineffective Breathing\nATLANFDAMB:2011:33",
+        "SRC:Cohocton FD",
+        "ADDR:6 ERIE ST",
+        "CITY:COHOCTON",
+        "X:MAIN ST / BOGGS ST",
+        "CODE:12D3",
+        "CALL:Convulsions Agonal/Ineffective Breathing");
+
+    doTest("T6",
+        "(Cohocton FD) 5 ROSENCRANS ST , COHOCTON VILLAGE OF (LARROWE ST / MAPLE AV)\n31D2 Unconscious/Fainting Unconscious - Effective Breathing\nCOHOFAMB:2011:75",
+        "SRC:Cohocton FD",
+        "ADDR:5 ROSENCRANS ST",
+        "CITY:COHOCTON",
+        "X:LARROWE ST / MAPLE AV",
+        "CODE:31D2",
+        "CALL:ALERT",
+        "INFO:Unconscious/Fainting Unconscious - Effective Breathing");
 
   }
   
