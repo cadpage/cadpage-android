@@ -1101,6 +1101,10 @@ Dispatch2:RESPOND SEIZURES 14 FRONTIER RIDGE CT, AP1302 SARS 1
 Dispatch2:MVC, HEAD ON COLLISION MAIN-ROSSER-BROAD
 Dispatch:RESPOND - 2ND CALL - CHEST PAIN - 1142 NEW HOPE RD, AP3
 ***************************************************************************
+Kenosha County, WI (WIKenoshaCountyParser)
+LMC213 #:002011070865 ILS MED at 7701 95TH ST Rem: 50 M ;HEART PROBLEM CONSCIOUS: YES ,BREATHING: YES
+NLB260 #:002011071148 ALS MED at 4204 109TH ST Rem: 69 F ;CHEST PAIN CONSCIOUS: YES ,BREATHING: YES
+DMB193 #:002011072020 BLS MED at 10519 120TH AVE EAST TOURIST INFO CNTR Rem: CHEST PAIN
 ***************************************************************************
 ***************************************************************************
 *********** Districts that are not yet supported. *************************
@@ -2102,15 +2106,6 @@ Spartanburg County, SC in progress
 Wilson County, NC in progress
 **********************************************************
 **********************************************************
-Kenosha County, WI
-Contact:    David Wilkinson <firemedic53142@gmail.com>
-Sender: @kccjs.org
-First code is dispatcher ID
-LMC213 #:002011070865 ILS MED at 7701 95TH ST Rem: 50 M ;HEART PROBLEM CONSCIOUS: YES ,BREATHING: YES
-NLB260 #:002011071148 ALS MED at 4204 109TH ST Rem: 69 F ;CHEST PAIN CONSCIOUS: YES ,BREATHING: YES
-DMB193 #:002011072020 BLS MED at 10519 120TH AVE EAST TOURIST INFO CNTR Rem: CHEST PAIN
-DMB193 #:002011072054 SUPERVISOR ALRM at 7887 94TH AVE HOLIDAY INN EXPRESS
-DMB193 #:002011072060 MVA at 80TH AVE and COOPER RD
 **********************************************************
 Kootenai County, ID
 Contact: "pbarkle1@mac.com" <pbarkle1@mac.com>

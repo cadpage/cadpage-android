@@ -391,6 +391,7 @@
     <item>VARockinghamCounty</item>
     <item>VAWaynesboro</item>
     <item>WICalumetCounty</item>
+    <item>WIKenoshaCounty</item>
   </string-array>
   
   <string-array name="pref_location_options">
@@ -584,6 +585,7 @@
     <item>Rockingham County, VA</item>
     <item>Waynesboro, VA</item>
     <item>Calumet County, WI</item>
+    <item>Kenosha County, WI</item>
   </string-array>
 
   <string-array name="email_devel_addr">
