@@ -6,7 +6,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchOSSIParser;
 /* 
 Guilford County, NC
 Contact: Shane Taylor <dstaylor9@gmail.com>
-Sender: @edsipatches.com 
+Sender: @edispatches.com 
 System: OSSI CAD?
 [summerfieldfiredist Jan24-10:01]  CAD:SMFD;ST09;1;52C03C;FIRAL;7607 BLUE SAGE CT
 [summerfieldfiredist Jan19-18:15]  CAD:SMFD;ST29;1;50PI;SCALESVILLE RD/LAKE BRANDT RD
@@ -33,7 +33,7 @@ public class NCGuilfordCountyParser extends DispatchOSSIParser {
   
   @Override
   public String getFilter() {
-    return "@edsipatches.com";
+    return "@edispatches.com";
   }
   
   @Override
