@@ -11,17 +11,7 @@ public class NJCumberlandCountyParserTest extends BaseParserTest {
   }
   
   @Test
-  public void testParser() {
-
-    doTest("T7",
-        "E911:L2_COMM ALARM_(VINELAND CITY)COURTYARD SCHOOL INC / 1270 S EAST AVE_2011-05-01 17:03:36_",
-        "UNIT:L2",
-        "CALL:COMM ALARM",
-        "CITY:VINELAND CITY",
-        "PLACE:COURTYARD SCHOOL INC",
-        "ADDR:1270 S EAST AVE");
-
-    
+  public void testParser1() {
     
     doTest("T1",
         "E911:E22_INVEST_(VINELAND CITY)1763 CHEROKEE LA_2011-04-24 19:02:46_",
@@ -100,10 +90,24 @@ public class NJCumberlandCountyParserTest extends BaseParserTest {
         "PLACE:MAJOR OIL",
         "ADDR:733 LANDIS AV");
   }
+  
+  @Test
+  public void testParser2() {
+
+    doTest("T1",
+        "NJFFS-FD_WDS/BRSH_(MILLVILLE CITY)MILL VILLAGE APTS / 301 N WADE BLVD_2011-06-02 21:50:47_BEHIND/WOODS",
+        "UNIT:NJFFS-FD",
+        "CALL:WDS/BRSH",
+        "CITY:MILLVILLE CITY",
+        "ADDR:301 N WADE BLVD",
+        "PLACE:MILL VILLAGE APTS / BEHIND/WOODS");
     
-    
-    
-    public static void main(String[] args) {
-      new NJCumberlandCountyParserTest().generateTests("T1");
-    }
   }
+ 
+    
+    
+    
+  public static void main(String[] args) {
+    new NJCumberlandCountyParserTest().generateTests("T11");
+  }
+}
