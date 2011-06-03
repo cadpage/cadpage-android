@@ -2,7 +2,6 @@ package net.anei.cadpage.parsers.PA;
 
 import net.anei.cadpage.parsers.BaseParserTest;
 
-import org.junit.Before;
 import org.junit.Test;
 
 
