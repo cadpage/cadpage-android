@@ -41,6 +41,7 @@ public class PADelewareCountyParser extends FieldProgramParser {
   @Override
   protected boolean parseMsg(String body, Data data) {
     Matcher match = MARKER.matcher(body);
+    if (!match.find()) return false;
     body = body.substring(match.end()).trim();
     return parseFields(body.split("\\*"), data);
   }
