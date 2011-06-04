@@ -22,7 +22,7 @@ public class ManagePreferences {
   // (OK, if you know what you are doing, and the only new settings added
   // are boolean settings that default to false, you can get away with not
   // changing this)
-  private static final int PREFERENCE_VERSION = 10;
+  private static final int PREFERENCE_VERSION = 11;
   
   private static ManagePreferences prefs;
 
@@ -303,6 +303,10 @@ public class ManagePreferences {
   
   public static boolean autoRotate() {
     return prefs.getBoolean(R.string.pref_autorotate_key);
+  }
+  
+  public static String mapNetworkChk() {
+    return prefs.getString(R.string.pref_map_network_chk_key);
   }
 
   public static int historyCount() {

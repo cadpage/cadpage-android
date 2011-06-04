@@ -166,19 +166,21 @@ public class SmsPopupUtils {
    */
   private static boolean haveNet(Context context){
 
+    // If configured to alway map request, return true
+    char checkNetwork = ManagePreferences.mapNetworkChk().charAt(0);
+    if (checkNetwork == 'A') return true;
+
+    // Otherwise, check to see if we have connectivity
+    // If we don't return false
     NetworkInfo info = (NetworkInfo) ((ConnectivityManager) 
         context.getSystemService(Context.CONNECTIVITY_SERVICE)).getActiveNetworkInfo();
-
-    if (info == null || !info.isConnected()) {
-      return false;
-    }
-    if (info.isRoaming()) {
-      // here is the roaming option you can change it if you want to
-      // disable Internet while roaming, just return false
-      return false;
-    }
-    return true;
-
+    if (info == null || !info.isConnected()) return false;
+    
+    // If we don't care about the roaming status, return true;
+    if (checkNetwork == 'R') return true;
+    
+    // Otherwise return true if we are not currently roaming
+    return (! info.isRoaming());
   }
 
 

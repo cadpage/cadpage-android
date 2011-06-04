@@ -141,6 +141,18 @@
     <!--item>@string/pref_custom</item-->
   </string-array>
   
+  <string-array name="pref_map_network_chk_values">
+    <item>C</item>
+    <item>R</item>
+    <item>A</item>
+  </string-array>
+  
+  <string-array name="pref_map_network_chk_entries">
+    <item>Connected</item>
+    <item>Roaming</item>
+    <item>Disconnected</item>
+  </string-array>
+  
   <string-array name="pref_history_limit_entries">
     <item>10</item>
     <item>20</item>

@@ -2275,13 +2275,24 @@ p=priority of the call:
 n=nature of the call which are all coded by general complaints & always have a letter after them to reaffirm the response level. 
 
 This format is used for all 911 agencies here in Vegas. AMR, MedicWest, Clark County Fd, las vegas Fd, north las vegas Fd, henderson Fd. 
-
+Looking at it, 
+B: is building, 
+AL: I THINK its where the buisness name suppose to come up, but I sent you one (in todays samples that's 4500 w tropicana, well that's the orleans casino, obviously no name on the sms), 
+ cc after the address is Clark County, 
+re is it was resent, 
+sms is a first page. 
+Im not sure what that code from fire is and location is if there's conflicting reports of location (which never happens). Odd system???? They, the bosses and cheifs have been threatening with a new system for yrs, but they keep finding ways to make this one work, lol,
 
 [SMS]  RE: 4051722 U: 3901, P: 2, G: 2914, PH: 28 L: 4966 MOMENTI ST-CC# , B: , AL: PC:, 26B PN:, N:26B], Location from Fire: 4966 MOMENTI ST, 01:57:51 88YOM CB...SE
 [SMS]  I: 4051701 U: 3901, P: 2, G: 2819, PH: 97 L: 6255 W TROPICANA AVE# , B: , AL: PC:, 32B PN:, N:32B], 00:38:29 Class of service: WPH2], 00:38:29 Validity of add
 [SMS]  I: 4051596 U: 3901, P: 2, G: 3223, PH: 55 L: S I 215 / S I 15# , B: , AL: PC:, 29B PN:, N:29B], 18:24:23 PR WAS PASSERBY UNK IF DRIVER IS INJ], 18:24:16 NHP E
 [SMS]  I: 4050480 U: 3901, P: 1, G: 2715, PH: 62 L: 3779 TOHONO CANYON ST-CC# , B: , AL: PC:, 19D PN:, N:19D], Location from Fire: 3779 TOHONO CANYON ST, 22:04:52 Cl
 [SMS]  I: 4050510 U: 3901, P: 1, G: 2925, PH: 92 L: 5757 WAYNE NEWTON BLVD-CC# , B: MCCARRAN INTERNATION, AL: PC:, 31D PN:, N:31D], Location from Fire: 5757 WAYNE NE
+[SMS]  I: 4051701 U: 3901, P: 2, G: 2819, PH: 97 L: 6255 W TROPICANA AVE# , B: , AL: PC:, 32B PN:, N:32B], 00:38:29 Class of service: WPH2], 00:38:29 Validity of add
+[SMS]  RE: 4051722 U: 3901, P: 2, G: 2914, PH: 28 L: 4966 MOMENTI ST-CC# , B: , AL: PC:, 26B PN:, N:26B], Location from Fire: 4966 MOMENTI ST, 01:57:51 88YOM CB...SE
+[SMS]  I: 4051593 U: 3901, P: 2, G: 3316, PH: 99 L: 291 TAYMAN PARK AVE# , B: , AL: PC:, 25B PN:, N:25B], 18:22:40 17YOM,, /L2K ,, CODE 4 TO ENTER METO 97], 18:22:19
+[SMS]  I: 4051184 U: 3901, P: 1, G: 2915, PH: 51 L: 10196 STONE OAK CT-CC# , B: , AL: PC:, 10D PN:, N:10D], Location from Fire: 10196 STONE OAK CT, 01:36:01 [Geograp
+[SMS]  I: 4049937 U: 3901, P: 1, G: 2824, PH: 57 L: 265 E HARMON AVE# , B: , AL: PC:, 6C PN:, N:6C], 00:09:13 65YOM,CSHORT OF BREATH], 00:09:04 [Address: 265 E HARMO
 **********************************************************
 Transylvania County, NC
 Contact: 8285771168@vzwpix.com

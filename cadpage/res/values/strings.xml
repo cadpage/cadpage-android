@@ -288,8 +288,10 @@
   <!-- Other new prefs -->
   <string name="pref_autorotate_title">Autorotate Always On</string>
   <string name="pref_autorotate_summaryon">Popup will always autorotate</string>
-  <string name="pref_autorotate_summaryoff">Popup will auto-rotate based on the screen behind
-    it</string>
+  <string name="pref_autorotate_summaryoff">Popup will auto-rotate based on the screen behind it</string>
+
+  <string name="pref_map_network_chk_title">Map Network Status</string>
+  <string name="pref_map_network_chk_summary">Map request allowed when network status is</string>
 
   <string name="pref_delete_unopen_title">Delete Unopened Calls</string>
   <string name="pref_delete_unopen_summaryon">Allow unopened calls to be deleted</string>
