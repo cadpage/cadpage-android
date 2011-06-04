@@ -55,7 +55,7 @@ public class TXCyCreekCommCenterParser extends SmsMsgParser {
   
   @Override
   public String getFilter() {
-    return "CommCenter@ccems.com,93001";
+    return "CommCenter@ccems.com,93001,777";
   }
 
   @Override
