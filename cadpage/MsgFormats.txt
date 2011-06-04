@@ -2005,12 +2005,6 @@ Contact: Terry Goldhamer <tbg120@gmail.com>
 Sender: DISPATCH@CHAGRINFALLSPD.COM
 (Dispatch Message) ALARMS-CO DETECTOR        \n90 FALLS CREEK TR \nGUARDIAN ALARM 866.883.3100\nCO ALARM SOUNDING, SIGNAL COMES TO ALARM CENTER\nOPR/STACY
 **********************************************************
-Transylvania County, NC
-Contact: 8285771168@vzwpix.com
-911CENTER:45 OAK PARK DR BREVARD CITY 2011-019677 10:43:54 ALARM FIRE (10-37) alarm fire
-911CENTER:2725 RESERVE RD LITTLE RIVER 2011-019735 16:20:13 ALARM FIRE (10-37) FOGLE, JOHN 8288775516 FIRE ALARM SMOKE DETECTOR
-911CENTER:1 WHITMIRE ST BREVARD CITY 2011-019863 13:34:30 STRUCTURE FIRE OUTBUILDING ON FIRE
-**********************************************************
 **********************************************************
 **********************************************************
 ************  READY TO ROLL ******************************
@@ -2194,8 +2188,7 @@ LMED1 LSQ1 L602 SEIZURE 34030 W 204TH ST  RAY COUNTY Description: camp wildernes
 
 107 N RAYMORE ST  WOOD HEIGHTS WHFD RCAD RCSO 800 M42 WHR1 678 Clear: 22:48:39 Available: 23:34:02
 15595 BLACKBERRY TRAIL  WHFD 800 LFD 802 LT1 LP1 WHP1 Dispatch: 5/24/2011 23:15:33 Enroute: 23:15:35 OnScene: 23:23:58
-
-
+15141 W COUNTY LINE RD  RAY COUNTY WHFD RCAD 671A 675A 800 M44 WHR1 Clear: 22:20:51 Available: 23:05:20
 
 DEPARTMENTS
 WHFD-wood heights fire dept
@@ -2265,3 +2258,34 @@ Sender: dispatchmessage@nwsmessage.net
 [NWS Message]  AMBULANCE Location: 55 SAINT FRANCIS DR Bourbonnais 06/01/11 12:38 Incident #: 2011-00001056
 [NWS Message] AMBULANCE Location: 1355 N  ARTHUR BURCH DR F11 Bourbonnais 06/03/11 14:32 Incident #: 2011-00001066
 [NWS Message]  AMBULANCE Location: 874 EDWIN DR Bourbonnais 06/01/11 14:24 Incident #: 2011-00004870
+**********************************************************
+Las Vegas, NV
+Contact: Andy Stone <akmedic33@gmail.com>
+Sender: sms@epageit.net
+System: GEAC software  
+
+The first number is the cad/incident number, 
+u=unit number/call sign, 
+g=grid/page in the map book, 
+ph=phantom is the identifier on the page closest to the address where the call is,
+p=priority of the call: 
+  p1 is the equivelent of a c/d (charlie/delta), 
+  p2 is the equivelent of a b (bravo) level call, 
+  p3 is the equivelent of a alpha level response (delta, charlie, & bravo level responses are all lights & siren calls), 
+n=nature of the call which are all coded by general complaints & always have a letter after them to reaffirm the response level. 
+
+This format is used for all 911 agencies here in Vegas. AMR, MedicWest, Clark County Fd, las vegas Fd, north las vegas Fd, henderson Fd. 
+
+
+[SMS]  RE: 4051722 U: 3901, P: 2, G: 2914, PH: 28 L: 4966 MOMENTI ST-CC# , B: , AL: PC:, 26B PN:, N:26B], Location from Fire: 4966 MOMENTI ST, 01:57:51 88YOM CB...SE
+[SMS]  I: 4051701 U: 3901, P: 2, G: 2819, PH: 97 L: 6255 W TROPICANA AVE# , B: , AL: PC:, 32B PN:, N:32B], 00:38:29 Class of service: WPH2], 00:38:29 Validity of add
+[SMS]  I: 4051596 U: 3901, P: 2, G: 3223, PH: 55 L: S I 215 / S I 15# , B: , AL: PC:, 29B PN:, N:29B], 18:24:23 PR WAS PASSERBY UNK IF DRIVER IS INJ], 18:24:16 NHP E
+[SMS]  I: 4050480 U: 3901, P: 1, G: 2715, PH: 62 L: 3779 TOHONO CANYON ST-CC# , B: , AL: PC:, 19D PN:, N:19D], Location from Fire: 3779 TOHONO CANYON ST, 22:04:52 Cl
+[SMS]  I: 4050510 U: 3901, P: 1, G: 2925, PH: 92 L: 5757 WAYNE NEWTON BLVD-CC# , B: MCCARRAN INTERNATION, AL: PC:, 31D PN:, N:31D], Location from Fire: 5757 WAYNE NE
+**********************************************************
+Transylvania County, NC
+Contact: 8285771168@vzwpix.com
+911CENTER:45 OAK PARK DR BREVARD CITY 2011-019677 10:43:54 ALARM FIRE (10-37) alarm fire
+911CENTER:2725 RESERVE RD LITTLE RIVER 2011-019735 16:20:13 ALARM FIRE (10-37) FOGLE, JOHN 8288775516 FIRE ALARM SMOKE DETECTOR
+911CENTER:1 WHITMIRE ST BREVARD CITY 2011-019863 13:34:30 STRUCTURE FIRE OUTBUILDING ON FIRE
+911CENTER:1 N BROAD ST BREVARD CITY 2011-019978 10:22:32 HAZARDOUS MATERIAL INCIDENT GREEN RANGE ROVER LEAKING GAS AT PUMP #7

@@ -22,6 +22,12 @@ System: OSSI CAD?
 (summerfieldfiredist Jan23-11:25) CAD:UNDER CONTROL;6308 PEPPERMILL DR; OAK
 (summerfieldfiredist Jan23-19:48) CAD:UNDER CONTROL;4529 PEEPLES RD; OAK
 
+Not yet implemented
+Contact: krpaschal@gmail.com <krpaschal@gmail.com>
+Sender: CAD@greensboro-nc.gov
+CAD@greensboro-nc.gov:CAD:CODE 47;7700 NEWSOME CT; B;CARDIAC / RESPIRATORY ARREST
+
+
 */
 
 public class NCGuilfordCountyParser extends DispatchOSSIParser {
