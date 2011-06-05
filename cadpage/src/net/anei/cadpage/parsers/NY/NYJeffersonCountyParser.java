@@ -1,7 +1,10 @@
 package net.anei.cadpage.parsers.NY;
 
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 import net.anei.cadpage.SmsMsgInfo.Data;
-import net.anei.cadpage.parsers.SmsMsgParser;
+import net.anei.cadpage.parsers.FieldProgramParser;
 
 /*
 Jefferson County, NY
@@ -14,7 +17,7 @@ ASSIST-EMS|I 81 MM 176 N:ALEXANDRIA(T)|1 mile south of 50 in the north bound lan
 CHEST PAIN|622 JOHN ST:CLAYTON(V)|59 FEMALE/CARDIAC ISSUES
 MVA-PI|SHIMEL RD & STATE ROUTE 411:ORLEANS(T)|1 VEH OFF ROAD - MINOR INJURY
 FIRE ALARM|37382 ORLEANS CEMETERY RD:ORLEANS(T)|CAPUTO RESIDENCE GENERAL SMOKE ALARM
-(DISPATCH:4392) MVA-PI|I 81 MM 176 N:ALEXANDRIA(T)|SPUN OUT IN THE MIDDLE OF DRIVING LANE YELLOW SEDAN NORTHBOUND LANE. CALL Eff Body:(DISPATCH:4392) MVA-PI|I 81 MM 176 N:ALEXANDRIA(T)|SPUN OUT IN THE MIDDLE OF DRIVING LANE YELLOW SEDAN NORTHBOUND LANE. CALL
+(DISPATCH:4392) MVA-PI|I 81 MM 176 N:ALEXANDRIA(T)|SPUN OUT IN THE MIDDLE OF DRIVING LANE YELLOW SEDAN NORTHBOUND LANE. CALL 
 
 Sender: lvfd27@googlegroups.com
 FALL|34226 CARTER STREET RD:ORLEANS(T)|  CALLBACK=(315)489-3188 LAT=  LON=  
@@ -25,29 +28,48 @@ Sector                   LaFargeville                  NY
 COF:1709      COP:100MTN:315-511-4647       CPF:VZW  -911ai.com-             
 ESN:01315
 
+Jay Greening <jagx91@hotmail.com>
+((LVFD) DISPATCH:4391,27FR) SICK PERSON|30950 STATE ROUTE 180  ;NORTHER NY AGRICULTRUAL MUSEUM:ORLEANS(T)|
+
  */
 
 
-public class NYJeffersonCountyParser extends SmsMsgParser {
+public class NYJeffersonCountyParser extends FieldProgramParser {
   
   public NYJeffersonCountyParser() {
-    super("JEFFERSON COUNTY", "NY");
+    super("JEFFERSON COUNTY", "NY",
+          "CALL ADDR! INFO+");
   }
 
   @Override
   protected boolean parseMsg(String body, Data data) {
-    
-    String[] flds = body.split("\\|");
+    String[] flds = body.split("\\|", -1);
     if (flds.length != 3) return false;
+    return parseFields(flds, data);
+  }
+  
+  private static final Pattern ADDR_PTN = Pattern.compile("\\(.\\)$");
+  private class MyAddressField extends AddressField {
     
-    data.strCall = flds[0].trim();
+    @Override
+    public void parse(String field, Data data) {
+      Matcher match = ADDR_PTN.matcher(field);
+      if (match.find()) field = field.substring(0,match.start()).trim();
+      Parser p = new Parser(field.trim());
+      data.strCity = p.getLastOptional(':');
+      data.strPlace = p.getLastOptional(';');
+      parseAddress(p.get(), data);
+    }
     
-    Parser p = new Parser(flds[1].trim());
-    parseAddress(p.get(':'), data);
-    data.strCity = p.get('(');
-    
-    data.strSupp = flds[2];
-    
-    return true;
+    @Override
+    public String getFieldNames() {
+      return "ADDR PLACE CITY";
+    }
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("ADDR")) return new MyAddressField();
+    return super.getField(name);
   }
 }
