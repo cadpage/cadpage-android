@@ -62,7 +62,7 @@ public class TXMontgomeryCountyParser extends FieldProgramParser {
     return parseFields(body.split(","), data);
   }
   
-  // Unit field, remove extraneous traling semicolon
+  // Unit field, remove extraneous trailing semicolon
   private class MyUnitField extends UnitField {
     @Override
     public void parse(String field, Data data) {
