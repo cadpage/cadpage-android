@@ -1,0 +1,76 @@
+// Don't forget to run GenFreeRiders to update the real user list
+
+// List of all users getting free access forever
+$free_rider_list
+amy972@twcny.rr.com (amyt972@gmail.com)
+Andrew Papp (hvfd830@gmail.com)
+asoders79@gmail.com
+barney.898@gmail.com
+Ben Turner (bald7genie@gmail.com)
+bigbell7922@gmail.com
+Brian Drum (brian.a.drum@gmail.com)
+Brian Murray (murraybp@gmail.com)
+Brian Soller (sfi5311@gmail.com)
+Bruce Reiersen (breiersen@aol.com)
+Dan Berg (db27529@gmail.com)
+dan@motovationcycles.com (motovationcycles@gmail.com)
+Daniel M. Agababian (dan@dpfd439.com)
+Darryl Gerald (trafficfuzz@gmail.com)
+David Dyer (wingnut.94@gmail.com)
+derrick@cadpage.org
+Donald Simms (fire_freak74@yahoo.com)
+drr.1129@gmail.com (jerseyfirefighter@gmail.com)
+Dustin Taylor (dstaylor9@gmail.com)
+eric taylor (ericferretttt@gmail.com)
+firediver11@gmail.com
+fireguy2emt@comcast.net
+Gary Coombs (coombsg@hotmail.com)
+hap602@gmail.com
+Harold Rupell (hrupell@gmail.com)
+heyblue17@gmail.com
+hristine Klingensmith (firespazz@comcast.net)
+James Albury (jalbury32@gmail.com)
+James Conley (jwconley69@gmail.com)
+jd.roberson@gmail.com
+Jeffrey Elsenheimer (jrelsenheimer@gmail.com)
+Jeffrey Young (jpyoung@chartermi.net)
+jerry@sdiacademy.com
+jgrif72@gmail.com
+Jorge Fernandez (fernandezj@gmail.com)
+Joseph Nguyen (demoguitarist@yahoo.com) (jnguyen0724@gmail.com)
+Ken Corbin (kencorbin101@gmail.com)
+ken@pauley.org
+kgilmore82@gmail.com
+lee Keever (ltkeever@gmail.com)
+Mark Wehrwein (heyblue@knology.net)
+Marta Mcgovern Philpot (marta.philpott@gmail.com)
+Martin Miller (fdlt233@gmail.com)
+Matthew Orrson (tater2pt0@gmail.com)
+Michael Pierce (itanic1@gmail.com)
+Michael Russo (archangel46@ymail.com)
+Michael Wiederhold (mikewiederhold102970@gmail.com)
+Richard Lieder (richard.lieder@ccvfd.com)
+Richard Mosley (very.orange@gmail.com)
+Robert Rewis (rrfmsfd@gmail.com)
+robsmithlb15@gmail.com
+rpankoe@gmail.com
+Sean Magee (sjm91190@aol.com)
+shadowreaper41@gmail.com
+sstone1@ymail.com
+steve wedvik (nibacgol@gmail.com)
+thomasruppel@verizon.net
+tigerfdny@gmail.com
+tourdedowd@aol.com (jamesdowd6@gmail.com)
+Trey McCoy (treyamccoy@gmail.com)
+yanksgt@gmail.com
+
+// List of users getting credit for 2011
+$paid_2011_list
+jaybo195@aol.com
+jryoungsman@yahoo.com
+jwylie@fuse.net (joscwy@gmail.com)
+Michael Wystepek (mjwystepek@gmail.com)
+sean.felock@yahoo.com (sean.felock@gmail.com)
+Victor Quintanilla (vquintanilla7@gmail.com)
+William Stearn (wstearn@gmail.com)
+zwelch85@gmail.com
