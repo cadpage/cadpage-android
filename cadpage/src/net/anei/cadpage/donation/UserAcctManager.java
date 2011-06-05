@@ -1,5 +1,6 @@
 package net.anei.cadpage.donation;
 
+import java.security.MessageDigest;
 import java.util.Arrays;
 
 import net.anei.cadpage.ManagePreferences;
@@ -26,13 +27,13 @@ public class UserAcctManager implements OnAccountsUpdateListener {
     String[] paid2011List = context.getResources().getStringArray(R.array.paid_2011_list);
     for (Account acct : accts) {
       if (acct.type.equals("com.google")) {
-        String name = acct.name.toLowerCase();
+        String hash = calcHash(acct.name);
         if (userEmail == null) userEmail = acct.name;
-        if (Arrays.binarySearch(freeList, name) >= 0) {
+        if (Arrays.binarySearch(freeList, hash) >= 0) {
           userEmail = acct.name;
           ManagePreferences.setFreeRider(true);
         }
-        if (Arrays.binarySearch(paid2011List, name) >= 0) {
+        if (Arrays.binarySearch(paid2011List, hash) >= 0) {
           ManagePreferences.setPaidYear(2011);
           if (userEmail == null) userEmail = acct.name;
         }
@@ -58,6 +59,32 @@ public class UserAcctManager implements OnAccountsUpdateListener {
     sb.append('\n');
   }
   
+  /**
+   * Convert user account name to MD5 has
+   * @param input user account name
+   * @return MD5 hash
+   */
+  public static String calcHash(String input) {
+    try {
+      MessageDigest md = MessageDigest.getInstance("MD5");
+      md.update(input.toLowerCase().getBytes("UTF8"));
+      byte[] digest = md.digest();
+      StringBuilder sb = new StringBuilder();
+      for (byte b : digest) {
+        sb.append(hexDigit(b>>4));
+        sb.append(hexDigit(b));
+      }
+      return sb.toString();
+    } catch (Exception ex) {
+      throw new RuntimeException(ex.getMessage(), ex);
+    }
+  }
+  
+  private static char hexDigit(int i) {
+    i &= 0xF;
+    return (char)(i < 10 ? '0'+i : 'a'+(i-10));
+  }
+ 
   
   private static UserAcctManager instance = null;
   

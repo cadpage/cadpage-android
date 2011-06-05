@@ -1,78 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string-array name="free_rider_list">
-    <item>amyt972@gmail.com</item><!-- amy972@twcny.rr.com -->
-    <item>archangel46@ymail.com</item><!-- Michael Russo -->
-    <item>asoders79@gmail.com</item>
-    <item>bald7genie@gmail.com</item><!-- bald7genie@yahoo.com --><!-- Ben Turner -->
-    <item>barney.898@gmail.com</item>
-    <item>bigbell7922@gmail.com</item>
-    <item>brian.a.drum@gmail.com</item><!-- Brian Drum -->
-    <item>breiersen@aol.com</item><!-- Bruce Reiersen -->
-    <item>coombsg@hotmail.com</item><!-- Gary Coombs -->
-    <item>dan@dpfd439.com</item><!-- Daniel M. Agababian -->
-    <item>db27529@gmail.com</item><!-- dan_berg@hotmail.com --><!-- Dan Berg -->
-    <item>derrick@cadpage.org</item>
-    <item>dstaylor9@gmail.com</item><!-- ds.taylor@earthlink.net --><!-- Dustin Taylor -->
-    <item>ericferretttt@gmail.com</item><!-- ertaylor@embarqmail.com --><!-- eric taylor -->
-    <item>fdlt233@gmail.com</item><!-- Martin Miller -->
-    <item>fernandezj@gmail.com</item><!-- jfern73@comcast.net --><!-- Jorge Fernandez -->
-    <item>fire_freak74@yahoo.com</item><!-- Donald Simms -->
-    <item>firediver11@gmail.com</item>
-    <item>fireguy2emt@comcast.net</item>
-    <item>firespazz@comcast.net</item><!-- hristine Klingensmith -->
-    <item>hap602@gmail.com</item>
-    <item>heyblue@knology.net</item><!-- Mark Wehrwein -->
-    <item>heyblue17@gmail.com</item>
-    <item>hrupell@gmail.com</item><!-- hrupell@comcast.net --><!-- Harold Rupell -->
-    <item>hvfd830@gmail.com</item><!-- Andrew Papp -->
-    <item>itanic1@gmail.com</item><!-- itanic1@yahoo.com --><!-- Michael Pierce -->
-    <item>jalbury32@gmail.com</item><!-- albury32@triad.rr.com --><!-- James Albury -->
-    <item>jamesdowd6@gmail.com</item><!-- tourdedowd@aol.com -->
-    <item>jd.roberson@gmail.com</item>
-    <item>jerry@sdiacademy.com</item>
-    <item>jerseyfirefighter@gmail.com</item><!-- drr.1129@gmail.com -->
-    <item>jgrif72@gmail.com</item>
-    <item>jnguyen0724@gmail.com</item><!-- Joseph Nguyen (demoguitarist@yahoo.com) -->
-    <item>jpyoung@chartermi.net</item><!-- Jeffrey Young -->
-    <item>jrelsenheimer@gmail.com</item><!--Jeffrey Elsenheimer  -->
-    <item>jwconley69@gmail.com</item><!-- ajconley@cinci.rr.com --><!--  James Conley  -->
-    <item>ken@pauley.org</item>
-    <item>kencorbin101@gmail.com</item><!--  kencx@peak.org -->
-    <item>kgilmore82@gmail.com</item>
-    <item>ltkeever@gmail.com</item><!-- lkeever@bellsouth.net --><!-- lee Keever -->
-    <item>marta.philpott@gmail.com</item><!-- dogsled4@comcast.net -->
-    <item>mikewiederhold102970@gmail.com</item><!-- wieder@linctel.net --><!-- Michael Wiederhold -->
-    <item>motovationcycles@gmail.com</item><!-- dan@motovationcycles.com -->
-    <item>murraybp@gmail.com</item><!-- Brian Murray -->
-    <item>nibacgol@gmail.com</item><!-- steve wedvik -->
-    <item>richard.lieder@ccvfd.com</item><!-- Richard Lieder -->
-    <item>robsmithlb15@gmail.com</item>
-    <item>rpankoe@gmail.com</item>
-    <item>rrfmsfd@gmail.com</item><!-- rrfmsfd@aol.com --><!-- Robert Rewis -->
-    <item>sfi5311@gmail.com</item><!-- briansoller@yahoo.com --><!-- Brian Soller -->
-    <item>shadowreaper41@gmail.com</item><!-- jay_russell541@yahoo.com. --><!-- ??? -->
-    <item>sjm91190@aol.com</item><!-- Sean Magee -->
-    <item>sstone1@ymail.com</item>
-    <item>tater2pt0@gmail.com</item><!-- MOrrson7@yahoo.com --><!-- Matthew Orrson -->
-    <item>thomasruppel@verizon.net</item>
-    <item>tigerfdny@gmail.com</item>
-    <item>trafficfuzz@gmail.com</item><!-- trafficfuzz@yahoo.com --><!-- Darryl Gerald -->
-    <item>treyamccoy@gmail.com</item><!-- Trey McCoy -->
-    <item>very.orange@gmail.com</item><!-- Richard Mosley -->
-    <item>wingnut.94@gmail.com</item><!-- jddyer@knology.net --><!-- David Dyer -->
-    <item>yanksgt@gmail.com</item>
+    <item>080a55e1c5dfffa0c96f27497b3ec299</item>  <!-- Joseph Nguyen -->
+    <item>0feac42a018d6be96b67428e8ebe5cdf</item>
+    <item>19d2083c525fd9737ab407c1dd9e28ca</item>  <!-- Bruce Reiersen -->
+    <item>1f9fc356fd2278435b2e1f18e89ee15a</item>  <!-- Mark Wehrwein -->
+    <item>21617bdc1e7572be9d671962d2f5959b</item>  <!-- Michael Wiederhold -->
+    <item>27b740356618534d2829a78aa87c4942</item>
+    <item>2c4f70d60f5d7d7a624e93a91cbdb719</item>  <!-- Richard Lieder -->
+    <item>3165d1e49608ce44734e5c86e26c920a</item>  <!-- Ken Corbin -->
+    <item>365e1950a18948b01085079ce47747ae</item>  <!-- Brian Drum -->
+    <item>3b8a2e23fa696c1dd9a522a52e04e327</item>
+    <item>3ef87f98804f9125d94ae7cd98fd9aa9</item>
+    <item>42d70e48e1b2a3da833f7dfa0b58990c</item>  <!-- Jeffrey Elsenheimer -->
+    <item>43cb6ecafffa13e66f4221baa18dad3f</item>
+    <item>48c152e6044dc3a663c372a9de1353a5</item>  <!-- Martin Miller -->
+    <item>4b479c84d65baf9d4853223e882b142c</item>
+    <item>4b749348a7650283b901d1a31213157e</item>
+    <item>50c063655481cbcf43fe16fd9d7bb89f</item>
+    <item>5412734152e2b52102a41c4888ccd27c</item>
+    <item>56ac7a3c23d5f13f87e403f8ef447a4d</item>  <!-- Jorge Fernandez -->
+    <item>59193907a32ae3d4eb8a304c4468441b</item>  <!-- Brian Soller -->
+    <item>5c45edf62b78b5068c2c6bd087a75886</item>
+    <item>5e1c1e8ee810fae3e41155b505b3ff7b</item>  <!-- Darryl Gerald -->
+    <item>68f8587ba1b269cd006f41fa5289fad7</item>  <!-- Trey McCoy -->
+    <item>7090e742bb7182f416bcc21d9c436d5c</item>  <!-- Dustin Taylor -->
+    <item>73d259bfb3dcaa1414f861edc8371020</item>  <!-- Brian Murray -->
+    <item>76a93a71e9083631e166e2ffb13f788a</item>  <!-- drr.1129@gmail.com -->
+    <item>77aacc4198422ad673e28148644bc837</item>  <!-- James Conley -->
+    <item>7821bfab68ad2ecd0e744829d8476044</item>
+    <item>843664412051f75f1bdc09523b32d7f0</item>  <!-- Robert Rewis -->
+    <item>8d0400e7f9a27d89b2a72ac7ef5bc4be</item>
+    <item>8fc529684f13e4842355cefcbd1afc85</item>  <!-- Michael Pierce -->
+    <item>9d75c831868cce4e4af7de0d8873cef2</item>  <!-- steve wedvik -->
+    <item>9e43b0522acb07833fa5cf1d40136437</item>  <!-- David Dyer -->
+    <item>9f0aa86a5135d67ec6a355f1e572cca0</item>  <!-- Matthew Orrson -->
+    <item>a0d5b02420c396511e481b263d732de0</item>  <!-- Harold Rupell -->
+    <item>a1c29b0edb8ac6fe51e8ef7c4eca9525</item>  <!-- Andrew Papp -->
+    <item>a7b79727746903a6e899d94ef72cd1ea</item>  <!-- lee Keever -->
+    <item>a852c2dba00034a9399929910d4200a3</item>  <!-- Jeffrey Young -->
+    <item>af189053f1885732e0af56324b19aae4</item>
+    <item>af1cee23f52f9a6b2e2781bdca4560b0</item>
+    <item>b454c9fef1504bcabe9f59789d5352cd</item>  <!-- Michael Russo -->
+    <item>be8471ad832c142d96909d531e568779</item>  <!-- Daniel M. Agababian -->
+    <item>bff801b7a677234eea2fb3a451e6f5fe</item>
+    <item>c1efb74114f31cdb269fc23779a7128f</item>
+    <item>c2d011c9a3f40a2cbe8f20b3897b4419</item>
+    <item>c453c9a08f7f9c27856dc2796ee1565e</item>  <!-- tourdedowd@aol.com -->
+    <item>c5b21eb015316acaf6573c9734f0b857</item>
+    <item>c98bada82a446fcf6ae9fda2e208f920</item>  <!-- Marta Mcgovern Philpot -->
+    <item>ce57b684b6db97ea1c7011ee42880af6</item>
+    <item>df015473b78f6d88cf58c7086b982f40</item>  <!-- hristine Klingensmith -->
+    <item>e765a9599c5e5cea049c7453c16228ef</item>  <!-- dan@motovationcycles.com -->
+    <item>e87e0a0362088912cf2ae8fc21ed9642</item>  <!-- amy972@twcny.rr.com -->
+    <item>ea27c720ebbf8f9dd5632eb5022eb3e2</item>  <!-- Gary Coombs -->
+    <item>eec9f4ab6cdb2e0ee6aeaec6c8b7446d</item>  <!-- Sean Magee -->
+    <item>efeaf9edb5a4aa217409fe703f280d07</item>  <!-- Dan Berg -->
+    <item>f05adb225c8a9c5bf505a0346f18318b</item>  <!-- James Albury -->
+    <item>f49ac8108b9a72853514f4829c7c2183</item>  <!-- Richard Mosley -->
+    <item>f710988eff17d47497e5fa4342a771c0</item>  <!-- Donald Simms -->
+    <item>fa73592430b49d1af1f5b75aa0321fca</item>  <!-- eric taylor -->
+    <item>fa7a2951c9ba7530ca5d333fa8b620c7</item>  <!-- Ben Turner -->
+    <item>fb8ba2cc936639e123d866acee3619b2</item>
   </string-array>
-  
   <string-array name="paid_2011_list">
-    <item>jaybo195@aol.com</item>
-    <item>jryoungsman@yahoo.com</item>
-    <item>joscwy@gmail.com</item><!-- jwylie@fuse.net -->
-    <item>mjwystepek@gmail.com</item><!-- mwystepek@gmail.com --><!-- Michael Wystepek -->
-    <item>sean.felock@gmail.com</item><!-- sean.felock@yahoo.com -->
-    <item>vquintanilla7@gmail.com</item><!-- Victor Quintanilla -->
-    <item>wstearn@gmail.com</item><!-- William Stearn -->
-    <item>zwelch85@gmail.com</item>
+    <item>17248fb4d93bbaa6ae45ccf87e10ece4</item>  <!-- Victor Quintanilla -->
+    <item>2bed0079218344b29952c082448148ce</item>
+    <item>4ea9c55d38901432480c20d3d4a99953</item>
+    <item>b22372e692f183c2e0a32a27946e76da</item>  <!-- Michael Wystepek -->
+    <item>cec5556450843f53a31df7107599ec28</item>  <!-- William Stearn -->
+    <item>e3e9fd0751106209bdcd8412346512dc</item>
+    <item>e74c52b9639a7f4efe0a22264473db0c</item>  <!-- sean.felock@yahoo.com -->
+    <item>e9df860d89273193b3b0b28bcd2cd1a6</item>  <!-- jwylie@fuse.net -->
   </string-array>
 </resources>
-  
