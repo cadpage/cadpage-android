@@ -4,7 +4,6 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import android.app.AlertDialog;
-import android.app.Dialog;
 import android.content.ActivityNotFoundException;
 import android.content.ComponentName;
 import android.content.Context;
@@ -148,14 +147,6 @@ public class SmsPopupUtils {
         } catch (ActivityNotFoundException ex) {
             Log.e("Could not find com.google.android.maps.Maps activity");
         }
-        
-    } else {
-      if (Log.DEBUG) Log.v("Error: No Network Connection.");
-      Dialog locationError = new AlertDialog.Builder(context)
-          .setIcon(0).setTitle("Error").setPositiveButton("Ok", null)
-          .setMessage("Unable to Map Address due to Network Failure.")
-          .create();
-      locationError.show();
     }
   }
 
@@ -172,15 +163,32 @@ public class SmsPopupUtils {
 
     // Otherwise, check to see if we have connectivity
     // If we don't return false
-    NetworkInfo info = (NetworkInfo) ((ConnectivityManager) 
-        context.getSystemService(Context.CONNECTIVITY_SERVICE)).getActiveNetworkInfo();
-    if (info == null || !info.isConnected()) return false;
+    ConnectivityManager mgr = ((ConnectivityManager) 
+        context.getSystemService(Context.CONNECTIVITY_SERVICE));
+    NetworkInfo[] infoList = mgr.getAllNetworkInfo();
+    NetworkInfo info = mgr.getActiveNetworkInfo();
+    if (info == null || !info.isConnected()) {
+      showNetworkFailure(context, R.string.network_err_not_connected);
+      return false;
+    }
     
     // If we don't care about the roaming status, return true;
     if (checkNetwork == 'R') return true;
     
     // Otherwise return true if we are not currently roaming
-    return (! info.isRoaming());
+    if (info.isRoaming()) {
+      showNetworkFailure(context, R.string.network_err_roaming);
+      return false;
+    }
+    return true;
+  }
+  
+  private static void showNetworkFailure(Context context, int resId) {
+    new AlertDialog.Builder(context)
+    .setIcon(R.drawable.ic_launcher).setTitle(R.string.network_err_title)
+    .setPositiveButton(R.string.donate_btn_OK, null)
+    .setMessage(resId)
+    .create().show();
   }
 
 

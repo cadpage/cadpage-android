@@ -7,6 +7,7 @@
 
   <string name="donate_btn_cancel">Cancel</string>
   <string name="donate_btn_done">Done</string>
+  <string name="donate_btn_OK">OK</string>
   
   <string name="donate_free_title">Thank you for your support</string>
   <string name="donate_free_text">
