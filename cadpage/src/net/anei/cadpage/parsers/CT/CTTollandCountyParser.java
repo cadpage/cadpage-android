@@ -18,6 +18,7 @@ Sender: TN@TollandCounty911.org
 [TN Alert]  DOBSON RD / CAMPBELL AVE Vernon Vehicle Accident 12:59 Cross Street 2011-00001773
 [TN Alert]  95 HARTFORD TPKE / Vernon * Golf Land Vehicle Accident MINOR INJURIES - EVALUATION
 [TN Alert]  67 BLUE RIDGE DR / Vernon Tree/Wires Down 14:38 Cross Street HICKORY HL / AUTUMN WOOD LN 2011-00001775
+(TN Alert) 155 W   MAIN ST 317 / Vernon ALS DIFFICULTY BREATHING 14:03 Cross Street ORCHARD ST, SPRING ST / WARD ST 2011-00001981
  
 */
 
@@ -48,7 +49,7 @@ public class CTTollandCountyParser extends SmartAddressParser {
     "MASHAPAUG"
   };
   
-  private static final Pattern TIME_PTN = Pattern.compile("\\b\\d\\d:\\d\\d\\b");
+  private static final Pattern TIME_PTN = Pattern.compile("\\b\\d\\d: \\d\\d\\b");
   private static final Pattern ID_PTN = Pattern.compile("\\b\\d{4}-\\d{8}$");
   
   public CTTollandCountyParser() {
