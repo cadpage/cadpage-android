@@ -188,10 +188,19 @@ public class PABucksCountyParserTest extends BaseParserTest {
         "MAP:3262G9",
         "ID:FD1107837",
         "UNIT:R13 R53 E82");
-     
+
+    doTest("T16",
+        "911: STA19  type:FUNK    adr:EDISON RD/RT 611 ,29  aai:  box:79028  map:3034K5  tm:12:44:52  FD1108375    Run: E79    \n",
+        "SRC:STA19",
+        "CALL:FUNK",
+        "ADDR:EDISON RD & RT 611",
+        "BOX:79028",
+        "MAP:3034K5",
+        "ID:FD1108375",
+        "UNIT:E79");
   }
   
   public static void main(String[] args) {
-    new PABucksCountyParserTest().generateTests("T15");
+    new PABucksCountyParserTest().generateTests("T17");
   }
 }
