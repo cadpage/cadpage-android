@@ -82,9 +82,30 @@ public class TXMontgomeryCountyParserTest extends BaseParserTest {
         "CALL:13D01-DIABETIC PROBLEMS - Unconscious",
         "UNIT:MR18",
         "ADDR:35219 W PINE HILL");
+
+    doTest("T10",
+        "(Nature: 13D01-DIABETIC PROBLEMS - Unconscious) New Fire Run: 2011-76911,,MR18,Location: 35219 W PINE HILL,Building: ,Cross: ,,Grid: 247F,Map: 4",
+        "ID:2011-76911",
+        "CALL:13D01-DIABETIC PROBLEMS - Unconscious",
+        "UNIT:MR18",
+        "ADDR:35219 W PINE HILL");
+
+    doTest("T11",
+        "New Fire Run: 2011-75288,Nature: 28C01G-STROKE/CVA - Not alert - Greater than one hour onset,MR18,Location: 158 CHARLIE,Building: ,Cross: ,,Grid: 212K,Map: 4476,.",
+        "ID:2011-75288",
+        "CALL:28C01G-STROKE/CVA - Not alert - Greater than one hour onset",
+        "UNIT:MR18",
+        "ADDR:158 CHARLIE");
+
+    doTest("T12",
+        "(Nature: 06D02-BREATHING PROBLEMS -) New Fire Run: 2011-79434,,MR51,Location: 21760 CHAPPEL WAY,Building: ,Cross: ,,Grid: 69A,Map: 4291,.",
+        "ID:2011-79434",
+        "CALL:06D02-BREATHING PROBLEMS -",
+        "UNIT:MR51",
+        "ADDR:21760 CHAPPEL WAY");
   }
   
   public static void main(String[] args) {
-    new TXMontgomeryCountyParserTest().generateTests();
+    new TXMontgomeryCountyParserTest().generateTests("T12");
   }
 }
