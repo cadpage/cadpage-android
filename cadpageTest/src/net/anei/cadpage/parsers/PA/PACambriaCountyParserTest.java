@@ -60,14 +60,14 @@ public class PACambriaCountyParserTest extends BaseParserTest {
         "Date: 06/02/11\nTime: 20:47:52\nNature: 10C01-Charlie CHEST PAIN\nLocation: 1518 W 2ND ST-CR\n| Sta 75",
         "CALL:10C01-Charlie CHEST PAIN",
         "ADDR:1518 W 2ND ST",
-        "CITY:CARROLLTOWN",
+        "CITY:CRESSON",
         "UNIT:Sta 75");
 
     doTest("T2",
         "Date: 06/04/11\nTime: 11:03:04\nNature: 06D02-Delta\2sBREATHING PROBLEMS\nLocation: 908 SHORT AVE-CR\n| Sta 75",
         "CALL:06D02-Delta\2sBREATHING PROBLEMS",
         "ADDR:908 SHORT AVE",
-        "CITY:CARROLLTOWN",
+        "CITY:CRESSON",
         "UNIT:Sta 75");
 
     doTest("T3",
@@ -76,6 +76,13 @@ public class PACambriaCountyParserTest extends BaseParserTest {
         "ADDR:721 MAIN ST",
         "CITY:PORTAGE",
         "UNIT:Sta 73");
+
+    doTest("T4",
+        "Date: 06/05/11\nTime: 18:00:42\nNature: 52C04G-Charlie FIRE ALARM\nLocation: 111 ASHCROFT AVE-CB\n| Sta 70",
+        "CALL:52C04G-Charlie FIRE ALARM",
+        "ADDR:111 ASHCROFT AVE",
+        "CITY:CB",
+        "UNIT:Sta 70");
 
   }
   
