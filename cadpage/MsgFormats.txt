@@ -1301,13 +1301,6 @@ City: WCWD
 Comments: **SEIZURES**
 ON THE EB, PASSED THE EXIT, IN THE MEDIAN, PT IS INSIDE A GRY NISSAN
 ***************************************************************************
-Montgomery, TX
-Contact: "Scott Collins" <policefiremedic@gmail.com>
-New Fire Run: 2011-75288,Nature: 28C01G-STROKE/CVA - Not alert - Greater
-than one hour onset,MR18,Location: 158 CHARLIE,Building: ,Cross: ,,Grid:
-212K,Map: 4476,.
-
-Run# 2011-75288 Trk MR181 FD2>> (01900110-940),.
 ***************************************************************************
 ***************************************************************************
 ************** Request holding for one thing or another *******************

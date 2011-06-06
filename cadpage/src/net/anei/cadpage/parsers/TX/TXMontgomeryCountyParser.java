@@ -25,6 +25,11 @@ System: Firecom
 Contact: johnny jessie <johann475@gmail.com>
 (Nature: 13D01-DIABETIC PROBLEMS - Unconscious) New Fire Run: 2011-76911,,MR18,Location: 35219 W PINE HILL,Building: ,Cross: ,,Grid: 247F,Map: 4
 
+Contact: "Scott Collins" <policefiremedic@gmail.com>
+New Fire Run: 2011-75288,Nature: 28C01G-STROKE/CVA - Not alert - Greater than one hour onset,MR18,Location: 158 CHARLIE,Building: ,Cross: ,,Grid: 212K,Map: 4476,.
+
+Contact: Mike and April Covington <madwzc@gmail.com>
+(Nature: 06D02-BREATHING PROBLEMS -) New Fire Run: 2011-79434,,MR51,Location: 21760 CHAPPEL WAY,Building: ,Cross: ,,Grid: 69A,Map: 4291,.
 
  */
 
@@ -39,7 +44,7 @@ public class TXMontgomeryCountyParser extends FieldProgramParser {
   
   public TXMontgomeryCountyParser() {
     super(CITY_CODES, DEF_CITY, DEF_STATE,
-           "New_Fire_Run:ID Nature:CALL UNIT Location:ADDR/y! Building:APT Cross:X/c");
+           "New_Fire_Run:ID! Nature:CALL UNIT! Location:ADDR/y! Building:APT Cross:X/c");
   }
   
   @Override
@@ -58,7 +63,7 @@ public class TXMontgomeryCountyParser extends FieldProgramParser {
       pt = body.indexOf(',', pt+13);
       if (pt < 0) return false;
       body = body.substring(0,pt+1) + subject + body.substring(pt+1);
-    } else if (!subject.equals("Fire CAD Message")) return false;
+    }
     return parseFields(body.split(","), data);
   }
   
