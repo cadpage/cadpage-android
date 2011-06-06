@@ -81,7 +81,7 @@ public class PACambriaCountyParserTest extends BaseParserTest {
         "Date: 06/05/11\nTime: 18:00:42\nNature: 52C04G-Charlie FIRE ALARM\nLocation: 111 ASHCROFT AVE-CB\n| Sta 70",
         "CALL:52C04G-Charlie FIRE ALARM",
         "ADDR:111 ASHCROFT AVE",
-        "CITY:CB",
+        "CITY:CRESSON",
         "UNIT:Sta 70");
 
   }
