@@ -30,6 +30,7 @@ Date: 06/05/11\nTime: 18:00:42\nNature: 52C04G-Charlie FIRE ALARM\nLocation: 111
 public class PACambriaCountyParser extends FieldProgramParser {
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "CB",   "CRESSON",
       "CR",   "CRESSON",
       "JO",   "JOHNSTOWN",
       "PORB", "PORTAGE"
