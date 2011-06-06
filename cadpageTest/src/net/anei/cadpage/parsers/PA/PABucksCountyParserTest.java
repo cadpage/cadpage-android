@@ -194,6 +194,7 @@ public class PABucksCountyParserTest extends BaseParserTest {
         "SRC:STA19",
         "CALL:FUNK",
         "ADDR:EDISON RD & RT 611",
+        "CITY:DOYLESTOWN TWP",
         "BOX:79028",
         "MAP:3034K5",
         "ID:FD1108375",
