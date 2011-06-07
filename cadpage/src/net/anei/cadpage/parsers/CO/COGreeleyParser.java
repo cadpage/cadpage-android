@@ -12,7 +12,11 @@ import net.anei.cadpage.parsers.SmsMsgParser;
 19547,AIRAF ,600 AIRPORT RD.E4,TEXT:PLANE COMING IN WITHOUT LANDING GEAR.  RP WANTS FIRE AND MEDICAL TO RESPOND AND STANDBY. \COMP:MANDY \PH:336-3000,
 22668,TAUF  ,11TH AV/18TH ST.E2 R1 WA,TEXT:RP HIT A GUY IN CROSSWALK,HE\nIS TRYING TO WALK AWAY,
 
+Contact: Doug Gilliland <dgilliland88@gmail.com>
+Sender: CommtechMessenger@mauser.greeleypd.com
   / 10903,SI    -SICK & INJ (F&A),3103 23RD AV.E2 WA,,\n\n\n
+  / 11470,SI    -SICK & INJ (F&A),3136 51ST AV.E5 WA,TEXT:RIB PAIN,FELL A WEEK \nAGO \COMP:DEL \PH:314-226-9976,\n\n\n
+
 
  */
 
@@ -26,19 +30,20 @@ public class COGreeleyParser extends SmsMsgParser {
   @Override
   protected boolean parseMsg(String body, Data data) {
     
-    if (!body.contains(",TEXT:")) return false;
+    if (body.startsWith("/ ")) body = body.substring(2).trim();
 
-    String[] flds = body.split(",");
-    if (flds.length > 3) {
-      data.strCallId = flds[0];
-      data.strCall = flds[1].trim();
-      Parser p = new Parser(flds[2]);
-      data.strUnit = p.getLastOptional(".");
-      parseAddress(p.get(), data);
-    }
-    Parser p = new Parser(body);
+    String[] flds = body.split(",",-1);
+    if (flds.length < 4) return false;
+    data.strCallId = flds[0];
+    data.strCall = flds[1].trim();
+    Parser p = new Parser(flds[2]);
+    data.strUnit = p.getLastOptional(".");
+    if (data.strUnit.length() == 0) return false;
+    parseAddress(p.get(), data);
+
+    p = new Parser(body);
     p.get("TEXT:");
-    data.strSupp = p.get("\\COMP:");
+    data.strSupp = p.get("\\COMP:").replace('\n', ' ');
     
     return true;
   }
