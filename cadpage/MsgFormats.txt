@@ -1998,6 +1998,10 @@ Contact: Terry Goldhamer <tbg120@gmail.com>
 Sender: DISPATCH@CHAGRINFALLSPD.COM
 (Dispatch Message) ALARMS-CO DETECTOR        \n90 FALLS CREEK TR \nGUARDIAN ALARM 866.883.3100\nCO ALARM SOUNDING, SIGNAL COMES TO ALARM CENTER\nOPR/STACY
 **********************************************************
+Unknown
+Contact: 7044004641@txt.att.net
+FRM:CommtechMessenger (emergin)"
+MSG:MFD 2ANAPHYLACTIC SHOCK, 161 NILE CIR
 **********************************************************
 **********************************************************
 ************  READY TO ROLL ******************************
