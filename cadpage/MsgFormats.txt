@@ -2008,53 +2008,6 @@ Sender: DISPATCH@CHAGRINFALLSPD.COM
 **********************************************************
 **********************************************************
 **********************************************************
-Kootenai County, ID
-Contact: "pbarkle1@mac.com" <pbarkle1@mac.com>
-Sender: 777-042-84NNN
-
-KOOTENAI COUNTY SHERIFF Page for volunteers  fully engulfed structure at  
-1576 w Tualatin Dr.  Page sent as part of 2nd alarm.
-Sent by challgren
- 0000 Confirm 0001 Refuse TXT STOP to opt-out
-
-KOOTENAI COUNTY SHERIFF KCFR
-FIRE STRUCTURE 
-1576 W TUALATIN DR
-F1A  
-F1V
-OPS1 
-VISIBLE FLAMES    IN GARAGE
-13:12:17 04/30/2011 - T.TAYLOR
-RES IS UNOCC
-13:12:50 04/30/2011 - T.TAYLOR
-VEH IN GARAGE    RP SAYS HER HOUSE IS GOING TO BLOW UP
-13:13:00 04/30/2011 - D.WILSON       
-FLAME
-Sent by CLI  Sat Apr 30 13:16:15 2011
- 0000 Confirm 0001 Refuse TXT STOP to opt-out
-
-Contact: "Larry & Elaine Simms" <lesimms@gmail.com>
-System: Spillman coupled through Hiplink
-HAUS\n
-ACCIDENT INJURY\n
-N WATERFORD LOOP & N HAUSER LAKE RD\n
-GW7A \n
-B751\n
-OPS4 \n
-MC ACCIDENT    WENT OFF RDWY    CAB    POSS BROKEN COLLARS     CUTS ON FACE   \n
-CONTROLLED
-
-Contact: Paul Barkley <PFB@mac.com>
-Sender: 7087108417@vzwpix.com
-KCFR
-FIRE STRUCTURE 
-N SMITH LN & E MULLAN AVE
-F1C  
-F1V
-OPS1 
-TRAILER FULLY ENGULFED ON SMITH RD JUST OFF MULLAN   FLAMES FROM WINDOWS AND
-ROOF 
-10:49:32 05/28/20
 **********************************************************
 Moore County, NC
 Contact: Daniel Strong <dstrong1970@yahoo.com>
