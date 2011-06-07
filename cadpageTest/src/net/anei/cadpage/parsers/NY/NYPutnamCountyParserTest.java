@@ -60,6 +60,18 @@ public class NYPutnamCountyParserTest extends BaseParserTest {
         "CALL:.... (11 Brewster) MEDIC ALERT",
         "ADDR:4100 STONECREST DR",
         "SRC:11");
-    
+
+    doTest("T7",
+        ".... (18 Mahopac) PSYCHIATRIC/ABNORMAL BEHAVIOR||151 W SHORE DR  STA 18 XS FARVIEW  RD/STEBBINS RD|NARR MALE EDP, SCENE SECURE..",
+        "CALL:.... (18 Mahopac) PSYCHIATRIC/ABNORMAL BEHAVIOR",
+        "ADDR:151 W SHORE DR",
+        "SRC:18",
+        "X:FARVIEW  RD/STEBBINS RD",
+        "INFO:MALE EDP, SCENE SECURE..");
+   
+  }
+  
+  public static void main(String[] args) {
+    new NYPutnamCountyParserTest().generateTests("T1", "CALL ADDR SRC X INFO");
   }
 }
