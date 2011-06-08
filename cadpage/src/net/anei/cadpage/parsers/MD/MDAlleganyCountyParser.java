@@ -32,8 +32,10 @@ CAD Page for CFS 100210-88
 CAD Page for CFS 110510-132
   AUTOMATIC HOUSE ALARM 150 MAPLE ST\x09Units: ENG16 TR16 ENG17
  
-Contact: Chris Green <mediccgreen@gmail.com>  
+Contact: Chris Green <mediccgreen@gmail.com>
+Sender: LogiSYS  
 LogiSYSCAD S:CAD Page for CFS 051211-55 M:SERVICE CALL NOT LISTED NEW CREEK                                       Units: A50     \n
+LogiSYS  S:CAD Page for CFS 060811-52 M:CHEST PAINS/HEART PROBLEMS 81 E MECHANIC ST                                Units: 355     \n\n
   
 */
 
@@ -46,7 +48,7 @@ public class MDAlleganyCountyParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "LogiSYSCAD";
+    return "LogiSYS";
   }
 
   @Override
