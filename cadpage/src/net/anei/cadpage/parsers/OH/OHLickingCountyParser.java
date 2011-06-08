@@ -35,6 +35,7 @@ LC911:SICK PERSON     48 N KASSON ST   JOHNSTOWN
 
 Contact: Michael Simms <michael.a.simm
 LC911:TRAFFIC ACCIDENT 161 WB NEAR BEECH RD\n
+LC911:FIRE - HOUSE 13335 NORTH DR OUTSIDE E 9-1-1 CO\n
 
 */
 public class OHLickingCountyParser extends SmartAddressParser {
