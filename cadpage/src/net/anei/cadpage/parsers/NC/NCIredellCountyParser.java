@@ -15,6 +15,9 @@ FR200 MEDICAL ALARM, 142 NEW MEXICO DR
 FD20 PUBLIC SERVICE, 106 KNOLLCREST LN
 FR200 C-86 RESPIRATORY DISTRESS, 139 EASTGATE DR
 
+Contact: Mark shifflet <markshifflet@att.net>,7044004641@txt.att.net
+FRM:CommtechMessenger (emergin)"\nMSG:MFD 2ANAPHYLACTIC SHOCK, 161 NILE CIR
+
 */
 
 public class NCIredellCountyParser extends SmsMsgParser {
@@ -25,7 +28,7 @@ public class NCIredellCountyParser extends SmsMsgParser {
   
   @Override
   public String getFilter() {
-    return "CommtechMessenger@co.iredell.nc.us";
+    return "CommtechMessenger";
   }
   
   @Override
