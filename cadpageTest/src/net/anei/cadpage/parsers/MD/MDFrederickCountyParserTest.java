@@ -43,7 +43,7 @@ public class MDFrederickCountyParserTest extends BaseParserTest {
         "CALL:COMMERCIAL FIRE ALARM/AUTOMATIC",
         "ADDR:4 PAWS PL",
         "CITY:Thurmont",
-        "PLACE:@CATOCTIN VETERINARY CLINIC",
+        "PLACE:CATOCTIN VETERINARY CLINIC",
         "UNIT:E102,TWR6",
         "BOX:1001",
         "MAP:4108E9"
@@ -53,7 +53,7 @@ public class MDFrederickCountyParserTest extends BaseParserTest {
         "CALL:PERSON FIRE (INSIDE)",
         "ADDR:16825 S SETON AVE",
         "CITY:Emmitsburg",
-        "PLACE:@NATIONAL EMERGENCY TRAINING CENTER:SIMULATION LAB",
+        "PLACE:NATIONAL EMERGENCY TRAINING CENTER:SIMULATION LAB",
         "BOX:620",
         "MAP:3997H9"
         );
@@ -79,7 +79,7 @@ public class MDFrederickCountyParserTest extends BaseParserTest {
         "CALL:CHEST PAIN",
         "ADDR:1811 MONOCACY BLVD",
         "CITY:Frederick City",
-        "PLACE:@WAL MART: PHARMACY",
+        "PLACE:WAL MART: PHARMACY",
         "MAP:4448J9",
         "UNIT:A29,A247,M17",
         "BOX:215"
@@ -97,7 +97,7 @@ public class MDFrederickCountyParserTest extends BaseParserTest {
         "[FredCo] CT: INJURY FROM VEHICLE ACCIDENT LL(-77:23:59.6013,39:21:53.1520): @I270NB / MONOCACY RIVER ESZ: 327002 MAP: 46",
         "CALL:INJURY FROM VEHICLE ACCIDENT",
         "ADDR:LL(-77:23:59.6013,39:21:53.1520)",
-        "PLACE:@I270NB / MONOCACY RIVER",
+        "PLACE:I270NB / MONOCACY RIVER",
         "BOX:327002",
         "MAP:46");
 
@@ -135,6 +135,25 @@ public class MDFrederickCountyParserTest extends BaseParserTest {
         "BOX:1501",
         "UNIT:A159,M17",
         "MAP:4568H9");
+
+    doTest("T23",
+        "(CAD) [FredCo] CT: OUTSIDE INVESTIGATION / default 5018 GREEN VALLEY RD CMON TIME: 21:24:52 ESZ: 1503 MAP: 4688G1 Disp: RE153",
+        "CALL:OUTSIDE INVESTIGATION/default",
+        "ADDR:5018 GREEN VALLEY RD",
+        "CITY:Monrovia",
+        "BOX:1503",
+        "UNIT:RE153",
+        "MAP:4688G1");
+
+    doTest("T24",
+        "(CAD) [FredCo] CT: SICK PERSON / default 5850 EAGLEHEAD DR CIJM: @OAKDALE HIGH SCHOOL TIME: 08:52:07 ESZ: 1513 MAP: 4568A7 Disp: A159",
+        "CALL:SICK PERSON/default",
+        "ADDR:5850 EAGLEHEAD DR",
+        "CITY:Ijamsville",
+        "PLACE:OAKDALE HIGH SCHOOL",
+        "BOX:1513",
+        "UNIT:A159",
+        "MAP:4568A7");
  }
   
   public static void main(String[] args) {
