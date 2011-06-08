@@ -142,9 +142,17 @@ public class TXCyCreekCommCenterParserTest extends BaseParserTest {
         "CALL:HM3-HC HAZMAT TRAINING",
         "UNIT:HM1");
 
+    doTest("T16",
+        "  06/08 12:42 8314 CINNAMON RUN DR-HC, ; Map:250J- Sub: Nat:67-OUTSIDE FIRE Units:WDE107 E76 X-St:S ROLLING OAKS DR KUYKEND 201125394 TXT STOP to",
+        "ADDR:8314 CINNAMON RUN DR",
+        "MAP:250J-",
+        "CALL:67-OUTSIDE FIRE",
+        "UNIT:WDE107 E76",
+        "X:S ROLLING OAKS DR KUYKEND 201125394 TXT STOP to");
+
   }
   
   public static void main(String[] args) {
-    new TXCyCreekCommCenterParserTest().generateTests("T15", "PHONE ADDR PLACE APT MAP CALL UNIT X");
+    new TXCyCreekCommCenterParserTest().generateTests("T16", "PHONE ADDR PLACE APT MAP CALL UNIT X");
   }
 }
