@@ -150,6 +150,15 @@ public class TXCyCreekCommCenterParserTest extends BaseParserTest {
         "UNIT:WDE107 E76",
         "X:S ROLLING OAKS DR KUYKEND 201125394 TXT STOP to");
 
+    doTest("T17",
+        "  06/08 16:04 12110 SARTI ST-HC, ; Map:371A- Sub:FOUNTAINHEAD Nat:31D02-UNCON - EFFECTIVE BREATHI Units:HCM93 D52 11M X-St:BROOKHEAD TRL 201125435 TXT STOP to opt-out",
+        "ADDR:12110 SARTI ST",
+        "PLACE:FOUNTAINHEAD",
+        "MAP:371A-",
+        "CALL:31D02-UNCON - EFFECTIVE BREATHI",
+        "UNIT:HCM93 D52 11M",
+        "X:BROOKHEAD TRL 201125435 TXT STOP to opt-out");
+
   }
   
   public static void main(String[] args) {
