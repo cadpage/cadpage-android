@@ -467,7 +467,8 @@ public class ManagePreferences {
 
         R.string.pref_paid_year_key,
         R.string.pref_install_date_key,
-        R.string.pref_free_rider_key
+        R.string.pref_free_rider_key,
+        R.string.pref_auth_location
     };
 
     Map<String, ?> map = prefs.mPrefs.getAll();
