@@ -48,6 +48,7 @@ Sender: rc.404@c-msg.net
 (CAD) [FredCo] CT: TROUBLE BREATHING / default 7 S FEDERAL ST NEWM TIME: 12:02:44 ESZ: 1501 MAP: 4568H9 Disp: A159,M17
 
 (CAD) [FredCo] CT: OUTSIDE INVESTIGATION / default 5018 GREEN VALLEY RD CMON TIME: 21:24:52 ESZ: 1503 MAP: 4688G1 Disp: RE153
+(CAD) [FredCo] CT: SICK PERSON / default 5850 EAGLEHEAD DR CIJM: @OAKDALE HIGH SCHOOL TIME: 08:52:07 ESZ: 1513 MAP: 4568A7 Disp: A159
 
 
 ***/
@@ -69,6 +70,8 @@ public class MDFrederickCountyParser extends SmartAddressParser {
         "CEMB","Emmitsburg",
         "CFR1","Frederick City",
         "CFR2","Frederick City",
+        "CIJM", "Ijamsville",
+        "CMON", "Monrovia",
         "CNMA","New Market",
         "CMTY","Mt Airy",
         "CSAB","Sabillasville",
@@ -132,6 +135,7 @@ public class MDFrederickCountyParser extends SmartAddressParser {
       }
       if (p1 >= 0) {
         data.strPlace = strAddr.substring(p1+1).trim();
+        if (data.strPlace.startsWith("@")) data.strPlace = data.strPlace.substring(1).trim();
         strAddr = strAddr.substring(0, p1).trim();
       }
       parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ | FLAG_ANCHOR_END , strAddr, data);
