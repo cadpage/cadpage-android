@@ -44,6 +44,12 @@ public class NCIredellCountyParserTest extends BaseParserTest {
         "CALL:PUBLIC SERVICE",
         "ADDR:106 KNOLLCREST LN");
 
+    doTest("T6",
+        "FRM:CommtechMessenger (emergin)\"\nMSG:MFD 2ANAPHYLACTIC SHOCK, 161 NILE CIR",
+        "SRC:MFD",
+        "CALL:2ANAPHYLACTIC SHOCK",
+        "ADDR:161 NILE CIR");
+
   }
   
 
