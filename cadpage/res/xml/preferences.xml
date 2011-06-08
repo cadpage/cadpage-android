@@ -26,7 +26,7 @@
               android:title="@string/pref_notif_enabled_title"
               android:summaryOn="@string/pref_notif_enabled_summaryon"
               android:summaryOff="@string/pref_notif_enabled_summaryoff"
-              android:defaultValue="false" />
+              android:defaultValue="true" />
             <CheckBoxPreference
               android:key="@string/pref_notif_override_key"
               android:title="@string/pref_notif_override_title"
