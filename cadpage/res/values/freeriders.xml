@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string-array name="free_rider_list">
+    <item>01d1e50dad9162d99f8deb559eff8abd</item>  <!-- bradley e jordan -->
     <item>080a55e1c5dfffa0c96f27497b3ec299</item>  <!-- Joseph Nguyen -->
     <item>0feac42a018d6be96b67428e8ebe5cdf</item>
     <item>12aae3649fbe26e6043b2fa33afc103e</item>  <!-- Gregory Adair -->
@@ -9,6 +10,7 @@
     <item>21617bdc1e7572be9d671962d2f5959b</item>  <!-- Michael Wiederhold -->
     <item>27b740356618534d2829a78aa87c4942</item>
     <item>27df9e112919263c1fd78979754315f3</item>  <!-- Edward Gotthardt jr -->
+    <item>2bc887082fae6a08ee811cd181fbcf02</item>  <!-- Deborah Halligan -->
     <item>2c4f70d60f5d7d7a624e93a91cbdb719</item>  <!-- Richard Lieder -->
     <item>3165d1e49608ce44734e5c86e26c920a</item>  <!-- Ken Corbin -->
     <item>365e1950a18948b01085079ce47747ae</item>  <!-- Brian Drum -->
@@ -48,6 +50,7 @@
     <item>addc610b9538986f893bc7353ccf72d9</item>  <!-- nicola bueti -->
     <item>af189053f1885732e0af56324b19aae4</item>
     <item>af1cee23f52f9a6b2e2781bdca4560b0</item>
+    <item>af4e5b1d03806c9ecf2d065d74a9adad</item>  <!-- Ian Zuckerman -->
     <item>b454c9fef1504bcabe9f59789d5352cd</item>  <!-- Michael Russo -->
     <item>bc0f7cd9c41b2b0e4f29141887155d90</item>  <!-- david forte -->
     <item>be8471ad832c142d96909d531e568779</item>  <!-- Daniel M. Agababian -->
