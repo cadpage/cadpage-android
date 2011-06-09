@@ -70,7 +70,7 @@ public class MDFrederickCountyParser extends SmartAddressParser {
         "CEMB","Emmitsburg",
         "CFR1","Frederick City",
         "CFR2","Frederick City",
-        "CIJM", "Ijamsville",
+        "CIJM", "New Market",
         "CMON", "Monrovia",
         "CNMA","New Market",
         "CMTY","Mt Airy",
