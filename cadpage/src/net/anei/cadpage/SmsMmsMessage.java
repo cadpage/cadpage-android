@@ -42,6 +42,7 @@ public class SmsMmsMessage implements Serializable {
   // as well, but then we would loose backward compatibility with messages
   // saved before the extra message list was added.
   private List<String> extraMsgBody = null;
+  
   private long timestamp = 0;
   private int messageType = 0;
   private MessageClass messageClass = null;
@@ -50,6 +51,10 @@ public class SmsMmsMessage implements Serializable {
   private transient SmsMsgInfo info = null;
   private int msgId = 0;
   private String location = null;
+  
+  // Content location for MMS messages
+  private String contentLoc = null;
+  private String mmsMsgId = null;
   
   private transient String parseAddress = null;
   private transient String parseSubject = null;
@@ -108,7 +113,7 @@ public class SmsMmsMessage implements Serializable {
   }
 
   /**
-   * Construct SmsMmsMessage given a raw message (created from pdu), used for when
+   * Construct SMS SmsMmsMessage given a raw message (created from pdu), used for when
    * a message is initially received via the network.
    */
   public SmsMmsMessage(SmsMessage[] messages, long _timestamp) {
@@ -142,7 +147,24 @@ public class SmsMmsMessage implements Serializable {
     
     // Calculate the from address and body to be used for parsing purposes
     getParseInfo();
+  }
+  
 
+  /**
+   * Construct MMS SmsMmsMessage given a raw message (created from pdu), used for when
+   * a message is initially received via the network.
+   */
+  public SmsMmsMessage(MessageClass messageClass, String fromAddress, 
+                        String subject, String contentLoc, String mmsMsgId,
+                        long timestamp) {
+    this.timestamp = timestamp;
+    messageType = MESSAGE_TYPE_MMS;
+    this.messageClass = messageClass;
+    this.fromAddress = this.parseAddress = fromAddress;
+    this.parseSubject = subject;
+    this.contentLoc = contentLoc;
+    this.mmsMsgId = mmsMsgId;
+    this.messageBody = this.parseMessageBody = null;
   }
 
   /**
@@ -542,6 +564,14 @@ public class SmsMmsMessage implements Serializable {
     return location;
   }
   
+  public String getContentLoc() {
+    return contentLoc;
+  }
+  
+  public String getMmsMsgId() {
+    return mmsMsgId;
+  }
+  
   public boolean isExpectMore() {
     if (expectMore) return true;
     if (info != null) return info.isExpectMore();
@@ -827,6 +857,11 @@ public class SmsMmsMessage implements Serializable {
     sb.append("\nLocation:");
     sb.append(location);
     
+    sb.append("\nContentLoc:");
+    sb.append(contentLoc);
+    sb.append("\nmmsMsgId:");
+    sb.append(mmsMsgId);
+    
     sb.append("\nExpectMore:");
     sb.append(expectMore);
     
@@ -849,6 +884,7 @@ public class SmsMmsMessage implements Serializable {
    */
   private static final Pattern MULT_SPACES = Pattern.compile(" {2,}");
   static String escape(String message) {
+    if (message == null) return message;
     message = message.replace("\t", "\\t");
     message = message.replace("\n", "\\n\n");
     Matcher match = MULT_SPACES.matcher(message);
@@ -885,7 +921,8 @@ public class SmsMmsMessage implements Serializable {
     if (!(obj instanceof SmsMmsMessage)) return false;
     SmsMmsMessage msg = (SmsMmsMessage)obj;
     return (match(fromAddress, msg.fromAddress) &&
-             match(messageBody, msg.messageBody));
+             match(messageBody, msg.messageBody) &&
+             match(contentLoc, msg.contentLoc));
   }
   
   private boolean match(String s1, String s2) {

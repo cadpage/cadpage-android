@@ -2002,6 +2002,16 @@ Contact: "cmwetherby@aol.com" <cmwetherby@aol.com>
 Sender: brandywinefireco@comcast.net
 06/06/2011*21:22*L1*SMOKE INVESTIGATION*8 E LEA BL btwn N MARKET ST & *PENNROSE
 **********************************************************
+Unknown
+Contact: Matt Micsak <wfd316@gmail.com>
+Sender: paging@rednmxcad.com
+L: 701 AUDLEY END\n
+T: STRUCTURE FIRE\n
+O: \n
+B: \n
+C1: FINCHINGFIELD LA\n
+C2: WOODBRIDGE LA\n
+X: PLASTIC CONTAINER CAUGHT FIRE ON STOVE..COMP SAYS THAT CONTAINER IS SMOLD
 **********************************************************
 **********************************************************
 **********************************************************
@@ -2010,7 +2020,6 @@ Sender: brandywinefireco@comcast.net
 **********************************************************
 ************  READY TO ROLL ******************************
 **********************************************************
-Kootenai County, ID in progress
 **********************************************************
 Kootenai County, ID in progress
 **********************************************************

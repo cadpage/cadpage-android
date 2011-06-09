@@ -1,11 +1,12 @@
 package net.anei.cadpage;
 
+import net.anei.cadpage.mms.GenericPdu;
+import net.anei.cadpage.mms.PduParser;
 import android.app.AlarmManager;
 import android.app.PendingIntent;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
-import android.os.Bundle;
 import android.telephony.SmsMessage;
 import android.telephony.TelephonyManager;
 import android.telephony.SmsMessage.MessageClass;
@@ -56,15 +57,9 @@ public class SmsReceiver extends BroadcastReceiver {
     // Process incoming MMS message
     else if (ACTION_MMS_RECEIVED.equals(intent.getAction()) && 
               MMS_DATA_TYPE.equals(intent.getType())) {
-      
-      // For starters, all we do is log the intent contents
-      Log.w("MMS message received");
-      Log.w(intent.toString());
-      Bundle b = intent.getExtras();
-      if (b != null) Log.w(b.toString());
-      Object data = b.get("data");
-      String sData = new String((byte[])data);
-      Log.w("data=" + sData);
+      byte[] pushData = intent.getByteArrayExtra("data");
+      GenericPdu pdu = new PduParser(pushData).parse();
+      if (pdu != null) message = pdu.getMessage();
     }
      
     // Otherwise convert Intent into an SMS/MSS message
@@ -114,6 +109,9 @@ public class SmsReceiver extends BroadcastReceiver {
         if (! ManagePreferences.smspassthru()) abortBroadcast();
         return;
       }
+      
+      // This is as far as we go with MMS messages (for now at least)
+      if (message.getMessageType() == SmsMmsMessage.MESSAGE_TYPE_MMS) return;
       
       // If we have a buffered message, merge this one into it
       if (bufferMsg != null) {
