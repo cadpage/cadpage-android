@@ -12,6 +12,7 @@ Brian Drum (brian.a.drum@gmail.com)
 Brian Murray (murraybp@gmail.com)
 Brian Soller (sfi5311@gmail.com)
 Bruce Reiersen (breiersen@aol.com)
+carlos benavides (txfiredoc@gmail.com)
 charles green (maplesprings481@gmail.com)
 Dan Berg (db27529@gmail.com)
 dan@motovationcycles.com (motovationcycles@gmail.com)
@@ -19,6 +20,7 @@ Daniel M. Agababian (dan@dpfd439.com)
 Darryl Gerald (trafficfuzz@gmail.com)
 David Brandt (dabrandt1@gmail.com).
 David Dyer (wingnut.94@gmail.com)
+david forte (davidforte415@gmail.com)
 derrick@cadpage.org
 Donald Simms (fire_freak74@yahoo.com)
 Douglas Poor (arff99@gmail.com)
@@ -45,6 +47,7 @@ Jeffrey Young (jpyoung@chartermi.net)
 jerry@sdiacademy.com
 jgrif72@gmail.com
 Jorge Fernandez (fernandezj@gmail.com)
+Joseph Marroni (joeman1115@gmail.com)(lholbert5778@gmail.com)
 Joseph Nguyen (demoguitarist@yahoo.com) (jnguyen0724@gmail.com)
 Ken Corbin (kencorbin101@gmail.com)
 ken@pauley.org
@@ -75,11 +78,13 @@ yanksgt@gmail.com
 
 // List of users getting credit for 2011
 $paid_2011_list
+David Bruce (dbruce0571@gmail.co)(dbruce1@carolina.rr.com)
 jaybo195@aol.com
 jryoungsman@yahoo.com
 jwylie@fuse.net (joscwy@gmail.com)
 Michael Wystepek (mjwystepek@gmail.com)
 sean.felock@yahoo.com (sean.felock@gmail.com)
+Scott Schmidt (firebox4@gmail.com)
 Victor Quintanilla (vquintanilla7@gmail.com)
 William Stearn (wstearn@gmail.com)
 zwelch85@gmail.com
