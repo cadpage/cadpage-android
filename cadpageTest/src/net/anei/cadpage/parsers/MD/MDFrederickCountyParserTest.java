@@ -149,7 +149,7 @@ public class MDFrederickCountyParserTest extends BaseParserTest {
         "(CAD) [FredCo] CT: SICK PERSON / default 5850 EAGLEHEAD DR CIJM: @OAKDALE HIGH SCHOOL TIME: 08:52:07 ESZ: 1513 MAP: 4568A7 Disp: A159",
         "CALL:SICK PERSON/default",
         "ADDR:5850 EAGLEHEAD DR",
-        "CITY:Ijamsville",
+        "CITY:New Market",
         "PLACE:OAKDALE HIGH SCHOOL",
         "BOX:1513",
         "UNIT:A159",
