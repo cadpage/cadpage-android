@@ -16,6 +16,11 @@ Add: 4817 Skyline Dr Apt: Loc: Nature: Building Fire Grid: 18/1. Incident# 10-36
 Add: Broadmoor St & Johnson Dr Apt: Loc: Nature: Injury Accident Grid: 32/1. Incident# 10-3640058 Cross:
 Add: Shawnee Mission Pkwy & Nal Apt: Loc: Nature: Injury Accident C2 Grid: 32/1. Incident# 10-3640048 Cross:
 
+Contact: Mike Shaw <mshaw1957@gmail.com>
+Sender: calls+bncCAAQ1K3H7wQaBJUY9Sk@jocofd1.org
+(info:) Add: Gardner West Rd & Lake Roa Apt:            Loc:                 Nature: Investigate Power Lines Down   Grid: 290/1 Incident# 11-1
+
+
 */
 public class KSJohnsonCountyParser extends FieldProgramParser {
   

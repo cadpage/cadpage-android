@@ -246,6 +246,7 @@ public class PABucksCountyParser extends FieldProgramParser {
 
       "AABDO",      "ACUTE ABDOMEN",
       "AALLR",      "ANAPHYLAXIS",
+      "AASSL",      "ASSAULT VICTIM (ALS)",
       "ABLED",      "ACUTE HEMORRHAGE",
       "ABURN",      "CRITICAL BURN VICTIM",
       "ACHESP",     "CHEST PAINS (CARDIAC SYMPT.)",
@@ -271,7 +272,6 @@ public class PABucksCountyParser extends FieldProgramParser {
       "ATRAUM",     "MULTI-SYSTEMS TRAUMA",
       "AUNC",       "UNCONSCIOUS SUBJECT",
       "AUNR",       "UNRESPONSIVE SUBJECT",
-
       "BABDO",      "ABDOMINAL PAIN",
       "BALLR",      "ALLERGIC REACTION",
       "BBLED",      "BLEEDING (NON TRAUMATIC)",
@@ -289,5 +289,6 @@ public class PABucksCountyParser extends FieldProgramParser {
       "BPTAST",     "PATIENT ASSIST",
       "BTAI",       "BLS TRAFFIC ACCIDENT (MINOR INJURIES)",
       "BTRAN",      "EMERGENCY TRANSPORTATION",
+      "MALRM",      "MEDICAL ALARM"
   });
 }
