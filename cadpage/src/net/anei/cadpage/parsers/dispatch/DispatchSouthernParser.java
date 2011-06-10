@@ -35,10 +35,6 @@ BGILLISPIE:796 WHEELERS CHURCH RD HURDLE MILLS MDL 10C01 2011019661 05:54:13 CHE
 BROWN:225 CROWN BLVD TIMBERLAKE 2011020040 11:49:49 ALARMS-FIRE design works building 2 general fire alarm adt 8772857397
 
 Chilton County, AL
-Contact: Scott Hooper <evfd1326@gmail.com>
-Contact: d w <miswtl@gmail.com>
-Sender: dispatch@chiltoncounty.org
-Use DispatchSouthernParser
 120 COUNTY RD 377 BILLINGSLEY 2011040762 18:41:28 MENTAL PERSON/PATIENT CUTTING HIMSELF, ALTERED MENTAL STATUS
 COUNTY RD 57 \ COUNTY RD 445 2011039172 06:20:45 WRECK-UNKNOWN INJURIES CALLER STATES ONE VEHICLE OVERTURNED.. ADV THAT THE SUBJECT IS OUT OF THE VEHICLE
 120 COUNTY RD 377 BILLINGSLEY 2011040762 18:41:28 MENTAL PERSON/PATIENT CUTTING HIMSELF, ALTERED MENTAL STATUS
@@ -53,19 +49,30 @@ public class DispatchSouthernParser extends SmartAddressParser {
   private static final Pattern ID_TIME_PTN = Pattern.compile("\\b(\\d{2,4}-?\\d{4,8}) \\d\\d:\\d\\d:\\d\\d\\b");
   private static final Pattern CALL_PTN = Pattern.compile("^[A-Z0-9\\- ]+\\b");
   
+  private boolean leadDispatch;
+  
   public DispatchSouthernParser(String[] cityList, String defCity, String defState) {
-    super(cityList, defCity, defState);
+    this(cityList, defCity, defState, true);
   }
+  
+  public DispatchSouthernParser(String[] cityList, String defCity, String defState, boolean leadDispatch) {
+    super(cityList, defCity, defState);
+    this.leadDispatch = leadDispatch;
+  }
+
   
   @Override
   public boolean parseMsg(String body, Data data) {
     
     // Message must always start with dispatcher ID, which we promptly discard
-    Matcher match = LEAD_PTN.matcher(body);
-    if (!match.find()) return false;
-    body = body.substring(match.end()).trim();
+    if (leadDispatch) {
+      Matcher match = LEAD_PTN.matcher(body);
+      if (!match.find()) return false;
+      body = body.substring(match.end()).trim();
+    }
+    
     // find an ID/Time pattern which splits the message into two fields
-    match = ID_TIME_PTN.matcher(body);
+    Matcher match = ID_TIME_PTN.matcher(body);
     if (!match.find()) return false;
     
     data.strCallId = match.group(1);
