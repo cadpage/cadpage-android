@@ -49,8 +49,8 @@ COUNTY RD 57 \ COUNTY RD 445 2011039172 06:20:45 WRECK-UNKNOWN INJURIES CALLER S
 
 public class DispatchSouthernParser extends SmartAddressParser {
   
-  private static final Pattern LEAD_PTN = Pattern.compile("^\\w+:");
-  private static final Pattern ID_TIME_PTN = Pattern.compile("\\b(\\d{2,4}-?\\d{6}) \\d\\d:\\d\\d:\\d\\d\\b");
+  private static final Pattern LEAD_PTN = Pattern.compile("^[\\w\\.]+:");
+  private static final Pattern ID_TIME_PTN = Pattern.compile("\\b(\\d{2,4}-?\\d{4,8}) \\d\\d:\\d\\d:\\d\\d\\b");
   private static final Pattern CALL_PTN = Pattern.compile("^[A-Z0-9\\- ]+\\b");
   
   public DispatchSouthernParser(String[] cityList, String defCity, String defState) {

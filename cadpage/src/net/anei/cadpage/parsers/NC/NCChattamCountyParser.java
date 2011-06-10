@@ -31,3 +31,43 @@ MULTIPLE seiz PREVIOUS CALL FOR THIS ADDRESS WITH THIS NUMBER GIVEN BY CARY PD U
 
 
 package net.anei.cadpage.parsers.NC;
+
+import net.anei.cadpage.parsers.dispatch.DispatchSouthernParser;
+
+
+public class NCChattamCountyParser extends DispatchSouthernParser {
+  
+  private static final String[] CITY_LIST = new String[]{
+    "FEARRINGTON",
+    "GOLDSTON",
+    "PITTSBORO",
+    "SILER CITY",
+    "CHAPEL HILL",
+    
+    "BEAR CREEK",
+    "BENNETT",
+    "BONLEE",
+    "BRICKHAVEN",
+    "BYNUM",
+    "CARBONTON",
+    "CORINTH",
+    "CRUTCHFIELD CROSSROADS",
+    "GULF",
+    "HAYWOOD",
+    "MONCURE",
+    "SILK HOPE",
+    "WILSONVILLE"
+  };
+
+  public NCChattamCountyParser() {
+    super(CITY_LIST, "CHATTAM COUNTY", "NC");
+    
+    
+  }
+  @Override
+  public String getFilter() {
+    return "@chathamnc.org";
+  }
+  
+
+}
