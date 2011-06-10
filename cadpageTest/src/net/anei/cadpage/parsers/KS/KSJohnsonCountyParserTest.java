@@ -68,9 +68,16 @@ public class KSJohnsonCountyParserTest extends BaseParserTest {
         "MAP:32/1.",
         "ID:10-3640048");
 
+    doTest("T8",
+        "(info:) Add: Gardner West Rd & Lake Roa Apt:            Loc:                 Nature: Investigate Power Lines Down   Grid: 290/1 Incident# 11-1",
+        "ADDR:Gardner West Rd & Lake Roa",
+        "CALL:Investigate Power Lines Down",
+        "MAP:290/1",
+        "ID:11-1");
+
   }
   
   public static void main(String[] args) {
-    new KSJohnsonCountyParserTest().generateTests();
+    new KSJohnsonCountyParserTest().generateTests("T8");
   }
 }
