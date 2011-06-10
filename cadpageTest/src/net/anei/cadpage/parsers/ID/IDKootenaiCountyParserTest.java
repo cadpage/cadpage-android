@@ -16,7 +16,7 @@ public class IDKootenaiCountyParserTest extends BaseParserTest {
   public void testParser() {
     doTest("T1",
         "KOOTENAI COUNTY SHERIFF KCFR\nFIRE STRUCTURE \n1576 W TUALATIN DR\nF1A  \nF1V\nOPS1 \nVISIBLE FLAMES    IN GARAGE\n13:12:17 04/30/2011 - T.TAYLOR\nRES IS UNOCC\n13:12:50 04/30/2011 - T.TAYLOR\nVEH IN GARAGE    RP SAYS HER HOUSE IS GOING TO BLOW UP\n13:13:00 04/30/2011 - D.WILSON       \nFLAME\nSent by CLI  Sat Apr 30 13:16:15 2011\n0000 Confirm 0001 Refuse TXT STOP to opt-out",
-        "SRC:CFR",
+        "SRC:KCFR",
         "CALL:FIRE STRUCTURE",
         "ADDR:1576 W TUALATIN DR",
         "UNIT:F1V",
