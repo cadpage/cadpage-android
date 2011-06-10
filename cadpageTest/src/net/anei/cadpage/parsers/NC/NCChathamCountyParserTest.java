@@ -1,15 +1,15 @@
 package net.anei.cadpage.parsers.NC;
 
 import net.anei.cadpage.parsers.BaseParserTest;
-import net.anei.cadpage.parsers.NC.NCChattamCountyParserTest;
+import net.anei.cadpage.parsers.NC.NCChathamCountyParserTest;
 
 import org.junit.Test;
 
 
-public class NCChattamCountyParserTest extends BaseParserTest {
+public class NCChathamCountyParserTest extends BaseParserTest {
   
-  public NCChattamCountyParserTest() {
-    setParser(new NCChattamCountyParser(), "CHATTAM COUNTY", "NC");
+  public NCChathamCountyParserTest() {
+    setParser(new NCChathamCountyParser(), "CHATHAM COUNTY", "NC");
   }
   
   @Test
@@ -51,18 +51,10 @@ public class NCChattamCountyParserTest extends BaseParserTest {
         "ID:1119504",
         "INFO:Convulsions/ Seizures- CONTINUOUS or MULTIPLE seiz PREVIOUS CALL FOR THIS ADDRESS WITH THIS NUMBER GIVEN BY CARY PD UNKNOWN PROBLEM POSSIBLE SEIZURES(End)");
 
-    doTest("T6",
-        "HEATHER.BOONE:791 RED GATE RD PITTSBORO 1119520 05:38:59 medical call HUSBAND OFF BALCONY",
-        "ADDR:791 RED GATE RD",
-        "CITY:PITTSBORO",
-        "ID:1119520",
-        "INFO:medical call HUSBAND OFF BALCONY");
- 
-
   }
   
   public static void main(String[] args) {
-    new NCChattamCountyParserTest().generateTests("T1", "ADDR CITY CODE ID CALL INFO");
+    new NCChathamCountyParserTest().generateTests("T1", "ADDR CITY CODE ID CALL INFO");
   }
 }
 /*, "ADDR CITY CODE CODE ID CALL INFO"*/
