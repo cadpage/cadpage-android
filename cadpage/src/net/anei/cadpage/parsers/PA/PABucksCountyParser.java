@@ -241,6 +241,7 @@ public class PABucksCountyParser extends FieldProgramParser {
       "FUNK",     "UNKNOWN TYPE FIRE",
       "RAUTO",    "AUTO EXTRICATION",
       "RMAR",     "MARINE RESCUE",
+      "STDBY",    "FIRE STANDBY",
       "WIREIN",   "WIRES IN DWELLING",
 
       "AABDO",      "ACUTE ABDOMEN",
