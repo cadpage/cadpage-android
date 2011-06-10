@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:id="@+id/open_item" android:title="@string/open_item_text"/>
+  <item android:id="@+id/ack_item" android:title="@string/ack_item_text"/>
+  <item android:id="@+id/map_item" android:title="@string/map_item_text" />
+  <item android:id="@+id/toggle_lock_item" android:title="@string/lock_item_text" />
+  <item android:id="@+id/delete_item" android:title="@string/delete_item_text" />
+  <item android:id="@+id/close_item" android:title="@string/close_item_text" />
+  <item android:id="@+id/email_item" android:title="@string/email_item_text"/>
+  <item android:id="@+id/publish_item" android:title="@string/publish_item_text"/>
+</menu>

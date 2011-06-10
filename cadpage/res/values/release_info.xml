@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="release_date">20110610</string>
+  <string name="release_version">v1.4.12</string>
+  <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
+  <string name="release_magic_word2">quantum</string>
+  <string name="release_text">
+    Thanks to everyone who has donated Your support is appreciated and helps support the app.\n
+    See http://www.cadpage.org/financial-support for more details\n
+    \n
+  What"'"s new in this release\n
+	New Locations:\n
+  Kootenai County, ID\n
+  Chilton County, AL\n
+  Washington County, PA\n
+  
+\n
+	Fixes:\n
+	Jefferson County, NY\n
+  Mapping request rejected when roaming\n
+  Montgomery County,TX\n
+  Cambria County, PA\n
+  Tolland County, CT\n
+  Greeley, CO \n
+  Iredell County, NC\n
+  Bucks County, PA\n
+  </string>  
+</resources>
+  
