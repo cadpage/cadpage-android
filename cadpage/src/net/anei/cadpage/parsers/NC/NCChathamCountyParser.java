@@ -1,5 +1,11 @@
+
+
+package net.anei.cadpage.parsers.NC;
+
+import net.anei.cadpage.parsers.dispatch.DispatchSouthernParser;
+
 /*
- * Chattam County, NC
+Chattam County, NC
 Contact: Bill <leatherheadfirefighter@yahoo.com>
 Sender: @chathamnc.org
 DispatchSouthernParser
@@ -26,16 +32,9 @@ FRM:KIM.HANNER@chathamnc.org
 MSG:KIM.HANNER:475 NATURE TRAIL RD CHAPEL HILL 1119504 00:09:15 Convulsions/ Seizures- CONTINUOUS or
 (Con't) 2 of 2
 MULTIPLE seiz PREVIOUS CALL FOR THIS ADDRESS WITH THIS NUMBER GIVEN BY CARY PD UNKNOWN PROBLEM POSSIBLE SEIZURES(End)
-**********************************************************
 */
 
-
-package net.anei.cadpage.parsers.NC;
-
-import net.anei.cadpage.parsers.dispatch.DispatchSouthernParser;
-
-
-public class NCChattamCountyParser extends DispatchSouthernParser {
+public class NCChathamCountyParser extends DispatchSouthernParser {
   
   private static final String[] CITY_LIST = new String[]{
     "FEARRINGTON",
@@ -59,8 +58,8 @@ public class NCChattamCountyParser extends DispatchSouthernParser {
     "WILSONVILLE"
   };
 
-  public NCChattamCountyParser() {
-    super(CITY_LIST, "CHATTAM COUNTY", "NC");
+  public NCChathamCountyParser() {
+    super(CITY_LIST, "CHATHAM COUNTY", "NC");
     
     
   }

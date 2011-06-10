@@ -163,16 +163,14 @@
   <!-- Pair of arrays used to convert existing location code values when an
        existing Parser needs to be renamed for some reason -->
   <string-array name="old_location_values">
-    <item>SCCharlestonCountyA</item>
-    <item>SCCharlestonCountyB</item>
     <item>MDArnold</item>
     <item>NCStanleyCounty</item>
+    <item>NCChattamCounty</item>
   </string-array>
   <string-array name="new_location_values">
-    <item>SCCharlestonCounty</item>
-    <item>SCCharlestonCounty</item>
     <item>MDAnneArundelCounty</item>
     <item>NCStanlyCounty</item>
+    <item>NCChathamCounty</item>
   </string-array>
   
   <!-- Array of state names -->
@@ -324,7 +322,7 @@
     <item>NCBurkeCounty</item>
     <item>NCCabarrusCounty</item>
     <item>NCCatawbaCounty</item>
-    <item>NCChattamCounty</item>
+    <item>NCChathamCounty</item>
     <item>NCCumberlandCounty</item>
     <item>NCDavidsonCounty</item>
     <item>NCForsythCounty</item>
@@ -525,7 +523,7 @@
     <item>Burke County, NC</item>
     <item>Cabarrus County, NC</item>
     <item>Catawba County, NC</item>
-    <item>Chattam County, NC</item>
+    <item>Chatham County, NC</item>
     <item>Cumberland County, NC</item>
     <item>Davidson County, NC</item>
     <item>Forsyth County, NC</item>
