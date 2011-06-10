@@ -87,6 +87,13 @@ public class OHLickingCountyParserTest extends BaseParserTest {
         "CALL:SICK PERSON (SPECIFIC DIAGNOSIS)",
         "ADDR:4977 MINK ST NW",
         "CITY:MONROE TWP");
+
+    doTest("T7",
+        "LC911:[3298]-- - Nature: ILLNESS - NON SPECIFIC - Location: 76.00 YARDNER ST Suite:UNIT29 JOHNSTOWN -",
+        "CALL:ILLNESS - NON SPECIFIC",
+        "ADDR:76 YARDNER ST",
+        "APT:UNIT29",
+        "CITY:JOHNSTOWN");
   }
   
   @Test
