@@ -34,6 +34,17 @@ Bmelton:HURDLE MILLS RD / POINDEXTER RD 2011019760 17:21:08 TREE DOWN
 BGILLISPIE:796 WHEELERS CHURCH RD HURDLE MILLS MDL 10C01 2011019661 05:54:13 CHEST PAIN CARD 10
 BROWN:225 CROWN BLVD TIMBERLAKE 2011020040 11:49:49 ALARMS-FIRE design works building 2 general fire alarm adt 8772857397
 
+Chilton County, AL
+Contact: Scott Hooper <evfd1326@gmail.com>
+Contact: d w <miswtl@gmail.com>
+Sender: dispatch@chiltoncounty.org
+Use DispatchSouthernParser
+120 COUNTY RD 377 BILLINGSLEY 2011040762 18:41:28 MENTAL PERSON/PATIENT CUTTING HIMSELF, ALTERED MENTAL STATUS
+COUNTY RD 57 \ COUNTY RD 445 2011039172 06:20:45 WRECK-UNKNOWN INJURIES CALLER STATES ONE VEHICLE OVERTURNED.. ADV THAT THE SUBJECT IS OUT OF THE VEHICLE
+120 COUNTY RD 377 BILLINGSLEY 2011040762 18:41:28 MENTAL PERSON/PATIENT CUTTING HIMSELF, ALTERED MENTAL STATUS
+100 COUNTY RD 99 LOT 5 VERBENA 2011043298 18:37:55 SHORTNESS OF BREATH GRANDMOTHER ON CHEMO NOT DOING GOOD 
+518 COUNTY RD 221 THORSBY 2011046746 06:20:05 DIABETIC RESIDENCE IS A BEIGE DOUBLE WIDE WITH MAROON SHUTTERS. RED TOYOTA AND BLACK DODGE IN THE BACK YARD
+
 */
 
 public class DispatchSouthernParser extends SmartAddressParser {
@@ -53,7 +64,6 @@ public class DispatchSouthernParser extends SmartAddressParser {
     Matcher match = LEAD_PTN.matcher(body);
     if (!match.find()) return false;
     body = body.substring(match.end()).trim();
-    
     // find an ID/Time pattern which splits the message into two fields
     match = ID_TIME_PTN.matcher(body);
     if (!match.find()) return false;
