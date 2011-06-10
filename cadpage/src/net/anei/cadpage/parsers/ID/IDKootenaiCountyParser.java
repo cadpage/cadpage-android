@@ -30,7 +30,7 @@ public class IDKootenaiCountyParser extends FieldProgramParser {
   @Override
   protected boolean parseMsg(String body, Data data) {
     if (body.startsWith("KOOTENAI COUNTY SHERIFF ")) {
-      body = body.substring(25).trim();
+      body = body.substring(24).trim();
     }
     int pt = body.indexOf("\nSent by CLI");
     if (pt >= 0) body = body.substring(0,pt).trim();
