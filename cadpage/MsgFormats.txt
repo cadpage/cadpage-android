@@ -2422,6 +2422,8 @@ X: PRECAUTIONARY FOR CHEST PAIN DUE TO MVA
 Nueces County, TX
 Contact: Mike Clack <chief@annavillevfd.com>
 Sender: ccpdpaging@cctexas.com<mailto:ccpdpaging@cctexas.com
+cc = corpus christi
+neucs = neuces
 
 Subject:MetroCom Notification
 MEDICAL - UNCON, ALRM: 0, PRI: 1, ESZ: 67 / 2141 TULOSO RD CC NUECS: @SUNTIDE FEDERAL CU- TULOSO RD
