@@ -23,7 +23,7 @@ KCFR\nFIRE STRUCTURE \nN SMITH LN & E MULLAN AVE\nF1C  \nF1V\nOPS1 \nTRAILER FUL
 public class IDKootenaiCountyParser extends FieldProgramParser {
   
   public IDKootenaiCountyParser() {
-    super("PEORIA COUNTY", "IL",
+    super("KOOTENAI COUNTY", "ID",
           "SRC CALL ADDR UNIT+? CH! INFO+");
   }
   

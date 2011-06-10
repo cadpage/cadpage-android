@@ -185,6 +185,7 @@
     <item>DE Deleware</item>
     <item>FL Florida</item>
     <item>GA Georgia</item>
+    <item>ID Idaho</item>
     <item>IL Illinois</item>
     <item>IN Indiana</item>
     <item>IA Iowa</item>
@@ -240,6 +241,7 @@
     <item>GAMartinez</item>
     <item>GAOconeeCounty</item>
     <item>GASmyrna</item>
+    <item>IDKootenaiCounty</item>
     <item>ILMedstar</item>
     <item>ILPeoriaCounty</item>
     <item>INHancockCounty</item>
@@ -439,6 +441,7 @@
     <item>Martinez, GA</item>
     <item>Oconee County, GA</item>
     <item>Smyrna, GA</item>
+    <item>Kootenai County, ID</item>
     <item>Medstar, SW IL</item>
     <item>Peoria County, IL</item>
     <item>Hancock County, IN</item>
