@@ -46,6 +46,9 @@ public class ALChiltonCountyParser extends DispatchSouthernParser {
   @Override
   public boolean parseMsg(String body, Data data) {
     body = body.replace('\\', '/');
-    return super.parseMsg(body, data);
+    body = body.replaceAll("\\bCOUNTY RD\\b", "CO");
+    if (! super.parseMsg(body, data)) return false;
+    data.strAddress = data.strAddress.replaceAll("\\bCO\\b", "COUNTY RD");
+    return true;
   }
 }
