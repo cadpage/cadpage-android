@@ -31,8 +31,8 @@ Contact: krpaschal@gmail.com <krpaschal@gmail.com>
 Sender: CAD@greensboro-nc.gov
 CAD@greensboro-nc.gov:CAD:CODE 47;7700 NEWSOME CT; B;CARDIAC / RESPIRATORY ARREST
 
-
-
+Contact: "Michael Capps" <firefightercapps@yahoo.com>
+FRM:dispatch@edispatches.com\nSUBJ:summerfieldfiredist Jun11-00:23\nMSG:summerfieldfiredist\nCAD:UNDER CONTROL;210 JAMES DOAK PKWY; G\n
 
 */
 

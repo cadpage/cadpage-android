@@ -2494,3 +2494,25 @@ INFO FOR ALL UNITS
 643 tanker back in service
 Apt: 
 Build:
+**********************************************************
+Ventura County, CA
+Contact: Chase Morgan <chasemorgan43@gmail.com>
+Sender: Fcc-do-not-reply@Ventura.org
+[FCC Page]  Incident Dispatch:  E43    BREATHING  1756 Chaps Ct                  11H1-C4 2 / 3  10-0072877
+[FCC Page]  This pager has just been associated with E43 during mobile logon.
+[FCC Page]  Incident Dispatch:  E43    BREATHING  2012 N Tam Ct                  11H1-B3 2 / 3  11-0032306
+[FCC Page]  Incident Dispatch:  E43    PUBLIC SER 2692 Fallen Leaf Ct            11F3-E2 2 / 3  11-0032318
+[FCC Page]  Incident Dispatch:  E43    FIRE MISC  1700 Tapo St                   11G2-B6 2 / 3  11-0032394
+[FCC Page]  Incident Dispatch:  E43    VEHICLE FI Wb 118 At / Kuehner Dr         11H1-A4 2 / 3  11-0032367
+[FCC Page]  Incident Dispatch:  E43    BREATHING  2090 Yosemite Ave              11H1-B1 2 / 3  11-0032427
+**********************************************************
+Richmond, MI (St Clair and Macomb counties)
+Contact: Erik Haynes <ehaynes078@gmail.com>
+Sender: richmondpaging@comcast.net
+Generic location doesn't work!
+** FIRE ** 1707 WITHEY   VEHICLE FIRE  COLUMBUS
+** FIRE RESCUE ** PALMS @ GRATIOT  PIA COLUMBUS
+** MEDICAL ** 35388 DIANE LN  HEART ATTACK
+** FIRE RESCUE ** PALAM @ GRATIOT  PIA COLUMBUS
+** FIRE ** 9590 GRATIOT  INJURY ACCIDENT  COLUMBUS TWP
+** RESCUE ** 10973 GRATIOT SUICIDE  CASCO
