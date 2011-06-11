@@ -143,10 +143,17 @@ public class NCGuilfordCountyParserTest extends BaseParserTest {
         "CALL:CODE 47",
         "INFO:B / CARDIAC / RESPIRATORY ARREST");
 
+    doTest("T17",
+        "FRM:dispatch@edispatches.com\nSUBJ:summerfieldfiredist Jun11-00:23\nMSG:summerfieldfiredist\nCAD:UNDER CONTROL;210 JAMES DOAK PKWY; G\n",
+        "SRC:summerfieldfiredist",
+        "ADDR:210 JAMES DOAK PKWY",
+        "INFO:G",
+        "CALL:UNDER CONTROL");
+
   }
   
 
   public static void main(String[] args) {
-    new NCGuilfordCountyParserTest().generateTests("T14");
+    new NCGuilfordCountyParserTest().generateTests("T18");
   }
 }
