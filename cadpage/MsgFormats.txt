@@ -2498,6 +2498,11 @@ Build:
 Ventura County, CA
 Contact: Chase Morgan <chasemorgan43@gmail.com>
 Sender: Fcc-do-not-reply@Ventura.org
+System: InfoRad
+Yes the 11H1-C4 is our own map pages.. and the 2/3  are channels command 2  
+tac 3   the 11- is the year 2011 and the following #s  is the incident  
+number.
+
 [FCC Page]  Incident Dispatch:  E43    BREATHING  1756 Chaps Ct                  11H1-C4 2 / 3  10-0072877
 [FCC Page]  This pager has just been associated with E43 during mobile logon.
 [FCC Page]  Incident Dispatch:  E43    BREATHING  2012 N Tam Ct                  11H1-B3 2 / 3  11-0032306
