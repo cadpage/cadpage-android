@@ -23,9 +23,9 @@ public class ExternalEventReceiver extends BroadcastReceiver {
     String action = intent.getAction();
 
     if (ACTION_SMSPOPUP_ENABLE.equals(action)) {
-      SmsPopupUtils.enableSMSPopup(context, true);
+      SmsPopupUtils.enableSMSPopup(context, ManagePreferences.enableMsgType());
     } else if (ACTION_SMSPOPUP_DISABLE.equals(action)) {
-      SmsPopupUtils.enableSMSPopup(context, false);
+      SmsPopupUtils.enableSMSPopup(context, "");
     } else if (ACTION_SMSPOPUP_DONATED.equals(action)) {
       SharedPreferences.Editor settings =
         PreferenceManager.getDefaultSharedPreferences(context).edit();

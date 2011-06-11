@@ -39,6 +39,21 @@ public class SmsMsgLogBuffer {
       if (is != null) try {is.close();} catch (IOException ex) {}
     }
   }
+  
+  /**
+   * Check for duplicate MMS message notification
+   * @param msg message to be checked
+   * @return true if we have already processed this MMS notification
+   */
+  public boolean checkDuplicateNotice(SmsMmsMessage msg) {
+    String contentLoc = msg.getContentLoc();
+    if (contentLoc != null) {
+      for (SmsMmsMessage msg2 : msgQueue) {
+        if (contentLoc.equals(msg2.getContentLoc())) return true;
+      }
+    }
+    return false;
+  }
 
   /**
    * Add new message to message log buffer
@@ -52,7 +67,7 @@ public class SmsMsgLogBuffer {
     // If we are suppressing duplicate messages, see if the new message
     // duplicates one already in the queue.  If queued message wasn't
     // identified as some kind of CAD message, don't check it
-    if (ManagePreferences.suppressDupMsg()) {
+    if (msg.getMessageType() == SmsMmsMessage.MESSAGE_TYPE_SMS && ManagePreferences.suppressDupMsg()) {
       for (SmsMmsMessage msg2 : msgQueue) {
         if (msg.equals(msg2)) return false;
       }

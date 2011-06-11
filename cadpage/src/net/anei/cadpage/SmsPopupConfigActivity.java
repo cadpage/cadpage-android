@@ -3,7 +3,6 @@ package net.anei.cadpage;
 import net.anei.cadpage.donation.DeveloperToolsManager;
 import net.anei.cadpage.donation.MainDonateEvent;
 import net.anei.cadpage.parsers.SmsMsgParser;
-import net.anei.cadpage.preferences.AppEnabledCheckBoxPreference;
 import net.anei.cadpage.preferences.DialogPreference;
 import net.anei.cadpage.preferences.EditTextPreference;
 import net.anei.cadpage.preferences.LocationCheckBoxPreference;
@@ -53,6 +52,24 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
         PreferenceManager.getDefaultSharedPreferences(this).edit();
     editor.putBoolean(getString(R.string.pref_initialized_key), true);
     editor.commit();
+    
+    // Set up the two enable components preferences
+    Preference pref = findPreference(getString(R.string.pref_enabled_key));
+    pref.setOnPreferenceChangeListener(new OnPreferenceChangeListener(){
+      @Override
+      public boolean onPreferenceChange(Preference preference, Object newValue) {
+        boolean enabled = (Boolean)newValue;
+        String enableStr = (enabled ? ManagePreferences.enableMsgType() : "");
+        SmsPopupUtils.enableSMSPopup(SmsPopupConfigActivity.this, enableStr);
+        return true;
+      }});
+    pref = findPreference(getString(R.string.pref_enable_msg_type_key));
+    pref.setOnPreferenceChangeListener(new OnPreferenceChangeListener(){
+      @Override
+      public boolean onPreferenceChange(Preference preference, Object newValue) {
+        SmsPopupUtils.enableSMSPopup(SmsPopupConfigActivity.this, (String)newValue);
+        return true;
+      }});
 
     // Set the version number in the about dialog preference
     final DialogPreference aboutPref =
@@ -254,8 +271,8 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
      * This is quite hacky - in case the app was enabled or disabled externally (by
      * ExternalEventReceiver) this will refresh the checkbox that is visible to the user
      */
-    AppEnabledCheckBoxPreference mEnabledPreference =
-      (AppEnabledCheckBoxPreference) findPreference(getString(R.string.pref_enabled_key));
+    CheckBoxPreference mEnabledPreference =
+      (CheckBoxPreference) findPreference(getString(R.string.pref_enabled_key));
 
     boolean enabled = myPrefs.getBoolean(getString(R.string.pref_enabled_key), true);
     mEnabledPreference.setChecked(enabled);

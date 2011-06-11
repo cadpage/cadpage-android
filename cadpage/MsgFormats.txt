@@ -2012,10 +2012,28 @@ Contact: Joseph Jenkins <natoj0025@gmail.com>
 Sender: lfdchief1@verizon.net
 (Dispatch) 11:07 ** F-MOTOR VEHICLE COLLISION-POSS ** 7523 ELMCREST RD ** - ** SMITH,SHERWOOD **  ** LVF112800872 ** RIVERGLEN RD ** E2,E3,E6,R1,R3, **
 **********************************************************
-Ventura County, CA
-Contact: Chase Morgan <chasemorgan43@gmail.com>
-[FCC Page]  Incident Dispatch:  E43    BREATHING  2090 Yosemite Ave              11H1-B1 2 / 3  11-0032427  
-
+Deleware County (Alternate)
+Contact: Mike Bierman <mtb2580@yahoo.com>
+Sender: 1410000081
+1 of 2\n
+FRM:norwoodfireco@rcn.com\n
+SUBJ:Messenger 911\n
+MSG:[Update]\n
+F11032765\n
+06/09/2011\n
+04:13\n
+ASSIST\n
+FD TO ASSIST EMS\n
+17 ELMWOOD AV\n
+S\n
+(Con't) 2 of 2\n
+ELMWOOD AV\n
+MCKINLEY AV\n
+021/M100D/M100/027B\n
+~80YOM,Set Station Alarm activ\n
+FD\n
+FIRE\n
+ANI/(End)
 **********************************************************
 **********************************************************
 **********************************************************
@@ -2023,7 +2041,6 @@ Contact: Chase Morgan <chasemorgan43@gmail.com>
 ************  READY TO ROLL ******************************
 **********************************************************
 **********************************************************
-Kootenai County, ID in progress
 **********************************************************
 Moore County, NC
 Contact: Daniel Strong <dstrong1970@yahoo.com>
@@ -2503,6 +2520,7 @@ Yes the 11H1-C4 is our own map pages.. and the 2/3  are channels command 2
 tac 3   the 11- is the year 2011 and the following #s  is the incident  
 number.
 
+[FCC Page]  Incident Dispatch:  E43    BREATHING  2090 Yosemite Ave              11H1-B1 2 / 3  11-0032427  
 [FCC Page]  Incident Dispatch:  E43    BREATHING  1756 Chaps Ct                  11H1-C4 2 / 3  10-0072877
 [FCC Page]  This pager has just been associated with E43 during mobile logon.
 [FCC Page]  Incident Dispatch:  E43    BREATHING  2012 N Tam Ct                  11H1-B3 2 / 3  11-0032306

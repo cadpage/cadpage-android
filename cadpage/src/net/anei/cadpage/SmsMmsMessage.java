@@ -921,13 +921,17 @@ public class SmsMmsMessage implements Serializable {
     if (!(obj instanceof SmsMmsMessage)) return false;
     SmsMmsMessage msg = (SmsMmsMessage)obj;
     return (match(fromAddress, msg.fromAddress) &&
-             match(messageBody, msg.messageBody) &&
-             match(contentLoc, msg.contentLoc));
+             match(messageBody, msg.messageBody));
   }
   
   private boolean match(String s1, String s2) {
     if (s1 == null && s2 == null) return true;
     if (s1 == null || s2 == null) return false;
     return s1.equals(s2);
+  }
+
+  public void deleteFromContent(Context context) {
+    // TODO Auto-generated method stub
+    
   }
 }

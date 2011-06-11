@@ -85,24 +85,26 @@ public class SmsPopupUtils {
   /**
    * Enables or disables the main SMS receiver
    */
-  public static void enableSMSPopup(Context context, boolean enable) {
+  public static void enableSMSPopup(Context context, String enable) {
+    enableComponent(context, SmsReceiver.class, enable.contains("S"));
+    enableComponent(context, PushReceiver.class, enable.contains("M"));
+  }
+
+  private static void enableComponent(Context context, Class<?> cls, boolean enable) {
     PackageManager pm = context.getPackageManager();
-    ComponentName cn = new ComponentName(context, SmsReceiver.class);
+    ComponentName cn = new ComponentName(context, cls);
 
     // Update preference so it reflects in the preference activity
     SharedPreferences myPrefs = PreferenceManager.getDefaultSharedPreferences(context);
     SharedPreferences.Editor settings = myPrefs.edit();
-    settings.putBoolean(context.getString(R.string.pref_enabled_key), enable);
     settings.commit();
 
     if (enable) {
-      if (Log.DEBUG) Log.v("SMSPopup receiver is enabled");
       pm.setComponentEnabledSetting(cn,
           PackageManager.COMPONENT_ENABLED_STATE_DEFAULT,
           PackageManager.DONT_KILL_APP);
 
     } else {
-      if (Log.DEBUG) Log.v("SMSPopup receiver is disabled");
       pm.setComponentEnabledSetting(cn,
           PackageManager.COMPONENT_ENABLED_STATE_DISABLED,
           PackageManager.DONT_KILL_APP);
@@ -157,7 +159,7 @@ public class SmsPopupUtils {
    */
   private static boolean haveNet(Context context){
 
-    // If configured to alway map request, return true
+    // If configured to always map request, return true
     char checkNetwork = ManagePreferences.mapNetworkChk().charAt(0);
     if (checkNetwork == 'A') return true;
 
@@ -165,7 +167,6 @@ public class SmsPopupUtils {
     // If we don't return false
     ConnectivityManager mgr = ((ConnectivityManager) 
         context.getSystemService(Context.CONNECTIVITY_SERVICE));
-    NetworkInfo[] infoList = mgr.getAllNetworkInfo();
     NetworkInfo info = mgr.getActiveNetworkInfo();
     if (info == null || !info.isConnected()) {
       showNetworkFailure(context, R.string.network_err_not_connected);

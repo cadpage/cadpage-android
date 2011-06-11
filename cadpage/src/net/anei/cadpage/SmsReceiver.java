@@ -1,7 +1,5 @@
 package net.anei.cadpage;
 
-import net.anei.cadpage.mms.GenericPdu;
-import net.anei.cadpage.mms.PduParser;
 import android.app.AlarmManager;
 import android.app.PendingIntent;
 import android.content.BroadcastReceiver;
@@ -14,8 +12,6 @@ import android.telephony.SmsMessage.MessageClass;
 public class SmsReceiver extends BroadcastReceiver {
   
   private static final String ACTION_SMS_RECEIVED = "android.provider.Telephony.SMS_RECEIVED";
-  private static final String ACTION_MMS_RECEIVED = "android.provider.Telephony.WAP_PUSH_RECEIVED";
-  private static final String MMS_DATA_TYPE = "application/vnd.wap.mms-message";
   
   private static final String EXTRA_TIMEOUT = "net.anei.cadpage.SmsReceive.MSG_TIMEOUT";
   private static final String EXTRA_REPEAT_LAST = "net.anei.cadpage.SmsReceive.REPEAT_LAST";
@@ -52,14 +48,6 @@ public class SmsReceiver extends BroadcastReceiver {
     else if (repeat) {
       message = SmsMsgLogBuffer.getInstance().getLastMessage();
       if (message != null) message.setRead(false);
-    }
-    
-    // Process incoming MMS message
-    else if (ACTION_MMS_RECEIVED.equals(intent.getAction()) && 
-              MMS_DATA_TYPE.equals(intent.getType())) {
-      byte[] pushData = intent.getByteArrayExtra("data");
-      GenericPdu pdu = new PduParser(pushData).parse();
-      if (pdu != null) message = pdu.getMessage();
     }
      
     // Otherwise convert Intent into an SMS/MSS message

@@ -22,7 +22,7 @@ public class ManagePreferences {
   // (OK, if you know what you are doing, and the only new settings added
   // are boolean settings that default to false, you can get away with not
   // changing this)
-  private static final int PREFERENCE_VERSION = 11;
+  private static final int PREFERENCE_VERSION = 12;
   
   private static ManagePreferences prefs;
 
@@ -45,6 +45,10 @@ public class ManagePreferences {
       PreferenceManager.setDefaultValues(context, R.xml.preferences, true);
       prefs.putInt(R.string.pref_version_key, PREFERENCE_VERSION);
     }
+    
+    // Next set the application enable status
+    String enableStr = (enabled() ? enableMsgType() : "");
+    SmsPopupUtils.enableSMSPopup(context, enableStr);
     
     // If old version was < 1, we need to reset the popup button configuration settings
     if (oldVersion < 1) {
@@ -124,12 +128,20 @@ public class ManagePreferences {
     return prefs.getBoolean(R.string.pref_initialized_key);
   }
   
+  public static boolean enabled() {
+    return prefs.getBoolean(R.string.pref_enabled_key);
+  }
+  
   public static String release() {
     return prefs.getString(R.string.pref_release_key, "");
   }
   
   public static void setRelease(String newRelease) {
     prefs.putString(R.string.pref_release_key, newRelease);
+  }
+  
+  public static String enableMsgType() {
+    return prefs.getString(R.string.pref_enable_msg_type_key);
   }
   
   public static String location() {
@@ -411,6 +423,7 @@ public class ManagePreferences {
     final int[] pref_keys = {
         R.string.pref_initialized_key,
         R.string.pref_enabled_key,
+        R.string.pref_enable_msg_type_key,
         R.string.pref_location_key,
         R.string.pref_override_filter_key,
         R.string.pref_filter_key,

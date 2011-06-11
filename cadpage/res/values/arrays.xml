@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+  <string-array name="pref_enable_msg_type_entries">
+    <item>SMS messages only</item>
+    <item>MMS messages only</item>
+    <item>SMS and MMS messages</item>
+  </string-array>
+  <string-array name="pref_enable_msg_type_values">
+    <item>S</item>
+    <item>M</item>
+    <item>SM</item>
+  </string-array>
   <string-array
     name="pref_notif_repeat_interval_entries">
     <item>1</item>

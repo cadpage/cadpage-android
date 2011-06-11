@@ -6,7 +6,7 @@
     <Preference 
       android:key="@string/pref_donate_status_key"
       android:title="@string/pref_donate_status_title"/>
-    <net.anei.cadpage.preferences.AppEnabledCheckBoxPreference
+    <CheckBoxPreference
       android:key="@string/pref_enabled_key"
       android:title="@string/pref_enabled_title"
       android:summaryOn="@string/pref_enabled_summaryon"
@@ -362,6 +362,14 @@
           android:capitalize="characters"
           android:inputType="textVisiblePassword"
           android:defaultValue=""/>
+        
+      <net.anei.cadpage.preferences.ListPreference
+        android:key="@string/pref_enable_msg_type_key"
+        android:title="@string/pref_enable_msg_type_title"
+        android:summary="@string/pref_enable_msg_type_summary"
+        android:entries="@array/pref_enable_msg_type_entries"
+        android:entryValues="@array/pref_enable_msg_type_values"
+        android:defaultValue="@string/pref_enable_msg_type_default" />
           
       <net.anei.cadpage.preferences.ListPreference
           android:key="@string/pref_loglimit_key"
