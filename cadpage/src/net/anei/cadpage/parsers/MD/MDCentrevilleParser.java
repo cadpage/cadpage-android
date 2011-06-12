@@ -25,6 +25,10 @@ Contact: Joshua Ruby <josh@computerrescuemd.com>
 sender: QA911com@qac.org
 (Text Message) QA911com:*D 1-14 FALLS 1401 CALVERT RD POSS DANG BODY AREA Q01
 
+Contact: jahurlock@cvfd7.com <jahurlock@cvfd7.com>
+Sender: QA911com@qac.org 
+(Text Message) QA911com:*G KM06 MUTUAL AID MEDICAL 300 WASHINGTON AVE MUTUAL AID ONLY KM06
+
 ******************************************************************************/
 
 public class MDCentrevilleParser extends SmartAddressParser {
@@ -32,7 +36,7 @@ public class MDCentrevilleParser extends SmartAddressParser {
   private static final String DEF_STATE = "MD";
   private static final String DEF_CITY = "CENTREVILLE";
   
-  private static final Pattern MARKER = Pattern.compile("^(qac911|QA911com):\\*D ");
+  private static final Pattern MARKER = Pattern.compile("^(qac911|QA911com):\\*[DG] ");
   
   public MDCentrevilleParser() {
     super(DEF_CITY, DEF_STATE);
