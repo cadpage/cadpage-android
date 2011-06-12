@@ -8,7 +8,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchSouthernParser;
 Chattam County, NC
 Contact: Bill <leatherheadfirefighter@yahoo.com>
 Sender: @chathamnc.org
-DispatchSouthernParser
+
 FRM:HEATHER.BOONE@chathamnc.org
 MSG:HEATHER.BOONE:399 LYNDFIELD CLOSE PITTSBORO MDL 10D04 1119468 18:13:33 Chest Pains- Clammy HUSBAND HAVING CHEST PAINS - EMER
 
