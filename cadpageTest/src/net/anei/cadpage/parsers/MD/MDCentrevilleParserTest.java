@@ -69,6 +69,12 @@ public class MDCentrevilleParserTest extends BaseParserTest {
         "ADDR:1401 CALVERT RD",
         "INFO:POSS DANG BODY AREA Q01");
 
+    doTest("T10",
+        "(Text Message) QA911com:*G KM06 MUTUAL AID MEDICAL 300 WASHINGTON AVE MUTUAL AID ONLY KM06",
+        "CALL:KM06 MUTUAL AID MEDICAL",
+        "ADDR:300 WASHINGTON AVE",
+        "INFO:MUTUAL AID ONLY KM06");
+
   }
   
   public static void main(String[] args) {
