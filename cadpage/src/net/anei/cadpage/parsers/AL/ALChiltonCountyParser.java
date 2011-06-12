@@ -34,7 +34,7 @@ public class ALChiltonCountyParser extends DispatchSouthernParser {
   };
 
   public ALChiltonCountyParser() {
-    super(CITY_LIST, "CHILTON COUNTY", "AL", false);
+    super(CITY_LIST, "CHILTON COUNTY", "AL", 0);
     
     
   }

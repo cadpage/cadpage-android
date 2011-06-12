@@ -41,23 +41,36 @@ COUNTY RD 57 \ COUNTY RD 445 2011039172 06:20:45 WRECK-UNKNOWN INJURIES CALLER S
 100 COUNTY RD 99 LOT 5 VERBENA 2011043298 18:37:55 SHORTNESS OF BREATH GRANDMOTHER ON CHEMO NOT DOING GOOD 
 518 COUNTY RD 221 THORSBY 2011046746 06:20:05 DIABETIC RESIDENCE IS A BEIGE DOUBLE WIDE WITH MAROON SHUTTERS. RED TOYOTA AND BLACK DODGE IN THE BACK YARD
 
+Moore County, NC
+[[911 NOTIFICATION] ]  505 PINEHURST ST ABERDEEN 2011024766 19:52:16 F69 STRUCTURE FIRE LOOKS LIKE BACK DECK ON FIRE
+[[911 NOTIFICATION] ]  1 S. VINELAND SOUTH CELL TOWER 2011025029 09:31:20 M25 PSYCHIATRIC/SUICIDE ATTEMPT
+[[911 NOTIFICATION] ]  126 ROBIN HOOD LN ABERDEEN 2011025065 13:37:27 F52 ALARM-FIRE ACTIVATION AC 800 932-3822 OPER SP8
+[[911 NOTIFICATION] ]  632 SAND PIT RD ABERDEEN MDL 07A01 2011025721 11:06:58 M7 BURNS/EXPLOSIONS
+[[911 NOTIFICATION] ]  218 BERRY ST PINE BLUFF 2011026135 14:36:24 F67 OUTSIDE FIRE/WOODS/BRUSH TREE ON FIRE
+[[911 NOTIFICATION] ]  1 E NEW ENGLAND /S PEAR 2011025862 07:31:07 F67 OUTSIDE FIRE/WOODS/BRUSH
+
 */
 
 public class DispatchSouthernParser extends SmartAddressParser {
   
+  public static final int DSFLAG_DISPATCH_ID = 0x01;
+  public static final int DSFLAG_UNIT = 0x02;
+  
   private static final Pattern LEAD_PTN = Pattern.compile("^[\\w\\.]+:");
   private static final Pattern ID_TIME_PTN = Pattern.compile("\\b(\\d{2,4}-?\\d{4,8}) \\d\\d:\\d\\d:\\d\\d\\b");
-  private static final Pattern CALL_PTN = Pattern.compile("^[A-Z0-9\\- ]+\\b");
+  private static final Pattern CALL_PTN = Pattern.compile("^[A-Z0-9\\- /]+\\b");
   
   private boolean leadDispatch;
+  private boolean unitId;
   
   public DispatchSouthernParser(String[] cityList, String defCity, String defState) {
-    this(cityList, defCity, defState, true);
+    this(cityList, defCity, defState, DSFLAG_DISPATCH_ID);
   }
   
-  public DispatchSouthernParser(String[] cityList, String defCity, String defState, boolean leadDispatch) {
+  public DispatchSouthernParser(String[] cityList, String defCity, String defState, int flags) {
     super(cityList, defCity, defState);
-    this.leadDispatch = leadDispatch;
+    this.leadDispatch = (flags & DSFLAG_DISPATCH_ID) != 0;
+    this.unitId = (flags & DSFLAG_UNIT) != 0;
   }
 
   
@@ -86,8 +99,14 @@ public class DispatchSouthernParser extends SmartAddressParser {
     parseAddress(StartType.START_ADDR, sAddr, data);
     data.strPlace = getLeft();
 
-    // Second half contains call description and long call description
+    // Second half May contain unit ID,
+    // then call description and long call description
     // Call description comes first and contains only upper case letters and numbers
+    if (unitId) {
+      p = new Parser(sExtra);
+      data.strUnit = p.get(' ');
+      sExtra = p.get();
+    }
     match = CALL_PTN.matcher(sExtra);
     if (match.find()) {
       String sCall = match.group().trim();
