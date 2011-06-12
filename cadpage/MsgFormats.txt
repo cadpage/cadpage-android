@@ -2011,29 +2011,7 @@ Unknown
 Contact: Joseph Jenkins <natoj0025@gmail.com>
 Sender: lfdchief1@verizon.net
 (Dispatch) 11:07 ** F-MOTOR VEHICLE COLLISION-POSS ** 7523 ELMCREST RD ** - ** SMITH,SHERWOOD **  ** LVF112800872 ** RIVERGLEN RD ** E2,E3,E6,R1,R3, **
-**********************************************************
-Deleware County (Alternate)
-Contact: Mike Bierman <mtb2580@yahoo.com>
-Sender: 1410000081
-1 of 2\n
-FRM:norwoodfireco@rcn.com\n
-SUBJ:Messenger 911\n
-MSG:[Update]\n
-F11032765\n
-06/09/2011\n
-04:13\n
-ASSIST\n
-FD TO ASSIST EMS\n
-17 ELMWOOD AV\n
-S\n
-(Con't) 2 of 2\n
-ELMWOOD AV\n
-MCKINLEY AV\n
-021/M100D/M100/027B\n
-~80YOM,Set Station Alarm activ\n
-FD\n
-FIRE\n
-ANI/(End)
+
 **********************************************************
 **********************************************************
 **********************************************************
@@ -2553,3 +2531,134 @@ Generic location doesn't work!
 **FIRE** ARMADA RIDGE @ WELDING.  BIRD HOUSE FULLY INVOLVED
 **RESCUE** FRESHMAN STUFFED IN LOCKER.  DIVISION @ MAIN.
 **TEST**  I-94/CHURCH RD,  CASCO. ROLLOVER ACCIDENT
+**********************************************************
+Deleware County (Alternate)
+Contact: Mike Bierman <mtb2580@yahoo.com>
+Sender: 1410000081
+1 of 2\n
+FRM:norwoodfireco@rcn.com\n
+SUBJ:Messenger 911\n
+MSG:[Update]\n
+F11032765\n
+06/09/2011\n
+04:13\n
+ASSIST\n
+FD TO ASSIST EMS\n
+17 ELMWOOD AV\n
+S\n
+(Con't) 2 of 2\n
+ELMWOOD AV\n
+MCKINLEY AV\n
+021/M100D/M100/027B\n
+~80YOM,Set Station Alarm activ\n
+FD\n
+FIRE\n
+ANI/(End)
+
+1 of 2
+FRM:norwoodfireco@rcn.com
+SUBJ:Messenger 911
+MSG:F11031554 
+06/03/2011 
+08:56 
+STREET 
+STREET CLOSED 
+W ASHLAND AV & N MACDADE BLVD 
+W
+(Con't) 2 of 2
+ASHLAND AV 
+N MACDADE BLVD 
+M100D/STA02/STA05/STA09/STA01 
+BETWEEN N WELLS AND MACDADE ON(End)
+
+1 of 2
+FRM:norwoodfireco@rcn.com
+SUBJ:Messenger 911
+MSG:F11031406 
+06/02/2011 
+14:44 
+ACC 
+WITH INJURY REPORTED 
+8TH AV & LINCOLN AV 
+8TH
+(Con't) 2 of 2
+AV 
+LINCOLN AV 
+487/ENG08/027/M102A/RE08/071 
+610-461-1539,SEE THE MAN,STRIK 
+FD 
+FIRE 
+CELL (End)
+
+1 of 2
+FRM:norwoodfireco@rcn.com
+SUBJ:Messenger 911
+MSG:F11031265 
+06/01/2011 
+20:40 
+FIRE-BLD 
+BUILDING FIRE, COMMERCIAL BLDG 
+734 CHESTER
+(Con't) 2 of 2
+PKE 
+PENNSYLVANIA AV 
+NASSAU BLVD 
+ENG08/021/027/SN08/RE08/076/07 
+-075.305228 +039.883204 (End)
+
+1 of 2
+FRM:norwoodfireco@rcn.com
+SUBJ:Messenger 911
+MSG:F11031005 
+05/31/2011 
+18:14 
+FIRE-OTH 
+FD INVESTIGATION 
+241 W WINONA AV 
+SYLVAN
+(Con't) 2 of 2
+AV 
+TRITES AV 
+021 
+-075.303855 +039.894780,~ GRIL 
+FD 
+FIRE 
+ANI/ALI 
+RACHEL - SAME 
+FIRE-OT(End)
+
+1 of 2
+FRM:norwoodfireco@rcn.com
+SUBJ:Messenger 911
+MSG:F11029356 
+05/24/2011 
+00:41 
+ALARM 
+CARBON MONOXIDE ALARM 
+711 SOUTH AV 
+UNNAMED
+(Con't) 2 of 2
+STREET 
+QUAINT ST 
+ARID7/027/RID7B/677C/MRID7/LA4 
+ò~3¿ 
+FD 
+FIRE 
+ANI/ALI 
+WARD MARGARET - (End)
+
+1 of 2
+FRM:norwoodfireco@rcn.com
+SUBJ:Messenger 911
+MSG:F11027808 
+05/16/2011 
+10:54 
+FIRE-BLD 
+BUILDING FIRE, COMMERCIAL BLDG 
+701 ASHLAND AV
+(Con't) 2 of 2
+22 
+DELMAR DR 
+CARPENTERS CROSSING 
+M06/012/017/027A/091/ENG05/TW0 
+MULTIPLE BUSINESSES (End)
