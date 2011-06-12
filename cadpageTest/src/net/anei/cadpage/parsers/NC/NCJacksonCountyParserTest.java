@@ -27,8 +27,7 @@ public class NCJacksonCountyParserTest extends BaseParserTest {
         "ADDR:1 CHARLEYS CREEK RD",
         "PLACE:/ NEDDY MTN",
         "ID:2011010597",
-        "CALL:10-50D ACCIDENT",
-        "INFO:/PROPERTY DAMAGE ADVS SINGLE CAR 10-50, NO PI");
+        "INFO:10-50D ACCIDENT/PROPERTY DAMAGE ADVS SINGLE CAR 10-50, NO PI");
   }
   
   public static void main(String[] args) {
