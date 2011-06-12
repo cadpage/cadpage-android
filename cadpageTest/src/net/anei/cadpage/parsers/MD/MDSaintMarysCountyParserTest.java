@@ -440,9 +440,19 @@ public class MDSaintMarysCountyParserTest extends BaseParserTest {
          "CITY:COUNTRY LAKES",
          "UNIT:CO2 SQ2 CO29 CO59",
          "INFO:PARKED CAR");
+
+     doTest("T49",
+         "((17525) CAD ) 15:15:46*Miscellaneous*ECC*23090 LEONARD HALL DR*HOLLYWOOD RD*LEONARDTOWN*CO19 CO29 CO39 CO49R CO59 CO6R*Severe thunderstorm warning till",
+         "CALL:Miscellaneous",
+         "PLACE:ECC",
+         "ADDR:23090 LEONARD HALL DR",
+         "X:HOLLYWOOD RD",
+         "CITY:LEONARDTOWN",
+         "UNIT:CO19 CO29 CO39 CO49R CO59 CO6R",
+         "INFO:Severe thunderstorm warning till");
   }
   
   public static void main(String[] args) {
-    new MDSaintMarysCountyParserTest().generateTests("T48", "CALL PLACE ADDR APT X CITY UNIT INFO");
+    new MDSaintMarysCountyParserTest().generateTests("T50", "CALL PLACE ADDR APT X CITY UNIT INFO");
   }
 }
