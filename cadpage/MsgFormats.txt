@@ -2038,6 +2038,7 @@ EMS:2011-038193* 980 CARROLL STORE RD* TAC4* * AUTRYVILLE* * GRASS/BRUSH* GRASS 
 **********************************************************
 **********************************************************
 **********************************************************
+**********************************************************
 ************  READY TO ROLL ******************************
 **********************************************************
 **********************************************************
@@ -2049,23 +2050,7 @@ Sender: wgfc22@comcast.net
 (Dispatch) 05/31/11 * 09:30:53 * HYPO TENSION - ALS * * 774 W GLENVIEW DR ,58 * PHEASANT WY & EDGEWOOD CT * PENN * - *  * 610-345-136 * 2203 *  * 22 * Dispatch *
 (Dispatch) 05/31/11 * 00:36:12 * BARN FIRE * * 248 HOOD RD ,48 * MUNICIPAL BOUNDARY & N MOSQUITO LA * WMARLB * - *  * 610-316-731 * 3604   * 36 * Dispatch *
 **********************************************************
-**********************************************************
-Louisa County, VA
-Contact: Michael Thaw <yankee.fire11@gmail.com>
-Contact: "Jaiebo" <jaiebo@yahoo.com>
-Sender: CADLCFEMS@louisa.org
-Sender: CADEMS2@louisa.org
-Sender: CADCo2@louisa.org
-E2011014354;RESCUE NEEDED;UNCONSCIOUS/UNRESPONSIVE/FAINTING;296 SHADY LN;INFO-44 YO M -- FEELING FAINT & DIZZY -- FEELING A LITTLE BETTER AT THIS TIME -- WANTI
-E2011016323;MVC;UNK INJURIES;2375 WEST BROAD ST;INFO-CALL TRANS'D TO GOOCHLAND
-E2011016344;FIRE;SMOKE-OUTSIDE;383 MOON SHADOW LN;INFO-CAN SMELL AND SEE IN THE SMOKE, NO ACTIVE FLAMES, NO CONTROL BURNS LOGGED IN THE AREA
-E2011016321;RESCUE NEEDED;ALLERGIC REACTION;409 POINDEXTER RD [# [@CO7;INFO-41YOM, BEE STING, AWAKE AND TALKING NORMALLY, BECOMING ITCHY, NO EPI PEN AVAILABLE, S
-E2011016299;RESCUE NEEDED;SICK/OTHER;1116 SIGNBOARD RD;INFO-32YOF HBP, VOMITING.\2sONSET A COUPLE HOURS AGO - VOMITTED UP HER MEDS, STOMACH MEDS
-E2011016568;FIRE;Advised;4745 EAST GRAY FOX CIRCLE;ING FO-SHED ON FIRE ALSOWOODS ON FIRE
-E2011016535;MVC;UNK INJURIES;FREDERICKS HALL RD;INFO-1 CAR OFF ROADWAY\2sOUT OF CAR, SOME BRUISING - SAYS BRAKES WENT OUT.
-E2011016569;MVC;NO INJURIES;JAMES MADISON HWY & LOUISA RD;INFO-2 CAR MVC NO INJURIES OUT OF THE RD WAY SUBJS ARE OUT OF THE VEH
-E2011017511;FIRE;STRUCTURE-RESIDENTIAL;9996 KENTUCKY SPRINGS RD;INFO-HOUSE IS ON FIRE
-E2011017511;FIRE;STRUCTURE-RESIDENTIAL;9996 KENTUCKY SPRINGS RD;INFO-HOUSE IS ON FIRE
+Louisa County, VA in progress
 **********************************************************
 Williamson County, TX
 Contact: Don Carlson <dcarlson@huttovfd.org>
