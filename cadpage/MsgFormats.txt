@@ -2037,7 +2037,6 @@ ANI/(End)
 **********************************************************
 **********************************************************
 **********************************************************
-**********************************************************
 ************  READY TO ROLL ******************************
 **********************************************************
 **********************************************************
@@ -2128,6 +2127,9 @@ FRM:textmsg@lcd911.com\nSUBJ:LCD\nMSG:BRIDGEWATER FIRE RESPOND TO 209 NORTHROP S
 (LCD) HARWINTON FIRE RESPOND TO 160 LITCHFIELD RD THOMASTON SAVINGS BANK HARWINTON, , ODOR OF GAS ,:13:50
 (LCD) HARWINTON FIRE RESPOND TO 285 BURLINGTON RD   HARWINTON, , TRAFFIC ACCIDENT ,:15:12
 (LCD) HARWINTON FIRE RESPOND TO 119 HARMONY HILL RD   HARWINTON, , TRANSFORMER FIRE ,:23:12
+
+Contact: Phillip Loveless <psloveless@gmail.com>
+(LCD) NEW HARTFORD FIRE RESPOND TO 1111 W HILL RD RESIDENCE NEW HARTFORD, , ACTIVATED FIRE ALARM ,:10:49
 **********************************************************
 Nassau County, NY (alternate) <again>
 Contact: Daniel Dutton <ncfm80@gmail.com>,NCFM80@vtext.com,5163186932@vzwpix.com
@@ -2539,3 +2541,15 @@ Generic location doesn't work!
 ** FIRE RESCUE ** PALAM @ GRATIOT  PIA COLUMBUS
 ** FIRE ** 9590 GRATIOT  INJURY ACCIDENT  COLUMBUS TWP
 ** RESCUE ** 10973 GRATIOT SUICIDE  CASCO
+**FIRE RESCUE**  ROLLOVER PI MAYER/GRATIOT. COLUMBUS TWP
+**FIRE RESCUE**  ROLLOVER PI INTERSECTION MAYER AND GRATIOT
+**RESCUE**  CHEST PAINS 35601 WOODSIDE DR
+**RESCUE**  CHEST PAINS 35601 WOODSIDE @ FOREST
+**FIRE**  SHED FIRE LINDSEY @ PALMS.  SHED CLOSE TO HOME
+**FIRE**  VEHICLE FIRE 31 MILE @ COUNTY LINE
+**FIRE** ODOR INVESTIGATION 34901 DIVISION. SMELL OF NATURAL GAS.
+**FIRE** MUTUAL AIDE TO MEMPHIS, TANKER AND MANPOWER TO DOLAN & BAUMAN
+**RESCUE**  CPR IN PROGRESS.  35388 DIANE.
+**FIRE** ARMADA RIDGE @ WELDING.  BIRD HOUSE FULLY INVOLVED
+**RESCUE** FRESHMAN STUFFED IN LOCKER.  DIVISION @ MAIN.
+**TEST**  I-94/CHURCH RD,  CASCO. ROLLOVER ACCIDENT
