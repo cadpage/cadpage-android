@@ -243,6 +243,7 @@ public class PABucksCountyParser extends FieldProgramParser {
       "RMAR",     "MARINE RESCUE",
       "STDBY",    "FIRE STANDBY",
       "WIREIN",   "WIRES IN DWELLING",
+      "WIRES",    "WIRES DOWN (LOC)",
 
       "AABDO",      "ACUTE ABDOMEN",
       "AALLR",      "ANAPHYLAXIS",
