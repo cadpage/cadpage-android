@@ -173,7 +173,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
         "LOOP");
     
     setupDictionary(ID_AMBIG_ROAD_SFX, 
-        "PLACE", "TRAIL", "PATH", "PIKE", "COURT", "MALL", "TURNPIKE", "PASS", "RUN");
+        "PLACE", "TRAIL", "PATH", "PIKE", "COURT", "MALL", "TURNPIKE", "PASS", "RUN", "LANE");
         
     setupDictionary(ID_ROUTE_PFX_EXT, "RT", "RTE", "ROUTE", "HW", "HWY", "HIGHWAY");
     setupDictionary(ID_ROUTE_PFX_PFX, "STATE", "ST", "SR", "SRT", "US", "FS", "INTERSTATE", "I", "STHWY", "USHWY", "CO", "CR");
@@ -185,6 +185,13 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     // C/S should be in this list, but it gets changed before we parse stuff
     setupDictionary(ID_CROSS_STREET, "XS:", "X:");
     setupDictionary(ID_APPT, "APT:", "APT", "#", "SP");
+  }
+  
+  /**
+   * Add full length names of directions to direction dictionary tables
+   */
+  protected void addExtendedDirections() {
+    setupDictionary(ID_DIRECTION, "NORTH", "SOUTH", "EAST", "WEST");
   }
   
   private String[] getKeywords(Properties table) {
@@ -434,8 +441,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     // Or we should parse out a pad field
     // then return failure status so one of the other address parsers can make
     // some kind of reasonableness check on this
-    if (isFlagSet(FLAG_CHECK_STATUS|FLAG_IMPLIED_INTERSECT|FLAG_PAD_FIELD) || 
-        isFlagSet(FLAG_ANCHOR_END) && result.startAddress == 0) return false;
+    if (isFlagSet(FLAG_CHECK_STATUS|FLAG_IMPLIED_INTERSECT|FLAG_PAD_FIELD)) return false;
     
     // OK, we have to have at least 2 items before the city
     if (result.startAddress < 0) return false;
@@ -780,6 +786,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
    * @param sType
    */
   private void parseFallback(StartType sType, Result result) {
+    
     // Total failure, assign the entire field to either the call description
     // or the address
     result.endAll = tokens.length;
@@ -802,12 +809,12 @@ public abstract class SmartAddressParser extends SmsMsgParser {
           break;
         }
       }
-      
-      // If we found a flexable @ to start the address, see if we can parse
-      // to an ending city
-      if (result.startAddress >= 0) {
-        if (parseToCity(result.startAddress, result.startAddress+2, result)) return;
-      }
+    }
+    
+    // If we found a flexable @ to start the address, see if we can parse
+    // to an ending city
+    if (result.startAddress >= 0) {
+      if (parseToCity(result.startAddress, result.startAddress+2, result)) return;
     }
     
     // If we still don't have an start address, assign the entire line
