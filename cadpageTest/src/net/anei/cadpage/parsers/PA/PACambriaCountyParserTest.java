@@ -84,6 +84,13 @@ public class PACambriaCountyParserTest extends BaseParserTest {
         "CITY:CRESSON",
         "UNIT:Sta 70");
 
+    doTest("T5",
+        "Date: 06/13/11\nTime: 15:53:48\nNature: 02D02-Delta  ALLERGIC REACTION\nLocation: 1237 ST AUGUSTINE RD-CF\n| Sta 60, Sta 67",
+        "CALL:02D02-Delta  ALLERGIC REACTION",
+        "ADDR:1237 ST AUGUSTINE RD",
+        "CITY:CLEARFIELD",
+        "UNIT:Sta 60, Sta 67");
+
   }
   
   
