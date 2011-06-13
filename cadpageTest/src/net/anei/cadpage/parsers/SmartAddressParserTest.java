@@ -33,6 +33,9 @@ public class SmartAddressParserTest extends BaseParserTest {
   
   @Test
   public void testProblem() {
+    doTest(ADDR, FLAG_PAD_FIELD, "NOT AN ADDRESS KEN TOWN",
+        "ADDR:NOT AN ADDRESS",
+        "CITY:KEN TOWN");
   }
 
   
@@ -303,6 +306,9 @@ public class SmartAddressParserTest extends BaseParserTest {
         "CALL:SOMETIMES THINGS JUST DONT WORK");
     doTest(PLACE, "SOMETIMES THINGS JUST DONT WORK",
         "PLACE:SOMETIMES THINGS JUST DONT WORK");
+    doTest(ADDR, FLAG_ANCHOR_END, "BAD ADDRESS KEN TOWN",
+        "ADDR:BAD ADDRESS",
+        "CITY:KEN TOWN");
   }
   
   @Test
@@ -496,6 +502,9 @@ public class SmartAddressParserTest extends BaseParserTest {
         "ADDR:65 S WILLIAMS ST",
         "SRC:Suite: APT 102",
         "CITY:KENSBURG");
+    doTest(ADDR, FLAG_PAD_FIELD, "NOT AN ADDRESS KEN TOWN",
+        "ADDR:NOT AN ADDRESS",
+        "CITY:KEN TOWN");
   }
   
   @Test
