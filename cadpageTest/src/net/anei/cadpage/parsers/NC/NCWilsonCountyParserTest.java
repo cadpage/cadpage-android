@@ -74,10 +74,19 @@ public class NCWilsonCountyParserTest extends BaseParserTest {
         "ADDR:NC 222 & ASPEN GROVE CHURCH RD",
         "SRC:2A",
         "INFO:on nc 222 just before aspen grove church while on the phone with hp she advised a hissing");
+
+    doTest("T8",
+        "CAD:11000968;67D02R;OUTSIDE FIRE - WOODS/LRG BRUSH;4164 NC 42 E;4C;KENT RD;VARNELL RD;[Fire Priority Info] Key Questions Complete RESPONSE: Delta RESPONDER SCRI",
+        "ID:11000968",
+        "CODE:67D02R",
+        "CALL:OUTSIDE FIRE - WOODS/LRG BRUSH",
+        "ADDR:4164 NC 42 E",
+        "SRC:4C",
+        "X:KENT RD & VARNELL RD");
  }
   
 
   public static void main(String[] args) {
-    new NCWilsonCountyParserTest().generateTests("T1");
+    new NCWilsonCountyParserTest().generateTests("T8");
   }
 }
