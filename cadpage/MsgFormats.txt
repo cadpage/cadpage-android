@@ -1872,10 +1872,6 @@ Sender: alerts@wensnetwork.com
 1869,Four Seasons Dr,,Akron 19,HEART PROBLEMS ST1, 12S3, 12S2, 1212 ProQA - 52 year old, Male, Conscious, Breathing. Heart Problems / A.
 292,Lake Point Dr,,Akron 31,UNCONSCIOUS / FAINTING DISP, 12S3, 1221 ProQA - 83 year old, Male, Unconscious, Breathing. Unconscious / Fai
 **********************************************************
-Stone County, MO
-Contact: Ryan Joy <crazyrockj@gmail.com>
-911-CENTER:FMA MUTUAL AID/ASSIST OUTSIDE AGEN 214 E 5TH ST 4175270913 S MAPLE ST MUTUAL AID ASSIST OUTSIDE AGENCY
-**********************************************************
 Kannapolis, NC ?
 Contact: Jared Gibson <jaredgibson82@gmail.com>
 196:CAD:1;SUICIDE THREAT- NO ATTEMPT;701 RAINBOW DR;K202;LEISURE PARK CIR;LEISURE PARK CIR;** Transfer from CSO ** CSO received: 04/25/2011 18:05:34 Source:
@@ -1926,10 +1922,10 @@ Subject:CAD\n87, PREMISE # 1619,006574-674-9624 NO KEYHOLDER AT THIS TIME 1619,0
 Subject:CAD\n[!] ^ 17 RIVERCREST DR OS :( 600) N BEECH RDFROM MEDICAL ALARM COMP UNK MED 1617,006CALL BACK # TO ALARM COMP 800-325-17\n
 Subject:CAD\nrrive =Avail = 11 18 45Rpt # = 11-21000477\n
 **********************************************************
-Unknown
+Stone County, MO
 Contact: Ryan Joy <crazyrockj@gmail.com>
 Sender: 4173802670
-DispatchAParser
+911-CENTER:FMA MUTUAL AID/ASSIST OUTSIDE AGEN 214 E 5TH ST 4175270913 S MAPLE ST MUTUAL AID ASSIST OUTSIDE AGENCY
 BC911:MVAUNK>MOTOR VEH ACC UNKNOWN INJ STATE HIGHWAY 39 JENKINS VERIZON WIRELESS Cad: 2011-0000009418
 **********************************************************
 Halifax County, VA
@@ -2044,6 +2040,10 @@ Contact: Grayson Spell <gbspell1@gmail.com>
 Sender: EMS@sampsonnc.com
 EMS:2011-038193* 980 CARROLL STORE RD* TAC4* * AUTRYVILLE* * GRASS/BRUSH* GRASS OR BRUSH FIRE* STA10,STA12* 1309* Medical: No* Hazards: No* *
 **********************************************************
+Unknown
+Contact: Mike Cady <mikecadyga@gmail.com>
+Sender: 7064632252
+WHITFIELD CO. 911:F12 SF-COMMERCIAL/INDUSTRIAL/SCHOO 1812 KIMBERLY PARK DR 4237188927 ALARM ASSIGN 3
 **********************************************************
 **********************************************************
 **********************************************************
@@ -2631,3 +2631,76 @@ I don't think the cad code has any significance i will talk to my asst. chief to
 11047405 FISRT RESPONDERS 2897 COUNTY ROAD 914 IN COLLIN COUNTY COUNTY ROAD 392 [LCFD DIST: LCF1 GRID: 1322] UNITS: LCF1 AMRP ST RMK: DUTCH ACRES CFS RMK 12:59 68 YOA FALLEN IN FRONT YARD UNABLE T {CAD001 13:00}
 11046597 MAJOR ACCIDENT 10/50 COUNTY ROAD 393 / FM 546 IN COLLIN COUNTY [LCFD DIST: LCF1 GRID: 1322] UNITS: LCF1 ST RMK: 8J1 CFS RMK 21:40 SOMEONE HAS FALLEN OUT OF A TRUCK {CAD004 21:40}
 11044587 FIRST RESPONDERS 730 CROSS TIMBERS DR IN LOWRY CROSSING CROSS TRAIL LN [LCFD DIST: LCF1 GRID: 3100] UNITS: LCF1 AMRP ST RMK: <NONE> CFS RMK 13:14 37 YOA MALE / FELL YESTERDAY AND IS {CAD004 13:14}
+**********************************************************
+North East, MD (in Cecil County)
+Contact: Dave Simmons <acdave0911@gmail.com>
+Sender: nefc911@nefc.com
+
+line 1 is the CAD discriptor
+line 2 is call type
+line 3 is address
+line 4 is city abbreviation(NE= north east, elk=elkton, rs=rising
+sun.....etc)
+line 5 is nearest cross street
+line 6 is call date
+line 7 is dispacth time
+line 8 is call discription
+line 9 (Fire dispatch only) radio channel, box #
+line 10 (fire dispatch only) first due company
+
+example of medical call:
+
+10C04 (CHE
+CHEST PAIN
+322 E CECIL AVE @NORTH BAY MED
+NE
+MECHANICS VALLEY RD
+06/14/11
+11:21:54
+DR SCHADEV'S OFFICE[P CHEST ;41 YEAR OLD, FEMALE, CONSCIOUS
+
+31A01 (UNC
+UNCON/SYNCOPAL
+161 WILLARD DR
+NE
+STITES LN
+06/13/11
+08:53:56
+[P MOM FELL ;76 YEAR OLD, FEMALE, CONSCIOUS, BREATHING. UNCONSCIOUS
+/FAINTING (NE
+
+
+example of fire call:
+
+AUTO (AUTO
+AUTOMOBILE FIRE
+98.5 I95 NB HWY
+NE
+RED TOAD RD
+06/13/11
+14:13:17
+AUTO ON FIRE//CAN SEE FLAMES AND SMOKE
+OPS 6   0495S
+04
+
+
+HOUSE (HOU
+HOUSE FIRE
+354 W MAIN ST
+ELK
+BLUEBALL AVE
+06/13/11
+19:20:42
+FIRE IN THE STOVE WAS FULLY INVOLVED COULD BE OUT SMOKE IN THE RESIDENCE
+OPS 7
+
+HOUSE (HOU
+HOUSE FIRE
+122 WHITEHALL RD
+ELK
+CHESSMAN CIR
+06/13/11
+15:44:45
+SMOKE FROM BASEMENT//BLACK
+OPS 6   0304
+03
