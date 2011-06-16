@@ -74,6 +74,7 @@ public class MmsTransactionService extends Service {
 
   @Override
   public void onCreate() {
+    if (Log.DEBUG) Log.v("MmsTransactionService.onCreate()");
 
     // Give us foreground priority
     // we are saving our message list in memory and really don't want to
@@ -98,6 +99,7 @@ public class MmsTransactionService extends Service {
 
   @Override
   public int onStartCommand(Intent intent, int flags, int startId) {
+    if (Log.DEBUG) Log.v("MmsTransactionService.onStart()");
     
     // Collect all of the preferences we might need while we are still on
     // the main thread;
@@ -156,53 +158,70 @@ public class MmsTransactionService extends Service {
      */
     @Override
     public void handleMessage(Message msg) {
-
-      switch (msg.what) {
-      case EVENT_QUIT:
-        if (!msgList.isEmpty()) {
-          Log.w("TransactionService exiting with transaction still pending");
-        }
-        if (observer != null) qr.unregisterContentObserver(observer);
-        observer = null;
-        getLooper().quit();
-        return;
       
-      case EVENT_TRANSACTION_REQUEST:
-        Intent intent = (Intent)msg.obj;
-        mmsReceive(intent);
-        break;
+      try {
+  
+        switch (msg.what) {
+        case EVENT_QUIT:
+          if (Log.DEBUG) Log.v("MmsTransactionService.EVENT_EVENT_QUIT");
+          if (!msgList.isEmpty()) {
+            Log.w("TransactionService exiting with transaction still pending");
+          }
+          if (observer != null) qr.unregisterContentObserver(observer);
+          observer = null;
+          getLooper().quit();
+          return;
         
-      case EVENT_DATA_CHANGE:
-        mmsDataChange();
-        break;
-      
-      case EVENT_TIMEOUT:
-        MmsMsgEntry entry = (MmsMsgEntry)msg.obj;
-        if (msgList.remove(entry)) {
-          SmsMsgLogBuffer.getInstance().add(entry.message.timeoutMarker());
-        }
-      }
+        case EVENT_TRANSACTION_REQUEST:
+          if (Log.DEBUG) Log.v("MmsTransactionService.EVENT_TRANSACTION_REQUEST");
+          Intent intent = (Intent)msg.obj;
+          mmsReceive(intent);
+          break;
+          
+        case EVENT_DATA_CHANGE:
+          if (Log.DEBUG) Log.v("MmsTransactionService.DATA_CHANGE");
+          mmsDataChange();
+          break;
         
+        case EVENT_TIMEOUT:
+          if (Log.DEBUG) Log.v("MmsTransactionService.EVENT_TIMEOUT");
+          MmsMsgEntry entry = (MmsMsgEntry)msg.obj;
+          if (msgList.remove(entry)) {
+            SmsMsgLogBuffer.getInstance().add(entry.message.timeoutMarker());
+          }
+        }
+          
+        
+        // If the message queue is empty, it is time to shut down
+        if (msgList.size() == 0) {
+          mainHandler.post(new Runnable(){
+            @Override
+            public void run() {
+              stopSelf();
+            }});
+          return;
+        }
+        
+        // Otherwise, make sure we have a content monitor on MMS info
+        if (observer == null) {
+          observer = new ContentObserver(this){
+            @Override
+            public void onChange(boolean selfChange) {
+              sendEmptyMessage(EVENT_DATA_CHANGE);
+            }
+          };
+          qr.registerContentObserver(MMS_URI, true, observer);
+        }
+      } 
       
-      // If the message queue is empty, it is time to shut down
-      if (msgList.size() == 0) {
+      // Exceptions thrown on this thread should be caught and rethrown on the
+      // main thread where our top level exception handler will catch them.
+      catch (final RuntimeException ex) {
         mainHandler.post(new Runnable(){
           @Override
           public void run() {
-            stopSelf();
+            throw(ex);
           }});
-        return;
-      }
-      
-      // Otherwise, make sure we have a content monitor on MMS info
-      if (observer == null) {
-        observer = new ContentObserver(this){
-          @Override
-          public void onChange(boolean selfChange) {
-            sendEmptyMessage(EVENT_DATA_CHANGE);
-          }
-        };
-        qr.registerContentObserver(MMS_URI, true, observer);
       }
     }
 
@@ -238,15 +257,8 @@ public class MmsTransactionService extends Service {
       
       // See if we can rule out this message without the text body
       // meaning with just a subject and from address
-      boolean isPage = 
+      boolean isPage = (genAlert && sFilter.length() > 1) ||
           parser.isPageMsg(message, overrideFilter, genAlert);
-      
-      // If it didn't, see if we can accept this as a general page
-      // which only happens if the general alert config settings is set and there
-      // is an active user filter
-      if (! isPage && genAlert && sFilter.length()>1) {
-        isPage = genAlertParser.isPageMsg(message, overrideFilter, genAlert);
-      }
       
       // If not a cad page, we're done with this
       if (! isPage) return;

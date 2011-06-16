@@ -18,24 +18,29 @@ Subject:IPS I/Page Notification 10220 BRIGHTON RD ADAM CCPD:DIVERSIFIES TRUCK AN
 Subject:IPS I/Page Notification US HIGHWAY 85 NB/E 77TH AVE ADAM ADAM 03:34:04 TYPE CODE: NONSTR CALLER NAME: ASHLEY TIME: 03:34:04 Commen
 Subject:IPS I/Page Notification 9900 E 102ND AVE ADAM CCPD:USF 06:06:49 TYPE CODE: FRALRM CALLER NAME: ADT TIME: 06:06:49 Comments: WATER
 Subject:IPS I/Page Notification\n26900 E COLFAX AVE ARAP ARAP,454: @FOX RIDGE FARMS 17:19:15 TYPE CODE: EMS CALLER NAME:  TIME: 17:19:15 Co
+
+Contact: Derrick Keeton <derrickkeeton@gmail.com>
+IPS I/Page Notification / 10433 SALIDA ST ADAM CCPD 06:51:58 TYPE CODE: FRALRM CALLER NAME:  TIME: 06:51:58\n\n\n
+
  */
 
 
 public class COAdamsCountyParser extends SmartAddressParser {
   
-  private static final String CAD_MARKER = "Subject:IPS I/Page Notification ";
+  private static final Pattern CAD_MARKER = 
+        Pattern.compile("^(?:Subject:)?IPS I/Page Notification (?:/ )?");
   private static final String[] KEYWORDS = 
     new String[]{"LOC", "TYPE CODE", "CALLER NAME", "TIME", "Comments"};
   
   private static final Pattern TIME_MARK = Pattern.compile(" +\\d\\d:\\d\\d:\\d\\d$");
   
   private static final Properties CITY_TABLE = buildCodeTable(new String[]{
-      "ADAM CCPD",
-      "ARAP ARAP"
+      "ADAM CCPD", "",
+      "ARAP ARAP", "ARAPAHOE COUNTY"
   });
   
   public COAdamsCountyParser() {
-    super("ADAMS COUNTY", "CO");
+    super(CITY_TABLE, "ADAMS COUNTY", "CO");
   }
   
   @Override
@@ -47,16 +52,16 @@ public class COAdamsCountyParser extends SmartAddressParser {
   protected boolean parseMsg(String subject, String body, Data data) {
     
     if (subject.length() > 0) body = "Subject:" + subject + ' ' + body;
-    
-    int pt = body.indexOf(CAD_MARKER);
-    if (pt < 0) return false;
-    body = "LOC:" + body.substring(pt+CAD_MARKER.length());
+
+    Matcher match = CAD_MARKER.matcher(body);
+    if (!match.find()) return false;
+    body = "LOC:" + body.substring(match.end()).trim();
     
     Properties props = parseMessage(body, KEYWORDS);
     String sAddr = props.getProperty("LOC", "");
-    Matcher match = TIME_MARK.matcher(sAddr);
+    match = TIME_MARK.matcher(sAddr);
     if (match.find()) sAddr = sAddr.substring(0, match.start());
-    pt = sAddr.lastIndexOf(':');
+    int pt = sAddr.lastIndexOf(':');
     if (pt >= 0) {
       data.strPlace = sAddr.substring(pt+1).trim();
       sAddr = sAddr.substring(0,pt).trim();
@@ -64,7 +69,7 @@ public class COAdamsCountyParser extends SmartAddressParser {
         data.strPlace = data.strPlace.substring(1).trim();
       }
     }
-    parseAddress(StartType.START_ADDR, sAddr, data);
+    parseAddress(StartType.START_ADDR, sAddr.replace(',', ' '), data);
     
     data.strCall = props.getProperty("TYPE CODE", "");
     

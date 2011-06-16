@@ -2045,6 +2045,16 @@ Contact: Mike Cady <mikecadyga@gmail.com>
 Sender: 7064632252
 WHITFIELD CO. 911:F12 SF-COMMERCIAL/INDUSTRIAL/SCHOO 1812 KIMBERLY PARK DR 4237188927 ALARM ASSIGN 3
 **********************************************************
+Porter County, IN
+Contact: Mike Luczak <firefighter3198@gmail.com>
+.(CAD Page) #110053588 -
+F42:
+MUT.AID/STANDBY OWN @ 1012 W INDIANA AV,KTS
+CROSS: btwn S 125 E and E ST RD 8
+GRP:MF
+PRI:1
+comment: HEAVY SMOKE INSIDE BUILDING
+**********************************************************
 **********************************************************
 **********************************************************
 **********************************************************
@@ -2601,6 +2611,51 @@ LCFD Dist: is just saying that it is in our district. The LCF1 is just saying we
 They have the county gridded out but we don't use them. We don't have computer in our trucks.
 I don't think the cad code has any significance i will talk to my asst. chief tonight to make sure.
  
+From your email to Jeremy:
+We could use a bit of explanation as to how to interpret these.
+LCFD DIST: LCF1
+Is LCF1 a code for Lowry Crossing VFD, or a subcode withing Lowery
+Crossing VFD? --LCF1 is the code dispatch uses to identify our Dept in their
+system.  If we get a second call, that would be LCF2
+GRID: xxxx sounds like a  map page or code? --GRID is the map page/grid
+location.  We dont use this method.  It is similar to a mapsco.
+It looks like you have an ST RMK: field followed by a CFS RMK field.
+The later looks like general comments, but what is the first one used
+for? --I asked the supervisor what the ST RMK field is for.  You are correct
+on the CFS RMK, it is the comments field.
+Does the cad0004 code at the end of the text message have any
+significance? --I also asked the supervisor what this means since sometimes
+it says CAD004 and other times it will say CAD001.
+
+The FAQ on the website states if we can get you the name of the CAD software
+our dispatch uses, that may help you.  I have also asked for this
+information from the supervisor.
+
+I know Jeremy has already given you a few sample pages, but here is one
+more.  I have also broken down what each section in the page means.  I hope
+this helps.
+
+11048794  FIRE PUBLIC ASSIST  2701 ASPEN CT IN COLLIN COUNTY  COUNTY ROAD
+392  [LCFD DIST: LCF1 GRID: 1322]  UNITS: LCF1  ST RMK: 7K4  CFS RMK 22:10
+REQ FD TO CHECK BP...40 YRO FEMALE.   {CAD001 22:13}
+
+ICS County Call Number:  11048794
+Call Type: FIRE PUBLIC ASSIST
+Address: 2701 ASPEN CT IN COLLIN COUNTY
+Cross Street/Intersection: COUNTY ROAD 392
+District and Map Grid location: [LCFD DIST: LCF1 GRID: 1322]
+Units that receive notification: UNITS: LCF1
+Checking on this: ST RMK: 7K4
+Remarks by dispatch: CFS RMK 22:10 REQ FD TO CHECK BP...40 YRO FEMALE.
+Time of page: {CAD001 22:13}  (checking on the CAD001 though)
+
+I had one additional question.  Is LCF1 critical in the programming of the
+application?  There are 13 total departments that are dispatched out by
+Collin County.  Would you need their identifier code in order to set them
+up?  They are all 3 characters followed by either a 1 or 2.  ie:  Princeton
+FD is PNF1 and PNF2.
+If you need the other identifiers, I can get you those.
+ 
 11031079 First Responders 3274 Almeta LN in Collin County FM 546 [LCFD DIST: LCF1 GRID: 1331]
 11047502 INJURED PERSON 3610 FM 546 IN COLLIN COUNTY COUNTY ROAD 398 / COUNTY RO;16AD 394 [LCFD DIST: LCF1 GRID: 1322] UNITS: AMRP LCF1 ST RMK: <NONE> CFS RMK 19:16 MALE SUB BLEEDING FROM HIS THROAT {CAD004 19:17} 
 11047405 FISRT RESPONDERS 2897 COUNTY ROAD 914 IN COLLIN COUNTY COUNTY ROAD 392 [LCFD DIST: LCF1 GRID: 1322] UNITS: LCF1 AMRP ST RMK: DUTCH ACRES CFS RMK 12:59 68 YOA FALLEN IN FRONT YARD UNABLE T {CAD001 13:00}
@@ -2610,6 +2665,22 @@ I don't think the cad code has any significance i will talk to my asst. chief to
 North East, MD (in Cecil County)
 Contact: Dave Simmons <acdave0911@gmail.com>
 Sender: nefc911@nefc.com
+
+NE= North East
+ELK= Elkton
+CHAR= Charlestown
+PV= Perryville
+RS= Rising Sun
+PD = Port Deposit
+WAR= Warwick
+CHES= Chesapeake City
+CONO= Conowingo
+EARL= Earlville
+CCLT= Cecilton
+COLO = Colora
+
+OOC = Out of County(used for a dispacted calls outside of Cecil County)
+      May also be out of state
 
 line 1 is the CAD discriptor
 line 2 is call type
@@ -2679,3 +2750,10 @@ CHESSMAN CIR
 SMOKE FROM BASEMENT//BLACK
 OPS 6   0304
 03
+**********************************************************
+Camden County, GA
+Contact: "croney kingslandgeorgia.com" <croney@kingslandgeorgia.com>
+astudstill@co.camden.ga.us:2011-101695* HIGHWAY 17 STEFFANS* * * KINGSLAND* * Traffic Stop* TRAFFIC STOP* * * 1128,1140,1150,1152,509,514,523,532,LS3,R3* * Med
+astudstill@co.camden.ga.us:2011-104696* 4059 MARTIN LUTHER KING BLVD* N4* * 514,541,546,ENG4,LS4,MED4 KINGSLAND* * INJURY* INJURY* 509,ENG5,LS3* * Medical: No
+astudstill@co.camden.ga.us:2011-101995* 405 & HIGHWAY 40 OLD WAFFLE HOUSE* * * KINGSLAND* * ACCIDENT* ACCIDENT* ELAINE* 386-208-4465* 514,541,546,ENG4,LS4,MED4
+astudstill@co.camden.ga.us:2011-104843* 429 EAGLE BLVD* * * KINGSLAND* * PERSON SICK* PERSON SICK* * 540,ENG4,LS4* * Medical: No* Haz
