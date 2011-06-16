@@ -45,8 +45,18 @@ public class COAdamsCountyParserTest extends BaseParserTest {
     doTest("T6",
         "Subject:IPS I/Page Notification\n26900 E COLFAX AVE ARAP ARAP,454: @FOX RIDGE FARMS 17:19:15 TYPE CODE: EMS CALLER NAME:  TIME: 17:19:15 Co",
         "ADDR:26900 E COLFAX AVE",
+        "CITY:ARAPAHOE COUNTY",
         "PLACE:FOX RIDGE FARMS",
         "CALL:EMS");
+
+    doTest("T7",
+        "IPS I/Page Notification / 10433 SALIDA ST ADAM CCPD 06:51:58 TYPE CODE: FRALRM CALLER NAME:  TIME: 06:51:58\n\n\n",
+        "ADDR:10433 SALIDA ST",
+        "CALL:FRALRM");
     
+  }
+  
+  public static void main(String[] args) {
+    new COAdamsCountyParserTest().generateTests("T7", "ADDR CITY PLACE CALL");
   }
 }

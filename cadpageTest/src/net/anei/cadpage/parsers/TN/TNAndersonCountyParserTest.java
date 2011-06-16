@@ -70,13 +70,13 @@ public class TNAndersonCountyParserTest extends BaseParserTest {
         "(E911) RESC - I75 SB @ MM 119 CLINTON, TN - MVA",
         "SRC:RESC",
         "CALL:MVA",
-        "ADDR:I-75 SB & MM 119",
+        "ADDR:I75 SB & MM 119",
         "CITY:CLINTON");
 
     doTest("T10",
         "(E911) MVA - Injury - I75 SB @ MM 119 CLINTON, TN - REC:02:41 DISP:02:41 RESP:02:45 ONSC: INSRV:02:51 TRK#:179132",
         "CALL:MVA - Injury (END)",
-        "ADDR:I-75 SB & MM 119",
+        "ADDR:I75 SB & MM 119",
         "CITY:CLINTON",
         "INFO:REC:02:41 DISP:02:41 RESP:02:45 ONSC: INSRV:02:51 TRK#:179132");
 

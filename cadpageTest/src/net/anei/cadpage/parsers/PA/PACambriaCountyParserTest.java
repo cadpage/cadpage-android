@@ -27,7 +27,7 @@ public class PACambriaCountyParserTest extends BaseParserTest {
         "[29] 11 Time: 11:54:47 Nature: 29B01-Bravo VEH ACC WITH INJURIES Location: 110 PLAZA DR-LY | Sta 30, Sta 23, Sta 35",
         "CALL:29B01-Bravo VEH ACC WITH INJURIES",
         "ADDR:110 PLAZA DR",
-        "CITY:LY",
+        "CITY:LOWER YODER TWP",
         "UNIT:Sta 30, Sta 23, Sta 35");
 
     doTest("T3",
@@ -60,14 +60,14 @@ public class PACambriaCountyParserTest extends BaseParserTest {
         "Date: 06/02/11\nTime: 20:47:52\nNature: 10C01-Charlie CHEST PAIN\nLocation: 1518 W 2ND ST-CR\n| Sta 75",
         "CALL:10C01-Charlie CHEST PAIN",
         "ADDR:1518 W 2ND ST",
-        "CITY:CRESSON",
+        "CITY:CRESSON TWP",
         "UNIT:Sta 75");
 
     doTest("T2",
         "Date: 06/04/11\nTime: 11:03:04\nNature: 06D02-Delta\2sBREATHING PROBLEMS\nLocation: 908 SHORT AVE-CR\n| Sta 75",
         "CALL:06D02-Delta\2sBREATHING PROBLEMS",
         "ADDR:908 SHORT AVE",
-        "CITY:CRESSON",
+        "CITY:CRESSON TWP",
         "UNIT:Sta 75");
 
     doTest("T3",
@@ -88,7 +88,7 @@ public class PACambriaCountyParserTest extends BaseParserTest {
         "Date: 06/13/11\nTime: 15:53:48\nNature: 02D02-Delta  ALLERGIC REACTION\nLocation: 1237 ST AUGUSTINE RD-CF\n| Sta 60, Sta 67",
         "CALL:02D02-Delta  ALLERGIC REACTION",
         "ADDR:1237 ST AUGUSTINE RD",
-        "CITY:CLEARFIELD",
+        "CITY:CLEARFIELD TWP",
         "UNIT:Sta 60, Sta 67");
 
   }

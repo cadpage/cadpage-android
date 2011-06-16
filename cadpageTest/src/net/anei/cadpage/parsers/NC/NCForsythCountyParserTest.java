@@ -84,7 +84,7 @@ public class NCForsythCountyParserTest extends BaseParserTest {
 
     doTest("T10",
         "Location: NB 421 FC Nature: Motor Vehicle Accident P:1  - default DISTRICT: R13 X Str: SCOTT RD/SB 421 CALLER NAME: FCSD",
-        "ADDR:NB 421 CO",
+        "ADDR:NB 421",
         "CALL:Motor Vehicle Accident",
         "UNIT:R13",
         "X:SCOTT RD/SB 421",
