@@ -62,7 +62,7 @@ public class SmsMsgLogBuffer {
    * be suppressed because it duplicates a message already in the log
    * buffer
    */
-  public boolean add(SmsMmsMessage msg) {
+  public synchronized boolean add(SmsMmsMessage msg) {
     
     // If we are suppressing duplicate messages, see if the new message
     // duplicates one already in the queue.  If queued message wasn't
@@ -76,7 +76,7 @@ public class SmsMsgLogBuffer {
     // Add new message to beginning of queue
     msgQueue.addFirst(msg);
     
-    // Remove messages from end of queue to satisfily log limit
+    // Remove messages from end of queue to satisfy log limit
     int limit = ManagePreferences.logLimit();
     while (msgQueue.size() > limit) msgQueue.removeLast();
     
@@ -97,7 +97,7 @@ public class SmsMsgLogBuffer {
   /**
    * @return last message added to queue
    */
-  public SmsMmsMessage getLastMessage() {
+  public synchronized SmsMmsMessage getLastMessage() {
     
     // Queue is stored in reverse order, so get the first message
     if (msgQueue.size() == 0) return null;
@@ -108,7 +108,7 @@ public class SmsMsgLogBuffer {
    * Append message information to support message under construction
    * @param sb String builder holding message being constructed
    */
-  public void addMessageInfo(Context context, StringBuilder sb) {
+  public synchronized void addMessageInfo(Context context, StringBuilder sb) {
     for (SmsMmsMessage msg : msgQueue) {
       msg.addMessageInfo(context, sb);
     }

@@ -166,6 +166,29 @@ public class SmsMmsMessage implements Serializable {
     this.mmsMsgId = mmsMsgId;
     this.messageBody = this.parseMessageBody = null;
   }
+  
+  /**
+   * Set the message body for an MMS type message when it is finally retrieved
+   * @param messageBody new message body text
+   */
+  public void setMessageBody(String messageBody) {
+    this.messageBody = messageBody;
+    this.parseMessageBody = null;
+    this.info = null;
+  }
+
+  /**
+   * Create a timeout marker message.  This servers no purpose other than
+   * to mark an MMS message timeout in the log buffer
+   * @return timeout marker message to be logged
+   */
+  public SmsMmsMessage timeoutMarker() {
+    SmsMmsMessage result = 
+          new SmsMmsMessage(messageClass, fromAddress, parseSubject, contentLoc, 
+                            mmsMsgId, System.currentTimeMillis());
+    result.messageBody = "*** Content Timeout ***";
+    return result;
+  }
 
   /**
    * Construct dummy SmsMmsMessage test notifications 

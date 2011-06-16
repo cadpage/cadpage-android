@@ -17,6 +17,9 @@ Sender: cayuga911@co.cayuga.ny.us
 Contact: John Betts <philbert08@yahoo.com>
 FRM:cayuga911@co.cayuga.ny.us\nSUBJ:From911Center\nMSG:\n04/20/11 13:51 3204 FRANKLIN STREET RD SENNETT Alarm - Fire\n
 
+Contact: Christine Thurston <thurstce@gmail.com>
+(From 911 Center) 06/15/11 00:03 215 CAYUGA ST UNION SPRINGS Cardiac  Call Number 467 was created from Call Number 462(Jun 14 2011 11:20PM)  stried the pho
+
 */
 
 
