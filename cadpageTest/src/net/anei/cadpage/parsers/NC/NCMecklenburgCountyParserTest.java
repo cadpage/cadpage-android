@@ -33,10 +33,24 @@ public class NCMecklenburgCountyParserTest extends BaseParserTest {
         "ADDR:16710 Northcross Dr",
         "INFO:Fire -  Emergency",
         "CALL:59-Fuel Spi");
+
+    doTest("T4",
+        "(Text Page) 19180-19209 Coachmans Trace             GLENRIDGE                     Fire -  Emergency             69-Structure Fire             Meadow Crossing L",
+        "ADDR:19180-19209 Coachmans Trace",
+        "PLACE:GLENRIDGE",
+        "INFO:Fire -  Emergency",
+        "CALL:69-Structure Fire             Meadow Crossing L");
+
+    doTest("T5",
+        "Subject:Incoming Message\n16738 Amberside Rd East                 Alexander Chase Condos        Fire -  Emergency             52F-Alarm-FIRE",
+        "ADDR:16738 Amberside Rd East",
+        "PLACE:Alexander Chase Condos",
+        "INFO:Fire -  Emergency",
+        "CALL:52F-Alarm-FIRE");
  }
   
 
   public static void main(String[] args) {
-    new NCMecklenburgCountyParserTest().generateTests("T1", "ADDR APT PLACE INFO CALL");
+    new NCMecklenburgCountyParserTest().generateTests("T4", "ADDR APT PLACE INFO CALL");
   }
 }
