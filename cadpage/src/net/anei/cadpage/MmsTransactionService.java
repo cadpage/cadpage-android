@@ -47,11 +47,7 @@ import net.anei.cadpage.parsers.SmsMsgParser;
 public class MmsTransactionService extends Service {
   
   private static final Uri MMS_URI = Uri.parse("content://mms");
-  
-  private static final int EVENT_TRANSACTION_REQUEST = 1;
-  private static final int EVENT_DATA_CHANGE = 2;
-  private static final int EVENT_TIMEOUT = 3;
-  private static final int EVENT_QUIT = 100;
+  private enum EventType {TRANSACTION_REQUEST, DATA_CHANGE, TIMEOUT, TIMER_TICK, QUIT};
 
   // Column names for query searches
   private static String[] MMS_COL_LIST = new String[]{"_ID"};
@@ -95,6 +91,7 @@ public class MmsTransactionService extends Service {
 
     mServiceLooper = thread.getLooper();
     mServiceHandler = new ServiceHandler(mServiceLooper);
+
   }
 
   @Override
@@ -110,7 +107,7 @@ public class MmsTransactionService extends Service {
     genAlertParser = ManageParsers.getInstance().getAlertParser();
     smsPassThrough = ManagePreferences.smspassthru();
     
-    Message msg = mServiceHandler.obtainMessage(EVENT_TRANSACTION_REQUEST);
+    Message msg = mServiceHandler.obtainMessage(EventType.TRANSACTION_REQUEST.ordinal());
     msg.arg1 = startId;
     msg.obj = intent;
     mServiceHandler.sendMessage(msg);
@@ -121,7 +118,7 @@ public class MmsTransactionService extends Service {
   @Override
   public void onDestroy() {
     mWakeLock.release();
-    mServiceHandler.sendEmptyMessage(EVENT_QUIT);
+    mServiceHandler.sendEmptyMessage(EventType.QUIT.ordinal());
   }
 
   @Override
@@ -149,6 +146,9 @@ public class MmsTransactionService extends Service {
     public ServiceHandler(Looper looper) {
       super(looper);
       qr = getContentResolver();
+      
+      // Start timer ticks
+      sendEmptyMessageDelayed(EventType.TIMER_TICK.ordinal(), 1000);
     }
 
     /**
@@ -161,9 +161,11 @@ public class MmsTransactionService extends Service {
       
       try {
   
-        switch (msg.what) {
-        case EVENT_QUIT:
-          if (Log.DEBUG) Log.v("MmsTransactionService.EVENT_EVENT_QUIT");
+        
+        EventType type = EventType.values()[msg.what];
+        if (Log.DEBUG) Log.v("mmsTransactionService." + type);
+        switch (type) {
+        case QUIT:
           if (!msgList.isEmpty()) {
             Log.w("TransactionService exiting with transaction still pending");
           }
@@ -172,19 +174,19 @@ public class MmsTransactionService extends Service {
           getLooper().quit();
           return;
         
-        case EVENT_TRANSACTION_REQUEST:
-          if (Log.DEBUG) Log.v("MmsTransactionService.EVENT_TRANSACTION_REQUEST");
+        case TRANSACTION_REQUEST:
           Intent intent = (Intent)msg.obj;
           mmsReceive(intent);
           break;
           
-        case EVENT_DATA_CHANGE:
-          if (Log.DEBUG) Log.v("MmsTransactionService.DATA_CHANGE");
+        case TIMER_TICK:
+          sendEmptyMessageDelayed(EventType.TIMER_TICK.ordinal(), 1000);
+          
+        case DATA_CHANGE:
           mmsDataChange();
           break;
         
-        case EVENT_TIMEOUT:
-          if (Log.DEBUG) Log.v("MmsTransactionService.EVENT_TIMEOUT");
+        case TIMEOUT:
           MmsMsgEntry entry = (MmsMsgEntry)msg.obj;
           if (msgList.remove(entry)) {
             SmsMsgLogBuffer.getInstance().add(entry.message.timeoutMarker());
@@ -207,10 +209,11 @@ public class MmsTransactionService extends Service {
           observer = new ContentObserver(this){
             @Override
             public void onChange(boolean selfChange) {
-              sendEmptyMessage(EVENT_DATA_CHANGE);
+              sendEmptyMessage(EventType.DATA_CHANGE.ordinal());
             }
           };
           qr.registerContentObserver(MMS_URI, true, observer);
+          qr.registerContentObserver(Uri.withAppendedPath(MMS_URI, "part"), true, observer);
         }
       } 
       
@@ -270,7 +273,7 @@ public class MmsTransactionService extends Service {
       
       // Post a timeout event for this message to remove if from the queue if
       // we haven't received any data content
-      Message msg = mServiceHandler.obtainMessage(EVENT_TIMEOUT);
+      Message msg = mServiceHandler.obtainMessage(EventType.TIMEOUT.ordinal());
       msg.obj = entry;
       mServiceHandler.sendMessageDelayed(msg, mmsTimeout);
     }

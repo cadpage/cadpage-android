@@ -17,7 +17,7 @@ public class ContentQuery {
   public static void query(Context context) {
     
     ContentResolver res = context.getContentResolver();
-    String msg_id = "0BCAE1D8A60800007D40000101";
+    String msg_id = "0CCC11533EB200003550000201";
     
     Uri uri  = Uri.parse("content://mms");
     Cursor cur = res.query(uri, MMS_COL_LIST, "tr_id=?", new String[]{msg_id}, null);
