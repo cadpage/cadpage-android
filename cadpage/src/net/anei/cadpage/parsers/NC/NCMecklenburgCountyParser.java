@@ -6,7 +6,7 @@ import net.anei.cadpage.parsers.SmsMsgParser;
 /*
 Mecklenburg County, NC
 Contact: Rick <very.orange@gmail.com>
-Sender: paging@rcsepager.com
+Sender: paging@rcscom.com
 System: TriTech VisiCAD
 
 Subject:Text Page\n18758 Silver Quay Dr                                                  Charlie                       17- Falls/Back injur
@@ -19,8 +19,11 @@ Sender: @huntersvillefd.com
 (Text Page) 04022011-202     Received:  15:29    Assigned:  15:29    Enroute:            Arrived:            Pt Contact:
 (Text Page) 16710 Northcross Dr                                                   Fire -  Emergency             59-Fuel Spi
 (Text Page) 04022011-238     Received:  16:50    Assigned:  16:50    Enroute:   16:51    Arrived:   16:59    Pt Contact:
-
 (Text Page) 19180-19209 Coachmans Trace             GLENRIDGE                     Fire -  Emergency             69-Structure Fire             Meadow Crossing L
+
+Contact: John Stroup <jbstroup3@gmail.com>
+Subject:Incoming Message\n16738 Amberside Rd East                 Alexander Chase Condos        Fire -  Emergency             52F-Alarm-FIRE  
+
 */
 
 public class NCMecklenburgCountyParser extends SmsMsgParser {
@@ -31,13 +34,13 @@ public class NCMecklenburgCountyParser extends SmsMsgParser {
   
   @Override
   public String getFilter() {
-    return "paging@rcsepager.com,@huntersvillefd.com";
+    return "paging@rcscom.com,@huntersvillefd.com";
   }
   
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
     
-    if (!subject.equals("Text Page")) return false;
+    if (!subject.equals("Text Page") && !subject.equals("Incoming Message")) return false;
     if(body.length() < 110) return false;
     if (body.contains("Received:")) return false;
     parseAddress(body.substring(0,30).trim(), data);

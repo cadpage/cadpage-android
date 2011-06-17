@@ -20,6 +20,7 @@ package net.anei.cadpage;
 import android.app.Notification;
 import android.app.Service;
 import android.content.ContentResolver;
+import android.content.ContentUris;
 import android.content.Context;
 import android.content.Intent;
 import android.database.ContentObserver;
@@ -47,6 +48,7 @@ import net.anei.cadpage.parsers.SmsMsgParser;
 public class MmsTransactionService extends Service {
   
   private static final Uri MMS_URI = Uri.parse("content://mms");
+  private static final Uri CONTENT_URI = Uri.parse("content://sms");
   private enum EventType {TRANSACTION_REQUEST, DATA_CHANGE, TIMEOUT, TIMER_TICK, QUIT};
 
   // Column names for query searches
@@ -300,7 +302,7 @@ public class MmsTransactionService extends Service {
         // Now see if we can recover the content
 
         
-        Uri mmsUri = Uri.withAppendedPath(MMS_URI, "" + entry.msgId);
+        Uri mmsUri = ContentUris.withAppendedId(MMS_URI, entry.msgId);
         Uri partUri = Uri.withAppendedPath(mmsUri, "part");
         Cursor cur = qr.query(partUri, PART_COL_LIST, null, null, null);
         
@@ -310,13 +312,15 @@ public class MmsTransactionService extends Service {
           // to the messaging app to get these loaded if we haven't already
           final Intent intent = new Intent();
           if (entry.loading) continue; 
-          intent.setClassName("com.android.mms.transaction", "TransactionService");
-          intent.putExtra("TRANSACTION_TYPE", "Transaction.RETRIEVE_TRANSACTION");
-          intent.putExtra("URI", Uri.withAppendedPath(MMS_URI, "" + entry.msgId).toString());
+          intent.setClassName("com.android.mms", "com.android.mms.transaction.TransactionService");
+          intent.putExtra("type", 1);
+          intent.putExtra("uri", ContentUris.withAppendedId(CONTENT_URI, entry.msgId).toString());
           mainHandler.post(new Runnable(){
             @Override
             public void run() {
-              startService(intent);
+              if (startService(intent) == null) {
+                Log.e("Tranaction.RETRIEVE_TRANSACTION service not found");
+              }
             }});
           entry.loading = true;
           continue;
