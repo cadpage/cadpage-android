@@ -26,7 +26,7 @@ CT:CHEST PAIN 11673 KENNEDYVILLE RD  BOX:4002 DUE:E4 A8 PM1-1
 public class MDKentCountyParser extends FieldProgramParser {
 
   public MDKentCountyParser() {
-    super("WILLIAMSON COUNTY", "TX",
+    super("KENT COUNTY", "MD",
            "CT:ADDR! BOX:BOX! DUE:UNIT!");
   }
   
