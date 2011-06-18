@@ -26,6 +26,7 @@ import android.content.Intent;
 import android.database.ContentObserver;
 import android.database.Cursor;
 import android.net.Uri;
+import android.os.Bundle;
 import android.os.Handler;
 import android.os.HandlerThread;
 import android.os.IBinder;
@@ -48,8 +49,9 @@ import net.anei.cadpage.parsers.SmsMsgParser;
 public class MmsTransactionService extends Service {
   
   private static final Uri MMS_URI = Uri.parse("content://mms");
+  private static final Uri MMS_INBOX_URI = Uri.withAppendedPath(MMS_URI, "inbox");
   private static final Uri CONTENT_URI = Uri.parse("content://sms");
-  private enum EventType {TRANSACTION_REQUEST, DATA_CHANGE, TIMEOUT, TIMER_TICK, QUIT};
+  private enum EventType {TRANSACTION_REQUEST, TRANSACTION_COMPLETED_ACTION, DATA_CHANGE, TIMEOUT, TIMER_TICK, QUIT};
 
   // Column names for query searches
   private static String[] MMS_COL_LIST = new String[]{"_ID"};
@@ -99,6 +101,7 @@ public class MmsTransactionService extends Service {
   @Override
   public int onStartCommand(Intent intent, int flags, int startId) {
     if (Log.DEBUG) Log.v("MmsTransactionService.onStart()");
+    if (intent == null) return START_NOT_STICKY;
     
     // Collect all of the preferences we might need while we are still on
     // the main thread;
@@ -109,7 +112,22 @@ public class MmsTransactionService extends Service {
     genAlertParser = ManageParsers.getInstance().getAlertParser();
     smsPassThrough = ManagePreferences.smspassthru();
     
-    Message msg = mServiceHandler.obtainMessage(EventType.TRANSACTION_REQUEST.ordinal());
+    EventType type;
+    if ("android.provider.Telephony.WAP_PUSH_RECEIVED".equals(intent.getAction())) {
+      type = EventType.TRANSACTION_REQUEST;
+    } else if ("android.intent.action.TRANSACTION_COMPLETED_ACTION".equals(intent.getAction())) {
+      type = EventType.TRANSACTION_COMPLETED_ACTION;
+      Log.v("EventType.TRANSACTION_COMPLETED_ACTION");
+      Bundle bundle = intent.getExtras();
+      if (bundle != null) {
+        Log.v("state:" + bundle.get("state"));
+        Log.v("uri:" + bundle.get("uri"));
+      }
+    } else {
+      Log.w("Unidentified request received by MmsTransactionService");
+      return START_NOT_STICKY;
+    }
+    Message msg = mServiceHandler.obtainMessage(type.ordinal());
     msg.arg1 = startId;
     msg.obj = intent;
     mServiceHandler.sendMessage(msg);
@@ -185,6 +203,7 @@ public class MmsTransactionService extends Service {
           sendEmptyMessageDelayed(EventType.TIMER_TICK.ordinal(), 1000);
           
         case DATA_CHANGE:
+        case TRANSACTION_COMPLETED_ACTION:
           mmsDataChange();
           break;
         
@@ -259,6 +278,7 @@ public class MmsTransactionService extends Service {
       // Save message for future test or error reporting use
       // Duplicate message check is ignored for now because we do not yet have a message body
       SmsMsgLogBuffer.getInstance().add(message);
+      Log.v("Incomming MMS msg ID = " + message.getMmsMsgId());
       
       // See if we can rule out this message without the text body
       // meaning with just a subject and from address
@@ -291,6 +311,7 @@ public class MmsTransactionService extends Service {
         final SmsMmsMessage message = entry.message;
         
         // If we don't have an record number for this message, try to get one
+        entry.msgId = -1;
         if (entry.msgId < 0) {
           Cursor cur = qr.query(MMS_URI, MMS_COL_LIST, "tr_id=?", new String[]{message.getMmsMsgId()}, null);
           if (cur == null) continue;
@@ -314,7 +335,7 @@ public class MmsTransactionService extends Service {
           if (entry.loading) continue; 
           intent.setClassName("com.android.mms", "com.android.mms.transaction.TransactionService");
           intent.putExtra("type", 1);
-          intent.putExtra("uri", ContentUris.withAppendedId(CONTENT_URI, entry.msgId).toString());
+          intent.putExtra("uri", ContentUris.withAppendedId(MMS_INBOX_URI, entry.msgId).toString());
           mainHandler.post(new Runnable(){
             @Override
             public void run() {

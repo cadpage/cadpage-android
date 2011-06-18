@@ -173,8 +173,9 @@ public class SmsMmsMessage implements Serializable {
    */
   public void setMessageBody(String messageBody) {
     this.messageBody = messageBody;
-    this.parseMessageBody = null;
-    this.info = null;
+    
+    // Calculate the from address and body to be used for parsing purposes
+    getParseInfo();
   }
 
   /**

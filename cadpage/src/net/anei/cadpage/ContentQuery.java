@@ -1,13 +1,14 @@
 package net.anei.cadpage;
 
-import java.io.ByteArrayOutputStream;
-import java.io.IOException;
-import java.io.InputStream;
+import java.util.List;
 
+import android.app.ActivityManager;
 import android.content.ContentResolver;
 import android.content.Context;
+import android.content.Intent;
 import android.database.Cursor;
 import android.net.Uri;
+import android.os.Bundle;
 
 public class ContentQuery {
   
@@ -17,18 +18,21 @@ public class ContentQuery {
   public static void query(Context context) {
     
     ContentResolver res = context.getContentResolver();
-    String msg_id = "0CCC11533EB200003550000201";
+    int id = -1;
+    String msg_id = "0BCC23485D6600000A50000201";
     
-    Uri uri  = Uri.parse("content://mms");
-    Cursor cur = res.query(uri, MMS_COL_LIST, "tr_id=?", new String[]{msg_id}, null);
-    if (cur == null) return;
-    if (!cur.moveToFirst()) return;
-    int id = cur.getInt(0);
-    String sub = cur.getString(1);
-    Log.w("_ID=" + id + "   sub=" + sub);
+    if (id < 0) {
+      Uri uri  = Uri.parse("content://mms");
+      Cursor cur = res.query(uri, MMS_COL_LIST, "tr_id=?", new String[]{msg_id}, null);
+      if (cur == null) return;
+      if (!cur.moveToFirst()) return;
+      id = cur.getInt(0);
+      String sub = cur.getString(1);
+      Log.w("_ID=" + id + "   sub=" + sub);
+    }
     
-    uri = Uri.parse("content://mms/"+id+"/part");
-    cur = res.query(uri, PART_COL_LIST, null, null, null);
+    Uri uri = Uri.parse("content://mms/"+id+"/part");
+    Cursor cur = res.query(uri, PART_COL_LIST, null, null, null);
     dumpCursor("MMS part", cur);
     
     if (cur == null || !cur.moveToFirst()) return;
@@ -79,6 +83,33 @@ public class ContentQuery {
     }
     
     
+  }
+  
+  public static void dumpRecentTasks(Context context) {
+    ActivityManager mgr = (ActivityManager)context.getSystemService(Context.ACTIVITY_SERVICE);
+    List<ActivityManager.RecentTaskInfo> taskList = mgr.getRecentTasks(100,ActivityManager.RECENT_WITH_EXCLUDED);
+    Log.v("Recent task information");
+    for (ActivityManager.RecentTaskInfo task : taskList) {
+      Intent intent = task.baseIntent;
+      dumpIntent(intent);
+      Log.v("");
+    }
+  }
+
+  public static void dumpIntent(Intent intent) {
+    Log.v("Action:" + intent.getAction());
+    Log.v("Categories:");
+    if (intent.getCategories() != null) {
+      for (String str : intent.getCategories()) Log.v("  " + str);
+    }
+    Log.v("Type:" + intent.getType());
+    Log.v("Comp:" + intent.getComponent().getClassName());
+    Bundle extra = intent.getExtras();
+    if (extra != null) {
+      for (String key : extra.keySet()) {
+        Log.v("  " + key + ":" + extra.get(key));
+      }
+    }
   }
 
 }

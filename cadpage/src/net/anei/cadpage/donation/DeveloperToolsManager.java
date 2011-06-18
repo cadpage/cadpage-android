@@ -57,11 +57,13 @@ public class DeveloperToolsManager {
       "Stat: Demo",
       "Stat: Demo expired",
       "Reset release info",
-      "Content Query"
+      "Content Query",
+      "Recent Tasks"
+      
     };
     
     private static final String[] valueList = new String[]{
-      "1", "2", "3", "4", "5", "6", "7", "8"
+      "1", "2", "3", "4", "5", "6", "7", "8", "9"
     };
 
     public DeveloperListPreference(Context context) {
@@ -126,6 +128,10 @@ public class DeveloperToolsManager {
         
       case 8:     // Content Query
         ContentQuery.query(context);
+        break;
+        
+      case 9:     // Recent tasks
+        ContentQuery.dumpRecentTasks(context);
         break;
       }
       MainDonateEvent.instance().refreshStatus();
