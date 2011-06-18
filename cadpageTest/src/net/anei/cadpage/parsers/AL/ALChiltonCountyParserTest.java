@@ -49,9 +49,16 @@ public class ALChiltonCountyParserTest extends BaseParserTest {
         "ID:2011046746",
         "INFO:DIABETIC RESIDENCE IS A BEIGE DOUBLE WIDE WITH MAROON SHUTTERS. RED TOYOTA AND BLACK DODGE IN THE BACK YARD");
 
+    doTest("T6",
+        "2645 COUNTY RD 37 THORSBY 2011050014 00:31:53 ASSIST OCCUPANT 91 YOM HAS FALLEN; LIFTING ASSISTANCE ONLY",
+        "ADDR:2645 COUNTY RD 37",
+        "CITY:THORSBY",
+        "ID:2011050014",
+        "INFO:ASSIST OCCUPANT 91 YOM HAS FALLEN; LIFTING ASSISTANCE ONLY");
+
   }
   
   public static void main(String[] args) {
-    new ALChiltonCountyParserTest().generateTests("T1", "ADDR CITY ID CALL INFO");
+    new ALChiltonCountyParserTest().generateTests("T6", "ADDR CITY ID CALL INFO");
   }
 }
