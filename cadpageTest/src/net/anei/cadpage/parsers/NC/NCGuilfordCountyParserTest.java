@@ -150,10 +150,27 @@ public class NCGuilfordCountyParserTest extends BaseParserTest {
         "INFO:G",
         "CALL:UNDER CONTROL");
 
+    doTest("T18",
+        "1 of 2\nFRM:dispatch@edispatches.com\nSUBJ:summerfieldfiredist Jun17-16:22\nMSG:summerfieldfiredist\nCAD:OPA4;OPA4;1;MEDEM;5570 US 220 N;M AND M\n(Con't) 2 of 2\nTIRE AND AUTOMOTIVE;SPOTSWOOD RD\n(End)",
+        "SRC:summerfieldfiredist",
+        "ADDR:5570 US 220 N",
+        "INFO:OPA4 / OPA4 / 1 / M AND M TIRE AND AUTOMOTIVE",
+        "CALL:MEDEM",
+        "X:SPOTSWOOD RD");
+
+    doTest("T19",
+        "FRM:dispatch@edispatches.com\nSUBJ:summerfieldfiredist Jun17-14:57\nMSG:summerfieldfiredist\nCAD:SMFD;ST39;1;09E02;CARDIA;5718 OAK TREE RD;AIR HARBOR RD\n",
+        "SRC:summerfieldfiredist",
+        "ADDR:5718 OAK TREE RD",
+        "INFO:SMFD / ST39 / 1",
+        "CODE:09E02",
+        "CALL:CARDIA",
+        "X:AIR HARBOR RD");
+
   }
   
 
   public static void main(String[] args) {
-    new NCGuilfordCountyParserTest().generateTests("T18");
+    new NCGuilfordCountyParserTest().generateTests("T19");
   }
 }
