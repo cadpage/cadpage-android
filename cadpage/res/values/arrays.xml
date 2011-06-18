@@ -11,6 +11,14 @@
     <item>SM</item>
   </string-array>
   <string-array
+    name="pref_mms_timeout_values">
+    <item>1</item>
+    <item>2</item>
+    <item>3</item>
+    <item>5</item>
+    <item>10</item>
+  </string-array>
+  <string-array
     name="pref_notif_repeat_interval_entries">
     <item>1</item>
     <item>2</item>

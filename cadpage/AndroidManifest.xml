@@ -31,7 +31,7 @@
         <data android:mimeType="application/vnd.wap.mms-message" />
       </intent-filter>
       <intent-filter>
-        <action android:name="android.intent.action.TRANSACTION_COMPLETED_ACTION" />
+        <action android:name="android.intent.action.CONTENT_CHANGED"/>
       </intent-filter>
       
     </receiver>
@@ -52,6 +52,12 @@
     <receiver android:name=".ClearAllReceiver" />
     <receiver android:name=".ReminderReceiver" />
     <service android:name=".MmsTransactionService"/>
+    
+    <!-- receiver android:name="DummyReceiver">
+      <intent-filter>
+        <action android:name="android.intent.action.CONTENT_CHANGED"/>
+      </intent-filter>
+    </receiver -->
 
   </application>
       

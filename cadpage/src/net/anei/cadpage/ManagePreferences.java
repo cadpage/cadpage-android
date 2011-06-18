@@ -22,7 +22,7 @@ public class ManagePreferences {
   // (OK, if you know what you are doing, and the only new settings added
   // are boolean settings that default to false, you can get away with not
   // changing this)
-  private static final int PREFERENCE_VERSION = 13;
+  private static final int PREFERENCE_VERSION = 15;
   
   private static ManagePreferences prefs;
 
@@ -142,6 +142,10 @@ public class ManagePreferences {
   
   public static String enableMsgType() {
     return prefs.getString(R.string.pref_enable_msg_type_key);
+  }
+  
+  public static int mmsTimeout() {
+    return prefs.getIntValue(R.string.pref_mms_timeout_key);
   }
   
   public static String location() {
@@ -424,6 +428,7 @@ public class ManagePreferences {
         R.string.pref_initialized_key,
         R.string.pref_enabled_key,
         R.string.pref_enable_msg_type_key,
+        R.string.pref_mms_timeout_key,
         R.string.pref_location_key,
         R.string.pref_override_filter_key,
         R.string.pref_filter_key,

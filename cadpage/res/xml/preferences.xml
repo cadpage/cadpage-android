@@ -372,6 +372,15 @@
         android:defaultValue="@string/pref_enable_msg_type_default" />
       
       <net.anei.cadpage.preferences.ListPreference
+          android:key="@string/pref_mms_timeout_key"
+          android:title="@string/pref_mms_timeout_title"
+          android:summary="@string/pref_mms_timeout_summary"
+          android:entries="@array/pref_mms_timeout_values"
+          android:entryValues="@array/pref_mms_timeout_values"
+          android:dialogTitle="@string/pref_mms_timeout_title"
+          android:defaultValue="@string/pref_mms_timeout_default"/>
+      
+      <net.anei.cadpage.preferences.ListPreference
           android:key="@string/pref_loglimit_key"
           android:title="@string/pref_loglimit_title"
           android:summary="@string/pref_loglimit_summary"

@@ -23,10 +23,8 @@ import android.content.ContentResolver;
 import android.content.ContentUris;
 import android.content.Context;
 import android.content.Intent;
-import android.database.ContentObserver;
 import android.database.Cursor;
 import android.net.Uri;
-import android.os.Bundle;
 import android.os.Handler;
 import android.os.HandlerThread;
 import android.os.IBinder;
@@ -49,13 +47,14 @@ import net.anei.cadpage.parsers.SmsMsgParser;
 public class MmsTransactionService extends Service {
   
   private static final Uri MMS_URI = Uri.parse("content://mms");
-  private static final Uri MMS_INBOX_URI = Uri.withAppendedPath(MMS_URI, "inbox");
-  private enum EventType {TRANSACTION_REQUEST, TRANSACTION_COMPLETED_ACTION, DATA_CHANGE, TIMEOUT, TIMER_TICK, QUIT};
+  private enum EventType {TRANSACTION_REQUEST, DATA_CHANGE, TIMEOUT, TIMER_TICK, QUIT};
 
   // Column names for query searches
   private static String[] MMS_COL_LIST = new String[]{"_ID"};
   private static String[] PART_COL_LIST = new String[]{"text", "_data"};
 
+  // Timer interval, negative to disable timer
+  private static final int TIMER_INTERVAL = -1;
   
   private Handler mainHandler = new Handler();
   private ServiceHandler mServiceHandler;
@@ -69,7 +68,7 @@ public class MmsTransactionService extends Service {
   private SmsMsgParser parser;
   private SmsMsgParser genAlertParser;
   private boolean smsPassThrough;
-  private int mmsTimeout = 60*1000;
+  private int mmsTimeout;
 
   @Override
   public void onCreate() {
@@ -110,23 +109,13 @@ public class MmsTransactionService extends Service {
     parser = ManageParsers.getInstance().getParser(null);
     genAlertParser = ManageParsers.getInstance().getAlertParser();
     smsPassThrough = ManagePreferences.smspassthru();
+    mmsTimeout = ManagePreferences.mmsTimeout()*60000;
     
     EventType type;
     if ("android.provider.Telephony.WAP_PUSH_RECEIVED".equals(intent.getAction())) {
       type = EventType.TRANSACTION_REQUEST;
-    } else if ("android.intent.action.TRANSACTION_COMPLETED_ACTION".equals(intent.getAction())) {
-      type = EventType.TRANSACTION_COMPLETED_ACTION;
-      if (Log.DEBUG) {
-        Log.v("EventType.TRANSACTION_COMPLETED_ACTION");
-        Bundle bundle = intent.getExtras();
-        if (bundle != null) {
-          Log.v("state:" + bundle.get("state"));
-          Log.v("uri:" + bundle.get("uri"));
-        }
-      }
-    } else {
-      Log.w("Unidentified request received by MmsTransactionService");
-      return START_NOT_STICKY;
+    } else  {
+      type = EventType.DATA_CHANGE;
     }
     Message msg = mServiceHandler.obtainMessage(type.ordinal());
     msg.arg1 = startId;
@@ -150,7 +139,6 @@ public class MmsTransactionService extends Service {
   // 
   private class MmsMsgEntry {
     SmsMmsMessage message = null;  // Message we are working on
-    int msgId = -1;                // Message ID number
     boolean loading = false;      // True if we have requested data content download
   }
 
@@ -161,7 +149,6 @@ public class MmsTransactionService extends Service {
     private List<MmsMsgEntry> msgList  = new LinkedList<MmsMsgEntry>();
     
     private ContentResolver qr;
-    private ContentObserver observer = null;
 
     
     public ServiceHandler(Looper looper) {
@@ -169,7 +156,7 @@ public class MmsTransactionService extends Service {
       qr = getContentResolver();
       
       // Start timer ticks
-      sendEmptyMessageDelayed(EventType.TIMER_TICK.ordinal(), 1000);
+      sendEmptyMessageDelayed(EventType.TIMER_TICK.ordinal(), TIMER_INTERVAL);
     }
 
     /**
@@ -190,8 +177,6 @@ public class MmsTransactionService extends Service {
           if (!msgList.isEmpty()) {
             Log.w("TransactionService exiting with transaction still pending");
           }
-          if (observer != null) qr.unregisterContentObserver(observer);
-          observer = null;
           getLooper().quit();
           return;
         
@@ -201,10 +186,9 @@ public class MmsTransactionService extends Service {
           break;
           
         case TIMER_TICK:
-          sendEmptyMessageDelayed(EventType.TIMER_TICK.ordinal(), 1000);
+          sendEmptyMessageDelayed(EventType.TIMER_TICK.ordinal(), TIMER_INTERVAL);
           
         case DATA_CHANGE:
-        case TRANSACTION_COMPLETED_ACTION:
           mmsDataChange();
           break;
         
@@ -224,18 +208,6 @@ public class MmsTransactionService extends Service {
               stopSelf();
             }});
           return;
-        }
-        
-        // Otherwise, make sure we have a content monitor on MMS info
-        if (observer == null) {
-          observer = new ContentObserver(this){
-            @Override
-            public void onChange(boolean selfChange) {
-              sendEmptyMessage(EventType.DATA_CHANGE.ordinal());
-            }
-          };
-          qr.registerContentObserver(MMS_URI, true, observer);
-          qr.registerContentObserver(Uri.withAppendedPath(MMS_URI, "part"), true, observer);
         }
       } 
       
@@ -310,22 +282,22 @@ public class MmsTransactionService extends Service {
         MmsMsgEntry entry = iter.next();
         final SmsMmsMessage message = entry.message;
         
-        // If we don't have an record number for this message, try to get one
-        entry.msgId = -1;
-        if (entry.msgId < 0) {
-          Cursor cur = qr.query(MMS_URI, MMS_COL_LIST, "tr_id=?", new String[]{message.getMmsMsgId()}, null);
-          if (cur == null) continue;
-          if (!cur.moveToFirst()) continue;
-          entry.msgId = cur.getInt(0);
-        }
+        // Start by finding the internal record number associated with this
+        // message ID.  We used to only do this once and keep using the mame
+        // record number, but it turns out that we go through two different
+        // numbers while downloading MMS content
+        Cursor cur = qr.query(MMS_URI, MMS_COL_LIST, "tr_id=?", new String[]{message.getMmsMsgId()}, null);
+        if (cur == null) continue;
+        if (!cur.moveToFirst()) continue;
+        int recNo = cur.getInt(0);
         
         // OK, we have the desired record number
         // Now see if we can recover the content
 
         
-        Uri mmsUri = ContentUris.withAppendedId(MMS_URI, entry.msgId);
+        Uri mmsUri = ContentUris.withAppendedId(MMS_URI, recNo);
         Uri partUri = Uri.withAppendedPath(mmsUri, "part");
-        Cursor cur = qr.query(partUri, PART_COL_LIST, null, null, null);
+        cur = qr.query(partUri, PART_COL_LIST, null, null, null);
         
         if (cur == null || !cur.moveToFirst()) {
           
@@ -336,7 +308,7 @@ public class MmsTransactionService extends Service {
           final Intent intent = new Intent();
           intent.setClassName("com.android.mms", "com.android.mms.transaction.TransactionService");
           intent.putExtra("type", 1);
-          intent.putExtra("uri", ContentUris.withAppendedId(MMS_INBOX_URI, entry.msgId).toString());
+          intent.putExtra("uri", ContentUris.withAppendedId(MMS_URI, recNo).toString());
           mainHandler.post(new Runnable(){
             @Override
             public void run() {
