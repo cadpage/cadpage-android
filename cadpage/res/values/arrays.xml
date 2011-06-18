@@ -226,6 +226,7 @@
     <item>GeneralSlash</item>
     <item>GeneralDash</item>
     <item>ALChiltonCounty</item>
+    <item>ALDothan</item>
     <item>ALLauderdaleCounty</item>
     <item>ALMadisonCounty</item>
     <item>CAElDoradoCounty</item>
@@ -432,6 +433,7 @@
     <item>Generic (slash field separator)</item>
     <item>Generic (dash field separator)</item>
     <item>Chilton County, AL</item>
+    <item>Dothan, AL</item>
     <item>Lauderdale County, AL</item>
     <item>Madison County, AL</item>
     <item>El Dorado County, CA</item>
