@@ -50,7 +50,6 @@ public class MmsTransactionService extends Service {
   
   private static final Uri MMS_URI = Uri.parse("content://mms");
   private static final Uri MMS_INBOX_URI = Uri.withAppendedPath(MMS_URI, "inbox");
-  private static final Uri CONTENT_URI = Uri.parse("content://sms");
   private enum EventType {TRANSACTION_REQUEST, TRANSACTION_COMPLETED_ACTION, DATA_CHANGE, TIMEOUT, TIMER_TICK, QUIT};
 
   // Column names for query searches
@@ -117,11 +116,13 @@ public class MmsTransactionService extends Service {
       type = EventType.TRANSACTION_REQUEST;
     } else if ("android.intent.action.TRANSACTION_COMPLETED_ACTION".equals(intent.getAction())) {
       type = EventType.TRANSACTION_COMPLETED_ACTION;
-      Log.v("EventType.TRANSACTION_COMPLETED_ACTION");
-      Bundle bundle = intent.getExtras();
-      if (bundle != null) {
-        Log.v("state:" + bundle.get("state"));
-        Log.v("uri:" + bundle.get("uri"));
+      if (Log.DEBUG) {
+        Log.v("EventType.TRANSACTION_COMPLETED_ACTION");
+        Bundle bundle = intent.getExtras();
+        if (bundle != null) {
+          Log.v("state:" + bundle.get("state"));
+          Log.v("uri:" + bundle.get("uri"));
+        }
       }
     } else {
       Log.w("Unidentified request received by MmsTransactionService");
@@ -278,7 +279,6 @@ public class MmsTransactionService extends Service {
       // Save message for future test or error reporting use
       // Duplicate message check is ignored for now because we do not yet have a message body
       SmsMsgLogBuffer.getInstance().add(message);
-      Log.v("Incomming MMS msg ID = " + message.getMmsMsgId());
       
       // See if we can rule out this message without the text body
       // meaning with just a subject and from address
@@ -331,8 +331,9 @@ public class MmsTransactionService extends Service {
           
           // The message contents do not yet exist.  Fire off a service request
           // to the messaging app to get these loaded if we haven't already
-          final Intent intent = new Intent();
           if (entry.loading) continue; 
+          if (Log.DEBUG) Log.v("Request MMS content for " + entry.message.getContentLoc()); 
+          final Intent intent = new Intent();
           intent.setClassName("com.android.mms", "com.android.mms.transaction.TransactionService");
           intent.putExtra("type", 1);
           intent.putExtra("uri", ContentUris.withAppendedId(MMS_INBOX_URI, entry.msgId).toString());
@@ -360,8 +361,10 @@ public class MmsTransactionService extends Service {
         
         // If we didn't retrieve any text info, give it up
         // Otherwise add the text body to our message
+        // And update the message saved in the log buffer
         if (text == null) continue;
         message.setMessageBody(text);
+        SmsMsgLogBuffer.getInstance().update(message);
         
         // Now that we have the full message, we can try to parse it as a CAD page
         boolean isPage = 

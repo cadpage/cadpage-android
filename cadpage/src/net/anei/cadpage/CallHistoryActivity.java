@@ -43,8 +43,6 @@ public class CallHistoryActivity extends ListActivity {
       startActivity(intent);
     }
     
-    // If release info for this release has not been displayed, do it now
-    
     // Set up list heading
     TextView tv = new TextView(this);
     tv.setText(R.string.call_history);

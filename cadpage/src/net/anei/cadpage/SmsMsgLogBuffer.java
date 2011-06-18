@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.util.LinkedList;
+import java.util.ListIterator;
 
 import android.content.Context;
 
@@ -92,6 +93,22 @@ public class SmsMsgLogBuffer {
       if (os != null) try {os.close();} catch (IOException ex) {}
     }
     return true;
+  }
+
+  /**
+   * Update a message that has already been queued in the log buffer.  Uses for
+   * MMS messages when the text content has been retrieved
+   * @param message Message to b logged.
+   */
+  public synchronized void update(SmsMmsMessage message) {
+    ListIterator<SmsMmsMessage> iter = msgQueue.listIterator();
+    while (iter.hasNext()) {
+      SmsMmsMessage msg = iter.next();
+      if (msg.equals(message)) {
+        iter.set(message);
+        break;
+      }
+    }
   }
   
   /**

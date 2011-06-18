@@ -362,7 +362,7 @@
           android:capitalize="characters"
           android:inputType="textVisiblePassword"
           android:defaultValue=""/>
-      <!-- 
+       
       <net.anei.cadpage.preferences.ListPreference
         android:key="@string/pref_enable_msg_type_key"
         android:title="@string/pref_enable_msg_type_title"
@@ -370,7 +370,7 @@
         android:entries="@array/pref_enable_msg_type_entries"
         android:entryValues="@array/pref_enable_msg_type_values"
         android:defaultValue="@string/pref_enable_msg_type_default" />
-      -->
+      
       <net.anei.cadpage.preferences.ListPreference
           android:key="@string/pref_loglimit_key"
           android:title="@string/pref_loglimit_title"

@@ -32,7 +32,7 @@ public class PushReceiver extends BroadcastReceiver {
 
   @Override
   public void onReceive(Context context, Intent intent) {
-    if (Log.DEBUG) Log.v("SMSReceiver: onReceive()");
+    if (Log.DEBUG) Log.v("PushReceiver: onReceive()");
     
     // If initialization failure in progress, shut down without doing anything
     if (TopExceptionHandler.isInitFailure()) return;

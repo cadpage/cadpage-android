@@ -34,11 +34,6 @@
       android:scrollbars="vertical" />
   </ScrollView>
   <ViewStub
-    android:id="@+id/MmsViewStub"
-    android:layout="@layout/popup_mms"
-    android:layout_width="fill_parent"
-    android:layout_height="wrap_content" />
-  <ViewStub
     android:id="@+id/PrivacyViewStub"
     android:layout="@layout/popup_privacy"
     android:layout_width="fill_parent"

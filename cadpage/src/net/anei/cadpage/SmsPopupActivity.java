@@ -64,8 +64,6 @@ public class SmsPopupActivity extends Activity {
   private ProgressDialog mProgressDialog = null;
 
 
-  private ViewStub mmsViewStub;
-  private View mmsView = null;
   private ViewStub privacyViewStub;
   private View privacyView = null;
   private View buttonsLL = null;
@@ -137,7 +135,6 @@ public class SmsPopupActivity extends Activity {
     registerForContextMenu(findViewById(R.id.MainLinearLayout));
 
     // Assign view stubs
-    mmsViewStub = (ViewStub) findViewById(R.id.MmsViewStub);
     privacyViewStub = (ViewStub) findViewById(R.id.PrivacyViewStub);
     buttonsLL = findViewById(R.id.ButtonLinearLayout);
 
@@ -370,40 +367,6 @@ public class SmsPopupActivity extends Activity {
     if (btnHandlers != null) prepareButtons();
     info = message.getInfo();
     
-    // If it's a MMS message, just show the MMS layout
-    if (message.getMessageType() == SmsMmsMessage.MESSAGE_TYPE_MMS) {
-      if (mmsView == null) {
-        mmsView = mmsViewStub.inflate();
-        mmsSubjectTV = (TextView) mmsView.findViewById(R.id.MmsSubjectTextView);
-
-        // The ViewMMS button
-//        Button viewMmsButton = (Button) mmsView.findViewById(R.id.ViewMmsButton);
-//        viewMmsButton.setOnClickListener(new OnClickListener() {
-//          public void onClick(View v) {
-//            replyToMessage();
-//          }
-//        });
-      }
-      messageScrollView.setVisibility(View.GONE);
-      // privacyViewStub.setVisibility(View.GONE);
-      mmsView.setVisibility(View.VISIBLE);
-
-      // If no MMS subject, hide the subject text view
-      if (TextUtils.isEmpty(message.getMessageBody())) {
-        mmsSubjectTV.setVisibility(View.GONE);
-      } else {
-        mmsSubjectTV.setVisibility(View.VISIBLE);
-      }
-    } else {
-      // Otherwise hide MMS layout
-      if (mmsView != null) {
-        mmsView.setVisibility(View.GONE);
-      }
-
-      // Refresh privacy settings (hide/show message) depending on privacy setting
-      refreshPrivacy();
-    }
-    
     // Update TextView that contains the timestamp for the incoming message
     String headerText;
     String timeStamp = message.getFormattedTimestamp(this).toString();
@@ -422,70 +385,66 @@ public class SmsPopupActivity extends Activity {
     // Set the from, message and header views
     StringBuilder sb = new StringBuilder(info.getTitle());
     fromTV.setText(sb.toString());
-    if (message.getMessageType() == SmsMmsMessage.MESSAGE_TYPE_SMS) {
-      sb = new StringBuilder();
-      if (info.getPlace().length() > 0) {
-        sb.append(info.getPlace());
-        sb.append('\n');
-      }
-      sb.append(info.getAddress());
-      String appt = info.getApt();
-      if (appt.length() > 0) {
-        sb.append(" Apt:"); 
-        sb.append(appt);
-      }
-      String delim="\n";
-      if (info.getCity().length() > 0) {
-        sb.append(delim);
-        delim = ", ";
-        sb.append(info.getCity());
-      }
-      if (info.getState().length() > 0) {
-        sb.append(delim);
-        sb.append(info.getState());
-      }
-      if (info.getCross().length() > 0) {
-        sb.append("\nX:");
-        sb.append(info.getCross());
-      }
-      if (info.getMap().length() > 0) {
-        sb.append("\nMAP:");
-        sb.append(info.getMap());
-      }
-      if (info.getBox().length() > 0) {
-        sb.append("\nBOX:");
-        sb.append(info.getBox());
-      }
-      if (info.getSupp().length() >0) {
-        sb.append("\nInfo:");
-        sb.append(info.getSupp());
-      }
-      if (info.getUnit().length() > 0) {
-        sb.append("\nUnits: ");
-        sb.append(info.getUnit());
-      }
-      if (ManagePreferences.showPersonal()) {
-        if (info.getName().length() > 0) {
-          sb.append("\nName:");
-          sb.append(info.getName());
-        }
-        if (info.getPhone().length() > 0) {
-          sb.append("\nPhone:");
-          sb.append(info.getPhone());
-        }
-      }
-      if (info.getChannel().length() > 0) {
-        sb.append("\nChannel: ");
-        sb.append(info.getChannel());
-      }
-      if (info.getCallId().length() >0) {
-        sb.append("\nCID:");
-        sb.append(info.getCallId());
-      }
-      messageTV.setText(sb.toString());
-    } else {
-      mmsSubjectTV.setText(getString(R.string.mms_subject) + " " + message.getMessageBody());
+    sb = new StringBuilder();
+    if (info.getPlace().length() > 0) {
+      sb.append(info.getPlace());
+      sb.append('\n');
     }
+    sb.append(info.getAddress());
+    String appt = info.getApt();
+    if (appt.length() > 0) {
+      sb.append(" Apt:"); 
+      sb.append(appt);
+    }
+    String delim="\n";
+    if (info.getCity().length() > 0) {
+      sb.append(delim);
+      delim = ", ";
+      sb.append(info.getCity());
+    }
+    if (info.getState().length() > 0) {
+      sb.append(delim);
+      sb.append(info.getState());
+    }
+    if (info.getCross().length() > 0) {
+      sb.append("\nX:");
+      sb.append(info.getCross());
+    }
+    if (info.getMap().length() > 0) {
+      sb.append("\nMAP:");
+      sb.append(info.getMap());
+    }
+    if (info.getBox().length() > 0) {
+      sb.append("\nBOX:");
+      sb.append(info.getBox());
+    }
+    if (info.getSupp().length() >0) {
+      sb.append("\nInfo:");
+      sb.append(info.getSupp());
+    }
+    if (info.getUnit().length() > 0) {
+      sb.append("\nUnits: ");
+      sb.append(info.getUnit());
+    }
+    if (ManagePreferences.showPersonal()) {
+      if (info.getName().length() > 0) {
+        sb.append("\nName:");
+        sb.append(info.getName());
+      }
+      if (info.getPhone().length() > 0) {
+        sb.append("\nPhone:");
+        sb.append(info.getPhone());
+      }
+    }
+    if (info.getChannel().length() > 0) {
+      sb.append("\nChannel: ");
+      sb.append(info.getChannel());
+    }
+    if (info.getCallId().length() >0) {
+      sb.append("\nCID:");
+      sb.append(info.getCallId());
+    }
+    messageTV.setText(sb.toString());
     messageReceivedTV.setText(headerText);
     
     // There used to be a call to myFinish() that was invoked if this method was
@@ -541,7 +500,7 @@ private boolean externalStorageAvailable() {
     // This gets called before onNewIntent() which mean message may not be set
     // Don't understand this well enough to know how this should be handled, but
     // for now this will keep the app from closing  -kec
-    if (message != null && message.getMessageType() == SmsMmsMessage.MESSAGE_TYPE_SMS) {
+    if (message != null) {
       if (ManagePreferences.privacyMode()) {
         // We need to init the keyguard class so we can check if the keyguard is
         // on

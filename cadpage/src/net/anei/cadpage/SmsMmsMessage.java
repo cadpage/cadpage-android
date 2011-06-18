@@ -944,8 +944,14 @@ public class SmsMmsMessage implements Serializable {
   public boolean equals(Object obj) {
     if (!(obj instanceof SmsMmsMessage)) return false;
     SmsMmsMessage msg = (SmsMmsMessage)obj;
-    return (match(fromAddress, msg.fromAddress) &&
-             match(messageBody, msg.messageBody));
+    if (messageType != msg.messageType) return false;
+    if (!match(fromAddress, msg.fromAddress)) return false;
+    if (messageType == MESSAGE_TYPE_SMS) {
+      return match(messageBody, msg.messageBody); 
+    } else {
+      return match(contentLoc, msg.contentLoc) &&
+              match(mmsMsgId, msg.mmsMsgId);
+    }
   }
   
   private boolean match(String s1, String s2) {
