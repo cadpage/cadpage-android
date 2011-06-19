@@ -58,7 +58,6 @@ public class SmsPopupActivity extends Activity {
   private TextView messageReceivedTV;
   private TextView messageTV;
 
-  private TextView mmsSubjectTV = null;
   private ScrollView messageScrollView = null;
   private EditText qrEditText = null;
   private ProgressDialog mProgressDialog = null;
