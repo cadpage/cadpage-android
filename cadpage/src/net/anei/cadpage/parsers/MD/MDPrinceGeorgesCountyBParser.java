@@ -52,6 +52,11 @@ Paramedic Ambulance 838 ALS1, Medic Local, 1114 HILL RD, PP, btwn LOWLAND DR and
 Engine 820 ASPD, Assist Police, 4709 COLONEL ASHTON PL, PP, btwn END and COLONELS CHOICE RD, TG1, 2015, 5652 J 9, Police ProQA recommends dispatch at this time, Unit:E820
 Ambulance 836 BLS0, BLS Amb, 15407 GIDEON GILPIN ST, PP, btwn COMMANDER HOWE TER and CAPTAIN ANDRE CT, TGC2, 4001, 5998 J 2, Medical ProQA recommends dispatch at this time, Unit:A836
 
+Contact: Christopher Olson <lilsmokeeater5@yahoo.com>
+Engine 848 BUILDF, Building Fire, 7474 GREENWAY CENTER DR, GP, btwn MD TRADE CTR RD and MD TRADE CTR RD, TGA2, 3506, 5410 J 2, Fire ProQA recommends dispatch at this time, Units:BO886, E811, E812, E835, E848, RE818, TK812, TK814
+Tower 807 HOUSEF, House Fire, 1834 VILLAGE GREEN DR, PP, btwn SHERIFF RD and BARLOWE RD, TGA2, 3324, 5530 K 4, Fire ProQA recommends dispatch at this time, Units:BO881, E808, E833, E838, PE830, TK828, TK855, TW807
+Mini Pumper 828 BLS, BLS Amb, 9350-A WASHINGTON BLVD, PP, btwn CRESTVIEW DR and CARTER AVE, TGA2, 4802, 5411 E 6, INJ HER LEFT ANKLE // WOULD LIKE IT CHECKED OUT, Unit:MP828
+
 */
 
 public class MDPrinceGeorgesCountyBParser extends FieldProgramParser {

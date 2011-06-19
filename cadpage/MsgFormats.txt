@@ -2063,6 +2063,10 @@ GRP:MF
 PRI:1
 comment: HEAVY SMOKE INSIDE BUILDING
 **********************************************************
+Polk County, NC
+Contact: Charles Green <chuckgreen@windstream.net>
+Sender: polkcounty911@polknc.org
+polkcounty911:1 GREEN RIVER COVE RD mill spring carol 8288179441 09:52:03 DOWN POWER LINE FROM S NC 9 HWY TO RUTHERFORD CO LINE
 **********************************************************
 **********************************************************
 **********************************************************
