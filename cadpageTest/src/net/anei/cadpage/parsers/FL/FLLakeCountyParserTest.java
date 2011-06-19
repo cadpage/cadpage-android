@@ -1,7 +1,6 @@
 package net.anei.cadpage.parsers.FL;
 
 import net.anei.cadpage.parsers.BaseParserTest;
-import net.anei.cadpage.parsers.FL.FLLeeCountyParser;
 
 import org.junit.Test;
 
@@ -50,12 +49,15 @@ public class FLLakeCountyParserTest extends BaseParserTest {
         "CALL:Sick Person",
         "ADDR:201 EAST LAVISTA STREET",
         "NAME:FRUITLAND PARK*");
-    
-    
- 
+
+    doTest("T6",
+        "CAD:ST95* Unknown / Man Down* UNKNOWN* 1018 OSPREY CIRCLE GROVELAND*",
+        "SRC:ST95",
+        "CALL:Unknown / Man Down",
+        "ADDR:1018 OSPREY CIRCLE GROVELAND*");
   }
   
   public static void main(String[] args) {
-    new FLLakeCountyParserTest().generateTests("T1");
+    new FLLakeCountyParserTest().generateTests("T7");
   }
 }

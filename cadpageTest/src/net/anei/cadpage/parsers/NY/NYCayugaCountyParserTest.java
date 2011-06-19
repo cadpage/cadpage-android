@@ -48,7 +48,7 @@ public class NYCayugaCountyParserTest extends BaseParserTest {
         "(From 911 Center) 06/15/11 00:03 215 CAYUGA ST UNION SPRINGS Cardiac  Call Number 467 was created from Call Number 462(Jun 14 2011 11:20PM)  stried the pho",
         "ADDR:215 CAYUGA ST",
         "CITY:UNION SPRINGS",
-        "CALL:Cardiac Call Number 467 was created from Call Number 462(Jun 14 2011 11: 20PM) stried the pho");
+        "INFO:Cardiac Call Number 467 was created from Call Number 462(Jun 14 2011 11: 20PM) stried the pho");
  }
   
   public static void main(String[] args) {
