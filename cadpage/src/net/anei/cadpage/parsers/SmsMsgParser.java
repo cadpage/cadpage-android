@@ -129,13 +129,6 @@ public abstract class SmsMsgParser {
     Data data = parseMsg(msg, overrideFilter, genAlert);
     if (data == null) return false;
     
-    // If call desc is too long, move it to supplemental info.  A truncated
-    // version of this will be displayed as the call description
-    if (data.strCall.length() > 30) {
-      data.strSupp = append(data.strCall, " / ", data.strSupp);
-      data.strCall = "";
-    }
-    
     // Save parser code and information object in message so we won't have to
     // go through all of this again
     SmsMsgInfo info = new SmsMsgInfo(data);

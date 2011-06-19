@@ -384,6 +384,7 @@ public class SmsPopupActivity extends Activity {
     // Set the from, message and header views
     StringBuilder sb = new StringBuilder(info.getTitle());
     fromTV.setText(sb.toString());
+    if (info.noCall()) fromTV.setMaxLines(2);
     sb = new StringBuilder();
     if (info.getPlace().length() > 0) {
       sb.append(info.getPlace());

@@ -167,13 +167,16 @@ public class SmsMsgInfo {
       sb.append(strCode);
       sb.append(" - ");
     }
-    if ((strCall.length() == 0 || strCall.equals("ALERT"))
-         && strSupp.length() > 0) {
+    if (noCall() && strSupp.length() > 0) {
       sb.append(strSupp);
     } else {
       sb.append(strCall);
     }
     return sb.toString();
+  }
+
+  public boolean noCall() {
+    return strCall.length() == 0 || strCall.equals("ALERT");
   }
   
   /**

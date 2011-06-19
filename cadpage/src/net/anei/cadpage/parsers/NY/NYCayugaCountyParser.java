@@ -72,6 +72,10 @@ public class NYCayugaCountyParser extends SmartAddressParser {
     p.get(' ');
     parseAddress(StartType.START_ADDR, p.get(), data);
     data.strCall = getLeft();
+    if (data.strCall.length() > 30) {
+      data.strSupp = data.strCall;
+      data.strCall = "";
+    }
     return true;
   }
   

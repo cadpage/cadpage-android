@@ -17,6 +17,10 @@ CAD:ST56* Sick Person* 500 WEST FOUNTAIN STREET* FRUITLAND PARK*
 CAD:PS4* ST56* Sick Person* 201 EAST LAVISTA STREET* NEW LIFE PRESBYTERIAN CHURCH* FRUITLAND PARK*
 CAD:ST56* Medical* 34949 CUTOFF ROAD* FRUITLAND PARK*
 
+Contact: Scott fuller <scott.a.fuller.sf@gmail.com>
+CAD:ST95* Unknown / Man Down* UNKNOWN* 1018 OSPREY CIRCLE GROVELAND*
+ 
+
  */
 
 public class FLLakeCountyParser extends FieldProgramParser {
@@ -59,7 +63,7 @@ public class FLLakeCountyParser extends FieldProgramParser {
   
   public FLLakeCountyParser() {
     super(CITY_LIST, "LAKE COUNTY", "FL",
-        "CH? SRC CALL ADDR! MISC+? CITY");
+        "CH? SRC CALL UNK? ADDR! MISC+? CITY");
   }
   
   @Override
@@ -71,11 +75,16 @@ public class FLLakeCountyParser extends FieldProgramParser {
   
   private static final Pattern CHANNEL_PTN = Pattern.compile("PS.*"); 
   private class MyChannelField extends ChannelField {
-    
     public MyChannelField() {
       setPattern(CHANNEL_PTN);
     }
-    
+  }
+  
+  private static final Pattern UNKNOWN_PTN = Pattern.compile("UNKNOWN");
+  private class UnknownField extends SkipField {
+    public UnknownField() {
+      setPattern(UNKNOWN_PTN);
+    }
   }
   
   private class MiscField extends Field {
@@ -98,6 +107,7 @@ public class FLLakeCountyParser extends FieldProgramParser {
   @Override
   public Field getField(String name) {
     if (name.equals("CH")) return new MyChannelField();
+    if (name.equals("UNK")) return new UnknownField();
     if (name.equals("MISC")) return new MiscField();
     return super.getField(name);
   }
