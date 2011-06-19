@@ -1972,6 +1972,7 @@ SCENE IS SECURE
 Contact: "A. Testa" <tac239@msn.com>
 Sender: cad@oxfordfire.com
 (Dispatch) ACCIDENT - PEDESTRIAN STRUCK * ** WB LANCASTER PK EO BETHEL RD ,56   (V) ** LWROXF **  **  ** - ** VEH VS MALE\nDETAILS TO FOLLOW\n
+(Dispatch) CARDIAC/RESP ARREST - ALS * ** 167 MOUNT PLEASANT RD ,69 ** ENOTT **\2s** GRANT ST & COOPER LA ** - ** 48/F--LIPS BLUE\nDETAILS TO FOLLOW\n**
  
 
 Contact:Marc Ferry <marcrferry@gmail.com> 
@@ -2045,10 +2046,11 @@ Contact: Grayson Spell <gbspell1@gmail.com>
 Sender: EMS@sampsonnc.com
 EMS:2011-038193* 980 CARROLL STORE RD* TAC4* * AUTRYVILLE* * GRASS/BRUSH* GRASS OR BRUSH FIRE* STA10,STA12* 1309* Medical: No* Hazards: No* *
 **********************************************************
-Unknown
+Whitefield County, GA
 Contact: Mike Cady <mikecadyga@gmail.com>
 Sender: 7064632252
 WHITFIELD CO. 911:F12 SF-COMMERCIAL/INDUSTRIAL/SCHOO 1812 KIMBERLY PARK DR 4237188927 ALARM ASSIGN 3
+WHITFIELD CO. 911:50I M.V. ACCIDENT W/INJURIES I 75 SB MM 333 6789341809
 **********************************************************
 Porter County, IN
 Contact: Mike Luczak <firefighter3198@gmail.com>
