@@ -154,9 +154,18 @@ public class MDFrederickCountyParserTest extends BaseParserTest {
         "BOX:1513",
         "UNIT:A159",
         "MAP:4568A7");
- }
+
+    doTest("T25",
+        "(CAD) [FredCo] CT: VEHICLE ACCIDENT / default BELLS LN/BALTIMORE RD CFR4 TIME: 09:58:14 ESZ: 3306 MAP: 4567F7 Disp: A339,RE153,E331",
+        "CALL:VEHICLE ACCIDENT/default",
+        "ADDR:BELLS LN & BALTIMORE RD",
+        "CITY:Frederick City",
+        "BOX:3306",
+        "UNIT:A339,RE153,E331",
+        "MAP:4567F7");
+}
   
   public static void main(String[] args) {
-    new MDFrederickCountyParserTest().generateTests("T23", "CALL ADDR CITY PLACE BOX UNIT MAP");
+    new MDFrederickCountyParserTest().generateTests("T26", "CALL ADDR CITY PLACE BOX UNIT MAP");
   }
 }

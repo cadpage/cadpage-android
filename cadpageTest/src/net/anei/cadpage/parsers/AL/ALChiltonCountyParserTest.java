@@ -56,9 +56,16 @@ public class ALChiltonCountyParserTest extends BaseParserTest {
         "ID:2011050014",
         "INFO:ASSIST OCCUPANT 91 YOM HAS FALLEN; LIFTING ASSISTANCE ONLY");
 
+    doTest("T7",
+        "905 COUNTY RD 402 CLANTON 2011050250 05:43:58 GENERAL ILLNESS 57 YO FEMALE // NERVE PROBLEMS // PERMENANT NERVE DAMAGE //",
+        "ADDR:905 COUNTY RD 402",
+        "CITY:CLANTON",
+        "ID:2011050250",
+        "INFO:GENERAL ILLNESS 57 YO FEMALE // NERVE PROBLEMS // PERMENANT NERVE DAMAGE //");
+
   }
   
   public static void main(String[] args) {
-    new ALChiltonCountyParserTest().generateTests("T6", "ADDR CITY ID CALL INFO");
+    new ALChiltonCountyParserTest().generateTests("T8", "ADDR CITY ID CALL INFO");
   }
 }
