@@ -49,10 +49,21 @@ public class VAFrederickCountyParserTest extends BaseParserTest {
         "ADDR:3632 VALLEY PIKE",
         "X:COMMONWEALTH CT & FAY ST"
         );
+    
     doTest("T6",
         "CAD:1 RT37 N/I81 N;ACCIDENT W/ INJURY;REAR END COLLISIONS [12/07/10 17:35:47 LBRANNON] THREE VEHS INVOVLED.....UNK INJURIES...NO ENTRAPMENT [12/07/10 17:35:3",
         "CALL:ACCIDENT W/ INJURY",
         "ADDR:1 RT37 N & I81 N",
         "INFO:REAR END COLLISIONS / THREE VEHS INVOVLED.....UNK INJURIES...NO ENTRAPMENT");
- }
+
+    doTest("T7",
+        "CAD:285 PARK CENTER DR;LARCENY GENERAL;FIRE ALARM ZONE 7 PLANT PULL STATION [06/19/11 11:09:10 SFULTZ] ;W BROOKE RD",
+        "ADDR:285 PARK CENTER DR",
+        "CALL:LARCENY GENERAL",
+        "INFO:FIRE ALARM ZONE 7 PLANT PULL STATION / W BROOKE RD");
+  }
+  
+  public static void main(String[] args) {
+    new VAFrederickCountyParserTest().generateTests("T7");
+  }
 }
