@@ -319,8 +319,43 @@ public class MDPrinceGeorgesCountyBParserTest extends BaseParserTest {
         "UNIT:A836");
   }
   
+  @Test
+  public void testParser5() {
+
+    doTest("T1",
+        "Engine 848 BUILDF, Building Fire, 7474 GREENWAY CENTER DR, GP, btwn MD TRADE CTR RD and MD TRADE CTR RD, TGA2, 3506, 5410 J 2, Fire ProQA recommends dispatch at this time, Units:BO886, E811, E812, E835, E848, RE818, TK812, TK814",
+        "SRC:Engine 848",
+        "CALL:BUILDF-Building Fire",
+        "ADDR:7474 GREENWAY CENTER DR",
+        "CH:TGA2",
+        "MAP:5410 J 2",
+        "UNIT:BO886, E811, E812, E835, E848, RE818, TK812, TK814");
+
+    doTest("T2",
+        "Tower 807 HOUSEF, House Fire, 1834 VILLAGE GREEN DR, PP, btwn SHERIFF RD and BARLOWE RD, TGA2, 3324, 5530 K 4, Fire ProQA recommends dispatch at this time, Units:BO881, E808, E833, E838, PE830, TK828, TK855, TW807",
+        "SRC:Tower 807",
+        "CALL:HOUSEF-House Fire",
+        "ADDR:1834 VILLAGE GREEN DR",
+        "X:SHERIFF RD and BARLOWE RD",
+        "CH:TGA2",
+        "MAP:5530 K 4",
+        "UNIT:BO881, E808, E833, E838, PE830, TK828, TK855, TW807");
+
+    doTest("T3",
+        "Mini Pumper 828 BLS, BLS Amb, 9350-A WASHINGTON BLVD, PP, btwn CRESTVIEW DR and CARTER AVE, TGA2, 4802, 5411 E 6, INJ HER LEFT ANKLE // WOULD LIKE IT CHECKED OUT, Unit:MP828",
+        "SRC:Mini Pumper 828",
+        "CALL:BLS-BLS Amb",
+        "ADDR:9350-A WASHINGTON BLVD",
+        "X:CRESTVIEW DR and CARTER AVE",
+        "CH:TGA2",
+        "MAP:5411 E 6",
+        "INFO:INJ HER LEFT ANKLE // WOULD LIKE IT CHECKED OUT",
+        "UNIT:MP828");
+   
+  }
+  
   public static void main(String[] args) {
-    new MDPrinceGeorgesCountyBParserTest().generateTests("T12");
+    new MDPrinceGeorgesCountyBParserTest().generateTests("T1");
   }
   
   
