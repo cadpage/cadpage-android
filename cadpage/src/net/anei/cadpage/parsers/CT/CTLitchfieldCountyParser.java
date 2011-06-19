@@ -31,12 +31,13 @@ FRM:textmsg@lcd911.com\nSUBJ:LCD\nMSG:BRIDGEWATER FIRE RESPOND TO 209 NORTHROP S
 (LCD) HARWINTON FIRE RESPOND TO 285 BURLINGTON RD   HARWINTON, , TRAFFIC ACCIDENT ,:15:12
 (LCD) HARWINTON FIRE RESPOND TO 119 HARMONY HILL RD   HARWINTON, , TRANSFORMER FIRE ,:23:12
 (LCD) NEW HARTFORD FIRE RESPOND TO 1111 W HILL RD RESIDENCE NEW HARTFORD, , ACTIVATED FIRE ALARM ,:10:49
- 
+(LCD) MEDIC 4 RESPOND TO 46 MAPLE ST CANTERBURY UNIT   KENT, THE KENT, 72Y F INTERFACILITY, 33-C-1 :11:09
+
 */
 
 public class CTLitchfieldCountyParser extends SmartAddressParser {
   
-  private static final Pattern MASTER = Pattern.compile("(.*) RESPOND TO (.*), ,(.*),(.*):\\d\\d:\\d\\d");
+  private static final Pattern MASTER = Pattern.compile("(.*) RESPOND TO (.*), (.*), (.*),(.*):\\d\\d:\\d\\d");
   private static final Pattern MAU_HILL = Pattern.compile("^(.*) MAUWEEHOO H(?:IL)?L (.*)$");
   
   public CTLitchfieldCountyParser() {
@@ -57,12 +58,13 @@ public class CTLitchfieldCountyParser extends SmartAddressParser {
     if (!match.matches()) return false;
     data.strSource = match.group(1).trim();
     String sAddr = match.group(2).trim();
-    data.strCall = match.group(3).trim();
-    data.strCode = match.group(4).trim();
+    data.strPlace = match.group(3).trim();
+    data.strCall = match.group(4).trim();
+    data.strCode = match.group(5).trim();
     
     parseAddress(StartType.START_ADDR, FLAG_PAD_FIELD | FLAG_ANCHOR_END, sAddr, data);
     if (data.strCity.equals("HEMLOCK ROXBURY")) data.strCity = "ROXBURY";
-    data.strPlace = getPadField();
+    String sPlace = getPadField();
     
     // There is a street called MAUWEEHOO HILL (or HL) that just confuses
     // the heck out of the smart parser so we will make some special checks for it
@@ -70,9 +72,11 @@ public class CTLitchfieldCountyParser extends SmartAddressParser {
       match = MAU_HILL.matcher(data.strAddress);
       if (match.find()) {
         data.strAddress = match.group(1) + " MAUWEEHOO HILL";
-        data.strPlace = match.group(2);
+        sPlace = match.group(2);
       }
     }
+    if (data.strPlace.length() == 0) data.strPlace = sPlace;
+    else data.strApt = sPlace;
     return true;
   }
   
