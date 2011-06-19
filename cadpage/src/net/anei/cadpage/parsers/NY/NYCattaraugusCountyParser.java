@@ -37,16 +37,63 @@ public class NYCattaraugusCountyParser extends FieldProgramParser {
   
 
   private static Properties CITY_CODES = buildCodeTable(new String[]{
-      "ASHF", "ASHFORD",
-      "ELLI", "ELLICOTTVILLE",
-      "ELLT", "ELLICOTTVILLE",
-      "EOTT", "EAST OTTO",
-      "DELEVN", "DELEVAN",
-      "MACH", "MACHIAS",
-      "MANS", "MANSFIELD",
-      "OTTO", "OTTO",
-      "SPRGVLL", "SPRINGVILLE",
-      "YORK", "YORKSHIRE"
+     "ALLT","ALLEGANY",
+     "ALLV","ALLEGANY",
+     "ASHF","ASHFORD",
+     "CARR","CARROLLTON",
+     "CATT","CATTARAUGUS",
+     "CLAR","CLARKSVILLE",
+     "COLC","COLLINS CENTER",
+     "COLD","COLDSPRING",
+     "COLL","COLLINS",
+     "CONE","CONEWANGO",
+     "DAYT","DAYTON",
+     "DELE","DELEVAN",
+     "DELEVN","DELEVAN",
+     "ELLI","ELLICOTTVILLE",
+     "ELLT","ELLICOTTVILLE",
+     "ELLV","ELLICOTTVILLE",
+     "EOTT","EAST OTTO",
+     "ERAN","EAST RANDOLPH",
+     "FARM","FARMERSVILLE",
+     "FRAT","FRANKLINVILLE",
+     "FRAV","FRANKLINVILLE",
+     "FREE","FREEDOM",
+     "GENE","GENESEE",
+     "GOWA","GOWANDA",
+     "GVAL","GREAT VALLEY",
+     "HINS","HINSDALE",
+     "HUMP","HUMPHREY",
+     "ISCH","ISCHUA",
+     "LEON","LEON",
+     "LIME","LIMESTONE",
+     "LVLT","LITTLE VALLEY",
+     "LVLV","LITTLE VALLEY",
+     "LYND","LYNDON",
+     "MACH","MACHIAS",
+     "MANS","MANSFIELD",
+     "NALB","NEW ALBION",
+     "NAPO","NAPOLI",
+     "OLEC","OLEAN CITY",
+     "OLET","OLEAN",
+     "OTTO","OTTO",
+     "OUTS","OUTSIDE",
+     "PERS","PERSIA",
+     "PERT","PERRYSBURG",
+     "PERV","PERRYSBURG",
+     "PORT","PORTVILLE",
+     "PORV","PORTVILLE",
+     "RANT","RANDOLPH",
+     "RANV","RANDOLPH",
+     "REDH","RED HOUSE",
+     "SALC","SALAMANCA CITY",
+     "SALT","SALAMANCA",
+     "SDAY","SOUTH DAYTON",
+     "SPRGVLL","SPRINGVILLE",
+     "SVAL","SOUTH VALLEY",
+     "VILL","VILLENOVA",
+     "YORK","YORKSHIRE"
+
   });
   
   private static Pattern TRAIL_COMMA_PAT = Pattern.compile("[ ,]+$");
@@ -64,7 +111,14 @@ public class NYCattaraugusCountyParser extends FieldProgramParser {
   @Override
   protected boolean parseMsg(String body, Data data) {
     body = body.replace(" Inc#:", " Inc:");
-    return super.parseMsg(body, data);
+    if (!super.parseMsg(body, data)) return false;
+    
+    // A city code of OUTS -> OUTSIDE the county means we know nothing
+    // about the county or state where this incident occurs :(
+    if (data.strCity.equals("OUTSIDE")) {
+      data.strCity = data.defCity = data.defState = "";
+    }
+    return true;
   }
   
   // Name field needs to remove trailing commas

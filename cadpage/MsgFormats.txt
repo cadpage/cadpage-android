@@ -667,6 +667,11 @@ Frederick County, MD (MDFrederickCountyParser)
 (CAD) [FredCo] CT: WOODS FIRE 7819-B FRIENDS CREEK RD CEMB ESZ: 627 MAP: 3996F6 Disp: E63,B66,DNR [36]
 (CAD) [FredCo] CT: COMMERCIAL FIRE ALARM / AUTOMATIC 4 PAWS PL THUR: @CATOCTIN VETERINARY CLINIC ESZ: 1001 MAP: 4108E9 Disp: E102,TWR6 [37]
 ***************************************************************************
+Kent County, MD (MDKentCountyParser)
+CT:ASSAULT 835 HIGH ST  BOX:6001 DUE:A8 PM1-1
+CT:MVC/PT NOT ALERT W CAMPUS AVE / WASHINGTON AVE  BOX:6001 DUE:E6 R6 A8 PM1-1
+CT:CARDIAC ARREST 25129 WYMONT PARK RD  BOX:5005 DUE:A8
+***************************************************************************
 Montgomery County, MD (MDMontgomeryCountyParser)
 Needs reverse merge support
 MCo / [mCAD] * D * 2301 * BUILDING FIRE * 1620 E JEFFERSON ST ,RO * E723 E703 E721 E726 E705B AT723 AT703 RS703 A723 BC703 BC704 D3 D5 DFRS INV CEALRM CODE BCNOT
@@ -2073,7 +2078,6 @@ Sender: wgfc22@comcast.net
 **********************************************************
 **********************************************************
 **********************************************************
-Kent County, MD in progress
 **********************************************************
 Nassau County, NY (alternate) <again>
 Contact: Daniel Dutton <ncfm80@gmail.com>,NCFM80@vtext.com,5163186932@vzwpix.com
