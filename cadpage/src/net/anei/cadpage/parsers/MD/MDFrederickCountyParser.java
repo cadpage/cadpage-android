@@ -46,9 +46,9 @@ Sender: rc.404@c-msg.net
 (CAD) [FredCo] CT: HOUSE / APPLIANCE FIRE (STRUCTURE PRE-ALERT) / default 6405 SPRING FOREST RD CFR1 TIME: 17:14:24 ESZ: 3302 MAP: 4567F5 SUBDIV: SPRING RIDGE Dis
 (CAD) [FredCo] CT: HOUSE / FIRE-VISIBLE 808 E SOUTH ST FRE1 TIME: 03:24:42 ESZ: 308 MAP: 4566G5 Disp: E31,E22,E331,E311,A38,RS3,TR42,TWR1,T1,ET233,ET154,BAT900,SF
 (CAD) [FredCo] CT: TROUBLE BREATHING / default 7 S FEDERAL ST NEWM TIME: 12:02:44 ESZ: 1501 MAP: 4568H9 Disp: A159,M17
-
 (CAD) [FredCo] CT: OUTSIDE INVESTIGATION / default 5018 GREEN VALLEY RD CMON TIME: 21:24:52 ESZ: 1503 MAP: 4688G1 Disp: RE153
 (CAD) [FredCo] CT: SICK PERSON / default 5850 EAGLEHEAD DR CIJM: @OAKDALE HIGH SCHOOL TIME: 08:52:07 ESZ: 1513 MAP: 4568A7 Disp: A159
+(CAD) [FredCo] CT: VEHICLE ACCIDENT / default BELLS LN/BALTIMORE RD CFR4 TIME: 09:58:14 ESZ: 3306 MAP: 4567F7 Disp: A339,RE153,E331
 
 
 ***/
@@ -70,6 +70,8 @@ public class MDFrederickCountyParser extends SmartAddressParser {
         "CEMB","Emmitsburg",
         "CFR1","Frederick City",
         "CFR2","Frederick City",
+        "CFR3","Frederick City",
+        "CFR4","Frederick City",
         "CIJM", "New Market",
         "CMON", "Monrovia",
         "CNMA","New Market",
