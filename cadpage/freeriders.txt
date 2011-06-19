@@ -91,6 +91,7 @@ yanksgt@gmail.com
 
 // List of users getting credit for 2011
 $paid_2011_list
+Carl Nelson (firstdue@gmail.com)
 Clark McVey (casey.l.whitaker@gmail.com)(caseylynn45@yahoo.com)
 David Bruce (dbruce0571@gmail.co)(dbruce1@carolina.rr.com)
 jaybo195@aol.com
