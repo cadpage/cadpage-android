@@ -372,7 +372,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
       // AT and an &
       boolean att = address.contains("AT&T");
       if (att) address = address.replaceAll("AT&T", "AT%T");
-      address = address.replaceAll(" C/S ", " XS: ").replaceAll("/", " / ").replaceAll("&", " & ");
+      address = address.replaceAll(" C/S:? ", " XS: ").replace("/", " / ").replace("&", " & ");
       if (att) address = address.replaceAll("AT%T", "AT&T");
       
       // Make sure any colon keyword parsers by itself
@@ -1155,9 +1155,13 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     
     result.initAddress = result.startAddress = (sType == StartType.START_ADDR? 0 : -1);
     boolean setStart = (result.startAddress < 0 || flexAt);
+    boolean pastAddr = false; 
     for (int ndx = 0; ndx < tokens.length; ndx++) {
-      setType(ndx, setStart);
-      if (isType(ndx, ID_CROSS_STREET)) setStart = false;
+      setType(ndx, setStart, pastAddr);
+      if (isType(ndx, ID_CROSS_STREET | ID_APPT)) {
+        pastAddr = true;
+        setStart = false;
+      }
       if (setStart && !flexAt) {
         if (isType(ndx, ID_AT_MARKER)) {
           result.initAddress = ndx;
@@ -1172,12 +1176,14 @@ public abstract class SmartAddressParser extends SmsMsgParser {
 
   // Identify token type
   private static final Pattern BAD_CHARS = Pattern.compile("[\\(\\)\\[\\],]");
-  private void setType(int ndx, boolean checkAt) {
+  private void setType(int ndx, boolean checkAt, boolean pastAddr) {
     String token = tokens[ndx];
     
     // If token contains any illegal characters, flag it as a non-address token
-    // and bail out
-    if (BAD_CHARS.matcher(token).find()) {
+    // and bail out.  This is only a problem if we are still in the address proper
+    // If we have passed the address and are now in apt or cross fields, illegal
+    // character tokens are OK
+    if (!pastAddr && BAD_CHARS.matcher(token).find()) {
       tokenType[ndx] |= ID_NOT_ADDRESS;
       if (isFlagSet(FLAG_ANCHOR_END)) startNdx = ndx+1;
       return;
