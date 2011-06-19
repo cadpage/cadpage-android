@@ -33,14 +33,15 @@ public class SmartAddressParserTest extends BaseParserTest {
   
   @Test
   public void testProblem() {
-    doTest(ADDR, FLAG_PAD_FIELD, "NOT AN ADDRESS KEN TOWN",
-        "ADDR:NOT AN ADDRESS",
-        "CITY:KEN TOWN");
   }
 
   
   @Test
   public void testProblems() {
+    doTest(PLACE, FLAG_ANCHOR_END, "NEW HYDE PARK DINER 160 HILLSIDE AVE C/S: 1ST (N) ST / 2ND (N) ST",
+        "PLACE:NEW HYDE PARK DINER",
+        "ADDR:160 HILLSIDE AVE",
+        "X:1ST (N) ST / 2ND (N) ST");
     
     doTest(CALL, FLAG_ANCHOR_END, "NEXT TO 4574",
         "CALL:NEXT TO 4574");
