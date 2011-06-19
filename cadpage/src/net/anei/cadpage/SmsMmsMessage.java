@@ -55,6 +55,7 @@ public class SmsMmsMessage implements Serializable {
   // Content location for MMS messages
   private String contentLoc = null;
   private String mmsMsgId = null;
+  private String subject = null;
   
   private transient String parseAddress = null;
   private transient String parseSubject = null;
@@ -161,7 +162,7 @@ public class SmsMmsMessage implements Serializable {
     messageType = MESSAGE_TYPE_MMS;
     this.messageClass = messageClass;
     this.fromAddress = this.parseAddress = fromAddress;
-    this.parseSubject = subject;
+    this.subject = subject;
     this.contentLoc = contentLoc;
     this.mmsMsgId = mmsMsgId;
     this.messageBody = this.parseMessageBody = null;
@@ -185,7 +186,7 @@ public class SmsMmsMessage implements Serializable {
    */
   public SmsMmsMessage timeoutMarker() {
     SmsMmsMessage result = 
-          new SmsMmsMessage(messageClass, fromAddress, parseSubject, contentLoc, 
+          new SmsMmsMessage(messageClass, fromAddress, subject, contentLoc, 
                             mmsMsgId, System.currentTimeMillis());
     result.messageBody = "*** Content Timeout ***";
     return result;
@@ -325,7 +326,7 @@ public class SmsMmsMessage implements Serializable {
     
     // default address and subject to obvious values
     parseAddress = fromAddress;
-    parseSubject = "";
+    parseSubject = (subject == null ? "" : subject);
     
     // Dummy loop we can break out of
     do {
@@ -864,6 +865,8 @@ public class SmsMmsMessage implements Serializable {
     sb.append(messageClass);
     
     sb.append("\nSubject:");
+    sb.append(subject);
+    sb.append("\nEff Subject:");
     sb.append(parseSubject);
     
     sb.append("\nBody:");

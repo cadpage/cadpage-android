@@ -151,12 +151,15 @@ public class MmsTransactionService extends Service {
     private ContentResolver qr;
 
     
+    @SuppressWarnings("unused")
     public ServiceHandler(Looper looper) {
       super(looper);
       qr = getContentResolver();
       
       // Start timer ticks
-      sendEmptyMessageDelayed(EventType.TIMER_TICK.ordinal(), TIMER_INTERVAL);
+      if (TIMER_INTERVAL > 0) {
+        sendEmptyMessageDelayed(EventType.TIMER_TICK.ordinal(), TIMER_INTERVAL);
+      }
     }
 
     /**
