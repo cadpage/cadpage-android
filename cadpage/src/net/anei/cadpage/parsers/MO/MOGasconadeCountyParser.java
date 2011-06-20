@@ -1,10 +1,9 @@
 package net.anei.cadpage.parsers.MO;
 
-import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.SmsMsgInfo.Data;
-import net.anei.cadpage.parsers.FieldProgramParser;
+import net.anei.cadpage.parsers.dispatch.DispatchGlobalDispatchParser;
 
 /*
 Gasconade County, MO
@@ -30,7 +29,7 @@ O164 O171 O172 O170 501 726 O160 GAS LEAK OUTSIDE  2935 LAKE NORTHWOODS RD OWENS
 */
 
 
-public class MOGasconadeCountyParser extends FieldProgramParser {
+public class MOGasconadeCountyParser extends DispatchGlobalDispatchParser {
   
   private static final String[] CITY_TABLE = new String[]{
     "BLAND",
@@ -45,9 +44,10 @@ public class MOGasconadeCountyParser extends FieldProgramParser {
     "OUT OF COUNTY"
   };
   
+  private static final Pattern UNIT_PTN = Pattern.compile("[OM]?\\d{3}");
+  
   public MOGasconadeCountyParser() {
-    super(CITY_TABLE, "", "MO",
-           "ADDR/SC! MapRegions:MAP! CrossStreets:X! Description:INFO Dispatch:SKIP");
+    super(CITY_TABLE, "", "MO", null, UNIT_PTN);
   }
   
   @Override
@@ -58,34 +58,8 @@ public class MOGasconadeCountyParser extends FieldProgramParser {
   @Override
   public boolean parseMsg(String body, Data data) {
     if (body.startsWith("MESSAGE / ")) body = body.substring(10).trim();
-    return super.parseMsg(body, data);
-  }
-  
-  private static final Pattern UNIT_PTN = Pattern.compile("^(?:[OM]?\\d{3} +)+");
-  private class MyAddressField extends AddressField {
-    
-    @Override
-    public void parse(String field, Data data) {
-      field = field.replaceAll(",", "");
-      Matcher match = UNIT_PTN.matcher(field);
-      if (match.find()) {
-        data.strUnit = match.group().trim();
-        field = field.substring(match.end());
-      }
-      super.parse(field, data);
-      if (data.strCity.equals("GASCONADE COUNTY")) data.strCity = "";
-    }
-    
-    @Override
-    public String getFieldNames() {
-      return "UNIT " + super.getFieldNames();
-    }
-  }
-  
-  
-  @Override
-  public Field getField(String name) {
-    if (name.equals("ADDR")) return new MyAddressField();
-    return super.getField(name);
+    if (!super.parseMsg(body, data)) return false;
+    if (data.strCity.equals("GASCONADE COUNTY")) data.strCity = "";
+    return true;
   }
 }

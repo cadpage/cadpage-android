@@ -1,4 +1,3 @@
-
 *******************************************************************************
 Supported district message formats
 This isn't intended to be the final or full documentation for different 
@@ -394,6 +393,20 @@ DISPATCH:675 E BROADWAY BLVD JEFFERSON CITY 2011-613869 11:31:12 FIRE BRUSH  GRA
 DISPATCH:1727 EASLEY RD JEFFERSON CITY 2011-613628 20:57:53 FIRE SMOKE INVESTIGATION
 *******************************************************************************
 *******************************************************************************
+* DispatchGlobalDispatchParser subclasses
+*******************************************************************************
+*******************************************************************************
+Gasconade County, MO (MOGasconadeCountyParser)
+M51 FALL- PERSON FELL 408 N ALVARADO AVE BELLE MapRegions: CrossStreets: E BELAIR AVE 0.03 mi S E ROHRER DR 0.13 mi N Description: Dispatch: 3/24/2011 11:47:54
+M50 SICK PERSON- SICK CASE 4644 HIGHWAY B, Apt. BOX 14 GASCONADE COUNTY MapRegions: PAGE 103 CrossStreets: ELK HEAD RD 0.08 mi SW RED BIRD RD 0.46 mi N Description: HALF MILE SOUTH OF REDBIRD RD Dispatch: 3/24/2011 11:25:45
+M50 SICK PERSON- SICK CASE 901 W EIGHTH ST BELLE MapRegions: CrossStreets: S SHOCKLEY AVE 0.01 mi NE S APPLE AVE 0.19 mi E Description: Dispatch: 3/24/2011 21:05:48
+***************************************************************************
+Ray County, MO (MORayCountyParser)
+RCAD WHFD FALLS 514 ARAPAHOE DR  HOMESTEAD VILLAGE CrossStreets: CHEROKEE DR 0.05 mi W HIGHWAY Y 0.16 mi E Description: BETTY JAMES 85 YO FEMALE\nFAL
+LFD EMS 31004 NOTTINGHAM LN   Description:  CrossStreets: SILVEY RD 6443.06 mi NW SILVEY RD 6443.06 mi NW
+WHFD RCAD FALLS 33408 W 160TH ST  RAY COUNTY Description: 91 yof\nfell from standing position\nconsious and breathing\ncomplaining of l hip pain\nup in 
+*******************************************************************************
+*******************************************************************************
 * Suffolk County NY Collection
 *******************************************************************************
 *******************************************************************************
@@ -738,12 +751,7 @@ NAME-KENDRA;  LOC-4001 STINSON BLVD NE [#404;  EVTYPE-STROKE;  COMMENTS-POSSIBLE
 NAME-BRINATTE,HELEN;  LOC-2626 KENZIE TER [#114 [@WALKER ON KENZIE APT;  EVTYPE-ILL;  COMMENTS-2626 KENZIE TER : cross stre
 NAME-;  LOC-2600 39TH AVE NE [#100 [@SILVER LAKE CLINIC;  EVTYPE-BREATH;  COMMENTS-2600 39TH AVE NE : cross streets : SILVE
 ***************************************************************************
-Gasconade County, MO (MOGasconadeCountyParser)
-M51 FALL- PERSON FELL 408 N ALVARADO AVE BELLE MapRegions: CrossStreets: E BELAIR AVE 0.03 mi S E ROHRER DR 0.13 mi N Description: Dispatch: 3/24/2011 11:47:54
-M50 SICK PERSON- SICK CASE 4644 HIGHWAY B, Apt. BOX 14 GASCONADE COUNTY MapRegions: PAGE 103 CrossStreets: ELK HEAD RD 0.08 mi SW RED BIRD RD 0.46 mi N Description: HALF MILE SOUTH OF REDBIRD RD Dispatch: 3/24/2011 11:25:45
-M50 SICK PERSON- SICK CASE 901 W EIGHTH ST BELLE MapRegions: CrossStreets: S SHOCKLEY AVE 0.01 mi NE S APPLE AVE 0.19 mi E Description: Dispatch: 3/24/2011 21:05:48
-***************************************************************************
-Pulaski County, MO
+Pulaski County, MO (MOPulaskiCountyParser)
 STRUCTURE FIRE RESIDENTIAL  11280 BATTLE LN  PULASKI COUNTY CrossStreets: Highway 17 0.42 mi W CFD1 DFD2 M23 TCFD1 DFD2 1553 1552 1562 1560 1351 1501 PCSD1 RESCUE MILLER T1 WRFD1 SRFD1 1902 1361 1952 T2 1650 HFD1 Call Received Time: 12/6/2010 20:46:54 Dispatch: 12/6/2010 21:50:29
 STRUCTURE FIRE RESIDENTIAL  27465 SINGLE DR UNIT PULASKI COUNTY CrossStreets: Highway AA 0.30 mi N HFD1 Call Received Time: 12/13/2010 5:05:49 Dispatch: 12/13/2010 5:07:30
 BREATHING DIFFICULTY  32064 ROUTE 66   CrossStreets: HFD1 Call Received Time: 12/8/2010 03:01:30 Dispatch: 12/8/2010 03:01:49
@@ -2120,88 +2128,6 @@ MVA w/ Aided: Zone: 43, Response:CO4, CO3\nat NORTHERN BLVD / GREAT NECK RD, GRE
 [Brush] Trees: Zone: 54, Response:CO5\nat NEW HYDE PARK RD / NORTH SERVICE RD, NEW HYDE PARK . . 18:32:59
 Carbon Monoxide w/ Aided: Zone: 52, Response:CO5, CO6\nat 45 CHESTNUT HILL, NORTH HILLS  c/s: ACORN PONDS DR . . 00:59:33
 **********************************************************
-Ray County, MO
-Contact: "Chief O'Dell" <leeodell@woodheightsfire.com>
-Sender: raycountycentraldispatch@gmail.com
-
-RCAD WHFD FALLS 514 ARAPAHOE DR  HOMESTEAD VILLAGE CrossStreets: CHEROKEE DR 0.05 mi W HIGHWAY Y 0.16 mi E Description: BETTY JAMES 85 YO FEMALE\nFAL
-LFD EMS 31004 NOTTINGHAM LN   Description:  CrossStreets: SILVEY RD 6443.06 mi NW SILVEY RD 6443.06 mi NW
-WHFD RCAD FALLS 33408 W 160TH ST  RAY COUNTY Description: 91 yof\nfell from standing position\nconsious and breathing\ncomplaining of l hip pain\nup in 
-WHFD RCAD RCSO DEATH 32534 MAGNOLIA LN\2sRAY COUNTY Description: 61 yo female\n
-WHFD RCAD TRAUMATIC INJURIES (SPECIFIC) 2062 E RIDGE DR  RAY COUNTY Description: 15 YO MALE\nBICYLCE ACCIDENT\nFELL FROM BIKE\nCONSCIOUS\nBREATHING\nNO S
-WHFD RCAD M43 800 ABDOMINAL PAIN 12595 ORRICK RD\2sRAY COUNTY Description: 28 YOLD FEMALE \nCONS AND BREATH \nSEVERE STOMACH PAIN LOWER ABDOMEN \nLUPUS
-
-LMED1 LSQ1 L602 SICK PERSON (SPECIFIC DIAGNOSIS) 215 E 5TH ST 3A LAWSON Description: 123254415\nPT IS PATRICIA BIDDIX\nHIGH BP\n67 YO FEMALE\nBURNING SE
-LMED1 HEART PROBLEM / AICD 618 SHEPHERD LN   Description: 17 YO Rapid Heart rate\n\n
-LMED1 LSQ1 L602 SICK PERSON (SPECIFIC DIAGNOSIS) 316 KINGS DR  LAWSON Description: 90 yof\nill since for in morning\nhigh sugar\nbreathing difficulty\nu
-LMED1 LSQ1 L602 SEIZURE 34030 W 204TH ST  RAY COUNTY Description: camp wilderness retreat\n13/f\nbreathing\ncons\nseizing at this time\n1st seizure for a
-LMED1 LSQ1 L602 LACERATION 202 E MOSS ST\2sLAWSON Description: puncture wound in l foot\n42 yof\nconsious and breathing\nnausea CrossStreets: S DONIPHAN
-
-800 WHP1 WHT2 WHSQ1 LP4 LP1 LT1 OT2 RFD RCAD WHFD WHR1 FIRE STRUCTURE 11783 SIEGEL CEMETERY RD  RAY COUNTY Description: EXCELSIOR SPRINGS\nOUTSIDE CI
-800 WHB1 WHT2 WHFD WHR1 FIRE NATURAL COVER OR BRUSH 33637 HIGHWAY U  RAY COUNTY Description: SMALL BRUSH FIRE THAT IS NEXT TO A CROP FIELD\nRP IS STA
-WHP1 800 WHFD WHR1 FIRE ALARM 34684 HIGHWAY 10\2sRAY COUNTY Description: gen fire alarm. covers all zones\n\nkeyholder ron rouse 816-864-4434
-
-107 N RAYMORE ST  WOOD HEIGHTS WHFD RCAD RCSO 800 M42 WHR1 678 Clear: 22:48:39 Available: 23:34:02
-15595 BLACKBERRY TRAIL  WHFD 800 LFD 802 LT1 LP1 WHP1 Dispatch: 5/24/2011 23:15:33 Enroute: 23:15:35 OnScene: 23:23:58
-15141 W COUNTY LINE RD  RAY COUNTY WHFD RCAD 671A 675A 800 M44 WHR1 Clear: 22:20:51 Available: 23:05:20
-
-DEPARTMENTS
-WHFD-wood heights fire dept
-LFD-lawson fire dept
-OFD-orrick fire dept
-RFD-richmond fire dept
-RCAD-ray county ambulance district
-EXFD-excelsior springs fire dept
-HFD-hardin fire dept
-
-UNITS
-WHR1-RESCUE 1
-WHP1-PUMPER 1
-WHT2-TANKER 2
-WHB1-BRUSH 1
-WHS1-SQUAD 1
-800-FIRE CHIEF
-802,803,804-asst chiefs
-
-Lawson
-LMED1
-LMED2
-LT1-TANKER
-LT2
-LP1
-LP2
-LP3
-LP4
-LB1-BRUSH
-LB2
-LB3
-LS1-SQUAD
-LR1-RESCUE
-602
-603
-604
-
-RCAD-ray county ambulance district
-MED41,42,43,44-ambulances
-
-ORRICK
-OP1-PUMPER
-OP2
-OT1-TANKER
-OT2
-OB1-BRUSH
-OS1-SQUAD
-315
-
-RICHMOND
-RP5
-RB4
-RP6
-RP2
-RT9
-RR3
-RB7
-400
 **********************************************************
 Kankakee County, IL
 Contact: "Steven Spraker" <sspraker@k3twpfire.com>
