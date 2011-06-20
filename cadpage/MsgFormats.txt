@@ -1989,12 +1989,6 @@ SCENE IS SECURE
   OVERDOSE - BLS * ** 10 W LANCASTER AV ,11 ** -11PD ** ALCOHOL OD
  ** DNGTWN **  ** E LANCASTER AV & MANOR AV *
  
-Contact: "A. Testa" <tac239@msn.com>
-Sender: cad@oxfordfire.com
-(Dispatch) ACCIDENT - PEDESTRIAN STRUCK * ** WB LANCASTER PK EO BETHEL RD ,56   (V) ** LWROXF **  **  ** - ** VEH VS MALE\nDETAILS TO FOLLOW\n
-(Dispatch) CARDIAC/RESP ARREST - ALS * ** 167 MOUNT PLEASANT RD ,69 ** ENOTT **\2s** GRANT ST & COOPER LA ** - ** 48/F--LIPS BLUE\nDETAILS TO FOLLOW\n**
- (Dispatch) ALARM - FIRE * ** 117 HYACINTH DR ,71 ** NEWLON ** THUNDER HILL ** RIDGE DR & MCBERTY CT ** - ** SMOKE ALARM GOING OFF - NO VIS SMOKE - 2ND FLO\nOR **
- 
 
 Contact:Marc Ferry <marcrferry@gmail.com> 
 Body: 1 of 2\n FRM:paging@minquas.org\n SUBJ:21 WILLIAMS WY ,39\n MSG:EMOTIONAL DISORDER - BLS * ** 21 WILLIAMS WY ,39 ** - **  ** CALN ** HUMPTON FARMS **\n(Con't) 2 of 2\nLYNN BL & HUMPTON RD ** (End)
@@ -2016,11 +2010,7 @@ Looks like Oneida County, NY parser
 Body:?OFD2011-00574>Dispatched\n
 >Disturbance Domestic Injury\n
 >5236 MESCALERO TRL (SUNLAND AVE/WESTMORELAND AVE)
-**********************************************************
-Mendicino County, CA
-Contact: Mike Maynard <capttwiggy@gmail.com>
-Sender: meucad@fire.ca.gov
-(CAD Page) OTHER MISC. DISPLAY; =L(39.107949,-123.087224) ,UKV (COW MOUNTAIN); Inc# X: -123 5.23344\2sY: 39 6.47694 B1113; testing with b1113
+
 **********************************************************
 Unknown
 Contact: Terry Goldhamer <tbg120@gmail.com>
@@ -2097,6 +2087,8 @@ Sender: cadpage@rmetro.com
 **********************************************************
 **********************************************************
 **********************************************************
+**********************************************************
+**********************************************************
 ************  READY TO ROLL ******************************
 **********************************************************
 **********************************************************
@@ -2108,8 +2100,13 @@ Sender: wgfc22@comcast.net
 (Dispatch) 05/31/11 * 09:30:53 * HYPO TENSION - ALS * * 774 W GLENVIEW DR ,58 * PHEASANT WY & EDGEWOOD CT * PENN * - *  * 610-345-136 * 2203 *  * 22 * Dispatch *
 (Dispatch) 05/31/11 * 00:36:12 * BARN FIRE * * 248 HOOD RD ,48 * MUNICIPAL BOUNDARY & N MOSQUITO LA * WMARLB * - *  * 610-316-731 * 3604   * 36 * Dispatch *
 **********************************************************
-**********************************************************
-**********************************************************
+Contact: "A. Testa" <tac239@msn.com>
+Sender: cad@oxfordfire.com
+(Dispatch) ACCIDENT - PEDESTRIAN STRUCK * ** WB LANCASTER PK EO BETHEL RD ,56   (V) ** LWROXF **  **  ** - ** VEH VS MALE\nDETAILS TO FOLLOW\n
+(Dispatch) CARDIAC/RESP ARREST - ALS * ** 167 MOUNT PLEASANT RD ,69 ** ENOTT **\2s** GRANT ST & COOPER LA ** - ** 48/F--LIPS BLUE\nDETAILS TO FOLLOW\n**
+(Dispatch) ALARM - FIRE * ** 117 HYACINTH DR ,71 ** NEWLON ** THUNDER HILL ** RIDGE DR & MCBERTY CT ** - ** SMOKE ALARM GOING OFF - NO VIS SMOKE - 2ND FLO\nOR **
+(Dispatch) BUILDING FIRE * ** 110 E MAIN ST, 87\3s(NV) **\2s**\2s**\2s** APT A- ** ENG21 AND LAD21\n**
+(Dispatch) ELECTRICAL FIRE INSIDE * ** 325 S BROOKSIDE DR ,06 ** OXFORD ** BROOKSIDE ESTATES ** MCLEOD DR & SEBASTIAN DR ** - ** ELECTIRCAL SPARKED - SMOKED COMI
 **********************************************************
 Nassau County, NY (alternate) <again>
 Contact: Daniel Dutton <ncfm80@gmail.com>,NCFM80@vtext.com,5163186932@vzwpix.com
@@ -2799,4 +2796,19 @@ astudstill@co.camden.ga.us:2011-104696* 4059 MARTIN LUTHER KING BLVD* N4* * 514,
 astudstill@co.camden.ga.us:2011-101995* 405 & HIGHWAY 40 OLD WAFFLE HOUSE* * * KINGSLAND* * ACCIDENT* ACCIDENT* ELAINE* 386-208-4465* 514,541,546,ENG4,LS4,MED4
 astudstill@co.camden.ga.us:2011-104843* 429 EAGLE BLVD* * * KINGSLAND* * PERSON SICK* PERSON SICK* * 540,ENG4,LS4* * Medical: No* Haz
 **********************************************************
-
+Mendicino County, CA
+Contact: Mike Maynard <capttwiggy@gmail.com>
+Sender: meucad@fire.ca.gov
+System: Alturas CAD
+(CAD Page) OTHER MISC. DISPLAY; =L(39.107949,-123.087224) ,UKV (COW MOUNTAIN); Inc# X: -123 5.23344  Y: 39 6.47694 B1113; testing with b1113
+MEDICAL, BRAVO; COVELO FIREHOUSE @ 75900 HWY 162 ,COVL ; Inc# 004042X: -123 14.8924  Y: 39 47.2236 B1113 CVL E1151; 42 YOF DIFF BREATHING
+MEDICAL, BRAVO; 76415 LOVELL ST ,COVL ; Inc# 004038X: -123 15.1425  Y: 39 47.5964 B1113 CVL E1151; 97 YOF GLF BRUISING ON THIGH
+PA, AGENCY; ROUND VALLEY AIRPORT @ =L(39.789877,-123.267513) ,COVL ; Inc# 004014X: -123 16.0507  Y: 39 47.3926 B1113 CVL E1151; wht 1 eng sieries 22 a small plain tale #  N1463C see if plane has landed   and advise mcso
+FIRE, RESIDENTIAL ALARM; 31110BLK  BRUSH CREEK RD ,FORTB ; Inc# 004013X: -123 46.6691  Y: 39 25.7574 B1113 BRG E1152 ADMIN; 31171 living room smoke dector
+FIRE, RESIDENTIAL; 341 MACMILLAN DR ,HOPL ; Inc# 004007X: -123 7.29456  Y: 38 58.0572 B1113 HOP T96 HEL101 E1153 E1165 E1453 E1161 CCR4 DOZ1242 ADMIN; structure fire multi caller
+FIRE, WILDLAND; 32151 PUDDING CREEK RD ,FORTB ; Inc# 004005X: -123 47.5662  Y: 39 27.0477 B1113 BRG E1152 E1156 E1154 E1168 PFK1 HEL101 ADMIN; brow shirt wht sleeves older jen 60-70 wb on pud creek rd sta
+MED, TRAFFIC COLLISION; HWY 101 MP 100.25 @ =L(39.930402,-123.762749) ,PIERC ; Inc# 003522X: -123 45.7649  Y: 39 55.8241 B1113; testing cad paging
+MED, TRAFFIC COLLISION; 802 S MAIN ST / 2 HWY 20 ,WILL ; Inc# 003522X: -123 21.0982  Y: 39 24.2470 B1113; testing cad paging
+MEDICAL, BRAVO; =L(39.126853,-123.129230) ,UKV ; Inc# 003823X: -123 7.7538  Y: 39 7.61118 B1113; mill creek by upper pond adult male leg inj 3rd party report
+FIRE, VEH PASSENGER; SQUAW ROCK @ =L(38.912401,-123.056112) ,HOPL ; Inc# 003858X: -123 3.36672  Y: 38 54.7440 B1113 HOP CLD ADMIN; big rig fire - chp responding
+**********************************************************
