@@ -41,6 +41,13 @@ COUNTY RD 57 \ COUNTY RD 445 2011039172 06:20:45 WRECK-UNKNOWN INJURIES CALLER S
 100 COUNTY RD 99 LOT 5 VERBENA 2011043298 18:37:55 SHORTNESS OF BREATH GRANDMOTHER ON CHEMO NOT DOING GOOD 
 518 COUNTY RD 221 THORSBY 2011046746 06:20:05 DIABETIC RESIDENCE IS A BEIGE DOUBLE WIDE WITH MAROON SHUTTERS. RED TOYOTA AND BLACK DODGE IN THE BACK YARD
 
+Chattam County, NC
+HEATHER.BOONE:399 LYNDFIELD CLOSE PITTSBORO MDL 10D04 1119468 18:13:33 Chest Pains- Clammy HUSBAND HAVING CHEST PAINS - EMER
+HEATHER.BOONE:791 RED GATE RD PITTSBORO 1119520 05:38:59 medical call HUSBAND OFF BALCONY
+LISA.SCOTT:965 SEAFORTH BEACH RD PITTSBORO 1119461 17:08:12 medical call 10YOM WEARING WHITE SHORTS NAMED TRAY LAST SEEN APPROX 4 MINS AGO
+KIM.HANNER:858 BRUMLEY PITTSBORO MDL 31C02 1119495 22:11:57 Unconscious / Fainting (Near) Fainting episodes an WIFE PASSED OUT, IS CONS NOW
+KIM.HANNER:475 NATURE TRAIL RD CHAPEL HILL 1119504 00:09:15 Convulsions/ Seizures- CONTINUOUS or MULTIPLE seiz PREVIOUS CALL FOR THIS ADDRESS WITH THIS NUMBER GIVEN BY CARY PD UNKNOWN PROBLEM POSSIBLE SEIZURES
+
 Moore County, NC
 [[911 NOTIFICATION] ]  505 PINEHURST ST ABERDEEN 2011024766 19:52:16 F69 STRUCTURE FIRE LOOKS LIKE BACK DECK ON FIRE
 [[911 NOTIFICATION] ]  1 S. VINELAND SOUTH CELL TOWER 2011025029 09:31:20 M25 PSYCHIATRIC/SUICIDE ATTEMPT
@@ -49,17 +56,41 @@ Moore County, NC
 [[911 NOTIFICATION] ]  218 BERRY ST PINE BLUFF 2011026135 14:36:24 F67 OUTSIDE FIRE/WOODS/BRUSH TREE ON FIRE
 [[911 NOTIFICATION] ]  1 E NEW ENGLAND /S PEAR 2011025862 07:31:07 F67 OUTSIDE FIRE/WOODS/BRUSH
 
+Polk County, NC
+polkcounty911:767 THERMAL VIEW DR TRYON SMITH 828817313307:38:26 FALL VICTIM 89 YO FEMALE FROM STORY RD TO SKYUKA RD
+polkcounty911:1426 HAYES RD COLUMBUS 07:20:59 TREE DOWN CONTS FROM S PEAK ST TO PENIEL RD
+polkcounty911:418 S PEAK ST COLUMBUS EARLY, DORIS 8288948807 13:09:13 MEDICAL EMERGEN 86 YO VERY WEAK FROM E MILLS ST AND CONTS AS HAYES RD
+polkcounty911:429 LOCKHART RD TRYON RHONDA 828859020509:57:24 MEDICAL EMERGEN 38 YO LEFT LEG PAINNUMB FOOT FROM W HOWARD ST TO LANIER LN
+polkcounty911:86 GREENVILLE ST SALUDA PAT 8287494411 13:49:40 CHOKING FEMALE CHOKING FOR PAST HOUR//PALE
+polkcounty911:159 LANIER DR COLUMBUS John 8643030507 08:08:08 UNCONSCIOUS 75 yo man with cancer.
+polkcounty911:1 GREEN RIVER COVE RD mill spring carol 8288179441 09:52:03 DOWN POWER LINE FROM S NC 9 HWY TO RUTHERFORD CO LINE
+Polkcounty911:1733 E US 74 HWY before pea ridge rd MILL SPRING 423637001121:49:01 10-50. June 9, 9:48 PM
+polkcounty911:26 KELLY LN MILL SPRING 8288948141 16:50:54 SEIZURES 25 Y/O MALE SEIZING FROM CHIMNEY ROCK RD TO DEAD END. June 10 4:50 PM.
+polkcounty911:935 POLK COUNTY LINE RD RUTHERFORDTON BAILY, PHILLIP 8287489222 14:23:05 VEHICLE FIRE 18 WHEELER LOADED WITH LUMBER ON FIRE FROM ROCK SPRINGS. June 11, 2:21 PM.
+polkcounty911:4861 E NC 108 HWY MILL SPRING SLIMPLEX GRENELL 888746753911:28:38 FIRE ALARM BUILDING ONE FROM HOUSTON RD/WALKER ST TO RUTHERFORD CO LINE. June 14, 11:29 AM.
+polkcounty911:620 BURT BLACKWELL RD MILL SPRING QUANDT, LEONARD & CRYSTAL 8288946023 13:27:52 SMOKE COMPLAINT ACROSS FROM THE ABOVE ADDRESS NEAR DUKE POWER. June 15, 1:28 PM
+polkcounty911:1 COLUMBUS FIRE DEPT 2201 17:54:26 STANDBY REQUEST MSFD STANDBY FOR THEM REF RESOURCES DEPLETED. June 18, 5:55 PM
+polkcounty911:1 GREEN RIVER COVE RD mill spring carol 8288179441 09:52:03 DOWN POWER LINE FROM S NC 9 HWY TO RUTHERFORD CO LINE. June 19 9:53 AM.
+
 */
 
 public class DispatchSouthernParser extends SmartAddressParser {
   
+  // Flag indicata  a leading dispatch name is required
   public static final int DSFLAG_DISPATCH_ID = 0x01;
+  
+  // Flag indicate a unit designation follows the time stampe
   public static final int DSFLAG_UNIT = 0x02;
+  
+  // Flag indiacting that the call ID is optional
+  public static final int DSFLAG_ID_OPTIONAL = 0x08;
   
   private static final Pattern LEAD_PTN = Pattern.compile("^[\\w\\.]+:");
   private static final Pattern ID_TIME_PTN = Pattern.compile("\\b(\\d{2,4}-?\\d{4,8}) \\d\\d:\\d\\d:\\d\\d\\b");
+  private static final Pattern OPT_ID_TIME_PTN = Pattern.compile("\\b(?:(\\d{2,4}-?\\d{4,8}) )?\\d\\d:\\d\\d:\\d\\d\\b");
   private static final Pattern CALL_PTN = Pattern.compile("^[A-Z0-9\\- /]+\\b");
-  
+
+  private Pattern idTimePattern;
   private boolean leadDispatch;
   private boolean unitId;
   
@@ -71,6 +102,7 @@ public class DispatchSouthernParser extends SmartAddressParser {
     super(cityList, defCity, defState);
     this.leadDispatch = (flags & DSFLAG_DISPATCH_ID) != 0;
     this.unitId = (flags & DSFLAG_UNIT) != 0;
+    this.idTimePattern = (flags & DSFLAG_ID_OPTIONAL) != 0 ? OPT_ID_TIME_PTN : ID_TIME_PTN;
   }
 
   
@@ -85,14 +117,15 @@ public class DispatchSouthernParser extends SmartAddressParser {
     }
     
     // find an ID/Time pattern which splits the message into two fields
-    Matcher match = ID_TIME_PTN.matcher(body);
+    Matcher match = idTimePattern.matcher(body);
     if (!match.find()) return false;
     
     data.strCallId = match.group(1);
+    if (data.strCallId == null) data.strCallId = "";
     String sAddr = body.substring(0,match.start()).trim();
     String sExtra = body.substring(match.end()).trim();
     
-    // First half contains address, optional place,and possibly an MDL call code
+    // First half contains address, optional place/name, and possibly an MDL call code
     Parser p = new Parser(sAddr);
     data.strCode = p.getLastOptional(" MDL ");
     sAddr = p.get();
