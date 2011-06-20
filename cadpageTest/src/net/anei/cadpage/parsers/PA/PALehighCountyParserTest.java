@@ -238,9 +238,19 @@ public class PALehighCountyParserTest extends BaseParserTest {
         "INFO:**AIRPORT ALERT 2 / RJ SOUTH OF AIRPORT 6 MIN OUT 21",
         "UNIT:FD/ST33 FD/ST02 FD/ST75 FD/ST60FD/48E10 FD/ST62WH FD/ST73 FD/ST78 FD/6651 FD/TA32",
         "X:CITY LINE RD RUNWAY 24 OPEN DOOR 35 SOULS. TIME: 19:16");
+
+    doTest("T22",
+        "ST3400 TYP: CARD ARREST-NO BREAT AD: 801 OSTRUM ST CTY: FOUNTAIN HILL LOC: ST LUKES OUTPAT CN: MONA STRACH CMT1: **ECHO CARDIAC ARREST - NOT BREATHING CMT2: 70",
+        "SRC:ST3400",
+        "CALL:CARD ARREST-NO BREAT",
+        "ADDR:801 OSTRUM ST",
+        "CITY:FOUNTAIN HILL",
+        "PLACE:ST LUKES OUTPAT",
+        "NAME:MONA STRACH",
+        "INFO:**ECHO CARDIAC ARREST - NOT BREATHING / 70");
   }
   
   public static void main(String[] args) {
-    new PALehighCountyParserTest().generateTests("T1");
+    new PALehighCountyParserTest().generateTests("T22");
   }
 }
