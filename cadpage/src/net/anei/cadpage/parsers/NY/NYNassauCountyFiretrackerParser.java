@@ -33,12 +33,15 @@ Sender: dispatch@firetracker.net
 (FirePage) *FSMFD* 4/29/2011 TOA:21:59 MUTUAID [MAF] 125 MEACHAM AVE POST AVE\n[FireTracker]
 (FirePage) FSMFD 5/2/2011 TOA:17:36 AMBU [AMBU] 766 WILLOW ROAD BIRCH ST BROKEN\nHIP [FireTracker]
 
+Contact: J N <shadymailman@gmail.com>
+1 of 2\nFRM:dispatch@firetracker.net\nSUBJ:FirePage\nMSG:**NMFD** [GENERAL] [HOUSE] 7 ARMS AVE C/S: CAMP AVE / GARFIELD (E) ST -\nM/A 64 UPSTAIRS\n(Con' 2 of 2\nTOA:01:57 6/20/2011 Town Of: MERRICK [FireTracker](End)
+
 */
 public class NYNassauCountyFiretrackerParser extends FieldProgramParser {
-
+  
   public NYNassauCountyFiretrackerParser() {
     super("NASSAU COUNTY", "NY", 
-           "ADDR/SC! CS:X TOA:SKIP");
+           "ADDR/SC! CS:X INFO:INFO TOA:SKIP");
   }
   
   @Override
@@ -52,12 +55,6 @@ public class NYNassauCountyFiretrackerParser extends FieldProgramParser {
     if (!subject.equals("FirePage")) return false;
     if (!body.endsWith("[FireTracker]")) return false;
     body = body.substring(0,body.length()-13).trim();
-    if (body.startsWith("** FFD FIRE CALL ** ")) {
-      data.strSource = "FFD";
-      body = body.substring(20).trim();
-      body = body.replace('\n', ' ').replace("C/S:", "CS:").replace(" LA ", " LN ");
-      return super.parseMsg(body, data);
-    }
     
     if (body.startsWith("*FSMFD* ") || body.startsWith("FSMFD")) {
       data.strSource = "FSMFD";
@@ -80,7 +77,24 @@ public class NYNassauCountyFiretrackerParser extends FieldProgramParser {
       return true;
       
     }
-    return false;
+
+    do {
+      if (body.startsWith("** FFD FIRE CALL ** ")) {
+        data.strSource = "FFD";
+        body = body.substring(20).trim();
+        break;
+      }
+      if (body.startsWith("**NMFD**")) {
+        data.strSource = "NMFD";
+        body = body.substring(8).trim();
+        break;
+      }
+      return false;
+    } while (false);
+    
+    body = body.replace('\n', ' ').replace("C/S:", "CS:").replace(" LA ", " LN ");
+    body = body.replace(" -\n", " INFO: ");
+    return super.parseMsg(body, data);
   }
   
   private static final Pattern APT_PTN = Pattern.compile("\\bAPT ([^ ]+)\\b");
