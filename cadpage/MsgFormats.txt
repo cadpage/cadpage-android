@@ -945,6 +945,11 @@ CAD:5413 MONROE ANSONVILLE RD;CHEST PAIN EMD;S09;B-CF2;CLARK ST;ANSONVILLE RD;01
 CAD:226 S MAIN ST;GATEWOOD VILLAGE;FIRE ALARM EFD;S09;B2;HINSON ST;GOODWILL LN;01/16/2011 14:04:24
 CAD:1299 WITMORE RD/OLD MONROE MARSHVILLE RD;ACCIDENT EMD;S09;B-CF2;01/21/2011 16:59:15
 ***************************************************************************
+Hudson, OH (OHHudsonParser)
+HudsonCAD:CAD System 6150,NICHOLSON DR.,,HUDSON EMS,EMS63 YOM, DIABETIC SHOCK
+HudsonCAD:CAD System 0,ANYWHERE,OTHER LOCATION OUT OF CITY,HudsonEMS,EMSMUTAL AID TO TWINSBURG FOR WORKING HOUSE FIRE, 2416 WHITE MARSH
+HudsonCAD:CAD System 6150,NICHOLSON DR.,,HUDSON EMS,EMS
+***************************************************************************
 Licking County, OH (OHLickingCountyParser)
 LC911:ILLNESS    24 S OREGON ST   JOHNSTOWN
 LC911:[3298]-- - Nature: HEMMORAGE/LACERATION - Location: 36.00 S MAIN ST   JOHNSTOWN -
@@ -2088,20 +2093,6 @@ Sender: cadpage@rmetro.com
 ************  READY TO ROLL ******************************
 **********************************************************
 **********************************************************
-Hudson, OH
-Contact: "Graham, Bruce" <BGraham@hudson.oh.us>
-Contact: dthompson@hudson.oh.us<mailto:dthompson@hudson.oh.us>
-Sender: hudsoncad@hudson.oh.us
-HudsonCAD:CAD System 6150,NICHOLSON DR.,,HUDSON EMS,EMS63 YOM, DIABETIC SHOCK
-HudsonCAD:CAD System 0,ANYWHERE,OTHER LOCATION OUT OF CITY,HudsonEMS,EMSMUTAL AID TO TWINSBURG FOR WORKING HOUSE FIRE, 2416 WHITE MARSH
-HudsonCAD:CAD System 6150,NICHOLSON DR.,,HUDSON EMS,EMS
-HudsonCAD:CAD System 75,EXECUTIVE PKWY.,ALLSTATE INSURANCE (75 EXEC),HUDSONEMS,EMSfemale diff breathing allergic reaction first floor front
-HudsonCAD:CAD System 0,W STREETSBORO ST.,91 & 303,HUDSONEMS,EMStest do not respond test only
-HudsonCAD:CAD System 0,W STREETSBORO ST.,91 & 303,HUDSONEMS,EMStest do not respond test only
-HudsonCAD:CAD System 0,ANYWHERE,OTHER LOCATION OUT OF CITY,HudsonEMS,EMSMUTAL AID TO TWINSBURG FOR WORKING HOUSE FIRE, 2416 WHITE MARSH
-
-Contact: Bruce Graham <4000hems@gmail.com>
-HudsonCAD:CAD System 5555,DARROW RD.,JOANN STORES INC.,HUDSONEMS,EMSSHORTNESS OF BREATH MALE N GATE SECURITY OFFICE
 **********************************************************
 Chester County, PA (alternate)
 Contact: jtg5097@yahoo.com <jtg5097@yahoo.com>
