@@ -153,8 +153,20 @@ public class NYNassauCountyFiretrackerParserTest extends BaseParserTest {
     
   }
   
+  @Test
+  public void testNMFDParser() {
+
+    doTest("T1",
+        "1 of 2\nFRM:dispatch@firetracker.net\nSUBJ:FirePage\nMSG:**NMFD** [GENERAL] [HOUSE] 7 ARMS AVE C/S: CAMP AVE / GARFIELD (E) ST -\nM/A 64 UPSTAIRS\n(Con' 2 of 2\nTOA:01:57 6/20/2011 Town Of: MERRICK [FireTracker](End)",
+        "SRC:NMFD",
+        "CALL:[GENERAL] [HOUSE]",
+        "ADDR:7 ARMS AVE",
+        "X:CAMP AVE / GARFIELD (E) ST - M/A 64 UPSTAIRS");
+    
+  }
+  
   public static void main(String[] args) {
-    //new NYNassauCountyFiretrackerParserTest().generateTests("T6");
-    new NYNassauCountyFiretrackerParserTest().generateTests("T10", "SRC CALL ADDR X INFO");
+    new NYNassauCountyFiretrackerParserTest().generateTests("T6");
+    //new NYNassauCountyFiretrackerParserTest().generateTests("T1", "SRC CALL ADDR X INFO");
   }
 }
