@@ -38,6 +38,11 @@ public class SmartAddressParserTest extends BaseParserTest {
   
   @Test
   public void testProblems() {
+    doTest(CALL, FLAG_ANCHOR_END, "MOTOR VEHICLE ACCIDENT WITH RESCUE  HIGHWAY A & HIGHWAY 50 KEN TOWN",
+        "CALL:MOTOR VEHICLE ACCIDENT WITH RESCUE",
+        "ADDR:HIGHWAY A & HIGHWAY 50",
+        "CITY:KEN TOWN");
+    
     doTest(PLACE, FLAG_ANCHOR_END, "NEW HYDE PARK DINER 160 HILLSIDE AVE C/S: 1ST (N) ST / 2ND (N) ST",
         "PLACE:NEW HYDE PARK DINER",
         "ADDR:160 HILLSIDE AVE",
@@ -536,6 +541,24 @@ public class SmartAddressParserTest extends BaseParserTest {
   doTest(CALL, "CALL N JOHNS HWY & E () ST",
         "CALL:CALL",
         "ADDR:N JOHNS HWY");
+  }
+  
+  @Test
+  public void testAlphaRoutes() {
+    doTest(CALL, "CALL 123 RT A EXTRA",
+        "CALL:CALL",
+        "ADDR:123 RT A");
+    doTest(CALL, "CALL 123 RT AB EXTRA",
+        "CALL:CALL",
+        "ADDR:123 RT AB");
+    doTest(CALL, "CALL 123 RT US EXTRA",
+        "CALL:CALL 123 RT US EXTRA");
+    doTest(CALL, "CALL RT A & US B EXTRA",
+        "CALL:CALL",
+        "ADDR:RT A & US B");
+    doTest(CALL, "CALL RT C EXTRA",
+        "CALL:CALL",
+        "ADDR:RT C");
   }
   
   @Override

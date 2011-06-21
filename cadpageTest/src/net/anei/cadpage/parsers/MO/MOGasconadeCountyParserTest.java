@@ -101,9 +101,17 @@ public class MOGasconadeCountyParserTest extends BaseParserTest {
         "CITY:OWENSVILLE",
         "MAP:OFD SECTOR 1, PAGE 073, PAGE 125",
         "X:E JEFFERSON AVE 0.06 mi N E MADISON AVE 0.02 mi SW");
+
+    doTest("T12",
+        "1 of 3\nFRM:central@fidmail.com\nSUBJ:MESSAGE\nMSG:MT155 MT163 O172 501 MOTOR VEHICLE ACCIDENT WITH RESCUE  HIGHWAY A & HIGHWAY 50 GASCONADE COUNTY\n(Con't) 2 of 3\nMapRegions: OFD SECTOR 2, PAGE 045 CrossStreets: Description: 2 VEHICLE WITH ROLL OVER, DRIVER IS OUT. Dispatch: 6/20/2011 19:12:16\n(Con't) 3 of 3\nDispatch: 6/20/2011 19:12:16 Dispatch: 6/20/2011 19:12:16 Dispatch: 6/20/2011 19:12:16\n\n\n\n(End)",
+        "UNIT:MT155 MT163 O172 501",
+        "CALL:MOTOR VEHICLE ACCIDENT WITH RESCUE",
+        "ADDR:HIGHWAY A & HIGHWAY 50",
+        "MAP:OFD SECTOR 2, PAGE 045",
+        "INFO:2 VEHICLE WITH ROLL OVER, DRIVER IS OUT.");
   }
 
   public static void main(String[] args) {
-    new MOGasconadeCountyParserTest().generateTests("T12");
+    new MOGasconadeCountyParserTest().generateTests("T13");
   }
 }
