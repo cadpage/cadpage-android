@@ -354,7 +354,10 @@ public abstract class SmsMsgParser {
    addressLine = addressLine.trim();
    
    // Periods used with abbreviations also cause trouble.  Just get rid of all periods
-   addressLine = addressLine.replaceAll("\\.", "");
+   // Unless this address has GPS coordinates, in which case the periods are critical
+   if (!SmsPopupUtils.GPSPattern.matcher(addressLine).find()) {
+     addressLine = addressLine.replace(".", "");
+   }
    
    // Pick off trailing address
    Matcher match = APT.matcher(addressLine);

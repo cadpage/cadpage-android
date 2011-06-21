@@ -49,9 +49,12 @@ public class CAElDoradoCountyParser extends SmsMsgParser {
     
     data.strCall = match.group(1).trim();
     data.strCallId = match.group(2).trim();
-    parseAddress(match.group(3).trim(), data);
+    Parser p = new Parser(match.group(3).trim());
+    data.strPlace = p.getOptional('@');
+    parseAddress(p.get(), data);
     data.strCity = match.group(4).trim().replace('_', ' ');
-    data.strPlace = null2empty(match.group(5));
+    String sPlace = match.group(5);
+    if (sPlace != null) data.strPlace = sPlace.trim();
     data.strUnit = match.group(6).trim();
     
     body = body.substring(match.end()).trim();
@@ -60,9 +63,5 @@ public class CAElDoradoCountyParser extends SmsMsgParser {
     data.strGPSLoc = body;
     
     return true;
-  }
-
-  private String null2empty(String str) {
-    return str == null ? "" : str.trim();
   }
 }

@@ -382,7 +382,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
       address = address.replaceAll(":", ": ");
       
       // Periods used with abbreviations also cause trouble.  Just get rid of all periods
-      address = address.replaceAll("\\.", "");
+      address = address.replace(".", "");
     }
 
     // Set up token list and types
