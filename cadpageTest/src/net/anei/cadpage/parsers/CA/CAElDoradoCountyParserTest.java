@@ -67,9 +67,19 @@ public class CAElDoradoCountyParserTest extends BaseParserTest {
         "CITY:GREENWOOD",
         "UNIT:GRVCHF GEOENGN M25 53 E251N",
         "GPS:X: -120 54.1379  Y: 38 53.9151");
+
+    doTest("T7",
+        "(CAD Page) 20-Jun-2011/16:46:01: MEDICAL: Inc# 013054: UNIVERSITY FALLS GATE @ =L(38.906110,-120.645832) ,GEORGETOWN  GEOCHF E33F M61 65 GEOENG; ; X: -120 38.749",
+        "CALL:MEDICAL",
+        "ID:013054",
+        "ADDR:=L(38.906110,-120.645832)",
+        "CITY:GEORGETOWN",
+        "PLACE:UNIVERSITY FALLS GATE",
+        "UNIT:GEOCHF E33F M61 65 GEOENG",
+        "GPS:X: -120 38.749");
   }
   
   public static void main(String[] args) {
-    new CAElDoradoCountyParserTest().generateTests("T1", "CALL ID ADDR CITY PLACE UNIT GPS");
+    new CAElDoradoCountyParserTest().generateTests("T7", "CALL ID ADDR CITY PLACE UNIT GPS");
   }
 }
