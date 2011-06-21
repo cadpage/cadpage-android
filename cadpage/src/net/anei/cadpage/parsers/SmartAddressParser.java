@@ -123,6 +123,9 @@ public abstract class SmartAddressParser extends SmsMsgParser {
   // Bitmask bit indicatign token cannot be part of an address
   private static final int ID_NOT_ADDRESS = 0x20000;
   
+  // Bitmask bit indicating token can be an alpha route or highway number
+  private static final int ID_ALPHA_ROUTE = 0x40000;
+  
   // Bitmask indicating dictionary word is either a route number prefix or a
   // route prefix extender
   private static final int ID_ROUTE_PFX = ID_ROUTE_PFX_PFX | ID_ROUTE_PFX_EXT;
@@ -163,7 +166,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
         "TER", "TERR",
         "HWY",
         "MALL",
-        "GTWY",
+        "GTWY", "GATEWAY",
         "PLAZ", "PLAZA",
         "TURNPIKE", "TPKE", "TPK",
         "PASS",
@@ -601,7 +604,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
               if (sAddr > start && isType(sAddr, ID_AMBIG_ROAD_SFX)) sAddr--;
               break;
             }
-            if (isType(sAddr, ID_ROUTE_PFX) & isType(sAddr+1, ID_NUMBER)) {
+            if (isType(sAddr, ID_ROUTE_PFX) & isType(sAddr+1, ID_NUMBER | ID_ALPHA_ROUTE)) {
               if (sAddr > start && 
                   isType(sAddr, ID_ROUTE_PFX_EXT) && 
                   isType(sAddr-1, ID_ROUTE_PFX_PFX)) sAddr--;
@@ -707,13 +710,13 @@ public abstract class SmartAddressParser extends SmsMsgParser {
         
         if (isType(ndx, ID_ROAD_SFX) && !isType(sAddr, ID_NOT_ADDRESS)) {
           boolean startHwy = 
-              (isType(ndx, ID_ROUTE_PFX) && isType(ndx+1, ID_NUMBER)) ||
+              (isType(ndx, ID_ROUTE_PFX) && isType(ndx+1, ID_NUMBER | ID_ALPHA_ROUTE)) ||
               (isType(ndx, ID_ROUTE_PFX_PFX) && isType(ndx+1, ID_ROUTE_PFX_EXT) && isType(ndx+2, ID_NUMBER)) ||
               (isType(ndx, ID_AMBIG_ROAD_SFX) && (isType(ndx+1, ID_ROAD_SFX)));
           
           if (!startHwy) break; 
         }
-        if (ndx > start && isType(ndx, ID_NUMBER) && isType(ndx-1, ID_ROUTE_PFX)) break;
+        if (ndx > start && isType(ndx, ID_NUMBER | ID_ALPHA_ROUTE) && isType(ndx-1, ID_ROUTE_PFX)) break;
         if (isRoadToken(ndx)) {
           sAddr = ndx;
           break;
@@ -1108,7 +1111,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
       if (isType(start, ID_ROUTE_PFX)) {
         end = start + 1;
         if (isType(start, ID_ROUTE_PFX_PFX) && isType(start+1, ID_ROUTE_PFX_EXT)) end++;
-        if (isType(end, ID_NUMBER)) {
+        if (isType(end, ID_NUMBER | ID_ALPHA_ROUTE)) {
           end++;
           break;
         }
@@ -1212,6 +1215,17 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     
     else if (NUMERIC.matcher(token).matches()) {
       mask |= ID_NUMBER;
+    }
+    
+    // Some states use alpha route numbers.  This token is a candidate if
+    // it hasn't been designated as anything else
+    // it is one or two characters long
+    // all of the characters are letters
+    if (mask == 0 && Character.isLetter(token.charAt(0))) {
+      if (token.length() == 1 ||
+         token.length() == 2 && Character.isLetter(token.charAt(1))) {
+        mask |= ID_ALPHA_ROUTE;
+      }
     }
     tokenType[ndx] =  mask;
   }

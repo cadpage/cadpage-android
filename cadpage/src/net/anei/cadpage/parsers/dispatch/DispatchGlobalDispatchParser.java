@@ -45,7 +45,6 @@ WHP1 800 WHFD WHR1 FIRE ALARM 34684 HIGHWAY 10  RAY COUNTY Description: gen fire
 15595 BLACKBERRY TRAIL  WHFD 800 LFD 802 LT1 LP1 WHP1 Dispatch: 5/24/2011 23:15:33 Enroute: 23:15:35 OnScene: 23:23:58
 15141 W COUNTY LINE RD  RAY COUNTY WHFD RCAD 671A 675A 800 M44 WHR1 Clear: 22:20:51 Available: 23:05:20
 
-
 */
 
 
@@ -65,7 +64,7 @@ public class DispatchGlobalDispatchParser extends FieldProgramParser {
   @Override
   public boolean parseMsg(String body, Data data) {
     if (! body.contains(" Description:")) return false;
-    if (!super.parseMsg(body, data)) return false;
+    if (! super.parseMsg(body, data)) return false;
     if (data.strCall.length() == 0) return false;
     return true;
   }
