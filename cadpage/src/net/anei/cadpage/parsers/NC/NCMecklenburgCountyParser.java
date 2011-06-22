@@ -28,6 +28,10 @@ Contact: David Fuller <firefighter19163@netscape.com>
 Subject:Incoming Message\n9150 Lawyers Rd                         McDonalds - Mint Hill         Charlie                       06- Breathing Pr
 Subject:Incoming Message\n10043 Idlewild Rd             126       Willow Grove Retirement       Charlie                       06- Breathing Pr
 
+Contact: David Boyd <rookiefire14@gmail.com>
+(Incoming Message) 19432 Fridley Ln                        medical alarm .. no pt info ..Charlie                       32- Unknown problem (man down)Denae Lynn
+
+
 
 */
 
