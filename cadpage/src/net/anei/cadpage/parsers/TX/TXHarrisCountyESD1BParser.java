@@ -26,6 +26,11 @@ public class TXHarrisCountyESD1BParser extends FieldProgramParser {
   }
   
   @Override
+  public String getFilter() {
+    return "cadnoreply@proxy.hcec.com";
+  }
+  
+  @Override
   public boolean parseMsg(String body, Data data) {
     body = body.replace("ID#:","ID:").replace("Box #:", "Box:");
     return parseFields(DELIM.split(body), data);
