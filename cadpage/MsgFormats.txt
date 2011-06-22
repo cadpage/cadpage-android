@@ -2081,12 +2081,6 @@ Contact: Michael DiMauro <mdimaurojr@gmail.com>
 Sender: brandywinefireco@comcast.net
 06/21/2011*06:01*ASSAULT - UNKNOWN*1202 FAIRVIEW AV btwn MAPLE AV*HOLLY OAK TERRACE*MALE SUBJECT MACED //NCCPD ENR
 **********************************************************
-Cy Creek Comm Center or ESD #1, TX
-Contact: Nathan Mathews <nbmathews807@gmail.com>
-Sender: cadnoreply@proxy.hcec.com
-ID#:11-06-20658 - - 29A1 MOTOR VEHICLE A - East Fwy / Delldale - Apt: - Bldg: - Key Map: 498E - Cross Streets: - Box #:2004
-ID#:11-06-20658/ UNIT:L32 / DISP: 08:23:43 / ER: 08:23:44 / OUT: / AIR: 08:27:16
-**********************************************************
 Unknown
 Contact: "JP" <jp230rfd@aol.com>
 Sender: Robot.ALERT@dothan.org
@@ -2098,12 +2092,26 @@ Sender: CAD@isleofwightUS.net
 Add CAD: prefix and use OSSI parser?
 11365 CENTRAL HILL RD;S CAROLINA AVE;COURTHOUSE HWY;FIRE ALARM;smoke detector zone 16 res last name babb 757-353-0490 [06/20/11 19:01:18 MPMARSH] 
 YELLOW HAMMER RD/FIRE TOWER RD;1050;[LAW] {37} ONE FINGER AND JAW/ SEC CONCUSION [06/22/11 04:02:28 SHILL] {37} HAVE INJURIES [06/22/11 04:02:04 SHILL] VSP AD: 
-23352 COURTHOUSE HWY;CONSULATE HEALTH CARE WINDSOR;KENSINGTON CT;JOYNER TOWN LN;FIRE ALARM;[LAW] WILL TRY TO CONTACT KEYHOLDER [06/22/11 12:20:01 MDUNN] zone.  If more information is needed please let me know. Thanks, G.B. Wills III
+23352 COURTHOUSE HWY;CONSULATE HEALTH CARE WINDSOR;KENSINGTON CT;JOYNER TOWN LN;FIRE ALARM;[LAW] WILL TRY TO CONTACT KEYHOLDER [06/22/11 12:20:01 MDUNN] zone
+**********************************************************
+**********************************************************
 **********************************************************
 **********************************************************
 **********************************************************
 ************  READY TO ROLL ******************************
 **********************************************************
+**********************************************************
+Harris County, ESD #1, TX (alternate and possible replacement
+Contact: Nathan Mathews <nbmathews807@gmail.com>
+Sender: cadnoreply@proxy.hcec.com
+ID#:11-06-20658 - - 29A1 MOTOR VEHICLE A - East Fwy / Delldale - Apt: - Bldg: - Key Map: 498E - Cross Streets: - Box #:2004
+ID#:11-06-20658/ UNIT:L32 / DISP: 08:23:43 / ER: 08:23:44 / OUT: / AIR: 08:27:16
+22D05A / INDUSTRIAL ACCIDENT / S SHELDON/JACINTO PORT BLVD /APT: / BLD: / KM: 498U / XSTRTS: / CODE: / Box #: Nature:
+ID#:11-06-20685 - - TRASH FIRE - 111 Bayou Dr - Apt:C - Bldg: - Key Map: 498D - Cross Streets:EAST FWY/MARKET - Box #:2002
+ID#:11-06-20710 - - FIRE - PreAlert - 16217 Ridlon - Apt: - Bldg: intra SERVICES - Key Map: 498C - Cross Streets:SHEILA LN/WOODLAND D
+29B04 / Traffic/Trans Incide / East Fwy/dell Dale /APT: / BLD: / KM: 497M / XSTRTS: / CODE: / Box #: Nature:
+ID#:11-06-20658 - - 29A1 MOTOR VEHICLE A - East Fwy / Delldale - Apt: - Bldg: - Key Map: 498E - Cross Streets: - Box #:2004
+ID#:11-06-20627 - - 29A1 MOTOR VEHICLE A - 16410 Ave D - Apt:1 - Bldg: AVE D APTS - Key Map: 498D - Cross Streets:WOODLAND DR/CEDAR L
 **********************************************************
 Chester County, PA (alternate)
 Contact: jtg5097@yahoo.com <jtg5097@yahoo.com>
@@ -2132,8 +2140,6 @@ MVA w/ Aided: Zone: 43, Response:CO4, CO3, CO6\nat 363 GREAT NECK RD, GREAT NECK
 MVA w/ Aided: Zone: 43, Response:CO4, CO3\nat NORTHERN BLVD / GREAT NECK RD, GREAT NECK . . 17:45:30
 [Brush] Trees: Zone: 54, Response:CO5\nat NEW HYDE PARK RD / NORTH SERVICE RD, NEW HYDE PARK . . 18:32:59
 Carbon Monoxide w/ Aided: Zone: 52, Response:CO5, CO6\nat 45 CHESTNUT HILL, NORTH HILLS  c/s: ACORN PONDS DR . . 00:59:33
-**********************************************************
-**********************************************************
 **********************************************************
 Las Vegas, NV
 Contact: Andy Stone <akmedic33@gmail.com>
@@ -2741,6 +2747,7 @@ Sender: @minthillvfd.com
 13538 Idlefield Ln Charlie 30- Traumatic injuries,specifcIdle Dr/Mills End Cr Mh212 Map - 381381/D8 06202011-335  [67]
 7500 Bondhaven Dr Charlie 42- Fire/Police support Kew Tr/Lanterntree Ln Mh212 Map - 353353/C6 06212011-239  [96]
 10545 Blair Rd Mint Hill Urgent Care Charlie 23- Overdose/Ingestion/Poison Truelight Church Rd/Connell Rd MHL8 Map - 35
+6700 Burkandt Rd 75M SYNCOPAL EPISODE WITH HX OAlpha 31- Unconsciousness/Fainting Wilson Woods Dr/Fieldwood Rd MHL8 Map
 **********************************************************
 Bulloch County, GA
 Contact: "maleman876@gmail.com" <maleman876@gmail.com>
@@ -2776,7 +2783,12 @@ ENTRAPMENT ALSO WOODS ON FIRE IN THE AREA OF SHUMAN RD
 LARRY SMITH TRAILER PARK LOT 2
 **********************************************************
 Geauga County, OH
-Contact: 4404785985@vtext.com
+Contact: "Pettit, Lewis 911" <LPettit@co.geauga.oh.us>,4404785985@vtext.com
+
+Verizon has a message number (different for each message) followed by
+"GEAUGA COUNTY SHERIFF (Text Message)", thenthe message.
+The SMS service has the SMS code 69310 then the message.
+
 GEAUGA COUNTY SHERIFF (Text Message) Fire 12450 Merritt Rd TXT STOP to opt-out
 13610 Bass Lake Rd
 MVA Bass Lake & Butternut
