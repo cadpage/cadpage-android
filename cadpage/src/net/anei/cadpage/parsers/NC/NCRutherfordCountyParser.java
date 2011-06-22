@@ -19,6 +19,10 @@ Paging: Location= US221 S HWY & HARRIS HENRIETTA RD*\nAPT/ROOM* City=Forest City
 Contact: Jeff Lynn <lynnj163@gmail.com>
 Paging:Location=376 WOMACK LAKE RD* APT/ROOM* City=FOREST CITY* Call Type=ACCIDENT F* Units=428,MED10,RCR1,SMFD1*
 
+Contact: Ferrell Hamrick <fireball3412@gmail.com>
+prvs=11539c2346=paging@rutherfordcountync.gov (Message Forwarded by PageGate) Location=WITHROW RD & HUDLOW*\nAPT/ROOM*\n\nCity=FOREST CITY*\n\nCall Type=ACCIDENT PI*\n\n\n\nUnits=103,FCFD1,
+
+
 
 */
 
@@ -35,9 +39,15 @@ public class NCRutherfordCountyParser extends FieldProgramParser {
   }
   
   @Override
-  public boolean parseMsg(String body, Data data) {
-    if (!body.startsWith("Paging:")) return false;
-    body = body.substring(7).trim();
+  public boolean parseMsg(String subject, String body, Data data) {
+    do {
+      if (body.startsWith("Paging:")) {
+        body = body.substring(7).trim();
+        break;
+      }
+      if (subject.endsWith("PageGate")) break;
+      return false;
+    } while (false);
     body = body.replace("\n", "").replace('=', ':');
     return super.parseFields(body.split("\\*"), data);
   }
