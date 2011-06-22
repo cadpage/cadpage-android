@@ -33,15 +33,17 @@ Sender: dispatch@firetracker.net
 (FirePage) *FSMFD* 4/29/2011 TOA:21:59 MUTUAID [MAF] 125 MEACHAM AVE POST AVE\n[FireTracker]
 (FirePage) FSMFD 5/2/2011 TOA:17:36 AMBU [AMBU] 766 WILLOW ROAD BIRCH ST BROKEN\nHIP [FireTracker]
 
-Contact: J N <shadymailman@gmail.com>
+Contact: J N <shadymailman@gmail.com>,Jason Ng <jasonkwng@gmail.com>
 1 of 2\nFRM:dispatch@firetracker.net\nSUBJ:FirePage\nMSG:**NMFD** [GENERAL] [HOUSE] 7 ARMS AVE C/S: CAMP AVE / GARFIELD (E) ST -\nM/A 64 UPSTAIRS\n(Con' 2 of 2\nTOA:01:57 6/20/2011 Town Of: MERRICK [FireTracker](End)
+1 of 2\nFRM:dispatch@firetracker.net\nSUBJ:FirePage\nMSG:**NMFD** [AMBU] [AMBU] 119 RHODE AVE C/S: HENRY ROAD / WILLIAM ST - M/A\n65 PAIN IN LEFT\n(Con' 2 of 2\nSIDE TOA:09:46 6/21/2011 Town Of: NO MERRICK\n[FireTracker](End)
+1 of 2\nFRM:dispatch@firetracker.net\nSUBJ:FirePage\nMSG:**NMFD** [AMBU] [AMBU] 4 WILLIAM ST C/S: BRIARCLIFF DR / RICHARD AVE -\nM/A 65 93F\n(Con't) 2 of 2\nCARDIAC/CARDIAC HISTORY TOA:14:02 6/21/2011 Town Of: NO\nMERRICK [FireTracker](End)
 
 */
 public class NYNassauCountyFiretrackerParser extends FieldProgramParser {
   
   public NYNassauCountyFiretrackerParser() {
     super("NASSAU COUNTY", "NY", 
-           "ADDR/SC! CS:X INFO:INFO TOA:SKIP");
+           "ADDR/SC! CS:X TOA:SKIP");
   }
   
   @Override
@@ -93,7 +95,7 @@ public class NYNassauCountyFiretrackerParser extends FieldProgramParser {
     } while (false);
     
     body = body.replace('\n', ' ').replace("C/S:", "CS:").replace(" LA ", " LN ");
-    body = body.replace(" -\n", " INFO: ");
+
     return super.parseMsg(body, data);
   }
   
@@ -110,9 +112,25 @@ public class NYNassauCountyFiretrackerParser extends FieldProgramParser {
     }
   }
   
+  private class MyCrossField extends CrossField {
+    
+    @Override
+    public void parse(String field, Data data) {
+      Parser p = new Parser(field);
+      data.strSupp = p.getLastOptional(" - ");
+      super.parse(p.get(), data);
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "X INFO";
+    }
+  }
+  
   @Override
   public Field getField(String name) {
     if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("X")) return new MyCrossField();
     return super.getField(name);
   }
   
