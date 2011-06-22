@@ -62,10 +62,17 @@ public class NCMecklenburgCountyParserTest extends BaseParserTest {
         "PLACE:Willow Grove Retirement",
         "INFO:Charlie",
         "CALL:06- Breathing Pr");
+
+    doTest("T8",
+        "(Incoming Message) 19432 Fridley Ln                        medical alarm .. no pt info ..Charlie                       32- Unknown problem (man down)Denae Lynn",
+        "ADDR:19432 Fridley Ln",
+        "PLACE:medical alarm .. no pt info ..",
+        "INFO:Charlie",
+        "CALL:32- Unknown problem (man down)Denae Lynn");
  }
   
 
   public static void main(String[] args) {
-    new NCMecklenburgCountyParserTest().generateTests("T6", "ADDR APT PLACE INFO CALL");
+    new NCMecklenburgCountyParserTest().generateTests("T8", "ADDR APT PLACE INFO CALL");
   }
 }
