@@ -48,6 +48,13 @@ public class WIKenoshaCountyParserTest extends BaseParserTest {
         "ID:002011072060",
         "CALL:MVA",
         "ADDR:80TH AVE and COOPER RD");
+
+    doTest("T6",
+        "From: CNT304 #:002011086007 ALS MED at 835 HICKORY RD Rem: 53 F ;SEIZURES CONSCIOUS: YES ,BREATHING: YES\37s",
+        "ID:002011086007",
+        "CALL:ALS MED",
+        "ADDR:835 HICKORY RD",
+        "INFO:53 F ;SEIZURES CONSCIOUS: YES ,BREATHING: YES\37s");
    
   }
   
