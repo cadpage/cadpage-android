@@ -17,12 +17,15 @@ DMB193 #:002011072020 BLS MED at 10519 120TH AVE EAST TOURIST INFO CNTR Rem: CHE
 DMB193 #:002011072054 SUPERVISOR ALRM at 7887 94TH AVE HOLIDAY INN EXPRESS
 DMB193 #:002011072060 MVA at 80TH AVE and COOPER RD
 
+Contact: "ksgrate@yahoo.com" <ksgrate@yahoo.com>
+From: CNT304 #:002011086007 ALS MED at 835 HICKORY RD Rem: 53 F ;SEIZURES CONSCIOUS: YES ,BREATHING: YES\37s
+
 */
 
 
 public class WIKenoshaCountyParser extends SmartAddressParser {
   
-  private static final Pattern MARKER = Pattern.compile("^[A-Z]{3}\\d{3} #:");
+  private static final Pattern MARKER = Pattern.compile("^(?:From: )?[A-Z]{3}\\d{3} #:");
   
   public WIKenoshaCountyParser() {
     super("KENOSHA COUNTY", "WI");

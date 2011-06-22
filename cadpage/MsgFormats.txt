@@ -2076,6 +2076,10 @@ Sender: cadpage@rmetro.com
 (- part 1 of 1)RC:0038-A/Run#36872/CALL:03:32/DISP:03:32/ENR:03:33/ATS:03:37/TRA:03:45/ATD:0 3:53/PUZIP:98408/DO:St Joseph Hospital
 (- part 1 of 1) RC:Run# 36872/Sick Person/<Unknown>/S 56TH ST & PACIFIC AVE///X=56th&55th/TACOMA//
 **********************************************************
+New Castle County, DE (alternate)
+Contact: Michael DiMauro <mdimaurojr@gmail.com>
+Sender: brandywinefireco@comcast.net
+06/21/2011*06:01*ASSAULT - UNKNOWN*1202 FAIRVIEW AV btwn MAPLE AV*HOLLY OAK TERRACE*MALE SUBJECT MACED //NCCPD ENR
 **********************************************************
 **********************************************************
 **********************************************************
