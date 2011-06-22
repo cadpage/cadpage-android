@@ -47,10 +47,25 @@ public class NCMecklenburgCountyParserTest extends BaseParserTest {
         "PLACE:Alexander Chase Condos",
         "INFO:Fire -  Emergency",
         "CALL:52F-Alarm-FIRE");
+
+    doTest("T6",
+        "Subject:Incoming Message\n9150 Lawyers Rd                         McDonalds - Mint Hill         Charlie                       06- Breathing Pr",
+        "ADDR:9150 Lawyers Rd",
+        "PLACE:McDonalds - Mint Hill",
+        "INFO:Charlie",
+        "CALL:06- Breathing Pr");
+
+    doTest("T7",
+        "Subject:Incoming Message\n10043 Idlewild Rd             126       Willow Grove Retirement       Charlie                       06- Breathing Pr",
+        "ADDR:10043 Idlewild Rd",
+        "APT:126",
+        "PLACE:Willow Grove Retirement",
+        "INFO:Charlie",
+        "CALL:06- Breathing Pr");
  }
   
 
   public static void main(String[] args) {
-    new NCMecklenburgCountyParserTest().generateTests("T4", "ADDR APT PLACE INFO CALL");
+    new NCMecklenburgCountyParserTest().generateTests("T6", "ADDR APT PLACE INFO CALL");
   }
 }

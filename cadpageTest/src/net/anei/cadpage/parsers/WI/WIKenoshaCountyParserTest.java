@@ -52,6 +52,6 @@ public class WIKenoshaCountyParserTest extends BaseParserTest {
   }
   
   public static void main(String[] args) {
-    new WIKenoshaCountyParserTest().generateTests("T1", "ID CALL ADDR PLACE INFO");
+    new WIKenoshaCountyParserTest().generateTests("T6", "ID CALL ADDR PLACE INFO");
   }
 }

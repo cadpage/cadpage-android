@@ -68,6 +68,13 @@ public class NCRutherfordCountyParserTest extends BaseParserTest {
         "CITY:FOREST CITY",
         "CALL:ACCIDENT F",
         "UNIT:428,MED10,RCR1,SMFD1");
+
+    doTest("T9",
+        "prvs=11539c2346=paging@rutherfordcountync.gov (Message Forwarded by PageGate) Location=WITHROW RD & HUDLOW*\nAPT/ROOM*\n\nCity=FOREST CITY*\n\nCall Type=ACCIDENT PI*\n\n\n\nUnits=103,FCFD1,",
+        "ADDR:WITHROW RD & HUDLOW",
+        "CITY:FOREST CITY",
+        "CALL:ACCIDENT PI",
+        "UNIT:103,FCFD1,");
     
   }
 
