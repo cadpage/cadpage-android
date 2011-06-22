@@ -161,12 +161,29 @@ public class NYNassauCountyFiretrackerParserTest extends BaseParserTest {
         "SRC:NMFD",
         "CALL:[GENERAL] [HOUSE]",
         "ADDR:7 ARMS AVE",
-        "X:CAMP AVE / GARFIELD (E) ST - M/A 64 UPSTAIRS");
+        "X:CAMP AVE / GARFIELD (E) ST",
+        "INFO:M/A 64 UPSTAIRS");
+
+    doTest("T2",
+        "1 of 2\nFRM:dispatch@firetracker.net\nSUBJ:FirePage\nMSG:**NMFD** [AMBU] [AMBU] 119 RHODE AVE C/S: HENRY ROAD / WILLIAM ST - M/A\n65 PAIN IN LEFT\n(Con' 2 of 2\nSIDE TOA:09:46 6/21/2011 Town Of: NO MERRICK\n[FireTracker](End)",
+        "SRC:NMFD",
+        "CALL:[AMBU] [AMBU]",
+        "ADDR:119 RHODE AVE",
+        "X:HENRY ROAD / WILLIAM ST",
+        "INFO:M/A 65 PAIN IN LEFT SIDE");
+
+    doTest("T3",
+        "1 of 2\nFRM:dispatch@firetracker.net\nSUBJ:FirePage\nMSG:**NMFD** [AMBU] [AMBU] 4 WILLIAM ST C/S: BRIARCLIFF DR / RICHARD AVE -\nM/A 65 93F\n(Con't) 2 of 2\nCARDIAC/CARDIAC HISTORY TOA:14:02 6/21/2011 Town Of: NO\nMERRICK [FireTracker](End)",
+        "SRC:NMFD",
+        "CALL:[AMBU] [AMBU]",
+        "ADDR:4 WILLIAM ST",
+        "X:BRIARCLIFF DR / RICHARD AVE",
+        "INFO:M/A 65 93F CARDIAC/CARDIAC HISTORY");
     
   }
   
   public static void main(String[] args) {
-    new NYNassauCountyFiretrackerParserTest().generateTests("T6");
+    new NYNassauCountyFiretrackerParserTest().generateTests("T2");
     //new NYNassauCountyFiretrackerParserTest().generateTests("T1", "SRC CALL ADDR X INFO");
   }
 }
