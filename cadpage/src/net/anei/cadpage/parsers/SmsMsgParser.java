@@ -460,6 +460,15 @@ public abstract class SmsMsgParser {
    if (str2.length() == 0) return str1;
    return str1 + connector + str2;
  }
+ 
+ /**
+  * Covenience method to get results of a (possibly null) match group
+  * @param input resuts of the Matcher.group() call
+  * @return unnullified and trimmed result.
+  */
+ protected String getOptGroup(String input) {
+   return (input == null ? "" : input.trim());
+ }
 
  /**
   * Convenience method to remove any extended charset characters from input data

@@ -1150,6 +1150,11 @@ Montgomery County, TX (TXMontgomeryCountyParser)
 [Fire CAD Message]  New Fire Run: 2010-63564,Nature: 19D04-HEART PROBLEMS - Clammy,MR51,Location: HIGHWAY 105 W & S FM 1486,Building: ,Cross: ,,G
 [Fire CAD Message]  New Fire Run: 2010-63733,Nature: F15-ILLEGAL BURN,E55;,Location: 14321 FOREST CIR E-MO,Building: ,Cross: 14658 FOREST CIR-MO,
 ***************************************************************************
+Nueces County, TX (TXNuecesCountyParser)
+Subject:MetroCom Notification\nMEDICAL - UNCON, ALRM: 0, PRI: 1, ESZ: 67 / 2141 TULOSO RD CC NUECS: @SUNTIDE FEDERAL CU- TULOSO RD
+Subject:MetorCom Notifiction\nAlarm – COMM-SML, ALRM: 0, PRI: 2, ESZ: 107 / 16318 fm 624 NUECS: @RIVER HILLS BASPTIST CHURCH
+Subject:MetorCom Notifiction\nMEDICAL – ALLERGY, ALRM: 0, PRI: 2, ESZ: 2009 / 11559 LEOPARD ST CC NUECS: @CALALLEN MINOR EMERGENCY CLINI
+***************************************************************************
 Davis County, UT (UTDavisCountyParser)
 paging@co.davis.ut.us<http://us.mc330.mail.yahoo.com/mc/compose?to=paging@co.davis.ut.us>/\nDCSO / Fire Alarm Comm\n2645 N MAIN ST; 12D ACTION ZONE GYMNASTI\nKEY PAD / RP PENDING
 Child Birth\n2539 N 475 W; #B\n17:02:14 11/29/2010 - dmaples\nProQA Medical Recommended Dispatch Level = 24D5\n28 year old, Female, Conscious, B
@@ -2285,26 +2290,6 @@ C1: BAINBRIDGE LA
 C2: PLANK RD
 X: PRECAUTIONARY FOR CHEST PAIN DUE TO MVA
 **********************************************************
-Nueces County, TX
-Contact: Mike Clack <chief@annavillevfd.com>
-Sender: ccpdpaging@cctexas.com<mailto:ccpdpaging@cctexas.com
-cc = corpus christi
-neucs = neuces
-
-Subject:MetroCom Notification
-MEDICAL - UNCON, ALRM: 0, PRI: 1, ESZ: 67 / 2141 TULOSO RD CC NUECS: @SUNTIDE FEDERAL CU- TULOSO RD
-
-Subject:MetorCom Notifiction
-Alarm – COMM-SML, ALRM: 0, PRI: 2, ESZ: 107 / 16318 fm 624 NUECS: @RIVER HILLS BASPTIST CHURCH
-
-Subject:MetorCom Notifiction
-MEDICAL – ALLERGY, ALRM: 0, PRI: 2, ESZ: 2009 / 11559 LEOPARD ST CC NUECS: @CALALLEN MINOR EMERGENCY CLINI
-
-Subject:MetorCom Notifiction
-FIRE-OTHER – GRASS, ALRM: 0, PRI: 1, ESZ 107 / HWY 77 FWY SB/CR 48 NUECS
-
-Subject:MetorCom Notifiction
-MEDICAL – CHEST, ALRM: 0, PRI: 1, 104 / FM 43/FM 763 NUECS
 **********************************************************
 Orange County, NC
 Contact: Rachel Reid <rachelr832@gmail.com>
