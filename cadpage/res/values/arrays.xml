@@ -212,6 +212,7 @@
     <item>MN Minnesota</item>
     <item>MO Missouri</item>
     <item>MT Montana</item>
+    <item>NV Nevada</item>
     <item>NJ New Jersey</item>
     <item>NY New York</item>
     <item>NC North Carolina</item>
@@ -307,6 +308,7 @@
     <item>MORayCounty</item>
     <item>MOStLouisCounty</item>
     <item>MTLewisAndClarkCounty</item>
+    <item>NVLasVegas</item>
     <item>NJBergenCounty</item>
     <item>NJBurlingtonCounty</item>
     <item>NJCamdenCounty</item>
@@ -518,6 +520,7 @@
     <item>Ray County, MO</item>
     <item>St Louis County, MO</item>
     <item>Lewis &amp; Clark County, MT</item>
+    <item>Las Vegas, NV</item>
     <item>Bergen County, NJ</item>
     <item>Burlington County, NJ</item>
     <item>Camden County, NJ</item>
