@@ -113,16 +113,18 @@ public class SmartAddressParserTest extends BaseParserTest {
         "ADDR:US HIGHWAY 85 NB & E 77TH AVE");
     doTest("ADDR", "ST HWY 85 EXTRA",
         "ADDR:ST HWY 85");
-
     doTest(CALL, "BAD STUFF 134 US HIGHWAY 85 NB EXTRA",
         "CALL:BAD STUFF",
         "ADDR:134 US HIGHWAY 85 NB");
     doTest(CALL, "BAD STUFF US HIGHWAY 85 NB/E 77TH AVE ADAM ADAM",
         "CALL:BAD STUFF",
         "ADDR:US HIGHWAY 85 NB & E 77TH AVE");
-    doTest("ADDR", "BAD STUFF ST HWY 85 EXTRA",
+    doTest(CALL, "BAD STUFF ST HWY 85 EXTRA",
         "CALL:BAD STUFF",
         "ADDR:ST HWY 85");
+    doTest(CALL, "CALL 123 COUNTY ROAD 45 EXTRA",
+        "CALL:CALL",
+        "ADDR:123 COUNTY ROAD 45");
 
   }
   
