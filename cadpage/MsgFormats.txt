@@ -2106,7 +2106,15 @@ Unknown
 Contact: Jason Reed <reedjasonf@gmail.com>
 MESSAGE / M50 MOTOR VEHICLE ACCIDENT-INJURIES  COUNTY ROAD 322  MapRegions:  CrossStreets: Description:  Dispatch: 6/22/2011 14:12:48\n\n\n\n\n
 **********************************************************
+Unknown
+Contact: Dennis Blanks <dblanks09@gmail.com>
+Sender: halifaxeoc@co.halifax.va.us
+(from Central) 11-022783 ACCIDENT INVOLVING PEDESTRIAN\n104-20 LOVE SHOP PARK RD\nOLD HALIFAX RD / DEA/D END\nLOVE SHOP TRAILER PARK  SOUTH BOSTON
 **********************************************************
+Kanappolis, NC
+Contact: "jellyroll5502@yahoo.com" <jellyroll5502@yahoo.com>
+Sender: CAD@ci.kannapolis.nc.us
+2319:CAD:1;MVC INJURY- NO PIN IN/ENTRAP;499 S RIDGE AV/DALE EARNHARDT BLVD;K103;{FROM CSO: MOTORCYCLE HIT TREE [06/20/11 07:59:01 MCLEWIS]} [06/20/11 08:01:
 **********************************************************
 **********************************************************
 **********************************************************
