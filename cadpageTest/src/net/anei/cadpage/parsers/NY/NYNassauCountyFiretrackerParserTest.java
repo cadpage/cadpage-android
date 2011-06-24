@@ -194,10 +194,26 @@ public class NYNassauCountyFiretrackerParserTest extends BaseParserTest {
         "ADDR:28 SURREY DR",
         "X:BAKER AVE / CROYDON DR",
         "INFO:M/A 65 FM FAINTING");
+
+    doTest("T6",
+        "1 of 2\nFRM:dispatch@firetracker.net\nSUBJ:FirePage\nMSG:**NMFD** [AMBU] [AMBU] MERRICK AVE C/S: JERUSALEM AVE - M/A 65 FEMALE\nLYING IN ROADWAY\n(Con't 2 of 2\nTOA:16:52 6/23/2011 Town Of: NO MERRICK [FireTracker](End)",
+        "SRC:NMFD",
+        "CALL:[AMBU] [AMBU]",
+        "ADDR:MERRICK AVE",
+        "X:JERUSALEM AVE",
+        "INFO:M/A 65 FEMALE LYING IN ROADWAY");
+
+    doTest("T7",
+        "1 of 2\nFRM:dispatch@firetracker.net\nSUBJ:FirePage\nMSG:**NMFD** [MVA] [MVA] PARK AVE C/S: CAMERON AVE - M/A 65 AIDED WITH CHEST\nPAINS TOA:23:00\n(Con 2 of 2\n6/23/2011 Town Of: NO MERRICK [FireTracker](End)",
+        "SRC:NMFD",
+        "CALL:[MVA] [MVA]",
+        "ADDR:PARK AVE",
+        "X:CAMERON AVE",
+        "INFO:M/A 65 AIDED WITH CHEST PAINS");
  }
   
   public static void main(String[] args) {
-    new NYNassauCountyFiretrackerParserTest().generateTests("T4");
+    new NYNassauCountyFiretrackerParserTest().generateTests("T6");
     //new NYNassauCountyFiretrackerParserTest().generateTests("T1", "SRC CALL ADDR X INFO");
   }
 }
