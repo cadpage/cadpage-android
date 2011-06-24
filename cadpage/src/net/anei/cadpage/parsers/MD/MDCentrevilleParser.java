@@ -29,6 +29,16 @@ Contact: jahurlock@cvfd7.com <jahurlock@cvfd7.com>
 Sender: QA911com@qac.org 
 (Text Message) QA911com:*G KM06 MUTUAL AID MEDICAL 300 WASHINGTON AVE MUTUAL AID ONLY KM06
 
+Kent Island VFD
+Contact: Joshua Ruby <josh@computerrescuemd.com>
+[Text Message]  QA911com:*D 1-15 CHEST PAINS 1630 MAIN ST BREATHING NORMAL>35 Q01
+[Text Message]  QA911com:*D 1-9 SICK PERSON 402 CASTLE MARINA RD NOT ALERT Q01 
+[Text Message]  QA911com:*D 1-3 HEART PROBLEMS 115 SALLITT DR ABNORMAL BREATHING Q01
+[Text Message]  QA911com:*D 1-10 SEIZURES 1918 ANCHORAGE DR CONTINUOUS/MULTIPLE Q01
+[Text Message]  QA911com:*D 1-9 ODOR OF SMOKE INSIDE 44 F QUEEN NEVA CT COMMERCIAL BOX Q01
+[Text Message]  QA911com:*D 1-15 HEART PROBLEMS 1630 MAIN ST CARDIAC HISTORY Q01
+[Text Message]  QA911com:*D 1-4 DROWNING/DIVE ACCDNT 624 ROMANCOKE RD WATER RESCUE BOX Q01
+
 ******************************************************************************/
 
 public class MDCentrevilleParser extends SmartAddressParser {
