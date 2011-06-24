@@ -13,7 +13,7 @@ public class MDCentrevilleParserTest extends BaseParserTest {
   }
   
   @Test
-  public void testParser() {
+  public void testCentreVilleParser() {
     
     doTest("T1",
         "qac911:*D 4-2 COMMERCIAL BLDG FIRE DUNKIN DONUTS @500 CHURCH HILL RD COMMERCIAL BOX Q04",
@@ -77,7 +77,54 @@ public class MDCentrevilleParserTest extends BaseParserTest {
 
   }
   
+  @Test
+  public void testKentIslandParser() {
+
+    doTest("T1",
+        "[Text Message]  QA911com:*D 1-15 CHEST PAINS 1630 MAIN ST BREATHING NORMAL>35 Q01",
+        "CALL:1-15 CHEST PAINS",
+        "ADDR:1630 MAIN ST",
+        "INFO:BREATHING NORMAL>35 Q01");
+
+    doTest("T2",
+        "[Text Message]  QA911com:*D 1-9 SICK PERSON 402 CASTLE MARINA RD NOT ALERT Q01",
+        "CALL:1-9 SICK PERSON",
+        "ADDR:402 CASTLE MARINA RD",
+        "INFO:NOT ALERT Q01");
+
+    doTest("T3",
+        "[Text Message]  QA911com:*D 1-3 HEART PROBLEMS 115 SALLITT DR ABNORMAL BREATHING Q01",
+        "CALL:1-3 HEART PROBLEMS",
+        "ADDR:115 SALLITT DR",
+        "INFO:ABNORMAL BREATHING Q01");
+
+    doTest("T4",
+        "[Text Message]  QA911com:*D 1-10 SEIZURES 1918 ANCHORAGE DR CONTINUOUS/MULTIPLE Q01",
+        "CALL:1-10 SEIZURES",
+        "ADDR:1918 ANCHORAGE DR",
+        "INFO:CONTINUOUS / MULTIPLE Q01");
+
+    doTest("T5",
+        "[Text Message]  QA911com:*D 1-9 ODOR OF SMOKE INSIDE 44 F QUEEN NEVA CT COMMERCIAL BOX Q01",
+        "CALL:1-9 ODOR OF SMOKE INSIDE",
+        "ADDR:44 F QUEEN NEVA CT",
+        "INFO:COMMERCIAL BOX Q01");
+
+    doTest("T6",
+        "[Text Message]  QA911com:*D 1-15 HEART PROBLEMS 1630 MAIN ST CARDIAC HISTORY Q01",
+        "CALL:1-15 HEART PROBLEMS",
+        "ADDR:1630 MAIN ST",
+        "INFO:CARDIAC HISTORY Q01");
+
+    doTest("T7",
+        "[Text Message]  QA911com:*D 1-4 DROWNING/DIVE ACCDNT 624 ROMANCOKE RD WATER RESCUE BOX Q01",
+        "CALL:1-4 DROWNING/DIVE ACCDNT",
+        "ADDR:624 ROMANCOKE RD",
+        "INFO:WATER RESCUE BOX Q01");
+    
+  }
+  
   public static void main(String[] args) {
-    new MDCentrevilleParserTest().generateTests("T10", "CALL ADDR INFO");
+    new MDCentrevilleParserTest().generateTests("T1", "CALL ADDR INFO");
   }
 }
