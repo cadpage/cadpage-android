@@ -63,6 +63,7 @@ public abstract class SmsMsgParser {
     Data data = new Data();
     data.defCity = defCity;
     data.defState = defState;
+    if (strMessage == null) return data;
     if (parseMsg(strSubject, strMessage, data)) return data;
     
     // If this isn't a valid CAD page, see if we should treat it as a general alert
