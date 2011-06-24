@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">20110610</string>
-  <string name="release_version">v1.4.12</string>
+  <string name="release_date">20110623</string>
+  <string name="release_version">v1.4.13</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
@@ -12,21 +12,39 @@
   MMS Support is here!!!\n
   This is highly experimental.  Your mileage may vary.  See http://www.cadpage.org/faq/mms-message-support for details\n
   \n
-	New Locations:\n
-  Kootenai County, ID\n
-  Chilton County, AL\n
-  Washington County, PA\n
-  
+	New Locations: \n
+Hudson, OH\n
+Louisa County, VA\n  
+Williamson County, TX\n  
+Kent County, MD\n  
+Litchfield County, CT\n  
+Ray County, MO\n   
+Kankakee County, IL\n  
+Las Vegas, NV\n  
+Chatham County, NC\n   
+Moore County, NC\n   
+Dothan, AL\n   
+Polk County, NC\n  
+Nueces County, TX\n
 \n
-	Fixes:\n
-	Jefferson County, NY\n
-  Mapping request rejected when roaming\n
-  Montgomery County,TX\n
-  Cambria County, PA\n
-  Tolland County, CT\n
-  Greeley, CO \n
-  Iredell County, NC\n
-  Bucks County, PA\n
+Fixes:\n
+Guildord County,NC location\n  
+Centreville, MD location\n
+Saginaw County, MI\n
+Cambria County, PA\n 
+Wilson County, NC\n
+Adams County, CO\n  
+Mecklenburg County, NC\n   
+Long call description are lost because display wont wrap more than 2 lines\n  
+Frederick County, MD\n
+City code list for Cataragus County, NY is incomplete\n 
+Nassau County, NY (B) parser\n
+Nassau County (Firetrack), NY location\n   
+Smart address logic not handling alpha route numbers\n   
+Address parser is removing decimal points from GPS coordinates\n   
+Rutherford County, NC\n
+Kenosha County, WI location\n  
+Harris County ESD#1 location\n
   </string>  
 </resources>
   
