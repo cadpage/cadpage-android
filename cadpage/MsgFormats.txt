@@ -2121,6 +2121,61 @@ Sender: CAD@ci.kannapolis.nc.us
 ************  READY TO ROLL ******************************
 **********************************************************
 **********************************************************
+Transylvania County, NC
+Contact: 8285771168@vzwpix.com,SUMMERSHINE@vtext.com
+911CENTER:45 OAK PARK DR BREVARD CITY 2011-019677 10:43:54 ALARM FIRE (10-37) alarm fire
+911CENTER:2725 RESERVE RD LITTLE RIVER 2011-019735 16:20:13 ALARM FIRE (10-37) FOGLE, JOHN 8288775516 FIRE ALARM SMOKE DETECTOR
+911CENTER:1 WHITMIRE ST BREVARD CITY 2011-019863 13:34:30 STRUCTURE FIRE OUTBUILDING ON FIRE
+911CENTER:1 N BROAD ST BREVARD CITY 2011-019978 10:22:32 HAZARDOUS MATERIAL INCIDENT GREEN RANGE ROVER LEAKING GAS AT PUMP #7
+911CENTER:400 ASHEVILLE HWY BREVARD CITY 2011-020259 13:35:26 BRUSH FIRE MULCH FIRE IN FRONT OF DOMINOS PIZZA
+911CENTER:1 ISLAND COVE RD LITTLE RIVER 2011-020447 21:09:42 STRUCTURE FIRE BLACK SMOKE ON ISLAND COVE RD
+**********************************************************
+Orange County, NC
+Contact: Rachel Reid <rachelr832@gmail.com>
+Sender: @cedargrovefire.org (not county wide )
+
+(CAD Page for CFS 060911-335) OPS 
+TRNG/WRK SESSION
+TRNG AT 1900 HRS
+Apt: 
+Build:
+
+(CAD Page for CFS 060911-335) OPS 
+TRNG/WRK SESSION
+TRNG AT 1900 HRS
+Apt: 
+Build:
+
+(CAD Page for CFS 060511-228) OPS 2
+Auto Fire Alarm
+6514 DOC CORBETT RD
+Apt: 
+Build:
+
+(CAD Page for CFS 060411-348) OPS 1
+BREATHING
+8100 NC 86 N
+Apt: 
+Build:
+
+(CAD Page for CFS 060311-397) OPS 1
+TRAUMATIC INJURY
+MILL CREEK RD and WAXSTAFF RD
+Apt: 
+Build:
+
+(CAD Page for CFS 052911-170) OPS 1
+Traffic Accident-PI
+MCDADE STORE RD and NC 86 N
+Apt: 
+Build:
+
+(CAD Page for CFS 051311-370) OPS 
+INFO FOR ALL UNITS
+643 tanker back in service
+Apt: 
+Build:
+**********************************************************
 Chester County, PA (alternate)
 Contact: jtg5097@yahoo.com <jtg5097@yahoo.com>
 Sender: wgfc22@comcast.net
@@ -2150,15 +2205,6 @@ MVA w/ Aided: Zone: 43, Response:CO4, CO3, CO6\nat 363 GREAT NECK RD, GREAT NECK
 MVA w/ Aided: Zone: 43, Response:CO4, CO3\nat NORTHERN BLVD / GREAT NECK RD, GREAT NECK . . 17:45:30
 [Brush] Trees: Zone: 54, Response:CO5\nat NEW HYDE PARK RD / NORTH SERVICE RD, NEW HYDE PARK . . 18:32:59
 Carbon Monoxide w/ Aided: Zone: 52, Response:CO5, CO6\nat 45 CHESTNUT HILL, NORTH HILLS  c/s: ACORN PONDS DR . . 00:59:33
-**********************************************************
-Transylvania County, NC
-Contact: 8285771168@vzwpix.com,SUMMERSHINE@vtext.com
-911CENTER:45 OAK PARK DR BREVARD CITY 2011-019677 10:43:54 ALARM FIRE (10-37) alarm fire
-911CENTER:2725 RESERVE RD LITTLE RIVER 2011-019735 16:20:13 ALARM FIRE (10-37) FOGLE, JOHN 8288775516 FIRE ALARM SMOKE DETECTOR
-911CENTER:1 WHITMIRE ST BREVARD CITY 2011-019863 13:34:30 STRUCTURE FIRE OUTBUILDING ON FIRE
-911CENTER:1 N BROAD ST BREVARD CITY 2011-019978 10:22:32 HAZARDOUS MATERIAL INCIDENT GREEN RANGE ROVER LEAKING GAS AT PUMP #7
-911CENTER:400 ASHEVILLE HWY BREVARD CITY 2011-020259 13:35:26 BRUSH FIRE MULCH FIRE IN FRONT OF DOMINOS PIZZA
-911CENTER:1 ISLAND COVE RD LITTLE RIVER 2011-020447 21:09:42 STRUCTURE FIRE BLACK SMOKE ON ISLAND COVE RD
 **********************************************************
 Madison County, AL (alternate)
 Contact: Jarrod Dozier <captnjd5@gmail.com>
@@ -2290,52 +2336,6 @@ C1: BAINBRIDGE LA
 C2: PLANK RD
 X: PRECAUTIONARY FOR CHEST PAIN DUE TO MVA
 **********************************************************
-**********************************************************
-Orange County, NC
-Contact: Rachel Reid <rachelr832@gmail.com>
-Sender: @cedargrovefire.org (not county wide )
-
-(CAD Page for CFS 060911-335) OPS 
-TRNG/WRK SESSION
-TRNG AT 1900 HRS
-Apt: 
-Build:
-
-(CAD Page for CFS 060911-335) OPS 
-TRNG/WRK SESSION
-TRNG AT 1900 HRS
-Apt: 
-Build:
-
-(CAD Page for CFS 060511-228) OPS 2
-Auto Fire Alarm
-6514 DOC CORBETT RD
-Apt: 
-Build:
-
-(CAD Page for CFS 060411-348) OPS 1
-BREATHING
-8100 NC 86 N
-Apt: 
-Build:
-
-(CAD Page for CFS 060311-397) OPS 1
-TRAUMATIC INJURY
-MILL CREEK RD and WAXSTAFF RD
-Apt: 
-Build:
-
-(CAD Page for CFS 052911-170) OPS 1
-Traffic Accident-PI
-MCDADE STORE RD and NC 86 N
-Apt: 
-Build:
-
-(CAD Page for CFS 051311-370) OPS 
-INFO FOR ALL UNITS
-643 tanker back in service
-Apt: 
-Build:
 **********************************************************
 Ventura County, CA
 Contact: Chase Morgan <chasemorgan43@gmail.com>
