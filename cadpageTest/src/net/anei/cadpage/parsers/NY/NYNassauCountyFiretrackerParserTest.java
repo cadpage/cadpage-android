@@ -186,6 +186,14 @@ public class NYNassauCountyFiretrackerParserTest extends BaseParserTest {
         "CALL:[GENERAL] [CARB]",
         "ADDR:185 E LOINES AV",
         "X:GRACE AVE / -DEAD END-- M/A 64");
+
+    doTest("T5",
+        "1 of 2\nFRM:dispatch@firetracker.net\nSUBJ:FirePage\nMSG:**NMFD** [AMBU] [AMBU] 28 SURREY DR C/S: BAKER AVE / CROYDON DR - M/A 65\nFM FAINTING\n(Con't) 2 of 2\nTOA:16:41 6/23/2011 Town Of: NO MERRICK [FireTracker](End)",
+        "SRC:NMFD",
+        "CALL:[AMBU] [AMBU]",
+        "ADDR:28 SURREY DR",
+        "X:BAKER AVE / CROYDON DR",
+        "INFO:M/A 65 FM FAINTING");
  }
   
   public static void main(String[] args) {

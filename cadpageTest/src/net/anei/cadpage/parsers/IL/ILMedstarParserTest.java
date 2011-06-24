@@ -61,6 +61,17 @@ public class ILMedstarParserTest extends BaseParserTest {
         "MAP:13",
         "CITY:EAST SAINT LOUIS",
         "CALL:pedestian struck");
-    
+
+    doTest("T7",
+        "1 of 2\nFRM:emsdispatch@medstarems.net\nSUBJ:- part 1 of 1\nMSG:RC:Run# 17158/St Elizabeths B'vll/IN PATIENT/347-2/SCC PG26/BELLEVILLE/429 S MAIN\n(Con't) 2 of 2\nST//CONFUSED POSS COMBATIVE NSE PCS AND FACESHEET REQ ***MEDICARE****\n(End)",
+        "ID:17158",
+        "ADDR:St Elizabeths B'vll",
+        "CITY:IN PATIENT",
+        "CALL:347-2 / SCC PG26 / BELLEVILLE / 429 S MAIN ST / CONFUSED POSS COMBATIVE NSE PCS AND FACESHEET REQ ***MEDICARE****");
+   
+  }
+  
+  public static void main(String[] args) {
+    new ILMedstarParserTest().generateTests("T7", "ID ADDR X MAP CITY CALL");
   }
 }
