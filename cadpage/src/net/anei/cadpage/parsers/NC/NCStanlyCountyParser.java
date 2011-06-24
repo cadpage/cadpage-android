@@ -26,6 +26,9 @@ CAD:80-DWELLING ALARM/601 EAST ST/ALB/N SEVENTH ST/N EIGHTH ST
 Contact: Chris Allan <nlcap2405@gmail.com>
 CAD:E13-DIABETIC PROBLEMS/40206 US 52 HWY N/NEW/AUSTIN RD/[Medical Priority Info] PROBLEM: diab prob # PATS: 1 AGE: 83 Years SEX: Male
 
+Contact: Roger Stamper <capt3607@gmail.com>
+CAD:E26-SICK PERSON/28345 ROWLAND RD/MTP/[Medical Priority Info] PROBLEM: HIGH FEVER, SINUS INFECTION, VOMITING # PATS: 1 AGE: 15 Years SEX: Female CONSCIOUS: Yes BREATHIN
+
 */
 
 public class NCStanlyCountyParser extends DispatchOSSIParser {
@@ -34,6 +37,7 @@ public class NCStanlyCountyParser extends DispatchOSSIParser {
       "ALB", "ALBEMARLE",
       "BAD", "BADIN",
       "LOC", "LOCUST",
+      "MTP", "MT PLEASANT",
       "NEW", "NEW LONDON",
       "NOR", "NORWOOD"
   });
