@@ -91,6 +91,13 @@ public class NCStanlyCountyParserTest extends BaseParserTest {
         "CITY:NEW LONDON",
         "X:AUSTIN RD",
         "INFO:diab prob # PATS: 1 AGE: 83 Years SEX: Male");
+
+    doTest("T11",
+        "CAD:E26-SICK PERSON/28345 ROWLAND RD/MTP/[Medical Priority Info] PROBLEM: HIGH FEVER, SINUS INFECTION, VOMITING # PATS: 1 AGE: 15 Years SEX: Female CONSCIOUS: Yes BREATHIN",
+        "CALL:E26-SICK PERSON",
+        "ADDR:28345 ROWLAND RD",
+        "CITY:MT PLEASANT",
+        "INFO:HIGH FEVER, SINUS INFECTION, VOMITING # PATS: 1 AGE: 15 Years SEX: Female CONSCIOUS: Yes BREATHIN");
   }
   
 
