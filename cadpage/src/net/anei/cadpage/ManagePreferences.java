@@ -474,7 +474,8 @@ public class ManagePreferences {
         R.string.pref_dimscreen_key,
         R.string.pref_privacy_key,
         R.string.pref_show_personal_key,
-        
+
+        R.string.pref_history_limit_key,
         R.string.pref_delete_unopen_key,
         R.string.pref_autorotate_key,
         
