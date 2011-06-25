@@ -25,6 +25,10 @@ Contact: Matt Bandieramonte <mbandieramonte@eastlincolnfd.org>
 2642:CAD:ELF-201102489-29B01-29-B-1 TRAFFIC ACCIDENT-N NC 16 HWY/NC 73 HWY-[Medical Priority Info] RESPONSE: Bravo RESPONDER SCRIPT: Age unknown, Female, Conscious, Breathing. Traffic / Transportation Incidents. Injuries. Caller Statement: 2 veh . 1.The incident involves m
 2616:CAD:ELF-201102226-107B01-ASSIST MOTORIST AGENCY OFFICER-5514 NC 73 HWY-SCHRONCE RD-INVERLOCHY RD-JUST BEFORE EAST LINCOLN HIGH SCHOOL [04/19/11 05:22:28 CGRANTLAND] CALLER IS EXTREMELY UPSET [04/19/11 05:21:48 CGRANTLAND] RIGHT HAND SIDE OF RD COMING FROM LINCOLNTON [04/19/11 05:21:39 CGRANT
 
+Contact: J Owens, Andromeda Pet Services <james@dogscantdrive.com>
+915:CAD:ADMN-201103837-29D02m-29-D-2 TRAFFIC ACCIDENT-3068 CAT SQUARE RD-HENRY RD-PALM TREE DR-669 IS OUT WITH MALE AND ROUTINE RESPONSE RAN OVER BY FARM EQU
+
+
 */
 
 public class NCLincolnCountyParser extends DispatchOSSIParser {
@@ -63,7 +67,7 @@ public class NCLincolnCountyParser extends DispatchOSSIParser {
   
   private class MyCodeField extends CodeField {
     public MyCodeField() {
-      setPattern(Pattern.compile("\\d{2}[A-Z]\\d{2}[A-Z]?"));
+      setPattern(Pattern.compile("\\d{2}[A-Z]\\d{2}[A-Za-z]?"));
     }
   }
   
