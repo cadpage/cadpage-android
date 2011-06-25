@@ -19,7 +19,10 @@ Sender: TN@TollandCounty911.org
 [TN Alert]  95 HARTFORD TPKE / Vernon * Golf Land Vehicle Accident MINOR INJURIES - EVALUATION
 [TN Alert]  67 BLUE RIDGE DR / Vernon Tree/Wires Down 14:38 Cross Street HICKORY HL / AUTUMN WOOD LN 2011-00001775
 (TN Alert) 155 W   MAIN ST 317 / Vernon ALS DIFFICULTY BREATHING 14:03 Cross Street ORCHARD ST, SPRING ST / WARD ST 2011-00001981
- 
+
+Contact: leanne buden <lbuden38@gmail.com>
+(TN Alert) 36 GARDNER ST / Warehouse Point Fire Alarm 17:11 Cross Street PLEASANT ST / BRIDGE ST 2011-00000190
+
 */
 
 public class CTTollandCountyParser extends SmartAddressParser {
@@ -46,7 +49,9 @@ public class CTTollandCountyParser extends SmartAddressParser {
     "STORRS",
     "CENTRAL SOMERS",
     "ROCKVILLE",
-    "MASHAPAUG"
+    "MASHAPAUG",
+    
+    "WAREHOUSE POINT"
   };
   
   private static final Pattern TIME_PTN = Pattern.compile("\\b\\d\\d: \\d\\d\\b");
