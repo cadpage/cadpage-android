@@ -124,7 +124,17 @@ public class NCLincolnCountyParserTest extends BaseParserTest {
         "PLACE:5514 NC 73 HWY",
         "X:SCHRONCE RD & INVERLOCHY RD",
         "INFO:JUST BEFORE EAST LINCOLN HIGH SCHOOL / CALLER IS EXTREMELY UPSET / RIGHT HAND SIDE OF RD COMING FROM LINCOLNTON");
-   }
+
+    doTest("T12",
+        "915:CAD:ADMN-201103837-29D02m-29-D-2 TRAFFIC ACCIDENT-3068 CAT SQUARE RD-HENRY RD-PALM TREE DR-669 IS OUT WITH MALE AND ROUTINE RESPONSE RAN OVER BY FARM EQU",
+        "SRC:ADMN",
+        "ID:201103837",
+        "CODE:29D02m",
+        "CALL:TRAFFIC ACCIDENT",
+        "ADDR:3068 CAT SQUARE RD",
+        "X:HENRY RD & PALM TREE DR",
+        "INFO:669 IS OUT WITH MALE AND ROUTINE RESPONSE RAN OVER BY FARM EQU");
+  }
   
   @Test
   public void testFixLater() {
@@ -141,6 +151,6 @@ public class NCLincolnCountyParserTest extends BaseParserTest {
   
 
   public static void main(String[] args) {
-    new NCLincolnCountyParserTest().generateTests("T8");
+    new NCLincolnCountyParserTest().generateTests("T12");
   }
 }
