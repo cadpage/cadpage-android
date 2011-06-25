@@ -63,6 +63,13 @@ public class ALChiltonCountyParserTest extends BaseParserTest {
         "ID:2011050250",
         "INFO:GENERAL ILLNESS 57 YO FEMALE // NERVE PROBLEMS // PERMENANT NERVE DAMAGE //");
 
+    doTest("T8",
+        "/ 3669 COUNTY RD 49 CLANTON 2011052209 11:18:28 FALL ELDERLY MALE FELL\n",
+        "ADDR:3669 COUNTY RD 49",
+        "CITY:CLANTON",
+        "ID:2011052209",
+        "INFO:FALL ELDERLY MALE FELL");
+
   }
   
   public static void main(String[] args) {
