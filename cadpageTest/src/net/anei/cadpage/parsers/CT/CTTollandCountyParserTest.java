@@ -77,6 +77,6 @@ public class CTTollandCountyParserTest extends BaseParserTest {
   }
   
   public static void main(String[] args) {
-    new CTTollandCountyParserTest().generateTests("T1", "ADDR APT CITY CALL X ID");
+    new CTTollandCountyParserTest().generateTests("T9", "ADDR APT CITY CALL X ID");
   }
 }
