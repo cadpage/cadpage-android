@@ -87,9 +87,52 @@ public class NYNassauCountyElmontParserTest extends BaseParserTest {
         "MAP:13-C6",
         "UNIT:ZONE 5");
 
+    doTest("T9",
+        "(6/24/2011 08:23) Call: GENERAL Sub: AUTO 1835 CENTRAL AVE NO VALLEY STREAM Cross: FENWOOD DR & STUART AVENO PERMIT 16-B7, ZONE 5",
+        "CALL:GENERAL / AUTO",
+        "ADDR:1835 CENTRAL AVE",
+        "CITY:NO VALLEY STREAM",
+        "INFO:FENWOOD DR & STUART AVENO PERMIT",
+        "MAP:16-B7",
+        "UNIT:ZONE 5");
+
+    doTest("T10",
+        "(6/24/2011 04:14) Call:  Sub: MAF 305 ROCKAWAY AVE VALLEY STREAM Cross: SUNRISE (E) HWY & HAWTHORNE (E) AVEFAST TO SCENE AREA 37, F/T 70",
+        "CALL:MAF",
+        "ADDR:305 ROCKAWAY AVE",
+        "CITY:VALLEY STREAM",
+        "INFO:SUNRISE (E) HWY & HAWTHORNE (E) AVEFAST TO SCENE AREA 37, F/T 70");
+
+    doTest("T11",
+        "(6/23/2011 21:42) Call: HOUSE Sub: HOUS 271 NORFELD BLVD ELMONT Cross: BARBARA ST & EMILY AVEELECTRICAL BURNING ODOR 13-C5, ZONE 4",
+        "CALL:HOUSE / HOUS",
+        "ADDR:271 NORFELD BLVD",
+        "CITY:ELMONT",
+        "INFO:BARBARA ST & EMILY AVEELECTRICAL BURNING ODOR",
+        "MAP:13-C5",
+        "UNIT:ZONE 4");
+
+    doTest("T12",
+        "(6/24/2011 22:43) Call: CARBON Sub: CARB 39 BUTLER BLVD ELMONT Cross: HEMPSTEAD TPK & DOVER STW/AIDED 10-D3, ZONE 2",
+        "CALL:CARBON / CARB",
+        "ADDR:39 BUTLER BLVD",
+        "CITY:ELMONT",
+        "INFO:HEMPSTEAD TPK & DOVER STW/AIDED",
+        "MAP:10-D3",
+        "UNIT:ZONE 2");
+
+    doTest("T13",
+        "(6/24/2011 21:05) Call: MVA Sub: MVA ELMONT ROAD ELMONT Cross: DUTCH BROADWAY &  8-B4, ZONE 5",
+        "CALL:MVA / MVA",
+        "ADDR:ELMONT ROAD",
+        "CITY:ELMONT",
+        "INFO:DUTCH BROADWAY &",
+        "MAP:8-B4",
+        "UNIT:ZONE 5");
+
   }
   
   public static void main(String[] args) {
-    new NYNassauCountyElmontParserTest().generateTests("T7");
+    new NYNassauCountyElmontParserTest().generateTests("T9");
   }
 }
