@@ -375,7 +375,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
       // AT and an &
       boolean att = address.contains("AT&T");
       if (att) address = address.replaceAll("AT&T", "AT%T");
-      address = address.replaceAll(" C/S:? ", " XS: ").replace("/", " / ").replace("&", " & ");
+      address = address.replaceAll(" C/S:? ", " XS: ").replace("/", " / ").replace("&", " & ").trim();
       if (att) address = address.replaceAll("AT%T", "AT&T");
       
       // Make sure any colon keyword parsers by itself

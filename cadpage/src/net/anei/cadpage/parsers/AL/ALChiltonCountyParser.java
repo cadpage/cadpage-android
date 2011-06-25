@@ -20,6 +20,10 @@ Contact: d w <miswtl@gmail.com>
 2645 COUNTY RD 37 THORSBY 2011050014 00:31:53 ASSIST OCCUPANT 91 YOM HAS FALLEN; LIFTING ASSISTANCE ONLY
 905 COUNTY RD 402 CLANTON 2011050250 05:43:58 GENERAL ILLNESS 57 YO FEMALE // NERVE PROBLEMS // PERMENANT NERVE DAMAGE //
 
+Contact: Scott Hooper <evfd1326@gmail.com>
+  / 3669 COUNTY RD 49 CLANTON 2011052209 11:18:28 FALL ELDERLY MALE FELL\n
+
+
 */
 
 
@@ -51,6 +55,7 @@ public class ALChiltonCountyParser extends DispatchSouthernParser {
   public boolean parseMsg(String body, Data data) {
     body = body.replace('\\', '/');
     body = body.replaceAll("\\bCOUNTY RD\\b", "CO");
+    if (body.startsWith("/")) body = body.substring(1).trim();
     if (! super.parseMsg(body, data)) return false;
     data.strAddress = data.strAddress.replaceAll("\\bCO\\b", "COUNTY RD");
     return true;
