@@ -241,7 +241,12 @@ public class SmsMessageQueue implements Serializable {
         view = li.inflate(R.layout.msg_list_item, parent, false);
         context.registerForContextMenu(view);
       }
-      ((HistoryMsgTextView)view).setMessage(queue.get(position));
+      try {
+        ((HistoryMsgTextView)view).setMessage(queue.get(position));
+      } catch (RuntimeException ex) {
+        SmsMsgLogBuffer.getInstance().addCrashMsg(queue.get(position));
+        throw ex;
+      }
       return view;
     }
   }

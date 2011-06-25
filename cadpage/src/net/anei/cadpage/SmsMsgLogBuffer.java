@@ -81,6 +81,26 @@ public class SmsMsgLogBuffer {
     int limit = ManagePreferences.logLimit();
     while (msgQueue.size() > limit) msgQueue.removeLast();
     
+    persistQueue();
+    return true;
+  }
+  
+  /**
+   * Add new message to message log buffer in response to application crash
+   * This method is used to log a SmsMmsMessage that is believed to have been
+   * responsible for a pending application crash.  It simply logs the message
+   * persists the message queue and exits
+   * @param msg message to be logged
+   */
+  public synchronized void addCrashMsg(SmsMmsMessage msg) {
+    msgQueue.addFirst(msg);
+    persistQueue();
+  }
+
+  /**
+   * Write message queue to permanent storage
+   */
+  private void persistQueue() {
     // Persist entire list to file
     ObjectOutputStream os = null;
     try {
@@ -92,7 +112,6 @@ public class SmsMsgLogBuffer {
     } finally {
       if (os != null) try {os.close();} catch (IOException ex) {}
     }
-    return true;
   }
 
   /**
