@@ -1952,14 +1952,6 @@ Sender: 4173802670
 911-CENTER:FMA MUTUAL AID/ASSIST OUTSIDE AGEN 214 E 5TH ST 4175270913 S MAPLE ST MUTUAL AID ASSIST OUTSIDE AGENCY
 BC911:MVAUNK>MOTOR VEH ACC UNKNOWN INJ STATE HIGHWAY 39 JENKINS VERIZON WIRELESS Cad: 2011-0000009418
 **********************************************************
-Halifax County, VA
-Contact: "devinsnead@hotmail.com" <devinsnead@hotmail.com>
-
-from Central]  11-017088 SHORTNESS OF BREATH, ETC.
-1110 HENRYS TRL
-AMBERSTONE DR / DEAD/END
-NATHALIE
-**********************************************************
 Unknown
 Contact: Matt Hatcher <dkht1250@yahoo.com>
 Sender: brandi.blair@comcast.net
@@ -2106,11 +2098,6 @@ Sender: Robot.ALERT@dothan.org
 Unknown
 Contact: Jason Reed <reedjasonf@gmail.com>
 MESSAGE / M50 MOTOR VEHICLE ACCIDENT-INJURIES  COUNTY ROAD 322  MapRegions:  CrossStreets: Description:  Dispatch: 6/22/2011 14:12:48\n\n\n\n\n
-**********************************************************
-Unknown
-Contact: Dennis Blanks <dblanks09@gmail.com>
-Sender: halifaxeoc@co.halifax.va.us
-(from Central) 11-022783 ACCIDENT INVOLVING PEDESTRIAN\n104-20 LOVE SHOP PARK RD\nOLD HALIFAX RD / DEA/D END\nLOVE SHOP TRAILER PARK  SOUTH BOSTON
 **********************************************************
 Kanappolis, NC
 Contact: "jellyroll5502@yahoo.com" <jellyroll5502@yahoo.com>
@@ -2789,6 +2776,24 @@ YELLOW HAMMER RD/FIRE TOWER RD;1050;[LAW] {37} ONE FINGER AND JAW/ SEC CONCUSION
 77 CASTLE ST;LIBERTY AVE;BELLMONT ST;FIRE OTHER NOT LISTED;microwave hot and not in use [06/23/11 09:59:22 JTEMPLETON].   
 W WINDSOR BLVD/N PRINCE BLVD;ACCIDENT WITH INJURIES;supreme prking lot. 2 veh. chryslter pt cruiser vs dodge ram piick up [06/23/11 13:13:34 JTEMPLETON]
 **********************************************************
+Halifax County, VA
+Contact: "devinsnead@hotmail.com" <devinsnead@hotmail.com>
+Sender: halifaxeoc@co.halifax.va.us
+
+[from Central]  11-017088 SHORTNESS OF BREATH, ETC.\n1110 HENRYS TRL\nAMBERSTONE DR / DEAD/END\nNATHALIE
+
+Contact: Dennis Blanks <dblanks09@gmail.com>
+(from Central) 11-022783 ACCIDENT INVOLVING PEDESTRIAN\n104-20 LOVE SHOP PARK RD\nOLD HALIFAX RD / DEA/D END\nLOVE SHOP TRAILER PARK  SOUTH BOSTON
+
+Contact: George Hodges <grh850@embarqmail.com>
+[from Central]  11-023176 FALLEN PATIENT\n2210 N TERRYS BRIDGE RD\nJAMES D HAGOOD HWY //SUNSET LN\nHALIFAX
+[from Central]  11-023175 FALLEN PATIENT\n1167 LEWIS FERRELL RD\nOAK LEVEL RD / LITTL/E CIR\nSOUTH BOSTON
+[from Central]  11-023166 EMERGENCY MEDICAL SERVICE\n111-22 ROSEHILL DR\nPOWELL RD / DEAD END/EN\nROSE HILL APARTMENTS  SOUTH BOSTON
+[from Central]  11-023086 UNRESPONSIVE PATIENT\n1110 ASBURY CHURCH RD\nCHATHAM RD / PAUL PR/Y TRL\nYOUNGERS HOME FOR ADULTS  HALIFAX
+[from Central]  11-023050 FALLEN PATIENT\n3471 OLD HALIFAX RD\nHIGH SCHOOL CIR /  C/ENTERVILLE PARK RD\nWAL-MART  SOUTH BOSTON
+[from Central]  11-023040 EMERGENCY MEDICAL SERVICE\n2082 BURTON RD\nWAGSTAFF LN / CLAYS/MILL RD\nSCOTTSBURG
+[from Central]  11-023038 FALLEN PATIENT\n103 WHITE OAK DR\nSYCAMORE RD / SYCAMO/RE RD\nSOUTH BOSTON
+**********************************************************
 Davie COunty, NC
 Contact: Michael Wilson <fireman1700@gmail.com>
 911:Call #110619-2932* Address:866 ANGELL RD* * * City:MOCKSVILLE* * Type:HC* HAZARDOUS CONDITION* HILL JOEL* PH#:336-940-2303* Units:17* IRA:* Medical: No* Haza.
@@ -2796,6 +2801,3 @@ Contact: Michael Wilson <fireman1700@gmail.com>
 911:Call #110622-3355* Address:389 LIBERTY CHURCH RD* * * City:MOCKSVILLE* * Type:MED* MEDICAL CALL* CULLER C O* PH#:336-492-7249* Units:17* IRA:* Medical: No* H
 911:Call #110623-3420* Address:261 COOPER CREEK DR* * * City:MOCKSVILLE* Geo Comment: BUSINESSES IN CITY LIMITS NBH: OFF 1734 US HWY 601 N Landmark Comment: KNOX
 911:Call #110624-3510* Address:3868 US HWY 601 N* * * City:MOCKSVILLE* * Type:YEL* CARDIAC PROBLEM* HOHFF, EARL V* PH#:336-492-3017* Units:17* IRA:* Medical: No*
-**********************************************************
-Testing Chester County
-(445 MANOR AV ,11) NEUROLOGICAL/HEAD INJ - ALS * ** 445 MANOR AV ,11 ** MAIN STADIUM FOOTBALL FIELD-DO ** M/11 FELL AND HIT HEAD\nDETAILS TO FOLLOW\n** DNGTWN **

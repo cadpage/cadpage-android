@@ -62,6 +62,9 @@ Sender: messaging@iamresponding.com
 (Cohocton FD) 6 ERIE ST , COHOCTON TOWN OF (MAIN ST / BOGGS ST)\n12D3 Convulsions Agonal/Ineffective Breathing\nATLANFDAMB:2011:33
 (Cohocton FD) 5 ROSENCRANS ST , COHOCTON VILLAGE OF (LARROWE ST / MAPLE AV)\n31D2 Unconscious/Fainting Unconscious - Effective Breathing\nCOHOFAMB:2011:75
 
+Contact: E Brown <car9702@gmail.com>
+(S. Corning FD) 1567 MARTIN HILL RD , CATON TOWN OF (W CATON RD / PINE BREEZE LN)\nVEHICLE FIRE\nCATOFD:2011:72
+
 */
 
 
@@ -129,7 +132,8 @@ public class NYSteubenCountyParser extends SmartAddressParser {
     private static final Pattern MASTER3 = Pattern.compile("(.*?) *, *([^\\(\\)]*?) *(\\d{1,2}[A-Z]\\d{1,2}) +(.*)");
     private static final Pattern MASTER4 = Pattern.compile("(.*?) *, *([^\\(\\)]*?) (?:TOWN|VILLAGE) OF +(.*)");
 
-    private static final Pattern BAD_BREAK = Pattern.compile("\n(?=\\d{1,2}[A-Z]\\d{0,2} )");
+    
+    private static final Pattern TRAILER = Pattern.compile("\\n[A-Z]+(?::\\d*)*$");
 	  @Override
 	  protected boolean parseMsg(String subject, String body, Data data) { 
 
@@ -154,14 +158,11 @@ public class NYSteubenCountyParser extends SmartAddressParser {
   	    // Nothing worked, bail out
   	    return false;
 	    } while (false);
-	    
-	    // Some pages have a line break between the first paren pattern and the
-	    // call code.  If we find this, turn it into a blank
-	    body = BAD_BREAK.matcher(body).replaceFirst(" ");
-	    
-	    // Otherwise, everything after the first line break should be dropped
-	    int pt = body.indexOf('\n');
-	    if (pt >= 0) body = body.substring(0,pt);
+
+	    // Remove trailing station and call ID
+	    match = TRAILER.matcher(body);
+	    if (match.find()) body = body.substring(0,match.start()).trim();
+	    body = body.replace('\n', ' ');
 	    
 	    // Check for RECALLED tag
 	    if (body.startsWith("::::RECALLED:::::: ")) {
