@@ -74,6 +74,14 @@ public class CTTollandCountyParserTest extends BaseParserTest {
         "CALL:ALS DIFFICULTY BREATHING",
         "X:ORCHARD ST, SPRING ST / WARD ST",
         "ID:2011-00001981");
+
+    doTest("T9",
+        "(TN Alert) 36 GARDNER ST / Warehouse Point Fire Alarm 17:11 Cross Street PLEASANT ST / BRIDGE ST 2011-00000190",
+        "ADDR:36 GARDNER ST",
+        "CITY:Warehouse Point",
+        "CALL:Fire Alarm",
+        "X:PLEASANT ST / BRIDGE ST",
+        "ID:2011-00000190");
   }
   
   public static void main(String[] args) {

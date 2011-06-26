@@ -210,10 +210,28 @@ public class NYNassauCountyFiretrackerParserTest extends BaseParserTest {
         "ADDR:PARK AVE",
         "X:CAMERON AVE",
         "INFO:M/A 65 AIDED WITH CHEST PAINS");
+
+    doTest("T8",
+        "1 of 2\nFRM:dispatch@firetracker.net\nSUBJ:FirePage\nMSG:**NMFD** [AMBU] [AMBU] 1817 WILLIS AVE [ALARM PENDING] C/S: STATE ST /\nSCHERMERHORN ST -\n(C 2 of 2\nM/A 64 PERSON CHOKING TOA:12:22 6/25/2011 Town Of:\nMERRICK [FireTracker](End)",
+        "SRC:NMFD",
+        "CALL:[AMBU] [AMBU]",
+        "ADDR:1817 WILLIS AVE",
+        "PLACE:[ALARM PENDING]",
+        "X:STATE ST / SCHERMERHORN ST",
+        "INFO:(C 2 of 2 M/A 64 PERSON CHOKING");
+
+    doTest("T9",
+        "1 of 2\nFRM:dispatch@firetracker.net\nSUBJ:FirePage\nMSG:**NMFD** [AMBU] [AMBU] 1766 MERRICK AVE [DUNKIN DONUTS] C/S: WEBSTER ST\n/ GARFIELD ST -\n(Co 2 of 2\nM/A 64 ASSAULT VICTIM / R/O TOA:15:51 6/25/2011 Town Of:\nNO MERRICK [FireTracker](End)",
+        "SRC:NMFD",
+        "CALL:[AMBU] [AMBU]",
+        "ADDR:1766 MERRICK AVE",
+        "PLACE:[DUNKIN DONUTS]",
+        "X:WEBSTER ST / GARFIELD ST",
+        "INFO:(Co 2 of 2 M/A 64 ASSAULT VICTIM / R/O");
  }
   
   public static void main(String[] args) {
-    new NYNassauCountyFiretrackerParserTest().generateTests("T6");
+    new NYNassauCountyFiretrackerParserTest().generateTests("T8");
     //new NYNassauCountyFiretrackerParserTest().generateTests("T1", "SRC CALL ADDR X INFO");
   }
 }
