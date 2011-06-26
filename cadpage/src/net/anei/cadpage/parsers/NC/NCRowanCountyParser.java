@@ -22,6 +22,11 @@ Contact: Jamie Thomas <jamie.thomas75@yahoo.com>
 Sender: 93001018
 CAD:STRUCTURE FIRE;625 SIDES RD;GOLD KNOB RD;GOLD KNOB RD;SALS;7106;RFG1
 
+Contact: Jeremy Shimberg <jshimberg@carolina.rr.com>
+Sender: CAD@co.rowan.nc.us
+CAD:13D1 DIABETIC PROBLEM;3035 STOKES FERRY RD;EDZELL DR;EARNHARDT RD;SALS;7604;RFG4
+
+
 */
 
 public class NCRowanCountyParser extends DispatchOSSIParser {
