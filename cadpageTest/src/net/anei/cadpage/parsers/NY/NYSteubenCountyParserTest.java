@@ -13,16 +13,6 @@ public class NYSteubenCountyParserTest extends BaseParserTest {
   
   @Test
   public void testProblems() {
-
-    doTest("T2",
-        "(Cohocton FD) 86 MAPLE AV #FLR 1, COHOCTON VILLAGE OF (STATE ROUTE 962D / SHULTS AV)\n26A 2-11 Sick Person Non-Priority Complaints\nCOHOFAMB:2011:70",
-        "SRC:Cohocton FD",
-        "ADDR:86 MAPLE AV #FLR 1",
-        "CITY:COHOCTON",
-        "X:STATE ROUTE 962D / SHULTS AV",
-        "CALL:ALERT",
-        "INFO:26A 2-11 Sick Person Non-Priority Complaints");
-  
   }
   
   @Test
@@ -451,6 +441,19 @@ public class NYSteubenCountyParserTest extends BaseParserTest {
         "CALL:ALERT",
         "INFO:Unconscious/Fainting Unconscious - Effective Breathing");
 
+  }
+  
+  @Test
+  public void testSCorningParser() {
+
+    doTest("T1",
+        "(S. Corning FD) 1567 MARTIN HILL RD , CATON TOWN OF (W CATON RD / PINE BREEZE LN)\nVEHICLE FIRE\nCATOFD:2011:72",
+        "SRC:S. Corning FD",
+        "ADDR:1567 MARTIN HILL RD",
+        "CITY:CATON",
+        "X:W CATON RD / PINE BREEZE LN",
+        "CALL:VEHICLE FIRE");
+   
   }
   
   public static void main(String[] args) {
