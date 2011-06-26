@@ -324,11 +324,19 @@ public class MmsTransactionService extends Service {
         }
         
         // Almost there, we have a return value, try to retrieve a text component from it
-        String text = cur.getString(0);
-        if (text == null) {
-          byte[] ba = cur.getBlob(1);
-          if (ba != null) text = new String(ba);
-        }
+        String text;
+        do {
+          text = cur.getString(0);
+          if (text == null) {
+            byte[] ba = cur.getBlob(1);
+            if (ba != null) text = new String(ba);
+          }
+          if (text != null) {
+            text = text.trim();
+            if (!text.startsWith("<smil>")) break;
+            text = null;
+          }
+        } while (cur.moveToNext());
         
         // for better or worse, we are done with this message, so let's
         // remove it from the processing list

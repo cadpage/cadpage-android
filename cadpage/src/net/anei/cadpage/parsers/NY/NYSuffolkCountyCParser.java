@@ -63,10 +63,12 @@ STRUCTURE FIRE, RESIDENTIAL at HILL ST / CAPTAINS NECK LN, SOUTHAMPTON . . 15:36
 Brentwood, NY
 General Alarm, Auto Fire Alarm at 601 SUFFOLK AVE #201, BRENTWOOD  c/s: ADAMS AVE   O: LONG ISLAND EYE SURGICAL CARE . . 08:56:41
 
-Ok maybe disappear is a bit much lol \nIt just all gets to be to much sometimes and that light at the end of the long tunnel looks like a dot
-
 Huntington Manor, NY
 STRUCTURE FIRE at 7 HARE PLACE. . 15:27:04
+
+Contact: Kristin Baker <kristinlbaker@gmail.com>
+Ambulance Call, Unknown Problem: 32-B-2 at 911 FENWAY ROAD, St. James  c/s: FAIRFIELD DRIVE . . 12:21:46
+
 
 */
 
