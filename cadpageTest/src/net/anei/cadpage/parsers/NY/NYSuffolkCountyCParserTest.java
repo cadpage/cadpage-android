@@ -299,6 +299,18 @@ public class NYSuffolkCountyCParserTest extends BaseParserTest {
         "ADDR:7 HARE PLACE");
   }
   
+  @Test
+  public void testStJames() {
+
+    doTest("T1",
+        "Ambulance Call, Unknown Problem: 32-B-2 at 911 FENWAY ROAD, St. James  c/s: FAIRFIELD DRIVE . . 12:21:46",
+        "CALL:Ambulance Call, Unknown Problem",
+        "ADDR:911 FENWAY ROAD",
+        "CITY:St. James",
+        "X:FAIRFIELD DRIVE");
+  }
+  
+  
   public static void main(String[] args) {
     new NYSuffolkCountyCParserTest().generateTests("T1", "CALL ADDR CITY X PLACE");
   }
