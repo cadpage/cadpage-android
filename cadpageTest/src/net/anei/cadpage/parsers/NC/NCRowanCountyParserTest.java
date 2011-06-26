@@ -65,10 +65,18 @@ public class NCRowanCountyParserTest extends BaseParserTest {
         "X:GOLD KNOB RD & GOLD KNOB RD",
         "CITY:SALISBURY",
         "INFO:7106 / RFG1");
+
+    doTest("T8",
+        "CAD:13D1 DIABETIC PROBLEM;3035 STOKES FERRY RD;EDZELL DR;EARNHARDT RD;SALS;7604;RFG4",
+        "CALL:13D1 DIABETIC PROBLEM",
+        "ADDR:3035 STOKES FERRY RD",
+        "X:EDZELL DR & EARNHARDT RD",
+        "CITY:SALISBURY",
+        "INFO:7604 / RFG4");
   }
   
 
   public static void main(String[] args) {
-    new NCRowanCountyParserTest().generateTests("T8");
+    new NCRowanCountyParserTest().generateTests("T9");
   }
 }
