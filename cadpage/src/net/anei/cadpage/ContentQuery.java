@@ -16,15 +16,28 @@ public class ContentQuery {
   private static String[] PART_COL_LIST = new String[]{"text", "_data"};
   
   public static void query(Context context) {
+    retrieveMsg(context);
+  }
+  
+  public static void dumpEverything(Context context) {
+    
+    ContentResolver res = context.getContentResolver();
+    Uri uri  = Uri.parse("content://mms");
+    Cursor cur = res.query(uri, null, null, null, null);
+    dumpCursor("Full MMS", cur);
+  }
+  
+  public static void retrieveMsg(Context context) {
     
     ContentResolver res = context.getContentResolver();
     int id = -1;
-    String msg_id = "0BCC23485D6600000A50000201";
+    String msg_id = "0ECCC4DDA63A0000D940000101";
     
     if (id < 0) {
       Uri uri  = Uri.parse("content://mms");
       Cursor cur = res.query(uri, MMS_COL_LIST, "tr_id=?", new String[]{msg_id}, null);
       if (cur == null) return;
+      Log.w("rec count:" + cur.getCount());
       if (!cur.moveToFirst()) return;
       id = cur.getInt(0);
       String sub = cur.getString(1);
@@ -88,26 +101,26 @@ public class ContentQuery {
   public static void dumpRecentTasks(Context context) {
     ActivityManager mgr = (ActivityManager)context.getSystemService(Context.ACTIVITY_SERVICE);
     List<ActivityManager.RecentTaskInfo> taskList = mgr.getRecentTasks(100,ActivityManager.RECENT_WITH_EXCLUDED);
-    Log.v("Recent task information");
+    Log.w("Recent task information");
     for (ActivityManager.RecentTaskInfo task : taskList) {
       Intent intent = task.baseIntent;
       dumpIntent(intent);
-      Log.v("");
+      Log.w("");
     }
   }
 
   public static void dumpIntent(Intent intent) {
-    Log.v("Action:" + intent.getAction());
-    Log.v("Categories:");
+    Log.w("Action:" + intent.getAction());
+    Log.w("Categories:");
     if (intent.getCategories() != null) {
       for (String str : intent.getCategories()) Log.v("  " + str);
     }
-    Log.v("Type:" + intent.getType());
-    Log.v("Comp:" + intent.getComponent().getClassName());
+    Log.w("Type:" + intent.getType());
+    Log.w("Comp:" + intent.getComponent().getClassName());
     Bundle extra = intent.getExtras();
     if (extra != null) {
       for (String key : extra.keySet()) {
-        Log.v("  " + key + ":" + extra.get(key));
+        Log.w("  " + key + ":" + extra.get(key));
       }
     }
   }
