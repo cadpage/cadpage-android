@@ -68,10 +68,17 @@ public class ILMedstarParserTest extends BaseParserTest {
         "ADDR:St Elizabeths B'vll",
         "CITY:IN PATIENT",
         "CALL:347-2 / SCC PG26 / BELLEVILLE / 429 S MAIN ST / CONFUSED POSS COMBATIVE NSE PCS AND FACESHEET REQ ***MEDICARE****");
+
+    doTest("T8",
+        "RC:Run# 17411/451 3RD ST////BECKEMEYER///ST ANTHONY'S CHURCH  75YOM UNC/BREATHING NURSE ON SCENE ProQA comme",
+        "ID:17411",
+        "ADDR:451 3RD ST",
+        "CITY:BECKEMEYER",
+        "CALL:ST ANTHONY'S CHURCH  75YOM UNC / BREATHING NURSE ON SCENE ProQA comme");
    
   }
   
   public static void main(String[] args) {
-    new ILMedstarParserTest().generateTests("T7", "ID ADDR X MAP CITY CALL");
+    new ILMedstarParserTest().generateTests("T8", "ID ADDR X MAP CITY CALL");
   }
 }
