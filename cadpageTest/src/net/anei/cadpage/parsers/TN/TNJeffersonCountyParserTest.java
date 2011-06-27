@@ -33,11 +33,17 @@ public class TNJeffersonCountyParserTest extends BaseParserTest {
         "CITY:JEFFERSON CITY",
         "ID:2011-613628",
         "INFO:FIRE SMOKE INVESTIGATION");
+
+    doTest("T4",
+        "DISPATCH:283 W BROADWAY BLVD 513 JEFFERSON CITY 08:00:21 CARDIAC ARREST CPR IN USE",
+        "ADDR:283 W BROADWAY BLVD 513",
+        "CITY:JEFFERSON CITY",
+        "INFO:CARDIAC ARREST CPR IN USE");
   
   }
   
 
   public static void main(String[] args) {
-    new TNJeffersonCountyParserTest().generateTests("T1", "ADDR CITY PLACE CODE ID CALL INFO");
+    new TNJeffersonCountyParserTest().generateTests("T5", "ADDR CITY PLACE CODE ID CALL INFO");
   }
 }
