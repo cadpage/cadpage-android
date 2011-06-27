@@ -63,7 +63,7 @@ public class ILKankakeeCountyParser extends SmartAddressParser {
   
   @Override
   public String getFilter() {
-    return " dispatchmessage@nwsmessage.net";
+    return "dispatchmessage@nwsmessage.net";
   }
   
   @Override
