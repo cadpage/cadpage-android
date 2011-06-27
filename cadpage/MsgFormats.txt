@@ -746,6 +746,11 @@ Talbot 911:*D 61 B-ABDOMINAL PAIN 319 LINDEN AVE T60
 Talbot 911:*D 70 A-CHEST PAIN 5656 BLACK WALNUT POINT RD BREATHING NORMAL <35 T70
 Talbot 911:*D 66 MVA/PI OCEAN GTWY / GOLDSBOROUGH ST T60
 ***************************************************************************
+Richmond, MI (MIRichmondParser)
+** FIRE ** 1707 WITHEY   VEHICLE FIRE  COLUMBUS
+** FIRE RESCUE ** PALMS @ GRATIOT  PIA COLUMBUS
+** MEDICAL ** 35388 DIANE LN  HEART ATTACK
+***************************************************************************
 Saginaw County, MI (MISaginawCountyParser)
 TRITWP *: FIRE ALARM *: 5100 S GRAHAM RD CTY: 23 *: *WILLIAMS RES - GENERAL FIRE
 TRITWP *: FIRE ALARM *: 5401 S GRAHAM RD CTY: 23 *: *APOTHECARY PRODUCTS/SMK DET
