@@ -98,10 +98,18 @@ public class NCStanlyCountyParserTest extends BaseParserTest {
         "ADDR:28345 ROWLAND RD",
         "CITY:MT PLEASANT",
         "INFO:HIGH FEVER, SINUS INFECTION, VOMITING # PATS: 1 AGE: 15 Years SEX: Female CONSCIOUS: Yes BREATHIN");
+
+    doTest("T12",
+        "CAD:E17-FALL WITH INJURY/614 NC HWY 200 S/SFD/COYLE RD/NC 200 HWY/[Medical Priority Info] PROBLEM: FELL POSS SEIZURE RELATED # PATS: 1 AGE: 50 Yea",
+        "CALL:E17-FALL WITH INJURY",
+        "ADDR:614 NC HWY 200 S",
+        "CITY:STANFIELD",
+        "X:COYLE RD",
+        "INFO:NC 200 HWY / FELL POSS SEIZURE RELATED # PATS: 1 AGE: 50 Yea");
   }
   
 
   public static void main(String[] args) {
-    new NCStanlyCountyParserTest().generateTests("T11");
+    new NCStanlyCountyParserTest().generateTests("T13");
   }
 }
