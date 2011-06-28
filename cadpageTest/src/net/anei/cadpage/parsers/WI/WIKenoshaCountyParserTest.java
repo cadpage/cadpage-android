@@ -62,10 +62,32 @@ public class WIKenoshaCountyParserTest extends BaseParserTest {
         "CALL:ALS MED",
         "ADDR:21922 121ST ST",
         "INFO:64 F ;HEART PROBLEM CONSCIOUS: YES ,BREATHING: YES");
+
+    doTest("T8",
+        "From: SRZ272 #:002011089666 ILS MED at 1747 WILMOT AVE Rem: 15MONTH M ;SICK UNKNOWN CONSCIOUS: YES ,BREATHING: YES",
+        "ID:002011089666",
+        "CALL:ILS MED",
+        "ADDR:1747 WILMOT AVE",
+        "INFO:15MONTH M ;SICK UNKNOWN CONSCIOUS: YES ,BREATHING: YES");
+
+    doTest("T9",
+        "From: LMC213 #:002011088748 BLS MED at 34100 GENEVA RD NEW MUNSTER Rem: 60 M ;TRAUMA W/INJURY CONSCIOUS: YES ,BREATHING: YES",
+        "ID:002011088748",
+        "CALL:BLS MED",
+        "ADDR:34100 GENEVA RD",
+        "PLACE:NEW MUNSTER",
+        "INFO:60 M ;TRAUMA W/INJURY CONSCIOUS: YES ,BREATHING: YES");
+
+    doTest("T10",
+        "From: KAL296 #:002011087809 ALS MED at 9130 402ND AVE Rem: 13 F CONSCIOUS: NO ,BREATHING: YES",
+        "ID:002011087809",
+        "CALL:ALS MED",
+        "ADDR:9130 402ND AVE",
+        "INFO:13 F CONSCIOUS: NO ,BREATHING: YES");
    
   }
   
   public static void main(String[] args) {
-    new WIKenoshaCountyParserTest().generateTests("T7", "ID CALL ADDR PLACE INFO");
+    new WIKenoshaCountyParserTest().generateTests("T9", "ID CALL ADDR PLACE INFO");
   }
 }
