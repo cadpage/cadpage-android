@@ -2503,63 +2503,6 @@ MULTIPLE BUSINESSES (End)
 **********************************************************
 **********************************************************
 **********************************************************
-Collin County, TX
-Contact: Jeremy Sexton <jeremy80xx@yahoo.com>
-Sender: ccsodispatch@co.collin.tx.us
-LCFD Dist: is just saying that it is in our district. The LCF1 is just saying we only have on call at the time. If we have two calls running at the sometime one will say LCF1 and the other says LCF2. 
-They have the county gridded out but we don't use them. We don't have computer in our trucks.
-I don't think the cad code has any significance i will talk to my asst. chief tonight to make sure.
- 
-From your email to Jeremy:
-We could use a bit of explanation as to how to interpret these.
-LCFD DIST: LCF1
-Is LCF1 a code for Lowry Crossing VFD, or a subcode withing Lowery
-Crossing VFD? --LCF1 is the code dispatch uses to identify our Dept in their
-system.  If we get a second call, that would be LCF2
-GRID: xxxx sounds like a  map page or code? --GRID is the map page/grid
-location.  We dont use this method.  It is similar to a mapsco.
-It looks like you have an ST RMK: field followed by a CFS RMK field.
-The later looks like general comments, but what is the first one used
-for? --I asked the supervisor what the ST RMK field is for.  You are correct
-on the CFS RMK, it is the comments field.
-Does the cad0004 code at the end of the text message have any
-significance? --I also asked the supervisor what this means since sometimes
-it says CAD004 and other times it will say CAD001.
-
-The FAQ on the website states if we can get you the name of the CAD software
-our dispatch uses, that may help you.  I have also asked for this
-information from the supervisor.
-
-I know Jeremy has already given you a few sample pages, but here is one
-more.  I have also broken down what each section in the page means.  I hope
-this helps.
-
-11048794  FIRE PUBLIC ASSIST  2701 ASPEN CT IN COLLIN COUNTY  COUNTY ROAD
-392  [LCFD DIST: LCF1 GRID: 1322]  UNITS: LCF1  ST RMK: 7K4  CFS RMK 22:10
-REQ FD TO CHECK BP...40 YRO FEMALE.   {CAD001 22:13}
-
-ICS County Call Number:  11048794
-Call Type: FIRE PUBLIC ASSIST
-Address: 2701 ASPEN CT IN COLLIN COUNTY
-Cross Street/Intersection: COUNTY ROAD 392
-District and Map Grid location: [LCFD DIST: LCF1 GRID: 1322]
-Units that receive notification: UNITS: LCF1
-Checking on this: ST RMK: 7K4
-Remarks by dispatch: CFS RMK 22:10 REQ FD TO CHECK BP...40 YRO FEMALE.
-Time of page: {CAD001 22:13}  (checking on the CAD001 though)
-
-I had one additional question.  Is LCF1 critical in the programming of the
-application?  There are 13 total departments that are dispatched out by
-Collin County.  Would you need their identifier code in order to set them
-up?  They are all 3 characters followed by either a 1 or 2.  ie:  Princeton
-FD is PNF1 and PNF2.
-If you need the other identifiers, I can get you those.
- 
-11031079 First Responders 3274 Almeta LN in Collin County FM 546 [LCFD DIST: LCF1 GRID: 1331]
-11047502 INJURED PERSON 3610 FM 546 IN COLLIN COUNTY COUNTY ROAD 398 / COUNTY RO;16AD 394 [LCFD DIST: LCF1 GRID: 1322] UNITS: AMRP LCF1 ST RMK: <NONE> CFS RMK 19:16 MALE SUB BLEEDING FROM HIS THROAT {CAD004 19:17} 
-11047405 FISRT RESPONDERS 2897 COUNTY ROAD 914 IN COLLIN COUNTY COUNTY ROAD 392 [LCFD DIST: LCF1 GRID: 1322] UNITS: LCF1 AMRP ST RMK: DUTCH ACRES CFS RMK 12:59 68 YOA FALLEN IN FRONT YARD UNABLE T {CAD001 13:00}
-11046597 MAJOR ACCIDENT 10/50 COUNTY ROAD 393 / FM 546 IN COLLIN COUNTY [LCFD DIST: LCF1 GRID: 1322] UNITS: LCF1 ST RMK: 8J1 CFS RMK 21:40 SOMEONE HAS FALLEN OUT OF A TRUCK {CAD004 21:40}
-11044587 FIRST RESPONDERS 730 CROSS TIMBERS DR IN LOWRY CROSSING CROSS TRAIL LN [LCFD DIST: LCF1 GRID: 3100] UNITS: LCF1 AMRP ST RMK: <NONE> CFS RMK 13:14 37 YOA MALE / FELL YESTERDAY AND IS {CAD004 13:14}
 **********************************************************
 North East, MD (in Cecil County)
 Contact: Dave Simmons <acdave0911@gmail.com>

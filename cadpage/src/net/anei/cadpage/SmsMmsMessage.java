@@ -322,7 +322,7 @@ public class SmsMmsMessage implements Serializable {
     
     // Start by decoding common HTML sequences
     body = body.replaceAll("&nbsp;",  " ").replaceAll("&amp;",  "&")
-               .replaceAll("<br>", "\n").replaceAll("&gt;", ">").replaceAll("&lt;", "<");
+               .replaceAll("<br>", "\n").replaceAll("&gt;", ">").replaceAll("&lt;", "<").trim();
     
     // default address and subject to obvious values
     parseAddress = fromAddress;
