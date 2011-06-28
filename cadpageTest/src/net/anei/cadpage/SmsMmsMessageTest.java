@@ -208,6 +208,12 @@ public class SmsMmsMessageTest {
         "LogiSYSCAD",
         "CAD Page for CFS 051211-55",
         "SERVICE CALL");
+    
+    doParseTest("WIKenoshaCounty",
+        " ( 1 of  2) S: M:From: JDR315 #:002011089429 ALS MED at 21922 121ST ST Rem: 64 F ;HEART PROBLEM CONSCIOUS: YES ,BREATHING: YES",
+        "ken@cadpage.org",
+        "",
+        "From: JDR315 #:002011089429 ALS MED at 21922 121ST ST Rem: 64 F ;HEART PROBLEM CONSCIOUS: YES ,BREATHING: YES", true);
   }
   
   @Test
