@@ -49,6 +49,7 @@ Sender: rc.404@c-msg.net
 (CAD) [FredCo] CT: OUTSIDE INVESTIGATION / default 5018 GREEN VALLEY RD CMON TIME: 21:24:52 ESZ: 1503 MAP: 4688G1 Disp: RE153
 (CAD) [FredCo] CT: SICK PERSON / default 5850 EAGLEHEAD DR CIJM: @OAKDALE HIGH SCHOOL TIME: 08:52:07 ESZ: 1513 MAP: 4568A7 Disp: A159
 (CAD) [FredCo] CT: VEHICLE ACCIDENT / default BELLS LN/BALTIMORE RD CFR4 TIME: 09:58:14 ESZ: 3306 MAP: 4567F7 Disp: A339,RE153,E331
+(CAD) [FredCo] CT: HOUSE / FIRE-VISIBLE 1103 VILLAGE GATE DR MTAY: NEXT TOO TIME: 11:20:23 ESZ: 1527 MAP: 4570C10 Disp: RE153,E251,TWR23
 
 
 ***/
@@ -80,6 +81,7 @@ public class MDFrederickCountyParser extends SmartAddressParser {
         "CWAL","Walkersville",
         "FRAN CO", "Franklin County",
         "FRE1", "Frederick City",
+        "MTAY", "Mt Airy",
         "NEWM", "New Market",
         "THUR","Thurmont",
         "WOOD","Woodsboro",
