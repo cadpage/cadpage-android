@@ -33,6 +33,9 @@ public class SmartAddressParserTest extends BaseParserTest {
   
   @Test
   public void testProblem() {
+    doTest(CALL, "CALL 123 RT US EXTRA",
+        "CALL:CALL",
+        "ADDR:123 RT US EXTRA");
   }
 
   
@@ -317,6 +320,9 @@ public class SmartAddressParserTest extends BaseParserTest {
     doTest(ADDR, FLAG_ANCHOR_END, "BAD ADDRESS KEN TOWN",
         "ADDR:BAD ADDRESS",
         "CITY:KEN TOWN");
+    doTest(CALL, "WHERE IS MY 34 BOOK",
+        "CALL:WHERE IS MY",
+        "ADDR:34 BOOK");
   }
   
   @Test
@@ -518,9 +524,11 @@ public class SmartAddressParserTest extends BaseParserTest {
   @Test
   public void testBadCross() {
     doTest(CALL, "SUNSHINE CITY XS: 100 BLACK ST",
-        "CALL:SUNSHINE CITY XS: 100 BLACK ST");
+        "CALL:SUNSHINE CITY",
+        "X:100 BLACK ST");
     doTest(CALL, "SUNSHINE CITY XS: BLACK RD & 10 ST",
-        "CALL:SUNSHINE CITY XS: BLACK RD & 10 ST");
+        "CALL:SUNSHINE CITY",
+        "X:BLACK RD & 10 ST");
   }
   
   @Test
@@ -536,13 +544,13 @@ public class SmartAddressParserTest extends BaseParserTest {
   @Test
   public void testNotAddressTokens() {
     doTest(CALL, "CALL 1234 () RD",
-        "CALL:CALL 1234 () RD");
-  doTest(CALL, "N () BLACK DR",
-        "CALL:N ()",
-        "ADDR:BLACK DR");
-  doTest(CALL, "CALL N JOHNS HWY & E () ST",
-        "CALL:CALL",
-        "ADDR:N JOHNS HWY");
+        "CALL:CALL 1234");
+    doTest(CALL, "N () BLACK DR",
+          "CALL:N ()",
+          "ADDR:BLACK DR");
+    doTest(CALL, "CALL N JOHNS HWY & E () ST",
+          "CALL:CALL",
+          "ADDR:N JOHNS HWY");
   }
   
   @Test
@@ -554,7 +562,8 @@ public class SmartAddressParserTest extends BaseParserTest {
         "CALL:CALL",
         "ADDR:123 RT AB");
     doTest(CALL, "CALL 123 RT US EXTRA",
-        "CALL:CALL 123 RT US EXTRA");
+        "CALL:CALL",
+        "ADDR:123 RT US EXTRA");
     doTest(CALL, "CALL RT A & US B EXTRA",
         "CALL:CALL",
         "ADDR:RT A & US B");

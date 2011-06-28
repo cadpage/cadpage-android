@@ -305,6 +305,7 @@ public class NYSuffolkCountyCParserTest extends BaseParserTest {
     doTest("T1",
         "Ambulance Call, Unknown Problem: 32-B-2 at 911 FENWAY ROAD, St. James  c/s: FAIRFIELD DRIVE . . 12:21:46",
         "CALL:Ambulance Call, Unknown Problem",
+        "CODE:32-B-2",
         "ADDR:911 FENWAY ROAD",
         "CITY:St. James",
         "X:FAIRFIELD DRIVE");

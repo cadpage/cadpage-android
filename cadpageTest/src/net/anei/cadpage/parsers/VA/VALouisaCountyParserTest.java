@@ -76,6 +76,12 @@ public class VALouisaCountyParserTest extends BaseParserTest {
         "CALL:FIRE / STRUCTURE-RESIDENTIAL",
         "ADDR:9996 KENTUCKY SPRINGS RD",
         "INFO:HOUSE IS ON FIRE");
+
+    doTest("T10",
+        "E2011019295;FIRE;Advised;E FIRST ST & ST CECELIA AVE;INFO-",
+        "ID:E2011019295",
+        "CALL:FIRE / Advised",
+        "ADDR:E FIRST ST & ST CECELIA AVE");
     
   }
   public static void main(String[] args) {
