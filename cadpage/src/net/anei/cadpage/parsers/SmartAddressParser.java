@@ -792,7 +792,26 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     
     // Total failure, assign the entire field to either the call description
     // or the address
-    result.endAll = tokens.length;
+    int endAddr = result.endAll = result.tokens.length;
+    
+    // Check for any invalid tokens.  If we find any they mark the end of any
+    // possible address
+    if (!isFlagSet(FLAG_ANCHOR_END)) {
+      for (int ndx = 0; ndx < endAddr; ndx++) {
+        if (isType(ndx, ID_NOT_ADDRESS)) {
+          endAddr = result.endAll = ndx;
+          break;
+        }
+      }
+    }
+    
+    // If there is a cross street indicator, use it to set up the cross street
+    for (int ndx = 0; ndx<endAddr; ndx++) {
+      if (isType(ndx, ID_CROSS_STREET)) {
+        result.startCross = ndx + 1;
+        endAddr = ndx;
+      }
+    }
     
     // if @ is used as a fixed start address marker (default operation)
     // then we would have used one to set startAddress and no longer need
@@ -801,13 +820,25 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     // If @ is being used as an Optional start address marker, startAddress
     // would not be set and we have to look through the token string to
     // see if we find a @ marker
+    int stIndex = (isFlagSet(FLAG_START_FLD_REQ) ? 1 : 0);
     if (result.startAddress < 0 && isFlagSet(FLAG_AT_BOTH)) {
-      for (int ndx = 0; ndx < result.endAll; ndx++) {
+      for (int ndx = stIndex; ndx < endAddr; ndx++) {
         if (isType(ndx, ID_AT_MARKER)) {
           result.initAddress = ndx;
           result.startAddress = ndx+1;
           break;
         } else if (isType(ndx, ID_INCL_AT_MARKER)) {
+          result.initAddress = result.startAddress = ndx;
+          break;
+        }
+      }
+    }
+    
+    // We are really getting desperate, but see if there is a valid house number
+    // in here, and if there is set the start address to it
+    if (result.startAddress < 0) {
+      for (int ndx = stIndex; ndx < endAddr-1; ndx++) {
+        if (isHouseNumber(ndx)) {
           result.initAddress = result.startAddress = ndx;
           break;
         }
@@ -825,7 +856,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     // skipped or there is no prefix, assign everything to the address
     if (result.startAddress < 0) {
       if (sType == StartType.START_CALL || sType == StartType.START_PLACE) {
-        result.initAddress = result.startAddress = result.endAll;
+        result.initAddress = result.startAddress = endAddr;
       } else {
         result.initAddress = result.startAddress = 0;
       }
@@ -835,7 +866,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     // if @ are being used to mark a place name, see if we can find one
     // in what we have for an address and split the rest into a place name
     if (isFlagSet(FLAG_AT_BOTH | FLAG_AT_PLACE)) {
-      for (int ndx = result.startAddress+1; ndx<result.endAll; ndx++) {
+      for (int ndx = result.startAddress+1; ndx<endAddr; ndx++) {
         if (isType(ndx, ID_AT_MARKER)) {
           result.initPlace = ndx;
           result.startPlace = ndx+1;

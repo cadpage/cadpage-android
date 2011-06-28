@@ -25,7 +25,7 @@ Run# 6403, SIDELL, WILLIAM, 15:52, W BRADLEY AVE & CLAYTON BLVD, CHAMPAIGN, 57 M
 public class ILChampaignUrbanaParser extends FieldProgramParser {
   
   public ILChampaignUrbanaParser() {
-    super("KANKAKEE COUNTY", "IL",
+    super("", "IL",
            "ID NAME NAME? TIME ADDR APT? CITY INFO+");
   }
   
