@@ -163,9 +163,19 @@ public class MDFrederickCountyParserTest extends BaseParserTest {
         "BOX:3306",
         "UNIT:A339,RE153,E331",
         "MAP:4567F7");
-}
+
+    doTest("T26",
+        "(CAD) [FredCo] CT: HOUSE / FIRE-VISIBLE 1103 VILLAGE GATE DR MTAY: NEXT TOO TIME: 11:20:23 ESZ: 1527 MAP: 4570C10 Disp: RE153,E251,TWR23",
+        "CALL:HOUSE/FIRE-VISIBLE",
+        "ADDR:1103 VILLAGE GATE DR",
+        "CITY:Mt Airy",
+        "PLACE:NEXT TOO",
+        "BOX:1527",
+        "UNIT:RE153,E251,TWR23",
+        "MAP:4570C10");
+  }
   
   public static void main(String[] args) {
-    new MDFrederickCountyParserTest().generateTests("T26", "CALL ADDR CITY PLACE BOX UNIT MAP");
+    new MDFrederickCountyParserTest().generateTests("T27", "CALL ADDR CITY PLACE BOX UNIT MAP");
   }
 }
