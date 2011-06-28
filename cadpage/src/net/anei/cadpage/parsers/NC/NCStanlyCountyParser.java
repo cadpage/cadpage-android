@@ -29,6 +29,9 @@ CAD:E13-DIABETIC PROBLEMS/40206 US 52 HWY N/NEW/AUSTIN RD/[Medical Priority Info
 Contact: Roger Stamper <capt3607@gmail.com>
 CAD:E26-SICK PERSON/28345 ROWLAND RD/MTP/[Medical Priority Info] PROBLEM: HIGH FEVER, SINUS INFECTION, VOMITING # PATS: 1 AGE: 15 Years SEX: Female CONSCIOUS: Yes BREATHIN
 
+Contact: Brian Shie <bshue4637@gmail.com>
+CAD:E17-FALL WITH INJURY/614 NC HWY 200 S/SFD/COYLE RD/NC 200 HWY/[Medical Priority Info] PROBLEM: FELL POSS SEIZURE RELATED # PATS: 1 AGE: 50 Yea
+
 */
 
 public class NCStanlyCountyParser extends DispatchOSSIParser {
@@ -39,7 +42,8 @@ public class NCStanlyCountyParser extends DispatchOSSIParser {
       "LOC", "LOCUST",
       "MTP", "MT PLEASANT",
       "NEW", "NEW LONDON",
-      "NOR", "NORWOOD"
+      "NOR", "NORWOOD",
+      "SFD", "STANFIELD"
   });
   
   private List<String> addressList = new ArrayList<String>();
