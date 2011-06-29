@@ -570,6 +570,11 @@ Brantley county, GA (GABrantleyCountyParser)
 [Disp CVFD Case # 2011-1-1473 Call # 22262]  1/25/2011 0:55:31 /1070 /9513 /HWY 121 /BRUSH BEHIND HUMPTEY DUMPTEY
 [Disp CVFD Case # 2011-1-1452 Call # 22241]  1/24/2011 17:06:14 /1070 /602 /WARE COUNTY LINE RD /WOODS FIRE
 ***************************************************************************
+Camden County, GA (GACamdenCountyParser)
+astudstill@co.camden.ga.us:2011-101695* HIGHWAY 17 STEFFANS* * * KINGSLAND* * Traffic Stop* TRAFFIC STOP* * * 1128,1140,1150,1152,509,514,523,532,LS3,R3* * Med
+astudstill@co.camden.ga.us:2011-104696* 4059 MARTIN LUTHER KING BLVD* N4* * 514,541,546,ENG4,LS4,MED4 KINGSLAND* * INJURY* INJURY* 509,ENG5,LS3* * Medical: No
+astudstill@co.camden.ga.us:2011-101995* 405 & HIGHWAY 40 OLD WAFFLE HOUSE* * * KINGSLAND* * ACCIDENT* ACCIDENT* ELAINE* 386-208-4465* 514,541,546,ENG4,LS4,MED4
+***************************************************************************
 Dougherty County, GA (GADoughertyCountyParser)
 110126 152104110260350/01-26-11/15:20:15/ALTERED MENTAL STATE/1906 LULLWATER RD/ALBANY/FOREST GLEN DR/SUMMIT DR/E01/73YOF C/B/MED5/
 110126 191509110260454/01-26-11/19:12:59/PERSON ILL/1905 BARNESDALE WAY/ALBANY/ROBINHOOD RD/LADY MARION LN/E01/58YM C/B  LOTS OF PAIN,PAIN IN FEET/MED5/
@@ -2504,11 +2509,6 @@ CARPENTERS CROSSING
 M06/012/017/027A/091/ENG05/TW0 
 MULTIPLE BUSINESSES (End)
 **********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
 North East, MD (in Cecil County)
 Contact: Dave Simmons <acdave0911@gmail.com>
 Sender: nefc911@nefc.com
@@ -2598,13 +2598,11 @@ SMOKE FROM BASEMENT//BLACK
 OPS 6   0304
 03
 **********************************************************
-Camden County, GA
-Contact: "croney kingslandgeorgia.com" <croney@kingslandgeorgia.com>
-Sender: astudstill@co.camden.ga.us
-astudstill@co.camden.ga.us:2011-101695* HIGHWAY 17 STEFFANS* * * KINGSLAND* * Traffic Stop* TRAFFIC STOP* * * 1128,1140,1150,1152,509,514,523,532,LS3,R3* * Med
-astudstill@co.camden.ga.us:2011-104696* 4059 MARTIN LUTHER KING BLVD* N4* * 514,541,546,ENG4,LS4,MED4 KINGSLAND* * INJURY* INJURY* 509,ENG5,LS3* * Medical: No
-astudstill@co.camden.ga.us:2011-101995* 405 & HIGHWAY 40 OLD WAFFLE HOUSE* * * KINGSLAND* * ACCIDENT* ACCIDENT* ELAINE* 386-208-4465* 514,541,546,ENG4,LS4,MED4
-astudstill@co.camden.ga.us:2011-104843* 429 EAGLE BLVD* * * KINGSLAND* * PERSON SICK* PERSON SICK* * 540,ENG4,LS4* * Medical: No* Haz
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
 **********************************************************
 Mendicino County, CA
 Contact: Mike Maynard <capttwiggy@gmail.com>
@@ -2706,7 +2704,7 @@ Contact: George Hodges <grh850@embarqmail.com>
 [from Central]  11-023040 EMERGENCY MEDICAL SERVICE\n2082 BURTON RD\nWAGSTAFF LN / CLAYS/MILL RD\nSCOTTSBURG
 [from Central]  11-023038 FALLEN PATIENT\n103 WHITE OAK DR\nSYCAMORE RD / SYCAMO/RE RD\nSOUTH BOSTON
 **********************************************************
-Davie COunty, NC
+Davie County, NC
 Contact: Michael Wilson <fireman1700@gmail.com>
 911:Call #110619-2932* Address:866 ANGELL RD* * * City:MOCKSVILLE* * Type:HC* HAZARDOUS CONDITION* HILL JOEL* PH#:336-940-2303* Units:17* IRA:* Medical: No* Haza.
 911:Call #110622-3347* Address:2388 LIBERTY CHURCH RD* * * City:MOCKSVILLE* * Type:19D4* HEART PROBLEMS* HALL GENE* PH#:336-492-5114* Units:17,34,ST4,YC24* IRA:*
