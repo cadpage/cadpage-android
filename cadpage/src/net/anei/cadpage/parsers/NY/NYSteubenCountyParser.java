@@ -65,6 +65,12 @@ Sender: messaging@iamresponding.com
 Contact: E Brown <car9702@gmail.com>
 (S. Corning FD) 1567 MARTIN HILL RD , CATON TOWN OF (W CATON RD / PINE BREEZE LN)\nVEHICLE FIRE\nCATOFD:2011:72
 
+Contact: "Conrad, Robert" <RobertC@co.steuben.ny.us>
+/ZEMAKS GREENHOUSE ( 6714 STATE ROUTE 415 BATH TOWN OF ) Brush Fire BTFD:2011:272
+/MILE 154 ( I86 BETWEEN EXIT 39 + ) 29D2 Traffic Accidents High mechanism BTFD:2011:177
+--{Don't Respond: Controlled Burn}-- 7630 COUNTY ROUTE 16 , BATH TOWN OF (QUINN RD / FREEMAN HOLLOW RD) Controlled Burn
+105 GENEVA ST , BATH VILLAGE OF (STATE ROUTE 54 / GRATTON DR; Near: LAKEVIEW APARTMENTS) AUTOMATIC ALARM Fire BTFD:2011:263
+
 */
 
 
@@ -134,10 +140,15 @@ public class NYSteubenCountyParser extends SmartAddressParser {
 
     
     private static final Pattern TRAILER = Pattern.compile("\\n[A-Z]+(?::\\d*)*$");
+    private static final Pattern TRAILER2 = Pattern.compile("\\b([A-Z]+)(?::\\d+){2}$");
+    
+    private static final Pattern INFO_HEADER = Pattern.compile("^--\\{(.*)\\}--");
+    
 	  @Override
 	  protected boolean parseMsg(String subject, String body, Data data) { 
 
 	    // There are a couple differnent text signatures we look for
+	    boolean sigMatch = true;
 	    Matcher match;
 	    do {
   	    // Look for starting page signature
@@ -155,14 +166,36 @@ public class NYSteubenCountyParser extends SmartAddressParser {
   	      break;
   	    }
   	    
-  	    // Nothing worked, bail out
-  	    return false;
+  	    // Nothing worked, we will keep trying, but will have a much stricter 
+  	    // standard of what constitutes a CAD page
+  	    sigMatch = false;
 	    } while (false);
 
-	    // Remove trailing station and call ID
-	    match = TRAILER.matcher(body);
-	    if (match.find()) body = body.substring(0,match.start()).trim();
+      // If we found a start signature match, which included a station source
+	    // Look for and remove any trailing station and call ID
+	    if (sigMatch) {
+	      match = TRAILER.matcher(body);
+	      if (match.find()) body = body.substring(0,match.start()).trim();
+	    }
+	    
+	    // If we didn't fidn a start signature match, we have a stricter definition
+	    // of what the trailer should look like, and we will extract the source code
+	    // from it
+	    else {
+	      match = TRAILER2.matcher(body);
+  	    if (match.find()) {
+  	      data.strSource = match.group(1);
+  	      body = body.substring(0,match.start()).trim();
+  	    }
+	    }
 	    body = body.replace('\n', ' ');
+	    
+	    // Check for special information header
+	    match = INFO_HEADER.matcher(body);
+	    if (match.find()) {
+	      data.strSupp = match.group(1);
+	      body = body.substring(match.end()).trim();
+	    }
 	    
 	    // Check for RECALLED tag
 	    if (body.startsWith("::::RECALLED:::::: ")) {
@@ -183,7 +216,7 @@ public class NYSteubenCountyParser extends SmartAddressParser {
 	      else if (left.startsWith("VILLAGE OF")) left = left.substring(10).trim();
 	      data.strCross = left;
 	      data.strCode = cleanCode(match.group(3));
-	      data.strSupp = match.group(4);
+	      data.strSupp = append(data.strSupp, " / ", match.group(4));
 	    }
 	    
 	    // <addr> , <city> ( <cross> ) [code] <info>
@@ -192,7 +225,7 @@ public class NYSteubenCountyParser extends SmartAddressParser {
         data.strCity = cleanCity(match.group(2));
         data.strCross = cleanCross(match.group(3));
         data.strCode = cleanCode(match.group(4));
-        data.strSupp = match.group(5);
+        data.strSupp = append(data.strSupp, " / ", match.group(5));
       }
       
       // <addr> , <city> <code> <info>
@@ -200,19 +233,23 @@ public class NYSteubenCountyParser extends SmartAddressParser {
         parseAddress(match.group(1), data);
         data.strCity = cleanCity(match.group(2));
         data.strCode = cleanCode(match.group(3));
-        data.strSupp = match.group(4);
+        data.strSupp = append(data.strSupp, " / ", match.group(4));
       }
       
       // <addr> , <city> <info>
       else if ((match = MASTER4.matcher(body)).matches()) {
         parseAddress(match.group(1), data);
         data.strCity = cleanCity(match.group(2));
-        data.strSupp = match.group(3);
+        data.strSupp = append(data.strSupp, " / ", match.group(3));
       }
 	    
 	    // Anything else is just a info
+	    // If we didn't find a matching start signature and didn't find a
+	    // master pattern match, the we had better conclude that this is not
+	    // reall a CAD page
       else {
-        data.strSupp = body;
+        if (!sigMatch) return false;
+        data.strSupp = append(data.strSupp, " / ", body);
       }
 	    
 	    if (data.strSupp.length() > 0 && data.strSupp.length() <= 40) {
