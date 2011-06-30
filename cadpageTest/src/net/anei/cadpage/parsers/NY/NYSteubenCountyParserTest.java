@@ -453,6 +453,43 @@ public class NYSteubenCountyParserTest extends BaseParserTest {
         "CITY:CATON",
         "X:W CATON RD / PINE BREEZE LN",
         "CALL:VEHICLE FIRE");
+  }
+  
+  @Test
+  public void testBTFDParser() {
+
+    doTest("T1",
+        "/ZEMAKS GREENHOUSE ( 6714 STATE ROUTE 415 BATH TOWN OF ) Brush Fire BTFD:2011:272",
+        "SRC:BTFD",
+        "PLACE:ZEMAKS GREENHOUSE",
+        "ADDR:6714 STATE ROUTE 415",
+        "CITY:BATH",
+        "CALL:Brush Fire");
+
+    doTest("T2",
+        "/MILE 154 ( I86 BETWEEN EXIT 39 + ) 29D2 Traffic Accidents High mechanism BTFD:2011:177",
+        "SRC:BTFD",
+        "PLACE:MILE 154",
+        "ADDR:I-86",
+        "X:BETWEEN EXIT 39 +",
+        "CODE:29D2",
+        "CALL:Traffic Accidents High mechanism");
+
+    doTest("T3",
+        "--{Don't Respond: Controlled Burn}-- 7630 COUNTY ROUTE 16 , BATH TOWN OF (QUINN RD / FREEMAN HOLLOW RD) Controlled Burn",
+        "ADDR:7630 COUNTY ROAD 16",
+        "CITY:BATH",
+        "X:QUINN RD / FREEMAN HOLLOW RD",
+        "CALL:ALERT",
+        "INFO:Don't Respond: Controlled Burn / Controlled Burn");
+
+    doTest("T4",
+        "105 GENEVA ST , BATH VILLAGE OF (STATE ROUTE 54 / GRATTON DR; Near: LAKEVIEW APARTMENTS) AUTOMATIC ALARM Fire BTFD:2011:263",
+        "SRC:BTFD",
+        "ADDR:105 GENEVA ST",
+        "CITY:BATH",
+        "X:STATE ROUTE 54 / GRATTON DR; Near: LAKEVIEW APARTMENTS",
+        "CALL:AUTOMATIC ALARM Fire");
    
   }
   
