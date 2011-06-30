@@ -212,6 +212,13 @@ public class GeneralParserTest extends BaseParserTest {
         "CALL:ALARMS-CO DETECTOR",
         "ADDR:90 FALLS CREEK TR",
         "INFO:GUARDIAN ALARM 866.883.3100\n CO ALARM SOUNDING, SIGNAL COMES TO ALARM CENTER\n OPR/STACY");
+    
+    doTest("T25",
+        "(CAD Page) 11-009351|02:57:00|:8 - EMS|\n@ 12040 SR 362 UNIT 19 MINSTER BETW CANAL #1 RD & COUNTY LINE|",
+        "ID:11-009351",
+        "CALL::8 - EMS",
+        "ADDR:12040 SR 362",
+        "INFO:UNIT 19 MINSTER BETW CANAL #1 RD & COUNTY LINE");
   }
   
 }
