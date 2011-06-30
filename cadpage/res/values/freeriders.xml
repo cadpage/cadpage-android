@@ -3,6 +3,7 @@
   <string-array name="free_rider_list">
     <item>01d1e50dad9162d99f8deb559eff8abd</item>  <!-- bradley e jordan -->
     <item>080a55e1c5dfffa0c96f27497b3ec299</item>  <!-- Joseph Nguyen -->
+    <item>09b93bbe3087b204ec4cb6e04ac43a20</item>  <!-- Michael Russo -->
     <item>0feac42a018d6be96b67428e8ebe5cdf</item>
     <item>12aae3649fbe26e6043b2fa33afc103e</item>  <!-- Gregory Adair -->
     <item>164cadb0a819f757d56f957bb5e73f4a</item>  <!-- CHRIS CRADY -->
@@ -49,6 +50,7 @@
     <item>8d0400e7f9a27d89b2a72ac7ef5bc4be</item>
     <item>8fc529684f13e4842355cefcbd1afc85</item>  <!-- Michael Pierce -->
     <item>95e239f4e5b61e882e054f253591f12a</item>  <!-- Jeff Fowler -->
+    <item>9a8aa3962e5ec3acb6d7fb78580cc5d9</item>  <!-- Zach Smith -->
     <item>9be8a18c2a09bae3ce2987cdafdf3155</item>  <!-- Jeffery Daday -->
     <item>9d75c831868cce4e4af7de0d8873cef2</item>  <!-- steve wedvik -->
     <item>9e43b0522acb07833fa5cf1d40136437</item>  <!-- David Dyer -->
@@ -57,7 +59,6 @@
     <item>a0c3695b8fd9d0e49798d4659be1bd19</item>  <!-- Terry Wadsley -->
     <item>a0d5b02420c396511e481b263d732de0</item>  <!-- Harold Rupell -->
     <item>a1c29b0edb8ac6fe51e8ef7c4eca9525</item>  <!-- Andrew Papp -->
-    <item>a2285bc3cfd6dfba426fc6bc4d0bbd16</item>  <!-- Torey Millman -->
     <item>a2e4b95439be6a5c4bef16c0031ed56e</item>  <!-- Max Williams -->
     <item>a7b79727746903a6e899d94ef72cd1ea</item>  <!-- lee Keever -->
     <item>a852c2dba00034a9399929910d4200a3</item>  <!-- Jeffrey Young -->
@@ -67,7 +68,6 @@
     <item>af1cee23f52f9a6b2e2781bdca4560b0</item>
     <item>af4e5b1d03806c9ecf2d065d74a9adad</item>  <!-- Ian Zuckerman -->
     <item>b1da4ffae0f9c1f601481c4b943776c5</item>  <!-- Kyle Armstrong -->
-    <item>b454c9fef1504bcabe9f59789d5352cd</item>  <!-- Michael Russo -->
     <item>b7d4b7bb426fab774de7cf6ddd14492c</item>  <!-- Todd Beckert -->
     <item>b90056b1bd9aaeb043f0a5ca2ec6f89f</item>  <!-- Chris Whittenberger -->
     <item>bc0f7cd9c41b2b0e4f29141887155d90</item>  <!-- david forte -->
@@ -94,6 +94,7 @@
     <item>eec9f4ab6cdb2e0ee6aeaec6c8b7446d</item>  <!-- Sean Magee -->
     <item>efeaf9edb5a4aa217409fe703f280d07</item>  <!-- Dan Berg -->
     <item>f05adb225c8a9c5bf505a0346f18318b</item>  <!-- James Albury -->
+    <item>f0f9a399eee02ee904e4a43217538077</item>  <!-- Torey Millman -->
     <item>f49ac8108b9a72853514f4829c7c2183</item>  <!-- Richard Mosley -->
     <item>f57e94ed1444525f7813ee430abe69bf</item>  <!-- George Carter -->
     <item>f710988eff17d47497e5fa4342a771c0</item>  <!-- Donald Simms -->

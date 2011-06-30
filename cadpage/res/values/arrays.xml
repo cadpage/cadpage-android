@@ -372,6 +372,7 @@
     <item>NCRutherfordCounty</item>
     <item>NCSurryCounty</item>
     <item>NCStanlyCounty</item>
+    <item>NCTransylvaniaCounty</item>
     <item>NCUnionCounty</item>
     <item>NCWilkesCounty</item>
     <item>NCWilsonCounty</item>
@@ -444,6 +445,7 @@
     <item>VAPrinceWilliamCounty</item>
     <item>VARockinghamCounty</item>
     <item>VAWaynesboro</item>
+    <item>WIBrownCounty</item>
     <item>WICalumetCounty</item>
     <item>WIKenoshaCounty</item>
   </string-array>
@@ -590,6 +592,7 @@
     <item>Rutherford County, NC</item>
     <item>Surry County, NC</item>
     <item>Stanly County, NC</item>
+    <item>Transylvania County, NC</item>
     <item>Union County, NC</item>
     <item>Wilkes County, NC</item>
     <item>Wilson County, NC</item>
@@ -662,6 +665,7 @@
     <item>Prince William County, VA</item>
     <item>Rockingham County, VA</item>
     <item>Waynesboro, VA</item>
+    <item>Brown County, WI</item>
     <item>Calumet County, WI</item>
     <item>Kenosha County, WI</item>
   </string-array>

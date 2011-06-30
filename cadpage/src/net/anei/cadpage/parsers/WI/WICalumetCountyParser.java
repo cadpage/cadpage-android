@@ -144,6 +144,10 @@ public class WICalumetCountyParser extends DispatchPrintrakParser {
     super(CITY_TABLE, "CALUMET COUNTY", "WI");
   }
   
+  public WICalumetCountyParser(String county) {
+    super(CITY_TABLE, county, "WI");
+  }
+  
   @Override
   public String getFilter() {
     return "Admin.Foxcomm@co.calumet.wi.us,finstad_rr@co.brown.wi.us";
