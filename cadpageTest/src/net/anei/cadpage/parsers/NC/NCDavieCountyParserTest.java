@@ -63,10 +63,39 @@ public class NCDavieCountyParserTest extends BaseParserTest {
         "PHONE:336-492-3017",
         "UNIT:17",
         "INFO:Medical: No");
+
+    doTest("T6",
+        "911:Call #110627-3974* Address:NC HWY 801 N // BONKIN LAKE RD* * * City:MOCKSVILLE* * Type:GWB* GRASS/WOODS/BRUSH FIRE* PAUL TONY* PH#:336-575-4524* Units:17,23*",
+        "ID:110627-3974",
+        "ADDR:NC HWY 801 N &  & BONKIN LAKE RD",
+        "CITY:MOCKSVILLE",
+        "CALL:GWB - GRASS/WOODS/BRUSH FIRE",
+        "NAME:PAUL TONY",
+        "PHONE:336-575-4524",
+        "UNIT:17,23");
+
+    doTest("T7",
+        "911:Call #110630-4406* Address:284 BRANGUS WAY* * * City:MOCKSVILLE* NBH: OFF 2386 CANA RD* Type:VF* VEHICLE FIRE* MEADER CORTLAND J* PH#:336-940-2666* Units:17",
+        "ID:110630-4406",
+        "ADDR:284 BRANGUS WAY",
+        "CITY:MOCKSVILLE",
+        "INFO:NBH: OFF 2386 CANA RD",
+        "CALL:VF - VEHICLE FIRE",
+        "NAME:MEADER CORTLAND J",
+        "PHONE:336-940-2666",
+        "UNIT:17");
+
+    doTest("T8",
+        "911:Call #110628-4171* Address:700 RICHIE RD* * * City:MOCKSVILLE* NBH: FROM 444 EATONS CHURCH RD TO 3558 US HWY 601 N NBH: I40 TO FARMSTEAD LN* Type:HC* HAZARDO",
+        "ID:110628-4171",
+        "ADDR:700 RICHIE RD",
+        "CITY:MOCKSVILLE",
+        "INFO:NBH: FROM 444 EATONS CHURCH RD TO 3558 US HWY 601 N NBH: I40 TO FARMSTEAD LN",
+        "CALL:HC - HAZARDO");
  }
   
 
   public static void main(String[] args) {
-    new NCDavieCountyParserTest().generateTests("T1");
+    new NCDavieCountyParserTest().generateTests("T6");
   }
 }
