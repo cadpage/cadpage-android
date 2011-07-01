@@ -105,6 +105,7 @@ public class NJSalemCountyParserTest extends BaseParserTest {
         "911-CENTER:40 >BLS 11 KENT AVE Apt: 412 Bldg XS: NORTH BROADWAY PENNSVILLE TWP FRANKLIN ALARM CO OPER 2769 6782600 Map:",
         "CALL:BLS",
         "ADDR:11 KENT AVE",
+        "APT:412 Bldg",
         "X:NORTH BROADWAY",
         "CITY:PENNSVILLE TWP",
         "NAME:FRANKLIN ALARM CO OPER 2769",
@@ -112,6 +113,6 @@ public class NJSalemCountyParserTest extends BaseParserTest {
   }
   
   public static void main(String[] args) {
-    new NJSalemCountyParserTest().generateTests("T1", "CALL ADDR X CITY NAME PHONE");
+    new NJSalemCountyParserTest().generateTests("T1", "CALL ADDR APT X CITY NAME PHONE");
   }
 }
