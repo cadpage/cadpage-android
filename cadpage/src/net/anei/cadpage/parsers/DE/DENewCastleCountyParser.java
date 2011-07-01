@@ -34,6 +34,10 @@ Sender: rc.322@c-msg.net
 05:26T:71B1 (L1*VEH-FIRE) L:CONCORD PK~PIERCE RD ,GD *DEERHURST - X: : vehicle on fire
 21:42T:M29D2M (PEDESTRIAN STRUCK) L:5350 BRANDYWINE PY ,BRTC -- CHRISTMAS TREE SHO high xst: NAAMANS RD *BRANDYWINE TOWNE CENTER - :—àDSC:SUBJ STRUCK—! PAT:1 SEX:Female AGE:30Years CON:Y BRE:Y
 
+Contact: Rebecca Deem <rdeem328@gmail.com>
+Sender: rc.81@c-msg.net
+Subject:24CAD\n[eFB] F00 21:22 1 - T:M10D2 (CHEST PAINS-DIFF SPEAKING BETW) L:1000 SNOWY EGRET LA ,AGC2 btwn POLE BRIDGE RD ~ BOBWHITE \nCT *AUGUSTINE CREEK II - DESC:??DSC:CHEST PAIN?! PAT:1 SEX:Male AGE:52Years CON:Y BRE:Y\n
+
  */
 
 
@@ -44,6 +48,8 @@ public class DENewCastleCountyParser extends FieldProgramParser {
     Pattern.compile("^\\d\\d:\\d\\d(?=T:)")
   };
   
+  private static final Pattern NAKED_BTWN = Pattern.compile("(?<!X: ?)\\bbtwn\\b");
+  
   public DENewCastleCountyParser() {
     super("NEW CASTLE COUNTY", "DE",
            "T:CALL! L:ADDR! X:X DESC:INFO");
@@ -51,7 +57,7 @@ public class DENewCastleCountyParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "rc.322@c-msg.net";
+    return "@c-msg.net";
   }
 
   @Override
@@ -70,11 +76,14 @@ public class DENewCastleCountyParser extends FieldProgramParser {
     
     if (subject.length() > 0) {
       String[] subjects = subject.split("\\|");
-      if (! subjects[subjects.length-1].equals("FB")) return false;
+      if (! subjects[subjects.length-1].endsWith("FB")) return false;
       if (subjects.length == 2) data.strSource = subjects[0];
     }
     
+    body = body.replace('\n', ' ');
+    body = body.replaceAll("  +", " ");
     body = body.replace(" :", " DESC:");
+    body = NAKED_BTWN.matcher(body).replaceFirst("X:btwn");
     return super.parseMsg(body, data);
   }
   
