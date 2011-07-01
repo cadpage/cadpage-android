@@ -43,6 +43,7 @@ Contact: J N <shadymailman@gmail.com>,Jason Ng <jasonkwng@gmail.com>
 1 of 2\nFRM:dispatch@firetracker.net\nSUBJ:FirePage\nMSG:**NMFD** [MVA] [MVA] PARK AVE C/S: CAMERON AVE - M/A 65 AIDED WITH CHEST\nPAINS TOA:23:00\n(Con 2 of 2\n6/23/2011 Town Of: NO MERRICK [FireTracker](End)
 1 of 2\nFRM:dispatch@firetracker.net\nSUBJ:FirePage\nMSG:**NMFD** [AMBU] [AMBU] 1817 WILLIS AVE [ALARM PENDING] C/S: STATE ST /\nSCHERMERHORN ST -\n(C 2 of 2\nM/A 64 PERSON CHOKING TOA:12:22 6/25/2011 Town Of:\nMERRICK [FireTracker](End)
 1 of 2\nFRM:dispatch@firetracker.net\nSUBJ:FirePage\nMSG:**NMFD** [AMBU] [AMBU] 1766 MERRICK AVE [DUNKIN DONUTS] C/S: WEBSTER ST\n/ GARFIELD ST -\n(Co 2 of 2\nM/A 64 ASSAULT VICTIM / R/O TOA:15:51 6/25/2011 Town Of:\nNO MERRICK [FireTracker](End)
+FRM:dispatch@firetracker.net\nSUBJ:FirePage\nMSG:**NMFD** [MVA] [MVA] WEBSTER ST C/S: MERRICK AVE - M/A 64 TOA:11:56\n6/28/2011 Town Of: MERRICK [FireTracker
 
 */
 public class NYNassauCountyFiretrackerParser extends FieldProgramParser {
@@ -61,8 +62,11 @@ public class NYNassauCountyFiretrackerParser extends FieldProgramParser {
   public boolean parseMsg(String subject, String body, Data data) {
     
     if (!subject.equals("FirePage")) return false;
-    if (!body.endsWith("[FireTracker]")) return false;
-    body = body.substring(0,body.length()-13).trim();
+    
+    int pt = body.lastIndexOf('[');
+    if (pt < 0) return false;
+    if (! "[FireTracker]".startsWith(body.substring(pt))) return false;
+    body = body.substring(0,pt).trim();
     
     if (body.startsWith("*FSMFD* ") || body.startsWith("FSMFD")) {
       data.strSource = "FSMFD";
