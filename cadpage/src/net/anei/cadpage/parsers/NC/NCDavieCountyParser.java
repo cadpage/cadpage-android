@@ -15,6 +15,10 @@ Contact: Michael Wilson <fireman1700@gmail.com>
 911:Call #110623-3420* Address:261 COOPER CREEK DR* * * City:MOCKSVILLE* Geo Comment: BUSINESSES IN CITY LIMITS NBH: OFF 1734 US HWY 601 N Landmark Comment: KNOX
 911:Call #110624-3510* Address:3868 US HWY 601 N* * * City:MOCKSVILLE* * Type:YEL* CARDIAC PROBLEM* HOHFF, EARL V* PH#:336-492-3017* Units:17* IRA:* Medical: No*
 
+911:Call #110627-3974* Address:NC HWY 801 N // BONKIN LAKE RD* * * City:MOCKSVILLE* * Type:GWB* GRASS/WOODS/BRUSH FIRE* PAUL TONY* PH#:336-575-4524* Units:17,23*
+911:Call #110630-4406* Address:284 BRANGUS WAY* * * City:MOCKSVILLE* NBH: OFF 2386 CANA RD* Type:VF* VEHICLE FIRE* MEADER CORTLAND J* PH#:336-940-2666* Units:17
+911:Call #110628-4171* Address:700 RICHIE RD* * * City:MOCKSVILLE* NBH: FROM 444 EATONS CHURCH RD TO 3558 US HWY 601 N NBH: I40 TO FARMSTEAD LN* Type:HC* HAZARDO
+
  */
 
 
@@ -24,7 +28,7 @@ public class NCDavieCountyParser extends FieldProgramParser {
   
   public NCDavieCountyParser() {
     super("DAVIE COUNTY", "NC",
-           "ID Address:ADDR! City:CITY! Type:CALL CALL NAME PH:PHONE Units:UNIT IRA:SKIP INFO+ Geo_Comment:INFO2");
+           "ID Address:ADDR! City:CITY! NBH:INFO3 Type:CALL CALL NAME PH:PHONE Units:UNIT IRA:SKIP INFO+ Geo_Comment:INFO2");
   }
 
   @Override
@@ -48,11 +52,19 @@ public class NCDavieCountyParser extends FieldProgramParser {
       data.strSupp = "Geo Comment: " + field;
     }
   }
+  
+  private class MyInfo3Field extends InfoField {
+    @Override
+    public void parse(String field, Data data) {
+      data.strSupp = "NBH: " + field;
+    }
+  }
 
   @Override
   protected Field getField(String name) {
     if (name.equals("CALL")) return new MyCallField();
     if (name.equals("INFO2")) return new MyInfo2Field();
+    if (name.equals("INFO3")) return new MyInfo3Field();
     return super.getField(name);
   }
 }
