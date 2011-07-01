@@ -173,10 +173,18 @@ public class DENewCastleCountyParserTest extends BaseParserTest {
         "PLACE:CHRISTMAS TREE SHO high xst: NAAMANS RD *BRANDYWINE TOWNE CENTER",
         "INFO:—àDSC:SUBJ STRUCK—! PAT:1 SEX:Female AGE:30Years CON:Y BRE:Y");
   
+    doTest("T21",
+        "Subject:24CAD\n[eFB] F00 21:22 1 - T:M10D2 (CHEST PAINS-DIFF SPEAKING BETW) L:1000 SNOWY EGRET LA ,AGC2 btwn POLE BRIDGE RD ~ BOBWHITE \nCT *AUGUSTINE CREEK II - DESC:??DSC:CHEST PAIN?! PAT:1 SEX:Male AGE:52Years CON:Y BRE:Y\n",
+        "SRC:24CAD",
+        "CALL:M10D2 (CHEST PAINS-DIFF SPEAKING BETW)",
+        "ADDR:1000 SNOWY EGRET LN",
+        "X:btwn POLE BRIDGE RD ~ BOBWHITE CT *AUGUSTINE CREEK II -",
+        "INFO:??DSC:CHEST PAIN?! PAT:1 SEX:Male AGE:52Years CON:Y BRE:Y");
+  
   }
   
   public static void main(String[] args) {
-    new DENewCastleCountyParserTest().generateTests("T10");
+    new DENewCastleCountyParserTest().generateTests("T22");
   }
 }
     		
