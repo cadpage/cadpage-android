@@ -104,6 +104,9 @@ Contact: Bob sherwood <memphismadman@gmail.com>
 S: M:CAD:25 REYNOLDS MOUNTAIN BLVD;B20;RM 126-A;EMERALD RIDGE;EMERALD RIDGE REHAB AND CARE C;ALLERGIES / REACTIONS;WEAVERVILLE RD
 S:CAD:111 OLD WEAVERVILLE RD;B20;BLAZER, RUTH;UNCONSCIOUS/ FAINTING M: 
 
+Contact: David Rice <cdrice15@gmail.com>
+S: M:CAD:656 N FORK RD;B15;7654131974 DIST: 231.30 FT;Buncombe County;CHEST PAIN
+
 */
 
 public class NCBuncombeCountyParser extends DispatchOSSIParser {
