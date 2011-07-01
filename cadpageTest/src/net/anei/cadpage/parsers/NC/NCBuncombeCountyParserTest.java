@@ -703,10 +703,17 @@ public class NCBuncombeCountyParserTest extends BaseParserTest {
         "UNIT:B20",
         "CALL:UNCONSCIOUS/ FAINTING",
         "NAME:BLAZER, RUTH");
+
+    doTest("T90",
+        "S: M:CAD:656 N FORK RD;B15;7654131974 DIST: 231.30 FT;Buncombe County;CHEST PAIN",
+        "ADDR:656 N FORK RD",
+        "UNIT:B15",
+        "CALL:CHEST PAIN",
+        "INFO:Buncombe County");
   }
   
 
   public static void main(String[] args) {
-    new NCBuncombeCountyParserTest().generateTests("T89");
+    new NCBuncombeCountyParserTest().generateTests("T90");
   }
 }

@@ -228,6 +228,14 @@ public class NYNassauCountyFiretrackerParserTest extends BaseParserTest {
         "PLACE:[DUNKIN DONUTS]",
         "X:WEBSTER ST / GARFIELD ST",
         "INFO:(Co 2 of 2 M/A 64 ASSAULT VICTIM / R/O");
+
+    doTest("T10",
+        "FRM:dispatch@firetracker.net\nSUBJ:FirePage\nMSG:**NMFD** [MVA] [MVA] WEBSTER ST C/S: MERRICK AVE - M/A 64 TOA:11:56\n6/28/2011 Town Of: MERRICK [FireTracker",
+        "SRC:NMFD",
+        "CALL:[MVA] [MVA]",
+        "ADDR:WEBSTER ST",
+        "X:MERRICK AVE",
+        "INFO:M/A 64");
  }
   
   public static void main(String[] args) {
