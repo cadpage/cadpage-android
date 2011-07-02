@@ -14,18 +14,17 @@ astudstill@co.camden.ga.us:2011-101695* HIGHWAY 17 STEFFANS* * * KINGSLAND* * Tr
 astudstill@co.camden.ga.us:2011-104696* 4059 MARTIN LUTHER KING BLVD* N4* * 514,541,546,ENG4,LS4,MED4 KINGSLAND* * INJURY* INJURY* 509,ENG5,LS3* * Medical: No
 astudstill@co.camden.ga.us:2011-101995* 405 & HIGHWAY 40 OLD WAFFLE HOUSE* * * KINGSLAND* * ACCIDENT* ACCIDENT* ELAINE* 386-208-4465* 514,541,546,ENG4,LS4,MED4
 astudstill@co.camden.ga.us:2011-104843* 429 EAGLE BLVD* * * KINGSLAND* * PERSON SICK* PERSON SICK* * 540,ENG4,LS4* * Medical: No* Haz
+214 REDWOOD ST* * * KINGSLAND* * PERSON SICK* PERSON SICK* MS FAGEN*912-269-6157* LS3,R3* * Medical: No* Hazards: No* 
 
 */
 public class GACamdenCountyParser extends FieldProgramParser {
   
-  private static final String[] MARKER_LIST = new String[]{
-    "astudstill@co.camden.ga.us:"
-  };
+  private static final Pattern HEADER = Pattern.compile("^[\\w@\\.]+:");
   private static final Pattern DELIM = Pattern.compile("\\*(?: \\*)*");
   
   public GACamdenCountyParser() {
     super("CAMDEN COUNTY", "GA",
-           "ID ADDR/SXP APT? CITY CALL SKIP ( NAME PHONE | ) UNIT INFO+");
+           "ID? ADDR/SXP APT? CITY CALL CALL2 ( NAME PHONE | ) UNIT! INFO+");
   }
   
   @Override
@@ -35,22 +34,29 @@ public class GACamdenCountyParser extends FieldProgramParser {
   
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
-
-    boolean found = false;
-    for (String mark : MARKER_LIST) {
-      if (body.startsWith(mark)) {
-        found = true;
-        body = body.substring(mark.length()).trim();
-      }
-    }
-    if (!found) return false;
+    
+    Matcher match = HEADER.matcher(body);
+    if (match.find()) body = body.substring(match.end()).trim();
     
     return parseFields(DELIM.split(body), data);
+  }
+  
+  private class MyIdField extends IdField {
+    public MyIdField() {
+      setPattern(Pattern.compile("[\\d\\-]+"));
+    }
   }
   
   private class MyAptField extends AptField {
     public MyAptField() {
       setPattern(Pattern.compile("[-A-Z0-9]{1,3}"));
+    }
+  }
+  
+  private class Call2Field extends Field {
+    @Override
+    public void parse(String field, Data data) {
+      if (!field.equalsIgnoreCase(data.strCall)) abort();
     }
   }
   
@@ -72,8 +78,10 @@ public class GACamdenCountyParser extends FieldProgramParser {
   
   @Override
   public Field getField(String name) {
+    if (name.equals("ID")) return new MyIdField();
     if (name.equals("APT")) return new MyAptField();
     if (name.equals("CITY")) return new MyCityField();
+    if (name.equals("CALL2")) return new Call2Field();
     if (name.equals("NAME")) return new MyNameField();
     return super.getField(name);
   }
