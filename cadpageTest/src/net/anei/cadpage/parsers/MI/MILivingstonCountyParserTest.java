@@ -65,7 +65,16 @@ public class MILivingstonCountyParserTest extends BaseParserTest {
         "CALL:SEIZUR",
         "ADDR:131 STRATFORD LN",
         "X:BELMONT LN");
-        
 
+    doTest("T9",
+        "CAD:FYI: ;OPENBU;8360 MCCLEMENTS RD;DEKASSEL DR;BURNING GARBAGE ONE HOUSE EAST OF CALLER [07/01/11 19:44:56 SSTURGIS]",
+        "CALL:OPENBU",
+        "ADDR:8360 MCCLEMENTS RD",
+        "X:DEKASSEL DR",
+        "INFO:BURNING GARBAGE ONE HOUSE EAST OF CALLER");
+  }
+  
+  public static void main(String[] args) {
+    new MILivingstonCountyParserTest().generateTests("T9");
   }
 }
