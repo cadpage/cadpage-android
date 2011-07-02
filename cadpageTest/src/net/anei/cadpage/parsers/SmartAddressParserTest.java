@@ -19,6 +19,7 @@ public class SmartAddressParserTest extends BaseParserTest {
   private static final int FLAG_ANCHOR_END = SmartAddressParser.FLAG_ANCHOR_END;
   private static final int FLAG_IMPLIED_INTERSECT = SmartAddressParser.FLAG_IMPLIED_INTERSECT;
   private static final int FLAG_PAD_FIELD = SmartAddressParser.FLAG_PAD_FIELD;
+  private static final int FLAG_CHECK_STATUS = SmartAddressParser.FLAG_CHECK_STATUS;
   
   private static final String[] CITY_LIST = new String[]{"KENSBURG", "KEN TOWN"};
   private static final String DEF_CITY = "STATE OF MIND";
@@ -33,9 +34,6 @@ public class SmartAddressParserTest extends BaseParserTest {
   
   @Test
   public void testProblem() {
-    doTest(CALL, "CALL 123 RT US EXTRA",
-        "CALL:CALL",
-        "ADDR:123 RT US EXTRA");
   }
 
   
@@ -474,6 +472,11 @@ public class SmartAddressParserTest extends BaseParserTest {
     assertEquals(0, parser.checkAddress("US 50 & SE JEFFERSON ST EXTRA"));
     assertEquals(1, parser.checkAddress("SMITH RD"));
     assertEquals(0, parser.checkAddress("SMITH RD EXTRA"));
+  }
+  
+  @Test
+  public void testCheckStatus() {
+    assertEquals(0, parser.parseAddress(ADDR, FLAG_ANCHOR_END | FLAG_CHECK_STATUS, "715 CAMDEN CT DRYER ON FIRE").getStatus());
   }
 
   @Test
