@@ -28,6 +28,10 @@ firediver11+caf_=5176671194=vtext.com@gmail.comPagecopy-Fr:CAD@livingstoncounty.
 Contact: Jeff Vaden <jeffvaden@gmail.com>
 Pagecopy-Fr:CAD@livingstoncounty.livco CAD:Update: ;FALL;3031 WM36;[EMS] HAS BEEN VOMITTING - DIABETIC [02/14/11 09:55:08 RLADOUCEUR] [Me
 
+Contact: Aaron Gage <aarongage16@gmail.com>
+Sender: 93001011
+CAD:FYI: ;OPENBU;8360 MCCLEMENTS RD;DEKASSEL DR;BURNING GARBAGE ONE HOUSE EAST OF CALLER [07/01/11 19:44:56 SSTURGIS]
+
 */
 
 public class MILivingstonCountyParser extends DispatchOSSIParser {

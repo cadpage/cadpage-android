@@ -31,6 +31,11 @@ Subject:Incoming Message\n10043 Idlewild Rd             126       Willow Grove R
 Contact: David Boyd <rookiefire14@gmail.com>
 (Incoming Message) 19432 Fridley Ln                        medical alarm .. no pt info ..Charlie                       32- Unknown problem (man down)Denae Lynn
 
+** NOT IMPLEMENTED **
+Contact: John Stroup <j.stroup@northmeckrescue.org>
+Subject:Incoming Message\n15503 N Old Statesville Rd North Meck Rescue Charlie 12- Convulsion/Seizure 60 Foot St/Unnamed St Nmr1 Map - 266266/
+Subject:Incoming Message\n15503 N Old Statesville Rd North Meck Rescue Charlie 12- Convulsion/Seizure 60 Foot St/Unnamed St Nmr2 Map - 266266/
+
 
 
 */
