@@ -547,7 +547,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
       result.startPad = result.endAll;
       parseToCity(result.startAddress, result.endAll, result);
     }
-    return true;
+    return (result.endAll == tokens.length || !isFlagSet(FLAG_ANCHOR_END));
   }
 
   /**
@@ -650,7 +650,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
       parseToCity(result.startAddress, result.endAll, result);
     }
 
-    return true;
+    return (result.endAll == tokens.length || !isFlagSet(FLAG_ANCHOR_END));
   }
   
   /**
@@ -781,7 +781,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
       parseToCity(result.startAddress, result.endAll, result);
     }
 
-    return true;
+    return (result.endAll == tokens.length || !isFlagSet(FLAG_ANCHOR_END));
   }
 
   /**
@@ -911,7 +911,8 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     
     // If FLAG_ANCHOR_END is set, we are going to parse this to the
     // end of the line without looking for a city
-    boolean parseToEnd = isFlagSet(FLAG_ANCHOR_END);
+    boolean anchorEnd = isFlagSet(FLAG_ANCHOR_END);
+    boolean parseToEnd = anchorEnd & ! isFlagSet(FLAG_CHECK_STATUS);
     boolean padField = isFlagSet(FLAG_PAD_FIELD);
 
     if (srcNdx >= tokens.length) return false;
@@ -961,7 +962,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
       // Is there a city here?
       int endCity = findEndCity(ndx);
       if (endCity >= 0) {
-        if (!parseToEnd || endCity == tokens.length) {
+        if (!anchorEnd || endCity == tokens.length) {
           if (result.startAddress < 0) result.initAddress = result.startAddress = stNdx;
           result.initPlace = inPlace;
           result.startPlace = stPlace;
