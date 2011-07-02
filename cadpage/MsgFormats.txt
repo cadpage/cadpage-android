@@ -179,6 +179,11 @@ Northampton County, PA (PANorthamptonCountyParser)
 [e49]BLS >BASIC LIFE SUPPORT CALL 1323 NEWPORT AVE Apt: REAR Bldg NORTHAMPTON TONY FERRERA Map: Grids:0,0 Cad: 2011-00000
 [e49]MVAI >MVA WITH INJURIES 248 AT PENNSVILLE LIGHT LEHIGH TWP NATALIE BRODIANO Cad: 2011-0000086361
 *******************************************************************************
+Snyder County, PA (PASnyderCountyParser)
+SNYDER911:IMMTRA>IMMEDIATE TRANSPORT 308 S MARKET ST XS:SASSAFRAS ST SELINSGROVE BORO YOUNG, AMBER Map:Grids:00000,000 CAD:2011-0000005449
+SNYDER911:CARSY>CARDIAC SYMPTOMS 2084 ROUTE 522 PENN TWP HUFFNAGLE, CRYSTAL Map:Grids:00000,000 CAD:2011-0000005448
+SNYDER911:ILLPER>ILLPERSON 620 UNIVERSITY AVE SELINSGROVE BORO ESHENAUR, MOLLY Map:Grids:00000,000 CAD:2011-0000005444
+*******************************************************************************
 Anderson County, SC (SCAndersonCountyParser)
 ANDERSON CO 911:29B1 >MVA-ALS PRI1 3814 N HIGHWAY 29 XS: BROOKS RD - DORCHESTER RD BELTON PLATINUM PLUS Map: Grids:0,0 Cad: 2011-0000004351
 ANDERSON CO 911:29B4 >MVA-ALS PRI1 HIGHWAY 29 N MICHAEL QUEEN2214421 Cad: 2011-0000004070
@@ -2176,28 +2181,6 @@ Durham County, NC
 Contact: 9196674642@vzwpix.com
 CAD:TRANSPORTATION ACCIDENT;2399 S ALSTON AVE/RIDDLE RD;{M8} CODE 2 RESPONSE [06/30/11 15:48:22 GRIFFINT] {M8} SEND ADDTL MEDIC UNIT [06/30/11 15:46:11 GRIFFINT] [
 **********************************************************
-Jefferson City, MO
-Contact: Jake Holee <jakeholee@gmail.com>
-Sender: paging@jeffcitymo.org
-Subject:DONOTREPLY\nSnyder, Jodi 14:00 Medical Emergency 718 MICHIGAN -Cross Streets- LOUISIANA AVE / MISSOURI BLVD E1   CONSCIOUS  OUTSID
-Subject:DONOTREPLY\nE4  14:28 Line Down  - 1505 SOUTHWEST -Cross Streets- CEDAR RIDGE RD / EDGEWOOD DR   LIMB IS ON A POWER LINE \n
-Subject:DONOTREPLY\nMcDowell, Shelley 13:40 Medical Emergency 301 HIGH -Cross Streets- BROADWAY ST / RAMP OFF RAMP, RAMP ON RAMP E1   FEMA
-Subject:DONOTREPLY\nBatt12 E1 L1 E3 S5  13:31 Fire Alarm - 1303 EDMONDS -Cross Streets- MONTANA ST / MYRTLE AVE   OPER 38  UNKNOWN ROOM  3 
-Subject:DONOTREPLY\nL1  12:02 Accident with Injuries - 1300 5463 BLK -Cross Streets- RAMP 25, HWY 54 E / RAMP 26   CCEMS EN ROUTE  NEED EX 
-Subject:DONOTREPLY\nMcDowell, Shelley 10:07 Medical Emergency 1705 CHRISTY -Cross Streets- CHRISTY CT / ELLIS BLVD E4   SUITE 208 \n
-Subject:DONOTREPLY\nMcDowell, Shelley 09:40 Medical Emergency 1434 NOTTING HILL -Cross Streets- DEAD END / PORTABELLO PLACE DR S5   EMS EN 
-Subject:DONOTREPLY\nMcDowell, Shelley 08:30 Medical Emergency 424 STADIUM -Cross Streets- ADAMS ST / YMCA DR, JACKSON ST E4\3sELDERLY MALE 
-Subject:DONOTREPLY\nStiefermann, Angela 02:32 Medical Alarm 10 JACKSON 704 -Address Between- DEAD END / E STATE ST E1   \n
-
-Contact: Scott Kempker <jcfd133@gmail.com>
-Sender: paging@jeffcitymo.org
-FRM:paging@jeffcitymo.org\nSUBJ:DONOTREPLY\nMSG:Aston, Nora 22:35 Medical Alarm 10 JACKSON 207 -Address Between- DEAD END / E STATE ST E1   
-EMS NOTIFIED \n
-
-Contact: "jacobholee04@pm.sprint.com" <jacobholee04@pm.sprint.com>
-Subject:DONOTREPLY
-E1  16:32 Assist Citizen Fire - MYRTLE EDMONDS -Cross Streets-   MALE WAS ROLLING BACKWARDS UNTIL CALLERS SON JUMPED O
-**********************************************************
 Prince Georges County, MD (alternate)
 Contact: Kyle Armstrong <pgfd19338@yahoo.com>
 Sender: alrt113574@alert.princegeorgescountymd.gov
@@ -2343,26 +2326,6 @@ INFO FOR ALL UNITS
 Apt: 
 Build:
 **********************************************************
-Snyder County, PA
-Contact: Jonathan <knightsgk01@yahoo.com>
-DispatchBParser?
-SNYDER911:IMMTRA>IMMEDIATE TRANSPORT 308 S MARKET ST XS:SASSAFRAS ST SELINSGROVE BORO YOUNG, AMBER Map:Grids:00000,000 CAD:2011-0000005449
-SNYDER911:CARSY>CARDIAC SYMPTOMS 2084 ROUTE 522 PENN TWP HUFFNAGLE, CRYSTAL Map:Grids:00000,000 CAD:2011-0000005448
-SNYDER911:ILLPER>ILLPERSON 620 UNIVERSITY AVE SELINSGROVE BORO ESHENAUR, MOLLY Map:Grids:00000,000 CAD:2011-0000005444
-SNYDER911:GASOUT>GAS ODOR/OUTSIDE 1011 SUNRISE DR SELINSGROVE BORO UGI/SAND Map:Grids:00000,000 CAD 2011-0000005999
-SNYDER911:AUTONI>AUTO ACCIDENT/NO INJURY 1769 N SUSQUEHANNA TRL MONROE TWP Map:Grids:00000,000 CAD 2011-0000006003
-SNYDER911:FIREWI>FIRE/WILDFIRE 1035 N SUSQUEHANNA TRL XS:SUSQUEHANNA VALLEY MALL DR MONROE TWP DUN, SCOTT Map:00000,000 CAD:2011-0000005987
-SYNDER911:AAFIRE>AUTO ALARM/FIRE 111 MARKETPLACE BLVD MONROE TWP SECURITY SERVICE  CO., 8717 Map:Grids: CAD:2011-0000005983
-SYNDER911:AUTOIN>AUTO ACCIDENT/INJURY 892 ROUTE 522 PENN TWP Map:Grids:00000,000 Cad:2011-0000005857
-
-These dispatches are for Station 80, Dauntless Hook and Ladder, Fire and EMS in 
-Selinsgrove, Snyder County, PA.  The way in which the dispatch reads is 
-dispatching agency, snyder911, the short code, ex: IMMTRA, the meaning of the 
-short code, ex. Immediate Transport, the address, ex. 308 S Market St, the cross 
-street (XS) if any, ex. Sassafras St, the city or township, ex. Selinsgrove 
-Boro, the caller name (last name first), ex.Young, Amber, the map and grid 
-though they don't have this hooked up, ex 00000,000, and the CAD reference 
-number, ex 2011-0000005449.
 **********************************************************
 Sussex County, NJ (Bryan TWP FD)  (Sparta Dispatch - not entire county but 8 departments)
 Contact:Todd Rudloff <btfd43capt2@gmail.com>
@@ -2371,6 +2334,28 @@ Contact:Todd Rudloff <btfd43capt2@gmail.com>
 [I-B2011-004688]  FIRE @ 33 SLEEPY HOLLOW ROAD  , BYRAM - CALLER REPORTS HIS LIVING ROOM IS SMOKING.
 (I-B2011-003217) FIREPD @ 4 MOUNTAIN AVENUE  , BYRAM - CALLER REPORTS THICK BLACK SMOKE COMING FROM THE RESIDENCE.
 [I-B2011-000701]  FIRE @ 228 TOMAHAWK TRAIL  , BYRAM - STRUCTURE FIRE
+**********************************************************
+Jefferson City, MO
+Contact: Jake Holee <jakeholee@gmail.com>
+Sender: paging@jeffcitymo.org
+Subject:DONOTREPLY\nSnyder, Jodi 14:00 Medical Emergency 718 MICHIGAN -Cross Streets- LOUISIANA AVE / MISSOURI BLVD E1   CONSCIOUS  OUTSID
+Subject:DONOTREPLY\nE4  14:28 Line Down  - 1505 SOUTHWEST -Cross Streets- CEDAR RIDGE RD / EDGEWOOD DR   LIMB IS ON A POWER LINE \n
+Subject:DONOTREPLY\nMcDowell, Shelley 13:40 Medical Emergency 301 HIGH -Cross Streets- BROADWAY ST / RAMP OFF RAMP, RAMP ON RAMP E1   FEMA
+Subject:DONOTREPLY\nBatt12 E1 L1 E3 S5  13:31 Fire Alarm - 1303 EDMONDS -Cross Streets- MONTANA ST / MYRTLE AVE   OPER 38  UNKNOWN ROOM  3 
+Subject:DONOTREPLY\nL1  12:02 Accident with Injuries - 1300 5463 BLK -Cross Streets- RAMP 25, HWY 54 E / RAMP 26   CCEMS EN ROUTE  NEED EX 
+Subject:DONOTREPLY\nMcDowell, Shelley 10:07 Medical Emergency 1705 CHRISTY -Cross Streets- CHRISTY CT / ELLIS BLVD E4   SUITE 208 \n
+Subject:DONOTREPLY\nMcDowell, Shelley 09:40 Medical Emergency 1434 NOTTING HILL -Cross Streets- DEAD END / PORTABELLO PLACE DR S5   EMS EN 
+Subject:DONOTREPLY\nMcDowell, Shelley 08:30 Medical Emergency 424 STADIUM -Cross Streets- ADAMS ST / YMCA DR, JACKSON ST E4\3sELDERLY MALE 
+Subject:DONOTREPLY\nStiefermann, Angela 02:32 Medical Alarm 10 JACKSON 704 -Address Between- DEAD END / E STATE ST E1   \n
+
+Contact: Scott Kempker <jcfd133@gmail.com>
+Sender: paging@jeffcitymo.org
+FRM:paging@jeffcitymo.org\nSUBJ:DONOTREPLY\nMSG:Aston, Nora 22:35 Medical Alarm 10 JACKSON 207 -Address Between- DEAD END / E STATE ST E1   
+EMS NOTIFIED \n
+
+Contact: "jacobholee04@pm.sprint.com" <jacobholee04@pm.sprint.com>
+Subject:DONOTREPLY
+E1  16:32 Assist Citizen Fire - MYRTLE EDMONDS -Cross Streets-   MALE WAS ROLLING BACKWARDS UNTIL CALLERS SON JUMPED O
 **********************************************************
 **********************************************************
 **********************************************************
