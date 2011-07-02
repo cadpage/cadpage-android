@@ -53,10 +53,20 @@ public class GACamdenCountyParserTest extends BaseParserTest {
         "CALL:PERSON SICK",
         "UNIT:540,ENG4,LS4",
         "INFO:Medical: No / Haz");
+
+    doTest("T5",
+        "214 REDWOOD ST* * * KINGSLAND* * PERSON SICK* PERSON SICK* MS FAGEN*912-269-6157* LS3,R3* * Medical: No* Hazards: No*",
+        "ADDR:214 REDWOOD ST",
+        "CITY:KINGSLAND",
+        "CALL:PERSON SICK",
+        "NAME:MS FAGEN",
+        "PHONE:912-269-6157",
+        "UNIT:LS3,R3",
+        "INFO:Medical: No / Hazards: No");
    
   }
   
   public static void main(String[] args) {
-    new GACamdenCountyParserTest().generateTests("T1");
+    new GACamdenCountyParserTest().generateTests("T5");
   }
 }
