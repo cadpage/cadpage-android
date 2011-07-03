@@ -106,10 +106,18 @@ public class NCStanlyCountyParserTest extends BaseParserTest {
         "CITY:STANFIELD",
         "X:COYLE RD",
         "INFO:NC 200 HWY / FELL POSS SEIZURE RELATED # PATS: 1 AGE: 50 Yea");
-  }
+
+    doTest("T13",
+        "CAD:80-BRUSH ALARM/ROCK HOLE RD/NC 200 HWY/SFD/WHEAT FIELD CUT BUT ON FIRE / APPX 1 ACRE [07/02/11 18:42:57 TSMITH] ONTO ROCK HOLE ON LEFT [07/02/",
+        "CALL:80-BRUSH ALARM/ROCK HOLE RD",
+        "ADDR:NC 200 HWY",
+        "CITY:STANFIELD",
+        "X:WHEAT FIELD CUT BUT ON FIRE",
+        "INFO:APPX 1 ACRE / ONTO ROCK HOLE ON LEFT");
+ }
   
 
   public static void main(String[] args) {
-    new NCStanlyCountyParserTest().generateTests("T13");
+    new NCStanlyCountyParserTest().generateTests("T14");
   }
 }
