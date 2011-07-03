@@ -199,6 +199,18 @@ public class PABucksCountyParserTest extends BaseParserTest {
         "MAP:3034K5",
         "ID:FD1108375",
         "UNIT:E79");
+
+    doTest("T17",
+        "911: STA19  type:WATER   adr:EIGHTEENFOURTEEN H ,28 at 50 S MAIN ST ,28 btwn W OAKLAND AV & TAYLOR AV  aai:  box:19022  map:2922J10  tm:02:29:07  FD11",
+        "SRC:STA19",
+        "CALL:WATER - WATER FLOW",
+        "PLACE:EIGHTEENFOURTEEN H",
+        "ADDR:50 S MAIN ST",
+        "CITY:DOYLESTOWN",
+        "X:W OAKLAND AV & TAYLOR AV",
+        "BOX:19022",
+        "MAP:2922J10",
+        "ID:FD11");
   }
   
   public static void main(String[] args) {

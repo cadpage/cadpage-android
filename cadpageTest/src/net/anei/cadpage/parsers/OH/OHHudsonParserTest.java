@@ -53,10 +53,21 @@ public class OHHudsonParserTest extends BaseParserTest {
         "PLACE:JOANN STORES INC.",
         "CALL:EMS",
         "INFO:SHORTNESS OF BREATH MALE N GATE SECURITY OFFICE");
-    
+ 
+    doTest("T7",
+        "HudsonCAD:CAD System 200,LAUREL LAKE DR.,,EMS,EMSGREENWOOD 303 LUMBAR PAIN",
+        "ADDR:200 LAUREL LAKE DR",
+        "CALL:EMS",
+        "INFO:GREENWOOD 303 LUMBAR PAIN");
+
+    doTest("T8",
+        "HudsonCAD:CAD System 1430,WINSLOW DR.,,HUDSON EMS,EMSCHEST PAINS",
+        "ADDR:1430 WINSLOW DR",
+        "CALL:EMS",
+        "INFO:CHEST PAINS");
   }
   
   public static void main(String[] args) {
-    new OHHudsonParserTest().generateTests("T1");
+    new OHHudsonParserTest().generateTests("T9");
   }
 }
