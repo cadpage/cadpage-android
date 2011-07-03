@@ -184,11 +184,13 @@
     <item>MDArnold</item>
     <item>NCStanleyCounty</item>
     <item>NCChattamCounty</item>
+    <item>MDCentreville</item>
   </string-array>
   <string-array name="new_location_values">
     <item>MDAnneArundelCounty</item>
     <item>NCStanlyCounty</item>
     <item>NCChathamCounty</item>
+    <item>MDQueenAnnesCounty</item>
   </string-array>
   
   <!-- Array of state names -->
@@ -287,7 +289,6 @@
     <item>MDCarolineCounty</item>
     <item>MDCarrollCounty</item>
     <item>MDCecilCounty</item>
-    <item>MDCentreville</item>
     <item>MDCharlesCounty</item>
     <item>MDDorchesterCounty</item>
     <item>MDFrederickCounty</item>
@@ -296,6 +297,7 @@
     <item>MDMontgomeryCounty</item>
     <item>MDOceanCity</item>
     <item>MDPrinceGeorgesCounty</item>
+    <item>MDQueenAnnesCounty</item>
     <item>MDSaintMarysCounty</item>
     <item>MDTalbotCounty</item>
     <item>MDWashingtonCounty</item>
@@ -512,7 +514,6 @@
     <item>Caroline County, MD</item>
     <item>Carroll County, MD</item>
     <item>Cecil County, MD</item>
-    <item>Centreville, MD</item>
     <item>Charles County, MD</item>
     <item>Dorchester County, MD</item>
     <item>Frederick County, MD</item>
@@ -521,7 +522,8 @@
     <item>Montgomery County, MD</item>
     <item>Ocean City, MD</item>
     <item>Prince George\'s County, MD</item>
-    <item>St Marys County, MD</item>
+    <item>Queen Anne\'s County, MD</item>
+    <item>St Mary\'s County, MD</item>
     <item>Talbot County, MD</item>
     <item>Washington County, MD</item>
     <item>Wicomico County, MD</item>

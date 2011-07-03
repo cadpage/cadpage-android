@@ -7,7 +7,8 @@ import net.anei.cadpage.SmsMsgInfo.Data;
 import net.anei.cadpage.parsers.SmartAddressParser;
 
 /******************************************************************************
-Centreville, MD Sample messages
+Queen Anne's County, MD
+
 Contact: Contact: David baker <baker.davidm@gmail.com> ?
 qac911:*D 4-2 COMMERCIAL BLDG FIRE DUNKIN DONUTS @500 CHURCH HILL RD COMMERCIAL BOX Q04
 qac911:*D 4-5 MVC W/ENTRAPMENT RT301NB / RT304 RESCUE BOX Q04
@@ -41,14 +42,14 @@ Contact: Joshua Ruby <josh@computerrescuemd.com>
 
 ******************************************************************************/
 
-public class MDCentrevilleParser extends SmartAddressParser {
+public class MDQueenAnnesCountyParser extends SmartAddressParser {
   
   private static final String DEF_STATE = "MD";
-  private static final String DEF_CITY = "CENTREVILLE";
+  private static final String DEF_CITY = "QUEEN ANNES COUNTY";
   
   private static final Pattern MARKER = Pattern.compile("^(qac911|QA911com):\\*[DG] ");
   
-  public MDCentrevilleParser() {
+  public MDQueenAnnesCountyParser() {
     super(DEF_CITY, DEF_STATE);
   }
   

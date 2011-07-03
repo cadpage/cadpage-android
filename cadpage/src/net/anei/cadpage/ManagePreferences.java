@@ -62,6 +62,13 @@ public class ManagePreferences {
     String newLocation = convertOldLocationCode(context, location);
     if (! location.equals(newLocation)) {
       setLocation(newLocation);
+      if (location.equals("MDCentreville")) {
+        if (!overrideDefaults()) {
+          setOverrideDefaults(true);
+          setDefaultCity("Centreville");
+          setDefaultState("MD");
+        }
+      }
     }
     
     // Set the install date if it hasn't already been set
@@ -176,12 +183,24 @@ public class ManagePreferences {
     return prefs.getBoolean(R.string.pref_override_default_key);
   }
   
+  private static void setOverrideDefaults(boolean newVal) {
+    prefs.putBoolean(R.string.pref_override_default_key, newVal);
+  }
+  
   public static String defaultCity() {
     return prefs.getString(R.string.pref_defcity_key);
   }
   
+  private static void setDefaultCity(String newVal) {
+    prefs.putString(R.string.pref_defcity_key, newVal);
+  }
+  
   public static String defaultState() {
     return prefs.getString(R.string.pref_defstate_key);
+  }
+  
+  private static void setDefaultState(String newVal) {
+    prefs.putString(R.string.pref_defstate_key, newVal);
   }
   
   public static int logLimit() {
