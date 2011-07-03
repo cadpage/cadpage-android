@@ -1,15 +1,15 @@
 package net.anei.cadpage.parsers.MD;
 
 import net.anei.cadpage.parsers.BaseParserTest;
-import net.anei.cadpage.parsers.MD.MDCentrevilleParser;
+import net.anei.cadpage.parsers.MD.MDQueenAnnesCountyParser;
 
 import org.junit.Test;
 
 
-public class MDCentrevilleParserTest extends BaseParserTest {
+public class MDQueenAnnesCountyParserTest extends BaseParserTest {
   
-  public MDCentrevilleParserTest() {
-    setParser(new MDCentrevilleParser(), "CENTREVILLE", "MD");
+  public MDQueenAnnesCountyParserTest() {
+    setParser(new MDQueenAnnesCountyParser(), "QUEEN ANNES COUNTY", "MD");
   }
   
   @Test
@@ -125,6 +125,6 @@ public class MDCentrevilleParserTest extends BaseParserTest {
   }
   
   public static void main(String[] args) {
-    new MDCentrevilleParserTest().generateTests("T1", "CALL ADDR INFO");
+    new MDQueenAnnesCountyParserTest().generateTests("T1", "CALL ADDR INFO");
   }
 }
