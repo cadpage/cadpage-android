@@ -2219,16 +2219,6 @@ Sender: alrt115011@alert.princegeorgescountymd.gov  (send 3 sec apart, arrived .
 (1/3) A820 Incident: F111830112, Type: BLS Amb, Loc:9160 DARCY RD, PP, btwn LINCOLN AVE and SOUTH CHERRY LN, T
 (2/3) alkGroup: TGA2, Box: 2311, Map: 5651 E 5, Text: Medical ProQA recommends dispatch at this time, Unit:A82
 **********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-************  READY TO ROLL ******************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
 Geauga County, OH
 Contact: "Pettit, Lewis 911" <LPettit@co.geauga.oh.us>,4404785985@vtext.com
 Sender: Lpettit@co.geauga.oh.us
@@ -2253,23 +2243,16 @@ Sender:69310
 FD needed 12518 Merritt Rd for an garage fire /2878
 **********************************************************
 **********************************************************
-Halifax County, VA
-Contact: "devinsnead@hotmail.com" <devinsnead@hotmail.com>
-Sender: halifaxeoc@co.halifax.va.us
-
-[from Central]  11-017088 SHORTNESS OF BREATH, ETC.\n1110 HENRYS TRL\nAMBERSTONE DR / DEAD/END\nNATHALIE
-
-Contact: Dennis Blanks <dblanks09@gmail.com>
-(from Central) 11-022783 ACCIDENT INVOLVING PEDESTRIAN\n104-20 LOVE SHOP PARK RD\nOLD HALIFAX RD / DEA/D END\nLOVE SHOP TRAILER PARK  SOUTH BOSTON
-
-Contact: George Hodges <grh850@embarqmail.com>
-[from Central]  11-023176 FALLEN PATIENT\n2210 N TERRYS BRIDGE RD\nJAMES D HAGOOD HWY //SUNSET LN\nHALIFAX
-[from Central]  11-023175 FALLEN PATIENT\n1167 LEWIS FERRELL RD\nOAK LEVEL RD / LITTL/E CIR\nSOUTH BOSTON
-[from Central]  11-023166 EMERGENCY MEDICAL SERVICE\n111-22 ROSEHILL DR\nPOWELL RD / DEAD END/EN\nROSE HILL APARTMENTS  SOUTH BOSTON
-[from Central]  11-023086 UNRESPONSIVE PATIENT\n1110 ASBURY CHURCH RD\nCHATHAM RD / PAUL PR/Y TRL\nYOUNGERS HOME FOR ADULTS  HALIFAX
-[from Central]  11-023050 FALLEN PATIENT\n3471 OLD HALIFAX RD\nHIGH SCHOOL CIR /  C/ENTERVILLE PARK RD\nWAL-MART  SOUTH BOSTON
-[from Central]  11-023040 EMERGENCY MEDICAL SERVICE\n2082 BURTON RD\nWAGSTAFF LN / CLAYS/MILL RD\nSCOTTSBURG
-[from Central]  11-023038 FALLEN PATIENT\n103 WHITE OAK DR\nSYCAMORE RD / SYCAMO/RE RD\nSOUTH BOSTON
+**********************************************************
+**********************************************************
+**********************************************************
+************  READY TO ROLL ******************************
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
 **********************************************************
 Orange County, NC
 Contact: Rachel Reid <rachelr832@gmail.com>
