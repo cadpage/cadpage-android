@@ -11,12 +11,15 @@ Hudson, OH
 Contact: "Graham, Bruce" <BGraham@hudson.oh.us>
 Contact: dthompson@hudson.oh.us<mailto:dthompson@hudson.oh.us>
 Sender: hudsoncad@hudson.oh.us
+
 HudsonCAD:CAD System 6150,NICHOLSON DR.,,HUDSON EMS,EMS63 YOM, DIABETIC SHOCK
 HudsonCAD:CAD System 0,ANYWHERE,OTHER LOCATION OUT OF CITY,HudsonEMS,EMSMUTAL AID TO TWINSBURG FOR WORKING HOUSE FIRE, 2416 WHITE MARSH
 HudsonCAD:CAD System 6150,NICHOLSON DR.,,HUDSON EMS,EMS
 HudsonCAD:CAD System 75,EXECUTIVE PKWY.,ALLSTATE INSURANCE (75 EXEC),HUDSONEMS,EMSfemale diff breathing allergic reaction first floor front
 HudsonCAD:CAD System 0,W STREETSBORO ST.,91 & 303,HUDSONEMS,EMStest do not respond test only
 HudsonCAD:CAD System 5555,DARROW RD.,JOANN STORES INC.,HUDSONEMS,EMSSHORTNESS OF BREATH MALE N GATE SECURITY OFFICE
+HudsonCAD:CAD System 200,LAUREL LAKE DR.,,EMS,EMSGREENWOOD 303 LUMBAR PAIN
+HudsonCAD:CAD System 1430,WINSLOW DR.,,HUDSON EMS,EMSCHEST PAINS
 
  */
 
@@ -59,7 +62,7 @@ public class OHHudsonParser extends FieldProgramParser {
   
   private class MarkerField extends SkipField {
     public MarkerField() {
-      setPattern(Pattern.compile("(?:HUDSON|Hudson) ?(?:EMS|FIRE)"), true);
+      setPattern(Pattern.compile("(?:HUDSON|Hudson) ?(?:EMS|FIRE)|(EMS|FIRE)"), true);
     }
   }
   
@@ -68,7 +71,7 @@ public class OHHudsonParser extends FieldProgramParser {
     
     @Override
     public void parse(String field, Data data) {
-      if (data.strSupp.length() == 0) {
+      if (data.strCall.length() == 0) {
         Matcher match = CALL_PTN.matcher(field);
         if (match.find()) {
           data.strCall = match.group(1);
