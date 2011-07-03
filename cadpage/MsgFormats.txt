@@ -120,6 +120,11 @@ Pittsylvania County, VA (VAPittsylvaniaCountyParser)
 699:CAD:RESPIRATORY DISTRESS;600 NORTH POINTE LN;DAN;SEMINOLE DR;[Medical Priority Info] PROBLEM: TROUBLE BREATHING #PATS: 1 AGE: 5 Months SEX
 698:CAD:RESPIRATORY DISTRESS;1000 LAWLESS CREEK RD;BLA;PRITCHETT LN;DAKE DR;[Medical Priority Info] PROBLEM: DIFF BREATHING #PATS: 1 AGE: 13 Y
 *******************************************************************************
+Wight County, VA (VAWightCountyParser)
+11365 CENTRAL HILL RD;S CAROLINA AVE;COURTHOUSE HWY;FIRE ALARM;smoke detector zone 16 res last name babb 757-353-0490 [06/20/11 19:01:18 MPMARSH] 
+YELLOW HAMMER RD/FIRE TOWER RD;1050;[LAW] {37} ONE FINGER AND JAW/ SEC CONCUSION [06/22/11 04:02:28 SHILL] {37} HAVE INJURIES [06/22/11 04:02:04 SHILL] VSP AD: 
+23352 COURTHOUSE HWY;CONSULATE HEALTH CARE WINDSOR;KENSINGTON CT;JOYNER TOWN LN;FIRE ALARM;[LAW] WILL TRY TO CONTACT KEYHOLDER [06/22/11 12:20:01 MDUNN] zone
+*******************************************************************************
 *******************************************************************************
 * DispatchBParser subclasses
 *******************************************************************************
@@ -2246,17 +2251,7 @@ GEAUGA COUNTY SHERIFF (Text Message) RESCUE IS NEEDED AT - 13610 Bass Lake Rd 7 
 
 Sender:69310
 FD needed 12518 Merritt Rd for an garage fire /2878
-
 **********************************************************
-Wight County, VA
-Contact: "G.B. Wills III" <gbwillsiii@gmail.com>
-Sender: CAD@isleofwightUS.net
-Add CAD: prefix and use OSSI parser?
-11365 CENTRAL HILL RD;S CAROLINA AVE;COURTHOUSE HWY;FIRE ALARM;smoke detector zone 16 res last name babb 757-353-0490 [06/20/11 19:01:18 MPMARSH] 
-YELLOW HAMMER RD/FIRE TOWER RD;1050;[LAW] {37} ONE FINGER AND JAW/ SEC CONCUSION [06/22/11 04:02:28 SHILL] {37} HAVE INJURIES [06/22/11 04:02:04 SHILL] VSP AD: 
-23352 COURTHOUSE HWY;CONSULATE HEALTH CARE WINDSOR;KENSINGTON CT;JOYNER TOWN LN;FIRE ALARM;[LAW] WILL TRY TO CONTACT KEYHOLDER [06/22/11 12:20:01 MDUNN] zone
-77 CASTLE ST;LIBERTY AVE;BELLMONT ST;FIRE OTHER NOT LISTED;microwave hot and not in use [06/23/11 09:59:22 JTEMPLETON].   
-W WINDSOR BLVD/N PRINCE BLVD;ACCIDENT WITH INJURIES;supreme prking lot. 2 veh. chryslter pt cruiser vs dodge ram piick up [06/23/11 13:13:34 JTEMPLETON]
 **********************************************************
 Halifax County, VA
 Contact: "devinsnead@hotmail.com" <devinsnead@hotmail.com>
