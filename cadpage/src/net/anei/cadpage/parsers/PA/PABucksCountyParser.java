@@ -43,6 +43,9 @@ Contact: "Russ Swinehart Jr." <snoopfire10@yahoo.com>
 911: STA53  type:WIREIN  adr:2218 TRENTON AV ,24  btwn BARRY PL & TAFT ST  aai:  box:53034  map:3375F2  tm:11:40:15  FD1104667    Run: L25 Q51 E50 E52
 911: STA53  stype:RAUTO   adr:NEW FALLS RD/PINE AV ,25  aai:  box:12044  map:3262G9  tm:21:30:34  FD1107837    Run: R13 R53 E82
  
+Contact: Ryan Pankoe <rpankoe@gmail.com>
+911: STA19  type:WATER   adr:EIGHTEENFOURTEEN H ,28 at 50 S MAIN ST ,28 btwn W OAKLAND AV & TAYLOR AV  aai:  box:19022  map:2922J10  tm:02:29:07  FD11
+
  */
 
 
@@ -101,6 +104,11 @@ public class PABucksCountyParser extends FieldProgramParser {
           }
         } catch (NumberFormatException ex) {}
       }
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "PLACE " + super.getFieldNames() + " CITY";
     }
   }
     
@@ -242,6 +250,7 @@ public class PABucksCountyParser extends FieldProgramParser {
       "RAUTO",    "AUTO EXTRICATION",
       "RMAR",     "MARINE RESCUE",
       "STDBY",    "FIRE STANDBY",
+      "WATER",    "WATER FLOW",
       "WIREIN",   "WIRES IN DWELLING",
       "WIRES",    "WIRES DOWN (LOC)",
 
