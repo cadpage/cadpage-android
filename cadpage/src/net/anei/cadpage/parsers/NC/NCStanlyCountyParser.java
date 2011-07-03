@@ -31,6 +31,7 @@ CAD:E26-SICK PERSON/28345 ROWLAND RD/MTP/[Medical Priority Info] PROBLEM: HIGH F
 
 Contact: Brian Shie <bshue4637@gmail.com>
 CAD:E17-FALL WITH INJURY/614 NC HWY 200 S/SFD/COYLE RD/NC 200 HWY/[Medical Priority Info] PROBLEM: FELL POSS SEIZURE RELATED # PATS: 1 AGE: 50 Yea
+CAD:80-BRUSH ALARM/ROCK HOLE RD/NC 200 HWY/SFD/WHEAT FIELD CUT BUT ON FIRE / APPX 1 ACRE [07/02/11 18:42:57 TSMITH] ONTO ROCK HOLE ON LEFT [07/02/
 
 */
 
@@ -43,6 +44,7 @@ public class NCStanlyCountyParser extends DispatchOSSIParser {
       "MTP", "MT PLEASANT",
       "NEW", "NEW LONDON",
       "NOR", "NORWOOD",
+      "OAK", "OAKBORO",
       "SFD", "STANFIELD"
   });
   
