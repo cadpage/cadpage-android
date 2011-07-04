@@ -12,6 +12,11 @@ public class NYBroomeCountyParserTest extends BaseParserTest {
   }
   
   @Test
+  public void testBadMsg() {
+    doBadTest(":o) :o) :o)");
+  }
+  
+  @Test
   public void testParser() {
 
     doTest("T1",
