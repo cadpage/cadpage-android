@@ -79,6 +79,13 @@ public class NYBroomeCountyParser extends FieldProgramParser {
 	    
 	    return parseFields(flds, data);
 	  }
+	  
+	  // Source code must be 2 digits
+	  private class MySourceField extends SourceField {
+	    public MySourceField() {
+	      setPattern(Pattern.compile("\\d\\d"), true);
+	    }
+	  }
 
 	  // Cross street field needs to parse time, date, and ID data from field
 	  private class MyCrossField extends CrossField {
@@ -115,6 +122,7 @@ public class NYBroomeCountyParser extends FieldProgramParser {
 
     @Override
     protected Field getField(String name) {
+      if (name.equals("SRC")) return new MySourceField();
       if (name.equals("X")) return new MyCrossField();
       if (name.equals("NAME")) return new MyNameField();
       return super.getField(name);
