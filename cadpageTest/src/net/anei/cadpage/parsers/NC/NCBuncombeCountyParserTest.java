@@ -710,6 +710,15 @@ public class NCBuncombeCountyParserTest extends BaseParserTest {
         "UNIT:B15",
         "CALL:CHEST PAIN",
         "INFO:Buncombe County");
+
+    doTest("T91",
+        "S: M:CAD:503 PAINT FORK RD;B15;8287780508;Buncombe County;STROKE;ROCKY LN;HARWOOD RD",
+        "ADDR:503 PAINT FORK RD",
+        "UNIT:B15",
+        "CALL:STROKE",
+        "PHONE:8287780508",
+        "INFO:Buncombe County",
+        "X:ROCKY LN & HARWOOD RD");
   }
   
 
