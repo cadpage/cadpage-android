@@ -55,6 +55,11 @@ BRUSH, WOODS, FIELD FIRE (Class 1,2 & 3 days) CHARLES ST / COOKSEY RD 27 E1 GRAS
 BRUSH, WOODS, FIELD FIRE (Class 1,2 & 3 days) CHARLES ST / COOKSEY RD 27 E1 GRASS ON FIRE POSSIBLY WIRES DOWN F111260014 1107782 16:49 
 FILL IN, MISCELLANEOUS TRANSFER 911 WASHINGTON AVE, STATION 1 17 E3-E4 ENGINE TO STATION 1 F111300021 1108052 19:50
 
+Contact: Larry Johnson <LarryJ@csmd.edu>
+Sender: Postmaster@ihvfd.com
+HEMORRHAGE, NOSEBLEED, EMS, LACERATION BLS, 21A, 21B 28 GLYMONT RD 7 B6 89 year old, Female, Conscious, Breathing. Hemorrhage / Lacerations. Blood thinner
+
+
  */
 
 public class MDCharlesCountyParser extends SmartAddressParser {

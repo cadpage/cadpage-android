@@ -2208,8 +2208,11 @@ CAD:TRANSPORTATION ACCIDENT;2399 S ALSTON AVE/RIDDLE RD;{M8} CODE 2 RESPONSE [06
 **********************************************************
 Prince Georges County, MD (alternate)
 Contact: Kyle Armstrong <pgfd19338@yahoo.com>
-Sender: alrt113574@alert.princegeorgescountymd.gov
+Sender: @alert.princegeorgescountymd.gov
 (1/3) TW843 Incident: F111820121, Type: House Gas Leak, Loc:16111 ECKHART RD, PP, btwn END and EMBASSY LN, Tal
+
+(1/3) E830 Incident: F111850195, Type: Medic Local, Loc:7738 EMERSON RD, PP, btwn 77TH PL and WEST LANHAM DR,
+(3/3) 848, PE830, TK828
 
 Contact: kevin gilmore <kgilmore82@gmail.com>
 Sender: cad114863@alert.princegeorgescountymd.gov  (10.7 sec)
@@ -2259,13 +2262,15 @@ FD needed 12518 Merritt Rd for an garage fire /2878
 **********************************************************
 Shelby County, OH
 Contact: "Sgt Michael Wick" <mike.wick@shelbycountysheriff.com>
+Sender: cad@shelbycountysheriff.com
 System: CivicaCMI, Inc
 11-005105|28 - DRO|CAR CRASHED INTO WATER@11 WATER ST
 **********************************************************
-Erie County, PA (Alternate)
+Erie County, PA (Alternate) (West County Fire Dispatch)
 Contact: Doug Johnson <dougjohnson6@gmail.com>
 Sender: wececc@verizon.net
-Body:Ill Patient - 32 W PEARL STREET - Barnett Building\2s(PRE-PLAN) - APT 210 - Juliet Street & Academy Street
+Ill Patient - 32 W PEARL STREET - Barnett Building  (PRE-PLAN) - APT 210 - Juliet Street & Academy Street
+Anaphylaxis - 9004 ROUTE 215 -  - HANSON RESIDENCE - CONNEAUT TWP LINE & WOOD ROAD
 **********************************************************
 **********************************************************
 **********************************************************
@@ -2716,7 +2721,6 @@ Contact: John Stroup <j.stroup@northmeckrescue.org>
 Sender: paging@rcscom.com
 Subject:Incoming Message\n15503 N Old Statesville Rd North Meck Rescue Charlie 12- Convulsion/Seizure 60 Foot St/Unnamed St Nmr1 Map - 266266/
 Subject:Incoming Message\n15503 N Old Statesville Rd North Meck Rescue Charlie 12- Convulsion/Seizure 60 Foot St/Unnamed St Nmr2 Map - 266266/
-
 **********************************************************
 Suffolk County NY (Port Jefferson Volunteer Ambulance)
 Contact: Jason Lazerus <jlazerus@pjvac.org>
@@ -2729,3 +2733,11 @@ PSYCHIATRIC / ABNORMAL BEHAVIOR / SUICIDE - UNKNOWN STATUS / OTHER CODES NOT APP
 RESPIRATORY - DIFFICULTY SPEAKING BETWEEN BREATHS code: 6-D-2 at: 640 BELLE TERRE RD c/s: PRINCESS TREE CT d/t: 06/27 15:57:11
 BLEEDING / LACERATIONS - NOT ALERT code: 21-D-2 at: 70 N COUNTRY RD c/s: PINE HILL RD d/t: 06/24 15:58:51
 MOTOR VEHICLE ACCIDENT - NOT ALERT code: 29-D-5 at: CANAL RD c/s: OSBORNE AV d/t: 06/25 13:15:03
+**********************************************************
+Waterboro, ME (York county)
+Contact: Sean Perkins <sperkins@waterborofire.org>
+[Page]  MEDICAL EMERGENCY26 EAST SHORE RD Waterboro7/4/2011 12:36
+[Page]  FIRE, OTHER161 BEAVER DAM RD Waterboro7/4/2011 11:43
+[Page]  MEDICAL EMERGENCYMX 270 MOTOR CROSS TRACKLyman7/3/2011 11:24 
+[Page]  MEDICAL EMERGENCY54 ROCKY RD Lyman7/2/2011 17:51 
+[Page]  FIRE, OTHERDEERING RIDGE RD.PHEASANT RUN RD Waterboro7/2/2011 03:22 
