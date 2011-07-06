@@ -86,6 +86,19 @@ public class VAHenryCountyParserTest extends BaseParserTest {
         "ADDR:390 MOREHEAD AVE",
         "CITY:RIDGEWAY",
         "INFO:WHT MALE, DARK SHIRT");
+
+    doTest("T10",
+        "(CAD Call) 2011055772 \nF-HELICOPTER LANDING ZONE \nBLUE RIDGE REGIONAL LIBRARY - RIDGEWAY 900 VISTA VIEW LN RIDGEWAY \nFIELD A",
+        "ID:2011055772",
+        "CALL:F-HELICOPTER LANDING ZONE",
+        "PLACE:BLUE RIDGE REGIONAL LIBRARY - RIDGEWAY",
+        "ADDR:900 VISTA VIEW LN",
+        "CITY:RIDGEWAY",
+        "INFO:FIELD A");
    
+  }
+  
+  public static void main(String[] args) {
+    new VAHenryCountyParserTest().generateTests("T10", "ID CALL PLACE ADDR CITY INFO");
   }
 }

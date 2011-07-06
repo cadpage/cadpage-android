@@ -105,5 +105,25 @@ public class MDPrinceGeorgesCountyFireBizParserTest extends BaseParserTest {
         "ADDR:9903 BREEZY KNOLL CT",
         "X:DEAD END & GREEN HAVEN RD",
         "INFO:http://fireblitz.com/18/8.shtm");
- }
+
+    doTest("T11",
+        "45: PIA-HIGHWAY\nSQ827\nNB CRAIN HWY SE/NB HEATHERMORE BLVD, PP - <8322/ 0>\n07/05 10:02\nhttp://fireblitz.com/27/0.shtm",
+        "SRC:45",
+        "CALL:PIA-HIGHWAY",
+        "UNIT:SQ827",
+        "ADDR:NB CRAIN HWY SE & NB HEATHERMORE BLVD",
+        "INFO:http://fireblitz.com/27/0.shtm");
+
+    doTest("T12",
+        "27: PIA-HIGHWAY\nA827 SQ827\nSB CAP BELT IL A HWY/NB BRANCH AVE, PP\n07/06 10:20\nhttp://fireblitz.com/27/5.shtm",
+        "SRC:27",
+        "CALL:PIA-HIGHWAY",
+        "UNIT:A827 SQ827",
+        "ADDR:SB CAP BELT IL A HWY & NB BRANCH AVE",
+        "INFO:http://fireblitz.com/27/5.shtm");
+  }
+  
+  public static void main(String[] args) {
+    new MDPrinceGeorgesCountyFireBizParserTest().generateTests("T11", "SRC CALL UNIT ADDR X INFO");
+  }
 }
