@@ -22,8 +22,12 @@ From: @fireblitz.com
 46: BUILDING FIRE\nE833 TK833 BO802\n1200 CAPITAL CENTER BL (BLVD AT THE CAP CTR)\n12/07 00:51\nhttp://fireblitz.com/33/9.html
 46: BUILDING FIRE\nE837 TK837 BO802\n1200 CAPITAL CENTER BL (BLVD AT THE CAP CTR)\n12/07 00:51\nhttp://fireblitz.com/37/5.html
 49: MEDIC LOCAL\nA849\n13218 DEERFIELD RD (DEAD END & MATTHEWS CT)\n12/06 23:00\nhttp://fireblitz.com/49/1.html
-
 48: TOWNHOUSE FIRE\nE818 BO802\n9903 BREEZY KNOLL CT [DEAD END & GREEN HAVEN RD]\n12/23 23:32\nhttp://fireblitz.com/18/8.shtm
+
+Contact: Ricky Poole <handgunhunting@gmail.com>
+45: PIA-HIGHWAY\nSQ827\nNB CRAIN HWY SE/NB HEATHERMORE BLVD, PP - <8322/ 0>\n07/05 10:02\nhttp://fireblitz.com/27/0.shtm
+27: PIA-HIGHWAY\nA827 SQ827\nSB CAP BELT IL A HWY/NB BRANCH AVE, PP\n07/06 10:20\nhttp://fireblitz.com/27/5.shtm
+
  */
 
 
@@ -109,6 +113,8 @@ public class MDPrinceGeorgesCountyFireBizParser extends SmsMsgParser {
           if (pt2 < 0) pt2 = line.length();
           data.strCross = line.substring(pt1+1, pt2);
         }
+        pt1 = sAddress.indexOf(',');
+        if (pt1 >= 0) sAddress = sAddress.substring(0, pt1).trim();
         parseAddress(sAddress, data);
         ndx++;
         break;

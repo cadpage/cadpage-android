@@ -2275,6 +2275,11 @@ From:alrt120166@alert.princegeorgescountymd.gov
 (2/2) , btwn FARM DR and END, TalkGroup: TG1, Box: 1211, Map: 5409 K 2,Text: BELLS, Unit:E812
 (1/2) E812 Incident: F111870042, Type: Invest Any Type, Loc:CUMBERLAND HALL - UM 122, UM, at 122 VALLEY DR, UM
 
+From:alrt120471@alert.princegeorgescountymd.gov
+(3/3) LOADING DOCK AREA UM PD L,L, Units:BO886, E712, E812, E834, E835, TK801, TK814, TW807
+(2/3) DR, UM, btwn END and METZEROTT RD, TalkGroup: TA11, Box: 1109, Map: 5287 J 10, Text: SMOKE IN THE BUILD
+(1/3) E812 Incident: F111870154, Type: Building Fire, Loc:UM 795 - AVRUM GUDELSKY VET, UM, at 8050 GREENMEADE
+
 **********************************************************
 Geauga County, OH
 Contact: "Pettit, Lewis 911" <LPettit@co.geauga.oh.us>,4404785985@vtext.com

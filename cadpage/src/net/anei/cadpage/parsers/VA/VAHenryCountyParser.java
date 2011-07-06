@@ -1,6 +1,8 @@
 package net.anei.cadpage.parsers.VA;
 
 import net.anei.cadpage.SmsMsgInfo.Data;
+import net.anei.cadpage.parsers.SmartAddressParser;
+
 /*
 Henry County, VA (class I)
 reporting email: Lieutenant Pruitt <rdvrs602@ridgewayrescue.com>
@@ -15,8 +17,12 @@ sender:  *@ridgewayrescue.com
 (CAD Call) 2010095041\nMOTOR VEHICLE CRASH\n3 MARHILL DR RIDGEWAY
 (CAD Call) 2010095011\nR2-(1) DIFFICULTY BREATHING\n999 MORGAN FORD RD RIDGEWAY
 (CAD Call) 2010098333\nSUSPICIOUS CIRCUMSTANCES\nDOLLAR GENERAL (MOREHEAD AVE)\n390 MOREHEAD AVE RIDGEWAY\nWHT MALE, DARK SHIRT
+
+Contact: Joshua Wilson <rdvfd70@gmail.com>
+Sender:911calls+bncCPSY0azfFhDP5JnwBBoEF_IV0w@ridgewayfire.com
+(CAD Call) 2011055772 \nF-HELICOPTER LANDING ZONE \nBLUE RIDGE REGIONAL LIBRARY - RIDGEWAY 900 VISTA VIEW LN RIDGEWAY \nFIELD A
+
 */
-import net.anei.cadpage.parsers.SmartAddressParser;
 
 public class VAHenryCountyParser extends SmartAddressParser {
   
@@ -33,7 +39,7 @@ public class VAHenryCountyParser extends SmartAddressParser {
 
   @Override
   public String getFilter() {
-    return "@ridgewayrescue.com";
+    return "@ridgewayrescue.com,@ridgewayfire.com";
   }
 
   @Override
