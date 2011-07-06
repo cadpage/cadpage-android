@@ -12,7 +12,7 @@ public class TNUnionCountyParserTest extends BaseParserTest {
   }
   
   @Test
-  public void testParser() {
+  public void test1Parser() {
 
     doTest("T1",
         "Subject:E911\nACCIDENT\n8654568681\nHIGHWAY 61 W, ANDERSONVILLE",
@@ -270,6 +270,19 @@ public class TNUnionCountyParserTest extends BaseParserTest {
         "PHONE:8659920605",
         "ADDR:1527 MAIN ST",
         "CITY:MAYNARDVILLE");
+  }
+  
+  @Test
+  public void test2Parser() {
+
+    doTest("T1",
+        "S:E911 M:TREE IN ROADWAY\nSHARON COLLINS 8653567818\n143 RACCOON VALLEY RD, MAYNARDVILLE\n\n",
+        "CALL:TREE IN ROADWAY",
+        "NAME:SHARON COLLINS",
+        "PHONE:8653567818",
+        "ADDR:143 RACCOON VALLEY RD",
+        "CITY:MAYNARDVILLE");
+ 
   }
   
 

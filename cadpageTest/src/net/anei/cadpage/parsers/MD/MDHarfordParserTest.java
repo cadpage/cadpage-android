@@ -90,9 +90,20 @@ public class MDHarfordParserTest extends BaseParserTest {
         "BOX:402",
         "ID:2011-0000090313");
 
+    doTest("T8",
+        "HCCAD / [!] EOC:E02 ARRES >CARDIAC ARREST 35 LINCOLN AVE Apt: C1 Bldg XS: PRITCHARD AVE ABERDEEN WARD,ASHANTE BOX: 211 Cad:11793\n\n",
+        "UNIT:E02",
+        "CALL:CARDIAC ARREST",
+        "ADDR:35 LINCOLN AVE",
+        "X:PRITCHARD AVE",
+        "CITY:ABERDEEN",
+        "NAME:WARD,ASHANTE",
+        "BOX:211",
+        "ID:11793");
+
   }
   
   public static void main(String[] args) {
-    new MDHarfordParserTest().generateTests("T7", "UNIT CALL ADDR X CITY NAME BOX ID");
+    new MDHarfordParserTest().generateTests("T9", "UNIT CALL ADDR X CITY NAME BOX ID");
   }
 }
