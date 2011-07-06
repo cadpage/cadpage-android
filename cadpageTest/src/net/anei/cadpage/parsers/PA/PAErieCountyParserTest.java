@@ -121,6 +121,20 @@ public class PAErieCountyParserTest extends BaseParserTest {
         "MAP:2540",
         "PLACE:FAIRVIEW TWP",
         "ID:2011-0000046825");
+
+    doTest("T12",
+        "ERIE911:6C1 >BREATHING PROBLEMS 817 POTOMAC AVE XS: W LAKE RD MILLCREEK TWP WATTS, BETTY Map:9214 Grids:, Cad: 2011-0000076275",
+        "CALL:BREATHING PROBLEMS",
+        "ADDR:817 POTOMAC AVE",
+        "X:W LAKE RD",
+        "NAME:WATTS, BETTY",
+        "MAP:9214",
+        "PLACE:MILLCREEK TWP",
+        "ID:2011-0000076275");
  
+  }
+  
+  public static void main(String[] args) {
+    new PAErieCountyParserTest().generateTests("T12", "CALL ADDR X NAME MAP PLACE ID");
   }
 }
