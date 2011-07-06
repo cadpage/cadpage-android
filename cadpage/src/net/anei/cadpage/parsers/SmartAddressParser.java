@@ -348,10 +348,6 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     lastResult = result;
     
     result.startType = sType;
-
-    // Check for null string
-    result.status = 0;
-    if (address.length() == 0) return result;
     
     // Before we do anything else, see if we can find some GPS coordinates
     // in this address.  If we do find them, pack them so they will parse
@@ -384,6 +380,11 @@ public abstract class SmartAddressParser extends SmsMsgParser {
       // Periods used with abbreviations also cause trouble.  Just get rid of all periods
       address = address.replace(".", "");
     }
+
+    // Check for null string
+    result.status = 0;
+    address = address.trim();
+    if (address.length() == 0) return result;
 
     // Set up token list and types
     setTokenTypes(sType, address, result);
