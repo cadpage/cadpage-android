@@ -1531,6 +1531,11 @@ Contact: Steve Litchford <stevelitchford@gmail.com>
 Sender: epage-owner@delmar74fire.com <From%3Aepage-owner@delmar74fire.com>
 (CAD Alert) 74AST      Call at 101 Delaware Ave              Delmar Nursing and RehabilitatCity19940      Problem Interfacillity/Palliative-ALS
 
+Contact: Kenny Love <kennylove989@gmail.com>
+Sender: epage-owner@delmar74fire.com
+(CAD Alert) 74AST      Call at 10411 Hearns Way                                             City19940      Problem Chest Pain-ALS
+
+
 Sender: wfpage-owner@delmar74fire.com <From%3Awfpage-owner@delmar74fire.com>
 CAD:2010110683;PI ACCIDENT;8859 JERSEY RD;DELM;CONNELLY MILL RD;ADKINS RD;[Medical Priority Info] RESPONSE: Bravo RESPONDER SCRIPT: 25 year old, Male,
 **********************************************************
@@ -2280,6 +2285,10 @@ From:alrt120471@alert.princegeorgescountymd.gov
 (2/3) DR, UM, btwn END and METZEROTT RD, TalkGroup: TA11, Box: 1109, Map: 5287 J 10, Text: SMOKE IN THE BUILD
 (1/3) E812 Incident: F111870154, Type: Building Fire, Loc:UM 795 - AVRUM GUDELSKY VET, UM, at 8050 GREENMEADE
 
+From:alrt120755@alert.princegeorgescountymd.gov
+(3/3) E812
+(2/3) UM, btwn HAGERSTOWN DR and FARM DR, TalkGroup: TG1, Box: 1210, Map: 5409 J 2, Text: GEN FIRE ALRM, Unit:
+(1/3) E812 Incident: F111870241, Type: Fire Alarm-AFA, Loc: HAGERSTOWN HALL - UM 258, UM, at 258 ELLICOTT DR,
 **********************************************************
 Geauga County, OH
 Contact: "Pettit, Lewis 911" <LPettit@co.geauga.oh.us>,4404785985@vtext.com
