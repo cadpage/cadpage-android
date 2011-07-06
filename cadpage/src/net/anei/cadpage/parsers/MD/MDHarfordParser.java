@@ -22,6 +22,10 @@ Contact: Karen Zeiler <kmz1176@gmail.com>
 Sender: rc.391@c-msg.net
 (HCCAD) [!] EOC:E04 HEMM >HEMORRAGE/LACERATION 4324 HAMPTON HALL CT XS: DEAD END BELCAMP KOWALCHEK,JOHN BOX: 402 Cad: 2011-0000090313
 
+Contact: Ryan Pennington <ryan.pennington2@gmail.com>
+HCCAD / [!] EOC:E02 ARRES >CARDIAC ARREST 35 LINCOLN AVE Apt: C1 Bldg XS: PRITCHARD AVE ABERDEEN WARD,ASHANTE BOX: 211 Cad:11793\n\n
+
+
  */
 public class MDHarfordParser extends DispatchBParser {
   
@@ -52,6 +56,8 @@ public class MDHarfordParser extends DispatchBParser {
     
     
     // First token following EOC: is the unit
+    if (body.startsWith("HCCAD /")) body = body.substring(7).trim();
+    if (body.startsWith("[!]")) body = body.substring(3).trim();
     if (! body.startsWith("EOC:")) return false;
     body = body.substring(4).trim();
     int pt = body.indexOf(' ');
