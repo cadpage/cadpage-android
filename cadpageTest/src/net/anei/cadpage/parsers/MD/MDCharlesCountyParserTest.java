@@ -16,15 +16,6 @@ public class MDCharlesCountyParserTest extends BaseParserTest {
   
   @Test
   public void testProblem() {
-
-    doTest("T5",
-        "FILL IN, MISCELLANEOUS TRANSFER 9765 BEL ALTON NEWTOWN RD, STATION 10 26 D6-F4 F111180003 1107250 05:19",
-        "CALL:FILL IN, MISCELLANEOUS TRANSFER",
-        "ADDR:9765 BEL ALTON NEWTOWN RD",
-        "PLACE:STATION 10",
-        "MAP:26 D6-F4",
-        "ID:F111180003");
- 
   }
   
   @Test
@@ -274,11 +265,11 @@ public class MDCharlesCountyParserTest extends BaseParserTest {
         "ADDR:28 GLYMONT RD",
         "MAP:7 B6",
         "INFO:89 year old, Female, Conscious, Breathing. Hemorrhage / Lacerations. Blood thinner");
-
+ 
   }
     
   public static void main(String[] args) {
-    new MDCharlesCountyParserTest().generateTests("T8", "CALL UNIT ADDR PLACE CODE MAP INFO ID");
+    new MDCharlesCountyParserTest().generateTests("T13", "CALL UNIT ADDR PLACE CODE MAP INFO ID");
   }
 
 }
