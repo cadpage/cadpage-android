@@ -266,7 +266,15 @@ public class MDCharlesCountyParserTest extends BaseParserTest {
         "MAP:17 E3-E4",
         "INFO:ENGINE TO STATION 1",
         "ID:F111300021");
- 
+
+    doTest("T13",
+        "HEMORRHAGE, NOSEBLEED, EMS, LACERATION BLS, 21A, 21B 28 GLYMONT RD 7 B6 89 year old, Female, Conscious, Breathing. Hemorrhage / Lacerations. Blood thinner",
+        "CALL:HEMORRHAGE, NOSEBLEED, EMS, LACERATION",
+        "UNIT:BLS, 21A, 21B",
+        "ADDR:28 GLYMONT RD",
+        "MAP:7 B6",
+        "INFO:89 year old, Female, Conscious, Breathing. Hemorrhage / Lacerations. Blood thinner");
+
   }
     
   public static void main(String[] args) {

@@ -472,6 +472,7 @@ public class SmartAddressParserTest extends BaseParserTest {
     assertEquals(0, parser.checkAddress("US 50 & SE JEFFERSON ST EXTRA"));
     assertEquals(1, parser.checkAddress("SMITH RD"));
     assertEquals(0, parser.checkAddress("SMITH RD EXTRA"));
+    assertEquals(0, parser.checkAddress("."));
   }
   
   @Test

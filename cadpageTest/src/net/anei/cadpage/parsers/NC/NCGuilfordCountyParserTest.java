@@ -167,10 +167,16 @@ public class NCGuilfordCountyParserTest extends BaseParserTest {
         "CALL:CARDIA",
         "X:AIR HARBOR RD");
 
+    doTest("T20",
+        "CAD:UNDER CONTROL;878 CROSSCREEK RD; K ;. [27]",
+        "ADDR:878 CROSSCREEK RD",
+        "INFO:K / .",
+        "CALL:UNDER CONTROL");
+
   }
   
 
   public static void main(String[] args) {
-    new NCGuilfordCountyParserTest().generateTests("T19");
+    new NCGuilfordCountyParserTest().generateTests("T21");
   }
 }
