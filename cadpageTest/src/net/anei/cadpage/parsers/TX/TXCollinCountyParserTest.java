@@ -12,7 +12,7 @@ public class TXCollinCountyParserTest extends BaseParserTest {
   }
   
   @Test
-  public void testParser() {
+  public void testLCFDParser() {
 
     doTest("T1",
         "11048794  FIRE PUBLIC ASSIST  2701 ASPEN CT IN COLLIN COUNTY  COUNTY ROAD 392  [LCFD DIST: LCF1 GRID: 1322]  UNITS: LCF1  ST RMK: 7K4  CFS RMK 22:10 REQ FD TO CHECK BP...40 YRO FEMALE.   {CAD001 22:13}",
@@ -78,6 +78,20 @@ public class TXCollinCountyParserTest extends BaseParserTest {
         "UNIT:LCF1 AMRP",
         "INFO:<NONE> / 13:14 37 YOA MALE / FELL YESTERDAY AND IS");
 
+  }
+  
+  @Test
+  public void testBRFDParser() {
+
+    doTest("T1",
+        "11056128  GRASS FIRE  10753 COUNTY ROAD 903 IN COLLIN COUNTY  COUNTY ROAD 902  UNITS: BRF1  ST RMK: <NONE>  CFS RMK 21:52 RIGHT ON",
+        "ID:11056128",
+        "CALL:GRASS FIRE",
+        "ADDR:10753 COUNTY ROAD 903",
+        "X:COUNTY ROAD 902",
+        "UNIT:BRF1",
+        "INFO:<NONE> / 21:52 RIGHT ON");
+  
   }
   
   public static void main(String[] args) {
