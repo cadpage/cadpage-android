@@ -12,6 +12,32 @@ public class TXCollinCountyParserTest extends BaseParserTest {
   }
   
   @Test
+  public void testCCSOParser() {
+
+    doTest("T1",
+        "Message From Dispatch 11043265  MAJOR ACCIDENT 10/50  COUNTY ROAD 398  / COUNTY ROAD 447 IN COLLIN COUNTY  [CCSO DIST: 131 GRID: 1322]  UNITS: 1206 131B AMRF LCF1  ST RMK: 8K4  CFS RMK 16:24 CAR ON IT'S ROOF ON CR 398....UNK IF  {C (01/02)",
+        "ID:11043265",
+        "CALL:MAJOR ACCIDENT 10/50",
+        "ADDR:COUNTY ROAD 398 & COUNTY ROAD 447",
+        "SRC:CCSO",
+        "MAP:1322",
+        "UNIT:1206 131B AMRF LCF1",
+        "INFO:8K4 / 16:24 CAR ON IT'S ROOF ON CR 398....UNK IF");
+
+    doTest("T2",
+        "Message From Dispatch 11039781  INJURED PERSON  2665 BRIAR TR IN COLLIN COUNTY  COUNTY ROAD 324  [CCSO DIST: 131 GRID: 1331]  UNITS: AMRP LCF1  ST RMK: 8H2  CFS RMK 13:54 RP HAS FALLEN AND AND INJURIED BOTH   {CAD003 14:01}",
+        "ID:11039781",
+        "CALL:INJURED PERSON",
+        "ADDR:2665 BRIAR TR",
+        "X:COUNTY ROAD 324",
+        "SRC:CCSO",
+        "MAP:1331",
+        "UNIT:AMRP LCF1",
+        "INFO:8H2 / 13:54 RP HAS FALLEN AND AND INJURIED BOTH");
+   
+  }
+  
+  @Test
   public void testLCFDParser() {
 
     doTest("T1",
@@ -78,6 +104,50 @@ public class TXCollinCountyParserTest extends BaseParserTest {
         "UNIT:LCF1 AMRP",
         "INFO:<NONE> / 13:14 37 YOA MALE / FELL YESTERDAY AND IS");
 
+    doTest("T7",
+        "11056387  TRASH FIRE  2701 PECAN CT IN COLLIN COUNTY  COUNTY ROAD 392  [LCFD DIST: LCF1 GRID: 1322]  UNITS: LCF1  ST RMK: <NONE>  CFS RMK 15:09 8 HOUSES DOWN  ITEMS LEFT OVER FR A   {CAD004 15:09}",
+        "ID:11056387",
+        "CALL:TRASH FIRE",
+        "ADDR:2701 PECAN CT",
+        "X:COUNTY ROAD 392",
+        "SRC:LCFD",
+        "MAP:1322",
+        "UNIT:LCF1",
+        "INFO:<NONE> / 15:09 8 HOUSES DOWN");
+
+    doTest("T8",
+        "11055307  MEDICATION OVERDOSE  415 S BRIDGEFARMER RD IN LOWRY CROSSING  E US HIGHWAY 380 / COUNTY ROAD 403  [LCFD DIST: LCF1 GRID: 3100]  UNITS: LCF2  ST RMK: 10J3  CFS RMK 19:34 36 YOA FEMALE TOOK SOMETYPE OF SLEEP  {CAD004 19:35}",
+        "ID:11055307",
+        "CALL:MEDICATION OVERDOSE",
+        "ADDR:415 S BRIDGEFARMER RD",
+        "CITY:LOWRY CROSSING",
+        "X:E US HIGHWAY 380 / COUNTY ROAD 403",
+        "SRC:LCFD",
+        "MAP:3100",
+        "UNIT:LCF2",
+        "INFO:10J3 / 19:34 36 YOA FEMALE TOOK SOMETYPE OF SLEEP");
+
+    doTest("T9",
+        "11044930  FIRST RESPONDERS  3737 E UNIVERSITY DR IN COLLIN COUNTY  COUNTY ROAD 407 / COUNTY ROAD 404  [LCFD DIST: LCF1 GRID: 1211]  UNITS: LCF1  ST RMK: <NONE>  CFS RMK 17:52 7 YOA FEMALE WITH ABDOMINAL PAINS///  {CAD004 17:52}",
+        "ID:11044930",
+        "CALL:FIRST RESPONDERS",
+        "ADDR:3737 E UNIVERSITY DR",
+        "X:COUNTY ROAD 407 / COUNTY ROAD 404",
+        "SRC:LCFD",
+        "MAP:1211",
+        "UNIT:LCF1",
+        "INFO:<NONE> / 17:52 7 YOA FEMALE WITH ABDOMINAL PAINS///");
+
+    doTest("T10",
+        "11046597  MAJOR ACCIDENT 10/50  COUNTY ROAD 393  /  FM 546 IN COLLIN COUNTY [LCFD DIST: LCF1 GRID: 1322]  UNITS: LCF1  ST RMK: 8J1  CFS RMK 21:40 SOMEONE HAS FALLEN OUT OF A TRUCK  {CAD004 21:40}",
+        "ID:11046597",
+        "CALL:MAJOR ACCIDENT 10/50",
+        "ADDR:COUNTY ROAD 393 & FM 546",
+        "SRC:LCFD",
+        "MAP:1322",
+        "UNIT:LCF1",
+        "INFO:8J1 / 21:40 SOMEONE HAS FALLEN OUT OF A TRUCK");
+
   }
   
   @Test
@@ -95,6 +165,6 @@ public class TXCollinCountyParserTest extends BaseParserTest {
   }
   
   public static void main(String[] args) {
-    new TXCollinCountyParserTest().generateTests("T1", "ID CALL ADDR CITY X SRC MAP UNIT INFO");
+    new TXCollinCountyParserTest().generateTests("T7", "ID CALL ADDR CITY X SRC MAP UNIT INFO");
   }
 }
