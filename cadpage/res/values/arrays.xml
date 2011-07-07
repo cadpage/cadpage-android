@@ -325,6 +325,7 @@
     <item>NJMorrisCounty</item>
     <item>NJSalemCounty</item>
     <item>NJSomersetCounty</item>
+    <item>NJSussexCounty</item>
     <item>NYAmherst</item>
     <item>NYBroomeCounty</item>
     <item>NYBuffalo</item>
@@ -360,6 +361,7 @@
     <item>NCCumberlandCounty</item>
     <item>NCDavidsonCounty</item>
     <item>NCDavieCounty</item>
+    <item>NCDurhamCounty</item>
     <item>NCForsythCounty</item>
     <item>NCGuilfordCounty</item>
     <item>NCHaywoodCounty</item>
@@ -555,6 +557,7 @@
     <item>Morris County, NJ</item>
     <item>Salem County, NJ</item>
     <item>Somerset County, NJ</item>
+    <item>Sussex County, NJ</item>
     <item>Amherst, NY</item>
     <item>Broome County, NY</item>
     <item>Buffalo, NY</item>
@@ -590,6 +593,7 @@
     <item>Cumberland County, NC</item>
     <item>Davidson County, NC</item>
     <item>Davie County, NC</item>
+    <item>Durham County, NC</item>
     <item>Forsyth County, NC</item>
     <item>Guilford County, NC</item>
     <item>Haywood County, NC</item>
