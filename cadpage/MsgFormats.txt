@@ -2229,6 +2229,7 @@ Sender: messenger_911@comcast.net
 **********************************************************
 Prince Georges County, MD (alternate)
 Contact: Kyle Armstrong <pgfd19338@yahoo.com>
+kyle hastings <kwhastings@gmail.com
 Sender: alrt113574@alert.princegeorgescountymd.gov
 (1/3) TW843 Incident: F111820121, Type: House Gas Leak, Loc:16111 ECKHART RD, PP, btwn END and EMBASSY LN, Tal
 
@@ -2255,6 +2256,9 @@ Body:(1/3) A830 Incident: F111850079, Type: Medic Local, Loc:7108 VARNUM ST, PP,
 From:alrt117810@alert.princegeorgescountymd.gov
 (1/2) E830 Incident: F111850090, Type: Outside Fire, Loc:6607 FURMAN CT, PP, btwn FURMAN PKY and END, TalkGrou
 
+From:alrt121737@alert.princegeorgescountymd.gov
+(2/3) ALE RD, TalkGroup: TGA4, Box: 2804, Map: 5411 A 8, Text: ODOR OF NATURAL GAS THROUGHOUT THE BANK,,SEEMS
+(1/3) E830 Incident: F111880204, Type: Building Gas Leak, Loc: 8211 ANNAPOLIS RD, PP, btwn CROSS ST and RIVERD
 
 From:alrt117815@alert.princegeorgescountymd.gov
 Body:(2/2) alkGroup: TGA2, Box: 3011, Map: 5410 G 9, Text: Fire ProQA recommends dispatch at this time, Unit:A830
