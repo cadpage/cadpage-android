@@ -132,16 +132,16 @@ public class DispatchSouthernParser extends SmartAddressParser {
     String sAddr = body.substring(0,match.start()).trim();
     String sExtra = body.substring(match.end()).trim();
     
-    parseMain(data, sAddr);
+    parseMain(sAddr, data);
 
     // Second half May contain unit ID,
     // then call description and long call description
     // Call description comes first and contains only upper case letters and numbers
-    parseExtra(data, sExtra);
+    parseExtra(sExtra, data);
     return true;
   }
 
-  protected void parseMain(Data data, String sAddr) {
+  protected void parseMain(String sAddr, Data data) {
     // First half contains address, optional place/name, and possibly an MDL call code
     Parser p = new Parser(sAddr);
     data.strCode = p.getLastOptional(" MDL ");
@@ -151,7 +151,7 @@ public class DispatchSouthernParser extends SmartAddressParser {
     data.strPlace = getLeft();
   }
 
-  protected void parseExtra(Data data, String sExtra) {
+  protected void parseExtra(String sExtra, Data data) {
     Matcher match;
     Parser p;
     if (unitId) {

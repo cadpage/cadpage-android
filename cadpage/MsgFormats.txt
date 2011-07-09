@@ -2429,8 +2429,12 @@ SCFD Type:CHP SUBTYPE:? LOC:112 WILD AZALEA DR [@ROCK HILL C:7/7/2011 06:49:39 1
 Kent County, DE (Alternate)
 Contact: Adam Warner <awarner7777@gmail.com>
 Sender: msg@cfmsg.com
+System: Aegis CAD
 (Chief ALT) [40 EMS] - 26A10 - Sick Person - Unwell/Ill -- 2536 Skeeter Neck Rd, Frederica -- Xst's: Bowers Beach Rd / E Front St -- Caller: High Vue Logging Inc
 **********************************************************
+Scullville, Egg Harbor Township, Atlantic County. NJ
+Contact: PoliceCAD@cad.ehtpd.com
+Body:(CAD) *Unknown Fire*   127 WHARF RD Sec: Scullville Cross: MAYS LANDING - SOMERS POINT RD, SPML RD / DEAD END
 **********************************************************
 **********************************************************
 **********************************************************
@@ -2880,3 +2884,4 @@ Ill Patient - 32 W PEARL STREET - Barnett Building  (PRE-PLAN) - APT 210 - Julie
 Anaphylaxis - 9004 ROUTE 215 -  - HANSON RESIDENCE - CONNEAUT TWP LINE & WOOD ROAD
 Cardiac - 155 E STATE STREET - Albion Family Practice\2s(PRE-PLAN) - Wells Avenue & Elk Street
 MVA - 126 E STATE STREET -  - Water Street & Wells Avenue
+Chest Pain - E STATE STREET & First Avenue -  - MEET PD -

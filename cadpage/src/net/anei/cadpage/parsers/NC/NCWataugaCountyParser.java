@@ -38,25 +38,15 @@ public class NCWataugaCountyParser extends DispatchSouthernParser {
   }
 
   @Override
-  protected void parseExtra(Data data, String sExtra) {
-    boolean call = true;
-    for (String field : sExtra.split("-")) {
-      field = field.trim();
-      if (call) {
-        data.strCall = field;
-        call = false;
-      }
-      
-      else if (checkAddress(field) > 0) {
-        data.strCross = append(data.strCross, " / ", field);
-      }
-      
-      else {
-        data.strSupp = append(data.strSupp, " / ", field);
-      }
-      
+  protected void parseExtra(String sExtra, Data data) {
+    int pt = sExtra.indexOf(' ');
+    if (pt < 0) {
+      data.strCall =  sExtra;
+      return;
     }
+    int pt2 = sExtra.indexOf('-', pt+1);
+    if (pt2 >= 0) pt = sExtra.lastIndexOf(' ', pt2);
+    data.strCall = sExtra.substring(0,pt).trim();
+    data.strSupp = sExtra.substring(pt+1).trim();
   }
-  
-  
 }
