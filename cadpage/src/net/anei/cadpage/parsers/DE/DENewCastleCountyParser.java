@@ -1,5 +1,8 @@
 package net.anei.cadpage.parsers.DE;
 
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -37,11 +40,51 @@ Sender: rc.322@c-msg.net
 Contact: Rebecca Deem <rdeem328@gmail.com>
 Sender: rc.81@c-msg.net
 Subject:24CAD\n[eFB] F00 21:22 1 - T:M10D2 (CHEST PAINS-DIFF SPEAKING BETW) L:1000 SNOWY EGRET LA ,AGC2 btwn POLE BRIDGE RD ~ BOBWHITE \nCT *AUGUSTINE CREEK II - DESC:??DSC:CHEST PAIN?! PAT:1 SEX:Male AGE:52Years CON:Y BRE:Y\n
+Subject:24CAD\n[eFB] F00 13:27 1 - T:M24B1 (EMERGENCY MATERNITY) L:106 N SIXTH ST ,QG btwn MAIN ST ~ HIGH ST *ODESSA - DESC:??DSC:water\n
 
  */
 
 
 public class DENewCastleCountyParser extends FieldProgramParser {
+  
+  private static Set<String> CITY_SET = new HashSet<String>(Arrays.asList(new String[]{
+      "ARDENCROFT",
+      "ARDENTOWN",
+      "BELLEFONTE",
+      "CLAYTON",
+      "DELAWARE CITY",
+      "ELSMERE",
+      "MIDDLETOWN",
+      "NEW CASTLE",
+      "NEWARK",
+      "NEWPORT",
+      "ODESSA",
+      "SMYRNA",
+      "TOWNSEND",
+      "WILMINGTON",
+      "BEAR",
+      "BROOKSIDE",
+      "CLAYMONT",
+      "COLLINS PARK",
+      "CHRISTIANA",
+      "EDGEMOOR",
+      "GLASGOW",
+      "GREENVILLE",
+      "HOCKESSIN",
+      "HOLLY OAK",
+      "MARSHALLTON",
+      "MINQUADALE",
+      "MONTCHANIN",
+      "NORTH STAR",
+      "OGLETOWN",
+      "PIKE CREEK",
+      "ROCKLAND",
+      "ST. GEORGES",
+      "STANTON",
+      "WILMINGTON MANOR",
+      "WINTERTHUR",
+      "WINTERSET"
+  }));
   
   private static final Pattern[] MARKERS = new Pattern[]{
     Pattern.compile("^F00 \\d\\d:\\d\\d 1 - (?=T:)"),
@@ -98,26 +141,46 @@ public class DENewCastleCountyParser extends FieldProgramParser {
       parseAddress(sAddress, data);
       p.get(' ');
       fld = p.get();
-      if (fld.startsWith("*")) {
-        fld = fld.substring(1).trim();
-      } else if (fld.startsWith("--")) {
-        fld = fld.substring(2).trim();
-      }
-      if (fld.endsWith("-")) {
-        fld = fld.substring(0,fld.length()-1).trim();
-      }
-      data.strPlace = fld;
+      parsePlace(fld, data);
     }
     
     @Override
     public String getFieldNames() {
-      return super.getFieldNames() + " PLACE";
+      return super.getFieldNames() + " CITY PLACE";
+    }
+  }
+  
+  private class MyCrossField extends CrossField {
+    @Override
+    public void parse(String fld, Data data) {
+      Parser p = new Parser(fld);
+      super.parse(p.get(" *"), data);
+      parsePlace(p.get(), data);
+    }
+  }
+
+  private void parsePlace(String fld, Data data) {
+    if (fld.startsWith("*")) {
+      fld = fld.substring(1).trim();
+    } else if (fld.startsWith("--")) {
+      fld = fld.substring(2).trim();
+    }
+    if (fld.endsWith("-")) {
+      fld = fld.substring(0,fld.length()-1).trim();
+    }
+    if (fld.length() > 0) {
+      if (CITY_SET.contains(fld.toUpperCase())) {
+        data.strCity = fld;
+      } else {
+        data.strPlace = fld;
+      }
     }
   }
   
   @Override
   public Field getField(String name) {
     if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("X")) return new MyCrossField();
     return super.getField(name);
   }
 

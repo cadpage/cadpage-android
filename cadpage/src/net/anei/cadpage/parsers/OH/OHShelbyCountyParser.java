@@ -57,7 +57,8 @@ public class OHShelbyCountyParser extends FieldProgramParser {
     "PEMBERTON",
     "ST PATRICK",
     "SWANDERS",
-    "TAWAWA"
+    "TAWAWA",
+    "NEW KNOXVILLE"
   };
   
   public OHShelbyCountyParser() {
