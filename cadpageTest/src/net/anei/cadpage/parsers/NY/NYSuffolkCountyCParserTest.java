@@ -311,9 +311,31 @@ public class NYSuffolkCountyCParserTest extends BaseParserTest {
         "X:FAIRFIELD DRIVE");
   }
   
+  @Test
+  public void testHamptonBays() {
+
+    doTest("T1",
+        "Ambulance Call: mva 1 injury at 338 West Montauk Highway, Hampton Bays  c/s: Bess Lane . . 13:45:27",
+        "CALL:Ambulance Call",
+        "INFO:mva 1 injury",
+        "ADDR:338 West Montauk Highway",
+        "CITY:Hampton Bays",
+        "X:Bess Lane");
+
+    doTest("T2",
+        "Ambulance Call: a/m inj fall main lifeguard stand at 280 Dune Road, Hampton Bays  c/s: Road I   O: Ponquogue Beach Pavillion . . 13:04:55",
+        "CALL:Ambulance Call",
+        "INFO:a/m inj fall main lifeguard stand",
+        "ADDR:280 Dune Road",
+        "CITY:Hampton Bays",
+        "X:Road I",
+        "PLACE:Ponquogue Beach Pavillion");
+    
+  }
+  
   
   public static void main(String[] args) {
-    new NYSuffolkCountyCParserTest().generateTests("T1", "CALL ADDR CITY X PLACE");
+    new NYSuffolkCountyCParserTest().generateTests("T1", "CALL INFO ADDR CITY X PLACE INFO");
   }
 
 }
