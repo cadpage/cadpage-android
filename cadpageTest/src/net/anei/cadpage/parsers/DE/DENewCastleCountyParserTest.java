@@ -85,7 +85,7 @@ public class DENewCastleCountyParserTest extends BaseParserTest {
         "15:50T:52B1G (L1*RES FIRE ALARM~GENERAL ALAR) L:401 CAMPBELL RD ,KC GREENVILLE - X:KENNETT PK ~ MINKER CT : afa.?!?!",
         "CALL:52B1G (L1*RES FIRE ALARM~GENERAL ALAR)",
         "ADDR:401 CAMPBELL RD",
-        "PLACE:GREENVILLE",
+        "CITY:GREENVILLE",
         "X:KENNETT PK ~ MINKER CT",
         "INFO:afa.?!?!");
 
@@ -93,7 +93,7 @@ public class DENewCastleCountyParserTest extends BaseParserTest {
         "23:34T:69D5 (L3*MULTI-RESIDENTIAL FIRE) L:100 ORCHARD LA #1 ,LU *HOLLY OAK - X:WALNUT ST ~ RIDGE RD",
         "CALL:69D5 (L3*MULTI-RESIDENTIAL FIRE)",
         "ADDR:100 ORCHARD LN",
-        "PLACE:HOLLY OAK",
+        "CITY:HOLLY OAK",
         "X:WALNUT ST ~ RIDGE RD",
         "APT:1");
 
@@ -117,7 +117,7 @@ public class DENewCastleCountyParserTest extends BaseParserTest {
         "15:50T:52B1G (L1*RES FIRE ALARM~GENERAL ALAR) L:401 CAMPBELL RD ,KC *GREENVILLE - X:KENNETT PK ~ MINKER CT : afa.",
         "CALL:52B1G (L1*RES FIRE ALARM~GENERAL ALAR)",
         "ADDR:401 CAMPBELL RD",
-        "PLACE:GREENVILLE",
+        "CITY:GREENVILLE",
         "X:KENNETT PK ~ MINKER CT",
         "INFO:afa.");
 
@@ -178,8 +178,18 @@ public class DENewCastleCountyParserTest extends BaseParserTest {
         "SRC:24CAD",
         "CALL:M10D2 (CHEST PAINS-DIFF SPEAKING BETW)",
         "ADDR:1000 SNOWY EGRET LN",
-        "X:btwn POLE BRIDGE RD ~ BOBWHITE CT *AUGUSTINE CREEK II -",
+        "X:btwn POLE BRIDGE RD ~ BOBWHITE CT",
+        "PLACE:AUGUSTINE CREEK II",
         "INFO:??DSC:CHEST PAIN?! PAT:1 SEX:Male AGE:52Years CON:Y BRE:Y");
+
+    doTest("T22",
+        "Subject:24CAD\n[eFB] F00 13:27 1 - T:M24B1 (EMERGENCY MATERNITY) L:106 N SIXTH ST ,QG btwn MAIN ST ~ HIGH ST *ODESSA - DESC:??DSC:water\n",
+        "SRC:24CAD",
+        "CALL:M24B1 (EMERGENCY MATERNITY)",
+        "ADDR:106 N SIXTH ST",
+        "X:btwn MAIN ST ~ HIGH ST",
+        "CITY:ODESSA",
+        "INFO:??DSC:water");
   
   }
   

@@ -95,6 +95,7 @@ public class MDHarfordParserTest extends BaseParserTest {
         "UNIT:E02",
         "CALL:CARDIAC ARREST",
         "ADDR:35 LINCOLN AVE",
+        "APT:C1 Bldg",
         "X:PRITCHARD AVE",
         "CITY:ABERDEEN",
         "NAME:WARD,ASHANTE",
@@ -104,6 +105,6 @@ public class MDHarfordParserTest extends BaseParserTest {
   }
   
   public static void main(String[] args) {
-    new MDHarfordParserTest().generateTests("T9", "UNIT CALL ADDR X CITY NAME BOX ID");
+    new MDHarfordParserTest().generateTests("T9", "UNIT CALL ADDR APT X CITY NAME BOX ID");
   }
 }
