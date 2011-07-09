@@ -1554,7 +1554,34 @@ Sender: epage-owner@delmar74fire.com <From%3Aepage-owner@delmar74fire.com>
 Contact: Kenny Love <kennylove989@gmail.com>
 Sender: epage-owner@delmar74fire.com
 (CAD Alert) 74AST      Call at 10411 Hearns Way                                             City19940      Problem Chest Pain-ALS
-
+(CAD Alert) 74AST      Call at Bi State Blvd & E Grove St    74HQ                           City19940      Problem Heart Problems/ AICD-BLS
+(CAD Alert) 74AST      Call at Bi State Blvd & E Grove St    74HQ                           City19940      Problem Heart Problems/ AICD-BLS
+(CAD Alert) 74AST      Call at Holly Ct & Twelfth St         on foot                        City19940      Problem Abdominal Pain-ALS
+(CAD Alert) 74A        Call at 38650 Sussex Hwy              Food Lion (74) at  appartments City19940      Problem Fire Nature Unknown
+(CAD Alert) 74AST      Call at Sussex Hwy & Trussum Pond Rd  intersection by johnny  janosikCity 19956      Problem Traffic/TransportationAcdntBLS
+(CAD Alert) 74ST       Call at Sussex Hwy & Iron Hill Rd                                    City19940      Problem Traffic/TransportationAcdntBLS
+(CAD Alert) 74AST      Call at Sussex Hwy & Iron Hill Rd                                    City19940      Problem Traffic/TransportationAcdntBLS
+(CAD Alert) 74A        Call at Pepperbox Rd & Brittingham Rd                                City19940      Problem Wires Down/Arching         
+(CAD Alert) 74ST       Call at Jackson Rd & Saint George Rd                                 City19940      Problem Structure Fire 
+(CAD Alert) 74AS1      Call at Jackson Rd & Saint George Rd                                 City19940      Problem Structure Fire
+(CAD Alert) 74AST      Call at Whitesville Rd & Sussex Hwy                                  City 19956      Problem Traffic/TransportationAcdntBLS       
+(CAD Alert) 74ST       Call at Sussex Hwy & Whitesville Rd                                  City19940      Problem Fire Nature Unknown
+(CAD Alert) 74ST       Call at Connelly Mill Rd & Wood Creek                                City21875      Problem Trash Fire
+(CAD Alert) 74ST       Call at Sussex Hwy & Line Rd                                         City19940      Problem Traffic/TransportationAcdntBLS
+(CAD Alert) 74AST      Call at Sussex Hwy & Line Rd                                         City19940      Problem Traffic/TransportationAcdntBLS
+(CAD Alert) 74B        Call at Line Rd & Rum Ridge Rd                                       City21875      Problem Traffic/TransportationAcdntBLS
+(CAD Alert) 74AST      Call at Line Rd & Rum Ridge Rd                                       City21875      Problem Traffic/TransportationAcdntBLS
+(CAD Alert) 74AS2      Call at Bi State Blvd & E Grove St    74HQ                           City19940      Problem Stroke-BLS
+(CAD Alert) 74ST       Call at S 2nd St & E Walnut St                                       City21875      Problem Structure Fire
+(CAD Alert) 74ST       Call at Ocean Hwy & Stage Rd                                         City21875      Problem Traffic/TransportationAcdntBLS
+(CAD Alert) 74ST       Call at Rum Ridge & Williams Mill Pond                               City           Problem Traffic/TransportationAcdntBLS
+(CAD Alert) 74ST       Call at Pine St & Ocean Hwy                                          City21875      Problem Fire Nature Unknown
+(CAD Alert) 74AST      Call at Bi State Blvd & Foskey Ln                                    City21875      Problem Traffic/TransportationAcdntBLS
+(CAD Alert) 74AST      Call at Line Rd & Robin Hood Rd       yellow hse                     City21875      Problem Unknown Problem(Man Down)-ALS
+(CAD Alert) 74AST      Call at Bi State Blvd & E State St                                   City           Problem Back Pain (Non Traumatic)-BLS
+(CAD Alert) 74AS1      Call at Sussex Hwy & W Snake Rd                                      City19956      Problem Traffic/TransportationAcdntALS
+(CAD Alert) 74AST      Call at Northwood Dr & Mavel Dr                                                     Problem Traffic/TransportationAcdntBLS
+(CAD Alert) 74AS1      Call at Bi State Blvd & S Bi State Blv                               City19940      Problem Traffic/TransportationAcdntBLS
 
 Sender: wfpage-owner@delmar74fire.com <From%3Awfpage-owner@delmar74fire.com>
 CAD:2010110683;PI ACCIDENT;8859 JERSEY RD;DELM;CONNELLY MILL RD;ADKINS RD;[Medical Priority Info] RESPONSE: Bravo RESPONDER SCRIPT: 25 year old, Male,
@@ -2272,6 +2299,23 @@ From:alrt118132@alert.princegeorgescountymd.gov
 Body:(2/3) TalkGroup: TGA2, Box: 2803, Map: 5410 K 9, Text: Medical ProQA
 recommends dispatch at this time, Units:A
 
+From:alrt121885@alert.princegeorgescountymd.gov
+Body:(1/2) A830 Incident: F111880254, Type: BLS Amb, Loc: 6736 DARBY RD, PP, btwn COOPER LN and WARNER AVE, TalkGro'
+
+From:alrt121770@alert.princegeorgescountymd.gov
+Body:(1/2) A830 Incident: F111880213, Type: Medic Local, Loc: EB ANNAPOLIS RD/69TH PL, PP,\2s<6915/ 0>, TalkGroup: T
+
+From:alrt122372@alert.princegeorgescountymd.gov
+Body:(2/3) , TalkGroup: TGA2, Box: 3010, Map: 5530 G 1, Text: Medical ProQA recommends dispatch at this time, Units
+
+From:alrt122331@alert.princegeorgescountymd.gov
+Body:(1/3) E830 Incident: F111880399, Type: Medic Local, Loc: 4714 66TH PL, PP, btwn WEBSTER ST and 66TH AVE, TalkG
+Body:(3/3) PE830
+Body:(2/3) roup: TGA2, Box: 3004, Map: 5410 F 10, Text: Medical ProQA recommends dispatch at this time, Units:A830,
+
+
+
+
 Contact: kevin gilmore <kgilmore82@gmail.com>
 Sender: cad114863@alert.princegeorgescountymd.gov  (10.7 sec)
 1/3 / A843 Incident: F111830064, Type: Acc w/Inj, Loc:EB CENTRAL AVE/CHURCH RD S, PP,  <14399/ 1>, TalkGroup:
@@ -2322,6 +2366,14 @@ From:alrt121379@alert.princegeorgescountymd.gov
 From:alrt121464@alert.princegeorgescountymd.gov
 (2/2) Text: BOX 16-7 4TH DUE ENG...7C, Unit:E812
 (1/2) E812 Incident: F111880115, Type: House Fire, Loc: 511 EAST INDIAN SPRING DR, TalkGroup: TG1, Box: MAMC,
+
+From:alrt121379@alert.princegeorgescountymd.gov
+Body:(3/3) mends dispatch at this time, Units:A812, E812, MD812
+
+From:alrt121993@alert.princegeorgescountymd.gov
+Body:(1/2) E812 Incident: F111880271, Type: BLS Amb, Loc: 4107 BUCK CREEK RD, PP, btwn MORTON PL and TRUDE ST, Talk
+Body:(2/2) Group: TGC2, Box: 3221, Map: 5765 K 2, Text: Medical ProQA recommends dispatch at this time, Unit:E812
+
 
 **********************************************************
 Geauga County, OH
