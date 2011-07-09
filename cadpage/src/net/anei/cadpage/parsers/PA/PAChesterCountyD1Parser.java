@@ -21,7 +21,7 @@ http://wiki.radioreference.com/index.php/Chester_County_%28PA%29
  */
 
 
-public class PAChesterCountyD1Parser extends PAChesterCountyDBaseParser {
+public class PAChesterCountyD1Parser extends PAChesterCountyBaseParser {
   
   private static final Pattern DELIM = Pattern.compile("\\*\\*");
   

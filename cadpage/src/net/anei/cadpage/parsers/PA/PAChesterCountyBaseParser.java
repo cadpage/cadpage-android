@@ -1,47 +1,10 @@
 package net.anei.cadpage.parsers.PA;
 import java.util.Properties;
+import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.SmsMsgInfo.Data;
 import net.anei.cadpage.parsers.FieldProgramParser;
-
-
-/* 
-Chester County, PA (version B)
-Contact: Jason Wilkins <j.wilkins728@gmail.com>
-
-OVERDOSE - ALS *\n300 CEDAR SPRINGS RD - LIBERTY KNOLL APTS\nW BALTIMORE PK & CEDAR WOODS CI\nAPT 205\nNGARDN\n3RD HAND INFO/RP NOT ON LOC/UNK AGE MALE SAID HE OD'S ON ON PILLS/RP PUT ME ON HOLD\n02/21/2011\n15:09\n610-388-7400
-UNKNOWN TYPE FIRE *\n10 ALTEMUS DR\nWATSON MILL RD & DEAD END\nBROAD RUN KNOLL\nACROSS FROM ABV 1/4 MILE\nNGARDN\nSEES FIRE UNSURE IF ITS A BUILDING OR TRASH\n02/21/2011\n08:27\nRIOFSKI, LINDA P\n610-274-0906
-HOUSE FIRE *\n109 GARDEN STATION RD\nE AVONDALE RD & WHITESTONE RD\nLGROVE\nSTOVE INSIDE BASMENT ON FIRE\n02/20/2011\n17:50\nA/F\n610-322-0944/C
-ALARM - FIRE *\n8822 GAP NEWPORT PK\nCROSSAN LA & PENN GREEN RD\nRESD - LAFFERTY 610-268-2861\nNGARDN\nSMOKE DETECTOR IN KITCHEN - ENTER THRU BACK DO OR\n02/12/2011\n19:57\nLIFE ALERT-645\n800-638-8222
-[Update]\nSMOKE / ODOR INVEST (OUTSIDE)\nRT 41 / RT 841\nLGROVE\nHEAVY SMOKE CONDITION IN THE AREA - UNK WHAT'S IT'S ACTUALLY COMING FROM\n02/16/2011\n02:18\nROCHESTER, RANDOLF\n717-468-8174
-SMOKE / ODOR INVEST (OUTSIDE)\nRT 41 / RT 841\nLGROVE\nHEAVY SMOKE CONDITION IN THE AREA - UNK WHAT'S IT'S ACTUALLY COMING FROM\n02/16/2011\n02:18\nROCHESTER, RANDOLF\n717-468-8174
-
-Contact: Christopher Bakey <ceb5070@gmail.com>
-Sender: longwoodfire@comcast.net <From%3Alongwoodfire@comcast.net>
-
-CHIMNEY FIRE **1905 LENAPE UNIONVILLE RD*RED LION RD & MUNICIPAL BOUNDA*POCOPS*21:30*WOOD STOVE IN BASEMENT, F
-HOUSE FIRE **241 SAGINAW RD*LEWISVILLE RD & HOLLOW ROCK LA*NEWLON*12:52*DETAILS TO FOLLOW
-ACCIDENT - SERIOUS **N BROAD ST / E LINDEN ST*KNTSQR*11:31*1 VEH, BLOCKING, CAR SMOK
-FUEL SPILL **1001 HICKORY HILL RD*HONEYTREE LA & HILLENDALERD*PNSBRY*18:15*250 GALLON OIL TANK FOR F
-OUT BUILDING / SHED FIRE **6 CARNATION LA*14:54*25 ENG ASSIST D59 – SHED
-RELOCATE FIRE / EMS UNITS*23 FIREHOUSE WY - STATION 23*GAP NEWPORT PK & DEAD END*AVNDAL*21:18*MIC251 COVERING SOUTH
-ALARM - CARBON MONOXIDE **5 COOPERSHALWK LA, CHADDS FORD*09:12*ENG25 ASST D59
-ALARM - FIRE **815 E BALTIMORE PK - HILTON GARDENS INN*SCHOOLHOUSE RD & ONIX DR*EMARLB*20:25*GEN FIRE – NOTIYFING
-NOTIFY FIRE CHIEF*1695 LENAPE RD - POCOPSON HOME*RED BRIDGE LA & LENAPE UNIONVI*POCOPS*03:12*RP ADV RESIDENT PULLED FI
-BARN FIRE **382 W STREET RD - NEW BOLTON CTR MAIN CM*WIDENER LA & BYRD RD*EMARLB*19:32*SMOKE IN BARN - NO FIRE S
-CHIMNEY FIRE **1905 LENAPE UNIONVILLE RD*RED LION RD & MUNICIPAL BOUNDA*POCOPS*21:30*WOOD STOVE IN BASEMENT, F
-
-Contact: jtg5097@yahoo.com <jtg5097@yahoo.com>
-Sender: wgfc22@comcast.net
-(Dispatch) 05/31/11 * 13:30:52 * SYNCOPE/FAINTING - ALS * * 880 W BALTIMORE PK ,58 * LEWIS RD & PUSEY MILL RD * PENN * WELLNESS CENTER OFFICE-SOUTHER * GRANDEL,
-(Dispatch) 05/31/11 * 11:10:31 * OTHER TYPE RESCUE * * 880 W BALTIMORE PK ,58 * LEWIS RD & PUSEY MILL RD * PENN * IN PLOT-YMCA *  * 910-750-762 * 2264 *  * 22 *
-(Dispatch) 05/31/11 * 09:30:53 * HYPO TENSION - ALS * * 774 W GLENVIEW DR ,58 * PHEASANT WY & EDGEWOOD CT * PENN * - *  * 610-345-136 * 2203 *  * 22 * Dispatch *
-(Dispatch) 05/31/11 * 00:36:12 * BARN FIRE * * 248 HOOD RD ,48 * MUNICIPAL BOUNDARY & N MOSQUITO LA * WMARLB * - *  * 610-316-731 * 3604   * 36 * Dispatch *
-
-
-*/
-
 
 public class PAChesterCountyBaseParser extends FieldProgramParser {
   
@@ -55,14 +18,18 @@ public class PAChesterCountyBaseParser extends FieldProgramParser {
       "AVNDAL", "AVONDALE",
       "EMARLB", "EAST MARLBOROUGH TWP",
       "WMARLB", "WEST MARLBOROUGH TWP",
-      "PENN",   "PENN TWP"
+      "PENN",   "PENN TWP",
+      "LWROXF", "LOWER OXFORD TWP",
+      "ENOTT",  "EAST NOTINGHAM TWP",
+      "OXFORD", "OXFORD"
   });
   
   public PAChesterCountyBaseParser(String programStr) {
     super(CITY_CODES, "CHESTER COUNTY", "PA", programStr);
   }
   
-  private class AddressPlaceField extends AddressField {
+  // ADDRPL: address - place
+  protected class AddressPlaceField extends AddressField {
     
     @Override
     public void parse(String field, Data data) {
@@ -78,7 +45,22 @@ public class PAChesterCountyBaseParser extends FieldProgramParser {
     }
   }
   
-  private class MyCrossField extends CrossField {
+  // ADDRCITY: address, citycode
+  protected class AddressCityField extends AddressField {
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      return parseChesterAddress(field, data);
+    }
+    
+    @Override
+    public void parse(String field, Data data) {
+      if (!parseChesterAddress(field, data)) abort();
+    }
+  }
+  
+  // X2: must contain &
+  protected class Cross2Field extends CrossField {
     @Override
     public boolean checkParse(String field, Data data) {
       if (!field.contains("&")) return false;
@@ -87,7 +69,8 @@ public class PAChesterCountyBaseParser extends FieldProgramParser {
     }
   }
   
-  private class MyAptField extends AptField {
+  // APT: must start with APT or be <= 4 characters
+  protected class BaseAptField extends AptField {
 
     @Override
     public boolean canFail() {
@@ -96,6 +79,7 @@ public class PAChesterCountyBaseParser extends FieldProgramParser {
 
     @Override
     public boolean checkParse(String field, Data data) {
+      if (field.endsWith("-")) field = field.substring(0,field.length()-1).trim();
       if (field.startsWith("APT ")) {
         field = field.substring(4).trim();
       } else if (field.length() > 4) return false;
@@ -103,23 +87,56 @@ public class PAChesterCountyBaseParser extends FieldProgramParser {
       parse(field, data);
       return true;
     }
+    
+    @Override
+    public void parse(String field, Data data) {
+      if (field.endsWith("-")) field = field.substring(0,field.length()-1).trim();
+      if (field.startsWith("APT ")) {
+        field = field.substring(4).trim();
+      }
+      super.parse(field, data);
+    }
+  }
+  
+  // PLACE: ignore if len <= 1
+  protected class BasePlaceField extends  PlaceField {
+    @Override
+    public void parse(String field, Data data) {
+      if (field.length() > 1) {
+        super.parse(field, data);
+      }
+    }
   }
 
-  // Date field is skipped, but must match proper date format
+  // DATE: mm/dd/yy or mm/dd/yyyy
   // Format is enforced even if not condition decision is required
-  private static final Pattern DATE_PATTERN = Pattern.compile("\\d\\d/\\d\\d/\\d\\d\\d\\d");
-  private class DateField extends SkipField {
+  private static final Pattern DATE_PATTERN = Pattern.compile("\\d\\d/\\d\\d/\\d\\d(?:\\d\\d)?");
+  protected class DateField extends SkipField {
     public DateField() {
       setPattern(DATE_PATTERN, true);
     }
   }
   
-  // Time field is also skipped, but must match proper time format
+  // TIME: hh:mm or hh:mm:ss
   // Format is enforced even if not condition decision is required
-  private static final Pattern TIME_PATTERN = Pattern.compile("\\d\\d:\\d\\d");
-  private class TimeField extends SkipField {
+  private static final Pattern TIME_PATTERN = Pattern.compile("\\d\\d:\\d\\d(?::\\d\\d)?");
+  protected class TimeField extends SkipField {
     public TimeField() {
       setPattern(TIME_PATTERN, true);
+    }
+  }
+  
+  // EMPTY: must be empty
+  protected class EmptyField extends SkipField {
+
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+
+    @Override
+    public boolean checkParse(String field, Data data) {
+      return field.length() == 0;
     }
   }
   
@@ -127,10 +144,114 @@ public class PAChesterCountyBaseParser extends FieldProgramParser {
   @Override
   public Field getField(String name) {
     if (name.equals("ADDRPL")) return new AddressPlaceField();
-    if (name.equals("X")) return new MyCrossField();
-    if (name.equals("APT")) return new MyAptField();
+    if (name.equals("ADDRCITY")) return new AddressCityField();
+    if (name.equals("X2")) return new Cross2Field();
+    if (name.equals("APT")) return new BaseAptField();
+    if (name.equals("PLACE")) return new BasePlaceField();
     if (name.equals("DATE")) return new DateField();
     if (name.equals("TIME")) return new TimeField();
+    if (name.equals("EMPTY")) return new EmptyField();
     return super.getField(name);
   }
+
+  private static final Pattern ADDR_PTN = Pattern.compile("(.*), *(\\d\\d)");
+  public boolean parseChesterAddress(String field, Data data) {
+    Matcher match = ADDR_PTN.matcher(field);
+    if (!match.matches()) return false;
+    parseAddress(match.group(1).trim(), data);
+    
+    int ndx = Integer.parseInt(match.group(2));
+    if (ndx < CITY_LIST.length) data.strCity = CITY_LIST[ndx];
+    return true;
+  }
+  
+  private static final String[] CITY_LIST = new String[]{
+    /* 00 */ "",
+    /* 01 */ "WEST CHESTER",
+    /* 02 */ "MALVERN",
+    /* 03 */ "KENNETT SQUARE",
+    /* 04 */ "AVONDALE",
+    /* 05 */ "WEST GROVE",
+    /* 06 */ "OXFORD",
+    /* 07 */ "ATGLEN",
+    /* 08 */ "PARKESBURG",
+    /* 09 */ "SOUTH COATESVILLE",
+    /* 10 */ "",
+    /* 11 */ "DOWNINGTOWN",
+    /* 12 */ "HONEY BROOK",
+    /* 13 */ "",
+    /* 14 */ "SPRING CITY",
+    /* 15 */ "PHOENIXVILLE",
+    /* 16 */ "COATESVILLE CITY",
+    /* 17 */ "NORTH COVENTRY TWP",
+    /* 18 */ "EAST COVENTRY TWP",
+    /* 19 */ "",
+    /* 20 */ "POTTSTOWN",
+    /* 21 */ "EAST VINCENT TWP",
+    /* 22 */ "",
+    /* 23 */ "",
+    /* 24 */ "",
+    /* 25 */ "WEST VINCENT TWP",
+    /* 26 */ "EAST PIKELAND TWP",
+    /* 27 */ "SCHUYLKILL TWP",
+    /* 28 */ "WEST CALN TWP",
+    /* 29 */ "WEST BRANDYWINE TWP",
+    /* 30 */ "",                // BRANDYWINE REGIONAL POLICE
+    /* 31 */ "",
+    /* 32 */ "UPPER UWCHLAN TWP",
+    /* 33 */ "UWCHLAN TWP",
+    /* 34 */ "WEST PIKELAND TWP",
+    /* 35 */ "",
+    /* 36 */ "WEST SADSBURY TWP",
+    /* 37 */ "SADSBURY TWP",
+    /* 38 */ "VALLEY TWP",
+    /* 39 */ "CALN TWP",
+    /* 40 */ "",
+    /* 41 */ "WEST WHITELAND TWP",
+    /* 42 */ "EAST WHITELAND TWP",
+    /* 43 */ "TREDYFFRIN TWP",
+    /* 44 */ "WEST FALLOWFIELD TWP",
+    /* 45 */ "HIGHLAND TWP",
+    /* 46 */ "",
+    /* 47 */ "EAST FALLOWFIELD TWP",
+    /* 48 */ "",
+    /* 49 */ "",
+    /* 50 */ "",
+    /* 51 */ "",
+    /* 52 */ "WEST GOSHEN TWP ",
+    /* 53 */ "",
+    /* 54 */ "WILLISTOWN TWP",
+    /* 55 */ "EASTTOWN TWP",
+    /* 56 */ "",
+    /* 57 */ "",
+    /* 58 */ "",
+    /* 59 */ "",
+    /* 60 */ "NEW GARDEN TWP",
+    /* 61 */ "EAST MARLBOROUGH TWP",
+    /* 62 */ "KENNETT TWP",
+    /* 63 */ "",
+    /* 64 */ "",
+    /* 65 */ "BIRMINGHAM TWP",
+    /* 66 */ "",
+    /* 67 */ "WESTTOWN-EAST GOSHEN REGIONAL PD",
+    /* 68 */ "WEST NOTTINGHAM TWP",
+    /* 69 */ "",
+    /* 70 */ "",
+    /* 71 */ "",
+    /* 72 */ "",
+    /* 73 */ "",
+    /* 74 */ "",
+    /* 75 */ "WEST CHESTER",    // WEST CHESTER UNIVERSITY PD 
+    /* 76 */ "OXFORD",          // LINCOLN UNIVERSITY 
+    /* 77 */ "COATESVILLE",     // COATESVILLE VA MEDICAL CENTER POLICE
+    /* 78 */ "WEST CHESTER",    // WEST CHESTER AREA SCHOOL DISTRICT SECURITY
+    /* 79 */ "COATESVILLE",     // COATESVILLE AREA SCHOOL DISTRICT POLICE
+    /* 80 */ "",
+    /* 81 */ "",                // PENNSYLVANIA FISH AND BOAT COMMISSION
+    /* 82 */ "DOWNINGTON",      // MARSH CREEK STATE PARK RANGERS
+    /* 83 */ "POTTSDOWN",       // WARWICK COUNTY PARK
+    /* 84 */ "COATESVILLE",     // HIBERNIA COUNTY PARK
+    /* 85 */ "NOTTINGHAM",      // NOTTINGHAM COUNTY PARK
+    /* 86 */ "GLENMOORE"        // SPRINGTON MANOR COUNTY PARK
+  };
 } 

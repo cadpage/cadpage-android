@@ -31,7 +31,7 @@ Not valid, but something like this is putting parser in a recursion loop
  */
 
 
-public class PAChesterCountyD2Parser extends PAChesterCountyDBaseParser {
+public class PAChesterCountyD2Parser extends PAChesterCountyBaseParser {
   
   public PAChesterCountyD2Parser() {
     super("CALL SKIP INFO+? DATE!");

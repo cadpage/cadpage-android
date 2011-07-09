@@ -19,7 +19,7 @@ SMOKE / ODOR INVEST (OUTSIDE)\nRT 41 / RT 841\nLGROVE\nHEAVY SMOKE CONDITION IN 
 public class PAChesterCountyBParser extends PAChesterCountyBaseParser {
   
   public PAChesterCountyBParser() {
-    super("CALL ADDRPL! X? APT? INFO+? CITY! INFO+? DATE SKIP NAME? PHONE");
+    super("CALL ADDRPL! X2? APT? INFO+? CITY! INFO+? DATE SKIP NAME? PHONE");
   }
 
   @Override

@@ -26,7 +26,7 @@ BARN FIRE **382 W STREET RD - NEW BOLTON CTR MAIN CM*WIDENER LA & BYRD RD*EMARLB
 public class PAChesterCountyCParser extends PAChesterCountyBaseParser {
   
   public PAChesterCountyCParser() {
-    super("CALL ADDRPL! X? APT? CITY? TIME! INFO+");
+    super("CALL ADDRPL! X2? APT? CITY? TIME! INFO+");
   }
 
   // Delimiter pattern is start that is not followed by a second star
