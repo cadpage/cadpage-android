@@ -72,17 +72,24 @@ polkcounty911:620 BURT BLACKWELL RD MILL SPRING QUANDT, LEONARD & CRYSTAL 828894
 polkcounty911:1 COLUMBUS FIRE DEPT 2201 17:54:26 STANDBY REQUEST MSFD STANDBY FOR THEM REF RESOURCES DEPLETED. June 18, 5:55 PM
 polkcounty911:1 GREEN RIVER COVE RD mill spring carol 8288179441 09:52:03 DOWN POWER LINE FROM S NC 9 HWY TO RUTHERFORD CO LINE. June 19 9:53 AM.
 
+Watauga County, NC
+HOWARDS CREEK RD / SUGARLOAF RD FDL 71B01 2011013987 16:02:05 VEHICLE FIRE 421N-RT TATER HILL RD-LT HOWARDS CREEK RD TO SUGARLOAF RD
+524 JONES DR BOONE MDL 01A01 2011013875 02:10:09 ABDOMINAL PAIN 194S-CHESTNUT GRV RD-LT COBBS CREEK RD-1ST RT JONES DR
+131 BIG VALLEY ST BOONE 2011013813 13:15:57 STRUCTURE FIRE 321S-LT DEERFIELD RD-TRAVEL 2.0 MI-RT BIG VALLEY ST INTO DEERFIELD MEADOWS BUSINESS PARK
+200 QUAIL ST BOONE 2011013939 03:11:32 STANDBY
+853 HIDDEN VALLEY DR BOONE MDL 09E01 2011013997 20:13:36 ARREST-ADULT 105S-BESIDE HIDDEN VALLEY MOTEL-LT HIDDEN VALLEY DR
+
 */
 
 public class DispatchSouthernParser extends SmartAddressParser {
   
-  // Flag indicata  a leading dispatch name is required
+  // Flag indicating  a leading dispatch name is required
   public static final int DSFLAG_DISPATCH_ID = 0x01;
   
   // Flag indicate a unit designation follows the time stampe
   public static final int DSFLAG_UNIT = 0x02;
   
-  // Flag indiacting that the call ID is optional
+  // Flag indicating that the call ID is optional
   public static final int DSFLAG_ID_OPTIONAL = 0x08;
   
   private static final Pattern LEAD_PTN = Pattern.compile("^[\\w\\.]+:");
@@ -125,16 +132,28 @@ public class DispatchSouthernParser extends SmartAddressParser {
     String sAddr = body.substring(0,match.start()).trim();
     String sExtra = body.substring(match.end()).trim();
     
-    // First half contains address, optional place/name, and possibly an MDL call code
-    Parser p = new Parser(sAddr);
-    data.strCode = p.getLastOptional(" MDL ");
-    sAddr = p.get();
-    parseAddress(StartType.START_ADDR, sAddr, data);
-    data.strPlace = getLeft();
+    parseMain(data, sAddr);
 
     // Second half May contain unit ID,
     // then call description and long call description
     // Call description comes first and contains only upper case letters and numbers
+    parseExtra(data, sExtra);
+    return true;
+  }
+
+  protected void parseMain(Data data, String sAddr) {
+    // First half contains address, optional place/name, and possibly an MDL call code
+    Parser p = new Parser(sAddr);
+    data.strCode = p.getLastOptional(" MDL ");
+    if (data.strCode.length() == 0) data.strCode =p.getLastOptional(" FDL ");
+    sAddr = p.get();
+    parseAddress(StartType.START_ADDR, sAddr, data);
+    data.strPlace = getLeft();
+  }
+
+  protected void parseExtra(Data data, String sExtra) {
+    Matcher match;
+    Parser p;
     if (unitId) {
       p = new Parser(sExtra);
       data.strUnit = p.get(' ');
@@ -149,7 +168,5 @@ public class DispatchSouthernParser extends SmartAddressParser {
       }
     }
     data.strSupp = sExtra;
-    
-    return true;
   }
 }

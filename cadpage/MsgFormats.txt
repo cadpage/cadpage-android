@@ -417,6 +417,11 @@ Transylvania County, NC (NCTransylvaniaCountyParser)
 911CENTER:2725 RESERVE RD LITTLE RIVER 2011-019735 16:20:13 ALARM FIRE (10-37) FOGLE, JOHN 8288775516 FIRE ALARM SMOKE DETECTOR
 911CENTER:1 WHITMIRE ST BREVARD CITY 2011-019863 13:34:30 STRUCTURE FIRE OUTBUILDING ON FIRE
 *******************************************************************************
+Watauga County, NC (NCWataugaCountyParser)
+HOWARDS CREEK RD / SUGARLOAF RD FDL 71B01 2011013987 16:02:05 VEHICLE FIRE 421N-RT TATER HILL RD-LT HOWARDS CREEK RD TO SUGARLOAF RD
+524 JONES DR BOONE MDL 01A01 2011013875 02:10:09 ABDOMINAL PAIN 194S-CHESTNUT GRV RD-LT COBBS CREEK RD-1ST RT JONES DR
+131 BIG VALLEY ST BOONE 2011013813 13:15:57 STRUCTURE FIRE 321S-LT DEERFIELD RD-TRAVEL 2.0 MI-RT BIG VALLEY ST INTO DEERFIELD MEADOWS BUSINESS PARK
+*******************************************************************************
 *******************************************************************************
 * DispatchGlobalDispatchParser subclasses
 *******************************************************************************
@@ -2421,30 +2426,26 @@ Unknown
 Contact: Jeff Hanner <jhanner@windstream.net>
 SCFD Type:CHP SUBTYPE:? LOC:112 WILD AZALEA DR [@ROCK HILL C:7/7/2011 06:49:39 122 WILD AZALEA: cross streets: DOGWOOD ST & E ROCKHILL DR 7/7/2011 06:49:4
 **********************************************************
+Kent County, DE (Alternate)
+Contact: Adam Warner <awarner7777@gmail.com>
+Sender: msg@cfmsg.com
+(Chief ALT) [40 EMS] - 26A10 - Sick Person - Unwell/Ill -- 2536 Skeeter Neck Rd, Frederica -- Xst's: Bowers Beach Rd / E Front St -- Caller: High Vue Logging Inc
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
 **********************************************************
 ************  READY TO ROLL ******************************
 **********************************************************
 **********************************************************
 **********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-Watauga County, NC
-Contact: Michael Vollmer <michael@wataugarescue.org>
-System: Southern
-HOWARDS CREEK RD / SUGARLOAF RD FDL 71B01 2011013987 16:02:05 VEHICLE FIRE 421N-RT TATER HILL RD-LT HOWARDS CREEK RD TO SUGARLOAF RD
-524 JONES DR BOONE MDL 01A01 2011013875 02:10:09 ABDOMINAL PAIN 194S-CHESTNUT GRV RD-LT COBBS CREEK RD-1ST RT JONES DR
-131 BIG VALLEY ST BOONE 2011013813 13:15:57 STRUCTURE FIRE 321S-LT DEERFIELD RD-TRAVEL 2.0 MI-RT BIG VALLEY ST INTO DEERFIELD MEADOWS BUSINESS PARK
-200 QUAIL ST BOONE 2011013939 03:11:32 STANDBY
-853 HIDDEN VALLEY DR BOONE MDL 09E01 2011013997 20:13:36 ARREST-ADULT 105S-BESIDE HIDDEN VALLEY MOTEL-LT HIDDEN VALLEY DR
 **********************************************************
 Chester County, PA (alternate)
 Contact: jtg5097@yahoo.com <jtg5097@yahoo.com>
