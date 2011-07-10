@@ -75,9 +75,17 @@ public class KSJohnsonCountyParserTest extends BaseParserTest {
         "MAP:290/1",
         "ID:11-1");
 
+    doTest("T9",
+        "Subject:info:\nAdd: E Lincoln Ln & N Evergreen Apt: d          Loc: Lincoln Townhom Nature: Non Breather - C1C             Grid: 339/1 Incident",
+        "ADDR:E Lincoln Ln & N Evergreen",
+        "APT:d",
+        "PLACE:Lincoln Townhom",
+        "CALL:Non Breather - C1C",
+        "MAP:339/1");
+
   }
   
   public static void main(String[] args) {
-    new KSJohnsonCountyParserTest().generateTests("T8");
+    new KSJohnsonCountyParserTest().generateTests("T9");
   }
 }
