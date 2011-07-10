@@ -13,7 +13,7 @@ public class NYNassauCountyParser extends GroupBestParser {
     super(new NYNassauCountyAParser(), new NYNassauCountyBParser(), 
            new NYNassauCountyCParser(), new NYNassauCountyDParser(), 
            new NYNassauCountyRedAlertParser(), new NYNassauCountyFiretrackerParser(),
-           new NYNassauCountyElmontParser());
+           new NYNassauCountyElmontParser(), new NYNassauCountyMassepequaParser());
   }
 }
 

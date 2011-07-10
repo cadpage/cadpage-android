@@ -1,6 +1,9 @@
 package net.anei.cadpage.parsers.NY;
 
 
+import java.util.Properties;
+
+import net.anei.cadpage.SmsMsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchRedAlertParser;
 
 /*
@@ -48,9 +51,26 @@ Oyster Bay FD
 RESCUE, AMBU at OYSTER BAY LIBRARY 89 MAIN ST E, OYSTER BAY c/s: PEARL ST / ANSTICE ST, PEDESTRIAN STRUCK . . 12:45:00
 CHIEF, WIRE at  SANDY HILL ROAD, OYSTER BAY c/s: MAIN (E) ST, WIRES BURNING . . 00:20:00
 
+??? FD
+Contact: Daniel Dutton <ncfm80@gmail.com>,NCFM80@vtext.com,5163186932@vzwpix.com
+Automatic Alarm - Residential, Water Flow: Zone: 43, Response:CO4, CO3\nat 51 GREAT NECK RD, GREAT NECK   c/s: SO. MIDDLE NECK RD.   O: ATRIA (Use For Fire
+MVA w/ Aided: Zone: 54, Response:CO5, CO4, CO6\nat LAKEVILLE RD / NORTHERN STATE PKWY, LAKE SUCCESS . . 10:28:36
+Automatic Alarm - Residential: Zone: 21, Response:CO2, CO1\nat 32 BUCKMINSTER LA, STRATHMORE VILLAGE  c/s: SUSSEX DR   O: URALLEY . . 21:03:10
+Automatic Alarm - Commercial: Zone: 54, Response:CO5, CO4\nat 1 DELAWARE DR, LAKE SUCCESS QUARD  c/s: MARCUS AV   O: PARKER JEWISH CENTER-PRO HEALTH . . 1
+MVA w/ Aided: Zone: 43, Response:CO4, CO3, CO6\nat 363 GREAT NECK RD, GREAT NECK  c/s: WATER MILL LA   O: REMA AUTO COLLISION . . 12:56:01
+[Brush] Trees: Zone: 45, Response:CO4, CO5\nWIRES DOWN at WESTMINSTER RD / BATES RD, LAKE SUCCESS . . 15:59:47
+MVA w/ Aided: Zone: 43, Response:CO4, CO3\nat NORTHERN BLVD / GREAT NECK RD, GREAT NECK . . 17:45:30
+[Brush] Trees: Zone: 54, Response:CO5\nat NEW HYDE PARK RD / NORTH SERVICE RD, NEW HYDE PARK . . 18:32:59
+Carbon Monoxide w/ Aided: Zone: 52, Response:CO5, CO6\nat 45 CHESTNUT HILL, NORTH HILLS  c/s: ACORN PONDS DR . . 00:59:33
+
 */
 
 public class NYNassauCountyRedAlertParser extends DispatchRedAlertParser {
+  
+  private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "LAKE SUCCESS QUARD", "LAKE SUCCESS",
+      "STRATHMORE VILLAGE", "STRATHMORE"
+  });
   
   public NYNassauCountyRedAlertParser() {
     super("NASSAU COUNTY","NY");
@@ -59,5 +79,23 @@ public class NYNassauCountyRedAlertParser extends DispatchRedAlertParser {
   @Override
   public String getFilter() {
     return "paging@rednmxcad.com,paging@alpinesoftware.com,RedAlert,alarms@rvcny.us";
+  }
+  
+  @Override
+  public boolean parseMsg(String subject, String body, Data data) {
+    body = body.replace('\n', ' ');
+    if (!super.parseMsg(subject, body, data)) return false;
+    
+    // Supp info can have all kinds of fun things
+    Parser p = new Parser(data.strSupp);
+    data.strUnit = p.getLastOptional(", Response:");
+    data.strMap = p.getLastOptional("Zone:");
+    String sInfo = p.get();
+    if (sInfo.endsWith(":")) sInfo = sInfo.substring(0, sInfo.length()-1).trim();
+    data.strSupp = sInfo;
+    
+    // Some of the city names need to be adjusted
+    data.strCity = convertCodes(data.strCity, CITY_CODES);
+    return true;
   }
 }
