@@ -50,4 +50,10 @@ public class NYNassauCountyParserTest {
     }
   }
   
+  public static class TestMassepequa extends NYNassauCountyMassepequaParserTest {
+    public TestMassepequa() {
+      setParser(new NYNassauCountyParser());
+    }
+  }
+  
 }

@@ -192,8 +192,94 @@ public class NYNassauCountyRedAlertParserTest extends BaseParserTest {
  
   }
   
+  @Test
+  public void TestUnknown1() {
+
+    doTest("T1",
+        "Automatic Alarm - Residential, Water Flow: Zone: 43, Response:CO4, CO3\nat 51 GREAT NECK RD, GREAT NECK   c/s: SO. MIDDLE NECK RD.   O: ATRIA (Use For Fire",
+        "CALL:Automatic Alarm - Residential, Water Flow",
+        "MAP:43",
+        "UNIT:CO4, CO3",
+        "ADDR:51 GREAT NECK RD",
+        "CITY:GREAT NECK",
+        "X:SO. MIDDLE NECK RD.",
+        "PLACE:ATRIA (Use For Fire");
+
+    doTest("T2",
+        "MVA w/ Aided: Zone: 54, Response:CO5, CO4, CO6\nat LAKEVILLE RD / NORTHERN STATE PKWY, LAKE SUCCESS . . 10:28:36",
+        "CALL:MVA w/ Aided",
+        "MAP:54",
+        "UNIT:CO5, CO4, CO6",
+        "ADDR:LAKEVILLE RD & NORTHERN STATE PKWY",
+        "CITY:LAKE SUCCESS");
+
+    doTest("T3",
+        "Automatic Alarm - Residential: Zone: 21, Response:CO2, CO1\nat 32 BUCKMINSTER LA, STRATHMORE VILLAGE  c/s: SUSSEX DR   O: URALLEY . . 21:03:10",
+        "CALL:Automatic Alarm - Residential",
+        "MAP:21",
+        "UNIT:CO2, CO1",
+        "ADDR:32 BUCKMINSTER LA",
+        "CITY:STRATHMORE",
+        "X:SUSSEX DR",
+        "PLACE:URALLEY");
+
+    doTest("T4",
+        "Automatic Alarm - Commercial: Zone: 54, Response:CO5, CO4\nat 1 DELAWARE DR, LAKE SUCCESS QUARD  c/s: MARCUS AV   O: PARKER JEWISH CENTER-PRO HEALTH . . 1",
+        "CALL:Automatic Alarm - Commercial",
+        "MAP:54",
+        "UNIT:CO5, CO4",
+        "ADDR:1 DELAWARE DR",
+        "CITY:LAKE SUCCESS",
+        "X:MARCUS AV",
+        "PLACE:PARKER JEWISH CENTER-PRO HEALTH");
+
+    doTest("T5",
+        "MVA w/ Aided: Zone: 43, Response:CO4, CO3, CO6\nat 363 GREAT NECK RD, GREAT NECK  c/s: WATER MILL LA   O: REMA AUTO COLLISION . . 12:56:01",
+        "CALL:MVA w/ Aided",
+        "MAP:43",
+        "UNIT:CO4, CO3, CO6",
+        "ADDR:363 GREAT NECK RD",
+        "CITY:GREAT NECK",
+        "X:WATER MILL LA",
+        "PLACE:REMA AUTO COLLISION");
+
+    doTest("T6",
+        "[Brush] Trees: Zone: 45, Response:CO4, CO5\nWIRES DOWN at WESTMINSTER RD / BATES RD, LAKE SUCCESS . . 15:59:47",
+        "CALL:Brush Trees",
+        "MAP:45",
+        "UNIT:CO4, CO5 WIRES DOWN",
+        "ADDR:WESTMINSTER RD & BATES RD",
+        "CITY:LAKE SUCCESS");
+
+    doTest("T7",
+        "MVA w/ Aided: Zone: 43, Response:CO4, CO3\nat NORTHERN BLVD / GREAT NECK RD, GREAT NECK . . 17:45:30",
+        "CALL:MVA w/ Aided",
+        "MAP:43",
+        "UNIT:CO4, CO3",
+        "ADDR:NORTHERN BLVD & GREAT NECK RD",
+        "CITY:GREAT NECK");
+
+    doTest("T8",
+        "[Brush] Trees: Zone: 54, Response:CO5\nat NEW HYDE PARK RD / NORTH SERVICE RD, NEW HYDE PARK . . 18:32:59",
+        "CALL:Brush Trees",
+        "MAP:54",
+        "UNIT:CO5",
+        "ADDR:NEW HYDE PARK RD & NORTH SERVICE RD",
+        "CITY:NEW HYDE PARK");
+
+    doTest("T9",
+        "Carbon Monoxide w/ Aided: Zone: 52, Response:CO5, CO6\nat 45 CHESTNUT HILL, NORTH HILLS  c/s: ACORN PONDS DR . . 00:59:33",
+        "CALL:Carbon Monoxide w/ Aided",
+        "MAP:52",
+        "UNIT:CO5, CO6",
+        "ADDR:45 CHESTNUT HILL",
+        "CITY:NORTH HILLS",
+        "X:ACORN PONDS DR");
+
+  }
+  
   public static void main(String[] args) {
-    new NYNassauCountyRedAlertParserTest().generateTests("T3", "CALL INFO ADDR APT CITY X PLACE");
+    new NYNassauCountyRedAlertParserTest().generateTests("T1", "CALL MAP UNIT INFO ADDR APT CITY X PLACE");
   }
 
 }
