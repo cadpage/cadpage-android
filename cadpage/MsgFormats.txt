@@ -506,6 +506,11 @@ Nassau County, NY (NYNassauCountyFiretrackerParser)
 (FirePage) FSMFD 4/27/2011 TOA:21:12 AMBU [AMBU] 820 FRANKLIN PL GARDEN CITY ROAD\nDIZZY FEMALE VOMITING [FireTracker]
 (FirePage) FSMFD 4/28/2011 TOA:14:59 AMBU [AMBU] 1150 HEMPSTEAD TPK RENKEN BLVD\nIN THE SICK BAY SICK FEMALE [FireTracker]
 *******************************************************************************
+Nassau County, NY (NYNassauCountyMassepequaParser)
+Rescue: 100 VETERANS BLVD, Town: MASS, Cross: HICKSVILLE RD, Map: C-5, Block#: 160-NORTH, Time: 10:07:10
+Washdown/spill: 21 LARCH LN, Town: MPK, Cross: WHITEWOOD DR, Map: E-8, Block#: 878-WEST, Time: 09:30:27
+Vehicle Accident: 21 LARCH LN, Town: MPK, Cross: WHITEWOOD DR, Map: E-8, Block#: 878-WEST, Time: 09:28:13
+*******************************************************************************
 *******************************************************************************
 * Individual parser classes
 *******************************************************************************
@@ -2099,6 +2104,16 @@ FRM:47dispatch@gmail.com\nMSG:TSOULES SWEENEY AND MARTIN--610-423-4200*ALARM - F
 Contact: Jonathan Kern <jtk0702@gmail.com>
 Sender: libertyfc@fdcms.com
 12:15\nHOUSE FIRE *\n691 SANDRA LA ,27  btwn VERONICA LA & AU\n\nHOUSE FULL OF SMOKE--POSS KITCHEN FIRE\nDETAILS TO FOLLOW\nLOC: 737 SANDRA
+
+Contact: Thomas Guaschino <guaschino1@gmail.com>
+Sender: adi62@ridgefirecompany.com
+Body: 1 of 2\n
+FRM:adi62@ridgefirecompany.com\n
+SUBJ:645 RIDGE RD ,18\2sbtwn S\n
+MSG:Dispatch ** 02:08 ** ACCIDENT - UNKNOWN INJURIES * ** 645 RIDGE RD ,18
+\n
+(Con't) 2 of 2\n
+btwn SLONAKER RD & FUL ** IFO ** VOWLBY, COREY/H ** 6201 ** 07/10/11 ** ACCUNK ** RDGF11000542 ** ECVNTY ** \n(End)
 **********************************************************
 Unknown
 Contact: Chris <chrisdi9@aol.com>

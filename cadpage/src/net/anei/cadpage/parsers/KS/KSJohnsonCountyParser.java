@@ -20,21 +20,21 @@ Contact: Mike Shaw <mshaw1957@gmail.com>
 Sender: calls+bncCAAQ1K3H7wQaBJUY9Sk@jocofd1.org
 (info:) Add: Gardner West Rd & Lake Roa Apt:            Loc:                 Nature: Investigate Power Lines Down   Grid: 290/1 Incident# 11-1
 
+Contact: Brad Ralston <bralston911@gmail.com>
+Sender:ECC2@jocogov.org
+Subject:info:\nAdd: E Lincoln Ln & N Evergreen Apt: d          Loc: Lincoln Townhom Nature: Non Breather - C1C             Grid: 339/1 Incident
 
 */
 public class KSJohnsonCountyParser extends FieldProgramParser {
-  
-  private static final String DEF_CITY = "JOHNSON COUNTY";
-  private static final String DEF_STATE = "KS";
 
   public KSJohnsonCountyParser() {
-    super(DEF_CITY, DEF_STATE,
-           "Add:ADDR! Apt:APT Loc:SKIP Nature:CALL! Grid:MAP! Incident:ID Cross:X");
+    super("JOHNSON COUNTY", "KS",
+           "Add:ADDR! Apt:APT Loc:PLACE Nature:CALL! Grid:MAP! Incident:ID Cross:X");
   }
   
   @Override
   public String getFilter() {
-    return "93001,ecc1@jocogov.org";
+    return "93001,ecc1@jocogov.org,ecc2@jocogov.org";
   }
   
   @Override
