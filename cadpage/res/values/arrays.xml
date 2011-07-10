@@ -238,6 +238,7 @@
     <item>GeneralDash</item>
     <item>ALChiltonCounty</item>
     <item>ALDothan</item>
+    <item>ALHenryCounty</item>
     <item>ALLauderdaleCounty</item>
     <item>ALMadisonCounty</item>
     <item>CAElDoradoCounty</item>
@@ -472,6 +473,7 @@
     <item>Generic (dash field separator)</item>
     <item>Chilton County, AL</item>
     <item>Dothan, AL</item>
+    <item>Henry County, AL</item>
     <item>Lauderdale County, AL</item>
     <item>Madison County, AL</item>
     <item>El Dorado County, CA</item>

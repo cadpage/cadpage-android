@@ -70,6 +70,11 @@ public abstract class SmartAddressParser extends SmsMsgParser {
    */
   public static final int FLAG_PAD_FIELD = 0x0040;
   
+  /**
+   * Flag indicating that @ and AT tokens should be ignored
+   */
+  public static final int FLAG_IGNORE_AT = 0x0080;
+  
   private Properties cityCodes = null;
   
   // Main dictionary maps words to a bitmap indicating what is important about that word
@@ -178,7 +183,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     setupDictionary(ID_AMBIG_ROAD_SFX, 
         "PLACE", "TRAIL", "PATH", "PIKE", "COURT", "MALL", "TURNPIKE", "PASS", "RUN", "LANE");
         
-    setupDictionary(ID_ROUTE_PFX_EXT, "RT", "RTE", "ROUTE", "HW", "HWY", "HIGHWAY", "ROAD");
+    setupDictionary(ID_ROUTE_PFX_EXT, "RT", "RTE", "ROUTE", "HW", "HWY", "HIGHWAY", "ROAD", "RD");
     setupDictionary(ID_ROUTE_PFX_PFX, "STATE", "ST", "SR", "SRT", "US", "FS", "INTERSTATE", "I", "STHWY", "USHWY", "CO", "CR", "COUNTY");
     setupDictionary(ID_ROUTE_PFX_PFX, new String[]{defState});
     setupDictionary(ID_DIRECTION, "N", "NE", "E", "SE", "S", "SW", "W", "NW", "NB", "EB", "SB", "WB", "EXT");
@@ -1188,6 +1193,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     result.tokens = tokens = address.split("\\s+");
     tokenType = new int[tokens.length];
     boolean flexAt = isFlagSet(FLAG_AT_PLACE | FLAG_AT_BOTH);
+    boolean ignoreAt = isFlagSet(FLAG_IGNORE_AT);
     
     result.initAddress = result.startAddress = (sType == StartType.START_ADDR? 0 : -1);
     boolean setStart = (result.startAddress < 0 || flexAt);
@@ -1198,7 +1204,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
         pastAddr = true;
         setStart = false;
       }
-      if (setStart && !flexAt) {
+      if (setStart && !flexAt && !ignoreAt) {
         if (isType(ndx, ID_AT_MARKER)) {
           result.initAddress = ndx;
           result.startAddress = ndx + 1;
@@ -1254,9 +1260,11 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     // it hasn't been designated as anything else
     // it is one or two characters long
     // all of the characters are letters
+    // it is not a common 2 letter word
     if (mask == 0 && Character.isLetter(token.charAt(0))) {
       if (token.length() == 1 ||
-         token.length() == 2 && Character.isLetter(token.charAt(1))) {
+         token.length() == 2 && Character.isLetter(token.charAt(1)) &&
+         !token.equals("IN") && !token.equals("OF")) {
         mask |= ID_ALPHA_ROUTE;
       }
     }
