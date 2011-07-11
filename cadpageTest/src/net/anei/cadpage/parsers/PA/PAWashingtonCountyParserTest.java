@@ -12,7 +12,7 @@ public class PAWashingtonCountyParserTest extends BaseParserTest {
   }
   
   @Test
-  public void testParser() {
+  public void testParser1() {
 
     doTest("T1",
         "Location: 116 GRANT ST MCDO Xstreet: NORTH ST STATION ST TYPE: STRUCTURE FIRE TIME: 23:42:41 Comments: IN THE BACK POSS 112 OR 114",
@@ -66,6 +66,35 @@ public class PAWashingtonCountyParserTest extends BaseParserTest {
         "ADDR:SR 980 & HIGHLAND DR",
         "CALL:VEHICLE ACCIDENT WITH INJURIES");
    
+  }
+  
+  @Test
+  public void testParser2() {
+
+    doTest("T1",
+        "(911) Location: 200 TANDEM VILLAGE RD NSTR: @PCH 48 CONSULATE BLDG 2 Xstreet: LINDEN CREEK RD DEAD END TYPE: FIRE ALAR",
+        "ADDR:200 TANDEM VILLAGE RD",
+        "CITY:NORTH STRAWBANE TWP",
+        "PLACE:PCH 48 CONSULATE BLDG 2",
+        "X:LINDEN CREEK RD DEAD END",
+        "CALL:FIRE ALAR");
+
+    doTest("T2",
+        "(911) Location: 200 TANDEM VILLAGE RD NSTR: @PCH 48 CONSULATE BLDG 2 Xstreet: LINDEN CREEK RD DEAD END TYPE: FIRE ALAR",
+        "ADDR:200 TANDEM VILLAGE RD",
+        "CITY:NORTH STRAWBANE TWP",
+        "PLACE:PCH 48 CONSULATE BLDG 2",
+        "X:LINDEN CREEK RD DEAD END",
+        "CALL:FIRE ALAR");
+
+    doTest("T3",
+        "(911) Location: 100 MEDICAL BLVD NSTR: @CANONSBURG HOSPITAL Xstreet: BOONE AVE HILL CHURCH HOUSTON RD TYPE: FIRE ALARM",
+        "ADDR:100 MEDICAL BLVD",
+        "CITY:NORTH STRAWBANE TWP",
+        "PLACE:CANONSBURG HOSPITAL",
+        "X:BOONE AVE & HILL CHURCH HOUSTON RD",
+        "CALL:FIRE ALARM");
+  
   }
   
   public static void main(String[] args) {
