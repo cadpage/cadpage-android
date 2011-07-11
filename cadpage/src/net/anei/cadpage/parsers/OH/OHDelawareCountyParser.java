@@ -15,10 +15,10 @@ Sender: 911@co.delaware.oh.us
  */
 
 
-public class OHDelewareCountyParser extends DispatchA1Parser {
+public class OHDelawareCountyParser extends DispatchA1Parser {
   
-  public OHDelewareCountyParser() {
-    super("DELEWARE COUNTY", "OH");
+  public OHDelawareCountyParser() {
+    super("DELAWARE COUNTY", "OH");
   }
   
   @Override

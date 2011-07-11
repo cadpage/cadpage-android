@@ -185,12 +185,16 @@
     <item>NCStanleyCounty</item>
     <item>NCChattamCounty</item>
     <item>MDCentreville</item>
+    <item>PADelewareCounty</item>
+    <item>OHDelewareCounty</item>
   </string-array>
   <string-array name="new_location_values">
     <item>MDAnneArundelCounty</item>
     <item>NCStanlyCounty</item>
     <item>NCChathamCounty</item>
     <item>MDQueenAnnesCounty</item>
+    <item>PADelawareCounty</item>
+    <item>OHDelawareCounty</item>
   </string-array>
   
   <!-- Array of state names -->
@@ -200,7 +204,7 @@
     <item>CA California</item>
     <item>CO Colorado</item>
     <item>CT Connecticut</item>
-    <item>DE Deleware</item>
+    <item>DE Delaware</item>
     <item>FL Florida</item>
     <item>GA Georgia</item>
     <item>ID Idaho</item>
@@ -389,7 +393,7 @@
     <item>NCWilkesCounty</item>
     <item>NCWilsonCounty</item>
     <item>OHClermontCounty</item>
-    <item>OHDelewareCounty</item>
+    <item>OHDelawareCounty</item>
     <item>OHHudson</item>
     <item>OHLickingCounty</item>
     <item>OHMorrowCounty</item>
@@ -410,7 +414,7 @@
     <item>PABucksCounty</item>
     <item>PACambriaCounty</item>
     <item>PAChesterCounty</item>
-    <item>PADelewareCounty</item>
+    <item>PADelawareCounty</item>
     <item>PAElkCounty</item>
     <item>PAErieCounty</item>
     <item>PAFayetteCounty</item>
@@ -624,7 +628,7 @@
     <item>Wilkes County, NC</item>
     <item>Wilson County, NC</item>
     <item>Clermont County, OH</item>
-    <item>Deleware County, OH</item>
+    <item>Delaware County, OH</item>
     <item>Hudson, OH</item>
     <item>Licking County, OH</item>
     <item>Morrow County, OH</item>
@@ -645,7 +649,7 @@
     <item>Bucks County, PA</item>
     <item>Cambria County, PA</item>
     <item>Chester County, PA</item>
-    <item>Deleware County, PA</item>
+    <item>Delaware County, PA</item>
     <item>Elk County, PA</item>
     <item>Erie County, PA</item>
     <item>Fayette County, PA</item>

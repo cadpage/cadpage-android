@@ -7,7 +7,7 @@ import net.anei.cadpage.SmsMsgInfo.Data;
 import net.anei.cadpage.parsers.FieldProgramParser;
 
 /*
-Deleware County, PA
+Delaware County, PA
 Contact: Philip Hoffman <h03158@hotmail.com>
 Sender: station55@comcast.net
 
@@ -24,12 +24,12 @@ Sender: station55@comcast.net
 
 */
 
-public class PADelewareCountyParser extends FieldProgramParser {
+public class PADelawareCountyAParser extends FieldProgramParser {
   
   private static final Pattern MARKER = Pattern.compile("^\\d\\d:\\d\\d\\*");
   
-  public PADelewareCountyParser() {
-    super("DELEWARE COUNTY", "PA",
+  public PADelawareCountyAParser() {
+    super("DELAWARE COUNTY", "PA",
            "CALL ADDR X INFO+");
   }
   
