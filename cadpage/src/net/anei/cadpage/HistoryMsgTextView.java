@@ -6,11 +6,12 @@ import android.text.format.DateFormat;
 import android.util.AttributeSet;
 import android.view.View;
 import android.widget.TextView;
+import net.anei.cadpage.UpdateService;
 
 public class HistoryMsgTextView extends TextView {
-  
+  public static final String CADPAGE_REFRESH = "update";
   private SmsMmsMessage msg;
-  
+  private static int NewMessageCnt;
   public HistoryMsgTextView(Context context) {
     super(context);
     setup();
@@ -43,7 +44,6 @@ public class HistoryMsgTextView extends TextView {
   
   public void setMessage(SmsMmsMessage message) {
     this.msg = message;
-
     Context context = getContext();
 
     long time = msg.getTimestamp();
@@ -54,11 +54,19 @@ public class HistoryMsgTextView extends TextView {
     float ftextSize = Integer.parseInt(ManagePreferences.textSize());
     this.setTextSize(ftextSize);
     setText(text);
-    if (! msg.isRead()) setTypeface(Typeface.DEFAULT_BOLD);
+    if (! msg.isRead()){
+      setTypeface(Typeface.DEFAULT_BOLD);
+      NewMessageCnt = NewMessageCnt +1;
+    }
     else setTypeface(Typeface.DEFAULT);
   }
 
   public SmsMmsMessage getMessage() {
     return msg;
+  }
+  public static CharSequence NewMessageCount(){
+    CharSequence cs = String.valueOf(NewMessageCnt);
+    return cs;
+
   }
 }

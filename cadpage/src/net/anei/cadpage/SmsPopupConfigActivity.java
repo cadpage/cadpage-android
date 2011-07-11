@@ -10,6 +10,7 @@ import net.anei.cadpage.preferences.LocationListPreference;
 import net.anei.cadpage.preferences.LocationManager;
 import android.app.AlertDialog;
 import android.app.Dialog;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.res.Resources;
 import android.os.Bundle;
@@ -350,9 +351,16 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
     if (! location.equals(oldLocation) || ! textSize.equals(oldTextSize)) {
       SmsMessageQueue.getInstance().notifyDataChange();
     }
+
+    updateWidget();
+
   }
   
-
+  public void updateWidget() {
+    Intent i = new Intent(this, CadPageWidget.class);
+    i.setAction(CadPageWidget.UPDATE_ACTION);
+    sendBroadcast(i);
+    }
   /**
    * Set up location menu tree
    * @param resId resource ID of the preference screen to be constructed
