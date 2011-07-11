@@ -27,7 +27,8 @@ public class NYSuffolkCountyDParser extends FieldProgramParser {
   
   @Override
   public boolean parseMsg(String body, Data data) {
-    body = body.replace("/", "");
+    body = body.replace("c/s", "cs");
+    body = body.replace("d/t", "dt");
     return true;
   }
 }
