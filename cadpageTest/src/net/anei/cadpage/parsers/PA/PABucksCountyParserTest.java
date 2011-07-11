@@ -211,9 +211,21 @@ public class PABucksCountyParserTest extends BaseParserTest {
         "BOX:19022",
         "MAP:2922J10",
         "ID:FD11");
+
+    doTest("T18",
+        "911: STA19  type:RVBLD   adr:LOBSTER CLAW ,57 at 800 N EASTON RD ,57 btwn BKHAM TWP LINE & CROSS KEYS DR  aai:  box:20001  map:2922J6  tm:16:03:22  FD",
+        "SRC:STA19",
+        "CALL:RVBLD - VEHICLE INTO A BUILDING",
+        "PLACE:LOBSTER CLAW",
+        "ADDR:800 N EASTON RD",
+        "CITY:PLUMSTEAD TWP",
+        "X:BKHAM TWP LINE & CROSS KEYS DR",
+        "BOX:20001",
+        "MAP:2922J6",
+        "ID:FD");
   }
   
   public static void main(String[] args) {
-    new PABucksCountyParserTest().generateTests("T17");
+    new PABucksCountyParserTest().generateTests("T19");
   }
 }

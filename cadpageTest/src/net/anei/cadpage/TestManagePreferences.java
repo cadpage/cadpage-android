@@ -57,7 +57,7 @@ public class TestManagePreferences extends ManagePreferences {
   }
 
   @Override
-  public String getString(int resPrefId, String defaultVal) {
+  protected String getString(int resPrefId, String defaultVal) {
     return (String)getPreference(resPrefId, defaultVal);
   }
 
