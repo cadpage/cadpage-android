@@ -18,6 +18,11 @@ Xstreet: REISSING RD SR 50 TYPE: GRASS OR FIELD FIRE TIME: 15:07:34 Comments: ON
 Xstreet: REISSING RD TAYLOR DR TYPE: VEHICLE ACCIDENT WITH UNKNOWN INJURIES TIME: 05:36:10 Comments:
 Xstreet: SR 980 HIGHLAND DR TYPE: VEHICLE ACCIDENT WITH INJURIES TIME: 14:17:43 Comments: JUST PASSED HIGHLAND HEADED TOWARD CECIL
 
+Contact: Brad Simpson <bradsimpson301@gmail.com>
+Sender: 7247471210
+(911) Location: 200 TANDEM VILLAGE RD NSTR: @PCH 48 CONSULATE BLDG 2 Xstreet: LINDEN CREEK RD DEAD END TYPE: FIRE ALAR
+(911) Location: 100 MEDICAL BLVD NSTR: @CANONSBURG HOSPITAL Xstreet: BOONE AVE HILL CHURCH HOUSTON RD TYPE: FIRE ALARM
+
 */
 
 public class PAWashingtonCountyParser extends FieldProgramParser {
@@ -25,17 +30,18 @@ public class PAWashingtonCountyParser extends FieldProgramParser {
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "CECI", "CECIL TWP",
       "MCDO", "MCDONALD",
-      "MTPL", "MT PLEASANT TWP"
+      "MTPL", "MT PLEASANT TWP",
+      "NSTR", "NORTH STRAWBANE TWP"
   });
   
   public PAWashingtonCountyParser() {
     super("WASHINGTON COUNTY", "PA",
-           "Location:ADDR? Xstreet:X? TYPE:CALL! TIME:SKIP! COMMENTS:INFO");
+           "Location:ADDR? Xstreet:X? TYPE:CALL! TIME:SKIP COMMENTS:INFO");
   }
   
   @Override
   public String getFilter() {
-    return "company10paging";
+    return "company10paging,7247471210";
   }
 
   @Override
