@@ -1,15 +1,15 @@
 package net.anei.cadpage.parsers.OH;
 
 import net.anei.cadpage.parsers.BaseParserTest;
-import net.anei.cadpage.parsers.OH.OHDelewareCountyParser;
+import net.anei.cadpage.parsers.OH.OHDelawareCountyParser;
 
 import org.junit.Test;
 
 
-public class OHDelewareCountyParserTest extends BaseParserTest {
+public class OHDelawareCountyParserTest extends BaseParserTest {
   
-  public OHDelewareCountyParserTest() {
-    setParser(new OHDelewareCountyParser(), "DELEWARE COUNTY", "OH");
+  public OHDelawareCountyParserTest() {
+    setParser(new OHDelawareCountyParser(), "DELAWARE COUNTY", "OH");
   }
   
   @Test

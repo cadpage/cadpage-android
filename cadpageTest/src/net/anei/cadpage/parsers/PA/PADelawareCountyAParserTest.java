@@ -5,10 +5,10 @@ import net.anei.cadpage.parsers.BaseParserTest;
 import org.junit.Test;
 
 
-public class PADelewareCountyParserTest extends BaseParserTest {
+public class PADelawareCountyAParserTest extends BaseParserTest {
   
-  public PADelewareCountyParserTest() {
-    setParser(new PADelewareCountyParser(), "DELEWARE COUNTY", "PA");
+  public PADelawareCountyAParserTest() {
+    setParser(new PADelawareCountyAParser(), "DELAWARE COUNTY", "PA");
   }
   
   @Test
@@ -86,6 +86,6 @@ public class PADelewareCountyParserTest extends BaseParserTest {
   }
   
   public static void main(String[] args) {
-    new PADelewareCountyParserTest().generateTests("T1");
+    new PADelawareCountyAParserTest().generateTests("T1");
   }
 }
