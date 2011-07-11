@@ -36,7 +36,7 @@ public class NYRocklandCountyBParser extends SmsMsgParser {
 
   @Override
   public String getFilter() {
-    return "44_Control@verizon.net";
+    return "44_Control@verizon.net,9300";
   }
   
   @Override
