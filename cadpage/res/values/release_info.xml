@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">20110630</string>
-  <string name="release_version">v1.4.14</string>
+  <string name="release_date">20110710</string>
+  <string name="release_version">v1.4.15</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
@@ -9,32 +9,30 @@
     See http://www.cadpage.org/financial-support for more details\n
     \n
   What"'"s new in this release\n
+  The new Config Widget is Here ! Long Press on an empty part of your home screen to add the new 1x4 widget.\n
+  Instructions on use are on the webpage under UserManual and on the Facebook Page.\n
   MMS Support is here!!!\n
   This is highly experimental.  Your mileage may vary.  See http://www.cadpage.org/faq/mms-message-support for details\n
   \n
-	New Locations: \n
-Transylvania County, NC\n
-Ventura County, CA\n
-Richmond, MI\n
-Champaign-Urbana, IL\n
-Collin County, TX\n
-Salem County, NJ\n
-Camden County, GA\n
-Brown County, WI\n
-Mendocino County, CA\n
+16 New Locations:\n
+Bulloch County, GA \n  
+Nassau County, NY (alternate)\n  
+Henry County, AL\n   
+Delaware County, PA (alternate)\n   
+Wight County, VA\n   
+Halifax County, VA\n   
+Davie County, NC\n   
+Port Jefferson, NY (In Suffolk County)\n   
+Snyder County, PA\n  
+Sussex County, NJ\n  
+Jefferson City, MO\n   
+Union County, TN\n   
+Orange County, NC\n  
+Shelby County, OH\n    
+Durham County, NC\n  
+Watauga County, NC\n
 \n
-Fixes:\n
-Stanly County, NC\n
-Crash with MMS messages\n
-Lincoln County, NC\n
-Tollan County, CT\n
-Fix for / in messages\n
-Naussau County, NY\n
-Steuben County, NY\n
-Jeffercon County, TN\n
-Kenosha County, WI\n
-Frederick County, MD\n
-New Castle County, DE\n
+Multiple Fixes for Existing Locations and Issues\n
   </string>  
 </resources>
   
