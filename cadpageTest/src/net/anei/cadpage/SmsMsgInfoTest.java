@@ -14,7 +14,6 @@ public class SmsMsgInfoTest {
   
   @Test
   public void testProblem() {
-    doMapTest("&", "RED RD & BLACK ST,KENBURG,XX", "RED RD&BLACK ST");
   }
 
   @Test
@@ -69,6 +68,8 @@ public class SmsMsgInfoTest {
     doMapTest("STH", "ST 29 & 32,KENBURG,XX", "STH 29 & 32");
     
     doMapTest("&", "RED RD & BLACK ST,KENBURG,XX", "RED RD&BLACK ST");
+    
+    doMapTest("EO", "BLACK ST & RED RD,KENBURG,XX", "BLACK ST EO RED RD");
   }
   
   private void doMapTest(String title, String result, String address) {
