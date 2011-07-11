@@ -27,6 +27,7 @@ public class SmsMessageQueue implements Serializable {
   private int nextMsgId = 1;
   private Context context;
   private Adapter adapter = null;
+  private int newCallCount = 0;
   
   @SuppressWarnings("unchecked")
   private SmsMessageQueue(Context context) {
@@ -62,7 +63,8 @@ public class SmsMessageQueue implements Serializable {
       }
     }
     
-    msgQueue = this;
+    // Update new call count
+    calcNewCallCount();
   }
 
   /**
@@ -149,6 +151,7 @@ public class SmsMessageQueue implements Serializable {
         }
       }
     }
+    calcNewCallCount();
     notifyDataChange();
   }
   
@@ -249,6 +252,25 @@ public class SmsMessageQueue implements Serializable {
       }
       return view;
     }
+  }
+  
+  /**
+   * Recalculate unopened call count
+   */
+  public void calcNewCallCount() {
+    int oldCount = newCallCount;
+    newCallCount = 0;
+    for (SmsMmsMessage msg : queue) {
+      if (!msg.isRead()) newCallCount++;
+    }
+    if (newCallCount != oldCount) CadPageWidget.update(context);
+  }
+  
+  /**
+   * @return unopened call count
+   */
+  public int getNewCallCount() {
+    return newCallCount;
   }
   
   private static SmsMessageQueue msgQueue = null;

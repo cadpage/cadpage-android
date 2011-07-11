@@ -8,25 +8,18 @@ import android.content.Context;
 import android.content.Intent;
 import android.view.View;
 import android.widget.RemoteViews;
-import net.anei.cadpage.HistoryMsgTextView;
 
 public class CadPageWidget extends AppWidgetProvider {
   
-
-  public static final String UPDATE_ACTION = "update";
-  public static String ACTION_CADPAGE_ENABLED = "CadPageEnabled";
-  public static String ACTION_NOTIFICATION = "CadPageNotification";
-  public static String ACTION_POPUP = "CadPageAlerts";
-  public static String ACTION_CALLS = "CadPageCalls";
+  private static final String ACTION_UPDATE = "net.anei.cadpage.UpdateWidget";
+  private static final String ACTION_CADPAGE_ENABLED = "net.anei.cadpage.CadPageEnabled";
+  private static final String ACTION_NOTIFICATION = "net.anei.cadpage.CadPageNotification";
+  private static final String ACTION_POPUP = "net.anei.cadpage.CadPageAlerts";
 
   @Override
   public void onUpdate(Context context,AppWidgetManager appWidgetManager, int[] appWidgetIds){
     
-    final int N = appWidgetIds.length;
-    for (int i=0; i<N; i++) {
-      int appWidgetId = appWidgetIds[i];
-      updateEnabled(context,appWidgetManager,appWidgetIds);
-      
+    for (int appWidgetId : appWidgetIds) {
       
       //First Button (Enable/Disable Cadpage)
       Intent aEnabledIntent = new Intent(context, CadPageWidget.class);
@@ -44,9 +37,8 @@ public class CadPageWidget extends AppWidgetProvider {
       cEnabledIntent.setAction(ACTION_POPUP);
       PendingIntent popupPendingIntent = PendingIntent.getBroadcast(context, 0, cEnabledIntent, 0);
       
-    //Fourth Button (Show Unread Calls. Click to go into History)
+     //Fourth Button (Show Unread Calls. Click to go into History)
       Intent dEnabledIntent = new Intent(context, CallHistoryActivity.class);
-     // dEnabledIntent.setAction(ACTION_CALLS);
       PendingIntent callsPendingIntent = PendingIntent.getActivity(context, 0, dEnabledIntent, 0);
   
       
@@ -56,13 +48,12 @@ public class CadPageWidget extends AppWidgetProvider {
       views.setOnClickPendingIntent(R.id.widget_button_popup, popupPendingIntent);
       views.setOnClickPendingIntent(R.id.widget_text_newcalls, callsPendingIntent);
   
-      CharSequence MessageCnt = HistoryMsgTextView.NewMessageCount();
-      views.setTextViewText(R.id.widget_text_newcalls, MessageCnt);
+      int newCallCount = SmsMessageQueue.getInstance().getNewCallCount();
+      views.setTextViewText(R.id.widget_text_newcalls, Integer.toString(newCallCount));
       appWidgetManager.updateAppWidget(appWidgetId, views);
-      //updateEnabled(context);
-      //context.startService(intent);
-      appWidgetManager.updateAppWidget(appWidgetIds, views);
     }
+    
+    updateEnabled(context,appWidgetManager,appWidgetIds);
    
   }
   
@@ -98,44 +89,49 @@ public class CadPageWidget extends AppWidgetProvider {
         views.setViewVisibility(R.id.widget_button_popup,View.INVISIBLE );
         views.setViewVisibility(R.id.widget_text_newcalls, View.INVISIBLE);
       }
-      CharSequence MessageCnt = HistoryMsgTextView.NewMessageCount();
-      views.setTextViewText(R.id.widget_text_newcalls, MessageCnt);
+      int newCallCount = SmsMessageQueue.getInstance().getNewCallCount();
+      views.setTextViewText(R.id.widget_text_newcalls, Integer.toString(newCallCount));
       appWidgetManager.updateAppWidget(appWidgetId, views);
     }
   }
   
+  
   private void updateEnabled(Context context) {
-      ComponentName thisWidget = new ComponentName(context,CadPageWidget.class);
-      AppWidgetManager appWidgetManager = AppWidgetManager.getInstance(context);
-      int[] appWidgetIds = appWidgetManager.getAppWidgetIds(thisWidget);
-      updateEnabled(context,appWidgetManager,appWidgetIds);
-  }
+    ComponentName thisWidget = new ComponentName(context,CadPageWidget.class);
+    AppWidgetManager appWidgetManager = AppWidgetManager.getInstance(context);
+    int[] appWidgetIds = appWidgetManager.getAppWidgetIds(thisWidget);
+    updateEnabled(context,appWidgetManager,appWidgetIds);
+}
   
   
   @Override 
   public void onReceive(Context context, Intent intent){
     super.onReceive(context, intent);
-      if( intent.getAction().equals(ACTION_CADPAGE_ENABLED)){
-        boolean aEnabled = ManagePreferences.enabled();
-        ManagePreferences.setEnabled(!aEnabled);
-      }
-      else if (intent.getAction().equals(ACTION_NOTIFICATION)){
-        boolean bEnabled = ManagePreferences.notifyEnabled();
-        ManagePreferences.setNotifyEnabled(!bEnabled);
-      }
-      else if (intent.getAction().equals(ACTION_POPUP)){
-        boolean cEnabled = ManagePreferences.popupEnabled();
-        ManagePreferences.setPopupEnabled(!cEnabled);
-      }
+    if (ACTION_UPDATE.equals(intent.getAction())) {
       updateEnabled(context);
+    }
+    else if(ACTION_CADPAGE_ENABLED.equals(intent.getAction())){
+      boolean aEnabled = ManagePreferences.enabled();
+      ManagePreferences.setEnabled(!aEnabled);
+    }
+    else if (ACTION_NOTIFICATION.equals(intent.getAction())){
+      boolean bEnabled = ManagePreferences.notifyEnabled();
+      ManagePreferences.setNotifyEnabled(!bEnabled);
+    }
+    else if (ACTION_POPUP.equals(intent.getAction())){
+      boolean cEnabled = ManagePreferences.popupEnabled();
+      ManagePreferences.setPopupEnabled(!cEnabled);
+    }
   }
   
-  public void onDisabled(Context context) {
-    context.stopService(new Intent(context,CadPageWidget.class));
-    super.onDisabled(context);
-}
-  
- 
-
+  /**
+   * Force update of all widget displays
+   * @param context current context
+   */
+  public static void update(Context context) {
+    Intent intent = new Intent(ACTION_UPDATE);
+    intent.setClass(context, CadPageWidget.class);
+    context.sendBroadcast(intent);
+  }
 }
 

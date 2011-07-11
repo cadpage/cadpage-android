@@ -75,6 +75,7 @@ public class SmsMmsMessage implements Serializable {
     if (read == this.read) return;
     this.read = read;
     reportDataChange();
+    SmsMessageQueue.getInstance().calcNewCallCount();
   }
   
   public boolean isLocked() {

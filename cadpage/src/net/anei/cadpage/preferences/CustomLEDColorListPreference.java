@@ -17,7 +17,6 @@ import android.widget.SeekBar.OnSeekBarChangeListener;
 
 public class CustomLEDColorListPreference extends ListPreference implements OnSeekBarChangeListener {
   private Context context;
-  private ManagePreferences mPrefs = null;
   private String led_color;
   private String led_color_custom;
   private SeekBar redSeekBar;
@@ -52,22 +51,8 @@ public class CustomLEDColorListPreference extends ListPreference implements OnSe
   }
 
   private void getPrefs() {
-	  if (mPrefs == null) {
-		  mPrefs = new ManagePreferences(context);
-        }
-	  
-      led_color = mPrefs.getString(
-          R.string.pref_flashled_color_key,
-          R.string.pref_flashled_color_default);
-
-      led_color_custom = mPrefs.getString(
-          R.string.pref_flashled_color_custom_key,
-          R.string.pref_flashled_color_default);
-
-    if (mPrefs != null) {
-      mPrefs.close();
-      mPrefs = null;
-    }
+    led_color = ManagePreferences.flashLEDColor();
+    led_color_custom = ManagePreferences.flashLEDColorCustom();
   }
 
   private void showDialog() {
@@ -123,20 +108,7 @@ public class CustomLEDColorListPreference extends ListPreference implements OnSe
         int green = greenSeekBar.getProgress();
         int blue = blueSeekBar.getProgress();
         int color = Color.rgb(red, green, blue);
-
-        if (mPrefs == null) {
-          mPrefs = new ManagePreferences(context);
-        }
-
-
-          mPrefs.putString(
-              R.string.pref_flashled_color_custom_key,
-              "#" + Integer.toHexString(color));
-
-        if (mPrefs != null) {
-          mPrefs.close();
-          mPrefs = null;
-        }
+        ManagePreferences.setLedColorCustom(color);
 
         Toast.makeText(context, R.string.pref_flashled_color_custom_set, Toast.LENGTH_LONG).show();
       }

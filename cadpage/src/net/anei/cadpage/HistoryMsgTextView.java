@@ -10,7 +10,6 @@ import android.widget.TextView;
 public class HistoryMsgTextView extends TextView {
   public static final String CADPAGE_REFRESH = "update";
   private SmsMmsMessage msg;
-  private static int newMessageCnt;
   public HistoryMsgTextView(Context context) {
     super(context);
     setup();
@@ -55,17 +54,11 @@ public class HistoryMsgTextView extends TextView {
     setText(text);
     if (! msg.isRead()){
       setTypeface(Typeface.DEFAULT_BOLD);
-      newMessageCnt = newMessageCnt +1;
     }
     else setTypeface(Typeface.DEFAULT);
   }
 
   public SmsMmsMessage getMessage() {
     return msg;
-  }
-  public static CharSequence NewMessageCount(){
-    CharSequence cs = String.valueOf(newMessageCnt);
-    return cs;
-
   }
 }

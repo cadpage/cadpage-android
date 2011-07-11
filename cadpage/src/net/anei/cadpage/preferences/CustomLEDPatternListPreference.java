@@ -14,7 +14,6 @@ import android.widget.Toast;
 
 public class CustomLEDPatternListPreference extends ListPreference {
   private Context context;
-  private ManagePreferences mPrefs = null;
   private String flashLedPattern;
   private String flashLedPatternCustom;
   private int[] led_pattern;
@@ -43,16 +42,9 @@ public class CustomLEDPatternListPreference extends ListPreference {
   }
 
   private void getPrefs() {
-	  if (mPrefs == null) {
-		  mPrefs = new ManagePreferences(context);
-        }
 
-      flashLedPattern = mPrefs.getString(
-          R.string.pref_flashled_pattern_key,
-          R.string.pref_flashled_pattern_default);
-      flashLedPatternCustom = mPrefs.getString(
-          R.string.pref_flashled_pattern_custom_key,
-          R.string.pref_flashled_pattern_default);
+    flashLedPattern = ManagePreferences.ledPattern();
+    flashLedPatternCustom = ManagePreferences.ledPatternCustom();
 
     led_pattern = null;
 
@@ -63,15 +55,7 @@ public class CustomLEDPatternListPreference extends ListPreference {
     }
 
     if (led_pattern == null) {
-      led_pattern = ManageNotification.parseLEDPattern(
-          mPrefs.getString(
-              R.string.pref_flashled_pattern_default,
-              R.string.pref_flashled_pattern_default));
-    }
-
-    if (mPrefs != null) {
-      mPrefs.close();
-      mPrefs = null;
+      led_pattern = ManageNotification.parseLEDPattern(context.getString(R.string.pref_flashled_pattern_default));
     }
   }
 
@@ -95,48 +79,16 @@ public class CustomLEDPatternListPreference extends ListPreference {
       public void onClick(DialogInterface dialog, int whichButton) {
         String stringPattern = onEditText.getText() + "," + offEditText.getText();
 
-  	  if (mPrefs == null) {
-		  mPrefs = new ManagePreferences(context);
-        }
-
         if (ManageNotification.parseLEDPattern(stringPattern) != null) {
-
-          
-            mPrefs.putString(
-                R.string.pref_flashled_pattern_custom_key,
-                stringPattern);
-
+          ManagePreferences.setLedPatternCustom(stringPattern);
   
           Toast.makeText(context, context.getString(R.string.pref_flashled_pattern_ok),
               Toast.LENGTH_LONG).show();
 
         } else {
 
-          /*
-           * No need to store anything if the led pattern is invalid (just leave it
-           * as the last good value).
-           */
-          /*
-          if (contactId == null) { // Default notifications
-            mPrefs.putString(
-                R.string.pref_flashled_pattern_custom_key,
-                context.getString(R.string.pref_flashled_pattern_default),
-                SmsPopupDbAdapter.KEY_LED_PATTERN_CUSTOM);
-          } else { // Contact specific notifications
-            mPrefs.putString(
-                R.string.c_pref_flashled_pattern_custom_key,
-                context.getString(R.string.pref_flashled_pattern_default),
-                SmsPopupDbAdapter.KEY_LED_PATTERN_CUSTOM);
-          }
-           */
-
           Toast.makeText(context, context.getString(R.string.pref_flashled_pattern_bad),
               Toast.LENGTH_LONG).show();
-        }
-
-        if (mPrefs != null) {
-          mPrefs.close();
-          mPrefs = null;
         }
       }
     }).show();

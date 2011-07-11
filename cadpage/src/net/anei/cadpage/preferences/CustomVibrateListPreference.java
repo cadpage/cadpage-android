@@ -14,8 +14,6 @@ import android.widget.Toast;
 
 public class CustomVibrateListPreference extends ListPreference {
   private Context context;
-  private ManagePreferences mPrefs = null;
-  private String vibrate_pattern;
   private String vibrate_pattern_custom;
 
   public CustomVibrateListPreference(Context c) {
@@ -38,27 +36,12 @@ public class CustomVibrateListPreference extends ListPreference {
   }
 
   private void getPrefs() {
-	  if (mPrefs == null) {
-		  mPrefs = new ManagePreferences(context);
-        }
 
-    vibrate_pattern = mPrefs.getString(
-        R.string.pref_vibrate_pattern_key,
-        R.string.pref_vibrate_pattern_default);
-    vibrate_pattern_custom = mPrefs.getString(
-        R.string.pref_vibrate_pattern_custom_key,
-        R.string.pref_vibrate_pattern_default);
+    vibrate_pattern_custom = ManagePreferences.vibratePatternCustom();
 
 
     if (vibrate_pattern_custom == null) {
-      vibrate_pattern_custom = mPrefs.getString(
-          R.string.pref_vibrate_pattern_default,
-          R.string.pref_vibrate_pattern_default);
-    }
-
-    if (mPrefs != null) {
-      mPrefs.close();
-      mPrefs = null;
+      vibrate_pattern_custom = context.getString(R.string.pref_vibrate_pattern_default);
     }
   }
 
@@ -80,15 +63,8 @@ public class CustomVibrateListPreference extends ListPreference {
       public void onClick(DialogInterface dialog, int whichButton) {
         String new_pattern = et.getText().toString();
 
-  	  if (mPrefs == null) {
-		  mPrefs = new ManagePreferences(context);
-        }
-
         if (ManageNotification.parseVibratePattern(et.getText().toString()) != null) {
-
-          mPrefs.putString(
-              R.string.pref_vibrate_pattern_custom_key,
-              new_pattern);
+          ManagePreferences.setVibratePatternCustom(new_pattern);
 
           Toast.makeText(context, context.getString(R.string.pref_vibrate_pattern_ok),
               Toast.LENGTH_LONG).show();
@@ -115,11 +91,6 @@ public class CustomVibrateListPreference extends ListPreference {
 
           Toast.makeText(context, context.getString(R.string.pref_vibrate_pattern_bad),
               Toast.LENGTH_LONG).show();
-        }
-
-        if (mPrefs != null) {
-          mPrefs.close();
-          mPrefs = null;
         }
       }
     })

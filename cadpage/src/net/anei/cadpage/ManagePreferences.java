@@ -5,6 +5,7 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Date;
+import java.util.HashMap;
 import java.util.Map;
 
 import net.anei.cadpage.donation.DonationManager;
@@ -33,8 +34,7 @@ public class ManagePreferences {
   public static void setupPreferences(Context context) {
     
     // Initialize the preference object
-    prefs = new ManagePreferences();
-    prefs.setContext(context);
+    prefs = new ManagePreferences(context);
 
     // Before we do anything else, see what the old preference version number was
     int oldVersion = prefs.getInt(R.string.pref_version_key, 0);
@@ -254,6 +254,10 @@ public class ManagePreferences {
   public static String vibratePattern() {
     return prefs.getString(R.string.pref_vibrate_pattern_key);
   }
+
+  public static void setVibratePatternCustom(String pattern) {
+    prefs.putString(R.string.pref_vibrate_pattern_custom_key, pattern);
+  }
   
   public static String vibratePatternCustom() {
     if ( prefs.getString(R.string.pref_vibrate_pattern_custom_key) == null){
@@ -441,7 +445,30 @@ public class ManagePreferences {
   public static void setAuthOrganization(String newVal) {
     prefs.putString(R.string.pref_auth_organization, newVal);
   }
+  
+  public static String ledColor() {
+    return prefs.getString(R.string.pref_flashled_color_key, R.string.pref_flashled_color_default);
+  }
+  
+  public static String ledColorCustom() {
+    return prefs.getString(R.string.pref_flashled_color_custom_key, R.string.pref_flashled_color_default);
+  }
 
+  public static void setLedColorCustom(int color) {
+    prefs.putString(R.string.pref_flashled_color_custom_key, "#" + Integer.toHexString(color));
+  }
+  
+  public static String ledPattern() {
+    return prefs.getString(R.string.pref_flashled_pattern_key, R.string.pref_flashled_pattern_default);
+  }
+  
+  public static String ledPatternCustom() {
+    return prefs.getString(R.string.pref_flashled_pattern_custom_key, R.string.pref_flashled_pattern_default);
+  }
+
+  public static void setLedPatternCustom(String pattern) {
+    prefs.putString(R.string.pref_flashled_pattern_custom_key, pattern);
+  }
 
   /**
    * Append configuration information to constructed message
@@ -537,16 +564,55 @@ public class ManagePreferences {
   private Context context;
   private SharedPreferences mPrefs;
   
-  
+  private interface PreferenceChangeListener {
+    public void preferenceChanged(String key, Object newVal);
+  }
+  private Map<String, PreferenceChangeListener>listenerMap = 
+      new HashMap<String, PreferenceChangeListener>();
+
+  // Dummy default construct used to create a test preferences object for test purposes
   protected ManagePreferences() {}
+
   
-  /**
-   * private constructor
-   * @param _context context
-   */
-   void setContext(Context _context) {
-    context = _context;
+  private ManagePreferences(Context _context) {
+    this.context = _context;
     mPrefs = PreferenceManager.getDefaultSharedPreferences(context);
+    
+    registerListener(R.string.pref_enabled_key, new PreferenceChangeListener(){
+      @Override
+      public void preferenceChanged(String key, Object newVal) {
+        boolean enabled = (Boolean)newVal;
+        String enableStr = (enabled ? enableMsgType() : "");
+        SmsPopupUtils.enableSMSPopup(context, enableStr);
+        CadPageWidget.update(context);
+      }
+    });
+    
+    registerListener(R.string.pref_enable_msg_type_key, new PreferenceChangeListener(){
+      @Override
+      public void preferenceChanged(String key, Object newVal) {
+        String enableMsgType = (String)newVal;
+        if (enabled()) SmsPopupUtils.enableSMSPopup(context, enableMsgType);
+      }
+    });
+    
+    registerListener(R.string.pref_notif_enabled_key, new PreferenceChangeListener(){
+      @Override
+      public void preferenceChanged(String key, Object newVal) {
+        CadPageWidget.update(context);
+      }
+    });
+
+    registerListener(R.string.pref_popup_enabled_key, new PreferenceChangeListener(){
+      @Override
+      public void preferenceChanged(String key, Object newVal) {
+        CadPageWidget.update(context);
+      }
+    });
+  }
+  
+  private void registerListener(int resId, PreferenceChangeListener listener) {
+    listenerMap.put(context.getString(resId), listener);
   }
   
   protected boolean getBoolean(int resPrefId) {
@@ -557,6 +623,14 @@ public class ManagePreferences {
     String result = mPrefs.getString(context.getString(resPrefId), null);
     if (result == null) throw new RuntimeException("No configured preference value found");
     return result;
+  }
+
+  protected String getString(int resPrefId, int resDefaultId) {
+    return mPrefs.getString(context.getString(resPrefId), context.getString(resDefaultId));
+  }
+
+  protected String getString(int resPrefId, String defaultVal) {
+    return mPrefs.getString(context.getString(resPrefId), defaultVal);
   }
   
   protected int getIntValue(int resPrefId) {
@@ -579,67 +653,35 @@ public class ManagePreferences {
     return result;
   }
   
-  public void putBoolean(int resPrefId, boolean newVal) {
+  protected void putBoolean(int resPrefId, boolean newVal) {
     SharedPreferences.Editor settings = mPrefs.edit();
-    settings.putBoolean(context.getString(resPrefId), newVal);
+    String key = context.getString(resPrefId);
+    settings.putBoolean(key, newVal);
     settings.commit();
+    notifyListeners(key);
   }
 
-  public void putString(int resPrefId, String newVal) {
+  protected void putString(int resPrefId, String newVal) {
     SharedPreferences.Editor settings = mPrefs.edit();
-    settings.putString(context.getString(resPrefId), newVal);
+    String key = context.getString(resPrefId);
+    settings.putString(key, newVal);
     settings.commit();
+    notifyListeners(key);
   }
 
   protected void putInt(int resPrefId, int newVal) {
     SharedPreferences.Editor settings = mPrefs.edit();
-    settings.putInt(context.getString(resPrefId), newVal);
+    String key = context.getString(resPrefId);
+    settings.putInt(key, newVal);
     settings.commit();
+    notifyListeners(key);
+  }
+
+  private void notifyListeners(String key) {
+    PreferenceChangeListener listener = listenerMap.get(key);
+    if (listener != null) {
+      listener.preferenceChanged(key, mPrefs.getAll().get(key));
+    }
   }
   
-  // All of the following methods are deprecated, but we only officially
-  // flag the constructor
-
-  /**
-   * @deprecated - Preferred alternatives is to set up and use the static methods
-   * to retrieve preference values 
-   */
-  public ManagePreferences(Context _context) {
-    setContext(_context);
-  }
-
-  public boolean getBoolean(int resPrefId, int resDefaultId, int dbColumnNum) {
-    return getBoolean(resPrefId, resDefaultId);
-  }
-
-  public boolean getBoolean(int resPrefId, boolean prefDefault, int dbColumnNum) {
-    return getBoolean(resPrefId, prefDefault);
-  }
-
-  public boolean getBoolean(int resPrefId, int resDefaultId) {
-    return mPrefs.getBoolean(context.getString(resPrefId),
-        Boolean.parseBoolean(context.getString(resDefaultId)));
-  }
-
-  public boolean getBoolean(int resPrefId, boolean prefDefault) {
-    return mPrefs.getBoolean(context.getString(resPrefId), prefDefault);
-  }
-
-  public String getString(int resPrefId, int resDefaultId, int dbColumnNum) {
-    return getString(resPrefId, resDefaultId);
-  }
-
-  public String getString(int resPrefId, String defaultVal, int dbColumnNum) {
-    return mPrefs.getString(context.getString(resPrefId), defaultVal);
-  }
-
-  public String getString(int resPrefId, int resDefaultId) {
-    return mPrefs.getString(context.getString(resPrefId), context.getString(resDefaultId));
-  }
-
-  public String getString(int resPrefId, String defaultVal) {
-    return mPrefs.getString(context.getString(resPrefId), defaultVal);
-  }
-  
-  public void close() {}
 }
