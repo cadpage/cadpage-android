@@ -45,6 +45,7 @@ Contact: "Russ Swinehart Jr." <snoopfire10@yahoo.com>
  
 Contact: Ryan Pankoe <rpankoe@gmail.com>
 911: STA19  type:WATER   adr:EIGHTEENFOURTEEN H ,28 at 50 S MAIN ST ,28 btwn W OAKLAND AV & TAYLOR AV  aai:  box:19022  map:2922J10  tm:02:29:07  FD11
+911: STA19  type:RVBLD   adr:LOBSTER CLAW ,57 at 800 N EASTON RD ,57 btwn BKHAM TWP LINE & CROSS KEYS DR  aai:  box:20001  map:2922J6  tm:16:03:22  FD
 
  */
 
@@ -249,6 +250,7 @@ public class PABucksCountyParser extends FieldProgramParser {
       "FUNK",     "UNKNOWN TYPE FIRE",
       "RAUTO",    "AUTO EXTRICATION",
       "RMAR",     "MARINE RESCUE",
+      "RVBLD",    "VEHICLE INTO A BUILDING",
       "STDBY",    "FIRE STANDBY",
       "WATER",    "WATER FLOW",
       "WIREIN",   "WIRES IN DWELLING",
