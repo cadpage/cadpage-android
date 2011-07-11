@@ -86,8 +86,11 @@ public class DispatchSouthernParser extends SmartAddressParser {
   // Flag indicating  a leading dispatch name is required
   public static final int DSFLAG_DISPATCH_ID = 0x01;
   
+  // Flag indicating a leading dispatch name is optional
+  public static final int DSFLAG_OPT_DISPATCH_ID = 0x02;
+  
   // Flag indicate a unit designation follows the time stampe
-  public static final int DSFLAG_UNIT = 0x02;
+  public static final int DSFLAG_UNIT = 0x04;
   
   // Flag indicating that the call ID is optional
   public static final int DSFLAG_ID_OPTIONAL = 0x08;
@@ -99,6 +102,7 @@ public class DispatchSouthernParser extends SmartAddressParser {
 
   private Pattern idTimePattern;
   private boolean leadDispatch;
+  private boolean optDispatch;
   private boolean unitId;
   
   public DispatchSouthernParser(String[] cityList, String defCity, String defState) {
@@ -108,6 +112,7 @@ public class DispatchSouthernParser extends SmartAddressParser {
   public DispatchSouthernParser(String[] cityList, String defCity, String defState, int flags) {
     super(cityList, defCity, defState);
     this.leadDispatch = (flags & DSFLAG_DISPATCH_ID) != 0;
+    this.optDispatch = (flags & DSFLAG_OPT_DISPATCH_ID) != 0;
     this.unitId = (flags & DSFLAG_UNIT) != 0;
     this.idTimePattern = (flags & DSFLAG_ID_OPTIONAL) != 0 ? OPT_ID_TIME_PTN : ID_TIME_PTN;
   }
@@ -117,10 +122,11 @@ public class DispatchSouthernParser extends SmartAddressParser {
   public boolean parseMsg(String body, Data data) {
     
     // Message must always start with dispatcher ID, which we promptly discard
-    if (leadDispatch) {
+    if (leadDispatch || optDispatch) {
       Matcher match = LEAD_PTN.matcher(body);
-      if (!match.find()) return false;
-      body = body.substring(match.end()).trim();
+      if (match.find()) {
+        body = body.substring(match.end()).trim();
+      } else if (!optDispatch) return false;
     }
     
     // find an ID/Time pattern which splits the message into two fields

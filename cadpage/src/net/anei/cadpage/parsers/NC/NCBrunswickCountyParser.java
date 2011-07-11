@@ -22,6 +22,10 @@ System: Southern Software
 415:111 SE 32ND ST OAK ISLAND  7045790781 MDL 09E01 11-025910 20:39:44 Cardiac or Resp Arrest - Death TRANS BY OKI... ADVD TH
 411:22 BOUNDARYLINE DR NW C CALABASH LYNN 9102094924 11-025720 06:59:32 Structure Fire SMELL SOMETHING BURNING IN RESD,
 
+Contact: Anthony Nathan <tnathan55@gmail.com>
+1333 SOUTH DICKINSON DR LELAND 11-053813 10:30:06 Take Written Report (10-92) AT SUITE 110....10-83 WITH MIRANDA REF PROPERTY DAMAGE TO VEH
+1111 NEW POINTE BLVD LELAND 11-053827 11:42:05 911 HANG UP ON CALL BACK SPOKE W/ LAURA ADVD SUBJS SHE WAS CALLING IN REF TO LEFT THE BUSN
+
 */
 
 public class NCBrunswickCountyParser extends DispatchSouthernParser {
@@ -29,7 +33,7 @@ public class NCBrunswickCountyParser extends DispatchSouthernParser {
   private static final Pattern PHONE_PTN = Pattern.compile("\\b\\d{10}\\b");
   
   public NCBrunswickCountyParser() {
-    super(CITY_LIST, "BRUNSWICK COUNTY", "NC");
+    super(CITY_LIST, "BRUNSWICK COUNTY", "NC", DSFLAG_OPT_DISPATCH_ID);
   }
   
   @Override
@@ -39,6 +43,7 @@ public class NCBrunswickCountyParser extends DispatchSouthernParser {
   
   @Override
   public boolean parseMsg(String body, Data data) {
+    
     if (!super.parseMsg(body, data)) return false;
     
     // The space usually occupied by a common name is used for personal name information here
