@@ -12,7 +12,7 @@ public class NCBrunswickCountyParserTest extends BaseParserTest {
   }
   
   @Test
-  public void testParser() {
+  public void testParser1() {
 
     doTest("T1",
         "349:560 CUMBERLAND ST SE BOLIVIA MDL 09B01 11-020650 17:02:34 Cardiac or Respiratiory Arrest / Death RECV CALL FROM FUNERAL HOME ADVING THAT THEY RECV CALL STATING A FEMALE WAS DEAD AT THIS LOCATION AD",
@@ -85,6 +85,25 @@ public class NCBrunswickCountyParserTest extends BaseParserTest {
         "PHONE:9102094924",
         "ID:11-025720",
         "INFO:Structure Fire SMELL SOMETHING BURNING IN RESD,");
+  }
+  
+  @Test
+  public void testParser2() {
+
+    doTest("T1",
+        "1333 SOUTH DICKINSON DR LELAND 11-053813 10:30:06 Take Written Report (10-92) AT SUITE 110....10-83 WITH MIRANDA REF PROPERTY DAMAGE TO VEH",
+        "ADDR:1333 SOUTH DICKINSON DR",
+        "CITY:LELAND",
+        "ID:11-053813",
+        "INFO:Take Written Report (10-92) AT SUITE 110....10-83 WITH MIRANDA REF PROPERTY DAMAGE TO VEH");
+
+    doTest("T2",
+        "1111 NEW POINTE BLVD LELAND 11-053827 11:42:05 911 HANG UP ON CALL BACK SPOKE W/ LAURA ADVD SUBJS SHE WAS CALLING IN REF TO LEFT THE BUSN",
+        "ADDR:1111 NEW POINTE BLVD",
+        "CITY:LELAND",
+        "ID:11-053827",
+        "INFO:911 HANG UP ON CALL BACK SPOKE W/ LAURA ADVD SUBJS SHE WAS CALLING IN REF TO LEFT THE BUSN");
+    
   }
   
 
