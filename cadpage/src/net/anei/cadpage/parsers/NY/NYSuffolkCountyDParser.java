@@ -3,6 +3,10 @@ import net.anei.cadpage.SmsMsgInfo.Data;
 import net.anei.cadpage.parsers.FieldProgramParser;
 
 /*
+Suffolk County NY (Port Jefferson Volunteer Ambulance)
+Contact: Jason Lazerus <jlazerus@pjvac.org>
+Sender: paging@pjvac.org
+
 UNKNOWN PROBLEM - STANDING, SITTING UP, MOVING OR TALKING code: 32-B-1 at: 3 STANDISH DR c/s: CHIPPENDALE DR d/t: 06/30 00:01:30
 PSYCHIATRIC / ABNORMAL BEHAVIOR / SUICIDE - NON SUICIDAL AND ALERT code: 25-A-1 at: 60 N COUNTRY RD c/s: PINE HILL RD d/t: 06/30 19:53:51
 SICK - NO PRIORITY SYMPTOMS (COMPLAINT CONDITIONS 2-11 NOT IDENTIFIED) code: 26-A-1 at: 11 BURNETT CT c/s: LOUDEN LP d/t: 06/30 11:27:10
@@ -17,7 +21,7 @@ public class NYSuffolkCountyDParser extends FieldProgramParser {
   
   public NYSuffolkCountyDParser() {
     super("SUFFOLK COUNTY","NY",
-    "INFO code:CALL! at:ADDR/SP! cs:X! dt:INFO+");
+    "CALL! code:CODE! at:ADDR! cs:X! dt:SKIP");
   }
 
   @Override
@@ -27,8 +31,8 @@ public class NYSuffolkCountyDParser extends FieldProgramParser {
   
   @Override
   public boolean parseMsg(String body, Data data) {
-    body = body.replace("c/s", "cs");
-    body = body.replace("d/t", "dt");
-    return true;
+    body = body.replace("c/s:", "cs:");
+    body = body.replace("d/t:", "dt:");
+    return super.parseMsg(body, data);
   }
 }
