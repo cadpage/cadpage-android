@@ -182,11 +182,13 @@ public class SmsMsgInfo {
   /**
    * @return return mapping address
    */
+  private static final Pattern DIR_OF_PTN = Pattern.compile(" [NSEW]O ");
   public String getMapAddress() {
     
     if (strMapAddress != null) return strMapAddress;
     
     String sAddr = strAddress;
+    sAddr = DIR_OF_PTN.matcher(sAddr).replaceAll(" & ");
     sAddr = cleanStreetSuffix(sAddr);
     sAddr = cleanBlock(sAddr);
     sAddr = cleanBounds(sAddr);
