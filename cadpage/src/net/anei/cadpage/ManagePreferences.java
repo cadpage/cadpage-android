@@ -139,6 +139,10 @@ public class ManagePreferences {
     return prefs.getBoolean(R.string.pref_enabled_key);
   }
   
+  public static void setEnabled(boolean newVal) {
+    prefs.putBoolean(R.string.pref_enabled_key, newVal);
+  }
+  
   public static String release() {
     return prefs.getString(R.string.pref_release_key, "");
   }
@@ -231,6 +235,10 @@ public class ManagePreferences {
     return prefs.getBoolean(R.string.pref_notif_enabled_key);
   }
   
+  public static void setNotifyEnabled(boolean newVal) {
+    prefs.putBoolean(R.string.pref_notif_enabled_key, newVal);
+  }
+  
   public static boolean notifyOverride() {
     return prefs.getBoolean(R.string.pref_notif_override_key);
   }
@@ -298,6 +306,10 @@ public class ManagePreferences {
   
   public static boolean popupEnabled() {
     return prefs.getBoolean(R.string.pref_popup_enabled_key);
+  }
+  
+  public static void setPopupEnabled(boolean newVal) {
+    prefs.putBoolean(R.string.pref_popup_enabled_key, newVal);
   }
   
   public static boolean onlyShowOnKeyguard() {

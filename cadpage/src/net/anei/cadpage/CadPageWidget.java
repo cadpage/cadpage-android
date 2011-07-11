@@ -1,17 +1,12 @@
 package net.anei.cadpage;
 
-import android.app.Activity;
 import android.app.PendingIntent;
-import android.app.Service;
 import android.appwidget.AppWidgetManager;
 import android.appwidget.AppWidgetProvider;
 import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
-import android.content.res.Resources;
-import android.os.Bundle;
 import android.view.View;
-import android.widget.ImageView;
 import android.widget.RemoteViews;
 import net.anei.cadpage.HistoryMsgTextView;
 
@@ -23,7 +18,6 @@ public class CadPageWidget extends AppWidgetProvider {
   public static String ACTION_NOTIFICATION = "CadPageNotification";
   public static String ACTION_POPUP = "CadPageAlerts";
   public static String ACTION_CALLS = "CadPageCalls";
-  private static ManagePreferences prefs;
 
   @Override
   public void onUpdate(Context context,AppWidgetManager appWidgetManager, int[] appWidgetIds){
@@ -31,58 +25,54 @@ public class CadPageWidget extends AppWidgetProvider {
     final int N = appWidgetIds.length;
     for (int i=0; i<N; i++) {
       int appWidgetId = appWidgetIds[i];
-    updateEnabled(context,appWidgetManager,appWidgetIds);
-    
-    
-    //First Button (Enable/Disable Cadpage)
-    Intent aEnabledIntent = new Intent(context, CadPageWidget.class);
-    aEnabledIntent.setAction(ACTION_CADPAGE_ENABLED);
-    PendingIntent actionPendingIntent = PendingIntent.getBroadcast(context, 0, aEnabledIntent, 0);
-
-    
-    //Second Button (Enable/Disable Alerts)
-    Intent bEnabledIntent = new Intent(context, CadPageWidget.class);
-    bEnabledIntent.setAction(ACTION_NOTIFICATION);
-    PendingIntent notificationPendingIntent = PendingIntent.getBroadcast(context, 0, bEnabledIntent, 0);
-    
-    //Third Button (Enable/Disable PopUps)
-    Intent cEnabledIntent = new Intent(context, CadPageWidget.class);
-    cEnabledIntent.setAction(ACTION_POPUP);
-    PendingIntent popupPendingIntent = PendingIntent.getBroadcast(context, 0, cEnabledIntent, 0);
-    
-  //Fourth Button (Show Unread Calls. Click to go into History)
-    Intent dEnabledIntent = new Intent(context, CallHistoryActivity.class);
-   // dEnabledIntent.setAction(ACTION_CALLS);
-    PendingIntent callsPendingIntent = PendingIntent.getActivity(context, 0, dEnabledIntent, 0);
-
-    
-    RemoteViews views = new RemoteViews(context.getPackageName(), R.layout.widget);
-    views.setOnClickPendingIntent(R.id.widget_button_cadpage, actionPendingIntent);
-    views.setOnClickPendingIntent(R.id.widget_button_notification, notificationPendingIntent);
-    views.setOnClickPendingIntent(R.id.widget_button_popup, popupPendingIntent);
-    views.setOnClickPendingIntent(R.id.widget_text_newcalls, callsPendingIntent);
-
-    prefs = new ManagePreferences();
-    prefs.setContext(context);
-    CharSequence MessageCnt = HistoryMsgTextView.NewMessageCount();
-    views.setTextViewText(R.id.widget_text_newcalls, MessageCnt);
-    appWidgetManager.updateAppWidget(appWidgetId, views);
-    //updateEnabled(context);
-    //context.startService(intent);
-    appWidgetManager.updateAppWidget(appWidgetIds, views);
+      updateEnabled(context,appWidgetManager,appWidgetIds);
+      
+      
+      //First Button (Enable/Disable Cadpage)
+      Intent aEnabledIntent = new Intent(context, CadPageWidget.class);
+      aEnabledIntent.setAction(ACTION_CADPAGE_ENABLED);
+      PendingIntent actionPendingIntent = PendingIntent.getBroadcast(context, 0, aEnabledIntent, 0);
+  
+      
+      //Second Button (Enable/Disable Alerts)
+      Intent bEnabledIntent = new Intent(context, CadPageWidget.class);
+      bEnabledIntent.setAction(ACTION_NOTIFICATION);
+      PendingIntent notificationPendingIntent = PendingIntent.getBroadcast(context, 0, bEnabledIntent, 0);
+      
+      //Third Button (Enable/Disable PopUps)
+      Intent cEnabledIntent = new Intent(context, CadPageWidget.class);
+      cEnabledIntent.setAction(ACTION_POPUP);
+      PendingIntent popupPendingIntent = PendingIntent.getBroadcast(context, 0, cEnabledIntent, 0);
+      
+    //Fourth Button (Show Unread Calls. Click to go into History)
+      Intent dEnabledIntent = new Intent(context, CallHistoryActivity.class);
+     // dEnabledIntent.setAction(ACTION_CALLS);
+      PendingIntent callsPendingIntent = PendingIntent.getActivity(context, 0, dEnabledIntent, 0);
+  
+      
+      RemoteViews views = new RemoteViews(context.getPackageName(), R.layout.widget);
+      views.setOnClickPendingIntent(R.id.widget_button_cadpage, actionPendingIntent);
+      views.setOnClickPendingIntent(R.id.widget_button_notification, notificationPendingIntent);
+      views.setOnClickPendingIntent(R.id.widget_button_popup, popupPendingIntent);
+      views.setOnClickPendingIntent(R.id.widget_text_newcalls, callsPendingIntent);
+  
+      CharSequence MessageCnt = HistoryMsgTextView.NewMessageCount();
+      views.setTextViewText(R.id.widget_text_newcalls, MessageCnt);
+      appWidgetManager.updateAppWidget(appWidgetId, views);
+      //updateEnabled(context);
+      //context.startService(intent);
+      appWidgetManager.updateAppWidget(appWidgetIds, views);
     }
    
   }
   
     
-  public void updateEnabled(Context context,AppWidgetManager appWidgetManager, int[] appWidgetIds) {
+  private void updateEnabled(Context context,AppWidgetManager appWidgetManager, int[] appWidgetIds) {
     boolean aEnabled = ManagePreferences.enabled();
     boolean bEnabled = ManagePreferences.notifyEnabled();
     boolean cEnabled = ManagePreferences.popupEnabled();
     RemoteViews views = new RemoteViews(context.getPackageName(),R.layout.widget);
-    final int N = appWidgetIds.length;
-    for (int i=0; i<N; i++) {
-      int appWidgetId = appWidgetIds[i];
+    for (int appWidgetId : appWidgetIds) {
       if (aEnabled){
         views.setImageViewResource(R.id.widget_button_cadpage, R.drawable.cadpage_widget_logo);
       } else {
@@ -110,11 +100,11 @@ public class CadPageWidget extends AppWidgetProvider {
       }
       CharSequence MessageCnt = HistoryMsgTextView.NewMessageCount();
       views.setTextViewText(R.id.widget_text_newcalls, MessageCnt);
-    appWidgetManager.updateAppWidget(appWidgetId, views);
+      appWidgetManager.updateAppWidget(appWidgetId, views);
     }
   }
   
-  public void updateEnabled(Context context) {
+  private void updateEnabled(Context context) {
       ComponentName thisWidget = new ComponentName(context,CadPageWidget.class);
       AppWidgetManager appWidgetManager = AppWidgetManager.getInstance(context);
       int[] appWidgetIds = appWidgetManager.getAppWidgetIds(thisWidget);
@@ -125,31 +115,17 @@ public class CadPageWidget extends AppWidgetProvider {
   @Override 
   public void onReceive(Context context, Intent intent){
     super.onReceive(context, intent);
-      if (intent.getAction().equals(UpdateService.CADPAGE_REFRESH))
-          updateEnabled(context);
       if( intent.getAction().equals(ACTION_CADPAGE_ENABLED)){
-      boolean aEnabled = ManagePreferences.enabled();
-        if (aEnabled){
-          prefs.putBoolean(R.string.pref_enabled_key, false);
-        }else {
-          prefs.putBoolean(R.string.pref_enabled_key, true);
-        }
+        boolean aEnabled = ManagePreferences.enabled();
+        ManagePreferences.setEnabled(!aEnabled);
       }
-      if (intent.getAction().equals(ACTION_NOTIFICATION)){
+      else if (intent.getAction().equals(ACTION_NOTIFICATION)){
         boolean bEnabled = ManagePreferences.notifyEnabled();
-        if (bEnabled){
-          prefs.putBoolean(R.string.pref_notif_enabled_key, false);
-        } else {
-          prefs.putBoolean(R.string.pref_notif_enabled_key,true);
-        }
+        ManagePreferences.setNotifyEnabled(!bEnabled);
       }
-      if (intent.getAction().equals(ACTION_POPUP)){
-          boolean cEnabled = ManagePreferences.popupEnabled();
-          if (cEnabled){
-            prefs.putBoolean(R.string.pref_popup_enabled_key, false);
-          } else {
-            prefs.putBoolean(R.string.pref_popup_enabled_key,true);
-          }
+      else if (intent.getAction().equals(ACTION_POPUP)){
+        boolean cEnabled = ManagePreferences.popupEnabled();
+        ManagePreferences.setPopupEnabled(!cEnabled);
       }
       updateEnabled(context);
   }
