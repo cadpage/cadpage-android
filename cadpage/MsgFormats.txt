@@ -2502,6 +2502,7 @@ Contact: Adam Warner <awarner7777@gmail.com>
 Sender: msg@cfmsg.com
 System: Aegis CAD
 (Chief ALT) [40 EMS] - 26A10 - Sick Person - Unwell/Ill -- 2536 Skeeter Neck Rd, Frederica -- Xst's: Bowers Beach Rd / E Front St -- Caller: High Vue Logging Inc
+(Chief ALT) [KCPS] - [911, Kent] NWS UPGRADED LAST TO A WARNING, WILL BE IN WESTERN KENT COUNTY AROUND 22:30 HRS.
 **********************************************************
 Egg Harbor Township, Atlantic County. NJ
 Contact: Kirk Kerlin <winginet55@yahoo.com>
@@ -2528,6 +2529,10 @@ Suffolk County, NY (alternate)
 Contact: Brandon Tishim <tishimb@gmail.com>
 Sender: Bob@relaycom.com
 (FROM RELAY) 33 BAY RUN OFF OF HERRICKS LN JAMESPORT\nELDERLY MALE SICK
+(FROM RELAY) 415 OSTRANDER AVE, INJURY FROM A FALL
+(FROM RELAY) 95 OSTRANDER AVE, DIFFICULTY BREATHING
+
+
 **********************************************************
 **********************************************************
 **********************************************************
@@ -2541,21 +2546,24 @@ Sender: Bob@relaycom.com
 **********************************************************
 **********************************************************
 **********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
 Stone County, MO
 Contact: Ryan Joy <crazyrockj@gmail.com>
 Sender: 4173802670
-911-CENTER:FMA MUTUAL AID/ASSIST OUTSIDE AGEN 214 E 5TH ST 4175270913 S MAPLE ST MUTUAL AID ASSIST OUTSIDE AGENCY
+
+BC911:ALM >ALARMS 23544 FARM ROAD 2040 BARRY COUNTY JULIE KEENER 8775350563 Map: Grids:0,0 Cad: 2011-0000015066
 BC911:MVAUNK>MOTOR VEH ACC UNKNOWN INJ STATE HIGHWAY 39 JENKINS VERIZON WIRELESS Cad: 2011-0000009418
+
+911-CENTER:FMA MUTUAL AID/ASSIST OUTSIDE AGEN 214 E 5TH ST 4175270913 S MAPLE ST MUTUAL AID ASSIST OUTSIDE AGENCY
 911-CENTER:FMVC MOTOR VEHICLE COLLISION STATE HWY TT&STATE HWY D 4178498278 STATE HWY D MOTOR VEHICLE COLLISION
 911-CENTER:FBF BRUSH/FOREST FIRE 546 CAMP CLARK HL 4175989172 SMALL ST BRUSH FIRE
 911-CENTER:FIO FIRE INVESTIGATION OUTSIDE 110 S MAPLE ST 4173576116 E 4TH ST FIRE INVESTIGATION OUTSIDE
 911-CENTER:FMVC MOTOR VEHICLE COLLISION 41604 STATE HWY 413 4178389861 MOTOR VEHICLE COLLISION
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
 **********************************************************
 Porter County, IN
 Contact: Chad Elwood <chadelwood@gmail.com>
