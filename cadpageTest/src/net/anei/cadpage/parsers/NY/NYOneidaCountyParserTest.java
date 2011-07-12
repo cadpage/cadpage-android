@@ -86,9 +86,17 @@ public class NYOneidaCountyParserTest extends BaseParserTest {
         "ADDR:6352 WALKER RD",
         "CITY:DEERFIELD",
         "X:CRUIKSHANK RD/MILLER RD;");
+
+    doTest("T10",
+        "?LADF:2011:0165>Dispatched\n>FIRE STRUCTURE\n>8428 DAWN DR, ROME (EVENING RD/;)",
+        "ID:2011:0165",
+        "CALL:FIRE STRUCTURE",
+        "ADDR:8428 DAWN DR",
+        "CITY:ROME",
+        "X:EVENING RD/;");
   }
   
   public static void main(String[] args) {
-    new NYOneidaCountyParserTest().generateTests("T10", "ID CALL ADDR CITY X");
+    new NYOneidaCountyParserTest().generateTests("T11", "ID CALL ADDR CITY X");
   }
 }
