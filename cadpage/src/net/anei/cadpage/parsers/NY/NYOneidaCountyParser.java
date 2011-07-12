@@ -1,5 +1,6 @@
 package net.anei.cadpage.parsers.NY;
 
+import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.SmsMsgInfo.Data;
@@ -38,13 +39,17 @@ Contact: eric roux <eroux33@gmail.com>
 ?WEMF:2011:0144>Dispatched\n>ASSIST\n>6471 W CARTER RD, WESTMORELAND, NY
 
 Contact: James Griffiths <griffballs72@gmail.com>
-Body:?DEEF:2011:0075>Dispatched\n>WIRES DOWN/BURN\n>6352 WALKER RD, DEERFIELD (CRUIKSHANK RD/MILLER RD;)
+?DEEF:2011:0075>Dispatched\n>WIRES DOWN/BURN\n>6352 WALKER RD, DEERFIELD (CRUIKSHANK RD/MILLER RD;)
+
+Contact: Michael Delong <mike.delong.392@gmail.com>
+?LADF:2011:0165>Dispatched\n>FIRE STRUCTURE\n>8428 DAWN DR, ROME OUTSIDE (EVENING RD/;)
 
 */
 
 public class NYOneidaCountyParser extends SmsMsgParser {
   
   private static final Pattern DELIM = Pattern.compile(" *(?:\\n>?|>) *");
+  private static final Pattern OUTSIDE = Pattern.compile("\\bOUTSIDE\\b");
   
   public NYOneidaCountyParser() {
     super("ONEIDA COUNTY", "NY");
@@ -79,6 +84,8 @@ public class NYOneidaCountyParser extends SmsMsgParser {
     Parser p = new Parser(flds[3]);
     parseAddress(p.get(','), data);
     data.strCity = p.getOptional('(');
+    Matcher match = OUTSIDE.matcher(data.strCity);
+    if (match.find()) data.strCity = data.strCity.substring(0,match.start()).trim();
     if (data.strCity.length() > 0) {
       data.strCross = p.get(')');
     } else {
