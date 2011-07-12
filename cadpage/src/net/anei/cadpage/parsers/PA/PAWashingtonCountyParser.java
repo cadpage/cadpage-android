@@ -31,7 +31,8 @@ public class PAWashingtonCountyParser extends FieldProgramParser {
       "CECI", "CECIL TWP",
       "MCDO", "MCDONALD",
       "MTPL", "MT PLEASANT TWP",
-      "NSTR", "NORTH STRAWBANE TWP"
+      "NSTR", "NORTH STRAWBANE TWP",
+      "PETE", "PETERS TWP"
   });
   
   public PAWashingtonCountyParser() {

@@ -2079,12 +2079,6 @@ Subject:CAD\n87, PREMISE # 1619,006574-674-9624 NO KEYHOLDER AT THIS TIME 1619,0
 Subject:CAD\n[!] ^ 17 RIVERCREST DR OS :( 600) N BEECH RDFROM MEDICAL ALARM COMP UNK MED 1617,006CALL BACK # TO ALARM COMP 800-325-17\n
 Subject:CAD\nrrive =Avail = 11 18 45Rpt # = 11-21000477\n
 **********************************************************
-Stone County, MO
-Contact: Ryan Joy <crazyrockj@gmail.com>
-Sender: 4173802670
-911-CENTER:FMA MUTUAL AID/ASSIST OUTSIDE AGEN 214 E 5TH ST 4175270913 S MAPLE ST MUTUAL AID ASSIST OUTSIDE AGENCY
-BC911:MVAUNK>MOTOR VEH ACC UNKNOWN INJ STATE HIGHWAY 39 JENKINS VERIZON WIRELESS Cad: 2011-0000009418
-**********************************************************
 Unknown
 Contact: Matt Hatcher <dkht1250@yahoo.com>
 Sender: brandi.blair@comcast.net
@@ -2470,6 +2464,11 @@ From:alrt126237@alert.princegeorgescountymd.gov
 Body:(1/3) E810 Incident: F111910326, Type: BLS Amb, Loc: 14714 BOWIE RD, PP, btwn BUCKINGHAM CT and ELAINE CT, Tal
 Body:(2/3) kGroup: TGA2, Box: 4902, Map: 5169 E 6, Text: Police ProQA recommends dispatch at this time, Units:A831,
 
+From:alrt127291@alert.princegeorgescountymd.gov
+Body:(1/3) A810 Incident: F111920285, Type: Medic Local, Loc: 13200 TANEY DR, PP, btwn DUNNINGTON RD and STONEHALL
+Body:(2/3) DR, TalkGroup: TGA2, Box: 4108, Map: 5288 A 1, Text: Medical ProQA recommends dispatch at this time, Uni
+
+
 **********************************************************
 Geauga County, OH
 Contact: "Pettit, Lewis 911" <LPettit@co.geauga.oh.us>,4404785985@vtext.com
@@ -2519,9 +2518,16 @@ Sender: dispatch@jvfc.com
 (BOX-AREA : CALL TYPE) ADDRESS : UNIT1 UNIT2 : HH:MM:SS\nREM:  : MS BONNIE SMITH
 (47-10 : 1050PI) SHOPRITE; 14330 JARRETTSVILLE PK : A475 E471 : 13:01:12\n\nREM:F ON DK BLU OR BLK M/C FELL OVER. DOESN'T NEED AMBO. ANOTHER M/C WITH HER.  : KRISTY
 Body:(47-17 : TREE FIRE / EMERG) 13908 MANOR RD : E471 : 20:32:38\n\nREM:TREE IN THE FRONT YARD IS ON FIRE...IS BY A TELEPHONE POLE  : MS. VICTORIA
-
 **********************************************************
+Cumberland County, NC (alternate)
+Contact: Brandon Norris <lawranger197@gmail.com>
+Sender: messaging@iamresponding.com
+(Station 13) 7/11/2011 16:16:30;DIFFICULTY SPEAKING BREATHING;ST13,ST19;4737 DESERT RIDGE RD;HYPONY TRL
 **********************************************************
+Suffolk County, NY (alternate)
+Contact: Brandon Tishim <tishimb@gmail.com>
+Sender: Bob@relaycom.com
+(FROM RELAY) 33 BAY RUN OFF OF HERRICKS LN JAMESPORT\nELDERLY MALE SICK
 **********************************************************
 **********************************************************
 **********************************************************
@@ -2535,12 +2541,111 @@ Body:(47-17 : TREE FIRE / EMERG) 13908 MANOR RD : E471 : 20:32:38\n\nREM:TREE IN
 **********************************************************
 **********************************************************
 **********************************************************
+Stone County, MO
+Contact: Ryan Joy <crazyrockj@gmail.com>
+Sender: 4173802670
+911-CENTER:FMA MUTUAL AID/ASSIST OUTSIDE AGEN 214 E 5TH ST 4175270913 S MAPLE ST MUTUAL AID ASSIST OUTSIDE AGENCY
+BC911:MVAUNK>MOTOR VEH ACC UNKNOWN INJ STATE HIGHWAY 39 JENKINS VERIZON WIRELESS Cad: 2011-0000009418
+911-CENTER:FMVC MOTOR VEHICLE COLLISION STATE HWY TT&STATE HWY D 4178498278 STATE HWY D MOTOR VEHICLE COLLISION
+911-CENTER:FBF BRUSH/FOREST FIRE 546 CAMP CLARK HL 4175989172 SMALL ST BRUSH FIRE
+911-CENTER:FIO FIRE INVESTIGATION OUTSIDE 110 S MAPLE ST 4173576116 E 4TH ST FIRE INVESTIGATION OUTSIDE
+911-CENTER:FMVC MOTOR VEHICLE COLLISION 41604 STATE HWY 413 4178389861 MOTOR VEHICLE COLLISION
 **********************************************************
 **********************************************************
 **********************************************************
 **********************************************************
 **********************************************************
 **********************************************************
+**********************************************************
+Porter County, IN
+Contact: Chad Elwood <chadelwood@gmail.com>
+Contact: "Gregory Adair" <gadair@washingtonfire.net>
+Sender: pcdisp@porterco-ps.org
+Subject:CAD Page\n\n#110089211 - \nF35P2:\nEMS AST-P2 @ 380 N 400 E,WGT\nCROSS: btwn AUGUSTINE DR and E 400 N\npcdisp@porterco-ps.orgGRP:WF\nPRI:2\ncomment: Medical P
+
+
+Text  1:
+pcdisp@porterco-ps.org:
+Subject: CAD Page
+
+#110085268 - 
+F35:
+MISC. AST EMS @ 4 WILLIAMSBURG DR,WGT
+CROSS: btwn DEAD END and VIRGINIA CT
+GRP:WF
+PRI:4
+comment: UN
+
+Text 2:
+pcdisp@porterco-ps.org:
+Subject: CAD Page
+
+#110085607 -
+F35P2:
+EMS AST-P2 @ 342 N 325 E,WGT
+CROSS: btwn LONG PRAIRIE RD and STREAMWOOD DR GRP:WF
+PRI:2
+comment:
+
+Text 3:
+pcdisp@porterco-ps.org:
+Subject: CAD Page
+
+#110086732 - 
+F3:
+ELECTRICAL FIRE @ 3705 VALE PARK RD,WGT
+CROSS: btwn ST RD 49 and BARTZ RD
+GRP:WF
+PRI:1
+comment: 2 PO
+
+Text 4:
+pcdisp@porterco-ps.org:
+Subject: CAD Page
+
+#110086764 - 
+F33:
+MANPOWER AST EMS @ 13 WILLIAMSBURG DR,WGT
+CROSS: btwn DEAD END and JAMESTOWN AV
+GRP:WF
+PRI:1
+commen
+
+
+Text 5:
+pcdisp@porterco-ps.org:
+Subject: CAD Page
+
+#110087784 - 
+F35P2:
+EMS AST-P2 @ WASHINGTON TWP HIGH SCHOOL,WGT
+ - at 383 E ST RD 2,WGT
+CROSS: btwn E EVANS AV and N
+
+Text 6:
+pcdisp@porterco-ps.org:
+Subject: CAD Page
+
+#110088677 - 
+F41:
+MUT.AID/RESP. TO SCN @ 177 HEATHERHILL DR,CTT
+CROSS: btwn DEAD END and HACKNEY LN
+GRP:WF
+PRI:1
+comm
+
+Text 7:
+pcdisp@porterco-ps.org:
+Subject: CAD Page
+
+#110089211 - 
+F35P2:
+EMS AST-P2 @ 380 N 400 E,WGT
+CROSS: btwn AUGUSTINE DR and E 400 N
+GRP:WF
+PRI:2
+comment: Medical P
+
 **********************************************************
 Monroe County, NY (Webster)
 Contact: Matt Micsak <wfd316@gmail.com>
