@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">20110710</string>
-  <string name="release_version">v1.4.15</string>
+  <string name="release_date">20110712</string>
+  <string name="release_version">v1.4.16</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
@@ -9,7 +9,7 @@
     See http://www.cadpage.org/financial-support for more details\n
     \n
   What"'"s new in this release\n
-  The new Config Widget is Here ! Long Press on an empty part of your home screen to add the new 1x4 widget.\n
+  The new Config Widget has been Updated (less crashing) ! Long Press on an empty part of your home screen to add the new 1x4 widget.\n
   Instructions on use are on the webpage under UserManual and on the Facebook Page.\n
   MMS Support is here!!!\n
   This is highly experimental.  Your mileage may vary.  See http://www.cadpage.org/faq/mms-message-support for details\n
