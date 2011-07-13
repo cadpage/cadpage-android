@@ -26,23 +26,9 @@ Sender: 7770*
 .... (Station 171) : 9  \n: 15 TRENTON RD                                        Venue: Pembtn Twp  \nLocated Between  : BUSANSKY LA/PEMBERTON BROWNS MILLS RD  \n: STA 181 \n\nCall Time- 14:48:58                                : 1811 \n\n: (609) 893-2114                :  TEL \n\nNature of Call : BUSANSKY LA/PEMBERTON BROWNS MILLS RD
 .... (Station 171) : 1  \n: 2357 RT206                                           Venue: Southamptn  \nLocated Between  : RT38/EASTAMPTON TWP LINE  \n: VINCENTOWN DINER \n\nCall Time- 15:08:40                                : 1711 \n\n: (609) 354-2191                Caller : RICHARD SIMONE \n\nNature of Call : 2 CAR MVA WITH NECK AND BACK INJURIES/ \n\nAdditional Info  \n  IAO  \n  EVERYONE OUT VEHICLE MOVED TO SIDE/
 
-Body:.... (Station 171) :\3s13 F Vehicle\14sPriority: 1\2s\n
-: RIDGE RD &amp; RT206\37sVenue: Southamptn\2s\n
-\2sCross Street . :
-Body: RT206 \n
-\n
-Call Time- 20:06:09\32s: 1712 \n
-\n
-: (609) 372-3923\16sCaller : AMANDA CHAMBERLAIN \n
-\n
-Nature of Call : ENGINE
-Body:COMPARTMENT FIRE - VEHICLE OFF TO \n
-\n
-Additional Info\2s\n
-\2sWPH2:\2s\n
-\2sSIDE OF ROAD \n
-\n
-Additional Inc#s
+.... (Station 171) :   13 F Vehicle              Priority: 1  \n: RIDGE RD &amp; RT206                                    Venue: Southamptn  \n  Cross Street . :
+RT206 \n\nCall Time- 20:06:09                                : 1712 \n\n: (609) 372-3923\16sCaller : AMANDA CHAMBERLAIN \n\nNature of Call : ENGINE
+COMPARTMENT FIRE - VEHICLE OFF TO \n\nAdditional Info  \n  WPH2:  \n  SIDE OF ROAD \n\nAdditional Inc#s
 
 */
 

@@ -25,6 +25,8 @@ Sender: rc.391@c-msg.net
 Contact: Ryan Pennington <ryan.pennington2@gmail.com>
 HCCAD / [!] EOC:E02 ARRES >CARDIAC ARREST 35 LINCOLN AVE Apt: C1 Bldg XS: PRITCHARD AVE ABERDEEN WARD,ASHANTE BOX: 211 Cad:11793\n\n
 
+Contact: Ian Williams <engine9company@gmail.com>
+[DVFC]  EOC:F09 911-CENTER SWR &gt;SWIFT/FLOOD WATER RES SRT24&amp;CHESTNUT HILL RD XS: CHESTNUT HILL RD FOREST HILL THOMPSON,DOUG Cad: 2011-0000122811
 
  */
 public class MDHarfordParser extends DispatchBParser {

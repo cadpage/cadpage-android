@@ -2336,8 +2336,6 @@ Body:(1/3) A830 Incident: F111920132, Type: BLS Amb, Loc: 7321 LANDOVER RD, PP, 
 Body:(2/3) , TalkGroup: TGA2, Box: 3302, Map: 5530 H 2, Text: Police ProQA recommends dispatch at this time, Unit:A
 
 
-
-
 Contact: kevin gilmore <kgilmore82@gmail.com>
 Sender: cad114863@alert.princegeorgescountymd.gov  (10.7 sec)
 1/3 / A843 Incident: F111830064, Type: Acc w/Inj, Loc:EB CENTRAL AVE/CHURCH RD S, PP,  <14399/ 1>, TalkGroup:
@@ -2468,6 +2466,11 @@ From:alrt127291@alert.princegeorgescountymd.gov
 Body:(1/3) A810 Incident: F111920285, Type: Medic Local, Loc: 13200 TANEY DR, PP, btwn DUNNINGTON RD and STONEHALL
 Body:(2/3) DR, TalkGroup: TGA2, Box: 4108, Map: 5288 A 1, Text: Medical ProQA recommends dispatch at this time, Uni
 
+
+Contact: "Trey Kelso" <tkelso@laurelvfd.org>
+From:alrt128415@alert.princegeorgescountymd.gov
+Body:(3/3) VIA CYRACOM LANG LINE, Units:A841, E810
+Body:(2/3) TalkGroup: TGA2, Box: 1013, Map: 5169 B 4, Text: SPANISH SPEAKING CALLER             OP   207162
 
 **********************************************************
 Geauga County, OH
@@ -2871,6 +2874,7 @@ Anaphylaxis - 9004 ROUTE 215 -  - HANSON RESIDENCE - CONNEAUT TWP LINE & WOOD RO
 Cardiac - 155 E STATE STREET - Albion Family Practice\2s(PRE-PLAN) - Wells Avenue & Elk Street
 MVA - 126 E STATE STREET -  - Water Street & Wells Avenue
 Chest Pain - E STATE STREET & First Avenue -  - MEET PD -
+Ill Patient - 10745 ROUTE 18 - SCI-Albion\2s(PRE-PLAN) - USE FRONT ENTRANCE - Boro / Township Line & Carter Road
 **********************************************************
 Delmar DE, looking to implement second parser for MD
 Contact: Steve Litchford <stevelitchford@gmail.com>
