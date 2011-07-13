@@ -32,15 +32,17 @@ RACEWAY GAS(23), 1701 RT 10 [Morris Plains] (CAR FIRE) - CAR FIRE IN THE FAST LA
 POST91-7 (MENNEN ARENA), 161 E HANOVER AVE [Morris Twp] (FALL) - IN BACK OF RINK 1 ON RIGHT HAND SIDE. 40 YR OLD FEMALE FELL, AND HURT HER RIGHT KNEE. HEARD CRACK ON FALL. - 2398 10:38
 AMERICAN RD / E HANOVER AVE [Morris Plains] (MVA) - 2 CAR MVA, PATIENT COMPLAINING OF HEAD PAIN. HONDA CIVIC VS FORD. VEHICLES IN INTERSECTION - 2398 16:53
 LITTLETON RD / COURT RD [Morris Plains] (MVA) - PD REQUEST 1 RIG, AIR BAG DEPLOYMENT - 2398 12:15
-
 SUNRISE ASSISTED LIVING (23), 209 LITTLETON RD [Morris Plains] (SICK PERSN) - 1ST FLOOR...CALLER REPORTS THE FEMALE PATIENT IS SHAKING AND SCREAMING. CALLE
+
+prvs=3175827e30=dispatch@co.morris.nj.us Police Academy Morris Cty, 500 W HANOVER AVE [Parsippany-Troy] (UNCONSCNS) - CONSTRUCTION WORKER STATED HE BLACKED OUT. HE IS SITTING INSID
+
 
 */
 
 public class NJMorrisCountyParser extends SmsMsgParser {
   
   private static final Pattern MASTER_PTN = 
-    Pattern.compile("^(.*) \\[([A-Za-z ]+)\\] \\(([A-Z ]+)\\) - (.*)$");
+    Pattern.compile("^(.*) \\[([-A-Za-z ]+)\\] \\(([A-Z ]+)\\) - (.*)$");
   
   private static final Pattern PLACE_CODE_PTN = Pattern.compile("\\(\\d+\\)$");
   

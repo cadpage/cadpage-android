@@ -36,6 +36,9 @@ Contact: John Stroup <j.stroup@northmeckrescue.org>
 Subject:Incoming Message\n15503 N Old Statesville Rd North Meck Rescue Charlie 12- Convulsion/Seizure 60 Foot St/Unnamed St Nmr1 Map - 266266/
 Subject:Incoming Message\n15503 N Old Statesville Rd North Meck Rescue Charlie 12- Convulsion/Seizure 60 Foot St/Unnamed St Nmr2 Map - 266266/
 
+Contact: Michael Filliben <mfillibene16@gmail.com>
+Sender: Group_Page_Notification@archwireless.net
+9120 Willow Ridge Rd          307A      Regency Retirement            Charlie                       26- Sick person               Goodsell
 
 
 */
