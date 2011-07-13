@@ -181,9 +181,17 @@ public class NJMorrisCountyParserTest extends BaseParserTest {
         "CITY:Morris Plains",
         "CALL:SICK PERSN",
         "INFO:1ST FLOOR...CALLER REPORTS THE FEMALE PATIENT IS SHAKING AND SCREAMING. CALLE");
+
+    doTest("T21",
+        "prvs=3175827e30=dispatch@co.morris.nj.us Police Academy Morris Cty, 500 W HANOVER AVE [Parsippany-Troy] (UNCONSCNS) - CONSTRUCTION WORKER STATED HE BLACKED OUT. HE IS SITTING INSID",
+        "PLACE:Police Academy Morris Cty",
+        "ADDR:500 W HANOVER AVE",
+        "CITY:Parsippany-Troy",
+        "CALL:UNCONSCNS",
+        "INFO:CONSTRUCTION WORKER STATED HE BLACKED OUT. HE IS SITTING INSID");
   }
   
   public static void main(String[] args) {
-    new NJMorrisCountyParserTest().generateTests("T20", "PLACE ADDR APT CITY CALL INFO UNIT");
+    new NJMorrisCountyParserTest().generateTests("T21", "PLACE ADDR APT CITY CALL INFO UNIT");
   }
 }
