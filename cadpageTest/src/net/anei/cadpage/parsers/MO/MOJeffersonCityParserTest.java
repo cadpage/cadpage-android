@@ -12,7 +12,7 @@ public class MOJeffersonCityParserTest extends BaseParserTest {
   }
   
   @Test
-  public void testParser() {
+  public void testParser1() {
 
     doTest("T1",
         "Subject:DONOTREPLY\nSnyder, Jodi 14:00 Medical Emergency 718 MICHIGAN -Cross Streets- LOUISIANA AVE / MISSOURI BLVD E1   CONSCIOUS  OUTSID",
@@ -87,7 +87,68 @@ public class MOJeffersonCityParserTest extends BaseParserTest {
         "CALL:Medical Alarm",
         "ADDR:10 JACKSON 207",
         "X:DEAD END / E STATE ST E1 EMS NOTIFIED");
- }
+  }
+  
+  @Test
+  public void testParser2() {
+
+    doTest("T1",
+        "1410000046:  1 of 2\nFRM:paging@jeffcitymo.org\nSUBJ:DONOTREPLY\nMSG:Batt12 E1 L1 S2 E4  13:40 Structure Fire - 600 ADAMS -Cross Streets-\nDEAD END / E CEDAR WAY\n(Con't) 2 of 2\n  LAST HOUSE DEAD END OF ADAMS  DECK ON FIRE  SMOKE IN THE AREA\n(End)\n",
+        "CALL:Structure Fire",
+        "ADDR:600 ADAMS",
+        "X:DEAD END / E CEDAR WAY",
+        "INFO:LAST HOUSE DEAD END OF ADAMS  DECK ON FIRE  SMOKE IN THE AREA");
+
+    doTest("T2",
+        "1410000050:  1 of 2\nFRM:paging@jeffcitymo.org\nSUBJ:DONOTREPLY\nMSG:Gabathuler, Erin 20:34 Medical Emergency 207 FRANKLIN A -Cross Streets-\nMADISON ST / MONROE\n(Con't) 2 of 2\nST L1   HISTORY OF DIABETES  48 YO FEMALE HAS FELL AND IS\n(End)",
+        "CALL:Medical Emergency",
+        "ADDR:207 FRANKLIN A",
+        "X:MADISON ST / MONROE ST L1",
+        "INFO:HISTORY OF DIABETES  48 YO FEMALE HAS FELL AND IS");
+
+    doTest("T3",
+        "1410000052:  1 of 2\nFRM:paging@jeffcitymo.org\nSUBJ:DONOTREPLY\nMSG:Suchanek, Celeste 23:52 Medical Emergency 531 ELM A -Cross Streets-\nJACKSON ST / MARSHALL\n(Con't) 2 of 2\nST L1   F 5 MONTHS PREGNANT   BLEEDING\n(End)",
+        "CALL:Medical Emergency",
+        "ADDR:531 ELM A",
+        "X:JACKSON ST / MARSHALL ST L1",
+        "INFO:F 5 MONTHS PREGNANT   BLEEDING");
+
+    doTest("T4",
+        "1410000045:  1 of 2\nFRM:paging@jeffcitymo.org\nSUBJ:DONOTREPLY\nMSG:Batt12 E1 L1 S5 E4  11:42 Fire Alarm - 1432 SOUTHWEST -Cross Streets-\nEDGEWOOD DR / CEDAR\n(Con't) 2 of 2\nRIDGE RD   GENERAL FIRE\n(End)",
+        "CALL:Fire Alarm",
+        "ADDR:1432 SOUTHWEST",
+        "X:EDGEWOOD DR / CEDAR RIDGE RD",
+        "INFO:GENERAL FIRE");
+
+    doTest("T5",
+        "1410000036:  1 of 2\nFRM:paging@jeffcitymo.org\nSUBJ:DONOTREPLY\nMSG:Snyder, Jodi 11:18 Medical Emergency 308 BENTON -Cross Streets- DEAD END\n/ COLLIER LN,\n(Con't) 2 of 2\nNORTHWAY DR L1   SUBJECT CAN'T WALK\n(End)",
+        "CALL:Medical Emergency",
+        "ADDR:308 BENTON",
+        "X:DEAD END / COLLIER LN, NORTHWAY DR L1",
+        "INFO:SUBJECT CAN'T WALK");
+
+    doTest("T6",
+        "1410000039:  1 of 2\nFRM:paging@jeffcitymo.org\nSUBJ:DONOTREPLY\nMSG:Morgan, Kacey 22:05 Medical Emergency 1020 ELIZABETH A -Cross Streets-\nEDMONDS ST / MYRTLE\n(Con't) 2 of 2\nAVE L1   SUBJECT IS ON A BREATHING MACHINE  ASTHMA ATTACK\n(End)",
+        "CALL:Medical Emergency",
+        "ADDR:1020 ELIZABETH A",
+        "X:EDMONDS ST / MYRTLE AVE L1",
+        "INFO:SUBJECT IS ON A BREATHING MACHINE  ASTHMA ATTACK");
+
+    doTest("T7",
+        "1410000043:  1 of 2\nFRM:paging@jeffcitymo.org\nSUBJ:DONOTREPLY\nMSG:1101 1401 1110 112 CCPager  17:53 Fire Alarm - 2709 LILAC -Cross\nStreets- DEAD END / S\n(Con't) 2 of 2\nCOUNTRY CLUB DR   RESIDENTAL- PIERSONS - FIRE MAIN FLOOR\n(End)",
+        "CALL:Fire Alarm",
+        "ADDR:2709 LILAC",
+        "X:DEAD END / S COUNTRY CLUB DR",
+        "INFO:RESIDENTAL- PIERSONS - FIRE MAIN FLOOR");
+
+    doTest("T8",
+        "1410000038:  1 of 2\nFRM:paging@jeffcitymo.org\nSUBJ:DONOTREPLY\nMSG:1201 1401 1531 114 CCPager  17:45 Accident with Injuries - 8000 D BLK\n-Cross Streets-\n(Con't) 2 of 2\nSCRIVNER RD / BATES RD   RP JUST HEARD THE ACCIDENT  UNKNOWN INJURY\n(End)",
+        "CALL:Accident with Injuries",
+        "ADDR:8000 D BLK",
+        "X:SCRIVNER RD / BATES RD",
+        "INFO:RP JUST HEARD THE ACCIDENT  UNKNOWN INJURY");
+
+  }
 
   public static void main(String[] args) {
     new MOJeffersonCityParserTest().generateTests("T1", "CALL ADDR X INFO");

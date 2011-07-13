@@ -102,6 +102,15 @@ public class MDHarfordParserTest extends BaseParserTest {
         "BOX:211",
         "ID:11793");
 
+    doTest("T9",
+        "[DVFC]  EOC:F09 911-CENTER SWR &gt;SWIFT/FLOOD WATER RES SRT24&amp;CHESTNUT HILL RD XS: CHESTNUT HILL RD FOREST HILL THOMPSON,DOUG Cad: 2011-0000122811",
+        "UNIT:F09",
+        "CALL:SWIFT/FLOOD WATER RES",
+        "ADDR:ST-24 & CHESTNUT HILL RD",
+        "X:CHESTNUT HILL RD",
+        "CITY:FOREST HILL",
+        "NAME:THOMPSON,DOUG",
+        "ID:2011-0000122811");
   }
   
   public static void main(String[] args) {
