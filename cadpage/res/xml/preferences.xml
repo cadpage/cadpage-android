@@ -81,7 +81,7 @@
               android:summaryOff="@string/pref_flashled_summaryoff"
               android:defaultValue="@string/pref_flashled_default"
               android:dependency="@string/pref_notif_enabled_key" />
-            <net.anei.cadpage.preferences.CustomLEDColorListPreference
+            <net.anei.cadpage.preferences.ListPreference
               android:key="@string/pref_flashled_color_key"
               android:title="@string/pref_flashled_color_title"
               android:summary="@string/pref_flashled_color_summary"
@@ -89,7 +89,7 @@
               android:entryValues="@array/pref_led_color_values"
               android:defaultValue="@string/pref_flashled_color_default"
               android:dependency="@string/pref_flashled_key" />
-            <net.anei.cadpage.preferences.CustomLEDPatternListPreference
+            <net.anei.cadpage.preferences.ListPreference
               android:key="@string/pref_flashled_pattern_key"
               android:title="@string/pref_flashled_pattern_title"
               android:summary="@string/pref_flashled_pattern_summary"
