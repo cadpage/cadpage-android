@@ -152,6 +152,7 @@ public class NYWestchesterCountyParserTest extends BaseParserTest {
     doTest("T1",
         "(IPage) 21 HEMLOCK HILLS NEW_CASTLE, Cross: HILLTOP DR, Type:STRU, , Time out: 17:39:49 Area: MILLW,Alarm lev: 0 ,Comments:",
         "ADDR:21 HEMLOCK HILLS",
+        "CITY:MILLWOOD",
         "X:HILLTOP DR",
         "CALL:STRU");
 

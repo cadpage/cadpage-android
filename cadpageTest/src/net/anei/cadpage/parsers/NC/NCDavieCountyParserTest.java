@@ -12,7 +12,7 @@ public class NCDavieCountyParserTest extends BaseParserTest {
   }
   
   @Test
-  public void testParser() {
+  public void testParser1() {
 
     doTest("T1",
         "911:Call #110619-2932* Address:866 ANGELL RD* * * City:MOCKSVILLE* * Type:HC* HAZARDOUS CONDITION* HILL JOEL* PH#:336-940-2303* Units:17* IRA:* Medical: No* Haza.",
@@ -92,10 +92,24 @@ public class NCDavieCountyParserTest extends BaseParserTest {
         "CITY:MOCKSVILLE",
         "INFO:NBH: FROM 444 EATONS CHURCH RD TO 3558 US HWY 601 N NBH: I40 TO FARMSTEAD LN",
         "CALL:HC - HAZARDO");
- }
+  }
+  
+  @Test
+  public void testParser2() {
+
+    doTest("T1",
+        "911@[70.60.255.70] 911:Call #110713-6266* Address:154 CRESTVIEW DR* * * City:MOCKSVILLE* NBH: OFF 499 EAST LAKE DR* Type:26A2-11* SICK PERSON (SPECIFIC DIAGNOSIS)* linda packett* P",
+        "ID:110713-6266",
+        "ADDR:154 CRESTVIEW DR",
+        "CITY:MOCKSVILLE",
+        "INFO:NBH: OFF 499 EAST LAKE DR",
+        "CALL:26A2-11 - SICK PERSON (SPECIFIC DIAGNOSIS)",
+        "NAME:linda packett");
+
+  }
   
 
   public static void main(String[] args) {
-    new NCDavieCountyParserTest().generateTests("T6");
+    new NCDavieCountyParserTest().generateTests("T1");
   }
 }
