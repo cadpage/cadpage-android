@@ -48,9 +48,11 @@ Contact: George Racz <georgeracz@gmail.com>
 public class NYWestchesterCountyParser extends FieldProgramParser {
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "CHAPQ", "CHAPPAQUA",
       "LARCH", "LARCHMONT",
       "MAMTW", "MAMARONECK",
-      "MILLW", "",  // ????
+      "MILLW", "MILLWOOD",
+      "PVILL", "PLEASANTVILLE",
       "RYE",   "RYE"
   });
   
