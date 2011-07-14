@@ -2489,6 +2489,17 @@ Body:(2/3) N AVE, TalkGroup: TGA2, Box: 0806, Map: 5531 A 8, Text: Medical ProQA
 Body:(3/3) Units:E808, PA838
 Body:(1/3) E808 Incident: F111940284, Type: Medic Local, Loc: 7945 CENTRAL AVE, PP, btwn JONQUIL AVE and WESTHAMPTO
 
+
+Contact: William Kerns <jrcapt20@gmail.com>
+From:alrt129890@alert.princegeorgescountymd.gov
+Eff From:alrt129890@alert.princegeorgescountymd.gov
+Body:(2/3) TalkGroup: TGA2, Box: 2002, Map: 5653 E 7, Text: Medical ProQA recommends dispatch at this time, Units:A
+Body:(1/3) A820 Incident: F111940328, Type: Medic Local, Loc: 16314 BROOK TRAIL CT, PP, btwn MCCONNELL DR and END,
+
+From:alrt129933@alert.princegeorgescountymd.gov
+Body:(2/3) UNCIL WAY, TalkGroup: TGA2, Box: 2013, Map: 5652 H 9, Text: Medical ProQA recommends dispatch at this ti
+Body:(1/3) A820 Incident: F111940337, Type: BLS Amb, Loc: 13948 KING GEORGE WAY, PP, btwn KING JOHN WAY and KING CO
+
 **********************************************************
 Geauga County, OH
 Contact: "Pettit, Lewis 911" <LPettit@co.geauga.oh.us>,4404785985@vtext.com
@@ -2523,6 +2534,7 @@ Sender: msg@cfmsg.com
 System: Aegis CAD
 (Chief ALT) [40 EMS] - 26A10 - Sick Person - Unwell/Ill -- 2536 Skeeter Neck Rd, Frederica -- Xst's: Bowers Beach Rd / E Front St -- Caller: High Vue Logging Inc
 (Chief ALT) [KCPS] - [911, Kent] NWS UPGRADED LAST TO A WARNING, WILL BE IN WESTERN KENT COUNTY AROUND 22:30 HRS.
+(Chief ALT) [40 EMS] - 23C1V - Overdose/Poisoning -- 181 Holly Dr, Frederica -- High Point Mhp -- Xst's: Garden Pl / Maple Dr -- Caller: Marrillo Paul
 **********************************************************
 Egg Harbor Township, Atlantic County. NJ
 Contact: Kirk Kerlin <winginet55@yahoo.com>
