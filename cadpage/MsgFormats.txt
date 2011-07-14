@@ -2577,6 +2577,11 @@ Kent County, DE (Bowers)(alternate)
 Contact: jeffrey morris <bowers4015@gmail.com>
 (Chief ALT) [KCPS] - [911, Kent] NWS UPGRADED LAST TO A WARNING, WILL BE IN WESTERN KENT COUNTY AROUND 22:30 HRS.
 **********************************************************
+Cadwell County, NC
+Contact: 8283127647@vtext.com
+BREATHING PROBLEMS CHARLIE;25 WATER ST;GF;APT 12;CIRCLE ST;NORTH SUMMIT AV
+CARDIAC RESP ARREST DEATH ECHO;5105 WENDOVER LN;GF;GUNPOWDER RD
+**********************************************************
 **********************************************************
 **********************************************************
 **********************************************************
@@ -2593,6 +2598,10 @@ Contact: jeffrey morris <bowers4015@gmail.com>
 **********************************************************
 Northampton County, VA
 Same dispatchcenter as Accomack county. (ESVA-911)
+CAD:ACCIDENT WITH INJURY;7446 OCCOHANNOCK NECK RD/CREEKVIEW RD;WARD;N5;D4
+CAD:CARBON MONOXIDE DETECTOR;11478 PARK AVE;EXMO;N203;D6;JACKSON ST;HOLLY CIR
+CAD:EMS UNIT FIRE INCIDENT STANDBY;7247 YOUNG ST;MACH;N33;C3;BAYSIDE RD;LANKFORD HWY;NORTHAMPTON MIDDLE SCHOOL
+CAD:ELECTRICAL EQUIPMENT FIRE;10669 TB RD/BAYSIDE RD;EXMO;N10;C5
 **********************************************************
 Stone County, MO
 Contact: Ryan Joy <crazyrockj@gmail.com>
@@ -2831,6 +2840,8 @@ EVENT #:F20110002860  LOC:199 OLD BLACKHAWK RD SOBE EST:   TYPE:VEHICLE FIRE   T
 EVENT #:E20110009962  LOC:251 HODGSON RD SOBE EST:  : @CRAWFORD CAMPGROUND TYPE:PROBLEM UNKNOWN   TIME:14:29:41 COMMENTS:WPH2 -080.456572 +040.787076 VERIZON WIRELESS 663 GEORGETOWN RD SW SECTOR SOUTH_BEAVER 70/F UNRESPONSIVE IS BREATHING IS RESPONSIVE AT THIS TIME NOT ACTING﻿
 EVENT #:F20110002971  LOC:GEORGETOWN RD/SPORTSMAN RD SOBE EST:   TYPE:FIRE OTHER   TIME:11:50:39 COMMENTS:OPS CH 2 UNK TYPE FIRE IN THE AREA  ﻿
 DISPATCH ALERT, EVENT #:E20110009854  LOC:381 HODGSON RD SOBE EST:   TYPE:SEIZURES   TIME:16:37:23 COMMENTS:WPH2 -080.464897 +040.780531 VERIZON WIRELESS 150 BRADEN RD S SECTOR DARLINGTON_TWP 12 YO FEMALE PASSED OUT HAD A SEIZURE LASTED APPROX 2 MINUTES NO PMHX 
+**********************************************************
+**********************************************************
 **********************************************************
 North East, MD (in Cecil County)
 Contact: Dave Simmons <acdave0911@gmail.com>

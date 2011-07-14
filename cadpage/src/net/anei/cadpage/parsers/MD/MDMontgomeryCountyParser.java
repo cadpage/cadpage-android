@@ -28,6 +28,9 @@ CAD MSG: * D * 2424 * PIC w/ ENTRAPMENT -ALS1 * 13400 NEW HAMPSHIRE AVE / 2 RAND
 Contact: "Ebow Holdbrook-Smith" <ebowhold4u@gmail.com>
 CAD MSG: * D * 3525 * PIC w/VEH OVERTURNED-ALS1 * S270C 121-27 @ 17000 S270 X18 TO X16 HWY ,MCG  * M735 T7
 
+Contact: Morgan Kee <morgan.kee@gmail.com>
+(MCo) [mCAD] * D * 4009 * PIC w/ ENTRAPMENT -ALS1 * 4700 BROOM DR / 18400 WICKHAM RD ,MCG * A740 E740 M704 RS704 D4 EMS EMSNOT BCNOT DFRS
+
 */
 
 public class MDMontgomeryCountyParser extends SmsMsgParser {
@@ -43,9 +46,9 @@ public class MDMontgomeryCountyParser extends SmsMsgParser {
 	@Override
 	protected boolean parseMsg(String body, Data data) {
   
-	  int pt = body.indexOf(" * D * ");
+	  int pt = body.indexOf("* D * ");
 	  if (pt < 0) return false;
-	  body = body.substring(pt+7).trim();
+	  body = body.substring(pt+6).trim();
     
     Properties props = parseMessage(body, "\\*", new String[]{"BOX","Call","Addr","Units"});
     data.strBox = props.getProperty("BOX", "");
