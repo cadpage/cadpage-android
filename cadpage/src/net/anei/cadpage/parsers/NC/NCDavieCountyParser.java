@@ -19,6 +19,9 @@ Contact: Michael Wilson <fireman1700@gmail.com>
 911:Call #110630-4406* Address:284 BRANGUS WAY* * * City:MOCKSVILLE* NBH: OFF 2386 CANA RD* Type:VF* VEHICLE FIRE* MEADER CORTLAND J* PH#:336-940-2666* Units:17
 911:Call #110628-4171* Address:700 RICHIE RD* * * City:MOCKSVILLE* NBH: FROM 444 EATONS CHURCH RD TO 3558 US HWY 601 N NBH: I40 TO FARMSTEAD LN* Type:HC* HAZARDO
 
+Contact: Brent Crotts <jvfd2110@gmail.com>
+911@[70.60.255.70] 911:Call #110713-6266* Address:154 CRESTVIEW DR* * * City:MOCKSVILLE* NBH: OFF 499 EAST LAKE DR* Type:26A2-11* SICK PERSON (SPECIFIC DIAGNOSIS)* linda packett* P
+
  */
 
 
@@ -33,8 +36,9 @@ public class NCDavieCountyParser extends FieldProgramParser {
 
   @Override
   protected boolean parseMsg(String body, Data data) {
-    if (!body.startsWith("911:Call #")) return false;
-    body = body.substring(10).trim();
+    int ipt = body.indexOf("911:Call #");
+    if (ipt < 0) return false;
+    body = body.substring(ipt+10).trim();
     body = body.replace("PH#:", "PH:");
     return parseFields(DELIM.split(body), data);
   }

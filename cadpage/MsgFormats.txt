@@ -2941,6 +2941,7 @@ Cardiac - 155 E STATE STREET - Albion Family Practice\2s(PRE-PLAN) - Wells Avenu
 MVA - 126 E STATE STREET -  - Water Street & Wells Avenue
 Chest Pain - E STATE STREET & First Avenue -  - MEET PD -
 Ill Patient - 10745 ROUTE 18 - SCI-Albion\2s(PRE-PLAN) - USE FRONT ENTRANCE - Boro / Township Line & Carter Road
+Fire Alarm -- Business - 32 W PEARL STREET - Barnett Building\2s(PRE-PLAN) - Juliet Street & Academy Street
 **********************************************************
 Delmar DE, looking to implement second parser for MD
 Contact: Steve Litchford <stevelitchford@gmail.com>
