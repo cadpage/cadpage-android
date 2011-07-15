@@ -40,6 +40,18 @@ public class ORBentonCountyParserTest extends BaseParserTest {
         "X:SUNSHINE AV",
         "MAP:550-385",
         "ID:101710-223");
+
+    doTest("T4",
+        "(Corvallis Alert) INC:BICYCLE ACCIDENT\nADD:DECKER RD and DECKER RIDGE RD\nAPT:\nCITY:PHILOMATH\nX:DECKER RD * BANKS LN\nMAP:480-420\nCFS:070611-52\nDIS:BEN",
+        "CALL:BICYCLE ACCIDENT",
+        "ADDR:DECKER RD and DECKER RIDGE RD",
+        "X:DECKER RD * BANKS LN",
+        "MAP:480-420",
+        "ID:070611-52");
     
+  }
+  
+  public static void main(String args[]) {
+    new ORBentonCountyParserTest().generateTests("T4", "CALL ADDR CITY X MAP ID");
   }
 }
