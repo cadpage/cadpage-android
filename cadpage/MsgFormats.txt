@@ -1951,7 +1951,7 @@ Sender: rc.69@c-msg.net
 15CAD / [eFB] F00 23:39 1 - T:M6D4 (DIFF BREATHING-CLAMMY) L:758 JAVELIN WY ,HNRN btwn BRIDLE WY ~ TROPHY WY *HUNTERS RUN TP - D\n\n
 15CAD / ESC:??DSC:DIFF BREATHING ?! PAT:1 SEX:Female AGE:30Years CON:Y BRE:Y\n\n
 **********************************************************
-Another Nassau County, NY parser
+Another Nassau County, NY parser(s)
 
 Contact: HOLEY MOLEY <efd6012@aol.com>
 Sender: news@1rwn.com
@@ -1974,6 +1974,17 @@ System: Alarm Data Interface
 RESCUE-AMBULANCE\n18:09\n06/01/11\nELDERLY FEMALE-STROKE\n3 BALDWIN BLVD\nBAYARD AVE / KNOLLWOOD AVE\nMAP 6-C\n
 RESCUE-AMBULANCE \n16:19 \n06/13/11 \nMALE DIZZY \n80 GODFREY AVE \nMOUNTAIN AVE / MURRAY ST \nMAP 17-B \n
 GENERAL-WIRE \n19:07 \n06/14/11 \nWIRES BURNING POLE TO POLE \n122 BAYVILLE AVE \nSCHOOL ST / GARDEN ST \nMAP 7-A \n
+
+Contact: "Andrew Moreno" <a_moreno@verizon.net>
+Sender: 2ndSignal@secondsignal.com
+(* ) RESCUE\n
+7:29 PM\n
+181 MEADOWBROOK ROAD\n
+MERRICK\n
+AKEL CT\n
+WILLIS AVE\n
+MALE IN PAIN/PREVIOUS MVA\n
+1-516-324-2379   support@2sig.com
 **********************************************************
 Harris County, TX
 Contact: Nathan Mathews <nbmathews807@gmail.com>
