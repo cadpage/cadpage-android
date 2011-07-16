@@ -63,7 +63,7 @@
               android:summaryOff="@string/pref_vibrate_summaryoff"
               android:defaultValue="@string/pref_vibrate_default"
               android:dependency="@string/pref_notif_enabled_key" />
-            <net.anei.cadpage.preferences.CustomVibrateListPreference
+            <net.anei.cadpage.preferences.ListPreference
               android:key="@string/pref_vibrate_pattern_key"
               android:title="@string/pref_vibrate_pattern_title"
               android:summary="@string/pref_vibrate_pattern_summary"
