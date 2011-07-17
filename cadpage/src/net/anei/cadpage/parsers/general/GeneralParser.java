@@ -13,7 +13,7 @@ public class GeneralParser extends SmartAddressParser {
   
   private static final Pattern DATE_PATTERN = Pattern.compile("\\b\\d\\d/\\d\\d/\\d\\d(\\d\\d)?\\b");
   private static final Pattern TIME_PATTERN = Pattern.compile("\\b\\d\\d(?::\\d\\d)+\\b");
-  private static final String DELIM_PATTERN_STR = ";|,|\\*|\\n|\\||\\b[A-Z][A-Za-z0-9-#]*:|\\bC/S:|\\b[A-Z][A-Za-z]*#";
+  private static final String DELIM_PATTERN_STR = ";|,|~|\\*|\\n|\\||\\b[A-Z][A-Za-z0-9-#]*:|\\bC/S:|\\b[A-Z][A-Za-z]*#";
   private static Pattern DELIM_PATTERN; // will be filled in by constructor
   private static final Pattern CALL_ID_PATTERN = Pattern.compile("\\d[\\d-]+\\d");
   private static final Pattern UNIT_PATTERN = Pattern.compile("([A-Z]{1,4}[0-9]{1,4}\\s+)+");
