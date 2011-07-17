@@ -219,6 +219,14 @@ public class GeneralParserTest extends BaseParserTest {
         "CALL::8 - EMS",
         "ADDR:12040 SR 362",
         "INFO:UNIT 19 MINSTER BETW CANAL #1 RD & COUNTY LINE");
+    
+    doTest("T26",
+        "(CVA-CLASS 1) MANHEIM TWP~106 DELANCY PL~RUTLEDGE AVE~DEAD END~QRS204~08:55:30^",
+        "CALL:MANHEIM TWP",
+        "ADDR:106 DELANCY PL",
+        "X:RUTLEDGE AVE",
+        "INFO:DEAD END ~ ^",
+        "UNIT:QRS204");
   }
   
 }
