@@ -24,20 +24,11 @@ Contact: Mark Kendall <mark.kendall2408@gmail.com>
 Sender: 5304482408
 FIRE, OTHER; 7600 BLACK BUTTE RD / 28502 HWY 44 ,SHINGLETOWN ; ; ; Map: 3678; Inc# 003825; E2460 VOL20 B2408; portable saw on fire.
 
+(NOT SUPPORTED)
+Contact: Erik Revheim <ejrevheim@gmail.com>
+Sender: 5304109246
+CLOSE: Inc# 005310; FIRE, WILDLAND CITY MTZ; 11794 MCELROY LN ,BUCKEYE ; DSP: 7-15-19:33; AIQ: 7-15-19:46;
 
-Semicolon separated
-Call desc
-Address
-City or Station?
-cross address #1
-cross address #2
-Map: <map>
-INC# <call #>
-<units>
-<info>
-
-BELLAVISTA
-STA43
  */
 
 
@@ -49,7 +40,7 @@ public class CAShastaCountyParser extends SmartAddressParser {
   
   @Override
   public String getFilter() {
-    return "vtext.com@gmail.com,5304482408";
+    return "vtext.com@gmail.com,5304482408,5304109246";
   }
 
   @Override

@@ -113,7 +113,7 @@ public class SmsReceiver extends BroadcastReceiver {
       // If it didn't, see if we can accept this as a general page
       // which only happens if the general alert config settings is set and there
       // is an active user filter
-      if (! isPage && genAlert && sFilter.length()>1) {
+      if (! isPage && genAlert && sFilter.trim().length()>1) {
         isPage = ManageParsers.getInstance().getAlertParser().isPageMsg(message, overrideFilter, genAlert);
       }
       

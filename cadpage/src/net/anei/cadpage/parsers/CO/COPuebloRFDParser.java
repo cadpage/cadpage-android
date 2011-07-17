@@ -16,6 +16,13 @@ System: Spillman mobile
 (Page ) 04:52PM 11/27 ATTN RURAL FIRE: 28141 south rd....male poss overdose...jaa
 (Page ) 09:18AM 12/11 rural fire  33550 hwy 96 E Lot 379 35 yof convulsions
 (Page ) 11:45PM 11/15 ATTN RURAL FIRE: 1917 n santa fe ave...at the car wash....39yof...seizure...jaa
+
+
+Not supported yet!
+Contact: Giz <passig5312@hotmail.com>
+(Page ) rural fire...23090 gale rd female with chest pain
+
+
 */
 
 

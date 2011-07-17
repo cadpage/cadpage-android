@@ -257,7 +257,7 @@ public class MmsTransactionService extends Service {
       
       // See if we can rule out this message without the text body
       // meaning with just a subject and from address
-      boolean isPage = (genAlert && sFilter.length() > 1) ||
+      boolean isPage = (genAlert && sFilter.trim().length() > 1) ||
           parser.isPageMsg(message, overrideFilter, genAlert);
       
       // If not a cad page, we're done with this
