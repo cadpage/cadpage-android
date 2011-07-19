@@ -223,7 +223,34 @@ public class PABucksCountyParserTest extends BaseParserTest {
         "BOX:20001",
         "MAP:2922J6",
         "ID:FD");
-  }
+
+    doTest("T19",
+        "911: STA58  type:FBLD    adr:121 PARK AV ,58  btwn FRONT ST & S 2ND ST  aai:QUAKERTOWN ASSOCIATES 215-901-8033  box:17001  map:2695H10  tm:17:44:38   FD1110887    Run: L57 SQ18 E36 R18 R58",
+        "SRC:STA58",
+        "CALL:FBLD - BUILDING FIRE (BOX)",
+        "ADDR:121 PARK AV",
+        "CITY:QUAKERTOWN TWP",
+        "X:FRONT ST & S 2ND ST",
+        "INFO:QUAKERTOWN ASSOCIATES 215-901-8033",
+        "BOX:17001",
+        "MAP:2695H10",
+        "ID:FD1110887",
+        "UNIT:L57 SQ18 E36 R18 R58");
+
+    doTest("T20",
+        "911: STA14  type:EXBLD   adr:3501 BRISTOL OXF VALLEY RD #1107 ,25 -- AVALON COURT APT btwn LESLIE DR & BORDER  aai:  box:82015  map:3263A9  tm:22:06:28  FD1110945  Run: TW14 E12",
+        "SRC:STA14",
+        "CALL:EXBLD - EXTINGUISHED STRUCTURE (TAC)",
+        "PLACE:AVALON COURT APT",
+        "ADDR:3501 BRISTOL OXF VALLEY RD",
+        "CITY:BRISTOL TWP",
+        "X:LESLIE DR & BORDER",
+        "APT:1107",
+        "BOX:82015",
+        "MAP:3263A9",
+        "ID:FD1110945",
+        "UNIT:TW14 E12");
+ }
   
   public static void main(String[] args) {
     new PABucksCountyParserTest().generateTests("T19");
