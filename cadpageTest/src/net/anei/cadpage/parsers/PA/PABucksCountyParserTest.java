@@ -250,9 +250,21 @@ public class PABucksCountyParserTest extends BaseParserTest {
         "MAP:3263A9",
         "ID:FD1110945",
         "UNIT:TW14 E12");
+
+    doTest("T21",
+        "911: SQ134  type:APOSXP  adr:307 W BUTLER AV ,48  btwn BRITTANY DR & SURREY RD  aai:NE SECTOR  box:74062  map:3033E6  tm:07:24:51  ED1126192",
+        "SRC:SQ134",
+        "CALL:APOSXP - POSSIBLE EXPIRATION",
+        "ADDR:307 W BUTLER AV",
+        "CITY:NEW BRITAIN TWP",
+        "X:BRITTANY DR & SURREY RD",
+        "INFO:NE SECTOR",
+        "BOX:74062",
+        "MAP:3033E6",
+        "ID:ED1126192");
  }
   
   public static void main(String[] args) {
-    new PABucksCountyParserTest().generateTests("T19");
+    new PABucksCountyParserTest().generateTests("T22");
   }
 }
