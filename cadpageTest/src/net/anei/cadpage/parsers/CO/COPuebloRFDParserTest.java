@@ -13,7 +13,7 @@ public class COPuebloRFDParserTest extends BaseParserTest {
   }
   
   @Test
-  public void testParser() {
+  public void test1Parser() {
     
     doTest("T1",
         "(Page ) 12:43PM 11/28 RURAL FIRE in the area of 1543 Cooper Pl report of heavy smoke no flames showing...kr",
@@ -44,7 +44,47 @@ public class COPuebloRFDParserTest extends BaseParserTest {
         "ADDR:1917 n santa fe ave",
         "CALL:ATTN RURAL FIRE:",
         "INFO:at the car wash / 39yof / seizure");
-    
-    
+  }
+  
+  @Test
+  public void test2Parser() {
+
+    doTest("T1",
+        "(Page ) rural fire...23090 gale rd female with chest pain",
+        "CALL:rural fire",
+        "ADDR:23090 gale rd",
+        "INFO:female with chest pain");
+
+    doTest("T2",
+        "(Page ) 328 avondale blvd; 16 yom passed out earlier today, cant talk now... go in side door...smb",
+        "ADDR:328 avondale blvd",
+        "INFO:16 yom passed out earlier today, cant talk now / go in side door");
+
+    doTest("T3",
+        "(Page ) Attn Rural Fire...27767 Hwy 50 E.... 89 yof passed out...rach",
+        "CALL:Attn Rural Fire",
+        "ADDR:27767 Hwy 50 E",
+        "INFO:89 yof passed out");
+
+    doTest("T4",
+        "(Page ) RURAL  75 yof breathing diff  1130 WAGO DR",
+        "ADDR:1130 WAGO DR",
+        "CALL:RURAL 75 yof breathing diff");
+
+    doTest("T5",
+        "(Page ) attn pueblo rural fire 27025 tourchey way female dizzy and not feeling good",
+        "CALL:attn pueblo rural fire",
+        "ADDR:27025 tourchey way",
+        "INFO:female dizzy and not feeling good");
+
+    doTest("T6",
+        "(Page ) 31918 hwy 96 e; loaf & jug; fem dizzy; almost fainted...tdb",
+        "ADDR:31918 hwy 96 e",
+        "INFO:loaf & jug / fem dizzy / almost fainted");
+   
+  }
+  
+  public static void main(String[] args) {
+    new COPuebloRFDParserTest().generateTests("T1", "CALL ADDR INFO");
   }
 }   
