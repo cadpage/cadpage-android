@@ -1,15 +1,15 @@
 package net.anei.cadpage.parsers.CO;
 
 import net.anei.cadpage.parsers.BaseParserTest;
-import net.anei.cadpage.parsers.CO.COPuebloRFDParser;
+import net.anei.cadpage.parsers.CO.COPuebloCountyParser;
 
 import org.junit.Test;
 
 
-public class COPuebloRFDParserTest extends BaseParserTest {
+public class COPuebloCountyParserTest extends BaseParserTest {
   
-  public COPuebloRFDParserTest() {
-    setParser(new COPuebloRFDParser(), "PUEBLO COUNTY", "CO");
+  public COPuebloCountyParserTest() {
+    setParser(new COPuebloCountyParser(), "PUEBLO COUNTY", "CO");
   }
   
   @Test
@@ -85,6 +85,6 @@ public class COPuebloRFDParserTest extends BaseParserTest {
   }
   
   public static void main(String[] args) {
-    new COPuebloRFDParserTest().generateTests("T1", "CALL ADDR INFO");
+    new COPuebloCountyParserTest().generateTests("T1", "CALL ADDR INFO");
   }
 }   
