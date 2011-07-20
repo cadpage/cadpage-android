@@ -10,6 +10,7 @@ public class PAChesterCountyBaseParser extends FieldProgramParser {
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "NGARDN", "NEW GARDEN TWP",
+      "LDNBRT", "LANDENBERG",
       "LGROVE", "LONDON GROVE TWP",
       "POCOPS", "POCOPSON TWP",
       "NEWLON", "NEW LONDON TWP",
@@ -59,13 +60,37 @@ public class PAChesterCountyBaseParser extends FieldProgramParser {
     }
   }
   
+  // ADDRCITY2: address, city
+  protected class AddressCity2Field extends AddressField {
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      int pt = field.indexOf(',');
+      if (pt < 0) return false;
+      parseAddress(field.substring(0,pt).trim(), data);
+      data.strCity = field.substring(pt+1).trim();
+      return true;
+    }
+    
+    @Override
+    public void parse(String field, Data data) {
+      if (!checkParse(field, data)) abort();
+    }
+  }
+  
   // X2: must contain &
   protected class Cross2Field extends CrossField {
+    
     @Override
     public boolean checkParse(String field, Data data) {
       if (!field.contains("&")) return false;
       parse(field, data);
       return true;
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "X";
     }
   }
   
@@ -126,6 +151,14 @@ public class PAChesterCountyBaseParser extends FieldProgramParser {
     }
   }
   
+  private static final Pattern DATE_TIME_PATTERN = 
+    Pattern.compile("\\d\\d/\\d\\d/\\d\\d(?:\\d\\d)?|\\d\\d:\\d\\d(?::\\d\\d)?");
+  protected class DateTimeField extends SkipField {
+    public DateTimeField() {
+      setPattern(DATE_TIME_PATTERN, true);
+    }
+  }
+  
   // EMPTY: must be empty
   protected class EmptyField extends SkipField {
 
@@ -145,11 +178,13 @@ public class PAChesterCountyBaseParser extends FieldProgramParser {
   public Field getField(String name) {
     if (name.equals("ADDRPL")) return new AddressPlaceField();
     if (name.equals("ADDRCITY")) return new AddressCityField();
+    if (name.equals("ADDRCITY2")) return new AddressCity2Field();
     if (name.equals("X2")) return new Cross2Field();
     if (name.equals("APT")) return new BaseAptField();
     if (name.equals("PLACE")) return new BasePlaceField();
     if (name.equals("DATE")) return new DateField();
     if (name.equals("TIME")) return new TimeField();
+    if (name.equals("DATETIME")) return new DateTimeField();
     if (name.equals("EMPTY")) return new EmptyField();
     return super.getField(name);
   }
