@@ -2658,11 +2658,6 @@ Contact: "ryan petrone " <petrone1300@hotmail.com>
 Sender: msg@cfmsg.com
 (Chief ALT) [87 EMS] -- 17B Falls (BLS) -- 715 E King St Seaford de, 19973
 **********************************************************
-Morris County, NJ
-Contact: rod smith <bravo2247@gmail.com>
-Sender: miccom@nnjmicu.org
-Identical to Bergen County, NJ
-(CAD) T541 RESPOND: #11-0071085 Denville Twp *21 Pocono Rd *Fransiscan Oaks Health Ce*303B *Unnamed Street/Unnamed Street *Trans/Interfacility/Palliative14:05 Co
 **********************************************************
 **********************************************************
 **********************************************************
@@ -3179,6 +3174,8 @@ System: Aegis CAD
 (Chief ALT) [55 EMS 1] - 2D2 - Allergic Reaction -- 149 Juanita Dr, Magnolia -- London Village -- Xst's: Jeffrey Dr / Millchop Ln -- Caller: Price Laura
 (Chief ALT) [40 EMS] - 29B4 - MVC Unknown -- Mulberrie Point Rd, Frederica
 (Chief ALT) [40 EMS] - 10D2 - Chest Pains -- 196 N  Bayshore Dr, Frederica -- Bowers Beach -- Xst's: N Flack Ave / Main St -- Caller: Margaret
+(Chief ALT) [40 EMS] - 26C2 - Sick Person -- 201 Hubbard Ave, Frederica -- Bowers Beach -- Xst's: Dead End / Canal St -- Caller: Ingle Heather
+
 **********************************************************
 Erie County, PA (Alternate)
 Contact: Doug Johnson <dougjohnson6@gmail.com>

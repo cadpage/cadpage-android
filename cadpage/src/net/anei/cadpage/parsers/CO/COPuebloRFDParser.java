@@ -18,10 +18,13 @@ System: Spillman mobile
 (Page ) 11:45PM 11/15 ATTN RURAL FIRE: 1917 n santa fe ave...at the car wash....39yof...seizure...jaa
 
 
-Not supported yet!
 Contact: Giz <passig5312@hotmail.com>
 (Page ) rural fire...23090 gale rd female with chest pain
-
+(Page ) 328 avondale blvd; 16 yom passed out earlier today, cant talk now... go in side door...smb
+(Page ) Attn Rural Fire...27767 Hwy 50 E.... 89 yof passed out...rach
+(Page ) RURAL  75 yof breathing diff  1130 WAGO DR
+(Page ) attn pueblo rural fire 27025 tourchey way female dizzy and not feeling good
+(Page ) 31918 hwy 96 e; loaf & jug; fem dizzy; almost fainted...tdb
 
 */
 
@@ -29,7 +32,7 @@ Contact: Giz <passig5312@hotmail.com>
 public class COPuebloRFDParser extends SmartAddressParser {
   
   private static final Pattern TIME_MARK = Pattern.compile("^\\d\\d:\\d\\d[A-Z][A-Z] \\d\\d/\\d\\d ");
-  private static final Pattern DELIM = Pattern.compile(" *\\.{2,} *");
+  private static final Pattern DELIM = Pattern.compile(" *(?:\\.{2,}|;) *");
     
   public COPuebloRFDParser() {
     super("PUEBLO COUNTY", "CO");
@@ -45,23 +48,28 @@ public class COPuebloRFDParser extends SmartAddressParser {
 
     if (!subject.equals("Page")) return false;
     Matcher match = TIME_MARK.matcher(body);
-    if (! match.find()) return false;
-    body = body.substring(match.end()).trim().replaceAll(";", "");
+    if (match.find()) body = body.substring(match.end()).trim();
     
     String[] flds = DELIM.split(body);
     int fldCnt = flds.length;
-    if (flds[fldCnt-1].length() <= 3) fldCnt--;
+    if (flds[fldCnt-1].length() <= 4) fldCnt--;
     if (fldCnt == 0) return false;
     
-    
-    parseAddress(StartType.START_CALL, flds[0], data);
-    data.strSupp = getLeft();
-    
-    for (int jj = 1; jj<fldCnt; jj++) {
-      if (data.strSupp.length() > 0) data.strSupp += " / ";
-      data.strSupp += flds[jj];
+    for (int ndx = 0; ndx < fldCnt; ndx++) {
+      String fld = flds[ndx];
+      if (data.strAddress.length() == 0) {
+        if (data.strCall.length() == 0) {
+          parseAddress(StartType.START_CALL, fld, data);
+        } else {
+          parseAddress(StartType.START_ADDR, fld, data);
+        }
+        data.strSupp = getLeft();
+      }
+      
+      else {
+        data.strSupp = append(data.strSupp, " / ", fld);
+      }
     }
-
     return true;
   }
 }
