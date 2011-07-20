@@ -55,6 +55,9 @@ Contact: John Shipp <dieseltruckie14@gmail.com>
 Sender: 2159627145
 911: STA14  type:EXBLD   adr:3501 BRISTOL OXF VALLEY RD #1107 ,25 -- AVALON COURT APT btwn LESLIE DR & BORDER  aai:  box:82015  map:3263A9  tm:22:06:28  FD1110945  Run: TW14 E12
 
+Contact: Ryan Pankoe <rpankoe@gmail.com>
+911: SQ134  type:APOSXP  adr:307 W BUTLER AV ,48  btwn BRITTANY DR & SURREY RD  aai:NE SECTOR  box:74062  map:3033E6  tm:07:24:51  ED1126192  
+
  */
 
 
@@ -206,6 +209,7 @@ public class PABucksCountyParser extends FieldProgramParser {
   private static final Properties TYPE_CODES = buildCodeTable(new String[]{
       "AIRC",     "AIRPLANE CRASH (TAC)",
       "ACARDA",   "Cardiac/Respiratory Arrest",
+      "APOSXP",   "POSSIBLE EXPIRATION",
       "BOMB",     "BOMB THREAT",
       "BURN",     "BURN VICTIM (LOC)",
       "CBURN",    "CONTROLLED BURN",
