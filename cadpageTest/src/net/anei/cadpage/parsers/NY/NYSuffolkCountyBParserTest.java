@@ -214,9 +214,16 @@ public class NYSuffolkCountyBParserTest extends BaseParserTest {
         "ADDR:162 OAKLAND AVE",
         "X:W 6TH ST  / W 5TH ST",
         "INFO:A/F INF FROM A FALL   DEER PARK FIR");
+
+    doTest("T36",
+        "/ *** 23 - Miscellaneous Fire *** 18 SILVERPINE DR CS: ATNA DR  - PROSPECT ST W TOA: 12:10 07-17-11 2011-001109\n",
+        "CALL:23 - Miscellaneous Fire",
+        "ADDR:18 SILVERPINE DR",
+        "X:ATNA DR  - PROSPECT ST W",
+        "INFO:12:10 07-17-11 2011-001109");
   }
   
   public static void main(String[] args) {
-    new NYSuffolkCountyBParserTest().generateTests("T31", "CALL PLACE ADDR CITY X INFO SRC ID");
+    new NYSuffolkCountyBParserTest().generateTests("T37", "CALL PLACE ADDR CITY X INFO SRC ID");
   }
 }
