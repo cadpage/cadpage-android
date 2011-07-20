@@ -31,12 +31,17 @@ Contact: Kahl <kdmiller324@aol.com>
 Sender: mplus@co.broome.ny.us
 ((26873) ) ) 32:ALARM-HOUS :416 E BENITA BLVD :SMOKE ALARM GOING OFF INTERMITTENLY IN :BASEMENT. NO SMOKE OR FIRE VISIBLE-POSS PROBLEM WITH DETECTOR Cross Sts
 
+Contact: Neal Haight <dmbfn290@gmail.com>
+Sender: mplus@co.broome.ny.us
+Subject:(11470) ) \nCOMM:CHSTPAIN-C :27 GOLDEN LN HARPURSVILLE SENIOR :66yom chest pain                      <10C02> :66 year old, Male, C
+Subject:(12610) ) \nCOMM:UNRSPNSV-D :528 JENSEN RD :81 YOM NOT ALERT/SEVERE HEADACHE/DELTA :CALLER IS VESTAL CREW CHIEF OR DRIVER/CAN DO E
+
 */
 
 
 public class NYBroomeCountyParser extends FieldProgramParser {
   
-  private static Pattern LEADER = Pattern.compile("^(\\d\\d)[\\-:]");
+  private static Pattern LEADER = Pattern.compile("^([A-Z0-9]+)[\\-:]");
   private static Pattern TRAILER = Pattern.compile(" V/Endicott? *$");
   private static Pattern KEYWORD_PAT = Pattern.compile(" (|Cross Sts|Caller|Phone):");
   private static Pattern DATE_TIME_PAT = Pattern.compile(" \\d\\d:\\d\\d \\d\\d/\\d\\d/\\d{4} ");
@@ -80,10 +85,10 @@ public class NYBroomeCountyParser extends FieldProgramParser {
 	    return parseFields(flds, data);
 	  }
 	  
-	  // Source code must be 2 digits
+	  // Source code must be 2 digits or COMM
 	  private class MySourceField extends SourceField {
 	    public MySourceField() {
-	      setPattern(Pattern.compile("\\d\\d"), true);
+	      setPattern(Pattern.compile("\\d\\d|COMM"), true);
 	    }
 	  }
 
