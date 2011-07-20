@@ -12,7 +12,7 @@ public class PAChesterCountyBParserTest extends BaseParserTest {
   }
   
   @Test
-  public void testParser() {
+  public void testParser1() {
 
     doTest("T1",
         "OVERDOSE - ALS *\n300 CEDAR SPRINGS RD - LIBERTY KNOLL APTS\nW BALTIMORE PK & CEDAR WOODS CI\nAPT 205\nNGARDN\n3RD HAND INFO/RP NOT ON LOC/UNK AGE MALE SAID HE OD'S ON ON PILLS/RP PUT ME ON HOLD\n02/21/2011\n15:09\n610-388-7400",
@@ -74,7 +74,26 @@ public class PAChesterCountyBParserTest extends BaseParserTest {
         "PHONE:717-468-8174");
   }
   
+  @Test
+  public void testParser2() {
+
+    doTest("T1",
+        "(Messenger 911) BSICK\n65 GOOD HOPE RD\nPARSONS RD & PEACH TREE LA\nLDNBRT\n80/F FEVER AND BEDSORES/HX: HYPERTENSION, ALZH EIMERS, DEMENTIA\n11:59",
+        "CALL:BSICK",
+        "ADDR:65 GOOD HOPE RD",
+        "X:PARSONS RD & PEACH TREE LA",
+        "CITY:LANDENBERG",
+        "INFO:80/F FEVER AND BEDSORES/HX: HYPERTENSION, ALZH EIMERS, DEMENTIA");
+
+    doTest("T2",
+        "(Messenger 911) ACCINJ\n7440 LANCASTER PK, HOCKESSIN\nREQ AMB232----ASSIST NCC19 W/NUMEROUS PT'S IN ACCT\n14:07",
+        "CALL:ACCINJ",
+        "ADDR:7440 LANCASTER PK",
+        "INFO:REQ AMB232----ASSIST NCC19 W/NUMEROUS PT'S IN ACCT",
+        "CITY:HOCKESSIN");
+  }
+  
   public static void main(String[] args) {
-    new PAChesterCountyBParserTest().generateTests("T1");
+    new PAChesterCountyBParserTest().generateTests("T7");
   }
 }
