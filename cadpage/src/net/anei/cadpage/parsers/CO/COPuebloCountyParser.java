@@ -29,12 +29,12 @@ Contact: Giz <passig5312@hotmail.com>
 */
 
 
-public class COPuebloRFDParser extends SmartAddressParser {
+public class COPuebloCountyParser extends SmartAddressParser {
   
   private static final Pattern TIME_MARK = Pattern.compile("^\\d\\d:\\d\\d[A-Z][A-Z] \\d\\d/\\d\\d ");
   private static final Pattern DELIM = Pattern.compile(" *(?:\\.{2,}|;) *");
     
-  public COPuebloRFDParser() {
+  public COPuebloCountyParser() {
     super("PUEBLO COUNTY", "CO");
   }
   

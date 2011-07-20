@@ -186,6 +186,7 @@
     <item>PADelewareCounty</item>
     <item>OHDelewareCounty</item>
     <item>NJBergenCounty</item>
+    <item>COPuebloRFD</item>
   </string-array>
   <string-array name="new_location_values">
     <item>NCChathamCounty</item>
@@ -193,6 +194,7 @@
     <item>PADelawareCounty</item>
     <item>OHDelawareCounty</item>
     <item>NJMICOM</item>
+    <item>COPuebloCounty</item>
   </string-array>
   
   <!-- Array of state names -->
@@ -252,7 +254,7 @@
     <item>COGreeley</item>
     <item>COLarimerCounty</item>
     <item>CONorthglennEMS</item>
-    <item>COPuebloRFD</item>
+    <item>COPuebloCounty</item>
     <item>CTLitchfieldCounty</item>
     <item>CTTollandCounty</item>
     <item>DEKentCounty</item>
@@ -487,7 +489,7 @@
     <item>Greeley, CO</item>
     <item>Larimer County, CO</item>
     <item>Northglenn EMS, CO</item>
-    <item>Pueblo RFD, CO</item>
+    <item>Pueblo County, CO</item>
     <item>Litchfield County, CT</item>
     <item>Tolland County, CT</item>
     <item>Kent County, DE</item>
