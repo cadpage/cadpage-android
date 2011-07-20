@@ -1,19 +1,19 @@
 package net.anei.cadpage.parsers.NJ;
 
 import net.anei.cadpage.parsers.BaseParserTest;
-import net.anei.cadpage.parsers.NJ.NJBergenCountyParser;
+import net.anei.cadpage.parsers.NJ.NJMICOMParser;
 
 import org.junit.Test;
 
 
-public class NJBergenCountyParserTest extends BaseParserTest {
+public class NJMICOMParserTest extends BaseParserTest {
   
-  public NJBergenCountyParserTest() {
-    setParser(new NJBergenCountyParser(), "BERGEN COUNTY", "NJ");
+  public NJMICOMParserTest() {
+    setParser(new NJMICOMParser(), "", "NJ");
   }
   
   @Test
-  public void testParser() {
+  public void testBergenParser() {
     
     doTest("T1",
         "(CAD)  RESPOND: #10-0092 ENGLEWOOD CLIFFS BOR*580 Sylvan Ave * *SUITE B *DEMAREST AVE/UNNAMED STREET *Unknown Problem (Man Down)-BLS08:23 Code:31B01",
@@ -42,5 +42,24 @@ public class NJBergenCountyParserTest extends BaseParserTest {
         "PLACE:WALGREENS",
         "X:LEMOINE AVE/LEMOINE AVE",
         "CALL:Traumatic Injuries");
+  }
+  
+  @Test
+  public void testMorrisParser() {
+
+    doTest("T1",
+        "(CAD) T541 RESPOND: #11-0071085 Denville Twp *21 Pocono Rd *Fransiscan Oaks Health Ce*303B *Unnamed Street/Unnamed Street *Trans/Interfacility/Palliative14:05 Co",
+        "UNIT:T541",
+        "ID:11-0071085",
+        "CITY:Denville Twp",
+        "ADDR:21 Pocono Rd",
+        "PLACE:Fransiscan Oaks Health Ce",
+        "X:Unnamed Street/Unnamed Street",
+        "CALL:Trans/Interfacility/Palliative14:05 Co");
+   
+  }
+  
+  public static void main(String[] args) {
+    new NJMICOMParserTest().generateTests("T1", "UNIT ID CITY ADDR PLACE X CALL");
   }
 }
