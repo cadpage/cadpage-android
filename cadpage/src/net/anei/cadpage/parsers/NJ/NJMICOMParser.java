@@ -12,13 +12,18 @@ Sender: miccom@nnjmicu.org
 (CAD) S332 RESPOND: #10-0090603 ENGLEWOOD CITY *143 Engle St * * *E DEMAREST AVE/CHESTNUT ST *Falls-BLS 10:46 Code:17b01 
 (CAD) S332 CANCEL: #10-0090603 ENGLEWOOD CITY *143 Engle St Paged:10:46 Enrte:10:48 Scene:10:54 Avail:11:33 Cxl Rsn: Refused Medical Aid Code:17b01
 (CAD) S2 RESPOND: #10-0092818 FORT LEE BORO *0 - 0 Bridge Plz N *WALGREENS * *LEMOINE AVE/LEMOINE AVE *Traumatic Injuries-BLS 16:01 Code:30bt1
+
+Morris County, NJ
+Contact: rod smith <bravo2247@gmail.com>
+(CAD) T541 RESPOND: #11-0071085 Denville Twp *21 Pocono Rd *Fransiscan Oaks Health Ce*303B *Unnamed Street/Unnamed Street *Trans/Interfacility/Palliative14:05 Co
+
  */
 
 
-public class NJBergenCountyParser extends SmsMsgParser {
+public class NJMICOMParser extends SmsMsgParser {
   
-  public NJBergenCountyParser() {
-    super("BERGEN COUNTY", "NJ");
+  public NJMICOMParser() {
+    super("", "NJ");
   }
   
   @Override

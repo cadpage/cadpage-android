@@ -181,20 +181,18 @@
   <!-- Pair of arrays used to convert existing location code values when an
        existing Parser needs to be renamed for some reason -->
   <string-array name="old_location_values">
-    <item>MDArnold</item>
-    <item>NCStanleyCounty</item>
     <item>NCChattamCounty</item>
     <item>MDCentreville</item>
     <item>PADelewareCounty</item>
     <item>OHDelewareCounty</item>
+    <item>NJBergenCounty</item>
   </string-array>
   <string-array name="new_location_values">
-    <item>MDAnneArundelCounty</item>
-    <item>NCStanlyCounty</item>
     <item>NCChathamCounty</item>
     <item>MDQueenAnnesCounty</item>
     <item>PADelawareCounty</item>
     <item>OHDelawareCounty</item>
+    <item>NJMICOM</item>
   </string-array>
   
   <!-- Array of state names -->
@@ -323,11 +321,11 @@
     <item>MOStLouisCounty</item>
     <item>MTLewisAndClarkCounty</item>
     <item>NVLasVegas</item>
-    <item>NJBergenCounty</item>
     <item>NJBurlingtonCounty</item>
     <item>NJCamdenCounty</item>
     <item>NJCumberlandCounty</item>
     <item>NJGloucesterCounty</item>
+    <item>NJMICOM</item>
     <item>NJMorrisCounty</item>
     <item>NJSalemCounty</item>
     <item>NJSomersetCounty</item>
@@ -558,11 +556,11 @@
     <item>St Louis County, MO</item>
     <item>Lewis &amp; Clark County, MT</item>
     <item>Las Vegas, NV</item>
-    <item>Bergen County, NJ</item>
     <item>Burlington County, NJ</item>
     <item>Camden County, NJ</item>
     <item>Cumberland County, NJ</item>
     <item>Gloucester County, NJ</item>
+    <item>MICOM (northern NJ), NJ</item>
     <item>Morris County, NJ</item>
     <item>Salem County, NJ</item>
     <item>Somerset County, NJ</item>
