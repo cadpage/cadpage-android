@@ -120,9 +120,24 @@ public class NYBroomeCountyParserTest extends BaseParserTest {
         "CALL:ALARM-HOUS",
         "ADDR:416 E BENITA BLVD",
         "INFO:SMOKE ALARM GOING OFF INTERMITTENLY IN / BASEMENT. NO SMOKE OR FIRE VISIBLE-POSS PROBLEM WITH DETECTOR Cross Sts");
+
+    doTest("T11",
+        "Subject:(11470) ) \nCOMM:CHSTPAIN-C :27 GOLDEN LN HARPURSVILLE SENIOR :66yom chest pain                      <10C02> :66 year old, Male, C",
+        "SRC:COMM",
+        "CALL:CHSTPAIN-C",
+        "ADDR:27 GOLDEN LN",
+        "PLACE:HARPURSVILLE SENIOR",
+        "INFO:66yom chest pain <10C02> / 66 year old, Male, C");
+
+    doTest("T12",
+        "Subject:(12610) ) \nCOMM:UNRSPNSV-D :528 JENSEN RD :81 YOM NOT ALERT/SEVERE HEADACHE/DELTA :CALLER IS VESTAL CREW CHIEF OR DRIVER/CAN DO E",
+        "SRC:COMM",
+        "CALL:UNRSPNSV-D",
+        "ADDR:528 JENSEN RD",
+        "INFO:81 YOM NOT ALERT/SEVERE HEADACHE/DELTA / CALLER IS VESTAL CREW CHIEF OR DRIVER/CAN DO E");
   }
   
   public static void main(String[] args) {
-    new NYBroomeCountyParserTest().generateTests("T10");
+    new NYBroomeCountyParserTest().generateTests("T13");
   }
 }
