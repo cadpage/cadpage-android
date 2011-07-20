@@ -2649,6 +2649,12 @@ Sender: qvecpaging@qvec.org
 (Moosup FD Page) QVMedic STA94 STA594 MOOS1  UHF-4 PRI 1 PARTIAL AIR WAS OBSTRUCTIONS / Choking/Airway Problem 67 S MAIN ST / Moosup (X-STS VOSSLER DR / WARD LN
 (Moosup FD Page) STA94 STA594 MOOS2  UHF-4 PRI 1 MOOS AMB 2ND CREW / Vehicle Accident SNAKE MEADOW RD / VALLEY VIEW RD / Moosup (X-STS ) 22:10
 **********************************************************
+Cole County, MO
+Contact: Kevin Wieberg <kwieberg@colecounty.org>
+Sender: CCEMS
+FRM:CCEMS \nSUBJ:CVA\nMSG:1417 Route E - Possible stroke 7/18/2011 2:16 PM
+FRM:CCEMS \nSUBJ:Fall\nMSG:1417 Route E - 7/18/2011 2:13 PM
+FRM:CCEMS \nSUBJ:903\nMSG:RESPOND TO 14803 Rte. B FOR M PT WHO PASSED OUT IS NOW CONSCIOUS . 7/17/2011 7:04 PM
 **********************************************************
 **********************************************************
 **********************************************************

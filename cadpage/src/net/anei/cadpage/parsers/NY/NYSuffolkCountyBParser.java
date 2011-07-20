@@ -35,6 +35,11 @@ Suffolk County, NY (Version B)
 *** 16 - Rescue *** 1015 GRAND BLVD CS: E INDUSTRY CT  / CORBIN AVE TOA: 12:09 04/02/11 3 Y/O POSSINING  DEER PARK F
 *** 16 - Rescue *** 162 OAKLAND AVE CS: W 6TH ST  / W 5TH ST TOA: 10:20 04/02/11 A/F INF FROM A FALL   DEER PARK FIR
 
+Contact: Odane Pur <mug930@gmail.com>
+Sender: paging@firerescuesystems.xohost.com
+  / *** 23 - Miscellaneous Fire *** 18 SILVERPINE DR CS: ATNA DR  - PROSPECT ST W TOA: 12:10 07-17-11 2011-001109\n
+
+
 sms send 1112223333 (1/2)Daniel M. Agababian - Sender: paging@firerescuesystems.xohost.com\n*** 16 - Rescue *** 162 OAKLAND AVE CS: W 6TH ST  / W 5TH ST TOA: 10:20 04/02/11 A/F INF
 sms send 1112223333 (2/2)FROM A FALL   DEER PARK FIR
 
@@ -57,6 +62,7 @@ public class NYSuffolkCountyBParser extends SmartAddressParser {
   @Override
   protected boolean parseMsg(String body, Data data) {
     
+    if (body.startsWith("/")) body = body.substring(1).trim();
     if (!body.startsWith("***")) return false;
     int pta = body.indexOf("***",3); 
     if (pta < 0) return false;
