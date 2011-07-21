@@ -10,13 +10,13 @@ public class MDPrinceGeorgesCountyParserTest {
   
   public static class TestFireBiz extends MDPrinceGeorgesCountyFireBizParserTest {
     public TestFireBiz() {
-      setParser(new MDPrinceGeorgesCountyFireBizParser());
+      setParser(new MDPrinceGeorgesCountyParser());
     }
   }
   
-  public static class TestB extends MDPrinceGeorgesCountyBParserTest {
-    public TestB() {
-      setParser(new MDPrinceGeorgesCountyBParser());
+  public static class TestC extends MDPrinceGeorgesCountyCParserTest {
+    public TestC() {
+      setParser(new MDPrinceGeorgesCountyParser());
     }
   }
   

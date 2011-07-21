@@ -54,12 +54,13 @@ public class NJMICOMParserTest extends BaseParserTest {
         "CITY:Denville Twp",
         "ADDR:21 Pocono Rd",
         "PLACE:Fransiscan Oaks Health Ce",
+        "APT:303B",
         "X:Unnamed Street/Unnamed Street",
         "CALL:Trans/Interfacility/Palliative14:05 Co");
    
   }
   
   public static void main(String[] args) {
-    new NJMICOMParserTest().generateTests("T1", "UNIT ID CITY ADDR PLACE X CALL");
+    new NJMICOMParserTest().generateTests("T1", "UNIT ID CITY ADDR PLACE APT X CALL");
   }
 }
