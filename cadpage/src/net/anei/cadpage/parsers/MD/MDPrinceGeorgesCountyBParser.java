@@ -7,8 +7,10 @@ import net.anei.cadpage.SmsMsgInfo.Data;
 import net.anei.cadpage.parsers.FieldProgramParser;
 
 /*
-Prince Georges County, MD (again)
-Requires reverse merge support
+Prince Georges County, MD (Variant B)
+This is believed to have been superseded by Variant C
+We keep it around in case we turn out to be wrong about that
+And to give any history calls referring to this parser a place to link to
 
 Contact: James Busi <jb10766@gmail.com>
 Contact: "nhedrick36@aol.com" <nhedrick36@aol.com>
