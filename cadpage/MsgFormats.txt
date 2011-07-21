@@ -3015,7 +3015,7 @@ Sender: cadpage@joco911.org
 [ Subject: 911 Page ] 7/17/2011 21:02:06 FIRE STRUCTURE 1072 NW 475 RD JOHNSON COUNTY
 **********************************************************
 Caldwell County, NC
-Contact: 8283127647@vtext.com
+Contact: "justinwinebarger" <justinwinebarger@bellsouth.net>,8283127647@vtext.com
 BREATHING PROBLEMS CHARLIE;25 WATER ST;GF;APT 12;CIRCLE ST;NORTH SUMMIT AV
 CARDIAC RESP ARREST DEATH ECHO;5105 WENDOVER LN;GF;GUNPOWDER RD
 FALL WITH PERSONAL INJURY;2998 CAMPGROUND RD;GF;SHELTON HOLLAR PL;C BELL MCRARY PL;1107150247
@@ -3024,6 +3024,22 @@ FALL WITH PERSONAL INJURY;WALMART GRANITE FALLS;4780 HICKORY BLVD;GF;GLEN RIDGE 
 Contact: Justin Winebarger <justinwinebarger@bellsouth.net>
 Sender: CAD@caldwellcountync.org
 CARBON MONOXIDE DETECTOR ALARM;398 THOMPSON DR;HUD;SHADY OAK TER;HICKORY BLVD;1107200204
+
+GF.- GRANITE FALLS
+GMW- GAMEWELL
+GC- GRACE CHAPEL
+HUD-HUDSON
+KC. KINGS CREEK
+LEN. LENOIR
+LR LITTLE RIVER
+NC. NORTH CATAWBA
+PATT.  PATTERSON
+RHOD. RHODHISS
+SAW. SAWMILLS
+VAL. VALMEAD
+YAD. YADKIN VALLEY
+BETH.  BETHLEHEM
+
 **********************************************************
 **********************************************************
 **********************************************************

@@ -20,6 +20,10 @@ NASH911:* 7671 EDWARDS RD* * * CASTALIA* * ALARM-FIRE* * GUARDIAN PROTECTION* * 
 NASH911:* 4306 SWIFT CREEK SCHOOL RD* * * WHITAKERS* * STRUCTURE* * ALLTEL WIRELESS* * * * * * *
 NASH911:* 5388 TAYLORS STORE RD* * * NASHVILLE* * OUTSIDE FI* * HEDGEPETH, AVERINE* * * * * * *
 
+Contact: Kevin Thomas <emtffkev@gmail.com>
+Sender: NASH911@NASHCOUNTYNC.GOV
+  / NASH911:* 5557 N HALIFAX RD* * * BATTLEBORO* * MVA PIN-H* * LARNELL HARDING* * * * * * *\n
+
 */
 
 public class NCNashCountyParser extends DispatchOSSIParser {
@@ -30,7 +34,13 @@ public class NCNashCountyParser extends DispatchOSSIParser {
   }
   
   @Override
+  public String getFilter() {
+    return "nash911@nashcountync.gov";
+  }
+  
+  @Override
   public boolean parseMsg(String body, Data data) {
+    if (body.startsWith("/ ")) body = body.substring(2).trim();
     if (!body.startsWith("NASH911:")) return false;
     body = body + " ";
     return parseFields(body.split("\\* "), data);
