@@ -4,7 +4,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.SmsMsgInfo.Data;
-import net.anei.cadpage.parsers.dispatch.DispatchOSSIParser;
+import net.anei.cadpage.parsers.FieldProgramParser;
 
 /* 
 Cumberland County, NC
@@ -19,20 +19,24 @@ Sender: cad@co.cumberland.nc.us
 CAD:(S) (N)C4;03/04/2011 21:18:43;UNKNOWN OUTSIDE FIRE;ST22;2700-BLK BRAGG BLVD
 CAD:DIST: 174.69 FT (S)UPTON TYSON (BELRIDGR DR) (N)C10;05/20/2011 08:34:01;CLAMMY CHEST PAIN;ST18;3570 LACEWOOD CT;NC HWY 87 S
 
+Contact: Brandon Norris <lawranger197@gmail.com>
+Sender: messaging@iamresponding.com
+(Station 13) 2011 07:30:53;ALERT WITH ABNORMAL BREATHING;ST13;2881 STRICKLAND BRIDGE RD;CENTURY CIR
+
 */
 
-public class NCCumberlandCountyParser extends DispatchOSSIParser {
+public class NCCumberlandCountyParser extends FieldProgramParser {
   
   private static final Pattern MARKER = Pattern.compile("\\(S\\) *(.*?) *\\(N\\) *");
   
   public NCCumberlandCountyParser() {
     super("CUMBERLAND COUNTY", "NC",
-           "UNIT SKIP CALL SRC ADDR X PLACE");
+           "UNIT? DATETIME CALL SRC ADDR X PLACE");
   }
   
   @Override
   public String getFilter() {
-    return "cad@co.cumberland.nc.us";
+    return "cad@co.cumberland.nc.us,messaging@iamresponding.com";
   }
   
   @Override
@@ -43,9 +47,10 @@ public class NCCumberlandCountyParser extends DispatchOSSIParser {
     }
     if (subject.equals("S")) body = "(S)" + body;
     Matcher match = MARKER.matcher(body);
-    if (!match.find()) return false;
-    data.strPlace = match.group(1);
-    body = body.substring(match.end());
+    if (match.find()) {
+      data.strPlace = match.group(1);
+      body = body.substring(match.end());
+    }
     
     return parseFields(body.split(";"), data);
   }
@@ -53,5 +58,24 @@ public class NCCumberlandCountyParser extends DispatchOSSIParser {
   @Override
   public String getProgram() {
     return "PLACE " + super.getProgram();
+  }
+  
+  private class MyUnitField extends UnitField {
+    public MyUnitField() {
+      setPattern(Pattern.compile("[A-Z][0-9]+"));
+    }
+  }
+  
+  private class DateTimeField extends SkipField {
+    public DateTimeField() {
+      setPattern(Pattern.compile("(?:\\d\\d/\\d\\d/)?\\d{4} \\d\\d:\\d\\d:\\d\\d"), true);
+    }
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("UNIT")) return new MyUnitField();
+    if (name.equals("DATETIME")) return new DateTimeField();
+    return super.getField(name);
   }
 }
