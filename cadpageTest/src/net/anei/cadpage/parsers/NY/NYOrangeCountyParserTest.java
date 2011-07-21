@@ -91,9 +91,18 @@ public class NYOrangeCountyParserTest extends BaseParserTest {
         "NAME:PJ PD",
         "INFO:WIRES DOWN AND BURNING",
         "X:4 CEDAR ST & SKYLINE DR");
+
+    doTest("T9",
+        "DEPTWK     TYP: FALLS AD: 12 JOHNS RD CTY: WALLKILL CN: NAMARA, DANIEL F MC CMT1: MFALL/ POSS BROKEN ANKLE 61 YEAR OLD FEMALE CONSCIOUS B",
+        "SRC:DEPTWK",
+        "CALL:FALLS",
+        "ADDR:12 JOHNS RD",
+        "CITY:WALLKILL",
+        "NAME:NAMARA, DANIEL F MC",
+        "INFO:MFALL/ POSS BROKEN ANKLE 61 YEAR OLD FEMALE CONSCIOUS B");
   }
   
   public static void main(String[] args) {
-    new NYOrangeCountyParserTest().generateTests("T8");
+    new NYOrangeCountyParserTest().generateTests("T10");
   }
 }
