@@ -41,7 +41,7 @@ public class MEYorkCountyParserTest extends BaseParserTest {
     doTest("T5",
         "[Page]  FIRE, OTHERDEERING RIDGE RD.PHEASANT RUN RD Waterboro7/2/2011 03:22",
         "CALL:FIRE, OTHER",
-        "ADDR:DEERING RIDGE RDPHEASANT RUN RD",
+        "ADDR:DEERING RIDGE RD & PHEASANT RUN RD",
         "CITY:Waterboro");
   }
   
