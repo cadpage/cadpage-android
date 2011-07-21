@@ -65,7 +65,7 @@ public class MEYorkCountyParser extends SmartAddressParser {
     Matcher match = MASTER.matcher(body);
     if (!match.matches()) return false;
     data.strCall = match.group(1);
-    String sAddr = match.group(2).trim();
+    String sAddr = match.group(2).trim().replace(".", " & ");
     parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END, sAddr, data);
     
     // There is always a city, but sometimes there isn't a space separating it from the address :(
