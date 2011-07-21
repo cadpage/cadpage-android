@@ -83,10 +83,17 @@ public class NCNashCountyParserTest extends BaseParserTest {
         "CITY:NASHVILLE",
         "CALL:OUTSIDE FI",
         "NAME:HEDGEPETH, AVERINE");
+
+    doTest("T11",
+        "/ NASH911:* 5557 N HALIFAX RD* * * BATTLEBORO* * MVA PIN-H* * LARNELL HARDING* * * * * * *\n",
+        "ADDR:5557 N HALIFAX RD",
+        "CITY:BATTLEBORO",
+        "CALL:MVA PIN-H",
+        "PLACE:LARNELL HARDING");
  }
   
 
   public static void main(String[] args) {
-    new NCNashCountyParserTest().generateTests("T1");
+    new NCNashCountyParserTest().generateTests("T11");
   }
 }
