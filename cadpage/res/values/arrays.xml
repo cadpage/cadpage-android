@@ -213,6 +213,7 @@
     <item>IA Iowa</item>
     <item>KS Kansas</item>
     <item>KY Kentucky</item>
+    <item>ME Maine</item>
     <item>MD Maryland</item>
     <item>MI Michigan</item>
     <item>MN Minnesota</item>
@@ -287,6 +288,7 @@
     <item>KSJohnsonCounty</item>
     <item>KYDaviessCounty</item>
     <item>KYErlangerDispatch</item>
+    <item>MEYorkCounty</item>
     <item>MDAlleganyCounty</item>
     <item>MDAnneArundelCounty</item>
     <item>MDCalvertCounty</item>
@@ -522,6 +524,7 @@
     <item>Johnson County, KS</item>
     <item>Daviess County, KY</item>
     <item>Erlanger Dispatch, KY</item>
+    <item>York County, ME</item>
     <item>Allegany County, MD</item>
     <item>Anne Arundel County, MD</item>
     <item>Calvert County, MD</item>

@@ -704,6 +704,11 @@ Add: 2908 W 48th Ter Apt: Loc: Nature: MEDICAL Grid: 19/1. Incident# 10-3560129 
 Add: 5055 Buena Vista St Apt: Loc: Nature: Bleeding - Laceration Grid: 18/1. Incident# 10-3560040 Cross:W 51ST ST/SYCAMORE DR
 Add: 2435 Drury Ln Apt: Loc: Nature: Auto Alarm - Residence Grid: 34/1. Incident# 10-3560070 Cross:OAKWOOD RD/OVERHILL RD
 ***************************************************************************
+York County, ME (MEYorkCountyParser)
+[Page]  MEDICAL EMERGENCY26 EAST SHORE RD Waterboro7/4/2011 12:36
+[Page]  FIRE, OTHER161 BEAVER DAM RD Waterboro7/4/2011 11:43
+[Page]  MEDICAL EMERGENCYMX 270 MOTOR CROSS TRACKLyman7/3/2011 11:24 
+***************************************************************************
 Allegany County, MD (MDAlleganyCountyParser)
 FRM:LogiSYSCAD\nSUBJ:CAD Page for CFS 100110-96\nMSG:UNCONCIOUS/UNRESPONSIVE 91 S BROADWAY\nUnits: A53 CO16
 FRM:LogiSYSCAD\nSUBJ:CAD Page for CFS 100710-102\nMSG:AUTOMATIC HOUSE ALARM 106 SUNSET DR\nUnits: CO2 ENG9 A52 TR16
@@ -2684,8 +2689,6 @@ BC911:FIRES >STRUCTURE FIRE 23270 STATE HIGHWAY TT BARRY COUNTY CAHD REAVIS 3350
 911-CENTER:FBF BRUSH/FOREST FIRE 546 CAMP CLARK HL 4175989172 SMALL ST BRUSH FIRE
 911-CENTER:FIO FIRE INVESTIGATION OUTSIDE 110 S MAPLE ST 4173576116 E 4TH ST FIRE INVESTIGATION OUTSIDE
 911-CENTER:FMVC MOTOR VEHICLE COLLISION 41604 STATE HWY 413 4178389861 MOTOR VEHICLE COLLISION
-
-
 **********************************************************
 Porter County, IN
 Contact: Chad Elwood <chadelwood@gmail.com>
@@ -3113,13 +3116,6 @@ Sender: paging@rcscom.com
 Subject:Incoming Message\n15503 N Old Statesville Rd North Meck Rescue Charlie 12- Convulsion/Seizure 60 Foot St/Unnamed St Nmr1 Map - 266266/
 Subject:Incoming Message\n15503 N Old Statesville Rd North Meck Rescue Charlie 12- Convulsion/Seizure 60 Foot St/Unnamed St Nmr2 Map - 266266/
 **********************************************************
-Waterboro, ME
-Contact: Sean Perkins <sperkins@waterborofire.org>
-[Page]  MEDICAL EMERGENCY26 EAST SHORE RD Waterboro7/4/2011 12:36
-[Page]  FIRE, OTHER161 BEAVER DAM RD Waterboro7/4/2011 11:43
-[Page]  MEDICAL EMERGENCYMX 270 MOTOR CROSS TRACKLyman7/3/2011 11:24 
-[Page]  MEDICAL EMERGENCY54 ROCKY RD Lyman7/2/2011 17:51 
-[Page]  FIRE, OTHERDEERING RIDGE RD.PHEASANT RUN RD Waterboro7/2/2011 03:22 
 **********************************************************
 Delmar DE, looking to implement second parser for MD
 Contact: Steve Litchford <stevelitchford@gmail.com>
