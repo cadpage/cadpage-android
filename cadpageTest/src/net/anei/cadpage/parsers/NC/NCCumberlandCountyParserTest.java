@@ -12,7 +12,7 @@ public class NCCumberlandCountyParserTest extends BaseParserTest {
   }
   
   @Test
-  public void testParser() {
+  public void testParser1() {
 
     doTest("T1",
         "[S] DEERFIELD (N)C4;01/28/2011 13:19:07;POSS DANGEROUS BODY AREA FALL;ST22;441 WAPITI DR;WILDERNESS DR",
@@ -77,8 +77,20 @@ public class NCCumberlandCountyParserTest extends BaseParserTest {
 
   }
   
+  @Test
+  public void testParser2() {
+
+    doTest("T1",
+        "(Station 13) 2011 07:30:53;ALERT WITH ABNORMAL BREATHING;ST13;2881 STRICKLAND BRIDGE RD;CENTURY CIR",
+        "CALL:ALERT WITH ABNORMAL BREATHING",
+        "SRC:ST13",
+        "ADDR:2881 STRICKLAND BRIDGE RD",
+        "X:CENTURY CIR");
+
+  }
+  
 
   public static void main(String[] args) {
-    new NCCumberlandCountyParserTest().generateTests("T7");
+    new NCCumberlandCountyParserTest().generateTests("T1");
   }
 }

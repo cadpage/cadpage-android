@@ -262,9 +262,20 @@ public class PABucksCountyParserTest extends BaseParserTest {
         "BOX:74062",
         "MAP:3033E6",
         "ID:ED1126192");
+
+    doTest("T22",
+        "911: STA4  type:APOSXP  adr:3449 AZALEA AV ,22  btwn TRAILWOOD DR & VALLEY RD  aai:  box:04007  map:3261E8  tm:05:29:00  ED1126324",
+        "SRC:STA4",
+        "CALL:APOSXP - POSSIBLE EXPIRATION",
+        "ADDR:3449 AZALEA AV",
+        "CITY:BENSALEM TWP",
+        "X:TRAILWOOD DR & VALLEY RD",
+        "BOX:04007",
+        "MAP:3261E8",
+        "ID:ED1126324");
  }
   
   public static void main(String[] args) {
-    new PABucksCountyParserTest().generateTests("T22");
+    new PABucksCountyParserTest().generateTests("T23");
   }
 }
