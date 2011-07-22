@@ -73,7 +73,39 @@ public class VAAccomackCountyParserTest extends BaseParserTest {
         "INFO:HERMITAGE");
   }
   
+  @Test
+  public void testNorthamptonParser() {
+
+    doTest("T1",
+        "CAD:ACCIDENT WITH INJURY;7446 OCCOHANNOCK NECK RD/CREEKVIEW RD;WARD;N5;D4",
+        "CALL:ACCIDENT WITH INJURY",
+        "ADDR:7446 OCCOHANNOCK NECK RD & CREEKVIEW RD",
+        "MAP:N5,D4");
+
+    doTest("T2",
+        "CAD:CARBON MONOXIDE DETECTOR;11478 PARK AVE;EXMO;N203;D6;JACKSON ST;HOLLY CIR",
+        "CALL:CARBON MONOXIDE DETECTOR",
+        "ADDR:11478 PARK AVE",
+        "MAP:N203,D6",
+        "X:JACKSON ST & HOLLY CIR");
+
+    doTest("T3",
+        "CAD:EMS UNIT FIRE INCIDENT STANDBY;7247 YOUNG ST;MACH;N33;C3;BAYSIDE RD;LANKFORD HWY;NORTHAMPTON MIDDLE SCHOOL",
+        "CALL:EMS UNIT FIRE INCIDENT STANDBY",
+        "ADDR:7247 YOUNG ST",
+        "MAP:N33,C3",
+        "X:BAYSIDE RD & LANKFORD HWY",
+        "INFO:NORTHAMPTON MIDDLE SCHOOL");
+
+    doTest("T4",
+        "CAD:ELECTRICAL EQUIPMENT FIRE;10669 TB RD/BAYSIDE RD;EXMO;N10;C5",
+        "CALL:ELECTRICAL EQUIPMENT FIRE",
+        "ADDR:10669 TB RD & BAYSIDE RD",
+        "MAP:N10,C5");
+    
+  }
+  
   public static void main(String[] args) {
-    new VAAccomackCountyParserTest().generateTests("T7");
+    new VAAccomackCountyParserTest().generateTests("T1");
   }
 }
