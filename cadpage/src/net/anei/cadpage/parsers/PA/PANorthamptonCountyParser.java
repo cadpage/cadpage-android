@@ -19,6 +19,9 @@ DispatchBParser subclass
 [e49]ALS >ADVANCED LIFE SUPPORT CALL 5962 KEYSTONE DR EAST ALLEN CHRISTINA WIGMER Map: Grids:0,0 Cad: 2011-0000086103
 [e49]BLS >BASIC LIFE SUPPORT CALL 1323 NEWPORT AVE NORTHAMPTON TONY CABRERA Map: Grids:0,0 Cad: 2011-0000086010
 
+Contact: "richierrs@aol.com" <richierrs@aol.com>
+Subject:#6550\n[f14]MVAU >MVA WITH UNKNOW INJUIRIES WILLOW PARK RD BETHLEHEM TWP P1736 Map: Grids:0,0 Cad: 2011-0000131105
+
 */
 
 public class PANorthamptonCountyParser extends DispatchBParser {
@@ -85,7 +88,7 @@ public class PANorthamptonCountyParser extends DispatchBParser {
   
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
-    data.strUnit = subject;
+    data.strUnit = new Parser(subject).getLast('|');
     body = body.replace(" CALL ", " AT ");
     if (!super.parseMsg(body, data)) return false;
     return true;

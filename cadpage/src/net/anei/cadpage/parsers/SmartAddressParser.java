@@ -181,7 +181,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
         "LOOP");
     
     setupDictionary(ID_AMBIG_ROAD_SFX, 
-        "PLACE", "TRAIL", "PATH", "PIKE", "COURT", "MALL", "TURNPIKE", "PASS", "RUN", "LANE");
+        "PLACE", "TRAIL", "PATH", "PIKE", "COURT", "MALL", "TURNPIKE", "PASS", "RUN", "LANE", "PARK");
         
     setupDictionary(ID_ROUTE_PFX_EXT, "RT", "RTE", "ROUTE", "HW", "HWY", "HIGHWAY", "ROAD", "RD");
     setupDictionary(ID_ROUTE_PFX_PFX, "STATE", "ST", "SR", "SRT", "US", "FS", "INTERSTATE", "I", "STHWY", "USHWY", "CO", "CR", "COUNTY");
@@ -607,7 +607,8 @@ public abstract class SmartAddressParser extends SmsMsgParser {
           if (sAddr > start && !isType(sAddr-1,ID_NOT_ADDRESS)) { 
             sAddr--;
             if (isType(sAddr+1, ID_ROAD_SFX)) {
-              if (sAddr > start && isType(sAddr, ID_AMBIG_ROAD_SFX)) sAddr--;
+              if (sAddr > start && isType(sAddr, ID_AMBIG_ROAD_SFX) && 
+                  !isType(sAddr-1,ID_NOT_ADDRESS)) sAddr--;
               break;
             }
             if (isType(sAddr, ID_ROUTE_PFX) & isType(sAddr+1, ID_NUMBER | ID_ALPHA_ROUTE)) {
@@ -730,7 +731,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
       }
       
       // See if this is a two part route name
-      if (sAddr > 0 &&
+      if (sAddr > 0 && !isType(sAddr-1, ID_NOT_ADDRESS) && 
           (isType(sAddr, ID_ROUTE_PFX_EXT) && isType(sAddr-1, ID_ROUTE_PFX_PFX) ||
            isType(sAddr, ID_AMBIG_ROAD_SFX))) {
         sAddr--;
