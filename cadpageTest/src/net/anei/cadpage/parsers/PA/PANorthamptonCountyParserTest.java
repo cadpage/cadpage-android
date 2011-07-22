@@ -82,6 +82,20 @@ public class PANorthamptonCountyParserTest extends BaseParserTest {
         "ID:2011-0000086010");
   }
   
+  @Test
+  public void testParser2() {
+
+    doTest("T1",
+        "Subject:#6550\n[f14]MVAU >MVA WITH UNKNOW INJUIRIES WILLOW PARK RD BETHLEHEM TWP P1736 Map: Grids:0,0 Cad: 2011-0000131105",
+        "UNIT:f14",
+        "CALL:MVA WITH UNKNOW INJUIRIES",
+        "ADDR:WILLOW PARK RD",
+        "CITY:BETHLEHEM TWP",
+        "NAME:P1736",
+        "ID:2011-0000131105");
+   
+  }
+  
   public static void main(String[] args) {
     new PANorthamptonCountyParserTest().generateTests("T1", "UNIT CALL ADDR APT CITY NAME MAP ID");
   }
