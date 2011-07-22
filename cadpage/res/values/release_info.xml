@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="release_date">20110722</string>
+  <string name="release_version">v1.4.18</string>
+  <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
+  <string name="release_magic_word2">quantum</string>
+  <string name="release_text">
+    Thanks to everyone who has donated Your support is appreciated and helps support the app.\n
+    See http://www.cadpage.org/financial-support for more details\n
+    \n
+  What"'"s new in this release\n
+  The new Config Widget has been Updated (less crashing) ! Long Press on an empty part of your home screen to add the new 1x4 widget.\n
+  Instructions on use are on the webpage under UserManual and on the Facebook Page.\n
+  MMS Support is here!!!\n
+  This is highly experimental.  Your mileage may vary.  See http://www.cadpage.org/faq/mms-message-support for details\n
+  \n
+  Multiple Fixes for Existing Locations and Issues\n
+New Locations:\n
+New District:York County,ME\n
+Rename Bergen County, NJ to MICOM, NJ\n
+New District: Northampton, VA\n
+New District: Stone County, MO and Barry County, MO\n
+Fixes:\n
+Mapping problem with Benton County, OR\n
+All text messages getting treated as general alerts\n  
+Parsing problem with Gasconade County, MO\n
+Parsing problem with Broome County, NY location\n  
+Parsing problem with Suffolk County (B), NY\n
+Parsing problem with Bucks County, PA\n
+Parsing problem with Chester County (B), PA\n  
+Parsign problems with Pueblo County, CO\n
+Parsing problems with Prince Georges County\n  
+Parsing problem with Nash County, NC\n
+Parsing problem with Cumberland County, NC\n   
+Fixed minor parsing problem with Northampton County, PA\n  
+\n
+  </string>  
+</resources>
+  
