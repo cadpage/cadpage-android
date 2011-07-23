@@ -3045,7 +3045,7 @@ VAL. VALMEAD
 YAD. YADKIN VALLEY
 BETH.  BETHLEHEM
 **********************************************************
-Carteret county
+Carteret county, NC
 Contact: Jamie Fulk <jfulk2402@gmail.com>
 Sender: cec@carteretcountygov.org
 Use DispatchSouthernParser

@@ -23,13 +23,17 @@ Sender:dispatch@prinevillepd.org
 Contact: James Shannon <firemedic2484@gmail.com>
 S:NEW INCIDENT M:6/2/2011 1006\nEVENT # 1106020016 PFD\nALARM - 1201:1225/1221/1222/...\nPRIORITY 1\nLOCATION 1100 SE LYNN\nCITY PRINEVILLE\nAPT\nPREMISE:\nCOMMENT: SMOKE ALARM//
 
+Contact: Jason Dad Hupp <hupp375@gmail.com>
+Sender: fire_sms-bounces@listserv.cityofprineville.net
+([PRNV_911] NEW INCIDENT) 7/21/2011 1107\nEVENT # 1107210080 PFD\nMUNK - UNKNOWN MEDICAL\nPRIORITY 1 \nLOCATION 3813 SE TILLAMOOK LOOP\nCI
+
 */
 
 public class ORCrookCountyParser extends FieldProgramParser {
   
   public ORCrookCountyParser() {
     super("CROOK COUNTY", "OR",
-           "SKIP EVENT:ID! CALL! PRIORITY:SKIP! LOCATION:ADDR! CITY:CITY! APT:APT PREMISE:PLACE COMMENT:INFO");
+           "SKIP EVENT:ID! CALL! PRIORITY:SKIP! LOCATION:ADDR! CITY:CITY APT:APT PREMISE:PLACE COMMENT:INFO");
   }
   
   @Override
