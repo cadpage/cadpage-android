@@ -12,7 +12,7 @@ public class SCSpartanburgCountyParserTest extends BaseParserTest {
   }
   
   @Test
-  public void testParser() {
+  public void testGLFDParser() {
 
     doTest("T1",
         "GLFD - CF/14072 TYP: ..FUEL SPILL........ AD: DOGWOOD CLUB RD&S PINE ST CMT1: <<< FUEL SPILL >>> CMT2: <<< SEND GLENDALE AND PACOLET ON ALL STRUCTURE",
@@ -55,6 +55,19 @@ public class SCSpartanburgCountyParserTest extends BaseParserTest {
         "CALL:BRUSH FIRE",
         "ADDR:170 FRETWELL RD",
         "INFO:SEND GLENDALE AND PACOLET ON ALL STRUCTURE FIRES & ALARMS / BRUSH,");
+  }
+  
+  @Test
+  public void testBSFDParser() {
+
+    doTest("T1",
+        "BSFD - CF/20546 TYP: COMMERC FIRE ALARM. AD: 2251 OLD FURNACE RD LOC: BOILING SPRINGS HIGH CMT1: << BOILING SPRINGS FIRE DISTRICT >> CMT2: <<< COMMERC",
+        "SRC:BSFD",
+        "ID:CF/20546",
+        "CALL:COMMERC FIRE ALARM",
+        "ADDR:2251 OLD FURNACE RD",
+        "PLACE:BOILING SPRINGS HIGH",
+        "INFO:BOILING SPRINGS FIRE DISTRICT / COMMERC");
   }
   
   public static void main(String[] args) {

@@ -91,9 +91,15 @@ public class ORCrookCountyParserTest extends BaseParserTest {
         "ADDR:1100 SE LYNN",
         "CITY:PRINEVILLE",
         "INFO:SMOKE ALARM//");
+
+    doTest("T11",
+        "([PRNV_911] NEW INCIDENT) 7/21/2011 1107\nEVENT # 1107210080 PFD\nMUNK - UNKNOWN MEDICAL\nPRIORITY 1 \nLOCATION 3813 SE TILLAMOOK LOOP\nCI",
+        "ID:1107210080 PFD",
+        "CALL:MUNK - UNKNOWN MEDICAL",
+        "ADDR:3813 SE TILLAMOOK LOOP");
   }
   
   public static void main(String[] args) {
-    new ORCrookCountyParserTest().generateTests("T10");
+    new ORCrookCountyParserTest().generateTests("T11");
   }
 }
