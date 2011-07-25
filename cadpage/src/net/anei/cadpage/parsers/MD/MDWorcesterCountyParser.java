@@ -37,6 +37,9 @@ Station codes
 900=BISHOPVILLE
 NO 1000 STATION
 1100=OCEAN PINES
+
+Accomack County, VA msg should NOT be accepted
+CAD:ABDOMINAL PAIN/BACK PAIN;33063 STONEY CREEK RD;ATLA;A27;C1;GENE WAYNE LN;FLEMING RD
 */
 
 public class MDWorcesterCountyParser extends DispatchOSSIParser {
@@ -74,7 +77,7 @@ public class MDWorcesterCountyParser extends DispatchOSSIParser {
  
   public MDWorcesterCountyParser() {
     super(CITY_LIST, "WORCESTER COUNTY", "MD",
-    		   "SRC? CALL ADDR PLACE? CITY! X X INFO+");
+    		   "SRC? CALL ADDR PLACE? CITY! X X INFO+ DATETIME!");
   }
   
   private static final Pattern SOURCE_PAT = Pattern.compile("[0-9]{1,2}00|S[0-9]");
@@ -83,6 +86,7 @@ public class MDWorcesterCountyParser extends DispatchOSSIParser {
       setPattern(SOURCE_PAT);
     }
   }
+  
   @Override
   protected Field getField(String name) {
     if (name.equals("SRC")) return new MySourceField();
