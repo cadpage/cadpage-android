@@ -2682,7 +2682,6 @@ System: Page Gate
 
 HCSO PageGate Service:11070479 42 PEACEFUL VIEW TRL HENDERSONVILLE C5S STROKE STROKE BOYD, WILLIAM D 828-685-7058 ED1,EMS#2 423 Medical: No Hazards: No
 HCSO PageGate Service:11070756 3845 CHIMNEY ROCK RD HENDERSONVILLE C15 AUTO ACC AUTO ACCIDENT HOOTS, EUGENE 828-685-3630 41,ED1,RS1 423 Medical: No Hazards: No
-
 **********************************************************
 Harnet County, NC
 Contact: Beverly Williams <bwilliams.co9@gmail.com>
@@ -2691,6 +2690,13 @@ Sender: cadpage@harnett.org
 
 Contact: Keith combs <keithcombs2007@gmail.com>
 S: M:1107-061052*3058 CRAWFORD RD***ERWIN***MOTOR VEHICLE ACCIDENT****1186****\n
+**********************************************************
+Translyvania County, NC (alternate)
+Contact: "cfr918@yahoo.com" <cfr918@yahoo.com>
+Sender: 8285530059
+8595 GREENVILLE HWY CONNESTEE 2011-026771 16:02:18 CHEST PAIN 67 YO FEMALE, POSSIBLY HAVING A HEART ATTACK. 1ST HOUSE ON LT PAST CEDAR MTN HOUSE
+**********************************************************
+**********************************************************
 **********************************************************
 **********************************************************
 **********************************************************

@@ -1217,6 +1217,13 @@ public class FieldProgramParser extends SmartAddressParser {
     }
     
     /**
+     * @return true if we are processing the last field
+     */
+    protected boolean isLastField() {
+      return index == fieldList.length - 1;
+    }
+    
+    /**
      * Abort field program processing and return parse failure
      */
     protected void abort() {

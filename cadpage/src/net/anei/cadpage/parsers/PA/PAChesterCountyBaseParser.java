@@ -154,8 +154,28 @@ public class PAChesterCountyBaseParser extends FieldProgramParser {
   private static final Pattern DATE_TIME_PATTERN = 
     Pattern.compile("\\d\\d/\\d\\d/\\d\\d(?:\\d\\d)?|\\d\\d:\\d\\d(?::\\d\\d)?");
   protected class DateTimeField extends SkipField {
-    public DateTimeField() {
-      setPattern(DATE_TIME_PATTERN, true);
+    
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      if (!isLastField()) {
+        return DATE_TIME_PATTERN.matcher(field).matches();
+      }
+      
+      else {
+        String tmp = field.replaceAll("\\d", "N");
+        return "NN/NN/NNNN".startsWith(tmp) ||
+                "NN:NN:NN".startsWith(tmp);
+      }
+    }
+    
+    @Override
+    public void parse(String field, Data data) {
+      if (!checkParse(field, data)) abort();
     }
   }
   
