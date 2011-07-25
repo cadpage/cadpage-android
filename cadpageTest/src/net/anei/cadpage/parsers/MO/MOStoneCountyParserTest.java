@@ -54,9 +54,17 @@ public class MOStoneCountyParserTest extends BaseParserTest {
         "ADDR:41604 STATE HWY 413",
         "PHONE:4178389861",
         "INFO:MOTOR VEHICLE COLLISION");
+
+    doTest("T6",
+        "911-CENTER:FRF RUBBISH FIRE NO EXPOSURES OLD WIRE RD&ROUNDHOUSE RD 417 ROUNDHOUSE RD RUBBISH FIRE.",
+        "CALL:FRF RUBBISH FIRE NO EXPOSURES OLD",
+        "ADDR:WIRE RD & ROUNDHOUSE RD",
+        "APT:417",
+        "X:ROUNDHOUSE RD",
+        "INFO:RUBBISH FIRE");
   }
   
   public static void main(String[] args) {
-    new MOStoneCountyParserTest().generateTests("T1", "CALL ADDR PHONE X INFO");
+    new MOStoneCountyParserTest().generateTests("T1", "CALL ADDR APT PHONE X INFO");
   }
 }

@@ -91,12 +91,20 @@ public class NCForsythCountyParserTest extends BaseParserTest {
         "NAME:FCSD");
 
     doTest("T11",
-        "Location: 191 LOWES FOOD DR FC: @A CLEANER WORLD Nature: Alarms - Fire or Smoke P:1\2s- default DISTRICT: F11 X Str: JENNINGS RD/SHALLOWFORD RD CALLER",
+        "Location: 191 LOWES FOOD DR FC: @A CLEANER WORLD Nature: Alarms - Fire or Smoke P:1  - default DISTRICT: F11 X Str: JENNINGS RD/SHALLOWFORD RD CALLER",
         "ADDR:191 LOWES FOOD DR",
         "PLACE:A CLEANER WORLD",
         "CALL:Alarms - Fire or Smoke",
         "UNIT:F11",
         "X:JENNINGS RD/SHALLOWFORD RD");
+
+    doTest("T12",
+        "Location: 6441 HOLDER RD CL,RM 8: @CLEMMONS VILLAGE II Nature: Breathing Difficulty P:1\2s- BREATHING_DIFF DISTRICT: R11 X Str: HOLDER CT/SOUTHWEST SCH",
+        "ADDR:6441 HOLDER RD CL,RM 8",
+        "PLACE:CLEMMONS VILLAGE II",
+        "CALL:Breathing Difficulty",
+        "UNIT:R11",
+        "X:HOLDER CT/SOUTHWEST SCH");
  }
   
   public static void main(String[] args) {
