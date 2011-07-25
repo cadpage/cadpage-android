@@ -24,6 +24,7 @@ Location: 4595 STYERS FERRY RD WS Nature: Sick/Unknown P:1  - default DISTRICT: 
 Nature: Motor Vehicle Accident P:1  - default DISTRICT: R11 X Str: LEWISVILLE-CLEMMONS RD/REYNOLDS RD CALLER NAME:
 Location: NB 421 FC Nature: Motor Vehicle Accident P:1  - default DISTRICT: R13 X Str: SCOTT RD/SB 421 CALLER NAME: FCSD
 Location: 191 LOWES FOOD DR FC: @A CLEANER WORLD Nature: Alarms - Fire or Smoke P:1\2s- default DISTRICT: F11 X Str: JENNINGS RD/SHALLOWFORD RD CALLER
+Location: 6441 HOLDER RD CL,RM 8: @CLEMMONS VILLAGE II Nature: Breathing Difficulty P:1\2s- BREATHING_DIFF DISTRICT: R11 X Str: HOLDER CT/SOUTHWEST SCH
 
  */
 
@@ -90,6 +91,11 @@ public class NCForsythCountyParser extends FieldProgramParser {
       // so change them to CO. (we can't do this prior to the smart parse
       // call because 'FC' is a legitimate city code.
       data.strAddress = FC_PTN.matcher(data.strAddress).replaceAll("CO");
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return super.getFieldNames() + " PLACE";
     }
   }
 

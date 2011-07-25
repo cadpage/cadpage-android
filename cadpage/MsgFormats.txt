@@ -2702,6 +2702,10 @@ Sender: moon.dispatch@moontwpfire.com
 (Dispatch Alert) B.O.D. meeting tonight, 7 P.M. PSB
 (Dispatch Alert) M? Timeout=1342\nFIRE ALARM\nMOON HIGH SCHOOL\nUNIVERSITY BLVD\nBUSINESS 60 TO 400 BLOCK OF  5TH AVE
 **********************************************************
+Alexander County, NC
+Contact: Josh Reese <jrreese1@catamount.wcu.edu>
+Sender: CAD@alexandercountync.gov
+(CAD:91 GREEN ACRES LN;FALL;31D03;ICARD RIDGE RD)
 **********************************************************
 **********************************************************
 ************  READY TO ROLL ******************************

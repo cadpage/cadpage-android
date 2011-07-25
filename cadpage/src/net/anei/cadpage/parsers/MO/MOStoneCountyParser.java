@@ -15,12 +15,13 @@ Contact: Ryan Joy <crazyrockj@gmail.com>
 911-CENTER:FBF BRUSH/FOREST FIRE 546 CAMP CLARK HL 4175989172 SMALL ST BRUSH FIRE
 911-CENTER:FIO FIRE INVESTIGATION OUTSIDE 110 S MAPLE ST 4173576116 E 4TH ST FIRE INVESTIGATION OUTSIDE
 911-CENTER:FMVC MOTOR VEHICLE COLLISION 41604 STATE HWY 413 4178389861 MOTOR VEHICLE COLLISION
+911-CENTER:FRF RUBBISH FIRE NO EXPOSURES OLD WIRE RD&ROUNDHOUSE RD 417 ROUNDHOUSE RD RUBBISH FIRE.
 
 */
 
 public class MOStoneCountyParser extends SmartAddressParser {
   
-  private static final Pattern MASTER = Pattern.compile("911-CENTER:(.*) (\\d{10}) (.*)");
+  private static final Pattern PHONE_PTN = Pattern.compile("\\b\\d{10}\\b");
   
   public MOStoneCountyParser() {
     super("STONE COUNTY", "MO");
@@ -28,14 +29,20 @@ public class MOStoneCountyParser extends SmartAddressParser {
   
   @Override
   public boolean parseMsg(String body, Data data) {
-    Matcher match = MASTER.matcher(body);
-    if (!match.matches()) return false;
+    if (!body.startsWith("911-CENTER:")) return false;
+    body = body.substring(11).trim();
+    String sInfo;
+    Matcher match = PHONE_PTN.matcher(body);
+    if (match.find()) {
+      String sAddr = body.substring(0,match.start()).trim();
+      parseAddress(StartType.START_CALL, FLAG_ANCHOR_END, sAddr, data);
+      data.strPhone = match.group();
+      sInfo = body.substring(match.end()).trim();
+    } else {
+      parseAddress(StartType.START_CALL, body, data);
+      sInfo = getLeft();
+    }
     
-    String sAddr = match.group(1).trim();
-    data.strPhone = match.group(2);
-    String sInfo = match.group(3).trim();
-    
-    parseAddress(StartType.START_CALL, FLAG_ANCHOR_END, sAddr, data);
     Result res = parseAddress(StartType.START_ADDR, sInfo);
     if (res.getStatus() > 0) {
       res.getCrossData(data);
