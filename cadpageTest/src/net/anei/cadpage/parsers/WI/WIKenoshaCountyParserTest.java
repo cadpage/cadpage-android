@@ -106,10 +106,17 @@ public class WIKenoshaCountyParserTest extends BaseParserTest {
         "ADDR:11252 254TH CT",
         "PLACE:SALEM HIGHWAY DEPT (",
         "INFO:LARGE BRUSH FIRE BEHIND BLDG APPEARS UNATTENDED");
+
+    doTest("T14",
+        "From: RR114  #:002011105103 ALS MED at 9739 269TH AVE Rem: 67 F ;BREATHING DIFFICULTY CONSCIOUS: YES ,BREATHING: YES",
+        "ID:002011105103",
+        "CALL:ALS MED",
+        "ADDR:9739 269TH AVE",
+        "INFO:67 F ;BREATHING DIFFICULTY CONSCIOUS: YES ,BREATHING: YES");
    
   }
   
   public static void main(String[] args) {
-    new WIKenoshaCountyParserTest().generateTests("T13", "ID CALL ADDR PLACE INFO");
+    new WIKenoshaCountyParserTest().generateTests("T15", "ID CALL ADDR PLACE INFO");
   }
 }
