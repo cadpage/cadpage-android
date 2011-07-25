@@ -34,12 +34,16 @@ Contact: Henry Will <hmwill55@gmail.com>
 Sender: call2@kccjs.org
 From: DMC105 #:002011098714 SINGLE ENGINE at 11252 254TH CT SALEM HIGHWAY DEPT ( Rem: LARGE BRUSH FIRE BEHIND BLDG APPEARS UNATTENDED
 
+Contact: Bill Carey <bicar1204@gmail.com>
+Sender: unknown@kccjs.org
+From: RR114  #:002011105103 ALS MED at 9739 269TH AVE Rem: 67 F ;BREATHING DIFFICULTY CONSCIOUS: YES ,BREATHING: YES
+
 */
 
 
 public class WIKenoshaCountyParser extends SmartAddressParser {
   
-  private static final Pattern MARKER = Pattern.compile("^(?:From: )?[A-Z]{3}\\d{3} #:");
+  private static final Pattern MARKER = Pattern.compile("^(?:From: )?[A-Z]{2,3}\\d{3} +#:");
   
   public WIKenoshaCountyParser() {
     super("KENOSHA COUNTY", "WI");
