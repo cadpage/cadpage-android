@@ -96,9 +96,18 @@ public class VARockinghamCountyParserTest extends BaseParserTest {
         "CITY:MCGAHEYSVILLE",
         "ID:2011-034525",
         "X:TREE SIDE LN/LONGLEY RD");
+
+    doTest("T10",
+        "(Rescue 40) R40 EMS-DIFFICULTY BREATHING 1825 S MAIN ST HAR CFS# 2011-051783 CROSS: PLEASANT HILL RD/DUKES PLAZA",
+        "SRC:R40",
+        "CALL:EMS-DIFFICULTY BREATHING",
+        "ADDR:1825 S MAIN ST",
+        "CITY:HARRISONBURG",
+        "ID:2011-051783",
+        "X:PLEASANT HILL RD/DUKES PLAZA");
  }
   
   public static void main(String[] args) {
-    new VARockinghamCountyParserTest().generateTests("T1");
+    new VARockinghamCountyParserTest().generateTests("T10");
   }
 }

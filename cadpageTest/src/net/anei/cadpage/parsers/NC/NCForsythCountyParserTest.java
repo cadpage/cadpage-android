@@ -89,10 +89,17 @@ public class NCForsythCountyParserTest extends BaseParserTest {
         "UNIT:R13",
         "X:SCOTT RD/SB 421",
         "NAME:FCSD");
+
+    doTest("T11",
+        "Location: 191 LOWES FOOD DR FC: @A CLEANER WORLD Nature: Alarms - Fire or Smoke P:1\2s- default DISTRICT: F11 X Str: JENNINGS RD/SHALLOWFORD RD CALLER",
+        "ADDR:191 LOWES FOOD DR",
+        "CALL:Alarms - Fire or Smoke",
+        "UNIT:F11",
+        "X:JENNINGS RD/SHALLOWFORD RD");
  }
   
   public static void main(String[] args) {
-    new NCForsythCountyParserTest().generateTests("T10");
+    new NCForsythCountyParserTest().generateTests("T12");
   }
 }
 

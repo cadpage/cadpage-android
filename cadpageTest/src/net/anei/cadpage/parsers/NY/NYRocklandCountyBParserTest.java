@@ -77,9 +77,27 @@ public class NYRocklandCountyBParserTest extends BaseParserTest {
         "ADDR:15 RICHARD ST",
         "X:COLONIAL AV / STERLING AV");
 
+
+    doTest("T10",
+        "15  -  AUTOMATIC ALARM   1131780 - ARDEN HILLS NURSERY 185 ORANGE TRNPK  CROSS: WASHINGTON AV / LEDGE RD 17:50 10 - DELUCIA",
+        "UNIT:15",
+        "CALL:AUTOMATIC ALARM",
+        "ID:1131780",
+        "PLACE:ARDEN HILLS NURSERY",
+        "ADDR:185 ORANGE TRNPK",
+        "X:WASHINGTON AV / LEDGE RD");
+
+    doTest("T11",
+        "15  -  AUTOMATIC ALARM   1130653 - ST JOSEPH'S HOME 125 SISTERS SERVANTS LN  CROSS: UNKNOWN / CEMETERY RD 15:31 10 - DELUCIA",
+        "UNIT:15",
+        "CALL:AUTOMATIC ALARM",
+        "ID:1130653",
+        "PLACE:ST JOSEPH'S HOME",
+        "ADDR:125 SISTERS SERVANTS LN",
+        "X:UNKNOWN / CEMETERY RD");
   }
   
   public static void main(String[] args) {
-    new NYRocklandCountyBParserTest().generateTests("T1", "UNIT CALL ADDR X");
+    new NYRocklandCountyBParserTest().generateTests("T10", "UNIT CALL ID PLACE ADDR X");
   }
 }

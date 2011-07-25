@@ -300,6 +300,18 @@ public class MDPrinceGeorgesCountyCParserTest extends BaseParserTest {
         "MAP:5409 D 7",
         "APT:204",
         "UNIT:BO884");
+
+    doTest("T24",
+        "E810 Incident: F112050265, Type: Fire Alarm-AFA, Loc: 14402 LAUREL PL, LP, btwn MULBERRY ST and CATALPA ST, TalkGroup: TG1, Box: 1017, Map: 5169 C 6, Text: Fire ProQA recommends dispatch at this time, Unit:E810",
+        "SRC:E810",
+        "ID:F112050265",
+        "CALL:Fire Alarm-AFA",
+        "ADDR:14402 LAUREL PL",
+        "X:MULBERRY ST and CATALPA ST",
+        "CH:TG1",
+        "BOX:1017",
+        "MAP:5169 C 6",
+        "UNIT:E810");
  }
   
   public static void main(String[] args) {
