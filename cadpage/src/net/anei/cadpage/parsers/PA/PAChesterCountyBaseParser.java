@@ -22,7 +22,8 @@ public class PAChesterCountyBaseParser extends FieldProgramParser {
       "PENN",   "PENN TWP",
       "LWROXF", "LOWER OXFORD TWP",
       "ENOTT",  "EAST NOTINGHAM TWP",
-      "OXFORD", "OXFORD"
+      "OXFORD", "OXFORD",
+      "KNTTWP", "KENNETT TWP",
   });
   
   public PAChesterCountyBaseParser(String programStr) {
