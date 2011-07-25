@@ -36,6 +36,9 @@ R35 EMS-ILLNESS 516 W SPOTSWOOD TRL ELK CFS# 2011-018309 CROSS: SHENANDOAH AVE/2
 Contact: jeff hammer <jh2785@gmail.com>
 MAILBOX@hrecc.org Msg: C80 EMS-FALLS 9718 VALLEY VIEW RD MCG CFS# 2011-034525 CROSS: TREE SIDE LN/LONGLEY RD
 
+Contact: "wnlwaff@comcast.net" <wnlwaff@comcast.net>
+(Rescue 40) R40 EMS-DIFFICULTY BREATHING 1825 S MAIN ST HAR CFS# 2011-051783 CROSS: PLEASANT HILL RD/DUKES PLAZA
+
 */
 
 public class VARockinghamCountyParser extends DispatchDAPROParser {

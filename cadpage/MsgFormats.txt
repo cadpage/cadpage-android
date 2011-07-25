@@ -2194,6 +2194,7 @@ Unknown
 Contact: Joseph Jenkins <natoj0025@gmail.com>
 Sender: lfdchief1@verizon.net
 (Dispatch) 11:07 ** F-MOTOR VEHICLE COLLISION-POSS ** 7523 ELMCREST RD ** - ** SMITH,SHERWOOD **  ** LVF112800872 ** RIVERGLEN RD ** E2,E3,E6,R1,R3, **
+(Dispatch) 09:09 ** F-MOTOR VEHICLE COLLISION-WITH ** TULIP ST AND OSWEGO ST ** - **  **  ** LVF112801121 ** TULIP ST AND OSWEGO ST ** E1,E2,E6,R1, **
 **********************************************************
 Greene County, PA
 Contact: 7248800930@vzwpix.com
@@ -2677,6 +2678,11 @@ Contact: Matt Brackett <mhfrbrackett@gmail.com>
 Sender: 8286067337
 System: Page Gate
 2of2:Dispatch Level: 01C03 CAD Incident Code: 01C03 Key Questions: 68 year old, Male, Conscious, B
+
+
+HCSO PageGate Service:11070479 42 PEACEFUL VIEW TRL HENDERSONVILLE C5S STROKE STROKE BOYD, WILLIAM D 828-685-7058 ED1,EMS#2 423 Medical: No Hazards: No
+HCSO PageGate Service:11070756 3845 CHIMNEY ROCK RD HENDERSONVILLE C15 AUTO ACC AUTO ACCIDENT HOOTS, EUGENE 828-685-3630 41,ED1,RS1 423 Medical: No Hazards: No
+
 **********************************************************
 Harnet County, NC
 Contact: Beverly Williams <bwilliams.co9@gmail.com>
@@ -3234,7 +3240,7 @@ System: Aegis CAD
 (Chief ALT) [40 EMS] - 29B4 - MVC Unknown -- Mulberrie Point Rd, Frederica
 (Chief ALT) [40 EMS] - 10D2 - Chest Pains -- 196 N  Bayshore Dr, Frederica -- Bowers Beach -- Xst's: N Flack Ave / Main St -- Caller: Margaret
 (Chief ALT) [40 EMS] - 26C2 - Sick Person -- 201 Hubbard Ave, Frederica -- Bowers Beach -- Xst's: Dead End / Canal St -- Caller: Ingle Heather
-
+(Chief ALT) [40 EMS] - 10C4 - Chest Pains -- 302 Lake Shore Dr, Frederica -- High Point Mhp -- Xst's: Second St, Sycamore Dr / Lorna Ln -- Caller: Thom Ronald
 **********************************************************
 Erie County, PA (Alternate)
 Contact: Doug Johnson <dougjohnson6@gmail.com>

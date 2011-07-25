@@ -5,7 +5,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.SmsMsgInfo.Data;
-import net.anei.cadpage.parsers.SmsMsgParser;
+import net.anei.cadpage.parsers.SmartAddressParser;
 
 /*
 Rockland County, NY (alternate)
@@ -23,12 +23,14 @@ Sender: 44_Control@verizon.net
 15  -  VEHICLE FIRE    2 STERLING MINE RD  CROSS: ARCADIA CT, CRANBERRY RD / ARCADIA CT 19:40 10 - DELUCIA
 15  -  OVEN/APPLIANCE/COOKING FIRE    151 ORANGE TRNPK  CROSS: LEDGE RD / POST RD 18:07 22- BERTOLACCI
 15  -  ASSIST POLICE OR EMS    15 RICHARD ST  CROSS: COLONIAL AV / STERLING AV 06:50 71 - O'KEEFFE
+15  -  AUTOMATIC ALARM   1131780 - ARDEN HILLS NURSERY 185 ORANGE TRNPK  CROSS: WASHINGTON AV / LEDGE RD 17:50 10 - DELUCIA
+15  -  AUTOMATIC ALARM   1130653 - ST JOSEPH'S HOME 125 SISTERS SERVANTS LN  CROSS: UNKNOWN / CEMETERY RD 15:31 10 - DELUCIA
 
 */
 
-public class NYRocklandCountyBParser extends SmsMsgParser {
+public class NYRocklandCountyBParser extends SmartAddressParser {
   
-  private static final Pattern MASTER = Pattern.compile("([^ ]+) +- +(.*?)   +(.*?) +CROSS: *(.*?) \\d\\d:\\d\\d \\d\\d.*");
+  private static final Pattern MASTER = Pattern.compile("([^ ]+) +- +(.*?)   (?:(\\d{7}) - )?+(.*?) +CROSS: *(.*?) \\d\\d:\\d\\d \\d\\d.*");
   
   public NYRocklandCountyBParser() {
     super("ROCKLAND COUNTY","NY");
@@ -45,8 +47,15 @@ public class NYRocklandCountyBParser extends SmsMsgParser {
     if (!match.matches()) return false;
     data.strUnit = match.group(1);
     data.strCall = match.group(2);
-    data.strAddress = match.group(3);
-    data.strCross = match.group(4);
+    data.strCallId = getOptGroup(match.group(3));
+    String sAddr = match.group(4);
+    Result res = parseAddress(StartType.START_PLACE, FLAG_ANCHOR_END, sAddr);
+    if (res.getStatus() == 0) {
+      data.strAddress = sAddr;
+    } else {
+      res.getData(data);
+    }
+    data.strCross = match.group(5);
     return true;
   }
 }
