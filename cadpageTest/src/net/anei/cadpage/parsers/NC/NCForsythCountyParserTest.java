@@ -93,6 +93,7 @@ public class NCForsythCountyParserTest extends BaseParserTest {
     doTest("T11",
         "Location: 191 LOWES FOOD DR FC: @A CLEANER WORLD Nature: Alarms - Fire or Smoke P:1\2s- default DISTRICT: F11 X Str: JENNINGS RD/SHALLOWFORD RD CALLER",
         "ADDR:191 LOWES FOOD DR",
+        "PLACE:A CLEANER WORLD",
         "CALL:Alarms - Fire or Smoke",
         "UNIT:F11",
         "X:JENNINGS RD/SHALLOWFORD RD");

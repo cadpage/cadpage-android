@@ -13,6 +13,11 @@ public class MDWorcesterCountyParserTest extends BaseParserTest {
   }
   
   @Test
+  public void testBad() {
+    doBadTest("CAD:ABDOMINAL PAIN/BACK PAIN;33063 STONEY CREEK RD;ATLA;A27;C1;GENE WAYNE LN;FLEMING RD");
+  }
+  
+  @Test
   public void testParser() {
 
    doTest("T1",
@@ -149,8 +154,8 @@ public class MDWorcesterCountyParserTest extends BaseParserTest {
         "X:8TH ST & HALEYS WAY");
     
   }
-//  
-//  public static void main(String[] args) {
-//    new MDWorcesterCountyParserTest().generateTests("T1");
-//  }
+  
+  public static void main(String[] args) {
+    new MDWorcesterCountyParserTest().generateTests("T1");
+  }
 }

@@ -71,6 +71,13 @@ public class VAAccomackCountyParserTest extends BaseParserTest {
         "MAP:A600,D3",
         "X:HERMITAGE RD & GREENWAY CIR",
         "INFO:HERMITAGE");
+
+    doTest("T8",
+        "CAD:ABDOMINAL PAIN/BACK PAIN;33063 STONEY CREEK RD;ATLA;A27;C1;GENE WAYNE LN;FLEMING RD",
+        "CALL:ABDOMINAL PAIN/BACK PAIN",
+        "ADDR:33063 STONEY CREEK RD",
+        "MAP:A27,C1",
+        "X:GENE WAYNE LN & FLEMING RD");
   }
   
   @Test
@@ -106,6 +113,6 @@ public class VAAccomackCountyParserTest extends BaseParserTest {
   }
   
   public static void main(String[] args) {
-    new VAAccomackCountyParserTest().generateTests("T1");
+    new VAAccomackCountyParserTest().generateTests("T8");
   }
 }
