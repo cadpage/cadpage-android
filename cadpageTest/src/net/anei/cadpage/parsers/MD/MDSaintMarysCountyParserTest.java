@@ -459,9 +459,18 @@ public class MDSaintMarysCountyParserTest extends BaseParserTest {
          "CITY:MECHANICSVILLE",
          "UNIT:CO29 CO59 ALS",
          "INFO:FEMALE BELIEVES SHE INJURED HER RIB ON THURSDAY AT PHYSI");
-  }
+
+     doTest("T51",
+         "((22502) CAD ) 05:56:37*Breathing Difficulties*18360 THREE NOTCH RD*TOMS WY*ST JAMES*CO39*80 year old, Male, Conscious, Breathing.*",
+         "CALL:Breathing Difficulties",
+         "ADDR:18360 THREE NOTCH RD",
+         "X:TOMS WY",
+         "CITY:LEXINGTON PARK",
+         "UNIT:CO39",
+         "INFO:80 year old, Male, Conscious, Breathing.");
+ }
   
   public static void main(String[] args) {
-    new MDSaintMarysCountyParserTest().generateTests("T50", "CALL PLACE ADDR APT X CITY UNIT INFO");
+    new MDSaintMarysCountyParserTest().generateTests("T51", "CALL PLACE ADDR APT X CITY UNIT INFO");
   }
 }

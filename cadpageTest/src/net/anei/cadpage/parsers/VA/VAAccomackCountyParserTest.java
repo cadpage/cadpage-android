@@ -78,6 +78,20 @@ public class VAAccomackCountyParserTest extends BaseParserTest {
         "ADDR:33063 STONEY CREEK RD",
         "MAP:A27,C1",
         "X:GENE WAYNE LN & FLEMING RD");
+
+    doTest("T9",
+        "CAD:RESIDENTIAL STRUCTURE FIRE;7255 FLEMING RD;ATLA;A27;D1;KATHRYN RD;VERNON RD",
+        "CALL:RESIDENTIAL STRUCTURE FIRE",
+        "ADDR:7255 FLEMING RD",
+        "MAP:A27,D1",
+        "X:KATHRYN RD & VERNON RD");
+
+    doTest("T10",
+        "CAD:ABDOMINAL PAIN/BACK PAIN;33063 STONEY CREEK RD;ATLA;A27;C1;GENE WAYNE LN;FLEMING RD",
+        "CALL:ABDOMINAL PAIN/BACK PAIN",
+        "ADDR:33063 STONEY CREEK RD",
+        "MAP:A27,C1",
+        "X:GENE WAYNE LN & FLEMING RD");
   }
   
   @Test
