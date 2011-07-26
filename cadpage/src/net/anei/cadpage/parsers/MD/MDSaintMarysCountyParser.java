@@ -86,6 +86,7 @@ System: Pro QA Medical & Pro QA Fire
 ((10896) CAD ) 20:50:43*Personal Injury Accident*26488 YOWAISKI MILL RD*WEST SPICER DR*COUNTRY LAKES*CO2 SQ2 CO29 CO59*PARKED CAR*
 ((17525) CAD ) 15:15:46*Miscellaneous*ECC*23090 LEONARD HALL DR*HOLLYWOOD RD*LEONARDTOWN*CO19 CO29 CO39 CO49R CO59 CO6R*Severe thunderstorm warning till
 ((14501) CAD ) 14:57:30*Traumatic Injuries*26174 T WOOD DR*DEAD END*MECHANICSVILLE*CO29 CO59 ALS*FEMALE BELIEVES SHE INJURED HER RIB ON THURSDAY AT PHYSI
+((22502) CAD ) 05:56:37*Breathing Difficulties*18360 THREE NOTCH RD*TOMS WY*ST JAMES*CO39*80 year old, Male, Conscious, Breathing.*
 
  */
 
@@ -131,6 +132,7 @@ public class MDSaintMarysCountyParser extends SmartAddressParser {
       "REDGATE",
       "RIDGE",
       "ST INIGOES",
+      "ST JAMES",
       "ST MARYS CITY",
       "SCOTLAND",
       "TALL TIMBERS",
@@ -139,8 +141,10 @@ public class MDSaintMarysCountyParser extends SmartAddressParser {
       "WILDEWOOD"
   }));
   
-  private static final Properties CITY_ABBRV = buildCodeTable(new String[]{
-      "CHAR HALL", "CHARLOTTE HALL"
+  private static final Properties CITY_CHANGES = buildCodeTable(new String[]{
+      "CHAR HALL", "CHARLOTTE HALL",
+      "LORD CALVERT TRLPK", "",
+      "ST JAMES", "LEXINGTON PARK",
   });
   
   private static final Pattern MARKER = Pattern.compile("\\b\\d\\d:\\d\\d:\\d\\d\\*");
@@ -262,14 +266,14 @@ public class MDSaintMarysCountyParser extends SmartAddressParser {
         
       case 5:
         // town
-        // Whatever Lord Calverts Trlpk is, Google doesn't recognize it
-        data.strCity = fld;
-        if (data.strCity.equalsIgnoreCase("LORD CALVERT TRLPK")) {
-          if (data.strPlace.length() == 0) data.strPlace = data.strCity;
-          data.strCity = "";
+        data.strCity = fld.toUpperCase();
+        String newCity = CITY_CHANGES.getProperty(data.strCity);
+        if (newCity != null) {
+          if (newCity.length() == 0 && data.strPlace.length() == 0) {
+            data.strPlace = data.strCity;
+          }
+          data.strCity = newCity;
         }
-        String city = CITY_ABBRV.getProperty(data.strCity);
-        if (city != null) data.strCity = city;
         break;
         
       case 6:
