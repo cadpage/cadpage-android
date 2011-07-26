@@ -12,6 +12,13 @@ public class PAChesterCountyBParserTest extends BaseParserTest {
   }
   
   @Test
+  public void testBadMsg() {
+    doBadTest("Initial Type: BSICK      Final Type: BSICK   (SICK PERSON - BLS *)\nLoc: 415 MEGAN CT ,62  btwn VICTORIA GARDENS DR & AZALEA LA (V)\nAKA");
+    doBadTest("Initial Type: ACCINJA    Final Type:ACCINJA (ACCIDENT - INJURIES / ALS *)\nLoc: W BALTIMORE PK/SCARLETT RD ,60    (V) AKA:");
+  }
+    
+  
+  @Test
   public void testParser1() {
 
     doTest("T1",

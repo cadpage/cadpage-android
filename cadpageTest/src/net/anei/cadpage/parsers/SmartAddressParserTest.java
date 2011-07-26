@@ -585,6 +585,13 @@ public class SmartAddressParserTest extends BaseParserTest {
         "ADDR:RT C");
   }
   
+  @Test
+  public void testRoadPrefix() {
+    doTest(CALL, "BAD STUFF OLD NEWPORT RD EXTRA",
+        "CALL:BAD STUFF",
+        "ADDR:OLD NEWPORT RD");
+  }
+  
   @Override
   public void testBadMsg() {
   }

@@ -25,11 +25,12 @@ public abstract class BaseParserTest {
   
   private static final String FROM_ADDRESS = "1112223333";
 
-  private SmsMsgParser parser;
+  private SmsMsgParser parser = null;
   private String defCity;
   private String defState;
   private String fromAddress = FROM_ADDRESS;
   private TestManagePreferences preferences;
+  private boolean skipBadTest = false;
   
   protected BaseParserTest() {
     preferences = new TestManagePreferences();
@@ -41,12 +42,16 @@ public abstract class BaseParserTest {
   }
   
   public void setParser(SmsMsgParser parser, String defCity, String defState) {
-    this.parser = parser;
+    setParser(parser);
     this.defCity = defCity;
     this.defState = defState;
   }
   
   public void setParser(SmsMsgParser parser) {
+    // If parser is set twice, assume this is a group parser test
+    // in which case bad message tests that should fail for the target parser
+    // might be passed by another parser in the group.
+    if (this.parser != null) skipBadTest = true;
     this.parser = parser;
   }
   
@@ -77,6 +82,7 @@ public abstract class BaseParserTest {
   }
   
   public void doBadTest(String test) {
+    if (skipBadTest) return;
     SmsMmsMessage msg = new SmsMmsMessage(fromAddress, test, 0L, 0);
     assertFalse(parser.isPageMsg(msg));
   }
