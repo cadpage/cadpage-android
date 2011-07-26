@@ -1,6 +1,8 @@
 package net.anei.cadpage.parsers.PA;
 
 import net.anei.cadpage.SmsMsgInfo.Data;
+import net.anei.cadpage.parsers.SmsMsgParser;
+
 /*
 Lancaster County, PA
 Contact: Benjamin Herskowitz <bherskowitz@gmail.com>
@@ -14,15 +16,10 @@ Sender: 911@lcwc911.us
 Contact: Matthew Lenker <strappy39@gmail.com>
 VEH ACCIDENT-ENTRAPMENT-1A / ELIZABETHTOWN BORO~E COLLEGE AVE / S SPRUCE ST~~TRK74,ENG741~08:54:12^\n
 
-The Text in the parentheses is the call nature.  Next, the municipality,
-then a tilde symbol then the location. Intersections are shown as to roads
-separated by a forward slash. Next is another tilde symbol followed by the
-nearest cross street then a tilde symbol then the next closest cross street.
-(note intersections page do not have cross streets) Next, is another a tilde
-symbol followed by the units separated by commas.  Lastly a tilde symbol
-then the time of dispatch.
+Contact: James Taylor <jtaylor574@gmail.com>
+VEH ACCIDENT-CLASS 2 / WEST COCALICO TWP~N KING ST / E QUEEN ST~~RES13~13:10:45^\n
+
 */
-import net.anei.cadpage.parsers.SmsMsgParser;
 
 public class PALancasterCountyParser extends SmsMsgParser {
   
