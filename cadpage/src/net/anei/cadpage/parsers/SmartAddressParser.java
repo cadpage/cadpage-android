@@ -131,6 +131,8 @@ public abstract class SmartAddressParser extends SmsMsgParser {
   // Bitmask bit indicating token can be an alpha route or highway number
   private static final int ID_ALPHA_ROUTE = 0x40000;
   
+  private static final int ID_OPT_ROAD_PFX = 0x80000;
+  
   // Bitmask indicating dictionary word is either a route number prefix or a
   // route prefix extender
   private static final int ID_ROUTE_PFX = ID_ROUTE_PFX_PFX | ID_ROUTE_PFX_EXT;
@@ -187,6 +189,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     setupDictionary(ID_ROUTE_PFX_PFX, "STATE", "ST", "SR", "SRT", "US", "FS", "INTERSTATE", "I", "STHWY", "USHWY", "CO", "CR", "COUNTY");
     setupDictionary(ID_ROUTE_PFX_PFX, new String[]{defState});
     setupDictionary(ID_DIRECTION, "N", "NE", "E", "SE", "S", "SW", "W", "NW", "NB", "EB", "SB", "WB", "EXT");
+    setupDictionary(ID_OPT_ROAD_PFX, "OLD", "NEW");
     setupDictionary(ID_CONNECTOR, "AND", "/", "&");
     setupDictionary(ID_AT_MARKER, "AT", "@");
     
@@ -905,6 +908,9 @@ public abstract class SmartAddressParser extends SmsMsgParser {
       if (isType(ndx, ID_NOT_ADDRESS)) break;
       if (isType(ndx, ID_DIRECTION)) return sAddr-j; 
     }
+    
+    // No luck, see if the previous token is a possible road prefix
+    if (sAddr > start && isType(sAddr-1, ID_OPT_ROAD_PFX)) sAddr--;
     return sAddr;
   }
   

@@ -27,12 +27,33 @@ Sender: afc23@comcast.net
 
 public class PAChesterCountyBParser extends PAChesterCountyBaseParser {
   
+  private boolean good;
+  
   public PAChesterCountyBParser() {
     super("CALL ( ADDRCITY2 X2? | ADDRPL! X2? APT? INFO+? CITY! ) INFO+? DATETIME DATETIME? NAME? PHONE");
   }
 
   @Override
-  protected boolean parseMsg(String body, Data data) {
-    return parseFields(body.split("\n"), data);
+  protected boolean parseMsg(String subject, String body, Data data) {
+    good = subject.equals("Messenger 911");
+    if (!good && !subject.equals("") && !subject.equals("Update")) return false;
+    if (!parseFields(body.split("\n"), data)) return false;
+    return good;
   }
+  
+  private class MyDateTimeField extends DateTimeField {
+    @Override
+    public boolean checkParse(String field, Data data) {
+      if (! super.checkParse(field, data)) return false;
+      good = true;
+      return true;
+    }
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("DATETIME")) return new MyDateTimeField();
+    return super.getField(name);
+  }
+  
 } 
