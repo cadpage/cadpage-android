@@ -95,9 +95,16 @@ public class NYRocklandCountyBParserTest extends BaseParserTest {
         "PLACE:ST JOSEPH'S HOME",
         "ADDR:125 SISTERS SERVANTS LN",
         "X:UNKNOWN / CEMETERY RD");
+
+    doTest("T12",
+        "15 - BRUSH/MULCH/RUBBISH OUTSIDE 171 ORANGE TRNPK CROSS: LEDGE RD / POST RD 15:51 55 - LENIHAN",
+        "UNIT:15",
+        "CALL:BRUSH/MULCH/RUBBISH OUTSIDE",
+        "ADDR:171 ORANGE TRNPK",
+        "X:LEDGE RD / POST RD");
   }
   
   public static void main(String[] args) {
-    new NYRocklandCountyBParserTest().generateTests("T10", "UNIT CALL ID PLACE ADDR X");
+    new NYRocklandCountyBParserTest().generateTests("T13", "UNIT CALL ID PLACE ADDR X");
   }
 }
