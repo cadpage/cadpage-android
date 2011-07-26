@@ -124,9 +124,17 @@ public class PAChesterCountyBParserTest extends BaseParserTest {
         "PLACE:CREATIVE PLAY DAY SCHOOL",
         "INFO:RP SEES BRUSH FIRE ACROSS FROM ABOVE---COULD S AY HOW BIG BUT APPE",
         "CITY:NEW GARDEN TWP");
-  }
+
+    doTest("T6",
+        "(Messenger 911) BFALL\n115 E SUMMIT AV\nPARKWAY AV & MYRTLE AV\nWGROVE\n62 YO/F FELL DOWN 5 STEPS\n21:07",
+        "CALL:BFALL",
+        "ADDR:115 E SUMMIT AV",
+        "X:PARKWAY AV & MYRTLE AV",
+        "INFO:62 YO/F FELL DOWN 5 STEPS",
+        "CITY:WEST GROVE");
+ }
   
   public static void main(String[] args) {
-    new PAChesterCountyBParserTest().generateTests("T4");
+    new PAChesterCountyBParserTest().generateTests("T7");
   }
 }
