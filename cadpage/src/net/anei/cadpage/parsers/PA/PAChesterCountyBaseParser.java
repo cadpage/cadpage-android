@@ -9,21 +9,22 @@ import net.anei.cadpage.parsers.FieldProgramParser;
 public class PAChesterCountyBaseParser extends FieldProgramParser {
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
-      "NGARDN", "NEW GARDEN TWP",
-      "LDNBRT", "LANDENBERG",
-      "LGROVE", "LONDON GROVE TWP",
-      "POCOPS", "POCOPSON TWP",
-      "NEWLON", "NEW LONDON TWP",
-      "KNTSQR", "KENNETT SQUARE",
-      "PNSBRY", "",
       "AVNDAL", "AVONDALE",
       "EMARLB", "EAST MARLBOROUGH TWP",
-      "WMARLB", "WEST MARLBOROUGH TWP",
-      "PENN",   "PENN TWP",
-      "LWROXF", "LOWER OXFORD TWP",
       "ENOTT",  "EAST NOTINGHAM TWP",
-      "OXFORD", "OXFORD",
+      "KNTSQR", "KENNETT SQUARE",
       "KNTTWP", "KENNETT TWP",
+      "LDNBRT", "LANDENBERG",
+      "LGROVE", "LONDON GROVE TWP",
+      "LWROXF", "LOWER OXFORD TWP",
+      "NEWLON", "NEW LONDON TWP",
+      "NGARDN", "NEW GARDEN TWP",
+      "OXFORD", "OXFORD",
+      "PENN",   "PENN TWP",
+      "POCOPS", "POCOPSON TWP",
+      "PNSBRY", "",
+      "WGROVE", "WEST GROVE",
+      "WMARLB", "WEST MARLBOROUGH TWP"
   });
   
   public PAChesterCountyBaseParser(String programStr) {
