@@ -43,9 +43,21 @@ public class MEYorkCountyParserTest extends BaseParserTest {
         "CALL:FIRE, OTHER",
         "ADDR:DEERING RIDGE RD & PHEASANT RUN RD",
         "CITY:Waterboro");
+
+    doTest("T6",
+        "(Page) FIRE, STRUCTURE13 KINGS CT Waterboro7/23/2011 16:00",
+        "CALL:FIRE, STRUCTURE",
+        "ADDR:13 KINGS CT",
+        "CITY:Waterboro");
+
+    doTest("T7",
+        "(Page) MOTOR VEHICLE ACCIDENT-PI/HAZ979 SOKOKIS TRL Waterboro7/24/2011 13:31",
+        "CALL:MOTOR VEHICLE ACCIDENT-PI/HAZ",
+        "ADDR:979 SOKOKIS TRL",
+        "CITY:Waterboro");
   }
   
   public static void main(String[] args) {
-    new MEYorkCountyParserTest().generateTests("T1", "CALL ADDR CITY");
+    new MEYorkCountyParserTest().generateTests("T8", "CALL ADDR CITY");
   }
 }

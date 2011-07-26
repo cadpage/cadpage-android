@@ -450,6 +450,15 @@ public class MDSaintMarysCountyParserTest extends BaseParserTest {
          "CITY:LEONARDTOWN",
          "UNIT:CO19 CO29 CO39 CO49R CO59 CO6R",
          "INFO:Severe thunderstorm warning till");
+
+     doTest("T50",
+         "((14501) CAD ) 14:57:30*Traumatic Injuries*26174 T WOOD DR*DEAD END*MECHANICSVILLE*CO29 CO59 ALS*FEMALE BELIEVES SHE INJURED HER RIB ON THURSDAY AT PHYSI",
+         "CALL:Traumatic Injuries",
+         "ADDR:26174 T WOOD DR",
+         "X:DEAD END",
+         "CITY:MECHANICSVILLE",
+         "UNIT:CO29 CO59 ALS",
+         "INFO:FEMALE BELIEVES SHE INJURED HER RIB ON THURSDAY AT PHYSI");
   }
   
   public static void main(String[] args) {
