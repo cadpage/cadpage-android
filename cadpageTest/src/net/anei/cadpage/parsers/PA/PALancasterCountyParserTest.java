@@ -59,10 +59,17 @@ public class PALancasterCountyParserTest extends BaseParserTest {
         "CITY:ELIZABETHTOWN",
         "ADDR:E COLLEGE AVE & S SPRUCE ST",
         "UNIT:TRK74,ENG741");
+
+    doTest("T7",
+        "VEH ACCIDENT-CLASS 2 / WEST COCALICO TWP~N KING ST / E QUEEN ST~~RES13~13:10:45^\n",
+        "CALL:VEH ACCIDENT-CLASS 2",
+        "CITY:WEST COCALICO TWP",
+        "ADDR:N KING ST & E QUEEN ST",
+        "UNIT:RES13");
   }
   
   
   public static void main(String[] args) {
-    new PALancasterCountyParserTest().generateTests("T6", "CALL CITY ADDR X UNIT");
+    new PALancasterCountyParserTest().generateTests("T7", "CALL CITY ADDR X UNIT");
   }
 }
