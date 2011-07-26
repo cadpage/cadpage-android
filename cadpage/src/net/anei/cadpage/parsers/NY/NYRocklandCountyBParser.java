@@ -26,11 +26,16 @@ Sender: 44_Control@verizon.net
 15  -  AUTOMATIC ALARM   1131780 - ARDEN HILLS NURSERY 185 ORANGE TRNPK  CROSS: WASHINGTON AV / LEDGE RD 17:50 10 - DELUCIA
 15  -  AUTOMATIC ALARM   1130653 - ST JOSEPH'S HOME 125 SISTERS SERVANTS LN  CROSS: UNKNOWN / CEMETERY RD 15:31 10 - DELUCIA
 
+Contact: Matthew Stritmater <m.stritmater@sloatsburgfire.org>
+Sender: 93001012
+15 - BRUSH/MULCH/RUBBISH OUTSIDE 171 ORANGE TRNPK CROSS: LEDGE RD / POST RD 15:51 55 - LENIHAN
+
 */
 
 public class NYRocklandCountyBParser extends SmartAddressParser {
   
-  private static final Pattern MASTER = Pattern.compile("([^ ]+) +- +(.*?)   (?:(\\d{7}) - )?+(.*?) +CROSS: *(.*?) \\d\\d:\\d\\d \\d\\d.*");
+  private static final Pattern MASTER = Pattern.compile("([^ ]+) +- +(.*?) +CROSS: *(.*?) +\\d\\d:\\d\\d \\d\\d.*");
+  private static final Pattern ADDR_PTN = Pattern.compile("(.*?)   (?:(\\d{7}) - )?+(.*?)");
   
   public NYRocklandCountyBParser() {
     super("ROCKLAND COUNTY","NY");
@@ -46,16 +51,26 @@ public class NYRocklandCountyBParser extends SmartAddressParser {
     Matcher match = MASTER.matcher(body);
     if (!match.matches()) return false;
     data.strUnit = match.group(1);
-    data.strCall = match.group(2);
-    data.strCallId = getOptGroup(match.group(3));
-    String sAddr = match.group(4);
-    Result res = parseAddress(StartType.START_PLACE, FLAG_ANCHOR_END, sAddr);
-    if (res.getStatus() == 0) {
-      data.strAddress = sAddr;
-    } else {
-      res.getData(data);
+    String sAddr = match.group(2);
+    data.strCross = match.group(3);
+    
+    match = ADDR_PTN.matcher(sAddr);
+    if (match.matches()) {
+      data.strCall = match.group(1);
+      data.strCallId = getOptGroup(match.group(2));
+      sAddr = match.group(3);
+      
+      Result res = parseAddress(StartType.START_PLACE, FLAG_ANCHOR_END, sAddr);
+      if (res.getStatus() == 0) {
+        data.strAddress = sAddr;
+      } else {
+        res.getData(data);
+      }
     }
-    data.strCross = match.group(5);
+    
+    else {
+      parseAddress(StartType.START_CALL, FLAG_ANCHOR_END, sAddr, data);
+    }
     return true;
   }
 }
