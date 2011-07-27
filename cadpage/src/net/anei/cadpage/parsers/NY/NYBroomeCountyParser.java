@@ -36,11 +36,16 @@ Sender: mplus@co.broome.ny.us
 Subject:(11470) ) \nCOMM:CHSTPAIN-C :27 GOLDEN LN HARPURSVILLE SENIOR :66yom chest pain                      <10C02> :66 year old, Male, C
 Subject:(12610) ) \nCOMM:UNRSPNSV-D :528 JENSEN RD :81 YOM NOT ALERT/SEVERE HEADACHE/DELTA :CALLER IS VESTAL CREW CHIEF OR DRIVER/CAN DO E
 
+Contact: "J.E. Dancesia" <john@ezems.com>
+.... (46 Conklin Fire) 46:CHSTPAIN-D :12 WILLOW WAY :84 yom chest pain                     &lt;10D03&gt; :84 year old, Male, Conscious, Breathing.  CHANGING COLOR. Cross Sts:CONKLIN RD/DAVID RD 18:55 07/24/2011 2011-00013205 Caller:CEBULA,JAMES,, Phone:000-775-2793 T/Conklin
+.... (46 Conklin Fire) 46:FALLS   -D :1186 CONKLIN RD :69 YOM FALLEN                         &lt;17D05&gt; :69 year old, Male, Conscious, Breathing.  LONG FALL. Cross Sts:POWERS RD/CAROL CT 13:54 07/23/2011 2011-00013114 Caller:KING,PAULINE,, Phone:000-206-2374 T/Conklin
+
 */
 
 
 public class NYBroomeCountyParser extends FieldProgramParser {
   
+  private static Pattern PREFIX = Pattern.compile("^\\.{4} \\(.*?\\) ");
   private static Pattern LEADER = Pattern.compile("^([A-Z0-9]+)[\\-:]");
   private static Pattern TRAILER = Pattern.compile(" V/Endicott? *$");
   private static Pattern KEYWORD_PAT = Pattern.compile(" (|Cross Sts|Caller|Phone):");
@@ -60,7 +65,9 @@ public class NYBroomeCountyParser extends FieldProgramParser {
 	  @Override
 	  protected boolean parseMsg(String body, Data data) {
 	    body = body.trim().replaceAll("  +", " ");
-	    Matcher match = TRAILER.matcher(body);
+	    Matcher match = PREFIX.matcher(body);
+	    if (match.find()) body = body.substring(match.end()).trim();
+	    match = TRAILER.matcher(body);
 	    if (match.find()) body = body.substring(0,match.start()).trim();
 
 	    // Fix up leading field separator
