@@ -39,13 +39,16 @@ E820 Incident: F111970009, Type: Medic Local, Loc: 12124 WHEELING AVE, PP, btwn 
 TK834 Incident: F112000125, Type: Apartment Gas Leak, Loc: 1521 MADISON ST #204, PP, btwn NICHOLSON ST and 16TH AVE, TalkGroup: TGA2, Box: 4401, Map: 5409 D 7, Text: Fire ProQA recommends dispatch at this time, Units:BO884, E855, PE844, TK801, TK834
 E810 Incident: F112050265, Type: Fire Alarm-AFA, Loc: 14402 LAUREL PL, LP, btwn MULBERRY ST and CATALPA ST, TalkGroup: TG1, Box: 1017, Map: 5169 C 6, Text: Fire ProQA recommends dispatch at this time, Unit:E810
 
+Contact: "Khaloughi, Kayman" <kkhaloughi@co.pg.md.us>
+E808 Incident: F112050338<tel:112050338>, Type: Apartment Gas Leak, Loc: 5231 MARLBORO PIKE, PP, btwn SHAMROCK AVE and LEE JAY DR, TalkGroup: TGA4, Box: 2627, Map: 5650 D 2, Text: Fire ProQA recommends dispatch at this time, Units:BO883, E808, E817, QT838, TK829
+
 */
 
 public class MDPrinceGeorgesCountyCParser extends FieldProgramParser {
   
   public MDPrinceGeorgesCountyCParser() {
     super("PRINCE GEORGES COUNTY", "MD",
-           "SRC! Incident:ID! Type:CALL! Loc:ADDR! PP ( AT PP | ) X? TalkGroup:CH! Box:BOX! Map:MAP? Text:INFO+ Units:UNIT");
+           "SRC! Incident:ID! Type:CALL! Loc:ADDR! PP ( AT PP | ) X? TalkGroup:CH! Box:BOX! Map:MAP? Text:INFO+ Units:UNIT+");
   }
   
   @Override
@@ -113,7 +116,7 @@ public class MDPrinceGeorgesCountyCParser extends FieldProgramParser {
   private class MyUnitField extends UnitField {
     @Override
     public void parse(String field, Data data) {
-      data.strUnit = append(data.strUnit, ", ", field);
+      data.strUnit = append(data.strUnit, ",", field);
     }
   }
   
