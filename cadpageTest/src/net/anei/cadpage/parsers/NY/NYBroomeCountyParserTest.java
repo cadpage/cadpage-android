@@ -135,7 +135,29 @@ public class NYBroomeCountyParserTest extends BaseParserTest {
         "CALL:UNRSPNSV-D",
         "ADDR:528 JENSEN RD",
         "INFO:81 YOM NOT ALERT/SEVERE HEADACHE/DELTA / CALLER IS VESTAL CREW CHIEF OR DRIVER/CAN DO E");
-  }
+
+    doTest("T13",
+        ".... (46 Conklin Fire) 46:CHSTPAIN-D :12 WILLOW WAY :84 yom chest pain                     &lt;10D03&gt; :84 year old, Male, Conscious, Breathing.  CHANGING COLOR. Cross Sts:CONKLIN RD/DAVID RD 18:55 07/24/2011 2011-00013205 Caller:CEBULA,JAMES,, Phone:000-775-2793 T/Conklin",
+        "SRC:46",
+        "CALL:CHSTPAIN-D",
+        "ADDR:12 WILLOW WAY",
+        "INFO:84 yom chest pain <10D03> / 84 year old, Male, Conscious, Breathing. CHANGING COLOR.",
+        "X:CONKLIN RD/DAVID RD",
+        "ID:2011-00013205",
+        "NAME:CEBULA,JAMES",
+        "PHONE:000-775-2793 T/Conklin");
+
+    doTest("T14",
+        ".... (46 Conklin Fire) 46:FALLS   -D :1186 CONKLIN RD :69 YOM FALLEN                         &lt;17D05&gt; :69 year old, Male, Conscious, Breathing.  LONG FALL. Cross Sts:POWERS RD/CAROL CT 13:54 07/23/2011 2011-00013114 Caller:KING,PAULINE,, Phone:000-206-2374 T/Conklin",
+        "SRC:46",
+        "CALL:FALLS -D",
+        "ADDR:1186 CONKLIN RD",
+        "INFO:69 YOM FALLEN <17D05> / 69 year old, Male, Conscious, Breathing. LONG FALL.",
+        "X:POWERS RD/CAROL CT",
+        "ID:2011-00013114",
+        "NAME:KING,PAULINE",
+        "PHONE:000-206-2374 T/Conklin");
+ }
   
   public static void main(String[] args) {
     new NYBroomeCountyParserTest().generateTests("T13");
