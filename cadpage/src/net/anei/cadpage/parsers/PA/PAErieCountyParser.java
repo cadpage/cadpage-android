@@ -1,6 +1,8 @@
 package net.anei.cadpage.parsers.PA;
 
 
+import java.util.regex.Pattern;
+
 import net.anei.cadpage.SmsMsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchBParser;
 
@@ -27,6 +29,11 @@ ERIE911:52B1H >RES (SINGLE) HEAT DETECTOR 1530 TAYLOR RIDGE CT FAIRVIEW TWP ADT/
 Contact: dan edwards <mainofic@gmail.com>
 ERIE911:6C1 >BREATHING PROBLEMS 817 POTOMAC AVE XS: W LAKE RD MILLCREEK TWP WATTS, BETTY Map:9214 Grids:, Cad: 2011-0000076275
 
+Contact: Matt Fuller <mfullererie@gmail.com>
+ERIE911:HASKINS RD IS NOW OPEN
+ERIE911:ACTIVE SHOOTER INCIDENTS - MANDATORY TRAINING - SEPT 6,7 OR 8TH. EIGHT HOUR COURSE. REQUIRED TO ATTEND ONE OF THE DAYS.
+ERIE911:SAMPSON RD NOW OPEN......
+
 */
 
 public class PAErieCountyParser extends DispatchBParser {
@@ -34,21 +41,27 @@ public class PAErieCountyParser extends DispatchBParser {
   private static final String[] CITY_LIST = new String[]{
     "FAIRVIEW TWP","FAIRVIEW", "MILLCREEK TWP"
   };
-
-  private static final String DEF_STATE = "PA";
-  private static final String DEF_CITY = "ERIE COUNTY";
+  
+  private static final Pattern MARKER = Pattern.compile("^ERIE911:\\w{3,} >");
  
   public PAErieCountyParser() {
-    super(CITY_LIST, DEF_CITY, DEF_STATE);
+    super(CITY_LIST, "ERIE COUNTY", "PA");
   }
   
   @Override
   protected boolean isPageMsg(String body) {
-    return body.startsWith("ERIE911:");
+    return true;
   }
 
   @Override
   protected boolean parseMsg(String body, Data data) {
+    if (!body.startsWith("ERIE911:")) return false;
+    if (!MARKER.matcher(body).find()) {
+      data.strCall = "GENRAL ALERT";
+      data.strPlace = body.substring(8).trim();
+      return true;
+    }
+    
     if (!super.parseMsg(body, data)) return false;
     
     // The field we parse as a city isn't recognized by Google maps.  We'll

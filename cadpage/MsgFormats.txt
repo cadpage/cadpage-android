@@ -2725,6 +2725,14 @@ AZUREST\n
 PATTERSON\n
 BLEEDING FROM A PRIOR TONSILECTOMY
 **********************************************************
+York County, PA
+Contact: wrblackwell@comcast.net
+Sender: ???
+NORTH CODORUS TWP 1983 SLAGEL RD STOVERSTOWN RD / VIEW DR FIRE STRUCT RESID Working Fire 12-01 S99-1 RIT1 17:05 
+YORK TWP COUNTRY MEADOWS 2760 PINE GROVE RD 2760 PINE GROVE RD LEADER HEIGHTS RD, PINE GROVE CIR / PINE GROVE CMN FIRE AFA HIGH RISK general alm from the Leader Heights Building 19-04 FIRESTA19 E19 E18-1 E89-2 E35-2 TK19 TK34 EMSSTA18 A18 12:22 
+PENN TWP 1060 WILSON AVE OLD RIDGE RD / YORK ST, GRANDVIEW RD FIRE VEHICLE HR mulching machine on fire 49-17 FIRESTA49 E49-2 E46-3 E49-1 
+YORK CITY 900 E KING ST S TREMONT ST / S CAMBRIDGE ST HAZMAT NO INJ hit gas service outside residence 99-06 FIRESTA99 E99-5 E99-1 TK99-1 DO99 15:23 
+**********************************************************
 **********************************************************
 **********************************************************
 ************  READY TO ROLL ******************************
@@ -2963,6 +2971,12 @@ WHITFIELD CO. 911:50I M.V. ACCIDENT W/INJURIES I 75 SB MM 333 6789341809
 WHITFIELD CO. 911:F15 FIRE ALARM 1220 BROADRICK DR 7062758899 ALARM ASSIGN 1-3
 WHITFIELD CO. 911:F15 FIRE ALARM 511 CALLAHAN RD SE 7062776288 ALARM ASSIGN 2
 WHITFIELD CO. 911:F15 FIRE ALARM 1104 WILLOWDALE RD NW 7062758665 ALARM ASSIGN 3
+WHITFIELD CO. 911:50I M.V. ACCIDENT W/INJURIES ANTIOCH / BEAR CREEK 7064284979
+WHITFIELD CO. 911:50I M.V. ACCIDENT W/INJURIES 2125 ANTIOCH RD 7066187892 4,8,5,3,1,7,9,2,6,10
+WHITFIELD CO. 911:50I M.V. ACCIDENT W/INJURIES 75 SB @ N OF 339 7063174144
+WHITFIELD CO. 911:50I M.V. ACCIDENT W/INJURIES WARING AT RRX 7062598533 1,2,3,7,10,8,6,9,4,5
+WHITFIELD CO. 911:50I M.V. ACCIDENT W/INJURIES RAYBURN SR @ BOWERS RD 7064838978
+WHITFIELD CO. 911:F15 FIRE ALARM 1500 MANLEY ST 7062788757 ALARM ASSIGN 1-3
 **********************************************************
 Howard County, MD
 Contact: "Committee, Equipment" <equipment@fdvfd.com>
@@ -3153,6 +3167,22 @@ MVC-Injury
 WOODWARD AV && 6TH ST, MUSCLE SHOALS  (intersection)
 2 CARS
 **********************************************************
+New Haven County, CT
+Contact: John Planas <fire388@gmail.com>
+Sender: guilfordfd@rednmxcad.com
+System: Red Alert
+MARINE INCIDENT, - SEARCH at BLOCK ISLAND RD BRANFORD, GUILFORD . . 14:27:56
+CODE 5,- AUTOMATIC FIRE ALARM at 275 LAKE DRIVE GUILFORD 15:57
+CODE 1,- AUTOMATIC FIRE ALARM at 35 STATE STREET, GUILFORD 17:15 cross street 1-begins at broad st;115-Boston Post Road;180-North Street
+CODE 2,- DTN MEDICAL EMERGENCY at 669 BOSTON POST ROAD, GUILFORD 10:19
+CODE 1,- APPLIANCE,TV,ETC. at 258 CHESTNUT GROVE ROAD 19:50
+CODE 2,-DTN MEDICAL EMERGENCY at 49 GUILFORD COURT, GUILFORD 15:47
+CODE 5,- AUTOMATIC FIRE ALARM at 159 LEDGE HILL ROAD, GUILFORD 11:40
+CODE 1,- AUTOMATIC FIRE ALARM at 53 IRONWOOD ROAD, GUILFORD 11:43
+CODE 2,-DTN MEDICAL EMERGENCY at 51 WATER STREET, GUILFORD 10:46
+CODE 4, - DTN STRUCTURE FIRE at 9 OLD BARN LN, GUILFORD 08:33
+CODE 4, - DTN STRUCTURE FIRE at 125 GOOSE LANE, GUILFORD 09:32
+**********************************************************
 **********************************************************
 **********************************************************
 North East, MD (in Cecil County)
@@ -3315,21 +3345,23 @@ System: Aegis CAD
 (Chief ALT) [40 EMS] - 10D2 - Chest Pains -- 196 N  Bayshore Dr, Frederica -- Bowers Beach -- Xst's: N Flack Ave / Main St -- Caller: Margaret
 (Chief ALT) [40 EMS] - 26C2 - Sick Person -- 201 Hubbard Ave, Frederica -- Bowers Beach -- Xst's: Dead End / Canal St -- Caller: Ingle Heather
 (Chief ALT) [40 EMS] - 10C4 - Chest Pains -- 302 Lake Shore Dr, Frederica -- High Point Mhp -- Xst's: Second St, Sycamore Dr / Lorna Ln -- Caller: Thom Ronald
+(Chief ALT) [40 EMS] - 6C1 - Breathing Problems -- 294 Lake Shore Dr, Frederica -- High Point Mhp -- Xst's: Kiwi Ct / Kylie Ln -- Caller: Hurd Shirley
 **********************************************************
 Erie County, PA (Alternate)
 Contact: Doug Johnson <dougjohnson6@gmail.com>
 Sender: wececc@verizon.net
 Ill Patient - 32 W PEARL STREET - Barnett Building  (PRE-PLAN) - APT 210 - Juliet Street & Academy Street
 Anaphylaxis - 9004 ROUTE 215 -  - HANSON RESIDENCE - CONNEAUT TWP LINE & WOOD ROAD
-Cardiac - 155 E STATE STREET - Albion Family Practice\2s(PRE-PLAN) - Wells Avenue & Elk Street
+Cardiac - 155 E STATE STREET - Albion Family Practice  (PRE-PLAN) - Wells Avenue & Elk Street
 MVA - 126 E STATE STREET -  - Water Street & Wells Avenue
 Chest Pain - E STATE STREET & First Avenue -  - MEET PD -
 Ill Patient - 10745 ROUTE 18 - SCI-Albion  (PRE-PLAN) - USE FRONT ENTRANCE - Boro / Township Line & Carter Road
 Fire Alarm -- Business - 32 W PEARL STREET - Barnett Building  (PRE-PLAN) - Juliet Street & Academy Street
 2ND TAP MEDICAL ALARM  32 WEST PEARL STREET.  DRIVER NEEDED
-Ill Patient - 10745 ROUTE 18 - SCI-Albion\2s(PRE-PLAN) - Boro / Township Line & Carter Road
+Ill Patient - 10745 ROUTE 18 - SCI-Albion  (PRE-PLAN) - Boro / Township Line & Carter Road
 2ND TAP EMS SCI ALBION FRONT ENTRANCE CHEST PAIN.  DC/WCE.
 Fracture - 2 W STATE STREET - Country Fair - MEET PD - Main Street & Academy Street
+Cardiac - 210 E STATE STREET - Northwest Area Health Center  (PRE-PLAN) - Orchard Street & Third Avenue
 **********************************************************
 Erie County, PA
 Contact: Mike ECFW <webmaster@ecfwire.com>
