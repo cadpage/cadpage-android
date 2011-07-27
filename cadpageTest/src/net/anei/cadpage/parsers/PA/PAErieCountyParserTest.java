@@ -131,10 +131,25 @@ public class PAErieCountyParserTest extends BaseParserTest {
         "MAP:9214",
         "PLACE:MILLCREEK TWP",
         "ID:2011-0000076275");
+
+    doTest("T13",
+        "ERIE911:HASKINS RD IS NOW OPEN",
+        "CALL:GENRAL ALERT",
+        "PLACE:HASKINS RD IS NOW OPEN");
+
+    doTest("T14",
+        "ERIE911:ACTIVE SHOOTER INCIDENTS - MANDATORY TRAINING - SEPT 6,7 OR 8TH. EIGHT HOUR COURSE. REQUIRED TO ATTEND ONE OF THE DAYS.",
+        "CALL:GENRAL ALERT",
+        "PLACE:ACTIVE SHOOTER INCIDENTS - MANDATORY TRAINING - SEPT 6,7 OR 8TH. EIGHT HOUR COURSE. REQUIRED TO ATTEND ONE OF THE DAYS.");
+
+    doTest("T15",
+        "ERIE911:SAMPSON RD NOW OPEN......",
+        "CALL:GENRAL ALERT",
+        "PLACE:SAMPSON RD NOW OPEN......");
  
   }
   
   public static void main(String[] args) {
-    new PAErieCountyParserTest().generateTests("T12", "CALL ADDR X NAME MAP PLACE ID");
+    new PAErieCountyParserTest().generateTests("T13", "CALL ADDR X NAME MAP PLACE ID");
   }
 }
