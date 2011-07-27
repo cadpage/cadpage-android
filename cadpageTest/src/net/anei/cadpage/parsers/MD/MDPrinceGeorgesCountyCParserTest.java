@@ -36,7 +36,7 @@ public class MDPrinceGeorgesCountyCParserTest extends BaseParserTest {
         "CH:TGA2",
         "BOX:3004",
         "MAP:5410 F 10",
-        "UNIT:A830");
+        "UNIT:A830,PE830");
 
     doTest("T3",
         "A830 Incident: F111920132, Type: BLS Amb, Loc: 7321 LANDOVER RD, PP, btwn PINEBROOK AVE and KENT TOWN DR, TalkGroup: TGA2, Box: 3302, Map: 5530 H 2, Text: Police ProQA recommends dispatch at this time, Unit:A830",
@@ -102,7 +102,7 @@ public class MDPrinceGeorgesCountyCParserTest extends BaseParserTest {
         "BOX:1109",
         "MAP:5287 J 10",
         "INFO:SMOKE IN THE BUILD LOADING DOCK AREA UM PD L / L",
-        "UNIT:BO886");
+        "UNIT:BO886,E712,E812,E834,E835,TK801,TK814,TW807");
 
     doTest("T8",
         "E812 Incident: F111870241, Type: Fire Alarm-AFA, Loc: HAGERSTOWN HALL - UM 258, UM, at 258 ELLICOTT DR, UM, btwn HAGERSTOWN DR and FARM DR, TalkGroup: TG1, Box: 1210, Map: 5409 J 2, Text: GEN FIRE ALRM, Unit:E812",
@@ -129,7 +129,7 @@ public class MDPrinceGeorgesCountyCParserTest extends BaseParserTest {
         "CH:TGA2",
         "BOX:1203",
         "MAP:5409 K 4",
-        "UNIT:A812");
+        "UNIT:A812,E812,MD812");
 
     doTest("T10",
         "E812 Incident: F111880115, Type: House Fire, Loc: 511 EAST INDIAN SPRING DR, TalkGroup: TG1, Box: MAMC,Text: BOX 16-7 4TH DUE ENG...7C, Unit:E812",
@@ -164,7 +164,7 @@ public class MDPrinceGeorgesCountyCParserTest extends BaseParserTest {
         "CH:TGA9",
         "BOX:3120",
         "MAP:5288 K 6",
-        "UNIT:BO886");
+        "UNIT:BO886,E831,E835,TK812,TK814");
 
     doTest("T13",
         "TK812 Incident: F111890028, Type: House Fire, Loc: 36 RIDGE RD #Q, GP, btwn HAMILTON PL and RIDGE CT, TalkGroup: TGA4, Box: 3510, Map: 5289 A 10, Text: CALLER ADV SHE CAN SEE AND SMELL SMOKE...., Units:BO886, E807, E811, E818, E835, TK812, TK814, TK831",
@@ -178,7 +178,7 @@ public class MDPrinceGeorgesCountyCParserTest extends BaseParserTest {
         "BOX:3510",
         "MAP:5289 A 10",
         "INFO:CALLER ADV SHE CAN SEE AND SMELL SMOKE....",
-        "UNIT:BO886");
+        "UNIT:BO886,E807,E811,E818,E835,TK812,TK814,TK831");
 
     doTest("T14",
         "A810 Incident: F111900107, Type: BLS Amb, Loc: 11217 BASSWOOD TER, PP, btwn BASSWOOD CT and END, TalkGroup: TGA2, Box: 4929, Map: 5289 H 3, Text: Medical ProQA recommends dispatch at this time, Unit:A810",
@@ -227,7 +227,7 @@ public class MDPrinceGeorgesCountyCParserTest extends BaseParserTest {
         "BOX:4911",
         "MAP:5169 F 4",
         "INFO:CHILD ADV FIRE HERE HIS FRIEND LIVES HERE THEN DISC LINE CANT CALLBACK",
-        "UNIT:AE27");
+        "UNIT:AE27,BO886,E831,E849,HE11,HTK06,TK715,TW810");
 
     doTest("T18",
         "E820 Incident: F111970009, Type: Medic Local, Loc: 12124 WHEELING AVE, PP, btwn END and BASKERVILLE PL,TalkGroup: TGC2, Box: 4503, Map: 5768 C 7, Text: Medical ProQA recommends dispatch at this time, Units:A823, E820, MD825",
@@ -239,10 +239,10 @@ public class MDPrinceGeorgesCountyCParserTest extends BaseParserTest {
         "CH:TGC2",
         "BOX:4503",
         "MAP:5768 C 7",
-        "UNIT:A823");
+        "UNIT:A823,E820,MD825");
 
     doTest("T19",
-        "E808 Incident: F111940223, Type: Street Alarm, Loc: 6982 WALKER MILL RD, PP, btwn KAREN BLVD and SHADY GLEN DR, TalkGroup: TGC3, Box: 2617, Map: 5650 J 1, Text: Fire ProQA recommends dispatch at this time, Units:BO883, E808, E826, QT838, TK829 Eff Body:its:BO883, E808, E826, QT838, TK829",
+        "E808 Incident: F111940223, Type: Street Alarm, Loc: 6982 WALKER MILL RD, PP, btwn KAREN BLVD and SHADY GLEN DR, TalkGroup: TGC3, Box: 2617, Map: 5650 J 1, Text: Fire ProQA recommends dispatch at this time, Units:BO883, E808, E826, QT838, TK829",
         "SRC:E808",
         "ID:F111940223",
         "CALL:Street Alarm",
@@ -251,7 +251,7 @@ public class MDPrinceGeorgesCountyCParserTest extends BaseParserTest {
         "CH:TGC3",
         "BOX:2617",
         "MAP:5650 J 1",
-        "UNIT:BO883");
+        "UNIT:BO883,E808,E826,QT838,TK829");
 
     doTest("T20",
         "E808 Incident: F111940099, Type: Medic Local, Loc: ROLLINS AVE/DENISE DR, PP,  <1200/ 1199>, TalkGroup:TGA2, Box: 0820, Map: 5650 F 1, Text: Medical ProQA recommends dispatch at this time, Units:A826, E808,MD846",
@@ -262,7 +262,7 @@ public class MDPrinceGeorgesCountyCParserTest extends BaseParserTest {
         "CH:TGA2",
         "BOX:0820",
         "MAP:5650 F 1",
-        "UNIT:A826");
+        "UNIT:A826,E808,MD846");
 
     doTest("T21",
         "E808 Incident: F111940284, Type: Medic Local, Loc: 7945 CENTRAL AVE, PP, btwn JONQUIL AVE and WESTHAMPTON AVE, TalkGroup: TGA2, Box: 0806, Map: 5531 A 8, Text: Medical ProQA recommends dispatch at this time, Units:E808, PA838",
@@ -274,7 +274,7 @@ public class MDPrinceGeorgesCountyCParserTest extends BaseParserTest {
         "CH:TGA2",
         "BOX:0806",
         "MAP:5531 A 8",
-        "UNIT:E808");
+        "UNIT:E808,PA838");
 
     doTest("T22",
         "E820 Incident: F111970009, Type: Medic Local, Loc: 12124 WHEELING AVE, PP, btwn END and BASKERVILLE PL,TalkGroup: TGC2, Box: 4503, Map: 5768 C 7, Text: Medical ProQA recommends dispatch at this time, Units:A823, E820, MD825",
@@ -286,7 +286,7 @@ public class MDPrinceGeorgesCountyCParserTest extends BaseParserTest {
         "CH:TGC2",
         "BOX:4503",
         "MAP:5768 C 7",
-        "UNIT:A823");
+        "UNIT:A823,E820,MD825");
 
     doTest("T23",
         "TK834 Incident: F112000125, Type: Apartment Gas Leak, Loc: 1521 MADISON ST #204, PP, btwn NICHOLSON ST and 16TH AVE, TalkGroup: TGA2, Box: 4401, Map: 5409 D 7, Text: Fire ProQA recommends dispatch at this time, Units:BO884, E855, PE844, TK801, TK834",
@@ -299,7 +299,7 @@ public class MDPrinceGeorgesCountyCParserTest extends BaseParserTest {
         "BOX:4401",
         "MAP:5409 D 7",
         "APT:204",
-        "UNIT:BO884");
+        "UNIT:BO884,E855,PE844,TK801,TK834");
 
     doTest("T24",
         "E810 Incident: F112050265, Type: Fire Alarm-AFA, Loc: 14402 LAUREL PL, LP, btwn MULBERRY ST and CATALPA ST, TalkGroup: TG1, Box: 1017, Map: 5169 C 6, Text: Fire ProQA recommends dispatch at this time, Unit:E810",
@@ -312,6 +312,18 @@ public class MDPrinceGeorgesCountyCParserTest extends BaseParserTest {
         "BOX:1017",
         "MAP:5169 C 6",
         "UNIT:E810");
+
+    doTest("T25",
+        "E808 Incident: F112050338<tel:112050338>, Type: Apartment Gas Leak, Loc: 5231 MARLBORO PIKE, PP, btwn SHAMROCK AVE and LEE JAY DR, TalkGroup: TGA4, Box: 2627, Map: 5650 D 2, Text: Fire ProQA recommends dispatch at this time, Units:BO883, E808, E817, QT838, TK829",
+        "SRC:E808",
+        "ID:F112050338<tel:112050338>",
+        "CALL:Apartment Gas Leak",
+        "ADDR:5231 MARLBORO PIKE",
+        "X:SHAMROCK AVE and LEE JAY DR",
+        "CH:TGA4",
+        "BOX:2627",
+        "MAP:5650 D 2",
+        "UNIT:BO883,E808,E817,QT838,TK829");
  }
   
   public static void main(String[] args) {
