@@ -19,6 +19,7 @@ public class CAMendocinoCountyParserTest extends BaseParserTest {
         "CALL:OTHER MISC. DISPLAY",
         "PLACE:COW MOUNTAIN",
         "ADDR:=L(39.107949,-123.087224)",
+        "CITY:UKIAH",
         "GPS:X: -123 5.23344  Y: 39 6.47694",
         "UNIT:B1113",
         "INFO:testing with b1113");
@@ -110,6 +111,7 @@ public class CAMendocinoCountyParserTest extends BaseParserTest {
         "MEDICAL, BRAVO; =L(39.126853,-123.129230) ,UKV ; Inc# 003823X: -123 7.7538  Y: 39 7.61118 B1113; mill creek by upper pond adult male leg inj 3rd party report",
         "CALL:MEDICAL, BRAVO",
         "ADDR:=L(39.126853,-123.129230)",
+        "CITY:UKIAH",
         "ID:003823",
         "GPS:X: -123 7.7538  Y: 39 7.61118",
         "UNIT:B1113",
