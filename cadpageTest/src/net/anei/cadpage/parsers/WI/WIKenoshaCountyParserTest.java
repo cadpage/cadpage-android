@@ -93,11 +93,11 @@ public class WIKenoshaCountyParserTest extends BaseParserTest {
         "INFO:50 F CONSCIOUS: NO ,BREATHING: YES");
 
     doTest("T12",
-        "From: UAS203 #:002011089931 ALS MED at 5516 353RD AVE Rem: 50 F CONSCIOUS: NO ,BREATHING: YES\50s",
+        "From: UAS203 #:002011089931 ALS MED at 5516 353RD AVE Rem: 50 F CONSCIOUS: NO ,BREATHING: YES",
         "ID:002011089931",
         "CALL:ALS MED",
         "ADDR:5516 353RD AVE",
-        "INFO:50 F CONSCIOUS: NO ,BREATHING: YES\50s");
+        "INFO:50 F CONSCIOUS: NO ,BREATHING: YES");
 
     doTest("T13",
         "From: DMC105 #:002011098714 SINGLE ENGINE at 11252 254TH CT SALEM HIGHWAY DEPT ( Rem: LARGE BRUSH FIRE BEHIND BLDG APPEARS UNATTENDED",
@@ -113,10 +113,17 @@ public class WIKenoshaCountyParserTest extends BaseParserTest {
         "CALL:ALS MED",
         "ADDR:9739 269TH AVE",
         "INFO:67 F ;BREATHING DIFFICULTY CONSCIOUS: YES ,BREATHING: YES");
+
+    doTest("T15",
+        "From: RR114  #:002011107606 SINGLE ENGINE at 23812 126TH ST Rem:  CALLER IS AT WORK (948-5640) - HER MOTHER IN LAW, JULIE, IS AT THE HOUSE * TREE ON FIRE IN THE FRO",
+        "ID:002011107606",
+        "CALL:SINGLE ENGINE",
+        "ADDR:23812 126TH ST",
+        "INFO:CALLER IS AT WORK (948-5640) - HER MOTHER IN LAW, JULIE, IS AT THE HOUSE * TREE ON FIRE IN THE FRO");
    
   }
   
   public static void main(String[] args) {
-    new WIKenoshaCountyParserTest().generateTests("T15", "ID CALL ADDR PLACE INFO");
+    new WIKenoshaCountyParserTest().generateTests("T16", "ID CALL ADDR PLACE INFO");
   }
 }
