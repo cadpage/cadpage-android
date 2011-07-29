@@ -96,6 +96,8 @@ public class MDSaintMarysCountyParser extends SmartAddressParser {
   
   private static Set<String> CITY_LIST = new HashSet<String>(Arrays.asList(new String[]{
       "CALIFORNIA",
+      "CEDAR COVE",
+      "CEDARCOVE",
       "CHAR HALL",
       "CHARLOTTE HALL",
       "CHESTNUT HILLS",
@@ -113,6 +115,8 @@ public class MDSaintMarysCountyParser extends SmartAddressParser {
       "COMPTON",
       "DAMERON",
       "DRAYDEN",
+      "ESPERANZA FARMS",
+      "FIRST COLONY",
       "GREAT MILLS",
       "HELEN",
       "HERMANVILLE",
@@ -133,10 +137,12 @@ public class MDSaintMarysCountyParser extends SmartAddressParser {
       "REDGATE",
       "RIDGE",
       "SAN SOUCI",
+      "SCOTLAND",
+      "SOUTH HAMPTON",
+      "SPRING RIDGE",
       "ST INIGOES",
       "ST JAMES",
       "ST MARYS CITY",
-      "SCOTLAND",
       "TALL TIMBERS",
       "TOWN CREEK",
       "VALLEY LEE",
@@ -145,9 +151,20 @@ public class MDSaintMarysCountyParser extends SmartAddressParser {
   
   private static final Properties CITY_CHANGES = buildCodeTable(new String[]{
       "CHAR HALL", "CHARLOTTE HALL",
-      "LORD CALVERT TRLPK", "",
-      "SAN SOUCI", "CALIFORNIA",
-      "ST JAMES", "LEXINGTON PARK",
+      
+      "ESPERANZA FARMS","CALIFORNIA",
+      "FIRST COLONY",   "CALIFORNIA",
+      "SAN SOUCI",      "CALIFORNIA",
+      "TOWN CREEK",     "CALIFORNIA",
+
+      "CEDAR COVE",   "LEXINGTON PARK",
+      "CEDARCOVE",    "LEXINGTON PARK",
+      "LORD CALVERT TRLPK", "LEXINGTON PARK",
+      "HERMANVILLE",  "LEXINGTON PARK",
+      "SOUTH HAMPTON","LEXINGTON PARK",
+      "SPRING RIDGE", "LEXINGTON PARK",
+      "ST JAMES",     "LEXINGTON PARK",
+
   });
   
   private static final Pattern MARKER = Pattern.compile("\\b\\d\\d:\\d\\d:\\d\\d\\*");
