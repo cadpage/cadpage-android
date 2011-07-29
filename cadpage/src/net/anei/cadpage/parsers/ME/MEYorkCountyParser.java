@@ -18,6 +18,8 @@ Sender: U.2229178@pager.ucom.com
 (Page) FIRE, STRUCTURE13 KINGS CT Waterboro7/23/2011 16:00
 (Page) MOTOR VEHICLE ACCIDENT-PI/HAZ979 SOKOKIS TRL Waterboro7/24/2011 13:31
 
+(Page) FIRE ALARM ACTIVATIONWATERBORO ELEMENTARY SCHOOL340 SOKOKIS TRL Waterboro7/28/2011 11:33
+
 */
 
 public class MEYorkCountyParser extends SmartAddressParser {

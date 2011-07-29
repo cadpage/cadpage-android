@@ -2748,6 +2748,7 @@ Unknown,
 Contact: nathan carrier <ncarrier454@gmail.com>
 Sender: JCFDTEXT@johnsoncitytn.org
 prvs=182efbc0f=JCFDTEXT@johnsoncitytn.org House/Residential Fire E7,E4,L44,E3,MP29\nALLISON LN/HELEN CT\nALLISON PLACE SD\nMap 53C 16:50:40 115143\nThink green: Only print this e-mail
+prvs=1838ca3f5=JCFDTEXT@johnsoncitytn.org GRASS/BRUSH FIRE E4\n208 GARDEN DR\nGRACE TEMPLE CHURCH\nMap 46C 19:57:36 115181
 **********************************************************
 **********************************************************
 **********************************************************
