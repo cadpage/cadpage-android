@@ -192,7 +192,7 @@ public class FieldProgramParser extends SmartAddressParser {
    * field assignments
    * @param programStr program string to be compiled
    */
-  private static final Pattern TAG_PTN = Pattern.compile("\\b([\\w\\-]+):");
+  private static final Pattern TAG_PTN = Pattern.compile("([^ :]+):");
   protected void setProgram(String program) {
     
     if (program == null) return;
@@ -621,21 +621,16 @@ public class FieldProgramParser extends SmartAddressParser {
       }
       
       int len = fieldTerm.length();
-      int st = 0;
+      int st = fieldTerm.indexOf(':');
+      if (st > 0) {
+        tag = fieldTerm.substring(0,st).replace('_', ' ');
+      }
+      st++;
       
       // parse field or tag name
       int pt = st;
       while (pt < len && 
              (Character.isJavaIdentifierPart(fieldTerm.charAt(pt)) || fieldTerm.charAt(pt)=='-')) pt++;
-      if (pt < fieldTerm.length() && fieldTerm.charAt(pt) == ':') {
-        tag = fieldTerm.substring(st, pt).replace("_", " ");
-        st = ++pt;
-        if (! Character.isUpperCase(fieldTerm.charAt(pt++))) {
-          throw new RuntimeException("Invalid field term: " + fieldTerm);
-        }
-        while (pt < len && 
-            (Character.isJavaIdentifierPart(fieldTerm.charAt(pt)) || fieldTerm.charAt(pt)=='-')) pt++;
-      }
       
       name = fieldTerm.substring(st, pt);  
       
