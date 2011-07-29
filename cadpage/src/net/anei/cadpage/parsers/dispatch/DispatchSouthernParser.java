@@ -92,6 +92,31 @@ Transylvania County, NC
 1 CONNESTEE RD CONNESTEE 2011-027031 14:04:11 HEAD INJURY REF 9 YO HAD BICYCLE ACCIDENT IN FRONT OF THE CHURCH, POSSIBLE HEAD AND ARM INJURY
 11 SHERWOOD RIDGE RD SHERWOOD FOREST 2011-027139 10:23:11 UNCONSCIOUS/UNRESPONSIVE female unresp dob 04/07/21 winnie seale
 
+Carteret county, NC 
+CEC:303 COLLEGE CIR MOREHEAD CITY FDL 52C03-G 11-090057 12:36:58 ALARM FIRE
+CEC:3905 ARENDELL ST MOREHEAD CITY MDL 30B01 11-090021 11:38:14 TRAUMATIC INJURIES
+CEC:828 S YAUPON TER MOREHEAD CITY 11-089759 20:36:57 CHECK WELFARE
+CEC:3722 BRIDGES ST MOREHEAD CITY MDL 10C04 11-089619 15:13:10 CHEST PAIN
+CEC:2714 MAYBERRY LOOP RD MOREHEAD CITY 11-089532 12:03:48 HEAT - COLD EXPOSURE
+CEC:1005 YAUPON DR MOREHEAD CITY 11-088667 20:15:44 OUTSIDE FIRE
+CEC:3500 ARENDELL ST MOREHEAD CITY 11-089379 04:23:11 TRANSFER (MEDICAL) INTERFACILITY
+CEC:3017 BRIDGES ST MOREHEAD CITY 11-086957 13:07:00 STRUCTURE FIRE
+CEC:5018 HWY 70 MOREHEAD CITY 11-088596 16:40:33 MVC UNK PI
+CEC:BRIDGES ST ST EXT / HWY 70 11-087512 13:54:18 MVC MINOR
+CEC:5167 HWY 70 MOREHEAD CITY FDL 60D03-O 11-087553 15:18:54 GAS LEAK - ODOR (LP or Natural Gas)
+CEC:11-082100 08:48:00 SICK PERSON WEST WOOD SQUARE APTS 403 BROOK ST E32 MOREHEAD CITY
+CEC:11-082157 11:29:34 MVC PI OR ROLLOVER WILCO HESS MHC 4TH ST 400 ARENDELL ST MOREHEAD CITY
+CEC:11-082262 16:31:51 STRUCTURE FIRE 4 VINE LN NEWPORT FDL 69D10
+CEC:114 CLUB COLONY DR b ATLANTIC BEACH FDL 52B01-G 11-084908 18:06:28 ALARM FIRE
+CEC:306 CRAVEN ST BEAUFORT MDL 17B03-G 11-089178 19:42:02 FALLS
+CEC:405 WEST BEAUFORT RD BEAUFORT FDL 69D06 11-085673 04:39:22 STRUCTURE FIRE
+CEC:HWY 24 / HWY 70 11-088160 17:29:35 MVC PI OR ROLLOVER
+CEC:438 MACON CT MOREHEAD CITY MDL 01A01 11-088343 02:36:15 ABDOMINAL PAIN - PROBLEMS
+CEC:306 CRAVEN ST BEAUFORT MDL 17B03-G 11-089178 19:42:02 FALLS
+CEC:315 FRONT ST BEAUFORT FDL 52C03-G 11-088849 04:01:34 ALARM FIRE
+CEC:4035 ARENDELL ST rm 226 MOREHEAD CITY 11-089051 14:12:37 BREATHING PROBLEMS
+CEC:1805 ARENDELL ST apt b MOREHEAD CITY MDL 26D01 11-088938 09:43:13 SICK PERSON
+
 */
 
 public class DispatchSouthernParser extends SmartAddressParser {
@@ -146,17 +171,16 @@ public class DispatchSouthernParser extends SmartAddressParser {
     Matcher match = idTimePattern.matcher(body);
     if (!match.find()) return false;
     
-    data.strCallId = match.group(1);
-    if (data.strCallId == null) data.strCallId = "";
+    data.strCallId = getOptGroup(match.group(1));
     String sAddr = body.substring(0,match.start()).trim();
     String sExtra = body.substring(match.end()).trim();
     
-    parseMain(sAddr, data);
-
-    // Second half May contain unit ID,
-    // then call description and long call description
-    // Call description comes first and contains only upper case letters and numbers
-    parseExtra(sExtra, data);
+    if (sAddr.length() > 0) {
+      parseMain(sAddr, data);
+      parseExtra(sExtra, data);
+    } else {
+      parseExtra2(sExtra, data);
+    }
     return true;
   }
 
@@ -171,6 +195,10 @@ public class DispatchSouthernParser extends SmartAddressParser {
   }
 
   protected void parseExtra(String sExtra, Data data) {
+
+    // Second half May contain unit ID,
+    // then call description and long call description
+    // Call description comes first and contains only upper case letters and numbers
     Matcher match;
     Parser p;
     if (unitId) {
@@ -187,5 +215,15 @@ public class DispatchSouthernParser extends SmartAddressParser {
       }
     }
     data.strSupp = sExtra;
+  }
+
+  protected void parseExtra2(String sExtra, Data data) {
+    // First half contains address, optional place/name, and possibly an MDL call code
+    Parser p = new Parser(sExtra);
+    data.strCode = p.getLastOptional(" MDL ");
+    if (data.strCode.length() == 0) data.strCode =p.getLastOptional(" FDL ");
+    sExtra = p.get();
+    parseAddress(StartType.START_CALL, sExtra, data);
+    data.strSupp = getLeft();
   }
 }
