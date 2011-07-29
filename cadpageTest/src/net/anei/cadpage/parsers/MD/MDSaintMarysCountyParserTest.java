@@ -463,14 +463,25 @@ public class MDSaintMarysCountyParserTest extends BaseParserTest {
      doTest("T51",
          "((22502) CAD ) 05:56:37*Breathing Difficulties*18360 THREE NOTCH RD*TOMS WY*ST JAMES*CO39*80 year old, Male, Conscious, Breathing.*",
          "CALL:Breathing Difficulties",
+         "PLACE:ST JAMES",
          "ADDR:18360 THREE NOTCH RD",
          "X:TOMS WY",
          "CITY:LEXINGTON PARK",
          "UNIT:CO39",
          "INFO:80 year old, Male, Conscious, Breathing.");
+
+     doTest("T52",
+         "((34827) CAD ) 07:20:02*Falls/Traumatic*22518 ARMSWORTHY CT*CUL DE SAC*SAN SOUCI*ST38*84 year old, Female, Conscious, Breathing.*",
+         "CALL:Falls/Traumatic",
+         "PLACE:SAN SOUCI",
+         "ADDR:22518 ARMSWORTHY CT",
+         "X:CUL DE SAC",
+         "CITY:CALIFORNIA",
+         "UNIT:ST38",
+         "INFO:84 year old, Female, Conscious, Breathing.");
  }
   
   public static void main(String[] args) {
-    new MDSaintMarysCountyParserTest().generateTests("T51", "CALL PLACE ADDR APT X CITY UNIT INFO");
+    new MDSaintMarysCountyParserTest().generateTests("T52", "CALL PLACE ADDR APT X CITY UNIT INFO");
   }
 }
