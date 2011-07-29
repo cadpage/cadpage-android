@@ -65,7 +65,8 @@ public class MDSaintMarysCountyParserTest extends BaseParserTest {
         "CALL:CO Detector With Symptons",
         "ADDR:21353 FOXGLOVE CT",
         "X:DEAD END / BAYWOODS RD",
-        "CITY:HERMANVILLE",
+        "PLACE:HERMANVILLE",
+        "CITY:LEXINGTON PARK",
         "UNIT:CO3 CO39",
         "INFO:Using ProQA Fire");
     
@@ -173,6 +174,7 @@ public class MDSaintMarysCountyParserTest extends BaseParserTest {
         "ADDR:21121 ACE LN",
         "X:WINDING WY / SHORT WY",
         "PLACE:LORD CALVERT TRLPK",
+        "CITY:LEXINGTON PARK",
         "UNIT:CO39",
         "INFO:Using ProQA Medical");
           
@@ -285,7 +287,8 @@ public class MDSaintMarysCountyParserTest extends BaseParserTest {
          "CALL:OUTSIDE FIRE",
          "ADDR:21139 THREE NOTCH RD",
          "X:HERMANVILLE RD",
-         "CITY:HERMANVILLE",
+         "PLACE:HERMANVILLE",
+         "CITY:LEXINGTON PARK",
          "UNIT:CO3",
          "INFO:APPROX 1 MILE IN FROM 235");
 
@@ -314,6 +317,7 @@ public class MDSaintMarysCountyParserTest extends BaseParserTest {
          "CALL:CO Detector No Symptons",
          "PLACE:LORD CALVERT TRLPK",
          "ADDR:45713 SUMMER LN",
+         "CITY:LEXINGTON PARK",
          "X:DEAD END",
          "UNIT:CO3",
          "INFO:Using ProQA Fire");
@@ -333,7 +337,7 @@ public class MDSaintMarysCountyParserTest extends BaseParserTest {
          "PLACE:ESPERANZA MIDDLE SCHOOL",
          "ADDR:22790 MAPLE RD",
          "X:THREE NOTCH RD",
-         "CITY:TOWN CREEK",
+         "CITY:CALIFORNIA",
          "UNIT:CO9 CO3 TWR9",
          "INFO:gen alarm");
         
