@@ -159,11 +159,14 @@ public class MDSaintMarysCountyParser extends SmartAddressParser {
 
       "CEDAR COVE",   "LEXINGTON PARK",
       "CEDARCOVE",    "LEXINGTON PARK",
+      "GLEN FOREST NAWC", "LEXINGTON PARK",
       "LORD CALVERT TRLPK", "LEXINGTON PARK",
       "HERMANVILLE",  "LEXINGTON PARK",
       "SOUTH HAMPTON","LEXINGTON PARK",
       "SPRING RIDGE", "LEXINGTON PARK",
       "ST JAMES",     "LEXINGTON PARK",
+      
+      
 
   });
   

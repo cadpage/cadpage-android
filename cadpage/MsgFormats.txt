@@ -2756,9 +2756,30 @@ Sender: 93001050
 **********************************************************
 Unknown,
 Contact: nathan carrier <ncarrier454@gmail.com>
+Contact: david harrison <firemist317@gmail.com>
 Sender: JCFDTEXT@johnsoncitytn.org
 prvs=182efbc0f=JCFDTEXT@johnsoncitytn.org House/Residential Fire E7,E4,L44,E3,MP29\nALLISON LN/HELEN CT\nALLISON PLACE SD\nMap 53C 16:50:40 115143\nThink green: Only print this e-mail
 prvs=1838ca3f5=JCFDTEXT@johnsoncitytn.org GRASS/BRUSH FIRE E4\n208 GARDEN DR\nGRACE TEMPLE CHURCH\nMap 46C 19:57:36 115181
+
+prvs=184df15ee=JCFDTEXT@johnsoncitytn.org School Fire Alarm
+E4,L44,E3,MP29,E5
+1509 JOHN EXUM PKWY
+SCIENCE HILL HIGH SCHOOL
+Map 46A 02:23:08 115185
+
+prvs=184df15ee=JCFDTEXT@johnsoncitytn.org Diabetic Problems-CHARLIE M13,E3
+212 W POPLAR ST #APT1
+Map 54B 00:12:17 11111569
+
+prvs=184df15ee=JCFDTEXT@johnsoncitytn.org Unconscious/Fainting-DELTA M7,E5
+1811 W LAKEVIEW DR #B9
+SUMMERCHASE APARTMENTS
+Map 38B 23:05:56 11111542
+
+prvs=1838ca3f5=JCFDTEXT@johnsoncitytn.org GRASS/BRUSH FIRE E4
+208 GARDEN DR
+GRACE TEMPLE CHURCH
+Map 46C 19:57:36 115181
 **********************************************************
 **********************************************************
 **********************************************************
