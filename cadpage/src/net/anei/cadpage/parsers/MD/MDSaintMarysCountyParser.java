@@ -87,6 +87,7 @@ System: Pro QA Medical & Pro QA Fire
 ((17525) CAD ) 15:15:46*Miscellaneous*ECC*23090 LEONARD HALL DR*HOLLYWOOD RD*LEONARDTOWN*CO19 CO29 CO39 CO49R CO59 CO6R*Severe thunderstorm warning till
 ((14501) CAD ) 14:57:30*Traumatic Injuries*26174 T WOOD DR*DEAD END*MECHANICSVILLE*CO29 CO59 ALS*FEMALE BELIEVES SHE INJURED HER RIB ON THURSDAY AT PHYSI
 ((22502) CAD ) 05:56:37*Breathing Difficulties*18360 THREE NOTCH RD*TOMS WY*ST JAMES*CO39*80 year old, Male, Conscious, Breathing.*
+((34827) CAD ) 07:20:02*Falls/Traumatic*22518 ARMSWORTHY CT*CUL DE SAC*SAN SOUCI*ST38*84 year old, Female, Conscious, Breathing.*
 
  */
 
@@ -131,6 +132,7 @@ public class MDSaintMarysCountyParser extends SmartAddressParser {
       "PINEY POINT",
       "REDGATE",
       "RIDGE",
+      "SAN SOUCI",
       "ST INIGOES",
       "ST JAMES",
       "ST MARYS CITY",
@@ -144,6 +146,7 @@ public class MDSaintMarysCountyParser extends SmartAddressParser {
   private static final Properties CITY_CHANGES = buildCodeTable(new String[]{
       "CHAR HALL", "CHARLOTTE HALL",
       "LORD CALVERT TRLPK", "",
+      "SAN SOUCI", "CALIFORNIA",
       "ST JAMES", "LEXINGTON PARK",
   });
   
@@ -269,7 +272,7 @@ public class MDSaintMarysCountyParser extends SmartAddressParser {
         data.strCity = fld.toUpperCase();
         String newCity = CITY_CHANGES.getProperty(data.strCity);
         if (newCity != null) {
-          if (newCity.length() == 0 && data.strPlace.length() == 0) {
+          if (!newCity.equals("CHAR HALL") && data.strPlace.length() == 0) {
             data.strPlace = data.strCity;
           }
           data.strCity = newCity;
