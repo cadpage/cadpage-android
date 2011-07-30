@@ -2749,39 +2749,32 @@ Contact: Chris McLain <ctm826@gmail.com>
 Sender: CAD@somerset911.local
 CAD:S5A;BACK PAIN;23196 PAUL BENTON CIR;DEAL
 **********************************************************
-GreensBoro, NC
-Contact: Jeff Boyers <jtboyers@gmail.com>
-Sender: 93001050
-388:CAD@greensboro-nc.gov:CAD:FYI: ;1137919;CARDIAC / RESPIRATORY ARREST;1202 BILBRO ST;W WHITTINGTON ST;IRELAND ST;09E01
+Orange county, VA
+Contact: Mike Cianci <ciancims@gmail.com>
+Sender: orange911@oorange.org.
+[7/13/2011 08:26] orange911@oorange.org: [Orange911]  [LOCATION]: GERMANNA HWY  [NATURE]: AA- Auto Accident  [INCIDENT#]: 2011-00003013 00:41 Locust Grove BOX 2901 Map Page 20
+[7/13/2011 16:51] orange911@oorange.org: [Orange911]  The National Weather Service has issued a Severe Thunderstorm Watch for Orange County until 2200. -707
+[7/18/2011 08:42] orange911@oorange.org: [Orange911]  [LOCATION]: 11111 PLANK RD  [NATURE]: AA- Auto Accident  [INCIDENT#]: 2011-00003105 08:39
+[7/20/2011 15:46] orange911@oorange.org: [Orange911]  [LOCATION]: 35059 GERMANNA HEIGHTS DR  [NATURE]: Medical Alarm  [INCIDENT#]: 2011-00003133 15:44 A AND K BLVD / GERMANNA HWY Locust Grove BOX 2901
+[7/21/2011 10:04] orange911@oorange.org: [Orange911]  This is to advise you that the LOW tower is not repsponding. Please use Clark tower Fire/Rescue channel one at this time/. We will advvise when ba
+[7/21/2011 22:40] orange911@oorange.org: [Orange911]  [LOCATION]: 602 YORKTOWN BLVD  [NATURE]: Unconscious  [INCIDENT#]: 2011-00003155 22:36 CONSTITUTION BLVD / HOLLYFIELD PARK RD Locust Grove BOX 290
+[7/22/2011 04:30] orange911@oorange.org: [Orange911]  [LOCATION]: 504 CORNWALLIS AVE  [NATURE]: Fire Alarm RES  [INCIDENT#]: 2011-00003158 04:27 WOODLAWN TRL / WASHINGTON ST Locust Grove BOX 2900 Map
+[7/22/2011 05:14] orange911@oorange.org: [Orange911]  [LOCATION]: 116 REPUBLIC AVE  [NATURE]: Unconscious  [INCIDENT#]: 2011-00003159 05:11 PARLIAMENT ST / FREEDOM RD Locust Grove BOX 2900 Map Page 30
+[7/22/2011 13:35] orange911@oorange.org: [Orange911]  [LOCATION]: 415 HARRISON CIR  [NATURE]: Public Service   [INCIDENT#]: 2011-00003167 13:33 MANASSAS PT / RAMSAY RD Locust Grove BOX 2900 Map Page 3
+[7/22/2011 18:17] orange911@oorange.org: [Orange911]  [LOCATION]: SCFR 7  [NATURE]: Station Fill  [INCIDENT#]: 2011-00003170 18:15 Spotsylvania County
+[7/22/2011 18:26] orange911@oorange.org: [Orange911]  [LOCATION]: 25505 ELYS FORD ROAD  [NATURE]: Smell of Smoke RES  [INCIDENT#]: 2011-00003171 18:24 Spotsylvania County
+[7/22/2011 22:51] orange911@oorange.org: [Orange911]  [LOCATION]: 144 MADISON CIR  [NATURE]: Public Service   [INCIDENT#]: 2011-00003178 22:48 SUSSEX RD / LAKEVIEW PKWY Locust Grove BOX 2900 Map Page
+[7/23/2011 08:53] orange911@oorange.org: [Orange911]  [LOCATION]: CHESTERFIELD RD  [NATURE]: Unconscious  [INCIDENT#]: 2011-00003183 08:49 Locust Grove BOX 2901 Map Page 5
+[7/23/2011 15:36] orange911@oorange.org: [Orange911]  Orange County is under severe thunderstorm warning until 1545.  Storm is capable of producing damaging winds in excess of 60 mph.
+[7/23/2011 20:36] orange911@oorange.org: [Orange911]  [LOCATION]: 33011 INDIANTOWN RD  [NATURE]: AA- W/ ENT  [INCIDENT#]: 2011-00003197 20:14 UNKNOWN / LILLY PAD LN Locust Grove BOX 2907 Map Page 4
+[7/23/2011 20:37] orange911@oorange.org: [Orange911]  [LOCATION]: 33011 INDIANTOWN RD  [NATURE]: AA- W/ ENT  [INCIDENT#]: 2011-00003197 20:14 UNKNOWN / LILLY PAD LN Locust Grove BOX 2907 Map Page 4
+[7/24/2011 09:39] orange911@oorange.org: [Orange911]  [LOCATION]: 112 JEFFERSON AVE  [NATURE]: Fire Alarm RES  [INCIDENT#]: 2011-00003204 09:36 MONTICELLO CIR / MONTICELLO CIR Locust Grove BOX 2900 Ma
+[7/24/2011 13:34] orange911@oorange.org: [Orange911]  [LOCATION]: 838 EASTOVER PKWY  [NATURE]: Illness  [INCIDENT#]: 2011-00003208 13:14 LARKSPUR LN / WILDERNESS LN Locust Grove BOX 2900 Map Page 316
+[7/25/2011 16:55] orange911@oorange.org: [Orange911]  [LOCATION]: 208 PINE VALLEY RD  [NATURE]: Structure Fire RES  [INCIDENT#]: 2011-00003226 16:52 DEAD END / APPLEVIEW CT Locust Grove BOX 2900 Map P
+[7/29/2011 14:17] orange911@oorange.org: [Orange911]  [LOCATION]: 2130 GERMANNA HWY  [NATURE]: Fire Alarm NHSA  [INCIDENT#]: 2011-00003273 14:15 SPOTSWOOD DR / HAMPTON LN Locust Grove BOX 2903 Map Pag
+[7/29/2011 14:29] orange911@oorange.org: [Orange911]  [LOCATION]: 2130 GERMANNA HWY  [NATURE]: Fire Alarm NHSA  [INCIDENT#]: 2011-00003274 14:27 SPOTSWOOD DR / HAMPTON LN Locust Grove BOX 2903 Map Pag
 **********************************************************
-Unknown,
-Contact: nathan carrier <ncarrier454@gmail.com>
-Contact: david harrison <firemist317@gmail.com>
-Sender: JCFDTEXT@johnsoncitytn.org
-prvs=182efbc0f=JCFDTEXT@johnsoncitytn.org House/Residential Fire E7,E4,L44,E3,MP29\nALLISON LN/HELEN CT\nALLISON PLACE SD\nMap 53C 16:50:40 115143\nThink green: Only print this e-mail
-prvs=1838ca3f5=JCFDTEXT@johnsoncitytn.org GRASS/BRUSH FIRE E4\n208 GARDEN DR\nGRACE TEMPLE CHURCH\nMap 46C 19:57:36 115181
 
-prvs=184df15ee=JCFDTEXT@johnsoncitytn.org School Fire Alarm
-E4,L44,E3,MP29,E5
-1509 JOHN EXUM PKWY
-SCIENCE HILL HIGH SCHOOL
-Map 46A 02:23:08 115185
-
-prvs=184df15ee=JCFDTEXT@johnsoncitytn.org Diabetic Problems-CHARLIE M13,E3
-212 W POPLAR ST #APT1
-Map 54B 00:12:17 11111569
-
-prvs=184df15ee=JCFDTEXT@johnsoncitytn.org Unconscious/Fainting-DELTA M7,E5
-1811 W LAKEVIEW DR #B9
-SUMMERCHASE APARTMENTS
-Map 38B 23:05:56 11111542
-
-prvs=1838ca3f5=JCFDTEXT@johnsoncitytn.org GRASS/BRUSH FIRE E4
-208 GARDEN DR
-GRACE TEMPLE CHURCH
-Map 46C 19:57:36 115181
-**********************************************************
-**********************************************************
 **********************************************************
 **********************************************************
 **********************************************************
@@ -3357,6 +3350,63 @@ System: Aegis CAD
 (Chief ALT) [40 EMS] - 26C2 - Sick Person -- 201 Hubbard Ave, Frederica -- Bowers Beach -- Xst's: Dead End / Canal St -- Caller: Ingle Heather
 (Chief ALT) [40 EMS] - 10C4 - Chest Pains -- 302 Lake Shore Dr, Frederica -- High Point Mhp -- Xst's: Second St, Sycamore Dr / Lorna Ln -- Caller: Thom Ronald
 (Chief ALT) [40 EMS] - 6C1 - Breathing Problems -- 294 Lake Shore Dr, Frederica -- High Point Mhp -- Xst's: Kiwi Ct / Kylie Ln -- Caller: Hurd Shirley
+**********************************************************
+GreensBoro, NC (in Guilford County)
+Contact: Jeff Boyers <jtboyers@gmail.com>
+Sender: 93001050 (increments)
+388:CAD@greensboro-nc.gov:CAD:FYI: ;1137919;CARDIAC / RESPIRATORY ARREST;1202 BILBRO ST;W WHITTINGTON ST;IRELAND ST;09E01
+93001009:397:CAD@greensboro-nc.gov:CAD:1138157;STAB / GUNSHOT WOUND;707 W FLORIDA ST;DIST: 25.68 FT;HUDGINS DR;HUDGINS DR;27D01G;SMITH HOMES
+93001004:392:CAD@greensboro-nc.gov:CAD:FYI: ;1138044;CARDIAC / RESPIRATORY ARREST;827 GARDENGATE RD;WOODEDGE DR;09E02
+93001012:400:CAD@greensboro-nc.gov:CAD:1138253;BREATHING PROBLEMS;1515 WOODMERE DR;APT L;TEXTILE DR;PHILLIPS AV;06D02
+93001005:393:CAD@greensboro-nc.gov:CAD:1138092;ACCIDENT WITH PERSONAL INJURY;E CONE BLVD/CHESHIRE WAY;DIST: 32.08 FT;29D02p
+93001007:395:CAD@greensboro-nc.gov:CAD:1138115;ACCIDENT WITH PERSONAL INJURY;2615 HIGH POINT RD;MAYWOOD ST;W FLORIDA ST;SUNSET CLEANERS
+**********************************************************
+Johnson City, TN (Washington County)
+Contact: nathan carrier <ncarrier454@gmail.com>
+Contact: david harrison <firemist317@gmail.com>
+Sender: JCFDTEXT@johnsoncitytn.org
+prvs=182efbc0f=JCFDTEXT@johnsoncitytn.org House/Residential Fire E7,E4,L44,E3,MP29\nALLISON LN/HELEN CT\nALLISON PLACE SD\nMap 53C 16:50:40 115143\nThink green: Only print this e-mail
+prvs=1838ca3f5=JCFDTEXT@johnsoncitytn.org GRASS/BRUSH FIRE E4\n208 GARDEN DR\nGRACE TEMPLE CHURCH\nMap 46C 19:57:36 115181
+
+prvs=184df15ee=JCFDTEXT@johnsoncitytn.org School Fire Alarm
+E4,L44,E3,MP29,E5
+1509 JOHN EXUM PKWY
+SCIENCE HILL HIGH SCHOOL
+Map 46A 02:23:08 115185
+
+prvs=184df15ee=JCFDTEXT@johnsoncitytn.org Diabetic Problems-CHARLIE M13,E3
+212 W POPLAR ST #APT1
+Map 54B 00:12:17 11111569
+
+prvs=184df15ee=JCFDTEXT@johnsoncitytn.org Unconscious/Fainting-DELTA M7,E5
+1811 W LAKEVIEW DR #B9
+SUMMERCHASE APARTMENTS
+Map 38B 23:05:56 11111542
+
+prvs=1838ca3f5=JCFDTEXT@johnsoncitytn.org GRASS/BRUSH FIRE E4
+208 GARDEN DR
+GRACE TEMPLE CHURCH
+Map 46C 19:57:36 115181
+
+
+Contact: Jason Powell <firedupleadership@gmail.com>
+Sender: CAD@wc911.org
+Body:Breathing Problems-DELTA M1,E3 \n
+300 W WALNUT ST #2 \n
+SHAMROCK \n
+Map 54b 14:59:59 11111863 \n
+Think green: Only print this e-mail and any attachment 
+
+Body:Breathing Problems-CHARLIE M1,E1,R1 \n
+1 UNAKA CT #7 \n
+Map 39D 21:23:05 11112056 \n
+Think green: Only print this e-mail and any attachment if necessar 
+
+Body:House/Residential Fire Alarm E2 \n
+2701 S ROAN ST #124 \n
+HERITAGE TRAILER PARK \n
+Map 55D 22:50:03 115214 \n
+Think green: Only print this e-mail and an 
 **********************************************************
 Erie County, PA (Alternate)
 Contact: Doug Johnson <dougjohnson6@gmail.com>

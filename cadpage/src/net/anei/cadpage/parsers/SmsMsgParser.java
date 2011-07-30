@@ -617,6 +617,30 @@ public abstract class SmsMsgParser {
     * @param delim delimiter
     * @return everything up to next occurrence of delimiter
     */
+   public String get(Pattern delim) {
+     return get(delim, false, false);
+   }
+   
+   /**
+    * @param delim delimiter
+    * @return everything up to next occurrence of delimiter if found, empty string otherwise
+    */
+   public String getOptional(Pattern delim) {
+     return get(delim, true, false);
+   }
+   
+   /**
+    * @param delim delimiter
+    * @return everything up to next occurrence of delimiter if found, empty string otherwise
+    */
+   public String getRequired(Pattern delim) {
+     return get(delim, false, true);
+   }
+   
+   /**
+    * @param delim delimiter
+    * @return everything up to next occurrence of delimiter
+    */
    public String get() {
      return get(-1, 0, false, false);
    }
@@ -660,6 +684,23 @@ public abstract class SmsMsgParser {
    private String getLast(String delim, boolean optional, boolean required) {
      int len = delim.length();
      return getLast(line.lastIndexOf(delim, ept-len), len, optional, required);
+   }
+   
+   /**
+    * @param ptn delimiter pattern
+    * @param optional true if empty string should be returned if deliminter not found
+    * @param required true if null should be returned if delimiter not found
+    * @return everything up to next occurrence of delimiter
+    */
+   private String get(Pattern ptn, boolean optional, boolean required) {
+     Matcher match = ptn.matcher(line);
+     int ndx = -1;
+     int len = 0;
+     if (match.find(spt)) {
+       ndx = match.start();
+       len = match.end()-ndx;
+     }
+     return get(ndx, len, optional, required);
    }
    
    /**
