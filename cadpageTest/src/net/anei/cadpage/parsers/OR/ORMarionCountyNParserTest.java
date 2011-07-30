@@ -12,7 +12,7 @@ public class ORMarionCountyNParserTest extends BaseParserTest {
   }
   
   @Test
-  public void testParser() {
+  public void testParser1() {
 
     doTest("T1",
         "[(49962]  : ) TONE:  819::RAILWAY:AV:::::3030:VTON,STAF,:SAFE COM STA1@1830/APP CKS@1900 EMS@1945 STA1:20110302:174858",
@@ -190,7 +190,31 @@ public class ORMarionCountyNParserTest extends BaseParserTest {
 
   }
   
+  @Test
+  public void testParser2() {
+
+    doTest("T1",
+        "(14036) :  / TRAU:10581::SARATOGA:DR:::::2628:R454,M23,N3,:65 YOF C/B/A LEG PAIN FROM FALL FROM FARM EQ:20110728:220453\n",
+        "ID:14036",
+        "CALL:TRAU",
+        "ADDR:10581 SARATOGA DR",
+        "MAP:2628",
+        "UNIT:R454,M23,N3",
+        "INFO:65 YOF C/B/A LEG PAIN FROM FALL FROM FARM EQ");
+
+    doTest("T2",
+        "(13523) :  /  UNC:  830:N:MAIN:ST:9::::2530:R454,M22,:77YOM UNC/NOT RESP:20110728:114333\n",
+        "ID:13523",
+        "CALL:UNC",
+        "ADDR:830 N MAIN ST",
+        "APT:9",
+        "MAP:2530",
+        "UNIT:R454,M22",
+        "INFO:77YOM UNC/NOT RESP");
+
+  }
+  
   public static void main(String[] args) {
-    new ORMarionCountyNParserTest().generateTests("T13");
+    new ORMarionCountyNParserTest().generateTests("T1");
   }
 }
