@@ -1,5 +1,8 @@
 package net.anei.cadpage.parsers.OR;
 
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 import net.anei.cadpage.SmsMsgInfo.Data;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
@@ -31,9 +34,16 @@ System: New World Systems :Aegis Public Safety System
 ((58711) : ) CVA:  173::STEELHAMMER:RD:::::3031:M24,R404,D411,STAF,N7,:93YOF C/A/B HX OF CVA/NOT ABLE TO SPEAK:20110316:103935
 ((58975) : ) PBLC:  206::WESTFIELD:ST:::::3030:E415,D411,STAF,N7,:REQ D411 RESPOND W/LADDER TO GET IN WINDOW:20110316:141622
 
+Contact: robert aerni <aernijr@gmail.com>
+(14036) :  / TRAU:10581::SARATOGA:DR:::::2628:R454,M23,N3,:65 YOF C/B/A LEG PAIN FROM FALL FROM FARM EQ:20110728:220453\n
+(13523) :  /  UNC:  830:N:MAIN:ST:9::::2530:R454,M22,:77YOM UNC/NOT RESP:20110728:114333\n
+
 */
 
 public class ORMarionCountyNParser extends FieldProgramParser {
+  
+  private static final Pattern CALL_ID_PTN = Pattern.compile("\\d{5}");
+  private static final Pattern LEAD_PTN = Pattern.compile("^: +[/)] *");
   
   public ORMarionCountyNParser() {
     super("MARION COUNTY", "OR",
@@ -50,10 +60,12 @@ public class ORMarionCountyNParser extends FieldProgramParser {
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     
-    if (! subject.startsWith("(")) return false;
-    data.strCallId = new Parser(subject.substring(1).trim()).get(')');
-    
-    if (body.startsWith(": ) ")) body = body.substring(4).trim();
+    if (subject.startsWith("(")) subject = new Parser(subject.substring(1).trim()).get(')');
+    if (! CALL_ID_PTN.matcher(subject).matches()) return false;
+    data.strCallId = subject;
+
+    Matcher match = LEAD_PTN.matcher(body);
+    if (match.find()) body = body.substring(match.end());
     
     address[0] = address[1] = "";
     if (! parseFields(body.split(":"), data)) return false;
