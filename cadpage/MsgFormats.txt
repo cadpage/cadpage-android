@@ -3391,18 +3391,18 @@ Map 46C 19:57:36 115181
 
 Contact: Jason Powell <firedupleadership@gmail.com>
 Sender: CAD@wc911.org
-Body:Breathing Problems-DELTA M1,E3 \n
+Breathing Problems-DELTA M1,E3 \n
 300 W WALNUT ST #2 \n
 SHAMROCK \n
 Map 54b 14:59:59 11111863 \n
 Think green: Only print this e-mail and any attachment 
 
-Body:Breathing Problems-CHARLIE M1,E1,R1 \n
+Breathing Problems-CHARLIE M1,E1,R1 \n
 1 UNAKA CT #7 \n
 Map 39D 21:23:05 11112056 \n
 Think green: Only print this e-mail and any attachment if necessar 
 
-Body:House/Residential Fire Alarm E2 \n
+House/Residential Fire Alarm E2 \n
 2701 S ROAN ST #124 \n
 HERITAGE TRAILER PARK \n
 Map 55D 22:50:03 115214 \n
