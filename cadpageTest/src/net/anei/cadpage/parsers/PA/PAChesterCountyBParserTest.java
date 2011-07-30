@@ -132,6 +132,14 @@ public class PAChesterCountyBParserTest extends BaseParserTest {
         "X:PARKWAY AV & MYRTLE AV",
         "INFO:62 YO/F FELL DOWN 5 STEPS",
         "CITY:WEST GROVE");
+
+    doTest("T7",
+        "(Messenger 911) BMENTAL\n 202 E SECOND ST\n CHATHAM ST & HOOPES AL\n AVNDAL\n 20 YOA/M/, POSS ON ACT 64, SAID HE WANTED TO K ILL HIMSELF, BUT THEY DON'T THINK HE HAS DONE",
+        "CALL:BMENTAL",
+        "ADDR:202 E SECOND ST",
+        "X:CHATHAM ST & HOOPES AL",
+        "INFO:20 YOA/M/, POSS ON ACT 64, SAID HE WANTED TO K ILL HIMSELF, BUT THEY DON'T THINK HE HAS DONE",
+        "CITY:AVONDALE");
  }
   
   public static void main(String[] args) {
