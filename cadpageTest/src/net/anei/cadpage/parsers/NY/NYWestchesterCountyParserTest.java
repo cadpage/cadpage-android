@@ -155,10 +155,20 @@ public class NYWestchesterCountyParserTest extends BaseParserTest {
         "CITY:MILLWOOD",
         "X:HILLTOP DR",
         "CALL:STRU");
+  }
+  
+  @Test
+  public void testParser4() {
 
+    doTest("T1",
+        "(IPage) 2365 BOSTON POST RD LARCHMONT, Cross: DEANE PL, Type:MVA, INJURIES, Time out: 19:23:17 Area: LARCH,Alarm lev: 0",
+        "ADDR:2365 BOSTON POST RD",
+        "CITY:LARCHMONT",
+        "X:DEANE PL",
+        "CALL:MVA / INJURIES");
   }
   
   public static void main(String[] args) {
-    new NYWestchesterCountyParserTest().generateTests("T7");
+    new NYWestchesterCountyParserTest().generateTests("T1");
   }
 }
