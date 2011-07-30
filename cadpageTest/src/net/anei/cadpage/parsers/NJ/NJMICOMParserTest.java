@@ -45,6 +45,21 @@ public class NJMICOMParserTest extends BaseParserTest {
   }
   
   @Test
+  public void testParser2() {
+
+    doTest("T1",
+        "(CAD) S1041 RESPOND: #11-0074384 Garfield City *57 Spring St * *2 *Belmont Ave/Botany St *Unconscious/Fainting-ALS 22:01 Code:",
+        "UNIT:S1041",
+        "ID:11-0074384",
+        "CITY:Garfield City",
+        "ADDR:57 Spring St",
+        "APT:2",
+        "X:Belmont Ave/Botany St",
+        "CALL:Unconscious/Fainting");
+   
+  }
+  
+  @Test
   public void testMorrisParser() {
 
     doTest("T1",
@@ -56,7 +71,7 @@ public class NJMICOMParserTest extends BaseParserTest {
         "PLACE:Fransiscan Oaks Health Ce",
         "APT:303B",
         "X:Unnamed Street/Unnamed Street",
-        "CALL:Trans/Interfacility/Palliative14:05 Co");
+        "CALL:Trans/Interfacility/Palliative");
    
   }
   

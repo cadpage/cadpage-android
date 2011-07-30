@@ -1,6 +1,7 @@
 package net.anei.cadpage.parsers;
 
 import java.util.Properties;
+import java.util.regex.Pattern;
 
 import org.junit.Test;
 
@@ -66,6 +67,12 @@ public class SmsMsgParserTest {
     assertEquals("TE2", "", parser.getLastOptional("BC!"));
     assertEquals("TE2", "", parser.getOptional("BC!"));
     assertEquals("TE3", "BEGIN A", parser.getOptional("BC"));
+    
+    Pattern ptn = Pattern.compile("(?:-[AB]LS *)?\\d\\d:\\d\\d");
+    parser.init("Something 23:17 else comes-BLS 22:22 from here");
+    assertEquals("TP1", "Something", parser.get(ptn));
+    assertEquals("TP2", "else comes", parser.get(ptn));
+    assertEquals("TP3", "from here", parser.get(ptn));
   }
   
   private static String[] KEYWORDS = new String[]{"CALL", "NEW TYPE", "OLD TYPE", "INFO"};
