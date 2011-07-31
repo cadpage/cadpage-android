@@ -35,6 +35,7 @@ Contact: Michael Filliben <mfillibene16@gmail.com>
 Sender: Group_Page_Notification@archwireless.net
 9120 Willow Ridge Rd          307A      Regency Retirement            Charlie                       26- Sick person               Goodsell
 12463 Stratfield Place Cr               CAROLINA CROSSING SUBD        Delta                         31- Unconsciousness/Fainting  Stineway Ct/Sam Meeks Rd                                    PINR3     Map - 405405/J9 07302011-086
+1010 Lakeview Dr              30-B      Pvl Rehab & Living Ctr  *SNF* Charlie                       06- Breathing Problems        Eden Cr/B
 
 ** NOT IMPLEMENTED **
 Contact: John Stroup <j.stroup@northmeckrescue.org>
