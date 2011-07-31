@@ -55,7 +55,20 @@ public class NCWataugaCountyParserTest extends BaseParserTest {
         "CALL:ARREST-ADULT",
         "INFO:105S-BESIDE HIDDEN VALLEY MOTEL-LT HIDDEN VALLEY DR");
 
- }
+  }
+  
+  @Test
+  public void testParser2() {
+
+    doTest("T1",
+        "wcso911:190 MCGUIRE MOUNTAIN RD BANNER ELK 2011015829 22:33:54 10-50 PI 105S-RT BROADSTONE RD-LT 194S TO MATNEY-LT PIGEON ROOST RD-3RD LT MCGUIRE MTN RD",
+        "ADDR:190 MCGUIRE MOUNTAIN RD",
+        "PLACE:BANNER ELK",
+        "ID:2011015829",
+        "CALL:10-50 PI",
+        "INFO:105S-RT BROADSTONE RD-LT 194S TO MATNEY-LT PIGEON ROOST RD-3RD LT MCGUIRE MTN RD");
+    
+  }
   
 
   public static void main(String[] args) {
