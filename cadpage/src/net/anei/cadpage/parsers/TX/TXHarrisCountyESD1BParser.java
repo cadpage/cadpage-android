@@ -22,6 +22,19 @@ ID#:11-07-25342 - 25A01 - PSYCHIATRIC - 15215 S Brentwood Dr - Apt: - Bldg: - Ke
 ID#:11-07-25342 - 25A01 - PSYCHIATRIC - 15215 S Brentwood Dr - Apt: - Bldg: - Ke
 y Map: 498E - Cross Streets:Dead End/DELLDALE - Box #:2004
 
+ID#:11-07-25378 - - Stroke (CVA) - 11715 Greenglen Dr - Apt: - Bldg: - Key Map: 416K - Cross Streets:JOHN RALSTON RD/GREENROCK LN - B 
+ID#:11-07-25378 - UNIT:M15 - DISP:19:01:23 - ER:19:03:02 - OUT:19:11:01 - TO:19:26:34 - AT:19:40:29 
+ID#:11-07-25378 - UNIT:M15 - DISP: 19:01:23 - ER: 19:03:02 - OUT: 19:11:01 - TO: 19:26:34 - AT: 19:40:29 - AIR: 19:56:20 
+ID#:11-07-25416 - - HEMORRHAGE/LACERATIO - 12370 S San Circle Dr - Apt: - Bldg: UNK TRAILER PARK - Key Map: 456C - Cross Streets:BARK 
+:3304 
+
+Sender: 930010nn
+Body:ID#:11-07-25442 - - UNKNOWN PROBLEM - 16208 Wood Dr - Apt:21 - Bldg: fuente de s
+Body:ID#:11-07-25442- UNIT:E22 - DISP: 08:10:13 - ER: - OUT: - AIR: 08:11:39
+Body:olas jarr - Key Map: 458U - Cross Streets:BECKER/AMY MICHELLE - Box #:2003
+
+
+
 */
 
 
