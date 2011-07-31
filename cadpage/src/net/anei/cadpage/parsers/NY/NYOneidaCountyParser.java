@@ -10,7 +10,7 @@ import net.anei.cadpage.parsers.SmsMsgParser;
 Oneida County, NY
 Contact: jim humphreys <jimmycrack79@gmail.com>
 Contact: Gary Reese <greese7169@yahoo.com>
-Sender: <"dispatch@oc911.org"@unknown.person>
+Sender: dispatch@ocgov.net
 
 o;?WHIF:2010:0648\nDispatched\nEMS/BREATHING PROBLEMS\n111 HARDCASTLE AVE, WHITESBORO VILLAGE (MERITON DR/PERIMETER RD)
 o;?WHIF:2010:0641\nDispatched\nEMS/DIABETIC PROBLEM\n31 MOHAWK ST, WHITESBORO VILLAGE (/SAUQUOIT STNear:AMERICAN LEGION POST
@@ -57,7 +57,7 @@ public class NYOneidaCountyParser extends SmsMsgParser {
   
   @Override
   public String getFilter() {
-    return "dispatch@oc911.org";
+    return "dispatch@ocgov.net";
   }
 
   @Override
