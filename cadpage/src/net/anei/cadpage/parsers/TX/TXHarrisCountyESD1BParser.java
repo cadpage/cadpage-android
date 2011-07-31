@@ -14,6 +14,13 @@ ID#:11-06-20710 - - FIRE - PreAlert - 16217 Ridlon - Apt: - Bldg: intra SERVICES
 ID#:11-06-20658 - - 29A1 MOTOR VEHICLE A - East Fwy / Delldale - Apt: - Bldg: - Key Map: 498E - Cross Streets: - Box #:2004
 ID#:11-06-20627 - - 29A1 MOTOR VEHICLE A - 16410 Ave D - Apt:1 - Bldg: AVE D APTS - Key Map: 498D - Cross Streets:WOODLAND DR/CEDAR L
 
+ID#:11-07-25331 - - ALARMS - 1518 Great Dover Cir - Apt: - Bldg: - Key Map: 458W
+ID#:11-07-25331 - UNIT:L32 - DISP: 10:27:45 - ER: 10:27:49 - OUT: 10:41:48 - TO:
+ID#:11-07-25341 - 06D02 - 6D1 RESPIRATORY - 11870 Greenloch Ln - Apt: - Bldg: - Key Map: 416K - Cross Streets:GREENCANYON DR/GREENROC 
+ID#:11-07-25342 - 25A01 - PSYCHIATRIC - 15215 S Brentwood Dr - Apt: - Bldg: - Ke
+ID#:11-07-25342 - 25A01 - PSYCHIATRIC - 15215 S Brentwood Dr - Apt: - Bldg: - Ke
+y Map: 498E - Cross Streets:Dead End/DELLDALE - Box #:2004
+
 */
 
 
@@ -23,7 +30,7 @@ public class TXHarrisCountyESD1BParser extends FieldProgramParser {
 
   public TXHarrisCountyESD1BParser() {
     super("HARRIS COUNTY", "TX",
-           "ID:ID! CODE? CALL! PREALERT? ADDR! Apt:APT! Bldg:APT! Key_Map:MAP Cross_Streets:X Box:BOX");
+           "ID:ID! CODE? CALL! PREALERT? ADDR! Apt:APT! Bldg:APT! Key_Map:MAP% Cross_Streets:X Box:BOX");
   }
   
   @Override
