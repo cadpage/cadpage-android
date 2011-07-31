@@ -15,6 +15,10 @@ HOWARDS CREEK RD / SUGARLOAF RD FDL 71B01 2011013987 16:02:05 VEHICLE FIRE 421N-
 200 QUAIL ST BOONE 2011013939 03:11:32 STANDBY
 853 HIDDEN VALLEY DR BOONE MDL 09E01 2011013997 20:13:36 ARREST-ADULT 105S-BESIDE HIDDEN VALLEY MOTEL-LT HIDDEN VALLEY DR
 
+Contact:  Jacob Burleson <jacobburleson@gmail.com>
+Sender: wcso911@wataugacounty.org
+wcso911:190 MCGUIRE MOUNTAIN RD BANNER ELK 2011015829 22:33:54 10-50 PI 105S-RT BROADSTONE RD-LT 194S TO MATNEY-LT PIGEON ROOST RD-3RD LT MCGUIRE MTN RD
+
 */
 
 
@@ -34,7 +38,12 @@ public class NCWataugaCountyParser extends DispatchSouthernParser {
   };
 
   public NCWataugaCountyParser() {
-    super(CITY_LIST, "WATAUGA COUNTY", "NC", 0);
+    super(CITY_LIST, "WATAUGA COUNTY", "NC", DSFLAG_OPT_DISPATCH_ID);
+  }
+  
+  @Override
+  public String getFilter() {
+    return "wcso911@wataugacounty.org";
   }
 
   @Override
