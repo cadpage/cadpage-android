@@ -212,9 +212,19 @@ public class ORMarionCountyNParserTest extends BaseParserTest {
         "UNIT:R454,M22",
         "INFO:77YOM UNC/NOT RESP");
 
+    doTest("T3",
+        "(15331) :| AOA:  141::14TH:ST:LYONS::::3030:E405,E415,N7,:REQ ENGINE TO RESPOND TO FIRE SCN:20110730:170018 \n",
+        "ID:15331",
+        "CALL:AOA",
+        "ADDR:141 14TH ST",
+        "CITY:LYONS",
+        "MAP:3030",
+        "UNIT:E405,E415,N7",
+        "INFO:REQ ENGINE TO RESPOND TO FIRE SCN");
+
   }
   
   public static void main(String[] args) {
-    new ORMarionCountyNParserTest().generateTests("T1");
+    new ORMarionCountyNParserTest().generateTests("T3");
   }
 }

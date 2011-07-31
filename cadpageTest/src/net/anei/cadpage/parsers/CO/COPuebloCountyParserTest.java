@@ -81,10 +81,15 @@ public class COPuebloCountyParserTest extends BaseParserTest {
         "(Page ) 31918 hwy 96 e; loaf & jug; fem dizzy; almost fainted...tdb",
         "ADDR:31918 hwy 96 e",
         "INFO:loaf & jug / fem dizzy / almost fainted");
+
+    doTest("T7",
+        "(Page ) 2027 zinno blvd; medical alarm on 71 yof c/o diff breathing. fem has copd and on oxygen. kcq",
+        "ADDR:2027 zinno blvd",
+        "INFO:medical alarm on 71 yof c/o diff breathing. fem has copd and on oxygen. kcq");
    
   }
   
   public static void main(String[] args) {
-    new COPuebloCountyParserTest().generateTests("T1", "CALL ADDR INFO");
+    new COPuebloCountyParserTest().generateTests("T7", "CALL ADDR INFO");
   }
 }   
