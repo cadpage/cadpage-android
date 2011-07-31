@@ -91,7 +91,16 @@ public class NCMecklenburgCountyParserTest extends BaseParserTest {
         "CH:PINR3",
         "MAP:405405/J9",
         "ID:07302011-086");
- }
+
+    doTest("T11",
+        "1010 Lakeview Dr              30-B      Pvl Rehab & Living Ctr  *SNF* Charlie                       06- Breathing Problems        Eden Cr/B",
+        "ADDR:1010 Lakeview Dr",
+        "APT:30-B",
+        "PLACE:Pvl Rehab & Living Ctr  *SNF*",
+        "INFO:Charlie",
+        "CALL:06- Breathing Problems",
+        "X:Eden Cr/B");
+}
   
 
   public static void main(String[] args) {
