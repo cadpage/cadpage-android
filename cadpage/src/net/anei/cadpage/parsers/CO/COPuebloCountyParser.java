@@ -26,6 +26,10 @@ Contact: Giz <passig5312@hotmail.com>
 (Page ) attn pueblo rural fire 27025 tourchey way female dizzy and not feeling good
 (Page ) 31918 hwy 96 e; loaf & jug; fem dizzy; almost fainted...tdb
 
+Contact: Willie Martin <willismart84@gmail.com>
+Sender: surepage@wdsl.us
+(Page ) 2027 zinno blvd; medical alarm on 71 yof c/o diff breathing. fem has copd and on oxygen. kcq
+
 */
 
 

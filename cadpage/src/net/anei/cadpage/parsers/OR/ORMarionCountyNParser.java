@@ -38,23 +38,68 @@ Contact: robert aerni <aernijr@gmail.com>
 (14036) :  / TRAU:10581::SARATOGA:DR:::::2628:R454,M23,N3,:65 YOF C/B/A LEG PAIN FROM FALL FROM FARM EQ:20110728:220453\n
 (13523) :  /  UNC:  830:N:MAIN:ST:9::::2530:R454,M22,:77YOM UNC/NOT RESP:20110728:114333\n
 
+Contact: Gordy <silfire402@msn.com>
+Sender: 6005000012
+(15331) :| AOA:  141::14TH:ST:LYONS::::3030:E405,E415,N7,:REQ ENGINE TO RESPOND TO FIRE SCN:20110730:170018 \n
+
 */
 
 public class ORMarionCountyNParser extends FieldProgramParser {
   
+  private static final String[] CITY_LIST = new String[]{
+    
+    "AUMSVILLE",
+    "AURORA",
+    "DETROIT",
+    "DONALD",
+    "GATES",
+    "GERVAIS",
+    "HUBBARD",
+    "IDANHA",
+    "JEFFERSON",
+    "KEIZER",
+    "MOUNT ANGEL",
+    "ST PAUL",
+    "SALEM",
+    "SCOTTS MILLS",
+    "SILVERTON",
+    "STAYTON",
+    "SUBLIMITY",
+    "TURNER",
+    "WOODBURN",
+    
+    "BREITENBUSH",
+    "BROOKS",
+    "BUTTEVILLE",
+    "CHAMPOEG",
+    "FOUR CORNERS",
+    "HAYESVILLE",
+    "LABISH VILLAGE",
+    "MARION",
+    "MEHAMA",
+    "MONITOR",
+    "PRATUM",
+    "SAINT BENEDICT",
+    "SAINT LOUIS",
+    "WACONDA",
+    "WEST STAYTON",
+
+    "LYONS"
+  };
+  
   private static final Pattern CALL_ID_PTN = Pattern.compile("\\d{5}");
-  private static final Pattern LEAD_PTN = Pattern.compile("^: +[/)] *");
+  private static final Pattern LEAD_PTN = Pattern.compile("^: *[/)\\|] *");
   
   public ORMarionCountyNParser() {
-    super("MARION COUNTY", "OR",
-           "CALL ADDR1 ADDR1 ADDR1 ADDR1 APT ADDR2 ADDR2 ADDR2 MAP UNIT INFO");
+    super(CITY_LIST, "MARION COUNTY", "OR",
+           "CALL ADDR1 ADDR1 ADDR1 ADDR1 ( CITY | APT ) ADDR2 ADDR2 ADDR2 MAP UNIT INFO");
   }
   
   private String address[] = new String[2];
   
   @Override
   public String getFilter() {
-    return "trex@ci.woodburn.or.us";
+    return "trex@ci.woodburn.or.us,600500";
   }
 
   @Override
