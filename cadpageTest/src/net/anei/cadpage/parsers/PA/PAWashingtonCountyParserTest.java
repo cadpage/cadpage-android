@@ -74,7 +74,7 @@ public class PAWashingtonCountyParserTest extends BaseParserTest {
     doTest("T1",
         "(911) Location: 200 TANDEM VILLAGE RD NSTR: @PCH 48 CONSULATE BLDG 2 Xstreet: LINDEN CREEK RD DEAD END TYPE: FIRE ALAR",
         "ADDR:200 TANDEM VILLAGE RD",
-        "CITY:NORTH STRAWBANE TWP",
+        "CITY:NORTH STRABANE TWP",
         "PLACE:PCH 48 CONSULATE BLDG 2",
         "X:LINDEN CREEK RD DEAD END",
         "CALL:FIRE ALAR");
@@ -82,7 +82,7 @@ public class PAWashingtonCountyParserTest extends BaseParserTest {
     doTest("T2",
         "(911) Location: 200 TANDEM VILLAGE RD NSTR: @PCH 48 CONSULATE BLDG 2 Xstreet: LINDEN CREEK RD DEAD END TYPE: FIRE ALAR",
         "ADDR:200 TANDEM VILLAGE RD",
-        "CITY:NORTH STRAWBANE TWP",
+        "CITY:NORTH STRABANE TWP",
         "PLACE:PCH 48 CONSULATE BLDG 2",
         "X:LINDEN CREEK RD DEAD END",
         "CALL:FIRE ALAR");
@@ -90,7 +90,7 @@ public class PAWashingtonCountyParserTest extends BaseParserTest {
     doTest("T3",
         "(911) Location: 100 MEDICAL BLVD NSTR: @CANONSBURG HOSPITAL Xstreet: BOONE AVE HILL CHURCH HOUSTON RD TYPE: FIRE ALARM",
         "ADDR:100 MEDICAL BLVD",
-        "CITY:NORTH STRAWBANE TWP",
+        "CITY:NORTH STRABANE TWP",
         "PLACE:CANONSBURG HOSPITAL",
         "X:BOONE AVE & HILL CHURCH HOUSTON RD",
         "CALL:FIRE ALARM");

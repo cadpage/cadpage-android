@@ -123,7 +123,6 @@ public class NYSuffolkCountyAParserTest extends BaseParserTest {
         "X:ELGIN ST / FOXCROFT ST",
         "CODE:25-B-6");
 
-
     doTest("T17",
         "TYPE: ALARMS LOC: 100 PATRICIA CT OAKDAL @OAKDALE APARTMENTS    APARTMENT 3 CROSS: RACE PL /  CODE: 52-C-1S TIME: 19:16:55",
         "CALL:ALARMS",
