@@ -8,6 +8,11 @@ import net.anei.cadpage.parsers.FieldProgramParser;
 /*
 Bucks County, PA
 Contact: "Ryan Pankoe" <rpankoe@gmail.com>
+Contact: Ed Ackerman <ed.ackerman@gmail.com>
+Contact: Terry <securetalk@gmail.com>
+Contact: "Russ Swinehart Jr." <snoopfire10@yahoo.com>
+Contact: Jayson Wagner <jayson.wagner58@yahoo.com>
+Contact: John Shipp <dieseltruckie14@gmail.com>
 Sender: 8276,a@bnn.us
 
 911:SQ134  type:BTAI    adr:S LIMEKILN PK/UPPER STATE RD ,48  aai:  box:74064  map:3033F7  tm:21:05:23  ED1042264
@@ -30,37 +35,19 @@ Sender: 8276,a@bnn.us
 0001/0002 911: SQ134  type:AALLR   adr:4371 COUNTY LINE RD ,48 -- VERTIS DIRECT MKTG btwn BRITAIN WOOD CI & RR CROSSING  aai:  box:74096 map:3033C7
 0002/0002 tm:09:28:45  ED1102262
 
-Contact: Terry <securetalk@gmail.com>
-Sender: 2674243300
 911: STA57  type:FEMS    adr:SLEEPY HOLLOW RD/SPINNERSTOWN RD ,45  aai:  box:75011  map:2693K9  tm:10:26:44  FD1104574    Run: E75
 911: STA57  stype:FTAI    adr:FRIER RD/MILL RD ,45  aai:  box:57002  map:  tm:13:51:38  FD1104463    Run: E57
-
-Contact: Ed Ackerman <ed.ackerman@gmail.com>
 911: STA4  type:RAUTO   adr:PHILMONT AV/E STREET RD ,43  aai:PHILMONT SO STREET  box:04003  map:3261B8  tm:10:21:22  FD1104774    Run: R4 R6 E1
-
-Contact: "Russ Swinehart Jr." <snoopfire10@yahoo.com>
 911: STA53  type:RMAR    adr:LIONS PARK ,24 at 102 SAMUEL CLIFT ST ,24 btwn MILL ST & MARKET ST  aai:  box:51012  map:3375D5  tm:00:59:10  FD1105678 Run: R53 M53 M11
 911: STA53  type:WIREIN  adr:2218 TRENTON AV ,24  btwn BARRY PL & TAFT ST  aai:  box:53034  map:3375F2  tm:11:40:15  FD1104667    Run: L25 Q51 E50 E52
 911: STA53  stype:RAUTO   adr:NEW FALLS RD/PINE AV ,25  aai:  box:12044  map:3262G9  tm:21:30:34  FD1107837    Run: R13 R53 E82
- 
-Contact: Ryan Pankoe <rpankoe@gmail.com>
 911: STA19  type:WATER   adr:EIGHTEENFOURTEEN H ,28 at 50 S MAIN ST ,28 btwn W OAKLAND AV & TAYLOR AV  aai:  box:19022  map:2922J10  tm:02:29:07  FD11
 911: STA19  type:RVBLD   adr:LOBSTER CLAW ,57 at 800 N EASTON RD ,57 btwn BKHAM TWP LINE & CROSS KEYS DR  aai:  box:20001  map:2922J6  tm:16:03:22  FD
-
-Contact: Jayson Wagner <jayson.wagner58@yahoo.com>
-Sender: 8276
 911: STA58  type:FBLD    adr:121 PARK AV ,58  btwn FRONT ST & S 2ND ST  aai:QUAKERTOWN ASSOCIATES 215-901-8033  box:17001  map:2695H10  tm:17:44:38   FD1110887    Run: L57 SQ18 E36 R18 R58 
-
-Contact: John Shipp <dieseltruckie14@gmail.com>
-Sender: 2159627145
 911: STA14  type:EXBLD   adr:3501 BRISTOL OXF VALLEY RD #1107 ,25 -- AVALON COURT APT btwn LESLIE DR & BORDER  aai:  box:82015  map:3263A9  tm:22:06:28  FD1110945  Run: TW14 E12
-
-Contact: Ryan Pankoe <rpankoe@gmail.com>
 911: SQ134  type:APOSXP  adr:307 W BUTLER AV ,48  btwn BRITTANY DR & SURREY RD  aai:NE SECTOR  box:74062  map:3033E6  tm:07:24:51  ED1126192
-
-Contact: Ed Ackerman <ed.ackerman@gmail.com>
-Sender:2002000004
 911: STA4  type:APOSXP  adr:3449 AZALEA AV ,22  btwn TRAILWOOD DR & VALLEY RD  aai:  box:04007  map:3261E8  tm:05:29:00  ED1126324  
+911: SQ134  type:AASSLT  adr:STADIUM BAR & GRIL ,36 at 1903 BETHLEHEM PK ,36 btwn SWARTLEY RD & MILL RD aai:  box:60063  map:3032F3  tm:02:33:13  ED1127778  
 
  */
 
@@ -294,6 +281,7 @@ public class PABucksCountyParser extends FieldProgramParser {
       "APREG",      "MATERNITY - CRITICAL",
       "ARESP",      "RESPIRATORY DISTRESS",
       "ASEIZ",      "SEIZURES - ACTIVE",
+      "AASSLT",     "ASSAULT W/ TRAUMA",
       "ASTAB",      "STABBING VICTIM",
       "ATAI",       "ALS TRAFFIC ACCIDENT INJURIES",
       "ATRAN",      "ALS/UNSPECIFIED EMERGENCY",
