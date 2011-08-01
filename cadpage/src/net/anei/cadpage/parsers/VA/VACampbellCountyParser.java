@@ -44,6 +44,11 @@ public class VACampbellCountyParser extends SmartAddressParser {
   }
   
   @Override
+  public String getFilter() {
+    return "MAILBOX@ccgvn.net";
+  }
+  
+  @Override
   protected boolean parseMsg(String body, Data data) {
     data.defState="VA";
     data.defCity = "CAMPBELL COUNTY";
