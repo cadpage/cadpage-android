@@ -19,12 +19,19 @@ MAILBOX:SQ02 (3)ACCIDENT 021400 TIMBERLAKE RD CFS# 2010-061105 2 CAR MVA. WITH E
 MAILBOX:SQ02 STABBING 005450 COLONIAL HWY EVI CFS# 2010-061047 STAGE IN THE AREA, DO NOT GO TO THE SCENE
 MAILBOX:SQ02 UNRESPONSIVE 000218 LAKE FOREST DR CFS# 2010-060825
 MAILBOX:SQ02 HANGUP 911 000381 HORIZON DR CFS# 2010-060777 FEMALE ADVISED SOMETHING ABOUT THE RESCUE SQ. LINE DISCONNECTED
-
 MAILBOX:CO12 BRUSH/FIELD FIRE 000175 WOODHAVEN DR CFS# 2011-024304
+
+Contact: Nathan McCraw <mccraw44@yahoo.com>
+Sender: MAILBOX@ccgvn.net
+S: M:MAILBOX:CO13 POWER IN GENERATOR @FIRE STATION IS OUT. DOORS HAVE TO BE OPENED MANUALLY PER CHIEF 13\n
 
 */
 
 public class VACampbellCountyParser extends SmartAddressParser {
+  
+  private static Properties CITY_CODES = buildCodeTable(new String[]{
+      "EVI", ""
+  });
   
   
   private static final String[] KEYWORDS = new String[]{"LOC", "CFS"};
@@ -32,7 +39,7 @@ public class VACampbellCountyParser extends SmartAddressParser {
   private static final Pattern MARKER = Pattern.compile("^MAILBOX:([A-Z]{2}\\d{2}) ");
   
   public VACampbellCountyParser() {
-    super("CAMPBELL COUNTY","VA");
+    super(CITY_CODES, "CAMPBELL COUNTY","VA");
     buildCallDictionary();
   }
   
@@ -52,18 +59,10 @@ public class VACampbellCountyParser extends SmartAddressParser {
     Properties props = parseMessage(body, KEYWORDS);
     
     // Lets do the easy ones first
-    String strCall = props.getProperty("CFS", "");
-
     // Need to handle Supp being after the CFS
-    int idx = strCall.indexOf(" ");
-    if (idx != -1) {
-      if (idx < strCall.length()-1) {
-      data.strSupp = strCall.substring(idx+1);
-      data.strCallId = strCall.substring(0,idx);
-      }
-    } else {
-    data.strCallId = strCall.trim();
-    }
+    Parser p = new Parser( props.getProperty("CFS", ""));
+    data.strCallId = p.get(' ');
+    data.strSupp = p.get();
     
     data.strCross = props.getProperty("CROSS", "");
     
@@ -79,24 +78,14 @@ public class VACampbellCountyParser extends SmartAddressParser {
       data.strCall = callDesc;
       sAddress = sAddress.substring(callDesc.length()).trim();
       
-      // And the last word is the city
-      int pt = sAddress.lastIndexOf(' ');
-      if (pt >= 0) {
-        data.strCity = sAddress.substring(pt+1);
-        sAddress = sAddress.substring(0, pt).trim();
-      }
-      
       // Anything else an an address
       parseAddress(sAddress, data);
       
       // No call description match eh
       // We'll have to rely on the smart parser to save us
     } else {
-      parseAddress(StartType.START_CALL, sAddress, data);
+      parseAddress(StartType.START_CALL, FLAG_ANCHOR_END, sAddress, data);
     }
-    
-    // Either way, we need to convert the city code
-    data.strCity = data.defCity;
     
     return true;
   }
