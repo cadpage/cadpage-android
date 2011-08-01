@@ -48,6 +48,9 @@ FWD: TYPE: STRUCTURE FIRE LOC: 1 WILBUR AV MANORV  CROSS: SOHMER ST /  CODE: 69-
 Contact: Chris Wagner <cwagner021@gmail.com>
 TYPE: MOTOR VEHICLE ACCIDENT  CROSS: CHURCH ST / LAKELAND AV CODE: 29-B-1U TIME: 09:04:01
 
+Contact: Scott Parris <fireteacher@gmail.com>
+TYPE: ALARMS LOC: 311 BAY AV EPATCH: @BAY HOUSE  CROSS: NEWINS ST / PARK ST CODE: 52-C-3G TIME: 15:33:58\n\n
+
 */
 
 public class NYSuffolkCountyAParser extends SmartAddressParser {
@@ -59,12 +62,14 @@ public class NYSuffolkCountyAParser extends SmartAddressParser {
       "BRENTW", "Brentwood",
       "CENTEM", "Center Moriches",
       "EMORIC", "East Moriches",
+      "EPATCH", "East Patchogue",
       "HAUPPA", "Hauppauge",
       "MANORV", "Manorville",
       "MASTIC", "Mastic",
       "MORICH", "Moriches",
       "NBAYSH", "Bay Shore",
       "OAKDAL", "Oakdale",
+      "PATCH",  "Patchogue",
       "SHIRLE", "Shirley"
   });
   
