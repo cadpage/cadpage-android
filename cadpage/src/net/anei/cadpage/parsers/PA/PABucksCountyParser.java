@@ -48,6 +48,7 @@ Sender: 8276,a@bnn.us
 911: SQ134  type:APOSXP  adr:307 W BUTLER AV ,48  btwn BRITTANY DR & SURREY RD  aai:NE SECTOR  box:74062  map:3033E6  tm:07:24:51  ED1126192
 911: STA4  type:APOSXP  adr:3449 AZALEA AV ,22  btwn TRAILWOOD DR & VALLEY RD  aai:  box:04007  map:3261E8  tm:05:29:00  ED1126324  
 911: SQ134  type:AASSLT  adr:STADIUM BAR & GRIL ,36 at 1903 BETHLEHEM PK ,36 btwn SWARTLEY RD & MILL RD aai:  box:60063  map:3032F3  tm:02:33:13  ED1127778  
+911: STA4  type:RDOM    adr:NESHA STATE PARK ,22 at 3401 STATE RD ,22 btwn DUNKSFERRY RD & WINKS LA  aai:NEXT TO POOL AREA AT PICNIC AREA  box:37023  map:3374C7  tm:12:52:17  FD1111780    Run: R16 SQ37 R4
 
  */
 
@@ -252,6 +253,7 @@ public class PABucksCountyParser extends FieldProgramParser {
       "FUMES",    "FUMES OUTSIDE (LOC)",
       "FUNK",     "UNKNOWN TYPE FIRE",
       "RAUTO",    "AUTO EXTRICATION",
+      "RDOM",     "DOMESTIC RESCUE",
       "RMAR",     "MARINE RESCUE",
       "RVBLD",    "VEHICLE INTO A BUILDING",
       "STDBY",    "FIRE STANDBY",
