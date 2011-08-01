@@ -273,7 +273,19 @@ public class PABucksCountyParserTest extends BaseParserTest {
         "BOX:04007",
         "MAP:3261E8",
         "ID:ED1126324");
- }
+
+    doTest("T23",
+        "911: SQ134  type:AASSLT  adr:STADIUM BAR & GRIL ,36 at 1903 BETHLEHEM PK ,36 btwn SWARTLEY RD & MILL RD aai:  box:60063  map:3032F3  tm:02:33:13  ED1127778",
+        "SRC:SQ134",
+        "CALL:AASSLT - ASSAULT W/ TRAUMA",
+        "PLACE:STADIUM BAR & GRIL",
+        "ADDR:1903 BETHLEHEM PK",
+        "CITY:HILLTOWN TWP",
+        "X:SWARTLEY RD & MILL RD",
+        "BOX:60063",
+        "MAP:3032F3",
+        "ID:ED1127778");
+}
   
   public static void main(String[] args) {
     new PABucksCountyParserTest().generateTests("T23");
