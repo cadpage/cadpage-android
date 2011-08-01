@@ -27,14 +27,6 @@ Sender: 7247471210
 
 public class PAWashingtonCountyParser extends FieldProgramParser {
   
-  private static final Properties CITY_CODES = buildCodeTable(new String[]{
-      "CECI", "CECIL TWP",
-      "MCDO", "MCDONALD",
-      "MTPL", "MT PLEASANT TWP",
-      "NSTR", "NORTH STRAWBANE TWP",
-      "PETE", "PETERS TWP"
-  });
-  
   public PAWashingtonCountyParser() {
     super("WASHINGTON COUNTY", "PA",
            "Location:ADDR? Xstreet:X? TYPE:CALL! TIME:SKIP COMMENTS:INFO");
@@ -93,4 +85,74 @@ public class PAWashingtonCountyParser extends FieldProgramParser {
     if (name.equals("X")) return new MyCrossField();
     return super.getField(name);
   }
+  
+  private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "ALLE", "ALLENPORT",
+      "AMWE", "AMWELL TWP",
+      "BEAL", "BEALLSVILLE",
+      "BENT", "BENTLEYVILLE",
+      "BLAN", "BLAINE TWP",
+      "BUFF", "BUFFALO TWP",
+      "BURG", "BURGETTSTOWN",
+      "CALI", "CALIFORNIA",
+      "CANO", "CANONSBURG",
+      "CANT", "CANTON TWP",
+      "CARR", "CARROLL TWP",
+      "CECI", "CECIL TWP",
+      "CENT", "CENTERVILLE",
+      "CHRT", "CHARTIERS TWP",
+      "CLAY", "CLAYSVILLE",
+      "COAL", "COAL CENTER",
+      "COKE", "COKEBURG",
+      "CROI", "CHARLEROI",
+      "CROS", "CROSS CREEK TWP",
+      "DEEM", "DEEMSTON",
+      "DONE", "DONEGAL TWP",
+      "DONO", "DONORA",
+      "DUNL", "DUNLEVY",
+      "EBET", "EAST BETHLEHEM TWP",
+      "EFIN", "EAST FINLEY TWP",
+      "ELCO", "ELCO",
+      "ELLS", "ELLSWORTH",
+      "EWAS", "EAST WASHINGTON",
+      "FALL", "FALLOWFIELD TWP",
+      "FINL", "FINLEYVILLE",
+      "GREE", "GREEN HILLS",
+      "HANO", "HANOVER TWP",
+      "HOPE", "HOPEWELL TWP",
+      "HOUS", "HOUSTON",
+      "INDP", "INDEPENDENCE TWP",
+      "JEFF", "JEFFERSON TWP",
+      "LONG", "LONG BRANCH",
+      "MARI", "MARIANNA",
+      "MCDO", "MCDONALD",
+      "MIDW", "MIDWAY",
+      "MONO", "MONONGAHELA",
+      "MORR", "MORRIS TWP",
+      "MTPL", "MT PLEASANT TWP",
+      "NBET", "NORTH BETHLEHEM TWP",
+      "NCHA", "NORTH CHARLEROI",
+      "NEWE", "NEW EAGLE",
+      "NFRA", "NORTH FRANKLIN TWP",
+      "NOTT", "NOTTINGHAM TWP",
+      "NSTR", "NORTH STRABANE TWP",
+      "PETE", "PETERS TWP",
+      "ROBI", "ROBINSON TWP",
+      "ROSC", "ROSCOE",
+      "SFRA", "SOUTH FRANKLIN TWP",
+      "SMIT", "SMITH TWP",
+      "SOME", "SOMERSET TWP",
+      "SPEE", "SPEERS",
+      "SSTR", "SOUTH STRABANE TWP",
+      "STOC", "STOCKDALE",
+      "TWIL", "TWILIGHT",
+      "UNIO", "UNION TWP",
+      "WALE", "WEST ALEXANDER",
+      "WASH", "WASHINGTON",
+      "WBET", "WEST BETHLEHEM TWP",
+      "WBRO", "WEST BROWNSVILLE",
+      "WFIN", "WEST FINLEY TWP",
+      "WMID", "WEST MIDDLETOWN",
+      "WPIK", "WEST PIKE RUN TWP"
+  });
 }
