@@ -140,9 +140,17 @@ public class PAChesterCountyBParserTest extends BaseParserTest {
         "X:CHATHAM ST & HOOPES AL",
         "INFO:20 YOA/M/, POSS ON ACT 64, SAID HE WANTED TO K ILL HIMSELF, BUT THEY DON'T THINK HE HAS DONE",
         "CITY:AVONDALE");
+
+    doTest("T8",
+        "(Messenger 911) BFALL\n33 DOGWOOD DR\nHOLLY DR & OAK LA\nKNTTWP\n80/F--FELL FROM STANDING--LIFT ASSISTANCE\n09:49",
+        "CALL:BFALL",
+        "ADDR:33 DOGWOOD DR",
+        "X:HOLLY DR & OAK LA",
+        "INFO:80/F--FELL FROM STANDING--LIFT ASSISTANCE",
+        "CITY:KENNETT TWP");
  }
   
   public static void main(String[] args) {
-    new PAChesterCountyBParserTest().generateTests("T7");
+    new PAChesterCountyBParserTest().generateTests("T8");
   }
 }

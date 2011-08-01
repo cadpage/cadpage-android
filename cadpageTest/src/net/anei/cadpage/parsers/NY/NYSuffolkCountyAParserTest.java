@@ -145,6 +145,15 @@ public class NYSuffolkCountyAParserTest extends BaseParserTest {
         "CALL:MOTOR VEHICLE ACCIDENT",
         "ADDR:CHURCH ST & LAKELAND AV",
         "CODE:29-B-1U");
+
+    doTest("T20",
+        "TYPE: ALARMS LOC: 311 BAY AV EPATCH: @BAY HOUSE  CROSS: NEWINS ST / PARK ST CODE: 52-C-3G TIME: 15:33:58\n\n",
+        "CALL:ALARMS",
+        "ADDR:311 BAY AV",
+        "CITY:East Patchogue",
+        "PLACE:BAY HOUSE",
+        "X:NEWINS ST / PARK ST",
+        "CODE:52-C-3G");
   }
   
   public static void main(String[] args) {

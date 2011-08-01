@@ -285,9 +285,23 @@ public class PABucksCountyParserTest extends BaseParserTest {
         "BOX:60063",
         "MAP:3032F3",
         "ID:ED1127778");
+
+    doTest("T24",
+        "911: STA4  type:RDOM    adr:NESHA STATE PARK ,22 at 3401 STATE RD ,22 btwn DUNKSFERRY RD & WINKS LA  aai:NEXT TO POOL AREA AT PICNIC AREA  box:37023  map:3374C7  tm:12:52:17  FD1111780    Run: R16 SQ37 R4",
+        "SRC:STA4",
+        "CALL:RDOM - DOMESTIC RESCUE",
+        "PLACE:NESHA STATE PARK",
+        "ADDR:3401 STATE RD",
+        "CITY:BENSALEM TWP",
+        "X:DUNKSFERRY RD & WINKS LA",
+        "INFO:NEXT TO POOL AREA AT PICNIC AREA",
+        "BOX:37023",
+        "MAP:3374C7",
+        "ID:FD1111780",
+        "UNIT:R16 SQ37 R4");
 }
   
   public static void main(String[] args) {
-    new PABucksCountyParserTest().generateTests("T23");
+    new PABucksCountyParserTest().generateTests("T24");
   }
 }
