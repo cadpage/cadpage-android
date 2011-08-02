@@ -29,9 +29,18 @@ ID#:11-07-25416 - - HEMORRHAGE/LACERATIO - 12370 S San Circle Dr - Apt: - Bldg: 
 :3304 
 
 Sender: 930010nn
-Body:ID#:11-07-25442 - - UNKNOWN PROBLEM - 16208 Wood Dr - Apt:21 - Bldg: fuente de s
-Body:ID#:11-07-25442- UNIT:E22 - DISP: 08:10:13 - ER: - OUT: - AIR: 08:11:39
-Body:olas jarr - Key Map: 458U - Cross Streets:BECKER/AMY MICHELLE - Box #:2003
+ID#:11-07-25442 - - UNKNOWN PROBLEM - 16208 Wood Dr - Apt:21 - Bldg: fuente de s
+ID#:11-07-25442- UNIT:E22 - DISP: 08:10:13 - ER: - OUT: - AIR: 08:11:39
+olas jarr - Key Map: 458U - Cross Streets:BECKER/AMY MICHELLE - Box #:2003
+
+- AT: - AIR: 15:58:38
+
+ID#:11-08-25623 - UNIT:BRU22 - DISP: 17:31:20 - ER: 17:33:52 - OUT: 17:36:17 - T
+O: - AT: - AIR: 18:12:20
+
+- Bldg: - Key Map: 498N - Cross Streets: - Box #:2001
+
+ID#:11-08-25632 - UNIT:E12 - DISP: 18:59:45 - ER: 19:01:09 - OUT: - TO: - AT: -
 
 
 

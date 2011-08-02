@@ -16,6 +16,10 @@ Dothan AL
 20:11:48/S8BF-MVC-Code III/2299 JOHN D ODOM RD INTERSECTN/DOTHAN/MURPHY MILL RD/63891245/unk further~~ pr disconnected/
 20:15:39/S38B-Medical Call-Code III-Emergy/403 S APPLETREE ST APTJ31/DOTHAN/MARVIN LEWIS J31/14523968/pt low sugar/
 
+Contact: "hassain3738@gmail.com" <hassain3738@gmail.com>
+Sender: Robot.ALERT@dothan.org 
+20:14:11/S38B-Medical Call-Code III-Emergy/210 N SAINT ANDREWS ST/DOTHAN/CRIMINAL JUSTICE BUILDING/15439268/INMATE -- 31 YOM CP -- HX: 2 HEART SURGERIES/
+
 */
 public class ALDothanParser extends FieldProgramParser {
   
@@ -26,8 +30,12 @@ public class ALDothanParser extends FieldProgramParser {
   }
   
   @Override
+  public String getFilter() {
+    return "Robot.ALERT@dothan.org";
+  }
+  
+  @Override
   protected boolean parseMsg(String body, Data data) {
-    
     return parseFields(body.split("/"), data);
   }
   
