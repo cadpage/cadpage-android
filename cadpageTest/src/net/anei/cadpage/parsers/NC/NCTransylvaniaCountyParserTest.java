@@ -97,10 +97,18 @@ public class NCTransylvaniaCountyParserTest extends BaseParserTest {
         "ID:2011-027139",
         "INFO:UNCONSCIOUS/UNRESPONSIVE female unresp dob 04/07/21 winnie seale");
 
+    doTest("T6",
+        "100 TSULA CT CONNESTEE FALLS 2011-028288 01:18:52 ALARM FIRE (10-37) ADV THAT HIS FIRE ALARM IS MALFUNCTIONING. E FORK GATE-RT ON CATATOGA PATH AND RT ON TSULA-AT THE EN",
+        "ADDR:100 TSULA CT",
+        "PLACE:CONNESTEE FALLS",
+        "ID:2011-028288",
+        "CALL:ALARM FIRE",
+        "INFO:(10-37) ADV THAT HIS FIRE ALARM IS MALFUNCTIONING. E FORK GATE-RT ON CATATOGA PATH AND RT ON TSULA-AT THE EN");
+
   }
   
 
   public static void main(String[] args) {
-    new NCTransylvaniaCountyParserTest().generateTests("T1", "ADDR CITY PLACE CODE ID CALL INFO");
+    new NCTransylvaniaCountyParserTest().generateTests("T6", "ADDR CITY PLACE CODE ID CALL INFO");
   }
 }
