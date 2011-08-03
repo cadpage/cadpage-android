@@ -981,6 +981,11 @@ o;?WHIF:2010:0641\nDispatched\nEMS/DIABETIC PROBLEM\n31 MOHAWK ST, WHITESBORO VI
 o;?WHIF:2010:0636\nDispatched\nINVESTIGATE\n124 HARTS HILL TERR, WHITESTOWN (GILBERT RD/Near:HARTS HILL INN)
 o;?WHIF:2010:0644\nDispatched\nMVA-PI\nHUGHES ST, WHITESBORO VILLAGE/ WEST ST, WHITESBORO VILLAGE
 ***************************************************************************
+Ontario County, NY (NYOntarioCountyParser)
+AUTO ALRM\n18:23\n5658 EAST LAKE RD\nSUNNY HOLLOW - WILLOW BEACH\nF14\nLOCUS RES - GENERAL FIRE ALARM - ATT REP\nF111890007
+CRASH UNK\n14:32\nCOUNTY ROAD 37 - ROUTE 20A\nASHLEY RD - ROUTE 20A\nE14\nMERCEDES IN THE DITCH ALSO ANOTHER CAR INVOLVED - FEMALE WAS GETTING OUT OF THE MERCE
+CRASH-PI\n13:56\nBIG TREE RD - BARNARD RD\nBARNARD RD - COUNTY LINE\nE14\nMOTORCYCLE CRASH - 1 INJURED\nE111910021
+***************************************************************************
 Orleans County, NY (NYOrleansCountyParser)
 BREATHING PROBLEMS; 231 CHAMBERLAIN ST VAL; 17yom t/b    6-c-1; TEST FROM ORLEANS
 CARDIAC/RESPIRATORY ARREST; 16044 GLIDDEN RD TCL; 61 YOM UNATTENDED /COLD  IN WARM ENVIRNMENT JOHN SMITH   
@@ -2801,54 +2806,6 @@ Sender: orange911@oorange.org.
 **********************************************************
 **********************************************************
 **********************************************************
-Ontario County, NY
-Contact: ozzy8585@frontiernet.net
-Sender: E911page@co.ontario.ny.us
-Call type
-Time
-Address or intersection
-Cross streets
-Responding companies - Honeoye is 14, F14 for Fire, E14 for Fire & EMS
-Additional info
-Some kind of run number if space allows
-
-AUTO ALRM
-18:23
-5658 EAST LAKE RD
-SUNNY HOLLOW - WILLOW BEACH
-F14
-LOCUS RES - GENERAL FIRE ALARM - ATT REP
-F111890007
-
-CRASH UNK
-14:32
-COUNTY ROAD 37 - ROUTE 20A
-ASHLEY RD - ROUTE 20A
-E14
-MERCEDES IN THE DITCH ALSO ANOTHER CAR INVOLVED - FEMALE WAS GETTING OUT OF THE MERCE
-
-CRASH-PI
-13:56
-BIG TREE RD - BARNARD RD
-BARNARD RD - COUNTY LINE
-E14
-MOTORCYCLE CRASH - 1 INJURED
-E111910021
-
-WIRES DOWN
-15:16
-COUNTY ROAD 37 - RASPBERRY HILL
-RASPBERRY HILL - HOWCROFT RD
-F14
-WIRE DOWN ABOUT 200 METERS SOUTH OF RASPBERRY HILL ROAD ON CR 37 CAUSING
-
-CO DET.
-08:20
-4910 COUNTY ROAD 36
-MASTIN DR - SANDY BOTTOM RD
-F14
-WOKE UP TO CO DETECTOR GOING OFF, NO ILLNESS, WILL WAIT OUTSIDE
-F111960002
 **********************************************************
 Medina County, OH
 Contact: Ralph Copley <rcopley@wadsworthcity.org>
