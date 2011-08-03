@@ -1378,7 +1378,7 @@ public class FieldProgramParser extends SmartAddressParser {
     public String getFieldNames() {
       StringBuilder sb = new StringBuilder();
       if (startType == null) {
-        sb.append("ADDR");
+        sb.append("ADDR APT");
         if (incCity) sb.append(" CITY");
       }
       
