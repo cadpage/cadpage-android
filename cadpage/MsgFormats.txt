@@ -2814,12 +2814,11 @@ Sender: CAD@alexandercountync.gov
 |CAD:80 PRESLAR LN;BREATHING PROBLEMS;06D02;NC 127 HWY
 **********************************************************
 **********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
 ************  READY TO ROLL ******************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
 **********************************************************
 **********************************************************
 Bell County, TX
@@ -3200,6 +3199,14 @@ Sender: 93001050 (increments)
 93001005:393:CAD@greensboro-nc.gov:CAD:1138092;ACCIDENT WITH PERSONAL INJURY;E CONE BLVD/CHESHIRE WAY;DIST: 32.08 FT;29D02p
 93001007:395:CAD@greensboro-nc.gov:CAD:1138115;ACCIDENT WITH PERSONAL INJURY;2615 HIGH POINT RD;MAYWOOD ST;W FLORIDA ST;SUNSET CLEANERS
 **********************************************************
+Ozark, AL
+Contact: John Price <jprice911@yahoo.com>
+Sender: dispatch@ozarkdale911.org
+(ALERT!) "MEDICAL EMERGENCY"6491 E ANDREWS AVE,REF DIABETIC UNABLE TO EAT & VOIMITTING
+(ALERT!) SERVICE CALL 192 CEDAR CT OFF PINE AVE OFF NEWTON AVE REF LIFTING ASSISTANCE PER MEDIC 1
+(ALERT!) MED EMER 145 PATTERSON OFF E EUFAULA, MALE SUBJECT SEVERAL LAC TO ARM, BLEEDING HEAVILY
+(ALERT!) DELAY PAGE.DOUGLAS DR OFF E HWY 27,REF SUBJECT STABBED,UNITS STAG FOR OPD
+(ALERT!) MEDICAL EMER 135 JUDSON DR OFF WILL LOGAN RD REF PATIENT CONFUSED AND CLAMY
 **********************************************************
 Erie County, PA (Alternate)
 Contact: Doug Johnson <dougjohnson6@gmail.com>
