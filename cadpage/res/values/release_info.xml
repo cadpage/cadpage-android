@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">20110722</string>
-  <string name="release_version">v1.4.18</string>
+  <string name="release_date">20110805</string>
+  <string name="release_version">v1.4.19</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
@@ -15,24 +15,41 @@
   This is highly experimental.  Your mileage may vary.  See http://www.cadpage.org/faq/mms-message-support for details\n
   \n
   Multiple Fixes for Existing Locations and Issues\n
+  Make Cadpage work on Android 1.6 again.\n
 New Locations:\n
-New District:York County,ME\n
-Rename Bergen County, NJ to MICOM, NJ\n
-New District: Northampton, VA\n
-New District: Stone County, MO and Barry County, MO\n
+Porter County, IN \n 
+Beaver County, PA  \n
+Whitefield County, GA\n  
+Howard County, MD  \n
+Ontario County, NY   \n
+Wadsworth, OH  \n
+Carteret County, NC\n  
+Washington County, TN\n  
 Fixes:\n
-Mapping problem with Benton County, OR\n
-All text messages getting treated as general alerts\n  
-Parsing problem with Gasconade County, MO\n
-Parsing problem with Broome County, NY location\n  
-Parsing problem with Suffolk County (B), NY\n
-Parsing problem with Bucks County, PA\n
-Parsing problem with Chester County (B), PA\n  
-Parsign problems with Pueblo County, CO\n
-Parsing problems with Prince Georges County\n  
-Parsing problem with Nash County, NC\n
-Parsing problem with Cumberland County, NC\n   
-Fixed minor parsing problem with Northampton County, PA\n  
+Crook County, OR  \n 
+Rockland County, NY \n 
+Worcester County, MD  \n 
+Chester County, PA (B)  \n 
+Kenosha County, WI   \n
+Stone County,MO  \n
+York County, ME  \n
+Chester County   \n
+Transylvania County, NC\n  
+St Marys County, MD  \n
+Sonoma County, CA  \n
+Erie County, PA  \n
+Prince Georges County (C)\n  
+Broome County, NY location \n  
+Mendicino County, CA   \n
+MICOM, NJ location   \n
+Marion County, OR  \n
+Mecklenburg County, NC\n   
+Oneida County, NY    \n
+AWatauga County,NC   \n
+Campbell County, VA  \n
+Washington County, PA  \n
+Suffolk COunty, NY (A)   \n
+Harris County, TX (B) \n
 \n
   </string>  
 </resources>
