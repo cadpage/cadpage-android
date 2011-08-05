@@ -49,10 +49,85 @@ public class TXHarrisCountyESD1BParserTest extends BaseParserTest {
         "APT:AVE D APTS-1",
         "MAP:498D",
         "X:WOODLAND DR/CEDAR L");
-   
+  }
+  
+  @Test
+  public void testParser2() {
+
+    doTest("T1",
+        "ID#:11-07-25331 - - ALARMS - 1518 Great Dover Cir - Apt: - Bldg: - Key Map: 458W",
+        "ID:11-07-25331",
+        "CALL:ALARMS",
+        "ADDR:1518 Great Dover Cir",
+        "MAP:458W");
+
+    doTest("T2",
+        "ID#:11-07-25341 - 06D02 - 6D1 RESPIRATORY - 11870 Greenloch Ln - Apt: - Bldg: - Key Map: 416K - Cross Streets:GREENCANYON DR/GREENROC",
+        "ID:11-07-25341",
+        "CODE:06D02",
+        "CALL:6D1 RESPIRATORY",
+        "ADDR:11870 Greenloch Ln",
+        "MAP:416K",
+        "X:GREENCANYON DR/GREENROC");
+
+    doTest("T3",
+        "ID#:11-07-25342 - 25A01 - PSYCHIATRIC - 15215 S Brentwood Dr - Apt: - Bldg: - Key Map: 498E - Cross Streets:Dead End/DELLDALE - Box #:2004",
+        "ID:11-07-25342",
+        "CODE:25A01",
+        "CALL:PSYCHIATRIC",
+        "ADDR:15215 S Brentwood Dr",
+        "MAP:498E",
+        "X:Dead End/DELLDALE",
+        "BOX:2004");
+
+    doTest("T4",
+        "ID#:11-07-25378 - - Stroke (CVA) - 11715 Greenglen Dr - Apt: - Bldg: - Key Map: 416K - Cross Streets:JOHN RALSTON RD/GREENROCK LN - B",
+        "ID:11-07-25378",
+        "CALL:Stroke (CVA)",
+        "ADDR:11715 Greenglen Dr",
+        "MAP:416K",
+        "X:JOHN RALSTON RD/GREENROCK LN");
+
+    doTest("T5",
+        "ID#:11-07-25416 - - HEMORRHAGE/LACERATIO - 12370 S San Circle Dr - Apt: - Bldg: UNK TRAILER PARK - Key Map: 456C - Cross Streets:BARK",
+        "ID:11-07-25416",
+        "CALL:HEMORRHAGE/LACERATIO",
+        "ADDR:12370 S San Circle Dr",
+        "APT:UNK TRAILER PARK",
+        "MAP:456C",
+        "X:BARK");
+
+    doTest("T6",
+        "ID#:11-08-25733 - 55B04 - ELECTRICAL HAZARD - 16102 E Ih 10 - Apt: - Bldg: OLD RIVER CHURCH DAY - Key Map: 498G - Cross Streets:IH 10 EAST BAYOU RAMP/IH 10 SH -",
+        "ID:11-08-25733",
+        "CODE:55B04",
+        "CALL:ELECTRICAL HAZARD",
+        "ADDR:16102 E Ih 10",
+        "APT:OLD RIVER CHURCH DAY",
+        "MAP:498G",
+        "X:IH 10 EAST BAYOU RAMP/IH 10 SH");
+
+    doTest("T7",
+        "ID#:11-08-25969 - 29D02m - 29D5 MOTOR VEHICLE A - 539 S Sheldon Rd - Apt: - Bldg: - Key Map: 498K - Cross Streets:JACINTO PORT BLVD/MARKET - Box #:2001",
+        "ID:11-08-25969",
+        "CODE:29D02m",
+        "CALL:29D5 MOTOR VEHICLE A",
+        "ADDR:539 S Sheldon Rd",
+        "MAP:498K",
+        "X:JACINTO PORT BLVD/MARKET",
+        "BOX:2001");
+
+    doTest("T8",
+        "ID#:11-08-25936 - 29B04 - Traffic/Trans Incide - E BW 8 N / WOODFOREST BW 8 NB - Apt: - Bldg: - Key Map: 457Y - Cross Streets: - Box #:2005",
+        "ID:11-08-25936",
+        "CODE:29B04",
+        "CALL:Traffic/Trans Incide",
+        "ADDR:E BW 8 N & WOODFOREST BW 8 NB",
+        "MAP:457Y",
+        "BOX:2005");
   }
 
-public static void main(String[] args) {
+  public static void main(String[] args) {
     new TXHarrisCountyESD1BParserTest().generateTests("T1");
   }
 
