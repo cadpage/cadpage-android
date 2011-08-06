@@ -49,6 +49,8 @@ Sender: 8276,a@bnn.us
 911: STA4  type:APOSXP  adr:3449 AZALEA AV ,22  btwn TRAILWOOD DR & VALLEY RD  aai:  box:04007  map:3261E8  tm:05:29:00  ED1126324  
 911: SQ134  type:AASSLT  adr:STADIUM BAR & GRIL ,36 at 1903 BETHLEHEM PK ,36 btwn SWARTLEY RD & MILL RD aai:  box:60063  map:3032F3  tm:02:33:13  ED1127778  
 911: STA4  type:RDOM    adr:NESHA STATE PARK ,22 at 3401 STATE RD ,22 btwn DUNKSFERRY RD & WINKS LA  aai:NEXT TO POOL AREA AT PICNIC AREA  box:37023  map:3374C7  tm:12:52:17  FD1111780    Run: R16 SQ37 R4
+911: SQ134  type:ATRAN   adr:CENTER SQUARE TOWR #823-A ,28 at 555 BROAD ST #823-A ,28 btwn ATKINSON DR & VETE  aai:  box:19052  map:2922H10 tm:18:18:15  ED1127865  
+STA19  type:FALRM   adr:LINDEN ELEM SCH ,28 at 480 LINDEN AV ,28 btwn EAST ST & ROHR DR  aai:  box:19093  map:2923A10  tm:20:27:42  FD1111756\4s
 
  */
 
@@ -57,7 +59,7 @@ public class PABucksCountyParser extends FieldProgramParser {
   
   public PABucksCountyParser() {
     super("BUCKS COUNTY", "PA",
-           "911:SRC! type:CALL! adr:ADDR! btwn:X aai:INFO box:BOX map:MAP tm:ID% Run:UNIT");
+           "SRC! type:CALL! adr:ADDR! btwn:X aai:INFO box:BOX map:MAP tm:ID% Run:UNIT");
   }
   
   @Override
@@ -68,8 +70,7 @@ public class PABucksCountyParser extends FieldProgramParser {
   @Override
   protected boolean parseMsg(String body, Data data) {
     
-    int pt = body.indexOf("911:");
-    if (pt < 0) return false;
+    if (body.startsWith("911:")) body = body.substring(4).trim();
     data.expectMore = true;
     
     body = body.replaceAll(" btwn ", " btwn:").replaceAll(" stype:", " type:").replaceAll("&nbsp;", " ").replaceAll("&amp;", "&").trim();
