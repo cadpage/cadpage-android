@@ -10,7 +10,8 @@ import net.anei.cadpage.parsers.SmartAddressParser;
 /*
 Minnehaha county, SD
 Contact: brubin@med-starambulance.com
-Sender: mtooley@911metro.org
+Contact: James Dietz <kc0usq@gmail.com>
+Sender: 911metrodispatch@911metro.org
 
 930 Quad 2070 - VS 100 CLIFF AVE 2 VS Unconsc/Faint C3 2011-00000870
 930 Quad 460 - BR 904 SNOWBERRY AVE BR Conv Seizure C3 2011-00000374
@@ -42,7 +43,7 @@ public class SDMinnehahaCountyParser extends SmartAddressParser {
   
   @Override
   public String getFilter() {
-    return "mtooley@911metro.org";
+    return "911metrodispatch@911metro.org";
   }
   
   @Override
