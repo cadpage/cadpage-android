@@ -299,9 +299,34 @@ public class PABucksCountyParserTest extends BaseParserTest {
         "MAP:3374C7",
         "ID:FD1111780",
         "UNIT:R16 SQ37 R4");
+
+    doTest("T25",
+        "911: SQ134  type:ATRAN   adr:CENTER SQUARE TOWR #823-A ,28 at 555 BROAD ST #823-A ,28 btwn ATKINSON DR & VETE  aai:  box:19052  map:2922H10 tm:18:18:15  ED1127865",
+        "SRC:SQ134",
+        "CALL:ATRAN - ALS/UNSPECIFIED EMERGENCY",
+        "PLACE:CENTER SQUARE TOWR #823-A",
+        "ADDR:555 BROAD ST",
+        "APT:823-A",
+        "CITY:DOYLESTOWN",
+        "X:ATKINSON DR & VETE",
+        "BOX:19052",
+        "MAP:2922H10",
+        "ID:ED1127865");
+
+    doTest("T26",
+        "STA19  type:FALRM   adr:LINDEN ELEM SCH ,28 at 480 LINDEN AV ,28 btwn EAST ST & ROHR DR  aai:  box:19093  map:2923A10  tm:20:27:42  FD1111756\4s",
+        "SRC:STA19",
+        "CALL:FALRM - FIRE ALARM (LOC)",
+        "PLACE:LINDEN ELEM SCH",
+        "ADDR:480 LINDEN AV",
+        "CITY:DOYLESTOWN",
+        "X:EAST ST & ROHR DR",
+        "BOX:19093",
+        "MAP:2923A10",
+        "ID:FD1111756\4s");
 }
   
   public static void main(String[] args) {
-    new PABucksCountyParserTest().generateTests("T24");
+    new PABucksCountyParserTest().generateTests("T25");
   }
 }
