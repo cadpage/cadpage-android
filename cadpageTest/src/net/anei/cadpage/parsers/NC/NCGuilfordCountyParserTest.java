@@ -173,6 +173,23 @@ public class NCGuilfordCountyParserTest extends BaseParserTest {
         "INFO:K / .",
         "CALL:UNDER CONTROL");
 
+    doTest("T21",
+        "Subject:summerfieldfiredist Aug06-16:44\nsummerfieldfiredist \nCAD:SMFD;ST09;1;31D02;UNCON;7912 SUMMERFIELD RD;FAIRGROVE BAPTIST CHURCH;",
+        "SRC:summerfieldfiredist",
+        "ADDR:7912 SUMMERFIELD RD",
+        "INFO:SMFD / ST09 / 1 / FAIRGROVE BAPTIST CHURCH",
+        "CODE:31D02",
+        "CALL:UNCON");
+
+    doTest("T22",
+        "Subject:summerfieldfiredist Aug06-06:57\nsummerfieldfiredist \nCAD:OKRD;ST15;1;69D03;STRUC;8005 MARKETPLACE DR;TRACTOR SUPPLY CO;NC 68 N",
+        "SRC:summerfieldfiredist",
+        "ADDR:8005 MARKETPLACE DR",
+        "INFO:OKRD / ST15 / 1 / TRACTOR SUPPLY CO",
+        "CODE:69D03",
+        "CALL:STRUC",
+        "X:NC 68 N");
+
   }
   
 
