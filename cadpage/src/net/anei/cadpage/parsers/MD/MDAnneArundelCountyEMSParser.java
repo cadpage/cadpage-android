@@ -49,6 +49,9 @@ Contact: Len Pfeffer <copolenny@gmail.com>
 *Local Box 17-13 1641 WINCHESTER RD  [MONTESSORI INTL CHILDRENS HOME] E171 HI LIFE/ALARMS SOUNDING (WARM); 1243 [6/88]  /9d-7/
 MEDICAL Box 23-16 254 PENDLETON CT (WAYCROSS WAY) QNT23,PM17 BREATHING PROB; 0911 [3/127]
 
+Contact: Randy Hopkins <firemann172@yahoo.com>
+MEDICAL BOX 19-6 824 HOLLY DR E A19,PM17,TRO MVC; 1808 PM2 [3/25]\n
+
  */
 
 public class MDAnneArundelCountyEMSParser extends SmartAddressParser {
@@ -57,7 +60,7 @@ public class MDAnneArundelCountyEMSParser extends SmartAddressParser {
   private static final String DEF_CITY = "ANNE ARUNDEL COUNTY";
   
   private static final Pattern MARKER = Pattern.compile("^\\*?(?:MEDICAL|Medical|Local|HazMat|Still|Box) (?:BOX|Box|Alarm) (\\d{1,2}-[A-Z0-9]{1,3}) ");
-  private static final Pattern T_MARKER = Pattern.compile(";? \\d{4} \\[\\d{1,2}/\\d{1,3}\\]");
+  private static final Pattern T_MARKER = Pattern.compile(";? \\d{4} (?:[A-Z0-9]+ )?\\[\\d{1,2}/\\d{1,3}\\]");
   private static final Pattern OPEN_DELIM = Pattern.compile("\\(|\\[");
   private static final Pattern MAP1 = Pattern.compile(" (\\d{1,2}-[A-Z]\\d{1,2}) ");
   private static final Pattern MAP2 = Pattern.compile("\\d{1,2}-[A-Z]\\d{1,2}");
