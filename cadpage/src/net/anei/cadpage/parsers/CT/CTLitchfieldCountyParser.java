@@ -47,7 +47,7 @@ public class CTLitchfieldCountyParser extends SmartAddressParser {
   
   @Override
   public String getFilter() {
-    return "textmsg@lcd911.com";
+    return "";
   }
   
   @Override

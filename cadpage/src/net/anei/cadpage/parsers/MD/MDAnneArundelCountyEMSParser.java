@@ -51,6 +51,7 @@ MEDICAL Box 23-16 254 PENDLETON CT (WAYCROSS WAY) QNT23,PM17 BREATHING PROB; 091
 
 Contact: Randy Hopkins <firemann172@yahoo.com>
 MEDICAL BOX 19-6 824 HOLLY DR E A19,PM17,TRO MVC; 1808 PM2 [3/25]\n
+MEDICAL Box 17-4 1220 VIKING DR N E171,PM17 CHEST PAIN; 1834 PM1 Y>HHC,HHC R>UoM,UoM [3/30]\n
 
  */
 
@@ -60,11 +61,11 @@ public class MDAnneArundelCountyEMSParser extends SmartAddressParser {
   private static final String DEF_CITY = "ANNE ARUNDEL COUNTY";
   
   private static final Pattern MARKER = Pattern.compile("^\\*?(?:MEDICAL|Medical|Local|HazMat|Still|Box) (?:BOX|Box|Alarm) (\\d{1,2}-[A-Z0-9]{1,3}) ");
-  private static final Pattern T_MARKER = Pattern.compile(";? \\d{4} (?:[A-Z0-9]+ )?\\[\\d{1,2}/\\d{1,3}\\]");
+  private static final Pattern T_MARKER = Pattern.compile("\\[\\d{1,2}/\\d{1,3}\\]");
   private static final Pattern OPEN_DELIM = Pattern.compile("\\(|\\[");
   private static final Pattern MAP1 = Pattern.compile(" (\\d{1,2}-[A-Z]\\d{1,2}) ");
   private static final Pattern MAP2 = Pattern.compile("\\d{1,2}-[A-Z]\\d{1,2}");
-  private static final Pattern T_MARKER2 = Pattern.compile(";? \\d{4}\\b");
+  private static final Pattern T_MARKER2 = Pattern.compile(";? (\\d{4})\\b");
 
   public MDAnneArundelCountyEMSParser() {
     super(DEF_CITY, DEF_STATE);
@@ -153,7 +154,12 @@ public class MDAnneArundelCountyEMSParser extends SmartAddressParser {
     
     // Anything left up to a possible trailing marker is the call description
     match = T_MARKER2.matcher(body);
-    if (match.find()) body = body.substring(0, match.start()).trim();
+    if (match.find()) {
+      data.strCallId = match.group(1);
+      data.strSupp = new Parser(body.substring(match.end()).trim()).get('[');
+      if (data.strSupp.equals("...")) data.strSupp = "";
+      body = body.substring(0, match.start()).trim();
+    }
     data.strCall = body;
 
     return true;

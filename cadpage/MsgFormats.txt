@@ -2754,15 +2754,6 @@ Sender: moon.dispatch@moontwpfire.com
 (Dispatch Alert) B.O.D. meeting tonight, 7 P.M. PSB
 (Dispatch Alert) M? Timeout=1342\nFIRE ALARM\nMOON HIGH SCHOOL\nUNIVERSITY BLVD\nBUSINESS 60 TO 400 BLOCK OF  5TH AVE
 **********************************************************
-Alexander County, NC
-Contact: Josh Reese <jrreese1@catamount.wcu.edu>
-Sender: CAD@alexandercountync.gov
-(CAD:91 GREEN ACRES LN;FALL;31D03;ICARD RIDGE RD)
-
-Contact: Foster, Greg <gfoster@alexandercountync.gov>
-Sender: CAD@alexandercountync.gov
-CAD:2370 NC 90 HWY E;NC DEPT OF TRANSPORTATION;TRAFFIC ACCIDENT;ADAMS POND LN;WINTERHAVEN RD
-**********************************************************
 Unknown,
 Contact: anthony benbenek <abjconstruct@gmail.com>
 Sender: communications@easthamptonvillageny.gov
@@ -2946,6 +2937,18 @@ PIKE COUNTY E-911:10-50I ACCIDENT WITH INJURIES CONCORD ST @ FRANKLIN ST 770
 PIKE COUNTY E-911:FIRSTR STRUCTURE FIRE INDUSTRIAL DRIVE/VERY END 770
 PIKE COUNTY E-911:FIRVEH VEHICLE FIRE 5277 BLANTON MILL RD 6785720068 BEEKS RD
 PIKE COUNTY E-911:FIRE FIRE GENERIC (TYPE) HIGHWAY 362 AREA OF CONCORD RD 3345591717
+**********************************************************
+Alexander County, NC
+Contact: Josh Reese <jrreese1@catamount.wcu.edu>
+Sender: CAD@alexandercountync.gov
+(CAD:91 GREEN ACRES LN;FALL;31D03;ICARD RIDGE RD)
+
+Contact: Foster, Greg <gfoster@alexandercountync.gov>
+Sender: CAD@alexandercountync.gov
+CAD:2370 NC 90 HWY E;NC DEPT OF TRANSPORTATION;TRAFFIC ACCIDENT;ADAMS POND LN;WINTERHAVEN RD
+CAD:1522 BLACK OAK RIDGE RD;STANDARD STRUCTURE FIRE;JONES RD;CARSON CHAPEL RD
+CAD:400 LEE MATHESON RD;HEART PROBLEMS;19D04;BOSTON RD;TAYLORSVILLE MFG RD
+CAD:33 LEWITTES RD;PIEDMONT FIBERGLASS;LARGE ALARM;NC 90 HWY E;RUSSELL LN
 **********************************************************
 **********************************************************
 **********************************************************
