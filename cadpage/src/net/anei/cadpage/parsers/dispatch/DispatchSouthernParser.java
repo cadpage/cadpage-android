@@ -133,15 +133,21 @@ public class DispatchSouthernParser extends SmartAddressParser {
   // Flag indicating that the call ID is optional
   public static final int DSFLAG_ID_OPTIONAL = 0x08;
   
+  // Flag indicating a place name may precede the address
+  // And Name/Phone number follows address
+  public static final int DSFLAG_LEAD_PLACE = 0x010;
+  
   private static final Pattern LEAD_PTN = Pattern.compile("^[\\w\\.]+:");
   private static final Pattern ID_TIME_PTN = Pattern.compile("\\b(\\d{2,4}-?\\d{4,8}) \\d\\d:\\d\\d:\\d\\d\\b");
   private static final Pattern OPT_ID_TIME_PTN = Pattern.compile("\\b(?:(\\d{2,4}-?\\d{4,8}) )?\\d\\d:\\d\\d:\\d\\d\\b");
   private static final Pattern CALL_PTN = Pattern.compile("^[A-Z0-9\\- /]+\\b");
+  private static final Pattern PHONE_PTN = Pattern.compile("\\b\\d{10}\\b");
 
   private Pattern idTimePattern;
   private boolean leadDispatch;
   private boolean optDispatch;
   private boolean unitId;
+  private boolean inclPlace;
   
   public DispatchSouthernParser(String[] cityList, String defCity, String defState) {
     this(cityList, defCity, defState, DSFLAG_DISPATCH_ID);
@@ -153,6 +159,7 @@ public class DispatchSouthernParser extends SmartAddressParser {
     this.optDispatch = (flags & DSFLAG_OPT_DISPATCH_ID) != 0;
     this.unitId = (flags & DSFLAG_UNIT) != 0;
     this.idTimePattern = (flags & DSFLAG_ID_OPTIONAL) != 0 ? OPT_ID_TIME_PTN : ID_TIME_PTN;
+    this.inclPlace = (flags &  DSFLAG_LEAD_PLACE) != 0;
   }
 
   
@@ -188,10 +195,21 @@ public class DispatchSouthernParser extends SmartAddressParser {
     // First half contains address, optional place/name, and possibly an MDL call code
     Parser p = new Parser(sAddr);
     data.strCode = p.getLastOptional(" MDL ");
-    if (data.strCode.length() == 0) data.strCode =p.getLastOptional(" FDL ");
+    if (data.strCode.length() == 0) data.strCode = p.getLastOptional(" FDL ");
     sAddr = p.get();
-    parseAddress(StartType.START_ADDR, sAddr, data);
-    data.strPlace = getLeft();
+    if (inclPlace) {
+      parseAddress(StartType.START_PLACE, sAddr, data);
+      String sName = getLeft();
+      Matcher match = PHONE_PTN.matcher(sName);
+      if (match.find()) {
+        data.strPhone = match.group();
+        sName = sName.substring(0,match.start()).trim();
+      }
+      data.strName = sName;
+    } else {
+      parseAddress(StartType.START_ADDR, sAddr, data);
+      data.strPlace = getLeft();
+    }
   }
 
   protected void parseExtra(String sExtra, Data data) {

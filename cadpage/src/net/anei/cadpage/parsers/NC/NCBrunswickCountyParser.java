@@ -1,9 +1,5 @@
 package net.anei.cadpage.parsers.NC;
 
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-
-import net.anei.cadpage.SmsMsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchSouthernParser;
 
 /* 
@@ -26,36 +22,23 @@ Contact: Anthony Nathan <tnathan55@gmail.com>
 1333 SOUTH DICKINSON DR LELAND 11-053813 10:30:06 Take Written Report (10-92) AT SUITE 110....10-83 WITH MIRANDA REF PROPERTY DAMAGE TO VEH
 1111 NEW POINTE BLVD LELAND 11-053827 11:42:05 911 HANG UP ON CALL BACK SPOKE W/ LAURA ADVD SUBJS SHE WAS CALLING IN REF TO LEFT THE BUSN
 
+Contact: Christopher Grace Jr <cgracejr@gmail.com>
+Sender: lelandems+bncCOqwh4kZEO2g9_EEGgTkSK1X@googlegroups.com
+2192:BRUNSWICK COVE NURSING HOME 1478 RIVER RD SE WINNABOW 11-062488 19:38:00 Falls
+
+
 */
 
 public class NCBrunswickCountyParser extends DispatchSouthernParser {
   
-  private static final Pattern PHONE_PTN = Pattern.compile("\\b\\d{10}\\b");
   
   public NCBrunswickCountyParser() {
-    super(CITY_LIST, "BRUNSWICK COUNTY", "NC", DSFLAG_OPT_DISPATCH_ID);
+    super(CITY_LIST, "BRUNSWICK COUNTY", "NC", DSFLAG_OPT_DISPATCH_ID | DSFLAG_LEAD_PLACE);
   }
   
   @Override
   public String getFilter() {
     return "pagegate@brunswickes.com";
-  }
-  
-  @Override
-  public boolean parseMsg(String body, Data data) {
-    
-    if (!super.parseMsg(body, data)) return false;
-    
-    // The space usually occupied by a common name is used for personal name information here
-    Matcher match = PHONE_PTN.matcher(data.strPlace);
-    if (match.find()) {
-      data.strPhone = match.group();
-      data.strPlace = data.strPlace.substring(0,match.start()) + data.strPlace.substring(match.end());
-      data.strPlace = data.strPlace.replaceAll("  +", " ").trim();
-    }
-    data.strName = data.strPlace;
-    data.strPlace = "";
-    return true;
   }
   
   private static final String[] CITY_LIST = new String[]{
