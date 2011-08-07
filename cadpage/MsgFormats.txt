@@ -2758,6 +2758,10 @@ Alexander County, NC
 Contact: Josh Reese <jrreese1@catamount.wcu.edu>
 Sender: CAD@alexandercountync.gov
 (CAD:91 GREEN ACRES LN;FALL;31D03;ICARD RIDGE RD)
+
+Contact: Foster, Greg <gfoster@alexandercountync.gov>
+Sender: CAD@alexandercountync.gov
+CAD:2370 NC 90 HWY E;NC DEPT OF TRANSPORTATION;TRAFFIC ACCIDENT;ADAMS POND LN;WINTERHAVEN RD
 **********************************************************
 Unknown,
 Contact: anthony benbenek <abjconstruct@gmail.com>
@@ -2813,6 +2817,13 @@ Contact: Josh Davis <paramedicdavis@gmail.com>
 Sender: CAD@alexandercountync.gov
 |CAD:80 PRESLAR LN;BREATHING PROBLEMS;06D02;NC 127 HWY
 **********************************************************
+Dupage County, IL
+Contact: Eric Davison <edavison22@gmail.com>
+Sender: Du-comm@ducomm.org
+System: Motorola Printrak Premier CAD
+*!* GFFD *!*   Date:  [08/04/2011]   Time:  [09:14:12]   Run Number:  [GF110804001917]   Alarm Level:  [ST]   District:  [D511]   Address: [N PARK BL&TURNER AV
+*!* GFFD *!*   Date:  [08/05/2011]   Time:  [08:19:09]   Run Number:  [GF110805001926]   Alarm Level:  [FS]   District:  [D318]   Address: [240 HAWTHORNE BL
+*!* GFFD *!*   Date:  [08/04/2011]   Time:  [20:37:04]   Run Number:  [GF110804001922]   Alarm Level:  [MB]   District:  [D212]   Address: [21W551 NORTH AV
 **********************************************************
 **********************************************************
 **********************************************************

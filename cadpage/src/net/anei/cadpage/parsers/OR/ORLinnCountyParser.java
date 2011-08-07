@@ -34,9 +34,51 @@ CARDIAC/RESP ARREST/930 POPLAR ST Sweet Home/9TH AV & 11TH AV/60602221/ E21 RESC
 EYE PROB/INJURIES/ 1530 TAMARACK ST #218 Sweet Home MT SHADOW TRAILER PARK/ 60612221/
 TRAUMA INJ/ 3137 SANTIAM HWY SP 11 Sweet Home TRAILER VILLA/ 60632221/
 
+Contact: Zach Akin <brfdfireman@gmail.com>
+Sender: 93001NNN
+ICOM/400 notification,HOUSE FIRE/ 1173 W SHERMAN ST Lebanon/ 4142A3131/
+
 */
 
 public class ORLinnCountyParser extends FieldProgramParser {
+  
+  public ORLinnCountyParser() {
+    super(CITY_LIST, "LINN COUNTY", "OR",
+           "CALL CALL!+? ADDR/SXP! X/Z? MAP! UNIT INFO");
+  }
+  
+  @Override
+  public String getFilter() {
+    return "linn911@le.linn.or.us";
+  }
+
+  @Override
+  protected boolean parseMsg(String body, Data data) {
+    if (body.startsWith("ICOM/400 notification,")) body = body.substring(22).trim();
+    String[] flds = body.split("/");
+    if (flds.length < 3) return false;
+    return parseFields(flds, data);
+  }
+  
+  private class MyCallField extends CallField {
+    @Override
+    public void parse(String field, Data data) {
+      data.strCall = append(data.strCall, "/", field);
+    }
+  }
+  
+  private class MyMapField extends MapField {
+    public MyMapField() {
+      setPattern(Pattern.compile("\\d{4}[A-Z]?\\d\\d\\*?\\d\\d"));
+    }
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("CALL")) return new MyCallField();
+    if (name.equals("MAP")) return new MyMapField();
+    return super.getField(name);
+  }
   
   private static final String[] CITY_LIST = new String[]{
     "LINN COUNTY",
@@ -62,41 +104,4 @@ public class ORLinnCountyParser extends FieldProgramParser {
     "SHEDD",
     "SOUTH LEBANON"
   };
-  
-  public ORLinnCountyParser() {
-    super(CITY_LIST, "LINN COUNTY", "OR",
-           "CALL CALL!+? ADDR/SXP! X/Z? MAP! UNIT INFO");
-  }
-  
-  @Override
-  public String getFilter() {
-    return "linn911@le.linn.or.us";
-  }
-
-  @Override
-  protected boolean parseMsg(String body, Data data) {
-    String[] flds = body.split("/");
-    if (flds.length < 3) return false;
-    return parseFields(flds, data);
-  }
-  
-  private class MyCallField extends CallField {
-    @Override
-    public void parse(String field, Data data) {
-      data.strCall = append(data.strCall, "/", field);
-    }
-  }
-  
-  private class MyMapField extends MapField {
-    public MyMapField() {
-      setPattern(Pattern.compile("\\d+(?:[A-Z]\\d\\d)?(?:\\*\\d\\d)?"));
-    }
-  }
-  
-  @Override
-  public Field getField(String name) {
-    if (name.equals("CALL")) return new MyCallField();
-    if (name.equals("MAP")) return new MyMapField();
-    return super.getField(name);
-  }
 }
