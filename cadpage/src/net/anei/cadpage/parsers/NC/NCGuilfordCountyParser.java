@@ -39,11 +39,15 @@ FRM:dispatch@edispatches.com\nSUBJ:summerfieldfiredist Jun17-14:57\nMSG:summerfi
 Contact: Greg Creech <gcreech1551@gmail.com>
 CAD:UNDER CONTROL;878 CROSSCREEK RD; K ;. [27]
 
+Contact: Matt Young <myoung92939@gmail.com>
+Subject:summerfieldfiredist Aug06-16:44\nsummerfieldfiredist \nCAD:SMFD;ST09;1;31D02;UNCON;7912 SUMMERFIELD RD;FAIRGROVE BAPTIST CHURCH; 
+Subject:summerfieldfiredist Aug06-06:57\nsummerfieldfiredist \nCAD:OKRD;ST15;1;69D03;STRUC;8005 MARKETPLACE DR;TRACTOR SUPPLY CO;NC 68 N 
+
 */
 
 public class NCGuilfordCountyParser extends DispatchOSSIParser {
   
-  private static final Pattern MARKER = Pattern.compile("^([\\w@\\-\\.]+?)[\n:](?=CAD:)");
+  private static final Pattern MARKER = Pattern.compile("^([\\w@\\-\\.]+?) *[\n:](?=CAD:)");
   
   public NCGuilfordCountyParser() {
     super("GUILFORD COUNTY", "NC",
