@@ -62,7 +62,8 @@ public class NCBrunswickCountyParserTest extends BaseParserTest {
 
     doTest("T6",
         "426:BAY POINT CT-JENNIS AV FELICIA 9103685110 11-026412 21:07:25 Stab-Gun-Trauma AT THE END OF BAYPOINT RD MALE SUBJ IS CUT",
-        "ADDR:BAY POINT CT-JENNIS AV",
+        "PLACE:BAY POINT",
+        "ADDR:CT-JENNIS AV",
         "NAME:FELICIA",
         "PHONE:9103685110",
         "ID:11-026412",
@@ -106,8 +107,19 @@ public class NCBrunswickCountyParserTest extends BaseParserTest {
     
   }
   
+  @Test
+  public void testParser3() {
+
+    doTest("T1",
+        "2192:BRUNSWICK COVE NURSING HOME 1478 RIVER RD SE WINNABOW 11-062488 19:38:00 Falls",
+        "PLACE:BRUNSWICK COVE NURSING HOME",
+        "ADDR:1478 RIVER RD SE",
+        "CITY:WINNABOW",
+        "ID:11-062488",
+        "INFO:Falls");
+  }
 
   public static void main(String[] args) {
-    new NCBrunswickCountyParserTest().generateTests("T1", "ADDR CITY NAME PHONE CODE ID CALL INFO");
+    new NCBrunswickCountyParserTest().generateTests("T1", "PLACE ADDR CITY NAME PHONE CODE ID CALL INFO");
   }
 }
