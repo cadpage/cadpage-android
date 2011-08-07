@@ -189,9 +189,16 @@ public class ORLinnCountyParserTest extends BaseParserTest {
         "CITY:Sweet Home",
         "PLACE:TRAILER VILLA",
         "MAP:60632221");
+
+    doTest("T23",
+        "ICOM/400 notification,HOUSE FIRE/ 1173 W SHERMAN ST Lebanon/ 4142A3131/",
+        "CALL:HOUSE FIRE",
+        "ADDR:1173 W SHERMAN ST",
+        "CITY:Lebanon",
+        "MAP:4142A3131");
   }
   
   public static void main(String[] args) {
-    new ORLinnCountyParserTest().generateTests("T1");
+    new ORLinnCountyParserTest().generateTests("T23");
   }
 }
