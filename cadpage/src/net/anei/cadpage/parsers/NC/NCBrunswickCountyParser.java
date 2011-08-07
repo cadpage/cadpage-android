@@ -26,7 +26,6 @@ Contact: Christopher Grace Jr <cgracejr@gmail.com>
 Sender: lelandems+bncCOqwh4kZEO2g9_EEGgTkSK1X@googlegroups.com
 2192:BRUNSWICK COVE NURSING HOME 1478 RIVER RD SE WINNABOW 11-062488 19:38:00 Falls
 
-
 */
 
 public class NCBrunswickCountyParser extends DispatchSouthernParser {
