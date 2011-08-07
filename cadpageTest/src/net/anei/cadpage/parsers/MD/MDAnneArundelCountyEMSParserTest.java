@@ -267,10 +267,19 @@ public class MDAnneArundelCountyEMSParserTest extends BaseParserTest {
         "ADDR:254 PENDLETON CT",
         "X:WAYCROSS WAY",
         "UNIT:QNT23,PM17");
- }
+
+    doTest("T14",
+        "MEDICAL BOX 19-6 824 HOLLY DR E A19,PM17,TRO MVC; 1808 PM2 [3/25]\n",
+        "BOX:19-6",
+        "CALL:MVC",
+        "ADDR:824 HOLLY DR E",
+        "UNIT:A19,PM17,TRO");
+    
+  }
+
 
   public static void main(String[] args) {
-    new MDAnneArundelCountyEMSParserTest().generateTests("T1", "BOX CALL ADDR APT PLACE X UNIT INFO");
+    new MDAnneArundelCountyEMSParserTest().generateTests("T14", "BOX CALL ADDR APT PLACE X UNIT INFO");
   }
   
 }

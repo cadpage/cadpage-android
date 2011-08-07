@@ -146,10 +146,19 @@ public class PAErieCountyParserTest extends BaseParserTest {
         "ERIE911:SAMPSON RD NOW OPEN......",
         "CALL:GENRAL ALERT",
         "PLACE:SAMPSON RD NOW OPEN......");
+
+    doTest("T16",
+        "ERIE911:32B1 >UNKNOWN PROBLEM 10793 ETTER RD XS: LAKE PLEASANT RD GREENE TWP DUSILA,CANDY Map:277 Grids:, Cad: 2011-0000090035",
+        "CALL:UNKNOWN PROBLEM",
+        "ADDR:10793 ETTER RD",
+        "X:LAKE PLEASANT RD",
+        "NAME:GREENE TWP DUSILA,CANDY",
+        "MAP:277",
+        "ID:2011-0000090035");
  
   }
   
   public static void main(String[] args) {
-    new PAErieCountyParserTest().generateTests("T13", "CALL ADDR X NAME MAP PLACE ID");
+    new PAErieCountyParserTest().generateTests("T16", "CALL ADDR X NAME MAP PLACE ID");
   }
 }
