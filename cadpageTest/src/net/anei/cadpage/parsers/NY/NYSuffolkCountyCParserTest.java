@@ -330,12 +330,19 @@ public class NYSuffolkCountyCParserTest extends BaseParserTest {
         "CITY:Hampton Bays",
         "X:Road I",
         "PLACE:Ponquogue Beach Pavillion");
-    
+
+    doTest("T3",
+        "Ambulance Call, Unconscious / Syncope: 63 YOM UNC... at 500 PECONIC STREET #335A  c/s: LOUIS KOSSUTH AVENUE . . 15:23:11",
+        "CALL:Ambulance Call, Unconscious / Syncope",
+        "INFO:63 YOM UNC...",
+        "ADDR:500 PECONIC STREET",
+        "X:LOUIS KOSSUTH AVENUE");
+  
   }
   
   
   public static void main(String[] args) {
-    new NYSuffolkCountyCParserTest().generateTests("T1", "CALL INFO ADDR CITY X PLACE INFO");
+    new NYSuffolkCountyCParserTest().generateTests("T3", "CALL INFO ADDR CITY X PLACE");
   }
 
 }
