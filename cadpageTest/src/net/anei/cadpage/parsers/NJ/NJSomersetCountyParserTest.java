@@ -127,7 +127,7 @@ public class NJSomersetCountyParserTest extends BaseParserTest {
         "ID:11084928",
         "CALL:SMOKE CONDITION:",
         "CITY:MONTGOMERY TWP",
-        "ADDR:952 COUNTY ROUTE 518 HWY");
+        "ADDR:952 CO 518");
 
     doTest("T4",
         "GRG-FD:11088457:08/02/2011 15:39:21:MV FIRE:SMOKE ONLY: FRANKLI-12 BARBIERI CT",
@@ -184,12 +184,20 @@ public class NJSomersetCountyParserTest extends BaseParserTest {
         "ID:11090292",
         "CALL:FIRE ALARM:GENERAL:",
         "CITY:FRANKLIN TWP",
-        "ADDR:3333 STATE HWY NO 27 HWY");
+        "ADDR:3333 ST 27");
+
+    doTest("T11",
+        "GRG-FD:11079916:07/14/2011 17:36:09:MVC:V POLE: FRANKLI-BUTLER ROAD & S MIDDLEBUSH ROAD",
+        "SRC:GRG-FD",
+        "ID:11079916",
+        "CALL:MVC:V POLE:",
+        "CITY:FRANKLIN TWP",
+        "ADDR:BUTLER ROAD & S MIDDLEBUSH ROAD");
    
   }
   
   
   public static void main(String[] args) {
-    new NJSomersetCountyParserTest().generateTests("T1", "SRC ID CALL CITY PLACE ADDR");
+    new NJSomersetCountyParserTest().generateTests("T11", "SRC ID CALL CITY PLACE ADDR");
   }
 }

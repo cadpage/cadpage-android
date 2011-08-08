@@ -141,9 +141,37 @@ public class NCJohnstonCountyParserTest extends BaseParserTest {
         "ADDR:3800-B US 701 HWY S",
         "X:STEWART RD & PEACH ORCHARD RD",
         "NAME:BENSON AREA MEDICAL CENTER INC");
+
+    doTest("T23",
+        "CAD:OPS;STA6;26C01;SUDDEN ILLNESS;565 BOYETTE RD;(S)FOUR OAKS ASSISTED LIVING (N);KEEN RD;US 301 HWY S;OAKVIEW COMMONS;OAKVIEW",
+        "INFO:OPS",
+        "SRC:STA6",
+        "CODE:26C01",
+        "CALL:SUDDEN ILLNESS",
+        "ADDR:565 BOYETTE RD",
+        "X:(S)FOUR OAKS ASSISTED LIVING (N) & KEEN RD",
+        "NAME:US 301 HWY S");
+
+    doTest("T24",
+        "CAD:OPS;STA6;DIFFICULTY BREATHING;200 E WELLONS ST;S BAKER ST;BROWN ST;KINGS RESTAURANT;03/29/2011 02:33:20;EMS62",
+        "INFO:OPS",
+        "SRC:STA6",
+        "CALL:DIFFICULTY BREATHING",
+        "ADDR:200 E WELLONS ST",
+        "X:S BAKER ST & BROWN ST",
+        "NAME:KINGS RESTAURANT");
+
+    doTest("T25",
+        "CAD:CLD;06D02;DIFF BREATHING 06-D-02;77 CARRIAGE CREEK DR;(S)CARRIAGE CREEK (N);STEEP HILL CT;BRADLEY, EDWARD;08/07/2011 20:15:39;CLDR1",
+        "INFO:CLD",
+        "SRC:06D02",
+        "CALL:DIFF BREATHING 06-D-02",
+        "ADDR:77 CARRIAGE CREEK DR",
+        "X:(S)CARRIAGE CREEK (N) & STEEP HILL CT",
+        "NAME:BRADLEY, EDWARD");
   }
   
   public static void main(String[] args) {
-    new NCJohnstonCountyParserTest().generateTests("T20");
+    new NCJohnstonCountyParserTest().generateTests("T25");
   }
 }
