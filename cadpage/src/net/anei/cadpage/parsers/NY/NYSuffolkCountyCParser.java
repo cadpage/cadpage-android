@@ -74,6 +74,9 @@ Contact: paging@alpinesoftware.com
 Ambulance Call: mva 1 injury at 338 West Montauk Highway, Hampton Bays  c/s: Bess Lane . . 13:45:27
 Ambulance Call: a/m inj fall main lifeguard stand at 280 Dune Road, Hampton Bays  c/s: Road I   O: Ponquogue Beach Pavillion . . 13:04:55
 
+Contact: kathleen clifford <kcnnp20@gmail.com>
+Sender: lakelandfd@rednmxcad.com
+Ambulance Call, Unconscious / Syncope: 63 YOM UNC... at 500 PECONIC STREET #335A  c/s: LOUIS KOSSUTH AVENUE . . 15:23:11 
 
 */
 
@@ -85,6 +88,6 @@ public class NYSuffolkCountyCParser extends DispatchRedAlertParser {
 
   @Override
   public String getFilter() {
-    return "paging@alpinesoftware.com";
+    return "paging@alpinesoftware.com,lakelandfd@rednmxcad.com";
   }
 }
