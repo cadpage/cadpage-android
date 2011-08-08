@@ -35,7 +35,7 @@ public class PABeaverCountyParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "bc911cad@beavercountypa.gov";
+    return "bc911cad@beavercountypa.gov,Beaver County 911";
   }
 
   @Override

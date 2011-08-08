@@ -25,6 +25,7 @@ Sender: rc.502@c-msg.net
 [CAD]  [CAD] EFD-FD:11053657:05/18/2011 13:30:59:STOVE/OVEN/FOOD: FRANKLI-138 ELLEN ST
 
 Contact: Dan Ungar <danungar@gmail.com>
+Sender: @co.somerset.nj.us.
 MGT-FD:11084743:07/25/2011 10:51:36:FIRE ALARM:ZONE/ GENERAL: MONTGOM-MONTGOMERY EVANGELICAL CHURCH / 246 BELLE MEAD GRIGGSTOWN ROAD
 GRG-FD:11087510:07/31/2011 13:19:31:FIRE ALARM:GENERAL: FRANKLI-GRIGGSTOWN GROUP HOME / 7 HONEYMAN ST
 MGT-FD:11084928:07/25/2011 17:32:48:SMOKE CONDITION: MONTGOM-952 COUNTY ROUTE 518 HWY
@@ -35,6 +36,7 @@ GRG-FD:11089016:08/03/2011 17:54:34:FIRE ALARM:FIRST FL SMK DECTOR: FRANKLI-46 S
 MGT-FD:11089091:08/03/2011 21:11:26:FIRE ALARM:ZONE / 363: MONTGOM-STONEBRIDGE AT MONTGOMERY / 100 HOLLINSHEAD SPRING ROAD
 GRG-FD:11090214:08/06/2011 16:56:13:FIRE ALARM:SMOKE DETECTOR: FRANKLI-27 KIRBY LANE
 GRG-FD:11090292:08/06/2011 21:34:50:FIRE ALARM:GENERAL: FRANKLI-3333 STATE HWY NO 27 HWY
+GRG-FD:11079916:07/14/2011 17:36:09:MVC:V POLE: FRANKLI-BUTLER ROAD & S MIDDLEBUSH ROAD
 
 */
 
@@ -43,10 +45,15 @@ public class NJSomersetCountyParser extends SmsMsgParser {
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "FRANKLI", "FRANKLIN TWP",
       "MONTGOM", "MONTGOMERY TWP",
+      "HOPEWEL", "HOPEWELL TWP",
+      "HILLSBO", "HILLSBOROUGH TWP",
+      "PRINCET", "PRINCETON TWP",
+      "SOUTH B", "SOUTH BRUNSWICK"
   });
   
   private static final Pattern MARKER = Pattern.compile("^([^ ]+):(\\d{8}):\\d\\d/\\d\\d/\\d\\d\\d\\d \\d\\d:\\d\\d:\\d\\d:");
   private static final Pattern MASTER = Pattern.compile("(.*) ([A-Z]+)-(?! )(?:(.*) / +)?([^\\(]*)(?:\\((.*)\\))?");
+  private static final Pattern ROUTE_HWY_PTN = Pattern.compile("\\b(STATE|COUNTY|US) (?:ROUTE|ROAD|HWY)(?: NO)? (\\d+)(?: HWY)?\\b");
   
   public NJSomersetCountyParser() {
     super("SOMERSET COUNTY", "NJ");
@@ -72,8 +79,16 @@ public class NJSomersetCountyParser extends SmsMsgParser {
     data.strCity = convertCodes(match.group(2), CITY_CODES);
     data.strPlace = null2empty(match.group(3));
     String sAddr = match.group(4).trim();
-    parseAddress(sAddr, data);
     data.strSupp = null2empty(match.group(5));
+    
+    match = ROUTE_HWY_PTN.matcher(sAddr);
+    if (match.find()) {
+      sAddr = sAddr.substring(0,match.start()) +
+              match.group(1).substring(0,2) + " " + match.group(2) +
+              sAddr.substring(match.end());
+    }
+    parseAddress(sAddr, data);
+    data.strAddress = ROUTE_HWY_PTN.matcher(data.strAddress).replaceFirst("$1 $2");
     return true;
   }
 
