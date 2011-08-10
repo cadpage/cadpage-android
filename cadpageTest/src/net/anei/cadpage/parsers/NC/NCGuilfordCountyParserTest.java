@@ -190,10 +190,19 @@ public class NCGuilfordCountyParserTest extends BaseParserTest {
         "CALL:STRUC",
         "X:NC 68 N");
 
+    doTest("T23",
+        "Subject:summerfieldfiredist Aug08-11:36\nsummerfieldfiredist \nCAD:SMFD;ST39;1;19D01;HEART;1007 NC 150 W;SPEAR CLINIC;LAKE BRANDT RD;ROO",
+        "SRC:summerfieldfiredist",
+        "ADDR:1007 NC 150 W",
+        "INFO:SMFD / ST39 / 1 / SPEAR CLINIC / ROO",
+        "CODE:19D01",
+        "CALL:HEART",
+        "X:LAKE BRANDT RD");
+
   }
   
 
   public static void main(String[] args) {
-    new NCGuilfordCountyParserTest().generateTests("T21");
+    new NCGuilfordCountyParserTest().generateTests("T23");
   }
 }
