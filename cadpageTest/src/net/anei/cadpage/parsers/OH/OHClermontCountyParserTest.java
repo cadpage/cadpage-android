@@ -12,6 +12,12 @@ public class OHClermontCountyParserTest extends BaseParserTest {
   }
   
   @Test
+  public void testBad() {
+    doBadTest("EVENT: FSTRUC LOC:966 E LEGENDARY RUN Cad: 2011-0000069848 DSP >20:41 Case: 0000000534 Disp: ER >20:43 FG6 CLR >20:49");
+    doBadTest("  / EVENT: 09E01 LOC:1286 PEBBLE BROOKE TRL Cad: 2011-0000055550 DSP >13:22 ER >13:24 CLR >13:26\n");
+  }
+  
+  @Test
   public void testParser() {
 
     doTest("T1",
