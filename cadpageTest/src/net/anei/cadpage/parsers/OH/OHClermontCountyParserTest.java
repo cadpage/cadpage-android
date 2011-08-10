@@ -76,6 +76,15 @@ public class OHClermontCountyParserTest extends BaseParserTest {
         "CITY:BETHEL",
         "NAME:JEFF W / RUMPKE",
         "ID:2011-0000017232");
+
+    doTest("T8",
+        "FSTRUC>STRUCTURE FIRE 966 E LEGENDARY RUN XS: ABERDEEN RIDGE PIERCE TOWNSHIP HANSBAUER,DAVID & LINDA Map: Grids:, Cad: 2011-0000069848",
+        "CALL:STRUCTURE FIRE",
+        "ADDR:966 E LEGENDARY RUN",
+        "X:ABERDEEN RIDGE",
+        "CITY:PIERCE TOWNSHIP",
+        "NAME:HANSBAUER,DAVID & LINDA",
+        "ID:2011-0000069848");
      
   }
   
