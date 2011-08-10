@@ -1,5 +1,6 @@
 package net.anei.cadpage.parsers.OH;
 
+import net.anei.cadpage.SmsMsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchBParser;
 
 /*
@@ -22,6 +23,15 @@ FWIRES>WIRES DOWN E OSBORNE ST&N EAST ST XS: N EAST ST BETHEL JEFF W/RUMPKE Cad:
 Contact: "Thiele, Harold" <Harold.Thiele@miamitwpoh.gov>
 EVENT: FSMOKE LOC:3465 SR 774 Cad: 2011-0000017023 DSP >12:31 Case: 0000000206 Disp: ER >12:33 CLR >12:42
   / EVENT: 09E01 LOC:1286 PEBBLE BROOKE TRL Cad: 2011-0000055550 DSP >13:22 ER >13:24 CLR >13:26\n
+
+Contact: Ryan Payer <ryan.payer3@gmail.com>
+EVENT: FSTRUC LOC:966 E LEGENDARY RUN Cad: 2011-0000069848 ER >20:53 CLR >20:56 OS >20:56 CLR >21:31
+EVENT: FSTRUC LOC:943 GRAND CYPRESS CT Cad: 2011-0000069840 DSP >20:34 Case: 0000000605 Disp: ER >20:37 ER >20:37 FG3 OS >20:40 SINGLE STORY NSH COMMAN
+EVENT: FSTRUC LOC:966 E LEGENDARY RUN Cad: 2011-0000069848 ER >20:53 CLR >20:56
+EVENT: FSTRUC LOC:943 GRAND CYPRESS CT Cad: 2011-0000069840 DSP >20:34 Case: 0000000533 Disp: ER >20:38 CLR >20:53
+EVENT: FSTRUC LOC:966 E LEGENDARY RUN Cad: 2011-0000069848 DSP >20:41 Case: 0000000534 Disp: ER >20:43 FG6 CLR >20:49
+FSTRUC>STRUCTURE FIRE 966 E LEGENDARY RUN XS: ABERDEEN RIDGE PIERCE TOWNSHIP HANSBAUER,DAVID & LINDA Map: Grids:, Cad: 2011-0000069848
+
 
 */
 
@@ -55,9 +65,15 @@ public class OHClermontCountyParser extends DispatchBParser {
   public String getFilter() {
     return "911-center@co.clermont.oh.us";
   }
+  
+  @Override
+  public boolean parseMsg(String body, Data data) {
+    if (body.startsWith("/ ")) body = body.substring(2).trim();
+    return super.parseMsg(body, data);
+  }
 
   @Override
   protected boolean isPageMsg(String body) {
-    return body.contains(" Cad:");
+    return body.contains(" Cad:") && !body.startsWith("EVENT: ");
   }
 }
