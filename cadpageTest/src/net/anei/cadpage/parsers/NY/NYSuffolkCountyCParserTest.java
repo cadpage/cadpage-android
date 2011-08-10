@@ -15,6 +15,7 @@ public class NYSuffolkCountyCParserTest extends BaseParserTest {
   @Test
   public void testNotPage() {
     doBadTest("I'm at the store");
+    doBadTest("I'm at a meeting right now. . .");
   }
   
   @Test
@@ -336,6 +337,7 @@ public class NYSuffolkCountyCParserTest extends BaseParserTest {
         "CALL:Ambulance Call, Unconscious / Syncope",
         "INFO:63 YOM UNC...",
         "ADDR:500 PECONIC STREET",
+        "APT:335A",
         "X:LOUIS KOSSUTH AVENUE");
   
   }

@@ -125,10 +125,21 @@ public class TXHarrisCountyESD1BParserTest extends BaseParserTest {
         "ADDR:E BW 8 N & WOODFOREST BW 8 NB",
         "MAP:457Y",
         "BOX:2005");
+
+
+    doTest("T9",
+        "ID#:11-08-26006 - - Citizen Assist - 5500 E Bw 8 N - Apt: - Bldg: big tex storage - Key Map: 457Y - Cross Streets:BW 8 NB WALLISVILLE EXIT RAMP/ - Box #:2005",
+        "ID:11-08-26006",
+        "CALL:Citizen Assist",
+        "ADDR:5500 E Bw 8 N",
+        "APT:big tex storage",
+        "MAP:457Y",
+        "X:BW 8 NB WALLISVILLE EXIT RAMP/",
+        "BOX:2005");
   }
 
   public static void main(String[] args) {
-    new TXHarrisCountyESD1BParserTest().generateTests("T1");
+    new TXHarrisCountyESD1BParserTest().generateTests("T9");
   }
 
 }
