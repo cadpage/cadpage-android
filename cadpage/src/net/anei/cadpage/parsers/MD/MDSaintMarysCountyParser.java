@@ -89,6 +89,12 @@ System: Pro QA Medical & Pro QA Fire
 ((22502) CAD ) 05:56:37*Breathing Difficulties*18360 THREE NOTCH RD*TOMS WY*ST JAMES*CO39*80 year old, Male, Conscious, Breathing.*
 ((34827) CAD ) 07:20:02*Falls/Traumatic*22518 ARMSWORTHY CT*CUL DE SAC*SAN SOUCI*ST38*84 year old, Female, Conscious, Breathing.*
 
+
+((14717) CAD ) 20:21:08*Commercial Building Fire*22026 OXFORD CT APTB8*GLOUCESTER CT*LEXINGTON PARK*CO3 TK3 CO13 CO9 TWR9 CO6 ST39*9.No one is trapped in
+((14833) CAD ) 20:21:08*Commercial Building Fire*22026 OXFORD CT APTB8*GLOUCESTER CT*LEXINGTON PARK*CO3 TK3 CO13 CO9 TWR9 CO6 ST39*9.No one is trapped in
+((15045) CAD ) 20:21:08*Commercial Building Fire*22026 OXFORD CT APTB8*GLOUCESTER CT*LEXINGTON PARK*CO3 TK3 CO13 CO9 TWR9 CO6 ST39*9.No one is trapped in
+
+
  */
 
 
