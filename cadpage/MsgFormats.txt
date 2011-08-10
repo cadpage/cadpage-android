@@ -2823,18 +2823,6 @@ Contact: fireman <fireman@rushmore.com>
 Sender: dispatch@co.pennington.sd.us
 (Page ) ANYONE AVAILABLE FOR STN 3 BACKFILL CALL THE CHIEF
 **********************************************************
-Henry County, GA
-Contact: Stan Jones <sjones@co.henry.ga.us>
-2011-07-19 05:23:04 "D. HUTCHINSON F.D." ** VEHICLE FIRE/416 KIRKLAND DR/COLLINSWOOD S/D/./113F/04:29:42/ 
-2011-07-19 04:30:07 E-2 ** VEHICLE FIRE/416 KIRKLAND DR/COLLINSWOOD S/D/E2/04:29:42/ 
-2011-07-18 23:47:50 "HENRY COUNTY FIRE DEPT CHIEFS" ** i have 2  rescues going to a MVC at racetrac rd / s zach hinton jfree 
-2011-07-18 23:46:05 R-1 ** AUTO ACCIDENT WITH INJURIES/177 RACETRACK RD INTERSECTN/./R1/23:43:09/ 
-2011-07-18 23:43:40 "MCD POLICE CHIEFS" ** AUTO ACCIDENT WITH INJURIES/177 RACETRACK RD INTERSECTN/c/s at intersection/2129/23:43:09/ 
-2011-07-18 23:43:38 "HENRY COUNTY FIRE DEPT CHIEFS" ** AUTO ACCIDENT WITH INJURIES/177 RACETRACK RD INTERSECTN/c/s at intersection/E51/23:43:09/ 
-2011-07-18 23:43:38 "MCFD 51 STATION FD" ** AUTO ACCIDENT WITH INJURIES/177 RACETRACK RD INTERSECTN/c/s at intersection/E51/23:43:09/ 
-2011-07-18 23:43:36 "HENRY COUNTY FIRE DEPT CHIEFS" ** AUTO ACCIDENT WITH INJURIES/177 RACETRACK RD INTERSECTN/c/s at intersection/R7/23:43:09/ 
-2011-07-18 23:43:35 R-7 ** AUTO ACCIDENT WITH INJURIES/177 RACETRACK RD INTERSECTN/c/s at intersection/R7/23:43:09/ 
-**********************************************************
 **********************************************************
 ************  READY TO ROLL ******************************
 **********************************************************
@@ -3204,6 +3192,18 @@ To : <9404656680@vtext.com>
 
 11072508*1077 N GARDEN RIDGE BLVD*****FIRE****B160,CHIEF,E163,E164,M163,Q162,T167
 
+**********************************************************
+Henry County, GA
+Contact: Stan Jones <sjones@co.henry.ga.us>
+2011-07-19 05:23:04 "D. HUTCHINSON F.D." ** VEHICLE FIRE/416 KIRKLAND DR/COLLINSWOOD S/D/./113F/04:29:42/ 
+2011-07-19 04:30:07 E-2 ** VEHICLE FIRE/416 KIRKLAND DR/COLLINSWOOD S/D/E2/04:29:42/ 
+2011-07-18 23:47:50 "HENRY COUNTY FIRE DEPT CHIEFS" ** i have 2  rescues going to a MVC at racetrac rd / s zach hinton jfree 
+2011-07-18 23:46:05 R-1 ** AUTO ACCIDENT WITH INJURIES/177 RACETRACK RD INTERSECTN/./R1/23:43:09/ 
+2011-07-18 23:43:40 "MCD POLICE CHIEFS" ** AUTO ACCIDENT WITH INJURIES/177 RACETRACK RD INTERSECTN/c/s at intersection/2129/23:43:09/ 
+2011-07-18 23:43:38 "HENRY COUNTY FIRE DEPT CHIEFS" ** AUTO ACCIDENT WITH INJURIES/177 RACETRACK RD INTERSECTN/c/s at intersection/E51/23:43:09/ 
+2011-07-18 23:43:38 "MCFD 51 STATION FD" ** AUTO ACCIDENT WITH INJURIES/177 RACETRACK RD INTERSECTN/c/s at intersection/E51/23:43:09/ 
+2011-07-18 23:43:36 "HENRY COUNTY FIRE DEPT CHIEFS" ** AUTO ACCIDENT WITH INJURIES/177 RACETRACK RD INTERSECTN/c/s at intersection/R7/23:43:09/ 
+2011-07-18 23:43:35 R-7 ** AUTO ACCIDENT WITH INJURIES/177 RACETRACK RD INTERSECTN/c/s at intersection/R7/23:43:09/ 
 **********************************************************
 **********************************************************
 **********************************************************

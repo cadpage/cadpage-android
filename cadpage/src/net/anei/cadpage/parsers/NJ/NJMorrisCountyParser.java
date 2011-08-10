@@ -52,7 +52,7 @@ public class NJMorrisCountyParser extends SmsMsgParser {
   
   @Override
   public String getFilter() {
-    return "Dispatch@co.morris.nj.us";
+    return "Dispatch@co.morris.nj.us,mcdispatch@optimum.net";
   }
   
   @Override
