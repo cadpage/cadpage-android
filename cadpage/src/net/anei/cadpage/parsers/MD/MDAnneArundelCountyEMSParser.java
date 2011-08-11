@@ -53,6 +53,9 @@ Contact: Randy Hopkins <firemann172@yahoo.com>
 MEDICAL BOX 19-6 824 HOLLY DR E A19,PM17,TRO MVC; 1808 PM2 [3/25]\n
 MEDICAL Box 17-4 1220 VIKING DR N E171,PM17 CHEST PAIN; 1834 PM1 Y>HHC,HHC R>UoM,UoM [3/30]\n
 
+Contact; Michael Greenhawk <mgreenhawk@gmail.com>
+Medical Box 17-18 2156 MULBERRY HILL RD A19 SICK PERSON; 1549 A Y>UoM [10/29]
+
  */
 
 public class MDAnneArundelCountyEMSParser extends SmartAddressParser {

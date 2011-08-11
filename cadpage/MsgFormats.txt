@@ -1581,6 +1581,29 @@ Talk Group: T17
 City: WCWD 
 Comments: **SEIZURES**
 ON THE EB, PASSED THE EXIT, IN THE MEDIAN, PT IS INSIDE A GRY NISSAN
+**********************************************************
+HOLD - Page only
+Arlington County, VA
+Contact: Andrew Durham <ajd601@gmail.com>
+ARLINGTON CAD
+E110M
+7560,21086,ALS-CHESTPAINS,1 S ROTARY RD,M105 M110 E110M.
+
+ARLINGTON CAD
+E110M
+7002,21063,ALS-HEARTACCACK,1530 KEYBL, E110M EM112 M110.
+
+ARLINGTON CAD
+E110M
+7002,21047,PUBLICSERVICE,1559 WILSONBL, E110M.CH 1B
+
+ARLINGTON CAD
+E110
+7001,21034,ALS-TRBLBRETHN,N QUEEN ST/N QUINN ST, E110 M104.CH 1B
+
+ARLINGTON CAD
+E110
+7003,21033,ALS-STROKE,1320 N VEITCH ST,E110 M110.CH 1B
 ***************************************************************************
 ***************************************************************************
 ***************************************************************************
@@ -3206,28 +3229,6 @@ Contact: Stan Jones <sjones@co.henry.ga.us>
 2011-07-18 23:43:38 "MCFD 51 STATION FD" ** AUTO ACCIDENT WITH INJURIES/177 RACETRACK RD INTERSECTN/c/s at intersection/E51/23:43:09/ 
 2011-07-18 23:43:36 "HENRY COUNTY FIRE DEPT CHIEFS" ** AUTO ACCIDENT WITH INJURIES/177 RACETRACK RD INTERSECTN/c/s at intersection/R7/23:43:09/ 
 2011-07-18 23:43:35 R-7 ** AUTO ACCIDENT WITH INJURIES/177 RACETRACK RD INTERSECTN/c/s at intersection/R7/23:43:09/ 
-**********************************************************
-Arlington County, VA
-Contact: Andrew Durham <ajd601@gmail.com>
-ARLINGTON CAD
-E110M
-7560,21086,ALS-CHESTPAINS,1 S ROTARY RD,M105 M110 E110M.
-
-ARLINGTON CAD
-E110M
-7002,21063,ALS-HEARTACCACK,1530 KEYBL, E110M EM112 M110.
-
-ARLINGTON CAD
-E110M
-7002,21047,PUBLICSERVICE,1559 WILSONBL, E110M.CH 1B
-
-ARLINGTON CAD
-E110
-7001,21034,ALS-TRBLBRETHN,N QUEEN ST/N QUINN ST, E110 M104.CH 1B
-
-ARLINGTON CAD
-E110
-7003,21033,ALS-STROKE,1320 N VEITCH ST,E110 M110.CH 1B
 **********************************************************
 **********************************************************
 **********************************************************

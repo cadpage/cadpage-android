@@ -251,12 +251,14 @@ public class SmsMsgInfo {
   private static final Pattern STH_PTN = Pattern.compile("\\bSTH\\b");
   private static final Pattern PK_PTN = Pattern.compile("\\bPK\\b");
   private static final Pattern PW_PTN = Pattern.compile("\\bPW\\b");
+  private static final Pattern CI_PTN = Pattern.compile("\\bCI\\b");
   private String cleanStreetSuffix(String sAddr) {
     sAddr = AV_PTN.matcher(sAddr).replaceAll("AVE");
     sAddr = HW_PTN.matcher(sAddr).replaceAll("HWY");
     sAddr = STH_PTN.matcher(sAddr).replaceAll("ST");
     sAddr = PK_PTN.matcher(sAddr).replaceAll("PIKE");
     sAddr = PW_PTN.matcher(sAddr).replaceAll("PKWY");
+    sAddr = CI_PTN.matcher(sAddr).replaceAll("CIR");
     return sAddr;
   }
 
