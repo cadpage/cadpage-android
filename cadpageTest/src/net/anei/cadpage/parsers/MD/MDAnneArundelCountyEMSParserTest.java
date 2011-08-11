@@ -312,12 +312,21 @@ public class MDAnneArundelCountyEMSParserTest extends BaseParserTest {
         "UNIT:E171,PM17",
         "ID:1834",
         "INFO:PM1 Y>HHC,HHC R>UoM,UoM");
+
+    doTest("T15",
+        "Medical Box 17-18 2156 MULBERRY HILL RD A19 SICK PERSON; 1549 A Y>UoM [10/29]",
+        "BOX:17-18",
+        "CALL:SICK PERSON",
+        "ADDR:2156 MULBERRY HILL RD",
+        "UNIT:A19",
+        "ID:1549",
+        "INFO:A Y>UoM");
     
   }
 
 
   public static void main(String[] args) {
-    new MDAnneArundelCountyEMSParserTest().generateTests("T14", "BOX CALL ADDR APT PLACE X UNIT ID INFO");
+    new MDAnneArundelCountyEMSParserTest().generateTests("T15", "BOX CALL ADDR APT PLACE X UNIT ID INFO");
   }
   
 }

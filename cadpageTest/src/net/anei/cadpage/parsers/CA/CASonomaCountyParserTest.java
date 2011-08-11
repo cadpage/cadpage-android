@@ -77,6 +77,15 @@ public class CASonomaCountyParserTest extends BaseParserTest {
         "NAME:JOEY",
         "PHONE:(707) 391-8596",
         "INFO:Ev");
+
+    doTest("T8",
+        "Loc: 311 BELHAVEN CI SR BOX: 2955 C3 TYP: STRU CN: COUGHLAN JAQUELINE C#: (707) 538-7881 TYPE CODE: STRU CALLER NAME: COUGHLAN JAQUELINE CALLER ADDR: 311 BE",
+        "ADDR:311 BELHAVEN CI",
+        "SRC:SR",
+        "BOX:2955 C3",
+        "CALL:STRU",
+        "NAME:COUGHLAN JAQUELINE",
+        "PHONE:(707) 538-7881");
         
   }
   
@@ -153,6 +162,6 @@ public class CASonomaCountyParserTest extends BaseParserTest {
   }
   
   public static void main(String[] args) {
-    new CASonomaCountyParserTest().generateTests("T6");
+    new CASonomaCountyParserTest().generateTests("T8");
   }
 }
