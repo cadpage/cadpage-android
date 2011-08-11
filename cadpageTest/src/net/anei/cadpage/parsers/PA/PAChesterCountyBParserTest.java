@@ -148,9 +148,18 @@ public class PAChesterCountyBParserTest extends BaseParserTest {
         "X:HOLLY DR & OAK LA",
         "INFO:80/F--FELL FROM STANDING--LIFT ASSISTANCE",
         "CITY:KENNETT TWP");
+
+    doTest("T9",
+        "(Messenger 911) BALARMM\n122 JENNERS POND RD - LUTHER HOUSE 2\nGREENBRIAR LA & ALLYSSA LA\nPENN\nGEN MEDICAL - \"NURSE CALL\" - ANSWERING MACHINE ON PREMISE\n23:25",
+        "CALL:BALARMM",
+        "ADDR:122 JENNERS POND RD",
+        "X:GREENBRIAR LA & ALLYSSA LA",
+        "PLACE:LUTHER HOUSE 2",
+        "CITY:PENN TWP",
+        "INFO:GEN MEDICAL - \"NURSE CALL\" - ANSWERING MACHINE ON PREMISE");
  }
   
   public static void main(String[] args) {
-    new PAChesterCountyBParserTest().generateTests("T8");
+    new PAChesterCountyBParserTest().generateTests("T9");
   }
 }

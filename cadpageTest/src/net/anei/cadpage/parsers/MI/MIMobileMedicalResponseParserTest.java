@@ -110,6 +110,13 @@ public class MIMobileMedicalResponseParserTest extends BaseParserTest {
         "CALL:P-7 Long Distance",
         "APT:1",
         "INFO:Int-Overdose / Poisoning (Ingestion) / EXTRAS: NONE... DECONDITIONING... / PT READY / PCS RE");
+
+    doTest("T14",
+        "(<CAD> - part 1 of 1) Run# 55683/ 508 N MONROE ST/ P-3 Downgrade (No Lts/Sirens)/ Sick Person (Specific Diagnosis)/ 19/f/ ALS/ BAY CITY/ 1900 COLUMBUS A",
+        "ID:55683",
+        "ADDR:508 N MONROE ST",
+        "CALL:P-3 Downgrade (No Lts/Sirens)",
+        "INFO:Sick Person (Specific Diagnosis) / 19 / f / ALS / BAY CITY / 1900 COLUMBUS A");
 }
   
   public static void main(String[] args) {
