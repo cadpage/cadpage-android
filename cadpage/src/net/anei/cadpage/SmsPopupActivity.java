@@ -215,9 +215,6 @@ public class SmsPopupActivity extends Activity {
 
     public void onClick(View v) {
       
-      // Any button clears the notice
-      ManageNotification.clear(getApplicationContext());
-      
       // Perform the requested action
       message.menuItemSelected(SmsPopupActivity.this, itemId, true);
       

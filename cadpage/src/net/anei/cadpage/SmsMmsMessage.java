@@ -753,6 +753,10 @@ public class SmsMmsMessage implements Serializable {
    * @return true if menu item processed, false otherwise
    */
   public boolean menuItemSelected(Activity context, int itemId, boolean display) {
+    
+    // Any button clears the notice
+    ManageNotification.clear(context);
+
     switch (itemId) {
     case R.id.open_item:
       SmsPopupActivity.launchActivity(context, this);
