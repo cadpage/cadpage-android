@@ -484,9 +484,7 @@ public class FieldProgramParser extends SmartAddressParser {
         Step branchTail = branchHead.split();
         
         //  Next break the field term up into the different conditional branches
-        String term = fieldTerms[ndx];
-        term = term.substring(1, term.length()-1);
-        String[] branchTerms = term.split("\\|");
+        String[] branchTerms = splitBranches(fieldTerms[ndx]);
         
         // Loop through each of the optional branches
         int cnt = 0;
@@ -580,6 +578,28 @@ public class FieldProgramParser extends SmartAddressParser {
     }
     
     return tokenList.toArray(new String[tokenList.size()]);
+  }
+  
+  /**
+   * Split a conditional branch program into component branches
+   * @param program conditional branch probram
+   * @return array of conditional branch components
+   */
+  private static String[] splitBranches(String program) {
+    
+    List<String> branches = new ArrayList<String>();
+    int st = 1;
+    int lev = 0;
+    for (int pt = 1; pt<program.length(); pt++) {
+      char chr = program.charAt(pt);
+      if ((chr == '|' && lev == 0) || pt == program.length()-1) {
+        branches.add(program.substring(st, pt).trim());
+        st = pt+1;
+      } else if (chr == '(') lev++;
+      else if (chr == ')') lev--;
+    }
+    if (lev != 0) throw new RuntimeException("Mismatched () in branch token: " + program);
+    return branches.toArray(new String[branches.size()]);
   }
   
   /**
