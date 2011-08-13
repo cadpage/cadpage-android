@@ -2682,33 +2682,6 @@ Lycoming County, PA
 Contact: "Justin Chenault" <chenaujl@gmail.com>
 (CAD Page for CFS 071111-29) Mon Jul 11 2011 08:39 MED\nE CANT WALK\n3891 W 4TH ST\nWOO\nApt: \nCross Streets : PALMER INDUSTRIAL RD * ANTLERS LN
 **********************************************************
-Flathead County, MT
-Contact: Tristan Peterson <twpetetson72@gmail.com>
-Sender: dispatch@communicationcenter.com
-Body: 1 of 3\n
-FRM:dispatch@communicationcenter.com\n
-SUBJ:Dispatch Information\n
-MSG:Unit:MCFD Status:Dispatched Location: 417 1ST AVE N Martin City Call\n
-(Con't) 2 of 3\n
-Type: Medical ALS Call Time: 06:29 Info:\2ston of cars in front drive, then
-go to back yard\2shad chest pains prior to this\2sCO UNITS ADV \n
-(Con't) 3 of 3\n
-cpr in progress\2s50 ACK\2s55 ACK\2sturning blue\2sunk what happened, going
-to him now\2s\n
-(End)
-
-Body: 1 of 3\n
-FRM:dispatch@communicationcenter.com\n
-SUBJ:Dispatch Information\n
-MSG:Unit:MCFD Status:Dispatched Location: Hungry Horse Reservoir Call\n
-(Con't) 2 of 3\n
-Type: Medical ALS Call Time: 21:13 Info:\2sRUN CARD SHOWED NO FIRE UNITS TO
-DISPATCH, DISPATCHED HHFD AND MCFD FROM MEMORY\2s1602 AND 1501\n
-(Con't) 3 of 3\n
-ACK\2sRP CALLED BACK....FATHER IS FEELING WEAK AND SLEEPY\2sADV TO CALL BACK
-WHEN GETS\n
-(End)
-**********************************************************
 Alleghany County, PA (alternate)
 Contact: Jayson Wagner <jayson.wagner58@yahoo.com>
 Sender: alerts@alertpage.ealertgov.com
@@ -3278,7 +3251,55 @@ NTY  (CROSS GATE RD/OOLTEWAH RINGGOLD RD)  #[9243-9299]
 
 RT:FTRASH-OUTSIDE TRASH FIRE\2sLoc:5205 ALABAMA RD, HAMILTON COUNTY  (BATES RD/BL
 AIR RD)  #[5000-5399]
+**********************************************************
+Flathead County, MT
+Contact: Tristan Peterson <twpetetson72@gmail.com>
+Sender: dispatch@communicationcenter.com
+Body: 1 of 3\n
+FRM:dispatch@communicationcenter.com\n
+SUBJ:Dispatch Information\n
+MSG:Unit:MCFD Status:Dispatched Location: 417 1ST AVE N Martin City Call\n
+(Con't) 2 of 3\n
+Type: Medical ALS Call Time: 06:29 Info:\2ston of cars in front drive, then
+go to back yard\2shad chest pains prior to this\2sCO UNITS ADV \n
+(Con't) 3 of 3\n
+cpr in progress\2s50 ACK\2s55 ACK\2sturning blue\2sunk what happened, going
+to him now\2s\n
+(End)
 
+Body: 1 of 3\n
+FRM:dispatch@communicationcenter.com\n
+SUBJ:Dispatch Information\n
+MSG:Unit:MCFD Status:Dispatched Location: Hungry Horse Reservoir Call\n
+(Con't) 2 of 3\n
+Type: Medical ALS Call Time: 21:13 Info:\2sRUN CARD SHOWED NO FIRE UNITS TO
+DISPATCH, DISPATCHED HHFD AND MCFD FROM MEMORY\2s1602 AND 1501\n
+(Con't) 3 of 3\n
+ACK\2sRP CALLED BACK....FATHER IS FEELING WEAK AND SLEEPY\2sADV TO CALL BACK
+WHEN GETS\n
+(End)
+
+Body: 1 of 3\n
+FRM:dispatch@communicationcenter.com\n
+SUBJ:Dispatch Information\n
+MSG:Unit:MCFD Status:Dispatched Location: HIGHWAY 2 E Hungry Horse Call\n
+(Con't) 2 of 3\n
+Type: F Smoke Investigation - Outside Call Time: 20:00 Info:\2sRP LIVES AT
+844 WOODLAND AVE\2sCAN SEE WHAT APPEARS TO BE A SMOKE CLOUD\n
+(Con't) 3 of 3\n
+COMING FORM THE AREA OF HUNGRY HORSE. \n
+(End)
+
+Body: 1 of 3\n
+FRM:dispatch@communicationcenter.com\n
+SUBJ:Dispatch Information\n
+MSG:Unit:MCFD Status:Dispatched Location: Call Type: MVA Injury Call Time:\n
+(Con't) 2 of 3\n
+17:03 Info:\2sRP STATED THEY DID NOT NEED ALERT\2sKIDC SAYS TREMS CAN MAKE
+IT UP THERE...LOWER LEFT LEG PAIN, NO LOC & SOME HEAD ABRASIONS \n
+(Con't) 3 of 3\n
+4 MILES UP RD #497//TOWARD DESERT MTN RD\2sLEG AND BACK\n
+(End)
 **********************************************************
 **********************************************************
 **********************************************************
