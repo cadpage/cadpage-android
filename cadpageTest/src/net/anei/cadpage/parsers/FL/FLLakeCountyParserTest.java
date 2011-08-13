@@ -18,29 +18,31 @@ public class FLLakeCountyParserTest extends BaseParserTest {
         "SRC:ST56",
         "CALL:Unconscious / Fainting",
         "ADDR:805 PLUMOSA AVENUE",
-        "NAME:FRUITLAND PARK*");
+        "CITY:FRUITLAND PARK");
 
     doTest("T2",
         "CAD:ST56* Miscellaneous* 303 URICK STREET* FRUITLAND ACRES* APT 4F* FRUITLAND PARK*",
         "SRC:ST56",
         "CALL:Miscellaneous",
         "ADDR:303 URICK STREET",
-        "NAME:FRUITLAND PARK*",
-        "APT:4F");
+        "NAME:FRUITLAND ACRES",
+        "APT:4F",
+        "CITY:FRUITLAND PARK");
 
     doTest("T3",
         "CAD:ST56* Traffic / Transportation Accident* 305 CR 466A* CENTRAL FLORIDA NURSERY* FRUITLAND PARK*",
         "SRC:ST56",
         "CALL:Traffic / Transportation Accident",
         "ADDR:305 CR 466A",
-        "NAME:FRUITLAND PARK*");
+        "NAME:CENTRAL FLORIDA NURSERY",
+        "CITY:FRUITLAND PARK");
 
     doTest("T4",
         "CAD:ST56* Sick Person* 500 WEST FOUNTAIN STREET* FRUITLAND PARK*",
         "SRC:ST56",
         "CALL:Sick Person",
         "ADDR:500 WEST FOUNTAIN STREET",
-        "NAME:FRUITLAND PARK*");
+        "CITY:FRUITLAND PARK");
 
     doTest("T5",
         "CAD:PS4* ST56* Sick Person* 201 EAST LAVISTA STREET* NEW LIFE PRESBYTERIAN CHURCH* FRUITLAND PARK*",
@@ -48,13 +50,22 @@ public class FLLakeCountyParserTest extends BaseParserTest {
         "SRC:ST56",
         "CALL:Sick Person",
         "ADDR:201 EAST LAVISTA STREET",
-        "NAME:FRUITLAND PARK*");
+        "NAME:NEW LIFE PRESBYTERIAN CHURCH",
+        "CITY:FRUITLAND PARK");
 
     doTest("T6",
         "CAD:ST95* Unknown / Man Down* UNKNOWN* 1018 OSPREY CIRCLE GROVELAND*",
         "SRC:ST95",
         "CALL:Unknown / Man Down",
-        "ADDR:1018 OSPREY CIRCLE GROVELAND*");
+        "ADDR:1018 OSPREY CIRCLE GROVELAND");
+
+    doTest("T7",
+        "/ CAD:PS3* ST22* Traumatic Injury (Specific)* NORTH EUSTIS STREET & EAST CLIFFORD AVENUE* EUSTIS*\n",
+        "CH:PS3",
+        "SRC:ST22",
+        "CALL:Traumatic Injury (Specific)",
+        "ADDR:NORTH EUSTIS STREET & EAST CLIFFORD AVENUE",
+        "CITY:EUSTIS");
   }
   
   public static void main(String[] args) {

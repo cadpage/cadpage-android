@@ -77,9 +77,27 @@ public class CAElDoradoCountyParserTest extends BaseParserTest {
         "PLACE:UNIVERSITY FALLS GATE",
         "UNIT:GEOCHF E33F M61 65 GEOENG",
         "GPS:X: -120 38.749");
+
+
+    doTest("T8",
+        "(CAD Page) 11-Aug-2011/06:18:13: MEDICAL: Inc# 018175: 5031 CEDAR DR ,GEORGETOWN  GEOCHF GEOENGN M61 61; ; X: -120 49.9174  Y: 38 53.4478;",
+        "CALL:MEDICAL",
+        "ID:018175",
+        "ADDR:5031 CEDAR DR",
+        "CITY:GEORGETOWN",
+        "UNIT:GEOCHF GEOENGN M61 61",
+        "GPS:X: -120 49.9174  Y: 38 53.4478");
+
+    doTest("T9",
+        "(CAD Page) 10-Aug-2011/10:03:52: MED, TRAFFIC COLLISION: Inc# 018090: 15250 WENTWORTH SPRINGS RD / 999998 ELEVEN PINES 14N08 ,GEORGETOWN_RANGER_DISTRI GEOCHF E54",
+        "CALL:MED, TRAFFIC COLLISION",
+        "ID:018090",
+        "ADDR:15250 WENTWORTH SPRINGS RD & 999998 ELEVEN PINES 14N08",
+        "CITY:GEORGETOWN",
+        "UNIT:GEOCHF E54");
   }
   
   public static void main(String[] args) {
-    new CAElDoradoCountyParserTest().generateTests("T7", "CALL ID ADDR CITY PLACE UNIT GPS");
+    new CAElDoradoCountyParserTest().generateTests("T9", "CALL ID ADDR CITY PLACE UNIT GPS");
   }
 }

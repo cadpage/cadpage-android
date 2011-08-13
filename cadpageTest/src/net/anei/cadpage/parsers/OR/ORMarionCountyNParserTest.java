@@ -224,7 +224,22 @@ public class ORMarionCountyNParserTest extends BaseParserTest {
 
   }
   
+  @Test
+  public void testParser3() {
+
+    doTest("T1",
+        "(25615) :  /  CVA:  455:W:MARQUAM:ST:33::::2630:R454,M24,N7,:65 YOM POSS CVA  C/B/A SIDE OF FACE DROOPY:20110812:150536\n",
+        "ID:25615",
+        "CALL:CVA",
+        "ADDR:455 W MARQUAM ST",
+        "APT:33",
+        "MAP:2630",
+        "UNIT:R454,M24,N7",
+        "INFO:65 YOM POSS CVA  C/B/A SIDE OF FACE DROOPY");
+
+  }
+  
   public static void main(String[] args) {
-    new ORMarionCountyNParserTest().generateTests("T3");
+    new ORMarionCountyNParserTest().generateTests("T1");
   }
 }
