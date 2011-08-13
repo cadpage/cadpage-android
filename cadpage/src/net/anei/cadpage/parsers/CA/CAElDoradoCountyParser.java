@@ -19,6 +19,7 @@ Sender: AEUCAD@fire.ca.gov
 (CAD Page) 21-May-2011/19:39:31: MEDICAL: Inc# 010537: 2850 DERRICK DR ,GREENWOOD  GRVCHF GEOENGN M25 53 E251N; ; X: -120 54.1379  Y: 38 53.9151;
 (CAD Page) 20-Jun-2011/16:46:01: MEDICAL: Inc# 013054: UNIVERSITY FALLS GATE @ =L(38.906110,-120.645832) ,GEORGETOWN  GEOCHF E33F M61 65 GEOENG; ; X: -120 38.749
 (CAD Page) 11-Aug-2011/06:18:13: MEDICAL: Inc# 018175: 5031 CEDAR DR ,GEORGETOWN  GEOCHF GEOENGN M61 61; ; X: -120 49.9174  Y: 38 53.4478;
+(CAD Page) 10-Aug-2011/10:03:52: MED, TRAFFIC COLLISION: Inc# 018090: 15250 WENTWORTH SPRINGS RD / 999998 ELEVEN PINES 14N08 ,GEORGETOWN_RANGER_DISTRI GEOCHF E54
 
  */
 
@@ -26,7 +27,7 @@ Sender: AEUCAD@fire.ca.gov
 public class CAElDoradoCountyParser extends SmsMsgParser {
   
   private static final Pattern MARKER = Pattern.compile("^\\d{1,2}-\\w{3}-\\d{4}/\\d\\d:\\d\\d:\\d\\d: ");
-  private static final Pattern MASTER = Pattern.compile("^(.*?): Inc# (.*?): (.*?) ,(.*? )(?:\\((.*?)\\))? (.*?)(?:;|$)");
+  private static final Pattern MASTER = Pattern.compile("^(.*?): Inc# (.*?): (.*?) ,(.*? )(?:\\((.*?)\\) )? *(.*?)(?:;|$)");
   
   public CAElDoradoCountyParser() {
     super("EL DORADO COUNTY", "CA");
@@ -54,6 +55,7 @@ public class CAElDoradoCountyParser extends SmsMsgParser {
     data.strPlace = p.getOptional('@');
     parseAddress(p.get(), data);
     data.strCity = match.group(4).trim().replace('_', ' ');
+    if (data.strCity.startsWith("GEORGETOWN ")) data.strCity = "GEORGETOWN";
     String sPlace = match.group(5);
     if (sPlace != null) data.strPlace = sPlace.trim();
     data.strUnit = match.group(6).trim();

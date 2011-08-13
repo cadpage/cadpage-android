@@ -42,50 +42,12 @@ Contact: Gordy <silfire402@msn.com>
 Sender: 6005000012
 (15331) :| AOA:  141::14TH:ST:LYONS::::3030:E405,E415,N7,:REQ ENGINE TO RESPOND TO FIRE SCN:20110730:170018 \n
 
+Contact: Nathan Meissner <nathan.meissner@yahoo.com>
+(25615) :  /  CVA:  455:W:MARQUAM:ST:33::::2630:R454,M24,N7,:65 YOM POSS CVA  C/B/A SIDE OF FACE DROOPY:20110812:150536\n
+
 */
 
 public class ORMarionCountyNParser extends FieldProgramParser {
-  
-  private static final String[] CITY_LIST = new String[]{
-    
-    "AUMSVILLE",
-    "AURORA",
-    "DETROIT",
-    "DONALD",
-    "GATES",
-    "GERVAIS",
-    "HUBBARD",
-    "IDANHA",
-    "JEFFERSON",
-    "KEIZER",
-    "MOUNT ANGEL",
-    "ST PAUL",
-    "SALEM",
-    "SCOTTS MILLS",
-    "SILVERTON",
-    "STAYTON",
-    "SUBLIMITY",
-    "TURNER",
-    "WOODBURN",
-    
-    "BREITENBUSH",
-    "BROOKS",
-    "BUTTEVILLE",
-    "CHAMPOEG",
-    "FOUR CORNERS",
-    "HAYESVILLE",
-    "LABISH VILLAGE",
-    "MARION",
-    "MEHAMA",
-    "MONITOR",
-    "PRATUM",
-    "SAINT BENEDICT",
-    "SAINT LOUIS",
-    "WACONDA",
-    "WEST STAYTON",
-
-    "LYONS"
-  };
   
   private static final Pattern CALL_ID_PTN = Pattern.compile("\\d{5}");
   private static final Pattern LEAD_PTN = Pattern.compile("^: *[/)\\|] *");
@@ -153,4 +115,45 @@ public class ORMarionCountyNParser extends FieldProgramParser {
   public String getProgram() {
     return "ID " + super.getProgram();
   }
+  
+  private static final String[] CITY_LIST = new String[]{
+    
+    "AUMSVILLE",
+    "AURORA",
+    "DETROIT",
+    "DONALD",
+    "GATES",
+    "GERVAIS",
+    "HUBBARD",
+    "IDANHA",
+    "JEFFERSON",
+    "KEIZER",
+    "MOUNT ANGEL",
+    "ST PAUL",
+    "SALEM",
+    "SCOTTS MILLS",
+    "SILVERTON",
+    "STAYTON",
+    "SUBLIMITY",
+    "TURNER",
+    "WOODBURN",
+    
+    "BREITENBUSH",
+    "BROOKS",
+    "BUTTEVILLE",
+    "CHAMPOEG",
+    "FOUR CORNERS",
+    "HAYESVILLE",
+    "LABISH VILLAGE",
+    "MARION",
+    "MEHAMA",
+    "MONITOR",
+    "PRATUM",
+    "SAINT BENEDICT",
+    "SAINT LOUIS",
+    "WACONDA",
+    "WEST STAYTON",
+
+    "LYONS"
+  };
 }
