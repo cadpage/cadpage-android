@@ -601,7 +601,12 @@ Litchfield County, CT (CTLitchfieldCountyParser)
 (LCD) MEDIC 4 RESPOND TO 70 CHAPEL HILL RD   SHERMAN, , 92Y M DIFF BREATH, 6-D-2 :12:36
 (LCD) MEDIC 4 RESPOND TO  WELLERS BRIDGE RD   HEMLOCK ROXBURY, ,   TRAFFIC ACCIDENT,  :10:44
 ***************************************************************************
-Tolland County, CT
+New Haven County, CT (CTNewHavenCountyParser)
+MARINE INCIDENT, - SEARCH at BLOCK ISLAND RD BRANFORD, GUILFORD . . 14:27:56
+CODE 5,- AUTOMATIC FIRE ALARM at 275 LAKE DRIVE GUILFORD 15:57
+CODE 1,- AUTOMATIC FIRE ALARM at 35 STATE STREET, GUILFORD 17:15 cross street 1-begins at broad st;115-Boston Post Road;180-North Street
+***************************************************************************
+Tolland County, CT (CTTollandCountyParser)
 (TN Alert) 10 COTTAGE ST / UNIT D Vernon ALS Difficulty Breathing 21:14 Cross Street ST BERNARDS TER / SCHOOL ST 2011-00001770
 [TN Alert]  DOBSON RD / CAMPBELL AVE Vernon Vehicle Accident 2ND AMB  12:59 Cross Street 2011-00001773
 [TN Alert]  32 FRANKLIN PARK E / Vernon ALS DIFF BREATHING 09:07 Cross Street DEAD END / FRANKLIN ST 2011-00001772
@@ -2875,21 +2880,6 @@ Sender: rc.485@c-msg.net
 **********************************************************
 **********************************************************
 **********************************************************
-New Haven County, CT
-Contact: John Planas <fire388@gmail.com>
-Sender: guilfordfd@rednmxcad.com
-System: Red Alert
-MARINE INCIDENT, - SEARCH at BLOCK ISLAND RD BRANFORD, GUILFORD . . 14:27:56
-CODE 5,- AUTOMATIC FIRE ALARM at 275 LAKE DRIVE GUILFORD 15:57
-CODE 1,- AUTOMATIC FIRE ALARM at 35 STATE STREET, GUILFORD 17:15 cross street 1-begins at broad st;115-Boston Post Road;180-North Street
-CODE 2,- DTN MEDICAL EMERGENCY at 669 BOSTON POST ROAD, GUILFORD 10:19
-CODE 1,- APPLIANCE,TV,ETC. at 258 CHESTNUT GROVE ROAD 19:50
-CODE 2,-DTN MEDICAL EMERGENCY at 49 GUILFORD COURT, GUILFORD 15:47
-CODE 5,- AUTOMATIC FIRE ALARM at 159 LEDGE HILL ROAD, GUILFORD 11:40
-CODE 1,- AUTOMATIC FIRE ALARM at 53 IRONWOOD ROAD, GUILFORD 11:43
-CODE 2,-DTN MEDICAL EMERGENCY at 51 WATER STREET, GUILFORD 10:46
-CODE 4, - DTN STRUCTURE FIRE at 9 OLD BARN LN, GUILFORD 08:33
-CODE 4, - DTN STRUCTURE FIRE at 125 GOOSE LANE, GUILFORD 09:32
 **********************************************************
 Pike County, GA ?
 Contact: Brian.Michel@pikeemergencyservices.com, 6786030899@VTEXT.COM
