@@ -242,6 +242,7 @@
     <item>GeneralSlash</item>
     <item>GeneralDash</item>
     <item>ALChiltonCounty</item>
+    <item>ALColbertCounty</item>
     <item>ALDothan</item>
     <item>ALHenryCounty</item>
     <item>ALLauderdaleCounty</item>
@@ -493,6 +494,7 @@
     <item>Generic (slash field separator)</item>
     <item>Generic (dash field separator)</item>
     <item>Chilton County, AL</item>
+    <item>Colbert County, AL</item>
     <item>Dothan, AL</item>
     <item>Henry County, AL</item>
     <item>Lauderdale County, AL</item>

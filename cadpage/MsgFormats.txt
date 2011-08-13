@@ -531,6 +531,11 @@ Vehicle Accident: 21 LARCH LN, Town: MPK, Cross: WHITEWOOD DR, Map: E-8, Block#:
 * Individual parser classes
 *******************************************************************************
 ***************************************************************************
+Colbert County, AL (ALColbertCountyParser)
+MISSING PERSON\n 2564150099\n3804 HATCH BLVD, SHEFFIELD
+SUICIDAL PERSON\n 6622123327\n105 FORREST DR, CHEROKEE\n43 YOF
+BREATHING PROBLEM\nCHEROKEE FAMILY CLINIC 2563594516\n1080 2ND ST, CHEROKEE\n62 YOF
+***************************************************************************
 Henry County, AL (ALHenryCountyParser)
 MEDICAL EMERGENCY CO.RD. 405 @ CO.RD. 49 SOUTH OF 134 EAST FEMALE SUBJ FALLEN FROM HORSE... HAVING DIFFICULTY BREATHING
 MEDICAL CALL 5526 CO. RD. 73 IN NEWVILLE 14 YO TOOK 15 TREDONE SUBJ. IS CONCIOUS AT THIS TIME.
@@ -2869,46 +2874,6 @@ Sender: rc.485@c-msg.net
 **********************************************************
 **********************************************************
 **********************************************************
-Colbert County, GA
-Contact: "Michael Smith" <colbertema@gmail.com>
-Sender: 911alert@comcast.net
-The format is:
-
-COMPLAINT CODE
-NAME PHONE#
-ADDRESS, CITY
-COMMENTS
-
-And here are a few examples:
-
-MISSING PERSON
- 2564150099 (Note no name in CAD, so entered blank space)
-3804 HATCH BLVD, SHEFFIELD
-
-SUICIDAL PERSON
- 6622123327  (Note no name in CAD, so entered blank space)
-105 FORREST DR, CHEROKEE
-43 YOF
-
-
-BREATHING PROBLEM
-CHEROKEE FAMILY CLINIC 2563594516
-1080 2ND ST, CHEROKEE
-62 YOF
-
-SEIZURE
- 2568566665  (Note no name in CAD, so entered blank space)
-8685 HIGHWAY 72, CHEROKEE
-21F
-
-MISSING PERSON
-ATKISSON, TAMARA 2564123685
-603 PASADENA AV, A, MUSCLE SHOALS  (also includes Apartment #)
-
-MVC-Injury
- 2564125319
-WOODWARD AV && 6TH ST, MUSCLE SHOALS  (intersection)
-2 CARS
 **********************************************************
 New Haven County, CT
 Contact: John Planas <fire388@gmail.com>
