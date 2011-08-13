@@ -15,6 +15,7 @@ public class SmartAddressParserTest extends BaseParserTest {
   private static final StartType PLACE = StartType.START_PLACE;
   private static final StartType SKIP = StartType.START_SKIP;
   
+  private static final int FLAG_START_FLD_REQ = SmartAddressParser.FLAG_START_FLD_REQ;
   private static final int FLAG_AT_BOTH = SmartAddressParser.FLAG_AT_BOTH;
   private static final int FLAG_ANCHOR_END = SmartAddressParser.FLAG_ANCHOR_END;
   private static final int FLAG_IMPLIED_INTERSECT = SmartAddressParser.FLAG_IMPLIED_INTERSECT;
@@ -34,14 +35,32 @@ public class SmartAddressParserTest extends BaseParserTest {
   
   @Test
   public void testProblem() {
-    doTest(CALL, "MVA [MVA] PARK AVE EXTRA",
-        "CALL:MVA [MVA]",
-        "ADDR:PARK AVE");
   }
 
   
   @Test
   public void testProblems() {
+    
+    doTest(CALL, "563 ST RTE 211 E",
+        "ADDR:563 ST RTE 211 E");
+    
+    doTest(CALL, FLAG_PAD_FIELD, "29D2L MVC Motorcycle/Bicycle 375 GATEWAY SOUTH BLVD SONIC - SOUTH KENSBURG EXTRA",
+        "CALL:29D2L MVC Motorcycle/Bicycle",
+        "ADDR:375 GATEWAY SOUTH BLVD",
+        "SRC:SONIC - SOUTH",
+        "CITY:KENSBURG");
+
+    doTest(CALL, FLAG_START_FLD_REQ | FLAG_ANCHOR_END, "80 - Carbon Monoxide/Hazmat 1064 NE 75 RD Apt. 112 KEN TOWN",
+        "CALL:80 - Carbon Monoxide/Hazmat",
+        "ADDR:1064 NE 75 RD",
+        "APT:112",
+        "CITY:KEN TOWN");
+    
+    doTest(CALL, FLAG_START_FLD_REQ | FLAG_ANCHOR_END, "FIRE GRASS SE DD HWY & SE 341 RD KEN TOWN",
+        "CALL:FIRE GRASS",
+        "ADDR:SE DD HWY & SE 341 RD",
+        "CITY:KEN TOWN");
+
     doTest(CALL, FLAG_ANCHOR_END, "MOTOR VEHICLE ACCIDENT WITH RESCUE  HIGHWAY A & HIGHWAY 50 KEN TOWN",
         "CALL:MOTOR VEHICLE ACCIDENT WITH RESCUE",
         "ADDR:HIGHWAY A & HIGHWAY 50",
