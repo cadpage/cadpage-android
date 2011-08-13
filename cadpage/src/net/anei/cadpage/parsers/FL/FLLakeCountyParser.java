@@ -19,47 +19,13 @@ CAD:ST56* Medical* 34949 CUTOFF ROAD* FRUITLAND PARK*
 
 Contact: Scott fuller <scott.a.fuller.sf@gmail.com>
 CAD:ST95* Unknown / Man Down* UNKNOWN* 1018 OSPREY CIRCLE GROVELAND*
- 
+
+Contact: Chris Sieber <shanman78@gmail.com>
+  / CAD:PS3* ST22* Traumatic Injury (Specific)* NORTH EUSTIS STREET & EAST CLIFFORD AVENUE* EUSTIS*\n
 
  */
 
 public class FLLakeCountyParser extends FieldProgramParser {
-  
-  private static final String[] CITY_LIST = new String[] {
-    "ASTATULA",
-    "CLERMONT",
-    "EUSTIS",
-    "FRUITLAND PARK",
-    "GROVELAND",
-    "HOWEY-IN-THE-HILLS",
-    "LADY LAKE",
-    "LEESBURG",
-    "MASCOTTE",
-    "MINNEOLA",
-    "MONTVERDE",
-    "MOUNT DORA",
-    "TAVARES",
-    "UMATILLA",
-    "ALTOONA",
-    "ASTOR",
-    "BASSVILLE PARK",
-    "CITRUS RIDGE",
-    "FERNDALE",
-    "GRAND ISLAND",
-    "LAKE KATHRYN",
-    "LAKE MACK-FOREST HILLS",
-    "LANIER",
-    "LISBON",
-    "MOUNT PLYMOUTH",
-    "OKAHUMPKA",
-    "ORANGE BEND",
-    "PAISLEY",
-    "PINE LAKES",
-    "PITTMAN",
-    "SILVER LAKE",
-    "SORRENTO",
-    "YALAHA"
-  };
   
   public FLLakeCountyParser() {
     super(CITY_LIST, "LAKE COUNTY", "FL",
@@ -68,9 +34,11 @@ public class FLLakeCountyParser extends FieldProgramParser {
   
   @Override
   public boolean parseMsg(String body, Data data) {
+    if (body.startsWith("/ ")) body = body.substring(2).trim();
     if (!body.startsWith("CAD:")) return false;
     body = body.substring(4).trim();
-    return parseFields(body.split("\\* "), data);
+    if (body.endsWith("*")) body = body.substring(0,body.length()-1).trim();
+    return parseFields(body.split("\\*"), data);
   }
   
   private static final Pattern CHANNEL_PTN = Pattern.compile("PS.*"); 
@@ -111,4 +79,40 @@ public class FLLakeCountyParser extends FieldProgramParser {
     if (name.equals("MISC")) return new MiscField();
     return super.getField(name);
   }
+  
+  private static final String[] CITY_LIST = new String[] {
+    "ASTATULA",
+    "CLERMONT",
+    "EUSTIS",
+    "FRUITLAND PARK",
+    "GROVELAND",
+    "HOWEY-IN-THE-HILLS",
+    "LADY LAKE",
+    "LEESBURG",
+    "MASCOTTE",
+    "MINNEOLA",
+    "MONTVERDE",
+    "MOUNT DORA",
+    "TAVARES",
+    "UMATILLA",
+    "ALTOONA",
+    "ASTOR",
+    "BASSVILLE PARK",
+    "CITRUS RIDGE",
+    "FERNDALE",
+    "GRAND ISLAND",
+    "LAKE KATHRYN",
+    "LAKE MACK-FOREST HILLS",
+    "LANIER",
+    "LISBON",
+    "MOUNT PLYMOUTH",
+    "OKAHUMPKA",
+    "ORANGE BEND",
+    "PAISLEY",
+    "PINE LAKES",
+    "PITTMAN",
+    "SILVER LAKE",
+    "SORRENTO",
+    "YALAHA"
+  };
 }
