@@ -1042,6 +1042,11 @@ IPage / 4 DUDLEY LN MAMARONECK_T, Cross: FENIMORE RD, Type:ALARM, RESD, Time out
 IPage / 50 ELKAN RD MAMARONECK_T: @ELKAN APARTMENTS, Cross: PALMER AVE, Type:ALS, , Time out: 12:12:51 Area: LARCH,Alarm lev:
 IPage / MAMARONECK_T: @I95 NB 07.3, Cross: , Type:MVF, CAR, Time out: 22:12:12 Area: MAMTW,Alarm lev: 0 ,Comments:
 ***************************************************************************
+Alexander County, NC (NCAlexanderCountyParser)
+CAD:2370 NC 90 HWY E;NC DEPT OF TRANSPORTATION;TRAFFIC ACCIDENT;ADAMS POND LN;WINTERHAVEN RD
+CAD:1522 BLACK OAK RIDGE RD;STANDARD STRUCTURE FIRE;JONES RD;CARSON CHAPEL RD
+CAD:400 LEE MATHESON RD;HEART PROBLEMS;19D04;BOSTON RD;TAYLORSVILLE MFG RD
+***************************************************************************
 Caldwell County, NC (NCCaldwellCountyParser)
 BREATHING PROBLEMS CHARLIE;25 WATER ST;GF;APT 12;CIRCLE ST;NORTH SUMMIT AV
 CARDIAC RESP ARREST DEATH ECHO;5105 WENDOVER LN;GF;GUNPOWDER RD
@@ -2887,17 +2892,6 @@ Sender: rc.485@c-msg.net
 **********************************************************
 **********************************************************
 **********************************************************
-Alexander County, NC
-Contact: Josh Reese <jrreese1@catamount.wcu.edu>
-Sender: CAD@alexandercountync.gov
-(CAD:91 GREEN ACRES LN;FALL;31D03;ICARD RIDGE RD)
-
-Contact: Foster, Greg <gfoster@alexandercountync.gov>
-Sender: CAD@alexandercountync.gov
-CAD:2370 NC 90 HWY E;NC DEPT OF TRANSPORTATION;TRAFFIC ACCIDENT;ADAMS POND LN;WINTERHAVEN RD
-CAD:1522 BLACK OAK RIDGE RD;STANDARD STRUCTURE FIRE;JONES RD;CARSON CHAPEL RD
-CAD:400 LEE MATHESON RD;HEART PROBLEMS;19D04;BOSTON RD;TAYLORSVILLE MFG RD
-CAD:33 LEWITTES RD;PIEDMONT FIBERGLASS;LARGE ALARM;NC 90 HWY E;RUSSELL LN
 **********************************************************
 Denton County, TX
 Contact: Curtis Birt <cbirt@cityofcorinth.com>
