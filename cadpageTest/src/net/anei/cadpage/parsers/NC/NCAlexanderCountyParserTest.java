@@ -1,0 +1,55 @@
+package net.anei.cadpage.parsers.NC;
+
+import net.anei.cadpage.parsers.BaseParserTest;
+
+import org.junit.Test;
+
+
+public class NCAlexanderCountyParserTest extends BaseParserTest {
+  
+  public NCAlexanderCountyParserTest() {
+    setParser(new NCAlexanderCountyParser(), "ALEXANDER COUNTY", "NC");
+  }
+  
+  @Test
+  public void testParser() {
+
+    doTest("T1",
+        "(CAD:91 GREEN ACRES LN;FALL;31D03;ICARD RIDGE RD)",
+        "ADDR:91 GREEN ACRES LN",
+        "CALL:FALL",
+        "CODE:31D03",
+        "X:ICARD RIDGE RD");
+
+    doTest("T2",
+        "CAD:2370 NC 90 HWY E;NC DEPT OF TRANSPORTATION;TRAFFIC ACCIDENT;ADAMS POND LN;WINTERHAVEN RD",
+        "ADDR:2370 NC 90 HWY E",
+        "PLACE:NC DEPT OF TRANSPORTATION",
+        "CALL:TRAFFIC ACCIDENT",
+        "X:ADAMS POND LN & WINTERHAVEN RD");
+
+    doTest("T3",
+        "CAD:1522 BLACK OAK RIDGE RD;STANDARD STRUCTURE FIRE;JONES RD;CARSON CHAPEL RD",
+        "ADDR:1522 BLACK OAK RIDGE RD",
+        "CALL:STANDARD STRUCTURE FIRE",
+        "X:JONES RD & CARSON CHAPEL RD");
+
+    doTest("T4",
+        "CAD:400 LEE MATHESON RD;HEART PROBLEMS;19D04;BOSTON RD;TAYLORSVILLE MFG RD",
+        "ADDR:400 LEE MATHESON RD",
+        "CALL:HEART PROBLEMS",
+        "CODE:19D04",
+        "X:BOSTON RD & TAYLORSVILLE MFG RD");
+
+    doTest("T5",
+        "CAD:33 LEWITTES RD;PIEDMONT FIBERGLASS;LARGE ALARM;NC 90 HWY E;RUSSELL LN",
+        "ADDR:33 LEWITTES RD",
+        "PLACE:PIEDMONT FIBERGLASS",
+        "CALL:LARGE ALARM",
+        "X:NC 90 HWY E & RUSSELL LN");
+  }
+
+  public static void main(String[] args) {
+    new NCAlexanderCountyParserTest().generateTests("T1", "ADDR PLACE CALL CODE X");
+  }
+}
