@@ -2309,11 +2309,6 @@ Contact: 7044004641@txt.att.net
 FRM:CommtechMessenger (emergin)"
 MSG:MFD 2ANAPHYLACTIC SHOCK, 161 NILE CIR
 **********************************************************
-New Castle County, DE (Alternate)
-Contact: "cmwetherby@aol.com" <cmwetherby@aol.com>
-Sender: brandywinefireco@comcast.net
-06/06/2011*21:22*L1*SMOKE INVESTIGATION*8 E LEA BL btwn N MARKET ST & *PENNROSE
-**********************************************************
 Unknown
 Contact: Joseph Jenkins <natoj0025@gmail.com>
 Sender: lfdchief1@verizon.net
@@ -2364,11 +2359,6 @@ Sender: cadpage@rmetro.com
 (- part 1 of 1) RC:Go to post P72  Port of Tacoma &  509
 (- part 1 of 1)RC:0038-A/Run#36872/CALL:03:32/DISP:03:32/ENR:03:33/ATS:03:37/TRA:03:45/ATD:0 3:53/PUZIP:98408/DO:St Joseph Hospital
 (- part 1 of 1) RC:Run# 36872/Sick Person/<Unknown>/S 56TH ST & PACIFIC AVE///X=56th&55th/TACOMA//
-**********************************************************
-New Castle County, DE (alternate)
-Contact: Michael DiMauro <mdimaurojr@gmail.com>
-Sender: brandywinefireco@comcast.net
-06/21/2011*06:01*ASSAULT - UNKNOWN*1202 FAIRVIEW AV btwn MAPLE AV*HOLLY OAK TERRACE*MALE SUBJECT MACED //NCCPD ENR
 **********************************************************
 Unknown
 Contact: "JP" <jp230rfd@aol.com>
@@ -2886,6 +2876,18 @@ Contact: Mark Rosen <mrosen922@gmail.com>
 Sender: rc.485@c-msg.net
 (mCAD) [mCAD] DEPT24  TYP: ALS MEDICAL CALL |106 BLAKE RD |MAYBROOK /MFAINTED JUST HAD SURGERY 63 YEAR OLD MALE UNCONSCIOUS NOT BREATHING XST: 427 SARACINO DR /425
 **********************************************************
+Wilmington (brandywine), DE
+Contact: "cmwetherby@aol.com" <cmwetherby@aol.com>
+Sender: brandywinefireco@comcast.net
+06/06/2011*21:22*L1*SMOKE INVESTIGATION*8 E LEA BL btwn N MARKET ST & *PENNROSE
+
+Contact: Michael DiMauro <mdimaurojr@gmail.com>
+Sender: brandywinefireco@comcast.net
+06/21/2011*06:01*ASSAULT - UNKNOWN*1202 FAIRVIEW AV btwn MAPLE AV*HOLLY OAK TERRACE*MALE SUBJECT MACED //NCCPD ENR
+
+Contact: "backusgj@hotmail.com" <backusgj@hotmail.com>
+Sender: brandywinefireco@comcast.net
+08/14/2011*08:19*CVA - NOT ALERT*207 ROWLAND PARK BL btwn HILLS*CARRCROFT
 **********************************************************
 **********************************************************
 ************  READY TO ROLL ******************************
@@ -3356,7 +3358,6 @@ NYK| Buffalo| 1 Alarm Fire| 424.350| 63 Crestwood ave|U/D: E-38 updated size up 
 Denton County, TX (Lewisville)
 Contact: Curtis Birt <cbirt@cityofcorinth.com>
 Sender: 6245,lpd@[10.10.1.64]
-
 *101 E CORPORATE DR*****MAJOR ACC****B160,CHIEF,E163,M163,T167*316****
 *1725 SHUFORDS CT*****FIRE****B160,CHIEF,E164,E165,M163,Q163,T167*300****
 *251 N I35E SBFR*****FIRE****B160,CHIEF,E161,E164,M161,Q162,T167*127****

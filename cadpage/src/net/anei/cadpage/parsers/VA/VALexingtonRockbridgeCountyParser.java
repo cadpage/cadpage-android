@@ -21,6 +21,9 @@ Sender: @c-msg.net
 [LCAD] Type: ACCIDENT MVC Loc: 60 W 1/2 W DAYS INN AND SHELL STATION Units: CO09A,LXRS1, City: LEXINGTON 1/26/2011 12:55:37 PM **Nearest Address: NoneSILVER VAN SLID OFF ROAD OVER EMBANKMENT ON IT HIT TREES UNKNOWN INJURIES\nMessage Created 1/26/2011 12:56:00 PM
 [LCAD] Type: EMS-HEM Loc: 160 KENDAL DR Units: LXRS1, City: LEXINGTON 1/26/2011 11:00:36 AM D FOR MALE RECTAL BLEED BORDEN CENTER RM106\nMessage Created 1/26/2011 11:00:00 AM
 
+Contact: Dave Wheeler <wheelerdh@gmail.com>
+S:LCAD M:[LCAD] Type: ACCIDENT MVC Loc: I-81 N BOUND Units: CO09A,LXRS1, City: LEXINGTON 8/14/2011 2:36:17 PM **Nearest Address: \n\n
+
  */
 
 public class VALexingtonRockbridgeCountyParser extends FieldProgramParser {
@@ -41,7 +44,7 @@ public class VALexingtonRockbridgeCountyParser extends FieldProgramParser {
   
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
-    if (!subject.equals("LCAD")) return false;
+    if (!subject.contains("LCAD")) return false;
     
     // Strip off data field from end of message
     int pt = body.indexOf("\nMessage");
@@ -62,15 +65,14 @@ public class VALexingtonRockbridgeCountyParser extends FieldProgramParser {
       if (extra.startsWith("None")) {
         extra = extra.substring(4).trim();
       } else {
-        pt = extra.indexOf(',');
-        if (pt < 0) pt = extra.length()-1;
-        address2 = extra.substring(0,pt).trim();
-        extra = extra.substring(pt+1).trim();
+        Parser p = new Parser(extra);
+        address2 = p.get(',');
+        extra = p.get();
         if (extra.startsWith(data.strCity)) extra = extra.substring(data.strCity.length()).trim();
       }
     }
     
-    if (address2 != null && !address2.equals("None")) {
+    if (address2 != null && !address2.equals("None") && address2.length() > 0) {
       if (checkAddress(data.strAddress) == 0) {
         data.strPlace = data.strAddress;
         data.strAddress = address2;

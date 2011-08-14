@@ -47,45 +47,6 @@ Subject:24CAD\n[eFB] F00 13:27 1 - T:M24B1 (EMERGENCY MATERNITY) L:106 N SIXTH S
 
 public class DENewCastleCountyParser extends FieldProgramParser {
   
-  private static Set<String> CITY_SET = new HashSet<String>(Arrays.asList(new String[]{
-      "ARDENCROFT",
-      "ARDENTOWN",
-      "BELLEFONTE",
-      "CLAYTON",
-      "DELAWARE CITY",
-      "ELSMERE",
-      "MIDDLETOWN",
-      "NEW CASTLE",
-      "NEWARK",
-      "NEWPORT",
-      "ODESSA",
-      "SMYRNA",
-      "TOWNSEND",
-      "WILMINGTON",
-      "BEAR",
-      "BROOKSIDE",
-      "CLAYMONT",
-      "COLLINS PARK",
-      "CHRISTIANA",
-      "EDGEMOOR",
-      "GLASGOW",
-      "GREENVILLE",
-      "HOCKESSIN",
-      "HOLLY OAK",
-      "MARSHALLTON",
-      "MINQUADALE",
-      "MONTCHANIN",
-      "NORTH STAR",
-      "OGLETOWN",
-      "PIKE CREEK",
-      "ROCKLAND",
-      "ST. GEORGES",
-      "STANTON",
-      "WILMINGTON MANOR",
-      "WINTERTHUR",
-      "WINTERSET"
-  }));
-  
   private static final Pattern[] MARKERS = new Pattern[]{
     Pattern.compile("^F00 \\d\\d:\\d\\d 1 - (?=T:)"),
     Pattern.compile("^\\d\\d:\\d\\d(?=T:)")
@@ -188,6 +149,45 @@ public class DENewCastleCountyParser extends FieldProgramParser {
   public String getProgram() {
     return "SRC " + super.getProgram();
   }
+  
+  private static Set<String> CITY_SET = new HashSet<String>(Arrays.asList(new String[]{
+      "ARDENCROFT",
+      "ARDENTOWN",
+      "BELLEFONTE",
+      "CLAYTON",
+      "DELAWARE CITY",
+      "ELSMERE",
+      "MIDDLETOWN",
+      "NEW CASTLE",
+      "NEWARK",
+      "NEWPORT",
+      "ODESSA",
+      "SMYRNA",
+      "TOWNSEND",
+      "WILMINGTON",
+      "BEAR",
+      "BROOKSIDE",
+      "CLAYMONT",
+      "COLLINS PARK",
+      "CHRISTIANA",
+      "EDGEMOOR",
+      "GLASGOW",
+      "GREENVILLE",
+      "HOCKESSIN",
+      "HOLLY OAK",
+      "MARSHALLTON",
+      "MINQUADALE",
+      "MONTCHANIN",
+      "NORTH STAR",
+      "OGLETOWN",
+      "PIKE CREEK",
+      "ROCKLAND",
+      "ST. GEORGES",
+      "STANTON",
+      "WILMINGTON MANOR",
+      "WINTERTHUR",
+      "WINTERSET"
+  }));
 }
 
 
