@@ -70,6 +70,8 @@ public class SmsMsgInfoTest {
     doMapTest("&", "RED RD & BLACK ST,KENBURG,XX", "RED RD&BLACK ST");
     
     doMapTest("EO", "BLACK ST & RED RD,KENBURG,XX", "BLACK ST EO RED RD");
+    
+    doMapTest("SRT", "SRT 155 & SRT 161,KENBURG,XX", "SRT155&SRT161");
   }
   
   private void doMapTest(String title, String result, String address) {

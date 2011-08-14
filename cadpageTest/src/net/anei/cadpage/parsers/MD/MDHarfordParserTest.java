@@ -111,9 +111,18 @@ public class MDHarfordParserTest extends BaseParserTest {
         "CITY:FOREST HILL",
         "NAME:THOMPSON,DOUG",
         "ID:2011-0000122811");
+
+    doTest("T10",
+        "FRM:rc.95@c-msg.net\nSUBJ:HCCAD\nMSG:[!] EOC:E91 HEART >HEART PROBLEM SRT155&SRT161 XS: SRT161 HAVRE DE GRACE Cad:143258\n",
+        "UNIT:E91",
+        "CALL:HEART PROBLEM",
+        "ADDR:ST-155 & SRT161",
+        "X:SRT161",
+        "CITY:HAVRE DE GRACE",
+        "ID:143258");
   }
   
   public static void main(String[] args) {
-    new MDHarfordParserTest().generateTests("T9", "UNIT CALL ADDR APT X CITY NAME BOX ID");
+    new MDHarfordParserTest().generateTests("T10", "UNIT CALL ADDR APT X CITY NAME BOX ID");
   }
 }
