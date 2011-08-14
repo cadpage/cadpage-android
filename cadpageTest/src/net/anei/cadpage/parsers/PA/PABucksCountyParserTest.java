@@ -324,9 +324,20 @@ public class PABucksCountyParserTest extends BaseParserTest {
         "BOX:19093",
         "MAP:2923A10",
         "ID:FD1111756\4s");
+
+    doTest("T27",
+        "911: STA19  type:GALRM   adr:6 FLINT CI ,29  btwn WINDSOR WY & CUL DE SAC  aai:  box:79020  map:3034H5  tm:23:32:45  FD1112459\4sRun: E79\4s\n",
+        "SRC:STA19",
+        "CALL:GALRM - GENERAL ALARM",
+        "ADDR:6 FLINT CI",
+        "CITY:DOYLESTOWN TWP",
+        "X:WINDSOR WY & CUL DE SAC",
+        "BOX:79020",
+        "MAP:3034H5",
+        "ID:E79\4s");
 }
   
   public static void main(String[] args) {
-    new PABucksCountyParserTest().generateTests("T25");
+    new PABucksCountyParserTest().generateTests("T28");
   }
 }
