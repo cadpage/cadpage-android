@@ -661,12 +661,17 @@ Working structure fire!  Assistance is needed if available.\nAddress: 611 KETTLE
 Working structure fire!  Assistance is needed if available.\n330 HACKAMORE TRL\nDO NOT CALL DISPATCH!!!! (Reported on 10/22/2010 @ 9:50:55 PM)
 Working structure fire!  Assistance is needed if available.\nAddress:298 Ashbrook dr\nDO NOT CALL DISPATCH!!!! (Reported on 09/14/2010 @ 2:20:07 PM)
 *******************************************************************************
-Oconne county, GA (GAOconneCountyParser
+Oconne county, GA (GAOconneCountyParser)
 OCSO E911:Return Phone: 7060000000 S28 SICK PERSON 4047 COLHAM FERRY RD 8583046 
 OCSO E911:Return Phone: 7060000000 S28 SICK PERSON 385 JEFFERSON AVE 2029728 
 OCSO E911:1090F FIRE ALARM 1021 WOOD HOLLOW LN 5482767 CRYSTAL HILLS DR
 OCSO E911:1073 SMOKE 1421 BEVERLY DR 5495253 NONA DRIVE
 OCSO E911:1070 FIRE 1280 ASHLAND DR 7250300 HWY 53
+***************************************************************************
+Pike County, GA (GAPikeCountyParser)
+PIKE COUNTY E-911:10-52R EMS/ RESPONDER 11794 HIGHWAY 109 7705673249 ADAMS RD
+PIKE COUNTY E-911:10-50I ACCIDENT WITH INJURIES CONCORD RD AT BOTTOMS RD 7066013339
+PIKE COUNTY E-911:FIRALM FIRE ALARM 1489 EPPINGER BRIDGE RD 8005441104 HARRIS ST
 ***************************************************************************
 Whitfield County, GA (GAWhitfieldCountyParser)
 WHITFIELD CO. 911:F12 SF-COMMERCIAL/INDUSTRIAL/SCHOO 1812 KIMBERLY PARK DR 4237188927 ALARM ASSIGN 3
@@ -2881,15 +2886,6 @@ Sender: rc.485@c-msg.net
 **********************************************************
 **********************************************************
 **********************************************************
-Pike County, GA ?
-Contact: Brian.Michel@pikeemergencyservices.com, 6786030899@VTEXT.COM
-PIKE COUNTY E-911:10-52R EMS/ RESPONDER 11794 HIGHWAY 109 7705673249 ADAMS RD (sms from pike co, ga call type address phone and x street
-PIKE COUNTY E-911:10-50I ACCIDENT WITH INJURIES CONCORD RD AT BOTTOMS RD 7066013339 (pike co, ga call type, intersection callers #)
-PIKE COUNTY E-911:FIRALM FIRE ALARM 1489 EPPINGER BRIDGE RD 8005441104 HARRIS ST
-PIKE COUNTY E-911:10-50I ACCIDENT WITH INJURIES CONCORD ST @ FRANKLIN ST 770
-PIKE COUNTY E-911:FIRSTR STRUCTURE FIRE INDUSTRIAL DRIVE/VERY END 770
-PIKE COUNTY E-911:FIRVEH VEHICLE FIRE 5277 BLANTON MILL RD 6785720068 BEEKS RD
-PIKE COUNTY E-911:FIRE FIRE GENERIC (TYPE) HIGHWAY 362 AREA OF CONCORD RD 3345591717
 **********************************************************
 Alexander County, NC
 Contact: Josh Reese <jrreese1@catamount.wcu.edu>
