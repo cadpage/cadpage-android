@@ -16,6 +16,7 @@ public class PAChesterCountyBaseParser extends FieldProgramParser {
       "KNTTWP", "KENNETT TWP",
       "LDNBRT", "LANDENBERG",
       "LGROVE", "LONDON GROVE TWP",
+      "LONDER", "LONDONERRY TWP",
       "LWROXF", "LOWER OXFORD TWP",
       "NEWLON", "NEW LONDON TWP",
       "NGARDN", "NEW GARDEN TWP",
