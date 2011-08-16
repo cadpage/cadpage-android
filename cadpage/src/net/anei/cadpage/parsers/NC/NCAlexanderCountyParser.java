@@ -17,6 +17,12 @@ CAD:1522 BLACK OAK RIDGE RD;STANDARD STRUCTURE FIRE;JONES RD;CARSON CHAPEL RD
 CAD:400 LEE MATHESON RD;HEART PROBLEMS;19D04;BOSTON RD;TAYLORSVILLE MFG RD
 CAD:33 LEWITTES RD;PIEDMONT FIBERGLASS;LARGE ALARM;NC 90 HWY E;RUSSELL LN
 
+Contact: Josh Davis <paramedicdavis@gmail.com>
+|CAD:80 PRESLAR LN;BREATHING PROBLEMS;06D02;NC 127 HWY
+
+Contact: Chappy <kchapman@taylorsvillefire.org>
+CAD:350 SCHOOL DR;TAYLORSVILLE HOUSE;LARGE ALARM;LILEDOUN RD;E JAY DR
+
 */
 
 public class NCAlexanderCountyParser extends SmartAddressParser {
@@ -35,6 +41,7 @@ public class NCAlexanderCountyParser extends SmartAddressParser {
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
     if (body.length() == 0) body = subject;
+    if (body.startsWith("|")) body = body.substring(1).trim();
     if (!body.startsWith("CAD:")) return false;
     body = body.substring(4).trim();
     
