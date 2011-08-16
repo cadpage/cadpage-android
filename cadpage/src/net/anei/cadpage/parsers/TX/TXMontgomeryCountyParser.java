@@ -43,7 +43,9 @@ public class TXMontgomeryCountyParser extends FieldProgramParser {
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "CR",   "CONROE",
-      "MO",   "MONTGOMERY"
+      "MO",   "MONTGOMERY",
+      "NC",   "NEW CANEY",
+      "SP",   "SPLENDORA"
   });
   
   public TXMontgomeryCountyParser() {
