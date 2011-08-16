@@ -103,11 +103,23 @@ public class NJCumberlandCountyParserTest extends BaseParserTest {
         "PLACE:MILL VILLAGE APTS / BEHIND/WOODS");
     
   }
+  
+  @Test
+  public void testParser3() {
+
+    doTest("T1",
+        "(E3202_MVC_(UPPER DEERFIELD)DUBOIS RD & FINLEY RD_2011-08-16 01) 19:26_",
+        "UNIT:E3202",
+        "CALL:MVC",
+        "CITY:UPPER DEERFIELD",
+        "ADDR:DUBOIS RD & FINLEY RD");
+
+  }
  
     
     
     
   public static void main(String[] args) {
-    new NJCumberlandCountyParserTest().generateTests("T11");
+    new NJCumberlandCountyParserTest().generateTests("T1");
   }
 }
