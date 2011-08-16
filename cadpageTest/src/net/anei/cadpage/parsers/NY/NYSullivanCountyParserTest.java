@@ -118,9 +118,16 @@ public class NYSullivanCountyParserTest extends BaseParserTest {
         "ADDR:358 E BROADWAY",
         "X:RICHARDSON AV / SPRING ST",
         "CITY:Monticello");
+
+    doTest("T16",
+        "(911 Page) 19:24 Type: F-Activated Alarm Loc: 22 SAINT JOHN ST X: No Cross Streets Found V: V/Monticello CN:",
+        "CALL:F-Activated Alarm",
+        "ADDR:22 SAINT JOHN ST",
+        "X:No Cross Streets Found",
+        "CITY:Monticello");
   }
   
   public static void main(String[] args) {
-    new NYSullivanCountyParserTest().generateTests("T13");
+    new NYSullivanCountyParserTest().generateTests("T16");
   }
 }
