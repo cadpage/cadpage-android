@@ -47,6 +47,20 @@ public class NCAlexanderCountyParserTest extends BaseParserTest {
         "PLACE:PIEDMONT FIBERGLASS",
         "CALL:LARGE ALARM",
         "X:NC 90 HWY E & RUSSELL LN");
+
+    doTest("T6",
+        "|CAD:80 PRESLAR LN;BREATHING PROBLEMS;06D02;NC 127 HWY",
+        "ADDR:80 PRESLAR LN",
+        "CALL:BREATHING PROBLEMS",
+        "CODE:06D02",
+        "X:NC 127 HWY");
+
+    doTest("T7",
+        "CAD:350 SCHOOL DR;TAYLORSVILLE HOUSE;LARGE ALARM;LILEDOUN RD;E JAY DR",
+        "ADDR:350 SCHOOL DR",
+        "PLACE:TAYLORSVILLE HOUSE",
+        "CALL:LARGE ALARM",
+        "X:LILEDOUN RD & E JAY DR");
   }
 
   public static void main(String[] args) {
