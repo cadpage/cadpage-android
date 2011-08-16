@@ -31,6 +31,9 @@ New Fire Run: 2011-75288,Nature: 28C01G-STROKE/CVA - Not alert - Greater than on
 Contact: Mike and April Covington <madwzc@gmail.com>
 (Nature: 06D02-BREATHING PROBLEMS -) New Fire Run: 2011-79434,,MR51,Location: 21760 CHAPPEL WAY,Building: ,Cross: ,,Grid: 69A,Map: 4291,.
 
+Contact: Stephen Rorai <stephenrorai@yahoo.com>
+(Nature: F25-RESIDENTIAL FIRE) New Fire Run: 2011-86558,,E82;,Location: 12767 COON MASSEY RD-CR,Building: ,Cross: 15344 FM 3083-CR,127,Grid: 190
+
  */
 
 public class TXMontgomeryCountyParser extends FieldProgramParser {
@@ -39,6 +42,7 @@ public class TXMontgomeryCountyParser extends FieldProgramParser {
   private static final String DEF_CITY = "MONTGOMERY COUNTY";
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "CR",   "CONROE",
       "MO",   "MONTGOMERY"
   });
   
