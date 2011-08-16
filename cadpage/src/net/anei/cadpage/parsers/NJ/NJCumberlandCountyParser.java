@@ -26,6 +26,8 @@ E911:E2901_COMM ALARM_(DEERFIELD TWP)MAJOR OIL / 733 LANDIS AV_2011-05-12 09:29:
 Contact: Will Mosley <willmosleysr@gmail.com>
 NJFFS-FD_WDS/BRSH_(MILLVILLE CITY)MILL VILLAGE APTS / 301 N WADE BLVD_2011-06-02 21:50:47_BEHIND/WOODS
 
+Contact: Chuck Nardelli <chuckie3238@gmail.com>
+(E3202_MVC_(UPPER DEERFIELD)DUBOIS RD & FINLEY RD_2011-08-16 01) 19:26_
 
 */
 
@@ -44,6 +46,7 @@ public class NJCumberlandCountyParser extends FieldProgramParser {
   
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
+    if (subject.length() > 0) body = subject + " " + body;
     if (body.startsWith("E911:")) body = body.substring(5).trim();
     return parseFields(body.split("_"), data);
   }
@@ -93,7 +96,7 @@ public class NJCumberlandCountyParser extends FieldProgramParser {
   
   private class TimeStampField extends SkipField {
     public TimeStampField() {
-      setPattern(Pattern.compile("\\d\\d\\d\\d-\\d\\d-\\d\\d \\d\\d:\\d\\d:\\d\\d"), true);
+      setPattern(Pattern.compile("\\d\\d\\d\\d-\\d\\d-\\d\\d \\d\\d[: ]\\d\\d:\\d\\d"), true);
     }
   }
   
