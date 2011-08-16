@@ -103,9 +103,18 @@ public class TXMontgomeryCountyParserTest extends BaseParserTest {
         "CALL:06D02-BREATHING PROBLEMS -",
         "UNIT:MR51",
         "ADDR:21760 CHAPPEL WAY");
+
+    doTest("T13",
+        "(Nature: F25-RESIDENTIAL FIRE) New Fire Run: 2011-86558,,E82;,Location: 12767 COON MASSEY RD-CR,Building: ,Cross: 15344 FM 3083-CR,127,Grid: 190",
+        "ID:2011-86558",
+        "CALL:F25-RESIDENTIAL FIRE",
+        "UNIT:E82",
+        "ADDR:12767 COON MASSEY RD",
+        "CITY:CONROE",
+        "X:15344 FM 3083");
   }
   
   public static void main(String[] args) {
-    new TXMontgomeryCountyParserTest().generateTests("T12");
+    new TXMontgomeryCountyParserTest().generateTests("T13");
   }
 }
