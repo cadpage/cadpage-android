@@ -214,6 +214,13 @@ public class SmsMmsMessageTest {
         "ken@cadpage.org",
         "",
         "From: JDR315 #:002011089429 ALS MED at 21922 121ST ST Rem: 64 F ;HEART PROBLEM CONSCIOUS: YES ,BREATHING: YES", true);
+    
+    doParseTest("NCWataugaCounty","" +
+    		"wcso911@wataugacounty.org 164 BERTON ST BOONE MDL 06D02 2011017104 01:24:25 SICK PERSON 421S-RT OLD 421S-RT BROWNS CHAPEL RD-2ND LT NORTHRDG DR-1ST RT BERTON ST",
+        "wcso911@wataugacounty.org",
+        "",
+        "164 BERTON ST BOONE MDL 06D02 2011017104 01:24:25 SICK PERSON 421S-RT OLD 421S-RT BROWNS CHAPEL RD-2ND LT NORTHRDG DR-1ST RT BERTON ST");
+
   }
   
   @Test

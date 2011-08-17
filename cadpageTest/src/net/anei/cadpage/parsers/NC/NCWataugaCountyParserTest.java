@@ -70,6 +70,20 @@ public class NCWataugaCountyParserTest extends BaseParserTest {
     
   }
   
+  
+  @Test
+  public void testParser3() {
+
+    doTest("T1",
+        "wcso911@wataugacounty.org 164 BERTON ST BOONE MDL 06D02 2011017104 01:24:25 SICK PERSON 421S-RT OLD 421S-RT BROWNS CHAPEL RD-2ND LT NORTHRDG DR-1ST RT BERTON ST",
+        "ADDR:164 BERTON ST",
+        "CITY:BOONE",
+        "CODE:06D02",
+        "ID:2011017104",
+        "CALL:SICK PERSON",
+        "INFO:421S-RT OLD 421S-RT BROWNS CHAPEL RD-2ND LT NORTHRDG DR-1ST RT BERTON ST");
+
+  }
 
   public static void main(String[] args) {
     new NCWataugaCountyParserTest().generateTests("T1", "ADDR CITY CODE ID CALL INFO");
