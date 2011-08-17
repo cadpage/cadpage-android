@@ -483,9 +483,18 @@ public class MDSaintMarysCountyParserTest extends BaseParserTest {
          "CITY:CALIFORNIA",
          "UNIT:ST38",
          "INFO:84 year old, Female, Conscious, Breathing.");
+
+     doTest("T53",
+         "((55034) CAD ) 01:13:28*Personal Injury Accident*27161 YOWAISKI MILL RD*TANYARD DR*COUNTRY LAKES*CO2 SQ2 CO29 EMS42 ALS*single vehicle overturned; across",
+         "CALL:Personal Injury Accident",
+         "ADDR:27161 YOWAISKI MILL RD",
+         "X:TANYARD DR",
+         "CITY:COUNTRY LAKES",
+         "UNIT:CO2 SQ2 CO29 EMS42 ALS",
+         "INFO:single vehicle overturned; across");
  }
   
   public static void main(String[] args) {
-    new MDSaintMarysCountyParserTest().generateTests("T52", "CALL PLACE ADDR APT X CITY UNIT INFO");
+    new MDSaintMarysCountyParserTest().generateTests("T53", "CALL PLACE ADDR APT X CITY UNIT INFO");
   }
 }

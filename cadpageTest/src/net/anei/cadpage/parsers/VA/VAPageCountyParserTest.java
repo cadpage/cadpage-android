@@ -41,7 +41,7 @@ public class VAPageCountyParserTest extends BaseParserTest {
         "ID:2011-004542",
         "X:S SECOND ST/FRONT ST");
 
-    doTest("T1",
+    doTest("T4",
         "MAILBOX:CO24 COMMERCIAL ALARM 525 MIDDLEBURG RD STA CFS# 2011-005247 CROSS: US HWY BSN 340/GOODRICH RD",
         "SRC:CO24",
         "CALL:COMMERCIAL ALARM",
@@ -49,6 +49,15 @@ public class VAPageCountyParserTest extends BaseParserTest {
         "CITY:STANLEY",
         "ID:2011-005247",
         "X:US HWY BSN 340/GOODRICH RD");
+
+    doTest("T5",
+        "(RS1 INJURIES FROM A FALL 4472  US HWY 340    SHE  CFS# 2011-016573 CROSS) MAILBOX:HIDEAWAY LN/NEWPORT RD",
+        "SRC:RS1",
+        "CALL:INJURIES FROM A FALL",
+        "ADDR:4472 US HWY 340",
+        "CITY:SHENANDOAH",
+        "ID:2011-016573",
+        "X:HIDEAWAY LN/NEWPORT RD");
   }
   
   public static void main(String[] args) {
