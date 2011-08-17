@@ -2996,8 +2996,11 @@ HIGH MECH MVA
 96TH ST E / SR162 E,22
 Map=397,RD=22- 135
 to: F22
-
 **********************************************************
+Havertown, PA (Delaware County)
+Contact: chris smith <csmith045@verizon.net>
+Sender: oakmont1@comcast.net
+09:06\nE BENEDICT AV & W DARBY RD\nSTREET CLOSED\nE BENEDICT AV\nW DARBY RD\n08/16/2011\nSTREET\nSTA38\nF11046756\nE BENEDICT BETWEEN DARB
 **********************************************************
 **********************************************************
 **********************************************************
