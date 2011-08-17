@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="release_date">20110816</string>
+  <string name="release_version">v1.4.20</string>
+  <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
+  <string name="release_magic_word2">quantum</string>
+  <string name="release_text">
+    Thanks to everyone who has donated Your support is appreciated and helps support the app.\n
+    See http://www.cadpage.org/financial-support for more details\n
+    \n
+  What"'"s new in this release\n
+  The new Config Widget has been Updated (less crashing) ! Long Press on an empty part of your home screen to add the new 1x4 widget.\n
+  Instructions on use are on the webpage under UserManual and on the Facebook Page.\n
+  MMS Support is here!!!\n
+  This is highly experimental.  Your mileage may vary.  See http://www.cadpage.org/faq/mms-message-support for details\n
+  \n
+  Multiple Fixes for Existing Locations and Issues\n
+  Make Cadpage work on Android 1.6 again.\n
+New Locations:\n
+Bell County, TX\n
+Johnson County, MO\n
+Colbert County, AL\n
+New Haven County, CT\n
+Pike County, GA\n
+Alexander County, NC\n
+Hamilton County, OH\n
+Caldwell County, NC\n
+Denton County, TX\n
+Fixes:\n
+Parsing problem with Bucks County, PA\n
+Sender has changed for Minnehaha County, SD\n
+Parsing problem with Anne Arundel County, MD\n
+Parsing problem with Linn County, OR\n
+Parsing problem Brunswick County, NC\n
+Parsing problem with Guilford County, NC\n
+Parsing problem with Somerset County, NJ\n
+Parsing problem with Suffolk County, NY (C)\n
+Parsing problem with all Red Alert parsers (Suffolk County, NY (C) in particular)\n
+Parsing problem with Clermont County, OH\n
+Parsing problem with Chester County (B), PA\n
+Parsing problem with Lake County, FL\n
+Parsing problem with El Dorado County, CA\n
+Force close in Lexington Rockridge County, VA location parser\n
+Mapping problem reported at Harford, MD\n
+Missing city code for Montgomery County, TX\n
+  </string>  
+</resources>
+  
