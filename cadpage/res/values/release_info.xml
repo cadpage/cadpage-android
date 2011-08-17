@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">20110805</string>
-  <string name="release_version">v1.4.19</string>
+  <string name="release_date">20110816</string>
+  <string name="release_version">v1.4.20</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
@@ -17,40 +17,32 @@
   Multiple Fixes for Existing Locations and Issues\n
   Make Cadpage work on Android 1.6 again.\n
 New Locations:\n
-Porter County, IN \n 
-Beaver County, PA  \n
-Whitefield County, GA\n  
-Howard County, MD  \n
-Ontario County, NY   \n
-Wadsworth, OH  \n
-Carteret County, NC\n  
-Washington County, TN\n  
+Bell County, TX\n
+Johnson County, MO\n
+Colbert County, AL\n
+New Haven County, CT\n
+Pike County, GA\n
+Alexander County, NC\n
+Hamilton County, OH\n
+Caldwell County, NC\n
+Denton County, TX\n
 Fixes:\n
-Crook County, OR  \n 
-Rockland County, NY \n 
-Worcester County, MD  \n 
-Chester County, PA (B)  \n 
-Kenosha County, WI   \n
-Stone County,MO  \n
-York County, ME  \n
-Chester County   \n
-Transylvania County, NC\n  
-St Marys County, MD  \n
-Sonoma County, CA  \n
-Erie County, PA  \n
-Prince Georges County (C)\n  
-Broome County, NY location \n  
-Mendicino County, CA   \n
-MICOM, NJ location   \n
-Marion County, OR  \n
-Mecklenburg County, NC\n   
-Oneida County, NY    \n
-AWatauga County,NC   \n
-Campbell County, VA  \n
-Washington County, PA  \n
-Suffolk COunty, NY (A)   \n
-Harris County, TX (B) \n
-\n
+Parsing problem with Bucks County, PA\n
+Sender has changed for Minnehaha County, SD\n
+Parsing problem with Anne Arundel County, MD\n
+Parsing problem with Linn County, OR\n
+Parsing problem Brunswick County, NC\n
+Parsing problem with Guilford County, NC\n
+Parsing problem with Somerset County, NJ\n
+Parsing problem with Suffolk County, NY (C)\n
+Parsing problem with all Red Alert parsers (Suffolk County, NY (C) in particular)\n
+Parsing problem with Clermont County, OH\n
+Parsing problem with Chester County (B), PA\n
+Parsing problem with Lake County, FL\n
+Parsing problem with El Dorado County, CA\n
+Force close in Lexington Rockridge County, VA location parser\n
+Mapping problem reported at Harford, MD\n
+Missing city code for Montgomery County, TX\n
   </string>  
 </resources>
   
