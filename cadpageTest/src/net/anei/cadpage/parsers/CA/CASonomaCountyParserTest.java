@@ -97,6 +97,15 @@ public class CASonomaCountyParserTest extends BaseParserTest {
         "INFO:UNSURE WHAT");
 
     doTest("T10",
+        "Loc: 2637 WILD BILL CI SR BOX: 3048 C4 TYP: STRU CN: BARRAGAN MARTHA C#: (707) 544-5719 TYPE CODE: STRU CALLER NAME: BARRAGAN MARTHA CALLER ADDR: 2637 WILD",
+        "ADDR:2637 WILD BILL CI",
+        "SRC:SR",
+        "BOX:3048 C4",
+        "CALL:STRU",
+        "NAME:BARRAGAN MARTHA",
+        "PHONE:(707) 544-5719");
+
+    doTest("T11",
         "Loc: 1142 DUER RD WSR BOX: 3045 C4 TYP: HC CN: SANDRA C#: (707) 484-0358 TYPE CODE: HC CALLER NAME: SANDRA CALLER ADDR:  TIME: 14:50:20 COM:  BROKEN SPRINKL",
         "ADDR:1142 DUER RD",
         "SRC:WSR",
