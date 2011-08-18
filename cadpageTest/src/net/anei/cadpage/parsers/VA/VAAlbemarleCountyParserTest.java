@@ -13,7 +13,7 @@ public class VAAlbemarleCountyParserTest extends BaseParserTest {
   }
   
   @Test
-  public void testParser() {
+  public void testEarlysvillParser() {
     
     doTest("T1",
         "EARLYSVILL EXTRICATION AD: SEMINOLE TRL&FRAYS MILL RD CTY: AC LOC: SB JUST S OF THE STOPLIGHT CALLER WAS GOING NB AND SAW A VEHICLE ROLL OVER SE",
@@ -61,7 +61,37 @@ public class VAAlbemarleCountyParserTest extends BaseParserTest {
         "ADDR:702 WOODBURN CT",
         "INFO:SPARKS COMING FROM THE CHIMNEY-FIRE STILL IN FIREPLACE-NO SMOKE IN APT",
         "X:2036 WO");
-    
-    
+  }
+  
+  @Test
+  public void testCfchqParser() {
+
+    doTest("T1",
+        "CFCHQ      SEIZURE/CONVULSION M AD: 222 SHAMROCK RD CTY: CH LOC: ARC OF THE PIEDMONT 53 YOF, SEIZURE, SOB, HX OF SEIZURES XST: 100 STRATFORD CT",
+        "SRC:CFCHQ",
+        "CALL:SEIZURE/CONVULSION M",
+        "ADDR:222 SHAMROCK RD",
+        "INFO:ARC OF THE PIEDMONT 53 YOF, SEIZURE, SOB, HX OF SEIZURES",
+        "X:100 STRATFORD CT");
+
+    doTest("T2",
+        "CFCHQ      REDUCED COMM FIRE AD: 1215 LEE ST - UVA CTY: CH LOC: UNIVERSITY HOSPITAL BURNING SMELL IN 7 CENTRAL",
+        "SRC:CFCHQ",
+        "CALL:REDUCED COMM FIRE",
+        "ADDR:1215 LEE ST",
+        "PLACE:UVA",
+        "INFO:UNIVERSITY HOSPITAL BURNING SMELL IN 7 CENTRAL");
+
+    doTest("T3",
+        "CFCHQ      SEIZURE/CONVULSION M AD: 222 SHAMROCK RD CTY: CH LOC: ARC OF THE PIEDMONT 53 YOF, SEIZURE, SOB, HX OF SEIZURES XST: 100 STRATFORD CT",
+        "SRC:CFCHQ",
+        "CALL:SEIZURE/CONVULSION M",
+        "ADDR:222 SHAMROCK RD",
+        "INFO:ARC OF THE PIEDMONT 53 YOF, SEIZURE, SOB, HX OF SEIZURES",
+        "X:100 STRATFORD CT");
+  }
+  
+  public static void main(String[] args) {
+    new VAAlbemarleCountyParserTest().generateTests("T1");
   }
 }
