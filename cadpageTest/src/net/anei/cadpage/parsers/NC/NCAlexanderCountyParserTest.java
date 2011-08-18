@@ -12,6 +12,11 @@ public class NCAlexanderCountyParserTest extends BaseParserTest {
   }
   
   @Test
+  public void testBad() {
+    doBadTest("CAD:");
+  }
+  
+  @Test
   public void testParser() {
 
     doTest("T1",
@@ -61,9 +66,16 @@ public class NCAlexanderCountyParserTest extends BaseParserTest {
         "PLACE:TAYLORSVILLE HOUSE",
         "CALL:LARGE ALARM",
         "X:LILEDOUN RD & E JAY DR");
-  }
+
+    doTest("T8",
+        "CAD:65 MOONEY DR;TRAUMATIC INJURIES;30A02;US 64 90 HWY W",
+        "ADDR:65 MOONEY DR",
+        "CALL:TRAUMATIC INJURIES",
+        "CODE:30A02",
+        "X:US 64 90 HWY W");
+ }
 
   public static void main(String[] args) {
-    new NCAlexanderCountyParserTest().generateTests("T1", "ADDR PLACE CALL CODE X");
+    new NCAlexanderCountyParserTest().generateTests("T8", "ADDR PLACE CALL CODE X");
   }
 }
