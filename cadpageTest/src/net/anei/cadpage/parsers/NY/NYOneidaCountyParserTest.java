@@ -94,9 +94,17 @@ public class NYOneidaCountyParserTest extends BaseParserTest {
         "ADDR:8428 DAWN DR",
         "CITY:ROME",
         "X:EVENING RD/;");
-  }
+
+    doTest("T11",
+        "?VEOF:2011:0407>Dispatched\n>ALARM FIRE\n>5218 PATRICK RD (COUNTY ROUTE 48A), VERONA (VERONA, ROUTE 365/SNYDER RD; Near:TURNING STONE CASINO)",
+        "ID:2011:0407",
+        "CALL:ALARM FIRE",
+        "ADDR:5218 PATRICK RD",
+        "CITY:VERONA",
+        "X:VERONA, ROUTE 365/SNYDER RD; Near:TURNING STONE CASINO");
+ }
   
   public static void main(String[] args) {
-    new NYOneidaCountyParserTest().generateTests("T11", "ID CALL ADDR CITY X");
+    new NYOneidaCountyParserTest().generateTests("T12", "ID CALL ADDR CITY X");
   }
 }
