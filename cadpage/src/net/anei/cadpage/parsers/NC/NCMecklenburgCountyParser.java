@@ -42,6 +42,9 @@ Contact: John Stroup <j.stroup@northmeckrescue.org>
 Subject:Incoming Message\n15503 N Old Statesville Rd North Meck Rescue Charlie 12- Convulsion/Seizure 60 Foot St/Unnamed St Nmr1 Map - 266266/
 Subject:Incoming Message\n15503 N Old Statesville Rd North Meck Rescue Charlie 12- Convulsion/Seizure 60 Foot St/Unnamed St Nmr2 Map - 266266/
 
+Contact: Ben Reagan <breagan@eastlincolnfd.org>
+(Incoming Message) 16902 Harbor Master Cove                                              Fire -  Emergency             52F
+
 */
 
 public class NCMecklenburgCountyParser extends SmsMsgParser {

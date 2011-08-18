@@ -45,6 +45,9 @@ Contact: James Griffiths <griffballs72@gmail.com>
 Contact: Michael Delong <mike.delong.392@gmail.com>
 ?LADF:2011:0165>Dispatched\n>FIRE STRUCTURE\n>8428 DAWN DR, ROME OUTSIDE (EVENING RD/;)
 
+Contact: David Kennett <kennett.d.24@gmail.com>
+?VEOF:2011:0407>Dispatched\n>ALARM FIRE\n>5218 PATRICK RD (COUNTY ROUTE 48A), VERONA (VERONA, ROUTE 365/SNYDER RD; Near:TURNING STONE CASINO)
+
 */
 
 public class NYOneidaCountyParser extends SmsMsgParser {
@@ -75,15 +78,17 @@ public class NYOneidaCountyParser extends SmsMsgParser {
     
     
     String[] flds = DELIM.split(body);
+    if (flds.length <= 3) return false;
 
     data.strCallId = flds[0];
-    if (flds.length <= 2) return false;
     if (flds[1].equals("Dispatch")) return false;
     data.strCall = flds[2];
     
-    if (flds.length <= 3) return false;
     Parser p = new Parser(flds[3]);
-    parseAddress(p.get(','), data);
+    String sAddr = p.get(',');
+    pt = sAddr.indexOf('(');
+    if (pt >= 0) sAddr = sAddr.substring(0,pt).trim();
+    parseAddress(sAddr, data);
     data.strCity = p.getOptional('(');
     Matcher match = OUTSIDE.matcher(data.strCity);
     if (match.find()) data.strCity = data.strCity.substring(0,match.start()).trim();
