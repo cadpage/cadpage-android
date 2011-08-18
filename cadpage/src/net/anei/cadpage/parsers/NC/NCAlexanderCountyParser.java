@@ -23,6 +23,9 @@ Contact: Josh Davis <paramedicdavis@gmail.com>
 Contact: Chappy <kchapman@taylorsvillefire.org>
 CAD:350 SCHOOL DR;TAYLORSVILLE HOUSE;LARGE ALARM;LILEDOUN RD;E JAY DR
 
+Contact: trent tedder <emt4448@yahoo.com>
+CAD:65 MOONEY DR;TRAUMATIC INJURIES;30A02;US 64 90 HWY W
+
 */
 
 public class NCAlexanderCountyParser extends SmartAddressParser {
@@ -51,6 +54,7 @@ public class NCAlexanderCountyParser extends SmartAddressParser {
     int ndx = 2;
     boolean code;
     while (true) {
+      if (ndx >= flds.length) return false;
       String field = flds[ndx].trim();
       code = CODE_PTN.matcher(field).matches();
       if (code || field.startsWith("NC ") || field.startsWith("US ") || 
