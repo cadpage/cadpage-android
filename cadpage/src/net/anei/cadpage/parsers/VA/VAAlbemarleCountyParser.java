@@ -1,9 +1,7 @@
 package net.anei.cadpage.parsers.VA;
 
-import java.util.Properties;
-
 import net.anei.cadpage.SmsMsgInfo.Data;
-import net.anei.cadpage.parsers.SmsMsgParser;
+import net.anei.cadpage.parsers.FieldProgramParser;
 
 /*
 Albemarle County, VA
@@ -26,16 +24,20 @@ EARLYSVILL ALARM ACTIVATION AD: 4924 FREE UNION RD CTY: AC LOC: RICHARD BOOTH RE
 EARLYSVILL CHIMNEY FIRE APT:11B AD:702 WOODBURN CT CTY:AC SPARKS COMING FROM THE CHIMNEY-FIRE STILL IN FIREPLACE-NO SMOKE IN APT XST:2036 WO
 EARLYSVILL BRUSH FIRE AD: 1589 THOMPSON FARM RD CTY: AC LOC: OFF OF FREE UNION RD CALLER ADV'D A LOT OF SMOKE IN THE AREA, POSSIBLY FROM A CONTRO
 
-Contact:
+Contact: Lance Blakey <lanceblakey@gmail.com>
+CFCHQ      SEIZURE/CONVULSION M AD: 222 SHAMROCK RD CTY: CH LOC: ARC OF THE PIEDMONT 53 YOF, SEIZURE, SOB, HX OF SEIZURES XST: 100 STRATFORD CT
+CFCHQ      REDUCED COMM FIRE AD: 1215 LEE ST - UVA CTY: CH LOC: UNIVERSITY HOSPITAL BURNING SMELL IN 7 CENTRAL
+CFCHQ      SEIZURE/CONVULSION M AD: 222 SHAMROCK RD CTY: CH LOC: ARC OF THE PIEDMONT 53 YOF, SEIZURE, SOB, HX OF SEIZURES XST: 100 STRATFORD CT
+
  */
 
 
-public class VAAlbemarleCountyParser extends SmsMsgParser {
-  
-  private static final String[] keywords = new String[]{"CALL", "APT", "AD", "CTY", "LOC", "XST", "XST2"};
+public class VAAlbemarleCountyParser extends FieldProgramParser {
+    
   
   public VAAlbemarleCountyParser() {
-    super("ALBEMARLE COUNTY", "VA");
+    super("ALBEMARLE COUNTY", "VA",
+           "CALL! APT:APT? AD:ADDR! CTY:CITY! LOC:INFO? XST:X? XST2:X");
   }
   
   @Override
@@ -49,35 +51,48 @@ public class VAAlbemarleCountyParser extends SmsMsgParser {
     if (body.length() < 10) return false;
     
     data.strSource = body.substring(0,10).trim();
-    body = "CALL:" + body.substring(10);
+    body = body.substring(10).trim();
+    return super.parseMsg(body, data);
+  }
+  
+  // Address field may contain place name
+  private class MyAddressField extends AddressField {
     
-    Properties props = parseMessage(body, keywords);
-    
-    data.strCall = props.getProperty("CALL");
-    if (data.strCall == null) return false;
-    
-    data.strApt = props.getProperty("APT", "");
-    
-    String sAddress = props.getProperty("AD");
-    if (sAddress == null) return false;
-    parseAddress(sAddress, data);
-    
-    String city = props.getProperty("CTY", "");
-    if (!city.startsWith("AC")) return false;
-    
-    if (city.length() > 3) {
-      data.strSupp = city.substring(3).trim();
-    } else {
-      data.strSupp = props.getProperty("LOC", "");
+    @Override
+    public void parse(String field, Data data) {
+      int pt = field.indexOf(" - ");
+      if (pt >= 0) {
+        data.strPlace = field.substring(pt+3).trim();
+        field = field.substring(0,pt).trim();
+      }
+      super.parse(field, data); 
     }
     
-    data.strCross = props.getProperty("XST", "");
-    String x2 = props.getProperty("XST2", "");
-    if (x2.length() > 0) {
-      if (data.strCross.length() > 0) data.strCross += " & ";
-      data.strCross += x2;
+    @Override
+    public String getFieldNames() {
+      return super.getFieldNames() + " PLACE";
     }
-    
-    return true;
+  }
+  
+  // City code isn't really a city.  It is a 2 character source code
+  // possibly followed by an info field.  And we ignore the source code in
+  // favor of the 10 character code at the beginning of the message
+  private class MyCityField extends SkipField {
+    @Override
+    public void parse(String field, Data data) {
+      if (field.length() > 3) data.strSupp = field.substring(3).trim();
+    }
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("CITY")) return new MyCityField();
+    return super.getField(name);
+  }
+  
+  @Override
+  public String getProgram() {
+    return "SRC " + super.getProgram();
   }
 }
