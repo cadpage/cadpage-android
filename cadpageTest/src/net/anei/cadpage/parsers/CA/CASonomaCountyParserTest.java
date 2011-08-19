@@ -106,6 +106,19 @@ public class CASonomaCountyParserTest extends BaseParserTest {
         "PHONE:(707) 544-5719");
 
     doTest("T11",
+        "Loc: DUTTON MEADOW/TUXHORN DR SR BOX: 3048 D4 CN: TOGNERI JOHN W C#: (707) 545-7701 TYP: STRU CALLER ADDR: 2742 MORGAN CREEK TIME: 14:58:04 COM:  OUT BLDG /",
+        "ADDR:DUTTON MEADOW & TUXHORN DR",
+        "SRC:SR",
+        "BOX:3048 D4",
+        "NAME:TOGNERI JOHN W",
+        "PHONE:(707) 545-7701 TYP: STRU",
+        "INFO:OUT BLDG /");
+  }
+  
+  @Test
+  public void testParser2() {
+
+    doTest("T1",
         "Loc: 1142 DUER RD WSR BOX: 3045 C4 TYP: HC CN: SANDRA C#: (707) 484-0358 TYPE CODE: HC CALLER NAME: SANDRA CALLER ADDR:  TIME: 14:50:20 COM:  BROKEN SPRINKL",
         "ADDR:1142 DUER RD",
         "SRC:WSR",
@@ -114,7 +127,6 @@ public class CASonomaCountyParserTest extends BaseParserTest {
         "NAME:SANDRA",
         "PHONE:(707) 484-0358",
         "INFO:BROKEN SPRINKL");
-        
   }
   
   @Test
@@ -190,6 +202,6 @@ public class CASonomaCountyParserTest extends BaseParserTest {
   }
   
   public static void main(String[] args) {
-    new CASonomaCountyParserTest().generateTests("T10");
+    new CASonomaCountyParserTest().generateTests("T11");
   }
 }
