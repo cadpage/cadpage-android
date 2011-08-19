@@ -113,6 +113,7 @@ public class MNAnokaCountyParser extends SmartAddressParser {
   
   private static final Properties CALL_CODES = buildCodeTable(new String[]{
       "27F",  "Bomb Threat",
+      "32M",  "Medical",
       "32R",  "Rescue",
       "32X",  "PI Accident",
       "39F",  "Alarm (Fire)",
