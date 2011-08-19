@@ -1,5 +1,7 @@
 package net.anei.cadpage.parsers.MN;
 
+import java.util.Properties;
+
 import net.anei.cadpage.SmsMsgInfo.Data;
 import net.anei.cadpage.parsers.SmartAddressParser;
 
@@ -34,11 +36,8 @@ CAD MSG: *D D4   32M      3254 90 LN NE  LIFT ASSIST ONLY...LARGE MALE (300+) IN
 
 public class MNAnokaCountyParser extends SmartAddressParser {
   
-  private static final String DEF_STATE = "MN";
-  private static final String DEF_CITY = "ANOKA COUNTY";
-  
   public MNAnokaCountyParser() {
-    super(DEF_CITY, DEF_STATE);
+    super("ANOKA COUNTY", "MN");
   }
   
   @Override
@@ -50,12 +49,17 @@ public class MNAnokaCountyParser extends SmartAddressParser {
   protected boolean parseMsg(String body, Data data) {
     
     // Extract primary call description
-    int pt = body.indexOf("CAD MSG: ");
+    int pt = body.indexOf("CAD MSG: *D ");
     if (pt < 0) return false;
     body = body.substring(pt);
     
     if (body.length() < 26) return false;
-    data.strCall = body.substring(9, 26).trim();
+    Parser p = new Parser(body.substring(12, 26).trim());
+    data.strSource = p.get(' ');
+    data.strCall = p.get();
+    String sDesc = CALL_CODES.getProperty(data.strCall);
+    if (sDesc != null) data.strCall = data.strCall + " - " + sDesc;
+    
     body = body.substring(26);
     
     // Extract call ID if there is one
@@ -106,4 +110,24 @@ public class MNAnokaCountyParser extends SmartAddressParser {
     }
     return true;
   }
+  
+  private static final Properties CALL_CODES = buildCodeTable(new String[]{
+      "27F",  "Bomb Threat",
+      "32R",  "Rescue",
+      "32X",  "PI Accident",
+      "39F",  "Alarm (Fire)",
+      "39CO", "Alarm (Carbon Monoxide)",
+      "45F",  "Fire Drill",
+      "50",   "Fire (Unknown)",
+      "51",   "Fire (Building)",
+      "52",   "Fire (Grass)",
+      "53",   "Fire (Vehicle)",
+      "54",   "Fire (Refuse)",
+      "55",   "Fire (Electrical)",
+      "56",   "Smoke/Gas Odor",
+      "57",   "Fire (Misc)",
+      "59",   "Police Assist",
+      "PC59", "Phone Call",
+      "73F",  "Road Closure Info"
+  });
 }
