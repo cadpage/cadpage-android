@@ -3006,54 +3006,6 @@ Subject:Alert\nDescription:FUEL CON SM\nAddress: 14000 I-81 \nMARTINSBURG\n\n
 **********************************************************
 **********************************************************
 **********************************************************
-Flathead County, MT
-Contact: Tristan Peterson <twpetetson72@gmail.com>
-Sender: dispatch@communicationcenter.com
-Body: 1 of 3\n
-FRM:dispatch@communicationcenter.com\n
-SUBJ:Dispatch Information\n
-MSG:Unit:MCFD Status:Dispatched Location: 417 1ST AVE N Martin City Call\n
-(Con't) 2 of 3\n
-Type: Medical ALS Call Time: 06:29 Info:\2ston of cars in front drive, then
-go to back yard\2shad chest pains prior to this\2sCO UNITS ADV \n
-(Con't) 3 of 3\n
-cpr in progress\2s50 ACK\2s55 ACK\2sturning blue\2sunk what happened, going
-to him now\2s\n
-(End)
-
-Body: 1 of 3\n
-FRM:dispatch@communicationcenter.com\n
-SUBJ:Dispatch Information\n
-MSG:Unit:MCFD Status:Dispatched Location: Hungry Horse Reservoir Call\n
-(Con't) 2 of 3\n
-Type: Medical ALS Call Time: 21:13 Info:\2sRUN CARD SHOWED NO FIRE UNITS TO
-DISPATCH, DISPATCHED HHFD AND MCFD FROM MEMORY\2s1602 AND 1501\n
-(Con't) 3 of 3\n
-ACK\2sRP CALLED BACK....FATHER IS FEELING WEAK AND SLEEPY\2sADV TO CALL BACK
-WHEN GETS\n
-(End)
-
-Body: 1 of 3\n
-FRM:dispatch@communicationcenter.com\n
-SUBJ:Dispatch Information\n
-MSG:Unit:MCFD Status:Dispatched Location: HIGHWAY 2 E Hungry Horse Call\n
-(Con't) 2 of 3\n
-Type: F Smoke Investigation - Outside Call Time: 20:00 Info:\2sRP LIVES AT
-844 WOODLAND AVE\2sCAN SEE WHAT APPEARS TO BE A SMOKE CLOUD\n
-(Con't) 3 of 3\n
-COMING FORM THE AREA OF HUNGRY HORSE. \n
-(End)
-
-Body: 1 of 3\n
-FRM:dispatch@communicationcenter.com\n
-SUBJ:Dispatch Information\n
-MSG:Unit:MCFD Status:Dispatched Location: Call Type: MVA Injury Call Time:\n
-(Con't) 2 of 3\n
-17:03 Info:\2sRP STATED THEY DID NOT NEED ALERT\2sKIDC SAYS TREMS CAN MAKE
-IT UP THERE...LOWER LEFT LEG PAIN, NO LOC & SOME HEAD ABRASIONS \n
-(Con't) 3 of 3\n
-4 MILES UP RD #497//TOWARD DESERT MTN RD\2sLEG AND BACK\n
-(End)
 **********************************************************
 Montery County, CA
 Contact: Tom Tengdin <t3@razzolink.com>
@@ -3105,7 +3057,7 @@ Dispatch:[SD35]- NATURE: CARDIAC OR RESPIRATORY ARREST/DEATH LOCATION : 212 FAIR
 Dispatch:[SD8]- NATURE: FALLS/BACK INJURY (TRAUMATIC) LOCATION: 164 W HOUCK ST SUITE: 109 CENTERBURG BETWEEN N PRESTON ST / WILL IS ST COMMENTS: FEMALE HAS FALLEN
 Dispatch:[SD24]- NATURE: UNCONCIOUS/PASSING OUT (NONTRAUMATI LOCATION : 164 W HOUCK ST SUITE: 112 CENTERBURG BETWEEN N PRESTON ST / WILLIS ST COMMENTS: PROQA MEDICAL: NEW CASE NUMBER ASSIGN ED CALL 11-1010741 BY SD24 (POS 01) AT 08:13:03 88 YOM UNRE SPONSIVE//BREATHING AT THIS TIME
 **********************************************************
-St Franscis County, MS
+St Franscis County, MO
 Contact: Alex Stephens <alexstephns18@gmail.com>
 Sender: IPN.9999900138@ipnpaging.com
 Use DispacthCiscoParser
