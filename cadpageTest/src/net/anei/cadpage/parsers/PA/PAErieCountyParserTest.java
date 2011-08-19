@@ -22,7 +22,7 @@ public class PAErieCountyParserTest extends BaseParserTest {
         "ADDR:8165 PLATZ RD",
         "X:MARKET RD",
         "NAME:LIST JOHN C",
-        "PLACE:FAIRVIEW TWP",
+        "CITY:FAIRVIEW TWP",
         "MAP:2034",
         "ID:2011-0000044804");
     
@@ -32,7 +32,7 @@ public class PAErieCountyParserTest extends BaseParserTest {
         "ADDR:7656 MAPLE DR",
         "X:CHESTNUT ST",
         "NAME:MUSANTE, JANET",
-        "PLACE:FAIRVIEW TWP",        
+        "CITY:FAIRVIEW TWP",        
         "MAP:2202",
         "ID:2011-0000045114");
 
@@ -42,7 +42,7 @@ public class PAErieCountyParserTest extends BaseParserTest {
         "ADDR:17 I 90 EB",
         "X:I 90 EB RAMP EXIT 16",
         "NAME:LORD, ISAAC",
-        "PLACE:FAIRVIEW TWP",
+        "CITY:FAIRVIEW TWP",
         "MAP:1888",
         "ID:2011-0000043981");
         
@@ -51,7 +51,7 @@ public class PAErieCountyParserTest extends BaseParserTest {
         "CALL:MVA - UNKNOWN STATUS",
         "ADDR:W LAKE RD & WHITEHALL PL",
         "X:LORD RD",
-        "PLACE:FAIRVIEW TWP",
+        "CITY:FAIRVIEW TWP",
         "NAME:WOOD, RODNEY",
         "ID:2011-0000042496");
         
@@ -59,7 +59,7 @@ public class PAErieCountyParserTest extends BaseParserTest {
         "ERIE911:69D6 >STRUC FIRE-SINGLE RESIDENTIAL 6683 OTTEN CT FAIRVIEW TESTI JULIE Cad: 2011-00000399770",
         "CALL:STRUC FIRE-SINGLE RESIDENTIAL",
         "ADDR:6683 OTTEN CT",
-        "PLACE:FAIRVIEW",
+        "CITY:FAIRVIEW",
         "NAME:TESTI JULIE",
         "ID:2011-00000399770");
         
@@ -70,7 +70,7 @@ public class PAErieCountyParserTest extends BaseParserTest {
         "X:UNFAIRVIEW",
         "NAME:DAN",
         "MAP:2302",
-        "PLACE:FAIRVIEW TWP",
+        "CITY:FAIRVIEW TWP",
         "ID:2011-0000040143");
     
     doTest("T7",
@@ -80,7 +80,7 @@ public class PAErieCountyParserTest extends BaseParserTest {
         "X:MILLFAIR RD",
         "NAME:NICOLE",
         "MAP:1988",
-        "PLACE:FAIRVIEW TWP",
+        "CITY:FAIRVIEW TWP",
         "ID:2011-0000047247");
     
     doTest("T8",
@@ -90,7 +90,7 @@ public class PAErieCountyParserTest extends BaseParserTest {
         "X:LYNANN LN",
         "NAME:SANDELL, CECELIA",
         "MAP:2213",
-        "PLACE:FAIRVIEW TWP",
+        "CITY:FAIRVIEW TWP",
         "ID:2011-0000047240");
     
     doTest("T9",
@@ -100,7 +100,7 @@ public class PAErieCountyParserTest extends BaseParserTest {
         "X:DOBLER RD",
         "NAME:WIECZOREK, BOB",
         "MAP:2185",
-        "PLACE:FAIRVIEW TWP",
+        "CITY:FAIRVIEW TWP",
         "ID:2011-0000046184");
     
     doTest("T10",
@@ -110,7 +110,7 @@ public class PAErieCountyParserTest extends BaseParserTest {
         "X:BLAIR RD",
         "NAME:SEAN",
         "MAP:2174",
-        "PLACE:FAIRVIEW TWP",
+        "CITY:FAIRVIEW TWP",
         "ID:2011-0000046843");
     
     doTest("T11",
@@ -119,7 +119,7 @@ public class PAErieCountyParserTest extends BaseParserTest {
         "ADDR:1530 TAYLOR RIDGE CT",
         "NAME:ADT / DIONNA",
         "MAP:2540",
-        "PLACE:FAIRVIEW TWP",
+        "CITY:FAIRVIEW TWP",
         "ID:2011-0000046825");
 
     doTest("T12",
@@ -129,7 +129,7 @@ public class PAErieCountyParserTest extends BaseParserTest {
         "X:W LAKE RD",
         "NAME:WATTS, BETTY",
         "MAP:9214",
-        "PLACE:MILLCREEK TWP",
+        "CITY:MILLCREEK TWP",
         "ID:2011-0000076275");
 
     doTest("T13",
@@ -152,13 +152,23 @@ public class PAErieCountyParserTest extends BaseParserTest {
         "CALL:UNKNOWN PROBLEM",
         "ADDR:10793 ETTER RD",
         "X:LAKE PLEASANT RD",
-        "NAME:GREENE TWP DUSILA,CANDY",
+        "CITY:GREENE TWP",
+        "NAME:DUSILA,CANDY",
         "MAP:277",
         "ID:2011-0000090035");
+
+    doTest("T17",
+        "ERIE911:29D2N2>MVA -EJECTION- HIGH MECHANISM PLUM RD VENANGO TWP ADAM Map:489 Grids:, Cad: 2011-0000096580",
+        "CALL:MVA -EJECTION- HIGH MECHANISM",
+        "ADDR:PLUM RD",
+        "CITY:VENANGO TWP",
+        "NAME:ADAM",
+        "MAP:489",
+        "ID:2011-0000096580");
  
   }
   
   public static void main(String[] args) {
-    new PAErieCountyParserTest().generateTests("T16", "CALL ADDR X NAME MAP PLACE ID");
+    new PAErieCountyParserTest().generateTests("T17", "CALL ADDR CITY X NAME MAP PLACE ID");
   }
 }
