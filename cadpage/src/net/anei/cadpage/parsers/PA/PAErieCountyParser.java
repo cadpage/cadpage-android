@@ -34,16 +34,13 @@ ERIE911:HASKINS RD IS NOW OPEN
 ERIE911:ACTIVE SHOOTER INCIDENTS - MANDATORY TRAINING - SEPT 6,7 OR 8TH. EIGHT HOUR COURSE. REQUIRED TO ATTEND ONE OF THE DAYS.
 ERIE911:SAMPSON RD NOW OPEN......
 ERIE911:32B1 >UNKNOWN PROBLEM 10793 ETTER RD XS: LAKE PLEASANT RD GREENE TWP DUSILA,CANDY Map:277 Grids:, Cad: 2011-0000090035
+ERIE911:29D2N2>MVA -EJECTION- HIGH MECHANISM PLUM RD VENANGO TWP ADAM Map:489 Grids:, Cad: 2011-0000096580
 
 */
 
 public class PAErieCountyParser extends DispatchBParser {
   
-  private static final String[] CITY_LIST = new String[]{
-    "FAIRVIEW TWP","FAIRVIEW", "MILLCREEK TWP"
-  };
-  
-  private static final Pattern MARKER = Pattern.compile("^ERIE911:\\w{3,} >");
+  private static final Pattern MARKER = Pattern.compile("^ERIE911:\\w{3,} ?>");
  
   public PAErieCountyParser() {
     super(CITY_LIST, "ERIE COUNTY", "PA");
@@ -63,13 +60,50 @@ public class PAErieCountyParser extends DispatchBParser {
       return true;
     }
     
-    if (!super.parseMsg(body, data)) return false;
-    
-    // The field we parse as a city isn't recognized by Google maps.  We'll
-    // switch it to the Place field where at least it will show up on the screen
-    // but won't interfere with mapping
-    if (data.strPlace.length() == 0) data.strPlace = data.strCity;
-    data.strCity = "";
-    return true;
+    return super.parseMsg(body, data);
   }
+  
+  private static final String[] CITY_LIST = new String[]{
+    "CORRY",
+    "ERIE",
+    
+    "ALBION",
+    "CRANESVILLE",
+    "EDINBORO",
+    "ELGIN",
+    "FAIRVIEW",
+    "GIRARD",
+    "LAKE CITY",
+    "MCKEAN",
+    "MILL VILLAGE",
+    "NORTH EAST",
+    "PLATEA",
+    "UNION CITY",
+    "WATERFORD",
+    "WATTSBURG",
+    "WESLEYVILLE",
+    
+    "AMITY TWP",
+    "CONCORD TWP",
+    "CONNEAUT TWP",
+    "ELK CREEK TWP",
+    "FAIRVIEW TWP",
+    "FRANKLIN TWP",
+    "GIRARD TWP",
+    "GREENE TWP",
+    "GREENFIELD TWP",
+    "HARBORCREEK TWP",
+    "LAWRENCE PARK TWP",
+    "LEBOEUF TWP",
+    "MCKEAN TWP",
+    "MILLCREEK TWP",
+    "NORTH EAST TWP",
+    "SPRINGFIELD TWP",
+    "SUMMIT TWP",
+    "UNION TWP",
+    "VENANGO TWP",
+    "WASHINGTON TWP",
+    "WATERFORD TWP",
+    "WAYNE TWP",
+  };
 }

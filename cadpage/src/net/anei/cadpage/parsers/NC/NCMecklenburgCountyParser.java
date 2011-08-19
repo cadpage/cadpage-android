@@ -47,6 +47,9 @@ Contact: Ben Reagan <breagan@eastlincolnfd.org>
 (Incoming Message) 13000-blk Hidcote Ct                    BURNING BRUSH                 Fire -  Emergency             67-
 (Incoming Message) 16902 Harbor Master Cove                                              Fire -  Emergency             52F
 (Incoming Message) 14341 Salem Ridge Rd                    residential fire alarm        Fire -  Emergency             52F
+(Incoming Message) 12019 Verhoeff Dr                       Huntersville Oaks Nursing *SNFFire -  Emergency             52F
+(Incoming Message) Beatties Ford Rd & Mcilwaine R          TREE DOWN BLOCKING ONE LANE   Fire -  Emergency             53-
+
 
 */
 
