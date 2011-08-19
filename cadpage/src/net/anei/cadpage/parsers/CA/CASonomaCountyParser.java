@@ -61,7 +61,7 @@ public class CASonomaCountyParser extends FieldProgramParser {
   
   public CASonomaCountyParser() {
     super(STATION_CODES, "SONOMA COUNTY", "CA",
-           "Loc:ADDR? BOX:BOX TYP:CALL? TYPE_CODE:SKIP? CN:NAME CC:PHONE TYPE_CODE:SKIP? CALLER_NAME:NAME CALLER_ADDR:ADDR2/S TIME:SKIP COM:INFO");
+           "Loc:ADDR? BOX:BOX TYP:CALL? CN:NAME CC:PHONE TYP:CALL? TYPE_CODE:SKIP CALLER_NAME:NAME CALLER_ADDR:ADDR2/S TIME:SKIP COM:INFO");
   }
   
   @Override
@@ -73,6 +73,7 @@ public class CASonomaCountyParser extends FieldProgramParser {
   protected boolean parseMsg(String subject, String body, Data data) {
     body = body.replaceAll("C#:", "CC:");
     if (! super.parseMsg(body, data)) return false;
+    if (data.strCall.length() == 0) return false;
     if (data.strAddress.length() == 0) return false;
     data.strAddress = HW_PTN.matcher(data.strAddress).replaceAll("HWY");
     return true;
