@@ -71,10 +71,16 @@ public class MDMontgomeryCountyParserTest extends BaseParserTest {
         "ADDR:4700 BROOM DR & 18400 WICKHAM RD",
         "UNIT:A740 E740 M704 RS704");
 
+    doTest("T9",
+        "FRM:General Alerts\nMSG:CAD MSG: * D *  * MAF FULL * 14615 PHILIP DR * AT715 BCNOT DFRS=",
+        "CALL:MAF FULL",
+        "ADDR:14615 PHILIP DR",
+        "UNIT:AT715");
+
   }
   
   public static void main(String[] args) {
-    new MDMontgomeryCountyParserTest().generateTests("T8", "BOX CALL ADDR UNIT PLACE");
+    new MDMontgomeryCountyParserTest().generateTests("T10", "BOX CALL ADDR UNIT PLACE");
   }
   
 }
