@@ -74,9 +74,26 @@ public class MDHowardCountyParserTest extends BaseParserTest {
         "PLACE:SMITH RESIDENCE",
         "CALL:MEDICAL-***********",
         "BOX:0545");
+
+    doTest("T9",
+        "(CAD) [CAD] EVENT: F11023456 7110 MINSTREL WAY ECOL: @BRIGHTON GARDENS TYPE: SMOKE-INSIDE/HIGHOCC @ 10:38:22 BEAT/BOX: 1034",
+        "ID:F11023456",
+        "ADDR:7110 MINSTREL WAY",
+        "CITY:COLUMBIA",
+        "PLACE:BRIGHTON GARDENS",
+        "CALL:SMOKE-INSIDE/HIGHOCC",
+        "BOX:1034");
+
+    doTest("T10",
+        "(CAD) [CAD] EVENT: F11023457 RT 29 SB/RIVERS EDGE RD SCOL TYPE: RESCUE--UNKNOW @ 10:56:54 BEAT/BOX: 029086",
+        "ID:F11023457",
+        "ADDR:RT 29 SB & RIVERS EDGE RD",
+        "CITY:COLUMBIA",
+        "CALL:RESCUE--UNKNOW",
+        "BOX:029086");
   }
   
   public static void main(String[] args) {
-    new MDHowardCountyParserTest().generateTests("T1");
+    new MDHowardCountyParserTest().generateTests("T9");
   }
 }
