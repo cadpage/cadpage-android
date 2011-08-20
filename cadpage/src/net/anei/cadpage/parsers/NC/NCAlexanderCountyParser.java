@@ -26,6 +26,9 @@ CAD:350 SCHOOL DR;TAYLORSVILLE HOUSE;LARGE ALARM;LILEDOUN RD;E JAY DR
 Contact: trent tedder <emt4448@yahoo.com>
 CAD:65 MOONEY DR;TRAUMATIC INJURIES;30A02;US 64 90 HWY W
 
+Contact: "Foster, Greg" <gfoster@alexandercountync.gov>
+CAD:224 CRESTVIEW DR/US 64 HWY W;TRAFFIC ACCIDENT;29B04
+
 */
 
 public class NCAlexanderCountyParser extends SmartAddressParser {
