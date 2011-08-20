@@ -1,5 +1,8 @@
 package net.anei.cadpage.parsers.NC;
 
+import java.util.regex.Pattern;
+
+import net.anei.cadpage.SmsMsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchOSSIParser;
 
 /***
@@ -27,7 +30,6 @@ Contact: Bradley Nations <bradley.nations@hollygrovefire.org>
   / CAD:Fire Under Control;N COUNTY HOME RD/BRIAR PATCH DR; LEX;3473996166\n
   / CAD:Co Fire Tac5 for call;I 85 S/MM 96; LEX;3367062145
 
-*NOT IMPLEMENTED*
 Contact: Michael Beane <firefighter7539.mb@gmail.com>
 TREE DOWN/FIRE;LICK CREEK CHURCH RD/NC HWY 8;2011016908;big tree plum across the road [08/20/11 08:28:05 JEVERHART] 2048 en route [08/20/11 08:33:44 JEVERH
 
@@ -35,6 +37,7 @@ TREE DOWN/FIRE;LICK CREEK CHURCH RD/NC HWY 8;2011016908;big tree plum across the
 
 public class NCDavidsonCountyParser extends DispatchOSSIParser {
 
+  private static final Pattern ID_PTN = Pattern.compile("\\d{10}");
 
   public NCDavidsonCountyParser() {
     super("DAVIDSON COUNTY", "NC",
@@ -44,5 +47,15 @@ public class NCDavidsonCountyParser extends DispatchOSSIParser {
   @Override
   public String getFilter() {
     return "cad@davidsoncountync.gov";
+  }
+  
+  @Override
+  public boolean parseMsg(String body, Data data) {
+    if (body.startsWith("/")) body = body.substring(1).trim();
+    boolean ok = body.startsWith("CAD:");
+    if (!ok) body = "CAD:" + body;
+    if (!super.parseMsg(body, data)) return false;
+    if (ok) return true;
+    return ID_PTN.matcher(data.strCallId).matches();
   }
 }
