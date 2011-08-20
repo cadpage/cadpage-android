@@ -261,6 +261,7 @@ public class SmsMsgInfo {
     sAddr = PW_PTN.matcher(sAddr).replaceAll("PKWY");
     sAddr = CI_PTN.matcher(sAddr).replaceAll("CIR");
     sAddr = BLV_PTN.matcher(sAddr).replaceAll("BLVD");
+    sAddr = sAddr.replace(" NEAR ", " & ");
     return sAddr;
   }
 
