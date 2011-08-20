@@ -50,6 +50,14 @@
     limits, you will get another 30 days to think about it.
   </string>
   
+  <string name="donate_android16_title">"Hey, I've already contributed"</string>
+  <string name="donate_android16_text">
+    Our sincere apologies.  Cadpage tracks you by your Google Market account
+    and you are running Android 1.6 which does not gives us the ability to 
+    determine your Google Market account.  The good news is that you get a free
+    ride as long as you are running Android 1.6.
+  </string>
+  
   <string name="donate_no_user_title">"Hey, I've already contributed"</string>
   <string name="donate_no_user_text">
     Our sincere apologies.  Cadpage tracks you by your Google Market account

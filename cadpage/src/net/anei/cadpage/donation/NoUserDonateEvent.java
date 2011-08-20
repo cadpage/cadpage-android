@@ -11,7 +11,8 @@ public class NoUserDonateEvent extends DonateScreenEvent {
 
   @Override
   public boolean isEnabled() {
-    return UserAcctManager.instance().getUser() == null;
+    return UserAcctManager.instance().isAcctSupport() &&
+            UserAcctManager.instance().getUser() == null;
   }
   
   private static final NoUserDonateEvent instance = new NoUserDonateEvent();
