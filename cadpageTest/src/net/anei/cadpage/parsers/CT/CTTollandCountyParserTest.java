@@ -82,9 +82,18 @@ public class CTTollandCountyParserTest extends BaseParserTest {
         "CALL:Fire Alarm",
         "X:PLEASANT ST / BRIDGE ST",
         "ID:2011-00000190");
+
+    doTest("T10",
+        "(TN Alert) 69 BROOKLYN ST / (CLERKS OFC) Vernon BLS SICK- ELDERLY FEMALE  13:20 Cross Street COURT ST / VERNON AVE 2011-00002812",
+        "ADDR:69 BROOKLYN ST",
+        "APT:(CLERKS OFC)",
+        "CITY:Vernon",
+        "CALL:BLS SICK- ELDERLY FEMALE",
+        "X:COURT ST / VERNON AVE",
+        "ID:2011-00002812");
   }
   
   public static void main(String[] args) {
-    new CTTollandCountyParserTest().generateTests("T9", "ADDR APT CITY CALL X ID");
+    new CTTollandCountyParserTest().generateTests("T11", "ADDR APT CITY CALL X ID");
   }
 }
