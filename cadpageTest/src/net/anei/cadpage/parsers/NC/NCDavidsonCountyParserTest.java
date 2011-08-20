@@ -97,7 +97,14 @@ public class NCDavidsonCountyParserTest extends BaseParserTest {
         "CALL:Co Fire Tac5 for call",
         "ADDR:I 85 S & MM 96",
         "ID:3367062145");
-  }
+
+    doTest("T25",
+        "TREE DOWN/FIRE;LICK CREEK CHURCH RD/NC HWY 8;2011016908;big tree plum across the road [08/20/11 08:28:05 JEVERHART] 2048 en route [08/20/11 08:33:44 JEVERH",
+        "CALL:TREE DOWN/FIRE",
+        "ADDR:LICK CREEK CHURCH RD & NC HWY 8",
+        "ID:2011016908",
+        "INFO:big tree plum across the road / 2048 en route");
+ }
   
   public static void main(String[] args) {
     new NCDavidsonCountyParserTest().generateTests("T25");
