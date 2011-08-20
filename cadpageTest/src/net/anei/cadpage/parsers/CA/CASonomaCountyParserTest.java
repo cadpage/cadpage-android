@@ -109,9 +109,10 @@ public class CASonomaCountyParserTest extends BaseParserTest {
         "Loc: DUTTON MEADOW/TUXHORN DR SR BOX: 3048 D4 CN: TOGNERI JOHN W C#: (707) 545-7701 TYP: STRU CALLER ADDR: 2742 MORGAN CREEK TIME: 14:58:04 COM:  OUT BLDG /",
         "ADDR:DUTTON MEADOW & TUXHORN DR",
         "SRC:SR",
+        "CALL:STRU",
         "BOX:3048 D4",
         "NAME:TOGNERI JOHN W",
-        "PHONE:(707) 545-7701 TYP: STRU",
+        "PHONE:(707) 545-7701",
         "INFO:OUT BLDG /");
   }
   
