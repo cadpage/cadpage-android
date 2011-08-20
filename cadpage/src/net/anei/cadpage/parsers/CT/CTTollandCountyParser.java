@@ -9,6 +9,7 @@ import net.anei.cadpage.parsers.SmartAddressParser;
 /*
 Tolland County, CT
 Contact: Tabby Muniz <tabbymuniz@ymail.com>
+Contact: leanne buden <lbuden38@gmail.com>
 Sender: TN@TollandCounty911.org
 
 (TN Alert) 10 COTTAGE ST / UNIT D Vernon ALS Difficulty Breathing 21:14 Cross Street ST BERNARDS TER / SCHOOL ST 2011-00001770
@@ -19,40 +20,12 @@ Sender: TN@TollandCounty911.org
 [TN Alert]  95 HARTFORD TPKE / Vernon * Golf Land Vehicle Accident MINOR INJURIES - EVALUATION
 [TN Alert]  67 BLUE RIDGE DR / Vernon Tree/Wires Down 14:38 Cross Street HICKORY HL / AUTUMN WOOD LN 2011-00001775
 (TN Alert) 155 W   MAIN ST 317 / Vernon ALS DIFFICULTY BREATHING 14:03 Cross Street ORCHARD ST, SPRING ST / WARD ST 2011-00001981
-
-Contact: leanne buden <lbuden38@gmail.com>
 (TN Alert) 36 GARDNER ST / Warehouse Point Fire Alarm 17:11 Cross Street PLEASANT ST / BRIDGE ST 2011-00000190
+(TN Alert) 69 BROOKLYN ST / (CLERKS OFC) Vernon BLS SICK- ELDERLY FEMALE  13:20 Cross Street COURT ST / VERNON AVE 2011-00002812
 
 */
 
 public class CTTollandCountyParser extends SmartAddressParser {
-  
-  private static final String[] CITY_LIST = new String[]{
-    "ANDOVER",
-    "BOLTON",
-    "COLUMBIA",
-    "COVENTRY",
-    "ELLINGTON",
-    "HEBRON",
-    "MANSFIELD",
-    "SOMERS",
-    "STAFFORD",
-    "TOLLAND",
-    "UNION",
-    "VERNON",
-    "WILLINGTON",
-
-    "COVENTRY LAKE",
-    "SOUTH COVENTRY",
-    "CRYSTAL LAKE",
-    "STAFFORD SPRINGS",
-    "STORRS",
-    "CENTRAL SOMERS",
-    "ROCKVILLE",
-    "MASHAPAUG",
-    
-    "WAREHOUSE POINT"
-  };
   
   private static final Pattern TIME_PTN = Pattern.compile("\\b\\d\\d: \\d\\d\\b");
   private static final Pattern ID_PTN = Pattern.compile("\\b\\d{4}-\\d{8}$");
@@ -73,11 +46,12 @@ public class CTTollandCountyParser extends SmartAddressParser {
     // We are invoking the smart address parser strictly to find city, it
     // shouldn't have to do much parsing.  If it doesn't find a city, bail out.
     // The slash confuses the parse logic, so switch it to something unusual
-    body = body.replace('/', '^');
+    // Ditto for parrens
+    body = escape(body);
     parseAddress(StartType.START_ADDR, body, data);
     if (data.strCity.length() == 0) return false;
-    String sAddr = data.strAddress.replace('^', '/');
-    body = getLeft().replace('^', '/');
+    String sAddr = unescape(data.strAddress);
+    body = unescape(getLeft());
     
     // Address always has a slash, which the address parser turned to an ampersand
     // What is in front of that becomes the address
@@ -118,5 +92,54 @@ public class CTTollandCountyParser extends SmartAddressParser {
     data.strCross = body;
     return true;
   }
+  
+  private static final String[] ESCAPE_CODES = new String[]{
+    "/", "\\s",
+    "(", "\\lp",
+    ")", "\\rp",
+    "[", "\\lb",
+    "]", "\\rb"
+  };
+  
+  private static String escape(String fld) {
+    for (int j = 0; j<ESCAPE_CODES.length; j+=2) {
+      fld = fld.replace(ESCAPE_CODES[j], ESCAPE_CODES[j+1]);
+    }
+    return fld;
+  }
+  
+  private static String unescape(String fld) {
+    for (int j = 0; j<ESCAPE_CODES.length; j+=2) {
+      fld = fld.replace(ESCAPE_CODES[j+1], ESCAPE_CODES[j]);
+    }
+    return fld;
+  }
+  
+  private static final String[] CITY_LIST = new String[]{
+    "ANDOVER",
+    "BOLTON",
+    "COLUMBIA",
+    "COVENTRY",
+    "ELLINGTON",
+    "HEBRON",
+    "MANSFIELD",
+    "SOMERS",
+    "STAFFORD",
+    "TOLLAND",
+    "UNION",
+    "VERNON",
+    "WILLINGTON",
+
+    "COVENTRY LAKE",
+    "SOUTH COVENTRY",
+    "CRYSTAL LAKE",
+    "STAFFORD SPRINGS",
+    "STORRS",
+    "CENTRAL SOMERS",
+    "ROCKVILLE",
+    "MASHAPAUG",
+    
+    "WAREHOUSE POINT"
+  };
 
 }
