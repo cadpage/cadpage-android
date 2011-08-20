@@ -8,6 +8,7 @@ import net.anei.cadpage.parsers.FieldProgramParser;
 /*    
 Howard County, MD
 Contact: "Committee, Equipment" <equipment@fdvfd.com>
+Contact: "McNeece, John" <jmcneece@mfri.org>
 Sender: Rc.261@c-msg.net
 
 [CAD] RT 32/LINDEN CHURCH RD WS CLK TYPE: RESCUE--UNKNOW @ 23:29:39 BEAT/BOX: 032119
@@ -18,10 +19,70 @@ Sender: Rc.261@c-msg.net
 [CAD] 12700 HALL SHOP RD HIGH: @SAINT MARKS EPISCOPAL CHURCH TYPE: GASLEAK-OUTSIDE/FIRE @ 01:28:32 BEAT/BOX: 0564
 [CAD] 5764 STEVENS FOREST RD ECOL,111: @GRANDE POINT APARTMENTS TYPE: SMOKE-INSIDE/HIGHOCC @ 23:28:39 BEAT/BOX: 0908
 [CAD] 14101 HOWARD RD DYTN: @SMITH RESIDENCE TYPE: MEDICAL-*********** @ 08:30:53 BEAT/BOX: 0545
-  
+(CAD) [CAD] EVENT: F11023456 7110 MINSTREL WAY ECOL: @BRIGHTON GARDENS TYPE: SMOKE-INSIDE/HIGHOCC @ 10:38:22 BEAT/BOX: 1034
+(CAD) [CAD] EVENT: F11023457 RT 29 SB/RIVERS EDGE RD SCOL TYPE: RESCUE--UNKNOW @ 10:56:54 BEAT/BOX: 029086
+ 
 */
 
 public class MDHowardCountyParser extends FieldProgramParser {
+  
+  public MDHowardCountyParser() {
+    super(CITY_CODES, "HOWARD COUNTY", "MD",
+           "ADDR/S! TYPE:CALL! BEAT/BOX:BOX!");
+  }
+  
+  @Override
+  public String getFilter() {
+    return "Rc.261@c-msg.net";
+  }
+
+  @Override
+  protected boolean parseMsg(String subject, String body, Data data) {
+    
+    if (! subject.startsWith("CAD")) return false;
+    return super.parseMsg(body, data);
+  }
+  
+  private class MyAddressField extends AddressField {
+
+    @Override
+    public void parse(String field, Data data) {
+      boolean id = field.startsWith("EVENT: ");
+      if (id) field = field.substring(7).trim();
+      Parser p = new Parser(field);
+      if (id) data.strCallId = p.get(' ');
+      data.strPlace = p.getLastOptional(": @");
+      data.strApt = p.getLastOptional(',');
+      super.parse(p.get(), data);
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "ID " + super.getFieldNames() + " APT PLACE";
+    }
+  }
+  
+  private class MyCallField extends CallField {
+    @Override
+    public void parse(String field, Data data) {
+      int pt = field.indexOf('@');
+      if (pt < 0) abort();
+      field = field.substring(0,pt).trim();
+      super.parse(field, data);
+    }
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("CALL")) return new MyCallField();
+    if (name.equals("ADDR")) return new MyAddressField();
+    return super.getField(name);
+  }
+  
+  @Override
+  public String getProgram() {
+    return "ID " + super.getProgram();
+  }
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "ANNJ", "ANNAPOLIS JUNCTION",
@@ -51,59 +112,4 @@ public class MDHowardCountyParser extends FieldProgramParser {
       "WF",   "WEST FRIENDSHIP",
      
   });
-  
-  public MDHowardCountyParser() {
-    super(CITY_CODES, "HOWARD COUNTY", "MD",
-           "ADDR/S! TYPE:CALL! BEAT/BOX:BOX!");
-  }
-  
-  @Override
-  public String getFilter() {
-    return "Rc.261@c-msg.net";
-  }
-
-  @Override
-  protected boolean parseMsg(String subject, String body, Data data) {
-    
-    if (! subject.equals("CAD")) return false;
-    return super.parseMsg(body, data);
-  }
-  
-  private class MyAddressField extends AddressField {
-
-    @Override
-    public void parse(String field, Data data) {
-      Parser p = new Parser(field);
-      data.strPlace = p.getLastOptional(": @");
-      data.strApt = p.getLastOptional(',');
-      super.parse(p.get(), data);
-    }
-    
-    @Override
-    public String getFieldNames() {
-      return super.getFieldNames() + " APT PLACE";
-    }
-  }
-  
-  private class MyCallField extends CallField {
-    @Override
-    public void parse(String field, Data data) {
-      int pt = field.indexOf('@');
-      if (pt < 0) abort();
-      field = field.substring(0,pt).trim();
-      super.parse(field, data);
-    }
-  }
-  
-  @Override
-  public Field getField(String name) {
-    if (name.equals("CALL")) return new MyCallField();
-    if (name.equals("ADDR")) return new MyAddressField();
-    return super.getField(name);
-  }
-  
-  @Override
-  public String getProgram() {
-    return "ID " + super.getProgram();
-  }
 }
