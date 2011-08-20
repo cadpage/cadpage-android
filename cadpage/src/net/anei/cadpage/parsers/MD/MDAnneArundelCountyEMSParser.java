@@ -56,6 +56,9 @@ MEDICAL Box 17-4 1220 VIKING DR N E171,PM17 CHEST PAIN; 1834 PM1 Y>HHC,HHC R>UoM
 Contact; Michael Greenhawk <mgreenhawk@gmail.com>
 Medical Box 17-18 2156 MULBERRY HILL RD A19 SICK PERSON; 1549 A Y>UoM [10/29]
 
+Contact: Randy Hopkins <firemann172@yahoo.com>
+Local Box 23-4 133 BOONE TRL E171 CO DET./NO INJURIES (COLD); 1159 CO [4/186] \n
+
  */
 
 public class MDAnneArundelCountyEMSParser extends SmartAddressParser {
@@ -94,9 +97,15 @@ public class MDAnneArundelCountyEMSParser extends SmartAddressParser {
     if (match.find()) body = body.substring(0, match.start()).trim();
     
     // OK, there are two ways to go from here.  If we find a open paren or square 
-    // bracket, that definitively marks the end of the address
+    // bracket, that definitively marks the end of the address.  Exception, 
+    // ignore (HOT) or (COLD) indicators that presumably part of the description
     match = OPEN_DELIM.matcher(body);
-    if (match.find()) {
+    boolean found = match.find();
+    if (found) {
+      String test = body.substring(match.start());
+      if (test.startsWith("(HOT)") || test.startsWith("(COLD)")) found = false;
+    }
+    if (found) {
       int ipt = match.start();
       parseAddress(body.substring(0,ipt).trim(), data);
       body = body.substring(ipt);
