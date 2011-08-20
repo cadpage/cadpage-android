@@ -55,9 +55,16 @@ public class MDAnneArundelCountyFireParserTest extends BaseParserTest {
         "CALL:AUTO ACCIDENT",
         "ADDR:AVIATION BLVD & TERMINAL RD",
         "INFO:MVC INVOL BWI BUS. 1 INJ.");
+
+    doTest("T7",
+        "DAVIDSONVILLE | ANNE ARUNDEL | *O/T AUTO* | BRICK CHURCH RD NEAR RT 214 | MEDIC 3 O/L SUV ON IT'S SIDE ON A GUARDRAIL.  OCC OUT,",
+        "CITY:DAVIDSONVILLE",
+        "CALL:*O/T AUTO*",
+        "ADDR:BRICK CHURCH RD NEAR RT 214",
+        "INFO:MEDIC 3 O/L SUV ON IT'S SIDE ON A GUARDRAIL.  OCC OUT,");
   }
   
   public static void main(String[] args) {
-    new MDAnneArundelCountyFireParserTest().generateTests("T1");
+    new MDAnneArundelCountyFireParserTest().generateTests("T7");
   }
 }
