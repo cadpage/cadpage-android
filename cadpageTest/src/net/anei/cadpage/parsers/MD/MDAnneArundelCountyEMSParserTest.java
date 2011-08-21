@@ -321,12 +321,21 @@ public class MDAnneArundelCountyEMSParserTest extends BaseParserTest {
         "UNIT:A19",
         "ID:1549",
         "INFO:A Y>UoM");
+
+    doTest("T16",
+        "Local Box 23-4 133 BOONE TRL E171 CO DET./NO INJURIES (COLD); 1159 CO [4/186] \n",
+        "BOX:23-4",
+        "CALL:CO DET / NO INJURIES (COLD)",
+        "ADDR:133 BOONE TRL",
+        "UNIT:E171",
+        "ID:1159",
+        "INFO:CO");
     
   }
 
 
   public static void main(String[] args) {
-    new MDAnneArundelCountyEMSParserTest().generateTests("T15", "BOX CALL ADDR APT PLACE X UNIT ID INFO");
+    new MDAnneArundelCountyEMSParserTest().generateTests("T17", "BOX CALL ADDR APT PLACE X UNIT ID INFO");
   }
   
 }

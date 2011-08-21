@@ -14,6 +14,7 @@ public class NCAlexanderCountyParserTest extends BaseParserTest {
   @Test
   public void testBad() {
     doBadTest("CAD:");
+    doBadTest("CAD:ANYONE WANTING TO PRACTICE SOFTBALL...MEET AT GWALTNEYS FIELD AT 1800 HRS THIS DATE...");
   }
   
   @Test
@@ -73,9 +74,15 @@ public class NCAlexanderCountyParserTest extends BaseParserTest {
         "CALL:TRAUMATIC INJURIES",
         "CODE:30A02",
         "X:US 64 90 HWY W");
+
+    doTest("T9",
+        "CAD:224 CRESTVIEW DR/US 64 HWY W;TRAFFIC ACCIDENT;29B04",
+        "ADDR:224 CRESTVIEW DR & US 64 HWY W",
+        "CALL:TRAFFIC ACCIDENT",
+        "CODE:29B04");
  }
 
   public static void main(String[] args) {
-    new NCAlexanderCountyParserTest().generateTests("T8", "ADDR PLACE CALL CODE X");
+    new NCAlexanderCountyParserTest().generateTests("T9", "ADDR PLACE CALL CODE X");
   }
 }
