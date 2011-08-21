@@ -10,7 +10,7 @@ public class PaidExpireDonateEvent extends DonateScreenEvent {
   
   public PaidExpireDonateEvent() {
     super(AlertStatus.RED, R.string.donate_paid_expire_title, R.string.donate_paid_expire_text,
-          PaypalDonateEvent.instance(), MagicWordEvent.instance());
+           AndroidDonateEvent.instance(), PaypalDonateEvent.instance(), MagicWordEvent.instance());
   }
 
   @Override

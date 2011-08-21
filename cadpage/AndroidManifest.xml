@@ -52,7 +52,16 @@
     <receiver android:name=".ClearAllReceiver" />
     <receiver android:name=".ReminderReceiver" />
     <service android:name=".MmsTransactionService"/>
-    <!--<service android:name=".UpdateService"/> -->
+    <service android:name=".billing.BillingService" />
+
+ 
+    <receiver android:name="net.anei.dungeons.BillingReceiver">
+      <intent-filter>
+        <action android:name="com.android.vending.billing.IN_APP_NOTIFY" />
+        <action android:name="com.android.vending.billing.RESPONSE_CODE" />
+        <action android:name="com.android.vending.billing.PURCHASE_STATE_CHANGED" />
+      </intent-filter>
+    </receiver>
     
     <receiver android:name=".CadPageWidget" android:label="@string/widget_config_name">
       <intent-filter>
@@ -76,31 +85,18 @@
           android:permissionGroup="android.permission-group.MESSAGES"
           android:protectionLevel="dangerous" />
           
-  <uses-permission
-    android:name="android.permission.READ_SMS" />
-  
-  
-  <uses-permission
-    android:name="android.permission.RECEIVE_SMS" />
-  <uses-permission
-    android:name="android.permission.RECEIVE_MMS" />
-  <uses-permission
-    android:name="android.permission.WRITE_SMS" />
-  
-  <uses-permission
-    android:name="android.permission.WAKE_LOCK" />
-  <uses-permission
-    android:name="android.permission.DISABLE_KEYGUARD" />
-  <uses-permission
-    android:name="android.permission.VIBRATE" />
-  <uses-permission
-    android:name="android.permission.GET_TASKS" />
-  <uses-permission
-    android:name="android.permission.READ_LOGS" />
-  <uses-permission
-    android:name="android.permission.READ_PHONE_STATE" />
-  <uses-permission
-    android:name="android.permission.GET_ACCOUNTS" />
+  <uses-permission android:name="android.permission.READ_SMS" />
+  <uses-permission android:name="android.permission.RECEIVE_SMS" />
+  <uses-permission android:name="android.permission.RECEIVE_MMS" />
+  <uses-permission android:name="android.permission.WRITE_SMS" />
+  <uses-permission android:name="android.permission.WAKE_LOCK" />
+  <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+  <uses-permission android:name="android.permission.VIBRATE" />
+  <uses-permission android:name="android.permission.GET_TASKS" />
+  <uses-permission android:name="android.permission.READ_LOGS" />
+  <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+  <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+  <uses-permission android:name="com.android.vending.BILLING" />
     
 
 <!--uses-permission android:name="android.permission.INTERNET"></uses-permission-->

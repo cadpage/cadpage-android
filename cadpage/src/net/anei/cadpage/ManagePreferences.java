@@ -135,6 +135,14 @@ public class ManagePreferences {
     return prefs.getBoolean(R.string.pref_initialized_key);
   }
   
+  public static boolean initBilling() {
+    return prefs.getBoolean(R.string.pref_init_billing_key);
+  }
+  
+  public static void setInitBilling() {
+    prefs.putBoolean(R.string.pref_init_billing_key, true);
+  }
+  
   public static boolean enabled() {
     return prefs.getBoolean(R.string.pref_enabled_key);
   }
@@ -414,8 +422,24 @@ public class ManagePreferences {
   }
   
   public static void setPaidYear(int year) {
-    prefs.putInt(R.string.pref_paid_year_key, year);
-    DonationManager.reset();
+    setPaidYear(year, true);
+  }
+  
+  public static void setPaidYear(int year, boolean set) {
+    int curYear = paidYear();
+    if (set) {
+      if (year > curYear) {
+        prefs.putInt(R.string.pref_prev_year_key, curYear);
+        prefs.putInt(R.string.pref_paid_year_key, year);
+        DonationManager.reset();
+      }
+    } else {
+      if (year == curYear) {
+        int prevYear = prefs.getInt(R.string.pref_prev_year_key, 0);
+        prefs.putInt(R.string.pref_paid_year_key, prevYear);
+        DonationManager.reset();
+      }
+    }
   }
   
   public static boolean freeRider() {

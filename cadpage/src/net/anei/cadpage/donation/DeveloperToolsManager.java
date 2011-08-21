@@ -17,6 +17,8 @@ import android.preference.PreferenceGroup;
  */
 public class DeveloperToolsManager {
   
+  private boolean enableBilling = false;
+  
   // private constructor
   private DeveloperToolsManager() {}
   
@@ -37,6 +39,13 @@ public class DeveloperToolsManager {
     return Arrays.asList(developers).contains(user);
   }
   
+  /**
+   * @return true if in-app billing menu should be enabled
+   */
+  public boolean isBillingEnabled() {
+    return enableBilling;
+  }
+  
   public boolean addPreference(Context context, PreferenceGroup group) {
     if (!isDeveloper(context)) return false;
     group.addPreference(new DeveloperListPreference(context));
@@ -45,26 +54,27 @@ public class DeveloperToolsManager {
   }
   
   
-  private static class DeveloperListPreference extends ListPreference {
+  private static final String[] entryList = new String[]{
+    "Stat: Free",
+    "Stat: Donate paid",
+    "Stat: Donate warn",
+    "Stat: Donate expired",
+    "Stat: Demo",
+    "Stat: Demo expired",
+    "Reset release info",
+    "Toggle In-app Billing",
+    "Content Query",
+    "Recent Tasks"
+    
+  };
+  
+  private static final String[] valueList = new String[]{
+    "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"
+  };
+  
+  private class DeveloperListPreference extends ListPreference {
     
     private Context context;
-    
-    private static final String[] entryList = new String[]{
-      "Stat: Free",
-      "Stat: Donate paid",
-      "Stat: Donate warn",
-      "Stat: Donate expired",
-      "Stat: Demo",
-      "Stat: Demo expired",
-      "Reset release info",
-      "Content Query",
-      "Recent Tasks"
-      
-    };
-    
-    private static final String[] valueList = new String[]{
-      "1", "2", "3", "4", "5", "6", "7", "8", "9"
-    };
 
     public DeveloperListPreference(Context context) {
       super(context);
@@ -126,11 +136,15 @@ public class DeveloperToolsManager {
         ManagePreferences.setRelease("");
         break;
         
-      case 8:     // Content Query
+      case 8:     // toggle in-app billing
+        enableBilling = !enableBilling;
+        break;
+        
+      case 9:     // Content Query
         ContentQuery.query(context);
         break;
         
-      case 9:     // Recent tasks
+      case 10:     // Recent tasks
         ContentQuery.dumpRecentTasks(context);
         break;
       }

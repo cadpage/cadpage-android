@@ -73,6 +73,7 @@
     button below will send us an email that will hopefully clear things up.
   </string>
   
+  <string name="donate_android_title">Donate through Android Market</string>
   <string name="donate_paypal_title">Donate through PayPal</string>
   <string name="donate_email_title">Send Email</string>
   
