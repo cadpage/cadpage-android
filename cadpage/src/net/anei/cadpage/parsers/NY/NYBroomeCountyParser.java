@@ -40,6 +40,11 @@ Contact: "J.E. Dancesia" <john@ezems.com>
 .... (46 Conklin Fire) 46:CHSTPAIN-D :12 WILLOW WAY :84 yom chest pain                     &lt;10D03&gt; :84 year old, Male, Conscious, Breathing.  CHANGING COLOR. Cross Sts:CONKLIN RD/DAVID RD 18:55 07/24/2011 2011-00013205 Caller:CEBULA,JAMES,, Phone:000-775-2793 T/Conklin
 .... (46 Conklin Fire) 46:FALLS   -D :1186 CONKLIN RD :69 YOM FALLEN                         &lt;17D05&gt; :69 year old, Male, Conscious, Breathing.  LONG FALL. Cross Sts:POWERS RD/CAROL CT 13:54 07/23/2011 2011-00013114 Caller:KING,PAULINE,, Phone:000-206-2374 T/Conklin
 
+Contact: "spazking4lif@aim.com" <spazking4lif@aim.com>
+(79 Union Amb) 79:TRAUMA  -D :36 BAKER ST :8 yof hit by veh                      &lt;30D01&gt; :8 year old, Female, Unconscious, Breathing.  Unconscious
+(79 Union Amb) 79:UNRSPNSV-C :420 HARRY L DR CHRISTMAS TREE SHOPS :36 yof fainted x1 rapid heart         &lt;31C01&gt; :BUSN: Cross Sts:N HUDSON ST/GIAN
+(79 Union Amb) 79:DIABETIC-C :950 BOSWELL HILL RD :54 yof diabetic not alert             &lt;13C01&gt; :54 year old, Female, Conscious, Breathing.  Not
+
 */
 
 

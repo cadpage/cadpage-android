@@ -1,5 +1,10 @@
 package net.anei.cadpage.parsers.NC;
 
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Properties;
+import java.util.Set;
+
 import net.anei.cadpage.SmsMsgInfo.Data;
 import net.anei.cadpage.parsers.SmsMsgParser;
 
@@ -37,11 +42,6 @@ Sender: Group_Page_Notification@archwireless.net
 12463 Stratfield Place Cr               CAROLINA CROSSING SUBD        Delta                         31- Unconsciousness/Fainting  Stineway Ct/Sam Meeks Rd                                    PINR3     Map - 405405/J9 07302011-086
 1010 Lakeview Dr              30-B      Pvl Rehab & Living Ctr  *SNF* Charlie                       06- Breathing Problems        Eden Cr/B
 
-** NOT IMPLEMENTED **
-Contact: John Stroup <j.stroup@northmeckrescue.org>
-Subject:Incoming Message\n15503 N Old Statesville Rd North Meck Rescue Charlie 12- Convulsion/Seizure 60 Foot St/Unnamed St Nmr1 Map - 266266/
-Subject:Incoming Message\n15503 N Old Statesville Rd North Meck Rescue Charlie 12- Convulsion/Seizure 60 Foot St/Unnamed St Nmr2 Map - 266266/
-
 Contact: Ben Reagan <breagan@eastlincolnfd.org>
 (Incoming Message) 16902 Harbor Master Cove                                              Fire -  Emergency             52F
 (Incoming Message) 13000-blk Hidcote Ct                    BURNING BRUSH                 Fire -  Emergency             67-
@@ -50,12 +50,31 @@ Contact: Ben Reagan <breagan@eastlincolnfd.org>
 (Incoming Message) 12019 Verhoeff Dr                       Huntersville Oaks Nursing *SNFFire -  Emergency             52F
 (Incoming Message) Beatties Ford Rd & Mcilwaine R          TREE DOWN BLOCKING ONE LANE   Fire -  Emergency             53-
 
+** NOT IMPLEMENTED **
+Contact: John Stroup <j.stroup@northmeckrescue.org>
+Subject:Incoming Message\n15503 N Old Statesville Rd North Meck Rescue Charlie 12- Convulsion/Seizure 60 Foot St/Unnamed St Nmr1 Map - 266266/
+Subject:Incoming Message\n15503 N Old Statesville Rd North Meck Rescue Charlie 12- Convulsion/Seizure 60 Foot St/Unnamed St Nmr2 Map - 266266/
+
+
+
+16902 Harbor Master Cove                                              Fire -  Emergency             52F
+1010 Lakeview Dr              30-B      Pvl Rehab & Living Ctr  *SNF* Charlie                       06- Breathing Problems        Eden Cr/B
 
 */
 
 public class NCMecklenburgCountyParser extends SmsMsgParser {
   
-  private static final String[] PRI_VALUES = new String[]{"Charlie", "Delta", "Fire - Emergency"};
+  private static final Set<String> PRI_VALUES = new HashSet<String>(Arrays.asList(new String[]{"Charlie", "Delta", "Fire - Emergency"}));
+  private static final Properties CALL_CODES = buildCodeTable(new String[]{
+      "06-", "Breathing Problems",
+      "17-", "Falls/Back injuries",
+      "26-", "Sick person", 
+      "31-", "Unconsciousness/Fainting",
+      "32-", "Unknown problem",
+      "52F", "Alarm-FIRE",
+      "59-", "Fuel Spill",
+      "69-", "Structure Fire",
+  });
   
   public NCMecklenburgCountyParser() {
     super("MECKLENBURG COUNTY", "NC");
@@ -69,7 +88,7 @@ public class NCMecklenburgCountyParser extends SmsMsgParser {
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
     
-    if(body.length() < 110) return false;
+    if(body.length() < 103) return false;
     if (body.contains("Received:")) return false;
     
     boolean good = subject.equals("Text Page") || subject.equals("Incoming Message");
@@ -84,15 +103,19 @@ public class NCMecklenburgCountyParser extends SmsMsgParser {
     data.strMap = substring(body,206,216);
     data.strCallId = substring(body,216);
 
-    if (!good) {
-      for (String priVal : PRI_VALUES) {
-        if (data.strSupp.equals(priVal)) {
-          good = true;
-          break;
-        }
+    if (!good && !PRI_VALUES.contains(data.strSupp)) return true;
+    
+    if (data.strCall.length()>=3) {
+      String callCode = data.strCall.substring(0,3);
+      String callDesc = CALL_CODES.getProperty(callCode);
+      if (callDesc != null && callDesc.startsWith(data.strCall.substring(3).trim())) {
+        StringBuilder sb = new StringBuilder(callCode);
+        sb.append(callCode.charAt(2) == '-' ? ' ' : '-');
+        sb.append(callDesc);
+        data.strCall = sb.toString();
       }
     }
-    return good;
+    return true;
   }
   
   private String substring(String body, int st) {
