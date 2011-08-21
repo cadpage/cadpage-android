@@ -157,9 +157,37 @@ public class NYBroomeCountyParserTest extends BaseParserTest {
         "ID:2011-00013114",
         "NAME:KING,PAULINE",
         "PHONE:000-206-2374 T/Conklin");
- }
+  }
+  
+  @Test
+  public void testParser2() {
+
+     doTest("T1",
+         "(79 Union Amb) 79:TRAUMA  -D :36 BAKER ST :8 yof hit by veh                      &lt;30D01&gt; :8 year old, Female, Unconscious, Breathing.  Unconscious",
+         "SRC:79",
+         "CALL:TRAUMA -D",
+         "ADDR:36 BAKER ST",
+         "INFO:8 yof hit by veh <30D01> / 8 year old, Female, Unconscious, Breathing. Unconscious");
+
+     doTest("T2",
+         "(79 Union Amb) 79:UNRSPNSV-C :420 HARRY L DR CHRISTMAS TREE SHOPS :36 yof fainted x1 rapid heart         &lt;31C01&gt; :BUSN: Cross Sts:N HUDSON ST/GIAN",
+         "SRC:79",
+         "CALL:UNRSPNSV-C",
+         "ADDR:420 HARRY L DR",
+         "PLACE:CHRISTMAS TREE SHOPS",
+         "INFO:36 yof fainted x1 rapid heart <31C01> / BUSN:",
+         "X:N HUDSON ST/GIAN");
+
+     doTest("T3",
+         "(79 Union Amb) 79:DIABETIC-C :950 BOSWELL HILL RD :54 yof diabetic not alert             &lt;13C01&gt; :54 year old, Female, Conscious, Breathing.  Not",
+         "SRC:79",
+         "CALL:DIABETIC-C",
+         "ADDR:950 BOSWELL HILL RD",
+         "INFO:54 yof diabetic not alert <13C01> / 54 year old, Female, Conscious, Breathing. Not");
+
+  }
   
   public static void main(String[] args) {
-    new NYBroomeCountyParserTest().generateTests("T13");
+    new NYBroomeCountyParserTest().generateTests("T1");
   }
 }
