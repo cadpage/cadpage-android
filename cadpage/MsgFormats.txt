@@ -561,6 +561,11 @@ El Dorado County, CA (CAElDoradoCountyParser)
 (CAD Page) 19-May-2011/12:37:08: MEDICAL: Inc# 010306: 6530 WENTWORTH SPRINGS RD ,GEORGETOWN (GEORGETOWN ELEMENTARY SCHOOL) GEOCHF GEOENG M89 61; ; X: -120 49.84
 (CAD Page) 17-May-2011/01:52:37: MED, TRAFFIC COLLISION: Inc# 010121: 4800 BLACK OAK MINE RD / 4702 MARSHALL RD ,GARDEN_VALLEY  GRVCHF E2772 E251N M61 51 GEOENGN
 ***************************************************************************
+Monterey County, CA (CAMontereyCountyParser)
+FRM:donotreply@co.monterey.ca.us\nSUBJ:CAD Page\nMSG:52161HA - MEO:NOT XFR - 13200 CIELO AZULUnits:E5211, 52A
+FRM:donotreply@co.monterey.ca.us\nSUBJ:CAD Page\nMSG:5261BT - MEO:MEDICAL EMERGNCY - 7881 SANDHOLDT RDUnit:CH5202
+FRM:donotreply@co.monterey.ca.us\nSUBJ:CAD Page\nMSG:5254A - MEO:NOT XFRD - 315 NEPONSET RDUnits:E5211, 52A
+***************************************************************************
 Mendocino County, CA (CAMendocinoCountyParser)
 (CAD Page) OTHER MISC. DISPLAY; =L(39.107949,-123.087224) ,UKV (COW MOUNTAIN); Inc# X: -123 5.23344  Y: 39 6.47694 B1113; testing with b1113
 MEDICAL, BRAVO; COVELO FIREHOUSE @ 75900 HWY 162 ,COVL ; Inc# 004042X: -123 14.8924  Y: 39 47.2236 B1113 CVL E1151; 42 YOF DIFF BREATHING
@@ -3023,46 +3028,6 @@ TC911:10D >CHEST PAIN - SEVERE SOB 55 BENEDICT LN XS: BENSON AVE ROSEVILLE BORO 
 **********************************************************
 **********************************************************
 **********************************************************
-Montery County, CA
-Contact: Tom Tengdin <t3@razzolink.com>
-Sender: donotreply@co.monterey.ca.us
-System: Tiburon
-
-FRM:donotreply@co.monterey.ca.us
-SUBJ:CAD Page
-MSG:52161HA - MEO:NOT XFR - 13200 CIELO AZULUnits:E5211, 52A
-
-FRM:donotreply@co.monterey.ca.us
-SUBJ:CAD Page
-MSG:5261BT - MEO:MEDICAL EMERGNCY - 7881 SANDHOLDT RDUnit:CH5202
-
-FRM:donotreply@co.monterey.ca.us
-SUBJ:CAD Page
-MSG:5254A - MEO:NOT XFRD - 315 NEPONSET RDUnits:E5211, 52A
-
-FRM:donotreply@co.monterey.ca.us
-SUBJ:CAD Page
-MSG:524451A - MEO:XFRD - 97 RAILROAD AVUnits:E5213, 52A
-
-FRM:donotreply@co.monterey.ca.us
-SUBJ:CAD Page
-MSG:52251AB - UIA:UNK INJ ACC - HWY 101/SAN MIGUEL CANYON RDUnits:E5212, E5213, 52V
- 
-FRM:donotreply@co.monterey.ca.us
-SUBJ:CAD Page
-MSG:FMA:FIRE MUTUAL AID - 918 FREEDOM BLVDUnit:E5213
- 
-FRM:donotreply@co.monterey.ca.us
-SUBJ:CAD Page
-MSG:52351A - MEO:MEO ALM - 398 BERRY RDUnits:E5213, 52A
-
-FRM:donotreply@co.monterey.ca.us
-SUBJ:CAD Page
-MSG:5261AT - MEO:XFRD - 10561 MERRITT STUnits:E5211, 52A
-
-FRM:donotreply@co.monterey.ca.us
-SUBJ:CAD Page
-MSG:52251A - VIA:SB HWY 101 - HWY 101/CRAZY HORSE CANYON RDUnits:E5212, BEU, 52V
 **********************************************************
 Knox County, OH?
 Contact: timothy belcher <engine424@gmail.com>
