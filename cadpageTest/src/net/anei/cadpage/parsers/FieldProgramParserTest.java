@@ -20,7 +20,7 @@ public class FieldProgramParserTest extends BaseParserTest {
   }
   
   @Test
-  public void testproblem() {
+  public void testproblems() {
     doFieldTest("T1", "TYPE:CALL UNTS:UNIT XST:X UNTS:UNIT",
         "TYPE:FIRE;UNTS:A70;XST:BLACK ST",
         "CALL:FIRE",

@@ -83,9 +83,17 @@ public class NCWataugaCountyParserTest extends BaseParserTest {
         "CALL:SICK PERSON",
         "INFO:421S-RT OLD 421S-RT BROWNS CHAPEL RD-2ND LT NORTHRDG DR-1ST RT BERTON ST");
 
+    doTest("T2",
+        "wcso911@wataugacounty.org 347 HOWARDS KNOB RD BOONE 2011017402 01:10:55 FALLS JUNALUSKA RD-RT HOWARDS KNOB RD",
+        "ADDR:347 HOWARDS KNOB RD",
+        "CITY:BOONE",
+        "ID:2011017402",
+        "CALL:FALLS JUNALUSKA",
+        "INFO:RD-RT HOWARDS KNOB RD");
+
   }
 
   public static void main(String[] args) {
-    new NCWataugaCountyParserTest().generateTests("T1", "ADDR CITY CODE ID CALL INFO");
+    new NCWataugaCountyParserTest().generateTests("T2", "ADDR CITY CODE ID CALL INFO");
   }
 }

@@ -15,6 +15,12 @@ public class SmsMsgParserTest {
   
   @Test
   public void testProblems() {
+    
+    doKeyTest("T5",
+        "JUNK CALL : MY CALL NEW TYPE : HELLO OLD TYPE : ONE TIME OLD",
+        "CALL:MY CALL",
+        "NEW TYPE:HELLO",
+        "OLD TYPE:ONE TIME OLD");
   }
   
   @Test
@@ -112,6 +118,12 @@ public class SmsMsgParserTest {
 
     doKeyTest("T4", 
         "JUNK CALL:MY CALL NEW TYPE:HELLO OLD TYPE:ONE TIME OLD",
+        "CALL:MY CALL",
+        "NEW TYPE:HELLO",
+        "OLD TYPE:ONE TIME OLD");
+    
+    doKeyTest("T5",
+        "JUNK CALL : MY CALL NEW TYPE : HELLO OLD TYPE : ONE TIME OLD",
         "CALL:MY CALL",
         "NEW TYPE:HELLO",
         "OLD TYPE:ONE TIME OLD");
