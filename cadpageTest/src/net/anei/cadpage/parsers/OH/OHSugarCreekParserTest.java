@@ -54,7 +54,7 @@ public class OHSugarCreekParserTest extends BaseParserTest {
     doTest("T5",
         "Ct:OTHER FIRE      Loc:5980 WILMINGTON PIKE         Apt:      XSt:CLYO RD         WILMINGTON PIKE Grid:003A Units:72                                        Rmk:",
         "CALL:OTHER FIRE",
-        "X:CLYO RD WILMINGTON PIKE",
+        "X:CLYO RD & WILMINGTON PIKE",
         "MAP:003A",
         "ADDR:5980 WILMINGTON PIKE",
         "UNIT:72"
@@ -63,7 +63,7 @@ public class OHSugarCreekParserTest extends BaseParserTest {
     doTest("T6",
         "Ct:EMS MINOR       Loc:6244 WILMINGTON PIKE         Apt:      XSt:CLYO RD         CENTER POINT DR Grid:003B Units:E74   M72   R70   P241",
         "CALL:EMS MINOR",
-        "X:CLYO RD CENTER POINT DR",
+        "X:CLYO RD & CENTER POINT DR",
         "MAP:003B",
         "ADDR:6244 WILMINGTON PIKE",
         "UNIT:E74 M72 R70 P241");
