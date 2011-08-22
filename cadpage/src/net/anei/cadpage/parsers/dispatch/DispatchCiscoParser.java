@@ -1,8 +1,9 @@
 package net.anei.cadpage.parsers.dispatch;
 
 import java.util.Properties;
+
 import net.anei.cadpage.SmsMsgInfo.Data;
-import net.anei.cadpage.parsers.SmartAddressParser;
+import net.anei.cadpage.parsers.FieldProgramParser;
 
 /***
 Sugarcreek, OH
@@ -21,34 +22,44 @@ Ct:CHEST PAIN Loc:500 W PARIS AV Apt: XSt:6TH ST WTH 4TH ST WTH Grid:0WTH Units:
 Ct:CHOKING Loc:2925 N MAPLE PL Apt: XSt:LOCUST AV Grid:0126 Units:E-42 TC-1 Rmk:18 Months F ;CHOKING
 Ct:MVA-UNKNOWN-INJ Loc:US HWY 40/INTERSTATE 70 Apt: XSt: Grid:0169 Units:E-41 Rmk:SEMI AND PASSENGER CAR//UNKNOWN Injuries
 
+St Francois County, MO
+1 of 2\nFRM:IPN.9999900138@ipnpaging.com\nMSG:Ct:FIRE ALARM      Loc:3962 HAWK HOLLOW RD          Apt:      XSt:RIDGE\nTOP DR\n(Con't) 2 of 2\nGrid:4101 Units:E4161 T4171 4100  E4160 F4185             Rmk:ALARM SHOWING\nSMOKE SENSOR, ATTEMPTING K\n\n(End)
+1 of 2\nFRM:IPN.9999900138@ipnpaging.com\nMSG:Ct:EMS CALL        Loc:HIGHWAY H/HIGHWAY AA         Apt:\nXSt:\n(Con't) 2 of 2\nGrid:4101 Units:F4185 4100  A5177 5100                    Rmk:\n\n(End)
+1 of 2\nFRM:IPN.9999900138@ipnpaging.com\nMSG:Ct:INVESTIGATION   Loc:!RAIL ROAD LN OFF HILDEBRECH Apt:\nXSt:\n(Con't) 2 of 2\nGrid:4100 Units:4100  E4160                               Rmk:ON THE AIR\nINVESTIGATING A POSSIBLE FIRE\n\n(End)
+1 of 2\nFRM:IPN.9999900138@ipnpaging.com\nMSG:Ct:MVA INJURY      Loc:US HIGHWAY 67/HILDEBRECHT RD Apt:\nXSt:\n(Con't) 2 of 2\nGrid:6741 Units:E4160 F4185 A5177 R4276 E4261             Rmk:T-BONE\nCOLLISION -- UNKNOWN ON INJURY CA\n\n(End)
+1 of 2\nFRM:IPN.9999900138@ipnpaging.com\nMSG:Ct:FIRE MISC       Loc:4 DOE RUN                    Apt:\nXSt:\n(Con't) 2 of 2\nGrid:4100 Units:4102                                      Rmk:HAVE 4139\nCONTACT 4102 AT THE FIREHOUSE\n\n(End)
+
 ***/
 
-public class DispatchCiscoParser extends SmartAddressParser {
+public class DispatchCiscoParser extends FieldProgramParser {
+  
+  public DispatchCiscoParser(String defCity, String defState) {
+    this(null, defCity, defState);
+  }
   
   public DispatchCiscoParser(Properties cityCodes, String defCity, String defState) {
-    super(cityCodes, defCity, defState);
+    super(cityCodes, defCity, defState,
+           "Ct:CALL! Loc:ADDR/S! Apt:APT XSt:X? Grid:MAP Units:UNIT Rmk:INFO");
   }
-
-  private static final String[]KEYWORDS = 
-    new String[]{"Ct", "Loc", "Apt", "XSt", "Grid", "Units", "Rmk"};
-
+  
+  private class MyUnitField extends UnitField {
+    @Override 
+    public void parse(String field, Data data) {
+      super.parse(field.replaceAll(" +", " "), data);
+    }
+  }
+  
+  private class MyCrossField extends CrossField {
+    @Override
+    public void parse(String field, Data data) {
+      super.parse(field.replaceAll("  +", " & "), data);
+    }
+  }
+  
   @Override
-  protected boolean parseMsg(String body, Data data) {
-    
-    body = body.replaceAll(" +", " ");
-    Properties props = parseMessage(body, KEYWORDS);
-    data.strCall = props.getProperty("Ct");
-    if (data.strCall == null) return false;
-    data.strCall = data.strCall.trim();
-    
-    String sAddress = props.getProperty("Loc");
-    if (sAddress == null) return false;
-    parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END, props.getProperty("Loc", ""), data);
-    data.strApt = props.getProperty("Apt", "");
-    data.strCross = props.getProperty("XSt", "");
-    data.strMap = props.getProperty("Grid", "");
-    data.strUnit = props.getProperty("Units", "");
-    data.strSupp = props.getProperty("Rmk","");
-    return true;
+  public Field getField(String name) {
+    if (name.equals("UNIT")) return new MyUnitField();
+    if (name.equals("X")) return new MyCrossField();
+    return super.getField(name);
   }
 }
