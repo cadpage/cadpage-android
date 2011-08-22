@@ -43,6 +43,44 @@ LC911:FIRE - HOUSE 13335 NORTH DR OUTSIDE E 9-1-1 CO\n
 */
 public class OHLickingCountyParser extends SmartAddressParser {
   
+  public OHLickingCountyParser() {
+    super(CITY_LIST, "LICKING COUNTY", "OH");
+  }
+  
+  @Override
+  public String getFilter() {
+    return "LC911@lcounty.com";
+  }
+  
+  @Override
+  protected boolean parseMsg(String body, Data data) {
+    
+    if (!body.startsWith("LC911:")) return false;
+    body = body.substring(6).trim();
+    
+    // get rid of decimal points on the house numbers
+    body = body.replace(".00", "");
+    
+    Parser p = new Parser(body);
+    p.getOptional("- Nature: ");
+    data.strCall = p.getOptional(" - Location: ");
+    if (data.strCall.length() == 0) data.strCall = p.get("  ");
+    body = p.get();
+    
+    // Smart address parser has to take things from here
+    // Leaving room for a possible apt number between address and city
+    parseAddress(StartType.START_ADDR, FLAG_PAD_FIELD, body, data);
+    data.strApt = append(data.strApt, " ", getPadField());
+    if (data.strApt.startsWith("APT ")) data.strApt = data.strApt.substring(4).trim();
+    
+    String sInfo = getLeft();
+    if (sInfo.startsWith("-") || sInfo.startsWith(".")) sInfo = sInfo.substring(1).trim();
+    if (sInfo.startsWith("Comments:")) sInfo = sInfo.substring(9).trim();
+    data.strSupp = sInfo;
+    
+    return true;
+  }
+  
   private static final String[] CITY_LIST = new String[]{
       "ALEXANDRIA",
       "BUCKEYE LAKE",
@@ -95,44 +133,4 @@ public class OHLickingCountyParser extends SmartAddressParser {
       "HOMER",
       "JACKSONTOWN",
   };
-  
-  public OHLickingCountyParser() {
-    super(CITY_LIST, "LICKING COUNTY", "OH");
-  }
-  
-  @Override
-  public String getFilter() {
-    return "LC911@lcounty.com";
-  }
-  
-  @Override
-  protected boolean parseMsg(String body, Data data) {
-    
-    if (!body.startsWith("LC911:")) return false;
-    body = body.substring(6).trim();
-    
-    // get rid of decimal points on the house numbers
-    body = body.replace(".00", "");
-    
-    Parser p = new Parser(body);
-    p.getOptional("- Nature: ");
-    data.strCall = p.getOptional(" - Location: ");
-    if (data.strCall.length() == 0) data.strCall = p.get("  ");
-    body = p.get();
-    
-    // Smart address parser has to take things from here
-    // Leaving room for a possible apt number between address and city
-    parseAddress(StartType.START_ADDR, FLAG_PAD_FIELD, body, data);
-    String sApt = getPadField();
-    if (sApt.startsWith("Suite:")) sApt = sApt.substring(6).trim();
-    if (sApt.startsWith("APT ")) sApt = sApt.substring(4).trim();
-    data.strApt = sApt;
-    
-    String sInfo = getLeft();
-    if (sInfo.startsWith("-") || sInfo.startsWith(".")) sInfo = sInfo.substring(1).trim();
-    if (sInfo.startsWith("Comments:")) sInfo = sInfo.substring(9).trim();
-    data.strSupp = sInfo;
-    
-    return true;
-  }
 }

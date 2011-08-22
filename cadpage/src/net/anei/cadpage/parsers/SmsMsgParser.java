@@ -220,15 +220,18 @@ public abstract class SmsMsgParser {
        iColonPt = body.indexOf(':', iColonPt+1);
        if (iColonPt < 0) break;
        
+       int ipt = iColonPt;
+       while (ipt>iDataPt && body.charAt(ipt-1)==' ') ipt--;
+       
        // Next search the available keywords to see if this colon
        // defines one of them
        for (int ndx = iKey+1; ndx < keyWords.length; ndx++) {
          String key = keyWords[ndx];
          int len = key.length();
-         int iTempPt = iColonPt - len;
+         int iTempPt = ipt - len;
          if (iTempPt < iDataPt) continue;
          if (iTempPt > 0 && body.charAt(iTempPt-1)!=' ') continue;
-         if (!body.substring(iTempPt,iColonPt).equals(key)) continue;
+         if (!body.substring(iTempPt,ipt).equals(key)) continue;
          iNxtKey = ndx;
          iEndPt = iTempPt;
          break;

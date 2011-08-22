@@ -29,7 +29,6 @@ Contact: ryan sellers <rsellers43@gmail.com>
 Sender: 93001015
 CAD:ASSAULT W/ INJURY;5048 DAFFODIL LN;CON;BRAXTON DR;SABLE CT;BRITTANY STIREWALT
 
-
 */
 
 public class NCCabarrusCountyParser extends DispatchOSSIParser {

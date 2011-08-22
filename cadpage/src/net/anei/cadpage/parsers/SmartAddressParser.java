@@ -206,7 +206,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     
     // C/S should be in this list, but it gets changed before we parse stuff
     setupDictionary(ID_CROSS_STREET, "XS:", "X:");
-    setupDictionary(ID_APPT, "APT:", "APT", "#", "SP", "RM");
+    setupDictionary(ID_APPT, "APT:", "APT", "#", "SP", "RM", "SUITE:");
   }
   
   /**
@@ -949,11 +949,14 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     
     boolean flexAt = isFlagSet(FLAG_AT_PLACE | FLAG_AT_BOTH);
     
-    int inApt = -1;
-    int stApt = -1;
-    int inPlace = -1;
-    int stPlace = -1;
-    int stCross = -1;
+    // Notice: If the FLAG_PAD_FIELD was set, some of these fields might have
+    // been found before the PAD field, in which case we don't want to disturb
+    // them.
+    int inApt = result.initApt;
+    int stApt = result.startApt;
+    int inPlace = result.initPlace;
+    int stPlace = result.startPlace;
+    int stCross = result.startCross;
     
     for (int ndx = srcNdx; ndx < tokens.length; ndx++) {
       
