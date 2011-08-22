@@ -490,10 +490,29 @@ public class NYSteubenCountyParserTest extends BaseParserTest {
         "CITY:BATH",
         "X:STATE ROUTE 54 / GRATTON DR; Near: LAKEVIEW APARTMENTS",
         "CALL:AUTOMATIC ALARM Fire");
+
+    doTest("T5",
+        "[2ndCall] 25 MAINE ST , BATH VILLAGE OF (ROBIE ST / HAVERLING ST) 1D1 Abdominal Pain Not alert BATHAMB:2011:1393",
+        "SRC:BATHAMB",
+        "ADDR:25 MAINE ST",
+        "CITY:BATH",
+        "X:ROBIE ST / HAVERLING ST",
+        "CODE:1D1",
+        "CALL:2ndCall - Abdominal Pain Not alert");
+
+    doTest("T6",
+        "[2ndCall] 3 CLUB VIEW DR , BATH VILLAGE OF ( / MAY ST) 28C06 Stroke (CVA) Sudden loss of balance or coordination BATHAMB:2011:1392",
+        "SRC:BATHAMB",
+        "ADDR:3 CLUB VIEW DR",
+        "CITY:BATH",
+        "X:MAY ST",
+        "CODE:28C06",
+        "CALL:2ndCall - ALERT",
+        "INFO:Stroke (CVA) Sudden loss of balance or coordination");
    
   }
   
   public static void main(String[] args) {
-    new NYSteubenCountyParserTest().generateTests("T1", "SRC PLACE ADDR APT CITY X CODE CALL INFO");
+    new NYSteubenCountyParserTest().generateTests("T5", "SRC PLACE ADDR APT CITY X CODE CALL INFO");
   }
 }

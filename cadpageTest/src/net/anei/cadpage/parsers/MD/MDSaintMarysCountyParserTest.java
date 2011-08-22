@@ -492,7 +492,18 @@ public class MDSaintMarysCountyParserTest extends BaseParserTest {
          "CITY:COUNTRY LAKES",
          "UNIT:CO2 SQ2 CO29 EMS42 ALS",
          "INFO:single vehicle overturned; across");
- }
+
+     doTest("T54",
+         "((10967) CAD ) 06:28:12*Sick Person*APT 843 LOCUST RIDGE*44790 LOCUST RIDGE CT UNIT843*SURREY WY*WILDEWOOD*ST38*86 year old, Female, Conscious, Breathing",
+         "CALL:Sick Person",
+         "PLACE:APT 843 LOCUST RIDGE",
+         "ADDR:44790 LOCUST RIDGE CT",
+         "APT:UNIT843",
+         "X:SURREY WY",
+         "CITY:WILDEWOOD",
+         "UNIT:ST38",
+         "INFO:86 year old, Female, Conscious, Breathing");
+}
   
   public static void main(String[] args) {
     new MDSaintMarysCountyParserTest().generateTests("T53", "CALL PLACE ADDR APT X CITY UNIT INFO");
