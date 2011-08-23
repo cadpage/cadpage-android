@@ -18,12 +18,16 @@ Sender: @cedargrovefire.org
 (CAD Page for CFS 052911-170) OPS 1\nTraffic Accident-PI\nMCDADE STORE RD and NC 86 N\nApt: \nBuild:
 (CAD Page for CFS 051311-370) OPS \nINFO FOR ALL UNITS\n643 tanker back in service\nApt: \nBuild:
 
+COntact: Ray Enoch <renoch357@gmail.com>
+Sender: cadpage@orangeem.org
+Subject:CAD Page for CFS 082311-84\nOPS 1\nUNCONSCIOUS\n412 N ELLIOTT RD\nApt: \nBuild: \n
+
  */
 
 
 public class NCOrangeCountyParser extends FieldProgramParser {
   
-  private static final Pattern SUBJECT_PTN = Pattern.compile("CAD Page for CFS (\\d{6}-\\d{3})");
+  private static final Pattern SUBJECT_PTN = Pattern.compile("CAD Page for CFS (\\d{6}-\\d{1,3})");
   
   public NCOrangeCountyParser() {
     super("ORANGE COUNTY", "NC",
@@ -32,7 +36,7 @@ public class NCOrangeCountyParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "@cedargrovefire.org";
+    return "@cedargrovefire.org,cadpage@orangeem.org";
   }
 
   @Override
