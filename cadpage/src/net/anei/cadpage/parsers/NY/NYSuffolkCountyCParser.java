@@ -78,6 +78,10 @@ Contact: kathleen clifford <kcnnp20@gmail.com>
 Sender: lakelandfd@rednmxcad.com
 Ambulance Call, Unconscious / Syncope: 63 YOM UNC... at 500 PECONIC STREET #335A  c/s: LOUIS KOSSUTH AVENUE . . 15:23:11 
 
+Contact: Ira <emtcc7@gmail.com>
+Sender: rockypointfd@rednmxcad.com
+Sick Person (Specific Diagnosis), New Onset of Immobility at 534 LEISURE DR, SHOREHAM  c/s: LAUREL DR . . 13:00:36 
+
 */
 
 public class NYSuffolkCountyCParser extends DispatchRedAlertParser {
@@ -88,6 +92,6 @@ public class NYSuffolkCountyCParser extends DispatchRedAlertParser {
 
   @Override
   public String getFilter() {
-    return "paging@alpinesoftware.com,lakelandfd@rednmxcad.com";
+    return "paging@alpinesoftware.com,@rednmxcad.com,";
   }
 }

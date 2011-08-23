@@ -359,7 +359,7 @@ Monroeville, PA (PAMonroevilleParser)
 * DispatchRedAlertParser subclasses
 *******************************************************************************
 *******************************************************************************
-SuffolkCounty (C), NY (NYSuffolkCountyCParser)
+Suffolk County (C), NY (NYSuffolkCountyCParser)
 MOTOR VEHICLE ACCIDENT . . MVA 29D4 at intersection of GREENBELT PKWY and PATCHOGUE-HOLBROOK RD. . 10:48:57
 WIRES . . POWER CONDENSER FIRE at intersection of PATCHOGUE-HOLBROOK RD and FURROWS RD. . 07:14:36
 WORKING STRUCTURE FIRE at 223 SPRINGMEADOW DR. . 16:22:21
