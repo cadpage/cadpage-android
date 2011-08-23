@@ -55,6 +55,13 @@ public class NCOrangeCountyParserTest extends BaseParserTest {
         "CH:OPS",
         "CALL:INFO FOR ALL UNITS",
         "ADDR:643 tanker back in service");
+
+    doTest("T7",
+        "Subject:CAD Page for CFS 082311-84\nOPS 1\nUNCONSCIOUS\n412 N ELLIOTT RD\nApt: \nBuild: \n",
+        "ID:082311-84",
+        "CH:OPS 1",
+        "CALL:UNCONSCIOUS",
+        "ADDR:412 N ELLIOTT RD");
   }
   
 
