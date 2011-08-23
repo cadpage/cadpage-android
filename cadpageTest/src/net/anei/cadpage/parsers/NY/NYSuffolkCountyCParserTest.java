@@ -339,12 +339,18 @@ public class NYSuffolkCountyCParserTest extends BaseParserTest {
         "ADDR:500 PECONIC STREET",
         "APT:335A",
         "X:LOUIS KOSSUTH AVENUE");
-  
+
+    doTest("T4",
+        "Sick Person (Specific Diagnosis), New Onset of Immobility at 534 LEISURE DR, SHOREHAM  c/s: LAUREL DR . . 13:00:36",
+        "CALL:Sick Person (Specific Diagnosis), New Onset of Immobility",
+        "ADDR:534 LEISURE DR",
+        "CITY:SHOREHAM",
+        "X:LAUREL DR");
   }
   
   
   public static void main(String[] args) {
-    new NYSuffolkCountyCParserTest().generateTests("T3", "CALL INFO ADDR CITY X PLACE");
+    new NYSuffolkCountyCParserTest().generateTests("T4", "CALL INFO ADDR CITY X PLACE");
   }
 
 }
