@@ -19,6 +19,9 @@ Sender: dispatch@firetracker.net
 (FirePage) ** FFD FIRE CALL ** CARBON APT 33 116 WEST END AVE C/S: RAY ST / ELINOR\nPL TOA: 11:23 [FireTracker]
 (FirePage) ** FFD FIRE CALL ** GENERAL 22 PEARSALL AVE C/S: LONG BEACH (N) AVE /\nPENNSYLVANIA AVE TOA: 15:56 [FireTracker]
 
+Contact: Nick Stein <snickphotos@gmail.com>
+FirePage / ** FFD SIGNAL 9 ** SIG 9 MALE VOMITTING 21 NORTON ST C/S: GUY LOMBARDO\nAVE / HUDSON AVE TOA: 18:42 [FireTracker]\n
+
 Contact: Louis Sabatino <lousab1@optonline.net>
 Contact: Mike Torregrossa <torr393@gmail.com>
 Sender: dispatch@firetracker.net
@@ -45,12 +48,15 @@ Contact: J N <shadymailman@gmail.com>,Jason Ng <jasonkwng@gmail.com>
 1 of 2\nFRM:dispatch@firetracker.net\nSUBJ:FirePage\nMSG:**NMFD** [AMBU] [AMBU] 1766 MERRICK AVE [DUNKIN DONUTS] C/S: WEBSTER ST\n/ GARFIELD ST -\n(Co 2 of 2\nM/A 64 ASSAULT VICTIM / R/O TOA:15:51 6/25/2011 Town Of:\nNO MERRICK [FireTracker](End)
 FRM:dispatch@firetracker.net\nSUBJ:FirePage\nMSG:**NMFD** [MVA] [MVA] WEBSTER ST C/S: MERRICK AVE - M/A 64 TOA:11:56\n6/28/2011 Town Of: MERRICK [FireTracker
 
+
 */
 public class NYNassauCountyFiretrackerParser extends FieldProgramParser {
   
+  private static final Pattern FFD_MARKER = Pattern.compile("^\\*\\* FFD [^\\*]+ \\*\\* ");
+  
   public NYNassauCountyFiretrackerParser() {
     super("NASSAU COUNTY", "NY", 
-           "ADDR/SCP! CS:X TOA:SKIP");
+           "ADDR/SCP! C/S:X TOA:SKIP");
   }
   
   @Override
@@ -61,7 +67,14 @@ public class NYNassauCountyFiretrackerParser extends FieldProgramParser {
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
     
-    if (!subject.equals("FirePage")) return false;
+    do {
+      if (subject.equals("FirePage")) break;
+      if (body.startsWith("FirePage / ")) {
+        body = body.substring(11).trim();
+        break;
+      }
+      return false;
+    } while (false);
     
     int pt = body.lastIndexOf('[');
     if (pt < 0) return false;
@@ -91,9 +104,10 @@ public class NYNassauCountyFiretrackerParser extends FieldProgramParser {
     }
 
     do {
-      if (body.startsWith("** FFD FIRE CALL ** ")) {
+      Matcher match;
+      if ((match = FFD_MARKER.matcher(body)).find()) {
         data.strSource = "FFD";
-        body = body.substring(20).trim();
+        body = body.substring(match.end()).trim();
         break;
       }
       if (body.startsWith("**NMFD**")) {
@@ -104,7 +118,7 @@ public class NYNassauCountyFiretrackerParser extends FieldProgramParser {
       return false;
     } while (false);
     
-    body = body.replace('\n', ' ').replace("C/S:", "CS:").replace(" LA ", " LN ");
+    body = body.replace('\n', ' ').replace(" LA ", " LN ");
 
     return super.parseMsg(body, data);
   }
