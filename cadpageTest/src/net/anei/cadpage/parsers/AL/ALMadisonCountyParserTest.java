@@ -71,9 +71,15 @@ public class ALMadisonCountyParserTest extends BaseParserTest {
         "CITY:HUNTSVILLE",
         "ID:E1120841",
         "CALL:MVA W/ ENTRAPMENT");
+
+    doTest("T9",
+        "Subject:IPS I/Page Notification\nLoc: 2979 OLD HIGHWAY 431 OXRD: @NO NAME: COMMERCIAL & RESIDENTAL APT COMPLEX: alias 2979 OLD HWY 431 EVT",
+        "ADDR:2979 OLD HIGHWAY 431",
+        "PLACE:NO NAME: COMMERCIAL & RESIDENTAL APT COMPLEX: @2979 OLD HWY 431",
+        "CITY:OWENS CROSS ROADS");
   }
   
   public static void main(String[] args) {
-    new ALMadisonCountyParserTest().generateTests("T1", "ADDR CITY ID CALL");
+    new ALMadisonCountyParserTest().generateTests("T9", "ADDR PLACE CITY ID CALL");
   }
 }
