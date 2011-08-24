@@ -40,7 +40,6 @@ public class ALMadisonCountyParser extends SmartAddressParser {
   
   private static final Properties CITY_TABLE = buildCodeTable(new String[]{
       "MDCO",  "MADISON COUNTY",
-      "MDCO:", "MADISON COUNTY",
       "HSV",   "HUNTSVILLE",
       "OXRD",  "OWENS CROSS ROADS"
   });
