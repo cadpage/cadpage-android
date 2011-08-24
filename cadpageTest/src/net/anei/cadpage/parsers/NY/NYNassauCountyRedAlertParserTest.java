@@ -276,6 +276,13 @@ public class NYNassauCountyRedAlertParserTest extends BaseParserTest {
         "CITY:NORTH HILLS",
         "X:ACORN PONDS DR");
 
+    doTest("T10",
+        "/ STILL ALARM: ODOR OF GAS at CENTRAL AVE / ROCKAWAY TPKE, LAWRENCE . . 14:20:55",
+        "CALL:STILL ALARM",
+        "INFO:ODOR OF GAS",
+        "ADDR:CENTRAL AVE & ROCKAWAY TPKE",
+        "CITY:LAWRENCE");
+
   }
   
   public static void main(String[] args) {
