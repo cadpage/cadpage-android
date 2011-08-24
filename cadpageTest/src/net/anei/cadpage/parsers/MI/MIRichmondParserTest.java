@@ -109,9 +109,15 @@ public class MIRichmondParserTest extends BaseParserTest {
         "CALL:TEST - ROLLOVER ACCIDENT",
         "ADDR:I-94 & CHURCH RD",
         "CITY:CASCO");
-  }
+
+    doTest("T19",
+        "* RESCUE * 8296 DIVISION RD  .. FULL ARREST.  COLUMBUS TWP",
+        "CALL:RESCUE - FULL ARREST",
+        "ADDR:8296 DIVISION RD",
+        "CITY:COLUMBUS TWP");
+ }
   
   public static void main(String[] args) {
-    new MIRichmondParserTest().generateTests("T1", "CALL ADDR CITY");
+    new MIRichmondParserTest().generateTests("T19", "CALL ADDR CITY");
   }
 }
