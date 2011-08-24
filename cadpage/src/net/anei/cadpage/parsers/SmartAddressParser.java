@@ -601,7 +601,6 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     
     // Otherwise, scan forward looking for a <road-sfx> <connector> combination
     // Then back up 2 places assuming the road consists of one token.
-    // If the previous token is a direction, back up one more to include that.
     else {
       int start = startNdx;
       ndx = start;
@@ -727,7 +726,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
         if (ndx >= tokens.length) return false;
         if (isType(ndx, ID_CROSS_STREET)) return false;
         if (atStart || flexAt && isType(ndx, ID_INCL_AT_MARKER)) {
-          sAddr = ndx;
+          start = sAddr = ndx;
           ndx = findRoadEnd(sAddr);
           ndx--;
           if (ndx < 0) return false;
@@ -913,6 +912,9 @@ public abstract class SmartAddressParser extends SmsMsgParser {
    * @return index of presumed road name
    */
   private int stretchRoadPrefix(int start, int sAddr) {
+    
+    // If road starts with a direction, back up one place
+    if (sAddr > start && isType(sAddr, ID_DIRECTION)) sAddr--;
     
     // Look up to 3 tokens back to see if we find a direction token
     // Stop search if we encounter a /, lest we confuse a W/INJURY
