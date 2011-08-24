@@ -842,6 +842,11 @@ MCo / [mCAD] * D * 2301 * BUILDING FIRE * 1620 E JEFFERSON ST ,RO * E723 E703 E7
 MCo / [mCAD] * D * 0302 * BUILDING FIRE * 733 MONROE ST ,RO * E723 E733 E726 E725 E721 AT703 AT723 RS741B M723 BC703 BC704 D3 D5 DFRS INV CEALRM CODE BCNOT
 MCo / [mCAD] * D * 0301 * HOUSE FIRE * 1006 DE BECK DR ,RO * E703 E723 E721 E725 E733 AT703 T731 RS703 A703 BC703 BC704 D3 D5 DFRS INV CEALRM CODE BCNOT
 ***************************************************************************
+North East, MD (MDNorthEastParser)
+10C04 (CHE\nCHEST PAIN\n322 E CECIL AVE @NORTH BAY MED\nNE\nMECHANICS VALLEY RD\n06/14/11\n11:21:54\nDR SCHADEV'S OFFICE[P CHEST ;41 YEAR OLD, FEMALE, CONSCIOUS
+31A01 (UNC\nUNCON/SYNCOPAL\n161 WILLARD DR\nNE\nSTITES LN\n06/13/11\n08:53:56\n[P MOM FELL ;76 YEAR OLD, FEMALE, CONSCIOUS, BREATHING. UNCONSCIOUS/FAINTING (NE
+AUTO (AUTO\nAUTOMOBILE FIRE\n98.5 I95 NB HWY\nNE\nRED TOAD RD\n06/13/11\n14:13:17\nAUTO ON FIRE//CAN SEE FLAMES AND SMOKE\nOPS 6   0495S\n04
+***************************************************************************
 Ocean City, MD  (MDOceanCityParser)
 (Chief ALT) [700 Auto] - Nature:Auto Alarm - LOC:2500 Baltimore Ave - Crystal Beach Hotel - ADD:(s) (n)boardwalk OCMD - Cross STS:26th St & 25th St
 (Chief ALT) [STA:700] - Nature:Vehicle Fire - ADD:8878 Stephen Decatur Hwy OCMD - Cross STS:Clark Rd & Landings Blvd
@@ -3247,94 +3252,6 @@ ARCHDALE RD ONTO DON
 **********************************************************
 **********************************************************
 **********************************************************
-North East, MD (in Cecil County)
-Contact: Dave Simmons <acdave0911@gmail.com>
-Sender: nefc911@nefc.com
-
-NE= North East
-ELK= Elkton
-CHAR= Charlestown
-PV= Perryville
-RS= Rising Sun
-PD = Port Deposit
-WAR= Warwick
-CHES= Chesapeake City
-CONO= Conowingo
-EARL= Earlville
-CCLT= Cecilton
-COLO = Colora
-
-OOC = Out of County(used for a dispacted calls outside of Cecil County)
-      May also be out of state
-
-line 1 is the CAD discriptor
-line 2 is call type
-line 3 is address
-line 4 is city abbreviation(NE= north east, elk=elkton, rs=rising
-sun.....etc)
-line 5 is nearest cross street
-line 6 is call date
-line 7 is dispacth time
-line 8 is call discription
-line 9 (Fire dispatch only) radio channel, box #
-line 10 (fire dispatch only) first due company
-
-example of medical call:
-
-10C04 (CHE
-CHEST PAIN
-322 E CECIL AVE @NORTH BAY MED
-NE
-MECHANICS VALLEY RD
-06/14/11
-11:21:54
-DR SCHADEV'S OFFICE[P CHEST ;41 YEAR OLD, FEMALE, CONSCIOUS
-
-31A01 (UNC
-UNCON/SYNCOPAL
-161 WILLARD DR
-NE
-STITES LN
-06/13/11
-08:53:56
-[P MOM FELL ;76 YEAR OLD, FEMALE, CONSCIOUS, BREATHING. UNCONSCIOUS
-/FAINTING (NE
-
-
-example of fire call:
-
-AUTO (AUTO
-AUTOMOBILE FIRE
-98.5 I95 NB HWY
-NE
-RED TOAD RD
-06/13/11
-14:13:17
-AUTO ON FIRE//CAN SEE FLAMES AND SMOKE
-OPS 6   0495S
-04
-
-
-HOUSE (HOU
-HOUSE FIRE
-354 W MAIN ST
-ELK
-BLUEBALL AVE
-06/13/11
-19:20:42
-FIRE IN THE STOVE WAS FULLY INVOLVED COULD BE OUT SMOKE IN THE RESIDENCE
-OPS 7
-
-HOUSE (HOU
-HOUSE FIRE
-122 WHITEHALL RD
-ELK
-CHESSMAN CIR
-06/13/11
-15:44:45
-SMOKE FROM BASEMENT//BLACK
-OPS 6   0304
-03
 **********************************************************
 Mecklenburg County, NC (alternate)
 Contact: Jeremy Shimberg <jshimberg@carolina.rr.com>,7042398801@vtext.com
