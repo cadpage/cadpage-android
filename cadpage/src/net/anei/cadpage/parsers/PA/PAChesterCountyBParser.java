@@ -25,6 +25,7 @@ import net.anei.cadpage.SmsMsgInfo.Data;
 (Messenger 911) BALARMM\n122 JENNERS POND RD - LUTHER HOUSE 2\nGREENBRIAR LA & ALLYSSA LA\nPENN\nGEN MEDICAL - "NURSE CALL" - ANSWERING MACHINE ON PREMISE\n23:25
 (Messenger 911) BFALL\n33 DOGWOOD DR\nHOLLY DR & OAK LA\nKNTTWP\n80/F--FELL FROM STANDING--LIFT ASSISTANCE\n09:49
 (Messenger 911) BALARMM\n219 DALEVILLE RD\nBIRCHWOOD LA & FAGGS MANOR RD\nLONDER\nPENDANT ALARM - NO CONTACT MADE - UNK HX\n08:42
+(Messenger 911) [Update]\nAUNRESP\n8995 GAP NEWPORT PK\nNEW GARDEN RD & BRITTANY DR\nNGARDN\nORIG 911HU-48/F\n14:03
 
  */
 
@@ -33,7 +34,7 @@ public class PAChesterCountyBParser extends PAChesterCountyBaseParser {
   private boolean good;
   
   public PAChesterCountyBParser() {
-    super("CALL ( ADDRCITY2 X2? | ADDRPL! X2? ( CITY | APT? INFO+? CITY! ) ) INFO+? DATETIME DATETIME? NAME? PHONE");
+    super("EMPTY? CALL ( ADDRCITY2 X2? | ADDRPL! X2? ( CITY | APT? INFO+? CITY! ) ) INFO+? DATETIME DATETIME? NAME? PHONE");
   }
   
   @Override
@@ -43,10 +44,23 @@ public class PAChesterCountyBParser extends PAChesterCountyBaseParser {
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
-    good = subject.equals("Messenger 911");
+    good = subject.startsWith("Messenger 911");
     if (!good && !subject.equals("") && !subject.equals("Update")) return false;
     if (!parseFields(body.split("\n"), data)) return false;
     return good;
+  }
+  
+  private class EmptyField extends SkipField {
+    
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      return field.length() == 0;
+    }
   }
   
   private class MyDateTimeField extends DateTimeField {
@@ -60,6 +74,7 @@ public class PAChesterCountyBParser extends PAChesterCountyBaseParser {
   
   @Override
   public Field getField(String name) {
+    if (name.equals("EMPTY")) return new EmptyField();
     if (name.equals("DATETIME")) return new MyDateTimeField();
     return super.getField(name);
   }

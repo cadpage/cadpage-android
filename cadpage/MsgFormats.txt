@@ -3046,7 +3046,6 @@ Sender: 93001048
 **********************************************************
 **********************************************************
 **********************************************************
-**********************************************************
 ************  READY TO ROLL ******************************
 **********************************************************
 **********************************************************
@@ -3114,6 +3113,36 @@ BE:2011:42
 HC:2011:17
 
 I can tell you the following... the BE! is for Bennington.  The first numeric and name is the call location street number and street name, then township (Town of Bennington/Village of Attica, etc ).  Then the cross streets are listed.  Then is a numeric code with the corresponding call type.  The last numeric sequence is the department (BE is Bennington, AT is Attica, etc) followed by the year and run number.   Thanks so much for your help!
+**********************************************************
+Marshall County, IN
+Contact: "John Gomola" <johng@bourbonfire.com>
+Sender: cad@co.marshall.in.us
+CAD:FYI ;address/intersection;town (first four
+letters only); cross streets(all but the update have
+only one cross streets listed) ;type of call; call
+date ;call time
+
+>    CAD:FYI: ;702 S WASHINGTON ST;BREM;E RAYMOND
+ST;ALARM CO DETECTOR;08/23/2011 10:17:48            
+                     
+
+>    CAD:FYI: ;200 W FLORENCE ST;BOUR;N THOMPSON
+ST;FIRE ALARM;08/23/2011 10:34:48
+
+>    CAD:FYI: ;601 S BOURBON ST;BOUR;W FRANK ST;FIRE
+STRUCTURE;08/21/2011 21:30:37 
+
+a intersection listed
+
+>     CAD:FYI: ;SR 110/ELM RD;TIPP;FIRE
+GRASS;08/21/2011 19:17:18 
+ 
+
+If there is an update on the location we sometimes
+get a second message with the update infront
+
+>     Update: ;625-33 OAKHILL AVE;PLYM;NURSERY ST;S
+SECOND ST;MEDICAL CALL;08/19/2011 20:52:25
 **********************************************************
 **********************************************************
 **********************************************************
