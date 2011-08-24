@@ -1086,6 +1086,11 @@ Sullivan County, NY (NYSulivanCountyParser)
 (911 Page) 06:53 Type: E-13A Diabetic Problem Loc: 159 N MAIN X: No Cross Streets Found V: V/Liberty CN:
 (911 Page) 09;17 Type: E-29B MVA Loc:STHY 52 X: HYSANA RD V: LIBERTY CN:
 ***************************************************************************
+Wyoming County, NY
+2314, STEDMAN RD;BENNINGTON TOWN (TINKHAM RD / GEISE RD)\n4105-Fire Alarm\nBE:2011:59\nThe document(s) accompanying t
+560, BURROUGH RD;BENNINGTON TOWN (GETMAN RD / FRIEDMAN RD)\n4001-Abdominal Pain\nBE:2011:57\nThe document(s) accompan
+ATTICA RODEO GROUNDS ;ATTICA VILLAGE ( 230 EXCHANGE ST)\n4109-Stand-by\nAT:2011:211
+***************************************************************************
 Westchester County, NY (NYWestchesterCountyParser)
 IPage / 4 DUDLEY LN MAMARONECK_T, Cross: FENIMORE RD, Type:ALARM, RESD, Time out: 09:42:46 Area: MAMTW,Alarm lev: 0 ,Comments:
 IPage / 50 ELKAN RD MAMARONECK_T: @ELKAN APARTMENTS, Cross: PALMER AVE, Type:ALS, , Time out: 12:12:51 Area: LARCH,Alarm lev:
@@ -3096,54 +3101,6 @@ JVFD-Motor Vehicle Crash - Injury AT 215 ROY PHILLIPS RD -X-ST:BRANDON LN-RIDGEC
 **********************************************************
 **********************************************************
 **********************************************************
-Wyoming County, NY
-Contact: Kimo Brandon <brandokw@clarkson.edu>,5853565874@vtext.com
-Sender: benningtonfd+bncCJaK9YeOBRDD1c7yBBoEC5LrgA@googleg
-benningtonfd+bncCJaK9YeOBRCi3LryBBoEcjen6A@googleg
-
- 2314, STEDMAN RD;BENNINGTON TOWN (TINKHAM RD / GEISE RD)
-4105-Fire Alarm
-BE:2011:59
-The document(s) accompanying t
-
- 560, BURROUGH RD;BENNINGTON TOWN (GETMAN RD / FRIEDMAN RD)
-4001-Abdominal Pain
-BE:2011:57
-The document(s) accompan
-
- ATTICA RODEO GROUNDS ;ATTICA VILLAGE ( 230 EXCHANGE ST)
-4109-Stand-by
-AT:2011:211
-
-709, BURROUGH RD;BENNINGTON TOWN (FRIEDMAN RD / ROUTE 354)
-4026-Sick Person
-BE:2011:54
-
- 1204, FRENCH RD;BENNINGTON TOWN (ROUTE 354 / HOOVER RD)
-4001-Abdominal Pain
-BE:2011:51
-
- 2050, ROUTE 354 #PH;BENNINGTON TOWN (FRENCH RD / MAXON RD)
-4002-Allergies
-BE:2011:46
-
- 1950, ROUTE 354 ;BENNINGTON TOWN (FRENCH RD / MAXON RD)
-6302-MVA/INJURY
-BE:2011:45
-
-32,S PEARL ST #APT LOWER;ATTICA VILLAGE (MAIN ST / DEAD END)
-4010-Chest Pain
-AT:2011:174
-
- 380, ROUTE 77 ;BENNINGTON TOWN (GENESEE CO LINE / CHURCH RD)
-4030-Traumatic Injury
-BE:2011:42
-
-(!BE) BURROUGHS RD/ROUTE 20A
-4029-Traffic Accident
-HC:2011:17
-
-I can tell you the following... the BE! is for Bennington.  The first numeric and name is the call location street number and street name, then township (Town of Bennington/Village of Attica, etc ).  Then the cross streets are listed.  Then is a numeric code with the corresponding call type.  The last numeric sequence is the department (BE is Bennington, AT is Attica, etc) followed by the year and run number.   Thanks so much for your help!
 **********************************************************
 Marshall County, IN
 Contact: "John Gomola" <johng@bourbonfire.com>
