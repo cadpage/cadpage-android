@@ -33,6 +33,9 @@ Sender: richmondpaging@comcast.net
 **RESCUE** FRESHMAN STUFFED IN LOCKER.  DIVISION @ MAIN.
 **TEST**  I-94/CHURCH RD,  CASCO. ROLLOVER ACCIDENT
 
+Contact: Dan Hill <hill.rix@gmail.com>
+* RESCUE * 8296 DIVISION RD  .. FULL ARREST.  COLUMBUS TWP
+
 */
 
 public class MIRichmondParser extends SmartAddressParser {
@@ -46,14 +49,14 @@ public class MIRichmondParser extends SmartAddressParser {
   private static Set<String> CITY_SET = new HashSet<String>(Arrays.asList(CITY_LIST));
   
   public String getFilter() {
-    return "CAD@livingstoncounty.livco";
+    return "richmondpaging@comcast.net";
   }
   
   public MIRichmondParser() {
     super(CITY_LIST, "", "MI");
   }
   
-  private static final Pattern MARKER = Pattern.compile("^\\*\\*([A-Z ]+)\\*\\*");
+  private static final Pattern MARKER = Pattern.compile("^\\*\\*?([A-Z ]+)\\*\\*? ");
   private static final Pattern[] ADDRESS = new Pattern[]{ 
     Pattern.compile("(?:(.*) )?(\\b\\d+\\b.*)"),
     Pattern.compile("(?:(.*) )?(\\b[-A-Z]+(?: LN| RD | ST| AV)? ?&.*)")
