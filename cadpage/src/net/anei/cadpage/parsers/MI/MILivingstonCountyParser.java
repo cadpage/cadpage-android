@@ -37,7 +37,7 @@ CAD:FYI: ;OPENBU;8360 MCCLEMENTS RD;DEKASSEL DR;BURNING GARBAGE ONE HOUSE EAST O
 public class MILivingstonCountyParser extends DispatchOSSIParser {
   
   public String getFilter() {
-    return "CAD@livingstoncounty.livco";
+    return "CAD@livingstoncounty.livco,93001";
   }
   
   public MILivingstonCountyParser() {

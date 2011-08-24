@@ -29,6 +29,13 @@ St Francois County, MO
 1 of 2\nFRM:IPN.9999900138@ipnpaging.com\nMSG:Ct:MVA INJURY      Loc:US HIGHWAY 67/HILDEBRECHT RD Apt:\nXSt:\n(Con't) 2 of 2\nGrid:6741 Units:E4160 F4185 A5177 R4276 E4261             Rmk:T-BONE\nCOLLISION -- UNKNOWN ON INJURY CA\n\n(End)
 1 of 2\nFRM:IPN.9999900138@ipnpaging.com\nMSG:Ct:FIRE MISC       Loc:4 DOE RUN                    Apt:\nXSt:\n(Con't) 2 of 2\nGrid:4100 Units:4102                                      Rmk:HAVE 4139\nCONTACT 4102 AT THE FIREHOUSE\n\n(End)
 
+Oxford, OH
+Ct:MED:ENTRAPMENT  Loc:11 S POPLAR ST               Apt:      XSt:HIGH ST WALNUT ST               Grid:1604 Units:NO19                                      Rmk:
+Ct:FD: FIRE ALARM  Loc:5201 COLLEGE CORNER PKe      Apt:219   XSt:                                Grid:4300 Units:M11                                       Rmk:
+Ct:MED:EMERGENCY   Loc:CHESTNUT ST/MAIN ST          Apt:      XSt:                                Grid:3116 Units:E11   M11                                 Rmk:
+Ct:PD: INJ CRASH   Loc:CHURCH ST/COLLEGE AV         Apt:      XSt:                                Grid:2535 Units:LO49  LO57                                Rmk:
+Ct:FD: OTHER       Loc:5980 WILMINGTON PIKE         Apt:      XSt:CLYO RD         WILMINGTON PIKE Grid:6590 Units:C10                                       Rmk:
+
 ***/
 
 public class DispatchCiscoParser extends FieldProgramParser {

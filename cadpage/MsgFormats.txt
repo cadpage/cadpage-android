@@ -277,6 +277,10 @@ RC:Run# 29907/PR Event/Public Service/CRYSTAL FARMS RD///TATUM/19:15/////PR EVEN
 *******************************************************************************
 *DispatchCiscoParser subclasses
 *******************************************************************************
+Oxford, OH (OHOxfordParser)
+Ct:MED:ENTRAPMENT  Loc:11 S POPLAR ST               Apt:      XSt:HIGH ST WALNUT ST               Grid:1604 Units:NO19                                      Rmk:
+Ct:FD: FIRE ALARM  Loc:5201 COLLEGE CORNER PKe      Apt:219   XSt:                                Grid:4300 Units:M11                                       Rmk:
+Ct:MED:EMERGENCY   Loc:CHESTNUT ST/MAIN ST          Apt:      XSt:                                Grid:3116 Units:E11   M11                                 Rmk:
 *******************************************************************************
 Sugarcreek Township, OH (OHSugarCreekParser) 
 Ct:EMS MINOR       Loc:4336 STATE RT 725            Apt:      XSt:BAYBERRY COVE D LAKEMAN DR      Grid:003F Units:72                                        Rmk:
@@ -289,6 +293,11 @@ Vigo County, IN (INVigoCountyParser)
 Ct:FALL Loc:3301 ST MARY'S RD Apt: XSt:BLOOMTOWN RD US HWY 150 Grid:112D Units:E-42 TC-1 Rmk:92 YOLD FML; FELL; FACE DOWN ON FLOOR -
 Ct:CHEST PAIN Loc:500 W PARIS AV Apt: XSt:6TH ST WTH 4TH ST WTH Grid:0WTH Units:E-41 TC-1 Rmk:
 Ct:MVA-UNKNOWN-INJ Loc:US HWY 40/INTERSTATE 70 Apt: XSt: Grid:0169 Units:E-41 Rmk:SEMI AND PASSENGER CAR//UNKNOWN Injuries
+***************************************************************************
+St Francois County, MO (MOStFrancoisCountyParser)
+1 of 2\nFRM:IPN.9999900138@ipnpaging.com\nMSG:Ct:FIRE ALARM      Loc:3962 HAWK HOLLOW RD          Apt:      XSt:RIDGE\nTOP DR\n(Con't) 2 of 2\nGrid:4101 Units:E4161 T4171 4100  E4160 F4185             Rmk:ALARM SHOWING\nSMOKE SENSOR, ATTEMPTING K\n\n(End)
+1 of 2\nFRM:IPN.9999900138@ipnpaging.com\nMSG:Ct:EMS CALL        Loc:HIGHWAY H/HIGHWAY AA         Apt:\nXSt:\n(Con't) 2 of 2\nGrid:4101 Units:F4185 4100  A5177 5100                    Rmk:\n\n(End)
+1 of 2\nFRM:IPN.9999900138@ipnpaging.com\nMSG:Ct:INVESTIGATION   Loc:!RAIL ROAD LN OFF HILDEBRECH Apt:\nXSt:\n(Con't) 2 of 2\nGrid:4100 Units:4100  E4160                               Rmk:ON THE AIR\nINVESTIGATING A POSSIBLE FIRE\n\n(End)
 *******************************************************************************
 *******************************************************************************
 * DispatchPrintrakParser subclasses
@@ -912,11 +921,6 @@ St Charles County, MO (MOStCharlesCountyParser)
 081411-29063        05 Back Pain (No Trauma) 161 Our Ln                                        ~/HIGHWAY 94 N           APT:                X ST:HIGHWAY 94 N/Dead End         MAP:M 6-22         Rivers Pointe B2
 072611-26676        23 Overdose QD           308 Donald Ave                                    PRAIRIE HOMES ADDN/HWY V APT:                X ST:SUSAN AVE/RUTH AVE            MAP:BB 8-19        Orchard Farm B2
 081911-29644        29 Motor Vehicle Accident4795 Highway 94 N                                 CHU Trinity Lutheran ChurAPT:                X ST:CHURCH RD/HIGHWAY H           MAP:Z 10-19        Orchard Farm B2
-***************************************************************************
-St Francois County, MO (MOStFrancoisCountyParser)
-1 of 2\nFRM:IPN.9999900138@ipnpaging.com\nMSG:Ct:FIRE ALARM      Loc:3962 HAWK HOLLOW RD          Apt:      XSt:RIDGE\nTOP DR\n(Con't) 2 of 2\nGrid:4101 Units:E4161 T4171 4100  E4160 F4185             Rmk:ALARM SHOWING\nSMOKE SENSOR, ATTEMPTING K\n\n(End)
-1 of 2\nFRM:IPN.9999900138@ipnpaging.com\nMSG:Ct:EMS CALL        Loc:HIGHWAY H/HIGHWAY AA         Apt:\nXSt:\n(Con't) 2 of 2\nGrid:4101 Units:F4185 4100  A5177 5100                    Rmk:\n\n(End)
-1 of 2\nFRM:IPN.9999900138@ipnpaging.com\nMSG:Ct:INVESTIGATION   Loc:!RAIL ROAD LN OFF HILDEBRECH Apt:\nXSt:\n(Con't) 2 of 2\nGrid:4100 Units:4100  E4160                               Rmk:ON THE AIR\nINVESTIGATING A POSSIBLE FIRE\n\n(End)
 ***************************************************************************
 St Louis County, MO (MOStLouisCountyParser)
 MONROE AV / OAKRIDGE DR (MISC) - WIRES DOWN - 4310 09:04
@@ -3076,10 +3080,9 @@ Sender: 4232623650
 JVFD-Motor Vehicle Crash - Injury AT 215 ROY PHILLIPS RD -X-ST:BRANDON LN-RIDGECREST RD MAP-67C 00:18
 **********************************************************
 **********************************************************
+**********************************************************
+**********************************************************
 ************  READY TO ROLL ******************************
-**********************************************************
-**********************************************************
-**********************************************************
 **********************************************************
 **********************************************************
 Tioga County, PA
@@ -3185,7 +3188,6 @@ MENT MENTONE
 NAPP NAPPANEE
 ROCH ROCHESTER
 WALK WALKERTON
-
 **********************************************************
 Florence County, SC
 Contact: Anthony Fox <anthonyf@westflorencefd.com>
@@ -3196,19 +3198,61 @@ FLORENCE CO 911:FIRE >FIRE CALL 1912 ENTERPRISE DR XS: W LUCAS ST FLORENCE SEC C
 FLORENCE CO 911:52C1G >HGH LIFE HZD ALRM GEN 3006 HOFFMEYER RD XS: WINDSOR FOREST DR FLORENCE SIMPLEX Map: Grids:0,0 Cad: 2011-0000104810
 FLORENCE CO 911:32D1 >UNK PROBLEM-LIFE STAT QUESTION 2438 WILLWOOD DR Apt: A Bldg XS: BENTREE LN OFF W PALMETTO ST FLORENCE RAMANDA Cad: 2011-00001032
 **********************************************************
+Randolph County, NC
+Contact: Frank Crotts <Crottsf@guil-randfire.com>
+
+Randolph 911 - GRFD
+BREATHING
+5064 CROTTS DR
+STA40
+STA40
+10-15 JAMES KIRKMAN...BREATHING DIFF...TIGHTNESS IN CHEST...HANDS TINGLING...HEART RATE IS 45
+16:34:30 08/21/2011 - WATSON,A D
+ProQA Medical Case Entry Finished
+16:35:13 08/2
+
+Randolph 911 - GRFD
+ABDOMINAL PAIN
+6242 CEDAR LN
+STA41
+STA41
+10-15 HOWARD PEELE..68 YO..SICKNESS AND TREMBLING...TESTICLE PAIN..ABDOMINAL
+PAIN..CONFUSED...26 D 1
+10:26:05 08/22/2011 - MCCORQUODALE, C
+PROQA WOULD NOT LAUNCH
+
+Randolph 911 - GRFD
+FALL
+8374 HARLOW RD;UNIT 10
+STA41
+STA41
+CHILTON MHP...CAILY SKEEN...87 Y/O FEMALE...KEY BEHIND THE ELECTRICAL AT THE TELEPHONE POLE INSIDE THE BLK BOX AND THE KEY IS FOR A DEAD BOLT...ABLE TO VOICE CONTACT UNK INJ
+
+Randolph 911 - GRFD
+HEMORRHAGE
+203 GREEN OAK DR; SUITE A
+STA20
+STA20
+REF ASSISTING GUILFORD COUNTY
+00:14:45 08/23/2011 - NELSON,A W
+ProQA Medical Case 1258044 Aborted: ASSISTING GUILFORD COUNTY
+
+
+Randolph 911 - GRFD
+ABDOMINAL PAIN
+119 BARWOOD TER
+STA20
+STA20
+47YOF.. 1C4.. NEAR FAINTING.. ABOVE THE NAVEL.. 
+12:44:15 08/20/2011 - WALTER,D S
+ProQA Medical Case Entry Finished
+12:44:48 08/20/2011 - KING,J C
+ARCHDALE RD ONTO DON
 **********************************************************
 **********************************************************
 **********************************************************
 **********************************************************
-Oxford, OH
-Contact: Greg Yingling <gyingling@cityofoxford.org>
-Sender: cisco@cityofoxford.org
-System: CISCO
-Ct:MED:ENTRAPMENT  Loc:11 S POPLAR ST               Apt:      XSt:HIGH ST WALNUT ST               Grid:1604 Units:NO19                                      Rmk:
-Ct:FD: FIRE ALARM  Loc:5201 COLLEGE CORNER PKe      Apt:219   XSt:                                Grid:4300 Units:M11                                       Rmk:
-Ct:MED:EMERGENCY   Loc:CHESTNUT ST/MAIN ST          Apt:      XSt:                                Grid:3116 Units:E11   M11                                 Rmk:
-Ct:PD: INJ CRASH   Loc:CHURCH ST/COLLEGE AV         Apt:      XSt:                                Grid:2535 Units:LO49  LO57                                Rmk:
-Ct:FD: OTHER       Loc:5980 WILMINGTON PIKE         Apt:      XSt:CLYO RD         WILMINGTON PIKE Grid:6590 Units:C10                                       Rmk:
+**********************************************************
 **********************************************************
 North East, MD (in Cecil County)
 Contact: Dave Simmons <acdave0911@gmail.com>
