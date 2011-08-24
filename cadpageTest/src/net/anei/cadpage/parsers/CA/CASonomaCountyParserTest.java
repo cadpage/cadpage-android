@@ -131,6 +131,41 @@ public class CASonomaCountyParserTest extends BaseParserTest {
   }
   
   @Test
+  public void testParser3() {
+
+    doTest("T1",
+        "Loc: 420 GREVE LN SO BOX: 3662 A1 CN:  C#: (707) 939-9366 TYP: MED CALLER ADDR:  TIME: 01:38:32 COM:  HIGH BP FEELING ILL ** Case number SON11002627 has bee",
+        "ADDR:420 GREVE LN",
+        "SRC:SO",
+        "BOX:3662 A1",
+        "CALL:MED",
+        "PHONE:(707) 939-9366",
+        "INFO:HIGH BP FEELING ILL ** Case number SON11002627 has bee");
+
+    doTest("T2",
+        "Loc: 1850 SPERRING RD SCH BOX: 3759 B1 CN: STANLEY 877 476 4968 C#: (707) 933-9300 TYP: FA-RES CALLER ADDR:  TIME: 09:26:52 COM:  SMOKE DETECTOR HALLWAY CON",
+        "ADDR:1850 SPERRING RD",
+        "SRC:SCH",
+        "BOX:3759 B1",
+        "CALL:FA-RES",
+        "NAME:STANLEY 877 476 4968",
+        "PHONE:(707) 933-9300",
+        "INFO:SMOKE DETECTOR HALLWAY CON");
+
+    doTest("T3",
+        "Loc: 800 OREGON ST SO: @MERRILL GARDENS,266 BOX: 3660 B4 CN: DOMOGALLA VERN F C#: (707) 996-8354 TYP: SER-PA CALLER ADDR: 800 OREGON TIME: 09:52:45 COM:  AP",
+        "ADDR:800 OREGON ST",
+        "SRC:SO",
+        "PLACE:MERRILL GARDENS,266",
+        "BOX:3660 B4",
+        "CALL:SER-PA",
+        "NAME:DOMOGALLA VERN F",
+        "PHONE:(707) 996-8354",
+        "INFO:AP");
+
+  }
+  
+  @Test
   public void testEmailParser() {
 
     doTest("T1",
@@ -203,6 +238,6 @@ public class CASonomaCountyParserTest extends BaseParserTest {
   }
   
   public static void main(String[] args) {
-    new CASonomaCountyParserTest().generateTests("T11");
+    new CASonomaCountyParserTest().generateTests("T1");
   }
 }
