@@ -173,9 +173,17 @@ public class PAChesterCountyBParserTest extends BaseParserTest {
         "X:BIRCHWOOD LA & FAGGS MANOR RD",
         "CITY:LONDONERRY TWP",
         "INFO:PENDANT ALARM - NO CONTACT MADE - UNK HX");
+
+    doTest("T12",
+        "(Messenger 911) [Update]\nAUNRESP\n8995 GAP NEWPORT PK\nNEW GARDEN RD & BRITTANY DR\nNGARDN\nORIG 911HU-48/F\n14:03",
+        "CALL:AUNRESP",
+        "ADDR:8995 GAP NEWPORT PK",
+        "X:NEW GARDEN RD & BRITTANY DR",
+        "CITY:NEW GARDEN TWP",
+        "INFO:ORIG 911HU-48/F");
  }
   
   public static void main(String[] args) {
-    new PAChesterCountyBParserTest().generateTests("T10");
+    new PAChesterCountyBParserTest().generateTests("T12");
   }
 }
