@@ -62,9 +62,16 @@ public class NYRocklandCountyAParserTest extends BaseParserTest {
         "ADDR:CONGERS RD & MAIN ST",
         "CITY:New City");
 
+    doTest("T8",
+        "/ ALARM SOUNDING at 254 S MAIN ST, New City  c/s: ELINOR PL / SCHRIEVER LN . . 14:01:52\n",
+        "CALL:ALARM SOUNDING",
+        "ADDR:254 S MAIN ST",
+        "CITY:New City",
+        "X:ELINOR PL / SCHRIEVER LN");
+
   }
   
   public static void main(String[] args) {
-    new NYRocklandCountyAParserTest().generateTests("T1", "CALL ADDR CITY X");
+    new NYRocklandCountyAParserTest().generateTests("T8", "CALL ADDR CITY X");
   }
 }
