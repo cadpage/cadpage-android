@@ -112,7 +112,15 @@ public class DispatchRedAlertParser extends SmsMsgParser {
   }
 
   @Override
+  public String getFilter() {
+    return "paging@alpinesoftware.com,@rednmxcad.com,REDALERT";
+  }
+
+  @Override
   protected boolean parseMsg(String subject, String body, Data data) {
+    
+    // Strip off leading slash
+    if (body.startsWith("/")) body = body.substring(1).trim();
     
     // Look for the trailing time signature
     // If we find it, strip it off.

@@ -31,30 +31,6 @@ System: New World Systems
 
 public class DEKentCountyParser extends FieldProgramParser {
   
-  private static final String[] CITY_LIST = new String[]{
-    "CAMDEN WYOMING",
-    "DOVER",
-    "HARRINGTON",
-    "MILFORD",
-    "BOWERS",
-    "CAMDEN",
-    "CHESWOLD",
-    "CLAYTON",
-    "FARMINGTON",
-    "FELTON",
-    "FREDERICA",
-    "HARTLY",
-    "HOUSTON",
-    "KENTON",
-    "LEIPSIC",
-    "LITTLE CREEK",
-    "MAGNOLIA",
-    "SMYRNA",
-    "VIOLA",
-    "WOODSIDE",
-    "WYOMING"
-  };
-  
   private static final Pattern DELIM = Pattern.compile("[^ ]*:");
   
   public DEKentCountyParser() {
@@ -89,6 +65,30 @@ public class DEKentCountyParser extends FieldProgramParser {
     if (tail.length() > 0) list.add(tail);
     return list.toArray(new String[list.size()]);
   }
+  
+  private static final String[] CITY_LIST = new String[]{
+    "CAMDEN WYOMING",
+    "DOVER",
+    "HARRINGTON",
+    "MILFORD",
+    "BOWERS",
+    "CAMDEN",
+    "CHESWOLD",
+    "CLAYTON",
+    "FARMINGTON",
+    "FELTON",
+    "FREDERICA",
+    "HARTLY",
+    "HOUSTON",
+    "KENTON",
+    "LEIPSIC",
+    "LITTLE CREEK",
+    "MAGNOLIA",
+    "SMYRNA",
+    "VIOLA",
+    "WOODSIDE",
+    "WYOMING"
+  };
 }
 
 

@@ -78,7 +78,7 @@ public class NYNassauCountyRedAlertParser extends DispatchRedAlertParser {
 
   @Override
   public String getFilter() {
-    return "@rednmxcad.com,paging@alpinesoftware.com,RedAlert,alarms@rvcny.us";
+    return super.getFilter() + ",alarms@rvcny.us";
   }
   
   @Override

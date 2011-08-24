@@ -17,16 +17,15 @@ CO W/ SYMPTOMS at 85 OLD PHILLIPS HILL RD, New City c/s: MAHONEY CT / BUENA VIST
 BRUSH/MULCH/RUBBISH OUTSIDE at 14 OLD ROUTE 304, New City c/s: FAIR HAVEN DR, WESTGATE BLVD / N MAIN ST, ZUKOR RD 16:16:06
 HAAZMAT at CONGERS RD/MAIN ST, New City . . 10:40:52
 
+Contact: chris oliva <chrisoliva1@gmail.com>
+Sender: newcitycad@rednmxcad.com
+  / ALARM SOUNDING at 254 S MAIN ST, New City  c/s: ELINOR PL / SCHRIEVER LN . . 14:01:52\n
+
 */
 
 public class NYRocklandCountyAParser extends DispatchRedAlertParser {
   
   public NYRocklandCountyAParser() {
     super("ROCKLAND COUNTY","NY");
-  }
-
-  @Override
-  public String getFilter() {
-    return "paging@alpinesoftware.com";
   }
 }
