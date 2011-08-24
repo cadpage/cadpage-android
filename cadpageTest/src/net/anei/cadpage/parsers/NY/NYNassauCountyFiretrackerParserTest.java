@@ -66,7 +66,14 @@ public class NYNassauCountyFiretrackerParserTest extends BaseParserTest {
         "CALL:GENERAL",
         "ADDR:22 PEARSALL AVE",
         "X:LONG BEACH (N) AVE / PENNSYLVANIA AVE");
-  
+
+    doTest("T8",
+        "FirePage / ** FFD SIGNAL 9 ** SIG 9 MALE VOMITTING 21 NORTON ST C/S: GUY LOMBARDO\nAVE / HUDSON AVE TOA: 18:42 [FireTracker]\n",
+        "SRC:FFD",
+        "CALL:SIG 9 MALE VOMITTING",
+        "ADDR:21 NORTON ST",
+        "X:GUY LOMBARDO AVE / HUDSON AVE");
+ 
   }
   
   @Test
@@ -237,6 +244,18 @@ public class NYNassauCountyFiretrackerParserTest extends BaseParserTest {
         "X:MERRICK AVE",
         "INFO:M/A 64");
  }
+  
+  @Test
+  public void testParser4() {
+
+    doTest("T8",
+        "FirePage / ** FFD SIGNAL 9 ** SIG 9 MALE VOMITTING 21 NORTON ST C/S: GUY LOMBARDO\nAVE / HUDSON AVE TOA: 18:42 [FireTracker]\n",
+        "SRC:FFD",
+        "CALL:SIG 9 MALE VOMITTING",
+        "ADDR:21 NORTON ST",
+        "X:GUY LOMBARDO AVE / HUDSON AVE");
+
+  }
   
   public static void main(String[] args) {
     new NYNassauCountyFiretrackerParserTest().generateTests("T8");
