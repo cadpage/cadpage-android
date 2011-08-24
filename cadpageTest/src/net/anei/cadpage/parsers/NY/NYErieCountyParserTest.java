@@ -84,6 +84,12 @@ public class NYErieCountyParserTest extends BaseParserTest {
         "CITY:LANCASTER TOWN",
         "INFO:CO DETECTOR NO SYMPTOMS REFER TWIN DISTRICT FD");
 
+    doTest("T6",
+        "ALERT@ERIE.GOV AMH KLEIN W RD&FOREST N RD MVA 2 CAR MVA - HEAD INJURY",
+        "CALL:AMH",
+        "ADDR:KLEIN W RD & FOREST N RD",
+        "INFO:MVA 2 CAR MVA - HEAD INJURY");
+
   }
   
   @Test

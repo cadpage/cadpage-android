@@ -35,12 +35,19 @@ public class SmartAddressParserTest extends BaseParserTest {
   
   @Test
   public void testProblem() {
+    doTest(CALL, FLAG_AT_BOTH, "BIG HOME @N JEFFERSON ST AWAY",
+        "CALL:BIG HOME",
+        "ADDR:N JEFFERSON ST");
   }
 
   
   @Test
   public void testProblems() {
     
+    doTest(CALL, "AMH KLEIN W RD&FOREST N RD MVA 2 CAR MVA",
+        "CALL:AMH",
+        "ADDR:KLEIN W RD & FOREST N RD");
+   
     doTest(ADDR, FLAG_PAD_FIELD, "76 YARDNER ST Suite:UNIT29 KENSBURG EXTRA",
         "ADDR:76 YARDNER ST",
         "APT:UNIT29",
