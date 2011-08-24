@@ -25,6 +25,10 @@ Sender: rescue1-bounces@rescuesquad.net
 (R1 IPS I/Page Notification) Loc: 1251 CARTERS GIN RD MDCO EVT#: E1120631 TYPE: MVA/E TIME: 01:50:42
 (R1 IPS I/Page Notification) Loc: TIMBERLANE AV NW/POPLAR AV NW HSV  EVT#: E1120841 TYPE: MVA/E TIME: 13:42:06
 
+Contact: Rick Phillips <rick81997@yahoo.com>
+Sender: cad.page@madco911.com
+Subject:IPS I/Page Notification\nLoc: 2979 OLD HIGHWAY 431 OXRD: @NO NAME: COMMERCIAL & RESIDENTAL APT COMPLEX: alias 2979 OLD HWY 431 EVT
+
  */
 
 
@@ -38,7 +42,7 @@ public class ALMadisonCountyParser extends SmartAddressParser {
       "MDCO",  "MADISON COUNTY",
       "MDCO:", "MADISON COUNTY",
       "HSV",   "HUNTSVILLE",
-      "HSV:",  "HUNTSVILLE"
+      "OXRD",  "OWENS CROSS ROADS"
   });
   
   private static final Properties TYPE_CODES = buildCodeTable(new String[]{
@@ -70,16 +74,16 @@ public class ALMadisonCountyParser extends SmartAddressParser {
       body = body.substring(CAD_MARKER.length()+3);
     }
    
-    body = body.replaceAll(" alias ", "@");
+    body = body.replaceAll(" alias ", " @");
     Properties props = parseMessage(body, KEYWORDS);
     String sAddr = props.getProperty("Loc");
     if (sAddr == null) return false;
     Parser p = new Parser(sAddr);
-    parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END, p.get('@'), data);
+    parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END, p.get(": @"), data);
     data.strPlace = p.get();
     
     data.strCallId = props.getProperty("EVT#", "");
-    if (data.strCallId.length() == 0) data.strCallId = props.getProperty("EVENT:");
+    if (data.strCallId.length() == 0) data.strCallId = props.getProperty("EVENT:", "");
     data.strCall = convertCodes(props.getProperty("TYPE", ""), TYPE_CODES);
     
     return true;
