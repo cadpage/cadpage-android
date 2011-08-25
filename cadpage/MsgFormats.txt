@@ -13,6 +13,11 @@ CAD:FYI: ;STRUCTURE FIRE;2501 WOODLANDS DR SE;FLAMES INSIDE FUSE BOX INSIDE CALL
 CAD:Update: ;VEHICLE FIRE;S COBB DR SE/BOURNE DR SE;METRO PCS;OWNER OF VEH CALLED --- ADV ON 280 AT WH [10/11/10 17:46:52 ABERRY] blk dodge charger on fire [10/
 CAD:FYI: ;VEHICLE FIRE;WINDY HILL RD SE/S COBB DR SE;METRO PCS;blk dodge charger on fire [10/11/10 17:46:16 DSNIVELY] ;104107
 *******************************************************************************
+Marshall County, IN (INMarshallCountyParser)
+CAD:FYI: ;702 S WASHINGTON ST;BREM;E RAYMOND ST;ALARM CO DETECTOR;08/23/2011 10:17:48            
+CAD:FYI: ;200 W FLORENCE ST;BOUR;N THOMPSON ST;FIRE ALARM;08/23/2011 10:34:48
+CAD:FYI: ;601 S BOURBON ST;BOUR;W FRANK ST;FIRE STRUCTURE;08/21/2011 21:30:37 
+*******************************************************************************
 Tipton County, IN (INTiptonCountyParser)
 CAD:G49;OUTSIDE FIRE-FIELD/WOODS;6001;6500 N 400 E
 CAD:A5,R45;INJURED IN FALL;4000;E VINE ST/S WASHINGTON ST;[Medical Priority Info] RESPONSE: Bravo RESPONDER SCRIPT: You are responding to a patient involved in a fall
@@ -3102,47 +3107,6 @@ JVFD-Motor Vehicle Crash - Injury AT 215 ROY PHILLIPS RD -X-ST:BRANDON LN-RIDGEC
 **********************************************************
 **********************************************************
 **********************************************************
-Marshall County, IN
-Contact: "John Gomola" <johng@bourbonfire.com>
-Sender: cad@co.marshall.in.us
-CAD:FYI ;address/intersection;town (first four
-letters only); cross streets(all but the update have
-only one cross streets listed) ;type of call; call
-date ;call time
-
-CAD:FYI: ;702 S WASHINGTON ST;BREM;E RAYMOND ST;ALARM CO DETECTOR;08/23/2011 10:17:48            
-CAD:FYI: ;200 W FLORENCE ST;BOUR;N THOMPSON ST;FIRE ALARM;08/23/2011 10:34:48
-CAD:FYI: ;601 S BOURBON ST;BOUR;W FRANK ST;FIRE STRUCTURE;08/21/2011 21:30:37 
-CAD:FYI: ;SR 110/ELM RD;TIPP;FIRE GRASS;08/21/2011 19:17:18 
- 
-
-If there is an update on the location we sometimes
-get a second message with the update infront
-
-Update: ;625-33 OAKHILL AVE;PLYM;NURSERY ST;S SECOND ST;MEDICAL CALL;08/19/2011 20:52:25
-
-In Marshall County
-
-ARGO ARGOS
-BOUR BOURBON
-BREM BREMEN
-CULV CULVER
-DONA DONALDSON
-LAPA LAPAZ
-PLYM PLYMOUTH
-TIPP TIPPECANOE
-TYNE TYNER
-
-out of Marshall County 
-
-ETNA ETNA GREEN
-GROV GROVERTOWN
-KNOX KNOX
-LAKE LAKEVILLE
-MENT MENTONE
-NAPP NAPPANEE
-ROCH ROCHESTER
-WALK WALKERTON
 **********************************************************
 Florence County, SC
 Contact: Anthony Fox <anthonyf@westflorencefd.com>
