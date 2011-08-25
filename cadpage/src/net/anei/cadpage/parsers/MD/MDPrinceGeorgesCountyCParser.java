@@ -48,7 +48,7 @@ public class MDPrinceGeorgesCountyCParser extends FieldProgramParser {
   
   public MDPrinceGeorgesCountyCParser() {
     super("PRINCE GEORGES COUNTY", "MD",
-           "SRC! Incident:ID! Type:CALL! Loc:ADDR! PP ( AT PP | ) X? TalkGroup:CH! Box:BOX! Map:MAP? Text:INFO+ Units:UNIT+");
+           "SRC! Incident:ID! Type:CALL! Loc:ADDR! PP ( AT PP | ) X? TalkGroup:CH% Box:BOX% Map:MAP? Text:INFO+ Units:UNIT+");
   }
   
   @Override
