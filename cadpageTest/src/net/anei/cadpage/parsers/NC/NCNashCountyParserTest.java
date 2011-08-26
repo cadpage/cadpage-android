@@ -90,10 +90,16 @@ public class NCNashCountyParserTest extends BaseParserTest {
         "CITY:BATTLEBORO",
         "CALL:MVA PIN-H",
         "PLACE:LARNELL HARDING");
- }
+
+    doTest("T12",
+        "NASH911:* S NASH ST* * * MIDDLESEX* * CHEST-H* * * * * * * * *",
+        "ADDR:S NASH ST",
+        "CITY:MIDDLESEX",
+        "CALL:CHEST-H");
+}
   
 
   public static void main(String[] args) {
-    new NCNashCountyParserTest().generateTests("T11");
+    new NCNashCountyParserTest().generateTests("T12");
   }
 }
