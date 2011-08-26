@@ -91,6 +91,14 @@ public class SDMinnehahaCountyParserTest extends BaseParserTest {
         "CALL:Falls",
         "CODE:C1",
         "ID:2011-00000111");
+
+    doTest("T9",
+        "(Dispatch Page) Quad 800 - HD N WESTERN AVE OAKS DR HD Injury Accident C3 2011-00000163",
+        "MAP:Quad 800",
+        "ADDR:N WESTERN AVE OAKS DR",
+        "CALL:Injury Accident",
+        "CODE:C3",
+        "ID:2011-00000163");
   }
   
   public static void main(String[] args) {

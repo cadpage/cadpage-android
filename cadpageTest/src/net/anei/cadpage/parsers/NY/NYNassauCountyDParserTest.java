@@ -135,9 +135,17 @@ public class NYNassauCountyDParserTest extends BaseParserTest {
         "ADDR:1180 WANTAGH AVE",
         "X:DUCKPOND DR  - JERUSALEM AVE H-11",
         "INFO:STATION 2 STATION 4");
+
+    doTest("T18",
+        "*** 640 INVESTIGATION-WIRES-LIPA *** LEVITTOWN SCHOOL MAINT. BLDG 850 SEAMANS NECK RD CS: HUNT RD  - DUNHILL RD M-6 TOA: 07:41 08-15-11 STATION 2 STATIO",
+        "CALL:640 INVESTIGATION-WIRES-LIPA",
+        "PLACE:LEVITTOWN SCHOOL MAINT BLDG",
+        "ADDR:850 SEAMANS NECK RD",
+        "X:HUNT RD  - DUNHILL RD M-6",
+        "INFO:STATION 2 STATIO");
  }
   
   public static void main(String[] args) {
-    new NYNassauCountyDParserTest().generateTests("T15");
+    new NYNassauCountyDParserTest().generateTests("T18");
   }
 }
