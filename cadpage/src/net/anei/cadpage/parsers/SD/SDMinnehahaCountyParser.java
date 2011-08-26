@@ -24,18 +24,22 @@ Sender: 911metrodispatch@911metro.org
 Contact: Dusty Kiner <dusty.kiner@gmail.com>
 (Dispatch Page) BR  Quad 460 - BR 1413 RUSHMORE DR 12 BR Falls C1 2011-00000111
 
+Contact: Craig Beaubien <sdiver1973@gmail.com>
+(Dispatch Page) Quad 800 - HD N WESTERN AVE OAKS DR HD Injury Accident C3 2011-00000163
+
 */
 
 public class SDMinnehahaCountyParser extends SmartAddressParser {
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "BR", "BRANDON",
+      "HD", "", // Unknown Siox Falls
       "VS", "VALLEY SPRINGS",
       "SR", "SPLITROCK TWP"
   });
   
   private static final Pattern CAD_MSG_PTN = 
-    Pattern.compile("(\\d{3}|[A-Z]{2}) +(Quad \\d{3,4}) - [A-Z]{2} +(.+?)(?: (C\\d))? (\\d{4}-\\d{8})");
+    Pattern.compile("(?:(\\d{3}|[A-Z]{2}) +)?(Quad \\d{3,4}) - [A-Z]{2} +(.+?)(?: (C\\d))? (\\d{4}-\\d{8})");
  
   public SDMinnehahaCountyParser() {
     super(CITY_CODES, "MINNEHAHA COUNTY", "SD");
@@ -52,7 +56,7 @@ public class SDMinnehahaCountyParser extends SmartAddressParser {
     Matcher match = CAD_MSG_PTN.matcher(body);
     if (!match.matches()) return false;
     
-    data.strSource = match.group(1);
+    data.strSource = getOptGroup(match.group(1));
     data.strMap = match.group(2);
     String sAddrFld = match.group(3);
     data.strCode = match.group(4);
