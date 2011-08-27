@@ -136,10 +136,20 @@ public class TXHarrisCountyESD1BParserTest extends BaseParserTest {
         "MAP:457Y",
         "X:BW 8 NB WALLISVILLE EXIT RAMP/",
         "BOX:2005");
-  }
+
+    doTest("T10",
+        "ID#:11-08-28674 - Units:M151 - 32B01 - 32B1 UNKNOWN PROBLEM - 606 Commons Vista Dr - Apt: - Bldg: - Key Map: 298Q - Cross Streets:COM",
+        "ID:11-08-28674",
+        "UNIT:M151",
+        "CODE:32B01",
+        "CALL:32B1 UNKNOWN PROBLEM",
+        "ADDR:606 Commons Vista Dr",
+        "MAP:298Q",
+        "X:COM");
+ }
 
   public static void main(String[] args) {
-    new TXHarrisCountyESD1BParserTest().generateTests("T9");
+    new TXHarrisCountyESD1BParserTest().generateTests("T10");
   }
 
 }
