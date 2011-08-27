@@ -3114,7 +3114,7 @@ Contact: Luke Story <firedog458@yahoo.com>
 Sender: 4232623650
 JVFD-Motor Vehicle Crash - Injury AT 215 ROY PHILLIPS RD -X-ST:BRANDON LN-RIDGECREST RD MAP-67C 00:18
 **********************************************************
-Franktown, ??
+Franktown, CO (Douglas County)
 Contact: K Allen <allenkody@gmail.com>
 Sender: @notifyatonce.net
 (Dispatch) Call: F MED ASSIST Location: 6287 OLD DIVIDE TRL / Map: AD35C Units: MED181 E184 XXX184  HOSPITALITY PL / GREEN CT Common Name: Time: 08/25/.
@@ -3138,20 +3138,6 @@ Sender: @notifyatonce.net
 **********************************************************
 **********************************************************
 **********************************************************
-Mecklenburg County, NC (alternate)
-Contact: Jeremy Shimberg <jshimberg@carolina.rr.com>,7042398801@vtext.com
-Sender: @minthillvfd.com
-6817 Wilson Grove Rd Charlie 10- Chest Pain Kuck Rd/Central Dr Mh112 Map - 353353/B9 06202011-392  [72]
-7119 Lancashire Dr Charlie 23- Overdose/Ingestion/Poison Ravenglass Ln/Cairnsmore Pl Mh212 Map - 353353/C9 06202011-374
-13538 Idlefield Ln Charlie 30- Traumatic injuries,specifcIdle Dr/Mills End Cr Mh212 Map - 381381/D8 06202011-335  [67]
-7500 Bondhaven Dr Charlie 42- Fire/Police support Kew Tr/Lanterntree Ln Mh212 Map - 353353/C6 06212011-239  [96]
-10545 Blair Rd Mint Hill Urgent Care Charlie 23- Overdose/Ingestion/Poison Truelight Church Rd/Connell Rd MHL8 Map - 35
-6700 Burkandt Rd 75M SYNCOPAL EPISODE WITH HX OAlpha 31- Unconsciousness/Fainting Wilson Woods Dr/Fieldwood Rd MHL8 Map
-
-Contact: John Stroup <j.stroup@northmeckrescue.org>
-Sender: paging@rcscom.com
-Subject:Incoming Message\n15503 N Old Statesville Rd North Meck Rescue Charlie 12- Convulsion/Seizure 60 Foot St/Unnamed St Nmr1 Map - 266266/
-Subject:Incoming Message\n15503 N Old Statesville Rd North Meck Rescue Charlie 12- Convulsion/Seizure 60 Foot St/Unnamed St Nmr2 Map - 266266/
 **********************************************************
 Delmar DE, looking to implement second parser for MD
 Contact: Steve Litchford <stevelitchford@gmail.com>
