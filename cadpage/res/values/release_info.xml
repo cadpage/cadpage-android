@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="release_date">20110827</string>
+  <string name="release_version">v1.4.21</string>
+  <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
+  <string name="release_magic_word2">quantum</string>
+  <string name="release_text">
+    Thanks to everyone who has donated Your support is appreciated and helps support the app.\n
+    See http://www.cadpage.org/financial-support for more details\n
+    \n
+  What"'"s new in this release\n
+Multiple Fixes for Existing Locations and Issues\n
+New Locations:\n
+North East, MD\n
+Mecklenburg County, NC (Alternate)\n
+Delmar, DE\n
+Henry County, GA\n
+Oxford,OH\n
+Hamilton County, TN\n
+Flathead County, MT\n
+Monterey County, CA\n
+Knox County, OH\n
+St Francois County, MO\n
+York County, PA\n
+Woodford County, IL\n
+St Charles County, MO\n
+Tioga County, PA\n
+Marshall County, IN\n
+Florence County, SC\n
+Randolph County, NC\n
+Wyoming County, NY\n
+Loudon County, TN\n
+Fixes:\n
+Parsing problem with Watauga County, NC\n
+Parsing problem with Sonoma County, CA   \n
+Parsing problem with Oneida County, NY\n 
+App can crash in Alexander County, NC parser\n      
+Parsing problem with Albemarle County, VA \n    
+Parsing problem with Erie COunty, PA\n
+Minor issues with Anoka County, MN\n  
+Parsing problem with Sonoma County, CA\n      
+New sender address for Anne Arundel County, MD (fire)\n     
+Google won"'"t map address containing the word "NEAR"\n 
+Parsing problem with Tolland County, CT\n
+Parsing problem with Howard County, MD\n   
+Parsing problem with Davidson County, NC\n     
+Parsign problem with Anne Arundel Count, MD (EMS)\n     
+Pasrsing problem with Mecklenburg County, NC \n
+Alleganey County, MD has switched CAD systems  \n   
+Parsing problem with Orange County, NC  \n
+Parsing problem with Chester County, PA (B)\n     
+Parsing problem with Rockland County, NY (A) \n     
+New station codes needed for Sonoma County, CA \n     
+Parsing problem with Nassau County, NY (Firetracker)\n      
+Smart address parser missinterpretting street name    \n  
+App crash and other problems with Madison County, AL    \n  
+Parsing problem with Nash County, NC      \n
+Parsing problem with Minnehaha County, SD   \n  
+Parsing problem with Charleston County, SC    \n  
+Parsing problemwith Harris County ESD1, TX (B)  \n    
+Cadpage not available for Samsung Galaxy 10.1     \n
+  </string>  
+</resources>
+  

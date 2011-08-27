@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_height="fill_parent"
+  android:orientation="vertical"
+  android:minWidth="310dp"
+  android:id="@+id/MainLinearLayout"
+  android:layout_width="fill_parent">
+  <include
+    layout="@layout/popup_header"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" />
+  <include
+    layout="@layout/popup_divider" />
+  <ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="0dip"
+    android:id="@+id/MessageScrollView"
+    android:visibility="gone"
+    android:layout_weight="1"
+    android:paddingBottom="10dp"
+    android:paddingTop="6dp">
+    <TextView
+      android:text="Text here"
+      android:id="@+id/MessageTextView"
+      android:autoLink="none"
+      android:textAppearance="?android:attr/textAppearanceMedium"
+      android:textColor="?android:attr/textColorPrimaryDisableOnly"
+      android:layout_height="wrap_content"
+      android:layout_width="fill_parent"
+      android:gravity="center"
+      android:paddingRight="10dp"
+      android:paddingLeft="10dp"
+      android:scrollbars="vertical" />
+  </ScrollView>
+  <ViewStub
+    android:id="@+id/PrivacyViewStub"
+    android:layout="@layout/popup_privacy"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" />
+  <LinearLayout
+    android:id="@+id/ButtonLinearLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:padding="2dp"
+    android:background="@android:color/darker_gray">
+    <Button
+      android:id="@+id/button1"
+      android:layout_height="wrap_content"
+      android:layout_weight="1"
+      android:text=""
+      android:layout_width="fill_parent" />
+    <Button
+      android:id="@+id/button2"
+      android:layout_height="wrap_content"
+      android:layout_weight="1"
+      android:text=""
+      android:layout_width="fill_parent" />
+    <Button
+      android:id="@+id/button3"
+      android:layout_height="wrap_content"
+      android:layout_weight="1"
+      android:text=""
+      android:layout_width="fill_parent" />
+  </LinearLayout>
+
+
+<ImageButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/btnCallback" android:layout_gravity="center" android:background="@drawable/ic_callback_pop" android:fadeScrollbars="false" android:layout_marginTop="15dp" android:clickable="true"></ImageButton>
+</LinearLayout>
