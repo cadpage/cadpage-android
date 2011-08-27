@@ -493,6 +493,33 @@ public abstract class SmsMsgParser {
  }
  
  /**
+  * Convience method to extract substring from string which might not
+  * be long enough to contain the full substring
+  * @param body original string
+  * @param st start position
+  * @return substring
+  */
+ public String substring(String body, int st) {
+   return substring(body, st, Integer.MAX_VALUE);
+ }
+ 
+ 
+ /**
+  * Convience method to extract substring from string which might not
+  * be long enough to contain the full substring
+  * @param body original string
+  * @param st start position
+  * @param end end position
+  * @return substring
+  */
+ public String substring(String body, int st, int end) {
+   int len = body.length();
+   if (st >= len) return "";
+   if (end > len) end = len;
+   return body.substring(st, end).trim();
+ }
+ 
+ /**
   * Worker class that will parse a into consecutive substrings up to the
   * next occurrence of a particular parser
   */

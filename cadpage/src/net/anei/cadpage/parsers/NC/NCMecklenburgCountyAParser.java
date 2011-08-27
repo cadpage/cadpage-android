@@ -117,16 +117,4 @@ public class NCMecklenburgCountyAParser extends SmsMsgParser {
     }
     return true;
   }
-  
-  private String substring(String body, int st) {
-    return substring(body, st, Integer.MAX_VALUE);
-  }
-  
-  private String substring(String body, int st, int end) {
-    int len = body.length();
-    if (st >= len) return "";
-    if (end > len) end = len;
-    return body.substring(st, end).trim();
-  }
-
 }

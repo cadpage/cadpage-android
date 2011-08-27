@@ -55,11 +55,4 @@ public class MOStCharlesCountyParser extends SmsMsgParser {
     data.strSource = substring(body, 194, 999);
     return true;
   }
-  
-  private String substring(String text, int start, int end) {
-    int  len =  text.length();
-    if (start > len) start = len;
-    if (end > len) end = len;
-    return text.substring(start, end).trim();
-  }
 }

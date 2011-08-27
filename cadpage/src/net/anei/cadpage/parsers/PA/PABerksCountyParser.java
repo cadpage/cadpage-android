@@ -19,6 +19,11 @@ Subject:1/2\nCAD MSG: *D FTELE    STATION 35 @110 PARK AV 0082 CALL REF ITEMS SH
 
 Contact: Jesse Zerbe <medicjz@gmail.com>
 CAD MSG: *D ALSMED   107 ALLISON PL 0072 80YOM /RESP DIFF / SPITTING UP BLOOD //BEEN INCREASING OVER THE PAST
+
+Contact: Duane Good <duaneg123@gmail.com>
+Sender: alrt_1ODM@berks.alertpa.org
+CAD MSG: *D ALSMED   106 MAIN ST 0063 56 YOF THROAT FEELS LIKE IS SWELLING CLOSED /BREAKING OUT IN RASH/RESP
+
 */
 
 public class PABerksCountyParser extends SmsMsgParser {
