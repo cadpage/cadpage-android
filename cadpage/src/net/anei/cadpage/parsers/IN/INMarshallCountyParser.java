@@ -21,7 +21,7 @@ Update: ;625-33 OAKHILL AVE;PLYM;NURSERY ST;S SECOND ST;MEDICAL CALL;08/19/2011 
 public class INMarshallCountyParser extends DispatchOSSIParser {
   
   public INMarshallCountyParser() {
-    super(CITY_CODES, "MARSHAL COUNTY", "IN",
+    super(CITY_CODES, "MARSHALL COUNTY", "IN",
            "SKIP ADDR CITY X/Z+? CALL! END");
   }
   
