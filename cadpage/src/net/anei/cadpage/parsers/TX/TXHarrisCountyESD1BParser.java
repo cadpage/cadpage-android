@@ -25,6 +25,10 @@ ID#:11-08-25969 - 29D02m - 29D5 MOTOR VEHICLE A - 539 S Sheldon Rd - Apt: - Bldg
 ID#:11-08-25936 - 29B04 - Traffic/Trans Incide - E BW 8 N / WOODFOREST BW 8 NB - Apt: - Bldg: - Key Map: 457Y - Cross Streets: - Box #:2005
 ID#:11-08-26006 - - Citizen Assist - 5500 E Bw 8 N - Apt: - Bldg: big tex storage - Key Map: 457Y - Cross Streets:BW 8 NB WALLISVILLE EXIT RAMP/ - Box #:2005
 
+Contact: Richy Hancock <richy@huffmanfire.org>
+ID#:11-08-28674 - Units:M151 - 32B01 - 32B1 UNKNOWN PROBLEM - 606 Commons Vista Dr - Apt: - Bldg: - Key Map: 298Q - Cross Streets:COM
+
+
 ID#:11-08-26039 - - FUEL SPILL - 15880 Wallisville Rd - Apt: - Bldg: LEGEND OAKS
 - EAST - Key Map: 457V - Cross Streets:HIDDEN PARK DR/HYACINTH PATH W - Box #:2
 - EAST - Key Map: 457V - Cross Streets:HIDDEN PARK DR/HYACINTH PATH W - Box #:2
@@ -48,12 +52,6 @@ Body:ID#:11-08-26159 - - Stab / GSW (B) - 919 Holbech - Apt: - Bldg: - Key Map: 
 Body:ID#:11-08-26160 - - HEART PROBLEMS - 9402 Abbotshall Ln - Apt: - Bldg: - Key Map
 Body:: 456D - Cross Streets:ARBOR FIELD LN/STONEFIELD MANO - Box #:3304
 
-
-
-
-
-
-
 */
 
 
@@ -63,7 +61,7 @@ public class TXHarrisCountyESD1BParser extends FieldProgramParser {
 
   public TXHarrisCountyESD1BParser() {
     super("HARRIS COUNTY", "TX",
-           "ID#:ID! CODE? CALL! PREALERT? ADDR! Apt:APT Bldg:APT Key_Map:MAP% Cross_Streets:X Box_#:BOX");
+           "ID#:ID! UNIT? CODE? CALL! PREALERT? ADDR! Apt:APT Bldg:APT Key_Map:MAP% Cross_Streets:X Box_#:BOX");
   }
   
   @Override
@@ -74,6 +72,22 @@ public class TXHarrisCountyESD1BParser extends FieldProgramParser {
   @Override
   public boolean parseMsg(String body, Data data) {
     return parseFields(DELIM.split(body), data);
+  }
+  
+  // Unit field only exists if it is tagged
+  private class MyUnitField extends UnitField {
+    
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      if (!field.startsWith("Units:")) return false;
+      super.parse(field.substring(6).trim(), data);
+      return true;
+    }
   }
   
   // Code field has to fit specific pattern
@@ -107,6 +121,7 @@ public class TXHarrisCountyESD1BParser extends FieldProgramParser {
   
   @Override
   public Field getField(String name) {
+    if (name.equals("UNIT")) return new MyUnitField();
     if (name.equals("CODE")) return new MyCodeField();
     if (name.equals("PREALERT")) return new PreAlertField();
     if (name.equals("APT")) return new MyAptField();
