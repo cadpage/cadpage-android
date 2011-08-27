@@ -25,7 +25,7 @@ public class SCCharlestonCountyParserTest extends BaseParserTest {
         "CALL:Rescue Rescue Needed",
         "ADDR:Orleans Rd & Sam Rittenberg Blvd",
         "ID:1110-0001587",
-        "INFO:Incident 04");
+        "CH:Incident 04");
     
     doTest("T2",
         "1110-0001574 District 03 Rescue MVA Entrapment D Address: Playground Rd / Ashley River Rd X Street:   Cmd Channel: Incident 07" ,
@@ -33,7 +33,7 @@ public class SCCharlestonCountyParserTest extends BaseParserTest {
         "CALL:Rescue MVA Entrapment D",
         "ADDR:Playground Rd & Ashley River Rd",
         "ID:1110-0001574",
-        "INFO:Incident 07");
+        "CH:Incident 07");
     
     doTest("T3",
         "1110-0001568 District 04 Rescue MVA  w/Injury B Address: JAMES ISLAND EXPWY / FOLLY RD X Street:  JAMES ISLAND CONNECTOR Cmd Chann" ,
@@ -41,8 +41,7 @@ public class SCCharlestonCountyParserTest extends BaseParserTest {
         "CALL:Rescue MVA  w/Injury B",
         "ADDR:JAMES ISLAND EXPWY & FOLLY RD",
         "X:JAMES ISLAND CONNECTOR",
-        "ID:1110-0001568",
-        "INFO:");
+        "ID:1110-0001568");
     
     doTest("T4",
         "1110-0001577 District 09 Rescue Rescue Needed Address: Ashley Phosphate Rd / Stall Rd X Street:   Cmd Channel: Incident 04" ,
@@ -50,7 +49,7 @@ public class SCCharlestonCountyParserTest extends BaseParserTest {
         "CALL:Rescue Rescue Needed",
         "ADDR:Ashley Phosphate Rd & Stall Rd",
         "ID:1110-0001577",
-        "INFO:Incident 04");
+        "CH:Incident 04");
     
     doTest("T5",
         "1110-0001580 District 12 Rescue MVA Major Incident D Address: International Blvd / Mark Clark Expwy X Street:   Cmd Channel: Incid" ,
@@ -58,7 +57,7 @@ public class SCCharlestonCountyParserTest extends BaseParserTest {
         "CALL:Rescue MVA Major Incident D",
         "ADDR:International Blvd & Mark Clark Expwy",
         "ID:1110-0001580",
-        "INFO:Incid");
+        "CH:Incid");
     
     doTest("T6",
         "1110-0001581 District 11 A Rescue Needed Address: 2324 Andover Way X Street: PARSONAGE WOODS LN/BANCROFT LN  Cmd Channel: Incident" ,
@@ -67,7 +66,7 @@ public class SCCharlestonCountyParserTest extends BaseParserTest {
         "ADDR:2324 Andover Way",
         "X:PARSONAGE WOODS LN/BANCROFT LN",
         "ID:1110-0001581",
-        "INFO:Incident");
+        "CH:Incident");
 
     doTest("T7",
         "1110-0001582 District 01 Rescue Water Rescue Strnd Motorist  B Address: Jetty's Of Charelston Harbor X Street:  Charleston Harbor",
@@ -91,7 +90,7 @@ public class SCCharlestonCountyParserTest extends BaseParserTest {
         "SRC:03",
         "CALL:Rescue Rescue Needed",
         "ADDR:Orleans Rd & Sam Rittenberg Blvd",
-        "INFO:Incident 04");
+        "CH:Incident 04");
 
     doTest("T10",
         "1110-0001581 District 11 A Rescue Needed Address: 2324 Andover Way X Street: PARSONAGE WOODS LN/BANCROFT LN  Cmd Channel: Incident",
@@ -100,7 +99,7 @@ public class SCCharlestonCountyParserTest extends BaseParserTest {
         "CALL:A Rescue Needed",
         "ADDR:2324 Andover Way",
         "X:PARSONAGE WOODS LN/BANCROFT LN",
-        "INFO:Incident");
+        "CH:Incident");
 
     doTest("T11",
         "1110-0001562 District 02 Rescue MVA Unknown B Address: Rivers Av / Mark Clark Expwy X Street:  On Mark Clark East Bound Cmd Channel:",
@@ -152,7 +151,7 @@ public class SCCharlestonCountyParserTest extends BaseParserTest {
         "SRC:03",
         "CALL:Rescue MVA Entrapment D",
         "ADDR:Wappoo Rd & Savannah Hwy",
-        "INFO:Incident 10");
+        "CH:Incident 10");
 
     doTest("T18",
         "1110-0001568 District 04 Rescue MVA w/Injury B Address: JAMES ISLAND EXPWY / ...",
@@ -168,7 +167,7 @@ public class SCCharlestonCountyParserTest extends BaseParserTest {
         "CALL:Rescue MVA  w/Injury B",
         "ADDR:JAMES ISLAND EXPWY & FOLLY RD",
         "X:JAMES ISLAND CONNECTOR",
-        "INFO:Incident 04");
+        "CH:Incident 04");
 
     doTest("T20",
         "1110-0001570 District 01 Rescue Medical Assist Bravo Response Address: 93 America St X Street: E HAMPSTEAD SQUARE/BLAKE ST  Cmd Channel:",
@@ -192,7 +191,7 @@ public class SCCharlestonCountyParserTest extends BaseParserTest {
         "CALL:Rescue MVA  w/Injury B",
         "ADDR:JAMES ISLAND EXPWY & FOLLY RD",
         "X:JAMES ISLAND CONNECTOR",
-        "INFO:Incident 04");
+        "CH:Incident 04");
 
     doTest("T23",
         "1110-0001568 District 04 Rescue MVA  w/Injury B Address: JAMES ISLAND EXPWY / FOLLY RD X Street:  JAMES ISLAND CONNECTOR Cmd Channel: Incident 04",
@@ -201,7 +200,7 @@ public class SCCharlestonCountyParserTest extends BaseParserTest {
         "CALL:Rescue MVA  w/Injury B",
         "ADDR:JAMES ISLAND EXPWY & FOLLY RD",
         "X:JAMES ISLAND CONNECTOR",
-        "INFO:Incident 04");
+        "CH:Incident 04");
 
     doTest("T24",
         "1110-0001570 District 01 Rescue Medical Assist Bravo Response Address: 93 America St X Street: E HAMPSTEAD SQUARE/BLAKE ST  Cmd Channel:",
@@ -221,8 +220,15 @@ public class SCCharlestonCountyParserTest extends BaseParserTest {
         "CALL:Medical Assist Charlie Respons",
         "ADDR:1605 Highway 41",
         "X:JOE ROUSE RD/JOE ROUSE RD",
-        "INFO:EMS OPS");
+        "CH:EMS OPS");
     
+
+    doTest("T2",
+        "(Dispatch Info) Medical Assist Bravo Response 1717 River Rd X Street: TOBY RD/UNNAMED_298 ST Cmnd Channel: EMS OPS",
+        "ADDR:1717 River Rd",
+        "X:TOBY RD/UNNAMED_298 ST",
+        "CH:EMS OPS",
+        "CALL:Medical Assist Bravo Response");
   }
   
   public static void main(String[] args) {
