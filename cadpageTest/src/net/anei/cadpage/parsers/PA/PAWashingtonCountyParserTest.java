@@ -97,6 +97,42 @@ public class PAWashingtonCountyParserTest extends BaseParserTest {
   
   }
   
+  @Test
+  public void testParser3() {
+
+    doTest("T1",
+        "Subject:911\nLocation: 213 EXPRESS WAY LONG: EST Xstreet: EXPRESS WAY EB DALLY RD TYPE: VEHICLE ACCIDENT WITH UNKNOWN INJURIES TIM",
+        "ADDR:213 EXPRESS WAY",
+        "CITY:LONG BRANCH",
+        "PLACE:EST",
+        "X:EXPRESS WAY & EB DALLY RD",
+        "CALL:VEHICLE ACCIDENT WITH UNKNOWN INJURIES");
+
+    doTest("T2",
+        "Subject:911\nLocation: 6 RAILROAD ST ALLE Xstreet: FRANKLIN ST HAMILTON ST TYPE: MUTUAL AID REQUEST TIME: 11:34:09 Comments:",
+        "ADDR:6 RAILROAD ST",
+        "CITY:ALLENPORT",
+        "X:FRANKLIN ST & HAMILTON ST",
+        "CALL:MUTUAL AID REQUEST");
+
+    doTest("T3",
+        "Subject:911\nLocation: 213 EXPRESS WAY LONG: EST Xstreet: EXPRESS WAY EB DALLY RD TYPE: VEHICLE ACCIDENT WITH UNKNOWN INJURIES TIM",
+        "ADDR:213 EXPRESS WAY",
+        "CITY:LONG BRANCH",
+        "PLACE:EST",
+        "X:EXPRESS WAY & EB DALLY RD",
+        "CALL:VEHICLE ACCIDENT WITH UNKNOWN INJURIES");
+
+    doTest("T4",
+        "Subject:911\nLocation: 3 HIGH RD ROSC: EST Xstreet: MOUNT TABOR RD LATTA HOLLOW RD TYPE: UNCONSCIOUS PT / IS BREATHING TIME: 03:21",
+        "ADDR:3 HIGH RD",
+        "CITY:ROSCOE",
+        "PLACE:EST",
+        "X:MOUNT TABOR RD & LATTA HOLLOW RD",
+        "CALL:UNCONSCIOUS PT / IS BREATHING");
+
+  }
+  
   public static void main(String[] args) {
     new PAWashingtonCountyParserTest().generateTests("T1");
   }
