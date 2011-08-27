@@ -65,5 +65,15 @@ public class PABerksCountyParserTest extends BaseParserTest {
         "CITY:LYONS",
         "INFO:CALL REF ITEMS SHE HAS THAT ARE BELEIVED TO BELONG TO YOUR COMPA");
 
+    doTest("T8",
+        "CAD MSG: *D ALSMED   106 MAIN ST 0063 56 YOF THROAT FEELS LIKE IS SWELLING CLOSED /BREAKING OUT IN RASH/RESP",
+        "CALL:*D ALSMED",
+        "ADDR:106 MAIN ST",
+        "CITY:STRAUSSTOWN",
+        "INFO:56 YOF THROAT FEELS LIKE IS SWELLING CLOSED /BREAKING OUT IN RASH/RESP");
+ }
+  
+  public static void main(String[] args) {
+    new PABerksCountyParserTest().generateTests("T8", "CALL ADDR CITY INFO");
   }
 }
