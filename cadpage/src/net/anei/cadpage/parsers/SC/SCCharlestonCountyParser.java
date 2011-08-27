@@ -42,6 +42,9 @@ Medical Assist Charlie Respons 1605 Highway 41 X Street: JOE ROUSE RD/JOE ROUSE 
 Contact: Gregory Kramer <g.j.kramer@gmail.com>
 (Dispatch Info) ANY MEMBER AVAILABLE TO ASSIST WITH THE SOCON BASEBALL TOURNAMENT TOMM CONTACT 619 AS SOON AS POSSIBLE. OPR#5
 
+Contact: Patrick Phillips <james.patrick.phillips@gmail.com>
+(Dispatch Info) Medical Assist Bravo Response 1717 River Rd X Street: TOBY RD/UNNAMED_298 ST Cmnd Channel: EMS OPS
+
  */
 
 
@@ -49,7 +52,7 @@ public class SCCharlestonCountyParser extends FieldProgramParser {
   
   public SCCharlestonCountyParser() {
     super("CHARLESTON COUNTY", "SC",
-           "( PREFIX Address:ADDR! X_Street:X Cmd_Channel:INFO | ADDR/SC! X_Street:X Op_Channel:INFO! )");
+           "( PREFIX Address:ADDR! X_Street:X Cmd_Channel:CH | ADDR/SC! X_Street:X Cmd_Channel:CH! )");
   }
   
   @Override
@@ -59,6 +62,7 @@ public class SCCharlestonCountyParser extends FieldProgramParser {
   
   @Override
   public boolean parseMsg(String body, Data data) {
+    body = body.replace(" Op Channel:", " Cmd Channel:").replace(" Cmnd Channel:", " Cmd Channel:");
     if (! super.parseMsg(body, data)) return false;
     if (data.strCall.length() == 0) return false;
     if (data.strAddress.length() == 0) return false;
