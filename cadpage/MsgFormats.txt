@@ -1171,6 +1171,11 @@ Orange County, NC (NCOrangeCounty)
 (CAD Page for CFS 060511-228) OPS 2\nAuto Fire Alarm\n6514 DOC CORBETT RD\nApt: \nBuild:
 (CAD Page for CFS 060411-348) OPS 1\nBREATHING\n8100 NC 86 N\nApt: \nBuild:
 ***************************************************************************
+Randolph County, NC (NCRandolphCountyParser)
+Randolph 911 - GRFD\nBREATHING\n5064 CROTTS DR\nSTA40\nSTA40\n10-15 JAMES KIRKMAN...BREATHING DIFF...TIGHTNESS IN CHEST...HANDS TINGLING...HEART RATE IS 45\n16:34:30 08/21/2011 - WATSON,A D\nProQA Medical Case Entry Finished\n16:35:13 08/2
+Randolph 911 - GRFD\nABDOMINAL PAIN\n6242 CEDAR LN\nSTA41\nSTA41\n10-15 HOWARD PEELE..68 YO..SICKNESS AND TREMBLING...TESTICLE PAIN..ABDOMINAL\nPAIN..CONFUSED...26 D 1\n10:26:05 08/22/2011 - MCCORQUODALE, C\nPROQA WOULD NOT LAUNCH
+Randolph 911 - GRFD\nFALL\n8374 HARLOW RD;UNIT 10\nSTA41\nSTA41\nCHILTON MHP...CAILY SKEEN...87 Y/O FEMALE...KEY BEHIND THE ELECTRICAL AT THE TELEPHONE POLE INSIDE THE BLK BOX AND THE KEY IS FOR A DEAD BOLT...ABLE TO VOICE CONTACT UNK INJ
+***************************************************************************
 Rutherford County, NC (NCRutherfordCountyParser)
 Paging: Location= 159 WALKER DR*\nAPT/ROOM* City=Forest City* Call \nType= FIRE STRUCT* Units=SMFD1*\nApr24,3:05am
 Paging: Location= 557 US 221A HWY*\nAPT/ROOM* City=Forest City* Call \nType= FIRE POWERLN* Units=DUKE1, SMFD1*\nApr23,4:27am
@@ -3118,56 +3123,6 @@ JVFD-Motor Vehicle Crash - Injury AT 215 ROY PHILLIPS RD -X-ST:BRANDON LN-RIDGEC
 **********************************************************
 **********************************************************
 **********************************************************
-Randolph County, NC
-Contact: Frank Crotts <Crottsf@guil-randfire.com>
-
-Randolph 911 - GRFD
-BREATHING
-5064 CROTTS DR
-STA40
-STA40
-10-15 JAMES KIRKMAN...BREATHING DIFF...TIGHTNESS IN CHEST...HANDS TINGLING...HEART RATE IS 45
-16:34:30 08/21/2011 - WATSON,A D
-ProQA Medical Case Entry Finished
-16:35:13 08/2
-
-Randolph 911 - GRFD
-ABDOMINAL PAIN
-6242 CEDAR LN
-STA41
-STA41
-10-15 HOWARD PEELE..68 YO..SICKNESS AND TREMBLING...TESTICLE PAIN..ABDOMINAL
-PAIN..CONFUSED...26 D 1
-10:26:05 08/22/2011 - MCCORQUODALE, C
-PROQA WOULD NOT LAUNCH
-
-Randolph 911 - GRFD
-FALL
-8374 HARLOW RD;UNIT 10
-STA41
-STA41
-CHILTON MHP...CAILY SKEEN...87 Y/O FEMALE...KEY BEHIND THE ELECTRICAL AT THE TELEPHONE POLE INSIDE THE BLK BOX AND THE KEY IS FOR A DEAD BOLT...ABLE TO VOICE CONTACT UNK INJ
-
-Randolph 911 - GRFD
-HEMORRHAGE
-203 GREEN OAK DR; SUITE A
-STA20
-STA20
-REF ASSISTING GUILFORD COUNTY
-00:14:45 08/23/2011 - NELSON,A W
-ProQA Medical Case 1258044 Aborted: ASSISTING GUILFORD COUNTY
-
-
-Randolph 911 - GRFD
-ABDOMINAL PAIN
-119 BARWOOD TER
-STA20
-STA20
-47YOF.. 1C4.. NEAR FAINTING.. ABOVE THE NAVEL.. 
-12:44:15 08/20/2011 - WALTER,D S
-ProQA Medical Case Entry Finished
-12:44:48 08/20/2011 - KING,J C
-ARCHDALE RD ONTO DON
 **********************************************************
 **********************************************************
 **********************************************************
