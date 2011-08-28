@@ -86,9 +86,8 @@ public class NYErieCountyParserTest extends BaseParserTest {
 
     doTest("T6",
         "ALERT@ERIE.GOV AMH KLEIN W RD&FOREST N RD MVA 2 CAR MVA - HEAD INJURY",
-        "CALL:AMH",
-        "ADDR:KLEIN W RD & FOREST N RD",
-        "INFO:MVA 2 CAR MVA - HEAD INJURY");
+        "CALL:MVA 2 CAR MVA - HEAD INJURY",
+        "ADDR:KLEIN W RD & FOREST N RD");
 
   }
   
