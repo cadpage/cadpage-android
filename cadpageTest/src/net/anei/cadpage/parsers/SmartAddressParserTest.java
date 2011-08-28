@@ -44,6 +44,10 @@ public class SmartAddressParserTest extends BaseParserTest {
   @Test
   public void testProblems() {
     
+    doTest(CALL, "MVA Plymouth ridge & Rt. 193.",
+        "CALL:MVA",
+        "ADDR:Plymouth ridge & Rt. 193.");
+    
     doTest(CALL, "AMH KLEIN W RD&FOREST N RD MVA 2 CAR MVA",
         "CALL:AMH",
         "ADDR:KLEIN W RD & FOREST N RD");
