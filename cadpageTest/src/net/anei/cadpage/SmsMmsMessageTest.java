@@ -275,8 +275,12 @@ public class SmsMmsMessageTest {
                "ken@cadpage.org", "", "WHERE IS BABY", false);
     
     doParseTest("NYSuffolkCounty",
-        "Body:(1/2)Daniel M. Agababian - Sender: paging@firerescuesystems.xohost.com\n*** 16 - Rescue *** 30 DEER SHORE SQ CS: DEER PARK AVE  / BAY SHORE RD TOA: 13:04",
-        "paging@firerescuesystems.xohost.com", "","*** 16 - Rescue *** 30 DEER SHORE SQ CS: DEER PARK AVE  / BAY SHORE RD TOA: 13:04", false);
+        "(1/2)Daniel M. Agababian - Sender: paging@firerescuesystems.xohost.com\n*** 16 - Rescue *** 30 DEER SHORE SQ CS: DEER PARK AVE  / BAY SHORE RD TOA: 13:04",
+        "paging@firerescuesystems.xohost.com", "","*** 16 - Rescue *** 30 DEER SHORE SQ CS: DEER PARK AVE  / BAY SHORE RD TOA: 13:04", true);
+    
+    doParseTest("NJGoucesterCounty",
+        "Subject:1/2\n\nDispatch\n\nSta:43-2\n\nType:SERV",
+        "ken@cadpage.org", "", "Dispatch\n\nSta:43-2\n\nType:SERV", true);
 
   }
   
