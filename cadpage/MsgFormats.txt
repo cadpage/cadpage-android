@@ -3133,111 +3133,23 @@ Sender: @notifyatonce.net
 (Dispatch) Call: F MED ASSIST Location: 2535 BURNT OAK DR / Map: AG37A Units: E181 MED181 XXX181  BURNING TREE TRL / DEAD END Common Name: Time: 08/25/
 **********************************************************
 **********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
 ************  READY TO ROLL ******************************
 **********************************************************
 **********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-Monroe County, NY (Webster) 
-Contact: Matt Micsak <wfd316@gmail.com>
-Sender: paging@rednmxcad.com
-System: Red Alert
-
-AL = Aldan Borough
-AS = Aston Twp
-BE = Bethel Twp
-BM = Birmingham Twp
-BR = Brookhaven Borough
-CC = City Of Chester
-CF = Chadds Ford Twp
-CH = Chester Heights Borough
-CL = Clifton Heights Borough
-CN = Concord Twp
-CO = Collingdale Borough
-CW = Colwyn Borough
-DB = Darby Borough
-DT = Darby Twp
-ED = Eddystone Borough
-EG = Edgemont Twp
-EL = East Lansdowne Borough
-ES = Essington Section Of Tinnicum Twp
-FL = Folcroft Borough
-GL = Glenolden Borough
-HV = Haverford Twp
-LA = Lansdowne Borough
-LC = Lower Chichester Twp
-LS = Lester Section Of Tinnicum Twp
-MB = Millbourne Borough
-MD = Middletown Township
-ME = Media Borough
-MH = Marcus Hook
-MO = Morton Borough
-MP = Marple Twp
-NP = Nether Providence Twp
-NT = Newtown Twp
-NW = Norwood Borough
-PK = Parkside Borough
-PP = Prospect Park Borough
-RN = Radnor Township
-RP = Ridley Park Borough
-RT = Ridley Township
-RU = Rutledge Borough
-RV = Rose Valley Borough
-SH = Sharon Hill Borough
-SP = Springfield Twp
-SW = Swarthmore Borough
-TC = Chester Twp
-TN = Tinnicum Twp
-TR = Trainer Borough
-UC = Upper Chichester Twp
-UD = Upper Darby Twp
-UL = Upland Borough
-UP = Upper Providence Twp
-YE = Yeadon Borough
-
-L: 701 AUDLEY END\n
-T: STRUCTURE FIRE\n
-O: \n
-B: \n
-C1: FINCHINGFIELD LA\n
-C2: WOODBRIDGE LA\n
-X: PLASTIC CONTAINER CAUGHT FIRE ON STOVE..COMP SAYS THAT CONTAINER IS SMOLD
-
-L: 286 PHILLIPS RD
-T: AUTOMATIC FIRE ALARM
-O: SMELTER RES - 265451
-B:
-C1: N CHIGWELL LA
-C2: MEADOW BREEZE LA
-X: FIRE ALRM ,GEN, C/C - ONLY CORNER STREET ALRM
-
-L: 736 BLUE CREEK DR
-T: AUTOMATIC FIRE ALARM
-O: FRANCO RESIDENCE
-B:
-C1: JOHN GLENN BL
-C2: LITHUANICA LA
-X: FIRE ALRM--SMOKE DETECTOR--UNK WHERE----C/C-----PH#
-
-L: 1271 FAIRPRT NINE MILE PT RD
-T: MVAIA - W/INJURIES
-O:
-B:
-C1: BAINBRIDGE LA
-C2: PLANK RD
-X: PRECAUTIONARY FOR CHEST PAIN DUE TO MVA
 **********************************************************
 Kent County, DE (Alternate)
 Contact: jeffrey morris <bowers4015@gmail.com>
