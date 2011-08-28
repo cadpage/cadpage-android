@@ -163,7 +163,7 @@ public class SmsMmsMessage implements Serializable {
     messageType = MESSAGE_TYPE_MMS;
     this.messageClass = messageClass;
     this.fromAddress = this.parseAddress = fromAddress;
-    this.subject = subject;
+    this.subject = (subject == null ? "" : subject);
     this.contentLoc = contentLoc;
     this.mmsMsgId = mmsMsgId;
     this.messageBody = this.parseMessageBody = null;

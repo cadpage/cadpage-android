@@ -254,7 +254,9 @@ public class NotificationInd extends GenericPdu {
     
     private String getStringValue(EncodedStringValue val) {
       if (val == null) return "";
-      return val.getString();
+      String rtn = val.getString();
+      if (rtn == null) return "";
+      return rtn;
     }
     
     private String getStringValue(byte[] val) {
