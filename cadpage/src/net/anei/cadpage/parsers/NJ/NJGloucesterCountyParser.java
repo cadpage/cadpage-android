@@ -3,7 +3,7 @@ package net.anei.cadpage.parsers.NJ;
 import java.util.Properties;
 
 import net.anei.cadpage.SmsMsgInfo.Data;
-import net.anei.cadpage.parsers.SmsMsgParser;
+import net.anei.cadpage.parsers.FieldProgramParser;
 
 /*
 Gloucester County, NJ
@@ -22,44 +22,35 @@ Sta:23-1\nType:BRSH\nLoc:49 TURTLE CREEK DR\nVen:HARRISON\nDsp-\nClr-
 Sta:23-1\nType:MVC\nLoc:2227 RT 322\nVen:WOOLWICH\nDsp-11:25:11\nClr- 
 Sta:23-1\nType:MVC\nLoc:TOMLIN STATION RD\nVen:HARRISON\nDsp-17:31:56\nClr- 
 
-(NOT IMPLEMENTED YET)
 Contact: Michael Carestio <mcarestio81@gmail.com>
-(#265339) Dispatch
+(#265339) Dispatch\n\nSta:8-1\nType:MVCC\nLoc:HESSIAN AVE\nVen:NATNL\nDsp-17:33:46\nClr-
+(#264149) Dispatch\n\nSta:8-1\nType:DWEL\nLoc:817 ASBURY AVE\nVen:NATNL\nDsp-\nClr-
+(#266773) Dispatch\n\nSta:8-1\nType:ALRM\nLoc:518 SIMPSON AVE\nVen:NATNL\nDsp-\nClr-
 
-Sta:8-1
-Type:MVCC
-Loc:HESSIAN AVE
-Ven:NATNL
-Dsp-17:33:46
-Clr-
-
-(#264149) Dispatch
-
-Sta:8-1
-Type:DWEL
-Loc:817 ASBURY AVE
-Ven:NATNL
-Dsp-
-Clr-
-
-#266773) Dispatch
-
-Sta:8-1
-Type:ALRM
-Loc:518 SIMPSON AVE
-Ven:NATNL
-Dsp-
-Clr-
-
+Contact: mostwanted4tec <mostwanted4tec@gmail.com>
+Subject:1/2\n\nDispatch\n\nSta:43-2\n\nType:SERV\n\nLoc:751 LINCOLN AVE               \n\nVen:FRANKLIN\n\nDsp-17:28:02\5s\n\nClr-
 
  */
 
 
-public class NJGloucesterCountyParser extends SmsMsgParser {
+public class NJGloucesterCountyParser extends FieldProgramParser {
   
-  private static final String[] KEYWORDS = new String[]{"Sta:", "Type:", "Loc:", "Ven:"};
+  public NJGloucesterCountyParser() {
+    super(CITY_CODES, "GLOUCESTER COUNTY", "NJ",
+        "Sta:SRC! Type:CALL! Loc:ADDR! Ven:CITY!");
+  }
+ 
+  @Override
+  public String getFilter() {
+    return "@private.gloucesteralert.com";
+  }
+
+  @Override
+  protected boolean parseMsg(String body, Data data) {
+    return parseFields(body.split("\n"), data);
+  }
   
-  private static final Properties VENUE_CODES = buildCodeTable(new String[]{
+  private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "DEPTFORD", "DEPFORD TWP",
       "EAST GREENWICH", "E GREENWICH TWP",
       "ELK", "ELK TWP",
@@ -68,33 +59,11 @@ public class NJGloucesterCountyParser extends SmsMsgParser {
       "LOGAN", "LOGAN TWP",
       "MANTUA", "MANTUA TWP",
       "MONROE", "MONROE TWP",
+      "NATNL", "NATIONAL PARK",
       "S", "S HARRISON TWP",
       "WASHINGTON", "WASHINGTON TWP",
       "WEST DEPTFORD", "W DEPTFORD TWP",
       "WOOLWICH", "WOOLWICH TWP",
       "WOODBRYHGT", "WOODBURY HEIGHTS"
   });
-  
-  public NJGloucesterCountyParser() {
-    super("GLOUCESTER COUNTY", "NJ");
-  }
- 
-  @Override
-  public String getFilter() {
-    return "alert_@private.gloucesteralert.com";
-  }
-
-  @Override
-  protected boolean parseMsg(String body, Data data) {
-    
-    if (!isPageMsg(body, KEYWORDS)) return false;
-    
-    Properties props = parseMessage(body, "\n");
-    data.strSource = props.getProperty("Sta", "");
-    data.strCall = props.getProperty("Type", "");
-    data.strAddress = props.getProperty("Loc", "");
-    data.strCity = convertCodes(props.getProperty("Ven", ""), VENUE_CODES);
-    
-    return true;
-  }
 }
