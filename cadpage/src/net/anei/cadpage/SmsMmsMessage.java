@@ -301,9 +301,9 @@ public class SmsMmsMessage implements Serializable {
   };
   private static final Pattern PAGECOPY_PATTERN = Pattern.compile("Pagecopy-Fr:(\\S*)\\s");
   private static final Pattern[] EMAIL_PATTERNS = new Pattern[]{ 
-    Pattern.compile("^([\\w.]+@[\\w.]+.(?:com|org|net|edu|gov))"),
     Pattern.compile("^([\\w\\.]+@[\\w\\.]+)( / / )"),
-    Pattern.compile(" - Sender: *([\\w\\.]+@[\\w\\.]+) *\n")
+    Pattern.compile(" - Sender: *([\\w\\.]+@[\\w\\.]+) *\n"),
+    Pattern.compile("^([\\w.]+@[\\w.]+)\\s")
   };
   private static final Pattern EMAIL_PFX_PATTERN = Pattern.compile("^([\\w\\.]+@[\\w\\.]+)\\n");
   private static final Pattern E_S_M_PATTERN = Pattern.compile("^(?:([^ ,;/]+) *)?S: *([^:]*) +M:");

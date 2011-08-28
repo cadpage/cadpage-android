@@ -73,8 +73,50 @@ TRH             EMS-Transportation Hot
 
 public class NYErieCountyParser extends SmartAddressParser {
   
-  private static final String DEF_STATE = "NY";
-  private static final String DEF_CITY = "ERIE COUNTY";
+  private SmsMmsMessage msg;
+  
+  public NYErieCountyParser() {
+    super(CITY_LIST, "ERIE COUNTY", "NY");
+  }
+
+  @Override
+  protected Data parseMsg(SmsMmsMessage msg, boolean overrideFilter, boolean genAlert) {
+    this.msg = msg;
+    return super.parseMsg(msg, overrideFilter, genAlert);
+  }
+
+  @Override
+  protected boolean parseMsg(String body, Data data) {
+    
+    if (body.startsWith("AMH ")) return parseAmhMsg(body.substring(4), data);
+    if (msg.getAddress().equals("ALERT@ERIE.GOV")) return parseErieMsg(body, data);
+    if (msg.getAddress().startsWith("9300")) return parseDepewMsg(body, data); 
+    return false;
+  }
+
+  public boolean parseAmhMsg(String body, Data data) {
+    parseAddress(StartType.START_ADDR, body, data);
+    data.strCall = getLeft();
+    
+    return true;
+  }
+
+  private boolean parseErieMsg(String body, Data data) {
+    parseAddress(StartType.START_CALL, body, data);
+    data.strSupp = getLeft();
+    return true;
+  }
+
+  private boolean parseDepewMsg(String body, Data data) {
+    parseAddress(StartType.START_CALL, body, data);
+    if (data.strAddress.length() == 0) return false;
+    if (data.strCall.length() == 0) {
+      data.strCall = getLeft();
+    } else {
+      data.strSupp = getLeft();
+    }
+    return true;
+  }
   
   private static final String[] CITY_LIST = new String[]{
     "ALDEN TOWN",
@@ -131,49 +173,4 @@ public class NYErieCountyParser extends SmartAddressParser {
     "WEST SENECA TOWN",
     "WILLIAMSVILLE"
   };
-  
-  private SmsMmsMessage msg;
-  
-  public NYErieCountyParser() {
-    super(CITY_LIST, DEF_CITY, DEF_STATE);
-  }
-
-  @Override
-  protected Data parseMsg(SmsMmsMessage msg, boolean overrideFilter, boolean genAlert) {
-    this.msg = msg;
-    return super.parseMsg(msg, overrideFilter, genAlert);
-  }
-
-  @Override
-  protected boolean parseMsg(String body, Data data) {
-    
-    if (body.startsWith("AMH ")) return parseAmhMsg(body.substring(4), data);
-    if (body.startsWith("ALERT@ERIE.GOV ")) return parseErieMsg(body.substring(15), data);
-    if (msg.getAddress().startsWith("9300")) return parseDepewMsg(body, data); 
-    return false;
-  }
-
-  public boolean parseAmhMsg(String body, Data data) {
-    parseAddress(StartType.START_ADDR, body, data);
-    data.strCall = getLeft();
-    
-    return true;
-  }
-
-  private boolean parseErieMsg(String body, Data data) {
-    parseAddress(StartType.START_CALL, body, data);
-    data.strSupp = getLeft();
-    return true;
-  }
-
-  private boolean parseDepewMsg(String body, Data data) {
-    parseAddress(StartType.START_CALL, body, data);
-    if (data.strAddress.length() == 0) return false;
-    if (data.strCall.length() == 0) {
-      data.strCall = getLeft();
-    } else {
-      data.strSupp = getLeft();
-    }
-    return true;
-  }
 }
