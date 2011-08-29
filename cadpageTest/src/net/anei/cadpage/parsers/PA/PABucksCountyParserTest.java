@@ -335,9 +335,21 @@ public class PABucksCountyParserTest extends BaseParserTest {
         "BOX:79020",
         "MAP:3034H5",
         "ID:E79\4s");
-}
+
+    doTest("T28",
+        "911: SQ122  type:ESPEC   adr:HARTS FIRE CO ,74 at 1195 YORK RD ,74 btwn OLD YORK RD & BRISTOL RD  aai:  box:93030  map:3147E4  tm:05:04:12  ED1131511",
+        "SRC:SQ122",
+        "CALL:ESPEC",
+        "PLACE:HARTS FIRE CO",
+        "ADDR:1195 YORK RD",
+        "CITY:WARMINSTER TWP",
+        "X:OLD YORK RD & BRISTOL RD",
+        "BOX:93030",
+        "MAP:3147E4",
+        "ID:ED1131511");
+  }
   
   public static void main(String[] args) {
-    new PABucksCountyParserTest().generateTests("T28");
+    new PABucksCountyParserTest().generateTests("T29");
   }
 }

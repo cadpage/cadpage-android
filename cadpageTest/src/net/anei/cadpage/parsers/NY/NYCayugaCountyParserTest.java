@@ -51,7 +51,41 @@ public class NYCayugaCountyParserTest extends BaseParserTest {
         "INFO:Cardiac Call Number 467 was created from Call Number 462(Jun 14 2011 11: 20PM) stried the pho");
  }
   
+  @Test
+  public void testParser2() {
+
+    doTest("T1",
+        "(From 911 Center) 08/27/11 02:10 RIVER RD RT 38 CONQUEST MVAPI  subject came into bar  bloody states car accident   pirates landing bar  mvapi   believes",
+        "ADDR:RIVER RD RT 38",
+        "CITY:CONQUEST",
+        "INFO:MVAPI subject came into bar bloody states car accident pirates landing bar mvapi believes");
+
+    doTest("T2",
+        "(From 911 Center) 08/27/11 00:42 HEJAMADA CAMPGROUND764 MC DONALD RD MONTEZUMA General Illness  mohawk section    off to left after gate  68 yo f   left a",
+        "ADDR:HEJAMADA CAMPGROUND764 MC DONALD RD",
+        "CITY:MONTEZUMA",
+        "INFO:General Illness mohawk section off to left after gate 68 yo f left a");
+
+    doTest("T3",
+        "(From 911 Center) 08/26/11 14:49 8860 S  WILLOW ST WEEDSPORT General Illness  60 Y/O FEMALE  CALLER STATES SHE NEEDS TO GO TO ST JOES PER HER DR... ABDOME",
+        "ADDR:8860 S WILLOW ST",
+        "CITY:WEEDSPORT",
+        "INFO:General Illness 60 Y / O FEMALE CALLER STATES SHE NEEDS TO GO TO ST JOES PER HER DR ABDOME");
+
+    doTest("T4",
+        "(From 911 Center) 08/26/11 09:59 8860 S  WILLOW ST WEEDSPORT Injury from a Fall  70 FEMALE FELL YESTERDAY/DIFF AMBULATING TODAY  E911 Info - Class of Serv",
+        "ADDR:8860 S WILLOW ST",
+        "CITY:WEEDSPORT",
+        "INFO:Injury from a Fall 70 FEMALE FELL YESTERDAY / DIFF AMBULATING TODAY E911 Info - Class of Serv");
+
+    doTest("T5",
+        "(From 911 Center) 08/24/11 22:00 8750 CENTERPORT RD MENTZ Cardiac  79 Y/O FEMALE CHEST PAINS...  DERBY RESIDENCE",
+        "ADDR:8750 CENTERPORT RD",
+        "CITY:MENTZ",
+        "INFO:Cardiac 79 Y / O FEMALE CHEST PAINS DERBY RESIDENCE");
+ }
+  
   public static void main(String[] args) {
-    new NYCayugaCountyParserTest().generateTests("T6", "ADDR CITY CALL");
+    new NYCayugaCountyParserTest().generateTests("T1", "ADDR CITY CALL INFO");
   }
 }
