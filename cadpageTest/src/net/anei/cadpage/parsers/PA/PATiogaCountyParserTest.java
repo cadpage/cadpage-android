@@ -94,9 +94,18 @@ public class PATiogaCountyParserTest extends BaseParserTest {
         "CITY:MANSFIELD",
         "NAME:FORD, VIRGINIA",
         "ID:2011-0000020827");
-  }
+
+    doTest("T10",
+        "TC911:MED >MEDICAL 76 BAKER CREST LN XS: HICKORY RD RUTLAND TWP KRISTA Map: Grids:, Cad: 2011-0000021537",
+        "CALL:MEDICAL",
+        "ADDR:76 BAKER CREST LN",
+        "X:HICKORY RD",
+        "CITY:RUTLAND TWP",
+        "NAME:KRISTA",
+        "ID:2011-0000021537");
+ }
   
   public static void main(String[] args) {
-    new PATiogaCountyParserTest().generateTests("T1", "CALL ADDR APT X CITY PLACE NAME PHONE MAP ID");
+    new PATiogaCountyParserTest().generateTests("T10", "CALL ADDR APT X CITY PLACE NAME PHONE MAP ID");
   }
 }

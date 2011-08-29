@@ -8,7 +8,7 @@ import org.junit.Test;
 public class NYMonroeCountyWebsterParserTest extends BaseParserTest {
   
   public NYMonroeCountyWebsterParserTest() {
-    setParser(new NYMonroeCountyWebsterParser(), "WEBSTER", "NY");
+    setParser(new NYMonroeCountyWebsterParser(), "MONROE COUNTY", "NY");
   }
   
   @Test
