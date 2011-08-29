@@ -18,7 +18,7 @@ VENANGO 911:MED >MEDICAL GENERIC 1435 RUSSELL CORNERS RD XS: WHITE CITY RD CORNP
 public class PAVenangoCountyParser extends DispatchBParser {
 
   public PAVenangoCountyParser() {
-    super(CITY_LIST, "TIOGA COUNTY", "PA");
+    super(CITY_LIST, "VENANGO COUNTY", "PA");
   }
   
   @Override
