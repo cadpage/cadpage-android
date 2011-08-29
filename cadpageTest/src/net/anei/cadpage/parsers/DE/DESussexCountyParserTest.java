@@ -10,13 +10,13 @@ public class DESussexCountyParserTest {
   
   public static class TestA extends DESussexCountyAParserTest {
     public TestA() {
-      setParser(new DESussexCountyAParser());
+      setParser(new DESussexCountyParser());
     }
   }
   
   public static class TestB extends DESussexCountyBParserTest {
     public TestB() {
-      setParser(new DESussexCountyBParser());
+      setParser(new DESussexCountyParser());
     }
   }
   
