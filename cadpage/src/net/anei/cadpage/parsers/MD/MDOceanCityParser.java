@@ -1,7 +1,7 @@
 package net.anei.cadpage.parsers.MD;
 
 import net.anei.cadpage.SmsMsgInfo.Data;
-import net.anei.cadpage.parsers.FieldProgramParser;
+import net.anei.cadpage.parsers.dispatch.DispatchAegisParser;
 
 /*
 Ocean City, MD 
@@ -22,7 +22,7 @@ Sender: msg@cfmsg.com
 
 */
 
-public class MDOceanCityParser extends FieldProgramParser {
+public class MDOceanCityParser extends DispatchAegisParser {
 
   private String address1 = null;
   private String address2 = null;
@@ -41,10 +41,6 @@ public class MDOceanCityParser extends FieldProgramParser {
   
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
-    
-    String[] subjects = subject.split("\\|");
-    if (subjects.length != 2 || !subjects[0].equals("Chief ALT")) return false;
-    data.strSource = subjects[1];
 
     address1 = null;
     address2 = null;
@@ -53,7 +49,7 @@ public class MDOceanCityParser extends FieldProgramParser {
     
     // The OCMD city codes just confused things, better to get rid of them
     body = body.replaceAll(" OCMD ", " ");
-    if (! parseFields(body.split(" *- *"), data)) return false;
+    if (! super.parseMsg(subject, body, data)) return false;
     
     // Pick the best address as the address
     // If no place name was found, use the second best address
@@ -63,7 +59,7 @@ public class MDOceanCityParser extends FieldProgramParser {
     return true;
   }
   
-  // This text fromat has two address fields, and the real address might
+  // This text format has two address fields, and the real address might
   // be in either one.
   private class MyAddressField extends AddressField {
 
