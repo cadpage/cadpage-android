@@ -155,6 +155,14 @@ public class MDWorcesterCountyParserTest extends BaseParserTest {
         "ADDR:906-16 LYNNHAVEN DR",
         "CITY:POCOMOKE",
         "X:8TH ST & HALEYS WAY");
+
+    doTest("T17",
+        "CAD:400E;OUTSIDE FIRE;2476 BAYVIEW RD;GIRDLETREE;TAYLOR LANDING RD;BOX IRON RD;08/29/2011 08:58:46",
+        "SRC:400E",
+        "CALL:OUTSIDE FIRE",
+        "ADDR:2476 BAYVIEW RD",
+        "CITY:GIRDLETREE",
+        "X:TAYLOR LANDING RD & BOX IRON RD");
     
   }
   
