@@ -163,6 +163,14 @@ public class MDWorcesterCountyParserTest extends BaseParserTest {
         "ADDR:2476 BAYVIEW RD",
         "CITY:GIRDLETREE",
         "X:TAYLOR LANDING RD & BOX IRON RD");
+
+    doTest("T18",
+        "CAD:300;OUTSIDE FIRE;2476 BAYVIEW RD;GIRDLETREE;TAYLOR LANDING RD;BOX IRON RD;08/29/2011 08:58:11",
+        "SRC:300",
+        "CALL:OUTSIDE FIRE",
+        "ADDR:2476 BAYVIEW RD",
+        "CITY:GIRDLETREE",
+        "X:TAYLOR LANDING RD & BOX IRON RD");
     
   }
   
