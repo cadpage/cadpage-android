@@ -44,7 +44,7 @@ public class BillingManager {
    * Shutdown billing manager
    */
   public void destroy() {
-    mService.unbind();
+    if (mService != null) mService.unbind();
     mService = null;
   }
   
