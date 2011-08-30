@@ -28,7 +28,11 @@ public class GABullochCountyParser extends SmartAddressParser {
   private static final Pattern START_NUMBER = Pattern.compile("^\\d+ ");
   
   public GABullochCountyParser() {
-    super("BULLOCH COUNTY", "GA");
+    this("BULLOCH COUNTY", "GA");
+  }
+  
+  public GABullochCountyParser(String defCity, String defState) {
+    super(defCity, defState);
     addExtendedDirections();
   }
   
