@@ -3151,8 +3151,8 @@ DYFD TYPE : ASSIST SUBTYPE : ? LOC : LAKE BLACKSHEAR C : 8126/2011 00:09:22 CRIS
 Gaston County, NC
 Contact: Andrew Albright <andrewmalbright@gmail.com>
 Sender: rc.459@c-msg.net
-
 (*CAD*) [CAD]   29D2P ~RIVERSIDE~DR/~HICKORY GROVE~RD  X-ST: Phone:~(704) 905-8283 - Station:~Station 40 Station 40 08/25/2011 15:48:11 7\nLD400, EN403, C161, RSU,
+(*CAD*) [CAD]   29D2L ~WESLEYAN~DR/~MAIN~ST\2sX-ST: Phone:~(704) 460-7016 - Station:~Station 40 Station 40 08/29/2011 16:49:18 1\nEN403  WRECK.
 **********************************************************
 Oneida County, NY (Alternate)
 Contact: David Crandall <dcrandall2481@gmail.com>

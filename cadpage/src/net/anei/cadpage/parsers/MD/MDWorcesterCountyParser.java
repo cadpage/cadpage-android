@@ -23,7 +23,11 @@ CAD:S5;MUTUAL AID ASSIST OUTSIDE AGY;8987 COURTHOUSE HILL RD;POCOMOKE;DIVIDING C
 CAD:100;UNCONSCIOUS FAINTING;1130 OLD VIRGINIA RD;POCOMOKE NAZARENE CHURCH;POCOMOKE;OCEAN HWY;SOUTHERN FIELDS DR;10/17/2010 11:32:35
 CAD:100;CARDIAC OR RESPIRATORY ARREST;2330 WORCESTER HWY;GRND FLR;POCOMOKE;OLD SNOW HILL RD;LAMBERTSON RD;10/18/2010 19:23:41
 CAD:100;RESIDENTIAL STRUCTURE FIRE;208 14TH ST;POCOMOKE;MARKET ST;CEDAR RUN;10/23/2010 07:12:12
-CAD:100;BREATHING PROBLEMS;906-16 LYNNHAVEN DR;POCOMOKE;8TH ST;HALEYS WAY;10/24/2010 06:58:01  
+CAD:100;BREATHING PROBLEMS;906-16 LYNNHAVEN DR;POCOMOKE;8TH ST;HALEYS WAY;10/24/2010 06:58:01
+
+Contact: Joe <josephtruitt@aol.com>
+From: 4437834174
+CAD:400E;OUTSIDE FIRE;2476 BAYVIEW RD;GIRDLETREE;TAYLOR LANDING RD;BOX IRON RD;08/29/2011 08:58:46
 
 Station codes
 100=POCOMOKE CITY
@@ -43,6 +47,24 @@ CAD:ABDOMINAL PAIN/BACK PAIN;33063 STONEY CREEK RD;ATLA;A27;C1;GENE WAYNE LN;FLE
 */
 
 public class MDWorcesterCountyParser extends DispatchOSSIParser {
+ 
+  public MDWorcesterCountyParser() {
+    super(CITY_LIST, "WORCESTER COUNTY", "MD",
+    		   "SRC? CALL ADDR PLACE? CITY! X X INFO+ DATETIME!");
+  }
+  
+  private static final Pattern SOURCE_PAT = Pattern.compile("[0-9]{1,2}00[A-Z]?|S[0-9]");
+  private class MySourceField extends SourceField {
+    public MySourceField() {
+      setPattern(SOURCE_PAT);
+    }
+  }
+  
+  @Override
+  protected Field getField(String name) {
+    if (name.equals("SRC")) return new MySourceField();
+    return super.getField(name);
+  }
   
   private static final String[] CITY_LIST = new String[]{
     "POCOMOKE",
@@ -71,25 +93,5 @@ public class MDWorcesterCountyParser extends DispatchOSSIParser {
     "SOUTH POINT",
     "TAYLORVILLE",
     "WHITEON"
-    
-    
   };
- 
-  public MDWorcesterCountyParser() {
-    super(CITY_LIST, "WORCESTER COUNTY", "MD",
-    		   "SRC? CALL ADDR PLACE? CITY! X X INFO+ DATETIME!");
-  }
-  
-  private static final Pattern SOURCE_PAT = Pattern.compile("[0-9]{1,2}00|S[0-9]");
-  private class MySourceField extends SourceField {
-    public MySourceField() {
-      setPattern(SOURCE_PAT);
-    }
-  }
-  
-  @Override
-  protected Field getField(String name) {
-    if (name.equals("SRC")) return new MySourceField();
-    return super.getField(name);
-  }
 }
