@@ -249,6 +249,19 @@ public class NCCarteretCountyParserTest extends BaseParserTest {
     
   }
   
+  @Test
+  public void testOtherParser() {
+
+    doTest("T1",
+        "CEC:392 CROATAN DR CAPE CARTERET MDL 01D01 11-109565 11:32:17 FALLS",
+        "ADDR:392 CROATAN DR",
+        "CITY:CAPE CARTERET",
+        "CODE:01D01",
+        "ID:11-109565",
+        "CALL:FALLS");
+    
+  }
+  
   public static void main(String[] args) {
     new NCCarteretCountyParserTest().generateTests("T1", "ADDR APT CITY PLACE CODE ID CALL INFO");
   }
