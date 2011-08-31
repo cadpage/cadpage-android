@@ -585,10 +585,15 @@ PRI: KLEMS AD: 1688 COUNTY RD 31 CNTY  TIME: 21:12:32 EV: MD-BREATHING -:  CS1: 
 PRI: KLEMS AD: 101 HAYGOOD CIR CNTY  TIME: 20:30:29 EV: MD-FALL-MINOR -:  CS1: HWY 43 CS2: HWY 43 RE:  ALT# 931-242-1174 -087.544169 +34.975694 83 YOF FALL POSSIBLE HIP INJURY\
 PRI: KLEMS AD: 1001 HWY 72 KILL: @MCDONALDS  TIME: 00:31:04 EV: MD-SEIZURE -:  CS1:  CS2:  RE:  ALT# 256-702-9165 -087.585777 +34.846252 20YOF ACTIVE SIEZURE
 ***************************************************************************
-Madison County, AL
+Madison County, AL (ALMadisonCountyParser)
 IPS I/Page Notification / Loc: 7583 WALL TRIANA HWY MDCO: @URGENT MEDCARE EVT#: C1009726 TYPE: M TIME: 13:36:55
 IPS I/Page Notification / Loc: 2525 OLD RAILROAD BED RD MDCO EVT#: C1009579 TYPE: M TIME: 16:53:25
 IPS I/Page Notification / Loc: HIGHWAY 53/KELLY SPRING RD HSV: alias HWY 53/KELLY SPRING EVT#: C1009577 TYPE: MVA/I TIME: 14:12:44
+***************************************************************************
+Ozark, AL (ALOzarkParser)
+(ALERT!) "MEDICAL EMERGENCY"6491 E ANDREWS AVE,REF DIABETIC UNABLE TO EAT & VOIMITTING
+(ALERT!) SERVICE CALL 192 CEDAR CT OFF PINE AVE OFF NEWTON AVE REF LIFTING ASSISTANCE PER MEDIC 1
+(ALERT!) MED EMER 145 PATTERSON OFF E EUFAULA, MALE SUBJECT SEVERAL LAC TO ARM, BLEEDING HEAVILY
 ***************************************************************************
 El Dorado County, CA (CAElDoradoCountyParser)
 (CAD Page) 15-May-2011/16:10:27: HAZ, ELECTRICAL: Inc# 010021: 5537 MORGAN RANCH LOOP ,GEORGETOWN  GEOCHF GEOENG M61 61; ; X: -120 50.5096  Y: 38 54.859
@@ -3198,14 +3203,6 @@ Contact: msg@cfmsg.com
 **********************************************************
 **********************************************************
 **********************************************************
-Ozark, AL
-Contact: John Price <jprice911@yahoo.com>
-Sender: dispatch@ozarkdale911.org
-(ALERT!) "MEDICAL EMERGENCY"6491 E ANDREWS AVE,REF DIABETIC UNABLE TO EAT & VOIMITTING
-(ALERT!) SERVICE CALL 192 CEDAR CT OFF PINE AVE OFF NEWTON AVE REF LIFTING ASSISTANCE PER MEDIC 1
-(ALERT!) MED EMER 145 PATTERSON OFF E EUFAULA, MALE SUBJECT SEVERAL LAC TO ARM, BLEEDING HEAVILY
-(ALERT!) DELAY PAGE.DOUGLAS DR OFF E HWY 27,REF SUBJECT STABBED,UNITS STAG FOR OPD
-(ALERT!) MEDICAL EMER 135 JUDSON DR OFF WILL LOGAN RD REF PATIENT CONFUSED AND CLAMY
 **********************************************************
 Erie County, PA (Alternate)
 Contact: Doug Johnson <dougjohnson6@gmail.com>
@@ -3235,7 +3232,7 @@ NYK| Erie County (Concord)| Major Accident| | New York 39 & Mortons Corners|ECSD
 NYK / NYK| Buffalo| 1 Alarm Fire| | 63 Crestwood Ave|F20 O/S reporting fire in a dwelling-victims rescued-ACW| NYK109| 12:13\n\n
 NYK| Buffalo| 1 Alarm Fire| 424.350| 63 Crestwood ave|U/D: E-38 updated size up 2.5 story dwelling. Heavy Fire 2nd floor and attic. Extra 2 & 1 req.| NYK016| 12:17
 **********************************************************
-Denton County, TX (Lewisville)
+Lewisville, TX (in Denton County)
 Contact: Curtis Birt <cbirt@cityofcorinth.com>
 Sender: 6245,lpd@[10.10.1.64]
 *101 E CORPORATE DR*****MAJOR ACC****B160,CHIEF,E163,M163,T167*316****
