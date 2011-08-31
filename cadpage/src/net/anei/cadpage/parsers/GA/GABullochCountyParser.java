@@ -7,6 +7,7 @@ import net.anei.cadpage.parsers.SmartAddressParser;
 
 /*
 Bulloch County, GA
+Contact: Kelly <kellybarnard@frontiernet.net> (911 center director)
 Contact: "maleman876@gmail.com" <maleman876@gmail.com>
 Contact: Andrew Freeman <andrewfreemanemail@gmail.com>
 Sender: bullochga911@smtp.sgcce-inc.com

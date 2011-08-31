@@ -23,6 +23,10 @@ FWIRES>WIRES DOWN E OSBORNE ST&N EAST ST XS: N EAST ST BETHEL JEFF W/RUMPKE Cad:
 Contact: Ryan Payer <ryan.payer3@gmail.com>
 FSTRUC>STRUCTURE FIRE 966 E LEGENDARY RUN XS: ABERDEEN RIDGE PIERCE TOWNSHIP HANSBAUER,DAVID & LINDA Map: Grids:, Cad: 2011-0000069848
 
+Contact:  James <firefighter1249@gmail.com>
+Sender: 911-CENTER@clermontcountyohio.gov
+04B01 >ASSAULT/SEXUAL ASSAULT 5728 GAVEY WAY XS: SR 131 WAYNE TOWNSHIP JEFFERS,JORDAN Map: Grids:, Cad: 2011-0000077041
+
 */
 
 public class OHClermontCountyParser extends DispatchBParser {
@@ -53,7 +57,7 @@ public class OHClermontCountyParser extends DispatchBParser {
   
   @Override
   public String getFilter() {
-    return "911-center@co.clermont.oh.us";
+    return "911-CENTER@clermontcountyohio.gov";
   }
   
   @Override
