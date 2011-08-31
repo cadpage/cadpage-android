@@ -91,10 +91,19 @@ public class OHClermontCountyParserTest extends BaseParserTest {
         "CITY:PIERCE TOWNSHIP",
         "NAME:HANSBAUER,DAVID & LINDA",
         "ID:2011-0000069848");
+
+    doTest("T9",
+        "04B01 >ASSAULT/SEXUAL ASSAULT 5728 GAVEY WAY XS: SR 131 WAYNE TOWNSHIP JEFFERS,JORDAN Map: Grids:, Cad: 2011-0000077041",
+        "CALL:ASSAULT/SEXUAL ASSAULT",
+        "ADDR:5728 GAVEY WAY",
+        "X:SR 131",
+        "CITY:WAYNE TOWNSHIP",
+        "NAME:JEFFERS,JORDAN",
+        "ID:2011-0000077041");
      
   }
   
   public static void main(String[] args) {
-    new OHClermontCountyParserTest().generateTests("T6", "CALL ADDR X CITY NAME ID");
+    new OHClermontCountyParserTest().generateTests("T9", "CALL ADDR X CITY NAME ID");
   }
 }
