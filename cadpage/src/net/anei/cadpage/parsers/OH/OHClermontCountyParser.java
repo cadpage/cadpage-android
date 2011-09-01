@@ -27,6 +27,9 @@ Contact:  James <firefighter1249@gmail.com>
 Sender: 911-CENTER@clermontcountyohio.gov
 04B01 >ASSAULT/SEXUAL ASSAULT 5728 GAVEY WAY XS: SR 131 WAYNE TOWNSHIP JEFFERS,JORDAN Map: Grids:, Cad: 2011-0000077041
 
+Contact: Dennis Rutter <dennis.rutter73@gmail.com>
+FALARM>FIRE ALARM 1466 HWY 50 XS: BARRETT RD STONELICK TOWNSHIP CINTAS FIRE PROTECTION-55 Map: Grids:, Cad: 2011-0000077411
+
 */
 
 public class OHClermontCountyParser extends DispatchBParser {

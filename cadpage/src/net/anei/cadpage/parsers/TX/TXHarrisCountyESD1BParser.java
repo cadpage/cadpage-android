@@ -8,6 +8,7 @@ import net.anei.cadpage.parsers.FieldProgramParser;
 /*
 Harris County ESD #1, TX
 Contact: Nathan Mathews <nbmathews807@gmail.com>
+Contact: Richy Hancock <richy@huffmanfire.org>
 Sender: cadnoreply@proxy.hcec.com
 Sender: 930010nn
 ID#:11-06-20685 - - TRASH FIRE - 111 Bayou Dr - Apt:C - Bldg: - Key Map: 498D - Cross Streets:EAST FWY/MARKET - Box #:2002
@@ -24,36 +25,22 @@ ID#:11-08-25733 - 55B04 - ELECTRICAL HAZARD - 16102 E Ih 10 - Apt: - Bldg: OLD R
 ID#:11-08-25969 - 29D02m - 29D5 MOTOR VEHICLE A - 539 S Sheldon Rd - Apt: - Bldg: - Key Map: 498K - Cross Streets:JACINTO PORT BLVD/MARKET - Box #:2001
 ID#:11-08-25936 - 29B04 - Traffic/Trans Incide - E BW 8 N / WOODFOREST BW 8 NB - Apt: - Bldg: - Key Map: 457Y - Cross Streets: - Box #:2005
 ID#:11-08-26006 - - Citizen Assist - 5500 E Bw 8 N - Apt: - Bldg: big tex storage - Key Map: 457Y - Cross Streets:BW 8 NB WALLISVILLE EXIT RAMP/ - Box #:2005
-
-Contact: Richy Hancock <richy@huffmanfire.org>
 ID#:11-08-28674 - Units:M151 - 32B01 - 32B1 UNKNOWN PROBLEM - 606 Commons Vista Dr - Apt: - Bldg: - Key Map: 298Q - Cross Streets:COM
-
-
-ID#:11-08-26039 - - FUEL SPILL - 15880 Wallisville Rd - Apt: - Bldg: LEGEND OAKS
-- EAST - Key Map: 457V - Cross Streets:HIDDEN PARK DR/HYACINTH PATH W - Box #:2
-- EAST - Key Map: 457V - Cross Streets:HIDDEN PARK DR/HYACINTH PATH W - Box #:2
-005
-
-ID#:11-08-26067 - Address changed to:620 SHELDON RD - Cross Streets:AVE C/RIDLO
-N - Key Map:498B
-
+ID#:11-08-29430 - - FALLS - 17015 Faring Rd - Apt: - Bldg: - Key Map: 418X - Cro
+ID#:11-08-29436 - - ALARMS - 1714 Hidden Terrace Dr - Apt: - Bldg: - Key Map: 458S - Cross Streets:HIDDEN CREST DR/HIDDEN MANOR D - Box #:2005
+ID#:11-08-26039 - - FUEL SPILL - 15880 Wallisville Rd - Apt: - Bldg: LEGEND OAKS - EAST - Key Map: 457V - Cross Streets:HIDDEN PARK DR/HYACINTH PATH W - Box #:2005
 ID#:11-08-26105 - 21B01 - HEMORRHAGE/LACERATIO - 11803 Greenmesa Dr - Apt: - Bld
-
-- 67B03U - GRASS/WOODS FIRE - AVE C / DELLDALE - Apt: - Bldg: - Key Map:498E -
-Cross Streets: - Box #:
-
-: SYSCO - Key Map: 456F - Cross Streets:LEY RD/SCENIC RIVER DR - Box #:3304
 ID#:11-08-26080 - 13D01 - DIABETIC PROBLEMS - 10710 Green River Dr - Apt: - Bldg
+ID#:11-08-26159 - - Stab / GSW (B) - 919 Holbech - Apt: - Bldg: - Key Map: 497D
+ID#:11-08-26160 - - HEART PROBLEMS - 9402 Abbotshall Ln - Apt: - Bldg: - Key Map: 456D - Cross Streets:ARBOR FIELD LN/STONEFIELD MANO - Box #:3304
 
+ID#:11-08-29410 - Address changed to:uvalde/kinsman - Cross Streets: - Key Map:NOT F
+ID#:11-08-26067 - Address changed to:620 SHELDON RD - Cross Streets:AVE C/RIDLON - Key Map:498B
 ID#:11-08-26080 - Address changed to:10710 Greens Crossing Blvd - Cross Streets
 
-Body:ID#:11-08-26159 - - Stab / GSW (B) - 919 Holbech - Apt: - Bldg: - Key Map: 497D
-
-Body:ID#:11-08-26160 - - HEART PROBLEMS - 9402 Abbotshall Ln - Apt: - Bldg: - Key Map
-Body:: 456D - Cross Streets:ARBOR FIELD LN/STONEFIELD MANO - Box #:3304
+ID#:11-08-29436 - UNIT:L32 - DISP: 21:06:25 - ER: - OUT: - TO: - AT: - AIR: 21:0
 
 */
-
 
 public class TXHarrisCountyESD1BParser extends FieldProgramParser {
   
@@ -61,7 +48,8 @@ public class TXHarrisCountyESD1BParser extends FieldProgramParser {
 
   public TXHarrisCountyESD1BParser() {
     super("HARRIS COUNTY", "TX",
-           "ID#:ID! UNIT? CODE? CALL! PREALERT? ADDR! Apt:APT Bldg:APT Key_Map:MAP% Cross_Streets:X Box_#:BOX");
+           "ID#:ID! ( ADDRCH! Cross_Streets:X Key_Map:MAP " + 
+           "| UNIT? CODE? CALL! PREALERT? ADDR! Apt:APT Bldg:APT Key_Map:MAP% Cross_Streets:X Box_#:BOX )");
   }
   
   @Override
@@ -72,6 +60,17 @@ public class TXHarrisCountyESD1BParser extends FieldProgramParser {
   @Override
   public boolean parseMsg(String body, Data data) {
     return parseFields(DELIM.split(body), data);
+  }
+  
+  // Address change field 
+  private class AddressChangeField extends AddressField {
+    @Override
+    public boolean checkParse(String field, Data data) {
+      if (!field.startsWith("Address changed to:")) return false;
+      field = field.substring(19).trim();
+      super.parse(field, data);
+      return true;
+    }
   }
   
   // Unit field only exists if it is tagged
@@ -121,6 +120,7 @@ public class TXHarrisCountyESD1BParser extends FieldProgramParser {
   
   @Override
   public Field getField(String name) {
+    if (name.equals("ADDRCH"))  return new AddressChangeField();
     if (name.equals("UNIT")) return new MyUnitField();
     if (name.equals("CODE")) return new MyCodeField();
     if (name.equals("PREALERT")) return new PreAlertField();
