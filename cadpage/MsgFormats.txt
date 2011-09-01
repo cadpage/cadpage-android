@@ -194,7 +194,7 @@ FSTRUC>STRUCTURE FIRE 1890 SR 232 XS: LAUREL POINT ISABEL RD LAUREL BUTLER, SHAW
 MED >MED GENERIC DO NOT DELETE 2458 SR 756 XS: SR 743 WASHINGTON TOWNSHIP BETTLES,LINDA Map: Grids:, Cad: 2011-0000015125
 FDUMP >DUMPSTER FIRE 2601 WILDWOOD LN XS: SR 222 TATE TOWNSHIP WIRELESS-VERIZON(XYP) Map: Grids:, Cad: 2011-0000015892
 *******************************************************************************
-Erie County, PA (PAErieCountyParser)
+Erie County, PA (PAErieCountyAParser)
 ERIE911:69D6 >STRUC FIRE-SINGLE RESIDENTIAL 8165 PLATZ RD XS: MARKET RD FAIRVIEW TWP LIST JOHN C Map:2034 Grids:, Cad: 2011-0000044804
 ERIE911:55B2P >ELEC HAZ/PWR REPT DISCONNECTED 7656 MAPLE DR XS: CHESTNUT ST FAIRVIEW TWP MUSANTE, JANET Map:2202 Grids:, Cad: 2011-0000045114
 ERIE911:29B4 >MVA - UNKNOWN STATUS 17 I 90 EB XS: I 90 EB RAMP EXIT 16 FAIRVIEW TWP LORD, ISAAC Map:1888 Grids:, Cad: 2011-0000043981
@@ -1053,20 +1053,25 @@ Cortland County, NY (NYCortlandCountyParser)
 (839 BENNIE RD) 18:32 , EMS ONLY , 85 YO MALE- DIFF BREATHING\nASPEN WAY UNIT\n\n\n\n,
 (697 MCLEAN RD) 15:50 , CO DETECTOR , CARBON MONOXIDE DETECTOR GOING OFF\nNEWLY BUILT HOUSE\n\n\n\n,
 ***************************************************************************
-Erie County, NY
+Erie County, NY (NYErieCountyAParser)
 AMH 238 WESTFIELD RD EMS 79 YO F/  CHEST PAIN
 AMH 52 ENDICOTT DR EMS 82 YO M
 AMH 670 LONGMEADOW RD EMS 71 Y/O F CHEST PAINS, DIFFICULTY BREATHING
 ***************************************************************************
-Erie County, NY
+Erie County, NY (NYErieCountyAParser)
 ALERT@ERIE.GOV FIRE CO-DETECTOR 262 MILLER ST APT: GARAGE LANCASTER TOWN CO DETECTOR ACTIV / NO SYMPTOMS
 ALERT@ERIE.GOV EMS 4779 TRANSIT RD LANCASTER TOWN GREEN DODGE CALIBER 25 YO FEMALE FEELS AS THOUGH SHE MAY PASS OUT
 ALERT@ERIE.GOV EMS 4805 TRANSIT RD APT: 1106 LANCASTER TOWN EMS- 59 YO MALE, LEG PAIN AS A RESULT OF A FALL EARLIER
 ***************************************************************************
-Erie County, NY
+Erie County, NY (NYErieCountyAParser)
 NOTIFICATIONS 85 MANITOU ST DEPEW DEPEW FIRE DEPARTMENT- DAILY TEST
 NOTIFICATIONS 85 MANITOU ST DEPEW CONDUCTED THE DAILY FIRE RADIO AND PAGER TEST
 4569 BROADWAY DEPEW COMMERCIAL FIRE ALARM COMING FROM THE BANQUET ROOM
+***************************************************************************
+Erie County, NY (NYErieCountyBParser)
+NYK| Erie County (Lancaster)| Technical Rescue| | Como Park|PD O/S reporting pedestrian walk bridge collapse- 1 victim with leg trapped- request FD with saws| NYK109| 16:54
+NYK / NYK| Buffalo| 1 Alarm Fire| | 63 Crestwood Ave|F20 O/S reporting fire in a dwelling-victims rescued-ACW| NYK109| 12:13\n\n
+NYK| Erie County (Lancaster)| 1 Alarm Fire| 453.500| 17 E Drullard Ave|Lancaster FD O/S Rep Fire in a 2 Story Occ Brick Apt Bldg. AHW| NYK004| 22:29
 ***************************************************************************
 Jefferson County, NY (NYJeffrsonCountyParser)
 BREATHING PROBL|18077 REED POINT RD:ORLEANS(T)|77 YO MALE DIFF BREATHING
@@ -1384,6 +1389,11 @@ Elk County, PA (PAElkCountyParser)
 Inc: DIABETIC PROBLEMS Add: 890 BURNING WELL RD\nCity: JONES\nXSt: OLD KANE RD * ROCKY RUN RD\nAgency: ST MARYS AMB 
 Inc: FALLS Add: 185 CENTER ST\nCity: ST_MARYS\nXSt: N SAINT MARYS ST * MCGILL ST\nAgency: ST MARYS AMB 
 Inc: SICK PERSON Add: 352 STATE ST\nCity: ST_MARYS\nXSt: ANTHONY RD * RIDGWAY ST MARYS RD\nAgency: ST MARYS AMB 
+**********************************************************
+Erie County, PA (PAErieCountyBParser)
+Ill Patient - 32 W PEARL STREET - Barnett Building  (PRE-PLAN) - APT 210 - Juliet Street & Academy Street
+Anaphylaxis - 9004 ROUTE 215 -  - HANSON RESIDENCE - CONNEAUT TWP LINE & WOOD ROAD
+Cardiac - 155 E STATE STREET - Albion Family Practice  (PRE-PLAN) - Wells Avenue & Elk Street
 **********************************************************
 Lackawanna County, PA (PALackawannaCountyParser)
 (Dispatch) Unit:14-9 Status:Dispatched Location:524 DEACON ST, 14 Call Type:BLS Call Time:12/7/2010 6:22:58 AM Call Number:245 Quadrant:F14 District:
@@ -3194,6 +3204,10 @@ CARDIAC   ADLT
 MON
 140 DAVIS-HAWKINS ST @ YOUNG BLVD / GILMORE-NICK CIR
 **********************************************************
+Erie County, NY (alternate)
+Contact: Peter <pputnam1@verizon.net>
+Sender: 17165415102
+Erie_Alert EDEN 2097 SHERMAN- 1 YOA MALE CHOKING 15 TO HALL NEED 1 ADD'L  <NOREPLY>
 **********************************************************
 **********************************************************
 **********************************************************
@@ -3212,33 +3226,7 @@ MON
 **********************************************************
 **********************************************************
 **********************************************************
-Erie County, PA (Alternate)
-Contact: Doug Johnson <dougjohnson6@gmail.com>
-Sender: wececc@verizon.net
-Ill Patient - 32 W PEARL STREET - Barnett Building  (PRE-PLAN) - APT 210 - Juliet Street & Academy Street
-Anaphylaxis - 9004 ROUTE 215 -  - HANSON RESIDENCE - CONNEAUT TWP LINE & WOOD ROAD
-Cardiac - 155 E STATE STREET - Albion Family Practice  (PRE-PLAN) - Wells Avenue & Elk Street
-MVA - 126 E STATE STREET -  - Water Street & Wells Avenue
-Chest Pain - E STATE STREET & First Avenue -  - MEET PD -
-Ill Patient - 10745 ROUTE 18 - SCI-Albion  (PRE-PLAN) - USE FRONT ENTRANCE - Boro / Township Line & Carter Road
-Fire Alarm -- Business - 32 W PEARL STREET - Barnett Building  (PRE-PLAN) - Juliet Street & Academy Street
-2ND TAP MEDICAL ALARM  32 WEST PEARL STREET.  DRIVER NEEDED
-Ill Patient - 10745 ROUTE 18 - SCI-Albion  (PRE-PLAN) - Boro / Township Line & Carter Road
-2ND TAP EMS SCI ALBION FRONT ENTRANCE CHEST PAIN.  DC/WCE.
-Fracture - 2 W STATE STREET - Country Fair - MEET PD - Main Street & Academy Street
-Cardiac - 210 E STATE STREET - Northwest Area Health Center  (PRE-PLAN) - Orchard Street & Third Avenue
-2ND TAP SCI ALBION ABDOMINAL PAIN SS/WCE
-Unresponsive Patient - 44 WALNUT STREET - SHERMAN RESIDENCE - Thornton Avenue & Euclid Street
 **********************************************************
-Erie County, PA
-Contact: Mike ECFW <webmaster@ecfwire.com>
-Sender:IPN <IPN@IPN911.net>
-NYK| Erie County (Lancaster)| Technical Rescue| | Como Park|PD O/S reporting pedestrian walk bridge collapse- 1 victim with leg trapped- request FD with saws| NYK109| 16:54
-NYK / NYK| Buffalo| 1 Alarm Fire| | 63 Crestwood Ave|F20 O/S reporting fire in a dwelling-victims rescued-ACW| NYK109| 12:13\n\n
-NYK| Erie County (Lancaster)| 1 Alarm Fire| 453.500| 17 E Drullard Ave|Lancaster FD O/S Rep Fire in a 2 Story Occ Brick Apt Bldg. AHW| NYK004| 22:29
-NYK| Erie County (Concord)| Major Accident| | New York 39 & Mortons Corners|ECSD / NYSP O/S Rollover MVA with Entrapment. Veh Rep on Fire. Mercy Flight Enroute.| NYK004| 13:42
-NYK / NYK| Buffalo| 1 Alarm Fire| | 63 Crestwood Ave|F20 O/S reporting fire in a dwelling-victims rescued-ACW| NYK109| 12:13\n\n
-NYK| Buffalo| 1 Alarm Fire| 424.350| 63 Crestwood ave|U/D: E-38 updated size up 2.5 story dwelling. Heavy Fire 2nd floor and attic. Extra 2 & 1 req.| NYK016| 12:17
 **********************************************************
 Lewisville, TX (in Denton County)
 Contact: Curtis Birt <cbirt@cityofcorinth.com>
