@@ -181,7 +181,15 @@ public class PAChesterCountyBParserTest extends BaseParserTest {
         "X:NEW GARDEN RD & BRITTANY DR",
         "CITY:NEW GARDEN TWP",
         "INFO:ORIG 911HU-48/F");
- }
+
+    doTest("T13",
+        "(Messenger 911) BHYPRTN\n557 CHURCH HILL RD\nAUBURN RD & CROSSAN DR\nFRNKLN\n90/F DIZZY BP 140/72\n21:52",
+        "CALL:BHYPRTN",
+        "ADDR:557 CHURCH HILL RD",
+        "X:AUBURN RD & CROSSAN DR",
+        "CITY:FRANKLIN TWP",
+        "INFO:90/F DIZZY BP 140/72");
+  }
   
   public static void main(String[] args) {
     new PAChesterCountyBParserTest().generateTests("T12");
