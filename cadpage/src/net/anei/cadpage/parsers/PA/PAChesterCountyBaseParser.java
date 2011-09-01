@@ -12,6 +12,7 @@ public class PAChesterCountyBaseParser extends FieldProgramParser {
       "AVNDAL", "AVONDALE",
       "EMARLB", "EAST MARLBOROUGH TWP",
       "ENOTT",  "EAST NOTINGHAM TWP",
+      "FRNKLN", "FRANKLIN TWP",
       "KNTSQR", "KENNETT SQUARE",
       "KNTTWP", "KENNETT TWP",
       "LDNBRT", "LANDENBERG",
