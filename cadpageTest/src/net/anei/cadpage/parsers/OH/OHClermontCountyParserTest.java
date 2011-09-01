@@ -100,6 +100,15 @@ public class OHClermontCountyParserTest extends BaseParserTest {
         "CITY:WAYNE TOWNSHIP",
         "NAME:JEFFERS,JORDAN",
         "ID:2011-0000077041");
+
+    doTest("T10",
+        "FALARM>FIRE ALARM 1466 HWY 50 XS: BARRETT RD STONELICK TOWNSHIP CINTAS FIRE PROTECTION-55 Map: Grids:, Cad: 2011-0000077411",
+        "CALL:FIRE ALARM",
+        "ADDR:1466 HWY 50",
+        "X:BARRETT RD",
+        "CITY:STONELICK TOWNSHIP",
+        "NAME:CINTAS FIRE PROTECTION-55",
+        "ID:2011-0000077411");
      
   }
   

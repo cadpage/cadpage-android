@@ -146,10 +146,89 @@ public class TXHarrisCountyESD1BParserTest extends BaseParserTest {
         "ADDR:606 Commons Vista Dr",
         "MAP:298Q",
         "X:COM");
- }
+
+    doTest("T11",
+        "ID#:11-08-29430 - - FALLS - 17015 Faring Rd - Apt: - Bldg: - Key Map: 418X - Cro",
+        "ID:11-08-29430",
+        "CALL:FALLS",
+        "ADDR:17015 Faring Rd",
+        "MAP:418X");
+
+    doTest("T12",
+        "ID#:11-08-29436 - - ALARMS - 1714 Hidden Terrace Dr - Apt: - Bldg: - Key Map: 458S - Cross Streets:HIDDEN CREST DR/HIDDEN MANOR D - Box #:2005",
+        "ID:11-08-29436",
+        "CALL:ALARMS",
+        "ADDR:1714 Hidden Terrace Dr",
+        "MAP:458S",
+        "X:HIDDEN CREST DR/HIDDEN MANOR D",
+        "BOX:2005");
+
+    doTest("T13",
+        "ID#:11-08-26039 - - FUEL SPILL - 15880 Wallisville Rd - Apt: - Bldg: LEGEND OAKS - EAST - Key Map: 457V - Cross Streets:HIDDEN PARK DR/HYACINTH PATH W - Box #:2005",
+        "ID:11-08-26039",
+        "CALL:FUEL SPILL",
+        "ADDR:15880 Wallisville Rd",
+        "APT:LEGEND OAKS",
+        "MAP:457V",
+        "X:HIDDEN PARK DR/HYACINTH PATH W",
+        "BOX:2005");
+
+    doTest("T14",
+        "ID#:11-08-26105 - 21B01 - HEMORRHAGE/LACERATIO - 11803 Greenmesa Dr - Apt: - Bld",
+        "ID:11-08-26105",
+        "CODE:21B01",
+        "CALL:HEMORRHAGE/LACERATIO",
+        "ADDR:11803 Greenmesa Dr");
+
+    doTest("T15",
+        "ID#:11-08-26080 - 13D01 - DIABETIC PROBLEMS - 10710 Green River Dr - Apt: - Bldg",
+        "ID:11-08-26080",
+        "CODE:13D01",
+        "CALL:DIABETIC PROBLEMS",
+        "ADDR:10710 Green River Dr");
+
+    doTest("T16",
+        "ID#:11-08-26159 - - Stab / GSW (B) - 919 Holbech - Apt: - Bldg: - Key Map: 497D",
+        "ID:11-08-26159",
+        "CALL:Stab / GSW (B)",
+        "ADDR:919 Holbech",
+        "MAP:497D");
+
+    doTest("T17",
+        "ID#:11-08-26160 - - HEART PROBLEMS - 9402 Abbotshall Ln - Apt: - Bldg: - Key Map: 456D - Cross Streets:ARBOR FIELD LN/STONEFIELD MANO - Box #:3304",
+        "ID:11-08-26160",
+        "CALL:HEART PROBLEMS",
+        "ADDR:9402 Abbotshall Ln",
+        "MAP:456D",
+        "X:ARBOR FIELD LN/STONEFIELD MANO",
+        "BOX:3304");
+  }
+  
+  @Test
+  public void testAddrChangeParser() {
+
+    doTest("T1",
+        "ID#:11-08-29410 - Address changed to:uvalde/kinsman - Cross Streets: - Key Map:NOT F",
+        "ID:11-08-29410",
+        "ADDR:uvalde & kinsman",
+        "MAP:NOT F");
+
+    doTest("T2",
+        "ID#:11-08-26067 - Address changed to:620 SHELDON RD - Cross Streets:AVE C/RIDLON - Key Map:498B",
+        "ID:11-08-26067",
+        "ADDR:620 SHELDON RD",
+        "X:AVE C/RIDLON",
+        "MAP:498B");
+
+    doTest("T3",
+        "ID#:11-08-26080 - Address changed to:10710 Greens Crossing Blvd - Cross Streets",
+        "ID:11-08-26080",
+        "ADDR:10710 Greens Crossing Blvd");
+
+  }
 
   public static void main(String[] args) {
-    new TXHarrisCountyESD1BParserTest().generateTests("T10");
+    new TXHarrisCountyESD1BParserTest().generateTests("T11");
   }
 
 }
