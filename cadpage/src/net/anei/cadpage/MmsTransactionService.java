@@ -233,7 +233,12 @@ public class MmsTransactionService extends Service {
       // Get raw PDU push-data from the message and parse it
       byte[] pushData = intent.getByteArrayExtra("data");
   
-      GenericPdu pdu = new PduParser(pushData).parse();
+      GenericPdu pdu = null;
+      try {
+        pdu = new PduParser(pushData).parse();
+      } catch (Exception ex) {
+        Log.e(ex);
+      }
       if (null == pdu) {
         Log.e("Invalid PUSH data");
         return;
