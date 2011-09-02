@@ -8,6 +8,12 @@ public class SmsMmsMessageTest {
   
   @Test
   public void testParseInfo() {
+    
+    doParseTest("NYJeffersonCounty",
+        "sentto-76513067-101-1314862564-3159559896=vtext.com@returns.groups.yahoo.com ([carthageambulance] DISPATCH:1191) FALL|1045 WEST ST:CARTHAGE(V)|83 Y/F FELL OUT OF BED BROKEN NOSE AN",
+        "vtext.com@returns.groups.yahoo.com",
+        "[carthageambulance] DISPATCH:1191",
+        "FALL|1045 WEST ST:CARTHAGE(V)|83 Y/F FELL OUT OF BED BROKEN NOSE AN");
         
     doParseTest("NJSussexCounty",
         "KBROWN@andpd (I-2011-000118) MVA-F @ DECKER POND ROAD/SUNSET DRIVE  , GREEN TWP - CAR VS GUARDRAIL - MINOR INJURIES",
