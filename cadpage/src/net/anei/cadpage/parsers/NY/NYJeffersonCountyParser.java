@@ -31,6 +31,10 @@ ESN:01315
 Jay Greening <jagx91@hotmail.com>
 ((LVFD) DISPATCH:4391,27FR) SICK PERSON|30950 STATE ROUTE 180  ;NORTHER NY AGRICULTRUAL MUSEUM:ORLEANS(T)|
 
+Contact: Mauser*Girl <mausergirl@gmail.com>
+From: 6245
+sentto-76513067-101-1314862564-3159559896=vtext.com@returns.groups.yahoo.com ([carthageambulance] DISPATCH:1191) FALL|1045 WEST ST:CARTHAGE(V)|83 Y/F FELL OUT OF BED BROKEN NOSE AN
+
  */
 
 

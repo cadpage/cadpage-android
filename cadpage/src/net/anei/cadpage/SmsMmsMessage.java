@@ -308,6 +308,7 @@ public class SmsMmsMessage implements Serializable {
   private static final Pattern EMAIL_PFX_PATTERN = Pattern.compile("^([\\w\\.]+@[\\w\\.]+)\\n");
   private static final Pattern E_S_M_PATTERN = Pattern.compile("^(?:([^ ,;/]+) *)?S: *([^:]*) +M:");
   private static final Pattern PRVS_DB_PATTERN = Pattern.compile("^prvs=[0-9a-f]{5,}=([^ ]+) ");
+  private static final Pattern SENTTO_PATTERN = Pattern.compile("^sentto-[^ ]*=([^ ]+@[^ ]+) ");
   
   /**
    * Perform any front end unscrambling required to recover the original text
@@ -486,6 +487,16 @@ public class SmsMmsMessage implements Serializable {
       if (match.find()) {
         parseAddress = match.group(1);
         body = body.substring(match.end()).trim();
+        break;
+      }
+      
+      /* Decode patterns that look like
+       * sentto-76513067-101-1314862564-3159559896=vtext.com@returns.groups.yahoo.com ([carthageambulance] DISPATCH:1191) FALL|1045 WEST ST:CARTHAGE(V)|83 Y/F FELL OUT OF BED BROKEN NOSE AN
+       */
+      match = SENTTO_PATTERN.matcher(body);
+      if (match.find()) {
+        parseAddress = match.group(1);
+        body =  body.substring(match.end()).trim();
         break;
       }
       
