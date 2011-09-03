@@ -80,9 +80,14 @@ public class NCAlexanderCountyParserTest extends BaseParserTest {
         "ADDR:224 CRESTVIEW DR & US 64 HWY W",
         "CALL:TRAFFIC ACCIDENT",
         "CODE:29B04");
- }
+
+    doTest("T10",
+        "CAD:1 JENKINS MOOSE RD/LILEDOUN RD;WEATHER RELATED",
+        "ADDR:1 JENKINS MOOSE RD & LILEDOUN RD",
+        "CALL:WEATHER RELATED");
+}
 
   public static void main(String[] args) {
-    new NCAlexanderCountyParserTest().generateTests("T9", "ADDR PLACE CALL CODE X");
+    new NCAlexanderCountyParserTest().generateTests("T11", "ADDR PLACE CALL CODE X");
   }
 }
