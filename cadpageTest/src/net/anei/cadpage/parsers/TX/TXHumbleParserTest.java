@@ -83,6 +83,16 @@ public class TXHumbleParserTest extends BaseParserTest {
         "X:Atascocita Rd Hunters Ter",
         "UNIT:E-M29 E-E39",
         "ID:201105192");
+
+    doTest("T7",
+        "(Chief ALT) [AVFD FIRE][Repage] - Mutual Aid / Assist Agency -- 5711 Lakewater Dr -- Map: 338M- -- Water Wonderland -- Xst's: Running Water Dr Waterwoo -- Units: E-B3",
+        "SRC:AVFD FIRE",
+        "CALL:Mutual Aid / Assist Agency",
+        "ADDR:5711 Lakewater Dr",
+        "MAP:338M-",
+        "PLACE:Water Wonderland",
+        "X:Running Water Dr Waterwoo",
+        "UNIT:E-B3");
   }
   
   public static void main(String[] args) {

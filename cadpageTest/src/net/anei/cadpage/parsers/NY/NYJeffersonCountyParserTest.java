@@ -76,7 +76,14 @@ public class NYJeffersonCountyParserTest extends BaseParserTest {
         "ADDR:30950 STATE ROUTE 180",
         "PLACE:NORTHER NY AGRICULTRUAL MUSEUM",
         "CITY:ORLEANS");
-  }
+
+    doTest("T10",
+        "sentto-76513067-101-1314862564-3159559896=vtext.com@returns.groups.yahoo.com ([carthageambulance] DISPATCH:1191) FALL|1045 WEST ST:CARTHAGE(V)|83 Y/F FELL OUT OF BED BROKEN NOSE AN",
+        "CALL:FALL",
+        "ADDR:1045 WEST ST",
+        "CITY:CARTHAGE",
+        "INFO:83 Y/F FELL OUT OF BED BROKEN NOSE AN");
+ }
   
   public static void main(String[] args) {
     new NYJeffersonCountyParserTest().generateTests("T10");
