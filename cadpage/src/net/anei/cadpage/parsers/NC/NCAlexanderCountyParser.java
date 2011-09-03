@@ -28,6 +28,7 @@ CAD:65 MOONEY DR;TRAUMATIC INJURIES;30A02;US 64 90 HWY W
 
 Contact: "Foster, Greg" <gfoster@alexandercountync.gov>
 CAD:224 CRESTVIEW DR/US 64 HWY W;TRAFFIC ACCIDENT;29B04
+CAD:1 JENKINS MOOSE RD/LILEDOUN RD;WEATHER RELATED
 
 */
 
@@ -53,11 +54,12 @@ public class NCAlexanderCountyParser extends SmartAddressParser {
     
     String[] flds = body.split(";");
     parseAddress(flds[0].trim(), data);
+    if (flds.length < 2) return false;
     
     int ndx = 2;
-    boolean code;
+    boolean code = false;
     while (true) {
-      if (ndx >= flds.length) return false;
+      if (ndx >= flds.length) break;
       String field = flds[ndx].trim();
       code = CODE_PTN.matcher(field).matches();
       if (code || field.startsWith("NC ") || field.startsWith("US ") || 
