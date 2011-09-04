@@ -19,6 +19,10 @@ public class SmsMsgInfoTest {
   @Test
   public void testGetMapAddress() {
     
+    doMapTest("TXLewsville",
+        "251 N I35 FRONTAGE RD,KENBURG,XX",
+        "251 N I35E SBFR");
+    
     doMapTest("PAArmstrongCounty", 
         "868 STATE 28,KENBURG,XX",
         "868 STATE ROUTE 28");

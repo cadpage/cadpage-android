@@ -503,9 +503,18 @@ public class MDSaintMarysCountyParserTest extends BaseParserTest {
          "CITY:WILDEWOOD",
          "UNIT:ST38",
          "INFO:86 year old, Female, Conscious, Breathing");
+
+     doTest("T55",
+         "((30978) CAD ) 02:32:58*Personal Injury Accident*38805 FOLEY MATTINGLY RD*DEAD END*HELEN*CO2 SQ2 CO29 A299 CO19 A196*17 YOF C/A/B CAR BACKED INTO HER POS",
+         "CALL:Personal Injury Accident",
+         "ADDR:38805 FOLEY MATTINGLY RD",
+         "X:DEAD END",
+         "CITY:HELEN",
+         "UNIT:CO2 SQ2 CO29 A299 CO19 A196",
+         "INFO:17 YOF C/A/B CAR BACKED INTO HER POS");
 }
   
   public static void main(String[] args) {
-    new MDSaintMarysCountyParserTest().generateTests("T53", "CALL PLACE ADDR APT X CITY UNIT INFO");
+    new MDSaintMarysCountyParserTest().generateTests("T55", "CALL PLACE ADDR APT X CITY UNIT INFO");
   }
 }
