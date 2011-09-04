@@ -51,6 +51,9 @@ Sender: rc.404@c-msg.net
 (CAD) [FredCo] CT: VEHICLE ACCIDENT / default BELLS LN/BALTIMORE RD CFR4 TIME: 09:58:14 ESZ: 3306 MAP: 4567F7 Disp: A339,RE153,E331
 (CAD) [FredCo] CT: HOUSE / FIRE-VISIBLE 1103 VILLAGE GATE DR MTAY: NEXT TOO TIME: 11:20:23 ESZ: 1527 MAP: 4570C10 Disp: RE153,E251,TWR23
 
+Contact: Derek Wildasin <wildasindc@gmail.com>
+Sender: rc.393@c-msg.net
+(CAD) [!] CT: ASSIST PATIENT - NON-EMERGENCY RESPONSE / default 222 BROADWAY ST FRE1: @WEINBERG HOUSE MAP: 4566D5 Disp: A38,E31
 
 ***/
 
@@ -60,32 +63,6 @@ public class MDFrederickCountyParser extends SmartAddressParser {
   private static final String DEF_CITY = "FREDERICK COUNTY";
 
   private static final String[]Fredrickkeywords = new String[]{"CT", "TIME", "ESZ", "MAP", "Disp",};
-  
-  private static final Properties CITY_CODE_TABLE = 
-    buildCodeTable(new String[]{
-        "ADAM","Adams County", //PA
-        "ADAM CO", "Adams County",
-        "ADCO","Franklin County", //PA
-        "BRUN","Brunswick",   
-        "CARRCO", "Carroll County",
-        "CEMB","Emmitsburg",
-        "CFR1","Frederick City",
-        "CFR2","Frederick City",
-        "CFR3","Frederick City",
-        "CFR4","Frederick City",
-        "CIJM", "New Market",
-        "CMON", "Monrovia",
-        "CNMA","New Market",
-        "CMTY","Mt Airy",
-        "CSAB","Sabillasville",
-        "CWAL","Walkersville",
-        "FRAN CO", "Franklin County",
-        "FRE1", "Frederick City",
-        "MTAY", "Mt Airy",
-        "NEWM", "New Market",
-        "THUR","Thurmont",
-        "WOOD","Woodsboro",
-    });
 
   public MDFrederickCountyParser(){
     super(CITY_CODE_TABLE, DEF_CITY, DEF_STATE);
@@ -102,7 +79,7 @@ public class MDFrederickCountyParser extends SmartAddressParser {
       else if (subjects[1].equals("CAD")) subject = subjects[0];
       else return false;
     }
-    if (!subject.equals("FredCo")) return false;
+    if (!subject.equals("FredCo") && !subject.equals("!")) return false;
     
     // If there is a : right after city then there is Supp data between City Code and ESZ:
     
@@ -157,4 +134,30 @@ public class MDFrederickCountyParser extends SmartAddressParser {
       }
     return true;
   }
+  
+  private static final Properties CITY_CODE_TABLE = 
+    buildCodeTable(new String[]{
+        "ADAM","Adams County", //PA
+        "ADAM CO", "Adams County",
+        "ADCO","Franklin County", //PA
+        "BRUN","Brunswick",   
+        "CARRCO", "Carroll County",
+        "CEMB","Emmitsburg",
+        "CFR1","Frederick City",
+        "CFR2","Frederick City",
+        "CFR3","Frederick City",
+        "CFR4","Frederick City",
+        "CIJM", "New Market",
+        "CMON", "Monrovia",
+        "CNMA","New Market",
+        "CMTY","Mt Airy",
+        "CSAB","Sabillasville",
+        "CWAL","Walkersville",
+        "FRAN CO", "Franklin County",
+        "FRE1", "Frederick City",
+        "MTAY", "Mt Airy",
+        "NEWM", "New Market",
+        "THUR","Thurmont",
+        "WOOD","Woodsboro",
+    });
 }
