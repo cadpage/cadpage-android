@@ -173,9 +173,18 @@ public class MDFrederickCountyParserTest extends BaseParserTest {
         "BOX:1527",
         "UNIT:RE153,E251,TWR23",
         "MAP:4570C10");
-  }
+
+    doTest("T27",
+        "(CAD) [!] CT: ASSIST PATIENT - NON-EMERGENCY RESPONSE / default 222 BROADWAY ST FRE1: @WEINBERG HOUSE MAP: 4566D5 Disp: A38,E31",
+        "CALL:ASSIST PATIENT - NON-EMERGENCY RESPONSE/default",
+        "ADDR:222 BROADWAY ST",
+        "CITY:Frederick City",
+        "PLACE:WEINBERG HOUSE",
+        "UNIT:A38,E31",
+        "MAP:4566D5");
+ }
   
   public static void main(String[] args) {
-    new MDFrederickCountyParserTest().generateTests("T27", "CALL ADDR CITY PLACE BOX UNIT MAP");
+    new MDFrederickCountyParserTest().generateTests("T28", "CALL ADDR CITY PLACE BOX UNIT MAP");
   }
 }
