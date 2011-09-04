@@ -1478,11 +1478,6 @@ Collin County, TX (TXCollinCountyParser)
 11031079 First Responders 3274 Almeta LN in Collin County FM 546 [LCFD DIST: LCF1 GRID: 1331]
 11047502 INJURED PERSON 3610 FM 546 IN COLLIN COUNTY COUNTY ROAD 398 / COUNTY RO;16AD 394 [LCFD DIST: LCF1 GRID: 1322] UNITS: AMRP LCF1 ST RMK: <NONE> CFS RMK 19:16 MALE SUB BLEEDING FROM HIS THROAT {CAD004 19:17} 
 *******************************************************************************
-Humble TX (TXHumbleParser)
-[AVFD EMS] - Cardiac -- 17111 Dawn Shadows Dr, Humble -- Map: 376H- -- Xst's: Forest Rain Ln Old Arbor -- Units: E-M29 -- 201105590
-[AVFD EMS] - Diabetic Emergency -- 5310 Moonshadows Dr, Humble -- Map: 337S- -- Xst's: Pocito Ct Wellswood Ct -- Units: E-M29 -- 201105542
-[AVFD EMS] - Medical Call -- 6810 Amber Ash Ct, Humble -- Map: 337Q- -- Xst's: Crimson Oak Trl -- Units: E-M19 -- 201105487
-*******************************************************************************
 Cy Creek Comm Center, TX (TXCyCreekCommCenterParser)
 11:58 W HILLSIDE DR/EASTEX FRWY, ; Map:414D Sub: Nat:MA-MUTUAL AID / ASSIST AGENCY Units:E91 T81 T73 E-E39 X-St:EASTEX
 09/06 11:56 W HILLSIDE DR/EASTEX FRWY, ; Map:414D Sub: Nat:MA-MUTUAL AID / ASSIST AGENCY Units:E91 T81 T73 E-L19 X-St:EASTEX
@@ -1498,6 +1493,16 @@ ID#:11-06-20685 - - TRASH FIRE - 111 Bayou Dr - Apt:C - Bldg: - Key Map: 498D - 
 ID#:11-06-20710 - - FIRE - PreAlert - 16217 Ridlon - Apt: - Bldg: intra SERVICES - Key Map: 498C - Cross Streets:SHEILA LN/WOODLAND D
 ID#:11-06-20658 - - 29A1 MOTOR VEHICLE A - East Fwy / Delldale - Apt: - Bldg: - Key Map: 498E - Cross Streets: - Box #:2004
 ID#:11-06-20627 - - 29A1 MOTOR VEHICLE A - 16410 Ave D - Apt:1 - Bldg: AVE D APTS - Key Map: 498D - Cross Streets:WOODLAND DR/CEDAR L
+*******************************************************************************
+Humble TX (TXHumbleParser)
+[AVFD EMS] - Cardiac -- 17111 Dawn Shadows Dr, Humble -- Map: 376H- -- Xst's: Forest Rain Ln Old Arbor -- Units: E-M29 -- 201105590
+[AVFD EMS] - Diabetic Emergency -- 5310 Moonshadows Dr, Humble -- Map: 337S- -- Xst's: Pocito Ct Wellswood Ct -- Units: E-M29 -- 201105542
+[AVFD EMS] - Medical Call -- 6810 Amber Ash Ct, Humble -- Map: 337Q- -- Xst's: Crimson Oak Trl -- Units: E-M19 -- 201105487
+*******************************************************************************
+Lewisville, TX (TXLewisvilleParser)
+*101 E CORPORATE DR*****MAJOR ACC****B160,CHIEF,E163,M163,T167*316****
+*1725 SHUFORDS CT*****FIRE****B160,CHIEF,E164,E165,M163,Q163,T167*300****
+*251 N I35E SBFR*****FIRE****B160,CHIEF,E161,E164,M161,Q162,T167*127****
 ***************************************************************************
 Manvel, TX (TXManvelParser)
 [ NEW CALL ]  MVFD\nALFIRE\n3403 SOUTHFORK PARKWAY\nMANVEL\n1103200011 12:50 PM
@@ -3228,15 +3233,6 @@ Erie_Alert EDEN 2097 SHERMAN- 1 YOA MALE CHOKING 15 TO HALL NEED 1 ADD'L  <NOREP
 **********************************************************
 **********************************************************
 **********************************************************
-Lewisville, TX (in Denton County)
-Contact: Curtis Birt <cbirt@cityofcorinth.com>
-Sender: 6245,lpd@[10.10.1.64]
-*101 E CORPORATE DR*****MAJOR ACC****B160,CHIEF,E163,M163,T167*316****
-*1725 SHUFORDS CT*****FIRE****B160,CHIEF,E164,E165,M163,Q163,T167*300****
-*251 N I35E SBFR*****FIRE****B160,CHIEF,E161,E164,M161,Q162,T167*127****
-SMALL FIRE COMING FROM THE STOVE
-*4900 BLAIR OAKS DR*****MA FILL-IN****CHIEF,E166*947****
-11072508*1077 N GARDEN RIDGE BLVD*****FIRE****B160,CHIEF,E163,E164,M163,Q162,T167
 **********************************************************
 Wilmington (brandywine), DE
 Contact: "cmwetherby@aol.com" <cmwetherby@aol.com>

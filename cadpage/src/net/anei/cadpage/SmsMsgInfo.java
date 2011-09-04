@@ -195,6 +195,7 @@ public class SmsMsgInfo {
     sAddr = cleanHouseNumbers(sAddr);
     sAddr = cleanRoutes(sAddr);
     sAddr = cleanDoubleRoutes(sAddr);
+    sAddr = cleanInterstate(sAddr);
     
     // Make sure & are surrounded by blanks
     sAddr = sAddr.replaceAll(" *& *", " & ");
@@ -273,6 +274,19 @@ public class SmsMsgInfo {
     sAddr = sAddr.replaceAll("[\\{\\}]", "");
     Matcher match = BLK_PAT.matcher(sAddr);
     sAddr = match.replaceFirst("");
+    return sAddr;
+  }
+  
+  // Clean up some Interstate conventions
+  private static final Pattern INA_PATTERN = Pattern.compile("\\bI\\d+([NSEW])\\b");
+  private static final Pattern FRONTAGE_PTN = Pattern.compile("\\b(?:[NSEW]B)?FR\\b");
+  private String cleanInterstate(String sAddr) {
+    Matcher match = INA_PATTERN.matcher(sAddr);
+    if (match.find()) {
+      sAddr = sAddr.substring(0,match.start(1)) + sAddr.substring(match.end());
+    }
+    match = FRONTAGE_PTN.matcher(sAddr);
+    sAddr = match.replaceAll("FRONTAGE RD");
     return sAddr;
   }
   
