@@ -114,6 +114,15 @@ public class CASonomaCountyParserTest extends BaseParserTest {
         "NAME:TOGNERI JOHN W",
         "PHONE:(707) 545-7701",
         "INFO:OUT BLDG /");
+
+    doTest("T12",
+        "Loc: 4585 OLD REDWOOD HW LAR BOX: 2747 B2 CN: AT&T MOBILITY 800 635 6840  4 C#: (707) 953-6573 TYP: VEG CALLER ADDR: 434 Pacific Heights Drive S RS TIME: 17",
+        "ADDR:4585 OLD REDWOOD HWY",
+        "SRC:LAR",
+        "BOX:2747 B2",
+        "CALL:VEG",
+        "NAME:AT&T MOBILITY 800 635 6840  4",
+        "PHONE:(707) 953-6573");
   }
   
   @Test
@@ -238,6 +247,6 @@ public class CASonomaCountyParserTest extends BaseParserTest {
   }
   
   public static void main(String[] args) {
-    new CASonomaCountyParserTest().generateTests("T1");
+    new CASonomaCountyParserTest().generateTests("T12");
   }
 }
