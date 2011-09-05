@@ -19,6 +19,17 @@ public class TXHumbleParserTest extends BaseParserTest {
   @Test
   public void testParser() {
 
+    doTest("T5",
+        "[AVFD FIRE] - Motor Vehicle Incident -- E Fm 1960 & w Lake Houston P, Humble -- Map: 337Z- -- Xst's: W Lake Houston Pkwy Atasc -- Units: E-M19 E-E39 - 201105443",
+        "SRC:AVFD FIRE",
+        "CALL:Motor Vehicle Incident",
+        "ADDR:E Fm 1960 & w Lake Houston P",
+        "CITY:Humble",
+        "MAP:337Z-",
+        "X:W Lake Houston Pkwy Atasc",
+        "UNIT:E-M19 E-E39",
+        "ID:201105443");
+
     doTest("T1",
         "[AVFD EMS] - Cardiac -- 17111 Dawn Shadows Dr, Humble -- Map: 376H- -- Xst's: Forest Rain Ln Old Arbor -- Units: E-M29 -- 201105590",
         "SRC:AVFD EMS",
@@ -93,9 +104,20 @@ public class TXHumbleParserTest extends BaseParserTest {
         "PLACE:Water Wonderland",
         "X:Running Water Dr Waterwoo",
         "UNIT:E-B3");
+
+    doTest("T8",
+        "(Chief ALT) [EMS] - Medical Call - 19326 Aquatic Dr, Humble - Map: 378B- - Xst's: Red Sails Pass Rolling Ra - Units: E-M19 - 201139731",
+        "SRC:EMS",
+        "CALL:Medical Call",
+        "ADDR:19326 Aquatic Dr",
+        "CITY:Humble",
+        "MAP:378B-",
+        "X:Red Sails Pass Rolling Ra",
+        "UNIT:E-M19",
+        "ID:201139731");
   }
   
   public static void main(String[] args) {
-    new TXHumbleParserTest().generateTests("T1");
+    new TXHumbleParserTest().generateTests("T8");
   }
 }
