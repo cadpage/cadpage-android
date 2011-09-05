@@ -53,13 +53,13 @@ public class OHHamiltonCountyParser extends SmartAddressParser {
     if (!match.matches()) return false;
     parseAddress(StartType.START_SKIP, match.group(1).trim(), data);
     data.strAddress = data.strAddress.replace("DE SOTO", "DESOTO");
-    String sName = getLeft();
-    if (sName.startsWith("APT ")) {
-      Parser p = new Parser(sName.substring(4).trim());
+    String sPlace = getLeft();
+    if (sPlace.startsWith("APT ")) {
+      Parser p = new Parser(sPlace.substring(4).trim());
       data.strApt = p.get(' ');
-      sName = p.get();
+      sPlace = p.get();
     }
-    data.strName = sName;
+    data.strPlace = sPlace;
     data.strCall = match.group(2).trim();
     data.strSupp = match.group(3).trim();
     Parser p = new Parser(match.group(4).trim());
@@ -115,6 +115,9 @@ public class OHHamiltonCountyParser extends SmartAddressParser {
       "NCHF", "NORTH COLLEGE HILL",
       "SPTF", "SPRINTFIELD TWP",
       "STBF", "ST BERNARD",
-      "WWTF", "WHITEWATER TWP"
+      "WWTF", "WHITEWATER TWP",
+      
+      "INDN", "INDIAN HILL",
+      "MDRA", "MADEIRA"
   });
 }
