@@ -3224,6 +3224,19 @@ Contact: Chris DeMaskey <demaskey@msrc.org>
 From: alerts@cssofla.com
 (GORDO) at: 9/2/2011 1:06:14 PM\n\nWARD 6 REQUESTING BRUSH TRUCK AND MAN POWER TO 1298 PHARRIS ROAD.
 **********************************************************
+Allegheny County, PA (alternate)
+Contact: Shawn Sible <firefighter0129@gmail.com>
+Sender: crescent.dispatch@moontwpfire.com
+
+(Dispatch Alert) M? Timeout=0604\n
+Smoke Detector Activated\n
+Helen Skvarj residence\n
+810 Bocktown Rd
+
+(Dispatch Alert) 1800: structure fire- independce. 3681 ridge rd. tanker needed
+(Dispatch Alert) MUTAUL AID CALL: MOON TWP: 128 DOVER DR
+(Dispatch Alert) 2nd page for mutual aid response to moon twp. 128 dover dr. structure fire
+**********************************************************
 **********************************************************
 **********************************************************
 **********************************************************
