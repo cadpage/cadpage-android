@@ -1464,8 +1464,9 @@ public class FieldProgramParser extends SmartAddressParser {
     public boolean checkParse(String field, Data data) {
       int pt = field.lastIndexOf(',');
       if (pt < 0) return false;
-      return super.checkParse(field.substring(0,pt).trim(), data) &&
-              cityField.checkParse(field.substring(pt+1).trim(), data);
+      parse(field.substring(0,pt).trim(), data);
+      cityField.parse(field.substring(pt+1).trim(), data);
+      return true;
     }
     
     @Override

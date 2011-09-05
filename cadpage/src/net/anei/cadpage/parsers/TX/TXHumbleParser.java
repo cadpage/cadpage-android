@@ -16,6 +16,7 @@ Sender: msg@cfmsg.com
 [AVFD FIRE] - Motor Vehicle Incident -- E Fm 1960 & w Lake Houston P, Humble -- Map: 337Z- -- Xst's: W Lake Houston Pkwy Atasc -- Units: E-M19 E-E39 - 201105443
 [AVFD FIRE][Repage] - Mvi - Unknown -- Will Clayton Pkwy & atascoci -- Map: 376C- -- Xst's: Atascocita Rd Hunters Ter -- Units: E-M29 E-E39 - 201105192
 (Chief ALT) [AVFD FIRE][Repage] - Mutual Aid / Assist Agency -- 5711 Lakewater Dr -- Map: 338M- -- Water Wonderland -- Xst's: Running Water Dr Waterwoo -- Units: E-B3
+(Chief ALT) [EMS] - Medical Call - 19326 Aquatic Dr, Humble - Map: 378B- - Xst's: Red Sails Pass Rolling Ra - Units: E-M19 - 201139731
 
 Status message, Should be handled as General Alert
 (Chief ALT) [AVFD EMS TIMES] - Incident: 201117017 -- Unit: E-M19 Disp 18:20:53 -- Enroute: 18:22:50 -- Arrived: -- Transport: -- At Hosp: -- Available: 18:24:58
@@ -31,7 +32,7 @@ public class TXHumbleParser extends DispatchOSSIParser {
   
   public TXHumbleParser() {
     super("HUMBLE", "TX",
-           "CALL ADDRCITY! Map:MAP PLACE Xsts:X Units:UNIT ID");
+           "CALL CALL2? ADDRCITY! Map:MAP PLACE Xst's:X Units:UNIT ID");
   }
   
   @Override
@@ -46,17 +47,38 @@ public class TXHumbleParser extends DispatchOSSIParser {
     // If last field delimiter is a single dash, turn it to a double dash
     Parser p = new Parser(subject);
     data.strSource = p.get('|');
-    if (data.strSource.equalsIgnoreCase("CHief ALT")) {
+    if (data.strSource.equalsIgnoreCase("Chief ALT")) {
       data.strSource = p.get('|');
     }
     if (body.startsWith("- ")) body = body.substring(2).trim();
-    body = TRAIL_DELIM.matcher(body).replaceFirst(" -- ");
+    body = TRAIL_DELIM.matcher(body).replaceFirst(" - ");
     
     // Split line into double dash delimited fields and process them
-    body = body.replace("Xst's:", "Xsts:");
-    String[] flds = body.split(" -- ");
+    String[] flds = body.split(" -+ ");
     if (INCIDENT_PTN.matcher(flds[0]).matches()) return false;
     return parseFields(flds, data);
+  }
+  
+  private class Call2Field extends CallField {
+    
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      if (!field.equals("Unknown") &&
+          !field.equals("Residential")) return false;
+      data.strCall = append(data.strCall, " - ", field);
+      return true;
+    }
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("CALL2")) return new Call2Field();
+    return super.getField(name);
   }
   
   @Override
