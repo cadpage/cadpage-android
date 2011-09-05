@@ -3233,6 +3233,11 @@ Smoke Detector Activated\n
 Helen Skvarj residence\n
 810 Bocktown Rd
 
+(Dispatch Alert) M? Timeout=0809\n
+Drill\n
+Nova Chemical\2sFrankfort Rd\n
+Potter Twp
+
 (Dispatch Alert) 1800: structure fire- independce. 3681 ridge rd. tanker needed
 (Dispatch Alert) MUTAUL AID CALL: MOON TWP: 128 DOVER DR
 (Dispatch Alert) 2nd page for mutual aid response to moon twp. 128 dover dr. structure fire
