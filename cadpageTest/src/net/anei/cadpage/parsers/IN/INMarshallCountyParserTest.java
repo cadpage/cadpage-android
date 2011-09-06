@@ -47,6 +47,14 @@ public class INMarshallCountyParserTest extends BaseParserTest {
         "CITY:PLYMOUTH",
         "X:NURSERY ST & S SECOND ST",
         "CALL:MEDICAL CALL");
+
+    doTest("T6",
+        "CAD:FYI: ;DIST: 143.99 FT;422 E CENTER ST;BOUR;N LINCOLN ST;E OLD US 30;ACCIDENT PI OR UNK;08/26/2011 20:38:55",
+        "PLACE:DIST: 143.99 FT",
+        "ADDR:422 E CENTER ST",
+        "CITY:BOURBON",
+        "X:N LINCOLN ST & E OLD US 30",
+        "CALL:ACCIDENT PI OR UNK");
  }
   
   public static void main(String[] args) {
