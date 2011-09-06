@@ -38,18 +38,17 @@ Contact: Stephen Rorai <stephenrorai@yahoo.com>
 
 public class TXMontgomeryCountyParser extends FieldProgramParser {
   
-  private static final String DEF_STATE = "TX";
-  private static final String DEF_CITY = "MONTGOMERY COUNTY";
-  
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "CR",   "CONROE",
       "MO",   "MONTGOMERY",
       "NC",   "NEW CANEY",
+      "PG",   "PATTON VILLAGE",
+      "RF",   "ROMAN FOREST",
       "SP",   "SPLENDORA"
   });
   
   public TXMontgomeryCountyParser() {
-    super(CITY_CODES, DEF_CITY, DEF_STATE,
+    super(CITY_CODES, "MONTGOMERY COUNTY", "TX",
            "New_Fire_Run:ID! Nature:CALL UNIT! Location:ADDR/y! Building:APT Cross:X/c");
   }
   

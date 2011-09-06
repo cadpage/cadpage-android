@@ -46,6 +46,9 @@ Contact: Preston Bartlett <fighter727@gmail.com>
 Contact: joe marroni <joeman1115@gmail.com>
   06/08 16:04 12110 SARTI ST-HC, ; Map:371A- Sub:FOUNTAINHEAD Nat:31D02-UNCON - EFFECTIVE BREATHI Units:HCM93 D52 11M X-St:BROOKHEAD TRL 201125435 TXT STOP to opt-out
 
+Contact: Preston Bartlett <fighter727@gmail.com>
+  09/05 15:19 18300 ELLA BLVD-HC, ; Map:331G- Sub:CYPRESSWOOD Nat:67D03-LARGE OUTSIDE FIRE Units:E62 B78 E61 B76 E37 X-St:BLUE CYPRESS DR 
+
 */
 
 public class TXCyCreekCommCenterParser extends SmsMsgParser {
