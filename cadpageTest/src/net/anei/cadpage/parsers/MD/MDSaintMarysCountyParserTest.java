@@ -512,9 +512,18 @@ public class MDSaintMarysCountyParserTest extends BaseParserTest {
          "CITY:HELEN",
          "UNIT:CO2 SQ2 CO29 A299 CO19 A196",
          "INFO:17 YOF C/A/B CAR BACKED INTO HER POS");
+
+     doTest("T56",
+         "((41568) CAD ) 11:45:22*Breathing Difficulties*22085 ST LEONARDS CIR*ST GEORGES DR*GREAT MILLS*ST38 ST39 CO79 ALS*VOMMITING BLOOD*",
+         "CALL:Breathing Difficulties",
+         "ADDR:22085 ST LEONARDS CIR",
+         "X:ST GEORGES DR",
+         "CITY:GREAT MILLS",
+         "UNIT:ST38 ST39 CO79 ALS",
+         "INFO:VOMMITING BLOOD");
 }
   
   public static void main(String[] args) {
-    new MDSaintMarysCountyParserTest().generateTests("T55", "CALL PLACE ADDR APT X CITY UNIT INFO");
+    new MDSaintMarysCountyParserTest().generateTests("T56", "CALL PLACE ADDR APT X CITY UNIT INFO");
   }
 }
