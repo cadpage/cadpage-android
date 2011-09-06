@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">20110901</string>
-  <string name="release_version">v1.4.22</string>
+  <string name="release_date">20110906</string>
+  <string name="release_version">v1.4.23</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
@@ -11,24 +11,20 @@
   What"'"s new in this release\n
 Multiple Fixes for Existing Locations and Issues\n
 New Locations:\n
-New District: Erie County, PA (alternate)\n
-New District: Greensboro, NC\n
-New District: Ozark, AL\n
-New District: Venango County, PA\n
-New District: Kent County, DE (Alternate)\n
-New District: Douglas County, CO\n
-New Districts: Candler County and Evans County, GA\n
-New District: Erie County, NY\n
+New District: Lewisville, TX\n
+New District: Jefferson County, MO\n
 \n
 Fixes:\n
-Parsign problem with Gloucester County, NJ\n
-Parsing problem with Sussex County, NJ\n
-Parsing problems with Worcester County, MD\n
 Force close shutting down Cadpage\n
-Clermont County, OH dispatch sender addres has changed\n
-App crashes when parsing invalid MMS PDU content\n
-Parsing problem with Harris County, TX (B)\n
-New FRNKLN city code not recognized for Chester County, PA (B)\n
+App crashes with any attempt to use Erie County, PA\n
+Parsing problem with Jefferson County,  NY location\n
+Parsing problem with Humble COunty, TX\n
+Parsing problem with Alexander County, NC\n
+Parsing problem with Frederick County, MD\n
+Fixed parsing problem with Sonoma County, CA\n
+Parsing problem with Humble County, TX\n
+Parsing problem with Hamilton County, OH\n
+Parsing problem with Marshall County, IN\n
   </string>  
 </resources>
   
