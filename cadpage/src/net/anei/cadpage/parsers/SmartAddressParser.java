@@ -513,7 +513,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     // be an abbreviation for COMPANY in a prefix name.  So we won't count it
     // as a route prefix
     int sAddr = result.startAddress >= 0 ? result.startAddress : startNdx;
-    int sEnd;
+    int sEnd = -1;
     boolean flexAt = isFlagSet(FLAG_AT_BOTH);
     boolean locked = false;
     while (true) {
@@ -527,6 +527,15 @@ public abstract class SmartAddressParser extends SmsMsgParser {
           if (isType(sAddr+1, ID_NUMBERED_ROAD_SFX) && isType(sAddr+1, ID_ROUTE_PFX)) {
             if (isType(sAddr+2, ID_NUMBER)) break;
             if (isType(sAddr+2, ID_ROUTE_PFX_EXT) && isType(sAddr+3, ID_NUMBER)) break;
+            
+            // Well, this certainly looks like it is a numbered street or route
+            // rather than a house number.  But there are districts with streets
+            // named for saints, so if the next token is ST, give it a chance
+            // to be a valid street name
+            if (tokens[sAddr+1].equalsIgnoreCase("ST")) {
+              sEnd = findRoadEnd(sAddr+1);
+              if (sEnd > 0) break;
+            }
             return false;
           }
           break;
@@ -538,13 +547,13 @@ public abstract class SmartAddressParser extends SmsMsgParser {
       }
       
       // If we found a city beyond this start point, just use that as the terminator
-      if (! padField && parseToCity(sAddr, sAddr+2, result)) {
+      if (! padField && parseToCity(sAddr, (sEnd > 0 ? sEnd : sAddr+2), result)) {
         if (locked) result.initAddress--;
         return true;
       }
       
       // Otherwise, see if we can find a road starting from the next token
-      sEnd = findRoadEnd(sAddr+1);
+      if (sEnd < 0) sEnd = findRoadEnd(sAddr+1);
       if (sEnd > 0) break;
       
       // This isn't what we are looking for
