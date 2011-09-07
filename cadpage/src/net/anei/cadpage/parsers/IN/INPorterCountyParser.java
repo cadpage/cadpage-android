@@ -24,6 +24,8 @@ Subject: CAD Page\n\n#110088677 - \nF41:\nMUT.AID/RESP. TO SCN @ 177 HEATHERHILL
 Subject: CAD Page\n\n#110089211 - \nF35P2:\nEMS AST-P2 @ 380 N 400 E,WGT\nCROSS: btwn AUGUSTINE DR and E 400 N\nGRP:WF\nPRI:2\ncomment: Medical P
 Subject: CAD Page\n\n#110089866 -\nE29\nMV CRASH/TRANS.ACC @ E US HWY 6 / EDMOND CT, LBT - < 0/ 801>\nGRP:PM\nPRI:1\ncomment: CAR VS PICKUP, CAR IS IN DITCH
 
+Contact: Gregory Adair <gadair@washingtonfire.net>
+
 */
 
 public class INPorterCountyParser extends FieldProgramParser {
@@ -34,12 +36,18 @@ public class INPorterCountyParser extends FieldProgramParser {
       "CTT", "Center Twp",  // Dispatcher Typo?
       "JKT", "Jackson Twp",
       "LBT", "Liberty Twp",
+      "MGT", "Morgan Twp",
       "PGT", "Portage Twp",
+      "PLT", "Pleasant Twp",
       "POT", "Porter Twp",
       "UNT", "Union Twp",
       "WGT", "Washington Twp",
+      "WCT", "Weswtchester Twp",
+      "WNT", "Windfield Twp",
       
+      "BHB", "Burns Harbor",
       "CHE", "Chesterton",
+      "HEB", "Hebron",
       "PTG", "Portage",
       "PTR", "Porter",
       "VAL", "Valparaiso",
