@@ -24,25 +24,14 @@ Sender: page@tnacso.net
 (E911) Fire - Other - ANDERSONVILLE HWY @ BETHEL ROAD CLINTON, TN
 (E911) Fire - Other - ANDERSONVILLE HWY @ BETHEL ROAD CLINTON, TN - REC:14:25 DISP:14:25 RESP:14:25 ONSC:14:30 INSRV:14:30 TRK#:178572
 
+Contact: Cousin Skeeter <skeeter1380@gmail.com>
+E911 / MARFVD - FROST BOTTOM ROAD  OLIVER SPRINGS, TN - MVA\n\n
+E911 / MARFVD FIRST RESP - 1180 DUTCH VALLEY ROAD  CLINTON, TN - DIFFICULTY  BREATHING\n\n
+E911 / Fire Alarm-Residential - 351 WOODLAND HILLS ROAD CLINTON, TN - REC:12:11 DISP:12:12 RESP:12:16 ONSC: INSRV:12:17 TRK#:188459\n\n
+
  */
 
 public class TNAndersonCountyParser extends FieldProgramParser {
-  
-  private static final String[] CITY_LIST = new String[]{
-    "ANDERSONVILLE",
-    "BRICEVILLE",
-    "CLAXTON",
-    "CLINTON",
-    "DEVONIA",
-    "FORK MOUNTAIN",
-    "FRATERVILLE",
-    "LAKE CITY",
-    "MARLOW",
-    "NORRIS",
-    "OAK RIDGE",
-    "OLIVER SPRINGS",
-    "ROSEDALE"
-  };
   
   public TNAndersonCountyParser() {
     super(CITY_LIST, "ANDERSON COUNTY", "TN",
@@ -56,8 +45,17 @@ public class TNAndersonCountyParser extends FieldProgramParser {
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
+
+    // Dummy loop
+    do {
+      if (subject.equals("E911")) break;
+      if (body.startsWith("E911 / ")) {
+        body = body.substring(6).trim();
+        break;
+      }
+      return false;
+    } while (false);
     
-    if (!subject.equals("E911")) return false;
     body = body.replace(" -REC:", " - REC:");
     return parseFields(body.split(" - "), data);
   }
@@ -117,4 +115,20 @@ public class TNAndersonCountyParser extends FieldProgramParser {
   public String getProgram() {
     return "SRC " + super.getProgram();
   }
+  
+  private static final String[] CITY_LIST = new String[]{
+    "ANDERSONVILLE",
+    "BRICEVILLE",
+    "CLAXTON",
+    "CLINTON",
+    "DEVONIA",
+    "FORK MOUNTAIN",
+    "FRATERVILLE",
+    "LAKE CITY",
+    "MARLOW",
+    "NORRIS",
+    "OAK RIDGE",
+    "OLIVER SPRINGS",
+    "ROSEDALE"
+  };
 }
