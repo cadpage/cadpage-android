@@ -62,6 +62,13 @@ public class NCSurryCountyParserTest extends BaseParserTest {
         "ADDR:1020 NEWSOME ST",
         "CITY:MOUNT AIRY",
         "CALL:ACCIDENT PI");
+
+    doTest("T8",
+        "SC911-CallAlert!!@co.surry.nc.us SC911 - Call Alert!!:Call Number - 110906-334* Address - 304 JEFFERIES ST* City - MOUNT AIRY* Call Type - LIFELINE* *",
+        "ID:110906-334",
+        "ADDR:304 JEFFERIES ST",
+        "CITY:MOUNT AIRY",
+        "CALL:LIFELINE");
   }
   
 
