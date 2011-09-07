@@ -294,7 +294,13 @@ public class MmsTransactionService extends Service {
         // message ID.  We used to only do this once and keep using the mame
         // record number, but it turns out that we go through two different
         // numbers while downloading MMS content
-        Cursor cur = qr.query(MMS_URI, MMS_COL_LIST, "tr_id=?", new String[]{message.getMmsMsgId()}, null);
+        Cursor cur;
+        try {
+          cur = qr.query(MMS_URI, MMS_COL_LIST, "tr_id=?", new String[]{message.getMmsMsgId()}, null);
+        } catch (IllegalStateException ex) {
+          Log.e(ex);
+          continue;
+        }
         if (cur == null) continue;
         if (!cur.moveToFirst()) continue;
         int recNo = cur.getInt(0);
