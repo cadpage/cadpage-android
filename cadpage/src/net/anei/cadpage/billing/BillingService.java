@@ -199,14 +199,17 @@ public class BillingService extends Service implements ServiceConnection {
 
         @Override
         protected long run() throws RemoteException {
+          boolean billingSupported = false;
             Bundle request = makeRequestBundle("CHECK_BILLING_SUPPORTED");
             Bundle response = mService.sendBillingRequest(request);
-            int responseCode = response.getInt(Consts.BILLING_RESPONSE_RESPONSE_CODE);
-            if (Log.DEBUG) {
-                Log.v("CheckBillingSupported response code: " +
-                        ResponseCode.valueOf(responseCode));
+            if (response != null) {
+              int responseCode = response.getInt(Consts.BILLING_RESPONSE_RESPONSE_CODE);
+              if (Log.DEBUG) {
+                  Log.v("CheckBillingSupported response code: " +
+                          ResponseCode.valueOf(responseCode));
+              }
+              if (responseCode == ResponseCode.RESULT_OK.ordinal()) billingSupported = true;
             }
-            boolean billingSupported = (responseCode == ResponseCode.RESULT_OK.ordinal());
             checkBillingSupportedResponse(billingSupported);
             return Consts.BILLING_RESPONSE_INVALID_REQUEST_ID;
         }
