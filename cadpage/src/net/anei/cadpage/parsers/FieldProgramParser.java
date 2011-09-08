@@ -936,7 +936,9 @@ public class FieldProgramParser extends SmartAddressParser {
             // We did find one,
             // If we had to skip over a required field, return failure
             // Otherwise we are ready to process this step
-            if (skipReq) return false;
+            if (skipReq) {
+              return false;
+            }
             curFld = curVal;
             break;
           }
