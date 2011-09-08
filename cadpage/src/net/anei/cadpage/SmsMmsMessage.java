@@ -60,7 +60,8 @@ public class SmsMmsMessage implements Serializable {
   private transient String parseAddress = null;
   private transient String parseSubject = null;
   private transient String parseMessageBody = null;
-  private transient boolean expectMore = false;
+  private transient int msgIndex = -1;
+  private transient int msgCount = -1;
   
   // Temporary fields being monitored to see if they will be of any
   // use in identifying multi-part messages
@@ -206,7 +207,7 @@ public class SmsMmsMessage implements Serializable {
     this.location = "GeneralAlert";
     
     this.parseAddress = fromAddress;
-    this.parseSubject =subject;
+    this.parseSubject = subject;
     this.parseMessageBody = messageBody;
   }
 
@@ -226,24 +227,36 @@ public class SmsMmsMessage implements Serializable {
   }
 
   /**
-   * Merge parsed data from a subsequent text message
-   * @param message subsequent text message
+   * Construct combined message from a list of individual text messages
+   * @param firstMsg the initially received message
+   * @param list list of text messages
    */
-  public void merge(SmsMmsMessage message) {
-    if (extraMsgBody == null) extraMsgBody = new ArrayList<String>();
-    extraMsgBody.add(message.messageBody);
-    String delim = (ManagePreferences.splitBlankIns() ? " " : "");
-    parseMessageBody = parseMessageBody + delim + message.parseMessageBody;
-    expectMore = message.expectMore;
-  }
+  public SmsMmsMessage(SmsMmsMessage firstMsg, List<SmsMmsMessage> list) {
+    this.fromAddress = firstMsg.fromAddress;
+    this.timestamp = firstMsg.timestamp;
+    this.messageType = firstMsg.messageType;
+    this.messageClass = firstMsg.messageClass;
+    this.parseAddress = firstMsg.parseAddress;
+    this.parseSubject = firstMsg.parseSubject;
+    this.sentTime = firstMsg.sentTime;
+    this.iccIndex = firstMsg.iccIndex;
 
-  /**
-   * @return number of individual SMS text messages merged into the message
-   */
-  public int msgCount() {
-    int cnt = 1;
-    if (extraMsgBody != null) cnt += extraMsgBody.size();
-    return cnt;
+    boolean addBlank = ManagePreferences.splitBlankIns();
+    StringBuffer sb = new StringBuffer();
+    for (SmsMmsMessage msg : list) {
+      if (msg != null) {
+        if (this.messageBody == null) {
+          this.messageBody = msg.messageBody;
+          sb.append(msg.parseMessageBody);
+        } else {
+          if (extraMsgBody == null) extraMsgBody = new ArrayList<String>();
+          extraMsgBody.add(msg.messageBody);
+          if (addBlank) sb.append(' ');
+          sb.append(msg.parseMessageBody);
+        }
+      }
+    }
+    parseMessageBody = sb.toString().trim();
   }
   
   /**
@@ -279,7 +292,7 @@ public class SmsMmsMessage implements Serializable {
         String saveAddress = parseAddress;
         String saveSubject = parseSubject;
         String saveBody = parseMessageBody;
-        expectMore = false;
+        msgCount = msgIndex = -1;
         getParseInfo(msgBody);
         parseAddress = saveAddress;
         parseSubject = saveSubject;
@@ -345,7 +358,8 @@ public class SmsMmsMessage implements Serializable {
         if (found) break;
       }
       if (found) {
-        if (! match.group(1).equals(match.group(2))) expectMore = true;
+        msgIndex = Integer.parseInt(match.group(1));
+        msgCount = Integer.parseInt(match.group(2));
         if (match.start() == 0) body = body.substring(match.end()).trim();
         else body = body.substring(0,match.start()).trim();
       }
@@ -544,7 +558,7 @@ public class SmsMmsMessage implements Serializable {
       if (pt2 >= body.length()) break;
     }
     
-    parseMessageBody = body.substring(pt1).trim();
+    parseMessageBody = body.substring(pt1);
   }
   
   private void trimLast(StringBuilder sb, String endCode) {
@@ -569,6 +583,10 @@ public class SmsMmsMessage implements Serializable {
   public long getTimestamp() {
     return timestamp;
   }
+  
+  public long getSentTime() {
+    return sentTime;
+  }
 
   public MessageClass getMessageClass() {
     return messageClass;
@@ -583,7 +601,7 @@ public class SmsMmsMessage implements Serializable {
   }
 
   public String getMessageBody() {
-    return parseMessageBody;
+    return parseMessageBody.trim();
   }
   
   public int getMessageType() {
@@ -610,8 +628,17 @@ public class SmsMmsMessage implements Serializable {
     return mmsMsgId;
   }
   
+  public int getMsgIndex() {
+    return msgIndex;
+  }
+  
+  public int getMsgCount() {
+    return msgCount;
+  }
+  
+  @Deprecated
   public boolean isExpectMore() {
-    if (expectMore) return true;
+    if (msgIndex != msgCount) return true;
     if (info != null) return info.isExpectMore();
     return false;
   }
@@ -818,7 +845,7 @@ public class SmsMmsMessage implements Serializable {
     intent.putExtra(EXTRA_REPUBLISH, republish);
     putExtraString(intent, EXTRA_FROM, parseAddress);
     putExtraString(intent, EXTRA_SUBJECT, parseSubject);
-    putExtraString(intent, EXTRA_MESSAGE, parseMessageBody);
+    putExtraString(intent, EXTRA_MESSAGE, parseMessageBody.trim());
     intent.putExtra(EXTRA_TIME, timestamp);
     putExtraString(intent, EXTRA_LOC_CODE, location);
     
@@ -906,8 +933,12 @@ public class SmsMmsMessage implements Serializable {
     sb.append("\nmmsMsgId:");
     sb.append(mmsMsgId);
     
-    sb.append("\nExpectMore:");
-    sb.append(expectMore);
+    if (msgCount >= 0) {
+      sb.append("\nMsgIndex:");
+      sb.append(msgIndex);
+      sb.append(" of ");
+      sb.append(msgCount);
+    }
     
     sb.append("\nSend time:");
     sb.append(sentTime);

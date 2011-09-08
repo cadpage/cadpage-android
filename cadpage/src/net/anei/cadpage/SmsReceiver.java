@@ -14,13 +14,8 @@ public class SmsReceiver extends BroadcastReceiver {
   private static final String ACTION_SMS_RECEIVED = "android.provider.Telephony.SMS_RECEIVED";
   
   private static final String EXTRA_TIMEOUT = "net.anei.cadpage.SmsReceive.MSG_TIMEOUT";
+  private static final String EXTRA_TIMEOUT_ID = "net.anei.cadapge.SmsReceive.TIMEOUT_ID";
   private static final String EXTRA_REPEAT_LAST = "net.anei.cadpage.SmsReceive.REPEAT_LAST";
-  
-  // Stored text message in the process of being reconstructed
-  // Technically, this should be persisted in case application is shut down
-  // between the receipt of multiple messages, but the time interval that we need
-  // to keep it is pretty small, so we'll just take our chances
-  private static SmsMmsMessage bufferMsg = null;
 
   @Override
   public synchronized void onReceive(Context context, Intent intent) {
@@ -28,114 +23,64 @@ public class SmsReceiver extends BroadcastReceiver {
     
     // If initialization failure in progress, shut down without doing anything
     if (TopExceptionHandler.isInitFailure()) return;
+    
+    // If one of our message accumulator timeouts has tripped, report it
+    SmsMsgAccumulator accumulator = SmsMsgAccumulator.instance();
+    if (intent.getBooleanExtra(EXTRA_TIMEOUT, false)) {
+      long id = intent.getLongExtra(EXTRA_TIMEOUT_ID, 0);
+      if (id != 0) accumulator.timeout(id);
+    }
+    
+    // Otherwise pick up and process a new message
+    else {
 
-    SmsMmsMessage message = null;
+      // If repeat_last flag is set, this is a fake intent instructing us
+      // to reprocess the most recently received message (that passed the 
+      // sender address filter
 
-    boolean timeout = intent.getBooleanExtra(EXTRA_TIMEOUT, false);
-    boolean repeat = intent.getBooleanExtra(EXTRA_REPEAT_LAST, false);
-    
-    // If buffered message has timed out, get ready to process it
-    // We don't cancel the alarm when the buffered message does get processed
-    // so when the alarm goes off, we need to check if it is still active.
-    if (timeout) {
-      message = bufferMsg;
-      bufferMsg = null;
-      if (message == null) return;
-    }
-    // If repeat_last flag is set, this is a fake intent instructing us
-    // to reprocess the most recently received message (that passed the 
-    // sender address filter
-    else if (repeat) {
-      message = SmsMsgLogBuffer.getInstance().getLastMessage();
-      if (message != null) message.setRead(false);
-    }
-     
-    // Otherwise convert Intent into an SMS/MSS message
-    else if (ACTION_SMS_RECEIVED.equals(intent.getAction())) {
-      SmsMessage[] messages = SmsPopupUtils.getMessagesFromIntent(intent);
-      if (messages == null) return;
-      message = new SmsMmsMessage( messages,System.currentTimeMillis());
-    }
-    
-    if (message == null) return;
-    
-    // Class 0 SMS, let the system handle this
-    if (message.getMessageType() == SmsMmsMessage.MESSAGE_TYPE_SMS &&
-        message.getMessageClass() == MessageClass.CLASS_0) return;
-    
-    // If we are processing a timed out buffered message, the message has
-    // already been checked and logged and we can skip all kinds of stuff
-    if (! timeout) {
+      SmsMmsMessage message = null;
+      if (intent.getBooleanExtra(EXTRA_REPEAT_LAST, false)) {
+        message = SmsMsgLogBuffer.getInstance().getLastMessage();
+        if (message != null) message.setRead(false);
+      }
+       
+      // Otherwise convert Intent into an SMS/MSS message
+      else if (ACTION_SMS_RECEIVED.equals(intent.getAction())) {
+        SmsMessage[] messages = SmsPopupUtils.getMessagesFromIntent(intent);
+        if (messages == null) return;
+        message = new SmsMmsMessage( messages,System.currentTimeMillis());
         
-      // Collect the important preference settings
-      boolean overrideFilter = ManagePreferences.overrideFilter();
-      String sFilter = (overrideFilter ? ManagePreferences.filter() : "");
-      int msgTimeout = ManagePreferences.partMsgTimeout();
-  
-      // If we are reconstructing a multiple text page, The only requirement is
-      // that this message has to come from the same sender
-      // If it passes that, merge the two together.
-      if (bufferMsg != null) {
-        if (!bufferMsg.getFromAddress().equals(message.getAddress())) return;
-      }
-      
-      // Otherwise if the parser filter has been overridden, see if this passes the
-      // user sender filter
-      else {
-        if (overrideFilter) {
-          String sAddress = message.getAddress();
-          if (! SmsPopupUtils.matchFilter(sAddress, sFilter)) return;
+        // Save message for future test or error reporting use
+        // If message is rejected as duplicate, don't do anything except call
+        // abortbroadcast to keep it from going to anyone else
+        if (! SmsMsgLogBuffer.getInstance().add(message)) {
+          if (! ManagePreferences.smspassthru()) abortBroadcast();
+          return;
         }
-        if (Log.DEBUG) Log.v("SMSReceiver/CadPageCall: Filter Matches checking call Location -" + sFilter);
       }
       
-      // Save message for future test or error reporting use
-      // If message is rejected as duplicate, and it wasn't a requested repeat
-      // don't do anything except call
-      // abortbroadcast to keep it from going to anyone else
-      if (! SmsMsgLogBuffer.getInstance().add(message) && !repeat) {
-        if (! ManagePreferences.smspassthru()) abortBroadcast();
-        return;
-      }
+      if (message == null) return;
       
-      // If we have a buffered message, merge this one into it
-      if (bufferMsg != null) {
-        bufferMsg.merge(message);
-        message = bufferMsg;
-        bufferMsg = null;
-      }
+      // Class 0 SMS, let the system handle this
+      if (message.getMessageType() == SmsMmsMessage.MESSAGE_TYPE_SMS &&
+          message.getMessageClass() == MessageClass.CLASS_0) return;
       
-      // See if the current parser will handle this message
-      boolean genAlert = ManagePreferences.genAlert();
-      boolean isPage = 
-          ManageParsers.getInstance().getParser(null).isPageMsg(message, overrideFilter, genAlert);
-      
-      // If it didn't, see if we can accept this as a general page
-      // which only happens if the general alert config settings is set and there
-      // is an active user filter
-      if (! isPage && genAlert && sFilter.trim().length()>1) {
-        isPage = ManageParsers.getInstance().getAlertParser().isPageMsg(message, overrideFilter, genAlert);
-      }
-      
-      // If not a cad page, we're done with this
-      if (! isPage) return;
-    	
-      // If it is, and we are not configured to do otherwise, 
-      // abort broadcast to any other receivers
-      if (! ManagePreferences.smspassthru()) abortBroadcast();
-      
-      // If parser expect a message continuation, save this one and return
-      if (msgTimeout > 0 && (message.isExpectMore() || message.msgCount()<ManagePreferences.splitMinMsg())) {
-        if (bufferMsg == null) {
-          bufferMsg = message;
-          setReminder(context, msgTimeout);
-        }
-        return;
-      }
+      // Pass message to accumulator
+      // If the accumulator accepted it, and we aren't passing messages to the
+      // default messaging app, abort broadcast to any further receivers
+      boolean grabbed = accumulator.addMsg(message);
+      if (grabbed && !ManagePreferences.smspassthru()) abortBroadcast();
     }
-
-    // Finish up CAD page processing
-    processCadPage(context, message);
+      
+    // Set or clear any timeouts requested by msg accumulator
+    long id = accumulator.startTimeoutId();
+    if (id > 0) setReminder(context, id, false);
+    id = accumulator.cancelTimeoutId();
+    if (id > 0) setReminder(context, id, true);
+    
+    // See if we have a live message to process, and if so, do it
+    SmsMmsMessage msg = accumulator.nextMsg();
+    if (msg != null) processCadPage(context, msg);
   }
 
 
@@ -144,19 +89,25 @@ public class SmsReceiver extends BroadcastReceiver {
    * expected other parts of the page never show up
    * @param msgTimeout timeout interval in seconds
    */
-  private void setReminder(Context context, int msgTimeout) {
+  private void setReminder(Context context, long id, boolean cancel) {
     
-    AlarmManager myAM = (AlarmManager) context.getSystemService(Context.ALARM_SERVICE);
 
     Intent intent = new Intent("android.provider.Telephony.SMS_RECEIVED");
     intent.setClass(context, SmsReceiver.class);
     intent.putExtra(EXTRA_TIMEOUT, true);
+    intent.putExtra(EXTRA_TIMEOUT_ID, id);
 
-    PendingIntent reminderPendingIntent =
-      PendingIntent.getBroadcast(context, 0, intent, PendingIntent.FLAG_CANCEL_CURRENT);
-
-    long triggerTime = System.currentTimeMillis() + (msgTimeout * 1000);
-    myAM.set(AlarmManager.RTC_WAKEUP, triggerTime, reminderPendingIntent);
+    int flags = (cancel ? PendingIntent.FLAG_NO_CREATE : PendingIntent.FLAG_CANCEL_CURRENT);
+    PendingIntent pendIntent =
+      PendingIntent.getBroadcast(context, 0, intent, flags);
+    if (cancel) {
+      if (pendIntent != null) pendIntent.cancel();
+    } else {
+      AlarmManager myAM = (AlarmManager) context.getSystemService(Context.ALARM_SERVICE);
+      int msgTimeout = ManagePreferences.partMsgTimeout();
+      long triggerTime = System.currentTimeMillis() + (msgTimeout * 1000);
+      myAM.set(AlarmManager.RTC_WAKEUP, triggerTime, pendIntent);
+    }
   }
 
 

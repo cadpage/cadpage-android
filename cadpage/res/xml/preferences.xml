@@ -408,6 +408,14 @@
           android:defaultValue="@string/pref_split_min_msg_default"/>
           
       <CheckBoxPreference
+          android:key="@string/pref_rev_msg_order_key"
+          android:title="@string/pref_rev_msg_order_title"
+          android:summaryOn="@string/pref_rev_msg_order_summaryon"
+          android:summaryOff="@string/pref_rev_msg_order_summaryoff"
+          android:defaultValue="@string/pref_rev_msg_order_default" 
+          android:dependency="@string/pref_gen_alert_key"/>
+          
+      <CheckBoxPreference
           android:key="@string/pref_split_blank_ins_key"
           android:title="@string/pref_split_blank_ins_title"
           android:summaryOn="@string/pref_split_blank_ins_summaryon"

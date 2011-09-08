@@ -231,6 +231,10 @@ public class ManagePreferences {
     return prefs.getBoolean(R.string.pref_split_blank_ins_key);
   }
   
+  public static boolean revMsgOrder() {
+    return prefs.getBoolean(R.string.pref_rev_msg_order_key);
+  }
+  
   public static boolean suppressDupMsg() {
     return prefs.getBoolean(R.string.pref_suppress_dup_msg_key);
   }
@@ -524,6 +528,7 @@ public class ManagePreferences {
         R.string.pref_msgtimeout_key,
         R.string.pref_split_min_msg_key,
         R.string.pref_split_blank_ins_key,
+        R.string.pref_rev_msg_order_key,
         R.string.pref_suppress_dup_msg_key,
         R.string.pref_publish_pages_key,
         
