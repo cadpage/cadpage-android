@@ -521,9 +521,19 @@ public class MDSaintMarysCountyParserTest extends BaseParserTest {
          "CITY:GREAT MILLS",
          "UNIT:ST38 ST39 CO79 ALS",
          "INFO:VOMMITING BLOOD");
-}
-  
+
+     doTest("T57",
+        "((62956) CAD ) 21:27:30*Unconscious Person/Fainting*45345 BAREFOOT DR*GARRISON DR*BAREFOOT ACRES*ST38 A387 ALS*73 year old, Male, Unconscious, Breathing.",
+        "CALL:Unconscious Person/Fainting",
+        "PLACE:BAREFOOT ACRES",
+        "ADDR:45345 BAREFOOT DR",
+        "X:GARRISON DR",
+        "CITY:CALIFORNIA",
+        "UNIT:ST38 A387 ALS",
+        "INFO:73 year old, Male, Unconscious, Breathing.");
+  }
+
   public static void main(String[] args) {
-    new MDSaintMarysCountyParserTest().generateTests("T56", "CALL PLACE ADDR APT X CITY UNIT INFO");
+    new MDSaintMarysCountyParserTest().generateTests("T57", "CALL PLACE ADDR APT X CITY UNIT INFO");
   }
 }
