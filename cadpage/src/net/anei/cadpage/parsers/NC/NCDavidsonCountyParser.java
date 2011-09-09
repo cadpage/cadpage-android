@@ -33,6 +33,9 @@ Contact: Bradley Nations <bradley.nations@hollygrovefire.org>
 Contact: Michael Beane <firefighter7539.mb@gmail.com>
 TREE DOWN/FIRE;LICK CREEK CHURCH RD/NC HWY 8;2011016908;big tree plum across the road [08/20/11 08:28:05 JEVERHART] 2048 en route [08/20/11 08:33:44 JEVERH
 
+Contact: jeff warner <fire73ems@gmail.com>
+BCAD:P10-CHEST PAINS-CHARLIE;1125 WEAVER RD;2011018228;FROG POND DR;MEADOWVIEW RD;[Medical Priority Info] PROBLEM: CHEST PAIN 76YOM # PATS: 1 AGE: 76 SEX: M
+
 ***/
 
 public class NCDavidsonCountyParser extends DispatchOSSIParser {
