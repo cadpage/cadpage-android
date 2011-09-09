@@ -87,10 +87,17 @@ public class NCCumberlandCountyParserTest extends BaseParserTest {
         "ADDR:2881 STRICKLAND BRIDGE RD",
         "X:CENTURY CIR");
 
+    doTest("T2",
+        "(Station 13) 08/2011 18:00:08;RESIDENTIAL ALARM;0431,2131,ST13,ST19;5681 CAMDEN RD;STATE ST",
+        "CALL:RESIDENTIAL ALARM",
+        "SRC:0431,2131,ST13,ST19",
+        "ADDR:5681 CAMDEN RD",
+        "X:STATE ST");
+
   }
   
 
   public static void main(String[] args) {
-    new NCCumberlandCountyParserTest().generateTests("T1");
+    new NCCumberlandCountyParserTest().generateTests("T2");
   }
 }
