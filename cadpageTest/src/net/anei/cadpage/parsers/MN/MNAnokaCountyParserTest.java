@@ -88,10 +88,17 @@ public class MNAnokaCountyParserTest extends BaseParserTest {
         "ADDR:3254 90 LN NE",
         "INFO:LIFT ASSIST ONLY...LARGE MALE (300+)",
         "ID:11007548");
+
+    doTest("T10",
+        "CAD MSG: *D A1   51       844 140 LN NW  OVEN ON FIRE.. FLAME IS OUT AND STILL LOTS OF SMOKE SMOKE.. EVERYONE IS OUT OF THE HOMEINC:11017847",
+        "SRC:A1",
+        "CALL:51 - Fire (Building)",
+        "ADDR:844 140 LN NW",
+        "INFO:OVEN ON FIRE.. FLAME IS OUT AND STILL LOTS OF SMOKE SMOKE.. EVERYONE IS OUT OF THE HOMEINC:11017847");
         
   }
   
   public static void main(String[] args) {
-    new MNAnokaCountyParserTest().generateTests("T9", "SRC CALL ADDR PLACE INFO ID");
+    new MNAnokaCountyParserTest().generateTests("T10", "SRC CALL ADDR PLACE INFO ID");
   }
 }
