@@ -22,6 +22,7 @@ CAD:DIST: 174.69 FT (S)UPTON TYSON (BELRIDGR DR) (N)C10;05/20/2011 08:34:01;CLAM
 Contact: Brandon Norris <lawranger197@gmail.com>
 Sender: messaging@iamresponding.com
 (Station 13) 2011 07:30:53;ALERT WITH ABNORMAL BREATHING;ST13;2881 STRICKLAND BRIDGE RD;CENTURY CIR
+(Station 13) 08/2011 18:00:08;RESIDENTIAL ALARM;0431,2131,ST13,ST19;5681 CAMDEN RD;STATE ST
 
 */
 
@@ -68,7 +69,7 @@ public class NCCumberlandCountyParser extends FieldProgramParser {
   
   private class DateTimeField extends SkipField {
     public DateTimeField() {
-      setPattern(Pattern.compile("(?:\\d\\d/\\d\\d/)?\\d{4} \\d\\d:\\d\\d:\\d\\d"), true);
+      setPattern(Pattern.compile("(?:\\d\\d/){0,2}?\\d{4} \\d\\d:\\d\\d:\\d\\d"), true);
     }
   }
   
