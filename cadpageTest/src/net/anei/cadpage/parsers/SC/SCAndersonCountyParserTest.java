@@ -65,7 +65,17 @@ public class SCAndersonCountyParserTest extends BaseParserTest {
         "ADDR:7900 HIGHWAY 76",
         "NAME:PENDLETON OFFICER SUMMERS 934-3443",
         "ID:2011-0000004494");
-    
+
+    doTest("T7",
+        "AND 911:17A01 >FALLS-BLS PRI2 141 ASHTON LN Apt: 141 Bldg ANDERSON LOUIE SHEILDS 6264049863 Map: Grids:0,0 Cad: 2011-0000202072",
+        "CODE:17A01",
+        "CALL:FALLS-BLS PRI2",
+        "ADDR:141 ASHTON LN",
+        "APT:141 Bldg",
+        "CITY:ANDERSON",
+        "NAME:LOUIE SHEILDS",
+        "ID:2011-0000202072");
+   
   }
   
   public static void main(String[] args) {

@@ -190,11 +190,20 @@ public class DENewCastleCountyParserTest extends BaseParserTest {
         "X:btwn MAIN ST ~ HIGH ST",
         "CITY:ODESSA",
         "INFO:??DSC:water");
+
+    doTest("T23",
+        "(13CAD) [eFB] F00 18:39 1 - T:M24B1 (EMERGENCY MATERNITY) L:16 DEL HAVEN CT ,LU btwn GOVERNOR PRINTZ BL ~ WALNUT ST *HOLLY OAK - DESC:??DSC:MATERNITY 25YOF ~~~ ?! PAT:1 SEX:Female AGE:25Years CON:Y BRE:Y",
+        "SRC:13CAD",
+        "CALL:M24B1 (EMERGENCY MATERNITY)",
+        "ADDR:16 DEL HAVEN CT",
+        "CITY:HOLLY OAK",
+        "X:btwn GOVERNOR PRINTZ BL ~ WALNUT ST",
+        "INFO:??DSC:MATERNITY 25YOF ~~~ ?! PAT:1 SEX:Female AGE:25Years CON:Y BRE:Y");
   
   }
   
   public static void main(String[] args) {
-    new DENewCastleCountyParserTest().generateTests("T22");
+    new DENewCastleCountyParserTest().generateTests("T24");
   }
 }
     		

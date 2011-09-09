@@ -14,13 +14,6 @@ public class NCCarteretCountyParserTest extends BaseParserTest {
   @Test
   public void testMainParser() {
 
-    doTest("T12",
-        "CEC:11-082100 08:48:00 SICK PERSON WEST WOOD SQUARE APTS 403 BROOK ST E32 MOREHEAD CITY",
-        "ID:11-082100",
-        "CALL:SICK PERSON WEST WOOD SQUARE APTS",
-        "ADDR:403 BROOK ST E32",
-        "CITY:MOREHEAD CITY");
-
     doTest("T1",
         "CEC:303 COLLEGE CIR MOREHEAD CITY FDL 52C03-G 11-090057 12:36:58 ALARM FIRE",
         "ADDR:303 COLLEGE CIR",
@@ -259,7 +252,14 @@ public class NCCarteretCountyParserTest extends BaseParserTest {
         "CODE:01D01",
         "ID:11-109565",
         "CALL:FALLS");
-    
+
+    doTest("T2",
+        "CEC:129 HUNTER BROWN DR CAPE CARTERET 11-113600 16:24:22 STROKE",
+        "ADDR:129 HUNTER BROWN DR",
+        "CITY:CAPE CARTERET",
+        "ID:11-113600",
+        "CALL:STROKE");
+   
   }
   
   public static void main(String[] args) {
