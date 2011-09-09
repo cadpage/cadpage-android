@@ -104,10 +104,18 @@ public class NCDavidsonCountyParserTest extends BaseParserTest {
         "ADDR:LICK CREEK CHURCH RD & NC HWY 8",
         "ID:2011016908",
         "INFO:big tree plum across the road / 2048 en route");
+
+    doTest("T26",
+        "BCAD:P10-CHEST PAINS-CHARLIE;1125 WEAVER RD;2011018228;FROG POND DR;MEADOWVIEW RD;[Medical Priority Info] PROBLEM: CHEST PAIN 76YOM # PATS: 1 AGE: 76 SEX: M",
+        "CALL:BCAD:P10-CHEST PAINS-CHARLIE",
+        "ADDR:1125 WEAVER RD",
+        "ID:2011018228",
+        "X:FROG POND DR & MEADOWVIEW RD",
+        "INFO:CHEST PAIN 76YOM # PATS: 1 AGE: 76 SEX: M");
  }
   
   public static void main(String[] args) {
-    new NCDavidsonCountyParserTest().generateTests("T25");
+    new NCDavidsonCountyParserTest().generateTests("T26");
   }
 }
 
