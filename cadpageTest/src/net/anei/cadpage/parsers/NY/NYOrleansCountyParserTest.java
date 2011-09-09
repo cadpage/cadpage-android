@@ -34,7 +34,7 @@ public class NYOrleansCountyParserTest extends BaseParserTest {
         "FALLS; 1794 OAK ORCHARD RD TCR; 49 yom fell out of tub difficulty breathing   17d4  PRI 1",
         "CALL:FALLS",
         "ADDR:1794 OAK ORCHARD RD",
-        "CITY:ALBION",
+        "CITY:CARLTON",
         "INFO:49 yom fell out of tub difficulty breathing PRI 1",
         "CODE:17d4");
     
@@ -66,7 +66,7 @@ public class NYOrleansCountyParserTest extends BaseParserTest {
         "SICK PERSON; 1579 E KENT RD TCR; 75 yom cathater removed pain PRI 3;",
         "CALL:SICK PERSON",
         "ADDR:1579 E KENT RD",
-        "CITY:ALBION",
+        "CITY:CARLTON",
         "INFO:75 yom cathater removed pain PRI 3");
 
     doTest("T8",
@@ -98,9 +98,16 @@ public class NYOrleansCountyParserTest extends BaseParserTest {
         "ADDR:28 MAIN ST",
         "CITY:MIDDLEPORT",
         "INFO:MEDINA ALS 83 YOF ABDOMINAL PAIN");
+
+    doTest("T12",
+        "(FrmFireCntrl3) ACCIDENT VEH PDO; 1355 YATES CARLTON TL RD TCR; ATV ROLLOVER, NO PT FOUND COVA/CAFD",
+        "CALL:ACCIDENT VEH PDO",
+        "ADDR:1355 YATES CARLTON TL RD",
+        "CITY:CARLTON",
+        "INFO:ATV ROLLOVER, NO PT FOUND COVA/CAFD");
  }
   
   public static void main(String[] args) {
-    new NYOrleansCountyParserTest().generateTests("T11", "CALL ADDR CITY INFO CODE");
+    new NYOrleansCountyParserTest().generateTests("T12", "CALL ADDR CITY INFO CODE");
   }
 }

@@ -106,9 +106,17 @@ public class NJSussexCountyParserTest extends BaseParserTest {
         "ADDR:71 WOLFS CORNER ROAD",
         "CITY:GREEN TWP",
         "INFO:MUNICIPAL BLDG CALLED- HAS PASSERBY ADV OF TRANSFORMER FIRE hasEML = false;");
-  }
+
+    doTest("T7",
+        "kbrown@andpd (I-2011-000155) PUMP @ 6 RAMSEY COURT  , FRELINGHUYSEN - WARREN COUNTY COMMUNICATIONS REQUESTING A PUMP OUT FOR THE FOOT OF WATER IN BASEMENT.",
+        "ID:I-2011-000155",
+        "CALL:PUMP",
+        "ADDR:6 RAMSEY COURT",
+        "CITY:FRELINGHUYSEN",
+        "INFO:WARREN COUNTY COMMUNICATIONS REQUESTING A PUMP OUT FOR THE FOOT OF WATER IN BASEMENT.");
+ }
   
   public static void main(String[] args) {
-    new NJSussexCountyParserTest().generateTests("T1", "ID CALL ADDR CITY INFO");
+    new NJSussexCountyParserTest().generateTests("T7", "ID CALL ADDR CITY INFO");
   }
 }
