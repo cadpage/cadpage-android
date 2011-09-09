@@ -95,6 +95,7 @@ System: Pro QA Medical & Pro QA Fire
 ((10967) CAD ) 06:28:12*Sick Person*APT 843 LOCUST RIDGE*44790 LOCUST RIDGE CT UNIT843*SURREY WY*WILDEWOOD*ST38*86 year old, Female, Conscious, Breathing
 ((30978) CAD ) 02:32:58*Personal Injury Accident*38805 FOLEY MATTINGLY RD*DEAD END*HELEN*CO2 SQ2 CO29 A299 CO19 A196*17 YOF C/A/B CAR BACKED INTO HER POS
 ((41568) CAD ) 11:45:22*Breathing Difficulties*22085 ST LEONARDS CIR*ST GEORGES DR*GREAT MILLS*ST38 ST39 CO79 ALS*VOMMITING BLOOD*
+((62956) CAD ) 21:27:30*Unconscious Person/Fainting*45345 BAREFOOT DR*GARRISON DR*BAREFOOT ACRES*ST38 A387 ALS*73 year old, Male, Unconscious, Breathing.
 
  */
 
@@ -112,6 +113,7 @@ public class MDSaintMarysCountyParser extends SmartAddressParser {
       "LEXINGTON PARK",
       "ABELL",
       "AVENUE",
+      "BAREFOOT ACRES",
       "BEACHVILLE-ST INIGOES",
       "BUSHWOOD",
       "CALLAWAY",
@@ -159,6 +161,7 @@ public class MDSaintMarysCountyParser extends SmartAddressParser {
   private static final Properties CITY_CHANGES = buildCodeTable(new String[]{
       "CHAR HALL", "CHARLOTTE HALL",
       
+      "BAREFOOT ACRES", "CALIFORNIA",
       "ESPERANZA FARMS","CALIFORNIA",
       "FIRST COLONY",   "CALIFORNIA",
       "SAN SOUCI",      "CALIFORNIA",
