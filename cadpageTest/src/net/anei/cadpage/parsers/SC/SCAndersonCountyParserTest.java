@@ -37,7 +37,8 @@ public class SCAndersonCountyParserTest extends BaseParserTest {
         "CODE:32",
         "CALL:UNKNOWN PROBLEM",
         "ADDR:1216 ROUND ABOUT TRL",
-        "NAME:JOSH 201-4436",
+        "NAME:JOSH",
+        "PHONE:201-4436",
         "ID:2011-0000004370");
 
     doTest("T4",
@@ -63,7 +64,8 @@ public class SCAndersonCountyParserTest extends BaseParserTest {
         "CODE:13A1",
         "CALL:DIABETIC-ALS PRI2",
         "ADDR:7900 HIGHWAY 76",
-        "NAME:PENDLETON OFFICER SUMMERS 934-3443",
+        "NAME:PENDLETON OFFICER SUMMERS",
+        "PHONE:934-3443",
         "ID:2011-0000004494");
 
     doTest("T7",
@@ -74,6 +76,7 @@ public class SCAndersonCountyParserTest extends BaseParserTest {
         "APT:141 Bldg",
         "CITY:ANDERSON",
         "NAME:LOUIE SHEILDS",
+        "PHONE:6264049863",
         "ID:2011-0000202072");
    
   }
