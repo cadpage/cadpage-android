@@ -2996,8 +2996,11 @@ MSG:BS18-1    Dispatched: 02:01:53 Enroute: 02:04:23 On Scene: 02:05:26 AOR: 02:
 
 FRM:LifecomCellPaging@amr.net
 MSG:E18-1 11020566     Fire Alarm - Co  5045 S State Route 99 E F E ARCH RD/E SUNNY RD 830A
-
 **********************************************************
+Unknown
+Contact: Shane Jenkins <sjenkins@lafayettetwpfire.com>
+Sender: rc.223@c-msg.net
+(lCAD) [!] EMS//6387 CARSTEN RD MEDINA BETWEEN CHATHAM RD / COON CLUB RD//FEMALE FALL VIC TIM NEEDS LIFT ASSIST NO INJURY RECENTLY OUT OF THE HOSPITAL
 **********************************************************
 **********************************************************
 **********************************************************

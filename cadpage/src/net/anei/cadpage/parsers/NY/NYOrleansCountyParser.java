@@ -34,6 +34,7 @@ Contact: "jeffelsenheimer@yahoo.com" <jeffelsenheimer@yahoo.com>
 (FrmFireCntrl3) ALS ONLY RESPONSE; 4540 LINCOLN DR TGP; 58 yof trouble  breathing, decreased level of consciousness 6-d-1
 (FrmFireCntrl 2) HEART PROBLEMS/AICD; 12469 LAKESHORE FL44 RD TYA; 80 yof high BP & pulse 19-c-6
 (FrmFireCntrl1) ALS ONLY RESPONSE; 28 MAIN ST MDL; MEDINA ALS 83 YOF ABDOMINAL PAIN
+(FrmFireCntrl3) ACCIDENT VEH PDO; 1355 YATES CARLTON TL RD TCR; ATV ROLLOVER, NO PT FOUND COVA/CAFD
 
 */
 
@@ -44,7 +45,7 @@ public class NYOrleansCountyParser extends SmsMsgParser {
       "TAL", "ALBION", 
       "BAR", "ALBION", 
       "TGN", "ALBION", 
-      "TCR", "ALBION",
+      "TCR", "CARLTON",
       "VLD", "LYNDONVILLE", 
       "YAT", "LYNDONVILLE",
       "VMD", "MEDINA", 
@@ -80,7 +81,7 @@ public class NYOrleansCountyParser extends SmsMsgParser {
     String fld = flds[1].trim();
     int pt = fld.lastIndexOf(' ');
     if (pt < 0) return false;
-    data.strAddress = fld.substring(0, pt).trim().replace("/", "&");
+    parseAddress(fld.substring(0,pt), data);
     data.strCity = CITY_CODES.getProperty(fld.substring(pt+1));
     if (data.strCity == null) return false;
     
@@ -88,8 +89,7 @@ public class NYOrleansCountyParser extends SmsMsgParser {
     for (int ndx = 2; ndx < flds.length; ndx++) {
       fld = flds[ndx].trim();
       if (fld.length() == 0) continue;
-      if (data.strSupp.length() > 0) data.strSupp += " / ";
-      data.strSupp += fld;
+      data.strSupp = append(data.strSupp, " / ", fld);
     }
     
     // There might be a type code buried in there, see if we can find it
