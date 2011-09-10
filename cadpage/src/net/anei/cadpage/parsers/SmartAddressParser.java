@@ -521,7 +521,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
         
         if (sAddr >= tokens.length) return false;
         if (isType(sAddr, ID_CROSS_STREET)) return false;
-        if (isHouseNumber(sAddr)) {
+        if (isHouseNumber(sAddr) && !isType(sAddr+1, ID_NOT_ADDRESS | ID_CONNECTOR)) {
           if (sAddr > 0 && isType(sAddr-1, ID_ROUTE_PFX) && 
               !tokens[sAddr-1].equalsIgnoreCase("CO")) return false;
           if (isType(sAddr+1, ID_NUMBERED_ROAD_SFX) && isType(sAddr+1, ID_ROUTE_PFX)) {
@@ -743,7 +743,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
           break;
         }
         
-        if (isType(ndx, ID_ROAD_SFX) && !isType(sAddr, ID_NOT_ADDRESS)) {
+        if (isType(ndx, ID_ROAD_SFX) && !isType(sAddr, ID_NOT_ADDRESS | ID_CONNECTOR)) {
           boolean startHwy = 
               (isType(ndx, ID_ROUTE_PFX) && isType(ndx+1, ID_NUMBER | ID_ALPHA_ROUTE)) ||
               (isType(ndx, ID_ROUTE_PFX_PFX) && isType(ndx+1, ID_ROUTE_PFX_EXT) && isType(ndx+2, ID_NUMBER)) ||
@@ -759,7 +759,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
       }
       
       // See if this is a two part route name
-      if (sAddr > 0 && !isType(sAddr-1, ID_NOT_ADDRESS) && 
+      if (sAddr > 0 && !isType(sAddr-1, ID_NOT_ADDRESS | ID_CONNECTOR) && 
           (isType(sAddr, ID_ROUTE_PFX_EXT) && isType(sAddr-1, ID_ROUTE_PFX_PFX) ||
            isType(sAddr, ID_AMBIG_ROAD_SFX))) {
         sAddr--;
@@ -933,7 +933,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
       int ndx = sAddr - j;
       if (ndx < start) break;
       if (tokens[ndx].equals("/")) break;
-      if (isType(ndx, ID_NOT_ADDRESS)) break;
+      if (isType(ndx, ID_NOT_ADDRESS | ID_CONNECTOR)) break;
       if (isType(ndx, ID_DIRECTION)) return sAddr-j; 
     }
     
@@ -1174,7 +1174,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     int end;
     do {
       
-      if (isType(start, ID_NOT_ADDRESS)) return -1;
+      if (isType(start, ID_NOT_ADDRESS | ID_CONNECTOR)) return -1;
       
       // A stand alone road token can terminate the road search, but it must
       // be the first thing in the search sequence
@@ -1323,7 +1323,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
   private boolean isRoadToken(int ndx) {
     
     // If illegal char, answer is no
-    if (isType(ndx, ID_NOT_ADDRESS)) return false;
+    if (isType(ndx, ID_NOT_ADDRESS | ID_CONNECTOR)) return false;
     
     // Get the string token
     if (ndx >= tokenType.length) return false; 
