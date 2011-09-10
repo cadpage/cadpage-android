@@ -18,7 +18,8 @@ public class NCDurhamCountyParserTest extends BaseParserTest {
         "CAD:TRANSPORTATION ACCIDENT;2399 S ALSTON AVE/RIDDLE RD;{M8} CODE 2 RESPONSE [06/30/11 15:48:22 GRIFFINT] {M8} SEND ADDTL MEDIC UNIT [06/30/11 15:46:11 GRIFFINT] [",
         "CALL:TRANSPORTATION ACCIDENT",
         "ADDR:2399 S ALSTON AVE & RIDDLE RD",
-        "INFO:{M8} CODE 2 RESPONSE / {M8} SEND ADDTL MEDIC UNIT");
+        "UNIT:M8",
+        "INFO:CODE 2 RESPONSE / {M8} SEND ADDTL MEDIC UNIT");
 
     doTest("T2",
         "CAD:BACK PAIN;5499 SUTTERIDGE CT/LYON FARM DR;[Medical Priority Info] PROBLEM: back pain # PATS: 1 AGE: 50 Years SEX: Male CONSCIOUS: Yes BREATHING: Yes [07/05/11",
@@ -80,9 +81,16 @@ public class NCDurhamCountyParserTest extends BaseParserTest {
         "CALL:DIABETIC PROBLEM",
         "ADDR:5219 PAGE RD",
         "X:CREEKSTONE DR & TERRACE PINE DR");
+
+    doTest("T12",
+        "(CAD:) ASST PD SEIZURE;1125 W NC 54 HWY;[LAW] {A324} CON BREATHING AND ALERT [09/10/11 01:52:07 MITCHELLM] Event spawned from INTOXICATED DRIVER. [09/10/2011 01:51",
+        "CALL:ASST PD SEIZURE",
+        "ADDR:1125 W NC 54 HWY",
+        "UNIT:A324",
+        "INFO:CON BREATHING AND ALERT / Event spawned from INTOXICATED DRIVER.");
   }
   
   public static void main(String[] args) {
-    new NCDurhamCountyParserTest().generateTests("T1");
+    new NCDurhamCountyParserTest().generateTests("T12");
   }
 }
