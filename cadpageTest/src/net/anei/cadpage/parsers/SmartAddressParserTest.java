@@ -35,14 +35,23 @@ public class SmartAddressParserTest extends BaseParserTest {
   
   @Test
   public void testProblem() {
-    doTest(CALL, FLAG_AT_BOTH, "BIG HOME @N JEFFERSON ST AWAY",
-        "CALL:BIG HOME",
-        "ADDR:N JEFFERSON ST");
+    doTest(SKIP, "CAN WE FIND HWY 20 AND WEST HILLS RD KENSBURG BLACK",
+        "ADDR:HWY 20 AND WEST HILLS RD",
+        "CITY:KENSBURG");
   }
 
   
   @Test
   public void testProblems() {
+    
+    doTest(CALL, FLAG_START_FLD_REQ | FLAG_ANCHOR_END, 
+        "Please Operate 33.88/  Lift Assist 2 N  POTVIN AVE",
+        "CALL:Please Operate 3388/Lift Assist",
+        "ADDR:2 N POTVIN AVE");
+
+    doTest(CALL, FLAG_AT_BOTH, "BIG HOME @N JEFFERSON ST AWAY",
+        "CALL:BIG HOME",
+        "ADDR:N JEFFERSON ST");
     
     doTest(ADDR, "22085 ST LEONARDS CIR EXTRA",
         "ADDR:22085 ST LEONARDS CIR");
