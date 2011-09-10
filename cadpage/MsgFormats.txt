@@ -3015,7 +3015,6 @@ Sender: rc.223@c-msg.net
 **********************************************************
 **********************************************************
 **********************************************************
-**********************************************************
 ************  READY TO ROLL ******************************
 **********************************************************
 **********************************************************
@@ -3059,3 +3058,20 @@ Station codes
 Trumbull Center = TC
 Long Hill = LH
 Nichols = N
+**********************************************************
+North Branford & Northford, CT (in New Haven County)
+Contact: Jeff Green <greenjeffreya@gmail.com>
+Sender: paging@mail.nbpolicect.org.
+1100008173 MEDICAL MEDA 00167  BRANFORD RD HUBBARD RD/TWIN LAKE RD  MED4 503 110910 11:50
+1100008148 MEDICAL MEDD 00009  SALEM ST CLINTONVILLE RD/VILLAGE ST  MED4 R2 110909 17:55
+CREW NEEDED FOR AMB 44 LINE COVERAGE WALLINGFORD***CALL COMMS***
+1100008142 MUTUAL AID 00392  HOPE HILL RD WALLINGFORD    MED4 110909 15:38
+1100008130 AUTOMATIC FIRE ALARM 00051  CIRO RD FOXON RD/DEAD END  E1 ET11 ET22 T1 R11 515 110909 10:07
+1100008128 MEDICAL MEDB 00049  CAPUTO RD FOXON RD ROUTE 80/MILL RD  R1 MED4 515 110909 08:38
+ON MONDAY CLEAR LAKE RD WILL BE CLOSED FOR A CRANE TO REMOVE TREE FROM  HOUSE\n\nFURTHER DETAILS WILL COME ON MONDAY
+1100008057 MVA W/INJURIES  N MAIN/RT68 WLFD    A44 110906 17:05
+1100007980 BRUSH FIRE TWIN LAKES RD/ LAKE RD   BR1 ET11 502 110904 12:22
+
+Wallinford Mutual aid (WLFD)
+1100008057 MVA W/INJURIES N MAIN/RT68 WLFD A44 110906 17:05
+1100007014 MUTUAL AID 00909  BEAVER HEAD RD , GUILFORD    MED4 110811 01:16

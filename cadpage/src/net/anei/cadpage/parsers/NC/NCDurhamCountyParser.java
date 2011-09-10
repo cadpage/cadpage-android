@@ -22,6 +22,10 @@ CAD:TRANSPORTATION ACCIDENT;6405 FAYETTEVILLE RD;THE CALLER WORKS INSIDE AND WAS
 CAD:FALL;1101 EXCHANGE PL;[Medical Priority Info] PROBLEM: fell # PATS: 1 AGE: 80 Years SEX: Female CONSCIOUS: Yes BREATHING: Yes [07/02/11 13:35:49 HINESLEY] ;MER
 CAD:DIABETIC PROBLEM;5219 PAGE RD;CREEKSTONE DR;TERRACE PINE DR
 
+Contact: Jeff Howard <parkwood151@gmail.com>
+From: CAD@durhamnc.gov
+(CAD:) ASST PD SEIZURE;1125 W NC 54 HWY;[LAW] {A324} CON BREATHING AND ALERT [09/10/11 01:52:07 MITCHELLM] Event spawned from INTOXICATED DRIVER. [09/10/2011 01:51
+
 */
 
 public class NCDurhamCountyParser extends DispatchOSSIParser {
@@ -29,6 +33,25 @@ public class NCDurhamCountyParser extends DispatchOSSIParser {
   public NCDurhamCountyParser() {
     super("DURHAM COUNTY", "NC",
            "CALL ADDR CH? X? X? INFO+");
+  }
+  
+  @Override
+  public String getFilter() {
+    return "CAD@durhamnc.gov";
+  }
+  
+  private static final Pattern UNIT_PTN = Pattern.compile("^\\{(.*?)\\}");
+  
+  @Override
+  public boolean parseMsg(String subject, String body, Data data) {
+    if (subject.equals("CAD:")) body = subject + body;
+    if (!super.parseMsg(body, data)) return false;
+    Matcher match = UNIT_PTN.matcher(data.strSupp);
+    if (match.find()) {
+      data.strUnit = match.group(1);
+      data.strSupp = data.strSupp.substring(match.end()).trim();
+    }
+    return true;
   }
   
   private static final Pattern CH_PTN = Pattern.compile("\\**(OP.*)");
