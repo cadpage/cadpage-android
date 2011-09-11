@@ -1,0 +1,836 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="pref_enable_msg_type_entries">
+    <item>SMS messages only</item>
+    <item>MMS messages only</item>
+    <item>SMS and MMS messages</item>
+  </string-array>
+  <string-array name="pref_enable_msg_type_values">
+    <item>S</item>
+    <item>M</item>
+    <item>SM</item>
+  </string-array>
+  <string-array
+    name="pref_mms_timeout_values">
+    <item>1</item>
+    <item>2</item>
+    <item>3</item>
+    <item>5</item>
+    <item>10</item>
+  </string-array>
+  <string-array
+    name="pref_notif_repeat_interval_entries">
+    <item>1</item>
+    <item>2</item>
+    <item>5</item>
+    <item>10</item>
+    <item>15</item>
+  </string-array>
+  <string-array
+    name="pref_notif_repeat_times_entries">
+    <item>1</item>
+    <item>2</item>
+    <item>3</item>
+    <item>4</item>
+    <item>5</item>
+    <item>10</item>
+    <item>@string/pref_notif_repeat_times_entries_keep_repeting</item>
+  </string-array>
+  <string-array
+    name="pref_notif_repeat_times_values">
+    <item>1</item>
+    <item>2</item>
+    <item>3</item>
+    <item>4</item>
+    <item>5</item>
+    <item>10</item>
+    <item>-1</item>
+  </string-array>
+  <string-array name="pref_loglimit_values">
+    <item>1</item>
+    <item>2</item>
+    <item>3</item>
+    <item>4</item>
+    <item>5</item>
+    <item>6</item>
+  </string-array>
+  <string-array name="pref_split_min_msg_values">
+    <item>1</item>
+    <item>2</item>
+    <item>3</item>
+    <item>4</item>
+    <item>5</item>
+    <item>6</item>
+  </string-array>
+  
+  <!--  Configurable popup dialog buttons -->
+  <string-array name="pref_button_text">
+    <item>@string/button_disabled</item>
+    <item>@string/ack_item_text</item>
+    <item>@string/map_item_text</item>
+    <item>@string/lock_item_text</item>
+    <item>@string/delete_item_text</item>
+    <item>@string/close_item_text</item>
+    <item>@string/email_item_text</item>
+    <item>@string/publish_item_text</item>
+  </string-array>
+  <string-array
+    name="pref_button_values">
+    <item>0</item>
+    <item>1</item>
+    <item>2</item>
+    <item>3</item>
+    <item>4</item>
+    <item>5</item>
+    <item>6</item>
+    <item>7</item>
+  </string-array>  
+
+  <string-array name="pref_timeout_entries">
+    <item>@string/pref_timeout_entries_10s</item>
+    <item>@string/pref_timeout_entries_20s</item>
+    <item>@string/pref_timeout_entries_30s</item>
+    <item>@string/pref_timeout_entries_1m</item>
+    <item>@string/pref_timeout_entries_2m</item>
+    <item>@string/pref_timeout_entries_5m</item>
+    <item>@string/pref_timeout_entries_10m</item>
+  </string-array>
+  <string-array
+    name="pref_timeout_values">
+    <item>10</item>
+    <item>20</item>
+    <item>30</item>
+    <item>60</item>
+    <item>120</item>
+    <item>300</item>
+    <item>600</item>
+  </string-array>
+
+  <string-array
+    name="pref_vibrate_pattern_values">
+    <item>0,1200</item>
+    <item>0,2500</item>
+    <item>0,300,100,300,100,300,100,300,100,300
+    </item>
+    <item>0,800,200,800,200,800</item>
+    <!--item>custom</item-->
+  </string-array>
+  <string-array
+    name="pref_vibrate_pattern_entries">
+    <item>@string/pref_vibrate_pattern_entries_normal</item>
+    <item>@string/pref_vibrate_pattern_entries_long</item>
+    <item>@string/pref_vibrate_pattern_entries_multiple_short</item>
+    <item>@string/pref_vibrate_pattern_entries_multiple_long</item>
+    <!--item>@string/pref_custom</item-->
+  </string-array>
+  <string-array
+    name="pref_led_color_values">
+    <item>Blue</item>
+    <item>Green</item>
+    <item>Red</item>
+    <item>Yellow</item>
+    <item>Magenta</item>
+    <item>Cyan</item>
+    <!--item>custom</item-->
+  </string-array>
+  <string-array
+    name="pref_led_color_entries">
+    <item>@string/pref_led_color_blue</item>
+    <item>@string/pref_led_color_green</item>
+    <item>@string/pref_led_color_red</item>
+    <item>@string/pref_led_color_yellow</item>
+    <item>@string/pref_led_color_magenta</item>
+    <item>@string/pref_led_color_cyan</item>
+    <!--item>@string/pref_custom</item-->
+  </string-array>
+
+  <string-array
+    name="pref_led_pattern_values">
+    <item>300,300</item>
+    <item>1000,1000</item>
+    <item>3000,3000</item>
+    <!--item>custom</item-->
+  </string-array>
+  <string-array
+    name="pref_led_pattern_entries">
+    <item>@string/pref_led_pattern_entries_fast</item>
+    <item>@string/pref_led_pattern_entries_normal</item>
+    <item>@string/pref_led_pattern_entries_slow</item>
+    <!--item>@string/pref_custom</item-->
+  </string-array>
+  
+  <string-array name="pref_map_network_chk_values">
+    <item>C</item>
+    <item>R</item>
+    <item>A</item>
+  </string-array>
+  
+  <string-array name="pref_map_network_chk_entries">
+    <item>Connected</item>
+    <item>Roaming</item>
+    <item>Disconnected</item>
+  </string-array>
+  
+  <string-array name="pref_history_limit_entries">
+    <item>10</item>
+    <item>20</item>
+    <item>30</item>
+    <item>40</item>
+  </string-array>
+  
+  <!-- Pair of arrays used to convert existing location code values when an
+       existing Parser needs to be renamed for some reason -->
+  <string-array name="old_location_values">
+    <item>NCChattamCounty</item>
+    <item>MDCentreville</item>
+    <item>PADelewareCounty</item>
+    <item>OHDelewareCounty</item>
+    <item>NJBergenCounty</item>
+    <item>COPuebloRFD</item>
+  </string-array>
+  <string-array name="new_location_values">
+    <item>NCChathamCounty</item>
+    <item>MDQueenAnnesCounty</item>
+    <item>PADelawareCounty</item>
+    <item>OHDelawareCounty</item>
+    <item>NJMICOM</item>
+    <item>COPuebloCounty</item>
+  </string-array>
+  
+  <!-- Array of state names -->
+  <string-array name="pref_state_names">
+    <item>Ge General location</item>
+    <item>AL Alabama</item>
+    <item>CA California</item>
+    <item>CO Colorado</item>
+    <item>CT Connecticut</item>
+    <item>DE Delaware</item>
+    <item>FL Florida</item>
+    <item>GA Georgia</item>
+    <item>ID Idaho</item>
+    <item>IL Illinois</item>
+    <item>IN Indiana</item>
+    <item>IA Iowa</item>
+    <item>KS Kansas</item>
+    <item>KY Kentucky</item>
+    <item>ME Maine</item>
+    <item>MD Maryland</item>
+    <item>MI Michigan</item>
+    <item>MN Minnesota</item>
+    <item>MO Missouri</item>
+    <item>MT Montana</item>
+    <item>NV Nevada</item>
+    <item>NJ New Jersey</item>
+    <item>NY New York</item>
+    <item>NC North Carolina</item>
+    <item>OH Ohio</item>
+    <item>OK Oklahoma</item>
+    <item>OR Oregon</item>
+    <item>PA Pennsylvania</item>
+    <item>SC South Carolina</item>
+    <item>SD South Dakota</item>
+    <item>TN Tennessee</item>
+    <item>TX Texas</item>
+    <item>UT Utah</item>
+    <item>VA Virginia</item>
+    <item>WI Wisconsin</item>
+  </string-array>
+
+  <!-- Sorted in state name order, which is why NY comes before NC. -->    
+  <string-array name="pref_location_values">
+    <item>General</item>
+    <item>GeneralSlash</item>
+    <item>GeneralDash</item>
+    <item>ALChiltonCounty</item>
+    <item>ALColbertCounty</item>
+    <item>ALDothan</item>
+    <item>ALHenryCounty</item>
+    <item>ALLauderdaleCounty</item>
+    <item>ALMadisonCounty</item>
+    <item>ALOzark</item>
+    <item>CAElDoradoCounty</item>
+    <item>CAMendocinoCounty</item>
+    <item>CAMontereyCounty</item>
+    <item>CAShastaCounty</item>
+    <item>CASonomaCounty</item>
+    <item>CAVenturaCounty</item>
+    <item>COAdamsCounty</item>
+    <item>CODouglasCounty</item>
+    <item>COGreeley</item>
+    <item>COLarimerCounty</item>
+    <item>CONorthglennEMS</item>
+    <item>COPuebloCounty</item>
+    <item>CTLitchfieldCounty</item>
+    <item>CTNewHavenCounty</item>
+    <item>CTTollandCounty</item>
+    <item>CTWindhamCounty</item>
+    <item>DEDelmar</item>
+    <item>DEKentCounty</item>
+    <item>DENewCastleCounty</item>
+    <item>DESussexCounty</item>
+    <item>FLCitrusCounty</item>
+    <item>FLLakeCounty</item>
+    <item>FLLeeCounty</item>
+    <item>GABullochCounty</item>
+    <item>GABrantleyCounty</item>
+    <item>GACamdenCounty</item>
+    <item>GACandlerCounty</item>
+    <item>GADadeCounty</item>
+    <item>GADoughertyCounty</item>
+    <item>GAEvansCounty</item>
+    <item>GAHenryCounty</item>
+    <item>GAMartinez</item>
+    <item>GAOconeeCounty</item>
+    <item>GAPikeCounty</item>
+    <item>GASmyrna</item>
+    <item>GAWhitfieldCounty</item>
+    <item>IDKootenaiCounty</item>
+    <item>ILChampaignUrbana</item>
+    <item>ILKankakeeCounty</item>
+    <item>ILMedstar</item>
+    <item>ILPeoriaCounty</item>
+    <item>ILWoodfordCounty</item>
+    <item>INHancockCounty</item>
+    <item>INMadisonCounty</item>
+    <item>INMarshallCounty</item>
+    <item>INPorterCounty</item>
+    <item>INTiptonCounty</item>
+    <item>INVigoCounty</item>
+    <item>IABlackHawkCounty</item>
+    <item>IAJacksonCounty</item>
+    <item>IAWoodburyCounty</item>
+    <item>KSButlerCounty</item>
+    <item>KSJohnsonCounty</item>
+    <item>KYDaviessCounty</item>
+    <item>KYErlangerDispatch</item>
+    <item>MEYorkCounty</item>
+    <item>MDAlleganyCounty</item>
+    <item>MDAnneArundelCounty</item>
+    <item>MDCalvertCounty</item>
+    <item>MDCambridge</item>
+    <item>MDCarolineCounty</item>
+    <item>MDCarrollCounty</item>
+    <item>MDCecilCounty</item>
+    <item>MDCharlesCounty</item>
+    <item>MDDorchesterCounty</item>
+    <item>MDFrederickCounty</item>
+    <item>MDHarford</item>
+    <item>MDHowardCounty</item>"
+    <item>MDKentCounty</item>
+    <item>MDMontgomeryCounty</item>
+    <item>MDNorthEast</item>
+    <item>MDOceanCity</item>
+    <item>MDPrinceGeorgesCounty</item>
+    <item>MDQueenAnnesCounty</item>
+    <item>MDSaintMarysCounty</item>
+    <item>MDTalbotCounty</item>
+    <item>MDWashingtonCounty</item>
+    <item>MDWicomicoCounty</item>
+    <item>MDWorcesterCounty</item>
+    <item>MILivingstonCounty</item>
+    <item>MIMobileMedicalResponse</item>
+    <item>MIMuskegonCounty</item>
+    <item>MIRichmond</item>
+    <item>MISaginawCounty</item>
+    <item>MNAnokaCounty</item>
+    <item>MNHennepinCounty</item>
+    <item>MOBarryCounty</item>
+    <item>MOGasconadeCounty</item>
+    <item>MOGreeneCounty</item>
+    <item>MOJeffersonCity</item>
+    <item>MOJeffersonCounty</item>
+    <item>MOJohnsonCounty</item>
+    <item>MOPulaskiCounty</item>
+    <item>MORayCounty</item>
+    <item>MOStCharlesCounty</item>
+    <item>MOStFrancoisCounty</item>
+    <item>MOStLouisCounty</item>
+    <item>MOStoneCounty</item>
+    <item>MTFlatheadCounty</item>
+    <item>MTLewisAndClarkCounty</item>
+    <item>NVLasVegas</item>
+    <item>NJBurlingtonCounty</item>
+    <item>NJCamdenCounty</item>
+    <item>NJCumberlandCounty</item>
+    <item>NJGloucesterCounty</item>
+    <item>NJMICOM</item>
+    <item>NJMorrisCounty</item>
+    <item>NJSalemCounty</item>
+    <item>NJSomersetCounty</item>
+    <item>NJSussexCounty</item>
+    <item>NYAmherst</item>
+    <item>NYBroomeCounty</item>
+    <item>NYBuffalo</item>
+    <item>NYCattaraugusCounty</item>
+    <item>NYCayugaCounty</item>
+    <item>NYChautauquaCounty</item>
+    <item>NYCortlandCounty</item>
+    <item>NYDixHills</item>
+    <item>NYErieCounty</item>
+    <item>NYGreeneCounty</item>
+    <item>NYHerkimerCounty</item>
+    <item>NYJeffersonCounty</item>
+    <item>NYMonroeCounty</item>
+    <item>NYNassauCounty</item>
+    <item>NYOneidaCounty</item>
+    <item>NYOntarioCounty</item>
+    <item>NYOrangeCounty</item>
+    <item>NYOrleansCounty</item>
+    <item>NYOtsegoCounty</item>
+    <item>NYPutnamCounty</item>
+    <item>NYRocklandCounty</item>
+    <item>NYSomers</item>
+    <item>NYSteubenCounty</item>
+    <item>NYSuffolkCountyAll</item>
+    <item>NYSullivanCounty</item>
+    <item>NYUlsterCounty</item>
+    <item>NYWestchesterCounty</item>
+    <item>NYWyomingCounty</item>
+    <item>NCAlexanderCounty</item>
+    <item>NCBrunswickCounty</item>
+    <item>NCBuncombeCounty</item>
+    <item>NCBurkeCounty</item>
+    <item>NCCabarrusCounty</item>
+    <item>NCCaldwellCounty</item>
+    <item>NCCarteretCounty</item>
+    <item>NCCatawbaCounty</item>
+    <item>NCChathamCounty</item>
+    <item>NCCumberlandCounty</item>
+    <item>NCDavidsonCounty</item>
+    <item>NCDavieCounty</item>
+    <item>NCDurhamCounty</item>
+    <item>NCForsythCounty</item>
+    <item>NCGastonCounty</item>
+    <item>NCGreensboro</item>
+    <item>NCGuilfordCounty</item>
+    <item>NCHaywoodCounty</item>
+    <item>NCIredellCounty</item>
+    <item>NCJacksonCounty</item>
+    <item>NCJohnstonCounty</item>
+    <item>NCLincolnCounty</item>
+    <item>NCMaconCounty</item>
+    <item>NCMecklenburgCounty</item>
+    <item>NCMontgomeryCounty</item>
+    <item>NCMooreCounty</item>
+    <item>NCNashCounty</item>
+    <item>NCOrangeCounty</item>
+    <item>NCPersonCounty</item>
+    <item>NCPolkCounty</item>
+    <item>NCRandolphCounty</item>
+    <item>NCRowanCounty</item>
+    <item>NCRutherfordCounty</item>
+    <item>NCSurryCounty</item>
+    <item>NCStanlyCounty</item>
+    <item>NCTransylvaniaCounty</item>
+    <item>NCUnionCounty</item>
+    <item>NCWataugaCounty</item>
+    <item>NCWilkesCounty</item>
+    <item>NCWilsonCounty</item>
+    <item>OHClermontCounty</item>
+    <item>OHDelawareCounty</item>
+    <item>OHHamiltonCounty</item>
+    <item>OHHudson</item>
+    <item>OHKnoxCounty</item>
+    <item>OHLickingCounty</item>
+    <item>OHMorrowCounty</item>
+    <item>OHNECC</item>
+    <item>OHOxford</item>
+    <item>OHShelbyCounty</item>
+    <item>OHSugarCreek</item>
+    <item>OHWadsworth</item>
+    <item>OHXenia</item>
+    <item>OKTulsa</item>
+    <item>ORBentonCounty</item>
+    <item>ORCrookCounty</item>
+    <item>ORDeschutesCounty</item>
+    <item>ORLinnCounty</item>
+    <item>ORMarionCountyN</item>
+    <item>ORWashingtonCounty</item>
+    <item>PAAlleghenyCounty</item>
+    <item>PAArmstrongCounty</item>
+    <item>PABeaverCounty</item>
+    <item>PABerksCounty</item>
+    <item>PABlairCounty</item>
+    <item>PABucksCounty</item>
+    <item>PACambriaCounty</item>
+    <item>PAChesterCounty</item>
+    <item>PADelawareCounty</item>
+    <item>PAElkCounty</item>
+    <item>PAErieCounty</item>
+    <item>PAFayetteCounty</item>
+    <item>PALackawannaCounty</item>
+    <item>PALancasterCounty</item>
+    <item>PALebanonCounty</item>
+    <item>PALehighCounty</item>
+    <item>PAMifflinCounty</item>
+    <item>PAMonroeville</item>
+    <item>PANorthamptonCounty</item>
+    <item>PASnyderCounty</item>
+    <item>PATiogaCounty</item>
+    <item>PAVenangoCounty</item>
+    <item>PAWashingtonCounty</item>
+    <item>PAWestmorelandCounty</item>
+    <item>PAYorkCounty</item>
+    <item>SCAndersonCounty</item>
+    <item>SCCharlestonCounty</item>
+    <item>SCFlorenceCounty</item>
+    <item>SCGreenvilleCounty</item>
+    <item>SCSpartanburgCounty</item>
+    <item>SCYorkCounty</item>
+    <item>SDMinnehahaCounty</item>
+    <item>TNAndersonCounty</item>
+    <item>TNHamiltonCounty</item>
+    <item>TNJeffersonCounty</item>
+    <item>TNLoudonCounty</item>
+    <item>TNSumnerCounty</item>
+    <item>TNUnionCounty</item>
+    <item>TNWashingtonCounty</item>
+    <item>TXBellCounty</item>
+    <item>TXCollinCounty</item>
+    <item>TXCyCreekCommCenter</item>
+    <item>TXDentonCounty</item>
+    <item>TXHarrisCountyESD1</item>
+    <item>TXHumble</item>
+    <item>TXLewisville</item>
+    <item>TXLongview</item>
+    <item>TXManvel</item>
+    <item>TXMontgomeryCounty</item>
+    <item>TXNassauBay</item>
+    <item>TXNuecesCounty</item>
+    <item>TXWilliamsonCounty</item>
+    <item>UTDavisCounty</item>
+    <item>VAAccomackCounty</item>
+    <item>VAAlbemarleCounty</item>
+    <item>VAAugustaCounty</item>
+    <item>VACampbellCounty</item>
+    <item>VAFranklinCounty</item>
+    <item>VAFrederickCounty</item>
+    <item>VAHalifaxCounty</item>
+    <item>VAHenryCounty</item>
+    <item>VALexingtonRockbridgeCounty</item>
+    <item>VALoudounCounty</item>
+    <item>VALouisaCounty</item>
+    <item>VANorthamptonCounty</item>
+    <item>VAPageCounty</item>
+    <item>VAPittsylvaniaCounty</item>
+    <item>VAPrinceWilliamCounty</item>
+    <item>VARockinghamCounty</item>
+    <item>VAWaynesboro</item>
+    <item>VAWightCounty</item>
+    <item>WIBrownCounty</item>
+    <item>WICalumetCounty</item>
+    <item>WIKenoshaCounty</item>
+  </string-array>
+  
+  <string-array name="pref_location_options">
+    <item>Generic Location</item>
+    <item>Generic (slash field separator)</item>
+    <item>Generic (dash field separator)</item>
+    <item>Chilton County, AL</item>
+    <item>Colbert County, AL</item>
+    <item>Dothan, AL</item>
+    <item>Henry County, AL</item>
+    <item>Lauderdale County, AL</item>
+    <item>Madison County, AL</item>
+    <item>Ozark, AL</item>
+    <item>El Dorado County, CA</item>
+    <item>Mendocino County, CA</item>
+    <item>Monterey County, CA</item>
+    <item>Shasta County, CA</item>
+    <item>Sonoma County, CA</item>
+    <item>Ventura County, CA</item>
+    <item>Adams County, CO</item>
+    <item>Douglas County, CO</item>
+    <item>Greeley, CO</item>
+    <item>Larimer County, CO</item>
+    <item>Northglenn EMS, CO</item>
+    <item>Pueblo County, CO</item>
+    <item>Litchfield County, CT</item>
+    <item>New Haven County, CT</item>
+    <item>Tolland County, CT</item>
+    <item>Windham County, CT</item>
+    <item>Delmar, DE</item>
+    <item>Kent County, DE</item>
+    <item>New Castle, DE</item>
+    <item>Sussex County, DE</item>
+    <item>Citrus County, FL</item>
+    <item>Lake County, FL</item>
+    <item>Lee County, FL</item>
+    <item>Bulloch County, GA</item>
+    <item>Brantley County, GA</item>
+    <item>Camden County, GA</item>
+    <item>Candler County, GA</item>
+    <item>Dade County, GA</item>
+    <item>Dougherty County, GA</item>
+    <item>Evans County, GA</item>
+    <item>Henry County, GA</item>
+    <item>Martinez, GA</item>
+    <item>Oconee County, GA</item>
+    <item>Pike County, GA</item>
+    <item>Smyrna, GA</item>
+    <item>Whitfield County, GA</item>
+    <item>Kootenai County, ID</item>
+    <item>Champaign-Urbana, IL</item>
+    <item>Kankakee County, IL</item>
+    <item>Medstar, SW IL</item>
+    <item>Peoria County, IL</item>
+    <item>Woodford County, IL</item>
+    <item>Hancock County, IN</item>
+    <item>Madison County, IN</item>
+    <item>Marshall County, IN</item>
+    <item>Porter County, IN</item>
+    <item>Tipton County, IN</item>
+    <item>Vigo County, IN</item>
+    <item>Black Hawk County, IA</item>
+    <item>Jackson County, IA</item>
+    <item>Woodbury County, IA</item>
+    <item>Butler County, KS</item>
+    <item>Johnson County, KS</item>
+    <item>Daviess County, KY</item>
+    <item>Erlanger Dispatch, KY</item>
+    <item>York County, ME</item>
+    <item>Allegany County, MD</item>
+    <item>Anne Arundel County, MD</item>
+    <item>Calvert County, MD</item>
+    <item>Cambridge, MD</item>
+    <item>Caroline County, MD</item>
+    <item>Carroll County, MD</item>
+    <item>Cecil County, MD</item>
+    <item>Charles County, MD</item>
+    <item>Dorchester County, MD</item>
+    <item>Frederick County, MD</item>
+    <item>Harford, MD</item>
+    <item>Howard County, MD</item>
+    <item>Kent County, MD</item>
+    <item>Montgomery County, MD</item>
+    <item>North East, MD</item>
+    <item>Ocean City, MD</item>
+    <item>Prince George\'s County, MD</item>
+    <item>Queen Anne\'s County, MD</item>
+    <item>St Mary\'s County, MD</item>
+    <item>Talbot County, MD</item>
+    <item>Washington County, MD</item>
+    <item>Wicomico County, MD</item>
+    <item>Worcester County, MD</item>
+    <item>Livingston County, MI</item>
+    <item>Mobile Medical Response, MI</item>
+    <item>Muskegon County, MI</item>
+    <item>Richmond, MI</item>
+    <item>Saginaw County, MI</item>
+    <item>Anoka County, MN</item>
+    <item>Hennepin County, MN</item>
+    <item>Barry County, MO</item>
+    <item>Gasconade County, MO</item>
+    <item>Greene County, MO</item>
+    <item>Jefferson City, MO</item>
+    <item>Jefferson County, MO</item>
+    <item>Johnson County, MO</item>
+    <item>Pulaski County, MO</item>
+    <item>Ray County, MO</item>
+    <item>St Charles County, MO</item>
+    <item>St Francois County, MO</item>
+    <item>St Louis County, MO</item>
+    <item>Stone County, MO</item>
+    <item>Flathead County, MT</item>
+    <item>Lewis &amp; Clark County, MT</item>
+    <item>Las Vegas, NV</item>
+    <item>Burlington County, NJ</item>
+    <item>Camden County, NJ</item>
+    <item>Cumberland County, NJ</item>
+    <item>Gloucester County, NJ</item>
+    <item>MICOM (northern NJ), NJ</item>
+    <item>Morris County, NJ</item>
+    <item>Salem County, NJ</item>
+    <item>Somerset County, NJ</item>
+    <item>Sussex County, NJ</item>
+    <item>Amherst, NY</item>
+    <item>Broome County, NY</item>
+    <item>Buffalo, NY</item>
+    <item>Cattaraugus County, NY</item>
+    <item>Cayuga County, NY</item>
+    <item>Chautauqua County, NY</item>
+    <item>Cortland County, NY</item>
+    <item>Dix Hills, NY</item>
+    <item>Erie County, NY</item>
+    <item>Greene County, NY</item>
+    <item>Herkimer County, NY</item>
+    <item>JeffersonCounty, NY</item>
+    <item>Monroe County, NY</item>
+    <item>Nassau County, NY</item>
+    <item>Oneida County, NY</item>
+    <item>Ontario County, NY</item>
+    <item>Orange County, NY</item>
+    <item>Orleans County, NY</item>
+    <item>Otsego County, NY</item>
+    <item>Putnam County, NY</item>
+    <item>Rockland County, NY</item>
+    <item>Somers, NY</item>
+    <item>Steuben County, NY</item>
+    <item>Suffolk County, NY</item>
+    <item>Sullivan County, NY</item>
+    <item>Ulster County, NY</item>
+    <item>Westchester County, NY</item>
+    <item>Wyoming County, NY</item>
+    <item>Alexander County, NC</item>
+    <item>Brunswick County, NC</item>
+    <item>Buncombe County, NC</item>
+    <item>Burke County, NC</item>
+    <item>Cabarrus County, NC</item>
+    <item>Caldwell County, NC</item>
+    <item>Carteret County, NC</item>
+    <item>Catawba County, NC</item>
+    <item>Chatham County, NC</item>
+    <item>Cumberland County, NC</item>
+    <item>Davidson County, NC</item>
+    <item>Davie County, NC</item>
+    <item>Durham County, NC</item>
+    <item>Forsyth County, NC</item>
+    <item>Gaston County, NC</item>
+    <item>Greensboro, NC</item>
+    <item>Guilford County, NC</item>
+    <item>Haywood County, NC</item>
+    <item>Iredell County, NC</item>
+    <item>Jackson County, NC</item>
+    <item>Johnston County, NC</item>
+    <item>Lincoln County, NC</item>
+    <item>Macon County, NC</item>
+    <item>Mecklenburg County, NC</item>
+    <item>Montgomery County, NC</item>
+    <item>Moore County, NC</item>
+    <item>Nash County, NC</item>
+    <item>Orange County, NC</item>
+    <item>Person County, NC</item>
+    <item>Polk County, NC</item>
+    <item>Randolph County, NC</item>
+    <item>Rowan County, NC</item>
+    <item>Rutherford County, NC</item>
+    <item>Surry County, NC</item>
+    <item>Stanly County, NC</item>
+    <item>Transylvania County, NC</item>
+    <item>Union County, NC</item>
+    <item>Watauga County, NC</item>
+    <item>Wilkes County, NC</item>
+    <item>Wilson County, NC</item>
+    <item>Clermont County, OH</item>
+    <item>Delaware County, OH</item>
+    <item>Hamilton County, OH</item>
+    <item>Hudson, OH</item>
+    <item>Knox County, OH</item>
+    <item>Licking County, OH</item>
+    <item>Morrow County, OH</item>
+    <item>NECC, OH</item>
+    <item>Oxford, OH</item>
+    <item>Shelby County, OH</item>
+    <item>Sugar Creek Twns, OH</item>
+    <item>Wadsworth, OH</item>
+    <item>Xenia Twp, OH</item>
+    <item>Tusla, OK</item>
+    <item>Benton County, OR</item>
+    <item>Crook County, OR</item>
+    <item>Deschutes County, OR</item>
+    <item>Linn County, OR</item>
+    <item>Marion County(N), OR</item>
+    <item>Washington County, OR</item>
+    <item>Allegheny County, PA</item>
+    <item>Armstrong County, PA</item>
+    <item>Beaver County, PA</item>
+    <item>Berks County, PA</item>
+    <item>Blair County, PA</item>
+    <item>Bucks County, PA</item>
+    <item>Cambria County, PA</item>
+    <item>Chester County, PA</item>
+    <item>Delaware County, PA</item>
+    <item>Elk County, PA</item>
+    <item>Erie County, PA</item>
+    <item>Fayette County, PA</item>
+    <item>Lackawanna County, PA</item>
+    <item>Lancaster County, PA</item>
+    <item>Lebanon County, PA</item>
+    <item>Lehigh County, PA</item>
+    <item>Mifflin County, PA</item>
+    <item>Monroeville, PA</item>
+    <item>Northampton County, PA</item>
+    <item>Snyder County, PA</item>
+    <item>Tioga County, PA</item>
+    <item>Venango County, PA</item>
+    <item>Washington County, PA</item>
+    <item>Westmoreland County, PA</item>
+    <item>York County, PA</item>
+    <item>Anderson County, SC</item>
+    <item>Charleston County, SC</item>
+    <item>Florence County, SC</item>
+    <item>Greenville County, SC</item>
+    <item>Spartanburg County, SC</item>
+    <item>York County, SC</item>
+    <item>Minnehaha County, SD</item>
+    <item>Anderson County, TN</item>
+    <item>Hamilton County, TN</item>
+    <item>Jefferson County, TN</item>
+    <item>Loudon County, TN</item>
+    <item>Sumner County, TN</item>
+    <item>Union County, TN</item>
+    <item>Washington County, TN</item>
+    <item>Bell County, TX</item>
+    <item>Collin County, TX</item>
+    <item>Cy Creek Comm Center, TX</item>
+    <item>Denton County, TX</item>
+    <item>Harris County ESD1, TX</item>
+    <item>Humble, TX</item>
+    <item>Lewisville, TX</item>
+    <item>Longview, TX</item>
+    <item>Manvel, TX</item>
+    <item>Montgomery County, TX</item>
+    <item>Nassau Bay, TX</item>
+    <item>Nueces County, TX</item>
+    <item>Williamson County, TX</item>
+    <item>Davis County, UT</item>
+    <item>Accomack County, VA</item>
+    <item>Albemarle County, VA</item>
+    <item>Augusta County, VA</item>
+    <item>Campbell County, VA</item>
+    <item>Franklin County, VA</item>
+    <item>Frederick County, VA</item>
+    <item>Halifax County, VA</item>
+    <item>Henry County, VA</item>
+    <item>Lexington &amp; Rockbridge Counties</item>
+    <item>Loudoun, VA</item>
+    <item>Louisa County, VA</item>
+    <item>Northampton County, VA</item>
+    <item>Page County, VA</item>
+    <item>Pittsylvania County, VA</item>
+    <item>Prince William County, VA</item>
+    <item>Rockingham County, VA</item>
+    <item>Waynesboro, VA</item>
+    <item>Wight County, VA</item>
+    <item>Brown County, WI</item>
+    <item>Calumet County, WI</item>
+    <item>Kenosha County, WI</item>
+  </string-array>
+
+  <string-array name="email_devel_addr">
+    <item>support@cadpage.org</item>
+  </string-array>
+  <string-array name="email_devel_subject">
+    <item>general comment</item>
+    <item>message problem</item>
+    <item>crash report</item>
+    <item>init failure</item>
+    <item>unknown user</item>
+  </string-array>
+  <string-array name="email_devel_text">
+    <item>Would you like to send an email to the CadPage developers about general issues or comments?</item>
+    <item>Would you like to send an email to the CadPage developers about issues or problems with this particular message?</item>
+    <item>Oh dear, it seems that CadPage has crashed.  Would you like report this problem to the CadPage developers?</item>
+    <item>This is very bad, CadPage can\'t even get started.  Would you like report this problem to the CadPage developers?</item>
+  </string-array>
+  <string-array name="pref_textsize_entries">
+    <item>@string/pref_textsize_small</item>
+    <item>@string/pref_textsize_medium</item>
+    <item>@string/pref_textsize_large</item>
+  </string-array>
+  <string-array name="pref_textsize_values">
+    <item>14</item>
+    <item>16</item>
+    <item>20</item>
+  </string-array>
+</resources>

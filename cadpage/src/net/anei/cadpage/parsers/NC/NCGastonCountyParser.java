@@ -1,0 +1,103 @@
+package net.anei.cadpage.parsers.NC;
+
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+import net.anei.cadpage.SmsMsgInfo.Data;
+import net.anei.cadpage.parsers.FieldProgramParser;
+
+/* 
+Gaston County, NC
+Contact: Andrew Albright <andrewmalbright@gmail.com>
+Sender: rc.459@c-msg.net
+
+(*CAD*) [CAD]   29D2P ~RIVERSIDE~DR/~HICKORY GROVE~RD  X-ST: Phone:~(704) 905-8283 - Station:~Station 40 Station 40 08/25/2011 15:48:11 7\nLD400, EN403, C161, RSU,
+(*CAD*) [CAD]   29D2L ~WESLEYAN~DR/~MAIN~ST  X-ST: Phone:~(704) 460-7016 - Station:~Station 40 Station 40 08/29/2011 16:49:18 1\nEN403  WRECK.
+(*CAD*) [CAD]   Tree In Roadway 124~CHURCH~ST~  X-ST: ROBINETTE LN - Phone:~(704) 634-0269 Station 40 08/30/2011 05:13:05 1\n
+(*CAD*) [CAD]   Alarm-Fire (High Risk) 250~BEATTY~DR~  X-ST: UNKNOWN - Station:~Station 34 Station 34 09/07/2011 21:00:32 3\nLD400, LD34, EN33
+(*CAD*) [CAD]   29D4 S ~I~85/~S ~EXIT 23 MCADENVILLE  X-ST: Station:~Station 40 - Quadrant:~40D Station 40 08/30/2011 07:01:38 7\nLD400, EN403, SP172, RSU, E33P, E3
+(*CAD*) [CAD]   Tree In Roadway 124~CHURCH~ST~  X-ST: ROBINETTE LN - Phone:~(704) 634-0269 Station 40 08/30/2011 05:13:05 1\nEN403
+(*CAD*) [CAD]   29D2L ~WESLEYAN~DR/~MAIN~ST  X-ST: Phone:~(704) 460-7016 - Station:~Station 40 Station 40 08/29/2011 16:49:18 1\nEN403  WRECK.
+
+*/
+
+public class NCGastonCountyParser extends FieldProgramParser {
+  
+  private static final Pattern TRAILER = Pattern.compile("Station (\\d+) \\d\\d/\\d\\d/\\d{4} \\d\\d:\\d\\d:\\d\\d \\d$");
+  private static final Pattern CODE_PTN = Pattern.compile("^\\d{1,2}[A-Z]\\d{1,2}[A-Z]?\\b");
+  
+  public NCGastonCountyParser() {
+    super("GASTON COUNTY", "NC",
+           "ADDR/SC! X-ST:X! Phone:PHONE? Station:SRC Quadrant:MAP");
+  }
+  
+  @Override
+  public String getFilter() {
+    return "rc.459@c-msg.net";
+  }
+
+  @Override
+  protected boolean parseMsg(String subject, String body, Data data) {
+    if (!subject.equals("*CAD*|CAD")) return false;
+    String[] lines = body.split("\n");
+    if (lines.length > 2) return false;
+    if (lines.length > 1) data.strUnit = lines[1];
+    body = lines[0];
+    
+    Matcher match = TRAILER.matcher(body);
+    if (!match.find()) return false;
+    String defSource = match.group(1);
+    body = body.substring(0, match.start()).trim();
+    body = body.replace('~', ' ');
+    if (!super.parseMsg(body, data)) return false;
+    
+    match = CODE_PTN.matcher(data.strCall);
+    if (match.find()) {
+      data.strCode = match.group();
+      data.strCall = data.strCall.substring(match.end()).trim();
+    }
+    if (data.strSource.length() == 0) data.strSource = defSource;
+    return true;
+  }
+  
+  private class MyCrossField extends CrossField {
+    @Override
+    public void parse(String field, Data data) {
+      super.parse(stripDash(field), data);
+    }
+  }
+  
+  private class MyPhoneField extends PhoneField {
+    @Override
+    public void parse(String field, Data data) {
+      super.parse(stripDash(field), data);
+    }
+  }
+  
+  private class MySourceField extends SourceField {
+    @Override
+    public void parse(String field, Data data) {
+      field = stripDash(field);
+      if (field.startsWith("Station ")) field = field.substring(8).trim();
+      super.parse(field, data);
+    }
+  }
+  
+  private static String stripDash(String field) {
+    if (field.endsWith("-")) field = field.substring(0,field.length()-1).trim();
+    return field;
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("X")) return new MyCrossField();
+    if (name.equals("PHONE")) return new MyPhoneField();
+    if (name.equals("SRC")) return new MySourceField();
+    return super.getField(name);
+  }
+  
+  @Override
+  public String getProgram() {
+    return "CODE " + super.getProgram() + " UNIT";
+  }
+}
