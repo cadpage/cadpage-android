@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">20110911</string>
-  <string name="release_version">v1.4.24</string>
+  <string name="release_date">20110912</string>
+  <string name="release_version">v1.4.25</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="release_text">
@@ -9,6 +9,7 @@
     See http://www.cadpage.org/financial-support for more details\n
     \n
   What"'"s new in this release\n
+  Urgent fix for MMS Crash issue\n
 Multiple Fixes for Existing Locations and Issues\n
 New Locations:\n
 New District: Windham County, CT\n
