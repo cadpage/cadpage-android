@@ -558,7 +558,9 @@ public class SmsMmsMessage implements Serializable {
       if (pt2 >= body.length()) break;
     }
     
-    parseMessageBody = body.substring(pt1);
+    body = body.substring(pt1);
+    if (body.startsWith("MSG:")) body = body.substring(4).trim();
+    parseMessageBody = body;
   }
   
   private void trimLast(StringBuilder sb, String endCode) {

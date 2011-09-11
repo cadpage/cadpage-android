@@ -30,6 +30,10 @@ FireCom: NEW HYDE PARK FD HEADQUARTERS 1555 JERICHO TPK C/S: NEW HYDE PARK ROAD 
 FireCom:  1300 5TH AVE C/S: 13TH (S) ST / 14TH (S) ST - 2 (GENERAL-NATU) MAIN LINE BREAK BY CONTRACTOR D: 06/14 13:04 #: 000482﻿
 FireCom: HOLY SPIRIT SCHOOL 13 6TH ST S C/S: JERICHO TPK / 1ST AVE -    2 (GENERAL-NATU) INSIDE THE SCHOOL D: 06/14 13:29 #: 000483
 
+Contact:  Chris Schnupp <chris_schnupp@yahoo.com>
+Sender: ewhydeparkfd@rednmxcad.com
+MSG:FireCom: 29 JEFFERSON ST C/S: SYLVIA LA / GERARD AVE -    3 (RESCUE-AMBU) SICK FEMALE D: 09/10 06:39 #: 000798
+
 */
 
 
@@ -45,7 +49,7 @@ public class NYNassauCountyBParser extends SmartAddressParser {
   }
   
   public String getFilter() {
-    return "paging@alpinesoftware.com";
+    return "paging@alpinesoftware.com,@rednmxcad.com";
   }
 
   @Override
