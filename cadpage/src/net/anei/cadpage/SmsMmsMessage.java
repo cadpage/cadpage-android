@@ -603,7 +603,7 @@ public class SmsMmsMessage implements Serializable {
   }
 
   public String getMessageBody() {
-    return parseMessageBody.trim();
+    return (parseMessageBody == null ? null : parseMessageBody.trim());
   }
   
   public int getMessageType() {

@@ -1,4 +1,4 @@
-F*******************************************************************************
+*******************************************************************************
 Supported district message formats
 This isn't intended to be the final or full documentation for different 
 message formats, but it is a good summary to look through for something similar
