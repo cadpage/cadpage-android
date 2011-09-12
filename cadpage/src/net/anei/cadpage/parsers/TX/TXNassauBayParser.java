@@ -55,7 +55,11 @@ public class TXNassauBayParser extends DispatchOSSIParser {
   });
   
   public TXNassauBayParser() {
-    super(CITY_CODES, "NASSAU BAY", "TX",
+    this("NASSAU BAY", "TX");
+  }
+  
+  protected TXNassauBayParser(String defCity, String defState) {
+    super(CITY_CODES, defCity, defState,
           "SKIP SRC CALL! ADDR! CITY? CODE? SKIP INFO+");
   }
   
