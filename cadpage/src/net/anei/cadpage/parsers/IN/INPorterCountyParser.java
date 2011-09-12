@@ -25,7 +25,8 @@ Subject: CAD Page\n\n#110088677 - \nF41:\nMUT.AID/RESP. TO SCN @ 177 HEATHERHILL
 Subject: CAD Page\n\n#110089211 - \nF35P2:\nEMS AST-P2 @ 380 N 400 E,WGT\nCROSS: btwn AUGUSTINE DR and E 400 N\nGRP:WF\nPRI:2\ncomment: Medical P
 Subject: CAD Page\n\n#110089866 -\nE29\nMV CRASH/TRANS.ACC @ E US HWY 6 / EDMOND CT, LBT - < 0/ 801>\nGRP:PM\nPRI:1\ncomment: CAR VS PICKUP, CAR IS IN DITCH
 
-Contact: Gregory Adair <gadair@washingtonfire.net>
+Contact: firemedic3087 <firemedic3087@gmail.com>
+Subject:CAD Page\n\n#110120370 - \nF5:\nBRUSH/GRASS FIRE @ E ENGEL DR / CAIN DR,WGT\n-  < 3900/ 1>\nGRP:WF\nPRI:1\ncomment: OPEN BURN IN AREA/
 
 */
 
@@ -113,7 +114,8 @@ public class INPorterCountyParser extends FieldProgramParser {
   private class MyAddress2Field extends AddressField {
     @Override
     public void parse(String field, Data data) {
-      if (field.startsWith("- at ")) field = field.substring(5).trim();
+      if (!field.startsWith("- at ")) return; 
+      field = field.substring(5).trim();
       int pt = field.lastIndexOf(',');
       if (pt >= 0) field = field.substring(0,pt).trim();
       data.strPlace = data.strAddress;
