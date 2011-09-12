@@ -107,9 +107,19 @@ public class INPorterCountyParserTest extends BaseParserTest {
         "CITY:Liberty Twp",
         "PRI:1",
         "INFO:CAR VS PICKUP, CAR IS IN DITCH");
+
+    doTest("T10",
+        "Subject:CAD Page\n\n#110120370 - \nF5:\nBRUSH/GRASS FIRE @ E ENGEL DR / CAIN DR,WGT\n-  < 3900/ 1>\nGRP:WF\nPRI:1\ncomment: OPEN BURN IN AREA/",
+        "ID:110120370",
+        "UNIT:F5",
+        "CALL:BRUSH/GRASS FIRE",
+        "ADDR:E ENGEL DR & CAIN DR",
+        "CITY:Washington Twp",
+        "PRI:1",
+        "INFO:OPEN BURN IN AREA/");
  }
   
   public static void main(String[] args) {
-    new INPorterCountyParserTest().generateTests("T1");
+    new INPorterCountyParserTest().generateTests("T10");
   }
 }
