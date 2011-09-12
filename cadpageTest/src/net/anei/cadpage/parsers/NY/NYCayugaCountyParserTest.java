@@ -12,6 +12,11 @@ public class NYCayugaCountyParserTest extends BaseParserTest {
   }
   
   @Test
+  public void badMessages() {
+    doBadTest("(From 911 Center) ANY MEMBER THAT CAN DEPLOY FOR SEFU ON SUNDAY CONTACT ASST. CHF SABIN ON HIS CELLPHONE ASAP");
+  }
+  
+  @Test
   public void testParser() {
 
     doTest("T1",
