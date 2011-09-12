@@ -25,6 +25,8 @@ Sender: msg@cfmsg.com
 
 Status message, Should be handled as General Alert
 (Chief ALT) [AVFD EMS TIMES] - Incident: 201117017 -- Unit: E-M19 Disp 18:20:53 -- Enroute: 18:22:50 -- Arrived: -- Transport: -- At Hosp: -- Available: 18:24:58
+(Chief ALT) [ET] - [ 201141019 ] - UNIT: E-M29 Disp 21:47:04 - ENRT: 21:48:26 - OSN: 21:54:23 - TRAN: - @HOS: - AVAL: 22:22:50
+
  */
 
 public class TXHumbleParser extends DispatchOSSIParser {
@@ -33,7 +35,7 @@ public class TXHumbleParser extends DispatchOSSIParser {
   private static Pattern TRAIL_DELIM = Pattern.compile(" - (?=\\d+$ *)");
   
   // Pattern to identify status messages
-  private static Pattern INCIDENT_PTN = Pattern.compile(" *Incident: \\d{9} *");
+  private static Pattern INCIDENT_PTN = Pattern.compile(" *Incident: \\d{9} *| *\\[ \\d{9} \\] *");
   
   public TXHumbleParser() {
     super("HUMBLE", "TX",
