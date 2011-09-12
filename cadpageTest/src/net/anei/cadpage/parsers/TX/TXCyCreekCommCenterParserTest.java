@@ -168,9 +168,18 @@ public class TXCyCreekCommCenterParserTest extends BaseParserTest {
         "UNIT:E62 B78 E61 B76 E37",
         "X:BLUE CYPRESS DR");
 
+    doTest("T19",
+        "09/11 23:25 22539 SH 249 SB-HC, MATTRESS GIANT; Map:329N- Sub: Nat:69-LIGHT STRUCTURE INCIDENT Units:E23 E21 E33 E24 E36 TW23 L36 X-St:LAKEWOOD CROSSING DR",
+        "ADDR:22539 SH 249 SB",
+        "PLACE:MATTRESS GIANT",
+        "MAP:329N-",
+        "CALL:69-LIGHT STRUCTURE INCIDENT",
+        "UNIT:E23 E21 E33 E24 E36 TW23 L36",
+        "X:LAKEWOOD CROSSING DR");
+
   }
   
   public static void main(String[] args) {
-    new TXCyCreekCommCenterParserTest().generateTests("T18", "PHONE ADDR PLACE APT MAP CALL UNIT X");
+    new TXCyCreekCommCenterParserTest().generateTests("T19", "PHONE ADDR PLACE APT MAP CALL UNIT X");
   }
 }
