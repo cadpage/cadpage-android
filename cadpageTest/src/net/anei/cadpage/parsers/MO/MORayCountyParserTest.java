@@ -130,6 +130,16 @@ public class MORayCountyParserTest extends BaseParserTest {
         "CALL:FIRE ALARM",
         "ADDR:34684 HIGHWAY 10",
         "INFO:gen fire alarm. covers all zones  keyholder ron rouse 816-864-4434");
+
+    doTest("T4",
+        "672 671A RCAD WHFD MENTAL 10-96 15041 S BEACH FRONT DR  CRYSTAL LAKES Description: 16 yr old male\n6'1 205\nl CrossStreets: APACHE DR 0.07 mi E EAGLE",
+        "SRC:RCAD WHFD",
+        "UNIT:672 671A",
+        "CALL:MENTAL",
+        "ADDR:10-96 15041 S BEACH FRONT DR",
+        "CITY:CRYSTAL LAKES",
+        "INFO:16 yr old male 6'1 205 l",
+        "X:APACHE DR 0.07 mi E EAGLE");
   }
   
   public void testParser4() {
