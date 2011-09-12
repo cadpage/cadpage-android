@@ -1,5 +1,8 @@
 package net.anei.cadpage.parsers.NY;
 
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 import net.anei.cadpage.SmsMsgInfo.Data;
 import net.anei.cadpage.parsers.SmartAddressParser;
 
@@ -27,10 +30,41 @@ Contact: Corey <crooker1@twcny.rr.com>
 (From 911 Center) 08/26/11 09:59 8860 S  WILLOW ST WEEDSPORT Injury from a Fall  70 FEMALE FELL YESTERDAY/DIFF AMBULATING TODAY  E911 Info - Class of Serv
 (From 911 Center) 08/24/11 22:00 8750 CENTERPORT RD MENTZ Cardiac  79 Y/O FEMALE CHEST PAINS...  DERBY RESIDENCE
 
+Should be general alert
+(From 911 Center) ANY MEMBER THAT CAN DEPLOY FOR SEFU ON SUNDAY CONTACT ASST. CHF SABIN ON HIS CELLPHONE ASAP
+
 */
 
 
 public class NYCayugaCountyParser extends SmartAddressParser {
+  
+  private static final Pattern MARKER = Pattern.compile("\\d\\d/\\d\\d/\\d\\d \\d\\d:\\d\\d ");
+
+  public NYCayugaCountyParser() {
+    super(CITY_LIST, "CAYUGA COUNTY", "NY");
+  }
+  
+  @Override
+  public String getFilter() {
+    return "cayuga911@co.cayuga.ny.us";
+  }
+
+  @Override
+  protected boolean parseMsg(String subject, String body, Data data) {
+    
+    if (!subject.equals("From 911 Center") &&
+        !subject.equals("From911Center")) return false;
+    Matcher match = MARKER.matcher(body);
+    if (!match.find()) return false;
+    body = body.substring(match.end()).trim();
+    parseAddress(StartType.START_ADDR, body, data);
+    data.strCall = getLeft();
+    if (data.strCall.length() > 30) {
+      data.strSupp = data.strCall;
+      data.strCall = "";
+    }
+    return true;
+  }
   
   private static final String[] CITY_LIST = new String[]{
 
@@ -59,32 +93,6 @@ public class NYCayugaCountyParser extends SmartAddressParser {
     "VENICE",
     "VICTORY"
   };
-
-  public NYCayugaCountyParser() {
-    super(CITY_LIST, "CAYUGA COUNTY", "NY");
-  }
-  
-  @Override
-  public String getFilter() {
-    return "cayuga911@co.cayuga.ny.us";
-  }
-
-  @Override
-  protected boolean parseMsg(String subject, String body, Data data) {
-    
-    if (!subject.equals("From 911 Center") &&
-        !subject.equals("From911Center")) return false;
-    Parser p = new Parser(body);
-    p.get(' ');
-    p.get(' ');
-    parseAddress(StartType.START_ADDR, p.get(), data);
-    data.strCall = getLeft();
-    if (data.strCall.length() > 30) {
-      data.strSupp = data.strCall;
-      data.strCall = "";
-    }
-    return true;
-  }
   
 }
 	
