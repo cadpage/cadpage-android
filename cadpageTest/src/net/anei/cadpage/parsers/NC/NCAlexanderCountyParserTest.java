@@ -85,6 +85,13 @@ public class NCAlexanderCountyParserTest extends BaseParserTest {
         "CAD:1 JENKINS MOOSE RD/LILEDOUN RD;WEATHER RELATED",
         "ADDR:1 JENKINS MOOSE RD & LILEDOUN RD",
         "CALL:WEATHER RELATED");
+
+    doTest("T11",
+        "CAD:505 NC 16 HWY N;UNCONSCIOUS OR FAINTING;31D02;GRAVEL HILL CT;NAT GUARD ARMORY RD",
+        "ADDR:505 NC 16 HWY N",
+        "CALL:UNCONSCIOUS OR FAINTING",
+        "CODE:31D02",
+        "X:GRAVEL HILL CT & NAT GUARD ARMORY RD");
 }
 
   public static void main(String[] args) {
