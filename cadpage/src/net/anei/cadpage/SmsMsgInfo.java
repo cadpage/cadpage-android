@@ -249,7 +249,7 @@ public class SmsMsgInfo {
   // Clean up any street suffix abbreviations that Google isn't happy with
   private static final Pattern AV_PTN = Pattern.compile("\\bAV\\b");
   private static final Pattern HW_PTN = Pattern.compile("\\bH[WY]\\b");
-  private static final Pattern STH_PTN = Pattern.compile("\\bSTH\\b");
+  private static final Pattern STH_PTN = Pattern.compile("\\bST?H\\b");
   private static final Pattern PK_PTN = Pattern.compile("\\bPK\\b");
   private static final Pattern PW_PTN = Pattern.compile("\\bPW\\b");
   private static final Pattern CI_PTN = Pattern.compile("\\bCI\\b");
@@ -282,13 +282,14 @@ public class SmsMsgInfo {
   // Clean up some Interstate conventions
   private static final Pattern INA_PATTERN = Pattern.compile("\\bI\\d+([NSEW])\\b");
   private static final Pattern FRONTAGE_PTN = Pattern.compile("\\b(?:[NSEW]B)?FR\\b");
+  private static final Pattern IH_PTN = Pattern.compile("\\bIH\\b");
   private String cleanInterstate(String sAddr) {
     Matcher match = INA_PATTERN.matcher(sAddr);
     if (match.find()) {
       sAddr = sAddr.substring(0,match.start(1)) + sAddr.substring(match.end());
     }
-    match = FRONTAGE_PTN.matcher(sAddr);
-    sAddr = match.replaceAll("FRONTAGE RD");
+    sAddr = FRONTAGE_PTN.matcher(sAddr).replaceAll("FRONTAGE RD");
+    sAddr = IH_PTN.matcher(sAddr).replaceAll("");
     return sAddr;
   }
   
@@ -378,35 +379,40 @@ public class SmsMsgInfo {
   // Google can handle things like ST 666 or US 666 or RTE 666.
   // But it doesn't like US RTE 666
   // If we find a construct like that, remove the middle section
-  private static final Pattern DBL_ROUTE_PTN = 
-    Pattern.compile("\\b([A-Z]{2}|STATE) *(ROAD|RD|RT|RTE|ROUTE|HW|HWY|HY) +(\\d+|[A-Z]{1,2})\\b", Pattern.CASE_INSENSITIVE);
+  private static final Pattern[] DBL_ROUTE_PTNS = new Pattern[]{ 
+    Pattern.compile("\\b([A-Z]{2}|STATE) *(?:ROAD|RD|RT|RTE|ROUTE|HW|HWY|HY) +(\\d+|[A-Z]{1,2})\\b", Pattern.CASE_INSENSITIVE),
+    Pattern.compile("\\b([A-Z]{2}|STATE) +(\\d+|[A-Z]{1,2})\\b *(?:ROAD|RD|RT|RTE|ROUTE|HW|HWY|HY)\\b", Pattern.CASE_INSENSITIVE)
+  };
   private String cleanDoubleRoutes(String sAddress) {
-    Matcher match = DBL_ROUTE_PTN.matcher(sAddress);
-    int pt = 0;
-    int lastPt = 0;
-    if (!match.find(pt)) return sAddress;
-    
-    StringBuilder sb = new StringBuilder();
-    do {
-      String prefix = match.group(1);
-      String suffix = match.group(3);
-      String state = strState;
-      if (strState.length() == 0) state = defState;
-      if (prefix.length() != 2 ||
-          (prefix.equalsIgnoreCase(state) ||
-           prefix.equalsIgnoreCase("CO") ||
-           prefix.equalsIgnoreCase("US") ||
-           prefix.equalsIgnoreCase("ST"))) {
-        sb.append(sAddress.substring(lastPt, match.start()));
-        sb.append(prefix);
-        sb.append(' ');
-        sb.append(suffix);
-        lastPt = match.end();
-      }
-      pt = match.end();
-    } while (match.find(pt));
-    sb.append(sAddress.substring(lastPt));
-    return sb.toString();
+    for (Pattern ptn : DBL_ROUTE_PTNS) {
+      Matcher match = ptn.matcher(sAddress);
+      int pt = 0;
+      int lastPt = 0;
+      if (!match.find(pt)) continue;
+      
+      StringBuilder sb = new StringBuilder();
+      do {
+        String prefix = match.group(1);
+        String suffix = match.group(2);
+        String state = strState;
+        if (strState.length() == 0) state = defState;
+        if (prefix.length() != 2 ||
+            (prefix.equalsIgnoreCase(state) ||
+             prefix.equalsIgnoreCase("CO") ||
+             prefix.equalsIgnoreCase("US") ||
+             prefix.equalsIgnoreCase("ST"))) {
+          sb.append(sAddress.substring(lastPt, match.start()));
+          sb.append(prefix);
+          sb.append(' ');
+          sb.append(suffix);
+          lastPt = match.end();
+        }
+        pt = match.end();
+      } while (match.find(pt));
+      sb.append(sAddress.substring(lastPt));
+      sAddress = sb.toString();
+    }
+    return sAddress;
   }
 
   

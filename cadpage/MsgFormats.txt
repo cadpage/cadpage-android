@@ -3011,47 +3011,6 @@ Unknown
 Contact: Shane Jenkins <sjenkins@lafayettetwpfire.com>
 Sender: rc.223@c-msg.net
 (lCAD) [!] EMS//6387 CARSTEN RD MEDINA BETWEEN CHATHAM RD / COON CLUB RD//FEMALE FALL VIC TIM NEEDS LIFT ASSIST NO INJURY RECENTLY OUT OF THE HOSPITAL
-**********************************************************
-Unknown 
-Contact: Chris & Scott Kensinger <kensingerllc@gmail.com>
-Sender: winecc@ci.winchester.va.us
-(Winchester ECC info) 11-041989 INSIDE SMELL OR SMOKE\n336 GRAY AVE\nNATIONAL AVE / VIRGI/NIA AVE\nWINCHESTER\nBAT6 E4 E5 EC18 M41 TK2 W1 E
-**********************************************************
-Rockland County, NY (alternate) (Hatzoloh EMS)
-Contact: "Mordy Eisenberg (Absolute Medical)" <mordy@absolutemed.com>, 8455177842@vtext.com
-Sender: www.absolutemed.com
-
-(ACR# 5141)Add: 475 New Hempstead Rd, 
-X St: Near the intersection of New Hempstead Rd and Old Schoolhouse Rd
-Name: Center-Rehab &amp; Nurs
-
- e, Friedwald
-Ph
-
-(ACR# 5142)Add: 24 Deerwood Rd, 
-X St: Between Cara Dr and Charlotte Dr
-Name: Eisenberg, Mordechai
-Phone: 8453628456
-Comp: 
-9/9/2011 - 9:19
-
- AM
- 
-(ACR# 5143)Add: 24 Deerwood Rd, 
-X St: Between Cara Dr and Charlotte Dr
-Name: Eisenberg, Mordechai
-Phone: 8453628456
-Comp: 
-9/9/2011 - 9:52
-
- AM
- 
-(ACR# 5146) Add: 10  WIDMAN CT, 
-X St: Near the intersection of Widman Ct and Bluefield Dr
-Name: 7782, 
-Phone: 
-Comp: 
-9/9/2011 - 9:55 AM
 
 **********************************************************
 **********************************************************
@@ -3115,3 +3074,62 @@ ON MONDAY CLEAR LAKE RD WILL BE CLOSED FOR A CRANE TO REMOVE TREE FROM  HOUSE\n\
 Wallinford Mutual aid (WLFD)
 1100008057 MVA W/INJURIES N MAIN/RT68 WLFD A44 110906 17:05
 1100007014 MUTUAL AID 00909  BEAVER HEAD RD , GUILFORD    MED4 110811 01:16
+**********************************************************
+Winchester, VA
+Contact: Chris & Scott Kensinger <kensingerllc@gmail.com>
+Sender: winecc@ci.winchester.va.us
+(Winchester ECC info) 11-041989 INSIDE SMELL OR SMOKE\n336 GRAY AVE\nNATIONAL AVE / VIRGI/NIA AVE\nWINCHESTER\nBAT6 E4 E5 EC18 M41 TK2 W1 E
+
+Body:(Winchester ECC info) 11-042157 INSIDE FIRE STRUCT/ELEC/CHIMN\n
+122-1 E PALL MALL ST\n
+S CAMERON ST / S KEN/T ST\n
+WINCHESTER\n
+BAT6 E1 E4 E5 EC21 M51 TK2
+
+Body:(Winchester ECC info) 11-042110 FIRE ALARM\n
+1890 AMHERST ST\n
+WESTSIDE STATION DR// CITY LIMITS\n
+ADULT PSYCH CENTER\2sWINCHESTER\n
+E1 E4 EC15 TK2
+
+Body:(Winchester ECC info) 11-042059 OUTSIDE FIRES WITH NO EXPOSURE\n
+1029 ALLEN DR\n
+MOLDEN DR / KINZEL D/R\n
+TINAS QUALITY CLEANING\2sWINCHESTER\n
+E1
+**********************************************************
+Rockland County, NY (alternate) (Hatzoloh EMS)
+Contact: "Mordy Eisenberg (Absolute Medical)" <mordy@absolutemed.com>, 8455177842@vtext.com
+Sender: www.absolutemed.com
+
+(ACR# 5141)Add: 475 New Hempstead Rd, 
+X St: Near the intersection of New Hempstead Rd and Old Schoolhouse Rd
+Name: Center-Rehab &amp; Nurs
+
+ e, Friedwald
+Ph
+
+(ACR# 5142)Add: 24 Deerwood Rd, 
+X St: Between Cara Dr and Charlotte Dr
+Name: Eisenberg, Mordechai
+Phone: 8453628456
+Comp: 
+9/9/2011 - 9:19
+
+ AM
+ 
+(ACR# 5143)Add: 24 Deerwood Rd, 
+X St: Between Cara Dr and Charlotte Dr
+Name: Eisenberg, Mordechai
+Phone: 8453628456
+Comp: 
+9/9/2011 - 9:52
+
+ AM
+ 
+(ACR# 5146) Add: 10  WIDMAN CT, 
+X St: Near the intersection of Widman Ct and Bluefield Dr
+Name: 7782, 
+Phone: 
+Comp: 
+9/9/2011 - 9:55 AM
