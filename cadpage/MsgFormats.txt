@@ -3015,7 +3015,6 @@ Sender: rc.223@c-msg.net
 Harris County ESD, TX
 Contact: Nathan Mathews <nbmathews807@gmail.com>
 
-
 From:93001002
 Body:ID#:11-09-31059 - 67D02 - TRASH FIRE - 809 Becker St - Apt: - Bldg: - Key Map: 4
 Send time:1315830245000
@@ -3028,7 +3027,6 @@ Rec time: 1315830171151
 
 From:93001005
 Body:98C - Cross Streets:RAYWOOD DR/RIDLON - Box #:2003
-Eff Body:98C - Cross Streets:RAYWOOD DR/RIDLON - Box #:2003
 Send time:1315830249000
 Rec time: 1315830173673
 
@@ -3041,6 +3039,8 @@ From:93001006
 Body:ID#:11-09-31059 - 67D02 - TRASH FIRE - 809 Becker St - Apt: - Bldg: - Key Map: 4
 Send time:1315830251000
 Rec time: 1315830176482
+
+
 
 From:93001008
 Body:ID#:11-09-31059 - UNIT:E32 - DISP: 07:23:20 - ER: 07:25:26 - OUT: 07:31:02 - TO:
@@ -3059,8 +3059,6 @@ Body:ID#:11-09-31093 - - VEHICLE FIRE - 17618 River Rd - Apt: - Bldg: - Key Map:
 Body:- Cross Streets:PARK/FAIRMONT - Box #:2002
 Send time:1315849897000
 Rec time: 1315849807260
-
-
 
 **********************************************************
 **********************************************************
