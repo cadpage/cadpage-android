@@ -1,11 +1,10 @@
 package net.anei.cadpage.parsers.NY;
 
-import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.SmsMsgInfo.Data;
-import net.anei.cadpage.parsers.SmartAddressParser;
+import net.anei.cadpage.parsers.FieldProgramParser;
 
 /*
 Suffolk County, NY (Version B)
@@ -39,24 +38,28 @@ Contact: Odane Pur <mug930@gmail.com>
 Sender: paging@firerescuesystems.xohost.com
   / *** 23 - Miscellaneous Fire *** 18 SILVERPINE DR CS: ATNA DR  - PROSPECT ST W TOA: 12:10 07-17-11 2011-001109\n
 
+Contact: Sean Rudy <seanpolaris99@gmail.com>
+From: paging@firerescuesystems.xohost.com
+*** 2nd/16 - Rescue *** WENDY'S NBFC 1236 DEER PARK AVE CS: WOODS RD  - AUGUST RD TOA: 18:07 09-12-11 <07091211> a/f inj from fall NORTH BABYLON FC 2011-00 <201100>
+*** MV - Motor Vehicle Accident *** SS PY & DEER PARK AV Ext 39 SOUTHERN STATE PARKWAY CS: DEER PARK AVE TOA: 17:49 09-12-11 <49091211> EASTBOUND NORTH BAB
+*** 23 - Miscellaneous Fire *** 7 NON-AMBULATORY PTS ON 2ND FLOOR 15 BROOKSIDE AVE CS: O  - O DEER PARK AVE
+*** 2nd/16 - Rescue *** 1171 LITTLE EAST NECK RD CS: DELAWARE RD  - PHOENIX RD TOA: 09:29 09-12-11 <29091211> NORTH BABYLON FC 2011-002275 <2011002275>
+*** 16 - Rescue *** 101 ELKTON LN CS: MAYBROOK RD  - AUGUST RD TOA: 08:52 09-12-11 84 <5209121184> Y/F BODY PAINS  NORTH BABYLON FC 2011-002274<2011002274>
 
 sms send 1112223333 (1/2)Daniel M. Agababian - Sender: paging@firerescuesystems.xohost.com\n*** 16 - Rescue *** 162 OAKLAND AVE CS: W 6TH ST  / W 5TH ST TOA: 10:20 04/02/11 A/F INF
 sms send 1112223333 (2/2)FROM A FALL   DEER PARK FIR
 
 */
 
-public class NYSuffolkCountyBParser extends SmartAddressParser {
+public class NYSuffolkCountyBParser extends FieldProgramParser {
   
-  private static final String[] KEYWORDS = new String[]{"ADDR", "CS", "TOA", "HY"};
-  
-  private static final Pattern TIME_DATE = Pattern.compile("\\d\\d:\\d\\d \\d\\d/\\d\\d/\\d\\d ");
-  private static final String[] DISTRICT_LIST = new String[]{"NORTH BABYLON FC", "AMITYVILLE FD", "DEER PARK FIRE DISTRICT", "PT JEFFERSON"};
   private static final String[] CITY_LIST = new String[]{
     "PORT JEFFERSON", "BELLE TERRE", "MOUNT SINAI", "STONY BROOK", "MILLER PLACE", "CORAM"
   };
   
   public NYSuffolkCountyBParser() {
-    super(CITY_LIST, "SUFFOLK COUNTY", "NY");
+    super(CITY_LIST, "SUFFOLK COUNTY", "NY",
+           "ADDR/SP! CS:X! TOA:INFO");
   }
   
   @Override
@@ -68,29 +71,50 @@ public class NYSuffolkCountyBParser extends SmartAddressParser {
     if (pta < 0) return false;
     data.strCall = body.substring(3, pta).trim();
     body = body.substring(pta+3).trim();
-    
-    body = "ADDR:" + body;
-    Properties props = parseMessage(body, KEYWORDS);
-    parseAddress(StartType.START_PLACE, FLAG_ANCHOR_END, props.getProperty("ADDR", ""), data);
-    if (data.strPlace.endsWith("*")) data.strPlace = data.strPlace.substring(0, data.strPlace.length()-1).trim(); 
-    data.strCross = props.getProperty("CS", "");
-    String sSupp = props.getProperty("TOA", "");
-    Matcher match = TIME_DATE.matcher(sSupp);
-    if (match.find()) sSupp = sSupp.substring(match.end()).trim();
-    boolean found = false;
-    for (String district : DISTRICT_LIST) {
-      int pt = sSupp.indexOf(district);
-      if (pt >= 0) {
-        data.strSupp = sSupp.substring(0, pt).trim();
-        data.strSource = district;
-        data.strCallId = sSupp.substring(pt + district.length()).trim();
-        pt = data.strCallId.indexOf(' ');
-        if (pt >= 0) data.strCallId = data.strCallId.substring(0, pt);
-        found = true;
-        break;
-      }
-    }
-    if (!found) data.strSupp = sSupp;
+    if (! super.parseMsg(body, data)) return false;
+    if (data.strPlace.endsWith("*")) data.strPlace = data.strPlace.substring(0, data.strPlace.length()-1).trim();
     return true;
+  }
+
+  private static final Pattern TIME_DATE = Pattern.compile("^\\d\\d:\\d\\d \\d\\d[-/]\\d\\d[-/]\\d\\d ");
+  private static final Pattern ANGLE_BKT_PTN = Pattern.compile("<[^<>]*>");
+  private static final Pattern ID_PTN = Pattern.compile("\\b\\d{4}-\\d{6}\\b");
+  private static final Pattern DISTRICT_PTN = Pattern.compile("\\b(?:NORTH BABYLON FC|AMITYVILLE FD|DEER PARK FIRE DISTRICT|PT JEFFERSON)\\b");
+  private class MyInfoField extends InfoField {
+    
+    @Override
+    public void parse(String field, Data data) {
+      Matcher match = TIME_DATE.matcher(field);
+      if (match.find()) field = field.substring(match.end()).trim();
+      field = ANGLE_BKT_PTN.matcher(field).replaceAll("");
+      match = DISTRICT_PTN.matcher(field);
+      if (match.find()) {
+        data.strSource = match.group();
+        field = field.substring(0,match.start()) + field.substring(match.end());
+      }
+      match = ID_PTN.matcher(field);
+      if (match.find()) {
+        data.strCallId = match.group();
+        field = field.substring(0,match.start()) + field.substring(match.end());
+      }
+      field = field.trim().replaceAll("  +", " ");
+      super.parse(field, data);
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "SRC ID INFO";
+    }
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("INFO")) return new MyInfoField();
+    return super.getField(name);
+  }
+  
+  @Override
+  public String getProgram() {
+    return "CALL " + super.getProgram();
   }
 }
