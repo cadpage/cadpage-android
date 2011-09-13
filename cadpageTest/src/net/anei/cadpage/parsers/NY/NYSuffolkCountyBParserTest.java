@@ -20,7 +20,7 @@ public class NYSuffolkCountyBParserTest extends BaseParserTest {
         "CALL:13 - Structure Fire",
         "ADDR:147 CHERUBINA LN",
         "X:LEADER AVE  / SKIDMORE RD",
-        "INFO:OIL BURNER",
+        "INFO:OIL BURNER HY: 8' 11",
         "SRC:NORTH BABYLON FC",
         "ID:2010-002398");
 
@@ -30,7 +30,8 @@ public class NYSuffolkCountyBParserTest extends BaseParserTest {
         "ADDR:514 MOUNT PL",
         "X:ESSEX ST  / LAKEWAY DR",
         "SRC:NORTH BABYLON FC",
-        "ID:2010-002393");
+        "ID:2010-002393",
+        "INFO:HY: 12' 533 MOUNT PL @ ESSE");
 
     doTest("T3",
         "*** 2nd/16 - Rescue *** 733 HIGHRIDGE RD CS: OCONNER RD  / NARLAND LN TOA: 20:46 09/22/10 a/m pysch emer NORTH BABYLON FC 2010-002395",
@@ -63,9 +64,8 @@ public class NYSuffolkCountyBParserTest extends BaseParserTest {
         "CALL:24/16 - Mutual Aid",
         "ADDR:22 ELGIN RD",
         "X:DE  / COOLIDGE AVE",
-        "INFO:E/F UNABLE TO MOVE  **FULL CREW NEEDED**",
-        "SRC:AMITYVILLE FD",
-        "ID:2010-00");
+        "INFO:E/F UNABLE TO MOVE **FULL CREW NEEDED** 2010-00",
+        "SRC:AMITYVILLE FD");
     
     doTest("T12",
         "*** 24/MV - Mutual Aid ***  MONTAUK HWY CS: WILSON AVE TOA: 11:43 10/20/10 AMITYVILLE FD 2010-000229",
@@ -89,7 +89,7 @@ public class NYSuffolkCountyBParserTest extends BaseParserTest {
         "CALL:3/16 - Rescue",
         "ADDR:204 VAN BUREN ST",
         "X:LEWIS AVE  / BELMONT AVE",
-        "INFO:E/F UNRESPONSIVE  **EMT NEEDED** NO");
+        "INFO:E/F UNRESPONSIVE **EMT NEEDED** NO");
     
     doTest("T14",
         "*** 16 - Rescue *** 41 WILLIAMS AVE CS: CAMPBELL ST  / MOORE ST TOA: 18:01 10/25/10 E/F UNCONCIOUS-NOT BREATHING AMITYVILLE FD 2010-000231",
@@ -177,7 +177,8 @@ public class NYSuffolkCountyBParserTest extends BaseParserTest {
         "CITY:PORT JEFFERSON",
         "X:SPRING ST  / MAPLE PL",
         "SRC:PT JEFFERSON",
-        "ID:2011-000003");
+        "ID:2011-000003",
+        "INFO:PJFD");
 
     doTest("T31",
         "*** 30 - RESCUE *** U.S.A. SKATING RINK 1276 HICKSVILLE RD CS: SUFFOLK AVE  / DOGWOOD LN A-2 TOA: 20:12 03/30/11 2011-000250 Hazmat",
@@ -185,7 +186,8 @@ public class NYSuffolkCountyBParserTest extends BaseParserTest {
         "PLACE:USA SKATING RINK",
         "ADDR:1276 HICKSVILLE RD",
         "X:SUFFOLK AVE  / DOGWOOD LN A-2",
-        "INFO:2011-000250 Hazmat");
+        "ID:2011-000250",
+        "INFO:Hazmat");
 
     doTest("T32",
         "*** 16 - Rescue *** 30 DEER SHORE SQ CS: DEER PARK AVE  / BAY SHORE RD TOA: 13:04 04/02/11 F/M STROKE DEER PARK FIRE",
@@ -206,24 +208,64 @@ public class NYSuffolkCountyBParserTest extends BaseParserTest {
         "CALL:16 - Rescue",
         "ADDR:1015 GRAND BLVD",
         "X:E INDUSTRY CT  / CORBIN AVE",
-        "INFO:3 Y/O POSSINING  DEER PARK F");
+        "INFO:3 Y/O POSSINING DEER PARK F");
 
     doTest("T35",
         "*** 16 - Rescue *** 162 OAKLAND AVE CS: W 6TH ST  / W 5TH ST TOA: 10:20 04/02/11 A/F INF FROM A FALL   DEER PARK FIR",
         "CALL:16 - Rescue",
         "ADDR:162 OAKLAND AVE",
         "X:W 6TH ST  / W 5TH ST",
-        "INFO:A/F INF FROM A FALL   DEER PARK FIR");
+        "INFO:A/F INF FROM A FALL DEER PARK FIR");
 
     doTest("T36",
         "/ *** 23 - Miscellaneous Fire *** 18 SILVERPINE DR CS: ATNA DR  - PROSPECT ST W TOA: 12:10 07-17-11 2011-001109\n",
         "CALL:23 - Miscellaneous Fire",
         "ADDR:18 SILVERPINE DR",
         "X:ATNA DR  - PROSPECT ST W",
-        "INFO:12:10 07-17-11 2011-001109");
+        "ID:2011-001109");
+
+    doTest("T37",
+        "*** 2nd/16 - Rescue *** WENDY'S NBFC 1236 DEER PARK AVE CS: WOODS RD  - AUGUST RD TOA: 18:07 09-12-11 <07091211> a/f inj from fall NORTH BABYLON FC 2011-00 <201100>",
+        "CALL:2nd/16 - Rescue",
+        "PLACE:WENDY'S NBFC",
+        "ADDR:1236 DEER PARK AVE",
+        "X:WOODS RD  - AUGUST RD",
+        "SRC:NORTH BABYLON FC",
+        "INFO:a/f inj from fall 2011-00");
+
+    doTest("T38",
+        "*** MV - Motor Vehicle Accident *** SS PY & DEER PARK AV Ext 39 SOUTHERN STATE PARKWAY CS: DEER PARK AVE TOA: 17:49 09-12-11 <49091211> EASTBOUND NORTH BAB",
+        "CALL:MV - Motor Vehicle Accident",
+        "PLACE:SS PY & DEER PARK AV Ext",
+        "ADDR:39 SOUTHERN STATE PARKWAY",
+        "X:DEER PARK AVE",
+        "INFO:EASTBOUND NORTH BAB");
+
+    doTest("T39",
+        "*** 23 - Miscellaneous Fire *** 7 NON-AMBULATORY PTS ON 2ND FLOOR 15 BROOKSIDE AVE CS: O  - O DEER PARK AVE",
+        "CALL:23 - Miscellaneous Fire",
+        "ADDR:7 NON-AMBULATORY PTS ON 2ND FLOOR 15 BROOKSIDE AVE",
+        "X:O  - O DEER PARK AVE");
+
+    doTest("T40",
+        "*** 2nd/16 - Rescue *** 1171 LITTLE EAST NECK RD CS: DELAWARE RD  - PHOENIX RD TOA: 09:29 09-12-11 <29091211> NORTH BABYLON FC 2011-002275 <2011002275>",
+        "CALL:2nd/16 - Rescue",
+        "ADDR:1171 LITTLE EAST NECK RD",
+        "X:DELAWARE RD  - PHOENIX RD",
+        "SRC:NORTH BABYLON FC",
+        "ID:2011-002275");
+
+    doTest("T41",
+        "*** 16 - Rescue *** 101 ELKTON LN CS: MAYBROOK RD  - AUGUST RD TOA: 08:52 09-12-11 84 <5209121184> Y/F BODY PAINS  NORTH BABYLON FC 2011-002274<2011002274>",
+        "CALL:16 - Rescue",
+        "ADDR:101 ELKTON LN",
+        "X:MAYBROOK RD  - AUGUST RD",
+        "SRC:NORTH BABYLON FC",
+        "ID:2011-002274",
+        "INFO:84 Y/F BODY PAINS");
   }
   
   public static void main(String[] args) {
-    new NYSuffolkCountyBParserTest().generateTests("T37", "CALL PLACE ADDR CITY X INFO SRC ID");
+    new NYSuffolkCountyBParserTest().generateTests("T37");
   }
 }
