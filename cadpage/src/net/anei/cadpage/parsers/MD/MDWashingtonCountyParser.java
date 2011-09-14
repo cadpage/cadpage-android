@@ -30,6 +30,10 @@ LEITERSBURG PIKE / MILLERS CHURCH RD - PIC, PERS INJURY COLLISION - CO9,R75,P753
 MAPLEVILLE RD / JEFFERSON BLVD - PIC, PERS INJURY COLLISION - CO7,R79,M791,SUP70,P792,C79,RSQE7 - 1106339 12:40
 INTERSTATE 70, 32MM I70 AT REST AREA - ABDOMINAL PAIN - PROBLEMS - R75,R79,CO10 - 1106419 16:28\nDo Not REPLY to this email!!!
 
+Contact: Jim A <skidooxman@gmail.com>
+Sender: TextAlert@sems79.org
+CHEWSVILLE RD / WHITE HALL RD, AREA - SMOKE INVESTIGATION - CO16,SO20,CO7,RS20,E161,E74,ET7 - 1117561 07:46\nDo Not REPLY to this email!!!
+
 */
 
 public class MDWashingtonCountyParser extends FieldProgramParser {
@@ -69,7 +73,7 @@ public class MDWashingtonCountyParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "Dispatch@washco-md.net,rc.442@c-msg.net";
+    return "Dispatch@washco-md.net,rc.442@c-msg.net,TextAlert@sems79.org";
   }
   
   @Override
