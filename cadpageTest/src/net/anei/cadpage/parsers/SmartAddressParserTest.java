@@ -35,14 +35,15 @@ public class SmartAddressParserTest extends BaseParserTest {
   
   @Test
   public void testProblem() {
-    doTest(SKIP, "CAN WE FIND HWY 20 AND WEST HILLS RD KENSBURG BLACK",
-        "ADDR:HWY 20 AND WEST HILLS RD",
-        "CITY:KENSBURG");
   }
 
   
   @Test
   public void testProblems() {
+    
+//    doTest(PLACE, FLAG_ANCHOR_END, "7 NON-AMBULATORY PTS ON 2ND FLOOR 15 BROOKSIDE AVE",
+//        "PLACE:7 NON-AMBULATORY PTS ON 2ND FLOOR ",
+//        "ADDR:15 BROOKSIDE AVE");
     
     doTest(CALL, FLAG_START_FLD_REQ | FLAG_ANCHOR_END, 
         "Please Operate 33.88/  Lift Assist 2 N  POTVIN AVE",

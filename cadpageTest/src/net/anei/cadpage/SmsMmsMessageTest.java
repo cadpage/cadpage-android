@@ -9,6 +9,12 @@ public class SmsMmsMessageTest {
   @Test
   public void testParseInfo() {
     
+    doParseTest("NCCarteretCounty",
+        "wcfd.comm2+caf_=2522413726=vtext.com@gmail.com CEC:129 HUNTER BROWN DR CAPE CARTERET 11-113600 16:24:22 STROKE",
+        "vtext.com@gmail.com",
+        "",
+        "CEC:129 HUNTER BROWN DR CAPE CARTERET 11-113600 16:24:22 STROKE");
+    
     doParseTest("NYJeffersonCounty",
         "sentto-76513067-101-1314862564-3159559896=vtext.com@returns.groups.yahoo.com ([carthageambulance] DISPATCH:1191) FALL|1045 WEST ST:CARTHAGE(V)|83 Y/F FELL OUT OF BED BROKEN NOSE AN",
         "vtext.com@returns.groups.yahoo.com",
