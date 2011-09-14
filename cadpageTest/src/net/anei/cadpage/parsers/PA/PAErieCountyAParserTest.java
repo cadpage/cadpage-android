@@ -169,6 +169,6 @@ public class PAErieCountyAParserTest extends BaseParserTest {
   }
   
   public static void main(String[] args) {
-    new PAErieCountyAParserTest().generateTests("T17", "CALL ADDR CITY X NAME MAP PLACE ID");
+    new PAErieCountyAParserTest().generateTests("T18", "CALL ADDR CITY X NAME MAP PLACE ID");
   }
 }

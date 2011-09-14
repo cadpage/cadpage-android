@@ -160,9 +160,41 @@ public class TXHumbleParserTest extends BaseParserTest {
         "X:Shearwater Bend Dr",
         "UNIT:E-M29",
         "ID:201139940");
+
+    doTest("T13",
+        "(Chief ALT) [EMS] - Eye Problems - Moderate - 238 Old Arbor Way, Humble - Map: 376H- - Xst's: Morning Shadows Way Dawn - Units: E-M29 - 201141225",
+        "SRC:EMS",
+        "CALL:Eye Problems - Moderate",
+        "ADDR:238 Old Arbor Way",
+        "CITY:Humble",
+        "MAP:376H-",
+        "X:Morning Shadows Way Dawn",
+        "UNIT:E-M29",
+        "ID:201141225");
+
+    doTest("T14",
+        "(Chief ALT) [EMS] - Chest Pain - Clammy - 0218 Powerscourt - Map: 337U- - Units: E-M39 E-E39 E-D59 - 201141272",
+        "SRC:EMS",
+        "CALL:Chest Pain - Clammy",
+        "ADDR:0218 Powerscourt",
+        "MAP:337U-",
+        "UNIT:E-M39 E-E39 E-D59",
+        "ID:201141272");
+
+    doTest("T15",
+        "(Chief ALT) [FIRE] - Fire Alarm - Commercial - 5250 E Fm 1960, Humble - Map: 337W- - Humble Mini Warehouse - Xst's: Moon Trail Dr Timber Fore - Units: ATFD E-E39 - 20",
+        "SRC:FIRE",
+        "CALL:Fire Alarm - Commercial",
+        "ADDR:5250 E Fm 1960",
+        "CITY:Humble",
+        "MAP:337W-",
+        "PLACE:Humble Mini Warehouse",
+        "X:Moon Trail Dr Timber Fore",
+        "UNIT:ATFD E-E39",
+        "ID:20");
  }
   
   public static void main(String[] args) {
-    new TXHumbleParserTest().generateTests("T8");
+    new TXHumbleParserTest().generateTests("T13");
   }
 }
