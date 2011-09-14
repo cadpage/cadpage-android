@@ -66,6 +66,6 @@ public class NCOrangeCountyParserTest extends BaseParserTest {
   
 
   public static void main(String[] args) {
-    new NCOrangeCountyParserTest().generateTests("T1");
+    new NCOrangeCountyParserTest().generateTests("T8");
   }
 }

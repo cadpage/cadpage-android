@@ -123,7 +123,15 @@ public class MDWashingtonCountyParserTest extends BaseParserTest {
         "CALL:ABDOMINAL PAIN - PROBLEMS",
         "UNIT:R75,R79,CO10",
         "ID:1106419");
-    
+
+    doTest("T15",
+        "CHEWSVILLE RD / WHITE HALL RD, AREA - SMOKE INVESTIGATION - CO16,SO20,CO7,RS20,E161,E74,ET7 - 1117561 07:46\nDo Not REPLY to this email!!!",
+        "ADDR:CHEWSVILLE RD & WHITE HALL RD",
+        "PLACE:AREA",
+        "CALL:SMOKE INVESTIGATION",
+        "UNIT:CO16,SO20,CO7,RS20,E161,E74,ET7",
+        "ID:1117561");
+   
   }
   
   public static void main(String[] args) {
