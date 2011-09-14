@@ -3059,10 +3059,6 @@ Body:ID#:11-09-31093 - - VEHICLE FIRE - 17618 River Rd - Apt: - Bldg: - Key Map:
 Body:- Cross Streets:PARK/FAIRMONT - Box #:2002
 Send time:1315849897000
 Rec time: 1315849807260
-
-**********************************************************
-**********************************************************
-**********************************************************
 **********************************************************
 **********************************************************
 **********************************************************
@@ -3105,6 +3101,39 @@ System: InteractCAD
 9-1-1CENTRAL:MED >MEDICAL CALL 25139 US HWY 411 XS: BEGINS @ END OF MOODY PRKWY ASHVILLE FARMER, RANDY 2055945861 Map: Grids:0,0 Cad: 2011-0000072997
 9-1-1CENTRAL:FIRES >STRUCTURE FIRE 60 SALEM CT XS: R INT @ 7430 CO RD 31 ASHVILLE PAULA 9112755039 Map: Grids:0,0 Cad: 2011-0000072597
 9-1-1CENTRAL:MED >MEDICAL CALL 2607 AL HWY 23 SPRINGVILLE CHUCK BACHUSS 2053695680 Map: Grids:0,0 Cad: 2011-0000071871
+**********************************************************
+Genesee County, NY
+Contact: rtripp@2ki.net
+Sender: 911center@co.genesee.ny.us
+Matches one of Chester County, PA formats?
+
+[Dispatch]  Acc PIAA ** 392.3 RT 90 E** , BATAVIA - ** ONE VEHICLE
+ROLLOVER **
+LEWISTON RD, I 90 / KELSEY RD, I 90 ** 07/12/11 17:29 **
+
+[Dispatch]  Alarm Fire ** ** 2614 W  MAIN STREET RD ,
+BATAVIA - ** 2ND FLOOR SMOKE DETECRTOR KENNETH HERMAN RESIDENCE ** READ
+
+[Dispatch]  Fire Auto ** 387.6 RT 90 W** , BATAVIA - **
+POSS TRACTOR TRAILER FIRE - BOX TRAILER ** I 90, I-90 CONNECTOR / I 90,
+
+[Dispatch]  Fire Nat Propane Gas ** ** 8470 VIOLET LN ,
+BATAVIA - ** COMPL STRUCK GAS LINE OUT THE RESIDENCE 1/2" LINE  ** DANA
+
+[Dispatch]  Acc PIAA ** ** 5402 ELLICOTT STREET RD , BETHANY - ** ONE VEHICLE
+ACCIDENT ** CLAPSADDLE RD / MAYNE RD ** 06/19/11 02:22 **
+
+(Dispatch) Acc PIAA ** FRONTIER KITCHENS** 8392 LEWISTON
+RD , BATAVIA - ** TWO CAR MVA MINER INJ ** PARK RD / W MAIN STREET RD
+
+(Dispatch) Alarm Fire ** COLLEGE VILLAGE** 8170
+BATAVIA STAFFORD TOWNLINE RD , BATAVIA - ** F 201- FIRE ALARM - ALARM HAS
+RESE
+
+[Dispatch]  Acc PIAA ** Johnson Automotive** 3924 W  MAIN
+STREET RD , BATAVIA - ** 2 CAR MVA W INJ ** COUNTY BLDG / COLONIAL BL
+**********************************************************
+**********************************************************
 **********************************************************
 Wilmington (brandywine), DE
 Contact: "cmwetherby@aol.com" <cmwetherby@aol.com>
@@ -3210,3 +3239,12 @@ Name: 7782,
 Phone: 
 Comp: 
 9/9/2011 - 9:55 AM
+
+(ACR# 5184) Add: 230 Kearsing Pkwy, 
+X St: Between Jill Ln and RT-306
+Name: Krausz, Arnold
+Phone: 8454267408
+Comp: CHEST PAIN
+9/13/2011 - 10
+
+:17 AM
