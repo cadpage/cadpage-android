@@ -318,6 +318,7 @@ public class PABucksCountyParser extends FieldProgramParser {
       "BPTAST",     "PATIENT ASSIST",
       "BTAI",       "BLS TRAFFIC ACCIDENT (MINOR INJURIES)",
       "BTRAN",      "EMERGENCY TRANSPORTATION",
+      "ESPEC",      "STANDBY / SPECIAL ASSIGNMENT (EMS)",
       "MALRM",      "MEDICAL ALARM"
   });
 }
