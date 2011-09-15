@@ -18,4 +18,10 @@ public class PAErieCountyParserTest {
       setParser(new PAErieCountyParser());
     }
   }
+  
+  public static class TestC extends PAErieCountyCParserTest {
+    public TestC() {
+      setParser(new PAErieCountyParser());
+    }
+  }
 }

@@ -18,7 +18,7 @@ public class OHXeniaParserTest extends BaseParserTest {
         "MBLS-MEDICAL Location: 160 RICHARD DR DAYTON XENIA RD / ROBERT LN XENIA TWP Time: 17:31 Units: M51  Common",
         "CALL:MBLS-MEDICAL",
         "ADDR:160 RICHARD DR",
-        "X:DAYTON XENIA RD & ROBERT LN",
+        "X:DAYTON XENIA RD / ROBERT LN",
         "CITY:XENIA TWP",
         "UNIT:M51");
 
@@ -27,35 +27,35 @@ public class OHXeniaParserTest extends BaseParserTest {
         "CALL:FMALS-MEDIC AL",
         "ADDR:378 WINDING TRL",
         "PLACE:LAMPLIGHTER PL",
-        "X:WOODLAND DR & HELEN AVE",
+        "X:WOODLAND DR / HELEN AVE",
         "CITY:XENIA TWP");
 
     doTest("T3",
         "FGRA-GRASS/FIELD Location: 731 HOOK RD OLD HOOK RD / S BICKETT RD XENIA TWP Time: 11:52 Units:  Common Name",
         "CALL:FGRA-GRASS/FIELD",
         "ADDR:731 HOOK RD",
-        "X:OLD HOOK RD & S BICKETT RD",
+        "X:OLD HOOK RD / S BICKETT RD",
         "CITY:XENIA TWP");
 
     doTest("T4",
         "FMBLS-MEDICAL Location: 721 KINSEY RD CRESTLINE DR / APOLLO DR XENIA TWP Time: 23:36 Units:  Common Name: I",
         "CALL:FMBLS-MEDICAL",
         "ADDR:721 KINSEY RD",
-        "X:CRESTLINE DR & APOLLO DR",
+        "X:CRESTLINE DR / APOLLO DR",
         "CITY:XENIA TWP");
 
     doTest("T5",
         "FGRA-GRASS/FIELD Location: 731 HOOK RD OLD HOOK RD / S BICKETT RD XENIA TWP Time: 11:52 Units:  Common Name",
         "CALL:FGRA-GRASS/FIELD",
         "ADDR:731 HOOK RD",
-        "X:OLD HOOK RD & S BICKETT RD",
+        "X:OLD HOOK RD / S BICKETT RD",
         "CITY:XENIA TWP");
 
     doTest("T6",
         "FMBLS-MEDICAL Location: 160 RICHARD DR DAYTON XENIA RD / ROBERT LN XENIA TWP Time: 17:31 Units: M51  Common",
         "CALL:FMBLS-MEDICAL",
         "ADDR:160 RICHARD DR",
-        "X:DAYTON XENIA RD & ROBERT LN",
+        "X:DAYTON XENIA RD / ROBERT LN",
         "CITY:XENIA TWP",
         "UNIT:M51");
 
@@ -73,14 +73,14 @@ public class OHXeniaParserTest extends BaseParserTest {
         "CALL:FMALS-MEDIC AL",
         "ADDR:378 WINDING TRL",
         "PLACE:LAMPLIGHTER PL",
-        "X:WOODLAND DR & HELEN AVE",
+        "X:WOODLAND DR / HELEN AVE",
         "CITY:XENIA TWP");
 
     doTest("T9",
         "CRPI Location: 413 CLIFTON RD LITTLE MIAMI SCENIC BIKE PATH / CLARK RUN RD XENIA TWP Time: 19:17 Units: E51",
         "CALL:CRPI",
         "ADDR:413 CLIFTON RD",
-        "X:LITTLE MIAMI SCENIC BIKE PATH & CLARK RUN RD XENIA TWP",
+        "X:LITTLE MIAMI SCENIC BIKE PATH / CLARK RUN RD XENIA TWP",
         "UNIT:E51");
 
     doTest("T10",
@@ -96,20 +96,20 @@ public class OHXeniaParserTest extends BaseParserTest {
         "FMBLS-MEDICAL Location: 9 SEXTON DR OLD SPRINGFIELD PIKE / OLD SPRINGFIELD PIKE XENIA TWP Time: 21:28 Units",
         "CALL:FMBLS-MEDICAL",
         "ADDR:9 SEXTON DR",
-        "X:OLD SPRINGFIELD PIKE & OLD SPRINGFIELD PIKE",
+        "X:OLD SPRINGFIELD PIKE / OLD SPRINGFIELD PIKE",
         "CITY:XENIA TWP");
 
     doTest("T12",
         "FACO-FIRE ALARM COMMERCIAL Location: 121 FAIRGROUND RD GREENE COUNTY FAIRGROUNDS / BEAVERCREEK LN XENIA TWP",
         "CALL:FACO-FIRE ALARM COMMERCIAL",
         "ADDR:121 FAIRGROUND RD",
-        "X:GREENE COUNTY FAIRGROUNDS & BEAVERCREEK LN XENIA TWP");
+        "X:GREENE COUNTY FAIRGROUNDS / BEAVERCREEK LN XENIA TWP");
 
     doTest("T13",
         "FMBLS-MEDICAL Location: 1154 HOOK RD S BICKETT RD / OLD HOOK RD XENIA TWP Time: 13:36 Units: M52  Common Na",
         "CALL:FMBLS-MEDICAL",
         "ADDR:1154 HOOK RD S",
-        "X:BICKETT RD & OLD HOOK RD",
+        "X:BICKETT RD / OLD HOOK RD",
         "CITY:XENIA TWP",
         "UNIT:M52");
 
@@ -117,7 +117,7 @@ public class OHXeniaParserTest extends BaseParserTest {
         "FMALS-MEDIC AL Location: 3301 BONE RD UNKNOWN / E SPRING VALLEY PAINTERSVILLE RD CAESARCREEK TWP Time: 18:2",
         "CALL:FMALS-MEDIC AL",
         "ADDR:3301 BONE RD",
-        "X:UNKNOWN & E SPRING VALLEY PAINTERSVILLE RD CAESARCREEK TWP");
+        "X:UNKNOWN / E SPRING VALLEY PAINTERSVILLE RD CAESARCREEK TWP");
 
     doTest("T15",
         "CRUI Location: E LIMESTONE ST XENIA AVE YELLOW SPRINGS Time: 18:42 Units: E82 HUSMA M51 CHF81  Common Name:",
@@ -131,7 +131,7 @@ public class OHXeniaParserTest extends BaseParserTest {
         "FMBLS-MEDICAL Location: 2960 W  ENON RD SR 235 / W HYDE RD XENIA TWP Time: 12:02 Units: M51  Common Name: G",
         "CALL:FMBLS-MEDICAL",
         "ADDR:2960 W ENON RD",
-        "X:SR 235 & W HYDE RD",
+        "X:SR 235 / W HYDE RD",
         "CITY:XENIA TWP",
         "UNIT:M51",
         "NAME:G");
@@ -147,7 +147,7 @@ public class OHXeniaParserTest extends BaseParserTest {
         "FMALS-MEDIC AL Location: 1154 HOOK RD S BICKETT RD / OLD HOOK RD XENIA TWP Time: 09:05 Units: M52 E52  Comm",
         "CALL:FMALS-MEDIC AL",
         "ADDR:1154 HOOK RD S",
-        "X:BICKETT RD & OLD HOOK RD",
+        "X:BICKETT RD / OLD HOOK RD",
         "CITY:XENIA TWP",
         "UNIT:M52 E52");
 
@@ -155,7 +155,7 @@ public class OHXeniaParserTest extends BaseParserTest {
         "FMBLS-MEDICAL Location: 1154 HOOK RD S BICKETT RD / OLD HOOK RD XENIA TWP Time: 17:17 Units:  Common Name:",
         "CALL:FMBLS-MEDICAL",
         "ADDR:1154 HOOK RD S",
-        "X:BICKETT RD & OLD HOOK RD",
+        "X:BICKETT RD / OLD HOOK RD",
         "CITY:XENIA TWP");
 
     doTest("T20",
@@ -176,7 +176,7 @@ public class OHXeniaParserTest extends BaseParserTest {
         "FMBLS-MEDICAL Location: 1541 SR 380 COUNTRY PLACE CT / RENAISSANCE WOOD CT XENIA TWP Time: 00:28 Units: M52",
         "CALL:FMBLS-MEDICAL",
         "ADDR:1541 SR 380",
-        "X:COUNTRY PLACE CT & RENAISSANCE WOOD CT",
+        "X:COUNTRY PLACE CT / RENAISSANCE WOOD CT",
         "CITY:XENIA TWP",
         "UNIT:M52");
 
@@ -184,7 +184,7 @@ public class OHXeniaParserTest extends BaseParserTest {
         "FMBLS-MEDICAL Location: 467 WILSON DR REGINA DR / MEADOW LN XENIA TWP Time: 23:39 Units:  Common Name: Info",
         "CALL:FMBLS-MEDICAL",
         "ADDR:467 WILSON DR",
-        "X:REGINA DR & MEADOW LN",
+        "X:REGINA DR / MEADOW LN",
         "CITY:XENIA TWP");
 
     doTest("T24",
@@ -198,14 +198,14 @@ public class OHXeniaParserTest extends BaseParserTest {
         "FMALS-MEDIC AL Location: 1264 BOYD RD DEAD END / US 68 S XENIA TWP Time: 21:25 Units: M52 E52  Common Name:",
         "CALL:FMALS-MEDIC AL",
         "ADDR:1264 BOYD RD",
-        "X:DEAD END & US 68 S XENIA TWP",
+        "X:DEAD END / US 68 S XENIA TWP",
         "UNIT:M52 E52");
 
     doTest("T26",
         "FMBLS-MEDICAL Location: 1154 HOOK RD S BICKETT RD / OLD HOOK RD XENIA TWP Time: 17:17 Units:  Common Name:",
         "CALL:FMBLS-MEDICAL",
         "ADDR:1154 HOOK RD S",
-        "X:BICKETT RD & OLD HOOK RD",
+        "X:BICKETT RD / OLD HOOK RD",
         "CITY:XENIA TWP");
     
   }
@@ -217,7 +217,7 @@ public class OHXeniaParserTest extends BaseParserTest {
         "(Dispatch Info) FMBLS-MEDICAL Location: 738 BLACK FOOT TRL SHAWNEE TRL / ONEIDA TRL NEW JASPER TWP Time: 20:37 Units:  Common Name: Info:  Problem: LO",
         "CALL:FMBLS-MEDICAL",
         "ADDR:738 BLACK FOOT TRL",
-        "X:SHAWNEE TRL & ONEIDA TRL",
+        "X:SHAWNEE TRL / ONEIDA TRL",
         "CITY:NEW JASPER TWP",
         "INFO:Problem: LO");
 
@@ -225,7 +225,7 @@ public class OHXeniaParserTest extends BaseParserTest {
         "(Dispatch Info) FMALS-MEDIC AL Location: 3986 SHAWNEE TRL N LAKESHORE DR / NIAGARA TRL NEW JASPER TWP Time: 14:09 Units: M42 BR14  Common Name: Info:",
         "CALL:FMALS-MEDIC AL",
         "ADDR:3986 SHAWNEE TRL N",
-        "X:LAKESHORE DR & NIAGARA TRL",
+        "X:LAKESHORE DR / NIAGARA TRL",
         "CITY:NEW JASPER TWP",
         "UNIT:M42 BR14");
 
@@ -233,7 +233,7 @@ public class OHXeniaParserTest extends BaseParserTest {
         "(Dispatch Info) FMBLS-MEDICAL Location: 3811 WAYNESVILLE JAMESTOWN RD ST JOHN RD / MT CARMEL RD NEW JASPER TWP Time: 09:57 Units: M14 BR14  Common Nam",
         "CALL:FMBLS-MEDICAL",
         "ADDR:3811 WAYNESVILLE JAMESTOWN RD",
-        "X:ST JOHN RD & MT CARMEL RD",
+        "X:ST JOHN RD / MT CARMEL RD",
         "CITY:NEW JASPER TWP",
         "UNIT:M14 BR14");
 
@@ -241,7 +241,7 @@ public class OHXeniaParserTest extends BaseParserTest {
         "(Dispatch Info) CRUI Location: 3809 JASPER RD ST JOHN RD / APACHE TRL NEW JASPER TWP Time: 18:16 Units:  Common Name: Info:  W 2 PTS NON ER TO GMH  PO",
         "CALL:CRUI",
         "ADDR:3809 JASPER RD",
-        "X:ST JOHN RD & APACHE TRL",
+        "X:ST JOHN RD / APACHE TRL",
         "CITY:NEW JASPER TWP",
         "INFO:W 2 PTS NON ER TO GMH  PO");
 
@@ -249,7 +249,7 @@ public class OHXeniaParserTest extends BaseParserTest {
         "(Dispatch Info) FMALS-MEDIC AL Location: 2136 E  HOOP RD GULTICE RD / COOPER LN NEW JASPER TWP Time: 06:21 Units: M14 BR14  Common Name: Info:  NOT RE",
         "CALL:FMALS-MEDIC AL",
         "ADDR:2136 E HOOP RD",
-        "X:GULTICE RD & COOPER LN",
+        "X:GULTICE RD / COOPER LN",
         "CITY:NEW JASPER TWP",
         "UNIT:M14 BR14",
         "INFO:NOT RE");

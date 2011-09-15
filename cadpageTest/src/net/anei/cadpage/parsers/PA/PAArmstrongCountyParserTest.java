@@ -18,7 +18,7 @@ public class PAArmstrongCountyParserTest extends BaseParserTest {
     doTest("T2",
         "11878 STATE ROUTE 85 ARMSDALE RD / CRYTZER RD ORPHANS OF THE STORM VAENT 40313 19:09 7247120225",
         "ADDR:11878 STATE ROUTE 85",
-        "X:ARMSDALE RD & CRYTZER RD",
+        "X:ARMSDALE RD / CRYTZER RD",
         "PLACE:ORPHANS OF THE STORM",
         "CALL:VAENT",
         "ID:40313");
@@ -28,13 +28,13 @@ public class PAArmstrongCountyParserTest extends BaseParserTest {
         "473 TROY HILL RD AIRPORT RD / MCGREGOR RD FMISC 39992 05:40 7245453398",
         "ADDR:473 TROY HILL RD",
         "CALL:FMISC",
-        "X:AIRPORT RD & MCGREGOR RD",
+        "X:AIRPORT RD / MCGREGOR RD",
         "ID:39992");
 
     doTest("T2",
         "11878 STATE ROUTE 85 ARMSDALE RD / CRYTZER RD ORPHANS OF THE STORM VAENT 40313 19:09 7247120225",
         "ADDR:11878 STATE ROUTE 85",
-        "X:ARMSDALE RD & CRYTZER RD",
+        "X:ARMSDALE RD / CRYTZER RD",
         "PLACE:ORPHANS OF THE STORM",
         "CALL:VAENT",
         "ID:40313");
@@ -42,14 +42,14 @@ public class PAArmstrongCountyParserTest extends BaseParserTest {
     doTest("T3",
         "141 ADAMS RD STATE ROUTE 85 / BALLOCK LN FMISC 40720 09:07 7247837418",
         "ADDR:141 ADAMS RD",
-        "X:STATE ROUTE 85 & BALLOCK LN",
+        "X:STATE ROUTE 85 / BALLOCK LN",
         "CALL:FMISC",
         "ID:40720");
 
     doTest("T4",
         "[Dispatch]  580 N CHERRY ST HOOKS LN / SPRUCE LN FSTR2 41628 13:58 7246640045",
         "ADDR:580 N CHERRY ST",
-        "X:HOOKS LN & SPRUCE LN",
+        "X:HOOKS LN / SPRUCE LN",
         "CALL:FSTR2",
         "ID:41628");
 

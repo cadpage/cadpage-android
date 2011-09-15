@@ -21,6 +21,8 @@ public class SmartAddressParserTest extends BaseParserTest {
   private static final int FLAG_IMPLIED_INTERSECT = SmartAddressParser.FLAG_IMPLIED_INTERSECT;
   private static final int FLAG_PAD_FIELD = SmartAddressParser.FLAG_PAD_FIELD;
   private static final int FLAG_CHECK_STATUS = SmartAddressParser.FLAG_CHECK_STATUS;
+  private static final int FLAG_ONLY_CITY = SmartAddressParser.FLAG_ONLY_CITY;
+  private static final int FLAG_ONLY_CROSS = SmartAddressParser.FLAG_ONLY_CROSS;
   
   private static final String[] CITY_LIST = new String[]{"KENSBURG", "KEN TOWN"};
   private static final String DEF_CITY = "STATE OF MIND";
@@ -36,7 +38,6 @@ public class SmartAddressParserTest extends BaseParserTest {
   @Test
   public void testProblem() {
   }
-
   
   @Test
   public void testProblems() {
@@ -634,6 +635,32 @@ public class SmartAddressParserTest extends BaseParserTest {
     doTest(CALL, "BAD STUFF OLD NEWPORT RD EXTRA",
         "CALL:BAD STUFF",
         "ADDR:OLD NEWPORT RD");
+  }
+
+  @Test
+  public void testCrossOnly() {
+    doTest(CALL, FLAG_ONLY_CITY, "Help me get to ken town tonight",
+        "CALL:Help me get to",
+        "CITY:ken town");
+    
+    doTest(CALL, FLAG_ONLY_CROSS, "ALARM N JONES ST & BIG TOWN AVE 101 SOMEWHERE IN KENSBURG",
+        "CALL:ALARM",
+        "X:N JONES ST & BIG TOWN AVE");
+    
+    doTest(CALL, FLAG_ONLY_CROSS, "ALARM BIG TOWN AVE 101 SOMEWHERE IN KENSBURG",
+        "CALL:ALARM BIG",
+        "X:TOWN AVE");
+    
+    doTest(CALL, FLAG_ONLY_CROSS | FLAG_ONLY_CITY, "ALARM N JONES ST & BIG TOWN AVE SOMEWHERE IN KENSBURG EXTRA",
+        "CALL:ALARM",
+        "X:N JONES ST & BIG TOWN AVE SOMEWHERE IN",
+        "CITY:KENSBURG");
+    
+    doTest(CALL, FLAG_ONLY_CROSS | FLAG_ONLY_CITY, "ALARM BIG TOWN AVE SOMEWHERE IN KENSBURG EXTRA",
+        "CALL:ALARM BIG",
+        "X:TOWN AVE SOMEWHERE IN",
+        "CITY:KENSBURG");
+    
   }
   
   @Override
