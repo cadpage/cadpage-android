@@ -57,6 +57,9 @@ Contact: Patrick Roberts <pgremt@gmail.com>
 Sender: 2156696195
 911: SQ122  type:ESPEC   adr:HARTS FIRE CO ,74 at 1195 YORK RD ,74 btwn OLD YORK RD & BRISTOL RD  aai:  box:93030  map:3147E4  tm:05:04:12  ED1131511
 
+Contact: "Ryan Pankoe" <rpankoe@gmail.com>
+911: SQ134  type:BASSLT  adr:248 INVERNESS CI ,48  btwn BONNIE LARK CT & CUL DE SAC  aai:  box:74059  map:3033F7  tm:16:38:31  ED1133930  
+
  */
 
 
@@ -299,6 +302,7 @@ public class PABucksCountyParser extends FieldProgramParser {
       "AUNR",       "UNRESPONSIVE SUBJECT",
       "BABDO",      "ABDOMINAL PAIN",
       "BALLR",      "ALLERGIC REACTION",
+      "BASSLT",      "ASSAULT - NON CRITICAL",
       "BBLED",      "BLEEDING (NON TRAUMATIC)",
       "BCHESP",     "CHEST PAIN  (NON CRITICAL)",
       "BINJ",       "MINOR INJURY - NON CRITICAL",
