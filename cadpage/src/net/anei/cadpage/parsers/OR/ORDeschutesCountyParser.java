@@ -20,6 +20,7 @@ Sick Person Vomiting   -A-STA500-13812 SW CANYON DR-Map 131216-18:47:56
 
 Contact: Dustin Miller <ff3650dm@gmail.com>
 STRUCTURE FIRE-SF-422,412,421,471,531,431,447,510,4PC-1995 NW LOWER BRIDGE WAY-Map 1413NW-19:04:36 
+BRUSH FIRE HIGH RISK RESPONSE-BH-441,412,447,531,543,481,E640,448,541,442,544,4PC-NW 43RD ST/NW LOWER BRIDGE WAY-Map 1413NW-17:13:24
 
 */
 
@@ -59,7 +60,7 @@ public class ORDeschutesCountyParser extends FieldProgramParser {
   // Priority has to match form
   private class MyPriorityField extends PriorityField {
     public MyPriorityField() {
-      setPattern(Pattern.compile("[A-Z]\\d*|SF"), true);
+      setPattern(Pattern.compile("[A-Z][A-Z0-9]"), true);
     }
   }
   
