@@ -3065,6 +3065,10 @@ Contact: Jeremy <athey9014@yahoo.com>
 Sender: acgov_911_cad@allconet.org
 S:CAD M:08:26 #047678 BEHAVORIAL EMERGENCY 12037 IRIS AVE SW  BOX:F0801 DUE:A396 M514\n\n\n
 **********************************************************
+Hoke County, NC
+Contact:Dean Barefoot <muddybrute@gmail.com>
+Sender: Hoke@hokecounty.org
+Hoke Co 911:795 TC JONES RD* * * * * **EMD* * * * * * * * 09/15/2011 14:36:26 : pos4 : mblack3325 ** EMD Case Entry Finished ** Chief Complaint Number: 19 Key Q
 **********************************************************
 **********************************************************
 **********************************************************
