@@ -347,9 +347,20 @@ public class PABucksCountyParserTest extends BaseParserTest {
         "BOX:93030",
         "MAP:3147E4",
         "ID:ED1131511");
+
+    doTest("T29",
+        "911: SQ134  type:BASSLT  adr:248 INVERNESS CI ,48  btwn BONNIE LARK CT & CUL DE SAC  aai:  box:74059  map:3033F7  tm:16:38:31  ED1133930",
+        "SRC:SQ134",
+        "CALL:BASSLT - ASSAULT - NON CRITICAL",
+        "ADDR:248 INVERNESS CI",
+        "CITY:NEW BRITAIN TWP",
+        "X:BONNIE LARK CT & CUL DE SAC",
+        "BOX:74059",
+        "MAP:3033F7",
+        "ID:ED1133930");
   }
   
   public static void main(String[] args) {
-    new PABucksCountyParserTest().generateTests("T29");
+    new PABucksCountyParserTest().generateTests("T30");
   }
 }
