@@ -32,6 +32,9 @@ Sender: 6573
 Contact: "chrisgrzegorczyk@hotmail.com" <chrisgrzegorczyk@hotmail.com>
 (<CAD> - part 1 of 1) Run# 55683/ 508 N MONROE ST/ P-3 Downgrade (No Lts/Sirens)/ Sick Person (Specific Diagnosis)/ 19/f/ ALS/ BAY CITY/ 1900 COLUMBUS A
 
+Contact: Tim Young <tdyoung2578@gmail.com>
+--<CAD> - part 1 of 1 --RC:Run# 64549/1227 JANES AVE/P-1 Life Threatening Emergency//Breathing Problems/26/F .... IFO STOP-N-SHOP/ALS/SAGINAW///<Unknown>/02:02
+
  */
 
 
@@ -55,6 +58,7 @@ public class MIMobileMedicalResponseParser extends DispatchProQAParser {
     // dummy loop statement
     do {
       if (subject.startsWith("<CAD>")) break;
+      if (body.startsWith("--")) body = body.substring(2).trim();
       if (body.startsWith("<CAD> - ")) {
         body = body.substring(8).trim();
         break;
