@@ -78,9 +78,17 @@ public class ORDeschutesCountyParserTest extends BaseParserTest {
         "ADDR:1995 NW LOWER BRIDGE WAY",
         "MAP:1413NW");
 
+    doTest("T9",
+        "BRUSH FIRE HIGH RISK RESPONSE-BH-441,412,447,531,543,481,E640,448,541,442,544,4PC-NW 43RD ST/NW LOWER BRIDGE WAY-Map 1413NW-17:13:24",
+        "CALL:BRUSH FIRE HIGH RISK RESPONSE",
+        "PRI:BH",
+        "UNIT:441,412,447,531,543,481,E640,448,541,442,544,4PC",
+        "ADDR:NW 43RD ST & NW LOWER BRIDGE WAY",
+        "MAP:1413NW");
+
   }
   
   public static void main(String args[]) {
-    new ORDeschutesCountyParserTest().generateTests("T8");
+    new ORDeschutesCountyParserTest().generateTests("T10");
   }
 }

@@ -92,9 +92,16 @@ public class NCAlexanderCountyParserTest extends BaseParserTest {
         "CALL:UNCONSCIOUS OR FAINTING",
         "CODE:31D02",
         "X:GRAVEL HILL CT & NAT GUARD ARMORY RD");
-}
+
+    doTest("T12",
+        "CAD:2818 NC 90 HWY E;CHEST PAIN;10D03;JESSICA LEE LN;WHITE PLAINS RD",
+        "ADDR:2818 NC 90 HWY E",
+        "CALL:CHEST PAIN",
+        "CODE:10D03",
+        "X:JESSICA LEE LN & WHITE PLAINS RD");
+  }
 
   public static void main(String[] args) {
-    new NCAlexanderCountyParserTest().generateTests("T11", "ADDR PLACE CALL CODE X");
+    new NCAlexanderCountyParserTest().generateTests("T12", "ADDR PLACE CALL CODE X");
   }
 }
