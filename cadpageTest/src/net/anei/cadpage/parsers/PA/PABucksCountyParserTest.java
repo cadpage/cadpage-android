@@ -339,7 +339,7 @@ public class PABucksCountyParserTest extends BaseParserTest {
     doTest("T28",
         "911: SQ122  type:ESPEC   adr:HARTS FIRE CO ,74 at 1195 YORK RD ,74 btwn OLD YORK RD & BRISTOL RD  aai:  box:93030  map:3147E4  tm:05:04:12  ED1131511",
         "SRC:SQ122",
-        "CALL:ESPEC",
+        "CALL:ESPEC - STANDBY / SPECIAL ASSIGNMENT (EMS)",
         "PLACE:HARTS FIRE CO",
         "ADDR:1195 YORK RD",
         "CITY:WARMINSTER TWP",
