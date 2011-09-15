@@ -73,8 +73,7 @@ public class PAYorkCountyParser extends SmartAddressParser {
     
     // The address may be a simple address followed by a cross street
     if (part2.startsWith("/")) part2 = part2.substring(1).trim();
-    Result res = parseAddress(StartType.START_ADDR, FLAG_IMPLIED_INTERSECT, part2);
-    res.getCrossData(data);
+    parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS | FLAG_IMPLIED_INTERSECT, part2, data);
     
     data.strCall = getLeft();
     if (data.strCall.length() == 0) {

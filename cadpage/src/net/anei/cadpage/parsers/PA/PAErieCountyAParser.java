@@ -43,7 +43,7 @@ public class PAErieCountyAParser extends DispatchBParser {
   private static final Pattern MARKER = Pattern.compile("^ERIE911:\\w{3,} ?>");
  
   public PAErieCountyAParser() {
-    super(CITY_LIST, "ERIE COUNTY", "PA");
+    super(PAErieCountyParser.CITY_LIST, "ERIE COUNTY", "PA");
   }
   
   @Override
@@ -62,48 +62,4 @@ public class PAErieCountyAParser extends DispatchBParser {
     
     return super.parseMsg(body, data);
   }
-  
-  private static final String[] CITY_LIST = new String[]{
-    "CORRY",
-    "ERIE",
-    
-    "ALBION",
-    "CRANESVILLE",
-    "EDINBORO",
-    "ELGIN",
-    "FAIRVIEW",
-    "GIRARD",
-    "LAKE CITY",
-    "MCKEAN",
-    "MILL VILLAGE",
-    "NORTH EAST",
-    "PLATEA",
-    "UNION CITY",
-    "WATERFORD",
-    "WATTSBURG",
-    "WESLEYVILLE",
-    
-    "AMITY TWP",
-    "CONCORD TWP",
-    "CONNEAUT TWP",
-    "ELK CREEK TWP",
-    "FAIRVIEW TWP",
-    "FRANKLIN TWP",
-    "GIRARD TWP",
-    "GREENE TWP",
-    "GREENFIELD TWP",
-    "HARBORCREEK TWP",
-    "LAWRENCE PARK TWP",
-    "LEBOEUF TWP",
-    "MCKEAN TWP",
-    "MILLCREEK TWP",
-    "NORTH EAST TWP",
-    "SPRINGFIELD TWP",
-    "SUMMIT TWP",
-    "UNION TWP",
-    "VENANGO TWP",
-    "WASHINGTON TWP",
-    "WATERFORD TWP",
-    "WAYNE TWP",
-  };
 }

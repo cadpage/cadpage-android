@@ -66,9 +66,8 @@ public class OHXeniaParser extends FieldProgramParser {
       Parser p = new Parser(getLeft());
       data.strPlace = p.getOptional(',');
       field = p.get();
-      Result res = parseAddress(StartType.START_ADDR, field);
-      res.getCrossData(data);
-      data.strCity = res.getLeft();
+      parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS, field, data);
+      data.strCity = getLeft();
     }
 
     @Override

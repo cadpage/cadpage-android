@@ -54,9 +54,9 @@ public class PAArmstrongCountyParser extends SmartAddressParser {
     body = getLeft();
     do {
       if (body.startsWith("/")) body = body.substring(1).trim();
-      Result result2 = parseAddress(StartType.START_ADDR, body);
+      Result result2 = parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS, body);
       if (result2.getStatus() > 0) {
-        result2.getCrossData(data);
+        result2.getData(data);
         body = getLeft();
       }
     } while (body.startsWith("/"));

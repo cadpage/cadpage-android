@@ -10,7 +10,6 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.SmsMsgInfo;
-import net.anei.cadpage.SmsMsgInfo.Data;
 import net.anei.cadpage.SmsPopupUtils;
 
 /**
@@ -74,6 +73,16 @@ public abstract class SmartAddressParser extends SmsMsgParser {
    * Flag indicating that @ and AT tokens should be ignored
    */
   public static final int FLAG_IGNORE_AT = 0x0080;
+  
+  /**
+   * Flag indicating that we only want to parse a cross street
+   */
+  public static final int FLAG_ONLY_CROSS = 0x0100;
+  
+  /** 
+   * Flag indicating that we only want to parse a city
+   */
+  public static final int FLAG_ONLY_CITY = 0x0200;
   
   private Properties cityCodes = null;
   
@@ -361,7 +370,19 @@ public abstract class SmartAddressParser extends SmsMsgParser {
    * @return integer indicating how good this address is, higher number mean better fit
    */
   protected Result parseAddress(StartType sType, int flags, String address) {
-
+    Result result = parseAddressInternal(sType, flags, address);
+    
+    // If we were really parsing cross streets, switch address index to cross street index
+    if (isFlagSet(FLAG_ONLY_CROSS)) {
+      result.startCross = result.startAddress;
+      result.startAddress = -1;
+    } else if (isFlagSet(FLAG_ONLY_CITY)) {
+      result.initAddress = result.startCity;
+    }
+    return result;
+  }
+  
+  private Result parseAddressInternal(StartType sType, int flags, String address) {
     this.flags = flags;
     lastCity = -1;
     Result result = new Result();
@@ -412,15 +433,23 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     // Save tokens in result object
     result.tokens = tokens;
     
+    // If we are looking for a city and nothing else, parseToCity can find it
+    if (isFlagSet(FLAG_ONLY_CITY) && ! isFlagSet(FLAG_ONLY_CROSS)) {
+      if (parseToCity(-1, 0, result)) result.status = 4;
+      return result;
+    }
+    
     // Now comes the hard part.
     
     // We have a number of basic patters that we will recognize
     // Try each one until we find one that works
     result.status = 4;
     if (parseTrivialAddress(result)) return result;
-    if (parseGPSCoords(result, gpsCoords)) return result;
-    result.status = 3;
-    if (parseSimpleAddress(result)) return result;
+    if (!isFlagSet(FLAG_ONLY_CROSS)) {
+      if (parseGPSCoords(result, gpsCoords)) return result;
+      result.status = 3;
+      if (parseSimpleAddress(result)) return result;
+    }
     result.status = 2;
     if (parseIntersection(result)) return result;
     result.status = 1;
@@ -825,6 +854,8 @@ public abstract class SmartAddressParser extends SmsMsgParser {
    */
   private void parseFallback(StartType sType, Result result) {
     
+    boolean crossOnly = isFlagSet(FLAG_ONLY_CROSS);
+    
     // Total failure, assign the entire field to either the call description
     // or the address
     int endAddr = result.endAll = result.tokens.length;
@@ -840,50 +871,53 @@ public abstract class SmartAddressParser extends SmsMsgParser {
       }
     }
     
-    // If there is a cross street indicator, use it to set up the cross street
-    for (int ndx = 0; ndx<endAddr; ndx++) {
-      if (isType(ndx, ID_CROSS_STREET)) {
-        result.startCross = ndx + 1;
-        endAddr = ndx;
-      }
-    }
-    
-    // if @ is used as a fixed start address marker (default operation)
-    // then we would have used one to set startAddress and no longer need
-    // to worry about it
-    
-    // If @ is being used as an Optional start address marker, startAddress
-    // would not be set and we have to look through the token string to
-    // see if we find a @ marker
-    int stIndex = (isFlagSet(FLAG_START_FLD_REQ) ? 1 : 0);
-    if (result.startAddress < 0 && isFlagSet(FLAG_AT_BOTH)) {
-      for (int ndx = stIndex; ndx < endAddr; ndx++) {
-        if (isType(ndx, ID_AT_MARKER)) {
-          result.initAddress = ndx;
-          result.startAddress = ndx+1;
-          break;
-        } else if (isType(ndx, ID_INCL_AT_MARKER)) {
-          result.initAddress = result.startAddress = ndx;
-          break;
+    if (!crossOnly) { 
+      
+      // If there is a cross street indicator, use it to set up the cross street
+      for (int ndx = 0; ndx<endAddr; ndx++) {
+        if (isType(ndx, ID_CROSS_STREET)) {
+          result.startCross = ndx + 1;
+          endAddr = ndx;
         }
       }
-    }
-    
-    // We are really getting desperate, but see if there is a valid house number
-    // in here, and if there is set the start address to it
-    if (result.startAddress < 0) {
-      for (int ndx = stIndex; ndx < endAddr-1; ndx++) {
-        if (isHouseNumber(ndx)) {
-          result.initAddress = result.startAddress = ndx;
-          break;
+      
+      // if @ is used as a fixed start address marker (default operation)
+      // then we would have used one to set startAddress and no longer need
+      // to worry about it
+      
+      // If @ is being used as an Optional start address marker, startAddress
+      // would not be set and we have to look through the token string to
+      // see if we find a @ marker
+      int stIndex = (isFlagSet(FLAG_START_FLD_REQ) ? 1 : 0);
+      if (result.startAddress < 0 && isFlagSet(FLAG_AT_BOTH)) {
+        for (int ndx = stIndex; ndx < endAddr; ndx++) {
+          if (isType(ndx, ID_AT_MARKER)) {
+            result.initAddress = ndx;
+            result.startAddress = ndx+1;
+            break;
+          } else if (isType(ndx, ID_INCL_AT_MARKER)) {
+            result.initAddress = result.startAddress = ndx;
+            break;
+          }
         }
       }
-    }
-    
-    // If we found a flexable @ to start the address, see if we can parse
-    // to an ending city
-    if (result.startAddress >= 0) {
-      if (parseToCity(result.startAddress, result.startAddress+2, result)) return;
+      
+      // We are really getting desperate, but see if there is a valid house number
+      // in here, and if there is set the start address to it
+      if (result.startAddress < 0) {
+        for (int ndx = stIndex; ndx < endAddr-1; ndx++) {
+          if (isHouseNumber(ndx)) {
+            result.initAddress = result.startAddress = ndx;
+            break;
+          }
+        }
+      }
+      
+      // If we found a flexable @ to start the address, see if we can parse
+      // to an ending city
+      if (result.startAddress >= 0) {
+        if (parseToCity(result.startAddress, result.startAddress+2, result)) return;
+      }
     }
     
     // If we still don't have an start address, assign the entire line
@@ -950,6 +984,10 @@ public abstract class SmartAddressParser extends SmsMsgParser {
    */
   private boolean parseToCity(int stNdx, int srcNdx, Result result) {
     
+    // If we are doing a cross only parse without a city, answer is always no
+    boolean crossOnly = isFlagSet(FLAG_ONLY_CROSS);
+    if (crossOnly && !isFlagSet(FLAG_ONLY_CITY)) return false;
+    
     // If FLAG_ANCHOR_END is set, we are going to parse this to the
     // end of the line without looking for a city
     boolean anchorEnd = isFlagSet(FLAG_ANCHOR_END);
@@ -986,21 +1024,25 @@ public abstract class SmartAddressParser extends SmsMsgParser {
             inPlace = stPlace = ndx;
           }
         }
-        
+
+        // Special stuff not checked for in cross street only parse
+        if (!crossOnly) {
+
         // Check for apartment marker
-        if (stCross < 0) {
-          if (isType(ndx, ID_APPT)) {
-            inApt = ndx;
-            stApt = ndx + 1;
+          if (stCross < 0) {
+            if (isType(ndx, ID_APPT)) {
+              inApt = ndx;
+              stApt = ndx + 1;
+            }
+            else if (tokens[ndx].startsWith("#")) {
+              inApt = stApt = ndx;
+            }
           }
-          else if (tokens[ndx].startsWith("#")) {
-            inApt = stApt = ndx;
-          }
-        }
-        
-        
-        // Check for cross street marker
-        if (isType(ndx, ID_CROSS_STREET)) stCross = ndx + 1;
+          
+          
+          // Check for cross street marker
+          if (isType(ndx, ID_CROSS_STREET)) stCross = ndx + 1;
+      }
       }
       
       // Is there a city here?
@@ -1088,6 +1130,8 @@ public abstract class SmartAddressParser extends SmsMsgParser {
    * the end of a successfully parsed address
    */
   private void findCrossStreet(Result result) {
+    
+    if (isFlagSet(FLAG_ONLY_CROSS)) return;
     
     if (result.endAll >= tokens.length) return;
     
@@ -1467,7 +1511,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
       
       int end = endAll;
       if (startCity >= 0) {
-        data.strCity = buildData(startCity, end, false);
+        data.strCity = buildData(startCity, end, 0);
         if (cityCodes != null) data.strCity = convertCodes(data.strCity, cityCodes);
         end = startCity;
       }
@@ -1475,55 +1519,46 @@ public abstract class SmartAddressParser extends SmsMsgParser {
       if (startPad >= 0) end = startPad;
       
       if (startCross >= 0) {
-        data.strCross = buildData(startCross, end, false);
+        data.strCross = buildData(startCross, end, 1);
         end = startCross - 1;
       }
       
       if (startApt >= 0) {
-        data.strApt = buildData(startApt, end, false);
+        data.strApt = buildData(startApt, end, 0);
         end = initApt;
       }
       
       if (startPlace >= 0) {
-        data.strPlace = buildData(startPlace, end,false);
+        data.strPlace = buildData(startPlace, end,0);
         end = initPlace;
       }
       
       if (startAddress >= 0) {
-        data.strAddress = buildData(startAddress, end, true);
+        data.strAddress = buildData(startAddress, end, 2);
         end = startAddress;
       }
       
       switch (startType) {
       case START_CALL:
-        data.strCall = append(data.strCall, " / ", buildData(0, initAddress, false).replaceAll(" / ", "/"));
+        data.strCall = append(data.strCall, " / ", buildData(0, initAddress, 0).replaceAll(" / ", "/"));
         break;
       case START_PLACE:
         if (data.strPlace.length() == 0) {
-          data.strPlace = buildData(0, initAddress, false).replaceAll(" / ", "/");
+          data.strPlace = buildData(0, initAddress, 0).replaceAll(" / ", "/");
         }
         break;
       }
     }
-
-    /**
-     * Special variant of getData that places all address information in the
-     * cross street field
-     */
-    public void getCrossData(Data data) {
-      String sCross = buildData(startAddress, endAll, true);
-      data.strCross = append(data.strCross, " & ", sCross);
-    }
     
     /**
-     * @return the pad field (if any) that lies between the address propert and
+     * @return the pad field (if any) that lies between the address property and
      * the city field
      */
     public String getPadField() {
       if (startPad < 0) return "";
       int end = endAll;
       if (startCity >= 0) end = startCity;
-      return buildData(startPad, end, false);
+      return buildData(startPad, end, 0);
     }
 
     /**
@@ -1532,7 +1567,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
      */
     public String getLeft() {
       if (endAll < 0) return "";
-      return buildData(endAll, tokens.length, false);
+      return buildData(endAll, tokens.length, 0);
     }
   
     /**
@@ -1542,14 +1577,16 @@ public abstract class SmartAddressParser extends SmsMsgParser {
      * @param addr true if we are processing the address field
      * @return Constructed data field.
      */
-    private String buildData(int start, int end, boolean addr) {
+    private String buildData(int start, int end, int addrCode) {
       
       StringBuilder sb = new StringBuilder();
       for (int ndx = start; ndx < end; ndx++) {
         if (ndx != start) sb.append(' ');
-        if (addr && ndx == insertAmp) sb.append("& ");
+        if (ndx == insertAmp) {
+          sb.append(new String[]{"", "/ ", "& "}[addrCode]);
+        }
         String token = tokens[ndx];
-        if (addr && token.equals("/")) token = "&";
+        if (addrCode>1 && token.equals("/")) token = "&";
         sb.append(token);
       }
       return sb.toString();

@@ -60,7 +60,7 @@ public class ORDeschutesCountyParser extends FieldProgramParser {
   // Priority has to match form
   private class MyPriorityField extends PriorityField {
     public MyPriorityField() {
-      setPattern(Pattern.compile("[A-Z][A-Z0-9]"), true);
+      setPattern(Pattern.compile("[A-Z][A-Z0-9]?"), true);
     }
   }
   
