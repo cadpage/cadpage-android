@@ -1,0 +1,95 @@
+package net.anei.cadpage.parsers.GA;
+
+import net.anei.cadpage.parsers.BaseParserTest;
+
+import org.junit.Test;
+
+
+public class GAWhitfieldCountyParserTest extends BaseParserTest {
+  
+  public GAWhitfieldCountyParserTest() {
+    setParser(new GAWhitfieldCountyParser(), "WHITFIELD COUNTY", "GA");
+  }
+  
+  @Test
+  public void testParser() {
+
+    doTest("T1",
+        "WHITFIELD CO. 911:F12 SF-COMMERCIAL/INDUSTRIAL/SCHOO 1812 KIMBERLY PARK DR 4237188927 ALARM ASSIGN 3",
+        "CALL:F12 SF-COMMERCIAL/INDUSTRIAL/SCHOO",
+        "ADDR:1812 KIMBERLY PARK DR",
+        "PHONE:4237188927",
+        "INFO:ALARM ASSIGN 3");
+
+    doTest("T2",
+        "WHITFIELD CO. 911:50I M.V. ACCIDENT W/INJURIES I 75 SB MM 333 6789341809",
+        "CALL:50I M.V. ACCIDENT W/INJURIES",
+        "ADDR:I 75 SB MM 333",
+        "PHONE:6789341809");
+
+    doTest("T3",
+        "WHITFIELD CO. 911:F15 FIRE ALARM 1220 BROADRICK DR 7062758899 ALARM ASSIGN 1-3",
+        "CALL:F15 FIRE ALARM",
+        "ADDR:1220 BROADRICK DR",
+        "PHONE:7062758899",
+        "INFO:ALARM ASSIGN 1-3");
+
+    doTest("T4",
+        "WHITFIELD CO. 911:F15 FIRE ALARM 511 CALLAHAN RD SE 7062776288 ALARM ASSIGN 2",
+        "CALL:F15 FIRE ALARM",
+        "ADDR:511 CALLAHAN RD SE",
+        "PHONE:7062776288",
+        "INFO:ALARM ASSIGN 2");
+
+    doTest("T5",
+        "WHITFIELD CO. 911:F15 FIRE ALARM 1104 WILLOWDALE RD NW 7062758665 ALARM ASSIGN 3",
+        "CALL:F15 FIRE ALARM",
+        "ADDR:1104 WILLOWDALE RD NW",
+        "PHONE:7062758665",
+        "INFO:ALARM ASSIGN 3");
+
+    doTest("T6",
+        "WHITFIELD CO. 911:50I M.V. ACCIDENT W/INJURIES ANTIOCH / BEAR CREEK 7064284979",
+        "CALL:50I M.V. ACCIDENT W/INJURIES",
+        "ADDR:ANTIOCH & BEAR CREEK",
+        "PHONE:7064284979");
+
+    doTest("T7",
+        "WHITFIELD CO. 911:50I M.V. ACCIDENT W/INJURIES 2125 ANTIOCH RD 7066187892 4,8,5,3,1,7,9,2,6,10",
+        "CALL:50I M.V. ACCIDENT W/INJURIES",
+        "ADDR:2125 ANTIOCH RD",
+        "PHONE:7066187892",
+        "INFO:4,8,5,3,1,7,9,2,6,10");
+
+    doTest("T8",
+        "WHITFIELD CO. 911:50I M.V. ACCIDENT W/INJURIES 75 SB @ N OF 339 7063174144",
+        "CALL:50I M.V. ACCIDENT W/INJURIES",
+        "ADDR:75 SB & N OF 339",
+        "PHONE:7063174144");
+
+    doTest("T9",
+        "WHITFIELD CO. 911:50I M.V. ACCIDENT W/INJURIES WARING AT RRX 7062598533 1,2,3,7,10,8,6,9,4,5",
+        "CALL:50I M.V. ACCIDENT W/INJURIES",
+        "ADDR:WARING AT RRX",
+        "PHONE:7062598533",
+        "INFO:1,2,3,7,10,8,6,9,4,5");
+
+    doTest("T10",
+        "WHITFIELD CO. 911:50I M.V. ACCIDENT W/INJURIES RAYBURN SR @ BOWERS RD 7064838978",
+        "CALL:50I M.V. ACCIDENT W/INJURIES",
+        "ADDR:RAYBURN SR & BOWERS RD",
+        "PHONE:7064838978");
+
+    doTest("T11",
+        "WHITFIELD CO. 911:F15 FIRE ALARM 1500 MANLEY ST 7062788757 ALARM ASSIGN 1-3",
+        "CALL:F15 FIRE ALARM",
+        "ADDR:1500 MANLEY ST",
+        "PHONE:7062788757",
+        "INFO:ALARM ASSIGN 1-3");
+   
+  }
+  
+  public static void main(String[] args) {
+    new GAWhitfieldCountyParserTest().generateTests("T1", "CALL ADDR PHONE INFO");
+  }
+}
