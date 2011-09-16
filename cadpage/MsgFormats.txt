@@ -1088,6 +1088,11 @@ NYK| Erie County (Lancaster)| Technical Rescue| | Como Park|PD O/S reporting ped
 NYK / NYK| Buffalo| 1 Alarm Fire| | 63 Crestwood Ave|F20 O/S reporting fire in a dwelling-victims rescued-ACW| NYK109| 12:13\n\n
 NYK| Erie County (Lancaster)| 1 Alarm Fire| 453.500| 17 E Drullard Ave|Lancaster FD O/S Rep Fire in a 2 Story Occ Brick Apt Bldg. AHW| NYK004| 22:29
 ***************************************************************************
+Genesee County, NY (NYGeneseeCountyParser)
+[Dispatch]  Acc PIAA ** 392.3 RT 90 E** , BATAVIA - ** ONE VEHICLE ROLLOVER ** LEWISTON RD, I 90 / KELSEY RD, I 90 ** 07/12/11 17:29 **
+[Dispatch]  Alarm Fire ** ** 2614 W  MAIN STREET RD , BATAVIA - ** 2ND FLOOR SMOKE DETECRTOR KENNETH HERMAN RESIDENCE ** READ
+[Dispatch]  Fire Auto ** 387.6 RT 90 W** , BATAVIA - ** POSS TRACTOR TRAILER FIRE - BOX TRAILER ** I 90, I-90 CONNECTOR / I 90,
+***************************************************************************
 Jefferson County, NY (NYJeffrsonCountyParser)
 BREATHING PROBL|18077 REED POINT RD:ORLEANS(T)|77 YO MALE DIFF BREATHING
 ABDOMINAL PAIN|18081 REED POINT RD:ORLEANS(T)|79F  :ProQA Medical Case Entry Finished You are responding to a patient with abdominal pain.  The patient is a  79-year-old female, who is conscious and breathing.  Abdominal Pain / Problems.  Caller Statement: ABDOMINAL PAIN.
@@ -3091,36 +3096,6 @@ Hoke Co 911:795 TC JONES RD* * * * * **EMD* * * * * * * * 09/15/2011 14:36:26 : 
 **********************************************************
 **********************************************************
 **********************************************************
-Genesee County, NY
-Contact: rtripp@2ki.net
-Sender: 911center@co.genesee.ny.us
-Matches one of Chester County, PA formats?
-
-[Dispatch]  Acc PIAA ** 392.3 RT 90 E** , BATAVIA - ** ONE VEHICLE
-ROLLOVER **
-LEWISTON RD, I 90 / KELSEY RD, I 90 ** 07/12/11 17:29 **
-
-[Dispatch]  Alarm Fire ** ** 2614 W  MAIN STREET RD ,
-BATAVIA - ** 2ND FLOOR SMOKE DETECRTOR KENNETH HERMAN RESIDENCE ** READ
-
-[Dispatch]  Fire Auto ** 387.6 RT 90 W** , BATAVIA - **
-POSS TRACTOR TRAILER FIRE - BOX TRAILER ** I 90, I-90 CONNECTOR / I 90,
-
-[Dispatch]  Fire Nat Propane Gas ** ** 8470 VIOLET LN ,
-BATAVIA - ** COMPL STRUCK GAS LINE OUT THE RESIDENCE 1/2" LINE  ** DANA
-
-[Dispatch]  Acc PIAA ** ** 5402 ELLICOTT STREET RD , BETHANY - ** ONE VEHICLE
-ACCIDENT ** CLAPSADDLE RD / MAYNE RD ** 06/19/11 02:22 **
-
-(Dispatch) Acc PIAA ** FRONTIER KITCHENS** 8392 LEWISTON
-RD , BATAVIA - ** TWO CAR MVA MINER INJ ** PARK RD / W MAIN STREET RD
-
-(Dispatch) Alarm Fire ** COLLEGE VILLAGE** 8170
-BATAVIA STAFFORD TOWNLINE RD , BATAVIA - ** F 201- FIRE ALARM - ALARM HAS
-RESE
-
-[Dispatch]  Acc PIAA ** Johnson Automotive** 3924 W  MAIN
-STREET RD , BATAVIA - ** 2 CAR MVA W INJ ** COUNTY BLDG / COLONIAL BL
 **********************************************************
 **********************************************************
 **********************************************************
