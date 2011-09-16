@@ -370,6 +370,7 @@
     <item>NYGreeneCounty</item>
     <item>NYHerkimerCounty</item>
     <item>NYJeffersonCounty</item>
+    <item>NYMadisonCounty</item>
     <item>NYMonroeCounty</item>
     <item>NYNassauCounty</item>
     <item>NYOneidaCounty</item>
@@ -656,7 +657,8 @@
     <item>Erie County, NY</item>
     <item>Greene County, NY</item>
     <item>Herkimer County, NY</item>
-    <item>JeffersonCounty, NY</item>
+    <item>Jefferson County, NY</item>
+    <item>Madison County, NY</item>
     <item>Monroe County, NY</item>
     <item>Nassau County, NY</item>
     <item>Oneida County, NY</item>
