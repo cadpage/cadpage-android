@@ -109,10 +109,20 @@ public class OHClermontCountyParserTest extends BaseParserTest {
         "CITY:STONELICK TOWNSHIP",
         "NAME:CINTAS FIRE PROTECTION-55",
         "ID:2011-0000077411");
-     
+
+    doTest("T11",
+        "MED >MED GENERIC DO NOT DELETE 2800 LINK SIDE DR Apt: 4 Bldg XS: ST ANDREWS DR PIERCE TOWNSHIP WETZELL,CONNIE Map: Grids:, Cad: 2011-0000082440",
+        "CALL:MED GENERIC DO NOT DELETE",
+        "ADDR:2800 LINK SIDE DR",
+        "APT:4 Bldg",
+        "X:ST ANDREWS DR",
+        "CITY:PIERCE TOWNSHIP",
+        "NAME:WETZELL,CONNIE",
+        "ID:2011-0000082440");
+    
   }
   
   public static void main(String[] args) {
-    new OHClermontCountyParserTest().generateTests("T9", "CALL ADDR X CITY NAME ID");
+    new OHClermontCountyParserTest().generateTests("T11", "CALL ADDR APT X CITY NAME ID");
   }
 }
