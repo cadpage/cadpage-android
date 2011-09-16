@@ -156,8 +156,8 @@ public class NYSteubenCountyParser extends SmartAddressParser {
     if (body.startsWith("::::RECALLED:::::: ")) {
       data.strCall = "RECALLED - ";
       body = body.substring(19).trim();
-    } else if (subject.equals("2ndCall")) {
-      data.strCall = "2ndCall - ";
+    } else if (subject.equals("2ndCall") || subject.equals("2nd Call")) {
+      data.strCall = subject + " - ";
     }
     
     body = body.replace("COUNTY ROUTE", "COUNTY ROAD");

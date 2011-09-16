@@ -3099,7 +3099,6 @@ Hoke Co 911:795 TC JONES RD* * * * * **EMD* * * * * * * * 09/15/2011 14:36:26 : 
 **********************************************************
 **********************************************************
 **********************************************************
-**********************************************************
 ************  READY TO ROLL ******************************
 **********************************************************
 **********************************************************
@@ -3110,6 +3109,24 @@ Hoke Co 911:795 TC JONES RD* * * * * **EMD* * * * * * * * 09/15/2011 14:36:26 : 
 **********************************************************
 **********************************************************
 **********************************************************
+**********************************************************
+West Norriton, Montgomery county, Pa
+Contact: Roy@fd34.com, 2152648884@messaging.sprintpcs.com
+Sender: alert46@Verizon.net 
+Subject:Dispatch
+09:39 * RESCUE - WATER * 316 RIVER RD * - *
+Subject:Dispatch
+11:12 * PUMP DETAIL * 114 KOEGEL LN * - * 
+Fwd: Subject:Dispatch
+13:32 * GAS-ODOR/LEAK OUTSIDE * 2409 DAIRY LN * - * 
+Fwd: Subject:Dispatch
+18:06 * VEHICLE FIRE * N TROOPER RD AND W MAIN ST * - * 
+Fwd: Subject:Dispatch
+01:49 * BUILDING FIRE COMMERCIAL * 2030 MAIN ST W * DOMINOS PIZZA- * 
+Fwd: Subject:Dispatch
+03:20 * RESCUE - WATER * 6025 VALLEY GREEN RD W * PHILADELPHIA CRICKET CLUB- * 
+Fwd: Subject:Dispatch
+18:10 * S/B AT HELICOPTER LANDING * 51 UPPER FARM RD  Apt# C2 * BUILDING 051 NORRISTOWN STATE HOSPITAL- * 
 **********************************************************
 North Branford & Northford, CT (in New Haven County)
 Contact: Jeff Green <greenjeffreya@gmail.com>
