@@ -96,6 +96,18 @@ public class PANorthamptonCountyParserTest extends BaseParserTest {
    
   }
   
+  public void testParsaer3() {
+
+    doTest("T1",
+        "*3750: *alert_6JP4@notifync.org /  / [f25]ODOR >ODOR / OTHER THAN SMOKE ARNDT RD FORKS Map: Grids:0,0 Cad: 2011-0000171220 <20110000171220>",
+        "UNIT:f25",
+        "CALL:ODOR/OTHER THAN SMOKE",
+        "ADDR:ARNDT RD",
+        "NAME:FORKS",
+        "ID:2011-0000171220 <20110000171220>");
+
+  }
+  
   public static void main(String[] args) {
     new PANorthamptonCountyParserTest().generateTests("T1", "UNIT CALL ADDR APT CITY NAME MAP ID");
   }

@@ -9,6 +9,12 @@ public class SmsMmsMessageTest {
   @Test
   public void testParseInfo() {
     
+    doParseTest("PANOrthamptonCounty",
+        "*3750: *alert_6JP4@notifync.org /  / [f25]ODOR >ODOR / OTHER THAN SMOKE ARNDT RD FORKS Map: Grids:0,0 Cad: 2011-0000171220 <20110000171220>",
+        "alert_6JP4@notifync.org",
+        "f25",
+        "ODOR >ODOR / OTHER THAN SMOKE ARNDT RD FORKS Map: Grids:0,0 Cad: 2011-0000171220 <20110000171220>");
+    
     doParseTest("NCCarteretCounty",
         "wcfd.comm2+caf_=2522413726=vtext.com@gmail.com CEC:129 HUNTER BROWN DR CAPE CARTERET 11-113600 16:24:22 STROKE",
         "vtext.com@gmail.com",
@@ -230,7 +236,7 @@ public class SmsMmsMessageTest {
         " ( 1 of  2) S: M:From: JDR315 #:002011089429 ALS MED at 21922 121ST ST Rem: 64 F ;HEART PROBLEM CONSCIOUS: YES ,BREATHING: YES",
         "ken@cadpage.org",
         "",
-        "From: JDR315 #:002011089429 ALS MED at 21922 121ST ST Rem: 64 F ;HEART PROBLEM CONSCIOUS: YES ,BREATHING: YES", true);
+        "From: JDR315 #:002011089429 ALS MED at 21922 121ST ST Rem: 64 F ;HEART PROBLEM CONSCIOUS: YES ,BREATHING: YES", 1, 2);
     
     doParseTest("NCWataugaCounty","" +
     		"wcso911@wataugacounty.org 164 BERTON ST BOONE MDL 06D02 2011017104 01:24:25 SICK PERSON 421S-RT OLD 421S-RT BROWNS CHAPEL RD-2ND LT NORTHRDG DR-1ST RT BERTON ST",
@@ -244,73 +250,76 @@ public class SmsMmsMessageTest {
   public void testParseBreak() {
     
     doParseTest("HDR1", "0001/0003 THIS IS A TEST",
-                "ken@cadpage.org", "", "THIS IS A TEST", true);
+                "ken@cadpage.org", "", "THIS IS A TEST", 1, 3);
     
     doParseTest("HDR1-done", "0003/0003 THIS IS ANOTHER TEST",
-                "ken@cadpage.org", "", "THIS IS ANOTHER TEST", false);
+                "ken@cadpage.org", "", "THIS IS ANOTHER TEST", 3, 3);
     
     doParseTest("HDR2", "1of3:THIS IS A TEST",
-                "ken@cadpage.org", "", "THIS IS A TEST", true);
+                "ken@cadpage.org", "", "THIS IS A TEST", 1, 3);
     
     doParseTest("HDR2-done", "3of3:THIS IS ANOTHER TEST",
-                "ken@cadpage.org", "", "THIS IS ANOTHER TEST", false);
+                "ken@cadpage.org", "", "THIS IS ANOTHER TEST", 3, 3);
     
     doParseTest("HDR3", "(1/2) I LOVE MY MOTHER",
-                "ken@cadpage.org", "", "I LOVE MY MOTHER", true);
+                "ken@cadpage.org", "", "I LOVE MY MOTHER", 1, 2);
     
     doParseTest("HDR3-done", "(2/2) I LOVE MY MOTHER",
-                "ken@cadpage.org", "", "I LOVE MY MOTHER", false);
+                "ken@cadpage.org", "", "I LOVE MY MOTHER", 2, 2);
     
     doParseTest("HDR4", " 1/3 / BIG BAD WOLF",
-                "ken@cadpage.org", "", "BIG BAD WOLF", true);
+                "ken@cadpage.org", "", "BIG BAD WOLF", 1, 3);
     
     doParseTest("HDR4-done", " 3/3 / BIG BAD WOLF",
-                "ken@cadpage.org", "", "BIG BAD WOLF", false);
+                "ken@cadpage.org", "", "BIG BAD WOLF", 3, 3);
     
     doParseTest("HDR5", "Subject:1/2\nSQ814 APTF, Apartment Fire",
-                "ken@cadpage.org", "", "SQ814 APTF, Apartment Fire", true);
+                "ken@cadpage.org", "", "SQ814 APTF, Apartment Fire", 1, 2);
     
     doParseTest("HDR5-done", "Subject:2/2\nSQ814 APTF, Apartment Fire",
-                "ken@cadpage.org", "", "SQ814 APTF, Apartment Fire", false);
+                "ken@cadpage.org", "", "SQ814 APTF, Apartment Fire", 2, 2);
     
     doParseTest("HDR6", "( 1 of  3) S: M:HBFD PRI: 1 INC: FHB110509000117",
-                "ken@cadpage.org", "", "HBFD PRI: 1 INC: FHB110509000117", true);
+                "ken@cadpage.org", "", "HBFD PRI: 1 INC: FHB110509000117", 1, 3);
     
     doParseTest("HDR6", "( 3 of  3) S: M:HBFD PRI: 1 INC: FHB110509000117",
-                "ken@cadpage.org", "", "HBFD PRI: 1 INC: FHB110509000117", false);
+                "ken@cadpage.org", "", "HBFD PRI: 1 INC: FHB110509000117", 3, 3);
     
     doParseTest("TRL1", "WHERE IS BABY[1 of 2]",
-               "ken@cadpage.org", "", "WHERE IS BABY", true);
+               "ken@cadpage.org", "", "WHERE IS BABY", 1, 2);
     
     doParseTest("TRL1-done", "WHERE IS BABY[2 of 2]",
-               "ken@cadpage.org", "", "WHERE IS BABY", false);
+               "ken@cadpage.org", "", "WHERE IS BABY", 2, 2);
     
     doParseTest("TRL2", "WHERE IS BABY :1of2",
-               "ken@cadpage.org", "", "WHERE IS BABY", true);
+               "ken@cadpage.org", "", "WHERE IS BABY", 1, 2);
     
     doParseTest("TRL2-done", "WHERE IS BABY :2of2",
-               "ken@cadpage.org", "", "WHERE IS BABY", false);
+               "ken@cadpage.org", "", "WHERE IS BABY", 2, 2);
     
     doParseTest("NYSuffolkCounty",
         "(1/2)Daniel M. Agababian - Sender: paging@firerescuesystems.xohost.com\n*** 16 - Rescue *** 30 DEER SHORE SQ CS: DEER PARK AVE  / BAY SHORE RD TOA: 13:04",
-        "paging@firerescuesystems.xohost.com", "","*** 16 - Rescue *** 30 DEER SHORE SQ CS: DEER PARK AVE  / BAY SHORE RD TOA: 13:04", true);
+        "paging@firerescuesystems.xohost.com", "","*** 16 - Rescue *** 30 DEER SHORE SQ CS: DEER PARK AVE  / BAY SHORE RD TOA: 13:04", 1, 2);
     
     doParseTest("NJGoucesterCounty",
         "Subject:1/2\n\nDispatch\n\nSta:43-2\n\nType:SERV",
-        "ken@cadpage.org", "", "Dispatch\n\nSta:43-2\n\nType:SERV", true);
+        "ken@cadpage.org", "", "Dispatch\n\nSta:43-2\n\nType:SERV", 1, 2);
 
   }
   
   private void doParseTest(String title, String body, String expFrom, String expSubject, String expBody) {
-    doParseTest(title, body, expFrom, expSubject, expBody, false);
+    doParseTest(title, body, expFrom, expSubject, expBody, -1, -1);
   }
   
-  private void doParseTest(String title, String body, String expFrom, String expSubject, String expBody, boolean expMore) {
+  private void doParseTest(String title, String body, String expFrom, 
+                             String expSubject, String expBody, 
+                             int expIndex, int expCount) {
     SmsMmsMessage msg = new SmsMmsMessage("ken@cadpage.org", body, 0L, 0);
     assertEquals(title + ":FROM", expFrom, msg.getAddress());
     assertEquals(title + ":SUBJ", expSubject, msg.getSubject());
     assertEquals(title + ":BODY", expBody, msg.getMessageBody());
-    assertEquals(title + ":MORE", expMore, msg.isExpectMore());
+    assertEquals(title + ":INDEX", expIndex, msg.getMsgIndex());
+    assertEquals(title + ":COUNT", expCount, msg.getMsgCount());
   }
   
   @Test
