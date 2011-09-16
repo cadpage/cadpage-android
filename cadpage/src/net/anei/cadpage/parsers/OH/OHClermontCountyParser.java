@@ -30,6 +30,9 @@ Sender: 911-CENTER@clermontcountyohio.gov
 Contact: Dennis Rutter <dennis.rutter73@gmail.com>
 FALARM>FIRE ALARM 1466 HWY 50 XS: BARRETT RD STONELICK TOWNSHIP CINTAS FIRE PROTECTION-55 Map: Grids:, Cad: 2011-0000077411
 
+Contact: kiethw@frontier.com
+MED >MED GENERIC DO NOT DELETE 2800 LINK SIDE DR Apt: 4 Bldg XS: ST ANDREWS DR PIERCE TOWNSHIP WETZELL,CONNIE Map: Grids:, Cad: 2011-0000082440
+
 */
 
 public class OHClermontCountyParser extends DispatchBParser {
