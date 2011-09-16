@@ -12,26 +12,26 @@
   Urgent fix for MMS Crash issue\n
 Multiple Fixes for Existing Locations and Issues\n
 New Locations:\n
-New District: Windham County, CT\n
-New District: Gaston County, NC\n
-New District: Blair County,PA\n
+Wilmington, DE\n
+Trumbull CT\n
+Modify Nassau Bay, TX location to also handle League City, TX\n
+Madison County, NY\n
+Add League City and Webster, TX locations\n
+Genesee County, NY\n
+Erie County, PA (alternate)\n
+St Clair County, AL\n
 \n
 Fixes:\n
-Split message merge logic doesnt work when text messages are out of sequence\n
-New city codes for Montgomery County, TX location\n
-Smart address parser gets confused by street names that start with ST\n
-Parsing problem with Anderson County, TN\n
-More city codes for Porter County, IN\n
-Fixed parsing problem with Surry County, NC\n
-Force close reported in Billing logic\n
-Fixed parsing problem with Prince Georges County, MD\n
-Parsing problem with Orleans County, NY\n
-Parsing problem with St Marys County,MD\n
-Parsing problem with Anderson County, SC\n
+Parsing problem with Ray County, MO\n
+Parsing problem with Porter County, IN\n
+Parsing problem with Humble, TX\n
+Parsing problem with Cayuga County, NY\n
+Parsing problems with Suffolk County (B), NY\n
+Parsing problems with Dothan, AL\n
+Parsing problem with yet another message prefix\n
 Parsing problem with Deschutes County, OR\n
-Parsing problem with Cumberland County, PA\n
-Fixed parsing problem with Durham County, NC\n
-Parsing problem with Nassau County, NY (B)\n
+Parsing problem with Mobile Medical Response, MI\n
+New call code for Bucks County, PA\n
 \n
   </string>  
 </resources>
