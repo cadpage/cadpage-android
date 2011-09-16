@@ -22,6 +22,9 @@ DispatchBParser subclass
 Contact: "richierrs@aol.com" <richierrs@aol.com>
 Subject:#6550\n[f14]MVAU >MVA WITH UNKNOW INJUIRIES WILLOW PARK RD BETHLEHEM TWP P1736 Map: Grids:0,0 Cad: 2011-0000131105
 
+Contact: Edmund Lamontagne <edmundl79@gmail.com>
+*3750: *alert_6JP4@notifync.org /  / [f25]ODOR >ODOR / OTHER THAN SMOKE ARNDT RD FORKS Map: Grids:0,0 Cad: 2011-0000171220 <20110000171220>
+
 */
 
 public class PANorthamptonCountyParser extends DispatchBParser {

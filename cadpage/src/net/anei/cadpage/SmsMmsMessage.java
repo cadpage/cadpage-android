@@ -314,7 +314,7 @@ public class SmsMmsMessage implements Serializable {
   };
   private static final Pattern PAGECOPY_PATTERN = Pattern.compile("Pagecopy-Fr:(\\S*)\\s");
   private static final Pattern[] EMAIL_PATTERNS = new Pattern[]{ 
-    Pattern.compile("^([\\w\\.]+@[\\w\\.]+)( / / )"),
+    Pattern.compile("^(?:\\*.*\\*)?([\\w\\.]+@[\\w\\.]+)( +/ +/ +)"),
     Pattern.compile(" - Sender: *([\\w\\.]+@[\\w\\.]+) *\n"),
     Pattern.compile("^(?:[-=.+_a-z0-9]*[0-9a-f]{8,}[-=.+_a-z0-9]*=)?([\\w.!\\-]+@[\\w.]+)\\s")
   };
@@ -614,13 +614,6 @@ public class SmsMmsMessage implements Serializable {
   
   public int getMsgCount() {
     return msgCount;
-  }
-  
-  @Deprecated
-  public boolean isExpectMore() {
-    if (msgIndex != msgCount) return true;
-    if (info != null) return info.isExpectMore();
-    return false;
   }
   
   public SmsMsgInfo getInfo() {
