@@ -54,11 +54,11 @@ public class BillingManager {
    */
   public void startPurchase(Activity activity) {
     int year = Calendar.getInstance().get(Calendar.YEAR);
-    String item = "CADPAGE_" + year;
+    String item = "cadpage_" + year;
     mService.requestPurchase(activity, item, null); 
   }
   
-  
+
   private class CadpageObserver extends PurchaseObserver {
 
     @Override
@@ -71,7 +71,7 @@ public class BillingManager {
     public void onPurchaseStateChange(PurchaseState purchaseState,
                                        String itemId, long purchaseTime, 
                                        String developerPayload) {
-      if (itemId.startsWith("CADPAGE_")) {
+      if (itemId.startsWith("cadpage_")) {
         int year = Integer.parseInt(itemId.substring(8));
         ManagePreferences.setPaidYear(year, purchaseState == PurchaseState.PURCHASED);
       }
