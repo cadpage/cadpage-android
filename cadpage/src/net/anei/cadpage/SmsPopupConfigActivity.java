@@ -213,6 +213,14 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
       });
     }
     
+    // Wakeup widget preference
+    Preference widgetPref = findPreference(getString(R.string.pref_wakeup_widget_key));
+    widgetPref.setOnPreferenceClickListener(new OnPreferenceClickListener(){
+      @Override
+      public boolean onPreferenceClick(Preference preference) {
+        CadPageWidget.reinit(SmsPopupConfigActivity.this);
+        return true;
+      }});
     // Add developer dialog preference if appropriate
     DeveloperToolsManager.instance().addPreference(this, getPreferenceScreen());
   }

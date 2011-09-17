@@ -482,4 +482,7 @@
   
   <string name="release_title">What"'"s new in Cadpage?</string>
   <string name="widget_config_name">CADPage Config 1x4</string>
+  
+  <string name="pref_wakeup_widget_title">Wake up Cadpage Widget</string>
+  <string name="pref_wakeup_widget_summary">Wake up unresponsive Cadpage Widget</string>
 </resources>
