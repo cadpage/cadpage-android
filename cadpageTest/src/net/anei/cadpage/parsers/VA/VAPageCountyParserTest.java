@@ -58,9 +58,18 @@ public class VAPageCountyParserTest extends BaseParserTest {
         "CITY:SHENANDOAH",
         "ID:2011-016573",
         "X:HIDEAWAY LN/NEWPORT RD");
-  }
+
+    doTest("T6",
+        "R30 TRAFFIC CRASH 14171 SPOTSWOOD TRL ELK CFS# 2011-066741 CROSS: WALKING HORSE LN/MOUNT HERMON RD",
+        "SRC:R30",
+        "CALL:TRAFFIC CRASH",
+        "ADDR:14171 SPOTSWOOD TRL",
+        "CITY:ELK",
+        "ID:2011-066741",
+        "X:WALKING HORSE LN/MOUNT HERMON RD");
+ }
   
   public static void main(String[] args) {
-    new VAPageCountyParserTest().generateTests("T1", "SRC CALL ADDR CITY ID X");
+    new VAPageCountyParserTest().generateTests("T6", "SRC CALL ADDR CITY ID X");
   }
 }
