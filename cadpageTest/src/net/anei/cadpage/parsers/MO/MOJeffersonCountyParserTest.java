@@ -71,9 +71,17 @@ public class MOJeffersonCountyParserTest extends BaseParserTest {
         "PRI:2",
         "MAP:77",
         "UNIT:0002/0002 2433,2434,5437,6413,7713,7723,7734,7702,6434,7710");
+
+    doTest("T7",
+        "Location: BANDSTAND LN/INDUSTRIAL DR CNTY Call Type: STILL CHKAREA RP's Address: Pri: 3 Area: 77 Disp: 7710",
+        "ADDR:BANDSTAND LN & INDUSTRIAL DR",
+        "CALL:STILL CHKAREA",
+        "PRI:3",
+        "MAP:77",
+        "UNIT:7710");
   }
   
   public static void main(String[] args) {
-    new MOJeffersonCountyParserTest().generateTests("T1");
+    new MOJeffersonCountyParserTest().generateTests("T7");
   }
 }
