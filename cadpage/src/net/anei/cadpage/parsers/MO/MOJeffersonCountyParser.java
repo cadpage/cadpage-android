@@ -18,6 +18,7 @@ Location: OLD MORSE MILL RD/STATE RD EE CNTY Call Type: EMS TRAUMATIC_INJURI Com
 Location: 7890 DITTMER RIDGE RD CNTY:ST MARTINS CHURCH Call Type: ALARMSND FIREALMC Comments: CARD 77159 MAP 64 RP's Address: Pri: 2 Area: 77 Disp: 7724,7710  
 Location: GRAHAM RD/CEDAR HILL RD CNTY: IN THE AREA Call Type: STILL ILLBURN Comments: 77047 25 and 25a RP's Address: Pri: 4 Area: 77 Disp: 7710 
 Location: 4132 SLEEPY HOLLOW LN CNTY Call Type: 1STALRM RES-1ST Comments: CARD 77413 MAP 85 RP's Address: 4132 SLEEPY HOLLOW LN Pri: 2 Area: 77 Disp: 0002/0002 2433,2434,5437,6413,7713,7723,7734,7702,6434,7710 
+Location: BANDSTAND LN/INDUSTRIAL DR CNTY Call Type: STILL CHKAREA RP's Address: Pri: 3 Area: 77 Disp: 7710
 
 */
 
@@ -29,7 +30,7 @@ public class MOJeffersonCountyParser extends FieldProgramParser {
  
   public MOJeffersonCountyParser() {
     super(CITY_CODES, "JEFFERSON COUNTY", "MO",
-          "Location:ADDR/S! Call_Type:CALL! Comments:INFO! RP's_Address:INFO2 Pri:PRI Area:MAP Disp:UNIT%");
+          "Location:ADDR/S! Call_Type:CALL! Comments:INFO? RP's_Address:INFO2! Pri:PRI Area:MAP Disp:UNIT%");
   }
   
   private class MyAddressField extends AddressField {

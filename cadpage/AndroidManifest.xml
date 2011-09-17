@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest
   xmlns:android="http://schemas.android.com/apk/res/android"
-  package="net.anei.cadpage" android:versionName="1.4.26" android:versionCode="14260">
+  package="net.anei.cadpage" android:versionName="1.4.26A" android:versionCode="14261">
   <uses-sdk
     android:targetSdkVersion="8" android:minSdkVersion="4"/>
     
-  <application android:label="@string/app_name" android:name="net.anei.cadpage.CadPageApplication" android:debuggable="false" android:icon="@drawable/ic_launcher">
+  <application android:label="@string/app_name" android:name="net.anei.cadpage.CadPageApplication" android:debuggable="true" android:icon="@drawable/ic_launcher">
     <uses-library android:name="com.google.android.maps" />  
     
     
