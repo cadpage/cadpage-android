@@ -22,6 +22,10 @@ Contact: Lindsey Sullivan <lds2011.ls@gmail.com>
 Sender: MAILBOX@pagesheriff.COM
 (RS1 INJURIES FROM A FALL 4472  US HWY 340    SHE  CFS# 2011-016573 CROSS) MAILBOX:HIDEAWAY LN/NEWPORT RD
 
+Contact: greg seal <grgifts02@yahoo.com>
+Sender: MAILBOX@hrecc.org
+R30 TRAFFIC CRASH 14171 SPOTSWOOD TRL ELK CFS# 2011-066741 CROSS: WALKING HORSE LN/MOUNT HERMON RD
+
 */
 
 public class VAPageCountyParser extends DispatchDAPROParser {
