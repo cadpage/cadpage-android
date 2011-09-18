@@ -154,9 +154,17 @@ public class NYSuffolkCountyAParserTest extends BaseParserTest {
         "PLACE:BAY HOUSE",
         "X:NEWINS ST / PARK ST",
         "CODE:52-C-3G");
+    
+    doTest("T21",
+        "TYPE: CHEST PAIN LOC: 3845 VETERANS MEMORIAL HWY RONKON: @HOLIDAY INN RONKONKOMA: @HOLIDAY INN RONKONKOMA:06:12.4418,40:48:13.4 PARKI",
+        "CALL:CHEST PAIN",
+        "ADDR:3845 VETERANS MEMORIAL HWY",
+        "CITY:Ronkonkoma",
+        "PLACE:HOLIDAY INN RONKONKOMA",
+        "INFO:HOLIDAY INN RONKONKOMA 06 12.4418,40 48 13.4 PARKI");
   }
   
   public static void main(String[] args) {
-    new NYSuffolkCountyAParserTest().generateTests("T20", "CALL ADDR CITY PLACE X CODE");
+    new NYSuffolkCountyAParserTest().generateTests("T21", "CALL ADDR CITY PLACE X CODE INFO");
   }
 }
