@@ -11,6 +11,12 @@ Oneida County, NY
 Contact: jim humphreys <jimmycrack79@gmail.com>
 Contact: Gary Reese <greese7169@yahoo.com>
 Contact: brad white <wfdcar1@gmail.com>
+Contact: James Brown <landscapesunlimitedcny@gmail.com>
+Contact: james rouillier jr <scaredtwo@gmail.com>
+Contact: eric roux <eroux33@gmail.com>
+Contact: Michael Delong <mike.delong.392@gmail.com>
+Contact: James Griffiths <griffballs72@gmail.com>
+Contact: David Kennett <kennett.d.24@gmail.com>
 Sender: dispatch@ocgov.net,dispatch@oc911.org
 
 o;?WHIF:2010:0648\nDispatched\nEMS/BREATHING PROBLEMS\n111 HARDCASTLE AVE, WHITESBORO VILLAGE (MERITON DR/PERIMETER RD)
@@ -22,31 +28,19 @@ i>¿WEVF:2010:0170\nDispatched\nEMS/STROKE/CVA\n9132 MAIN ST, WESTERN (GIFFORD H
 i>¿WEVF:2010:0171\nDispatchedWIRES DOWN/BURNHILLSIDE RD, WESTERN
 i>¿WEVF:2010:0169\nDispatched\nFIRE STRUCTURE7893 GIFFORD HILL RD, WESTERN (CAMRODEN RD/ROUTE 46)
 o;?WHIF:2010:0704>Dispatched>EMS/ABDOMINAL PAIN>20 MOHAWK ST, WHITESBORO VILLAGE (SAUQUOIT ST/FERNBANK CIR; Near:AMERICAN LEGION POST 1113)
-
 ¿WEVF:2010:0182Dispatched31D02 - UNCONSCIOUS -- EFFECTIVE BREATHING9725 N STEUBEN RD, STEUBEN (STARR HILL RD/LEWIS RD;)
 i>¿WEVF:2011:0010DispatchedFIRE STRUCTURE8801 CAMRODEN RD, WESTERN (EVANS RD/TOWNLINE RD; Near:INGERSOLL TRAILER PARK)
-
-Contact: brad white <wfdcar1@gmail.com>
 i>¿WEMF:2011:0089Dispatched17A03 - PUBLIC ASSIST (NO INJURIES AND NO PRIORITY SYMPTOMS)7700 STONE RD, WESTMORELAND (PECKVILLE RD/STOP 7 RD;)
-
-Contact: James Brown <landscapesunlimitedcny@gmail.com>
 MSG:i>¿DURF:2011:0013DispatchedALARM EMS5593 ROUTE 46, VERONA (ROUTE 31/FOX ST;)
 MSG:i>¿DURF:2011:0013DispatchedALARM EMS5593 ROUTE 46, VERONA (ROUTE 31/FOX ST;)
-
-Contact: james rouillier jr <scaredtwo@gmail.com>
 ?LECF:2011:0085>Dispatched\n>17A03 - PUBLIC ASSIST (NO INJURIES AND NO PRIORITY SYMPTOMS)\n>5368 SLONE RD, LEE (LEE CENTER TABERG RD/SKINNER RD;)
-
-Contact: eric roux <eroux33@gmail.com>
 ?WEMF:2011:0144>Dispatched\n>ASSIST\n>6471 W CARTER RD, WESTMORELAND, NY
-
-Contact: James Griffiths <griffballs72@gmail.com>
 ?DEEF:2011:0075>Dispatched\n>WIRES DOWN/BURN\n>6352 WALKER RD, DEERFIELD (CRUIKSHANK RD/MILLER RD;)
-
-Contact: Michael Delong <mike.delong.392@gmail.com>
 ?LADF:2011:0165>Dispatched\n>FIRE STRUCTURE\n>8428 DAWN DR, ROME OUTSIDE (EVENING RD/;)
-
-Contact: David Kennett <kennett.d.24@gmail.com>
 ?VEOF:2011:0407>Dispatched\n>ALARM FIRE\n>5218 PATRICK RD (COUNTY ROUTE 48A), VERONA (VERONA, ROUTE 365/SNYDER RD; Near:TURNING STONE CASINO)
+
+** NOT IMPLEMENTED **
+FRM:dispatch@oc911.org\nMSG:???WEMF:2011:0346AcknowledgeMVA-UNKNOWNROUTE 233, WESTMORELAND/W MAIN ST (COUNTY ROUTE 23), WESTMORELAND
 
 */
 

@@ -255,6 +255,7 @@ public class SmsMsgInfo {
   private static final Pattern CI_PTN = Pattern.compile("\\bCI\\b");
   private static final Pattern BLV_PTN = Pattern.compile("\\bBLV\\b");
   private static final Pattern TL_PTN = Pattern.compile("\\bTL\\b");
+  private static final Pattern TRC_PTN = Pattern.compile("\\bTRC\\b");
   private String cleanStreetSuffix(String sAddr) {
     sAddr = AV_PTN.matcher(sAddr).replaceAll("AVE");
     sAddr = HW_PTN.matcher(sAddr).replaceAll("HWY");
@@ -264,6 +265,7 @@ public class SmsMsgInfo {
     sAddr = CI_PTN.matcher(sAddr).replaceAll("CIR");
     sAddr = BLV_PTN.matcher(sAddr).replaceAll("BLVD");
     sAddr =  TL_PTN.matcher(sAddr).replaceAll("TRL");
+    sAddr =  TRC_PTN.matcher(sAddr).replaceAll("TRCE");
     sAddr = sAddr.replace(" NEAR ", " & ");
     sAddr = sAddr.replace(" OFF ", " & ");
     return sAddr;

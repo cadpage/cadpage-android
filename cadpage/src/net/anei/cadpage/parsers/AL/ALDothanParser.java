@@ -36,6 +36,10 @@ Sender: Robot.ALERT@dothan.org
 05:04:51/MAID-Mutual Aid Request/5028 REEVES ST INTERSECTN/DOTHAN/CITY LIMITS/95163482/ref s38b 49 yom actively seizing, 1040 w/abbeville rescue/
 10:25:33/S8CF-MVC-Code II/1 COLUMBIA HWY INTERSECTN/DOTHAN/E MAIN ST/15439268/
 14:52:12/S8BF-MVC-Code III/2410 ROSS CLARK CIR INTERSECTN/DOTHAN/S PARK AVE/24135869/PT JUST RELEASED FROM HOSPITAL, UNK IF INJURIED/
+11:15:34/S38B-Medical Call-Code III-Emergy/6726 E HIGHWAY 134/DOTHAN/769381254/elderly male appears disoriented ~~ 10-5 by ozark/dale co/
+09:48:02/S38B-Medical Call-Code III-Emergy/101 LOCKWYNN TRC/DOTHAN/68392145/20YOF SWEATING UNK FURTHER RELAYED BY THIRD PARTY/
+14:33:21/S38B-Medical Call-Code III-Emergy/342 S SAINT ANDREWS ST APT216/DOTHAN/VAUGHN TOWERS 216/14523968/58YOF  PAIN ALL OVER/
+00:30:09/MAID-Mutual Aid Request/17230 E STATE HWY 52 BLK/COLUMBIA/COFDA/F-COFD/
 
 */
 public class ALDothanParser extends FieldProgramParser {
@@ -90,9 +94,38 @@ public class ALDothanParser extends FieldProgramParser {
     }
   }
   
+  private static final Pattern ID_PTN = Pattern.compile("\\d{8,9}");
   private class MyIdField extends IdField {
-    public MyIdField() {
-      setPattern(Pattern.compile("\\d{8}"), true);
+    
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      
+      // checkParse is called when we are checking to see if this is a valid
+      // ID field or a place field.  Here we make the normal pattern validation
+      if (!ID_PTN.matcher(field).matches()) return false;
+      super.parse(field, data);
+      return true;
+    }
+    
+    @Override
+    public void parse(String field, Data data) {
+      
+      // parse is called if we have already parsed a place name and are looking
+      // for the real ID field.  Generally we should succeed if this matches the
+      // normal ID pattern and fail if it does not.
+      // One important exception, if this is a mutual aid call, the call ID
+      // may be missing entirely, in which case we will treat this as an info
+      // field
+      if (ID_PTN.matcher(field).matches()) {
+        super.parse(field, data);
+      } else if (data.strCall.startsWith("MAID-")) {
+        data.strSupp = field;
+      } else abort();
     }
   }
   
