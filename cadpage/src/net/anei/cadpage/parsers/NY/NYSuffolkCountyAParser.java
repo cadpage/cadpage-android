@@ -51,6 +51,10 @@ TYPE: MOTOR VEHICLE ACCIDENT  CROSS: CHURCH ST / LAKELAND AV CODE: 29-B-1U TIME:
 Contact: Scott Parris <fireteacher@gmail.com>
 TYPE: ALARMS LOC: 311 BAY AV EPATCH: @BAY HOUSE  CROSS: NEWINS ST / PARK ST CODE: 52-C-3G TIME: 15:33:58\n\n
 
+Contact: Chris Wagner <cwagner021@gmail.com>
+Sender: paging+bncCAAQveHY8wQaBJlKIvM@communityamb.org
+TYPE: CHEST PAIN LOC: 3845 VETERANS MEMORIAL HWY RONKON: @HOLIDAY INN RONKONKOMA: @HOLIDAY INN RONKONKOMA:06:12.4418,40:48:13.4 PARKI
+
 */
 
 public class NYSuffolkCountyAParser extends SmartAddressParser {
@@ -70,7 +74,8 @@ public class NYSuffolkCountyAParser extends SmartAddressParser {
       "NBAYSH", "Bay Shore",
       "OAKDAL", "Oakdale",
       "PATCH",  "Patchogue",
-      "SHIRLE", "Shirley"
+      "SHIRLE", "Shirley",
+      "RONKON", "Ronkonkoma"
   });
   
   private static final String DEF_STATE = "NY";
@@ -96,9 +101,8 @@ public class NYSuffolkCountyAParser extends SmartAddressParser {
     
     data.strCall = props.getProperty("TYPE");
     if (data.strCall == null) return false;
-    
-    data.strCross = props.getProperty("CROSS");
-    if (data.strCross == null) return false;
+
+    data.strCross = props.getProperty("CROSS", "");
     
     String sAddress = props.getProperty("LOC");
     if (sAddress == null) {
@@ -109,7 +113,13 @@ public class NYSuffolkCountyAParser extends SmartAddressParser {
       sAddress = sAddress.replaceAll(":", " ");
       int pt = sAddress.indexOf('@');
       if (pt >= 0) {
-        data.strPlace = sAddress.substring(pt+1).trim();
+        String sPlace = sAddress.substring(pt+1).trim();
+        int pt2 = sPlace.indexOf('@');
+        if (pt2 >= 0) {
+          data.strSupp = sPlace.substring(pt2+1).trim();
+          sPlace = sPlace.substring(0,pt2).trim();
+        }
+        data.strPlace = sPlace;
         sAddress = sAddress.substring(0,pt).trim();
         pt = sAddress.lastIndexOf(' ');
         if (pt >= 0) {
@@ -123,8 +133,8 @@ public class NYSuffolkCountyAParser extends SmartAddressParser {
         data.strPlace = getLeft();
       }
     }
-    data.strCode = props.getProperty("CODE", "");
     
+    data.strCode = props.getProperty("CODE", "");
     data.strCity = convertCodes(data.strCity, CITY_TABLE);
     
     return true;
