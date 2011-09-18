@@ -210,7 +210,7 @@ public class BillingService extends Service implements ServiceConnection {
               }
               if (responseCode == ResponseCode.RESULT_OK.ordinal()) billingSupported = true;
             }
-            checkBillingSupportedResponse(billingSupported);
+            ResponseHandler.checkBillingSupportedResponse(billingSupported);
             return Consts.BILLING_RESPONSE_INVALID_REQUEST_ID;
         }
     }
@@ -223,14 +223,7 @@ public class BillingService extends Service implements ServiceConnection {
         return new CheckBillingSupported().runRequest();
     }
 
-    /**
-     * Notifies the application of the availability of the MarketBillingService.
-     * This method is called in response to the application calling
-     * {@link BillingService#checkBillingSupported()}.
-     * @param supported true if in-app billing is supported.
-     */
-    protected void checkBillingSupportedResponse(boolean billingSupported) {}
-
+    
     /**
      * Wrapper class that requests a purchase.
      */
