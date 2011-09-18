@@ -244,6 +244,41 @@ public class ALDothanParserTest extends BaseParserTest {
         "ID:24135869",
         "INFO:PT JUST RELEASED FROM HOSPITAL, UNK IF INJURIED");
 
+    doTest("T26",
+        "11:15:34/S38B-Medical Call-Code III-Emergy/6726 E HIGHWAY 134/DOTHAN/769381254/elderly male appears disoriented ~~ 10-5 by ozark/dale co/",
+        "CALL:S38B-Medical Call-Code III-Emergy",
+        "ADDR:6726 E HIGHWAY 134",
+        "CITY:DOTHAN",
+        "ID:769381254",
+        "INFO:elderly male appears disoriented ~~ 10-5 by ozark / dale co");
+    
+    doTest("T27",
+        "09:48:02/S38B-Medical Call-Code III-Emergy/101 LOCKWYNN TRC/DOTHAN/68392145/20YOF SWEATING UNK FURTHER RELAYED BY THIRD PARTY/",
+        "CALL:S38B-Medical Call-Code III-Emergy",
+        "ADDR:101 LOCKWYNN TRC",
+        "CITY:DOTHAN",
+        "ID:68392145",
+        "INFO:20YOF SWEATING UNK FURTHER RELAYED BY THIRD PARTY");
+
+    doTest("T28",
+        "14:33:21/S38B-Medical Call-Code III-Emergy/342 S SAINT ANDREWS ST APT216/DOTHAN/VAUGHN TOWERS 216/14523968/58YOF  PAIN ALL OVER/",
+        "CALL:S38B-Medical Call-Code III-Emergy",
+        "ADDR:342 S SAINT ANDREWS ST",
+        "APT:216",
+        "CITY:DOTHAN",
+        "PLACE:VAUGHN TOWERS 216",
+        "ID:14523968",
+        "INFO:58YOF  PAIN ALL OVER");
+
+    doTest("T29",
+        "00:30:09/MAID-Mutual Aid Request/17230 E STATE HWY 52 BLK/COLUMBIA/COFDA/F-COFD/",
+        "CALL:MAID-Mutual Aid Request",
+        "ADDR:17230 E STATE HWY 52",
+        "APT:BLK",
+        "CITY:COLUMBIA",
+        "PLACE:COFDA",
+        "INFO:F-COFD");
+
   }
   
   
