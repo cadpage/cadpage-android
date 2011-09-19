@@ -5,6 +5,7 @@ import java.util.Calendar;
 import java.util.GregorianCalendar;
 
 //import net.anei.cadpage.ContentQuery;
+import net.anei.cadpage.C2DMReceiver;
 import net.anei.cadpage.ContentQuery;
 import net.anei.cadpage.ManagePreferences;
 import net.anei.cadpage.R;
@@ -55,6 +56,9 @@ public class DeveloperToolsManager {
   
   
   private static final String[] entryList = new String[]{
+    "C2DM: Register",
+    "C2DM: Unregister",
+    "C2DM: Report",
     "Stat: Free",
     "Stat: Donate paid",
     "Stat: Donate warn",
@@ -69,7 +73,7 @@ public class DeveloperToolsManager {
   };
   
   private static final String[] valueList = new String[]{
-    "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"
+    "31", "32", "33", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"
   };
   
   private class DeveloperListPreference extends ListPreference {
@@ -146,6 +150,18 @@ public class DeveloperToolsManager {
         
       case 10:     // Recent tasks
         ContentQuery.dumpRecentTasks(context);
+        break;
+        
+      case 31:    // C2DM Register
+        C2DMReceiver.register(context);
+        break;
+        
+      case 32:    // C2DM Unregister
+        C2DMReceiver.unregister(context);
+        break;
+        
+      case 33:    // C2DM: Report
+        C2DMReceiver.emailRegistrationId(context);
         break;
       }
       MainDonateEvent.instance().refreshStatus();

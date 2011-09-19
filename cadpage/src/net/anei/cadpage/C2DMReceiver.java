@@ -139,5 +139,19 @@ public class C2DMReceiver extends BroadcastReceiver {
     intent.putExtra("app", PendingIntent.getBroadcast(context, 0, new Intent(), 0));
     context.startService(intent);
   }
+
+  public static void emailRegistrationId(Context context) {
+    
+    // Build send email intent and launch it
+    Intent intent = new Intent(Intent.ACTION_SEND);
+    String[] emailAddr = context.getResources().getStringArray(R.array.email_devel_addr);
+    intent.putExtra(Intent.EXTRA_EMAIL, emailAddr);
+    String emailSubject = SmsPopupUtils.getNameVersion(context) + " C2DM registrion ID";
+    intent.putExtra(Intent.EXTRA_SUBJECT, emailSubject);
+    intent.putExtra(Intent.EXTRA_TEXT, "My C2DM registration ID is " + ManagePreferences.getRegistrationId());
+    intent.setType("message/rfc822");
+    context.startActivity(Intent.createChooser(
+        intent, context.getString(R.string.pref_sendemail_title)));
+  }
 }
 
