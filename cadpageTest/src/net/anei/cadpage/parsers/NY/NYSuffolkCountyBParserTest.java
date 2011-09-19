@@ -263,9 +263,17 @@ public class NYSuffolkCountyBParserTest extends BaseParserTest {
         "SRC:NORTH BABYLON FC",
         "ID:2011-002274",
         "INFO:84 Y/F BODY PAINS");
+
+    doTest("T42",
+        "*** 2nd/16 - Rescue *** 224 STATE AVE CS: MOUNT AVE  - LUND ST TOA: 18:48 09-17-11 E/F ABD PAIN WYANDANCH/WHEATLEY HTS 2011-001835",
+        "CALL:2nd/16 - Rescue",
+        "ADDR:224 STATE AVE",
+        "X:MOUNT AVE  - LUND ST",
+        "ID:2011-001835",
+        "INFO:E/F ABD PAIN WYANDANCH/WHEATLEY HTS");
   }
   
   public static void main(String[] args) {
-    new NYSuffolkCountyBParserTest().generateTests("T37");
+    new NYSuffolkCountyBParserTest().generateTests("T43");
   }
 }
