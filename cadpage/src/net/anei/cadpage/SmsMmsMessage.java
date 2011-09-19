@@ -32,6 +32,7 @@ public class SmsMmsMessage implements Serializable {
   // Message types
   public static final int MESSAGE_TYPE_SMS = 0;
   public static final int MESSAGE_TYPE_MMS = 1;
+  public static final int MESSAGE_TYPE_C2DM = 2;
 
   // Main message object private vars
   private String fromAddress = null;

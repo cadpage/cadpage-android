@@ -41,6 +41,8 @@ Contact: Dan Hill <hill.rix@gmail.com>
 FIRE CALL-GAS ODOR INVESTIGATION AT 1731 BAUMAN BETWEEN CRAWFORD & BIG HAND
 RESCUE - 73 YEAR OLD MALE IN FULL ARREST AT 3970 S MAYER/PUTTYGUT
 
+illegal burn   across f/402 deerfield ln   large bon fire going
+
 */
 
 public class MIRichmondParser extends SmartAddressParser {

@@ -474,6 +474,14 @@ public class ManagePreferences {
     prefs.putString(R.string.pref_auth_organization, newVal);
   }
   
+  public static String getRegistrationId() {
+    return prefs.getString(R.string.pref_registration_id, null);
+  }
+  
+  public static void setRegistrationId(String regId) {
+    prefs.putString(R.string.pref_registration_id, regId);
+  }
+  
   public static String ledColor() {
     return prefs.getString(R.string.pref_flashled_color_key, R.string.pref_flashled_color_default);
   }
@@ -574,7 +582,9 @@ public class ManagePreferences {
         R.string.pref_paid_year_key,
         R.string.pref_install_date_key,
         R.string.pref_free_rider_key,
-        R.string.pref_auth_location
+        R.string.pref_auth_location,
+        
+        R.string.pref_registration_id
     };
 
     Map<String, ?> map = prefs.mPrefs.getAll();

@@ -10,6 +10,7 @@
    <string name="pref_free_rider_key">free_rider</string>
    <string name="pref_auth_location">auth_locaton</string>
    <string name="pref_auth_organization">auth_organization</string>
+   <string name="pref_registration_id">registration_id</string>
    
    <string name="pref_donate_status_key">donatestatus</string>
    
