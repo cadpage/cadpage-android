@@ -46,6 +46,10 @@ From: paging@firerescuesystems.xohost.com
 *** 2nd/16 - Rescue *** 1171 LITTLE EAST NECK RD CS: DELAWARE RD  - PHOENIX RD TOA: 09:29 09-12-11 <29091211> NORTH BABYLON FC 2011-002275 <2011002275>
 *** 16 - Rescue *** 101 ELKTON LN CS: MAYBROOK RD  - AUGUST RD TOA: 08:52 09-12-11 84 <5209121184> Y/F BODY PAINS  NORTH BABYLON FC 2011-002274<2011002274>
 
+Contact: Bernice Bien Aime <bbienaime@wwhac.com>
+Sender: paging@firerescuesystems.xohost.com
+*** 2nd/16 - Rescue *** 224 STATE AVE CS: MOUNT AVE  - LUND ST TOA: 18:48 09-17-11 E/F ABD PAIN WYANDANCH/WHEATLEY HTS 2011-001835
+
 sms send 1112223333 (1/2)Daniel M. Agababian - Sender: paging@firerescuesystems.xohost.com\n*** 16 - Rescue *** 162 OAKLAND AVE CS: W 6TH ST  / W 5TH ST TOA: 10:20 04/02/11 A/F INF
 sms send 1112223333 (2/2)FROM A FALL   DEER PARK FIR
 
@@ -87,7 +91,7 @@ public class NYSuffolkCountyBParser extends FieldProgramParser {
       Matcher match = TIME_DATE.matcher(field);
       if (match.find()) field = field.substring(match.end()).trim();
       field = ANGLE_BKT_PTN.matcher(field).replaceAll("");
-      match = DISTRICT_PTN.matcher(field);
+     match = DISTRICT_PTN.matcher(field);
       if (match.find()) {
         data.strSource = match.group();
         field = field.substring(0,match.start()) + field.substring(match.end());

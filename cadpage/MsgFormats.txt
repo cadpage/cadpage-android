@@ -3106,8 +3106,20 @@ NB I-85 MM 4\n
 NB INTERSTATE EIGHTY-FIVE - MM 04\2sMECK CO\n
 CO#7 SSRS VSP\n
 \n
-
 **********************************************************
+Unknown:
+Contact: Charlie Humert <humbert04.ch@gmail.com>
+Sender: KC-911@kc911.us
+Looks a lot like Crook County, OR
+EVENT # 1109180028 11\n
+2 - ALS MEDICAL CALL\n
+PRIORITY 1 \n
+LOCATION 137447 97 N\n
+CITY CRESCENT\n
+APT \n
+PREMISE \n
+COMMENT DIFF BREATHING\n
+62 YOF
 **********************************************************
 **********************************************************
 **********************************************************
