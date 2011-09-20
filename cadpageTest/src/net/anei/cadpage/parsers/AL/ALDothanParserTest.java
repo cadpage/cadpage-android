@@ -279,6 +279,15 @@ public class ALDothanParserTest extends BaseParserTest {
         "PLACE:COFDA",
         "INFO:F-COFD");
 
+    doTest("T30",
+        "16:52:57/OF-Outdoor Fire-Level 1/100 PEMCO DR/DOTHAN/PEMCO/769381254/BEHIND HANGER 15 GRASS IN FIELD.. TRANSFORMER BLOWN/",
+        "CALL:OF-Outdoor Fire-Level 1",
+        "ADDR:100 PEMCO DR",
+        "CITY:DOTHAN",
+        "PLACE:PEMCO",
+        "ID:769381254",
+        "INFO:BEHIND HANGER 15 GRASS IN FIELD.. TRANSFORMER BLOWN");
+
   }
   
   
