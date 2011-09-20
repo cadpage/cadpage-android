@@ -446,6 +446,26 @@ public class ManagePreferences {
     }
   }
   
+  public static Date purchaseDate() {
+    String dateStr = prefs.getString(R.string.pref_purchase_date_key, null);
+    try {
+      return new SimpleDateFormat("MMddyyyy").parse(dateStr);
+    } catch (ParseException ex) {
+      throw new RuntimeException(ex);
+    }
+  }
+  
+  public static String purchaseDateString() {
+    String dateStr = prefs.getString(R.string.pref_purchase_date_key, null);
+    if (dateStr == null) dateStr = new SimpleDateFormat("MMddyyyy").format(new Date());
+    return dateStr;
+  }
+  
+  public static void setPurchaseDateString(String  sDate) {
+    prefs.putString(R.string.pref_purchase_date_key, sDate);
+    DonationManager.reset();
+  }
+  
   public static boolean freeRider() {
     return prefs.getBoolean(R.string.pref_free_rider_key);
   }
@@ -581,6 +601,7 @@ public class ManagePreferences {
 
         R.string.pref_paid_year_key,
         R.string.pref_install_date_key,
+        R.string.pref_purchase_date_key,
         R.string.pref_free_rider_key,
         R.string.pref_auth_location,
         

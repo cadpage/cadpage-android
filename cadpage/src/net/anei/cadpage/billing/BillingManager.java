@@ -47,6 +47,15 @@ public class BillingManager {
     if (mService != null) mService.unbind();
     mService = null;
   }
+
+  /**
+   * @return true if the current year item is available for purchase
+   */
+  public boolean isPurchaseAvail() {
+    if (!supported) return false;
+    int year = Calendar.getInstance().get(Calendar.YEAR);
+    return year > ManagePreferences.paidYear();
+  }
   
   /**
    * Request purchase of current year product
@@ -55,7 +64,8 @@ public class BillingManager {
   public void startPurchase(Activity activity) {
     int year = Calendar.getInstance().get(Calendar.YEAR);
     String item = "cadpage_" + year;
-    mService.requestPurchase(activity, item, null); 
+    String payload = ManagePreferences.purchaseDateString();
+    mService.requestPurchase(activity, item, payload); 
   }
   
 
@@ -70,10 +80,11 @@ public class BillingManager {
     @Override
     public void onPurchaseStateChange(PurchaseState purchaseState,
                                        String itemId, long purchaseTime, 
-                                       String developerPayload) {
+                                       String payload) {
       if (itemId.startsWith("cadpage_")) {
         int year = Integer.parseInt(itemId.substring(8));
         ManagePreferences.setPaidYear(year, purchaseState == PurchaseState.PURCHASED);
+        if (payload != null) ManagePreferences.setPurchaseDateString(payload);
       }
     }
 

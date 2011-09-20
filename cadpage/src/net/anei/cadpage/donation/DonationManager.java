@@ -55,12 +55,12 @@ public class DonationManager {
     
     // Calculate expiration date
     // (one year past the install date anniversary in the last paid year)
-    expireDate = null;
-    daysTillExpire = Integer.MIN_VALUE;
     int paidYear = ManagePreferences.paidYear();
     if (paidYear > 0) {
+      Date tDate = ManagePreferences.purchaseDate();
+      if (tDate == null) tDate = ManagePreferences.installDate();
       Calendar cal = new GregorianCalendar();
-      cal.setTime(installDate);
+      cal.setTime(tDate);
       cal.set(Calendar.YEAR, paidYear+1);
       expireDate = cal.getTime();
       daysTillExpire = curJDate.diffDays(new JulianDate(expireDate));

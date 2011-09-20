@@ -17,7 +17,7 @@ public class AndroidDonateEvent extends DonateEvent {
   @Override
   public boolean isEnabled() {
     return DeveloperToolsManager.instance().isBillingEnabled() && 
-            BillingManager.instance().isSupported();
+            BillingManager.instance().isPurchaseAvail();
   }
 
   @Override
