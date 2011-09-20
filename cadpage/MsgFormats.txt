@@ -665,6 +665,11 @@ MARINE INCIDENT, - SEARCH at BLOCK ISLAND RD BRANFORD, GUILFORD . . 14:27:56
 CODE 5,- AUTOMATIC FIRE ALARM at 275 LAKE DRIVE GUILFORD 15:57
 CODE 1,- AUTOMATIC FIRE ALARM at 35 STATE STREET, GUILFORD 17:15 cross street 1-begins at broad st;115-Boston Post Road;180-North Street
 ***************************************************************************
+North Branford & Northford, CT (CTNorthBrandonParser)
+1100008173 MEDICAL MEDA 00167  BRANFORD RD HUBBARD RD/TWIN LAKE RD  MED4 503 110910 11:50
+1100008148 MEDICAL MEDD 00009  SALEM ST CLINTONVILLE RD/VILLAGE ST  MED4 R2 110909 17:55
+1100008142 MUTUAL AID 00392  HOPE HILL RD WALLINGFORD    MED4 110909 15:38
+***************************************************************************
 Tolland County, CT (CTTollandCountyParser)
 (TN Alert) 10 COTTAGE ST / UNIT D Vernon ALS Difficulty Breathing 21:14 Cross Street ST BERNARDS TER / SCHOOL ST 2011-00001770
 [TN Alert]  DOBSON RD / CAMPBELL AVE Vernon Vehicle Accident 2ND AMB  12:59 Cross Street 2011-00001773
@@ -2998,19 +3003,12 @@ Allegheny County, PA (alternate)
 Contact: Shawn Sible <firefighter0129@gmail.com>
 Sender: crescent.dispatch@moontwpfire.com
 
-(Dispatch Alert) M? Timeout=0604\n
-Smoke Detector Activated\n
-Helen Skvarj residence\n
-810 Bocktown Rd
-
-(Dispatch Alert) M? Timeout=0809\n
-Drill\n
-Nova Chemical\2sFrankfort Rd\n
-Potter Twp
-
+(Dispatch Alert) M? Timeout=0604\nSmoke Detector Activated\nHelen Skvarj residence\n810 Bocktown Rd
+(Dispatch Alert) M? Timeout=0809\nDrill\nNova Chemical\2sFrankfort Rd\nPotter Twp
 (Dispatch Alert) 1800: structure fire- independce. 3681 ridge rd. tanker needed
 (Dispatch Alert) MUTAUL AID CALL: MOON TWP: 128 DOVER DR
 (Dispatch Alert) 2nd page for mutual aid response to moon twp. 128 dover dr. structure fire
+(Dispatch Alert) M? Timeout=2116\nRIT TEAM REQUESTED\n803 24TH STREET HARMONY TWP
 **********************************************************
 San Joaquin County, CA
 Contact: John <john499@live.com>
@@ -3092,6 +3090,7 @@ Rec time: 1315849807260
 **********************************************************
 Alleghany County, MD (alternate?)
 Contact: Jeremy <athey9014@yahoo.com>
+Contact: "Roger Bennett" <rbennett@allconet.org>  (AllCoNet.org) (Dispatch center)
 Sender: acgov_911_cad@allconet.org
 S:CAD M:08:26 #047678 BEHAVORIAL EMERGENCY 12037 IRIS AVE SW  BOX:F0801 DUE:A396 M514\n\n\n
 **********************************************************
@@ -3126,12 +3125,7 @@ PREMISE \n
 COMMENT DIFF BREATHING\n
 62 YOF
 **********************************************************
-Unknown, trying Allegheny County, PA
-Contact: Shawn Sible <firefighter0129@gmail.com>
-Sender: crescent.dispatch@moontwpfire.com
-(Dispatch Alert) M? Timeout=2116\nRIT TEAM REQUESTED\n803 24TH STREET HARMONY TWP
-**********************************************************
-Washington Metropolatin Airport Authority, DC
+Washington Metropolatin Airport Authority (MWAA), DC
 Contact: "Gervis, Steve" <Steve.Gervis@mwaa.com>
 Sender: MWAA-Alert System [mailto:alert70270@rsan.mwaa.com] 
 Subject: IPS I/Page Notification\nIAD 1R-19L: @RUNWAY 1R IAD AIR AIR2--TIME: 19:32:13 Comments:  SPECIAL ADDRESS COMMENT: THE STANDBY LOCATION FOR PD ON ALERTS IS THE EAST END OF THE C/D CONCOURSE ETA 12 MICS UNKNWN SOULS OR FUELS SMOKE IN COCKPIT SMOKE IN THE COCK PIT  Disp: F302,F345,F352,TAU302,P2,F358,TW302,BC302,M302,EMS302
@@ -3149,22 +3143,6 @@ Subject: IPS I/Page Notification\n2451 W ENTRANCE RD DCA: @QTA ALSCT PED--TIME: 
 **********************************************************
 **********************************************************
 **********************************************************
-North Branford & Northford, CT (in New Haven County)
-Contact: Jeff Green <greenjeffreya@gmail.com>
-Sender: paging@mail.nbpolicect.org.
-1100008173 MEDICAL MEDA 00167  BRANFORD RD HUBBARD RD/TWIN LAKE RD  MED4 503 110910 11:50
-1100008148 MEDICAL MEDD 00009  SALEM ST CLINTONVILLE RD/VILLAGE ST  MED4 R2 110909 17:55
-CREW NEEDED FOR AMB 44 LINE COVERAGE WALLINGFORD***CALL COMMS***
-1100008142 MUTUAL AID 00392  HOPE HILL RD WALLINGFORD    MED4 110909 15:38
-1100008130 AUTOMATIC FIRE ALARM 00051  CIRO RD FOXON RD/DEAD END  E1 ET11 ET22 T1 R11 515 110909 10:07
-1100008128 MEDICAL MEDB 00049  CAPUTO RD FOXON RD ROUTE 80/MILL RD  R1 MED4 515 110909 08:38
-ON MONDAY CLEAR LAKE RD WILL BE CLOSED FOR A CRANE TO REMOVE TREE FROM  HOUSE\n\nFURTHER DETAILS WILL COME ON MONDAY
-1100008057 MVA W/INJURIES  N MAIN/RT68 WLFD    A44 110906 17:05
-1100007980 BRUSH FIRE TWIN LAKES RD/ LAKE RD   BR1 ET11 502 110904 12:22
-
-Wallinford Mutual aid (WLFD)
-1100008057 MVA W/INJURIES N MAIN/RT68 WLFD A44 110906 17:05
-1100007014 MUTUAL AID 00909  BEAVER HEAD RD , GUILFORD    MED4 110811 01:16
 **********************************************************
 Winchester, VA
 Contact: Chris & Scott Kensinger <kensingerllc@gmail.com>
