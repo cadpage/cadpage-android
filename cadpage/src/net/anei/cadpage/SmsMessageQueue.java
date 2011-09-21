@@ -195,23 +195,6 @@ public class SmsMessageQueue implements Serializable {
     
     notifyDataChange();
   }
-
-  /**
-   * @return the single unread message if there is one and only one.  
-   * Null otherwise
-   */
-  public SmsMmsMessage getDisplayMsg() {
-	  if (Log.DEBUG) Log.v("SmsMessageQueue: getDisplayMsg");
-	  if (! ManagePreferences.popupEnabled()) return null;
-    SmsMmsMessage result = null;
-    for (SmsMmsMessage msg : queue) {
-      if (! msg.isRead()) {
-        if (result != null) return null;
-        result = msg;
-      }
-    }
-    return result;
-  }
   
   /**
    * @return ListAdapter that can be bound to ListView to display call history

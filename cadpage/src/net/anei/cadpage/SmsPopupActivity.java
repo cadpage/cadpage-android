@@ -835,16 +835,25 @@ private boolean externalStorageAvailable() {
   }
   
   /**
-   * Create intent that can be used to launch this activity
+   * Launch call display popup activity
    * @param context context
    * @param message message to be displayed
    * @return
    */
-
   public static void launchActivity(Context context, SmsMmsMessage message) {
+    launchActivity(context, message.getMsgId());
+  }
+  
+  /**
+   * Launch call display popup activity
+   * @param context context
+   * @param msgId message ID of message to be displayed
+   * @return
+   */
+  public static void launchActivity(Context context, int msgId) {
     Intent popup = new Intent(context, SmsPopupActivity.class);
     popup.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_EXCLUDE_FROM_RECENTS);
-    popup.putExtra(EXTRAS_MSG_ID, message.getMsgId());
+    popup.putExtra(EXTRAS_MSG_ID, msgId);
     context.startActivity(popup);
   }
 

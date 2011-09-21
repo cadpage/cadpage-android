@@ -17,6 +17,8 @@ import android.widget.TextView;
 
 public class CallHistoryActivity extends ListActivity {
   
+  private static final String EXTRA_MSG_ID = "net.anei.cadpage.CallHistoryActivity.MSG_ID";
+  
   private static final int RELEASE_DIALOG = 1;
   
   // keep track of which message text view has opened a context menu
@@ -82,8 +84,6 @@ public class CallHistoryActivity extends ListActivity {
    */
   private void startup() {
     Intent intent = getIntent();
-    
-    SmsMessageQueue msgQueue = SmsMessageQueue.getInstance();
 
     // We do some special processing if the intent was launched by the user
     // instead of through some internal trigger.
@@ -101,10 +101,12 @@ public class CallHistoryActivity extends ListActivity {
       }
     }
     
-    // If popup is enabled, and there is one and only one unread message in the
-    // queue, launch a message popup to display it
-    SmsMmsMessage msg = msgQueue.getDisplayMsg();
-    if (msg != null) SmsPopupActivity.launchActivity(this, msg);
+    // If popup is enabled, and there is a message ID passed from SmsReceiver
+    // launch a message popup to display it
+    if (ManagePreferences.popupEnabled()) {
+      int msgId = intent.getIntExtra(EXTRA_MSG_ID, 0);
+      if (msgId > 0)  SmsPopupActivity.launchActivity(this, msgId);
+    }
   }
 
   @Override
@@ -194,6 +196,9 @@ public class CallHistoryActivity extends ListActivity {
    */
   public static void launchActivity(Context context, SmsMmsMessage message) {
     Intent intent = getLaunchIntent(context);
+    if (message != null) {
+      intent.putExtra(EXTRA_MSG_ID, message.getMsgId());
+    }
     context.startActivity(intent);
   }
 
