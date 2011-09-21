@@ -128,6 +128,15 @@ public class CTWindhamCountyParserTest extends BaseParserTest {
         "ADDR:30 PICKETT RD",
         "CITY:Central Village",
         "X:TEX");
+
+    doTest("T2",
+        "Subject:Central Village FD Page\nSTA97 STA594 MOOS2  UHF-4 PRI 1 MOOS AMB 2ND CREW NEEDED / Injured Person 80 S CADY LN / CENTRAL CYCLE TRAC",
+        "UNIT:STA97 STA594 MOOS2",
+        "CH:UHF-4",
+        "PRI:1",
+        "CALL:MOOS AMB 2ND CREW NEEDED/Injured Person",
+        "ADDR:80 S CADY LN",
+        "PLACE:CENTRAL CYCLE TRAC");
  
   }
   
