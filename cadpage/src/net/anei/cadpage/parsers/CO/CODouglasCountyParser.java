@@ -13,13 +13,22 @@ Sender: @notifyatonce.net
 (Dispatch) Call: F GAS LP OUTSIDE Location: DEERFIELD RD / S  WHITE TAIL DR I Map: AI38D Units: E181 XXX181  Common Name: Time: 08/25/11 20:07 Narrativ
 (Dispatch) Call: F MED ASSIST Location: 2535 BURNT OAK DR / Map: AG37A Units: E181 MED181 XXX181  BURNING TREE TRL / DEAD END Common Name: Time: 08/25/
 
+Elbert County (dispatched through Douglas County)
+Contact: Ian McQueen <imcqueen@gmail.com>
+Sender: dcso@douglas.co.us
+(Dispatch) Call: F MED ASSIST Location: S PINE ST / SPRUCE ST Map: AJ44 Units: MED271 E273 XXX271  Common Name: Time: 09/20/11 17:13 Narrative:  PER LE 473 PINE
+
  */
 
 
 public class CODouglasCountyParser extends FieldProgramParser {
 
   public CODouglasCountyParser() {
-    super("DOUGLAS COUNTY", "CO",
+    this("DOUGLAS COUNTY", "CO");
+  }
+  
+  protected CODouglasCountyParser(String defCity, String defState) {
+    super(defCity, defState,
            "Call:CALL! Location:ADDR! Map:MAP Units:UNIT! Common_Name:NAME Time:SKIP");
   }
   
