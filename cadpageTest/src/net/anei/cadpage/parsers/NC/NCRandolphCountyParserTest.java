@@ -56,6 +56,51 @@ public class NCRandolphCountyParserTest extends BaseParserTest {
         "UNIT:STA20",
         "INFO:47YOF.. 1C4.. NEAR FAINTING.. ABOVE THE NAVEL.. / ARCHDALE RD ONTO DON");
  }
+  
+  @Test
+  public void testParser2() {
+
+    doTest("T1",
+        "Randolph 911 - FRFD\nBREATHING\n7363 FERGUSON RD\nSTA08\nSTA08\nLOT 15...CPN 301-4908...10-15 40 YOA FM COPD\n15:42:31 09/20/2011 - WATSON,A D\nProQA Medical Recommended Dispatch Level = 06D02\n15:42:41 09/20/2011 - WATSON,A D\nProQA Medica",
+        "SRC:FRFD",
+        "CALL:BREATHING",
+        "ADDR:7363 FERGUSON RD",
+        "UNIT:STA08",
+        "INFO:LOT 15...CPN 301-4908...10-15 40 YOA FM COPD");
+
+    doTest("T2",
+        "Randolph 911 - FRFD\nACCIDENT/PD\nUS HWY 64 E & FOXFIRE RD\nSTA08\nSTA08\nREF TO TRAFFIC CONTROL AT 10-50 PD AUTH OF 8B",
+        "SRC:FRFD",
+        "CALL:ACCIDENT/PD",
+        "ADDR:US HWY 64 E & FOXFIRE RD",
+        "UNIT:STA08",
+        "INFO:REF TO TRAFFIC CONTROL AT 10-50 PD AUTH OF 8B");
+
+    doTest("T3",
+        "Randolph 911 - FRFD\nUNCONSCIOUS\n125 MEADOW RD\nSTA08\nSTA08\n38 YOF UNCONSCIOUS\n14:01:59 09/20/2011 - FIELDS,K F\nProQA Medical Case Entry Finished\n14:02:25 09/20/2011 - FIELDS,K F\nProQA Medical Recommended Dispatch Level = 31D02",
+        "SRC:FRFD",
+        "CALL:UNCONSCIOUS",
+        "ADDR:125 MEADOW RD",
+        "UNIT:STA08",
+        "INFO:38 YOF UNCONSCIOUS");
+
+    doTest("T4",
+        "Randolph 911 - FRFD\nBACK PAIN\n3453 NC HWY 22 N\nSTA08\nSTA08\n10-15 TROY BULLINS 40YOM...C/O SEVERE BACK PAIN WITH DIFF BREATHING...REQ NO\nSIRENS...REQ TX TO CHATHAM\n19:50:01 09/19/2011 - RICHARDSON,A L\nProQA Medical Case Entry Finishe",
+        "SRC:FRFD",
+        "CALL:BACK PAIN",
+        "ADDR:3453 NC HWY 22 N",
+        "UNIT:STA08",
+        "INFO:10-15 TROY BULLINS 40YOM...C/O SEVERE BACK PAIN WITH DIFF BREATHING...REQ NO / SIRENS...REQ TX TO CHATHAM");
+
+    doTest("T5",
+        "Randolph 911 - FRFD\nFIRE (WOODS)\n840 BRADY ST EXT\nSTA08\nSTA08\nACROSS THE STREET FROM THIS ADDRESS, 10-70 WOODS BEHIND A BRICK RES\nCALLER LARRY BALDWIN 302-6467\nCALLBACK=??(336)430-5623 LAT=+035.755273 LON=-079.651050 UNC=00025\n",
+        "SRC:FRFD",
+        "CALL:FIRE (WOODS)",
+        "ADDR:840 BRADY ST EXT",
+        "UNIT:STA08",
+        "INFO:ACROSS THE STREET FROM THIS ADDRESS, 10-70 WOODS BEHIND A BRICK RES / CALLER LARRY BALDWIN 302-6467 / CALLBACK=??(336)430-5623 LAT=+035.755273 LON=-079.651050 UNC=00025");
+    
+  }
 
   public static void main(String[] args) {
     new NCRandolphCountyParserTest().generateTests("T1");
