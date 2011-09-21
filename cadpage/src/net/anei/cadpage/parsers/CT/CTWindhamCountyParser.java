@@ -70,7 +70,6 @@ public class CTWindhamCountyParser extends SmartAddressParser {
     if (pt < 0 || CITY_SET.contains(sPlaceCity.toUpperCase())) {
       data.strCity = sPlaceCity;
     } else {
-      int firstPt = pt;
       do {
         String sCity = sPlaceCity.substring(pt+1).trim();
         if (CITY_SET.contains(sCity.toUpperCase())) break;

@@ -448,6 +448,7 @@ public class ManagePreferences {
   
   public static Date purchaseDate() {
     String dateStr = prefs.getString(R.string.pref_purchase_date_key, null);
+    if (dateStr == null) return null;
     try {
       return new SimpleDateFormat("MMddyyyy").parse(dateStr);
     } catch (ParseException ex) {

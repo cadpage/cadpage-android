@@ -475,6 +475,7 @@ public class BillingService extends Service implements ServiceConnection {
      */
     @Override
     public void onStart(Intent intent, int startId) {
+        if (intent == null) return;
         String action = intent.getAction();
         if (Log.DEBUG) {
             Log.i("handleCommand() action: " + action);
