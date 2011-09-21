@@ -28,6 +28,7 @@ Sender: qvecpaging@qvec.org
 
 Contact: Joshua Maloney <josh.d.maloney@gmail.com>
 STA97 STA594 MOOS2  UHF-4 PRI 1 2ND CREW NEEDED Cardiac Distress 30 PICKETT RD / Central Village (X-STS TEX
+Subject:Central Village FD Page\nSTA97 STA594 MOOS2  UHF-4 PRI 1 MOOS AMB 2ND CREW NEEDED / Injured Person 80 S CADY LN / CENTRAL CYCLE TRAC
 
 */
 
@@ -50,8 +51,7 @@ public class CTWindhamCountyParser extends SmartAddressParser {
     Parser p = new Parser(body);
     data.strUnit = p.getOptional("  ");
     data.strChannel = p.get(' ');
-    String sAddr = p.getOptional("(X-STS ");
-    if (sAddr.length() == 0) return false;
+    String sAddr = p.get("(X-STS ");
     data.strCross = p.get(')');
     
     int pt = sAddr.lastIndexOf('/');
@@ -76,9 +76,10 @@ public class CTWindhamCountyParser extends SmartAddressParser {
         if (CITY_SET.contains(sCity.toUpperCase())) break;
         pt =  sPlaceCity.lastIndexOf(' ', pt-1);
       } while (pt > 0);
-      if (pt <= 0) pt = firstPt;
-      data.strCity = sPlaceCity.substring(pt+1).trim();
-      sPlaceCity = sPlaceCity.substring(0, pt).trim();
+      if (pt >= 0) {
+        data.strCity = sPlaceCity.substring(pt+1).trim();
+        sPlaceCity = sPlaceCity.substring(0, pt).trim();
+      }
       if (checkAddress(sPlaceCity) > 0) {
         data.strAddress = data.strAddress + " & " + sPlaceCity;
       } else {
