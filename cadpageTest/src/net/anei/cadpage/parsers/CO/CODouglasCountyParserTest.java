@@ -46,6 +46,18 @@ public class CODouglasCountyParserTest extends BaseParserTest {
         "X:BURNING TREE TRL / DEAD END");
   }
   
+  @Test
+  public void testElbertCounty() {
+
+    doTest("T1",
+        "(Dispatch) Call: F MED ASSIST Location: S PINE ST / SPRUCE ST Map: AJ44 Units: MED271 E273 XXX271  Common Name: Time: 09/20/11 17:13 Narrative:  PER LE 473 PINE",
+        "CALL:F MED ASSIST",
+        "ADDR:S PINE ST & SPRUCE ST",
+        "MAP:AJ44",
+        "UNIT:MED271 E273 XXX271");
+
+  }
+  
   public static void main(String[] args) {
     new CODouglasCountyParserTest().generateTests("T1");
   }
