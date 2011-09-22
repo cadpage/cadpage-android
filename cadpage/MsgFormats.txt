@@ -1634,6 +1634,11 @@ Dispatch2:RESPOND SEIZURES 14 FRONTIER RIDGE CT, AP1302 SARS 1
 Dispatch2:MVC, HEAD ON COLLISION MAIN-ROSSER-BROAD
 Dispatch:RESPOND - 2ND CALL - CHEST PAIN - 1142 NEW HOPE RD, AP3
 ***************************************************************************
+Winchester, VA (VAWinchesterParser)
+(Winchester ECC info) 11-041989 INSIDE SMELL OR SMOKE\n336 GRAY AVE\nNATIONAL AVE / VIRGI/NIA AVE\nWINCHESTER\nBAT6 E4 E5 EC18 M41 TK2 W1 E
+(Winchester ECC info) 11-042157 INSIDE FIRE STRUCT/ELEC/CHIMN\n122-1 E PALL MALL ST\nS CAMERON ST / S KEN/T ST\nWINCHESTER\nBAT6 E1 E4 E5 EC21 M51 TK2
+(Winchester ECC info) 11-042110 FIRE ALARM\n1890 AMHERST ST\nWESTSIDE STATION DR// CITY LIMITS\nADULT PSYCH CENTER  WINCHESTER\nE1 E4 EC15 TK2
+***************************************************************************
 Kenosha County, WI (WIKenoshaCountyParser)
 LMC213 #:002011070865 ILS MED at 7701 95TH ST Rem: 50 M ;HEART PROBLEM CONSCIOUS: YES ,BREATHING: YES
 NLB260 #:002011071148 ALS MED at 4204 109TH ST Rem: 69 F ;CHEST PAIN CONSCIOUS: YES ,BREATHING: YES
@@ -3132,28 +3137,6 @@ Subject: IPS I/Page Notification\n2451 W ENTRANCE RD DCA: @QTA ALSCT PED--TIME: 
 **********************************************************
 **********************************************************
 **********************************************************
-Winchester, VA
-Contact: Chris & Scott Kensinger <kensingerllc@gmail.com>
-Sender: winecc@ci.winchester.va.us
-(Winchester ECC info) 11-041989 INSIDE SMELL OR SMOKE\n336 GRAY AVE\nNATIONAL AVE / VIRGI/NIA AVE\nWINCHESTER\nBAT6 E4 E5 EC18 M41 TK2 W1 E
-
-Body:(Winchester ECC info) 11-042157 INSIDE FIRE STRUCT/ELEC/CHIMN\n
-122-1 E PALL MALL ST\n
-S CAMERON ST / S KEN/T ST\n
-WINCHESTER\n
-BAT6 E1 E4 E5 EC21 M51 TK2
-
-Body:(Winchester ECC info) 11-042110 FIRE ALARM\n
-1890 AMHERST ST\n
-WESTSIDE STATION DR// CITY LIMITS\n
-ADULT PSYCH CENTER\2sWINCHESTER\n
-E1 E4 EC15 TK2
-
-Body:(Winchester ECC info) 11-042059 OUTSIDE FIRES WITH NO EXPOSURE\n
-1029 ALLEN DR\n
-MOLDEN DR / KINZEL D/R\n
-TINAS QUALITY CLEANING\2sWINCHESTER\n
-E1
 **********************************************************
 Rockland County, NY (alternate) (Hatzoloh EMS)
 Contact: "Mordy Eisenberg (Absolute Medical)" <mordy@absolutemed.com>, 8455177842@vtext.com
