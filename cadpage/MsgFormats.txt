@@ -3138,57 +3138,6 @@ Subject: IPS I/Page Notification\n2451 W ENTRANCE RD DCA: @QTA ALSCT PED--TIME: 
 **********************************************************
 **********************************************************
 **********************************************************
-Rockland County, NY (alternate) (Hatzoloh EMS)
-Contact: "Mordy Eisenberg (Absolute Medical)" <mordy@absolutemed.com>, 8455177842@vtext.com
-Sender: www.absolutemed.com
-
-(ACR# 5141)Add: 475 New Hempstead Rd, 
-X St: Near the intersection of New Hempstead Rd and Old Schoolhouse Rd
-Name: Center-Rehab &amp; Nurs
-
- e, Friedwald
-Ph
-
-(ACR# 5142)Add: 24 Deerwood Rd, 
-X St: Between Cara Dr and Charlotte Dr
-Name: Eisenberg, Mordechai
-Phone: 8453628456
-Comp: 
-9/9/2011 - 9:19
-
- AM
- 
-(ACR# 5143)Add: 24 Deerwood Rd, 
-X St: Between Cara Dr and Charlotte Dr
-Name: Eisenberg, Mordechai
-Phone: 8453628456
-Comp: 
-9/9/2011 - 9:52
-
- AM
- 
-(ACR# 5146) Add: 10  WIDMAN CT, 
-X St: Near the intersection of Widman Ct and Bluefield Dr
-Name: 7782, 
-Phone: 
-Comp: 
-9/9/2011 - 9:55 AM
-
-(ACR# 5184) Add: 230 Kearsing Pkwy, 
-X St: Between Jill Ln and RT-306
-Name: Krausz, Arnold
-Phone: 8454267408
-Comp: CHEST PAIN
-9/13/2011 - 10
-
-:17 AM
-
-(ACR# 5181) Add: 10 Melnick Dr, \n
-X St: Between Robert Pitt Dr and Spruill Ct\n
-Name: Sale Furniture Warehouse, Whole\n
-Phone: 8453716664\n
-Comp: EDP\n
-9/12/2011 -
 **********************************************************
 Worcester County, MD (alternate)
 Contact: Joey Widgeon <jwidgeon2009@gmail.com>
