@@ -27,6 +27,7 @@ Sender: qvecpaging@qvec.org
 (Moosup FD Page) STA94 STA594 MOOS2  UHF-4 PRI 1 MOOS AMB 2ND CREW / Vehicle Accident SNAKE MEADOW RD / VALLEY VIEW RD / Moosup (X-STS ) 22:10
 
 Contact: Joshua Maloney <josh.d.maloney@gmail.com>
+Contact: "chieflapierre@sbcglobal.net" <chieflapierre@sbcglobal.net>
 STA97 STA594 MOOS2  UHF-4 PRI 1 2ND CREW NEEDED Cardiac Distress 30 PICKETT RD / Central Village (X-STS TEX
 Subject:Central Village FD Page\nSTA97 STA594 MOOS2  UHF-4 PRI 1 MOOS AMB 2ND CREW NEEDED / Injured Person 80 S CADY LN / CENTRAL CYCLE TRAC
 
@@ -42,7 +43,7 @@ public class CTWindhamCountyParser extends SmartAddressParser {
   
   @Override
   public String getFilter() {
-    return "qvecpaging@qvec.org";
+    return "qvecpaging@qvec.org,messaging@iamresponding.com";
   }
   
   @Override

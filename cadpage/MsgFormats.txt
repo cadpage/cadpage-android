@@ -2672,17 +2672,6 @@ System: Page Gate
 HCSO PageGate Service:11070479 42 PEACEFUL VIEW TRL HENDERSONVILLE C5S STROKE STROKE BOYD, WILLIAM D 828-685-7058 ED1,EMS#2 423 Medical: No Hazards: No
 HCSO PageGate Service:11070756 3845 CHIMNEY ROCK RD HENDERSONVILLE C15 AUTO ACC AUTO ACCIDENT HOOTS, EUGENE 828-685-3630 41,ED1,RS1 423 Medical: No Hazards: No
 **********************************************************
-Harnett County, NC
-Contact: Beverly Williams <bwilliams.co9@gmail.com>
-Sender: cadpage@harnett.org
-1102-012074*8326 NC 27 W***LILLINGTON***RESIDENTIAL STRUCTURE FIRE****1175****
-
-Contact: Keith combs <keithcombs2007@gmail.com>
-S: M:1107-061052*3058 CRAWFORD RD***ERWIN***MOTOR VEHICLE ACCIDENT****1186****\n
-
-Contact: Michael Moston <mikemoston@gmail.com>
-FRM:cadpage@harnett.org\nMSG:1108-070330*1995 BETHEL BAPTIST RD***SPRING LAKE***ELECTRICAL HAZARD****1120****
-**********************************************************
 Transylvania County, NC (alternate)
 Contact: "cfr918@yahoo.com" <cfr918@yahoo.com>
 Sender: 8285530059
@@ -2975,11 +2964,6 @@ Contact: Dennis Rutter <dennis.rutter73@gmail.com>
 From: wcpsn@wcoh.net
 F76110829001200 TYP: OUTDOOR FIRE AD: 5765 S ST RT 48 CTY: HAMILTON TWP MAP: R9 LOC: GREAT CLIPS FOR HAIR CN: CHRISTY ONEAL CMT1: Original Location : GREAT CLIP
 **********************************************************
-Worcester County, MD (alternate)
-Contact: msg@cfmsg.com
-(Chief ALT) [800 Fire] -- Traffic Transportation Acc --  -- Worcester Hwy & peerless Rd Showell MD, 21862
-(Chief ALT) [800 Fire] -- Traffic Transportation Acc -- On Rt 90 West Of Rt 113 -- Ocean Expy & worcester Hwy Berlin MD, 21811
-**********************************************************
 Shelby County, AL
 Contact: Josh Barrow <rescue2021@gmail.com>
 .(SHELBY 911 ARNS ALERT) 08-31 17:08:57
@@ -3131,7 +3115,26 @@ Sender: MWAA-Alert System [mailto:alert70270@rsan.mwaa.com]
 Subject: IPS I/Page Notification\nIAD 1R-19L: @RUNWAY 1R IAD AIR AIR2--TIME: 19:32:13 Comments:  SPECIAL ADDRESS COMMENT: THE STANDBY LOCATION FOR PD ON ALERTS IS THE EAST END OF THE C/D CONCOURSE ETA 12 MICS UNKNWN SOULS OR FUELS SMOKE IN COCKPIT SMOKE IN THE COCK PIT  Disp: F302,F345,F352,TAU302,P2,F358,TW302,BC302,M302,EMS302
 Subject: IPS I/Page Notification\n2451 W ENTRANCE RD DCA: @QTA ALSCT PED--TIME: 16:23:18 Comments:  PERSON WAS HIT BY A VEHICLE / CAR WAS NOT IN PARK MALE IS CONCIOUS / BREATHING IN THE AREA OF THE CAR WASH / BAY 2 PERSON HUNG UP / TRANSFER FROM ARLINGTON  Disp: EMS301,E301B,P2,M301
 **********************************************************
+Harnett County, NC
+Contact: Beverly Williams <bwilliams.co9@gmail.com>
+Sender: cadpage@harnett.org
+1102-012074*8326 NC 27 W***LILLINGTON***RESIDENTIAL STRUCTURE FIRE****1175****
+
+Contact: Keith combs <keithcombs2007@gmail.com>
+S: M:1107-061052*3058 CRAWFORD RD***ERWIN***MOTOR VEHICLE ACCIDENT****1186****\n
+
+Contact: Michael Moston <mikemoston@gmail.com>
+FRM:cadpage@harnett.org\nMSG:1108-070330*1995 BETHEL BAPTIST RD***SPRING LAKE***ELECTRICAL HAZARD****1120****
+
+Contact: edward woodall <ewoodall1971@gmail.com>
+1109-079514*117 SCRANTON CT***CAMERON***EMS DEAD ON ARRIVAL CODE 3****1109****
 **********************************************************
+Worcester County, MD (alternate)
+Contact: Joey Widgeon <jwidgeon2009@gmail.com>
+(Chief ALT) [800 Fire] -- Traffic Transportation Acc --  -- Worcester Hwy & peerless Rd Showell MD, 21862
+(Chief ALT) [800 Fire] -- Traffic Transportation Acc -- On Rt 90 West Of Rt 113 -- Ocean Expy & worcester Hwy Berlin MD, 21811
+(Chief ALT) [800 Fire] -- Structure Fire Extinguished -- White Horse Trailer Park -- 11647-1 Beauchamp Rd Berlin MD, 21811
+(Chief ALT) [800 Fire] -- Traffic Transportation Acc -- (s)newport (n) -- Ocean Pkwy & newport Dr Berlin MD, 21811
 **********************************************************
 **********************************************************
 **********************************************************
