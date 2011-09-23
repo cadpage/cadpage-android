@@ -3073,11 +3073,6 @@ Contact: "Roger Bennett" <rbennett@allconet.org>  (AllCoNet.org) (Dispatch cente
 Sender: acgov_911_cad@allconet.org
 S:CAD M:08:26 #047678 BEHAVORIAL EMERGENCY 12037 IRIS AVE SW  BOX:F0801 DUE:A396 M514\n\n\n
 **********************************************************
-Hoke County, NC
-Contact:Dean Barefoot <muddybrute@gmail.com>
-Sender: Hoke@hokecounty.org
-Hoke Co 911:795 TC JONES RD* * * * * **EMD* * * * * * * * 09/15/2011 14:36:26 : pos4 : mblack3325 ** EMD Case Entry Finished ** Chief Complaint Number: 19 Key Q
-**********************************************************
 Unknown
 Contact; Wayne Jackson <southhillfire721@yahoo.com>
 Sender: swpage@vameck911.comcastbiz.net
@@ -3126,6 +3121,18 @@ Subject: IPS I/Page Notification\n2451 W ENTRANCE RD DCA: @QTA ALSCT PED--TIME: 
 **********************************************************
 **********************************************************
 **********************************************************
+Hoke County, NC
+Contact:Dean Barefoot <muddybrute@gmail.com>
+Sender: Hoke@hokecounty.org
+Hoke Co 911:795 TC JONES RD* * * * * **EMD* * * * * * * * 09/15/2011 14:36:26 : pos4 : mblack3325 ** EMD Case Entry Finished ** Chief Complaint Number: 19 Key Q
+Hoke Co 911:385 SUNSET LAKE RD* * * * * **EMD* * * * * * * * 09/19/2011 06:20:35 : pos2 : SCOOPER9403 Cross streets: 7100 ARABIA RD//DEAD END Cross streets: 205
+Hoke Co 911:6020 PHILLIPI CHURCH RD* * * * * **26 SICK PERS* * * * * * * * 09/18/2011 00:57:12 : pos1 : LGRADY7274 ** EMD Case Complete ** Key Questions: 46 yea
+Hoke Co 911:6020 PHILLIPI CHURCH RD* * * * * **EMD* * * * * * * * 09/18/2011 00:56:49 : pos1 : LGRADY7274 ** EMD Recommended Dispatch ** Response Text: Alpha Di
+Hoke Co 911:216 ROLLING PINES CT* * * * * **01 ABD PAIN* * * * * * * * 09/17/2011 19:54:51 : pos2 : SCOOPER9403 205 10-8 09/17/2011 19:54:38 : pos2 : SCOOPER940
+Hoke Co 911:216 ROLLING PINES CT* * * * * **EMD* * * * * * * * 09/17/2011 19:37:54 : pos1 : LGRADY7274 ** EMD Recommended Dispatch ** Response Text: Alpha Dispa
+Hoke Co 911:265 BETTY`S TRL* * * * * **EMD* * * * * * * * 09/16/2011 19:14:15 : pos2 : SCOOPER9403 Cross streets: 580 EVERITT RD//DEAD END WILL BE IN THE VERY E
+Hoke Co 911:730 GALATIA CHURCH RD* * * * * **EMD* * * * * * * * 09/15/2011 13:51:27 : pos4 : mblack3325 Cross streets: 5365 ROCKFISH RD//CUMBERLAND CO LINE*
+**********************************************************
 Worcester County, MD (alternate)
 Contact: Joey Widgeon <jwidgeon2009@gmail.com>
 (Chief ALT) [800 Fire] -- Traffic Transportation Acc --  -- Worcester Hwy & peerless Rd Showell MD, 21862
@@ -3133,3 +3140,52 @@ Contact: Joey Widgeon <jwidgeon2009@gmail.com>
 (Chief ALT) [800 Fire] -- Structure Fire Extinguished -- White Horse Trailer Park -- 11647-1 Beauchamp Rd Berlin MD, 21811
 (Chief ALT) [800 Fire] -- Traffic Transportation Acc -- (s)newport (n) -- Ocean Pkwy & newport Dr Berlin MD, 21811
 (Chief ALT) [800 Fire] -- Fire Alarm -- (s)teal Bay (n) -- 8 Waters Edge Ct Berlin MD, 21811
+**********************************************************
+Roxbury, CT
+Contact: Mike Josefson <mikejosefson@gmail.com>
+Sender: globalpaging@nowestps.org
+
+FRM:globalpaging@nowestps.org
+SUBJ:From Northwest
+MSG:FLAG SWAMP RD & SOUTH ST  ROXBURY MVA EMS ROX AMB RO EMSX RO ENG12 ROX RES9 ROX FD1
+Primary Incident: 040734
+
+(End)
+
+
+FRM:globalpaging@nowestps.org
+SUBJ:From Northwest
+MSG:39 TRANSYLVANIA RD  ROXBURY CHOKING ABNORM BREATH (PARTIAL OBSTRUCT) ROX AMB RO
+EMSX Primary Incident: 040410
+
+(End)
+
+
+FRM:globalpaging@nowestps.org
+SUBJ:From Northwest
+MSG:102 PAINTER HILL RD  ROXBURY FAINTING/SYNCOPE ROX AMB RO EMSX Primary Incident: 040378
+
+(End)
+
+
+FRM:globalpaging@nowestps.org
+SUBJ:From Northwest
+MSG:314 PAINTER HILL RD  ROXBURY FIRE ALARM RO ENG12 RO ENG10 RO TKR11 ROX RES9 ROX FD1
+Primary Incident: 00120
+
+(End)
+
+
+FRM:globalpaging@nowestps.org
+SUBJ:From Northwest
+MSG:71 SOUTH ST  ROXBURY FIRE ALARM RO ENG12 RO ENG10 RO TKR11 ROX RES9 ROX FD1 Primary Incident: 00119
+
+
+(End)
+
+
+FRM:globalpaging@nowestps.org
+SUBJ:From Northwest
+MSG:BOTSFORD HILL RD & GOLDEN HARVEST RD  ROXBURY WIRES DOWN/FIRE ROX RES9 ROX FD1
+Primary Incident: 00109
+
