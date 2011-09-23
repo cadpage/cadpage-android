@@ -6,7 +6,7 @@ import net.anei.cadpage.parsers.FieldProgramParser;
 /*
 Rockland County, NY (alternate) (Hatzoloh EMS)
 Contact: "Mordy Eisenberg (Absolute Medical)" <mordy@absolutemed.com>, 8455177842@vtext.com
-Sender: www.absolutemed.com
+Sender: dispatch@hatzolohems.org
 
 (ACR# 5141)Add: 475 New Hempstead Rd, \nX St: Near the intersection of New Hempstead Rd and Old Schoolhouse Rd\nName: Center-Rehab &amp; Nurse, Friedwald Ph
 (ACR# 5143)Add: 24 Deerwood Rd, \nX St: Between Cara Dr and Charlotte Dr\nName: Eisenberg, Mordechai\nPhone: 8453628456\nComp: \n9/9/2011 - 9:52 AM
@@ -21,6 +21,11 @@ public class NYRocklandCountyCParser extends FieldProgramParser {
   public NYRocklandCountyCParser() {
     super("ROCKLAND COUNTY", "NY",
         "Add:ADDR! X_St:X Name:NAME Phone:PHONE Comp:SKIP");
+  }
+  
+  @Override
+  public String getFilter() {
+    return "dispatch@hatzolohems.org";
   }
   
   @Override
