@@ -1,5 +1,6 @@
 package net.anei.cadpage.parsers.MI;
 
+import net.anei.cadpage.SmsMsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchOSSIParser;
 
 /*
@@ -32,6 +33,10 @@ Contact: Aaron Gage <aarongage16@gmail.com>
 Sender: 93001011
 CAD:FYI: ;OPENBU;8360 MCCLEMENTS RD;DEKASSEL DR;BURNING GARBAGE ONE HOUSE EAST OF CALLER [07/01/11 19:44:56 SSTURGIS]
 
+Contact: Steve Hoyer <nottheface@gmail.com>
+Sender: CAD@livingstoncounty.livco
+FYI: ;SMKOUT;CHEROKEE BEND DR/RED OAKS DR;CALLER HEARD AN EXPLOSION ON CHEROKEE BEND, DOES NOT SEE ANYTHING AT THIS TIME. SMELLS SMOKE. [09/21/11 21:53:2
+
 */
 
 public class MILivingstonCountyParser extends DispatchOSSIParser {
@@ -43,5 +48,11 @@ public class MILivingstonCountyParser extends DispatchOSSIParser {
   public MILivingstonCountyParser() {
     super("LIVINGSTON COUNTY", "MI",
            "SKIP CALL ADDR! X? X? INFO+");
+  }
+  
+  @Override
+  protected boolean parseMsg(String body, Data data) {
+    if (body.startsWith("FYI: ;")) body = "CAD:" + body;
+    return super.parseMsg(body, data);
   }
 }
