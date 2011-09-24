@@ -95,10 +95,17 @@ public class VAHenryCountyParserTest extends BaseParserTest {
         "ADDR:900 VISTA VIEW LN",
         "CITY:RIDGEWAY",
         "INFO:FIELD A");
-   
+
+    doTest("T11",
+        "fcrs911callsbounce+caf_=5404880229=vtext.com@gmail.com (CAD Call) 2011086521\nMOTOR VEHICLE CRASH\n1 WILLIAM F STONE PARK HY Not Entered\n1 MILE SOUTH OF 609 EXIT N BOUND SIL 4 WH",
+        "ID:2011086521",
+        "CALL:MOTOR VEHICLE CRASH",
+        "ADDR:1 WILLIAM F STONE PARK HY",
+        "INFO:1 MILE SOUTH OF 609 EXIT N BOUND SIL 4 WH");
+  
   }
   
   public static void main(String[] args) {
-    new VAHenryCountyParserTest().generateTests("T10", "ID CALL PLACE ADDR CITY INFO");
+    new VAHenryCountyParserTest().generateTests("T12", "ID CALL PLACE ADDR CITY INFO");
   }
 }

@@ -70,6 +70,26 @@ public class SCSpartanburgCountyParserTest extends BaseParserTest {
         "INFO:BOILING SPRINGS FIRE DISTRICT / COMMERC");
   }
   
+  public void testTRFDParser() {
+
+    doTest("T1",
+        "(Email Copy from Emergin Integration Suite) TRFD - CF/27137 TYP: ..SUICIDE THREAT ..` AD: 326 STODDARD DR CMT1: <<< SUICIDE THREAT (NOT ATTEMPTED) >>>",
+        "SRC:TRFD",
+        "ID:CF/27137",
+        "CALL:SUICIDE THREAT ..`",
+        "ADDR:326 STODDARD DR",
+        "INFO:SUICIDE THREAT (NOT ATTEMPTED)");
+
+    doTest("T2",
+        "(Email Copy from Emergin Integration Suite) TRFD - CF/27162 TYP: NON-INJURY MVA... AD: CANADY RD&INMAN RD CMT1: <<< NON INJURY VEHICLE ACCIDENT >>> CM",
+        "SRC:TRFD",
+        "ID:CF/27162",
+        "CALL:NON-INJURY MVA",
+        "ADDR:CANADY RD & INMAN RD",
+        "INFO:NON INJURY VEHICLE ACCIDENT");
+
+  }
+  
   public static void main(String[] args) {
     new SCSpartanburgCountyParserTest().generateTests("T1");
   }
