@@ -45,6 +45,12 @@ public class SmartAddressParserTest extends BaseParserTest {
 //    doTest(PLACE, FLAG_ANCHOR_END, "7 NON-AMBULATORY PTS ON 2ND FLOOR 15 BROOKSIDE AVE",
 //        "PLACE:7 NON-AMBULATORY PTS ON 2ND FLOOR ",
 //        "ADDR:15 BROOKSIDE AVE");
+
+    doTest(CALL,"disatched EMS 557 e main street Ken Town call at the Ken Town Clinic",
+        "CALL:disatched EMS",
+        "ADDR:557 e main street",
+        "PLACE:Ken Town call at the",
+        "CITY:Ken Town");
     
     doTest(CALL, FLAG_START_FLD_REQ | FLAG_ANCHOR_END, 
         "Please Operate 33.88/  Lift Assist 2 N  POTVIN AVE",
@@ -571,6 +577,11 @@ public class SmartAddressParserTest extends BaseParserTest {
     doTest(ADDR, FLAG_PAD_FIELD, "NOT AN ADDRESS KEN TOWN",
         "ADDR:NOT AN ADDRESS",
         "CITY:KEN TOWN");
+    doTest(CALL, FLAG_PAD_FIELD, "Dispatched fall 302 Main Street Ken Town Elementary Ken Town bad news",
+        "CALL:Dispatched fall",
+        "ADDR:302 Main Street",
+        "SRC:Ken Town Elementary",
+        "CITY:Ken Town");
   }
   
   @Test
