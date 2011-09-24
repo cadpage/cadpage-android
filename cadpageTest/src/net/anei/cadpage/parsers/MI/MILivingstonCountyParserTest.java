@@ -72,9 +72,15 @@ public class MILivingstonCountyParserTest extends BaseParserTest {
         "ADDR:8360 MCCLEMENTS RD",
         "X:DEKASSEL DR",
         "INFO:BURNING GARBAGE ONE HOUSE EAST OF CALLER");
-  }
+
+    doTest("T10",
+        "FYI: ;SMKOUT;CHEROKEE BEND DR/RED OAKS DR;CALLER HEARD AN EXPLOSION ON CHEROKEE BEND, DOES NOT SEE ANYTHING AT THIS TIME. SMELLS SMOKE. [09/21/11 21:53:2",
+        "CALL:SMKOUT",
+        "ADDR:CHEROKEE BEND DR & RED OAKS DR",
+        "INFO:CALLER HEARD AN EXPLOSION ON CHEROKEE BEND, DOES NOT SEE ANYTHING AT THIS TIME. SMELLS SMOKE.");
+ }
   
   public static void main(String[] args) {
-    new MILivingstonCountyParserTest().generateTests("T9");
+    new MILivingstonCountyParserTest().generateTests("T10");
   }
 }
