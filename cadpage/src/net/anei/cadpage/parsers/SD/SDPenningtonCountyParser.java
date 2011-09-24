@@ -28,7 +28,7 @@ public class SDPenningtonCountyParser extends FieldProgramParser {
  
   public SDPenningtonCountyParser() {
     super(CITY_LIST, "PENNINGTON COUNTY", "SD",
-           "Unit:UNIT! Status:STATUS! Dispatch_code:CODE? Problem:CALL Patient_info:INFO");
+           "Unit:UNIT! Status:STATUS! Problem:INFO Patient_info:INFO");
   }
   
   @Override
@@ -42,7 +42,7 @@ public class SDPenningtonCountyParser extends FieldProgramParser {
     return super.parseMsg(body, data);
   }
   
-  private static final Pattern CODE_PTN = Pattern.compile("\\b\\d{1,2}-[A-Za-z]\\d{1,2}[A-Za-z]?//b");
+  private static final Pattern CODE_PTN = Pattern.compile("\\b\\d{1,2}-[A-Za-z]-\\d{1,2}[A-Za-z]?\\b");
   private class StatusField extends AddressField {
     
     @Override
@@ -50,7 +50,9 @@ public class SDPenningtonCountyParser extends FieldProgramParser {
       int pt = field.indexOf(" ProQA ");
       if (pt > 0) {
         Matcher match = CODE_PTN.matcher(field);
-        if (match.find(pt+7)) data.strCode = match.group();
+        if (match.find(pt+7)) {
+          data.strCode = match.group();
+        }
         field = field.substring(0,pt).trim();
       }
       parseAddress(StartType.START_CALL, FLAG_PAD_FIELD, field, data);
@@ -61,7 +63,7 @@ public class SDPenningtonCountyParser extends FieldProgramParser {
     
     @Override
     public String getFieldNames() {
-      return super.getFieldNames() + " PLACE CITY INFO";
+      return "CALL ADDR APT PLACE CITY INFO CODE";
     }
   }
   

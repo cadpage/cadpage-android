@@ -1058,6 +1058,14 @@ public abstract class SmartAddressParser extends SmsMsgParser {
           result.startCross = stCross;
           result.startCity = ndx;
           result.endAll = endCity;
+          
+          // If there is a pad field, it might have the misfortune to be a 
+          // place name that includes a local city name.  So we will call
+          // ourselves recursively in an attempt to find another city name
+          // behind this one
+          if (padField && endCity < tokens.length) {
+            parseToCity(stNdx, endCity+1, result);
+          }
           return true;
         }
       }
