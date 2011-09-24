@@ -1043,7 +1043,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
           
           // Check for cross street marker
           if (isType(ndx, ID_CROSS_STREET)) stCross = ndx + 1;
-      }
+        }
       }
       
       // Is there a city here?
