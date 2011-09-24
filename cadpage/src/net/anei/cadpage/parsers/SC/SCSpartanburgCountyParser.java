@@ -21,6 +21,10 @@ GLFD - CF/10647 TYP: BRUSH FIRE......... AD: 170 FRETWELL RD CMT1: <<< SEND GLEN
 Contact: Andrew Couchey <abcouchey@gmail.com>
 BSFD - CF/20546 TYP: COMMERC FIRE ALARM. AD: 2251 OLD FURNACE RD LOC: BOILING SPRINGS HIGH CMT1: << BOILING SPRINGS FIRE DISTRICT >> CMT2: <<< COMMERC
 
+Contact: Hector Cardona <krzcolombian@gmail.com>
+(Email Copy from Emergin Integration Suite) TRFD - CF/27137 TYP: ..SUICIDE THREAT ..` AD: 326 STODDARD DR CMT1: <<< SUICIDE THREAT (NOT ATTEMPTED) >>>
+(Email Copy from Emergin Integration Suite) TRFD - CF/27162 TYP: NON-INJURY MVA... AD: CANADY RD&INMAN RD CMT1: <<< NON INJURY VEHICLE ACCIDENT >>> CM
+
  */
 
 public class SCSpartanburgCountyParser extends DispatchPrintrakParser {

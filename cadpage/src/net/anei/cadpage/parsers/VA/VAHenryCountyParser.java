@@ -22,6 +22,9 @@ Contact: Joshua Wilson <rdvfd70@gmail.com>
 Sender:911calls+bncCPSY0azfFhDP5JnwBBoEF_IV0w@ridgewayfire.com
 (CAD Call) 2011055772 \nF-HELICOPTER LANDING ZONE \nBLUE RIDGE REGIONAL LIBRARY - RIDGEWAY 900 VISTA VIEW LN RIDGEWAY \nFIELD A
 
+Contact: "william.hodges01@gmail.com" <william.hodges01@gmail.com>
+fcrs911callsbounce+caf_=5404880229=vtext.com@gmail.com (CAD Call) 2011086521\nMOTOR VEHICLE CRASH\n1 WILLIAM F STONE PARK HY Not Entered\n1 MILE SOUTH OF 609 EXIT N BOUND SIL 4 WH
+
 */
 
 public class VAHenryCountyParser extends SmartAddressParser {
@@ -102,6 +105,7 @@ public class VAHenryCountyParser extends SmartAddressParser {
       // the beginning of the address from any preceding place names.  Unless we
       // already have a place name, in which case address must start the line
       else if (ndx == addrNdx) {
+        if (line.endsWith(" Not Entered")) line = line.substring(0,line.length()-12).trim();
         StartType start = (data.strPlace.length() > 0 ? StartType.START_ADDR : StartType.START_PLACE);
         parseAddress(start, line, data);
       }
