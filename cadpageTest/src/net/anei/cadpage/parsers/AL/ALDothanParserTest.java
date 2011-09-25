@@ -276,8 +276,7 @@ public class ALDothanParserTest extends BaseParserTest {
         "ADDR:17230 E STATE HWY 52",
         "APT:BLK",
         "CITY:COLUMBIA",
-        "PLACE:COFDA",
-        "INFO:F-COFD");
+        "PLACE:COFDA/F-COFD");
 
     doTest("T30",
         "16:52:57/OF-Outdoor Fire-Level 1/100 PEMCO DR/DOTHAN/PEMCO/769381254/BEHIND HANGER 15 GRASS IN FIELD.. TRANSFORMER BLOWN/",
@@ -287,6 +286,15 @@ public class ALDothanParserTest extends BaseParserTest {
         "PLACE:PEMCO",
         "ID:769381254",
         "INFO:BEHIND HANGER 15 GRASS IN FIELD.. TRANSFORMER BLOWN");
+
+    doTest("T31",
+        "15:21:59/S38C-Medical Call-Code II-Non Emgy/115 W ADAMS ST STE2/DOTHAN/MAGISTRATES/DOTHAN/15394628/",
+        "CALL:S38C-Medical Call-Code II-Non Emgy",
+        "ADDR:115 W ADAMS ST",
+        "APT:STE2",
+        "CITY:DOTHAN",
+        "PLACE:MAGISTRATES/DOTHAN",
+        "ID:15394628");
 
   }
   
