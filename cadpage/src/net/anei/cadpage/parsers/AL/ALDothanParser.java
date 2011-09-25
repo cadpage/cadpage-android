@@ -42,6 +42,9 @@ Sender: Robot.ALERT@dothan.org
 00:30:09/MAID-Mutual Aid Request/17230 E STATE HWY 52 BLK/COLUMBIA/COFDA/F-COFD/
 16:52:57/OF-Outdoor Fire-Level 1/100 PEMCO DR/DOTHAN/PEMCO/769381254/BEHIND HANGER 15 GRASS IN FIELD.. TRANSFORMER BLOWN/
 
+** Not implemented yet **
+15:21:59/S38C-Medical Call-Code II-Non Emgy/115 W ADAMS ST STE2/DOTHAN/MAGISTRATES/DOTHAN/15394628/
+
 */
 public class ALDothanParser extends FieldProgramParser {
   
