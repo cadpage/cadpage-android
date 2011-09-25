@@ -3119,6 +3119,10 @@ Monroe County, IN
 Contact: Ron Neibel <neibelr@bloomington.in.gov>
 Sender: epager@bloomington.in.gov
 **********************************************************
+Unknown
+Contact: Luke Osborne <lao81012@gmail.com>
+Sender: 93001005
+4:CAD:C1,E11;1;OVERDOSE;817 GENOA ST;K301;FAIRVIEW ST;VERONA ST;** Transfer from CSO ** CSO received: 09/24/2011 15:52:10 Source: E911 Nature: OVERDOSE / POISONING Call #: 684 Event Id: 11076816 Console: CBA2 Call Taker: GFGUSA Notes: [09/24/11 15:52:58
 **********************************************************
 **********************************************************
 **********************************************************

@@ -41,8 +41,6 @@ Sender: Robot.ALERT@dothan.org
 14:33:21/S38B-Medical Call-Code III-Emergy/342 S SAINT ANDREWS ST APT216/DOTHAN/VAUGHN TOWERS 216/14523968/58YOF  PAIN ALL OVER/
 00:30:09/MAID-Mutual Aid Request/17230 E STATE HWY 52 BLK/COLUMBIA/COFDA/F-COFD/
 16:52:57/OF-Outdoor Fire-Level 1/100 PEMCO DR/DOTHAN/PEMCO/769381254/BEHIND HANGER 15 GRASS IN FIELD.. TRANSFORMER BLOWN/
-
-** Not implemented yet **
 15:21:59/S38C-Medical Call-Code II-Non Emgy/115 W ADAMS ST STE2/DOTHAN/MAGISTRATES/DOTHAN/15394628/
 
 */
@@ -51,7 +49,7 @@ public class ALDothanParser extends FieldProgramParser {
   
   public ALDothanParser() {
     super("DOTHAN", "AL",
-           "TIME CALL ADDR/SXa CITY! PLACE? ID! INFO+");
+           "TIME CALL ADDR/SXa CITY! PLACE+? ID INFO+");
   }
   
   @Override
@@ -61,7 +59,10 @@ public class ALDothanParser extends FieldProgramParser {
   
   @Override
   protected boolean parseMsg(String body, Data data) {
-    return parseFields(body.split("/"), data);
+    if (!parseFields(body.split("/"), data)) return false;
+    
+    // ID field is required, unless this is a mutual aid call
+    return (data.strCallId.length() > 0 || data.strCall.startsWith("MAID-"));
   }
   
   private class TimeField extends SkipField {
@@ -86,9 +87,9 @@ public class ALDothanParser extends FieldProgramParser {
     @Override
     public void parse(String field, Data data) {
       if (checkAddress(field) > 0) {
-        data.strCross = field;
+        data.strCross = append(data.strCross, " & ", field);
       } else {
-        data.strPlace = field;
+        data.strPlace = append(data.strPlace, "/", field);
       }
     }
     
