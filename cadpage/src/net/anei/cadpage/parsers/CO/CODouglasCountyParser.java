@@ -1,5 +1,8 @@
 package net.anei.cadpage.parsers.CO;
 
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 import net.anei.cadpage.SmsMsgInfo.Data;
 import net.anei.cadpage.parsers.FieldProgramParser;
 
@@ -17,6 +20,7 @@ Elbert County (dispatched through Douglas County)
 Contact: Ian McQueen <imcqueen@gmail.com>
 Sender: dcso@douglas.co.us
 (Dispatch) Call: F MED ASSIST Location: S PINE ST / SPRUCE ST Map: AJ44 Units: MED271 E273 XXX271  Common Name: Time: 09/20/11 17:13 Narrative:  PER LE 473 PINE
+(Dispatch) Call: F MED ASSIST Location: CR 136 / PADDOCK ST EOPS1 Map: AJ44 Units: MED271 E271 XXX272\2sCommon Name: Time: 09/23/11 13:06 Narrative:\2sNature Of Ca
 
  */
 
@@ -33,7 +37,7 @@ public class CODouglasCountyParser extends FieldProgramParser {
   }
   
   public String getFilter() {
-    return "@notifyall.com";
+    return "@notifyall.com,dcso@douglas.co.us";
   }
 
   @Override
@@ -44,11 +48,24 @@ public class CODouglasCountyParser extends FieldProgramParser {
   }
   
   // Address field should strip  trailing slash characters
+  // and a trailing operations channel
+  private static final Pattern OPS_PTN = Pattern.compile("\\bEOPS\\d$");
   private class MyAddressField extends AddressField {
+    
     @Override
     public void parse(String field, Data data) {
+      Matcher match = OPS_PTN.matcher(field);
+      if (match.find()) {
+        data.strChannel = match.group();
+        field = field.substring(0,match.start()).trim();
+      }
       if (field.endsWith("/")) field = field.substring(0,field.length()-1).trim();
       super.parse(field, data);
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return super.getFieldNames() + " CH";
     }
   }
   
