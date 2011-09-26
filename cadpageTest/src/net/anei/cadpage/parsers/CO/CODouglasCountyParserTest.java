@@ -56,6 +56,14 @@ public class CODouglasCountyParserTest extends BaseParserTest {
         "MAP:AJ44",
         "UNIT:MED271 E273 XXX271");
 
+    doTest("T2",
+        "(Dispatch) Call: F MED ASSIST Location: CR 136 / PADDOCK ST EOPS1 Map: AJ44 Units: MED271 E271 XXX272\2sCommon Name: Time: 09/23/11 13:06 Narrative:\2sNature Of Ca",
+        "CALL:F MED ASSIST",
+        "ADDR:CR 136 & PADDOCK ST",
+        "CH:EOPS1",
+        "MAP:AJ44",
+        "UNIT:MED271 E271 XXX272\2sCommon Name:");
+
   }
   
   public static void main(String[] args) {
