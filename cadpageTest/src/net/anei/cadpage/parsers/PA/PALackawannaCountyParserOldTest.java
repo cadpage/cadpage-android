@@ -1,7 +1,6 @@
 package net.anei.cadpage.parsers.PA;
 
 import net.anei.cadpage.parsers.BaseParserTest;
-import net.anei.cadpage.parsers.PA.PALackawannaCountyParser;
 
 import org.junit.Test;
 
@@ -9,7 +8,7 @@ import org.junit.Test;
 public class PALackawannaCountyParserOldTest extends BaseParserTest {
   
   public PALackawannaCountyParserOldTest() {
-    setParser(new PALackawannaCountyParser(), "LACKAWANNA COUNTY", "PA");
+    setParser(new PALackawannaCountyParserOld(), "LACKAWANNA COUNTY", "PA");
   }
   
   @Test

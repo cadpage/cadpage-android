@@ -37,6 +37,13 @@ public class PALackawannaCountyParserTest extends BaseParserTest {
         "CALL:ALS",
         "INFO:22-9/LA4 TO MOSES TAYLOR  22-9 ENRT MOMENTARILY / in c-2 -- 90 yo f diff breathing low o2 sats");
 
+    doTest("T4",
+        "Unit  Location: 601 6TH ST DEAD END / MOOSIC HEIGHTS 94 Common Name: Call Type: ALS Call Time: 09/26/11 22:27 Narrative  94PD ADVISED  UNKNOWN DRUGS  MALE TOOK DRUGS  IS BREATHING - IS SEMI-RESPONSIVE  Nature Of Call: 24 YOM COLLAPSED",
+        "ADDR:601 6TH ST",
+        "X:DEAD END / MOOSIC HEIGHTS 94",
+        "CALL:ALS",
+        "INFO:94PD ADVISED  UNKNOWN DRUGS  MALE TOOK DRUGS  IS BREATHING - IS SEMI-RESPONSIVE / 24 YOM COLLAPSED");
+ 
   }
   
   public static void main(String args[]) {
