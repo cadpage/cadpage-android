@@ -15,6 +15,9 @@ Sender: dispatch911@moorecountync.gov
 [[911 NOTIFICATION] ]  218 BERRY ST PINE BLUFF 2011026135 14:36:24 F67 OUTSIDE FIRE/WOODS/BRUSH TREE ON FIRE
 [[911 NOTIFICATION] ]  1 E NEW ENGLAND /S PEAR 2011025862 07:31:07 F67 OUTSIDE FIRE/WOODS/BRUSH
 
+Contact: Stephanie Dziok <dzioks@gmail.com>
+6 PAR DR WHISPERING PINES 2011045777 11:36:50 M10 CHEST PAIN CHEST PAIN
+
 */
 
 public class NCMooreCountyParser extends DispatchSouthernParser {
@@ -26,12 +29,6 @@ public class NCMooreCountyParser extends DispatchSouthernParser {
   @Override
   public String getFilter() {
     return "dispatch911@moorecountync.gov";
-  }
-  
-  @Override
-  public boolean parseMsg(String subject, String body, Data data) {
-    if (!subject.equals("[911 NOTIFICATION]")) return false;
-    return super.parseMsg(body, data);
   }
   
   private static final String[] CITY_LIST = new String[]{
