@@ -14,66 +14,32 @@ public class PALackawannaCountyParserTest extends BaseParserTest {
   
   @Test
   public void testParser() {
-    
+
     doTest("T1",
-        "(Dispatch) Unit:14-9 Status:Dispatched Location:524 DEACON ST, 14 Call Type:BLS Call Time:12/7/2010 6:22:58 AM Call Number:245 Quadrant:F14 District:",
-        "UNIT:14-9",
-        "ADDR:524 DEACON ST",
-        "CALL:BLS",
-        "ID:245",
-        "MAP:F14");
-    
+        "Unit  Location: 206 MILLER RD STEVENSON RD / CARBONDALE RD 1 Common Name: Call Type: ALS Call Time: 09/26/11 17:02 Narrative  pd notified  POSS CONFUSED ALSO  Nature Of Call: 79YOF FEELING WEEK. SHE DID FALL EARLIER",
+        "ADDR:206 MILLER RD",
+        "X:STEVENSON RD / CARBONDALE RD 1",
+        "CALL:ALS",
+        "INFO:pd notified  POSS CONFUSED ALSO / 79YOF FEELING WEEK. SHE DID FALL EARLIER");
+
     doTest("T2",
-        "(Dispatch) Unit:14-9 Status:Dispatched Location:132 UNION MILL RD WINSHIP RD / LANGAN RD, VAN BRUNT ST, 14 Call Type:ALS Call Time:12/11/2010 11:27:5",
-        "UNIT:14-9",
-        "ADDR:132 UNION MILL RD",
-        "X:WINSHIP RD / LANGAN RD, VAN BRUNT ST",
-        "CALL:ALS");
+        "Unit  Location: 711 MAY ST MAPLE ST / DEAD END 59 Common Name: Call Type: ALS Call Time: 09/26/11 21:33 Narrative  PD ADVISED  REF EMD  HX OF HEART PROBLEMS  Nature Of Call: 56 YOM RAPID HEART RATE",
+        "ADDR:711 MAY ST",
+        "X:MAPLE ST / DEAD END 59",
+        "CALL:ALS",
+        "INFO:PD ADVISED  REF EMD  HX OF HEART PROBLEMS / 56 YOM RAPID HEART RATE");
 
     doTest("T3",
-        "(Dispatch) Unit:CH53 Status:Dispatched Location:0 ASTON MOUNTAIN RD, 53 Call Type:ACCI Call Time:12/11/2010 1:12:10 PM Call Number:446 Quadrant:F53 D",
-        "UNIT:CH53",
-        "ADDR:ASTON MOUNTAIN RD",
-        "CALL:ACCI",
-        "ID:446",
-        "MAP:F53");
-    
-    doTest("T4",
-        "(Dispatch) Unit:ch14 Status:Dispatched Location:0 LEHIGH RD, 14 Call Type:BRSH Call Time:12/12/2010 9:01:17 AM Call Number:872 Quadrant:F14 District:",
-        "UNIT:ch14",
-        "ADDR:LEHIGH RD",
-        "CALL:BRSH",
-        "ID:872",
-        "MAP:F14");
+        "Unit  Location: 108 TERRACE DR STURGES RD / SCRANTON CARBONDALE HWY 20 Common Name: LACKAWANNA HEALTH AND REHABCall Type: ALS Call Time: 09/26/11 21:02 Narrative  22-9/LA4 TO MOSES TAYLOR  22-9 ENRT MOMENTARILY  Nature Of Call: in c-2 -- 90 yo f diff breathing low o2 sats",
+        "ADDR:108 TERRACE DR",
+        "X:STURGES RD / SCRANTON CARBONDALE HWY 20",
+        "PLACE:LACKAWANNA HEALTH AND REHAB",
+        "CALL:ALS",
+        "INFO:22-9/LA4 TO MOSES TAYLOR  22-9 ENRT MOMENTARILY / in c-2 -- 90 yo f diff breathing low o2 sats");
 
-    doTest("T5",
-        "(Dispatch) Unit:14-9 Status:Dispatched Location:298 1ST AVE DEAD END / DRINKER TPKE, 14 Common Name:DIAPERS COM Call Type:BLS Call Time:12/12/2010 5:",
-        "UNIT:14-9",
-        "ADDR:298 1ST AVE",
-        "X:DEAD END / DRINKER TPKE",
-        "PLACE:DIAPERS COM",
-        "CALL:BLS");
-
-    doTest("T6",
-        "(Dispatch) Unit:CH53 Status:Dispatched Location:RT 690 / BOWENS RD, 53 Call Type:ACCI Call Time:12/17/2010 11:04:51 PM Call Number:413 Quadrant:F53 D",
-        "UNIT:CH53",
-        "ADDR:RT 690 & BOWENS RD",
-        "CALL:ACCI",
-        "ID:413",
-        "MAP:F53");
-
-    doTest("T7",
-        "[Dispatch]  Unit:ch14 Status:Dispatched Location:662 DRINKER TPKE AM HUGHES BLVD / ROSS DR, 14 Call Type:ACCI Call Time:12/18/2010 6:05:58 AM Call Num",
-        "UNIT:ch14",
-        "ADDR:662 DRINKER TPKE",
-        "X:AM HUGHES BLVD / ROSS DR",
-        "CALL:ACCI");
-
-    doTest("T8",
-        "(Dispatch) Unit:T14 Status:Dispatched Location:SCRANTON POCONO HWY / DRINKER TPKE, 14 Call Type:AFA Call Time:12/21/2010 8:56:18 AM Call Number:802 Q",
-        "UNIT:T14",
-        "ADDR:SCRANTON POCONO HWY & DRINKER TPKE",
-        "CALL:AFA",
-        "ID:802");
+  }
+  
+  public static void main(String args[]) {
+    new PALackawannaCountyParserTest().generateTests("T1");
   }
 }
