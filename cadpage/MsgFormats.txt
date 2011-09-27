@@ -3124,15 +3124,24 @@ Contact: Luke Osborne <lao81012@gmail.com>
 Sender: 93001005
 4:CAD:C1,E11;1;OVERDOSE;817 GENOA ST;K301;FAIRVIEW ST;VERONA ST;** Transfer from CSO ** CSO received: 09/24/2011 15:52:10 Source: E911 Nature: OVERDOSE / POISONING Call #: 684 Event Id: 11076816 Console: CBA2 Call Taker: GFGUSA Notes: [09/24/11 15:52:58
 **********************************************************
+Unknown
+Contact: 8128212810@vzwpix.com
+(CAD Page for CFS 092611-43) AMBULANCE SICK INJURED DUAL RUN 8123 W MAIN ST                                                                                 Comments:71 y/o male with severe chest pain was given 1 nito with no releif has had several bypass surguries RESD 812 876-3895 09/26  07:33 
+(CAD Page for CFS 092511-64) FIRE STRUCTURE 1ST ALARM 8800 W STATE ROAD 46                                                                           Comments:LITTLE ROCK CHURCH FLAMES THRU THE ROOF (812)585-7056 09/25  05:13 WPH2 812 585-7056 
+(CAD Page for CFS 092411-188) AMBULANCE SICK INJURED W MAIN ST and N MARKET ST                                                                      Comments:REQ 1052 FOR FOOT INJURY 
+(CAD Page for CFS 092411-185) AMBULANCE SICK INJURED 8939 N MT PLEASANT RD                                                                          Comments:94YO FEMALE IS UNABLE TO GO TO THE BATHROOM...AND VOMIT BROWN MATTER. IS VERY WEAK..IS CA/ BREATHING (812)325-9389 WRLS 812 325-9389 09/24  14:45
+(CAD Page for CFS 092111-209) AMBULANCE SICK INJURED 5080 W COWDEN RD                                                                               Comments:MALE FELL OFF BIKE, IS CONC AND ALERT (812)272-4177 WPH2 812 272-4177 09/21  18:44 
+(CAD Page for CFS 091811-249) AMBULANCE SICK INJURED 8656 W HEDRICK RD                                      LANE,BELINDA B                          Comments:VOIP 765 211-3068 09/18  22:31 
+(CAD Page for CFS 091811-149) ACCIDENT PI          W COWDEN RD and W DELAP RD                                                                     Comments:THERE IS A MALE THERE WITH A BANGED UP HEAD.  NO BLOOD SLVR CAR VS TREE.  ~20 YARDS OFF ROADWAY (812)361-4637 09/18  14:14 WPH2 812 361-4637 
+(CAD Page for CFS 091711-44) ACCIDENT UNK         8807 W STATE ROAD 46                                                                           Comments:BY BUFFALO FARM CALL CAME IN FROM OWEN CO ADVISED CAR FLIPPED AND LOST CALL  
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
 **********************************************************
 **********************************************************
 ************  READY TO ROLL ******************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
 **********************************************************
 **********************************************************
 Hoke County, NC
@@ -3173,6 +3182,26 @@ Subject:HVFD 218\nEMS - EMS CALL  10 MAIN ST HAGAMAN VILLAGE  09/26/2011 0759\n\
 Subject:HVFD 218\nMOTOR VEHICLE ACCIDENT WALMART 101 SANFORD FARM SHOP CT AMSTERDAM  09/26/2011 1011\n\n\n
 Subject:HVFD 218\nMOTOR VEHICLE ACCIDENT RECOVERY SPORTS GRILL 5005 STHWY 30 AMSTERDAM  09/26/2011 1331\n\n\n
 Subject:HVFD 218\nMOTOR VEHICLE ACCIDENT   STATE HWY 30 T AMSTERDAM AMSTERDAM COMMONS 09/25/2011 0851
+**********************************************************
+Oconee County, GA
+Contact: William Rochester <william.rocheste
+Sender: 911@oconeelaw.com
+System: Aegis
+
+[911 Message]  S80 - CORONARY PROBLEM  1280 N  STHY 11 XStreet: SPRINGDALE
+DR / SCENIC HEIGHTS RD, FOWLER RD WEST UNION    2011-00000815  09/26/11
+22:27  Narr:   S
+
+[911 Message]  TEST  300 S  CHURCH ST XStreet: W MAULDIN ST / W ERVIN ST
+WALHALLA  LEC   09/26/11 16:14  Narr:
+
+[911 Message]  S80 - CORONARY PROBLEM  206 S  TUGALOO ST XStreet: W MAULDIN
+ST / BOOKER DR WALHALLA    2011-00000809  09/25/11 06:49  Narr:   PATIENT IS
+HER FATHER
+
+[911 Message]  S46 - ALTERED MENTAL STATUS  308 N  LAUREL ST XStreet:
+ARDASHIR LN / WALHALLA GARDENS CIR WALHALLA    2011-00000777  09/16/11
+12:24  Narr:   76 YOA
 **********************************************************
 **********************************************************
 Worcester County, MD (alternate)
