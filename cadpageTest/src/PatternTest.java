@@ -5,16 +5,15 @@ import java.util.regex.Pattern;
 
 public class PatternTest {
 
-  private static final Pattern MID_ID_PAT = Pattern.compile("(?:\\bAPT\\b|#APT\\b|#) *([^ ]+)$");
+  private static final Pattern MASTER = 
+    Pattern.compile("^Hoke Co 911:([^\\*]+)\\*(?: \\*)*\\*([^\\*]+)\\*(?: \\*)+ *\\d\\d/\\d\\d/\\d{4} \\d\\d:\\d\\d:\\d\\d : (pos\\d+) : ([A-Za-z]+\\d+) (.*)");
   
   public static void main(String[] args) {
-    doTest("black APT 23");
-    doTest("black # 23");
-    doTest("black #APT 23");
+    doTest("Hoke Co 911:795 TC JONES RD* * * * * **EMD* * * * * * * * 09/15/2011 14:36:26 : pos4 : mblack3325 ** EMD Case Entry Finished ** Chief Complaint Number: 19 Key Q");
   }
   
   private static void doTest(String test) {
-    Matcher match = MID_ID_PAT.matcher(test);
+    Matcher match = MASTER.matcher(test);
     System.out.print(test);
     if (! match.find()) {
       System.out.print(" no match");
