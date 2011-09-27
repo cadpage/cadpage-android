@@ -43,10 +43,47 @@ public class PALackawannaCountyParserTest extends BaseParserTest {
         "X:DEAD END / MOOSIC HEIGHTS 94",
         "CALL:ALS",
         "INFO:94PD ADVISED  UNKNOWN DRUGS  MALE TOOK DRUGS  IS BREATHING - IS SEMI-RESPONSIVE / 24 YOM COLLAPSED");
- 
+
+    doTest("T5",
+        "Unit  Location: 116 FULTON ST PROSPECT ST / PROSPECT ST 61 Common Name: Call Type: BLS Call Time: 09/27/11 13:56 Narrative  CALLER REFUSED EMD  REQ NO SIRENS  Nature Of Call: 85 YOF PAIN IN THE SHOULDER",
+        "ADDR:116 FULTON ST",
+        "X:PROSPECT ST / PROSPECT ST 61",
+        "CALL:BLS",
+        "INFO:CALLER REFUSED EMD  REQ NO SIRENS / 85 YOF PAIN IN THE SHOULDER");
+
+    doTest("T6",
+        "Unit  Location: 2500 N  WASHINGTON AVE DEAD END / HIGHNETT PL 50 Common Name: MU WOODLAND APARTMENTSCall Type: AFA Call Time: 09/27/11 14:53 Narrative  simplex panel PHN 5703486242// ATT KH  Nature Of Call: bldg 2,4,6",
+        "ADDR:2500 N WASHINGTON AVE",
+        "X:DEAD END / HIGHNETT PL 50",
+        "PLACE:MU WOODLAND APARTMENTS",
+        "CALL:AFA",
+        "INFO:simplex panel PHN 5703486242// ATT KH / bldg 2,4,6");
+
+    doTest("T7",
+        "Unit  Location: 2500 N  WASHINGTON AVE DEAD END / HIGHNETT PL 50 Common Name: MU WOODLAND APARTMENTSCall Type: AFA Call Time: 09/27/11 14:53 Narrative  simplex panel PHN 5703486242// ATT KH  Nature Of Call: bldg 2,4,6",
+        "ADDR:2500 N WASHINGTON AVE",
+        "X:DEAD END / HIGHNETT PL 50",
+        "PLACE:MU WOODLAND APARTMENTS",
+        "CALL:AFA",
+        "INFO:simplex panel PHN 5703486242// ATT KH / bldg 2,4,6");
+
+    doTest("T8",
+        "Unit  Location: 415 VENARD RD TEDRICK ST / ELAN GARDENS 2 Common Name: HERITAGE BAPTIST CHURCHCall Type: AFA Call Time: 09/27/11 15:07 Narrative  2pd advised  Nature Of Call: GEN FIRE ALRM ZONE 1",
+        "ADDR:415 VENARD RD",
+        "X:TEDRICK ST / ELAN GARDENS 2",
+        "PLACE:HERITAGE BAPTIST CHURCH",
+        "CALL:AFA",
+        "INFO:2pd advised / GEN FIRE ALRM ZONE 1");
+
+    doTest("T9",
+        "Unit  Location: 1196 CHAPMAN LAKE RD 28 Common Name: Call Type: AFA Call Time: 09/27/11 16:07 Narrative  Nature Of Call: res fire/ cutler res/ gen fire",
+        "ADDR:1196 CHAPMAN LAKE RD",
+        "APT:28",
+        "CALL:AFA",
+        "INFO:res fire/ cutler res/ gen fire");
   }
   
   public static void main(String args[]) {
-    new PALackawannaCountyParserTest().generateTests("T1");
+    new PALackawannaCountyParserTest().generateTests("T5");
   }
 }

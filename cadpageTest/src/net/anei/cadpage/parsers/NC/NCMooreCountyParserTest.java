@@ -60,6 +60,14 @@ public class NCMooreCountyParserTest extends BaseParserTest {
         "ID:2011025862",
         "UNIT:F67",
         "INFO:OUTSIDE FIRE/WOODS/BRUSH");
+
+    doTest("T7",
+        "6 PAR DR WHISPERING PINES 2011045777 11:36:50 M10 CHEST PAIN CHEST PAIN",
+        "ADDR:6 PAR DR",
+        "PLACE:WHISPERING PINES",
+        "ID:2011045777",
+        "UNIT:M10",
+        "INFO:CHEST PAIN CHEST PAIN");
   }
   
 
