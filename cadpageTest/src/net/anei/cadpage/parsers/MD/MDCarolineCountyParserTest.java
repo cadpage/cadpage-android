@@ -85,9 +85,17 @@ public class MDCarolineCountyParserTest extends BaseParserTest {
         "ADDR:305 Bloomingdale Ave",
         "CITY:Federalsburg",
         "X:N University Ave / Hayman Dr");
+
+    doTest("T10",
+        "(Chief ALT) [600 EMS] 21 B-Hemmorrhage / Lacerations -- 420 Dutchmans Ln Greensboro - XSts: Dead End / Dead End",
+        "SRC:600 EMS",
+        "CALL:21 B-Hemmorrhage / Lacerations",
+        "ADDR:420 Dutchmans Ln",
+        "CITY:Greensboro",
+        "X:Dead End / Dead End");
   }
   
   public static void main(String[] args) {
-    new MDCarolineCountyParserTest().generateTests("T6","SRC CALL ADDR CITY X");
+    new MDCarolineCountyParserTest().generateTests("T10","SRC CALL ADDR CITY X");
   }
 }

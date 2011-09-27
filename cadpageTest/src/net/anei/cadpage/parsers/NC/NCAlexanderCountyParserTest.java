@@ -99,6 +99,14 @@ public class NCAlexanderCountyParserTest extends BaseParserTest {
         "CALL:CHEST PAIN",
         "CODE:10D03",
         "X:JESSICA LEE LN & WHITE PLAINS RD");
+
+    doTest("T13",
+        "CAD:21 MAIN AVENUE DR;BB&T BANK;TRAFFIC ACCIDENT;29D02m;E MAIN AV;TOWN PARK ST",
+        "ADDR:21 MAIN AVENUE DR",
+        "PLACE:BB&T BANK",
+        "CALL:TRAFFIC ACCIDENT",
+        "CODE:29D02m",
+        "X:E MAIN AV & TOWN PARK ST");
   }
 
   public static void main(String[] args) {
