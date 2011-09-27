@@ -69,7 +69,14 @@ public class MISaginawCountyParserTest extends BaseParserTest {
         "ADDR:PARKWAY & N SAGINAW",
         "MAP:39",
         "INFO:*BARREL ON FIRE AT PARK");
-  }
+
+    doTest("T8",
+        "TRITWP  *: FIRE ALARM *: 810 W WALNUT CTY: 39",
+        "SRC:TRITWP",
+        "CALL:FIRE ALARM",
+        "ADDR:810 W WALNUT",
+        "MAP:39");
+}
   
   @Test
   public void testAlbeeParsaer() {
