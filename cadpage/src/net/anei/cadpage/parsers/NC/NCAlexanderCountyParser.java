@@ -31,13 +31,13 @@ CAD:224 CRESTVIEW DR/US 64 HWY W;TRAFFIC ACCIDENT;29B04
 CAD:1 JENKINS MOOSE RD/LILEDOUN RD;WEATHER RELATED
 CAD:505 NC 16 HWY N;UNCONSCIOUS OR FAINTING;31D02;GRAVEL HILL CT;NAT GUARD ARMORY RD
 CAD:2818 NC 90 HWY E;CHEST PAIN;10D03;JESSICA LEE LN;WHITE PLAINS RD
-
+CAD:21 MAIN AVENUE DR;BB&T BANK;TRAFFIC ACCIDENT;29D02m;E MAIN AV;TOWN PARK ST
 
 */
 
 public class NCAlexanderCountyParser extends SmartAddressParser {
   
-  private static final Pattern CODE_PTN = Pattern.compile("\\d{1,2}[A-Z]\\d{1,2}");
+  private static final Pattern CODE_PTN = Pattern.compile("\\d{1,2}[A-Z]\\d{1,2}[a-z]?");
   
   public NCAlexanderCountyParser() {
     super("ALEXANDER COUNTY", "NC");

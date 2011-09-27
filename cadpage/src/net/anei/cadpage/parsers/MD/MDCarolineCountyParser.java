@@ -23,6 +23,8 @@ Contact: Pj Dyott <pdyott@gmail.com>
 (Chief ALT) [200 EMS] 27 B-Stab/gsw/pen. Trauma -- 6181 Bethlehem Rd Preston - XSts: Harmony Rd, Gilpin Point Rd / Bell Creek Rd, Grove Rd
 (Chief ALT) [200 EMS] 04 B-Assault -- 305 Bloomingdale Ave Federalsburg - XSts: N University Ave / Hayman Dr
 
+Contact: sstarkey620 <sstarkey620@yahoo.com>
+(Chief ALT) [600 EMS] 21 B-Hemmorrhage / Lacerations -- 420 Dutchmans Ln Greensboro - XSts: Dead End / Dead End
 
  */
 
@@ -32,6 +34,11 @@ public class MDCarolineCountyParser extends DispatchAegisParser {
   public MDCarolineCountyParser() {
     super("CAROLINE COUNTY", "MD",
            "CALL ADDR XSts:X");
+  }
+  
+  @Override
+  public String getFilter() {
+    return "msg@cfmsg.com";
   }
   
   // Assume single word city name, because that all they have
