@@ -74,6 +74,7 @@ import net.anei.cadpage.SmsMsgInfo.Data;
  *         U - unit
  *         N - name
  *         I - supplemental info
+ *         x - cross streets
  *         The third determines what to do with a special field between the
  *         regular address and the city field
  *         X - nothing
@@ -1326,10 +1327,10 @@ public class FieldProgramParser extends SmartAddressParser {
           
           if (++pt >= qual.length()) break;
           chr = qual.charAt(pt);
-          pt2 = "CPSaUNI".indexOf(chr);
+          pt2 = "CPSaUNIx".indexOf(chr);
           if (pt2 >= 0) {
             parseFlags &= ~FLAG_ANCHOR_END;
-            tailField = new String[]{"CALL","PLACE","SKIP","APT","UNIT","NAME","INFO"}[pt2];
+            tailField = new String[]{"CALL","PLACE","SKIP","APT","UNIT","NAME","INFO", "X"}[pt2];
             tailData = getField(tailField);
           }
           
