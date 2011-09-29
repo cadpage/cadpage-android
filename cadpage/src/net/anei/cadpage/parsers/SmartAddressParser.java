@@ -199,7 +199,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     
     setupDictionary(ID_AMBIG_ROAD_SFX, 
         "PLACE", "TRAIL", "PATH", "PIKE", "COURT", "MALL", "TURNPIKE", "PASS", 
-        "RUN", "LANE", "PARK", "POINT", "RIDGE");
+        "RUN", "LANE", "PARK", "POINT", "RIDGE", "CREEK");
     
     setupDictionary(ID_NUMBERED_ROAD_SFX, 
         "AVENUE", "AV", "AVE", 
