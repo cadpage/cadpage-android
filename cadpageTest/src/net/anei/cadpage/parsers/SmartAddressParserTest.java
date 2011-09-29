@@ -46,6 +46,10 @@ public class SmartAddressParserTest extends BaseParserTest {
 //        "PLACE:7 NON-AMBULATORY PTS ON 2ND FLOOR ",
 //        "ADDR:15 BROOKSIDE AVE");
     
+    doTest(CALL, "LOCATION CLOVER CREEK RD/DEAD INDIAN MEMORIAL RD",
+        "CALL:LOCATION",
+        "ADDR:CLOVER CREEK RD & DEAD INDIAN MEMORIAL RD");
+    
     doTest(CALL, FLAG_START_FLD_REQ | FLAG_ANCHOR_END, 
         "Please Operate 33.88/  Lift Assist 2 N  POTVIN AVE",
         "CALL:Please Operate 3388/Lift Assist",
@@ -314,15 +318,15 @@ public class SmartAddressParserTest extends BaseParserTest {
     doTest(ADDR, "BLAKSLY CREEK RD IN CHICAGO",
     		"ADDR:BLAKSLY CREEK RD");
     doTest(SKIP, "WHERE CAN I FIND BLAKSLY CREEK RD IN CHICAGO",
-        "ADDR:CREEK RD");
+        "ADDR:BLAKSLY CREEK RD");
     doTest(SKIP, "WHERE CAN I FIND N BLAKSLY CREEK RD IN KENSBURG",
         "ADDR:N BLAKSLY CREEK RD IN",
         "CITY:KENSBURG");
     doTest(SKIP, "WHERE CAN I FIND N SWEET BLAKSLY CREEK RD IN KENSBURG",
         "ADDR:N SWEET BLAKSLY CREEK RD IN",
         "CITY:KENSBURG");
-    doTest(SKIP, "WHERE CAN I FIND N BIG SWEET BLAKSLY CREEK RD IN KENSBURG",
-        "ADDR:CREEK RD IN",
+    doTest(SKIP, "WHERE CAN I FIND N BIG SWEET BLAKSLY BROWN RD IN KENSBURG",
+        "ADDR:BROWN RD IN",
         "CITY:KENSBURG");
     doTest(ADDR, "US 26 IN CHICAGO",
         "ADDR:US 26");
