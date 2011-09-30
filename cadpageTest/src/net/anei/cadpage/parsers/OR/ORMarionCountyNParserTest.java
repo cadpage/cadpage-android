@@ -246,6 +246,15 @@ public class ORMarionCountyNParserTest extends BaseParserTest {
         "UNIT:R903,M21,N1",
         "INFO:22YOF C/DIFF B/SEMI ALERT");
 
+    doTest("T3",
+        "((836) Hi Gina ) LIFT: 4279::THIRD:ST:::::1829:E876,N3,:80 YOF C/B/A  NON INJURY LIFT ASSIST:20110930:090843",
+        "ID:836",
+        "CALL:LIFT",
+        "ADDR:4279 THIRD ST",
+        "MAP:1829",
+        "UNIT:E876,N3",
+        "INFO:80 YOF C/B/A  NON INJURY LIFT ASSIST");
+
   }
   
   public static void main(String[] args) {
