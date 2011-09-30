@@ -1899,6 +1899,13 @@ Sender: 7164383393@niagaracounty.com
 (59687 NCFC MDIPASQU ) 1691,,LOCKPORT,ST,,80 YOF FELL SINK BLS-P BACK HALL
 (60104 NCFC HBABIS ) 3445 murphy rd/74yof weak/ 8/10 1611
 (60395 NCFC HBABIS ) Fire alarm act/eastern niagara newfane hosp 2600 williams st/8/10 1852
+((6414) NCFC HBABIS ) 6061 edward av 18/94yof incoherant cons/br 9/27 1746
+((6492) NCFC HBABIS ) 5981 ide rd fire alarm act 2nd floor 9/27 1813
+((9597) NCFC RZASTROW ) fire alm newfane rehab ctr/2709 transit rd/olcott s-by in qtrs/OPS 1
+((7792) NCFC MMYERS ) Newfane Elem School - fire alarm - PER 11M7 stand down burnt popcorn.  1602hrs
+((8038) NCFC MMYERS ) Hartland Fire Hall - 34 yof in p/u truck seizing. ALSP EMS/Air Ops 2034hrs
+((9307) NCFC RZASTROW ) NEWF ELEM SCHOOL/2909 TRANSIT RD/RM 141 HEAT DET ACTIVATED/OPS 1
+
 **********************************************************
 Fairfield County, OH
 Contact: Brian Malone <ptfd13@gmail.com>
@@ -3140,6 +3147,12 @@ Contact: 8128212810@vzwpix.com
 (CAD Page for CFS 091811-149) ACCIDENT PI          W COWDEN RD and W DELAP RD                                                                     Comments:THERE IS A MALE THERE WITH A BANGED UP HEAD.  NO BLOOD SLVR CAR VS TREE.  ~20 YARDS OFF ROADWAY (812)361-4637 09/18  14:14 WPH2 812 361-4637 
 (CAD Page for CFS 091711-44) ACCIDENT UNK         8807 W STATE ROAD 46                                                                           Comments:BY BUFFALO FARM CALL CAME IN FROM OWEN CO ADVISED CAR FLIPPED AND LOST CALL  
 **********************************************************
+Warren, NJ
+Contact: Me <cammarotar@wctech.org>, "WCTS - Robert Cammarota" <cammarotar@wctech.org>
+Sender: WC911@co.warren.nj.us
+F83 ALERT: PUMPDETL 1 FOOT 70 GRANT ST WASHINGTON BORO (SENT 09/28 11:55)
+F83 ALERT: MUTUAL/F FAST 83 40 MAIN ST / HAMPTON OUT OF COUNTY (SENT 09/28 05:46)
+F83 ALERT: MV ACCID UNK INJ LUKOIL / 143 E WASHINGTON AVE WASHINGTON BORO (SENT 09/24 22:30)
 **********************************************************
 **********************************************************
 **********************************************************
@@ -3421,6 +3434,7 @@ Contact: Joey Widgeon <jwidgeon2009@gmail.com>
 Roxbury, CT
 Contact: Mike Josefson <mikejosefson@gmail.com>
 Sender: globalpaging@nowestps.org
+** PRIORITY **
 
 FRM:globalpaging@nowestps.org
 SUBJ:From Northwest
