@@ -45,11 +45,14 @@ Sender: 6005000012
 Contact: Nathan Meissner <nathan.meissner@yahoo.com>
 (25615) :  /  CVA:  455:W:MARQUAM:ST:33::::2630:R454,M24,N7,:65 YOM POSS CVA  C/B/A SIDE OF FACE DROOPY:20110812:150536\n
 
+Contact: Michael Cool <michael.e.cool@gmail.com>
+((2463) : ) UNC:20510::BOONES FERRY:RD:::::1530:R903,M21,N1,:22YOF C/DIFF B/SEMI ALERT:20110929:064217
+
 */
 
 public class ORMarionCountyNParser extends FieldProgramParser {
   
-  private static final Pattern CALL_ID_PTN = Pattern.compile("\\d{5}");
+  private static final Pattern CALL_ID_PTN = Pattern.compile("\\d{1,5}");
   private static final Pattern LEAD_PTN = Pattern.compile("^: *[/)\\|] *");
   
   public ORMarionCountyNParser() {
