@@ -237,6 +237,15 @@ public class ORMarionCountyNParserTest extends BaseParserTest {
         "UNIT:R454,M24,N7",
         "INFO:65 YOM POSS CVA  C/B/A SIDE OF FACE DROOPY");
 
+    doTest("T2",
+        "((2463) : ) UNC:20510::BOONES FERRY:RD:::::1530:R903,M21,N1,:22YOF C/DIFF B/SEMI ALERT:20110929:064217",
+        "ID:2463",
+        "CALL:UNC",
+        "ADDR:20510 BOONES FERRY RD",
+        "MAP:1530",
+        "UNIT:R903,M21,N1",
+        "INFO:22YOF C/DIFF B/SEMI ALERT");
+
   }
   
   public static void main(String[] args) {

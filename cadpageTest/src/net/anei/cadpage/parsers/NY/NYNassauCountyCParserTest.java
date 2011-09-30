@@ -47,7 +47,14 @@ public class NYNassauCountyCParserTest extends BaseParserTest {
         "PLACE:LLOYD L LANGLEY",
         "ADDR:248 SHERMAN STREET",
         "X:BROADWAY \\ ROMAN AVENUE");
-  }
+
+    doTest("T6",
+        "* 3- AUTO ACCIDENT W/AIDED * BEST BUY (STORE #454) 1100 OLD COUNTRY ROAD CS: MERCHANTS CONCOURSE  \\ ZECKENDORF BOULEVARD TOA: 00:18 09-29-11",
+        "CALL:3- AUTO ACCIDENT W/AIDED",
+        "PLACE:BEST BUY (STORE #454)",
+        "ADDR:1100 OLD COUNTRY ROAD",
+        "X:MERCHANTS CONCOURSE  \\ ZECKENDORF BOULEVARD");
+ }
   
   public static void main(String[] args) {
     new NYNassauCountyCParserTest().generateTests("T1");
