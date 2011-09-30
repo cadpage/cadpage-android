@@ -14,6 +14,16 @@ public class NYNassauCountyAParserTest extends BaseParserTest {
   
   @Test
   public void testParser() {
+
+    doTest("T4",
+        "***MVA***  SERVICE ROAD N [OLD WESTBURY] c/s: RED GROUND ROAD/ ADTNL:  GRID: N-15 TOA: 15:45 11/30/2010",
+        "CALL:MVA - SERVICE",
+        "PLACE:ROAD N",
+        "CITY:OLD WESTBURY",
+        "X:RED GROUND ROAD/",
+        "MAP:N-15");
+
+    
     
     doTest("T1",
         "***SIG 9***  AMBU  27 PINE DR N [ROSLYN] c/s: PINE (S) DR/VERITY LA ADTNL: DIFF BREATHING GRID: K-14 TOA: 21:16 11/30/2010",

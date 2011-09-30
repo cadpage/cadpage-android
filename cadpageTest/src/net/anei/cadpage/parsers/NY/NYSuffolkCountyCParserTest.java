@@ -348,6 +348,16 @@ public class NYSuffolkCountyCParserTest extends BaseParserTest {
         "X:LAUREL DR");
   }
   
+  @Test
+  public void testGreenLawn() {
+
+    doTest("T1",
+        "Driver and/or EMT Needed for 2508 PAUMANACK VILLAGE DR . . 13:16:53",
+        "CALL:Driver and/or EMT Needed for",
+        "ADDR:2508 PAUMANACK VILLAGE DR");
+
+  }
+  
   
   public static void main(String[] args) {
     new NYSuffolkCountyCParserTest().generateTests("T4", "CALL INFO ADDR CITY X PLACE");
