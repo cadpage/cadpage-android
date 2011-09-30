@@ -55,6 +55,10 @@ Contact: Chris Wagner <cwagner021@gmail.com>
 Sender: paging+bncCAAQveHY8wQaBJlKIvM@communityamb.org
 TYPE: CHEST PAIN LOC: 3845 VETERANS MEMORIAL HWY RONKON: @HOLIDAY INN RONKONKOMA: @HOLIDAY INN RONKONKOMA:06:12.4418,40:48:13.4 PARKI
 
+Contact: Michael Bellis <bellis.michael@gmail.com>
+Sender: paging@scfres.com
+TYPE: UNKNOWN PROBLEM LOC: 195 CUBA HILL RD GREENL  CROSS: MANOR RD / DANVILLE DR CODE: 32-B-2 TIME: 17:30:40
+
 */
 
 public class NYSuffolkCountyAParser extends SmartAddressParser {
@@ -67,6 +71,7 @@ public class NYSuffolkCountyAParser extends SmartAddressParser {
       "CENTEM", "Center Moriches",
       "EMORIC", "East Moriches",
       "EPATCH", "East Patchogue",
+      "GREENL", "Greenlawn",
       "HAUPPA", "Hauppauge",
       "MANORV", "Manorville",
       "MASTIC", "Mastic",
