@@ -152,6 +152,7 @@ public class DispatchRedAlertParser extends SmartAddressParser {
       sAddress = props.getProperty("TYPE", "");
       sAddress = sAddress.replace("C/O","C%O");
       parseAddress(StartType.START_CALL, sAddress, data);
+      if (data.strAddress.length() == 0) return false;
       data.strSupp = getLeft();
       data.strCall = data.strCall.replace("C%O", "C/O");
       data.strAddress = data.strAddress.replace("C%O", "C/O");
