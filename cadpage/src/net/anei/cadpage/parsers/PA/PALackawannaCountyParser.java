@@ -6,7 +6,7 @@ import net.anei.cadpage.parsers.FieldProgramParser;
 /*
 Lackawanna County, PA
 Contact: greg rhodes <grhodes908@gmail.com>
-Contact: MarkPALackawannaCountyParser.java Krzan <mkrzan1@gmail.com>
+Contact: Mark Krzan <mkrzan1@gmail.com>
 Sender: aegispage@lackawannacounty.org
     
 Unit  Location: 206 MILLER RD STEVENSON RD / CARBONDALE RD 1 Common Name: Call Type: ALS Call Time: 09/26/11 17:02 Narrative  pd notified  POSS CONFUSED ALSO  Nature Of Call: 79YOF FEELING WEEK. SHE DID FALL EARLIER
@@ -18,6 +18,9 @@ Unit  Location: 2500 N  WASHINGTON AVE DEAD END / HIGHNETT PL 50 Common Name: MU
 Unit  Location: 2500 N  WASHINGTON AVE DEAD END / HIGHNETT PL 50 Common Name: MU WOODLAND APARTMENTSCall Type: AFA Call Time: 09/27/11 14:53 Narrative  simplex panel PHN 5703486242// ATT KH  Nature Of Call: bldg 2,4,6
 Unit  Location: 415 VENARD RD TEDRICK ST / ELAN GARDENS 2 Common Name: HERITAGE BAPTIST CHURCHCall Type: AFA Call Time: 09/27/11 15:07 Narrative  2pd advised  Nature Of Call: GEN FIRE ALRM ZONE 1
 Unit  Location: 1196 CHAPMAN LAKE RD 28 Common Name: Call Type: AFA Call Time: 09/27/11 16:07 Narrative  Nature Of Call: res fire/ cutler res/ gen fire
+Unit  Location: 40 GORDON AVE UN-NAMED / GORDAN AVE 51 Common Name: Call Type: STRT Call Time: 09/27/11 19:16 Narrative  tree that is in fire is 10 ft from residence  Nature Of Call: tree on fire
+Unit 21-9  Location: 40 VALLEY VIEW ESTS EYNON JERMYN RD / EYNON JERMYN RD 33 Common Name: Call Type: BLS Call Time: 09/27/11 19:43 Narrative  21 pd notified  POSS CONSTIPATED  Nature Of Call: 10 MOS OLD. RIGID ABDOMEN.
+Unit 21-9 R25  Location: 215 ERIE ST UN-NAMED / CHURCH ST 25 Common Name: Call Type: BLS Call Time: 09/28/11 10:00 Narrative  25PD ADVISED  UNABLE TO GET UP  Nature Of Call: 79 YOF FALL VICTIM, FELL ONTO FLOOR FROM COUCH
 
  */
 

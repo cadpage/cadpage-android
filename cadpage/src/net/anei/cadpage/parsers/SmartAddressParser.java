@@ -195,7 +195,8 @@ public abstract class SmartAddressParser extends SmsMsgParser {
         "RUN",
         "GRN",
         "LOOP",
-        "TERRACE", "TRC", "TRCE");
+        "TERRACE", "TRC", "TRCE",
+        "ESTATES", "ESTS");
     
     setupDictionary(ID_AMBIG_ROAD_SFX, 
         "PLACE", "TRAIL", "PATH", "PIKE", "COURT", "MALL", "TURNPIKE", "PASS", 
