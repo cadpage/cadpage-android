@@ -6,7 +6,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.SmsMsgInfo.Data;
-import net.anei.cadpage.parsers.SmsMsgParser;
+import net.anei.cadpage.parsers.SmartAddressParser;
 
 /*
 Red Alert CAD software parser
@@ -102,7 +102,7 @@ CHIEF, WIRE at  SANDY HILL ROAD, OYSTER BAY c/s: MAIN (E) ST, WIRES BURNING . . 
 
 */
 
-public class DispatchRedAlertParser extends SmsMsgParser {
+public class DispatchRedAlertParser extends SmartAddressParser {
   
   private static final Pattern TIME_MARK = Pattern.compile("\\. ?\\. ?[\\d:]+$");
   private static final Pattern CODE_PATTERN = Pattern.compile("\\b\\d{1,2}-?[A-Z]-?\\d{1,2}[A-Z]?\\b");
@@ -140,36 +140,49 @@ public class DispatchRedAlertParser extends SmsMsgParser {
     int pt = body.indexOf(" S:");
     if (pt <0) pt = body.length();
     pt = body.lastIndexOf(" at ", pt);
-    if (pt < 0) return false;
-    body = "TYPE:" + body.substring(0, pt) + " LOC: " + body.substring(pt+4);
-    body = body.replace("c/s:", "CROSS:").replaceAll("\\s+", " ");
+    if (pt >= 0) {
+      body = body.substring(0, pt) + " LOC: " + body.substring(pt+4);
+    }
+    body = "TYPE:" + body.replace("c/s:", "CROSS:").replaceAll("\\s+", " ");
     Properties props = parseMessage(body, new String[]{"TYPE","LOC","CROSS","O", "- S"});
     
-    String sAddress = props.getProperty("LOC", "");
-    if (sAddress.startsWith("intersection of ")) sAddress = sAddress.substring(16);
-    if (sAddress.contains(",")){
-      int indx = sAddress.indexOf(",");
-      data.strCity = sAddress.substring(indx + 1).trim();
-      sAddress = sAddress.substring(0,indx).trim();
-    }
-    // Protect C/O sequence form being treated as an intersection
-    parseAddress(sAddress.replace("C/O", "C%O"), data);
-    data.strAddress = data.strAddress.replace("C%O", "C/O");
-    String sCall = props.getProperty("TYPE", "");
-    int ipt = sCall.indexOf(':');
-    if (ipt >= 0) {
-      data.strCall= sCall.substring(0,ipt).trim();
-      data.strSupp= sCall.substring(ipt+1).trim();
-      match = CODE_PATTERN.matcher(data.strSupp);
-      if (match.find()) {
-        data.strCode = data.strSupp.substring(match.start(), match.end());
-        data.strSupp = cutOut(data.strSupp, match.start(), match.end());
-        if (data.strSupp.startsWith("- ")) data.strSupp = data.strSupp.substring(2).trim();
-      }
+    String sAddress = props.getProperty("LOC");
+    if (sAddress == null) {
+      if (!ok) return false;
+      sAddress = props.getProperty("TYPE", "");
+      sAddress = sAddress.replace("C/O","C%O");
+      parseAddress(StartType.START_CALL, sAddress, data);
+      data.strSupp = getLeft();
+      data.strCall = data.strCall.replace("C%O", "C/O");
+      data.strAddress = data.strAddress.replace("C%O", "C/O");
+      data.strSupp = data.strSupp.replace("C%O", "C/O");
     } else {
-      data.strCall = sCall;
+      if (sAddress.startsWith("intersection of ")) sAddress = sAddress.substring(16);
+      if (sAddress.contains(",")){
+        int indx = sAddress.indexOf(",");
+        data.strCity = sAddress.substring(indx + 1).trim();
+        sAddress = sAddress.substring(0,indx).trim();
+      }
+      // Protect C/O sequence form being treated as an intersection
+      parseAddress(sAddress.replace("C/O", "C%O"), data);
+      data.strAddress = data.strAddress.replace("C%O", "C/O");
+      
+      String sCall = props.getProperty("TYPE", "");
+      int ipt = sCall.indexOf(':');
+      if (ipt >= 0) {
+        data.strCall= sCall.substring(0,ipt).trim();
+        data.strSupp= sCall.substring(ipt+1).trim();
+        match = CODE_PATTERN.matcher(data.strSupp);
+        if (match.find()) {
+          data.strCode = data.strSupp.substring(match.start(), match.end());
+          data.strSupp = cutOut(data.strSupp, match.start(), match.end());
+          if (data.strSupp.startsWith("- ")) data.strSupp = data.strSupp.substring(2).trim();
+        }
+      } else {
+        data.strCall = sCall;
+      }
+      data.strCall = data.strCall.replaceAll("\\. \\.", "-");
     }
-    data.strCall = data.strCall.replaceAll("\\. \\.", "-");
 
     data.strPlace = props.getProperty("O", "");
     String sCross = props.getProperty("CROSS");
