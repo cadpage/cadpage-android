@@ -81,9 +81,31 @@ public class PALackawannaCountyParserTest extends BaseParserTest {
         "APT:28",
         "CALL:AFA",
         "INFO:res fire/ cutler res/ gen fire");
+
+    doTest("T10",
+        "Unit  Location: 40 GORDON AVE UN-NAMED / GORDAN AVE 51 Common Name: Call Type: STRT Call Time: 09/27/11 19:16 Narrative  tree that is in fire is 10 ft from residence  Nature Of Call: tree on fire",
+        "ADDR:40 GORDON AVE",
+        "X:UN-NAMED / GORDAN AVE 51",
+        "CALL:STRT",
+        "INFO:tree that is in fire is 10 ft from residence / tree on fire");
+
+    doTest("T11",
+        "Unit 21-9  Location: 40 VALLEY VIEW ESTS EYNON JERMYN RD / EYNON JERMYN RD 33 Common Name: Call Type: BLS Call Time: 09/27/11 19:43 Narrative  21 pd notified  POSS CONSTIPATED  Nature Of Call: 10 MOS OLD. RIGID ABDOMEN.",
+        "ADDR:40 VALLEY VIEW ESTS",
+        "X:EYNON JERMYN RD / EYNON JERMYN RD 33",
+        "CALL:BLS",
+        "INFO:21 pd notified  POSS CONSTIPATED / 10 MOS OLD. RIGID ABDOMEN.");
+
+    doTest("T12",
+        "Unit 21-9 R25  Location: 215 ERIE ST UN-NAMED / CHURCH ST 25 Common Name: Call Type: BLS Call Time: 09/28/11 10:00 Narrative  25PD ADVISED  UNABLE TO GET UP  Nature Of Call: 79 YOF FALL VICTIM, FELL ONTO FLOOR FROM COUCH",
+        "ADDR:215 ERIE ST",
+        "X:UN-NAMED / CHURCH ST 25",
+        "CALL:BLS",
+        "INFO:25PD ADVISED  UNABLE TO GET UP / 79 YOF FALL VICTIM, FELL ONTO FLOOR FROM COUCH");
+ 
   }
   
   public static void main(String args[]) {
-    new PALackawannaCountyParserTest().generateTests("T5");
+    new PALackawannaCountyParserTest().generateTests("T13");
   }
 }
