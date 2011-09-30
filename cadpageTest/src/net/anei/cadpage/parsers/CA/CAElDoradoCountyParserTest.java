@@ -78,7 +78,6 @@ public class CAElDoradoCountyParserTest extends BaseParserTest {
         "UNIT:GEOCHF E33F M61 65 GEOENG",
         "GPS:X: -120 38.749");
 
-
     doTest("T8",
         "(CAD Page) 11-Aug-2011/06:18:13: MEDICAL: Inc# 018175: 5031 CEDAR DR ,GEORGETOWN  GEOCHF GEOENGN M61 61; ; X: -120 49.9174  Y: 38 53.4478;",
         "CALL:MEDICAL",
@@ -95,9 +94,18 @@ public class CAElDoradoCountyParserTest extends BaseParserTest {
         "ADDR:15250 WENTWORTH SPRINGS RD & 999998 ELEVEN PINES 14N08",
         "CITY:GEORGETOWN",
         "UNIT:GEOCHF E54");
+
+    doTest("T10",
+        "(CAD Page) 25-Sep-2011/19:06:43: MED, CODE 2: Inc# 022661: 1000 HY 193 / 3000 HY 49 ,COOL  E22 M61 72; ; X: -121 0.9537  Y: 38 53.2183;",
+        "CALL:MED, CODE 2",
+        "ID:022661",
+        "ADDR:1000 HY 193 & 3000 HY 49",
+        "CITY:COOL",
+        "UNIT:E22 M61 72",
+        "GPS:X: -121 0.9537  Y: 38 53.2183");
   }
   
   public static void main(String[] args) {
-    new CAElDoradoCountyParserTest().generateTests("T9", "CALL ID ADDR CITY PLACE UNIT GPS");
+    new CAElDoradoCountyParserTest().generateTests("T11", "CALL ID ADDR CITY PLACE UNIT GPS");
   }
 }

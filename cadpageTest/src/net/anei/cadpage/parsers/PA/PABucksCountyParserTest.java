@@ -358,9 +358,21 @@ public class PABucksCountyParserTest extends BaseParserTest {
         "BOX:74059",
         "MAP:3033F7",
         "ID:ED1133930");
+
+    doTest("T30",
+        "911: SQ134  type:FIRCAL  adr:4201 MILORDS LA ,26  btwn SIR ANDREW CT & SIR ANDREW CT  aai:NEXT DOOR  box:19018  map:2923B4  tm:19:34:11  ED1136021",
+        "SRC:SQ134",
+        "CALL:FIRCAL - FIRE CALL (EMS)",
+        "ADDR:4201 MILORDS LA",
+        "CITY:BUCKINGHAM TWP",
+        "X:SIR ANDREW CT & SIR ANDREW CT",
+        "INFO:NEXT DOOR",
+        "BOX:19018",
+        "MAP:2923B4",
+        "ID:ED1136021");
   }
   
   public static void main(String[] args) {
-    new PABucksCountyParserTest().generateTests("T30");
+    new PABucksCountyParserTest().generateTests("T31");
   }
 }

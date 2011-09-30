@@ -531,9 +531,18 @@ public class MDSaintMarysCountyParserTest extends BaseParserTest {
         "CITY:CALIFORNIA",
         "UNIT:ST38 A387 ALS",
         "INFO:73 year old, Male, Unconscious, Breathing.");
+
+     doTest("T58",
+         "((28689) CAD ) 23:33:56*Unconscious Person/Fainting*2532 GUM WY*GREENTREE SOUTH DR*GLEN FOREST NAWC*ST39 A389 ALS*",
+         "CALL:Unconscious Person/Fainting",
+         "PLACE:GLEN FOREST NAWC",
+         "ADDR:2532 GUM WY",
+         "X:GREENTREE SOUTH DR",
+         "CITY:LEXINGTON PARK",
+         "UNIT:ST39 A389 ALS");
   }
 
   public static void main(String[] args) {
-    new MDSaintMarysCountyParserTest().generateTests("T57", "CALL PLACE ADDR APT X CITY UNIT INFO");
+    new MDSaintMarysCountyParserTest().generateTests("T58", "CALL PLACE ADDR APT X CITY UNIT INFO");
   }
 }
