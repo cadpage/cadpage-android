@@ -123,6 +123,92 @@ public class CASonomaCountyParserTest extends BaseParserTest {
         "CALL:VEG",
         "NAME:AT&T MOBILITY 800 635 6840  4",
         "PHONE:(707) 953-6573");
+
+    doTest("T13",
+        "Loc: SR: @SB 101 AT 12 BOX: 3049 A2 CN: CHP LOG 721 C#:  TYP: TC-EX CALLER ADDR:  TIME: 10:44:33 COM:  CRO 3 ** Case number SRS11016088 has been assigned fo",
+        "ADDR:SB 101 AT 12",
+        "SRC:SR",
+        "BOX:3049 A2",
+        "CALL:TC-EX",
+        "NAME:CHP LOG 721",
+        "INFO:CRO 3 ** Case number SRS11016088 has been assigned fo");
+
+    doTest("T14",
+        "Loc: 2055 RANGE AV SR,326: @LAMPLIGHTERS SENIOR CITIZEN INN BOX: 2848 D3 CN: MCNEIL K C#: (707) 528-6259 TYP: FA-RES CALLER ADDR: 2055 RANGE AV TIME: 22:39:",
+        "ADDR:2055 RANGE AV SR,326",
+        "PLACE:LAMPLIGHTERS SENIOR CITIZEN INN",
+        "BOX:2848 D3",
+        "CALL:FA-RES",
+        "NAME:MCNEIL K",
+        "PHONE:(707) 528-6259");
+
+    doTest("T15",
+        "Loc: 2389 MCBRIDE LN SR,12: @PARK VILLA APTS BOX: 2848 D1 CN:  C#:  TYP: STRU CALLER ADDR:  TIME: 17:46:46 COM:  apt 12 ** Case number SRS11015986 has been",
+        "ADDR:2389 MCBRIDE LN SR,12",
+        "PLACE:PARK VILLA APTS",
+        "BOX:2848 D1",
+        "CALL:STRU",
+        "INFO:apt 12 ** Case number SRS11015986 has been");
+
+    doTest("T16",
+        "Loc: BEL: @NB 101 NO TODD BOX: 3149 C4 CN:  C#:  TYP: TC-EX CALLER ADDR:  TIME: 08:36:59 COM:  VEH OVERTURNED ** Case number SRS11015469 has been assigned f",
+        "ADDR:NB 101 NO TODD",
+        "SRC:BEL",
+        "BOX:3149 C4",
+        "CALL:TC-EX",
+        "INFO:VEH OVERTURNED ** Case number SRS11015469 has been assigned f");
+
+    doTest("T17",
+        "Loc: 2350 MCBRIDE LN SR,C9: @MCBRIDE APTS BOX: 2848 D2 CN: GUTIERREZ A C#: (707) 576-7446 TYP: GAS-IN CALLER ADDR: 2350 MC BRIDE LN TIME: 22:04:37 COM:  **",
+        "ADDR:2350 MCBRIDE LN SR,C9",
+        "PLACE:MCBRIDE APTS",
+        "BOX:2848 D2",
+        "CALL:GAS-IN",
+        "NAME:GUTIERREZ A",
+        "PHONE:(707) 576-7446",
+        "INFO:**");
+
+    doTest("T18",
+        "Loc: WALKER AV/TODD RD BEL BOX: 3247 A CN:  C#:  TYP: STRU CALLER ADDR:  TIME: 02:07:14 COM:  FLAMES SEEN RP FROM 5002 LLANO RD APPEARS TO BE SPREADING ** C",
+        "ADDR:WALKER AV & TODD RD BEL",
+        "BOX:3247 A",
+        "CALL:STRU",
+        "INFO:FLAMES SEEN RP FROM 5002 LLANO RD APPEARS TO BE SPREADING ** C");
+
+    doTest("T19",
+        "Loc: 555 1ST ST SR: @LOT 12 BOX: 2949 D1 CN: BARRY C#: 1-800-470-1000 TYP: FA-WF CALLER ADDR: BAY ALARM TIME: 13:51:38 COM:  CONTROL 3 WATER FLOW 6 INCH MAI",
+        "ADDR:555 1ST ST",
+        "SRC:SR",
+        "PLACE:LOT 12",
+        "BOX:2949 D1",
+        "CALL:FA-WF",
+        "NAME:BARRY",
+        "PHONE:1-800-470-1000",
+        "INFO:CONTROL 3 WATER FLOW 6 INCH MAI");
+
+    doTest("T20",
+        "Loc: W 3RD ST/TRACKS SR BOX: 2949 C3 CN:  C#:  TYP: VEG CALLER ADDR:  TIME: 14:06:16 COM:  AT THE CREEK PEOPLE WERE SCREAMING FOR SOMEONE TO CALL UNDER THE",
+        "ADDR:W 3RD ST & TRACKS",
+        "SRC:SR",
+        "BOX:2949 C3",
+        "CALL:VEG",
+        "INFO:AT THE CREEK PEOPLE WERE SCREAMING FOR SOMEONE TO CALL UNDER THE");
+
+    doTest("T21",
+        "Loc: SR: @SB 101 AT CORBY OFF BOX: 3049 A4 TYP: VEHFULL CN: AT&T MOBILITY 800 635 6840  4 C#: (707) 480-1310 TYPE CODE: VEHFULL CALLER NAME: AT&T MOBILITY 8",
+        "ADDR:SB 101 AT CORBY OFF",
+        "SRC:SR",
+        "BOX:3049 A4",
+        "CALL:VEHFULL",
+        "NAME:AT&T MOBILITY 8",
+        "PHONE:(707) 480-1310");
+
+    doTest("T22",
+        "Loc: 1621 HERBERT ST SR,7 BOX: 2848 D3 CN:  C#:  TYP: STRU CALLER ADDR:  TIME: 00:11:13 COM:  SOME KIND OF ODD BEEPING HAS BEEN GOING ON INSIDE THE APT 7 RP",
+        "ADDR:1621 HERBERT ST SR,7",
+        "BOX:2848 D3",
+        "CALL:STRU",
+        "INFO:SOME KIND OF ODD BEEPING HAS BEEN GOING ON INSIDE THE APT 7 RP");
   }
   
   @Test
@@ -247,6 +333,6 @@ public class CASonomaCountyParserTest extends BaseParserTest {
   }
   
   public static void main(String[] args) {
-    new CASonomaCountyParserTest().generateTests("T12");
+    new CASonomaCountyParserTest().generateTests("T13");
   }
 }

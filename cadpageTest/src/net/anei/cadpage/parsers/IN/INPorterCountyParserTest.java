@@ -117,6 +117,16 @@ public class INPorterCountyParserTest extends BaseParserTest {
         "CITY:Washington Twp",
         "PRI:1",
         "INFO:OPEN BURN IN AREA/");
+
+    doTest("T11",
+        "Subject:CAD Page\n\n#110127635 - \nF35:\nMISC. AST EMS @ PILOT TRAVEL CENTER,WGT\n- at 4105 E MORTHLAND DR,WGT\nCROSS: near DEAD END\nGRP:WF\nP",
+        "ID:110127635",
+        "UNIT:F35",
+        "CALL:MISC. AST EMS",
+        "PLACE:PILOT TRAVEL CENTER",
+        "ADDR:4105 E MORTHLAND DR",
+        "CITY:Washington Twp",
+        "X:near DEAD END");
  }
   
   public static void main(String[] args) {

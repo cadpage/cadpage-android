@@ -162,6 +162,14 @@ public class NYSuffolkCountyAParserTest extends BaseParserTest {
         "CITY:Ronkonkoma",
         "PLACE:HOLIDAY INN RONKONKOMA",
         "INFO:HOLIDAY INN RONKONKOMA 06 12.4418,40 48 13.4 PARKI");
+
+    doTest("T22",
+        "TYPE: UNKNOWN PROBLEM LOC: 195 CUBA HILL RD GREENL  CROSS: MANOR RD / DANVILLE DR CODE: 32-B-2 TIME: 17:30:40",
+        "CALL:UNKNOWN PROBLEM",
+        "ADDR:195 CUBA HILL RD",
+        "CITY:Greenlawn",
+        "X:MANOR RD / DANVILLE DR",
+        "CODE:32-B-2");
   }
   
   public static void main(String[] args) {
