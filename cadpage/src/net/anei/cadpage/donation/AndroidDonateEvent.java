@@ -1,6 +1,7 @@
 package net.anei.cadpage.donation;
 
 import android.app.Activity;
+import net.anei.cadpage.CadPageApplication;
 import net.anei.cadpage.R;
 import net.anei.cadpage.billing.BillingManager;
 
@@ -16,8 +17,9 @@ public class AndroidDonateEvent extends DonateEvent {
 
   @Override
   public boolean isEnabled() {
-    return DeveloperToolsManager.instance().isBillingEnabled() && 
-            BillingManager.instance().isPurchaseAvail();
+    if (CadPageApplication.isBetaRelease()) return false;
+    if (!BillingManager.instance().isPurchaseAvail()) return false;
+    return true;
   }
 
   @Override

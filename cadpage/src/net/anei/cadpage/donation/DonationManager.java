@@ -48,13 +48,18 @@ public class DonationManager {
     
     // Get the install JDate
     Date installDate = ManagePreferences.installDate();
+    Date minInstallDate = ManagePreferences.minInstallDate();
+    if (minInstallDate != null && minInstallDate.after(installDate)) installDate = minInstallDate;
     JulianDate installJDate = new JulianDate(installDate);
     
     // And calculated cached values
     daysSinceInstall = installJDate.diffDays(curJDate);
     
     // Calculate expiration date
-    // (one year past the install date anniversary in the last paid year)
+    // (one year past the purchase date anniversary in the last paid year)
+    // ((Use install date if there is no purchase date))
+    expireDate = null;
+    daysTillExpire = 0;
     int paidYear = ManagePreferences.paidYear();
     if (paidYear > 0) {
       Date tDate = ManagePreferences.purchaseDate();

@@ -9,6 +9,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 import net.anei.cadpage.donation.DonationManager;
+import net.anei.cadpage.donation.MainDonateEvent;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -140,7 +141,11 @@ public class ManagePreferences {
   }
   
   public static void setInitBilling() {
-    prefs.putBoolean(R.string.pref_init_billing_key, true);
+    setInitBilling(true);
+  }
+  
+  public static void setInitBilling(boolean newVal) {
+    prefs.putBoolean(R.string.pref_init_billing_key, newVal);
   }
   
   public static boolean enabled() {
@@ -421,11 +426,20 @@ public class ManagePreferences {
     DonationManager.reset();
   }
   
+  public static Date minInstallDate() {
+    try {
+      return new SimpleDateFormat("MMddyyyy").parse(prefs.context.getString(R.string.min_install_date));
+    } catch (ParseException ex) {
+      return null;
+    }
+  }
+  
   public static int paidYear() {
     return prefs.getInt(R.string.pref_paid_year_key, 0);
   }
   
   public static void setPaidYear(int year) {
+    prefs.putInt(R.string.pref_paid_year_key, year);
     setPaidYear(year, true);
   }
   
@@ -436,12 +450,14 @@ public class ManagePreferences {
         prefs.putInt(R.string.pref_prev_year_key, curYear);
         prefs.putInt(R.string.pref_paid_year_key, year);
         DonationManager.reset();
+        MainDonateEvent.instance().refreshStatus();
       }
     } else {
       if (year == curYear) {
         int prevYear = prefs.getInt(R.string.pref_prev_year_key, 0);
         prefs.putInt(R.string.pref_paid_year_key, prevYear);
         DonationManager.reset();
+        MainDonateEvent.instance().refreshStatus();
       }
     }
   }
@@ -454,6 +470,12 @@ public class ManagePreferences {
     } catch (ParseException ex) {
       throw new RuntimeException(ex);
     }
+  }
+  
+  public static void setPurchaseDate(Date date) {
+    String dateStr = new SimpleDateFormat("MMddyyyy").format(date);
+    prefs.putString(R.string.pref_purchase_date_key, dateStr);
+    DonationManager.reset();
   }
   
   public static String purchaseDateString() {

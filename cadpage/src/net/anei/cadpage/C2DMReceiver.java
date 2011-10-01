@@ -146,7 +146,7 @@ public class C2DMReceiver extends BroadcastReceiver {
     Intent intent = new Intent(Intent.ACTION_SEND);
     String[] emailAddr = context.getResources().getStringArray(R.array.email_devel_addr);
     intent.putExtra(Intent.EXTRA_EMAIL, emailAddr);
-    String emailSubject = SmsPopupUtils.getNameVersion(context) + " C2DM registrion ID";
+    String emailSubject = CadPageApplication.getNameVersion() + " C2DM registrion ID";
     intent.putExtra(Intent.EXTRA_SUBJECT, emailSubject);
     intent.putExtra(Intent.EXTRA_TEXT, "My C2DM registration ID is " + ManagePreferences.getRegistrationId());
     intent.setType("message/rfc822");

@@ -4,6 +4,7 @@
   <string name="release_version">v1.4.26</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
+  <string name="min_install_date">10012011</string>
   <string name="release_text">
     Thanks to everyone who has donated Your support is appreciated and helps support the app.\n
     See http://www.cadpage.org/financial-support for more details\n

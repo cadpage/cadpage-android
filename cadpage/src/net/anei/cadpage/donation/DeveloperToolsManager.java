@@ -2,6 +2,7 @@ package net.anei.cadpage.donation;
 
 import java.util.Arrays;
 import java.util.Calendar;
+import java.util.Date;
 import java.util.GregorianCalendar;
 
 //import net.anei.cadpage.ContentQuery;
@@ -9,6 +10,7 @@ import net.anei.cadpage.C2DMReceiver;
 import net.anei.cadpage.ContentQuery;
 import net.anei.cadpage.ManagePreferences;
 import net.anei.cadpage.R;
+import net.anei.cadpage.billing.BillingManager;
 import android.content.Context;
 import android.preference.ListPreference;
 import android.preference.PreferenceGroup;
@@ -17,8 +19,6 @@ import android.preference.PreferenceGroup;
  * Handles special debugging tools and dialogs available only to developers
  */
 public class DeveloperToolsManager {
-  
-  private boolean enableBilling = false;
   
   // private constructor
   private DeveloperToolsManager() {}
@@ -40,13 +40,6 @@ public class DeveloperToolsManager {
     return Arrays.asList(developers).contains(user);
   }
   
-  /**
-   * @return true if in-app billing menu should be enabled
-   */
-  public boolean isBillingEnabled() {
-    return enableBilling;
-  }
-  
   public boolean addPreference(Context context, PreferenceGroup group) {
     if (!isDeveloper(context)) return false;
     group.addPreference(new DeveloperListPreference(context));
@@ -59,6 +52,7 @@ public class DeveloperToolsManager {
     "C2DM: Register",
     "C2DM: Unregister",
     "C2DM: Report",
+    "Stat: Reset",
     "Stat: Free",
     "Stat: Donate paid",
     "Stat: Donate warn",
@@ -66,14 +60,13 @@ public class DeveloperToolsManager {
     "Stat: Demo",
     "Stat: Demo expired",
     "Reset release info",
-    "Toggle In-app Billing",
     "Content Query",
     "Recent Tasks"
     
   };
   
   private static final String[] valueList = new String[]{
-    "31", "32", "33", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"
+    "31", "32", "33", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9"
   };
   
   private class DeveloperListPreference extends ListPreference {
@@ -97,6 +90,15 @@ public class DeveloperToolsManager {
       int val = Integer.parseInt(getValue().toString());
       switch (val) {
       
+      case 0:     // Stat: Reset
+        ManagePreferences.setFreeRider(false);
+        ManagePreferences.setAuthLocation(null);
+        ManagePreferences.setPaidYear(-1);
+        ManagePreferences.setPurchaseDateString(null);
+        ManagePreferences.setInitBilling(false);
+        BillingManager.instance().initialize(context);
+        break;
+      
       case 1:     // Stat: Donate free
         ManagePreferences.setFreeRider(true);
         break;
@@ -105,21 +107,21 @@ public class DeveloperToolsManager {
         ManagePreferences.setFreeRider(false);
         ManagePreferences.setAuthLocation(null);
         setPaidYear(0);
-        setInstallDate(-20, -1);
+        setPurchaseDate(-20, -1);
         break;
         
       case 3:     // Stat: Donate warn
         ManagePreferences.setFreeRider(false);
         ManagePreferences.setAuthLocation(null);
         setPaidYear(-1);
-        setInstallDate(DonationManager.EXPIRE_WARN_DAYS-2, -3);
+        setPurchaseDate(DonationManager.EXPIRE_WARN_DAYS-2, -3);
         break;
         
       case 4:     // Stat: Donate expire
         ManagePreferences.setFreeRider(false);
         ManagePreferences.setAuthLocation(null);
         setPaidYear(-1);
-        setInstallDate(-1, -3);
+        setPurchaseDate(-1, -3);
         break;
       
       case 5:     // Stat: Demo
@@ -140,15 +142,11 @@ public class DeveloperToolsManager {
         ManagePreferences.setRelease("");
         break;
         
-      case 8:     // toggle in-app billing
-        enableBilling = !enableBilling;
-        break;
-        
-      case 9:     // Content Query
+      case 8:     // Content Query
         ContentQuery.query(context);
         break;
         
-      case 10:     // Recent tasks
+      case 9:     // Recent tasks
         ContentQuery.dumpRecentTasks(context);
         break;
         
@@ -167,8 +165,15 @@ public class DeveloperToolsManager {
       MainDonateEvent.instance().refreshStatus();
     }
     
+    private void setPurchaseDate(int dayOffset, int yearOffset) {
+      ManagePreferences.setPurchaseDate(calcDate(dayOffset, yearOffset));
+    }
     
     private void setInstallDate(int dayOffset, int yearOffset) {
+      ManagePreferences.setInstallDate(calcDate(dayOffset, yearOffset));
+    }
+    
+    private Date calcDate(int dayOffset, int yearOffset) {
       Calendar cal = new GregorianCalendar();
       cal.set(Calendar.HOUR, 0);
       cal.set(Calendar.MINUTE, 0);
@@ -176,7 +181,7 @@ public class DeveloperToolsManager {
       cal.set(Calendar.MILLISECOND, 0);
       cal.add(Calendar.DAY_OF_YEAR, dayOffset);
       cal.add(Calendar.YEAR, yearOffset);
-      ManagePreferences.setInstallDate(cal.getTime());
+      return cal.getTime();
     }
     
     private void setPaidYear() {

@@ -10,7 +10,6 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
-import android.content.pm.PackageManager.NameNotFoundException;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.net.Uri;
@@ -22,27 +21,6 @@ public class SmsPopupUtils {
   public static final Pattern GPSPattern = 
     Pattern.compile("\\b([+-]?[0-9]+\\.[0-9]{4,}|[+-]?[0-9]+:[0-9]+:[0-9]+\\.[0-9]{4,})[,\\W]\\W*([+-]?[0-9]+\\.[0-9]{4,}|[+-]?[0-9]+:[0-9]+:[0-9]+\\.[0-9]{4,})\\b");
 
-  
-  private static String nameVersion = null;
-  public static String getNameVersion(Context context) {
-
-    if (nameVersion == null) {
-      //Try and find app version number
-      String version;
-      PackageManager pm = context.getPackageManager();
-      try {
-        //Get version number, not sure if there is a better way to do this
-        version = " v" +
-        pm.getPackageInfo(
-          SmsPopupConfigActivity.class.getPackage().getName(), 0).versionName;
-      } catch (NameNotFoundException e) {
-        version = "";
-      }
-      
-      nameVersion = context.getString(R.string.app_name) + version;
-    }
-    return nameVersion;
-  }
 
   public static final Pattern NAME_ADDR_EMAIL_PATTERN =
     Pattern.compile("\\s*(\"[^\"]*\"|[^<>\"]+)\\s*<([^<>]+)>\\s*");

@@ -95,7 +95,7 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
     // Set the version number in the about dialog preference
     final DialogPreference aboutPref =
       (DialogPreference) findPreference(getString(R.string.pref_about_key));
-    aboutPref.setDialogTitle(SmsPopupUtils.getNameVersion(this));
+    aboutPref.setDialogTitle(CadPageApplication.getNameVersion());
     aboutPref.setDialogLayoutResource(R.layout.about);
     
     // Set up the donation status tracking screens

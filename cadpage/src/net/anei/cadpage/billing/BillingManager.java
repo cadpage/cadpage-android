@@ -26,7 +26,6 @@ public class BillingManager {
   }
   
   private BillingManager() {
-    reload = ! ManagePreferences.initBilling();
     ResponseHandler.register(new CadpageObserver());
   }
   
@@ -35,6 +34,7 @@ public class BillingManager {
    * @param activity main activity
    */
   public void initialize(Context context) {
+    reload = ! ManagePreferences.initBilling();
     mService = new BillingService();
     mService.setContext(context);
     mService.checkBillingSupported();

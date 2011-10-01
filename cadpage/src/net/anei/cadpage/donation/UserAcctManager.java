@@ -61,7 +61,7 @@ public abstract class UserAcctManager {
             ManagePreferences.setFreeRider(true);
           }
           if (Arrays.binarySearch(paid2011List, hash) >= 0) {
-            ManagePreferences.setPaidYear(2011);
+            ManagePreferences.setPaidYear(2011, true);
             if (userEmail == null) userEmail = acct.name;
           }
         }

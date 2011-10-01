@@ -155,7 +155,7 @@ public class EmailDeveloperActivity extends Activity {
     Intent intent = new Intent(Intent.ACTION_SEND);
     String[] emailAddr = context.getResources().getStringArray(R.array.email_devel_addr);
     intent.putExtra(Intent.EXTRA_EMAIL, emailAddr);
-    String emailSubject = SmsPopupUtils.getNameVersion(context) + " " +
+    String emailSubject = CadPageApplication.getNameVersion() + " " +
         context.getResources().getStringArray(R.array.email_devel_subject)[type.ordinal()];
     intent.putExtra(Intent.EXTRA_SUBJECT, emailSubject);
     intent.putExtra(Intent.EXTRA_TEXT, body.toString());
