@@ -370,9 +370,20 @@ public class PABucksCountyParserTest extends BaseParserTest {
         "BOX:19018",
         "MAP:2923B4",
         "ID:ED1136021");
+
+    doTest("T31",
+        "911: STA19  type:WIRES   adr:RT 202/N SHADY RETREAT RD ,47  aai:  box:19006  map:3034E1  tm:13:59:42  FD1116344    Run: E19    \n",
+        "SRC:STA19",
+        "CALL:WIRES - WIRES DOWN (LOC)",
+        "ADDR:RT 202 & N SHADY RETREAT RD",
+        "CITY:NEW BRITAIN",
+        "BOX:19006",
+        "MAP:3034E1",
+        "ID:FD1116344",
+        "UNIT:E19");
   }
   
   public static void main(String[] args) {
-    new PABucksCountyParserTest().generateTests("T31");
+    new PABucksCountyParserTest().generateTests("T32");
   }
 }
