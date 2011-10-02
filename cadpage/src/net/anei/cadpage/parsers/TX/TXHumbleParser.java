@@ -25,7 +25,6 @@ Sender: msg@cfmsg.com
 (Chief ALT) [FIRE] - Controlled Burn - Jodywood Dr & lonesome Woods - Map: 337Z- - Xst's: Lonesome Woods Trl Echo P - Units: E-E19 - 201139902
 (Chief ALT) [EMS] - Medical Call - 7923 Palmer Place Ln, Humble - Map: 337Z- - Xst's: Match Play Dr - Units: E-M19 - 201139926
 (Chief ALT) [EMS] - Assault - 17314 Wigeon Way Dr, Humble - Map: 376F- - Xst's: Shearwater Bend Dr - Units: E-M29 - 201139940
-
 (Chief ALT) [EMS] - Eye Problems - Moderate - 238 Old Arbor Way, Humble - Map: 376H- - Xst's: Morning Shadows Way Dawn - Units: E-M29 - 201141225
 (Chief ALT) [EMS] - Chest Pain - Clammy - 0218 Powerscourt - Map: 337U- - Units: E-M39 E-E39 E-D59 - 201141272
 (Chief ALT) [FIRE] - Fire Alarm - Commercial - 5250 E Fm 1960, Humble - Map: 337W- - Humble Mini Warehouse - Xst's: Moon Trail Dr Timber Fore - Units: ATFD E-E39 - 20
@@ -33,7 +32,7 @@ Sender: msg@cfmsg.com
 Status message, Should be handled as General Alert
 (Chief ALT) [AVFD EMS TIMES] - Incident: 201117017 -- Unit: E-M19 Disp 18:20:53 -- Enroute: 18:22:50 -- Arrived: -- Transport: -- At Hosp: -- Available: 18:24:58
 (Chief ALT) [ET] - [ 201141019 ] - UNIT: E-M29 Disp 21:47:04 - ENRT: 21:48:26 - OSN: 21:54:23 - TRAN: - @HOS: - AVAL: 22:22:50
-
+don't have the gear to make a string ....bout 20 - 30 at gander
  */
 
 public class TXHumbleParser extends DispatchOSSIParser {
@@ -64,6 +63,7 @@ public class TXHumbleParser extends DispatchOSSIParser {
     if (data.strSource.equalsIgnoreCase("Chief ALT")) {
       data.strSource = p.get('|');
     }
+    if (!data.strSource.endsWith("FIRE") && !data.strSource.endsWith("EMS")) return false;
     if (body.startsWith("- ")) body = body.substring(2).trim();
     body = TRAIL_DELIM.matcher(body).replaceFirst(" - ");
     
@@ -72,10 +72,6 @@ public class TXHumbleParser extends DispatchOSSIParser {
     if (INCIDENT_PTN.matcher(flds[0]).matches()) return false;
     return parseFields(flds, data);
   }
-  
-  private static final Set<String> CALL2_SET = new HashSet<String>(Arrays.asList(new String[]{
-      "Residential", "Unknown",
-  }));
   private class Call2Field extends CallField {
     
     @Override
