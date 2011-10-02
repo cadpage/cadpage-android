@@ -121,6 +121,16 @@ public class MDPrinceGeorgesCountyFireBizParserTest extends BaseParserTest {
         "UNIT:A827 SQ827",
         "ADDR:SB CAP BELT IL A HWY & NB BRANCH AVE",
         "INFO:http://fireblitz.com/27/5.shtm");
+
+
+    doTest("T11",
+        "32: HOUSE FIRE\nE827 BO885\n5311 ACORN DR (GLEN OAK DR and WHITE OAK AVE)\n10/01 15:59\nhttp://fireblitz.com/PG/27/3.shtm",
+        "SRC:32",
+        "CALL:HOUSE FIRE",
+        "UNIT:E827 BO885",
+        "ADDR:5311 ACORN DR",
+        "X:GLEN OAK DR and WHITE OAK AVE",
+        "INFO:http://fireblitz.com/PG/27/3.shtm");
   }
   
   public static void main(String[] args) {

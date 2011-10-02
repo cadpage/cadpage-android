@@ -255,9 +255,37 @@ public class ORMarionCountyNParserTest extends BaseParserTest {
         "UNIT:E876,N3",
         "INFO:80 YOF C/B/A  NON INJURY LIFT ASSIST");
 
+    doTest("T4",
+        "((339) Hi Gina ) COMM:  490:S:PACIFIC:HW:::::2127:E21,E22,E24,E875,LA21,A21,TIME,PGE,N3,:LOTS OF SMOKE COMING FROM BACK OF LOC/:20110929:222851",
+        "ID:339",
+        "CALL:COMM",
+        "ADDR:490 S PACIFIC HW",
+        "MAP:2127",
+        "UNIT:E21,E22,E24,E875,LA21,A21,TIME,PGE,N3",
+        "INFO:LOTS OF SMOKE COMING FROM BACK OF LOC/");
+
+    doTest("T5",
+        "((432) Hi Gina ) SICK:  950::EVERGREEN:RD:211::::2026:M23,E22,N3,:86 YF C/B/A FEELING DIZZY:20110930:000053",
+        "ID:432",
+        "CALL:SICK",
+        "ADDR:950 EVERGREEN RD",
+        "APT:211",
+        "MAP:2026",
+        "UNIT:M23,E22,N3",
+        "INFO:86 YF C/B/A FEELING DIZZY");
+
+    doTest("T6",
+        "(639) :  / SICK:25496:S:HW 99E::::::1433:R903,OPPS,N1,:65YOM C/A/B DIZZY,SWEATING,:20110930:070050\n",
+        "ID:639",
+        "CALL:SICK",
+        "ADDR:25496 S HW 99E",
+        "MAP:1433",
+        "UNIT:R903,OPPS,N1",
+        "INFO:65YOM C/A/B DIZZY,SWEATING,");
+
   }
   
   public static void main(String[] args) {
-    new ORMarionCountyNParserTest().generateTests("T1");
+    new ORMarionCountyNParserTest().generateTests("T4");
   }
 }
