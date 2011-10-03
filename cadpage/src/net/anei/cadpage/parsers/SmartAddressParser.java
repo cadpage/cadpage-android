@@ -384,6 +384,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     return result;
   }
   
+  private static final Pattern DOT_PATTERN = Pattern.compile("\\.(?!\\d)");
   private Result parseAddressInternal(StartType sType, int flags, String address) {
     this.flags = flags;
     lastCity = -1;
@@ -421,7 +422,8 @@ public abstract class SmartAddressParser extends SmsMsgParser {
       address = address.replaceAll(":", ": ");
       
       // Periods used with abbreviations also cause trouble.  Just get rid of all periods
-      address = address.replace(".", "");
+      // Except for periods followed by a digit which are presumably decimal points
+      address = DOT_PATTERN.matcher(address).replaceAll("");
     }
 
     // Check for null string

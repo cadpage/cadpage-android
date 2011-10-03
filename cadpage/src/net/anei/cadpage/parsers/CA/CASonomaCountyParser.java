@@ -27,7 +27,6 @@ Loc: 2637 WILD BILL CI SR BOX: 3048 C4 TYP: STRU CN: BARRAGAN MARTHA C#: (707) 5
 Loc: DUTTON MEADOW/TUXHORN DR SR BOX: 3048 D4 CN: TOGNERI JOHN W C#: (707) 545-7701 TYP: STRU CALLER ADDR: 2742 MORGAN CREEK TIME: 14:58:04 COM:  OUT BLDG /
 Loc: 4585 OLD REDWOOD HW LAR BOX: 2747 B2 CN: AT&T MOBILITY 800 635 6840  4 C#: (707) 953-6573 TYP: VEG CALLER ADDR: 434 Pacific Heights Drive S RS TIME: 17
 
- *** UNIMPLEMENTED ***
 Loc: SR: @SB 101 AT 12 BOX: 3049 A2 CN: CHP LOG 721 C#:  TYP: TC-EX CALLER ADDR:  TIME: 10:44:33 COM:  CRO 3 ** Case number SRS11016088 has been assigned fo  
 Loc: 2055 RANGE AV SR,326: @LAMPLIGHTERS SENIOR CITIZEN INN BOX: 2848 D3 CN: MCNEIL K C#: (707) 528-6259 TYP: FA-RES CALLER ADDR: 2055 RANGE AV TIME: 22:39:  
 Loc: 2389 MCBRIDE LN SR,12: @PARK VILLA APTS BOX: 2848 D1 CN:  C#:  TYP: STRU CALLER ADDR:  TIME: 17:46:46 COM:  apt 12 ** Case number SRS11015986 has been  
@@ -62,6 +61,7 @@ Loc: HWY 1/BODEGA HW BOD BOX: 3436 TYP: TC-EX CN: CHP C#:  TYPE CODE: TC-EX CALL
 public class CASonomaCountyParser extends FieldProgramParser {
   
   private static final Properties STATION_CODES = buildCodeTable(new String[]{
+    "BEL",  "BEL",
     "BBY",  "BBY", // Bodega Bay
     "BLO",  "BLO", // Bloomfield
     "BOD",  "BOD", // ???
@@ -82,7 +82,7 @@ public class CASonomaCountyParser extends FieldProgramParser {
   
   public CASonomaCountyParser() {
     super(STATION_CODES, "SONOMA COUNTY", "CA",
-           "Loc:ADDR? BOX:BOX TYP:CALL? CN:NAME CC:PHONE TYP:CALL? TYPE_CODE:SKIP CALLER_NAME:NAME CALLER_ADDR:ADDR2/S TIME:SKIP COM:INFO");
+           "Loc:ADDR? BOX:BOX TYP:CALL? CN:NAME C#:PHONE TYP:CALL? TYPE_CODE:SKIP CALLER_NAME:NAME CALLER_ADDR:ADDR2/S TIME:SKIP COM:INFO");
   }
   
   @Override
@@ -92,7 +92,6 @@ public class CASonomaCountyParser extends FieldProgramParser {
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
-    body = body.replaceAll("C#:", "CC:");
     if (! super.parseMsg(body, data)) return false;
     if (data.strCall.length() == 0) return false;
     if (data.strAddress.length() == 0) return false;
@@ -112,8 +111,19 @@ public class CASonomaCountyParser extends FieldProgramParser {
       }
       if (fld.length() <= 3) {
         data.strSource = fld;
-        data.strAddress = data.strPlace;
+        fld = data.strPlace;
         data.strPlace = "";
+      }
+      
+      pt = fld.lastIndexOf(',');
+      if (pt >= 0) {
+        data.strApt = fld.substring(pt+1).trim();
+        fld = fld.substring(0, pt);
+      }
+      
+      fld = fld.replace(" AT ", " & ");
+      if (data.strSource.length() > 0) {
+        parseAddress(fld, data);
       } else {
         parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END, fld, data);
         if (data.strCity.length() <= 3) {

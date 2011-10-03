@@ -353,15 +353,14 @@ public abstract class SmsMsgParser {
   */
  private static final Pattern INTERSECT = Pattern.compile("/|&");
  private static final Pattern APT = Pattern.compile("(?:\\bAPT\\b|#APT\\b|#|\\bAPT#) *([^ ]+)$",Pattern.CASE_INSENSITIVE);
+ private static final Pattern DOT = Pattern.compile("\\.(?!\\d)");
  private static void parseAddress(String addressLine, SmsMsgInfo.Data data, 
                                      boolean parseCity) {
    addressLine = addressLine.trim();
    
    // Periods used with abbreviations also cause trouble.  Just get rid of all periods
-   // Unless this address has GPS coordinates, in which case the periods are critical
-   if (!SmsPopupUtils.GPSPattern.matcher(addressLine).find()) {
-     addressLine = addressLine.replace(".", "");
-   }
+   // except those followed by a digit which are presumed to be decimal points
+   addressLine = DOT.matcher(addressLine).replaceAll("");
    
    // Pick off trailing address
    Matcher match = APT.matcher(addressLine);
