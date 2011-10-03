@@ -36,7 +36,7 @@ public class MDNorthEastParserOldTest extends BaseParserTest {
     doTest("T3",
         "AUTO (AUTO\nAUTOMOBILE FIRE\n98.5 I95 NB HWY\nNE\nRED TOAD RD\n06/13/11\n14:13:17\nAUTO ON FIRE//CAN SEE FLAMES AND SMOKE\nOPS 6   0495S\n04",
         "CALL:AUTOMOBILE FIRE",
-        "ADDR:985 I95 NB HWY",
+        "ADDR:98.5 I95 NB HWY",
         "CITY:North East",
         "X:RED TOAD RD",
         "INFO:AUTO ON FIRE//CAN SEE FLAMES AND SMOKE",

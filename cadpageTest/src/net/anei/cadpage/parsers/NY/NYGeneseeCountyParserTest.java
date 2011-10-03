@@ -17,7 +17,7 @@ public class NYGeneseeCountyParserTest extends BaseParserTest {
     doTest("T1",
         "[Dispatch]  Acc PIAA ** 392.3 RT 90 E** , BATAVIA - ** ONE VEHICLE ROLLOVER ** LEWISTON RD, I 90 / KELSEY RD, I 90 ** 07/12/11 17:29 **",
         "CALL:Acc PIAA",
-        "ADDR:3923 RT 90 E",
+        "ADDR:392.3 RT 90 E",
         "CITY:BATAVIA",
         "INFO:ONE VEHICLE ROLLOVER",
         "X:LEWISTON RD, I 90 / KELSEY RD, I 90");
@@ -33,7 +33,7 @@ public class NYGeneseeCountyParserTest extends BaseParserTest {
     doTest("T3",
         "[Dispatch]  Fire Auto ** 387.6 RT 90 W** , BATAVIA - ** POSS TRACTOR TRAILER FIRE - BOX TRAILER ** I 90, I-90 CONNECTOR / I 90,",
         "CALL:Fire Auto",
-        "ADDR:3876 RT 90 W",
+        "ADDR:387.6 RT 90 W",
         "CITY:BATAVIA",
         "INFO:POSS TRACTOR TRAILER FIRE - BOX TRAILER",
         "X:I 90, I-90 CONNECTOR / I 90,");

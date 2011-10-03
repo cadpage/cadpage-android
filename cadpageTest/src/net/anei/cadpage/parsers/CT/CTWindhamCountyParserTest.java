@@ -63,7 +63,7 @@ public class CTWindhamCountyParserTest extends BaseParserTest {
         "(Moosup FD Page) STA94  33.88 Please Operate 33.88/  Lift Assist 2 N  POTVIN AVE / Moosup (X-STS DAGGETT ST / POTVIN AVE ) 11:34",
         "UNIT:STA94",
         "CH:33.88",
-        "CALL:Please Operate 3388/Lift Assist",
+        "CALL:Please Operate 33.88/Lift Assist",
         "ADDR:2 N POTVIN AVE",
         "CITY:Moosup",
         "X:DAGGETT ST / POTVIN AVE");

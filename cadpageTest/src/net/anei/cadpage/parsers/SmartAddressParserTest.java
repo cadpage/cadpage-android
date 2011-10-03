@@ -52,7 +52,7 @@ public class SmartAddressParserTest extends BaseParserTest {
     
     doTest(CALL, FLAG_START_FLD_REQ | FLAG_ANCHOR_END, 
         "Please Operate 33.88/  Lift Assist 2 N  POTVIN AVE",
-        "CALL:Please Operate 3388/Lift Assist",
+        "CALL:Please Operate 33.88/Lift Assist",
         "ADDR:2 N POTVIN AVE");
 
     doTest(CALL, FLAG_AT_BOTH, "BIG HOME @N JEFFERSON ST AWAY",
