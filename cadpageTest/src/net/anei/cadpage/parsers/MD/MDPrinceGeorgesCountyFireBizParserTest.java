@@ -123,7 +123,7 @@ public class MDPrinceGeorgesCountyFireBizParserTest extends BaseParserTest {
         "INFO:http://fireblitz.com/27/5.shtm");
 
 
-    doTest("T11",
+    doTest("T13",
         "32: HOUSE FIRE\nE827 BO885\n5311 ACORN DR (GLEN OAK DR and WHITE OAK AVE)\n10/01 15:59\nhttp://fireblitz.com/PG/27/3.shtm",
         "SRC:32",
         "CALL:HOUSE FIRE",
@@ -131,9 +131,18 @@ public class MDPrinceGeorgesCountyFireBizParserTest extends BaseParserTest {
         "ADDR:5311 ACORN DR",
         "X:GLEN OAK DR and WHITE OAK AVE",
         "INFO:http://fireblitz.com/PG/27/3.shtm");
-  }
+
+    doTest("T14",
+        "26: APARTMENT FIRE\nSQ827 BO883\n6912 WALKER MILL RD #C2 (KAREN BLVD and SHADY GLEN DR)\n10/01 21:35\nhttp://fireblitz.com/PG/27/0.shtm",
+        "SRC:26",
+        "CALL:APARTMENT FIRE",
+        "UNIT:SQ827 BO883",
+        "ADDR:6912 WALKER MILL RD",
+        "X:KAREN BLVD and SHADY GLEN DR",
+        "INFO:http://fireblitz.com/PG/27/0.shtm");
+ }
   
   public static void main(String[] args) {
-    new MDPrinceGeorgesCountyFireBizParserTest().generateTests("T11", "SRC CALL UNIT ADDR X INFO");
+    new MDPrinceGeorgesCountyFireBizParserTest().generateTests("T15", "SRC CALL UNIT ADDR X INFO");
   }
 }

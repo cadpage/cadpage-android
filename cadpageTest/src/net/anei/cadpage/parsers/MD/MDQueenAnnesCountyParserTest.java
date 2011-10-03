@@ -124,6 +124,17 @@ public class MDQueenAnnesCountyParserTest extends BaseParserTest {
     
   }
   
+  @Test
+  public void testSuldersvilleParser() {
+
+    doTest("T1",
+        "(Text Message) QA911com:*D 6-1 CHEST PAINS 104 CHARLES ST DIFF SPEAKING Q06",
+        "CALL:6-1 CHEST PAINS",
+        "ADDR:104 CHARLES ST",
+        "INFO:DIFF SPEAKING Q06");
+
+  }
+  
   public static void main(String[] args) {
     new MDQueenAnnesCountyParserTest().generateTests("T1", "CALL ADDR INFO");
   }
