@@ -40,6 +40,9 @@ Contact: Joshua Ruby <josh@computerrescuemd.com>
 [Text Message]  QA911com:*D 1-15 HEART PROBLEMS 1630 MAIN ST CARDIAC HISTORY Q01
 [Text Message]  QA911com:*D 1-4 DROWNING/DIVE ACCDNT 624 ROMANCOKE RD WATER RESCUE BOX Q01
 
+Contact: Chad Angelini <chadaangelini@verizon.net>
+(Text Message) QA911com:*D 6-1 CHEST PAINS 104 CHARLES ST DIFF SPEAKING Q06
+
 ******************************************************************************/
 
 public class MDQueenAnnesCountyParser extends SmartAddressParser {
