@@ -3160,6 +3160,11 @@ Contact: David Morgan <djmorgan911@gmail.com>
 Sender: CAD@pittgov.org
 1357:CHEST PAINS;1855 RAINBOW CIR;DAN;2011044707;BUCKHORN DR;POWHATAN DR;[Medical Priority Info] PROBLEM: CHEST PAINS AND SWEATING, NAUSEUA # PATS: 1 AGE: 39 Years
 **********************************************************
+Lancaster, PA (alternate)
+Contact: Justin Fisher <justin62911@gmail.com>
+Sender: messaging@iamresponding.com
+Body:FRM:messaging@iamresponding.com\n
+WBFC\nMSG:BRUSH-1A \nMANOR TWP~341 PORT RD~CONESTOGA RIVER~FRYS RUN~TAN903,ENG903,BR903,ENG907~19:44:08 \n
 **********************************************************
 **********************************************************
 **********************************************************
