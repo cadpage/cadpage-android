@@ -114,6 +114,14 @@ public class NJSussexCountyParserTest extends BaseParserTest {
         "ADDR:6 RAMSEY COURT",
         "CITY:FRELINGHUYSEN",
         "INFO:WARREN COUNTY COMMUNICATIONS REQUESTING A PUMP OUT FOR THE FOOT OF WATER IN BASEMENT.");
+
+    doTest("T8",
+        "jcasella@andpd (I-2011-000194) MVA-F @  ROUTE 94  , GREEN TWP - \nin front of wilbur's country storE",
+        "ID:I-2011-000194",
+        "CALL:MVA-F",
+        "ADDR:ROUTE 94",
+        "CITY:GREEN TWP",
+        "INFO:in front of wilbur's country storE");
  }
   
   public static void main(String[] args) {
