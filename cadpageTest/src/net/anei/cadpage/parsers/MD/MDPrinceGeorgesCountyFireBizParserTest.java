@@ -138,11 +138,12 @@ public class MDPrinceGeorgesCountyFireBizParserTest extends BaseParserTest {
         "CALL:APARTMENT FIRE",
         "UNIT:SQ827 BO883",
         "ADDR:6912 WALKER MILL RD",
+        "APT:C2",
         "X:KAREN BLVD and SHADY GLEN DR",
         "INFO:http://fireblitz.com/PG/27/0.shtm");
  }
   
   public static void main(String[] args) {
-    new MDPrinceGeorgesCountyFireBizParserTest().generateTests("T15", "SRC CALL UNIT ADDR X INFO");
+    new MDPrinceGeorgesCountyFireBizParserTest().generateTests("T15", "SRC CALL UNIT ADDR APT X INFO");
   }
 }

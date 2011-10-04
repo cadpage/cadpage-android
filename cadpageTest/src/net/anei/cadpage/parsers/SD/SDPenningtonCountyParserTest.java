@@ -90,6 +90,25 @@ public class SDPenningtonCountyParserTest extends BaseParserTest {
         "INFO:61 year old, female, conscious, breathing, abnormal breathing (clear evidence of stroke)");
   }
   
+  @Test
+  public void testParser2() {
+
+    doTest("T1",
+        "(Page ) Unit:RV Status:DISPATCHED FIRE 300 E  SIGNAL DR NATIONAL WEATHER SERVICERapid City  1/4 ACRE MOVING TO THE WEST TOWARDS THE TALL GRASS.  1/4 ACRE",
+        "UNIT:RV",
+        "CALL:DISPATCHED FIRE",
+        "ADDR:300 E SIGNAL DR",
+        "INFO:NATIONAL WEATHER SERVICERapid City 1 / 4 ACRE MOVING TO THE WEST TOWARDS THE TALL GRASS 1 / 4 ACRE");
+
+    doTest("T2",
+        "(Page ) Unit:RV Status:DISPATCHED SUIC 2064 S VALLEY DR PENNCO  RPT**  MALE SUBJ HUNG HIMSELF AT ABOVE LOC  13:10",
+        "UNIT:RV",
+        "CALL:DISPATCHED SUIC",
+        "ADDR:2064 S VALLEY DR",
+        "INFO:RPT** MALE SUBJ HUNG HIMSELF AT ABOVE LOC 13: 10");
+
+  }
+  
   public static void main(String[] args) {
     new SDPenningtonCountyParserTest().generateTests("T1");
   }
