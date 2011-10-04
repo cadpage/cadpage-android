@@ -109,10 +109,18 @@ public class ILPeoriaCountyParserTest extends BaseParserTest {
         "ID:16300",
         "X:W SMITHVILLE RD",
         "INFO:72 YO MALE JST RELEASED FRM HOSP TODAY FRM BYPASS HAS AN1513,005 INCISION ON CHEST SERIOUS BLEEDING HAS SOAKED THRU TSHIRT1513,005 C / A / B OK RIGHT NOW");
+
+    doTest("T13",
+        "S: M:10/03/11 415 W BUTTERNUT ST EL :( 400) N MORGAN ST MALE W/BAD HEADACHE FELL ON SAT AND WAS CKED OUT THEN BUT NOW REQ TRANSP BACK TO HOSP 94 Y (01/02)\n\n",
+        "ADDR:415 W BUTTERNUT ST",
+        "CITY:ELMWOOD",
+        "ID:400",
+        "X:N MORGAN ST",
+        "INFO:MALE W / BAD HEADACHE FELL ON SAT AND WAS CKED OUT THEN BUT NOW REQ TRANSP BACK TO HOSP 94 Y (01 / 02)");
     
   }
   
   public static void main(String[] args) {
-    new ILPeoriaCountyParserTest().generateTests("T1","ADDR CITY ID X INFO");
+    new ILPeoriaCountyParserTest().generateTests("T13","ADDR CITY ID X INFO");
   }
 }

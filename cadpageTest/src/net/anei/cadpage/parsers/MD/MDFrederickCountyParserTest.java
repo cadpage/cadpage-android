@@ -182,6 +182,15 @@ public class MDFrederickCountyParserTest extends BaseParserTest {
         "PLACE:WEINBERG HOUSE",
         "UNIT:A38,E31",
         "MAP:4566D5");
+
+    doTest("T28",
+        "(CAD) [FredCo] CT: ENGINE TRANSFER / default 14026 GRACEHAM RD CTHU: @STATION 18 MAP: 4222J2 Disp: ET154",
+        "CALL:ENGINE TRANSFER/default",
+        "ADDR:14026 GRACEHAM RD",
+        "CITY:Thurmont",
+        "PLACE:STATION 18",
+        "UNIT:ET154",
+        "MAP:4222J2");
  }
   
   public static void main(String[] args) {
