@@ -34,8 +34,10 @@ public class MainDonateEvent extends DonateScreenEvent {
   public boolean setPreference(Activity activity, Preference pref) {
     this.activity = activity;
     this.pref = pref;
-    for (DonateEvent event : getEvents()) {
-      if (event.setPreference(activity, pref)) return true;
+    if (activity != null) {
+      for (DonateEvent event : getEvents()) {
+        if (event.setPreference(activity, pref)) return true;
+      }
     }
     return false;
   }

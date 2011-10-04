@@ -225,6 +225,14 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
     DeveloperToolsManager.instance().addPreference(this, getPreferenceScreen());
   }
 
+  @Override
+  protected void onDestroy() {
+    MainDonateEvent.instance().setPreference(null, null);
+    super.onDestroy();
+  }
+
+
+
   /**
    * Make any necessary adjustments necessary
    * when the location preference is changed
