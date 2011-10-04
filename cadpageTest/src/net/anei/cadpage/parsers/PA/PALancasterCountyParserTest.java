@@ -70,6 +70,6 @@ public class PALancasterCountyParserTest extends BaseParserTest {
   
   
   public static void main(String[] args) {
-    new PALancasterCountyParserTest().generateTests("T7", "CALL CITY ADDR X UNIT");
+    new PALancasterCountyParserTest().generateTests("T8", "CALL CITY ADDR X UNIT");
   }
 }

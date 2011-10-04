@@ -19,6 +19,8 @@ public class SmsMsgInfoTest {
   @Test
   public void testGetMapAddress() {
     
+    doMapTest("NCAlexanderCounty", "8510 XX 90 E,KENBURG,XX", "8510 XX 90 HWY E");
+    
     doMapTest("TXNassauBay", "ST 3 & MAGNOLIA AVE,KENBURG,XX", "SH 3 HWY & MAGNOLIA AVE");
     
     doMapTest("TXNassauBay", "20233  45 FWY,KENBURG,XX", "20233 IH 45 FWY");
