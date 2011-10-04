@@ -27,6 +27,7 @@ jragsdale@andpd (I-2011-000108) TRANSF @ 71 WOLFS CORNER ROAD  , GREEN TWP - MUN
 Contact: mpraff15 <mpraff15@gmail.com>
 Sender: 6245
 kbrown@andpd (I-2011-000155) PUMP @ 6 RAMSEY COURT  , FRELINGHUYSEN - WARREN COUNTY COMMUNICATIONS REQUESTING A PUMP OUT FOR THE FOOT OF WATER IN BASEMENT.
+jcasella@andpd (I-2011-000194) MVA-F @  ROUTE 94  , GREEN TWP - \nin front of wilbur's country storE
 
  */
 
@@ -46,6 +47,7 @@ public class NJSussexCountyParser extends SmartAddressParser {
     
     if (! SUBJECT_PTN.matcher(subject).matches()) return false;
     data.strCallId = subject;
+    body = body.replace('\n', ' ');
     Matcher match = MASTER_PTN.matcher(body);
     if (!match.matches()) return false;
     data.strCall = match.group(1).trim();
