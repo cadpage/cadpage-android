@@ -22,6 +22,10 @@ Sender: dispatch@co.pennington.sd.us
 (page ) Unit:29H1 Status:dispatched breath 101 main st exxon Hill City 52 year old, male, conscious, breathing, breathing problems. difficulty speaking
 (page ) Unit:29H1 Status:Dispatched Stroke 24185 Tin Horse Trl pennco 61 year old, female, conscious, breathing, abnormal breathing (clear evidence of stroke)
 
+Contact: Alexander Ingalls <alexingalls09@gmail.com>
+(Page ) Unit:RV Status:DISPATCHED FIRE 300 E  SIGNAL DR NATIONAL WEATHER SERVICERapid City  1/4 ACRE MOVING TO THE WEST TOWARDS THE TALL GRASS.  1/4 ACRE
+(Page ) Unit:RV Status:DISPATCHED SUIC 2064 S VALLEY DR PENNCO  RPT**  MALE SUBJ HUNG HIMSELF AT ABOVE LOC  13:10
+
 */
 
 public class SDPenningtonCountyParser extends FieldProgramParser {
@@ -38,7 +42,7 @@ public class SDPenningtonCountyParser extends FieldProgramParser {
   
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
-    if (!subject.equals("page")) return false;
+    if (!subject.equalsIgnoreCase("page")) return false;
     return super.parseMsg(body, data);
   }
   
@@ -55,7 +59,7 @@ public class SDPenningtonCountyParser extends FieldProgramParser {
         }
         field = field.substring(0,pt).trim();
       }
-      parseAddress(StartType.START_CALL, FLAG_PAD_FIELD, field, data);
+      parseAddress(StartType.START_CALL, FLAG_PAD_FIELD | FLAG_IGNORE_AT, field, data);
       data.strPlace = getPadField();
       data.strSupp = getLeft();
       if (data.strCity.equalsIgnoreCase("PENNCO")) data.strCity = "";

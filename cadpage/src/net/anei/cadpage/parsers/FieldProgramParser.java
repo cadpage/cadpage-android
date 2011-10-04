@@ -1332,6 +1332,7 @@ public class FieldProgramParser extends SmartAddressParser {
             parseFlags &= ~FLAG_ANCHOR_END;
             tailField = new String[]{"CALL","PLACE","SKIP","APT","UNIT","NAME","INFO", "X"}[pt2];
             tailData = getField(tailField);
+            if (chr == 'I') parseFlags |= FLAG_IGNORE_AT;
           }
           
           if (++pt >= qual.length()) break;
