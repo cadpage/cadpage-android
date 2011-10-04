@@ -45,6 +45,18 @@ public class NYMonroeCountyWebsterParserTest extends BaseParserTest {
         "INFO:PRECAUTIONARY FOR CHEST PAIN DUE TO MVA");
   }
   
+  @Test
+  public void testParser2() {
+
+    doTest("T1",
+        "A: FAIF BOX: 0176\nL: 2 LEWIS ST\nT: CARDIAC/RESP-NOT BREATHING\nO: \nB: \nC1: POTTER PL\nC2: FILKINS ST\nX: 46 YO/M NOT BREATHING -- COLD TO THE TOUCH",
+        "ADDR:2 LEWIS ST",
+        "CALL:CARDIAC/RESP-NOT BREATHING",
+        "X:POTTER PL & FILKINS ST",
+        "INFO:46 YO/M NOT BREATHING -- COLD TO THE TOUCH");
+
+  }
+  
   public static void main(String[] args) {
     new NYMonroeCountyWebsterParserTest().generateTests("T1");
   }
