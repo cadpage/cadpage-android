@@ -55,6 +55,10 @@ Contact: Derek Wildasin <wildasindc@gmail.com>
 Sender: rc.393@c-msg.net
 (CAD) [!] CT: ASSIST PATIENT - NON-EMERGENCY RESPONSE / default 222 BROADWAY ST FRE1: @WEINBERG HOUSE MAP: 4566D5 Disp: A38,E31
 
+Contact: Bill Stearn <wstearn@gmail.com>
+Sender: rc.404@c-msg.net
+(CAD) [FredCo] CT: ENGINE TRANSFER / default 14026 GRACEHAM RD CTHU: @STATION 18 MAP: 4222J2 Disp: ET154
+
 ***/
 
 public class MDFrederickCountyParser extends SmartAddressParser {
@@ -68,6 +72,10 @@ public class MDFrederickCountyParser extends SmartAddressParser {
     super(CITY_CODE_TABLE, DEF_CITY, DEF_STATE);
   }
 
+  @Override
+  public String getFilter() {
+    return "www.codemessaging.net,CAD@psb.net,@c-msg.net";
+  }
   
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
@@ -152,6 +160,7 @@ public class MDFrederickCountyParser extends SmartAddressParser {
         "CNMA","New Market",
         "CMTY","Mt Airy",
         "CSAB","Sabillasville",
+        "CTHU","Thurmont",
         "CWAL","Walkersville",
         "FRAN CO", "Franklin County",
         "FRE1", "Frederick City",
