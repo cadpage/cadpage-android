@@ -21,9 +21,6 @@ TRITWP  *: FIRE ALARM *: 810 W WALNUT CTY: 39
 Contact: Chris Gerding <atfdgerding@yahoo.com>
 ALBEE   *: ASSIST PERSON UP *: 4737 W BURT RD CTY: 01 *: *LIFT ASSIST CMT1: PRIORITY ONE
 
-Contact: 
-
-
  */
 public class MISaginawCountyParser extends FieldProgramParser {
   
