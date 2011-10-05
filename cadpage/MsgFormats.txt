@@ -3164,6 +3164,8 @@ Pittsylvania, VA (replacement or alternate)
 Contact: David Morgan <djmorgan911@gmail.com>
 Sender: CAD@pittgov.org
 1357:CHEST PAINS;1855 RAINBOW CIR;DAN;2011044707;BUCKHORN DR;POWHATAN DR;[Medical Priority Info] PROBLEM: CHEST PAINS AND SWEATING, NAUSEUA # PATS: 1 AGE: 39 Years
+1363:EMS CALL FOR PROQA;12321 FRANKLIN TPKE;CHA;2011045077;F C BEVERLY RD;STRAWBERRY RD;[Medical Priority Info] PROBLEM: DIZZY SPELLS # PATS: 1 AGE: 85 Years SEX: F
+1360:RESPIRATORY DISTRESS;113 HUNTERS RDG;DAN;2011044913;HUNTERS TRL;HUNTERS CHASE;[Medical Priority Info] PROBLEM: HUSBAND TROUBLE BREATHING&CHEST PAINS # PATS: 1
 **********************************************************
 Lancaster, PA (alternate)
 Contact: Justin Fisher <justin62911@gmail.com>
@@ -3177,6 +3179,18 @@ Sender: emergin@saginawcounty.com
 FRM:emergin@saginawcounty.com\nMSG:TRITWP ¿AD: 11245 S FORDNEY TIME: 22:16 CORRECT ADDX IS 11199 S FORDNEY\n
 
 Chris reports old format was working as of a couple days ago, but dispatch was upgrading software.
+Marco reports everything still working.  In particular this call worked
+**********************************************************
+Montgomery County, PA (alternate)
+Contact: 2153504443@txt.att.net
+ 1 of 3
+FRM:PageFwd@comcast.net
+MSG:Willow Grove: Fire
+F1125058
+2701 BLAIR MILL RD: @KEYSTONE KIDNEY CENTER
+XST: CARRELL LN/COMMER
+**********************************************************
+**********************************************************
 **********************************************************
 **********************************************************
 ************  READY TO ROLL ******************************
@@ -3501,7 +3515,7 @@ SUBJ:From Northwest
 MSG:BOTSFORD HILL RD & GOLDEN HARVEST RD  ROXBURY WIRES DOWN/FIRE ROX RES9 ROX FD1
 Primary Incident: 00109
 **********************************************************
-Eau Clair County, WI
+Eau Clair, WI
 Contact: "Cody Davey" <cody@wisconsinrangers.net>
 Sender: tfddispatch@att.net
 [Case# 11-253]  @5:23:16 AM // Brunswick // W2250 Rim Rock Rd // Vehicle  

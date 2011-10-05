@@ -103,9 +103,11 @@ public class CallHistoryActivity extends ListActivity {
     
     // If popup is enabled, and there is a message ID passed from SmsReceiver
     // launch a message popup to display it
-    if (ManagePreferences.popupEnabled()) {
-      int msgId = intent.getIntExtra(EXTRA_MSG_ID, 0);
-      if (msgId > 0)  SmsPopupActivity.launchActivity(this, msgId);
+    else {
+      if (ManagePreferences.popupEnabled()) {
+        int msgId = intent.getIntExtra(EXTRA_MSG_ID, 0);
+        if (msgId > 0)  SmsPopupActivity.launchActivity(this, msgId);
+      }
     }
   }
 
