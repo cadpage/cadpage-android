@@ -74,9 +74,28 @@ public class MOGreeneCountyParserTest extends BaseParserTest {
         "MAP:U-9",
         "INFO:* * * CLONE STRUCTURE FIRES TO GF/FHOUSE-FBLDG/BF10/ CMT:AUTO_AID * * * / 69 YR OLD MALE VOMMITING, CONCIOUS ALERT AND BREATHING. FACE ISSWOLLEN",
         "UNIT:RF/RESCUE");
+
+    doTest("T7",
+        "TYP: MEDICAL AD: 11391 W SHBB CTY: GREENE COUNTY MAP: A-6 CN: VERIZON WIRELESS CMT1: CLR WITH LOW BLOOD SURGAR, HAVING TROUBLE SPEAKING TIME: 17:43 UNTS: GF/",
+        "CALL:MEDICAL",
+        "ADDR:11391 W SHBB",
+        "CITY:GREENE COUNTY",
+        "MAP:A-6",
+        "NAME:VERIZON WIRELESS",
+        "INFO:CLR WITH LOW BLOOD SURGAR, HAVING TROUBLE SPEAKING",
+        "UNIT:GF/");
+
+    doTest("T8",
+        "TYP: FIRE OUTSIDE AD: N FR75&N SH123 CTY: GREENE COUNTY MAP: E-8 CN: PAULA CMT1: NEAR THE S CURVES.. SAYS A BRUSH FIRE. NEAR THE ROADWAY. BY SOME PROPERT CMT",
+        "CALL:FIRE OUTSIDE",
+        "ADDR:N FR75 & N SH123",
+        "CITY:GREENE COUNTY",
+        "MAP:E-8",
+        "NAME:PAULA",
+        "INFO:NEAR THE S CURVES.. SAYS A BRUSH FIRE. NEAR THE ROADWAY. BY SOME PROPERT");
   }
 
   public static void main(String[] args) {
-    new MOGreeneCountyParserTest().generateTests("T3");
+    new MOGreeneCountyParserTest().generateTests("T7");
   }
 }

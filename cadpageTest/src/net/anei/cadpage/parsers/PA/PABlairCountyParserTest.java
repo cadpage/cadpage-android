@@ -87,6 +87,25 @@ public class PABlairCountyParserTest extends BaseParserTest {
         "ID:11-0150196");
   }
   
+  @Test
+  public void testParser2() {
+
+    doTest("T1",
+        "(Inc: WIRES DOWN/TREE DOWN) Inc: WIRES DOWN/TREE DOWN \nAdd: 605 5TH ST \nCity: TYRONE BO \nUnits: 400 31A\n31A\nLat/Lon: @40.66879 @78.25321\n9/27/2011 11:05:05 P",
+        "CALL:WIRES DOWN/TREE DOWN",
+        "ADDR:605 5TH ST",
+        "CITY:TYRONE",
+        "UNIT:400 31A 31A");
+
+    doTest("T2",
+        "(Inc: Commercial Fire Alarm) Inc: Commercial Fire Alarm \nAdd: 505 3RD ST \nCity: TYRONE BO \nUnits: 400 31A\n31A\nLat/Lon: @40.66619 @78.25446\n10/1/2011 2:43:28",
+        "CALL:Commercial Fire Alarm",
+        "ADDR:505 3RD ST",
+        "CITY:TYRONE",
+        "UNIT:400 31A 31A");
+
+  }
+  
   public static void main(String[] args) {
     new PABlairCountyParserTest().generateTests("T1");
   }
