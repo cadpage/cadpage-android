@@ -324,6 +324,10 @@ public class FieldProgramParser extends SmartAddressParser {
               fieldSteps[ndx-1].getSuccLink().setLink(next, 1);
             }
             
+            // The conditional branch decision has been made, 
+            // Null out the fail step so we don't try to do it again
+            failStep = null;
+            
           }
           // First it could be terminating an earlier repeat block
           else if (optRepeat) {

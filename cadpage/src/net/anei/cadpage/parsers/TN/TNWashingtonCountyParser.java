@@ -36,6 +36,7 @@ Breathing Problems-DELTA M1,E3 \n300 W WALNUT ST #2 \nSHAMROCK \nMap 54b 14:59:5
 Breathing Problems-CHARLIE M1,E1,R1 \n1 UNAKA CT #7 \nMap 39D 21:23:05 11112056 \nThink green: Only print this e-mail and any attachment if necessar 
 House/Residential Fire Alarm E2 \n2701 S ROAN ST #124 \nHERITAGE TRAILER PARK \nMap 55D 22:50:03 115214 \nThink green: Only print this e-mail and an
 Assault/Sexual Assault-BRAVO M3,R3,E9 \n2918 BRISTOL HY \nADVANCE AUTO PARTS \nMap 38A 19:53:06 11113913 \nThink green: Only print this e-mail and a
+Chest Pain(Non-Traumatic)-DELTA M1,R1,E3\n805 KENTUCKY ST\nX-STR= COLORADO ST\nORLEANS ST\nMap 47D 16:50:49 11147626\nThink green: Only print thi
 
 */
 
@@ -43,11 +44,11 @@ public class TNWashingtonCountyParser extends FieldProgramParser {
   
   private static final Pattern UNIT_PTN = Pattern.compile("\\b[A-Z]{1,2}\\d{1,2}(?:,[A-Z]{1,2}\\d{1,2})*$");
   private static final Pattern PRI_PTN = Pattern.compile("-(?:ALPHA|BRAVO|CHARLIE|DELTA)$");
-  private static final Pattern MAP_TRAIL_PTN = Pattern.compile(" \\d\\d:\\d\\d:\\d\\d (\\d{6,})$");
+  private static final Pattern MAP_TRAIL_PTN = Pattern.compile(" \\d\\d:\\d\\d:\\d\\d (\\d{6,8})$");
   
   public TNWashingtonCountyParser() {
     super("WASHINGTON COUNTY", "TN",
-           "CPU UNIT2? ADDR PLACE? MAP!");
+           "CPU UNIT2? ADDR ( XSTR X/Z? MAP! | PLACE? MAP! )");
   }
   
   @Override
@@ -107,6 +108,17 @@ public class TNWashingtonCountyParser extends FieldProgramParser {
     }
   }
   
+  private class MyCrossField extends CrossField {
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      if (! field.startsWith("X-STR=")) return false;
+      field = field.substring(6).trim();
+      super.parse(field, data);
+      return true;
+    }
+  }
+  
   // MAP field has to start with map, and drop trailing
   private class MyMapField extends MapField {
     
@@ -135,6 +147,7 @@ public class TNWashingtonCountyParser extends FieldProgramParser {
   public Field getField(String name) {
     if (name.equals("CPU")) return new CallPriUnitField();
     if (name.equals("UNIT2")) return new Unit2Field();
+    if (name.equals("XSTR")) return new MyCrossField();
     if (name.equals("MAP")) return new MyMapField();
     return super.getField(name);
   }
