@@ -19,6 +19,10 @@ L: 1271 FAIRPRT NINE MILE PT RD\nT: MVAIA - W/INJURIES\nO:\nB:\nC1: BAINBRIDGE L
 Contact: John Overacker <joveracker@fairportfd.org>
 A: FAIF BOX: 0176\nL: 2 LEWIS ST\nT: CARDIAC/RESP-NOT BREATHING\nO: \nB: \nC1: POTTER PL\nC2: FILKINS ST\nX: 46 YO/M NOT BREATHING -- COLD TO THE TOUCH
 
+Contact: Mark Smith <smity725@gmail.com>
+Sender: chilifd@rednmxcad.com
+L: 50 COTTAGE GROVE CI BOX: 0622\nT: CHIE - 6D2 : TRB BREATHING- DIFF SPEAKING            \nB: ROCH PRESB  PH:\nC1: BUFFALO RD\nC2: DEAD END\nX: 43 YO F PROB BREAT
+
 */
 
 
@@ -26,16 +30,17 @@ public class NYMonroeCountyWebsterParser extends FieldProgramParser {
   
   public NYMonroeCountyWebsterParser() {
     super(CITY_CODES, "MONROE COUNTY", "NY",
-          "L:ADDR! T:CALL! O:NAME! B:PLACE! C1:X! C2:X! X:INFO!");
+          "BOX:BOX? L:ADDR! BOX:BOX? T:CALL! O:NAME? B:PLACE! PH:PHONE? C1:X! C2:X! X:INFO!");
   }
   
   @Override
   public String getFilter() {
-    return "paging@rednmxcad.com";
+    return "@rednmxcad.com";
   }
 
   @Override
   protected boolean parseMsg(String body, Data data) {
+    body = body.replace(" BOX:", "\nBOX:").replace(" PH:", "\nPH:");
     return parseFields(body.split("\n"), data);
   }
   
