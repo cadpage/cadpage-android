@@ -20,6 +20,10 @@ public class FieldProgramParserTest extends BaseParserTest {
   }
   
   @Test
+  public void testProblem() {
+  }
+  
+  @Test
   public void testproblems() {
     doFieldTest("T1", "TYPE:CALL UNTS:UNIT XST:X UNTS:UNIT",
         "TYPE:FIRE;UNTS:A70;XST:BLACK ST",
@@ -375,6 +379,20 @@ public class FieldProgramParserTest extends BaseParserTest {
         "SKIP ( CITY ST PLACE | PLACE CITY ST | INFO INFO ID | ) NAME",
         "SKIP;KCORBIN",
         "NAME:KCORBIN");
+    
+    doFieldTest("doubletest-1",
+        "SKIP ( CITY PLACE? X | SKIP )",
+        "SKIP;KEN TOWN;HOME;BLACK ST",
+        "CITY:KEN TOWN",
+        "PLACE:HOME",
+        "X:BLACK ST");
+    
+    doFieldTest("doubletest-2",
+        "SKIP ( CITY PLACE? X | SKIP )",
+        "SKIP;KEN TOWN;BLACK ST",
+        "CITY:KEN TOWN",
+        "X:BLACK ST");
+        
   }
   
   @Test

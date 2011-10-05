@@ -229,7 +229,17 @@ public class TNWashingtonCountyParserTest extends BaseParserTest {
         "ADDR:2918 BRISTOL HY",
         "PLACE:ADVANCE AUTO PARTS",
         "MAP:38A");
-    
+
+    doTest("T5",
+        "Chest Pain(Non-Traumatic)-DELTA M1,R1,E3\n805 KENTUCKY ST\nX-STR= COLORADO ST\nORLEANS ST\nMap 47D 16:50:49 11147626\nThink green: Only print thi",
+        "CALL:Chest Pain(Non-Traumatic)",
+        "PRI:D",
+        "UNIT:M1,R1,E3",
+        "ID:11147626",
+        "ADDR:805 KENTUCKY ST",
+        "X:COLORADO ST & ORLEANS ST",
+        "MAP:47D");
+   
   }
   
 

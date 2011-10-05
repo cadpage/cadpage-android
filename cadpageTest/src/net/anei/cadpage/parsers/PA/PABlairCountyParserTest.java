@@ -104,9 +104,16 @@ public class PABlairCountyParserTest extends BaseParserTest {
         "CITY:TYRONE",
         "UNIT:400 31A 31A");
 
+    doTest("T3",
+        "(Inc: FIRE ASSIST) Inc: FIRE ASSIST \nAdd: STATION 1 \nCity:  \nUnits: 9011 31A\n31A\nLat/Lon: @-1.00000 @-1.00000\n10/5/2011 2:27:41 AM \nDR #: 311100256",
+        "CALL:FIRE ASSIST",
+        "ADDR:STATION 1",
+        "UNIT:9011 31A 31A",
+        "ID:311100256");
+
   }
   
   public static void main(String[] args) {
-    new PABlairCountyParserTest().generateTests("T1");
+    new PABlairCountyParserTest().generateTests("T2");
   }
 }
