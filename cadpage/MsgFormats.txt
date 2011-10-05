@@ -3160,13 +3160,6 @@ F83 ALERT: PUMPDETL 1 FOOT 70 GRANT ST WASHINGTON BORO (SENT 09/28 11:55)
 F83 ALERT: MUTUAL/F FAST 83 40 MAIN ST / HAMPTON OUT OF COUNTY (SENT 09/28 05:46)
 F83 ALERT: MV ACCID UNK INJ LUKOIL / 143 E WASHINGTON AVE WASHINGTON BORO (SENT 09/24 22:30)
 **********************************************************
-Pittsylvania, VA (replacement or alternate)
-Contact: David Morgan <djmorgan911@gmail.com>
-Sender: CAD@pittgov.org
-1357:CHEST PAINS;1855 RAINBOW CIR;DAN;2011044707;BUCKHORN DR;POWHATAN DR;[Medical Priority Info] PROBLEM: CHEST PAINS AND SWEATING, NAUSEUA # PATS: 1 AGE: 39 Years
-1363:EMS CALL FOR PROQA;12321 FRANKLIN TPKE;CHA;2011045077;F C BEVERLY RD;STRAWBERRY RD;[Medical Priority Info] PROBLEM: DIZZY SPELLS # PATS: 1 AGE: 85 Years SEX: F
-1360:RESPIRATORY DISTRESS;113 HUNTERS RDG;DAN;2011044913;HUNTERS TRL;HUNTERS CHASE;[Medical Priority Info] PROBLEM: HUSBAND TROUBLE BREATHING&CHEST PAINS # PATS: 1
-**********************************************************
 Lancaster, PA (alternate)
 Contact: Justin Fisher <justin62911@gmail.com>
 Sender: messaging@iamresponding.com
@@ -3190,6 +3183,13 @@ F1125058
 2701 BLAIR MILL RD: @KEYSTONE KIDNEY CENTER
 XST: CARRELL LN/COMMER
 **********************************************************
+Atlanticare EMS, NJ (Atlantic & Cape May Counties)
+Contact: Me <grbrown@fastmail.net>
+Sender: medcom@medcom.com
+Use DispatchProQAParsaer
+[NOPHI MEDCOM - part 1 of 1]  RC:Run# 54365/LINWOOD-EMS/199 NEW RD/law office in central square/LINWOOD/11:14/////////<Unknown>
+[NOPHI MEDCOM - part 1 of 1]  RC:Run# 54353/MICU/42 ROUTE 50/X KRUK TERRACE/OCEAN VIEW/10:16///////SEAVILLE//<Unknown>
+[NOPHI MEDCOM - part 1 of 1]  RC:Run# 54345/MICU/117 HARRISON AVE/x new rd/PLEASANTVILLE/09:36/////////<Unknown>
 **********************************************************
 **********************************************************
 **********************************************************
@@ -3550,3 +3550,14 @@ Motorvehicle Collision
 [Case# 11-241]  @10:25:42 AM // Washington // I94 WB Mile Marke 65 //  
 Rescue/Medical
 Assist // 61 y/o male poss stroke
+**********************************************************
+Pittsylvania, VA (replacement or alternate)
+Contact: David Morgan <djmorgan911@gmail.com>
+Sender: CAD@pittgov.org
+1357:CHEST PAINS;1855 RAINBOW CIR;DAN;2011044707;BUCKHORN DR;POWHATAN DR;[Medical Priority Info] PROBLEM: CHEST PAINS AND SWEATING, NAUSEUA # PATS: 1 AGE: 39 Years
+1363:EMS CALL FOR PROQA;12321 FRANKLIN TPKE;CHA;2011045077;F C BEVERLY RD;STRAWBERRY RD;[Medical Priority Info] PROBLEM: DIZZY SPELLS # PATS: 1 AGE: 85 Years SEX: F
+1360:RESPIRATORY DISTRESS;113 HUNTERS RDG;DAN;2011044913;HUNTERS TRL;HUNTERS CHASE;[Medical Priority Info] PROBLEM: HUSBAND TROUBLE BREATHING&CHEST PAINS # PATS: 1
+1366:EMS CALL FOR PROQA;127 MEDICAL CENTER RD;DAN;2011045246;MOUNT CROSS RD;HINESVILLE RD
+1365:ENTRAPMENT;127 MEDICAL CENTER RD;DAN;2011045245;MOUNT CROSS RD;HINESVILLE RD
+1367:UNKNOWN MEDICAL EMERGENCY;1976 HILL CREEK RD;DRY;2011045254;SUNSET DR;MOUNT CROSS RD;[Medical Priority Info] PROBLEM: MEDICAL ALARM # PATS: 1 AGE: Unknown Rang
+1364:EMS CALL FOR PROQA;1976 HILL CREEK RD;DRY;2011045231;SUNSET DR;MOUNT CROSS RD;[Medical Priority Info] PROBLEM: MEDICAL ALARM # PATS: 1 AGE: Unknown Range SEX:

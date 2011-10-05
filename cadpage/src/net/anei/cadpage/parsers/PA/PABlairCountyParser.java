@@ -22,23 +22,35 @@ Inc: WIRES DOWN/TREE DOWN  Add: E PLEASANT VALLEY BLVD and BUCKNELL LN  City: LO
 Inc: Vehicle Accident w/injuries  Add: 17TH ST and VALLEY VIEW BLVD  City: LOGAN TWP  Units: 15A 16A 1211  15A  Lat/Lon: @40.49939 @78.39013  8/22/2011 3:52:39 PM  DR #: 11-0150194
 Inc: Structure Fire  Add: 1105 3RD AVE  City: DUNCANSVI  Units: 10A 20A 420 626 421 2001 2021 604 5011 816 5001 2031 1011 5031 1551  15A  Lat/Lon: @40.42410 @78.43086  8/24/2011 6:56:20 PM  DR #: 11-0150196
 
+Contact: Dave Wiser <yzr305@yahoo.com>
+Sender: alerts@blairalerts.com
+(Inc: WIRES DOWN/TREE DOWN) Inc: WIRES DOWN/TREE DOWN \nAdd: 605 5TH ST \nCity: TYRONE BO \nUnits: 400 31A\n31A\nLat/Lon: @40.66879 @78.25321\n9/27/2011 11:05:05 P
+(Inc: Commercial Fire Alarm) Inc: Commercial Fire Alarm \nAdd: 505 3RD ST \nCity: TYRONE BO \nUnits: 400 31A\n31A\nLat/Lon: @40.66619 @78.25446\n10/1/2011 2:43:28
+
 */
 
 
 public class PABlairCountyParser extends FieldProgramParser {
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
-      "DUNCANSVI",  "DUNCANSVILLE"
+      "DUNCANSVI",  "DUNCANSVILLE",
+      "TYRONE BO",  "TYRONE"
   });
   
   public PABlairCountyParser() {
     super(CITY_CODES, "BLAIR COUNTY", "PA",
-           "Inc:CALL! Add:ADDR! City:CITY! Units:UNIT! Lat/Lon:GPS! DR_#:ID!");
+           "Inc:CALL! Add:ADDR! City:CITY! Units:UNIT! Lat/Lon:GPS! DR_#:ID");
   }
   
   @Override
   public String getFilter() {
-    return "28403";
+    return "28403,alerts@blairalerts.com";
+  }
+  
+  @Override
+  protected boolean parseMsg(String body, Data data) {
+    body = body.replace('\n', ' ');
+    return super.parseMsg(body, data);
   }
   
   private static final Pattern DATE_MARK = Pattern.compile(" \\d");
