@@ -3171,6 +3171,9 @@ Contact: Cam <rapter8me@hotmail.com>
 Sender: emergin@saginawcounty.com
 FRM:emergin@saginawcounty.com\nMSG:TRITWP ¿AD: 11245 S FORDNEY TIME: 22:16 CORRECT ADDX IS 11199 S FORDNEY\n
 
+Contact: marco isome <misome@sbcglobal.net>
+TRITWP  AD: 11245 S FORDNEY TIME: 22:16 CORRECT ADDX IS 11199 S FORDNEY
+
 Chris reports old format was working as of a couple days ago, but dispatch was upgrading software.
 Marco reports everything still working.  In particular this call worked
 **********************************************************

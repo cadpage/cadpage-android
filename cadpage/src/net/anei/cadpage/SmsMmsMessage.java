@@ -361,6 +361,8 @@ public class SmsMmsMessage implements Serializable {
         msgCount = Integer.parseInt(match.group(2));
         if (match.start() == 0) body = body.substring(match.end()).trim();
         else body = body.substring(0,match.start()).trim();
+      } else {
+        if (body.startsWith("/ ")) body = body.substring(2).trim();
       }
       
       /* Decode patterns that look like this.....

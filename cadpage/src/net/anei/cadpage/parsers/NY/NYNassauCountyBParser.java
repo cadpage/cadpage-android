@@ -34,6 +34,10 @@ Contact:  Chris Schnupp <chris_schnupp@yahoo.com>
 Sender: ewhydeparkfd@rednmxcad.com
 MSG:FireCom: 29 JEFFERSON ST C/S: SYLVIA LA / GERARD AVE -    3 (RESCUE-AMBU) SICK FEMALE D: 09/10 06:39 #: 000798
 
+Contact: Edgar Caal <nosel50@gmail.com>
+Sender: inwoodfd@rednmxcad.com
+  / FireCom:  53 JAMES ST C/S: JEFFERSON ST / MOTT AVE (AMBU-AMBU) ELD FEMALE VOMITING D: 10/04 00:00\n
+
 */
 
 
