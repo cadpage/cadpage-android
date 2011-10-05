@@ -134,9 +134,16 @@ public class NYNassauCountyBParserTest extends BaseParserTest {
         "INFO:SICK FEMALE",
         "ID:000798");
 
+    doTest("T8",
+        "  / FireCom:  53 JAMES ST C/S: JEFFERSON ST / MOTT AVE (AMBU-AMBU) ELD FEMALE VOMITING D: 10/04 00:00\n",
+        "ADDR:53 JAMES ST",
+        "X:JEFFERSON ST / MOTT AVE",
+        "CALL:AMBU-AMBU",
+        "INFO:ELD FEMALE VOMITING");
+
   }
   
   public static void main(String[] args) {
-    new NYNassauCountyBParserTest().generateTests("T7", "ADDR X PRI CALL INFO ID");
+    new NYNassauCountyBParserTest().generateTests("T8", "ADDR X PRI CALL INFO ID");
   }
 }
