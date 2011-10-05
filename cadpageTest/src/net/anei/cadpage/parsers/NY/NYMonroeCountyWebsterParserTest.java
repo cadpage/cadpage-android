@@ -50,11 +50,26 @@ public class NYMonroeCountyWebsterParserTest extends BaseParserTest {
 
     doTest("T1",
         "A: FAIF BOX: 0176\nL: 2 LEWIS ST\nT: CARDIAC/RESP-NOT BREATHING\nO: \nB: \nC1: POTTER PL\nC2: FILKINS ST\nX: 46 YO/M NOT BREATHING -- COLD TO THE TOUCH",
+        "BOX:0176",
         "ADDR:2 LEWIS ST",
         "CALL:CARDIAC/RESP-NOT BREATHING",
         "X:POTTER PL & FILKINS ST",
         "INFO:46 YO/M NOT BREATHING -- COLD TO THE TOUCH");
 
+  }
+  
+  @Test
+  public void testParser3() {
+
+    doTest("T1",
+        "L: 50 COTTAGE GROVE CI BOX: 0622\nT: CHIE - 6D2 : TRB BREATHING- DIFF SPEAKING            \nB: ROCH PRESB  PH:\nC1: BUFFALO RD\nC2: DEAD END\nX: 43 YO F PROB BREAT",
+        "ADDR:50 COTTAGE GROVE CI",
+        "BOX:0622",
+        "CALL:CHIE - 6D2 : TRB BREATHING- DIFF SPEAKING",
+        "PLACE:ROCH PRESB",
+        "X:BUFFALO RD & DEAD END",
+        "INFO:43 YO F PROB BREAT");
+    
   }
   
   public static void main(String[] args) {
