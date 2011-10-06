@@ -3170,6 +3170,15 @@ F83 ALERT: PUMPDETL 1 FOOT 70 GRANT ST WASHINGTON BORO (SENT 09/28 11:55)
 F83 ALERT: MUTUAL/F FAST 83 40 MAIN ST / HAMPTON OUT OF COUNTY (SENT 09/28 05:46)
 F83 ALERT: MV ACCID UNK INJ LUKOIL / 143 E WASHINGTON AVE WASHINGTON BORO (SENT 09/24 22:30)
 **********************************************************
+Pittsylvania, VA (replacement or alternate)
+Contact: David Morgan <djmorgan911@gmail.com>
+Sender: CAD@pittgov.org
+1357:CHEST PAINS;1855 RAINBOW CIR;DAN;2011044707;BUCKHORN DR;POWHATAN DR;[Medical Priority Info] PROBLEM: CHEST PAINS AND SWEATING, NAUSEUA # PATS: 1 AGE: 39 Years
+1359:EMS CALL FOR PROQA;216 CEDAR RIDGE RD;DRY;2011044817;FRANKLIN TPKE;[Medical Priority Info] PROBLEM: 2 YO FELL, BLOOD COMING FROM EYE # PATS: 1 AGE: 2 Years SEX
+1358:HEMORRHAGING;438 BONNY AVE;CAS;2011044807;PEACEFUL LN;SERENE CT;[Medical Priority Info] PROBLEM: BLEEDING FRON URINE AND BOWEL MOMENT # PATS: 1 AGE: 47 Years S
+
+Still working for other users?
+**********************************************************
 Lancaster, PA (alternate)
 Contact: Justin Fisher <justin62911@gmail.com>
 Sender: messaging@iamresponding.com
@@ -3188,6 +3197,10 @@ Chris reports old format was working as of a couple days ago, but dispatch was u
 Marco reports everything still working.  In particular this call worked
 **********************************************************
 Montgomery County, PA (alternate)
+Contact: myfranchisepartners <myfranchisepartners@gmail.com>
+Sender: worcesterfd@verizon.net
+(FIRE ALARM) FIRE ALARM ** 2293 WARNER RD ** Dispatch ** - ** 64-02 **  **  ** Eff Body:FIRE ALARM ** 2293 WARNER RD ** Dispatch ** - ** 64-02 **  **  **
+
 Contact: 2153504443@txt.att.net
  1 of 3
 FRM:PageFwd@comcast.net
@@ -3195,6 +3208,11 @@ MSG:Willow Grove: Fire
 F1125058
 2701 BLAIR MILL RD: @KEYSTONE KIDNEY CENTER
 XST: CARRELL LN/COMMER
+**********************************************************
+Cabarrus County, NC (alternate?)
+Contact: Mark Brown <hzmtinstructor@gmail.com>
+Sender: 93001030
+29:1|ODOR OF SMOKE INSIDE|OPS3|920 CHURCH ST N|ARDSLEY AVE NE|CONCORD PKWY N|2|21KA|10/04/2011 10:24:12|NEMC MAIN BUILDING(CMH)|7047836595|4431|1106269
 **********************************************************
 Atlanticare EMS, NJ (Atlantic & Cape May Counties)
 Contact: Me <grbrown@fastmail.net>
@@ -3210,7 +3228,6 @@ Sender: Tgucad@fire.ca.gov
 Fwd: Subject:CAD Page
 FIRE, RESIDENTIAL; RORY LN ,BOWMAN ; ; Inc# 006986; 2509 2504 2521 2573 SUP-1 103 403 803 114 814; 
 epartment
-
 **********************************************************
 **********************************************************
 ************  READY TO ROLL ******************************
