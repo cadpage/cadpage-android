@@ -188,6 +188,15 @@ public class ORMarionCountyNParserTest extends BaseParserTest {
         "UNIT:E415,D411,STAF,N7",
         "INFO:REQ D411 RESPOND W/LADDER TO GET IN WINDOW");
 
+    doTest("T20",
+        "((4287) : ) MVA:::STATE:ST:::CASCADE:HW:3630:E425,D411,R404,M24,E52,R484,PGE,E415,LAW,N7,:1 MVA/POSS INJ/NOT BLOCKING:20111003:205247",
+        "ID:4287",
+        "CALL:MVA",
+        "ADDR:STATE ST & CASCADE HW",
+        "MAP:3630",
+        "UNIT:E425,D411,R404,M24,E52,R484,PGE,E415,LAW,N7",
+        "INFO:1 MVA/POSS INJ/NOT BLOCKING");
+
   }
   
   @Test
