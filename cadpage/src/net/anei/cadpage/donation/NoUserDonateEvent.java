@@ -1,7 +1,13 @@
 package net.anei.cadpage.donation;
 
 import net.anei.cadpage.R;
+/*
+Hey, I've already contributed
 
+Our sincere apologies.  Cadpage tracks you by your Google Market account
+and you don't seem to have one.  Try logging into the Android Market with
+your Paypal account and see if that helps.
+ */
 public class NoUserDonateEvent extends DonateScreenEvent {
 
   protected NoUserDonateEvent() {

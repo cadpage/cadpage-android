@@ -6,8 +6,7 @@ import android.net.Uri;
 import net.anei.cadpage.R;
 
 /**
- * This is the nice top level donation event that appears when user is on
- * the free rider donate list
+Donate through PayPal
  */
 public class PaypalDonateEvent extends DonateEvent {
   

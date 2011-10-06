@@ -4,8 +4,8 @@ import android.app.Activity;
 import net.anei.cadpage.R;
 
 /**
- * This is the nice top level donation event that appears when user is on
- * the free rider donate list
+ * Base event that displays a "Done" button, and closes the donation menu 
+ * tree when pressed
  */
 public class DoneDonateEvent extends DonateEvent {
   

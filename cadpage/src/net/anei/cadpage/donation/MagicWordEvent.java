@@ -4,6 +4,11 @@ import net.anei.cadpage.ManagePreferences;
 import net.anei.cadpage.R;
 import android.app.Activity;
 
+/*
+I have an authorization code
+
+Enter authorization code for\nCypress Creek VFD
+ */
 public class MagicWordEvent extends DonateQueryEvent {
   
   private static final String LOCATION = "TXCyCreekCommCenter";

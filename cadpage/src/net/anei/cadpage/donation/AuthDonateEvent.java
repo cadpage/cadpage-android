@@ -1,5 +1,12 @@
 package net.anei.cadpage.donation;
 
+/*
+Thank you for your support
+
+You have free access to Cadpage as a member of\n
+%s\n
+Thank you for your support
+ */
 import net.anei.cadpage.ManagePreferences;
 import net.anei.cadpage.R;
 
@@ -7,7 +14,7 @@ public class AuthDonateEvent extends DonateScreenEvent {
 
   protected AuthDonateEvent() {
     super(AlertStatus.GREEN, R.string.donate_auth_title, R.string.donate_auth_text,
-           AndroidDonateEvent.instance(), PaypalDonateEvent.instance());
+           ReqMoneyGroup.instance());
   }
 
   @Override

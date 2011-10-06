@@ -53,8 +53,13 @@ public class BillingManager {
    */
   public boolean isPurchaseAvail() {
     if (!supported) return false;
+    if (isPurchased()) return false;
+    return true;
+  }
+  
+  public boolean isPurchased() {
     int year = Calendar.getInstance().get(Calendar.YEAR);
-    return year > ManagePreferences.paidYear();
+    return year == ManagePreferences.paidYear();
   }
   
   /**

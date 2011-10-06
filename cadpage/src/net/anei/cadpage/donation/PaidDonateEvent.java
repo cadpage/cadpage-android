@@ -6,14 +6,15 @@ import java.util.Date;
 import net.anei.cadpage.R;
 
 /**
- * This is the nice top level donation event that appears when user is on
- * the free rider donate list
+Your Cadpage subscription is current
+
+Your current Cadpage subscription will expire on\n%s
  */
 public class PaidDonateEvent extends DonateScreenEvent {
   
   public PaidDonateEvent() {
     super(AlertStatus.GREEN, R.string.donate_paid_title, R.string.donate_paid_text,
-          AndroidDonateEvent.instance(), PaypalDonateEvent.instance());
+          AndroidDonateEvent.instance());
   }
 
   @Override

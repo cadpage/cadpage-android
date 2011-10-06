@@ -1,12 +1,18 @@
 package net.anei.cadpage.donation;
 
 import net.anei.cadpage.R;
+/*
+You have been using Cadpage for %d days
 
+You have been using Cadpage for %1$d days.  Your cadpage demo expired %2$d days ago.  
+The current version of Cadpage will not bother you about this, but the next version
+just might.
+ */
 public class DemoExpireDonateEvent extends DonateScreenEvent {
 
   protected DemoExpireDonateEvent() {
     super(AlertStatus.YELLOW, R.string.donate_demo_expire_title, R.string.donate_demo_expire_text,
-           AndroidDonateEvent.instance(), PaypalDonateEvent.instance(), MagicWordEvent.instance(),
+           ReqMoneyGroup.instance(), MagicWordEvent.instance(),
            Android16DonateEvent.instance(),
            NoUserDonateEvent.instance(), WrongUserDonateEvent.instance());
   }

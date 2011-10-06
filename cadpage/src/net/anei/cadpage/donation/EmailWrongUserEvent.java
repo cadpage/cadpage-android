@@ -5,12 +5,11 @@ import net.anei.cadpage.EmailDeveloperActivity;
 import net.anei.cadpage.R;
 
 /**
- * This is the nice top level donation event that appears when user is on
- * the free rider donate list
+ * Generate an email to the developers
  */
-public class EmailDonateEvent extends DonateEvent {
+public class EmailWrongUserEvent extends DonateEvent {
   
-  public EmailDonateEvent() {
+  public EmailWrongUserEvent() {
     super(null, R.string.donate_email_title);
   }
 
@@ -20,9 +19,9 @@ public class EmailDonateEvent extends DonateEvent {
     closeEvents(activity);
   }
   
-  private static final EmailDonateEvent instance = new EmailDonateEvent();
+  private static final EmailWrongUserEvent instance = new EmailWrongUserEvent();
   
-  public static EmailDonateEvent instance() {
+  public static EmailWrongUserEvent instance() {
     return instance;
   }
 
