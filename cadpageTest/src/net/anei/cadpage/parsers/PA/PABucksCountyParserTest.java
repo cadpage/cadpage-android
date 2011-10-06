@@ -381,9 +381,21 @@ public class PABucksCountyParserTest extends BaseParserTest {
         "MAP:3034E1",
         "ID:FD1116344",
         "UNIT:E19");
+
+    doTest("T32",
+        "911: STA19  type:FDWL    adr:260 SANDY RIDGE RD ,29  btwn CAVALLO WY & IRON HILL RD  aai:  box:19006  map:3034C1  tm:12:08:50  FD1116685    Run: L79 E",
+        "SRC:STA19",
+        "CALL:FDWL - DWELLING FIRE (TAC)",
+        "ADDR:260 SANDY RIDGE RD",
+        "CITY:DOYLESTOWN TWP",
+        "X:CAVALLO WY & IRON HILL RD",
+        "BOX:19006",
+        "MAP:3034C1",
+        "ID:FD1116685",
+        "UNIT:L79 E");
   }
   
   public static void main(String[] args) {
-    new PABucksCountyParserTest().generateTests("T32");
+    new PABucksCountyParserTest().generateTests("T33");
   }
 }
