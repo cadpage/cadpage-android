@@ -24,6 +24,10 @@ Contact: Duane Good <duaneg123@gmail.com>
 Sender: alrt_1ODM@berks.alertpa.org
 CAD MSG: *D ALSMED   106 MAIN ST 0063 56 YOF THROAT FEELS LIKE IS SWELLING CLOSED /BREAKING OUT IN RASH/RESP
 
+Contact: jarrod emes <jkemes@gmail.com>
+Sender: _1ZLG@berks.alertpa.org
+CAD MSG: *D MVAWITH  I78 / MP 39.6 EB 0078 MC DRIVER DOWN IN THE ROADWAY / NOT MOVING / 2 TT PULLED OFF TO THE SI
+
 */
 
 public class PABerksCountyParser extends SmsMsgParser {
