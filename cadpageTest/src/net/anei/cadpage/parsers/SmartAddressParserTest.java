@@ -46,6 +46,9 @@ public class SmartAddressParserTest extends BaseParserTest {
 //        "PLACE:7 NON-AMBULATORY PTS ON 2ND FLOOR ",
 //        "ADDR:15 BROOKSIDE AVE");
     
+    doTest(SKIP, "707-1/2 5TH AV SE UNCONSCIOUS",
+           "ADDR:707-1/2 5TH AV SE");
+    
     doTest(CALL, "LOCATION CLOVER CREEK RD/DEAD INDIAN MEMORIAL RD",
         "CALL:LOCATION",
         "ADDR:CLOVER CREEK RD & DEAD INDIAN MEMORIAL RD");

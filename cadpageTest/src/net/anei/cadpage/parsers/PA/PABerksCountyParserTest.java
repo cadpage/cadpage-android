@@ -71,6 +71,13 @@ public class PABerksCountyParserTest extends BaseParserTest {
         "ADDR:106 MAIN ST",
         "CITY:STRAUSSTOWN",
         "INFO:56 YOF THROAT FEELS LIKE IS SWELLING CLOSED /BREAKING OUT IN RASH/RESP");
+
+    doTest("T9",
+        "CAD MSG: *D MVAWITH  I78 / MP 39.6 EB 0078 MC DRIVER DOWN IN THE ROADWAY / NOT MOVING / 2 TT PULLED OFF TO THE SI",
+        "CALL:*D MVAWITH",
+        "ADDR:I78 & MP 39.6 EB",
+        "CITY:GREENWICH TOWNSHIP",
+        "INFO:MC DRIVER DOWN IN THE ROADWAY / NOT MOVING / 2 TT PULLED OFF TO THE SI");
  }
   
   public static void main(String[] args) {

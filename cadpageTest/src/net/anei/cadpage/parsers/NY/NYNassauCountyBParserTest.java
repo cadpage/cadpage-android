@@ -141,9 +141,16 @@ public class NYNassauCountyBParserTest extends BaseParserTest {
         "CALL:AMBU-AMBU",
         "INFO:ELD FEMALE VOMITING");
 
+    doTest("T9",
+        "  / FireCom:\2s314 BAYVIEW AVE C/S: MONROE ST / JEANETTE AVE (AMBU-AMBU) SEIZURE D: 10/05 13:28\n",
+        "ADDR:BAYVIEW AVE",
+        "X:MONROE ST / JEANETTE AVE",
+        "CALL:AMBU-AMBU",
+        "INFO:SEIZURE");
+
   }
   
   public static void main(String[] args) {
-    new NYNassauCountyBParserTest().generateTests("T8", "ADDR X PRI CALL INFO ID");
+    new NYNassauCountyBParserTest().generateTests("T9", "ADDR X PRI CALL INFO ID");
   }
 }
