@@ -37,6 +37,7 @@ MSG:FireCom: 29 JEFFERSON ST C/S: SYLVIA LA / GERARD AVE -    3 (RESCUE-AMBU) SI
 Contact: Edgar Caal <nosel50@gmail.com>
 Sender: inwoodfd@rednmxcad.com
   / FireCom:  53 JAMES ST C/S: JEFFERSON ST / MOTT AVE (AMBU-AMBU) ELD FEMALE VOMITING D: 10/04 00:00\n
+  / FireCom:\2s314 BAYVIEW AVE C/S: MONROE ST / JEANETTE AVE (AMBU-AMBU) SEIZURE D: 10/05 13:28\n
 
 */
 

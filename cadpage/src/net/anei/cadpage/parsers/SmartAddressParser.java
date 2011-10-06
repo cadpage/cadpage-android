@@ -151,7 +151,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
   // route prefix extender
   private static final int ID_ROUTE_PFX = ID_ROUTE_PFX_PFX | ID_ROUTE_PFX_EXT;
   
-  private static final Pattern PAT_HOUSE_NUMBER = Pattern.compile("\\d+(?:-\\d+)?(?:-?[A-Z])?");
+  private static final Pattern PAT_HOUSE_NUMBER = Pattern.compile("\\d+(?:-[0-9/]+)?(?:-?[A-Z])?");
   
   // List of multiple word cities that need to be converted to and from single tokens
   List<String[]> mWordCities = null;
@@ -413,10 +413,14 @@ public abstract class SmartAddressParser extends SmsMsgParser {
       // Before we do that we have to protect the C/S cross street indicator
       // Another disaster that needs to be prevented is breaking up AT&T into
       // AT and an &
+      // Ditto for 1/2
       boolean att = address.contains("AT&T");
       if (att) address = address.replaceAll("AT&T", "AT%T");
+      boolean half = address.contains("1/2");
+      if (half) address = address.replaceAll("1/2", "1%2");
       address = address.replaceAll(" C/S:? ", " XS: ").replace("/", " / ").replace("&", " & ").trim();
       if (att) address = address.replaceAll("AT%T", "AT&T");
+      if (half) address = address.replaceAll("1%2", "1/2");
       
       // Make sure any colon keyword parsers by itself
       address = address.replaceAll(":", ": ");
