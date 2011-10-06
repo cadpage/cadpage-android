@@ -111,6 +111,14 @@ public class PABlairCountyParserTest extends BaseParserTest {
         "UNIT:9011 31A 31A",
         "ID:311100256");
 
+    doTest("T4",
+        "(Inc: Vehicle Fire) Inc: Vehicle Fire \nAdd: 110 SUNSET HILLS EXT \nCity: SNYDER TW \nUnits: 31A\n31A\nLat/Lon: @40.67871 @78.25442\n10/1/2011 9:35:19 PM \nDR #: 31",
+        "CALL:Vehicle Fire",
+        "ADDR:110 SUNSET HILLS EXT",
+        "CITY:SNYDER TWP",
+        "UNIT:31A 31A",
+        "ID:31");
+
   }
   
   public static void main(String[] args) {
