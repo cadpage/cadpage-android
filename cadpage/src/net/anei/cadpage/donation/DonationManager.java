@@ -64,6 +64,8 @@ public class DonationManager {
     if (paidYear > 0) {
       Date tDate = ManagePreferences.purchaseDate();
       if (tDate == null) tDate = ManagePreferences.installDate();
+      Date minPurchaseDate = ManagePreferences.minPurchaseDate();
+      if (minPurchaseDate != null && minPurchaseDate.after(tDate)) tDate = minPurchaseDate;
       Calendar cal = new GregorianCalendar();
       cal.setTime(tDate);
       cal.set(Calendar.YEAR, paidYear+1);

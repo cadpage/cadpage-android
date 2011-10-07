@@ -434,6 +434,14 @@ public class ManagePreferences {
     }
   }
   
+  public static Date minPurchaseDate() {
+    try {
+      return new SimpleDateFormat("MMddyyyy").parse(prefs.context.getString(R.string.min_purchase_date));
+    } catch (ParseException ex) {
+      return null;
+    }
+  }
+  
   public static int paidYear() {
     return prefs.getInt(R.string.pref_paid_year_key, 0);
   }

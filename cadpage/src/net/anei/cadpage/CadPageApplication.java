@@ -34,6 +34,10 @@ public class CadPageApplication extends Application {
     } catch (Exception ex) {
       TopExceptionHandler.initializationFailure(this, ex);
     }
+    
+    // Reinitialize any Widget triggers.  This shouldn't be necessary, but it
+    // seems to help avoid sporadic problems with unresponsive Widgets.
+    CadPageWidget.reinit(this);
   
     TopExceptionHandler.enable(this);
     Log.v("Initialization complete");
