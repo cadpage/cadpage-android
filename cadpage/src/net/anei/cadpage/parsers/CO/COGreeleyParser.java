@@ -29,8 +29,6 @@ public class COGreeleyParser extends SmsMsgParser {
 
   @Override
   protected boolean parseMsg(String body, Data data) {
-    
-    if (body.startsWith("/ ")) body = body.substring(2).trim();
 
     String[] flds = body.split(",",-1);
     if (flds.length < 4) return false;
