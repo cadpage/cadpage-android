@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">10012011</string>
-  <string name="release_version">v1.4.27</string>
+  <string name="release_date">10072011</string>
+  <string name="release_version">v1.4.29</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="min_install_date">10012011</string>
@@ -18,18 +18,24 @@ the 30 day limit.  But by the time it expires, there will probably be a version
 of Cadpage that does enforce that limit.\n
 \n
 New Locations:\n
-Hoke County, NC\n
+Morgan County, AL\n
+Monroe County, NY\n
+Montgomery County, NY\n
+Klamath County, OR\n
 \n
 Location Parsing Fixes:\n
-St Mary"'"s County, MD
-Saginaw County, MI
-Alexander County, NC
-Moore County, NC
-Union County, NC
-Suffolk County, NY
-Marion County, OR
-Lackawanna County, PA
-
+Sonoma County, CA\n
+Frederick County, MD\n
+Sussex County, NY\n
+Monroe County, NY\n
+Nassau County, NY\n
+Blair County, PA\n
+Washington County, TN\n
+Pennington County, SD\n
+Humble, TX\n
+\n
+General Fixes\n
+Crash if Google account is changed before Cadpage preference menu has been displayed\n
   </string>  
 </resources>
   
