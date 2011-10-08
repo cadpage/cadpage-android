@@ -952,11 +952,6 @@ Saint Marys County, MD (MDSaintMarysCountyParser)
 14:41:22*Personal Injury Accident*21050 WILLOWS RD INTERSECTN*ABBERLY CREST LN*LEXINGTON PARK*CO3 CO39 CO6R*
 15:24:31*Working House Fire*20242 POINT LOOKOUT RD*OLD GREAT MILLS RD*INDIAN BRIDGE RD*GREAT MILLS*CO3 CO9 CO6 CO1 CO5 CO39 CO6R*
 ***************************************************************************
-Talbot County, MD (MDTalbotCountyParser)
-Talbot 911:*D 61 B-ABDOMINAL PAIN 319 LINDEN AVE T60
-Talbot 911:*D 70 A-CHEST PAIN 5656 BLACK WALNUT POINT RD BREATHING NORMAL <35 T70
-Talbot 911:*D 66 MVA/PI OCEAN GTWY / GOLDSBOROUGH ST T60
-***************************************************************************
 Washington County, MD (MDWashingtonCountyParser)
 MAPLEVILLE RD / CHEWSVILLE RD - PIC, PERS INJURY COLLISION - CO16,RSQE7,R79,SO20 - 1106957 15:38
 73 S MAIN ST - FALLS,BACK INJURIES - R79 - 1106940 12:07 2nd ALERT!
@@ -966,6 +961,11 @@ Worcester County, MD (MDWorcesterCountyBParser)
 (Chief ALT) [800 Fire] -- Traffic Transportation Acc --  -- Worcester Hwy & peerless Rd Showell MD, 21862
 (Chief ALT) [800 Fire] -- Traffic Transportation Acc -- On Rt 90 West Of Rt 113 -- Ocean Expy & worcester Hwy Berlin MD, 21811
 (Chief ALT) [800 Fire] -- Structure Fire Extinguished -- White Horse Trailer Park -- 11647-1 Beauchamp Rd Berlin MD, 21811
+***************************************************************************
+Talbot County, MD (MDTalbotCountyParser)
+Talbot 911:*D 61 B-ABDOMINAL PAIN 319 LINDEN AVE T60
+Talbot 911:*D 70 A-CHEST PAIN 5656 BLACK WALNUT POINT RD BREATHING NORMAL <35 T70
+Talbot 911:*D 66 MVA/PI OCEAN GTWY / GOLDSBOROUGH ST T60
 ***************************************************************************
 Richmond, MI (MIRichmondParser)
 ** FIRE ** 1707 WITHEY   VEHICLE FIRE  COLUMBUS
@@ -2493,6 +2493,21 @@ System: PRC CAD
 Sender: paging@minquas.org
 Very messy text format, haven't figured out exact what is what.
 More info requested 12/14
+CHIMNEY FIRE * ** 451 DONOFRIO DR ,11 ** - ** SPARKS FROM CHIMNEY
+DETAILS TO FOLLOW
+ ** DNGTWN ** JOHNSONTOWN **
+ 
+  EMOTIONAL DISORDER - BLS * ** 282 W CHURCH ST ,11 ** - ** PER PD O/S --
+SCENE IS SECURE
+ ** DNGTWN **
+ 
+  OVERDOSE - BLS * ** 10 W LANCASTER AV ,11 ** -11PD ** ALCOHOL OD
+ ** DNGTWN **  ** E LANCASTER AV & MANOR AV *
+ 
+
+Contact:Marc Ferry <marcrferry@gmail.com> 
+Body: 1 of 2\n FRM:paging@minquas.org\n SUBJ:21 WILLIAMS WY ,39\n MSG:EMOTIONAL DISORDER - BLS * ** 21 WILLIAMS WY ,39 ** - **  ** CALN ** HUMPTON FARMS **\n(Con't) 2 of 2\nLYNN BL & HUMPTON RD ** (End)
+Body: 1 of 2\nFRM:paging@minquas.org\nSUBJ:21 WILLIAMS WY ,39\nMSG:EMOTIONAL DISORDER - BLS * ** 21 WILLIAMS WY ,39 ** - **  ** CALN ** HUMPTON FARMS **\n(Con't) 2 of 2\nLYNN BL & HUMPTON RD ** (End)
 
 Contact: Sergio Ora <skip513@gmail.com>
 Sender: 47dispatch@gmail.com
@@ -3165,15 +3180,6 @@ F83 ALERT: PUMPDETL 1 FOOT 70 GRANT ST WASHINGTON BORO (SENT 09/28 11:55)
 F83 ALERT: MUTUAL/F FAST 83 40 MAIN ST / HAMPTON OUT OF COUNTY (SENT 09/28 05:46)
 F83 ALERT: MV ACCID UNK INJ LUKOIL / 143 E WASHINGTON AVE WASHINGTON BORO (SENT 09/24 22:30)
 **********************************************************
-Pittsylvania, VA (replacement or alternate)
-Contact: David Morgan <djmorgan911@gmail.com>
-Sender: CAD@pittgov.org
-1357:CHEST PAINS;1855 RAINBOW CIR;DAN;2011044707;BUCKHORN DR;POWHATAN DR;[Medical Priority Info] PROBLEM: CHEST PAINS AND SWEATING, NAUSEUA # PATS: 1 AGE: 39 Years
-1359:EMS CALL FOR PROQA;216 CEDAR RIDGE RD;DRY;2011044817;FRANKLIN TPKE;[Medical Priority Info] PROBLEM: 2 YO FELL, BLOOD COMING FROM EYE # PATS: 1 AGE: 2 Years SEX
-1358:HEMORRHAGING;438 BONNY AVE;CAS;2011044807;PEACEFUL LN;SERENE CT;[Medical Priority Info] PROBLEM: BLEEDING FRON URINE AND BOWEL MOMENT # PATS: 1 AGE: 47 Years S
-
-Still working for other users?
-**********************************************************
 Lancaster, PA (alternate)
 Contact: Justin Fisher <justin62911@gmail.com>
 Sender: messaging@iamresponding.com
@@ -3257,6 +3263,13 @@ ARDASHIR LN / WALHALLA GARDENS CIR WALHALLA    2011-00000777  09/16/11
 **********************************************************
 **********************************************************
 **********************************************************
+Worcester County, MD (alternate)
+Contact: Joey Widgeon <jwidgeon2009@gmail.com>
+(Chief ALT) [800 Fire] -- Traffic Transportation Acc --  -- Worcester Hwy & peerless Rd Showell MD, 21862
+(Chief ALT) [800 Fire] -- Traffic Transportation Acc -- On Rt 90 West Of Rt 113 -- Ocean Expy & worcester Hwy Berlin MD, 21811
+(Chief ALT) [800 Fire] -- Structure Fire Extinguished -- White Horse Trailer Park -- 11647-1 Beauchamp Rd Berlin MD, 21811
+(Chief ALT) [800 Fire] -- Traffic Transportation Acc -- (s)newport (n) -- Ocean Pkwy & newport Dr Berlin MD, 21811
+(Chief ALT) [800 Fire] -- Fire Alarm -- (s)teal Bay (n) -- 8 Waters Edge Ct Berlin MD, 21811
 **********************************************************
 Roxbury, CT
 Contact: Mike Josefson <mikejosefson@gmail.com>
@@ -3348,6 +3361,7 @@ Contact: David Morgan <djmorgan911@gmail.com>
 Sender: CAD@pittgov.org
 1357:CHEST PAINS;1855 RAINBOW CIR;DAN;2011044707;BUCKHORN DR;POWHATAN DR;[Medical Priority Info] PROBLEM: CHEST PAINS AND SWEATING, NAUSEUA # PATS: 1 AGE: 39 Years
 1363:EMS CALL FOR PROQA;12321 FRANKLIN TPKE;CHA;2011045077;F C BEVERLY RD;STRAWBERRY RD;[Medical Priority Info] PROBLEM: DIZZY SPELLS # PATS: 1 AGE: 85 Years SEX: F
+1358:HEMORRHAGING;438 BONNY AVE;CAS;2011044807;PEACEFUL LN;SERENE CT;[Medical Priority Info] PROBLEM: BLEEDING FRON URINE AND BOWEL MOMENT # PATS: 1 AGE: 47 Years S
 1360:RESPIRATORY DISTRESS;113 HUNTERS RDG;DAN;2011044913;HUNTERS TRL;HUNTERS CHASE;[Medical Priority Info] PROBLEM: HUSBAND TROUBLE BREATHING&CHEST PAINS # PATS: 1
 1366:EMS CALL FOR PROQA;127 MEDICAL CENTER RD;DAN;2011045246;MOUNT CROSS RD;HINESVILLE RD
 1365:ENTRAPMENT;127 MEDICAL CENTER RD;DAN;2011045245;MOUNT CROSS RD;HINESVILLE RD
@@ -3405,27 +3419,3 @@ Sick Person
 Dispatched
 Traumatic Injuries
 1910 FAIRGROUND RD , BROOKFIELD ( / ELM)
-**********************************************************
-Chester County, PA (alternate)
-Contact:Marc Ferry <marcrferry@gmail.com> 
-Body: 1 of 2\n FRM:paging@minquas.org\n SUBJ:21 WILLIAMS WY ,39\n MSG:EMOTIONAL DISORDER - BLS * ** 21 WILLIAMS WY ,39 ** - **  ** CALN ** HUMPTON FARMS **\n(Con't) 2 of 2\nLYNN BL & HUMPTON RD ** (End)
-Body: 1 of 2\nFRM:paging@minquas.org\nSUBJ:21 WILLIAMS WY ,39\nMSG:EMOTIONAL DISORDER - BLS * ** 21 WILLIAMS WY ,39 ** - **  ** CALN ** HUMPTON FARMS **\n(Con't) 2 of 2\nLYNN BL & HUMPTON RD ** (End)
-
-Contact: Glenn Heininger <glenn.heininger@gmail.com>
-Sender: paging@minquas.org
-(1096 E LANCASTER AV ,40) SEIZURES - ALS * ** 1096 E LANCASTER AV ,40 ** IFO OLD CALBOTS IN PLOT-TALBOT **  ** ECALN **  ** COUNTRY CLUB DR & BELL TA **
-Body:(275 MEADOWLAKE DR ,39) FALLS - BLS / LIFT ASSIST * ** 275 MEADOWLAKE DR ,39 ** BLDG I -- 2ND FLOOR -- UNK APT ** 45/F DISABLED, FELL EARLIER, COULD NOT GET TO
-Body:(GLENSIDE RD/MARSHALLTON ) ACCIDENT - UNKNOWN INJURIES * ** GLENSIDE RD/MARSHALLTON THORNDALE RD ,50 ** - ** 3 VEHS - UNK INJS\n
-DETAILS TO FOLLOW\n
-**\2s**\2s**\2s**
-
-CHIMNEY FIRE * ** 451 DONOFRIO DR ,11 ** - ** SPARKS FROM CHIMNEY
-DETAILS TO FOLLOW
- ** DNGTWN ** JOHNSONTOWN **
- 
-  EMOTIONAL DISORDER - BLS * ** 282 W CHURCH ST ,11 ** - ** PER PD O/S --
-SCENE IS SECURE
- ** DNGTWN **
- 
-  OVERDOSE - BLS * ** 10 W LANCASTER AV ,11 ** -11PD ** ALCOHOL OD
- ** DNGTWN **  ** E LANCASTER AV & MANOR AV *
