@@ -142,8 +142,8 @@ public class NYNassauCountyBParserTest extends BaseParserTest {
         "INFO:ELD FEMALE VOMITING");
 
     doTest("T9",
-        "  / FireCom:\2s314 BAYVIEW AVE C/S: MONROE ST / JEANETTE AVE (AMBU-AMBU) SEIZURE D: 10/05 13:28\n",
-        "ADDR:BAYVIEW AVE",
+        "  / FireCom:  314 BAYVIEW AVE C/S: MONROE ST / JEANETTE AVE (AMBU-AMBU) SEIZURE D: 10/05 13:28\n",
+        "ADDR:314 BAYVIEW AVE",
         "X:MONROE ST / JEANETTE AVE",
         "CALL:AMBU-AMBU",
         "INFO:SEIZURE");

@@ -63,10 +63,21 @@ public class GACamdenCountyParserTest extends BaseParserTest {
         "PHONE:912-269-6157",
         "UNIT:LS3,R3",
         "INFO:Medical: No / Hazards: No");
-   
+
+    doTest("T6",
+        "astudstill@co.camden.ga.us:2011-181161* ADVANCE COLLISION CENTER* * * KINGSLAND* * WIRE DOWN* WIRE DOWN* JOHN* 316-258-1559* ENG4,LS4* * Medical: No* Haz",
+        "ID:2011-181161",
+        "ADDR:ADVANCE COLLISION CENTER",
+        "CITY:KINGSLAND",
+        "CALL:WIRE DOWN",
+        "NAME:JOHN",
+        "PHONE:316-258-1559",
+        "UNIT:ENG4,LS4",
+        "INFO:Medical: No / Haz");
+  
   }
   
   public static void main(String[] args) {
-    new GACamdenCountyParserTest().generateTests("T5");
+    new GACamdenCountyParserTest().generateTests("T6");
   }
 }
