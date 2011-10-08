@@ -91,6 +91,22 @@ public class CTTollandCountyParserTest extends BaseParserTest {
         "CALL:BLS SICK- ELDERLY FEMALE",
         "X:COURT ST / VERNON AVE",
         "ID:2011-00002812");
+
+    doTest("T11",
+        "(TN Alert) 29 BRACE RD / Somers ALS ARM INJURY, BLEEDING 22:42 Cross Street GEORGE WOOD RD / HALL HILL RD 2011-00000821",
+        "ADDR:29 BRACE RD",
+        "CITY:Somers",
+        "CALL:ALS ARM INJURY, BLEEDING",
+        "X:GEORGE WOOD RD / HALL HILL RD",
+        "ID:2011-00000821");
+
+    doTest("T12",
+        "(TN Alert) 69 COLTON RD / Somers ALS ? CVA 18:34 Cross Street PARSONS ST / SOKOL RD 2011-00000820",
+        "ADDR:69 COLTON RD",
+        "CITY:Somers",
+        "CALL:ALS ? CVA",
+        "X:PARSONS ST / SOKOL RD",
+        "ID:2011-00000820");
   }
   
   public static void main(String[] args) {
