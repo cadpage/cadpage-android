@@ -537,6 +537,7 @@
     <item>VAWinchester</item>
     <item>WIBrownCounty</item>
     <item>WICalumetCounty</item>
+    <item>WIEauClaire</item>
     <item>WIKenoshaCounty</item>
   </string-array>
   
@@ -840,6 +841,7 @@
     <item>Winchester, VA</item>
     <item>Brown County, WI</item>
     <item>Calumet County, WI</item>
+    <item>Eau Claire, WI</item>
     <item>Kenosha County, WI</item>
   </string-array>
 
