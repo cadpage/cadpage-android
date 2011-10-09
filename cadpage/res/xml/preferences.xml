@@ -465,13 +465,5 @@
       android:key="@string/pref_email_key"
       android:title="@string/pref_email_title" 
       android:summary="@string/pref_email_summary" />
-    <PreferenceScreen 
-      android:key="@string/pref_donate_key" 
-      android:title="@string/pref_donate_title" android:enabled="true">
-    </PreferenceScreen>
-    <Preference 
-      android:key="@string/pref_wakeup_widget_key"
-      android:title="@string/pref_wakeup_widget_title" 
-      android:summary="@string/pref_wakeup_widget_summary" />
   </PreferenceCategory>
 </PreferenceScreen>

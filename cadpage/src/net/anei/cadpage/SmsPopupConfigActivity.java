@@ -16,7 +16,6 @@ import android.os.Bundle;
 import android.preference.CheckBoxPreference;
 import android.preference.Preference;
 import android.preference.PreferenceActivity;
-import android.preference.PreferenceCategory;
 import android.preference.PreferenceManager;
 import android.preference.PreferenceScreen;
 import android.preference.Preference.OnPreferenceChangeListener;
@@ -28,7 +27,6 @@ import android.view.View;
 public class SmsPopupConfigActivity extends PreferenceActivity {
   
   private static final int DIALOG_DONATE = Menu.FIRST;
-  private Preference donateDialogPref = null;
   
   private String parserFilter = "";
   private String parserDefCity = "";
@@ -201,26 +199,6 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
         EmailDeveloperActivity.sendGeneralEmail(SmsPopupConfigActivity.this);
         return true;
       }});
-    
-    // Donate dialog preference
-    donateDialogPref = findPreference(getString(R.string.pref_donate_key));
-    if (donateDialogPref != null) {
-      donateDialogPref.setOnPreferenceClickListener(new OnPreferenceClickListener() {
-        public boolean onPreferenceClick(Preference preference) {
-          SmsPopupConfigActivity.this.showDialog(DIALOG_DONATE);
-          return true;
-        }
-      });
-    }
-    
-    // Wakeup widget preference
-    Preference widgetPref = findPreference(getString(R.string.pref_wakeup_widget_key));
-    widgetPref.setOnPreferenceClickListener(new OnPreferenceClickListener(){
-      @Override
-      public boolean onPreferenceClick(Preference preference) {
-        CadPageWidget.reinit(SmsPopupConfigActivity.this);
-        return true;
-      }});
     // Add developer dialog preference if appropriate
     DeveloperToolsManager.instance().addPreference(this, getPreferenceScreen());
   }
@@ -291,18 +269,6 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
     super.onResume();
 
     SharedPreferences myPrefs = PreferenceManager.getDefaultSharedPreferences(this);
-
-    // Donate Dialog
-    if (donateDialogPref != null) {
-      boolean donated = myPrefs.getBoolean(this.getString(R.string.pref_donated_key), false);
-      // boolean donated = true;
-      if (donated) {
-        PreferenceCategory otherPrefCategory =
-          (PreferenceCategory) findPreference(getString(R.string.pref_other_key));
-        otherPrefCategory.removePreference(donateDialogPref);
-        donateDialogPref = null;
-      }
-    }
 
     /*
      * This is quite hacky - in case the app was enabled or disabled externally (by

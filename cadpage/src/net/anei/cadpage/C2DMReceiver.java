@@ -35,7 +35,7 @@ public class C2DMReceiver extends BroadcastReceiver {
   private static final String ACTION_C2DM_UNREGISTER = "com.google.android.c2dm.intent.UNREGISTER";
   private static final String ACTION_C2DM_REGISTERED = "com.google.android.c2dm.intent.REGISTRATION";
   private static final String ACTION_C2DM_RECEIVE = "com.google.android.c2dm.intent.RECEIVE";
-  private static final String C2DM_SENDER_EMAIL = "alert@cadpage.org";
+  private static final String C2DM_SENDER_EMAIL = "alerts@cadpage.org";
 
   @Override
   public void onReceive(Context context, Intent intent) {
