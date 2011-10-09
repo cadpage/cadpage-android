@@ -342,6 +342,6 @@ public class CASonomaCountyParserTest extends BaseParserTest {
   }
   
   public static void main(String[] args) {
-    new CASonomaCountyParserTest().generateTests("T13");
+    new CASonomaCountyParserTest().generateTests("T1");
   }
 }
