@@ -29,6 +29,7 @@ prvs=187913dbd=JCFDTEXT@johnsoncitytn.org Heart Problems/AICD-DELTA M6,E9,R3\n40
 prvs=187913dbd=JCFDTEXT@johnsoncitytn.org Convulsions/Seizures-DELTA\nM2,R2,E4\n301 ROYAL CR #79\nCLARK MANOR APARTMENTS\nMap 54A 17:30:11 11113287\nThink green: Only print this e-mail
 prvs=187913dbd=JCFDTEXT@johnsoncitytn.org Convulsions/Seizures-CHARLIE\nM1,E2,R1\nS ROAN ST/UNIVERSITY PKWY\nMap 54B 15:06:18 11113223
 prvs=187913dbd=JCFDTEXT@johnsoncitytn.org Motor Vehicle Crash - Injury\nE2,E3,MP29\nI26W/OKOLONA EXIT\nMap 63C 14:16:38 115276
+prvs=256783305=JCFDTEXT@johnsoncitytn.org Sick Person-ALPHA E4\n840 W MARKET ST\nCVS PHARMACY\nX-STR= CLARK ST\nKNOB CREEK RD\nMap 54A 20:51:54 11149314\nThink green: Only print this e-
 
 Contact: Jason Powell <firedupleadership@gmail.com>
 Sender: CAD@wc911.org
@@ -42,13 +43,9 @@ Chest Pain(Non-Traumatic)-DELTA M1,R1,E3\n805 KENTUCKY ST\nX-STR= COLORADO ST\nO
 
 public class TNWashingtonCountyParser extends FieldProgramParser {
   
-  private static final Pattern UNIT_PTN = Pattern.compile("\\b[A-Z]{1,2}\\d{1,2}(?:,[A-Z]{1,2}\\d{1,2})*$");
-  private static final Pattern PRI_PTN = Pattern.compile("-(?:ALPHA|BRAVO|CHARLIE|DELTA)$");
-  private static final Pattern MAP_TRAIL_PTN = Pattern.compile(" \\d\\d:\\d\\d:\\d\\d (\\d{6,8})$");
-  
   public TNWashingtonCountyParser() {
     super("WASHINGTON COUNTY", "TN",
-           "CPU UNIT2? ADDR ( XSTR X/Z? MAP! | PLACE? MAP! )");
+           "CPU UNIT2? ADDR PLACE? ( X X2? | ) MAP!");
   }
   
   @Override
@@ -62,6 +59,8 @@ public class TNWashingtonCountyParser extends FieldProgramParser {
   }
   
   // CPU - Combined Call / Priority / Unit field
+  private static final Pattern UNIT_PTN = Pattern.compile("\\b[A-Z]{1,2}\\d{1,2}(?:,[A-Z]{1,2}\\d{1,2})*$");
+  private static final Pattern PRI_PTN = Pattern.compile("-(?:ALPHA|BRAVO|CHARLIE|DELTA)$");
   private class CallPriUnitField extends Field {
     
     @Override
@@ -108,6 +107,21 @@ public class TNWashingtonCountyParser extends FieldProgramParser {
     }
   }
   
+  private class MyPlaceField extends PlaceField {
+    
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      if (field.startsWith("X-STR=") || field.startsWith("Map ")) return false;
+      super.parse(field, data);
+      return true;
+    }
+  }
+  
   private class MyCrossField extends CrossField {
     
     @Override
@@ -119,27 +133,24 @@ public class TNWashingtonCountyParser extends FieldProgramParser {
     }
   }
   
-  // MAP field has to start with map, and drop trailing
-  private class MyMapField extends MapField {
-    
-    @Override
-    public boolean canFail() {
-      return true;
-    }
-    
+  private class MyCross2Field extends CrossField {
     @Override
     public boolean checkParse(String field, Data data) {
-      if (!field.startsWith("Map ")) return false;
+      if (field.startsWith("Map ")) return false;
       parse(field, data);
       return true;
     }
-
+  }
+  
+  // MAP field has to start with map, and drop trailing
+  private static final Pattern MAP_PTN = Pattern.compile("Map (.+) \\d\\d:\\d\\d:\\d\\d (\\d{6,8})$");
+  private class MyMapField extends MapField {
     @Override
     public void parse(String field, Data data) {
-      Matcher match = MAP_TRAIL_PTN.matcher(field);
+      Matcher match = MAP_PTN.matcher(field);
       if (!match.find()) abort();
-      data.strMap = field.substring(3,match.start()).trim();
-      data.strCallId = match.group(1);
+      data.strMap = match.group(1).trim();
+      data.strCallId = match.group(2);
     }
   }
   
@@ -147,7 +158,9 @@ public class TNWashingtonCountyParser extends FieldProgramParser {
   public Field getField(String name) {
     if (name.equals("CPU")) return new CallPriUnitField();
     if (name.equals("UNIT2")) return new Unit2Field();
-    if (name.equals("XSTR")) return new MyCrossField();
+    if (name.equals("PLACE")) return new MyPlaceField();
+    if (name.equals("X")) return new MyCrossField();
+    if (name.equals("X2")) return new MyCross2Field();
     if (name.equals("MAP")) return new MyMapField();
     return super.getField(name);
   }
