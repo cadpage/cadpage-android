@@ -19,7 +19,7 @@ import android.widget.TextView;
  */
 public class EmailDeveloperActivity extends Activity {
   
-  public static enum EmailType { GENERAL, MESSAGE, CRASH, INIT_FAILURE, WRONG_USER, MARKET_PROBLEM };
+  public static enum EmailType { GENERAL, MESSAGE, CRASH, INIT_FAILURE, WRONG_USER, MARKET_PROBLEM, SOB_STORY };
   
   private final static String EXTRA_PREFIX="net.anei.cadpage.EmailDeveloperActivity.";
   private final static String EXTRA_TYPE = EXTRA_PREFIX + "EMAIL_TYPE";
@@ -242,6 +242,17 @@ public class EmailDeveloperActivity extends Activity {
     // This one sends a request directly to the email client, without
     // bring up a request screen first.
     sendEmailRequest(context, EmailType.MARKET_PROBLEM, false, 0, true);
+  }
+  
+  /**
+   * Send Email about user requesting break on payments
+   * @param context current context
+   */
+  public static void sendSobStoryEmail(Context context) {
+    
+    // This one sends a request directly to the email client, without
+    // bring up a request screen first.
+    sendEmailRequest(context, EmailType.SOB_STORY, false, 0, true);
   }
 
   /**

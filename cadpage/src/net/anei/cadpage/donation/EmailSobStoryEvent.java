@@ -7,21 +7,21 @@ import net.anei.cadpage.R;
 /**
  * Generate an email to the developers
  */
-public class EmailMarketProblemEvent extends DonateEvent {
+public class EmailSobStoryEvent extends DonateEvent {
   
-  public EmailMarketProblemEvent() {
+  public EmailSobStoryEvent() {
     super(null, R.string.donate_email_title);
   }
 
   @Override
   protected void doEvent(Activity activity) {
-    EmailDeveloperActivity.sendMarketProblemEmail(activity);
+    EmailDeveloperActivity.sendSobStoryEmail(activity);
     closeEvents(activity);
   }
   
-  private static final EmailMarketProblemEvent instance = new EmailMarketProblemEvent();
+  private static final EmailSobStoryEvent instance = new EmailSobStoryEvent();
   
-  public static EmailMarketProblemEvent instance() {
+  public static EmailSobStoryEvent instance() {
     return instance;
   }
 }

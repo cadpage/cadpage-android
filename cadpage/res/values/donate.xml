@@ -89,11 +89,23 @@
   <string name="donate_magic_word_text">Enter authorization code for\nCypress Creek VFD</string>
   <string name="donate_magic_word_reject">Sorry, that is not a recognized authorization code</string>
   
-  <string name="donate_android_problem_title">I can"'"t make Android Market donations</string>
+  <string name="donate_android_problem_title">I can\'t make Android Market donations</string>
   <string name="donate_android_problem_text">
-    Bummer, let"'"s see what we can do about that.
+    Bummer, let\'s see what we can do about that.
   </string>
   
   <string name="donate_reset_market_title">Reload market payment database</string>
+  
+  <string name="donate_sob_story_title">"I can't afford $10"</string>
+  <string name="donate_sob_story_text">
+    So, you are paying monthly charges for a smart phone, probably have a text
+    package and data package on top of that, which runs to how much a month?  
+    "And you can't afford $10/year to pay hard working developers to keep Cadpage"
+    up and running?\n
+    \n
+    "OK, we're suckers for a good story, and we don't wan\\'t to leave anyone"
+    "out.  Email us a good story about why you can't afford $10 and we will"
+    probably give you a free subscription.  
+  </string>
   
 </resources>
