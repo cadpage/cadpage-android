@@ -28,6 +28,10 @@ CAD:B&E to occupied residence occurred at 612 Fairfax Ave. 2 suspects busted in 
 CAD:ROLLING DOMESTIC - 701 HNES STREET - MALE PARTY STABBED - BOTH SUBJECTS 10-72 - MALE PARTY HAS NON-LIFE THREATNING INJURIES - AUTH 301 -- WILSON 911 TC LYLE
 CAD:11000968;67D02R;OUTSIDE FIRE - WOODS/LRG BRUSH;4164 NC 42 E;4C;KENT RD;VARNELL RD;[Fire Priority Info] Key Questions Complete RESPONSE: Delta RESPONDER SCRI
 
+Contact: bullboy65 <bullboy65@yahoo.com>
+Sender: CAD@Wilson-co.com
+S: M:CAD:11001633;FIRE ALARM 1;7005 SPRINGFIELD SCHOOL RD;6A;WILLING WORKER RD;PEELE RD\n
+
 */
 
 public class NCWilsonCountyParser extends DispatchOSSIParser {
@@ -39,7 +43,7 @@ public class NCWilsonCountyParser extends DispatchOSSIParser {
 
   @Override
   public String getFilter() {
-    return "930010";
+    return "CAD@Wilson-co.com,930010";
   }
   
   // ID field has to validate it's existence
