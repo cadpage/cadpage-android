@@ -83,6 +83,14 @@ public class NCWilsonCountyParserTest extends BaseParserTest {
         "ADDR:4164 NC 42 E",
         "SRC:4C",
         "X:KENT RD & VARNELL RD");
+
+    doTest("T8",
+        "S: M:CAD:11001633;FIRE ALARM 1;7005 SPRINGFIELD SCHOOL RD;6A;WILLING WORKER RD;PEELE RD\n",
+        "ID:11001633",
+        "CALL:FIRE ALARM 1",
+        "ADDR:7005 SPRINGFIELD SCHOOL RD",
+        "SRC:6A",
+        "X:WILLING WORKER RD & PEELE RD");
  }
   
 
