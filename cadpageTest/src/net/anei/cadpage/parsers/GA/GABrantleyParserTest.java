@@ -61,6 +61,14 @@ public class GABrantleyParserTest extends BaseParserTest {
         "CALL:1070",
         "ADDR:132 SADDLE CLUB RD",
         "INFO:FIELD ON FIRE");
+
+    doTest("T7",
+        "Subject:Disp EMS1 Case # 2011-10-633 Call # 3967\n10/10/2011 07:44:22 /1050 /449 /EAGLES NEST RD /EAST BOUND / 1 MILE WEST OF BCHS - IN",
+        "SRC:EMS1",
+        "ID:3967",
+        "CALL:1050",
+        "ADDR:449 EAGLES NEST RD",
+        "INFO:EAST BOUND / 1 MILE WEST OF BCHS - IN");
     
   }
   
