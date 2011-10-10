@@ -130,6 +130,18 @@ public class NJGloucesterCountyParserTest extends BaseParserTest {
         "CITY:FRANKLIN TWP");
 
   }
+ 
+  @Test
+  public void testParser4() {
+
+    doTest("T1",
+        "Dispatch\nSta:28-3\nType:ALRM\nLoc:158 KENTON AVE                \nVen:PITMAN\nDsp-\nClr-",
+        "SRC:28-3",
+        "CALL:ALRM",
+        "ADDR:158 KENTON AVE",
+        "CITY:PITMAN");
+
+  }
   
   public static void main(String[] args) {
     new NJGloucesterCountyParserTest().generateTests("T1", "SRC CALL ADDR APT CITY");

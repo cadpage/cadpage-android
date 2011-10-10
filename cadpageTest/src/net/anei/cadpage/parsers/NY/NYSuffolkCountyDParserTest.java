@@ -72,6 +72,38 @@ public class NYSuffolkCountyDParserTest extends BaseParserTest {
         "X:OSBORNE AV");
   }
   
+  @Test
+  public void testParser2() {
+
+    doTest("T1",
+        "30-D-2 TRAUMATIC INJURY (SPECIFIC)-NOT ALERT at: 6 REDBROOK LN c/s: RANDALL RD & FARMHOUSE LN d/t: 10/09 18:41",
+        "CALL:TRAUMATIC INJURY (SPECIFIC)-NOT ALERT",
+        "CODE:30-D-2",
+        "ADDR:6 REDBROOK LN",
+        "X:RANDALL RD & FARMHOUSE LN");
+
+    doTest("T2",
+        "29-B-1 MOTOR VEHICLE ACCIDENT-INJURIES at:  c/s: MEDFORD RD & MIDDLE COUNTRY RD d/t: 10/09 09:31",
+        "CALL:MOTOR VEHICLE ACCIDENT-INJURIES",
+        "CODE:29-B-1",
+        "X:MEDFORD RD & MIDDLE COUNTRY RD");
+
+    doTest("T3",
+        "1-C-5 ABDOMINAL PAINS-MALES WITH PAIN ABOVE NAVEL >=35 at: 44 RIDGE RD c/s: MIDDLE COUNTRY RD & SHARON CT d/t: 10/08 14:21",
+        "CALL:ABDOMINAL PAINS-MALES WITH PAIN ABOVE NAVEL >=35",
+        "CODE:1-C-5",
+        "ADDR:44 RIDGE RD",
+        "X:MIDDLE COUNTRY RD & SHARON CT");
+
+    doTest("T4",
+        "17-A-1G FALLS-NOT DANGEROUS BODY AREA at: 15D GUILFORD CT c/s:  & BRIDGEWATER DR d/t: 10/10 09:53",
+        "CALL:FALLS-NOT DANGEROUS BODY AREA",
+        "CODE:17-A-1G",
+        "ADDR:15D GUILFORD CT",
+        "X:& BRIDGEWATER DR");
+
+  }
+  
   public static void main(String[] args) {
     new NYSuffolkCountyDParserTest().generateTests("T1");
   }

@@ -234,6 +234,15 @@ public class GeneralParserTest extends BaseParserTest {
         "ADDR:12102 STEEPLEWAY BLVD",
         "INFO:(409A) (%GRA2%) / 12102 STEEPLEWAY BLVD: cross streets:",
         "X:WEST RD & THOROUGHBRED DR");
+    
+    doTest("T28",
+        "Dispatch\nSta:28-3\nType:ALRM\nLoc:158 KENTON AVE                \nVen:PITMAN\nDsp-\nClr-",
+        "SRC:28-3",
+        "CALL:ALRM",
+        "ADDR:158 KENTON AVE",
+        "CITY:PITMAN",
+        "INFO:Dsp-\n Clr-");
+
   }
   
 }
