@@ -45,13 +45,16 @@ Contact: "spazking4lif@aim.com" <spazking4lif@aim.com>
 (79 Union Amb) 79:UNRSPNSV-C :420 HARRY L DR CHRISTMAS TREE SHOPS :36 yof fainted x1 rapid heart         &lt;31C01&gt; :BUSN: Cross Sts:N HUDSON ST/GIAN
 (79 Union Amb) 79:DIABETIC-C :950 BOSWELL HILL RD :54 yof diabetic not alert             &lt;13C01&gt; :54 year old, Female, Conscious, Breathing.  Not
 
+Contact: Jeffrey Mauro <jeffgm07@gmail.com>
+(22 Deposit Fire/Amb) 22/75:SICKPERS-A :480 BIG HOLLOW RD :56YOM GEN ILLNESS/UNABLE TO WALK   ALPHA :ISSUES RELATED TO A GOUT FLARE UP IN HIS FOOT Cross
+
 */
 
 
 public class NYBroomeCountyParser extends FieldProgramParser {
   
   private static Pattern PREFIX = Pattern.compile("^\\.{4} \\(.*?\\) ");
-  private static Pattern LEADER = Pattern.compile("^([A-Z0-9]+)[\\-:]");
+  private static Pattern LEADER = Pattern.compile("^([A-Z0-9/]+)[\\-:]");
   private static Pattern TRAILER = Pattern.compile(" V/Endicott? *$");
   private static Pattern KEYWORD_PAT = Pattern.compile(" (|Cross Sts|Caller|Phone):");
   private static Pattern DATE_TIME_PAT = Pattern.compile(" \\d\\d:\\d\\d \\d\\d/\\d\\d/\\d{4} ");
@@ -100,7 +103,7 @@ public class NYBroomeCountyParser extends FieldProgramParser {
 	  // Source code must be 2 digits or COMM
 	  private class MySourceField extends SourceField {
 	    public MySourceField() {
-	      setPattern(Pattern.compile("\\d\\d|COMM"), true);
+	      setPattern(Pattern.compile("[0-9/]+|COMM"), true);
 	    }
 	  }
 

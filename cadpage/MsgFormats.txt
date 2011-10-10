@@ -3239,13 +3239,15 @@ Suffolk County, NY (Variant on D)
 Contact: Kevin Leedham <kl53rfd@gmail.com>
 Sender: ridge@rednmxcad.com
 30-D-2 TRAUMATIC INJURY (SPECIFIC)-NOT ALERT at: 6 REDBROOK LN c/s: RANDALL RD & FARMHOUSE LN d/t: 10/09 18:41
+29-B-1 MOTOR VEHICLE ACCIDENT-INJURIES at:  c/s: MEDFORD RD & MIDDLE COUNTRY RD d/t: 10/09 09:31
+1-C-5 ABDOMINAL PAINS-MALES WITH PAIN ABOVE NAVEL >=35 at: 44 RIDGE RD c/s: MIDDLE COUNTRY RD & SHARON CT d/t: 10/08 14:21
+17-A-1G FALLS-NOT DANGEROUS BODY AREA at: 15D GUILFORD CT c/s:  & BRIDGEWATER DR d/t: 10/10 09:53
 **********************************************************
-
+Weld County, CO (variantn of Greeley, CO)
 Contact: Kevin Hudson <motorworks3@gmail.com>
 Sender: 93001026
 Dispatch,From GP9064:SUFFICIENT HELP OS AT CR 61/HY 34 PER COMMAND
 Dispatch,21461,SIPFF -SICK & INJ (F),CR 61/HY 34.37 WA,TEXT:NORTH OF HY 34 1 MILE, \nPATIENT IN A SEMI VOMITING \COMP:JOE ROBERTSON \PH:303-579-1849,FG3
-
 **********************************************************
 **********************************************************
 ************  READY TO ROLL ******************************
