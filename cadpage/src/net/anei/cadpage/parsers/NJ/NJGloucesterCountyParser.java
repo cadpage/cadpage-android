@@ -30,6 +30,9 @@ Contact: Michael Carestio <mcarestio81@gmail.com>
 Contact: mostwanted4tec <mostwanted4tec@gmail.com>
 Subject:1/2\n\nDispatch\n\nSta:43-2\n\nType:SERV\n\nLoc:751 LINCOLN AVE               \n\nVen:FRANKLIN\n\nDsp-17:28:02\5s\n\nClr-
 
+Contact: Tom <bad69shovel@yahoo.com>
+Dispatch\nSta:28-3\nType:ALRM\nLoc:158 KENTON AVE                \nVen:PITMAN\nDsp-\nClr-
+
  */
 
 

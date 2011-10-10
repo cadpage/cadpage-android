@@ -1,4 +1,7 @@
 package net.anei.cadpage.parsers.NY;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 import net.anei.cadpage.SmsMsgInfo.Data;
 import net.anei.cadpage.parsers.FieldProgramParser;
 
@@ -16,24 +19,39 @@ RESPIRATORY - DIFFICULTY SPEAKING BETWEEN BREATHS code: 6-D-2 at: 640 BELLE TERR
 BLEEDING / LACERATIONS - NOT ALERT code: 21-D-2 at: 70 N COUNTRY RD c/s: PINE HILL RD d/t: 06/24 15:58:51
 MOTOR VEHICLE ACCIDENT - NOT ALERT code: 29-D-5 at: CANAL RD c/s: OSBORNE AV d/t: 06/25 13:15:03
 
+Contact: Kevin Leedham <kl53rfd@gmail.com>
+Sender: ridge@rednmxcad.com
+30-D-2 TRAUMATIC INJURY (SPECIFIC)-NOT ALERT at: 6 REDBROOK LN c/s: RANDALL RD & FARMHOUSE LN d/t: 10/09 18:41
+29-B-1 MOTOR VEHICLE ACCIDENT-INJURIES at:  c/s: MEDFORD RD & MIDDLE COUNTRY RD d/t: 10/09 09:31
+1-C-5 ABDOMINAL PAINS-MALES WITH PAIN ABOVE NAVEL >=35 at: 44 RIDGE RD c/s: MIDDLE COUNTRY RD & SHARON CT d/t: 10/08 14:21
+17-A-1G FALLS-NOT DANGEROUS BODY AREA at: 15D GUILFORD CT c/s:  & BRIDGEWATER DR d/t: 10/10 09:53
+
  */
 
 public class NYSuffolkCountyDParser extends FieldProgramParser {
   
+  private static final Pattern CODE_PTN = Pattern.compile("^(\\d{1,2}-[A-Z]-\\d{1,2}[A-Z]?) ");
+  
   public NYSuffolkCountyDParser() {
     super("SUFFOLK COUNTY","NY",
-    "CALL! code:CODE! at:ADDR! cs:X! dt:SKIP");
+    "CALL! code:CODE? at:ADDR! c/s:X! d/t:SKIP");
   }
 
   @Override
   public String getFilter() {
-    return "paging@pjvac.org";
+    return "paging@pjvac.org,";
   }
   
   @Override
   public boolean parseMsg(String body, Data data) {
-    body = body.replace("c/s:", "cs:");
-    body = body.replace("d/t:", "dt:");
-    return super.parseMsg(body, data);
+    if (!super.parseMsg(body, data)) return false;
+    if (data.strCode.length() == 0) {
+      Matcher match = CODE_PTN.matcher(data.strCall);
+      if (match.find()) {
+        data.strCode = match.group(1);
+        data.strCall = data.strCall.substring(match.end()).trim();
+      }
+    }
+    return true;
   }
 }
