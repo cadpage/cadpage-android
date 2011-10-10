@@ -75,9 +75,24 @@ public class CAMontereyCountyParserTest extends BaseParserTest {
         "CALL:VIA:SB HWY 101",
         "ADDR:HWY 101 & CRAZY HORSE CANYON RD",
         "UNIT:E5212, BEU, 52V");
+
+    doTest("T10",
+        "(CAD Page) 64172B - SF:STRUCTURE FIRE - BARNET SEGAL LN/IRIS CANYON RD - MTY\n      Message: TYPE:VGF   -->SF",
+        "MAP:64172B",
+        "CALL:SF:STRUCTURE FIRE",
+        "ADDR:BARNET SEGAL LN & IRIS CANYON RD",
+        "UNIT:MTY",
+        "INFO:TYPE:VGF   -->SF");
+
+    doTest("T11",
+        "(CAD Page) 5513 - SF:STRUCTURE FIRE - 17739 RIVERBEND RD - MCO",
+        "MAP:5513",
+        "CALL:SF:STRUCTURE FIRE",
+        "ADDR:17739 RIVERBEND RD",
+        "UNIT:MCO");
   }
   
   public static void main(String[] args) {
-    new CAMontereyCountyParserTest().generateTests("T1", "MAP CALL ADDR UNIT");
+    new CAMontereyCountyParserTest().generateTests("T10", "MAP CALL ADDR UNIT INFO");
   }
 }
