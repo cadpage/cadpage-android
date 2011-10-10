@@ -3235,6 +3235,18 @@ Contact: Kirk Bauer <kbauer620@gmail.com>
 Sender: 777088342845
 " " (Dispatch) 21196,SIPFF -SICK & INJ   (F),805 COMPASSION DR.WI4201 WA 42,TEXT:RES FELL \n\\COMP:AUDREY \\PH:970.686.2743, TXT STOP to opt-out
 **********************************************************
+Suffolk County, NY (Variant on D)
+Contact: Kevin Leedham <kl53rfd@gmail.com>
+Sender: ridge@rednmxcad.com
+30-D-2 TRAUMATIC INJURY (SPECIFIC)-NOT ALERT at: 6 REDBROOK LN c/s: RANDALL RD & FARMHOUSE LN d/t: 10/09 18:41
+**********************************************************
+
+Contact: Kevin Hudson <motorworks3@gmail.com>
+Sender: 93001026
+Dispatch,From GP9064:SUFFICIENT HELP OS AT CR 61/HY 34 PER COMMAND
+Dispatch,21461,SIPFF -SICK & INJ (F),CR 61/HY 34.37 WA,TEXT:NORTH OF HY 34 1 MILE, \nPATIENT IN A SEMI VOMITING \COMP:JOE ROBERTSON \PH:303-579-1849,FG3
+
+**********************************************************
 **********************************************************
 ************  READY TO ROLL ******************************
 **********************************************************

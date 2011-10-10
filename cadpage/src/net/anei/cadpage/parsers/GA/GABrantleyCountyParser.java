@@ -18,10 +18,14 @@ Sender: brantleyga@smtp.sgcce-inc.com <From%3Abrantleyga@smtp.sgcce-inc.com>
 [Disp CVFD Case # 2011-1-1260 Call # 22049]  1/21/2011 15:23:22 /1052 /5013 /WHITEHALL CHURCH RD /62 YOM SICK; HOME HEALTH NURSE IS AT THE RESIDENCE AN
 [Disp CVFD Case # 2011-1-841 Call # 21630]  1/15/2011 13:53:32 /1070 /132 /SADDLE CLUB RD /FIELD ON FIRE
 
+Contact: Daniel Stone <dfstone93061@gmail.com>
+Sender: brantleyga@ez911mail.com
+Subject:Disp EMS1 Case # 2011-10-633 Call # 3967\n10/10/2011 07:44:22 /1050 /449 /EAGLES NEST RD /EAST BOUND / 1 MILE WEST OF BCHS - IN
+
 */
 public class GABrantleyCountyParser extends FieldProgramParser {
   
-  private static final Pattern SUBJECT_PTN = Pattern.compile("Disp ([A-Z]+) Case # [-0-9]+ Call # ([0-9]+)");
+  private static final Pattern SUBJECT_PTN = Pattern.compile("Disp ([A-Z0-9]+) Case # [-0-9]+ Call # ([0-9]+)");
   
   public GABrantleyCountyParser() {
     super("BRANTLEY COUNTY", "GA",

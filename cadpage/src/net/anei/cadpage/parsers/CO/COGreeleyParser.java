@@ -17,7 +17,6 @@ Sender: CommtechMessenger@mauser.greeleypd.com
   / 10903,SI    -SICK & INJ (F&A),3103 23RD AV.E2 WA,,\n\n\n
   / 11470,SI    -SICK & INJ (F&A),3136 51ST AV.E5 WA,TEXT:RIB PAIN,FELL A WEEK \nAGO \COMP:DEL \PH:314-226-9976,\n\n\n
 
-
  */
 
 
