@@ -57,6 +57,13 @@ public class OHWadsworthParserTest extends BaseParserTest {
         "CITY:WADSWORTH",
         "CALL:WEAK",
         "INFO:WEAKNESSFEMALE WEAK / HISTORY OF STROKES");
+
+    doTest("T7",
+        "(From: WadsTextSender) 100,HIGH ST,,WADSWORTH  PAIN,PAINFEMALE CHEST PAIN 66 YOF",
+        "ADDR:100 HIGH ST",
+        "CITY:WADSWORTH",
+        "CALL:PAIN",
+        "INFO:PAINFEMALE CHEST PAIN 66 YOF");
   }
   
   public static void main(String[] args) {

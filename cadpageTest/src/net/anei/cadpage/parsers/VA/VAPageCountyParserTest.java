@@ -64,12 +64,21 @@ public class VAPageCountyParserTest extends BaseParserTest {
         "SRC:R30",
         "CALL:TRAFFIC CRASH",
         "ADDR:14171 SPOTSWOOD TRL",
-        "CITY:ELK",
+        "CITY:ELKTON",
         "ID:2011-066741",
         "X:WALKING HORSE LN/MOUNT HERMON RD");
+
+    doTest("T7",
+        "R35 EMS-ILLNESS 201 HILL AVE ELK CFS# 2011-073441 CROSS: W C ST/W D ST",
+        "SRC:R35",
+        "CALL:EMS-ILLNESS",
+        "ADDR:201 HILL AVE",
+        "CITY:ELKTON",
+        "ID:2011-073441",
+        "X:W C ST/W D ST");
  }
   
   public static void main(String[] args) {
-    new VAPageCountyParserTest().generateTests("T6", "SRC CALL ADDR CITY ID X");
+    new VAPageCountyParserTest().generateTests("T8", "SRC CALL ADDR CITY ID X");
   }
 }
