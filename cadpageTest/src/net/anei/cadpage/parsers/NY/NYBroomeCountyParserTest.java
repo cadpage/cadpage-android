@@ -160,7 +160,7 @@ public class NYBroomeCountyParserTest extends BaseParserTest {
   }
   
   @Test
-  public void testParser2() {
+  public void testParser79() {
 
      doTest("T1",
          "(79 Union Amb) 79:TRAUMA  -D :36 BAKER ST :8 yof hit by veh                      &lt;30D01&gt; :8 year old, Female, Unconscious, Breathing.  Unconscious",
@@ -184,6 +184,18 @@ public class NYBroomeCountyParserTest extends BaseParserTest {
          "CALL:DIABETIC-C",
          "ADDR:950 BOSWELL HILL RD",
          "INFO:54 yof diabetic not alert <13C01> / 54 year old, Female, Conscious, Breathing. Not");
+
+  }
+  
+  @Test
+  public void testParser22() {
+
+    doTest("T1",
+        "(22 Deposit Fire/Amb) 22/75:SICKPERS-A :480 BIG HOLLOW RD :56YOM GEN ILLNESS/UNABLE TO WALK   ALPHA :ISSUES RELATED TO A GOUT FLARE UP IN HIS FOOT Cross",
+        "SRC:22/75",
+        "CALL:SICKPERS-A",
+        "ADDR:480 BIG HOLLOW RD",
+        "INFO:56YOM GEN ILLNESS/UNABLE TO WALK ALPHA / ISSUES RELATED TO A GOUT FLARE UP IN HIS FOOT Cross");
 
   }
   
