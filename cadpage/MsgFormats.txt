@@ -3259,16 +3259,6 @@ HER FATHER
 ARDASHIR LN / WALHALLA GARDENS CIR WALHALLA    2011-00000777  09/16/11
 12:24  Narr:   76 YOA
 **********************************************************
-**********************************************************
-**********************************************************
-Worcester County, MD (alternate)
-Contact: Joey Widgeon <jwidgeon2009@gmail.com>
-(Chief ALT) [800 Fire] -- Traffic Transportation Acc --  -- Worcester Hwy & peerless Rd Showell MD, 21862
-(Chief ALT) [800 Fire] -- Traffic Transportation Acc -- On Rt 90 West Of Rt 113 -- Ocean Expy & worcester Hwy Berlin MD, 21811
-(Chief ALT) [800 Fire] -- Structure Fire Extinguished -- White Horse Trailer Park -- 11647-1 Beauchamp Rd Berlin MD, 21811
-(Chief ALT) [800 Fire] -- Traffic Transportation Acc -- (s)newport (n) -- Ocean Pkwy & newport Dr Berlin MD, 21811
-(Chief ALT) [800 Fire] -- Fire Alarm -- (s)teal Bay (n) -- 8 Waters Edge Ct Berlin MD, 21811
-**********************************************************
 Roxbury, CT
 Contact: Mike Josefson <mikejosefson@gmail.com>
 Sender: globalpaging@nowestps.org
@@ -3319,17 +3309,9 @@ MSG:BOTSFORD HILL RD & GOLDEN HARVEST RD  ROXBURY WIRES DOWN/FIRE ROX RES9 ROX F
 Primary Incident: 00109
 **********************************************************
 **********************************************************
-Pittsylvania, VA (replacement or alternate)
-Contact: David Morgan <djmorgan911@gmail.com>
-Sender: CAD@pittgov.org
-1357:CHEST PAINS;1855 RAINBOW CIR;DAN;2011044707;BUCKHORN DR;POWHATAN DR;[Medical Priority Info] PROBLEM: CHEST PAINS AND SWEATING, NAUSEUA # PATS: 1 AGE: 39 Years
-1363:EMS CALL FOR PROQA;12321 FRANKLIN TPKE;CHA;2011045077;F C BEVERLY RD;STRAWBERRY RD;[Medical Priority Info] PROBLEM: DIZZY SPELLS # PATS: 1 AGE: 85 Years SEX: F
-1358:HEMORRHAGING;438 BONNY AVE;CAS;2011044807;PEACEFUL LN;SERENE CT;[Medical Priority Info] PROBLEM: BLEEDING FRON URINE AND BOWEL MOMENT # PATS: 1 AGE: 47 Years S
-1360:RESPIRATORY DISTRESS;113 HUNTERS RDG;DAN;2011044913;HUNTERS TRL;HUNTERS CHASE;[Medical Priority Info] PROBLEM: HUSBAND TROUBLE BREATHING&CHEST PAINS # PATS: 1
-1366:EMS CALL FOR PROQA;127 MEDICAL CENTER RD;DAN;2011045246;MOUNT CROSS RD;HINESVILLE RD
-1365:ENTRAPMENT;127 MEDICAL CENTER RD;DAN;2011045245;MOUNT CROSS RD;HINESVILLE RD
-1367:UNKNOWN MEDICAL EMERGENCY;1976 HILL CREEK RD;DRY;2011045254;SUNSET DR;MOUNT CROSS RD;[Medical Priority Info] PROBLEM: MEDICAL ALARM # PATS: 1 AGE: Unknown Rang
-1364:EMS CALL FOR PROQA;1976 HILL CREEK RD;DRY;2011045231;SUNSET DR;MOUNT CROSS RD;[Medical Priority Info] PROBLEM: MEDICAL ALARM # PATS: 1 AGE: Unknown Range SEX:
+**********************************************************
+**********************************************************
+**********************************************************
 **********************************************************
 Madison County, NY
 Contact: bcsbeaverslew@yahoo.com <bcsbeaverslew@yahoo.com>
