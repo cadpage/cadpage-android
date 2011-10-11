@@ -338,6 +338,13 @@ public class CASonomaCountyParserTest extends BaseParserTest {
         "CALL:TC-EX",
         "NAME:CHP",
         "INFO:OVERTURNED VEH ON HWY 1, BETWEEN VALLEY FORD AND BODEGA HWY BAD CONNECTION WITH RP, PER CHP");
+
+    doTest("T8",
+        "(Wilmar) Loc: 200 KUCK LN PET BOX: 3749 D CN:COM:  DIARRHEA DIFFICULTY BREATHING **",
+        "ADDR:200 KUCK LN",
+        "SRC:PET",
+        "BOX:3749 D",
+        "NAME:COM:  DIARRHEA DIFFICULTY BREATHING **");
     
   }
   
