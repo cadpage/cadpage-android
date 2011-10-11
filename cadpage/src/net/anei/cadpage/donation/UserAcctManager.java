@@ -2,6 +2,7 @@ package net.anei.cadpage.donation;
 
 import java.security.MessageDigest;
 import java.util.Arrays;
+import java.util.Date;
 
 import net.anei.cadpage.ManagePreferences;
 import net.anei.cadpage.R;
@@ -62,6 +63,9 @@ public abstract class UserAcctManager {
           }
           if (Arrays.binarySearch(paid2011List, hash) >= 0) {
             ManagePreferences.setPaidYear(2011, true);
+            if (ManagePreferences.purchaseDate() == null) {
+              ManagePreferences.setPurchaseDate(new Date());
+            }
             if (userEmail == null) userEmail = acct.name;
           }
         }
