@@ -54,9 +54,10 @@ BOX: 3437 TYP: VEG CN: VERIZON WIRELESS 800 451 5242 4 C#: (707) 321-9508 TYPE C
 Loc: BBY: @HWY 1 MM012.42 BOX: 3332 B TYP: TC-EX CN: CHP LOG 344 C#:  TYPE CODE: TC-EX CALLER NAME: CHP LOG 344 CALLER ADDR:  TIME: 03:44:34 COM:  OVER TURNED VEH NEAR SALMON CREEK CONTROL 2 
 Loc: HWY 1/BODEGA HW BOD BOX: 3436 TYP: TC-EX CN: CHP C#:  TYPE CODE: TC-EX CALLER NAME: CHP CALLER ADDR:  TIME: 20:46:20 COM:  OVERTURNED VEH ON HWY 1, BETWEEN VALLEY FORD AND BODEGA HWY BAD CONNECTION WITH RP, PER CHP 
 
-Contact: stephen heine <stevesrf@gmail.com>
+Contact: stephen heine <stevesrf@gmail.com>, Steve <sjheine@comcast.net>
 Sender: messaging@iamresponding.com
 (Wilmar) Loc: 4000. D ST PET BOX: 4052 D CN:COM  N -122.6389 T 38.19909 METERS 16 CONTORL 4 SMALL BUT GROWING **
+(Wilmar) Loc: 200 KUCK LN PET BOX: 3749 D CN:COM:  DIARRHEA DIFFICULTY BREATHING **
 
  */
 
@@ -69,6 +70,7 @@ public class CASonomaCountyParser extends FieldProgramParser {
     "BLO",  "BLO", // Bloomfield
     "BOD",  "BOD", // ???
     "LAR",  "LAR",
+    "PET",  "PET",
     "RIN",  "RIN",
     "SCH",  "SCH",
     "SO",   "SO",
@@ -96,7 +98,6 @@ public class CASonomaCountyParser extends FieldProgramParser {
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     if (! super.parseMsg(body, data)) return false;
-    if (data.strCall.length() == 0) return false;
     if (data.strAddress.length() == 0) return false;
     data.strAddress = HW_PTN.matcher(data.strAddress).replaceAll("HWY");
     return true;
