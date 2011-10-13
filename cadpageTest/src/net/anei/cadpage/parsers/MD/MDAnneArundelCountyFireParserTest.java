@@ -63,6 +63,27 @@ public class MDAnneArundelCountyFireParserTest extends BaseParserTest {
         "ADDR:BRICK CHURCH RD NEAR RT 214",
         "INFO:MEDIC 3 O/L SUV ON IT'S SIDE ON A GUARDRAIL.  OCC OUT,");
   }
+
+  @Test
+  public void testPrinceGeorgesParser() {
+
+    doTest("T1",
+        "CALVERTON CO.41 | PRINCE GEORGES | *2ND ALM* | 11338 CHERRY HILL RD | CHIEF 812 REPORTS A WORKING KITCHEN FIRE WITH RESCUES BEIN ",
+        "CITY:CALVERTON",
+        "UNIT:CO.41",
+        "CALL:*2ND ALM*",
+        "ADDR:11338 CHERRY HILL RD",
+        "INFO:CHIEF 812 REPORTS A WORKING KITCHEN FIRE WITH RESCUES BEIN");
+
+    doTest("T2",
+        "BELTSVILLE 4101 | PRINCE GEORGES | *WSF* | 11338 CHERRY HILL RD | CMD HAS WORKING FIRE IN AN APT BUILDING | TG9 | MD227 AP16 | ",
+        "CITY:BELTSVILLE",
+        "BOX:4101",
+        "CALL:*WSF*",
+        "ADDR:11338 CHERRY HILL RD",
+        "INFO:CMD HAS WORKING FIRE IN AN APT BUILDING");
+
+  }
   
   public static void main(String[] args) {
     new MDAnneArundelCountyFireParserTest().generateTests("T7");

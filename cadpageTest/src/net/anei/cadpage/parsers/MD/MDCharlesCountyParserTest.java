@@ -15,10 +15,6 @@ public class MDCharlesCountyParserTest extends BaseParserTest {
   }
   
   @Test
-  public void testProblem() {
-  }
-  
-  @Test
   public void testParser() {
 
     doTest("T1",
