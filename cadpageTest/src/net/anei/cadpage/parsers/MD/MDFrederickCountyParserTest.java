@@ -191,9 +191,17 @@ public class MDFrederickCountyParserTest extends BaseParserTest {
         "PLACE:STATION 18",
         "UNIT:ET154",
         "MAP:4222J2");
- }
+
+    doTest("T29",
+        "(CAD) [FredCo] CT: VEHICLE ACCIDENT / default CMON: @RT80 / KEMPTOWN CHURCH RD MAP: 4689D7 Disp: A259,RE153,ET254",
+        "CALL:VEHICLE ACCIDENT / default",
+        "ADDR:RT80 & KEMPTOWN CHURCH RD",
+        "CITY:Monrovia",
+        "UNIT:A259,RE153,ET254",
+        "MAP:4689D7");
+}
   
   public static void main(String[] args) {
-    new MDFrederickCountyParserTest().generateTests("T28", "CALL ADDR CITY PLACE BOX UNIT MAP");
+    new MDFrederickCountyParserTest().generateTests("T30");
   }
 }
