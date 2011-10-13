@@ -26,6 +26,7 @@ MAILBOX:S07 EMS-PATIENT FALLEN 3005 GREEN LEVEL RD RMT CFS# 2010-030541 CROSS: G
 MAILBOX:S07 EMS-CARDIAC VIRGIL H GOODE HWY & LINK ST RMT CFS# 2010-030580
 MAILBOX:S07 EMS-HIGH BLOOD PRESSURE 1808 BETHLEHEM RD BML CFS# 2010-030643 CROSS: BETHANY RD/DILLONS MILL RD
 MAILBOX:C07 FIRE-ALARM COMMERCIAL 3325 GRASSY HILL RD RMT CFS# 2010-033866 CROSS: JAMESTOWN RD/CALLAWAY RD
+S: M:MAILBOX:S02 ACCIDENT-INJURY 1450 WIRTZ CFS# 2011-028395\n
 
 Page County, VA
 MAILBOX:RS3 PAIN 16 E MAIN ST LUR CFS# 2011-000782 CROSS: BROAD ST/TANNERY RD
@@ -55,12 +56,9 @@ R35 EMS-ILLNESS 516 W SPOTSWOOD TRL ELK CFS# 2011-018309 CROSS: SHENANDOAH AVE/2
 
 public class DispatchDAPROParser extends FieldProgramParser {
   
-  private Properties cityCodeTable;
-  
   public DispatchDAPROParser(Properties cityCodeTable, String defCity, String defState) {
-    super(defCity, defState,
+    super(cityCodeTable, defCity, defState,
            "ADDR/SC! CFS:ID! CROSS:X");
-    this.cityCodeTable = cityCodeTable;
     buildCallDictionary();
   }
   
@@ -84,10 +82,8 @@ public class DispatchDAPROParser extends FieldProgramParser {
     public void parse(String field, Data data) {
       
       // First token is always the source
-      // Last is always a city code
       Parser p = new Parser(field);
       data.strSource = p.get(' ');
-      data.strCity = convertCodes(p.getLast(' '), cityCodeTable);
       field = p.get();
       
       // See if we can identify a call description from our canned list
@@ -99,7 +95,7 @@ public class DispatchDAPROParser extends FieldProgramParser {
         field = field.substring(callDesc.length()).trim();
         
         // And everything else is an address
-        parseAddress(field, data);
+        parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END, field, data);
       } 
       
       // No call description match eh
@@ -179,6 +175,7 @@ public class DispatchDAPROParser extends FieldProgramParser {
         "EMS-UNCONSCIOUS",
         "EMS-UNKNOWN MADICAL",
         "911 OPEN LINE",
+        "ACCIDENT-INJURY",
         "AUTOMATIC FIRE ALARM",
         "AIRCRAFT INCIDENT",
         "MEDICAL ALARM",
