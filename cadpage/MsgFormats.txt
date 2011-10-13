@@ -3271,6 +3271,7 @@ Roxbury, CT
 Contact: Mike Josefson <mikejosefson@gmail.com>
 Sender: globalpaging@nowestps.org
 ** PRIORITY **
+First unit code will be RO or ROX
 
 FRM:globalpaging@nowestps.org
 SUBJ:From Northwest
