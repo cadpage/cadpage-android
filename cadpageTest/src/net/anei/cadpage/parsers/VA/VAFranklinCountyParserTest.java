@@ -77,8 +77,17 @@ public class VAFranklinCountyParserTest extends BaseParserTest {
         "ADDR:330 FRANKLIN ST",
         "X:CLAIBORNE AVE/CHURCH ST",
         "ID:2011-000224");
-        
-    
-  }   
+
+    doTest("T7",
+        "S: M:MAILBOX:S02 ACCIDENT-INJURY 1450 WIRTZ CFS# 2011-028395\n",
+        "SRC:S02",
+        "CALL:ACCIDENT-INJURY",
+        "ADDR:1450 WIRTZ",
+        "ID:2011-028395");
+  }
+  
+  public static void main(String args[]) {
+    new VAFranklinCountyParserTest().generateTests("T1");
+  }
 }
   
