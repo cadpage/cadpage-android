@@ -1,9 +1,11 @@
 package net.anei.cadpage.parsers.MD;
 
 import java.util.Properties;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import net.anei.cadpage.SmsMsgInfo.Data;
-import net.anei.cadpage.parsers.SmartAddressParser;
+import net.anei.cadpage.parsers.FieldProgramParser;
 
 /***
 **********************************************************
@@ -58,18 +60,15 @@ Sender: rc.393@c-msg.net
 Contact: Bill Stearn <wstearn@gmail.com>
 Sender: rc.404@c-msg.net
 (CAD) [FredCo] CT: ENGINE TRANSFER / default 14026 GRACEHAM RD CTHU: @STATION 18 MAP: 4222J2 Disp: ET154
+(CAD) [FredCo] CT: VEHICLE ACCIDENT / default CMON: @RT80 / KEMPTOWN CHURCH RD MAP: 4689D7 Disp: A259,RE153,ET254
 
 ***/
 
-public class MDFrederickCountyParser extends SmartAddressParser {
-  
-  private static final String DEF_STATE = "MD";
-  private static final String DEF_CITY = "FREDERICK COUNTY";
-
-  private static final String[]Fredrickkeywords = new String[]{"CT", "TIME", "ESZ", "MAP", "Disp",};
+public class MDFrederickCountyParser extends FieldProgramParser {
 
   public MDFrederickCountyParser(){
-    super(CITY_CODE_TABLE, DEF_CITY, DEF_STATE);
+    super(CITY_CODES, "FREDERICK COUNTY", "MD",
+          "CT:ADDR! TIME:SKIP? ESZ:BOX? MAP:MAP Disp:UNIT");
   }
 
   @Override
@@ -88,62 +87,103 @@ public class MDFrederickCountyParser extends SmartAddressParser {
       else return false;
     }
     if (!subject.equals("FredCo") && !subject.equals("!")) return false;
-    
-    // If there is a : right after city then there is Supp data between City Code and ESZ:
-    
-    Properties props = parseMessage(body, Fredrickkeywords);
-    String strAddr = props.getProperty("CT");
-    if (strAddr == null) return false;
-    
-    // Everything changes if this is a Mutual aid call
-    int ipt = strAddr.indexOf(" @MA ");
-    if (ipt >= 0) {
-      data.strCall = "Mutual Aid: " + strAddr.substring(0, ipt).trim();
-      int ipt2 = strAddr.indexOf(':', ipt);
-      if (ipt2 < 0) {
-        data.strCity = strAddr.substring(ipt+5).trim();
-      } else {
-        data.strCity = strAddr.substring(ipt+5, ipt2).trim();
-        strAddr = strAddr.substring(ipt2+1).trim().replaceAll("@", "");
-        parseAddress(strAddr, data);
-      }
-    }
-
-    else {
-      
-      // Look for a colon marking the start of the place name
-      // too make things more interesting, we have to skip over any colons
-      // in an LL(...) function which marks GPS coordinates
-      int p1 = strAddr.indexOf(':');
-      if (p1 >= 0) {
-        int p2 = strAddr.indexOf('(');
-        if (p2 >= 0 && p2 < p1) {
-          p2 = strAddr.indexOf(')', p2+1);
-          if (p2 >= 0) p1 = strAddr.indexOf(':', p2+1);
-        }
-      }
-      if (p1 >= 0) {
-        data.strPlace = strAddr.substring(p1+1).trim();
-        if (data.strPlace.startsWith("@")) data.strPlace = data.strPlace.substring(1).trim();
-        strAddr = strAddr.substring(0, p1).trim();
-      }
-      parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ | FLAG_ANCHOR_END , strAddr, data);
-    }
-    
-    data.strMap = props.getProperty("MAP", "");
-    data.strBox = props.getProperty("ESZ", "");
-    data.strUnit = props.getProperty("Disp", "");
-    data.strCity = convertCodes(data.strCity, CITY_CODE_TABLE);
-    if (data.strCity.equals("Franklin County") || data.strCity.equals("Adams County")) {
-      data.strState = "PA";
-    }
-    if (data.strUnit.contains("[") && data.strUnit.contains("]")) {
-        data.strUnit = data.strUnit.substring(0,data.strUnit.indexOf("[")).trim();
-      }
-    return true;
+    return super.parseMsg(body, data);
   }
   
-  private static final Properties CITY_CODE_TABLE = 
+  // Address field gets complicated
+  private static final Pattern CITY_PTN = Pattern.compile(" ([A-Z0-9]{4}(?: CO)?):(?: @)?");
+  private class MyAddressField extends AddressField {
+    
+    @Override
+    public void parse(String field, Data data) {
+
+      // Everything changes with a mutual aid call
+      // should be followed by a city: address
+      int ipt = field.indexOf(" @MA ");
+      if (ipt >= 0) {
+        data.strCall = "Mutual Aid: " + field.substring(0, ipt).trim();
+        int ipt2 = field.indexOf(':', ipt);
+        if (ipt2 < 0) {
+          data.strCity = convertCodes(field.substring(ipt+5).trim(), CITY_CODES);
+        } else {
+          data.strCity = convertCodes(field.substring(ipt+5, ipt2).trim(), CITY_CODES);
+          field = field.substring(ipt2+1).trim().replaceAll("@", "");
+          parseAddress(field, data);
+        }
+      }
+  
+      else {
+        
+        // Not mutual aid.
+        // See if we can find a city: marker
+        Matcher match = CITY_PTN.matcher(field);
+        String sCity = null;
+        if (match.find()) {
+          sCity = CITY_CODES.getProperty(match.group(1));
+          if (sCity != null) {
+            data.strCity = sCity;
+            
+            // If we find one, things get complicated...
+            // Sometimes it marks the boundary between the call description and address
+            ///Sometimes it marks the boundary between the address and a place name
+            String part1 = field.substring(0,match.start()).trim();
+            String part2 = field.substring(match.end()).trim();
+            Result res = parseAddress(StartType.START_ADDR, part2);
+            if (res.getStatus() > 0) {
+              data.strCall = part1;
+              res.getData(data);
+              data.strPlace =  res.getLeft();
+            } else {
+              parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ | FLAG_ANCHOR_END, part1, data);
+              data.strPlace = part2;
+            }
+          }
+        }
+        
+        // If we didn't find a city parse a generic call/address/place field
+        if (sCity == null) {
+          int pt = field.indexOf(": @");
+          if (pt >= 0) {
+            data.strPlace = field.substring(pt+3).trim();
+            field = field.substring(0,pt);
+            parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ | FLAG_ANCHOR_END, field, data);
+          } else {
+            parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ, field, data);
+            data.strPlace = getLeft();
+          }
+        }
+      }
+      
+      // If call is to Franklin or Adams county, set state to PA
+      if (data.strCity.equals("Franklin County") || data.strCity.equals("Adams County")) {
+        data.strState = "PA";
+      }
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "CALL ADDR APT CITY ST PLACE";
+    }
+  }
+  
+  private class MyUnitField extends UnitField {
+    @Override
+    public void parse(String field, Data data) {
+      if (field.contains("[") && field.contains("]")) {
+        field = field.substring(0,field.indexOf("[")).trim();
+      }
+      super.parse(field, data);
+    }
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("UNIT")) return new MyUnitField();
+    return super.getField(name);
+  }
+  
+  private static final Properties CITY_CODES = 
     buildCodeTable(new String[]{
         "ADAM","Adams County", //PA
         "ADAM CO", "Adams County",
@@ -168,5 +208,5 @@ public class MDFrederickCountyParser extends SmartAddressParser {
         "NEWM", "New Market",
         "THUR","Thurmont",
         "WOOD","Woodsboro",
-    });
+  });
 }
