@@ -59,7 +59,6 @@ Contact: Larry Johnson <LarryJ@csmd.edu>
 Sender: Postmaster@ihvfd.com
 HEMORRHAGE, NOSEBLEED, EMS, LACERATION BLS, 21A, 21B 28 GLYMONT RD 7 B6 89 year old, Female, Conscious, Breathing. Hemorrhage / Lacerations. Blood thinner
 
-
  */
 
 public class MDCharlesCountyParser extends SmartAddressParser {

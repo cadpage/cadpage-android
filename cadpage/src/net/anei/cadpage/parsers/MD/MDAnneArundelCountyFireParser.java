@@ -1,5 +1,6 @@
 package net.anei.cadpage.parsers.MD;
 
+import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.SmsMsgInfo.Data;
@@ -19,6 +20,8 @@ LINTHICUM | ANNE ARUNDEL | AUTO ACCIDENT | AVIATION BLVD & TERMINAL RD | MVC INV
 Contact: mike byrd <mar019ipn@gmail.com>
 Sender: alerts@alertpage.ealertgov.com
 DAVIDSONVILLE | ANNE ARUNDEL | *O/T AUTO* | BRICK CHURCH RD NEAR RT 214 | MEDIC 3 O/L SUV ON IT'S SIDE ON A GUARDRAIL.  OCC OUT,
+CALVERTON CO.41 | PRINCE GEORGES | *2ND ALM* | 11338 CHERRY HILL RD | CHIEF 812 REPORTS A WORKING KITCHEN FIRE WITH RESCUES BEIN 
+BELTSVILLE 4101 | PRINCE GEORGES | *WSF* | 11338 CHERRY HILL RD | CMD HAS WORKING FIRE IN AN APT BUILDING | TG9 | MD227 AP16 | 
 
 */
 
@@ -41,7 +44,39 @@ public class MDAnneArundelCountyFireParser extends FieldProgramParser {
     
     String[] flds = SEPARATOR.split(body);
     if (flds.length < 5) return false;
-    if (!flds[1].equals("ANNE ARUNDEL")) return false;
+    if (!flds[1].equals("ANNE ARUNDEL") &&
+        !flds[1].equals("PRINCE GEORGES")) return false;
     return parseFields(flds, data);
+  }
+  
+  private static final Pattern UNIT_PTN = Pattern.compile(" +([^ ]+\\d+)$");
+  private static final Pattern BOX_PTN = Pattern.compile("\\d+");
+  private class MyCityField extends CityField {
+    
+    @Override
+    public void parse(String field, Data data) {
+      Matcher match = UNIT_PTN.matcher(field);
+      if (match.find()) {
+        String sUnit = match.group(1).trim();
+        field = field.substring(0,match.start()).trim();
+        if (BOX_PTN.matcher(sUnit).matches()) {
+          data.strBox = sUnit;
+        } else {
+          data.strUnit = sUnit;
+        }
+      }
+      super.parse(field, data);
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "CITY BOX UNIT";
+    }
+  }
+  
+  @Override
+  public  Field getField(String name) {
+    if (name.equals("CITY")) return new MyCityField();
+    return super.getField(name);
   }
 }
