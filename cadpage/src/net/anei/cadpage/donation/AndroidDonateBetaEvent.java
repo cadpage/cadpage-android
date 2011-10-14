@@ -2,10 +2,14 @@ package net.anei.cadpage.donation;
 
 import net.anei.cadpage.CadPageApplication;
 import net.anei.cadpage.R;
+import net.anei.cadpage.billing.BillingManager;
 
 /**
- * This is the nice top level donation event that appears when user is on
- * the free rider donate list
+Donate through Android Market
+
+For technical reasons, you cannot make Android Market purchases from a beta
+release of Cadpage.  You will have to wait until you install an official
+release of Cadpage from the Android Market.
  */
 public class AndroidDonateBetaEvent extends DonateScreenEvent {
   
@@ -15,7 +19,7 @@ public class AndroidDonateBetaEvent extends DonateScreenEvent {
 
   @Override
   public boolean isEnabled() {
-    return CadPageApplication.isBetaRelease();
+    return BillingManager.instance().isSupported() && CadPageApplication.isBetaRelease();
   }
   
   private static final AndroidDonateBetaEvent instance = new AndroidDonateBetaEvent();

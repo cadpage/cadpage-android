@@ -79,6 +79,13 @@
   <string name="donate_paypal_title">Donate through PayPal</string>
   <string name="donate_email_title">Send Email</string>
   
+  <string name="donate_android_unsupported_text">
+    The Android Market app reports that in-app purchases are not supported.
+    You may need to upgrade the Market app to the latest version.  Or you may
+    need to give it a valid Google account (Select menu > Accounts in the Market
+    app) 
+  </string>
+  
   <string name="donate_android_beta_text">
     For technical reasons, you cannot make Android Market purchases from a beta
     release of Cadpage.  You will have to wait until you install an official
