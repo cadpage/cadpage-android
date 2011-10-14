@@ -1,41 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">10072011</string>
-  <string name="release_version">v1.4.30</string>
+  <string name="release_date">10142011</string>
+  <string name="release_version">v1.4.31</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="min_install_date">10012011</string>
   <string name="min_purchase_date">10312011</string>
   <string name="release_text">
-    Thanks to everyone who has donated Your support is appreciated and helps support the app.\n
-    See http://www.cadpage.org/financial-support for more details\n
-    \n
-What"'"s new in this release\n
-Android market donations have been enabled!!!!!\n
+Thanks to everyone who has donated Your support is appreciated and helps support the app.\n
+See http://www.cadpage.org/financial-support for more details\n
 \n
-The 30 day demo clock has been reset. This version of won"'"t do anything to enforce
-the 30 day limit.  But by the time it expires, there will probably be a version
-of Cadpage that does enforce that limit.\n
+What"'"s new in this release\n
+Android market donations have been enabled!!!!!\n  This is probably the last 
+version of Cadpage that will not get seriously annoyed if you run over the demo
+expiration date.  If you really don"'"t want to support us financially, this
+would be a good time to stop installing Cadpage updates.\n
 \n
 New Locations:\n
-Morgan County, AL\n
-Monroe County, NY\n
-Montgomery County, NY\n
-Klamath County, OR\n
+Worcester County, MD\n
+Eau Claire, WI\n
 \n
 Location Parsing Fixes:\n
+Montery County, CA\n
 Sonoma County, CA\n
+Brantley County, GA\n
+Anne Arundel COunty, MD\n
 Frederick County, MD\n
-Sussex County, NY\n
-Monroe County, NY\n
-Nassau County, NY\n
-Blair County, PA\n
+Broome County, NY\n
+Suffolk County, NY\n
 Washington County, TN\n
-Pennington County, SD\n
-Humble, TX\n
+Franklin County, VA\n
+Page County, VA\n
+Pittsylvania, VA\n
 \n
 General Fixes\n
-Crash if Google account is changed before Cadpage preference menu has been displayed\n
+App sometimes crashes when checking in-app billing support at startup\n
   </string>  
 </resources>
   
