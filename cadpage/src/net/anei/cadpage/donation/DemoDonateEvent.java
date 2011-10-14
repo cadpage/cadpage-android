@@ -3,7 +3,7 @@ package net.anei.cadpage.donation;
 import net.anei.cadpage.R;
 
 /*
-You have been using Cadpage for %d days
+Cadpage demo expires in %d days
 
 You have been using Cadpage for %1$d days, you have %2$d days left before the
 demo expires.  The current version of Cadpage will not bother you if you go over that 
@@ -30,7 +30,7 @@ public class DemoDonateEvent extends DonateScreenEvent {
     switch (type) {
     
     case PARM_TITLE:
-      return new Object[]{days};
+      return new Object[]{DonationManager.DEMO_LIMIT_DAYS-days};
       
     case PARM_TEXT:
       return new Object[]{days, DonationManager.DEMO_LIMIT_DAYS-days};

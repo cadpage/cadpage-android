@@ -2,7 +2,7 @@ package net.anei.cadpage.donation;
 
 import net.anei.cadpage.R;
 /*
-You have been using Cadpage for %d days
+Your Cadpage demmo has expired
 
 You have been using Cadpage for %1$d days.  Your cadpage demo expired %2$d days ago.  
 The current version of Cadpage will not bother you about this, but the next version

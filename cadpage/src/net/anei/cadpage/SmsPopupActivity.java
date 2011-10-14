@@ -12,6 +12,7 @@ import com.google.tts.TTSVersionAlert;
 import com.google.tts.TTS.InitListener;
 
 import net.anei.cadpage.ManageKeyguard.LaunchOnKeyguardExit;
+import net.anei.cadpage.donation.MainDonateEvent;
 import net.anei.cadpage.wrappers.TextToSpeechWrapper;
 import net.anei.cadpage.wrappers.TextToSpeechWrapper.OnInitListener;
 import android.app.Activity;
@@ -24,6 +25,7 @@ import android.content.Intent;
 import android.content.DialogInterface.OnCancelListener;
 import android.content.pm.ActivityInfo;
 import android.content.res.Configuration;
+import android.graphics.drawable.Drawable;
 import android.speech.RecognizerIntent;
 import android.text.TextUtils;
 import android.text.util.Linkify;
@@ -131,7 +133,8 @@ public class SmsPopupActivity extends Activity {
     //  getResources().getDrawable(SmsPopupUtils.CONTACT_PHOTO_PLACEHOLDER);
 
     // Enable long-press context menu
-    registerForContextMenu(findViewById(R.id.MainLinearLayout));
+    mainLL = (LinearLayout)findViewById(R.id.MainLinearLayout);
+    registerForContextMenu(mainLL);
 
     // Assign view stubs
     privacyViewStub = (ViewStub) findViewById(R.id.PrivacyViewStub);
@@ -172,9 +175,10 @@ public class SmsPopupActivity extends Activity {
       }
       else btnCB.setVisibility(View.GONE);
     } 
-     
     
-
+    // Hook donate status button to current donation status
+    Button btn = (Button)findViewById(R.id.donate_status_button);
+    MainDonateEvent.instance().setButton(this, btn);
     
     // Populate display fields
     populateViews(getIntent());
@@ -300,6 +304,7 @@ public class SmsPopupActivity extends Activity {
 
   @Override
   protected void onDestroy() {
+    MainDonateEvent.instance().setButton(null, null);
     super.onDestroy();
   }
 

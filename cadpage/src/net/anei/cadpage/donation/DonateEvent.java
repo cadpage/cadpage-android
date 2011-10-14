@@ -145,6 +145,30 @@ public abstract class DonateEvent {
   protected void setTextColor(TextView view) {
     if (alertStatus != null) view.setTextColor(ALERT_COLORS[alertStatus.ordinal()]);
   }
+
+  /**
+   * Set up an already existing button with the current donation status
+   * @param activity current activity
+   * @param button button to be set up
+   * @return true if button was set up, false otherwise
+   */
+  public boolean setButton(final Activity activity, Button button) {
+    if (!isEnabled()) return false;
+    String title = activity.getString(titleId, getTextParms(PARM_TITLE));
+    button.setText(setAlertColor(title));
+    
+    // Set up button clicked listener to call our doEvent method
+    button.setOnClickListener(new View.OnClickListener() {
+      @Override
+      public void onClick(View v) {
+        doEvent(activity);
+      }
+    });
+    
+    // Green status buttons can disappear, everything else should be visible
+    button.setVisibility(alertStatus == null || alertStatus == AlertStatus.GREEN ? View.GONE : View.VISIBLE);
+    return true;
+  }
   
   /**
    * Close all donation events and recalculate the donation status

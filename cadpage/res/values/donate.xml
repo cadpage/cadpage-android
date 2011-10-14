@@ -38,14 +38,14 @@
     Your current Cadpage subscription expired %d days ago.
   </string>
   
-  <string name="donate_demo_title">You have been using Cadpage for %d days</string>
+  <string name="donate_demo_title">Cadpage demo expires in %d days</string>
   <string name="donate_demo_text">
     You have been using Cadpage for %1$d days, you have %2$d days left before the
     demo expires.  The current version of Cadpage will not bother you if you go over that 
     limit.  But the next version might.
   </string>
   
-  <string name="donate_demo_expire_title">You have been using Cadpage for %d days</string>
+  <string name="donate_demo_expire_title">Your Cadpage demo has expired</string>
   <string name="donate_demo_expire_text">
     You have been using Cadpage for %1$d days.  Your cadpage demo expired %2$d days ago.  
     The current version of Cadpage will not bother you about this, but the next version
