@@ -201,7 +201,10 @@ public class BillingService extends Service implements ServiceConnection {
         protected long run() throws RemoteException {
           boolean billingSupported = false;
             Bundle request = makeRequestBundle("CHECK_BILLING_SUPPORTED");
-            Bundle response = mService.sendBillingRequest(request);
+            Bundle response = null;
+            try {
+              response = mService.sendBillingRequest(request);
+            } catch (NullPointerException ex) {}
             if (response != null) {
               int responseCode = response.getInt(Consts.BILLING_RESPONSE_RESPONSE_CODE);
               if (Log.DEBUG) {
