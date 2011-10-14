@@ -102,6 +102,13 @@ public class NYSuffolkCountyDParserTest extends BaseParserTest {
         "ADDR:15D GUILFORD CT",
         "X:& BRIDGEWATER DR");
 
+    doTest("T5",
+        "25-B-6 PSYCHIATRIC / ABNORMAL BEHAVIOR / SUICI-UNKNOWN STATUS / OTHER CODES NOT APPLICA at: 262 EDINBURGH DR c/s: BROWNFIELD DR & KINGSTON ",
+        "CALL:PSYCHIATRIC / ABNORMAL BEHAVIOR / SUICI-UNKNOWN STATUS / OTHER CODES NOT APPLICA",
+        "CODE:25-B-6",
+        "ADDR:262 EDINBURGH DR",
+        "X:BROWNFIELD DR & KINGSTON");
+
   }
   
   public static void main(String[] args) {
