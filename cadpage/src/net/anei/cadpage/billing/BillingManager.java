@@ -41,6 +41,13 @@ public class BillingManager {
   }
   
   /**
+   * Recheck billing support
+   */
+  public void recheck() {
+    mService.checkBillingSupported();
+  }
+  
+  /**
    * Shutdown billing manager
    */
   public void destroy() {
