@@ -131,6 +131,15 @@ public class VAPittsylvaniaCountyParserTest extends BaseParserTest {
         "X:SUNSET DR & MOUNT CROSS RD",
         "INFO:MEDICAL ALARM # PATS: 1 AGE: Unknown Range SEX:");
 
+    doTest("T9",
+        "1384:FALL;2837 MAPLETON DR;CAL;2011046603;WATER OAK RD;FRANKLIN TPKE;[Medical Priority Info] PROBLEM: FELL FROM LADDR BROKE HIP # PATS: 1 AGE: 85 Years SEX: Male CO",
+        "CALL:FALL",
+        "ADDR:2837 MAPLETON DR",
+        "CITY:Callands",
+        "ID:2011046603",
+        "X:WATER OAK RD & FRANKLIN TPKE",
+        "INFO:FELL FROM LADDR BROKE HIP # PATS: 1 AGE: 85 Years SEX: Male CO");
+
   }
   
   public static void main(String[] args) {
