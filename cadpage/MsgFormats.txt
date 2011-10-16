@@ -3208,19 +3208,6 @@ TRITWP  AD: 11245 S FORDNEY TIME: 22:16 CORRECT ADDX IS 11199 S FORDNEY
 Chris reports old format was working as of a couple days ago, but dispatch was upgrading software.
 Marco reports everything still working.  In particular this call worked
 **********************************************************
-Montgomery County, PA (alternate)
-Contact: myfranchisepartners <myfranchisepartners@gmail.com>
-Sender: worcesterfd@verizon.net
-(FIRE ALARM) FIRE ALARM ** 2293 WARNER RD ** Dispatch ** - ** 64-02 **  **  ** Eff Body:FIRE ALARM ** 2293 WARNER RD ** Dispatch ** - ** 64-02 **  **  **
-
-Contact: 2153504443@txt.att.net
- 1 of 3
-FRM:PageFwd@comcast.net
-MSG:Willow Grove: Fire
-F1125058
-2701 BLAIR MILL RD: @KEYSTONE KIDNEY CENTER
-XST: CARRELL LN/COMMER
-**********************************************************
 Tehama County, CA
 Contact: 5309455142@messaging.sprintpcs.com
 Sender: Tgucad@fire.ca.gov
@@ -3300,29 +3287,26 @@ Contact: David Roach <dr2403@email.vccs.edu>
 sender: 6245 
 MHC  S: M:24 HILL-N-DALE RD MARTINSVILLE 2011092972 12:14:44 RFA-(3) FALL / FRACTURE\n
 **********************************************************
+Montgomery County, PA (alternate)
+Contact: myfranchisepartners <myfranchisepartners@gmail.com>
+Sender: worcesterfd@verizon.net
+(FIRE ALARM) FIRE ALARM ** 2293 WARNER RD ** Dispatch ** - ** 64-02 **  **  ** Eff Body:FIRE ALARM ** 2293 WARNER RD ** Dispatch ** - ** 64-02 **  **  **
+
+Contact: 2153504443@txt.att.net
+ 1 of 3
+FRM:PageFwd@comcast.net
+MSG:Willow Grove: Fire
+F1125058
+2701 BLAIR MILL RD: @KEYSTONE KIDNEY CENTER
+XST: CARRELL LN/COMMER
+
+Contact: jeff tomczak <jtfire80@gmail.com>
+Sender: ALERTS@UGFD.ORG
+1080005 21:39:27 14-10-11 2556 CRESTLINE DR XST: QUAIL RUN/STONY CREEK RD MUN:WORC NAT: CARDIAC EMERGENCY,MAP/BOX-PLAN:64-10/ ADC:3256A1,I#E1154804,TIME: 21:39:40,NOTES:  42/F C/A- CHEST PAINS ALSO HAS PAIN IN HER JAW  TRUCKS: 308-21,QX80
 **********************************************************
 ************  READY TO ROLL ******************************
 **********************************************************
 **********************************************************
-Oconee County, SC
-Contact: William Rochester <william.rocheste
-Sender: 911@oconeelaw.com
-System: Aegis
-
-[911 Message]  S80 - CORONARY PROBLEM  1280 N  STHY 11 XStreet: SPRINGDALE
-DR / SCENIC HEIGHTS RD, FOWLER RD WEST UNION    2011-00000815  09/26/11
-22:27  Narr:   S
-
-[911 Message]  TEST  300 S  CHURCH ST XStreet: W MAULDIN ST / W ERVIN ST
-WALHALLA  LEC   09/26/11 16:14  Narr:
-
-[911 Message]  S80 - CORONARY PROBLEM  206 S  TUGALOO ST XStreet: W MAULDIN
-ST / BOOKER DR WALHALLA    2011-00000809  09/25/11 06:49  Narr:   PATIENT IS
-HER FATHER
-
-[911 Message]  S46 - ALTERED MENTAL STATUS  308 N  LAUREL ST XStreet:
-ARDASHIR LN / WALHALLA GARDENS CIR WALHALLA    2011-00000777  09/16/11
-12:24  Narr:   76 YOA
 **********************************************************
 Roxbury, CT
 Contact: Mike Josefson <mikejosefson@gmail.com>
