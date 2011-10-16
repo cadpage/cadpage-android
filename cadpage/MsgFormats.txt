@@ -3363,57 +3363,7 @@ Primary Incident: 00109
 **********************************************************
 **********************************************************
 **********************************************************
-Madison County, NY
-Contact: bcsbeaverslew@yahoo.com <bcsbeaverslew@yahoo.com>
-[911 Dispatch]  BRKFD:2011:173
-Dispatched
-Chest Pain
-1929 ACADEMY RD , BROOKFIELD ( / SPOONER RD)
-
-[911 Dispatch]  BRKFD:2011:172
-Dispatched
-Psychiatric/Suicide Attempt
-11325 MILL , BROOKFIELD ( CENTER /)
-
-[911 Dispatch]  BRKFD:2011:171
-Dispatched
-Breathing Problem
-10825 HOXIE RD , BROOKFIELD ( COYOTE RUN /)
-
-[911 Dispatch]  BRKFD:2011:170
-Dispatched
-MVA - Personal Injury
-10215 SKANEATELES TRNPK , BROOKFIELD ( VIDLER RD / OULEOU
-
-[911 Dispatch]  BRKFD:2011:169
-Dispatched
-Assault/Sexual Assault
-2118 FRIAR RD , BROOKFIELD ( / VIDLER RD)
-
-[911 Dispatch]  BRKFD:2011:167
-Dispatched
-Breathing Problem
-10505 MAIN , BROOKFIELD
-
-[911 Dispatch]  BRKFD:2011:166
-Dispatched
-MVA - Personal Injury
-BEAVER CREEK RD , BROOKFIELD
-
-[911 Dispatch]  BRKFD:2011:165
-Dispatched
-Traumatic Injuries
-@SCHOOL BOCES BROOKFIELD CENTRAL SCHOOL (1910 FAIRGROUND RD
-
-[911 Dispatch]  BRKFD:2011:164
-Dispatched
-Sick Person
-10799 HOXIE RD , BROOKFIELD ( COYOTE RUN /)
-
-[911 Dispatch]  BRKFD:2011:163
-Dispatched
-Traumatic Injuries
-1910 FAIRGROUND RD , BROOKFIELD ( / ELM)
+Madison County, NY  (in progress)
 **********************************************************
 Atlanticare EMS, NJ (Atlantic & Cape May Counties)
 Contact: Me <grbrown@fastmail.net>
@@ -3450,7 +3400,7 @@ Sender: 93001030
 34:10/05/2011 22:21:57|DWELLING FIRE|199 GOAR ST SW|FERN AVE SW|RONE AVE SW
 37:10/07/2011 22:05:08|DWELLING FIRE|2873 SIGNAL CT SW|PULLMAN ST SW
 **********************************************************
-Weld County, CO (variantn of Greeley, CO)
+Weld County, CO (variant of Greeley, CO)
 Contact: Kevin Hudson <motorworks3@gmail.com>
 Sender: 93001026
 Dispatch,From GP9064:SUFFICIENT HELP OS AT CR 61/HY 34 PER COMMAND
