@@ -115,9 +115,16 @@ public class NCAlexanderCountyParserTest extends BaseParserTest {
         "CALL:TRAUMATIC INJURIES",
         "CODE:30B02",
         "X:SHUFORD RD & RURITAN PARK RD");
+
+    doTest("T15",
+        "CAD:7400 NC 16 HWY N;DEAL APPLE ORCHARDS;LZ SETUP;OLD NC 16 HWY;DEAL ORCHARD LN",
+        "ADDR:7400 NC 16 HWY N",
+        "PLACE:DEAL APPLE ORCHARDS",
+        "CALL:LZ SETUP",
+        "X:OLD NC 16 HWY & DEAL ORCHARD LN");
   }
 
   public static void main(String[] args) {
-    new NCAlexanderCountyParserTest().generateTests("T14", "ADDR PLACE CALL CODE X");
+    new NCAlexanderCountyParserTest().generateTests("T15", "ADDR PLACE CALL CODE X");
   }
 }
