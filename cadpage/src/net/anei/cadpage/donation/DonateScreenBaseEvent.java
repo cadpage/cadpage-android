@@ -80,7 +80,7 @@ public abstract class DonateScreenBaseEvent extends DonateEvent {
    */
   public static DonateScreenBaseEvent getScreenEvent(String classname) {
     DonateScreenBaseEvent event = screenEventMap.get(classname);
-    if (event == null) throw new RuntimeException("Not Event registered for " + classname);
+    if (event == null) throw new RuntimeException("No Event registered for " + classname);
     return event;
   }
 
