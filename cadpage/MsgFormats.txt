@@ -670,6 +670,11 @@ MARINE INCIDENT, - SEARCH at BLOCK ISLAND RD BRANFORD, GUILFORD . . 14:27:56
 CODE 5,- AUTOMATIC FIRE ALARM at 275 LAKE DRIVE GUILFORD 15:57
 CODE 1,- AUTOMATIC FIRE ALARM at 35 STATE STREET, GUILFORD 17:15 cross street 1-begins at broad st;115-Boston Post Road;180-North Street
 ***************************************************************************
+Roxbury, CT (CTRoxburyParser)
+FRM:globalpaging@nowestps.org\nSUBJ:From Northwest\nMSG:FLAG SWAMP RD & SOUTH ST  ROXBURY MVA EMS ROX AMB RO EMSX RO ENG12 ROX RES9 ROX FD1 Primary Incident: 040734\n\n(End)
+FRM:globalpaging@nowestps.org\nSUBJ:From Northwest\nMSG:39 TRANSYLVANIA RD  ROXBURY CHOKING ABNORM BREATH (PARTIAL OBSTRUCT) ROX AMB RO EMSX Primary Incident: 040410\n\n(End)
+FRM:globalpaging@nowestps.org\nSUBJ:From Northwest\nMSG:102 PAINTER HILL RD  ROXBURY FAINTING/SYNCOPE ROX AMB RO EMSX Primary Incident: 040378\n\n(End)
+***************************************************************************
 North Branford & Northford, CT (CTNorthBrandonParser)
 1100008173 MEDICAL MEDA 00167  BRANFORD RD HUBBARD RD/TWIN LAKE RD  MED4 503 110910 11:50
 1100008148 MEDICAL MEDD 00009  SALEM ST CLINTONVILLE RD/VILLAGE ST  MED4 R2 110909 17:55
@@ -3309,63 +3314,14 @@ Contact: jeff tomczak <jtfire80@gmail.com>
 Sender: ALERTS@UGFD.ORG
 1080005 21:39:27 14-10-11 2556 CRESTLINE DR XST: QUAIL RUN/STONY CREEK RD MUN:WORC NAT: CARDIAC EMERGENCY,MAP/BOX-PLAN:64-10/ ADC:3256A1,I#E1154804,TIME: 21:39:40,NOTES:  42/F C/A- CHEST PAINS ALSO HAS PAIN IN HER JAW  TRUCKS: 308-21,QX80
 **********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
 ************  READY TO ROLL ******************************
-**********************************************************
-**********************************************************
-**********************************************************
-Roxbury, CT
-Contact: Mike Josefson <mikejosefson@gmail.com>
-Sender: globalpaging@nowestps.org
-** PRIORITY **
-First unit code will be RO or ROX
-
-FRM:globalpaging@nowestps.org
-SUBJ:From Northwest
-MSG:FLAG SWAMP RD & SOUTH ST  ROXBURY MVA EMS ROX AMB RO EMSX RO ENG12 ROX RES9 ROX FD1
-Primary Incident: 040734
-
-(End)
-
-
-FRM:globalpaging@nowestps.org
-SUBJ:From Northwest
-MSG:39 TRANSYLVANIA RD  ROXBURY CHOKING ABNORM BREATH (PARTIAL OBSTRUCT) ROX AMB RO
-EMSX Primary Incident: 040410
-
-(End)
-
-
-FRM:globalpaging@nowestps.org
-SUBJ:From Northwest
-MSG:102 PAINTER HILL RD  ROXBURY FAINTING/SYNCOPE ROX AMB RO EMSX Primary Incident: 040378
-
-(End)
-
-
-FRM:globalpaging@nowestps.org
-SUBJ:From Northwest
-MSG:314 PAINTER HILL RD  ROXBURY FIRE ALARM RO ENG12 RO ENG10 RO TKR11 ROX RES9 ROX FD1
-Primary Incident: 00120
-
-(End)
-
-
-FRM:globalpaging@nowestps.org
-SUBJ:From Northwest
-MSG:71 SOUTH ST  ROXBURY FIRE ALARM RO ENG12 RO ENG10 RO TKR11 ROX RES9 ROX FD1 Primary Incident: 00119
-
-
-(End)
-
-
-FRM:globalpaging@nowestps.org
-SUBJ:From Northwest
-MSG:BOTSFORD HILL RD & GOLDEN HARVEST RD  ROXBURY WIRES DOWN/FIRE ROX RES9 ROX FD1
-Primary Incident: 00109
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
 **********************************************************
 **********************************************************
 Madison County, NY  (in progress)
