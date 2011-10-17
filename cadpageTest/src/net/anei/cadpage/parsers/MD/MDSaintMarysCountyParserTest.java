@@ -540,9 +540,15 @@ public class MDSaintMarysCountyParserTest extends BaseParserTest {
          "X:GREENTREE SOUTH DR",
          "CITY:LEXINGTON PARK",
          "UNIT:ST39 A389 ALS");
+
+     doTest("T59",
+         "((43652) CAD ) 12:29:09*Breathing Difficulties*23263 BY THE MILL RD*ALS ST38*60 year old, Female, Conscious, Breathing.*",
+         "CALL:Breathing Difficulties",
+         "ADDR:23263 BY THE MILL RD",
+         "X:ALS ST38 / 60 year old, Female, Conscious, Breathing.");
   }
 
   public static void main(String[] args) {
-    new MDSaintMarysCountyParserTest().generateTests("T58", "CALL PLACE ADDR APT X CITY UNIT INFO");
+    new MDSaintMarysCountyParserTest().generateTests("T59", "CALL PLACE ADDR APT X CITY UNIT INFO");
   }
 }
