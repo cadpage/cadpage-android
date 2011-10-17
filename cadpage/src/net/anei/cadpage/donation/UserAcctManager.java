@@ -55,10 +55,13 @@ public abstract class UserAcctManager {
       String[] paid2011List = context.getResources().getStringArray(R.array.paid_2011_list);
       for (Account acct : accts) {
         if (acct.type.equals("com.google")) {
+          String name = acct.name;
+          int pt = name.indexOf('<');
+          if (pt >= 0) name = name.substring(0,pt);
           String hash = calcHash(acct.name);
-          if (userEmail == null) userEmail = acct.name;
+          if (userEmail == null) userEmail = name;
           if (Arrays.binarySearch(freeList, hash) >= 0) {
-            userEmail = acct.name;
+            userEmail = name;
             ManagePreferences.setFreeRider(true);
           }
           if (Arrays.binarySearch(paid2011List, hash) >= 0) {
@@ -66,7 +69,7 @@ public abstract class UserAcctManager {
             if (ManagePreferences.purchaseDate() == null) {
               ManagePreferences.setPurchaseDate(new Date());
             }
-            if (userEmail == null) userEmail = acct.name;
+            if (userEmail == null) userEmail = name;
           }
         }
       }
