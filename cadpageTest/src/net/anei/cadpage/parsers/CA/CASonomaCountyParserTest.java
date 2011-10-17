@@ -218,6 +218,17 @@ public class CASonomaCountyParserTest extends BaseParserTest {
         "CALL:STRU",
         "APT:7",
         "INFO:SOME KIND OF ODD BEEPING HAS BEEN GOING ON INSIDE THE APT 7 RP");
+
+    doTest("T23",
+        "Loc: 1051 YUBA DR ROS BOX: 3147 B2 CN: WILLIAMS RUTH C#: (707) 544-8224 TYP: STRU CALLER ADDR: 962 YUBA DR TIME: 17:59:51 COM:  SMOKE FROM THE ROOF RED HOUS",
+        "SRC:ROS",
+        "ADDR:1051 YUBA DR",
+        "BOX:3147 B2",
+        "CALL:STRU",
+        "NAME:WILLIAMS RUTH",
+        "PHONE:(707) 544-8224",
+        "INFO:SMOKE FROM THE ROOF RED HOUS");
+
  }
   
   @Test
