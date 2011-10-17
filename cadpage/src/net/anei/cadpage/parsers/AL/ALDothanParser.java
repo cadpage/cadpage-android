@@ -9,6 +9,7 @@ import net.anei.cadpage.parsers.FieldProgramParser;
 Dothan AL
 Contact: "hassain3738@gmail.com" <hassain3738@gmail.com>
 Contact: Tracy Faulkner <ycartf@gmail.com>
+Contact: Chad Proctor <xyi9130@gmail.com>
 Sender: Robot.ALERT@dothan.org
  
 15:49:38/SC-Service Call Non-Emergency/801 E LAFAYETTE ST/DOTHAN/14523968/ref lines fell at front door, see c404/
@@ -43,6 +44,7 @@ Sender: Robot.ALERT@dothan.org
 16:52:57/OF-Outdoor Fire-Level 1/100 PEMCO DR/DOTHAN/PEMCO/769381254/BEHIND HANGER 15 GRASS IN FIELD.. TRANSFORMER BLOWN/
 15:21:59/S38C-Medical Call-Code II-Non Emgy/115 W ADAMS ST STE2/DOTHAN/MAGISTRATES/DOTHAN/15394628/
 12:52:08/S38A-Medical Call-Code III Crit-Emg/25 GOVERNOR DR/DOTHAN/WALLACE COLLEGE/769381254/PREGNANT PT ~~ LIGHT HEADED ~~ WALLACE HALL BLDG 25 UNK AGE/
+19:52:43/S8BE-MVC-Code III/915 MURBO RD INTERSECTN/COTTONWOOD/FLETCHER SMITH RD/CWRSB/VEH VS MOTORCYLE/
 
 */
 public class ALDothanParser extends FieldProgramParser {
@@ -60,10 +62,7 @@ public class ALDothanParser extends FieldProgramParser {
   
   @Override
   protected boolean parseMsg(String body, Data data) {
-    if (!parseFields(body.split("/"), data)) return false;
-    
-    // ID field is required, unless this is a mutual aid call
-    return (data.strCallId.length() > 0 || data.strCall.startsWith("MAID-"));
+    return parseFields(body.split("/"), data);
   }
   
   private class TimeField extends SkipField {
