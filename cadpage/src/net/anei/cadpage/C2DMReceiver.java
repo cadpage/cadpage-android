@@ -20,6 +20,7 @@ package net.anei.cadpage;
 
 
 import net.anei.cadpage.parsers.SmsMsgParser;
+import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.PendingIntent;
 import android.content.BroadcastReceiver;
@@ -36,6 +37,8 @@ public class C2DMReceiver extends BroadcastReceiver {
   private static final String ACTION_C2DM_REGISTERED = "com.google.android.c2dm.intent.REGISTRATION";
   private static final String ACTION_C2DM_RECEIVE = "com.google.android.c2dm.intent.RECEIVE";
   private static final String C2DM_SENDER_EMAIL = "alerts@cadpage.org";
+  
+  private static Activity curActivity = null;
 
   @Override
   public void onReceive(Context context, Intent intent) {
@@ -57,11 +60,13 @@ public class C2DMReceiver extends BroadcastReceiver {
     String error = intent.getStringExtra("error");
     if (error != null) {
       Log.w("C2DM registration failed: " + error);
-      new AlertDialog.Builder(context)
-            .setIcon(R.drawable.ic_launcher).setTitle("C2DM Registration Error")
-            .setPositiveButton(R.string.donate_btn_OK, null)
-            .setMessage(error)
-            .create().show();
+      if (curActivity != null) {
+        new AlertDialog.Builder(curActivity)
+              .setIcon(R.drawable.ic_launcher).setTitle("C2DM Registration Error")
+              .setPositiveButton(R.string.donate_btn_OK, null)
+              .setMessage(error)
+              .create().show();
+      }
       return;
     }
     
@@ -69,23 +74,27 @@ public class C2DMReceiver extends BroadcastReceiver {
     if (regId != null) {
       ManagePreferences.setRegistrationId(null);
       Log.w("C2DM registration cancelled: " + regId);
-      new AlertDialog.Builder(context)
-            .setIcon(R.drawable.ic_launcher).setTitle("C2DM Registration Cancelled")
-            .setPositiveButton(R.string.donate_btn_OK, null)
-            .setMessage(regId)
-            .create().show();
+      if (curActivity != null) {
+        new AlertDialog.Builder(curActivity)
+              .setIcon(R.drawable.ic_launcher).setTitle("C2DM Registration Cancelled")
+              .setPositiveButton(R.string.donate_btn_OK, null)
+              .setMessage(regId)
+              .create().show();
+      }
       return;
     }
     
     regId = intent.getStringExtra("registration_id");
     if (regId != null) {
       ManagePreferences.setRegistrationId(regId);
-      Log.w("C2DM registration cancelled: " + regId);
-      new AlertDialog.Builder(context)
-            .setIcon(R.drawable.ic_launcher).setTitle("C2DM Registration Succeeded")
-            .setPositiveButton(R.string.donate_btn_OK, null)
-            .setMessage(regId)
-            .create().show();
+      Log.w("C2DM registration succeeded: " + regId);
+      if (curActivity != null) {
+        new AlertDialog.Builder(curActivity)
+              .setIcon(R.drawable.ic_launcher).setTitle("C2DM Registration Succeeded")
+              .setPositiveButton(R.string.donate_btn_OK, null)
+              .setMessage(regId)
+              .create().show();
+      }
       return;
     }
     
@@ -126,6 +135,22 @@ public class C2DMReceiver extends BroadcastReceiver {
     if (!isPage) return;
     SmsReceiver.processCadPage(context, message);
   }
+  
+  /**
+   * Register activity to be used to generate any alert dialogs
+   * @param activity
+   */
+  public static void registerActivity(Activity activity) {
+    curActivity = activity;
+  }
+  
+  /**
+   * Unregister activity previously registered for any generated alert dialogs
+   * @param activity
+   */
+  public static void unregisterActivity(Activity activity) {
+    if (curActivity == activity) curActivity = null;
+  }
 
   public static void register(Context context) {
     Intent intent = new Intent(ACTION_C2DM_REGISTER);
@@ -144,8 +169,6 @@ public class C2DMReceiver extends BroadcastReceiver {
     
     // Build send email intent and launch it
     Intent intent = new Intent(Intent.ACTION_SEND);
-    String[] emailAddr = context.getResources().getStringArray(R.array.email_devel_addr);
-    intent.putExtra(Intent.EXTRA_EMAIL, emailAddr);
     String emailSubject = CadPageApplication.getNameVersion() + " C2DM registrion ID";
     intent.putExtra(Intent.EXTRA_SUBJECT, emailSubject);
     intent.putExtra(Intent.EXTRA_TEXT, "My C2DM registration ID is " + ManagePreferences.getRegistrationId());

@@ -335,8 +335,13 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
   private String oldLocation = null;
   private String oldTextSize =null;
   private boolean oldSplitBlank = false;
+  
+  
   @Override
   protected void onStart() {
+    
+    C2DMReceiver.registerActivity(this);
+    
     oldLocation = ManagePreferences.location();
     oldTextSize = ManagePreferences.textSize();
     oldSplitBlank = ManagePreferences.splitBlankIns();
@@ -353,6 +358,8 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
     if (! location.equals(oldLocation) || ! textSize.equals(oldTextSize)) {
       SmsMessageQueue.getInstance().notifyDataChange();
     }
+    
+    C2DMReceiver.unregisterActivity(this);
   }
   
   /**
