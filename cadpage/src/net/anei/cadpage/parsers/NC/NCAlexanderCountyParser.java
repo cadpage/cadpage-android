@@ -36,11 +36,15 @@ CAD:21 MAIN AVENUE DR;BB&T BANK;TRAFFIC ACCIDENT;29D02m;E MAIN AV;TOWN PARK ST
 Contact: "" <drewrescue1@att.net>
 CAD:8510 NC 90 HWY E;SHURTAPE TECHNOLOGIES INC;TRAUMATIC INJURIES;30B02;SHUFORD RD;RURITAN PARK RD
 
+Contact: Greg Foster <gfoster630@gmail.com>
+CAD:7400 NC 16 HWY N;DEAL APPLE ORCHARDS;LZ SETUP;OLD NC 16 HWY;DEAL ORCHARD LN
+
 */
 
 public class NCAlexanderCountyParser extends SmartAddressParser {
   
   private static final Pattern CODE_PTN = Pattern.compile("\\d{1,2}[A-Z]\\d{1,2}[a-z]?");
+  private static final Pattern NC_PTN = Pattern.compile("\\bNC\\b");
   
   public NCAlexanderCountyParser() {
     super("ALEXANDER COUNTY", "NC");
@@ -68,7 +72,7 @@ public class NCAlexanderCountyParser extends SmartAddressParser {
       if (ndx >= flds.length) break;
       String field = flds[ndx].trim();
       code = CODE_PTN.matcher(field).matches();
-      if (code || field.startsWith("NC ") || field.startsWith("US ") || 
+      if (code || NC_PTN.matcher(field).find() || field.startsWith("US ") || 
           checkAddress(field) > 0) break;
       if (++ndx > 3) return false;
     }
