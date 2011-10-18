@@ -45,6 +45,12 @@ Subject:<CAD> - part 1 of 1\nRC:Run# 17991/391 MILL ST/P-2 Emergency No Lights/D
 Subject:<CAD> - part 1 of 1\nRC:Run# 17893/235 GATEWAY DR/P-1 Life Threatening Emergency/105/Breathing Problems//ALS/CLARE///<Unknow
 Subject:<CAD> - part 1 of 1\nRC:Run# 17970/602 BEECH ST/P-5 Local Transport/2ND FLOOR 205-A MED SURG/Int-Sick Person-Specify in Comm
 
+Atlanticare EMS, NJ (Atlantic & Cape May Counties)
+[NOPHI MEDCOM - part 1 of 1]  RC:Run# 54365/LINWOOD-EMS/199 NEW RD/law office in central square/LINWOOD/11:14/////////<Unknown>
+[NOPHI MEDCOM - part 1 of 1]  RC:Run# 54353/MICU/42 ROUTE 50/X KRUK TERRACE/OCEAN VIEW/10:16///////SEAVILLE//<Unknown>
+[NOPHI MEDCOM - part 1 of 1]  RC:Run# 54345/MICU/117 HARRISON AVE/x new rd/PLEASANTVILLE/09:36/////////<Unknown>
+[NOPHI MEDCOM - part 1 of 1]  RC:Run# 54374/MICU/301 W  DELILAH RD/U7/PLEASANTVILLE/12:08/////////<Unknown>
+
 */
 
 public class DispatchProQAParser extends FieldProgramParser {
@@ -57,6 +63,10 @@ public class DispatchProQAParser extends FieldProgramParser {
   
   protected DispatchProQAParser(Properties cityCodes, String defCity, String defState, String program) {
     super(cityCodes, defCity, defState, program);
+  }
+  
+  protected DispatchProQAParser(String[] cityList, String defCity, String defState, String program) {
+    super(cityList, defCity, defState, program);
   }
 
   @Override

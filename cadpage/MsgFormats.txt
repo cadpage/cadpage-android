@@ -287,6 +287,11 @@ Subject:<CAD> - part 1 of 1\nRC:Run# 17656/11775 N ISABELLA RD/P-2 Emergency No 
 Subject:<CAD> - part 1 of 1\nRC:Run# 17612/7800 LUDINGTON DR/P-3 Downgrade  (No Lts/Sirens)//Falls/x gibson and lake station ave on 
 Subject:<CAD> - part 1 of 1\nRC:Run# 16888/7181 N CLARE/P-1 Life Threatening Emergency//Cardiac or Respiratory Arrest/Death/x forres
 *******************************************************************************
+Atlanticare EMS, NJ (NJAtlanticareEMSParser)
+[NOPHI MEDCOM - part 1 of 1]  RC:Run# 54365/LINWOOD-EMS/199 NEW RD/law office in central square/LINWOOD/11:14/////////<Unknown>
+[NOPHI MEDCOM - part 1 of 1]  RC:Run# 54353/MICU/42 ROUTE 50/X KRUK TERRACE/OCEAN VIEW/10:16///////SEAVILLE//<Unknown>
+[NOPHI MEDCOM - part 1 of 1]  RC:Run# 54345/MICU/117 HARRISON AVE/x new rd/PLEASANTVILLE/09:36/////////<Unknown>
+*******************************************************************************
 Buffalo, NY (NYBuffaloParser)
 RC:Run# 4330/1 Hot 911 & Pvt/28B1 Stroke/CVA-unknown status/189 LANGFIELD DR///BUFFALO/14215////14:18/<Unknown>////X=TOWER ST&SUFFOLK ST
 RC:Run# 3992/1 Hot 911 & Pvt/29B1 Traffic/Transport Accidents-injuries/E  LOVEJOY ST & N  OGDEN ST///BUFFALO/14206////17:35/<Unknown>////X=SCHILLER ST&N OGDEN 
@@ -3320,15 +3325,6 @@ Sender: ALERTS@UGFD.ORG
 **********************************************************
 Madison County, NY  (in progress)
 **********************************************************
-Atlanticare EMS, NJ (Atlantic & Cape May Counties)
-Contact: Me <grbrown@fastmail.net>
-Sender: medcom@medcom.com
-Use DispatchProQAParsaer
-[NOPHI MEDCOM - part 1 of 1]  RC:Run# 54365/LINWOOD-EMS/199 NEW RD/law office in central square/LINWOOD/11:14/////////<Unknown>
-[NOPHI MEDCOM - part 1 of 1]  RC:Run# 54353/MICU/42 ROUTE 50/X KRUK TERRACE/OCEAN VIEW/10:16///////SEAVILLE//<Unknown>
-[NOPHI MEDCOM - part 1 of 1]  RC:Run# 54345/MICU/117 HARRISON AVE/x new rd/PLEASANTVILLE/09:36/////////<Unknown>
-[NOPHI MEDCOM - part 1 of 1]  RC:Run# 54374/MICU/301 W  DELILAH RD/U7/PLEASANTVILLE/12:08/////////<Unknown>
-[NOPHI MEDCOM - part 1 of 1]  RC:Run# 54384/MICU/13 MANCHESTER ST/x s moore rd/ABSECON/12:29/////////<Unknown>
 **********************************************************
 Chengango County, NY
 Contact: Joshua VanSteenburg <jvansteenburg1985@gmail.com>
