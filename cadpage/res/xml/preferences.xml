@@ -19,448 +19,455 @@
       android:title="@string/pref_notif_title"
       android:summary="@string/pref_notif_summary"
       android:dependency="@string/pref_enabled_key">
-          <PreferenceCategory
-            android:title="@string/pref_notif_default_title">
-            <CheckBoxPreference
-              android:key="@string/pref_notif_enabled_key"
-              android:title="@string/pref_notif_enabled_title"
-              android:summaryOn="@string/pref_notif_enabled_summaryon"
-              android:summaryOff="@string/pref_notif_enabled_summaryoff"
-              android:defaultValue="true" />
-            <CheckBoxPreference
-              android:key="@string/pref_notif_override_key"
-              android:title="@string/pref_notif_override_title"
-              android:summary="@string/pref_notif_override_summary"
-              android:summaryOn="@string/pref_notif_override_summaryon"
-              android:summaryOff="@string/pref_notif_override_summaryoff"
-              android:defaultValue="false" />
-            <RingtonePreference
-              android:key="@string/pref_notif_sound_key"
-              android:title="@string/pref_notif_sound_title"
-              android:summary="@string/pref_notif_sound_summary"
-              android:ringtoneType="all"
-              android:showDefault="true"
-              android:showSilent="true"
-              android:dependency="@string/pref_notif_enabled_key"
-              android:defaultValue="content://settings/system/notification_sound" />
-            <net.anei.cadpage.preferences.TestNotificationDialogPreference
-              android:key="@string/pref_notif_test_key"
-              android:dialogIcon="@drawable/android:ic_dialog_alert"
-              android:title="@string/pref_notif_test_title"
-              android:dialogTitle="@string/pref_notif_test_title"
-              android:dialogMessage="@string/pref_notif_test_message"
-              android:summary="@string/pref_notif_test_summary"
-              android:dependency="@string/pref_notif_enabled_key"
-              android:negativeButtonText="@null" />
-          
-          </PreferenceCategory>
-          <PreferenceCategory
-            android:title="@string/pref_vibrate_category_title">
-            <CheckBoxPreference
-              android:key="@string/pref_vibrate_key"
-              android:title="@string/pref_vibrate_title"
-              android:summaryOn="@string/pref_vibrate_summaryon"
-              android:summaryOff="@string/pref_vibrate_summaryoff"
-              android:defaultValue="@string/pref_vibrate_default"
-              android:dependency="@string/pref_notif_enabled_key" />
-            <net.anei.cadpage.preferences.ListPreference
-              android:key="@string/pref_vibrate_pattern_key"
-              android:title="@string/pref_vibrate_pattern_title"
-              android:summary="@string/pref_vibrate_pattern_summary"
-              android:entries="@array/pref_vibrate_pattern_entries"
-              android:entryValues="@array/pref_vibrate_pattern_values"
-              android:defaultValue="@string/pref_vibrate_pattern_default"
-              android:dependency="@string/pref_vibrate_key" />
-          </PreferenceCategory>
-          <PreferenceCategory
-            android:title="@string/pref_flashled_category_title">
-            <CheckBoxPreference
-              android:key="@string/pref_flashled_key"
-              android:title="@string/pref_flashled_title"
-              android:summaryOn="@string/pref_flashled_summaryon"
-              android:summaryOff="@string/pref_flashled_summaryoff"
-              android:defaultValue="@string/pref_flashled_default"
-              android:dependency="@string/pref_notif_enabled_key" />
-            <net.anei.cadpage.preferences.ListPreference
-              android:key="@string/pref_flashled_color_key"
-              android:title="@string/pref_flashled_color_title"
-              android:summary="@string/pref_flashled_color_summary"
-              android:entries="@array/pref_led_color_entries"
-              android:entryValues="@array/pref_led_color_values"
-              android:defaultValue="@string/pref_flashled_color_default"
-              android:dependency="@string/pref_flashled_key" />
-            <net.anei.cadpage.preferences.ListPreference
-              android:key="@string/pref_flashled_pattern_key"
-              android:title="@string/pref_flashled_pattern_title"
-              android:summary="@string/pref_flashled_pattern_summary"
-              android:entries="@array/pref_led_pattern_entries"
-              android:entryValues="@array/pref_led_pattern_values"
-              android:defaultValue="@string/pref_flashled_pattern_default"
-              android:dependency="@string/pref_flashled_key" />
-          </PreferenceCategory>
-          <PreferenceCategory
-            android:title="@string/pref_reminder_category_title">
-            <CheckBoxPreference
-              android:key="@string/pref_notif_repeat_key"
-              android:title="@string/pref_notif_repeat_title"
-              android:summaryOn="@string/pref_notif_repeat_summaryon"
-              android:summaryOff="@string/pref_notif_repeat_summaryoff"
-              android:defaultValue="@string/pref_notif_repeat_default" />
-            <net.anei.cadpage.preferences.ListPreference
-              android:key="@string/pref_notif_repeat_times_key"
-              android:title="@string/pref_notif_repeat_times_title"
-              android:summary="@string/pref_notif_repeat_times_summary"
-              android:entries="@array/pref_notif_repeat_times_entries"
-              android:entryValues="@array/pref_notif_repeat_times_values"
-              android:defaultValue="@string/pref_notif_repeat_times_default"
-              android:dependency="@string/pref_notif_repeat_key" />
-            <net.anei.cadpage.preferences.ListPreference
-              android:key="@string/pref_notif_repeat_interval_key"
-              android:title="@string/pref_notif_repeat_interval_title"
-              android:summary="@string/pref_notif_repeat_interval_summary"
-              android:entries="@array/pref_notif_repeat_interval_entries"
-              android:entryValues="@array/pref_notif_repeat_interval_entries"
-              android:dialogTitle="@string/pref_notif_repeat_interval_dialogTitle"
-              android:defaultValue="@string/pref_notif_repeat_interval_default"
-              android:dependency="@string/pref_notif_repeat_key" />
-          </PreferenceCategory>
-      </PreferenceScreen>
+      <PreferenceCategory
+        android:title="@string/pref_notif_default_title">
+        <CheckBoxPreference
+          android:key="@string/pref_notif_enabled_key"
+          android:title="@string/pref_notif_enabled_title"
+          android:summaryOn="@string/pref_notif_enabled_summaryon"
+          android:summaryOff="@string/pref_notif_enabled_summaryoff"
+          android:defaultValue="true" />
+        <CheckBoxPreference
+          android:key="@string/pref_notif_override_key"
+          android:title="@string/pref_notif_override_title"
+          android:summary="@string/pref_notif_override_summary"
+          android:summaryOn="@string/pref_notif_override_summaryon"
+          android:summaryOff="@string/pref_notif_override_summaryoff"
+          android:defaultValue="false" />
+        <RingtonePreference
+          android:key="@string/pref_notif_sound_key"
+          android:title="@string/pref_notif_sound_title"
+          android:summary="@string/pref_notif_sound_summary"
+          android:ringtoneType="all"
+          android:showDefault="true"
+          android:showSilent="true"
+          android:dependency="@string/pref_notif_enabled_key"
+          android:defaultValue="content://settings/system/notification_sound" />
+        <net.anei.cadpage.preferences.TestNotificationDialogPreference
+          android:key="@string/pref_notif_test_key"
+          android:dialogIcon="@drawable/android:ic_dialog_alert"
+          android:title="@string/pref_notif_test_title"
+          android:dialogTitle="@string/pref_notif_test_title"
+          android:dialogMessage="@string/pref_notif_test_message"
+          android:summary="@string/pref_notif_test_summary"
+          android:dependency="@string/pref_notif_enabled_key"
+          android:negativeButtonText="@null" />
       
-      <!-- Additional Settings Screen -->
-      <PreferenceScreen
-        android:title="@string/pref_additional_title"
-        android:key="pref_additional_key"
-        android:summary="@string/pref_additional_summary"
-        android:dependency="@string/pref_enabled_key">
-        <net.anei.cadpage.preferences.ListPreference
-            android:key="@string/pref_history_limit_key"
-            android:title="@string/pref_history_limit_title"
-            android:summary="@string/pref_history_limit_summary"
-            android:entries="@array/pref_history_limit_entries"
-            android:entryValues="@array/pref_history_limit_entries"
-            android:dialogTitle="@string/pref_history_limit_title"
-            android:defaultValue="@string/pref_history_limit_default" />
+      </PreferenceCategory>
+      <PreferenceCategory
+        android:title="@string/pref_vibrate_category_title">
         <CheckBoxPreference
-          android:key="@string/pref_delete_unopen_key"
-          android:title="@string/pref_delete_unopen_title"
-          android:summaryOn="@string/pref_delete_unopen_summaryon"
-          android:summaryOff="@string/pref_delete_unopen_summaryoff"
-          android:defaultValue="@string/pref_delete_unopen_default" />
-        <CheckBoxPreference
-          android:key="@string/pref_autorotate_key"
-          android:title="@string/pref_autorotate_title"
-          android:summaryOn="@string/pref_autorotate_summaryon"
-          android:summaryOff="@string/pref_autorotate_summaryoff"
-          android:defaultValue="@string/pref_autorotate_default" />
+          android:key="@string/pref_vibrate_key"
+          android:title="@string/pref_vibrate_title"
+          android:summaryOn="@string/pref_vibrate_summaryon"
+          android:summaryOff="@string/pref_vibrate_summaryoff"
+          android:defaultValue="@string/pref_vibrate_default"
+          android:dependency="@string/pref_notif_enabled_key" />
         <net.anei.cadpage.preferences.ListPreference
-            android:key="@string/pref_map_network_chk_key"
-            android:title="@string/pref_map_network_chk_title"
-            android:summary="@string/pref_map_network_chk_summary"
-            android:entries="@array/pref_map_network_chk_entries"
-            android:entryValues="@array/pref_map_network_chk_values"
-            android:dialogTitle="@string/pref_map_network_chk_title"
-            android:defaultValue="@string/pref_map_network_chk_default" />
-        <PreferenceCategory
-          android:title="@string/pref_popup_control">
-          <CheckBoxPreference
-            android:key="@string/pref_popup_enabled_key"
-            android:title="@string/pref_popup_enabled_title"
-            android:summaryOn="@string/pref_popup_enabled_summaryon"
-            android:summaryOff="@string/pref_popup_enabled_summaryoff"
-            android:defaultValue="true" />
-          <CheckBoxPreference
-            android:key="@string/pref_onlyShowOnKeyguard_key"
-            android:title="@string/pref_onlyShowOnKeyguard_title"
-            android:summaryOn="@string/pref_onlyShowOnKeyguard_summaryon"
-            android:summaryOff="@string/pref_onlyShowOnKeyguard_summaryoff"
-            android:defaultValue="@string/pref_onlyShowOnKeyguard_default" 
-            android:dependency="@string/pref_popup_enabled_key"/>
-          <CheckBoxPreference
-            android:key="@string/pref_noShowInCall_key"
-            android:title="@string/pref_noShowInCall_title"
-            android:summaryOn="@string/pref_noShowInCall_summaryon"
-            android:summaryOff="@string/pref_noShowInCall_summaryoff"
-            android:defaultValue="@string/pref_noShowInCall_default" 
-            android:dependency="@string/pref_popup_enabled_key"/>
+          android:key="@string/pref_vibrate_pattern_key"
+          android:title="@string/pref_vibrate_pattern_title"
+          android:summary="@string/pref_vibrate_pattern_summary"
+          android:entries="@array/pref_vibrate_pattern_entries"
+          android:entryValues="@array/pref_vibrate_pattern_values"
+          android:defaultValue="@string/pref_vibrate_pattern_default"
+          android:dependency="@string/pref_vibrate_key" />
+      </PreferenceCategory>
+      <PreferenceCategory
+        android:title="@string/pref_flashled_category_title">
+        <CheckBoxPreference
+          android:key="@string/pref_flashled_key"
+          android:title="@string/pref_flashled_title"
+          android:summaryOn="@string/pref_flashled_summaryon"
+          android:summaryOff="@string/pref_flashled_summaryoff"
+          android:defaultValue="@string/pref_flashled_default"
+          android:dependency="@string/pref_notif_enabled_key" />
+        <net.anei.cadpage.preferences.ListPreference
+          android:key="@string/pref_flashled_color_key"
+          android:title="@string/pref_flashled_color_title"
+          android:summary="@string/pref_flashled_color_summary"
+          android:entries="@array/pref_led_color_entries"
+          android:entryValues="@array/pref_led_color_values"
+          android:defaultValue="@string/pref_flashled_color_default"
+          android:dependency="@string/pref_flashled_key" />
+        <net.anei.cadpage.preferences.ListPreference
+          android:key="@string/pref_flashled_pattern_key"
+          android:title="@string/pref_flashled_pattern_title"
+          android:summary="@string/pref_flashled_pattern_summary"
+          android:entries="@array/pref_led_pattern_entries"
+          android:entryValues="@array/pref_led_pattern_values"
+          android:defaultValue="@string/pref_flashled_pattern_default"
+          android:dependency="@string/pref_flashled_key" />
+      </PreferenceCategory>
+      <PreferenceCategory
+        android:title="@string/pref_reminder_category_title">
+        <CheckBoxPreference
+          android:key="@string/pref_notif_repeat_key"
+          android:title="@string/pref_notif_repeat_title"
+          android:summaryOn="@string/pref_notif_repeat_summaryon"
+          android:summaryOff="@string/pref_notif_repeat_summaryoff"
+          android:defaultValue="@string/pref_notif_repeat_default" />
+        <net.anei.cadpage.preferences.ListPreference
+          android:key="@string/pref_notif_repeat_times_key"
+          android:title="@string/pref_notif_repeat_times_title"
+          android:summary="@string/pref_notif_repeat_times_summary"
+          android:entries="@array/pref_notif_repeat_times_entries"
+          android:entryValues="@array/pref_notif_repeat_times_values"
+          android:defaultValue="@string/pref_notif_repeat_times_default"
+          android:dependency="@string/pref_notif_repeat_key" />
+        <net.anei.cadpage.preferences.ListPreference
+          android:key="@string/pref_notif_repeat_interval_key"
+          android:title="@string/pref_notif_repeat_interval_title"
+          android:summary="@string/pref_notif_repeat_interval_summary"
+          android:entries="@array/pref_notif_repeat_interval_entries"
+          android:entryValues="@array/pref_notif_repeat_interval_entries"
+          android:dialogTitle="@string/pref_notif_repeat_interval_dialogTitle"
+          android:defaultValue="@string/pref_notif_repeat_interval_default"
+          android:dependency="@string/pref_notif_repeat_key" />
+      </PreferenceCategory>
+    </PreferenceScreen>
+    
+    <!-- Additional Settings Screen -->
+    <PreferenceScreen
+      android:title="@string/pref_additional_title"
+      android:key="pref_additional_key"
+      android:summary="@string/pref_additional_summary"
+      android:dependency="@string/pref_enabled_key">
+      <net.anei.cadpage.preferences.ListPreference
+          android:key="@string/pref_history_limit_key"
+          android:title="@string/pref_history_limit_title"
+          android:summary="@string/pref_history_limit_summary"
+          android:entries="@array/pref_history_limit_entries"
+          android:entryValues="@array/pref_history_limit_entries"
+          android:dialogTitle="@string/pref_history_limit_title"
+          android:defaultValue="@string/pref_history_limit_default" />
+      <CheckBoxPreference
+        android:key="@string/pref_delete_unopen_key"
+        android:title="@string/pref_delete_unopen_title"
+        android:summaryOn="@string/pref_delete_unopen_summaryon"
+        android:summaryOff="@string/pref_delete_unopen_summaryoff"
+        android:defaultValue="@string/pref_delete_unopen_default" />
+      <CheckBoxPreference
+        android:key="@string/pref_autorotate_key"
+        android:title="@string/pref_autorotate_title"
+        android:summaryOn="@string/pref_autorotate_summaryon"
+        android:summaryOff="@string/pref_autorotate_summaryoff"
+        android:defaultValue="@string/pref_autorotate_default" />
+      <net.anei.cadpage.preferences.ListPreference
+          android:key="@string/pref_map_network_chk_key"
+          android:title="@string/pref_map_network_chk_title"
+          android:summary="@string/pref_map_network_chk_summary"
+          android:entries="@array/pref_map_network_chk_entries"
+          android:entryValues="@array/pref_map_network_chk_values"
+          android:dialogTitle="@string/pref_map_network_chk_title"
+          android:defaultValue="@string/pref_map_network_chk_default" />
+      <PreferenceCategory
+        android:title="@string/pref_popup_control">
+        <CheckBoxPreference
+          android:key="@string/pref_popup_enabled_key"
+          android:title="@string/pref_popup_enabled_title"
+          android:summaryOn="@string/pref_popup_enabled_summaryon"
+          android:summaryOff="@string/pref_popup_enabled_summaryoff"
+          android:defaultValue="true" />
+        <CheckBoxPreference
+          android:key="@string/pref_onlyShowOnKeyguard_key"
+          android:title="@string/pref_onlyShowOnKeyguard_title"
+          android:summaryOn="@string/pref_onlyShowOnKeyguard_summaryon"
+          android:summaryOff="@string/pref_onlyShowOnKeyguard_summaryoff"
+          android:defaultValue="@string/pref_onlyShowOnKeyguard_default" 
+          android:dependency="@string/pref_popup_enabled_key"/>
+        <CheckBoxPreference
+          android:key="@string/pref_noShowInCall_key"
+          android:title="@string/pref_noShowInCall_title"
+          android:summaryOn="@string/pref_noShowInCall_summaryon"
+          android:summaryOff="@string/pref_noShowInCall_summaryoff"
+          android:defaultValue="@string/pref_noShowInCall_default" 
+          android:dependency="@string/pref_popup_enabled_key"/>
         <CheckBoxPreference
             android:summaryOff="@string/pref_passthrusms_summaryoff" android:summaryOn="@string/pref_passthrusms_summaryon" android:defaultValue="@string/pref_passthrusms_default" android:title="@string/pref_passthrusms_title" android:key="@string/pref_passthrusms_key"/>
-        </PreferenceCategory>
-        <PreferenceCategory
-          android:title="@string/pref_screen_category">
-          <CheckBoxPreference
-            android:key="@string/pref_screen_on_key"
-            android:title="@string/pref_screen_on_title"
-            android:summaryOn="@string/pref_screen_on_summaryon"
-            android:summaryOff="@string/pref_screen_on_summaryoff"
-            android:defaultValue="@string/pref_screen_on_default" />
-          <net.anei.cadpage.preferences.ListPreference
-            android:key="@string/pref_timeout_key"
-            android:title="@string/pref_timeout_title"
-            android:summary="@string/pref_timeout_summary"
-            android:entries="@array/pref_timeout_entries"
-            android:entryValues="@array/pref_timeout_values"
-            android:defaultValue="@string/pref_timeout_default"
-            android:dependency="@string/pref_screen_on_key" />
-          <net.anei.cadpage.preferences.ListPreference
-            android:key="@string/pref_textsize_key"
-            android:title="@string/pref_textsize_title"
-            android:summary="@string/pref_textsize_summary"
-            android:entries="@array/pref_textsize_entries"
-            android:entryValues="@array/pref_textsize_values"
-            android:defaultValue="@string/pref_textsize_default"
-            android:dependency="@string/pref_screen_on_key" />  
-          <CheckBoxPreference
-            android:key="@string/pref_dimscreen_key"
-            android:title="@string/pref_dimscreen_title"
-            android:summaryOn="@string/pref_dimscreen_summaryon"
-            android:summaryOff="@string/pref_dimscreen_summaryoff"
-            android:defaultValue="@string/pref_dimscreen_default"
-            android:dependency="@string/pref_screen_on_key" />
-          <CheckBoxPreference
-            android:key="@string/pref_privacy_key"
-            android:title="@string/pref_privacy_title"
-            android:summaryOn="@string/pref_privacy_summaryon"
-            android:summaryOff="@string/pref_privacy_summaryoff"
-            android:defaultValue="@string/pref_privacy_default"
-            android:dependency="@string/pref_screen_on_key" />
-          <CheckBoxPreference
-            android:key="@string/pref_show_personal_key"
-            android:title="@string/pref_show_personal_title"
-            android:summaryOn="@string/pref_show_personal_summaryon"
-            android:summaryOff="@string/pref_show_personal_summaryoff"
-            android:defaultValue="@string/pref_show_personal_default"
-            android:dependency="@string/pref_screen_on_key" />
-        </PreferenceCategory>
+      </PreferenceCategory>
+      <PreferenceCategory
+        android:title="@string/pref_screen_category">
+        <CheckBoxPreference
+          android:key="@string/pref_screen_on_key"
+          android:title="@string/pref_screen_on_title"
+          android:summaryOn="@string/pref_screen_on_summaryon"
+          android:summaryOff="@string/pref_screen_on_summaryoff"
+          android:defaultValue="@string/pref_screen_on_default" />
+        <net.anei.cadpage.preferences.ListPreference
+          android:key="@string/pref_timeout_key"
+          android:title="@string/pref_timeout_title"
+          android:summary="@string/pref_timeout_summary"
+          android:entries="@array/pref_timeout_entries"
+          android:entryValues="@array/pref_timeout_values"
+          android:defaultValue="@string/pref_timeout_default"
+          android:dependency="@string/pref_screen_on_key" />
+        <net.anei.cadpage.preferences.ListPreference
+          android:key="@string/pref_textsize_key"
+          android:title="@string/pref_textsize_title"
+          android:summary="@string/pref_textsize_summary"
+          android:entries="@array/pref_textsize_entries"
+          android:entryValues="@array/pref_textsize_values"
+          android:defaultValue="@string/pref_textsize_default"
+          android:dependency="@string/pref_screen_on_key" />  
+        <CheckBoxPreference
+          android:key="@string/pref_dimscreen_key"
+          android:title="@string/pref_dimscreen_title"
+          android:summaryOn="@string/pref_dimscreen_summaryon"
+          android:summaryOff="@string/pref_dimscreen_summaryoff"
+          android:defaultValue="@string/pref_dimscreen_default"
+          android:dependency="@string/pref_screen_on_key" />
+        <CheckBoxPreference
+          android:key="@string/pref_privacy_key"
+          android:title="@string/pref_privacy_title"
+          android:summaryOn="@string/pref_privacy_summaryon"
+          android:summaryOff="@string/pref_privacy_summaryoff"
+          android:defaultValue="@string/pref_privacy_default"
+          android:dependency="@string/pref_screen_on_key" />
+        <CheckBoxPreference
+          android:key="@string/pref_show_personal_key"
+          android:title="@string/pref_show_personal_title"
+          android:summaryOn="@string/pref_show_personal_summaryon"
+          android:summaryOff="@string/pref_show_personal_summaryoff"
+          android:defaultValue="@string/pref_show_personal_default"
+          android:dependency="@string/pref_screen_on_key" />
+      </PreferenceCategory>
         
-        <PreferenceCategory
-          android:title="@string/pref_button_config_title">
-          <PreferenceScreen
-            android:title="@string/pref_button_config_title"
-            android:summary="@string/pref_button_config_summary">
-            <CheckBoxPreference
-              android:key="@string/pref_show_buttons_key"
-              android:title="@string/pref_show_buttons_title"
-              android:summaryOn="@string/pref_show_buttons_summaryon"
-              android:summaryOff="@string/pref_show_buttons_summaryoff"
-              android:defaultValue="@string/pref_show_buttons_default" />
-            <net.anei.cadpage.preferences.ListPreference
-              android:key="@string/pref_button1_key"
-              android:title="@string/pref_button1_title"
-              android:summary="@string/pref_button_summary"
-              android:entries="@array/pref_button_text"
-              android:entryValues="@array/pref_button_values"
-              android:dialogTitle="@string/pref_button1_title"
-              android:defaultValue="@string/pref_button1_default"
-              android:dependency="@string/pref_show_buttons_key" />
-            <net.anei.cadpage.preferences.ListPreference
-              android:key="@string/pref_button2_key"
-              android:title="@string/pref_button2_title"
-              android:summary="@string/pref_button_summary"
-              android:entries="@array/pref_button_text"
-              android:entryValues="@array/pref_button_values"
-              android:dialogTitle="@string/pref_button2_title"
-              android:defaultValue="@string/pref_button2_default"
-              android:dependency="@string/pref_show_buttons_key" />
-            <net.anei.cadpage.preferences.ListPreference
-              android:key="@string/pref_button3_key"
-              android:title="@string/pref_button3_title"
-              android:summary="@string/pref_button_summary"
-              android:entries="@array/pref_button_text"
-              android:entryValues="@array/pref_button_values"
-              android:dialogTitle="@string/pref_button3_title"
-              android:defaultValue="@string/pref_button3_default"
-              android:dependency="@string/pref_show_buttons_key" />
-          </PreferenceScreen>
-        </PreferenceCategory>
-      </PreferenceScreen>
+      <PreferenceCategory
+        android:title="@string/pref_button_config_title">
+        <PreferenceScreen
+          android:title="@string/pref_button_config_title"
+          android:summary="@string/pref_button_config_summary">
+          <CheckBoxPreference
+            android:key="@string/pref_show_buttons_key"
+            android:title="@string/pref_show_buttons_title"
+            android:summaryOn="@string/pref_show_buttons_summaryon"
+            android:summaryOff="@string/pref_show_buttons_summaryoff"
+            android:defaultValue="@string/pref_show_buttons_default" />
+          <net.anei.cadpage.preferences.ListPreference
+            android:key="@string/pref_button1_key"
+            android:title="@string/pref_button1_title"
+            android:summary="@string/pref_button_summary"
+            android:entries="@array/pref_button_text"
+            android:entryValues="@array/pref_button_values"
+            android:dialogTitle="@string/pref_button1_title"
+            android:defaultValue="@string/pref_button1_default"
+            android:dependency="@string/pref_show_buttons_key" />
+          <net.anei.cadpage.preferences.ListPreference
+            android:key="@string/pref_button2_key"
+            android:title="@string/pref_button2_title"
+            android:summary="@string/pref_button_summary"
+            android:entries="@array/pref_button_text"
+            android:entryValues="@array/pref_button_values"
+            android:dialogTitle="@string/pref_button2_title"
+            android:defaultValue="@string/pref_button2_default"
+            android:dependency="@string/pref_show_buttons_key" />
+          <net.anei.cadpage.preferences.ListPreference
+            android:key="@string/pref_button3_key"
+            android:title="@string/pref_button3_title"
+            android:summary="@string/pref_button_summary"
+            android:entries="@array/pref_button_text"
+            android:entryValues="@array/pref_button_values"
+            android:dialogTitle="@string/pref_button3_title"
+            android:defaultValue="@string/pref_button3_default"
+            android:dependency="@string/pref_show_buttons_key" />
+        </PreferenceScreen>
+      </PreferenceCategory>
+    </PreferenceScreen>
+    
+    <!-- Location settings screen -->
+    <PreferenceScreen
+      android:title="@string/pref_location_screen_title"
+      android:summary="@string/pref_location_screen_summary"
+      android:dependency="@string/pref_enabled_key">
+        
+      <Preference
+        android:key="@string/pref_loc_desc_key"
+        android:title="@string/pref_loc_desc_title"/>
       
-      <!-- Location settings screen -->
       <PreferenceScreen
-        android:title="@string/pref_location_screen_title"
-        android:summary="@string/pref_location_screen_summary"
-        android:dependency="@string/pref_enabled_key">
+        android:key="@string/pref_location_tree_key"
+        android:title="@string/pref_location_title"
+        android:summary="@string/pref_location_summary"/>
+      
+      <PreferenceScreen
+        android:key="@string/pref_location_mtree_key"
+        android:title="@string/pref_multi_location_title"
+        android:summary="@string/pref_multi_location_summary"/>
+      
+      <CheckBoxPreference
+          android:key="@string/pref_override_filter_key"
+          android:title="@string/pref_override_filter_title"
+          android:summaryOn="@string/pref_override_filter_summaryon"
+          android:summaryOff="@string/pref_override_filter_summaryoff"
+          android:defaultValue="@string/pref_override_filter_default" />
+      
+      <net.anei.cadpage.preferences.EditTextPreference  
+          android:dialogTitle="@string/pref_filter_title"
+          android:dialogMessage="@string/pref_filter_dialog"
+          android:key="@string/pref_filter_key"
+          android:title="@string/pref_filter_title"
+          android:summary="@string/pref_filter_summary"
+          android:defaultValue=""/>
+      
+      <CheckBoxPreference
+          android:key="@string/pref_gen_alert_key"
+          android:title="@string/pref_gen_alert_title"
+          android:summaryOn="@string/pref_gen_alert_summaryon"
+          android:summaryOff="@string/pref_gen_alert_summaryoff"
+          android:defaultValue="@string/pref_gen_alert_default" />
+      
+      <CheckBoxPreference
+          android:key="@string/pref_show_source_key"
+          android:title="@string/pref_show_source_title"
+          android:summaryOn="@string/pref_show_source_summaryon"
+          android:summaryOff="@string/pref_show_source_summaryoff"
+          android:defaultValue="@string/pref_show_source_default" />
+                          
+      <net.anei.cadpage.preferences.EditTextPreference  
+          android:dialogTitle="Callback"
+          android:dialogMessage="@string/pref_callback_dialog"
+          android:key="@string/pref_callback_key"
+          android:title="@string/pref_callback_title"
+          android:summary="@string/pref_callback_summary"
+          android:defaultValue="" />
           
-        <Preference
-          android:key="@string/pref_loc_desc_key"
-          android:title="@string/pref_loc_desc_title"/>
-        
-        <PreferenceScreen
-          android:key="@string/pref_location_tree_key"
-          android:title="@string/pref_location_title"
-          android:summary="@string/pref_location_summary"/>
-        
-        <PreferenceScreen
-          android:key="@string/pref_location_mtree_key"
-          android:title="@string/pref_multi_location_title"
-          android:summary="@string/pref_multi_location_summary"/>
-        
-        <CheckBoxPreference
-            android:key="@string/pref_override_filter_key"
-            android:title="@string/pref_override_filter_title"
-            android:summaryOn="@string/pref_override_filter_summaryon"
-            android:summaryOff="@string/pref_override_filter_summaryoff"
-            android:defaultValue="@string/pref_override_filter_default" />
-        
-        <net.anei.cadpage.preferences.EditTextPreference  
-            android:dialogTitle="@string/pref_filter_title"
-            android:dialogMessage="@string/pref_filter_dialog"
-            android:key="@string/pref_filter_key"
-            android:title="@string/pref_filter_title"
-            android:summary="@string/pref_filter_summary"
-            android:defaultValue=""/>
-        
-        <CheckBoxPreference
-            android:key="@string/pref_gen_alert_key"
-            android:title="@string/pref_gen_alert_title"
-            android:summaryOn="@string/pref_gen_alert_summaryon"
-            android:summaryOff="@string/pref_gen_alert_summaryoff"
-            android:defaultValue="@string/pref_gen_alert_default" />
-        
-        <CheckBoxPreference
-            android:key="@string/pref_show_source_key"
-            android:title="@string/pref_show_source_title"
-            android:summaryOn="@string/pref_show_source_summaryon"
-            android:summaryOff="@string/pref_show_source_summaryoff"
-            android:defaultValue="@string/pref_show_source_default" />
-                            
-        <net.anei.cadpage.preferences.EditTextPreference  
-            android:dialogTitle="Callback"
-            android:dialogMessage="@string/pref_callback_dialog"
-            android:key="@string/pref_callback_key"
-            android:title="@string/pref_callback_title"
-            android:summary="@string/pref_callback_summary"
-            android:defaultValue="" />
-            
-        <Preference
-          android:key="@string/pref_testmsg_key"
-          android:title="@string/pref_testmsg_title" >
-        </Preference>
-        
-        <CheckBoxPreference
-            android:key="@string/pref_override_default_key"
-            android:title="@string/pref_override_default_title"
-            android:summaryOn="@string/pref_override_default_summaryon"
-            android:summaryOff="@string/pref_override_default_summaryoff"
-            android:defaultValue="@string/pref_override_default_default" />
-        
-        <net.anei.cadpage.preferences.EditTextPreference  
-            android:dialogTitle="@string/pref_defcity_title"
-            android:dialogMessage="@string/pref_defcity_dialog"
-            android:key="@string/pref_defcity_key"
-            android:title="@string/pref_defcity_title"
-            android:summary="@string/pref_defcity_summary"
-            android:capitalize="characters"
-            android:inputType="textVisiblePassword"
-            android:defaultValue=""/>
-        
-        <net.anei.cadpage.preferences.EditTextPreference  
-            android:dialogTitle="@string/pref_defstate_title"
-            android:dialogMessage="@string/pref_defstate_dialog"
-            android:key="@string/pref_defstate_key"
-            android:title="@string/pref_defstate_title"
-            android:summary="@string/pref_defstate_summary"
-            android:capitalize="characters"
-            android:inputType="textVisiblePassword"
-            android:defaultValue=""/>
-         
-        <net.anei.cadpage.preferences.ListPreference
-          android:key="@string/pref_enable_msg_type_key"
-          android:title="@string/pref_enable_msg_type_title"
-          android:summary="@string/pref_enable_msg_type_summary"
-          android:entries="@array/pref_enable_msg_type_entries"
-          android:entryValues="@array/pref_enable_msg_type_values"
-          android:defaultValue="@string/pref_enable_msg_type_default" />
-        
-        <net.anei.cadpage.preferences.ListPreference
-            android:key="@string/pref_mms_timeout_key"
-            android:title="@string/pref_mms_timeout_title"
-            android:summary="@string/pref_mms_timeout_summary"
-            android:entries="@array/pref_mms_timeout_values"
-            android:entryValues="@array/pref_mms_timeout_values"
-            android:dialogTitle="@string/pref_mms_timeout_title"
-            android:defaultValue="@string/pref_mms_timeout_default"/>
-        
-        <net.anei.cadpage.preferences.ListPreference
-            android:key="@string/pref_loglimit_key"
-            android:title="@string/pref_loglimit_title"
-            android:summary="@string/pref_loglimit_summary"
-            android:entries="@array/pref_loglimit_values"
-            android:entryValues="@array/pref_loglimit_values"
-            android:dialogTitle="@string/pref_loglimit_title"
-            android:defaultValue="@string/pref_loglimit_default"/>
-        
-        <net.anei.cadpage.preferences.EditTextPreference  
-            android:dialogTitle="@string/pref_msgtimeout_title"
-            android:dialogMessage="@string/pref_msgtimeout_dialog"
-            android:key="@string/pref_msgtimeout_key"
-            android:title="@string/pref_msgtimeout_title"
-            android:summary="@string/pref_msgtimeout_summary"
-            android:inputType="number"
-            android:defaultValue="@string/pref_msgtimeout_default"/>
-            
-        <net.anei.cadpage.preferences.ListPreference
-            android:key="@string/pref_split_min_msg_key"
-            android:title="@string/pref_split_min_msg_title"
-            android:summary="@string/pref_split_min_msg_summary"
-            android:entries="@array/pref_split_min_msg_values"
-            android:entryValues="@array/pref_split_min_msg_values"
-            android:dialogTitle="@string/pref_split_min_msg_title"
-            android:defaultValue="@string/pref_split_min_msg_default"/>
-            
-        <CheckBoxPreference
-            android:key="@string/pref_rev_msg_order_key"
-            android:title="@string/pref_rev_msg_order_title"
-            android:summaryOn="@string/pref_rev_msg_order_summaryon"
-            android:summaryOff="@string/pref_rev_msg_order_summaryoff"
-            android:defaultValue="@string/pref_rev_msg_order_default" 
-            android:dependency="@string/pref_gen_alert_key"/>
-            
-        <CheckBoxPreference
-            android:key="@string/pref_split_blank_ins_key"
-            android:title="@string/pref_split_blank_ins_title"
-            android:summaryOn="@string/pref_split_blank_ins_summaryon"
-            android:summaryOff="@string/pref_split_blank_ins_summaryoff"
-            android:defaultValue="@string/pref_split_blank_ins_default" />
-            
-        <CheckBoxPreference
-            android:key="@string/pref_suppress_dup_msg_key"
-            android:title="@string/pref_suppress_dup_msg_title"
-            android:summaryOn="@string/pref_suppress_dup_msg_summaryon"
-            android:summaryOff="@string/pref_suppress_dup_msg_summaryoff"
-            android:defaultValue="@string/pref_suppress_dup_msg_default" />
-            
-        <CheckBoxPreference
-            android:key="@string/pref_publish_pages_key"
-            android:title="@string/pref_publish_pages_title"
-            android:summaryOn="@string/pref_publish_pages_summaryon"
-            android:summaryOff="@string/pref_publish_pages_summaryoff"
-            android:defaultValue="@string/pref_publish_pages_default" />
-            
-      </PreferenceScreen>
+      <Preference
+        android:key="@string/pref_testmsg_key"
+        android:title="@string/pref_testmsg_title" >
+      </Preference>
+      
+      <CheckBoxPreference
+          android:key="@string/pref_override_default_key"
+          android:title="@string/pref_override_default_title"
+          android:summaryOn="@string/pref_override_default_summaryon"
+          android:summaryOff="@string/pref_override_default_summaryoff"
+          android:defaultValue="@string/pref_override_default_default" />
+      
+      <net.anei.cadpage.preferences.EditTextPreference  
+          android:dialogTitle="@string/pref_defcity_title"
+          android:dialogMessage="@string/pref_defcity_dialog"
+          android:key="@string/pref_defcity_key"
+          android:title="@string/pref_defcity_title"
+          android:summary="@string/pref_defcity_summary"
+          android:capitalize="characters"
+          android:inputType="textVisiblePassword"
+          android:defaultValue=""/>
+      
+      <net.anei.cadpage.preferences.EditTextPreference  
+          android:dialogTitle="@string/pref_defstate_title"
+          android:dialogMessage="@string/pref_defstate_dialog"
+          android:key="@string/pref_defstate_key"
+          android:title="@string/pref_defstate_title"
+          android:summary="@string/pref_defstate_summary"
+          android:capitalize="characters"
+          android:inputType="textVisiblePassword"
+          android:defaultValue=""/>
+       
+      <net.anei.cadpage.preferences.ListPreference
+        android:key="@string/pref_enable_msg_type_key"
+        android:title="@string/pref_enable_msg_type_title"
+        android:summary="@string/pref_enable_msg_type_summary"
+        android:entries="@array/pref_enable_msg_type_entries"
+        android:entryValues="@array/pref_enable_msg_type_values"
+        android:defaultValue="@string/pref_enable_msg_type_default" />
+      
+      <net.anei.cadpage.preferences.ListPreference
+          android:key="@string/pref_mms_timeout_key"
+          android:title="@string/pref_mms_timeout_title"
+          android:summary="@string/pref_mms_timeout_summary"
+          android:entries="@array/pref_mms_timeout_values"
+          android:entryValues="@array/pref_mms_timeout_values"
+          android:dialogTitle="@string/pref_mms_timeout_title"
+          android:defaultValue="@string/pref_mms_timeout_default"/>
+      
+      <net.anei.cadpage.preferences.ListPreference
+          android:key="@string/pref_loglimit_key"
+          android:title="@string/pref_loglimit_title"
+          android:summary="@string/pref_loglimit_summary"
+          android:entries="@array/pref_loglimit_values"
+          android:entryValues="@array/pref_loglimit_values"
+          android:dialogTitle="@string/pref_loglimit_title"
+          android:defaultValue="@string/pref_loglimit_default"/>
+      
+      <net.anei.cadpage.preferences.EditTextPreference  
+          android:dialogTitle="@string/pref_msgtimeout_title"
+          android:dialogMessage="@string/pref_msgtimeout_dialog"
+          android:key="@string/pref_msgtimeout_key"
+          android:title="@string/pref_msgtimeout_title"
+          android:summary="@string/pref_msgtimeout_summary"
+          android:inputType="number"
+          android:defaultValue="@string/pref_msgtimeout_default"/>
+          
+      <net.anei.cadpage.preferences.ListPreference
+          android:key="@string/pref_split_min_msg_key"
+          android:title="@string/pref_split_min_msg_title"
+          android:summary="@string/pref_split_min_msg_summary"
+          android:entries="@array/pref_split_min_msg_values"
+          android:entryValues="@array/pref_split_min_msg_values"
+          android:dialogTitle="@string/pref_split_min_msg_title"
+          android:defaultValue="@string/pref_split_min_msg_default"/>
+          
+      <CheckBoxPreference
+          android:key="@string/pref_rev_msg_order_key"
+          android:title="@string/pref_rev_msg_order_title"
+          android:summaryOn="@string/pref_rev_msg_order_summaryon"
+          android:summaryOff="@string/pref_rev_msg_order_summaryoff"
+          android:defaultValue="@string/pref_rev_msg_order_default" 
+          android:dependency="@string/pref_gen_alert_key"/>
+          
+      <CheckBoxPreference
+          android:key="@string/pref_split_blank_ins_key"
+          android:title="@string/pref_split_blank_ins_title"
+          android:summaryOn="@string/pref_split_blank_ins_summaryon"
+          android:summaryOff="@string/pref_split_blank_ins_summaryoff"
+          android:defaultValue="@string/pref_split_blank_ins_default" />
+          
+      <CheckBoxPreference
+          android:key="@string/pref_suppress_dup_msg_key"
+          android:title="@string/pref_suppress_dup_msg_title"
+          android:summaryOn="@string/pref_suppress_dup_msg_summaryon"
+          android:summaryOff="@string/pref_suppress_dup_msg_summaryoff"
+          android:defaultValue="@string/pref_suppress_dup_msg_default" />
+          
+      <CheckBoxPreference
+          android:key="@string/pref_publish_pages_key"
+          android:title="@string/pref_publish_pages_title"
+          android:summaryOn="@string/pref_publish_pages_summaryon"
+          android:summaryOff="@string/pref_publish_pages_summaryoff"
+          android:defaultValue="@string/pref_publish_pages_default" />
+          
+    </PreferenceScreen>
       
     </PreferenceCategory>
-    <PreferenceCategory
-      android:key="@string/pref_other_key"
-      android:title="@string/pref_other_title">
-      <PreferenceScreen
-        android:key="@string/pref_disclaimer_key" android:title="@string/pref_disclaimer_title" android:summary="@string/pref_disclaimer_summary">
-        <intent
-          android:action="android.intent.action.VIEW" android:data="@string/pref_disclaimer_url"/>
-      </PreferenceScreen><PreferenceScreen
-        android:key="@string/pref_faq_key"
-        android:title="@string/pref_faq_title"
-        android:summary="@string/pref_faq_summary">
-        <intent
-          android:action="android.intent.action.VIEW"
-          android:data="@string/pref_faq_url" />
-      </PreferenceScreen>
-      <net.anei.cadpage.preferences.DialogPreference
-        android:key="@string/pref_about_key"
-        android:dialogIcon="@drawable/ic_launcher"
-        android:title="@string/pref_about_title"
-        android:dialogTitle="@string/app_name"
-        android:summary="@string/pref_about_summary"
-        android:negativeButtonText="@null" />
+  <PreferenceCategory
+    android:key="@string/pref_other_key"
+    android:title="@string/pref_other_title">
+    <PreferenceScreen
+      android:key="@string/pref_disclaimer_key" android:title="@string/pref_disclaimer_title" android:summary="@string/pref_disclaimer_summary">
+      <intent
+        android:action="android.intent.action.VIEW" android:data="@string/pref_disclaimer_url"/>
+    </PreferenceScreen><PreferenceScreen
+      android:key="@string/pref_faq_key"
+      android:title="@string/pref_faq_title"
+      android:summary="@string/pref_faq_summary">
+      <intent
+        android:action="android.intent.action.VIEW"
+        android:data="@string/pref_faq_url" />
+    </PreferenceScreen>
+    <net.anei.cadpage.preferences.DialogPreference
+      android:negativeButtonText="@null" 
+      android:key="@string/pref_about_key" 
+      android:title="@string/pref_about_title" 
+      android:dialogIcon="@drawable/ic_launcher" 
+      android:summary="@string/pref_about_summary" 
+      android:dialogTitle="@string/app_name"/>
+    <net.anei.cadpage.preferences.DialogPreference
+      android:negativeButtonText="@null" 
+      android:title="@string/pref_releasenotes_title" 
+      android:summary="@string/pref_releasenotes_summary" 
+      android:dialogIcon="@drawable/ic_launcher" 
+      android:dialogTitle="@string/pref_releasenotes_diagtitle"
+      android:dialogMessage="@string/release_text"/>
     <Preference
       android:key="@string/pref_email_key"
       android:title="@string/pref_email_title" 
