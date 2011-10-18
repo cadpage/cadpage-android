@@ -313,10 +313,17 @@ public class ALDothanParserTest extends BaseParserTest {
         "X:FLETCHER SMITH RD",
         "PLACE:CWRSB/VEH VS MOTORCYLE");
 
+    doTest("T34",
+        "10:01:23/S38BE-Medical Call-Code III-Emergy/986 EDWIN REYNOLDS RD/LOVETOWN/CWRSC/14 yom poss broken collar bone from bicycle accident/",
+        "CALL:S38BE-Medical Call-Code III-Emergy",
+        "ADDR:986 EDWIN REYNOLDS RD",
+        "CITY:LOVETOWN",
+        "PLACE:CWRSC/14 yom poss broken collar bone from bicycle accident");
+
   }
   
   
   public static void main(String[] args) {
-    new ALDothanParserTest().generateTests("T33");
+    new ALDothanParserTest().generateTests("T34");
   }
 }

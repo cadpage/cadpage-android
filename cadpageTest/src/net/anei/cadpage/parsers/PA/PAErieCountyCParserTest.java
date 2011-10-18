@@ -77,7 +77,61 @@ public class PAErieCountyCParserTest extends BaseParserTest {
         "CITY:MILLCREEK TWP",
         "X:BUNDY DR",
         "NAME:37655 FROM SIMPLEX");
+  }
 
+  @Test
+  public void testParser2() {
+
+    doTest("T1",
+        "(Belle Valley) 17B3G &gt;FALLS (ON THE GROUND/FLOOR) 1248 E ARLINGTON RD XS BRANDES ST MILLCREEK TWP DORAK, JANE\n",
+        "SRC:Belle Valley",
+        "CODE:17B3G",
+        "CALL:FALLS (ON THE GROUND/FLOOR)",
+        "ADDR:1248 E ARLINGTON RD",
+        "CITY:MILLCREEK TWP",
+        "X:BRANDES ST",
+        "NAME:DORAK, JANE");
+
+    doTest("T2",
+        "(Belle Valley) 26A5 &gt;SICK PERSON 5298 CRABAPPLE DR Apt 211 Bldg XS CIDER MILL RD MILLCREEK TWP OSBORN M L\n",
+        "SRC:Belle Valley",
+        "CODE:26A5",
+        "CALL:SICK PERSON",
+        "ADDR:5298 CRABAPPLE DR",
+        "APT:211",
+        "CITY:MILLCREEK TWP",
+        "X:CIDER MILL RD",
+        "NAME:OSBORN M L");
+
+    doTest("T3",
+        "(Belle Valley) 26C2 &gt;SICK PERSON 1747 E GRANDVIEW BLVD XS ALVIN ST MILLCREEK TWP HILL,RONALD\n",
+        "SRC:Belle Valley",
+        "CODE:26C2",
+        "CALL:SICK PERSON",
+        "ADDR:1747 E GRANDVIEW BLVD",
+        "CITY:MILLCREEK TWP",
+        "X:ALVIN ST",
+        "NAME:HILL,RONALD");
+
+    doTest("T4",
+        "(Belle Valley) 10C2 &gt;CHEST PAIN 5143 SCHRIMPER RD XS RIPLEY DR MILLCREEK TWP MOREHOUSE, ADINA\n",
+        "SRC:Belle Valley",
+        "CODE:10C2",
+        "CALL:CHEST PAIN",
+        "ADDR:5143 SCHRIMPER RD",
+        "CITY:MILLCREEK TWP",
+        "X:RIPLEY DR",
+        "NAME:MOREHOUSE, ADINA");
+
+    doTest("T5",
+        "(Belle Valley) 26A1 &gt;SICK PERSON 1188 E ARLINGTON RD XS BELLEVIEW DR MILLCREEK TWP SMITH PAUL\n",
+        "SRC:Belle Valley",
+        "CODE:26A1",
+        "CALL:SICK PERSON",
+        "ADDR:1188 E ARLINGTON RD",
+        "CITY:MILLCREEK TWP",
+        "X:BELLEVIEW DR",
+        "NAME:SMITH PAUL");
   }
   
   public static void main(String[] args) {
