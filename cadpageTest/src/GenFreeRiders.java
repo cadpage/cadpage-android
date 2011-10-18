@@ -8,6 +8,8 @@ import java.io.PrintStream;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import net.anei.cadpage.donation.UserAcctManager;
 
@@ -66,15 +68,19 @@ public class GenFreeRiders {
    * Convert user specification line to an MD5 has XML item
    * @param line
    */
+  private static final Pattern OPEN_BRACKET = Pattern.compile("[<({\\[]");
   private static String cvtUser(String line) {
     try {
       // parse name and user account from line
       String user = line;
       String name = null;
-      int pt1 = line.indexOf('(');
-      if (pt1 >= 0) {
-        int pt2 = line.indexOf(')',pt1);
-        if (pt2 < 0) throw new RuntimeException("Missing right paren");
+      Matcher match = OPEN_BRACKET.matcher(line);
+      if (match.find()) {
+        int pt1 = match.start();
+        char delim = line.charAt(pt1);
+        delim = (delim == '(' ? ')' : delim == '<' ? '>' : delim == '{' ? '}' : ']' );
+        int pt2 = line.indexOf(delim,pt1+1);
+        if (pt2 < 0) throw new RuntimeException("Missing closing " + delim);
         user = line.substring(pt1+1,pt2).trim();
         name = line.substring(0,pt1).trim();
       }

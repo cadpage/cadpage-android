@@ -122,9 +122,16 @@ public class NCAlexanderCountyParserTest extends BaseParserTest {
         "PLACE:DEAL APPLE ORCHARDS",
         "CALL:LZ SETUP",
         "X:OLD NC 16 HWY & DEAL ORCHARD LN");
+
+    doTest("T16",
+        "CAD:FYI: ;93 TELEPHONE EXCHANGE RD;TRAUMATIC INJURIES;30B01;SPENCER LN;HONEY LN",
+        "ADDR:93 TELEPHONE EXCHANGE RD",
+        "CALL:TRAUMATIC INJURIES",
+        "CODE:30B01",
+        "X:SPENCER LN & HONEY LN");
   }
 
   public static void main(String[] args) {
-    new NCAlexanderCountyParserTest().generateTests("T15", "ADDR PLACE CALL CODE X");
+    new NCAlexanderCountyParserTest().generateTests("T16", "ADDR PLACE CALL CODE X");
   }
 }
