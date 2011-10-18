@@ -18,6 +18,13 @@ Belle Valley / 26A9 &gt;SICK PERSON 5450 CIDER MILL RD XS COVINGTON VALLEY DR MI
 Belle Valley / 17A1G &gt;FALLS (ON THE GROUND/FLOOR) 41 W GORE RD Apt 282 Bldg XS OLD FRENCH RD MILLCREEK TWP PEGGY\n\n
 Belle Valley / 52C1P &gt;ALM HI-LIFE HAZ PULL STATION 1928 WAGER RD XS BUNDY DR MILLCREEK TWP 37655 FROM SIMPLEX\n\n
 
+Contact: Tyrell Davis <relley13@gmail.com>
+(Belle Valley) 17B3G &gt;FALLS (ON THE GROUND/FLOOR) 1248 E ARLINGTON RD XS BRANDES ST MILLCREEK TWP DORAK, JANE\n
+(Belle Valley) 26A5 &gt;SICK PERSON 5298 CRABAPPLE DR Apt 211 Bldg XS CIDER MILL RD MILLCREEK TWP OSBORN M L\n
+(Belle Valley) 26C2 &gt;SICK PERSON 1747 E GRANDVIEW BLVD XS ALVIN ST MILLCREEK TWP HILL,RONALD\n
+(Belle Valley) 10C2 &gt;CHEST PAIN 5143 SCHRIMPER RD XS RIPLEY DR MILLCREEK TWP MOREHOUSE, ADINA\n
+(Belle Valley) 26A1 &gt;SICK PERSON 1188 E ARLINGTON RD XS BELLEVIEW DR MILLCREEK TWP SMITH PAUL\n
+
 Belle Valley / REMINDER THAT TONIGHT STARTS THE FIRST CLASS OF THE TRENCH RESCUE COURSE....360\n\n\n
 
  */
@@ -38,11 +45,21 @@ public class PAErieCountyCParser extends FieldProgramParser {
   }
   
   @Override
-  protected boolean parseMsg(String body, Data data) {
-    Matcher match = MARKER.matcher(body);
-    if (!match.find()) return false;
-    data.strSource = match.group(1);
-    body = body.substring(match.end()).trim();
+  protected boolean parseMsg(String subject, String body, Data data) {
+    do {
+      if (subject.equals("Belle Valley")) {
+        data.strSource = subject;
+        break;
+      }
+      Matcher match = MARKER.matcher(body);
+      if (match.find()) {
+        data.strSource = match.group(1);
+        body = body.substring(match.end()).trim();
+        break;
+      }
+      return false;
+    } while (false);
+    
     body = body.replace(" Apt ", " Apt: ").replace(" Bldg ", " Bldg: ")
                .replace(" XS ", " XS: ");
     return super.parseMsg(body, data);
