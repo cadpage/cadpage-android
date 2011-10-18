@@ -39,6 +39,9 @@ CAD:8510 NC 90 HWY E;SHURTAPE TECHNOLOGIES INC;TRAUMATIC INJURIES;30B02;SHUFORD 
 Contact: Greg Foster <gfoster630@gmail.com>
 CAD:7400 NC 16 HWY N;DEAL APPLE ORCHARDS;LZ SETUP;OLD NC 16 HWY;DEAL ORCHARD LN
 
+Contact: kevin chapman <kchapman3042@gmail.com>
+CAD:FYI: ;93 TELEPHONE EXCHANGE RD;TRAUMATIC INJURIES;30B01;SPENCER LN;HONEY LN
+
 */
 
 public class NCAlexanderCountyParser extends SmartAddressParser {
@@ -63,10 +66,13 @@ public class NCAlexanderCountyParser extends SmartAddressParser {
     body = body.substring(4).trim();
     
     String[] flds = body.split(";");
-    parseAddress(flds[0].trim(), data);
-    if (flds.length < 2) return false;
+    int st = 0;
+    if (flds[st].trim().equals("FYI:")) st++;
+    if (st >= flds.length) return false;
+    parseAddress(flds[st].trim(), data);
     
-    int ndx = 2;
+    int ndx = st + 2;
+    if (ndx > flds.length) return false;
     boolean code = false;
     while (true) {
       if (ndx >= flds.length) break;
@@ -74,11 +80,11 @@ public class NCAlexanderCountyParser extends SmartAddressParser {
       code = CODE_PTN.matcher(field).matches();
       if (code || NC_PTN.matcher(field).find() || field.startsWith("US ") || 
           checkAddress(field) > 0) break;
-      if (++ndx > 3) return false;
+      if (++ndx > st+3) return false;
     }
     
     data.strCall = flds[ndx-1].trim();
-    if (ndx == 3) data.strPlace = flds[ndx-2].trim();
+    if (ndx == st+3) data.strPlace = flds[ndx-2].trim();
     
     if (code) data.strCode = flds[ndx++].trim();
     
