@@ -356,6 +356,15 @@ public class CASonomaCountyParserTest extends BaseParserTest {
         "SRC:PET",
         "BOX:3749 D",
         "NAME:COM:  DIARRHEA DIFFICULTY BREATHING **");
+
+    doTest("T9",
+        "Loc: 5500 WILSHIRE DR MWS BOX: 2649 B2 CN: VERIZON WIRELESS 800 451 5242 4 C#: (707) 326-5961 TYP: VEG CALLER ADDR: 2201 NEWGATE CT S RS TIME: 16:25:22 COM:",
+        "ADDR:5500 WILSHIRE DR",
+        "SRC:MWS",
+        "BOX:2649 B2",
+        "CALL:VEG",
+        "NAME:VERIZON WIRELESS 800 451 5242 4",
+        "PHONE:(707) 326-5961");
     
   }
   
