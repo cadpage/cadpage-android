@@ -320,7 +320,7 @@ public class SmsMmsMessage implements Serializable {
     Pattern.compile("^(?:[-=.+_a-z0-9]*[0-9a-f]{8,}[-=.+_a-z0-9]*=)?([\\w.!\\-]+@[\\w.]+)\\s")
   };
   private static final Pattern EMAIL_PFX_PATTERN = Pattern.compile("^([\\w\\.]+@[\\w\\.]+)\\n");
-  private static final Pattern E_S_M_PATTERN = Pattern.compile("^(?:([^ ,;/]+) *)?S: *([^:]*) +M:");
+  private static final Pattern E_S_M_PATTERN = Pattern.compile("^(?:([^ ,;/]+) *)?S: *(.*?) +M:");
   
   /**
    * Perform any front end unscrambling required to recover the original text
@@ -541,6 +541,18 @@ public class SmsMmsMessage implements Serializable {
     
     body = body.substring(pt1);
     if (body.startsWith("MSG:")) body = body.substring(4).trim();
+    
+    // Last check, if we ended up with no message, use the last subject as the message
+    if (body.length() == 0) {
+      int pt = parseSubject.lastIndexOf('|');
+      if (pt >= 0) {
+        body = parseSubject.substring(pt+1);
+        parseSubject = parseSubject.substring(0,pt);
+      } else {
+        body = parseSubject;
+        parseSubject = "";
+      }
+    }
     parseMessageBody = body;
   }
   
