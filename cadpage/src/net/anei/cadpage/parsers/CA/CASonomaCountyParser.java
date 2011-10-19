@@ -60,6 +60,9 @@ Sender: messaging@iamresponding.com
 (Wilmar) Loc: 4000. D ST PET BOX: 4052 D CN:COM  N -122.6389 T 38.19909 METERS 16 CONTORL 4 SMALL BUT GROWING **
 (Wilmar) Loc: 200 KUCK LN PET BOX: 3749 D CN:COM:  DIARRHEA DIFFICULTY BREATHING **
 
+Contact: Sage Howell <sagehowellmobile@gmail.com>
+Loc: 5500 WILSHIRE DR MWS BOX: 2649 B2 CN: VERIZON WIRELESS 800 451 5242 4 C#: (707) 326-5961 TYP: VEG CALLER ADDR: 2201 NEWGATE CT S RS TIME: 16:25:22 COM:
+
  */
 
 
@@ -71,6 +74,7 @@ public class CASonomaCountyParser extends FieldProgramParser {
     "BLO",  "BLO", // Bloomfield
     "BOD",  "BOD", // ???
     "LAR",  "LAR",
+    "MWS",  "MWS",
     "PET",  "PET",
     "RIN",  "RIN",
     "ROS",  "ROS",
