@@ -1,7 +1,9 @@
 package net.anei.cadpage.parsers.CO;
 
+import java.util.regex.Pattern;
+
 import net.anei.cadpage.SmsMsgInfo.Data;
-import net.anei.cadpage.parsers.SmsMsgParser;
+import net.anei.cadpage.parsers.FieldProgramParser;
 
 /*
 20442,ALARMF,23691 CR 60H.E1 E4 L1,TEXT:AUDIBLE FROM GENERAL AND SMOKE DETECTOR \COMP:1ST CLASS SECURITY \PH:800 482 9800,
@@ -20,28 +22,49 @@ Sender: CommtechMessenger@mauser.greeleypd.com
  */
 
 
-public class COGreeleyParser extends SmsMsgParser {
+public class COGreeleyParser extends FieldProgramParser {
+  
+  private static final Pattern DELIM = Pattern.compile("[,\\\\]");
 
   public COGreeleyParser() {
-    super("Greeley", "CO");
+    super("Greeley", "CO",
+          "ID CALL ADDR! TEXT:INFO+ COMP:INFO+ PH:PHONE");
   }
 
   @Override
   protected boolean parseMsg(String body, Data data) {
 
-    String[] flds = body.split(",",-1);
-    if (flds.length < 4) return false;
-    data.strCallId = flds[0];
-    data.strCall = flds[1].trim();
-    Parser p = new Parser(flds[2]);
-    data.strUnit = p.getLastOptional(".");
-    if (data.strUnit.length() == 0) return false;
-    parseAddress(p.get(), data);
-
-    p = new Parser(body);
-    p.get("TEXT:");
-    data.strSupp = p.get("\\COMP:").replace('\n', ' ');
+    body = body.replace('\n', ' ').replaceAll("  +", " ");
+    String[] flds = DELIM.split(body);
+    return super.parseFields(flds, data);
+  }
+  
+  private class MyIdField extends IdField {
+    public MyIdField() {
+      setPattern(Pattern.compile("\\d{5}"), true);
+    }
+  }
+  
+  private class MyAddressField extends AddressField {
     
-    return true;
+    @Override
+    public void parse(String field, Data data) {
+      int pt = field.lastIndexOf('.');
+      if (pt < 0) abort();
+      data.strUnit = field.substring(pt+1).trim();
+      super.parse(field.substring(0,pt).trim(), data);
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return super.getFieldNames() + " UNIT";
+    }
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("ID")) return new MyIdField();
+    if (name.equals("ADDR")) return new MyAddressField();
+    return super.getField(name);
   }
 }
