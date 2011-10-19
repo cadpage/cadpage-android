@@ -9,6 +9,12 @@ public class SmsMmsMessageTest {
   @Test
   public void testParseInfo() {
     
+    doParseTest("NCGuilfordCounty",
+        "S:summerfieldfiredist Oct17-12:45 M:summerfieldfiredist\nCAD:UNDER CONTROL;808 JAMES DOAK PKWY; G\n\n",
+        "ken@cadpage.org",
+        "summerfieldfiredist Oct17-12:45",
+        "summerfieldfiredist\nCAD:UNDER CONTROL;808 JAMES DOAK PKWY; G");
+    
     doParseTest("PANOrthamptonCounty",
         "*3750: *alert_6JP4@notifync.org /  / [f25]ODOR >ODOR / OTHER THAN SMOKE ARNDT RD FORKS Map: Grids:0,0 Cad: 2011-0000171220 <20110000171220>",
         "alert_6JP4@notifync.org",
