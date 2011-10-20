@@ -443,10 +443,19 @@ public class ORKlamathCountyParserTest extends BaseParserTest {
         "ADDR:11747 WHISPERING PINES DR",
         "CITY:KLAMATH FALLS",
         "INFO:MEDICAL ALARM");
+
+    doTest("T44",
+        "(NEW INCIDENT) 10/18/2011 0310\nEVENT # 1110180017 36\n2 - ALS MEDICAL CALL\nPRIORITY 1 \nLOCATION 97 S/STATE LINE RD\nCITY \nAPT \nPREMISE \nCOMMENT ALS AMBULANCE REQUEST",
+        "ID:1110180017",
+        "UNIT:36",
+        "CALL:2 - ALS MEDICAL CALL",
+        "PRI:1",
+        "ADDR:97 S & STATE LINE RD",
+        "INFO:ALS AMBULANCE REQUEST");
     
   }
   
   public static void main(String args[]) {
-    new ORKlamathCountyParserTest().generateTests("T20");
+    new ORKlamathCountyParserTest().generateTests("T44");
   }
 }

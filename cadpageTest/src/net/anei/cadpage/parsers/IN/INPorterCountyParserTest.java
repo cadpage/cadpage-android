@@ -127,9 +127,20 @@ public class INPorterCountyParserTest extends BaseParserTest {
         "ADDR:4105 E MORTHLAND DR",
         "CITY:Washington Twp",
         "X:near DEAD END");
- }
+
+    doTest("T12",
+        "Subject:CAD Page\n\n#110137072 - \nF35P1:\nEMS AST-P1 @ 429 E ST RD 2,WGT\nCROSS: btwn N 400 E and N 450 E\nGRP:WF\nPRI:1\ncomment: Medical ProQ",
+        "ID:110137072",
+        "UNIT:F35P1",
+        "CALL:EMS AST-P1",
+        "ADDR:429 E ST RD 2",
+        "CITY:Washington Twp",
+        "X:N 400 E and N 450 E",
+        "PRI:1",
+        "INFO:Medical ProQ");
+  }
   
   public static void main(String[] args) {
-    new INPorterCountyParserTest().generateTests("T10");
+    new INPorterCountyParserTest().generateTests("T12");
   }
 }
