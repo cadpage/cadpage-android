@@ -182,28 +182,35 @@
   <string-array name="paid_2011_list">
     <item>0779bf84651aa35a8859c8bd90d2f6f5</item>  <!-- Travis Nicholson -->
     <item>08605009a134d8b05ee9ea4d2e3c03e3</item>  <!-- IVAN BROWNING -->
+    <item>0aa74a745af0bcdfcac89af8dd19a1df</item>  <!-- gerald weaver -->
+    <item>0c195b8d3766bf7814c42caa0ded8f31</item>  <!-- "lfd219@verizon.net" -->
     <item>0d4820574fb8ca118db57f99d2bc291c</item>  <!-- Kevin Hogan -->
     <item>0f6910a2d15cbf7fb5e3ca811304ee4e</item>  <!-- Shawn Conley -->
     <item>1009efafdb0004dd6b562d26d142143e</item>  <!-- "Donna Struntz" -->
     <item>13a237c125fec818d03afa2edaf8fa56</item>  <!-- Rose Merritt -->
     <item>142bff8e0c439397ecbd9d3346a35275</item>  <!-- kevin head -->
+    <item>1542615e027f4e54f13281bdf54ae47d</item>  <!-- scot mclean -->
     <item>16f966330d8e0347cb526f75c241d2ee</item>  <!-- Chris Coone -->
     <item>17248fb4d93bbaa6ae45ccf87e10ece4</item>  <!-- Victor Quintanilla -->
     <item>1957cb439c27dab21335b84bb18680cc</item>  <!-- "mrrsqu@aol.com" -->
     <item>23a960ad1662f82f5fe7df4fdac95715</item>  <!-- danny britt -->
     <item>24381678e30e1b0fcf75bbf33214a36e</item>  <!-- "skj1979452@sbcglobal.net" -->
     <item>2bed0079218344b29952c082448148ce</item>
+    <item>2eb47592a9543fa379c8a5528aca0d9e</item>  <!-- tephen Durgin -->
     <item>308f31c879db23282fb8dbdc0c6ccea5</item>  <!-- Mike Rensmon -->
     <item>32059a3d6728a779a506fe60af4ebe44</item>  <!-- mastclinton@aim.com -->
     <item>33ebe5d5f74f9063523c5a49ffb0dda3</item>  <!-- pedro saldanha -->
+    <item>34f399e4491e673e9cb705904528d443</item>  <!-- Richie Peugeot -->
     <item>389ffd15839b7d30ce08e97b29f13400</item>  <!-- Suzanne Owens -->
     <item>3995e123e0791c0ad7358049cf1785b9</item>  <!-- "pjblmb12@aol.com" -->
     <item>39be517a878f9ca17ed0370e27f44d54</item>  <!-- chris casapulla -->
+    <item>3b59a302aa552bf213f9f8018ab4429c</item>  <!-- "Budd, Christopher" -->
     <item>404619778b1d01c65a44d31427ba61a7</item>  <!-- Ryan Payer -->
     <item>408e83e4b79ede988664a9c94cdde9bb</item>  <!-- Walter Cooper -->
     <item>40aada1ed661cda37c44b7e9b0e9dfc6</item>  <!-- Greg Potter -->
     <item>42e703c80f94a2af2989b8c7f0be1ef8</item>  <!-- Marcie Battles -->
     <item>43a693bf9a24c22ec16bcb8b2d538937</item>  <!-- Robert Fair -->
+    <item>43d40587c061b9f5f2560379dc3716a5</item>  <!-- J Hatfield -->
     <item>45fdacdef9af7a779daee2bd0b59d1d7</item>  <!-- Jeremy -->
     <item>49b9373c94220618f2a45e2df6699b74</item>  <!-- Clark McVey -->
     <item>4be4a84378a57f3914c90d2de24da943</item>  <!-- Frank Sulzer -->
@@ -214,7 +221,6 @@
     <item>54fadfc29b981ddf42ae6a3b438c1beb</item>  <!-- Dustin Fails -->
     <item>562ba106481ab08196dae09c5f0fb12e</item>  <!-- ROBERT JONES -->
     <item>5917120e30e8f8ffcf22f8bc3a8884bd</item>  <!-- Paul Barkley -->
-    <item>5984eccf01748d5dcbbcbdce0a1af751</item>  <!-- Walter Radziwon -->
     <item>5b282ca7c2bbf63073671c2395fb46b2</item>  <!-- John Mortise -->
     <item>5be6f9bcab97780d4edddfc1443be9f7</item>  <!-- Stephen Race -->
     <item>5e675169c82f2804007716c57527f9f3</item>  <!-- sarah german -->
@@ -222,6 +228,7 @@
     <item>64789decbdd02a7cdc416851202a8059</item>  <!-- nicholas hammel -->
     <item>65ea476c1f859df9d4fc18b293c2f3f9</item>  <!-- Matt chastain -->
     <item>68a786041a2fe57ba1518fb27acf99a0</item>  <!-- WILLIAM VOJIK -->
+    <item>6a38a04bb60277da6dd9450572b3635f</item>  <!-- Walter Radziwon -->
     <item>6a6628f64cbc1a02fcce9ab056bb2c95</item>  <!-- "W. A. Mullins" -->
     <item>6d4ff843cac2ee363a137aea147b250e</item>  <!-- Amy Smith -->
     <item>73b99a6bf4fcb4b0c8fb0cb76e9e9072</item>  <!-- J Kunch -->
@@ -236,10 +243,12 @@
     <item>80f668d993b8726ad3cf58ba66f0009b</item>  <!-- spazking4lif@aim.com -->
     <item>82a95c6c0f5c07978d0e184782b616d1</item>  <!-- Nathan Wood -->
     <item>871ec6ba75c2f1f1b139b5200161b8b2</item>  <!-- Justin Loburak -->
+    <item>8ddc0091f8b568378847a73e72d8511e</item>  <!-- sam miller -->
     <item>91f8a414c4ab9a1615c9a097fff6df48</item>  <!-- Doug Gelsleichter -->
     <item>9353e884cf5b30da68cfe8d91414af5c</item>  <!-- WYNTON WOODSON -->
     <item>94e07609c85f5aab8d112f506ed45e9c</item>  <!-- Lauran Whiting -->
     <item>97ca8249095cdcbf1293db7613224358</item>  <!-- Scott Bellevou -->
+    <item>995ae7a84bd02e97d806171a14ebd087</item>  <!-- Daniel Hanagan -->
     <item>a061512d97dce4cd5c0b7dca02a48c91</item>  <!-- Michael Banks -->
     <item>a2d074a8255096dd99e5a4548b725a62</item>  <!-- Oscar Gonzalez -->
     <item>a9a67e6980c09c12e68cee2faa3b536f</item>  <!-- Steve Reyes -->
@@ -263,6 +272,7 @@
     <item>cfdd11fafe7a1a4ccd6de0dc8d4568b4</item>  <!-- "Shawn" -->
     <item>d4fc6cf6066fa09bbfdc412c41e5775f</item>  <!-- Joseph Yarber -->
     <item>d7a386df9f61270b50ef6ef4469357a9</item>  <!-- Christopher Eno -->
+    <item>da9d3f5e3156a0b6e31d3ccf2d7368c3</item>  <!-- Brad Myers -->
     <item>dcb3d70a56349c1fcf791e50826d5e59</item>  <!-- Matthew Erd -->
     <item>dcd72ab39f5f35bba67e3e2920ebc250</item>  <!-- CARL W TILLMANN JR -->
     <item>dcdd8b0bd61c7b5c3da90d9d5594a53e</item>  <!-- Mike Bierman -->
@@ -284,7 +294,7 @@
     <item>f96e508eb85e5e7b132ef529c1cfc011</item>  <!-- Claudio Fuentes -->
     <item>faf6c930e91e2493d35d93006c53a9b9</item>  <!-- Cameron Allred -->
     <item>fbd5b3e579eda2e5736a40e24077114d</item>  <!-- K Kenny -->
+    <item>fc7433f55de6d4c669b54eecfd2bdc4c</item>  <!-- "Murphy, Ray" -->
     <item>fe107a1d8a0f575846020cab55a4121b</item>  <!-- Anthony Whetzel -->
-    <item>ff65dc45ab435a69a1afe6decaf99f95</item>  <!-- Daniel Hanagan -->
   </string-array>
 </resources>
