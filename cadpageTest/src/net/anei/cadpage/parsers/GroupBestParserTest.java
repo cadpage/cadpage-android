@@ -34,7 +34,8 @@ public class GroupBestParserTest extends BaseParserTest {
         "ADDR:23691 CR 60H",
         "ID:20442",
         "UNIT:E1 E4 L1",
-        "INFO:AUDIBLE FROM GENERAL AND SMOKE DETECTOR");
+        "INFO:AUDIBLE FROM GENERAL AND SMOKE DETECTOR / 1ST CLASS SECURITY",
+        "PHONE:800 482 9800");
     
     setDefaults("ADAMS COUNTY", "CO");
     doTest("T1",
