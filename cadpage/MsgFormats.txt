@@ -3070,11 +3070,6 @@ MSG:BS18-1    Dispatched: 02:01:53 Enroute: 02:04:23 On Scene: 02:05:26 AOR: 02:
 FRM:LifecomCellPaging@amr.net
 MSG:E18-1 11020566     Fire Alarm - Co  5045 S State Route 99 E F E ARCH RD/E SUNNY RD 830A
 **********************************************************
-Unknown
-Contact: Shane Jenkins <sjenkins@lafayettetwpfire.com>
-Sender: rc.223@c-msg.net
-(lCAD) [!] EMS//6387 CARSTEN RD MEDINA BETWEEN CHATHAM RD / COON CLUB RD//FEMALE FALL VIC TIM NEEDS LIFT ASSIST NO INJURY RECENTLY OUT OF THE HOSPITAL
-**********************************************************
 Harris County ESD, TX
 Contact: Nathan Mathews <nbmathews807@gmail.com>
 
@@ -3326,7 +3321,10 @@ Sender: msg@cfmsg.com
 See previous entry
 (Chief ALT) [CFC EMS] -- Syncope - Not Alert -- Amberwood -- 51 Karens Wy - Cross STS:Beechwood Ct & Silver Birch La - EMD:M31D3
 **********************************************************
-**********************************************************
+St Charles, MD (Alternate)
+Contact: Edward Cave <explorer77727@gmail.com>
+Sender: sms.dispatch@ccmedicunit.org
+  / CHEST PAINS, EMS, ALS, 10C, 10D\n\n3047 OCTOBER PL, UNIT B\n\nDISTRICT: 1338\nTG: 10 F6\n\n1119161\n10.19.11 22:19\n\nNotes:\n\n
 **********************************************************
 **********************************************************
 **********************************************************
@@ -3465,3 +3463,19 @@ Sender: oakmont1@comcast.net
 12:57\n421 BROOKLINE BLVD\nAUTOMATIC FIRE ALARM\nWEXFORD RD\nEARLINGTON RD\n10/12/2011\nALARM\nLA38/ENG56/RE56/FO35\nF11059648\n610-446-84
 09:29\n5030 BRITTANY LN\nACCIDENTAL TRIP OF FIRE ALARM\nBRENNAN DR\nSPROUL RD\n10/17/2011\nALARM\nENG38\nF11060680\n~TRIPPED /BY STEAM,610
 13:36\n838 AUBREY AV\nAUTOMATIC FIRE ALARM\nSAINT MARYS RD\nCOUNTY LINE RD\n10/14/2011\nALARM\nENG38\nF11060114\n~ HALLWAY SMOKE DET,1068 
+**********************************************************
+Medina County, OH
+Contact: Shane Jenkins <sjenkins@lafayettetwpfire.com>
+Sender: rc.223@c-msg.net
+(lCAD) [!] EMS//6387 CARSTEN RD MEDINA BETWEEN CHATHAM RD / COON CLUB RD//FEMALE FALL VIC TIM NEEDS LIFT ASSIST NO INJURY RECENTLY OUT OF THE HOSPITAL
+
+Contact: "jhmcfd@hotmail.com" <jhmcfd@hotmail.com>
+Sender: rc.531@c-msg.net
+[gCAD]  [!] - NATURE: 2 //WB MEDINA RD / MEDINA L INE RD MEDINA//CALLBK=041.135838-081 .678843 1 VEH ON THE NORTH SIDE OF THE ROAD NO ONE AROUND IT
+[gCAD]  [!] MVA WITH INJURIES//2389 MEDINA RD MEDINA BETWEEN BEACH RD / BONETA RD//CALLBK=041.136428-081.773643 WB CAR ROLL OVER CAR IS ON ITS TOP CALLER ADV SHE DONT SEE ANYONE IN THE VEH
+[gCAD]  [!] EMS//200 GRANGER RD MEDINA BETWEEN N MEDINA LINE RD / DRUERIE LN//APT 7 FEMAL E FALLEN OUT OF BED 87 YR FEMALE NOT INJURED
+[gCAD]  [!] EMS//4519 RIDGE RD WADSWORTH BETWEEN GRANGER RD / MEDINA RD//87 YR OLD FEMALE FALL VICTIM BACK & SHOULDER INJURIES
+[gCAD]  [!] MVA WITH INJURIES//2900 STATE RD MEDINA B ETWEEN LEDGE RD / REMSEN RD//CALLBK=041.192775-081.710042 IN THE SB LANE PICK UP TRUCK ON ITS SIDE MALE OUTSIDE THE TRUCK
+[gCAD]  [!] MVA WITH INJURIES//3275 STATE RD MEDINA B ETWEEN REMSEN RD / WILBUR RD//+041.187100-081.71163 0 MVA MINOR INJ
+[gCAD]  [!] EMS//171 GRANGER RD // 1 47 MEDINA BETWEEN N MEDINA LINE RD / DRUERIE LN//+ 041.134625-081.703584 87 YR FEMALE CONFUSED, NOT FEELING WE LL
+[gCAD]  [!] EMS//861 MEDINA RD MEDINA B ETWEEN STATE RD / BAMBECK RD//75-4 CALLED IN ADVISE D THEY RECXEIVED A CALL ON STATION FOR A TRANSPORT REF AN IN FECTION
