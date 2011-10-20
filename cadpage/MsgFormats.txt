@@ -2743,14 +2743,6 @@ FRM:CCEMS \nSUBJ:CVA\nMSG:1417 Route E - Possible stroke 7/18/2011 2:16 PM
 FRM:CCEMS \nSUBJ:Fall\nMSG:1417 Route E - 7/18/2011 2:13 PM
 FRM:CCEMS \nSUBJ:903\nMSG:RESPOND TO 14803 Rte. B FOR M PT WHO PASSED OUT IS NOW CONSCIOUS . 7/17/2011 7:04 PM
 **********************************************************
-Sussex County, DE (Alternate)
-Contact: "ryan petrone " <petrone1300@hotmail.com>
-Sender: msg@cfmsg.com
-(Chief ALT) [87 EMS] -- 17B Falls (BLS) -- 715 E King St Seaford de, 19973
-
-Contact: "awilley76@aim.com" <awilley76@aim.com>
-(Chief ALT) [76 EMS] -- Cardiac/ Resp./Death- BLS -- 35406 Arrowhead Ln Frankford 19945
-**********************************************************
 Henderson County, NC
 Contact: Matt Brackett <mhfrbrackett@gmail.com>
 Sender: 8286067337
@@ -3319,6 +3311,20 @@ Contact: Jim Ballesteros <jimiangelo84@gmail.com>
 Sender: Dispatch@sccda.org
 Smoke In The Bldg - Commercial AT: 334 Savannah Garden Dr APT:  BUS: SAVANNAH RIDGE APTS /VMP CHL: 03 OFallon B2
 **********************************************************
+Sussex County, DE (Alternate)
+Contact: "ryan petrone " <petrone1300@hotmail.com>
+Sender: msg@cfmsg.com
+MDWorcesterCountyB looks similar
+(Chief ALT) [87 EMS] -- 17B Falls (BLS) -- 715 E King St Seaford de, 19973
+
+Contact: "awilley76@aim.com" <awilley76@aim.com>
+(Chief ALT) [76 EMS] -- Cardiac/ Resp./Death- BLS -- 35406 Arrowhead Ln Frankford 19945
+**********************************************************
+New Castle, DE (alternate)
+Contact: Thomas Castiglione <castiglione.thomas@gmail.com>
+Sender: msg@cfmsg.com
+See previous entry
+(Chief ALT) [CFC EMS] -- Syncope - Not Alert -- Amberwood -- 51 Karens Wy - Cross STS:Beechwood Ct & Silver Birch La - EMD:M31D3
 **********************************************************
 **********************************************************
 **********************************************************
