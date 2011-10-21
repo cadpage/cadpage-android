@@ -226,6 +226,16 @@ public class TNWashingtonCountyParserTest extends BaseParserTest {
         "X:TERRACE CT & E HIGHLAND RD",
         "MAP:46C");
 
+    doTest("T23",
+        "prvs=268de3f1a=JCFDTEXT@johnsoncitytn.orgOverdose/Ingestion/Poisoning-CHARLIE M13,E3\n110 TERRACE CT #1\nTERRACE COURT APARTMENTS\nX-STR= S ROAN ST\nDEAD END\n;REECE TERRACE APTS\nMap",
+        "CALL:prvs=268de3f1a=JCFDTEXT@johnsoncitytn.orgOverdose/Ingestion/Poisoning",
+        "PRI:C",
+        "UNIT:M13,E3",
+        "ADDR:110 TERRACE CT",
+        "APT:1",
+        "PLACE:TERRACE COURT APARTMENTS",
+        "X:S ROAN ST & DEAD END & ;REECE TERRACE APTS");
+
   }
   
   @Test
