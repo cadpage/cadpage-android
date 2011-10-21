@@ -1,0 +1,96 @@
+package net.anei.cadpage.parsers.NC;
+
+import net.anei.cadpage.parsers.BaseParserTest;
+
+import org.junit.Test;
+
+
+public class NCCabarrusCountyAParserTest extends BaseParserTest {
+  
+  public NCCabarrusCountyAParserTest() {
+    setParser(new NCCabarrusCountyAParser(), "CABARRUS COUNTY", "NC");
+  }
+  
+  @Test
+  public void testParser() {
+
+    doTest("T1",
+        "CAD:ASSAULT W/ INJURY;2339 ODELL SCHOOL RD;CON;CONCORD HOUSE;HILLSDELL DR;LOCKWOOD RD;RAINTREE, HEALTH CARE OF CONCO",
+        "CALL:ASSAULT W/ INJURY",
+        "ADDR:2339 ODELL SCHOOL RD",
+        "CITY:CONCORD",
+        "PLACE:CONCORD HOUSE",
+        "X:HILLSDELL DR & LOCKWOOD RD",
+        "NAME:RAINTREE, HEALTH CARE OF CONCO");
+
+    doTest("T2",
+        "CAD:BREATHING PROBLEMS;5412 ASHBURY LN;DAV;TERRILL RIDGE DR;TERRILL RIDGE DR;BRACEY III JOSEPH O",
+        "CALL:BREATHING PROBLEMS",
+        "ADDR:5412 ASHBURY LN",
+        "CITY:DAVIDSON",
+        "X:TERRILL RIDGE DR & TERRILL RIDGE DR",
+        "NAME:BRACEY III JOSEPH O");
+
+    doTest("T3",
+        "CAD:STRUCTURE FIRE;1606 DUCKHORN ST NW;CON;From CPD:;RAVENSCROFT LN NW;INDIAN BEECH AV NW;BUCKELEW, HEATHER",
+        "CALL:STRUCTURE FIRE",
+        "ADDR:1606 DUCKHORN ST NW",
+        "CITY:CONCORD",
+        "PLACE:From CPD:",
+        "X:RAVENSCROFT LN NW & INDIAN BEECH AV NW",
+        "NAME:BUCKELEW, HEATHER");
+
+    doTest("T4",
+        "CAD:LOCAL RESPONSE;509 THREE GREENS DR;HUN;WOODHALL DR;VINTAGE HILL LN",
+        "CALL:LOCAL RESPONSE",
+        "ADDR:509 THREE GREENS DR",
+        "CITY:HUNTERSVILLE",
+        "X:WOODHALL DR & VINTAGE HILL LN");
+
+    doTest("T5",
+        "CAD:ASSAULT W/ INJURY;2339 ODELL SCHOOL RD;CON;CONCORD HOUSE;HILLSDELL DR;LOCKWOOD RD;RAINTREE, HEALTH CARE OF CONCO",
+        "CALL:ASSAULT W/ INJURY",
+        "ADDR:2339 ODELL SCHOOL RD",
+        "CITY:CONCORD",
+        "PLACE:CONCORD HOUSE",
+        "X:HILLSDELL DR & LOCKWOOD RD",
+        "NAME:RAINTREE, HEALTH CARE OF CONCO");
+
+    doTest("T6",
+        "CAD:FIRE STANDBY;4240 SHILOH CHURCH RD;DAV;ODELL VFD STATION 2;MARIPOSA PL;ODELL SCHOOL RD;KPD",
+        "CALL:FIRE STANDBY",
+        "ADDR:4240 SHILOH CHURCH RD",
+        "CITY:DAVIDSON",
+        "PLACE:ODELL VFD STATION 2",
+        "X:MARIPOSA PL & ODELL SCHOOL RD",
+        "NAME:KPD");
+
+    doTest("T7",
+        "CAD:FALL WITH INJURY;1087 ODELL SCHOOL RD;CONCORD;UNTZ RD;ARBOR COMMONS LN",
+        "CALL:FALL WITH INJURY",
+        "ADDR:1087 ODELL SCHOOL RD",
+        "CITY:CONCORD",
+        "X:UNTZ RD & ARBOR COMMONS LN");
+
+    doTest("T8",
+        "CAD:ASSAULT W/ INJURY;5048 DAFFODIL LN;CON;BRAXTON DR;SABLE CT;BRITTANY STIREWALT",
+        "CALL:ASSAULT W/ INJURY",
+        "ADDR:5048 DAFFODIL LN",
+        "CITY:CONCORD",
+        "X:BRAXTON DR & SABLE CT",
+        "NAME:BRITTANY STIREWALT");
+  }
+  
+  @Test
+  public void fixLater() {
+    doTest("XX",
+        "CAD:DAVIDSON RD/MOORESVILLE RD;DAV;SUSPICIOUS VEHICLE",
+        "ADDR:DAVIDSON RD & MOORESVILLE",
+        "CITY:DAVIDSON",
+        "CALL:SUSPICIOUS VEHICLE");
+  }
+  
+  public static void main(String[] args) {
+    new NCCabarrusCountyAParserTest().generateTests("T9");
+  }
+}

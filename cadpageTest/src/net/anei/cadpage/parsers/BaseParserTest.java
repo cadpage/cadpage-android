@@ -130,6 +130,8 @@ public abstract class BaseParserTest {
       else if (sType.equals("PRI")) data.strPriority = str;
       else if (sType.equals("CH")) data.strChannel = str;
       else if (sType.equals("GPS")) data.strGPSLoc = str;
+      else if (sType.equals("DATE")) data.strDate = str;
+      else if (sType.equals("TIME")) data.strTime = str;
       else fail("Keyword " + sType + " is not defined");
     }
     
@@ -155,6 +157,9 @@ public abstract class BaseParserTest {
     assertEquals(title + ":Name", data.strName, info.getName());
     assertEquals(title + ":Pri", data.strPriority, info.getPriority());
     assertEquals(title + ":Ch", data.strChannel, info.getChannel());
+    assertEquals(title + ":GPS", data.strGPSLoc, info.getGPSLoc());
+    assertEquals(title + ":Date", data.strDate, info.getDate());
+    assertEquals(title + ":Time", data.strTime, info.getTime());
     
     assertEquals(title + ":DefCity", defCity, info.getDefCity());
     assertEquals(title + ":DefState", defState, info.getDefState());
@@ -180,6 +185,9 @@ public abstract class BaseParserTest {
     KEYWORD_MAP.put("NAME", "NAME");
     KEYWORD_MAP.put("PRI", "PRI");
     KEYWORD_MAP.put("CH", "CH");
+    KEYWORD_MAP.put("GPS", "GPS");
+    KEYWORD_MAP.put("DATE", "DATE");
+    KEYWORD_MAP.put("TIME", "TIME");
   }
   
   /**
@@ -337,6 +345,8 @@ public abstract class BaseParserTest {
     if (sType.equals("PRI")) return info.getPriority();
     if (sType.equals("CH")) return info.getChannel();
     if (sType.equals("GPS")) return info.getGPSLoc();
+    if (sType.equals("DATE")) return info.getDate();
+    if (sType.equals("TIME")) return info.getTime();
     else throw new RuntimeException("Keyword " + sType + " is not defined");
   }
   

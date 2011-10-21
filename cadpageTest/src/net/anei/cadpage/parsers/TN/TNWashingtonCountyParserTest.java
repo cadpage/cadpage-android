@@ -236,6 +236,15 @@ public class TNWashingtonCountyParserTest extends BaseParserTest {
         "PLACE:TERRACE COURT APARTMENTS",
         "X:S ROAN ST & DEAD END & ;REECE TERRACE APTS");
 
+    doTest("T24",
+        "prvs=268de3f1a=JCFDTEXT@johnsoncitytn.org Chest Pain(Non-Traumatic)-DELTA M6,R5,E5\n208 STRAWBERRY FIELD DR\nX-STR= SUGAR MILL DR\nBROOKE GREEN DR\n;STRAWBERRY FIELD S/D\nMap 45A 10:58:",
+        "CALL:Chest Pain(Non-Traumatic)",
+        "PRI:D",
+        "UNIT:M6,R5,E5",
+        "ADDR:208 STRAWBERRY FIELD DR",
+        "X:SUGAR MILL DR & BROOKE GREEN DR & ;STRAWBERRY FIELD S/D",
+        "MAP:45A");
+
   }
   
   @Test
