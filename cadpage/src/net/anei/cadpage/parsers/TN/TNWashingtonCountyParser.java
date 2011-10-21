@@ -30,6 +30,7 @@ prvs=187913dbd=JCFDTEXT@johnsoncitytn.org Convulsions/Seizures-DELTA\nM2,R2,E4\n
 prvs=187913dbd=JCFDTEXT@johnsoncitytn.org Convulsions/Seizures-CHARLIE\nM1,E2,R1\nS ROAN ST/UNIVERSITY PKWY\nMap 54B 15:06:18 11113223
 prvs=187913dbd=JCFDTEXT@johnsoncitytn.org Motor Vehicle Crash - Injury\nE2,E3,MP29\nI26W/OKOLONA EXIT\nMap 63C 14:16:38 115276
 prvs=256783305=JCFDTEXT@johnsoncitytn.org Sick Person-ALPHA E4\n840 W MARKET ST\nCVS PHARMACY\nX-STR= CLARK ST\nKNOB CREEK RD\nMap 54A 20:51:54 11149314\nThink green: Only print this e-
+prvs=2677ee746=JCFDTEXT@johnsoncitytn.org Convulsions/Seizures-DELTAM2,E2,R2\n1209 COLLEGE HEIGHTS DR\nX-STR= DEAD END\nUNIVERSITY PL\n;EAST OF SOUTHWEST AV\nMap 54C 17:18:07 11155033
 
 Contact: Jason Powell <firedupleadership@gmail.com>
 Sender: CAD@wc911.org
@@ -39,13 +40,14 @@ House/Residential Fire Alarm E2 \n2701 S ROAN ST #124 \nHERITAGE TRAILER PARK \n
 Assault/Sexual Assault-BRAVO M3,R3,E9 \n2918 BRISTOL HY \nADVANCE AUTO PARTS \nMap 38A 19:53:06 11113913 \nThink green: Only print this e-mail and a
 Chest Pain(Non-Traumatic)-DELTA M1,R1,E3\n805 KENTUCKY ST\nX-STR= COLORADO ST\nORLEANS ST\nMap 47D 16:50:49 11147626\nThink green: Only print thi
 
+
 */
 
 public class TNWashingtonCountyParser extends FieldProgramParser {
   
   public TNWashingtonCountyParser() {
     super("WASHINGTON COUNTY", "TN",
-           "CPU UNIT2? ADDR PLACE? ( X X2? | ) MAP!");
+           "CPU UNIT2? ADDR PLACE? ( X X2+? | ) MAP!");
   }
   
   @Override
@@ -60,22 +62,24 @@ public class TNWashingtonCountyParser extends FieldProgramParser {
   
   // CPU - Combined Call / Priority / Unit field
   private static final Pattern UNIT_PTN = Pattern.compile("\\b[A-Z]{1,2}\\d{1,2}(?:,[A-Z]{1,2}\\d{1,2})*$");
-  private static final Pattern PRI_PTN = Pattern.compile("-(?:ALPHA|BRAVO|CHARLIE|DELTA)$");
+  private static final Pattern PRI_PTN = Pattern.compile("-(?:ALPHA|BRAVO|CHARLIE|DELTA)");
   private class CallPriUnitField extends Field {
     
     @Override
     public void parse(String field, Data data) {
-      Matcher match = UNIT_PTN.matcher(field);
+      Matcher match = PRI_PTN.matcher(field);
       if (match.find()) {
-        data.strUnit = match.group();
-        field = field.substring(0,match.start()).trim();
-      }
-      match = PRI_PTN.matcher(field);
-      if (match.find()) {
+        data.strCall = field.substring(0,match.start()).trim();
         data.strPriority = (match.group().substring(1,2));
-        field = field.substring(0,match.start()).trim();
+        data.strUnit = field.substring(match.end()).trim();
+      } else {
+        match = UNIT_PTN.matcher(field);
+        if (match.find()) {
+          data.strUnit = match.group();
+          field = field.substring(0,match.start()).trim();
+        }
+        data.strCall = field;
       }
-      data.strCall = field;
     }
     
     @Override
