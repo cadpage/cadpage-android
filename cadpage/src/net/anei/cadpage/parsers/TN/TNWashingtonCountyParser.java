@@ -31,6 +31,7 @@ prvs=187913dbd=JCFDTEXT@johnsoncitytn.org Convulsions/Seizures-CHARLIE\nM1,E2,R1
 prvs=187913dbd=JCFDTEXT@johnsoncitytn.org Motor Vehicle Crash - Injury\nE2,E3,MP29\nI26W/OKOLONA EXIT\nMap 63C 14:16:38 115276
 prvs=256783305=JCFDTEXT@johnsoncitytn.org Sick Person-ALPHA E4\n840 W MARKET ST\nCVS PHARMACY\nX-STR= CLARK ST\nKNOB CREEK RD\nMap 54A 20:51:54 11149314\nThink green: Only print this e-
 prvs=2677ee746=JCFDTEXT@johnsoncitytn.org Convulsions/Seizures-DELTAM2,E2,R2\n1209 COLLEGE HEIGHTS DR\nX-STR= DEAD END\nUNIVERSITY PL\n;EAST OF SOUTHWEST AV\nMap 54C 17:18:07 11155033
+prvs=2677ee746=JCFDTEXT@johnsoncitytn.org Unk Problem(MedicalAlarm)-BRAVO M6,R3,E5\n3207 BRISTOL HY\nCOLONIAL HILL RETIREMENT CENTER\nX-STR= MULBERRY ST\nSHANNON LN\nMap 30D 14:48:16
 
 Contact: Jason Powell <firedupleadership@gmail.com>
 Sender: CAD@wc911.org
@@ -147,14 +148,14 @@ public class TNWashingtonCountyParser extends FieldProgramParser {
   }
   
   // MAP field has to start with map, and drop trailing
-  private static final Pattern MAP_PTN = Pattern.compile("Map (.+) \\d\\d:\\d\\d:\\d\\d (\\d{6,8})$");
+  private static final Pattern MAP_PTN = Pattern.compile("Map (.+) \\d\\d:\\d\\d:\\d\\d(?: (\\d+))?");
   private class MyMapField extends MapField {
     @Override
     public void parse(String field, Data data) {
       Matcher match = MAP_PTN.matcher(field);
-      if (!match.find()) abort();
+      if (!match.matches()) abort();
       data.strMap = match.group(1).trim();
-      data.strCallId = match.group(2);
+      data.strCallId = getOptGroup(match.group(2));
     }
   }
   
