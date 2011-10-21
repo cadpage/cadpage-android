@@ -32,6 +32,7 @@ prvs=187913dbd=JCFDTEXT@johnsoncitytn.org Motor Vehicle Crash - Injury\nE2,E3,MP
 prvs=256783305=JCFDTEXT@johnsoncitytn.org Sick Person-ALPHA E4\n840 W MARKET ST\nCVS PHARMACY\nX-STR= CLARK ST\nKNOB CREEK RD\nMap 54A 20:51:54 11149314\nThink green: Only print this e-
 prvs=2677ee746=JCFDTEXT@johnsoncitytn.org Convulsions/Seizures-DELTAM2,E2,R2\n1209 COLLEGE HEIGHTS DR\nX-STR= DEAD END\nUNIVERSITY PL\n;EAST OF SOUTHWEST AV\nMap 54C 17:18:07 11155033
 prvs=2677ee746=JCFDTEXT@johnsoncitytn.org Unk Problem(MedicalAlarm)-BRAVO M6,R3,E5\n3207 BRISTOL HY\nCOLONIAL HILL RETIREMENT CENTER\nX-STR= MULBERRY ST\nSHANNON LN\nMap 30D 14:48:16
+prvs=268de3f1a=JCFDTEXT@johnsoncitytn.org Unconscious/Fainting-CHARLIEM2,R1,E3\n1430 S ROAN ST\nWALGREENS DRUG STORES (ROA/UNI)\nX-STR= TERRACE CT\nE HIGHLAND RD\nMap 46C 20:15:55 111
 
 Contact: Jason Powell <firedupleadership@gmail.com>
 Sender: CAD@wc911.org

@@ -78,6 +78,10 @@ public class NYSuffolkCountyBParser extends FieldProgramParser {
     body = body.substring(pta+3).trim();
     if (! super.parseMsg(body, data)) return false;
     if (data.strPlace.endsWith("*")) data.strPlace = data.strPlace.substring(0, data.strPlace.length()-1).trim();
+    if (data.strAddress.length() == 0) {
+      data.strAddress = data.strPlace;
+      data.strPlace = "";
+    }
     return true;
   }
 
