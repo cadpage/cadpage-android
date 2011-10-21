@@ -245,6 +245,17 @@ public class TNWashingtonCountyParserTest extends BaseParserTest {
         "X:SUGAR MILL DR & BROOKE GREEN DR & ;STRAWBERRY FIELD S/D",
         "MAP:45A");
 
+    doTest("T25",
+        "prvs=268de3f1a=JCFDTEXT@johnsoncitytn.org Convulsions/Seizures-CHARLIE M2,R4,E5\n541 SID MARTIN RD\nCITI COMMERCE SOLUTIONS\nX-STR= BOB DAVIS RD\nBOBBY HICKS HY\nMap 12D 13:55:39 11155",
+        "CALL:Convulsions/Seizures",
+        "PRI:C",
+        "UNIT:M2,R4,E5",
+        "ID:11155",
+        "ADDR:541 SID MARTIN RD",
+        "PLACE:CITI COMMERCE SOLUTIONS",
+        "X:BOB DAVIS RD & BOBBY HICKS HY",
+        "MAP:12D");
+
   }
   
   @Test
