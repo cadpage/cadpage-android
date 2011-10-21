@@ -215,6 +215,17 @@ public class TNWashingtonCountyParserTest extends BaseParserTest {
         "X:MULBERRY ST & SHANNON LN",
         "MAP:30D");
 
+    doTest("T22",
+        "prvs=268de3f1a=JCFDTEXT@johnsoncitytn.org Unconscious/Fainting-CHARLIEM2,R1,E3\n1430 S ROAN ST\nWALGREENS DRUG STORES (ROA/UNI)\nX-STR= TERRACE CT\nE HIGHLAND RD\nMap 46C 20:15:55 111",
+        "CALL:Unconscious/Fainting",
+        "PRI:C",
+        "UNIT:M2,R1,E3",
+        "ID:111",
+        "ADDR:1430 S ROAN ST",
+        "PLACE:WALGREENS DRUG STORES (ROA/UNI)",
+        "X:TERRACE CT & E HIGHLAND RD",
+        "MAP:46C");
+
   }
   
   @Test
