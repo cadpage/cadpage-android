@@ -10,6 +10,7 @@ import net.anei.cadpage.parsers.FieldProgramParser;
 Johnson City, TN (Washington County)
 Contact: nathan carrier <ncarrier454@gmail.com>
 Contact: david harrison <firemist317@gmail.com>
+Contact: Travis Justice <tcjustice8892@gmail.com>
 Sender: JCFDTEXT@johnsoncitytn.org
 prvs=182efbc0f=JCFDTEXT@johnsoncitytn.org House/Residential Fire E7,E4,L44,E3,MP29\nALLISON LN/HELEN CT\nALLISON PLACE SD\nMap 53C 16:50:40 115143\nThink green: Only print this e-mail
 prvs=1838ca3f5=JCFDTEXT@johnsoncitytn.org GRASS/BRUSH FIRE E4\n208 GARDEN DR\nGRACE TEMPLE CHURCH\nMap 46C 19:57:36 115181
@@ -35,6 +36,7 @@ prvs=2677ee746=JCFDTEXT@johnsoncitytn.org Unk Problem(MedicalAlarm)-BRAVO M6,R3,
 prvs=268de3f1a=JCFDTEXT@johnsoncitytn.org Unconscious/Fainting-CHARLIEM2,R1,E3\n1430 S ROAN ST\nWALGREENS DRUG STORES (ROA/UNI)\nX-STR= TERRACE CT\nE HIGHLAND RD\nMap 46C 20:15:55 111
 prvs=268de3f1a=JCFDTEXT@johnsoncitytn.orgOverdose/Ingestion/Poisoning-CHARLIE M13,E3\n110 TERRACE CT #1\nTERRACE COURT APARTMENTS\nX-STR= S ROAN ST\nDEAD END\n;REECE TERRACE APTS\nMap
 prvs=268de3f1a=JCFDTEXT@johnsoncitytn.org Chest Pain(Non-Traumatic)-DELTA M6,R5,E5\n208 STRAWBERRY FIELD DR\nX-STR= SUGAR MILL DR\nBROOKE GREEN DR\n;STRAWBERRY FIELD S/D\nMap 45A 10:58:
+prvs=268de3f1a=JCFDTEXT@johnsoncitytn.org Convulsions/Seizures-CHARLIE M2,R4,E5\n541 SID MARTIN RD\nCITI COMMERCE SOLUTIONS\nX-STR= BOB DAVIS RD\nBOBBY HICKS HY\nMap 12D 13:55:39 11155
 
 Contact: Jason Powell <firedupleadership@gmail.com>
 Sender: CAD@wc911.org
