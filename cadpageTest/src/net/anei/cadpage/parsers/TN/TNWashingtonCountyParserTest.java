@@ -195,6 +195,16 @@ public class TNWashingtonCountyParserTest extends BaseParserTest {
         "X:CLARK ST & KNOB CREEK RD",
         "MAP:54A");
 
+    doTest("T20",
+        "prvs=2677ee746=JCFDTEXT@johnsoncitytn.org Convulsions/Seizures-DELTAM2,E2,R2\n1209 COLLEGE HEIGHTS DR\nX-STR= DEAD END\nUNIVERSITY PL\n;EAST OF SOUTHWEST AV\nMap 54C 17:18:07 11155033",
+        "CALL:Convulsions/Seizures",
+        "PRI:D",
+        "UNIT:M2,E2,R2",
+        "ID:11155033",
+        "ADDR:1209 COLLEGE HEIGHTS DR",
+        "X:DEAD END & UNIVERSITY PL & ;EAST OF SOUTHWEST AV",
+        "MAP:54C");
+
   }
   
   @Test
