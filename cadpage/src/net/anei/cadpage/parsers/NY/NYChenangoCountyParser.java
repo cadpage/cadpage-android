@@ -1,0 +1,31 @@
+package net.anei.cadpage.parsers.NY;
+
+import net.anei.cadpage.parsers.dispatch.DispatchA2Parser;
+
+
+/*
+Chengango County, NY
+Contact: Joshua VanSteenburg <jvansteenburg1985@gmail.com>
+Sender: cad@co.chenango.ny.us
+
+[911 EVENT]  BREATHING PROBLEMS|XTRA MART- GREENE|94 GENESEE ST  STA GREENE XS STATE HWY 12 /BIRDSALL ST|NARR PROQA DETAIL:DELTA 06D02 ABD PAIN| YOU ARE RESPON
+[911 EVENT]  STANDBY|GREENE HIGH SCHOOL|40 S CANAL ST  STA GREENE XS PAGE ST/S CHENANGO ST EXT
+[911 EVENT]  CHEST PAIN|GREENE FAMILY MEDICINE|29 N CHENANGO ST  STA GREENE XS SCOTT  AV/ELM ST|NARR PROQA DETAIL:CHARLIE 10C04 CHEST PAIN| YOU ARE RESPONDING
+[911 EVENT]  HEMORRHAGE / LACERATION|NYS VETS HOME|4207 STATE HWY 220   STA OXFORD XS COUNTY RD 35 /COUNTY RD 32|NARR SPRUCE COTTAGE - 68YOM - NOSE BLEED - 21-
+[911 EVENT]  STRUCTURE FIRE/RESIDENTIAL||103 CURTIS COURT   STA SMITHVILLE XS ROUND POND  RD/***DEAD END***|NARR PERSON: (COMPLAINANT) (FMLS) VICKY CURTIS  NO
+
+*/
+
+
+public class NYChenangoCountyParser extends DispatchA2Parser {
+    
+    public NYChenangoCountyParser() {
+      super("CHENANGO COUNTY", "NY");
+    }
+    
+    @Override
+    public String getFilter() {
+      return "cad@co.chenango.ny.us";
+    }
+	}
+	
