@@ -33,6 +33,7 @@ prvs=256783305=JCFDTEXT@johnsoncitytn.org Sick Person-ALPHA E4\n840 W MARKET ST\
 prvs=2677ee746=JCFDTEXT@johnsoncitytn.org Convulsions/Seizures-DELTAM2,E2,R2\n1209 COLLEGE HEIGHTS DR\nX-STR= DEAD END\nUNIVERSITY PL\n;EAST OF SOUTHWEST AV\nMap 54C 17:18:07 11155033
 prvs=2677ee746=JCFDTEXT@johnsoncitytn.org Unk Problem(MedicalAlarm)-BRAVO M6,R3,E5\n3207 BRISTOL HY\nCOLONIAL HILL RETIREMENT CENTER\nX-STR= MULBERRY ST\nSHANNON LN\nMap 30D 14:48:16
 prvs=268de3f1a=JCFDTEXT@johnsoncitytn.org Unconscious/Fainting-CHARLIEM2,R1,E3\n1430 S ROAN ST\nWALGREENS DRUG STORES (ROA/UNI)\nX-STR= TERRACE CT\nE HIGHLAND RD\nMap 46C 20:15:55 111
+prvs=268de3f1a=JCFDTEXT@johnsoncitytn.orgOverdose/Ingestion/Poisoning-CHARLIE M13,E3\n110 TERRACE CT #1\nTERRACE COURT APARTMENTS\nX-STR= S ROAN ST\nDEAD END\n;REECE TERRACE APTS\nMap
 
 Contact: Jason Powell <firedupleadership@gmail.com>
 Sender: CAD@wc911.org
@@ -122,7 +123,7 @@ public class TNWashingtonCountyParser extends FieldProgramParser {
     
     @Override
     public boolean checkParse(String field, Data data) {
-      if (field.startsWith("X-STR=") || field.startsWith("Map ")) return false;
+      if (field.startsWith("X-STR=") || isMapField(field)) return false;
       super.parse(field, data);
       return true;
     }
@@ -142,22 +143,32 @@ public class TNWashingtonCountyParser extends FieldProgramParser {
   private class MyCross2Field extends CrossField {
     @Override
     public boolean checkParse(String field, Data data) {
-      if (field.startsWith("Map ")) return false;
+      if (isMapField(field)) return false;
       parse(field, data);
       return true;
     }
   }
   
-  // MAP field has to start with map, and drop trailing
-  private static final Pattern MAP_PTN = Pattern.compile("Map (.+) \\d\\d:\\d\\d:\\d\\d(?: (\\d+))?");
+  // MAP field has to start with map, and drop trailing stuff
+  private static final Pattern MAP_PTN = Pattern.compile("\\d\\d[A-Za-z]");
   private class MyMapField extends MapField {
     @Override
     public void parse(String field, Data data) {
-      Matcher match = MAP_PTN.matcher(field);
-      if (!match.matches()) abort();
-      data.strMap = match.group(1).trim();
-      data.strCallId = getOptGroup(match.group(2));
+      Parser p = new Parser(field);
+      if (!"Map".startsWith(p.get(' '))) abort();
+      String sMap  = p.get(' ');
+      while (MAP_PTN.matcher(sMap).matches()) {
+        data.strMap = append(data.strMap, " ", sMap);
+        sMap = p.get(' ');
+      }
+      data.strCallId = p.get();
     }
+  }
+  
+  private boolean isMapField(String field) {
+    if (field.startsWith("Map ")) return true;
+    if ("Map".startsWith(field)) return true;
+    return false;
   }
   
   @Override
