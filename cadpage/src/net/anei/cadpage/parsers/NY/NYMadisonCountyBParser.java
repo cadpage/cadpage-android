@@ -18,6 +18,7 @@ Contact: bcsbeaverslew@yahoo.com <bcsbeaverslew@yahoo.com>
 [911 Dispatch]  BRKFD:2011:165\nDispatched\nTraumatic Injuries\n@SCHOOL BOCES BROOKFIELD CENTRAL SCHOOL (1910 FAIRGROUND RD
 [911 Dispatch]  BRKFD:2011:164\nDispatched\nSick Person\n10799 HOXIE RD , BROOKFIELD ( COYOTE RUN /)
 [911 Dispatch]  BRKFD:2011:163\nDispatched\nTraumatic Injuries\n1910 FAIRGROUND RD , BROOKFIELD ( / ELM)\n
+
 */
 
 
@@ -58,10 +59,19 @@ public class NYMadisonCountyBParser extends FieldProgramParser {
     
     @Override
     public void parse(String field, Data data) {
-      Parser p = new Parser(field);
-      parseAddress(p.get(','), data);
-      data.strCity = p.get('(');
-      data.strCross = p.get(')');
+      if (field.startsWith("@")) {
+        Parser p = new Parser(field.substring(1).trim());
+        data.strPlace = p.get('(');
+        parseAddress(p.get(')'), data);
+      } else {
+        Parser p = new Parser(field);
+        parseAddress(p.get(','), data);
+        data.strCity = p.get('(');
+        String sCross = p.get(')');
+        if (sCross.startsWith("/")) sCross = sCross.substring(1).trim();
+        if (sCross.endsWith("/")) sCross = sCross.substring(0,sCross.length()-1).trim();
+        data.strCross = sCross;
+      }
     }
     
     @Override
