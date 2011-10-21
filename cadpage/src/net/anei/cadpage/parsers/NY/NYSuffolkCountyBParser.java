@@ -50,8 +50,10 @@ Contact: Bernice Bien Aime <bbienaime@wwhac.com>
 Sender: paging@firerescuesystems.xohost.com
 *** 2nd/16 - Rescue *** 224 STATE AVE CS: MOUNT AVE  - LUND ST TOA: 18:48 09-17-11 E/F ABD PAIN WYANDANCH/WHEATLEY HTS 2011-001835
 
-sms send 1112223333 (1/2)Daniel M. Agababian - Sender: paging@firerescuesystems.xohost.com\n*** 16 - Rescue *** 162 OAKLAND AVE CS: W 6TH ST  / W 5TH ST TOA: 10:20 04/02/11 A/F INF
-sms send 1112223333 (2/2)FROM A FALL   DEER PARK FIR
+Contact: Tyler Gibbs <moosespace91@gmail.com>
+Sender: scmproducts@optonline.net
+*** 16 ***  BROADWAY CS: PARK AVE ADTML: 31-D-3 TOA: 16:14 10-20-11 2011-004568 TYPE: UNCONSCIOUS / FAINTING (NEAR) I/V/O NURSERY E/M
+
 
 */
 
@@ -63,13 +65,12 @@ public class NYSuffolkCountyBParser extends FieldProgramParser {
   
   public NYSuffolkCountyBParser() {
     super(CITY_LIST, "SUFFOLK COUNTY", "NY",
-           "ADDR/SP! CS:X! TOA:INFO");
+           "ADDR/SP! CS:X! ADTML:CODE? TOA:TOA TYPE:INFO");
   }
   
   @Override
   protected boolean parseMsg(String body, Data data) {
     
-    if (body.startsWith("/")) body = body.substring(1).trim();
     if (!body.startsWith("***")) return false;
     int pta = body.indexOf("***",3); 
     if (pta < 0) return false;
@@ -84,7 +85,7 @@ public class NYSuffolkCountyBParser extends FieldProgramParser {
   private static final Pattern ANGLE_BKT_PTN = Pattern.compile("<[^<>]*>");
   private static final Pattern ID_PTN = Pattern.compile("\\b\\d{4}-\\d{6}\\b");
   private static final Pattern DISTRICT_PTN = Pattern.compile("\\b(?:NORTH BABYLON FC|AMITYVILLE FD|DEER PARK FIRE DISTRICT|PT JEFFERSON)\\b");
-  private class MyInfoField extends InfoField {
+  private class MyToaField extends InfoField {
     
     @Override
     public void parse(String field, Data data) {
@@ -113,7 +114,7 @@ public class NYSuffolkCountyBParser extends FieldProgramParser {
   
   @Override
   public Field getField(String name) {
-    if (name.equals("INFO")) return new MyInfoField();
+    if (name.equals("TOA")) return new MyToaField();
     return super.getField(name);
   }
   
