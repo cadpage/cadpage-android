@@ -30,6 +30,8 @@ public class SmsMsgInfo {
   private String strPriority;
   private String strChannel;
   private String strGPSLoc;
+  private String strDate;
+  private String strTime;
   private String defCity;
   private String defState;
   
@@ -66,6 +68,8 @@ public class SmsMsgInfo {
     public String strPriority = "";
     public String strChannel = "";
     public String strGPSLoc = "";
+    public String strDate = "";
+    public String strTime = "";
     public String defCity = "";
     public String defState="";
     
@@ -120,6 +124,8 @@ public class SmsMsgInfo {
     strPriority = info.strPriority;
     strChannel = info.strChannel;
     strGPSLoc = info.strGPSLoc;
+    strDate = info.strDate;
+    strTime = info.strTime;
     defCity = info.defCity;
     defState = info.defState;
     expectMore = info.expectMore;
@@ -533,6 +539,20 @@ public class SmsMsgInfo {
     return strGPSLoc;
   }
   
+  /**
+   * @return incident date
+   */
+  public String getDate() {
+    return strDate;
+  }
+  
+  /**
+   * @return incident time
+   */
+  public String getTime() {
+    return strTime;
+  }
+  
   
   /**
    * @return the default city 
@@ -584,6 +604,8 @@ public class SmsMsgInfo {
     addInfo(sb, "Pri",  strPriority);
     addInfo(sb, "Ch", strChannel);
     addInfo(sb, "GPS", strGPSLoc);
+    addInfo(sb, "Date", strDate);
+    addInfo(sb, "Time", strTime);
   }
   
   private void addInfo(StringBuilder sb, String title, String value) {

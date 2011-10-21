@@ -1703,6 +1703,47 @@ public class FieldProgramParser extends SmartAddressParser {
       data.strGPSLoc = field;
     }
   }
+
+  /**
+   * Date field processor
+   */
+  public class DateField extends Field {
+
+    @Override
+    public void parse(String field, Data data) {
+      data.strDate = field;
+    }
+  }
+
+  /**
+   * Time field processor
+   */
+  public class TimeField extends Field {
+
+    @Override
+    public void parse(String field, Data data) {
+      data.strTime = field;
+    }
+  }
+
+  /**
+   * Time field processor
+   */
+  public class DateTimeField extends Field {
+
+    @Override
+    public void parse(String field, Data data) {
+      int pt = field.indexOf(' ');
+      if (pt < 0) abort();
+      data.strDate = field.substring(0,pt).trim();
+      data.strTime = field.substring(pt+1).trim();
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "DATE TIME";
+    }
+  }
   
   /**
    * Skip field processor
@@ -1781,6 +1822,9 @@ public class FieldProgramParser extends SmartAddressParser {
     if (name.equals("PRI")) return new PriorityField();
     if (name.equals("CH")) return new ChannelField();
     if (name.equals("GPS")) return new GPSField();
+    if (name.equals("DATE")) return new DateField();
+    if (name.equals("TIME")) return new TimeField();
+    if (name.equals("DATETIME")) return new DateTimeField();
     if (name.equals("SKIP")) return new SkipField();
     if (name.equals("INTLS")) return new InitialsField();
     if (name.equals("END")) return new EndField();

@@ -26,7 +26,7 @@ Contact: Dave Wiser <yzr305@yahoo.com>
 Sender: alerts@blairalerts.com
 (Inc: WIRES DOWN/TREE DOWN) Inc: WIRES DOWN/TREE DOWN \nAdd: 605 5TH ST \nCity: TYRONE BO \nUnits: 400 31A\n31A\nLat/Lon: @40.66879 @78.25321\n9/27/2011 11:05:05 P
 (Inc: Commercial Fire Alarm) Inc: Commercial Fire Alarm \nAdd: 505 3RD ST \nCity: TYRONE BO \nUnits: 400 31A\n31A\nLat/Lon: @40.66619 @78.25446\n10/1/2011 2:43:28
-(Inc: FIRE ASSIST) Inc: FIRE ASSIST \nAdd: STATION 1 \nCity:\2s\nUnits: 9011 31A\n31A\nLat/Lon: @-1.00000 @-1.00000\n10/5/2011 2:27:41 AM \nDR #: 311100256
+(Inc: FIRE ASSIST) Inc: FIRE ASSIST \nAdd: STATION 1 \nCity:  \nUnits: 9011 31A\n31A\nLat/Lon: @-1.00000 @-1.00000\n10/5/2011 2:27:41 AM \nDR #: 311100256
 (Inc: Vehicle Fire) Inc: Vehicle Fire \nAdd: 110 SUNSET HILLS EXT \nCity: SNYDER TW \nUnits: 31A\n31A\nLat/Lon: @40.67871 @78.25442\n10/1/2011 9:35:19 PM \nDR #: 31
 
 */

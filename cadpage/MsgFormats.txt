@@ -54,7 +54,7 @@ Burke County, NC (NCBurkeCountyParser)
 |CAD:69;MVAPI;TURKEY TAIL LN/LINVILLE ST;[LAW] SUBJECT`S VEHICLES HAS ROLLED OVER AND HE WANTS TO BE CHECKED OUT -- ROUTINE [02/25/11 19:[1 of 2]
 |CAD:75;MED;17D03;5751 ABEE FARM ST;NURSERY RD;NEIL RD;[Medical Priority Info] RESPONSE: Delta RESPONDER SCRIPT: You are responding to a [1 of 2]
 ***************************************************************************
-Cabarrus County, NC (NCCabarrusCountyParser)
+Cabarrus County, NC (NCCabarrusCountyAParser)
 CAD:ASSAULT W/ INJURY;2339 ODELL SCHOOL RD;CON;CONCORD HOUSE;HILLSDELL DR;LOCKWOOD RD;RAINTREE, HEALTH CARE OF CONCO
 CAD:BREATHING PROBLEMS;5412 ASHBURY LN;DAV;TERRILL RIDGE DR;TERRILL RIDGE DR;BRACEY III JOSEPH O     
 CAD:STRUCTURE FIRE;1606 DUCKHORN ST NW;CON;From CPD:;RAVENSCROFT LN NW;INDIAN BEECH AV NW;BUCKELEW, HEATHER     
@@ -1149,10 +1149,15 @@ BREATHING PROBL|18077 REED POINT RD:ORLEANS(T)|77 YO MALE DIFF BREATHING
 ABDOMINAL PAIN|18081 REED POINT RD:ORLEANS(T)|79F  :ProQA Medical Case Entry Finished You are responding to a patient with abdominal pain.  The patient is a  79-year-old female, who is conscious and breathing.  Abdominal Pain / Problems.  Caller Statement: ABDOMINAL PAIN.
 ASSIST-EMS|I 81 MM 176 N:ALEXANDRIA(T)|1 mile south of 50 in the north bound lane   vehicle appears to be stuck in mediun    unkn9ow if occupied  :3D63 REQUESTING EMS RESPOND.  ONE FEMALE OCCUPANT COMPLAINING OF WRIST PAIN.
 ***************************************************************************
-Madison County, NY (NYMadisonCountyParser)
+Madison County, NY (NYMadisonCountyAParser)
 Dispatch ** 21:35 ** BREATHING PROBLEM ** @HUBBARD HALL (5 SULLIVAN ST (CAZENOVIA VILLAGE ) ** HUBBARD HALL- **  **  **
 Dispatch ** 21:42 ** WATER PROBLEM ** 3243 ROUTE 20 , NELSON ** - ** michael manion ** 6559325 **
 Dispatch ** 16:22 ** BREATHING PROBLEM ** 4188 MEADOW HILL RD , CAZENOVIA ( / ROUTE 20) ** - **  **  **
+***************************************************************************
+Madison County, NY (NYMadisonCOuntyBParser)
+[911 Dispatch]  BRKFD:2011:173\nDispatched\nChest Pain\n1929 ACADEMY RD , BROOKFIELD ( / SPOONER RD)
+[911 Dispatch]  BRKFD:2011:172\nDispatched\nPsychiatric/Suicide Attempt\n11325 MILL , BROOKFIELD ( CENTER /)
+[911 Dispatch]  BRKFD:2011:171\nDispatched\nBreathing Problem\n10825 HOXIE RD , BROOKFIELD ( COYOTE RUN /)
 ***************************************************************************
 Monroe County, NY (NYMonroeCountyWebsterParser) 
 L: 701 AUDLEY END\nT: STRUCTURE FIRE\nO: \nB: \nC1: FINCHINGFIELD LA\nC2: WOODBRIDGE LA\nX: PLASTIC CONTAINER CAUGHT FIRE ON STOVE..COMP SAYS THAT CONTAINER IS SMOLD
@@ -1231,6 +1236,11 @@ Alexander County, NC (NCAlexanderCountyParser)
 CAD:2370 NC 90 HWY E;NC DEPT OF TRANSPORTATION;TRAFFIC ACCIDENT;ADAMS POND LN;WINTERHAVEN RD
 CAD:1522 BLACK OAK RIDGE RD;STANDARD STRUCTURE FIRE;JONES RD;CARSON CHAPEL RD
 CAD:400 LEE MATHESON RD;HEART PROBLEMS;19D04;BOSTON RD;TAYLORSVILLE MFG RD
+***************************************************************************
+Cabarrus County, NC (NCCabarrusCountyBParser)
+29:1|ODOR OF SMOKE INSIDE|OPS3|920 CHURCH ST N|ARDSLEY AVE NE|CONCORD PKWY N|2|21KA|10/04/2011 10:24:12|NEMC MAIN BUILDING(CMH)|7047836595|4431|1106269
+30:FYI: |1|COMMERCIAL FIRE ALARM|2460 ROCK HILL CHURCH RD|CLOISTER CT NW|CAVALIER CT NW|3|371|10/04/2011 14:37:43|CLARE BRIDGE (DISCOVERY)|7047200990|1106276
+34:10/05/2011 22:21:57|DWELLING FIRE|199 GOAR ST SW|FERN AVE SW|RONE AVE SW
 ***************************************************************************
 Caldwell County, NC (NCCaldwellCountyParser)
 BREATHING PROBLEMS CHARLIE;25 WATER ST;GF;APT 12;CIRCLE ST;NORTH SUMMIT AV
@@ -3334,19 +3344,9 @@ Sender: sms.dispatch@ccmedicunit.org
 ************  READY TO ROLL ******************************
 **********************************************************
 **********************************************************
-Madison County, NY  (in progress)
 **********************************************************
 **********************************************************
 **********************************************************
-Cabarrus County, NC (alternate?)
-Contact: Mark Brown <hzmtinstructor@gmail.com>
-Sender: 93001030
-21KA and 371 are station combination, convert to unit.
-
-29:1|ODOR OF SMOKE INSIDE|OPS3|920 CHURCH ST N|ARDSLEY AVE NE|CONCORD PKWY N|2|21KA|10/04/2011 10:24:12|NEMC MAIN BUILDING(CMH)|7047836595|4431|1106269
-30:FYI: |1|COMMERCIAL FIRE ALARM|2460 ROCK HILL CHURCH RD|CLOISTER CT NW|CAVALIER CT NW|3|371|10/04/2011 14:37:43|CLARE BRIDGE (DISCOVERY)|7047200990|1106276
-34:10/05/2011 22:21:57|DWELLING FIRE|199 GOAR ST SW|FERN AVE SW|RONE AVE SW
-37:10/07/2011 22:05:08|DWELLING FIRE|2873 SIGNAL CT SW|PULLMAN ST SW
 **********************************************************
 Weld County, CO (variant of Greeley, CO)
 Contact: Kevin Hudson <motorworks3@gmail.com>
