@@ -205,6 +205,16 @@ public class TNWashingtonCountyParserTest extends BaseParserTest {
         "X:DEAD END & UNIVERSITY PL & ;EAST OF SOUTHWEST AV",
         "MAP:54C");
 
+    doTest("T21",
+        "prvs=2677ee746=JCFDTEXT@johnsoncitytn.org Unk Problem(MedicalAlarm)-BRAVO M6,R3,E5\n3207 BRISTOL HY\nCOLONIAL HILL RETIREMENT CENTER\nX-STR= MULBERRY ST\nSHANNON LN\nMap 30D 14:48:16",
+        "CALL:Unk Problem(MedicalAlarm)",
+        "PRI:B",
+        "UNIT:M6,R3,E5",
+        "ADDR:3207 BRISTOL HY",
+        "PLACE:COLONIAL HILL RETIREMENT CENTER",
+        "X:MULBERRY ST & SHANNON LN",
+        "MAP:30D");
+
   }
   
   @Test
