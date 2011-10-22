@@ -246,6 +246,27 @@ public class TNWashingtonCountyParserTest extends BaseParserTest {
         "MAP:45A");
 
     doTest("T25",
+        "prvs=269c08782=JCFDTEXT@johnsoncitytn.org Breathing Problems/ASTHMA-DELTA E7\n1410 COLONY PARK DR #10\nSOUTHRIDGE APTS BLDG 2\nX-STR= 2300 BK S GREENWOOD DR\nCURVE IN ROAD\nMap 62A 22:",
+        "CALL:Breathing Problems/ASTHMA",
+        "PRI:D",
+        "UNIT:E7",
+        "ADDR:1410 COLONY PARK DR",
+        "APT:10",
+        "PLACE:SOUTHRIDGE APTS BLDG 2",
+        "X:2300 BK S GREENWOOD DR & CURVE IN ROAD",
+        "MAP:62A");
+
+    doTest("T26",
+        "prvs=269c08782=JCFDTEXT@johnsoncitytn.org Hemorrhage/Lacerations-BRAVO M1,E1,R1\n2307 SARAH ST\nX-STR= DEAD END\nMOSE ST\n;BEHIND BYLO MKT\nMap 39A 00:54:20 11155726\nThink green: Only p",
+        "CALL:Hemorrhage/Lacerations",
+        "PRI:B",
+        "UNIT:M1,E1,R1",
+        "ID:11155726",
+        "ADDR:2307 SARAH ST",
+        "X:DEAD END & MOSE ST & ;BEHIND BYLO MKT",
+        "MAP:39A");
+
+    doTest("T27",
         "prvs=268de3f1a=JCFDTEXT@johnsoncitytn.org Convulsions/Seizures-CHARLIE M2,R4,E5\n541 SID MARTIN RD\nCITI COMMERCE SOLUTIONS\nX-STR= BOB DAVIS RD\nBOBBY HICKS HY\nMap 12D 13:55:39 11155",
         "CALL:Convulsions/Seizures",
         "PRI:C",
