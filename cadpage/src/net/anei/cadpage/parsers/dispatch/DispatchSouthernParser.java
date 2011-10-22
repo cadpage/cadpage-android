@@ -117,6 +117,18 @@ CEC:315 FRONT ST BEAUFORT FDL 52C03-G 11-088849 04:01:34 ALARM FIRE
 CEC:4035 ARENDELL ST rm 226 MOREHEAD CITY 11-089051 14:12:37 BREATHING PROBLEMS
 CEC:1805 ARENDELL ST apt b MOREHEAD CITY MDL 26D01 11-088938 09:43:13 SICK PERSON
 
+Madison County, NC
+S: M:TERESA:1 MANOR RD MARS HILL 2011046591 14:24:27 TEST test page
+S: M:Randy:16 A AVE HOT SPRINGS 2011046589 13:32:14 STROKE 80 y/o female possible stroke has history
+S: M:Randy:590 MEDICAL PARK DR MARSHALL 2011046583 11:27:50 DIFFICULTY IN BREATHING 63 y/o female with copd with difficult
+S: M:JOEY:6266 US 25-70 HWY MARSHALL 2011046522 23:38:41 CHEST PAIN 50 Y/O FEMALE CHEST PAINS
+S: M:JOEY:31 TWEED RD MARSHALL 2011046509 00:21:13 WILDFIRE SOME TYPE OF FIRE ON TWEED ROAD. THIS IS A THIRD PARTY CALL
+S: M:BRETT:717 HENRY TREADWAY RD MARSHALL 2011046457 20:00:32 ROUTINE TRANSPORT 84 y/o female
+S: M:BRETT:150 BERRY WILLS RD HOT SPRINGS 2011046451 18:00:17 FALL-WITH INJURIES
+S: M:ROBIN:127 MOUNTAIN HAVEN DR MARS HILL 2011046543 10:06:25 SICK CALL MALE LOWER BOWEL INFECTION ( C-DIF ) 64 YOA 1ST D
+S: M:ROBIN:193 LUTHER DR MARS HILL 2011046538 06:28:43 IRREGULAR HEART RATE FEMALE 98 YOA LOW BP//IRREGULAR HEART RATE
+S: M:AVA:89 NEWGROUND RD MARS HILL 2011046496 15:21:14 LEG PAIN recent  hip surgery complaining of increase in leg pain
+
 */
 
 public class DispatchSouthernParser extends SmartAddressParser {
@@ -138,8 +150,8 @@ public class DispatchSouthernParser extends SmartAddressParser {
   public static final int DSFLAG_LEAD_PLACE = 0x010;
   
   private static final Pattern LEAD_PTN = Pattern.compile("^[\\w\\.]+:");
-  private static final Pattern ID_TIME_PTN = Pattern.compile("\\b(\\d{2,4}-?\\d{4,8}) \\d\\d:\\d\\d:\\d\\d\\b");
-  private static final Pattern OPT_ID_TIME_PTN = Pattern.compile("\\b(?:(\\d{2,4}-?\\d{4,8}) )?\\d\\d:\\d\\d:\\d\\d\\b");
+  private static final Pattern ID_TIME_PTN = Pattern.compile("\\b(\\d{2,4}-?\\d{4,8}) (\\d\\d:\\d\\d:\\d\\d)\\b");
+  private static final Pattern OPT_ID_TIME_PTN = Pattern.compile("\\b(?:(\\d{2,4}-?\\d{4,8}) )?(\\d\\d:\\d\\d:\\d\\d)\\b");
   private static final Pattern CALL_PTN = Pattern.compile("^[A-Z0-9\\- /]+\\b");
   private static final Pattern PHONE_PTN = Pattern.compile("\\b\\d{10}\\b");
 
@@ -179,6 +191,7 @@ public class DispatchSouthernParser extends SmartAddressParser {
     if (!match.find()) return false;
     
     data.strCallId = getOptGroup(match.group(1));
+    data.strTime = match.group(2);
     String sAddr = body.substring(0,match.start()).trim();
     String sExtra = body.substring(match.end()).trim();
     

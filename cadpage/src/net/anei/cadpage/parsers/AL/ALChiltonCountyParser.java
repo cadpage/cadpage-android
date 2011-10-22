@@ -23,7 +23,6 @@ Contact: d w <miswtl@gmail.com>
 Contact: Scott Hooper <evfd1326@gmail.com>
   / 3669 COUNTY RD 49 CLANTON 2011052209 11:18:28 FALL ELDERLY MALE FELL\n
 
-
 */
 
 

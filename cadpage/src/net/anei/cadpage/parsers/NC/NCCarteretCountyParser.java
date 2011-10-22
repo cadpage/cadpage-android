@@ -45,6 +45,7 @@ CEC:1185 SEASHORE DR ATLANTIC MDL 09E01 11-084435 20:18:33 UNCONSCIOUS - FAINTIN
 Contact: James <firefighter1249@gmail.com>
 wcfd.comm2+caf_=2522413726=vtext.com@gmail.com CEC:392 CROATAN DR CAPE CARTERET MDL 01D01 11-109565 11:32:17 FALLS
 wcfd.comm2+caf_=2522413726=vtext.com@gmail.com CEC:129 HUNTER BROWN DR CAPE CARTERET 11-113600 16:24:22 STROKE
+
 */
 
 public class NCCarteretCountyParser extends DispatchSouthernParser {
