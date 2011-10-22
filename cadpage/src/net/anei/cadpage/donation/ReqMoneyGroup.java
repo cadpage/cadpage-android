@@ -10,7 +10,9 @@ public class ReqMoneyGroup extends EventGroup {
     super(AndroidDonateEvent.instance(), 
           DonateAndroidUnsuportedEvent.instance(), 
           AndroidDonateBetaEvent.instance(),
-          AndroidDonateProblemEvent.instance(), SobStoryDonateEvent.instance());
+          AndroidDonateProblemEvent.instance(), 
+          SobStoryDonateEvent.instance(),
+          DonateWhatsUpEvent.instance());
   }
   
   private static final ReqMoneyGroup instance = new ReqMoneyGroup();
