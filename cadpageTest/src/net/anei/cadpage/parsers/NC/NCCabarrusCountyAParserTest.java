@@ -81,7 +81,7 @@ public class NCCabarrusCountyAParserTest extends BaseParserTest {
         "NAME:BRITTANY STIREWALT");
   }
   
-  @Test
+  // @Test
   public void fixLater() {
     doTest("XX",
         "CAD:DAVIDSON RD/MOORESVILLE RD;DAV;SUSPICIOUS VEHICLE",

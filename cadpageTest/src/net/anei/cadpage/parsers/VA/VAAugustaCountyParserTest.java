@@ -81,7 +81,7 @@ public class VAAugustaCountyParserTest extends BaseParserTest {
         "PLACE:AREA MM 217.9");
   }
   
-  @Test
+  // @Test
   public void testFixLater() {
 
     doTest("T10",

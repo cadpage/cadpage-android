@@ -20,12 +20,14 @@ public class ALChiltonCountyParserTest extends BaseParserTest {
         "ADDR:120 COUNTY RD 377",
         "CITY:BILLINGSLEY",
         "ID:2011040762",
+        "TIME:18:41:28",
         "INFO:MENTAL PERSON/PATIENT CUTTING HIMSELF, ALTERED MENTAL STATUS");
 
     doTest("T2",
         "COUNTY RD 57 \\ COUNTY RD 445 2011039172 06:20:45 WRECK-UNKNOWN INJURIES CALLER STATES ONE VEHICLE OVERTURNED.. ADV THAT THE SUBJECT IS OUT OF THE VEHICLE",
         "ADDR:COUNTY RD 57 & COUNTY RD 445",
         "ID:2011039172",
+        "TIME:06:20:45",
         "INFO:WRECK-UNKNOWN INJURIES CALLER STATES ONE VEHICLE OVERTURNED.. ADV THAT THE SUBJECT IS OUT OF THE VEHICLE");
 
     doTest("T3",
@@ -33,13 +35,15 @@ public class ALChiltonCountyParserTest extends BaseParserTest {
         "ADDR:120 COUNTY RD 377",
         "CITY:BILLINGSLEY",
         "ID:2011040762",
+        "TIME:18:41:28",
         "INFO:MENTAL PERSON/PATIENT CUTTING HIMSELF, ALTERED MENTAL STATUS");
 
     doTest("T4",
-        "100 COUNTY RD 99 LOT 5 VERBENA 2011043298 18:37:55 SHORTNESS OF BREATH GRANDMOTHER ON CHEMO NOT DOING GOOD",
+        "100 COUNTY RD 99 LOT 5 VERBENA 2011043298 18:37:55 SHORTNESS OF BREATH GRANDMOTHER ON CHEMO NOT DOING GOOD ",
         "ADDR:100 COUNTY RD 99 LOT 5",
         "CITY:VERBENA",
         "ID:2011043298",
+        "TIME:18:37:55",
         "INFO:SHORTNESS OF BREATH GRANDMOTHER ON CHEMO NOT DOING GOOD");
 
     doTest("T5",
@@ -47,6 +51,7 @@ public class ALChiltonCountyParserTest extends BaseParserTest {
         "ADDR:518 COUNTY RD 221",
         "CITY:THORSBY",
         "ID:2011046746",
+        "TIME:06:20:05",
         "INFO:DIABETIC RESIDENCE IS A BEIGE DOUBLE WIDE WITH MAROON SHUTTERS. RED TOYOTA AND BLACK DODGE IN THE BACK YARD");
 
     doTest("T6",
@@ -54,6 +59,7 @@ public class ALChiltonCountyParserTest extends BaseParserTest {
         "ADDR:2645 COUNTY RD 37",
         "CITY:THORSBY",
         "ID:2011050014",
+        "TIME:00:31:53",
         "INFO:ASSIST OCCUPANT 91 YOM HAS FALLEN; LIFTING ASSISTANCE ONLY");
 
     doTest("T7",
@@ -61,18 +67,20 @@ public class ALChiltonCountyParserTest extends BaseParserTest {
         "ADDR:905 COUNTY RD 402",
         "CITY:CLANTON",
         "ID:2011050250",
+        "TIME:05:43:58",
         "INFO:GENERAL ILLNESS 57 YO FEMALE // NERVE PROBLEMS // PERMENANT NERVE DAMAGE //");
 
     doTest("T8",
-        "/ 3669 COUNTY RD 49 CLANTON 2011052209 11:18:28 FALL ELDERLY MALE FELL\n",
+        "  / 3669 COUNTY RD 49 CLANTON 2011052209 11:18:28 FALL ELDERLY MALE FELL\n",
         "ADDR:3669 COUNTY RD 49",
         "CITY:CLANTON",
         "ID:2011052209",
+        "TIME:11:18:28",
         "INFO:FALL ELDERLY MALE FELL");
 
   }
   
   public static void main(String[] args) {
-    new ALChiltonCountyParserTest().generateTests("T8", "ADDR CITY ID CALL INFO");
+    new ALChiltonCountyParserTest().generateTests("T1", "ADDR CITY ID TIME CALL INFO");
   }
 }

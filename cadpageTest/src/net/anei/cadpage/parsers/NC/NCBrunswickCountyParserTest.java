@@ -20,6 +20,7 @@ public class NCBrunswickCountyParserTest extends BaseParserTest {
         "CITY:BOLIVIA",
         "CODE:09B01",
         "ID:11-020650",
+        "TIME:17:02:34",
         "INFO:Cardiac or Respiratiory Arrest / Death RECV CALL FROM FUNERAL HOME ADVING THAT THEY RECV CALL STATING A FEMALE WAS DEAD AT THIS LOCATION AD");
 
     doTest("T2",
@@ -30,6 +31,7 @@ public class NCBrunswickCountyParserTest extends BaseParserTest {
         "PHONE:7045790781",
         "CODE:09E01",
         "ID:11-025910",
+        "TIME:20:39:44",
         "INFO:Cardiac or Respiratiory Arrest - De");
 
     doTest("T3",
@@ -39,6 +41,7 @@ public class NCBrunswickCountyParserTest extends BaseParserTest {
         "NAME:LYNN",
         "PHONE:9102094924",
         "ID:11-025720",
+        "TIME:06:59:32",
         "INFO:Structure Fire SMELL SOMETHING BURNING IN RESD");
 
     doTest("T4",
@@ -49,6 +52,7 @@ public class NCBrunswickCountyParserTest extends BaseParserTest {
         "PHONE:9106339368",
         "CODE:09E01",
         "ID:11-025419",
+        "TIME:22:11:30",
         "INFO:Cardiac or RespArrest  CALLER ADV THE PT IS STIFF");
 
     doTest("T5",
@@ -58,6 +62,7 @@ public class NCBrunswickCountyParserTest extends BaseParserTest {
         "PHONE:9103685110",
         "CODE:27D04",
         "ID:11-026412",
+        "TIME:21:09:48",
         "INFO:Stab-Gunshot-Pen Trauma AT THE END OF  RD .");
 
     doTest("T6",
@@ -67,6 +72,7 @@ public class NCBrunswickCountyParserTest extends BaseParserTest {
         "NAME:FELICIA",
         "PHONE:9103685110",
         "ID:11-026412",
+        "TIME:21:07:25",
         "INFO:Stab-Gun-Trauma AT THE END OF BAYPOINT RD MALE SUBJ IS CUT");
 
     doTest("T7",
@@ -76,6 +82,7 @@ public class NCBrunswickCountyParserTest extends BaseParserTest {
         "PHONE:7045790781",
         "CODE:09E01",
         "ID:11-025910",
+        "TIME:20:39:44",
         "INFO:Cardiac or Resp Arrest - Death TRANS BY OKI... ADVD TH");
 
     doTest("T8",
@@ -85,6 +92,7 @@ public class NCBrunswickCountyParserTest extends BaseParserTest {
         "NAME:LYNN",
         "PHONE:9102094924",
         "ID:11-025720",
+        "TIME:06:59:32",
         "INFO:Structure Fire SMELL SOMETHING BURNING IN RESD,");
   }
   
@@ -96,6 +104,7 @@ public class NCBrunswickCountyParserTest extends BaseParserTest {
         "ADDR:1333 SOUTH DICKINSON DR",
         "CITY:LELAND",
         "ID:11-053813",
+        "TIME:10:30:06",
         "INFO:Take Written Report (10-92) AT SUITE 110....10-83 WITH MIRANDA REF PROPERTY DAMAGE TO VEH");
 
     doTest("T2",
@@ -103,8 +112,9 @@ public class NCBrunswickCountyParserTest extends BaseParserTest {
         "ADDR:1111 NEW POINTE BLVD",
         "CITY:LELAND",
         "ID:11-053827",
+        "TIME:11:42:05",
         "INFO:911 HANG UP ON CALL BACK SPOKE W/ LAURA ADVD SUBJS SHE WAS CALLING IN REF TO LEFT THE BUSN");
-    
+   
   }
   
   @Test
@@ -116,10 +126,11 @@ public class NCBrunswickCountyParserTest extends BaseParserTest {
         "ADDR:1478 RIVER RD SE",
         "CITY:WINNABOW",
         "ID:11-062488",
+        "TIME:19:38:00",
         "INFO:Falls");
   }
 
   public static void main(String[] args) {
-    new NCBrunswickCountyParserTest().generateTests("T1", "PLACE ADDR CITY NAME PHONE CODE ID CALL INFO");
+    new NCBrunswickCountyParserTest().generateTests("T1", "PLACE ADDR CITY NAME PHONE CODE ID TIME CALL INFO");
   }
 }

@@ -19,6 +19,7 @@ public class NCMooreCountyParserTest extends BaseParserTest {
         "ADDR:505 PINEHURST ST",
         "CITY:ABERDEEN",
         "ID:2011024766",
+        "TIME:19:52:16",
         "UNIT:F69",
         "INFO:STRUCTURE FIRE LOOKS LIKE BACK DECK ON FIRE");
 
@@ -26,6 +27,7 @@ public class NCMooreCountyParserTest extends BaseParserTest {
         "[[911 NOTIFICATION] ]  1 S. VINELAND SOUTH CELL TOWER 2011025029 09:31:20 M25 PSYCHIATRIC/SUICIDE ATTEMPT",
         "ADDR:1 S VINELAND SOUTH CELL TOWER",
         "ID:2011025029",
+        "TIME:09:31:20",
         "UNIT:M25",
         "INFO:PSYCHIATRIC/SUICIDE ATTEMPT");
 
@@ -34,6 +36,7 @@ public class NCMooreCountyParserTest extends BaseParserTest {
         "ADDR:126 ROBIN HOOD LN",
         "CITY:ABERDEEN",
         "ID:2011025065",
+        "TIME:13:37:27",
         "UNIT:F52",
         "INFO:ALARM-FIRE ACTIVATION AC 800 932-3822 OPER SP8");
 
@@ -43,6 +46,7 @@ public class NCMooreCountyParserTest extends BaseParserTest {
         "CITY:ABERDEEN",
         "CODE:07A01",
         "ID:2011025721",
+        "TIME:11:06:58",
         "UNIT:M7",
         "CALL:BURNS/EXPLOSIONS");
 
@@ -51,6 +55,7 @@ public class NCMooreCountyParserTest extends BaseParserTest {
         "ADDR:218 BERRY ST",
         "CITY:PINE BLUFF",
         "ID:2011026135",
+        "TIME:14:36:24",
         "UNIT:F67",
         "INFO:OUTSIDE FIRE/WOODS/BRUSH TREE ON FIRE");
 
@@ -58,6 +63,7 @@ public class NCMooreCountyParserTest extends BaseParserTest {
         "[[911 NOTIFICATION] ]  1 E NEW ENGLAND /S PEAR 2011025862 07:31:07 F67 OUTSIDE FIRE/WOODS/BRUSH",
         "ADDR:1 E NEW ENGLAND & S PEAR",
         "ID:2011025862",
+        "TIME:07:31:07",
         "UNIT:F67",
         "INFO:OUTSIDE FIRE/WOODS/BRUSH");
 
@@ -66,12 +72,13 @@ public class NCMooreCountyParserTest extends BaseParserTest {
         "ADDR:6 PAR DR",
         "PLACE:WHISPERING PINES",
         "ID:2011045777",
+        "TIME:11:36:50",
         "UNIT:M10",
         "INFO:CHEST PAIN CHEST PAIN");
   }
   
 
   public static void main(String[] args) {
-    new NCMooreCountyParserTest().generateTests("T1", "ADDR CITY PLACE CODE ID UNIT CALL INFO");
+    new NCMooreCountyParserTest().generateTests("T1", "ADDR CITY PLACE CODE ID TIME UNIT CALL INFO");
   }
 }

@@ -20,6 +20,7 @@ public class NCChathamCountyParserTest extends BaseParserTest {
         "CITY:PITTSBORO",
         "CODE:10D04",
         "ID:1119468",
+        "TIME:18:13:33",
         "INFO:Chest Pains- Clammy HUSBAND HAVING CHEST PAINS - EMER");
 
     doTest("T2",
@@ -27,6 +28,7 @@ public class NCChathamCountyParserTest extends BaseParserTest {
         "ADDR:791 RED GATE RD",
         "CITY:PITTSBORO",
         "ID:1119520",
+        "TIME:05:38:59",
         "INFO:medical call HUSBAND OFF BALCONY");
 
     doTest("T3",
@@ -34,6 +36,7 @@ public class NCChathamCountyParserTest extends BaseParserTest {
         "ADDR:965 SEAFORTH BEACH RD",
         "CITY:PITTSBORO",
         "ID:1119461",
+        "TIME:17:08:12",
         "INFO:medical call 10YOM WEARING WHITE SHORTS NAMED TRAY LAST SEEN APPROX 4 MINS AGO(End)");
 
     doTest("T4",
@@ -42,6 +45,7 @@ public class NCChathamCountyParserTest extends BaseParserTest {
         "CITY:PITTSBORO",
         "CODE:31C02",
         "ID:1119495",
+        "TIME:22:11:57",
         "INFO:Unconscious / Fainting (Near) Fainting episodes an WIFE PASSED OUT, IS CONS NOW(End)");
 
     doTest("T5",
@@ -49,12 +53,13 @@ public class NCChathamCountyParserTest extends BaseParserTest {
         "ADDR:475 NATURE TRAIL RD",
         "CITY:CHAPEL HILL",
         "ID:1119504",
+        "TIME:00:09:15",
         "INFO:Convulsions/ Seizures- CONTINUOUS or MULTIPLE seiz PREVIOUS CALL FOR THIS ADDRESS WITH THIS NUMBER GIVEN BY CARY PD UNKNOWN PROBLEM POSSIBLE SEIZURES(End)");
 
   }
   
   public static void main(String[] args) {
-    new NCChathamCountyParserTest().generateTests("T1", "ADDR CITY CODE ID CALL INFO");
+    new NCChathamCountyParserTest().generateTests("T1", "ADDR CITY CODE ID TIME CALL INFO");
   }
 }
 /*, "ADDR CITY CODE CODE ID CALL INFO"*/

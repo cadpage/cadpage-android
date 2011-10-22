@@ -19,6 +19,7 @@ public class NCTransylvaniaCountyParserTest extends BaseParserTest {
         "ADDR:45 OAK PARK DR",
         "CITY:BREVARD CITY",
         "ID:2011-019677",
+        "TIME:10:43:54",
         "CALL:ALARM FIRE",
         "INFO:(10-37) alarm fire");
 
@@ -27,6 +28,7 @@ public class NCTransylvaniaCountyParserTest extends BaseParserTest {
         "ADDR:2725 RESERVE RD",
         "CITY:LITTLE RIVER",
         "ID:2011-019735",
+        "TIME:16:20:13",
         "CALL:ALARM FIRE",
         "INFO:(10-37) FOGLE, JOHN 8288775516 FIRE ALARM SMOKE DETECTOR");
 
@@ -35,6 +37,7 @@ public class NCTransylvaniaCountyParserTest extends BaseParserTest {
         "ADDR:1 WHITMIRE ST",
         "CITY:BREVARD CITY",
         "ID:2011-019863",
+        "TIME:13:34:30",
         "INFO:STRUCTURE FIRE OUTBUILDING ON FIRE");
 
     doTest("T4",
@@ -42,6 +45,7 @@ public class NCTransylvaniaCountyParserTest extends BaseParserTest {
         "ADDR:1 N BROAD ST",
         "CITY:BREVARD CITY",
         "ID:2011-019978",
+        "TIME:10:22:32",
         "INFO:HAZARDOUS MATERIAL INCIDENT GREEN RANGE ROVER LEAKING GAS AT PUMP #7");
 
     doTest("T5",
@@ -49,6 +53,7 @@ public class NCTransylvaniaCountyParserTest extends BaseParserTest {
         "ADDR:400 ASHEVILLE HWY",
         "CITY:BREVARD CITY",
         "ID:2011-020259",
+        "TIME:13:35:26",
         "INFO:BRUSH FIRE MULCH FIRE IN FRONT OF DOMINOS PIZZA");
 
     doTest("T6",
@@ -56,6 +61,7 @@ public class NCTransylvaniaCountyParserTest extends BaseParserTest {
         "ADDR:1 ISLAND COVE RD",
         "CITY:LITTLE RIVER",
         "ID:2011-020447",
+        "TIME:21:09:42",
         "INFO:STRUCTURE FIRE BLACK SMOKE ON ISLAND COVE RD");
   }
   
@@ -67,6 +73,7 @@ public class NCTransylvaniaCountyParserTest extends BaseParserTest {
         "ADDR:8595 GREENVILLE HWY",
         "PLACE:CONNESTEE",
         "ID:2011-026771",
+        "TIME:16:02:18",
         "INFO:CHEST PAIN 67 YO FEMALE, POSSIBLY HAVING A HEART ATTACK. 1ST HOUSE ON LT PAST CEDAR MTN HOUSE");
 
     doTest("T2",
@@ -74,6 +81,7 @@ public class NCTransylvaniaCountyParserTest extends BaseParserTest {
         "ADDR:313 KNOB RD",
         "PLACE:BREVARD",
         "ID:2011-027203",
+        "TIME:18:23:45",
         "INFO:STRUCTURE FIRE ELECTRICAL FIRE. SECOND HOUSE ON THE LEFT.");
 
     doTest("T3",
@@ -81,6 +89,7 @@ public class NCTransylvaniaCountyParserTest extends BaseParserTest {
         "ADDR:21 HONDAH BLVD",
         "PLACE:LAKE HONDAH",
         "ID:2011-027194",
+        "TIME:17:28:49",
         "INFO:STRUCTURE FIRE CALLER ADV A LOT OF SMOKE COMING FROM HIS NEIGHBORS HOUSE.");
 
     doTest("T4",
@@ -88,6 +97,7 @@ public class NCTransylvaniaCountyParserTest extends BaseParserTest {
         "ADDR:1 CONNESTEE RD",
         "PLACE:CONNESTEE",
         "ID:2011-027031",
+        "TIME:14:04:11",
         "INFO:HEAD INJURY REF 9 YO HAD BICYCLE ACCIDENT IN FRONT OF THE CHURCH, POSSIBLE HEAD AND ARM INJURY");
 
     doTest("T5",
@@ -95,6 +105,7 @@ public class NCTransylvaniaCountyParserTest extends BaseParserTest {
         "ADDR:11 SHERWOOD RIDGE RD",
         "PLACE:SHERWOOD FOREST",
         "ID:2011-027139",
+        "TIME:10:23:11",
         "INFO:UNCONSCIOUS/UNRESPONSIVE female unresp dob 04/07/21 winnie seale");
 
     doTest("T6",
@@ -102,6 +113,7 @@ public class NCTransylvaniaCountyParserTest extends BaseParserTest {
         "ADDR:100 TSULA CT",
         "PLACE:CONNESTEE FALLS",
         "ID:2011-028288",
+        "TIME:01:18:52",
         "CALL:ALARM FIRE",
         "INFO:(10-37) ADV THAT HIS FIRE ALARM IS MALFUNCTIONING. E FORK GATE-RT ON CATATOGA PATH AND RT ON TSULA-AT THE EN");
 
@@ -109,6 +121,6 @@ public class NCTransylvaniaCountyParserTest extends BaseParserTest {
   
 
   public static void main(String[] args) {
-    new NCTransylvaniaCountyParserTest().generateTests("T6", "ADDR CITY PLACE CODE ID CALL INFO");
+    new NCTransylvaniaCountyParserTest().generateTests("T1", "ADDR CITY PLACE CODE ID TIME CALL INFO");
   }
 }

@@ -19,12 +19,14 @@ public class NCPersonCountyParserTest extends BaseParserTest {
         "ADDR:115 CROSS CREEK CT",
         "CITY:TIMBERLAKE",
         "ID:2011019922",
+        "TIME:18:27:47",
         "CALL:FIRE STOVE");
 
     doTest("T2",
         "Jason_White:HURDLE MILLS RD / PAYNES TAVERN RD 2011019901 15:46:01 MVA PI CARD 29 car vs motorcycle",
         "ADDR:HURDLE MILLS RD & PAYNES TAVERN RD",
         "ID:2011019901",
+        "TIME:15:46:01",
         "CALL:MVA PI CARD 29",
         "INFO:car vs motorcycle");
 
@@ -32,6 +34,7 @@ public class NCPersonCountyParserTest extends BaseParserTest {
         "Shutchings:GUESS RD / HURDLE MILLS RD 2011019810 00:35:44 MVA PI CARD 29",
         "ADDR:GUESS RD & HURDLE MILLS RD",
         "ID:2011019810",
+        "TIME:00:35:44",
         "CALL:MVA PI CARD 29");
 
     doTest("T4",
@@ -39,12 +42,14 @@ public class NCPersonCountyParserTest extends BaseParserTest {
         "ADDR:115 JACOBS-MOORE LN",
         "CITY:HURDLE MILLS",
         "ID:2011019797",
+        "TIME:23:05:28",
         "INFO:FIRE STRUCTURE FLAMES VISIBLE the house is on fire");
 
     doTest("T5",
         "Bmelton:HURDLE MILLS RD / POINDEXTER RD 2011019760 17:21:08 TREE DOWN",
         "ADDR:HURDLE MILLS RD & POINDEXTER RD",
         "ID:2011019760",
+        "TIME:17:21:08",
         "CALL:TREE DOWN");
 
     doTest("T6",
@@ -53,6 +58,7 @@ public class NCPersonCountyParserTest extends BaseParserTest {
         "CITY:HURDLE MILLS",
         "CODE:10C01",
         "ID:2011019661",
+        "TIME:05:54:13",
         "CALL:CHEST PAIN CARD 10");
 
     doTest("T7",
@@ -60,12 +66,13 @@ public class NCPersonCountyParserTest extends BaseParserTest {
         "ADDR:225 CROWN BLVD",
         "CITY:TIMBERLAKE",
         "ID:2011020040",
+        "TIME:11:49:49",
         "CALL:ALARMS-FIRE",
         "INFO:design works building 2 general fire alarm adt 8772857397");
   }
   
 
   public static void main(String[] args) {
-    new NCPersonCountyParserTest().generateTests("T1", "ADDR CITY PLACE CODE ID CALL INFO");
+    new NCPersonCountyParserTest().generateTests("T1", "ADDR CITY PLACE CODE ID TIME CALL INFO");
   }
 }
