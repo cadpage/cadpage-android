@@ -2578,7 +2578,7 @@ Contact: Thomas Guaschino <guaschino1@gmail.com>
 Sender: adi62@ridgefirecompany.com
 Body: 1 of 2\n
 FRM:adi62@ridgefirecompany.com\n
-SUBJ:645 RIDGE RD ,18\2sbtwn S\n
+SUBJ:645 RIDGE RD ,18  btwn S\n
 MSG:Dispatch ** 02:08 ** ACCIDENT - UNKNOWN INJURIES * ** 645 RIDGE RD ,18
 \n
 (Con't) 2 of 2\n
@@ -2587,6 +2587,10 @@ btwn SLONAKER RD & FUL ** IFO ** VOWLBY, COREY/H ** 6201 ** 07/10/11 ** ACCUNK *
 Contact: Bill Nestor <bnest19@gmail.com>
 Sender: wwfc.fdcms1@verizon.net
 FRM:wwfc.fdcms1@verizon.net\nSUBJ:Dispatch\nMSG:14:30 ** BRIANS HOUSE--610-594-8344- ** DEAD END & OAK LA ** ALARM - FIRE * ** 0603 ** WWHITE **
+
+Contact: Bob Gliem <goshenfire@gmail.com>
+Sender: gfc@goshenfireco.org
+(1566 VASSAR CT ,53) 56  10/21/11  15:37  APLNC  APPLIANCE FIRE *  1566 VASSAR CT ,53  -  EGOSHN  HERSHEYS MILL V
 **********************************************************
 Unknown
 Contact: Chris <chrisdi9@aol.com>
@@ -3070,7 +3074,7 @@ Contact: Shawn Sible <firefighter0129@gmail.com>
 Sender: crescent.dispatch@moontwpfire.com
 
 (Dispatch Alert) M? Timeout=0604\nSmoke Detector Activated\nHelen Skvarj residence\n810 Bocktown Rd
-(Dispatch Alert) M? Timeout=0809\nDrill\nNova Chemical\2sFrankfort Rd\nPotter Twp
+(Dispatch Alert) M? Timeout=0809\nDrill\nNova Chemical  Frankfort Rd\nPotter Twp
 (Dispatch Alert) 1800: structure fire- independce. 3681 ridge rd. tanker needed
 (Dispatch Alert) MUTAUL AID CALL: MOON TWP: 128 DOVER DR
 (Dispatch Alert) 2nd page for mutual aid response to moon twp. 128 dover dr. structure fire
@@ -3329,21 +3333,6 @@ Contact: Jim Ballesteros <jimiangelo84@gmail.com>
 Sender: Dispatch@sccda.org
 Smoke In The Bldg - Commercial AT: 334 Savannah Garden Dr APT:  BUS: SAVANNAH RIDGE APTS /VMP CHL: 03 OFallon B2
 **********************************************************
-Sussex County, DE (Alternate)
-Contact: "ryan petrone " <petrone1300@hotmail.com>
-Sender: msg@cfmsg.com
-MDWorcesterCountyB looks similar
-(Chief ALT) [87 EMS] -- 17B Falls (BLS) -- 715 E King St Seaford de, 19973
-
-Contact: "awilley76@aim.com" <awilley76@aim.com>
-(Chief ALT) [76 EMS] -- Cardiac/ Resp./Death- BLS -- 35406 Arrowhead Ln Frankford 19945
-**********************************************************
-New Castle, DE (alternate)
-Contact: Thomas Castiglione <castiglione.thomas@gmail.com>
-Sender: msg@cfmsg.com
-See previous entry
-(Chief ALT) [CFC EMS] -- Syncope - Not Alert -- Amberwood -- 51 Karens Wy - Cross STS:Beechwood Ct & Silver Birch La - EMD:M31D3
-**********************************************************
 St Charles, MD (Alternate)
 Contact: Edward Cave <explorer77727@gmail.com>
 Sender: sms.dispatch@ccmedicunit.org
@@ -3354,6 +3343,29 @@ Contact: John Flynn <jfscmedic@yahoo.com>
 Sender: 911@ncso.sc.gov
 I-26 WB 62 MM WRECK 10/21 1709
 **********************************************************
+Sussex County, DE (Alternate)
+Contact: "ryan petrone " <petrone1300@hotmail.com>
+Sender: msg@cfmsg.com
+MDWorcesterCountyB looks similar
+(Chief ALT) [87 EMS] -- 17B Falls (BLS) -- 715 E King St Seaford de, 19973
+
+Contact: "awilley76@aim.com" <awilley76@aim.com>
+(Chief ALT) [76 EMS] -- Cardiac/ Resp./Death- BLS -- 35406 Arrowhead Ln Frankford 19945
+**********************************************************
+Christina, DE in Newcastle County
+Contact: "Thomas Castiglione" <castiglione.thomas@gmail.com>
+Sender: msg@cfmsg.com
+(Chief ALT) [CFC EMS] -- Syncope - Not Alert -- Amberwood -- 51 Karens Wy - Cross STS:Beechwood Ct & Silver Birch La - EMD:M31D3
+(Chief ALT) [CFC EMS] -- Medical Alarm -- Forest Glen Townhses -- 3 Pimlico La - Cross STS:Rue Madora & Dead - End - EMD:M32B2
+(Chief ALT) [CFC EMS] -- Abdominal Pains -- Summerset Square Townhses -- 4 Candlewick Ct New Castle DE - Cross STS:Wilton Bl & Dead - End - EMD:M1A1
+(Chief ALT) [CFC EMS] -- Assault - Unknown -- Wawa Salem Center - Salem Center Shop Ctr -- 1605 Pulaski Hy - Cross STS:Glasgow Dr & Salem Church Rd - EMD:M4B3
+(Chief ALT) [CFC EMS] -- Assault -- Days Inn -- 900 Churchmans Rd #122 Newark DE - Cross STS:Rte 1 Sb & Old Churchmans Rd - EMD:M4B1A
+(Chief ALT) [CFC EMS] -- Overdose / Poisoning - Not Alert -- Christiana Meadows Apts -- 401 Christiana Meadows - Cross STS:Bear Christiana Rd - EMD:M23C1I
+(Chief ALT) [CFC Fire] -- L1*fire Alarm / General -- Medical Arts Pav 1 -- 4745 Stanton Ogletown Rd - Cross STS:Samoset Dr & Hygeia Dr - EMD:52C1G
+(Chief ALT) [CFC EMS] -- Cva - Sudden Weakness / Numbness -- Crossings At Christiana Townhses -- 216 Gladstone Wy - Cross STS:Dead - End & Baker Dr - EMD:M28C4C
+(Chief ALT) [CFC EMS] -- Person Fallen -- Hillside Heights -- 109 Rosewood Dr - Cross STS:Greentree Rd & Lavender La - EMD:M17B1
+(Chief ALT) [CFC Fire] -- L1*commercial Fire Alarm -- Direct Radiography - Glasgow Business Community -- 600 Technology Dr - Cross STS:Gbc Dr & Yoon La - EMD:52C3G
+(Chief ALT) [CFC FIRE] -- Vehicle Accident -- Interstate 95 -- Churchmans Rd / I95 Sb - EMD:M29B4
 **********************************************************
 **********************************************************
 **********************************************************
