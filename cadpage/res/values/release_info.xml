@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">10142011</string>
-  <string name="release_version">v1.4.31</string>
+  <string name="release_date">10212011</string>
+  <string name="release_version">v1.4.32</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="min_install_date">10012011</string>
@@ -11,30 +11,32 @@ Thanks to everyone who has donated Your support is appreciated and helps support
 See http://www.cadpage.org/financial-support for more details\n
 \n
 What"'"s new in this release\n
-Android market donations have been enabled!!!!!\n  This is probably the last 
-version of Cadpage that will not get seriously annoyed if you run over the demo
-expiration date.  If you really don"'"t want to support us financially, this
-would be a good time to stop installing Cadpage updates.\n
+This is absolutely the last version of Cadpage that will not get seriously annoyed 
+if you run over the demo expiration date.\n
 \n
 New Locations:\n
-Worcester County, MD\n
-Eau Claire, WI\n
+Roxbury, CT\n
+Oconee County, GA\n
+Eaton County, MI\n
+Atlanticare EMS, NJ\n
+Madison County, NY\n
+Chenango County, NY\n
+Cabarrus County, NC (alternate)\n
+Madison County, NC\n
 \n
 Location Parsing Fixes:\n
-Montery County, CA\n
+Dothan, AL\n
 Sonoma County, CA\n
-Brantley County, GA\n
-Anne Arundel County, MD\n
-Frederick County, MD\n
-Broome County, NY\n
+Greeley, CO\n
 Suffolk County, NY\n
-Washington County, TN\n
-Franklin County, VA\n
-Page County, VA\n
-Pittsylvania, VA\n
+Alexander County, NC\n
+Guilford County, NC\n
+Erie County, PA\n
+Washington COunty, TN\n
 \n
 General Fixes\n
-App sometimes crashes when checking in-app billing support at startup\n
+Added option to display release change info\n
+Added button to link to website financial support page\n 
   </string>  
 </resources>
   
