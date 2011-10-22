@@ -248,10 +248,17 @@ public class NCGuilfordCountyParserTest extends BaseParserTest {
         "CALL:MED",
         "X:SADDLEBROOK DR");
 
+    doTest("T30",
+        "S:summerfieldfiredist Oct21-13:14 M:summerfieldfiredist\nCAD:CODE 47;330 GEMSTONE LOOP; ROCK;ST 29 CARDIAC ARREST CALL\n\n",
+        "SRC:summerfieldfiredist",
+        "ADDR:330 GEMSTONE LOOP",
+        "INFO:ROCK / ST 29 CARDIAC ARREST CALL",
+        "CALL:CODE 47");
+
   }
   
 
   public static void main(String[] args) {
-    new NCGuilfordCountyParserTest().generateTests("T30");
+    new NCGuilfordCountyParserTest().generateTests("T31");
   }
 }
