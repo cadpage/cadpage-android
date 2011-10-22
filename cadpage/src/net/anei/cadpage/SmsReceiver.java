@@ -59,7 +59,12 @@ public class SmsReceiver extends BroadcastReceiver {
         }
       }
       
+      // If we didn't get a message, bail out
       if (message == null) return;
+      
+      // If this was an incomplete MMS message picked up by the process last
+      // message option, bail out
+      if (message.getMessageBody() == null) return;
       
       // Class 0 SMS, let the system handle this
       if (message.getMessageType() == SmsMmsMessage.MESSAGE_TYPE_SMS &&

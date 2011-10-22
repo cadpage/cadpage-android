@@ -823,7 +823,7 @@ public class SmsMmsMessage implements Serializable {
   }
   
   /**
-   * Broadcast message information for 3rd part apps
+   * Broadcast message information for 3rd party apps
    * @param context broadcast context
    * @param republish true if this is a republish event
    */
