@@ -124,6 +124,15 @@ public class DonationManager {
   }
   
   /**
+   * @return true if full Cadpage functionality should be enabled.
+   */
+  private boolean getEnabled() {
+    calculate();
+    if (status != DonationStatus.DEMO_EXPIRE && status != DonationStatus.PAID_EXPIRE) return true;
+    return false;
+  }
+
+  /**
    * Reset all cached day calculations.  This should be called when
    * any of the preferences values that control the date calculations are changed
    */
@@ -157,6 +166,13 @@ public class DonationManager {
    */
   public static Date expireDate() {
     return instance.getExpireDate();
+  }
+  
+  /**
+   * @return true if full Cadpage functionality should be enabled.
+   */
+  public static boolean isEnabled() {
+    return instance.getEnabled();
   }
   
 }

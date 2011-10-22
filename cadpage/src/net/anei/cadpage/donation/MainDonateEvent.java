@@ -58,6 +58,15 @@ public class MainDonateEvent extends DonateScreenEvent {
     return false;
   }
 
+  @Override
+  public void doEvent(Activity activity) {
+    for (DonateEvent event : getEvents()) {
+      if (event.isEnabled()) {
+        event.doEvent(activity);
+        break;
+      }
+    }
+  }
 
   private static final MainDonateEvent instance = new MainDonateEvent();
   

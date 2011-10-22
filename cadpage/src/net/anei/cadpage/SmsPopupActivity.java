@@ -12,6 +12,7 @@ import com.google.tts.TTSVersionAlert;
 import com.google.tts.TTS.InitListener;
 
 import net.anei.cadpage.ManageKeyguard.LaunchOnKeyguardExit;
+import net.anei.cadpage.donation.DonationManager;
 import net.anei.cadpage.donation.MainDonateEvent;
 import net.anei.cadpage.wrappers.TextToSpeechWrapper;
 import net.anei.cadpage.wrappers.TextToSpeechWrapper.OnInitListener;
@@ -78,8 +79,6 @@ public class SmsPopupActivity extends Activity {
   private static final int DIALOG_QUICKREPLY = Menu.FIRST + 1;
   private static final int DIALOG_PRESET_MSG = Menu.FIRST + 2;
   private static final int DIALOG_LOADING = Menu.FIRST + 3;
-
-  private static final int VOICE_RECOGNITION_REQUEST_CODE = 8888;
 
   // TextToSpeech variables
   private boolean ttsInitialized = false;
@@ -334,6 +333,13 @@ public class SmsPopupActivity extends Activity {
   // Populate views from intent
   private void populateViews(Intent intent) {
     
+    // Check to see if Cadpage is operating in restricted mode, and if it is
+    // launch the donation status menu.  We'll check the donation status again
+    // when this menu is closed
+    if (!DonationManager.isEnabled()) {
+      MainDonateEvent.instance().doEvent(this);
+    }
+    
     // Retrieve message from queue
     SmsMessageQueue msgQueue = SmsMessageQueue.getInstance();
     int msgId = intent.getIntExtra(EXTRAS_MSG_ID, 0);
@@ -352,6 +358,17 @@ public class SmsPopupActivity extends Activity {
 
     // Populate views from message
     populateViews(msg);
+  }
+
+  /*
+   * Handle results of Dontation status menu
+   */
+  @Override
+  protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+    super.onActivityResult(requestCode, resultCode, data);
+    
+    // If Cadpage is still restricted, close activity
+    if (!DonationManager.isEnabled()) finish();
   }
 
   /*
@@ -649,20 +666,6 @@ private boolean externalStorageAvailable() {
   public boolean onContextItemSelected(MenuItem item) {
     if (message.menuItemSelected(this, item.getItemId(), true)) return true;
     return super.onContextItemSelected(item);
-  }
-
-  /*
-   * Handle the results from the recognition activity.
-   */
-  @Override
-  protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-    super.onActivityResult(requestCode, resultCode, data);
-    if (Log.DEBUG) Log.v("onActivityResult");
-    if (requestCode == VOICE_RECOGNITION_REQUEST_CODE && resultCode == RESULT_OK) {
-      ArrayList<String> matches = data.getStringArrayListExtra(RecognizerIntent.EXTRA_RESULTS);
-      if (Log.DEBUG) Log.v("Voice recog text: " + matches.get(0));
-      //quickReply(matches.get(0));
-    }
   }
 
   // The eyes-free text-to-speech library InitListener
