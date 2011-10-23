@@ -51,6 +51,14 @@ public class NYRocklandCountyCParserTest extends BaseParserTest {
         "X:Robert Pitt Dr and Spruill Ct",
         "NAME:Sale Furniture Warehouse, Whole",
         "PHONE:8453716664");
+
+    doTest("T6",
+        "(ACR# 5535) Addr: 24 Deerwood Rd\nX St: Between Cara Dr and Charlotte Dr\nName: Eisenberg, Mordechai\nPhone: 8453628456\nComp: MEDICAL\n10/22/20 11 - 8:27 PM ",
+        "ID:5535",
+        "ADDR:24 Deerwood Rd",
+        "X:Cara Dr and Charlotte Dr",
+        "NAME:Eisenberg, Mordechai",
+        "PHONE:8453628456");
   }
   
   public static void main(String[] args) {
