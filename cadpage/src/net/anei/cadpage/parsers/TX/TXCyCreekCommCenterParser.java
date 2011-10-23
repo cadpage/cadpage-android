@@ -56,7 +56,7 @@ Contact: Christopher Day <mrday010@gmail.com>
 
 public class TXCyCreekCommCenterParser extends SmsMsgParser {
   
-  private static final Pattern MARKER = Pattern.compile("^\\d\\d/\\d\\d (\\d\\d:\\d\\d )?");
+  private static final Pattern MARKER = Pattern.compile("^(\\d\\d/\\d\\d) (?:(\\d\\d:\\d\\d) )?");
   private static final Pattern TRAILER = Pattern.compile(" +(\\d{8,}) *$");
   
   public TXCyCreekCommCenterParser() {
@@ -77,6 +77,8 @@ public class TXCyCreekCommCenterParser extends SmsMsgParser {
     
     Matcher match = MARKER.matcher(body);
     if (!match.find()) return false;
+    data.strDate = match.group(1);
+    data.strTime = getOptGroup(match.group(2));
     body = body.substring(match.end()).trim();
     
     match = TRAILER.matcher(body);
