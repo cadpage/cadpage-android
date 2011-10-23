@@ -19,7 +19,7 @@ public class PaidDonateEvent extends DonateScreenEvent {
 
   @Override
   public boolean isEnabled() {
-    return (DonationManager.status() == DonationManager.DonationStatus.PAID);
+    return (DonationManager.instance().status() == DonationManager.DonationStatus.PAID);
   }
 
   @Override
@@ -28,7 +28,7 @@ public class PaidDonateEvent extends DonateScreenEvent {
     switch (type) {
       
     case PARM_TEXT:
-      Date expireDate = DonationManager.expireDate();
+      Date expireDate = DonationManager.instance().expireDate();
       String sDate = DateFormat.getDateInstance(DateFormat.MEDIUM).format(expireDate);
       return new Object[]{sDate};
 

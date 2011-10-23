@@ -113,7 +113,6 @@
     <item>a852c2dba00034a9399929910d4200a3</item>  <!-- Jeffrey Young -->
     <item>a8859ae3699d1e1dd199545cdee45634</item>  <!-- Metra Reid -->
     <item>ab264e2e797544e3fd5621c5fbd33686</item>  <!-- Scott Studebaker -->
-    <item>abe4c6b1270020cfeeffa35cd0bd8c09</item>  <!-- Eric Schleif -->
     <item>ac55c075a862a496093bf4398990f105</item>  <!-- Eric Hayday -->
     <item>addc610b9538986f893bc7353ccf72d9</item>  <!-- nicola bueti -->
     <item>aecc79067a7a8ec784555c0286f16380</item>  <!-- Joe Boldt -->
@@ -143,6 +142,7 @@
     <item>c81f757193881a6ad625a32c2fd31d0c</item>  <!-- David Brandt -->
     <item>c96a6eded7e020e845712a72032ad2d5</item>  <!-- Joseph Marroni -->
     <item>c98bada82a446fcf6ae9fda2e208f920</item>  <!-- Marta Mcgovern Philpot -->
+    <item>cd4db3eddc7695121f7438624cf80128</item>  <!-- Eric Schleif -->
     <item>cd86c429c4369e3979166f80c6c4d442</item>  <!-- Thomas Ruppel -->
     <item>ce57b684b6db97ea1c7011ee42880af6</item>
     <item>d175c1b1253c32e28697d54087a241b9</item>  <!-- John J Pomponio Jr -->
@@ -183,6 +183,7 @@
     <item>ffbe8a20fba5f385465b4ef2d86246ba</item>  <!-- carlos benavides -->
   </string-array>
   <string-array name="paid_2011_list">
+    <item>019401bf26a33e692f331bb8e38ef847</item>  <!-- Richard Brosky -->
     <item>026008919d34eb56b5701ed41a165809</item>  <!-- Matt Hoffman -->
     <item>028bd4628e95ff7deefec50b54d1e231</item>  <!-- amie eichhorn -->
     <item>042c8084dd870fc5487b9b4ecf299a4d</item>  <!-- John Mosher -->
@@ -201,6 +202,7 @@
     <item>15e218de7873d73ce336fa193cfa99c5</item>  <!-- james tuttle -->
     <item>16f966330d8e0347cb526f75c241d2ee</item>  <!-- Chris Coone -->
     <item>17248fb4d93bbaa6ae45ccf87e10ece4</item>  <!-- Victor Quintanilla -->
+    <item>17e4688e34f16508d21cced7dfd69f38</item>  <!-- Mark Howard -->
     <item>1957cb439c27dab21335b84bb18680cc</item>  <!-- "mrrsqu@aol.com" -->
     <item>23a960ad1662f82f5fe7df4fdac95715</item>  <!-- danny britt -->
     <item>24381678e30e1b0fcf75bbf33214a36e</item>  <!-- "skj1979452@sbcglobal.net" -->
@@ -219,6 +221,7 @@
     <item>408e83e4b79ede988664a9c94cdde9bb</item>  <!-- Walter Cooper -->
     <item>42e703c80f94a2af2989b8c7f0be1ef8</item>  <!-- Marcie Battles -->
     <item>43a693bf9a24c22ec16bcb8b2d538937</item>  <!-- Robert Fair -->
+    <item>43c4fcdabba1329ffec4b8f7e3138151</item>  <!-- "Posch, Bradley" -->
     <item>43d40587c061b9f5f2560379dc3716a5</item>  <!-- J Hatfield -->
     <item>45fdacdef9af7a779daee2bd0b59d1d7</item>  <!-- Jeremy -->
     <item>49b9373c94220618f2a45e2df6699b74</item>  <!-- Clark McVey -->
@@ -257,6 +260,7 @@
     <item>846ebf30e1fc424ee840ba90d5c5b9e6</item>  <!-- Jason Lesich -->
     <item>86d585434329be4076fe1faf95e26ea0</item>  <!-- Chad La Turno -->
     <item>871ec6ba75c2f1f1b139b5200161b8b2</item>  <!-- Justin Loburak -->
+    <item>8a027d8124159d813f98a34ad459ffad</item>  <!-- Jim Lasley -->
     <item>8ddc0091f8b568378847a73e72d8511e</item>  <!-- sam miller -->
     <item>91f8a414c4ab9a1615c9a097fff6df48</item>  <!-- Doug Gelsleichter -->
     <item>9353e884cf5b30da68cfe8d91414af5c</item>  <!-- WYNTON WOODSON -->
@@ -267,12 +271,13 @@
     <item>a061512d97dce4cd5c0b7dca02a48c91</item>  <!-- Michael Banks -->
     <item>a2d074a8255096dd99e5a4548b725a62</item>  <!-- Oscar Gonzalez -->
     <item>a9a67e6980c09c12e68cee2faa3b536f</item>  <!-- Steve Reyes -->
+    <item>ac3c9747be7cb599ed485fa32c36b3ca</item>  <!-- "johnresino@yahoo.com" -->
     <item>ac5431ffb1718f287c8d155ad62bcca9</item>  <!-- Christina Kenny -->
     <item>accc2d83d0af73e5e9f7d4f998c7bd7e</item>  <!-- Jordan Rogers -->
     <item>ad82fff2c93ac57ca52c7fa80957047d</item>  <!-- Ashley Fletcher -->
-    <item>af6e5f29d3b7ab8cd5656c0b29a5757a</item>  <!-- Mark Howard -->
     <item>b22372e692f183c2e0a32a27946e76da</item>  <!-- Michael Wystepek -->
     <item>b2be065cfbda3f7ae7db117895d19590</item>  <!-- Mike Siciliano -->
+    <item>b48f705db6cb53321fb11d5be1527b0a</item>  <!-- "tacrvcfd1212@aol.com" -->
     <item>b7446af4150efcab3880cbb03444a531</item>  <!-- Bill Carey -->
     <item>b8c7bba8f35a9595062ca9c0d0ae96c7</item>  <!-- Richard Devine -->
     <item>b9edc56514da99fd863c1dab574c62d3</item>  <!-- Thomas Alessi -->
@@ -283,6 +288,7 @@
     <item>c610854cce11ddb304adde85c54c7fd3</item>  <!-- Doug Day -->
     <item>c7278331d6949d30fd93a02d99aee679</item>  <!-- gary saraceni -->
     <item>c81061bd7eb221c2b6856d1dee47388a</item>  <!-- Blake DiSalvo -->
+    <item>cc4bc72c7beee15d08db7b03dee9a327</item>  <!-- Pennell Jester -->
     <item>cec5556450843f53a31df7107599ec28</item>  <!-- William Stearn -->
     <item>cf08c32a8c0d49ce5d75a687430cc824</item>  <!-- David Roach -->
     <item>cfdd11fafe7a1a4ccd6de0dc8d4568b4</item>  <!-- "Shawn" -->

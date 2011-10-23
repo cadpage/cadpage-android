@@ -16,17 +16,18 @@ public class DemoExpireDonateEvent extends DonateScreenEvent {
            Android16DonateEvent.instance(),
            NoUserDonateEvent.instance(), 
            WrongUserDonateEvent.instance(),
+           DonateExtraDayEvent.instance(),
            ClearDataConfirmEvent.instance());
   }
 
   @Override
   public boolean isEnabled() {
-    return (DonationManager.status() == DonationManager.DonationStatus.DEMO_EXPIRE);
+    return (DonationManager.instance().status() == DonationManager.DonationStatus.DEMO_EXPIRE);
   }
 
   @Override
   protected Object[] getTextParms(int type) {
-    int days = DonationManager.daysSinceInstall();
+    int days = DonationManager.instance().daysSinceInstall();
     switch (type) {
     
     case PARM_TITLE:

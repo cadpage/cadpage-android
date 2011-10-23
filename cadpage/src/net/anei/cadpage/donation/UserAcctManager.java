@@ -58,6 +58,8 @@ public abstract class UserAcctManager {
           String name = acct.name;
           int pt = name.indexOf('<');
           if (pt >= 0) name = name.substring(0,pt);
+          if (name.startsWith(".")) name = name.substring(1);
+          if (name.endsWith(".")) name = name.substring(0,name.length()-1);
           String hash = calcHash(acct.name);
           if (userEmail == null) userEmail = name;
           if (Arrays.binarySearch(freeList, hash) >= 0) {

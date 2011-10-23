@@ -26,12 +26,11 @@
   
   <string name="donate_paid_title">Your Cadpage subscription is current</string>
   <string name="donate_paid_text">
-    Your current Cadpage subscription will expire on\n%s
   </string>
   
-  <string name="donate_paid_warn_title">Your Cadpage subscription is about to expire</string>
+  <string name="donate_paid_warn_title">Your subscription will expire in %d days</string>
   <string name="donate_paid_warn_text">
-    Your current Cadpage subscription will expire in %d days
+    Your current Cadpage subscription will expire on %s
   </string>
   
   <string name="donate_paid_expire_title">Your Cadpage subscription has expired</string>
@@ -118,5 +117,7 @@
     This will restart your 30 day demo period.  Bit it will also erase all app data, 
     including your call history and settings.  Are you sure you want to do this?
   </string>
+  
+  <string name="donate_extra_day_title">Give me one more day</string>
   
 </resources>

@@ -19,7 +19,7 @@ public class AuthDonateEvent extends DonateScreenEvent {
 
   @Override
   public boolean isEnabled() {
-    return (DonationManager.status() == DonationManager.DonationStatus.AUTH_DEPT);
+    return (DonationManager.instance().status() == DonationManager.DonationStatus.AUTH_DEPT);
   }
 
   @Override

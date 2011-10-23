@@ -423,7 +423,7 @@ public class ManagePreferences {
   public static void setInstallDate(Date date) {
     String dateStr = new SimpleDateFormat("MMddyyyy").format(date);
     prefs.putString(R.string.pref_install_date_key, dateStr);
-    DonationManager.reset();
+    DonationManager.instance().reset();
   }
   
   public static Date minInstallDate() {
@@ -457,14 +457,14 @@ public class ManagePreferences {
       if (year > curYear) {
         prefs.putInt(R.string.pref_prev_year_key, curYear);
         prefs.putInt(R.string.pref_paid_year_key, year);
-        DonationManager.reset();
+        DonationManager.instance().reset();
         MainDonateEvent.instance().refreshStatus();
       }
     } else {
       if (year == curYear) {
         int prevYear = prefs.getInt(R.string.pref_prev_year_key, 0);
         prefs.putInt(R.string.pref_paid_year_key, prevYear);
-        DonationManager.reset();
+        DonationManager.instance().reset();
         MainDonateEvent.instance().refreshStatus();
       }
     }
@@ -483,7 +483,7 @@ public class ManagePreferences {
   public static void setPurchaseDate(Date date) {
     String dateStr = new SimpleDateFormat("MMddyyyy").format(date);
     prefs.putString(R.string.pref_purchase_date_key, dateStr);
-    DonationManager.reset();
+    DonationManager.instance().reset();
   }
   
   public static String purchaseDateString() {
@@ -494,7 +494,7 @@ public class ManagePreferences {
   
   public static void setPurchaseDateString(String  sDate) {
     prefs.putString(R.string.pref_purchase_date_key, sDate);
-    DonationManager.reset();
+    DonationManager.instance().reset();
   }
   
   public static boolean freeRider() {
@@ -504,7 +504,7 @@ public class ManagePreferences {
   public static void setFreeRider(boolean newVal) {
     if (newVal == freeRider()) return;
     prefs.putBoolean(R.string.pref_free_rider_key, newVal);
-    DonationManager.reset();
+    DonationManager.instance().reset();
   }
   
   public static String authLocation() {
@@ -514,7 +514,7 @@ public class ManagePreferences {
   public static void setAuthLocation(String newVal) {
     if (newVal != null && newVal.equals(authLocation())) return;
     prefs.putString(R.string.pref_auth_location, newVal);
-    DonationManager.reset();
+    DonationManager.instance().reset();
   }
   
   public static String authOrganization() {
@@ -523,6 +523,33 @@ public class ManagePreferences {
   
   public static void setAuthOrganization(String newVal) {
     prefs.putString(R.string.pref_auth_organization, newVal);
+  }
+  
+  public static Date authExtraDate() {
+    String dateStr = prefs.getString(R.string.pref_auth_extra_date_key, null);
+    if (dateStr == null) return null;
+    try {
+      return new SimpleDateFormat("MMddyyyy").parse(dateStr);
+    } catch (ParseException ex) {
+      return null;
+    }
+  }
+  
+  public static int authExtraCnt() {
+    return prefs.getInt(R.string.pref_auth_extra_cnt_key, 0);
+  }
+  
+  public static void resetAuthExtra() {
+    prefs.putString(R.string.pref_auth_extra_date_key, null);
+    prefs.putInt(R.string.pref_auth_extra_cnt_key, 0);
+  }
+  
+  public static void authExtraDay() {
+    String sDate = new SimpleDateFormat("MMddyyyy").format(new Date());
+    prefs.putString(R.string.pref_auth_extra_date_key, sDate);
+    int cnt = authExtraCnt();
+    prefs.putInt(R.string.pref_auth_extra_cnt_key, cnt+1);
+    DonationManager.instance().reset();
   }
   
   public static String getRegistrationId() {
@@ -641,6 +668,8 @@ public class ManagePreferences {
         R.string.pref_purchase_date_key,
         R.string.pref_free_rider_key,
         R.string.pref_auth_location,
+        R.string.pref_auth_extra_date_key,
+        R.string.pref_auth_extra_cnt_key,
         
         R.string.pref_registration_id
     };
@@ -735,7 +764,7 @@ public class ManagePreferences {
   }
   
   protected int getIntValue(int resPrefId, int defValue) {
-    String val = getString(resPrefId);
+    String val = getString(resPrefId, "");
     if (val.length() == 0) return defValue;
     return Integer.parseInt(val);
   }

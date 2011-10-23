@@ -336,7 +336,7 @@ public class SmsPopupActivity extends Activity {
     // Check to see if Cadpage is operating in restricted mode, and if it is
     // launch the donation status menu.  We'll check the donation status again
     // when this menu is closed
-    if (!DonationManager.isEnabled()) {
+    if (!DonationManager.instance().isEnabled()) {
       MainDonateEvent.instance().doEvent(this);
     }
     
@@ -368,7 +368,7 @@ public class SmsPopupActivity extends Activity {
     super.onActivityResult(requestCode, resultCode, data);
     
     // If Cadpage is still restricted, close activity
-    if (!DonationManager.isEnabled()) finish();
+    if (!DonationManager.instance().isEnabled()) finish();
   }
 
   /*

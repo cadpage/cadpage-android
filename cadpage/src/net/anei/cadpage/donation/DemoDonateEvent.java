@@ -20,12 +20,12 @@ public class DemoDonateEvent extends DonateScreenEvent {
 
   @Override
   public boolean isEnabled() {
-    return (DonationManager.status() == DonationManager.DonationStatus.DEMO);
+    return (DonationManager.instance().status() == DonationManager.DonationStatus.DEMO);
   }
 
   @Override
   protected Object[] getTextParms(int type) {
-    int days = DonationManager.daysSinceInstall();
+    int days = DonationManager.instance().daysSinceInstall();
     
     switch (type) {
     

@@ -1,11 +1,14 @@
 package net.anei.cadpage.donation;
 
+import java.text.DateFormat;
+import java.util.Date;
+
 import net.anei.cadpage.R;
 
 /**
-Your Cadpage subscription is about to expire
+Your Cadpage subscription will expire in %d days
 
-Your current Cadpage subscription will expire in %d days
+Your current Cadpage subscription will expire on %s
  */
 public class PaidWarnDonateEvent extends DonateScreenEvent {
   
@@ -16,7 +19,7 @@ public class PaidWarnDonateEvent extends DonateScreenEvent {
 
   @Override
   public boolean isEnabled() {
-    return (DonationManager.status() == DonationManager.DonationStatus.PAID_WARN);
+    return (DonationManager.instance().status() == DonationManager.DonationStatus.PAID_WARN);
   }
 
   @Override
@@ -24,8 +27,13 @@ public class PaidWarnDonateEvent extends DonateScreenEvent {
     
     switch (type) {
       
+    case PARM_TITLE:
+      return new Object[]{DonationManager.instance().daysTillExpire()};
+      
     case PARM_TEXT:
-      return new Object[]{DonationManager.daysTillExpire()};
+      Date expireDate = DonationManager.instance().expireDate();
+      String sDate = DateFormat.getDateInstance(DateFormat.MEDIUM).format(expireDate);
+      return new Object[]{sDate};
 
     default:
       return null;

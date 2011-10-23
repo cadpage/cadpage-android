@@ -17,7 +17,7 @@ public class FreeDonateEvent extends DonateScreenEvent {
   
   @Override
   public boolean isEnabled() {
-    return (DonationManager.status() == DonationManager.DonationStatus.FREE);
+    return (DonationManager.instance().status() == DonationManager.DonationStatus.FREE);
   }
   
   private static final FreeDonateEvent instance = new FreeDonateEvent();

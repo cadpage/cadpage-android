@@ -11,12 +11,14 @@ public class PaidExpireDonateEvent extends DonateScreenEvent {
   
   public PaidExpireDonateEvent() {
     super(AlertStatus.RED, R.string.donate_paid_expire_title, R.string.donate_paid_expire_text,
-           ReqMoneyGroup.instance(), MagicWordEvent.instance());
+           ReqMoneyGroup.instance(),
+           DonateExtraDayEvent.instance(),
+           MagicWordEvent.instance());
   }
 
   @Override
   public boolean isEnabled() {
-    return (DonationManager.status() == DonationManager.DonationStatus.PAID_EXPIRE);
+    return (DonationManager.instance().status() == DonationManager.DonationStatus.PAID_EXPIRE);
   }
 
   @Override
@@ -25,7 +27,7 @@ public class PaidExpireDonateEvent extends DonateScreenEvent {
     switch (type) {
       
     case PARM_TEXT:
-      return new Object[]{-DonationManager.daysTillExpire()};
+      return new Object[]{-DonationManager.instance().daysTillExpire()};
 
     default:
       return null;

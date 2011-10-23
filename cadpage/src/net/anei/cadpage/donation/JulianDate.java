@@ -77,6 +77,14 @@ public class JulianDate {
     return cal.getTime().getTime();
   }
   
+  @Override
+  public boolean equals(Object date) {
+    if (date == null || !(date instanceof JulianDate)) return false;
+    JulianDate jDate = (JulianDate)date;
+    return (day == jDate.day && year == jDate.year);
+  }
+
+  @Override
   public String toString() {
     return year + ":" + day;
   }

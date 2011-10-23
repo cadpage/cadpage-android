@@ -10,11 +10,9 @@ public class DonationManager {
   
   public static final int DEMO_LIMIT_DAYS = 30;
   public static final int EXPIRE_WARN_DAYS = 30;
+  public static final int MAX_EXTRA_DAYS = 5;
   
   public enum DonationStatus {FREE, AUTH_DEPT, PAID, PAID_WARN, PAID_EXPIRE, DEMO, DEMO_EXPIRE};
-  
-  // Singleton instance
-  private static DonationManager instance = new DonationManager();
   
   // Cached calculated values are only valid until this time
   private long validLimitTime = 0L;
@@ -29,7 +27,10 @@ public class DonationManager {
   private int daysTillExpire;
   
   // Cached donation status
-  DonationStatus status;
+  private DonationStatus status;
+  
+  // Cached enable Cadpage status
+  private boolean enabled;
   
   
   /**
@@ -40,6 +41,9 @@ public class DonationManager {
     // If the current day hasn't changed, we can use the cached values
     long curTime = System.currentTimeMillis();
     if (curTime < validLimitTime) return;
+    
+    // Save the previous hold status so we can tell if it has been cleared
+    boolean oldAlert = status == DonationStatus.DEMO_EXPIRE || status == DonationStatus.PAID_EXPIRE;
     
     // Convert current time to a JDate, and set the cache limit to midnight
     // of that day
@@ -84,95 +88,83 @@ public class DonationManager {
       if (daysSinceInstall <= DEMO_LIMIT_DAYS) status = DonationStatus.DEMO;
       else status = DonationStatus.DEMO_EXPIRE;
     }
+    
+    // Cadpage should be enabled unless something has expired
+    // If status changed from expired to non-expired, reset the extra day count
+    enabled = (status != DonationStatus.DEMO_EXPIRE && status != DonationStatus.PAID_EXPIRE);
+    if (enabled && oldAlert) ManagePreferences.resetAuthExtra();
+    
+    // If status is not enabled, check for the loopholes
+    // First if if user has asked for an extra day
+    if (!enabled) {
+      Date extraDate = ManagePreferences.authExtraDate();
+      if (extraDate != null && new JulianDate(extraDate).equals(curJDate)) enabled = true;
+    }
   }
-  
-  private void doReset() {
+
+  /**
+   * Reset donation status
+   */
+  public void reset() {
     validLimitTime = 0;
   }
   
   /**
    * @return overall donation status
    */
-  public DonationStatus getStatus() {
+  public DonationStatus status() {
     calculate();
     return status;
   }
-  
+
 
   /**
    * @return number of days since Cadpage was installed
    */
-  private int getDaysSinceInstall() {
+  public int daysSinceInstall() {
     calculate();
     return daysSinceInstall;
   }
   
   /**
-   * @return number of days until Cadpage expires (may be negative)
+   * @return days to subscription expires (can be negative)
    */
-  public int getDaysTillExpire() {
+  public int daysTillExpire() {
     calculate();
     return daysTillExpire;
   }
   
   /**
-   * @return expiration date
+   * @return subscription expiration date (null in no subscription)
    */
-  public Date getExpireDate() {
+  public Date expireDate() {
     calculate();
     return expireDate;
   }
   
   /**
+   * @return number of extra day authorizations left
+   */
+  public int extraAuthLeft() {
+    return MAX_EXTRA_DAYS - ManagePreferences.authExtraCnt();
+  }
+  
+  /**
    * @return true if full Cadpage functionality should be enabled.
    */
-  private boolean getEnabled() {
+  public boolean isEnabled() {
     calculate();
-    if (status != DonationStatus.DEMO_EXPIRE && status != DonationStatus.PAID_EXPIRE) return true;
-    return false;
-  }
-
-  /**
-   * Reset all cached day calculations.  This should be called when
-   * any of the preferences values that control the date calculations are changed
-   */
-  public static void reset() {
-    instance.doReset();
+    return enabled;
   }
   
-  /**
-   * @return overall donation status
-   */
-  public static DonationStatus status() {
-    return instance.getStatus();
-  }
-
-  /**
-   * @return number of days since Cadpage was installed
-   */
-  public static int daysSinceInstall() {
-    return instance.getDaysSinceInstall();
-  }
+  // Singleton instance
+  private static DonationManager instance = new DonationManager();
   
   /**
-   * @return days to subscription expires (can be negative)
+   * @return singleton instance of DonationManager
    */
-  public static int daysTillExpire() {
-    return instance.getDaysTillExpire();
-  }
-  
-  /**
-   * @return subscription expiration date (null in no subscription)
-   */
-  public static Date expireDate() {
-    return instance.getExpireDate();
-  }
-  
-  /**
-   * @return true if full Cadpage functionality should be enabled.
-   */
-  public static boolean isEnabled() {
-    return instance.getEnabled();
+  public static DonationManager instance() {
+    return instance;
   }
   
 }

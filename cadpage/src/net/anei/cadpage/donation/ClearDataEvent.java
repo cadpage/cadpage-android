@@ -10,7 +10,7 @@ import net.anei.cadpage.ManagePreferences;
 import net.anei.cadpage.R;
 
 /**
-Donate through PayPal
+Reinstall Cadpage
  */
 public class ClearDataEvent extends DonateEvent {
   

@@ -55,7 +55,7 @@ Eli Wein (eli.scott.wein@gmail.com)(wein632@yahoo.com)
 Eric Hayday (ehayday@gmail.com)(ehayday@yahoo.com)
 Erik Haynes (ehaynes078@gmail.com)
 Eric Nusbaum (delmarfd348@gmail.com)
-Eric Schleif (eschleif@hotmail.com)
+Eric Schleif (eric.schleif@gmail.com)(eschleif@hotmail.com)
 eric taylor (ericferretttt@gmail.com)
 Evan Brown (car9702@gmail.com)(brown932@stny.rr.com)
 firediver11@gmail.com
@@ -214,7 +214,7 @@ Kevan e Williams (kwscotch@comcast.net)
 Kevin Hogan (hawkeyehogan9886@gmail.com)
 KevinM Croffoot (kmcroffoot@gmail.com)(kmcroffoot@yahoo.com)
 Marcie Battles (mhbattles@gmail.com)(mbattles2001@yahoo.com)
-Mark Howard (Grizzly911@aol.com)
+Mark Howard (Mhoward562@gmail.com)(Grizzly911@aol.com)
 Matt chastain (matt.chastain.mc@gmail.com)(Matt732@aol.com)
 Michael Banks (mpbanks@gmail.com)
 michael dellinger (ddellin4131@gmail.com)
@@ -322,3 +322,9 @@ Jason Lesich <evfc41@gmail.com>
 Neil (cope.neil@gmail.com)<neilc15438@yahoo.com>
 amie eichhorn <ethensmommy@gmail.com>
 Ryan Sandberg (ryerarero@gmail.com)<ryerarero@yahoo.com>
+Richard Brosky <richbrosky34@gmail.com>
+Pennell Jester <pennjester911@gmail.com>
+"johnresino@yahoo.com" (johnresinobata@gmail.com)<johnresino@yahoo.com>
+"tacrvcfd1212@aol.com" (tdog44110@gmail.com)<tacrvcfd1212@aol.com>
+Jim Lasley <ffjim21@gmail.com>
+"Posch, Bradley" (posch1bc@gmail.com)<bposch@mobilemedical.org>
