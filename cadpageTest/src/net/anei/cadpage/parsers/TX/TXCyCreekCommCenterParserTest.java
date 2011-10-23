@@ -133,14 +133,16 @@ public class TXCyCreekCommCenterParserTest extends BaseParserTest {
         "MAP:291N-",
         "CALL:29-MOTOR VEHICLE INCIDENT",
         "UNIT:M510 FO290",
-        "X:RHODES RD MARCIN DR");
+        "X:RHODES RD MARCIN DR",
+        "ID:201107335");
 
     doTest("T15",
         "03/19 09:48 CROSBY TRAINING, ; Map:- Sub: Nat:HM3-HC HAZMAT TRAINING Units:HM1 X-St: 201112139",
         "ADDR:CROSBY TRAINING",
         "MAP:-",
         "CALL:HM3-HC HAZMAT TRAINING",
-        "UNIT:HM1");
+        "UNIT:HM1",
+        "ID:201112139");
 
     doTest("T16",
         "  06/08 12:42 8314 CINNAMON RUN DR-HC, ; Map:250J- Sub: Nat:67-OUTSIDE FIRE Units:WDE107 E76 X-St:S ROLLING OAKS DR KUYKEND 201125394 TXT STOP to",
@@ -148,7 +150,8 @@ public class TXCyCreekCommCenterParserTest extends BaseParserTest {
         "MAP:250J-",
         "CALL:67-OUTSIDE FIRE",
         "UNIT:WDE107 E76",
-        "X:S ROLLING OAKS DR KUYKEND 201125394 TXT STOP to");
+        "X:S ROLLING OAKS DR KUYKEND",
+        "ID:201125394");
 
     doTest("T17",
         "  06/08 16:04 12110 SARTI ST-HC, ; Map:371A- Sub:FOUNTAINHEAD Nat:31D02-UNCON - EFFECTIVE BREATHI Units:HCM93 D52 11M X-St:BROOKHEAD TRL 201125435 TXT STOP to opt-out",
@@ -157,7 +160,8 @@ public class TXCyCreekCommCenterParserTest extends BaseParserTest {
         "MAP:371A-",
         "CALL:31D02-UNCON - EFFECTIVE BREATHI",
         "UNIT:HCM93 D52 11M",
-        "X:BROOKHEAD TRL 201125435 TXT STOP to opt-out");
+        "X:BROOKHEAD TRL",
+        "ID:201125435");
 
     doTest("T18",
         "09/05 15:19 18300 ELLA BLVD-HC, ; Map:331G- Sub:CYPRESSWOOD Nat:67D03-LARGE OUTSIDE FIRE Units:E62 B78 E61 B76 E37 X-St:BLUE CYPRESS DR",
