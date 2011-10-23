@@ -13,6 +13,7 @@ Sender: dispatch@hatzolohems.org
 (ACR# 5146) Add: 10  WIDMAN CT, \nX St: Near the intersection of Widman Ct and Bluefield Dr\nName: 7782, \nPhone: \nComp: \n9/9/2011 - 9:55 AM
 (ACR# 5184) Add: 230 Kearsing Pkwy, \nX St: Between Jill Ln and RT-306\nName: Krausz, Arnold\nPhone: 8454267408\nComp: CHEST PAIN\n9/13/2011 - 10:17 AM
 (ACR# 5181) Add: 10 Melnick Dr, \nX St: Between Robert Pitt Dr and Spruill Ct\nName: Sale Furniture Warehouse, Whole\nPhone: 8453716664\nComp: EDP\n9/12/2011 -
+(ACR# 5535) Addr: 24 Deerwood Rd\nX St: Between Cara Dr and Charlotte Dr\nName: Eisenberg, Mordechai\nPhone: 8453628456\nComp: MEDICAL\n10/22/20 11 - 8:27 PM 
 
 */
 
@@ -20,7 +21,7 @@ public class NYRocklandCountyCParser extends FieldProgramParser {
   
   public NYRocklandCountyCParser() {
     super("ROCKLAND COUNTY", "NY",
-        "Add:ADDR! X_St:X Name:NAME Phone:PHONE Comp:SKIP");
+        "Addr:ADDR! X_St:X Name:NAME Phone:PHONE Comp:SKIP");
   }
   
   @Override
@@ -32,6 +33,7 @@ public class NYRocklandCountyCParser extends FieldProgramParser {
   protected boolean parseMsg(String subject, String body, Data data) {
     if (!subject.startsWith("ACR# ")) return false;
     data.strCallId = subject.substring(5).trim();
+    if (body.startsWith("Add:")) body = "Addr:" + body.substring(4);
     return parseFields(body.split("\n"), data);
   }
   
