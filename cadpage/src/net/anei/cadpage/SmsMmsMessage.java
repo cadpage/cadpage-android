@@ -313,7 +313,7 @@ public class SmsMmsMessage implements Serializable {
     Pattern.compile("\\[(\\d) of (\\d)\\]$"),
     Pattern.compile(":(\\d)of(\\d)$")
   };
-  private static final Pattern OPT_OUT_PTN = Pattern.compile("TXT STOP to opt-out *$");
+  private static final Pattern OPT_OUT_PTN = Pattern.compile("TXT STOP.*$");
   private static final Pattern PAGECOPY_PATTERN = Pattern.compile("Pagecopy-Fr:(\\S*)\\s");
   private static final Pattern[] EMAIL_PATTERNS = new Pattern[]{ 
     Pattern.compile("^(?:\\*.*\\*)?([\\w\\.]+@[\\w\\.]+)( +/ +/ +)"),

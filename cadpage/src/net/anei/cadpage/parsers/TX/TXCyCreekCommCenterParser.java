@@ -57,7 +57,7 @@ Contact: Christopher Day <mrday010@gmail.com>
 public class TXCyCreekCommCenterParser extends SmsMsgParser {
   
   private static final Pattern MARKER = Pattern.compile("^\\d\\d/\\d\\d (\\d\\d:\\d\\d )?");
-  private static final Pattern TRAILER = Pattern.compile(" +\\d{8,} *$");
+  private static final Pattern TRAILER = Pattern.compile(" +(\\d{8,}) *$");
   
   public TXCyCreekCommCenterParser() {
     super("HARRIS COUNTY", "TX");
@@ -80,7 +80,10 @@ public class TXCyCreekCommCenterParser extends SmsMsgParser {
     body = body.substring(match.end()).trim();
     
     match = TRAILER.matcher(body);
-    if (match.find()) body = body.substring(0,match.start());
+    if (match.find()) {
+      data.strCallId = match.group(1);
+      body = body.substring(0,match.start());
+    }
     
     if (body.startsWith("Repage: ")) body = body.substring(8);
     body = "Loc:" + body;
