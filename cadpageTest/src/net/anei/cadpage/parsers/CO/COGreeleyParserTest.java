@@ -99,6 +99,53 @@ public class COGreeleyParserTest extends BaseParserTest {
    
   }
   
+  @Test
+  public void testParser3() {
+
+    doTest("T1",
+        "\" \" (Dispatch) 22452,FIREVF-FIRE VEHICLE (F),15899 NANCY AV.26,TEXT:TRUCK ON FIRE, NO \nONE INSIDE 2 OUTSIDE, TXT STOP to opt-out",
+        "ID:22452",
+        "CALL:FIREVF-FIRE VEHICLE (F)",
+        "ADDR:15899 NANCY AV",
+        "UNIT:26",
+        "INFO:TRUCK ON FIRE / NO ONE INSIDE 2 OUTSIDE");
+
+    doTest("T2",
+        "\" \" (Dispatch) 22440,TAUF  -TA UNK INJURY(F),1108 LANTERN DR.26 PM3,,FG10 TXT STOP to opt-out",
+        "ID:22440",
+        "CALL:TAUF -TA UNK INJURY(F)",
+        "ADDR:1108 LANTERN DR",
+        "UNIT:26 PM3");
+
+    doTest("T3",
+        "\" \" (Dispatch) 22422,SIPFF -SICK & INJ   (F),905 S MCKINLEY AV.26 PM3,TEXT:FEM FAINTED/WON'T \nWAKE UP NOW \\COMP:LUCY GALLEGOS \\SOURCE:E911 \\PH:720.985.1607,FG10 TXT STOP to opt-out",
+        "ID:22422",
+        "CALL:SIPFF -SICK & INJ (F)",
+        "ADDR:905 S MCKINLEY AV",
+        "UNIT:26 PM3",
+        "INFO:FEM FAINTED/WON'T WAKE UP NOW / LUCY GALLEGOS",
+        "PHONE:720.985.1607");
+
+    doTest("T4",
+        "\" \" (Dispatch) 22411,SIPFF -SICK & INJ   (F),15125 GOOD AV.26 PM3,TEXT:HUSB IN THE TUB, \nUNCONS/BREATHING \\COMP:VALERIE JENKINS \\PH:303*710*9486, TXT STOP to opt-out",
+        "ID:22411",
+        "CALL:SIPFF -SICK & INJ (F)",
+        "ADDR:15125 GOOD AV",
+        "UNIT:26 PM3",
+        "INFO:HUSB IN THE TUB / UNCONS/BREATHING / VALERIE JENKINS",
+        "PHONE:303*710*9486");
+
+    doTest("T5",
+        "\" \" (Dispatch) 22407,SI    -SICK & INJ (F&A),9643 CR 23.26 PM3,TEXT:CO ALARM GOING OFF \n\\COMP:LYNETTE \\PH:303 857 4432, TXT STOP to opt-out",
+        "ID:22407",
+        "CALL:SI -SICK & INJ (F&A)",
+        "ADDR:9643 CR 23",
+        "UNIT:26 PM3",
+        "INFO:CO ALARM GOING OFF / LYNETTE",
+        "PHONE:303 857 4432");
+
+  }
+  
   public static void  main(String[] args) {
     new COGreeleyParserTest().generateTests("T1");
   }
