@@ -59,6 +59,15 @@ public class NYRocklandCountyCParserTest extends BaseParserTest {
         "X:Cara Dr and Charlotte Dr",
         "NAME:Eisenberg, Mordechai",
         "PHONE:8453628456");
+
+    doTest("T7",
+        "(ACR# 5496) Addr: 180 Kearsing Pkwy #B\nName: Dov, Nachman\nPhone: 8453562086\nComp: ELDERLY NOT FEELING WELL\n10/17/2011 - 9:23 PM",
+        "ID:5496",
+        "ADDR:180 Kearsing Pkwy",
+        "APT:B",
+        "NAME:Dov, Nachman",
+        "PHONE:8453562086");
+
   }
   
   public static void main(String[] args) {
