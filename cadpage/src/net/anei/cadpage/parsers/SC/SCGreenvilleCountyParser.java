@@ -18,14 +18,19 @@ CAD:ACKNOWLEDGE CALL;32 HUNT ST; TRAV;(S) (N)17O
 CAD:ACKNOWLEDGE CALL;32 HUNT ST; TRAV;(S) (N)17O
 CAD:FALLS;124 JAMISON RD;TRAV;FARMINGTON TRL;WEBB CREEK CT;(S) (N)18F;NG1
 
+Contact: Kenneth Gosnell <ki4rdl@gmail.com>
+Sender: 8643850725
+CAD:DIABETIC PROBLEM;518 GOFORTH RD;LAND;BUTTER ST;BUTTER ST;(S) (N)4H;GM1
+
  */
 
 
 public class SCGreenvilleCountyParser extends DispatchOSSIParser {
   
   private static Properties CITY_CODES = buildCodeTable(new String[]{
-      "TRAV", "TRAVELERS REST",
-      "GRVL", "GREENVILLE"
+      "GRVL", "GREENVILLE",
+      "LAND", "LANDRUM",
+      "TRAV", "TRAVELERS REST"
   });
   
   public SCGreenvilleCountyParser() {
