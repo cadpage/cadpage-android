@@ -313,6 +313,7 @@ public class SmsMmsMessage implements Serializable {
     Pattern.compile("\\[(\\d) of (\\d)\\]$"),
     Pattern.compile(":(\\d)of(\\d)$")
   };
+  private static final Pattern OPT_OUT_PTN = Pattern.compile("TXT STOP to opt-out *$");
   private static final Pattern PAGECOPY_PATTERN = Pattern.compile("Pagecopy-Fr:(\\S*)\\s");
   private static final Pattern[] EMAIL_PATTERNS = new Pattern[]{ 
     Pattern.compile("^(?:\\*.*\\*)?([\\w\\.]+@[\\w\\.]+)( +/ +/ +)"),
@@ -364,6 +365,13 @@ public class SmsMmsMessage implements Serializable {
       } else {
         if (body.startsWith("/ ")) body = body.substring(2).trim();
       }
+      
+      // Get rid of leading quoted blanks
+      if (body.startsWith("\" \"")) body = body.substring(3).trim();
+      
+      // And trailing opt out message
+      match = OPT_OUT_PTN.matcher(body);
+      if (match.find()) body = body.substring(0,match.start()).trim();
       
       /* Decode patterns that look like this.....
       1 of 3
