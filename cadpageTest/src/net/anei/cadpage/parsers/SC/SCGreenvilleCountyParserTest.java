@@ -78,6 +78,15 @@ public class SCGreenvilleCountyParserTest extends BaseParserTest {
         "X:FARMINGTON TRL & WEBB CREEK CT",
         "MAP:18F",
         "INFO:NG1");
+
+    doTest("T9",
+        "CAD:DIABETIC PROBLEM;518 GOFORTH RD;LAND;BUTTER ST;BUTTER ST;(S) (N)4H;GM1",
+        "CALL:DIABETIC PROBLEM",
+        "ADDR:518 GOFORTH RD",
+        "CITY:LANDRUM",
+        "X:BUTTER ST & BUTTER ST",
+        "MAP:4H",
+        "INFO:GM1");
    
   }
   
