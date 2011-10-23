@@ -556,6 +556,12 @@ public class ManagePreferences {
   public static void setLedPatternCustom(String pattern) {
     prefs.putString(R.string.pref_flashled_pattern_custom_key, pattern);
   }
+  
+  public static void clearAll() {
+    SharedPreferences.Editor settings = prefs.mPrefs.edit();
+    settings.clear();
+    settings.commit();
+  }
 
   /**
    * Append configuration information to constructed message

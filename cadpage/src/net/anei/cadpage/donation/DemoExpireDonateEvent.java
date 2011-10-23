@@ -11,10 +11,12 @@ just might.
 public class DemoExpireDonateEvent extends DonateScreenEvent {
 
   protected DemoExpireDonateEvent() {
-    super(AlertStatus.YELLOW, R.string.donate_demo_expire_title, R.string.donate_demo_expire_text,
+    super(AlertStatus.RED, R.string.donate_demo_expire_title, R.string.donate_demo_expire_text,
            ReqMoneyGroup.instance(), MagicWordEvent.instance(),
            Android16DonateEvent.instance(),
-           NoUserDonateEvent.instance(), WrongUserDonateEvent.instance());
+           NoUserDonateEvent.instance(), 
+           WrongUserDonateEvent.instance(),
+           ClearDataConfirmEvent.instance());
   }
 
   @Override

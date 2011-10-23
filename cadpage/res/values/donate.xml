@@ -9,6 +9,7 @@
   <string name="donate_btn_cancel">Cancel</string>
   <string name="donate_btn_done">Done</string>
   <string name="donate_btn_OK">OK</string>
+  <string name="donate_btn_yes">Yes</string>
   
   <string name="donate_free_title">Thank you for your support</string>
   <string name="donate_free_text">
@@ -41,15 +42,12 @@
   <string name="donate_demo_title">Cadpage demo expires in %d days</string>
   <string name="donate_demo_text">
     You have been using Cadpage for %1$d days, you have %2$d days left before the
-    demo expires.  The current version of Cadpage will not bother you if you go over that 
-    limit.  But the next version might.
+    demo expires.
   </string>
   
   <string name="donate_demo_expire_title">Your Cadpage demo has expired</string>
   <string name="donate_demo_expire_text">
     You have been using Cadpage for %1$d days.  Your cadpage demo expired %2$d days ago.  
-    The current version of Cadpage will not bother you about this, but the next version
-    just might.
   </string>
   
   <string name="donate_android16_title">"Hey, I've already contributed"</string>
@@ -113,6 +111,12 @@
     \n
     "Why not, we're suckers for a good story.  Tell us why you don't think"
     you can afford $10 and we will probably give you a free subscription.  
+  </string>
+  
+  <string name="clear_data_title">Reinstall Cadpage</string>
+  <string name="clear_data_text">
+    This will restart your 30 day demo period.  Bit it will also erase all app data, 
+    including your call history and settings.  Are you sure you want to do this?
   </string>
   
 </resources>
