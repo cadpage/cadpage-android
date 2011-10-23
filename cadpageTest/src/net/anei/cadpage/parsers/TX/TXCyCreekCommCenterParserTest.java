@@ -154,6 +154,7 @@ public class TXCyCreekCommCenterParserTest extends BaseParserTest {
         "DATE:09/06",
         "TIME:11:56",
         "ADDR:W HILLSIDE DR & EASTEX FRWY",
+        "CITY:HOUSTON",
         "MAP:414D",
         "CALL:MA-MUTUAL AID / ASSIST AGENCY",
         "UNIT:E91 T81 T73 E-L19",
@@ -164,6 +165,7 @@ public class TXCyCreekCommCenterParserTest extends BaseParserTest {
         "DATE:12/07",
         "TIME:12:26",
         "ADDR:14231 CELLINI DR",
+        "CITY:HOUSTON",
         "MAP:368P-",
         "CALL:MA-MUTUAL AID / ASSIST AGENCY",
         "UNIT:MUTAID E24",
@@ -174,6 +176,7 @@ public class TXCyCreekCommCenterParserTest extends BaseParserTest {
         "DATE:12/08",
         "TIME:17:53",
         "ADDR:13830 ROSETTA DR",
+        "CITY:HOUSTON",
         "MAP:368P-",
         "CALL:MA-MUTUAL AID / ASSIST AGENCY",
         "UNIT:MUTAID E22",
@@ -269,6 +272,6 @@ public class TXCyCreekCommCenterParserTest extends BaseParserTest {
   }
   
   public static void main(String[] args) {
-    new TXCyCreekCommCenterParserTest().generateTests("T1", "DATE TIME PHONE ADDR APT MAP PLACE CALL UNIT X ID");
+    new TXCyCreekCommCenterParserTest().generateTests("T1", "DATE TIME PHONE ADDR APT CITY MAP PLACE CALL UNIT X ID");
   }
 }
