@@ -14,6 +14,7 @@ Sender: dispatch@hatzolohems.org
 (ACR# 5184) Add: 230 Kearsing Pkwy, \nX St: Between Jill Ln and RT-306\nName: Krausz, Arnold\nPhone: 8454267408\nComp: CHEST PAIN\n9/13/2011 - 10:17 AM
 (ACR# 5181) Add: 10 Melnick Dr, \nX St: Between Robert Pitt Dr and Spruill Ct\nName: Sale Furniture Warehouse, Whole\nPhone: 8453716664\nComp: EDP\n9/12/2011 -
 (ACR# 5535) Addr: 24 Deerwood Rd\nX St: Between Cara Dr and Charlotte Dr\nName: Eisenberg, Mordechai\nPhone: 8453628456\nComp: MEDICAL\n10/22/20 11 - 8:27 PM 
+(ACR# 5496) Addr: 180 Kearsing Pkwy #B\nName: Dov, Nachman\nPhone: 8453562086\nComp: ELDERLY NOT FEELING WELL\n10/17/2011 - 9:23 PM
 
 */
 
