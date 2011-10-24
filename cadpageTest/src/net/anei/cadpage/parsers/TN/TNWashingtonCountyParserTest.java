@@ -277,6 +277,15 @@ public class TNWashingtonCountyParserTest extends BaseParserTest {
         "X:BOB DAVIS RD & BOBBY HICKS HY",
         "MAP:12D");
 
+    doTest("T28",
+        "prvs=270a5699b=JCFDTEXT@johnsoncitytn.org School Fire Alarm E7,E2,TR2,E4,TR3,E3\n33 S DOSSETT DR\nSTONE HALL\nWOMENS RESIDENCE HALL\nMap 54D 12:45:10 117235\nThink green: Only print t",
+        "CALL:School Fire Alarm",
+        "UNIT:E7,E2,TR2,E4,TR3,E3",
+        "ID:117235",
+        "ADDR:33 S DOSSETT DR",
+        "PLACE:STONE HALL - WOMENS RESIDENCE HALL",
+        "MAP:54D");
+
   }
   
   @Test
