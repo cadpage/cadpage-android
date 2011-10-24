@@ -21,6 +21,7 @@ public class TNWashingtonCountyParserTest extends BaseParserTest {
         "ADDR:ALLISON LN & HELEN CT",
         "PLACE:ALLISON PLACE SD",
         "MAP:53C",
+        "TIME:16:50:40",
         "ID:115143");
 
     doTest("T2",
@@ -30,6 +31,7 @@ public class TNWashingtonCountyParserTest extends BaseParserTest {
         "ADDR:208 GARDEN DR",
         "PLACE:GRACE TEMPLE CHURCH",
         "MAP:46C",
+        "TIME:19:57:36",
         "ID:115181");
 
     doTest("T3",
@@ -39,6 +41,7 @@ public class TNWashingtonCountyParserTest extends BaseParserTest {
         "ADDR:1509 JOHN EXUM PKWY",
         "PLACE:SCIENCE HILL HIGH SCHOOL",
         "MAP:46A",
+        "TIME:02:23:08",
         "ID:115185");
 
     doTest("T4",
@@ -49,6 +52,7 @@ public class TNWashingtonCountyParserTest extends BaseParserTest {
         "ADDR:212 W POPLAR ST",
         "APT:APT1",
         "MAP:54B",
+        "TIME:00:12:17",
         "ID:11111569");
 
     doTest("T5",
@@ -60,6 +64,7 @@ public class TNWashingtonCountyParserTest extends BaseParserTest {
         "APT:B9",
         "PLACE:SUMMERCHASE APARTMENTS",
         "MAP:38B",
+        "TIME:23:05:56",
         "ID:11111542");
 
     doTest("T6",
@@ -69,6 +74,7 @@ public class TNWashingtonCountyParserTest extends BaseParserTest {
         "ADDR:208 GARDEN DR",
         "PLACE:GRACE TEMPLE CHURCH",
         "MAP:46C",
+        "TIME:19:57:36",
         "ID:115181");
 
     doTest("T7",
@@ -80,6 +86,7 @@ public class TNWashingtonCountyParserTest extends BaseParserTest {
         "APT:101",
         "PLACE:HARRISON VILLAGE APARTMENTS",
         "MAP:54A",
+        "TIME:12:39:23",
         "ID:11113129");
 
     doTest("T8",
@@ -89,6 +96,7 @@ public class TNWashingtonCountyParserTest extends BaseParserTest {
         "ADDR:406 E MOUNTAINVIEW RD",
         "PLACE:BROADMORE FACILITY",
         "MAP:29C",
+        "TIME:14:01:23",
         "ID:115275");
 
     doTest("T9",
@@ -97,6 +105,7 @@ public class TNWashingtonCountyParserTest extends BaseParserTest {
         "UNIT:E2,E3,MP29",
         "ADDR:I26W & OKOLONA EXIT",
         "MAP:63C",
+        "TIME:14:16:38",
         "ID:115276");
 
     doTest("T10",
@@ -106,6 +115,7 @@ public class TNWashingtonCountyParserTest extends BaseParserTest {
         "UNIT:M2,E7,R2",
         "ADDR:2215 N GREENWOOD DR",
         "MAP:54D",
+        "TIME:14:20:38",
         "ID:11113195");
 
     doTest("T11",
@@ -117,6 +127,7 @@ public class TNWashingtonCountyParserTest extends BaseParserTest {
         "APT:E28",
         "PLACE:NORTHPLACE APARTMENTS",
         "MAP:29C",
+        "TIME:16:31:15",
         "ID:11113269");
 
     doTest("T12",
@@ -126,6 +137,7 @@ public class TNWashingtonCountyParserTest extends BaseParserTest {
         "UNIT:M2,R2,E4",
         "ADDR:1208 BAIR VETTE AV",
         "MAP:45C 53B",
+        "TIME:21:42:56",
         "ID:11113379");
 
     doTest("T13",
@@ -135,6 +147,7 @@ public class TNWashingtonCountyParserTest extends BaseParserTest {
         "UNIT:M2,R2,E4",
         "ADDR:1518 SYLVAN DR",
         "MAP:45C",
+        "TIME:19:51:57",
         "ID:11113336");
 
     doTest("T14",
@@ -145,6 +158,7 @@ public class TNWashingtonCountyParserTest extends BaseParserTest {
         "ADDR:2802 PLYMOUTH RD",
         "PLACE:RAINBOW HOMES",
         "MAP:55D",
+        "TIME:19:20:41",
         "ID:11113321");
 
     doTest("T15",
@@ -154,6 +168,7 @@ public class TNWashingtonCountyParserTest extends BaseParserTest {
         "UNIT:M6,E9,R3",
         "ADDR:409 SCENIC OAK DR",
         "MAP:21D",
+        "TIME:19:07:03",
         "ID:11113313");
 
     doTest("T16",
@@ -165,6 +180,7 @@ public class TNWashingtonCountyParserTest extends BaseParserTest {
         "APT:79",
         "PLACE:CLARK MANOR APARTMENTS",
         "MAP:54A",
+        "TIME:17:30:11",
         "ID:11113287");
 
     doTest("T17",
@@ -174,6 +190,7 @@ public class TNWashingtonCountyParserTest extends BaseParserTest {
         "UNIT:M1,E2,R1",
         "ADDR:S ROAN ST & UNIVERSITY PKWY",
         "MAP:54B",
+        "TIME:15:06:18",
         "ID:11113223");
 
     doTest("T18",
@@ -182,6 +199,7 @@ public class TNWashingtonCountyParserTest extends BaseParserTest {
         "UNIT:E2,E3,MP29",
         "ADDR:I26W & OKOLONA EXIT",
         "MAP:63C",
+        "TIME:14:16:38",
         "ID:115276");
 
     doTest("T19",
@@ -189,21 +207,23 @@ public class TNWashingtonCountyParserTest extends BaseParserTest {
         "CALL:Sick Person",
         "PRI:A",
         "UNIT:E4",
-        "ID:11149314",
         "ADDR:840 W MARKET ST",
         "PLACE:CVS PHARMACY",
         "X:CLARK ST & KNOB CREEK RD",
-        "MAP:54A");
+        "MAP:54A",
+        "TIME:20:51:54",
+        "ID:11149314");
 
     doTest("T20",
         "prvs=2677ee746=JCFDTEXT@johnsoncitytn.org Convulsions/Seizures-DELTAM2,E2,R2\n1209 COLLEGE HEIGHTS DR\nX-STR= DEAD END\nUNIVERSITY PL\n;EAST OF SOUTHWEST AV\nMap 54C 17:18:07 11155033",
         "CALL:Convulsions/Seizures",
         "PRI:D",
         "UNIT:M2,E2,R2",
-        "ID:11155033",
         "ADDR:1209 COLLEGE HEIGHTS DR",
         "X:DEAD END & UNIVERSITY PL & ;EAST OF SOUTHWEST AV",
-        "MAP:54C");
+        "MAP:54C",
+        "TIME:17:18:07",
+        "ID:11155033");
 
     doTest("T21",
         "prvs=2677ee746=JCFDTEXT@johnsoncitytn.org Unk Problem(MedicalAlarm)-BRAVO M6,R3,E5\n3207 BRISTOL HY\nCOLONIAL HILL RETIREMENT CENTER\nX-STR= MULBERRY ST\nSHANNON LN\nMap 30D 14:48:16",
@@ -213,18 +233,20 @@ public class TNWashingtonCountyParserTest extends BaseParserTest {
         "ADDR:3207 BRISTOL HY",
         "PLACE:COLONIAL HILL RETIREMENT CENTER",
         "X:MULBERRY ST & SHANNON LN",
-        "MAP:30D");
+        "MAP:30D",
+        "TIME:14:48:16");
 
     doTest("T22",
         "prvs=268de3f1a=JCFDTEXT@johnsoncitytn.org Unconscious/Fainting-CHARLIEM2,R1,E3\n1430 S ROAN ST\nWALGREENS DRUG STORES (ROA/UNI)\nX-STR= TERRACE CT\nE HIGHLAND RD\nMap 46C 20:15:55 111",
         "CALL:Unconscious/Fainting",
         "PRI:C",
         "UNIT:M2,R1,E3",
-        "ID:111",
         "ADDR:1430 S ROAN ST",
         "PLACE:WALGREENS DRUG STORES (ROA/UNI)",
         "X:TERRACE CT & E HIGHLAND RD",
-        "MAP:46C");
+        "MAP:46C",
+        "TIME:20:15:55",
+        "ID:111");
 
     doTest("T23",
         "prvs=268de3f1a=JCFDTEXT@johnsoncitytn.orgOverdose/Ingestion/Poisoning-CHARLIE M13,E3\n110 TERRACE CT #1\nTERRACE COURT APARTMENTS\nX-STR= S ROAN ST\nDEAD END\n;REECE TERRACE APTS\nMap",
@@ -261,30 +283,42 @@ public class TNWashingtonCountyParserTest extends BaseParserTest {
         "CALL:Hemorrhage/Lacerations",
         "PRI:B",
         "UNIT:M1,E1,R1",
-        "ID:11155726",
         "ADDR:2307 SARAH ST",
         "X:DEAD END & MOSE ST & ;BEHIND BYLO MKT",
-        "MAP:39A");
+        "MAP:39A",
+        "TIME:00:54:20",
+        "ID:11155726");
 
     doTest("T27",
         "prvs=268de3f1a=JCFDTEXT@johnsoncitytn.org Convulsions/Seizures-CHARLIE M2,R4,E5\n541 SID MARTIN RD\nCITI COMMERCE SOLUTIONS\nX-STR= BOB DAVIS RD\nBOBBY HICKS HY\nMap 12D 13:55:39 11155",
         "CALL:Convulsions/Seizures",
         "PRI:C",
         "UNIT:M2,R4,E5",
-        "ID:11155",
         "ADDR:541 SID MARTIN RD",
         "PLACE:CITI COMMERCE SOLUTIONS",
         "X:BOB DAVIS RD & BOBBY HICKS HY",
-        "MAP:12D");
+        "MAP:12D",
+        "TIME:13:55:39",
+        "ID:11155");
 
     doTest("T28",
         "prvs=270a5699b=JCFDTEXT@johnsoncitytn.org School Fire Alarm E7,E2,TR2,E4,TR3,E3\n33 S DOSSETT DR\nSTONE HALL\nWOMENS RESIDENCE HALL\nMap 54D 12:45:10 117235\nThink green: Only print t",
         "CALL:School Fire Alarm",
         "UNIT:E7,E2,TR2,E4,TR3,E3",
-        "ID:117235",
         "ADDR:33 S DOSSETT DR",
         "PLACE:STONE HALL - WOMENS RESIDENCE HALL",
-        "MAP:54D");
+        "MAP:54D",
+        "TIME:12:45:10",
+        "ID:117235");
+
+    doTest("T29",
+        "prvs=27112cb81=JCFDTEXT@johnsoncitytn.org Motor Vehicle Crash - Injury E3\nCARTER COUNTY LINE/MILLIGAN HY\nCARTER COUNTY LINE\n11:18:15 117253\nThink green: Only print this e-mail and",
+        "CALL:Motor Vehicle Crash - Injury",
+        "UNIT:E3",
+        "ADDR:CARTER COUNTY LINE & MILLIGAN HY",
+        "PLACE:CARTER COUNTY LINE",
+        "TIME:11:18:15",
+        "ID:117253");
 
   }
   
@@ -292,7 +326,7 @@ public class TNWashingtonCountyParserTest extends BaseParserTest {
   public void testParser2() {
 
     doTest("T1",
-        "Breathing Problems-DELTA M1,E3 \n300 W WALNUT ST #2 \nSHAMROCK \nMap 54b 14:59:59 11111863 \nThink green: Only print this e-mail and any attachment",
+        "Breathing Problems-DELTA M1,E3 \n300 W WALNUT ST #2 \nSHAMROCK \nMap 54b 14:59:59 11111863 \nThink green: Only print this e-mail and any attachment ",
         "CALL:Breathing Problems",
         "PRI:D",
         "UNIT:M1,E3",
@@ -300,16 +334,18 @@ public class TNWashingtonCountyParserTest extends BaseParserTest {
         "APT:2",
         "PLACE:SHAMROCK",
         "MAP:54b",
+        "TIME:14:59:59",
         "ID:11111863");
 
     doTest("T2",
-        "Breathing Problems-CHARLIE M1,E1,R1 \n1 UNAKA CT #7 \nMap 39D 21:23:05 11112056 \nThink green: Only print this e-mail and any attachment if necessar",
+        "Breathing Problems-CHARLIE M1,E1,R1 \n1 UNAKA CT #7 \nMap 39D 21:23:05 11112056 \nThink green: Only print this e-mail and any attachment if necessar ",
         "CALL:Breathing Problems",
         "PRI:C",
         "UNIT:M1,E1,R1",
         "ADDR:1 UNAKA CT",
         "APT:7",
         "MAP:39D",
+        "TIME:21:23:05",
         "ID:11112056");
 
     doTest("T3",
@@ -320,6 +356,7 @@ public class TNWashingtonCountyParserTest extends BaseParserTest {
         "APT:124",
         "PLACE:HERITAGE TRAILER PARK",
         "MAP:55D",
+        "TIME:22:50:03",
         "ID:115214");
 
     doTest("T4",
@@ -330,6 +367,7 @@ public class TNWashingtonCountyParserTest extends BaseParserTest {
         "ADDR:2918 BRISTOL HY",
         "PLACE:ADVANCE AUTO PARTS",
         "MAP:38A",
+        "TIME:19:53:06",
         "ID:11113913");
 
     doTest("T5",
@@ -340,6 +378,7 @@ public class TNWashingtonCountyParserTest extends BaseParserTest {
         "ADDR:805 KENTUCKY ST",
         "X:COLORADO ST & ORLEANS ST",
         "MAP:47D",
+        "TIME:16:50:49",
         "ID:11147626");
    
   }
