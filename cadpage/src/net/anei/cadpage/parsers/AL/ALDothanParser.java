@@ -10,6 +10,7 @@ Dothan AL
 Contact: "hassain3738@gmail.com" <hassain3738@gmail.com>
 Contact: Tracy Faulkner <ycartf@gmail.com>
 Contact: Chad Proctor <xyi9130@gmail.com>
+Contact: Rita <7965975rita228@gmail.com>
 Sender: Robot.ALERT@dothan.org
  
 15:49:38/SC-Service Call Non-Emergency/801 E LAFAYETTE ST/DOTHAN/14523968/ref lines fell at front door, see c404/
@@ -46,6 +47,11 @@ Sender: Robot.ALERT@dothan.org
 12:52:08/S38A-Medical Call-Code III Crit-Emg/25 GOVERNOR DR/DOTHAN/WALLACE COLLEGE/769381254/PREGNANT PT ~~ LIGHT HEADED ~~ WALLACE HALL BLDG 25 UNK AGE/
 19:52:43/S8BE-MVC-Code III/915 MURBO RD INTERSECTN/COTTONWOOD/FLETCHER SMITH RD/CWRSB/VEH VS MOTORCYLE/
 10:01:23/S38BE-Medical Call-Code III-Emergy/986 EDWIN REYNOLDS RD/LOVETOWN/CWRSC/14 yom poss broken collar bone from bicycle accident/
+17:43:59/S38BE-Medical Call-Code III-Emergy/9001 S U S 231/HODGESVILLE/RRSA/68 yom diff breathing/
+14:06:05/S8AE-MVC-Code III Critical/15809 S U S 231/MADRID/RACEWAY/RRSB/2 veh .../
+
+** NOT IMPLEMENTED **
+S38A 4375 CO RD 203 LOT 15 55YOF NOT BREATHING CPR IN PROGRESS
 
 */
 public class ALDothanParser extends FieldProgramParser {
