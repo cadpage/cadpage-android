@@ -40,6 +40,7 @@ prvs=269c08782=JCFDTEXT@johnsoncitytn.org Breathing Problems/ASTHMA-DELTA E7\n14
 prvs=269c08782=JCFDTEXT@johnsoncitytn.org Hemorrhage/Lacerations-BRAVO M1,E1,R1\n2307 SARAH ST\nX-STR= DEAD END\nMOSE ST\n;BEHIND BYLO MKT\nMap 39A 00:54:20 11155726\nThink green: Only p
 prvs=268de3f1a=JCFDTEXT@johnsoncitytn.org Convulsions/Seizures-CHARLIE M2,R4,E5\n541 SID MARTIN RD\nCITI COMMERCE SOLUTIONS\nX-STR= BOB DAVIS RD\nBOBBY HICKS HY\nMap 12D 13:55:39 11155
 prvs=270a5699b=JCFDTEXT@johnsoncitytn.org School Fire Alarm E7,E2,TR2,E4,TR3,E3\n33 S DOSSETT DR\nSTONE HALL\nWOMENS RESIDENCE HALL\nMap 54D 12:45:10 117235\nThink green: Only print t
+prvs=27112cb81=JCFDTEXT@johnsoncitytn.org Motor Vehicle Crash - Injury E3\nCARTER COUNTY LINE/MILLIGAN HY\nCARTER COUNTY LINE\n11:18:15 117253\nThink green: Only print this e-mail and
 
 Contact: Jason Powell <firedupleadership@gmail.com>
 Sender: CAD@wc911.org
@@ -115,7 +116,7 @@ public class TNWashingtonCountyParser extends FieldProgramParser {
     
     @Override
     public String getFieldNames() {
-      return "UNIT ID";
+      return "UNIT";
     }
   }
   
@@ -156,23 +157,41 @@ public class TNWashingtonCountyParser extends FieldProgramParser {
   
   // MAP field has to start with map, and drop trailing stuff
   private static final Pattern MAP_PTN = Pattern.compile("\\d\\d[A-Za-z]");
+  private static final Pattern TIME_PTN = Pattern.compile("\\d\\d:\\d\\d:\\d\\d");
   private class MyMapField extends MapField {
     @Override
     public void parse(String field, Data data) {
+      boolean ok = false;
       Parser p = new Parser(field);
-      if (!"Map".startsWith(p.get(' '))) abort();
       String sMap  = p.get(' ');
-      while (MAP_PTN.matcher(sMap).matches()) {
-        data.strMap = append(data.strMap, " ", sMap);
-        sMap = p.get(' ');
+      if ("Map".startsWith(sMap)) {
+        ok = true;
+        sMap  = p.get(' ');
+        while (MAP_PTN.matcher(sMap).matches()) {
+          data.strMap = append(data.strMap, " ", sMap);
+          sMap = p.get(' ');
+        }
+      }
+      if (TIME_PTN.matcher(sMap).matches()) {
+        ok = true;
+        data.strTime = sMap;
       }
       data.strCallId = p.get();
+      
+      if (!ok) abort();
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "MAP TIME ID";
     }
   }
   
   private boolean isMapField(String field) {
     if (field.startsWith("Map ")) return true;
     if ("Map".startsWith(field)) return true;
+    String sTime = new Parser(field).get(' ');
+    if(TIME_PTN.matcher(sTime).matches()) return true;
     return false;
   }
   
