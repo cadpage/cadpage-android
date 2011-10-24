@@ -144,6 +144,14 @@ public class COGreeleyParserTest extends BaseParserTest {
         "INFO:CO ALARM GOING OFF / LYNETTE",
         "PHONE:303 857 4432");
 
+    doTest("T6",
+        "\" \" (Dispatch) 22452,FIREVF-FIRE VEHICLE (F),15899 NANCY AV.26,TEXT:TRUCK ON FIRE, NO \nONE INSIDE 2 OUTSIDE, TXT STOP to opt-out",
+        "ID:22452",
+        "CALL:FIREVF-FIRE VEHICLE (F)",
+        "ADDR:15899 NANCY AV",
+        "UNIT:26",
+        "INFO:TRUCK ON FIRE / NO ONE INSIDE 2 OUTSIDE");
+
   }
   
   public static void  main(String[] args) {
