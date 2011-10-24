@@ -19,6 +19,9 @@ Subject:MetorCom Notifiction\nMEDICAL – ALLERGY, ALRM: 0, PRI: 2, ESZ: 2009 / 
 Subject:MetorCom Notifiction\nFIRE-OTHER – GRASS, ALRM: 0, PRI: 1, ESZ 107 / HWY 77 FWY SB/CR 48 NUECS
 Subject:MetorCom Notifiction\nMEDICAL – CHEST, ALRM: 0, PRI: 1, 104 / FM 43/FM 763 NUECS
 
+** NOT IMPLEMENTED **
+Subject:CAD Notify\nTRAUMA - INJURY ALRM: 0 PRI: 1 ESZ: 67 / 11308 GUESS DR CC NUECS EV: 1110029194\n
+
  */
 
 public class TXNuecesCountyParser extends SmsMsgParser {
