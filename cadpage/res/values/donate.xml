@@ -91,7 +91,7 @@
   </string>
   
   <string name="donate_magic_word_title">I have an authorization code</string>
-  <string name="donate_magic_word_text">Enter authorization code for\nCypress Creek VFD</string>
+  <string name="donate_magic_word_text">Enter authorization code</string>
   <string name="donate_magic_word_reject">Sorry, that is not a recognized authorization code</string>
   
   <string name="donate_android_problem_title">I can\'t make Android Market donations</string>
@@ -119,5 +119,11 @@
   </string>
   
   <string name="donate_extra_day_title">Give me one more day</string>
+  
+  <string name="donate_exempt_title">Exempt from release checks</string>
+  <string name="donate_exempt_text">
+    You are exempt from any demo or subscription limits until the next Cadpage
+    version update which must be done in the next %d days.
+  </string>
   
 </resources>

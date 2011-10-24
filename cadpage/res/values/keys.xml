@@ -13,6 +13,7 @@
    <string name="pref_auth_organization">auth_organization</string>
    <string name="pref_auth_extra_date_key">auth_extra_date</string>
    <string name="pref_auth_extra_cnt_key">auth_extra_cnt</string>
+   <string name="pref_auth_exempt_date">pref_auth_exempt_date</string>
    <string name="pref_registration_id">registration_id</string>
    
    <string name="pref_donate_status_key">donatestatus</string>

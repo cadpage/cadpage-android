@@ -552,6 +552,30 @@ public class ManagePreferences {
     DonationManager.instance().reset();
   }
   
+  public static Date authExemptDate() {
+    String exemptDate =  prefs.getString(R.string.pref_auth_exempt_date, null);
+    if (exemptDate == null) return null;
+    if (!exemptDate.equals(prefs.context.getString(R.string.release_date))) return null;
+    try {
+      return new SimpleDateFormat("MMddyyyy").parse(exemptDate);
+    } catch (ParseException e) {
+      return null;
+    }
+  }
+  
+  public static void setExemptDate() {
+    setExemptDate(prefs.context.getString(R.string.release_date));
+  }
+  
+  public static void setExemptDate(String newVal) {
+    prefs.putString(R.string.pref_auth_exempt_date, newVal);
+    DonationManager.instance().reset();
+  }
+  
+  public static void setAuthExemptDate(String newVal) {
+    prefs.putString(R.string.pref_auth_exempt_date, newVal); 
+  }
+  
   public static String getRegistrationId() {
     return prefs.getString(R.string.pref_registration_id, null);
   }
