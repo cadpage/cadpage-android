@@ -152,6 +152,15 @@ public class COGreeleyParserTest extends BaseParserTest {
         "UNIT:26",
         "INFO:TRUCK ON FIRE / NO ONE INSIDE 2 OUTSIDE");
 
+    doTest("T7",
+        "\" \" (Dispatch) 22570,SIPFF -SICK & INJ   (F),1300 DEXTER ST.26,TEXT:MAN FELL , BLEEDING \nFROM HEAD BADLY \\COMP:MICHELLE \\PH:7209388915, TXT STOP to opt-out",
+        "ID:22570",
+        "CALL:SIPFF -SICK & INJ (F)",
+        "ADDR:1300 DEXTER ST",
+        "UNIT:26",
+        "INFO:MAN FELL / BLEEDING FROM HEAD BADLY / MICHELLE",
+        "PHONE:7209388915");
+
   }
   
   public static void  main(String[] args) {

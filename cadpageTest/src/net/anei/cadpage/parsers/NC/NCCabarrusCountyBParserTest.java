@@ -56,7 +56,19 @@ public class NCCabarrusCountyBParserTest extends BaseParserTest {
         "CALL:DWELLING FIRE",
         "ADDR:2873 SIGNAL CT SW",
         "X:PULLMAN ST SW");
-    
+
+    doTest("T5",
+        "77:FYI: |1|RESIDENTIAL FIRE ALARM|764 JUANITA DR SW|JOSEPHINE LN SW|KIM ST SW|(S)YATES MEADOW SD (N)YATES MEADOWS|5|583|10/23/2011 19:55:32|1106744",
+        "DATE:10/23/2011",
+        "TIME:19:55:32",
+        "CALL:RESIDENTIAL FIRE ALARM",
+        "ADDR:764 JUANITA DR SW",
+        "X:JOSEPHINE LN SW & KIM ST SW",
+        "INFO:(S)YATES MEADOW SD (N)YATES MEADOWS",
+        "PRI:5",
+        "UNIT:583",
+        "ID:1106744");
+   
   }
   
   public static void main(String[] args) {
