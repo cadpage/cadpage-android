@@ -320,10 +320,24 @@ public class ALDothanParserTest extends BaseParserTest {
         "CITY:LOVETOWN",
         "PLACE:CWRSC/14 yom poss broken collar bone from bicycle accident");
 
+    doTest("T35",
+        "17:43:59/S38BE-Medical Call-Code III-Emergy/9001 S U S 231/HODGESVILLE/RRSA/68 yom diff breathing/",
+        "CALL:S38BE-Medical Call-Code III-Emergy",
+        "ADDR:9001 S U S 231",
+        "CITY:HODGESVILLE",
+        "PLACE:RRSA/68 yom diff breathing");
+
+    doTest("T36",
+        "14:06:05/S8AE-MVC-Code III Critical/15809 S U S 231/MADRID/RACEWAY/RRSB/2 veh .../",
+        "CALL:S8AE-MVC-Code III Critical",
+        "ADDR:15809 S U S 231",
+        "CITY:MADRID",
+        "PLACE:RACEWAY/RRSB/2 veh ...");
+
   }
   
   
   public static void main(String[] args) {
-    new ALDothanParserTest().generateTests("T34");
+    new ALDothanParserTest().generateTests("T37");
   }
 }
