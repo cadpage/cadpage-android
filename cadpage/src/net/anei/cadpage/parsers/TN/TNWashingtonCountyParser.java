@@ -39,6 +39,7 @@ prvs=268de3f1a=JCFDTEXT@johnsoncitytn.org Chest Pain(Non-Traumatic)-DELTA M6,R5,
 prvs=269c08782=JCFDTEXT@johnsoncitytn.org Breathing Problems/ASTHMA-DELTA E7\n1410 COLONY PARK DR #10\nSOUTHRIDGE APTS BLDG 2\nX-STR= 2300 BK S GREENWOOD DR\nCURVE IN ROAD\nMap 62A 22:
 prvs=269c08782=JCFDTEXT@johnsoncitytn.org Hemorrhage/Lacerations-BRAVO M1,E1,R1\n2307 SARAH ST\nX-STR= DEAD END\nMOSE ST\n;BEHIND BYLO MKT\nMap 39A 00:54:20 11155726\nThink green: Only p
 prvs=268de3f1a=JCFDTEXT@johnsoncitytn.org Convulsions/Seizures-CHARLIE M2,R4,E5\n541 SID MARTIN RD\nCITI COMMERCE SOLUTIONS\nX-STR= BOB DAVIS RD\nBOBBY HICKS HY\nMap 12D 13:55:39 11155
+prvs=270a5699b=JCFDTEXT@johnsoncitytn.org School Fire Alarm E7,E2,TR2,E4,TR3,E3\n33 S DOSSETT DR\nSTONE HALL\nWOMENS RESIDENCE HALL\nMap 54D 12:45:10 117235\nThink green: Only print t
 
 Contact: Jason Powell <firedupleadership@gmail.com>
 Sender: CAD@wc911.org
@@ -55,7 +56,7 @@ public class TNWashingtonCountyParser extends FieldProgramParser {
   
   public TNWashingtonCountyParser() {
     super("WASHINGTON COUNTY", "TN",
-           "CPU UNIT2? ADDR PLACE? ( X X2+? | ) MAP!");
+           "CPU UNIT2? ADDR PLACE+? ( X X2+? | ) MAP!");
   }
   
   @Override
@@ -129,7 +130,7 @@ public class TNWashingtonCountyParser extends FieldProgramParser {
     @Override
     public boolean checkParse(String field, Data data) {
       if (field.startsWith("X-STR=") || isMapField(field)) return false;
-      super.parse(field, data);
+      data.strPlace = append(data.strPlace, " - ", field);
       return true;
     }
   }
