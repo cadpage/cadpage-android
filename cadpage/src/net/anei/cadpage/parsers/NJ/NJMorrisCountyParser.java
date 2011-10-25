@@ -35,14 +35,14 @@ LITTLETON RD / COURT RD [Morris Plains] (MVA) - PD REQUEST 1 RIG, AIR BAG DEPLOY
 SUNRISE ASSISTED LIVING (23), 209 LITTLETON RD [Morris Plains] (SICK PERSN) - 1ST FLOOR...CALLER REPORTS THE FEMALE PATIENT IS SHAKING AND SCREAMING. CALLE
 
 prvs=3175827e30=dispatch@co.morris.nj.us Police Academy Morris Cty, 500 W HANOVER AVE [Parsippany-Troy] (UNCONSCNS) - CONSTRUCTION WORKER STATED HE BLACKED OUT. HE IS SITTING INSID
-
+prvs=62791756a7=dispatch@co.morris.nj.us PRO HAIRCUTTERS INC (23), 1711 RT 10 E [Morris Plains] (HEM/CUTS) - 82 Y/O FEMALE LACERATION TO LEG - 2398 16:07
 
 */
 
 public class NJMorrisCountyParser extends SmsMsgParser {
   
   private static final Pattern MASTER_PTN = 
-    Pattern.compile("^(.*) \\[([-A-Za-z ]+)\\] \\(([A-Z ]+)\\) - (.*)$");
+    Pattern.compile("^(.*) \\[([-A-Za-z ]+)\\] \\(([A-Z/ ]+)\\) - (.*)$");
   
   private static final Pattern PLACE_CODE_PTN = Pattern.compile("\\(\\d+\\)$");
   
