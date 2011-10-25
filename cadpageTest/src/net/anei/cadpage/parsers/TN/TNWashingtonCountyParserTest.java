@@ -320,6 +320,14 @@ public class TNWashingtonCountyParserTest extends BaseParserTest {
         "TIME:11:18:15",
         "ID:117253");
 
+    doTest("T30",
+        "prvs=272df6cbd=JCFDTEXT@johnsoncitytn.org Motor Vehicle Crash - Injury E8,E6\nI26E/MILE MARKER 14\n15:38:04 117287\nThink green: Only print this e-mail and any attachment if necessary",
+        "CALL:Motor Vehicle Crash - Injury",
+        "UNIT:E8,E6",
+        "ADDR:I26E & MILE MARKER 14",
+        "TIME:15:38:04",
+        "ID:117287");
+
   }
   
   @Test
