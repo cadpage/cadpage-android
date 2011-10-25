@@ -316,7 +316,10 @@ public abstract class BaseParserTest {
   }
 
   private String escape(String value) {
-    return value.replaceAll("\\n", "\\\\n");
+    value = value.replace("\\", "\\\\");
+    value = value.replace("\"", "\\\"");
+    value = value.replace("\n", "\\n");
+    return value;
   }
 
   /**

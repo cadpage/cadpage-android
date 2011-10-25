@@ -129,6 +129,20 @@ public class NCBrunswickCountyParserTest extends BaseParserTest {
         "TIME:19:38:00",
         "INFO:Falls");
   }
+  
+  @Test
+  public void testParser4() {
+
+    doTest("T1",
+        "1051:MT PISGAH BAPTIST CHURCH 494 MT PISGAH RD SW SUPPLY 11-085300 18:43:59 Brush Fire ON THE RIGHT IF GOING TOWARDS HOLDEN BEACH RD JUST PASSED MT PISGAH CHURCH ... ADVD SMALL FIRE IN T",
+        "PLACE:MT PISGAH BAPTIST CHURCH",
+        "ADDR:494 MT PISGAH RD SW",
+        "CITY:SUPPLY",
+        "ID:11-085300",
+        "TIME:18:43:59",
+        "INFO:Brush Fire ON THE RIGHT IF GOING TOWARDS HOLDEN BEACH RD JUST PASSED MT PISGAH CHURCH ... ADVD SMALL FIRE IN T");
+
+  }
 
   public static void main(String[] args) {
     new NCBrunswickCountyParserTest().generateTests("T1", "PLACE ADDR CITY NAME PHONE CODE ID TIME CALL INFO");

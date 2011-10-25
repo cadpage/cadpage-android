@@ -161,6 +161,22 @@ public class COGreeleyParserTest extends BaseParserTest {
         "INFO:MAN FELL / BLEEDING FROM HEAD BADLY / MICHELLE",
         "PHONE:7209388915");
 
+    doTest("T8",
+        "\" \" (Dispatch) 22606,ATSUCF-ATTP SUICIDE (F),2926 GLEN DALE DR.24 WA,TEXT:OVERDOSE \\COMP:DIANA \n\\LOC:ALI - SHOWS #6 \\PH:9706738057, TXT STOP to opt-out",
+        "ID:22606",
+        "CALL:ATSUCF-ATTP SUICIDE (F)",
+        "ADDR:2926 GLEN DALE DR",
+        "UNIT:24 WA",
+        "INFO:OVERDOSE / DIANA",
+        "PHONE:9706738057");
+
+    doTest("T9",
+        "\" \" (Dispatch) 22648,SIPFF -SICK & INJ   (F),3804 BURLINGTON AV.24 WA,, TXT STOP to opt-out",
+        "ID:22648",
+        "CALL:SIPFF -SICK & INJ (F)",
+        "ADDR:3804 BURLINGTON AV",
+        "UNIT:24 WA");
+
   }
   
   public static void  main(String[] args) {
