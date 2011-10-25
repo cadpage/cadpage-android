@@ -26,6 +26,9 @@ Contact: Christopher Grace Jr <cgracejr@gmail.com>
 Sender: lelandems+bncCOqwh4kZEO2g9_EEGgTkSK1X@googlegroups.com
 2192:BRUNSWICK COVE NURSING HOME 1478 RIVER RD SE WINNABOW 11-062488 19:38:00 Falls
 
+Contact: Doritto <no1bravesfancandy@gmail.com>
+1051:MT PISGAH BAPTIST CHURCH 494 MT PISGAH RD SW SUPPLY 11-085300 18:43:59 Brush Fire ON THE RIGHT IF GOING TOWARDS HOLDEN BEACH RD JUST PASSED MT PISGAH CHURCH ... ADVD SMALL FIRE IN T
+
 */
 
 public class NCBrunswickCountyParser extends DispatchSouthernParser {
