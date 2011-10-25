@@ -189,6 +189,15 @@ public class NJMorrisCountyParserTest extends BaseParserTest {
         "CITY:Parsippany-Troy",
         "CALL:UNCONSCNS",
         "INFO:CONSTRUCTION WORKER STATED HE BLACKED OUT. HE IS SITTING INSID");
+
+    doTest("T22",
+        "prvs=62791756a7=dispatch@co.morris.nj.us PRO HAIRCUTTERS INC (23), 1711 RT 10 E [Morris Plains] (HEM/CUTS) - 82 Y/O FEMALE LACERATION TO LEG - 2398 16:07",
+        "PLACE:PRO HAIRCUTTERS INC",
+        "ADDR:1711 RT 10 E",
+        "CITY:Morris Plains",
+        "CALL:HEM/CUTS",
+        "INFO:82 Y/O FEMALE LACERATION TO LEG",
+        "UNIT:2398");
   }
   
   public static void main(String[] args) {
