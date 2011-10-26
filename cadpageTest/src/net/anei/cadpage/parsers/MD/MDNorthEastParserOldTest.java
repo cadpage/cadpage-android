@@ -65,6 +65,23 @@ public class MDNorthEastParserOldTest extends BaseParserTest {
         "UNIT:03");
   }
   
+  @Test
+  public void testParser2() {
+
+
+    doTest("T1",
+        "DIABETIC\n254 N MAIN ST\nVANNORT DR\nGRANITE AVE\nPD\n08:00:00\n[P DIABETIC ;81 YEAR OLD, FEMALE, CONSCIOUS, BREATHING.  DIABETICPROBLEMS.\n11021185\nEMS OPS",
+        "CODE:DIABETIC",
+        "CALL:254 N MAIN ST",
+        "ADDR:VANNORT DR",
+        "CITY:GRANITE AVE",
+        "X:PD",
+        "INFO:11021185",
+        "CH:EMS OPS");
+
+
+  }
+  
   public static void main(String[] args) {
     new MDNorthEastParserOldTest().generateTests("T1");
   }

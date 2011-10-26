@@ -201,6 +201,6 @@ public class NJMorrisCountyParserTest extends BaseParserTest {
   }
   
   public static void main(String[] args) {
-    new NJMorrisCountyParserTest().generateTests("T21", "PLACE ADDR APT CITY CALL INFO UNIT");
+    new NJMorrisCountyParserTest().generateTests("T23", "PLACE ADDR APT CITY CALL INFO UNIT");
   }
 }
