@@ -1,6 +1,7 @@
 package net.anei.cadpage.preferences;
 
 import android.app.AlertDialog.Builder;
+import android.app.Dialog;
 import android.content.Context;
 import android.preference.ListPreference;
 import android.preference.PreferenceScreen;
@@ -29,7 +30,8 @@ public class LocationListPreference extends ListPreference {
     super.onDialogClosed(positiveResult);
     if (positiveResult) {
       locMgr.setNewLocation(getValue());
-      parent.getDialog().dismiss();
+      Dialog dlg = parent.getDialog();
+      if (dlg !=  null) dlg.dismiss();
     }
   }
 }
