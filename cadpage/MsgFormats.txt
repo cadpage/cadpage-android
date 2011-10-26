@@ -3334,6 +3334,17 @@ Contact: "bradfordsnyder@verizon.net" <bradfordsnyder@verizon.net>
 Sender: waterwitch73@zoominternet.net
 DIABETIC\n254 N MAIN ST\nVANNORT DR\nGRANITE AVE\nPD\n08:00:00\n[P DIABETIC ;81 YEAR OLD, FEMALE, CONSCIOUS, BREATHING.  DIABETICPROBLEMS.\n11021185\nEMS OPS
 **********************************************************
+Unknown, NC
+Contact: Jamie Burgess <jrburgess87@gmail.com>
+Sender: firedistrict13@listserve.com
+Subject:[Firedistrict13] (no subject)\nCAD:UNDER CONTROL;616 SIMPSON-CALHOUN RD; G ;TAC 10\n\n_____________________________________
+Subject:[Firedistrict13] (no subject)\nCAD:FD13;ST55;1;29D02p;50PI;US 29 N/HICONE RD;29 NB NORTH OF HICONE\n\n_____________________
+Subject:[Firedistrict13] (no subject)\nCAD:FD13;ST58;1;26B01;SICK;7830 SUTTER RD;NC 150 W\n\n______________________________________
+Subject:[Firedistrict13] (no subject)\nCAD:FD13;ST55;1;03D00;ANBITE;2706 BRAME RD;WHITE ELDER RD;DIST: 245.80 FT\n\n_______________
+Subject:[Firedistrict13] (no subject)\nCAD:UNDER CONTROL;2706 BRAME RD; G ;DIST: 245.80 FT\n\n_____________________________________
+Subject:[Firedistrict13] (no subject)\nCAD:FD13;ST55;1;29D02p;50PI;US 29 N/HICONE RD;29 NB NORTH OF HICONE\n\n_____________________
+
+**********************************************************
 **********************************************************
 ************  READY TO ROLL ******************************
 **********************************************************
@@ -3543,3 +3554,137 @@ Pendleton, NY
 Youngstown
 (45676) NCFC DLEVEN) 425 West Lane/CO Detector with no symptoms/Ops 1
 (43218) NCFC TLEADERS 454 lockport st. 91 yom difficulty breathing. ALS-P 31R9 is at ECMC returning
+**********************************************************
+York County, PA (alternate?)
+Sender:messaging@iamresponding.com
+
+Desired fields: 
+Location:
+Venue:
+Cross Streets:
+Call Type:
+Priority:
+Call Date/Time:
+
+Rip and Run Report\n
+Rip and Run Report\n
+\n
+~\n
+Location Information:\n
+\n
+Location:~~LEADER HEIGHTS~RD/~JOPPA~RD\n
+Venue:~YORK TWP\n
+Cross Streets~\n
+Quadrant:~19-04\n
+District:~19-04\n
+~\n
+Call Information:\n
+\n
+Call Number:~4326\n
+Call Type:~ DEBRIS REMOVAL\n
+Source:~DISPATCHED BY YORK COUNTY 911\n
+Priority:~ 4\n
+Status:~IN PROGRESS\n
+Assigned To:~CALL TAKER 7\n
+Caller:~Starner,~Jeff\n
+Call Date/Time:~10/20/2011 22:55:13\n
+Dispatch Date/Time:~10/20/2011 22:59:13\n
+Arrive Date/Time:~\n
+Clear Date/Time:~\n
+Enroute Date/Time:~\n
+Latest Unit Cleared Date/Time:~\n
+~\n
+Incident Number(s)\n
+2011-00001696~~GOODWILL FIRE COMPANY NO. 1 YORK TOWNSHIP\n
+2011-00025174~~YORK AREA REGIONAL POLICE DEPARTMENT\n
+~\n
+Units Sent:~2\n
+FIRESTA19, 21-79~\n
+\n
+Alerts:\n
+~\n
+Location Alerts\n
+\n
+Person Alerts\n
+\n
+Vehicle Alerts\n
+~~\n
+Narrative:\n
+\n
+Narrative Time~Narrative\n
+10/20/11 22:55:55~yes blocking\\n
+10/20/11 22:56:06~yes smoking\n
+10/20/11 22:56:08~yes leaking\n
+10/20/11 22:56:17~silver Toyota\n
+10/20/11 22:56:42~gry car\n
+10/20/11 22:56:48~in the bank lot\n
+10/20/11 22:56:56~no overturned\n
+10/20/11 22:57:14~c/o saw this happen\n
+10/20/11 22:57:56~he was not ivolved though\n
+10/20/11 22:58:03~inv\n
+10/20/11 22:57:00~Call #: 4328 - 2 veh acc\n
+10/20/11 22:57:05~Call #: 4328 - blocking entire roadway\n
+10/20/11 22:57:14~Call #: 4328 - both vehs are sedans\n
+10/20/11 22:57:30~Call #: 4328 - no smoking\n
+10/20/11 22:57:38~Call #: 4328 - possible leaking\n
+10/20/11 22:58:37~he spoke to the people and they do not need EMS according to them\n
+10/20/11 22:59:54~Nature Of Call: Veh Leaking
+
+Rip and Run Report\n
+Rip and Run Report\n
+\n
+~\n
+Location Information:\n
+\n
+Location:~~LEADER HEIGHTS~RD/~PINE GROVE~RD\n
+Venue:~YORK TWP\n
+Cross Streets~\n
+Quadrant:~19-04\n
+District:~19-04\n
+~\n
+Call Information:\n
+\n
+Call Number:~8218\n
+Call Type:~ DEBRIS REMOVAL\n
+Source:~DISPATCHED BY YORK COUNTY 911\n
+Priority:~ 4\n
+Status:~IN PROGRESS\n
+Assigned To:~BACK UP CALL TAKER 2\n
+Caller:~Winemiller,~Robert\n
+Call Date/Time:~10/24/2011 19:36:59\n
+Dispatch Date/Time:~10/24/2011 19:40:19\n
+Arrive Date/Time:~\n
+Clear Date/Time:~\n
+Enroute Date/Time:~\n
+Latest Unit Cleared Date/Time:~\n
+~\n
+Incident Number(s)\n
+2011-00001705~~GOODWILL FIRE COMPANY NO. 1 YORK TOWNSHIP\n
+2011-00025487~~YORK AREA REGIONAL POLICE DEPARTMENT\n
+~\n
+Units Sent:~2\n
+FIRESTA19, 21-81~\n
+\n
+Alerts:\n
+~\n
+Location Alerts\n
+\n
+Person Alerts\n
+\n
+Vehicle Alerts\n
+~~\n
+Narrative:\n
+\n
+Narrative Time~Narrative\n
+10/24/11 19:38:09~no ot\n
+10/24/11 19:38:26~leaking fluids\n
+10/24/11 19:38:29~antifreeze\n
+10/24/11 19:38:45~no hazards\n
+10/24/11 19:39:10~both veh are blocking traffic\n
+10/24/11 19:39:19~in the middle of the intersection\n
+10/24/11 19:39:23~just occured\n
+10/24/11 19:39:43~veh 1: blue volzwagon passat\n
+10/24/11 19:39:50~veh 2: red dodge neon\n
+10/24/11 19:40:13~c/o has the blue veh\n
+10/24/11 19:40:32~Nature Of Call: fluids on roadway
+

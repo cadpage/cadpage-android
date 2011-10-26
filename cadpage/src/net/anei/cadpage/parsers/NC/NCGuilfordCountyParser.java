@@ -54,6 +54,10 @@ S:summerfieldfiredist Oct17-12:45 M:summerfieldfiredist\nCAD:UNDER CONTROL;808 J
 Subject:summerfieldfiredist Oct17-13:50\nsummerfieldfiredist\nCAD:SMFD;ST29;1;MED;180 QUAL RIDGE RD;SADDLEBROOK DR\n
 S:summerfieldfiredist Oct21-13:14 M:summerfieldfiredist\nCAD:CODE 47;330 GEMSTONE LOOP; ROCK;ST 29 CARDIAC ARREST CALL\n\n
 
+Contact: Jamie Burgess <jrburgess87@gmail.com>
+Sender: 93001024 
+CAD@greensboro-nc.gov:CAD:MCVL;ST37;1;60B01;GAS;922 GOLF HOUSE ROAD EAST;HADDINGTON RD;ACROSS FROM THIS ADDRESS
+
 */
 
 public class NCGuilfordCountyParser extends DispatchOSSIParser {
@@ -67,7 +71,7 @@ public class NCGuilfordCountyParser extends DispatchOSSIParser {
   
   @Override
   public String getFilter() {
-    return "@edispatches.com";
+    return "@edispatches.com,93001";
   }
   
   @Override
