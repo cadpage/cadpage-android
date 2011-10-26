@@ -255,6 +255,15 @@ public class NCGuilfordCountyParserTest extends BaseParserTest {
         "INFO:ROCK / ST 29 CARDIAC ARREST CALL",
         "CALL:CODE 47");
 
+    doTest("T31",
+        "CAD@greensboro-nc.gov:CAD:MCVL;ST37;1;60B01;GAS;922 GOLF HOUSE ROAD EAST;HADDINGTON RD;ACROSS FROM THIS ADDRESS",
+        "SRC:CAD@greensboro-nc.gov",
+        "ADDR:922 GOLF HOUSE ROAD EAST",
+        "INFO:MCVL / ST37 / 1 / ACROSS FROM THIS ADDRESS",
+        "CODE:60B01",
+        "CALL:GAS",
+        "X:HADDINGTON RD");
+
   }
   
 
