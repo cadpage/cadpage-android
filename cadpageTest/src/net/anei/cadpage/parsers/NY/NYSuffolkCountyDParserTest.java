@@ -86,7 +86,7 @@ public class NYSuffolkCountyDParserTest extends BaseParserTest {
         "29-B-1 MOTOR VEHICLE ACCIDENT-INJURIES at:  c/s: MEDFORD RD & MIDDLE COUNTRY RD d/t: 10/09 09:31",
         "CALL:MOTOR VEHICLE ACCIDENT-INJURIES",
         "CODE:29-B-1",
-        "X:MEDFORD RD & MIDDLE COUNTRY RD");
+        "ADDR:MEDFORD RD & MIDDLE COUNTRY RD");
 
     doTest("T3",
         "1-C-5 ABDOMINAL PAINS-MALES WITH PAIN ABOVE NAVEL >=35 at: 44 RIDGE RD c/s: MIDDLE COUNTRY RD & SHARON CT d/t: 10/08 14:21",
@@ -108,6 +108,12 @@ public class NYSuffolkCountyDParserTest extends BaseParserTest {
         "CODE:25-B-6",
         "ADDR:262 EDINBURGH DR",
         "X:BROWNFIELD DR & KINGSTON");
+
+    doTest("T6",
+        "29-B-1 MOTOR VEHICLE ACCIDENT-INJURIES at:  c/s: SB WILLIAM FLOYD PKWY & MORICHES MIDDLE ISLAND RD d/t: 10/27 09:13",
+        "CALL:MOTOR VEHICLE ACCIDENT-INJURIES",
+        "CODE:29-B-1",
+        "ADDR:SB WILLIAM FLOYD PKWY & MORICHES MIDDLE ISLAND RD");
 
   }
   
