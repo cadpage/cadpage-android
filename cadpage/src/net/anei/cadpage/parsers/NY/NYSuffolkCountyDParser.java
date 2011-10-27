@@ -26,6 +26,7 @@ Sender: ridge@rednmxcad.com
 1-C-5 ABDOMINAL PAINS-MALES WITH PAIN ABOVE NAVEL >=35 at: 44 RIDGE RD c/s: MIDDLE COUNTRY RD & SHARON CT d/t: 10/08 14:21
 17-A-1G FALLS-NOT DANGEROUS BODY AREA at: 15D GUILFORD CT c/s:  & BRIDGEWATER DR d/t: 10/10 09:53
 25-B-6 PSYCHIATRIC / ABNORMAL BEHAVIOR / SUICI-UNKNOWN STATUS / OTHER CODES NOT APPLICA at: 262 EDINBURGH DR c/s: BROWNFIELD DR & KINGSTON 
+29-B-1 MOTOR VEHICLE ACCIDENT-INJURIES at:  c/s: SB WILLIAM FLOYD PKWY & MORICHES MIDDLE ISLAND RD d/t: 10/27 09:13
 
  */
 
@@ -45,13 +46,21 @@ public class NYSuffolkCountyDParser extends FieldProgramParser {
   
   @Override
   public boolean parseMsg(String body, Data data) {
+    
     if (!super.parseMsg(body, data)) return false;
+    
     if (data.strCode.length() == 0) {
       Matcher match = CODE_PTN.matcher(data.strCall);
       if (match.find()) {
         data.strCode = match.group(1);
         data.strCall = data.strCall.substring(match.end()).trim();
       }
+    }
+    
+    if (data.strAddress.length() == 0) {
+      String sAddr = data.strCross;
+      data.strCross = "";
+      parseAddress(sAddr, data);
     }
     return true;
   }
