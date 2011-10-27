@@ -43,10 +43,21 @@ public class SCOconeeCountyParserTest extends BaseParserTest {
         "CITY:WALHALLA",
         "ID:2011-00000777",
         "INFO:76 YOA");
-  
+
+    doTest("T4",
+        "(911 Message) S4 - DIABETIC REACTION  100 PINE MANOR CIR APT 3 XStreet: STOUDEMIRE ST / STOUDEMIRE ST WALHALLA  COUNTRY RIDGE APTS  2011-00000872  10/26/11 19:21",
+        "UNIT:S4",
+        "CALL:DIABETIC REACTION",
+        "ADDR:100 PINE MANOR CIR",
+        "APT:3",
+        "X:STOUDEMIRE ST / STOUDEMIRE ST",
+        "CITY:WALHALLA",
+        "PLACE:COUNTRY RIDGE APTS",
+        "ID:2011-00000872");
+ 
   }
   
   public static void main(String[] args) {
-    new SCOconeeCountyParserTest().generateTests("T1", "UNIT CALL ADDR X CITY ID INFO");
+    new SCOconeeCountyParserTest().generateTests("T1", "UNIT CALL ADDR APT X CITY PLACE ID INFO");
   }
 }

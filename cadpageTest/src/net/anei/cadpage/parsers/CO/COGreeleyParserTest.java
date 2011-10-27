@@ -177,6 +177,15 @@ public class COGreeleyParserTest extends BaseParserTest {
         "ADDR:3804 BURLINGTON AV",
         "UNIT:24 WA");
 
+    doTest("T1",
+        "\" \" (Dispatch) 23039,FIREGF-FIRE GRD CVR (F),103 N JOSEPHINE AV.32 29,TEXT:TREE W/ A POWER \nLINE TOUCH IT AND ITS SMOKING \\COMP:DAVID \\PH:405-8450,FG5 TXT STOP to opt-out",
+        "ID:23039",
+        "CALL:FIREGF-FIRE GRD CVR (F)",
+        "ADDR:103 N JOSEPHINE AV",
+        "UNIT:32 29",
+        "INFO:TREE W/ A POWER LINE TOUCH IT AND ITS SMOKING / DAVID",
+        "PHONE:405-8450");
+
   }
   
   public static void  main(String[] args) {

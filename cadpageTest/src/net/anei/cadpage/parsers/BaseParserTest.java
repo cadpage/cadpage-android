@@ -279,7 +279,7 @@ public abstract class BaseParserTest {
       String line = null;
       try { line = ir.readLine(); } catch (IOException ex) {};
       if (line == null) break;
-      if (line.length() == 0) break;
+      if (line.trim().length() == 0) break;
       line = line.replace("\\n", "\n");
       msgList.add(line);
     }
