@@ -59,6 +59,12 @@ Contact: Larry Johnson <LarryJ@csmd.edu>
 Sender: Postmaster@ihvfd.com
 HEMORRHAGE, NOSEBLEED, EMS, LACERATION BLS, 21A, 21B 28 GLYMONT RD 7 B6 89 year old, Female, Conscious, Breathing. Hemorrhage / Lacerations. Blood thinner
 
+Contact: Sam Smith <noschool8167@yahoo.com>
+Sender: WVFD EMS 12
+ 1 of 2\nFRM:WVFD EMS 12 \nMSG:ASSAULT, SEXUAL ASSAULT, EMS, BLS, 4A, 4B 3300 MIDDLETOWN RD, WESTLAKE HIGH BY TRACK 9 G1-F3 STAGE WELL IN AREA...\n(Con't) 2 of 2\nE112990016 1119562 12:33\n(End)
+ 1 of 2\nFRM:WVFD EMS 12 \nMSG:CHEST PAINS, EMS, ALS, 10C, 10D 5903 PUMPKINSEED CT 9 F7 81 year old, Female, Conscious, Breathing. Chest Pain\n(Con't) 2 of 2\n(Non-Traumatic). Heart attack or angina history. E112990015 1119561 12:05\n(End)
+ 1 of 2\nFRM:WVFD EMS 12 \nMSG:HEMORRHAGE, LACERATIONS, EMS ALS, 21C, 21D 1 MAGNOLIA DR, GENESIS LAPLATA RM 135 BED B 17 D5 78 year old, Female,\n(Con't) 2 of 2\nConscious, Breathing. Hemorrhage / Lacerations. DANGEROUS hemorrhage. E112990012 1119557 10:52\n(End)
+
  */
 
 public class MDCharlesCountyParser extends SmartAddressParser {

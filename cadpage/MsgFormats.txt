@@ -2564,10 +2564,6 @@ btwn SLONAKER RD & FUL ** IFO ** VOWLBY, COREY/H ** 6201 ** 07/10/11 ** ACCUNK *
 Contact: Bill Nestor <bnest19@gmail.com>
 Sender: wwfc.fdcms1@verizon.net
 FRM:wwfc.fdcms1@verizon.net\nSUBJ:Dispatch\nMSG:14:30 ** BRIANS HOUSE--610-594-8344- ** DEAD END & OAK LA ** ALARM - FIRE * ** 0603 ** WWHITE **
-
-Contact: Bob Gliem <goshenfire@gmail.com>
-Sender: gfc@goshenfireco.org
-(1566 VASSAR CT ,53) 56  10/21/11  15:37  APLNC  APPLIANCE FIRE *  1566 VASSAR CT ,53  -  EGOSHN  HERSHEYS MILL V
 **********************************************************
 Unknown
 Contact: Chris <chrisdi9@aol.com>
@@ -3347,8 +3343,11 @@ Subject:[Firedistrict13] (no subject)\nCAD:FD13;ST55;1;29D02p;50PI;US 29 N/HICON
 Havertown, PA (in Deleware County)
 Contact: chris smith <csmith045@verizon.net>
 Sender: oakmont1@comcast.net
-
 **********************************************************
+Unknown
+Contact: Ron Klaman <hrfdrklaman@gmail.com>
+Sender: hrfdfiresvcrunnotification@gmail.com
+S:C-14: 14244 Krotz Dr M: Run #: HRFD11-1997\n10/26/2011 12:02\n12:02\n12:08\n12:27\n12:53\n0 / 15\n\n\n
 **********************************************************
 **********************************************************
 ************  READY TO ROLL ******************************
@@ -3692,7 +3691,184 @@ Narrative Time~Narrative\n
 10/24/11 19:39:50~veh 2: red dodge neon\n
 10/24/11 19:40:13~c/o has the blue veh\n
 10/24/11 19:40:32~Nature Of Call: fluids on roadway
-**********************************************************
 
-sms send 1112223333 (1 of 2) This is a special message from 
-sms send 1112223333 (2 of 2) the royal bank of scotland.
+Body:Rip and Run Report\n
+Rip and Run Report\n
+\n
+~\n
+Location Information:\n
+\n
+Location:~2301~SPRINGWOOD~RD~\n
+Venue:~YORK TWP\n
+Cross Streets~\n
+PAULINE DR / I 83 NB\n
+Phone:~(717) 741-2822\n
+Quadrant:~19-09\n
+District:~19-09\n
+~\n
+Call Information:\n
+\n
+Call Number:~9986\n
+Call Type:~ FALLS CL 2\n
+Source:~DISPATCHED BY YORK COUNTY 911\n
+Priority:~ 4\n
+Status:~IN PROGRESS\n
+Assigned To:~CALL TAKER 7\n
+Caller:~OnCall#Faith,~Acadian\n
+Call Date/Time:~10/26/2011 16:10:53\n
+Dispatch Date/Time:~10/26/2011 16:14:53\n
+Arrive Date/Time:~10/26/2011 16:19:44\n
+Clear Date/Time:~\n
+Enroute Date/Time:~10/26/2011 16:17:09\n
+Latest Unit Cleared Date/Time:~10/26/2011 16:17:04\n
+~\n
+Incident Number(s)\n
+2011-00001710~~GOODWILL FIRE COMPANY NO. 1 YORK TOWNSHIP\n
+2011-00003105~~YOE FIRE CO AMBULANCE INC\n
+2011-00003067~~YOE FIRE COMPANY AMBULANCE SERVICE\n
+2011-00025631~~YORK AREA REGIONAL POLICE DEPARTMENT\n
+~\n
+Units Sent:~5\n
+MICU19-2, MICU36-2, EMSSTA19, FIRESTA19, 21-89~\n
+\n
+Alerts:\n
+~\n
+Location Alerts\n
+\n
+Person Alerts\n
+\n
+Vehicle Alerts\n
+~~\n
+Narrative:\n
+\n
+Narrative Time~Narrative\n
+10/26/11 16:12:49~Problem: fall-bleed from face.\2sPatient Info: 1 patient(s); 91 Years old; Female; Conscious: Yes; Breathing: Yes;\n
+10/26/11 16:12:49~ProQA Dispatch Message Sent; Chief Complaint Number: 17; Dispatch Level: 17B01; Response Text: Bravo\n
+10/26/11 16:12:56~no hosp preference\n
+10/26/11 16:13:16~lockbox on the side door-code for lock box is 2628 for key locatio\n
+10/26/11 16:13:27~Nature Of Call: 91 yof/\n
+10/26/11 16:13:35~ProQA Questionnaire Completed; Chief Complaint Number: 17; Dispatch Level: 17B01; Response Text: Bravo\n
+10/26/11 16:13:35~Problem: fall-bleed from face.\2sPatient Info: 1 patient(s); 91 Years old; Female; Conscious: Yes; Breathing: Yes;\n
+10/26/11 16:13:37~Nature Of Call: 91 yof/unkn dest\n
+10/26/11 16:32:01~Nature Of Call: Non emergency for lift assist
+
+Body:Rip and Run Report\n
+Rip and Run Report\n
+\n
+~\n
+Location Information:\n
+\n
+Location:~3175~CAPE HORN~RD~\n
+Venue:~WINDSOR TWP\n
+Cross Streets~\n
+LOMBARD RD / KIRKLAND DR\n
+Phone:~(717) 246-7137\n
+Quadrant:~36-403\n
+District:~36-403\n
+~\n
+Call Information:\n
+\n
+Call Number:~381\n
+Call Type:~ FIRE AFA HIGH RISK\n
+Source:~DISPATCHED BY YORK COUNTY 911\n
+Priority:~ 4\n
+Status:~IN PROGRESS\n
+Assigned To:~CALL TAKER 7\n
+Caller:~#218,~Giant\n
+Call Date/Time:~10/26/2011 23:15:42\n
+Dispatch Date/Time:~10/26/2011 23:17:33\n
+Arrive Date/Time:~\n
+Clear Date/Time:~\n
+Enroute Date/Time:~\n
+Latest Unit Cleared Date/Time:~\n
+~\n
+Incident Number(s)\n
+2011-00001711~~GOODWILL FIRE COMPANY NO. 1 YORK TOWNSHIP\n
+2011-00001567~~LEO INDEPENDENT FIRE ENGINE COMPANY\n
+2011-00001510~~RESCUE FIRE COMPANY NO. 1\n
+2011-00001580~~YOE FIRE COMPANY\n
+~\n
+Units Sent:~6\n
+FIRESTA36, T36, R36, E35-2, TK34, TK19~\n
+\n
+Alerts:\n
+~\n
+Location Alerts\n
+\n
+Person Alerts\n
+\n
+Vehicle Alerts\n
+~~\n
+Narrative:\n
+\n
+Narrative Time~Narrative\n
+10/26/11 23:16:39~fire panel alarm\n
+10/26/11 23:16:44~no contact with premise\n
+10/26/11 23:16:47~will att to notify\n
+10/26/11 23:17:24~Nature Of Call: fire panel alarm
+
+Body:Rip and Run Report\n
+Rip and Run Report\n
+\n
+~\n
+Location Information:\n
+\n
+Location:~859~E ~MAIN~ST~\n
+Venue:~YORK TWP\n
+Cross Streets~\n
+W BROADWAY / HOLLY HILL DR\n
+Quadrant:~34-202\n
+District:~34-202\n
+~\n
+Call Information:\n
+\n
+Call Number:~9871\n
+Call Type:~ FIRE STRUCT HR\n
+Source:~DISPATCHED BY YORK COUNTY 911\n
+Priority:~ 3\n
+Status:~IN PROGRESS\n
+Assigned To:~CALL TAKER 4\n
+Caller:~Ottinger,~James\n
+Call Date/Time:~10/26/2011 14:18:58\n
+Dispatch Date/Time:~10/26/2011 14:22:08\n
+Arrive Date/Time:~\n
+Clear Date/Time:~\n
+Enroute Date/Time:~\n
+Latest Unit Cleared Date/Time:~\n
+~\n
+Incident Number(s)\n
+2011-00001709~~GOODWILL FIRE COMPANY NO. 1 YORK TOWNSHIP\n
+2011-00001565~~LEO INDEPENDENT FIRE ENGINE COMPANY\n
+2011-00001509~~RESCUE FIRE COMPANY NO. 1\n
+2011-00001579~~YOE FIRE COMPANY\n
+~\n
+Units Sent:~6\n
+FIRESTA34, T36, E35-2, TK34, E34, TK19~\n
+\n
+Alerts:\n
+~\n
+Location Alerts\n
+\n
+Person Alerts\n
+\n
+Vehicle Alerts\n
+~~\n
+Narrative:\n
+\n
+Narrative Time~Narrative\n
+10/26/11 14:20:08~AutoZone\n
+10/26/11 14:20:15~gas leak inside\n
+10/26/11 14:21:25~buiding is evacuated\n
+10/26/11 14:21:55~columbia gas on location at this time requesting FD Response\n
+10/26/11 14:21:58~Nature Of Call: Gas Leak/ Building Evacuated\n
+10/26/11 14:22:00~caller works for autozone
+**********************************************************
+Chester County, PA (alternate)
+Contact: Bob Gliem <goshenfire@gmail.com>
+Sender: gfc@goshenfireco.org
+(1566 VASSAR CT ,53) 56  10/21/11  15:37  APLNC  APPLIANCE FIRE *  1566 VASSAR CT ,53  -  EGOSHN  HERSHEYS MILL V
+(1515 MANLEY RD ,53) 54\2s10/26/11\2s09:45\2sAPT\2sAPARTMENT BUILDING FIRE *\2s1515 MANLEY RD ,53\2sBUILDING 5, APT 433-OXFORD GAT\4sEGOSHN
+(992 GARRETT MILL RD ,54) 54\2s10/24/11\2s15:45\2sALARMF\2sALARM - FIRE *\2s992 GARRETT MILL RD ,54\2sHITSCHLER RES#610-578-0346-\4sWILLIS
+(1006 ROBIN DR ,67) 54\2s10/24/11\2s10:40\2sALARMF\2sALARM - FIRE *\2s1006 ROBIN DR ,67\2sGILBERT RES - 610.399.1788-\4sWESTWN
+(1201 E STRASBURG RD ,52) 54\2s10/21/11\2s21:11\2sFUEL\2sFUEL SPILL *\2s1201 E STRASBURG RD ,52\2sFRONT P/LOT-STRASBURG COURT AP\2sWGOSHN
+(980 HERSHEY MILL RD ,53) 56\2s10/26/11\2s18:56\2sALARMF\2sALARM - FIRE *\2s980 HERSHEY MILL RD ,53\2sLEWIS RES/610-644-8389-\4sEGOSHN

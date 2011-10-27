@@ -142,6 +142,7 @@
     <item>c81f757193881a6ad625a32c2fd31d0c</item>  <!-- David Brandt -->
     <item>c96a6eded7e020e845712a72032ad2d5</item>  <!-- Joseph Marroni -->
     <item>c98bada82a446fcf6ae9fda2e208f920</item>  <!-- Marta Mcgovern Philpot -->
+    <item>ca7daa0985bc9bd006044f4fb21db720</item>  <!-- Christopher Cermak -->
     <item>cd4db3eddc7695121f7438624cf80128</item>  <!-- Eric Schleif -->
     <item>cd86c429c4369e3979166f80c6c4d442</item>  <!-- Thomas Ruppel -->
     <item>ce57b684b6db97ea1c7011ee42880af6</item>
@@ -194,7 +195,6 @@
     <item>0840620be10e92eae6d982b3e256f02b</item>  <!-- Tom Vandewart -->
     <item>08605009a134d8b05ee9ea4d2e3c03e3</item>  <!-- IVAN BROWNING -->
     <item>0aa74a745af0bcdfcac89af8dd19a1df</item>  <!-- gerald weaver -->
-    <item>0aa8e5999853881d7d1c57d097b7a445</item>  <!-- William Yoder -->
     <item>0c195b8d3766bf7814c42caa0ded8f31</item>  <!-- "lfd219@verizon.net" -->
     <item>0d4820574fb8ca118db57f99d2bc291c</item>  <!-- Kevin Hogan -->
     <item>0f6910a2d15cbf7fb5e3ca811304ee4e</item>  <!-- Shawn Conley -->
@@ -271,6 +271,7 @@
     <item>7de3b2781d328995dca51f9ec54ea003</item>  <!-- Jesse Moses -->
     <item>7e08c6c40e82a56efd51e96ac122d056</item>  <!-- "chrisgrzegorczyk@hotmail.com" -->
     <item>7ed2761e7ad3c14dcedaddf70cb87b0c</item>  <!-- Marcus Barker -->
+    <item>7ef0b59d3965dc79c1e306f4757601b2</item>  <!-- Derek Waddell -->
     <item>80f668d993b8726ad3cf58ba66f0009b</item>  <!-- "spazking4lif@aim.com" -->
     <item>80f668d993b8726ad3cf58ba66f0009b</item>  <!-- spazking4lif@aim.com -->
     <item>82a95c6c0f5c07978d0e184782b616d1</item>  <!-- Nathan Wood -->
@@ -289,6 +290,7 @@
     <item>9a044c0c167ea47232a7bb260b77bcea</item>  <!-- Todd Pangle -->
     <item>9edcf6940a902a3c2d4fec9a6b8b7af3</item>  <!-- Chris Traub -->
     <item>a061512d97dce4cd5c0b7dca02a48c91</item>  <!-- Michael Banks -->
+    <item>a0963989bd373431c060487c356001d5</item>  <!-- Hanna M Wade -->
     <item>a13a25b47b94886a386f8d2f3b83475b</item>  <!-- David Crandall -->
     <item>a2d074a8255096dd99e5a4548b725a62</item>  <!-- Oscar Gonzalez -->
     <item>a9a67e6980c09c12e68cee2faa3b536f</item>  <!-- Steve Reyes -->
@@ -354,5 +356,6 @@
     <item>fbd5b3e579eda2e5736a40e24077114d</item>  <!-- K Kenny -->
     <item>fc7433f55de6d4c669b54eecfd2bdc4c</item>  <!-- "Murphy, Ray" -->
     <item>fe107a1d8a0f575846020cab55a4121b</item>  <!-- Anthony Whetzel -->
+    <item>fe14870ffc197370c1c4436ec770138b</item>  <!-- William Yoder -->
   </string-array>
 </resources>

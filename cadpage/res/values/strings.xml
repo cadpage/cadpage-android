@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 <!-- App Strings -->
-   <string name="app_name">CADPage</string>   
+   <string name="app_name">Cadpage</string>   
    <string name="call_history">Call History:</string>   
    <string name="new_text_at">New Call Received at %s</string>
    <string name="src_text_at">%1$s call at %2$s</string>
@@ -33,12 +33,12 @@
    <string name="button_close">Close</string>
    
 <!-- Main Preferences -->
-   <string name="pref_config_title">CadPage Configuration</string>
+   <string name="pref_config_title">Cadpage Configuration</string>
    <string name="pref_other_title">Other</string>
 
-   <string name="pref_enabled_title">Enable CadPage</string>
-   <string name="pref_enabled_summaryon">CADPage is enabled</string>
-   <string name="pref_enabled_summaryoff">CADPage is disabled</string>
+   <string name="pref_enabled_title">Enable Cadpage</string>
+   <string name="pref_enabled_summaryon">Cadpage is enabled</string>
+   <string name="pref_enabled_summaryoff">Cadpage is disabled</string>
    
    <string name="pref_enable_msg_type_title">Message type processed</string>
    <string name="pref_enable_msg_type_summary">Cadpage will process\n%s</string>
@@ -47,12 +47,12 @@
    <string name="pref_mms_timeout_summary">MMS content download time limit\nCur value:%s min</string>
 
    <string name="pref_about_title">About</string>
-   <string name="pref_about_summary">About CadPPage</string>
+   <string name="pref_about_summary">About Cadpage</string>
    <string name="pref_about_text">By Derrick Bennett and Ken Corbin, based on Code by : Adam K (SMS Popup Application)\n</string>
 
    <string name="pref_faq_title">FAQ</string>
    <string name="pref_faq_summary">Frequently Asked Questions</string>
-   <string name="pref_faq_url">http://www.cadpage.org/faq</string>
+   <string name="pref_faq_url">http://www.Cadpage.org/faq</string>
 
    <string name="pref_releasenotes_title">What\'s New?</string>
    <string name="pref_releasenotes_summary">See what\'s new in this version</string>
@@ -61,7 +61,7 @@
 <!-- Additional Preferences -->
    <string name="pref_popup_control">Alarm Popup Control</string>
    <string name="pref_additional_title">Additional Settings</string>
-   <string name="pref_additional_summary">Additional CADPage configuration</string>
+   <string name="pref_additional_summary">Additional Cadpage configuration</string>
 
    <string name="pref_timeout_title">Screen Timeout</string>
    <string name="pref_timeout_summary">The screen will sleep after this time.  Cur value: %s</string>
@@ -256,8 +256,8 @@
   <string name="pref_button3_title">Button 3 Configuration</string>
     
 <!-- Donate Strings (not used right now) -->
-  <string name="pref_donate_title">Donate to CadPage</string>    
-  <string name="pref_donate_text">CadPage is a free product. If you would like to support the developers and their time please visit www.cadpage.org and click on the Donate button.</string>
+  <string name="pref_donate_title">Donate to Cadpage</string>    
+  <string name="pref_donate_text">Cadpage is a free product. If you would like to support the developers and their time please visit www.Cadpage.org and click on the Donate button.</string>
   <string name="pref_donate_market_button">Donate via Android Market</string>
   <string name="pref_donate_paypal_button">Donate via PayPal</string>
 
@@ -424,12 +424,12 @@
   <string name="pref_publish_pages_summaryoff">Cad pages will not be published for 3rd party
     applications</string>
 
-  <string name="app_file_dir">/Android/data/cadpage/files/</string>
+  <string name="app_file_dir">/Android/data/Cadpage/files/</string>
   <string name="app_file_name">callhistory.csv</string>
   <string name="exit">Exit</string>
   <string name="clearall_text">Clear All</string>
   <string name="pref_passthrusms_title">Pass Calls through to SMS Client</string>
-  <string name="pref_passthrusms_summaryoff">Do not pass CadPage calls to SMS Client</string>
+  <string name="pref_passthrusms_summaryoff">Do not pass Cadpage calls to SMS Client</string>
   <string name="pref_passthrusms_summaryon">Pass all calls through to default SMS Client
   </string>
 
@@ -456,8 +456,8 @@
   <string name="sendemail_btn_cancel">Cancel</string>
 
   <string name="pref_disclaimer_title">Disclaimer</string>
-  <string name="pref_disclaimer_summary">View Disclaimer regarding cadpage use.</string>
-  <string name="pref_disclaimer_url">http://code.google.com/p/cadpage/wiki/Disclaimer
+  <string name="pref_disclaimer_summary">View Disclaimer regarding Cadpage use.</string>
+  <string name="pref_disclaimer_url">http://code.google.com/p/Cadpage/wiki/Disclaimer
   </string>
   <string name="callback_item_text">Phone</string>
   <string name="pref_callback_dialog">Enter Callback Phone Number</string>
@@ -475,13 +475,13 @@
   <string name="pref_textsize_summary">Select the Text size for History Screen Messages
   </string>
   <string name="pref_textsize_title">Text Size</string>
-  <string name="widget_name">CadPage Settings</string>
+  <string name="widget_name">Cadpage Settings</string>
   
   <!--  Donation settings -->
   <string name="pref_donate_status_title">Donation Status</string>
   
   <string name="release_title">What"'"s new in Cadpage?</string>
-  <string name="widget_config_name">CADPage Config 1x4</string>
+  <string name="widget_config_name">Cadpage Config 1x4</string>
      
   <string name="notification_msg_acc_title">Cadpage</string>
   <string name="notification_msg_acc_text">Processing incoming alert</string>
