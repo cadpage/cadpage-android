@@ -263,9 +263,40 @@ public class MDCharlesCountyParserTest extends BaseParserTest {
         "INFO:89 year old, Female, Conscious, Breathing. Hemorrhage / Lacerations. Blood thinner");
  
   }
+  
+  @Test
+  public void testParser3() {
+
+    doTest("T1",
+        " 1 of 2\nFRM:WVFD EMS 12 \nMSG:ASSAULT, SEXUAL ASSAULT, EMS, BLS, 4A, 4B 3300 MIDDLETOWN RD, WESTLAKE HIGH BY TRACK 9 G1-F3 STAGE WELL IN AREA...\n(Con't) 2 of 2\nE112990016 1119562 12:33\n(End)",
+        "CALL:ASSAULT, SEXUAL ASSAULT",
+        "UNIT:EMS, BLS, 4A, 4B",
+        "ADDR:3300 MIDDLETOWN RD",
+        "PLACE:WESTLAKE HIGH BY TRACK",
+        "MAP:9 G1-F3",
+        "INFO:STAGE WELL IN AREA... E112990016 1119562 12:33");
+
+    doTest("T2",
+        " 1 of 2\nFRM:WVFD EMS 12 \nMSG:CHEST PAINS, EMS, ALS, 10C, 10D 5903 PUMPKINSEED CT 9 F7 81 year old, Female, Conscious, Breathing. Chest Pain\n(Con't) 2 of 2\n(Non-Traumatic). Heart attack or angina history. E112990015 1119561 12:05\n(End)",
+        "CALL:CHEST PAINS",
+        "UNIT:EMS, ALS, 10C, 10D",
+        "ADDR:5903 PUMPKINSEED CT",
+        "MAP:9 F7",
+        "INFO:81 year old, Female, Conscious, Breathing. Chest Pain (Non-Traumatic). Heart attack or angina history. E112990015 1119561 12:05");
+
+    doTest("T3",
+        " 1 of 2\nFRM:WVFD EMS 12 \nMSG:HEMORRHAGE, LACERATIONS, EMS ALS, 21C, 21D 1 MAGNOLIA DR, GENESIS LAPLATA RM 135 BED B 17 D5 78 year old, Female,\n(Con't) 2 of 2\nConscious, Breathing. Hemorrhage / Lacerations. DANGEROUS hemorrhage. E112990012 1119557 10:52\n(End)",
+        "CALL:HEMORRHAGE, LACERATIONS",
+        "UNIT:EMS ALS, 21C, 21D",
+        "ADDR:1 MAGNOLIA DR",
+        "PLACE:GENESIS LAPLATA RM 135 BED B",
+        "MAP:17 D5",
+        "INFO:78 year old, Female, Conscious, Breathing. Hemorrhage / Lacerations. DANGEROUS hemorrhage. E112990012 1119557 10:52");
+    
+  }
     
   public static void main(String[] args) {
-    new MDCharlesCountyParserTest().generateTests("T13", "CALL UNIT ADDR PLACE CODE MAP INFO ID");
+    new MDCharlesCountyParserTest().generateTests("T1", "CALL UNIT ADDR PLACE CODE MAP INFO ID");
   }
 
 }
