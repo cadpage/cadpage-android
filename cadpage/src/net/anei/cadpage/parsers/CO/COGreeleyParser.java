@@ -23,6 +23,7 @@ Contact: Greg McGinn <GMcGinn@ftluptonfire.com>
 Contact: Joshua Tapia <jtapia0145@gmail.com>
 Contact: JC Langley <ashaman01@gmail.com>
 Contact: Ryan Fuller <rfuller131@gmail.com>
+Contact: Bernard Covillo <bcovillo@gmail.com>
 Sender: unpredictable
 " " (Dispatch) 22452,FIREVF-FIRE VEHICLE (F),15899 NANCY AV.26,TEXT:TRUCK ON FIRE, NO \nONE INSIDE 2 OUTSIDE, TXT STOP to opt-out
 " " (Dispatch) 22440,TAUF  -TA UNK INJURY(F),1108 LANTERN DR.26 PM3,,FG10 TXT STOP to opt-out
@@ -33,6 +34,7 @@ Sender: unpredictable
 " " (Dispatch) 22570,SIPFF -SICK & INJ   (F),1300 DEXTER ST.26,TEXT:MAN FELL , BLEEDING \nFROM HEAD BADLY \COMP:MICHELLE \PH:7209388915, TXT STOP to opt-out
 " " (Dispatch) 22606,ATSUCF-ATTP SUICIDE (F),2926 GLEN DALE DR.24 WA,TEXT:OVERDOSE \COMP:DIANA \n\LOC:ALI - SHOWS #6 \PH:9706738057, TXT STOP to opt-out
 " " (Dispatch) 22648,SIPFF -SICK & INJ   (F),3804 BURLINGTON AV.24 WA,, TXT STOP to opt-out
+" " (Dispatch) 23039,FIREGF-FIRE GRD CVR (F),103 N JOSEPHINE AV.32 29,TEXT:TREE W/ A POWER \nLINE TOUCH IT AND ITS SMOKING \COMP:DAVID \PH:405-8450,FG5 TXT STOP to opt-out
 
  */
 
