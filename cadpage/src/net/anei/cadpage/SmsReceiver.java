@@ -5,6 +5,7 @@ import android.app.PendingIntent;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
+import android.net.Uri;
 import android.telephony.SmsMessage;
 import android.telephony.TelephonyManager;
 import android.telephony.SmsMessage.MessageClass;
@@ -101,8 +102,11 @@ public class SmsReceiver extends BroadcastReceiver {
     intent.setClass(context, SmsReceiver.class);
     intent.putExtra(EXTRA_TIMEOUT, true);
     intent.putExtra(EXTRA_TIMEOUT_ID, id);
+    
+    // We don't really use it, but it keeps the alarm intents functionally distinct
+    intent.setData(Uri.parse("Cadpage://" + id));
 
-    int flags = (cancel ? PendingIntent.FLAG_NO_CREATE : PendingIntent.FLAG_CANCEL_CURRENT);
+    int flags = (cancel ? PendingIntent.FLAG_NO_CREATE : PendingIntent.FLAG_ONE_SHOT);
     PendingIntent pendIntent =
       PendingIntent.getBroadcast(context, 0, intent, flags);
     if (cancel) {

@@ -31,6 +31,10 @@ public class CadPageApplication extends Application {
       
       // Reload existing message queue
       SmsMessageQueue.setupInstance(this);
+      
+      // Restore any pending SMS message merges
+      SmsMsgAccumulator.setup(this);
+      
     } catch (Exception ex) {
       TopExceptionHandler.initializationFailure(this, ex);
     }

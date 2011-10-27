@@ -94,7 +94,7 @@ public class ManageNotification {
     }
 
     // The default intent when the notification is clicked (Inbox)
-    Intent smsIntent = CallHistoryActivity.getLaunchIntent(context);
+    Intent smsIntent = CallHistoryActivity.getLaunchIntent(context, message);
 
     contentTitle = "Alert";
     contentText = call;

@@ -30,9 +30,7 @@ public class ClearDataEvent extends DonateEvent {
     
     // Set up an intent to relaunch Cadpage in 1 second
     AlarmManager myAM = (AlarmManager) activity.getSystemService(Context.ALARM_SERVICE);
-    Intent intent = new Intent(Intent.ACTION_MAIN);
-    intent.addCategory(Intent.CATEGORY_LAUNCHER);
-    intent.setClass(activity, CallHistoryActivity.class);
+    Intent intent = CallHistoryActivity.getLaunchIntent(activity);
     PendingIntent pendIntent =
       PendingIntent.getActivity(activity, 0, intent, PendingIntent.FLAG_ONE_SHOT);
 

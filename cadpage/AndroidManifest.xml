@@ -67,7 +67,7 @@
     <receiver android:name=".ReminderReceiver" />
     <service android:name=".MmsTransactionService"/>
     <service android:name=".billing.BillingService" />
-
+    <service android:name=".KeepAliveService"/>
  
     <receiver android:name=".billing.BillingReceiver">
       <intent-filter>

@@ -3344,6 +3344,12 @@ Subject:[Firedistrict13] (no subject)\nCAD:FD13;ST55;1;03D00;ANBITE;2706 BRAME R
 Subject:[Firedistrict13] (no subject)\nCAD:UNDER CONTROL;2706 BRAME RD; G ;DIST: 245.80 FT\n\n_____________________________________
 Subject:[Firedistrict13] (no subject)\nCAD:FD13;ST55;1;29D02p;50PI;US 29 N/HICONE RD;29 NB NORTH OF HICONE\n\n_____________________
 **********************************************************
+Havertown, PA (in Deleware County)
+Contact: chris smith <csmith045@verizon.net>
+Sender: oakmont1@comcast.net
+
+**********************************************************
+**********************************************************
 **********************************************************
 ************  READY TO ROLL ******************************
 **********************************************************
@@ -3686,4 +3692,7 @@ Narrative Time~Narrative\n
 10/24/11 19:39:50~veh 2: red dodge neon\n
 10/24/11 19:40:13~c/o has the blue veh\n
 10/24/11 19:40:32~Nature Of Call: fluids on roadway
+**********************************************************
 
+sms send 1112223333 (1 of 2) This is a special message from 
+sms send 1112223333 (2 of 2) the royal bank of scotland.

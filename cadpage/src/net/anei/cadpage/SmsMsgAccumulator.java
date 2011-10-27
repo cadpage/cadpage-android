@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
+import android.content.Context;
+
 /**
  * This class is responsible for processing incoming SMS text messages so they
  * can be merged back into individual CAD page messages 
@@ -13,9 +15,20 @@ public class SmsMsgAccumulator {
   
   private List<MessageList> msgQueue = new LinkedList<MessageList>();
   
-  private transient SmsMmsMessage nextMsg = null;
-  private transient long startTimeoutId = 0;
-  private transient long cancelTimeoutId = 0;
+  private SmsMmsMessage nextMsg = null;
+  private long startTimeoutId = 0;
+  private long cancelTimeoutId = 0;
+  
+  private Context context;
+  
+
+  /**
+   * Constructor - checks for save file and if found restores message status from it
+   * @param context
+   */
+  private SmsMsgAccumulator(Context context) {
+    this.context = context;
+  }
   
   /**
    * Add new text message to message accumulator
@@ -49,10 +62,12 @@ public class SmsMsgAccumulator {
       // If we have a complete message list, set up as the next return messsage
       // remove if from the processing queue
       // and cancel any pending timeout for this list
+      // If the queue is empty, release the KeepAliveService lock
       if (curList.isComplete()) {
         nextMsg = curList.getMessage();
         msgQueue.remove(curList);
         cancelTimeoutId = curList.getTimeoutId();
+        if (msgQueue.isEmpty()) KeepAliveService.unregister(context, this);
       }
       
       // In any case, this message has been accepted
@@ -92,6 +107,11 @@ public class SmsMsgAccumulator {
     // a new message list to build an accumulated CAD page, and start the timeout
     // timer for this message list.
     if (isSplitCad(newMsg)) {
+      if (msgQueue.isEmpty()) {
+        KeepAliveService.register(context, this, R.drawable.ic_stat_notify,
+                                  R.string.notification_msg_acc_title,
+                                  R.string.notification_msg_acc_text);
+      }
       MessageList list = new MessageList(newMsg);
       msgQueue.add(list);
       startTimeoutId = list.getTimeoutId();
@@ -145,6 +165,9 @@ public class SmsMsgAccumulator {
     startTimeoutId = 0;
     cancelTimeoutId = 0;
     
+    // If nothing in queue, nothing to worry about
+    if (msgQueue.isEmpty()) return;
+    
     // First step is to see if this msg matches any of the currently 
     // accumulating messages
     for (MessageList list : msgQueue) {
@@ -154,6 +177,9 @@ public class SmsMsgAccumulator {
         break;
       }
     }
+    
+    // If we removed everything, cancel the keep alive service
+    if (msgQueue.isEmpty()) KeepAliveService.unregister(context, this);
   }
   
   /**
@@ -189,6 +215,7 @@ public class SmsMsgAccumulator {
    * a single CAD message
    */
   private static class MessageList {
+    
     private int count;  // Expected message count
     private List<SmsMmsMessage> list = new ArrayList<SmsMmsMessage>();
     private SmsMmsMessage firstMessage;
@@ -306,7 +333,11 @@ public class SmsMsgAccumulator {
     }
   }
   
-  private static SmsMsgAccumulator instance = new SmsMsgAccumulator();
+  private static SmsMsgAccumulator instance = null;
+  
+  public static void setup(Context context) {
+    instance = new SmsMsgAccumulator(context);
+  }
   
   public static SmsMsgAccumulator instance() {
     return instance;

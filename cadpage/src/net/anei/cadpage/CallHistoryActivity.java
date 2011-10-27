@@ -104,10 +104,8 @@ public class CallHistoryActivity extends ListActivity {
     // If popup is enabled, and there is a message ID passed from SmsReceiver
     // launch a message popup to display it
     else {
-      if (ManagePreferences.popupEnabled()) {
-        int msgId = intent.getIntExtra(EXTRA_MSG_ID, 0);
-        if (msgId > 0)  SmsPopupActivity.launchActivity(this, msgId);
-      }
+      int msgId = intent.getIntExtra(EXTRA_MSG_ID, 0);
+      if (msgId > 0)  SmsPopupActivity.launchActivity(this, msgId);
     }
   }
 
@@ -192,15 +190,11 @@ public class CallHistoryActivity extends ListActivity {
     return super.onContextItemSelected(item);
   }
 
-
   /**
    * Launch activity
    */
   public static void launchActivity(Context context, SmsMmsMessage message) {
-    Intent intent = getLaunchIntent(context);
-    if (message != null) {
-      intent.putExtra(EXTRA_MSG_ID, message.getMsgId());
-    }
+    Intent intent = getLaunchIntent(context, message);
     context.startActivity(intent);
   }
 
@@ -210,12 +204,25 @@ public class CallHistoryActivity extends ListActivity {
    * @return
    */
   public static Intent getLaunchIntent(Context context) {
+    return getLaunchIntent(context, null);
+  }
+  
+  /**
+   * Build intent to launch this activity
+   * @param context
+   * @param message
+   * @return
+   */
+  public static Intent getLaunchIntent(Context context, SmsMmsMessage message) {
     Intent intent = new Intent(context, CallHistoryActivity.class);
     int flags =
       Intent.FLAG_ACTIVITY_NEW_TASK |
       Intent.FLAG_ACTIVITY_SINGLE_TOP |
       Intent.FLAG_ACTIVITY_CLEAR_TOP;
     intent.setFlags(flags);
+    if (message != null) {
+      intent.putExtra(EXTRA_MSG_ID, message.getMsgId());
+    }
     return intent;
   }
 }
