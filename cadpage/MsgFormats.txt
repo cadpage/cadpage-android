@@ -3815,7 +3815,7 @@ Narrative Time~Narrative\n
 10/26/11 23:16:47~will att to notify\n
 10/26/11 23:17:24~Nature Of Call: fire panel alarm
 
-Body:Rip and Run Report\n
+Rip and Run Report\n
 Rip and Run Report\n
 \n
 ~\n
@@ -3870,6 +3870,25 @@ Narrative Time~Narrative\n
 10/26/11 14:21:55~columbia gas on location at this time requesting FD Response\n
 10/26/11 14:21:58~Nature Of Call: Gas Leak/ Building Evacuated\n
 10/26/11 14:22:00~caller works for autozone
+
+
+Do you have Go SMS Pro installed?  If you do get rid of it, it appears to be blocking messages from reaching Cadpage.  Handcent does a much better job of playing well with other apps.
+
+Are you getting text pages from your dispatch center?  CadPage works by processing those text messages, if you haven't arranged to have them sent to your device, CadPage won't do anything for you.
+
+If you are getting messages going through to your messaging app, check to make sure that they are not MMS messages.  You do this by long pressing on one of the messages and selecting view message details.  This should tell you whether or not the message is an SMS text message or an MMS message.  If it is an MMS message, you have to to enable MMS message processing in the location settings.  But first read all of the warnings and disclaimers at http://www.cadpage.org/faq/mms-message-support.
+
+If that isn't the problem, try setting the Location settings > Override Location Filter setting.  Leave the from: filter empty or set to an asterisk.  This bypasses a sender filter that might be filtering out your text messages.
+
+The previous step doesn't work if you are using one of the generic locations.  If you are using a generic location, you have to set the filter to something, just make sure it is set to a string that your text page sender address always contains.
+
+Then wait until the next text pages comes in.  If it still doesn't trigger CadPage, then use the send email to developer feature to send us an email report.  If you don't change the defaults, this will include the most recently received text message, whether or not it was processed by CadPage, which gives us a lot of information we need to resolve the problem.
+
+If the messages  are triggering CADpage, but won't allow you to select map option.  Long press the message to open the options menu and select the "Report Problem" menu item.  This will generate an email containing all of the information we should need to track down the problem with this message.  You can get the same menu options from the call history screen by long pressing one of the call entries.
+
+Good luck,
+-Ken
+
 **********************************************************
 Chester County, PA (alternate)
 Contact: Bob Gliem <goshenfire@gmail.com>
