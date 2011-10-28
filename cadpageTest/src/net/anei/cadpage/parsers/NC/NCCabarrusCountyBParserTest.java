@@ -71,6 +71,64 @@ public class NCCabarrusCountyBParserTest extends BaseParserTest {
    
   }
   
+  @Test
+  public void testParser2() {
+    
+    doTest("T1",
+        "82:P|BOMB|2|273|90|3200 PATRICK HENRY DR NW|DAVIDSON HWY|10/26/2011 14:48:25|COVENANT CLASSICAL SCHOOL|7047921854|1106799",
+        "DATE:10/26/2011",
+        "TIME:14:48:25",
+        "CALL:BOMB",
+        "ADDR:3200 PATRICK HENRY DR NW",
+        "X:DAVIDSON HWY",
+        "PRI:2",
+        "UNIT:273 90",
+        "ID:1106799",
+        "PLACE:COVENANT CLASSICAL SCHOOL",
+        "PHONE:7047921854");
+
+     doTest("T2",
+         "89:FYI: |1|RESIDENTIAL FIRE ALARM|4155 KELLYBROOK DR SW|LITTLETON DR SW|LITTLETON DR SW|(S) (N)BRANDON RIDGE|8|843|10/27/2011 12:11:16|FRASER|7047869700|1106822",
+         "DATE:10/27/2011",
+         "TIME:12:11:16",
+         "CALL:RESIDENTIAL FIRE ALARM",
+         "ADDR:4155 KELLYBROOK DR SW",
+         "X:LITTLETON DR SW & LITTLETON DR SW",
+         "UNIT:843",
+         "INFO:(S) (N)BRANDON RIDGE",
+         "PRI:8",
+         "ID:1106822",
+         "PLACE:FRASER",
+         "PHONE:7047869700");
+
+     doTest("T3",
+         "88:Update: |1|FIRE VEHICLE ACCIDENT RESPONSE|CENTRAL DR NW/MAPLE AVE NW|7047873400|2|237|10/27/2011 11:26:22|FVACC|7046922840",
+         "DATE:10/27/2011",
+         "TIME:11:26:22",
+         "CALL:FIRE VEHICLE ACCIDENT RESPONSE",
+         "ADDR:CENTRAL DR NW & MAPLE AVE NW",
+         "UNIT:237",
+         "INFO:7047873400",
+         "PRI:2",
+         "PLACE:FVACC",
+         "PHONE:7046922840");
+
+     doTest("T4",
+         "89:FYI: |1|RESIDENTIAL FIRE ALARM|4155 KELLYBROOK DR SW|LITTLETON DR SW|LITTLETON DR SW|(S) (N)BRANDON RIDGE|8|843|10/27/2011 12:11:16|FRASER|7047869700|1106822",
+         "DATE:10/27/2011",
+         "TIME:12:11:16",
+         "CALL:RESIDENTIAL FIRE ALARM",
+         "ADDR:4155 KELLYBROOK DR SW",
+         "X:LITTLETON DR SW & LITTLETON DR SW",
+         "UNIT:843",
+         "INFO:(S) (N)BRANDON RIDGE",
+         "PRI:8",
+         "ID:1106822",
+         "PLACE:FRASER",
+         "PHONE:7047869700");
+
+  }
+  
   public static void main(String[] args) {
     new NCCabarrusCountyBParserTest().generateTests("T1");
   }
