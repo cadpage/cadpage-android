@@ -446,7 +446,8 @@
       android:key="@string/pref_disclaimer_key" android:title="@string/pref_disclaimer_title" android:summary="@string/pref_disclaimer_summary">
       <intent
         android:action="android.intent.action.VIEW" android:data="@string/pref_disclaimer_url"/>
-    </PreferenceScreen><PreferenceScreen
+    </PreferenceScreen>
+    <PreferenceScreen
       android:key="@string/pref_faq_key"
       android:title="@string/pref_faq_title"
       android:summary="@string/pref_faq_summary">
@@ -468,6 +469,13 @@
       android:dialogIcon="@drawable/ic_launcher" 
       android:dialogTitle="@string/pref_releasenotes_diagtitle"
       android:dialogMessage="@string/release_text"/>
+    <PreferenceScreen
+      android:title="@string/pref_review_title"
+      android:summary="@string/pref_review_summary">
+      <intent
+        android:action="android.intent.action.VIEW"
+        android:data="@string/pref_review_url" />
+    </PreferenceScreen>
     <Preference
       android:key="@string/pref_email_key"
       android:title="@string/pref_email_title" 
