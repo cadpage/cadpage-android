@@ -3343,10 +3343,12 @@ Havertown, PA (in Deleware County)
 Contact: chris smith <csmith045@verizon.net>
 Sender: oakmont1@comcast.net
 **********************************************************
-Unknown
+Roscoe, IL
 Contact: Ron Klaman <hrfdrklaman@gmail.com>
 Sender: hrfdfiresvcrunnotification@gmail.com
 S:C-14: 14244 Krotz Dr M: Run #: HRFD11-1997\n10/26/2011 12:02\n12:02\n12:08\n12:27\n12:53\n0 / 15\n\n\n
+S:HRFD: Med: 687 Marion Rd M: 56 f deleious\n\n
+S:HRFD: Med:9918 Bluebonnet M: 70 M diaahra\n\n
 
 Contact: John Donovan <hrfdfireman@gmail.com>
 Sender: hrfdfiresvcrunnotification@gmail.com
@@ -3354,6 +3356,7 @@ Sender: hrfdfiresvcrunnotification@gmail.com
 (HRFD: Med:6792 Michelle Dr) F Trouble Breathing
 (C-39: 173 !90) Run #: HRFD11-1998\n10/26/2011 13:46\n13:46\n13:54\n14:12\n14:29\n0 / 09
 (C-39: 11087 Edgemere Terrace) Run #: HRFD11-1993\n10/25/2011 18:15\n18:16\n18:20\n18:39\n19:05\n00 / 12
+(C-14:  687 Merrion Rd) Run #: HRFD11-2001\n10/27/2011 08:07\n08:07\n08:10\n08:24\n08:38\n00 / 11
 **********************************************************
 **********************************************************
 **********************************************************
