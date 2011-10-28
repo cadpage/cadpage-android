@@ -1,10 +1,7 @@
 package net.anei.cadpage.parsers.TX;
 
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-
 import net.anei.cadpage.SmsMsgInfo.Data;
-import net.anei.cadpage.parsers.SmsMsgParser;
+import net.anei.cadpage.parsers.FieldProgramParser;
 
 /* 
 Nueces County, TX
@@ -13,24 +10,20 @@ Sender: ccpdpaging@cctexas.com<mailto:ccpdpaging@cctexas.com
 cc = corpus christi
 neucs = neuces
 
-Subject:MetroCom Notification\nMEDICAL - UNCON, ALRM: 0, PRI: 1, ESZ: 67 / 2141 TULOSO RD CC NUECS: @SUNTIDE FEDERAL CU- TULOSO RD
-Subject:MetorCom Notifiction\nAlarm – COMM-SML, ALRM: 0, PRI: 2, ESZ: 107 / 16318 fm 624 NUECS: @RIVER HILLS BASPTIST CHURCH
-Subject:MetorCom Notifiction\nMEDICAL – ALLERGY, ALRM: 0, PRI: 2, ESZ: 2009 / 11559 LEOPARD ST CC NUECS: @CALALLEN MINOR EMERGENCY CLINI
-Subject:MetorCom Notifiction\nFIRE-OTHER – GRASS, ALRM: 0, PRI: 1, ESZ 107 / HWY 77 FWY SB/CR 48 NUECS
-Subject:MetorCom Notifiction\nMEDICAL – CHEST, ALRM: 0, PRI: 1, 104 / FM 43/FM 763 NUECS
-
-** NOT IMPLEMENTED **
 Subject:CAD Notify\nTRAUMA - INJURY ALRM: 0 PRI: 1 ESZ: 67 / 11308 GUESS DR CC NUECS EV: 1110029194\n
 Subject:CAD Notify\nINV-FIRE - SMOKE ALRM: 0 PRI: 2 ESZ: 107 / 3695 CR 61 NUECS EV: 1110029353
 Subject:CAD Notify\nTA - EMS ALRM: 0 PRI: 1 ESZ: 107 / CR 48/HWY 77 FWY SB NUECS EV: 1110031040\n\n
 Subject:CAD Notify\nMEDICAL - SICK ALRM: 0 PRI: 1 ESZ: 6 / 4909 FM 2826 NUECS: @LABROCK CORRECTIONS SERVICES EV: 1110031803\n\n
+Subject:CAD Notify\nFIRE-OTHER - VEH-OUTSIDE ALRM: 0 PRI: 1 ESZ: 104 / 1332 FM 665 NUECS: @MEMORY GARDENS CEMETERY - FM 665 EV: 111003414
+Subject:CAD Notify\nTRAUMA - INJURY ALRM: 0 PRI: 1 ESZ: 67 / 4729 CALALLEN DR CC NUECS EV: 1110034169\n\n
 
  */
 
-public class TXNuecesCountyParser extends SmsMsgParser {
+public class TXNuecesCountyParser extends FieldProgramParser {
   
   public TXNuecesCountyParser() {
-    super("NUECES COUNTY", "TX");
+    super("NUECES COUNTY", "TX",
+           "CALL! ALRM:SKIP! PRI:PRI! ESZ:ADDR! EV:ID!");
   }
   
   @Override
@@ -38,29 +31,42 @@ public class TXNuecesCountyParser extends SmsMsgParser {
     return "ccpdpaging@cctexas.com";
   }
   
-  private static final Pattern SUBJECT_PTN = 
-    Pattern.compile("Met[or]{2}Com Notifica?tion");
-  private static final Pattern MASTER = 
-    Pattern.compile("([^,]+), ALRM: ., PRI: (.), (?:ESZ:? )?(\\d+) / ([^:]+)(?:: @(.*))?");
-  
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
-    if (!SUBJECT_PTN.matcher(subject).matches()) return false;
-    Matcher match = MASTER.matcher(body);
-    if (!match.matches()) return false;
-    
-    data.strCall = match.group(1).trim();
-    data.strPriority = match.group(2).trim();
-    data.strUnit = match.group(3).trim();
-    String sAddr = match.group(4).trim();
-    data.strPlace = getOptGroup(match.group(5));
-    
-    if (sAddr.endsWith(" NUECS")) sAddr = sAddr.substring(0, sAddr.length()-6).trim();
-    if (sAddr.endsWith(" CC")) {
-      sAddr = sAddr.substring(0, sAddr.length()-3).trim();
-      data.strCity = "CORPUS CHRISTI";
+    if (!subject.equals("CAD Notify")) return false;
+    return super.parseMsg(body, data);
+  }
+  
+  private class MyAddressField extends AddressField {
+
+    @Override
+    public void parse(String field, Data data) {
+      int pt = field.indexOf('/');
+      if (pt < 0) abort();
+      data.strUnit = field.substring(0,pt).trim();
+      field = field.substring(pt+1).trim();
+      pt = field.lastIndexOf(": @");
+      if (pt >= 0) {
+        data.strPlace = field.substring(pt+3).trim();
+        field = field.substring(0,pt);
+      }
+      if (field.endsWith(" NUECS")) field = field.substring(0,field.length()-6).trim();
+      if (field.endsWith(" CC")) {
+        data.strCity = "CORPUS CHRISTI";
+        field = field.substring(0, field.length()-3).trim();
+      }
+      super.parse(field, data);
     }
-    parseAddress(sAddr, data);
-    return true;
+    
+    @Override
+    public String getFieldNames() {
+      return "UNIT " + super.getFieldNames() + " CITY PLACE";
+    }
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("ADDR")) return new MyAddressField();
+    return super.getField(name);
   }
 }
