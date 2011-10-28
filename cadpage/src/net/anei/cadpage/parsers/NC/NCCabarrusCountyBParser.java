@@ -33,8 +33,8 @@ public class NCCabarrusCountyBParser extends FieldProgramParser {
   
   public NCCabarrusCountyBParser() {
     super("CABARRUS COUNTY", "NC",
-           "( DATETIME CALL CH? ADDR! X X |" +
-            " FYI? DIGIT CALL CH? ADDR! X X INFO? PRI UNIT DATETIME ( ID | PLACE PHONE SKIP? ID ) )");
+           "( DATETIME CALL CH? ADDR! X+? |" +
+            " FYI? DIGIT CALL ( PRI UNIT+? CH? ADDR! X+? | CH? ADDR! X+? INFO? PRI UNIT+? ) DATETIME ( ID | PLACE PHONE SKIP? ID ) )");
   }
   
   @Override
@@ -52,7 +52,7 @@ public class NCCabarrusCountyBParser extends FieldProgramParser {
   
   private class FYIField extends SkipField {
     public FYIField() {
-      setPattern(Pattern.compile("FYI:"), true);
+      setPattern(Pattern.compile("FYI:|Update:"), true);
     }
   }
   
@@ -71,6 +71,19 @@ public class NCCabarrusCountyBParser extends FieldProgramParser {
   private class MyPriorityField extends PriorityField {
     public MyPriorityField() {
       setPattern(Pattern.compile("\\d"), true);
+    }
+  }
+  
+  private static final Pattern UNIT_PTN = Pattern.compile("\\d[A-Z0-9]{1,3}");
+  private class MyUnitField extends UnitField {
+    
+    public MyUnitField() {
+      setPattern(UNIT_PTN, true);
+    }
+    
+    @Override
+    public void parse(String field, Data data) {
+      data.strUnit = append(data.strUnit, " ", field);
     }
   }
   
@@ -93,6 +106,7 @@ public class NCCabarrusCountyBParser extends FieldProgramParser {
     if (name.equals("DIGIT")) return new DigitField();
     if (name.equals("CH")) return new MyChannelField();
     if (name.equals("PRI")) return new MyPriorityField();
+    if (name.equals("UNIT")) return new MyUnitField();
     if (name.equals("DATETIME")) return new MyDateTimeField();
     if (name.equals("ID")) return new MyIdField();
     return super.getField(name);
