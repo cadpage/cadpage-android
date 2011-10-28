@@ -102,9 +102,17 @@ public class NYOneidaCountyParserTest extends BaseParserTest {
         "ADDR:5218 PATRICK RD",
         "CITY:VERONA",
         "X:VERONA, ROUTE 365/SNYDER RD; Near:TURNING STONE CASINO");
- }
+
+    doTest("T12",
+        "WATA:2011:0305 >Dispatched >EMS CALL >358 MADISON ST, WATERVILLE VILLAGE (/TERRY MEADOWS DR; Near:WATERVILLE HIGH SCHOOL)",
+        "ID:2011:0305",
+        "CALL:EMS CALL",
+        "ADDR:358 MADISON ST",
+        "CITY:WATERVILLE VILLAGE",
+        "X:/TERRY MEADOWS DR; Near:WATERVILLE HIGH SCHOOL");
+}
   
   public static void main(String[] args) {
-    new NYOneidaCountyParserTest().generateTests("T12", "ID CALL ADDR CITY X");
+    new NYOneidaCountyParserTest().generateTests("T13", "ID CALL ADDR CITY X");
   }
 }
