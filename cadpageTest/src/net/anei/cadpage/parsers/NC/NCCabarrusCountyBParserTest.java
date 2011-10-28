@@ -113,20 +113,6 @@ public class NCCabarrusCountyBParserTest extends BaseParserTest {
          "PLACE:FVACC",
          "PHONE:7046922840");
 
-     doTest("T4",
-         "89:FYI: |1|RESIDENTIAL FIRE ALARM|4155 KELLYBROOK DR SW|LITTLETON DR SW|LITTLETON DR SW|(S) (N)BRANDON RIDGE|8|843|10/27/2011 12:11:16|FRASER|7047869700|1106822",
-         "DATE:10/27/2011",
-         "TIME:12:11:16",
-         "CALL:RESIDENTIAL FIRE ALARM",
-         "ADDR:4155 KELLYBROOK DR SW",
-         "X:LITTLETON DR SW & LITTLETON DR SW",
-         "UNIT:843",
-         "INFO:(S) (N)BRANDON RIDGE",
-         "PRI:8",
-         "ID:1106822",
-         "PLACE:FRASER",
-         "PHONE:7047869700");
-
   }
   
   public static void main(String[] args) {
