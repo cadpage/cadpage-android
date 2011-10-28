@@ -65,6 +65,14 @@ public class TXNuecesCountyParserTest extends BaseParserTest {
         "ADDR:4729 CALALLEN DR",
         "CITY:CORPUS CHRISTI",
         "ID:1110034169");
+
+    doTest("T7",
+        "Subject:CAD Notify\nTA - RESCUE ALRM: 0 PRI: 1 ESZ: 2 / FM 665/FM 70 NUECS EV: 1110034392\n\n",
+        "CALL:TA - RESCUE",
+        "PRI:1",
+        "UNIT:2",
+        "ADDR:FM 665 & FM 70",
+        "ID:1110034392");
   }
   
   public static void main(String[] args) {
