@@ -407,6 +407,16 @@ public class PABucksCountyParserTest extends BaseParserTest {
         "ID:FD1116685",
         "UNIT:L79 E");
 
+    doTest("T34",
+        "911: SQ134  type:ATAI    adr:BETHLEHEM PK/HILLTOWN PK ,36  aai:  box:60041  map:3032H4  tm:21:37:43  ED1139682  ",
+        "SRC:SQ134",
+        "CALL:ATAI - ALS TRAFFIC ACCIDENT INJURIES",
+        "ADDR:BETHLEHEM PK & HILLTOWN PK",
+        "CITY:HILLTOWN TWP",
+        "BOX:60041",
+        "MAP:3032H4",
+        "ID:ED1139682");
+
   }
   
   public static void main(String[] args) {
