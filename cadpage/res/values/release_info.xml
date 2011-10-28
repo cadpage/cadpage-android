@@ -1,42 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">10212011</string>
-  <string name="release_version">v1.4.32</string>
+  <string name="release_date">10282011</string>
+  <string name="release_version">v1.4.33</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
-  <string name="min_install_date">10012011</string>
-  <string name="min_purchase_date">10312011</string>
+  <string name="min_install_date">10042011</string>
+  <string name="min_purchase_date">11032011</string>
   <string name="release_text">
 Thanks to everyone who has donated Your support is appreciated and helps support the app.\n
 See http://www.cadpage.org/financial-support for more details\n
 \n
 What"'"s new in this release\n
-This is absolutely the last version of Cadpage that will not get seriously annoyed 
-if you run over the demo expiration date.\n
+Added 3 days to first demo expiration date to make up for late release.\n
+Demo expiration is not a hard limit. You can extend it up to 5 times. 
+And you can reinstall Cadpage to reset the 30 day demo.\n
 \n
 New Locations:\n
-Roxbury, CT\n
-Oconee County, GA\n
-Eaton County, MI\n
-Atlanticare EMS, NJ\n
-Madison County, NY\n
-Chenango County, NY\n
-Cabarrus County, NC (alternate)\n
-Madison County, NC\n
+Roscoe, IL\n
 \n
 Location Parsing Fixes:\n
-Dothan, AL\n
-Sonoma County, CA\n
 Greeley, CO\n
+Morris County, NJ\n
+Rockland County, NY\n
 Suffolk County, NY\n
-Alexander County, NC\n
-Guilford County, NC\n
-Erie County, PA\n
-Washington COunty, TN\n
+Cabarrus County, NC\n
+Greenville County, SC\n
+Oconee County, SC\n
+Washington County, TN\n
+Nueces County, TX\n
 \n
 General Fixes\n
-Added option to display release change info\n
-Added button to link to website financial support page\n 
+Force close when reposting previous incomplete MMS message.\n
+Force close in location list parsing logic\n
+Split text page merge logic loosing pages\n
   </string>  
 </resources>
   
