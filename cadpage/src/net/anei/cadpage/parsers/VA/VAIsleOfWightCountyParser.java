@@ -15,9 +15,9 @@ YELLOW HAMMER RD/FIRE TOWER RD;1050;[LAW] {37} ONE FINGER AND JAW/ SEC CONCUSION
 W WINDSOR BLVD/N PRINCE BLVD;ACCIDENT WITH INJURIES;supreme prking lot. 2 veh. chryslter pt cruiser vs dodge ram piick up [06/23/11 13:13:34 JTEMPLETON]
 
  */
-public class VAWightCountyParser extends DispatchOSSIParser {
+public class VAIsleOfWightCountyParser extends DispatchOSSIParser {
   
-  public VAWightCountyParser() {
+  public VAIsleOfWightCountyParser() {
     super("WIGHT COUNTY", "VA",
            "ADDR ( X X? CALL | PLACE X X? CALL | CALL ) INFO+");
   }

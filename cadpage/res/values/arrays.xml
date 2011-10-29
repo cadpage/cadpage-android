@@ -187,6 +187,7 @@
     <item>OHDelewareCounty</item>
     <item>NJBergenCounty</item>
     <item>COPuebloRFD</item>
+    <item>VAWightCounty</item>
   </string-array>
   <string-array name="new_location_values">
     <item>NCChathamCounty</item>
@@ -195,6 +196,7 @@
     <item>OHDelawareCounty</item>
     <item>NJMICOM</item>
     <item>COPuebloCounty</item>
+    <item>VAIsleOfWightCounty</item>
   </string-array>
   
   <!-- Array of state names -->
@@ -530,6 +532,7 @@
     <item>VAFrederickCounty</item>
     <item>VAHalifaxCounty</item>
     <item>VAHenryCounty</item>
+    <item>VAIsleOfWightCounty</item>
     <item>VALexingtonRockbridgeCounty</item>
     <item>VALoudounCounty</item>
     <item>VALouisaCounty</item>
@@ -540,7 +543,6 @@
     <item>VAPrinceWilliamCounty</item>
     <item>VARockinghamCounty</item>
     <item>VAWaynesboro</item>
-    <item>VAWightCounty</item>
     <item>VAWinchester</item>
     <item>WIBrownCounty</item>
     <item>WICalumetCounty</item>
@@ -841,6 +843,7 @@
     <item>Frederick County, VA</item>
     <item>Halifax County, VA</item>
     <item>Henry County, VA</item>
+    <item>Isle of Wight County, VA</item>
     <item>Lexington &amp; Rockbridge Counties</item>
     <item>Loudoun, VA</item>
     <item>Louisa County, VA</item>
@@ -851,7 +854,6 @@
     <item>Prince William County, VA</item>
     <item>Rockingham County, VA</item>
     <item>Waynesboro, VA</item>
-    <item>Wight County, VA</item>
     <item>Winchester, VA</item>
     <item>Brown County, WI</item>
     <item>Calumet County, WI</item>
