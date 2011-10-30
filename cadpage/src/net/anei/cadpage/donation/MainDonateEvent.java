@@ -30,8 +30,10 @@ public class MainDonateEvent extends DonateScreenEvent {
    * Recalculate and redisplay donation status
    */
   public void refreshStatus() {
-    setPreference(activity, pref);
-    setButton(activity, button);
+    if (activity != null) {
+      setPreference(activity, pref);
+      setButton(activity, button);
+    }
   }
 
   @Override
