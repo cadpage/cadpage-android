@@ -237,6 +237,7 @@ public class DonationManager {
    */
   private static Date getCurDate() {
     Calendar cal = new GregorianCalendar();
+    cal.setTimeInMillis(System.currentTimeMillis());
     cal.set(Calendar.HOUR_OF_DAY, 0);
     cal.set(Calendar.MINUTE, 0);
     cal.set(Calendar.SECOND, 0);

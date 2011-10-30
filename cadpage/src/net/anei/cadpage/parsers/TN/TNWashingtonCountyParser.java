@@ -42,8 +42,6 @@ prvs=268de3f1a=JCFDTEXT@johnsoncitytn.org Convulsions/Seizures-CHARLIE M2,R4,E5\
 prvs=270a5699b=JCFDTEXT@johnsoncitytn.org School Fire Alarm E7,E2,TR2,E4,TR3,E3\n33 S DOSSETT DR\nSTONE HALL\nWOMENS RESIDENCE HALL\nMap 54D 12:45:10 117235\nThink green: Only print t
 prvs=27112cb81=JCFDTEXT@johnsoncitytn.org Motor Vehicle Crash - Injury E3\nCARTER COUNTY LINE/MILLIGAN HY\nCARTER COUNTY LINE\n11:18:15 117253\nThink green: Only print this e-mail and
 prvs=272df6cbd=JCFDTEXT@johnsoncitytn.org Motor Vehicle Crash - Injury E8,E6\nI26E/MILE MARKER 14\n15:38:04 117287\nThink green: Only print this e-mail and any attachment if necessary
-
-** NOT IMPLEMENTED **
 prvs=2751bae6e=JCFDTEXT@johnsoncitytn.org Assault 442,431,E4\n241 W MAIN ST\nDOWNTOWN APARTMENTS\nCross Streets N BOONE ST\nWHITNEY ST\nW WATAUGA AV 22:50:49\nThink green: Only print th
 
 Contact: Jason Powell <firedupleadership@gmail.com>
@@ -58,9 +56,12 @@ Chest Pain(Non-Traumatic)-DELTA M1,R1,E3\n805 KENTUCKY ST\nX-STR= COLORADO ST\nO
 
 public class TNWashingtonCountyParser extends FieldProgramParser {
   
+  private static final Pattern TRAILER = Pattern.compile("\\b(\\d\\d:\\d\\d:\\d\\d)(?: (\\d+))?(?: *\\nThink[^\\n]*)?$");
+  private static final Pattern TRAILER2 = Pattern.compile(" +\\d\\d:[\\d:]*$");
+  
   public TNWashingtonCountyParser() {
     super("WASHINGTON COUNTY", "TN",
-           "CPU UNIT2? ADDR PLACE+? ( X X2+? | ) MAP!");
+           "CPU UNIT2? ADDR PLACE+? ( X X2+? | ) MAP");
   }
   
   @Override
@@ -70,11 +71,34 @@ public class TNWashingtonCountyParser extends FieldProgramParser {
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
-    return parseFields(body.split("\n"), data);
+    boolean ok = false;
+    Matcher match = TRAILER.matcher(body);
+    if (match.find()) {
+      ok = true;
+      data.strTime = match.group(1);
+      data.strCallId = getOptGroup(match.group(2));
+      body = body.substring(0,match.start());
+    }
+    String flds[] = body.split("\n");
+    if (!ok && flds.length < 4) return false;
+    if (!ok) {
+      String sMap = flds[flds.length-1];
+      if (!sMap.startsWith("Map")) return false;
+      match = TRAILER2.matcher(sMap);
+      if (match.find()) {
+        flds[flds.length-1] = sMap.substring(0,match.start());
+      }
+    }
+    return parseFields(flds, data);
+  }
+  
+  @Override
+  public String getProgram() {
+    return super.getProgram() + " TIME ID";
   }
   
   // CPU - Combined Call / Priority / Unit field
-  private static final Pattern UNIT_PTN = Pattern.compile("\\b[A-Z]{1,2}\\d{1,2}(?:,[A-Z]{1,2}\\d{1,2})*$");
+  private static final Pattern UNIT_PTN = Pattern.compile("[A-Z0-9]{2,4}(?:,[A-Z0-9]{2,4})*$");
   private static final Pattern PRI_PTN = Pattern.compile("-(?:ALPHA|BRAVO|CHARLIE|DELTA)");
   private class CallPriUnitField extends Field {
     
@@ -159,43 +183,22 @@ public class TNWashingtonCountyParser extends FieldProgramParser {
     }
   }
   
-  // MAP field has to start with map, and drop trailing stuff
-  private static final Pattern MAP_PTN = Pattern.compile("\\d\\d[A-Za-z]");
-  private static final Pattern TIME_PTN = Pattern.compile("\\d\\d:\\d\\d:\\d\\d");
+  // MAP field has to start with map
   private class MyMapField extends MapField {
     @Override
     public void parse(String field, Data data) {
-      boolean ok = false;
-      Parser p = new Parser(field);
-      String sMap  = p.get(' ');
-      if ("Map".startsWith(sMap)) {
-        ok = true;
-        sMap  = p.get(' ');
-        while (MAP_PTN.matcher(sMap).matches()) {
-          data.strMap = append(data.strMap, " ", sMap);
-          sMap = p.get(' ');
-        }
+      if (field.startsWith("Map ")) {
+        field = field.substring(4).trim();
+        super.parse(field, data);
+      } else {
+        if (!"Map ".startsWith(field)) abort();
       }
-      if (TIME_PTN.matcher(sMap).matches()) {
-        ok = true;
-        data.strTime = sMap;
-      }
-      data.strCallId = p.get();
-      
-      if (!ok) abort();
-    }
-    
-    @Override
-    public String getFieldNames() {
-      return "MAP TIME ID";
     }
   }
   
   private boolean isMapField(String field) {
     if (field.startsWith("Map ")) return true;
     if ("Map".startsWith(field)) return true;
-    String sTime = new Parser(field).get(' ');
-    if(TIME_PTN.matcher(sTime).matches()) return true;
     return false;
   }
   
@@ -208,10 +211,5 @@ public class TNWashingtonCountyParser extends FieldProgramParser {
     if (name.equals("X2")) return new MyCross2Field();
     if (name.equals("MAP")) return new MyMapField();
     return super.getField(name);
-  }
-  
-  @Override
-  public String getProgram() {
-    return "SRC " + super.getProgram();
   }
 }
