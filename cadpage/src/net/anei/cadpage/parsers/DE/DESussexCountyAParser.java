@@ -46,6 +46,10 @@ Contact: cmr199182@yahoo.com
 (Chief ALT) [82 EMS] -- Medical Alert -- 18240 Robinsonville Rd Lewes 19958 -- Gosling Creek Purchase/ 123 Ha
 (Chief ALT) [82 EMS] -- Interfacillity/Palliative-ALS -- 36101 Seaside Blvd Rehoboth Beach 19971 -- Brandywine Assisted Living
 
+COntact: "cignotis7@gmail.com" <cignotis7@gmail.com>
+Sender: msg@cfmsg.com
+Subject:Chief ALT\n[71 EMS] -- Assault/Sexual Assault-ALS -- 25687 Cornelia St Seaford 19973\n
+
  */
 
 

@@ -3914,6 +3914,394 @@ If the messages  are triggering CADpage, but won't allow you to select map optio
 Good luck,
 -Ken
 
+Body:Rip and Run Report\n
+Rip and Run Report\n
+\n
+~\n
+Location Information:\n
+\n
+Location:~150~FARM~LN~\n
+Venue:~YORK TWP\n
+Cross Streets~\n
+CRESTVIEW DR / S QUEEN ST\n
+Phone:~(717) 846-7151\n
+Quadrant:~19-02\n
+District:~19-02\n
+~\n
+Call Information:\n
+\n
+Call Number:~2717\n
+Call Type:~ FIRE AFA HIGH RISK\n
+Source:~DISPATCHED BY YORK COUNTY 911\n
+Priority:~ 4\n
+Status:~IN PROGRESS\n
+Assigned To:~CALL TAKER 1\n
+Caller:~System,~Blazer,~Security\n
+Call Date/Time:~10/29/2011 08:39:44\n
+Dispatch Date/Time:~10/29/2011 08:41:45\n
+Arrive Date/Time:~\n
+Clear Date/Time:~\n
+Enroute Date/Time:~\n
+Latest Unit Cleared Date/Time:~\n
+~\n
+Incident Number(s)\n
+2011-00001713~~GOODWILL FIRE COMPANY NO. 1 YORK TOWNSHIP\n
+~\n
+Units Sent:~1\n
+FIRESTA19~\n
+\n
+Alerts:\n
+~\n
+Location Alerts\n
+\n
+Person Alerts\n
+\n
+Vehicle Alerts\n
+~~\n
+Narrative:\n
+\n
+Narrative Time~Narrative\n
+10/29/11 08:40:17~Susquehanna Civil Incorporated is the company\n
+10/29/11 08:40:44~Operator Joyce\n
+10/29/11 08:40:54~1st fl smoke sensor\n
+10/29/11 08:40:57~unk structure\n
+10/29/11 08:41:11~c/o provided the company name\n
+10/29/11 08:41:39~Nature Of Call: 1st fl smoke sensor
+
+Body:Rip and Run Report\n
+Rip and Run Report\n
+\n
+~\n
+Location Information:\n
+\n
+Location:~348~BLUE RIDGE~DR~\n
+Venue:~YORK TWP\n
+Cross Streets~\n
+RAINIER CT / RUSHMORE DR\n
+Quadrant:~19-03\n
+District:~19-03\n
+~\n
+Call Information:\n
+\n
+Call Number:~2814\n
+Call Type:~ CARDIAC\2sARREST CL 1\n
+Source:~DISPATCHED BY YORK COUNTY 911\n
+Priority:~ 2\n
+Status:~IN PROGRESS\n
+Assigned To:~EMS 3 DISPATCHER\n
+Caller:~Hall,~Nancy\n
+Call Date/Time:~10/29/2011 10:33:33\n
+Dispatch Date/Time:~10/29/2011 10:39:46\n
+Arrive Date/Time:~\n
+Clear Date/Time:~\n
+Enroute Date/Time:~\n
+Latest Unit Cleared Date/Time:~\n
+~\n
+Incident Number(s)\n
+2011-00001715~~GOODWILL FIRE COMPANY NO. 1 YORK TOWNSHIP\n
+2011-00001918~~JACOBUS LIONS CLUB AMBULANCE\n
+2011-00003084~~YOE FIRE COMPANY AMBULANCE SERVICE\n
+~\n
+Units Sent:~3\n
+MICU18, EMSSTA19, FIRESTA19~\n
+\n
+Alerts:\n
+~\n
+Location Alerts\n
+\n
+Person Alerts\n
+\n
+Vehicle Alerts\n
+~~\n
+Narrative:\n
+\n
+Narrative Time~Narrative\n
+10/29/11 10:34:34~74 yoa male collapsed on ground +conscious +breathing -alert\n
+10/29/11 10:35:14~breathing is abnormal\n
+10/29/11 10:35:18~chest feels rigid\n
+10/29/11 10:37:53~PROQA wll not fire\n
+10/29/11 10:38:02~CAD crashed during questioning\n
+10/29/11 10:38:52~c/o adv now no breathing and no pulse\n
+10/29/11 10:39:04~beginning CPR instructions\n
+10/29/11 10:39:06~PD REQING TO KNOW IF SOMEONE IS WITH PT\n
+10/29/11 10:39:27~DISREGARD\n
+10/29/11 10:39:42~Nature Of Call: 74 M / CPR started
+
+Body:Rip and Run Report\n
+Rip and Run Report\n
+\n
+~\n
+Location Information:\n
+\n
+Location:~~POWDER MILL~RD/~TYLER RUN~RD\n
+Venue:~YORK TWP\n
+Cross Streets~\n
+Quadrant:~19-06\n
+District:~19-06\n
+~\n
+Call Information:\n
+\n
+Call Number:~3517\n
+Call Type:~ FIRE POLICE\n
+Source:~DISPATCHED BY YORK COUNTY 911\n
+Priority:~ 4\n
+Status:~IN PROGRESS\n
+Assigned To:~WEST 5\n
+Caller:~Ed,~Met\n
+Call Date/Time:~10/29/2011 14:32:44\n
+Dispatch Date/Time:~10/29/2011 14:42:14\n
+Arrive Date/Time:~\n
+Clear Date/Time:~\n
+Enroute Date/Time:~\n
+Latest Unit Cleared Date/Time:~\n
+~\n
+Incident Number(s)\n
+2011-00001716~~GOODWILL FIRE COMPANY NO. 1 YORK TOWNSHIP\n
+~\n
+Units Sent:~1\n
+FIRESTA19~\n
+\n
+Alerts:\n
+~\n
+Location Alerts\n
+\n
+Person Alerts\n
+\n
+Vehicle Alerts\n
+~~\n
+Narrative:\n
+\n
+Narrative Time~Narrative\n
+10/29/11 14:33:28~c/o req to have the road barracaded due to tree's falling along Powder Mill Rd\n
+10/29/11 14:34:01~btwn Tyler Run and Powder Mill and also George/Manor\n
+10/29/11 14:42:08~Nature Of Call: shut down road for trees down
+
+Body:Rip and Run Report\n
+Rip and Run Report\n
+\n
+~\n
+Location Information:\n
+\n
+Location:~~I~83~NB/~I~83X14LEADERHEIGHTS~NB\n
+Venue:~YORK TWP\n
+Cross Streets~\n
+Quadrant:~19-833\n
+District:~19-833\n
+~\n
+Call Information:\n
+\n
+Call Number:~4594\n
+Call Type:~ VEH ACC INJ CL 2\n
+Source:~DISPATCHED BY YORK COUNTY 911\n
+Priority:~ 2\n
+Status:~IN PROGRESS\n
+Assigned To:~CALL TAKER 3\n
+Caller:~McAltin,~Rebecca\n
+Call Date/Time:~10/29/2011 18:13:37\n
+Dispatch Date/Time:~10/29/2011 18:17:01\n
+Arrive Date/Time:~\n
+Clear Date/Time:~\n
+Enroute Date/Time:~\n
+Latest Unit Cleared Date/Time:~\n
+~\n
+Incident Number(s)\n
+2011-00001725~~GOODWILL FIRE COMPANY NO. 1 YORK TOWNSHIP\n
+2011-00001922~~JACOBUS LIONS CLUB AMBULANCE\n
+2011-00003091~~YOE FIRE COMPANY AMBULANCE SERVICE\n
+~\n
+Units Sent:~5\n
+MICU18, MICU19-2, EMSSTA19, EMSSTA18, FIRESTA19~\n
+\n
+Alerts:\n
+~\n
+Location Alerts\n
+\n
+Person Alerts\n
+\n
+Vehicle Alerts\n
+~~\n
+Narrative:\n
+\n
+Narrative Time~Narrative\n
+10/29/11 18:14:05~travelling SB\n
+10/29/11 18:14:34~Just north of the Leader Heights exit\n
+10/29/11 18:14:37~smoking\n
+10/29/11 18:15:47~off to side of road\n
+10/29/11 18:15:52~ProQA Dispatch Message Sent; Chief Complaint Number: 29; Dispatch Level: 29B01; Response Text: Bravo\n
+10/29/11 18:15:52~Problem: vehicle accident.\2sPatient Info: 1 patient(s); 36 Years old; Female; Conscious: Yes; Breathing: Yes;\n
+10/29/11 18:16:32~Nature Of Call: SB N of the exit/Veh smoking\n
+10/29/11 18:16:36~Problem: vehicle accident.\2sPatient Info: 1 patient(s); 36 Years old; Female; Conscious: Yes; Breathing: Yes;\n
+10/29/11 18:16:36~ProQA Questionnaire Completed; Chief Complaint Number: 29; Dispatch Level: 29B01; Response Text: Bravo\n
+10/29/11 18:16:38~Nature Of Call: SB N of the exit/Veh smoking/36F/Cons\n
+10/29/11 18:16:53~veh Silver Dodge Caravan vs. dark SUV\n
+10/29/11 18:17:04~not blocking, Silver dodge on left side\n
+10/29/11 18:17:10~SUV on right side
+
+Body:Rip and Run Report\n
+Rip and Run Report\n
+\n
+~\n
+Location Information:\n
+\n
+Location:~1900~WOODLAND~DR~\n
+Venue:~YORK TWP\n
+Cross Streets~\n
+DEAD END / RIDGEWOOD RD\n
+HILLCREST RD\n
+WATERS RD\n
+Quadrant:~19-06\n
+District:~19-06\n
+~\n
+Call Information:\n
+\n
+Call Number:~4713\n
+Call Type:~ FIRE MISC\n
+Source:~DISPATCHED BY YORK COUNTY 911\n
+Priority:~ 4\n
+Status:~IN PROGRESS\n
+Assigned To:~CALL TAKER 5\n
+Caller:~Martini,~Jack\n
+Call Date/Time:~10/29/2011 18:59:43\n
+Dispatch Date/Time:~10/29/2011 19:03:50\n
+Arrive Date/Time:~\n
+Clear Date/Time:~\n
+Enroute Date/Time:~\n
+Latest Unit Cleared Date/Time:~\n
+~\n
+Incident Number(s)\n
+2011-00001727~~GOODWILL FIRE COMPANY NO. 1 YORK TOWNSHIP\n
+~\n
+Units Sent:~1\n
+FIRESTA19~\n
+\n
+Alerts:\n
+~\n
+Location Alerts\n
+\n
+Person Alerts\n
+\n
+Vehicle Alerts\n
+~~\n
+Narrative:\n
+\n
+Narrative Time~Narrative\n
+10/29/11 19:01:26~c/o wants someone check on son because there is no electricity and adv they are not able to leave the home due to tree fell across the door\n
+10/29/11 19:01:46~home is right by Channel 43\n
+10/29/11 19:02:45~no one is inj\n
+10/29/11 19:02:53~c/o wants someone to assist them in getting out of the home\n
+10/29/11 19:03:14~c/o was not able to vfy the municipality\n
+10/29/11 19:03:45~Nature Of Call: Tree down across Porch/can not get of house
+
+Body:Rip and Run Report\n
+Rip and Run Report\n
+\n
+~\n
+Location Information:\n
+\n
+Location:~1450~BEE TREE~RD~\n
+Venue:~SP GARDEN TWP\n
+Cross Streets~\n
+HIGHLAND TER / SUMMIT TER\n
+Quadrant:~89-205\n
+District:~89-205\n
+~\n
+Call Information:\n
+\n
+Call Number:~4892\n
+Call Type:~ FIRE WIRES\n
+Source:~DISPATCHED BY YORK COUNTY 911\n
+Priority:~ 4\n
+Status:~IN PROGRESS\n
+Assigned To:~CALL TAKER 5\n
+Caller:~Robinson,~John\n
+Call Date/Time:~10/29/2011 20:27:54\n
+Dispatch Date/Time:~10/29/2011 20:32:12\n
+Arrive Date/Time:~\n
+Clear Date/Time:~\n
+Enroute Date/Time:~\n
+Latest Unit Cleared Date/Time:~\n
+~\n
+Incident Number(s)\n
+2011-00001730~~GOODWILL FIRE COMPANY NO. 1 YORK TOWNSHIP\n
+2011-00003667~~YORK AREA UNITED FIRE AND RESCUE\n
+~\n
+Units Sent:~2\n
+FIRESTA892, E19~\n
+\n
+Alerts:\n
+~\n
+Location Alerts\n
+\n
+Person Alerts\n
+\n
+Vehicle Alerts\n
+~~\n
+Narrative:\n
+\n
+Narrative Time~Narrative\n
+10/29/11 20:28:39~c/o adv that they have wires sparking in the front yard\n
+10/29/11 20:28:45~not threatening home but near tree branches\n
+10/29/11 20:28:50~c/o does not have power\n
+10/29/11 20:28:59~do not see flames\n
+10/29/11 20:29:22~wires are not down, they are sparking in the air\n
+10/29/11 20:31:20~Nature Of Call: odor of gas outside\n
+10/29/11 20:32:05~Nature Of Call: wires sparking
+
+Body:Rip and Run Report\n
+Rip and Run Report\n
+\n
+~\n
+Location Information:\n
+\n
+Location:~1450~BEE TREE~RD~\n
+Venue:~SP GARDEN TWP\n
+Cross Streets~\n
+HIGHLAND TER / SUMMIT TER\n
+Quadrant:~89-205\n
+District:~89-205\n
+~\n
+Call Information:\n
+\n
+Call Number:~4892\n
+Call Type:~ FIRE WIRES\n
+Source:~DISPATCHED BY YORK COUNTY 911\n
+Priority:~ 4\n
+Status:~IN PROGRESS\n
+Assigned To:~CALL TAKER 5\n
+Caller:~Robinson,~John\n
+Call Date/Time:~10/29/2011 20:27:54\n
+Dispatch Date/Time:~10/29/2011 20:32:12\n
+Arrive Date/Time:~\n
+Clear Date/Time:~\n
+Enroute Date/Time:~\n
+Latest Unit Cleared Date/Time:~\n
+~\n
+Incident Number(s)\n
+2011-00001730~~GOODWILL FIRE COMPANY NO. 1 YORK TOWNSHIP\n
+2011-00003667~~YORK AREA UNITED FIRE AND RESCUE\n
+~\n
+Units Sent:~2\n
+FIRESTA892, E19~\n
+\n
+Alerts:\n
+~\n
+Location Alerts\n
+\n
+Person Alerts\n
+\n
+Vehicle Alerts\n
+~~\n
+Narrative:\n
+\n
+Narrative Time~Narrative\n
+10/29/11 20:28:39~c/o adv that they have wires sparking in the front yard\n
+10/29/11 20:28:45~not threatening home but near tree branches\n
+10/29/11 20:28:50~c/o does not have power\n
+10/29/11 20:28:59~do not see flames\n
+10/29/11 20:29:22~wires are not down, they are sparking in the air\n
+10/29/11 20:31:20~Nature Of Call: odor of gas outside\n
+10/29/11 20:32:05~Nature Of Call: wires sparking
+
 **********************************************************
 Chester County, PA (alternate)
 Contact: Bob Gliem <goshenfire@gmail.com>
