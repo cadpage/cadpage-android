@@ -51,6 +51,11 @@ public class JulianDateTest {
     int diff2 = jdt2.diffDays(jdt1);
     assertEquals(title+":rev check", diff1, -diff2);
     
+    JulianDate jdt1A = new JulianDate(jdt2, diff2);
+    JulianDate jdt2A = new JulianDate(jdt1, diff1);
+    assertEquals(title+":add1 check", jdt2, jdt2A);
+    assertEquals(title+":add2 check", jdt1, jdt1A);
+    
     t1.add(Calendar.DAY_OF_YEAR, diff1);
     assertEquals(title+":main check", t1.getTime().getTime(), t2.getTime().getTime());
   }

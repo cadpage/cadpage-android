@@ -69,6 +69,7 @@ public class GenFreeRiders {
    * @param line
    */
   private static final Pattern OPEN_BRACKET = Pattern.compile("[<({\\[]");
+  private static final Pattern VALID_EMAIL = Pattern.compile("\\d+|[\\w\\.]+@[\\w\\.]+");
   private static String cvtUser(String line) {
     try {
       // parse name and user account from line
@@ -86,7 +87,7 @@ public class GenFreeRiders {
       }
       
       // Final validity check
-      if (user.length() == 0 || user.contains(" ") || ! user.contains("@")) {
+      if (!VALID_EMAIL.matcher(user).matches()) {
         throw new RuntimeException("Malformed user account");
       }
       
