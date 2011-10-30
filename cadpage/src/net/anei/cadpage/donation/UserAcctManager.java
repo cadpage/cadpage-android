@@ -10,6 +10,7 @@ import android.accounts.Account;
 import android.accounts.AccountManager;
 import android.accounts.OnAccountsUpdateListener;
 import android.content.Context;
+import android.telephony.TelephonyManager;
 
 public abstract class UserAcctManager {
   
@@ -26,6 +27,11 @@ public abstract class UserAcctManager {
   public abstract String getUser();
   
   /**
+   * @return device phone number
+   */
+  public abstract String getPhoneNumber();
+  
+  /**
    * Append account information to support message under construction
    * @param sb String builder holding message being constructed
    */
@@ -33,6 +39,8 @@ public abstract class UserAcctManager {
     sb.append("User:");
     sb.append(getUser());
     sb.append('\n');
+    sb.append("Phone:");
+    sb.append(getPhoneNumber());
   }
 
   // This really is used, but we have to invoke the class at runtime because it
@@ -41,18 +49,21 @@ public abstract class UserAcctManager {
     
     Context context;
     private String userEmail = null;
+    private String phoneNumber = null;
     
     @Override
     public void setContext(Context context) {
       this.context = context;
       AccountManager.get(context).addOnAccountsUpdatedListener(this, null, true);
+      TelephonyManager tMgr =(TelephonyManager)context.getSystemService(Context.TELEPHONY_SERVICE);
+      phoneNumber = tMgr.getLine1Number();
+      if (phoneNumber == null) phoneNumber = tMgr.getVoiceMailNumber();
+      checkAccount(phoneNumber, false);
     }
   
     @Override
     public void onAccountsUpdated(Account[] accts) {
       userEmail = null;
-      String[] freeList = context.getResources().getStringArray(R.array.free_rider_list);
-      String[] paid2011List = context.getResources().getStringArray(R.array.paid_2011_list);
       for (Account acct : accts) {
         if (acct.type.equals("com.google")) {
           String name = acct.name;
@@ -60,20 +71,31 @@ public abstract class UserAcctManager {
           if (pt >= 0) name = name.substring(0,pt);
           if (name.startsWith(".")) name = name.substring(1);
           if (name.endsWith(".")) name = name.substring(0,name.length()-1);
-          String hash = calcHash(acct.name);
           if (userEmail == null) userEmail = name;
-          if (Arrays.binarySearch(freeList, hash) >= 0) {
-            userEmail = name;
-            ManagePreferences.setFreeRider(true);
-          }
-          if (Arrays.binarySearch(paid2011List, hash) >= 0) {
-            ManagePreferences.setPaidYear(2011, true);
-            if (ManagePreferences.purchaseDate() == null) {
-              ManagePreferences.setPurchaseDate(new Date());
-            }
-            if (userEmail == null) userEmail = name;
-          }
+          checkAccount(name, true);
         }
+      }
+    }
+    
+    /**
+     * Check an account number/phone number against precompiled lists of users
+     * @param acct account number/phone number
+     * @param isAcct true if account number, false if phone number
+     */
+    private void checkAccount(String acct, boolean isAcct) {
+      String[] freeList = context.getResources().getStringArray(R.array.free_rider_list);
+      String[] paid2011List = context.getResources().getStringArray(R.array.paid_2011_list);
+      String hash = calcHash(acct);
+      if (Arrays.binarySearch(freeList, hash) >= 0) {
+        if (isAcct) userEmail = acct;
+        ManagePreferences.setFreeRider(true);
+      }
+      if (Arrays.binarySearch(paid2011List, hash) >= 0) {
+        ManagePreferences.setPaidYear(2011, true);
+        if (ManagePreferences.purchaseDate() == null) {
+          ManagePreferences.setPurchaseDate(new Date());
+        }
+        if (isAcct && userEmail == null) userEmail = acct;
       }
     }
     
@@ -91,6 +113,11 @@ public abstract class UserAcctManager {
     @Override
     public String getUser() {
       return userEmail;
+    }
+
+    @Override
+    public String getPhoneNumber() {
+      return phoneNumber;
     }
   }
 
@@ -111,6 +138,11 @@ public abstract class UserAcctManager {
      */
     @Override
     public String getUser() {
+      return null;
+    }
+
+    @Override
+    public String getPhoneNumber() {
       return null;
     }
   }

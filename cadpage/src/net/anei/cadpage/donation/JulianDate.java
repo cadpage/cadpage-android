@@ -19,6 +19,30 @@ public class JulianDate {
     year = cal.get(Calendar.YEAR);
     day = cal.get(Calendar.DAY_OF_YEAR);
   }
+  
+  public JulianDate(JulianDate jdate) {
+    year = jdate.year;
+    day = jdate.day;
+  }
+  
+  public JulianDate(JulianDate jdate, int incr) {
+    year = jdate.year;
+    day = jdate.day + incr;
+    
+    if (day < 1) {
+      while (day < 1) { 
+        year--;
+        day += daysInYear(year);
+      }
+    } else {
+      int limit = daysInYear(year);
+      while (day > limit) {
+        year++;
+        day -= limit;
+        limit = daysInYear(year);
+      }
+    }
+  }
 
   /**
    * Set year
@@ -82,6 +106,11 @@ public class JulianDate {
     if (date == null || !(date instanceof JulianDate)) return false;
     JulianDate jDate = (JulianDate)date;
     return (day == jDate.day && year == jDate.year);
+  }
+
+  @Override
+  public int hashCode() {
+    return year * 366 + day;
   }
 
   @Override

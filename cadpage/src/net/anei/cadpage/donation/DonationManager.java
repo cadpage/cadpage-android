@@ -214,35 +214,19 @@ public class DonationManager {
     code = code.toUpperCase();
     
     // See if it matches todays hash code
-    Date curDate = getCurDate();
-    if (code.equals(calcAuthCode(curDate))) return true;
+    JulianDate jDate = new JulianDate(new Date());
+    if (code.equals(calcAuthCode(jDate))) return true;
     
     // No luck, see if it matches yesterdays has code
-    Calendar cal = new GregorianCalendar();
-    cal.setTime(curDate);
-    cal.add(Calendar.DAY_OF_YEAR, -1);
-    curDate = cal.getTime();
-    return (code.equals(calcAuthCode(curDate)));
+    jDate = new JulianDate(jDate, -1);
+    return (code.equals(calcAuthCode(jDate)));
   }
   
   /**
    * @return Today's authorization code
    */
   public static String getAuthCode() {
-    return calcAuthCode(getCurDate());
-  }
-  
-  /**
-   * @return current date with any partial day components removed
-   */
-  private static Date getCurDate() {
-    Calendar cal = new GregorianCalendar();
-    cal.setTimeInMillis(System.currentTimeMillis());
-    cal.set(Calendar.HOUR_OF_DAY, 0);
-    cal.set(Calendar.MINUTE, 0);
-    cal.set(Calendar.SECOND, 0);
-    cal.set(Calendar.MILLISECOND, 0);
-    return cal.getTime();
+    return calcAuthCode(new JulianDate(new Date()));
   }
   
   /**
@@ -250,8 +234,8 @@ public class DonationManager {
    * @param date date to be hashed
    * @return return hashed authorization string
    */
-  private static String calcAuthCode(Date date) {
-    Random rnd = new Random(date.getTime());
+  private static String calcAuthCode(JulianDate jdate) {
+    Random rnd = new Random(jdate.hashCode());
     int val = Math.abs(rnd.nextInt());
     StringBuffer sb = new StringBuffer();
     for (int j = 0; j < 8; j++) {
