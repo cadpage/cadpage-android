@@ -5,10 +5,10 @@ import net.anei.cadpage.parsers.BaseParserTest;
 import org.junit.Test;
 
 
-public class VAWightParserTest extends BaseParserTest {
+public class VAIsleOfWightCountyParserTest extends BaseParserTest {
   
-  public VAWightParserTest() {
-    setParser(new VAWightCountyParser(), "WIGHT COUNTY", "VA");
+  public VAIsleOfWightCountyParserTest() {
+    setParser(new VAIsleOfWightCountyParser(), "WIGHT COUNTY", "VA");
   }
   
   @Test
@@ -50,6 +50,6 @@ public class VAWightParserTest extends BaseParserTest {
   }
   
   public static void main(String[] args) {
-    new VAWightParserTest().generateTests("T1");
+    new VAIsleOfWightCountyParserTest().generateTests("T1");
   }
 }

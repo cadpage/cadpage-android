@@ -249,8 +249,8 @@ public class TNWashingtonCountyParserTest extends BaseParserTest {
         "ID:111");
 
     doTest("T23",
-        "prvs=268de3f1a=JCFDTEXT@johnsoncitytn.orgOverdose/Ingestion/Poisoning-CHARLIE M13,E3\n110 TERRACE CT #1\nTERRACE COURT APARTMENTS\nX-STR= S ROAN ST\nDEAD END\n;REECE TERRACE APTS\nMap",
-        "CALL:prvs=268de3f1a=JCFDTEXT@johnsoncitytn.orgOverdose/Ingestion/Poisoning",
+        "prvs=268de3f1a=JCFDTEXT@johnsoncitytn.org Overdose/Ingestion/Poisoning-CHARLIE M13,E3\n110 TERRACE CT #1\nTERRACE COURT APARTMENTS\nX-STR= S ROAN ST\nDEAD END\n;REECE TERRACE APTS\nMap",
+        "CALL:Overdose/Ingestion/Poisoning",
         "PRI:C",
         "UNIT:M13,E3",
         "ADDR:110 TERRACE CT",
@@ -327,6 +327,14 @@ public class TNWashingtonCountyParserTest extends BaseParserTest {
         "ADDR:I26E & MILE MARKER 14",
         "TIME:15:38:04",
         "ID:117287");
+
+    doTest("T31",
+        "prvs=2751bae6e=JCFDTEXT@johnsoncitytn.org Assault 442,431,E4\n241 W MAIN ST\nDOWNTOWN APARTMENTS\nCross Streets N BOONE ST\nWHITNEY ST\nW WATAUGA AV 22:50:49\nThink green: Only print th",
+        "CALL:Assault",
+        "UNIT:442,431,E4",
+        "ADDR:241 W MAIN ST",
+        "PLACE:DOWNTOWN APARTMENTS - Cross Streets N BOONE ST - WHITNEY ST - W WATAUGA AV",
+        "TIME:22:50:49");
 
   }
   

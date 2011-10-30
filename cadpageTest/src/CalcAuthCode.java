@@ -6,7 +6,7 @@ import net.anei.cadpage.donation.DonationManager;
 public class CalcAuthCode {
   public static void main(String[] args) {
     String code = DonationManager.getAuthCode();
-    System.out.println("Todays authorization code is " + code);
+    System.out.println("Todays authorization code is " + code + " or " + code.toLowerCase());
   }
 
 }
