@@ -219,6 +219,13 @@ public class DESussexCountyAParserTest extends BaseParserTest {
         "ADDR:36101 Seaside Blvd",
         "CITY:Rehoboth Beach",
         "PLACE:Brandywine Assisted Living");
+
+    doTest("T38",
+        "Subject:Chief ALT\n[71 EMS] -- Assault/Sexual Assault-ALS -- 25687 Cornelia St Seaford 19973\n",
+        "SRC:71 EMS",
+        "CALL:Assault/Sexual Assault-ALS",
+        "ADDR:25687 Cornelia St",
+        "CITY:Seaford");
     
   }
   

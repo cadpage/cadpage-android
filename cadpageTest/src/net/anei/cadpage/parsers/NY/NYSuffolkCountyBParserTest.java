@@ -280,9 +280,16 @@ public class NYSuffolkCountyBParserTest extends BaseParserTest {
         "CODE:31-D-3",
         "ID:2011-004568",
         "INFO:UNCONSCIOUS / FAINTING (NEAR) I/V/O NURSERY E/M");
+
+    doTest("T44",
+        "*** 16 *** 24 FOXHURST RD CS: DIX HILLS RD TOA: 16:16 10-29-11 2011-004718",
+        "CALL:16",
+        "ADDR:24 FOXHURST RD",
+        "X:DIX HILLS RD",
+        "ID:2011-004718");
   }
   
   public static void main(String[] args) {
-    new NYSuffolkCountyBParserTest().generateTests("T44");
+    new NYSuffolkCountyBParserTest().generateTests("T45");
   }
 }
