@@ -65,7 +65,7 @@ public class NYSuffolkCountyBParser extends FieldProgramParser {
   
   public NYSuffolkCountyBParser() {
     super(CITY_LIST, "SUFFOLK COUNTY", "NY",
-           "ADDR/SP! CS:X! ADTML:CODE? TOA:TOA TYPE:INFO");
+           "ADDR/SP! CS:X! ADTML:CODE? TOA:TIMEDATE TYPE:INFO");
   }
   
   @Override
@@ -85,16 +85,19 @@ public class NYSuffolkCountyBParser extends FieldProgramParser {
     return true;
   }
 
-  private static final Pattern TIME_DATE = Pattern.compile("^\\d\\d:\\d\\d \\d\\d[-/]\\d\\d[-/]\\d\\d ");
+  private static final Pattern TIME_DATE = Pattern.compile("^(\\d\\d:\\d\\d) (\\d\\d[-/]\\d\\d[-/]\\d\\d) ");
   private static final Pattern ANGLE_BKT_PTN = Pattern.compile("<[^<>]*>");
   private static final Pattern ID_PTN = Pattern.compile("\\b\\d{4}-\\d{6}\\b");
   private static final Pattern DISTRICT_PTN = Pattern.compile("\\b(?:NORTH BABYLON FC|AMITYVILLE FD|DEER PARK FIRE DISTRICT|PT JEFFERSON)\\b");
-  private class MyToaField extends InfoField {
+  private class MyTimeDateField extends InfoField {
     
     @Override
     public void parse(String field, Data data) {
       Matcher match = TIME_DATE.matcher(field);
-      if (match.find()) field = field.substring(match.end()).trim();
+      if (!match.find()) abort();
+      data.strTime = match.group(1);
+      data.strDate = match.group(2);
+      field = field.substring(match.end()).trim();
       field = ANGLE_BKT_PTN.matcher(field).replaceAll("");
      match = DISTRICT_PTN.matcher(field);
       if (match.find()) {
@@ -112,13 +115,13 @@ public class NYSuffolkCountyBParser extends FieldProgramParser {
     
     @Override
     public String getFieldNames() {
-      return "SRC ID INFO";
+      return "TIME DATE SRC ID INFO";
     }
   }
   
   @Override
   public Field getField(String name) {
-    if (name.equals("TOA")) return new MyToaField();
+    if (name.equals("TIMEDATE")) return new MyTimeDateField();
     return super.getField(name);
   }
   

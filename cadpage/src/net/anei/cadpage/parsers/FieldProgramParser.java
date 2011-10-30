@@ -1727,7 +1727,7 @@ public class FieldProgramParser extends SmartAddressParser {
   }
 
   /**
-   * Time field processor
+   * Date/Time field processor
    */
   public class DateTimeField extends Field {
 
@@ -1742,6 +1742,25 @@ public class FieldProgramParser extends SmartAddressParser {
     @Override
     public String getFieldNames() {
       return "DATE TIME";
+    }
+  }
+
+  /**
+   * Time/Date field processor
+   */
+  public class TimeDateField extends Field {
+
+    @Override
+    public void parse(String field, Data data) {
+      int pt = field.indexOf(' ');
+      if (pt < 0) abort();
+      data.strTime = field.substring(0,pt).trim();
+      data.strDate = field.substring(pt+1).trim();
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "TIME DATE";
     }
   }
   
@@ -1825,6 +1844,7 @@ public class FieldProgramParser extends SmartAddressParser {
     if (name.equals("DATE")) return new DateField();
     if (name.equals("TIME")) return new TimeField();
     if (name.equals("DATETIME")) return new DateTimeField();
+    if (name.equals("TIMEDATE")) return new TimeDateField();
     if (name.equals("SKIP")) return new SkipField();
     if (name.equals("INTLS")) return new InitialsField();
     if (name.equals("END")) return new EndField();
