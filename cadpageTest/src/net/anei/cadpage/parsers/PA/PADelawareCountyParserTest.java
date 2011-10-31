@@ -24,4 +24,10 @@ public class PADelawareCountyParserTest {
       setParser(new PADelawareCountyParser());
     }
   }
+  
+  public static class TestD extends PADelawareCountyDParserTest {
+    public TestD() {
+      setParser(new PADelawareCountyParser());
+    }
+  }
 }
