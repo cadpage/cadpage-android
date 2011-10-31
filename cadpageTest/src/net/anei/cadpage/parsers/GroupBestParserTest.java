@@ -1,7 +1,7 @@
 package net.anei.cadpage.parsers;
 
 import net.anei.cadpage.parsers.CO.COAdamsCountyParser;
-import net.anei.cadpage.parsers.CO.COGreeleyParser;
+import net.anei.cadpage.parsers.CO.COWeldCountyParser;
 import net.anei.cadpage.parsers.CO.CONorthglennEMSParser;
 
 import org.junit.Test;
@@ -12,7 +12,7 @@ public class GroupBestParserTest extends BaseParserTest {
   public GroupBestParserTest() {
     SmsMsgParser[] parsers = new SmsMsgParser[]{
         new COAdamsCountyParser(),
-        new COGreeleyParser(),
+        new COWeldCountyParser(),
         new CONorthglennEMSParser()
     };
     setParser(new GroupBestParser(parsers), "", "");
