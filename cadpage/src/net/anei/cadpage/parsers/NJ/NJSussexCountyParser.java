@@ -28,6 +28,7 @@ Contact: mpraff15 <mpraff15@gmail.com>
 Sender: 6245
 kbrown@andpd (I-2011-000155) PUMP @ 6 RAMSEY COURT  , FRELINGHUYSEN - WARREN COUNTY COMMUNICATIONS REQUESTING A PUMP OUT FOR THE FOOT OF WATER IN BASEMENT.
 jcasella@andpd (I-2011-000194) MVA-F @  ROUTE 94  , GREEN TWP - \nin front of wilbur's country storE
+JHOLMES@andpd (I-2011-000217) FUEL @ 231 PEQUEST ROAD  , GREEN TWP -
 
  */
 
@@ -36,7 +37,7 @@ public class NJSussexCountyParser extends SmartAddressParser {
   
   private static final Pattern SUBJECT_PTN = Pattern.compile("I-[A-Z]?\\d{4}-\\d{6}");
   private static final Pattern MASTER_PTN = 
-    Pattern.compile("([-A-Z ]+) @ ([^,]+)  , ([^-]*) - (.*)"); 
+    Pattern.compile("([-A-Z ]+) @ ([^,]+)  , ([^-]*) -(?: (.*))?"); 
   
   public NJSussexCountyParser() {
     super("SUSSEX COUNTY", "NJ");
@@ -53,7 +54,7 @@ public class NJSussexCountyParser extends SmartAddressParser {
     data.strCall = match.group(1).trim();
     parseAddress(match.group(2).trim(), data);
     data.strCity = match.group(3).trim();
-    String sInfo = match.group(4).trim();
+    String sInfo = getOptGroup(match.group(4));
     if (data.strAddress.equals("OUT OF TOWN")) {
       data.strAddress = "";
       parseAddress(StartType.START_ADDR, sInfo, data);
