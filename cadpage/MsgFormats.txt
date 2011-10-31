@@ -507,6 +507,11 @@ HOWARDS CREEK RD / SUGARLOAF RD FDL 71B01 2011013987 16:02:05 VEHICLE FIRE 421N-
 524 JONES DR BOONE MDL 01A01 2011013875 02:10:09 ABDOMINAL PAIN 194S-CHESTNUT GRV RD-LT COBBS CREEK RD-1ST RT JONES DR
 131 BIG VALLEY ST BOONE 2011013813 13:15:57 STRUCTURE FIRE 321S-LT DEERFIELD RD-TRAVEL 2.0 MI-RT BIG VALLEY ST INTO DEERFIELD MEADOWS BUSINESS PARK
 *******************************************************************************
+Henry County, VA (VAHenryCountyParser)
+480 LEWIS RD MARTINSVILLE 2011095252 12:30:03 RFA-(3) FALL - FRACTURE
+2900 DILLONS FORK RD FIELDALE 2011095631 08:16:38 ROV-(2) OVERDOSE
+2487 SPRUCE ST MARTINSVILLE 2011095614 06:57:08 RFA-(3) FALL - FRACTURE
+*******************************************************************************
 *******************************************************************************
 * DispatchGlobalDispatchParser subclasses
 *******************************************************************************
@@ -1690,11 +1695,6 @@ Halifax County, VA (VAHalifaxCountyParser)
 [from Central]  11-023176 FALLEN PATIENT\n2210 N TERRYS BRIDGE RD\nJAMES D HAGOOD HWY //SUNSET LN\nHALIFAX
 [from Central]  11-023175 FALLEN PATIENT\n1167 LEWIS FERRELL RD\nOAK LEVEL RD / LITTL/E CIR\nSOUTH BOSTON
 [from Central]  11-023166 EMERGENCY MEDICAL SERVICE\n111-22 ROSEHILL DR\nPOWELL RD / DEAD END/EN\nROSE HILL APARTMENTS  SOUTH BOSTON
-***************************************************************************
-Henrey County, VA (VAHenryCountyParser)
-(CAD Call) 2010094339\nR2-(1) DIFFICULTY BREATHING\n999 MORGAN FORD RD RIDGEWAY
-(CAD Call) 2010094406\nRFA-(3) FALL / FRACTURE\n247 DEVONSHIRE DR RIDGEWAY\nALTERED MENTAL STATUS
-(CAD Call) 2010094372\n1 LEE FORD CAMP RD RIDGEWAY\n@ 220 - TK & SUV
 ***************************************************************************
 Lexington & Rockbridge Counties VA (VALexingtonRockbridgeCounty)
 [LCAD] Type: EMS-TRNSPORT Loc: 429 W NELSON ST Units: LXRS1, City: LEXINGTON 1/27/2011 2:10:08 PM SPORT. BRUSHY 1\nMessage Created 1/27/2011 2:10:00 PM
@@ -3284,11 +3284,6 @@ SUBJ:<No Subject>
 MSG:
 924 UE81:14:02:00-43:U46:CHECK NORTH SIDE OF THE ROAD FOR A POSS FIELD FIRE:@RINEHART RD@SWEET POTATO RIDGE RD,CLAYTON: 
 **********************************************************
-Henry County, VA (alternate)
-Contact: David Roach <dr2403@email.vccs.edu>
-sender: 6245 
-MHC  S: M:24 HILL-N-DALE RD MARTINSVILLE 2011092972 12:14:44 RFA-(3) FALL / FRACTURE\n
-**********************************************************
 Montgomery County, PA (alternate)
 Contact: myfranchisepartners <myfranchisepartners@gmail.com>
 Sender: worcesterfd@verizon.net
@@ -3381,21 +3376,15 @@ g system but I cannot be positive as I only work for the paramedic division.
 TRIP: 201110-078086         CANCEL: NN - Not Needed    
 AtScn: 01:28  InSvc: 01:29
 **********************************************************
+Bell County, TX (alternate)
+Contact: "kk_customs@yahoo.com" <kk_customs@yahoo.com>
+Sender: 777101378742
+CITY OF TEMPLE Incidents. Caller Statement: TTA MULTIPLE INJ . TTA MULTIPLE INJ ProQA dispatch code: 29D02 Dispatch level suffix: l Response text: Delta Responder script: HIGH MECHANISM (k through s) (Auto-bicycle/motorcycle). 1.The incident involves a motorcycle. TXT STOP to opt-out
+**********************************************************
 **********************************************************
 ************  READY TO ROLL ******************************
 **********************************************************
 **********************************************************
-**********************************************************
-Hentry County, VA (replacement)
-Contact: Hamp Ingram <emt.basics@gmail.com>
-Sender: MHC911@co.henry.va.us
-SouthernParser
-480 LEWIS RD MARTINSVILLE 2011095252 12:30:03 RFA-(3) FALL - FRACTURE
-2900 DILLONS FORK RD FIELDALE 2011095631 08:16:38 ROV-(2) OVERDOSE
-2487 SPRUCE ST MARTINSVILLE 2011095614 06:57:08 RFA-(3) FALL - FRACTURE
-1890 DANIELS CREEK RD COLLINSVILLE 2011095584 22:15:45 RSI-(2) SICK
-2630 VIRGINIA AVE COLLINSVILLE 2011095480 11:35:03 RDZ-(3) DIZZINESS, WEAKNESS
-1385 WINGFIELD ORCHARD RD MARTINSVILLE 2011095447 07:31:58 R3-(1) CHEST PAINS
 **********************************************************
 Weld County, CO (variant of Greeley, CO)
 Contact: Kevin Hudson <motorworks3@gmail.com>
