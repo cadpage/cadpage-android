@@ -58,6 +58,9 @@ TYPE: CHEST PAIN LOC: 3845 VETERANS MEMORIAL HWY RONKON: @HOLIDAY INN RONKONKOMA
 Contact: Michael Bellis <bellis.michael@gmail.com>
 Sender: paging@scfres.com
 TYPE: UNKNOWN PROBLEM LOC: 195 CUBA HILL RD GREENL  CROSS: MANOR RD / DANVILLE DR CODE: 32-B-2 TIME: 17:30:40
+TYPE: STRUCTURE FIRE LOC: 1 ARNOLD DR HUNTIN  CROSS: PARTRIDGE LN /  CODE: default TIME: 06:38:03
+TYPE: STRUCTURE FIRE LOC: 6 MAJESTIC DR DIXHIL  CROSS: ROYAL LN / REGENCY LN CODE: 69-D-6 TIME: 02:22:25
+TYPE: FALLS LOC: 37 WATERSIDE AV NORTHP  CROSS: MONROE ST / WILLIS ST CODE: 17-B-3 TIME: 13:40:45
 
 */
 
@@ -69,14 +72,17 @@ public class NYSuffolkCountyAParser extends SmartAddressParser {
       "BAYSHO", "Bay Shore",
       "BRENTW", "Brentwood",
       "CENTEM", "Center Moriches",
+      "DIXHIL", "Dix Hills",
       "EMORIC", "East Moriches",
       "EPATCH", "East Patchogue",
       "GREENL", "Greenlawn",
+      "HUNTIN", "Huntington",
       "HAUPPA", "Hauppauge",
       "MANORV", "Manorville",
       "MASTIC", "Mastic",
       "MORICH", "Moriches",
       "NBAYSH", "Bay Shore",
+      "NORTHP", "Northport",
       "OAKDAL", "Oakdale",
       "PATCH",  "Patchogue",
       "SHIRLE", "Shirley",

@@ -3381,6 +3381,12 @@ Contact: "kk_customs@yahoo.com" <kk_customs@yahoo.com>
 Sender: 777101378742
 CITY OF TEMPLE Incidents. Caller Statement: TTA MULTIPLE INJ . TTA MULTIPLE INJ ProQA dispatch code: 29D02 Dispatch level suffix: l Response text: Delta Responder script: HIGH MECHANISM (k through s) (Auto-bicycle/motorcycle). 1.The incident involves a motorcycle. TXT STOP to opt-out
 **********************************************************
+Unknown
+Contact: Rob <robertjr1975@aol.com>
+Sender: singerly@gmail.com
+FRM:singerly@gmail.com\nMSG:1304A\nBUILDING FIRE\nELKTON MIDDLE SCHOOL @615 NORT\n23:20:22\n11021680\n23:23:02\nCALLER DRIVING BY SCHOOL AND S
+**********************************************************
+**********************************************************
 **********************************************************
 ************  READY TO ROLL ******************************
 **********************************************************
