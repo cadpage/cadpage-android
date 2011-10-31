@@ -77,6 +77,7 @@ public class NYSuffolkCountyAParser extends SmartAddressParser {
       "EPATCH", "East Patchogue",
       "GREENL", "Greenlawn",
       "HUNTIN", "Huntington",
+      "HUNTIS", "Huntington Station",
       "HAUPPA", "Hauppauge",
       "MANORV", "Manorville",
       "MASTIC", "Mastic",
