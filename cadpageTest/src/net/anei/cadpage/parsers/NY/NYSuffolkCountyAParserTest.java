@@ -170,9 +170,33 @@ public class NYSuffolkCountyAParserTest extends BaseParserTest {
         "CITY:Greenlawn",
         "X:MANOR RD / DANVILLE DR",
         "CODE:32-B-2");
+
+    doTest("T23",
+        "TYPE: STRUCTURE FIRE LOC: 1 ARNOLD DR HUNTIN  CROSS: PARTRIDGE LN /  CODE: default TIME: 06:38:03",
+        "CALL:STRUCTURE FIRE",
+        "ADDR:1 ARNOLD DR",
+        "CITY:Huntington",
+        "X:PARTRIDGE LN /",
+        "CODE:default");
+
+    doTest("T24",
+        "TYPE: STRUCTURE FIRE LOC: 6 MAJESTIC DR DIXHIL  CROSS: ROYAL LN / REGENCY LN CODE: 69-D-6 TIME: 02:22:25",
+        "CALL:STRUCTURE FIRE",
+        "ADDR:6 MAJESTIC DR",
+        "CITY:Dix Hills",
+        "X:ROYAL LN / REGENCY LN",
+        "CODE:69-D-6");
+
+    doTest("T25",
+        "TYPE: FALLS LOC: 37 WATERSIDE AV NORTHP  CROSS: MONROE ST / WILLIS ST CODE: 17-B-3 TIME: 13:40:45",
+        "CALL:FALLS",
+        "ADDR:37 WATERSIDE AV",
+        "CITY:Northport",
+        "X:MONROE ST / WILLIS ST",
+        "CODE:17-B-3");
   }
   
   public static void main(String[] args) {
-    new NYSuffolkCountyAParserTest().generateTests("T21", "CALL ADDR CITY PLACE X CODE INFO");
+    new NYSuffolkCountyAParserTest().generateTests("T25", "CALL ADDR CITY PLACE X CODE INFO");
   }
 }
