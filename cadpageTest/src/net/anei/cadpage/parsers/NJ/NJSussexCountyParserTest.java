@@ -122,9 +122,16 @@ public class NJSussexCountyParserTest extends BaseParserTest {
         "ADDR:ROUTE 94",
         "CITY:GREEN TWP",
         "INFO:in front of wilbur's country storE");
+
+    doTest("T9",
+        "JHOLMES@andpd (I-2011-000217) FUEL @ 231 PEQUEST ROAD  , GREEN TWP -",
+        "ID:I-2011-000217",
+        "CALL:FUEL",
+        "ADDR:231 PEQUEST ROAD",
+        "CITY:GREEN TWP");
  }
   
   public static void main(String[] args) {
-    new NJSussexCountyParserTest().generateTests("T7", "ID CALL ADDR CITY INFO");
+    new NJSussexCountyParserTest().generateTests("T10", "ID CALL ADDR CITY INFO");
   }
 }
