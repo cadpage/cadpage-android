@@ -36,22 +36,34 @@ Sender: unpredictable
 " " (Dispatch) 22648,SIPFF -SICK & INJ   (F),3804 BURLINGTON AV.24 WA,, TXT STOP to opt-out
 " " (Dispatch) 23039,FIREGF-FIRE GRD CVR (F),103 N JOSEPHINE AV.32 29,TEXT:TREE W/ A POWER \nLINE TOUCH IT AND ITS SMOKING \COMP:DAVID \PH:405-8450,FG5 TXT STOP to opt-out
 
+Contact: Kevin Hudson <motorworks3@gmail.com>
+Sender: 93001026
+Dispatch,21461,SIPFF -SICK & INJ (F),CR 61/HY 34.37 WA,TEXT:NORTH OF HY 34 1 MILE, \nPATIENT IN A SEMI VOMITING \COMP:JOE ROBERTSON \PH:303-579-1849,FG3
+Dispatch,21489,TAIF -TA W/INJURY (F),CR 49/HY 34.37 WA,TEXT:HEAD ON\n\COMP:CHAD\n\n\PH:970.744.8045,FG7
+Dispatch,21489,TAIF -TA W/INJURY (F),CR 49/HY 34.37 WA,TEXT:HEAD ON\n\COMP:CHAD\n\n\PH:970.744.8045,FG7
+Dispatch,21461,SIPFF -SICK & INJ (F),CR 61/HY 34.37 WA,TEXT:NORTH OF HY 34 1 MILE,\n\nPATIENT IN A SEMI VOMITING \COMP:JOE ROBERTSON \P
+Dispatch,21415,SIPFF -SICK & INJ (F),24098 CR 50.37 WA,TEXT:RP NEEDING\nHELP OFF\n\nTHE FLOOR \COMP:EVELYN \PH:970.284.7774,FG5
+Dispatch,21377,FASIST-ASSIST (FIRE),21000 I 76.28,,
+Dispatch,21367,SIPFF -SICK & INJ (F),6876 CR 47.28 PVA56,TEXT:CHEST PAIN \COMP:JOSH\n\n\PH:303 319 9255,FG9
+Dispatch,21355,TAIF -TA W/INJURY (F),201 E BISON HY.28A PVA56,TEXT:BLU NEON, DIDN'T\n\nROLL. \COMP:NICKI \PH:970-215-5558,FG9
+
  */
 
 
-public class COGreeleyParser extends FieldProgramParser {
+public class COWeldCountyParser extends FieldProgramParser {
   
   private static final Pattern DELIM = Pattern.compile("[,\\\\]");
 
-  public COGreeleyParser() {
-    super("Greeley", "CO",
-          "ID CALL ADDR! TEXT:INFO+ COMP:INFO+ PH:PHONE");
+  public COWeldCountyParser() {
+    super("WELD COUNTY", "CO",
+          "ID CALL ADDR! TEXT:INFO INFO2+ COMP:NAME INFO+ PH:PHONE");
   }
 
   @Override
   protected boolean parseMsg(String body, Data data) {
 
     body = body.replace('\n', ' ').replaceAll("  +", " ");
+    if (body.startsWith("Dispatch,")) body = body.substring(9).trim();
     String[] flds = DELIM.split(body);
     return super.parseFields(flds, data);
   }
@@ -78,10 +90,26 @@ public class COGreeleyParser extends FieldProgramParser {
     }
   }
   
+  private class MyInfoField extends InfoField {
+    
+    private String delim;
+    
+    public MyInfoField(boolean cont) {
+      delim = (cont ? ", " : " / ");
+    }
+    
+    @Override
+    public void parse(String field, Data data) {
+      data.strSupp = append(data.strSupp, delim, field);
+    }
+  }
+  
   @Override
   public Field getField(String name) {
     if (name.equals("ID")) return new MyIdField();
     if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("INFO")) return new MyInfoField(false);
+    if (name.equals("INFO2")) return new MyInfoField(true);
     return super.getField(name);
   }
 }

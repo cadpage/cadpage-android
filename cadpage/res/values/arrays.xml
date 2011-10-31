@@ -188,6 +188,7 @@
     <item>NJBergenCounty</item>
     <item>COPuebloRFD</item>
     <item>VAWightCounty</item>
+    <item>COGreeley</item>
   </string-array>
   <string-array name="new_location_values">
     <item>NCChathamCounty</item>
@@ -197,6 +198,7 @@
     <item>NJMICOM</item>
     <item>COPuebloCounty</item>
     <item>VAIsleOfWightCounty</item>
+    <item>COWeldCounty</item>
   </string-array>
   
   <!-- Array of state names -->
@@ -261,10 +263,10 @@
     <item>COAdamsCounty</item>
     <item>CODouglasCounty</item>
     <item>COElbertCounty</item>
-    <item>COGreeley</item>
     <item>COLarimerCounty</item>
     <item>CONorthglennEMS</item>
     <item>COPuebloCounty</item>
+    <item>COWeldCounty</item>
     <item>CTLitchfieldCounty</item>
     <item>CTNewHavenCounty</item>
     <item>CTNorthBranford</item>
@@ -572,10 +574,10 @@
     <item>Adams County, CO</item>
     <item>Douglas County, CO</item>
     <item>Elbert County, CO</item>
-    <item>Greeley, CO</item>
     <item>Larimer County, CO</item>
     <item>Northglenn EMS, CO</item>
     <item>Pueblo County, CO</item>
+    <item>Weld County, CO</item>
     <item>Litchfield County, CT</item>
     <item>New Haven County, CT</item>
     <item>North Branford, CT</item>

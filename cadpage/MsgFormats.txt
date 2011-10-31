@@ -681,11 +681,6 @@ Douglas County, CO (CODouglasCountyParser)
 (Dispatch) Call: F MED ASSIST Location: 11710 PONDEROSA LN / Map: AF40D Units: E184 MED181 XXX184  PONDEROSA RD / ELKHORN DR Common Name: Time: 08/25/1
 (Dispatch) Call: F GAS LP OUTSIDE Location: DEERFIELD RD / S  WHITE TAIL DR I Map: AI38D Units: E181 XXX181  Common Name: Time: 08/25/11 20:07 Narrativ
 ***************************************************************************
-Greeley, CO (COGreelyParser) 
-20442,ALARMF,23691 CR 60H.E1 E4 L1,TEXT:AUDIBLE FROM GENERAL AND SMOKE DETECTOR \COMP:1ST CLASS SECURITY \PH:800 482 9800,
-20431,SMKODR,1ST ST/8TH AV.E4 L1,TEXT:SMELL OF NATURAL GAS ALL OVER THE AREA \COMP:W012,
-20373,SMKODR,10TH AV/22ND ST.E4 R1,TEXT:STRONG SMELL OF NATURAL GAS IN AIR IN THIS AREA \COMP:MIKE RUANE \PH:608 630 2959,
-***************************************************************************
 Larimer County, CO (COLarimerCountyParser)
 (BFPD) (CFS) Power Lines Down/Arcing        // E County Road 4 & Weld County // Apt/Lot            // Radio:MAC 5 NE                       //
 (BFPD) (CFS) MVA Unk Injury                 // 248790 Interstate 25 Sb // Apt/Lot            // Radio:TALK GP3                       // MM 249 SB I25
@@ -695,6 +690,11 @@ Pueblo RFD, CO (COPuebloParser)
 (Page ) 12:43PM 11/28 RURAL FIRE in the area of 1543 Cooper Pl report of heavy smoke no flames showing...kr
 (Page ) 04:26PM 12/13 rural fire:  hwy 50 & 27th ln; north side, 10 ft fire...tdb
 (Page ) 04:52PM 11/27 ATTN RURAL FIRE: 28141 south rd....male poss overdose...jaa
+***************************************************************************
+Weld County, CO (COWeldCountyParser) 
+20442,ALARMF,23691 CR 60H.E1 E4 L1,TEXT:AUDIBLE FROM GENERAL AND SMOKE DETECTOR \COMP:1ST CLASS SECURITY \PH:800 482 9800,
+20431,SMKODR,1ST ST/8TH AV.E4 L1,TEXT:SMELL OF NATURAL GAS ALL OVER THE AREA \COMP:W012,
+20373,SMKODR,10TH AV/22ND ST.E4 R1,TEXT:STRONG SMELL OF NATURAL GAS IN AIR IN THIS AREA \COMP:MIKE RUANE \PH:608 630 2959,
 ***************************************************************************
 Litchfield County, CT (CTLitchfieldCountyParser)
 (LCD) MEDIC 4 RESPOND TO 30 PARK LANE EAST   NEW MILFORD, ,   UNCONSCIOUS, 31-D-3 :09:22
@@ -3392,74 +3392,6 @@ FRM:singerly@gmail.com\nMSG:1304A\nBUILDING FIRE\nELKTON MIDDLE SCHOOL @615 NORT
 **********************************************************
 **********************************************************
 **********************************************************
-Weld County, CO (variant of Greeley, CO)
-Contact: Kevin Hudson <motorworks3@gmail.com>
-Sender: 93001026
-Dispatch,From GP9064:SUFFICIENT HELP OS AT CR 61/HY 34 PER COMMAND
-Dispatch,21461,SIPFF -SICK & INJ (F),CR 61/HY 34.37 WA,TEXT:NORTH OF HY 34 1 MILE, \nPATIENT IN A SEMI VOMITING \COMP:JOE ROBERTSON \PH:303-579-1849,FG3
-
-Dispatch,21489,TAIF -TA W/INJURY (F),CR 49/HY 34.37 WA,TEXT:HEAD ON
-\COMP:CHAD
-
-\PH:970.744.8045,FG7
-
-
-
-
-
-Fwd: Dispatch,21489,TAIF -TA W/INJURY (F),CR 49/HY 34.37 WA,TEXT:HEAD ON
-\COMP:CHAD
-
-\PH:970.744.8045,FG7
-
-
-
-
-
-Fwd: Dispatch,21461,SIPFF -SICK & INJ (F),CR 61/HY 34.37 WA,TEXT:NORTH OF HY
-34 1 MILE,
-
-PATIENT IN A SEMI VOMITING \COMP:JOE ROBERTSON \P
-
-
-
-
-
-Fwd: Dispatch,21461,SIPFF -SICK & INJ (F),CR 61/HY 34.37 WA,TEXT:NORTH OF HY
-34 1 MILE,
-
-PATIENT IN A SEMI VOMITING \COMP:JOE ROBERTSON \P
-
-
-
-
-
-Fwd: Dispatch,21415,SIPFF -SICK & INJ (F),24098 CR 50.37 WA,TEXT:RP NEEDING
-HELP OFF
-
-THE FLOOR \COMP:EVELYN \PH:970.284.7774,FG5
-
-
-
-
-
-Fwd: Dispatch,21377,FASIST-ASSIST (FIRE),21000 I 76.28,,
-
-
-
-Fwd: Dispatch,21367,SIPFF -SICK & INJ (F),6876 CR 47.28 PVA56,TEXT:CHEST
-PAIN \COMP:JOSH
-
-\PH:303 319 9255,FG9
-
-
-
-
-
-Fwd: Dispatch,21355,TAIF -TA W/INJURY (F),201 E BISON HY.28A PVA56,TEXT:BLU
-NEON, DIDN'T
-
-ROLL. \COMP:NICKI \PH:970-215-5558,FG9
 **********************************************************
 Deleware County, PA (Alternate)
 Contact: chris smith <csmith045@verizon.net>
