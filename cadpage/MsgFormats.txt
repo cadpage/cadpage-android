@@ -741,10 +741,15 @@ Kent County, DE (DEKentCountyParser)
 [!]  [K] Alarms-Residential (single) 121 BIRKDALE LN Camden Wyoming : TRAYBERN Xst's: BIRKDALE WAY / N HIGH HILL RD, TRAYBERN WAY Caller: ADT
 [!]  [K] Structure-Chimney 6871 WILLOW GROVE RD Camden Wyoming : Xst's: HENRY COWGILL RD / WILLOW TREE CIR Caller: PETE
 ***************************************************************************
-New Castle County, DE (DENewCastleCountyParser)
+New Castle County, DE (DENewCastleCountyAParser)
 (25CAD) [FB] F00 19:58 1 - T:69D5 (L3*MULTI-RESIDENTIAL FIRE) L:755 MONTCLAIR DR #2 ,PF *NAAMANS APTS - X:btwn NAAMANS RD ~ SOCIETY DR DESC: smoke fromneighbors
 (25CAD) [FB] F00 12:11 1 - T:69D7 (L3*CHIMNEY FIRE) L:2007 FERNDALE DR ,X1 *WESTWOOD MANOR - X:btwn FORREST RD ~ VEALE RD DESC: chimney.?!?!
  [FB] F00 03:14 1 - T:69D6 (L3*RESIDENTIAL FIRE) L:108 CARLIE RD ,NT *LYNNFIELD - X:btwn HOMEWOOD RD ~ RIDGELAND RD
+***************************************************************************
+Newcastle County, DE (DENewCastleCountyBParser)
+(Chief ALT) [CFC EMS] -- Syncope - Not Alert -- Amberwood -- 51 Karens Wy - Cross STS:Beechwood Ct & Silver Birch La - EMD:M31D3
+(Chief ALT) [CFC EMS] -- Medical Alarm -- Forest Glen Townhses -- 3 Pimlico La - Cross STS:Rue Madora & Dead - End - EMD:M32B2
+(Chief ALT) [CFC EMS] -- Abdominal Pains -- Summerset Square Townhses -- 4 Candlewick Ct New Castle DE - Cross STS:Wilton Bl & Dead - End - EMD:M1A1
 ***************************************************************************
 Sussex County, DE (DESussexCountyAParser)
 [86 EMS] -- 17A1 -- 18958 Coastal Hwy Lewes
@@ -3401,21 +3406,6 @@ FRM:singerly@gmail.com\nMSG:1304A\nBUILDING FIRE\nELKTON MIDDLE SCHOOL @615 NORT
 **********************************************************
 **********************************************************
 **********************************************************
-Christina, DE in Newcastle County
-Contact: "Thomas Castiglione" <castiglione.thomas@gmail.com>
-Sender: msg@cfmsg.com
-L1 = Fire calls
-(Chief ALT) [CFC EMS] -- Syncope - Not Alert -- Amberwood -- 51 Karens Wy - Cross STS:Beechwood Ct & Silver Birch La - EMD:M31D3
-(Chief ALT) [CFC EMS] -- Medical Alarm -- Forest Glen Townhses -- 3 Pimlico La - Cross STS:Rue Madora & Dead - End - EMD:M32B2
-(Chief ALT) [CFC EMS] -- Abdominal Pains -- Summerset Square Townhses -- 4 Candlewick Ct New Castle DE - Cross STS:Wilton Bl & Dead - End - EMD:M1A1
-(Chief ALT) [CFC EMS] -- Assault - Unknown -- Wawa Salem Center - Salem Center Shop Ctr -- 1605 Pulaski Hy - Cross STS:Glasgow Dr & Salem Church Rd - EMD:M4B3
-(Chief ALT) [CFC EMS] -- Assault -- Days Inn -- 900 Churchmans Rd #122 Newark DE - Cross STS:Rte 1 Sb & Old Churchmans Rd - EMD:M4B1A
-(Chief ALT) [CFC EMS] -- Overdose / Poisoning - Not Alert -- Christiana Meadows Apts -- 401 Christiana Meadows - Cross STS:Bear Christiana Rd - EMD:M23C1I
-(Chief ALT) [CFC Fire] -- L1*fire Alarm / General -- Medical Arts Pav 1 -- 4745 Stanton Ogletown Rd - Cross STS:Samoset Dr & Hygeia Dr - EMD:52C1G
-(Chief ALT) [CFC EMS] -- Cva - Sudden Weakness / Numbness -- Crossings At Christiana Townhses -- 216 Gladstone Wy - Cross STS:Dead - End & Baker Dr - EMD:M28C4C
-(Chief ALT) [CFC EMS] -- Person Fallen -- Hillside Heights -- 109 Rosewood Dr - Cross STS:Greentree Rd & Lavender La - EMD:M17B1
-(Chief ALT) [CFC Fire] -- L1*commercial Fire Alarm -- Direct Radiography - Glasgow Business Community -- 600 Technology Dr - Cross STS:Gbc Dr & Yoon La - EMD:52C3G
-(Chief ALT) [CFC FIRE] -- Vehicle Accident -- Interstate 95 -- Churchmans Rd / I95 Sb - EMD:M29B4
 **********************************************************
 East Haven, CT (in New Haven county)
 Contact: "Mark Nimons" <MNimons@easthavenfire.com>

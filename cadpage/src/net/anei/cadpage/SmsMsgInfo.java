@@ -253,28 +253,70 @@ public class SmsMsgInfo {
 	}
   
   // Clean up any street suffix abbreviations that Google isn't happy with
-  private static final Pattern AV_PTN = Pattern.compile("\\bAV\\b");
-  private static final Pattern HW_PTN = Pattern.compile("\\bH[WY]\\b");
-  private static final Pattern STH_PTN = Pattern.compile("\\bST?HY?\\b");
-  private static final Pattern PK_PTN = Pattern.compile("\\bPK\\b");
-  private static final Pattern PW_PTN = Pattern.compile("\\bPW\\b");
-  private static final Pattern CI_PTN = Pattern.compile("\\bCI\\b");
-  private static final Pattern BLV_PTN = Pattern.compile("\\bBLV\\b");
-  private static final Pattern TL_PTN = Pattern.compile("\\bTL\\b");
-  private static final Pattern TRC_PTN = Pattern.compile("\\bTRC\\b");
+  private static final Pattern AV_PTN = Pattern.compile("\\bAV\\b", Pattern.CASE_INSENSITIVE);
+  private static final Pattern HW_PTN = Pattern.compile("\\bH[WY]\\b", Pattern.CASE_INSENSITIVE);
+  private static final Pattern STH_PTN = Pattern.compile("\\bST?HY?\\b", Pattern.CASE_INSENSITIVE);
+  private static final Pattern PK_PTN = Pattern.compile("\\bPK\\b", Pattern.CASE_INSENSITIVE);
+  private static final Pattern PW_PTN = Pattern.compile("\\bPW\\b", Pattern.CASE_INSENSITIVE);
+  private static final Pattern CI_PTN = Pattern.compile("\\bCI\\b", Pattern.CASE_INSENSITIVE);
+  private static final Pattern BLV_PTN = Pattern.compile("\\bBLV\\b", Pattern.CASE_INSENSITIVE);
+  private static final Pattern TL_PTN = Pattern.compile("\\bTL\\b", Pattern.CASE_INSENSITIVE);
+  private static final Pattern TRC_PTN = Pattern.compile("\\bTRC\\b", Pattern.CASE_INSENSITIVE);
+  private static final Pattern NEAR_PTN = Pattern.compile("\\b(?:NEAR|OFF)\\b", Pattern.CASE_INSENSITIVE);
   private String cleanStreetSuffix(String sAddr) {
-    sAddr = AV_PTN.matcher(sAddr).replaceAll("AVE");
-    sAddr = HW_PTN.matcher(sAddr).replaceAll("HWY");
-    sAddr = STH_PTN.matcher(sAddr).replaceAll("ST");
-    sAddr = PK_PTN.matcher(sAddr).replaceAll("PIKE");
-    sAddr = PW_PTN.matcher(sAddr).replaceAll("PKWY");
-    sAddr = CI_PTN.matcher(sAddr).replaceAll("CIR");
-    sAddr = BLV_PTN.matcher(sAddr).replaceAll("BLVD");
-    sAddr =  TL_PTN.matcher(sAddr).replaceAll("TRL");
-    sAddr =  TRC_PTN.matcher(sAddr).replaceAll("TRCE");
-    sAddr = sAddr.replace(" NEAR ", " & ");
-    sAddr = sAddr.replace(" OFF ", " & ");
+    sAddr = replace(sAddr, AV_PTN, "AVE");
+    sAddr = replace(sAddr, HW_PTN, "HWY");
+    sAddr = replace(sAddr, STH_PTN, "ST");
+    sAddr = replace(sAddr, PK_PTN, "PIKE");
+    sAddr = replace(sAddr, PW_PTN, "PKWY");
+    sAddr = replace(sAddr, CI_PTN, "CIR");
+    sAddr = replace(sAddr, BLV_PTN, "BLVD");
+    sAddr = replace(sAddr, TL_PTN, "TRL");
+    sAddr = replace(sAddr, TRC_PTN, "TRCE");
+    sAddr = replace(sAddr, HW_PTN, "HWY");
+    
+    sAddr = NEAR_PTN.matcher(sAddr).replaceAll("&");
     return sAddr;
+  }
+  
+  /**
+   * Replace all occurrences of a given pattern in an address string with 
+   * a replacement string.  The case of characters in the replacement string
+   * will be adjusted to best match the case of the characters being replaced
+   * @param address address line in which pattern sequence should be replaced
+   * @param pat pattern to be searched for
+   * @param replace string that should replace all occurrences of pattern
+   * @return the adjusted address string
+   */
+  private String replace(String address, Pattern pat, String replace) {
+    StringBuffer sb = null;
+    Matcher match = pat.matcher(address);
+    while (match.find()) {
+      if (sb == null) sb = new StringBuffer();
+      String token = match.group();
+      match.appendReplacement(sb, "");
+      for (int ndx = 0; ndx < replace.length(); ndx++) {
+        Character chr = replace.charAt(ndx);
+        if (isLower(token, ndx)) chr = Character.toLowerCase(chr);
+        sb.append(chr);
+      }
+    } 
+    if (sb == null) return address;
+    match.appendTail(sb);
+    return sb.toString();
+  }
+  
+  /**
+   * Determine if character at string position index is a lower case character.
+   * if index is beyond end of string, check status of last character in string
+   * @param token String token being checked
+   * @param index index being checked
+   * @return true if character at specified index is lower case
+   */
+  private boolean isLower(String token, int index) {
+    if (index >= token.length()) index = token.length()-1;
+    if (index < 0) return false;
+    return Character.isLowerCase(token.charAt(index));
   }
 
   // Clean up any BLK indicators
