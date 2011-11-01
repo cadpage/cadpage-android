@@ -69,6 +69,15 @@ public class VAHenryCountyParserTest extends BaseParserTest {
         "UNIT:R3-(1)",
         "CALL:CHEST PAINS");
 
+    doTest("T7",
+        "904 MOUNTAIN RD 11 MARTINSVILLE 2011097764 21:12:40 R3-(1) CHEST PAINS",
+        "ADDR:904 MOUNTAIN RD 11",
+        "CITY:MARTINSVILLE",
+        "ID:2011097764",
+        "TIME:21:12:40",
+        "UNIT:R3-(1)",
+        "CALL:CHEST PAINS");
+
   }
   
   public static void main(String[] args) {

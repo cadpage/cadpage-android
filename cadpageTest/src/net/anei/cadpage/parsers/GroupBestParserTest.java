@@ -27,14 +27,15 @@ public class GroupBestParserTest extends BaseParserTest {
         "ADDR:E 64TH AVE & MONACO ST",
         "CALL:ACCI");
 
-    setDefaults("Greeley", "CO");
+    setDefaults("WELD COUNTY", "CO");
     doTest("Greeley",
         "20442,ALARMF,23691 CR 60H.E1 E4 L1,TEXT:AUDIBLE FROM GENERAL AND SMOKE DETECTOR \\COMP:1ST CLASS SECURITY \\PH:800 482 9800," ,
         "CALL:ALARMF",
         "ADDR:23691 CR 60H",
         "ID:20442",
         "UNIT:E1 E4 L1",
-        "INFO:AUDIBLE FROM GENERAL AND SMOKE DETECTOR / 1ST CLASS SECURITY",
+        "INFO:AUDIBLE FROM GENERAL AND SMOKE DETECTOR",
+        "NAME:1ST CLASS SECURITY",
         "PHONE:800 482 9800");
     
     setDefaults("ADAMS COUNTY", "CO");
