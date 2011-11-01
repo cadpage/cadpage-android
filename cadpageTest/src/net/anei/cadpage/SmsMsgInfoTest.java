@@ -75,6 +75,8 @@ public class SmsMsgInfoTest {
     doMapTest("AV", "150 BLACK AVE,KENBURG,XX", "150 BLACK AV");
     doMapTest("HW", "HWY 20,KENBURG,XX", "HW 20");
     doMapTest("HY", "HWY 20,KENBURG,XX", "HY 20");
+    doMapTest("Hw", "Hwy 20,KENBURG,XX", "Hw 20");
+    doMapTest("hw", "hwy 20,KENBURG,XX", "hw 20");
     
     doMapTest("STH", "ST 29 & 32,KENBURG,XX", "STH 29 & 32");
     
