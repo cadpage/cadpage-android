@@ -3397,6 +3397,15 @@ Contact: Rob <robertjr1975@aol.com>
 Sender: singerly@gmail.com
 FRM:singerly@gmail.com\nMSG:1304A\nBUILDING FIRE\nELKTON MIDDLE SCHOOL @615 NORT\n23:20:22\n11021680\n23:23:02\nCALLER DRIVING BY SCHOOL AND S
 **********************************************************
+Androscoggin County, ME
+Contact: Matthew Conklin <tfd949@gmail.com>
+From: asodispatch1@roadrunner.com
+S:FIRE CALL M:RT 4 AT BRODY WAY. CAR V. M/C. WITH INJURIES. \n
+S: M:Pager Test \n
+S:FIRE CALL M:91 MATTHEWb  S WAY. TURNER ELEMENTARY. FIRE ALARM ACTIVATION. SIMPLEX PANEL ZONE 1. \n
+S:fire call M:vicinity of 437 lower st. garage on fire. \n
+S:Fire Weather M:Today is a class 2 day with winds Northwest at 6-9 mph.\n
+S: M:auburn rd just north of twitchells airport. power line down across rdway.\n
 **********************************************************
 **********************************************************
 ************  READY TO ROLL ******************************
