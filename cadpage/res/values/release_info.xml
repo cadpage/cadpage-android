@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string name="release_date">10282011</string>
-  <string name="release_version">v1.4.33</string>
+  <string name="release_version">v1.4.34</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="min_install_date">10042011</string>
@@ -11,28 +11,21 @@ Thanks to everyone who has donated Your support is appreciated and helps support
 See http://www.cadpage.org/financial-support for more details\n
 \n
 What"'"s new in this release\n
-Added 3 days to first demo expiration date to make up for late release.\n
-Demo expiration is not a hard limit. You can extend it up to 5 times. 
-And you can reinstall Cadpage to reset the 30 day demo.\n
 \n
 New Locations:\n
-Roscoe, IL\n
+Christina, DE handled by New Castle County\n
+Weld County, CO replaces Greeley, CO\n
+Medina County, OH\n
+Delaware County, PA\n
 \n
 Location Parsing Fixes:\n
-Greeley, CO\n
-Morris County, NJ\n
-Rockland County, NY\n
 Suffolk County, NY\n
-Cabarrus County, NC\n
-Greenville County, SC\n
-Oconee County, SC\n
+Sussex County, NJ\n
 Washington County, TN\n
-Nueces County, TX\n
 \n
 General Fixes\n
-Force close when reposting previous incomplete MMS message.\n
-Force close in location list parsing logic\n
-Split text page merge logic loosing pages\n
+Renamed Isle of Wight County, VA\n
+Fixed force close in donation logic\n
   </string>  
 </resources>
   
