@@ -13,7 +13,19 @@ RC:Run# 29907/PR Event/Public Service/CRYSTAL FARMS RD///TATUM/19:15/////PR EVEN
 RC:Run# 29793/*Non Life Emergency P/1/Falls/301 B FORREST ACRES///TATUM/22:18/////<Unknown>/////
 RC:Run# 29764/*Non Life Emergency P/1/Overdose / Poisoning (Ingestion)/1100 S ADAMS ST//Panola Apts: 32/CARTHAGE/17:23/////<Unknown>/////
 
-We have no examples of cross street or intersections, so we are probably handling them badly.
+Champion EMS, Danigerfield, TX
+Contact: Daniel White <dwhite@championems.com>
+Sender: nettechs@championems.com
+
+[CAD - part 1 of 1]  RC:Run# 31754/*Non Life Emergency P/1/Chest Pain/204 MOUNTAIN VIEW///DAIGNERFEILD/02:13/////<Unknown>/////
+[CAD - part 1 of 1]  RC:Run# 31710/*Non Life Emergency P/1/Unconscious / Fainting (Near)/347 COUNTY ROAD 2101///DAINGERFIELD/13:31/////<Unknown>/had stent t
+[CAD - part 1 of 1]  RC:Run# 31696/*Non Life Emergency P/1/Sick Person (Specific Diagnosis)/2246 COUNTY ROAD 4206///NAPLES/10:31/////<Unknown>/////
+[CAD - part 1 of 1]  RC:Run# 31669/*Non Life Emergency P/1/Falls/3000 FM 250///HUGHES SPRINGS/23:22/////<Unknown>/////
+[CAD - part 1 of 1]  RC:Run# 31646/*Non Life Emergency P/2/Assault / Sexual Assault/1005 COUNTY ROAD 4214///DAINGERFIELD/17:30/////<Unknown>/pt was thrown d
+[CAD - part 1 of 1]  RC:Run# 31627/*Non Life Emergency P/1/Unconscious / Fainting (Near)/401 E HOUSTON ST///LINDEN/14:06/////<Unknown>/passed out////
+[CAD - part 1 of 1]  RC:Run# 31414/PR Event/<None>/US HWY 67//N33 11.075 x W94 42.799/OMAHA/16:30/////PR EVENT/ PR EVENT/////
+[CAD - part 1 of 1]  RC:Run# 31394/*Non Scheduled Transfer/Routine Transfer/Titus Regional Medical Center//Wound Care/MOUNT PLEASANT/13:31/Omaha Health Care
+[CAD - part 1 of 1]  RC:Run# 31315/*Non Life Emergency P/1/Chest Pain/1912 GUM SPRINGS RD///LONGVIEW/14:56/////<Unknown>/Camp RV park --////
 
  */
 
@@ -26,6 +38,11 @@ public class TXLongviewParser extends DispatchProQAParser {
   
   public TXLongviewParser() {
     super(DEF_CITY, DEF_STATE, null);
+  }
+  
+  @Override
+  public String getFilter() {
+    return "nettechs@championems.com";
   }
 
   @Override

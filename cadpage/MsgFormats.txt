@@ -3359,6 +3359,8 @@ Contact: "m.warner1@comcast.net" <m.warner1@comcast.net>
 Sender: msg@cfmsg.com
 (Chief ALT) [STA:7] -- ALS -- 118 E Pittsfield St Pennsville Township NJ - Cross STS:Sparks Ave -- Caller: DAULTON 
 (Chief ALT) [STA:7] -- Motor Vehicle Accident -- 1163 S Broadway Way Pennsville Township NJ - Cross STS:Freas Rd -- Caller: JACK KUGLER 9352515
+(Chief ALT) [STA:7] -- MVC -- Njtp South Mm 1-4.5 Njtp Carneys Point Township NJ -- Caller: SHAWN HAMMELL 6178168
+
 **********************************************************
 Denver Health Paramedic Division, CO
 Contact:7203380414@messaging.sprintpcs.com
@@ -3407,6 +3409,7 @@ S:FIRE CALL M:91 MATTHEWb  S WAY. TURNER ELEMENTARY. FIRE ALARM ACTIVATION. SIMP
 S:fire call M:vicinity of 437 lower st. garage on fire. \n
 S:Fire Weather M:Today is a class 2 day with winds Northwest at 6-9 mph.\n
 S: M:auburn rd just north of twitchells airport. power line down across rdway.\n
+S:Fire Weather M:Today is a class 1 day with winds South/Southwest @ 5 mph.\n
 **********************************************************
 Charleston County, SC (alternate)
 Contact: Josh Sims <josh.sims00@gmail.com>
@@ -3416,10 +3419,52 @@ From: CDC_Dispatch@charlestoncounty.org
 **********************************************************
 **********************************************************
 **********************************************************
-**********************************************************
-**********************************************************
 ************  READY TO ROLL ******************************
 **********************************************************
+**********************************************************
+Cabell County. WV
+Contact: Everett Cooper <firefighterorr6@gmail.com>
+Dougherty County, GA?
+Sender: dispatch@ccerc911.org
+1 of 2
+FRM:dispatch@ccerc911.org
+SUBJ:(22225) CCERC911
+MSG:113030126/10-30-11/06:42:08/Other Fire/8160 FRAZIERS LN/LESAGE/LORENA
+LN/KATHI
+(Con't) 2 of 2
+LN/50YF/BLEEDING FROM A SURGICAL WOUND IN STOMACH//(End)
+
+1 of 2
+FRM:dispatch@ccerc911.org
+SUBJ:(22343) CCERC911
+MSG:113030199/10-30-11/14:16:29/Structure Fire/6419 RT
+60/BARBOURSVILLE/GEORGES DRY
+(Con't) 2 of 2
+CLEANERS/FARMDALE RD/MAIN ST/201 231 ENRT/237/(End)
+
+1 of 2
+FRM:dispatch@ccerc911.org
+SUBJ:(22412) CCERC911
+MSG:113030260/10-30-11/16:53:24/Abdominal Pain/6430 OHIO RIVER RD
+APT1/LESAGE/TAN
+(Con't) 2 of 2
+ZONE/DOUTHAT LN/NINE MILE RD/22YR FEMALE/27WKS PREGNANT/(End)
+
+1 of 2
+FRM:dispatch@ccerc911.org
+SUBJ:(22719) CCERC911
+MSG:113040332/10-31-11/20:53:50/MVA Inj./4805 HILLVIEW DR/HUNTINGTON/OHIO
+RIVER
+(Con't) 2 of 2
+RD/END/ONE VEH OVER THE HILL/ ADV ABOUT 50 YARD OVER A HILL/(End)
+
+1 of 2
+FRM:dispatch@ccerc911.org
+SUBJ:(22809) CCERC911
+MSG:113050042/11-01-11/05:35:54/MVA Inj./5315 OHIO RIVER RD
+BLK/HUNTINGTON/THREE MILE
+(Con't) 2 of 2
+CREEK RD/MOBILE CITY RD/TRACTOR TRAILOR / TRUCK IS ON THE TRACKS/(End)
 **********************************************************
 East Haven, CT (in New Haven county)
 Contact: "Mark Nimons" <MNimons@easthavenfire.com>
@@ -4211,7 +4256,6 @@ Narrative Time~Narrative\n
 10/29/11 20:29:22~wires are not down, they are sparking in the air\n
 10/29/11 20:31:20~Nature Of Call: odor of gas outside\n
 10/29/11 20:32:05~Nature Of Call: wires sparking
-
 **********************************************************
 Chester County, PA (alternate)
 Contact: Bob Gliem <goshenfire@gmail.com>
