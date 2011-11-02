@@ -2,7 +2,11 @@ package net.anei.cadpage;
 
 import java.io.IOException;
 import java.io.Serializable;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.GregorianCalendar;
 import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -50,6 +54,7 @@ public class SmsMmsMessage implements Serializable {
   private boolean read = false;             
   private boolean locked = false;
   private transient SmsMsgInfo info = null;
+  private transient Date incidentDate = null;
   private int msgId = 0;
   private String location = null;
   
@@ -589,6 +594,67 @@ public class SmsMmsMessage implements Serializable {
   
   public long getSentTime() {
     return sentTime;
+  }
+  
+  public Date getIncidentDate() {
+    if (incidentDate == null) incidentDate = calcIncidentDate();
+    return incidentDate;
+  }
+  
+  private Date calcIncidentDate() {
+    
+    // Parse the info object and retrieve the parsed date & time
+    // If there is no parsed date & time just return the received timestamp
+    if (getInfo() == null) return new Date(timestamp);
+    int[] dateArry = splitDateTime(info.getDate());
+    int[] timeArry = splitDateTime(info.getTime());
+    String infoDate = info.getDate();
+    String infoTime = info.getTime();
+    if (infoDate.length() == 0 && infoTime.length() == 0) return new Date(timestamp);
+    
+    Calendar cal = new GregorianCalendar();
+    cal.setTime(new Date(timestamp));
+    Calendar origCal = new GregorianCalendar();
+    origCal.setTime(cal.getTime());
+    
+    if (infoDate.length() > 0) {
+      try {
+        String[] flds = infoDate.split("/");
+        if (flds.length == 2 || flds.length == 3) {
+          int month = Integer.parseInt(flds[0]);
+          int day = Integer.parseInt(flds[1]);
+          int year = -1;
+          if (flds.length == 3) 
+        }
+      } catch (NumberFormatException ex) {
+        infoDate = "";
+      }
+    }
+    return cal.getTime();
+  }
+  
+  /**
+   * Split up an entered date or time field into component integer parts
+   * @param field date/time field to be parsed
+   * @return 3 element field containing component parts.  First two will have
+   * values, last one will be -1 if it was not present.  Returns null if
+   * field is not a valid date/time string
+   */
+  private static final Pattern DATE_TIME_DELIM = Pattern.compile("[/:-]");
+  private static int[] splitDateTime(String field) {
+    if (field.length() == 0) return null;
+    String[] parts = DATE_TIME_DELIM.split(field);
+    if (parts.length != 2 && parts.length != 3) return null;
+    int[] result = new int[3];
+    result[2] = -1;
+    for (int ndx = 0; ndx < parts.length; ndx++) {
+      try {
+        result[ndx] = Integer.parseInt(parts[ndx]);
+      } catch (NumberFormatException ex) {
+        return null;
+      }
+    }
+    return result;
   }
 
   public MessageClass getMessageClass() {
