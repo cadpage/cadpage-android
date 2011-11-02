@@ -3358,6 +3358,7 @@ Subject:[Firedistrict13] (no subject)\nCAD:FD13;ST55;1;29D02p;50PI;US 29 N/HICON
 Contact: "m.warner1@comcast.net" <m.warner1@comcast.net>
 Sender: msg@cfmsg.com
 (Chief ALT) [STA:7] -- ALS -- 118 E Pittsfield St Pennsville Township NJ - Cross STS:Sparks Ave -- Caller: DAULTON 
+(Chief ALT) [STA:7] -- Motor Vehicle Accident -- 1163 S Broadway Way Pennsville Township NJ - Cross STS:Freas Rd -- Caller: JACK KUGLER 9352515
 **********************************************************
 Denver Health Paramedic Division, CO
 Contact:7203380414@messaging.sprintpcs.com
@@ -3407,13 +3408,17 @@ S:fire call M:vicinity of 437 lower st. garage on fire. \n
 S:Fire Weather M:Today is a class 2 day with winds Northwest at 6-9 mph.\n
 S: M:auburn rd just north of twitchells airport. power line down across rdway.\n
 **********************************************************
+Charleston County, SC (alternate)
+Contact: Josh Sims <josh.sims00@gmail.com>
+From: CDC_Dispatch@charlestoncounty.org
+(Dispatch Info) M04           0338252             District 04 EMS     04B01A    1402 Camp Rd        XS:SECESSIONVILLE RD/JAMES POINT DR  Apt/Bldg: 8           04B_Assault Poss Dang Area    Location Name:Fini Event Planning
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
 **********************************************************
 ************  READY TO ROLL ******************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
 **********************************************************
 **********************************************************
 East Haven, CT (in New Haven county)
