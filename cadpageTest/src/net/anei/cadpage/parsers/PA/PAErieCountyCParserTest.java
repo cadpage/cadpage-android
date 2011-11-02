@@ -132,7 +132,7 @@ public class PAErieCountyCParserTest extends BaseParserTest {
         "CITY:MILLCREEK TWP",
         "X:BELLEVIEW DR",
         "NAME:SMITH PAUL");
-  }
+   }
   
   public static void main(String[] args) {
     new PAErieCountyCParserTest().generateTests("T1");
