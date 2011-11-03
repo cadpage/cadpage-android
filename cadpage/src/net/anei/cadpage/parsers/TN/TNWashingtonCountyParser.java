@@ -43,6 +43,7 @@ prvs=270a5699b=JCFDTEXT@johnsoncitytn.org School Fire Alarm E7,E2,TR2,E4,TR3,E3\
 prvs=27112cb81=JCFDTEXT@johnsoncitytn.org Motor Vehicle Crash - Injury E3\nCARTER COUNTY LINE/MILLIGAN HY\nCARTER COUNTY LINE\n11:18:15 117253\nThink green: Only print this e-mail and
 prvs=272df6cbd=JCFDTEXT@johnsoncitytn.org Motor Vehicle Crash - Injury E8,E6\nI26E/MILE MARKER 14\n15:38:04 117287\nThink green: Only print this e-mail and any attachment if necessary
 prvs=2751bae6e=JCFDTEXT@johnsoncitytn.org Assault 442,431,E4\n241 W MAIN ST\nDOWNTOWN APARTMENTS\nCross Streets N BOONE ST\nWHITNEY ST\nW WATAUGA AV 22:50:49\nThink green: Only print th
+prvs=280581d2f=JCFDTEXT@johnsoncitytn.org Breathing Problems/ASTHMA-DELTA M1,E4,R1\n554 WASHINGTON AV\nX-STR= DEAD END\nBELMONT ST\n;TURN RT FROM MAIN ST\nMap 46C 12:13:40 11161605\nThin
 
 Contact: Jason Powell <firedupleadership@gmail.com>
 Sender: CAD@wc911.org
@@ -56,7 +57,8 @@ Chest Pain(Non-Traumatic)-DELTA M1,R1,E3\n805 KENTUCKY ST\nX-STR= COLORADO ST\nO
 
 public class TNWashingtonCountyParser extends FieldProgramParser {
   
-  private static final Pattern TRAILER = Pattern.compile("\\b(\\d\\d:\\d\\d:\\d\\d)(?: (\\d+))?(?: *\\nThink[^\\n]*)?$");
+  private static final String EXTRA = "Think green: ";
+  private static final Pattern TRAILER = Pattern.compile("\\b(\\d\\d:\\d\\d:\\d\\d)(?: (\\d+))?$");
   private static final Pattern TRAILER2 = Pattern.compile(" +\\d\\d:[\\d:]*$");
   
   public TNWashingtonCountyParser() {
@@ -70,7 +72,16 @@ public class TNWashingtonCountyParser extends FieldProgramParser {
   }
 
   @Override
-  protected boolean parseMsg(String subject, String body, Data data) {
+  protected boolean parseMsg(String body, Data data) {
+    
+    // Dump trailing comment
+    int pt = body.lastIndexOf('\n');
+    if (pt < 0) return false;
+    String tail = body.substring(pt+1).trim();
+    if (tail.startsWith(EXTRA) || EXTRA.startsWith(tail)) {
+      body = body.substring(0,pt).trim();
+    }
+    
     boolean ok = false;
     Matcher match = TRAILER.matcher(body);
     if (match.find()) {
