@@ -336,6 +336,17 @@ public class TNWashingtonCountyParserTest extends BaseParserTest {
         "PLACE:DOWNTOWN APARTMENTS - Cross Streets N BOONE ST - WHITNEY ST - W WATAUGA AV",
         "TIME:22:50:49");
 
+    doTest("T32",
+        "prvs=280581d2f=JCFDTEXT@johnsoncitytn.org Breathing Problems/ASTHMA-DELTA M1,E4,R1\n554 WASHINGTON AV\nX-STR= DEAD END\nBELMONT ST\n;TURN RT FROM MAIN ST\nMap 46C 12:13:40 11161605\nThin",
+        "CALL:Breathing Problems/ASTHMA",
+        "PRI:D",
+        "UNIT:M1,E4,R1",
+        "ADDR:554 WASHINGTON AV",
+        "X:DEAD END & BELMONT ST & ;TURN RT FROM MAIN ST",
+        "MAP:46C",
+        "TIME:12:13:40",
+        "ID:11161605");
+
   }
   
   @Test
