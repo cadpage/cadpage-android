@@ -490,6 +490,23 @@ public class FieldProgramParserTest extends BaseParserTest {
   }
   
   @Test
+  public void testOptionalTagFields() {
+    doFieldTest("Present",
+        "CALL PLACE? MAP:MAP",
+        "FOREST FIRE;PETE ROCK;MAP:33",
+        "CALL:FOREST FIRE",
+        "PLACE:PETE ROCK",
+        "MAP:33");
+    
+    doFieldTest("Missing",
+        "CALL PLACE? MAP:MAP",
+        "FOREST FIRE;MAP:33",
+        "CALL:FOREST FIRE",
+        "MAP:33");
+
+  }
+  
+  @Test
   public void testSmartAddressField() {
     
     doFieldTest("CX", "ADDR/SCX", "FIRE 100 MAIN ST",

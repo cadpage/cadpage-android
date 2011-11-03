@@ -194,9 +194,20 @@ public class TXHumbleParserTest extends BaseParserTest {
         "X:Moon Trail Dr Timber Fore",
         "UNIT:ATFD E-E39",
         "ID:20");
+
+    doTest("T16",
+        "(Chief ALT) [FIRE] - Unk Problem - Medical Ale - 17811 Deep Shade Ct, Humble - Map: 377E- - Xst's: Conifer Ridge Way - Units: E-M29 E-E19 E-E39 - 201149242",
+        "SRC:FIRE",
+        "CALL:Unk Problem - Medical Ale",
+        "ADDR:17811 Deep Shade Ct",
+        "CITY:Humble",
+        "MAP:377E-",
+        "X:Conifer Ridge Way",
+        "UNIT:E-M29 E-E19 E-E39",
+        "ID:201149242");
  }
   
   public static void main(String[] args) {
-    new TXHumbleParserTest().generateTests("T13");
+    new TXHumbleParserTest().generateTests("T17");
   }
 }
