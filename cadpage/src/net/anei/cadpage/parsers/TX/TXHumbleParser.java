@@ -25,15 +25,14 @@ Sender: msg@cfmsg.com
 (Chief ALT) [EMS] - Eye Problems - Moderate - 238 Old Arbor Way, Humble - Map: 376H- - Xst's: Morning Shadows Way Dawn - Units: E-M29 - 201141225
 (Chief ALT) [EMS] - Chest Pain - Clammy - 0218 Powerscourt - Map: 337U- - Units: E-M39 E-E39 E-D59 - 201141272
 (Chief ALT) [FIRE] - Fire Alarm - Commercial - 5250 E Fm 1960, Humble - Map: 337W- - Humble Mini Warehouse - Xst's: Moon Trail Dr Timber Fore - Units: ATFD E-E39 - 20
-
-** Not parsing **
-(Chief ALT) [EMS] - Cardiac -  - Map: INGS PARK WAY-HC, ROSEMONT ASSISTED LIVING; 264 Map:337U- - Xst's: W Lake Houston Pkwy Daleb - Units: E-M19 - 201148360
+(Chief ALT) [FIRE] - Unk Problem - Medical Ale - 17811 Deep Shade Ct, Humble - Map: 377E- - Xst's: Conifer Ridge Way - Units: E-M29 E-E19 E-E39 - 201149242
 
 Status message, Should be handled as General Alert
 (Chief ALT) [AVFD EMS TIMES] - Incident: 201117017 -- Unit: E-M19 Disp 18:20:53 -- Enroute: 18:22:50 -- Arrived: -- Transport: -- At Hosp: -- Available: 18:24:58
 (Chief ALT) [ET] - [ 201141019 ] - UNIT: E-M29 Disp 21:47:04 - ENRT: 21:48:26 - OSN: 21:54:23 - TRAN: - @HOS: - AVAL: 22:22:50
 don't have the gear to make a string ....bout 20 - 30 at gander
 (Chief ALT) [ET] - [ ] - UNIT: E-M29 Disp 18:54:04 - ENRT: 18:55:44 - OSN: 19:00:24 - TRAN: 19:14:40 - @HOS: 19:33:32 - AVAL: 20:12:44
+
 
  */
 
@@ -47,7 +46,7 @@ public class TXHumbleParser extends DispatchOSSIParser {
   
   public TXHumbleParser() {
     super("HUMBLE", "TX",
-           "CALL CALL2? ADDRCITY! Map:MAP PLACE Xst's:X Units:UNIT ID");
+           "CALL CALL2? ADDRCITY/Z! Map:MAP PLACE Xst's:X Units:UNIT ID");
   }
   
   @Override
@@ -77,15 +76,8 @@ public class TXHumbleParser extends DispatchOSSIParser {
   private class Call2Field extends CallField {
     
     @Override
-    public boolean canFail() {
-      return true;
-    }
-    
-    @Override
-    public boolean checkParse(String field, Data data) {
-      if (field.contains(" ")) return false;
+    public void parse(String field, Data data) {
       data.strCall = append(data.strCall, " - ", field);
-      return true;
     }
   }
   

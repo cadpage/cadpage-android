@@ -290,7 +290,7 @@ public class FieldProgramParser extends SmartAddressParser {
         // We are looking for a normal testable field that can resolve the condition
         // status of the untestable one.  If we find repeat or optional step
         // or tagged step before that, all is lost
-        if (info.repeat || info.optional || info.branch || info.tag != null) {
+        if (info.repeat || info.optional || info.branch) {
           throw new RuntimeException("Deferred optional status of " + fieldTerms[optBreak] + 
                                       " not resolved before " + fieldTerms[ndx]);
         }
@@ -800,7 +800,9 @@ public class FieldProgramParser extends SmartAddressParser {
      * @return true if step can validate its data field (ie can report parse failure)
      */
     public boolean canFail() {
-      return field != null && field.doCanFail();
+      // tagged steps can always identify themselves
+      // untagged steps can identify themselves if their field can
+      return tag != null || field != null && field.doCanFail();
     }
     
     /**
@@ -915,6 +917,14 @@ public class FieldProgramParser extends SmartAddressParser {
           if (pt >= 0) {
             curTag = curFld.substring(0, pt).trim();
             curVal = curFld.substring(pt+1).trim();
+          }
+          
+          // If this is an option tagged step, take failure branch
+          // if tags do not match, otherwise process this step
+          if (tag != null && failLink != null) {
+            if (! tag.equals(curTag)) return failLink.exec(flds, ndx, data, this);
+            curFld = curVal;
+            break;
           }
           
           // If data field is tagged, search the program steps for one with
@@ -1200,7 +1210,7 @@ public class FieldProgramParser extends SmartAddressParser {
      */
     public boolean checkParse(String field, Data data) {
       
-      if (!pattern.matcher(field).matches()) return false;
+      if (pattern != null && !pattern.matcher(field).matches()) return false;
       parse(field, data);
       return true;
     }
