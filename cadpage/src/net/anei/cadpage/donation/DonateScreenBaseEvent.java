@@ -79,8 +79,21 @@ public abstract class DonateScreenBaseEvent extends DonateEvent {
    * @return registered donate screen event
    */
   public static DonateScreenBaseEvent getScreenEvent(String classname) {
+    
+    // Very rarely, we will called before the registration map has been initialized
+    // How this can happen is not entirely clear, but by coding a reference to the
+    // main donation event, we can pretty much assure that everything has been
+    // instantiated which will set up the class map.
+    MainDonateEvent.instance();
+    
     DonateScreenBaseEvent event = screenEventMap.get(classname);
-    if (event == null) throw new RuntimeException("No Event registered for " + classname);
+    if (event == null) {
+      StringBuilder sb = new StringBuilder("No Event registered for " + classname);
+      for (String key : screenEventMap.keySet()) {
+        sb.append("\n" + key);
+      }
+      throw new RuntimeException(sb.toString());
+    }
     return event;
   }
 
