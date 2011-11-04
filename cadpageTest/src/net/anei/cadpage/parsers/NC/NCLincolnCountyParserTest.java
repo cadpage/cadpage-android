@@ -134,6 +134,17 @@ public class NCLincolnCountyParserTest extends BaseParserTest {
         "ADDR:3068 CAT SQUARE RD",
         "X:HENRY RD & PALM TREE DR",
         "INFO:669 IS OUT WITH MALE AND ROUTINE RESPONSE RAN OVER BY FARM EQU");
+
+    doTest("T13",
+        "455:CAD:UFD-1100005100-29B04-29-B-4 TRAFFIC ACCIDENT-1513 ALF HOOVER RD-REEPSVILLE BAPTIST CHURCH-J RHYNE REEP RD-REEPSVILLE RD-[Medical Priority Info] RESPONSE: Bravo RESPONDER SCRIPT: Age unknown, Gender unknown, Consciousness unknown, Breathing status unknown. Traffic / Transportation Incidents. Unknown status/Other cod",
+        "SRC:UFD",
+        "ID:1100005100",
+        "CODE:29B04",
+        "CALL:TRAFFIC ACCIDENT",
+        "ADDR:1513 ALF HOOVER RD",
+        "PLACE:REEPSVILLE BAPTIST CHURCH",
+        "X:J RHYNE REEP RD & REEPSVILLE RD",
+        "INFO:Age unknown, Gender unknown, Consciousness unknown, Breathing status unknown. Traffic / Transportation Incidents. Unknown status/Other cod");
   }
   
   // @Test
@@ -151,6 +162,6 @@ public class NCLincolnCountyParserTest extends BaseParserTest {
   
 
   public static void main(String[] args) {
-    new NCLincolnCountyParserTest().generateTests("T12");
+    new NCLincolnCountyParserTest().generateTests("T14");
   }
 }

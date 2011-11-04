@@ -347,6 +347,19 @@ public class TNWashingtonCountyParserTest extends BaseParserTest {
         "TIME:12:13:40",
         "ID:11161605");
 
+    doTest("T33",
+        "prvs=281dbe8be=JCFDTEXT@johnsoncitytn.org Abdominal Pain/Problems-CHARLIE M2,E7,R2\n2911 CHATHAM DR #3-1\nCHATHAM APTS\nX-STR= NEWTON DR\nCARTER SELLS RD\nMap 53C 12:46:55 11162258\nThi",
+        "CALL:Abdominal Pain/Problems",
+        "PRI:C",
+        "UNIT:M2,E7,R2",
+        "ADDR:2911 CHATHAM DR",
+        "APT:3-1",
+        "PLACE:CHATHAM APTS",
+        "X:NEWTON DR & CARTER SELLS RD",
+        "MAP:53C",
+        "TIME:12:46:55",
+        "ID:11162258");
+
   }
   
   @Test
