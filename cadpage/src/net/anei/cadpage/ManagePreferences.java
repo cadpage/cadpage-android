@@ -694,6 +694,7 @@ public class ManagePreferences {
         R.string.pref_auth_location,
         R.string.pref_auth_extra_date_key,
         R.string.pref_auth_extra_cnt_key,
+        R.string.pref_auth_exempt_date,
         
         R.string.pref_registration_id
     };

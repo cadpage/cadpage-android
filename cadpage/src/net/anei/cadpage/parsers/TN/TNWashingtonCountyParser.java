@@ -44,6 +44,7 @@ prvs=27112cb81=JCFDTEXT@johnsoncitytn.org Motor Vehicle Crash - Injury E3\nCARTE
 prvs=272df6cbd=JCFDTEXT@johnsoncitytn.org Motor Vehicle Crash - Injury E8,E6\nI26E/MILE MARKER 14\n15:38:04 117287\nThink green: Only print this e-mail and any attachment if necessary
 prvs=2751bae6e=JCFDTEXT@johnsoncitytn.org Assault 442,431,E4\n241 W MAIN ST\nDOWNTOWN APARTMENTS\nCross Streets N BOONE ST\nWHITNEY ST\nW WATAUGA AV 22:50:49\nThink green: Only print th
 prvs=280581d2f=JCFDTEXT@johnsoncitytn.org Breathing Problems/ASTHMA-DELTA M1,E4,R1\n554 WASHINGTON AV\nX-STR= DEAD END\nBELMONT ST\n;TURN RT FROM MAIN ST\nMap 46C 12:13:40 11161605\nThin
+prvs=281dbe8be=JCFDTEXT@johnsoncitytn.org Abdominal Pain/Problems-CHARLIE M2,E7,R2\n2911 CHATHAM DR #3-1\nCHATHAM APTS\nX-STR= NEWTON DR\nCARTER SELLS RD\nMap 53C 12:46:55 11162258\nThi
 
 Contact: Jason Powell <firedupleadership@gmail.com>
 Sender: CAD@wc911.org

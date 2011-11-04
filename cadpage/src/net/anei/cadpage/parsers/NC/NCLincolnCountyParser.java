@@ -28,6 +28,9 @@ Contact: Matt Bandieramonte <mbandieramonte@eastlincolnfd.org>
 Contact: J Owens, Andromeda Pet Services <james@dogscantdrive.com>
 915:CAD:ADMN-201103837-29D02m-29-D-2 TRAFFIC ACCIDENT-3068 CAT SQUARE RD-HENRY RD-PALM TREE DR-669 IS OUT WITH MALE AND ROUTINE RESPONSE RAN OVER BY FARM EQU
 
+Contact: Kevin Yount <unionfd622@yahoo.com>
+Sender: 93001043
+455:CAD:UFD-1100005100-29B04-29-B-4 TRAFFIC ACCIDENT-1513 ALF HOOVER RD-REEPSVILLE BAPTIST CHURCH-J RHYNE REEP RD-REEPSVILLE RD-[Medical Priority Info] RESPONSE: Bravo RESPONDER SCRIPT: Age unknown, Gender unknown, Consciousness unknown, Breathing status unknown. Traffic / Transportation Incidents. Unknown status/Other cod
 
 */
 
@@ -61,7 +64,7 @@ public class NCLincolnCountyParser extends DispatchOSSIParser {
   
   private class MyIdField extends IdField {
     public MyIdField() {
-      setPattern(Pattern.compile("\\d{9}"));
+      setPattern(Pattern.compile("\\d{9,}"));
     }
   }
   
