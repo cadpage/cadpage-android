@@ -2,7 +2,6 @@ package net.anei.cadpage;
 
 import java.io.IOException;
 import java.io.Serializable;
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
@@ -604,30 +603,50 @@ public class SmsMmsMessage implements Serializable {
   private Date calcIncidentDate() {
     
     // Parse the info object and retrieve the parsed date & time
-    // If there is no parsed date & time just return the received timestamp
+    // If there is no parsed time just return the received timestamp
     if (getInfo() == null) return new Date(timestamp);
     int[] dateArry = splitDateTime(info.getDate());
     int[] timeArry = splitDateTime(info.getTime());
-    String infoDate = info.getDate();
-    String infoTime = info.getTime();
-    if (infoDate.length() == 0 && infoTime.length() == 0) return new Date(timestamp);
+    if (timeArry == null) return new Date(timestamp);
     
+    // Set result fields from parsed time field
     Calendar cal = new GregorianCalendar();
     cal.setTime(new Date(timestamp));
     Calendar origCal = new GregorianCalendar();
     origCal.setTime(cal.getTime());
+    cal.set(Calendar.HOUR_OF_DAY, timeArry[0]);
+    cal.set(Calendar.MINUTE, timeArry[1]);
+    cal.set(Calendar.SECOND, (timeArry[2]>=0 ? timeArry[2] : 0));
+    cal.set(Calendar.MILLISECOND, 0);
     
-    if (infoDate.length() > 0) {
-      try {
-        String[] flds = infoDate.split("/");
-        if (flds.length == 2 || flds.length == 3) {
-          int month = Integer.parseInt(flds[0]);
-          int day = Integer.parseInt(flds[1]);
-          int year = -1;
-          if (flds.length == 3) 
-        }
-      } catch (NumberFormatException ex) {
-        infoDate = "";
+    // If there is no date field, retain the date from the time received
+    // unless the parsed time is greater than the received time, in which 
+    // case we assume the incident date must have been yesterday.  Except
+    // we will allow a 5 minute discrepancy between system clocks
+    if (dateArry == null) {
+      long delta = origCal.getTimeInMillis() - cal.getTimeInMillis();
+      if (delta < -300000L) cal.add(Calendar.DAY_OF_YEAR, -1);
+    }
+    
+    // If there was a date field, use information from it
+    else {
+      cal.set(Calendar.MONTH, dateArry[0]-1);
+      cal.set(Calendar.DAY_OF_MONTH, dateArry[1]-1);
+      int year = dateArry[2];
+      
+      // If year was specified, use it.  If it was a 2 digit year
+      // turn it to a 4 digit year
+      if (year > 0) {
+        if (year < 100) year += 2000;
+        cal.set(Calendar.YEAR, year);
+      } 
+      
+      // If no year was specified, retain received timestamp year
+      // Unless this leads to result greater than the received time
+      // in which case roll the year back
+      else {
+        long delta = origCal.getTimeInMillis() - cal.getTimeInMillis();
+        if (delta < 0) cal.add(Calendar.YEAR, -1);
       }
     }
     return cal.getTime();
