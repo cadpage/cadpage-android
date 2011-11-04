@@ -330,6 +330,16 @@ public class MDAnneArundelCountyEMSParserTest extends BaseParserTest {
         "UNIT:E171",
         "ID:1159",
         "INFO:CO");
+
+    doTest("T17",
+        "Box Alarm 7-13 2903 COLD SPRING WAY  [Unit 446] (PARKRIDGE CIR) 17-K3 Echo E7,E5,PE39,PE16,TK28,PTW43,SQ1,PM5,BC3,SCA COMMERCIAL/INDUSTRIAL (HOT); 1008 [3/33]",
+        "BOX:7-13",
+        "CALL:COMMERCIAL/INDUSTRIAL (HOT)",
+        "ADDR:2903 COLD SPRING WAY",
+        "APT:446",
+        "X:PARKRIDGE CIR",
+        "UNIT:E7,E5,PE39,PE16,TK28,PTW43,SQ1,PM5,BC3,SCA",
+        "ID:1008");
     
   }
 
