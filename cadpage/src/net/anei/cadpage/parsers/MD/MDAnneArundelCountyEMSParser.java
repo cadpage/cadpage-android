@@ -59,6 +59,9 @@ Medical Box 17-18 2156 MULBERRY HILL RD A19 SICK PERSON; 1549 A Y>UoM [10/29]
 Contact: Randy Hopkins <firemann172@yahoo.com>
 Local Box 23-4 133 BOONE TRL E171 CO DET./NO INJURIES (COLD); 1159 CO [4/186] \n
 
+Contact: Michael Brown <mike.a.brown09@gmail.com>
+Box Alarm 7-13 2903 COLD SPRING WAY  [Unit 446] (PARKRIDGE CIR) 17-K3 Echo E7,E5,PE39,PE16,TK28,PTW43,SQ1,PM5,BC3,SCA COMMERCIAL/INDUSTRIAL (HOT); 1008 [3/33]
+
  */
 
 public class MDAnneArundelCountyEMSParser extends SmartAddressParser {
@@ -157,7 +160,9 @@ public class MDAnneArundelCountyEMSParser extends SmartAddressParser {
     if ((match = MAP2.matcher(token)).matches()) {
       data.strMap = token;
       token = p.get(' ');
-    } else if (token.length() >= 2 && Character.isLowerCase(token.charAt(1))) {
+    }
+    
+    if (token.length() >= 2 && Character.isLowerCase(token.charAt(1))) {
       data.strPriority = token.substring(0,1);
       token = p.get(' ');
     }

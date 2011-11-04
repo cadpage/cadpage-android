@@ -24,11 +24,22 @@ Sender: messaging@iamresponding.com
 (Station 13) 2011 07:30:53;ALERT WITH ABNORMAL BREATHING;ST13;2881 STRICKLAND BRIDGE RD;CENTURY CIR
 (Station 13) 08/2011 18:00:08;RESIDENTIAL ALARM;0431,2131,ST13,ST19;5681 CAMDEN RD;STATE ST
 
+** NOT PARSING **
+(Station 13) 7/11/2011 16:16:30;DIFFICULTY SPEAKING BREATHING;ST13,ST19;4737 DESERT RIDGE RD;HYPONY TRL
+(Station 13) POINT (N)C8;07/18/2011 16:13:08;NOT ALERT BREATHING PROBSLEMS;ST13;6240 STONEY POINT LOOP;SPRINGRUN RD
+(Station 13) 2011 07:30:53;ALERT WITH ABNORMAL BREATHING;ST13;2881 STRICKLAND BRIDGE RD;CENTURY CIR
+(Station 13) 08/2011 18:00:08;RESIDENTIAL ALARM;0431,2131,ST13,ST19;5681 CAMDEN RD;STATE ST
+(Station 13) NTIAL SINGLE STRUCTURE;ST13;6405 DOROTHY PL
+(Station 13) :36;CONTINUOUS OR MULTIPLE SEIZURE;ST13;7956 CAMDEN RD;POSSUM HOLLER RD
+(Station 13) IVE BREATHING NOT VERIFI;ST13;DUNDLE RD/STONEY POINT RD;From FAY:
+(Station 13) :45;VEHICLE FIRE THREAT NONSTRUCTU;ST13;6123 ELLEN LN;BAMMEL DR
+(Station 13) NTIAL SINGLE STRUCTURE;ST13;6405 DOROTHY PL
+
 */
 
 public class NCCumberlandCountyParser extends FieldProgramParser {
   
-  private static final Pattern MARKER = Pattern.compile("\\(S\\) *(.*?) *\\(N\\) *");
+  private static final Pattern MARKER = Pattern.compile("(?:\\(S\\)) *(.*?) *\\(N\\) *");
   
   public NCCumberlandCountyParser() {
     super("CUMBERLAND COUNTY", "NC",
@@ -47,6 +58,7 @@ public class NCCumberlandCountyParser extends FieldProgramParser {
       body = "(N) " + body;
     }
     if (subject.equals("S")) body = "(S)" + body;
+    
     Matcher match = MARKER.matcher(body);
     if (match.find()) {
       data.strPlace = match.group(1);
