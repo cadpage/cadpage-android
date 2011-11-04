@@ -3410,6 +3410,7 @@ S:fire call M:vicinity of 437 lower st. garage on fire. \n
 S:Fire Weather M:Today is a class 2 day with winds Northwest at 6-9 mph.\n
 S: M:auburn rd just north of twitchells airport. power line down across rdway.\n
 S:Fire Weather M:Today is a class 1 day with winds South/Southwest @ 5 mph.\n
+S:Fire Call M:Wire down vicinity of 15 Magnum Dr. Caller heard a loud band just prior. Power still on in the area. \n
 **********************************************************
 Charleston County, SC (alternate)
 Contact: Josh Sims <josh.sims00@gmail.com>
