@@ -17,71 +17,49 @@ public class MOJeffersonCountyParserTest extends BaseParserTest {
   public void testParser() {
 
     doTest("T1",
-        "Location: @PACIFIC STATION 2 Call Type: MOVEUP MUP Comments: 7376 HIGHWAY O RP's Address: Pri: 4 Area: 77 Disp: 7724",
-        "PLACE:PACIFIC STATION 2",
+        "Location: 201 E MILLER ST DES: @DESOTO RURAL FIRE STATION 1 TYPE CODE: MOVEUP MUP CALLER ADDR: Disp: 6514",
+        "ADDR:201 E MILLER ST",
+        "CITY:DE SOTO",
+        "PLACE:DESOTO RURAL FIRE STATION 1",
         "CALL:MOVEUP MUP",
-        "ADDR:7376 HIGHWAY O",
-        "PRI:4",
-        "MAP:77",
-        "UNIT:7724");
+        "UNIT:6514");
 
     doTest("T2",
-        "Location: 16 SYCAMORE GREEN ACRES CNTY Call Type: STILL CHKBLDG Comments: CARD 77272 MAP 77 RP's Address: 16 SYCAMORE GREEN ACRES Pri: 3 Area: 77 Disp: 7710",
-        "ADDR:16 SYCAMORE GREEN ACRES",
-        "CALL:STILL CHKBLDG",
-        "INFO:CARD 77272 MAP 77 RP's ADDR:16 SYCAMORE GREEN ACRES",
-        "PRI:3",
-        "MAP:77",
-        "UNIT:7710");
+        "Location: 110 SEVEN SPRINGS CT TYPE CODE: 1STALRM RES-1ST CALLER ADDR: Disp: 7702,7724",
+        "ADDR:110 SEVEN SPRINGS CT",
+        "CALL:1STALRM RES-1ST",
+        "UNIT:7702,7724");
 
     doTest("T3",
-        "Location: OLD MORSE MILL RD/STATE RD EE CNTY Call Type: EMS TRAUMATIC_INJURI Comments: CARD 77323 MAP 61 RP's Address: Pri: 1 Area: 77 Disp: 5437,7714",
-        "ADDR:OLD MORSE MILL RD & STATE RD EE",
-        "CALL:EMS TRAUMATIC_INJURI",
-        "INFO:CARD 77323 MAP 61",
-        "PRI:1",
-        "MAP:77",
-        "UNIT:5437,7714");
+        "Location: @ST CLAIR STATION 2 TYPE CODE: MOVEUP MUP CALLER ADDR: Comments: 470 E NORTH ST Disp: 7724",
+        "ADDR:@ST CLAIR STATION 2",
+        "CALL:MOVEUP MUP",
+        "INFO:470 E NORTH ST",
+        "UNIT:7724");
 
     doTest("T4",
-        "Location: 7890 DITTMER RIDGE RD CNTY:ST MARTINS CHURCH Call Type: ALARMSND FIREALMC Comments: CARD 77159 MAP 64 RP's Address: Pri: 2 Area: 77 Disp: 7724,7710",
-        "ADDR:7890 DITTMER RIDGE RD",
-        "PLACE:ST MARTINS CHURCH",
-        "CALL:ALARMSND FIREALMC",
-        "INFO:CARD 77159 MAP 64",
-        "PRI:2",
-        "MAP:77",
-        "UNIT:7724,7710");
+        "Location: 12545 WARE RD CNTY: @DESOTO RURAL FIRE STATION 3 TYPE CODE: MOVEUP MUP CALLER ADDR: Disp: 7710",
+        "ADDR:12545 WARE RD",
+        "PLACE:DESOTO RURAL FIRE STATION 3",
+        "CALL:MOVEUP MUP",
+        "UNIT:7710");
 
     doTest("T5",
-        "Location: GRAHAM RD/CEDAR HILL RD CNTY: IN THE AREA Call Type: STILL ILLBURN Comments: 77047 25 and 25a RP's Address: Pri: 4 Area: 77 Disp: 7710",
-        "ADDR:GRAHAM RD & CEDAR HILL RD",
-        "PLACE:IN THE AREA",
-        "CALL:STILL ILLBURN",
-        "INFO:77047 25 and 25a",
-        "PRI:4",
-        "MAP:77",
-        "UNIT:7710");
+        "Location: 4432 MOCKINGBIRD LN CNTY TYPE CODE: EMS SEIZURES CALLER ADDR: Comments: CARD 65019 Disp: 6513,7537",
+        "ADDR:4432 MOCKINGBIRD LN",
+        "CALL:EMS SEIZURES",
+        "INFO:CARD 65019",
+        "UNIT:6513,7537");
 
     doTest("T6",
-        "Location: 4132 SLEEPY HOLLOW LN CNTY Call Type: 1STALRM RES-1ST Comments: CARD 77413 MAP 85 RP's Address: 4132 SLEEPY HOLLOW LN Pri: 2 Area: 77 Disp: 0002/0002 2433,2434,5437,6413,7713,7723,7734,7702,6434,7710",
-        "ADDR:4132 SLEEPY HOLLOW LN",
-        "CALL:1STALRM RES-1ST",
-        "INFO:CARD 77413 MAP 85 RP's ADDR:4132 SLEEPY HOLLOW LN",
-        "PRI:2",
-        "MAP:77",
-        "UNIT:0002/0002 2433,2434,5437,6413,7713,7723,7734,7702,6434,7710");
-
-    doTest("T7",
-        "Location: BANDSTAND LN/INDUSTRIAL DR CNTY Call Type: STILL CHKAREA RP's Address: Pri: 3 Area: 77 Disp: 7710",
-        "ADDR:BANDSTAND LN & INDUSTRIAL DR",
-        "CALL:STILL CHKAREA",
-        "PRI:3",
-        "MAP:77",
-        "UNIT:7710");
+        "Location: 5165 ATHLONE CT CNTY TYPE CODE: STILL BRUSH CALLER ADDR: Comments: CARD 77011 MAP 89 Disp: 2438,6102,6128,6418,6518,7618,7701,7710,7714,7718,7728,7734",
+        "ADDR:5165 ATHLONE CT",
+        "CALL:STILL BRUSH",
+        "INFO:CARD 77011 MAP 89",
+        "UNIT:2438,6102,6128,6418,6518,7618,7701,7710,7714,7718,7728,7734");
   }
   
   public static void main(String[] args) {
-    new MOJeffersonCountyParserTest().generateTests("T7");
+    new MOJeffersonCountyParserTest().generateTests("T1");
   }
 }
