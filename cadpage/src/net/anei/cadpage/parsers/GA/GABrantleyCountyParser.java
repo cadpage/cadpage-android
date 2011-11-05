@@ -22,6 +22,10 @@ Contact: Daniel Stone <dfstone93061@gmail.com>
 Sender: brantleyga@ez911mail.com
 Subject:Disp EMS1 Case # 2011-10-633 Call # 3967\n10/10/2011 07:44:22 /1050 /449 /EAGLES NEST RD /EAST BOUND / 1 MILE WEST OF BCHS - IN
 
+Contact: Tonya Whitworth <gatorland2525@yahoo.com>
+Sender: brantleyga@ez911mail.com
+Subject:Disp WVFD Case # 2011-11-164 Call # 4122\n11/3/2011 11:54:24 /1070 /HWY 32 E /TRACTOR ON FIRE
+
 */
 public class GABrantleyCountyParser extends FieldProgramParser {
   
@@ -29,12 +33,12 @@ public class GABrantleyCountyParser extends FieldProgramParser {
   
   public GABrantleyCountyParser() {
     super("BRANTLEY COUNTY", "GA",
-           "SKIP CALL ADDR ADDR! INFO+");
+           "DATETIME CALL STNO? ADDR! INFO+");
   }
   
   @Override
   public String getFilter() {
-    return "brantleyga@smtp.sgcce-inc.com";
+    return "brantleyga@smtp.sgcce-inc.com,brantleyga@ez911mail.com";
   }
   
   @Override
@@ -48,6 +52,16 @@ public class GABrantleyCountyParser extends FieldProgramParser {
     return parseFields(body.split(" /"), data);
   }
   
+  private static final Pattern STREET_NO_PTN = Pattern.compile("\\d+");
+  private class MyStreetNoField extends AddressField {
+    @Override
+    public boolean checkParse(String field, Data data) {
+      if (! STREET_NO_PTN.matcher(field).matches()) return false;
+      data.strAddress = field;
+      return true;
+    }
+  }
+  
   private class MyAddressField extends AddressField {
     @Override
     public void parse(String fld, Data data) {
@@ -57,6 +71,7 @@ public class GABrantleyCountyParser extends FieldProgramParser {
   
   @Override
   public Field getField(String name) {
+    if (name.equals("STNO")) return new MyStreetNoField();
     if (name.equals("ADDR")) return new MyAddressField();
     return super.getField(name);
   }
