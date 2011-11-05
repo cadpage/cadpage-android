@@ -264,10 +264,17 @@ public class NCGuilfordCountyParserTest extends BaseParserTest {
         "CALL:GAS",
         "X:HADDINGTON RD");
 
+    doTest("T32",
+        "Subject:summerfieldfiredist Oct27-23:05\nsummerfieldfiredist\nCAD:UNDER CONTROL;300 NIBLICK DR; ROCK;REF FALL\n",
+        "SRC:summerfieldfiredist",
+        "ADDR:300 NIBLICK DR",
+        "INFO:ROCK / REF FALL",
+        "CALL:UNDER CONTROL");
+
   }
   
 
   public static void main(String[] args) {
-    new NCGuilfordCountyParserTest().generateTests("T31");
+    new NCGuilfordCountyParserTest().generateTests("T33");
   }
 }

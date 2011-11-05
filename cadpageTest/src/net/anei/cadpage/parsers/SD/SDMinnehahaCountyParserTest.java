@@ -104,8 +104,8 @@ public class SDMinnehahaCountyParserTest extends BaseParserTest {
         "(Dispatch Page) DR EM  Quad 660 - DR I 29 MM 98DR Inj Accident C1 + Fire 2011-00000192",
         "SRC:DR EM",
         "MAP:Quad 660",
-        "ADDR:I 29",
-        "CALL:MM 98DR Inj Accident C1 + Fire",
+        "ADDR:I 29 MM 98",
+        "CALL:Inj Accident C1 + Fire",
         "ID:2011-00000192");
 
     doTest("T11",
@@ -113,11 +113,19 @@ public class SDMinnehahaCountyParserTest extends BaseParserTest {
         "SRC:CO LY HD EM",
         "MAP:Quad 550",
         "ADDR:46166 250TH ST",
-        "CALL:CO Structure Fire",
+        "CALL:Structure Fire",
         "ID:2011-00000091");
-  }
+
+    doTest("T12",
+        "(Dispatch Page) HU HD EM  Quad 940 - HU I 90 MM 382HU Structure Fire 2011-00000085",
+        "SRC:HU HD EM",
+        "MAP:Quad 940",
+        "ADDR:I 90 MM 382",
+        "CALL:Structure Fire",
+        "ID:2011-00000085");
+ }
   
   public static void main(String[] args) {
-    new SDMinnehahaCountyParserTest().generateTests("T10", "SRC MAP ADDR CITY CALL CODE ID");
+    new SDMinnehahaCountyParserTest().generateTests("T13", "SRC MAP ADDR CITY CALL CODE ID");
   }
 }
