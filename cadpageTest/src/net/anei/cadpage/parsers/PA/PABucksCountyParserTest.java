@@ -417,9 +417,94 @@ public class PABucksCountyParserTest extends BaseParserTest {
         "MAP:3032H4",
         "ID:ED1139682");
 
+    doTest("T35",
+        "911: STA5  type:FALRM   adr:5263 MOUNTAIN TOP RD ,26  btwn HOLICONG RD & DEAD END  aai:MARTINI RESD #2157942445  box:05027  map:2924E9 tm:19:46:52  FD1118872    Run: E5",
+        "SRC:STA5",
+        "CALL:FALRM - FIRE ALARM (LOC)",
+        "ADDR:5263 MOUNTAIN TOP RD",
+        "CITY:BUCKINGHAM TWP",
+        "X:HOLICONG RD & DEAD END",
+        "INFO:MARTINI RESD #2157942445",
+        "BOX:05027",
+        "MAP:2924E9",
+        "ID:FD1118872",
+        "UNIT:E5");
+
+    doTest("T36",
+        "911: STA5  type:RAUTO   adr:HOLICONG RD/YORK RD ,26  aai:ON YORK NO HOLICONG  box:05021  map:2924B6  tm:12:43:08  FD1117995    Run: R5 E5",
+        "SRC:STA5",
+        "CALL:RAUTO - AUTO EXTRICATION",
+        "ADDR:HOLICONG RD & YORK RD",
+        "CITY:BUCKINGHAM TWP",
+        "INFO:ON YORK NO HOLICONG",
+        "BOX:05021",
+        "MAP:2924B6",
+        "ID:FD1117995",
+        "UNIT:R5 E5");
+
+    doTest("T37",
+        "911: STA5  type:FBLD    adr:4201 MILORDS LA ,26  btwn SIR ANDREW CT & SIR ANDREW CT  aai:NEXT DOOR  box:19018  map:2923B4  tm:19:34:01 FD1116371    Run: L5 E79 E20 TW24",
+        "SRC:STA5",
+        "CALL:FBLD - BUILDING FIRE (BOX)",
+        "ADDR:4201 MILORDS LA",
+        "CITY:BUCKINGHAM TWP",
+        "X:SIR ANDREW CT & SIR ANDREW CT",
+        "INFO:NEXT DOOR",
+        "BOX:19018",
+        "MAP:2923B4",
+        "ID:FD1116371",
+        "UNIT:L5 E79 E20 TW24");
+
+    doTest("T38",
+        "911: STA5  type:WIRES   adr:RT 413/UPPER MOUNTAIN RD ,26  aai: box:05025  map:2924B10  tm:17:35:03  FD1118467    Run: E15-1",
+        "SRC:STA5",
+        "CALL:WIRES - WIRES DOWN (LOC)",
+        "ADDR:RT 413 & UPPER MOUNTAIN RD",
+        "CITY:BUCKINGHAM TWP",
+        "BOX:05025",
+        "MAP:2924B10",
+        "ID:FD1118467",
+        "UNIT:E15-1");
+
+    doTest("T39",
+        "911: STA5  type:WIRES   adr:CHURCH SCHOOL RD/MECHANICSVILLE RD ,26 aai:ON MECHANICSVILLE  box:15021  map:2923F9  tm:14:06:20  FD1118031 Run: E15",
+        "SRC:STA5",
+        "CALL:WIRES - WIRES DOWN (LOC)",
+        "ADDR:CHURCH SCHOOL RD & MECHANICSVILLE RD",
+        "CITY:BUCKINGHAM TWP",
+        "INFO:ON MECHANICSVILLE",
+        "BOX:15021",
+        "MAP:2923F9",
+        "ID:FD1118031",
+        "UNIT:E15");
+
+    doTest("T40",
+        "911: STA5  type:ELEVAT  adr:OUR LADY GUADAL ,26 at 5194 COLD SPRING CREAME RD ,26 btwn GREYSTONE DR & RT 413  aai:  box:15052  map:2923F2 tm:14:31:10  FD1116465    Run: E15",
+        "SRC:STA5",
+        "CALL:ELEVAT - STUCK ELEVATOR (LOC)",
+        "PLACE:OUR LADY GUADAL",
+        "ADDR:5194 COLD SPRING CREAME RD",
+        "CITY:BUCKINGHAM TWP",
+        "X:GREYSTONE DR & RT 413",
+        "BOX:15052",
+        "MAP:2923F2",
+        "ID:FD1116465",
+        "UNIT:E15");
+
+    doTest("T41",
+        "911: STA5  type:FINV    adr:AQUETONG RD/TAYLOR LA ,65  aai:  box:05031  map:2924E1  tm:21:09:49  FD1117661    Run: E5",
+        "SRC:STA5",
+        "CALL:FINV - FIRE INVESTIGATION (LOC)",
+        "ADDR:AQUETONG RD & TAYLOR LA",
+        "CITY:SOLEBURY TWP",
+        "BOX:05031",
+        "MAP:2924E1",
+        "ID:FD1117661",
+        "UNIT:E5");
+
   }
   
   public static void main(String[] args) {
-    new PABucksCountyParserTest().generateTests("T34");
+    new PABucksCountyParserTest().generateTests("T42");
   }
 }
