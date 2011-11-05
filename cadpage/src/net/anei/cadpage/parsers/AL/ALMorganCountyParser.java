@@ -18,6 +18,7 @@ CAD:404 7TH AV SW TRAUMA WITH INJURY CAT1 1ST ST SW 2ND ST SW 11009612 DFS1
 CAD:BETTY ST SW/5TH AV SW SMOKE INVESTIGATION 11009584 DFS1
 CAD:1810 MARTIN ST SE UNCONSCIOUS OR SYNCOPE CAT1 18TH AV SE 19TH AV SE 11009594 DFS3
 CAD:GORDON DR SW/CENTRAL PKWY SW STRUCTURE FIRE 11009333 DFS1
+CAD:1002 15TH AV SW RESIDENTIAL FIRE ALARM DOUTHIT ST SW FAYE ST SW 11011144 DFS1
 
 */
 
@@ -52,7 +53,17 @@ public class ALMorganCountyParser extends SmartAddressParser {
     }
     
     parseAddress(StartType.START_PLACE, body, data);
-    data.strCall = getLeft();
+    
+    // What's left is usually the call description
+    // but if we didn't find a priority and cross street, it might be
+    // a combine description and place name
+    String left = getLeft();
+    if (data.strPriority.length() == 0) {
+      Result res = parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ | FLAG_ONLY_CROSS | FLAG_ANCHOR_END, left);
+      res.getData(data);
+    } else {
+      data.strCall = left;
+    }
     return true;
   }
 }
