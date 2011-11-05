@@ -1,5 +1,6 @@
 package net.anei.cadpage;
 
+import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -25,6 +26,8 @@ public class ManagePreferences {
   // are boolean settings that default to false, you can get away with not
   // changing this)
   private static final int PREFERENCE_VERSION = 16;
+  
+  private static final DateFormat DATE_FORMAT = new SimpleDateFormat("MMddyyyy");
   
   private static ManagePreferences prefs;
 
@@ -409,7 +412,7 @@ public class ManagePreferences {
   public static Date installDate() {
     String dateStr = prefs.getString(R.string.pref_install_date_key);
     try {
-      return new SimpleDateFormat("MMddyyyy").parse(dateStr);
+      return DATE_FORMAT.parse(dateStr);
     } catch (ParseException ex) {
       throw new RuntimeException(ex);
     }
@@ -421,22 +424,35 @@ public class ManagePreferences {
   }
   
   public static void setInstallDate(Date date) {
-    String dateStr = new SimpleDateFormat("MMddyyyy").format(date);
+    String dateStr = DATE_FORMAT.format(date);
     prefs.putString(R.string.pref_install_date_key, dateStr);
     DonationManager.instance().reset();
+    MainDonateEvent.instance().refreshStatus();
   }
   
   public static Date minInstallDate() {
+    String dateStr = prefs.getString(R.string.pref_min_install_date_key, null);
+    if (dateStr == null) dateStr = prefs.context.getString(R.string.min_install_date);
     try {
-      return new SimpleDateFormat("MMddyyyy").parse(prefs.context.getString(R.string.min_install_date));
+      return DATE_FORMAT.parse(dateStr);
     } catch (ParseException ex) {
       return null;
     }
   }
   
+  public static void setMinInstallDate(Date newVal) {
+    setMinInstallDate(DATE_FORMAT.format(newVal));
+  }
+  
+  public static void setMinInstallDate(String newVal) {
+    prefs.putString(R.string.pref_min_install_date_key, newVal);
+    DonationManager.instance().reset();
+    MainDonateEvent.instance().refreshStatus();
+  }
+  
   public static Date minPurchaseDate() {
     try {
-      return new SimpleDateFormat("MMddyyyy").parse(prefs.context.getString(R.string.min_purchase_date));
+      return DATE_FORMAT.parse(prefs.context.getString(R.string.min_purchase_date));
     } catch (ParseException ex) {
       return null;
     }
@@ -474,27 +490,29 @@ public class ManagePreferences {
     String dateStr = prefs.getString(R.string.pref_purchase_date_key, null);
     if (dateStr == null) return null;
     try {
-      return new SimpleDateFormat("MMddyyyy").parse(dateStr);
+      return DATE_FORMAT.parse(dateStr);
     } catch (ParseException ex) {
       throw new RuntimeException(ex);
     }
   }
   
   public static void setPurchaseDate(Date date) {
-    String dateStr = new SimpleDateFormat("MMddyyyy").format(date);
+    String dateStr = DATE_FORMAT.format(date);
     prefs.putString(R.string.pref_purchase_date_key, dateStr);
     DonationManager.instance().reset();
+    MainDonateEvent.instance().refreshStatus();
   }
   
   public static String purchaseDateString() {
     String dateStr = prefs.getString(R.string.pref_purchase_date_key, null);
-    if (dateStr == null) dateStr = new SimpleDateFormat("MMddyyyy").format(new Date());
+    if (dateStr == null) dateStr = DATE_FORMAT.format(new Date());
     return dateStr;
   }
   
   public static void setPurchaseDateString(String  sDate) {
     prefs.putString(R.string.pref_purchase_date_key, sDate);
     DonationManager.instance().reset();
+    MainDonateEvent.instance().refreshStatus();
   }
   
   public static boolean freeRider() {
@@ -505,6 +523,7 @@ public class ManagePreferences {
     if (newVal == freeRider()) return;
     prefs.putBoolean(R.string.pref_free_rider_key, newVal);
     DonationManager.instance().reset();
+    MainDonateEvent.instance().refreshStatus();
   }
   
   public static String authLocation() {
@@ -515,6 +534,7 @@ public class ManagePreferences {
     if (newVal != null && newVal.equals(authLocation())) return;
     prefs.putString(R.string.pref_auth_location, newVal);
     DonationManager.instance().reset();
+    MainDonateEvent.instance().refreshStatus();
   }
   
   public static String authOrganization() {
@@ -529,7 +549,7 @@ public class ManagePreferences {
     String dateStr = prefs.getString(R.string.pref_auth_extra_date_key, null);
     if (dateStr == null) return null;
     try {
-      return new SimpleDateFormat("MMddyyyy").parse(dateStr);
+      return DATE_FORMAT.parse(dateStr);
     } catch (ParseException ex) {
       return null;
     }
@@ -545,11 +565,12 @@ public class ManagePreferences {
   }
   
   public static void authExtraDay() {
-    String sDate = new SimpleDateFormat("MMddyyyy").format(new Date());
+    String sDate = DATE_FORMAT.format(new Date());
     prefs.putString(R.string.pref_auth_extra_date_key, sDate);
     int cnt = authExtraCnt();
     prefs.putInt(R.string.pref_auth_extra_cnt_key, cnt+1);
     DonationManager.instance().reset();
+    MainDonateEvent.instance().refreshStatus();
   }
   
   public static Date authExemptDate() {
@@ -557,7 +578,7 @@ public class ManagePreferences {
     if (exemptDate == null) return null;
     if (!exemptDate.equals(prefs.context.getString(R.string.release_date))) return null;
     try {
-      return new SimpleDateFormat("MMddyyyy").parse(exemptDate);
+      return DATE_FORMAT.parse(exemptDate);
     } catch (ParseException e) {
       return null;
     }
@@ -570,6 +591,7 @@ public class ManagePreferences {
   public static void setExemptDate(String newVal) {
     prefs.putString(R.string.pref_auth_exempt_date, newVal);
     DonationManager.instance().reset();
+    MainDonateEvent.instance().refreshStatus();
   }
   
   public static void setAuthExemptDate(String newVal) {
@@ -689,6 +711,7 @@ public class ManagePreferences {
 
         R.string.pref_paid_year_key,
         R.string.pref_install_date_key,
+        R.string.pref_min_install_date_key,
         R.string.pref_purchase_date_key,
         R.string.pref_free_rider_key,
         R.string.pref_auth_location,

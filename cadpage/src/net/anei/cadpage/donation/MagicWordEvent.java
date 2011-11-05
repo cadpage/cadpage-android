@@ -1,5 +1,7 @@
 package net.anei.cadpage.donation;
 
+import java.util.Date;
+
 import net.anei.cadpage.ManagePreferences;
 import net.anei.cadpage.R;
 import android.app.Activity;
@@ -29,12 +31,31 @@ public class MagicWordEvent extends DonateQueryEvent {
   @Override
   protected boolean process(Activity activity, String input) {
     
-    if (DonationManager.validateAuthCode(input)) {
+    // Check for two kinds of daily magic words
+    int type = DonationManager.validateAuthCode(input);
+    
+    // Type one set the exempt date, which turns off release checks until
+    // the next release is loaded
+    if (type == 1) {
       ManagePreferences.setExemptDate();
       return true;
     }
+    
+    // Type 2 sets the min install date to today, granting another 30 days
+    // do trial demo
+    if (type == 2) {
+      ManagePreferences.setMinInstallDate(new Date());
+      return true;
+    }
+    
+    String code = activity.getString(R.string.min_install_magic_word);
+    if (input.equalsIgnoreCase(code)) {
+      ManagePreferences.setMinInstallDate(activity.getString(R.string.min_install_date_2));
+      return true;
+    }
 
-    String code = activity.getString(R.string.release_magic_word2);
+    // Look for old fashioned Cyprus Creek VFD authorization code
+    code = activity.getString(R.string.release_magic_word2);
     if (input.equalsIgnoreCase(code)) {
       ManagePreferences.setAuthLocation(LOCATION);
       ManagePreferences.setAuthOrganization(ORG);

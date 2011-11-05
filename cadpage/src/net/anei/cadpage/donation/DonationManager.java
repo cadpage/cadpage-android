@@ -206,27 +206,38 @@ public class DonationManager {
   /**
    * Determine if a user entered code is a valid authorization code
    * @param code entered code
-   * @return true if code is valid
+   * @return type of valid auth string if it is a valid authorization code,
+   * 0 if not a valid authorization code
    */
-  public static boolean validateAuthCode(String code) {
+  public static int validateAuthCode(String code) {
     
     // Switch to upper case
     code = code.toUpperCase();
     
     // See if it matches todays hash code
     JulianDate jDate = new JulianDate(new Date());
-    if (code.equals(calcAuthCode(jDate))) return true;
+    int type = validateAuthCode(code, jDate);
+    if (type > 0) return type;
     
     // No luck, see if it matches yesterdays has code
     jDate = new JulianDate(jDate, -1);
-    return (code.equals(calcAuthCode(jDate)));
+    return validateAuthCode(code, jDate);
   }
+  
+  private static int validateAuthCode(String code, JulianDate jDate) {
+    for (int type = 1; type < 3; type++) {
+      if (code.equals(calcAuthCode(type, jDate))) return type;
+    }
+    return 0;
+  }
+  
+  
   
   /**
    * @return Today's authorization code
    */
-  public static String getAuthCode() {
-    return calcAuthCode(new JulianDate(new Date()));
+  public static String getAuthCode(int type) {
+    return calcAuthCode(type, new JulianDate(new Date()));
   }
   
   /**
@@ -234,8 +245,9 @@ public class DonationManager {
    * @param date date to be hashed
    * @return return hashed authorization string
    */
-  private static String calcAuthCode(JulianDate jdate) {
+  private static String calcAuthCode(int type, JulianDate jdate) {
     Random rnd = new Random(jdate.hashCode());
+    for (int ndx = 1; ndx < type; ndx++) rnd.nextInt();
     int val = Math.abs(rnd.nextInt());
     StringBuffer sb = new StringBuffer();
     for (int j = 0; j < 8; j++) {

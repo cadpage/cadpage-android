@@ -92,6 +92,7 @@ public class DeveloperToolsManager {
       
       case 0:     // Stat: Reset
         ManagePreferences.setAuthExemptDate(null);
+        ManagePreferences.setMinInstallDate((String)null);
         ManagePreferences.setFreeRider(false);
         ManagePreferences.setAuthLocation(null);
         ManagePreferences.setPaidYear(-1);
@@ -102,11 +103,13 @@ public class DeveloperToolsManager {
       
       case 1:     // Stat: Donate free
         ManagePreferences.setAuthExemptDate(null);
+        ManagePreferences.setMinInstallDate((String)null);
         ManagePreferences.setFreeRider(true);
         break;
         
       case 2:     // Stat: Donate paid
         ManagePreferences.setAuthExemptDate(null);
+        ManagePreferences.setMinInstallDate((String)null);
         ManagePreferences.setFreeRider(false);
         ManagePreferences.setAuthLocation(null);
         setPaidYear(0);
@@ -115,6 +118,7 @@ public class DeveloperToolsManager {
         
       case 3:     // Stat: Donate warn
         ManagePreferences.setAuthExemptDate(null);
+        ManagePreferences.setMinInstallDate((String)null);
         ManagePreferences.setFreeRider(false);
         ManagePreferences.setAuthLocation(null);
         setPaidYear(-1);
@@ -123,6 +127,7 @@ public class DeveloperToolsManager {
         
       case 4:     // Stat: Donate expire
         ManagePreferences.setAuthExemptDate(null);
+        ManagePreferences.setMinInstallDate((String)null);
         ManagePreferences.setFreeRider(false);
         ManagePreferences.setAuthLocation(null);
         setPaidYear(-1);
@@ -131,6 +136,7 @@ public class DeveloperToolsManager {
       
       case 5:     // Stat: Demo
         ManagePreferences.setAuthExemptDate(null);
+        ManagePreferences.setMinInstallDate((String)null);
         ManagePreferences.setFreeRider(false);
         ManagePreferences.setAuthLocation(null);
         setPaidYear();
@@ -139,6 +145,7 @@ public class DeveloperToolsManager {
         
       case 6:     // Stat: Demo expired
         ManagePreferences.setAuthExemptDate(null);
+        ManagePreferences.setMinInstallDate((String)null);
         ManagePreferences.setFreeRider(false);
         ManagePreferences.setAuthLocation(null);
         setPaidYear();
