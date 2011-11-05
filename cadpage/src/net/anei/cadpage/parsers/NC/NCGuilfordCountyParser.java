@@ -58,6 +58,9 @@ Contact: Jamie Burgess <jrburgess87@gmail.com>
 Sender: 93001024 
 CAD@greensboro-nc.gov:CAD:MCVL;ST37;1;60B01;GAS;922 GOLF HOUSE ROAD EAST;HADDINGTON RD;ACROSS FROM THIS ADDRESS
 
+Contact: Brian Bradley <bkbradley@gmail.com>
+Subject:summerfieldfiredist Oct27-23:05\nsummerfieldfiredist\nCAD:UNDER CONTROL;300 NIBLICK DR; ROCK;REF FALL\n
+
 */
 
 public class NCGuilfordCountyParser extends DispatchOSSIParser {

@@ -30,6 +30,7 @@ Contact: Craig Beaubien <sdiver1973@gmail.com>
 Contact: Joe Zweifel <jlzweifel@yahoo.com>
 (Dispatch Page) DR EM  Quad 660 - DR I 29 MM 98DR Inj Accident C1 + Fire 2011-00000192
 (Dispatch Page) CO LY HD EM  Quad 550 - CO 46166 250TH ST CO Structure Fire 2011-00000091
+(Dispatch Page) HU HD EM  Quad 940 - HU I 90 MM 382HU Structure Fire 2011-00000085
 
 */
 
@@ -37,13 +38,17 @@ public class SDMinnehahaCountyParser extends SmartAddressParser {
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "BR", "BRANDON",
+      "CO", "", // Unknown
       "HD", "", // Unknown Siox Falls
+      "HU", "", // Unknown
       "VS", "VALLEY SPRINGS",
       "SR", "SPLITROCK TWP"
   });
   
   private static final Pattern CAD_MSG_PTN = 
-    Pattern.compile("((?:\\d{3}|[A-Z]{2} +)*)(Quad \\d{3,4}) - [A-Z]{2} +(.+?)(?: (C\\d))? (\\d{4}-\\d{8})");
+    Pattern.compile("((?:(?:\\d{3}|[A-Z]{2}) +)*)(Quad \\d{3,4}) - ([A-Z]{2}) +(.+?)(?: (C\\d))? (\\d{4}-\\d{8})");
+  
+  private static final Pattern MM_PTN = Pattern.compile("( MM \\d+)([A-Z]{2} )");
  
   public SDMinnehahaCountyParser() {
     super(CITY_CODES, "MINNEHAHA COUNTY", "SD");
@@ -62,13 +67,25 @@ public class SDMinnehahaCountyParser extends SmartAddressParser {
     
     data.strSource = match.group(1).trim();
     data.strMap = match.group(2);
-    String sAddrFld = match.group(3);
-    data.strCode = match.group(4);
+    String sCityCode = match.group(3);
+    String sAddrFld = match.group(4);
+    data.strCode = match.group(5);
     if (data.strCode == null) data.strCode = "";
-    data.strCallId = match.group(5);
+    data.strCallId = match.group(6);
     
-    parseAddress(StartType.START_ADDR, sAddrFld, data);
-    data.strCall = getLeft();
+    // Dispatch never puts a blank between mile markers and city codes :(
+    sAddrFld = MM_PTN.matcher(sAddrFld).replaceFirst("$1 $2");
+    
+    // Whose bright idea was it to use DR as a city code?
+    int pt = -1;
+    if (sCityCode.equals("DR")) pt = sAddrFld.lastIndexOf(" DR ");
+    if (pt >= 0) {
+      parseAddress(sAddrFld.substring(0,pt).trim(), data);
+      data.strCall = sAddrFld.substring(pt+4).trim();
+    } else {
+      parseAddress(StartType.START_ADDR, sAddrFld, data);
+      data.strCall = getLeft();
+    }
     return true;
   }
 }
