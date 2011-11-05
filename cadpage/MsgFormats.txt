@@ -3466,6 +3466,135 @@ SUBJ:<No Subject>
 MSG:
 924 UE81:14:02:00-43:U46:CHECK NORTH SIDE OF THE ROAD FOR A POSS FIELD FIRE:@RINEHART RD@SWEET POTATO RIDGE RD,CLAYTON: 
 **********************************************************
+Yarmouth, MA
+Contact: Charles Talbott <medic2@comcast.net>
+Subject: alert
+------------------------
+
+From: ** <7749947698@vtext.com>
+Date: Sat, Nov 5, 2011 at 4:20 PM
+To: medic2@comcast.net
+
+
+ 109 NOTTINGHAM DR
+NO NAME
+YARMOUTH
+Medical Priority 2/3
+2_East_1
+
+Notes
+POSSIBLE UNATTENDED
+
+----------
+From: ** <7749947698@vtext.com>
+Date: Sat, Nov 5, 2011 at 4:21 PM
+To: medic2@comcast.net
+
+
+ 579 BUCK ISLAND RD
+MAYFLOWER PLACE
+YARMOUTH
+Medical Priority 2/3
+3_South_1
+
+Notes
+BREWSTER UNIT EYE SWELLING
+
+----------
+From: ** <7749947698@vtext.com>
+Date: Sat, Nov 5, 2011 at 4:21 PM
+To: medic2@comcast.net
+
+
+ 43 MEDINAH DR
+2_West_3
+
+Notes
+DEHYDRATION SHORTNESS OF BREATH
+
+----------
+From: ** <7749947698@vtext.com>
+Date: Sat, Nov 5, 2011 at 4:22 PM
+To: medic2@comcast.net
+
+
+ 55 COTTONWOOD ST
+BACK PAIN
+
+----------
+From: ** <7749947698@vtext.com>
+Date: Sat, Nov 5, 2011 at 4:22 PM
+To: medic2@comcast.net
+
+
+ 19 FLICKER LN
+1_East_2
+
+Notes
+87 Y/O MALE DIFF BREATHING
+
+----------
+From: ** <7749947698@vtext.com>
+Date: Sat, Nov 5, 2011 at 4:23 PM
+To: medic2@comcast.net
+
+
+ 33 LEWIS RD
+3_South_1
+
+Notes
+UNRESPONSIVE FEMALE
+
+----------
+From: ** <7749947698@vtext.com>
+Date: Sat, Nov 5, 2011 at 4:23 PM
+To: medic2@comcast.net
+
+
+ 121 CAMP ST
+MILL POND VILLAGE
+YARMOUTH
+AFA (residential)
+3_North_2
+
+----------
+From: ** <7749947698@vtext.com>
+Date: Sat, Nov 5, 2011 at 4:24 PM
+To: medic2@comcast.net
+
+
+ 23 TASMANIA DR
+2_East_1
+
+----------
+From: ** <7749947698@vtext.com>
+Date: Sat, Nov 5, 2011 at 4:25 PM
+To: medic2@comcast.net
+
+
+ 6 SQUIRREL RUN
+NO NAME
+YARMOUTH
+CO Asymptomatic
+2_West_3
+
+Notes
+
+----------
+From: ** <7749947698@vtext.com>
+Date: Sat, Nov 5, 2011 at 4:26 PM
+To: medic2@comcast.net
+
+
+ 0 ROUTE 6
+NO NAME
+YARMOUTH
+MVC
+MID-CAPE HIGHWAY
+
+Notes
+6 EAST BOUND JUST PAST EXIT 8
+**********************************************************
 East Haven, CT (in New Haven county)
 Contact: "Mark Nimons" <MNimons@easthavenfire.com>
 Sender: paging@easthavenfire.com
@@ -4294,3 +4423,54 @@ Contact: Jeff Gooch <goochff21@gmail.com>
 "."@butlerco.911 :CO3 >CO DETECTOR / FIRE RESPONSE 437 SETTLERS VILLAGE CIR CRANBERRY TWP ALEJANDRO, GABRIEL Map: Grids:00000,000 Cad: 2011-0000074937
 "."@butlerco.911 :SERV >SERVICE CALL 143 FOX RUN RD CRANBERRY TWP CHEETHAM WILLIAM Map: Grids:00000,000 Cad: 2011-0000075245
 "."@butlerco.911 :FIRST >FIRE - STRUCTURE 20036 ROUTE 19 CRANBERRY TWP CANDLEWOOD EXTENDED STAY Map: Grids:00000,000 Cad: 2011-0000074503
+
+
+Body:Bldg: - Key Map: 498E - Cross Streets:GRAND AVE/AVE C - Box #:2001
+Send time:1320516857000
+Rec time: 1320516724872
+
+Body:Bldg: - Key Map: 498E - Cross Streets:GRAND AVE/AVE C - Box #:2001
+Body:ID#:11-11-38034 - 29D02m - 29D2 MOTOR VEHICLE A - 15410 S Brentwood Dr
+Send time:1320516860000
+Rec time: 1320516736774
+
+Body:ID#:11-11-38034 - 29D02m - 29D2 MOTOR VEHICLE A - 15410 S Brentwood Dr - Apt: -
+Send time:1320516858000
+Rec time: 1320516736268
+
+Body:Bldg: - Key Map: 498E - Cross Streets:GRAND AVE/AVE C - Box #:2001
+Body:ID#:11-11-38034 - 29D02m - 29D2 MOTOR VEHICLE A - 15410 S Brentwood Dr - Apt: -
+Send time:1320516915000
+Rec time: 1320516781739
+**********************************************************
+Galveston County, TX
+Contact: Shawn Sprayberry <shawnsprayberry@gmail.com>
+Santa Fe Texas zip codes 77510, 77517  We mutual aid sometimes to Hitchcock
+Tx, and Dickinson Tx  the CAD ID blocks are SANT (santa fe) HITC
+(Hitchcock) and DICK (Dickinson) ( yup had to laugh at that one)  We have
+people that have all the carriers, but for now, i have the sent from txt
+messages number that are consistant for verizon is the 1st 3 digits are
+777-xxx-xxxx. and AT&T is 410-xxx-xxxx
+
+We have dispatched from the PD's CAD to iamresponding.com, then it
+distributes to us.  any questions, email.  Thanks
+
+ .... (Santa Fe Fire) CAD:GRASS FIRE 12603 PONDEROSA DR
+
+ .... (Santa Fe Fire) CAD:GAS LEAK 11929 15TH ST SMELL OF GAS [10/27/11
+13:40:00 JHILLMAN]
+
+ .... (Santa Fe Fire) CAD:GRASS FIRE 5021 AVE O ST LARGE GRASS FIRE
+[10/28/11 09:48:02 EATONR]
+
+ .... (Santa Fe Fire) CAD:FYI: FIRE - NON SPECIFIC 4146 HOLLOWAY RD/HWY 6 ST
+
+.... (Santa Fe Fire) CAD:POLE FIRE 7231 AVE M ST GRASS IS ON FIRE ALSO
+[10/31/11 13:17:49 EATONR] UTILITY POLE ON FIRE [10/31/11 13:17:31 EATONR]
+
+ .... (Santa Fe Fire) CAD:FYI: FIRE - NON SPECIFIC 4607 GEORGIA ST LARGE
+TRASH FIRE UNATTENDED [11/03/11 07:59:46 JHILLMAN]
+
+ .... (Santa Fe Fire) CAD:LINE DOWN 1946 N FM 646 RD/HARRIETT LN LINE DOWN
+ON THE GROUND [11/03/11 09:55:42 JHILLMAN]
+

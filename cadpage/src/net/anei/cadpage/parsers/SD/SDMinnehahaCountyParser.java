@@ -27,6 +27,10 @@ Contact: Dusty Kiner <dusty.kiner@gmail.com>
 Contact: Craig Beaubien <sdiver1973@gmail.com>
 (Dispatch Page) Quad 800 - HD N WESTERN AVE OAKS DR HD Injury Accident C3 2011-00000163
 
+Contact: Joe Zweifel <jlzweifel@yahoo.com>
+(Dispatch Page) DR EM  Quad 660 - DR I 29 MM 98DR Inj Accident C1 + Fire 2011-00000192
+(Dispatch Page) CO LY HD EM  Quad 550 - CO 46166 250TH ST CO Structure Fire 2011-00000091
+
 */
 
 public class SDMinnehahaCountyParser extends SmartAddressParser {
@@ -39,7 +43,7 @@ public class SDMinnehahaCountyParser extends SmartAddressParser {
   });
   
   private static final Pattern CAD_MSG_PTN = 
-    Pattern.compile("(?:(\\d{3}|[A-Z]{2}) +)?(Quad \\d{3,4}) - [A-Z]{2} +(.+?)(?: (C\\d))? (\\d{4}-\\d{8})");
+    Pattern.compile("((?:\\d{3}|[A-Z]{2} +)*)(Quad \\d{3,4}) - [A-Z]{2} +(.+?)(?: (C\\d))? (\\d{4}-\\d{8})");
  
   public SDMinnehahaCountyParser() {
     super(CITY_CODES, "MINNEHAHA COUNTY", "SD");
@@ -56,7 +60,7 @@ public class SDMinnehahaCountyParser extends SmartAddressParser {
     Matcher match = CAD_MSG_PTN.matcher(body);
     if (!match.matches()) return false;
     
-    data.strSource = getOptGroup(match.group(1));
+    data.strSource = match.group(1).trim();
     data.strMap = match.group(2);
     String sAddrFld = match.group(3);
     data.strCode = match.group(4);
