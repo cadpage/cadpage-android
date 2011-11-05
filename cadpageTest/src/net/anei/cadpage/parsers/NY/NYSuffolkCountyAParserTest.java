@@ -194,9 +194,17 @@ public class NYSuffolkCountyAParserTest extends BaseParserTest {
         "CITY:Northport",
         "X:MONROE ST / WILLIS ST",
         "CODE:17-B-3");
-  }
+
+    doTest("T26",
+        "TYPE: HEADACHE LOC: 68 FOREST AV SHIRLE  CROSS: DAWN DR / WINSTON DR CODE: 18-C-2 TIME: 16:09:54\n\n",
+        "CALL:HEADACHE",
+        "ADDR:68 FOREST AV",
+        "CITY:Shirley",
+        "X:DAWN DR / WINSTON DR",
+        "CODE:18-C-2");
+ }
   
   public static void main(String[] args) {
-    new NYSuffolkCountyAParserTest().generateTests("T25", "CALL ADDR CITY PLACE X CODE INFO");
+    new NYSuffolkCountyAParserTest().generateTests("T26", "CALL ADDR CITY PLACE X CODE INFO");
   }
 }

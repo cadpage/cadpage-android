@@ -99,9 +99,25 @@ public class SDMinnehahaCountyParserTest extends BaseParserTest {
         "CALL:Injury Accident",
         "CODE:C3",
         "ID:2011-00000163");
+
+    doTest("T10",
+        "(Dispatch Page) DR EM  Quad 660 - DR I 29 MM 98DR Inj Accident C1 + Fire 2011-00000192",
+        "SRC:DR EM",
+        "MAP:Quad 660",
+        "ADDR:I 29",
+        "CALL:MM 98DR Inj Accident C1 + Fire",
+        "ID:2011-00000192");
+
+    doTest("T11",
+        "(Dispatch Page) CO LY HD EM  Quad 550 - CO 46166 250TH ST CO Structure Fire 2011-00000091",
+        "SRC:CO LY HD EM",
+        "MAP:Quad 550",
+        "ADDR:46166 250TH ST",
+        "CALL:CO Structure Fire",
+        "ID:2011-00000091");
   }
   
   public static void main(String[] args) {
-    new SDMinnehahaCountyParserTest().generateTests("T8", "SRC MAP ADDR CITY CALL CODE ID");
+    new SDMinnehahaCountyParserTest().generateTests("T10", "SRC MAP ADDR CITY CALL CODE ID");
   }
 }

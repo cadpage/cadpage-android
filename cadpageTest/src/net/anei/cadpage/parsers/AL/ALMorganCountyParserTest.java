@@ -73,6 +73,15 @@ public class ALMorganCountyParserTest extends BaseParserTest {
         "ID:11011144",
         "SRC:DFS1");
 
+    doTest("T8",
+        "CAD:400-BLK EVERETT DR SW STRUCTURE FIRE SANDLIN RD SW WILLIAMS ST SW 11011173 DFS6",
+        "PLACE:400-BLK",
+        "ADDR:EVERETT DR SW",
+        "CALL:STRUCTURE FIRE",
+        "X:SANDLIN RD SW WILLIAMS ST SW",
+        "ID:11011173",
+        "SRC:DFS6");
+
   }
   
   public static void main(String[] args) {

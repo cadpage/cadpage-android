@@ -338,6 +338,8 @@ public class MDAnneArundelCountyEMSParserTest extends BaseParserTest {
         "ADDR:2903 COLD SPRING WAY",
         "APT:446",
         "X:PARKRIDGE CIR",
+        "MAP:17-K3",
+        "PRI:E",
         "UNIT:E7,E5,PE39,PE16,TK28,PTW43,SQ1,PM5,BC3,SCA",
         "ID:1008");
     
