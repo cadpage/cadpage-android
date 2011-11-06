@@ -84,7 +84,7 @@ public class SDMinnehahaCountyParserTest extends BaseParserTest {
 
     doTest("T8",
         "(Dispatch Page) BR  Quad 460 - BR 1413 RUSHMORE DR 12 BR Falls C1 2011-00000111",
-        "SRC:BR",
+        "UNIT:BR",
         "MAP:Quad 460",
         "ADDR:1413 RUSHMORE DR 12",
         "CITY:BRANDON",
@@ -102,30 +102,33 @@ public class SDMinnehahaCountyParserTest extends BaseParserTest {
 
     doTest("T10",
         "(Dispatch Page) DR EM  Quad 660 - DR I 29 MM 98DR Inj Accident C1 + Fire 2011-00000192",
-        "SRC:DR EM",
+        "UNIT:DR EM",
         "MAP:Quad 660",
         "ADDR:I 29 MM 98",
+        "CITY:DELL RAPIDS",
         "CALL:Inj Accident C1 + Fire",
         "ID:2011-00000192");
 
     doTest("T11",
         "(Dispatch Page) CO LY HD EM  Quad 550 - CO 46166 250TH ST CO Structure Fire 2011-00000091",
-        "SRC:CO LY HD EM",
+        "UNIT:CO LY HD EM",
         "MAP:Quad 550",
         "ADDR:46166 250TH ST",
+        "CITY:COLTON",
         "CALL:Structure Fire",
         "ID:2011-00000091");
 
     doTest("T12",
         "(Dispatch Page) HU HD EM  Quad 940 - HU I 90 MM 382HU Structure Fire 2011-00000085",
-        "SRC:HU HD EM",
+        "UNIT:HU HD EM",
         "MAP:Quad 940",
         "ADDR:I 90 MM 382",
+        "CITY:HUMBOLT",
         "CALL:Structure Fire",
         "ID:2011-00000085");
  }
   
   public static void main(String[] args) {
-    new SDMinnehahaCountyParserTest().generateTests("T13", "SRC MAP ADDR CITY CALL CODE ID");
+    new SDMinnehahaCountyParserTest().generateTests("T13", "SRC UNIT MAP ADDR CITY CALL CODE ID");
   }
 }
