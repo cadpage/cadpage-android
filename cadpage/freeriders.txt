@@ -153,7 +153,7 @@ Richard Lieder (richard.lieder@ccvfd.com)
 Richard Mosley (very.orange@gmail.com)
 Richard Yingling (rvyingling@gmail.com)(rvyingling@verizon.net)
 Rick Landry (rlandry0769@gmail.com)(rlandry07@snet.net)
-Robert Grygar (rjgrygar@comcast.net)
+Robert Grygar (robgrygar@gmail.com)(rjgrygar@comcast.net)
 Robert Rewis (rrfmsfd@gmail.com)
 Robert Tucker (mobilewlightn@gmail.com)(wlightn@gmail.com)
 robsmithlb15@gmail.com
@@ -188,6 +188,11 @@ William Strite (wefr15@cinci.rr.com)
 yanksgt@gmail.com
 Zach Smith (zachsmith.91142@gmail.com)(bigz1232003@yahoo.com)
 
+// List of users getting credit for 2012
+$paid_2012_list
+Christopher Rowland (chrisprowl@gmail.com)(chrisprowl@aol.com) //$20
+
+
 // List of users getting credit for 2011
 $paid_2011_list
 All About Grass (jmiller258@verizon.net)
@@ -200,6 +205,7 @@ Carl Nelson (firstdue@gmail.com)
 CARL W TILLMANN JR (tillmann.911@gmail.com)
 Chad La Turno <calaturno@gmail.com>
 Christopher Eno (ceno1975@gmail.com)(ceno274933@yahoo.com)
+Christopher Rowland (chrisprowl@gmail.com)(chrisprowl@aol.com) //$20
 Clark McVey (casey.l.whitaker@gmail.com)(caseylynn45@yahoo.com)
 Claudio Fuentes (rope.wrench@gmail.com)(ccfrsq@bellsouth.net)
 Daniel Hanagan (daniel.hanagan@gmail.com)(firefighter0489@gmail.com)
@@ -223,6 +229,7 @@ G W Foster (gfoster630@gmail.com)(gfoster@alexandercountync.gov)
 IVAN BROWNING (HOTFIREFIGHTER24@AOL.COM)
 James Taylor jr (ladder197@gmail.com)(jrtaylor77@yahoo.com)
 jaybo195@aol.com
+jeff lohr <jeff.lohr3290@gmail.com>
 Jimmy Spade (Spaderman@comcast.net)
 John Chester (jchester@mcrpd.org)
 john dempsey (firepolice16323@gmail.com)(john16323@hotmail.com)

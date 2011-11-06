@@ -17,6 +17,7 @@
     <item>19d2083c525fd9737ab407c1dd9e28ca</item>  <!-- Bruce Reiersen -->
     <item>1b66eabaa7965dc72711087f874bb73f</item>  <!-- Wesley Wehry -->
     <item>1c0cbd8d8d4dcea14e6ee94c14b3701c</item>  <!-- Luis Berroa -->
+    <item>1d93109e4270891ecaecf1897e91625a</item>  <!-- Robert Grygar -->
     <item>1e3c7d05ebb72c2128e95e48314e631b</item>  <!-- Dewey Thomas -->
     <item>1f9fc356fd2278435b2e1f18e89ee15a</item>  <!-- Mark Wehrwein -->
     <item>1fc9ec98566c71f15f261c0c3752c1e2</item>  <!-- George Anderson -->
@@ -55,7 +56,6 @@
     <item>4b3feb3808e7f4c350dcefbf5e657acb</item>  <!-- David McMillin -->
     <item>4b479c84d65baf9d4853223e882b142c</item>
     <item>4b749348a7650283b901d1a31213157e</item>
-    <item>4bb166b7933db2382f714f51b2cd35f5</item>  <!-- Robert Grygar -->
     <item>4dc0e9f97ebf034f9d0981d2d68dc1ed</item>  <!-- joseph andujar -->
     <item>50c063655481cbcf43fe16fd9d7bb89f</item>
     <item>52bcf7f10e93fbe2765613dbca393105</item>  <!-- Michael Bellis -->
@@ -186,6 +186,9 @@
     <item>fe7fba5b57b70a5e0f05fdb5b5cdeef4</item>  <!-- James Throop -->
     <item>ffbe8a20fba5f385465b4ef2d86246ba</item>  <!-- carlos benavides -->
   </string-array>
+  <string-array name="paid_2012_list">
+    <item>8d4844d2fc669b90caa38f9159de2f28</item>  <!-- Christopher Rowland -->
+  </string-array>
   <string-array name="paid_2011_list">
     <item>011ddf2643a4b936cce11017ac5230ec</item>  <!-- Shaun Coon -->
     <item>019401bf26a33e692f331bb8e38ef847</item>  <!-- Richard Brosky -->
@@ -214,6 +217,7 @@
     <item>1813125ab2a3685e2477adffa3a03102</item>  <!-- Sean McMahon -->
     <item>1957cb439c27dab21335b84bb18680cc</item>  <!-- "mrrsqu@aol.com" -->
     <item>1f72772c787eb2e648f267c3cbebfda6</item>  <!-- stuart freedman -->
+    <item>1fe1fbbbc9af5aa2e5e6232c5ed9b404</item>  <!-- jeff lohr -->
     <item>20a5d64648d9e483e8961c1e069e11e3</item>  <!-- John Scraper -->
     <item>234797837449236715c03a953e9df617</item>  <!-- cody mccarraher -->
     <item>23a960ad1662f82f5fe7df4fdac95715</item>  <!-- danny britt -->
@@ -332,6 +336,7 @@
     <item>8979d8aeaf54115ad4abb56f66ed45e3</item>  <!-- randy bebeau -->
     <item>8a027d8124159d813f98a34ad459ffad</item>  <!-- Jim Lasley -->
     <item>8b89a3fa74e719dfedeb28c911a13b15</item>  <!-- "allstarhunt44@aol.com" -->
+    <item>8d4844d2fc669b90caa38f9159de2f28</item>  <!-- Christopher Rowland -->
     <item>8ddc0091f8b568378847a73e72d8511e</item>  <!-- sam miller -->
     <item>90695976898e514c3954a6ba0992974b</item>  <!-- Guilford County 911 -->
     <item>9078fe4824c6d91b4ef7d27f3f310840</item>  <!-- Brandan Seder -->
