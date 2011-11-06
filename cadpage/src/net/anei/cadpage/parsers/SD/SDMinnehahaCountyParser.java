@@ -37,16 +37,23 @@ Contact: Joe Zweifel <jlzweifel@yahoo.com>
 public class SDMinnehahaCountyParser extends SmartAddressParser {
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "BA", "BALTIC",
       "BR", "BRANDON",
-      "CO", "", // Unknown
-      "HD", "", // Unknown Siox Falls
-      "HU", "", // Unknown
+      "CO", "COLTON",
+      "CR", "CROOKS",
+//      "DR", "DELL RAPIDS",  // gets confused drive DR road suffix :(
+      "GA", "GARRETSON",
+      "HD", "", // Should be Hartford but actually in sioux falls
+      "HU", "HUMBOLT",
+      "LY", "LYONS",
+      "RE", "RENNER",
       "VS", "VALLEY SPRINGS",
-      "SR", "SPLITROCK TWP"
+      "SR", "SPLIT ROCK",
+      "EM", ""
   });
   
   private static final Pattern CAD_MSG_PTN = 
-    Pattern.compile("((?:(?:\\d{3}|[A-Z]{2}) +)*)(Quad \\d{3,4}) - ([A-Z]{2}) +(.+?)(?: (C\\d))? (\\d{4}-\\d{8})");
+    Pattern.compile("(?:(\\d{3}) +|((?:[A-Z]{2} +)+))?(Quad \\d{3,4}) - ([A-Z]{2}) +(.+?)(?: (C\\d))? (\\d{4}-\\d{8})");
   
   private static final Pattern MM_PTN = Pattern.compile("( MM \\d+)([A-Z]{2} )");
  
@@ -65,13 +72,13 @@ public class SDMinnehahaCountyParser extends SmartAddressParser {
     Matcher match = CAD_MSG_PTN.matcher(body);
     if (!match.matches()) return false;
     
-    data.strSource = match.group(1).trim();
-    data.strMap = match.group(2);
-    String sCityCode = match.group(3);
-    String sAddrFld = match.group(4);
-    data.strCode = match.group(5);
-    if (data.strCode == null) data.strCode = "";
-    data.strCallId = match.group(6);
+    data.strSource = getOptGroup(match.group(1));
+    data.strUnit = getOptGroup(match.group(2));
+    data.strMap = match.group(3);
+    String sCityCode = match.group(4);
+    String sAddrFld = match.group(5);
+    data.strCode = getOptGroup(match.group(6));
+    data.strCallId = match.group(7);
     
     // Dispatch never puts a blank between mile markers and city codes :(
     sAddrFld = MM_PTN.matcher(sAddrFld).replaceFirst("$1 $2");
@@ -82,6 +89,7 @@ public class SDMinnehahaCountyParser extends SmartAddressParser {
     if (pt >= 0) {
       parseAddress(sAddrFld.substring(0,pt).trim(), data);
       data.strCall = sAddrFld.substring(pt+4).trim();
+      data.strCity = "DELL RAPIDS";
     } else {
       parseAddress(StartType.START_ADDR, sAddrFld, data);
       data.strCall = getLeft();
