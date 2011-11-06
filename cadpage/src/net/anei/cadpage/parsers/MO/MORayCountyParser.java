@@ -30,8 +30,10 @@ WHP1 800 WHFD WHR1 FIRE ALARM 34684 HIGHWAY 10  RAY COUNTY Description: gen fire
 107 N RAYMORE ST  WOOD HEIGHTS WHFD RCAD RCSO 800 M42 WHR1 678 Clear: 22:48:39 Available: 23:34:02
 15595 BLACKBERRY TRAIL  WHFD 800 LFD 802 LT1 LP1 WHP1 Dispatch: 5/24/2011 23:15:33 Enroute: 23:15:35 OnScene: 23:23:58
 15141 W COUNTY LINE RD  RAY COUNTY WHFD RCAD 671A 675A 800 M44 WHR1 Clear: 22:20:51 Available: 23:05:20
+672 671A RCAD WHFD MENTAL 10-96 15041 S BEACH FRONT DR  CRYSTAL LAKES Description: 16 yr old male\n6'1 205\nl CrossStreets: APACHE DR 0.07 mi E EAGLE
 
-672 671A RCAD WHFD MENTAL 10-96 15041 S BEACH FRONT DR  CRYSTAL LAKES Description: 16 yr old male\n6'1 205\nl CrossStreets: APACHE DR 0.07 mi E EAGLE 
+OBTK1 OT1 OT2 OFD OSQ1 WHFD 800 FIRE NATURAL COVER OR BRUSH 9650 FOX LN RAY COUNTY Description: states that she is seeing alot of smoke in the area 
+OBTK1 OT1 OT2 OFD OSQ1 LFD RFD WHSQ1 LB1 RBT7 800 FIRE NATURAL COVER OR BRUSH 10013 REYNOLDS RD RAY COUNTY Description: ADV THAT FIRE THEY WERE ON Y
 
 */
 
@@ -60,7 +62,7 @@ public class MORayCountyParser extends DispatchGlobalDispatchParser {
   private static final Pattern STATION_PTN = 
       Pattern.compile("WHFD|LFD|OFD|RFD|RCAD|EXFD|HFD");
   private static final Pattern UNIT_PTN = 
-      Pattern.compile("WH[A-Z]\\d|[68]0\\d|67\\d[A-Z]?|LMED\\d|[LOR][A-Z]\\d|MED4\\d|M4\\d|LSQ\\d|RCSO|L\\d{3}|WHSQ\\d|315|400");
+      Pattern.compile("WH[A-Z]\\d|[68]0\\d|67\\d[A-Z]?|LMED\\d|[LOR][A-Z]\\d|MED4\\d|M4\\d|LSQ\\d|RCSO|L\\d{3}|WHSQ\\d|315|400|OBTK\\d|OSQ\\d|RBT\\d");
   
   public MORayCountyParser() {
     super(CITY_TABLE, "RAY COUNTY", "MO", STATION_PTN, UNIT_PTN);
