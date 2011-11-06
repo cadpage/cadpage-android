@@ -140,6 +140,22 @@ public class MORayCountyParserTest extends BaseParserTest {
         "CITY:CRYSTAL LAKES",
         "INFO:16 yr old male 6'1 205 l",
         "X:APACHE DR 0.07 mi E EAGLE");
+
+    doTest("T5",
+        "OBTK1 OT1 OT2 OFD OSQ1 WHFD 800 FIRE NATURAL COVER OR BRUSH 9650 FOX LN RAY COUNTY Description: states that she is seeing alot of smoke in the area ",
+        "SRC:OFD WHFD",
+        "UNIT:OBTK1 OT1 OT2 OSQ1 800",
+        "CALL:FIRE NATURAL COVER OR BRUSH",
+        "ADDR:9650 FOX LN",
+        "INFO:states that she is seeing alot of smoke in the area");
+
+    doTest("T6",
+        "OBTK1 OT1 OT2 OFD OSQ1 LFD RFD WHSQ1 LB1 RBT7 800 FIRE NATURAL COVER OR BRUSH 10013 REYNOLDS RD RAY COUNTY Description: ADV THAT FIRE THEY WERE ON Y",
+        "SRC:OFD LFD RFD",
+        "UNIT:OBTK1 OT1 OT2 OSQ1 WHSQ1 LB1 RBT7 800",
+        "CALL:FIRE NATURAL COVER OR BRUSH",
+        "ADDR:10013 REYNOLDS RD",
+        "INFO:ADV THAT FIRE THEY WERE ON Y");
   }
   
   public void testParser4() {
@@ -150,6 +166,6 @@ public class MORayCountyParserTest extends BaseParserTest {
   }
 
   public static void main(String[] args) {
-    new MORayCountyParserTest().generateTests("T1");
+    new MORayCountyParserTest().generateTests("T5");
   }
 }
