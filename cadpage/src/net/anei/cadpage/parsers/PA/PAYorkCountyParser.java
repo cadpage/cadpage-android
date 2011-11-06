@@ -10,6 +10,7 @@ import net.anei.cadpage.parsers.SmartAddressParser;
 York County, PA
 Contact: wrblackwell@comcast.net
 Contact: "Matthew Houck" <gr8tff@comcast.net> (megabytes of text samples)
+Contact: "firefighter_24@netzero.net" <firefighter_24@netzero.net>
 Sender: FIRE@mantwp.com
 
 NORTH CODORUS TWP \n\n1983 SLAGEL RD STOVERSTOWN RD / VIEW DR FIRE STRUCT RESID Working Fire 12-01 S99-1 RIT1 17:05 
@@ -22,12 +23,13 @@ Fire Incident / YORK TWP I83 SB EXIT 16A\n\nI 83 SB I 83X16ASQUEENST SB FIRE VEH
 MANCH TWP CODORUS STONE COMPANY\n\n135 MUNDIS RACE RD EMIG RD, MUNDIS LN / DELLINGER RD FIRE AFA HIGH RISK / 2nd floor smoke /  24-03 FIRESTA24 E24-1 E89-3 TK24 EMSSTA24 A23-2  11:58
 MANCH TWP GRAHAM PKG 3280 FARMTRAIL RD\n\n3280 FARMTRAIL RD CHURCH RD / FARMBROOK LN FIRE AFA HIGH RISK general fire alarm 24-10 FIRESTA24 E24-1 E23-1 TK24 EMSSTA24 A24-2  04:41
 Fire Incident / MANCH TWP \n\nCHURCH RD BOARD RD DEBRIS REMOVAL veh acc no inj leaking 24-02 FIRESTA24 E24-1  18:17¿\n\n\n
+Subject:Fire Incident\nMANCH TWP    975 DETWILER DR BELAIR WAY / STILLMEADOW LN FIRE STRUCT RESID shed on fire 24-14 FIRESTA24 E24-1 E2-1 TK24 R
 
 */
 
 public class PAYorkCountyParser extends SmartAddressParser {
   
-  private static final Pattern MASTER = Pattern.compile("(.*)\n\n(.*) (\\d{2}-\\d{2,3}) (.*?)(?: \\d\\d:\\d\\d.?)?");
+  private static final Pattern MASTER = Pattern.compile("(.*)(?:\n\n|    )(.*) (\\d{2}-\\d{2,3}) (.*?)(?: \\d\\d:\\d\\d.?)?");
   private static final Pattern CITY_PTN = Pattern.compile("^.*? (?:CITY|BORO|TWP)\\b");
   private static final Pattern SRC_PTN = Pattern.compile("^(FIRESTA\\d+) ");
   
