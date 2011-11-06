@@ -113,6 +113,16 @@ public class PAYorkCountyParserTest extends BaseParserTest {
         "MAP:24-02",
         "SRC:FIRESTA24",
         "UNIT:E24-1");
+
+    doTest("T1",
+        "Subject:Fire Incident\nMANCH TWP    975 DETWILER DR BELAIR WAY / STILLMEADOW LN FIRE STRUCT RESID shed on fire 24-14 FIRESTA24 E24-1 E2-1 TK24 R",
+        "CITY:MANCHESTER TWP",
+        "ADDR:975 DETWILER DR",
+        "X:BELAIR WAY / STILLMEADOW LN",
+        "CALL:FIRE STRUCT RESID shed on fire",
+        "MAP:24-14",
+        "SRC:FIRESTA24",
+        "UNIT:E24-1 E2-1 TK24 R");
   }
   
   public static void main(String[] args) {
