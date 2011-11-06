@@ -20,6 +20,7 @@ DispatchBParser subclass
 [e49]BLS >BASIC LIFE SUPPORT CALL 1323 NEWPORT AVE NORTHAMPTON TONY CABRERA Map: Grids:0,0 Cad: 2011-0000086010
 
 Contact: "richierrs@aol.com" <richierrs@aol.com>
+Sender: alert@notifync.org
 Subject:#6550\n[f14]MVAU >MVA WITH UNKNOW INJUIRIES WILLOW PARK RD BETHLEHEM TWP P1736 Map: Grids:0,0 Cad: 2011-0000131105
 
 Contact: Edmund Lamontagne <edmundl79@gmail.com>
@@ -77,7 +78,7 @@ public class PANorthamptonCountyParser extends DispatchBParser {
   
   @Override
   public String getFilter() {
-    return "@notifync.orgaddress";
+    return "@notifync.org";
   }
  
   @Override
