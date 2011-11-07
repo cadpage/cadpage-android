@@ -41,9 +41,24 @@ public class NCHarnettCountyParserTest extends BaseParserTest {
         "ADDR:117 SCRANTON CT",
         "CITY:CAMERON",
         "CALL:EMS DEAD ON ARRIVAL CODE 3");
+
+    doTest("T5",
+        "FRM:cadpage@harnett.org\nMSG:1111-092766*1 CLARK RD***LILLINGTON***MISC. FIRE****1175****",
+        "ID:1111-092766",
+        "ADDR:1 CLARK RD",
+        "CITY:LILLINGTON",
+        "CALL:MISC. FIRE");
+
+    doTest("T6",
+        "FRM:cadpage@harnett.org\nMSG:1111-093153*8030 RAY MEDE***SPRING LAKE***MUTUAL AID WITH OTHER COUNTY********",
+        "ID:1111-093153",
+        "ADDR:8030 RAY MEDE",
+        "CITY:SPRING LAKE",
+        "CALL:MUTUAL AID WITH OTHER COUNTY");
+
   }
 
   public static void main(String[] args) {
-    new NCHarnettCountyParserTest().generateTests("T1");
+    new NCHarnettCountyParserTest().generateTests("T6");
   }
 }

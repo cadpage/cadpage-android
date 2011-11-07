@@ -271,10 +271,18 @@ public class NCGuilfordCountyParserTest extends BaseParserTest {
         "INFO:ROCK / REF FALL",
         "CALL:UNDER CONTROL");
 
+    doTest("T33",
+        "Subject:summerfieldfiredist Nov06-22:05\nsummerfieldfiredist\nCAD:SMFD;ST09;1;STROKE;5109 MEDEARIS ST;AYERS LN\n",
+        "SRC:summerfieldfiredist",
+        "ADDR:5109 MEDEARIS ST",
+        "INFO:SMFD / ST09 / 1",
+        "CALL:STROKE",
+        "X:AYERS LN");
+
   }
   
 
   public static void main(String[] args) {
-    new NCGuilfordCountyParserTest().generateTests("T33");
+    new NCGuilfordCountyParserTest().generateTests("T34");
   }
 }
