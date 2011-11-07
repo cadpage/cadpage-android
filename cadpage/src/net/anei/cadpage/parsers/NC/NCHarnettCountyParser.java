@@ -18,13 +18,17 @@ S: M:1107-061052*3058 CRAWFORD RD***ERWIN***MOTOR VEHICLE ACCIDENT****1186****\n
 FRM:cadpage@harnett.org\nMSG:1108-070330*1995 BETHEL BAPTIST RD***SPRING LAKE***ELECTRICAL HAZARD****1120****
 1109-079514*117 SCRANTON CT***CAMERON***EMS DEAD ON ARRIVAL CODE 3****1109****
 
+Contact: Chris McCormick <mac3295@gmail.com>
+FRM:cadpage@harnett.org\nMSG:1111-092766*1 CLARK RD***LILLINGTON***MISC. FIRE****1175****
+FRM:cadpage@harnett.org\nMSG:1111-093153*8030 RAY MEDE***SPRING LAKE***MUTUAL AID WITH OTHER COUNTY********
+
 */
 
 public class NCHarnettCountyParser extends FieldProgramParser {
   
   public NCHarnettCountyParser() {
     super("HARNETT COUNTY", "NC",
-           "ID ADDR CITY CALL SEQ!");
+           "ID ADDR CITY CALL! SEQ");
   }
   
   @Override
@@ -35,7 +39,7 @@ public class NCHarnettCountyParser extends FieldProgramParser {
   @Override
   protected boolean parseMsg(String body, Data data) {
     String flds[] = body.split("\\*+");
-    if (flds.length < 5) return false;
+    if (flds.length < 4) return false;
     return parseFields(flds, data);
   }
   

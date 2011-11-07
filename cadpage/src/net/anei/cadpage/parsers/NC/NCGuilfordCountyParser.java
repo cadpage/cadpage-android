@@ -61,6 +61,8 @@ CAD@greensboro-nc.gov:CAD:MCVL;ST37;1;60B01;GAS;922 GOLF HOUSE ROAD EAST;HADDING
 Contact: Brian Bradley <bkbradley@gmail.com>
 Subject:summerfieldfiredist Oct27-23:05\nsummerfieldfiredist\nCAD:UNDER CONTROL;300 NIBLICK DR; ROCK;REF FALL\n
 
+Subject:summerfieldfiredist Nov06-22:05\nsummerfieldfiredist\nCAD:SMFD;ST09;1;STROKE;5109 MEDEARIS ST;AYERS LN\n
+
 */
 
 public class NCGuilfordCountyParser extends DispatchOSSIParser {
