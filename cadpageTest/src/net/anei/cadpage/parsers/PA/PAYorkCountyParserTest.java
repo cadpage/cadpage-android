@@ -147,7 +147,24 @@ public class PAYorkCountyParserTest extends BaseParserTest {
         "MAP:24-83");
   }
   
+  @Test
+  public void testParser3() {
+
+    doTest("T1",
+        "0049000  HANOVER BORO GOLDEN EXCHANGE CONDO ASSOCIATION   9 2ND AVE EXCHANGE PL / W WALNUT ST FIRE AFA HIGH RISK General Alarm  46-02 FIRESTA46 E46-1 E49-1",
+        "ID:0049000",
+        "CITY:HANOVER BORO",
+        "PLACE:GOLDEN EXCHANGE CONDO ASSOCIATION",
+        "ADDR:9 2ND AVE",
+        "X:EXCHANGE PL / W WALNUT ST",
+        "CALL:FIRE AFA HIGH RISK General Alarm",
+        "MAP:46-02",
+        "SRC:FIRESTA46",
+        "UNIT:E46-1 E49-1");
+
+  }
+  
   public static void main(String[] args) {
-    new PAYorkCountyParserTest().generateTests("T1", "CITY PLACE ADDR APT X CALL MAP SRC ID UNIT");
+    new PAYorkCountyParserTest().generateTests("T1", "ID CITY PLACE ADDR APT X CALL MAP SRC UNIT");
   }
 }
