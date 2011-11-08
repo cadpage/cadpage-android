@@ -33,6 +33,9 @@ Contact: Brian Shie <bshue4637@gmail.com>
 CAD:E17-FALL WITH INJURY/614 NC HWY 200 S/SFD/COYLE RD/NC 200 HWY/[Medical Priority Info] PROBLEM: FELL POSS SEIZURE RELATED # PATS: 1 AGE: 50 Yea
 CAD:80-BRUSH ALARM/ROCK HOLE RD/NC 200 HWY/SFD/WHEAT FIELD CUT BUT ON FIRE / APPX 1 ACRE [07/02/11 18:42:57 TSMITH] ONTO ROCK HOLE ON LEFT [07/02/
 
+Contact: "inque74@hotmail.com" <inque74@hotmail.com>
+CAD:E29-10-50 PI/249 DEESE ST/RFD/GOLD BRANCH RD/N CEMETERY ST/[Medical Priority Info] PROBLEM: car flipped # PATS: 1 AGE: 16 Years SEX: Female CONSCIOUS: Yes BREATHIN
+
 */
 
 public class NCStanlyCountyParser extends DispatchOSSIParser {
@@ -45,6 +48,7 @@ public class NCStanlyCountyParser extends DispatchOSSIParser {
       "NEW", "NEW LONDON",
       "NOR", "NORWOOD",
       "OAK", "OAKBORO",
+      "RFD", "RICHFIELD",
       "SFD", "STANFIELD"
   });
   
