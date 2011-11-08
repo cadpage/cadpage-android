@@ -16,7 +16,7 @@ public class DonationManager {
   public static final int EXPIRE_WARN_DAYS = 30;
   
   // How many times expires users can ask for another day
-  public static final int MAX_EXTRA_DAYS = 5;
+  public static final int MAX_EXTRA_DAYS = 10;
   
   // How long a release exemption lasts
   public static final int REL_EXEMPT_DAYS = 10;

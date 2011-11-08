@@ -5,7 +5,7 @@ import net.anei.cadpage.ManagePreferences;
 import net.anei.cadpage.R;
 
 /**
-Give me one more day
+Give me another day (n left)
  */
 public class DonateExtraDayEvent extends DonateEvent {
   
@@ -17,6 +17,12 @@ public class DonateExtraDayEvent extends DonateEvent {
   public boolean isEnabled() {
     if (DonationManager.instance().isEnabled()) return false;
     return (DonationManager.instance().extraAuthLeft() > 0);
+  }
+
+  @Override
+  protected Object[] getTextParms(int type) {
+    if (type == PARM_TITLE) return new Object[]{DonationManager.instance().extraAuthLeft()};
+    return null;
   }
 
   @Override

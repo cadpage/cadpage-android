@@ -118,7 +118,7 @@
     including your call history and settings.  Are you sure you want to do this?
   </string>
   
-  <string name="donate_extra_day_title">Give me one more day</string>
+  <string name="donate_extra_day_title">Give me another day (%d left)</string>
   
   <string name="donate_exempt_title">Exempt from release checks</string>
   <string name="donate_exempt_text">
