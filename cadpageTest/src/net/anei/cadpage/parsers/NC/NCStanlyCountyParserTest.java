@@ -114,10 +114,18 @@ public class NCStanlyCountyParserTest extends BaseParserTest {
         "CITY:STANFIELD",
         "X:WHEAT FIELD CUT BUT ON FIRE",
         "INFO:APPX 1 ACRE / ONTO ROCK HOLE ON LEFT");
- }
+
+    doTest("T14",
+        "CAD:E29-10-50 PI/249 DEESE ST/RFD/GOLD BRANCH RD/N CEMETERY ST/[Medical Priority Info] PROBLEM: car flipped # PATS: 1 AGE: 16 Years SEX: Female CONSCIOUS: Yes BREATHIN",
+        "CALL:E29-10-50 PI",
+        "ADDR:249 DEESE ST",
+        "CITY:RICHFIELD",
+        "X:GOLD BRANCH RD & N CEMETERY ST",
+        "INFO:car flipped # PATS: 1 AGE: 16 Years SEX: Female CONSCIOUS: Yes BREATHIN");
+}
   
 
   public static void main(String[] args) {
-    new NCStanlyCountyParserTest().generateTests("T14");
+    new NCStanlyCountyParserTest().generateTests("T15");
   }
 }
