@@ -199,7 +199,7 @@ Samuel K Anders (sam@samanderscpa.com)(skacpa@bellsuth.net) //$20
 
 // List of users getting credit for 2011
 $paid_2011_list
-All About Grass (jmiller258@verizon.net)
+All About Grass (jmiller258@gmail.com)(jmiller258@verizon.net)
 Alex Turner (rmrussia@hotmail.com)
 Anthony Durkin (tdurkin74@gmail.com)(tdurkin11@comcast.net)
 Arpith Roongta (arpithroongta@gmail.com)(arpithroongta@yahoo.com)
@@ -294,6 +294,7 @@ sean.felock@yahoo.com (sean.felock@gmail.com)
 Scott Hooper  (evfd1326@gmail.com)
 Scott Schmidt (firebox4@gmail.com)
 shane fisher (shane.fisher63@gmail.com)
+shane gattis (cfpd1400@gmail.com)(chiefsog@hotmail.com)
 Shawn Conley (cfdfirefighter1048@gmail.com)(cfdfirefighter1048@yahoo.com)
 Stephen Race (mcpo2000@gmail.com)(srrace@comcast.net)
 Steve Reyes (ss_reyes@hotmail.com)
@@ -617,3 +618,11 @@ Trudy Rutkowski <trudyrutk@gmail.com>
 "Ashley" (ashley2overcash@gmail.com)<overcashan@rss.k12.nc.us>
 Lori Roseman <rosemanfam5@gmail.com>
 "NEIL MATHEWS" (nem9082@gmail.com)<nem9082@rit.edu>
+christa hoover <indybug20@gmail.com>
+Mike Peski (miko1587@gmail.com)<emtpeski@gmail.com>
+chris smith (csmith2400@gmail.com)<csmith045@verizon.net>
+edward woodall <ewoodall1971@gmail.com>
+Jennifer Markle <roxburyhallrentals@gmail.com>
+Alan Eury <alaneury@gmail.com>
+Joshua Kratz <koolcatcher@gmail.com>
+PJ Mudar <pmudar528@gmail.com>
