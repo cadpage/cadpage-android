@@ -12,7 +12,7 @@ public class PAYorkCountyParserTest extends BaseParserTest {
   }
   
   @Test
-  public void testParser() {
+  public void testParser1() {
 
     doTest("T1",
         "NORTH CODORUS TWP \n\n1983 SLAGEL RD STOVERSTOWN RD / VIEW DR FIRE STRUCT RESID Working Fire 12-01 S99-1 RIT1 17:05",
@@ -113,6 +113,10 @@ public class PAYorkCountyParserTest extends BaseParserTest {
         "MAP:24-02",
         "SRC:FIRESTA24",
         "UNIT:E24-1");
+  }
+  
+  @Test
+  public void testParser2() {
 
     doTest("T1",
         "Subject:Fire Incident\nMANCH TWP    975 DETWILER DR BELAIR WAY / STILLMEADOW LN FIRE STRUCT RESID shed on fire 24-14 FIRESTA24 E24-1 E2-1 TK24 R",
@@ -123,6 +127,24 @@ public class PAYorkCountyParserTest extends BaseParserTest {
         "MAP:24-14",
         "SRC:FIRESTA24",
         "UNIT:E24-1 E2-1 TK24 R");
+
+    doTest("T2",
+        "Subject:Fire Incident\nMANCH TWP CARS PLUS  2008 N  GEORGE ST WOODLAND AVE / I 83 SB, LIGHTNER RD, I 83X22NGEORGEST SB FIRE WIRES 24-07 FIRESTA",
+        "CITY:MANCHESTER TWP",
+        "PLACE:CARS PLUS",
+        "ADDR:2008 N GEORGE ST",
+        "X:WOODLAND AVE / I 83 SB",
+        "CALL:LIGHTNER RD I 83X22NGEORGEST SB FIRE WIRES",
+        "MAP:24-07",
+        "UNIT:FIRESTA");
+
+    doTest("T3",
+        "Subject:Fire Incident\nMANCH TWP I83 NB EXIT EMIGSVILLE   I 83 NB I 83X24EMIGSVILLE NB DEBRIS REMOVAL non injury accident south of exit    24-83",
+        "CITY:MANCHESTER TWP",
+        "PLACE:I83 NB EXIT EMIGSVILLE",
+        "ADDR:I 83 NB",
+        "CALL:I 83X24EMIGSVILLE NB DEBRIS REMOVAL non injury accident south of exit",
+        "MAP:24-83");
   }
   
   public static void main(String[] args) {
