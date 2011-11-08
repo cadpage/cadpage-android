@@ -23,10 +23,14 @@ Fire Incident / YORK TWP I83 SB EXIT 16A\n\nI 83 SB I 83X16ASQUEENST SB FIRE VEH
 MANCH TWP CODORUS STONE COMPANY\n\n135 MUNDIS RACE RD EMIG RD, MUNDIS LN / DELLINGER RD FIRE AFA HIGH RISK / 2nd floor smoke /  24-03 FIRESTA24 E24-1 E89-3 TK24 EMSSTA24 A23-2  11:58
 MANCH TWP GRAHAM PKG 3280 FARMTRAIL RD\n\n3280 FARMTRAIL RD CHURCH RD / FARMBROOK LN FIRE AFA HIGH RISK general fire alarm 24-10 FIRESTA24 E24-1 E23-1 TK24 EMSSTA24 A24-2  04:41
 Fire Incident / MANCH TWP \n\nCHURCH RD BOARD RD DEBRIS REMOVAL veh acc no inj leaking 24-02 FIRESTA24 E24-1  18:17¿\n\n\n
-Subject:Fire Incident\nMANCH TWP    975 DETWILER DR BELAIR WAY / STILLMEADOW LN FIRE STRUCT RESID shed on fire 24-14 FIRESTA24 E24-1 E2-1 TK24 R
 
+Subject:Fire Incident\nMANCH TWP    975 DETWILER DR BELAIR WAY / STILLMEADOW LN FIRE STRUCT RESID shed on fire 24-14 FIRESTA24 E24-1 E2-1 TK24 R
 Subject:Fire Incident\nMANCH TWP CARS PLUS  2008 N  GEORGE ST WOODLAND AVE / I 83 SB, LIGHTNER RD, I 83X22NGEORGEST SB FIRE WIRES 24-07 FIRESTA
 Subject:Fire Incident\nMANCH TWP I83 NB EXIT EMIGSVILLE   I 83 NB I 83X24EMIGSVILLE NB DEBRIS REMOVAL non injury accident south of exit    24-83
+
+Contact:Charles Schriver <chuckles494@gmail.com>
+Sender: york911alert@comcast.net 
+0049000  HANOVER BORO GOLDEN EXCHANGE CONDO ASSOCIATION   9 2ND AVE EXCHANGE PL / W WALNUT ST FIRE AFA HIGH RISK General Alarm  46-02 FIRESTA46 E46-1 E49-1
 
 */
 
@@ -34,6 +38,7 @@ public class PAYorkCountyParser extends SmartAddressParser {
   
   private static final Pattern MASTER = Pattern.compile("(.*) (\\d{2}-\\d{2,3})(?: (.*?)(?: \\d\\d:\\d\\d.?)?)?", Pattern.DOTALL);
   private static final Pattern DELIM = Pattern.compile("\n\n|    *");
+  private static final Pattern ID_PTN = Pattern.compile("^(\\d{7}) ");
   private static final Pattern CITY_PTN = Pattern.compile("^.*? (?:CITY|BORO|TWP)\\b");
   private static final Pattern SRC_PTN = Pattern.compile("^(FIRESTA\\d+) ");
   
@@ -80,6 +85,13 @@ public class PAYorkCountyParser extends SmartAddressParser {
     // Strip off averying preceeding a /
     int pt = part1.indexOf(" / ");
     if (pt >= 0) part1 = part1.substring(pt+3).trim();
+    
+    // See if there is a leading call number
+    match = ID_PTN.matcher(part1);
+    if (match.find()) {
+      data.strCallId = match.group(1);
+      part1 = part1.substring(match.end()).trim();
+    }
     
     // Rest should be a city name followed by an optional place name
     // City names always end in BORO, CITY or TWP (we hope)

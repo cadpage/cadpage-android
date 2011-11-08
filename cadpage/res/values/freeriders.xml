@@ -32,6 +32,7 @@
     <item>28e82d96ad9f879e143403033afd4f6c</item>  <!-- KURT REINERT -->
     <item>295bf2944272683408574c9f799cf8e5</item>  <!-- Charles Green -->
     <item>2978068a1efd0910f9fe8ac570e53799</item>  <!-- bradley e jordan -->
+    <item>29cb402e4a9902345eddf36bf104b5fa</item>  <!-- Mike Wassell -->
     <item>2c4f70d60f5d7d7a624e93a91cbdb719</item>  <!-- Richard Lieder -->
     <item>2d6ebb5c5e2cef5bf67424ee2e2939fe</item>  <!-- Joseph E Klier -->
     <item>2de98734828661891a26235a5994869d</item>  <!-- Tracy Faulkne -->
@@ -188,7 +189,9 @@
     <item>ffbe8a20fba5f385465b4ef2d86246ba</item>  <!-- carlos benavides -->
   </string-array>
   <string-array name="paid_2012_list">
+    <item>4cae4f883e3e11e9333a0718221f5d82</item>  <!-- Robert Tripe -->
     <item>8d4844d2fc669b90caa38f9159de2f28</item>  <!-- Christopher Rowland -->
+    <item>db8b169b184e8132a49361420d62e521</item>  <!-- Samuel K Anders -->
   </string-array>
   <string-array name="paid_2011_list">
     <item>001f716af20fe86fd583e1cacd661daf</item>  <!-- brian miller -->
@@ -297,6 +300,7 @@
     <item>49b9373c94220618f2a45e2df6699b74</item>  <!-- Clark McVey -->
     <item>4be4a84378a57f3914c90d2de24da943</item>  <!-- Frank Sulzer -->
     <item>4c75fba66c82b8b5f7a4faeb46752eab</item>  <!-- Michael Carosi -->
+    <item>4cae4f883e3e11e9333a0718221f5d82</item>  <!-- Robert Tripe -->
     <item>4d4127e513b698f72176f9d3b1b6e6b4</item>  <!-- "sfd965@gmail.com" -->
     <item>4ddf6ab92deac0aa6bef066fd1ac072a</item>  <!-- Brian Finger -->
     <item>4df7cc300c25028f1cb338e89931599c</item>  <!-- "polarisrider290" -->
@@ -492,6 +496,7 @@
     <item>c58d3851999fd48efc2035909cf739e6</item>  <!-- Lance Stuart -->
     <item>c610854cce11ddb304adde85c54c7fd3</item>  <!-- Doug Day -->
     <item>c61ea5591acdb7b3278da163675f50b4</item>  <!-- Guilford County 911 -->
+    <item>c6ba9e88ac008128792cba302d7886a6</item>  <!-- Chad Jones -->
     <item>c6d53e6829a5c9d25ff0524d7483b5a7</item>  <!-- Guilford County 911 -->
     <item>c7278331d6949d30fd93a02d99aee679</item>  <!-- gary saraceni -->
     <item>c7b94a1ed1163ba5a1a866fe14b79a17</item>  <!-- "Hames, Brian P." -->
@@ -527,6 +532,7 @@
     <item>db0eabb9fca90301f6e6d7c31336617e</item>  <!-- Chris Delancey -->
     <item>db4ffab15846becc102387c764b8b65c</item>  <!-- "jdonahue10320@hotmail.com" -->
     <item>db5a66a57a32502ca6ba01631fab01f0</item>  <!-- "Darin" -->
+    <item>db8b169b184e8132a49361420d62e521</item>  <!-- Samuel K Anders -->
     <item>dcb3d70a56349c1fcf791e50826d5e59</item>  <!-- Matthew Erd -->
     <item>dcd72ab39f5f35bba67e3e2920ebc250</item>  <!-- CARL W TILLMANN JR -->
     <item>dcdd8b0bd61c7b5c3da90d9d5594a53e</item>  <!-- Mike Bierman -->
