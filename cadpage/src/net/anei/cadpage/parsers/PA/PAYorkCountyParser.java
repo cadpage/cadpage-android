@@ -25,11 +25,15 @@ MANCH TWP GRAHAM PKG 3280 FARMTRAIL RD\n\n3280 FARMTRAIL RD CHURCH RD / FARMBROO
 Fire Incident / MANCH TWP \n\nCHURCH RD BOARD RD DEBRIS REMOVAL veh acc no inj leaking 24-02 FIRESTA24 E24-1  18:17¿\n\n\n
 Subject:Fire Incident\nMANCH TWP    975 DETWILER DR BELAIR WAY / STILLMEADOW LN FIRE STRUCT RESID shed on fire 24-14 FIRESTA24 E24-1 E2-1 TK24 R
 
+Subject:Fire Incident\nMANCH TWP CARS PLUS  2008 N  GEORGE ST WOODLAND AVE / I 83 SB, LIGHTNER RD, I 83X22NGEORGEST SB FIRE WIRES 24-07 FIRESTA
+Subject:Fire Incident\nMANCH TWP I83 NB EXIT EMIGSVILLE   I 83 NB I 83X24EMIGSVILLE NB DEBRIS REMOVAL non injury accident south of exit    24-83
+
 */
 
 public class PAYorkCountyParser extends SmartAddressParser {
   
-  private static final Pattern MASTER = Pattern.compile("(.*)(?:\n\n|    )(.*) (\\d{2}-\\d{2,3}) (.*?)(?: \\d\\d:\\d\\d.?)?");
+  private static final Pattern MASTER = Pattern.compile("(.*) (\\d{2}-\\d{2,3})(?: (.*?)(?: \\d\\d:\\d\\d.?)?)?", Pattern.DOTALL);
+  private static final Pattern DELIM = Pattern.compile("\n\n|    *");
   private static final Pattern CITY_PTN = Pattern.compile("^.*? (?:CITY|BORO|TWP)\\b");
   private static final Pattern SRC_PTN = Pattern.compile("^(FIRESTA\\d+) ");
   
@@ -47,13 +51,33 @@ public class PAYorkCountyParser extends SmartAddressParser {
     
     Matcher match = MASTER.matcher(body);
     if (!match.matches()) return false;
-    String part1 = match.group(1).trim();
-    String part2 = match.group(2).trim();
-    data.strMap = match.group(3).trim();
-    String part3 = match.group(4).trim();
+    String sAddr = match.group(1).trim();
+    data.strMap = match.group(2).trim();
+    String part3 = getOptGroup(match.group(3));
     
-    // work on the message header
-    // May contain a call description followed by slash
+    // Hopefully we can find a clear delimiter separating the first message piece 
+    // into two parts.  If not, use the smart address parser to break up the 
+    // address field
+    StartType st = StartType.START_PLACE;
+    String part1 = null;
+    match = DELIM.matcher(sAddr);
+    if (match.find()) {
+      // work on the message header
+      // May contain a call description followed by slash
+      part1 = sAddr.substring(0,match.start()).trim();
+      sAddr = sAddr.substring(match.end()).trim();
+      st = StartType.START_ADDR;
+    } 
+    
+    sAddr = sAddr.replace(',', ' ');
+    parseAddress(st, FLAG_IMPLIED_INTERSECT, sAddr, data);
+    if (part1 == null) {
+      part1 = data.strPlace;
+      data.strPlace = "";
+    }
+    
+    // Now to work on the leader section
+    // Strip off averying preceeding a /
     int pt = part1.indexOf(" / ");
     if (pt >= 0) part1 = part1.substring(pt+3).trim();
     
@@ -67,16 +91,15 @@ public class PAYorkCountyParser extends SmartAddressParser {
       data.strCity = part1;
     }
     if (data.strCity.equals("MANCH TWP")) data.strCity = "MANCHESTER TWP";
-    
-    // Message body consists of an address followed by a description
-    part2 = part2.replace(',', ' ');
-    parseAddress(StartType.START_ADDR, FLAG_IMPLIED_INTERSECT, part2, data);
-    part2 = getLeft();
-    
-    // The address may be a simple address followed by a cross street
-    if (part2.startsWith("/")) part2 = part2.substring(1).trim();
-    parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS | FLAG_IMPLIED_INTERSECT, part2, data);
-    
+
+      // The address may be a simple address followed by a cross street
+    sAddr = getLeft();
+    if (sAddr.startsWith("/")) sAddr = sAddr.substring(1).trim();
+    parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS | FLAG_IMPLIED_INTERSECT, sAddr, data);
+
+    // Anything left should be the call description
+    // If we don't find anything, the field we parsed as the cross street must be 
+    // the call description
     data.strCall = getLeft();
     if (data.strCall.length() == 0) {
       data.strCall = data.strCross;

@@ -3291,14 +3291,6 @@ Contact: "bradfordsnyder@verizon.net" <bradfordsnyder@verizon.net>
 Sender: waterwitch73@zoominternet.net
 DIABETIC\n254 N MAIN ST\nVANNORT DR\nGRANITE AVE\nPD\n08:00:00\n[P DIABETIC ;81 YEAR OLD, FEMALE, CONSCIOUS, BREATHING.  DIABETICPROBLEMS.\n11021185\nEMS OPS
 **********************************************************
-Deepwater, NJ in Salem county (alternate)
-Contact: "m.warner1@comcast.net" <m.warner1@comcast.net>
-Sender: msg@cfmsg.com
-(Chief ALT) [STA:7] -- ALS -- 118 E Pittsfield St Pennsville Township NJ - Cross STS:Sparks Ave -- Caller: DAULTON 
-(Chief ALT) [STA:7] -- Motor Vehicle Accident -- 1163 S Broadway Way Pennsville Township NJ - Cross STS:Freas Rd -- Caller: JACK KUGLER 9352515
-(Chief ALT) [STA:7] -- MVC -- Njtp South Mm 1-4.5 Njtp Carneys Point Township NJ -- Caller: SHAWN HAMMELL 6178168
-(Chief ALT) [STA:7] -- Fire Alarm System -- 117 N Broadway Way Pennsville Township NJ - Cross STS:Brandriff Ave -- Caller: VERIZON / KAREN 6158005
-**********************************************************
 Denver Health Paramedic Division, CO
 Contact:7203380414@messaging.sprintpcs.com
 AMB: 39     PRI: 1  ADD: 5400 W Warren Ave             APT: 22         NATU
@@ -4477,4 +4469,12 @@ TRASH FIRE UNATTENDED [11/03/11 07:59:46 JHILLMAN]
 
  .... (Santa Fe Fire) CAD:LINE DOWN 1946 N FM 646 RD/HARRIETT LN LINE DOWN
 ON THE GROUND [11/03/11 09:55:42 JHILLMAN]
-
+**********************************************************
+Deepwater, NJ in Salem county (alternate)
+Contact: "m.warner1@comcast.net" <m.warner1@comcast.net>
+Sender: msg@cfmsg.com
+(Chief ALT) [STA:7] -- ALS -- 118 E Pittsfield St Pennsville Township NJ - Cross STS:Sparks Ave -- Caller: DAULTON 
+(Chief ALT) [STA:7] -- Motor Vehicle Accident -- 1163 S Broadway Way Pennsville Township NJ - Cross STS:Freas Rd -- Caller: JACK KUGLER 9352515
+(Chief ALT) [STA:7] -- MVC -- Njtp South Mm 1-4.5 Njtp Carneys Point Township NJ -- Caller: SHAWN HAMMELL 6178168
+(Chief ALT) [STA:7] -- Fire Alarm System -- 117 N Broadway Way Pennsville Township NJ - Cross STS:Brandriff Ave -- Caller: VERIZON / KAREN 6158005
+(Chief ALT) [STA:7] -- Out Of County Assist -- Delaware Memorial Brg New Castle DE -- Caller: COUNTY
