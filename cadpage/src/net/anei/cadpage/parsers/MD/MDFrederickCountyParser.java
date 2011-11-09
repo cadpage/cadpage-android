@@ -62,13 +62,17 @@ Sender: rc.404@c-msg.net
 (CAD) [FredCo] CT: ENGINE TRANSFER / default 14026 GRACEHAM RD CTHU: @STATION 18 MAP: 4222J2 Disp: ET154
 (CAD) [FredCo] CT: VEHICLE ACCIDENT / default CMON: @RT80 / KEMPTOWN CHURCH RD MAP: 4689D7 Disp: A259,RE153,ET254
 
+Contact: Joseph Wentz <ccsgt82@gmail.com>
+Sender: messaging@iamresponding.com
+(JFC 2) CT: BACK PAIN /  801 TOLL HOUSE AVE FRE1: SUITE C-3 MAP: 4566D3  Disp: A29
+
 ***/
 
 public class MDFrederickCountyParser extends FieldProgramParser {
 
   public MDFrederickCountyParser(){
     super(CITY_CODES, "FREDERICK COUNTY", "MD",
-          "CT:ADDR! TIME:SKIP? ESZ:BOX? MAP:MAP Disp:UNIT");
+          "CT:ADDR! TIME:TIME? ESZ:BOX? MAP:MAP Disp:UNIT");
   }
 
   @Override
@@ -79,6 +83,7 @@ public class MDFrederickCountyParser extends FieldProgramParser {
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     
+    if (subject.length() == 0) return false;
     String[] subjects = subject.split("\\|");
     if (subjects.length > 2) return false;
     if (subjects.length == 2) {
@@ -86,7 +91,7 @@ public class MDFrederickCountyParser extends FieldProgramParser {
       else if (subjects[1].equals("CAD")) subject = subjects[0];
       else return false;
     }
-    if (!subject.equals("FredCo") && !subject.equals("!")) return false;
+    data.strSource = subject;
     return super.parseMsg(body, data);
   }
   
@@ -181,6 +186,11 @@ public class MDFrederickCountyParser extends FieldProgramParser {
     if (name.equals("ADDR")) return new MyAddressField();
     if (name.equals("UNIT")) return new MyUnitField();
     return super.getField(name);
+  }
+  
+  @Override
+  public String getProgram() {
+    return "SRC " + super.getProgram();
   }
   
   private static final Properties CITY_CODES = 
