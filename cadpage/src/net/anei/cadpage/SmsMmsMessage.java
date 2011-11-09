@@ -631,7 +631,7 @@ public class SmsMmsMessage implements Serializable {
     // If there was a date field, use information from it
     else {
       cal.set(Calendar.MONTH, dateArry[0]-1);
-      cal.set(Calendar.DAY_OF_MONTH, dateArry[1]-1);
+      cal.set(Calendar.DAY_OF_MONTH, dateArry[1]);
       int year = dateArry[2];
       
       // If year was specified, use it.  If it was a 2 digit year
