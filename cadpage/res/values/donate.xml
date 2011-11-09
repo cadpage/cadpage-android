@@ -26,6 +26,7 @@
   
   <string name="donate_paid_title">Your Cadpage subscription is current</string>
   <string name="donate_paid_text">
+    You have a current Cadpage subscription that is good until %s
   </string>
   
   <string name="donate_paid_warn_title">Your subscription will expire in %d days</string>
@@ -41,7 +42,8 @@
   <string name="donate_demo_title">Cadpage demo expires in %d days</string>
   <string name="donate_demo_text">
     You have been using Cadpage for %1$d days, you have %2$d days left before the
-    demo expires.
+    demo expires.  But nothing bad happens when the demo expires, it has gone
+    back to being totally toothless.
   </string>
   
   <string name="donate_demo_expire_title">Your Cadpage demo has expired</string>
@@ -103,13 +105,9 @@
   
   <string name="donate_sob_story_title">"I can't afford $10"</string>
   <string name="donate_sob_story_text">
-    So, you are paying monthly charges for a smart phone, probably have a text
-    package and data package on top of that, which runs to how much a month?  
-    "And you can't afford $10/year to pay hard working developers to keep Cadpage"
-    up and running?\n
-    \n
-    "Why not, we're suckers for a good story.  Tell us why you don't think"
-    you can afford $10 and we will probably give you a free subscription.  
+    Hold that thought while we rethink the way we hand out free subscriptions.
+    We will want to hear from you.  Please come back and try this again in the 
+    next release.
   </string>
   
   <string name="clear_data_title">Reinstall Cadpage</string>

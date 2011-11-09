@@ -12,7 +12,6 @@ public class PaidExpireDonateEvent extends DonateScreenEvent {
   public PaidExpireDonateEvent() {
     super(AlertStatus.RED, R.string.donate_paid_expire_title, R.string.donate_paid_expire_text,
            ReqMoneyGroup.instance(),
-           DonateExtraDayEvent.instance(),
            MagicWordEvent.instance());
   }
 

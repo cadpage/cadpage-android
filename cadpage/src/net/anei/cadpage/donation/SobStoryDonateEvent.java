@@ -17,8 +17,8 @@ probably give you a free subscription.
 public class SobStoryDonateEvent extends DonateScreenEvent {
 
   protected SobStoryDonateEvent() {
-    super(AlertStatus.YELLOW, R.string.donate_sob_story_title, R.string.donate_sob_story_text,
-           EmailSobStoryEvent.instance());
+    super(AlertStatus.YELLOW, R.string.donate_sob_story_title, R.string.donate_sob_story_text);
+           // EmailSobStoryEvent.instance());
   }
 
   @Override
