@@ -31,7 +31,6 @@ Surrounding areas overlapping Franklin County listed next
 Other areas that are still needed - based on Zip Code Addressing
       "XXX", "Ferrum"
       "XXX", "Glade Hill"
-      "XXX", "Henry"
       "XXX", "Penhook"
       "XXX", "Redwood"
       "XXX", "Union Hall"
@@ -42,7 +41,10 @@ Other areas that are still needed - based on Zip Code Addressing
     buildCodeTable(new String[]{
       "BML", "Boones Mill",
       "CAL", "Callaway",
+      "FER", "Ferrum",
+      "HEN", "Henry",
       "RMT", "Rocky Mount",	  
+      "SNO", "Snow Creek",
       "BAS", "Bassett",	  
       "HAR", "Hardy",
       "MAR", "Martinsville"

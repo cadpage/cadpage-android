@@ -385,7 +385,7 @@
   <string name="pref_show_source_summaryoff">Will not display source of alert</string>
 
   <string name="pref_override_default_title">Override Default City/State</string>
-  <string name="pref_override_default_summaryon">Use user default dity/state</string>
+  <string name="pref_override_default_summaryon">Use user default city/state</string>
   <string name="pref_override_default_summaryoff">Use location default city/state</string>
 
   <string name="pref_defcity_title">Default City or County</string>
