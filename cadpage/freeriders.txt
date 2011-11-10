@@ -1,4 +1,3 @@
-// Don't forget to run GenFreeRiders to update the real user list
 
 // List of all users getting free access forever
 $free_rider_list
@@ -81,6 +80,7 @@ James Albury (jalbury32@gmail.com)
 James Conley (jwconley69@gmail.com)
 James Goolsby (rhfd63@gmail.com)(jimmeg63@yahoo.com).
 James Throop (medicthroop@gmail.com)(medicthroop@aol.com)
+Jacquelyn Liko (jjliko@gmail.com)(jacquelynnicole86@hotmail.com)
 Jared Gibson (jaredgibson82@gmail.com)
 Jason Griffin (jgriffin1839@gmail.com)(jason134@bellsouth.net)
 Jason Reed (reedjasonf@gmail.com)
@@ -160,6 +160,7 @@ Robert Grygar (robgrygar@gmail.com)(rjgrygar@comcast.net)
 Robert Rewis (rrfmsfd@gmail.com)
 Robert Tucker (mobilewlightn@gmail.com)(wlightn@gmail.com)
 robsmithlb15@gmail.com
+Ron Britton (bavfc3171@gmail.com)<bavfc@yahoo.com>
 rpankoe@gmail.com
 Russell Hobbs (tcfpd1303@gmail.com)(tri_county1318@firehousemail.com)
 Russell Leets (rleets@chalfontems.org)(vleets134@gmail.com)
@@ -176,6 +177,7 @@ Thomas Ruppel (taruppel@gmail.com)(thomasruppel@verizon.net)
 Thomas Taylor (fpo20@yahoo.com)
 tigerfdny@gmail.com
 Tim Wright (trwj316@gmail.com)(trwj316@yahoo.com)
+timothy maready (truck_co_rescue@yahoo.com)
 Todd Beckert (tbeck247@gmail.com)
 Todd Williams (toddwilliams323@gmail.com)(Todd520@msn.com)
 Tonia Windish (twindish4@gmail.com)(awindish@frontier.com)
@@ -201,7 +203,8 @@ Samuel K Anders (sam@samanderscpa.com)(skacpa@bellsuth.net) //$20
 // List of users getting credit for 2011
 $paid_2011_list
 All About Grass (jmiller258@gmail.com)(jmiller258@verizon.net)
-Alex Turner (rmrussia@hotmail.com)
+Alex Turner (rmrussia007@gmail.com)(rmrussia@hotmail.com)
+Angus Duff (angus.duff66@gmail.com)(aduff@everestkc.net)
 Anthony Durkin (tdurkin74@gmail.com)(tdurkin11@comcast.net)
 Arpith Roongta (arpithroongta@gmail.com)(arpithroongta@yahoo.com)
 Benjamin Wagner (roanokefpd8@gmail.com)(roanokefpd8@gmail.com)
@@ -224,6 +227,7 @@ Daniel Schneider (daniel.schneider.07@gmail.com)
 danny britt (dbritt8715@gmail.com)(cfr918@yahoo.com)
 David Bruce (dbruce0571@gmail.com)(dbruce1@carolina.rr.com)
 David Deck (wfdd02@gmail.com)(dldeck@sbcglobal.net)
+derrick m pry (dprysta80@gmail.com)(delstatefirefighter@yahoo.com).
 Duane Carpenter (dcarpenter26@gmail.com)
 Doug Day (dday2530@gmail.com)(dday2530@yahoo.com)
 Dustin Fails (wffd29@gmail.com)
@@ -235,7 +239,7 @@ Geoffrey Backus (backusgj@gmail.com)
 George Ewings (gewings@gmail.com)
 George Stewart (tank84123@gmail.com)(Tank84123@aol.com)
 Gerald Bentley (tbentley69@gmail.com) <jtbentley032595@hotmail.com>
-Grant Todack (grant_todack@yahoo.com)
+Grant Todack (gtodack@gmail.com)(grant_todack@yahoo.com)
 Greg Potter (army12.gp@gmail.com)(gtodack@gmail.com)(ffpotter@hotmail.com)
 greg seal (grgifts02@gmail.com)(grgifts02@yahoo.com)
 G W Foster (gfoster630@gmail.com)(gfoster@alexandercountync.gov)
@@ -263,6 +267,7 @@ Kevin Hogan (hawkeyehogan9886@gmail.com)
 Kevin Hughes (kevinh@bbmas.com)
 KevinM Croffoot (kmcroffoot@gmail.com)(kmcroffoot@yahoo.com)
 kevin absher (kabsher0002@gmail.com)
+Larry Morrow (bustnfire@aol.com)
 Lawrence McCaskill (rescue518@gmail.com)(lsmccaskill@aol.com)
 Marcie Battles (mhbattles@gmail.com)(mbattles2001@yahoo.com)
 Mark Howard (Mhoward562@gmail.com)(Grizzly911@aol.com)
@@ -283,7 +288,10 @@ rachel mingora (j.mingora13@gmail.com)(rjmingora1354@aol.com)
 randy bebeau (bebes73@hotmail.com)
 Rich Rapp (rrapp87@gmail.com)
 Richard Devine (rdevine324@gmail.com)(rdevine6@stny.rr.com)
-Rick Beam (radrick69@gmail)(radrick69@yahoo.com)
+Richard Dunn (cdunn@huntersvillefd.com)(cdunn@huntersvillefd.com)
+Richard Frank (rfrank1923@gmail.com)(rfrank23@chesnet.net)
+Rick Beam (radrick69@gmail.com)(radrick69@yahoo.com)
+Rick Beam (2528626043)
 Robert Tripe <rmtripe@gmail.com> //$20
 Rob Kochanowski <ladder20@gmail.com> // Android payment failure :(
 ROBERT JONES (biigboyjones2358@gmail.com)(biigboyjones1@gmail.com)(biigboy@mchsi.com)
@@ -306,6 +314,7 @@ Steve Reyes (ss_reyes@hotmail.com)
 Ted Bost (trbostjr@gmail.com)(trbostjr@charter.net)
 Thomas Alessi (tom.alessi.k1ta@gmail.com)(tom@alessi.net)
 TJ Brown (med8693@gmail.com)(happygirl@carolina.rr.com)
+Tod Miller (shotleybrookeranch@gmail.com)<millerblaine@q.com>
 Tom Vandewart (tvandewart@dwny.com)<rhfd120@optonline.net>
 Travis Nicholson (tnicholson316@comcast.net)
 Victor Quintanilla (vquintanilla7@gmail.com)
@@ -631,3 +640,12 @@ Jennifer Markle <roxburyhallrentals@gmail.com>
 Alan Eury <alaneury@gmail.com>
 Joshua Kratz <koolcatcher@gmail.com>
 PJ Mudar <pmudar528@gmail.com>
+Warren Porter III <wgp981@gmail.com>
+Zachary Adams <zad1107a@gmail.com>
+tiffany graye <tiffany.r.graye@gmail.com>
+Jimmy Kelly (jmmyquad@gmail.com)<jmmyquad@yahoo.com>
+dennis mcwilliams (flydmack@gmail.com)<dennymack2002@yahoo.com>
+jon turcotte <tomahawk1974@gmail.com>
+Stosh Sitkowski <stosh009@gmail.com>
+"Jonathan S. Rado" (knightsgk01@gmail.com)<jsr208@lehigh.edu>
+Nick Stein <snickphotos@gmail.com>
