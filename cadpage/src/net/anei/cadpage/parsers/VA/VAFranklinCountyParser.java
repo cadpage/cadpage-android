@@ -23,13 +23,30 @@ S: M:MAILBOX:S02 ACCIDENT-INJURY 1450 WIRTZ CFS# 2011-028395\n
 
 public class VAFranklinCountyParser extends DispatchDAPROParser {
   
+/*
+Listed alphabetically.
+Areas in Franklin County listed first.
+Surrounding areas overlapping Franklin County listed next
+
+Other areas that are still needed - based on Zip Code Addressing
+      "XXX", "Ferrum"
+      "XXX", "Glade Hill"
+      "XXX", "Henry"
+      "XXX", "Penhook"
+      "XXX", "Redwood"
+      "XXX", "Union Hall"
+      "XXX", "Wirtz"
+*/
   
   private static final Properties CITY_CODE_TABLE = 
     buildCodeTable(new String[]{
-      "RMT", "Rocky Mount",
       "BML", "Boones Mill",
-      "CAL", "Calaway"
-    });
+      "CAL", "Callaway",
+      "RMT", "Rocky Mount",	  
+      "BAS", "Bassett",	  
+      "HAR", "Hardy",
+      "MAR", "Martinsville"
+      });
 
   
   public VAFranklinCountyParser() {
