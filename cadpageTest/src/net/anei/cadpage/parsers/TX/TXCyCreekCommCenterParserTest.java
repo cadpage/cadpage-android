@@ -269,6 +269,30 @@ public class TXCyCreekCommCenterParserTest extends BaseParserTest {
         "UNIT:E23 E21 E33 E24 E36 TW23 L36",
         "X:LAKEWOOD CROSSING DR");
 
+    doTest("T25",
+        "11/07 15:59 8304 WOODSONG DR-HC, ; 61 Map:250S- Sub:TIMBERCREST VILLAGE MHP Nat:26-MEDICAL CALL Units:M501 FO250W 76M X-St:SUGAR LEAF TRL LONDON TOW 201150082",
+        "DATE:11/07",
+        "TIME:15:59",
+        "ADDR:8304 WOODSONG DR",
+        "APT:61",
+        "MAP:250S-",
+        "PLACE:TIMBERCREST VILLAGE MHP",
+        "CALL:26-MEDICAL CALL",
+        "UNIT:M501 FO250W 76M",
+        "X:SUGAR LEAF TRL LONDON TOW",
+        "ID:201150082");
+
+    doTest("T26",
+        "11/09 12:21 8211 DEER TRAIL DR-HC, ; Map:250S- Sub:TIMBERCREST VILLAGE MHP Nat:10-CARDIAC Units:M54 FO250W 76M X-St:LONDON TOWN DR ELMFIELD D 201150359",
+        "DATE:11/09",
+        "TIME:12:21",
+        "ADDR:8211 DEER TRAIL DR",
+        "MAP:250S-",
+        "PLACE:TIMBERCREST VILLAGE MHP",
+        "CALL:10-CARDIAC",
+        "UNIT:M54 FO250W 76M",
+        "X:LONDON TOWN DR ELMFIELD D",
+        "ID:201150359");
   }
   
   public static void main(String[] args) {
