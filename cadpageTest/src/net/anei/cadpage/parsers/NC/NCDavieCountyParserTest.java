@@ -92,12 +92,8 @@ public class NCDavieCountyParserTest extends BaseParserTest {
         "CITY:MOCKSVILLE",
         "INFO:NBH: FROM 444 EATONS CHURCH RD TO 3558 US HWY 601 N NBH: I40 TO FARMSTEAD LN",
         "CALL:HC - HAZARDO");
-  }
-  
-  @Test
-  public void testParser2() {
 
-    doTest("T1",
+    doTest("T9",
         "911@[70.60.255.70] 911:Call #110713-6266* Address:154 CRESTVIEW DR* * * City:MOCKSVILLE* NBH: OFF 499 EAST LAKE DR* Type:26A2-11* SICK PERSON (SPECIFIC DIAGNOSIS)* linda packett* P",
         "ID:110713-6266",
         "ADDR:154 CRESTVIEW DR",
@@ -106,10 +102,28 @@ public class NCDavieCountyParserTest extends BaseParserTest {
         "CALL:26A2-11 - SICK PERSON (SPECIFIC DIAGNOSIS)",
         "NAME:linda packett");
 
+    doTest("T10",
+        "911:Call #111107-2492* Address:100 SUN BURST LN* * * City:MOCKSVILLE* NBH: OFF 1627 JUNCTION RD NEAR NOLLEY RD* Type:HC* HAZARDOUS CONDITION* *",
+        "ID:111107-2492",
+        "ADDR:100 SUN BURST LN",
+        "CITY:MOCKSVILLE",
+        "INFO:NBH: OFF 1627 JUNCTION RD NEAR NOLLEY RD",
+        "CALL:HC - HAZARDOUS CONDITION");
+
+    doTest("T11",
+        "911:Call #111108-2718* Address:255 NEELY RD* * * City:COOLEEMEE* * Type:SF* STRUCTURE FIRE* FOWLER ANSLO* PH#:336-284-4275* Units:14* IRA:* Me",
+        "ID:111108-2718",
+        "ADDR:255 NEELY RD",
+        "CITY:COOLEEMEE",
+        "INFO:Me",
+        "CALL:SF - STRUCTURE FIRE",
+        "NAME:FOWLER ANSLO",
+        "PHONE:336-284-4275",
+        "UNIT:14");
   }
   
 
   public static void main(String[] args) {
-    new NCDavieCountyParserTest().generateTests("T1");
+    new NCDavieCountyParserTest().generateTests("T12");
   }
 }
