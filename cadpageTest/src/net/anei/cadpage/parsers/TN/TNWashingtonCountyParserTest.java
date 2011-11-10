@@ -360,6 +360,15 @@ public class TNWashingtonCountyParserTest extends BaseParserTest {
         "TIME:12:46:55",
         "ID:11162258");
 
+    doTest("T34",
+        "prvs=2861b1534=JCFDTEXT@johnsoncitytn.org Chest Pain(Non-Traumatic)-CHARLIE M1,R2,E7\n310 N STATE OF FRANKLIN RD\nMEDICAL OFFICE BUILDING 2\nX-STR= RAIL ROAD OVERPASS/W WALNUT ST\nPRO",
+        "CALL:Chest Pain(Non-Traumatic)",
+        "PRI:C",
+        "UNIT:M1,R2,E7",
+        "ADDR:310 N STATE OF FRANKLIN RD",
+        "PLACE:MEDICAL OFFICE BUILDING 2",
+        "X:RAIL ROAD OVERPASS/W WALNUT ST & PRO");
+
   }
   
   @Test
