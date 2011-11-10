@@ -3352,6 +3352,12 @@ Sender: 911@NWCDS.org
  \n[10:20:32 11-08-2011] *D 1307 AFAF/407 N MAIN ST ,MP (COMMUNITY PRESBYTERIAN CHURCH) TWR13 E13 A14 BAT3 \n
 [20:10:53 11-07-2011] *D 1303 3F/409 OAK ST ,MP TWR13 E14 E12 A14 A12 BAT3
 **********************************************************
+Broome County, NY (alternate?)
+Contact: "Tom Vroman" <Tvroman@ix.netcom.com>
+Sender: mplus@co.broome.ny.us
+((9766) ) ) Unit:401A OES:BUILDING :304 NORTH ST LEE'S AUTO SALES :BUILDING FIRE : C&C MOTOR Cross Sts:LODER AV/OAK AV 02:30 11/09/2011 2011-00002337 Caller:P
+**********************************************************
+**********************************************************
 **********************************************************
 ************  READY TO ROLL ******************************
 **********************************************************

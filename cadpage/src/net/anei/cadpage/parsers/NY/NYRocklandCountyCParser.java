@@ -15,6 +15,8 @@ Sender: dispatch@hatzolohems.org
 (ACR# 5181) Add: 10 Melnick Dr, \nX St: Between Robert Pitt Dr and Spruill Ct\nName: Sale Furniture Warehouse, Whole\nPhone: 8453716664\nComp: EDP\n9/12/2011 -
 (ACR# 5535) Addr: 24 Deerwood Rd\nX St: Between Cara Dr and Charlotte Dr\nName: Eisenberg, Mordechai\nPhone: 8453628456\nComp: MEDICAL\n10/22/20 11 - 8:27 PM 
 (ACR# 5496) Addr: 180 Kearsing Pkwy #B\nName: Dov, Nachman\nPhone: 8453562086\nComp: ELDERLY NOT FEELING WELL\n10/17/2011 - 9:23 PM
+(ACR# 5752) Addr: 24 Deerwood Rd\nX St: Between Cara Dr and Charlotte Dr\nName: Eisenberg, Mordy\nPhone: 8453628456\nComp: ELDERLY FALL AND B
+(ACR# 5753) Addr: 24 Deerwood Rd\nX St: Between Cara Dr and Charlotte Dr\nName: Eisenberg, Mordechai\nPhone: 8453628456\nComp: EDP\n11/9/2011 - 1:10 PM
 
 */
 
@@ -22,7 +24,7 @@ public class NYRocklandCountyCParser extends FieldProgramParser {
   
   public NYRocklandCountyCParser() {
     super("ROCKLAND COUNTY", "NY",
-        "Addr:ADDR! X_St:X Name:NAME Phone:PHONE Comp:SKIP");
+        "Addr:ADDR! X_St:X Name:NAME Phone:PHONE Comp:CALL");
   }
   
   @Override
