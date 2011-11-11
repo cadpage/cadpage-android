@@ -105,9 +105,10 @@
   
   <string name="donate_sob_story_title">"I can't afford $10"</string>
   <string name="donate_sob_story_text">
-    Hold that thought while we rethink the way we hand out free subscriptions.
-    We will want to hear from you.  Please come back and try this again in the 
-    next release.
+    "Tell us why you can't afford a $10 donation.  We're really easy on these.\n\n"
+    Is there anything we can do to make Cadpage easier to use?  Do you any
+    suggestions on better ways we can finance the considerable costs of maintaining
+    Cadpage?
   </string>
   
   <string name="clear_data_title">Reinstall Cadpage</string>
