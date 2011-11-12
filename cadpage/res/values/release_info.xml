@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string name="release_date">11052011</string>
-  <string name="release_version">v1.4.36</string>
+  <string name="release_version">v1.4.40</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="min_install_date">10042011</string>
@@ -12,27 +12,27 @@
 Thanks to everyone who has donated Your support is appreciated and helps support the app.\n
 See http://www.cadpage.org/financial-support for more details\n
 \n
+Incredibly busy week with not a whole lot to show for it.  We will try to do 
+better next week\n
+\n
 What"'"s new in this release\n
 \n
-New Locations:\n
-Christina, DE handled by New Castle County\n
-Weld County, CO replaces Greeley, CO\n
-Medina County, OH\n
-Delaware County, PA\n
+Pull the teeth on the demo expiration.  We have gone back to just showing a demo
+expiration notice but not really doing anything about it.  At least for now.\n
 \n
 Location Parsing Fixes:\n
-Anne Arundel County, MD\n
-Jefferson County, MO\n
-Suffolk County, NY\n
-Sussex County, NJ\n
-Lincoln County, NC\n
-Washington County, TN\n
-Humble, TX\n
-\n
-General Fixes\n
-Cadpage can now be installed on external SD card\n
-Renamed Isle of Wight County, VA\n
-Fixed force close in donation logic\n
+MorganCounty, AL\n
+Brantley County, GA\n
+Frederick County, MD\n
+Ray County, MO\n
+Rockland County, NY\n
+Harnett County, NC\n
+Stanley County, NC\n
+Cambria County, PA\n
+York County, PA\n
+Minnehaha County, SD\n
+Washington COunty, TN\n
+Franklin County, VA\n
   </string>  
 </resources>
   
