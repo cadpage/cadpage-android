@@ -112,6 +112,34 @@ public class TXMontgomeryCountyParserTest extends BaseParserTest {
         "ADDR:12767 COON MASSEY RD",
         "CITY:CONROE",
         "X:15344 FM 3083");
+
+    doTest("T13",
+        "(Nature: 29-MVA - PRE-ALERT) New Fire Run: 2011-96042,,E112,Location: RAYFORD RD-SC/FOX RUN BLVD-SC,Building: ,Cross: 3050 RAYFORD RD-SC,,Grid:",
+        "ID:2011-96042",
+        "CALL:29-MVA - PRE-ALERT",
+        "UNIT:E112",
+        "ADDR:RAYFORD RD & FOX RUN BLVD",
+        "CITY:SE MONTGOMERY",
+        "X:3050 RAYFORD RD");
+
+    doTest("T14",
+        "(Nature: 12B01-SEIZURE - Effective breathing NOT) New Fire Run: 2011-95939,,B113,Location: 25808 I45 N-SC,Building: ,Cross: 102 OAKWOOD DR-SC,BR",
+        "ID:2011-95939",
+        "CALL:12B01-SEIZURE - Effective breathing NOT",
+        "UNIT:B113",
+        "ADDR:25808 I45 N",
+        "CITY:SE MONTGOMERY",
+        "X:102 OAKWOOD DR");
+
+    doTest("T15",
+        "(Nature: F48-CODE 1000 DRILL ONLY) New Fire Run: 2011-95833,,E113,Location: 27430 ROBINSON RD-OR,Building: ST 113 S MONT CO FIRE,Cross: 27254 BL",
+        "ID:2011-95833",
+        "CALL:F48-CODE 1000 DRILL ONLY",
+        "UNIT:E113",
+        "ADDR:27430 ROBINSON RD",
+        "APT:ST 113 S MONT CO FIRE",
+        "CITY:OAK RIDGE",
+        "X:27254 BL");
   }
   
   public static void main(String[] args) {
