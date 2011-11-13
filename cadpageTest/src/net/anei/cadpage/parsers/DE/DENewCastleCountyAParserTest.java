@@ -199,11 +199,19 @@ public class DENewCastleCountyAParserTest extends BaseParserTest {
         "CITY:HOLLY OAK",
         "X:btwn GOVERNOR PRINTZ BL ~ WALNUT ST",
         "INFO:??DSC:MATERNITY 25YOF ~~~ ?! PAT:1 SEX:Female AGE:25Years CON:Y BRE:Y");
+
+    doTest("T24",
+        "28CAD / [eFB] F00 17:23 1 - T:M29D5 (MVC--NOT ALERT) L:113 S DUPONT HY ,4Q -- LONE STAR STEAKHOU btwn CHRISTIANA RD ~ FIFTH AV * 28CAD / HARES CORNER - DESC:\n\n",
+        "SRC:28CAD",
+        "CALL:M29D5 (MVC--NOT ALERT)",
+        "ADDR:113 S DUPONT HY",
+        "PLACE:HARES CORNER",
+        "X:btwn CHRISTIANA RD ~ FIFTH AV");
   
   }
   
   public static void main(String[] args) {
-    new DENewCastleCountyAParserTest().generateTests("T24");
+    new DENewCastleCountyAParserTest().generateTests("T25");
   }
 }
     		
