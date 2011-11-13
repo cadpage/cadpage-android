@@ -226,9 +226,18 @@ public class TXMontgomeryCountyParserTest extends BaseParserTest {
         "ADDR:I45 N & RAYFORD RD",
         "CITY:SPRING",
         "X:25130 I45 N");
+
+    doTest("T26",
+        "(Nature: 06D02-BREATHING PROBLEMS - DIFICULTY SPE) New Fire Run: 2011-96229,,B113,Location: 258 SPRING PINES DR-SC,Building: ,Cross: 26202 MAPLE",
+        "ID:2011-96229",
+        "CALL:06D02-BREATHING PROBLEMS - DIFICULTY SPE",
+        "UNIT:B113",
+        "ADDR:258 SPRING PINES DR",
+        "CITY:SPRING",
+        "X:26202 MAPLE");
   }
   
   public static void main(String[] args) {
-    new TXMontgomeryCountyParserTest().generateTests("T16");
+    new TXMontgomeryCountyParserTest().generateTests("T27");
   }
 }

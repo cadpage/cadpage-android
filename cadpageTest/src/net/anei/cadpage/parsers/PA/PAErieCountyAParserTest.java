@@ -190,6 +190,14 @@ public class PAErieCountyAParserTest extends BaseParserTest {
         "ADDR:4242 ASBURY RD",
         "CITY:MILLCREEK TWP",
         "X:THOROUGHBRED LOOP");
+
+    doTest("T19",
+        "FRM:messaging@iamresponding.com\nSUBJ:West Ridge Fire\nMSG:9E1 &gt;CARDIAC/RESP ARREST / DEATH 4411 FOREST GLEN DR XS: W 38TH ST MILLCREEK TWP\n",
+        "SRC:West Ridge Fire",
+        "CALL:CARDIAC/RESP ARREST/DEATH",
+        "ADDR:4411 FOREST GLEN DR",
+        "CITY:MILLCREEK TWP",
+        "X:W 38TH ST");
  
   }
   
