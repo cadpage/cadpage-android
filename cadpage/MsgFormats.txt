@@ -3389,6 +3389,15 @@ Sender: dispatch@ohiomuni.net
 (Dispatch Message) SQUAD: CARDIAC/CHEST PAIN \n110 WEST LEBANON RD N 40\n33 YEAR OLD MALE CHEST PAINS\nHAS MITROVALVE PROLASPE
 (Dispatch Message) FIRE: GRASS/TREES/BRUSH   \nHACKETT RD KANSAS RD S \nFIELD FIRE AT S. KANSAS AND HACKETT.
 **********************************************************
+Unknown
+Contact: "samlazarich@yahoo.com" <samlazarich@yahoo.com>
+CLOSE: Inc# 008254; MEDICAL; 17075 EVERGREEN RD ,BOWMAN ; DSP: 11-12-05:53; ENR: 11-12-05:57; ONS: 11-12-06:51; AIQ: 11-12-﻿
+MEDICAL; 17075 EVERGREEN RD ,BOWMAN ; ; Inc# 008254; 2573 CO-3 STE3; female diff breath﻿
+FIRE, OTHER; 14800 BOWMAN RD / 14802 HWY 36 W ,BAKER ; ; Inc# 008246; 2522 2573 103; vasser rd﻿
+CLOSE: Inc# 008236; FIRE, SMOKE CHECK; 19435 PLATEAU DR ,BOWMAN ; DSP: 11-11-11:23; ENR: 11-11-11:25; AIQ: 11-11-11:34; ﻿
+FIRE, SMOKE CHECK; 19435 PLATEAU DR ,BOWMAN ; ; Inc# 008236; 2573 103; UP HILL FROM ADDRESS﻿
+HAZ, GAS; 16655 TEHAMA DAM DR ,BOWMAN ; ; Inc# 008278; 2573 CO-3; SMELL OF PROPANE, CROSS OF FARQUHAR﻿
+MEDICAL; TEXACO STATION COTTONWOOD @ 19845 MAIN ST ,BOWMAN ; ; Inc# 008281; 2573 CO-3 SCOM; tcso requesting medical for fem﻿
 **********************************************************
 **********************************************************
 **********************************************************
