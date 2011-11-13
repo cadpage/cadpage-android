@@ -6,7 +6,7 @@ import net.anei.cadpage.SmsMsgInfo.Data;
 import net.anei.cadpage.parsers.FieldProgramParser;
 
 /*
-Delaware County, PA 
+Delaware County, PA (variant D, possibly superseded by variant E
 Contact: chris smith <csmith045@verizon.net>
 Sender: oakmont1@comcast.net
 
@@ -18,6 +18,9 @@ Sender: oakmont1@comcast.net
 12:57\n421 BROOKLINE BLVD\nAUTOMATIC FIRE ALARM\nWEXFORD RD\nEARLINGTON RD\n10/12/2011\nALARM\nLA38/ENG56/RE56/FO35\nF11059648\n610-446-84
 09:29\n5030 BRITTANY LN\nACCIDENTAL TRIP OF FIRE ALARM\nBRENNAN DR\nSPROUL RD\n10/17/2011\nALARM\nENG38\nF11060680\n~TRIPPED /BY STEAM,610
 13:36\n838 AUBREY AV\nAUTOMATIC FIRE ALARM\nSAINT MARYS RD\nCOUNTY LINE RD\n10/14/2011\nALARM\nENG38\nF11060114\n~ HALLWAY SMOKE DET,1068 
+
+Contact: George Millison <george.millison@colonialelectric.com>
+18:03\nHAVERFORD RD & WOODCREST AV\nFD INVESTIGATION\nHAVERFORD RD\nWOODCREST AV
 
 */
 
