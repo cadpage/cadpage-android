@@ -119,7 +119,7 @@ public class TXMontgomeryCountyParserTest extends BaseParserTest {
         "CALL:29-MVA - PRE-ALERT",
         "UNIT:E112",
         "ADDR:RAYFORD RD & FOX RUN BLVD",
-        "CITY:SE MONTGOMERY",
+        "CITY:SPRING",
         "X:3050 RAYFORD RD");
 
     doTest("T14",
@@ -128,7 +128,7 @@ public class TXMontgomeryCountyParserTest extends BaseParserTest {
         "CALL:12B01-SEIZURE - Effective breathing NOT",
         "UNIT:B113",
         "ADDR:25808 I45 N",
-        "CITY:SE MONTGOMERY",
+        "CITY:SPRING",
         "X:102 OAKWOOD DR");
 
     doTest("T15",
@@ -140,9 +140,95 @@ public class TXMontgomeryCountyParserTest extends BaseParserTest {
         "APT:ST 113 S MONT CO FIRE",
         "CITY:OAK RIDGE",
         "X:27254 BL");
+
+    doTest("T16",
+        "(Nature: F03-AUTOMATIC ALARM) New Fire Run: 2011-96053,,E112,Location: 1805 RILEY FUZZELL RD-SC,Building: ,Cross: 28500 SPRING TRAILS,Grid: 293E,",
+        "ID:2011-96053",
+        "CALL:F03-AUTOMATIC ALARM",
+        "UNIT:E112",
+        "ADDR:1805 RILEY FUZZELL RD",
+        "CITY:SPRING",
+        "X:28500 SPRING TRAILS");
+
+    doTest("T17",
+        "(Nature: F08-CONTROLLED BURN) New Fire Run: 2011-96055,,B112,Location: 1638 JULIA PARK DR-SC,Building: ,Cross: 27918 TESSIE HILLS L,Grid: 293K,M",
+        "ID:2011-96055",
+        "CALL:F08-CONTROLLED BURN",
+        "UNIT:B112",
+        "ADDR:1638 JULIA PARK DR",
+        "CITY:SPRING",
+        "X:27918 TESSIE HILLS L");
+
+    doTest("T18",
+        "(Nature: F08-CONTROLLED BURN) New Fire Run: 2011-96061,,B112,Location: 2121 RILEY FUZZELL RD-SC,Building: ,Cross: 28702 LODDINGTON ST-,Grid: 293E",
+        "ID:2011-96061",
+        "CALL:F08-CONTROLLED BURN",
+        "UNIT:B112",
+        "ADDR:2121 RILEY FUZZELL RD",
+        "CITY:SPRING",
+        "X:28702 LODDINGTON ST");
+
+    doTest("T19",
+        "(Nature: 10C01-CHEST PAIN - Abnormal Breathing) New Fire Run: 2011-96069,,B113,Location: 319 PINE MANOR DR-OR,Building: ,Cross: 27072 N HARLAN L",
+        "ID:2011-96069",
+        "CALL:10C01-CHEST PAIN - Abnormal Breathing",
+        "UNIT:B113",
+        "ADDR:319 PINE MANOR DR",
+        "CITY:OAK RIDGE",
+        "X:27072 N HARLAN L");
+
+    doTest("T20",
+        "(Nature: 28C01U-STROKE/CVA - Not alert - Unknown) New Fire Run: 2011-96082,,T112,Location: 2115 OLD OX RD-SC,Building: ,Cross: 29502 TIMBER TRL-",
+        "ID:2011-96082",
+        "CALL:28C01U-STROKE/CVA - Not alert - Unknown",
+        "UNIT:T112",
+        "ADDR:2115 OLD OX RD",
+        "CITY:SPRING",
+        "X:29502 TIMBER TRL");
+
+    doTest("T21",
+        "(Nature: 29-MVA - PRE-ALERT) New Fire Run: 2011-96081,,L111,Location: INTERSTATE 45 N & RAYFORD RD,Building: ,Cross: ,,Grid: 252W,Map: 5173,.",
+        "ID:2011-96081",
+        "CALL:29-MVA - PRE-ALERT",
+        "UNIT:L111",
+        "ADDR:INTERSTATE 45 N & RAYFORD RD");
+
+    doTest("T22",
+        "(Nature: 32D01-UNKNOWN PROBLEM/MAN DOWN - Life St) New Fire Run: 2011-96095,,B111,Location: INTERSTATE 45 N & RAYFORD RD,Building: ,Cross: ,,Gri",
+        "ID:2011-96095",
+        "CALL:32D01-UNKNOWN PROBLEM/MAN DOWN - Life St",
+        "UNIT:B111",
+        "ADDR:INTERSTATE 45 N & RAYFORD RD");
+
+    doTest("T23",
+        "(Nature: 28C01L-STROKE/CVA - Not alert - Less tha) New Fire Run: 2011-96102,,B113,Location: 25610 OAKHURST DR-SC,Building: GRACE MEMORY CARE II,",
+        "ID:2011-96102",
+        "CALL:28C01L-STROKE/CVA - Not alert - Less tha",
+        "UNIT:B113",
+        "ADDR:25610 OAKHURST DR",
+        "APT:GRACE MEMORY CARE II",
+        "CITY:SPRING");
+
+    doTest("T24",
+        "(Nature: F44-SMALL OUTSIDE FIRE) New Fire Run: 2011-96146,,E112,Location: 29903 S LEGENDS VILLAGE CIR-SC,Building: ,Cross: 29820 LEGENDS PASS L,",
+        "ID:2011-96146",
+        "CALL:F44-SMALL OUTSIDE FIRE",
+        "UNIT:E112",
+        "ADDR:29903 S LEGENDS VILLAGE CIR",
+        "CITY:SPRING",
+        "X:29820 LEGENDS PASS L");
+
+    doTest("T25",
+        "(Nature: 06C01-BREATHING PROBLEMS - Abnormal Brea) New Fire Run: 2011-96151,,B111,Location: I45 N-SC/RAYFORD RD-SC,Building: ,Cross: 25130 I45 N",
+        "ID:2011-96151",
+        "CALL:06C01-BREATHING PROBLEMS - Abnormal Brea",
+        "UNIT:B111",
+        "ADDR:I45 N & RAYFORD RD",
+        "CITY:SPRING",
+        "X:25130 I45 N");
   }
   
   public static void main(String[] args) {
-    new TXMontgomeryCountyParserTest().generateTests("T13");
+    new TXMontgomeryCountyParserTest().generateTests("T16");
   }
 }
