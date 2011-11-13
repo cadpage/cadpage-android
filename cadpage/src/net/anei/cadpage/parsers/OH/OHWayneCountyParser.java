@@ -40,13 +40,14 @@ public class OHWayneCountyParser extends SmartAddressParser {
     
     Matcher match = MASTER.matcher(body);
     if (!match.matches()) return false;
-    parseAddress(StartType.START_CALL, match.group(1).trim(), data);
+    parseAddress(StartType.START_CALL, 
+                 FLAG_START_FLD_REQ | FLAG_IMPLIED_INTERSECT | FLAG_NO_IMPLIED_APT, 
+                 match.group(1).trim(), data);
     String sPlace = getLeft();
     data.strSupp = sPlace;
     if (data.strAddress.length() < 4 ){
       data.strPlace = body;
-        data.strCall = "GENERAL ALERT";
-         return true;
+      data.strCall = "GENERAL ALERT";
     }
     
     return true;

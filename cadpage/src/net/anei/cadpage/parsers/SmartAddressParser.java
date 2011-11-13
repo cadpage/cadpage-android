@@ -84,6 +84,12 @@ public abstract class SmartAddressParser extends SmsMsgParser {
    */
   public static final int FLAG_ONLY_CITY = 0x0200;
   
+  /**
+   * Flag indicating that a numeric field following the address should NOT
+   * be considered an apartment number.
+   */
+  public static final int FLAG_NO_IMPLIED_APT =0x0400;
+  
   private Properties cityCodes = null;
   
   // Main dictionary maps words to a bitmap indicating what is important about that word
@@ -1470,6 +1476,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
   
   // Determine if token at index is a standalone apartment number
   private boolean isAptToken(int ndx) {
+    if (isFlagSet(FLAG_NO_IMPLIED_APT)) return false;
     if (ndx >= tokens.length) return false;
     String token = tokens[ndx];
     
