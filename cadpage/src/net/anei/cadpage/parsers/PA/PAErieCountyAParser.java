@@ -35,12 +35,16 @@ ERIE911:ACTIVE SHOOTER INCIDENTS - MANDATORY TRAINING - SEPT 6,7 OR 8TH. EIGHT H
 ERIE911:SAMPSON RD NOW OPEN......
 ERIE911:32B1 >UNKNOWN PROBLEM 10793 ETTER RD XS: LAKE PLEASANT RD GREENE TWP DUSILA,CANDY Map:277 Grids:, Cad: 2011-0000090035
 ERIE911:29D2N2>MVA -EJECTION- HIGH MECHANISM PLUM RD VENANGO TWP ADAM Map:489 Grids:, Cad: 2011-0000096580
- 
+
+Contact: Matt Exley <mexley46@gmail.com>
+FRM:messaging@iamresponding.com\nSUBJ:West Ridge Fire\nMSG:21B1 &gt;HEMORRHAGE / LACERATIONS 4242 ASBURY RD XS: THOROUGHBRED LOOP MILLCREEK TWP\n
+
 */
 
 public class PAErieCountyAParser extends DispatchBParser {
   
   private static final Pattern MARKER = Pattern.compile("^ERIE911:\\w{3,} ?>");
+  private static final Pattern MARKER2 = Pattern.compile("^[0-9A-Z]+ >");
  
   public PAErieCountyAParser() {
     super(PAErieCountyParser.CITY_LIST, "ERIE COUNTY", "PA");
@@ -52,13 +56,30 @@ public class PAErieCountyAParser extends DispatchBParser {
   }
 
   @Override
-  protected boolean parseMsg(String body, Data data) {
-    if (!body.startsWith("ERIE911:")) return false;
-    if (!MARKER.matcher(body).find()) {
-      data.strCall = "GENRAL ALERT";
-      data.strPlace = body.substring(8).trim();
-      return true;
-    }
+  protected boolean parseMsg(String subject, String body, Data data) {
+    
+    // Dummy do loop
+    do {
+      if (body.startsWith("ERIE911:")) {
+        data.strSource = "ERIE911";
+        if (!MARKER.matcher(body).find()) {
+          data.strCall = "GENERAL ALERT";
+          data.strPlace = body.substring(8).trim();
+          return true;
+        }
+        break;
+      }
+      
+      if (subject.length() > 0) {
+        if (MARKER2.matcher(body).find()) {
+          data.strSource = subject;
+          break;
+        }
+        
+      }
+      
+      return false;
+    } while (false);
     
     return super.parseMsg(body, data);
   }
