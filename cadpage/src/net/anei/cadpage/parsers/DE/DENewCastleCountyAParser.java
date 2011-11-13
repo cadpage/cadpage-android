@@ -46,13 +46,17 @@ Contact: Mike Warner <MWarner@bdabel.com>
 Sender: rc.10@c-msg.net
 (13CAD) [eFB] F00 18:39 1 - T:M24B1 (EMERGENCY MATERNITY) L:16 DEL HAVEN CT ,LU btwn GOVERNOR PRINTZ BL ~ WALNUT ST *HOLLY OAK - DESC:??DSC:MATERNITY 25YOF ~~~ ?! PAT:1 SEX:Female AGE:25Years CON:Y BRE:Y
 
+Contact: Matthew Comegys <mcomegys2832@gmail.com>
+Sender: rc.302@c-msg.net
+28CAD / [eFB] F00 17:23 1 - T:M29D5 (MVC--NOT ALERT) L:113 S DUPONT HY ,4Q -- LONE STAR STEAKHOU btwn CHRISTIANA RD ~ FIFTH AV * 28CAD / HARES CORNER - DESC:\n\n
+
  */
 
 
 public class DENewCastleCountyAParser extends FieldProgramParser {
   
   private static final Pattern[] MARKERS = new Pattern[]{
-    Pattern.compile("^F00 \\d\\d:\\d\\d 1 - (?=T:)"),
+    Pattern.compile("^(?:([0-9A-Z]+) / \\[\\w*FB\\] )?F00 \\d\\d:\\d\\d 1 - (?=T:)"),
     Pattern.compile("^\\d\\d:\\d\\d(?=T:)")
   };
   
@@ -76,11 +80,19 @@ public class DENewCastleCountyAParser extends FieldProgramParser {
       Matcher match = ptn.matcher(body);
       if (match.find()) {
         found = true;
+        if (match.groupCount() >= 1) data.strSource = getOptGroup(match.group(1));
         body = body.substring(match.end());
         break;
       }
     }
     if (!found) return false;
+    
+    // If we stripped the source from the front of the field (terminated by " / ")
+    // Search for and remove that sequence if it appears anywhere else in the 
+    // text body, assuming it was a lead for a second message.
+    if (data.strSource.length() > 0) {
+      body = body.replace(data.strSource + " / ", "");
+    }
     
     if (subject.length() > 0) {
       String[] subjects = subject.split("\\|");

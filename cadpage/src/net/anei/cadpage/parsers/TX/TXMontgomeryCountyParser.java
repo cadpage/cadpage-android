@@ -39,7 +39,6 @@ Sender:  firecad@thewoodlandstownship-tx.gov
 (Nature: 29-MVA - PRE-ALERT) New Fire Run: 2011-96042,,E112,Location: RAYFORD RD-SC/FOX RUN BLVD-SC,Building: ,Cross: 3050 RAYFORD RD-SC,,Grid:
 (Nature: 12B01-SEIZURE - Effective breathing NOT) New Fire Run: 2011-95939,,B113,Location: 25808 I45 N-SC,Building: ,Cross: 102 OAKWOOD DR-SC,BR
 (Nature: F48-CODE 1000 DRILL ONLY) New Fire Run: 2011-95833,,E113,Location: 27430 ROBINSON RD-OR,Building: ST 113 S MONT CO FIRE,Cross: 27254 BL
-
 (Nature: F03-AUTOMATIC ALARM) New Fire Run: 2011-96053,,E112,Location: 1805 RILEY FUZZEL RD-SC,Building: ,Cross: 28500 SPRING TRAILS,Grid: 293E,
 (Nature: F08-CONTROLLED BURN) New Fire Run: 2011-96055,,B112,Location: 1638 JULIA PARK DR-SC,Building: ,Cross: 27918 TESSIE HILLS L,Grid: 293K,M
 (Nature: F08-CONTROLLED BURN) New Fire Run: 2011-96061,,B112,Location: 2121 RILEY FUZZEL RD-SC,Building: ,Cross: 28702 LODDINGTON ST-,Grid: 293E
