@@ -988,7 +988,7 @@ public class FieldProgramParser extends SmartAddressParser {
             // this text.  Which means we have reached the end of text processing
             // and need only check if there are any required fields we haven't
             // encountered
-            if (!optional) return checkFailure(data);
+            if (!startStep.optional) return checkFailure(data);
             
             // Otherwise, the assumption is that there is no matching
             // tagged field.  So we start the whole process all over again
