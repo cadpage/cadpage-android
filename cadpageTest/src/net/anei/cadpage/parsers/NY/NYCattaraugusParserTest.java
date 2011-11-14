@@ -178,6 +178,21 @@ public class NYCattaraugusParserTest extends BaseParserTest {
         "INFO:POSSIBLE STRUCTURE FIRE",
         "NAME:STICKMAN,WILLIAM,R",
         "ID:2011-00000009");
+  }
+  
+  @Test
+  public void testParser2() {
+
+    setDefaults("", "");
+    doTest("T1",
+        "CATTARAUGUS COUNTY SHERIFF ((29) 911 ) Unit:PED1 Loc:3RD ST Between: CN: CTV:OUTS Type:Assist Date:11/13/2011 Time:19:13 Info:ONE BRUSH TRUCK FROM PERRYSBURG TO RESPOND TO 3RD ST FORRESTVILLE Caller:CHAUTAUQUA COUNTY,,, Inc#:2011-00032648",
+        "UNIT:PED1",
+        "ADDR:3RD ST",
+        "CITY:FORRESTVILLE",
+        "CALL:Assist",
+        "INFO:ONE BRUSH TRUCK FROM PERRYSBURG TO RESPOND TO 3RD ST FORRESTVILLE",
+        "NAME:CHAUTAUQUA COUNTY",
+        "ID:2011-00032648");
 
   }
   
