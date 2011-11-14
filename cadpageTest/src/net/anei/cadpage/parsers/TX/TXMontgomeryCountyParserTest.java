@@ -235,6 +235,15 @@ public class TXMontgomeryCountyParserTest extends BaseParserTest {
         "ADDR:258 SPRING PINES DR",
         "CITY:SPRING",
         "X:26202 MAPLE");
+
+    doTest("T27",
+        "(Nature: 10D02-CHEST PAIN - Difficulty speaking b) New Fire Run: 2011-96261,,B111,Location: 25469 BOROUGH PARK DR-SC,617,Building: MISSION WOODS",
+        "ID:2011-96261",
+        "CALL:10D02-CHEST PAIN - Difficulty speaking b",
+        "UNIT:B111",
+        "ADDR:25469 BOROUGH PARK DR",
+        "APT:MISSION WOODS",
+        "CITY:SPRING");
   }
   
   public static void main(String[] args) {

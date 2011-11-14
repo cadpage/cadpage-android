@@ -459,6 +459,14 @@ public class VAFranklinCountyParserTest extends BaseParserTest {
         "CITY:Rocky Mount",
         "ID:2011-031354",
         "X:TOWN LIMITS/SIX MILE POST RD");
+
+    doTest("T1",
+        "MAILBOX:C03 ACCIDENT-INJURY FRANKLIN ST & OLD FERRUM RD FER CFS# 2011-031319",
+        "SRC:C03",
+        "CALL:ACCIDENT-INJURY",
+        "ADDR:FRANKLIN ST & OLD FERRUM RD",
+        "CITY:Ferrum",
+        "ID:2011-031319");
   }
   
   public static void main(String args[]) {
