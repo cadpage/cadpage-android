@@ -11,6 +11,10 @@ public class PACambriaCountyParserTest extends BaseParserTest {
     setParser(new PACambriaCountyParser(), "CAMBRIA COUNTY", "PA");
   }
 
+  @Test
+  public void testBadMsg() {
+    doBadTest("Aww how bad");
+  }
  
   
   @Test

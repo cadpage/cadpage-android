@@ -487,6 +487,8 @@ public class FieldProgramParserTest extends BaseParserTest {
         "Typ:CALL? ADDR",
         "BLACK DR",
         "ADDR:BLACK DR");
+    
+    doFieldFail("Skip optional followed by req", "DATE:DATE? TIME:TIME!", "LA LA LA LA");
   }
   
   @Test
