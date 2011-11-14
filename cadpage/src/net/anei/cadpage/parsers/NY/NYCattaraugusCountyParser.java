@@ -29,12 +29,84 @@ Unit:WVD1 Loc:7703 MEYER HILL RD Between:CRUMB HILL RD/REED HILL RD CN: CTV:EOTT
 Unit:WVD1 Loc:8616 ROUTE 219 Between:BEAVER MEADOWS RD/ASHF TOWN LINE CN: CTV:ELLT Type:Stru Fire Date:02/24/2011 Time:07:58 Info:CHIMNEY FIRE, UNKNOWN IF OCCUPIED, PASSER BY Caller:DAY,MR,, Inc#:2011-00000043 
 Unit:WVD1 Loc:8374 ROHR HILL RD Between:PLATO RD/MILL VALLEY RD CN: CTV:EOTT Type:Stru Fire Date:02/05/2011 Time:20:45 Info:POSSIBLE STRUCTURE FIRE Caller:STICKMAN,WILLIAM,R, Inc#:2011-00000009 
 
-*/
+Contact: Brian Albrecht <albrecht289@gmail.com>
+CATTARAUGUS COUNTY SHERIFF ((29) 911 ) Unit:PED1 Loc:3RD ST Between: CN: CTV:OUTS Type:Assist Date:11/13/2011 Time:19:13 Info:ONE BRUSH TRUCK FROM PERRYSBURG TO RESPOND TO 3RD ST FORRESTVILLE Caller:CHAUTAUQUA COUNTY,,, Inc#:2011-00032648
 
+*/
 
 public class NYCattaraugusCountyParser extends FieldProgramParser {
   
+  private static Pattern TRAIL_COMMA_PAT = Pattern.compile("[ ,]+$");
+  private static Pattern LOCATION_PAT = Pattern.compile(".* COUNTY", Pattern.CASE_INSENSITIVE);
   
+  private String address;
+  
+  public NYCattaraugusCountyParser() {
+    super(CITY_CODES, "CATTARAUGUS COUNTY", "NY",
+           "Unit:UNIT! Loc:ADDR! Between:X! CN:PLACE CTV:CITY Type:CALL Date:SKIP Time:SKIP Info:INFO Caller:NAME Inc:ID%");
+  }
+  
+  @Override
+  public String getFilter() {
+    return "911@cattco.org,7770";
+  }
+
+  @Override
+  protected boolean parseMsg(String body, Data data) {
+    body = body.replace(" Inc#:", " Inc:");
+    address = null;
+    if (!super.parseMsg(body, data)) return false;
+    
+    // A city code of OUTS -> OUTSIDE the county means we know nothing
+    // about the county or state where this incident occurs :(
+    if (data.strCity.equals("OUTSIDE")) {
+      data.strCity = data.defCity = data.defState = "";
+      
+      // See if info field contains the entered address.  If it does, assume
+      // that whatever follows the address is really a city name
+      int pt = data.strSupp.indexOf(address);
+      if (pt > 0) {
+        data.strCity = data.strSupp.substring(pt + address.length()).trim();
+      }
+      
+      // Otherwise, see if the name field contains a county or city name
+      else if (LOCATION_PAT.matcher(data.strName).matches()) {
+        data.strCity = data.strName;
+        data.strName = "";
+      }
+    }
+    return true;
+  }
+  
+  // Address field just remembers the address field
+  private class MyAddressField extends AddressField {
+    @Override
+    public void parse(String field, Data data) {
+      address = field;
+      super.parse(field, data);
+    }
+  }
+  
+  // Name field needs to remove trailing commas
+  private class MyNameField extends NameField {
+
+    @Override
+    public void parse(String field, Data data) {
+      
+      Matcher match = TRAIL_COMMA_PAT.matcher(field);
+      if (match.find()) {
+        field = field.substring(0, match.start());
+      }
+      super.parse(field, data);
+    }
+  }
+
+  @Override
+  protected Field getField(String name) {
+    if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("NAME")) return new MyNameField();
+    return super.getField(name);
+  }
 
   private static Properties CITY_CODES = buildCodeTable(new String[]{
      "ALLT","ALLEGANY",
@@ -93,53 +165,6 @@ public class NYCattaraugusCountyParser extends FieldProgramParser {
      "SVAL","SOUTH VALLEY",
      "VILL","VILLENOVA",
      "YORK","YORKSHIRE"
-
   });
-  
-  private static Pattern TRAIL_COMMA_PAT = Pattern.compile("[ ,]+$");
-  
-  public NYCattaraugusCountyParser() {
-    super(CITY_CODES, "CATTARAUGUS COUNTY", "NY",
-           "Unit:UNIT! Loc:ADDR! Between:X! CN:PLACE CTV:CITY Type:CALL Date:SKIP Time:SKIP Info:INFO Caller:NAME Inc:ID%");
-  }
-  
-  @Override
-  public String getFilter() {
-    return "911@cattco.org,7770";
-  }
-
-  @Override
-  protected boolean parseMsg(String body, Data data) {
-    body = body.replace(" Inc#:", " Inc:");
-    if (!super.parseMsg(body, data)) return false;
-    
-    // A city code of OUTS -> OUTSIDE the county means we know nothing
-    // about the county or state where this incident occurs :(
-    if (data.strCity.equals("OUTSIDE")) {
-      data.strCity = data.defCity = data.defState = "";
-    }
-    return true;
-  }
-  
-  // Name field needs to remove trailing commas
-  private class MyNameField extends NameField {
-
-    @Override
-    public void parse(String field, Data data) {
-      
-      Matcher match = TRAIL_COMMA_PAT.matcher(field);
-      if (match.find()) {
-        field = field.substring(0, match.start());
-      }
-      super.parse(field, data);
-    }
-  }
-
-  @Override
-  protected Field getField(String name) {
-    if (name.equals("NAME")) return new MyNameField();
-    return super.getField(name);
-  }
-  
 }
 	
