@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest
   xmlns:android="http://schemas.android.com/apk/res/android"
-  package="net.anei.cadpage" android:versionName="1.4.40B" android:versionCode="14402"
+  package="net.anei.cadpage" android:versionName="1.4.40C" android:versionCode="14403"
   android:installLocation="auto">
   <uses-sdk
     android:targetSdkVersion="8" android:minSdkVersion="4"/>
@@ -37,7 +37,7 @@
     </receiver>
     
     <!-- Only C2DM servers can send messages for the app. If permission is not set - any other app can generate it --> 
-    <receiver android:name=".C2DMReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+    <receiver android:name=".C2DMReceiver"> <!-- android:permission="com.google.android.c2dm.permission.SEND" -->
         <!-- Receive the actual message -->
         <intent-filter>
             <action android:name="com.google.android.c2dm.intent.RECEIVE" />

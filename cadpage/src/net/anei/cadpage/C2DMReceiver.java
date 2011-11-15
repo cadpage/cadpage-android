@@ -42,7 +42,7 @@ public class C2DMReceiver extends BroadcastReceiver {
 
   @Override
   public void onReceive(Context context, Intent intent) {
-    if (Log.DEBUG) Log.v("C2DMReceiver: onReceive()");
+    Log.v("C2DMReceiver: onReceive()");
     
     // If initialization failure in progress, shut down without doing anything
     if (TopExceptionHandler.isInitFailure()) return;
@@ -101,6 +101,7 @@ public class C2DMReceiver extends BroadcastReceiver {
   }
 
   private void handleMessage(Context context, Intent intent) {
+    Log.w("C2DM message received");
     
     // If registration has been canceled, all C2DM messages should be ignored
     if (ManagePreferences.getRegistrationId() == null) return;
@@ -111,7 +112,10 @@ public class C2DMReceiver extends BroadcastReceiver {
     String subject = intent.getStringExtra("subject");
     if (subject == null) subject = "";
     String content = intent.getStringExtra("content");
-    if (content == null) return;
+    if (content == null) {
+      Log.w("C2DM message has not content");
+      return;
+    }
     SmsMmsMessage message = 
       new SmsMmsMessage(from, subject, content, System.currentTimeMillis(), 
                         SmsMmsMessage.MESSAGE_TYPE_C2DM);
