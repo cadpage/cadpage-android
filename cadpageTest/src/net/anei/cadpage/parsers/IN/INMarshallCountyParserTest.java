@@ -55,7 +55,13 @@ public class INMarshallCountyParserTest extends BaseParserTest {
         "CITY:BOURBON",
         "X:N LINCOLN ST & E OLD US 30",
         "CALL:ACCIDENT PI OR UNK");
- }
+    
+    doTest("T7",
+        "CAD:Update: ;BEECH RD/15B RD;BOUR;ACCIDENT PI OR UNK;11/14/2011 15:38:42",
+        "ADDR:BEECH RD & 15B RD",
+        "CITY:BOURBON",
+        "CALL:ACCIDENT PI OR UNK");
+  }
   
   public static void main(String[] args) {
     new INMarshallCountyParserTest().generateTests("T1");
