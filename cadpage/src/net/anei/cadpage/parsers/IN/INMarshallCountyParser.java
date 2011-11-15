@@ -16,6 +16,7 @@ CAD:FYI: ;601 S BOURBON ST;BOUR;W FRANK ST;FIRE STRUCTURE;08/21/2011 21:30:37
 CAD:FYI: ;SR 110/ELM RD;TIPP;FIRE GRASS;08/21/2011 19:17:18 
 Update: ;625-33 OAKHILL AVE;PLYM;NURSERY ST;S SECOND ST;MEDICAL CALL;08/19/2011 20:52:25
 CAD:FYI: ;DIST: 143.99 FT;422 E CENTER ST;BOUR;N LINCOLN ST;E OLD US 30;ACCIDENT PI OR UNK;08/26/2011 20:38:55
+CAD:Update: ;BEECH RD/15B RD;BOUR;ACCIDENT PI OR UNK;11/14/2011 15:38:42
 
 */
 
@@ -33,9 +34,9 @@ public class INMarshallCountyParser extends DispatchOSSIParser {
   
   @Override
   public boolean parseMsg(String body, Data data) {
-    if (body.startsWith("Update: ;")) {
-      body = "CAD:FYI:" + body.substring(7);
-    } else if (!body.startsWith("CAD:FYI: ;")) return false;
+    if (body.startsWith("Update: ;") || body.startsWith("FYI: ;")) {
+      body = "CAD:" + body;
+    } 
     return super.parseMsg(body, data);
   }
   

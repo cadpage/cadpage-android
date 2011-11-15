@@ -3381,6 +3381,7 @@ Contact: J D <firefighterjd2@gmail.com>
 Sender: dispatch@911email.net
 (E911) TREE FELL ON POWER LINE @ JACK SAUNDERS & CLYDETON AND IS ON FIRE
 (E911) BRUSH FIRE AT THE END OF CUBA HOLLOW LANE, OFF OF CUBA LANDING RD, DIST 6 PAGED OUT AND NO RESPONSE
+(E911) NEEDED FOR LANDING ZONE FOR AIREVAC - HALLS CREEK AT GREENBRIER RD
 **********************************************************
 Unknown,
 Contact: Gary Martin <gmartin450@gmail.com>
