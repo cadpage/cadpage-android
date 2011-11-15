@@ -198,10 +198,12 @@ $paid_2012_list
 Christopher Rowland (chrisprowl@gmail.com)(chrisprowl@aol.com) //$20
 Robert Tripe <rmtripe@gmail.com>
 Samuel K Anders (sam@samanderscpa.com)(skacpa@bellsuth.net) //$20
+William Walters (lcff791@gmail.com) // $20
 
 
 // List of users getting credit for 2011
 $paid_2011_list
+Adam Gardner (adamemt@charter.net)
 All About Grass (jmiller258@gmail.com)(jmiller258@verizon.net)
 Alex Turner (rmrussia007@gmail.com)(rmrussia@hotmail.com)
 Angus Duff (angus.duff66@gmail.com)(aduff@everestkc.net)
@@ -331,6 +333,7 @@ Walter Cooper (firefighter0228@gmail.com)(firefighter0228@yahoo.com)
 Walter Radziwon (wradziwon@gmail.com)(service@novanetworking.net)
 William Stearn (wstearn@gmail.com)
 WILLIAM VOJIK (cmox51@gmail.com)(defiant154@aol.com)
+William Walters (lcff791@gmail.com) // $20
 William Yoder (actionlimo3910@gmail.com)(actionlimo@hotmail.com)
 zwelch85@gmail.com
 
@@ -701,3 +704,9 @@ Ronnie Russell <railroad2204@gmail.com>
 Travis Kleppel <travis_kleppel@yahoo.com>
 Bryan Murray (badwolf7615@gmail.com)<bmurray@sussexcountyde.gov>
 Christopher Winters <cwinters418@gmail.com>
+Brady Holder <aguybradyis@gmail.com>
+daniel garretto <djgarretto@gmail.com>
+"Pluta, Jim" (jimpluta@gmail.com)<jpluta@olv-bvs.org>
+Lori Roseman <rosemanfam5@gmail.com>
+Richard Clagett <rhclagett@gmail.com>
+Austin Lee (austinlee9691@gmail.com)<austin.lee@student.rcsnc.org>
