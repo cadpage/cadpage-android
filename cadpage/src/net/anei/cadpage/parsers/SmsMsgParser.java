@@ -278,7 +278,7 @@ public abstract class SmsMsgParser {
      
      // Save current field and get ready to start looking for the
      // end of the next keyword
-     fields.add(body.substring(iStartPt, iEndPt).trim());
+     if (iEndPt > 0) fields.add(body.substring(iStartPt, iEndPt).trim());
      iKey = iNxtKey;
      iStartPt = iEndPt;
    } while (iKey >= 0);

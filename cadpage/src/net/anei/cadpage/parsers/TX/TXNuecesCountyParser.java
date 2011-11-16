@@ -18,13 +18,15 @@ Subject:CAD Notify\nFIRE-OTHER - VEH-OUTSIDE ALRM: 0 PRI: 1 ESZ: 104 / 1332 FM 6
 Subject:CAD Notify\nTRAUMA - INJURY ALRM: 0 PRI: 1 ESZ: 67 / 4729 CALALLEN DR CC NUECS EV: 1110034169\n\n
 Subject:CAD Notify\nTA - RESCUE ALRM: 0 PRI: 1 ESZ: 2 / FM 665/FM 70 NUECS EV: 1110034392\n\n
 
+Subject:CAD Notify\nNCFIRE: 1111017168 MEDICAL-DIABETIC ALRM: 0 PRI: 1 ESZ: 107 / 3906 REAGAN LN NUECS\n
+
  */
 
 public class TXNuecesCountyParser extends FieldProgramParser {
   
   public TXNuecesCountyParser() {
     super("NUECES COUNTY", "TX",
-           "CALL! ALRM:SKIP! PRI:PRI! ESZ:ADDR! EV:ID!");
+           "( NCFIRE:IDCALL | CALL! ) ALRM:SKIP! PRI:PRI! ESZ:ADDR! EV:ID");
   }
   
   @Override
@@ -37,6 +39,23 @@ public class TXNuecesCountyParser extends FieldProgramParser {
     if (!subject.equals("CAD Notify")) return false;
     return super.parseMsg(body, data);
   }
+  
+  private class MyIdCallField extends CallField {
+    
+    @Override
+    public void parse(String field, Data data) {
+      int pt = field.indexOf(' ');
+      if (pt < 0) abort();
+      data.strCallId = field.substring(0,pt).trim();
+      data.strCall = field.substring(pt+1).trim();
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "ID CALL";
+    }
+  }
+  
   
   private class MyAddressField extends AddressField {
 
@@ -67,6 +86,7 @@ public class TXNuecesCountyParser extends FieldProgramParser {
   
   @Override
   public Field getField(String name) {
+    if (name.equals("IDCALL")) return new MyIdCallField();
     if (name.equals("ADDR")) return new MyAddressField();
     return super.getField(name);
   }
