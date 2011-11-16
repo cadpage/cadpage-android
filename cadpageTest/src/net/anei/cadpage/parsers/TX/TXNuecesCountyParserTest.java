@@ -75,6 +75,19 @@ public class TXNuecesCountyParserTest extends BaseParserTest {
         "ID:1110034392");
   }
   
+  @Test
+  public void testParser2() {
+
+    doTest("T1",
+        "Subject:CAD Notify\nNCFIRE: 1111017168 MEDICAL-DIABETIC ALRM: 0 PRI: 1 ESZ: 107 / 3906 REAGAN LN NUECS\n",
+        "ID:1111017168",
+        "CALL:MEDICAL-DIABETIC",
+        "PRI:1",
+        "UNIT:107",
+        "ADDR:3906 REAGAN LN");
+
+  }
+  
   public static void main(String[] args) {
     new TXNuecesCountyParserTest().generateTests("T1");
   }
