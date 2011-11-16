@@ -130,8 +130,21 @@ public class PAWashingtonCountyParserTest extends BaseParserTest {
         "PLACE:EST",
         "X:MOUNT TABOR RD & LATTA HOLLOW RD",
         "CALL:UNCONSCIOUS PT / IS BREATHING");
-
   }
+  
+  @Test
+  public void testParser4() {
+    
+    doTest("T1",
+        "1 of 2\nFRM:WashCo911 \nSUBJ:911\nMSG:Location: 791 LOCUST AVE EX SSTR: @PCH 44 HAWTHORNE WOODS ASSISTED LIVING Xstreet: BERRY RD VERONA DR TYPE:\n(Con't) 2 of 2\nUNCONSCIOUS PT / IS BREATHING TIME: 08:26:06 Comments: 1ST FLOOR HEALTH ROOM\n(End)",
+        "ADDR:791 LOCUST AVE",
+        "CITY:SOUTH STRABANE TWP",
+        "PLACE:PCH 44 HAWTHORNE WOODS ASSISTED LIVING",
+        "X:BERRY RD & VERONA DR",
+        "CALL:UNCONSCIOUS PT / IS BREATHING");
+  }
+  
+  
   
   public static void main(String[] args) {
     new PAWashingtonCountyParserTest().generateTests("T1");

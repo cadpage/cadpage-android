@@ -13,7 +13,7 @@ public class MDAlleganyCountyParserTest extends BaseParserTest {
   }
   
   @Test
-  public void testParser() {
+  public void testParser1() {
 
     doTest("T1",
         "S:CAD M:CT:BREATHING DIFFICULTY 100 BRADDOCK HTS APT 105  BOX:F1601 DUE:A355\n\n",
@@ -38,6 +38,20 @@ public class MDAlleganyCountyParserTest extends BaseParserTest {
         "BOX:F1602",
         "UNIT:A364");
  }
+  
+  @Test
+  public void testParser2() {
+
+    doTest("T1",
+        "S:CAD M:15:31 #058516 BEHAVORIAL EMERGENCY 20960 MARYLAND HW  BOX:F3601 DUE:CO36 A351 M512\n\n",
+        "TIME:15:31",
+        "ID:058516",
+        "CALL:BEHAVORIAL EMERGENCY",
+        "ADDR:20960 MARYLAND HW",
+        "BOX:F3601",
+        "UNIT:CO36 A351 M512");
+
+  }
   
   public static void main(String[] args) {
     new MDAlleganyCountyParserTest().generateTests("T1");
