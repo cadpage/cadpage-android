@@ -1,6 +1,7 @@
 package net.anei.cadpage.parsers.PA;
 
 import java.util.Properties;
+import java.util.regex.Pattern;
 
 import net.anei.cadpage.SmsMsgInfo.Data;
 import net.anei.cadpage.parsers.FieldProgramParser;
@@ -58,7 +59,7 @@ public class PAWashingtonCountyParser extends FieldProgramParser {
   }
   
   // Address field parser
-  
+  private static final Pattern EXT_PTN = Pattern.compile(" EXT?\\b");
   private class MyAddressField extends AddressField {
     
     @Override
@@ -67,7 +68,9 @@ public class PAWashingtonCountyParser extends FieldProgramParser {
       data.strPlace = p.getLastOptional(":");
       if (data.strPlace.startsWith("@")) data.strPlace = data.strPlace.substring(1).trim(); 
       data.strCity = convertCodes(p.getLast(' '), CITY_CODES); 
-      super.parse(p.get(), data);
+      fld = p.get();
+      fld =EXT_PTN.matcher(fld).replaceAll("");
+      super.parse(fld, data);
     }
     
     @Override
