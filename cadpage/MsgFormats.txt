@@ -1761,6 +1761,11 @@ Winchester, VA (VAWinchesterParser)
 (Winchester ECC info) 11-042157 INSIDE FIRE STRUCT/ELEC/CHIMN\n122-1 E PALL MALL ST\nS CAMERON ST / S KEN/T ST\nWINCHESTER\nBAT6 E1 E4 E5 EC21 M51 TK2
 (Winchester ECC info) 11-042110 FIRE ALARM\n1890 AMHERST ST\nWESTSIDE STATION DR// CITY LIMITS\nADULT PSYCH CENTER  WINCHESTER\nE1 E4 EC15 TK2
 ***************************************************************************
+Cabell County. WV (WVCabellCountyParser)
+1 of 2\nFRM:dispatch@ccerc911.org\nSUBJ:(22225) CCERC911\nMSG:113030126/10-30-11/06:42:08/Other Fire/8160 FRAZIERS LN/LESAGE/LORENA LN/KATHI\n(Con't) 2 of 2\nLN/50YF/BLEEDING FROM A SURGICAL WOUND IN STOMACH//(End)
+1 of 2\nFRM:dispatch@ccerc911.org\nSUBJ:(22343) CCERC911\nMSG:113030199/10-30-11/14:16:29/Structure Fire/6419 RT 60/BARBOURSVILLE/GEORGES DRY\n(Con't) 2 of 2\nCLEANERS/FARMDALE RD/MAIN ST/201 231 ENRT/237/(End)
+1 of 2\nFRM:dispatch@ccerc911.org\nSUBJ:(22412) CCERC911\nMSG:113030260/10-30-11/16:53:24/Abdominal Pain/6430 OHIO RIVER RD APT1/LESAGE/TAN\n(Con't) 2 of 2\nZONE/DOUTHAT LN/NINE MILE RD/22YR FEMALE/27WKS PREGNANT/(End)
+***************************************************************************
 Eau Claire, WI (VAEauClaireParser)
 [Case# 11-253]  @5:23:16 AM // Brunswick // W2250 Rim Rock Rd // Vehicle Fire // vehicle fire, no exposures
 [Case# 11-252]  @7:21:18 PM // Washington // 4940 Meadowbrook Ln // Sounding Fire Alarm // sounding fire alarm, showing 1st & 2nd floor smoke detector
@@ -3425,49 +3430,6 @@ Sender: pdpaging@farmington-ct.org
 **********************************************************
 **********************************************************
 **********************************************************
-Cabell County. WV
-Contact: Everett Cooper <firefighterorr6@gmail.com>
-Dougherty County, GA?
-Sender: dispatch@ccerc911.org
-1 of 2
-FRM:dispatch@ccerc911.org
-SUBJ:(22225) CCERC911
-MSG:113030126/10-30-11/06:42:08/Other Fire/8160 FRAZIERS LN/LESAGE/LORENA
-LN/KATHI
-(Con't) 2 of 2
-LN/50YF/BLEEDING FROM A SURGICAL WOUND IN STOMACH//(End)
-
-1 of 2
-FRM:dispatch@ccerc911.org
-SUBJ:(22343) CCERC911
-MSG:113030199/10-30-11/14:16:29/Structure Fire/6419 RT
-60/BARBOURSVILLE/GEORGES DRY
-(Con't) 2 of 2
-CLEANERS/FARMDALE RD/MAIN ST/201 231 ENRT/237/(End)
-
-1 of 2
-FRM:dispatch@ccerc911.org
-SUBJ:(22412) CCERC911
-MSG:113030260/10-30-11/16:53:24/Abdominal Pain/6430 OHIO RIVER RD
-APT1/LESAGE/TAN
-(Con't) 2 of 2
-ZONE/DOUTHAT LN/NINE MILE RD/22YR FEMALE/27WKS PREGNANT/(End)
-
-1 of 2
-FRM:dispatch@ccerc911.org
-SUBJ:(22719) CCERC911
-MSG:113040332/10-31-11/20:53:50/MVA Inj./4805 HILLVIEW DR/HUNTINGTON/OHIO
-RIVER
-(Con't) 2 of 2
-RD/END/ONE VEH OVER THE HILL/ ADV ABOUT 50 YARD OVER A HILL/(End)
-
-1 of 2
-FRM:dispatch@ccerc911.org
-SUBJ:(22809) CCERC911
-MSG:113050042/11-01-11/05:35:54/MVA Inj./5315 OHIO RIVER RD
-BLK/HUNTINGTON/THREE MILE
-(Con't) 2 of 2
-CREEK RD/MOBILE CITY RD/TRACTOR TRAILOR / TRUCK IS ON THE TRACKS/(End)
 **********************************************************
 Englewood, OH (In Montgomery county)
 Sender: CAD@englewood.oh.us
