@@ -22,6 +22,10 @@ COntact: Ray Enoch <renoch357@gmail.com>
 Sender: cadpage@orangeem.org
 Subject:CAD Page for CFS 082311-84\nOPS 1\nUNCONSCIOUS\n412 N ELLIOTT RD\nApt: \nBuild: \n
 
+Contact: Chris Tomlin <tomlin@smokealert.net>
+Sender: cadpage@orangeem.org
+(CAD Page for CFS 111611-425) TG: OPS 1\nINC: \nLOC: 1098 BURNING TREE DR\nAPT: \nBLDG:
+
  */
 
 
@@ -31,7 +35,7 @@ public class NCOrangeCountyParser extends FieldProgramParser {
   
   public NCOrangeCountyParser() {
     super("ORANGE COUNTY", "NC",
-           "CH CALL ADDR! Apt:APT Build:APT");
+           "( TG:CH INC:SKIP LOC:ADDR! APT:APT BLDG:APT | CH CALL ADDR! Apt:APT Build:APT )");
   }
   
   @Override
