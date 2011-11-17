@@ -58,7 +58,7 @@ public class NYOneidaCountyParser extends SmsMsgParser {
   
   @Override
   public String getFilter() {
-    return "dispatch@ocgov.net,dispatch@oc911.org";
+    return "dispatch@ocgov.net,@oc911.org";
   }
 
   @Override
