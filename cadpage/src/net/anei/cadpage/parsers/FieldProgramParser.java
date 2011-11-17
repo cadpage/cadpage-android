@@ -1146,9 +1146,17 @@ public class FieldProgramParser extends SmartAddressParser {
     public String getQual() {
       return qual;
     }
+    
+    public void setPattern(String pattern) {
+      setPattern(Pattern.compile(pattern));
+    }
 
     public void setPattern(Pattern pattern) {
       setPattern(pattern, false);
+    }
+    
+    public void setPattern(String pattern, boolean hardPattern) {
+      setPattern(Pattern.compile(pattern), hardPattern);
     }
     
     public void setPattern(Pattern pattern, boolean hardPattern) {

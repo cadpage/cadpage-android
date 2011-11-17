@@ -3405,6 +3405,11 @@ FIRE, SMOKE CHECK; 19435 PLATEAU DR ,BOWMAN ; ; Inc# 008236; 2573 103; UP HILL F
 HAZ, GAS; 16655 TEHAMA DAM DR ,BOWMAN ; ; Inc# 008278; 2573 CO-3; SMELL OF PROPANE, CROSS OF FARQUHAR﻿
 MEDICAL; TEXACO STATION COTTONWOOD @ 19845 MAIN ST ,BOWMAN ; ; Inc# 008281; 2573 CO-3 SCOM; tcso requesting medical for fem﻿
 **********************************************************
+San Diego County, CA
+Contact: Jeremy Christofferson <firemechanic85@gmail.com>
+Sender: mvucad@fire.ca.gov
+(CAD Page) Inc# 012638: 100 MONTEZUMA VALLEY RD / 200 PALM CANYON DR ,BORREGO_SPRINGS : R/A BGO1: :Map\2s1078_F_2: MED, TRAFFIC COLLISION: 5 MI W/O PALM CYN RD: BGO9
+**********************************************************
 Unknown
 Contact: StedmanDavid <DavidStedman@colliergov.net>
 Looks like Greene County, MO and a couple random bits and pieces
@@ -3420,10 +3425,16 @@ FCC111115005332 TYP: UNK PROBLEM BLD: COIN AD: PINE RIDGE RD&I 75 MAP: 571 LOC: 
 Marion County, IN
 Contact: Tod Parker <tod@phototac.com>
 Sender: CAD@pager.mecagov.org
-IND = Indianapolis
-SPD = Speedway
-LWR
-WAR
+IND - Indianapolis inner city
+LWR - Lawrence Township
+PIK - Pike Township
+WAY - Wayne Township
+SPD - Town of Speedway
+PER - Perry Township
+DEC - Decatur Township
+WAR - Warren Township
+WAS - Washington Township
+HAM - Hamilton County
 
 2265 S MERIDIAN ST,IND S02300 W00001 GARAGE/WORKI LD13 MD29 TS18 SF06 C1205 C1823 IPAGE MEDIA I05320
 1702 E GIMBER ST,IND S02750 E01700 STRUCT/COLLAPSE CSTF TC01 LD01 TC23 EG23 SQ10 C1103 SF06 C1823 MD29 EG29 LD29 BC14 DST6 OP1 I05219
