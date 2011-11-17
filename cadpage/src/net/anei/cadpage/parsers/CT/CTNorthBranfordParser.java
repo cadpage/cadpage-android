@@ -23,6 +23,10 @@ Wallinford Mutual aid (WLFD)
 1100008057 MVA W/INJURIES N MAIN/RT68 WLFD A44 110906 17:05
 1100007014 MUTUAL AID 00909  BEAVER HEAD RD , GUILFORD    MED4 110811 01:16
 
+Contact: Chris crotty <nbfd819@gmail.com>
+Sender: paging@nbpolicect.org
+1100010113 MEDICAL MEDC 00254  BRANFORD RD Prem Map -  HARRISON RD/FOXON RD  MED4 R1 111116 23:04\n
+
 */
 
 public class CTNorthBranfordParser extends SmartAddressParser {
@@ -32,7 +36,7 @@ public class CTNorthBranfordParser extends SmartAddressParser {
   });
   
   private static final Pattern MASTER = Pattern.compile("(\\d{10}) +(.*?) *\\d{6} \\d\\d:\\d\\d");
-  private static final Pattern UNIT_PTN = Pattern.compile("(?: +(?:\\d{3}|(?:MED|R|T|E|ET|BR)\\d{1,2}))+$");
+  private static final Pattern UNIT_PTN = Pattern.compile("(?: +(?:\\d{3}|(?:MED|R|T|E|ET|BR|A)\\d{1,2}))+$");
   private static final Pattern LEAD_ZERO_PTN = Pattern.compile("^0+(?=\\d)");
   
   public CTNorthBranfordParser() {
@@ -70,6 +74,9 @@ public class CTNorthBranfordParser extends SmartAddressParser {
     else {
       parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ, body, data);
       data.strCross = getLeft();
+    }
+    if (data.strCross.startsWith("Prem Map - ")) {
+      data.strCross = data.strCross.substring(11).trim();
     }
     
     match = LEAD_ZERO_PTN.matcher(data.strAddress);
