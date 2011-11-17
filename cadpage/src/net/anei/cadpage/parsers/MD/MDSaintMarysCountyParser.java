@@ -145,7 +145,7 @@ public class MDSaintMarysCountyParser extends SmartAddressParser {
       switch (ndx++) {
       
       case 0:
-        // Time - skip
+        data.strTime = fld;
         break;
       
       case 1:
