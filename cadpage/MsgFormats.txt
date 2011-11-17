@@ -3405,6 +3405,14 @@ FIRE, SMOKE CHECK; 19435 PLATEAU DR ,BOWMAN ; ; Inc# 008236; 2573 103; UP HILL F
 HAZ, GAS; 16655 TEHAMA DAM DR ,BOWMAN ; ; Inc# 008278; 2573 CO-3; SMELL OF PROPANE, CROSS OF FARQUHAR﻿
 MEDICAL; TEXACO STATION COTTONWOOD @ 19845 MAIN ST ,BOWMAN ; ; Inc# 008281; 2573 CO-3 SCOM; tcso requesting medical for fem﻿
 **********************************************************
+Unknown
+Contact: StedmanDavid <DavidStedman@colliergov.net>
+Looks like Greene County, MO and a couple random bits and pieces
+FCC111115005334 TYP: MEDICAL CALL BLD: NW S AD: COLLIER BLVD&IMMOKALEE RD MAP: 376 LOC: PUBLIX CMT1: S02 - DIFF BREATHING
+FCC111115005335 TYP: MEDICAL CALL AD: 1234 35TH AVE NE MAP: 333 CMT1: CE: 52 YEAR OLD FEMALE CONSCIOUS BREATHING CALLER
+FCC111115005332 TYP: UNK PROBLEM BLD: COIN AD: PINE RIDGE RD&I 75 MAP: 571 LOC: VINEYARDS AMOCO CMT1: 71U/MALE LAYING UND
+**********************************************************
+**********************************************************
 **********************************************************
 ************  READY TO ROLL ******************************
 **********************************************************
