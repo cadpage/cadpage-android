@@ -98,6 +98,7 @@ System: Pro QA Medical & Pro QA Fire
 ((62956) CAD ) 21:27:30*Unconscious Person/Fainting*45345 BAREFOOT DR*GARRISON DR*BAREFOOT ACRES*ST38 A387 ALS*73 year old, Male, Unconscious, Breathing.
 ((28689) CAD ) 23:33:56*Unconscious Person/Fainting*2532 GUM WY*GREENTREE SOUTH DR*GLEN FOREST NAWC*ST39 A389 ALS*
 ((43652) CAD ) 12:29:09*Breathing Difficulties*23263 BY THE MILL RD*ALS ST38*60 year old, Female, Conscious, Breathing.*
+((50741) CAD ) 14:51:00*Seizures/Convulsions*20601 WHITE POINT RD*KNOTTS LANDING WY*MEDLEYS NECK*ST39 CO79*semi concious had seizure in front yard*
 
  */
 
@@ -290,6 +291,7 @@ public class MDSaintMarysCountyParser extends SmartAddressParser {
       "LOVEVILLE",
       "MADDOX",
       "MECHANICSVILLE",
+      "MEDLEYS NECK",
       "MORGANZA",
       "NEW MARKET",
       "OAKVILLE",
@@ -328,5 +330,7 @@ public class MDSaintMarysCountyParser extends SmartAddressParser {
       "SOUTH HAMPTON","LEXINGTON PARK",
       "SPRING RIDGE", "LEXINGTON PARK",
       "ST JAMES",     "LEXINGTON PARK",
+      
+      "MEDLEYS NECK", "LEONARDTOWN"
   });
 }
