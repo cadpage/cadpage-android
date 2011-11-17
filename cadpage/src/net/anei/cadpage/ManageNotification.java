@@ -72,7 +72,7 @@ public class ManageNotification {
 
     // Fetch info from the message object
     String call = message.getInfo().getTitle();
-    long timestamp = message.getTimestamp();
+    long timestamp = message.getIncidentDate().getTime();
 
     PopupNotification n = buildNotification(context);
 

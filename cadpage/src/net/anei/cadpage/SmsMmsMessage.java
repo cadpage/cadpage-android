@@ -681,7 +681,8 @@ public class SmsMmsMessage implements Serializable {
   }
 
   public CharSequence getFormattedTimestamp(Context context) {
-    return DateUtils.formatDateTime(context, timestamp, DateUtils.FORMAT_SHOW_TIME);
+    long time = getIncidentDate().getTime();
+    return DateUtils.formatDateTime(context, time, DateUtils.FORMAT_SHOW_TIME);
   }
   
   public String getSubject() {

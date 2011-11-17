@@ -203,11 +203,7 @@
   <string-array name="paid_2011_list">
     <item>001f716af20fe86fd583e1cacd661daf</item>  <!-- brian miller -->
     <item>0073a5af8a98aa2ec62e2abc7c4f86bf</item>  <!-- Nick DiPaolo -->
-    <item>011ddf2643a4b936cce11017ac5230ec</item>  <!-- Shaun Coon -->
     <item>0185e656c13d2d6124f65cd10d1b5748</item>  <!-- Kaleb Staley -->
-    <item>019401bf26a33e692f331bb8e38ef847</item>  <!-- Richard Brosky -->
-    <item>026008919d34eb56b5701ed41a165809</item>  <!-- Matt Hoffman -->
-    <item>028bd4628e95ff7deefec50b54d1e231</item>  <!-- amie eichhorn -->
     <item>0357d8f443263b04da75d62e9eabdc6a</item>  <!-- Nick Stein -->
     <item>03defbf3010ba2b0428505720f00a69c</item>  <!-- Trudy Rutkowski -->
     <item>040e92b7fab4be940c094635d5b54ab5</item>  <!-- David Deck -->
@@ -223,28 +219,20 @@
     <item>08605009a134d8b05ee9ea4d2e3c03e3</item>  <!-- IVAN BROWNING -->
     <item>09c0f58a655cf0e63b5a1f15f3be1012</item>  <!-- Robert Martone Jr -->
     <item>0a4e35584259759ba4e02be65ba2b9b8</item>  <!-- dennis mcwilliams -->
-    <item>0aa74a745af0bcdfcac89af8dd19a1df</item>  <!-- gerald weaver -->
     <item>0ab0a8fbe66f1c04de59b4b7072f06b2</item>  <!-- Warren Porter III -->
     <item>0ac15acf174e0f1f2a893d4fd9a715e8</item>  <!-- Christopher Grace Jr -->
     <item>0af1024fe48789e3303f99fa83bc9634</item>  <!-- Christoher Farnsworth -->
     <item>0b4bf683ff1412a8a46747bba328741c</item>  <!-- Joshua Kratz -->
     <item>0b905ce52d97f392431b35727fac268f</item>  <!-- Matthew Puff -->
-    <item>0c195b8d3766bf7814c42caa0ded8f31</item>  <!-- "lfd219@verizon.net" -->
     <item>0d4820574fb8ca118db57f99d2bc291c</item>  <!-- Kevin Hogan -->
     <item>0f6910a2d15cbf7fb5e3ca811304ee4e</item>  <!-- Shawn Conley -->
     <item>0fe6a6a170b00b937f4ce5c5ff67a763</item>  <!-- Dennis Hoke -->
-    <item>1009efafdb0004dd6b562d26d142143e</item>  <!-- "Donna Struntz" -->
     <item>12324ef219f02d158cdfafe8e4d64f97</item>  <!-- Justin Fisher -->
     <item>1284eea5877e89fdc73082e6338c11b3</item>  <!-- Adam Gardner -->
     <item>13a237c125fec818d03afa2edaf8fa56</item>  <!-- Rose Merritt -->
     <item>13d671190c95323080a5114c79d975cf</item>  <!-- Geraldine Krummenacker -->
-    <item>13e1f073da0a0d1a97d5d2e3620a83eb</item>  <!-- H -->
-    <item>142bff8e0c439397ecbd9d3346a35275</item>  <!-- kevin head -->
     <item>14d1f2de91f48b4dafd2682b088eeb7e</item>  <!-- "emt18829@comcast.net" -->
-    <item>1542615e027f4e54f13281bdf54ae47d</item>  <!-- scot mclean -->
-    <item>15e218de7873d73ce336fa193cfa99c5</item>  <!-- james tuttle -->
     <item>16a51a5d0e4b45110decbcebb8fc3c1b</item>  <!-- Melissa Trinka -->
-    <item>16f966330d8e0347cb526f75c241d2ee</item>  <!-- Chris Coone -->
     <item>17248fb4d93bbaa6ae45ccf87e10ece4</item>  <!-- Victor Quintanilla -->
     <item>17a005f9c8f4a8be08183d8956c003a9</item>  <!-- "Jeffrey Price " -->
     <item>17b2ea4c2a73dfff4f938567a1735bbf</item>  <!-- Brad Lust -->
@@ -252,18 +240,15 @@
     <item>1813125ab2a3685e2477adffa3a03102</item>  <!-- Sean McMahon -->
     <item>184853c8134ecb9d137139aa7270ee64</item>  <!-- Ted Bost -->
     <item>1951d7e54cdc62435dd2d4376be81188</item>  <!-- Daniel hurrey -->
-    <item>1957cb439c27dab21335b84bb18680cc</item>  <!-- "mrrsqu@aol.com" -->
     <item>196bae5d28c7c21ae46e73759160006d</item>  <!-- shane gattis -->
     <item>1a3436cec3fe9ac9e6b6f2c2e7c46315</item>  <!-- Zachary Adams -->
     <item>1a770a4eb4b50315533d641fdd5a6ec3</item>  <!-- William Walters -->
     <item>1eb351cddea565d34d80716cf171d0a2</item>  <!-- Michael Stepp -->
     <item>1f72772c787eb2e648f267c3cbebfda6</item>  <!-- stuart freedman -->
     <item>1fe1fbbbc9af5aa2e5e6232c5ed9b404</item>  <!-- jeff lohr -->
-    <item>20a5d64648d9e483e8961c1e069e11e3</item>  <!-- John Scraper -->
     <item>20b8ff82dcea5c06fbd211f886e105b6</item>  <!-- Steven Turner -->
     <item>234797837449236715c03a953e9df617</item>  <!-- cody mccarraher -->
     <item>23a960ad1662f82f5fe7df4fdac95715</item>  <!-- danny britt -->
-    <item>24381678e30e1b0fcf75bbf33214a36e</item>  <!-- "skj1979452@sbcglobal.net" -->
     <item>2548f4f2d97399e26df334010ebd3a31</item>  <!-- Kevin Hughes -->
     <item>26bae0c4d45c410b013c52d87ba04f98</item>  <!-- John Chester -->
     <item>27d5035e443064ff57831ab86b7f96df</item>  <!-- Joe Muller -->
@@ -272,42 +257,27 @@
     <item>28c8858e01d34cd4a5c328a196c07c17</item>  <!-- Lisa Weiher -->
     <item>2a500ed4f0cf69b4eac3dfb696864c8e</item>  <!-- Anthony Durkin -->
     <item>2b30698f40a083a968429ac7d7dc5393</item>  <!-- Stosh Sitkowski -->
-    <item>2bcb9011deb1295985ac149a3ea5f82c</item>  <!-- Kenny Allison -->
-    <item>2bea92dd9c070413a34b64ed48e49009</item>  <!-- Kristopher Gassman -->
     <item>2bed0079218344b29952c082448148ce</item>
-    <item>2eb47592a9543fa379c8a5528aca0d9e</item>  <!-- tephen Durgin -->
     <item>2ebbcd83ccae41a708617c6b9ec41281</item>  <!-- Ryan Cook -->
     <item>2ebbcd83ccae41a708617c6b9ec41281</item>  <!-- Ryan Cook -->
     <item>2fc204cb02bb5aca72221fa25a6e2318</item>  <!-- "MEDIC70736@AOL.COM" -->
-    <item>3018e0d23a0b0971ce28d1a5b3dc7684</item>  <!-- Neil -->
     <item>303141fd9b28149687e367194954a8c8</item>  <!-- "Wilson, Ryan" -->
     <item>308ae93cb33b9f9948aab459a9259cfa</item>  <!-- James Stephenson -->
     <item>308f31c879db23282fb8dbdc0c6ccea5</item>  <!-- Mike Rensmon -->
     <item>313f7c5de50368bdb77501e8f192b249</item>  <!-- Kevin -->
-    <item>32059a3d6728a779a506fe60af4ebe44</item>  <!-- mastclinton@aim.com -->
-    <item>322891fefc5f6aedcc25c5b50a74c15d</item>  <!-- tom may -->
     <item>331415ea77233a73ff809c20b0161272</item>  <!-- Alex Turner -->
     <item>33ebb65b97933ba5cdf8e2b1e94991f2</item>  <!-- All About Grass -->
-    <item>33ebe5d5f74f9063523c5a49ffb0dda3</item>  <!-- pedro saldanha -->
     <item>349d49c09cd8b44bef14063c5a4f3620</item>  <!-- lcoppelman -->
-    <item>34f399e4491e673e9cb705904528d443</item>  <!-- Richie Peugeot -->
     <item>3764ef8c31870ea2b746112f093ae0ac</item>  <!-- Stephen Kelly -->
     <item>37fdd79c06959f2ff806906cf3b689bf</item>  <!-- Scott Hooper -->
     <item>385afce28963d1dc3f1c94dd026fd472</item>  <!-- Blake McCloud -->
-    <item>389ffd15839b7d30ce08e97b29f13400</item>  <!-- Suzanne Owens -->
-    <item>3995e123e0791c0ad7358049cf1785b9</item>  <!-- "pjblmb12@aol.com" -->
-    <item>39be517a878f9ca17ed0370e27f44d54</item>  <!-- chris casapulla -->
-    <item>3b59a302aa552bf213f9f8018ab4429c</item>  <!-- "Budd, Christopher" -->
     <item>3ba7b0e36ccd16caf76b60fbc1e3d827</item>  <!-- Kevin -->
     <item>3bb8468a5ae39e36c17261fb52f31ec1</item>  <!-- chris tansey -->
-    <item>3c44b137b3af11022d255131f294690c</item>  <!-- Kevin Johnson -->
     <item>3c9a773ea05f91ef6ebaded850e3f221</item>  <!-- Joanne Boyd -->
-    <item>3cbdae9502eeab095ec6a56d5be212f9</item>  <!-- Lisa Edwards -->
     <item>3cd6da808cb8ccd845afa794c920d984</item>  <!-- Larry Zamora -->
     <item>3ebf8654203718e98b154c5cc3064ecf</item>  <!-- ajblack777 -->
     <item>3f02af07a0a1b32f12b719f174e250d9</item>  <!-- Lawrence McCaskill -->
     <item>3f670a79b8f5eb819f560ccddcc7bcf6</item>  <!-- Sl Ls -->
-    <item>404619778b1d01c65a44d31427ba61a7</item>  <!-- Ryan Payer -->
     <item>408e83e4b79ede988664a9c94cdde9bb</item>  <!-- Walter Cooper -->
     <item>40aada1ed661cda37c44b7e9b0e9dfc6</item>  <!-- Grant Todack -->
     <item>40cbb759d6f7b53845680f04eda58072</item>  <!-- Candace Austin -->
@@ -317,14 +287,9 @@
     <item>42c910b70ba7c313e007ae68428db3da</item>  <!-- greg seal -->
     <item>42e703c80f94a2af2989b8c7f0be1ef8</item>  <!-- Marcie Battles -->
     <item>42e8ef57995c16df1c974eb5de91bd75</item>  <!-- Brandon Donner -->
-    <item>43a693bf9a24c22ec16bcb8b2d538937</item>  <!-- Robert Fair -->
-    <item>43c4fcdabba1329ffec4b8f7e3138151</item>  <!-- "Posch, Bradley" -->
-    <item>43d40587c061b9f5f2560379dc3716a5</item>  <!-- J Hatfield -->
     <item>442ee76ef74e63b71513eeac90f32f2c</item>  <!-- "Pluta, Jim" -->
     <item>4494e217bb9827ce6e93ef952eb5f1a5</item>  <!-- Guilford County 911 -->
     <item>458b42557128a1acf78ca8b66aee0b33</item>  <!-- Guilford County 911 -->
-    <item>45c539f27846545f054358da5db79bf6</item>  <!-- Bruce Cathcart -->
-    <item>45fdacdef9af7a779daee2bd0b59d1d7</item>  <!-- Jeremy -->
     <item>46f29f6bed46335d4d4759fd2ea10b58</item>  <!-- heath hallead -->
     <item>47e848a763cf4a1bec78621edef1d9a4</item>  <!-- Guilford County 911 -->
     <item>482cbe7e569d97bbaa7964457cf1a114</item>  <!-- Kevin Absher -->
@@ -333,51 +298,36 @@
     <item>48d933f01e6662cd5a11bde7bd4fc19a</item>  <!-- Travis Kleppel -->
     <item>49b9373c94220618f2a45e2df6699b74</item>  <!-- Clark McVey -->
     <item>4b2fe6ea6425504913c3e37d94d160b4</item>  <!-- Keith Autry -->
-    <item>4be4a84378a57f3914c90d2de24da943</item>  <!-- Frank Sulzer -->
     <item>4c39f1c1a383e62a211b40b739c8fa95</item>  <!-- Rick Vogt -->
-    <item>4c75fba66c82b8b5f7a4faeb46752eab</item>  <!-- Michael Carosi -->
     <item>4cae4f883e3e11e9333a0718221f5d82</item>  <!-- Robert Tripe -->
     <item>4d4127e513b698f72176f9d3b1b6e6b4</item>  <!-- "sfd965@gmail.com" -->
-    <item>4ddf6ab92deac0aa6bef066fd1ac072a</item>  <!-- Brian Finger -->
-    <item>4df7cc300c25028f1cb338e89931599c</item>  <!-- "polarisrider290" -->
-    <item>4e399333b838fda732e927ff2669bc52</item>  <!-- kristian schoman -->
     <item>4e579b0e81c8e5a0e6a0bde2ff219b64</item>  <!-- kyle peters -->
     <item>4e6ab5517c50e9d8fc83bcd3f224ff39</item>  <!-- Richard Clagett -->
     <item>4e6c76d750717ed5e7a1bdb04c31ee06</item>  <!-- Annette Unger -->
     <item>4ea9c55d38901432480c20d3d4a99953</item>
-    <item>4ec74febb5a4a9221c03f72479b23792</item>  <!-- Shawn Collins -->
     <item>4ecd1bf07575b46225e6fa55a8ae4a96</item>  <!-- Guilford County 911 -->
     <item>4f0c33729fd11b2890a710fb1c42e7ba</item>  <!-- "steve-lynn@live.com" -->
     <item>4f44f08e4de9b6d2f1a04fe717a150f0</item>  <!-- Chris Eddlemon -->
     <item>4fcfb30e4529434d031f6b706f050083</item>  <!-- Christopher Winters -->
-    <item>50207c09e201180783c5642993b954fb</item>  <!-- Brittany Morlan -->
     <item>513a42c0a7d00406e3ae4ce246db7a48</item>  <!-- Marshall Younker -->
     <item>51727e524f626f064470751a708afcd7</item>  <!-- "Bradley T. Hinton" -->
     <item>518f530128473db2c7de8efe5a8b6124</item>  <!-- Guilford County 911 -->
     <item>51cb7a818586084480c30ffbd829f0fb</item>  <!-- brock patt -->
-    <item>51fdfa410583dd1eeb69fd71565c27fa</item>  <!-- Christina Palmer -->
     <item>5235f8f89624f30e1d7680ff728a27bd</item>  <!-- Rick Beam -->
-    <item>52c077a333f97bd61ac03004dc4a480e</item>  <!-- Kevin Kenny -->
-    <item>5310a7a5aab2463e7417f1571eecdbc4</item>  <!-- Mason Cobb -->
     <item>537e0a2ff3e9fcb823cbad9c97aa3777</item>  <!-- John Allshouse -->
-    <item>54d4078ca79407d7db56d18265f53d38</item>  <!-- David DiRienzo -->
     <item>54fadfc29b981ddf42ae6a3b438c1beb</item>  <!-- Dustin Fails -->
     <item>55fb53c0ff2e9817b099bdf9f19bb3db</item>  <!-- Trent Morris -->
     <item>562960d6553ba5937065e192539c1f44</item>  <!-- James Taylor jr -->
     <item>562ba106481ab08196dae09c5f0fb12e</item>  <!-- ROBERT JONES -->
     <item>576cb88f0b99583c41b7e9ae35ea217c</item>  <!-- daniel garretto -->
     <item>577426106ffc57ad18c02fafd2f2f2f4</item>  <!-- Cody Tweedy -->
-    <item>579b11649932f351b105ae8864a28861</item>  <!-- Ryan Sandberg -->
-    <item>57ac75fd0f5a49f5126635784178dcd3</item>  <!-- Brittany Wampler -->
     <item>57bc6c67fc80c6bb75186363d3dab386</item>  <!-- Garrett Sagraves -->
-    <item>58006e9e7b707f8a175751285a8f35cb</item>  <!-- Timmy Mawyer -->
     <item>58b4e6aeffa4b600d939bdcde2a9876c</item>  <!-- Jennifer Mueller -->
     <item>58cd9c7a244359c8ab8b563ca2c5fcd3</item>  <!-- mark marino -->
     <item>5917120e30e8f8ffcf22f8bc3a8884bd</item>  <!-- Paul Barkley -->
     <item>59c3f5a262f4c2417b553039422413c3</item>  <!-- KevinM Croffoot -->
     <item>5b282ca7c2bbf63073671c2395fb46b2</item>  <!-- John Mortise -->
     <item>5be6f9bcab97780d4edddfc1443be9f7</item>  <!-- Stephen Race -->
-    <item>5c048aa2c22c3f8ae1718bbaf9ec150d</item>  <!-- "s_toia@comcast.net" -->
     <item>5c2593680fd960060640d0b716a00a38</item>  <!-- Corey Gravley -->
     <item>5c4aaacd39de9bab7196e99aab2aabe3</item>  <!-- Eric Stoltz -->
     <item>5c92d2af65d955a85c0ab7858c81f2bd</item>  <!-- christa hoover -->
@@ -389,12 +339,9 @@
     <item>60bbe2de877d8b59ee214fdcd09a9f22</item>  <!-- "NEIL MATHEWS" -->
     <item>61f3b507659a4e950e125b46eb98257a</item>  <!-- Rob Kochanowski -->
     <item>62939cb6e5f9a3444eb0396cdc1282fb</item>  <!-- gary rictor -->
-    <item>62a6aa05b2b1de2416ffa8e472f0cf8b</item>  <!-- Christina Kenny -->
     <item>62f58a0a41ef7fc2dad18e04c3c62a38</item>  <!-- Carl Nelson -->
     <item>6308cb9e96a7c6e0016412be31cdafbd</item>  <!-- PJ Mudar -->
-    <item>63486eb49c832f4258945f5bfa185fec</item>  <!-- wayne lucas -->
     <item>64789decbdd02a7cdc416851202a8059</item>  <!-- nicholas hammel -->
-    <item>64dd748b4d0b31295b7f68395ed37c65</item>  <!-- Joey Earp -->
     <item>65ea476c1f859df9d4fc18b293c2f3f9</item>  <!-- Matt chastain -->
     <item>65ea8cbfb41452a33006138159876836</item>  <!-- Todd Lynch -->
     <item>6610c27c5de09d5a6369a480c36847a0</item>  <!-- Shawn Ramsey -->
@@ -403,7 +350,6 @@
     <item>67667f8de64f8ebe77960387603201bb</item>  <!-- TJ Brown -->
     <item>6794517a684f51a0ea93b4b5e8c54cce</item>  <!-- larry carpenter -->
     <item>67b9be8b28c0d9581b681713d73b873b</item>  <!-- Daniel Schneider -->
-    <item>67e9dea5c61a0b68c9fd883a79d80752</item>  <!-- DWAYNE HASSETT -->
     <item>6875b9d09e852f03e4452329fd16d978</item>  <!-- "codymasters325@gmail.com" -->
     <item>695866d5e1abb1c3ce635b8d461190eb</item>  <!-- Ronnie English -->
     <item>69ad11527c018976d4efac55dd096339</item>  <!-- Kevin Fricker -->
@@ -411,13 +357,10 @@
     <item>6a38a04bb60277da6dd9450572b3635f</item>  <!-- Walter Radziwon -->
     <item>6a5038e3841d67829e2ce1ee7f2e867e</item>  <!-- Alicia Schall -->
     <item>6a5038e3841d67829e2ce1ee7f2e867e</item>  <!-- Alicia Schall -->
-    <item>6a6628f64cbc1a02fcce9ab056bb2c95</item>  <!-- "W. A. Mullins" -->
     <item>6c2ff19f2c53b4ccfa7210f3fc3aacc5</item>  <!-- Maureen White -->
     <item>6c99ce13e82780427ac5a7026fb312e9</item>  <!-- Joseph Siciliano -->
     <item>6c9ae9cd8f891540cc5f8622ca34846d</item>  <!-- Duane Carpenter -->
-    <item>6d4ff843cac2ee363a137aea147b250e</item>  <!-- Amy Smith -->
     <item>6d62915ae6b9b9764e674bf30892bdb4</item>  <!-- Guilford County 911 -->
-    <item>6d688a04dff59f11ba0dbfebda6b6a1d</item>  <!-- Jason Funk -->
     <item>6f07516700ef441c55883c92991563f8</item>  <!-- trey yarbrough -->
     <item>6fcdee4c8b994730df54ab4170418a8d</item>  <!-- Kim Cunningham -->
     <item>703e72d3d2aa2cb21c1020c3a3919d45</item>  <!-- Scott Marks -->
@@ -426,32 +369,18 @@
     <item>70d2b68b13dbfdd3996b0e7654ba7189</item>  <!-- Bryan Murray -->
     <item>70f984d3381308ab58d148c8c69127aa</item>  <!-- Aaron Lehman -->
     <item>71d6998eaca99579307a592d1cd29da1</item>  <!-- Steven Trugman -->
-    <item>730b0d8b5b16517cc080347cb185fd27</item>  <!-- Adam Weitzel -->
-    <item>73b99a6bf4fcb4b0c8fb0cb76e9e9072</item>  <!-- J Kunch -->
     <item>742384b1828e934320579182f6753135</item>  <!-- Terry Culligan -->
-    <item>76c0380fbb4f84a188001c531d92365b</item>  <!-- bert jensen -->
     <item>771ad388cae4bedf4c3e4df2ce35ac2f</item>  <!-- Marcos Fernandez -->
-    <item>7754f99b362f23530014a83158075afd</item>  <!-- "Charles R. Barker" -->
-    <item>78050d3084b3b0b91ea9d5371164842b</item>  <!-- Mitchell Karr -->
-    <item>7a0d89925fb55a89b46fdf2fb7eec054</item>  <!-- Ian Williams -->
     <item>7b161e976ffbc4df28545ea3dc11cb48</item>  <!-- "firemedic1138@aol.com" -->
     <item>7b5e34fd430b1b2aa5cd3ae5402fe46a</item>  <!-- Andrew Peeler -->
     <item>7cf5adf606e4188cff386bb669593220</item>  <!-- michael dellinger -->
     <item>7cf6586bd4a97fd75c6ff2cf5fa1c3cc</item>  <!-- jon turcotte -->
     <item>7d946e63f53d1717d8d37a3af42bfe58</item>  <!-- Chris Ayers -->
     <item>7dd5bd2244cbafa005c493520e162397</item>  <!-- Alan Eury -->
-    <item>7de3b2781d328995dca51f9ec54ea003</item>  <!-- Jesse Moses -->
-    <item>7e08c6c40e82a56efd51e96ac122d056</item>  <!-- "chrisgrzegorczyk@hotmail.com" -->
-    <item>7ed2761e7ad3c14dcedaddf70cb87b0c</item>  <!-- Marcus Barker -->
-    <item>7ef0b59d3965dc79c1e306f4757601b2</item>  <!-- Derek Waddell -->
     <item>7f49b8557ea0c0bde2b6af664d9130ef</item>  <!-- Kevan e Williams -->
     <item>80a45ed94563d496fdd4d7c0f58a7d26</item>  <!-- Gerald Bentley -->
-    <item>80f668d993b8726ad3cf58ba66f0009b</item>  <!-- "spazking4lif@aim.com" -->
-    <item>80f668d993b8726ad3cf58ba66f0009b</item>  <!-- spazking4lif@aim.com -->
     <item>8175b36ed23237e62fb4b47ccbacfdce</item>  <!-- Angelina Kovach -->
     <item>81c21c1a7bcb9a9b41e2ac5f7a1b2ae5</item>  <!-- James Hodgskin -->
-    <item>82a95c6c0f5c07978d0e184782b616d1</item>  <!-- Nathan Wood -->
-    <item>846ebf30e1fc424ee840ba90d5c5b9e6</item>  <!-- Jason Lesich -->
     <item>847aad77a039ca8f99b211090276e3e2</item>  <!-- Steven Westfall -->
     <item>84aa73bf3d756664e176bc58c66b0c53</item>  <!-- Mr Shocker -->
     <item>852164a49f11195070fab3637a045c37</item>  <!-- Erick Babst -->
@@ -467,27 +396,17 @@
     <item>89926cb08796106a99db9db85c86822d</item>  <!-- chris smith -->
     <item>89eb6d2341a6894d7cc0b05936a1ccae</item>  <!-- "rgmanley104@gmail.com" -->
     <item>8a003d84ce0c24c349e09261d050e23b</item>  <!-- Matt Culberson -->
-    <item>8a027d8124159d813f98a34ad459ffad</item>  <!-- Jim Lasley -->
-    <item>8b89a3fa74e719dfedeb28c911a13b15</item>  <!-- "allstarhunt44@aol.com" -->
     <item>8ba467fd8d97f9a453ab54fa4c212fc9</item>  <!-- Bobby Kelly -->
     <item>8d4844d2fc669b90caa38f9159de2f28</item>  <!-- Christopher Rowland -->
-    <item>8ddc0091f8b568378847a73e72d8511e</item>  <!-- sam miller -->
     <item>8e6a98594a3ae2b3dcdeed5a314b307a</item>  <!-- Kathleen Sullivan -->
     <item>8eced7d9288fd204dcb07e06cc6eeed8</item>  <!-- Matt Reitmeier -->
     <item>90695976898e514c3954a6ba0992974b</item>  <!-- Guilford County 911 -->
     <item>9078fe4824c6d91b4ef7d27f3f310840</item>  <!-- Brandan Seder -->
     <item>908adfb7d6a63e9ed101420b545bee79</item>  <!-- Tim McCawley -->
-    <item>91f8a414c4ab9a1615c9a097fff6df48</item>  <!-- Doug Gelsleichter -->
     <item>9233d32a319fb979f37a8268b3859c5c</item>  <!-- atkinson3084 -->
-    <item>927386bc5a9526cd3938f6a27f8493ae</item>  <!-- Edward Davis -->
     <item>931f75e052a706ecfbcf0fab57798b33</item>  <!-- tiffany graye -->
     <item>933747358f61b7152a423ca71076a207</item>  <!-- Chris Dambly -->
-    <item>9353e884cf5b30da68cfe8d91414af5c</item>  <!-- WYNTON WOODSON -->
-    <item>94004b1ced1761e12014173828b1d7b0</item>  <!-- Kyle Larson -->
-    <item>94ac55232853d478de221f04ebdd6041</item>  <!-- Derrick Parady -->
-    <item>94e07609c85f5aab8d112f506ed45e9c</item>  <!-- Lauran Whiting -->
     <item>9545b3dcd00916b913db829e077158b5</item>  <!-- Brandon Zerman -->
-    <item>95ff840c38e4625b1acbc7ba75ecf0b2</item>  <!-- Brandon Cockerham -->
     <item>96dbed85bab329b11ca5bcacb5ac1b60</item>  <!-- Joseph Morabito -->
     <item>97443638aba12dfc3044cf32731d7baa</item>  <!-- marc butt -->
     <item>97ca8249095cdcbf1293db7613224358</item>  <!-- Scott Bellevou -->
@@ -495,27 +414,20 @@
     <item>98164dd2508a17980fbc43a573ac3a67</item>  <!-- Jonathan Everly -->
     <item>99e8da020ad2b3fd1c1c06b67f6cdf01</item>  <!-- Bret Milam -->
     <item>99f1dbb93cac192bbcbdd245746a2722</item>  <!-- miguel quijano -->
-    <item>9a044c0c167ea47232a7bb260b77bcea</item>  <!-- Todd Pangle -->
     <item>9b99abe14ead5bd746481db00668a91d</item>  <!-- Jacqueline Howell -->
     <item>9bb2c2c11fc59f8ff84f40099a19079d</item>  <!-- anthony hunt -->
-    <item>9caaaa25f1129c4d86b17790782e6b5e</item>  <!-- "markgialanella@yahoo.com" -->
     <item>9caf535dce649fa0110300195a8824e9</item>  <!-- Thomas Kupiszewski -->
     <item>9d2bfefaf578ae5ea5f5cfb8179b7e11</item>  <!-- Charles Woodland -->
     <item>9d61b36897db82af8658bc61e011ec31</item>  <!-- Guilford County 911 -->
-    <item>9d81803f6d8a1ab6bf6678b822382989</item>  <!-- Hunter Rowzie -->
     <item>9ec5c4066cf65425d639b17b45ad5e65</item>  <!-- Lance Adam -->
     <item>9ed56f8a8b964188107f72991eabe979</item>  <!-- Christopher Spillane -->
-    <item>9edcf6940a902a3c2d4fec9a6b8b7af3</item>  <!-- Chris Traub -->
     <item>a061512d97dce4cd5c0b7dca02a48c91</item>  <!-- Michael Banks -->
     <item>a08bec683a8dab2cdb8275f81265e30e</item>  <!-- "jrff135@yahoo.com" -->
-    <item>a10208c26e82e81786f14a4a41ce14bb</item>  <!-- Amy -->
-    <item>a13a25b47b94886a386f8d2f3b83475b</item>  <!-- David Crandall -->
     <item>a2a0480044c02c9a9944728cd9d3c589</item>  <!-- Tom Brewton -->
     <item>a2d074a8255096dd99e5a4548b725a62</item>  <!-- Oscar Gonzalez -->
     <item>a41a216cff0886dd81be99ac2f3e15ef</item>  <!-- Brett Lawson -->
     <item>a52b299bf0644a9379bbda6f23facf6a</item>  <!-- joe McGlynn -->
     <item>a5a1adec445401b250d0a83ec11587a5</item>  <!-- Thomas Homenchak -->
-    <item>a62a35ce821a798a5c4d3c15ebe84ebf</item>  <!-- josh sgro -->
     <item>a62b08caf36501721bf4f5f662e51bab</item>  <!-- eric gardner -->
     <item>a64b259eb110da66b7dc61cb7b21af55</item>  <!-- Jason -->
     <item>a75761f67c455a817bc4cbe1072cc62c</item>  <!-- james bennett -->
@@ -527,22 +439,14 @@
     <item>a9a67e6980c09c12e68cee2faa3b536f</item>  <!-- Steve Reyes -->
     <item>aa6374b81e92c120034d7be5a5bce365</item>  <!-- Brandon Josey -->
     <item>aa65c63ab5ded9638eaa9b13e0f048d7</item>  <!-- Robert Sanfilippo -->
-    <item>aaaae2632db8f0614f74690ffe5f5048</item>  <!-- Roy Gibbs -->
-    <item>ac3c9747be7cb599ed485fa32c36b3ca</item>  <!-- "johnresino@yahoo.com" -->
     <item>ac56c0c04f843461e9fd1f103f29473a</item>  <!-- Tina -->
-    <item>accc2d83d0af73e5e9f7d4f998c7bd7e</item>  <!-- Jordan Rogers -->
     <item>ad80f6947dd9e8e9306bd9b1c7ea509d</item>  <!-- Jonathon Hartmann -->
-    <item>ad82fff2c93ac57ca52c7fa80957047d</item>  <!-- Ashley Fletcher -->
     <item>adc7bcc5ef897c1e479dfac3b034d1ea</item>  <!-- Jim Stewart -->
-    <item>adfe1db6dd4f921463d23f84d2a3868e</item>  <!-- Shawn Sible -->
     <item>ae3b71265addf31aad9b4138e81f86db</item>  <!-- Brady Holder -->
     <item>b22372e692f183c2e0a32a27946e76da</item>  <!-- Michael Wystepek -->
-    <item>b2be065cfbda3f7ae7db117895d19590</item>  <!-- Mike Siciliano -->
     <item>b32e0dfdb263cf86e2417a6086afdfa3</item>  <!-- "tmcarroll" -->
     <item>b32ebf277c7e3dd7aee58a7eab434bf5</item>  <!-- Justin Alter -->
-    <item>b48f705db6cb53321fb11d5be1527b0a</item>  <!-- "tacrvcfd1212@aol.com" -->
     <item>b4ed45ec160fe8e9fccf61cd27dd3fc3</item>  <!-- Kevin mcguire -->
-    <item>b6d8d012598d5159e5d29b4285bf7047</item>  <!-- Kyle Orndorf -->
     <item>b6ff233d20694643347d596916c926b5</item>  <!-- Edward Solomon -->
     <item>b70f62b9dd362841d57f338e34ac5bc1</item>  <!-- "camcar91@yahoo.com" -->
     <item>b7446af4150efcab3880cbb03444a531</item>  <!-- Bill Carey -->
@@ -563,7 +467,6 @@
     <item>bc01e8d4d7c20aa8326d584d74cb085d</item>  <!-- David Bruce -->
     <item>bc05bfcbd7f82ced68105a0aa6a076b8</item>  <!-- jeffrey cantrell -->
     <item>bc530998e6e1be0e64f76a6bb1571706</item>  <!-- Paul Lilley -->
-    <item>bc68f7777c4f2a4c7dfcebb63275c973</item>  <!-- Matthew Whiting -->
     <item>bc8e32836dd7013be6b4fb0e1f4eb926</item>  <!-- jeremy sexton -->
     <item>bcf0895d07bbcb6aa481308d03c12442</item>  <!-- George Stewart -->
     <item>bd1179b74ac65807866d6918c32c8c13</item>  <!-- Patrick Risley -->
@@ -572,27 +475,21 @@
     <item>bdf85aad4c9db16f6e995f89b8be411b</item>  <!-- Trey Courtney -->
     <item>be136859feb12b1ca1a134e74f2174ae</item>  <!-- Jimmy Kelly -->
     <item>be136859feb12b1ca1a134e74f2174ae</item>  <!-- Jimmy Kelly -->
-    <item>be49d6e898a271e96a9c57ea02395e6d</item>  <!-- Christopher Williams -->
     <item>bf775dec6c16adf0993b2e65155a6404</item>  <!-- "B.mcclamrock" -->
     <item>c02e5490b11ff26971c8c578492c047b</item>  <!-- Chris Tomlin -->
     <item>c0e39672189a300b69d13e0ddffac1be</item>  <!-- Roland Millman -->
     <item>c1a1c1b456723e4dc5a8ead68d09de89</item>  <!-- Guilford County 911 -->
     <item>c2b7821b5806b3444ddd29d83b4a7585</item>  <!-- Tod Miller -->
     <item>c3021c2aea8dbd94a24bb2d44f850e74</item>  <!-- Henry Hennings -->
-    <item>c34d95ec5ce38a538b564bde44687245</item>  <!-- Michael Jones -->
     <item>c3b4e3b211bd23b083314d824c3c8e18</item>  <!-- Ronnie Russell -->
     <item>c50a23793f184f9f8374707bb8d8c6c8</item>  <!-- "tauris45@yahoo.com" -->
-    <item>c58d3851999fd48efc2035909cf739e6</item>  <!-- Lance Stuart -->
     <item>c610854cce11ddb304adde85c54c7fd3</item>  <!-- Doug Day -->
     <item>c61ea5591acdb7b3278da163675f50b4</item>  <!-- Guilford County 911 -->
     <item>c6ba9e88ac008128792cba302d7886a6</item>  <!-- Chad Jones -->
     <item>c6d53e6829a5c9d25ff0524d7483b5a7</item>  <!-- Guilford County 911 -->
-    <item>c7278331d6949d30fd93a02d99aee679</item>  <!-- gary saraceni -->
     <item>c7b94a1ed1163ba5a1a866fe14b79a17</item>  <!-- "Hames, Brian P." -->
-    <item>c81061bd7eb221c2b6856d1dee47388a</item>  <!-- Blake DiSalvo -->
     <item>c851a2a7de9063aba4bd559b49b17c6c</item>  <!-- "Bryan Rogoff" -->
     <item>c85378999f90d452cda831a9d50b9a04</item>  <!-- Brian Parker -->
-    <item>c924ecdc18cf9bfc38eb351e4e41656b</item>  <!-- dana may -->
     <item>c92630459ac66f586c7e65fd53898549</item>  <!-- Frank Gardner -->
     <item>c97cc78ca1bd7c3a925ac56096fe0ac2</item>  <!-- CHRIS W HERNDON -->
     <item>cabdfcecb04d7d3289f15525f3625a35</item>  <!-- Guilford County 911 -->
@@ -601,47 +498,37 @@
     <item>cbb906097af1d57c6f8702b04291115e</item>  <!-- "drudbart@aol.com" -->
     <item>cbb906097af1d57c6f8702b04291115e</item>  <!-- desiree rudbart -->
     <item>cbe9b00feba800bb071bf81178867122</item>  <!-- "e_custead@msn.com" -->
-    <item>cc4bc72c7beee15d08db7b03dee9a327</item>  <!-- Pennell Jester -->
     <item>cc5828e526a8afe538651a652bb9b50a</item>  <!-- Jennifer Markle -->
     <item>cd81e503cfe5b24042d27a754e838d36</item>  <!-- Michael Vaughan -->
     <item>cdee4bd0d0214ca40347125f8b493479</item>  <!-- Jerry Blevins -->
     <item>ce02dccfe063f6ed722a4e994eeb199f</item>  <!-- Randy Sicher -->
     <item>cec5556450843f53a31df7107599ec28</item>  <!-- William Stearn -->
     <item>ceedf996d69dc36dbcf72b4cf9641827</item>  <!-- Larry Morrow -->
-    <item>cf08c32a8c0d49ce5d75a687430cc824</item>  <!-- David Roach -->
     <item>cf6b515f446099337e381b3499399c68</item>  <!-- "wcsfootball75@hotmail.com" -->
     <item>cfacc88d0588554b9d4dc9710883108b</item>  <!-- Mike Peski -->
-    <item>cfdd11fafe7a1a4ccd6de0dc8d4568b4</item>  <!-- "Shawn" -->
     <item>d0362bdffdee1449099f429636e9c85c</item>  <!-- Guilford County 911 -->
     <item>d152c1026f2000059fb5452bdd74e0e6</item>  <!-- Heather Smith -->
     <item>d20866ac00d788192faf2da607d3890d</item>  <!-- Matt Tolson -->
     <item>d2ec67146b7db0d8929b4dfd076ecd6b</item>  <!-- Chris Taylor -->
     <item>d3727fd8748d664e5de20d23d95bb981</item>  <!-- Dwight Danner -->
     <item>d3b2ed1cd390a751d75c2cfbee348395</item>  <!-- Brent Scott -->
-    <item>d4fc6cf6066fa09bbfdc412c41e5775f</item>  <!-- Joseph Yarber -->
     <item>d53af054924484cab286a497a64560b2</item>  <!-- Greg Ellis -->
-    <item>d6761cb59d364d276f7971bd55cb7627</item>  <!-- Kenneth Gosnell -->
-    <item>d695417e26e3f9b599bebbd18b89e743</item>  <!-- Jake Parrish -->
     <item>d6f04cfe27a970485324096198e9c500</item>  <!-- "Jack Ryan-Ackerman" -->
     <item>d7a386df9f61270b50ef6ef4469357a9</item>  <!-- Christopher Eno -->
     <item>d84e6d58926e7bf215c484cb885d3036</item>  <!-- Geoffrey Backus -->
     <item>d98df93ad5dd021064d864d800c9d97a</item>  <!-- Eric Conley -->
     <item>d9f0b09ba3483ddac0972c4e57847535</item>  <!-- Drew B -->
-    <item>da9d3f5e3156a0b6e31d3ccf2d7368c3</item>  <!-- Brad Myers -->
     <item>db0eabb9fca90301f6e6d7c31336617e</item>  <!-- Chris Delancey -->
-    <item>db4ffab15846becc102387c764b8b65c</item>  <!-- "jdonahue10320@hotmail.com" -->
     <item>db5a66a57a32502ca6ba01631fab01f0</item>  <!-- "Darin" -->
     <item>db8b169b184e8132a49361420d62e521</item>  <!-- Samuel K Anders -->
     <item>dba6feb32b0f81a937cc389495fe9490</item>  <!-- Donald Hymer -->
     <item>dbe25a14d1ec4cb7ab160aa449419f72</item>  <!-- Terry Bouchard -->
-    <item>dcb3d70a56349c1fcf791e50826d5e59</item>  <!-- Matthew Erd -->
     <item>dcd72ab39f5f35bba67e3e2920ebc250</item>  <!-- CARL W TILLMANN JR -->
     <item>dcdd8b0bd61c7b5c3da90d9d5594a53e</item>  <!-- Mike Bierman -->
     <item>dd0801fc4e7d486a78d7a4a3f790e4c0</item>  <!-- "Jonathan S. Rado" -->
     <item>dd5396c4d37a60f6ceb98c92ce276e3e</item>  <!-- Guilford County 911 -->
     <item>dd757d5a1199d98ce22ac987427499d7</item>  <!-- Dave Wyre -->
     <item>dd928ddaf4df5c1185df1076d8df75c5</item>  <!-- "Madden, Paul" -->
-    <item>de55bc5abb0203876dfd4c071b0d31cf</item>  <!-- Angela Tart -->
     <item>dec0a4b003beae59efb80351ae994c79</item>  <!-- Ryan Feaster -->
     <item>df23233498ff88bca89388644782b7b2</item>  <!-- Randy Haylock -->
     <item>df9c8d3e3ac133368ddab958c20fe29e</item>  <!-- Scott Schmidt -->
@@ -652,8 +539,6 @@
     <item>e103cbe4d64de9fc88e1cc2af73ca1c5</item>  <!-- derrick m pry -->
     <item>e123e59bd7cd98af87ce05ff95142e9b</item>  <!-- Gary Crider -->
     <item>e1bf94498441af77a7d926df87508eaf</item>  <!-- Ryan Hines -->
-    <item>e20a82544e560523e279a615c0c92f4a</item>  <!-- Chris Colvin -->
-    <item>e21a8cb86b2224b201c01c01fc226677</item>  <!-- Dana Peterson -->
     <item>e2d7138c783b79a6fb2cec8ba45d96dd</item>  <!-- Travis Musselman -->
     <item>e34e3938b2be412ddfd5563075121c74</item>  <!-- Richard Frank -->
     <item>e36c21b6649e83eddfc963843dcc17f7</item>  <!-- Jennifer Dawson -->
@@ -664,7 +549,6 @@
     <item>e5b4ace11d72e87efea5465349d9df4d</item>  <!-- john dempsey -->
     <item>e5b6341fcb124b146e28e78678e79030</item>  <!-- Michael Pinkney -->
     <item>e5d2de78384dae636149624f837d0482</item>  <!-- "trent042405@msn.com" -->
-    <item>e5f292c96ca4743796ff3d2852dfdf3f</item>  <!-- Richie Nye -->
     <item>e660d0ddcce4230a82b8d4dc3d78f750</item>  <!-- April Langan -->
     <item>e74c52b9639a7f4efe0a22264473db0c</item>  <!-- sean.felock@yahoo.com -->
     <item>e7ed9337906c7dc2d369246fad7995c3</item>  <!-- Steven Bristow -->
@@ -675,7 +559,6 @@
     <item>eaf3a874961b1ec021d5d9bace89a1b3</item>  <!-- Jerry Lynch -->
     <item>ebe7c7da75ec6777ad1103b21445d9d1</item>  <!-- "tsalmon89" -->
     <item>ec133881a8f76df1381e769d5eb7384f</item>  <!-- Michael Watkins -->
-    <item>ec4735d89097da22e3762673120cbfe3</item>  <!-- Patrick Bower -->
     <item>ecb05e0452855826faeaee59cea2ee51</item>  <!-- "Williams Don" -->
     <item>ed31e950af0a4ccfcedc78a468fa30c2</item>  <!-- Steven Soblosky -->
     <item>edb86a974fafc7b4887475b3fd0d473a</item>  <!-- Rachael Robertson -->
@@ -685,7 +568,6 @@
     <item>f0cd42d062481636813f9d9df2e7831a</item>  <!-- Guilford County 911 -->
     <item>f10e4652a3488ac4229010d56b82ad17</item>  <!-- Chris Spencer -->
     <item>f11026eac6786b9df54e3b6caac6de23</item>  <!-- "Ashley" -->
-    <item>f170bdfa7620b6c62365d228c24f90ca</item>  <!-- Brandon Michael Nelson -->
     <item>f1bfe3e1fdbd9e9b12f1ff91e74e66e4</item>  <!-- Joshua Morton -->
     <item>f2066127baf48ed14c50deff9df59582</item>  <!-- Jimmy Spade -->
     <item>f330b1efd3483e6a4e3d0b3fb999850c</item>  <!-- David -->
@@ -701,21 +583,15 @@
     <item>f727e44236a203fd5f7492e1648478fb</item>  <!-- Hanna M Wade -->
     <item>f728ee2efca4fe81e15ed3c4cbe2890b</item>  <!-- Rod Ault -->
     <item>f728ee2efca4fe81e15ed3c4cbe2890b</item>  <!-- Rod Ault -->
-    <item>f81fdf8aa5c513390c610f991ab71902</item>  <!-- Zack Wells -->
-    <item>f914f27b1e77cada768f38ecdad304f5</item>  <!-- Grace Roloson -->
     <item>f96e508eb85e5e7b132ef529c1cfc011</item>  <!-- Claudio Fuentes -->
     <item>fa0df848a6d004916cec8367c99d2708</item>  <!-- Alexis Murphy -->
-    <item>faf6c930e91e2493d35d93006c53a9b9</item>  <!-- Cameron Allred -->
     <item>fb18119152f6e4f29beed1b586accffd</item>  <!-- TJ Farrance -->
     <item>fb30278993ce9edc07f3408ac74bcfd0</item>  <!-- "Kim Collier" -->
     <item>fba57933f8a4e5bdc66322bfd1982612</item>  <!-- Bruce LaMonica -->
-    <item>fbd5b3e579eda2e5736a40e24077114d</item>  <!-- K Kenny -->
     <item>fc6b11296416b95b78a220cbf0d6db71</item>  <!-- jeffrey swart -->
-    <item>fc7433f55de6d4c669b54eecfd2bdc4c</item>  <!-- "Murphy, Ray" -->
     <item>fc76247c434f02451dad81bd49ee3b82</item>  <!-- Guilford County 911 -->
     <item>fd74ae0227809c27645cf5fec178b7d1</item>  <!-- Lawrence Faughnan -->
     <item>fdbdffaf0e48e0b6f002aaefb28dad97</item>  <!-- Christopher Botkin -->
-    <item>fe107a1d8a0f575846020cab55a4121b</item>  <!-- Anthony Whetzel -->
     <item>fe14870ffc197370c1c4436ec770138b</item>  <!-- William Yoder -->
     <item>fe2ec880692604faf93767dee46071c5</item>  <!-- Dan Cowan -->
     <item>febbe672c4e671aeee37bf8cabccd341</item>  <!-- eric mills -->

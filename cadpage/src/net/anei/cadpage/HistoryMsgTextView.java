@@ -44,7 +44,7 @@ public class HistoryMsgTextView extends TextView {
     this.msg = message;
     Context context = getContext();
 
-    long time = msg.getTimestamp();
+    long time = msg.getIncidentDate().getTime();
     String text = DateFormat.getLongDateFormat(context).format(time) + " " +
                   DateFormat.getTimeFormat(context).format(time) +
                   (msg.isLocked() ? " (Locked)" : "") +

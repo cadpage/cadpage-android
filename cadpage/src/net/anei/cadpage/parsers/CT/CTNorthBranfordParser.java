@@ -45,7 +45,7 @@ public class CTNorthBranfordParser extends SmartAddressParser {
   
   @Override
   public String getFilter() {
-    return "paging@mail.nbpolicect.org.";
+    return "paging@mail.nbpolicect.org,paging@nbpolicect.org";
   }
   
   @Override
