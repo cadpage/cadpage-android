@@ -71,7 +71,7 @@ public class CTNorthBranfordParserTest extends BaseParserTest {
         "CALL:MVA W/INJURIES",
         "ADDR:N MAIN ST & RT68",
         "CITY:WALLINFORD",
-        "X:A44");
+        "UNIT:A44");
 
     doTest("T2",
         "1100007014 MUTUAL AID 00909  BEAVER HEAD RD , GUILFORD    MED4 110811 01:16",
@@ -81,6 +81,19 @@ public class CTNorthBranfordParserTest extends BaseParserTest {
         "CITY:GUILFORD",
         "UNIT:MED4");
    
+  }
+  
+  @Test
+  public void testParser2() {
+
+    doTest("T1",
+        "1100010113 MEDICAL MEDC 00254  BRANFORD RD Prem Map -  HARRISON RD/FOXON RD  MED4 R1 111116 23:04\n",
+        "ID:1100010113",
+        "CALL:MEDICAL MEDC",
+        "ADDR:254 BRANFORD RD",
+        "X:HARRISON RD / FOXON RD",
+        "UNIT:MED4 R1");
+
   }
   
   public static void main(String[] args) {
