@@ -546,9 +546,19 @@ public class MDSaintMarysCountyParserTest extends BaseParserTest {
          "CALL:Breathing Difficulties",
          "ADDR:23263 BY THE MILL RD",
          "X:ALS ST38 / 60 year old, Female, Conscious, Breathing.");
-  }
+
+     doTest("T60",
+         "((50741) CAD ) 14:51:00*Seizures/Convulsions*20601 WHITE POINT RD*KNOTTS LANDING WY*MEDLEYS NECK*ST39 CO79*semi concious had seizure in front yard*",
+         "CALL:Seizures/Convulsions",
+         "PLACE:MEDLEYS NECK",
+         "ADDR:20601 WHITE POINT RD",
+         "X:KNOTTS LANDING WY",
+         "CITY:LEONARDTOWN",
+         "UNIT:ST39 CO79",
+         "INFO:semi concious had seizure in front yard");
+ }
 
   public static void main(String[] args) {
-    new MDSaintMarysCountyParserTest().generateTests("T59", "CALL PLACE ADDR APT X CITY UNIT INFO");
+    new MDSaintMarysCountyParserTest().generateTests("T61", "CALL PLACE ADDR APT X CITY UNIT INFO");
   }
 }
