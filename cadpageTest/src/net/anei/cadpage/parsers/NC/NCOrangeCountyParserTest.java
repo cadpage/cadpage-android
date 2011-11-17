@@ -64,8 +64,19 @@ public class NCOrangeCountyParserTest extends BaseParserTest {
         "ADDR:412 N ELLIOTT RD");
   }
   
+  @Test
+  public void testParser2() {
+
+    doTest("T1",
+        "(CAD Page for CFS 111611-425) TG: OPS 1\nINC: \nLOC: 1098 BURNING TREE DR\nAPT: \nBLDG:",
+        "ID:111611-425",
+        "CH:OPS 1",
+        "ADDR:1098 BURNING TREE DR");
+    
+  }
+  
 
   public static void main(String[] args) {
-    new NCOrangeCountyParserTest().generateTests("T8");
+    new NCOrangeCountyParserTest().generateTests("T1");
   }
 }
