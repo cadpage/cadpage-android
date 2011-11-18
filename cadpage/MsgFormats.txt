@@ -1024,6 +1024,11 @@ Talbot 911:*D 61 B-ABDOMINAL PAIN 319 LINDEN AVE T60
 Talbot 911:*D 70 A-CHEST PAIN 5656 BLACK WALNUT POINT RD BREATHING NORMAL <35 T70
 Talbot 911:*D 66 MVA/PI OCEAN GTWY / GOLDSBOROUGH ST T60
 ***************************************************************************
+Yarmouth, MA (MAYarmouthParser)
+ 109 NOTTINGHAM DR\nNO NAME\nYARMOUTH\nMedical Priority 2/3\n2_East_1\n\nNotes\nPOSSIBLE UNATTENDED
+ 579 BUCK ISLAND RD\nMAYFLOWER PLACE\nYARMOUTH\nMedical Priority 2/3\n3_South_1\n\nNotes\nBREWSTER UNIT EYE SWELLING
+ 43 MEDINAH DR\n2_West_3\n\nNotes\nDEHYDRATION SHORTNESS OF BREATH
+***************************************************************************
 Richmond, MI (MIRichmondParser)
 ** FIRE ** 1707 WITHEY   VEHICLE FIRE  COLUMBUS
 ** FIRE RESCUE ** PALMS @ GRATIOT  PIA COLUMBUS
@@ -3437,134 +3442,6 @@ Sender: pdpaging@farmington-ct.org
 **********************************************************
 **********************************************************
 **********************************************************
-Yarmouth, MA
-Contact: Charles Talbott <medic2@comcast.net>
-Subject: alert
-------------------------
-
-From: ** <7749947698@vtext.com>
-Date: Sat, Nov 5, 2011 at 4:20 PM
-To: medic2@comcast.net
-
-
- 109 NOTTINGHAM DR
-NO NAME
-YARMOUTH
-Medical Priority 2/3
-2_East_1
-
-Notes
-POSSIBLE UNATTENDED
-
-----------
-From: ** <7749947698@vtext.com>
-Date: Sat, Nov 5, 2011 at 4:21 PM
-To: medic2@comcast.net
-
-
- 579 BUCK ISLAND RD
-MAYFLOWER PLACE
-YARMOUTH
-Medical Priority 2/3
-3_South_1
-
-Notes
-BREWSTER UNIT EYE SWELLING
-
-----------
-From: ** <7749947698@vtext.com>
-Date: Sat, Nov 5, 2011 at 4:21 PM
-To: medic2@comcast.net
-
-
- 43 MEDINAH DR
-2_West_3
-
-Notes
-DEHYDRATION SHORTNESS OF BREATH
-
-----------
-From: ** <7749947698@vtext.com>
-Date: Sat, Nov 5, 2011 at 4:22 PM
-To: medic2@comcast.net
-
-
- 55 COTTONWOOD ST
-BACK PAIN
-
-----------
-From: ** <7749947698@vtext.com>
-Date: Sat, Nov 5, 2011 at 4:22 PM
-To: medic2@comcast.net
-
-
- 19 FLICKER LN
-1_East_2
-
-Notes
-87 Y/O MALE DIFF BREATHING
-
-----------
-From: ** <7749947698@vtext.com>
-Date: Sat, Nov 5, 2011 at 4:23 PM
-To: medic2@comcast.net
-
-
- 33 LEWIS RD
-3_South_1
-
-Notes
-UNRESPONSIVE FEMALE
-
-----------
-From: ** <7749947698@vtext.com>
-Date: Sat, Nov 5, 2011 at 4:23 PM
-To: medic2@comcast.net
-
-
- 121 CAMP ST
-MILL POND VILLAGE
-YARMOUTH
-AFA (residential)
-3_North_2
-
-----------
-From: ** <7749947698@vtext.com>
-Date: Sat, Nov 5, 2011 at 4:24 PM
-To: medic2@comcast.net
-
-
- 23 TASMANIA DR
-2_East_1
-
-----------
-From: ** <7749947698@vtext.com>
-Date: Sat, Nov 5, 2011 at 4:25 PM
-To: medic2@comcast.net
-
-
- 6 SQUIRREL RUN
-NO NAME
-YARMOUTH
-CO Asymptomatic
-2_West_3
-
-Notes
-
-----------
-From: ** <7749947698@vtext.com>
-Date: Sat, Nov 5, 2011 at 4:26 PM
-To: medic2@comcast.net
-
-
- 0 ROUTE 6
-NO NAME
-YARMOUTH
-MVC
-MID-CAPE HIGHWAY
-
-Notes
-6 EAST BOUND JUST PAST EXIT 8
 **********************************************************
 Guilford county, NC (alternate)
 Contact: Jamie Burgess <jrburgess87@gmail.com>
