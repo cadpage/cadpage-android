@@ -1368,20 +1368,20 @@ CAD:5413 MONROE ANSONVILLE RD;CHEST PAIN EMD;S09;B-CF2;CLARK ST;ANSONVILLE RD;01
 CAD:226 S MAIN ST;GATEWOOD VILLAGE;FIRE ALARM EFD;S09;B2;HINSON ST;GOODWILL LN;01/16/2011 14:04:24
 CAD:1299 WITMORE RD/OLD MONROE MARSHVILLE RD;ACCIDENT EMD;S09;B-CF2;01/21/2011 16:59:15
 ***************************************************************************
-Hamilton County, OH (OHHamiltonCountyParser)
-HC:STRUCTURE FIRE 8877 DE SOTO DR SPTP NEISHA COOK/NGHBR ** STRUCTURE FIRE ** INV REF.. SMOKE & FLAMES VISIBLE FROM THE ROOF.. RESD POSS UNOCC, COMPL A 22:43 HFE75 HFE74 HFQ79 HFQ78 HFR79 HFS26 HFRAT97 HFFG3 HFIMAT79 XST: 1331 ANGELA AV XST
-HC:STRUCTURE FIRE 12135 SPALDING DR COTP MATT GITTERMAN ** STRUCTURE FIRE ** ODOR OF PLASTIC BURNING LIGHT SMOKE FROM AN ATTIC VENT...CEILING IN THE K 06:47 HFE109 HFE102 HFE42 HFL25 HFL42 HFS25 HFRAT25 HFFG3 HFIMAT25 XST: 12037 WESTERLY DR
-HC:STRUCTURE FIRE W CRESCENTVILLE RD&SPRINGFIELD SPDL PLANT MAINT ENG WIRELESS-VERIZON WIR ** STRUCTURE FIRE ** ROOF VENT ON FIRE 14:10 HFE90 HFE43 HFT90 HFT86 HFM90 HFFRFDM32 HFRAT96 HFFG5
-**********************************************************
-Wayne County, OH (OHWayneCountyParser)
-taccad:SQUAD RUN 593 GATES ST CAROLYN RUNYON, AGE 64, POSSIBLE STROKE
-taccad:ACCIDENT EASTERN RD AKRON RD 911 CELL CALL FALINE JONES REF ACCIDENT UNK INJURIES. NORTON FIRE / POLICE RESPONDING.
-taccad:ASSAULT 351 COLLIER DR 911 CELL JESSICA KLATIK REQUEST OFFICER FOR AN ASSAULT
-***************************************************************************
 Las Vegas, NV (NVLasVegasParser)
 [SMS]  RE: 4051722 U: 3901, P: 2, G: 2914, PH: 28 L: 4966 MOMENTI ST-CC# , B: , AL: PC:, 26B PN:, N:26B], Location from Fire: 4966 MOMENTI ST, 01:57:51 88YOM CB...SE
 [SMS]  I: 4051701 U: 3901, P: 2, G: 2819, PH: 97 L: 6255 W TROPICANA AVE# , B: , AL: PC:, 32B PN:, N:32B], 00:38:29 Class of service: WPH2], 00:38:29 Validity of add
 [SMS]  I: 4051596 U: 3901, P: 2, G: 3223, PH: 55 L: S I 215 / S I 15# , B: , AL: PC:, 29B PN:, N:29B], 18:24:23 PR WAS PASSERBY UNK IF DRIVER IS INJ], 18:24:16 NHP E
+***************************************************************************
+Englewood, OH (OHEnglewoodParser)
+CAD@englewood.oh.us\nSUBJ:<No Subject>\nMSG:\n622 EE98 EM98 OP72:12:31:00-53B:E53:2 VEH ACC UNK INJ:@9200 N MAIN ST,DAYTON:FDC SOUTH WALL\n\n
+CAD@englewood.oh.us\nSUBJ:<No Subject>\nMSG:\n630 632 EM98:16:10:00-45:E45:MEDIC/SUICIDAL SUBJECT:@9000 N MAIN ST UNIT 300,DAYTON: 
+CAD@englewood.oh.us\nSUBJ:<No Subject>\nMSG:\n622 EE98 EM98 OP72:12:31:00-53B:E53:2 VEH ACC UNK INJ:@9200 N MAIN ST,DAYTON:FDC SOUTH WALL 
+***************************************************************************
+Hamilton County, OH (OHHamiltonCountyParser)
+HC:STRUCTURE FIRE 8877 DE SOTO DR SPTP NEISHA COOK/NGHBR ** STRUCTURE FIRE ** INV REF.. SMOKE & FLAMES VISIBLE FROM THE ROOF.. RESD POSS UNOCC, COMPL A 22:43 HFE75 HFE74 HFQ79 HFQ78 HFR79 HFS26 HFRAT97 HFFG3 HFIMAT79 XST: 1331 ANGELA AV XST
+HC:STRUCTURE FIRE 12135 SPALDING DR COTP MATT GITTERMAN ** STRUCTURE FIRE ** ODOR OF PLASTIC BURNING LIGHT SMOKE FROM AN ATTIC VENT...CEILING IN THE K 06:47 HFE109 HFE102 HFE42 HFL25 HFL42 HFS25 HFRAT25 HFFG3 HFIMAT25 XST: 12037 WESTERLY DR
+HC:STRUCTURE FIRE W CRESCENTVILLE RD&SPRINGFIELD SPDL PLANT MAINT ENG WIRELESS-VERIZON WIR ** STRUCTURE FIRE ** ROOF VENT ON FIRE 14:10 HFE90 HFE43 HFT90 HFT86 HFM90 HFFRFDM32 HFRAT96 HFFG5
 ***************************************************************************
 Hudson, OH (OHHudsonParser)
 HudsonCAD:CAD System 6150,NICHOLSON DR.,,HUDSON EMS,EMS63 YOM, DIABETIC SHOCK
@@ -1417,6 +1417,11 @@ Wadsworth, OH (OHWadsworthParser)
 (From: WadsTextSender) 0,,COLLEGE/MAIN,WADSWORTHMVA,MVA (EMS) (INJURY)MVA...NECK PAIN
 (From: WadsTextSender) 194,BALDWIN ST,,WADSWORTH  HART,HEART67 YOF CHEST PAINS
 (From: WadsTextSender) 250,SMOKERISE DR,LIBERTY RESIDENCE,WADSWORTHPAIN,PAINRM 124   STOMACH PAIN   LIBERTY ONE
+**********************************************************
+Wayne County, OH (OHWayneCountyParser)
+taccad:SQUAD RUN 593 GATES ST CAROLYN RUNYON, AGE 64, POSSIBLE STROKE
+taccad:ACCIDENT EASTERN RD AKRON RD 911 CELL CALL FALINE JONES REF ACCIDENT UNK INJURIES. NORTON FIRE / POLICE RESPONDING.
+taccad:ASSAULT 351 COLLIER DR 911 CELL JESSICA KLATIK REQUEST OFFICER FOR AN ASSAULT
 ***************************************************************************
 Xenia township, OH (OHXeniaParser)
 MBLS-MEDICAL Location: 160 RICHARD DR DAYTON XENIA RD / ROBERT LN XENIA TWP Time: 17:31 Units: M51  Common
@@ -3431,59 +3436,6 @@ Sender: pdpaging@farmington-ct.org
 **********************************************************
 **********************************************************
 **********************************************************
-Englewood, OH (In Montgomery county)
-Sender: CAD@englewood.oh.us
-System: CMI
-
-Our pages consist of the units first. Any numbers (Ex: 630, 924, 821) are police 
-units, all others are the fire units with the first letter being the city (Ex: EE98 
-is Englewood Engine 98). Also something that may be helpful is at the end of the 
-page there is the city that the address is located in based off of Google Maps. 
-If you have a way to incorporate that into the alert that would be cool because 
-if we go mutual aid to another city Google Maps may have some trouble finding the 
-location if Englewood is in it. If you need pages from Farmersville or New Lebanon 
-let me know because I don't get those to my phone (I'd have to pull them off of our 
-server). The one labeled with **** are Union pages (One was a structure fire that 
-Englewood was also dispatched to as Automatic Mutual Aid (AMAR)). 
-After the time you will notice our call codes. This is after the - and the first 
-code is a police code, second code is the fire code. 45 for police is a medic call 
-assist. E45 is an Englewood (because of the E) Medic Call. We have a small list 
-of about 8 fire codes in all maybe less. If for some reason you would want them 
-I can get them to you. The email address that sends the pages is CAD@englewood.oh.us
-
-BCAD@englewood.oh.us\nSUBJ:<No Subject>\nMSG:\n622 EE98 EM98 OP72:12:31:00-53B:E53:2 VEH ACC UNK INJ:@9200 N MAIN ST,DAYTON:FDC SOUTH WALL\n\n
-
-CAD@englewood.oh.us
-SUBJ:<No Subject>
-MSG:
-630 632 EM98:16:10:00-45:E45:MEDIC/SUICIDAL SUBJECT:@9000 N MAIN ST UNIT 300,DAYTON: 
-
-CAD@englewood.oh.us
-SUBJ:<No Subject>
-MSG:
-622 EE98 EM98 OP72:12:31:00-53B:E53:2 VEH ACC UNK INJ:@9200 N MAIN ST,DAYTON:FDC SOUTH WALL 
-
-CAD@englewood.oh.us
-SUBJ:<No Subject>
-MSG:
-620 621 622 EM99:13:34:00-45:E45:MEDIC/CALLER ON SCENE FOR EVAL-PINK SLIP - SUBJ HAS MEDICAL PROBLEMS AND MENTAL ISSUES:@1100 TAYWOOD RD UNIT 14,ENGLEWOOD: 
-
-****
-CAD@englewood.oh.us
-SUBJ:<No Subject>
-MSG:
-EE99 EL98 OP72 UE81 UE82:03:42:00-43:U43:POSS STRUCTURE FIRE:@426 APPLEGATE CT,UNION: 
-
-CAD@englewood.oh.us
-SUBJ:<No Subject>
-MSG:
-631 EE98 EM99 OP72:22:13:00-53B:E53:POSS INJ CRASH:@NATIONAL RD@MAIN ST,ENGLEWOOD: 
-
-****
-CAD@englewood.oh.us
-SUBJ:<No Subject>
-MSG:
-924 UE81:14:02:00-43:U46:CHECK NORTH SIDE OF THE ROAD FOR A POSS FIELD FIRE:@RINEHART RD@SWEET POTATO RIDGE RD,CLAYTON: 
 **********************************************************
 Yarmouth, MA
 Contact: Charles Talbott <medic2@comcast.net>

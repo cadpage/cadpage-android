@@ -352,7 +352,7 @@ public abstract class SmsMsgParser {
   * @param parseCity true if cities should be parsed with dashes
   */
  private static final Pattern INTERSECT = Pattern.compile("/|&");
- private static final Pattern APT = Pattern.compile("(?:\\bAPT\\b|#APT\\b|#|\\bAPT#) *([^ ]+)$",Pattern.CASE_INSENSITIVE);
+ private static final Pattern APT = Pattern.compile("(?:\\bAPT|#APT|#|\\bAPT#|\\bUNIT) *([^ ]+)$",Pattern.CASE_INSENSITIVE);
  private static final Pattern DOT = Pattern.compile("\\.(?!\\d)");
  private static void parseAddress(String addressLine, SmsMsgInfo.Data data, 
                                      boolean parseCity) {
