@@ -44,7 +44,7 @@ public class WVCabellCountyParserTest extends BaseParserTest {
         "TIME:16:53:24",
         "CALL:Abdominal Pain",
         "ADDR:6430 OHIO RIVER RD",
-        "APT:APT1",
+        "APT:1",
         "CITY:LESAGE",
         "PLACE:TAN ZONE",
         "X:DOUTHAT LN & NINE MILE RD",

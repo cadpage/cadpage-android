@@ -50,7 +50,7 @@ public class TNWashingtonCountyParserTest extends BaseParserTest {
         "PRI:C",
         "UNIT:M13,E3",
         "ADDR:212 W POPLAR ST",
-        "APT:APT1",
+        "APT:1",
         "MAP:54B",
         "TIME:00:12:17",
         "ID:11111569");
