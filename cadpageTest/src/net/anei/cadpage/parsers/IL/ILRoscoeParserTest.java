@@ -45,6 +45,17 @@ public class ILRoscoeParserTest extends BaseParserTest {
 
   }
   
+  @Test
+  public void testParser3() {
+
+    doTest("T1",
+        "S:HRFD: Med:4694 indigo place M: c/o alarm no \n",
+        "SRC:HRFD",
+        "ADDR:4694 indigo place",
+        "CALL:c/o alarm no");
+    
+  }
+  
   public static void main(String[] args) {
     new ILRoscoeParserTest().generateTests("T1", "SRC ADDR CALL");
   }
