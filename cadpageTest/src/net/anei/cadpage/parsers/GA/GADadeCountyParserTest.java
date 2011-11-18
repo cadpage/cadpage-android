@@ -69,6 +69,18 @@ public class GADadeCountyParserTest extends BaseParserTest {
         "ADDR:84 RUSHING WATER TRL",
         "NAME:CHRISTY / WALKER",
         "ID:2011-0000001334");
+
+    doTest("T7",
+        "DADE COUNTY 911:78 >ASSISTANCE/ MUTUAL AID 8376 HWY 157 S HEAD RIVER WALKER CO Cad: 2011-0000015531",
+        "CALL:ASSISTANCE/MUTUAL AID",
+        "ADDR:8376 HWY 157 S",
+        "PLACE:HEAD RIVER",
+        "NAME:WALKER CO",
+        "ID:2011-0000015531");
         
+  }
+  
+  public static void main(String[] args) {
+    new GADadeCountyParserTest().generateTests("T7", "CALL ADDR X PLACE NAME ID");
   }
 }
