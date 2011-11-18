@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string name="release_date">11052011</string>
-  <string name="release_version">v1.4.40</string>
+  <string name="release_version">v1.4.41</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="min_install_date">10042011</string>
@@ -12,27 +12,35 @@
 Thanks to everyone who has donated Your support is appreciated and helps support the app.\n
 See http://www.cadpage.org/financial-support for more details\n
 \n
-Incredibly busy week with not a whole lot to show for it.  We will try to do 
-better next week\n
+Coming soon.  Pages dispatched through CodeMessaging can be delivered without incurring
+text messaging fees.  And received on Android tablets.  Stay tuned for further details\n
 \n
 What"'"s new in this release\n
 \n
-Pull the teeth on the demo expiration.  We have gone back to just showing a demo
-expiration notice but not really doing anything about it.  At least for now.\n
+If your text pages include the incident date/time, and the parser for that location
+has been updated to parse them out, Cadpage will report that date/time instead of
+the time the text page was received.  It will take us a while to retrofit this
+capability in all of our current location parsers.  If we do not have it in yours,
+let us know and we will make changing it a priority.\n
+\n
+New Locations:\n
+Marion County, IN\n
+Yarmouth County, MA\n
+Englewood, OH\n
+Cabell County, WV\n
 \n
 Location Parsing Fixes:\n
-MorganCounty, AL\n
-Brantley County, GA\n
-Frederick County, MD\n
-Ray County, MO\n
-Rockland County, NY\n
-Harnett County, NC\n
-Stanley County, NC\n
-Cambria County, PA\n
-York County, PA\n
-Minnehaha County, SD\n
-Washington COunty, TN\n
+New Castle County, DE\n
+Allegany County, MD\n
+Cattaraugus County, NY\n
+Orange County, NC\n
+Delaware County, PA\n
+Erie County, PA\n
+Montgomery County, TX\n
+Nueces County, TX\n
 Franklin County, VA\n
+Louisa County, VA\n
+Prince William County, VA\n
   </string>  
 </resources>
   
