@@ -15,6 +15,10 @@ Sender: hrfdfiresvcrunnotification@gmail.com
 (HRFD: Med:14244 krotz Dr) m fall victim
 (HRFD: Med:6792 Michelle Dr) F Trouble Breathing
 
+Contact: Thomas Aaker <hrfdtaaker@gmail.com>
+Sender: hrfdfiresvcrunnotification@gmail.com
+S:HRFD: Med:4694 indigo place M: c/o alarm no \n
+
 */
 
 public class ILRoscoeParser extends SmsMsgParser {
