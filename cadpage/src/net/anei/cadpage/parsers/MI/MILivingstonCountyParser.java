@@ -36,6 +36,7 @@ CAD:FYI: ;OPENBU;8360 MCCLEMENTS RD;DEKASSEL DR;BURNING GARBAGE ONE HOUSE EAST O
 Contact: Steve Hoyer <nottheface@gmail.com>
 Sender: CAD@livingstoncounty.livco
 FYI: ;SMKOUT;CHEROKEE BEND DR/RED OAKS DR;CALLER HEARD AN EXPLOSION ON CHEROKEE BEND, DOES NOT SEE ANYTHING AT THIS TIME. SMELLS SMOKE. [09/21/11 21:53:2
+FYI: ;CHOKE;SORG RESIDENCE;2917 LANIER CT;TAHOE BLVD;[Medical Priority Info] RESPONSE: P1 STA 1 2 3 4 5 6 7 8 FC FT RESPONDER SCRIPT: 3 year old, Male, C
 
 */
 
@@ -47,7 +48,7 @@ public class MILivingstonCountyParser extends DispatchOSSIParser {
   
   public MILivingstonCountyParser() {
     super("LIVINGSTON COUNTY", "MI",
-           "SKIP CALL ADDR! X? X? INFO+");
+           "SKIP CALL PLACE? ADDR! X? X? INFO+");
   }
   
   @Override
