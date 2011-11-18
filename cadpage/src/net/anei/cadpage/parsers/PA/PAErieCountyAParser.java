@@ -39,13 +39,14 @@ ERIE911:29D2N2>MVA -EJECTION- HIGH MECHANISM PLUM RD VENANGO TWP ADAM Map:489 Gr
 Contact: Matt Exley <mexley46@gmail.com>
 FRM:messaging@iamresponding.com\nSUBJ:West Ridge Fire\nMSG:21B1 &gt;HEMORRHAGE / LACERATIONS 4242 ASBURY RD XS: THOROUGHBRED LOOP MILLCREEK TWP\n
 FRM:messaging@iamresponding.com\nSUBJ:West Ridge Fire\nMSG:9E1 &gt;CARDIAC/RESP ARREST / DEATH 4411 FOREST GLEN DR XS: W 38TH ST MILLCREEK TWP\n
+FRM:messaging@iamresponding.com\nSUBJ:West Ridge Fire\nMSG:28C10G&gt;STROKE (CVA) BREATH NORM &gt; 35 3643 MEADOW DR XS: CAUGHEY RD MILLCREEK TWP\n
 
 */
 
 public class PAErieCountyAParser extends DispatchBParser {
   
   private static final Pattern MARKER = Pattern.compile("^ERIE911:\\w{3,} ?>");
-  private static final Pattern MARKER2 = Pattern.compile("^[0-9A-Z]+ >");
+  private static final Pattern MARKER2 = Pattern.compile("^[0-9A-Z]+ ?>");
  
   public PAErieCountyAParser() {
     super(PAErieCountyParser.CITY_LIST, "ERIE COUNTY", "PA");
