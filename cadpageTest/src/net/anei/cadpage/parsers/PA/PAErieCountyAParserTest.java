@@ -198,10 +198,18 @@ public class PAErieCountyAParserTest extends BaseParserTest {
         "ADDR:4411 FOREST GLEN DR",
         "CITY:MILLCREEK TWP",
         "X:W 38TH ST");
+
+    doTest("T20",
+        "FRM:messaging@iamresponding.com\nSUBJ:West Ridge Fire\nMSG:28C10G&gt;STROKE (CVA) BREATH NORM &gt; 35 3643 MEADOW DR XS: CAUGHEY RD MILLCREEK TWP\n",
+        "SRC:West Ridge Fire",
+        "CALL:STROKE (CVA) BREATH NORM >",
+        "ADDR:35 3643 MEADOW DR",
+        "CITY:MILLCREEK TWP",
+        "X:CAUGHEY RD");
  
   }
   
   public static void main(String[] args) {
-    new PAErieCountyAParserTest().generateTests("T19", "SRC CALL ADDR CITY X NAME MAP PLACE ID");
+    new PAErieCountyAParserTest().generateTests("T21", "SRC CALL ADDR CITY X NAME MAP PLACE ID");
   }
 }
