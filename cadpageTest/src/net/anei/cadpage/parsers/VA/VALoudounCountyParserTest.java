@@ -95,6 +95,16 @@ public class VALoudounCountyParserTest extends BaseParserTest {
         "X:GOOSE CREEK LEESB",
         "UNIT:W606 E601 M6221 BC601 SO600 ECO22 ACO22",
         "BOX:2212");
+
+    doTest("T9",
+        "1 of 2\nFRM:CC_Message_Notification@usamobility.net\nMSG:Call:CHIM-CHIMNEY FIRE,13396 BERLIN TPKE-LV Apt:,X-St:MILLTOWN CREEK RO,W612 ER602 TL602\n(Con't) 2 of 2\nK623 A6122 BC602 ECO12 ACO12,Box:1222 ,ADC:4922 G01 [14]\n\n-- \n[LC602](End)",
+        "CALL:CHIM-CHIMNEY FIRE",
+        "ADDR:13396 BERLIN TPKE",
+        "CITY:Lovettsville",
+        "X:MILLTOWN CREEK RO",
+        "UNIT:W612 ER602 TL602 K623 A6122 BC602 ECO12 ACO12",
+        "BOX:1222",
+        "MAP:4922 G01");
  }
   
   public static void main(String[] args) {
