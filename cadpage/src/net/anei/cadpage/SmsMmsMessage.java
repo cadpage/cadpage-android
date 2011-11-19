@@ -62,6 +62,10 @@ public class SmsMmsMessage implements Serializable {
   private String mmsMsgId = null;
   private String subject = null;
   
+  // Location code and sponsor C2DM messages
+  private String reqLocation = null;
+  private String sponsor = null;
+  
   private transient String parseAddress = null;
   private transient String parseSubject = null;
   private transient String parseMessageBody = null;
@@ -585,7 +589,14 @@ public class SmsMmsMessage implements Serializable {
     this.location = location;
     this.info = info;
   }
-
+  
+  public void setReqLocation(String reqLocation) {
+    this.reqLocation = reqLocation;
+  }
+  
+  public void setSponsor(String sponsor) {
+    this.sponsor = sponsor;
+  }
 
   public long getTimestamp() {
     return timestamp;
@@ -725,6 +736,14 @@ public class SmsMmsMessage implements Serializable {
     return msgCount;
   }
   
+  public String getReqLocation() {
+    return reqLocation;
+  }
+  
+  public String getSponsor() {
+    return sponsor;
+  }
+  
   public SmsMsgInfo getInfo() {
     
     // Some special logic if the previous location was General
@@ -743,12 +762,23 @@ public class SmsMmsMessage implements Serializable {
     }
     
     // If we don't have an info object, get a new one
-    // If we have a historical location code, use it
-    // Otherwise use the current configured location code.
-    // Again, location and info members are set as a side effect of a successful
-    // isPageMsg method call
     if (info == null) {
-      SmsMsgParser parser = ManageParsers.getInstance().getParser(location);
+      SmsMsgParser parser = null;
+      
+      // If we don't have a historical location code, but a location code was
+      // included in the message, use it to get a parser.  If the code happens
+      // to be invalid, just catch the exception and continue
+      if (location == null && reqLocation != null) {
+        try {
+          parser = ManageParsers.getInstance().getParser(reqLocation);
+        } catch (RuntimeException ex) {}
+      }
+      
+      // If we have a historical location code, use it
+      // Otherwise use the current configured location code.
+      // Again, location and info members are set as a side effect of a successful
+      // isPageMsg method call
+      if (parser == null) parser = ManageParsers.getInstance().getParser(location);
       if (! parser.isPageMsg(this)) {
         
         // It is almost impossible for the the parser call to fail for a
@@ -1014,6 +1044,12 @@ public class SmsMmsMessage implements Serializable {
     sb.append(contentLoc);
     sb.append("\nmmsMsgId:");
     sb.append(mmsMsgId);
+    
+    sb.append("\nC2DM Loc:");
+    sb.append(reqLocation);
+    
+    sb.append("\nSponsor:");
+    sb.append(sponsor);
     
     if (msgCount >= 0) {
       sb.append("\nMsgIndex:");
