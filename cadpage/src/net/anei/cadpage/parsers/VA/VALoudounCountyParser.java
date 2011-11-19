@@ -18,8 +18,9 @@ Call:20D01H-HEAT EXPOSURE,STONE SPRINGS BLVD-AL/MINERAL SPRINGS CIR-AL Apt:,X-St
 Contact: rebecca mckenna <emtco9516@gmail.com>
 bmckenna+caf_=5712385054=vtext.com@arcolavfd.org Call:31A01-FAINTED NOW AL,24801 PINEBROOK RD-CH Apt:110,X-St:TALL CEDARS PKWY ,A619 M6091 ACO19,Box:1921 ,ADC:5520 F01 [97]
 
-Contact: "Hector R. Rodriguez Jr." <hrrjr85@gmail.com>
-Sender: @avfrd.net
+Contact: Ffightertl2 <ffightertl2@yahoo.com>
+Sender: CC_Message_Notification@usamobility.net
+1 of 2\nFRM:CC_Message_Notification@usamobility.net\nMSG:Call:CHIM-CHIMNEY FIRE,13396 BERLIN TPKE-LV Apt:,X-St:MILLTOWN CREEK RO,W612 ER602 TL602\n(Con't) 2 of 2\nK623 A6122 BC602 ECO12 ACO12,Box:1222 ADC:4922 G01 [14]\n\n-- \n[LC602](End)
 
 ***/
 
@@ -74,8 +75,10 @@ public class VALoudounCountyParser extends SmsMsgParser {
     if (data.strCross == null) return false;
     data.strUnit = props.getProperty("Unit", "");
     data.strBox = props.getProperty("Box", "");
-    data.strMap = props.getProperty("ADC", "");
-    
+    String sMap = props.getProperty("ADC", "");
+    pt = sMap.indexOf('[');
+    if (pt >= 0) sMap = sMap.substring(0,pt).trim();
+    data.strMap = sMap;
     data.strCity = convertCodes(data.strCity, LCFRCityCodes);
     
     return true;
