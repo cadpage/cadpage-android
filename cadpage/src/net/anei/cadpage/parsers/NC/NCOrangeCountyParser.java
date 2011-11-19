@@ -26,6 +26,10 @@ Contact: Chris Tomlin <tomlin@smokealert.net>
 Sender: cadpage@orangeem.org
 (CAD Page for CFS 111611-425) TG: OPS 1\nINC: \nLOC: 1098 BURNING TREE DR\nAPT: \nBLDG:
 
+Contact:"Bradley T. Hinton" <brad.hinton@duke.edu>
+Sender: cadpage@orangeem.org
+(CAD Page for CFS 111911-222) TG: OPS 1\nINC: BREATHING\nLOC: 1508 JO MAC RD\nAPT: \nBLDG:
+
  */
 
 
@@ -35,7 +39,7 @@ public class NCOrangeCountyParser extends FieldProgramParser {
   
   public NCOrangeCountyParser() {
     super("ORANGE COUNTY", "NC",
-           "( TG:CH INC:SKIP LOC:ADDR! APT:APT BLDG:APT | CH CALL ADDR! Apt:APT Build:APT )");
+           "( TG:CH INC:CALL LOC:ADDR! APT:APT BLDG:APT | CH CALL ADDR! Apt:APT Build:APT )");
   }
   
   @Override

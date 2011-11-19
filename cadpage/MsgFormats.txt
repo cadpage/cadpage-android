@@ -3435,12 +3435,18 @@ Contact: Vincenzo <vgarcia1322@comcast.net>
 Sender: pdpaging@farmington-ct.org
 1100024685 MEDICAL CALL CHARLIE RESPONSE 00088  SCOTT SWAMP RD   UM1 XXFF AMR1 111117 15:13
 **********************************************************
+Unknown
+Contact: Ffightertl2 <ffightertl2@yahoo.com>
+Sender: CC_Message_Notification@usamobility.net
+Same as Loudoun County, VA ??
+Generic not working!!!!
+1 of 2\nFRM:CC_Message_Notification@usamobility.net\nMSG:Call:CHIM-CHIMNEY FIRE,13396 BERLIN TPKE-LV Apt:,X-St:MILLTOWN CREEK RO,W612 ER602 TL602\n(Con't) 2 of 2\nK623 A6122 BC602 ECO12 ACO12,Box:1222K'ADC:4922 G01 [14]\n\n-- \n[LC602](End)
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
 **********************************************************
 ************  READY TO ROLL ******************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
 **********************************************************
 **********************************************************
 Guilford county, NC (alternate)
