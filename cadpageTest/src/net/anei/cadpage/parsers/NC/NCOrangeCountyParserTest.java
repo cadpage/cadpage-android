@@ -72,6 +72,13 @@ public class NCOrangeCountyParserTest extends BaseParserTest {
         "ID:111611-425",
         "CH:OPS 1",
         "ADDR:1098 BURNING TREE DR");
+
+    doTest("T2",
+        "(CAD Page for CFS 111911-222) TG: OPS 1\nINC: BREATHING\nLOC: 1508 JO MAC RD\nAPT: \nBLDG:",
+        "ID:111911-222",
+        "CH:OPS 1",
+        "CALL:BREATHING",
+        "ADDR:1508 JO MAC RD");
     
   }
   
