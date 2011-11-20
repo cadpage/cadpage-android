@@ -1,5 +1,6 @@
 package net.anei.cadpage.parsers.dispatch;
 
+import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.SmsMsgInfo.Data;
@@ -58,7 +59,7 @@ public class DispatchGlobalDispatchParser extends FieldProgramParser {
   public DispatchGlobalDispatchParser(String[] cityList, String defCity, String defState,
                                        Pattern stationPtn, Pattern unitPtn) {
     super(cityList, defCity, defState,
-           "ADDR/SC! MapRegions:MAP Description:INFO CrossStreets:X Description:INFO Dispatch:SKIP");
+           "ADDR/SC! MapRegions:MAP Description:INFO CrossStreets:X Description:INFO Dispatch:DATETIME Dispatch:SKIP");
     this.stationPtn = stationPtn;
     this.unitPtn = unitPtn;
   }
@@ -125,9 +126,26 @@ public class DispatchGlobalDispatchParser extends FieldProgramParser {
     }
   }
   
+  private static final Pattern DATE_TIME_PTN = Pattern.compile("\\[(\\d\\d/\\d\\d/\\d{4}) (\\d\\d:\\d\\d:\\d\\d) \\d+\\]");
+  private class MyInfoField extends InfoField {
+    @Override
+    public void parse(String field, Data data) {
+      Matcher match = DATE_TIME_PTN.matcher(field);
+      if (match.find()) {
+        data.strDate = match.group(1);
+        data.strTime = match.group(2);
+        field = match.replaceAll(" / ").trim();
+        if (field.startsWith("/ ")) field = field.substring(2).trim(); 
+      }
+      field = field.replaceAll("\\s{2,}", " ");
+      super.parse(field, data);
+    }
+  }
+  
   
   @Override
   public Field getField(String name) {
+    if (name.equals("INFO")) return new MyInfoField();
     if (name.equals("ADDR")) return new MyAddressField();
     return super.getField(name);
   }
