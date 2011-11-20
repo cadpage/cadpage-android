@@ -125,6 +125,15 @@ public class NYChautauquaCountyParserTest extends BaseParserTest {
         "CITY:Ellery",
         "NAME:Philip Erickson",
         "INFO:live electric line across the road.");
+
+    doTest("T15",
+        "CHAUTAUQUA_COUNTY_SHERIFF (MSP CAD) 05:01 *EMS CALL ; 5325 RAMSEY RD ; C/T/V North Harmony ; BRUCE HARRIS ; 62/F  SEMI CONSCIOUS ; A441",
+        "CALL:EMS CALL",
+        "ADDR:5325 RAMSEY RD",
+        "CITY:North Harmony",
+        "NAME:BRUCE HARRIS",
+        "INFO:62/F  SEMI CONSCIOUS",
+        "UNIT:A441");
  }
   
   public static void main(String[] args) {

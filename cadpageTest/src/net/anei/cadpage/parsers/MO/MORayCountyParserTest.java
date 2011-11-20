@@ -12,6 +12,14 @@ public class MORayCountyParserTest extends BaseParserTest {
   }
   
   @Test
+  public void testBadStuff() {
+    doBadTest("107 N RAYMORE ST  WOOD HEIGHTS WHFD RCAD RCSO 800 M42 WHR1 678 Clear: 22:48:39 Available: 23:34:02");
+    doBadTest("15595 BLACKBERRY TRAIL  WHFD 800 LFD 802 LT1 LP1 WHP1 Dispatch: 5/24/2011 23:15:33 Enroute: 23:15:35 OnScene: 23:23:58");
+    doBadTest("15141 W COUNTY LINE RD  RAY COUNTY WHFD RCAD 671A 675A 800 M44 WHR1 Clear: 22:20:51 Available: 23:05:20");
+
+  }
+  
+  @Test
   public void testParser1() {
 
     doTest("T1",
@@ -58,7 +66,7 @@ public class MORayCountyParserTest extends BaseParserTest {
         "UNIT:M43 800",
         "CALL:ABDOMINAL PAIN",
         "ADDR:12595 ORRICK RD",
-        "INFO:28 YOLD FEMALE  CONS AND BREATH  SEVERE STOMACH PAIN LOWER ABDOMEN  LUPUS");
+        "INFO:28 YOLD FEMALE CONS AND BREATH SEVERE STOMACH PAIN LOWER ABDOMEN LUPUS");
   }
   
   @Test
@@ -129,7 +137,7 @@ public class MORayCountyParserTest extends BaseParserTest {
         "UNIT:WHP1 800 WHR1",
         "CALL:FIRE ALARM",
         "ADDR:34684 HIGHWAY 10",
-        "INFO:gen fire alarm. covers all zones  keyholder ron rouse 816-864-4434");
+        "INFO:gen fire alarm. covers all zones keyholder ron rouse 816-864-4434");
 
     doTest("T4",
         "672 671A RCAD WHFD MENTAL 10-96 15041 S BEACH FRONT DR  CRYSTAL LAKES Description: 16 yr old male\n6'1 205\nl CrossStreets: APACHE DR 0.07 mi E EAGLE",
@@ -158,10 +166,18 @@ public class MORayCountyParserTest extends BaseParserTest {
         "INFO:ADV THAT FIRE THEY WERE ON Y");
   }
   
-  public void testParser4() {
-    doBadTest("107 N RAYMORE ST  WOOD HEIGHTS WHFD RCAD RCSO 800 M42 WHR1 678 Clear: 22:48:39 Available: 23:34:02");
-    doBadTest("15595 BLACKBERRY TRAIL  WHFD 800 LFD 802 LT1 LP1 WHP1 Dispatch: 5/24/2011 23:15:33 Enroute: 23:15:35 OnScene: 23:23:58");
-    doBadTest("15141 W COUNTY LINE RD  RAY COUNTY WHFD RCAD 671A 675A 800 M44 WHR1 Clear: 22:20:51 Available: 23:05:20");
+  @Test
+  public void testParser5() {
+
+    doTest("T1",
+        "WHFD RCAD EMS 501 ARAPAHOE DR HOMESTEAD VILLAGE Description: [11/19/2011 02:56:14 0021] female help \n[11/19/2011 02:56:56 0021] calling back \n",
+        "SRC:WHFD RCAD",
+        "CALL:EMS",
+        "ADDR:501 ARAPAHOE DR",
+        "CITY:HOMESTEAD VILLAGE",
+        "INFO:female help / calling back",
+        "DATE:11/19/2011",
+        "TIME:02:56:14");
 
   }
 
