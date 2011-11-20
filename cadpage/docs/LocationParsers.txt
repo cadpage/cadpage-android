@@ -1,0 +1,26 @@
+How to write Cadpage Location parsers
+
+Start by checking the text pages and making a determination as to which base 
+parser you should use.
+
+Search MsgFormats for anything that looks like this location text pages.
+Pattern searches are your friend hear, learn how to use them.  If you find 
+something that matches that is already based on one of the Dispatch parsers, 
+you probably want to subclass this parser from the same base parser.
+
+If you find a pattern match that isn't already based on a Dispatch parser, you 
+should consider creating a new one that can be hold the common code needed to
+process both locations and subclassing both location parsers from it. 
+
+Otherwise, if the text pages consists of data fields separated by an obvious field 
+delimiter, use subclass FieldProgramParser
+
+Otherwise, if text pages contains fields that are separated by keywords with
+trailing colons, subclass FieldProgramParser
+
+Otherwise, if the text pages contain an address whose beginning and end cannot
+be identified without having to understand what an address looks like, subclass
+SmartAddressParser.
+
+Otherwise, subclass SmsMsgParser
+

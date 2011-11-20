@@ -117,7 +117,9 @@ public class ManageParsers {
     } else if (location.startsWith("General")) {
       pkg = "general";
     }
-    StringBuffer sb = new StringBuffer("net.anei.cadpage.parsers.");
+    StringBuffer sb = new StringBuffer();
+    sb.append(this.getClass().getPackage().getName());
+    sb.append(".parsers.");
     if (pkg != null) {
       sb.append(pkg);
       sb.append('.');

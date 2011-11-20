@@ -23,7 +23,7 @@ public class MagicWordEvent extends DonateQueryEvent {
   @Override
   public boolean isEnabled() {
     DonationManager.DonationStatus status = DonationManager.instance().status();
-    return status != DonationManager.DonationStatus.FREE &&
+    return status != DonationManager.DonationStatus.LIFE &&
             status != DonationManager.DonationStatus.PAID &&
             status != DonationManager.DonationStatus.AUTH_DEPT;
   }

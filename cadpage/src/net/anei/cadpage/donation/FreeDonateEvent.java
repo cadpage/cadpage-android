@@ -11,8 +11,7 @@ Thank your for you contributions.
 public class FreeDonateEvent extends DonateScreenEvent {
   
   public FreeDonateEvent() {
-    super(AlertStatus.GREEN, R.string.donate_free_title, R.string.donate_free_text,
-           PaypalDonateEvent.instance());
+    super(AlertStatus.GREEN, R.string.donate_free_title, R.string.donate_free_text);
   }
   
   @Override

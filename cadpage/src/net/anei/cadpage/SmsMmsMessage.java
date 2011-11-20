@@ -10,6 +10,7 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import net.anei.cadpage.donation.DonationManager;
 import net.anei.cadpage.parsers.SmsMsgParser;
 
 import android.app.Activity;
@@ -893,7 +894,13 @@ public class SmsMmsMessage implements Serializable {
     case R.id.delete_item:
       item.setEnabled(canDelete());
       break;
+    
+    // Email is disabled for the free version
+    case R.id.email_item:
+      item.setEnabled(! DonationManager.instance().isFreeVersion());
+      break;
     }
+   
   }
 
   /**

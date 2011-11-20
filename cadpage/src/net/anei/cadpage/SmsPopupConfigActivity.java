@@ -1,6 +1,7 @@
 package net.anei.cadpage;
 
 import net.anei.cadpage.donation.DeveloperToolsManager;
+import net.anei.cadpage.donation.DonationManager;
 import net.anei.cadpage.donation.MainDonateEvent;
 import net.anei.cadpage.parsers.SmsMsgParser;
 import net.anei.cadpage.preferences.DialogPreference;
@@ -199,6 +200,12 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
         EmailDeveloperActivity.sendGeneralEmail(SmsPopupConfigActivity.this);
         return true;
       }});
+    
+    // If free version, switch release notes text to free release notes text
+    if (DonationManager.instance().isFreeVersion()) {
+      DialogPreference dlg = (DialogPreference)findPreference(getString(R.string.pref_releasenotes_key));
+      dlg.setDialogMessage(R.string.free_release_text);
+    }
     // Add developer dialog preference if appropriate
     DeveloperToolsManager.instance().addPreference(this, getPreferenceScreen());
   }

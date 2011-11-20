@@ -6,6 +6,7 @@ import java.util.Date;
 
 import net.anei.cadpage.ManagePreferences;
 import net.anei.cadpage.R;
+import net.anei.cadpage.donation.UserAcctManager;
 import android.accounts.Account;
 import android.accounts.AccountManager;
 import android.accounts.OnAccountsUpdateListener;
@@ -178,7 +179,7 @@ public abstract class UserAcctManager {
   
   public static void setup(Context context) {
     try {
-      String className = "net.anei.cadpage.donation.UserAcctManager$RealUserAcctManager";
+      String className = UserAcctManager.class.getName() + "$RealUserAcctManager";
       instance = (UserAcctManager)Class.forName(className).newInstance();
       instance.setContext(context);
     } catch (Exception ex) {

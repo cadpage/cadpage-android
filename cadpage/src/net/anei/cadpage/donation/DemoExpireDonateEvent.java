@@ -16,6 +16,8 @@ public class DemoExpireDonateEvent extends DonateScreenEvent {
            Android16DonateEvent.instance(),
            NoUserDonateEvent.instance(), 
            WrongUserDonateEvent.instance());
+           // DonateExtraDayEvent.instance(),
+           // ClearDataConfirmEvent.instance());
   }
 
   @Override

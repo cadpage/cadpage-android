@@ -21,7 +21,7 @@ public class DonationManager {
   // How long a release exemption lasts
   public static final int REL_EXEMPT_DAYS = 10;
   
-  public enum DonationStatus {FREE, AUTH_DEPT, PAID, PAID_WARN, PAID_EXPIRE, 
+  public enum DonationStatus {FREE, LIFE, AUTH_DEPT, PAID, PAID_WARN, PAID_EXPIRE, 
                                DEMO, DEMO_EXPIRE, EXEMPT};
   
   // Cached calculated values are only valid until this time
@@ -91,7 +91,8 @@ public class DonationManager {
       daysTillExpire = curJDate.diffDays(new JulianDate(expireDate));
     }
     
-    if (ManagePreferences.freeRider()) status = DonationStatus.FREE;
+    if (this.getClass().getName().contains(".cadpagefree")) status = DonationStatus.FREE;
+    else if (ManagePreferences.freeRider()) status = DonationStatus.LIFE;
     else if (ManagePreferences.authLocation().equals(ManagePreferences.location())) {
       status = DonationStatus.AUTH_DEPT;
     } else if (expireDate != null) {
@@ -105,7 +106,7 @@ public class DonationManager {
     }
     
     // If they don't have a clear green status, check for a special release exemption
-    if (status != DonationStatus.FREE && status != DonationStatus.PAID) {
+    if (status != DonationStatus.LIFE && status != DonationStatus.PAID) {
       
       // This only returns a exempt date if it is still is valid for the current release
       // And it is only valid for period of time after the release was shipped
@@ -146,6 +147,13 @@ public class DonationManager {
   public DonationStatus status() {
     calculate();
     return status;
+  }
+  
+  /**
+   * @return true if this is the free (unsupported) version of Cadpage
+   */
+  public boolean isFreeVersion() {
+    return status() == DonationStatus.FREE;
   }
 
 

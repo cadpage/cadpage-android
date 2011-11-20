@@ -45,6 +45,7 @@ public class CadPageApplication extends Application {
   
     TopExceptionHandler.enable(this);
     Log.v("Initialization complete");
+    
   }
   
   
@@ -76,5 +77,4 @@ public class CadPageApplication extends Application {
   public static boolean isBetaRelease() {
     return versionCode % 10 > 0;
   }
-
 }

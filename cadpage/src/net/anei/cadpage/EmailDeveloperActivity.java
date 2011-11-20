@@ -1,5 +1,6 @@
 package net.anei.cadpage;
 
+import net.anei.cadpage.donation.DonationManager;
 import net.anei.cadpage.donation.UserAcctManager;
 import android.app.Activity;
 import android.app.AlarmManager;
@@ -171,7 +172,11 @@ public class EmailDeveloperActivity extends Activity {
    * @param context current context
    */
   public static void sendGeneralEmail(Context context) {
-    sendDeveloperEmail(context, EmailType.GENERAL, 0);
+    if (DonationManager.instance().isFreeVersion()) {
+      sendEmailRequest(context, EmailType.GENERAL, false, 0, false);
+    } else {
+      sendDeveloperEmail(context, EmailType.GENERAL, 0);
+    }
   }
   
   /**

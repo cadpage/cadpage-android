@@ -463,6 +463,7 @@
       android:summary="@string/pref_about_summary" 
       android:dialogTitle="@string/app_name"/>
     <net.anei.cadpage.preferences.DialogPreference
+      android:key="@string/pref_releasenotes_key"
       android:negativeButtonText="@null" 
       android:title="@string/pref_releasenotes_title" 
       android:summary="@string/pref_releasenotes_summary" 

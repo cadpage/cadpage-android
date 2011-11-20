@@ -1,6 +1,7 @@
 package net.anei.cadpage;
 
 import net.anei.cadpage.billing.BillingManager;
+import net.anei.cadpage.donation.DonationManager;
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.app.ListActivity;
@@ -114,10 +115,11 @@ public class CallHistoryActivity extends ListActivity {
     switch (id) {
 
       case RELEASE_DIALOG:
+        int releaseId = (DonationManager.instance().isFreeVersion() ? R.string.free_release_text : R.string.release_text);
         return new AlertDialog.Builder(this)
         .setIcon(R.drawable.ic_launcher)
         .setTitle(R.string.release_title)
-        .setMessage(R.string.release_text)
+        .setMessage(releaseId)
         .setPositiveButton(android.R.string.ok, null)
         .create();
     }
