@@ -53,10 +53,17 @@ public class ILRoscoeParserTest extends BaseParserTest {
         "SRC:HRFD",
         "ADDR:4694 indigo place",
         "CALL:c/o alarm no");
+
+    doTest("T2",
+        "S:HRFD: Fire:380 Morning Cloak  #4 M: DRyer Fire\n",
+        "SRC:HRFD",
+        "ADDR:380 Morning Cloak",
+        "APT:4",
+        "CALL:DRyer Fire");
     
   }
   
   public static void main(String[] args) {
-    new ILRoscoeParserTest().generateTests("T1", "SRC ADDR CALL");
+    new ILRoscoeParserTest().generateTests("T1", "SRC ADDR APT CALL");
   }
 }
