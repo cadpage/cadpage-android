@@ -83,9 +83,17 @@ public class MDAnneArundelCountyFireParserTest extends BaseParserTest {
         "ADDR:11338 CHERRY HILL RD",
         "INFO:CMD HAS WORKING FIRE IN AN APT BUILDING");
 
+    doTest("T3",
+        "24-05 ACCOKEEK | PRINCE GEORGES | WSF | 16211 ACCOLAWN RD | RV FIRE NEXT TO THE HOUSE.  FIRE SPREADING TO HOUSE. | MD235 |",
+        "CITY:ACCOKEEK",
+        "UNIT:24-05",
+        "CALL:WSF",
+        "ADDR:16211 ACCOLAWN RD",
+        "INFO:RV FIRE NEXT TO THE HOUSE.  FIRE SPREADING TO HOUSE.");
+
   }
   
   public static void main(String[] args) {
-    new MDAnneArundelCountyFireParserTest().generateTests("T7");
+    new MDAnneArundelCountyFireParserTest().generateTests("T3");
   }
 }
