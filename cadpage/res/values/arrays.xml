@@ -189,6 +189,7 @@
     <item>COPuebloRFD</item>
     <item>VAWightCounty</item>
     <item>COGreeley</item>
+    <item>CTNorthBranford</item>   <!-- 11/20/2011 -->
   </string-array>
   <string-array name="new_location_values">
     <item>NCChathamCounty</item>
@@ -199,6 +200,7 @@
     <item>COPuebloCounty</item>
     <item>VAIsleOfWightCounty</item>
     <item>COWeldCounty</item>
+    <item>CTNewHavenCounty</item>
   </string-array>
   
   <!-- Array of state names -->
@@ -271,7 +273,6 @@
     <item>COWeldCounty</item>
     <item>CTLitchfieldCounty</item>
     <item>CTNewHavenCounty</item>
-    <item>CTNorthBranford</item>
     <item>CTRoxbury</item>
     <item>CTTollandCounty</item>
     <item>CTTrumbull</item>
@@ -588,7 +589,6 @@
     <item>Weld County, CO</item>
     <item>Litchfield County, CT</item>
     <item>New Haven County, CT</item>
-    <item>North Branford, CT</item>
     <item>Roxbury, CT</item>
     <item>Tolland County, CT</item>
     <item>Trumbull, CT</item>

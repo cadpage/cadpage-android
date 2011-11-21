@@ -8,7 +8,7 @@ import net.anei.cadpage.SmsMsgInfo.Data;
 import net.anei.cadpage.parsers.SmartAddressParser;
 
 /*
-North Branford & Northford, CT (in New Haven County)
+New Haven County, CT (North Branford & Northford)
 Contact: Jeff Green <greenjeffreya@gmail.com>
 Sender: paging@mail.nbpolicect.org.
 
@@ -27,25 +27,30 @@ Contact: Chris crotty <nbfd819@gmail.com>
 Sender: paging@nbpolicect.org
 1100010113 MEDICAL MEDC 00254  BRANFORD RD Prem Map -  HARRISON RD/FOXON RD  MED4 R1 111116 23:04\n
 
+Contact: "nemo48@sbcglobal.net" <nemo48@sbcglobal.net>
+Sender: paging@easthavenfire.com
+1100005182 ALPHA MEDICAL 00055 THOMPSON ST  Prem Map -14 PP 65 FOXON RD/GAY ST  (Prem Map -14 PP 65)\4sS5 111120 15:40
+
 */
 
-public class CTNorthBranfordParser extends SmartAddressParser {
+public class CTNewHavenCountyBParser extends SmartAddressParser {
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
     "WLFD", "WALLINFORD"
   });
   
-  private static final Pattern MASTER = Pattern.compile("(\\d{10}) +(.*?) *\\d{6} \\d\\d:\\d\\d");
-  private static final Pattern UNIT_PTN = Pattern.compile("(?: +(?:\\d{3}|(?:MED|R|T|E|ET|BR|A)\\d{1,2}))+$");
+  private static final Pattern MASTER = Pattern.compile("(\\d{10}) +(.*?) *\\d{6} (\\d\\d:\\d\\d)");
+  private static final Pattern UNIT_PTN = Pattern.compile("(?: +(?:\\d{3}|(?:MED|R|T|E|ET|BR|A|S)\\d{1,2}))+$");
+  private static final Pattern MAP_PTN = Pattern.compile("^\\d\\d [A-Z]{2} \\d\\d\\b");
   private static final Pattern LEAD_ZERO_PTN = Pattern.compile("^0+(?=\\d)");
   
-  public CTNorthBranfordParser() {
+  public CTNewHavenCountyBParser() {
     super(CITY_CODES, "NORTH BRANFORD", "CT");
   }
   
   @Override
   public String getFilter() {
-    return "paging@mail.nbpolicect.org,paging@nbpolicect.org";
+    return "paging@mail.nbpolicect.org,paging@nbpolicect.org,paging@easthavenfire.com";
   }
   
   @Override
@@ -54,6 +59,7 @@ public class CTNorthBranfordParser extends SmartAddressParser {
     if (!match.matches()) return false;
     data.strCallId = match.group(1);
     body = match.group(2);
+    data.strTime = match.group(3);
     
     match = UNIT_PTN.matcher(body);
     if (match.find()) {
@@ -61,23 +67,32 @@ public class CTNorthBranfordParser extends SmartAddressParser {
       body = body.substring(0, match.start());
     }
     
+    String sExtra;
     int pt = body.indexOf(',');
     if (pt >= 0) {
-      String sExtra = body.substring(pt+1).trim();
+      sExtra = body.substring(pt+1).trim();
       body = body.substring(0,pt).trim();
       Parser p = new Parser(sExtra);
       data.strCity = p.get(' ');
-      data.strCross = p.get();
+      sExtra = p.get();
       parseAddress(StartType.START_CALL, FLAG_ANCHOR_END | FLAG_START_FLD_REQ, body, data);
     }
     
     else {
       parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ, body, data);
-      data.strCross = getLeft();
+      sExtra = getLeft();
     }
-    if (data.strCross.startsWith("Prem Map - ")) {
-      data.strCross = data.strCross.substring(11).trim();
+    if (sExtra.startsWith("Prem Map -")) {
+      sExtra = sExtra.substring(10).trim();
+      match = MAP_PTN.matcher(sExtra);
+      if (match.find()) {
+        data.strMap = match.group();
+        sExtra = sExtra.substring(match.end()).trim();
+        pt = sExtra.indexOf('(');
+        if (pt >= 0) sExtra = sExtra.substring(0,pt).trim();
+      }
     }
+    data.strCross = sExtra;
     
     match = LEAD_ZERO_PTN.matcher(data.strAddress);
     if (match.find()) {
