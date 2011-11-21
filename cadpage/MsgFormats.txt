@@ -706,7 +706,7 @@ MARINE INCIDENT, - SEARCH at BLOCK ISLAND RD BRANFORD, GUILFORD . . 14:27:56
 CODE 5,- AUTOMATIC FIRE ALARM at 275 LAKE DRIVE GUILFORD 15:57
 CODE 1,- AUTOMATIC FIRE ALARM at 35 STATE STREET, GUILFORD 17:15 cross street 1-begins at broad st;115-Boston Post Road;180-North Street
 ***************************************************************************
-New Haven County CT (CTNewHavenCOuntyBParser)
+New Haven County CT (CTNewHavenCountyBParser)
 1100008173 MEDICAL MEDA 00167  BRANFORD RD HUBBARD RD/TWIN LAKE RD  MED4 503 110910 11:50
 1100008148 MEDICAL MEDD 00009  SALEM ST CLINTONVILLE RD/VILLAGE ST  MED4 R2 110909 17:55
 1100008142 MUTUAL AID 00392  HOPE HILL RD WALLINGFORD    MED4 110909 15:38
@@ -2995,7 +2995,7 @@ HIGH MECH MVA
 Map=397,RD=22- 135
 to: F22
 **********************************************************
-Unknown
+Berkley County, WV
 Contact: Keith Baker <keithbakerwv@gmail.com>
 Sender: alert@berkeleywv.org
 Subject:Alert\nDescription:FUEL CON SM\nAddress: 14000 I-81 \nMARTINSBURG\n\n
