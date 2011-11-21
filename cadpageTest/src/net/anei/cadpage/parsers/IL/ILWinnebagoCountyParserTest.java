@@ -5,10 +5,10 @@ import net.anei.cadpage.parsers.BaseParserTest;
 import org.junit.Test;
 
 
-public class ILRoscoeParserTest extends BaseParserTest {
+public class ILWinnebagoCountyParserTest extends BaseParserTest {
   
-  public ILRoscoeParserTest() {
-    setParser(new ILRoscoeParser(), "ROSCOE", "IL");
+  public ILWinnebagoCountyParserTest() {
+    setParser(new ILWinnebagoCountyParser(), "WINNEBAGO COUNTY", "IL");
   }
   
   @Test
@@ -76,6 +76,6 @@ public class ILRoscoeParserTest extends BaseParserTest {
   }
   
   public static void main(String[] args) {
-    new ILRoscoeParserTest().generateTests("T3", "SRC ADDR APT CALL");
+    new ILWinnebagoCountyParserTest().generateTests("T3", "SRC ADDR APT CALL");
   }
 }
