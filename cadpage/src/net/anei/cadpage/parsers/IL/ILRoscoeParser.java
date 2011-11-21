@@ -1,5 +1,8 @@
 package net.anei.cadpage.parsers.IL;
 
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 import net.anei.cadpage.SmsMsgInfo.Data;
 import net.anei.cadpage.parsers.SmsMsgParser;
 
@@ -18,10 +21,13 @@ Sender: hrfdfiresvcrunnotification@gmail.com
 Contact: Thomas Aaker <hrfdtaaker@gmail.com>
 Sender: hrfdfiresvcrunnotification@gmail.com
 S:HRFD: Med:4694 indigo place M: c/o alarm no \n
+S:HRFD: Fire:380 Morning Cloak  #4 M: DRyer Fire\n
 
 */
 
 public class ILRoscoeParser extends SmsMsgParser {
+  
+  private static Pattern MARKER = Pattern.compile(": (?:Med|Fire):");
   
   public ILRoscoeParser() {
     super("ROSCOE", "IL");
@@ -34,10 +40,10 @@ public class ILRoscoeParser extends SmsMsgParser {
   
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
-    int pt = subject.indexOf(": Med:");
-    if (pt < 0) return false;
-    data.strSource = subject.substring(0, pt).trim();
-    parseAddress(subject.substring(pt+6).trim(), data);
+    Matcher match = MARKER.matcher(subject);
+    if (!match.find()) return false;
+    data.strSource = subject.substring(0, match.start()).trim();
+    parseAddress(subject.substring(match.end()).trim(), data);
     data.strCall = body;
     return true;
   }
