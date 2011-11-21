@@ -7,7 +7,7 @@ import net.anei.cadpage.SmsMsgInfo.Data;
 import net.anei.cadpage.parsers.SmsMsgParser;
 
 /*
-Roscoe, IL
+Winnebago County, IL (was Roscoe)
 Contact: Ron Klaman <hrfdrklaman@gmail.com>
 Sender: hrfdfiresvcrunnotification@gmail.com
 S:HRFD: Med: 687 Marion Rd M: 56 f deleious\n\n
@@ -27,12 +27,12 @@ S:HRFD: Med:629 ALTHEA M: RES. C.O. ALARM\n
 
 */
 
-public class ILRoscoeParser extends SmsMsgParser {
+public class ILWinnebagoCountyParser extends SmsMsgParser {
   
   private static Pattern MARKER = Pattern.compile(": (?:Med|Fire):");
   
-  public ILRoscoeParser() {
-    super("ROSCOE", "IL");
+  public ILWinnebagoCountyParser() {
+    super("WINNEBAGO COUNTY", "IL");
   }
   
   @Override
