@@ -22,6 +22,7 @@ Sender: alerts@alertpage.ealertgov.com
 DAVIDSONVILLE | ANNE ARUNDEL | *O/T AUTO* | BRICK CHURCH RD NEAR RT 214 | MEDIC 3 O/L SUV ON IT'S SIDE ON A GUARDRAIL.  OCC OUT,
 CALVERTON CO.41 | PRINCE GEORGES | *2ND ALM* | 11338 CHERRY HILL RD | CHIEF 812 REPORTS A WORKING KITCHEN FIRE WITH RESCUES BEIN 
 BELTSVILLE 4101 | PRINCE GEORGES | *WSF* | 11338 CHERRY HILL RD | CMD HAS WORKING FIRE IN AN APT BUILDING | TG9 | MD227 AP16 | 
+24-05 ACCOKEEK | PRINCE GEORGES | WSF | 16211 ACCOLAWN RD | RV FIRE NEXT TO THE HOUSE.  FIRE SPREADING TO HOUSE. | MD235 |
 
 */
 
@@ -49,16 +50,26 @@ public class MDAnneArundelCountyFireParser extends FieldProgramParser {
     return parseFields(flds, data);
   }
   
-  private static final Pattern UNIT_PTN = Pattern.compile(" +([^ ]+\\d+)$");
+  private static final Pattern UNIT1_PTN = Pattern.compile(" +([^ ]+\\d+)$");
+  private static final Pattern UNIT2_PTN = Pattern.compile("^([^ ]+\\d+) +");
   private static final Pattern BOX_PTN = Pattern.compile("\\d+");
   private class MyCityField extends CityField {
     
     @Override
     public void parse(String field, Data data) {
-      Matcher match = UNIT_PTN.matcher(field);
+      String sUnit = null;
+      Matcher match = UNIT1_PTN.matcher(field);
       if (match.find()) {
-        String sUnit = match.group(1).trim();
+        sUnit = match.group(1).trim();
         field = field.substring(0,match.start()).trim();
+      } else {
+        match = UNIT2_PTN.matcher(field);
+        if (match.find()) {
+          sUnit = match.group(1);
+          field = field.substring(match.end()).trim();
+        }
+      }
+      if (sUnit != null) {
         if (BOX_PTN.matcher(sUnit).matches()) {
           data.strBox = sUnit;
         } else {
