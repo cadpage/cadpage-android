@@ -1134,6 +1134,17 @@ public class FieldProgramParser extends SmartAddressParser {
     private String[] fieldList;
     private int index;
     
+    // default constructor
+    public Field() {}
+    
+    public Field(String pattern) {
+      setPattern(pattern);
+    }
+    
+    public Field(String pattern, boolean hardPattern) {
+      setPattern(pattern, hardPattern);
+    }
+    
     public void setTrigger(char trigger) {
       this.trigger = trigger;
     }
@@ -1286,6 +1297,14 @@ public class FieldProgramParser extends SmartAddressParser {
    * Call field processor
    */
   public class CallField extends Field {
+    
+    public CallField() {};
+    public CallField(String pattern) {
+      super(pattern);
+    }
+    public CallField(String pattern, boolean hardPattern) {
+      super(pattern, hardPattern);
+    }
 
     @Override
     public void parse(String field, Data data) {
@@ -1297,6 +1316,14 @@ public class FieldProgramParser extends SmartAddressParser {
    * Place field processor
    */
   public class PlaceField extends Field {
+    
+    public PlaceField() {};
+    public PlaceField(String pattern) {
+      super(pattern);
+    }
+    public PlaceField(String pattern, boolean hardPattern) {
+      super(pattern, hardPattern);
+    }
     
     @Override
     public void parse(String field, Data data) {
@@ -1512,6 +1539,14 @@ public class FieldProgramParser extends SmartAddressParser {
    * Apartment field processor
    */
   public class AptField extends Field {
+    
+    public AptField() {};
+    public AptField(String pattern) {
+      super(pattern);
+    }
+    public AptField(String pattern, boolean hardPattern) {
+      super(pattern, hardPattern);
+    }
 
     @Override
     public void parse(String field, Data data) {
@@ -1559,6 +1594,14 @@ public class FieldProgramParser extends SmartAddressParser {
    */
   public class BoxField extends Field {
     
+    public BoxField() {};
+    public BoxField(String pattern) {
+      super(pattern);
+    }
+    public BoxField(String pattern, boolean hardPattern) {
+      super(pattern, hardPattern);
+    }
+   
     @Override
     public void parse(String field, Data data) {
       data.strBox = field;
@@ -1569,6 +1612,14 @@ public class FieldProgramParser extends SmartAddressParser {
    * Unit field processor
    */
   public class UnitField extends Field {
+    
+    public UnitField() {};
+    public UnitField(String pattern) {
+      super(pattern);
+    }
+    public UnitField(String pattern, boolean hardPattern) {
+      super(pattern, hardPattern);
+    }
 
     @Override
     public void parse(String field, Data data) {
@@ -1580,6 +1631,14 @@ public class FieldProgramParser extends SmartAddressParser {
    * State field processor
    */
   public class StateField extends Field {
+    
+    public StateField() {};
+    public StateField(String pattern) {
+      super(pattern);
+    }
+    public StateField(String pattern, boolean hardPattern) {
+      super(pattern, hardPattern);
+    }
 
     @Override
     public void parse(String field, Data data) {
@@ -1591,6 +1650,14 @@ public class FieldProgramParser extends SmartAddressParser {
    * Map field processor
    */
   public class MapField extends Field {
+    
+    public MapField() {};
+    public MapField(String pattern) {
+      super(pattern);
+    }
+    public MapField(String pattern, boolean hardPattern) {
+      super(pattern, hardPattern);
+    }
 
     @Override
     public void parse(String field, Data data) {
@@ -1607,6 +1674,14 @@ public class FieldProgramParser extends SmartAddressParser {
     public IdField() {
       setPattern(NORMAL_ID_PAT);
     }
+    
+    public IdField(String pattern) {
+      super(pattern);
+    }
+    
+    public IdField(String pattern, boolean hardPattern) {
+      super(pattern, hardPattern);
+    }
 
     @Override
     public void parse(String field, Data data) {
@@ -1621,6 +1696,14 @@ public class FieldProgramParser extends SmartAddressParser {
     
     public PhoneField() {
       setPattern(Pattern.compile("\\d{10}|\\d{3}-\\d{3}-\\d{4}"));
+    }
+    
+    public PhoneField(String pattern) {
+      super(pattern);
+    }
+    
+    public PhoneField(String pattern, boolean hardPattern) {
+      super(pattern, hardPattern);
     }
     
     @Override
@@ -1660,6 +1743,14 @@ public class FieldProgramParser extends SmartAddressParser {
    * Source field processor
    */
   public class SourceField extends Field {
+    
+    public SourceField() {};
+    public SourceField(String pattern) {
+      super(pattern);
+    }
+    public SourceField(String pattern, boolean hardPattern) {
+      super(pattern, hardPattern);
+    }
 
     @Override
     public void parse(String field, Data data) {
@@ -1671,6 +1762,14 @@ public class FieldProgramParser extends SmartAddressParser {
    * Code field processor
    */
   public class CodeField extends Field {
+    
+    public CodeField() {};
+    public CodeField(String pattern) {
+      super(pattern);
+    }
+    public CodeField(String pattern, boolean hardPattern) {
+      super(pattern, hardPattern);
+    }
 
     @Override
     public void parse(String field, Data data) {
@@ -1682,6 +1781,14 @@ public class FieldProgramParser extends SmartAddressParser {
    * Name field processor
    */
   public class NameField extends Field {
+    
+    public NameField() {};
+    public NameField(String pattern) {
+      super(pattern);
+    }
+    public NameField(String pattern, boolean hardPattern) {
+      super(pattern, hardPattern);
+    }
 
     @Override
     public void parse(String field, Data data) {
@@ -1693,6 +1800,14 @@ public class FieldProgramParser extends SmartAddressParser {
    * Priority field processor
    */
   public class PriorityField extends Field {
+    
+    public PriorityField() {};
+    public PriorityField(String pattern) {
+      super(pattern);
+    }
+    public PriorityField(String pattern, boolean hardPattern) {
+      super(pattern, hardPattern);
+    }
 
     @Override
     public void parse(String field, Data data) {
@@ -1704,6 +1819,14 @@ public class FieldProgramParser extends SmartAddressParser {
    * Channel field processor
    */
   public class ChannelField extends Field {
+    
+    public ChannelField() {};
+    public ChannelField(String pattern) {
+      super(pattern);
+    }
+    public ChannelField(String pattern, boolean hardPattern) {
+      super(pattern, hardPattern);
+    }
 
     @Override
     public void parse(String field, Data data) {
@@ -1715,6 +1838,14 @@ public class FieldProgramParser extends SmartAddressParser {
    * GPS field processor
    */
   public class GPSField extends Field {
+    
+    public GPSField() {};
+    public GPSField(String pattern) {
+      super(pattern);
+    }
+    public GPSField(String pattern, boolean hardPattern) {
+      super(pattern, hardPattern);
+    }
 
     @Override
     public void parse(String field, Data data) {
@@ -1726,6 +1857,14 @@ public class FieldProgramParser extends SmartAddressParser {
    * Date field processor
    */
   public class DateField extends Field {
+    
+    public DateField() {};
+    public DateField(String pattern) {
+      super(pattern);
+    }
+    public DateField(String pattern, boolean hardPattern) {
+      super(pattern, hardPattern);
+    }
 
     @Override
     public void parse(String field, Data data) {
@@ -1737,6 +1876,14 @@ public class FieldProgramParser extends SmartAddressParser {
    * Time field processor
    */
   public class TimeField extends Field {
+    
+    public TimeField() {};
+    public TimeField(String pattern) {
+      super(pattern);
+    }
+    public TimeField(String pattern, boolean hardPattern) {
+      super(pattern, hardPattern);
+    }
 
     @Override
     public void parse(String field, Data data) {
@@ -1748,6 +1895,14 @@ public class FieldProgramParser extends SmartAddressParser {
    * Date/Time field processor
    */
   public class DateTimeField extends Field {
+    
+    public DateTimeField () {};
+    public DateTimeField (String pattern) {
+      super(pattern);
+    }
+    public DateTimeField (String pattern, boolean hardPattern) {
+      super(pattern, hardPattern);
+    }
 
     @Override
     public void parse(String field, Data data) {
@@ -1767,6 +1922,14 @@ public class FieldProgramParser extends SmartAddressParser {
    * Time/Date field processor
    */
   public class TimeDateField extends Field {
+    
+    public TimeDateField() {};
+    public TimeDateField(String pattern) {
+      super(pattern);
+    }
+    public TimeDateField(String pattern, boolean hardPattern) {
+      super(pattern, hardPattern);
+    }
 
     @Override
     public void parse(String field, Data data) {
@@ -1786,6 +1949,14 @@ public class FieldProgramParser extends SmartAddressParser {
    * Skip field processor
    */
   public class SkipField extends Field {
+    
+    public SkipField() {};
+    public SkipField(String pattern) {
+      super(pattern);
+    }
+    public SkipField(String pattern, boolean hardPattern) {
+      super(pattern, hardPattern);
+    }
 
     @Override
     public void parse(String field, Data data) {
