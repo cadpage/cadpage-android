@@ -79,7 +79,14 @@ public class NCOrangeCountyParserTest extends BaseParserTest {
         "CH:OPS 1",
         "CALL:BREATHING",
         "ADDR:1508 JO MAC RD");
-    
+
+    doTest("T3",
+        "Subject:CAD Page for CFS 112211-111\nTG: OPS \nINC: Auto Fire Alarm\nLOC: 511 HIGHGROVE DR\nAPT: \nBLDG: \n",
+        "ID:112211-111",
+        "CH:OPS",
+        "CALL:Auto Fire Alarm",
+        "ADDR:511 HIGHGROVE DR");
+   
   }
   
 

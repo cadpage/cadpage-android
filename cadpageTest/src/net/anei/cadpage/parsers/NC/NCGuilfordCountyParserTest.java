@@ -278,11 +278,84 @@ public class NCGuilfordCountyParserTest extends BaseParserTest {
         "INFO:SMFD / ST09 / 1",
         "CALL:STROKE",
         "X:AYERS LN");
+  }
+  
+  @Test
+  public void testFireDistrict13() {
 
+    doTest("T1",
+        "Subject:[Firedistrict13] (no subject)\nCAD:UNDER CONTROL;616 SIMPSON-CALHOUN RD; G ;TAC 10\n\n_____________________________________",
+        "SRC:Firedistrict13",
+        "ADDR:616 SIMPSON-CALHOUN RD",
+        "INFO:G / TAC 10",
+        "CALL:UNDER CONTROL");
+
+    doTest("T2",
+        "Subject:[Firedistrict13] (no subject)\nCAD:FD13;ST55;1;29D02p;50PI;US 29 N/HICONE RD;29 NB NORTH OF HICONE\n\n_____________________",
+        "SRC:Firedistrict13",
+        "ADDR:US 29 N & HICONE RD",
+        "INFO:FD13 / ST55 / 1 / 29 NB NORTH OF HICONE",
+        "CODE:29D02p",
+        "CALL:50PI");
+
+    doTest("T3",
+        "Subject:[Firedistrict13] (no subject)\nCAD:FD13;ST58;1;26B01;SICK;7830 SUTTER RD;NC 150 W\n\n______________________________________",
+        "SRC:Firedistrict13",
+        "ADDR:7830 SUTTER RD",
+        "INFO:FD13 / ST58 / 1",
+        "CODE:26B01",
+        "CALL:SICK",
+        "X:NC 150 W");
+
+    doTest("T4",
+        "Subject:[Firedistrict13] (no subject)\nCAD:FD13;ST55;1;03D00;ANBITE;2706 BRAME RD;WHITE ELDER RD;DIST: 245.80 FT\n\n_______________",
+        "SRC:Firedistrict13",
+        "ADDR:2706 BRAME RD",
+        "INFO:FD13 / ST55 / 1 / DIST: 245.80 FT",
+        "CODE:03D00",
+        "CALL:ANBITE",
+        "X:WHITE ELDER RD");
+
+    doTest("T5",
+        "Subject:[Firedistrict13] (no subject)\nCAD:UNDER CONTROL;2706 BRAME RD; G ;DIST: 245.80 FT\n\n_____________________________________",
+        "SRC:Firedistrict13",
+        "ADDR:2706 BRAME RD",
+        "INFO:G / DIST: 245.80 FT",
+        "CALL:UNDER CONTROL");
+
+    doTest("T6",
+        "Subject:[Firedistrict13] (no subject)\nCAD:FD13;ST55;1;29D02p;50PI;US 29 N/HICONE RD;29 NB NORTH OF HICONE\n\n_____________________",
+        "SRC:Firedistrict13",
+        "ADDR:US 29 N & HICONE RD",
+        "INFO:FD13 / ST55 / 1 / 29 NB NORTH OF HICONE",
+        "CODE:29D02p",
+        "CALL:50PI");
+
+    doTest("T7",
+        "Subject:[Firedistrict13] (no subject)\nCAD:FD13;ST13;1;FIRAL;5207 OLD MINE RD\n\n_______________________________________________\nF",
+        "SRC:Firedistrict13",
+        "ADDR:5207 OLD MINE RD",
+        "INFO:FD13 / ST13 / 1",
+        "CALL:FIRAL");
+
+    doTest("T8",
+        "Subject:[Firedistrict13] (no subject)\nCAD:NEFD;ST32;1;EXPLO;6303 THREE LOY RD\n\n_______________________________________________\n",
+        "SRC:Firedistrict13",
+        "ADDR:6303 THREE LOY RD",
+        "INFO:NEFD / ST32 / 1",
+        "CALL:EXPLO");
+
+    doTest("T9",
+        "Subject:[Firedistrict13] (no subject)\nCAD:FD13;ST55;1;FIRAL;4006 STARLING CT\n\n_______________________________________________\nF",
+        "SRC:Firedistrict13",
+        "ADDR:4006 STARLING CT",
+        "INFO:FD13 / ST55 / 1",
+        "CALL:FIRAL");
+    
   }
   
 
   public static void main(String[] args) {
-    new NCGuilfordCountyParserTest().generateTests("T34");
+    new NCGuilfordCountyParserTest().generateTests("T1");
   }
 }

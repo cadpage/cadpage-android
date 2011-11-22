@@ -120,9 +120,20 @@ public class MDHarfordParserTest extends BaseParserTest {
         "X:SRT161",
         "CITY:HAVRE DE GRACE",
         "ID:143258");
+
+    doTest("T11",
+        "(HCCAD) [!] EOC:E04 ABDOM >ABDOMINAL PAIN 4964 BRISTLE CONE CIR XS: HOLLY OAK CIR - SOUTH ABERDEEN ROGERS,WILLIAM BOX: 417 Cad:209431",
+        "UNIT:E04",
+        "CALL:ABDOMINAL PAIN",
+        "ADDR:4964 BRISTLE CONE CIR",
+        "X:HOLLY OAK CIR - SOUTH",
+        "CITY:ABERDEEN",
+        "NAME:ROGERS,WILLIAM",
+        "BOX:417",
+        "ID:209431");
   }
   
   public static void main(String[] args) {
-    new MDHarfordParserTest().generateTests("T10", "UNIT CALL ADDR APT X CITY NAME BOX ID");
+    new MDHarfordParserTest().generateTests("T12", "UNIT CALL ADDR APT X CITY NAME BOX ID");
   }
 }
