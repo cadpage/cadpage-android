@@ -20,6 +20,8 @@ public class PALackawannaCountyParserTest extends BaseParserTest {
         "ADDR:206 MILLER RD",
         "X:STEVENSON RD / CARBONDALE RD 1",
         "CALL:ALS",
+        "DATE:09/26/11",
+        "TIME:17:02",
         "INFO:pd notified  POSS CONFUSED ALSO / 79YOF FEELING WEEK. SHE DID FALL EARLIER");
 
     doTest("T2",
@@ -27,6 +29,8 @@ public class PALackawannaCountyParserTest extends BaseParserTest {
         "ADDR:711 MAY ST",
         "X:MAPLE ST / DEAD END 59",
         "CALL:ALS",
+        "DATE:09/26/11",
+        "TIME:21:33",
         "INFO:PD ADVISED  REF EMD  HX OF HEART PROBLEMS / 56 YOM RAPID HEART RATE");
 
     doTest("T3",
@@ -35,6 +39,8 @@ public class PALackawannaCountyParserTest extends BaseParserTest {
         "X:STURGES RD / SCRANTON CARBONDALE HWY 20",
         "PLACE:LACKAWANNA HEALTH AND REHAB",
         "CALL:ALS",
+        "DATE:09/26/11",
+        "TIME:21:02",
         "INFO:22-9/LA4 TO MOSES TAYLOR  22-9 ENRT MOMENTARILY / in c-2 -- 90 yo f diff breathing low o2 sats");
 
     doTest("T4",
@@ -42,6 +48,8 @@ public class PALackawannaCountyParserTest extends BaseParserTest {
         "ADDR:601 6TH ST",
         "X:DEAD END / MOOSIC HEIGHTS 94",
         "CALL:ALS",
+        "DATE:09/26/11",
+        "TIME:22:27",
         "INFO:94PD ADVISED  UNKNOWN DRUGS  MALE TOOK DRUGS  IS BREATHING - IS SEMI-RESPONSIVE / 24 YOM COLLAPSED");
 
     doTest("T5",
@@ -49,6 +57,8 @@ public class PALackawannaCountyParserTest extends BaseParserTest {
         "ADDR:116 FULTON ST",
         "X:PROSPECT ST / PROSPECT ST 61",
         "CALL:BLS",
+        "DATE:09/27/11",
+        "TIME:13:56",
         "INFO:CALLER REFUSED EMD  REQ NO SIRENS / 85 YOF PAIN IN THE SHOULDER");
 
     doTest("T6",
@@ -57,6 +67,8 @@ public class PALackawannaCountyParserTest extends BaseParserTest {
         "X:DEAD END / HIGHNETT PL 50",
         "PLACE:MU WOODLAND APARTMENTS",
         "CALL:AFA",
+        "DATE:09/27/11",
+        "TIME:14:53",
         "INFO:simplex panel PHN 5703486242// ATT KH / bldg 2,4,6");
 
     doTest("T7",
@@ -65,6 +77,8 @@ public class PALackawannaCountyParserTest extends BaseParserTest {
         "X:DEAD END / HIGHNETT PL 50",
         "PLACE:MU WOODLAND APARTMENTS",
         "CALL:AFA",
+        "DATE:09/27/11",
+        "TIME:14:53",
         "INFO:simplex panel PHN 5703486242// ATT KH / bldg 2,4,6");
 
     doTest("T8",
@@ -73,6 +87,8 @@ public class PALackawannaCountyParserTest extends BaseParserTest {
         "X:TEDRICK ST / ELAN GARDENS 2",
         "PLACE:HERITAGE BAPTIST CHURCH",
         "CALL:AFA",
+        "DATE:09/27/11",
+        "TIME:15:07",
         "INFO:2pd advised / GEN FIRE ALRM ZONE 1");
 
     doTest("T9",
@@ -80,6 +96,8 @@ public class PALackawannaCountyParserTest extends BaseParserTest {
         "ADDR:1196 CHAPMAN LAKE RD",
         "APT:28",
         "CALL:AFA",
+        "DATE:09/27/11",
+        "TIME:16:07",
         "INFO:res fire/ cutler res/ gen fire");
 
     doTest("T10",
@@ -87,6 +105,8 @@ public class PALackawannaCountyParserTest extends BaseParserTest {
         "ADDR:40 GORDON AVE",
         "X:UN-NAMED / GORDAN AVE 51",
         "CALL:STRT",
+        "DATE:09/27/11",
+        "TIME:19:16",
         "INFO:tree that is in fire is 10 ft from residence / tree on fire");
 
     doTest("T11",
@@ -94,6 +114,8 @@ public class PALackawannaCountyParserTest extends BaseParserTest {
         "ADDR:40 VALLEY VIEW ESTS",
         "X:EYNON JERMYN RD / EYNON JERMYN RD 33",
         "CALL:BLS",
+        "DATE:09/27/11",
+        "TIME:19:43",
         "INFO:21 pd notified  POSS CONSTIPATED / 10 MOS OLD. RIGID ABDOMEN.");
 
     doTest("T12",
@@ -101,11 +123,22 @@ public class PALackawannaCountyParserTest extends BaseParserTest {
         "ADDR:215 ERIE ST",
         "X:UN-NAMED / CHURCH ST 25",
         "CALL:BLS",
+        "DATE:09/28/11",
+        "TIME:10:00",
         "INFO:25PD ADVISED  UNABLE TO GET UP / 79 YOF FALL VICTIM, FELL ONTO FLOOR FROM COUCH");
- 
+
+    doTest("T13",
+        "Unit E22 E20 L20 R23 22-9 SQ22  Location: 8 SCOTT RD W MOUNTAIN RD, E MOUNTAIN RD / GREEN GROVE RD 22 Common Name: MUSTANG MOTORSCall Type: STRT Call Time: 11/22/11 13:11 Narrative  BLACK SMOKE  Nature Of Call: SMOKE COMING FROM BUILDING",
+        "ADDR:8 SCOTT RD W",
+        "X:MOUNTAIN RD, E MOUNTAIN RD / GREEN GROVE RD 22",
+        "PLACE:MUSTANG MOTORS",
+        "CALL:STRT",
+        "DATE:11/22/11",
+        "TIME:13:11",
+        "INFO:BLACK SMOKE / SMOKE COMING FROM BUILDING");
   }
   
   public static void main(String args[]) {
-    new PALackawannaCountyParserTest().generateTests("T13");
+    new PALackawannaCountyParserTest().generateTests("T1");
   }
 }
