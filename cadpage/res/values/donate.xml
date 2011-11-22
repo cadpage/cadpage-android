@@ -152,4 +152,20 @@
     version update which must be done in the next %d days.
   </string>
   
+  <string name="donate_cadpage_title">Sponsored by Cadpage</string>
+  <string name="donate_cadpage_text">
+    You are using a location sponsored by Cadpage.\n 
+    Cadpage sponsors the general locations because their performance is 
+    unreliable and we do not want to charge users who are waiting until a
+    better location can be implemented.
+  </string>
+  
+  <string name="donate_sponsor_title">Sponsored by %s</string>
+  <string name="donate_sponsor_text">
+    You are using a location sponsored by\n%s\n 
+    Support for Cadpage development and maintenance is provided by the
+    location sponsor.  No further payment is expected from you as long as you
+    are using this location.
+  </string>
+  
 </resources>

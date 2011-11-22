@@ -96,6 +96,14 @@ public abstract class SmsMsgParser {
   }
   
   /**
+   * @return sponsor of this user.  A non-null value means someoen else is
+   * paying and we aren't going to bug users for donations.
+   */
+  public String getSponsor() {
+    return null;
+  }
+  
+  /**
    * @return Filter associated with this parser
    */
   public String getFilter() {

@@ -81,6 +81,12 @@ public class GeneralParser extends SmartAddressParser {
     }
   }
   
+  // All generic location parsers are sponsored by Cadpage
+  @Override
+  public String getSponsor() {
+    return "Cadpage";
+  }
+  
   /**
    * Determine if message is a CAD page or not
    * Can be overridden by subclasses that have a clue

@@ -430,26 +430,6 @@ public class ManagePreferences {
     MainDonateEvent.instance().refreshStatus();
   }
   
-  public static Date minInstallDate() {
-    String dateStr = prefs.getString(R.string.pref_min_install_date_key, null);
-    if (dateStr == null) dateStr = prefs.context.getString(R.string.min_install_date);
-    try {
-      return DATE_FORMAT.parse(dateStr);
-    } catch (ParseException ex) {
-      return null;
-    }
-  }
-  
-  public static void setMinInstallDate(Date newVal) {
-    setMinInstallDate(DATE_FORMAT.format(newVal));
-  }
-  
-  public static void setMinInstallDate(String newVal) {
-    prefs.putString(R.string.pref_min_install_date_key, newVal);
-    DonationManager.instance().reset();
-    MainDonateEvent.instance().refreshStatus();
-  }
-  
   public static Date minPurchaseDate() {
     try {
       return DATE_FORMAT.parse(prefs.context.getString(R.string.min_purchase_date));
@@ -527,22 +507,22 @@ public class ManagePreferences {
   }
   
   public static String authLocation() {
-    return prefs.getString(R.string.pref_auth_location, "");
+    return prefs.getString(R.string.pref_auth_location_key, "");
   }
   
   public static void setAuthLocation(String newVal) {
     if (newVal != null && newVal.equals(authLocation())) return;
-    prefs.putString(R.string.pref_auth_location, newVal);
+    prefs.putString(R.string.pref_auth_location_key, newVal);
     DonationManager.instance().reset();
     MainDonateEvent.instance().refreshStatus();
   }
   
   public static String authOrganization() {
-    return prefs.getString(R.string.pref_auth_organization, "");
+    return prefs.getString(R.string.pref_auth_organization_key, "");
   }
   
   public static void setAuthOrganization(String newVal) {
-    prefs.putString(R.string.pref_auth_organization, newVal);
+    prefs.putString(R.string.pref_auth_organization_key, newVal);
   }
   
   public static Date authExtraDate() {
@@ -574,7 +554,7 @@ public class ManagePreferences {
   }
   
   public static Date authExemptDate() {
-    String exemptDate =  prefs.getString(R.string.pref_auth_exempt_date, null);
+    String exemptDate =  prefs.getString(R.string.pref_auth_exempt_date_key, null);
     if (exemptDate == null) return null;
     if (!exemptDate.equals(prefs.context.getString(R.string.release_date))) return null;
     try {
@@ -589,21 +569,43 @@ public class ManagePreferences {
   }
   
   public static void setExemptDate(String newVal) {
-    prefs.putString(R.string.pref_auth_exempt_date, newVal);
+    prefs.putString(R.string.pref_auth_exempt_date_key, newVal);
     DonationManager.instance().reset();
     MainDonateEvent.instance().refreshStatus();
   }
   
   public static void setAuthExemptDate(String newVal) {
-    prefs.putString(R.string.pref_auth_exempt_date, newVal); 
+    prefs.putString(R.string.pref_auth_exempt_date_key, newVal); 
+  }
+  
+  public static int calcAuthRunDays(Date date) {
+    if (date == null) {
+      prefs.putString(R.string.pref_auth_last_date_key, null);
+      return 0;
+    }
+    int days = prefs.getInt(R.string.pref_auth_run_days_key, 0);
+    String curDate = DATE_FORMAT.format(date);
+    String lastDate = prefs.getString(R.string.pref_auth_last_date_key, "");
+    if (lastDate != null && ! lastDate.equals(curDate)) {
+      prefs.putString(R.string.pref_auth_last_date_key, curDate);
+      days++;
+      prefs.putInt(R.string.pref_auth_run_days_key, days);
+    }
+    return days;
+  }
+  
+  public static void setAuthRunDays(int days) {
+    prefs.putInt(R.string.pref_auth_run_days_key, days);
+    DonationManager.instance().reset();
+    MainDonateEvent.instance().refreshStatus();
   }
   
   public static String getRegistrationId() {
-    return prefs.getString(R.string.pref_registration_id, null);
+    return prefs.getString(R.string.pref_registration_id_key, null);
   }
   
   public static void setRegistrationId(String regId) {
-    prefs.putString(R.string.pref_registration_id, regId);
+    prefs.putString(R.string.pref_registration_id_key, regId);
   }
   
   public static String ledColor() {
@@ -642,8 +644,8 @@ public class ManagePreferences {
    * @param sb StringBuilder object where message is constructed
    */
   public static void addConfigInfo(Context context, StringBuilder sb) {
-    sb.append(String.format("\n\n----------\nSysinfo - %s\nModel: %s\n\n",
-        Build.FINGERPRINT, Build.MODEL));
+    sb.append(String.format("\n\n----------\nSysinfo - %s\nModel: %s\nStatus:%s\n\n",
+        Build.FINGERPRINT, Build.MODEL, DonationManager.instance().status().toString()));
     
     sb.append("Preference Configuration:\n");
 
@@ -711,15 +713,16 @@ public class ManagePreferences {
 
         R.string.pref_paid_year_key,
         R.string.pref_install_date_key,
-        R.string.pref_min_install_date_key,
         R.string.pref_purchase_date_key,
         R.string.pref_free_rider_key,
-        R.string.pref_auth_location,
+        R.string.pref_auth_location_key,
         R.string.pref_auth_extra_date_key,
         R.string.pref_auth_extra_cnt_key,
-        R.string.pref_auth_exempt_date,
+        R.string.pref_auth_exempt_date_key,
+        R.string.pref_auth_last_date_key,
+        R.string.pref_auth_run_days_key,
         
-        R.string.pref_registration_id
+        R.string.pref_registration_id_key
     };
 
     Map<String, ?> map = prefs.mPrefs.getAll();

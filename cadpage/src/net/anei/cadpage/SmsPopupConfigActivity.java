@@ -39,11 +39,17 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
   private CheckBoxPreference overrideDefaultPref;
   private EditTextPreference defCityPref;
   private EditTextPreference defStatePref;
+  
+  private String saveLocation;
 
   @Override
   public void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     
+    // Save location so we can tell when it changes
+    saveLocation = ManagePreferences.location();
+    
+    // Build preference tree
     addPreferencesFromResource(R.xml.preferences);
 
     // Set preferences initialized flag
@@ -225,7 +231,14 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
    * @param change true if location value has been changed
    */
   private void adjustLocationChange(String location, boolean change) {
-    
+
+    // If location changes, recalculate the donation status
+    if (!location.equals(saveLocation)) {
+      saveLocation = location;
+      DonationManager.instance().reset();
+      MainDonateEvent.instance().refreshStatus();
+    }
+ 
     // Get the parser and see if it has a default filter
     // Save it in parserFilter so other preferences know what it is
     SmsMsgParser parser = ManageParsers.getInstance().getParser(location);
@@ -362,7 +375,7 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
     String textSize = ManagePreferences.textSize();
     boolean splitBlank = ManagePreferences.splitBlankIns();
     if (splitBlank != oldSplitBlank) SmsMessageQueue.getInstance().splitDelimChange();
-    if (! location.equals(oldLocation) || ! textSize.equals(oldTextSize)) {
+    if (!location.equals(oldLocation) || ! textSize.equals(oldTextSize)) {
       SmsMessageQueue.getInstance().notifyDataChange();
     }
     

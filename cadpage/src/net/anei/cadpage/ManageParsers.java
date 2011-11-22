@@ -31,6 +31,13 @@ public class ManageParsers {
   
 
   /**
+   * @return Sponsor associated with currently selected parser
+   */
+  public String getSponsor() {
+    return getParser(null).getSponsor();
+  }
+  
+  /**
    * Get parser corresponding to location code
    * @param location requested location code or null to use current config setting
    * @return requested parser

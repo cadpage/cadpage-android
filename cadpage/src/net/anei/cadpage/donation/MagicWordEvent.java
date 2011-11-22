@@ -1,7 +1,5 @@
 package net.anei.cadpage.donation;
 
-import java.util.Date;
-
 import net.anei.cadpage.ManagePreferences;
 import net.anei.cadpage.R;
 import android.app.Activity;
@@ -41,21 +39,15 @@ public class MagicWordEvent extends DonateQueryEvent {
       return true;
     }
     
-    // Type 2 sets the min install date to today, granting another 30 days
+    // Type 2 sets the authorized run days to zero, resetting the demo count
     // do trial demo
     if (type == 2) {
-      ManagePreferences.setMinInstallDate(new Date());
-      return true;
-    }
-    
-    String code = activity.getString(R.string.min_install_magic_word);
-    if (input.equalsIgnoreCase(code)) {
-      ManagePreferences.setMinInstallDate(activity.getString(R.string.min_install_date_2));
+      ManagePreferences.setAuthRunDays(0);
       return true;
     }
 
     // Look for old fashioned Cyprus Creek VFD authorization code
-    code = activity.getString(R.string.release_magic_word2);
+    String code = activity.getString(R.string.release_magic_word2);
     if (input.equalsIgnoreCase(code)) {
       ManagePreferences.setAuthLocation(LOCATION);
       ManagePreferences.setAuthOrganization(ORG);

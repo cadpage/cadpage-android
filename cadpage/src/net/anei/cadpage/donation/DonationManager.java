@@ -5,6 +5,7 @@ import java.util.Date;
 import java.util.GregorianCalendar;
 import java.util.Random;
 
+import net.anei.cadpage.ManageParsers;
 import net.anei.cadpage.ManagePreferences;
 
 public class DonationManager {
@@ -21,7 +22,7 @@ public class DonationManager {
   // How long a release exemption lasts
   public static final int REL_EXEMPT_DAYS = 10;
   
-  public enum DonationStatus {FREE, LIFE, AUTH_DEPT, PAID, PAID_WARN, PAID_EXPIRE, 
+  public enum DonationStatus {FREE, LIFE, AUTH_DEPT, SPONSOR, PAID, PAID_WARN, PAID_EXPIRE, 
                                DEMO, DEMO_EXPIRE, EXEMPT};
   
   // Cached calculated values are only valid until this time
@@ -45,11 +46,20 @@ public class DonationManager {
   // Cached enable Cadpage status
   private boolean enabled;
   
+  // Cached Sponsor name
+  private String sponsor;
+  
   
   /**
    * Calculate all cached values
    */
   private void calculate() {
+    
+    // If this is the free version of Cadpage, we can skip all of the hard stuff
+    if (this.getClass().getName().contains(".cadpagefree")) {
+      status = DonationStatus.FREE;
+      return;
+    }
     
     // If the current day hasn't changed, we can use the cached values
     long curTime = System.currentTimeMillis();
@@ -60,17 +70,13 @@ public class DonationManager {
     
     // Convert current time to a JDate, and set the cache limit to midnight
     // of that day
-    JulianDate curJDate = new JulianDate(new Date(curTime));
+    Date curDate = new Date(curTime);
+    JulianDate curJDate = new JulianDate(curDate);
     validLimitTime = curJDate.validUntilTime();
     
-    // Get the install JDate
-    Date installDate = ManagePreferences.installDate();
-    Date minInstallDate = ManagePreferences.minInstallDate();
-    if (minInstallDate != null && minInstallDate.after(installDate)) installDate = minInstallDate;
-    JulianDate installJDate = new JulianDate(installDate);
-    
     // And calculated cached values
-    daysSinceInstall = installJDate.diffDays(curJDate);
+    sponsor = ManageParsers.getInstance().getSponsor();
+    daysSinceInstall = ManagePreferences.calcAuthRunDays(sponsor == null ? curDate : null);
     
     // Calculate expiration date
     // (one year past the purchase date anniversary in the last paid year)
@@ -91,16 +97,17 @@ public class DonationManager {
       daysTillExpire = curJDate.diffDays(new JulianDate(expireDate));
     }
     
-    if (this.getClass().getName().contains(".cadpagefree")) status = DonationStatus.FREE;
-    else if (ManagePreferences.freeRider()) status = DonationStatus.LIFE;
+    if (ManagePreferences.freeRider()) status = DonationStatus.LIFE;
     else if (ManagePreferences.authLocation().equals(ManagePreferences.location())) {
       status = DonationStatus.AUTH_DEPT;
     } else if (expireDate != null) {
       if (daysTillExpire > EXPIRE_WARN_DAYS) status = DonationStatus.PAID;
+      else if (sponsor != null) status = DonationStatus.SPONSOR;
       else if (daysTillExpire >= 0) status = DonationStatus.PAID_WARN;
       else if (daysSinceInstall <= DEMO_LIMIT_DAYS) status = DonationStatus.DEMO;
       else status = DonationStatus.PAID_EXPIRE;
-    } else {
+    } else if (sponsor != null) status = DonationStatus.SPONSOR;
+    else {
       if (daysSinceInstall <= DEMO_LIMIT_DAYS) status = DonationStatus.DEMO;
       else status = DonationStatus.DEMO_EXPIRE;
     }
@@ -147,6 +154,13 @@ public class DonationManager {
   public DonationStatus status() {
     calculate();
     return status;
+  }
+  
+  /**
+   * @return return sponsor paying for support
+   */
+  public String sponsor() {
+    return sponsor;
   }
   
   /**
