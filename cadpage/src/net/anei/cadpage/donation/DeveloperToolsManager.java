@@ -96,6 +96,7 @@ public class DeveloperToolsManager {
         ManagePreferences.setAuthLocation(null);
         ManagePreferences.setPaidYear(-1);
         ManagePreferences.setPurchaseDateString(null);
+        ManagePreferences.setAuthRunDays(0);
         ManagePreferences.setInitBilling(false);
         BillingManager.instance().initialize(context);
         break;

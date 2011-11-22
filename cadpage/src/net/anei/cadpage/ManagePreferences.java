@@ -586,16 +586,19 @@ public class ManagePreferences {
     int days = prefs.getInt(R.string.pref_auth_run_days_key, 0);
     String curDate = DATE_FORMAT.format(date);
     String lastDate = prefs.getString(R.string.pref_auth_last_date_key, "");
-    if (lastDate != null && ! lastDate.equals(curDate)) {
+    if (lastDate == null || ! lastDate.equals(curDate)) {
       prefs.putString(R.string.pref_auth_last_date_key, curDate);
-      days++;
-      prefs.putInt(R.string.pref_auth_run_days_key, days);
+      if (lastDate != null) {
+        days++;
+        prefs.putInt(R.string.pref_auth_run_days_key, days);
+      }
     }
     return days;
   }
   
   public static void setAuthRunDays(int days) {
     prefs.putInt(R.string.pref_auth_run_days_key, days);
+    prefs.putString(R.string.pref_auth_last_date_key, null);
     DonationManager.instance().reset();
     MainDonateEvent.instance().refreshStatus();
   }

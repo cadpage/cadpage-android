@@ -30,6 +30,10 @@ Contact:"Bradley T. Hinton" <brad.hinton@duke.edu>
 Sender: cadpage@orangeem.org
 (CAD Page for CFS 111911-222) TG: OPS 1\nINC: BREATHING\nLOC: 1508 JO MAC RD\nAPT: \nBLDG:
 
+Contact: Rob Pruitt <repruitt@gmail.com>
+Sender: cadpage@orangeem.org
+Subject:CAD Page for CFS 112211-111\nTG: OPS \nINC: Auto Fire Alarm\nLOC: 511 HIGHGROVE DR\nAPT: \nBLDG: \n
+
  */
 
 

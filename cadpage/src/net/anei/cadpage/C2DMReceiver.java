@@ -120,7 +120,7 @@ public class C2DMReceiver extends BroadcastReceiver {
       new SmsMmsMessage(from, subject, content, System.currentTimeMillis(), 
                         SmsMmsMessage.MESSAGE_TYPE_C2DM);
     
-    String location = intent.getStringExtra("location");
+    String location = intent.getStringExtra("format");
     location = ManagePreferences.convertOldLocationCode(context, location);
     message.setReqLocation(location);
     message.setSponsor(intent.getStringExtra("sponsor"));

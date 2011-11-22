@@ -3435,23 +3435,9 @@ Sender: paging@easthavenfire.com
 **********************************************************
 **********************************************************
 **********************************************************
-**********************************************************
-**********************************************************
 ************  READY TO ROLL ******************************
 **********************************************************
 **********************************************************
-Guilford county, NC (alternate)
-Contact: Jamie Burgess <jrburgess87@gmail.com>
-Sender: firedistrict13@listserve.com
-Subject:[Firedistrict13] (no subject)\nCAD:UNDER CONTROL;616 SIMPSON-CALHOUN RD; G ;TAC 10\n\n_____________________________________
-Subject:[Firedistrict13] (no subject)\nCAD:FD13;ST55;1;29D02p;50PI;US 29 N/HICONE RD;29 NB NORTH OF HICONE\n\n_____________________
-Subject:[Firedistrict13] (no subject)\nCAD:FD13;ST58;1;26B01;SICK;7830 SUTTER RD;NC 150 W\n\n______________________________________
-Subject:[Firedistrict13] (no subject)\nCAD:FD13;ST55;1;03D00;ANBITE;2706 BRAME RD;WHITE ELDER RD;DIST: 245.80 FT\n\n_______________
-Subject:[Firedistrict13] (no subject)\nCAD:UNDER CONTROL;2706 BRAME RD; G ;DIST: 245.80 FT\n\n_____________________________________
-Subject:[Firedistrict13] (no subject)\nCAD:FD13;ST55;1;29D02p;50PI;US 29 N/HICONE RD;29 NB NORTH OF HICONE\n\n_____________________
-Subject:[Firedistrict13] (no subject)\nCAD:FD13;ST13;1;FIRAL;5207 OLD MINE RD\n\n_______________________________________________\nF
-Subject:[Firedistrict13] (no subject)\nCAD:NEFD;ST32;1;EXPLO;6303 THREE LOY RD\n\n_______________________________________________\n
-Subject:[Firedistrict13] (no subject)\nCAD:FD13;ST55;1;FIRAL;4006 STARLING CT\n\n_______________________________________________\nF
 **********************************************************
 East Haven, CT (in New Haven county)
 Contact: "Mark Nimons" <MNimons@easthavenfire.com>
@@ -4383,3 +4369,48 @@ Sender: dispatch@ohiomuni.net
 (Dispatch Message) SQUAD: FALLS              \n14765 LINCOLN WAY E \n911 CALL LUCY INDORF 89 YOF FALL VICTIM - LIFT ASSIST - NO INJURY- FD HAS KEY\nCROSS KURZEN
 (Dispatch Message) SQUAD: FRACTURES          \n22 KING \n50 YR OLD MALE, BROKEN LEG
 (Dispatch Message) SQUAD: (FREE TEXT)        \n1 ARLINGTON CT 1\n51 YOM SEVERE HEADACHE  BLDG 3
+**********************************************************
+Franklin, OH (in Clearmont County but dispatched separately)
+Contact: Christopher Rauh <crauh@franklinohio.org>
+Contact: Scott Rauh <srauh2290@yahoo.com>
+Sender: rc.282@cmsg.net
+(CAD) [!] F-STRUCTURE FIRE LOCATION: 818 UNION RD FRANKLIN TWP BETWEEN ROBERTS DR/SHAKER RD COMMENTS: X-084.304747 Y+039.552894 CF95 U ZUNCFIRE IN ATTIC EVERYONE EVACUATED
+(CAD) [!] F-POLICE ASSIST LOCATION 235 INDUSTRIAL DR FRANKLIN BETWEEN N SR RT 123/SHAKER RD COMMENTS: VEH STRUCK A POLE/ APPEARS THAT THE WIRES ARE ALL STILL CONNECTED REQ FFD
+(CAD) [!] F-CARBON MONOXIDE INCIDENT LOCATION: 201 E 2ND ST FRANKLIN BETWEEN LOCUST ST / ALLEN ST COMMENTS: POSSIBLE CO LEAK BY STEPS SO POSSIBLY BASEMENT
+(CAD) [!] F-UTILITY POLE-TRANSFORMER FIRE LOCATION: 850 N MAIN ST FRANKLIN BETWEEN KENNETH KOONS BLVD / PENNYROYAL RD COMMENTS; WIRE DOWN / LINE ARCHING
+(CAD) [!] AUTO CRASH/SINGLE ENGINE LOCATION: 36 NB I-75 FRANKLIN BETWEEN SHAKER RD / SR 123 ST COMMENTS: X-084.284963 Y+039.562293 CFO U Z ZUNCSEMI TRUCK CRASHED DUMPING FUEL IN ROADWAY
+(CAD) [!] F-HAZMAT LEAK SPILL NO FIRE LOCATION: 501 SHOTWELL DR FRANKLIN BETWEEN N SR RT 123 / DEAD END COMMENTS: X Y CF U Z ZUNCBOTTLE OF ACCETYLINE LEAKING HEAVILY INSIDE THE BACK OF BUILDING
+(CAD) [!] F-OUTDOOR FIRE INVESTIGATION LOCATION: 324 PENNYROYAL RD FRANKLIN TWP BETWEEN CLEARCREEK FRANKLIN RD / HOMESTEAD DR COMMENTS: NEIGHBOR HAVING A VERY LARGE FIRE IN THEIR YARD/ REQ FFD COME CHECK IT
+(CAD) [!] F-ANIMAL RESCUE LOCATION: 5709 S DIXIE HWY FRANKLIN COMMENTS: ANIMAL SANCTUARY PERSON IS AT PROPERTY REQ ANIMAL RESCUE FOR POT BELLY PIG 
+(CAD) [!] F-FIRE ALARM LOCATION: 2301 COMMERCE CENTER DR FRANKLIN BETWEEN E 2ND ST / HERITAGE DR COMMENTS: SHOWING ZONE 47 / EMPLOYEE MANUAL PULL
+(CAD) [!] F-GENERAL RECALL LOCATION: 45 E 4TH ST FRANKLIN BETWEEN RILEY ST / ANDERSON ST
+(CAD) [!] AUTO CRASH WITH ENTRAPMENT LOCATION: 38 NB I-75 FRANKLIN BETWEEN SR 123 / SR 73 COMMENTS: X-084.261703 Y+039.568226 CF0 U Z ZUNC
+**********************************************************
+Geauga county, OH
+Contact: Erik Modrzynski <erikmodrzynski@gmail.com
+Sender: 777xxxxxxx
+System: Spillman
+GEAUGA COUNTY SHERIFF (Text Message) RESCUE IS NEEDED AT - 11 lois ln elderly female vomiting and sick TXT STOP to opt-out
+GEAUGA COUNTY SHERIFF (Text Message) 13806 Mayfield Rd. Electrical Fire TXT STOP to opt-out
+GEAUGA COUNTY SHERIFF (Text Message) RESCUE IS NEEDED AT - 9579 Venus 76yom abdominal pain TXT STOP to opt-out
+GEAUGA COUNTY SHERIFF (Text Message 2of2) Smoking really bad. 2800/Wright TXT STOP to opt-out
+GEAUGA COUNTY SHERIFF (Text Message 1of2) Fire Dept needed at the Dept of Aging, 12555 Ravenwood Dr, reported possibly oven fire. TXT STOP to opt-out
+GEAUGA COUNTY SHERIFF (Text Message) RESCUE IS NEEDED AT - 10865 holi dale 18 month old female diff breathing 2800 clr/phillips TXT STOP to opt-out
+GEAUGA COUNTY SHERIFF (Text Message) Rescue neeeded at 13791 GAR Hwy for an unknown type overdose called into your station /2800 TXT STOP to opt-out
+GEAUGA COUNTY SHERIFF (Text Message) INJURY ACCIDENT AT - GAR and Old State for 2 car MVA with possible injuries. TXT STOP to opt-out
+GEAUGA COUNTY SHERIFF (Text Message) RESCUE IS NEEDED AT - 9600 S brown rd for 50 yom with chest pain. TXT STOP to opt-out
+GEAUGA COUNTY SHERIFF (Text Message) 14949 Rock Creek Rd. 40 y/o/m abdominal pain TXT STOP to opt-out
+GEAUGA COUNTY SHERIFF (Text Message) RESCUE IS NEEDED AT - 668 WOODLAWN RD ELDERLY FEMALE DIFFICUTLY BREATHING TXT STOP to opt-out
+GEAUGA COUNTY SHERIFF (Text Message) RESCUE IS NEEDED AT - 9544 old state 32 yof chest pain TXT STOP to opt-out
+GEAUGA COUNTY SHERIFF (Text Message) RESCUE IS NEEDED AT - 9051 brakeman 57 yof ill TXT STOP to opt-out
+GEAUGA COUNTY SHERIFF (Text Message) Rescue needed at 9051 Brakemen for 57yof compl of feeling ill TXT STOP to opt-out
+GEAUGA COUNTY SHERIFF (Text Message) INJURY ACCIDENT AT - 1 CAR 1 ENTRAP 1 EJECTED 608 BY WALKING STICK TXT STOP to opt-out
+GEAUGA COUNTY SHERIFF (Text Message 1of2) RESCUE IS NEEDED AT - 8325 MADISON RD M/A TO THOMPSON WITH A SQUAD FOR 1 CAR MVA ROLLOVER TXT STOP to opt-out
+GEAUGA COUNTY SHERIFF (Text Message) RESCUE IS NEEDED AT - 9488 wildwood -- 46 y/o male -- possible alcohol poison -- 2800 TXT STOP to opt-out
+GEAUGA COUNTY SHERIFF (Text Message) M/A to Chardon for a Fire Alarm off at Geauga Hospital. 2800/Wright TXT STOP to opt-out
+GEAUGA COUNTY SHERIFF (Text Message) FIRE DEPT NEEDED AT - M/A TO MONTVILLE 9141 CLAY ST SMELL OF GAS IN THE HOUSE TXT STOP to opt-out
+GEAUGA COUNTY SHERIFF (Text Message) RESCUE IS NEEDED AT - 14181 RADCLIFFE RD 72 YO FEMALE CONS NOT RESPONSIVE HIST OF HEART PROBLEMS TXT STOP to opt-out
+GEAUGA COUNTY SHERIFF (Text Message) RESCUE IS NEEDED AT - hambden twp park -- 13860 gar hwy -- 16 y/o male -- back pain -- 2800 TXT STOP to opt-out
+GEAUGA COUNTY SHERIFF (Text Message) RESCUE IS NEEDED AT - sunco station female in custody hx heart problems TXT STOP to opt-out
+GEAUGA COUNTY SHERIFF (Text Message) RESCUE IS NEEDED AT - 9922 OLD STATE RD 90 YO FEMALE DIFF BREATHING TXT STOP to opt-out
+GEAUGA COUNTY SHERIFF (Text Message) Rescue needed at 1 La Verne Ln, female possible going into Labor. 2800/Wright TXT STOP to opt-out

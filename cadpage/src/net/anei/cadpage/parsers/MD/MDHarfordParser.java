@@ -31,6 +31,10 @@ Contact: Ian Williams <engine9company@gmail.com>
 Contact: "R. Brian Frearson " <bfrearson@gmail.com>
 FRM:rc.95@c-msg.net\nSUBJ:HCCAD\nMSG:[!] EOC:E91 HEART >HEART PROBLEM SRT155&SRT161 XS: SRT161 HAVRE DE GRACE Cad:143258\n
 
+Contact: JEREMY GARNICE <coastie_1@yahoo.com>
+Sender: rc.391@c-msg.net
+(HCCAD) [!] EOC:E04 ABDOM >ABDOMINAL PAIN 4964 BRISTLE CONE CIR XS: HOLLY OAK CIR - SOUTH ABERDEEN ROGERS,WILLIAM BOX: 417 Cad:209431
+
  */
 public class MDHarfordParser extends DispatchBParser {
   
