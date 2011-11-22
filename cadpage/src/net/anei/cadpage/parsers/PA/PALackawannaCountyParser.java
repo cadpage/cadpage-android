@@ -7,6 +7,7 @@ import net.anei.cadpage.parsers.FieldProgramParser;
 Lackawanna County, PA
 Contact: greg rhodes <grhodes908@gmail.com>
 Contact: Mark Krzan <mkrzan1@gmail.com>
+Contact: Randy Kochanowski <rkochdcfd@gmail.com>     
 Sender: aegispage@lackawannacounty.org
     
 Unit  Location: 206 MILLER RD STEVENSON RD / CARBONDALE RD 1 Common Name: Call Type: ALS Call Time: 09/26/11 17:02 Narrative  pd notified  POSS CONFUSED ALSO  Nature Of Call: 79YOF FEELING WEEK. SHE DID FALL EARLIER
@@ -21,6 +22,7 @@ Unit  Location: 1196 CHAPMAN LAKE RD 28 Common Name: Call Type: AFA Call Time: 0
 Unit  Location: 40 GORDON AVE UN-NAMED / GORDAN AVE 51 Common Name: Call Type: STRT Call Time: 09/27/11 19:16 Narrative  tree that is in fire is 10 ft from residence  Nature Of Call: tree on fire
 Unit 21-9  Location: 40 VALLEY VIEW ESTS EYNON JERMYN RD / EYNON JERMYN RD 33 Common Name: Call Type: BLS Call Time: 09/27/11 19:43 Narrative  21 pd notified  POSS CONSTIPATED  Nature Of Call: 10 MOS OLD. RIGID ABDOMEN.
 Unit 21-9 R25  Location: 215 ERIE ST UN-NAMED / CHURCH ST 25 Common Name: Call Type: BLS Call Time: 09/28/11 10:00 Narrative  25PD ADVISED  UNABLE TO GET UP  Nature Of Call: 79 YOF FALL VICTIM, FELL ONTO FLOOR FROM COUCH
+Unit E22 E20 L20 R23 22-9 SQ22  Location: 8 SCOTT RD W MOUNTAIN RD, E MOUNTAIN RD / GREEN GROVE RD 22 Common Name: MUSTANG MOTORSCall Type: STRT Call Time: 11/22/11 13:11 Narrative  BLACK SMOKE  Nature Of Call: SMOKE COMING FROM BUILDING
 
  */
 
@@ -29,7 +31,7 @@ public class PALackawannaCountyParser extends FieldProgramParser {
   
   public PALackawannaCountyParser() {
     super("LACKAWANNA COUNTY", "PA",
-           "Location:ADDRCITY/SXx! Common_Name:PLACE? Call_Type:CALL! Call_Time:SKIP Narrative:INFO Quadrant:MAP District:SKIP Nature_Of_Call:INFO");
+           "Location:ADDR/SXx! Common_Name:PLACE? Call_Type:CALL! Call_Time:DATETIME Narrative:INFO Quadrant:MAP District:SKIP Nature_Of_Call:INFO");
   }
   
   @Override
