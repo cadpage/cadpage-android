@@ -12,8 +12,6 @@ Washington County, MD
 Contact: "Snyder, Jon" <JSnyder@sems79.org>
 Sender: "Dispatch@washco-md.net" <Dispatch@washco-md.net>
 System: Keystone Public Safety
-Related parsers MOSStLouisCountyParser, NJMorrisCountyParser,
-Drop everything after first \n
 
 MAPLEVILLE RD / CHEWSVILLE RD - PIC, PERS INJURY COLLISION - CO16,RSQE7,R79,SO20 - 1106957 15:38
 73 S MAIN ST - FALLS,BACK INJURIES - R79 - 1106940 12:07 2nd ALERT!
@@ -34,6 +32,15 @@ Contact: Jim A <skidooxman@gmail.com>
 Sender: TextAlert@sems79.org
 CHEWSVILLE RD / WHITE HALL RD, AREA - SMOKE INVESTIGATION - CO16,SO20,CO7,RS20,E161,E74,ET7 - 1117561 07:46\nDo Not REPLY to this email!!!
 
+Contact: cj rinehart <cjrr_10@hotmail.com>
+Sender: rc.429@c-msg.net
+S:WCo M:[!] 136 WISHING STAR CT  ,STAB  ,GUNSHOT  ,R75  ,CO10  ,1120268 23:48\n\n\n
+S:WCo M:[!] 11403 STONECROFT CT  , STONECROFT APARTMENTS BUILDING A APT 209  ,CHEST PAIN  ,R75  ,CO10  ,1120271 02:16
+S:WCo M:[!] 1800 DUAL HWY  , SUSQUEHANNA BANK STE 100 REAR OF  ,SMOKE INVESTIGATION  ,E03  ,CO10  ,UT3  ,1120229 07:12
+S:WCo M:[!] 300 N COLONIAL DR  , APT E  ,HOUSE FIRE  ,CO10  ,E03  ,E01  ,TRK1  ,S75  ,R75  ,SO20  ,1120236 09:48
+S:WCo M:[!] 136 WISHING STAR CT  ,STAB  ,GUNSHOT  ,R75  ,CO10  ,1120268 23:48
+S:WCo M:[!] 17567 YORK RD  , WESTERN SIZZLIN STEAK HOUSE  ,ODOR OF SMOKE  ,CO26  ,CO10  ,CO2  ,TWR26  ,RS10  ,R26  ,1120262 22:1
+
 */
 
 public class MDWashingtonCountyParser extends FieldProgramParser {
@@ -52,8 +59,8 @@ public class MDWashingtonCountyParser extends FieldProgramParser {
     "THURMONT"
   };
   
-  private static final Pattern DELIM = Pattern.compile(" *(?<= )- +");
-  private static final Pattern TRAILER = Pattern.compile("(?:(.+) )?(\\d{7}) \\d\\d:\\d\\d(?: (.*))?");
+  private static final Pattern DELIM = Pattern.compile(" *(?<= )- +|  ,");
+  private static final Pattern TRAILER = Pattern.compile("(?:(.+) )?(\\d{7}) (\\d\\d:?\\d?\\d?)(?: (.*))?");
   
   private static final Properties COUNTY_CODES = buildCodeTable(new String[]{
       "ALL", "ALLEGANY COUNTY",
@@ -68,7 +75,7 @@ public class MDWashingtonCountyParser extends FieldProgramParser {
  
   public MDWashingtonCountyParser() {
     super(CITY_LIST, "WASHINGTON COUNTY", "MD",
-        "ADDR CITY? CALL! CALL+? UNIT TRAIL! END");
+        "ADDR CITY? CALL! CALL+? UNIT1 UNIT+? TRAIL! END");
   }
   
   @Override
@@ -121,6 +128,13 @@ public class MDWashingtonCountyParser extends FieldProgramParser {
     }
   }
   
+  private class MyUnitField extends UnitField {
+    @Override
+    public void parse(String field, Data data) {
+      data.strUnit = append(data.strUnit, ",", field);
+    }
+  }
+  
   private class TrailField extends Field {
 
     @Override
@@ -128,17 +142,15 @@ public class MDWashingtonCountyParser extends FieldProgramParser {
       Matcher match = TRAILER.matcher(field);
       if (!match.matches()) abort();
       data.strCallId = match.group(2);
-      data.strSupp = append(n2e(match.group(1)), " / ", n2e(match.group(3)));
+      data.strTime = match.group(3);
+      if (data.strTime.length() != 5) data.strTime = "";
+      data.strSupp = append(getOptGroup(match.group(1)), " / ", getOptGroup(match.group(4)));
       if (data.strSupp == null) data.strSupp = "";
     }
     
     @Override
     public String getFieldNames() {
-      return "ID INFO";
-    }
-    
-    private String n2e(String str) {
-      return str == null ? "" : str;
+      return "ID INFO TIME";
     }
   }
   
@@ -146,6 +158,8 @@ public class MDWashingtonCountyParser extends FieldProgramParser {
   public Field getField(String name) {
     if (name.equals("ADDR")) return new MyAddressField();
     if (name.equals("CALL")) return new MyCallField();
+    if (name.equals("UNIT1")) return new UnitField("[A-Z]+[0-9]+(?:,[A-Z0-9,]+)?");
+    if (name.equals("UNIT")) return new MyUnitField();
     if (name.equals("TRAIL")) return new TrailField();
     return super.getField(name);
   }
