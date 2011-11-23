@@ -3434,7 +3434,6 @@ Sender: paging@easthavenfire.com
 1100005182 ALPHA MEDICAL 00055 THOMPSON ST  Prem Map -14 PP 65 FOXON RD/GAY ST  (Prem Map -14 PP 65)\4sS5 111120 15:40
 **********************************************************
 **********************************************************
-**********************************************************
 ************  READY TO ROLL ******************************
 **********************************************************
 **********************************************************
@@ -4395,3 +4394,24 @@ GEAUGA COUNTY SHERIFF (Text Message) RESCUE IS NEEDED AT - hambden twp park -- 1
 GEAUGA COUNTY SHERIFF (Text Message) RESCUE IS NEEDED AT - sunco station female in custody hx heart problems TXT STOP to opt-out
 GEAUGA COUNTY SHERIFF (Text Message) RESCUE IS NEEDED AT - 9922 OLD STATE RD 90 YO FEMALE DIFF BREATHING TXT STOP to opt-out
 GEAUGA COUNTY SHERIFF (Text Message) Rescue needed at 1 La Verne Ln, female possible going into Labor. 2800/Wright TXT STOP to opt-out
+**********************************************************
+Richland county, SC (Columbia)
+Contact: Dylan Miller <dylan.miller86@gmail.com>
+RESD STRUCTURE FIRE (FLAMES SHOWING) - 1 SHAFTESBURY LN / BROWN
+Address: 731 Horrell Hill Rd Problem: Seizure
+Address: 108 Kildare Dr Problem: Insulin Shock
+SUSPICIOUS PACKAGE FOUND AT 7201 TWO NOTCH RD AT RCSD PARKING LOT / BROWN
+Address: Padgett Rd / Lower Richland Blvd Problem: Woods Fire
+Address: Caughman Rd / Teague Rd Problem: MVA
+Address: Garners Ferry Rd / Trotter Rd Problem: MVA
+Address: 8100 Garners Ferry Rd Problem: MVA
+Address: 217 Tilting Rock Dr Problem: Structure Fire - House
+Address: Welborn Rd / Leesburg Rd Problem: Fire Test
+Address: Fairmont Rd / Leesburg Rd Problem: MVA
+Address: Leesburg Rd / Ulmer Rd Problem: MVA
+Address: 8000 Garners Ferry Rd Problem: Head Injury
+Address: 145 Ramblewood Dr Problem: Seizure
+Address: 305 Shagbark Ave Problem: Coronary
+Address: 3644 Leesburg Rd Problem: Spinal Injury
+Address: 1114 Rabbit Run Problem: False Fire Alarm
+Address: Ridge Rd / Lower Richland Blvd Problem: Vehicle Fire Trailer/Bus/MHome
