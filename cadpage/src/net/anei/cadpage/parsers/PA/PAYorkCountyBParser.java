@@ -1,5 +1,6 @@
 package net.anei.cadpage.parsers.PA;
 
+import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -10,14 +11,6 @@ import net.anei.cadpage.parsers.FieldProgramParser;
 York County, PA (alternate?)
 Contact: William Blackwell <ff2blackwell@yahoo.com>
 Sender:messaging@iamresponding.com
-
-Desired fields: 
-Location:
-Venue:
-Cross Streets:
-Call Type:
-Priority:
-Call Date/Time:
 
 Rip and Run Report\nRip and Run Report\n\n~\nLocation Information:\n\nLocation:~~LEADER HEIGHTS~RD/~JOPPA~RD\nVenue:~YORK TWP\nCross Streets~\nQuadrant:~19-04\nDistrict:~19-04\n~\nCall Information:\n\nCall Number:~4326\nCall Type:~ DEBRIS REMOVAL\nSource:~DISPATCHED BY YORK COUNTY 911\nPriority:~ 4\nStatus:~IN PROGRESS\nAssigned To:~CALL TAKER 7\nCaller:~Starner,~Jeff\nCall Date/Time:~10/20/2011 22:55:13\nDispatch Date/Time:~10/20/2011 22:59:13\nArrive Date/Time:~\nClear Date/Time:~\nEnroute Date/Time:~\nLatest Unit Cleared Date/Time:~\n~\nIncident Number(s)\n2011-00001696~~GOODWILL FIRE COMPANY NO. 1 YORK TOWNSHIP\n2011-00025174~~YORK AREA REGIONAL POLICE DEPARTMENT\n~\nUnits Sent:~2\nFIRESTA19, 21-79~\n\nAlerts:\n~\nLocation Alerts\n\nPerson Alerts\n\nVehicle Alerts\n~~\nNarrative:\n\nNarrative Time~Narrative\n10/20/11 22:55:55~yes blocking\\n10/20/11 22:56:06~yes smoking\n10/20/11 22:56:08~yes leaking\n10/20/11 22:56:17~silver Toyota\n10/20/11 22:56:42~gry car\n10/20/11 22:56:48~in the bank lot\n10/20/11 22:56:56~no overturned\n10/20/11 22:57:14~c/o saw this happen\n10/20/11 22:57:56~he was not ivolved though\n10/20/11 22:58:03~inv\n10/20/11 22:57:00~Call #: 4328 - 2 veh acc\n10/20/11 22:57:05~Call #: 4328 - blocking entire roadway\n10/20/11 22:57:14~Call #: 4328 - both vehs are sedans\n10/20/11 22:57:30~Call #: 4328 - no smoking\n10/20/11 22:57:38~Call #: 4328 - possible leaking\n10/20/11 22:58:37~he spoke to the people and they do not need EMS according to them\n10/20/11 22:59:54~Nature Of Call: Veh Leaking
 Rip and Run Report\nRip and Run Report\n\n~\nLocation Information:\n\nLocation:~~LEADER HEIGHTS~RD/~PINE GROVE~RD\nVenue:~YORK TWP\nCross Streets~\nQuadrant:~19-04\nDistrict:~19-04\n~\nCall Information:\n\nCall Number:~8218\nCall Type:~ DEBRIS REMOVAL\nSource:~DISPATCHED BY YORK COUNTY 911\nPriority:~ 4\nStatus:~IN PROGRESS\nAssigned To:~BACK UP CALL TAKER 2\nCaller:~Winemiller,~Robert\nCall Date/Time:~10/24/2011 19:36:59\nDispatch Date/Time:~10/24/2011 19:40:19\nArrive Date/Time:~\nClear Date/Time:~\nEnroute Date/Time:~\nLatest Unit Cleared Date/Time:~\n~\nIncident Number(s)\n2011-00001705~~GOODWILL FIRE COMPANY NO. 1 YORK TOWNSHIP\n2011-00025487~~YORK AREA REGIONAL POLICE DEPARTMENT\n~\nUnits Sent:~2\nFIRESTA19, 21-81~\n\nAlerts:\n~\nLocation Alerts\n\nPerson Alerts\n\nVehicle Alerts\n~~\nNarrative:\n\nNarrative Time~Narrative\n10/24/11 19:38:09~no ot\n10/24/11 19:38:26~leaking fluids\n10/24/11 19:38:29~antifreeze\n10/24/11 19:38:45~no hazards\n10/24/11 19:39:10~both veh are blocking traffic\n10/24/11 19:39:19~in the middle of the intersection\n10/24/11 19:39:23~just occured\n10/24/11 19:39:43~veh 1: blue volzwagon passat\n10/24/11 19:39:50~veh 2: red dodge neon\n10/24/11 19:40:13~c/o has the blue veh\n10/24/11 19:40:32~Nature Of Call: fluids on roadway
@@ -39,9 +32,13 @@ public class PAYorkCountyBParser extends FieldProgramParser {
   
   private static final String START_MARKER = "Rip and Run Report\nRip and Run Report\n\n~\n";
   
+  private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "SP GARDEN TWP",    "SPRING GARDEN TWP"
+  });
+  
   public PAYorkCountyBParser() {
-    super("YORK COUNTY", "PA",
-           "Location:ADDR! Venue:CITY! Quadrant:MAP! Call_Number:ID! Call_Type:CALL! Priority:PRI Caller:NAME Call_Date/Time:DATETIME SKIP+? Units_Sent:SKIP UNIT Narrative:SKIP INFO+");
+    super(CITY_CODES, "YORK COUNTY", "PA",
+           "Location:ADDR! Venue:CITY! SKIP X Quadrant:MAP! Call_Number:ID! Call_Type:CALL! Priority:PRI Caller:NAME Call_Date/Time:DATETIME SKIP+? Units_Sent:SKIP UNIT Narrative:SKIP INFO+");
   }
   
   @Override
