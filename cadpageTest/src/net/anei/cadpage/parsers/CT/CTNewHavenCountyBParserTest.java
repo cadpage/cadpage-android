@@ -128,7 +128,8 @@ public class CTNewHavenCountyBParserTest extends BaseParserTest {
         "ID:1100004627",
         "CALL:CHARLIE MEDICAL TF3",
         "ADDR:267 RUSSO AVE",
-        "X:13 BRENNAN ST / ANN ST",
+        "MAP:13",
+        "X:BRENNAN ST / ANN ST",
         "UNIT:S5",
         "TIME:03:25");
 
@@ -166,7 +167,8 @@ public class CTNewHavenCountyBParserTest extends BaseParserTest {
         "ID:1100004608",
         "CALL:DELTA MEDICAL TF1",
         "ADDR:152 KIMBERLY AVE",
-        "X:7 PARDEE PL / KIMBERLY AVE",
+        "MAP:7",
+        "X:PARDEE PL / KIMBERLY AVE",
         "UNIT:R1",
         "TIME:19:03");
 
