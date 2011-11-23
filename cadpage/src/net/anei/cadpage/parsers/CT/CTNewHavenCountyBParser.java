@@ -11,6 +11,7 @@ import net.anei.cadpage.parsers.SmartAddressParser;
 New Haven County, CT (North Branford & Northford)
 Contact: Jeff Green <greenjeffreya@gmail.com>
 Sender: paging@mail.nbpolicect.org.
+System: NEXTGEN
 
 1100008173 MEDICAL MEDA 00167  BRANFORD RD HUBBARD RD/TWIN LAKE RD  MED4 503 110910 11:50
 1100008148 MEDICAL MEDD 00009  SALEM ST CLINTONVILLE RD/VILLAGE ST  MED4 R2 110909 17:55
@@ -31,6 +32,17 @@ Contact: "nemo48@sbcglobal.net" <nemo48@sbcglobal.net>
 Sender: paging@easthavenfire.com
 1100005182 ALPHA MEDICAL 00055 THOMPSON ST  Prem Map -14 PP 65 FOXON RD/GAY ST  (Prem Map -14 PP 65)\4sS5 111120 15:40
 
+East Haven, CT (in New Haven county)
+Contact: "Mark Nimons" <MNimons@easthavenfire.com>
+Sender: paging@easthavenfire.com
+
+1100004628 CHARLIE MEDICAL TF1 00057 MAIN ST Prem Map -5 PP 80 SALTONSTALL PKWY/DEBORAH LA (Prem Map -5 PP 80) R1 111017 09:16
+1100004627 CHARLIE MEDICAL TF3 00267 RUSSO AVE Map -13 BRENNAN ST/ANN ST S5 111017 03:25
+1100004626 MVA WITH INJURIES LAUREL ST/ NORTH HIGH ST E1 R1 C4 S2 111016 23:29
+1100004625 CHARLIE MEDICAL TF4A 00038 TALMADGE AVE Prem Map -3 PP165 POND ST/DEAD END (Prem Map -3 PP165) R1 111016 22:00
+1100004612 ALPHA MEDICAL 01270 NORTH HIGH ST Prem Map -14 PP 63 CORBIN RD/MAPLE ST S5 111015 21:49
+1100004608 DELTA MEDICAL TF1 00152 KIMBERLY AVE Map -7 PARDEE PL/KIMBERLY AVE R1 111015 19:03
+
 */
 
 public class CTNewHavenCountyBParser extends SmartAddressParser {
@@ -41,7 +53,8 @@ public class CTNewHavenCountyBParser extends SmartAddressParser {
   
   private static final Pattern MASTER = Pattern.compile("(\\d{10}) +(.*?) *\\d{6} (\\d\\d:\\d\\d)");
   private static final Pattern UNIT_PTN = Pattern.compile("(?: +(?:\\d{3}|(?:MED|R|T|E|ET|BR|A|S)\\d{1,2}))+$");
-  private static final Pattern MAP_PTN = Pattern.compile("^\\d\\d [A-Z]{2} \\d\\d\\b");
+  private static final Pattern MAP_PFX_PTN =Pattern.compile("^(?:Prem )?Map -");
+  private static final Pattern MAP_PTN = Pattern.compile("^\\d{1,2} ?[A-Z]{2} ?\\d{1,3}\\b");
   private static final Pattern LEAD_ZERO_PTN = Pattern.compile("^0+(?=\\d)");
   
   public CTNewHavenCountyBParser() {
@@ -82,8 +95,9 @@ public class CTNewHavenCountyBParser extends SmartAddressParser {
       parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ, body, data);
       sExtra = getLeft();
     }
-    if (sExtra.startsWith("Prem Map -")) {
-      sExtra = sExtra.substring(10).trim();
+    match = MAP_PFX_PTN.matcher(sExtra);
+    if (match.find()) {
+      sExtra = sExtra.substring(match.end()).trim();
       match = MAP_PTN.matcher(sExtra);
       if (match.find()) {
         data.strMap = match.group();

@@ -21,7 +21,7 @@ Implemented in 4 phases
       Generating test cases is one of the tricks to speed up parser writing.  
       Most parser test clases can be run as standalone applications.  When run
       in this  mode, they read a list of test pages terminated by a blank line
-      and output Java code to test that page.  Of course, the test alwasy works
+      and output Java code to test that page.  Of course, the test always works
       because it was build to test the current results, so you have to hand
       check the results, but it is a lot faster than building test casses 
       yourself.

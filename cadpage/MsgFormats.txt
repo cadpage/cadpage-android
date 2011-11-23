@@ -3439,16 +3439,6 @@ Sender: paging@easthavenfire.com
 **********************************************************
 **********************************************************
 **********************************************************
-East Haven, CT (in New Haven county)
-Contact: "Mark Nimons" <MNimons@easthavenfire.com>
-Sender: paging@easthavenfire.com
-System: NEXTGEN
-1100004628 CHARLIE MEDICAL TF1 00057 MAIN ST Prem Map -5 PP 80 SALTONSTALL PKWY/DEBORAH LA (Prem Map -5 PP 80) R1 111017 09:16
-1100004627 CHARLIE MEDICAL TF3 00267 RUSSO AVE Map -13 BRENNAN ST/ANN ST S5 111017 03:25
-1100004626 MVA WITH INJURIES LAUREL ST/ NORTH HIGH ST E1 R1 C4 S2 111016 23:29
-1100004625 CHARLIE MEDICAL TF4A 00038 TALMADGE AVE Prem Map -3 PP165 POND ST/DEAD END (Prem Map -3 PP165) R1 111016 22:00
-1100004612 ALPHA MEDICAL 01270 NORTH HIGH ST Prem Map -14 PP 63 CORBIN RD/MAPLE ST S5 111015 21:49
-1100004608 DELTA MEDICAL TF1 00152 KIMBERLY AVE Map -7 PARDEE PL/KIMBERLY AVE R1 111015 19:03
 **********************************************************
 Washington County, MD (alternate)
 Contact: cj rinehart <cjrr_10@hotmail.com>
