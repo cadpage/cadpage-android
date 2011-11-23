@@ -22,7 +22,6 @@ Sender: 7164383393@niagaracounty.com
 (59339 NCFC JABROWN ) 6331 Bayview Station leaking hot water tank
 (59687 NCFC MDIPASQU ) 1691,,LOCKPORT,ST,,80 YOF FELL SINK BLS-P BACK HALL
 (60104 NCFC HBABIS ) 3445 murphy rd/74yof weak/ 8/10 1611
-
 (60395 NCFC HBABIS ) Fire alarm act/eastern niagara newfane hosp 2600 williams st/8/10 1852
 ((6414) NCFC HBABIS ) 6061 edward av 18/94yof incoherant cons/br 9/27 1746
 ((6492) NCFC HBABIS ) 5981 ide rd fire alarm act 2nd floor 9/27 1813
