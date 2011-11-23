@@ -92,7 +92,7 @@ public class CTNewHavenCountyBParserTest extends BaseParserTest {
   }
   
   @Test
-  public void testParser2() {
+  public void testEastHaven() {
 
     doTest("T1",
         "1100010113 MEDICAL MEDC 00254  BRANFORD RD Prem Map -  HARRISON RD/FOXON RD  MED4 R1 111116 23:04\n",
@@ -113,9 +113,66 @@ public class CTNewHavenCountyBParserTest extends BaseParserTest {
         "UNIT:S5",
         "TIME:15:40");
 
+    doTest("T3",
+        "1100004628 CHARLIE MEDICAL TF1 00057 MAIN ST Prem Map -5 PP 80 SALTONSTALL PKWY/DEBORAH LA (Prem Map -5 PP 80) R1 111017 09:16",
+        "ID:1100004628",
+        "CALL:CHARLIE MEDICAL TF1",
+        "ADDR:57 MAIN ST",
+        "MAP:5 PP 80",
+        "X:SALTONSTALL PKWY / DEBORAH LA",
+        "UNIT:R1",
+        "TIME:09:16");
+
+    doTest("T4",
+        "1100004627 CHARLIE MEDICAL TF3 00267 RUSSO AVE Map -13 BRENNAN ST/ANN ST S5 111017 03:25",
+        "ID:1100004627",
+        "CALL:CHARLIE MEDICAL TF3",
+        "ADDR:267 RUSSO AVE",
+        "X:13 BRENNAN ST / ANN ST",
+        "UNIT:S5",
+        "TIME:03:25");
+
+    doTest("T5",
+        "1100004626 MVA WITH INJURIES LAUREL ST/ NORTH HIGH ST E1 R1 C4 S2 111016 23:29",
+        "ID:1100004626",
+        "CALL:MVA WITH INJURIES",
+        "ADDR:LAUREL ST & NORTH HIGH ST",
+        "X:E1 R1 C4",
+        "UNIT:S2",
+        "TIME:23:29");
+
+    doTest("T6",
+        "1100004625 CHARLIE MEDICAL TF4A 00038 TALMADGE AVE Prem Map -3 PP165 POND ST/DEAD END (Prem Map -3 PP165) R1 111016 22:00",
+        "ID:1100004625",
+        "CALL:CHARLIE MEDICAL TF4A",
+        "ADDR:38 TALMADGE AVE",
+        "MAP:3 PP165",
+        "X:POND ST / DEAD END",
+        "UNIT:R1",
+        "TIME:22:00");
+
+    doTest("T7",
+        "1100004612 ALPHA MEDICAL 01270 NORTH HIGH ST Prem Map -14 PP 63 CORBIN RD/MAPLE ST S5 111015 21:49",
+        "ID:1100004612",
+        "CALL:ALPHA MEDICAL",
+        "ADDR:1270 NORTH HIGH ST",
+        "MAP:14 PP 63",
+        "X:CORBIN RD / MAPLE ST",
+        "UNIT:S5",
+        "TIME:21:49");
+
+    doTest("T8",
+        "1100004608 DELTA MEDICAL TF1 00152 KIMBERLY AVE Map -7 PARDEE PL/KIMBERLY AVE R1 111015 19:03",
+        "ID:1100004608",
+        "CALL:DELTA MEDICAL TF1",
+        "ADDR:152 KIMBERLY AVE",
+        "X:7 PARDEE PL / KIMBERLY AVE",
+        "UNIT:R1",
+        "TIME:19:03");
+
   }
   
   public static void main(String[] args) {
-    new CTNewHavenCountyBParserTest().generateTests("T1", "ID CALL ADDR CITY MAP X UNIT TIME");
+    new CTNewHavenCountyBParserTest().generateTests("T3", "ID CALL ADDR CITY MAP X UNIT TIME");
   }
 }
