@@ -28,14 +28,11 @@ Contact: Chris crotty <nbfd819@gmail.com>
 Sender: paging@nbpolicect.org
 1100010113 MEDICAL MEDC 00254  BRANFORD RD Prem Map -  HARRISON RD/FOXON RD  MED4 R1 111116 23:04\n
 
-Contact: "nemo48@sbcglobal.net" <nemo48@sbcglobal.net>
-Sender: paging@easthavenfire.com
-1100005182 ALPHA MEDICAL 00055 THOMPSON ST  Prem Map -14 PP 65 FOXON RD/GAY ST  (Prem Map -14 PP 65)\4sS5 111120 15:40
-
 East Haven, CT (in New Haven county)
+Contact: "nemo48@sbcglobal.net" <nemo48@sbcglobal.net>
 Contact: "Mark Nimons" <MNimons@easthavenfire.com>
 Sender: paging@easthavenfire.com
-
+1100005182 ALPHA MEDICAL 00055 THOMPSON ST  Prem Map -14 PP 65 FOXON RD/GAY ST  (Prem Map -14 PP 65)\4sS5 111120 15:40
 1100004628 CHARLIE MEDICAL TF1 00057 MAIN ST Prem Map -5 PP 80 SALTONSTALL PKWY/DEBORAH LA (Prem Map -5 PP 80) R1 111017 09:16
 1100004627 CHARLIE MEDICAL TF3 00267 RUSSO AVE Map -13 BRENNAN ST/ANN ST S5 111017 03:25
 1100004626 MVA WITH INJURIES LAUREL ST/ NORTH HIGH ST E1 R1 C4 S2 111016 23:29
@@ -54,7 +51,7 @@ public class CTNewHavenCountyBParser extends SmartAddressParser {
   private static final Pattern MASTER = Pattern.compile("(\\d{10}) +(.*?) *\\d{6} (\\d\\d:\\d\\d)");
   private static final Pattern UNIT_PTN = Pattern.compile("(?: +(?:\\d{3}|(?:MED|R|T|E|ET|BR|A|S)\\d{1,2}))+$");
   private static final Pattern MAP_PFX_PTN =Pattern.compile("^(?:Prem )?Map -");
-  private static final Pattern MAP_PTN = Pattern.compile("^\\d{1,2} ?[A-Z]{2} ?\\d{1,3}\\b");
+  private static final Pattern MAP_PTN = Pattern.compile("^\\d{1,2}(?: ?[A-Z]{2} ?\\d{1,3})?\\b");
   private static final Pattern LEAD_ZERO_PTN = Pattern.compile("^0+(?=\\d)");
   
   public CTNewHavenCountyBParser() {
