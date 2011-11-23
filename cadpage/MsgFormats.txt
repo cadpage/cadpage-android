@@ -1612,10 +1612,15 @@ Loc: 118 S 4TH ST YNGWD_B X-sts: CHESTNUT ST & LOCUST ST  Inc#:F11000861 NATURE:
 Loc: 400 PAINTERSVILLE RD HEMP_T: @SUPER VALUE PERISHABLE WAREHOUSE X-sts: S CENTER AVE &   Inc#:F11001007 NATURE: AFA  CALLER: ADT....KANDRA TOC: 06:46:18 Comments: GENERAL & DRY RISER #9 WATER FLOW WATC  Disp: E28,E25-2,TL26,E27
 Loc: 325 N CENTER AVE N_STANTN_B: @KFC X-sts: WESTMORE AVE & HIGHLAND AVE Inc#:F11001017 NATURE: FIRE  CALLER: STEVEN NELSON TOC: 10:33:44 Comments: WATER IS COMING IN THRU THE LIGHTS POSS ELECTRICAL FIRE HE SAW SMOPKE IN THE KITC E26-1,E25-2,E19,E27
 ***************************************************************************
-York County, PA (PAYorkCountyParser)
+York County, PA (PAYorkCountyAParser)
 NORTH CODORUS TWP \n\n1983 SLAGEL RD STOVERSTOWN RD / VIEW DR FIRE STRUCT RESID Working Fire 12-01 S99-1 RIT1 17:05 
 YORK TWP COUNTRY MEADOWS \n\n2760 PINE GROVE RD 2760 PINE GROVE RD LEADER HEIGHTS RD, PINE GROVE CIR / PINE GROVE CMN FIRE AFA HIGH RISK general alm from the Leader Heights Building 19-04 FIRESTA19 E19 E18-1 E89-2 E35-2 TK19 TK34 EMSSTA18 A18 12:22 
 PENN TWP \n\n1060 WILSON AVE OLD RIDGE RD / YORK ST, GRANDVIEW RD FIRE VEHICLE HR mulching machine on fire 49-17 FIRESTA49 E49-2 E46-3 E49-1 
+***************************************************************************
+York County, PA (PAYorkCountyBParser)
+Rip and Run Report\nRip and Run Report\n\n~\nLocation Information:\n\nLocation:~~LEADER HEIGHTS~RD/~JOPPA~RD\nVenue:~YORK TWP\nCross Streets~\nQuadrant:~19-04\nDistrict:~19-04\n~\nCall Information:\n\nCall Number:~4326\nCall Type:~ DEBRIS REMOVAL\nSource:~DISPATCHED BY YORK COUNTY 911\nPriority:~ 4\nStatus:~IN PROGRESS\nAssigned To:~CALL TAKER 7\nCaller:~Starner,~Jeff\nCall Date/Time:~10/20/2011 22:55:13\nDispatch Date/Time:~10/20/2011 22:59:13\nArrive Date/Time:~\nClear Date/Time:~\nEnroute Date/Time:~\nLatest Unit Cleared Date/Time:~\n~\nIncident Number(s)\n2011-00001696~~GOODWILL FIRE COMPANY NO. 1 YORK TOWNSHIP\n2011-00025174~~YORK AREA REGIONAL POLICE DEPARTMENT\n~\nUnits Sent:~2\nFIRESTA19, 21-79~\n\nAlerts:\n~\nLocation Alerts\n\nPerson Alerts\n\nVehicle Alerts\n~~\nNarrative:\n\nNarrative Time~Narrative\n10/20/11 22:55:55~yes blocking\\n10/20/11 22:56:06~yes smoking\n10/20/11 22:56:08~yes leaking\n10/20/11 22:56:17~silver Toyota\n10/20/11 22:56:42~gry car\n10/20/11 22:56:48~in the bank lot\n10/20/11 22:56:56~no overturned\n10/20/11 22:57:14~c/o saw this happen\n10/20/11 22:57:56~he was not ivolved though\n10/20/11 22:58:03~inv\n10/20/11 22:57:00~Call #: 4328 - 2 veh acc\n10/20/11 22:57:05~Call #: 4328 - blocking entire roadway\n10/20/11 22:57:14~Call #: 4328 - both vehs are sedans\n10/20/11 22:57:30~Call #: 4328 - no smoking\n10/20/11 22:57:38~Call #: 4328 - possible leaking\n10/20/11 22:58:37~he spoke to the people and they do not need EMS according to them\n10/20/11 22:59:54~Nature Of Call: Veh Leaking
+Rip and Run Report\nRip and Run Report\n\n~\nLocation Information:\n\nLocation:~~LEADER HEIGHTS~RD/~PINE GROVE~RD\nVenue:~YORK TWP\nCross Streets~\nQuadrant:~19-04\nDistrict:~19-04\n~\nCall Information:\n\nCall Number:~8218\nCall Type:~ DEBRIS REMOVAL\nSource:~DISPATCHED BY YORK COUNTY 911\nPriority:~ 4\nStatus:~IN PROGRESS\nAssigned To:~BACK UP CALL TAKER 2\nCaller:~Winemiller,~Robert\nCall Date/Time:~10/24/2011 19:36:59\nDispatch Date/Time:~10/24/2011 19:40:19\nArrive Date/Time:~\nClear Date/Time:~\nEnroute Date/Time:~\nLatest Unit Cleared Date/Time:~\n~\nIncident Number(s)\n2011-00001705~~GOODWILL FIRE COMPANY NO. 1 YORK TOWNSHIP\n2011-00025487~~YORK AREA REGIONAL POLICE DEPARTMENT\n~\nUnits Sent:~2\nFIRESTA19, 21-81~\n\nAlerts:\n~\nLocation Alerts\n\nPerson Alerts\n\nVehicle Alerts\n~~\nNarrative:\n\nNarrative Time~Narrative\n10/24/11 19:38:09~no ot\n10/24/11 19:38:26~leaking fluids\n10/24/11 19:38:29~antifreeze\n10/24/11 19:38:45~no hazards\n10/24/11 19:39:10~both veh are blocking traffic\n10/24/11 19:39:19~in the middle of the intersection\n10/24/11 19:39:23~just occured\n10/24/11 19:39:43~veh 1: blue volzwagon passat\n10/24/11 19:39:50~veh 2: red dodge neon\n10/24/11 19:40:13~c/o has the blue veh\n10/24/11 19:40:32~Nature Of Call: fluids on roadway
+Rip and Run Report\nRip and Run Report\n\n~\nLocation Information:\n\nLocation:~2301~SPRINGWOOD~RD~\nVenue:~YORK TWP\nCross Streets~\nPAULINE DR / I 83 NB\nPhone:~(717) 741-2822\nQuadrant:~19-09\nDistrict:~19-09\n~\nCall Information:\n\nCall Number:~9986\nCall Type:~ FALLS CL 2\nSource:~DISPATCHED BY YORK COUNTY 911\nPriority:~ 4\nStatus:~IN PROGRESS\nAssigned To:~CALL TAKER 7\nCaller:~OnCall#Faith,~Acadian\nCall Date/Time:~10/26/2011 16:10:53\nDispatch Date/Time:~10/26/2011 16:14:53\nArrive Date/Time:~10/26/2011 16:19:44\nClear Date/Time:~\nEnroute Date/Time:~10/26/2011 16:17:09\nLatest Unit Cleared Date/Time:~10/26/2011 16:17:04\n~\nIncident Number(s)\n2011-00001710~~GOODWILL FIRE COMPANY NO. 1 YORK TOWNSHIP\n2011-00003105~~YOE FIRE CO AMBULANCE INC\n2011-00003067~~YOE FIRE COMPANY AMBULANCE SERVICE\n2011-00025631~~YORK AREA REGIONAL POLICE DEPARTMENT\n~\nUnits Sent:~5\nMICU19-2, MICU36-2, EMSSTA19, FIRESTA19, 21-89~\n\nAlerts:\n~\nLocation Alerts\n\nPerson Alerts\n\nVehicle Alerts\n~~\nNarrative:\n\nNarrative Time~Narrative\n10/26/11 16:12:49~Problem: fall-bleed from face.\2sPatient Info: 1 patient(s); 91 Years old; Female; Conscious: Yes; Breathing: Yes;\n10/26/11 16:12:49~ProQA Dispatch Message Sent; Chief Complaint Number: 17; Dispatch Level: 17B01; Response Text: Bravo\n10/26/11 16:12:56~no hosp preference\n10/26/11 16:13:16~lockbox on the side door-code for lock box is 2628 for key locatio\n10/26/11 16:13:27~Nature Of Call: 91 yof/\n10/26/11 16:13:35~ProQA Questionnaire Completed; Chief Complaint Number: 17; Dispatch Level: 17B01; Response Text: Bravo\n10/26/11 16:13:35~Problem: fall-bleed from face.\2sPatient Info: 1 patient(s); 91 Years old; Female; Conscious: Yes; Breathing: Yes;\n10/26/11 16:13:37~Nature Of Call: 91 yof/unkn dest\n10/26/11 16:32:01~Nature Of Call: Non emergency for lift assist
 ***************************************************************************
 Charleston County, SC (SCCharlestonCountyAParser)
 1110-0001587 District 03 Rescue Rescue Needed Address: Orleans Rd / Sam Rittenberg Blvd X Street:   Cmd Channel: Incident 04
@@ -3469,7 +3474,6 @@ Map MIDWAY 14:16:56\n
 **********************************************************
 **********************************************************
 **********************************************************
-**********************************************************
 ************  READY TO ROLL ******************************
 **********************************************************
 **********************************************************
@@ -4382,3 +4386,47 @@ PRI: 1 INC: F15111122000851 TYP: P1 MEDICAL APT: 19 AD: 1419 NE CAPITAL AVE CTY:
 PRI: 2 INC: F15111121000849 TYP: CITIZEN ASSIST AD: 1427 NE CAPITAL AVE CTY: PT LOC: PINES AT PENNFIELD CN: TAKESH WORTHEM CMT1:
 PRI: 1 INC: F15111121000850 TYP: P1 MEDICAL AD: 23650 M78 CTY: PT LOC: MELVIN WHITING RESD CN: LIFEALERT CMT1: --89YOM--HEART BE
 PRI: 2 INC: F15111121000849 TYP: CITIZEN ASSIST AD: 1427 NE CAPITAL AVE CTY: PT LOC: PINES AT PENNFIELD CN: TAKESH WORTHEM CMT1:
+**********************************************************
+Pottawatomie county, IA,KS,OK?
+Contact: Adam Gillaspie <adam.gillaspie@gmail.com>
+Sender: messaging@iamresponding.com
+
+[1700]  17-11-339 11/23 08:32
+20595 MCPHERSON AV, POTT COUNTY
+FIRE - WEED GRASS FIRE
+XST: STATE ORCHARD RD//SUNNYDALE RD 
+
+[1700]  17-11-338 11/21 17:33
+3000 RISEN SON BV, POTT COUNTY
+EMS/FIRE - UNCONCIOUS/FAINTING
+XST: VIRGINIA HILLS RD//
+
+[1700]  17-11-337 11/20 16:02
+18088 BENT TREE RIDGE, POTT COUNTY
+FIRE - AUTOMATIC FIRE DETECTION SIGNAL
+XST: THREE BRIDGE RD//DEAD END
+
+[1700]  17-11-336 11/20 15:26
+19897 BEVERLY MANOR, POTT COUNTY
+SICK PERSON - GENERIC
+XST: LONGVIEW LP//DEAD END
+
+[1700]  17-11-334 11/20 15:19
+19900 VIRGINIA HILLS RD, POTT COUNTY
+FALLS - GENERIC
+XST: CONCORD LP//
+
+[1700]  17-11-333 11/19 22:07
+1102 LONGVIEW LP, POTT COUNTY
+EMS/FIRE - BREATHING PROBLEMS
+XST: VALLEY VIEW DR//GREENVIEW RD
+
+[1700]  17-11-332 11/19 14:21
+14186 230 ST, POTT COUNTY
+POLE - GENERIC
+XST: CHESTNUT RD//
+
+[1700]  17-11-331 11/19 11:10
+21940 VINEYARD HILLS RD, POTT COUNTY
+SICK PERSON - GENERIC
+XST: EDGEWOOD RD// 
