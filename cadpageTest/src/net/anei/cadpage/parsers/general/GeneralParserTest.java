@@ -230,7 +230,7 @@ public class GeneralParserTest extends BaseParserTest {
     
     doTest("T27",
         ".... (CCVFD) STRUCTURE FIRE(69D01) 12102 STEEPLEWAY BLVD  (409A) (%GRA2%) COMMENTS:12102 STEEPLEWAY BLVD: cross streets: \nWEST RD &amp; THOROUGHBRED DR",
-        "CALL:(CCVFD) STRUCTURE FIRE(69D01)",
+        "CALL:STRUCTURE FIRE(69D01)",
         "ADDR:12102 STEEPLEWAY BLVD",
         "INFO:(409A) (%GRA2%) / 12102 STEEPLEWAY BLVD: cross streets:",
         "X:WEST RD & THOROUGHBRED DR");

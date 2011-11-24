@@ -14,6 +14,12 @@ public class SmsMmsMessageTest {
   @Test
   public void testParseInfo() {
     
+    doParseTest("TXGalvestonCounty",
+        " .... (Santa Fe Fire) CAD:GRASS FIRE 12603 PONDEROSA DR",
+        "ken@cadpage.org",
+        "Santa Fe Fire",
+        "CAD:GRASS FIRE 12603 PONDEROSA DR");
+    
     doParseTest("NCGuilfordCounty",
         "S:summerfieldfiredist Oct17-12:45 M:summerfieldfiredist\nCAD:UNDER CONTROL;808 JAMES DOAK PKWY; G\n\n",
         "ken@cadpage.org",

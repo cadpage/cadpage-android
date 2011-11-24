@@ -21,6 +21,7 @@ public class NJBurlingtonCountyParserTest extends BaseParserTest {
         "ADDR:10 WINDING WY",
         "CITY:Southampton",
         "X:PHEASANT CL/DEAD END",
+        "TIME:19:13:51",
         "ID:1711",
         "PHONE:(856) 287-8607",
         "NAME:VERIZON WIRELESS",
@@ -32,6 +33,7 @@ public class NJBurlingtonCountyParserTest extends BaseParserTest {
         "PRI:1",
         "ADDR:STOCKTONS BRIDGE RD & SIMONTOWN RD",
         "CITY:Pemberton Twp",
+        "TIME:19:47:43",
         "ID:1822",
         "PHONE:(000) 000-0000",
         "NAME:KGB CARRIER",
@@ -44,6 +46,7 @@ public class NJBurlingtonCountyParserTest extends BaseParserTest {
         "ADDR:6 PLEASANT ST",
         "CITY:Southampton",
         "X:MAIN ST/CHURCH ST",
+        "TIME:13:27:39",
         "ID:1700",
         "PHONE:(609) 859-2302",
         "NAME:RICHARD E FRANTZMAN",
@@ -56,6 +59,7 @@ public class NJBurlingtonCountyParserTest extends BaseParserTest {
         "ADDR:6 PLEASANT ST",
         "CITY:Southampton",
         "X:MAIN ST/CHURCH ST",
+        "TIME:13:27:39",
         "ID:1700",
         "PHONE:(609) 859-2302",
         "NAME:RICHARD E FRANTZMAN",
@@ -79,6 +83,7 @@ public class NJBurlingtonCountyParserTest extends BaseParserTest {
         "ADDR:19 FALCON DR",
         "CITY:Southampton",
         "X:NEW RD/ROBBINS WY",
+        "TIME:12:33:33",
         "ID:1728",
         "PHONE:(609) 859-0179",
         "NAME:T R SUNDSTROM",
@@ -92,6 +97,7 @@ public class NJBurlingtonCountyParserTest extends BaseParserTest {
         "CITY:Southampton",
         "X:RT70/RIDGE RD",
         "PLACE:EXXON 17 (RT206)",
+        "TIME:07:12:50",
         "ID:1712",
         "PHONE:(609) 859-0060",
         "NAME:E1782",
@@ -104,6 +110,7 @@ public class NJBurlingtonCountyParserTest extends BaseParserTest {
         "ADDR:413 CHAIRVILLE RD",
         "CITY:Southampton",
         "X:NEW FREEDOM RD/CHURCH RD",
+        "TIME:14:15:30",
         "ID:1713",
         "PHONE:(609) 714-7797",
         "NAME:LORI FERRI",
@@ -116,6 +123,7 @@ public class NJBurlingtonCountyParserTest extends BaseParserTest {
         "ADDR:3 SUNSET BV",
         "CITY:Southampton",
         "X:RT530/WINDING WY",
+        "TIME:12:57:51",
         "ID:1711",
         "PHONE:(609) 556-9277",
         "NAME:LENA FRIEDMEN",
@@ -129,6 +137,7 @@ public class NJBurlingtonCountyParserTest extends BaseParserTest {
         "CITY:Pemberton Twp",
         "X:BUSANSKY LA/PEMBERTON BROWNS MILLS RD",
         "PLACE:STA 181",
+        "TIME:14:48:58",
         "ID:1811",
         "PHONE:(609) 893-2114",
         "INFO:BUSANSKY LA/PEMBERTON BROWNS MILLS RD");
@@ -141,6 +150,7 @@ public class NJBurlingtonCountyParserTest extends BaseParserTest {
         "CITY:Southampton",
         "X:RT38/EASTAMPTON TWP LINE",
         "PLACE:VINCENTOWN DINER",
+        "TIME:15:08:40",
         "ID:1711",
         "PHONE:(609) 354-2191",
         "NAME:RICHARD SIMONE",
@@ -148,6 +158,6 @@ public class NJBurlingtonCountyParserTest extends BaseParserTest {
   }
   
   public static void main(String[] args) {
-    new NJBurlingtonCountyParserTest().generateTests("T8");
+    new NJBurlingtonCountyParserTest().generateTests("T1");
   }
 }
