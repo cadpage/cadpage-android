@@ -114,6 +114,11 @@ CAD:DOWN POWER LINES;WINDY MEADOW DR/CORINTH PKWY;CORI;CALLER ADV HIS DRIVER THA
 CAD:FALLS;1620 VILLA CT;CORI;[Medical Priority Info] PROBLEM: FELL OUT OF BED # PATS: 1 AGE: 71 Years SEX: Male CONSCIOUS: Yes BREATHING: Yes [08/08/11 14:34:3
 CAD:CITIZEN ASSIST;212 S SHADY SHORES RD;LAKE;NEAR MAIN OFFICE;AT THE HUNDLEY SHORES APARTMENTS [08/08/11 09:54:29 JCADENHEAD] CALLER HAS TRIED EVERYTHING SHE
 ***************************************************************************
+Galveston County, TX (TXGalvestonCountyParser)
+.... (Santa Fe Fire) CAD:GRASS FIRE 12603 PONDEROSA DR
+.... (Santa Fe Fire) CAD:GAS LEAK 11929 15TH ST SMELL OF GAS [10/27/11 13:40:00 JHILLMAN]
+.... (Santa Fe Fire) CAD:GRASS FIRE 5021 AVE O ST LARGE GRASS FIRE [10/28/11 09:48:02 EATONR]
+***************************************************************************
 Nassau Bay, TX (TXNassauBayParser)
 39:CAD:FYI: ;NBFD;FIRE ALARM;18101 POINT LOOKOUT DR;NB;NB;01/12/2011  22:10:16;TRASHROOM 1 SMOKE DETECTOR [01/12/11 22:11:43 NHUGHES] fire alarms going
 40:CAD:FYI: ;NBFD;STRUCTURE FIRE;1020-264 W NASA PKWY;WB;WBW;01/13/2011 11:46:25;smoke inside [01/13/11 11:45:40 TSWANSON]
@@ -3500,36 +3505,6 @@ Map MIDWAY 14:16:56\n
 **********************************************************
 **********************************************************
 **********************************************************
-Galveston County, TX
-Contact: Shawn Sprayberry <shawnsprayberry@gmail.com>
-Santa Fe Texas zip codes 77510, 77517  We mutual aid sometimes to Hitchcock
-Tx, and Dickinson Tx  the CAD ID blocks are SANT (santa fe) HITC
-(Hitchcock) and DICK (Dickinson) ( yup had to laugh at that one)  We have
-people that have all the carriers, but for now, i have the sent from txt
-messages number that are consistant for verizon is the 1st 3 digits are
-777-xxx-xxxx. and AT&T is 410-xxx-xxxx
-
-We have dispatched from the PD's CAD to iamresponding.com, then it
-distributes to us.  any questions, email.  Thanks
-
- .... (Santa Fe Fire) CAD:GRASS FIRE 12603 PONDEROSA DR
-
- .... (Santa Fe Fire) CAD:GAS LEAK 11929 15TH ST SMELL OF GAS [10/27/11
-13:40:00 JHILLMAN]
-
- .... (Santa Fe Fire) CAD:GRASS FIRE 5021 AVE O ST LARGE GRASS FIRE
-[10/28/11 09:48:02 EATONR]
-
- .... (Santa Fe Fire) CAD:FYI: FIRE - NON SPECIFIC 4146 HOLLOWAY RD/HWY 6 ST
-
-.... (Santa Fe Fire) CAD:POLE FIRE 7231 AVE M ST GRASS IS ON FIRE ALSO
-[10/31/11 13:17:49 EATONR] UTILITY POLE ON FIRE [10/31/11 13:17:31 EATONR]
-
- .... (Santa Fe Fire) CAD:FYI: FIRE - NON SPECIFIC 4607 GEORGIA ST LARGE
-TRASH FIRE UNATTENDED [11/03/11 07:59:46 JHILLMAN]
-
- .... (Santa Fe Fire) CAD:LINE DOWN 1946 N FM 646 RD/HARRIETT LN LINE DOWN
-ON THE GROUND [11/03/11 09:55:42 JHILLMAN]
 **********************************************************
 Deepwater, NJ in Salem county (alternate)
 Contact: "m.warner1@comcast.net" <m.warner1@comcast.net>
