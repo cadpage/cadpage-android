@@ -219,6 +219,11 @@ Northampton County, PA (PANorthamptonCountyParser)
 [e49]BLS >BASIC LIFE SUPPORT CALL 1323 NEWPORT AVE Apt: REAR Bldg NORTHAMPTON TONY FERRERA Map: Grids:0,0 Cad: 2011-00000
 [e49]MVAI >MVA WITH INJURIES 248 AT PENNSVILLE LIGHT LEHIGH TWP NATALIE BRODIANO Cad: 2011-0000086361
 *******************************************************************************
+Butler County, PA (PAButlerCountyParser)
+"."@butlerco.911 :ALAF >ALARM/FIRE 20436 ROUTE 19 CRANBERRY TWP GUARDIAN Map: Grids:00000,000 Cad: 2011-0000075272
+"."@butlerco.911 :CO3 >CO DETECTOR / FIRE RESPONSE 437 SETTLERS VILLAGE CIR CRANBERRY TWP ALEJANDRO, GABRIEL Map: Grids:00000,000 Cad: 2011-0000074937
+"."@butlerco.911 :SERV >SERVICE CALL 143 FOX RUN RD CRANBERRY TWP CHEETHAM WILLIAM Map: Grids:00000,000 Cad: 2011-0000075245
+*******************************************************************************
 Snyder County, PA (PASnyderCountyParser)
 SNYDER911:IMMTRA>IMMEDIATE TRANSPORT 308 S MARKET ST XS:SASSAFRAS ST SELINSGROVE BORO YOUNG, AMBER Map:Grids:00000,000 CAD:2011-0000005449
 SNYDER911:CARSY>CARDIAC SYMPTOMS 2084 ROUTE 522 PENN TWP HUFFNAGLE, CRYSTAL Map:Grids:00000,000 CAD:2011-0000005448
@@ -3493,31 +3498,7 @@ Map MIDWAY 14:16:56\n
 **********************************************************
 **********************************************************
 **********************************************************
-Butler County, PA
-Contact: Jeff Gooch <goochff21@gmail.com>
-"."@butlerco.911 :ALAF >ALARM/FIRE 20436 ROUTE 19 CRANBERRY TWP GUARDIAN Map: Grids:00000,000 Cad: 2011-0000075272
-"."@butlerco.911 :CO3 >CO DETECTOR / FIRE RESPONSE 437 SETTLERS VILLAGE CIR CRANBERRY TWP ALEJANDRO, GABRIEL Map: Grids:00000,000 Cad: 2011-0000074937
-"."@butlerco.911 :SERV >SERVICE CALL 143 FOX RUN RD CRANBERRY TWP CHEETHAM WILLIAM Map: Grids:00000,000 Cad: 2011-0000075245
-"."@butlerco.911 :FIRST >FIRE - STRUCTURE 20036 ROUTE 19 CRANBERRY TWP CANDLEWOOD EXTENDED STAY Map: Grids:00000,000 Cad: 2011-0000074503
-
-
-Body:Bldg: - Key Map: 498E - Cross Streets:GRAND AVE/AVE C - Box #:2001
-Send time:1320516857000
-Rec time: 1320516724872
-
-Body:Bldg: - Key Map: 498E - Cross Streets:GRAND AVE/AVE C - Box #:2001
-Body:ID#:11-11-38034 - 29D02m - 29D2 MOTOR VEHICLE A - 15410 S Brentwood Dr
-Send time:1320516860000
-Rec time: 1320516736774
-
-Body:ID#:11-11-38034 - 29D02m - 29D2 MOTOR VEHICLE A - 15410 S Brentwood Dr - Apt: -
-Send time:1320516858000
-Rec time: 1320516736268
-
-Body:Bldg: - Key Map: 498E - Cross Streets:GRAND AVE/AVE C - Box #:2001
-Body:ID#:11-11-38034 - 29D02m - 29D2 MOTOR VEHICLE A - 15410 S Brentwood Dr - Apt: -
-Send time:1320516915000
-Rec time: 1320516781739
+**********************************************************
 **********************************************************
 Galveston County, TX
 Contact: Shawn Sprayberry <shawnsprayberry@gmail.com>
