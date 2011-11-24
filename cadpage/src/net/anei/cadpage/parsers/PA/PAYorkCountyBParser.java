@@ -8,7 +8,7 @@ import net.anei.cadpage.SmsMsgInfo.Data;
 import net.anei.cadpage.parsers.FieldProgramParser;
 
 /*
-York County, PA (alternate?)
+York County, PA
 Contact: William Blackwell <ff2blackwell@yahoo.com>
 Sender:messaging@iamresponding.com
 
