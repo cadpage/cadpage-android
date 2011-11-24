@@ -20,6 +20,7 @@ public class PAChesterCountyCParserTest extends BaseParserTest {
         "ADDR:1905 LENAPE UNIONVILLE RD",
         "X:RED LION RD & MUNICIPAL BOUNDA",
         "CITY:POCOPSON TWP",
+        "TIME:21:30",
         "INFO:WOOD STOVE IN BASEMENT, F");
 
     doTest("T2",
@@ -28,6 +29,7 @@ public class PAChesterCountyCParserTest extends BaseParserTest {
         "ADDR:241 SAGINAW RD",
         "X:LEWISVILLE RD & HOLLOW ROCK LA",
         "CITY:NEW LONDON TWP",
+        "TIME:12:52",
         "INFO:DETAILS TO FOLLOW");
 
     doTest("T3",
@@ -35,6 +37,7 @@ public class PAChesterCountyCParserTest extends BaseParserTest {
         "CALL:ACCIDENT - SERIOUS *",
         "ADDR:N BROAD ST & E LINDEN ST",
         "CITY:KENNETT SQUARE",
+        "TIME:11:31",
         "INFO:1 VEH, BLOCKING, CAR SMOK");
 
     doTest("T4",
@@ -42,12 +45,14 @@ public class PAChesterCountyCParserTest extends BaseParserTest {
         "CALL:FUEL SPILL *",
         "ADDR:1001 HICKORY HILL RD",
         "X:HONEYTREE LA & HILLENDALERD",
+        "TIME:18:15",
         "INFO:250 GALLON OIL TANK FOR F");
 
     doTest("T5",
         "OUT BUILDING / SHED FIRE **6 CARNATION LA*14:54*25 ENG ASSIST D59 – SHED",
         "CALL:OUT BUILDING / SHED FIRE *",
         "ADDR:6 CARNATION LN",
+        "TIME:14:54",
         "INFO:25 ENG ASSIST D59 – SHED");
 
     doTest("T6",
@@ -57,12 +62,14 @@ public class PAChesterCountyCParserTest extends BaseParserTest {
         "PLACE:STATION 23",
         "X:GAP NEWPORT PK & DEAD END",
         "CITY:AVONDALE",
+        "TIME:21:18",
         "INFO:MIC251 COVERING SOUTH");
 
     doTest("T7",
         "ALARM - CARBON MONOXIDE **5 COOPERSHALWK LA, CHADDS FORD*09:12*ENG25 ASST D59",
         "CALL:ALARM - CARBON MONOXIDE *",
         "ADDR:5 COOPERSHALWK LN, CHADDS FORD",
+        "TIME:09:12",
         "INFO:ENG25 ASST D59");
 
     doTest("T8",
@@ -72,6 +79,7 @@ public class PAChesterCountyCParserTest extends BaseParserTest {
         "PLACE:HILTON GARDENS INN",
         "X:SCHOOLHOUSE RD & ONIX DR",
         "CITY:EAST MARLBOROUGH TWP",
+        "TIME:20:25",
         "INFO:GEN FIRE – NOTIYFING");
 
     doTest("T9",
@@ -81,6 +89,7 @@ public class PAChesterCountyCParserTest extends BaseParserTest {
         "PLACE:POCOPSON HOME",
         "X:RED BRIDGE LA & LENAPE UNIONVI",
         "CITY:POCOPSON TWP",
+        "TIME:03:12",
         "INFO:RP ADV RESIDENT PULLED FI");
 
     doTest("T10",
@@ -90,15 +99,8 @@ public class PAChesterCountyCParserTest extends BaseParserTest {
         "PLACE:NEW BOLTON CTR MAIN CM",
         "X:WIDENER LA & BYRD RD",
         "CITY:EAST MARLBOROUGH TWP",
+        "TIME:19:32",
         "INFO:SMOKE IN BARN - NO FIRE S");
-
-    doTest("T11",
-        "CHIMNEY FIRE **1905 LENAPE UNIONVILLE RD*RED LION RD & MUNICIPAL BOUNDA*POCOPS*21:30*WOOD STOVE IN BASEMENT, F",
-        "CALL:CHIMNEY FIRE *",
-        "ADDR:1905 LENAPE UNIONVILLE RD",
-        "X:RED LION RD & MUNICIPAL BOUNDA",
-        "CITY:POCOPSON TWP",
-        "INFO:WOOD STOVE IN BASEMENT, F");
   }
   
   public static void main(String[] args) {

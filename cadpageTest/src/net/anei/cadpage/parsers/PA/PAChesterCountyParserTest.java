@@ -37,6 +37,12 @@ public class PAChesterCountyParserTest {
     }
   }
   
+  public static class TestD3 extends PAChesterCountyD3ParserTest {
+    public TestD3() {
+      setParser(new PAChesterCountyParser());
+    }
+  }
+  
   public static class TestE extends PAChesterCountyEParserTest {
     public TestE() {
       setParser(new PAChesterCountyParser());

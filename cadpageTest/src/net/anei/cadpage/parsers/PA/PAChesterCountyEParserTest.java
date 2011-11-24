@@ -16,6 +16,8 @@ public class PAChesterCountyEParserTest extends BaseParserTest {
 
     doTest("T1",
         "(Dispatch) 05/31/11 * 13:30:52 * SYNCOPE/FAINTING - ALS * * 880 W BALTIMORE PK ,58 * LEWIS RD & PUSEY MILL RD * PENN * WELLNESS CENTER OFFICE-SOUTHER * GRANDEL,",
+        "DATE:05/31/11",
+        "TIME:13:30:52",
         "CALL:SYNCOPE/FAINTING - ALS",
         "ADDR:880 W BALTIMORE PK",
         "X:LEWIS RD & PUSEY MILL RD",
@@ -25,6 +27,8 @@ public class PAChesterCountyEParserTest extends BaseParserTest {
 
     doTest("T2",
         "(Dispatch) 05/31/11 * 11:10:31 * OTHER TYPE RESCUE * * 880 W BALTIMORE PK ,58 * LEWIS RD & PUSEY MILL RD * PENN * IN PLOT-YMCA *  * 910-750-762 * 2264 *  * 22 *",
+        "DATE:05/31/11",
+        "TIME:11:10:31",
         "CALL:OTHER TYPE RESCUE",
         "ADDR:880 W BALTIMORE PK",
         "X:LEWIS RD & PUSEY MILL RD",
@@ -36,6 +40,8 @@ public class PAChesterCountyEParserTest extends BaseParserTest {
 
     doTest("T3",
         "(Dispatch) 05/31/11 * 09:30:53 * HYPO TENSION - ALS * * 774 W GLENVIEW DR ,58 * PHEASANT WY & EDGEWOOD CT * PENN * - *  * 610-345-136 * 2203 *  * 22 * Dispatch *",
+        "DATE:05/31/11",
+        "TIME:09:30:53",
         "CALL:HYPO TENSION - ALS",
         "ADDR:774 W GLENVIEW DR",
         "X:PHEASANT WY & EDGEWOOD CT",
@@ -46,6 +52,8 @@ public class PAChesterCountyEParserTest extends BaseParserTest {
 
     doTest("T4",
         "(Dispatch) 05/31/11 * 00:36:12 * BARN FIRE * * 248 HOOD RD ,48 * MUNICIPAL BOUNDARY & N MOSQUITO LA * WMARLB * - *  * 610-316-731 * 3604   * 36 * Dispatch *",
+        "DATE:05/31/11",
+        "TIME:00:36:12",
         "CALL:BARN FIRE",
         "ADDR:248 HOOD RD",
         "X:MUNICIPAL BOUNDARY & N MOSQUITO LA",
