@@ -332,6 +332,7 @@ public class SmsMmsMessage implements Serializable {
   private static final Pattern EMAIL_PFX_PATTERN = Pattern.compile("^([\\w\\.]+@[\\w\\.]+)\\n");
   private static final Pattern E_S_M_PATTERN = Pattern.compile("^(?:([^ ,;/]+) *)?S: *(.*?) +M:");
   
+  
   /**
    * Perform any front end unscrambling required to recover the original text
    * message sent by dispatch for parsing purposes.
@@ -533,6 +534,9 @@ public class SmsMmsMessage implements Serializable {
     // message subjects.  There may be more than one of these, in which case
     // only the last is retained
     int pt1 = 0;
+    
+    // First skip leading dots and spaces
+    while (pt1 < body.length() && " .".indexOf(body.charAt(pt1))>=0) pt1++;
     while (pt1 < body.length()) {
       while (pt1 < body.length() && body.charAt(pt1) == ' ') pt1++;
       if (pt1 >= body.length()) break;

@@ -22,7 +22,7 @@
       android:textAppearance="?android:attr/textAppearanceLarge"
       android:maxLines="1"
       android:layout_height="wrap_content"
-      android:text="@string/pref_donate_status_title"
+      android:text="@string/pref_payment_status_title"
       android:layout_margin="8dp"
       android:id="@+id/DonateStatusView"
       />

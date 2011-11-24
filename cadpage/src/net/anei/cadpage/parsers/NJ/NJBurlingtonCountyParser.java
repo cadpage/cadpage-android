@@ -47,11 +47,11 @@ public class NJBurlingtonCountyParser extends FieldProgramParser {
       "Shamong",    "Shamong"
   });
   
-  private static final Pattern MARKER = Pattern.compile("^\\.\\.\\.\\. \\(([\\w ]+)\\) : ");
+  private static final Pattern SUBJECT_PTN = Pattern.compile("[\\w ]+");
   
   public NJBurlingtonCountyParser() {
     super(CITY_CODES, "BURLINGTON COUNTY", "NJ",
-           "PRI ADDR! Venue:CITY! CrossStreet:ADDR2? LocatedBetween:X? PLACE CallTime:SKIP ID SKIP PHONE Caller:NAME Complaintant:SKIP NatureOfCall:INFO INFO+ AdditionalInfo:INFO");
+           "PRI ADDR! Venue:CITY! CrossStreet:ADDR2? LocatedBetween:X? PLACE CallTime:TIME ID SKIP PHONE Caller:NAME Complaintant:SKIP NatureOfCall:INFO INFO+ AdditionalInfo:INFO");
   }
   
   @Override
@@ -60,12 +60,14 @@ public class NJBurlingtonCountyParser extends FieldProgramParser {
   }
   
   @Override
-  public boolean parseMsg(String body, Data data) {
+  public boolean parseMsg(String subject, String body, Data data) {
     
-    Matcher match = MARKER.matcher(body);
+    Matcher match = SUBJECT_PTN.matcher(subject);
     if (!match.find()) return false;
-    data.strSource = match.group(1);
-    body = body.substring(match.end()).trim();
+    data.strSource = subject;
+    
+    if (!body.startsWith(": ")) return false;
+    body = body.substring(2).trim();
     
     // See if we have all of it
     int pt = body.indexOf("Additional Inc#s");

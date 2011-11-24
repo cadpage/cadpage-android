@@ -8,7 +8,7 @@
   
   <string name="free_release_text"><string>
     This is the free version of Cadpage.  This version will never bother you
-    about donating money for future Cadpage development.  Customer support
+    for financial contributions to future Cadpage development.  Customer support
     is minimal, and updates will run 4-6 months behind the standard version.\n
     \n
     If you are new Cadpage user, you should start out using the standard
@@ -34,7 +34,7 @@
   <string name="donate_free_title">This is the free version of Cadpage</string>
   <string name="donate_free_text">
     This is the free version of Cadpage.  It is functionally equivalent to the
-    standarad version of Cadpage, except that customer support is minimal and
+    standard version of Cadpage, except that customer support is minimal and
     updates will run 4-6 months behind the standard version. 
   </string>
   
@@ -93,16 +93,16 @@
     your Paypal account and see if that helps.
   </string>
   
-  <string name="donate_wrong_user_title">"I've made a Paypal donation"</string>
+  <string name="donate_wrong_user_title">"I've made a Paypal payment"</string>
   <string name="donate_wrong_user_text">
     Our sincere apologies.  Cadpage tracks you by your Google Market account
-    "which is %s. If this doesn't match the Paypal account you used to donate"
-    to us, we will need some help figuring out who you are. Just clicking the
+    "which is %s. If this doesn't match the Paypal account you used to pay"
+    us, we will need some help figuring out who you are. Just clicking the
     button below will send us an email that will hopefully clear things up.
   </string>
   
-  <string name="donate_android_title">Donate through Android Market</string>
-  <string name="donate_paypal_title">Donate through PayPal</string>
+  <string name="donate_android_title">Purchase through Android Market</string>
+  <string name="donate_paypal_title">Purchase through PayPal</string>
   <string name="donate_whats_up_title">What\'s this all about??</string>
   <string name="donate_email_title">Send Email</string>
   
@@ -123,7 +123,7 @@
   <string name="donate_magic_word_text">Enter authorization code</string>
   <string name="donate_magic_word_reject">Sorry, that is not a recognized authorization code</string>
   
-  <string name="donate_android_problem_title">I can\'t make Android Market donations</string>
+  <string name="donate_android_problem_title">I can\'t make Android Market payments</string>
   <string name="donate_android_problem_text">
     Bummer, let\'s see what we can do about that.
   </string>
@@ -132,7 +132,7 @@
   
   <string name="donate_sob_story_title">"I can't afford $10"</string>
   <string name="donate_sob_story_text">
-    "Tell us why you can't afford a $10 donation.  We're really easy on these.\n\n"
+    "Tell us why you can't afford a $10 payment.  We're really easy on these.\n\n"
     Is there anything we can do to make Cadpage easier to use?  Do you any
     suggestions on better ways we can finance the considerable costs of maintaining
     Cadpage?

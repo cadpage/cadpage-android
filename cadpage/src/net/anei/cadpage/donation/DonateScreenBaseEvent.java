@@ -55,7 +55,7 @@ public abstract class DonateScreenBaseEvent extends DonateEvent {
   public Dialog createDialog(Activity activity, int id) {
     return new AlertDialog.Builder(activity)
         .setIcon(R.drawable.ic_launcher)
-        .setTitle(R.string.pref_donate_status_title)
+        .setTitle(R.string.pref_payment_status_title)
         .setMessage(id)
         .setPositiveButton(R.string.donate_btn_done, null)
         .show();

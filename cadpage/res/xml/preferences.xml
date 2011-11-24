@@ -4,8 +4,8 @@
   <PreferenceCategory
     android:title="@string/pref_config_title">
     <Preference 
-      android:key="@string/pref_donate_status_key"
-      android:title="@string/pref_donate_status_title"/>
+      android:key="@string/pref_payment_status_key"
+      android:title="@string/pref_payment_status_title"/>
     <CheckBoxPreference
       android:key="@string/pref_enabled_key"
       android:title="@string/pref_enabled_title"

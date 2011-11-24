@@ -9,8 +9,6 @@ import net.anei.cadpage.preferences.EditTextPreference;
 import net.anei.cadpage.preferences.LocationCheckBoxPreference;
 import net.anei.cadpage.preferences.LocationListPreference;
 import net.anei.cadpage.preferences.LocationManager;
-import android.app.AlertDialog;
-import android.app.Dialog;
 import android.content.SharedPreferences;
 import android.content.res.Resources;
 import android.os.Bundle;
@@ -21,13 +19,8 @@ import android.preference.PreferenceManager;
 import android.preference.PreferenceScreen;
 import android.preference.Preference.OnPreferenceChangeListener;
 import android.preference.Preference.OnPreferenceClickListener;
-import android.view.LayoutInflater;
-import android.view.Menu;
-import android.view.View;
 
 public class SmsPopupConfigActivity extends PreferenceActivity {
-  
-  private static final int DIALOG_DONATE = Menu.FIRST;
   
   private String parserFilter = "";
   private String parserDefCity = "";
@@ -103,8 +96,8 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
     aboutPref.setDialogTitle(CadPageApplication.getNameVersion());
     aboutPref.setDialogLayoutResource(R.layout.about);
     
-    // Set up the donation status tracking screens
-    Preference donate = (Preference)findPreference(getString(R.string.pref_donate_status_key));
+    // Set up the payment status tracking screens
+    Preference donate = (Preference)findPreference(getString(R.string.pref_payment_status_key));
     MainDonateEvent.instance().setPreference(this, donate);
     
     // Set up the two location preference screens
@@ -299,53 +292,6 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
 
     boolean enabled = myPrefs.getBoolean(getString(R.string.pref_enabled_key), true);
     mEnabledPreference.setChecked(enabled);
-  }
-
-  @Override
-  protected Dialog onCreateDialog(int id) {
-    switch (id) {
-
-      case DIALOG_DONATE:
-        LayoutInflater factory = getLayoutInflater();
-        final View donateView = factory.inflate(R.layout.donate, null);
-//
-//        PayPal ppObj = PayPal.initWithAppID(this, "APP-80W284485P519543T", PayPal.ENV_NONE);
-//        CheckoutButton launchPayPalButton = ppObj.getCheckoutButton(this, PayPal.BUTTON_278x43, CheckoutButton.TEXT_DONATE);
-//        
-//        //launchPayPalButton = (Button) donateView.findViewById(R.id.DonatePaypalButton);
-//        launchPayPalButton.setOnClickListener(new OnClickListener() {
-//          public void onClick(View v) {
-//           // Intent i = new Intent(Intent.ACTION_VIEW);
-//           // i.setData(SmsPopupUtils.DONATE_PAYPAL_URI);
-//           // SmsPopupConfigActivity.this.startActivity(i);
-//            
-//            PayPalPayment newPayment = new PayPalPayment();
-//            newPayment.setCurrencyType("USD");
-//            newPayment.setRecipient("support@cadpage.org");
-//            Intent checkoutIntent = PayPal.getInstance().checkout(newPayment, getBaseContext());
-//            checkoutIntent.putExtra(PayPalActivity.EXTRA_PAYMENT_INFO, newPayment);
-//            startActivityForResult(checkoutIntent, 1);
-//          }
-//
-//          public void onActivityResults(int requestCode, int resultCode, Intent data) {
-//            switch(resultCode) {
-//            case Activity.RESULT_OK:
-//            break;
-//            case Activity.RESULT_CANCELED:
-//            break;
-//            case PayPalActivity.RESULT_FAILURE:
-//            }
-//          }
-//        });
-
-        return new AlertDialog.Builder(this)
-        .setIcon(R.drawable.ic_launcher)
-        .setTitle(R.string.pref_donate_title)
-        .setView(donateView)
-        .setPositiveButton(android.R.string.ok, null)
-        .create();
-    }
-    return super.onCreateDialog(id);
   }
   
   // If location code changes during this session, force a rebuild of
