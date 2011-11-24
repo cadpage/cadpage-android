@@ -1124,6 +1124,11 @@ PORZIO BROMBERG & NEWMAN (22) , 100 SOUTHGATE PKY [Morris Twp] (SICK PERSN) - SE
 4 JARDINE CT [Morris Twp] (UNCONSCN) - 84 YOM UNCONCIOUS IS BREATHING. - E2368 15:37
 340 SPEEDWELL AVE [Morris Plains] (BREATHING) - MORISM FAMILY MEDICINE ASSOC. DR. JOSEPH OFFICE 50 YOF DIFF BREATHING IS ON OXYGEN FULL TIME - 2398 11:25
 ***************************************************************************
+Neptune, NJ (NJNeptuneParser)
+Subject:NEPTUNE PD COMMS CENTER\nhamilton fire/sr fire and hamilton first aid 716 shell place carbon monoxide alarm
+Subject:NEPTUNE PD COMMS CENTER\nhamilton first aid 716 shell pl carbon monoxide alarm with symptoms﻿
+Subject:NEPTUNE PD COMMS CENTER\nHFA-CANCEL CALL 716 SHELL PL REFUSAL AS PER PATROL﻿
+***************************************************************************
 Somerset County, NJ (NJSomersetCountyParser)
 [CAD]  [CAD] EFD-FD:11051201:05/12/2011 15:44:57:FIRE ALARM: FRANKLI-CARING HOUSE PROJECTS / 18 BLOOMFIELD AVE
 [CAD]  [CAD] EFD-FD:11051982:05/14/2011 11:51:28:FIRE ALARM:GENERAL: FRANKLI-HAMPTON INN / 255 DAVIDSON AVE
@@ -3487,26 +3492,6 @@ Map MIDWAY 14:16:56\n
 **********************************************************
 **********************************************************
 **********************************************************
-Neptune, NJ
-Contact: Ross Leibowitz <rossl32100@gmail.com>
-Sender: iar@neptunetownship.org
-
-Subject:NEPTUNE PD COMMS CENTER
-hamilton fire/sr fire and hamilton first aid 716 shell place carbon
-monoxide alarm
-
-Subject:NEPTUNE PD COMMS CENTER
-hamilton first aid 716 shell pl carbon monoxide alarm with symptoms﻿
-
-Subject:NEPTUNE PD COMMS CENTER
-HFA-CANCEL CALL 716 SHELL PL REFUSAL AS PER PATROL﻿
-
-Subject:NEPTUNE PD COMMS CENTER
-all neptune ems all call ocean grove 98.5 lawrence ave female feeling weak
-and dizzy
-
-Subject:NEPTUNE PD COMMS CENTER
-EMS ALL CALL 98.5 LAWRENCE AV FOR ALERTERD MENTAL STATUS
 **********************************************************
 Butler County, PA
 Contact: Jeff Gooch <goochff21@gmail.com>
