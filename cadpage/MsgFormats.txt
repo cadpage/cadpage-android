@@ -1539,7 +1539,12 @@ Chester County, PA (PAChesterCountyD1Parser)
 Chester County, PA (PAChesterCountyD2Parser)
 (309 STARR ST ,15) ACCIDENT - INJURIES * * VEH VRS POLE\nDETAILS TO FOLLOW\nTYP: ACCUNK  --> ACCINJ  \nRSP: 0050   --> 0004   \n* 05/08/11 * 11:11 *
 (300 W HIGH ST ,15) ALARM - FIRE * * AFA - GEN - ATN\n* 05/08/11 * 05:42 *
-(325 BRIDGE ST ,15) ACCIDENT - PEDESTRIAN STRUCK * * PD OS WITH ONE  SUBJ ON THE GROUND\nLOC: 300 BRIDGE ST ,15 -->\2s325 BRIDGE ST ,15-\n- FAMILY DOLLAR S * 05/08/11
+(325 BRIDGE ST ,15) ACCIDENT - PEDESTRIAN STRUCK * * PD OS WITH ONE  SUBJ ON THE GROUND\nLOC: 300 BRIDGE ST ,15 -->  325 BRIDGE ST ,15-\n- FAMILY DOLLAR S * 05/08/11
+***************************************************************************
+Chester County, PA (PAChesterCountyD3Parser)
+(1566 VASSAR CT ,53) 56  10/21/11  15:37  APLNC  APPLIANCE FIRE *  1566 VASSAR CT ,53  -  EGOSHN  HERSHEYS MILL V
+(1515 MANLEY RD ,53) 54  10/26/11  09:45  APT  APARTMENT BUILDING FIRE *  1515 MANLEY RD ,53  BUILDING 5, APT 433-OXFORD GAT    EGOSHN
+(992 GARRETT MILL RD ,54) 54  10/24/11  15:45  ALARMF  ALARM - FIRE *  992 GARRETT MILL RD ,54  HITSCHLER RES#610-578-0346-    WILLIS
 ***************************************************************************
 Chester County, PA (PAChesterCountyEParser)
 (Dispatch) 05/31/11 * 13:30:52 * SYNCOPE/FAINTING - ALS * * 880 W BALTIMORE PK ,58 * LEWIS RD & PUSEY MILL RD * PENN * WELLNESS CENTER OFFICE-SOUTHER * GRANDEL,
@@ -3481,15 +3486,6 @@ Map MIDWAY 14:16:56\n
 **********************************************************
 **********************************************************
 **********************************************************
-Chester County, PA (alternate)
-Contact: Bob Gliem <goshenfire@gmail.com>
-Sender: gfc@goshenfireco.org
-(1566 VASSAR CT ,53) 56  10/21/11  15:37  APLNC  APPLIANCE FIRE *  1566 VASSAR CT ,53  -  EGOSHN  HERSHEYS MILL V
-(1515 MANLEY RD ,53) 54\2s10/26/11\2s09:45\2sAPT\2sAPARTMENT BUILDING FIRE *\2s1515 MANLEY RD ,53\2sBUILDING 5, APT 433-OXFORD GAT\4sEGOSHN
-(992 GARRETT MILL RD ,54) 54\2s10/24/11\2s15:45\2sALARMF\2sALARM - FIRE *\2s992 GARRETT MILL RD ,54\2sHITSCHLER RES#610-578-0346-\4sWILLIS
-(1006 ROBIN DR ,67) 54\2s10/24/11\2s10:40\2sALARMF\2sALARM - FIRE *\2s1006 ROBIN DR ,67\2sGILBERT RES - 610.399.1788-\4sWESTWN
-(1201 E STRASBURG RD ,52) 54\2s10/21/11\2s21:11\2sFUEL\2sFUEL SPILL *\2s1201 E STRASBURG RD ,52\2sFRONT P/LOT-STRASBURG COURT AP\2sWGOSHN
-(980 HERSHEY MILL RD ,53) 56\2s10/26/11\2s18:56\2sALARMF\2sALARM - FIRE *\2s980 HERSHEY MILL RD ,53\2sLEWIS RES/610-644-8389-\4sEGOSHN
 **********************************************************
 Neptune, NJ
 Contact: Ross Leibowitz <rossl32100@gmail.com>
@@ -3689,7 +3685,7 @@ Address: 1114 Rabbit Run Problem: False Fire Alarm
 Address: Ridge Rd / Lower Richland Blvd Problem: Vehicle Fire Trailer/Bus/MHome
 **********************************************************
 **********************************************************
-Pottawatomie county, IA,KS,OK?
+Pottawatomie county, IA
 Contact: Adam Gillaspie <adam.gillaspie@gmail.com>
 Sender: messaging@iamresponding.com
 

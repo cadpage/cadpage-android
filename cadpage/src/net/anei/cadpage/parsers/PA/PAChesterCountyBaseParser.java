@@ -8,27 +8,6 @@ import net.anei.cadpage.parsers.FieldProgramParser;
 
 public class PAChesterCountyBaseParser extends FieldProgramParser {
   
-  private static final Properties CITY_CODES = buildCodeTable(new String[]{
-      "AVNDAL", "AVONDALE",
-      "EMARLB", "EAST MARLBOROUGH TWP",
-      "ENOTT",  "EAST NOTINGHAM TWP",
-      "FRNKLN", "FRANKLIN TWP",
-      "KNTSQR", "KENNETT SQUARE",
-      "KNTTWP", "KENNETT TWP",
-      "LDNBRT", "LANDENBERG",
-      "LGROVE", "LONDON GROVE TWP",
-      "LONDER", "LONDONERRY TWP",
-      "LWROXF", "LOWER OXFORD TWP",
-      "NEWLON", "NEW LONDON TWP",
-      "NGARDN", "NEW GARDEN TWP",
-      "OXFORD", "OXFORD",
-      "PENN",   "PENN TWP",
-      "POCOPS", "POCOPSON TWP",
-      "PNSBRY", "",
-      "WGROVE", "WEST GROVE",
-      "WMARLB", "WEST MARLBOROUGH TWP"
-  });
-  
   public PAChesterCountyBaseParser(String programStr) {
     super(CITY_CODES, "CHESTER COUNTY", "PA", programStr);
   }
@@ -136,28 +115,22 @@ public class PAChesterCountyBaseParser extends FieldProgramParser {
       }
     }
   }
-
-  // DATE: mm/dd/yy or mm/dd/yyyy
-  // Format is enforced even if not condition decision is required
+  
+  private class BaseDateField extends DateField {
+    public BaseDateField() {
+      super("\\d\\d/\\d\\d/\\d\\d(?:\\d\\d)?", true);
+    }
+  }
+  
+  private class BaseTimeField extends TimeField {
+    public BaseTimeField() {
+      super("\\d\\d:\\d\\d(?::\\d\\d)?", true);
+    }
+  }
+  
   private static final Pattern DATE_PATTERN = Pattern.compile("\\d\\d/\\d\\d/\\d\\d(?:\\d\\d)?");
-  protected class DateField extends SkipField {
-    public DateField() {
-      setPattern(DATE_PATTERN, true);
-    }
-  }
-  
-  // TIME: hh:mm or hh:mm:ss
-  // Format is enforced even if not condition decision is required
   private static final Pattern TIME_PATTERN = Pattern.compile("\\d\\d:\\d\\d(?::\\d\\d)?");
-  protected class TimeField extends SkipField {
-    public TimeField() {
-      setPattern(TIME_PATTERN, true);
-    }
-  }
-  
-  private static final Pattern DATE_TIME_PATTERN = 
-    Pattern.compile("\\d\\d/\\d\\d/\\d\\d(?:\\d\\d)?|\\d\\d:\\d\\d(?::\\d\\d)?");
-  protected class DateTimeField extends SkipField {
+  protected class BaseDateTimeField extends DateTimeField {
     
     @Override
     public boolean canFail() {
@@ -167,7 +140,15 @@ public class PAChesterCountyBaseParser extends FieldProgramParser {
     @Override
     public boolean checkParse(String field, Data data) {
       if (!isLastField()) {
-        return DATE_TIME_PATTERN.matcher(field).matches();
+        if (TIME_PATTERN.matcher(field).matches()) {
+          data.strTime = field;
+          return true;
+        }
+        if (DATE_PATTERN.matcher(field).matches()) {
+          data.strDate = field;
+          return true;
+        }
+        return false;
       }
       
       else {
@@ -206,9 +187,9 @@ public class PAChesterCountyBaseParser extends FieldProgramParser {
     if (name.equals("X2")) return new Cross2Field();
     if (name.equals("APT")) return new BaseAptField();
     if (name.equals("PLACE")) return new BasePlaceField();
-    if (name.equals("DATE")) return new DateField();
-    if (name.equals("TIME")) return new TimeField();
-    if (name.equals("DATETIME")) return new DateTimeField();
+    if (name.equals("DATE")) return new BaseDateField();
+    if (name.equals("TIME")) return new BaseTimeField();
+    if (name.equals("DATETIME")) return new BaseDateTimeField();
     if (name.equals("EMPTY")) return new EmptyField();
     return super.getField(name);
   }
@@ -277,8 +258,8 @@ public class PAChesterCountyBaseParser extends FieldProgramParser {
     /* 49 */ "",
     /* 50 */ "",
     /* 51 */ "",
-    /* 52 */ "WEST GOSHEN TWP ",
-    /* 53 */ "",
+    /* 52 */ "WEST GOSHEN TWP",
+    /* 53 */ "EAST GOSHEN TWP",
     /* 54 */ "WILLISTOWN TWP",
     /* 55 */ "EASTTOWN TWP",
     /* 56 */ "",
@@ -292,7 +273,7 @@ public class PAChesterCountyBaseParser extends FieldProgramParser {
     /* 64 */ "",
     /* 65 */ "BIRMINGHAM TWP",
     /* 66 */ "",
-    /* 67 */ "WESTTOWN-EAST GOSHEN REGIONAL PD",
+    /* 67 */ "WESTTOWN TWP",
     /* 68 */ "WEST NOTTINGHAM TWP",
     /* 69 */ "",
     /* 70 */ "",
@@ -313,4 +294,29 @@ public class PAChesterCountyBaseParser extends FieldProgramParser {
     /* 85 */ "NOTTINGHAM",      // NOTTINGHAM COUNTY PARK
     /* 86 */ "GLENMOORE"        // SPRINGTON MANOR COUNTY PARK
   };
+  
+  protected static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "AVNDAL", "AVONDALE",
+      "EGOSHN", "EAST GOSHEN TWP",
+      "EMARLB", "EAST MARLBOROUGH TWP",
+      "ENOTT",  "EAST NOTINGHAM TWP",
+      "FRNKLN", "FRANKLIN TWP",
+      "KNTSQR", "KENNETT SQUARE",
+      "KNTTWP", "KENNETT TWP",
+      "LDNBRT", "LANDENBERG",
+      "LGROVE", "LONDON GROVE TWP",
+      "LONDER", "LONDONERRY TWP",
+      "LWROXF", "LOWER OXFORD TWP",
+      "NEWLON", "NEW LONDON TWP",
+      "NGARDN", "NEW GARDEN TWP",
+      "OXFORD", "OXFORD",
+      "PENN",   "PENN TWP",
+      "POCOPS", "POCOPSON TWP",
+      "PNSBRY", "",
+      "WESTWN", "WESTTOWN TWP",
+      "WGOSHN", "WEST GOSHEN TWP",
+      "WGROVE", "WEST GROVE",
+      "WILLIS", "WILLISTOWN TWP",
+      "WMARLB", "WEST MARLBOROUGH TWP"
+  });
 } 

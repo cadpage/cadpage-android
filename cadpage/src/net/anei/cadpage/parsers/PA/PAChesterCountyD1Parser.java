@@ -48,13 +48,6 @@ public class PAChesterCountyD1Parser extends PAChesterCountyBaseParser {
     return parseFields(DELIM.split(body), data);
   }
   
-  // Time must match correct format
-  private class TimeField extends SkipField {
-    public TimeField() {
-      setPattern(Pattern.compile("\\d\\d:\\d\\d"), true);
-    }
-  }
-  
   // Call field strips trailing asterisk marker
   private class MyCallField extends CallField {
     @Override
@@ -90,7 +83,6 @@ public class PAChesterCountyD1Parser extends PAChesterCountyBaseParser {
   
   @Override
   public Field getField(String name) {
-    if (name.equals("TIME")) return new TimeField();
     if (name.equals("CALL")) return new MyCallField();
     if (name.equals("ADDRPLX")) return new MyAddressPlaceCrossField();
     return super.getField(name);
