@@ -112,6 +112,13 @@ public class NCDavidsonCountyParserTest extends BaseParserTest {
         "ID:2011018228",
         "X:FROG POND DR & MEADOWVIEW RD",
         "INFO:CHEST PAIN 76YOM # PATS: 1 AGE: 76 SEX: M");
+
+    doTest("T27",
+        "CAD:P6-BREATHING PROBLEMS-DELTA;2570 RIVERVIEW RD;2011020042;BLUE WATER PT;RIVERHOUSE RD;[Medical Priority Info] PROBLEM: DIFF BREATHING # PATS: 1 AGE: 72",
+        "CALL:P6-BREATHING PROBLEMS-DELTA",
+        "ADDR:2570 RIVERVIEW RD",
+        "ID:2011020042",
+        "INFO:BLUE WATER PT / RIVERHOUSE RD / DIFF BREATHING # PATS: 1 AGE: 72");
  }
   
   public static void main(String[] args) {
