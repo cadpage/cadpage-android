@@ -302,6 +302,7 @@
     <item>GAWhitfieldCounty</item>
     <item>IDKootenaiCounty</item>
     <item>ILChampaignUrbana</item>
+    <item>ILCookCounty</item>
     <item>ILKankakeeCounty</item>
     <item>ILMedstar</item>
     <item>ILPeoriaCounty</item>
@@ -623,6 +624,7 @@
     <item>Whitfield County, GA</item>
     <item>Kootenai County, ID</item>
     <item>Champaign-Urbana, IL</item>
+    <item>Cook County, IL</item>
     <item>Kankakee County, IL</item>
     <item>Medstar, SW IL</item>
     <item>Peoria County, IL</item>
