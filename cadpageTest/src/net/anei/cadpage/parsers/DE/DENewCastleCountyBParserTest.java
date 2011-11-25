@@ -12,6 +12,11 @@ public class DENewCastleCountyBParserTest extends BaseParserTest {
   }
   
   @Test
+  public void testBad() {
+    doBadTest("(Chief ALT) [STA:7] -- ALS -- 118 E Pittsfield St Pennsville Township NJ - Cross STS:Sparks Ave -- Caller: DAULTON"); 
+  }
+  
+  @Test
   public void testParser() {
 
     doTest("T1",
@@ -113,6 +118,11 @@ public class DENewCastleCountyBParserTest extends BaseParserTest {
         "NAME:Interstate 95",
         "ADDR:Churchmans Rd & I95 Sb",
         "UNIT:M29B4");
+  }
+  
+  @Test
+  public void testDeepWaterParser() {
+    
   }
   
   public static void main(String[] args) {
