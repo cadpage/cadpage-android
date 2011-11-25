@@ -7,7 +7,7 @@ import net.anei.cadpage.SmsMsgInfo.Data;
 import net.anei.cadpage.parsers.FieldProgramParser;
 
 /*
-Deepwater, NJ in Salem county
+Salem County, NJ (Deepwater)
 Contact: "m.warner1@comcast.net" <m.warner1@comcast.net>
 Sender: msg@cfmsg.com
 
@@ -19,12 +19,12 @@ Sender: msg@cfmsg.com
 
  */
 
-public class NJDeepwaterParser extends FieldProgramParser {
+public class NJSalemCountyBParser extends FieldProgramParser {
   
   private static final Pattern DELIM = Pattern.compile(" --? ");
   
-  public NJDeepwaterParser() {
-    super(CITY_LIST, "DEEPWATER", "NJ",
+  public NJSalemCountyBParser() {
+    super(CITY_LIST, "SALEM COUNTY", "NJ",
            "CALL! ADDR/S! Cross_STS:X? Caller:NAME");
   }
   
