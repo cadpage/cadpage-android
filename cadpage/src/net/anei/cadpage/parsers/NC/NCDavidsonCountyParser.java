@@ -1,5 +1,8 @@
 package net.anei.cadpage.parsers.NC;
 
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Set;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.SmsMsgInfo.Data;
@@ -36,6 +39,9 @@ TREE DOWN/FIRE;LICK CREEK CHURCH RD/NC HWY 8;2011016908;big tree plum across the
 Contact: jeff warner <fire73ems@gmail.com>
 BCAD:P10-CHEST PAINS-CHARLIE;1125 WEAVER RD;2011018228;FROG POND DR;MEADOWVIEW RD;[Medical Priority Info] PROBLEM: CHEST PAIN 76YOM # PATS: 1 AGE: 76 SEX: M
 
+Contact: Andrew King <aking.salisburyfire@gmail.com>
+CAD:P6-BREATHING PROBLEMS-DELTA;2570 RIVERVIEW RD;2011020042;BLUE WATER PT;RIVERHOUSE RD;[Medical Priority Info] PROBLEM: DIFF BREATHING # PATS: 1 AGE: 72
+
 ***/
 
 public class NCDavidsonCountyParser extends DispatchOSSIParser {
@@ -61,4 +67,37 @@ public class NCDavidsonCountyParser extends DispatchOSSIParser {
     if (ok) return true;
     return ID_PTN.matcher(data.strCallId).matches();
   }
+  
+  private class MyInfoField extends InfoField {
+    @Override
+    public void parse(String field, Data data) {
+      if (BAD_CITY_CODES.contains(field)) abort();
+      super.parse(field, data);
+    }
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("INFO")) return new MyInfoField();
+    return super.getField(name);
+  }
+  
+  // These are the city codes used by the Rowan County, NC location parser
+  // Finding any of them is grounds to reject this text message
+  private static final Set<String> BAD_CITY_CODES = new HashSet<String>(Arrays.asList(new String[]{
+      "CHGV",
+      "CLVD",
+      "ESPN",
+      "FATH",
+      "GOLD",
+      "GRQY",
+      "KANN",
+      "LAND",
+      "MOOR",
+      "ROCK",
+      "SALS",
+      "SPEN",
+      "WOOD"
+      
+  }));
 }

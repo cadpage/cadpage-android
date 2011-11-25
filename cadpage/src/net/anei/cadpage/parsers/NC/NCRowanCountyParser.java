@@ -55,12 +55,22 @@ public class NCRowanCountyParser extends DispatchOSSIParser {
   
   public NCRowanCountyParser() {
     super(CITY_CODES, "ROWAN COUNTY", "NC",
-           "CALL ADDR X/Z+? CITY PLACE? INFO+");
+           "CALL ADDR X/Z+? CITY! PLACE? INFO+");
   }
   
   @Override
   public String getFilter() {
     return "9300,CAD";
+  }
+  
+  // City field is required, and must be found in table to rule out
+  // similar transactions from other locations
+  private class MyCityField extends CityField {
+    @Override
+    public void parse(String field, Data data) {
+      super.parse(field, data);
+      if (field.equals(data.strCity)) abort();
+    }
   }
   
   private class MyPlaceField extends PlaceField {
@@ -82,6 +92,7 @@ public class NCRowanCountyParser extends DispatchOSSIParser {
   @Override
   protected Field getField(String name) {
     if (name.equals("PLACE")) return new MyPlaceField();
+    if (name.equals("CITY")) return new MyCityField();
     return super.getField(name);
   }
 }
