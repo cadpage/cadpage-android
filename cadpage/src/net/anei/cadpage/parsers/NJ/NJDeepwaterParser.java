@@ -42,6 +42,8 @@ public class NJDeepwaterParser extends FieldProgramParser {
     if (!subject.startsWith("Chief ALT|")) return false;
     data.strSource = subject.substring(10).trim();
     
+    if (!body.startsWith("-- ")) return false;
+    body = body.substring(3).trim();
     return parseFields(DELIM.split(body), data);
   }
   
