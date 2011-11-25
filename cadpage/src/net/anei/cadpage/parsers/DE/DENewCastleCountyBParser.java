@@ -35,7 +35,10 @@ public class DENewCastleCountyBParser extends FieldProgramParser {
   }
 
   @Override
-  protected boolean parseMsg(String subject, String body, Data data) {
+   protected boolean parseMsg(String subject, String body, Data data) {
+    
+    // Drop calls from Deepwater, NJ
+    if (body.contains(" Caller:")) return false;
     
     if (!subject.startsWith("Chief ALT|")) return false;
     data.strSource = subject.substring(10).trim();

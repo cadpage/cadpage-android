@@ -1119,6 +1119,11 @@ Camden County, NJ (NJCamdenCountyParser)
 (Dispatch SD45) M.V.A\nROUTE 295 SB RAMP TO 76 SB ALJO CUR ,04\n#:\nX:/\nZN:04Q\nCP:ROUTE 295 SB RAMP T  2011-03-31 09:06:36\nMI#:110073062 
 (Dispatch SD45) DIABETIC\n217 BLACK HORSE PK N ,25\n#:4\nX:CARLISLE/LAKEVIEW\nZN:25B\nCP:MAX GROUP PHILLY CO  2011-03-30 13:23:26\nMI#:11007
 ***************************************************************************
+Deepwater, NJ (NJDeepwaterParser)
+(Chief ALT) [STA:7] -- ALS -- 118 E Pittsfield St Pennsville Township NJ - Cross STS:Sparks Ave -- Caller: DAULTON 
+(Chief ALT) [STA:7] -- Motor Vehicle Accident -- 1163 S Broadway Way Pennsville Township NJ - Cross STS:Freas Rd -- Caller: JACK KUGLER 9352515
+(Chief ALT) [STA:7] -- MVC -- Njtp South Mm 1-4.5 Njtp Carneys Point Township NJ -- Caller: SHAWN HAMMELL 6178168
+***************************************************************************
 Cumberland County, NJ (NJCumberlandCountyParser)
 E911:E22_INVEST_(VINELAND CITY)1763 CHEROKEE LA_2011-04-24 19:02:46_
 E911:E2902_STRUCTURE_(GREENWICH TWP)176 BAYSIDE RD_2011-04-24 17:27:45_AREA OF THE BAY
@@ -3496,7 +3501,6 @@ Map MIDWAY 14:16:56\n
 \n
 **********************************************************
 **********************************************************
-**********************************************************
 ************  READY TO ROLL ******************************
 **********************************************************
 **********************************************************
@@ -3506,14 +3510,6 @@ Map MIDWAY 14:16:56\n
 **********************************************************
 **********************************************************
 **********************************************************
-Deepwater, NJ in Salem county (alternate)
-Contact: "m.warner1@comcast.net" <m.warner1@comcast.net>
-Sender: msg@cfmsg.com
-(Chief ALT) [STA:7] -- ALS -- 118 E Pittsfield St Pennsville Township NJ - Cross STS:Sparks Ave -- Caller: DAULTON 
-(Chief ALT) [STA:7] -- Motor Vehicle Accident -- 1163 S Broadway Way Pennsville Township NJ - Cross STS:Freas Rd -- Caller: JACK KUGLER 9352515
-(Chief ALT) [STA:7] -- MVC -- Njtp South Mm 1-4.5 Njtp Carneys Point Township NJ -- Caller: SHAWN HAMMELL 6178168
-(Chief ALT) [STA:7] -- Fire Alarm System -- 117 N Broadway Way Pennsville Township NJ - Cross STS:Brandriff Ave -- Caller: VERIZON / KAREN 6158005
-(Chief ALT) [STA:7] -- Out Of County Assist -- Delaware Memorial Brg New Castle DE -- Caller: COUNTY
 **********************************************************
 Cook County, IL
 Contact: "Malcolm, John" <JMalcolm@mountprospect.org>
@@ -3669,3 +3665,15 @@ XST: CHESTNUT RD//
 21940 VINEYARD HILLS RD, POTT COUNTY
 SICK PERSON - GENERIC
 XST: EDGEWOOD RD// 
+**********************************************************
+Newark, NY (in Wayne County)
+Marbletown Fire and Newark Ambulance
+Contact: Brandon <frenchie31692@yahoo.com>
+Sender: newarkamb@fdcms.info
+Subject:Dispatch\nDispatch ** 05:32 ** FALLS ** 1542 STEBBINS RD ** HERMAN, ELAINE ** STUART AVE * TELLIER RD ** 315-331-6505 ** \n
+Subject:Dispatch\nDispatch ** 23:01 ** MEDICAL ALARM ACTIVATION ** 790 E MAPLE AVE ** ADT ** DRUMLIN CT * CUYLER ST ** 877-238-7730 ** \n
+Subject:Dispatch\nDispatch ** 21:01 ** BREATHING PROBLEMS ** 5400 ROUTE 31 ** HALL, JANET ** WHITBECK RD * W UNION ST ** 315-359-3978 ** \n
+Subject:Dispatch\nDispatch ** 20:11 ** HOUSE FIRE ** 106 HILL ST ** VZW CALL ** LYONS ST * STANSELL ST ** 315-690-9286 ** \n
+Subject:Dispatch\nDispatch ** 10:49 ** ABDOMINAL PAIN / PROBLEMS ** 101 COBBLESTONE TER ** FINGER LAKES DD ** VIENNA ST * VIENNA ST ** 315-
+Subject:Dispatch\nDispatch ** 18:28 ** TRANSPORT-MEDICAL ** 1200 DRIVING PARK AVE ** NEWARK WAYNE CO ** SUNSET DR * FREY ST ** 332-2494 **
+Subject:Dispatch\nDispatch ** 22:04 ** BARN/GARAGE FIRE ** 735 BOHNER ** - ** ONTARIO COUNTY **  ** 
