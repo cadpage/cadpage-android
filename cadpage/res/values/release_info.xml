@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string name="release_date">11052011</string>
-  <string name="release_version">v1.4.41</string>
+  <string name="release_version">v1.4.42</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="min_purchase_date">11032011</string>
@@ -11,30 +11,41 @@ text messaging fees.  And received on Android tablets.  Stay tuned for further d
 \n
 What"'"s new in this release\n
 \n
-If your text pages include the incident date/time, and the parser for that location
-has been updated to parse them out, Cadpage will report that date/time instead of
-the time the text page was received.  It will take us a while to retrofit this
-capability in all of our current location parsers.  If we do not have it in yours,
-let us know and we will make changing it a priority.\n
+The way we calculate demo limits has changed (again).  Now you have the usual
+30 day trial demo, but now Cadpage doesn"'"t count days where you only use the 
+generic locations.  Enforcement logic for the demo expiration isn"'"t in this
+release, but expect it in the next one.\n
+\n
+There is now a separate app that is a free version of Cadpage that does everything
+the standard one does, except that there are only minimal support options, and
+updates will published a lot less frequently.\n
 \n
 New Locations:\n
-Marion County, IN\n
-Yarmouth County, MA\n
-Englewood, OH\n
-Cabell County, WV\n
+New Haven County, CT (alternate)\n
+Collier County, FL\n
+Cook County, IL\n
+Calhoun County, MI\n
+Salem County, NJ (alternate)\n
+Butler County, PA\n
+York County, PA\n
+Niagara County, NY\n
+Galveston, TX\n
+Brunswick County, VA\n
 \n
 Location Parsing Fixes:\n
-New Castle County, DE\n
-Allegany County, MD\n
-Cattaraugus County, NY\n
+Sonoma County, CA\n
+New Haven County, CT\n
+    was North Brandon\n
+Winnebago County, IL\n
+    was Roscoe\n
+Anne Arundel County, MD\n
+Livingston County, MI\n
+Ray County, MO\n
+Cabarrus County, NC\n
+Davidson County, NC\n
+Guilford County, NC\n
 Orange County, NC\n
-Delaware County, PA\n
-Erie County, PA\n
-Montgomery County, TX\n
-Nueces County, TX\n
-Franklin County, VA\n
-Louisa County, VA\n
-Prince William County, VA\n
+Rowan County, NC\n
   </string>  
 </resources>
   

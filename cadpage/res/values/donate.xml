@@ -69,8 +69,7 @@
   <string name="donate_demo_title">Cadpage demo expires in %d days</string>
   <string name="donate_demo_text">
     You have been using Cadpage for %1$d days, you have %2$d days left before the
-    demo expires.  But nothing bad happens when the demo expires, it has gone
-    back to being totally toothless.
+    demo expires.
   </string>
   
   <string name="donate_demo_expire_title">Your Cadpage demo has expired</string>
