@@ -585,7 +585,7 @@ public class ManagePreferences {
     }
     int days = prefs.getInt(R.string.pref_auth_run_days_key, 0);
     String curDate = DATE_FORMAT.format(date);
-    String lastDate = prefs.getString(R.string.pref_auth_last_date_key, "");
+    String lastDate = prefs.getString(R.string.pref_auth_last_date_key, null);
     if (lastDate == null || ! lastDate.equals(curDate)) {
       prefs.putString(R.string.pref_auth_last_date_key, curDate);
       if (lastDate != null) {
@@ -599,6 +599,14 @@ public class ManagePreferences {
   public static void setAuthRunDays(int days) {
     prefs.putInt(R.string.pref_auth_run_days_key, days);
     prefs.putString(R.string.pref_auth_last_date_key, null);
+    DonationManager.instance().reset();
+    MainDonateEvent.instance().refreshStatus();
+  }
+  
+  public static void rollLastAuthDate(String dateStr) {
+    if (prefs.getString(R.string.pref_auth_last_date_key, null) != null) {
+      prefs.putString(R.string.pref_auth_last_date_key, dateStr);
+    }
     DonationManager.instance().reset();
     MainDonateEvent.instance().refreshStatus();
   }

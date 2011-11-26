@@ -53,19 +53,24 @@ Publishing a regular Cadpage release
 
 ******************************************************************************
 Creating a free version of Cadpage
-* Check out the correct version of Cadpage
+* Turn off Eclipse auto build
+* Make a copy of the current cadpage project
+* Use svn switch to switch it to desired version of Cadapge
+* Run svn update
+* Confirm AndroidManifest.xml has desired version number.
 * Create an Android project out of the checked out code
-* You can speed things up a bit by turning off automatic project builds
 * Rename src/net.anei.cadpage to net.anei.cadpagefree
 * Rename gen/net.anei.cadpage to net.anei.cadpagefree
 * Revert the changes this made to AndroidManifest.xml and make following changes
   Manifest package to net.anei.cadpagefree
   Application android:name package to be in cadpagefree
   SmsReceiver intent filter priority should be reduced by one
-* Open res/values/strings.xml and change application name to Cadapge(free)
+* Open res/values/strings.xml 
+  Change application name to "Cadpage(free)"
+  Change widget_config_name to "Cadpage(free) 1x4"
 * Open res/xml/preferences.xml and bulk change cadpage to cadpagefree
 * Ditto for res/layout/msg_list_item.xml
-* If automatic builds are turned off, do manual project build
+* If automatic builds are turned off, turn them back on
 * Install Cadpage-free to emulator and make sure it comes up and functions
 * Use Cadpage RMB menu Android Tools > Export signed application package to
   build a cadpage-free.apk file

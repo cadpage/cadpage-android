@@ -61,12 +61,13 @@ public class DeveloperToolsManager {
     "Stat: Demo expired",
     "Reset release info",
     "Content Query",
-    "Recent Tasks"
+    "Recent Tasks",
+    "Stat: Roll Last Date"
     
   };
   
   private static final String[] valueList = new String[]{
-    "31", "32", "33", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9"
+    "31", "32", "33", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"
   };
   
   private class DeveloperListPreference extends ListPreference {
@@ -156,6 +157,10 @@ public class DeveloperToolsManager {
         
       case 9:     // Recent tasks
         ContentQuery.dumpRecentTasks(context);
+        break;
+        
+      case 10:    // Roll last date
+        ManagePreferences.rollLastAuthDate("01012000");
         break;
         
       case 31:    // C2DM Register

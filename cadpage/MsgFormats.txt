@@ -1462,10 +1462,15 @@ Wadsworth, OH (OHWadsworthParser)
 (From: WadsTextSender) 194,BALDWIN ST,,WADSWORTH  HART,HEART67 YOF CHEST PAINS
 (From: WadsTextSender) 250,SMOKERISE DR,LIBERTY RESIDENCE,WADSWORTHPAIN,PAINRM 124   STOMACH PAIN   LIBERTY ONE
 **********************************************************
-Wayne County, OH (OHWayneCountyParser)
+Wayne County, OH (OHWayneCountyAParser)
 taccad:SQUAD RUN 593 GATES ST CAROLYN RUNYON, AGE 64, POSSIBLE STROKE
 taccad:ACCIDENT EASTERN RD AKRON RD 911 CELL CALL FALINE JONES REF ACCIDENT UNK INJURIES. NORTON FIRE / POLICE RESPONDING.
 taccad:ASSAULT 351 COLLIER DR 911 CELL JESSICA KLATIK REQUEST OFFICER FOR AN ASSAULT
+***************************************************************************
+Wayne County, OH (OHWayneCountyBParser)
+(Dispatch Message) TRAFFIC DETAIL/COMPLAINT  \n94 BAUMGARTNER RD \nBIG TRUCK WITH BROKEN DRIVE TRAIN ADV NEEDING TRAFFIC CONTROL  \nON 94 JUST SOUTH OF BAUMGARTN
+(Dispatch Message) SQUAD: CARDIAC/CHEST PAIN \n110 WEST LEBANON RD N 40\n33 YEAR OLD MALE CHEST PAINS\nHAS MITROVALVE PROLASPE
+(Dispatch Message) FIRE: GRASS/TREES/BRUSH   \nHACKETT RD KANSAS RD S \nFIELD FIRE AT S. KANSAS AND HACKETT.
 ***************************************************************************
 Xenia township, OH (OHXeniaParser)
 MBLS-MEDICAL Location: 160 RICHARD DR DAYTON XENIA RD / ROBERT LN XENIA TWP Time: 17:31 Units: M51  Common
@@ -3523,16 +3528,6 @@ Map MIDWAY 14:16:56\n
 **********************************************************
 **********************************************************
 **********************************************************
-Wayne County, OH (alternate for Sugar Creek, OH)
-Contact: "Troy Shaum " <t-roy730@live.com>
-Sender: dispatch@ohiomuni.net
-(Dispatch Message) TRAFFIC DETAIL/COMPLAINT  \n94 BAUMGARTNER RD \nBIG TRUCK WITH BROKEN DRIVE TRAIN ADV NEEDING TRAFFIC CONTROL  \nON 94 JUST SOUTH OF BAUMGARTN
-(Dispatch Message) SQUAD: CARDIAC/CHEST PAIN \n110 WEST LEBANON RD N 40\n33 YEAR OLD MALE CHEST PAINS\nHAS MITROVALVE PROLASPE
-(Dispatch Message) FIRE: GRASS/TREES/BRUSH   \nHACKETT RD KANSAS RD S \nFIELD FIRE AT S. KANSAS AND HACKETT.
-(Dispatch Message) MISCELLANEOUS             \n  \nTUESD NOV 15TH AT 1800 HRS SHARP, A SHORT WORK DETAIL TO GET ENGINE 71 READY TO GO TO TWINSBURG TUES EVENING
-(Dispatch Message) SQUAD: FALLS              \n14765 LINCOLN WAY E \n911 CALL LUCY INDORF 89 YOF FALL VICTIM - LIFT ASSIST - NO INJURY- FD HAS KEY\nCROSS KURZEN
-(Dispatch Message) SQUAD: FRACTURES          \n22 KING \n50 YR OLD MALE, BROKEN LEG
-(Dispatch Message) SQUAD: (FREE TEXT)        \n1 ARLINGTON CT 1\n51 YOM SEVERE HEADACHE  BLDG 3
 **********************************************************
 Franklin, OH (in Clearmont County but dispatched separately)
 Contact: Christopher Rauh <crauh@franklinohio.org>
