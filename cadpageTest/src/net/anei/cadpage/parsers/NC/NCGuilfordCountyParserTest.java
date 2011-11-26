@@ -278,7 +278,15 @@ public class NCGuilfordCountyParserTest extends BaseParserTest {
         "INFO:SMFD / ST09 / 1",
         "CALL:STROKE",
         "X:AYERS LN");
-  }
+
+    doTest("T34",
+        "Subject:summerfieldfiredist Nov26-03:56\nsummerfieldfiredist\nCAD:SMFD;ST29;1;MED;132 LAKE DR;OLD MILL DR\n",
+        "SRC:summerfieldfiredist",
+        "ADDR:132 LAKE DR",
+        "INFO:SMFD / ST29 / 1",
+        "CALL:MED",
+        "X:OLD MILL DR");
+ }
   
   @Test
   public void testFireDistrict13() {
