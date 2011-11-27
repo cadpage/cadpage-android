@@ -26,14 +26,19 @@ CHAUTAUQUA_COUNTY_SHERIFF (MSP CAD) 18:36 *SINGLE COMPANY ; 27 E  MAIN ST ; C/T/
 CHAUTAUQUA_COUNTY_SHERIFF (MSP CAD) 15:18 *EMS CALL ; S  MAPLE AVE GLEASON RD ; C/T/V Busti ; ; ; A301 R302
 CHAUTAUQUA_COUNTY_SHERIFF (MSP CAD) 00:15 *EMS CALL ; 28 LIBERTY ST ; C/T/V Bemus Point ; CHARLES CROSSLEY ; f/70 back pains and leg pain
 CHAUTAUQUA_COUNTY_SHERIFF (MSP CAD) 15:11 *SINGLE COMPANY ; BEMUS ELLERY RD MAHANNA RD ; C/T/V Ellery ; Philip Erickson ; live electric line across the road.
-CHAUTAUQUA_COUNTY_SHERIFF (MSP CAD) 05:01 *EMS CALL ; 5325 RAMSEY RD ; C/T/V North Harmony ; BRUCE HARRIS ; 62/F\2sSEMI CONSCIOUS ; A441
+CHAUTAUQUA_COUNTY_SHERIFF (MSP CAD) 05:01 *EMS CALL ; 5325 RAMSEY RD ; C/T/V North Harmony ; BRUCE HARRIS ; 62/F  SEMI CONSCIOUS ; A441
+
+Contact: Steve Hayes <stevekhayes@gmail.com>
+Sender: messaging@iamresponding.com
+(BEMUS POINT) 21:45 *MVA PI ; 1220 86 WB ; C/T/V Ellery ; NYSP Jamestown ; 3A14 OUT WITH AN MVA WITH MINOR INJURIES   I86 WB NEAR OVERLOOK ; A441 R442 E
 
 */
 
 
 public class NYChautauquaCountyParser extends FieldProgramParser {
   
-  private static final Pattern MARKER = Pattern.compile("^CHAUTAUQUA_COUNTY_SHERIFF \\(MSP CAD\\) \\d\\d:\\d\\d \\*");
+  private static final Pattern MARKER1 = Pattern.compile("^CHAUTAUQUA_COUNTY_SHERIFF \\(([A-Z ]+)\\) (\\d\\d:\\d\\d) \\*");
+  private static final Pattern MARKER2 = Pattern.compile("^(\\d\\d:\\d\\d) \\*");
   private static final Pattern DELIM = Pattern.compile(" *(?<= ); ");
   private static final Pattern UNITS = Pattern.compile("(?: *\\b(?:[A-Z]{4}|[A-Z]\\d{2,3})\\b)+");
   
@@ -44,17 +49,39 @@ public class NYChautauquaCountyParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "911@cattco.org,7770";
+    return "911@cattco.org,7770, messaging@iamresponding.com";
   }
 
   @Override
-  protected boolean parseMsg(String body, Data data) {
-    Matcher match = MARKER.matcher(body);
-    if (!match.find()) return false;
-    body = body.substring(match.end()).trim();
+  protected boolean parseMsg(String subject, String body, Data data) {
+    do {
+      Matcher match = MARKER1.matcher(body);
+      if (match.find()) {
+        data.strSource = match.group(1);
+        data.strTime = match.group(2);
+        body = body.substring(match.end()).trim();
+        break;
+      }
+      
+      match = MARKER2.matcher(body);
+      if (match.find() && subject.length() > 0) {
+        data.strSource = subject;
+        data.strTime = match.group(1);
+        body = body.substring(match.end()).trim();
+        break;
+      }
+      
+      return false;
+    } while (false);
+    
     body = body.replace(" C/T/V ", " CTV: ");
     if (body.endsWith(";")) body = body.substring(0,body.length()-1);
     return parseFields(DELIM.split(body),data);
+  }
+  
+  @Override
+  public String getProgram() {
+    return "SRC TIME " + super.getProgram();
   }
   
   // Name field needs to remove trailing commas
