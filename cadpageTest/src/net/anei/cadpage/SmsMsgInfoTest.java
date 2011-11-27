@@ -19,6 +19,12 @@ public class SmsMsgInfoTest {
   @Test
   public void testGetMapAddress() {
     
+    doMapTest("NCBuncombeCount", "226 TAMPA CIR,KENBURG,XX", "226-B TAMPA CIR");
+    
+    doMapTest("NCBuncombeCounty", "CANE CREEK RD & CROSS CREEK FARM RD,KENBURG,XX", "862 CANE CREEK RD & CROSS CREEK FARM RD");
+    
+    doMapTest("NCBuncombeCounty", "110 SUMMER ST,KENBURG,XX", "110-1/2 SUMMER ST");
+    
     doMapTest("NCAlexanderCounty", "8510 XX 90 E,KENBURG,XX", "8510 XX 90 HWY E");
     
     doMapTest("TXNassauBay", "ST 3 & MAGNOLIA AVE,KENBURG,XX", "SH 3 HWY & MAGNOLIA AVE");

@@ -23,6 +23,9 @@ import static org.junit.Assert.*;
 
 public abstract class BaseParserTest {
   
+  // Flag set to turn on strict map address checking
+  private static final boolean STRICT_MAP_CHECK = true;
+  
   private static final String FROM_ADDRESS = "1112223333";
 
   private SmsMsgParser parser = null;
@@ -107,6 +110,7 @@ public abstract class BaseParserTest {
   public void doSubTest(String title, String subject, String test, String ... result) {
     
     SmsMsgInfo.Data data = new SmsMsgInfo.Data();
+    String expMapAddr = "";
     for (String str : result) {
       int pt = str.indexOf(':');
       String sType = str.substring(0, pt);
@@ -114,6 +118,7 @@ public abstract class BaseParserTest {
       if (sType.equals("CALL")) data.strCall = str;
       else if (sType.equals("PLACE")) data.strPlace = str;
       else if (sType.equals("ADDR")) data.strAddress = str;
+      else if (sType.equals("MADDR")) expMapAddr = str;
       else if (sType.equals("CITY")) data.strCity = str;
       else if (sType.equals("APT")) data.strApt = str;
       else if (sType.equals("X")) data.strCross = str;
@@ -138,10 +143,16 @@ public abstract class BaseParserTest {
     SmsMmsMessage msg = new SmsMmsMessage(fromAddress, test, 0L, 0);
     assertTrue(title + ":parse", parser.isPageMsg(msg));
     SmsMsgInfo info = msg.getInfo();
+    String actMapAddr = info.getMapAddress();
+    int pt = actMapAddr.indexOf(',');
+    if (pt >= 0) actMapAddr = actMapAddr.substring(0,pt).trim();
+    if (actMapAddr.equals(info.getAddress())) actMapAddr = "";
+    if (!STRICT_MAP_CHECK && expMapAddr.length() == 0) actMapAddr = "";
     
     assertEquals(title + ":Call", data.strCall, info.getCall());
     assertEquals(title + ":Place", data.strPlace, info.getPlace());
     assertEquals(title + ":Address", data.strAddress, info.getAddress());
+    assertEquals(title + ":MapAddr", expMapAddr, actMapAddr);
     assertEquals(title + ":City", data.strCity, info.getCity());
     assertEquals(title + ":Apt", data.strApt, info.getApt());
     assertEquals(title + ":Cross", data.strCross, info.getCross());
@@ -311,6 +322,12 @@ public abstract class BaseParserTest {
       String value = getValue(info, term);
       if (value.length() == 0) continue;
       System.out.print(",\n        \"" + term + ":" + escape(value) + "\"");
+      if (term.equals("ADDR")) {
+        term = "MADDR";
+         value = getValue(info, term);
+        if (value.length() == 0) continue;
+        System.out.print(",\n        \"" + term + ":" + escape(value) + "\"");
+      }
     }
     System.out.println(");");
   }
@@ -332,6 +349,13 @@ public abstract class BaseParserTest {
     if (sType.equals("CALL")) return info.getCall();
     if (sType.equals("PLACE")) return info.getPlace();
     if (sType.equals("ADDR")) return info.getAddress();
+    if (sType.equals("MADDR")) {
+      String mapAddr = info.getMapAddress();
+      int pt = mapAddr.indexOf(',');
+      if (pt >= 0) mapAddr = mapAddr.substring(0,pt).trim();
+      if (mapAddr.equals(info.getAddress())) mapAddr = "";
+      return mapAddr;
+    }
     if (sType.equals("CITY")) return info.getCity();
     if (sType.equals("APT")) return info.getApt();
     if (sType.equals("X")) return info.getCross();

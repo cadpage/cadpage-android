@@ -56,6 +56,7 @@ public class NCBuncombeCountyParserTest extends BaseParserTest {
     doTest("T6",
         "CAD:345 I26 W;8283372724 DIST: 1003.28 FT;VERIZON WIRELESS;CHEST PAIN;I26 W TO BREVARD RD;10015456",
         "ADDR:345 I26 W",
+        "MADDR:345 I 26 W",
         "CALL:CHEST PAIN",
         "INFO:I26 W TO BREVARD RD",
         "ID:10015456");
@@ -124,6 +125,7 @@ public class NCBuncombeCountyParserTest extends BaseParserTest {
     doTest("T15",
         "CAD:579-BLK MILLS GAP RD;B213;8287720618 DIST: 107.57 FT;VERIZON;(Z)MOTOR VEH ACCIDENT UNKNOWN;CENTRAL PARK DR;DRAKES MEADOW LN",
         "ADDR:579-BLK MILLS GAP RD",
+        "MADDR:579 MILLS GAP RD",
         "UNIT:B213",
         "CALL:(Z)MOTOR VEH ACCIDENT UNKNOWN",
         "X:CENTRAL PARK DR & DRAKES MEADOW LN");
@@ -131,6 +133,7 @@ public class NCBuncombeCountyParserTest extends BaseParserTest {
     doTest("T16",
         "CAD:357 I26 E;B21;VERIZON;(Z)MOTOR VEH ACCIDENT UNKNOWN;I26 E TO LONG SHOALS RD",
         "ADDR:357 I26 E",
+        "MADDR:357 I 26 E",
         "UNIT:B21",
         "CALL:(Z)MOTOR VEH ACCIDENT UNKNOWN",
         "INFO:I26 E TO LONG SHOALS RD");
@@ -138,6 +141,7 @@ public class NCBuncombeCountyParserTest extends BaseParserTest {
     doTest("T17",
         "CAD:365 I26 W;B21;(Z)MOTOR VEH ACCIDENT UNKNOWN;LONG SHOALS RD TO I26 W",
         "ADDR:365 I26 W",
+        "MADDR:365 I 26 W",
         "UNIT:B21",
         "CALL:(Z)MOTOR VEH ACCIDENT UNKNOWN",
         "INFO:LONG SHOALS RD TO I26 W");
@@ -145,6 +149,7 @@ public class NCBuncombeCountyParserTest extends BaseParserTest {
     doTest("T18",
         "CAD:375 I26 W;B21;VERIZON;(Z)MOTOR VEH ACCIDENT UNKNOWN;I26 W TO LONG SHOALS RD;AIRPORT RD TO I26 W",
         "ADDR:375 I26 W",
+        "MADDR:375 I 26 W",
         "UNIT:B21",
         "CALL:(Z)MOTOR VEH ACCIDENT UNKNOWN",
         "INFO:I26 W TO LONG SHOALS RD / AIRPORT RD TO I26 W");
@@ -159,6 +164,7 @@ public class NCBuncombeCountyParserTest extends BaseParserTest {
     doTest("T20",
         "CAD:355 I26 W;B21;VERIZON;(Z)MOTOR VEH ACCIDENT UNKNOWN;LONG SHOALS RD TO I26 W",
         "ADDR:355 I26 W",
+        "MADDR:355 I 26 W",
         "UNIT:B21",
         "CALL:(Z)MOTOR VEH ACCIDENT UNKNOWN",
         "INFO:LONG SHOALS RD TO I26 W");
@@ -166,6 +172,7 @@ public class NCBuncombeCountyParserTest extends BaseParserTest {
     doTest("T21",
         "CAD:900-BLK CANE CREEK RD;B213;SHP;(FR)TREE DOWN;FAIR OAKS EST;RIVER CANE DR",
         "ADDR:900-BLK CANE CREEK RD",
+        "MADDR:900 CANE CREEK RD",
         "UNIT:B213",
         "CALL:(FR)TREE DOWN",
         "X:FAIR OAKS EST & RIVER CANE DR",
@@ -182,6 +189,7 @@ public class NCBuncombeCountyParserTest extends BaseParserTest {
     doTest("T23",
         "CAD:354 I26 W;B21;VERIZON;(FR)TREE DOWN;LONG SHOALS RD TO I26 W",
         "ADDR:354 I26 W",
+        "MADDR:354 I 26 W",
         "UNIT:B21",
         "CALL:(FR)TREE DOWN",
         "INFO:LONG SHOALS RD TO I26 W");
@@ -227,6 +235,7 @@ public class NCBuncombeCountyParserTest extends BaseParserTest {
     doTest("T29",
         "CAD:862 CANE CREEK RD/CROSS CREEK FARM RD;B213;(FR)TREE DOWN",
         "ADDR:862 CANE CREEK RD & CROSS CREEK FARM RD",
+        "MADDR:CANE CREEK RD & CROSS CREEK FARM RD",
         "UNIT:B213",
         "CALL:(FR)TREE DOWN");
 
@@ -241,6 +250,7 @@ public class NCBuncombeCountyParserTest extends BaseParserTest {
     doTest("T31",
         "CAD:226-B TAMPA CIR;B21;VERIZON;HEMORRHAGE / LACERATION;WESTON RD;WESTON RD",
         "ADDR:226-B TAMPA CIR",
+        "MADDR:226 TAMPA CIR",
         "UNIT:B21",
         "CALL:HEMORRHAGE / LACERATION",
         "X:WESTON RD & WESTON RD");
@@ -303,6 +313,7 @@ public class NCBuncombeCountyParserTest extends BaseParserTest {
     doTest("T39",
         "CAD:50-BLK CONCORD RD;B213;ASST STRANDED MOTORIST;RAINEY, AARON;(FR) SERVICE ANY TYPE;LAURELTON LN;WALSH TRCE",
         "ADDR:50-BLK CONCORD RD",
+        "MADDR:50 CONCORD RD",
         "UNIT:B213",
         "CALL:(FR) SERVICE ANY TYPE",
         "NAME:RAINEY, AARON",
@@ -344,6 +355,7 @@ public class NCBuncombeCountyParserTest extends BaseParserTest {
     doTest("T44",
         "CAD:156 LOWER CHRIST SCHOOL RD/BALDWIN RD;B213;VERIZON;(Z)MOTOR VEH ACCIDENT UNKNOWN",
         "ADDR:156 LOWER CHRIST SCHOOL RD & BALDWIN RD",
+        "MADDR:LOWER CHRIST SCHOOL RD & BALDWIN RD",
         "UNIT:B213",
         "CALL:(Z)MOTOR VEH ACCIDENT UNKNOWN");
 
@@ -375,6 +387,7 @@ public class NCBuncombeCountyParserTest extends BaseParserTest {
     doTest("T48",
         "CAD:100-BLK LEDBETTER RD;B21U;(Z)MOTOR VEH ACCIDENT UNKNOWN;LARK HL;CAVE LN",
         "ADDR:100-BLK LEDBETTER RD",
+        "MADDR:100 LEDBETTER RD",
         "UNIT:B21U",
         "CALL:(Z)MOTOR VEH ACCIDENT UNKNOWN",
         "INFO:LARK HL",
@@ -494,6 +507,7 @@ public class NCBuncombeCountyParserTest extends BaseParserTest {
     doTest("T63",
         "CAD:347 I26 E;B21;8282169743;T-Mobile USA;(Z)MOTOR VEH ACCIDENT INJURY;I26 E TO LONG SHOALS RD",
         "ADDR:347 I26 E",
+        "MADDR:347 I 26 E",
         "UNIT:B21",
         "CALL:(Z)MOTOR VEH ACCIDENT INJURY",
         "PHONE:8282169743",
@@ -719,6 +733,14 @@ public class NCBuncombeCountyParserTest extends BaseParserTest {
         "PHONE:8287780508",
         "INFO:Buncombe County",
         "X:ROCKY LN & HARWOOD RD");
+
+    doTest("T92",
+        "CAD:110-1/2 SUMMER ST;B6;VERIZON;(FR) STRUCTURE FIRE;PARKER DR;ALEXANDER AVE",
+        "ADDR:110-1/2 SUMMER ST",
+        "MADDR:110 SUMMER ST",
+        "UNIT:B6",
+        "CALL:(FR) STRUCTURE FIRE",
+        "X:PARKER DR & ALEXANDER AVE");
   }
   
 
