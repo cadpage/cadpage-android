@@ -95,7 +95,7 @@ public class SDMinnehahaCountyParserTest extends BaseParserTest {
     doTest("T9",
         "(Dispatch Page) Quad 800 - HD N WESTERN AVE OAKS DR HD Injury Accident C3 2011-00000163",
         "MAP:Quad 800",
-        "ADDR:N WESTERN AVE OAKS DR",
+        "ADDR:N WESTERN AVE & OAKS DR",
         "CALL:Injury Accident",
         "CODE:C3",
         "ID:2011-00000163");
@@ -126,9 +126,18 @@ public class SDMinnehahaCountyParserTest extends BaseParserTest {
         "CITY:HUMBOLT",
         "CALL:Structure Fire",
         "ID:2011-00000085");
+
+    doTest("T13",
+        "(Dispatch Page) BR EM  Quad 450 - BR 261ST ST 484TH AVE VS Injury Accident / Rollover 2011-00000466",
+        "UNIT:BR EM",
+        "MAP:Quad 450",
+        "ADDR:261ST ST & 484TH AVE",
+        "CITY:VALLEY SPRINGS",
+        "CALL:Injury Accident / Rollover",
+        "ID:2011-00000466");
  }
   
   public static void main(String[] args) {
-    new SDMinnehahaCountyParserTest().generateTests("T13", "SRC UNIT MAP ADDR CITY CALL CODE ID");
+    new SDMinnehahaCountyParserTest().generateTests("T14", "SRC UNIT MAP ADDR CITY CALL CODE ID");
   }
 }
