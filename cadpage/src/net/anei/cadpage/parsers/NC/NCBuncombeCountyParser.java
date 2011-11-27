@@ -8,7 +8,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchOSSIParser;
 /* 
 Buncombe county, NC
 Contact: "dean.castaldo@att.net" <dean.castaldo@att.net>
-Cotnact: Harry McLaughlin JR <harrymjr@gmail.com>
+Contact: Harry McLaughlin JR <harrymjr@gmail.com>
 Sender: CAD@buncombecounty.org <From%3ACAD@buncombecounty.org>
 
 CAD:433 LONG SHOALS RD;B21U;SUBJECT STILL DOWN;EDGAR BULLUCK;FALLS;LEDBETTER RD;CLAYTON RD
@@ -107,6 +107,9 @@ S:CAD:111 OLD WEAVERVILLE RD;B20;BLAZER, RUTH;UNCONSCIOUS/ FAINTING M:
 Contact: David Rice <cdrice15@gmail.com>
 S: M:CAD:656 N FORK RD;B15;7654131974 DIST: 231.30 FT;Buncombe County;CHEST PAIN
 S: M:CAD:503 PAINT FORK RD;B15;8287780508;Buncombe County;STROKE;ROCKY LN;HARWOOD RD
+
+Contact: Bobby Davis <bobbyrdavis@gmail.com>
+CAD:110-1/2 SUMMER ST;B6;VERIZON;(FR) STRUCTURE FIRE;PARKER DR;ALEXANDER AVE
 
 */
 

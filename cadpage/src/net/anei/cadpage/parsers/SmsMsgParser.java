@@ -377,6 +377,7 @@ public abstract class SmsMsgParser {
      addressLine = addressLine.substring(0,match.start()).trim();
    }
 
+   addressLine = addressLine.replace("1/2", "1%2");
    for (String addr : INTERSECT.split(addressLine)) {
      addr = addr.trim();
      if (parseCity) {
@@ -389,6 +390,7 @@ public abstract class SmsMsgParser {
      if (data.strAddress.length() > 0) data.strAddress += " & ";
      data.strAddress += addr;
    }
+   data.strAddress = data.strAddress.replace("1%2", "1/2");
  }
 
  /**
