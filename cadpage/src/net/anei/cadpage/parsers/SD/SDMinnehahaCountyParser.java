@@ -31,6 +31,7 @@ Contact: Joe Zweifel <jlzweifel@yahoo.com>
 (Dispatch Page) DR EM  Quad 660 - DR I 29 MM 98DR Inj Accident C1 + Fire 2011-00000192
 (Dispatch Page) CO LY HD EM  Quad 550 - CO 46166 250TH ST CO Structure Fire 2011-00000091
 (Dispatch Page) HU HD EM  Quad 940 - HU I 90 MM 382HU Structure Fire 2011-00000085
+(Dispatch Page) BR EM  Quad 450 - BR 261ST ST 484TH AVE VS Injury Accident / Rollover 2011-00000466
 
 */
 
@@ -87,11 +88,12 @@ public class SDMinnehahaCountyParser extends SmartAddressParser {
     int pt = -1;
     if (sCityCode.equals("DR")) pt = sAddrFld.lastIndexOf(" DR ");
     if (pt >= 0) {
-      parseAddress(sAddrFld.substring(0,pt).trim(), data);
+      parseAddress(StartType.START_ADDR, FLAG_IMPLIED_INTERSECT | FLAG_ANCHOR_END, 
+                   sAddrFld.substring(0,pt).trim(), data);
       data.strCall = sAddrFld.substring(pt+4).trim();
       data.strCity = "DELL RAPIDS";
     } else {
-      parseAddress(StartType.START_ADDR, sAddrFld, data);
+      parseAddress(StartType.START_ADDR, FLAG_IMPLIED_INTERSECT, sAddrFld, data);
       data.strCall = getLeft();
     }
     return true;
