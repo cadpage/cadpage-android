@@ -345,6 +345,9 @@ public class ManagePreferences {
   }
 
   public static boolean smspassthru() {
+    // If donation status is disabled, we never block messages from falling
+    // through to regular processor.
+    if (!DonationManager.instance().isEnabled()) return true;
     return prefs.getBoolean(R.string.pref_passthrusms_key);
   }
   

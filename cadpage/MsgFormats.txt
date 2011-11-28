@@ -3490,34 +3490,10 @@ Contact: "nemo48@sbcglobal.net" <nemo48@sbcglobal.net>
 Sender: paging@easthavenfire.com
 1100005182 ALPHA MEDICAL 00055 THOMPSON ST  Prem Map -14 PP 65 FOXON RD/GAY ST  (Prem Map -14 PP 65)\4sS5 111120 15:40
 **********************************************************
-Colonie, NY Albany County
-Contact: Mike Sipperly <msipperly@gmail.com>
-Sender: CAD@colonie.org
-System: Hi-Tech??
-
-FIRE ALARM E405,E406,RS2,E412
-54 SUNSET BL
- HIGGINS ROBERT
-Map COL VILL 12:00:30
-
-
-STRUCTURE FIRE E412,E410,RS3,E454,CVFT,TK9
-45 RAILROAD AV(FULLER)
- CNY STORM ALLSTARS
-Map FULLER 08:48:16
-
-FIRE ALARM E412,E410,RS3,E405,TK9\n
-1417 CENTRAL AV\n
-COLONIE CENTER\n
-Map FULLER 08:11:21\n
-\n
-
-FIRE ALARM E437,E438,TK7,E405,RS10\n
-392 NEW KARNER RD\n
-DUNKIN DONUTS\n
-Map MIDWAY 14:16:56\n
-\n
-**********************************************************
+Cabarrus County, NC (alternate or replace or upgrade)
+Contact: Kevin Aube <aubercn41@aol.com>
+Sender: 93001044
+2847:CAD:OPS2,A3,E21,E41;1;MVC INJURY- NO PIN IN/ENTRAP;2500 S MAIN ST;K401;HAMPTON LN;SPRINGWAY DR;JORDAN HOT SPOT;{FROM CSO: CALLER HUNG UP ON ME [11/27/11 14:30:54 PSBLACKWELL]} [11/27/11 14:28:05 TRANSFER] ** Transfer from CSO ** CSO received: 11/27/2011 14:30:17 Source: PHONE Nature: TRAFFIC ACCIDENT PI
 **********************************************************
 **********************************************************
 **********************************************************
@@ -3642,3 +3618,36 @@ Subject:Dispatch\nDispatch ** 20:11 ** HOUSE FIRE ** 106 HILL ST ** VZW CALL ** 
 Subject:Dispatch\nDispatch ** 10:49 ** ABDOMINAL PAIN / PROBLEMS ** 101 COBBLESTONE TER ** FINGER LAKES DD ** VIENNA ST * VIENNA ST ** 315-
 Subject:Dispatch\nDispatch ** 18:28 ** TRANSPORT-MEDICAL ** 1200 DRIVING PARK AVE ** NEWARK WAYNE CO ** SUNSET DR * FREY ST ** 332-2494 **
 Subject:Dispatch\nDispatch ** 22:04 ** BARN/GARAGE FIRE ** 735 BOHNER ** - ** ONTARIO COUNTY **  ** 
+**********************************************************
+Colonie, NY Albany County
+Contact: Mike Sipperly <msipperly@gmail.com>
+Sender: CAD@colonie.org
+System: Hi-Tech??
+
+FIRE ALARM E405,E406,RS2,E412
+54 SUNSET BL
+ HIGGINS ROBERT
+Map COL VILL 12:00:30
+
+STRUCTURE FIRE E412,E410,RS3,E454,CVFT,TK9
+45 RAILROAD AV(FULLER)
+ CNY STORM ALLSTARS
+Map FULLER 08:48:16
+
+FIRE ALARM E412,E410,RS3,E405,TK9\n
+1417 CENTRAL AV\n
+COLONIE CENTER\n
+Map FULLER 08:11:21\n
+\n
+
+FIRE ALARM E437,E438,TK7,E405,RS10\n
+392 NEW KARNER RD\n
+DUNKIN DONUTS\n
+Map MIDWAY 14:16:56\n
+\n
+
+Body:FIRE ALARM E412,E410,RS3,E405,TK9\n
+1417 CENTRAL AV\n
+COLONIE CENTER\n
+Map FULLER 08:11:21\n
+\n

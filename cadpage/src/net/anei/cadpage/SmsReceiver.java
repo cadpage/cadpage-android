@@ -1,5 +1,6 @@
 package net.anei.cadpage;
 
+import net.anei.cadpage.donation.DonationManager;
 import android.app.AlarmManager;
 import android.app.PendingIntent;
 import android.content.BroadcastReceiver;
@@ -127,8 +128,12 @@ public class SmsReceiver extends BroadcastReceiver {
    * @param message message to be processed
    */
   public static void processCadPage(Context context, SmsMmsMessage message) {
+    
     // Add new message to the message queue
     SmsMessageQueue.getInstance().addNewMsg(message);
+    
+    // If running in restricted mode, that's all we do
+    if (! DonationManager.instance().isEnabled()) return;
     
     // Publish message contents if so requested
     if (ManagePreferences.publishPages()) message.broadcastIntent(context, false);
@@ -155,6 +160,7 @@ public class SmsReceiver extends BroadcastReceiver {
    * @return
    */
   private static boolean startApp(Context context) {
+    
 
     // If popup isn't enabled, this is as afar as we go
     if (! ManagePreferences.popupEnabled()) return false;

@@ -333,6 +333,13 @@ public class SmsPopupActivity extends Activity {
   // Populate views from intent
   private void populateViews(Intent intent) {
     
+    // Check to see if Cadpage is operating in restricted mode, and if it is
+    // launch the donation status menu.  We'll check the donation status again
+    // when this menu is closed
+    if (!DonationManager.instance().isEnabled()) {
+      MainDonateEvent.instance().doEvent(this);
+    }
+    
     // Retrieve message from queue
     SmsMessageQueue msgQueue = SmsMessageQueue.getInstance();
     int msgId = intent.getIntExtra(EXTRAS_MSG_ID, 0);
@@ -351,6 +358,17 @@ public class SmsPopupActivity extends Activity {
 
     // Populate views from message
     populateViews(msg);
+  }
+
+  /*
+   * Handle results of Dontation status menu
+   */
+  @Override
+  protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+    super.onActivityResult(requestCode, resultCode, data);
+    
+    // If Cadpage is still restricted, close activity
+    if (!DonationManager.instance().isEnabled()) finish();
   }
 
   /*

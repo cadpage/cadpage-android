@@ -15,9 +15,9 @@ public class DemoExpireDonateEvent extends DonateScreenEvent {
            ReqMoneyGroup.instance(), MagicWordEvent.instance(),
            Android16DonateEvent.instance(),
            NoUserDonateEvent.instance(), 
-           WrongUserDonateEvent.instance());
-           // DonateExtraDayEvent.instance(),
-           // ClearDataConfirmEvent.instance());
+           WrongUserDonateEvent.instance(),
+           DonateExtraDayEvent.instance(),
+           ClearDataConfirmEvent.instance());
   }
 
   @Override

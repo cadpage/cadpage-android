@@ -15,9 +15,7 @@ import net.anei.cadpage.R;
 public class SponsorDonateEvent extends DonateScreenEvent {
   
   public SponsorDonateEvent() {
-    super(AlertStatus.GREEN, R.string.donate_sponsor_title, R.string.donate_sponsor_text,
-           AndroidDonateEvent.instance(),
-           PaypalDonateEvent.instance());
+    super(AlertStatus.GREEN, R.string.donate_sponsor_title, R.string.donate_sponsor_text);
   }
   
   @Override
