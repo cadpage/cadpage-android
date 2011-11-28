@@ -57,6 +57,7 @@ public class NCDavieCountyParserTest extends BaseParserTest {
         "911:Call #110624-3510* Address:3868 US HWY 601 N* * * City:MOCKSVILLE* * Type:YEL* CARDIAC PROBLEM* HOHFF, EARL V* PH#:336-492-3017* Units:17* IRA:* Medical: No*",
         "ID:110624-3510",
         "ADDR:3868 US HWY 601 N",
+        "MADDR:3868 US 601 N",
         "CITY:MOCKSVILLE",
         "CALL:YEL - CARDIAC PROBLEM",
         "NAME:HOHFF, EARL V",

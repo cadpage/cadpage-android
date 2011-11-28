@@ -104,6 +104,7 @@ public class TNWashingtonCountyParserTest extends BaseParserTest {
         "CALL:Motor Vehicle Crash - Injury",
         "UNIT:E2,E3,MP29",
         "ADDR:I26W & OKOLONA EXIT",
+        "MADDR:I26 & OKOLONA EXIT",
         "MAP:63C",
         "TIME:14:16:38",
         "ID:115276");
@@ -136,6 +137,7 @@ public class TNWashingtonCountyParserTest extends BaseParserTest {
         "PRI:C",
         "UNIT:M2,R2,E4",
         "ADDR:1208 BAIR VETTE AV",
+        "MADDR:1208 BAIR VETTE AVE",
         "MAP:45C 53B",
         "TIME:21:42:56",
         "ID:11113379");
@@ -198,6 +200,7 @@ public class TNWashingtonCountyParserTest extends BaseParserTest {
         "CALL:Motor Vehicle Crash - Injury",
         "UNIT:E2,E3,MP29",
         "ADDR:I26W & OKOLONA EXIT",
+        "MADDR:I26 & OKOLONA EXIT",
         "MAP:63C",
         "TIME:14:16:38",
         "ID:115276");
@@ -231,6 +234,7 @@ public class TNWashingtonCountyParserTest extends BaseParserTest {
         "PRI:B",
         "UNIT:M6,R3,E5",
         "ADDR:3207 BRISTOL HY",
+        "MADDR:3207 BRISTOL HWY",
         "PLACE:COLONIAL HILL RETIREMENT CENTER",
         "X:MULBERRY ST & SHANNON LN",
         "MAP:30D",
@@ -316,6 +320,7 @@ public class TNWashingtonCountyParserTest extends BaseParserTest {
         "CALL:Motor Vehicle Crash - Injury",
         "UNIT:E3",
         "ADDR:CARTER COUNTY LINE & MILLIGAN HY",
+        "MADDR:CARTER COUNTY LINE & MILLIGAN HWY",
         "PLACE:CARTER COUNTY LINE",
         "TIME:11:18:15",
         "ID:117253");
@@ -325,6 +330,7 @@ public class TNWashingtonCountyParserTest extends BaseParserTest {
         "CALL:Motor Vehicle Crash - Injury",
         "UNIT:E8,E6",
         "ADDR:I26E & MILE MARKER 14",
+        "MADDR:I26 & MILE MARKER 14",
         "TIME:15:38:04",
         "ID:117287");
 
@@ -342,6 +348,7 @@ public class TNWashingtonCountyParserTest extends BaseParserTest {
         "PRI:D",
         "UNIT:M1,E4,R1",
         "ADDR:554 WASHINGTON AV",
+        "MADDR:554 WASHINGTON AVE",
         "X:DEAD END & BELMONT ST & ;TURN RT FROM MAIN ST",
         "MAP:46C",
         "TIME:12:13:40",
@@ -414,6 +421,7 @@ public class TNWashingtonCountyParserTest extends BaseParserTest {
         "PRI:B",
         "UNIT:M3,R3,E9",
         "ADDR:2918 BRISTOL HY",
+        "MADDR:2918 BRISTOL HWY",
         "PLACE:ADVANCE AUTO PARTS",
         "MAP:38A",
         "TIME:19:53:06",

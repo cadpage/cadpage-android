@@ -39,6 +39,7 @@ public class ALOzarkParserTest extends BaseParserTest {
         "(ALERT!) DELAY PAGE.DOUGLAS DR OFF E HWY 27,REF SUBJECT STABBED,UNITS STAG FOR OPD",
         "CALL:DELAY PAGE",
         "ADDR:DOUGLAS DR",
+        "MADDR:DOUGLAS DR & E HWY 27",
         "X:E HWY 27",
         "INFO:SUBJECT STABBED,UNITS STAG FOR OPD");
 

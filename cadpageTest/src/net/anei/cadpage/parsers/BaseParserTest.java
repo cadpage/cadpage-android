@@ -24,7 +24,7 @@ import static org.junit.Assert.*;
 public abstract class BaseParserTest {
   
   // Flag set to turn on strict map address checking
-  private static final boolean STRICT_MAP_CHECK = true;
+  private static final boolean STRICT_MAP_CHECK = false;
   
   private static final String FROM_ADDRESS = "1112223333";
 

@@ -87,6 +87,7 @@ public class TXCollinCountyParserTest extends BaseParserTest {
         "ID:11046597",
         "CALL:MAJOR ACCIDENT 10 /",
         "ADDR:50 COUNTY ROAD 393 & FM 546",
+        "MADDR:COUNTY ROAD 393 & FM 546",
         "SRC:LCFD",
         "MAP:1322",
         "UNIT:LCF1",

@@ -25,6 +25,7 @@ public class TXWilliamsonCountyParserTest extends BaseParserTest {
         "CAD:FYI: ;SA CITIZEN ASSIST;200-BLK ED SCHMIDT BLVD;HU",
         "CALL:SA CITIZEN ASSIST",
         "ADDR:200-BLK ED SCHMIDT BLVD",
+        "MADDR:200 ED SCHMIDT BLVD",
         "UNIT:HU");
 
     doTest("T3",

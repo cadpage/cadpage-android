@@ -36,6 +36,7 @@ public class MOStFrancoisCountyParserTest extends BaseParserTest {
         "1 of 2\nFRM:IPN.9999900138@ipnpaging.com\nMSG:Ct:INVESTIGATION   Loc:!RAIL ROAD LN OFF HILDEBRECH Apt:\nXSt:\n(Con't) 2 of 2\nGrid:4100 Units:4100  E4160                               Rmk:ON THE AIR\nINVESTIGATING A POSSIBLE FIRE\n\n(End)",
         "CALL:INVESTIGATION",
         "ADDR:RAIL ROAD LN OFF HILDEBRECH",
+        "MADDR:RAIL ROAD LN & HILDEBRECH",
         "MAP:4100",
         "UNIT:4100 E4160",
         "INFO:ON THE AIR INVESTIGATING A POSSIBLE FIRE");

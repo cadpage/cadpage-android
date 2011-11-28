@@ -24,6 +24,7 @@ public class MIMuskegonCountyParserTest extends BaseParserTest {
     doTest("T2",
         "CAD:FYI: ;322 E MUSKEGON AV;S LIVINGSTON ST;S BALDWIN ST;WIRED",
         "ADDR:322 E MUSKEGON AV",
+        "MADDR:322 E MUSKEGON AVE",
         "X:S LIVINGSTON ST & S BALDWIN ST",
         "CALL:WIRED");
     

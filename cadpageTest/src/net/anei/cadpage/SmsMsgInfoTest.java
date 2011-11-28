@@ -19,7 +19,7 @@ public class SmsMsgInfoTest {
   @Test
   public void testGetMapAddress() {
     
-    doMapTest("NCBuncombeCount", "226 TAMPA CIR,KENBURG,XX", "226-B TAMPA CIR");
+    doMapTest("NCBuncombeCounty", "226 TAMPA CIR,KENBURG,XX", "226-B TAMPA CIR");
     
     doMapTest("NCBuncombeCounty", "CANE CREEK RD & CROSS CREEK FARM RD,KENBURG,XX", "862 CANE CREEK RD & CROSS CREEK FARM RD");
     

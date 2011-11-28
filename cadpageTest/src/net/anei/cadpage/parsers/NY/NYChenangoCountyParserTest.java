@@ -45,6 +45,7 @@ public class NYChenangoCountyParserTest extends BaseParserTest {
         "CALL:HEMORRHAGE / LACERATION",
         "PLACE:NYS VETS HOME",
         "ADDR:4207 STATE HWY 220",
+        "MADDR:4207 STATE 220",
         "SRC:OXFORD",
         "X:COUNTY RD 35 /COUNTY RD 32");
 

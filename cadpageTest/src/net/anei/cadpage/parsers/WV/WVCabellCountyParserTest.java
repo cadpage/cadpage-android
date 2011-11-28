@@ -68,6 +68,7 @@ public class WVCabellCountyParserTest extends BaseParserTest {
         "TIME:05:35:54",
         "CALL:MVA Inj.",
         "ADDR:5315 OHIO RIVER RD BLK",
+        "MADDR:5315 OHIO RIVER RD",
         "CITY:HUNTINGTON",
         "X:THREE MILE CREEK RD & MOBILE CITY RD",
         "INFO:TRACTOR TRAILOR / TRUCK IS ON THE TRACKS");

@@ -35,6 +35,7 @@ public class MDFrederickCountyParserTest extends BaseParserTest {
         "SRC:FredCo",
         "CALL:WOODS FIRE",
         "ADDR:7819-B FRIENDS CREEK RD",
+        "MADDR:7819 FRIENDS CREEK RD",
         "CITY:Emmitsburg",
         "BOX:627",
         "MAP:3996F6",

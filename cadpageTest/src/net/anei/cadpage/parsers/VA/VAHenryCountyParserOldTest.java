@@ -101,6 +101,7 @@ public class VAHenryCountyParserOldTest extends BaseParserTest {
         "ID:2011086521",
         "CALL:MOTOR VEHICLE CRASH",
         "ADDR:1 WILLIAM F STONE PARK HY",
+        "MADDR:1 WILLIAM F STONE PARK HWY",
         "INFO:1 MILE SOUTH OF 609 EXIT N BOUND SIL 4 WH");
   
   }

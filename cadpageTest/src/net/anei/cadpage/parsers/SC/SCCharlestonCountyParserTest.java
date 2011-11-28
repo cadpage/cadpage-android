@@ -74,6 +74,7 @@ public class SCCharlestonCountyParserTest extends BaseParserTest {
         "SRC:01",
         "CALL:Rescue Water Rescue Strnd Motorist  B",
         "ADDR:Jetty's Of Charelston Harbor",
+        "MADDR:Jetty's Of Charelston Harbor & Charleston Harbor",
         "X:Charleston Harbor");
 
     doTest("T8",

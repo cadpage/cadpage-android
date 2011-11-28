@@ -58,6 +58,7 @@ public class NCRutherfordCountyParserTest extends BaseParserTest {
     doTest("T7",
         "Paging: Location= US221 S HWY & HARRIS HENRIETTA RD*\nAPT/ROOM* City=Forest City* Call \nType= ACCIDENT PI* Units=SMFD1,RCR1,EMS1*\nApr 25, 3:31pm",
         "ADDR:US221 S HWY & HARRIS HENRIETTA RD",
+        "MADDR:US 221 S HWY & HARRIS HENRIETTA RD",
         "CITY:Forest City",
         "CALL:ACCIDENT PI",
         "UNIT:SMFD1,RCR1,EMS1");

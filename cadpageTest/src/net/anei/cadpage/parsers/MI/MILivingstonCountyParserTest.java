@@ -58,6 +58,7 @@ public class MILivingstonCountyParserTest extends BaseParserTest {
         "CALL:CITAF",
         "PLACE:5579 E GRAND RIVER",
         "ADDR:WILDWOOD DR",
+        "MADDR:5579 E GRAND RIVER",
         "INFO:Event spawned from CITIZEN ASSIST LAW. / CALLER LIVES NEXT DOOR TO THE ADDRESS OF THE WATER MAIN BREAK / CALLER ADV OF A WATER MAIN BREAK");
     
     doTest("T8",

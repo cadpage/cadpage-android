@@ -17,6 +17,7 @@ public class CASonomaCountyParserTest extends BaseParserTest {
     doTest("T1",
         "Loc: HWY1/VALLEY FORD ROAD VFR BOX: 3540 TYP:TC CN: CHP LOG # 632 C#: TYPE CODE: TC CALLER NAME: CHP LOG # 632 CALLER ADDR:  TIME: 11:07:31 COM: ** Case n",
         "ADDR:HWY1 & VALLEY FORD ROAD",
+        "MADDR:HWY 1 & VALLEY FORD ROAD",
         "SRC:VFR",
         "BOX:3540",
         "CALL:TC",

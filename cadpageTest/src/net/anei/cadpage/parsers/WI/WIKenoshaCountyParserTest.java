@@ -47,7 +47,8 @@ public class WIKenoshaCountyParserTest extends BaseParserTest {
         "DMB193 #:002011072060 MVA at 80TH AVE and COOPER RD",
         "ID:002011072060",
         "CALL:MVA",
-        "ADDR:80TH AVE and COOPER RD");
+        "ADDR:80TH AVE and COOPER RD",
+        "MADDR:80TH AVE & COOPER RD");
 
     doTest("T6",
         "From: CNT304 #:002011086007 ALS MED at 835 HICKORY RD Rem: 53 F ;SEIZURES CONSCIOUS: YES ,BREATHING: YES\37s",

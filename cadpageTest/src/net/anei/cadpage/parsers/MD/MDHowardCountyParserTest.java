@@ -88,6 +88,7 @@ public class MDHowardCountyParserTest extends BaseParserTest {
         "(CAD) [CAD] EVENT: F11023457 RT 29 SB/RIVERS EDGE RD SCOL TYPE: RESCUE--UNKNOW @ 10:56:54 BEAT/BOX: 029086",
         "ID:F11023457",
         "ADDR:RT 29 SB & RIVERS EDGE RD",
+        "MADDR:RT 29 & RIVERS EDGE RD",
         "CITY:COLUMBIA",
         "CALL:RESCUE--UNKNOW",
         "BOX:029086");

@@ -256,6 +256,7 @@ public class ALDothanParserTest extends BaseParserTest {
         "09:48:02/S38B-Medical Call-Code III-Emergy/101 LOCKWYNN TRC/DOTHAN/68392145/20YOF SWEATING UNK FURTHER RELAYED BY THIRD PARTY/",
         "CALL:S38B-Medical Call-Code III-Emergy",
         "ADDR:101 LOCKWYNN TRC",
+        "MADDR:101 LOCKWYNN TRCE",
         "CITY:DOTHAN",
         "ID:68392145",
         "INFO:20YOF SWEATING UNK FURTHER RELAYED BY THIRD PARTY");
