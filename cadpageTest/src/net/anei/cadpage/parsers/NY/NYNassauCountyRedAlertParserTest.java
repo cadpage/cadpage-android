@@ -13,46 +13,54 @@ public class NYNassauCountyRedAlertParserTest extends BaseParserTest {
   
   @Test
   public void testBelmoreParser() {
-    
+
     doTest("T1",
         "RESCUE at 2438 BEDFORD PLACE. . 11:34:04",
         "CALL:RESCUE",
-        "ADDR:2438 BEDFORD PLACE");
+        "ADDR:2438 BEDFORD PLACE",
+        "TIME:11:34:04");
 
     doTest("T2",
         "AUTO ACCIDENT at intersection of BELTAGH AVENUE and BELLMORE AVENUE. . 15:03:39",
         "CALL:AUTO ACCIDENT",
-        "ADDR:BELTAGH AVENUE and BELLMORE AVENUE");
-    
+        "ADDR:BELTAGH AVENUE and BELLMORE AVENUE",
+        "MADDR:BELTAGH AVENUE & BELLMORE AVENUE",
+        "TIME:15:03:39");
+
     doTest("T3",
         "AUTO ACCIDENT at 2971 LEE PLACE. . 04:08:29",
         "CALL:AUTO ACCIDENT",
-        "ADDR:2971 LEE PLACE");
-    
+        "ADDR:2971 LEE PLACE",
+        "TIME:04:08:29");
+
     doTest("T4",
         "MUTUAL AID RESCUE at 3015 CHERYL ROAD. . 19:12:04",
         "CALL:MUTUAL AID RESCUE",
-        "ADDR:3015 CHERYL ROAD");
-    
+        "ADDR:3015 CHERYL ROAD",
+        "TIME:19:12:04");
+
     doTest("T5",
         "AUTOMATIC ALARM BUILDING . . UNREGISTERED ALARM at 609 SUNRISE HIGHWAY. . 11:46:13",
         "CALL:AUTOMATIC ALARM BUILDING - UNREGISTERED ALARM",
-        "ADDR:609 SUNRISE HIGHWAY");
-    
+        "ADDR:609 SUNRISE HIGHWAY",
+        "TIME:11:46:13");
+
     doTest("T6",
         "HAZMAT - NATURAL GAS INTERIOR . . ODOR INSIDE at 1 SUNRISE HIGHWAY. . 05:07:37",
         "CALL:HAZMAT - NATURAL GAS INTERIOR - ODOR INSIDE",
-        "ADDR:1 SUNRISE HIGHWAY");
-    
+        "ADDR:1 SUNRISE HIGHWAY",
+        "TIME:05:07:37");
+
     doTest("T7",
         "HOUSE FIRE . . SMOKE IN THE HOUSE at 2764 MARTIN AVENUE. . 17:09:53",
         "CALL:HOUSE FIRE - SMOKE IN THE HOUSE",
-        "ADDR:2764 MARTIN AVENUE");
+        "ADDR:2764 MARTIN AVENUE",
+        "TIME:17:09:53");
   }
   
   @Test
   public void testLevittownParser() {
-    
+
     doTest("T1",
         "[Auto Alarm]  at 2890 HEMPSTEAD TPKE #A, LEVITTOWN  c/s: SHELTER LN   O: THE LITTLE GYM . . 16:01:16",
         "CALL:Auto Alarm",
@@ -60,29 +68,33 @@ public class NYNassauCountyRedAlertParserTest extends BaseParserTest {
         "APT:A",
         "CITY:LEVITTOWN",
         "X:SHELTER LN",
-        "PLACE:THE LITTLE GYM");
-    
+        "PLACE:THE LITTLE GYM",
+        "TIME:16:01:16");
+
     doTest("T2",
-        "Phone In  at 47 STEVEDORE LN, LEVITTOWN  c/s: PARSON LN   O: CAIOLA . . 10:24:26",
+        "[Phone In]  at 47 STEVEDORE LN, LEVITTOWN  c/s: PARSON LN   O: CAIOLA . . 10:24:26",
         "CALL:Phone In",
         "ADDR:47 STEVEDORE LN",
         "CITY:LEVITTOWN",
         "X:PARSON LN",
-        "PLACE:CAIOLA");
-    
+        "PLACE:CAIOLA",
+        "TIME:10:24:26");
+
     doTest("T3",
         "Signal 9 at 62 FLAMINGO RD, LEVITTOWN  c/s: GULL LN   O: OLSEN . . 09:34:27",
         "CALL:Signal 9",
         "ADDR:62 FLAMINGO RD",
         "CITY:LEVITTOWN",
         "X:GULL LN",
-        "PLACE:OLSEN");
-    
+        "PLACE:OLSEN",
+        "TIME:09:34:27");
+
     doTest("T4",
         "Brush Fires at TARRY LN / BAYBERRY LN, LEVITTOWN . . 14:28:07",
         "CALL:Brush Fires",
         "ADDR:TARRY LN & BAYBERRY LN",
-        "CITY:LEVITTOWN");
+        "CITY:LEVITTOWN",
+        "TIME:14:28:07");
   }
   
   @Test
@@ -94,7 +106,8 @@ public class NYNassauCountyRedAlertParserTest extends BaseParserTest {
         "ADDR:17 BRIDLE LN",
         "CITY:HICKSVILLE",
         "X:BLUEBERRY LN",
-        "PLACE:KENDALL, ANNA");
+        "PLACE:KENDALL, ANNA",
+        "TIME:14:48:48");
 
     doTest("T2",
         "BUILDING FIRE: SMOKE IN THE STRUCTURE  at 6 W VILLAGE GRN, HICKSVILLE  c/s: BARTER LN   O: ANNE'S WASH AND DRY . . 13:29:45",
@@ -103,7 +116,8 @@ public class NYNassauCountyRedAlertParserTest extends BaseParserTest {
         "ADDR:6 W VILLAGE GRN",
         "CITY:HICKSVILLE",
         "X:BARTER LN",
-        "PLACE:ANNE'S WASH AND DRY");
+        "PLACE:ANNE'S WASH AND DRY",
+        "TIME:13:29:45");
 
     doTest("T3",
         "AUTOMATIC ALARM: ZONE 58 / AFA NO ANSWER ON THE CALL BACK  at 111 CANTIAGUE ROCK RD, WESTBURY  c/s: W JOHN ST   O: NASSAU BOCES - CAREER PREPRATORY HIGH S",
@@ -145,7 +159,8 @@ public class NYNassauCountyRedAlertParserTest extends BaseParserTest {
         "ADDR:62 TOWN PATH RD",
         "CITY:GLEN COVE",
         "X:WALNUT RD",
-        "PLACE:CAPOBIANCO");
+        "PLACE:CAPOBIANCO",
+        "TIME:12:34:31");
 
     doTest("T2",
         "SIG 8, CARBON MONOXIDE ACTIVATION at 238 WALNUT RD EXT, GLEN COVE  c/s: SEAMAN RD   O: IANNONE . . 11:32:25",
@@ -153,7 +168,8 @@ public class NYNassauCountyRedAlertParserTest extends BaseParserTest {
         "ADDR:238 WALNUT RD EXT",
         "CITY:GLEN COVE",
         "X:SEAMAN RD",
-        "PLACE:IANNONE");
+        "PLACE:IANNONE",
+        "TIME:11:32:25");
 
     doTest("T3",
         "GENERAL ALARM, AUTOMATIC FIRE ALARM at 5 MCKINLEY PL, GLEN COVE  c/s: GRANT PL   O: RASENBERGER . . 19:11:33",
@@ -161,7 +177,8 @@ public class NYNassauCountyRedAlertParserTest extends BaseParserTest {
         "ADDR:5 MCKINLEY PL",
         "CITY:GLEN COVE",
         "X:GRANT PL",
-        "PLACE:RASENBERGER");
+        "PLACE:RASENBERGER",
+        "TIME:19:11:33");
 
     doTest("T4",
         "GENERAL ALARM, ELECTRICAL BURNING at 10 YALE PL, GLEN COVE c/s: PURDUE RD O: MORRISSEY..09:27:08",
@@ -169,8 +186,8 @@ public class NYNassauCountyRedAlertParserTest extends BaseParserTest {
         "ADDR:10 YALE PL",
         "CITY:GLEN COVE",
         "X:PURDUE RD",
-        "PLACE:MORRISSEY");
-    
+        "PLACE:MORRISSEY",
+        "TIME:09:27:08");
   }
   
   @Test
@@ -180,16 +197,20 @@ public class NYNassauCountyRedAlertParserTest extends BaseParserTest {
         "RESCUE, AMBU at OYSTER BAY LIBRARY 89 MAIN ST E, OYSTER BAY c/s: PEARL ST / ANSTICE ST, PEDESTRIAN STRUCK . . 12:45:00",
         "CALL:RESCUE, AMBU",
         "ADDR:OYSTER BAY LIBRARY 89 MAIN ST E",
+        "MADDR:OYSTER BAY LIBRARY 89 MAIN ST E & PEARL ST",
         "CITY:OYSTER BAY",
-        "X:PEARL ST / ANSTICE ST, PEDESTRIAN STRUCK");
+        "X:PEARL ST / ANSTICE ST, PEDESTRIAN STRUCK",
+        "TIME:12:45:00");
 
     doTest("T2",
         "CHIEF, WIRE at  SANDY HILL ROAD, OYSTER BAY c/s: MAIN (E) ST, WIRES BURNING . . 00:20:00",
         "CALL:CHIEF, WIRE",
         "ADDR:SANDY HILL ROAD",
+        "MADDR:SANDY HILL ROAD & MAIN (E) ST",
         "CITY:OYSTER BAY",
-        "X:MAIN (E) ST, WIRES BURNING");
- 
+        "X:MAIN (E) ST, WIRES BURNING",
+        "TIME:00:20:00");
+
   }
   
   @Test
@@ -211,7 +232,8 @@ public class NYNassauCountyRedAlertParserTest extends BaseParserTest {
         "MAP:54",
         "UNIT:CO5, CO4, CO6",
         "ADDR:LAKEVILLE RD & NORTHERN STATE PKWY",
-        "CITY:LAKE SUCCESS");
+        "CITY:LAKE SUCCESS",
+        "TIME:10:28:36");
 
     doTest("T3",
         "Automatic Alarm - Residential: Zone: 21, Response:CO2, CO1\nat 32 BUCKMINSTER LA, STRATHMORE VILLAGE  c/s: SUSSEX DR   O: URALLEY . . 21:03:10",
@@ -221,7 +243,8 @@ public class NYNassauCountyRedAlertParserTest extends BaseParserTest {
         "ADDR:32 BUCKMINSTER LA",
         "CITY:STRATHMORE",
         "X:SUSSEX DR",
-        "PLACE:URALLEY");
+        "PLACE:URALLEY",
+        "TIME:21:03:10");
 
     doTest("T4",
         "Automatic Alarm - Commercial: Zone: 54, Response:CO5, CO4\nat 1 DELAWARE DR, LAKE SUCCESS QUARD  c/s: MARCUS AV   O: PARKER JEWISH CENTER-PRO HEALTH . . 1",
@@ -241,7 +264,8 @@ public class NYNassauCountyRedAlertParserTest extends BaseParserTest {
         "ADDR:363 GREAT NECK RD",
         "CITY:GREAT NECK",
         "X:WATER MILL LA",
-        "PLACE:REMA AUTO COLLISION");
+        "PLACE:REMA AUTO COLLISION",
+        "TIME:12:56:01");
 
     doTest("T6",
         "[Brush] Trees: Zone: 45, Response:CO4, CO5\nWIRES DOWN at WESTMINSTER RD / BATES RD, LAKE SUCCESS . . 15:59:47",
@@ -249,7 +273,8 @@ public class NYNassauCountyRedAlertParserTest extends BaseParserTest {
         "MAP:45",
         "UNIT:CO4, CO5 WIRES DOWN",
         "ADDR:WESTMINSTER RD & BATES RD",
-        "CITY:LAKE SUCCESS");
+        "CITY:LAKE SUCCESS",
+        "TIME:15:59:47");
 
     doTest("T7",
         "MVA w/ Aided: Zone: 43, Response:CO4, CO3\nat NORTHERN BLVD / GREAT NECK RD, GREAT NECK . . 17:45:30",
@@ -257,7 +282,8 @@ public class NYNassauCountyRedAlertParserTest extends BaseParserTest {
         "MAP:43",
         "UNIT:CO4, CO3",
         "ADDR:NORTHERN BLVD & GREAT NECK RD",
-        "CITY:GREAT NECK");
+        "CITY:GREAT NECK",
+        "TIME:17:45:30");
 
     doTest("T8",
         "[Brush] Trees: Zone: 54, Response:CO5\nat NEW HYDE PARK RD / NORTH SERVICE RD, NEW HYDE PARK . . 18:32:59",
@@ -265,7 +291,8 @@ public class NYNassauCountyRedAlertParserTest extends BaseParserTest {
         "MAP:54",
         "UNIT:CO5",
         "ADDR:NEW HYDE PARK RD & NORTH SERVICE RD",
-        "CITY:NEW HYDE PARK");
+        "CITY:NEW HYDE PARK",
+        "TIME:18:32:59");
 
     doTest("T9",
         "Carbon Monoxide w/ Aided: Zone: 52, Response:CO5, CO6\nat 45 CHESTNUT HILL, NORTH HILLS  c/s: ACORN PONDS DR . . 00:59:33",
@@ -274,19 +301,20 @@ public class NYNassauCountyRedAlertParserTest extends BaseParserTest {
         "UNIT:CO5, CO6",
         "ADDR:45 CHESTNUT HILL",
         "CITY:NORTH HILLS",
-        "X:ACORN PONDS DR");
+        "X:ACORN PONDS DR",
+        "TIME:00:59:33");
 
     doTest("T10",
         "/ STILL ALARM: ODOR OF GAS at CENTRAL AVE / ROCKAWAY TPKE, LAWRENCE . . 14:20:55",
         "CALL:STILL ALARM",
         "INFO:ODOR OF GAS",
         "ADDR:CENTRAL AVE & ROCKAWAY TPKE",
-        "CITY:LAWRENCE");
-
+        "CITY:LAWRENCE",
+        "TIME:14:20:55");
   }
   
   public static void main(String[] args) {
-    new NYNassauCountyRedAlertParserTest().generateTests("T1", "CALL MAP UNIT INFO ADDR APT CITY X PLACE");
+    new NYNassauCountyRedAlertParserTest().generateTests("T1", "CALL MAP UNIT INFO ADDR APT CITY X PLACE TIME");
   }
 
 }

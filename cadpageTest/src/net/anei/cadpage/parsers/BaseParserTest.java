@@ -24,6 +24,9 @@ import static org.junit.Assert.*;
 public abstract class BaseParserTest {
   
   // Flag set to turn on strict map address checking
+  // This should be turned on when testing individual test classes
+  // it needs to be turned off when running the entire suite as it causes
+  // about a third of existing test classes to fail.
   private static final boolean STRICT_MAP_CHECK = false;
   
   private static final String FROM_ADDRESS = "1112223333";
