@@ -214,6 +214,10 @@ public class SmsMsgInfo {
         int pt = sCross.indexOf('/');
         if (pt < 0) pt = sCross.indexOf('&');
         if (pt >= 0) sCross = sCross.substring(0, pt).trim();
+        sCross = cleanStreetSuffix(sCross);
+        sCross = cleanRoutes(sCross);
+        sCross = cleanDoubleRoutes(sCross);
+        sCross = cleanInterstate(sCross);
         sb.append(" & ");
         sb.append(sCross);
       }

@@ -36,7 +36,7 @@ public class NYSuffolkCountyDParser extends FieldProgramParser {
   
   public NYSuffolkCountyDParser() {
     super("SUFFOLK COUNTY","NY",
-    "CALL! code:CODE? at:ADDR! c/s:X! d/t:SKIP");
+    "CALL! code:CODE? at:ADDR! c/s:X! d/t:DATETIME");
   }
 
   @Override
@@ -63,5 +63,20 @@ public class NYSuffolkCountyDParser extends FieldProgramParser {
       parseAddress(sAddr, data);
     }
     return true;
+  }
+  
+  private class MyCrossField extends CrossField {
+    @Override
+    public void parse(String field, Data data) {
+      if (field.startsWith("&")) field = field.substring(1).trim();
+      super.parse(field, data);
+    }
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("X")) return new MyCrossField();
+    return super.getField(name);
+      
   }
 }

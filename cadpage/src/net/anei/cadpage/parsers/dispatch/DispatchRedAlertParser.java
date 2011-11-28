@@ -104,7 +104,7 @@ CHIEF, WIRE at  SANDY HILL ROAD, OYSTER BAY c/s: MAIN (E) ST, WIRES BURNING . . 
 
 public class DispatchRedAlertParser extends SmartAddressParser {
   
-  private static final Pattern TIME_MARK = Pattern.compile("\\. ?\\. ?[\\d:]+$");
+  private static final Pattern TIME_MARK = Pattern.compile("\\. ?\\. ?([\\d:]+)$");
   private static final Pattern CODE_PATTERN = Pattern.compile("\\b\\d{1,2}-?[A-Z]-?\\d{1,2}[A-Z]?\\b");
   
   public DispatchRedAlertParser(String defCity, String defState) {
@@ -128,6 +128,11 @@ public class DispatchRedAlertParser extends SmartAddressParser {
     Matcher match = TIME_MARK.matcher(body);
     if (match.find()) {
       ok = true;
+      String sTime = match.group(1);
+      if (sTime.length() >= 5) {
+        if (sTime.length() < 8) sTime = sTime.substring(0,5);
+        data.strTime = sTime;
+      }
       body = body.substring(0,match.start()).trim();
     }
     

@@ -16,16 +16,14 @@ sender: paging@dixhillsfd.xohost.com
 2010-001919 01:48 *** 16- Rescue *** 179 OAKFIELD AV BRUZZESE, ROCCO  SEAMAN NECK RD 6-D-3 RESPIRATORY KFIELD AV DIXHIL TYPE: RESPIRATORY LOC: 179  OAKFI
 2010-001923 11:44 *** 16- Rescue *** 337 DEER PARK AV SUNRISE ASSISTED LIVING RED MAPLE LA Alert
 2010-001991 08:42 *** 23- Misc Fire ***  CARLLS STRAIGHT PATH CARLLS STRAIGHT PA & S SERVICE RD S SERVICE RD
+
 *** Google doesn't understand PA, translate to CARLS STRAIGHT PATH & S SERVICE RD
 */
 
 public class NYDixHillsParser extends SmartAddressParser {
   
-  private static final String DEF_STATE = "NY";
-  private static final String DEF_CITY = "DIX HILLS";
-  
   public NYDixHillsParser() {
-    super(DEF_CITY, DEF_STATE);
+    super("DIX HILLS", "NY");
   }
   
   @Override
@@ -37,19 +35,22 @@ public class NYDixHillsParser extends SmartAddressParser {
   protected boolean parseMsg(String body, Data data) {
     
     if (body.length() < 22 ||! body.substring(17, 22).equals(" *** ")) return false;
-    data.defState=DEF_STATE;
-    data.defCity=DEF_CITY;
-    body = body.trim();
-    if (body.length() < 11) return false;
     data.strCallId = body.substring(0,11);
+    data.strTime = body.substring(12,17);
+    body = body.substring(22).trim();
     int pt = body.indexOf("***");
     if (pt < 0) return false;
-    int pta = body.indexOf("***",pt+3); 
-    if (pta < 0) return false;
-    data.strCall = body.substring(pt+3, pta).trim();
-    body = body.substring(pta+3).trim();
+    data.strCall = body.substring(0,pt).trim();
+    body = body.substring(pt+3).trim();
     body = cleanup(body);
     parseAddress(StartType.START_ADDR, body, data);
+    String sExtra = getLeft();
+    pt = sExtra.indexOf(" Dix Hills ");
+    if (pt >= 0) {
+      data.strName = sExtra.substring(0,pt).trim();
+      sExtra = sExtra.substring(pt+11).trim();
+    }
+    data.strSupp = sExtra;
     return true;
   }
     
