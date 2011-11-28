@@ -3490,11 +3490,12 @@ Contact: "nemo48@sbcglobal.net" <nemo48@sbcglobal.net>
 Sender: paging@easthavenfire.com
 1100005182 ALPHA MEDICAL 00055 THOMPSON ST  Prem Map -14 PP 65 FOXON RD/GAY ST  (Prem Map -14 PP 65)\4sS5 111120 15:40
 **********************************************************
-Cabarrus County, NC (alternate or replace or upgrade)
-Contact: Kevin Aube <aubercn41@aol.com>
-Sender: 93001044
-2847:CAD:OPS2,A3,E21,E41;1;MVC INJURY- NO PIN IN/ENTRAP;2500 S MAIN ST;K401;HAMPTON LN;SPRINGWAY DR;JORDAN HOT SPOT;{FROM CSO: CALLER HUNG UP ON ME [11/27/11 14:30:54 PSBLACKWELL]} [11/27/11 14:28:05 TRANSFER] ** Transfer from CSO ** CSO received: 11/27/2011 14:30:17 Source: PHONE Nature: TRAFFIC ACCIDENT PI
-**********************************************************
+Orange County, NY (alternate)
+Contact: "mail.vailsgatefd.com" <krypkema@mail.vailsgatefd.com>
+Sender:messaging@iamresponding.com
+(Vails Gate) CARBON MONOXIDE DETR  1 KEARNEY DR  NEW WINDSOR  DEPT 45 TIME: 19:17 XST: MARSHALL DR XST2: 17 TRUEX DR\n\n\nThis
+(Vails Gate) EXTRICATION  ST RTE 32&amp;ORRS MILLS RD  CORNWALL  SPRINT PCS WIRELESS  CALLER REPORTS CAR INTO TREE POSS ENTRAPEMENT  Parent Inc MCO11112
+(Vails Gate) ROLLOVER MVA  2406 ST RTE 32  CORNWALL  JESSICA  ONE CAR ROLLOVER//UNK INJS  Parent Inc MCO111126000959 UPDATE PriUnt to CO/CODIS TIME: 23:
 **********************************************************
 **********************************************************
 **********************************************************
@@ -3510,6 +3511,15 @@ Sender: 93001044
 **********************************************************
 ************  READY TO ROLL ******************************
 **********************************************************
+**********************************************************
+Cabarrus County, NC (alternate or replace or upgrade)
+Contact: Kevin Aube <aubercn41@aol.com>
+Sender: 93001044
+2847:CAD:OPS2,A3,E21,E41;1;MVC INJURY- NO PIN IN/ENTRAP;2500 S MAIN ST;K401;HAMPTON LN;SPRINGWAY DR;JORDAN HOT SPOT;{FROM CSO: CALLER HUNG UP ON ME [11/27/11 14:30:54 PSBLACKWELL]} [11/27/11 14:28:05 TRANSFER] ** Transfer from CSO ** CSO received: 11/27/2011 14:30:17 Source: PHONE Nature: TRAFFIC ACCIDENT PI
+2845:CAD:A2,E11;1;RESPIRATORY DISTRESS;1307 POPLAR GLEN DR;K102;CANEVIEW CT;73 YO [11/27/11 12:25:16 HSTEPHENS]
+2846:CAD:A2,E31,E41,OPS1;1;MVC INJURY- NO PIN IN/ENTRAP;2400 WONDER DR NE/ROXIE ST;K303;** Transfer from CSO ** CSO received: 11/27/2011 14:04:46 Source: PHONE Nature: TRAFFIC ACCIDENT PI Business: MCDONALDS Phone:7047865822 Call #: 752 Event Id: 11094816 Console: CBA4 Call Take
+2847:CAD:OPS2,A3,E21,E41;1;MVC INJURY- NO PIN IN/ENTRAP;2500 S MAIN ST;K401;HAMPTON LN;SPRINGWAY DR;JORDAN HOT SPOT;{FROM CSO: CALLER HUNG UP ON ME [11/27/11 14:30:54 PSBLACKWELL]} [11/27/11 14:28:05 TRANSFER] ** Transfer from CSO ** CSO received: 11/27/2011 14:30:17 Source: PHONE Nature: TRAFFIC ACCIDENT PI
+2848:CAD:A2,E21;1;RESPIRATORY DISTRESS;110 WESTOVER AV;K201;RENA ST;BEUNA ST;** Transfer from CSO ** CSO received: 11/27/2011 16:50:57 Source: E911 Nature: BREATHING PROBLEMS Call #: 792 Event Id: 11094854 Console: CBA7 Call Taker: SADEMPSEY Notes: [11/27/11 16:48:28
 **********************************************************
 Geauga county, OH
 Contact: Erik Modrzynski <erikmodrzynski@gmail.com
@@ -3646,8 +3656,24 @@ DUNKIN DONUTS\n
 Map MIDWAY 14:16:56\n
 \n
 
-Body:FIRE ALARM E412,E410,RS3,E405,TK9\n
+FIRE ALARM E412,E410,RS3,E405,TK9\n
 1417 CENTRAL AV\n
 COLONIE CENTER\n
 Map FULLER 08:11:21\n
+\n
+
+MEDICAL CALL A622,E405\n
+10 STELLA TR\n
+Map COL VILL 20:55:06\n
+\n
+
+CO ALARM W/ILLNESS E405,E406,E412,FP71\n
+28 HIALEAH DR\n
+MILLER GREGORY\n
+Map COL VILL 07:23:37\n
+\n
+
+CO ALARM W/O ILLNESS E405,E406,FP71\n
+22 LOIS CT\n
+Map COL VILL 09:22:59\n
 \n

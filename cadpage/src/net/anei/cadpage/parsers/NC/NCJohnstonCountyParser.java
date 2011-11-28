@@ -9,7 +9,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchOSSIParser;
 /*
 Johnston County, NC
 Contact: "Ole Dean K." <koehmstedt@gmail.com>
-Sender: 93001xxx
+Sender: CAD@johnstonnc.com,93001xxx
 
 CAD:Evacuation In-Progress;70 MYSTICAL CT; GARN;(S)JORDAN RIDGE (N)
 CAD:OPS5;CLD;52C02C;CARBON MONOXIDE ALARM;70 MYSTICAL CT;(S)JORDAN RIDGE (N);GALAXY DR;DENA HOLLOMAN;12/28/2010 22:20:35;CLD1
@@ -35,6 +35,10 @@ CAD:OPS;STA6;DIFFICULTY BREATHING;200 E WELLONS ST;S BAKER ST;BROWN ST;KINGS RES
 Contact: Ole Dean K. <koehmstedt@gmail.com>
 CAD:CLD;06D02;DIFF BREATHING 06-D-02;77 CARRIAGE CREEK DR;(S)CARRIAGE CREEK (N);STEEP HILL CT;BRADLEY, EDWARD;08/07/2011 20:15:39;CLDR1
 
+Contact: Daniel Fry <dfry79@gmail.com>
+Sender: CAD@johnstonnc.com
+CAD:No Add`l Personnel / Unit;1203 LIVE OAK CHURCH RD; SELM;6(S)PECAN GROVE MHP (N)
+
 */
 
 public class NCJohnstonCountyParser extends DispatchOSSIParser {
@@ -46,7 +50,7 @@ public class NCJohnstonCountyParser extends DispatchOSSIParser {
 
   @Override
   public String getFilter() {
-    return "93001";
+    return "CAD@johnstonnc.com,93001";
   }
 
   // Source code validates that is is not more than 5 characters long

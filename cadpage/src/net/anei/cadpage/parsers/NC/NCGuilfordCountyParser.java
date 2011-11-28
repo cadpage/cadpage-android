@@ -78,6 +78,7 @@ Subject:[Firedistrict13] (no subject)\nCAD:FD13;ST55;1;FIRAL;4006 STARLING CT\n\
 Contact: Jenna Daniels <ffjdaniels@gmail.com>
 Sender: dispatch@edispatches.com
 Subject:summerfieldfiredist Nov26-03:56\nsummerfieldfiredist\nCAD:SMFD;ST29;1;MED;132 LAKE DR;OLD MILL DR\n
+Subject:summerfieldfiredist Nov27-19:50\nsummerfieldfiredist\nCAD:SMFD;ST29;1;OSFIR;1359 SCALESVILLE RD;CARTER FARM RD\n
 
 */
 
