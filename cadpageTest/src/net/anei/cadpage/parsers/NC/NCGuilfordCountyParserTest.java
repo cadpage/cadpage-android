@@ -286,6 +286,14 @@ public class NCGuilfordCountyParserTest extends BaseParserTest {
         "INFO:SMFD / ST29 / 1",
         "CALL:MED",
         "X:OLD MILL DR");
+
+    doTest("T35",
+        "Subject:summerfieldfiredist Nov27-19:50\nsummerfieldfiredist\nCAD:SMFD;ST29;1;OSFIR;1359 SCALESVILLE RD;CARTER FARM RD\n",
+        "SRC:summerfieldfiredist",
+        "ADDR:1359 SCALESVILLE RD",
+        "INFO:SMFD / ST29 / 1",
+        "CALL:OSFIR",
+        "X:CARTER FARM RD");
  }
   
   @Test

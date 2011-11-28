@@ -139,6 +139,7 @@ public class NCJohnstonCountyParserTest extends BaseParserTest {
         "SRC:STA6",
         "CALL:CVA/STROKE",
         "ADDR:3800-B US 701 HWY S",
+        "MADDR:3800 US 701 S",
         "X:STEWART RD & PEACH ORCHARD RD",
         "NAME:BENSON AREA MEDICAL CENTER INC");
 
@@ -169,9 +170,15 @@ public class NCJohnstonCountyParserTest extends BaseParserTest {
         "ADDR:77 CARRIAGE CREEK DR",
         "X:(S)CARRIAGE CREEK (N) & STEEP HILL CT",
         "NAME:BRADLEY, EDWARD");
+
+    doTest("T26",
+        "CAD:No Add`l Personnel / Unit;1203 LIVE OAK CHURCH RD; SELM;6(S)PECAN GROVE MHP (N)",
+        "CALL:No Add`l Personnel / Unit",
+        "ADDR:1203 LIVE OAK CHURCH RD",
+        "X:SELM & 6(S)PECAN GROVE MHP (N)");
   }
   
   public static void main(String[] args) {
-    new NCJohnstonCountyParserTest().generateTests("T25");
+    new NCJohnstonCountyParserTest().generateTests("T26");
   }
 }
