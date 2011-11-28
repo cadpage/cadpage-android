@@ -3,8 +3,6 @@ package net.anei.cadpage;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import net.anei.cadpage.parsers.SmsMsgParser;
-
 /**
  * This class contains all of the useful data fields that are parsed from
  * the actual message text
@@ -470,9 +468,9 @@ public class SmsMsgInfo {
    * @return true if address is valid standalone address
    * (ie either starts with a house number or contains an intersection marker) 
    */
+  private static final Pattern HOUSE_NO_PTN = Pattern.compile("^(?:[NSEW] +)?\\d+ ");
   private boolean validAddress(String sAddr) {
-    int pt = sAddr.indexOf(' ');
-    if (pt > 0 && SmsMsgParser.NUMERIC.matcher(sAddr.substring(0, pt)).matches()) return true;
+    if (HOUSE_NO_PTN.matcher(sAddr).find()) return true;;
     if (sAddr.contains("&") || sAddr.contains(" AND ") || sAddr.contains(" and ")) return true; 
     return false;
   }
