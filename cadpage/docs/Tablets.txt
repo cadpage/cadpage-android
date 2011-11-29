@@ -26,3 +26,7 @@ Sysinfo - Vizio/VTAB1008/VTAB1008:2.3.2/GRH78C/eng.gituser.20111013.134450:user/
 Model: VTAB1008
 Phone:null
  
+From: Justin Massengill <jjmassengill@gmail.com>
+Sysinfo - motorola/tervigon/wingray:3.2.1/HTK75D/190830:user/release-keys
+Model: Xoom
+Phone:*86
