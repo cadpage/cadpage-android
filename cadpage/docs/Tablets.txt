@@ -30,3 +30,9 @@ From: Justin Massengill <jjmassengill@gmail.com>
 Sysinfo - motorola/tervigon/wingray:3.2.1/HTK75D/190830:user/release-keys
 Model: Xoom
 Phone:*86
+
+nathan carrier <ncarrier454@gmail.com>
+ASUS Transformer TF-101
+Sysinfo - asus/US_epad/TF101:3.2.1/HTK75/US_epad-8.6.5.19-20111107:user/release-keys
+Model: Transformer TF101
+Phone:null
