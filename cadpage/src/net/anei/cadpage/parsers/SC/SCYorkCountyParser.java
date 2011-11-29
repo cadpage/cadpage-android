@@ -20,6 +20,11 @@ YRS1 EMS6  P: 1 LOC: 24 CANNON CT X: DEAD END / ROSS CANNON ST * * York * * Medi
 CRS1 EMS5  P: 1 LOC: 2715 FILBERT HWY X: GOOD RD / SOUTHBEND RD * * Clover * * Medical Emergency * MED OPS 3/TROUBLE BREATHING * DEBBIE MITCHEL NAR:  INC#: 2010-00001750 
 EMS1 RFE3  P: 1 LOC: 227 LONE OAK CIR X: INDIA HOOK RD / INDIA HOOK RD * VILLAGE AT INDIA HOOK * Rock Hill VILLAGE AT IND * * Medical Emergency * MED OPS 2 / DIABETIC  * LINDEMANN C DR NAR:  INC#: 2010-00023236 
 EMS9  P: 1 LOC: 101 SEDGEWOOD DR X: EBENEZER RD / WINTHROP DR * * Rock Hill * * Trauma Emergency * MED OPS 2/SUICIDE ATTEMPT * SAUNDRA WHITE NAR:  RHPD ADVISED  18 YOM/TIED SHIRT AROUND HIS NECK/STUCK HEAD IN TOILET/COMBATIVE/HAS BEEN GIVEN MEDS TO HELP HIM CALM DOWN/BANGING HEAD ON WALL/ENTER AT FRONT OF FACILITY BEHIND FOUNDERS  INC#: 2010-00023234
+
+"Domenic Manera" <dmanera@yorkcitysc.com>  (York fire chief)
+Sender: <paging@yorkcountygov.com>
+YK1  P: 2 LOC: 5700 WYLIE AV X: BELT ST / CHURCH ST * * Hickory Grove * HICKORY GROVE FIRE DEPT* ZZTest Call * TEST CALL ONLY / NO RESPONSE NEEDED * CANDIE NAR:  TESTING FOR YORK FIRE DEPT / NO RESPONSE NEEDED INC#: 2011-00000973
+ 
  */
 
 
@@ -48,12 +53,19 @@ public class SCYorkCountyParser extends SmsMsgParser {
     Parser p = new Parser(body);
     data.strCross = p.get('*');
     data.strPlace = p.get('*');
-    data.strCity = p.get("* *");
+    data.strCity = p.get('*');
+    data.strPlace = append(data.strPlace, " - ", p.get('*'));
     data.strCall = p.get('*') + " - " + p.get('*');
     
     data.strSupp = props.getProperty("NAR", "");
     data.strCallId = props.getProperty("INC#", "");
-    
+
+    if (data.strPlace.length() > 0) {
+      String tmp = new Parser(data.strPlace).get(' ');
+      int ipt = data.strCity.indexOf(" " + tmp);
+      if (ipt >= 0) data.strCity = data.strCity.substring(0,ipt).trim();
+    }
+
     return true;
   }
 }

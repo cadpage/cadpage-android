@@ -325,7 +325,7 @@ public class SmsMsgInfo {
 
   // Clean up any BLK indicators
   // Remove occurance of BLK bracketed by non-alpha characters
-  private static final Pattern BLK_PAT = Pattern.compile("(?:-|(?<![A-Z]))BLK(?![A-Z])");
+  private static final Pattern BLK_PAT = Pattern.compile("(?:-|(?<![A-Z]))BLK(?![A-Z])", Pattern.CASE_INSENSITIVE);
   private String cleanBlock(String sAddr) {
     sAddr = sAddr.replaceAll("[\\{\\}]", "");
     Matcher match = BLK_PAT.matcher(sAddr);
@@ -357,7 +357,7 @@ public class SmsMsgInfo {
 
   // Google map isn't found of house numbers mixed with intersections
   // If we find an intersection marker, remove any house numbers
-  private static final Pattern HOUSE_RANGE = Pattern.compile("\\b(\\d+)-\\d*(?:[A-Z]|[/\\,]\\d)?\\b");
+  private static final Pattern HOUSE_RANGE = Pattern.compile("\\b(\\d+)-[A-Z0-9/\\.]+\\b");
   private static final Pattern HOUSE_NUMBER = Pattern.compile("^ *\\d+ +(?!(?:AV|AVE|ST)\\b)");
   private String cleanHouseNumbers(String sAddress) {
     

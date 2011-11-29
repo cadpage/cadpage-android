@@ -51,7 +51,7 @@ public class NYWyomingCountyParser extends FieldProgramParser {
 	    public void parse(String field, Data data) {
 	      Matcher match = X_PTN.matcher(field);
 	      if (match.find()) {
-	        data.strCross = match.group(1);
+	        data.strCross = match.group(1).trim();
 	        field = field.substring(0,match.start()).trim();
 	      }
 	      Parser p = new Parser(field);
@@ -63,11 +63,17 @@ public class NYWyomingCountyParser extends FieldProgramParser {
 	      data.strPhone = p.getLastOptional(" #PH");
 	      data.strApt = p.getLastOptional(" #APT");
 	      parseAddress(p.get().replaceAll(", ?", " "), data);
+	      
+	      if (checkAddress(data.strAddress) == 0  && checkAddress(data.strCross) > 0) {
+	        data.strPlace = data.strAddress;
+	        data.strAddress = data.strCross;
+	        data.strCross = "";
+	      }
 	    }
 	    
 	    @Override
 	    public String getFieldNames() {
-	      return "ADDR APT PHONE CITY X";
+	      return "PLACE ADDR APT PHONE CITY X";
 	    }
 	    
 	    private String stripTrail(String field, String term) {

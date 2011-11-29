@@ -85,7 +85,8 @@ public class ILPeoriaCountyParser extends SmartAddressParser {
     if (!match.find()) return false;
     data.strCallId = match.group(1);
     
-    parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END, body.substring(0,match.start()), data);
+    String sAddr = body.substring(0,match.start()).replace('{', ' ').replace('}', ' ').trim();
+    parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END, sAddr, data);
     body = body.substring(match.end()).trim();
     
     parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS, body, data);

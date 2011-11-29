@@ -1,0 +1,31 @@
+Questions?
+
+How gets the bill for CM services?
+
+Are there any geographical or other limits on who can use your service?
+
+How does CM webpage determine if phone has CP installed or enabled?
+
+Should we have any security on Cadpage registration request, like requiring
+CM credentials.  Is there any way user can received forged message from someone
+elses account?  Should we worry about this?
+
+Could users receiving data from two stations have two different CM accounts?
+
+Should CP do anything if it receives discovery post when already registered with CM?
+
+
+
+
+Cadpage coding
+
+Need to eventually determine if they have dropped sponsored service.
+
+Manual option to register with Codepage
+Also triggered by receipt of specially crafted SMS message
+
+Identify recivers of CM pages by sender filter or sender address of @c-msg.net 
+
+
+
+Recipt token URL
