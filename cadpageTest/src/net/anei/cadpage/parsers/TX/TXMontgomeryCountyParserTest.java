@@ -128,6 +128,7 @@ public class TXMontgomeryCountyParserTest extends BaseParserTest {
         "CALL:12B01-SEIZURE - Effective breathing NOT",
         "UNIT:B113",
         "ADDR:25808 I45 N",
+        "MADDR:25808 I 45 N",
         "CITY:SPRING",
         "X:102 OAKWOOD DR");
 
@@ -224,6 +225,7 @@ public class TXMontgomeryCountyParserTest extends BaseParserTest {
         "CALL:06C01-BREATHING PROBLEMS - Abnormal Brea",
         "UNIT:B111",
         "ADDR:I45 N & RAYFORD RD",
+        "MADDR:I 45 N & RAYFORD RD",
         "CITY:SPRING",
         "X:25130 I45 N");
 

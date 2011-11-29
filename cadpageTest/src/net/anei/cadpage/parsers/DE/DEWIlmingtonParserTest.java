@@ -26,6 +26,7 @@ public class DEWIlmingtonParserTest extends BaseParserTest {
         "06/21/2011*06:01*ASSAULT - UNKNOWN*1202 FAIRVIEW AV btwn MAPLE AV*HOLLY OAK TERRACE*MALE SUBJECT MACED //NCCPD ENR",
         "CALL:ASSAULT - UNKNOWN",
         "ADDR:1202 FAIRVIEW AV",
+        "MADDR:1202 FAIRVIEW AVE",
         "X:MAPLE AV",
         "PLACE:HOLLY OAK TERRACE",
         "INFO:MALE SUBJECT MACED //NCCPD ENR");
@@ -42,6 +43,7 @@ public class DEWIlmingtonParserTest extends BaseParserTest {
         "PRI:L2",
         "CALL:ELECTRICAL ODOR INSIDE",
         "ADDR:1304 HILLSIDE AV",
+        "MADDR:1304 HILLSIDE AVE",
         "X:W CLEARV",
         "PLACE:HOLLY OAK TERRACE");
 

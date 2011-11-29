@@ -67,6 +67,7 @@ public class VALexingtonRockbridgeCountyParserTest extends BaseParserTest {
         "[LCAD] Type: ACCIDENT MVC Loc: 81 SB 201 SB Units: B75,EM1,LXRS1,R73, City: FAIRFIELD 1/26/2011 2:23:09 PM **Nearest Address: NoneALTIMA GREY FEMALE BACK PAIN\nMessage Created 1/26/2011 2:34:00 PM",
         "CALL:ACCIDENT MVC",
         "ADDR:81 SB 201 SB",
+        "MADDR:81 201",
         "UNIT:B75,EM1,LXRS1,R73,",
         "CITY:FAIRFIELD",
         "INFO:ALTIMA GREY FEMALE BACK PAIN");

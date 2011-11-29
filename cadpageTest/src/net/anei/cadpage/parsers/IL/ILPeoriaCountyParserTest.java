@@ -48,7 +48,7 @@ public class ILPeoriaCountyParserTest extends BaseParserTest {
 
     doTest("T5",
         "12/28/10 {10301}W LANCASTER RD CO :( 5500) S HARKERS CORNER RD ROLL OVER 1300,006",
-        "ADDR:{10301}W LANCASTER RD",
+        "ADDR:10301 W LANCASTER RD",
         "CITY:PEORIA COUNTY",
         "ID:5500",
         "X:S HARKERS CORNER RD",

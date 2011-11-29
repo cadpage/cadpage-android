@@ -18,6 +18,7 @@ public class PABlairCountyParserTest extends BaseParserTest {
         "Inc: Vehicle Accident w/injuries  Add: MCMAHON RD and 17TH ST  City: LOGAN TWP  Units: 1102 430 519 512 518 433 15A 16A  15A  Lat/Lon: @40.49756 @78.38746  9/7/2011 4:04:59 PM  DR #: 11-0150208 ",
         "CALL:Vehicle Accident w/injuries",
         "ADDR:MCMAHON RD and 17TH ST",
+        "MADDR:MCMAHON RD & 17TH ST",
         "CITY:LOGAN TWP",
         "UNIT:1102 430 519 512 518 433 15A 16A  15A",
         "GPS:@40.49756 @78.38746",

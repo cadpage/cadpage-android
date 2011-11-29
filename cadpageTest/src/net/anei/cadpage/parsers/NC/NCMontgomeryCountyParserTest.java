@@ -58,6 +58,7 @@ public class NCMontgomeryCountyParserTest extends BaseParserTest {
         "KMORRIS:1895 NC HWY 24-27 E INT BISCOE INFORMATION 201107696 12:09:59 test",
         "ID:201107696",
         "ADDR:1895 NC HWY 24 27 E",
+        "MADDR:1895 NC 24 27 E",
         "CITY:BISCOE",
         "CALL:INFORMATION",
         "INFO:test");

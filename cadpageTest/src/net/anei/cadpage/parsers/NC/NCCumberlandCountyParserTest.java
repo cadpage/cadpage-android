@@ -30,6 +30,7 @@ public class NCCumberlandCountyParserTest extends BaseParserTest {
         "CALL:CLAMMY BREATHING PROBLEMS",
         "SRC:ST22",
         "ADDR:115-401 LAKE AVE",
+        "MADDR:115 LAKE AVE",
         "X:S FIRST ST");
 
     doTest("T3",
@@ -64,7 +65,8 @@ public class NCCumberlandCountyParserTest extends BaseParserTest {
         "UNIT:C4",
         "CALL:UNKNOWN OUTSIDE FIRE",
         "SRC:ST22",
-        "ADDR:2700-BLK BRAGG BLVD");
+        "ADDR:2700-BLK BRAGG BLVD",
+        "MADDR:2700 BRAGG BLVD");
 
     doTest("T7",
         "CAD:DIST: 174.69 FT (S)UPTON TYSON (BELRIDGR DR) (N)C10;05/20/2011 08:34:01;CLAMMY CHEST PAIN;ST18;3570 LACEWOOD CT;NC HWY 87 S",

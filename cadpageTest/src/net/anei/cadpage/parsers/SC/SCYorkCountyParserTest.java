@@ -47,6 +47,7 @@ public class SCYorkCountyParserTest extends BaseParserTest {
     doTest("T4",
         "P: 1 LOC: E  MAIN ST X: S  ANDERSON RD * * Rock Hill * * Vehicle Fire * YCF OPS 2/VEHICLE FIRE * STANLEY YOUNG NAR:  SMOKE COMING FROM HIS CAR//IN THE PARKING LOT ROCK TAVERN AND BAR NUMBER 2  INC#: 2010-00000439",
         "ADDR:E  MAIN ST",
+        "MADDR:E  MAIN ST & S  ANDERSON RD",
         "X:S  ANDERSON RD",
         "CITY:Rock Hill",
         "CALL:Vehicle Fire - YCF OPS 2/VEHICLE FIRE",
@@ -96,7 +97,7 @@ public class SCYorkCountyParserTest extends BaseParserTest {
         "ADDR:227 LONE OAK CIR",
         "X:INDIA HOOK RD / INDIA HOOK RD",
         "PLACE:VILLAGE AT INDIA HOOK",
-        "CITY:Rock Hill VILLAGE AT IND",
+        "CITY:Rock Hill",
         "CALL:Medical Emergency - MED OPS 2 / DIABETIC",
         "ID:2010-00023236");
 
@@ -109,6 +110,21 @@ public class SCYorkCountyParserTest extends BaseParserTest {
         "CALL:Trauma Emergency - MED OPS 2/SUICIDE ATTEMPT",
         "INFO:RHPD ADVISED  18 YOM/TIED SHIRT AROUND HIS NECK/STUCK HEAD IN TOILET/COMBATIVE/HAS BEEN GIVEN MEDS TO HELP HIM CALM DOWN/BANGING HEAD ON WALL/ENTER AT FRONT OF FACILITY BEHIND FOUNDERS",
         "ID:2010-00023234");
-    
+
+    doTest("T11",
+        "YK1  P: 2 LOC: 5700 WYLIE AV X: BELT ST / CHURCH ST * * Hickory Grove * HICKORY GROVE FIRE DEPT* ZZTest Call * TEST CALL ONLY / NO RESPONSE NEEDED * CANDIE NAR:  TESTING FOR YORK FIRE DEPT / NO RESPONSE NEEDED INC#: 2011-00000973",
+        "UNIT:YK1",
+        "ADDR:5700 WYLIE AV",
+        "MADDR:5700 WYLIE AVE",
+        "X:BELT ST / CHURCH ST",
+        "CITY:Hickory Grove",
+        "PLACE:HICKORY GROVE FIRE DEPT",
+        "CALL:ZZTest Call - TEST CALL ONLY / NO RESPONSE NEEDED",
+        "INFO:TESTING FOR YORK FIRE DEPT / NO RESPONSE NEEDED",
+        "ID:2011-00000973");
+  }
+  
+  public static void main(String[] args) {
+    new SCYorkCountyParserTest().generateTests("T1", "UNIT ADDR X CITY PLACE CALL INFO ID");
   }
 }

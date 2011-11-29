@@ -37,6 +37,7 @@ public class NCMecklenburgCountyAParserTest extends BaseParserTest {
     doTest("T4",
         "(Text Page) 19180-19209 Coachmans Trace             GLENRIDGE                     Fire -  Emergency             69-Structure Fire             Meadow Crossing L",
         "ADDR:19180-19209 Coachmans Trace",
+        "MADDR:19180 Coachmans Trace",
         "PLACE:GLENRIDGE",
         "INFO:Fire -  Emergency",
         "CALL:69- Structure Fire",
@@ -114,6 +115,7 @@ public class NCMecklenburgCountyAParserTest extends BaseParserTest {
     doTest("T2",
         "(Incoming Message) 13000-blk Hidcote Ct                    BURNING BRUSH                 Fire -  Emergency             67-",
         "ADDR:13000-blk Hidcote Ct",
+        "MADDR:13000 Hidcote Ct",
         "PLACE:BURNING BRUSH",
         "INFO:Fire -  Emergency",
         "CALL:67-");

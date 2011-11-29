@@ -73,6 +73,7 @@ public class NCRandolphCountyParserTest extends BaseParserTest {
         "SRC:FRFD",
         "CALL:ACCIDENT/PD",
         "ADDR:US HWY 64 E & FOXFIRE RD",
+        "MADDR:US 64 E & FOXFIRE RD",
         "UNIT:STA08",
         "INFO:REF TO TRAFFIC CONTROL AT 10-50 PD AUTH OF 8B");
 
@@ -89,6 +90,7 @@ public class NCRandolphCountyParserTest extends BaseParserTest {
         "SRC:FRFD",
         "CALL:BACK PAIN",
         "ADDR:3453 NC HWY 22 N",
+        "MADDR:3453 NC 22 N",
         "UNIT:STA08",
         "INFO:10-15 TROY BULLINS 40YOM...C/O SEVERE BACK PAIN WITH DIFF BREATHING...REQ NO / SIRENS...REQ TX TO CHATHAM");
 

@@ -86,11 +86,13 @@ public class NCAlexanderCountyParserTest extends BaseParserTest {
     doTest("T10",
         "CAD:1 JENKINS MOOSE RD/LILEDOUN RD;WEATHER RELATED",
         "ADDR:1 JENKINS MOOSE RD & LILEDOUN RD",
+        "MADDR:1 JENKINS MOOSE RD",
         "CALL:WEATHER RELATED");
 
     doTest("T11",
         "CAD:505 NC 16 HWY N;UNCONSCIOUS OR FAINTING;31D02;GRAVEL HILL CT;NAT GUARD ARMORY RD",
         "ADDR:505 NC 16 HWY N",
+        "MADDR:505 NC 16 N",
         "CALL:UNCONSCIOUS OR FAINTING",
         "CODE:31D02",
         "X:GRAVEL HILL CT & NAT GUARD ARMORY RD");
@@ -98,6 +100,7 @@ public class NCAlexanderCountyParserTest extends BaseParserTest {
     doTest("T12",
         "CAD:2818 NC 90 HWY E;CHEST PAIN;10D03;JESSICA LEE LN;WHITE PLAINS RD",
         "ADDR:2818 NC 90 HWY E",
+        "MADDR:2818 NC 90 E",
         "CALL:CHEST PAIN",
         "CODE:10D03",
         "X:JESSICA LEE LN & WHITE PLAINS RD");

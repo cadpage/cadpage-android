@@ -19,6 +19,7 @@ public class NYOtsegoCountyParserTest extends BaseParserTest {
         "CALL:HAZARD ALL",
         "PLACE:WILBER NATIONAL BANK - COOPERS",
         "ADDR:5378 ST HWY 28",
+        "MADDR:5378 ST 28",
         "SRC:COOP3",
         "X:CO HWY 26 /WALNUT",
         "INFO:NARR SOUTH OF BANK MVA PDAA NEED FIR POLICE  PERSON: (COMPLAINANT) (FMLS) TIM  DONLAN");

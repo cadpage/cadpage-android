@@ -32,18 +32,21 @@ public class MDQueenAnnesCountyParserTest extends BaseParserTest {
         "qac911:*D 5-1 LG BRUSH/GRASS FIRE RT405 / WINDSWEPT FARM LN BRUSH BOX Q05",
         "CALL:5-1 LG BRUSH/GRASS FIRE",
         "ADDR:RT405 & WINDSWEPT FARM LN",
+        "MADDR:RT 405 & WINDSWEPT FARM LN",
         "INFO:BRUSH BOX Q05");
     
     doTest("T4",
         "qac911:*D 4-5 UNCONSCIOUS/FAINTING RT301NB / ROLLING BRIDGE RD UNCONSCIOUS Q04",
         "CALL:4-5 UNCONSCIOUS/FAINTING",
         "ADDR:RT301 & ROLLING BRIDGE RD",
+        "MADDR:RT 301 & ROLLING BRIDGE RD",
         "INFO:UNCONSCIOUS Q04");
     
     doTest("T5",
         "qac911:*D 5-2 MVC W/ROLLOVER RT301NB / HAYDEN RD RESCUE BOX Q05",
         "CALL:5-2 MVC W/ROLLOVER",
         "ADDR:RT301 & HAYDEN RD",
+        "MADDR:RT 301 & HAYDEN RD",
         "INFO:RESCUE BOX Q05");
     
     doTest("T6",

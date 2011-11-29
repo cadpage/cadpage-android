@@ -147,6 +147,7 @@ public class NCCabarrusCountyBParserTest extends BaseParserTest {
          "CALL:WORKING FIRE UPGRADE",
          "CH:OPS3",
          "ADDR:1051 NC HWY 49 S",
+         "MADDR:1051 NC 49 S",
          "X:GLENWOOD DR SW & OLD CHARLOTTE RD SW",
          "PRI:8",
          "UNIT:834",

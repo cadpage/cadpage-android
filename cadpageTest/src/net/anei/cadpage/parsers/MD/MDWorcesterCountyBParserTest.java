@@ -35,6 +35,7 @@ public class MDWorcesterCountyBParserTest extends BaseParserTest {
         "CALL:Structure Fire Extinguished",
         "PLACE:White Horse Trailer Park",
         "ADDR:11647-1 Beauchamp Rd",
+        "MADDR:11647 Beauchamp Rd",
         "CITY:Berlin");
 
     doTest("T4",

@@ -111,6 +111,7 @@ public class MDWorcesterCountyAParserTest extends BaseParserTest {
         "SRC:100",
         "CALL:BREATHING PROBLEMS",
         "ADDR:906-16 LYNNHAVEN DR",
+        "MADDR:906 LYNNHAVEN DR",
         "CITY:POCOMOKE",
         "X:8TH ST & HALEYS WAY");
 
@@ -153,6 +154,7 @@ public class MDWorcesterCountyAParserTest extends BaseParserTest {
         "SRC:100",
         "CALL:BREATHING PROBLEMS",
         "ADDR:906-16 LYNNHAVEN DR",
+        "MADDR:906 LYNNHAVEN DR",
         "CITY:POCOMOKE",
         "X:8TH ST & HALEYS WAY");
 

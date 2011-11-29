@@ -34,9 +34,9 @@ public class NYWyomingCountyParserTest extends BaseParserTest {
 
     doTest("T3",
         "ATTICA RODEO GROUNDS ;ATTICA VILLAGE ( 230 EXCHANGE ST)\n4109-Stand-by\nAT:2011:211",
-        "ADDR:ATTICA RODEO GROUNDS",
+        "PLACE:ATTICA RODEO GROUNDS",
+        "ADDR:230 EXCHANGE ST",
         "CITY:ATTICA",
-        "X: 230 EXCHANGE ST",
         "CALL:4109-Stand-by",
         "SRC:AT",
         "MAP:2011:211");

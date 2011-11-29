@@ -46,6 +46,7 @@ public class NYJeffersonCountyParserTest extends BaseParserTest {
         "MVA-PI|SHIMEL RD & STATE ROUTE 411:ORLEANS(T)|1 VEH OFF ROAD - MINOR INJURY",
         "CALL:MVA-PI",
         "ADDR:SHIMEL RD & STATE ROUTE 411",
+        "MADDR:SHIMEL RD & STATE 411",
         "CITY:ORLEANS",
         "INFO:1 VEH OFF ROAD - MINOR INJURY");
 

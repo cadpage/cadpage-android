@@ -83,6 +83,7 @@ public class NYSuffolkCountyBParserTest extends BaseParserTest {
         "*** 24/MV - Mutual Aid ***  MONTAUK HWY CS: WILSON AVE TOA: 11:43 10/20/10 AMITYVILLE FD 2010-000229",
         "CALL:24/MV - Mutual Aid",
         "ADDR:MONTAUK HWY",
+        "MADDR:MONTAUK HWY & WILSON AVE",
         "X:WILSON AVE",
         "TIME:11:43",
         "DATE:10/20/10",

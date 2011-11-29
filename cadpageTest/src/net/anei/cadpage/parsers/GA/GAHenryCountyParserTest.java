@@ -139,6 +139,7 @@ public class GAHenryCountyParserTest extends BaseParserTest {
         "HOUSE FIRE/5164 HERON BAY BLV/E2 Q52 B1 L1 S1/10:57:25/",
         "CALL:HOUSE FIRE",
         "ADDR:5164 HERON BAY BLV",
+        "MADDR:5164 HERON BAY BLVD",
         "UNIT:E2 Q52 B1 L1 S1");
     
   }

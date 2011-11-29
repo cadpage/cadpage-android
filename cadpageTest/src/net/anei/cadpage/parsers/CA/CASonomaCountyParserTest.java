@@ -225,6 +225,7 @@ public class CASonomaCountyParserTest extends BaseParserTest {
     doTest("T21",
         "Loc: SR: @SB 101 AT CORBY OFF BOX: 3049 A4 TYP: VEHFULL CN: AT&T MOBILITY 800 635 6840  4 C#: (707) 480-1310 TYPE CODE: VEHFULL CALLER NAME: AT&T MOBILITY 8  ",
         "ADDR:SB 101 & CORBY OFF",
+        "MADDR:SB 101 & CORBY &",
         "SRC:SR",
         "BOX:3049 A4",
         "CALL:VEHFULL",

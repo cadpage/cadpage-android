@@ -28,6 +28,7 @@ public class ALMorganCountyParserTest extends BaseParserTest {
     doTest("T2",
         "CAD:707-1/2 5TH AV SE UNCONSCIOUS OR SYNCOPE CAT1 PROSPECT DR SE 4TH ST SE DFS1",
         "ADDR:707-1/2 5TH AV SE",
+        "MADDR:707 5TH AVE SE",
         "CALL:UNCONSCIOUS OR SYNCOPE",
         "PRI:1",
         "X:PROSPECT DR SE 4TH ST SE",

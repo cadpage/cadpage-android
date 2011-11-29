@@ -145,6 +145,7 @@ public class MORayCountyParserTest extends BaseParserTest {
         "UNIT:672 671A",
         "CALL:MENTAL",
         "ADDR:10-96 15041 S BEACH FRONT DR",
+        "MADDR:10 15041 S BEACH FRONT DR",
         "CITY:CRYSTAL LAKES",
         "INFO:16 yr old male 6'1 205 l",
         "X:APACHE DR 0.07 mi E EAGLE");

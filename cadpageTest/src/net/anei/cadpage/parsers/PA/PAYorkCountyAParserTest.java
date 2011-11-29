@@ -79,6 +79,7 @@ public class PAYorkCountyAParserTest extends BaseParserTest {
         "CITY:YORK TWP",
         "PLACE:I83 SB EXIT 16A",
         "ADDR:I 83 SB",
+        "MADDR:I83 SB EXIT 16A",
         "CALL:I 83X16ASQUEENST SB FIRE VEHICLE HR cancel call",
         "MAP:19-832",
         "UNIT:UFIRE24 UFIRE25 UEMS24");
@@ -142,6 +143,7 @@ public class PAYorkCountyAParserTest extends BaseParserTest {
         "Subject:Fire Incident\nMANCH TWP I83 NB EXIT EMIGSVILLE   I 83 NB I 83X24EMIGSVILLE NB DEBRIS REMOVAL non injury accident south of exit    24-83",
         "CITY:MANCHESTER TWP",
         "PLACE:I83 NB EXIT EMIGSVILLE",
+        "MADDR:I83 NB EXIT EMIGSVILLE",
         "ADDR:I 83 NB",
         "CALL:I 83X24EMIGSVILLE NB DEBRIS REMOVAL non injury accident south of exit",
         "MAP:24-83");

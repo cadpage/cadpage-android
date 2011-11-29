@@ -62,6 +62,7 @@ public class MDMontgomeryCountyParserTest extends BaseParserTest {
         "BOX:3525",
         "CALL:PIC w/VEH OVERTURNED-ALS1",
         "ADDR:S270C 121-27 @ 17000 S270 X18 TO X16 HWY",
+        "MADDR:S270C 121 @ 17000 S270 X18 TO X16 HWY",
         "UNIT:M735");
 
     doTest("T8",
