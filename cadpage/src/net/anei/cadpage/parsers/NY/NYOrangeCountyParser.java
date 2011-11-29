@@ -1,76 +1,125 @@
 package net.anei.cadpage.parsers.NY;
 
-import java.util.Properties;
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Set;
+import java.util.regex.Pattern;
 
 import net.anei.cadpage.SmsMsgInfo.Data;
-import net.anei.cadpage.parsers.dispatch.DispatchPrintrakParser;
+import net.anei.cadpage.parsers.FieldProgramParser;
 
 /*
 Orange County, NY
 Contact: George Ewings <gewings@gmail.com>
-Sender: oc911@co.orange.ny.us, OC911@ocinets01.orangecounty.local, oc911@ocmails02.orangecounty.local, oc911@orangecountygov.com
-
-DEPTWK     TYP: MVA- UNKNOWN STATUS AD: ST RTE 17 W&EXIT 120 W OFF CTY: WALLKILL CN: RICHARD CMT1: CALLER REPORTS A 2 CAR MV
-DEPTWK     TYP: FALLS APT: 621 AD: 121 DUNNING RD CTY: WALLKILL CN: MARGARET TENNISON CMT1: MVISITOR FELL IN PT ROOM ARM AND
-DEPTWK     TYP: PSYCH EMERG BLD: 10 APT: 13B AD: 92 FITZGERALD DR CTY: WALLKILL CN: TRACZ, CAROLINE CMT1: "SEND AS AN ALPHA
-DEPTWK     TYP: MVA WITH INJURIES AD: 637 ST RTE 211 W CTY: WALLKILL CN: PAULIE SMITH CMT1: CAR OFF ROADWAY UNK INJURIES TIM
-DEPTWK     TYP: POISONING/OVERDOSE APT: 124 AD: 563 ST RTE 211 E CTY: WALLKILL CN: CARMINE AT THE DESK CMT1: MALE AUBJECT TR
-DEPTPB     TYP: MEDICAL ASSISTANCE AD: ST RTE 302&BRUYN AVE CTY: CRAWFORD CMT1: Parent Inc F35110110000013 UPDATE PriUnt to
-DEPTWK     TYP: ASSAULT AD: 470 ST RTE 211 E CTY: WALLKILL CN: HOPE TOTTEN CMT1: WAS PUNCHED IN THE BACK OF THE HEAD BY CUST
-DEPTWK     TYP: TRAUMA APT: 312 AD: 455 SCHUTT ROAD EXT CTY: WALLKILL CN: CODY, MARY PRATT CMT1: "SEND AS AN ALPHA RESPONSE"
-DEPTWK     TYP: MVA- UNKNOWN STATUS AD: 470 ST RTE 211 E CTY: WALLKILL CN: AMBER CMT1: 1 CAR INTO A POLE WITH AIRBAG DEPLOYM
-DEPTWK     TYP: PSYCH EMERG- VIOLENT BLD: 1 APT: 1A AD: 35 SILVER LAKE SCOTCHTOWN RD CTY: WALLKILL CN: VON HON MEGGAN CMT1:
-DEPTWK     TYP: MEDICAL ASSISTANCE AD: 601 E MAIN ST CTY: WALLKILL CN: SAMANTHA ORTIZ CMT1: INCIDENT CLONED FROM PARENT: LTW
-DEPTPB     TYP: TRAUMA AD: 2 CHURCH ST CTY: CRAWFORD CN: KAYLA CMT1: MGIRL WAS HIT IN THE FACE NOSE BLEEDING 18 YEAR OLD FEM
-DEPTWK     TYP: DIABETIC PROBLEMS APT: 309 AD: 455 SCHUTT ROAD EXT CTY: WALLKILL CN: BOSCO, JOAN CMT1: DIABETIC PROBLEMS 78
-DEPTWK     TYP: MVA WITH INJURIES AD: ST RTE 211 E&EXIT 120 W OFF CTY: WALLKILL CN: MARGRET BUTLER JOHNS CMT1: 2 CAR NO WITH
-DEPTPB     TYP: MEDICAL ASSISTANCE AD: 3105 ST RTE 52 CTY: ULSTER CN: ULSTER CMT1: 63 Y/O/M DIFF BREATHING/CHEST PAIN CMT2:
-DEPTPB     TYP: MEDICAL ASSISTANCE AD: CO RTE 48&ST RTE 302 CTY: CRAWFORD CMT1: PT WITH RIB INJURIES / 2ND TO MVA/ USE EXTRE
-DEPTWK     TYP: MEDICAL ASSISTANCE AD: 455 SCHUTT ROAD EXT CTY: WALLKILL CN: MOBILE LIFE CMT1: EVALUATION FROM MVA CMT2: Ori
-DEPTWK     TYP: MVA- UNKNOWN STATUS AD: ST RTE 211 E&EXIT 120 E ON CTY: WALLKILL CN: ROSEALEE CMT1: 3 CAR MVA /// CALLER C/O
-DEPTWK     TYP: LIFTING ASSISTANCE BLD: 10 APT: 13B AD: 92 FITZGERALD DR CTY: WALLKILL CN: TRACZ, CAROLINE CMT1: "SEND AS AN
-
-email:
-DEPTPB          TYP: MEDICAL ASSISTANCE AD: 1015 INDIAN SPRINGS RD CN: ULSTER 911 CMT1: REGISTRO RD AND REDDER RD / 67/M UPPER ABDOMIAL PAIN-ALS CALL / WALKER VA CMT2: LLEY FIRE DISTRICT TIME: 14:44
-
 Contact: Seth Armstrong <setharmstrong31@gmail.com>
-DEPT13     TYP: MOTOR VEHICLE ACCIDT AD: 1166 US RTE 9W CTY: HIGHLANDS CN: MATTHREW CMT1: MOTORCYCLE DOWN AT THIS LOCATION TWO INJURIES.
- 
-Contact:  Dave Abbott <davea@a1-services.com>
-DEPTNM    ¿TYP: MEDICAL ASSISTANCE AD: 227 SUMMIT DR CTY: NEW WINDSOR CN: 173 CMT1: EDP TIME: 21:33 XST: 109 PARKDALE DR XST2: 43 ONA LN
-
+Contact: Dave Abbott <davea@a1-services.com>
 Contact: Burton Struble <burton.struble@gmail.com>
-DEPT38 TYP: WIRES DOWN/BURNING AD: 54 RESERVOIR AVE CTY: PORT JERVIS CN: PJ PD CMT1: WIRES DOWN AND BURNING TIME: 04:52 XST: 4 CEDAR ST XST2: SKYLINE DR
-
 Contact: kevin torres <nycff103@gmail.com>
-DEPTWK     TYP: FALLS AD: 12 JOHNS RD CTY: WALLKILL CN: NAMARA, DANIEL F MC CMT1: MFALL/ POSS BROKEN ANKLE 61 YEAR OLD FEMALE CONSCIOUS B
+
+Orange County, NY (alternate)
+Contact: Ken Rypkema <kenryp119@gmail.com> "mail.vailsgatefd.com" <krypkema@mail.vailsgatefd.com>
+Sender:messaging@iamresponding.com
+(Vails Gate) CARBON MONOXIDE DETR  1 KEARNEY DR  NEW WINDSOR  DEPT 45 TIME: 19:17 XST: MARSHALL DR XST2: 17 TRUEX DR\n\n\nThis
+(Vails Gate) EXTRICATION  ST RTE 32&amp;ORRS MILLS RD  CORNWALL  SPRINT PCS WIRELESS  CALLER REPORTS CAR INTO TREE POSS ENTRAPEMENT  Parent Inc MCO11112
+(Vails Gate) ROLLOVER MVA  2406 ST RTE 32  CORNWALL  JESSICA  ONE CAR ROLLOVER//UNK INJS  Parent Inc MCO111126000959 UPDATE PriUnt to CO/CODIS TIME: 23:
+(Vails Gate) AUTOMATIC FIRE ALARM  273 WINDSOR HWY  NEW WINDSOR  VECTOR SECURITY  LAUDRY ROOM SMOKE DETECTOR   Location : HUDSON VALLEY VETERIAN TIME: 1
+(Vails Gate) AUTOMATIC FIRE ALARM  516 REED ST  NEW WINDSOR  SGT THOMAS  CALLER STS THERE IS A FIRE ALARM STS BLINKING SYSTEM TROUBLE AND ALSO SAY  S DA
+(Vails Gate) AUTOMATIC FIRE ALARM  935 UNION AVE  NEW WINDSOR  CENTRAL STATION  ZONE 32 OFFICE SMOKE DETECTOR/ ALARM CO IS ATTEMPTING KEY HOLDER/ PREM N
 
  */
 
 
-public class NYOrangeCountyParser extends DispatchPrintrakParser {
+public class NYOrangeCountyParser extends FieldProgramParser {
   
-  private static final Properties CITY_TABLE = buildCodeTable(new String[]{
-  });
+  private static final Pattern KEYWORD_PTN = Pattern.compile("(?<! ) [A-Z]+[0-9]*:");
   
   public NYOrangeCountyParser() {
-    super(CITY_TABLE, "ORANGE COUNTY", "NY");
+    super("ORANGE COUNTY", "NY",
+           "CALL ADDR CITY! INFO+ LOCATION:PLACE? TIME:TIME XST:X XST2:X");
   }
   
   @Override
   public String getFilter() {
-    return "OC911@";
+    return "messaging@iamresponding.com";
   }
   
   @Override
-  public boolean parseMsg(String body, Data data) {
-    body = cleanExtendedChars(body);
-    if (!super.parseMsg(body, data)) return false;
+  public boolean parseMsg(String subject, String body, Data data) {
+    if (subject.length() == 0) return false;
+    data.strSource = subject;
     
-    // Special handling for Ulster county calls
-    if (data.strCity.length() == 0 && data.strName.equals("ULSTER 911")) {
-      data.strCity = "ULSTER COUNTY";
-    }
-    return true;
+    int pt = body.indexOf('\n');
+    if (pt >= 0) body = body.substring(0,pt).trim();
+    
+    body = KEYWORD_PTN.matcher(body).replaceAll(" $0");
+    String[] flds = body.split("  +");
+    if (flds.length < 3) return false;
+    return parseFields(flds, data);
   }
+  
+  @Override
+  public String getProgram() {
+    return "SRC " + super.getProgram();
+  }
+  
+  private class MyCityField extends CityField {
+    @Override
+    public void parse(String field, Data data) {
+      if (!CITY_SET.contains(field.toUpperCase())) abort();
+      super.parse(field, data);
+    }
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("CITY")) return new MyCityField();
+    return super.getField(name);
+  }
+  
+  private static final Set<String> CITY_SET = new HashSet<String>(Arrays.asList(new String[]{
+      "MIDDLETOWN",
+      "NEWBURGH",
+      "PORT JERVIS",
+
+      "CHESTER",
+      "CORNWALL ON HUDSON",
+      "FLORIDA",
+      "GOSHEN",
+      "GREENWOOD LAKE",
+      "HARRIMAN",
+      "HIGHLAND FALLS",
+      "KIRYAS JOEL",
+      "MAYBROOK",
+      "MONROE",
+      "MONTGOMERY",
+      "OTISVILLE",
+      "SOUTH BLOOMING GROVE",
+      "TUXEDO PARK",
+      "UNIONVILLE",
+      "WALDEN",
+      "WARWICK",
+      "WASHINGTONVILLE",
+      "WOODBURY",
+
+      "BLOOMING GROVE",
+      "CHESTER",
+      "CORNWALL",
+      "CRAWFORD",
+      "DEERPARK",
+      "GOSHEN",
+      "GREENVILLE",
+      "HAMPTONBURGH",
+      "HIGHLANDS",
+      "MINISINK",
+      "MONROE",
+      "MONTGOMERY",
+      "MOUNT HOPE",
+      "NEW WINDSOR",
+      "NEWBURGH",
+      "TUXEDO",
+      "WALLKILL",
+      "WARWICK",
+      "WAWAYANDA",
+      "WOODBURY",
+  }));
 }

@@ -9,3 +9,20 @@ Sysinfo - verizon/trygon/stingray:3.2.2/HLK75D/200096:user/release-keys
 Model: Xoom
 Phone:6155749294
 
+From: Shane Taylor <dstaylor9@gmail.com>
+xoom LTE
+Sysinfo - verizon/trygon/stingray:3.2.2/HLK75D/200096:user/release-keys
+Model: Xoom
+Phone:*86
+
+From: Btfd Fire <btfd30@gmail.com>
+HTC EVO Tablet
+Sysinfo - sprint/htc_express/express:2.3.4/GRJ22/84695.2:user/release-keys
+Model: PG41200
+Phone:9132234467
+
+From: Lizzy Zemore <lizzy.zemore@gmail.com>
+Sysinfo - Vizio/VTAB1008/VTAB1008:2.3.2/GRH78C/eng.gituser.20111013.134450:user/release-keys
+Model: VTAB1008
+Phone:null
+ 

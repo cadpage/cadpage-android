@@ -2572,12 +2572,6 @@ bnnfeed:U/D NY| Suffolk| Brentwood| *Explosion*| 43 4th St| Explosions was felt 
 bnnfeed:U/D NY| Suffolk| Brentwood| *Explosion*| 43 4th St| CMD adv EMS transporting (1) to ssh w/ unspecified inj's. Rptd to be a neighbor. Also req radio silence to conduct a sound survey for vics in the original house. Crews in bsmt w/ thermal imaging cameras checking for any vics. M/A from islip for the collapse trailer & w. Islip to the scene| <C> BNN | NYL690//NYL727/NYL026/NYL4219 | #382871 04/24/2011 11:11:26
 bnnfeed:U/D NY| Suffolk| Brentwood| *Explosion*| 43 4th St| CMD adv pri srches in original structure are negative. awaiting collapse unit to shore up to conduct addt'l srches. addt'l M/A from commack for cameras & listening devices to the scene. numerous roadways closed for long duration of time. extended ops| <C> BNN | NYL690//NYL728/NYL026/NYL4219 | #382871 04/24/2011 11:24:42
 **********************************************************
-Erie County, NY (again)
-Contact: afshar yusuf <afshar.yusuf@gmail.com>
-Sender: dispatch@townofhamburgny.com
-*2EMS: 60/M LONG FALL POSSIBLE ARM AND LEG FRACTURE ILS RESPONSE at 3425 OLD LAKEVIEW RD, Hamburg  c/s: ENGEL DR . . 17:31:57\n\n-- \nThis message has bee
-*2EMS: Male fell has a elbow laceration Cold Response at 25 BUFFALO ST #420, Village of Hamburg  c/s: MAIN ST   O: CREEK BEND HGTS APTS . . 05:16:00\n\n-
-**********************************************************
 Onslow County, NC
 Contact: Chris Bennett <fireman2497@gmail.com>
 Sender: CAD@ocmail2.onslownc.gov
@@ -3490,6 +3484,15 @@ Contact: "nemo48@sbcglobal.net" <nemo48@sbcglobal.net>
 Sender: paging@easthavenfire.com
 1100005182 ALPHA MEDICAL 00055 THOMPSON ST  Prem Map -14 PP 65 FOXON RD/GAY ST  (Prem Map -14 PP 65)\4sS5 111120 15:40
 **********************************************************
+Erie County, NY (again)
+Contact: afshar yusuf <afshar.yusuf@gmail.com>
+Sender: dispatch@townofhamburgny.com
+*2EMS: 60/M LONG FALL POSSIBLE ARM AND LEG FRACTURE ILS RESPONSE at 3425 OLD LAKEVIEW RD, Hamburg  c/s: ENGEL DR . . 17:31:57\n\n-- \nThis message has bee
+*2EMS: Male fell has a elbow laceration Cold Response at 25 BUFFALO ST #420, Village of Hamburg  c/s: MAIN ST   O: CREEK BEND HGTS APTS . . 05:16:00\n\n-
+
+Contact: Joe Gallagher <patchinfirefigher@gmail.com>
+*2EMS: 23 male poss od uncx at 7219 LIEBLER RD, Boston  c/s: COLE RD . . 19:44:01\n\n-- \nThis message has been scanned for viruse
+**********************************************************
 **********************************************************
 **********************************************************
 **********************************************************
@@ -3680,13 +3683,10 @@ STRUCTURE FIRE - POSSIBLE E437,E438,TK7,RS7,E405\n
 Map MIDWAY 14:45:27\n
 \n
 
+BFIRE ALARM E412,E410,TK3,RS3,E405\n
+1425 CENTRAL AV\n
+SEARS\n
+Map FULLER 11:57:21\n
+\n
+
 **********************************************************
-Orange County, NY (alternate)
-Contact: Ken Rypkema <kenryp119@gmail.com> "mail.vailsgatefd.com" <krypkema@mail.vailsgatefd.com>
-Sender:messaging@iamresponding.com
-(Vails Gate) CARBON MONOXIDE DETR  1 KEARNEY DR  NEW WINDSOR  DEPT 45 TIME: 19:17 XST: MARSHALL DR XST2: 17 TRUEX DR\n\n\nThis
-(Vails Gate) EXTRICATION  ST RTE 32&amp;ORRS MILLS RD  CORNWALL  SPRINT PCS WIRELESS  CALLER REPORTS CAR INTO TREE POSS ENTRAPEMENT  Parent Inc MCO11112
-(Vails Gate) ROLLOVER MVA  2406 ST RTE 32  CORNWALL  JESSICA  ONE CAR ROLLOVER//UNK INJS  Parent Inc MCO111126000959 UPDATE PriUnt to CO/CODIS TIME: 23:
-(Vails Gate) AUTOMATIC FIRE ALARM  273 WINDSOR HWY  NEW WINDSOR  VECTOR SECURITY  LAUDRY ROOM SMOKE DETECTOR\3sLocation : HUDSON VALLEY VETERIAN TIME: 1
-(Vails Gate) AUTOMATIC FIRE ALARM  516 REED ST  NEW WINDSOR  SGT THOMAS  CALLER STS THERE IS A FIRE ALARM STS BLINKING SYSTEM TROUBLE AND ALSO SAY  S DA
-(Vails Gate) AUTOMATIC FIRE ALARM  935 UNION AVE  NEW WINDSOR  CENTRAL STATION  ZONE 32 OFFICE SMOKE DETECTOR/ ALARM CO IS ATTEMPTING KEY HOLDER/ PREM N
