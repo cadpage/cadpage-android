@@ -21,6 +21,7 @@ public class NYOrangeCountyParserTest extends BaseParserTest {
         "SRC:DEPTWK",
         "CALL:MVA- UNKNOWN STATUS",
         "ADDR:ST RTE 17 W & EXIT 120 W OFF",
+        "MADDR:ST 17 W & EXIT 120 W &",
         "CITY:WALLKILL",
         "NAME:RICHARD",
         "INFO:CALLER REPORTS A 2 CAR MV");
@@ -50,6 +51,7 @@ public class NYOrangeCountyParserTest extends BaseParserTest {
         "SRC:DEPTWK",
         "CALL:MVA WITH INJURIES",
         "ADDR:637 ST RTE 211 W",
+        "MADDR:637 ST 211 W",
         "CITY:WALLKILL",
         "NAME:PAULIE SMITH",
         "INFO:CAR OFF ROADWAY UNK INJURIES");

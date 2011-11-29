@@ -27,7 +27,6 @@ public class DEKentCountyBParserTest extends BaseParserTest {
     doTest("T2",
         "(Chief ALT) [KCPS] - [911, Kent] NWS UPGRADED LAST TO A WARNING, WILL BE IN WESTERN KENT COUNTY AROUND 22:30 HRS.",
         "SRC:KCPS",
-        "MADDR:[911",
         "PLACE:[911, Kent] NWS UPGRADED LAST TO A WARNING, WILL BE IN WESTERN KENT COUNTY AROUND 22:30 HRS.");
 
     doTest("T3",

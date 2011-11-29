@@ -88,6 +88,7 @@ public class GAHenryCountyParserTest extends BaseParserTest {
         "AUTO ACCIDENT WITH INJURIES/216 N I75/EXIT 69/WHI CHEVY TRUCK/TOYT/E2/13:14:05/",
         "CALL:AUTO ACCIDENT WITH INJURIES",
         "ADDR:216 N I75",
+        "MADDR:216 N I 75",
         "INFO:EXIT 69/WHI CHEVY TRUCK/TOYT",
         "UNIT:E2");
 
@@ -95,6 +96,7 @@ public class GAHenryCountyParserTest extends BaseParserTest {
         "AUTO ACCIDENT WITH INJURIES/221 N I75/EXIT 71/JUST BEFORE EXIT 221/E1/16:28:24",
         "CALL:AUTO ACCIDENT WITH INJURIES",
         "ADDR:221 N I75",
+        "MADDR:221 N I 75",
         "INFO:EXIT 71/JUST BEFORE EXIT 221",
         "UNIT:E1");
 
@@ -129,6 +131,7 @@ public class GAHenryCountyParserTest extends BaseParserTest {
         "AUTO ACCIDENT WITH INJURIES/221 S I75/EXIT 71/female hit her head on side window and neck is tight/R9/15:25:28/",
         "CALL:AUTO ACCIDENT WITH INJURIES",
         "ADDR:221 S I75",
+        "MADDR:221 S I 75",
         "INFO:EXIT 71/female hit her head on side window and neck is tight",
         "UNIT:R9");
 

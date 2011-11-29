@@ -45,6 +45,7 @@ public class TXWilliamsonCountyParserTest extends BaseParserTest {
         "CAD:REQUEST FIRE;200-BLK BROOKE ST;HU;HUE1",
         "CALL:REQUEST FIRE",
         "ADDR:200-BLK BROOKE ST",
+        "MADDR:200 BROOKE ST",
         "UNIT:HU",
         "CH:HUE1");
 
@@ -58,12 +59,14 @@ public class TXWilliamsonCountyParserTest extends BaseParserTest {
         "CAD:FYI: ;GA OUTSIDE FIRE;5634 CHANDLER RD/SH 130 TOLL;HU",
         "CALL:GA OUTSIDE FIRE",
         "ADDR:5634 CHANDLER RD & TX 130",
+        "MADDR:5634 CHANDLER RD",
         "UNIT:HU");
 
     doTest("T8",
         "CAD:Update: ;TRAFFIC TRANSPORTATION ACC;2058 LIMMER LOOP/CR 108;HU;HUE1",
         "CALL:TRAFFIC TRANSPORTATION ACC",
         "ADDR:2058 LIMMER LOOP & CR 108",
+        "MADDR:2058 LIMMER LOOP",
         "UNIT:HU",
         "CH:HUE1");
 
@@ -71,6 +74,7 @@ public class TXWilliamsonCountyParserTest extends BaseParserTest {
         "CAD:Update: ;GA OUTSIDE FIRE;5634 CHANDLER RD/SH 130 TOLL;HU;HUBT1,HUE1",
         "CALL:GA OUTSIDE FIRE",
         "ADDR:5634 CHANDLER RD & TX 130",
+        "MADDR:5634 CHANDLER RD",
         "UNIT:HU",
         "CH:HUBT1,HUE1");
 
@@ -98,6 +102,7 @@ public class TXWilliamsonCountyParserTest extends BaseParserTest {
         "CAD:FYI: ;SA CITIZEN ASSIST;13100-2 N IH 35;JA",
         "CALL:SA CITIZEN ASSIST",
         "ADDR:13100-2 N IH 35",
+        "MADDR:13100 N  35",
         "UNIT:JA");
    
   }

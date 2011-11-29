@@ -20,14 +20,16 @@ public class INTiptonCountyParserTest extends BaseParserTest {
         "UNIT:A5,R45,T43,E42,E41,T46",
         "CALL:STRUCTURE FIRE RESIDENTIAL",
         "ID:4003",
-        "ADDR:3000 N US 31 NB");
+        "ADDR:3000 N US 31 NB",
+        "MADDR:3000 N US 31");
 
     doTest("T2",
         "CAD:WEATHER;SEVERE WEATHER;CITY;121-A W MADISON ST",
         "UNIT:WEATHER",
         "CALL:SEVERE WEATHER",
         "ID:CITY",
-        "ADDR:121-A W MADISON ST");
+        "ADDR:121-A W MADISON ST",
+        "MADDR:121 W MADISON ST");
     
     doTest("T3",
         "CAD:G49;OUTSIDE FIRE-FIELD/WOODS;6001;6500 N 400 E",

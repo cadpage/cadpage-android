@@ -32,6 +32,7 @@ public class NYNassauCountyCParserTest extends BaseParserTest {
         "* 8- MUTUAL AID RESCUE * LAND LN CS: CARMAN AVENUE TOA: 11:41 04-08-11",
         "CALL:8- MUTUAL AID RESCUE",
         "ADDR:LAND LN",
+        "MADDR:LAND LN & CARMAN AVENUE",
         "X:CARMAN AVENUE");
 
     doTest("T4",

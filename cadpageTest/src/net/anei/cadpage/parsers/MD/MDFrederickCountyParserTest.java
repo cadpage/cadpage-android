@@ -57,6 +57,7 @@ public class MDFrederickCountyParserTest extends BaseParserTest {
         "SRC:FredCo",
         "CALL:Mutual Aid: OUTSIDE INVESTIGATION",
         "ADDR:RT15SB & BOYLE RD",
+        "MADDR:RT 15 & BOYLE RD",
         "CITY:Adams County",
         "ST:PA",
         "BOX:-1",
@@ -146,6 +147,7 @@ public class MDFrederickCountyParserTest extends BaseParserTest {
         "SRC:FredCo",
         "CALL:INJURY FROM VEHICLE ACCIDENT",
         "ADDR:LL(-77:23:59.6013,39:21:53.1520)",
+        "MADDR:I270NB / MONOCACY RIVER",
         "PLACE:I270NB / MONOCACY RIVER",
         "BOX:327002",
         "MAP:46");
@@ -175,6 +177,7 @@ public class MDFrederickCountyParserTest extends BaseParserTest {
         "SRC:FredCo",
         "CALL:TROUBLE BREATHING/default",
         "ADDR:13862-A OLD NATIONAL PIKE",
+        "MADDR:13862 OLD NATIONAL PIKE",
         "CITY:Mt Airy",
         "TIME:01:39:41",
         "BOX:1521",
@@ -284,6 +287,7 @@ public class MDFrederickCountyParserTest extends BaseParserTest {
         "SRC:FredCo",
         "CALL:VEHICLE ACCIDENT / default",
         "ADDR:RT80 & KEMPTOWN CHURCH RD",
+        "MADDR:RT 80 & KEMPTOWN CHURCH RD",
         "CITY:Monrovia",
         "MAP:4689D7",
         "UNIT:A259,RE153,ET254");

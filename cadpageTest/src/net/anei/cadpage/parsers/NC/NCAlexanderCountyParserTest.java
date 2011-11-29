@@ -30,6 +30,7 @@ public class NCAlexanderCountyParserTest extends BaseParserTest {
     doTest("T2",
         "CAD:2370 NC 90 HWY E;NC DEPT OF TRANSPORTATION;TRAFFIC ACCIDENT;ADAMS POND LN;WINTERHAVEN RD",
         "ADDR:2370 NC 90 HWY E",
+        "MADDR:2370 NC 90 E",
         "PLACE:NC DEPT OF TRANSPORTATION",
         "CALL:TRAFFIC ACCIDENT",
         "X:ADAMS POND LN & WINTERHAVEN RD");
@@ -78,6 +79,7 @@ public class NCAlexanderCountyParserTest extends BaseParserTest {
     doTest("T9",
         "CAD:224 CRESTVIEW DR/US 64 HWY W;TRAFFIC ACCIDENT;29B04",
         "ADDR:224 CRESTVIEW DR & US 64 HWY W",
+        "MADDR:224 CRESTVIEW DR",
         "CALL:TRAFFIC ACCIDENT",
         "CODE:29B04");
 

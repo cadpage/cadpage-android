@@ -102,6 +102,7 @@ public class NCDavidsonCountyParserTest extends BaseParserTest {
         "TREE DOWN/FIRE;LICK CREEK CHURCH RD/NC HWY 8;2011016908;big tree plum across the road [08/20/11 08:28:05 JEVERHART] 2048 en route [08/20/11 08:33:44 JEVERH",
         "CALL:TREE DOWN/FIRE",
         "ADDR:LICK CREEK CHURCH RD & NC HWY 8",
+        "MADDR:LICK CREEK CHURCH RD & NC 8",
         "ID:2011016908",
         "INFO:big tree plum across the road / 2048 en route");
 

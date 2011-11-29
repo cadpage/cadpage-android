@@ -41,6 +41,7 @@ public class OHOxfordParserTest extends BaseParserTest {
         "Ct:PD: INJ CRASH   Loc:CHURCH ST/COLLEGE AV         Apt:      XSt:                                Grid:2535 Units:LO49  LO57                                Rmk:",
         "CALL:PD: INJ CRASH",
         "ADDR:CHURCH ST & COLLEGE AV",
+        "MADDR:CHURCH ST & COLLEGE AVE",
         "MAP:2535",
         "UNIT:LO49 LO57");
 

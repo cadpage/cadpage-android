@@ -33,6 +33,7 @@ public class PABerksCountyParserTest extends BaseParserTest {
         "CALL:*D FTEST",
         "PLACE:STATION 35",
         "ADDR:110 PARK AV",
+        "MADDR:110 PARK AVE",
         "CITY:LYONS",
         "INFO:BERKS TESING THE TEXT PAGING SYSTEM NO ACTION REQUIRED");
     
@@ -62,6 +63,7 @@ public class PABerksCountyParserTest extends BaseParserTest {
         "CALL:*D FTELE",
         "PLACE:STATION 35",
         "ADDR:110 PARK AV",
+        "MADDR:110 PARK AVE",
         "CITY:LYONS",
         "INFO:CALL REF ITEMS SHE HAS THAT ARE BELEIVED TO BELONG TO YOUR COMPA");
 
@@ -76,6 +78,7 @@ public class PABerksCountyParserTest extends BaseParserTest {
         "CAD MSG: *D MVAWITH  I78 / MP 39.6 EB 0078 MC DRIVER DOWN IN THE ROADWAY / NOT MOVING / 2 TT PULLED OFF TO THE SI",
         "CALL:*D MVAWITH",
         "ADDR:I78 & MP 39.6 EB",
+        "MADDR:I 78 & MP 39.6",
         "CITY:GREENWICH TOWNSHIP",
         "INFO:MC DRIVER DOWN IN THE ROADWAY / NOT MOVING / 2 TT PULLED OFF TO THE SI");
  }

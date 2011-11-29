@@ -235,7 +235,7 @@ public class NCBuncombeCountyParserTest extends BaseParserTest {
     doTest("T29",
         "CAD:862 CANE CREEK RD/CROSS CREEK FARM RD;B213;(FR)TREE DOWN",
         "ADDR:862 CANE CREEK RD & CROSS CREEK FARM RD",
-        "MADDR:CANE CREEK RD & CROSS CREEK FARM RD",
+        "MADDR:862 CANE CREEK RD",
         "UNIT:B213",
         "CALL:(FR)TREE DOWN");
 
@@ -355,7 +355,7 @@ public class NCBuncombeCountyParserTest extends BaseParserTest {
     doTest("T44",
         "CAD:156 LOWER CHRIST SCHOOL RD/BALDWIN RD;B213;VERIZON;(Z)MOTOR VEH ACCIDENT UNKNOWN",
         "ADDR:156 LOWER CHRIST SCHOOL RD & BALDWIN RD",
-        "MADDR:LOWER CHRIST SCHOOL RD & BALDWIN RD",
+        "MADDR:156 LOWER CHRIST SCHOOL RD",
         "UNIT:B213",
         "CALL:(Z)MOTOR VEH ACCIDENT UNKNOWN");
 

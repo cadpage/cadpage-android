@@ -25,6 +25,7 @@ public class MDQueenAnnesCountyParserTest extends BaseParserTest {
         "qac911:*D 4-5 MVC W/ENTRAPMENT RT301NB / RT304 RESCUE BOX Q04",
         "CALL:4-5 MVC W/ENTRAPMENT",
         "ADDR:RT301 & RT304",
+        "MADDR:RT 301 & RT 304",
         "INFO:RESCUE BOX Q04");
 
     doTest("T3",

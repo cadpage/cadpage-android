@@ -97,6 +97,7 @@ public class DESussexCountyAParserTest extends BaseParserTest {
         "SRC:83 FIRE",
         "CALL:Traffic/TransportationAcdntBLS",
         "ADDR:Dupont Blvd & Av Of Honor",
+        "MADDR:Dupont Blvd & Ave Of Honor",
         "CITY:Georgetown"
         );
     doTest("T11",
@@ -118,7 +119,8 @@ public class DESussexCountyAParserTest extends BaseParserTest {
         "[81 FIRE] -- Traffic/TransportaionAcdntBLS -- 0 Discount Land Rd & Sussex Hw",
         "SRC:81 FIRE",
         "CALL:Traffic/TransportaionAcdntBLS",
-        "ADDR:Discount Land Rd & Sussex Hw"
+        "ADDR:Discount Land Rd & Sussex Hw",
+        "MADDR:Discount Land Rd & Sussex Hwy"
         );
     doTest("T21",
         "[81 EMS] -- Chest Pain-ALS -- 34544 Doe Dr Laurel 19956",

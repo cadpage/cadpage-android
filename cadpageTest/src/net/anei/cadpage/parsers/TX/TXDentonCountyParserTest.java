@@ -39,6 +39,7 @@ public class TXDentonCountyParserTest extends BaseParserTest {
         "CAD:SICK PERSON;5650 I35E;CORI;ORR NISSAN;MAIN BLDG AT NEW CAR SHOW ROOM / PT IN BATHROOM [08/08/11 08:09:48 THIGGINS] [Medical Priority Info] RESPONSE: Alpha",
         "CALL:SICK PERSON",
         "ADDR:5650 I35E",
+        "MADDR:5650 I35",
         "CITY:CORINTH",
         "INFO:ORR NISSAN / MAIN BLDG AT NEW CAR SHOW ROOM / PT IN BATHROOM");
 
@@ -46,6 +47,7 @@ public class TXDentonCountyParserTest extends BaseParserTest {
         "CAD:TRAFFIC TRANSPORT INCIDENT;461MM I35 E;CORI;N/B;[Medical Priority Info] RESPONSE: Bravo RESPONDER SCRIPT: Unknown status/Other codes not applicable (Unknow",
         "CALL:TRAFFIC TRANSPORT INCIDENT",
         "ADDR:461MM I35 E",
+        "MADDR:461MM I 35 E",
         "CITY:CORINTH",
         "INFO:N/B / Unknown status/Other codes not applicable (Unknow");
 
@@ -165,6 +167,7 @@ public class TXDentonCountyParserTest extends BaseParserTest {
         "CALL:FIRE VEHICLE",
         "NAME:ORR NISSAN",
         "ADDR:5650 I35 E",
+        "MADDR:5650 I 35 E",
         "INFO:brake on fire - sees flame");
  
   }

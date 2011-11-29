@@ -101,6 +101,7 @@ public class VAAccomackCountyParserTest extends BaseParserTest {
         "CAD:ACCIDENT WITH INJURY;7446 OCCOHANNOCK NECK RD/CREEKVIEW RD;WARD;N5;D4",
         "CALL:ACCIDENT WITH INJURY",
         "ADDR:7446 OCCOHANNOCK NECK RD & CREEKVIEW RD",
+        "MADDR:7446 OCCOHANNOCK NECK RD",
         "MAP:N5,D4");
 
     doTest("T2",
@@ -122,6 +123,7 @@ public class VAAccomackCountyParserTest extends BaseParserTest {
         "CAD:ELECTRICAL EQUIPMENT FIRE;10669 TB RD/BAYSIDE RD;EXMO;N10;C5",
         "CALL:ELECTRICAL EQUIPMENT FIRE",
         "ADDR:10669 TB RD & BAYSIDE RD",
+        "MADDR:10669 TB RD",
         "MAP:N10,C5");
     
   }

@@ -21,7 +21,7 @@ public class SmsMsgInfoTest {
     
     doMapTest("NCBuncombeCounty", "226 TAMPA CIR,KENBURG,XX", "226-B TAMPA CIR");
     
-    doMapTest("NCBuncombeCounty", "CANE CREEK RD & CROSS CREEK FARM RD,KENBURG,XX", "862 CANE CREEK RD & CROSS CREEK FARM RD");
+    doMapTest("NCBuncombeCounty", "862 CANE CREEK RD,KENBURG,XX", "862 CANE CREEK RD & CROSS CREEK FARM RD");
     
     doMapTest("NCBuncombeCounty", "110 SUMMER ST,KENBURG,XX", "110-1/2 SUMMER ST");
     
@@ -40,8 +40,7 @@ public class SmsMsgInfoTest {
     doMapTest("PAArmstrongCounty", "868 STATE 28,KENBURG,XX",
                                    "868 STATE ROUTE 28");
     
-    doMapTest("CLHS1", "BROADWAY & S 10TH ST,KENBURG,XX", 
-                       "1600 BROADWAY & 4500 S 10TH ST");
+    doMapTest("CLHS1", "1600 BROADWAY,KENBURG,XX", "1600 BROADWAY & 4500 S 10TH ST");
     doMapTest("CLHS2", "1000 S RT 50,KENBURG,XX", "1000 S RT 50");
     doMapTest("CLHS3", "US 150 & HWY 30,KENBURG,XX", "US 150 & HWY 30");
     doMapTest("CLHS4", "1100 SE BLACK ST,KENBURG,XX", "1100-1200 SE BLACK ST");

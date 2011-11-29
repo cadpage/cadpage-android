@@ -275,6 +275,7 @@ public class ALDothanParserTest extends BaseParserTest {
         "00:30:09/MAID-Mutual Aid Request/17230 E STATE HWY 52 BLK/COLUMBIA/COFDA/F-COFD/",
         "CALL:MAID-Mutual Aid Request",
         "ADDR:17230 E STATE HWY 52",
+        "MADDR:17230 E STATE 52",
         "APT:BLK",
         "CITY:COLUMBIA",
         "PLACE:COFDA/F-COFD");

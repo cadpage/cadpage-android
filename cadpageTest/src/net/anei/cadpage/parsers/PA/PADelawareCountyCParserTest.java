@@ -19,6 +19,7 @@ public class PADelawareCountyCParserTest extends BaseParserTest {
         "ID:F11032765",
         "CALL:ASSIST - FD TO ASSIST EMS",
         "ADDR:17 ELMWOOD AV",
+        "MADDR:17 ELMWOOD AVE",
         "X:S ELMWOOD AV & MCKINLEY AV",
         "INFO:021/M100D/M100/027B / ~80YOM,Set Station Alarm activ / FD / FIRE / ANI/");
 
@@ -27,13 +28,15 @@ public class PADelawareCountyCParserTest extends BaseParserTest {
         "ID:F11031554",
         "CALL:STREET - STREET CLOSED",
         "ADDR:W ASHLAND AV & N MACDADE BLVD",
-        "INFO:M100D/STA02/STA05/STA09/STA01 / BETWEEN N WELLS AND MACDADE ON");
+        "MADDR:W ASHLAND AVE & N MACDADE BLVD",
+         "INFO:M100D/STA02/STA05/STA09/STA01 / BETWEEN N WELLS AND MACDADE ON");
 
     doTest("T3",
         "1 of 2\nFRM:norwoodfireco@rcn.com\nSUBJ:Messenger 911\nMSG:F11031406 \n06/02/2011 \n14:44 \nACC \nWITH INJURY REPORTED \n8TH AV & LINCOLN AV \n8TH\n(Con't) 2 of 2\nAV \nLINCOLN AV \n487/ENG08/027/M102A/RE08/071 \n610-461-1539,SEE THE MAN,STRIK \nFD \nFIRE \nCELL (End)",
         "ID:F11031406",
         "CALL:ACC - WITH INJURY REPORTED",
         "ADDR:8TH AV & LINCOLN AV",
+        "MADDR:8TH AVE & LINCOLN AVE",
         "INFO:487/ENG08/027/M102A/RE08/071 / 610-461-1539,SEE THE MAN,STRIK / FD / FIRE / CELL");
 
     doTest("T4",
@@ -49,6 +52,7 @@ public class PADelawareCountyCParserTest extends BaseParserTest {
         "ID:F11031005",
         "CALL:FIRE-OTH - FD INVESTIGATION",
         "ADDR:241 W WINONA AV",
+        "MADDR:241 W WINONA AVE",
         "X:SYLVAN AV & TRITES AV",
         "INFO:021 / -075.303855 +039.894780,~ GRIL / FD / FIRE / ANI/ALI / RACHEL - SAME / FIRE-OT");
 
@@ -57,6 +61,7 @@ public class PADelawareCountyCParserTest extends BaseParserTest {
         "ID:F11029356",
         "CALL:ALARM - CARBON MONOXIDE ALARM",
         "ADDR:711 SOUTH AV",
+        "MADDR:711 SOUTH AVE",
         "X:UNNAMED STREET & QUAINT ST",
         "INFO:ARID7/027/RID7B/677C/MRID7/LA4 / ò~3¿ / FD / FIRE / ANI/ALI / WARD MARGARET -");
 
@@ -65,6 +70,7 @@ public class PADelawareCountyCParserTest extends BaseParserTest {
         "ID:F11027808",
         "CALL:FIRE-BLD - BUILDING FIRE, COMMERCIAL BLDG",
         "ADDR:701 ASHLAND AV 22",
+        "MADDR:701 ASHLAND AVE 22",
         "X:DELMAR DR & CARPENTERS CROSSING",
         "INFO:M06/012/017/027A/091/ENG05/TW0 / MULTIPLE BUSINESSES");
   }

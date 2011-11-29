@@ -19,6 +19,7 @@ public class VAPittsylvaniaCountyParserTest extends BaseParserTest {
     		"ID:701",
     		"CALL:TRAFFIC ACCIDENT PI",
     		"ADDR:100 MALMAISON RD & U S HIGHWAY NO 29",
+        "MADDR:100 MALMAISON RD",
     		"CITY:Blairs"
     	);
     doTest("T2",
@@ -53,6 +54,7 @@ public class VAPittsylvaniaCountyParserTest extends BaseParserTest {
     		"ID:697",
     		"CALL:OTHER FIRE EMERGENCY",
     		"ADDR:7180 U S HIGHWAY NO 29",
+        "MADDR:7180 U S HIGHWAY",
     		"CITY:Blairs",
     		"X:DANVILLE EXPW & GEORGES LN"
     	);

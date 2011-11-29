@@ -72,6 +72,7 @@ public class NYSomersParserTest extends BaseParserTest {
         "ID:2011-000514",
         "CALL:P.I.A.A. / M.V.A (ALS)",
         "ADDR:MAHOPAC AVE",
+        "MADDR:MAHOPAC AVE & WATERGATE DR",
         "CITY:SOMERS",
         "X:WATERGATE DR",
         "INFO:HQ CAR INTO POLE");

@@ -60,6 +60,7 @@ public class NYNassauCountyDParserTest extends BaseParserTest {
         "*** 61) TRUCK FIRE *** HICKSVILLE RD CS: MARTIN RD N TOA: 19:35 03-21-11",
         "CALL:61) TRUCK FIRE",
         "ADDR:HICKSVILLE RD",
+        "MADDR:HICKSVILLE RD & MARTIN RD N",
         "X:MARTIN RD N");
 
     doTest("T9",

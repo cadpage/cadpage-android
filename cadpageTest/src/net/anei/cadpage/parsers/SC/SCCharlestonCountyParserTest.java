@@ -108,6 +108,7 @@ public class SCCharlestonCountyParserTest extends BaseParserTest {
         "SRC:02",
         "CALL:Rescue MVA Unknown B",
         "ADDR:Rivers Av & Mark Clark Expwy",
+        "MADDR:Rivers Ave & Mark Clark Expwy",
         "X:On Mark Clark East Bound");
 
     doTest("T12",
@@ -159,7 +160,7 @@ public class SCCharlestonCountyParserTest extends BaseParserTest {
         "ID:1110-0001568",
         "SRC:04",
         "CALL:Rescue MVA w/Injury B",
-        "ADDR:JAMES ISLAND EXPWY & ");
+        "ADDR:JAMES ISLAND EXPWY");
 
     doTest("T19",
         "1110-0001568 District 04 Rescue MVA  w/Injury B Address: JAMES ISLAND EXPWY / FOLLY RD X Street:  JAMES ISLAND CONNECTOR Cmd Channel: Incident 04",
@@ -183,7 +184,7 @@ public class SCCharlestonCountyParserTest extends BaseParserTest {
         "ID:1110-0001568",
         "SRC:04",
         "CALL:Rescue MVA w/Injury B",
-        "ADDR:JAMES ISLAND EXPWY & ");
+        "ADDR:JAMES ISLAND EXPWY");
 
     doTest("T22",
         "1110-0001568 District 04 Rescue MVA  w/Injury B Address: JAMES ISLAND EXPWY / FOLLY RD X Street:  JAMES ISLAND CONNECTOR Cmd Channel: Incident 04",

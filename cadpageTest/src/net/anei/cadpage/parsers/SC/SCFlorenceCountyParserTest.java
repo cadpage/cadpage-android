@@ -29,6 +29,7 @@ public class SCFlorenceCountyParserTest extends BaseParserTest {
         "CODE:32D1",
         "CALL:UNK PROBLEM-LIFE STAT QUESTION",
         "ADDR:W MARION ST",
+        "MADDR:W MARION ST & N ALEXANDER",
         "X:N ALEXANDER",
         "CITY:FLORENCE",
         "NAME:DAWN WITHERSPOON",

@@ -26,6 +26,7 @@ public class VAWinchesterParserTest extends BaseParserTest {
         "(Winchester ECC info) 11-042157 INSIDE FIRE STRUCT/ELEC/CHIMN\n122-1 E PALL MALL ST\nS CAMERON ST / S KEN/T ST\nWINCHESTER\nBAT6 E1 E4 E5 EC21 M51 TK2",
         "CALL:INSIDE FIRE STRUCT/ELEC/CHIMN",
         "ADDR:122-1 E PALL MALL ST",
+        "MADDR:122 E PALL MALL ST",
         "X:S CAMERON ST / S KEN/T ST",
         "CITY:WINCHESTER",
         "UNIT:BAT6 E1 E4 E5 EC21 M51 TK2");
