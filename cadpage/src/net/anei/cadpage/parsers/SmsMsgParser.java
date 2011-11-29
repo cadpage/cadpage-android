@@ -391,6 +391,8 @@ public abstract class SmsMsgParser {
      data.strAddress += addr;
    }
    data.strAddress = data.strAddress.replace("1%2", "1/2");
+   if (data.strAddress.startsWith(" & ")) data.strAddress = data.strAddress.substring(3).trim();
+   if (data.strAddress.endsWith(" & ")) data.strAddress = data.strAddress.substring(0,data.strAddress.length()-3);
  }
 
  /**

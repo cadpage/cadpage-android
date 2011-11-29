@@ -47,6 +47,14 @@ public class NCDavieCountyParser extends FieldProgramParser {
     return parseFields(DELIM.split(body), data);
   }
   
+  private class MyAddressField extends AddressField {
+    @Override
+    public void parse(String field, Data data) {
+      field = field.replaceAll("//+", "/");
+      super.parse(field, data);
+    }
+  }
+  
   private class MyCallField extends CallField {
     @Override
     public void parse(String field, Data data) {
@@ -70,6 +78,7 @@ public class NCDavieCountyParser extends FieldProgramParser {
 
   @Override
   protected Field getField(String name) {
+    if (name.equals("ADDR")) return new MyAddressField();
     if (name.equals("CALL")) return new MyCallField();
     if (name.equals("INFO2")) return new MyInfo2Field();
     if (name.equals("INFO3")) return new MyInfo3Field();

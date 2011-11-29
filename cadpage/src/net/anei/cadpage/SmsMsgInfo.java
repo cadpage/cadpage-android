@@ -189,6 +189,8 @@ public class SmsMsgInfo {
   private static final Pattern DIR_OF_PTN = Pattern.compile(" [NSEW]O ");
   public String getMapAddress() {
     
+    if (strAddress.length() == 0) return strAddress;
+    
     if (strMapAddress != null) return strMapAddress;
     
     String sAddr = strAddress;
@@ -356,49 +358,26 @@ public class SmsMsgInfo {
   // Google map isn't found of house numbers mixed with intersections
   // If we find an intersection marker, remove any house numbers
   private static final Pattern HOUSE_RANGE = Pattern.compile("\\b(\\d+)-\\d*(?:[A-Z]|[/\\,]\\d)?\\b");
-  private static final Pattern HOUSE_NUMBER = Pattern.compile("^ *\\d+ +");
-  private static final Pattern STREET_SFX = Pattern.compile("^ *(AV|AVE|ST)\\b");
+  private static final Pattern HOUSE_NUMBER = Pattern.compile("^ *\\d+ +(?!(?:AV|AVE|ST)\\b)");
   private String cleanHouseNumbers(String sAddress) {
     
     // Start by eliminating any house ranges
     sAddress = HOUSE_RANGE.matcher(sAddress).replaceAll("$1");
-    
+
+    // If this has an house number and an intersecting street.  Drop the intersecting street
     sAddress = sAddress.replace(" and ", " & ");
     int ipt = sAddress.indexOf('&');
     if (ipt >= 0) {
-      
       Matcher match = HOUSE_NUMBER.matcher(sAddress);
-      for (int part = 2; part >= 1; part--) {
-        switch (part) {
-        case 1:
-          match.region(0, ipt);
-          break;
-          
-        case 2:
-          match.region(ipt+1, sAddress.length());
-        }
-        
-        if (match.find()) {
-          // Safety check, don't mess with number if followed by AV, AVE, or ST
-          int st = match.start();
-          int end = match.end();
-          Matcher match2 = STREET_SFX.matcher(sAddress);
-          match2.region(end, match.regionEnd());
-          if (! match2.find()) {
-            sAddress = sAddress.substring(0, st) + sAddress.substring(end);
-          }
-        }
-      }
+      if (match.find()) sAddress = sAddress.substring(0,ipt).trim();
     }
     
-    // If it isn't an intersection, check for a appt number
+    // Check for a trailing apt number
     // Generally google ignores appt numbers, but it chokes on one that
     // starts with a #
-    else {
-      ipt = sAddress.lastIndexOf(' ');
-      if (ipt+1 < sAddress.length() && sAddress.charAt(ipt+1) == '#') {
-        sAddress = sAddress.substring(0, ipt).trim();
-      }
+    ipt = sAddress.lastIndexOf(' ');
+    if (ipt+1 < sAddress.length() && sAddress.charAt(ipt+1) == '#') {
+      sAddress = sAddress.substring(0, ipt).trim();
     }
     return sAddress;
   }
