@@ -56,9 +56,8 @@ public class MILivingstonCountyParserTest extends BaseParserTest {
     doTest("T7",
         "CAD:FYI: ;CITAF;5579 E GRAND RIVER;WILDWOOD DR;Event spawned from CITIZEN ASSIST LAW. [12/10/10 20:08:59 SPHILLIPS] CALLER LIVES NEXT DOOR TO THE ADDRESS OF THE WATER MAIN BREAK [12/10/10 20:04:40 HROSSNER] CALLER ADV OF A WATER MAIN BREAK",
         "CALL:CITAF",
-        "PLACE:5579 E GRAND RIVER",
-        "ADDR:WILDWOOD DR",
-        "MADDR:5579 E GRAND RIVER",
+        "ADDR:5579 E GRAND RIVER",
+        "X:WILDWOOD DR",
         "INFO:Event spawned from CITIZEN ASSIST LAW. / CALLER LIVES NEXT DOOR TO THE ADDRESS OF THE WATER MAIN BREAK / CALLER ADV OF A WATER MAIN BREAK");
     
     doTest("T8",
@@ -87,9 +86,15 @@ public class MILivingstonCountyParserTest extends BaseParserTest {
         "ADDR:2917 LANIER CT",
         "X:TAHOE BLVD",
         "INFO:3 year old, Male, C");
+
+    doTest("T12",
+        "FRM:CAD@livingstoncounty.livco\nMSG:CAD:FYI: ;PIA;DORR RD/E GRAND RIVER;JEEP LIBERTY VS SILVER VAN [11/30/11 09:18:58 CWESTPHAL]",
+        "CALL:PIA",
+        "ADDR:DORR RD & E GRAND RIVER",
+        "INFO:JEEP LIBERTY VS SILVER VAN");
  }
   
   public static void main(String[] args) {
-    new MILivingstonCountyParserTest().generateTests("T11");
+    new MILivingstonCountyParserTest().generateTests("T13");
   }
 }
