@@ -56,6 +56,7 @@ import net.anei.cadpage.SmsMsgInfo.Data;
  *   Address fields
  *     y - parse -xx city convention
  *     i - implied intersection convention
+ *     s - accept sloppy addresses
  *     S - Invoke smart parser logic, this is followed by up two 3 characters
  *         The first determines what can come ahead of the address
  *         X - nothing
@@ -1334,9 +1335,11 @@ public class FieldProgramParser extends SmartAddressParser {
   /**
    * Address field processor
    */
+  private static final Pattern SLOPPY_ADDR_PTN = Pattern.compile("\\d+ .*|.*[/&].*");
   public class AddressField extends Field {
     
     private boolean incCity = false;
+    private boolean sloppy = false;
     
     // Smart address parser info
     private StartType startType = null;
@@ -1397,6 +1400,7 @@ public class FieldProgramParser extends SmartAddressParser {
         qual = qual.substring(0,pt);
       }
       incCity = qual.contains("y");
+      sloppy  = qual.contains("s");
       if (qual.contains("i")) {
         if (startType == null) {
           startType = StartType.START_ADDR;
@@ -1409,8 +1413,14 @@ public class FieldProgramParser extends SmartAddressParser {
     @Override
     public boolean checkParse(String field, Data data) {
       
+      // If we accept sloppy address, then anything staring with a numeric field
+      // or that contains a / or an & counts
+      if (sloppy && SLOPPY_ADDR_PTN.matcher(field).matches()) {
+        parse(field, data);
+      }
+      
       // If we aren't using the smart parser, just call check address and parse the field
-      if (startType == null) {
+      else if (startType == null) {
         if (checkAddress(field) <= 0) return false;
         parse(field, data);
       }
