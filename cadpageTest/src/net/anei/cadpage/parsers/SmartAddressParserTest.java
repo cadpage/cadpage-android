@@ -45,7 +45,7 @@ public class SmartAddressParserTest extends BaseParserTest {
 //    doTest(PLACE, FLAG_ANCHOR_END, "7 NON-AMBULATORY PTS ON 2ND FLOOR 15 BROOKSIDE AVE",
 //        "PLACE:7 NON-AMBULATORY PTS ON 2ND FLOOR ",
 //        "ADDR:15 BROOKSIDE AVE");
-    
+
     doTest(SKIP, "707-1/2 5TH AV SE UNCONSCIOUS",
            "ADDR:707-1/2 5TH AV SE");
     
@@ -167,7 +167,7 @@ public class SmartAddressParserTest extends BaseParserTest {
         "ADDR:134 US HIGHWAY 85 NB");
     doTest(ADDR, "US HIGHWAY 85 NB/E 77TH AVE ADAM ADAM",
         "ADDR:US HIGHWAY 85 NB & E 77TH AVE");
-    doTest("ADDR", "ST HWY 85 EXTRA",
+    doTest(ADDR, "ST HWY 85 EXTRA",
         "ADDR:ST HWY 85");
     doTest(CALL, "BAD STUFF 134 US HIGHWAY 85 NB EXTRA",
         "CALL:BAD STUFF",
@@ -685,7 +685,7 @@ public class SmartAddressParserTest extends BaseParserTest {
   
   private void doTest(StartType sType, int flags, String test, String ... result) {
     parser.setStartTypeFlags(sType, flags);
-    doTest("", test, result);
+    doTest("", false, test, result);
   }
   
   private static class TestParser extends SmartAddressParser {

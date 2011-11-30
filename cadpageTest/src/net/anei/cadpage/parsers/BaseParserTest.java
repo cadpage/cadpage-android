@@ -106,12 +106,35 @@ public abstract class BaseParserTest {
   /**
    * Main parse test method
    * @param title - test name
+   * @param chkMapAddr - true if map addresses should be checked
+   * @param test - test message
+   * @param result - expected results
+   */
+  public void doTest(String title, boolean chkMapAddr, String test, String ... result) {
+    doSubTest(title, chkMapAddr, "", test, result);
+  }
+  
+  /**
+   * Main parse test method
+   * @param title - test name
    * @param subject - test subject
    * @param test - test message
    * @param result - expected results
    */
   public void doSubTest(String title, String subject, String test, String ... result) {
+    doSubTest(title, true, subject, test, result);
+  }
     
+  
+  /**
+   * Main parse test method
+   * @param title - test name
+   * @param chkMapAddr - true if map addresses should be checked
+   * @param subject - test subject
+   * @param test - test message
+   * @param result - expected results
+   */
+  public void doSubTest(String title, boolean chkMapAddr, String subject, String test, String ... result) {
     SmsMsgInfo.Data data = new SmsMsgInfo.Data();
     String expMapAddr = "";
     for (String str : result) {
@@ -146,11 +169,14 @@ public abstract class BaseParserTest {
     SmsMmsMessage msg = new SmsMmsMessage(fromAddress, test, 0L, 0);
     assertTrue(title + ":parse", parser.isPageMsg(msg));
     SmsMsgInfo info = msg.getInfo();
-    String actMapAddr = info.getMapAddress();
-    int pt = actMapAddr.indexOf(',');
-    if (pt >= 0) actMapAddr = actMapAddr.substring(0,pt).trim();
-    if (actMapAddr.equals(info.getAddress())) actMapAddr = "";
-    if (!STRICT_MAP_CHECK && expMapAddr.length() == 0) actMapAddr = "";
+    String actMapAddr = "";
+    if (chkMapAddr) {
+      actMapAddr = info.getMapAddress();
+      int pt = actMapAddr.indexOf(',');
+      if (pt >= 0) actMapAddr = actMapAddr.substring(0,pt).trim();
+      if (actMapAddr.equals(info.getAddress())) actMapAddr = "";
+      if (!STRICT_MAP_CHECK && expMapAddr.length() == 0) actMapAddr = "";
+    }
     
     assertEquals(title + ":Call", data.strCall, info.getCall());
     assertEquals(title + ":Place", data.strPlace, info.getPlace());
