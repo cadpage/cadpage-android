@@ -36,3 +36,10 @@ ASUS Transformer TF-101
 Sysinfo - asus/US_epad/TF101:3.2.1/HTK75/US_epad-8.6.5.19-20111107:user/release-keys
 Model: Transformer TF101
 Phone:null
+
+David Cooper <jester12271978@gmail.com>
+Droid X2
+Sysinfo - verizon/daytona/daytona:2.3.4/4.5.1A-DTN-150-30/0:user/release-keys
+Model: DROID X2
+
+Phone:4433590670
