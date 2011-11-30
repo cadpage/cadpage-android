@@ -54,6 +54,12 @@ public class OHWayneCountyBParserTest extends BaseParserTest {
         "CALL:SQUAD: (FREE TEXT)",
         "ADDR:1 ARLINGTON CT 1",
         "INFO:51 YOM SEVERE HEADACHE  BLDG 3");
+
+    doTest("T8",
+        "(Dispatch Message) SQUAD: (FREE TEXT)        \n15028 OLD LINCOLN WAY \nPATIENT PULLED TRAC OUT NEEDS TO GO TO DUNLAP ER, USE BACK DOOR DOGWOOD",
+        "CALL:SQUAD: (FREE TEXT)",
+        "ADDR:15028 OLD LINCOLN WAY",
+        "INFO:PATIENT PULLED TRAC OUT NEEDS TO GO TO DUNLAP ER, USE BACK DOOR DOGWOOD");
   }
   
   public static void main(String[] args) {
