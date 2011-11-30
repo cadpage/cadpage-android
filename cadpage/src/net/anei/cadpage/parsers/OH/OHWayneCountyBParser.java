@@ -15,6 +15,7 @@ Sender: dispatch@ohiomuni.net
 (Dispatch Message) SQUAD: FALLS              \n14765 LINCOLN WAY E \n911 CALL LUCY INDORF 89 YOF FALL VICTIM - LIFT ASSIST - NO INJURY- FD HAS KEY\nCROSS KURZEN
 (Dispatch Message) SQUAD: FRACTURES          \n22 KING \n50 YR OLD MALE, BROKEN LEG
 (Dispatch Message) SQUAD: (FREE TEXT)        \n1 ARLINGTON CT 1\n51 YOM SEVERE HEADACHE  BLDG 3
+(Dispatch Message) SQUAD: (FREE TEXT)        \n15028 OLD LINCOLN WAY \nPATIENT PULLED TRAC OUT NEEDS TO GO TO DUNLAP ER, USE BACK DOOR DOGWOOD
 
  */
 
@@ -28,7 +29,7 @@ public class OHWayneCountyBParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "dispatch@ohiomuni.net";
+    return "dispatch@ohiomuni.net,dispatch@orrville.com";
   }
   
   @Override
