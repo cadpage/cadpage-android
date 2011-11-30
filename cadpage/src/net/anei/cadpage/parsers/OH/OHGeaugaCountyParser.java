@@ -8,7 +8,7 @@ import net.anei.cadpage.parsers.SmartAddressParser;
 
 /*
 Geauga county, OH
-Contact: Erik Modrzynski <erikmodrzynski@gmail.com
+Contact: Erik Modrzynski <erikmodrzynski@gmail.com>
 Sender: 777xxxxxxx
 System: Spillman
 
