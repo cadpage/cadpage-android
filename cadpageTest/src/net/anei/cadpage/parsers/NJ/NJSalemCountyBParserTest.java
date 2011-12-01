@@ -43,6 +43,7 @@ public class NJSalemCountyBParserTest extends BaseParserTest {
         "SRC:STA:7",
         "CALL:MVC",
         "ADDR:Njtp South Mm 1-4.5 Njtp",
+        "MADDR:Njtp South Mm 1 Njtp",
         "CITY:Carneys Point Township",
         "NAME:SHAWN HAMMELL",
         "PHONE:6178168");
@@ -65,6 +66,15 @@ public class NJSalemCountyBParserTest extends BaseParserTest {
         "CITY:New Castle",
         "ST:DE",
         "NAME:COUNTY");
+
+    doTest("T6",
+        "(Chief ALT) [STA:7] -- Motor Vehicle Accident -- 430 N Broadway Way Pennsville Township NJ - Cross STS:Rt 130 Overpass -- Caller: 520",
+        "SRC:STA:7",
+        "CALL:Motor Vehicle Accident",
+        "ADDR:430 N Broadway Way",
+        "CITY:Pennsville Township",
+        "X:Rt 130 Overpass",
+        "NAME:520");
   }
   
   public static void main(String[] args) {
