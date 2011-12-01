@@ -42,4 +42,10 @@ Droid X2
 Sysinfo - verizon/daytona/daytona:2.3.4/4.5.1A-DTN-150-30/0:user/release-keys
 Model: DROID X2
 
+Wayne Litchfield <waynel18g@gmail.com>
+Galaxy Tab 10.1
+Sysinfo - samsung/SCH-I905/SCH-I905:3.1/HMJ37/EH04:user/release-keys
+Model: SCH-I905
+Phone:5853532577
+
 Phone:4433590670

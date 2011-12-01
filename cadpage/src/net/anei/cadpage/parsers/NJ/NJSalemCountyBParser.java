@@ -16,7 +16,8 @@ Sender: msg@cfmsg.com
 (Chief ALT) [STA:7] -- MVC -- Njtp South Mm 1-4.5 Njtp Carneys Point Township NJ -- Caller: SHAWN HAMMELL 6178168
 (Chief ALT) [STA:7] -- Fire Alarm System -- 117 N Broadway Way Pennsville Township NJ - Cross STS:Brandriff Ave -- Caller: VERIZON / KAREN 6158005
 (Chief ALT) [STA:7] -- Out Of County Assist -- Delaware Memorial Brg New Castle DE -- Caller: COUNTY
-
+(Chief ALT) [STA:7] -- Motor Vehicle Accident -- 430 N Broadway Way Pennsville Township NJ - Cross STS:Rt 130 Overpass -- Caller: 520
+ 
  */
 
 public class NJSalemCountyBParser extends FieldProgramParser {
@@ -30,7 +31,7 @@ public class NJSalemCountyBParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "@c-msg.net";
+    return "@c-msg.net,msg@cfmsg.com";
   }
 
   @Override
