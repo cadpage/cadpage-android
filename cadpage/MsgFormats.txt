@@ -1164,6 +1164,11 @@ Sussex County, NJ (NJSussexCountyParser)
 [I-B2010-009210]  ALARMF @ 7 WATERLOO ROAD  , BYRAM - ALL AMERICAN CRAFT. ALARMS PLUS (800-932-3822) OPERATOR 1224. UTILITY ROOM
 [I-B2011-004688]  FIRE @ 33 SLEEPY HOLLOW ROAD  , BYRAM - CALLER REPORTS HIS LIVING ROOM IS SMOKING.
 ***************************************************************************
+Albany County, NY (Colonie)
+FIRE ALARM E405,E406,RS2,E412\n54 SUNSET BL\n HIGGINS ROBERT\nMap COL VILL 12:00:30
+STRUCTURE FIRE E412,E410,RS3,E454,CVFT,TK9\n45 RAILROAD AV(FULLER)\n CNY STORM ALLSTARS\nMap FULLER 08:48:16
+FIRE ALARM E412,E410,RS3,E405,TK9\n1417 CENTRAL AV\nCOLONIE CENTER\nMap FULLER 08:11:21
+***************************************************************************
 Broome County, NY (NYBroomeCountyParser)
 (49 Sanitaria Spr Fire) 49-DIABETIC-C :2786 ROUTE 79 :78 yo fem high blood sugar/unable t   &lt;13C02&gt; :78 year old, Female, Conscious, Breathing.  A
 25:DIABETIC-C :412 ADAMS AV APT 1S :67 yom diabetic / low sugar &lt;13C01&gt; :67 year old, Male, Conscious, Breathing. Not alert (Combative or Agg ressive). Cross Sts:TRACY ST/RIVERVIEW DR 01:29 02/07/2011 2011-00002425 Caller:BATTISTI,MAURICE,, Phone:607-239-4661 V/Endicott
@@ -3528,86 +3533,10 @@ Contact: Joe Gallagher <patchinfirefigher@gmail.com>
 ************  READY TO ROLL ******************************
 **********************************************************
 **********************************************************
-Cabarrus County, NC (alternate or replace or upgrade)
-Contact: Kevin Aube <aubercn41@aol.com>
-Sender: 93001044
-2847:CAD:OPS2,A3,E21,E41;1;MVC INJURY- NO PIN IN/ENTRAP;2500 S MAIN ST;K401;HAMPTON LN;SPRINGWAY DR;JORDAN HOT SPOT;{FROM CSO: CALLER HUNG UP ON ME [11/27/11 14:30:54 PSBLACKWELL]} [11/27/11 14:28:05 TRANSFER] ** Transfer from CSO ** CSO received: 11/27/2011 14:30:17 Source: PHONE Nature: TRAFFIC ACCIDENT PI
-2845:CAD:A2,E11;1;RESPIRATORY DISTRESS;1307 POPLAR GLEN DR;K102;CANEVIEW CT;73 YO [11/27/11 12:25:16 HSTEPHENS]
-2846:CAD:A2,E31,E41,OPS1;1;MVC INJURY- NO PIN IN/ENTRAP;2400 WONDER DR NE/ROXIE ST;K303;** Transfer from CSO ** CSO received: 11/27/2011 14:04:46 Source: PHONE Nature: TRAFFIC ACCIDENT PI Business: MCDONALDS Phone:7047865822 Call #: 752 Event Id: 11094816 Console: CBA4 Call Take
-2847:CAD:OPS2,A3,E21,E41;1;MVC INJURY- NO PIN IN/ENTRAP;2500 S MAIN ST;K401;HAMPTON LN;SPRINGWAY DR;JORDAN HOT SPOT;{FROM CSO: CALLER HUNG UP ON ME [11/27/11 14:30:54 PSBLACKWELL]} [11/27/11 14:28:05 TRANSFER] ** Transfer from CSO ** CSO received: 11/27/2011 14:30:17 Source: PHONE Nature: TRAFFIC ACCIDENT PI
-2848:CAD:A2,E21;1;RESPIRATORY DISTRESS;110 WESTOVER AV;K201;RENA ST;BEUNA ST;** Transfer from CSO ** CSO received: 11/27/2011 16:50:57 Source: E911 Nature: BREATHING PROBLEMS Call #: 792 Event Id: 11094854 Console: CBA7 Call Taker: SADEMPSEY Notes: [11/27/11 16:48:28
-
-Contact: David Winecoff <dwinecoff6@gmail.com>
-Sender: 93001033
-4311:CAD:B1,E31;1;SEIZURES;902 VIRGINIA ST;K303;PENNSYLVANIA AV;FLORIDA AV;TERRI CLARK;** Transfer from CSO ** CSO received: 11/25/2011 20:27:26: E911 Nature: CONVULSIONS \ SEIZURES Call #: 357 Event Id: 11094423 Console: CBA2 Call Taker: SVWHITLEY Notes: [11/25/11 20:2
 **********************************************************
 **********************************************************
 **********************************************************
 **********************************************************
 **********************************************************
 **********************************************************
-Colonie, NY Albany County
-Contact: Mike Sipperly <msipperly@gmail.com>
-Sender: CAD@colonie.org
-System: Hi-Tech??
-
-FIRE ALARM E405,E406,RS2,E412
-54 SUNSET BL
- HIGGINS ROBERT
-Map COL VILL 12:00:30
-
-STRUCTURE FIRE E412,E410,RS3,E454,CVFT,TK9
-45 RAILROAD AV(FULLER)
- CNY STORM ALLSTARS
-Map FULLER 08:48:16
-
-FIRE ALARM E412,E410,RS3,E405,TK9\n
-1417 CENTRAL AV\n
-COLONIE CENTER\n
-Map FULLER 08:11:21\n
-\n
-
-FIRE ALARM E437,E438,TK7,E405,RS10\n
-392 NEW KARNER RD\n
-DUNKIN DONUTS\n
-Map MIDWAY 14:16:56\n
-\n
-
-FIRE ALARM E412,E410,RS3,E405,TK9\n
-1417 CENTRAL AV\n
-COLONIE CENTER\n
-Map FULLER 08:11:21\n
-\n
-
-MEDICAL CALL A622,E405\n
-10 STELLA TR\n
-Map COL VILL 20:55:06\n
-\n
-
-CO ALARM W/ILLNESS E405,E406,E412,FP71\n
-28 HIALEAH DR\n
-MILLER GREGORY\n
-Map COL VILL 07:23:37\n
-\n
-
-CO ALARM W/O ILLNESS E405,E406,FP71\n
-22 LOIS CT\n
-Map COL VILL 09:22:59\n
-\n
-
-STRUCTURE FIRE - POSSIBLE E437,E438,TK7,RS7,E405\n
-6 GLENMORE DR\n
-Map MIDWAY 14:45:27\n
-\n
-
-BFIRE ALARM E412,E410,TK3,RS3,E405\n
-1425 CENTRAL AV\n
-SEARS\n
-Map FULLER 11:57:21\n
-\n
-Body:MEDICAL CALL A621,CR16,E406\n
-1 ELM CT\n
-Map COL VILL 16:25:57\n
-\n
-
 **********************************************************

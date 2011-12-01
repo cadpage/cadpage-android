@@ -139,7 +139,7 @@
   
   <string name="clear_data_title">Reinstall Cadpage</string>
   <string name="clear_data_text">
-    This will restart your 30 day demo period.  Bit it will also erase all app data, 
+    This will restart your 30 day demo period.  But it will also erase all app data, 
     including your call history and settings.  Are you sure you want to do this?
   </string>
   
