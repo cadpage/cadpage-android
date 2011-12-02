@@ -11,7 +11,7 @@ Litchfield County, CT
 Contact: "ltglenn13@aol.com" <ltglenn13@aol.com>
 Contact: Duane Knox <duaneknox@gmail.com>
 Contact: Phillip Loveless <psloveless@gmail.com>
-Sender: textmsg@lcd911.com
+Sender: textmsg@lcd911.com,
 
 (LCD) MEDIC 4 RESPOND TO 30 PARK LANE EAST   NEW MILFORD, ,   UNCONSCIOUS, 31-D-3 :09:22
 FRM:textmsg@lcd911.com\nSUBJ:LCD\nMSG:MEDIC 4 RESPOND TO 80 CONNELLY RD   NEW MILFORD, , 80 M DIFF BREATH, 6-C-1 :12:02
@@ -33,6 +33,8 @@ FRM:textmsg@lcd911.com\nSUBJ:LCD\nMSG:BRIDGEWATER FIRE RESPOND TO 209 NORTHROP S
 (LCD) NEW HARTFORD FIRE RESPOND TO 1111 W HILL RD RESIDENCE NEW HARTFORD, , ACTIVATED FIRE ALARM ,:10:49
 (LCD) MEDIC 4 RESPOND TO 46 MAPLE ST CANTERBURY UNIT   KENT, THE KENT, 72Y F INTERFACILITY, 33-C-1 :11:09
 
+S: LCD Message\nNEW HARTFORD FIRE RESPOND TO 1580 LITCHFIELD TPKE   NEW HARTFORD, , MVA- NO INJURIES- FLUID SPILL ,:08:27
+
 */
 
 public class CTLitchfieldCountyParser extends SmartAddressParser {
@@ -47,12 +49,12 @@ public class CTLitchfieldCountyParser extends SmartAddressParser {
   
   @Override
   public String getFilter() {
-    return "";
+    return "textmsg@lcd911.com,89361";
   }
   
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
-    if (!subject.equals("LCD")) return false;
+    if (!subject.equals("LCD") && !subject.equals("LCD Message")) return false;
     
     Matcher match = MASTER.matcher(body);
     if (!match.matches()) return false;

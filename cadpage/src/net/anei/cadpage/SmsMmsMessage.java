@@ -330,7 +330,7 @@ public class SmsMmsMessage implements Serializable {
     Pattern.compile("^(?:[-=.+_a-z0-9]*[0-9a-f]{8,}[-=.+_a-z0-9]*=)?([\\w.!\\-]+@[\\w.]+)[\\s:]")
   };
   private static final Pattern EMAIL_PFX_PATTERN = Pattern.compile("^([\\w\\.]+@[\\w\\.]+)\\n");
-  private static final Pattern E_S_M_PATTERN = Pattern.compile("^(?:([^ ,;/]+) *)?S: *(.*?) +M:");
+  private static final Pattern E_S_M_PATTERN = Pattern.compile("^(?:([^ ,;/]+) +)?S: *(.*?)(?: +M:|\n)");
   
   
   /**
