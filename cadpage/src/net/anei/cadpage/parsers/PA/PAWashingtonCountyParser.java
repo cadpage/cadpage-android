@@ -34,6 +34,9 @@ Contact: Charles Wood <charlesrwood@gmail.com>
 Sender: WashCo911
 1 of 2\nFRM:WashCo911 \nSUBJ:911\nMSG:Location: 791 LOCUST AVE EX SSTR: @PCH 44 HAWTHORNE WOODS ASSISTED LIVING Xstreet: BERRY RD VERONA DR TYPE:\n(Con't) 2 of 2\nUNCONSCIOUS PT / IS BREATHING TIME: 08:26:06 Comments: 1ST FLOOR HEALTH ROOM\n(End)
 
+** Missing address - not parsed
+FRM:WashCo911 \nSUBJ:911\nMSG:Xstreet:   TYPE: MUTUAL AID REQUEST TIME: 09:10:04 Comments: BETWEEN SANITARUM RD/WAYNESBURG RD & 79\n
+
 */
 
 public class PAWashingtonCountyParser extends FieldProgramParser {
@@ -45,7 +48,7 @@ public class PAWashingtonCountyParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "company10paging,7247471210";
+    return "company10paging,7247471210.WashCo911";
   }
 
   @Override
