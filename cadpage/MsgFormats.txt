@@ -440,6 +440,20 @@ Otsego County, NY (NYOstegoCountyParser)
 1 of 10\nFRM:CAD@otsegocounty.com\nSUBJ:911 EVENT\nMSG:TRAFFIC ACCIDENTS|| STA MIDD1 XS ST HWY 166 /CO HWY 52|08:22|NARR CAR OVER THE BANK -\n(Con't) 2 of 10\nROLLOVER PERSON: (COMPLAINANT)\nDisclaimer:\nThis communication, including any attachments, may contain confidential information and\n(Con't) 3 of 10\nis intended only for the individual or entity to whom it is addressed. Any review, dissemination, or copying of this communication\n(Con't) 4 of 10\nby anyone other than the intended recipient is strictly prohibited. If you are not the intended recipient, please contact the sender\n(Con't) 5 of 10\nby reply e-mail, delete and destroy all copies of the original message. No responsibility is accepted by Otsego County Government for an\nMore?
 *******************************************************************************
 *******************************************************************************
+* DispatchA3Parser subclasses
+*******************************************************************************
+*******************************************************************************
+Camden County, GA (GACamdenCountyParser)
+astudstill@co.camden.ga.us:2011-101695* HIGHWAY 17 STEFFANS* * * KINGSLAND* * Traffic Stop* TRAFFIC STOP* * * 1128,1140,1150,1152,509,514,523,532,LS3,R3* * Med
+astudstill@co.camden.ga.us:2011-104696* 4059 MARTIN LUTHER KING BLVD* N4* * 514,541,546,ENG4,LS4,MED4 KINGSLAND* * INJURY* INJURY* 509,ENG5,LS3* * Medical: No
+astudstill@co.camden.ga.us:2011-101995* 405 & HIGHWAY 40 OLD WAFFLE HOUSE* * * KINGSLAND* * ACCIDENT* ACCIDENT* ELAINE* 386-208-4465* 514,541,546,ENG4,LS4,MED4
+***************************************************************************
+Northampton County, NC (NCNorthamptonCountyParser)
+S: M:Northampton911:* URIAH MARTIN RD // NEAR CEMETERY* * * CONWAY* * FIRE - BRUSH* * * * EMS3,FS20* * Medical: No* Hazards: No* * 
+S: M:Northampton911:* BOAT LANDING* * * WELDON* * MISSING PERS* * * * EMS8,FS20* * Medical: No* Hazards: No* * 
+S: M:Northampton911:* 907 HORNE RD* * * PENDLETON* * FIRE - SMOKE* * * * EMS3,FS18,FS20* * Medical: No* Hazards: No* * 
+*******************************************************************************
+*******************************************************************************
 * DispatchRedAlertParser subclasses
 *******************************************************************************
 *******************************************************************************
@@ -799,11 +813,6 @@ Brantley county, GA (GABrantleyCountyParser)
 (Disp CVFD Case # 2011-2-92 Call # 22763) 2/2/2011 14:51:00 /1070 /52 /SAMANTHA LN /YARD FIRE / STRUCTURE IN DANGER
 [Disp CVFD Case # 2011-1-1473 Call # 22262]  1/25/2011 0:55:31 /1070 /9513 /HWY 121 /BRUSH BEHIND HUMPTEY DUMPTEY
 [Disp CVFD Case # 2011-1-1452 Call # 22241]  1/24/2011 17:06:14 /1070 /602 /WARE COUNTY LINE RD /WOODS FIRE
-***************************************************************************
-Camden County, GA (GACamdenCountyParser)
-astudstill@co.camden.ga.us:2011-101695* HIGHWAY 17 STEFFANS* * * KINGSLAND* * Traffic Stop* TRAFFIC STOP* * * 1128,1140,1150,1152,509,514,523,532,LS3,R3* * Med
-astudstill@co.camden.ga.us:2011-104696* 4059 MARTIN LUTHER KING BLVD* N4* * 514,541,546,ENG4,LS4,MED4 KINGSLAND* * INJURY* INJURY* 509,ENG5,LS3* * Medical: No
-astudstill@co.camden.ga.us:2011-101995* 405 & HIGHWAY 40 OLD WAFFLE HOUSE* * * KINGSLAND* * ACCIDENT* ACCIDENT* ELAINE* 386-208-4465* 514,541,546,ENG4,LS4,MED4
 ***************************************************************************
 Henry County, GA (GAHenryCountyParser)
 VEHICLE FIRE/416 KIRKLAND DR/COLLINSWOOD S/D/./113F/04:29:42/ 
@@ -3523,6 +3532,10 @@ Sender: dispatch@townofhamburgny.com
 Contact: Joe Gallagher <patchinfirefigher@gmail.com>
 *2EMS: 23 male poss od uncx at 7219 LIEBLER RD, Boston  c/s: COLE RD . . 19:44:01\n\n-- \nThis message has been scanned for viruse
 **********************************************************
+Dothan, AL (variant from same dispatch??)
+Contact: Jacob Wozow <jwozow06@gmail.com>
+Sender: Robot.ALERT@dothan.org
+MEDICAL CALL - NON-EMERGENCY 163 COPPERHEAD RD - STAGE UNTIL LAW ENFORCEMENT ON SCENE...COMM CTR
 **********************************************************
 **********************************************************
 **********************************************************
@@ -3545,3 +3558,5 @@ Contact: Joe Gallagher <patchinfirefigher@gmail.com>
 **********************************************************
 **********************************************************
 **********************************************************
+
+ 
