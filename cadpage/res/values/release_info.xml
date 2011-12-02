@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string name="release_date">11052011</string>
-  <string name="release_version">v1.4.42</string>
+  <string name="release_version">v1.4.44</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="min_purchase_date">11032011</string>
@@ -13,39 +13,40 @@ What"'"s new in this release\n
 \n
 The way we calculate demo limits has changed (again).  Now you have the usual
 30 day trial demo, but now Cadpage doesn"'"t count days where you only use the 
-generic locations.  Enforcement logic for the demo expiration isn"'"t in this
-release, but expect it in the next one.\n
+generic locations.\n
+\n
+If you run past a demo expiration, Cadpage won"'"t trigger on calls.  It will 
+record them in history and let them fall through to your normal messaging app.\n
 \n
 There is now a separate app that is a free version of Cadpage that does everything
 the standard one does, except that there are only minimal support options, and
 updates will published a lot less frequently.\n
 \n
 New Locations:\n
-New Haven County, CT (alternate)\n
-Collier County, FL\n
-Cook County, IL\n
-Calhoun County, MI\n
-Salem County, NJ (alternate)\n
-Butler County, PA\n
-York County, PA\n
-Niagara County, NY\n
-Galveston, TX\n
-Brunswick County, VA\n
+Pottawattamie county, IA\n
+Albany county, NY\n
+Orange county, NY\n
+Wayne county, NY\n
+Cabarrus county, NC (alternate)\n
+Northampton county, NC\n
+Franklin, OH\n
+Geauga county, OH\n
+Wayne county, OH (alternate)\n
+Somerset county, PA\n
+Richard county, SC\n
 \n
 Location Parsing Fixes:\n
-Sonoma County, CA\n
-New Haven County, CT\n
-    was North Brandon\n
-Winnebago County, IL\n
-    was Roscoe\n
-Anne Arundel County, MD\n
-Livingston County, MI\n
-Ray County, MO\n
-Cabarrus County, NC\n
-Davidson County, NC\n
-Guilford County, NC\n
-Orange County, NC\n
-Rowan County, NC\n
+Livingston county, MI\n
+Salem county, NJ\n
+Chautauqua county, NY\n
+Buncombe county, NC\n
+Johnson county, NC\n
+York county, SC\n
+Minnehaha county, SD\n
+\n
+General fixes:\n
+A lot of little improvements have been made to the way we generate the search
+string sent to Google Maps.
   </string>  
 </resources>
   

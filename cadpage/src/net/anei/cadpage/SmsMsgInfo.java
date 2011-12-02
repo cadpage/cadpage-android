@@ -349,7 +349,7 @@ public class SmsMsgInfo {
   
   // Clean up and NB, SB, EB, or WB words
 
-  private static final Pattern DIRBOUND_PAT = Pattern.compile("\\s(N|S|E|W)B\\b");
+  private static final Pattern DIRBOUND_PAT = Pattern.compile("\\s*\\b(N|S|E|W)B\\b");
   private String cleanBounds(String sAddr) {
     Matcher match = DIRBOUND_PAT.matcher(sAddr);
     return match.replaceAll("").trim();
@@ -358,7 +358,7 @@ public class SmsMsgInfo {
   // Google map isn't found of house numbers mixed with intersections
   // If we find an intersection marker, remove any house numbers
   private static final Pattern HOUSE_RANGE = Pattern.compile("\\b(\\d+)-[A-Z0-9/\\.]+\\b");
-  private static final Pattern HOUSE_NUMBER = Pattern.compile("^ *\\d+ +(?!(?:AV|AVE|ST)\\b)");
+  private static final Pattern HOUSE_NUMBER = Pattern.compile("^ *\\d+ +(?![&/]|(?:AV|AVE|ST)\\b)");
   private String cleanHouseNumbers(String sAddress) {
     
     // Start by eliminating any house ranges

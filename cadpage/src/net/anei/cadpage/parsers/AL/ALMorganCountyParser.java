@@ -49,7 +49,8 @@ public class ALMorganCountyParser extends SmartAddressParser {
     match = CAT_PTN.matcher(body);
     if (match.find()) {
       data.strPriority = match.group(1);
-      data.strCross = body.substring(match.end());
+      Result res = parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS | FLAG_IMPLIED_INTERSECT | FLAG_ANCHOR_END, body.substring(match.end()));
+      res.getData(data);
       body = body.substring(0,match.start());
     }
     
@@ -60,7 +61,7 @@ public class ALMorganCountyParser extends SmartAddressParser {
     // a combine description and place name
     String left = getLeft();
     if (data.strPriority.length() == 0) {
-      Result res = parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ | FLAG_ONLY_CROSS | FLAG_ANCHOR_END, left);
+      Result res = parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ | FLAG_ONLY_CROSS | FLAG_IMPLIED_INTERSECT | FLAG_ANCHOR_END, left);
       res.getData(data);
     } else {
       data.strCall = left;

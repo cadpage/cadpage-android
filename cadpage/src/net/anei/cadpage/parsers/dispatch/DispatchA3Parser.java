@@ -73,14 +73,45 @@ public class DispatchA3Parser extends FieldProgramParser {
     }
   }
   
+  // Pattern that the unit field must match
+  private static final Pattern REAL_UNIT_PTN = Pattern.compile("[A-Z0-9]{1,3}[0-9](?:,[A-Z0-9]{1,4})*");
+  
+  // Name field is OK, unless it is a unit field
+  private class MyNameField extends NameField {
+    
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    public boolean checkParse(String field, Data data) {
+      if (REAL_UNIT_PTN.matcher(field).matches()) return false;
+      super.parse(field, data);
+      return true;
+    }
+  }
+  
+  // Unit field must match unit pattern
+  // But if name field is empty, it can only means that this field was tried
+  // as a name field and failed because it matched the unit pattern, so we don't
+  // have to check it again
+  private class MyUnitField extends UnitField {
+    @Override
+    public void parse(String field, Data data) {
+      if (data.strName.length() > 0 && 
+          ! REAL_UNIT_PTN.matcher(field).matches()) abort();
+      super.parse(field, data);
+    }
+  }
+  
   @Override
   public Field getField(String name) {
     if (name.equals("ID")) return new MyIdField();
     if (name.equals("APT")) return new MyAptField();
     if (name.equals("CITY")) return new MyCityField();
     if (name.equals("CALL2")) return new Call2Field();
-    if (name.equals("NAME")) return new NameField("[^,]{5,}");
-    if (name.equals("UNIT")) return new UnitField("[A-Z0-9]{1,4}(?:,[A-Z0-9]{1,4})*", true);
+    if (name.equals("NAME")) return new MyNameField();
+    if (name.equals("UNIT")) return new MyUnitField();
     return super.getField(name);
   }
 }

@@ -63,6 +63,7 @@ public class TXCyCreekCommCenterParser extends SmsMsgParser {
   
   private static final Pattern MARKER = Pattern.compile("^(\\d\\d/\\d\\d) (?:(\\d\\d:\\d\\d) )?");
   private static final Pattern TRAILER = Pattern.compile(" +(\\d{8,}) *$");
+  private static final Pattern TEL_MARK = Pattern.compile("<tel:(\\d+)>");
   
   public TXCyCreekCommCenterParser() {
     super("HARRIS COUNTY", "TX");
@@ -93,6 +94,8 @@ public class TXCyCreekCommCenterParser extends SmsMsgParser {
     }
     
     if (body.startsWith("Repage: ")) body = body.substring(8);
+    body = TEL_MARK.matcher(body).replaceAll("");
+    
     body = "Loc:" + body;
     
     Properties props = parseMessage(body, new String[]{"Loc", "Map", "Sub", "Nat", "Units", "X-St"});
