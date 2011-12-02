@@ -11,16 +11,8 @@ text messaging fees.  And received on Android tablets.  Stay tuned for further d
 \n
 What"'"s new in this release\n
 \n
-The way we calculate demo limits has changed (again).  Now you have the usual
-30 day trial demo, but now Cadpage doesn"'"t count days where you only use the 
-generic locations.\n
-\n
 If you run past a demo expiration, Cadpage won"'"t trigger on calls.  It will 
 record them in history and let them fall through to your normal messaging app.\n
-\n
-There is now a separate app that is a free version of Cadpage that does everything
-the standard one does, except that there are only minimal support options, and
-updates will published a lot less frequently.\n
 \n
 New Locations:\n
 Pottawattamie county, IA\n
