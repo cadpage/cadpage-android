@@ -32,6 +32,7 @@ System: Pro QA Medical & Pro QA Fire
 14:41:22*Personal Injury Accident*21050 WILLOWS RD INTERSECTN*ABBERLY CREST LN*LEXINGTON PARK*CO3 CO39 CO6R*
 15:24:31*Working House Fire*20242 POINT LOOKOUT RD*OLD GREAT MILLS RD*INDIAN BRIDGE RD*GREAT MILLS*CO3 CO9 CO6 CO1 CO5 CO39 CO6R*
 21:11:30*Commercial Building Fire*46528 VALLEY CT APT3019*SPRING VALLEY DR*DEAD END*LEXINGTON PARK*CO3 CO13 CO9 TK3 CO7 TK7 CO39*Using ProQA Fire*
+
 23:14:28*Heart Problems*22521 IVERSON DR UNIT3*AMBER DR*CUL DE SAC*CALIFORNIA*CO9*55YOF C/A/B; RAPID HEART RATE AND WEAK; HX DIABETES;*
 ((37593) CAD ) 22:12:45*CO Detector With Symptons*21353 FOXGLOVE CT*DEAD END*BAYWOODS RD*HERMANVILLE*CO3 CO39*Using ProQA Fire*
 ((44333) CAD ) 00:35:39*CHIMNEY FIRE*25120 DOVE POINT LN*PARSONS MILL RD*DEAD END*LOVEVILLE*CO1 TK1 CO7*Using ProQA Fire*
@@ -99,6 +100,8 @@ System: Pro QA Medical & Pro QA Fire
 ((28689) CAD ) 23:33:56*Unconscious Person/Fainting*2532 GUM WY*GREENTREE SOUTH DR*GLEN FOREST NAWC*ST39 A389 ALS*
 ((43652) CAD ) 12:29:09*Breathing Difficulties*23263 BY THE MILL RD*ALS ST38*60 year old, Female, Conscious, Breathing.*
 ((50741) CAD ) 14:51:00*Seizures/Convulsions*20601 WHITE POINT RD*KNOTTS LANDING WY*MEDLEYS NECK*ST39 CO79*semi concious had seizure in front yard*
+((54436) CAD ) 07:32:15*Mutual Aid EMS*12455 BLACKSMITH DR INTERSECTN*CALVERT COUNTY*ST38 A389*TROUBLE BREATHING*
+((52100) CAD ) 12:20:08*Mutual Aid EMS*11740 ASBUSY CIRCLE INTERSECTN*CALVERT COUNTY*ST38*APT1203-TROUBLE BREATHING*
 
  */
 
@@ -136,8 +139,7 @@ public class MDSaintMarysCountyParser extends SmartAddressParser {
     
     Result lastResult = null;
     String lastFld = null;
-    boolean intersection = false;
-    boolean mutualAid = false;
+    boolean mutualAid = true;
     int ndx = 0;
     for (String fld : flds) {
       fld = fld.trim();
@@ -157,22 +159,20 @@ public class MDSaintMarysCountyParser extends SmartAddressParser {
       case 2:
         // Address line
         
-        // If mutual aid call, this is the only address
-        // and we skip to unit field next
-        if (mutualAid) {
-          parseAddress(fld, data);
-          ndx += 3;
-          break;
-        }
-        
         // If line ends with intersection, it is positively the
         // address field.  Any previously found field goes into the place
         // field, and we process the next intersecting address field.
-        intersection = fld.endsWith(" INTERSECTN");
-        if (intersection) {
+        if (fld.endsWith(" INTERSECTN")) {
           if (lastFld != null) data.strPlace = lastFld;
           parseAddress(StartType.START_ADDR, fld.substring(0, fld.length()-11), data);
           data.strApt = getLeft();
+          break;
+        }
+        
+        // If mutual aid call, this is the only address
+        // don't bother looking for a place field
+        if (mutualAid) {
+          parseAddress(fld, data);
           break;
         }
         
@@ -203,55 +203,58 @@ public class MDSaintMarysCountyParser extends SmartAddressParser {
         ndx++;
         
       case 3:
-        // Cross street 1
-        // If the address field marked an intersection, there will only
-        // be one cross street.  The mapping logic will merge it into the
-        // mapping address if needed so we don't have to
-        data.strCross = fld;
-        if (intersection) ndx++;
-        break;
-        
-      case 4:
-        // Cross street 2
-        // If in town list, treat as town
-        if (! CITY_LIST.contains(fld.toUpperCase())) {
-          data.strCross = data.strCross + " / " + fld;
+        // Cross streets * City
+
+        // If identified city, process city field and progress to next UNIT field
+        fld = fld.toUpperCase();
+        if (CITY_LIST.contains(fld)) {
+          data.strCity = fld;
+          String newCity = CITY_CHANGES.getProperty(fld);
+          if (newCity != null) {
+            if (!newCity.equals("CHAR HALL") && data.strPlace.length() == 0) {
+              data.strPlace = data.strCity;
+            }
+            data.strCity = newCity;
+          }
           break;
         }
         
-        // Fall through to next case
-        ndx++;
-        
-      case 5:
-        // town
-        data.strCity = fld.toUpperCase();
-        String newCity = CITY_CHANGES.getProperty(data.strCity);
-        if (newCity != null) {
-          if (!newCity.equals("CHAR HALL") && data.strPlace.length() == 0) {
-            data.strPlace = data.strCity;
-          }
-          data.strCity = newCity;
+        // If identified unit field, drop through to next field
+        if (isUnitField(fld)) {
+          ndx++;
         }
-        break;
         
-      case 6:
+        // Otherwise accumulate cross street and repeat this field
+        else {
+          data.strCross = append(data.strCross, " / ", fld);
+          ndx--;
+          break;
+        }
+        
+      case 4:
         // Units
         data.strUnit = fld;
         break;
         
-      case 7:
+      case 5:
         // Description
-        data.strSupp = fld;
-        break;
-        
-      case 8:
-        // Additional description
-        data.strSupp = data.strSupp + " / " + fld;
+        data.strSupp = append(data.strSupp, " / ", fld);
         ndx--;
         break;
       }
     }
     
+    return true;
+  }
+  
+  /*
+   * Determine if field is city or unit field
+   */
+  private static final Pattern UNIT_PTN = Pattern.compile("[A-Z]+[0-9]+|ALS");
+  private boolean isUnitField(String field) {
+    for (String unit : field.split(" +")) {
+      if (!UNIT_PTN.matcher(unit).matches()) return false;
+    }
     return true;
   }
   
@@ -310,7 +313,9 @@ public class MDSaintMarysCountyParser extends SmartAddressParser {
       "TALL TIMBERS",
       "TOWN CREEK",
       "VALLEY LEE",
-      "WILDEWOOD"
+      "WILDEWOOD",
+      
+      "CALVERT COUNTY"
   }));
   
   private static final Properties CITY_CHANGES = buildCodeTable(new String[]{
