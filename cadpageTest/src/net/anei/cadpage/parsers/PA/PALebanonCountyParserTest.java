@@ -130,6 +130,14 @@ public class PALebanonCountyParserTest extends BaseParserTest {
         "CALL:Med Class3 Abdominal Pain",
         "BOX:190-4",
         "UNIT:A198");
+
+    doTest("T15",
+        "(FASP@20:13) City of Lebanon CUMBERLAND ST N 9TH ST MV - Accident w/Injuries Pedestrian Struck Box 15-04 Class 1 for EMS BC190 \n\nTo unsubscribe reply STOP",
+        "CITY:LEBANON",
+        "ADDR:CUMBERLAND ST & N 9TH ST",
+        "CALL:MV - Accident w/Injuries Pedestrian Struck",
+        "BOX:15-04",
+        "UNIT:Class 1 for EMS BC190 \n\nTo unsubscribe reply STOP");
  }
   
   public static void main(String[] args) {
