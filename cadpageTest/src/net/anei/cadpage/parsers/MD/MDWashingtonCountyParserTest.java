@@ -60,6 +60,7 @@ public class MDWashingtonCountyParserTest extends BaseParserTest {
     doTest("T6",
         "FRE CO, N FRANKLINVILLE RD/RT15 - THURMONT - WATER RESCUE - - RSQE7 - TAC 30 1106797 21:01",
         "ADDR:N FRANKLINVILLE RD & RT15",
+        "MADDR:N FRANKLINVILLE RD & RT 15",
         "CITY:THURMONT",
         "CALL:WATER RESCUE",
         "UNIT:RSQE7",

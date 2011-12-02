@@ -116,6 +116,7 @@ public class NCAlexanderCountyParserTest extends BaseParserTest {
     doTest("T14",
         "CAD:8510 NC 90 HWY E;SHURTAPE TECHNOLOGIES INC;TRAUMATIC INJURIES;30B02;SHUFORD RD;RURITAN PARK RD",
         "ADDR:8510 NC 90 HWY E",
+        "MADDR:8510 NC 90 E",
         "PLACE:SHURTAPE TECHNOLOGIES INC",
         "CALL:TRAUMATIC INJURIES",
         "CODE:30B02",
@@ -124,6 +125,7 @@ public class NCAlexanderCountyParserTest extends BaseParserTest {
     doTest("T15",
         "CAD:7400 NC 16 HWY N;DEAL APPLE ORCHARDS;LZ SETUP;OLD NC 16 HWY;DEAL ORCHARD LN",
         "ADDR:7400 NC 16 HWY N",
+        "MADDR:7400 NC 16 N",
         "PLACE:DEAL APPLE ORCHARDS",
         "CALL:LZ SETUP",
         "X:OLD NC 16 HWY & DEAL ORCHARD LN");

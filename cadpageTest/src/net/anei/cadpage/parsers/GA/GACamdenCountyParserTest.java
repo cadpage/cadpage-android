@@ -39,7 +39,6 @@ public class GACamdenCountyParserTest extends BaseParserTest {
         "astudstill@co.camden.ga.us:2011-101995* 405 & HIGHWAY 40 OLD WAFFLE HOUSE* * * KINGSLAND* * ACCIDENT* ACCIDENT* ELAINE* 386-208-4465* 514,541,546,ENG4,LS4,MED4",
         "ID:2011-101995",
         "ADDR:405 & HIGHWAY 40",
-        "MADDR:OLD WAFFLE HOUSE",
         "CITY:KINGSLAND",
         "PLACE:OLD WAFFLE HOUSE",
         "CALL:ACCIDENT",

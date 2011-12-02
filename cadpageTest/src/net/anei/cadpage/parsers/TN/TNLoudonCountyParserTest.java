@@ -33,6 +33,7 @@ public class TNLoudonCountyParserTest extends BaseParserTest {
     doTest("T3",
         "S: M:JBLAKESLEE:1 WHITE WING RD//BIRD RD LENOIR CITY 2011030010 22:52:18 SMOKE INVESTIGATION COMPL SMELLS SMOKE IN THE ARE",
         "ADDR:1 WHITE WING RD & BIRD RD",
+        "MADDR:1 WHITE WING RD",
         "CITY:LENOIR CITY",
         "ID:2011030010",
         "TIME:22:52:18",

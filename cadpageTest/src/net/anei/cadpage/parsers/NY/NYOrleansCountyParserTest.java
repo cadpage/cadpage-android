@@ -103,6 +103,7 @@ public class NYOrleansCountyParserTest extends BaseParserTest {
         "(FrmFireCntrl3) ACCIDENT VEH PDO; 1355 YATES CARLTON TL RD TCR; ATV ROLLOVER, NO PT FOUND COVA/CAFD",
         "CALL:ACCIDENT VEH PDO",
         "ADDR:1355 YATES CARLTON TL RD",
+        "MADDR:1355 YATES CARLTON TRL RD",
         "CITY:CARLTON",
         "INFO:ATV ROLLOVER, NO PT FOUND COVA/CAFD");
  }

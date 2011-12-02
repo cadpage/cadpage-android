@@ -29,6 +29,7 @@ public class NYOtsegoCountyParserTest extends BaseParserTest {
         "CALL:MVA PD",
         "PLACE:GRASSLANDS",
         "ADDR:ST HWY 28",
+        "MADDR:GRASSLANDS",
         "SRC:COUNTY",
         "INFO:NARR 1 CAR PDMVA PERSON: (COMPLAINANT) (FMLS) SUE  JENNINGS");
 
@@ -37,6 +38,7 @@ public class NYOtsegoCountyParserTest extends BaseParserTest {
         "CALL:TRAFFIC ACCIDENTS",
         "SRC:MIDD1",
         "ADDR:ST HWY 166 & CO HWY 52",
+        "MADDR:ST 166 & CO 52",
         "INFO:NARR CAR OVER THE BANK - ROLLOVER PERSON: (COMPLAINANT)");
 
     doTest("T5",
@@ -44,6 +46,7 @@ public class NYOtsegoCountyParserTest extends BaseParserTest {
         "CALL:HAZARD ALL",
         "SRC:COOP4",
         "ADDR:CO HWY 52 & GATEWAY LN",
+        "MADDR:CO 52 & GATEWAY LN",
         "INFO:NARR 2 CAR MVA NO INJ");
 
     doTest("T6",

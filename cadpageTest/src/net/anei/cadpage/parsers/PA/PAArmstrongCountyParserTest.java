@@ -34,6 +34,7 @@ public class PAArmstrongCountyParserTest extends BaseParserTest {
     doTest("T2",
         "11878 STATE ROUTE 85 ARMSDALE RD / CRYTZER RD ORPHANS OF THE STORM VAENT 40313 19:09 7247120225",
         "ADDR:11878 STATE ROUTE 85",
+        "MADDR:11878 STATE 85",
         "X:ARMSDALE RD / CRYTZER RD",
         "PLACE:ORPHANS OF THE STORM",
         "CALL:VAENT",
@@ -56,6 +57,7 @@ public class PAArmstrongCountyParserTest extends BaseParserTest {
     doTest("T5",
         "[Dispatch]  868 STATE ROUTE 28/66 MECHLING RD / SLOAN HILL RD VAENT 42068 15:55 7248597657",
         "ADDR:868 STATE ROUTE 28",
+        "MADDR:868 STATE 28",
         "X:66 MECHLING RD / SLOAN HILL RD",
         "CALL:VAENT",
         "ID:42068");

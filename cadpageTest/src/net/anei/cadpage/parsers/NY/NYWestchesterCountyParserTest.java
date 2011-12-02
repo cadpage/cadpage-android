@@ -26,6 +26,7 @@ public class NYWestchesterCountyParserTest extends BaseParserTest {
     doTest("T2",
         "Subject:IPage\nMAMARONECK_T: @I95 NB 07.1 EXIT 17 (CHATSWORTH AVE), Cross: , Type:MVA, INJURIES, Time out: 11:03:47 Area: LARCH,Alarm",
         "ADDR:I95 NB 07.1 EXIT 17 (CHATSWORTH AVE)",
+        "MADDR:I 95 07.1 EXIT 17 (CHATSWORTH AVE)",
         "CITY:LARCHMONT",
         "CALL:MVA / INJURIES");
 
@@ -112,12 +113,14 @@ public class NYWestchesterCountyParserTest extends BaseParserTest {
     doTest("T3",
         "IPage / MAMARONECK_T: @I95 NB 07.3, Cross: , Type:MVF, CAR, Time out: 22:12:12 Area: MAMTW,Alarm lev: 0 ,Comments:",
         "ADDR:I95 NB 07.3",
+        "MADDR:I 95 07.3",
         "CITY:MAMARONECK",
         "CALL:MVF / CAR");
 
     doTest("T4",
         "IPage / MAMARONECK_T: @I95 NB 07.1 EXIT 17 (CHATSWORTH AVE), Cross: , Type:MVA, INJURIES, Time out: 11:03:47 Area: LARCH,Alarm",
         "ADDR:I95 NB 07.1 EXIT 17 (CHATSWORTH AVE)",
+        "MADDR:I 95 07.1 EXIT 17 (CHATSWORTH AVE)",
         "CITY:LARCHMONT",
         "CALL:MVA / INJURIES");
 

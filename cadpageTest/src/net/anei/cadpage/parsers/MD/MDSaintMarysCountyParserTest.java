@@ -190,6 +190,7 @@ public class MDSaintMarysCountyParserTest extends BaseParserTest {
         "TIME:15:07:57",
         "CALL:Sick Person",
         "ADDR:WILLOWS RD",
+        "MADDR:WILLOWS RD & DEAD END",
         "X:DEAD END",
         "PLACE:46656 FLOWER OF THE FOREST RD",
         "CITY:LEXINGTON PARK",

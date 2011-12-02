@@ -40,7 +40,8 @@ public class NCOrangeCountyParserTest extends BaseParserTest {
         "ID:060311-397",
         "CH:OPS 1",
         "CALL:TRAUMATIC INJURY",
-        "ADDR:MILL CREEK RD and WAXSTAFF RD");
+        "ADDR:MILL CREEK RD and WAXSTAFF RD",
+        "MADDR:MILL CREEK RD & WAXSTAFF RD");
 
     doTest("T5",
         "(CAD Page for CFS 052911-170) OPS 1\nTraffic Accident-PI\nMCDADE STORE RD and NC 86 N\nApt: \nBuild:",

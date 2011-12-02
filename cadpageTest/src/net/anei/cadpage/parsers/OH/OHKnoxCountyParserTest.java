@@ -28,6 +28,7 @@ public class OHKnoxCountyParserTest extends BaseParserTest {
         "UNIT:SD24",
         "CALL:FIRESINGLE FAMILY RES STRUCTURE",
         "ADDR:4220 ST RT 3",
+        "MADDR:4220 ST 3",
         "INFO:MUTUAL AID BST&G STRUCTURE FIRE//HOUSE FILLED W/SMOKE////X ROADS OLD 3C//MEREDITH STATE RD");
 
     doTest("T3",

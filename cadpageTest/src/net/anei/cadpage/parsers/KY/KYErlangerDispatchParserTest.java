@@ -44,6 +44,7 @@ public class KYErlangerDispatchParserTest extends BaseParserTest {
         "CALL:Fire Structure",
         "PRI:1",
         "ADDR:1028 CAPITOL AV",
+        "MADDR:1028 CAPITOL AVE",
         "APT:1",
         "CITY:ELSMERE",
         "X:GALVIN ST & N/A");
@@ -54,6 +55,7 @@ public class KYErlangerDispatchParserTest extends BaseParserTest {
         "PRI:1",
         "PLACE:ELSMERE FIRE DEPARTMENT",
         "ADDR:401 GARVEY AV",
+        "MADDR:401 GARVEY AVE",
         "CITY:ELSMERE",
         "X:ASH ST & PALACE AV");
 
@@ -63,6 +65,7 @@ public class KYErlangerDispatchParserTest extends BaseParserTest {
         "PRI:1",
         "PLACE:LANIGAN'S",
         "ADDR:4409 DIXIE HW",
+        "MADDR:4409 DIXIE HWY",
         "CITY:ELSMERE",
         "X:N/A & N/A");
 

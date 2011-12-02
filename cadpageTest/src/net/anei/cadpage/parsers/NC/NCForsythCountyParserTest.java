@@ -41,6 +41,7 @@ public class NCForsythCountyParserTest extends BaseParserTest {
     doTest("T4",
         "Location: 6000BLK REIDSVILLE RD FC Nature: PUBLIC SERVICE CALL P:3  - default DISTRICT: F31 X Str: BRINKLEY RD/GOODWILL CHURCH RD CALLER NAME:",
         "ADDR:6000BLK REIDSVILLE RD",
+        "MADDR:6000 REIDSVILLE RD",
         "CALL:PUBLIC SERVICE CALL",
         "UNIT:F31",
         "X:BRINKLEY RD/GOODWILL CHURCH RD");

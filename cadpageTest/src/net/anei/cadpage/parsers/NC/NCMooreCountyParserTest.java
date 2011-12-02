@@ -62,6 +62,7 @@ public class NCMooreCountyParserTest extends BaseParserTest {
     doTest("T6",
         "[[911 NOTIFICATION] ]  1 E NEW ENGLAND /S PEAR 2011025862 07:31:07 F67 OUTSIDE FIRE/WOODS/BRUSH",
         "ADDR:1 E NEW ENGLAND & S PEAR",
+        "MADDR:1 E NEW ENGLAND",
         "ID:2011025862",
         "TIME:07:31:07",
         "UNIT:F67",

@@ -52,6 +52,7 @@ public class DENewCastleCountyBParserTest extends BaseParserTest {
         "CALL:Assault - Unknown",
         "NAME:Wawa Salem Center - Salem Center Shop Ctr",
         "ADDR:1605 Pulaski Hy",
+        "MADDR:1605 Pulaski Hwy",
         "X:Glasgow Dr & Salem Church Rd",
         "UNIT:M4B3");
 

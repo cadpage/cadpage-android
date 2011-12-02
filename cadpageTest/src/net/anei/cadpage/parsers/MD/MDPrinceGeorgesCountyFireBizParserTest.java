@@ -112,6 +112,7 @@ public class MDPrinceGeorgesCountyFireBizParserTest extends BaseParserTest {
         "CALL:PIA-HIGHWAY",
         "UNIT:SQ827",
         "ADDR:NB CRAIN HWY SE & NB HEATHERMORE BLVD",
+        "MADDR:CRAIN HWY SE & HEATHERMORE BLVD",
         "INFO:http://fireblitz.com/27/0.shtm");
 
     doTest("T12",
@@ -120,6 +121,7 @@ public class MDPrinceGeorgesCountyFireBizParserTest extends BaseParserTest {
         "CALL:PIA-HIGHWAY",
         "UNIT:A827 SQ827",
         "ADDR:SB CAP BELT IL A HWY & NB BRANCH AVE",
+        "MADDR:CAP BELT IL A HWY & BRANCH AVE",
         "INFO:http://fireblitz.com/27/5.shtm");
 
 

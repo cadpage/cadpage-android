@@ -37,6 +37,7 @@ public class TXNuecesCountyParserTest extends BaseParserTest {
         "PRI:1",
         "UNIT:107",
         "ADDR:CR 48 & HWY 77 FWY SB",
+        "MADDR:CR 48 & HWY 77 FWY",
         "ID:1110031040");
 
     doTest("T4",

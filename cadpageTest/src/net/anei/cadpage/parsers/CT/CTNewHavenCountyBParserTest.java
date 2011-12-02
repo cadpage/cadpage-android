@@ -76,6 +76,7 @@ public class CTNewHavenCountyBParserTest extends BaseParserTest {
         "ID:1100008057",
         "CALL:MVA W/INJURIES",
         "ADDR:N MAIN ST & RT68",
+        "MADDR:N MAIN ST & RT 68",
         "CITY:WALLINFORD",
         "UNIT:A44",
         "TIME:17:05");

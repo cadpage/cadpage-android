@@ -45,6 +45,7 @@ public class ORBentonCountyParserTest extends BaseParserTest {
         "(Corvallis Alert) INC:BICYCLE ACCIDENT\nADD:DECKER RD and DECKER RIDGE RD\nAPT:\nCITY:PHILOMATH\nX:DECKER RD * BANKS LN\nMAP:480-420\nCFS:070611-52\nDIS:BEN",
         "CALL:BICYCLE ACCIDENT",
         "ADDR:DECKER RD and DECKER RIDGE RD",
+        "MADDR:DECKER RD & DECKER RIDGE RD",
         "X:DECKER RD * BANKS LN",
         "MAP:480-420",
         "ID:070611-52");

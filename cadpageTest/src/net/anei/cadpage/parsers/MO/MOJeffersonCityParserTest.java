@@ -46,6 +46,7 @@ public class MOJeffersonCityParserTest extends BaseParserTest {
         "Subject:DONOTREPLY\nL1  12:02 Accident with Injuries - 1300 5463 BLK -Cross Streets- RAMP 25, HWY 54 E / RAMP 26   CCEMS EN ROUTE  NEED EX",
         "CALL:Accident with Injuries",
         "ADDR:1300 5463 BLK",
+        "MADDR:1300 5463",
         "X:RAMP 25, HWY 54 E / RAMP 26",
         "INFO:CCEMS EN ROUTE  NEED EX");
 
@@ -145,6 +146,7 @@ public class MOJeffersonCityParserTest extends BaseParserTest {
         "1410000038:  1 of 2\nFRM:paging@jeffcitymo.org\nSUBJ:DONOTREPLY\nMSG:1201 1401 1531 114 CCPager  17:45 Accident with Injuries - 8000 D BLK\n-Cross Streets-\n(Con't) 2 of 2\nSCRIVNER RD / BATES RD   RP JUST HEARD THE ACCIDENT  UNKNOWN INJURY\n(End)",
         "CALL:Accident with Injuries",
         "ADDR:8000 D BLK",
+        "MADDR:8000 D",
         "X:SCRIVNER RD / BATES RD",
         "INFO:RP JUST HEARD THE ACCIDENT  UNKNOWN INJURY");
 

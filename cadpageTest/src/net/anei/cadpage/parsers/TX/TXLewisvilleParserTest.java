@@ -29,6 +29,7 @@ public class TXLewisvilleParserTest extends BaseParserTest {
     doTest("T3",
         "*251 N I35E SBFR*****FIRE****B160,CHIEF,E161,E164,M161,Q162,T167*127****",
         "ADDR:251 N I35E SBFR",
+        "MADDR:251 N I35 FRONTAGE RD",
         "CALL:FIRE",
         "UNIT:B160,CHIEF,E161,E164,M161,Q162,T167");
 

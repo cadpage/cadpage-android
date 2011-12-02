@@ -21,6 +21,7 @@ public class OHSugarCreekParserTest extends BaseParserTest {
         "X:BAYBERRY COVE D LAKEMAN DR",
         "MAP:003F",
         "ADDR:4336 STATE RT 725",
+        "MADDR:4336 STATE 725",
         "UNIT:72"
         );
 

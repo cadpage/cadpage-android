@@ -59,6 +59,7 @@ public class VARockinghamCountyParserTest extends BaseParserTest {
         "SRC:R40",
         "CALL:TRAFFIC CRASH",
         "ADDR:300 BOYERS RD BLK",
+        "MADDR:300 BOYERS RD",
         "CITY:HARRISONBURG",
         "ID:2010-082984",
         "X:MYSTIC WOODS LN/CULLISON CT");

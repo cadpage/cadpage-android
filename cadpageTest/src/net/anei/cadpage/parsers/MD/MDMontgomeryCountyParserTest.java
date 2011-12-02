@@ -70,6 +70,7 @@ public class MDMontgomeryCountyParserTest extends BaseParserTest {
         "BOX:4009",
         "CALL:PIC w/ ENTRAPMENT -ALS1",
         "ADDR:4700 BROOM DR & 18400 WICKHAM RD",
+        "MADDR:4700 BROOM DR",
         "UNIT:A740 E740 M704 RS704");
 
     doTest("T9",

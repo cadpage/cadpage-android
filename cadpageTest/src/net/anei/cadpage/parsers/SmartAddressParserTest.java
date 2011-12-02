@@ -37,6 +37,10 @@ public class SmartAddressParserTest extends BaseParserTest {
   
   @Test
   public void testProblem() {
+    doTest(ADDR, FLAG_ONLY_CROSS | FLAG_ANCHOR_END | FLAG_IMPLIED_INTERSECT, 
+        "DOUTHIT ST SW FAYE ST SW",
+        "X:DOUTHIT ST SW / FAYE ST SW");
+
   }
   
   @Test

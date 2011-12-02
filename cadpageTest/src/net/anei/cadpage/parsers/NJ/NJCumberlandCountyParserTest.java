@@ -42,6 +42,7 @@ public class NJCumberlandCountyParserTest extends BaseParserTest {
         "CALL:BLEEDING",
         "CITY:DEERFIELD TWP",
         "ADDR:246 KENYON AV",
+        "MADDR:246 KENYON AVE",
         "PLACE:SHINDLE RES");
 
     doTest("T5",
@@ -50,7 +51,8 @@ public class NJCumberlandCountyParserTest extends BaseParserTest {
         "CALL:BLEEDING",
         "CITY:DEERFIELD TWP",
         "PLACE:CUMBERLAND COUNTY TEC / NURSING OFFICE",
-        "ADDR:601 BRIDGETON AV");
+        "ADDR:601 BRIDGETON AV",
+        "MADDR:601 BRIDGETON AVE");
 
     doTest("T6",
         "E911:E21_VEHICLE_(VINELAND CITY)S DELSEA DR & W ELMER RD_2011-05-01 18:46:26_",
@@ -80,7 +82,9 @@ public class NJCumberlandCountyParserTest extends BaseParserTest {
         "UNIT:E2901",
         "CALL:MVC",
         "CITY:DEERFIELD TWP",
-        "ADDR:BIG OAK RD & MORTON AV");
+        "ADDR:BIG OAK RD & MORTON AV",
+        "MADDR:BIG OAK RD & MORTON AVE");
+
 
     doTest("T10",
         "E911:E2901_COMM ALARM_(DEERFIELD TWP)MAJOR OIL / 733 LANDIS AV_2011-05-12 09:29:52_",
@@ -88,7 +92,8 @@ public class NJCumberlandCountyParserTest extends BaseParserTest {
         "CALL:COMM ALARM",
         "CITY:DEERFIELD TWP",
         "PLACE:MAJOR OIL",
-        "ADDR:733 LANDIS AV");
+        "ADDR:733 LANDIS AV",
+        "MADDR:733 LANDIS AVE");
   }
   
   @Test

@@ -40,6 +40,7 @@ public class CAMontereyCountyParserTest extends BaseParserTest {
         "MAP:524451A",
         "CALL:MEO:XFRD",
         "ADDR:97 RAILROAD AV",
+        "MADDR:97 RAILROAD AVE",
         "UNIT:E5213, 52A");
 
     doTest("T5",

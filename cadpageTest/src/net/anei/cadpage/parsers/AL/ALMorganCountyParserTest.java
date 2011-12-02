@@ -21,7 +21,7 @@ public class ALMorganCountyParserTest extends BaseParserTest {
         "ADDR:119 LEE ST NE",
         "CALL:SEIZURES",
         "PRI:1",
-        "X:CANAL ST NE OAK ST NE",
+        "X:CANAL ST NE / OAK ST NE",
         "ID:11009615",
         "SRC:DFS1");
 
@@ -31,21 +31,23 @@ public class ALMorganCountyParserTest extends BaseParserTest {
         "MADDR:707 5TH AVE SE",
         "CALL:UNCONSCIOUS OR SYNCOPE",
         "PRI:1",
-        "X:PROSPECT DR SE 4TH ST SE",
+        "X:PROSPECT DR SE / 4TH ST SE",
         "SRC:DFS1");
 
     doTest("T3",
         "CAD:404 7TH AV SW TRAUMA WITH INJURY CAT1 1ST ST SW 2ND ST SW 11009612 DFS1",
         "ADDR:404 7TH AV SW",
+        "MADDR:404 7TH AVE SW",
         "CALL:TRAUMA WITH INJURY",
         "PRI:1",
-        "X:1ST ST SW 2ND ST SW",
+        "X:1ST ST SW / 2ND ST SW",
         "ID:11009612",
         "SRC:DFS1");
 
     doTest("T4",
         "CAD:BETTY ST SW/5TH AV SW SMOKE INVESTIGATION 11009584 DFS1",
         "ADDR:BETTY ST SW & 5TH AV SW",
+        "MADDR:BETTY ST SW & 5TH AVE SW",
         "CALL:SMOKE INVESTIGATION",
         "ID:11009584",
         "SRC:DFS1");
@@ -55,7 +57,7 @@ public class ALMorganCountyParserTest extends BaseParserTest {
         "ADDR:1810 MARTIN ST SE",
         "CALL:UNCONSCIOUS OR SYNCOPE",
         "PRI:1",
-        "X:18TH AV SE 19TH AV SE",
+        "X:18TH AV SE / 19TH AV SE",
         "ID:11009594",
         "SRC:DFS3");
 
@@ -69,8 +71,9 @@ public class ALMorganCountyParserTest extends BaseParserTest {
     doTest("T7",
         "CAD:1002 15TH AV SW RESIDENTIAL FIRE ALARM DOUTHIT ST SW FAYE ST SW 11011144 DFS1",
         "ADDR:1002 15TH AV SW",
+        "MADDR:1002 15TH AVE SW",
         "CALL:RESIDENTIAL FIRE ALARM",
-        "X:DOUTHIT ST SW FAYE ST SW",
+        "X:DOUTHIT ST SW / FAYE ST SW",
         "ID:11011144",
         "SRC:DFS1");
 
@@ -78,8 +81,9 @@ public class ALMorganCountyParserTest extends BaseParserTest {
         "CAD:400-BLK EVERETT DR SW STRUCTURE FIRE SANDLIN RD SW WILLIAMS ST SW 11011173 DFS6",
         "PLACE:400-BLK",
         "ADDR:EVERETT DR SW",
+        "MADDR:EVERETT DR SW & SANDLIN RD SW",
         "CALL:STRUCTURE FIRE",
-        "X:SANDLIN RD SW WILLIAMS ST SW",
+        "X:SANDLIN RD SW / WILLIAMS ST SW",
         "ID:11011173",
         "SRC:DFS6");
 

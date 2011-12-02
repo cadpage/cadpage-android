@@ -35,6 +35,7 @@ public class VAHalifaxCountyParserTest extends BaseParserTest {
         "ID:11-023166",
         "CALL:EMERGENCY MEDICAL SERVICE",
         "ADDR:111-22 ROSEHILL DR",
+        "MADDR:111 ROSEHILL DR",
         "X:POWELL RD / DEAD END/EN",
         "PLACE:ROSE HILL APARTMENTS",
         "CITY:SOUTH BOSTON");

@@ -33,6 +33,7 @@ public class VAFrederickCountyParserTest extends BaseParserTest {
         "CAD:2044-79 FAIRFAX PIKE;PREGNANCY-LABOR;APPRENTICE LN",
         "CALL:PREGNANCY-LABOR",
         "ADDR:2044-79 FAIRFAX PIKE",
+        "MADDR:2044 FAIRFAX PIKE",
         "X:APPRENTICE LN"
         );
         

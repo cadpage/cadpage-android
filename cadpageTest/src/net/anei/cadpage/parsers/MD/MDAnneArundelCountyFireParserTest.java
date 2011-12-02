@@ -61,6 +61,7 @@ public class MDAnneArundelCountyFireParserTest extends BaseParserTest {
         "CITY:DAVIDSONVILLE",
         "CALL:*O/T AUTO*",
         "ADDR:BRICK CHURCH RD NEAR RT 214",
+        "MADDR:BRICK CHURCH RD & RT 214",
         "INFO:MEDIC 3 O/L SUV ON IT'S SIDE ON A GUARDRAIL.  OCC OUT,");
   }
 

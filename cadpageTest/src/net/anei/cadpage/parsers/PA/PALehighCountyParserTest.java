@@ -64,6 +64,7 @@ public class PALehighCountyParserTest extends BaseParserTest {
         "SRC:ST0100",
         "CALL:MVA WITH RESCUE",
         "ADDR:S RT100 & SCHANTZ RD",
+        "MADDR:S RT 100 & SCHANTZ RD",
         "CITY:UPPER MACUNGIE TWP",
         "NAME:TIM MARTIN",
         "INFO:**BRAVO MVA - WITH INJURIES / PER PASSERBY AIRBAGS DEPLOYED TIM 14:06",

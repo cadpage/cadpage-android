@@ -337,6 +337,7 @@ public class NYSuffolkCountyBParserTest extends BaseParserTest {
         "*** 16 ***  BROADWAY CS: PARK AVE ADTML: 31-D-3 TOA: 16:14 10-20-11 2011-004568 TYPE: UNCONSCIOUS / FAINTING (NEAR) I/V/O NURSERY E/M",
         "CALL:16",
         "ADDR:BROADWAY",
+        "MADDR:BROADWAY & PARK AVE",
         "X:PARK AVE",
         "CODE:31-D-3",
         "TIME:16:14",

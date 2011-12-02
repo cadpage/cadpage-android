@@ -52,6 +52,7 @@ public class DENewCastleCountyAParserTest extends BaseParserTest {
         "SRC:25CAD",
         "CALL:52C3S (L1*COMMERCIAL FIRE ALARM)",
         "ADDR:4130 CONCORD PK",
+        "MADDR:4130 CONCORD PIKE",
         "PLACE:6TH AVE ELECTRONIC",
         "X:btwn SILVERSIDE RD ~ PASSMORE RD",
         "INFO:fire alar");
@@ -61,6 +62,7 @@ public class DENewCastleCountyAParserTest extends BaseParserTest {
         "SRC:25CAD",
         "CALL:69D4O (L3*COMMERCIAL STRUC FIRE W~HZ)",
         "ADDR:4238 PHILADELPHIA PK",
+        "MADDR:4238 PHILADELPHIA PIKE",
         "PLACE:CLAYMONT STEEL PLA - LI:PLATE MILL",
         "X:btwn ALCOTT AV ~ NAAMANS RD");
 
