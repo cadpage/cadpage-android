@@ -749,7 +749,8 @@ public class MDSaintMarysCountyParserTest extends BaseParserTest {
         "TIME:12:29:09",
         "CALL:Breathing Difficulties",
         "ADDR:23263 BY THE MILL RD",
-        "X:ALS ST38 / 60 year old, Female, Conscious, Breathing.");
+        "UNIT:ALS ST38",
+        "INFO:60 year old, Female, Conscious, Breathing.");
 
     doTest("T71",
         "((50741) CAD ) 14:51:00*Seizures/Convulsions*20601 WHITE POINT RD*KNOTTS LANDING WY*MEDLEYS NECK*ST39 CO79*semi concious had seizure in front yard*",
@@ -762,9 +763,27 @@ public class MDSaintMarysCountyParserTest extends BaseParserTest {
         "UNIT:ST39 CO79",
         "INFO:semi concious had seizure in front yard");
 
+    doTest("T72",
+        "((54436) CAD ) 07:32:15*Mutual Aid EMS*12455 BLACKSMITH DR INTERSECTN*CALVERT COUNTY*ST38 A389*TROUBLE BREATHING*",
+        "TIME:07:32:15",
+        "CALL:Mutual Aid EMS",
+        "ADDR:12455 BLACKSMITH DR",
+        "CITY:CALVERT COUNTY",
+        "UNIT:ST38 A389",
+        "INFO:TROUBLE BREATHING");
+
+    doTest("T73",
+        "((52100) CAD ) 12:20:08*Mutual Aid EMS*11740 ASBUSY CIRCLE INTERSECTN*CALVERT COUNTY*ST38*APT1203-TROUBLE BREATHING*",
+        "TIME:12:20:08",
+        "CALL:Mutual Aid EMS",
+        "ADDR:11740 ASBUSY CIRCLE",
+        "CITY:CALVERT COUNTY",
+        "UNIT:ST38",
+        "INFO:APT1203-TROUBLE BREATHING");
+
   }
 
   public static void main(String[] args) {
-    new MDSaintMarysCountyParserTest().generateTests("T1", "TIME CALL ADDR APT X PLACE CITY UNIT INFO");
+    new MDSaintMarysCountyParserTest().generateTests("T72", "TIME CALL ADDR APT X PLACE CITY UNIT INFO");
   }
 }
