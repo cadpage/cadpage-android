@@ -6,6 +6,7 @@ import net.anei.cadpage.parsers.dispatch.DispatchA3Parser;
 /*
 Northampton County, NC
 Contact: "kk4arx" <kk4arx@gmail.com>
+Sender: Northampton911@nhcnc.net
 
 S: M:Northampton911:* URIAH MARTIN RD // NEAR CEMETERY* * * CONWAY* * FIRE - BRUSH* * * * EMS3,FS20* * Medical: No* Hazards: No* * 
 S: M:Northampton911:* BOAT LANDING* * * WELDON* * MISSING PERS* * * * EMS8,FS20* * Medical: No* Hazards: No* * 
@@ -23,7 +24,7 @@ public class NCNorthamptonCountyParser extends DispatchA3Parser {
   
   @Override
   public String getFilter() {
-    return "";
+    return "Northampton911@nhcnc.net";
   }
 
   @Override
