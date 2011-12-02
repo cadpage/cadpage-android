@@ -781,9 +781,17 @@ public class MDSaintMarysCountyParserTest extends BaseParserTest {
         "UNIT:ST38",
         "INFO:APT1203-TROUBLE BREATHING");
 
+    doTest("T74",
+        "((49925) CAD ) 17:16:22*Mutual Aid EMS*13650 KERSEY WY*ST38*302-CVA*",
+        "TIME:17:16:22",
+        "CALL:Mutual Aid EMS",
+        "ADDR:13650 KERSEY WY",
+        "UNIT:ST38",
+        "INFO:302-CVA");
+
   }
 
   public static void main(String[] args) {
-    new MDSaintMarysCountyParserTest().generateTests("T72", "TIME CALL ADDR APT X PLACE CITY UNIT INFO");
+    new MDSaintMarysCountyParserTest().generateTests("T74", "TIME CALL ADDR APT X PLACE CITY UNIT INFO");
   }
 }
