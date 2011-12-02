@@ -169,7 +169,19 @@ public class CTLitchfieldCountyParserTest extends BaseParserTest {
         "CITY:KENT",
         "CALL:72Y F INTERFACILITY",
         "CODE:33-C-1");
- }
+  }
+  
+  @Test
+  public void testParser2() {
+
+    doTest("T1",
+        "S: LCD Message\nNEW HARTFORD FIRE RESPOND TO 1580 LITCHFIELD TPKE   NEW HARTFORD, , MVA- NO INJURIES- FLUID SPILL ,:08:27",
+        "SRC:NEW HARTFORD FIRE",
+        "ADDR:1580 LITCHFIELD TPKE",
+        "CITY:NEW HARTFORD",
+        "CALL:MVA- NO INJURIES- FLUID SPILL");
+
+  }
   
   public static void main(String[] args) {
     new CTLitchfieldCountyParserTest().generateTests("T19", "SRC ADDR PLACE APT CITY CALL CODE");

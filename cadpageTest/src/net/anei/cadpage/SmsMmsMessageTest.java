@@ -14,6 +14,12 @@ public class SmsMmsMessageTest {
   @Test
   public void testParseInfo() {
     
+    doParseTest("CTLitchfieldCounty",
+        "S: LCD Message\nNEW HARTFORD FIRE RESPOND TO 1580 LITCHFIELD TPKE   NEW HARTFORD, , MVA- NO INJURIES- FLUID SPILL ,:08:27",
+        "ken@cadpage.org",
+        "LCD Message",
+        "NEW HARTFORD FIRE RESPOND TO 1580 LITCHFIELD TPKE   NEW HARTFORD, , MVA- NO INJURIES- FLUID SPILL ,:08:27");
+    
     doParseTest("TXGalvestonCounty",
         " .... (Santa Fe Fire) CAD:GRASS FIRE 12603 PONDEROSA DR",
         "ken@cadpage.org",
