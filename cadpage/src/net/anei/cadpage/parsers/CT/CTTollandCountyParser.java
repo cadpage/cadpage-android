@@ -27,6 +27,9 @@ Contact: Jason Carlton <jcarlton19@gmail.com>
 (TN Alert) 29 BRACE RD / Somers ALS ARM INJURY, BLEEDING 22:42 Cross Street GEORGE WOOD RD / HALL HILL RD 2011-00000821
 (TN Alert) 69 COLTON RD / Somers ALS ? CVA 18:34 Cross Street PARSONS ST / SOKOL RD 2011-00000820
 
+Contact: R R <rlandry0769@gmail.com>
+(TN Alert) 234 JAMES RD / Ashford BLS Fall 15:25 Cross Street HORSE HILL RD / WESTFORD RD 2011-00001969
+
 */
 
 public class CTTollandCountyParser extends SmartAddressParser {
@@ -143,7 +146,10 @@ public class CTTollandCountyParser extends SmartAddressParser {
     "ROCKVILLE",
     "MASHAPAUG",
     
-    "WAREHOUSE POINT"
+    "WAREHOUSE POINT",
+    
+    // Windham county
+    "ASHFORD"
   };
 
 }
