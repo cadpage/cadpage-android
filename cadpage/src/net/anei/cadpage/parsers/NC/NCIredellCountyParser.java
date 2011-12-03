@@ -18,6 +18,10 @@ FR200 C-86 RESPIRATORY DISTRESS, 139 EASTGATE DR
 Contact: Mark shifflet <markshifflet@att.net>,7044004641@txt.att.net
 FRM:CommtechMessenger (emergin)"\nMSG:MFD 2ANAPHYLACTIC SHOCK, 161 NILE CIR
 
+Contact: Carrie La Basco <labascofamily@gmail.com>
+Sender: Basepage@co.iredell.nc.us
+FD70 C-90 GRASS / WOODS FIRE, TIMBER RD
+
 */
 
 public class NCIredellCountyParser extends SmsMsgParser {
@@ -28,7 +32,7 @@ public class NCIredellCountyParser extends SmsMsgParser {
   
   @Override
   public String getFilter() {
-    return "CommtechMessenger";
+    return "CommtechMessenger,@co.iredell.nc.us";
   }
   
   @Override
