@@ -59,6 +59,7 @@ public class NYSteubenCountyParserTest extends BaseParserTest {
         "messaging@iamresponding.com (Avoca FD) 7 CHARLESWORTH AV , AVOCA VILLAGE OF (EAST AV / CHASE ST; Near: PINECREST HOME FOR ADULTS) 17B1 Falls Possibly dangerous body area\nAVOCAFDAMB",
         "SRC:Avoca FD",
         "ADDR:7 CHARLESWORTH AV",
+        "MADDR:7 CHARLESWORTH AVE",
         "CITY:AVOCA",
         "X:EAST AV / CHASE ST; Near: PINECREST HOME FOR ADULTS",
         "CODE:17B1",
@@ -78,6 +79,7 @@ public class NYSteubenCountyParserTest extends BaseParserTest {
         "messaging@iamresponding.com (Avoca FD) 7 CHARLESWORTH AV , AVOCA VILLAGE OF (EAST AV / CHASE ST; Near: PINECREST HOME FOR ADULTS) 17B1 Falls Possibly dangerous body area\nAVOCAFDAMB",
         "SRC:Avoca FD",
         "ADDR:7 CHARLESWORTH AV",
+        "MADDR:7 CHARLESWORTH AVE",
         "CITY:AVOCA",
         "X:EAST AV / CHASE ST; Near: PINECREST HOME FOR ADULTS",
         "CODE:17B1",
@@ -167,6 +169,7 @@ public class NYSteubenCountyParserTest extends BaseParserTest {
         "messaging@iamresponding.com (Avoca FD) 60617 STATE ROUTE 415 , AVOCA TOWN OF Misc FIRE\nAVOCFD:2011:53",
         "SRC:Avoca FD",
         "ADDR:60617 STATE ROUTE 415",
+        "MADDR:60617 STATE 415",
         "CITY:AVOCA",
         "CALL:Misc FIRE");
 
@@ -202,6 +205,7 @@ public class NYSteubenCountyParserTest extends BaseParserTest {
         "messaging@iamresponding.com (Avoca FD) 7 CHARLESWORTH AV , AVOCA VILLAGE OF (EAST AV / CHASE ST; Near: PINECREST HOME FOR ADULTS) AUTOMATIC ALARM Fire\nAVOCFD:2011:55",
         "SRC:Avoca FD",
         "ADDR:7 CHARLESWORTH AV",
+        "MADDR:7 CHARLESWORTH AVE",
         "CITY:AVOCA",
         "X:EAST AV / CHASE ST; Near: PINECREST HOME FOR ADULTS",
         "CALL:AUTOMATIC ALARM Fire");
@@ -210,6 +214,7 @@ public class NYSteubenCountyParserTest extends BaseParserTest {
         "messaging@iamresponding.com (Avoca FD) 61619 STATE ROUTE 415 #TRLR, AVOCA TOWN OF 31A1 Unconscious/Fainting Fainting episode(s) and alert &gt;35 (without cardiac history)\nAVOCAFDAM",
         "SRC:Avoca FD",
         "ADDR:61619 STATE ROUTE 415",
+        "MADDR:61619 STATE 415",
         "APT:TRLR",
         "CITY:AVOCA",
         "CODE:31A1",
@@ -247,6 +252,7 @@ public class NYSteubenCountyParserTest extends BaseParserTest {
         "SRC:Avoca FD",
         "PLACE:BOMBARDIER",
         "ADDR:7940 STATE ROUTE 415",
+        "MADDR:7940 STATE 415",
         "CITY:AVOCA",
         "CALL:Misc FIRE");
 
@@ -274,6 +280,7 @@ public class NYSteubenCountyParserTest extends BaseParserTest {
         "messaging@iamresponding.com (Avoca FD) 9374 KHORKS AV , AVOCA TOWN OF ( / WALLACE BACK RD) 17A1 Falls not dangerous body area\nAVOCAFDAMB:2011:119",
         "SRC:Avoca FD",
         "ADDR:9374 KHORKS AV",
+        "MADDR:9374 KHORKS AVE",
         "CITY:AVOCA",
         "X:WALLACE BACK RD",
         "CODE:17A1",
@@ -331,6 +338,7 @@ public class NYSteubenCountyParserTest extends BaseParserTest {
         "SRC:Avoca FD",
         "PLACE:MILE 139",
         "ADDR:I-86",
+        "MADDR:I-86 & BETWEEN EXIT 35 +",
         "X:BETWEEN EXIT 35 +",
         "CODE:29B1",
         "CALL:Traffic Accidents  Injuries");
@@ -340,6 +348,7 @@ public class NYSteubenCountyParserTest extends BaseParserTest {
         "SRC:Avoca FD",
         "PLACE:MILE 139",
         "ADDR:I-86",
+        "MADDR:I-86 & BETWEEN EXIT 35 +",
         "X:BETWEEN EXIT 35 +",
         "CODE:29B1",
         "CALL:RECALLED - Traffic Accidents  Injuries");
@@ -348,6 +357,7 @@ public class NYSteubenCountyParserTest extends BaseParserTest {
         "messaging@iamresponding.com (Avoca FD) 61619 STATE ROUTE 415 #TRLR, AVOCA TOWN OF ( / WENTWORTH RD) 19D4 Heart Problems Clammy\nAVOCAFDAMB:2011:126",
         "SRC:Avoca FD",
         "ADDR:61619 STATE ROUTE 415",
+        "MADDR:61619 STATE 415",
         "APT:TRLR",
         "CITY:AVOCA",
         "X:WENTWORTH RD",
@@ -389,6 +399,7 @@ public class NYSteubenCountyParserTest extends BaseParserTest {
         "SRC:Cohocton FD",
         "PLACE:CARPET RACK",
         "ADDR:8 MAPLE AV",
+        "MADDR:8 MAPLE AVE",
         "CITY:COHOCTON",
         "CODE:12D1",
         "CALL:Convulsions Not breathing");
@@ -397,6 +408,7 @@ public class NYSteubenCountyParserTest extends BaseParserTest {
         "(Cohocton FD) 86 MAPLE AV #FLR 1, COHOCTON VILLAGE OF (STATE ROUTE 962D / SHULTS AV)\n26A 2-11 Sick Person Non-Priority Complaints\nCOHOFAMB:2011:70",
         "SRC:Cohocton FD",
         "ADDR:86 MAPLE AV #FLR 1",
+        "MADDR:86 MAPLE AVE #FLR 1",
         "CITY:COHOCTON",
         "X:STATE ROUTE 962D / SHULTS AV",
         "CALL:ALERT",
@@ -463,6 +475,7 @@ public class NYSteubenCountyParserTest extends BaseParserTest {
         "SRC:BTFD",
         "PLACE:ZEMAKS GREENHOUSE",
         "ADDR:6714 STATE ROUTE 415",
+        "MADDR:6714 STATE 415",
         "CITY:BATH",
         "CALL:Brush Fire");
 
@@ -471,6 +484,7 @@ public class NYSteubenCountyParserTest extends BaseParserTest {
         "SRC:BTFD",
         "PLACE:MILE 154",
         "ADDR:I-86",
+        "MADDR:I-86 & BETWEEN EXIT 39 +",
         "X:BETWEEN EXIT 39 +",
         "CODE:29D2",
         "CALL:Traffic Accidents High mechanism");
@@ -512,7 +526,22 @@ public class NYSteubenCountyParserTest extends BaseParserTest {
    
   }
   
+  @Test
+  public void testWaylandParser() {
+    doTest("T5",
+        "Subject:Wayland FD\n1790 STATE ROUTE 63 , WAYLAND TOWN OF (GROSS HILL RD / RESERVOIR RD)\n26A1 Sick Person No priority symptoms (com",
+        "SRC:Wayland FD",
+        "ADDR:1790 STATE ROUTE 63",
+        "MADDR:1790 STATE 63",
+        "CITY:WAYLAND",
+        "X:GROSS HILL RD / RESERVOIR RD",
+        "CODE:26A1",
+        "CALL:Sick Person No priority symptoms (com");
+    
+  }
+  
   public static void main(String[] args) {
     new NYSteubenCountyParserTest().generateTests("T5", "SRC PLACE ADDR APT CITY X CODE CALL INFO");
   }
+
 }
