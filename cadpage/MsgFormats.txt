@@ -3523,16 +3523,6 @@ Contact: "nemo48@sbcglobal.net" <nemo48@sbcglobal.net>
 Sender: paging@easthavenfire.com
 1100005182 ALPHA MEDICAL 00055 THOMPSON ST  Prem Map -14 PP 65 FOXON RD/GAY ST  (Prem Map -14 PP 65)\4sS5 111120 15:40
 **********************************************************
-Erie County, NY (again)
-Contact: afshar yusuf <afshar.yusuf@gmail.com>
-Sender: dispatch@townofhamburgny.com
-*2EMS: 60/M LONG FALL POSSIBLE ARM AND LEG FRACTURE ILS RESPONSE at 3425 OLD LAKEVIEW RD, Hamburg  c/s: ENGEL DR . . 17:31:57\n\n-- \nThis message has bee
-*2EMS: Male fell has a elbow laceration Cold Response at 25 BUFFALO ST #420, Village of Hamburg  c/s: MAIN ST   O: CREEK BEND HGTS APTS . . 05:16:00\n\n-
-
-Contact: Joe Gallagher <patchinfirefigher@gmail.com>
-*2EMS: 23 male poss od uncx at 7219 LIEBLER RD, Boston  c/s: COLE RD . . 19:44:01\n\n-- \nThis message has been scanned for viruse
-*2EMS: 51 female dyspnea paramedic response at 8169 BOSTON STATE RD, Boston  c/s: MAY DR   O: PEOPLE INC . . 21:26:12\n\n-- \nThis
-**********************************************************
 Dothan, AL (variant from same dispatch??)
 Contact: Jacob Wozow <jwozow06@gmail.com>
 Sender: Robot.ALERT@dothan.org
@@ -3543,6 +3533,10 @@ Contact: "NEIL MATHEWS (RIT Student)" <nem9082@rit.edu>
 Sender: a-rita@rit.edu
 19:49 P3, 23 LOMB MEMORIAL DR ,HEN -- RIT B23  AUGUST CNT - COME IN THROUGH SLC ENTRANCE,  PARK IN THE U LOT -- 25 YO M - WAS PLAYING BASKETBALL AND CUT HIS CHIN - O
 **********************************************************
+Wayland FD ???
+Contact: Matthew Tuller <mtuller21@gmail.com>
+Sender: messaging@iamresponding.com
+Subject:Wayland FD\n1790 STATE ROUTE 63 , WAYLAND TOWN OF (GROSS HILL RD / RESERVOIR RD)\n26A1 Sick Person No priority symptoms (com
 **********************************************************
 **********************************************************
 **********************************************************
@@ -3563,5 +3557,16 @@ Sender: a-rita@rit.edu
 **********************************************************
 **********************************************************
 **********************************************************
+**********************************************************
+Erie County, NY (again)
+Contact: afshar yusuf <afshar.yusuf@gmail.com>
+Sender: dispatch@townofhamburgny.com
+*2EMS: 60/M LONG FALL POSSIBLE ARM AND LEG FRACTURE ILS RESPONSE at 3425 OLD LAKEVIEW RD, Hamburg  c/s: ENGEL DR . . 17:31:57\n\n-- \nThis message has bee
+*2EMS: Male fell has a elbow laceration Cold Response at 25 BUFFALO ST #420, Village of Hamburg  c/s: MAIN ST   O: CREEK BEND HGTS APTS . . 05:16:00\n\n-
 
- 
+Contact: Joe Gallagher <patchinfirefigher@gmail.com>
+*2EMS: 23 male poss od uncx at 7219 LIEBLER RD, Boston  c/s: COLE RD . . 19:44:01\n\n-- \nThis message has been scanned for viruse
+*2EMS: 51 female dyspnea paramedic response at 8169 BOSTON STATE RD, Boston  c/s: MAY DR   O: PEOPLE INC . . 21:26:12\n\n-- \nThis
+*2Misc Electrical Problem: TELEPHONE POLE ON FIRE NEAR ROADWAY at 6674 LIEBLER RD, Boston  c/s: BOSTON STATE RD . . 07:50:52\n\n--
+*2EMS: 79m weakness in right arm and leg poss stroke bls hot response no members on duty contact hfc at 6784 REDWING DR, Boston  c
+*2EMS: 71 Y/F NOT ALERT  PARAMEDIC RESPONSE\3sNO MEMBERS ON DUTY  at 8799 ROCKWOOD RD, Boston  c/s: PA/BO LINE . . 13:54:46\n\n-- 

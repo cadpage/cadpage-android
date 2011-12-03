@@ -73,6 +73,12 @@ Contact: "Conrad, Robert" <RobertC@co.steuben.ny.us>
 [2ndCall] 25 MAINE ST , BATH VILLAGE OF (ROBIE ST / HAVERLING ST) 1D1 Abdominal Pain Not alert BATHAMB:2011:1393 
 [2ndCall] 3 CLUB VIEW DR , BATH VILLAGE OF ( / MAY ST) 28C06 Stroke (CVA) Sudden loss of balance or coordination BATHAMB:2011:1392
 
+Wayland FD 
+Contact: Matthew Tuller <mtuller21@gmail.com>
+Sender: messaging@iamresponding.com
+Subject:Wayland FD\n1790 STATE ROUTE 63 , WAYLAND TOWN OF (GROSS HILL RD / RESERVOIR RD)\n26A1 Sick Person No priority symptoms (com
+
+
 */
 
 
