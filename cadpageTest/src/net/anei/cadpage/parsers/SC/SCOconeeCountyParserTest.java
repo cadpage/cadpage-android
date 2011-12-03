@@ -79,6 +79,16 @@ public class SCOconeeCountyParserTest extends BaseParserTest {
         "PLACE:EDWARDS AUTO SALES",
         "ID:2011-00000946");
 
+    doTest("T7",
+        "(911 Message) LIFT ASSISTANCE  313 MANOR LN XStreet: INDUSTRIAL PARK PL / DEAD END SENECA     12/02/11 01:06  Narr:   COME TO THE BACK DOOR  NEEDS HELP GETTING UP",
+        "CALL:LIFT ASSISTANCE",
+        "ADDR:313 MANOR LN",
+        "X:INDUSTRIAL PARK PL / DEAD END",
+        "CITY:SENECA",
+        "DATE:12/02/11",
+        "TIME:01:06",
+        "INFO:COME TO THE BACK DOOR  NEEDS HELP GETTING UP");
+
   }
   
   public static void main(String[] args) {

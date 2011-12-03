@@ -107,9 +107,17 @@ public class CTTollandCountyParserTest extends BaseParserTest {
         "CALL:ALS ? CVA",
         "X:PARSONS ST / SOKOL RD",
         "ID:2011-00000820");
+
+    doTest("T13",
+        "(TN Alert) 234 JAMES RD / Ashford BLS Fall 15:25 Cross Street HORSE HILL RD / WESTFORD RD 2011-00001969",
+        "ADDR:234 JAMES RD",
+        "CITY:Ashford",
+        "CALL:BLS Fall",
+        "X:HORSE HILL RD / WESTFORD RD",
+        "ID:2011-00001969");
   }
   
   public static void main(String[] args) {
-    new CTTollandCountyParserTest().generateTests("T11", "ADDR APT CITY CALL X ID");
+    new CTTollandCountyParserTest().generateTests("T1", "ADDR APT CITY CALL X ID");
   }
 }
