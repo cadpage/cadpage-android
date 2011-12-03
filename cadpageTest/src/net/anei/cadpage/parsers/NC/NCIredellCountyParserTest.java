@@ -50,6 +50,12 @@ public class NCIredellCountyParserTest extends BaseParserTest {
         "CALL:2ANAPHYLACTIC SHOCK",
         "ADDR:161 NILE CIR");
 
+    doTest("T7",
+        "FD70 C-90 GRASS / WOODS FIRE, TIMBER RD",
+        "SRC:FD70",
+        "CALL:C-90 GRASS / WOODS FIRE",
+        "ADDR:TIMBER RD");
+
   }
   
 
