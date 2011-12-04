@@ -313,6 +313,19 @@ public class NYNassauCountyRedAlertParserTest extends BaseParserTest {
         "TIME:14:20:55");
   }
   
+  @Test
+  public void testPlainview() {
+
+    doTest("T1",
+        "BUILDING FIRE, AUTOMATIC ALARM - BUILDING at 205 BETHPAGE SWEETHOLLOW ROAD, OLD BETHPAGE  c/s: HUB DRIVE   O: ALJO-GEFFA PRECISION MANUFACTURING, LLC",
+        "CALL:BUILDING FIRE, AUTOMATIC ALARM - BUILDING",
+        "ADDR:205 BETHPAGE SWEETHOLLOW ROAD",
+        "CITY:OLD BETHPAGE",
+        "X:HUB DRIVE",
+        "PLACE:ALJO-GEFFA PRECISION MANUFACTURING, LLC");
+
+  }
+  
   public static void main(String[] args) {
     new NYNassauCountyRedAlertParserTest().generateTests("T1", "CALL MAP UNIT INFO ADDR APT CITY X PLACE TIME");
   }
