@@ -20,6 +20,10 @@ Sender: tfddispatch@att.net
 [Case# 11-244]  @1:01:11 PM // Brunswick // Jopke Rd & HWY 37 // Motorvehicle Collision // 10/50 PI
 [Case# 11-241]  @10:25:42 AM // Washington // I94 WB Mile Marke 65 // Rescue/Medical Assist // 61 y/o male poss stroke
 
+Contact: Andrew Gaede <veghunter10@gmail.com>
+Sender: tfddispatch@att.net
+@4:38:53 PM // Rock Creek (Dunn) // HWY 85 & 870th // Motorvehicle\nCollision // 3 vehicle 10/50 PI, no extrication, Station 5 requested for\nassistance
+
  */
 public class WIEauClaireParser extends FieldProgramParser {
   
@@ -38,14 +42,22 @@ public class WIEauClaireParser extends FieldProgramParser {
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
     Matcher  match = SUBJECT_PTN.matcher(subject);
-    if (!match.matches()) return false;
-    data.strCallId = match.group(1);
+    if (match.matches()) {
+      data.strCallId = match.group(1);
+    }
+    body = body.replace("\n", " ").replaceAll("  +", " ");
     return parseFields(body.split("//"), data);
   }
   
-  private class MyTimeField extends SkipField {
+  private class MyTimeField extends TimeField {
     public MyTimeField() {
       setPattern(Pattern.compile("@\\d{1,2}:\\d{1,2}:\\d{1,2} [AP]M"), true);
+    }
+    
+    @Override
+    public void parse(String field, Data data) {
+      field = field.substring(2).trim();
+      super.parse(field, data);
     }
   }
   

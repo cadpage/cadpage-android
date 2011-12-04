@@ -66,6 +66,11 @@ Carbon Monoxide w/ Aided: Zone: 52, Response:CO5, CO6\nat 45 CHESTNUT HILL, NORT
 Contact: Nick Stein <snickphotos@gmail.com>,15166443087@tmomail.net
 / STILL ALARM: ODOR OF GAS at CENTRAL AVE / ROCKAWAY TPKE, LAWRENCE . . 14:20:55
 
+Plainview FD
+Contact: Jan Schatzberg <390janpfd@gmail.com>
+Sender: notifications@Plainviewfd.com
+BUILDING FIRE, AUTOMATIC ALARM - BUILDING at 205 BETHPAGE SWEETHOLLOW ROAD, OLD BETHPAGE  c/s: HUB DRIVE   O: ALJO-GEFFA PRECISION MANUFACTURING, LLC
+
 */
 
 public class NYNassauCountyRedAlertParser extends DispatchRedAlertParser {
@@ -81,7 +86,7 @@ public class NYNassauCountyRedAlertParser extends DispatchRedAlertParser {
 
   @Override
   public String getFilter() {
-    return super.getFilter() + ",alarms@rvcny.us";
+    return super.getFilter() + ",alarms@rvcny.us,notifications@Plainviewfd.com";
   }
   
   @Override

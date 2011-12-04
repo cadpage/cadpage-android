@@ -1,0 +1,155 @@
+
+Cadpage C2DM messaging protocol
+
+None of this is set in stone yet.  If simple changes will make it easier to code
+the web interface, by all means lets change them.
+
+For CodeMessaging
+    vendor code: CodeMessaging
+    SMS trigger: >CMG
+    
+For Active911
+    vender code: Active911
+    SMS trigger: >A91    
+
+You have to set up a base HTTP address that Cadpage will use to communicate with
+your servers.  Cadpage will send the following parameter information to this address
+
+req=info       general request for information about your company and service
+    This will come from a web browser, you can do any interaction you want with it
+
+req=register - initial user request to register phone
+    vendor          Vendor code
+    phone           Phone number if we have it (for Android tablets we probably will not)
+    CadpageRegId    Cadpage registration ID, this is what you need to send messages to this device
+
+    This also comes from a web browser.  If you redirect them to other links, it is
+    your responsibility to preserve the passed parameters, either by adding them to
+    the directed links or saving them as cookies.
+    
+    A successful registration should send REGISTER request to the device which will
+    include the user account number and security token
+    
+req=reregister  Used by Cadpage to report a change to the device registration ID
+    vendor          Vendor code
+    account         Account number/string reported in REGISTER request to device
+    phone           Phone number reported in REGISTER request to device
+    token           Security token reported in REGISTER request to device
+    CadpageRegId    New Cadpage registration ID
+    
+    Return an OK or ERROR response code to indicate success or failure
+    
+req=unregister     Used by Cadpage to inidicate user request to unregister their phone  
+    vendor          Vendor code
+    account         Account number/string reported in REGISTER request to device
+    phone           Phone number reported in REGISTER request to device
+    token           Security token reported in REGISTER request to device
+    CadpageRegId    New Cadpage registration ID
+    
+    Return an OK or ERROR response code to indicate success or failure
+    
+req=query       Used when Cadpage is installed on a clean system where it has 
+                lost all of its configuration information.  If we can recover the
+                registration ID (uncertain at this point) this allows us to
+                recover the account information
+    params                   
+    phone           Phone number if we have it (for Android tablets we probably will not)
+    CadpageRegId    Cadpage registration ID, this is what you need to send messages to this device
+    
+    If you can identify this account in your database, respond by sending a REGISTER
+    request to the device
+    
+    
+Once you have a Cadpage registration ID, you can send messages to the device.  The
+technical details are explained at http://code.google.com/android/c2dm/
+
+You have to use
+account: alerts@cadpage.org
+password: c@dpagealerts
+
+The message you send to Cadpage consists of set of name/value pairs.  The name
+keywords Cadpage will look for are
+
+type:   Message type which can take following values
+        REGISTER - report successful cadpage registration
+        UNREGISTER - report user initiated request to unregister from your servers
+        PING - Cadpage will initiate automatic response to server
+        LOC - Cadpage will respond with user location.  (Only if user has enabled
+              location services and allowed Cadpage to report this info)
+        PAGE (or anything not listed above) - alert page
+        
+For REGISTER and UNREGISTER types
+vendor:     Assigned vendor code (either hard coded or from request)
+account:    Users account number with your service
+token:      Security token that will be reported back to your servers with
+            reregister and unregister requests
+            
+For regular message requests        
+from - Sender address (default C2DM)
+subject - Message subject (optional)
+content - Actual message content (This is the only required field)
+format - Format/location parsing code (default, use user configured location code)
+sponsor - sponsoring organization (Setting this to non-empty value implies that you
+          are someone else is paying us so we won't try to collect from end users)
+date - date/time you received page from dispatch, in a format yet to be specified.
+
+For everything
+ack_url:  URL Cadpage will connect with to acknowledge message status (optional)
+ack_req:  String of characters indicating what kind manual responses may be sent
+          A - ACK merely indicates user has pressed a button or done something
+              to acknowledge the call
+          R - RESP user indicates they are responding
+          N - NO user indicates that they are not responding
+          L - Request user location (again only if user has enabled location
+              services and allowed Cadpage to report this info
+
+
+Cadpage acknowledgments
+If an ack_url has been included in a text page, Cadpage will automatically 
+respond by opening the specified URL.  If ack_req has been set, it will allow
+the user to report their responding/non-responding status manually.  These reports
+will be sent the the ack_url URL with parameters
+type:     Type of acknowledgment
+          AUTO - automatic sent as soon as Cadpage receives message
+          ACK  - sent when user performs any action in response to page
+          RESP - sent when user indicates they are responding to call
+          NO   - sent when user indicates they are not responding to call
+location: User GPS coordinates if requested and enabled
+
+
+SMS text message discovery
+
+Any regular SMS text message that has been identified as a CAD page or general
+alert that starts with your assigned SMS trigger code will be identified as
+coming from your location.  The trigger code will be stripped off and the text
+message will be processed normally.  But the next time the users opens Cadpage
+they will be asked if would like to sign up for direct C2DM services.
+
+Any received text message that starts with the sequence
+*CADPAGEQ*
+and contains a valid URL that starts with your configured base URL address
+will be considered a Cadpage query.  The message will be intercepted and the
+user will be asked if they would like to sign up for direct C2DM services.  If
+they concur, a regular user initiated register request will be sent, but it
+will be sent to the URL included in the text message with the additional
+parameters added.
+
+These *CADPAGEQ* discover pages will show up in user inboxes where Cadpage is
+not installed or enabled.  The text page has be be user friendly and readable.
+
+Note that none of these will work if the pages is relayed through another
+messaging service that adds it's own message headers. 
+
+
+General notes:
+
+Might be nice to have a web page feature allowing user to locate and map their
+own phone if it happened to be misplaced.
+
+Also might be worth trying to give users an option initiate a reregistration 
+from your web page.  This would be used when Cadpage had to be reinstalled on 
+the phone in hopes that you could restore the registration info that we lost.  
+Whether it will work or not remains to be seen.
+
+We should probably make an effort to make sure that we have format/location codes 
+for all of your clients.  And code new ones for any we are missing.
