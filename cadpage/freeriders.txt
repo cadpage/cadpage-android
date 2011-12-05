@@ -195,12 +195,13 @@ Zach Smith (zachsmith.91142@gmail.com)(bigz1232003@yahoo.com)
 
 // List of users getting credit for 2012
 $paid_2012_list
-Christopher Rowland (chrisprowl@gmail.com)(chrisprowl@aol.com) //$20
+Christopher Rowland (chrisprowl@gmail.com)(chrisprowl@aol.com) 
 Gerald Bentley (tbentley69@gmail.com) <jtbentley032595@hotmail.com>
+Patrick Hultman (pat.hultman@jocofd1.org)<pat.hultman@jocofd1.org>
 Robert Tripe <rmtripe@gmail.com>
-Samuel K Anders (sam@samanderscpa.com)(skacpa@bellsuth.net) //$20
-Stephen Kelly (kelgar63@gmail.com)(skelly07@twcny.rr.com) //$20 
-William Walters (lcff791@gmail.com) // $20
+Samuel K Anders (sam@samanderscpa.com)(skacpa@bellsuth.net)
+Stephen Kelly (kelgar63@gmail.com)(skelly07@twcny.rr.com) 
+William Walters (lcff791@gmail.com)
 
 
 // List of users getting credit for 2011
@@ -304,6 +305,7 @@ nicholas hammel (firefighter8416@gmail.com)(firefighternh815@yahoo.com)
 Oscar Gonzalez (o.gonzalez464@gmail.com)(jces9063@aol.com)
 Paul Barkley (pfbarkley@gmail.com)(pbarkle1@mac.com)
 paul revel (paul22.pr@gmail.com)(per22101@comcast.net)
+Patrick Hultman (pat.hultman@jocofd1.org)<pat.hultman@jocofd1.org>  //$20
 Patrick Risley (fgrizz00@gmail.com)(prisley@msn.com)
 rachel mingora (j.mingora13@gmail.com)(rjmingora1354@aol.com)
 randy bebeau (acfdfire72@gmail.com)(bebes73@hotmail.com)
