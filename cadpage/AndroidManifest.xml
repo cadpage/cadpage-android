@@ -106,12 +106,11 @@
   <uses-permission android:name="android.permission.READ_SMS" />
   <uses-permission android:name="android.permission.RECEIVE_SMS" />
   <uses-permission android:name="android.permission.RECEIVE_MMS" />
-  <uses-permission android:name="android.permission.WRITE_SMS" />
   <uses-permission android:name="android.permission.WAKE_LOCK" />
   <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
   <uses-permission android:name="android.permission.VIBRATE" />
-  <uses-permission android:name="android.permission.GET_TASKS" />
-  <uses-permission android:name="android.permission.READ_LOGS" />
+  <!-- uses-permission android:name="android.permission.GET_TASKS" -->
+  <!-- uses-permission android:name="android.permission.READ_LOGS" -->
   <uses-permission android:name="android.permission.READ_PHONE_STATE" />
   <uses-permission android:name="android.permission.GET_ACCOUNTS" />
   <uses-permission android:name="com.android.vending.BILLING" />
@@ -121,11 +120,10 @@
   <!--uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"></uses-permission-->
   <!--uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission-->
   
-  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
   
-  <!--uses-permission android:name="android.permission.READ_CONTACTS"></uses-permission-->
+  <!-- uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" -->
   
-  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.CALL_PHONE" />
   
   <uses-feature android:name="android.hardware.telephony" android:required="false" />
