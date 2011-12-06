@@ -116,6 +116,7 @@ public class MDCarrollCountyParserTest extends BaseParserTest {
         "CALL:ALS",
         "BOX:0218",
         "ADDR:3900 SHILOH AV",
+        "MADDR:3900 SHILOH AVE",
         "CITY:HAMPSTEAD",
         "UNIT:BM435 FR2");
 
@@ -173,6 +174,7 @@ public class MDCarrollCountyParserTest extends BaseParserTest {
         "BOX:0218",
         "PLACE:HIGHFIELD APTS",
         "ADDR:3825 SHILOH AV",
+        "MADDR:3825 SHILOH AVE",
         "APT:2",
         "CITY:HAMPSTEAD",
         "UNIT:BM435 FR2");
@@ -579,6 +581,21 @@ public class MDCarrollCountyParserTest extends BaseParserTest {
         "X:ABRAMS CT",
         "CITY:BALTIMORE COUNTY",
         "UNIT:E23");
+  }
+  
+  @Test
+  public void testParser2() {
+
+    doTest("T1",
+        
+        "Co14 / [!] CT:VC KLEE MILL RD S / LIBERTY RD W SYKE BOX:1416 DUE:X149 E141 [08]\n\n",
+        "SRC:Co14",
+        "CALL:VC",
+        "BOX:1416",
+        "ADDR:KLEE MILL RD S & LIBERTY RD W",
+        "CITY:SYKESVILLE",
+        "UNIT:X149 E141");
+
   }
   
   public static void main(String[] args) {
