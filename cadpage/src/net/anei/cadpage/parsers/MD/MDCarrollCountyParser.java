@@ -23,7 +23,6 @@ Sender: @c-msg.net
 (Co12) [!] CT:CHIM 811 DAVID AV WEST BOX:0316 DUE:TO12 [13]
 (Co12) [!] CT:LOCAL HENRYTON RD / MARRIOTTSVILLE RD ONE MARR BOX:1208 DUE:E123 [12]
 
-This isn't parsing right, but we need more info to fix!
 Contact: Troy Hipsley <troy.hipsley@gmail.com>
 (Co2) [!] CT:MA BOX 60-18 19907 YORK RD VCR TG44 BOX:BC DUE:T2 [41]
 [Co 2] [!] CT:HF 1216 WOODLAND CT HAMP BOX:0216 DUE:ET24 BE432 E23 BE422 E91 TO3 BET431 ET44 BTS434 X29 CS4 [15]
@@ -79,37 +78,12 @@ Contact: Troy Hipsley <troy.hipsley@gmail.com>
 [Co 2]  [!] CT:MA 43-2 16106 DARK HOLLOW RD / TRENTON RD HELO L/Z BOX:BC DUE:E23 [36]
 [Co 2] [!] CT:MA 43-13 3907 BECKELYSVILLE RD / ABRAMS CT FIRE ALARM BOX:BC DUE:E23 [35]
 
+Contact: james zuna <mtpockets316@yahoo.com>
+Co14 / [!] CT:VC KLEE MILL RD S / LIBERTY RD W SYKE BOX:1416 DUE:X149 E141 [08]\n\n
+
 */
 
 public class MDCarrollCountyParser extends FieldProgramParser {
-
-  private static final Properties CITY_CODES = buildCodeTable(new String[]{
-      "FINK", "FINKSBURG",
-      "HAMP", "HAMPSTEAD",
-      "MARR", "MARRIOTSVILLE",
-      "LINE", "LINEBORO",
-      "MANC", "MANCHESTER",
-      "REIS", "REISTERSTOWN",
-      "UPCO", "UPPERCO",
-      "WEST", "WESTMINISTER",
-      "KEYM", "KEYMAR",
-      "UNBR", "UNION BRIDGE",
-      "AIRY", "MT AIRY",
-      "NWIN", "NEW WINDSOR",
-      "SYKE", "SYKESVILLE",
-      "TANE", "TANEYTOWN",
-      "WOOD", "WOODBINE"
-  });
-  
-  // Mutual aid count abbreviations
-  private static final Properties COUNTY_CODES = buildCodeTable(new String[]{
-      "YC", "YORK COUNTY,PA",
-      "BC", "BALTIMORE COUNTY",
-      "HC", "HOWARD COUNTY",
-      "FC", "FREDERICK COUNTY",
-      "AC", "ADAMS COUNTY,PA",
-      "MC", "MONTGOMERY COUNTY"
-  });
   
   // List of call descriptions consisting for multiple words
   private static final String[] TWO_WORD_CALLS = new String[] {
@@ -134,14 +108,32 @@ public class MDCarrollCountyParser extends FieldProgramParser {
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
     
-    if (!subject.endsWith("|!")) return false;
-    data.strSource = subject.substring(0,subject.length()-2);
+    do {
+      if (subject.endsWith("|!")) {
+        data.strSource = subject.substring(0,subject.length()-2);
+        break;
+      }
+      
+      int pt = body.indexOf(" / [!] ");
+      if (pt >= 0) {
+        data.strSource = body.substring(0,pt).trim();
+        body = body.substring(pt+7).trim();
+        break;
+      }
+      
+      return false;
+    } while (false);
     
     Matcher match = TRAIL_SEQ.matcher(body);
     if (!match.find()) return false;
     body = body.substring(0,match.start()).trim();
     
     return super.parseMsg(body, data);
+  }
+  
+  @Override
+  public String getProgram() {
+    return "SRC " + super.getProgram();
   }
   
   private class MyAddressField extends Field {
@@ -265,9 +257,32 @@ public class MDCarrollCountyParser extends FieldProgramParser {
     if (name.equals("BOX")) return new MyBoxField();
     return super.getField(name);
   }
+
+  private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "FINK", "FINKSBURG",
+      "HAMP", "HAMPSTEAD",
+      "MARR", "MARRIOTSVILLE",
+      "LINE", "LINEBORO",
+      "MANC", "MANCHESTER",
+      "REIS", "REISTERSTOWN",
+      "UPCO", "UPPERCO",
+      "WEST", "WESTMINISTER",
+      "KEYM", "KEYMAR",
+      "UNBR", "UNION BRIDGE",
+      "AIRY", "MT AIRY",
+      "NWIN", "NEW WINDSOR",
+      "SYKE", "SYKESVILLE",
+      "TANE", "TANEYTOWN",
+      "WOOD", "WOODBINE"
+  });
   
-  @Override
-  public String getProgram() {
-    return "SRC " + super.getProgram();
-  }
+  // Mutual aid count abbreviations
+  private static final Properties COUNTY_CODES = buildCodeTable(new String[]{
+      "YC", "YORK COUNTY,PA",
+      "BC", "BALTIMORE COUNTY",
+      "HC", "HOWARD COUNTY",
+      "FC", "FREDERICK COUNTY",
+      "AC", "ADAMS COUNTY,PA",
+      "MC", "MONTGOMERY COUNTY"
+  });
 }

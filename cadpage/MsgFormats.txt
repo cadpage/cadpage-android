@@ -3543,6 +3543,10 @@ Contact: Kenneth Lebrun <klebrun24@gmail.com>
 Sender: messaging@iamresponding.com
 (GVFC)  LAMS DR   Outside Fire   [INCIDENT#]: 2011-00005083 19:09 Louisa County\n\n
 **********************************************************
+Orange County, NY
+Contact: Ian Zuckerman <izuckerman5632@gmail.com>
+Sender: OC911@co.orange.ny.us
+DEPT37     AD: WEBB RD LOC: BOX 37-10 TIME: 15:21 TYP: STRUCTURE FIRE 2ND ALARM TRANSMITTED FOR VACANT HOUSE FIRE\n\n\n
 **********************************************************
 **********************************************************
 **********************************************************

@@ -103,4 +103,5 @@
    <string name="pref_disclaimer_key">disclaimer</string>
    <string name="pref_callback_key">callback</string>
    <string name="pref_textsize_key">textsize</string>
+   <string name="pref_enabled_vendors_key">enabled_vendors</string>
 </resources>
