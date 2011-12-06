@@ -1,5 +1,20 @@
 
 Cadpage C2DM messaging protocol
+    
+Stuff we need from you
+First an HTTP address that cadpage will use to communicate with your servers.
+A name or title of your service
+A short one line description, good place to sell why users should use your service
+A longer text description, more of the same
+Optional set of Icons we will display with your service.  These are all views
+of the same logo that are used for different screen resolutions.  Size if flexible
+but shouldn't be too far off the standard which is.
+  72x72 pixel
+  48x48 pixel
+  36x36 pixel
+  
+  512x512 pixels is the main one
+  
 
 None of this is set in stone yet.  If simple changes will make it easier to code
 the web interface, by all means lets change them.
@@ -10,7 +25,7 @@ For CodeMessaging
     
 For Active911
     vender code: Active911
-    SMS trigger: >A91    
+    SMS trigger: >A91
 
 You have to set up a base HTTP address that Cadpage will use to communicate with
 your servers.  Cadpage will send the following parameter information to this address
