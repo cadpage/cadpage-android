@@ -469,6 +469,20 @@ public class VAFranklinCountyParserTest extends BaseParserTest {
         "ID:2011-031319");
   }
   
+  @Test
+  public void testParser2() {
+
+    doTest("T1",
+        "MAILBOX:S09 911 HANG UP 000283 KIN VALE RD RMT CFS# 2011-033694 CROSS: ANGLE PLANTATION RD/ALEAN RD",
+        "SRC:S09",
+        "CALL:911 HANG UP",
+        "ADDR:000283 KIN VALE RD",
+        "CITY:Rocky Mount",
+        "ID:2011-033694",
+        "X:ANGLE PLANTATION RD/ALEAN RD");
+
+  }
+  
   public static void main(String args[]) {
     new VAFranklinCountyParserTest().generateTests("T1");
   }
