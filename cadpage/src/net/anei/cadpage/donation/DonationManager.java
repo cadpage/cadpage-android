@@ -113,7 +113,8 @@ public class DonationManager {
     }
     
     // If they don't have a clear green status, check for a special release exemption
-    if (status != DonationStatus.LIFE && status != DonationStatus.PAID) {
+    if (status != DonationStatus.LIFE && status != DonationStatus.PAID &&
+        status != DonationStatus.AUTH_DEPT && status != DonationStatus.SPONSOR) {
       
       // This only returns a exempt date if it is still is valid for the current release
       // And it is only valid for period of time after the release was shipped

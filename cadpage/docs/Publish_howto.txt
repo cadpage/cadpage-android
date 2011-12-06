@@ -21,6 +21,7 @@ Publishing a regular Cadpage release
 * Open current issues and display all with a status of "ReadyToRelease"
 * open res/values/release_info.xml
 * update release_version item
+* update release_date item
 * Update release_info based on information in issues list
 * Run Cadpage in emulator to make sure release_info look correct
 * Commit all changes
