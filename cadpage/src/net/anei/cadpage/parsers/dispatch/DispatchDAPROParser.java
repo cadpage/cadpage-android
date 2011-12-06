@@ -101,7 +101,7 @@ public class DispatchDAPROParser extends FieldProgramParser {
       // No call description match eh
       // We'll have to rely on the smart parser to save us
       else {
-        parseAddress(StartType.START_CALL, FLAG_ANCHOR_END, field, data);
+        parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ | FLAG_ANCHOR_END, field, data);
       }
     }
     
@@ -174,6 +174,7 @@ public class DispatchDAPROParser extends FieldProgramParser {
         "EMS-TRAUMA INJURIES",
         "EMS-UNCONSCIOUS",
         "EMS-UNKNOWN MADICAL",
+        "911 HANG UP",
         "911 OPEN LINE",
         "ACCIDENT-INJURY",
         "AUTOMATIC FIRE ALARM",
