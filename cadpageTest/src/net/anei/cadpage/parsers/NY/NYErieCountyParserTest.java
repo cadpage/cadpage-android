@@ -18,4 +18,10 @@ public class NYErieCountyParserTest {
       setParser(new NYErieCountyParser());
     }
   }
+  
+  public static class TestRedAlert extends NYErieCountyRedAlertParserTest {
+    public TestRedAlert() {
+      setParser(new NYErieCountyParser());
+    }
+  }
 }
