@@ -1,6 +1,7 @@
 package net.anei.cadpage;
 
 import java.net.HttpURLConnection;
+import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.LinkedList;
 import java.util.Queue;
@@ -8,6 +9,7 @@ import java.util.Queue;
 import android.app.Service;
 import android.content.Context;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Handler;
 import android.os.IBinder;
 import android.os.PowerManager;
@@ -15,11 +17,15 @@ import android.os.Process;
 
 public class HttpService extends Service {
   
-  public abstract class HttpRequest {
+  public static abstract class HttpRequest {
     
     private URL url;
     private int connectTimeout;
     private int readTimeout;
+    
+    public HttpRequest(Uri uri) {
+      this(convURItoURL(uri));
+    }
     
     public HttpRequest(URL url) {
       this(null, 60000, 30000);
@@ -29,6 +35,19 @@ public class HttpService extends Service {
       this.url = url;
       this.connectTimeout = connectTimeout;
       this.readTimeout = readTimeout;
+    }
+
+    /**
+     * Convert Uri object to URL object
+     * @param uri URI
+     * @return equivalent URL
+     */
+    private static URL convURItoURL(Uri uri) {
+      try {
+        return new URL(uri.toString());
+      } catch (MalformedURLException ex) {
+        throw new RuntimeException(ex.getMessage(), ex);
+      }
     }
     /**
      * @return return requested URL code

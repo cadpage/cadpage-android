@@ -614,7 +614,7 @@ public class ManagePreferences {
     MainDonateEvent.instance().refreshStatus();
   }
   
-  public static String getRegistrationId() {
+  public static String registrationId() {
     return prefs.getString(R.string.pref_registration_id_key, null);
   }
   

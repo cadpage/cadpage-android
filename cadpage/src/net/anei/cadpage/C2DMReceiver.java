@@ -103,7 +103,7 @@ public class C2DMReceiver extends BroadcastReceiver {
   private void handleMessage(Context context, Intent intent) {
     
     // If registration has been canceled, all C2DM messages should be ignored
-    if (ManagePreferences.getRegistrationId() == null) return;
+    if (ManagePreferences.registrationId() == null) return;
     
     // Reconstruct message from data
     String from = intent.getStringExtra("from");
@@ -180,7 +180,7 @@ public class C2DMReceiver extends BroadcastReceiver {
     Intent intent = new Intent(Intent.ACTION_SEND);
     String emailSubject = CadPageApplication.getNameVersion() + " C2DM registrion ID";
     intent.putExtra(Intent.EXTRA_SUBJECT, emailSubject);
-    intent.putExtra(Intent.EXTRA_TEXT, "My C2DM registration ID is " + ManagePreferences.getRegistrationId());
+    intent.putExtra(Intent.EXTRA_TEXT, "My C2DM registration ID is " + ManagePreferences.registrationId());
     intent.setType("message/rfc822");
     context.startActivity(Intent.createChooser(
         intent, context.getString(R.string.pref_sendemail_title)));
