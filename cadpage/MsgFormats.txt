@@ -3560,7 +3560,6 @@ DEPT37     AD: WEBB RD LOC: BOX 37-10 TIME: 15:21 TYP: STRUCTURE FIRE 2ND ALARM 
 **********************************************************
 **********************************************************
 **********************************************************
-**********************************************************
 ************  READY TO ROLL ******************************
 **********************************************************
 **********************************************************
@@ -3578,3 +3577,13 @@ Contact: Joe Gallagher <patchinfirefigher@gmail.com>
 *2Misc Electrical Problem: TELEPHONE POLE ON FIRE NEAR ROADWAY at 6674 LIEBLER RD, Boston  c/s: BOSTON STATE RD . . 07:50:52\n\n--
 *2EMS: 79m weakness in right arm and leg poss stroke bls hot response no members on duty contact hfc at 6784 REDWING DR, Boston  c
 *2EMS: 71 Y/F NOT ALERT  PARAMEDIC RESPONSE\3sNO MEMBERS ON DUTY  at 8799 ROCKWOOD RD, Boston  c/s: PA/BO LINE . . 13:54:46\n\n-- 
+**********************************************************
+Jackson County, IN
+Contact: J.L McElfresh <jmcelfresh36@gmail.com>
+Sender: @injacso.com
+Everything is free format :( 
+(medical run) 1047 E CR 400 S Wegan Church 80 y/o/f unconscious
+(medical) 4904 W CR 440 N\n25yom Chest Pain
+(Brownstown VFD) 10-50 Rollover 4062 N CR 225 W
+(medical) 383 S Circle Dr medical unresponsive male
+(medical run) 1047 E CR 400 S Wegan Church 80 y/o/f unconscious
