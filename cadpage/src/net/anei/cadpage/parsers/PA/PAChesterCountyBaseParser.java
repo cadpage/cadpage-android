@@ -41,6 +41,11 @@ public class PAChesterCountyBaseParser extends FieldProgramParser {
     public void parse(String field, Data data) {
       if (!parseChesterAddress(field, data)) abort();
     }
+    
+    @Override
+    public String getFieldNames() {
+      return super.getFieldNames() + " CITY";
+    }
   }
   
   // ADDRCITY2: address, city
@@ -58,6 +63,11 @@ public class PAChesterCountyBaseParser extends FieldProgramParser {
     @Override
     public void parse(String field, Data data) {
       if (!checkParse(field, data)) abort();
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return super.getFieldNames() + " CITY";
     }
   }
   
@@ -255,7 +265,7 @@ public class PAChesterCountyBaseParser extends FieldProgramParser {
     /* 46 */ "",
     /* 47 */ "EAST FALLOWFIELD TWP",
     /* 48 */ "",
-    /* 49 */ "",
+    /* 49 */ "NEWLIN TWP",
     /* 50 */ "",
     /* 51 */ "",
     /* 52 */ "WEST GOSHEN TWP",
