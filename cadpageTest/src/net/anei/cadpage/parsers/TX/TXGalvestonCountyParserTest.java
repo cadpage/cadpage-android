@@ -63,10 +63,31 @@ public class TXGalvestonCountyParserTest extends BaseParserTest {
         "ADDR:1946 N FM 646 RD",
         "X:HARRIETT LN",
         "INFO:LINE DOWN ON THE GROUND");
- 
+
+    doTest("T8",
+        ".... (Santa Fe Fire) CAD:FYI: FIRE - NON SPECIFIC 7600 AVE E ST between 32nd st and 33rd st..res is on Ave E..large fire appears to be speading to brush [11/30/11 20:49:27 BSCOTT]",
+        "SRC:Santa Fe Fire",
+        "CALL:FIRE - NON SPECIFIC",
+        "ADDR:7600 AVE E",
+        "INFO:between 32nd st and 33rd stres is on Ave Elarge fire appears to be speading to brush");
+
+    doTest("T9",
+        ".... (Santa Fe Fire) CAD:FYI: FIRE - NON SPECIFIC 7330 AVE M ST FIRE IN HOME HEATER CENTRAL UNIT SMOKE THEN FLAMES IS OUT NOW WITH WATER IN TRL [12/07/11 10:30:23 JHILLMAN]",
+        "SRC:Santa Fe Fire",
+        "CALL:FIRE - NON SPECIFIC",
+        "ADDR:7330 AVE M",
+        "INFO:FIRE IN HOME HEATER CENTRAL UNIT SMOKE THEN FLAMES IS OUT NOW WITH WATER IN TRL");
+
+    doTest("T10",
+        ".... (Santa Fe Fire) CAD:Update: FIRE - NON SPECIFIC 12619 HARRIETT LN SMALL CONT IN FENCE DUE TO WEATHER FIRE PUT OUT [12/07/11 12:58:06 JHILLMAN] IN AREA LOOKING OUT [12/07/11 12:53:05 JHILLMAN] NO CONTROL BURNS CALLED IN TODAY ON HARRIET LN MADE CONT WITH FI",
+        "SRC:Santa Fe Fire",
+        "CALL:Update: FIRE - NON SPECIFIC",
+        "ADDR:12619 HARRIETT LN",
+        "INFO:SMALL CONT IN FENCE DUE TO WEATHER FIRE PUT OUT / IN AREA LOOKING OUT / NO CONTROL BURNS CALLED IN TODAY ON HARRIET LN MADE CONT WITH FI");
+
   }
   
   public static void main(String[] args) {
-    new TXGalvestonCountyParserTest().generateTests("T1");
+    new TXGalvestonCountyParserTest().generateTests("T8");
   }
 }
