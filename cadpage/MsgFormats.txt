@@ -882,6 +882,11 @@ Woodford County, IL (ILWoodfordCountyParser)
 [Woodford Comm]  11-015377 FIRE\n1936 1400N\n1900E / 2000E/\nROANOKE\n1V24 ROFD
 [Woodford Comm]  11-014297 AMBULANCE CALL\n304 N FRANKLIN ST\nW DAVISON ST / W BRO/AD ST\nROANOKE\n1V24 ROFD
 ***************************************************************************
+Jackson County, IN (INJacksonCountyParser)
+(medical run) 1047 E CR 400 S Wegan Church 80 y/o/f unconscious
+(medical) 4904 W CR 440 N\n25yom Chest Pain
+(Brownstown VFD) 10-50 Rollover 4062 N CR 225 W
+***************************************************************************
 Hancock County, IN (INHancockCountyParser)
 Vehicle Accident - PI/4100 N 600W GREENFIELD & W AIRPORT BLV/52/ E71 M71 FG1 BCFP1/gate 2A
 Structure #ALARM#/7935 W 600N MCCORDSVILLE R12B12089 OAKLANDON/N 700W & N 800W/52/ E71 E72 L71 M71 FG1 BCFP1/General fire alarm
@@ -3566,12 +3571,3 @@ DEPT37     AD: WEBB RD LOC: BOX 37-10 TIME: 15:21 TYP: STRUCTURE FIRE 2ND ALARM 
 **********************************************************
 **********************************************************
 **********************************************************
-Jackson County, IN
-Contact: J.L McElfresh <jmcelfresh36@gmail.com>
-Sender: @injacso.com
-Everything is free format :( 
-(medical run) 1047 E CR 400 S Wegan Church 80 y/o/f unconscious
-(medical) 4904 W CR 440 N\n25yom Chest Pain
-(Brownstown VFD) 10-50 Rollover 4062 N CR 225 W
-(medical) 383 S Circle Dr medical unresponsive male
-(medical run) 1047 E CR 400 S Wegan Church 80 y/o/f unconscious

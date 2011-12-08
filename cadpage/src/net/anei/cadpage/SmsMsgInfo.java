@@ -267,6 +267,7 @@ public class SmsMsgInfo {
   private static final Pattern TL_PTN = Pattern.compile("\\bTL\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern TRC_PTN = Pattern.compile("\\bTRC\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern NEAR_PTN = Pattern.compile("\\b(?:NEAR|OFF)\\b", Pattern.CASE_INSENSITIVE);
+  private static final Pattern CR_PTN = Pattern.compile("\\bCR\\b", Pattern.CASE_INSENSITIVE);
   private String cleanStreetSuffix(String sAddr) {
     sAddr = replace(sAddr, AV_PTN, "AVE");
     sAddr = replace(sAddr, HW_PTN, "HWY");
@@ -278,6 +279,7 @@ public class SmsMsgInfo {
     sAddr = replace(sAddr, TL_PTN, "TRL");
     sAddr = replace(sAddr, TRC_PTN, "TRCE");
     sAddr = replace(sAddr, HW_PTN, "HWY");
+    sAddr = replace(sAddr, CR_PTN, "COUNTY ROAD");
     
     sAddr = NEAR_PTN.matcher(sAddr).replaceAll("&");
     return sAddr;
