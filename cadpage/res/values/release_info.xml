@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">12082011</string>
-  <string name="release_version">v1.4.45</string>
+  <string name="release_date">12092011</string>
+  <string name="release_version">v1.4.46</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="min_purchase_date">11032011</string>
@@ -10,6 +10,9 @@ Coming soon.  Pages dispatched through CodeMessaging can be delivered without in
 text messaging fees.  And received on Android tablets.  Stay tuned for further details\n
 \n
 What"'"s new in this release\n
+\n
+Restored WRITE_SMS permission that was removed in v1.4.45.  Thanks for reminding
+me why it was needed.\n
 \n
 New Locations:\n
 Jackson County, IN\n
@@ -28,8 +31,10 @@ Eau Claire, WI\n
 Franklin County, VA\n
 \n
 General fixes:\n
+\n
 Wrong payment status report when user has paid subscription and is using a
 sponsored location\n
+\n
 More little improvements have been made to the way we generate the search
 string sent to Google Maps.
   </string>  
