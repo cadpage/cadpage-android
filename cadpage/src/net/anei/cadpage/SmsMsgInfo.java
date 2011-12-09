@@ -257,18 +257,24 @@ public class SmsMsgInfo {
 	}
   
   // Clean up any street suffix abbreviations that Google isn't happy with
+  private static final Pattern CRNN_PTN = Pattern.compile("\\bCR +(\\d+[A-Z]?)\\b");
   private static final Pattern AV_PTN = Pattern.compile("\\bAV\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern HW_PTN = Pattern.compile("\\bH[WY]\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern STH_PTN = Pattern.compile("\\bST?HY?\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern PK_PTN = Pattern.compile("\\bPK\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern PW_PTN = Pattern.compile("\\bPW\\b", Pattern.CASE_INSENSITIVE);
-  private static final Pattern CI_PTN = Pattern.compile("\\bCI\\b", Pattern.CASE_INSENSITIVE);
+  private static final Pattern CI_PTN = Pattern.compile("\\bC[IR]\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern BLV_PTN = Pattern.compile("\\bBLV\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern TL_PTN = Pattern.compile("\\bTL\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern TRC_PTN = Pattern.compile("\\bTRC\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern NEAR_PTN = Pattern.compile("\\b(?:NEAR|OFF)\\b", Pattern.CASE_INSENSITIVE);
-  private static final Pattern CR_PTN = Pattern.compile("\\bCR\\b", Pattern.CASE_INSENSITIVE);
   private String cleanStreetSuffix(String sAddr) {
+    
+    // convert CR nn to COUNTY ROAD nn
+    // we need to do this before we do the abbreviations convertions that will
+    // change CR to CIR.
+    sAddr = CRNN_PTN.matcher(sAddr).replaceAll("COUNTY ROAD $1");
+    
     sAddr = replace(sAddr, AV_PTN, "AVE");
     sAddr = replace(sAddr, HW_PTN, "HWY");
     sAddr = replace(sAddr, STH_PTN, "ST");
@@ -279,9 +285,10 @@ public class SmsMsgInfo {
     sAddr = replace(sAddr, TL_PTN, "TRL");
     sAddr = replace(sAddr, TRC_PTN, "TRCE");
     sAddr = replace(sAddr, HW_PTN, "HWY");
-    sAddr = replace(sAddr, CR_PTN, "COUNTY ROAD");
     
-    sAddr = NEAR_PTN.matcher(sAddr).replaceAll("&");
+    if (!sAddr.contains("CUT OFF")) {
+      sAddr = NEAR_PTN.matcher(sAddr).replaceAll("&");
+    }
     return sAddr;
   }
   
@@ -351,7 +358,7 @@ public class SmsMsgInfo {
   
   // Clean up and NB, SB, EB, or WB words
 
-  private static final Pattern DIRBOUND_PAT = Pattern.compile("\\s*\\b(N|S|E|W)B\\b");
+  private static final Pattern DIRBOUND_PAT = Pattern.compile("\\s*\\b(N|S|E|W)B\\b", Pattern.CASE_INSENSITIVE);
   private String cleanBounds(String sAddr) {
     Matcher match = DIRBOUND_PAT.matcher(sAddr);
     return match.replaceAll("").trim();
@@ -360,7 +367,7 @@ public class SmsMsgInfo {
   // Google map isn't found of house numbers mixed with intersections
   // If we find an intersection marker, remove any house numbers
   private static final Pattern HOUSE_RANGE = Pattern.compile("\\b(\\d+)-[A-Z0-9/\\.]+\\b");
-  private static final Pattern HOUSE_NUMBER = Pattern.compile("^ *\\d+ +(?![&/]|(?:AV|AVE|ST)\\b)");
+  private static final Pattern HOUSE_NUMBER = Pattern.compile("^ *\\d+ +(?![&/]|(?:AV|AVE|ST|MILE)\\b)", Pattern.CASE_INSENSITIVE);
   private String cleanHouseNumbers(String sAddress) {
     
     // Start by eliminating any house ranges

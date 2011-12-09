@@ -3553,6 +3553,47 @@ Contact: Ian Zuckerman <izuckerman5632@gmail.com>
 Sender: OC911@co.orange.ny.us
 DEPT37     AD: WEBB RD LOC: BOX 37-10 TIME: 15:21 TYP: STRUCTURE FIRE 2ND ALARM TRANSMITTED FOR VACANT HOUSE FIRE\n\n\n
 **********************************************************
+York County, PA (variant of A/B)
+Contact: "Freistat, Brandon" <brandon.freistat@fairviewfire.net>
+Sender: messaging@iamresponding.com
+
+*FAIRVIEW TWP I83 SB EXIT FISHING CREEK   I 83 SB I 83X36FISHINGCREEK SB VEH ACC INJ CL 2 unk age pt/bleeding from face/unk dest 68-83 FIRESTA68 E68-2 R68  11:36*
+*NEWBERRY TWP    46 MALL RD PRIVET DR / BILL DUGAN DR FIRE STRUCT RESID stove fire reported out still smoking  31-07 FIRESTA31 T31-1 E68-2 T28 T68 TK69 EMSSTA31 MICU31  12:51*
+
+
+*Rip and Run Report
+
+~
+Location Information:
+
+Location:~~I~83~SB/~I~83X36FISHINGCREEK~SB
+~FAIRVIEW TWP
+Cross Streets~
+~68-83
+District:~68-83
+~
+Call Type:~ VEH ACC INJ CL 2
+Caller:~Thompson,~Scott
+Units Sent:~1
+FIRESTA68~*
+
+*Rip and Run Report
+
+~
+Location Information:
+
+Location:~46~MALL~RD~
+~NEWBERRY TWP
+Cross Streets~
+PRIVET DR / BILL DUGAN DR
+~31-07
+District:~31-07
+~
+Call Type:~ FIRE STRUCT RESID
+Caller:~
+Units Sent:~6
+FIRESTA31, TK69, T68, E68-2, T28, T31-1~*
+
 **********************************************************
 **********************************************************
 **********************************************************

@@ -17,14 +17,14 @@ Sender: nefc911@nefc.com
 AUTO (AUTO\nAUTOMOBILE FIRE\n98.5 I95 NB HWY\nNE\nRED TOAD RD\n06/13/11\n14:13:17\nAUTO ON FIRE//CAN SEE FLAMES AND SMOKE\nOPS 6   0495S\n04
 HOUSE (HOU\nHOUSE FIRE\n354 W MAIN ST\nELK\nBLUEBALL AVE\n06/13/11\n19:20:42\nFIRE IN THE STOVE WAS FULLY INVOLVED COULD BE OUT SMOKE IN THE RESIDENCE\nOPS 7
 HOUSE (HOU\nHOUSE FIRE\n122 WHITEHALL RD\nELK\nCHESSMAN CIR\n06/13/11\n15:44:45\nSMOKE FROM BASEMENT//BLACK\nOPS 6   0304\n03\n
- 
+
 */
 
 public class MDNorthEastParser extends FieldProgramParser {
   
   public MDNorthEastParser() {
     super(CITY_CODES, "NORTH EAST", "MD",
-           "CODE CALL ADDR CITY X SKIP SKIP INFO CH UNIT");
+           "CODE CALL ADDR X/Z+? CITY X/Z? DATE TIME INFO CH UNIT");
   }
   
   @Override
@@ -87,6 +87,8 @@ public class MDNorthEastParser extends FieldProgramParser {
   public Field getField(String name) {
     if (name.equals("CODE")) return new MyCodeField();
     if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("DATE")) return new DateField("\\d\\d/\\d\\d/\\d\\d", true);
+    if (name.equals("TIME")) return new TimeField("\\d\\d:\\d\\d:\\d\\d", true);
     if (name.equals("CH")) return new MyChannelField();
     return super.getField(name);
   }

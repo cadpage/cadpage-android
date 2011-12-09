@@ -84,6 +84,12 @@ public class NCForsythCountyParser extends FieldProgramParser {
         fld = fld.substring(0,pt).trim();
       }
       
+      pt = fld.indexOf(",RM ");
+      if (pt >= 0) {
+        data.strApt = fld.substring(pt+4).trim();
+        fld = fld.substring(0,pt).trim();
+      }
+      
       super.parse(fld, data);
       
       // The use FC (Forsythe County) to indicate county roads,

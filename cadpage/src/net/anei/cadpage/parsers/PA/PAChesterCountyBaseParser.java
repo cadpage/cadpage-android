@@ -17,15 +17,23 @@ public class PAChesterCountyBaseParser extends FieldProgramParser {
     
     @Override
     public void parse(String field, Data data) {
-      Parser p = new Parser(field);
-      super.parse(p.get(" - "), data);
-      data.strPlace = p.get();
-      data.strAddress = data.strAddress.replaceAll("\\bLA\\b", "LN");
+      int pt = field.lastIndexOf(',');
+      if (pt >= 0) {
+        data.strCity = field.substring(pt+1).trim();
+        field = field.substring(0,pt).trim();
+      }
+      pt = field.indexOf(" - ");
+      if (pt >= 0) {
+        data.strPlace = field.substring(pt+3).trim();
+        field = field.substring(0,pt).trim();
+      }
+      field = field.replaceAll("\\bLA\\b", "LN");
+      super.parse(field, data);
     }
     
     @Override
     public String getFieldNames() {
-      return "ADDR PLACE";
+      return "ADDR PLACE CITY";
     }
   }
   
