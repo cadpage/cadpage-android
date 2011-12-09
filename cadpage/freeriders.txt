@@ -1,6 +1,7 @@
 
 // List of all users getting free access forever
 $free_rider_list
+%LIFE
 amy972@twcny.rr.com (amyt972@gmail.com)
 Andrew Papp (hvfd830@gmail.com)
 asoders79@gmail.com
@@ -195,6 +196,7 @@ Zach Smith (zachsmith.91142@gmail.com)(bigz1232003@yahoo.com)
 
 // List of users getting credit for 2012
 $paid_2012_list
+%2012
 Christopher Rowland (chrisprowl@gmail.com)(chrisprowl@aol.com) 
 Gerald Bentley (tbentley69@gmail.com) <jtbentley032595@hotmail.com>
 Patrick Hultman (pat.hultman@jocofd1.org)<pat.hultman@jocofd1.org>
@@ -206,6 +208,7 @@ William Walters (lcff791@gmail.com)
 
 // List of users getting credit for 2011
 $paid_2011_list
+%2011
 Adam Gardner (adamemt@charter.net)
 All About Grass (jmiller258@gmail.com)(jmiller258@verizon.net)
 Alex Turner (rmrussia007@gmail.com)(rmrussia@hotmail.com)
@@ -219,7 +222,7 @@ Blake McCloud (blkmccloud@gmail.com)(martinscat@comcast.net)
 Bobby Bridgers <kk4arx@gmail.com> // For Norhampton County, NC
 Bobby Kelly (brimfield149@gmail.com)(bfd149@AOL.com)
 Brad Lust (Bradjlust@gmail.com)
-"Brent Staley" (takabrent@gmail.com)<bstaley@columbus.rr.com>
+Brent Staley (takabrent@gmail.com)<bstaley@columbus.rr.com>
 Brett Lawson (blawson3266@gmail.com)(skrewy@comcast.net)
 Brian Woodley (brock0011@gmail.com)
 Carl Nelson (firstdue@gmail.com)
@@ -286,7 +289,7 @@ Kevin Hogan (hawkeyehogan9886@gmail.com)
 Kevin Hughes (kevinh@bbmas.com)
 KevinM Croffoot (kmcroffoot@gmail.com)(kmcroffoot@yahoo.com)
 kevin absher (kabsher0002@gmail.com)
-"Larry & Elaine Simms" <lesimms@gmail.com>
+Larry & Elaine Simms <lesimms@gmail.com>
 Larry Morrow (bustnfire@aol.com)
 Laura Eaton (alightwenton@gmail.com)(alightwenton@aol.com)
 Lawrence Faughnan (ljf131@gmail.com)
@@ -359,6 +362,7 @@ William Yoder (actionlimo3910@gmail.com)(actionlimo@hotmail.com)
 zwelch85@gmail.com
 
 // Guilford County Paid
+%2011/Guilford County
 Guilford County 911 (GCES.C1150@gmail.com)
 Guilford County 911 (GCES1501@gmail.com)
 Guilford County 911 (GCES.EM02@gmail.com)
@@ -381,128 +385,129 @@ Guilford County 911 (GCES.C1350@gmail.com)
 Guilford County 911 (GCES.C1450@gmail.com)
 
 // Unpaid users
-//pedro saldanha (psaldanha3115@gmail.com)
-//Christina Kenny (tuwhada@gmail.com)
-//David Roach (roach556@gmail.com)(dr2403@email.vccs.edu)
-//mastclinton@aim.com (mastclinton@gmail.com)(mastclinton@aim.com)
-//Matthew Erd (firefighter1991@gmail.com)
-//Jesse Moses (jmm2140@gmail.com)
-//J Kunch (joshkunch@gmail.com)(joshkunch@msn.com)
-//"Donna Struntz" (donnastruntz@gmail.com)(donnastruntz@atlanticbb.net)
-//bert jensen (bertwjensen@gmail.com)
-//chris casapulla (chib32394@gmail.com)
-//gary saraceni (firefox19002@gmail.c)
-//Robert Fair (rfair82@gmail.com)
-//Suzanne Owens (slowens1212@gmail.com)<SOwens@piercetownship.org>
-//Amy Smith <ucfireema@gmail.com>
-//Christopher Williams (cwilliams5601@gmail.com)
-//Jeremy (crashandburn6745@gmail.com)<crashandburn6745@msn.com>
-//Brandon Michael Nelson <bnelson2735@gmail.com>
-//Frank Sulzer <franksulzer594@gmail.com>
-//Ryan Payer <ryan.payer3@gmail.com>
-//spazking4lif@aim.com (spazking4lif@gmail.com)
-//Blake DiSalvo <bdisalvo75@gmail.com>
-//"mrrsqu@aol.com" (mrrsqu@gmail.com)<mrrsqu@aol.com>
-//"chrisgrzegorczyk@hotmail.com" (cgrzegorczyk@mobilemedical.org)<chrisgrzegorczyk@hotmail.com>
-//Brittany Wampler <babygatoremt23@gmail.com>
-//Mike Siciliano <mjsras02@gmail.com>
-//Ian Williams <engine9company@gmail.com>
-//Cameron Allred <callred0321@gmail.com>
-//Doug Gelsleichter <doug.gelsleichter@gmail.com>
-//Joseph Yarber <yarberj@gmail.com>
-//Jordan Rogers <jrw7zb@gmail.com>
-//"spazking4lif@aim.com" (spazking4lif@gmail.com)<spazking4lif@aim.com>
-//kevin head <headly1531@gmail.com>
-//Nathan Wood <nlwood85876@gmail.com>
-//"skj1979452@sbcglobal.net" (ska1979452@gmail.com)<skj1979452@sbcglobal.net>
-//Ashley Fletcher <tfd531@gmail.com>
-//Marcus Barker <barker647@gmail.com>
-//Matthew Whiting <firefighter015@gmail.com>
-//Lauran Whiting <emschick025@gmail.com>
-//"Shawn" (sdcodesman@gmail.com)<codesman@ptd.net>
-//"pjblmb12@aol.com" (pbocny911@gmail.com)<pjblmb12@aol.com>
-//"W. A. Mullins" <wesamullins@gmail.com>
-//Michael Carosi <mcarosi50@gmail.com>
-//Grace Roloson <grace.roloson@gmail.com>
-//"Charles R. Barker" <charlie.barker56@gmail.com>
-//Shawn Collins <cfcinstallations@gmail.com>
-//Anthony Whetzel <awhetzel90@gmail.com>
-//K Kenny <kkenyy51@gmail.com>
-//Chris Coone <chris5620.cc@gmail.com>
-//WYNTON WOODSON <notnyw10@gmail.com>
-//"polarisrider290" <polarisrider290@gmail.com>
-//Richie Nye <rnye247@gmail.com>
-//"Murphy, Ray" (firefighter38.rm@gmail.com)<rmurphy@huntersvillefd.com>
-//gerald weaver (traumaresq51@gmail.com)<traumaresq51@yahoo.com>
-//J Hatfield <hatfielj@gmail.com>
-//Brad Myers (bradmyers1981@gmail.com)<bradmyers99@gmail.com>
-//tephen Durgin <durginsj@gmail.com>
-//"lfd219@verizon.net"(lfd219@gmail.com)<lfd219@verizon.net>
-//"Budd, Christopher" (cbudd414@gmail.com)<cbudd@mobilemedical.org>
-//scot mclean <stm250@gmail.com>
-//sam miller <millersam83@gmail.com>
-//Richie Peugeot <mysteryelmo@gmail.com>
-//Chris Traub (wfdff239@gmail.com)<wfdff239@gmail.com>
-//Adam Weitzel <aweitzel85@gmail.com>
-//Matt Hoffman (matthoffman2013@gmail.com)<matthoffman2013@yahoo.com>
-//H <zack.billie@gmail.com>
-//james tuttle <kingtut919@gmail.com>
-//Chris Colvin <tazefd@gmail.com>
-//Kenneth Gosnell <ki4rdl@gmail.com>
-//Jason Lesich <evfc41@gmail.com>
-//Neil (cope.neil@gmail.com)<neilc15438@yahoo.com>
-//amie eichhorn <ethensmommy@gmail.com>
-//Ryan Sandberg (ryerarero@gmail.com)<ryerarero@yahoo.com>
-//Richard Brosky <richbrosky34@gmail.com>
-//Pennell Jester <pennjester911@gmail.com>
-//"johnresino@yahoo.com" (johnresinobata@gmail.com)<johnresino@yahoo.com>
-//"tacrvcfd1212@aol.com" (tdog44110@gmail.com)<tacrvcfd1212@aol.com>
-//Jim Lasley <ffjim21@gmail.com>
-//"Posch, Bradley" (posch1bc@gmail.com)<bposch@mobilemedical.org>
-//Patrick Bower <cesrunner@gmail.com>
-//Kevin Johnson (kjohnson6169@gmail.com)<locke6169@yahoo.com>
-//Roy Gibbs <boham29@gmail.com>
-//Jake Parrish <sfd1044@gmail.com>
-//Shaun Coon (snowboardshaun@gmail.com)<snowboardshaun@optimum.net>
-//DWAYNE HASSETT <dwaynehassett@gmail.com>
-//Kyle Orndorf <orndorf105059@gmail.com>
-//Christina Palmer <cfpalmer.cp@gmail.com>
-//Derrick Parady <derrickparady@gmail.com>
-//Angela Tart <mrstart1433@gmail.com>
-//Zack Wells <ffwells70@gmail.com>
-//Kristopher Gassman (kgassman73@gmail.com)<kgassman73@yahoo.com>
-//wayne lucas <waynelucas89@gmail.com>
-//David Crandall <dcrandall2481@gmail.com>
-//"s_toia@comcast.net" (rvfd44@gmail.com)<s_toia@comcast.net>
-//Todd Pangle <tpangle10@gmail.com>
-//Dana Peterson <firebug1978@gmail.com>
-//Shawn Sible <firefighter0129@gmail.com>
-//Brandon Cockerham (brandoncockerham@gmail.com)<brandon.cockerham@yahoo.com>
-//Derek Waddell <derekmwaddell@gmail.com>
-//"jdonahue10320@hotmail.com" (jimdonahue3@gmail.com)<jdonahue10320@hotmail.com>
-//Hunter Rowzie <hrowzie@gmail.com>
-//Mitchell Karr <karr.mitchell@gmail.com>
-//dana may <tndmayfor88@gmail.com>
-//Jason Funk <jasonfunk1708@gmail.com>
-//David DiRienzo <ddirienzo272@gmail.com>
-//Bruce Cathcart <budweiser9818@gmail.com>
-//"markgialanella@yahoo.com" (mgialane@binghamton.edu)<markgialanella@yahoo.com>
-//tom may <fftmay70@gmail.com>
-//Mason Cobb <mason.cobb94@gmail.com>
-//Kenny Allison (rescue4746@gmail.com)<sniperking823@yahoo.com>
-//Michael Jones (nhfd189@gmail.com)<nhfd189@yahoo.com>
-//John Scraper <firefighter0145@gmail.com>
-//"allstarhunt44@aol.com" (rhunt237@gmail.com)<allstarhunt44@aol.com>
-//Brian Finger <rottdawg@gmail.com>
-//Kyle Larson <gruesomekyle@gmail.com>
-//Brittany Morlan <addismom.bm@gmail.com>
-//Timmy Mawyer <timmymawyer@gmail.com>
-//Kevin Kenny <kkenny51@gmail.com>
-//Joey Earp <joey.earp@gmail.com>
-//josh sgro (lvl1traumajunkie@gmail.com)<lvl1traumajunkie@gmail.com>
-//Lance Stuart (lancemike96@gmail.com)<lance_stuart420@yahoo.com>
-//Edward Davis (lazyed22@gmail.com)<lazyed22@yahoo.com>
-//Amy (huntamy2005@gmail.com)<herberal@yahoo.com>
+%2011/FREE
+>>pedro saldanha (psaldanha3115@gmail.com)
+>>Christina Kenny (tuwhada@gmail.com)
+>>David Roach (roach556@gmail.com)(dr2403@email.vccs.edu)
+>>mastclinton@aim.com (mastclinton@gmail.com)(mastclinton@aim.com)
+>>Matthew Erd (firefighter1991@gmail.com)
+>>Jesse Moses (jmm2140@gmail.com)
+>>J Kunch (joshkunch@gmail.com)(joshkunch@msn.com)
+>>Donna Struntz (donnastruntz@gmail.com)(donnastruntz@atlanticbb.net)
+>>bert jensen (bertwjensen@gmail.com)
+>>chris casapulla (chib32394@gmail.com)
+>>gary saraceni (firefox19002@gmail.c)
+>>Robert Fair (rfair82@gmail.com)
+>>Suzanne Owens (slowens1212@gmail.com)<SOwens@piercetownship.org>
+>>Amy Smith <ucfireema@gmail.com>
+>>Christopher Williams (cwilliams5601@gmail.com)
+>>Jeremy (crashandburn6745@gmail.com)<crashandburn6745@msn.com>
+>>Brandon Michael Nelson <bnelson2735@gmail.com>
+>>Frank Sulzer <franksulzer594@gmail.com>
+>>Ryan Payer <ryan.payer3@gmail.com>
+>>spazking4lif@aim.com (spazking4lif@gmail.com)
+>>Blake DiSalvo <bdisalvo75@gmail.com>
+>>mrrsqu@aol.com (mrrsqu@gmail.com)<mrrsqu@aol.com>
+>>chrisgrzegorczyk@hotmail.com (cgrzegorczyk@mobilemedical.org)<chrisgrzegorczyk@hotmail.com>
+>>Brittany Wampler <babygatoremt23@gmail.com>
+>>Mike Siciliano <mjsras02@gmail.com>
+>>Ian Williams <engine9company@gmail.com>
+>>Cameron Allred <callred0321@gmail.com>
+>>Doug Gelsleichter <doug.gelsleichter@gmail.com>
+>>Joseph Yarber <yarberj@gmail.com>
+>>Jordan Rogers <jrw7zb@gmail.com>
+>>spazking4lif@aim.com (spazking4lif@gmail.com)<spazking4lif@aim.com>
+>>kevin head <headly1531@gmail.com>
+>>Nathan Wood <nlwood85876@gmail.com>
+>>skj1979452@sbcglobal.net (ska1979452@gmail.com)<skj1979452@sbcglobal.net>
+>>Ashley Fletcher <tfd531@gmail.com>
+>>Marcus Barker <barker647@gmail.com>
+>>Matthew Whiting <firefighter015@gmail.com>
+>>Lauran Whiting <emschick025@gmail.com>
+>>Shawn (sdcodesman@gmail.com)<codesman@ptd.net>
+>>pjblmb12@aol.com (pbocny911@gmail.com)<pjblmb12@aol.com>
+>>W. A. Mullins <wesamullins@gmail.com>
+>>Michael Carosi <mcarosi50@gmail.com>
+>>Grace Roloson <grace.roloson@gmail.com>
+>>Charles R. Barker <charlie.barker56@gmail.com>
+>>Shawn Collins <cfcinstallations@gmail.com>
+>>Anthony Whetzel <awhetzel90@gmail.com>
+>>K Kenny <kkenyy51@gmail.com>
+>>Chris Coone <chris5620.cc@gmail.com>
+>>WYNTON WOODSON <notnyw10@gmail.com>
+>>polarisrider290 <polarisrider290@gmail.com>
+>>Richie Nye <rnye247@gmail.com>
+>>Murphy, Ray (firefighter38.rm@gmail.com)<rmurphy@huntersvillefd.com>
+>>gerald weaver (traumaresq51@gmail.com)<traumaresq51@yahoo.com>
+>>J Hatfield <hatfielj@gmail.com>
+>>Brad Myers (bradmyers1981@gmail.com)<bradmyers99@gmail.com>
+>>tephen Durgin <durginsj@gmail.com>
+>>lfd219@verizon.net(lfd219@gmail.com)<lfd219@verizon.net>
+>>Budd, Christopher (cbudd414@gmail.com)<cbudd@mobilemedical.org>
+>>scot mclean <stm250@gmail.com>
+>>sam miller <millersam83@gmail.com>
+>>Richie Peugeot <mysteryelmo@gmail.com>
+>>Chris Traub (wfdff239@gmail.com)<wfdff239@gmail.com>
+>>Adam Weitzel <aweitzel85@gmail.com>
+>>Matt Hoffman (matthoffman2013@gmail.com)<matthoffman2013@yahoo.com>
+>>H <zack.billie@gmail.com>
+>>james tuttle <kingtut919@gmail.com>
+>>Chris Colvin <tazefd@gmail.com>
+>>Kenneth Gosnell <ki4rdl@gmail.com>
+>>Jason Lesich <evfc41@gmail.com>
+>>Neil (cope.neil@gmail.com)<neilc15438@yahoo.com>
+>>amie eichhorn <ethensmommy@gmail.com>
+>>Ryan Sandberg (ryerarero@gmail.com)<ryerarero@yahoo.com>
+>>Richard Brosky <richbrosky34@gmail.com>
+>>Pennell Jester <pennjester911@gmail.com>
+>>johnresino@yahoo.com (johnresinobata@gmail.com)<johnresino@yahoo.com>
+>>tacrvcfd1212@aol.com (tdog44110@gmail.com)<tacrvcfd1212@aol.com>
+>>Jim Lasley <ffjim21@gmail.com>
+>>Posch, Bradley (posch1bc@gmail.com)<bposch@mobilemedical.org>
+>>Patrick Bower <cesrunner@gmail.com>
+>>Kevin Johnson (kjohnson6169@gmail.com)<locke6169@yahoo.com>
+>>Roy Gibbs <boham29@gmail.com>
+>>Jake Parrish <sfd1044@gmail.com>
+>>Shaun Coon (snowboardshaun@gmail.com)<snowboardshaun@optimum.net>
+>>DWAYNE HASSETT <dwaynehassett@gmail.com>
+>>Kyle Orndorf <orndorf105059@gmail.com>
+>>Christina Palmer <cfpalmer.cp@gmail.com>
+>>Derrick Parady <derrickparady@gmail.com>
+>>Angela Tart <mrstart1433@gmail.com>
+>>Zack Wells <ffwells70@gmail.com>
+>>Kristopher Gassman (kgassman73@gmail.com)<kgassman73@yahoo.com>
+>>wayne lucas <waynelucas89@gmail.com>
+>>David Crandall <dcrandall2481@gmail.com>
+>>s_toia@comcast.net (rvfd44@gmail.com)<s_toia@comcast.net>
+>>Todd Pangle <tpangle10@gmail.com>
+>>Dana Peterson <firebug1978@gmail.com>
+>>Shawn Sible <firefighter0129@gmail.com>
+>>Brandon Cockerham (brandoncockerham@gmail.com)<brandon.cockerham@yahoo.com>
+>>Derek Waddell <derekmwaddell@gmail.com>
+>>jdonahue10320@hotmail.com (jimdonahue3@gmail.com)<jdonahue10320@hotmail.com>
+>>Hunter Rowzie <hrowzie@gmail.com>
+>>Mitchell Karr <karr.mitchell@gmail.com>
+>>dana may <tndmayfor88@gmail.com>
+>>Jason Funk <jasonfunk1708@gmail.com>
+>>David DiRienzo <ddirienzo272@gmail.com>
+>>Bruce Cathcart <budweiser9818@gmail.com>
+>>markgialanella@yahoo.com (mgialane@binghamton.edu)<markgialanella@yahoo.com>
+>>tom may <fftmay70@gmail.com>
+>>Mason Cobb <mason.cobb94@gmail.com>
+>>Kenny Allison (rescue4746@gmail.com)<sniperking823@yahoo.com>
+>>Michael Jones (nhfd189@gmail.com)<nhfd189@yahoo.com>
+>>John Scraper <firefighter0145@gmail.com>
+>>allstarhunt44@aol.com (rhunt237@gmail.com)<allstarhunt44@aol.com>
+>>Brian Finger <rottdawg@gmail.com>
+>>Kyle Larson <gruesomekyle@gmail.com>
+>>Brittany Morlan <addismom.bm@gmail.com>
+>>Timmy Mawyer <timmymawyer@gmail.com>
+>>Kevin Kenny <kkenny51@gmail.com>
+>>Joey Earp <joey.earp@gmail.com>
+>>josh sgro (lvl1traumajunkie@gmail.com)<lvl1traumajunkie@gmail.com>
+>>Lance Stuart (lancemike96@gmail.com)<lance_stuart420@yahoo.com>
+>>Edward Davis (lazyed22@gmail.com)<lazyed22@yahoo.com>
+>>Amy (huntamy2005@gmail.com)<herberal@yahoo.com>
 Brandon Zerman <brandonz723@gmail.com>
 Rachael Robertson <rachieroo05@gmail.com>
 Steven Westfall <firefighter0146@gmail.com>
@@ -510,14 +515,14 @@ Christopher Botkin <botkincs@gmail.com>
 David <dkreimer13@gmail.com>
 Jennifer Dawson <jenniferdawson78@gmail.com>
 Chris Delancey <chrisdel1982@gmail.com>
-"B.mcclamrock" (lashpoint4345@gmail.com)<flashpoint4345@yahoo.com>
+B.mcclamrock (lashpoint4345@gmail.com)<flashpoint4345@yahoo.com>
 Brent Scott <brentscott69@gmail.com>
 Alexander Ingalls <alexingalls09@gmail.com>
-"Williams Don" (hotmedic34@gmail.com)<DWilliams@mckasd.net>
+Williams Don (hotmedic34@gmail.com)<DWilliams@mckasd.net>
 Justin Sechriest (justinsechriest@gmail.com)<justinsechriest@gmail.com>
 cody mccarraher <cjmack2010@gmail.com>
 Chris Eddlemon <chriseddlemon406@gmail.com>
-"inque74@hotmail.com" (inque74@gmail.com)<inque74@hotmail.com>
+inque74@hotmail.com (inque74@gmail.com)<inque74@hotmail.com>
 Larry Zamora <lbzamora94@gmail.com>
 Randy Haylock <redneck8621@gmail.com>
 Brandon Josey (pcfd1149@gmail.com)<bjosey@pumpkincenterfd.com>
@@ -540,10 +545,10 @@ Chris Dambly <cbdambly@gmail.com>
 Jim Stewart (jstewart2402@gmail.com)<jstewart2402@yahoo.com>
 Chris Taylor (croftfd40@gmail.com)<croftfd_21@yahoo.com>
 Alicia Schall <emtxchick06@gmail.com>
-"Kim Collier" (pathofaith@gmail.com)<KCollier@wbems.org>
+Kim Collier (pathofaith@gmail.com)<KCollier@wbems.org>
 Kevin (rodggang@gmail.com)<rodggang@iowatelecom.net>
 brian miller <bm.millerlt44@gmail.com>
-"toddbvfc@aol.com" (toddbvfc@gmail.com)<toddbvfc@aol.com>
+toddbvfc@aol.com (toddbvfc@gmail.com)<toddbvfc@aol.com>
 Jennifer Hood <jlhood64@gmail.com>
 Casey Shipman <caseyshipman71@gmail.com>
 Lisa Weiher <laweiher2@gmail.com>
@@ -559,15 +564,15 @@ Matt Culberson <hazzmatt6@gmail.com>
 atkinson3084 <atkinson3084@gmail.com>
 Harry Parish <sfd965@gmail.com>
 Corey Gravley <satelliteconnection2010@gmail.com>
-"Chief O'Dell" (leeodell99@gmail.com)<leeodell@woodheightsfire.com>
-"e_custead@msn.com" (e.custead@gmail.com)<e_custead@msn.com>
+Chief O'Dell (leeodell99@gmail.com)<leeodell@woodheightsfire.com>
+e_custead@msn.com (e.custead@gmail.com)<e_custead@msn.com>
 desiree rudbart <drudbart@gmail.com>
-"steve-lynn@live.com" (wncvending@gmail.com)<steve-lynn@live.com>
-"big42dog@comcast.net" (big42dog@gmail.com)<big42dog@comcast.net>
+steve-lynn@live.com (wncvending@gmail.com)<steve-lynn@live.com>
+big42dog@comcast.net (big42dog@gmail.com)<big42dog@comcast.net>
 James Hodgskin <jameshodgskin@gmail.com>
 ajblack777 <ajblack777@gmail.com>
 casey tipton <fire526@gmail.com>
-"wcsfootball75@hotmail.com" (jwaufle75@gmail.com)<wcsfootball75@hotmail.com>
+wcsfootball75@hotmail.com (jwaufle75@gmail.com)<wcsfootball75@hotmail.com>
 Steven Bristow <sbristow13@gmail.com>
 Bret Milam (milam.bret6451@gmail.com)<theultimateone51@yahoo.com>
 eric gardner <egardne1@gmail.com>
@@ -576,28 +581,28 @@ Robert Martone Jr <rmartone46@gmail.com>
 Matt Reitmeier <mcreitme@gmail.com>
 mark marino <markmarino26@gmail.com>
 Erick Babst <amunndo@gmail.com>
-"tsalmon89" (tsalmon16@gmail.com)<tsalmon89@yahoo.com>
+tsalmon89 (tsalmon16@gmail.com)<tsalmon89@yahoo.com>
 Andrew Peeler <ampeeler32@gmail.com>
 Kevin (ksalzman4@gmail.com)<ksalz1970@yahoo.com>
-"codymasters325@gmail.com" <codymasters325@gmail.com>
-"auntanya@nc.rr.com" (auntanya22@gmail.com)<auntanya@nc.rr.com>
+codymasters325@gmail.com <codymasters325@gmail.com>
+auntanya@nc.rr.com (auntanya22@gmail.com)<auntanya@nc.rr.com>
 Ryan Hines <ryanhines.1@gmail.com>
 Frank Gardner (gardnerfrank787@gmail.com)<gardnerfrank@comcast.net>
 chris tansey <christansey343@gmail.com>
 Michael Vaughan <southhillfire736@gmail.com>
 lcoppelman (lcoppelman508@gmail.com)<lcoppelman@yahoo.com>
-"jrff135@yahoo.com" (jrichards1351@gmail.com)<jrff135@yahoo.com>
-"drudbart@aol.com" (drudbart@gmail.com)<drudbart@aol.com>
+jrff135@yahoo.com (jrichards1351@gmail.com)<jrff135@yahoo.com>
+drudbart@aol.com (drudbart@gmail.com)<drudbart@aol.com>
 James Stephenson <usamp4you@gmail.com>
 Randy Sicher <randysicher@gmail.com>
 Melissa Trinka <mysweetpassions@gmail.com>
-"Bryan Rogoff" (skippy7686@gmail.com)<brogoff@bellmorefd.com>
+Bryan Rogoff (skippy7686@gmail.com)<brogoff@bellmorefd.com>
 Eric Proctor <firediver509@gmail.com>
-"Jeffrey Price " (thomasprice1998@gmail.com)<bx21706@hotmail.com>
+Jeffrey Price  (thomasprice1998@gmail.com)<bx21706@hotmail.com>
 Ethan Windsor <ewindsor0122@gmail.com>
-"trent042405@msn.com" (trent0424@gmail.com)<trent042405@msn.com>
-"lilloganmaples@msn.com" (loganmaples2408@gmail.com)<lilloganmaples@msn.com>
-"camcar91@yahoo.com" (camcar91@gmail.com)<camcar91@yahoo.com>
+trent042405@msn.com (trent0424@gmail.com)<trent042405@msn.com>
+lilloganmaples@msn.com (loganmaples2408@gmail.com)<lilloganmaples@msn.com>
+camcar91@yahoo.com (camcar91@gmail.com)<camcar91@yahoo.com>
 Ken Long <pennstate026@gmail.com>
 Steven Bristow <sbristow13@gmail.com>
 Rod Ault (rodneyjault@gmail.com)<ff26emt@yahoo.com>
@@ -620,7 +625,7 @@ Nate Osborne <n82336@gmail.com>
 gary rictor <gricsr225@gmail.com>
 heath hallead <hhallead@gmail.com>
 Tim McCawley <timmccawley920@gmail.com>
-"Rick Atwood" (mfddpw01@gmail.com)<richardatwood77@yahoo.com>
+Rick Atwood (mfddpw01@gmail.com)<richardatwood77@yahoo.com>
 April Langan <aprillangan@gmail.com>
 kyle peters <whacker86@gmail.com>
 Kaleb Staley <kalebstaley@gmail.com>
@@ -630,10 +635,10 @@ Justin Fisher (justin62911@gmail.com)<justin62911@comcast.net>
 Michael Pinkney <mpick4040@gmail.com>
 jt naviglia <jrnaviglia@gmail.com>
 Joseph Jarman <jarmanjoseph59@gmail.com>
-"Darin" (cubby7232@gmail.com)<cubby7272@yahoo.com>
+Darin (cubby7232@gmail.com)<cubby7272@yahoo.com>
 Terry Culligan <tculligan207@gmail.com>
 Thomas Filo (filoiv@gmail.com)<thfilo@lowerkiskiems.org>
-"tauris45@yahoo.com" (tauris45@gmail.com)<tauris45@yahoo.com>
+tauris45@yahoo.com (tauris45@gmail.com)<tauris45@yahoo.com>
 Henry Hennings <myofb23@gmail.com>
 Brian Parker <bparkernhfd@gmail.com>
 trey yarbrough <yff5756@gmail.com>
@@ -642,14 +647,14 @@ Chris Ayers <chrispy39@gmail.com>
 Rod Ault (rodneyjault@gmail.com)<ff26emt@yahoo.com>
 Jimmy Kelly (jmmyquad@gmail.com)<jmmyquad@yahoo.com>
 Tina (kkelly827@gmail.com)<jtkelly@zoominternet.net>
-"pinenutsmommy@yahoo.com" (pinenutsmommy@gmail.com)<pinenutsmommy@yahoo.com>
+pinenutsmommy@yahoo.com (pinenutsmommy@gmail.com)<pinenutsmommy@yahoo.com>
 Scott Marks <pafirepd@gmail.com>
 Michael Stepp <steppmic@gmail.com>
 Kevin mcguire <lieutenant1392@gmail.com>
 Alex McDonald <ajmcdonald66@gmail.com>
-"Bradley T. Hinton"(b.t.hinton@gmail.com) <brad.hinton@duke.edu>
+Bradley T. Hinton(b.t.hinton@gmail.com) <brad.hinton@duke.edu>
 Edward Solomon <rescueman140@gmail.com>
-"Hames, Brian P." (darkknight41886@gmail.com)<bhames@frederickcountymd.gov>
+Hames, Brian P. (darkknight41886@gmail.com)<bhames@frederickcountymd.gov>
 Alexis Murphy (brynn.fd9@gmail.com)<good.girl940@yahoo.com>
 Nick DiPaolo <gottabekd2@gmail.com>
 Steven Trugman <srttaz90@gmail.com>
@@ -658,11 +663,11 @@ Brandon Donner (bdonner30@gmail.com)<brandon.donner@yahoo.com>
 jeffrey swart <jaswart92@gmail.com>
 Steven Soblosky <ffemtsobie@gmail.com>
 Cody Tweedy (twhhighlander83@gmail.com)<twhhighlander83@hotmail.com>
-"firemedic1138@aol.com" (pastorbryan.bb@gmail.com)f<iremedic1138@aol.com>
+firemedic1138@aol.com (pastorbryan.bb@gmail.com)f<iremedic1138@aol.com>
 Trudy Rutkowski <trudyrutk@gmail.com>
-"Ashley" (ashley2overcash@gmail.com)<overcashan@rss.k12.nc.us>
+Ashley (ashley2overcash@gmail.com)<overcashan@rss.k12.nc.us>
 Lori Roseman <rosemanfam5@gmail.com>
-"NEIL MATHEWS" (nem9082@gmail.com)<nem9082@rit.edu>
+NEIL MATHEWS (nem9082@gmail.com)<nem9082@rit.edu>
 christa hoover <indybug20@gmail.com>
 Mike Peski (miko1587@gmail.com)<emtpeski@gmail.com>
 chris smith (csmith2400@gmail.com)<csmith045@verizon.net>
@@ -678,11 +683,11 @@ Jimmy Kelly (jmmyquad@gmail.com)<jmmyquad@yahoo.com>
 dennis mcwilliams (flydmack@gmail.com)<dennymack2002@yahoo.com>
 jon turcotte <tomahawk1974@gmail.com>
 Stosh Sitkowski <stosh009@gmail.com>
-"Jonathan S. Rado" (knightsgk01@gmail.com)<jsr208@lehigh.edu>
+Jonathan S. Rado (knightsgk01@gmail.com)<jsr208@lehigh.edu>
 Nick Stein <snickphotos@gmail.com>
 Angelina Kovach <ackovach88@gmail.com>
 TJ Farrance <tjfarrance@gmail.com>
-"tmcarroll" (tresemt71@gmail.com)<tmcarroll@frontiernet.net>
+tmcarroll (tresemt71@gmail.com)<tmcarroll@frontiernet.net>
 Michael Haupt <haupts3183@gmail.com>
 Brian Stewart <jbspriteh639@gmail.com>
 John Allshouse (jallshouse69@gmail.com)<swampy_812@yahoo.com>
@@ -694,12 +699,12 @@ Jason (jas35073@gmail.com)<jas35073@yahoo.com>
 Garrett Sagraves (sagraves08@gmail.com)<rescue2389@aol.com>
 Matthew Boyce <aggrosk8er951@gmail.com>
 Rick Vogt <socalbc@gmail.com>
-"Madden, Paul" (paul.madden.02@gmail.com)<pmadden@mobilemedical.org>
+Madden, Paul (paul.madden.02@gmail.com)<pmadden@mobilemedical.org>
 Joshua Morton <joshua.morton.jm@gmail.com>
 Donald Hymer (dwhymer@gmail.com)<donaldhymer@aol.com>
-"Jack Ryan-Ackerman" (yanksrox101@gmail.com)<jackra92@gmail.com>
+Jack Ryan-Ackerman (yanksrox101@gmail.com)<jackra92@gmail.com>
 Bruce LaMonica <blamonicamarketing@gmail.com>
-"emt18829@comcast.net" (emt1192@gmail.com)<emt18829@comcast.net>
+emt18829@comcast.net (emt1192@gmail.com)<emt18829@comcast.net>
 Lori Roseman <rosemanfam5@gmail.com>
 Robert Sanfilippo <nysemt357@gmail.com>
 Justin Galvan <jgalvan82.jg@gmail.com>
@@ -710,7 +715,7 @@ Keith Autry <heavyrescue4@gmail.com>
 Justin Alter <jalter639@gmail.com>
 Thomas Homenchak <thomenchak@gmail.com>
 Lance Adam <firefighter40@gmail.com>
-"Wilson, Ryan" <rwilson@huntersvillefd.com>
+Wilson, Ryan <rwilson@huntersvillefd.com>
 buddy vangelof <budsterv@gmail.com>
 Maureen White <mlwhite94@gmail.com>
 Christoher Farnsworth <firefighterfarnsworth@gmail.com>
@@ -725,20 +730,20 @@ Bryan Murray (badwolf7615@gmail.com)<bmurray@sussexcountyde.gov>
 Christopher Winters <cwinters418@gmail.com>
 Brady Holder <aguybradyis@gmail.com>
 daniel garretto <djgarretto@gmail.com>
-"Pluta, Jim" (jimpluta@gmail.com)<jpluta@olv-bvs.org>
+Pluta, Jim (jimpluta@gmail.com)<jpluta@olv-bvs.org>
 Lori Roseman <rosemanfam5@gmail.com>
 Richard Clagett <rhclagett@gmail.com>
 Austin Lee (austinlee9691@gmail.com)<austin.lee@student.rcsnc.org>
 jeremy sexton <jeremy80xx@gmail.com>
 james bennett (bcfpd102@gmail.com)<budah4276@yahoo.com>
-"MEDIC70736@AOL.COM" (medic70736@gmail.com)<MEDIC70736@aol.com>
+MEDIC70736@AOL.COM (medic70736@gmail.com)<MEDIC70736@aol.com>
 Joel Allman <firewacker56@gmail.com>
 Chris Spencer <cspenc17@gmail.com>
 Paul Lilley <paullilley78@gmail.com>
 Michael Pflughoeft <mpflughoeft23@gmail.com>
 Richard Childers (sta2fire88@gmail.com)<st.michaelsrv@yahoo.com>
 Drew B (dbrenner09@gmail.com)<drew0000@yahoo.com>
-"rgmanley104@gmail.com" <rgmanley104@gmail.com>
+rgmanley104@gmail.com <rgmanley104@gmail.com>
 Jennifer Mueller <muellerja8@gmail.com>
 Christopher Grace Jr <cgracejr@gmail.com>
 Shawn Ramsey (mpsguard@gmail.com)<shawn@etd-squad.com>
@@ -749,20 +754,20 @@ Paul Craft <crafty44@gmail.com>
 Aaron Driscoll <aarondrisccoll90@gmail.com>
 Jonathan Dalrymple <jld1820@gmail.com>
 Charles Woodland <lollipopjuggs@gmail.com>
-"firebug99@yahoo.com" (firebug411@gmail.com)<firebug99@yahoo.com>
+firebug99@yahoo.com (firebug411@gmail.com)<firebug99@yahoo.com>
 Ben Moisio (ladder1320@gmail.com)<ladder1320@gmail.com>
-"jessflemingphotography@msn.com" (jessflemingphotography74@gmail.com)<jessflemingphotography@msn.com>
+jessflemingphotography@msn.com (jessflemingphotography74@gmail.com)<jessflemingphotography@msn.com>
 ChapelOaksJunkie <shortfireman38@gmail.com>
 Chad Kelly <firefighterkelly@gmail.com>
 Cody Grasty <kiomagali@gmail.com>
 john aiello jr <bigdawg2633@gmail.com>
 thomas Cassidy (thomascassidy11@gmail.com)<thomascassidy73@yahoo.com>
 (alanm501@gmail.com) amalesky@charter.net
-"e_dobrini@yahoo.com" (ericdobrini@gmail.com)<e_dobrini@yahoo.com>
+e_dobrini@yahoo.com (ericdobrini@gmail.com)<e_dobrini@yahoo.com>
 James Majewski <j.majewski149@gmail.com>
-"Dirtyjeeper96@aol.com kar1996" <dirtyjeeper96@gmail.com>
+Dirtyjeeper96@aol.com kar1996 <dirtyjeeper96@gmail.com>
 Dustin Whetzel <contryboy65@gmail.com>
-"ajr0103@hotmail.com" (andrew.randazzo321@gmail.com)<ajr0103@hotmail.com>
+ajr0103@hotmail.com (andrew.randazzo321@gmail.com)<ajr0103@hotmail.com>
 Erik Modrzynski <erikmodrzynski@gmail.com>
 Jonathan Mitchell <jonmitchell93@gmail.com>
 Troy Cagle <trockofpain47@gmail.com>
@@ -776,8 +781,8 @@ norman fisher <normanjfisher08@gmail.com>
 Randy Young <ryoung8507@gmail.com>
 David Liddil <dvliddil@yahoo.com>
 paul delp <pdiesel2227@gmail.com>
-"Clayton Murray" (flpanthrfan@gmail.com)<alltrimmedout@rocketmail.com>
-"smlblck66@hotmail.com" (smlblck66@gmail.com)<smlblck66@hotmail.com>
+Clayton Murray (flpanthrfan@gmail.com)<alltrimmedout@rocketmail.com>
+smlblck66@hotmail.com (smlblck66@gmail.com)<smlblck66@hotmail.com>
 Allen OHara (allenohara33@gmail.com)<allenohara33@yahoo.com>
 Bryan Brewer <fyremanbrewer@gmail.com>
 timchevy07 <timchevy07@gmail.com>
@@ -785,8 +790,8 @@ Dustin Brace <dustin.brace@gmail.com>
 Brent Scott <symmesworker@gmail.com>
 Jackie Bush <makersclay@gmail.com>
 Joe Robinson <joecrochrocket@gmail.com>
-"Farrer, Noah" (nfarrer1077@gmail.com)<nfarrer@mobilemedical.org>
-"chris6752@hotmail.com" (chris6752@gmail.com)<chris6752@hotmail.com>
+Farrer, Noah (nfarrer1077@gmail.com)<nfarrer@mobilemedical.org>
+chris6752@hotmail.com (chris6752@gmail.com)<chris6752@hotmail.com>
 Marcia Stepek <mastepek@gmail.com>
 Rob Arnold <widgget77@gmail.com>
 Larry Biehler <lbiehler528@gmail.com>
@@ -803,18 +808,21 @@ Chappy (kchapman3042@gmail.com)kchapman@taylorsvillefire.org
 robin wooters (megkierkay@gmail.com)<robinsthreegirls@yahoo.com>
 Franklin Rosier <firefighter1082007@gmail.com>
 tim johnson <toolman24.tj@gmail.com>
-"Thomas A Dunbar" (tdunbar75@gmail.com)<tadunbar@verizon.net>
+Thomas A Dunbar (tdunbar75@gmail.com)<tadunbar@verizon.net>
 Jackie Cohen <jackster2024@gmail.com>
-"Summersbrian014@gmail.com" <summersbrian014@gmail.com>
+Summersbrian014@gmail.com <summersbrian014@gmail.com>
+%%12/05/2011
 Jay Meisch <lpfas29@gmail.com>
 joel wharton <ovrwrkd72@gmail.com>
 joshua hall <smokeeater1520@gmail.com>
 Jeremy Hicks <jeremyhicks187@gmail.com>
 troy hagy <troyhpc@gmail.com>
 jonathan heverly <jheverly23@gmail.com>
+%%12/07/2011
 kristian schoman (kris.schoman@gmail.com)<xdoughboyx123@gmail.com>
-"slocklear98@yahoo.com" (shaunlocklear79@gmail.com)<slocklear98@yahoo.com>
+slocklear98@yahoo.com (shaunlocklear79@gmail.com)<slocklear98@yahoo.com>
 Will Nye <wnye792@gmail.com>
+%%12/08/2011
 Rachel Coltrain (rlcoltrain@gmail.com)<rachel_coltrain@yahoo.com>
 Lisa Edwards (jojosmima@gmail.com)<ledwards@townofchapelhill.org>
 Josh Herman <hermanjosh89@gmail.com>
