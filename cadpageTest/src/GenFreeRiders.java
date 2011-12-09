@@ -22,6 +22,7 @@ public class GenFreeRiders {
   
   private static final File IN_FILE = new File("freeriders.txt");
   private static final File OUT_FILE = new File("./res/values/freeriders.xml");
+  private static final File CSV_FILE = new File("freeriders.csv");
   
   
 
@@ -30,12 +31,16 @@ public class GenFreeRiders {
     // Open input and output files
     BufferedReader ir = new BufferedReader(new InputStreamReader(new FileInputStream(IN_FILE)));
     PrintStream ps = new PrintStream(new FileOutputStream(OUT_FILE));
+    PrintStream ps2 = new PrintStream(new FileOutputStream(CSV_FILE));
     
     // Write appropriate output XML headings
     ps.println("<?xml version=\"1.0\" encoding=\"utf-8\"?>");
     ps.println("<resources>");
     
     String listName = null;
+    String status = "";
+    String sponsor = "";
+    String purchase = "";
     List<String> userList = new ArrayList<String>(); 
     while (true) {
       String line = ir.readLine();
@@ -50,8 +55,28 @@ public class GenFreeRiders {
         userList.clear();
       }
       
+      else if (line.startsWith("%%")) {
+        purchase = line.substring(2).trim();
+      }
+      
+      else if (line.startsWith("%")) {
+        sponsor = "";
+        purchase = "";
+        pt = line.indexOf('/');
+        if (pt >= 0) {
+          sponsor = line.substring(pt+1).trim();
+          line = line.substring(0,pt).trim();
+        }
+        status = line.substring(1).trim();
+      }
+      
       else {
-        userList.add(cvtUser(line));
+        boolean skipHash = line.startsWith(">>");
+        if (skipHash) line = line.substring(2);
+        UserInfo info = cvtUser(line);
+        if (!skipHash) userList.add(generateHashLine(info));
+        line = generateCsvLine(info, status, purchase, sponsor);
+        ps2.println(line);
       }
     }
     
@@ -60,17 +85,23 @@ public class GenFreeRiders {
     ps.println("</resources>");
     ir.close();
     ps.close();
+    ps2.close();
     
     System.out.println("freeriders.xml has been generated");
+  }
+
+  private static class UserInfo {
+    String name;
+    String user;
   }
 
   /**
    * Convert user specification line to an MD5 has XML item
    * @param line
    */
-  private static final Pattern OPEN_BRACKET = Pattern.compile("[<({\\[]");
+  private static final Pattern OPEN_BRACKET = Pattern.compile("[<({]");
   private static final Pattern VALID_EMAIL = Pattern.compile("\\d+|[\\w\\.]+@[\\w\\.]+");
-  private static String cvtUser(String line) {
+  private static UserInfo cvtUser(String line) {
     try {
       // parse name and user account from line
       String user = line;
@@ -91,15 +122,40 @@ public class GenFreeRiders {
         throw new RuntimeException("Malformed user account");
       }
       
-      // Looks good
-      String result = "<item>" + UserAcctManager.calcHash(user) + "</item>";
-      if (name != null && name.length() > 0) {
-        result += "  " + "<!-- " + name + " -->";
-      }
+      // Return result
+      UserInfo result = new UserInfo();
+      result.name = name;
+      result.user = user;
       return result;
+      
     } catch (RuntimeException ex) {
       throw new RuntimeException(ex.getMessage() + " in line: " + line, ex);
     }
+  }
+      
+  
+  private static String generateHashLine(UserInfo info) {
+      String result = "<item>" + UserAcctManager.calcHash(info.user) + "</item>";
+      if (info.name != null && info.name.length() > 0) {
+        result += "  " + "<!-- " + info.name + " -->";
+      }
+      return result;
+  }
+
+  
+  private static String generateCsvLine(UserInfo info, String status,
+                                          String purchase, String sponsor) {
+    StringBuilder sb = new StringBuilder();
+    if (info.name != null) sb.append(info.name);
+    sb.append(',');
+    sb.append(info.user);
+    sb.append(',');
+    if (status != null) sb.append(status);
+    sb.append(',');
+    if (purchase != null) sb.append(purchase);
+    sb.append(',');
+    if (sponsor != null) sb.append(sponsor);
+    return sb.toString();
   }
 
   /**
