@@ -69,6 +69,7 @@ public class VARockinghamCountyParserTest extends BaseParserTest {
         "SRC:R40",
         "CALL:TRAFFIC CRASH",
         "ADDR:RESERVOIR ST & CANTRELL AV",
+        "MADDR:RESERVOIR ST & CANTRELL AVE",
         "CITY:HARRISONBURG",
         "ID:2010-082327");
     

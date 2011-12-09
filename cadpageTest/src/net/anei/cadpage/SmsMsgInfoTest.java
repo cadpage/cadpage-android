@@ -19,6 +19,12 @@ public class SmsMsgInfoTest {
   @Test
   public void testGetMapAddress() {
     
+    doMapTest("NCForsythCOunty", "421 & SCOTT RD,KENBURG,XX", "NB 421 & SCOTT RD");
+    
+    doMapTest("CR", "2245 BLACK CIR,KENBURG,XX", "2245 BLACK CIR");
+    doMapTest("CRNN", "E COUNTY ROAD 230 W,KENBURG,XX", "E CR 230 W");
+    doMapTest("CRNNA", "E COUNTY ROAD 230A W,KENBURG,XX", "E CR 230A W");
+    
     doMapTest("NCBuncombeCounty", "226 TAMPA CIR,KENBURG,XX", "226-B TAMPA CIR");
     
     doMapTest("NCBuncombeCounty", "862 CANE CREEK RD,KENBURG,XX", "862 CANE CREEK RD & CROSS CREEK FARM RD");

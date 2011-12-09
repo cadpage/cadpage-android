@@ -85,6 +85,7 @@ public class NCMecklenburgCountyAParserTest extends BaseParserTest {
     doTest("T10",
         "12463 Stratfield Place Cr               CAROLINA CROSSING SUBD        Delta                         31- Unconsciousness/Fainting  Stineway Ct/Sam Meeks Rd                                    PINR3     Map - 405405/J9 07302011-086",
         "ADDR:12463 Stratfield Place Cr",
+        "MADDR:12463 Stratfield Place Cir",
         "PLACE:CAROLINA CROSSING SUBD",
         "INFO:Delta",
         "CALL:31- Unconsciousness/Fainting",

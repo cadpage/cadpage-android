@@ -37,6 +37,7 @@ public class VAPageCountyParserTest extends BaseParserTest {
         "SRC:RS1",
         "CALL:GENERAL ILLNESS",
         "ADDR:117 PULASKI AV",
+        "MADDR:117 PULASKI AVE",
         "CITY:SHENANDOAH",
         "ID:2011-004542",
         "X:S SECOND ST/FRONT ST");
@@ -55,6 +56,7 @@ public class VAPageCountyParserTest extends BaseParserTest {
         "SRC:RS1",
         "CALL:INJURIES FROM A FALL",
         "ADDR:4472 US HWY 340",
+        "MADDR:4472 US 340",
         "CITY:SHENANDOAH",
         "ID:2011-016573",
         "X:HIDEAWAY LN/NEWPORT RD");

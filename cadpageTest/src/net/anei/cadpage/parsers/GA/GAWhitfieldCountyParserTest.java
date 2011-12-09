@@ -25,6 +25,7 @@ public class GAWhitfieldCountyParserTest extends BaseParserTest {
         "WHITFIELD CO. 911:50I M.V. ACCIDENT W/INJURIES I 75 SB MM 333 6789341809",
         "CALL:50I M.V. ACCIDENT W/INJURIES",
         "ADDR:I 75 SB MM 333",
+        "MADDR:I 75 MM 333",
         "PHONE:6789341809");
 
     doTest("T3",
@@ -65,6 +66,7 @@ public class GAWhitfieldCountyParserTest extends BaseParserTest {
         "WHITFIELD CO. 911:50I M.V. ACCIDENT W/INJURIES 75 SB @ N OF 339 7063174144",
         "CALL:50I M.V. ACCIDENT W/INJURIES",
         "ADDR:75 SB & N OF 339",
+        "MADDR:75 & N OF 339",
         "PHONE:7063174144");
 
     doTest("T9",

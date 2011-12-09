@@ -39,6 +39,7 @@ public class PAChesterCountyD1ParserTest extends BaseParserTest {
         "TIME:08:53",
         "CALL:ACCIDENT - UNKNOWN INJURIES",
         "ADDR:WB BETHEL CHURCH RD & STONEY RUN RD",
+        "MADDR:BETHEL CHURCH RD & STONEY RUN RD",
         "CITY:EAST COVENTRY TWP",
         "ID:6201",
         "INFO:1 VEH, BLOCKING, AIR BAG DEPLOYM");
@@ -58,6 +59,7 @@ public class PAChesterCountyD1ParserTest extends BaseParserTest {
         "TIME:21:26",
         "CALL:ACCIDENT - MOTORCYCLE",
         "ADDR:SB FULMER RD & EBELHARE RD",
+        "MADDR:FULMER RD & EBELHARE RD",
         "CITY:EAST COVENTRY TWP",
         "ID:6201",
         "INFO:MC VS TREE --- DETAILS TO FOLLOW");

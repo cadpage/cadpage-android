@@ -53,6 +53,7 @@ public class NYOtsegoCountyParserTest extends BaseParserTest {
         "1 of 10\nFRM:CAD@otsegocounty.com\nSUBJ:911 EVENT\nMSG:TRAFFIC ACCIDENTS||4 GLEN AV  STA COOP1 XS CHESTNUT /BRUNLAR CT|13:06|NARR WPH2-S\n(Con't) 2 of 10\nVEH/BICYCLE -  PERSON: (COMPLAINANT) (FMLS) ZACK  MAHLUM\nDisclaimer:\nThis communication, including any attachments, may contain\n(Con't) 3 of 10\nconfidential information and is intended only for the individual or entity to whom it is addressed. Any review, dissemination, or\n(Con't) 4 of 10\ncopying of this communication by anyone other than the intended recipient is strictly prohibited. If you are not the intended\n(Con't) 5 of 10\nrecipient, please contact the sender by reply e-mail, delete and destroy all copies of the original message. No responsibility is acce\nMore?",
         "CALL:TRAFFIC ACCIDENTS",
         "ADDR:4 GLEN AV",
+        "MADDR:4 GLEN AVE",
         "SRC:COOP1",
         "X:CHESTNUT /BRUNLAR CT",
         "INFO:NARR WPH2-S VEH/BICYCLE -  PERSON: (COMPLAINANT) (FMLS) ZACK  MAHLUM");

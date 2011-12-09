@@ -80,6 +80,7 @@ public class GADoughertyCountyParserTest extends BaseParserTest {
         "ID:140134110980278",
         "CALL:HEADACHE",
         "ADDR:902 CORN AV",
+        "MADDR:902 CORN AVE",
         "CITY:ALBANY",
         "PLACE:HOLLEY HOMES",
         "X:S HARDING ST & S CLEVELAND ST",

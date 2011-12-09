@@ -90,6 +90,7 @@ public class NYNassauCountyBParserTest extends BaseParserTest {
     doTest("T3",
         "FireCom:  WEST END AVE C/S: LEONARD BLVD -    1 (RESCUE-AMBU) DRIVER SICK ON SCHOOL BUS D: 06/14 15:53 #: 000484﻿",
         "ADDR:WEST END AVE",
+        "MADDR:WEST END AVE & LEONARD BLVD",
         "X:LEONARD BLVD",
         "PRI:1",
         "CALL:RESCUE-AMBU",

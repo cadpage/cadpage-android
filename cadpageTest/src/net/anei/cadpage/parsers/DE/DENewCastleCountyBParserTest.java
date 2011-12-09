@@ -118,6 +118,7 @@ public class DENewCastleCountyBParserTest extends BaseParserTest {
         "CALL:Vehicle Accident",
         "NAME:Interstate 95",
         "ADDR:Churchmans Rd & I95 Sb",
+        "MADDR:Churchmans Rd & I 95",
         "UNIT:M29B4");
   }
   

@@ -65,6 +65,7 @@ public class CTLitchfieldCountyParserTest extends BaseParserTest {
         "(LCD) MEDIC 4 RESPOND TO  WELLSVILLE AVE AREA OF CANTERBURY ARMS  NEW MILFORD, , 53 F DIABETIC, 13-C-1 :19:43",
         "SRC:MEDIC 4",
         "ADDR:WELLSVILLE AVE",
+        "MADDR:AREA OF CANTERBURY ARMS",
         "PLACE:AREA OF CANTERBURY ARMS",
         "CITY:NEW MILFORD",
         "CALL:53 F DIABETIC",

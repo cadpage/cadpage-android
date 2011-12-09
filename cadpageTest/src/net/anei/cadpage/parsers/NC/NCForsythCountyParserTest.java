@@ -86,6 +86,7 @@ public class NCForsythCountyParserTest extends BaseParserTest {
     doTest("T10",
         "Location: NB 421 FC Nature: Motor Vehicle Accident P:1  - default DISTRICT: R13 X Str: SCOTT RD/SB 421 CALLER NAME: FCSD",
         "ADDR:NB 421",
+        "MADDR:421 & SCOTT RD",
         "CALL:Motor Vehicle Accident",
         "UNIT:R13",
         "X:SCOTT RD/SB 421",
@@ -101,7 +102,9 @@ public class NCForsythCountyParserTest extends BaseParserTest {
 
     doTest("T12",
         "Location: 6441 HOLDER RD CL,RM 8: @CLEMMONS VILLAGE II Nature: Breathing Difficulty P:1\2s- BREATHING_DIFF DISTRICT: R11 X Str: HOLDER CT/SOUTHWEST SCH",
-        "ADDR:6441 HOLDER RD CL,RM 8",
+        "ADDR:6441 HOLDER RD",
+        "CITY:CLEMMONS",
+        "APT:8",
         "PLACE:CLEMMONS VILLAGE II",
         "CALL:Breathing Difficulty",
         "UNIT:R11",

@@ -18,6 +18,7 @@ public class PAChesterCountyFParserTest extends BaseParserTest {
         "(Dispatch) ACCIDENT - PEDESTRIAN STRUCK * ** WB LANCASTER PK EO BETHEL RD ,56   (V) ** LWROXF **  **  ** - ** VEH VS MALE\nDETAILS TO FOLLOW\n",
         "CALL:ACCIDENT - PEDESTRIAN STRUCK",
         "ADDR:WB LANCASTER PK EO BETHEL RD",
+        "MADDR:LANCASTER PIKE & BETHEL RD",
         "CITY:LOWER OXFORD TWP",
         "INFO:VEH VS MALE DETAILS TO FOLLOW");
 
@@ -58,6 +59,7 @@ public class PAChesterCountyFParserTest extends BaseParserTest {
         "(Dispatch) FIRE POLICE REQUEST * ** EB UNION SCHOOL RD EO CREAM RD ,56   (V) ** LWROXF **  **  ** - ** ASSIST PSP WITH A TRAFFIC CONTROL\n**",
         "CALL:FIRE POLICE REQUEST",
         "ADDR:EB UNION SCHOOL RD EO CREAM RD",
+        "MADDR:UNION SCHOOL RD & CREAM RD",
         "CITY:LOWER OXFORD TWP",
         "INFO:ASSIST PSP WITH A TRAFFIC CONTROL");
 
@@ -65,6 +67,7 @@ public class PAChesterCountyFParserTest extends BaseParserTest {
         "(Dispatch) ACCIDENT - UNKNOWN INJURIES * ** OLD BALTIMORE PK/VILLAGE RD ,57    (V) **  **  **  ** - ** 2 VEH/BLKG ROADWAY/\n**",
         "CALL:ACCIDENT - UNKNOWN INJURIES",
         "ADDR:OLD BALTIMORE PK & VILLAGE RD",
+        "MADDR:OLD BALTIMORE PIKE & VILLAGE RD",
         "INFO:2 VEH/BLKG ROADWAY/");
 
   }

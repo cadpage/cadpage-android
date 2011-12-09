@@ -331,6 +331,7 @@ public class MDPrinceGeorgesCountyCParserTest extends BaseParserTest {
         "ID:F112500109",
         "CALL:PIA Limited Access",
         "ADDR:WB JOHN HANSON HWY WB & BALTIMORE WASHINGTON PKY NB",
+        "MADDR:JOHN HANSON HWY & BALTIMORE WASHINGTON PKY",
         "PLACE:WB JOHN HANSON HWY WB & BALTIMORE WASHINGTON PK Y NB",
         "CH:TGA2",
         "BOX:2213",

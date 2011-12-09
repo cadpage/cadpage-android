@@ -18,6 +18,7 @@ public class MOGasconadeCountyParserTest extends BaseParserTest {
         "MESSAGE / M50 CHEST PAIN  4449 MARIES CR 426 OUT OF COUNTY MapRegions:  CrossStreets: Description:  Dispatch: 3/25/2011 03:51:43\n\n\n\n\n",
         "CALL:M50 CHEST PAIN",
         "ADDR:4449 MARIES CR 426",
+        "MADDR:4449 MARIES COUNTY ROAD 426",
         "CITY:OUT OF COUNTY",
         "DATE:3/25/2011",
         "TIME:03:51:43");

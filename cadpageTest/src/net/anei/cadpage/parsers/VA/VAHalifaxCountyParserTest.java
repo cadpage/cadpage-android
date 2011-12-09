@@ -87,6 +87,7 @@ public class VAHalifaxCountyParserTest extends BaseParserTest {
         "ID:11-022783",
         "CALL:ACCIDENT INVOLVING PEDESTRIAN",
         "ADDR:104-20 LOVE SHOP PARK RD",
+        "MADDR:104 LOVE SHOP PARK RD",
         "X:OLD HALIFAX RD / DEA/D END",
         "PLACE:LOVE SHOP TRAILER PARK",
         "CITY:SOUTH BOSTON");

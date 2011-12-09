@@ -126,6 +126,7 @@ public class ALStClairCountyParserTest extends BaseParserTest {
         "9-1-1CENTRAL:50 >WRECK 8599 CO RD 31 XS: R INT @ 13064 US HWY 11 ASHVILLE ENSEY,KAREN 2055945299 Map: Grids:0,0 Cad: 2011-0000073086",
         "CALL:WRECK",
         "ADDR:8599 CO RD 31",
+        "MADDR:8599 CO 31",
         "X:R INT @ 13064 US HWY 11",
         "CITY:ASHVILLE",
         "NAME:ENSEY,KAREN",

@@ -151,6 +151,7 @@ public class GeneralParserTest extends BaseParserTest {
         "CALL:FAINTING/UNCON",
         "APT:240",
         "ADDR:563 ST RTE 211 E",
+        "MADDR:563 ST 211 E",
         "CITY:WALLKILL",
         "PLACE:LISA",
         "INFO:MPASSED OUT IN THE TUB 44 YEAR OLD");

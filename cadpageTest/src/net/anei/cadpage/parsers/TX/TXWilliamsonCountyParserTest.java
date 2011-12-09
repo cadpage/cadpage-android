@@ -53,6 +53,7 @@ public class TXWilliamsonCountyParserTest extends BaseParserTest {
         "CAD:FYI: ;SA CITIZEN ASSIST;100 CR 165;HU",
         "CALL:SA CITIZEN ASSIST",
         "ADDR:100 CR 165",
+        "MADDR:100 COUNTY ROAD 165",
         "UNIT:HU");
 
     doTest("T7",
@@ -88,6 +89,7 @@ public class TXWilliamsonCountyParserTest extends BaseParserTest {
         "CAD:FYI: ;GA VEHICLE FIRE;501 CR 344;JA;JAFD1",
         "CALL:GA VEHICLE FIRE",
         "ADDR:501 CR 344",
+        "MADDR:501 COUNTY ROAD 344",
         "UNIT:JA",
         "CH:JAFD1");
 

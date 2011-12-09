@@ -68,7 +68,8 @@ public class PAChesterCountyCParserTest extends BaseParserTest {
     doTest("T7",
         "ALARM - CARBON MONOXIDE **5 COOPERSHALWK LA, CHADDS FORD*09:12*ENG25 ASST D59",
         "CALL:ALARM - CARBON MONOXIDE *",
-        "ADDR:5 COOPERSHALWK LN, CHADDS FORD",
+        "ADDR:5 COOPERSHALWK LN",
+        "CITY:CHADDS FORD",
         "TIME:09:12",
         "INFO:ENG25 ASST D59");
 
@@ -76,6 +77,7 @@ public class PAChesterCountyCParserTest extends BaseParserTest {
         "ALARM - FIRE **815 E BALTIMORE PK - HILTON GARDENS INN*SCHOOLHOUSE RD & ONIX DR*EMARLB*20:25*GEN FIRE – NOTIYFING",
         "CALL:ALARM - FIRE *",
         "ADDR:815 E BALTIMORE PK",
+        "MADDR:815 E BALTIMORE PIKE",
         "PLACE:HILTON GARDENS INN",
         "X:SCHOOLHOUSE RD & ONIX DR",
         "CITY:EAST MARLBOROUGH TWP",

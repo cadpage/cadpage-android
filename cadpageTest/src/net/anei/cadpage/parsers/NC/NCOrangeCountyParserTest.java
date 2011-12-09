@@ -48,7 +48,8 @@ public class NCOrangeCountyParserTest extends BaseParserTest {
         "ID:052911-170",
         "CH:OPS 1",
         "CALL:Traffic Accident-PI",
-        "ADDR:MCDADE STORE RD and NC 86 N");
+        "ADDR:MCDADE STORE RD and NC 86 N",
+        "MADDR:MCDADE STORE RD & NC 86 N");
 
     doTest("T6",
         "(CAD Page for CFS 051311-370) OPS \nINFO FOR ALL UNITS\n643 tanker back in service\nApt: \nBuild:",

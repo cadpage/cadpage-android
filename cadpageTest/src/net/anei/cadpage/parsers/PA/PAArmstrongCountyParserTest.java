@@ -13,16 +13,6 @@ public class PAArmstrongCountyParserTest extends BaseParserTest {
   
   @Test
   public void testParser() {
-    
-
-    doTest("T2",
-        "11878 STATE ROUTE 85 ARMSDALE RD / CRYTZER RD ORPHANS OF THE STORM VAENT 40313 19:09 7247120225",
-        "ADDR:11878 STATE ROUTE 85",
-        "X:ARMSDALE RD / CRYTZER RD",
-        "PLACE:ORPHANS OF THE STORM",
-        "CALL:VAENT",
-        "ID:40313");
-
 
     doTest("T1",
         "473 TROY HILL RD AIRPORT RD / MCGREGOR RD FMISC 39992 05:40 7245453398",

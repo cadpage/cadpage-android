@@ -25,6 +25,7 @@ public class COLarimerCountyParserTest extends BaseParserTest {
         "SRC:BFPD",
         "CALL:MVA Unk Injury",
         "ADDR:248790 Interstate 25 Sb",
+        "MADDR:248790 Interstate 25",
         "INFO:MM 249 SB I25");
 
     doTest("T3",

@@ -52,6 +52,7 @@ public class ALColbertCountyParserTest extends BaseParserTest {
         "NAME:ATKISSON, TAMARA",
         "PHONE:2564123685",
         "ADDR:603 PASADENA AV",
+        "MADDR:603 PASADENA AVE",
         "APT:A",
         "CITY:MUSCLE SHOALS");
 
@@ -60,6 +61,7 @@ public class ALColbertCountyParserTest extends BaseParserTest {
         "CALL:MVC-Injury",
         "PHONE:2564125319",
         "ADDR:WOODWARD AV & 6TH ST",
+        "MADDR:WOODWARD AVE & 6TH ST",
         "CITY:MUSCLE SHOALS",
         "INFO:2 CARS");
     

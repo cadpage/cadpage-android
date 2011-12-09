@@ -112,6 +112,7 @@ public class DENewCastleCountyAParserTest extends BaseParserTest {
         "21:43T:M29B1 (MVC) L:CONCORD PK~MT LEBANON RD ,VE *TALLEYVILLE - :—àDSC:MVC—! PAT:1 SEX:Female AGE:25Years CON:Y BRE:Y",
         "CALL:M29B1 (MVC)",
         "ADDR:CONCORD PK & MT LEBANON RD",
+        "MADDR:CONCORD PIKE & MT LEBANON RD",
         "PLACE:TALLEYVILLE",
         "INFO:—àDSC:MVC—! PAT:1 SEX:Female AGE:25Years CON:Y BRE:Y");
 
@@ -135,6 +136,7 @@ public class DENewCastleCountyAParserTest extends BaseParserTest {
         "22:31T:M29D5 (MVC--NOT ALERT) L:CONCORD PK~INTERSTATE 95 ,HU06 - LI:FROM 202 ONTO 95 SOUTH - :—àDSC:MVC—! PAT:1 SEX:Male AGE:25Years CON:Y BRE:Y",
         "CALL:M29D5 (MVC--NOT ALERT)",
         "ADDR:CONCORD PK & INTERSTATE 95",
+        "MADDR:CONCORD PIKE & INTERSTATE 95",
         "PLACE:- LI:FROM 202 ONTO 95 SOUTH",
         "INFO:—àDSC:MVC—! PAT:1 SEX:Male AGE:25Years CON:Y BRE:Y");
 
@@ -165,6 +167,7 @@ public class DENewCastleCountyAParserTest extends BaseParserTest {
         "05:26T:71B1 (L1*VEH-FIRE) L:CONCORD PK~PIERCE RD ,GD *DEERHURST - X: : vehicle on fire",
         "CALL:71B1 (L1*VEH-FIRE)",
         "ADDR:CONCORD PK & PIERCE RD",
+        "MADDR:CONCORD PIKE & PIERCE RD",
         "PLACE:DEERHURST",
         "INFO:vehicle on fire");
 
@@ -207,6 +210,7 @@ public class DENewCastleCountyAParserTest extends BaseParserTest {
         "SRC:28CAD",
         "CALL:M29D5 (MVC--NOT ALERT)",
         "ADDR:113 S DUPONT HY",
+        "MADDR:113 S DUPONT HWY",
         "PLACE:HARES CORNER",
         "X:btwn CHRISTIANA RD ~ FIFTH AV");
   

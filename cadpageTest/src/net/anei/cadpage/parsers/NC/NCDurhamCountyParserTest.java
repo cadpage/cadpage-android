@@ -18,6 +18,7 @@ public class NCDurhamCountyParserTest extends BaseParserTest {
         "CAD:TRANSPORTATION ACCIDENT;2399 S ALSTON AVE/RIDDLE RD;{M8} CODE 2 RESPONSE [06/30/11 15:48:22 GRIFFINT] {M8} SEND ADDTL MEDIC UNIT [06/30/11 15:46:11 GRIFFINT] [",
         "CALL:TRANSPORTATION ACCIDENT",
         "ADDR:2399 S ALSTON AVE & RIDDLE RD",
+        "MADDR:2399 S ALSTON AVE",
         "UNIT:M8",
         "INFO:CODE 2 RESPONSE / {M8} SEND ADDTL MEDIC UNIT");
 
@@ -25,6 +26,7 @@ public class NCDurhamCountyParserTest extends BaseParserTest {
         "CAD:BACK PAIN;5499 SUTTERIDGE CT/LYON FARM DR;[Medical Priority Info] PROBLEM: back pain # PATS: 1 AGE: 50 Years SEX: Male CONSCIOUS: Yes BREATHING: Yes [07/05/11",
         "CALL:BACK PAIN",
         "ADDR:5499 SUTTERIDGE CT & LYON FARM DR",
+        "MADDR:5499 SUTTERIDGE CT",
         "INFO:back pain # PATS: 1 AGE: 50 Years SEX: Male CONSCIOUS: Yes BREATHING: Yes");
 
     doTest("T3",

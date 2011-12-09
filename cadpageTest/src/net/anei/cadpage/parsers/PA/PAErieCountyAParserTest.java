@@ -43,6 +43,7 @@ public class PAErieCountyAParserTest extends BaseParserTest {
         "SRC:ERIE911",
         "CALL:MVA - UNKNOWN STATUS",
         "ADDR:17 I 90 EB",
+        "MADDR:17 I 90",
         "X:I 90 EB RAMP EXIT 16",
         "NAME:LORD, ISAAC",
         "CITY:FAIRVIEW TWP",

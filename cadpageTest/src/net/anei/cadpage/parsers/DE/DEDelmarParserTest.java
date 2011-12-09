@@ -200,6 +200,7 @@ public class DEDelmarParserTest extends BaseParserTest {
         "(CAD Alert) 74AS1      Call at Bi State Blvd & S Bi State Blv                               City19940      Problem Traffic/TransportationAcdntBLS",
         "UNIT:74AS1",
         "ADDR:Bi State Blvd & S Bi State Blv",
+        "MADDR:Bi State Blvd & S Bi State Blvd",
         "CALL:Traffic/TransportationAcdntBLS");
    }
   

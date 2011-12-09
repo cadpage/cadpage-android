@@ -86,6 +86,7 @@ public class IAWoodburyCountyParserTest extends BaseParserTest {
         "J:EMS FOR PI/1 I29 NORTH SIOUX MM1 I29 SD/IOWA BORDER &/NSIOUX/ 72B1 72EMS9 72E4 72E5 72F7 72Q6 72R8/UNDERNEATH THE",
         "CALL:EMS FOR PI",
         "ADDR:1 I29",
+        "MADDR:1 I 29",
         "CITY:NORTH SIOUX",
         "PLACE:MM1 I29 SD",
         "ST:SD",

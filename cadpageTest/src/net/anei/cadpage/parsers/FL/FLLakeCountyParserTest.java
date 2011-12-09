@@ -34,6 +34,7 @@ public class FLLakeCountyParserTest extends BaseParserTest {
         "SRC:ST56",
         "CALL:Traffic / Transportation Accident",
         "ADDR:305 CR 466A",
+        "MADDR:305 COUNTY ROAD 466A",
         "NAME:CENTRAL FLORIDA NURSERY",
         "CITY:FRUITLAND PARK");
 

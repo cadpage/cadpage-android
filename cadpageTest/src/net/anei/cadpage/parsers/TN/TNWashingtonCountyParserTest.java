@@ -179,6 +179,7 @@ public class TNWashingtonCountyParserTest extends BaseParserTest {
         "PRI:D",
         "UNIT:M2,R2,E4",
         "ADDR:301 ROYAL CR",
+        "MADDR:301 ROYAL CIR",
         "APT:79",
         "PLACE:CLARK MANOR APARTMENTS",
         "MAP:54A",

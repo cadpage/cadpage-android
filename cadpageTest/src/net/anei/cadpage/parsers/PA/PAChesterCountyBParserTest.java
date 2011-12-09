@@ -62,6 +62,7 @@ public class PAChesterCountyBParserTest extends BaseParserTest {
         "ALARM - FIRE *\n8822 GAP NEWPORT PK\nCROSSAN LA & PENN GREEN RD\nRESD - LAFFERTY 610-268-2861\nNGARDN\nSMOKE DETECTOR IN KITCHEN - ENTER THRU BACK DO OR\n02/12/2011\n19:57\nLIFE ALERT-645\n800-638-8222",
         "CALL:ALARM - FIRE *",
         "ADDR:8822 GAP NEWPORT PK",
+        "MADDR:8822 GAP NEWPORT PIKE",
         "X:CROSSAN LA & PENN GREEN RD",
         "CITY:NEW GARDEN TWP",
         "INFO:RESD - LAFFERTY 610-268-2861 / SMOKE DETECTOR IN KITCHEN - ENTER THRU BACK DO OR",
@@ -108,6 +109,7 @@ public class PAChesterCountyBParserTest extends BaseParserTest {
         "(Messenger 911) ACCINJ\n7440 LANCASTER PK, HOCKESSIN\nREQ AMB232----ASSIST NCC19 W/NUMEROUS PT'S IN ACCT\n14:07",
         "CALL:ACCINJ",
         "ADDR:7440 LANCASTER PK",
+        "MADDR:7440 LANCASTER PIKE",
         "CITY:HOCKESSIN",
         "INFO:REQ AMB232----ASSIST NCC19 W/NUMEROUS PT'S IN ACCT");
 
@@ -141,6 +143,7 @@ public class PAChesterCountyBParserTest extends BaseParserTest {
         "(Messenger 911) BFALL\n115 E SUMMIT AV\nPARKWAY AV & MYRTLE AV\nWGROVE\n62 YO/F FELL DOWN 5 STEPS\n21:07",
         "CALL:BFALL",
         "ADDR:115 E SUMMIT AV",
+        "MADDR:115 E SUMMIT AVE",
         "X:PARKWAY AV & MYRTLE AV",
         "CITY:WEST GROVE",
         "INFO:62 YO/F FELL DOWN 5 STEPS");
@@ -190,6 +193,7 @@ public class PAChesterCountyBParserTest extends BaseParserTest {
         "(Messenger 911) [Update]\nAUNRESP\n8995 GAP NEWPORT PK\nNEW GARDEN RD & BRITTANY DR\nNGARDN\nORIG 911HU-48/F\n14:03",
         "CALL:AUNRESP",
         "ADDR:8995 GAP NEWPORT PK",
+        "MADDR:8995 GAP NEWPORT PIKE",
         "X:NEW GARDEN RD & BRITTANY DR",
         "CITY:NEW GARDEN TWP",
         "INFO:ORIG 911HU-48/F");

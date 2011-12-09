@@ -37,6 +37,7 @@ public class TXBellCountyParserTest extends BaseParserTest {
     doTest("T4",
         "LOC: 512 CEDAR RIDGE CR BELL TYPE CODE: GRASS SubType: COUNTY CALLER NAME:  CLRNUM:  TIME: 19:22:52",
         "ADDR:512 CEDAR RIDGE CR",
+        "MADDR:512 CEDAR RIDGE CIR",
         "CALL:GRASS - COUNTY");
 
     doTest("T5",

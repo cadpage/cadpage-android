@@ -20,8 +20,10 @@ public class MDNorthEastParserOldTest extends BaseParserTest {
         "CALL:CHEST PAIN",
         "ADDR:322 E CECIL AVE",
         "PLACE:NORTH BAY MED",
-        "CITY:North East",
         "X:MECHANICS VALLEY RD",
+        "CITY:North East",
+        "DATE:06/14/11",
+        "TIME:11:21:54",
         "INFO:DR SCHADEV'S OFFICE[P CHEST ;41 YEAR OLD, FEMALE, CONSCIOUS");
 
     doTest("T2",
@@ -29,16 +31,21 @@ public class MDNorthEastParserOldTest extends BaseParserTest {
         "CODE:31A01",
         "CALL:UNCON/SYNCOPAL",
         "ADDR:161 WILLARD DR",
-        "CITY:North East",
         "X:STITES LN",
+        "CITY:North East",
+        "DATE:06/13/11",
+        "TIME:08:53:56",
         "INFO:[P MOM FELL ;76 YEAR OLD, FEMALE, CONSCIOUS, BREATHING. UNCONSCIOUS/FAINTING (NE");
 
     doTest("T3",
         "AUTO (AUTO\nAUTOMOBILE FIRE\n98.5 I95 NB HWY\nNE\nRED TOAD RD\n06/13/11\n14:13:17\nAUTO ON FIRE//CAN SEE FLAMES AND SMOKE\nOPS 6   0495S\n04",
         "CALL:AUTOMOBILE FIRE",
         "ADDR:98.5 I95 NB HWY",
-        "CITY:North East",
+        "MADDR:98.5 I 95 HWY & RED TOAD RD",
         "X:RED TOAD RD",
+        "CITY:North East",
+        "DATE:06/13/11",
+        "TIME:14:13:17",
         "INFO:AUTO ON FIRE//CAN SEE FLAMES AND SMOKE",
         "CH:OPS 6",
         "MAP:0495S",
@@ -48,8 +55,10 @@ public class MDNorthEastParserOldTest extends BaseParserTest {
         "HOUSE (HOU\nHOUSE FIRE\n354 W MAIN ST\nELK\nBLUEBALL AVE\n06/13/11\n19:20:42\nFIRE IN THE STOVE WAS FULLY INVOLVED COULD BE OUT SMOKE IN THE RESIDENCE\nOPS 7",
         "CALL:HOUSE FIRE",
         "ADDR:354 W MAIN ST",
-        "CITY:Elkton",
         "X:BLUEBALL AVE",
+        "CITY:Elkton",
+        "DATE:06/13/11",
+        "TIME:19:20:42",
         "INFO:FIRE IN THE STOVE WAS FULLY INVOLVED COULD BE OUT SMOKE IN THE RESIDENCE",
         "CH:OPS 7");
 
@@ -57,29 +66,14 @@ public class MDNorthEastParserOldTest extends BaseParserTest {
         "HOUSE (HOU\nHOUSE FIRE\n122 WHITEHALL RD\nELK\nCHESSMAN CIR\n06/13/11\n15:44:45\nSMOKE FROM BASEMENT//BLACK\nOPS 6   0304\n03\n",
         "CALL:HOUSE FIRE",
         "ADDR:122 WHITEHALL RD",
-        "CITY:Elkton",
         "X:CHESSMAN CIR",
+        "CITY:Elkton",
+        "DATE:06/13/11",
+        "TIME:15:44:45",
         "INFO:SMOKE FROM BASEMENT//BLACK",
         "CH:OPS 6",
         "MAP:0304",
         "UNIT:03");
-  }
-  
-  @Test
-  public void testParser2() {
-
-
-    doTest("T1",
-        "DIABETIC\n254 N MAIN ST\nVANNORT DR\nGRANITE AVE\nPD\n08:00:00\n[P DIABETIC ;81 YEAR OLD, FEMALE, CONSCIOUS, BREATHING.  DIABETICPROBLEMS.\n11021185\nEMS OPS",
-        "CODE:DIABETIC",
-        "CALL:254 N MAIN ST",
-        "ADDR:VANNORT DR",
-        "CITY:GRANITE AVE",
-        "X:PD",
-        "INFO:11021185",
-        "CH:EMS OPS");
-
-
   }
   
   public static void main(String[] args) {

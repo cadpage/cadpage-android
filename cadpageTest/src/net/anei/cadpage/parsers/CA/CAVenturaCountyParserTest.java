@@ -64,6 +64,7 @@ public class CAVenturaCountyParserTest extends BaseParserTest {
         "UNIT:E43",
         "CALL:VEHICLE FI",
         "ADDR:Wb 118 At & Kuehner Dr",
+        "MADDR:118 At",
         "MAP:11H1-A4",
         "CH:2 / 3",
         "ID:11-0032367");

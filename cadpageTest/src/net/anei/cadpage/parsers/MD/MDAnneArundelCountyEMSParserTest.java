@@ -67,6 +67,7 @@ public class MDAnneArundelCountyEMSParserTest extends BaseParserTest {
         "*Medical Box 40-83 RT50 W/JENNIFER RD MU40,E40,E171 MVC; 1517 [4/44]  /18d-19/", 
         "BOX:40-83",
         "ADDR:RT50 W & JENNIFER RD",
+        "MADDR:RT 50 W & JENNIFER RD",
         "UNIT:MU40,E40,E171",
         "CALL:MVC",
         "ID:1517");
@@ -149,6 +150,7 @@ public class MDAnneArundelCountyEMSParserTest extends BaseParserTest {
         "Medical Box 40-83 RT50 E/BESTGATE RD MU40,E40,E172 MVC; 1238 [5/283] /lm-7",
         "BOX:40-83",
         "ADDR:RT50 E & BESTGATE RD",
+        "MADDR:RT 50 E & BESTGATE RD",
         "UNIT:MU40,E40,E172",
         "CALL:MVC",
         "ID:1238");

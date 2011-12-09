@@ -58,6 +58,7 @@ public class INHancockCountyParserTest extends BaseParserTest {
         "Aircraft Down/5881 W AIRPORT BLV GREENFIELD FUEL DEPOT/N AVIATION WAY & N 600W/18/ T71 BCFP1/Aircraft into a cart; Vietest building",
         "CALL:Aircraft Down",
         "ADDR:5881 W AIRPORT BLV",
+        "MADDR:5881 W AIRPORT BLVD",
         "CITY:GREENFIELD",
         "PLACE:FUEL DEPOT",
         "X:N AVIATION WAY & N 600W",

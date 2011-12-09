@@ -67,7 +67,8 @@ public class MIRichmondParserTest extends BaseParserTest {
     doTest("T10",
         "**RESCUE**  CHEST PAINS 35601 WOODSIDE @ FOREST",
         "CALL:RESCUE - CHEST PAINS",
-        "ADDR:35601 WOODSIDE & FOREST");
+        "ADDR:35601 WOODSIDE & FOREST",
+        "MADDR:35601 WOODSIDE");
 
     doTest("T11",
         "**FIRE**  SHED FIRE LINDSEY @ PALMS.  SHED CLOSE TO HOME",
