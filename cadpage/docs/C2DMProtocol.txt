@@ -94,7 +94,7 @@ type:   Message type which can take following values
         PAGE (or anything not listed above) - alert page
         
 For REGISTER and UNREGISTER types
-vendor:     Assigned vendor code (either hard coded or from request)
+vendor:     Assigned vendor code 
 account:    Users account number with your service
 token:      Security token that will be reported back to your servers with
             reregister and unregister requests
