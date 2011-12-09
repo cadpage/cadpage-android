@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">11052011</string>
-  <string name="release_version">v1.4.44</string>
+  <string name="release_date">12082011</string>
+  <string name="release_version">v1.4.45</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="min_purchase_date">11032011</string>
@@ -11,33 +11,26 @@ text messaging fees.  And received on Android tablets.  Stay tuned for further d
 \n
 What"'"s new in this release\n
 \n
-If you run past a demo expiration, Cadpage won"'"t trigger on calls.  It will 
-record them in history and let them fall through to your normal messaging app.\n
-\n
 New Locations:\n
-Pottawattamie county, IA\n
-Albany county, NY\n
-Orange county, NY\n
-Wayne county, NY\n
-Cabarrus county, NC (alternate)\n
-Northampton county, NC\n
-Franklin, OH\n
-Geauga county, OH\n
-Wayne county, OH (alternate)\n
-Somerset county, PA\n
-Richard county, SC\n
+Jackson County, IN\n
+Erie County, NY\n
 \n
 Location Parsing Fixes:\n
-Livingston county, MI\n
-Salem county, NJ\n
-Chautauqua county, NY\n
-Buncombe county, NC\n
-Johnson county, NC\n
-York county, SC\n
-Minnehaha county, SD\n
+Litchfield, CT\n
+Tolland County, CT\n
+Carol County, MD\n
+St Marys County, MD\n
+Hennepin County, MN\n
+Iredell County, NC\n
+Chester County, PA\n
+Oconee County, SC\n
+Eau Claire, WI\n
+Franklin County, VA\n
 \n
 General fixes:\n
-A lot of little improvements have been made to the way we generate the search
+Wrong payment status report when user has paid subscription and is using a
+sponsored location\n
+More little improvements have been made to the way we generate the search
 string sent to Google Maps.
   </string>  
 </resources>
