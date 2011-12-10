@@ -31,11 +31,16 @@ Contact: "chieflapierre@sbcglobal.net" <chieflapierre@sbcglobal.net>
 STA97 STA594 MOOS2  UHF-4 PRI 1 2ND CREW NEEDED Cardiac Distress 30 PICKETT RD / Central Village (X-STS TEX
 Subject:Central Village FD Page\nSTA97 STA594 MOOS2  UHF-4 PRI 1 MOOS AMB 2ND CREW NEEDED / Injured Person 80 S CADY LN / CENTRAL CYCLE TRAC
 
+Contact: David Silva <david.silva92@yahoo.com>
+1 of 2\nFRM:messaging@iamresponding.com\nSUBJ:K.B. Ambulance\nMSG:RES65  KB2  UHF-2 PRI 1 KB SECOND CREW / POLICE ENROUTE /  Cardiac/Respiratory\n(Con't) 2 of 2\nArrest 36 SAW MILL HILL RD / Killingly (X-STS TILLINGHAST RD / PROVIDENCE PIKE  BAILEY HILL RD ) 07:11¿\n(End)
+
 */
 
 public class CTWindhamCountyParser extends SmartAddressParser {
   
+  private static final Pattern CHANNEL_PTN = Pattern.compile(" +(UHF-\\d|\\d\\d\\.\\d\\d) +");
   private static final Pattern PRIORITY_PTN = Pattern.compile("^PRI +(\\d) +");
+  private static final Pattern TIME_PTN = Pattern.compile("\\d\\d:\\d\\d");
 
   public CTWindhamCountyParser() {
     super("WINDHAM COUNTY", "CT");
@@ -47,20 +52,31 @@ public class CTWindhamCountyParser extends SmartAddressParser {
   }
   
   @Override
-  public boolean parseMsg(String body, Data data) {
+  public boolean parseMsg(String subject, String body, Data data) {
+    
+    if (subject.length() != 0) {
+      if (subject.endsWith(" Page")) subject = subject.substring(0, subject.length()-5).trim();
+      data.strSource = subject;
+    }
+    
+    Matcher match = CHANNEL_PTN.matcher(body);
+    if (!match.find()) return false;
+    data.strUnit = body.substring(0,match.start()).replaceAll("  +", " ");
+    data.strChannel = match.group(1);
+    body = body.substring(match.end());
     
     Parser p = new Parser(body);
-    data.strUnit = p.getOptional("  ");
-    data.strChannel = p.get(' ');
     String sAddr = p.get("(X-STS ");
     data.strCross = p.get(')');
+    String sTime = p.get();
+    if (TIME_PTN.matcher(sTime).matches()) data.strTime = sTime;
     
     int pt = sAddr.lastIndexOf('/');
     if (pt < 0) return false;
     String sPlaceCity = sAddr.substring(pt+1).trim();
     sAddr = sAddr.substring(0,pt).trim();
     
-    Matcher match = PRIORITY_PTN.matcher(sAddr);
+    match = PRIORITY_PTN.matcher(sAddr);
     if (match.find()) {
       data.strPriority = match.group(1);
       sAddr = sAddr.substring(match.end()).trim();
