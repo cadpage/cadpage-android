@@ -32,6 +32,12 @@ Contact:Charles Schriver <chuckles494@gmail.com>
 Sender: york911alert@comcast.net 
 0049000  HANOVER BORO GOLDEN EXCHANGE CONDO ASSOCIATION   9 2ND AVE EXCHANGE PL / W WALNUT ST FIRE AFA HIGH RISK General Alarm  46-02 FIRESTA46 E46-1 E49-1
 
+Contact: "Freistat, Brandon" <brandon.freistat@fairviewfire.net>
+FAIRVIEW TWP I83 SB EXIT FISHING CREEK   I 83 SB I 83X36FISHINGCREEK SB VEH ACC INJ CL 2 unk age pt/bleeding from face/unk dest 68-83 FIRESTA68 E68-2 R68  11:36
+NEWBERRY TWP    46 MALL RD PRIVET DR / BILL DUGAN DR FIRE STRUCT RESID stove fire reported out still smoking  31-07 FIRESTA31 T31-1 E68-2 T28 T68 TK69 EMSSTA31 MICU31  12:51
+(Station 68) FAIRVIEW TWP    426 VALLEY RD SAND SPUR DR / TRAILER PARK FIRE STRUCT RESID Holding box to E69, E68-2,BLS 68-02 UFIRE68 UFIRE28  03:36
+(Station 68) FAIRVIEW TWP    56 MEADOWBROOK CT DEAD END / SHAUFFNERTOWN RD, DILLER RD FIRE STRUCT RESID Mobile home fire   68-05 FIRESTA68 E68-2 E69-1 T
+
 */
 
 public class PAYorkCountyAParser extends SmartAddressParser {
@@ -52,7 +58,11 @@ public class PAYorkCountyAParser extends SmartAddressParser {
   }
 
   @Override
-  protected boolean parseMsg(String body, Data data) {
+  protected boolean parseMsg(String subject, String body, Data data) {
+    
+    if (subject.length() > 0) {
+      if (subject.startsWith("Station ")) data.strSource = subject;
+    }
     
     Matcher match = MASTER.matcher(body);
     if (!match.matches()) return false;
