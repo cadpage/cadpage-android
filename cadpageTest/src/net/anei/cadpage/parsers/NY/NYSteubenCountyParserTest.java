@@ -528,7 +528,7 @@ public class NYSteubenCountyParserTest extends BaseParserTest {
   
   @Test
   public void testWaylandParser() {
-    doTest("T5",
+    doTest("T1",
         "Subject:Wayland FD\n1790 STATE ROUTE 63 , WAYLAND TOWN OF (GROSS HILL RD / RESERVOIR RD)\n26A1 Sick Person No priority symptoms (com",
         "SRC:Wayland FD",
         "ADDR:1790 STATE ROUTE 63",
@@ -537,7 +537,15 @@ public class NYSteubenCountyParserTest extends BaseParserTest {
         "X:GROSS HILL RD / RESERVOIR RD",
         "CODE:26A1",
         "CALL:Sick Person No priority symptoms (com");
-    
+
+    doTest("T2",
+        "Subject:Wayland FD\nCOUNTY ROUTE 92\\HENRY DRUM RD , WAYLAND TOWN OF\n29B1 Traffic Accidents  Injuries\nWAYLAFDAMB:2011:504\n\n",
+        "SRC:Wayland FD",
+        "ADDR:COUNTY ROAD 92 & HENRY DRUM RD",
+        "CITY:WAYLAND",
+        "CODE:29B1",
+        "CALL:Traffic Accidents  Injuries");
+   
   }
   
   public static void main(String[] args) {
