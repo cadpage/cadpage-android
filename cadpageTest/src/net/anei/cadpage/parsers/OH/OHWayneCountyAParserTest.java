@@ -1,5 +1,6 @@
 package net.anei.cadpage.parsers.OH;
 
+import net.anei.cadpage.TestManagePreferences;
 import net.anei.cadpage.parsers.BaseParserTest;
 
 import org.junit.Test;
@@ -9,6 +10,9 @@ public class OHWayneCountyAParserTest extends BaseParserTest {
   
   public OHWayneCountyAParserTest() {
     setParser(new OHWayneCountyAParser(), "WAYNE COUNTY", "OH");
+    TestManagePreferences pmgr = getPreferences();
+    pmgr.setTestOverrideFilter(true);
+    pmgr.setTestFilter("1112223333");
   }
   
   @Test
@@ -89,6 +93,29 @@ public class OHWayneCountyAParserTest extends BaseParserTest {
         "CALL:SQUAD RUN",
         "ADDR:14083 HATFIELD RD",
         "INFO:87 YO M FALL VICTIM POSSIBLE BROKEN HIP");
+  }
+  
+  @Test
+  public void testParser2() {
+
+    doTest("T1",
+        "SQUAD RUN 41 WILLARD ST JOE AYERS, AGE 76, TINGLING IN LEGS AND FEET",
+        "CALL:SQUAD RUN",
+        "ADDR:41 WILLARD ST",
+        "INFO:JOE AYERS, AGE 76, TINGLING IN LEGS AND FEET");
+
+    doTest("T2",
+        "SQUAD RUN 33 LANE ST CARL JENTES, AGE 74, CHEST PAINS",
+        "CALL:SQUAD RUN",
+        "ADDR:33 LANE ST",
+        "INFO:CARL JENTES, AGE 74, CHEST PAINS");
+
+    doTest("T3",
+        "SQUAD RUN 37 ELLIOTT ST NW S TONY WHITE, AGE 48, SEVERE STOMACH PAIN",
+        "CALL:SQUAD RUN",
+        "ADDR:37 ELLIOTT ST NW",
+        "INFO:S TONY WHITE, AGE 48, SEVERE STOMACH PAIN");
+
   }
   
   public static void main(String[] args) {
