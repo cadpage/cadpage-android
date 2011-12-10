@@ -166,7 +166,56 @@ public class PAYorkCountyAParserTest extends BaseParserTest {
 
   }
   
+  @Test
+  public void testParser4() {
+
+    doTest("T1",
+        "FAIRVIEW TWP I83 SB EXIT FISHING CREEK   I 83 SB I 83X36FISHINGCREEK SB VEH ACC INJ CL 2 unk age pt/bleeding from face/unk dest 68-83 FIRESTA68 E68-2 R68  11:36",
+        "SRC:FIRESTA68",
+        "CITY:FAIRVIEW TWP",
+        "PLACE:I83 SB EXIT FISHING CREEK",
+        "ADDR:I 83 SB",
+        "MADDR:I83 SB EXIT FISHING CREEK",
+        "CALL:I 83X36FISHINGCREEK SB VEH ACC INJ CL 2 unk age pt / bleeding from face / unk dest",
+        "MAP:68-83",
+        "SRC:FIRESTA68",
+        "UNIT:E68-2 R68");
+
+    doTest("T2",
+        "NEWBERRY TWP    46 MALL RD PRIVET DR / BILL DUGAN DR FIRE STRUCT RESID stove fire reported out still smoking  31-07 FIRESTA31 T31-1 E68-2 T28 T68 TK69 EMSSTA31 MICU31  12:51",
+        "SRC:FIRESTA31",
+        "CITY:NEWBERRY TWP",
+        "ADDR:46 MALL RD",
+        "X:PRIVET DR / BILL DUGAN DR",
+        "CALL:FIRE STRUCT RESID stove fire reported out still smoking",
+        "MAP:31-07",
+        "SRC:FIRESTA31",
+        "UNIT:T31-1 E68-2 T28 T68 TK69 EMSSTA31 MICU31");
+
+    doTest("T3",
+        "(Station 68) FAIRVIEW TWP    426 VALLEY RD SAND SPUR DR / TRAILER PARK FIRE STRUCT RESID Holding box to E69, E68-2,BLS 68-02 UFIRE68 UFIRE28  03:36",
+        "SRC:Station 68",
+        "CITY:FAIRVIEW TWP",
+        "ADDR:426 VALLEY RD",
+        "X:SAND SPUR DR",
+        "CALL:/ TRAILER PARK FIRE STRUCT RESID Holding box to E69 E68-2 BLS",
+        "MAP:68-02",
+        "SRC:Station 68",
+        "UNIT:UFIRE68 UFIRE28");
+
+    doTest("T4",
+        "(Station 68) FAIRVIEW TWP    56 MEADOWBROOK CT DEAD END / SHAUFFNERTOWN RD, DILLER RD FIRE STRUCT RESID Mobile home fire   68-05 FIRESTA68 E68-2 E69-1 T",
+        "SRC:FIRESTA68",
+        "CITY:FAIRVIEW TWP",
+        "ADDR:56 MEADOWBROOK CT",
+        "CALL:DEAD END / SHAUFFNERTOWN RD DILLER RD FIRE STRUCT RESID Mobile home fire",
+        "MAP:68-05",
+        "SRC:FIRESTA68",
+        "UNIT:E68-2 E69-1 T");
+
+  }
+  
   public static void main(String[] args) {
-    new PAYorkCountyAParserTest().generateTests("T1", "ID CITY PLACE ADDR APT X CALL MAP SRC UNIT");
+    new PAYorkCountyAParserTest().generateTests("T1", "SRC ID CITY PLACE ADDR APT X CALL MAP SRC UNIT");
   }
 }
