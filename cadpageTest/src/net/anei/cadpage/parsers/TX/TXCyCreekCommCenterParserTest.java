@@ -295,6 +295,17 @@ public class TXCyCreekCommCenterParserTest extends BaseParserTest {
         "UNIT:M54 FO250W 76M",
         "X:LONDON TOWN DR ELMFIELD D",
         "ID:201150359");
+
+    doTest("T27",
+        "12/09 13:45 SPRING CYPRESS RD-HC/NORTH FR,; Map292-P- Sub: Nat:29D202P-MVI - ROLLOVER Units:M56 FO291N E78 L71 X-St:NORTH FRWY SB NANNETTE LN 2",
+        "DATE:12/09",
+        "TIME:13:45",
+        "ADDR:SPRING CYPRESS RD & NORTH FR",
+        "MADDR:SPRING CYPRESS RD & NORTH FRONTAGE RD",
+        "APT:Map292-P-",
+        "CALL:29D202P-MVI - ROLLOVER",
+        "UNIT:M56 FO291N E78 L71",
+        "X:NORTH FRWY SB NANNETTE LN 2");
   }
   
   public static void main(String[] args) {
