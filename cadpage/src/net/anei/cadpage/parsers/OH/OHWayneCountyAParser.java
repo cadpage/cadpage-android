@@ -3,6 +3,7 @@ package net.anei.cadpage.parsers.OH;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import net.anei.cadpage.ManagePreferences;
 import net.anei.cadpage.SmsMsgInfo.Data;
 import net.anei.cadpage.parsers.SmartAddressParser;
 
@@ -20,6 +21,13 @@ taccad:ACCIDENT GREAT LAKES BLVD GRILL RD MULTIPLE 911 CALLS PICK UP ON ITS TOP 
 taccad:OPEN BURNING CHIPPEWA FIRE OFFICER 19163 EDWARDS RD GENE YEAGER REPORTED NEIGHBOR IS BURNING LEAVES AND SMOKING UP THE NEIGHBORHOOD.
 taccad:SQUAD RUN 14740 OAK GROVE DR 28 NICOLE SHORTRIDGE REQUEST SQUAD 26 YOF WITHDRAWAL FROM MEDICATIONS
 taccad:SQUAD RUN 14083 HATFIELD RD 87 YO M FALL VICTIM POSSIBLE BROKEN HIP
+
+Contact: "medicxv@yahoo.com" <medicxv@yahoo.com>
+Sender: taccad@rittman.com
+SQUAD RUN 41 WILLARD ST JOE AYERS, AGE 76, TINGLING IN LEGS AND FEET
+SQUAD RUN 33 LANE ST CARL JENTES, AGE 74, CHEST PAINS
+SQUAD RUN 37 ELLIOTT ST NW S TONY WHITE, AGE 48, SEVERE STOMACH PAIN
+
 */
 
 public class OHWayneCountyAParser extends SmartAddressParser {
@@ -32,17 +40,28 @@ public class OHWayneCountyAParser extends SmartAddressParser {
   
   @Override
   public String getFilter() {
-    return "@pd.rittman.com";
+    return "@pd.rittman.com,taccad";
   }
   
   @Override
   public boolean parseMsg(String body, Data data) {
     
-    Matcher match = MASTER.matcher(body);
-    if (!match.matches()) return false;
+    do {
+      Matcher match = MASTER.matcher(body);
+      if (match.matches()) {
+        body = match.group(1).trim();
+        break;
+      }
+      
+      // We'll take it as long as it passed some kind of sender filter :(
+      if (!ManagePreferences.overrideFilter() || ManagePreferences.filter().length() > 0) break; 
+      return false;
+      
+    } while (false);
+    
     parseAddress(StartType.START_CALL, 
                  FLAG_START_FLD_REQ | FLAG_IMPLIED_INTERSECT | FLAG_NO_IMPLIED_APT, 
-                 match.group(1).trim(), data);
+                 body, data);
     String sPlace = getLeft();
     data.strSupp = sPlace;
     if (data.strAddress.length() < 4 ){
