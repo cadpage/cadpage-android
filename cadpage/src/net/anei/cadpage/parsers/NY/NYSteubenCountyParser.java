@@ -77,7 +77,7 @@ Wayland FD
 Contact: Matthew Tuller <mtuller21@gmail.com>
 Sender: messaging@iamresponding.com
 Subject:Wayland FD\n1790 STATE ROUTE 63 , WAYLAND TOWN OF (GROSS HILL RD / RESERVOIR RD)\n26A1 Sick Person No priority symptoms (com
-
+Subject:Wayland FD\nCOUNTY ROUTE 92\HENRY DRUM RD , WAYLAND TOWN OF\n29B1 Traffic Accidents  Injuries\nWAYLAFDAMB:2011:504\n\n
 
 */
 
@@ -149,7 +149,8 @@ public class NYSteubenCountyParser extends SmartAddressParser {
 	      body = body.substring(0,match.start()).trim();
 	    }
     }
-    body = body.replace('\n', ' ');
+    
+    body = body.replace('\n', ' ').replace('\\', '/');
     
     // Check for special information header
     match = INFO_HEADER.matcher(body);
