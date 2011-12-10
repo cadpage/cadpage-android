@@ -205,7 +205,7 @@ public class PAYorkCountyAParserTest extends BaseParserTest {
 
     doTest("T4",
         "(Station 68) FAIRVIEW TWP    56 MEADOWBROOK CT DEAD END / SHAUFFNERTOWN RD, DILLER RD FIRE STRUCT RESID Mobile home fire   68-05 FIRESTA68 E68-2 E69-1 T",
-        "SRC:FIRESTA68",
+        "SRC:Station 68",
         "CITY:FAIRVIEW TWP",
         "ADDR:56 MEADOWBROOK CT",
         "CALL:DEAD END / SHAUFFNERTOWN RD DILLER RD FIRE STRUCT RESID Mobile home fire",
