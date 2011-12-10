@@ -578,6 +578,8 @@
     <item>WICalumetCounty</item>
     <item>WIEauClaire</item>
     <item>WIKenoshaCounty</item>
+    <item>WIOutagamieCounty</item>
+    <item>WIWinnebagoCounty</item>
   </string-array>
   
   <string-array name="pref_location_options">
@@ -911,6 +913,8 @@
     <item>Calumet County, WI</item>
     <item>Eau Claire, WI</item>
     <item>Kenosha County, WI</item>
+    <item>Outagamie County, WI</item>
+    <item>Winnebago County, WI</item>
   </string-array>
 
   <string-array name="email_devel_addr">
