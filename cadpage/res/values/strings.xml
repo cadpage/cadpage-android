@@ -484,4 +484,11 @@
   <string name="notification_msg_acc_title">Cadpage</string>
   <string name="notification_msg_acc_text">Processing incoming alert</string>
   
+  <!-- Direct Paging settings -->
+  <string name="pref_direct_paging_title">Direct Paging Settings</string>
+  <string name="pref_direct_paging_summary">Set up direct paging service</string>
+  
+  <string name="pref_vendors_screen_title">Direct Paging Services</string>
+  <string name="pref_vendors_screen_summary">Messaging services that can push pages directly to Cadpage</string>
+  
 </resources>

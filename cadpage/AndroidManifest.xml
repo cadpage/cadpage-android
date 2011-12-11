@@ -21,6 +21,8 @@
     <activity android:name=".SmsPopupActivity" android:theme="@android:style/Theme.Dialog" android:launchMode="singleTask" android:configChanges="keyboardHidden|orientation" android:screenOrientation="user" android:taskAffinity="net.anei.cadpage.popup"/>
     <activity android:name=".EmailDeveloperActivity" android:theme="@android:style/Theme.Dialog" android:launchMode="singleTask" android:screenOrientation="user"/>
     <activity android:name=".donation.DonateActivity" android:theme="@android:style/Theme.Dialog" android:screenOrientation="user"/>
+    <activity android:name=".vendors.VendorActivity" android:theme="@android:style/Theme.Dialog" android:screenOrientation="user"/>
+    <activity android:name=".vendors.NoticeActivity"/>
     <receiver android:name=".SmsReceiver">
       <intent-filter android:priority="1000">
         <action android:name="android.provider.Telephony.SMS_RECEIVED" />

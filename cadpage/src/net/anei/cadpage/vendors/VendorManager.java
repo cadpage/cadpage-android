@@ -1,7 +1,13 @@
 package net.anei.cadpage.vendors;
 
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 import net.anei.cadpage.C2DMReceiver;
 import android.content.Context;
+import android.net.Uri;
 import android.preference.PreferenceScreen;
 
 /**
@@ -11,7 +17,8 @@ public class VendorManager {
   
   // List of supported vendors
   private Vendor[] vendorList = new Vendor[]{
-    new CodeMessagingVendor()
+    new CodeMessagingVendor(),
+    new Active911Vendor()
   };
   
   /**
@@ -66,6 +73,14 @@ public class VendorManager {
     if (reregister) C2DMReceiver.register(context);
   }
   
+  /**
+   * Handle vendor request received as a C2DM message
+   * @param context current context
+   * @param type request type
+   * @param vendorCode vendor code
+   * @param account vendor account
+   * @param token vendor security token
+   */
   public void vendorRequest(Context context, String type, String vendorCode,
                               String account, String token) {
 
@@ -75,11 +90,83 @@ public class VendorManager {
     vendor.vendorRequest(context, type, account, token);
   }
   
+  
+  /**
+   * Check for a C2DM discovery text message
+   * @param context current context
+   * @param message received text message
+   * @return possibly modified text message to be processed, of null if
+   * this was a discovery query that should not be visible to anything else
+   */
+  public String discoverQuery(Context context, String message) {
+    
+    // There are two kinds of discover messages.  A standalone query
+    // always begins with a fixed string and contains an http URL
+    if (message.startsWith("*CADPAGEQ*")) {
+      Matcher match = HTTP_PATTERN.matcher(message);
+      if (match.find()) {
+        String urlStr = match.group();
+        
+        // Confirm that it is a valid URL
+        try {
+          new URL(urlStr);
+        } catch (MalformedURLException ex) {
+          return message;
+        }
+        
+        // Build URI from URL and extract the top level host name
+        Uri uri = Uri.parse(urlStr); 
+        String host = extractHostName(uri);
+        if (host == null) return message;
+        
+        // Loop through the vendors looking for one with a base URL pointing
+        // to the same top level host name
+        for (Vendor vendor : vendorList) {
+          Uri vendorUri = vendor.getBaseURI();
+          if (host.equals(extractHostName(vendorUri))) {
+            vendor.registerReq(context, uri);
+            return null;
+          }
+        }
+      }
+    }
+    
+    // An inline query is simply a 4+ character prefix unique to each vendor
+    // If we find it, all we do is flag the vendor as receiving text pages
+    // and strip off the trigger prefix
+    else {
+      for (Vendor vendor : vendorList) {
+        String tag = vendor.getTrigerCode();
+        if (tag != null && tag.length()>=4 && message.startsWith(tag)) {
+          vendor.setTextPage(true);
+          message = message.substring(tag.length());
+          break;
+        }
+      }
+    }
+    
+    return message;
+  }
+  private static final Pattern HTTP_PATTERN = Pattern.compile("\\bhttps?//:[^ ]+");
+  
+  /**
+   * Return top level host name associated with URL
+   * @param urlStr URL string
+   * @return top level host name extracted from URL
+   */
+  private static String extractHostName(Uri uri) {
+    String host = uri.getHost();
+    int pt = host.lastIndexOf('.');
+    if (pt > 0) pt = host.lastIndexOf('.', pt-1);
+    if (pt >= 0) host = host.substring(pt+1);
+    return host;
+  }
+  
   /**
    * Append vendor status info to logging buffer 
    * @param sb String buffer accumulated log information
    */
-  public void addStatusInfo(StringBuffer sb) {
+  public void addStatusInfo(StringBuilder sb) {
     for (Vendor vendor : vendorList) vendor.addStatusInfo(sb);
   }
   

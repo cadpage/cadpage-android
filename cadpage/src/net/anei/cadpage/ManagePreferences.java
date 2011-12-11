@@ -11,6 +11,7 @@ import java.util.Map;
 
 import net.anei.cadpage.donation.DonationManager;
 import net.anei.cadpage.donation.MainDonateEvent;
+import net.anei.cadpage.vendors.VendorManager;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -749,6 +750,9 @@ public class ManagePreferences {
     // Add locale info
     sb.append(String.format("locale: %s\n",
         context.getResources().getConfiguration().locale.getDisplayName()));
+    
+    // Add Vendor config info
+    VendorManager.instance().addStatusInfo(sb);
   }
 
   

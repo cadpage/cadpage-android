@@ -21,6 +21,8 @@ abstract class Vendor {
   private Uri baseURI;
   private String triggerCode;
   
+  private Uri discoverUri = null;;
+  
   private SharedPreferences prefs;
   
   // True if vendor is active (ie has successfully registered with server
@@ -94,6 +96,13 @@ abstract class Vendor {
   }
   
   /**
+   * @return base vendor URI that we use to communicate with this vendor
+   */
+  Uri getBaseURI() {
+    return baseURI;
+  }
+  
+  /**
    * @return trigger code at beginning of SMS text page that identifies this vendor
    */
   String getTrigerCode() {
@@ -101,7 +110,7 @@ abstract class Vendor {
   }
   
   /**
-   * Register Activity assoicated with this vendor
+   * Register Activity associated with this vendor
    * @param activity vendor activity
    */
   void registerActivity(VendorActivity activity) {
@@ -137,6 +146,7 @@ abstract class Vendor {
    * @param textPage new value
    */
   public void setTextPage(boolean textPage) {
+    if (enabled) return;
     if (textPage == this.textPage) return;
     this.textPage = textPage;
     SharedPreferences.Editor editor = prefs.edit();
@@ -148,9 +158,10 @@ abstract class Vendor {
    * Append vendor status info to logging buffer 
    * @param sb String buffer accumulated log information
    */
-  void addStatusInfo(StringBuffer sb) {
+  void addStatusInfo(StringBuilder sb) {
     sb.append("\n\nVendor:" + vendorCode);
     sb.append("\nenabled:" + enabled);
+    sb.append("\ntextPage:" + textPage);
     if (enabled) {
       sb.append("\naccount:" + account);
       sb.append("\ntoken:" + token);
@@ -165,38 +176,48 @@ abstract class Vendor {
   }
 
   /**
-   * set enabled status of vendor
-   * @param enabled new enabled status
+   * Process user request for more information about vendor
+   * @param context current context
    */
-  void setEnabled(boolean enabled) {
-    this.enabled = enabled;
+  void moreInfoReq(Context context) {
+    Uri uri = baseURI.buildUpon().appendQueryParameter("req", "info").build();
+    viewPage(context, uri);
   }
 
   /**
-   * Process user request for more information about vendor
-   * @param vendorActivity
+   * Process user request to register with vendor
+   * @param context Current context
    */
-  void moreInfoReq(VendorActivity vendorActivity) {
-    Uri uri = baseURI.buildUpon().appendQueryParameter("req", "info").build();
-    viewPage(vendorActivity, uri);
+  void registerReq(Context context) {
+    registerReq(context, null);
   }
 
-  void registerReq(VendorActivity vendorActivity) {
+  /**
+   * Process vendor discovery request
+   * @param context current context
+   * @param uri URI included in discover request or null if user request
+   */
+  public void registerReq(Context context, Uri uri) {
+    
+    // If already enabled, we don't have to do anything
+    if (enabled) return;
     
     // Set registration in progress flag
+    // and save the discovery URI
     inProgress = true;
+    discoverUri = uri;
     
     // See if we already have a registration ID, if we do, use it to send
     // registration request to vendor server
     String regId = ManagePreferences.registrationId();
     if (regId != null) {
-      registerC2DMId(vendorActivity, regId);
+      registerC2DMId(context, regId);
     }
     
     // If we don't request one and and send the request to the server when
     // it comes back in
     else {
-      C2DMReceiver.register(vendorActivity);
+      C2DMReceiver.register(context);
     }
   }
 
@@ -232,9 +253,24 @@ abstract class Vendor {
     
     // If we are in process of registering with server, send the web registration request
     if (inProgress) {
-      Uri uri = buildRequestUri("register", registrationId);
-      viewPage(context, uri);
+      
+      // If we got a discovery URI from the vendor, send directly to that
+      // It isn't our problem if it isn't accepted
+      if (discoverUri != null) {
+        Uri uri = discoverUri.buildUpon().appendQueryParameter("CadpageRegId", registrationId).build();
+        HttpService.addHttpRequest(context, new HttpRequest(uri){
+          @Override
+          public void processResponse(int status, String result) {}
+        });
+      } 
+      
+      // Otherwise build a registration URL and display it in the web browser 
+      else {
+        Uri uri = buildRequestUri("register", registrationId);
+        viewPage(context, uri);
+      }
       inProgress = false;
+      discoverUri = null;
     }
     
     // Otherwise, if we are registered with this server, pass the new registration
@@ -248,9 +284,8 @@ abstract class Vendor {
           // If response was successful, we don't care about any details
           if (status % 100 == 2) return;
           showNotice(context, R.string.vendor_register_err_msg, result);
-          
-          // Otherwise, tell the user we have lost contact with this vendor
-          
+          enabled = false;
+          saveStatus();
         }});            
     }
   }
@@ -275,7 +310,8 @@ abstract class Vendor {
     if (change) {
       if (activity != null) activity.update();
       showNotice(context, register ? R.string.vendor_connect_msg : R.string.vendor_disconnect_msg, null);
-      if (! register) C2DMReceiver.unregister(context);
+      if (register) setTextPage(false);
+      else C2DMReceiver.unregister(context);
     }
   }
 

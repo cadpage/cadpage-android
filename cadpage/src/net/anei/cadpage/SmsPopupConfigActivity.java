@@ -9,6 +9,7 @@ import net.anei.cadpage.preferences.EditTextPreference;
 import net.anei.cadpage.preferences.LocationCheckBoxPreference;
 import net.anei.cadpage.preferences.LocationListPreference;
 import net.anei.cadpage.preferences.LocationManager;
+import net.anei.cadpage.vendors.VendorManager;
 import android.content.SharedPreferences;
 import android.content.res.Resources;
 import android.os.Bundle;
@@ -199,6 +200,15 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
         EmailDeveloperActivity.sendGeneralEmail(SmsPopupConfigActivity.this);
         return true;
       }});
+    
+    // Set up C2DM vendor preference screen
+    PreferenceScreen vendorPref = (PreferenceScreen)findPreference(getString(R.string.pref_vendors_screen_key));
+    if (DonationManager.instance().isFreeVersion() || 
+        !DeveloperToolsManager.instance().isDeveloper(this)) {
+      vendorPref.setEnabled(false);
+    } else {
+      VendorManager.instance().setupPreference(this, vendorPref);
+    }
     
     // If free version, switch release notes text to free release notes text
     if (DonationManager.instance().isFreeVersion()) {

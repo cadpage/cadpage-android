@@ -7,6 +7,13 @@
     why everyone should sign up for it immediately
   </string>
   
+  <string name="active911_title">Active 911</string>
+  <string name="active911_summary">The local alternative</string>
+  <string name="active911_text">
+    A nice long description of why Active 911 is such a cool product and
+    why everyone should sign up for it immediately
+  </string>
+  
   <string name="vendor_notice_title">Cadpage Direct Paging</string>
   
   <string name="vendor_more_info">Tell me more</string>
