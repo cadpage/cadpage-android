@@ -26,6 +26,9 @@ abstract class Vendor {
   // True if vendor is active (ie has successfully registered with server
   private boolean enabled = false;
   
+  // True if we have have identified text pages coming from this vendor
+  private boolean textPage = false;
+  
   // True if we are in processing of registering with vendor server
   private boolean inProgress = false;
   
@@ -114,6 +117,8 @@ abstract class Vendor {
     enabled = prefs.getBoolean("enabled", false);
     account = prefs.getString("account", null);
     token = prefs.getString("token", null);
+    
+    textPage = prefs.getBoolean("textPage", false);
   }
   
   /**
@@ -124,6 +129,18 @@ abstract class Vendor {
     editor.putBoolean("enabled", enabled);
     editor.putString("account", account);
     editor.putString("token", token);
+    editor.commit();
+  }
+  
+  /**
+   * Set the text page received flag to selected value
+   * @param textPage new value
+   */
+  public void setTextPage(boolean textPage) {
+    if (textPage == this.textPage) return;
+    this.textPage = textPage;
+    SharedPreferences.Editor editor = prefs.edit();
+    editor.putBoolean("textPage", textPage);
     editor.commit();
   }
   
@@ -275,6 +292,7 @@ abstract class Vendor {
     if (account != null) builder = builder.appendQueryParameter("account", account);
     if (token != null) builder = builder.appendQueryParameter("token", token);
     if (phone != null) builder = builder.appendQueryParameter("phone", phone);
+    builder = builder.appendQueryParameter("type", "C2DM");
     if (registrationId != null) builder = builder.appendQueryParameter("CadpageRegId", registrationId);
     return builder.build();
   }

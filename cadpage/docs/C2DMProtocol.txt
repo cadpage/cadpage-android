@@ -36,6 +36,7 @@ req=info       general request for information about your company and service
 req=register - initial user request to register phone
     vendor          Vendor code
     phone           Phone number if we have it (for Android tablets we probably will not)
+    type            C2DM for now (Another code my be used in future for Apple Push connections)
     CadpageRegId    Cadpage registration ID, this is what you need to send messages to this device
 
     This also comes from a web browser.  If you redirect them to other links, it is
@@ -50,6 +51,7 @@ req=reregister  Used by Cadpage to report a change to the device registration ID
     account         Account number/string reported in REGISTER request to device
     phone           Phone number reported in REGISTER request to device
     token           Security token reported in REGISTER request to device
+    type            C2DM for now (Another code my be used in future for Apple Push connections)
     CadpageRegId    New Cadpage registration ID
     
     Return an OK or ERROR response code to indicate success or failure
@@ -59,6 +61,7 @@ req=unregister     Used by Cadpage to inidicate user request to unregister their
     account         Account number/string reported in REGISTER request to device
     phone           Phone number reported in REGISTER request to device
     token           Security token reported in REGISTER request to device
+    type            C2DM for now (Another code my be used in future for Apple Push connections)
     CadpageRegId    New Cadpage registration ID
     
     Return an OK or ERROR response code to indicate success or failure
@@ -99,10 +102,13 @@ account:    Users account number with your service
 token:      Security token that will be reported back to your servers with
             reregister and unregister requests
             
-For regular message requests        
+For regular message requests    
+Either content or contentURL must be specified, everything else is optional.    
 from - Sender address (default C2DM)
 subject - Message subject (optional)
-content - Actual message content (This is the only required field)
+content - Actual message content
+contentURL - URL from from which message content can be retrieved 
+             (use only if sending actual content exceeds the maximum size limit)
 format - Format/location parsing code (default, use user configured location code)
 sponsor - sponsoring organization (Setting this to non-empty value implies that you
           are someone else is paying us so we won't try to collect from end users)
