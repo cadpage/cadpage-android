@@ -78,6 +78,7 @@ public class MDAnneArundelCountyEMSParser extends SmartAddressParser {
   private static final Pattern OPEN_DELIM = Pattern.compile("\\(|\\[");
   private static final Pattern MAP1 = Pattern.compile(" (\\d{1,2}-[A-Z]\\d{1,2}) ");
   private static final Pattern MAP2 = Pattern.compile("\\d{1,2}-[A-Z]\\d{1,2}");
+  private static final Pattern MAP3 = Pattern.compile("\\d{2,4}[A-Z]\\d");
   private static final Pattern T_MARKER2 = Pattern.compile(";? (\\d{4})\\b");
 
   public MDAnneArundelCountyEMSParser() {
@@ -136,7 +137,11 @@ public class MDAnneArundelCountyEMSParser extends SmartAddressParser {
         body = p.get();
         
         if (stch == '(') {
-          data.strCross = append(data.strCross, " & ", fld);
+          if (MAP3.matcher(fld).matches()) {
+            data.strMap = fld;
+          } else {
+            data.strCross = append(data.strCross, " & ", fld);
+          }
         } else {
           if (fld.startsWith("Unit ")) {
             data.strApt = fld.substring(5).trim();
@@ -214,6 +219,8 @@ public class MDAnneArundelCountyEMSParser extends SmartAddressParser {
   }
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
-      "CR", "CROFTON"
+      "CR", "CROFTON",
+      "DV", "DAVIDSONVILLE",
+      "GM", "GAMBRILLS"
   });
 }

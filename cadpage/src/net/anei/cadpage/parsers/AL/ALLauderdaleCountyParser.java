@@ -35,6 +35,7 @@ public class ALLauderdaleCountyParser extends FieldProgramParser {
       "ANDE", "ANDERSON",
       "FLOR", "FLORENCE",
       "KILL", "KILLEN",
+      "LEX",  "LEXINGTON",
       "ROGE", "ROGERSVILLE",
       "STFL", "ST FLORIAN"
   });
