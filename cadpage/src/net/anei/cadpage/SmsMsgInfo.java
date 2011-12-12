@@ -193,6 +193,11 @@ public class SmsMsgInfo {
     
     if (strMapAddress != null) return strMapAddress;
     
+    if (SmsPopupUtils.GPSPattern.matcher(strAddress).find()) {
+      strMapAddress = strAddress;
+      return strMapAddress;
+    }
+    
     String sAddr = strAddress;
     sAddr = DIR_OF_PTN.matcher(sAddr).replaceAll(" & ");
     sAddr = cleanStreetSuffix(sAddr);
