@@ -64,6 +64,7 @@ public class ALLauderdaleCountyParserTest extends BaseParserTest {
         "PRI: KLVFD AD: J C MAULDIN HWY KILL  TIME: 16:28:30 EV: WRECK-INJURY -: BLOCKAGE CS1: HWY 72 CS2: BRUSH CREEK RD RE:  ALT# 256-810-6502 -087.556701 +34.856937 CALLER REPORTING WRECK UNKNOWN INJURIES",
         "SRC:KLVFD",
         "ADDR:J C MAULDIN HWY",
+        "MADDR:J C MAULDIN HWY & HWY 72",
         "CITY:KILLEN",
         "CALL:WRECK-INJURY - BLOCKAGE",
         "X:HWY 72 & BRUSH CREEK RD",
@@ -102,6 +103,21 @@ public class ALLauderdaleCountyParserTest extends BaseParserTest {
         "CALL:WEATHER - TSTORM-WARNG",
         "INFO:SPECIAL ADDRESS COMMENT: no ad SEVERE THUNDERSTORM WARNING TIL 2:30AM");
         
+  }
+  
+  @Test
+  public void testFlorence() {
+
+    doTest("T1",
+        "(IPS I/Page) PRI: FFR AD: 205 MARENGO ST FLOR: @ECM  TIME: 17:35:34 EV: FD-SPILL -: FUEL CS1: W ALABAMA ST CS2: W COLLEGE ST RE:  SPECIAL ADDRESS COMMENT:",
+        "SRC:FFR",
+        "ADDR:205 MARENGO ST",
+        "CITY:FLORENCE",
+        "PLACE:ECM",
+        "CALL:FD-SPILL - FUEL",
+        "X:W ALABAMA ST & W COLLEGE ST",
+        "INFO:SPECIAL ADDRESS COMMENT:");
+
   }
   
   public static void main(String[] args) {

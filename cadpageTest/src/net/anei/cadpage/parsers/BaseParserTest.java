@@ -15,6 +15,7 @@ import org.junit.Test;
 
 import net.anei.cadpage.SmsMmsMessage;
 import net.anei.cadpage.SmsMsgInfo;
+import net.anei.cadpage.SmsPopupUtils;
 import net.anei.cadpage.TestManagePreferences;
 import net.anei.cadpage.parsers.FieldProgramParser.Field;
 
@@ -172,8 +173,10 @@ public abstract class BaseParserTest {
     String actMapAddr = "";
     if (chkMapAddr) {
       actMapAddr = info.getMapAddress();
-      int pt = actMapAddr.indexOf(',');
-      if (pt >= 0) actMapAddr = actMapAddr.substring(0,pt).trim();
+      if (!SmsPopupUtils.GPSPattern.matcher(actMapAddr).find()) {
+        int pt = actMapAddr.indexOf(',');
+        if (pt >= 0) actMapAddr = actMapAddr.substring(0,pt).trim();
+      }
       if (actMapAddr.equals(info.getAddress())) actMapAddr = "";
       if (!STRICT_MAP_CHECK && expMapAddr.length() == 0) actMapAddr = "";
     }
