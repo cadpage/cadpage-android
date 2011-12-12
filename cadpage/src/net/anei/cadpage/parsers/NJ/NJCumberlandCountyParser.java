@@ -36,7 +36,7 @@ public class NJCumberlandCountyParser extends FieldProgramParser {
   
   public NJCumberlandCountyParser() {
     super("CUMBERLAND COUNTY", "NJ",
-           "UNIT CALL ADDR TIME! PLACE");
+           "UNIT CALL ADDR DATETIME! PLACE");
   }
   
   @Override
@@ -94,9 +94,14 @@ public class NJCumberlandCountyParser extends FieldProgramParser {
     }
   }
   
-  private class TimeStampField extends SkipField {
-    public TimeStampField() {
-      setPattern(Pattern.compile("\\d\\d\\d\\d-\\d\\d-\\d\\d \\d\\d[: ]\\d\\d:\\d\\d"), true);
+  private static final Pattern DATE_TIME_PTN = Pattern.compile("(\\d\\d\\d\\d)-(\\d\\d)-(\\d\\d) (\\d\\d[: ]\\d\\d:\\d\\d)");
+  private class MyDateTimeField extends DateTimeField {
+    @Override
+    public void parse(String field, Data data) {
+      Matcher match = DATE_TIME_PTN.matcher(field);
+      if (!match.matches()) abort();
+      data.strDate = match.group(2) + "/" + match.group(3) + "/" + match.group(1);
+      data.strTime = match.group(4);
     }
   }
   
@@ -110,7 +115,7 @@ public class NJCumberlandCountyParser extends FieldProgramParser {
   @Override
   public Field getField(String name) {
     if (name.equals("ADDR")) return new MyAddressField();
-    if (name.equals("TIME")) return new TimeStampField();
+    if (name.equals("DATETIME")) return new MyDateTimeField();
     if (name.equals("PLACE")) return new MyPlaceField();
     return super.getField(name);
   }
