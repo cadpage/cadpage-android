@@ -12,13 +12,15 @@ public class NJCumberlandCountyParserTest extends BaseParserTest {
   
   @Test
   public void testParser1() {
-    
+
     doTest("T1",
         "E911:E22_INVEST_(VINELAND CITY)1763 CHEROKEE LA_2011-04-24 19:02:46_",
         "UNIT:E22",
         "CALL:INVEST",
         "CITY:VINELAND CITY",
-        "ADDR:1763 CHEROKEE LN");
+        "ADDR:1763 CHEROKEE LN",
+        "DATE:04/24/2011",
+        "TIME:19:02:46");
 
     doTest("T2",
         "E911:E2902_STRUCTURE_(GREENWICH TWP)176 BAYSIDE RD_2011-04-24 17:27:45_AREA OF THE BAY",
@@ -26,6 +28,8 @@ public class NJCumberlandCountyParserTest extends BaseParserTest {
         "CALL:STRUCTURE",
         "CITY:GREENWICH TWP",
         "ADDR:176 BAYSIDE RD",
+        "DATE:04/24/2011",
+        "TIME:17:27:45",
         "PLACE:AREA OF THE BAY");
 
     doTest("T3",
@@ -33,8 +37,10 @@ public class NJCumberlandCountyParserTest extends BaseParserTest {
         "UNIT:E22",
         "CALL:COMM ALARM",
         "CITY:VINELAND CITY",
-        "PLACE:CARNIVAL DISCOUNT LIQUORS",
-        "ADDR:4039 S MAIN RD");
+        "ADDR:4039 S MAIN RD",
+        "DATE:04/24/2011",
+        "TIME:12:27:19",
+        "PLACE:CARNIVAL DISCOUNT LIQUORS");
 
     doTest("T4",
         "E911:29R-FA_BLEEDING_(DEERFIELD TWP)246 KENYON AV/SHINDLE RES_2011-05-02 10:25:55_",
@@ -43,6 +49,8 @@ public class NJCumberlandCountyParserTest extends BaseParserTest {
         "CITY:DEERFIELD TWP",
         "ADDR:246 KENYON AV",
         "MADDR:246 KENYON AVE",
+        "DATE:05/02/2011",
+        "TIME:10:25:55",
         "PLACE:SHINDLE RES");
 
     doTest("T5",
@@ -50,24 +58,30 @@ public class NJCumberlandCountyParserTest extends BaseParserTest {
         "UNIT:29R-FA",
         "CALL:BLEEDING",
         "CITY:DEERFIELD TWP",
-        "PLACE:CUMBERLAND COUNTY TEC / NURSING OFFICE",
         "ADDR:601 BRIDGETON AV",
-        "MADDR:601 BRIDGETON AVE");
+        "MADDR:601 BRIDGETON AVE",
+        "DATE:05/02/2011",
+        "TIME:09:27:47",
+        "PLACE:CUMBERLAND COUNTY TEC / NURSING OFFICE");
 
     doTest("T6",
         "E911:E21_VEHICLE_(VINELAND CITY)S DELSEA DR & W ELMER RD_2011-05-01 18:46:26_",
         "UNIT:E21",
         "CALL:VEHICLE",
         "CITY:VINELAND CITY",
-        "ADDR:S DELSEA DR & W ELMER RD");
+        "ADDR:S DELSEA DR & W ELMER RD",
+        "DATE:05/01/2011",
+        "TIME:18:46:26");
 
     doTest("T7",
         "E911:L2_COMM ALARM_(VINELAND CITY)COURTYARD SCHOOL INC / 1270 S EAST AVE_2011-05-01 17:03:36_",
         "UNIT:L2",
         "CALL:COMM ALARM",
         "CITY:VINELAND CITY",
-        "PLACE:COURTYARD SCHOOL INC",
-        "ADDR:1270 S EAST AVE");
+        "ADDR:1270 S EAST AVE",
+        "DATE:05/01/2011",
+        "TIME:17:03:36",
+        "PLACE:COURTYARD SCHOOL INC");
 
     doTest("T8",
         "E911:B2_UNKNOWNF_(VINELAND CITY)1775 ROOSEVELT BLVD / BEHIND_2011-05-01 00:10:13_",
@@ -75,6 +89,8 @@ public class NJCumberlandCountyParserTest extends BaseParserTest {
         "CALL:UNKNOWNF",
         "CITY:VINELAND CITY",
         "ADDR:1775 ROOSEVELT BLVD",
+        "DATE:05/01/2011",
+        "TIME:00:10:13",
         "PLACE:BEHIND");
 
     doTest("T9",
@@ -83,17 +99,20 @@ public class NJCumberlandCountyParserTest extends BaseParserTest {
         "CALL:MVC",
         "CITY:DEERFIELD TWP",
         "ADDR:BIG OAK RD & MORTON AV",
-        "MADDR:BIG OAK RD & MORTON AVE");
-
+        "MADDR:BIG OAK RD & MORTON AVE",
+        "DATE:04/30/2011",
+        "TIME:00:06:19");
 
     doTest("T10",
         "E911:E2901_COMM ALARM_(DEERFIELD TWP)MAJOR OIL / 733 LANDIS AV_2011-05-12 09:29:52_",
         "UNIT:E2901",
         "CALL:COMM ALARM",
         "CITY:DEERFIELD TWP",
-        "PLACE:MAJOR OIL",
         "ADDR:733 LANDIS AV",
-        "MADDR:733 LANDIS AVE");
+        "MADDR:733 LANDIS AVE",
+        "DATE:05/12/2011",
+        "TIME:09:29:52",
+        "PLACE:MAJOR OIL");
   }
   
   @Test
@@ -105,6 +124,8 @@ public class NJCumberlandCountyParserTest extends BaseParserTest {
         "CALL:WDS/BRSH",
         "CITY:MILLVILLE CITY",
         "ADDR:301 N WADE BLVD",
+        "DATE:06/02/2011",
+        "TIME:21:50:47",
         "PLACE:MILL VILLAGE APTS / BEHIND/WOODS");
     
   }
@@ -117,7 +138,9 @@ public class NJCumberlandCountyParserTest extends BaseParserTest {
         "UNIT:E3202",
         "CALL:MVC",
         "CITY:UPPER DEERFIELD",
-        "ADDR:DUBOIS RD & FINLEY RD");
+        "ADDR:DUBOIS RD & FINLEY RD",
+        "DATE:08/16/2011",
+        "TIME:01 19:26");
 
   }
  
