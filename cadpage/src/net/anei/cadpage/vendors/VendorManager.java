@@ -6,6 +6,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.C2DMReceiver;
+import net.anei.cadpage.R;
 import android.content.Context;
 import android.net.Uri;
 import android.preference.PreferenceScreen;
@@ -71,6 +72,17 @@ public class VendorManager {
     
     // If any are, we need to request a new registration ID
     if (reregister) C2DMReceiver.register(context);
+  }
+  
+  /**
+   * Call by C2DMReceiver when a registration failure is reported
+   * @param context current context
+   * @param error error message
+   */
+  public void failureC2DMId(Context context, String error) {
+    String errMsg = context.getString(R.string.vendor_registration_error, error);
+    NoticeActivity.showNotice(context, errMsg);
+    
   }
   
   /**

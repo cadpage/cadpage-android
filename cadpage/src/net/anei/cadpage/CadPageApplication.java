@@ -1,6 +1,7 @@
 package net.anei.cadpage;
 
 import net.anei.cadpage.donation.UserAcctManager;
+import net.anei.cadpage.vendors.VendorManager;
 import android.app.Application;
 import android.content.Context;
 import android.content.pm.PackageInfo;
@@ -25,6 +26,8 @@ public class CadPageApplication extends Application {
       ManageParsers.getInstance().setupNames(this);
      
       UserAcctManager.setup(this);
+      
+      VendorManager.instance().setup(this);
       
       // Reload log buffer queue
       SmsMsgLogBuffer.setup(this);

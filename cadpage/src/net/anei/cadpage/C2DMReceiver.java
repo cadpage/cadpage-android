@@ -20,8 +20,8 @@ package net.anei.cadpage;
 
 
 import net.anei.cadpage.parsers.SmsMsgParser;
+import net.anei.cadpage.vendors.VendorManager;
 import android.app.Activity;
-import android.app.AlertDialog;
 import android.app.PendingIntent;
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -60,41 +60,24 @@ public class C2DMReceiver extends BroadcastReceiver {
     String error = intent.getStringExtra("error");
     if (error != null) {
       Log.w("C2DM registration failed: " + error);
-      if (curActivity != null) {
-        new AlertDialog.Builder(curActivity)
-              .setIcon(R.drawable.ic_launcher).setTitle("C2DM Registration Error")
-              .setPositiveButton(R.string.donate_btn_OK, null)
-              .setMessage(error)
-              .create().show();
-      }
+      ManagePreferences.setRegistrationId(null);
+      VendorManager.instance().failureC2DMId(context, error);
       return;
     }
     
     String regId = intent.getStringExtra("unregistered");
     if (regId != null) {
-      ManagePreferences.setRegistrationId(null);
       Log.w("C2DM registration cancelled: " + regId);
-      if (curActivity != null) {
-        new AlertDialog.Builder(curActivity)
-              .setIcon(R.drawable.ic_launcher).setTitle("C2DM Registration Cancelled")
-              .setPositiveButton(R.string.donate_btn_OK, null)
-              .setMessage(regId)
-              .create().show();
-      }
+      ManagePreferences.setRegistrationId(null);
+      VendorManager.instance().unregisterC2DMId(context, regId);
       return;
     }
     
     regId = intent.getStringExtra("registration_id");
     if (regId != null) {
-      ManagePreferences.setRegistrationId(regId);
       Log.w("C2DM registration succeeded: " + regId);
-      if (curActivity != null) {
-        new AlertDialog.Builder(curActivity)
-              .setIcon(R.drawable.ic_launcher).setTitle("C2DM Registration Succeeded")
-              .setPositiveButton(R.string.donate_btn_OK, null)
-              .setMessage(regId)
-              .create().show();
-      }
+      ManagePreferences.setRegistrationId(regId);
+      VendorManager.instance().registerC2DMId(context, regId);
       return;
     }
     
@@ -104,6 +87,29 @@ public class C2DMReceiver extends BroadcastReceiver {
     
     // If registration has been canceled, all C2DM messages should be ignored
     if (ManagePreferences.registrationId() == null) return;
+    
+    // Get the acknowledge URL and request code
+    String ackURL = intent.getStringExtra("ack_url");
+    String ackReq = intent.getStringExtra("ack_req");
+    if (ackURL == null) ackReq = null;
+    if (ackReq == null) ackReq = "";
+    
+    // If an auto acknowledge was requested do it now
+    if (ackReq.contains("A")) {
+      
+    }
+    
+    // See what kind of message this is
+    String type = intent.getStringExtra("type");
+    
+    // Register and unregister requests are handled by VendorManager
+    if (type.equals("REGISTER") || type.equals("UNREGISTER")) {
+      String vendor = intent.getStringExtra("vendor");
+      String account = intent.getStringExtra("account");
+      String token = intent.getStringExtra("token");
+      VendorManager.instance().vendorRequest(context, type, vendor, account, token);
+      return;
+    }
     
     // Reconstruct message from data
     String from = intent.getStringExtra("from");

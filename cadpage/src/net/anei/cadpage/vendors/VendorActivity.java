@@ -60,6 +60,14 @@ public class VendorActivity extends Activity {
         showDialog(CONFIRM_UNREGISTER_DLG);
       }
     });
+    
+    Button btn = (Button)findViewById(R.string.donate_btn_cancel);
+    btn.setOnClickListener(new OnClickListener(){
+      @Override
+      public void onClick(View v) {
+        VendorActivity.this.finish();
+      }
+    });
   }
 
   @Override

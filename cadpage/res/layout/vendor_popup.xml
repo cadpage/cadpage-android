@@ -62,5 +62,10 @@
     android:layout_height="wrap_content"
     android:layout_width="fill_parent"
     android:text="@string/vendor_unregister"/>
+  <Button
+    android:id="@+id/cancel_button"
+    android:layout_height="wrap_content"
+    android:layout_width="fill_parent"
+    android:text="@string/donate_btn_cancel"/>
     
 </LinearLayout>

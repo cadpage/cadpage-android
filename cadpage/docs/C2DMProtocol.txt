@@ -12,9 +12,6 @@ but shouldn't be too far off the standard which is.
   72x72 pixel
   48x48 pixel
   36x36 pixel
-  
-  512x512 pixels is the main one
-  
 
 None of this is set in stone yet.  If simple changes will make it easier to code
 the web interface, by all means lets change them.
@@ -92,8 +89,6 @@ type:   Message type which can take following values
         REGISTER - report successful cadpage registration
         UNREGISTER - report user initiated request to unregister from your servers
         PING - Cadpage will initiate automatic response to server
-        LOC - Cadpage will respond with user location.  (Only if user has enabled
-              location services and allowed Cadpage to report this info)
         PAGE (or anything not listed above) - alert page
         
 For REGISTER and UNREGISTER types
