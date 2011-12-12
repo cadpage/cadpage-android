@@ -1,6 +1,7 @@
 package net.anei.cadpage.parsers.MD;
 
 
+import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -62,6 +63,9 @@ Local Box 23-4 133 BOONE TRL E171 CO DET./NO INJURIES (COLD); 1159 CO [4/186] \n
 Contact: Michael Brown <mike.a.brown09@gmail.com>
 Box Alarm 7-13 2903 COLD SPRING WAY  [Unit 446] (PARKRIDGE CIR) 17-K3 Echo E7,E5,PE39,PE16,TK28,PTW43,SQ1,PM5,BC3,SCA COMMERCIAL/INDUSTRIAL (HOT); 1008 [3/33]
 
+Contact: Steve Race <srrace@comcast.net>
+Medical Box 7-13 1719 DRYDEN WY, CR - btwn DANA ST and DANA ST (5291K8) Bravo A79 Medical Alert Alarm; 1500 [7/52]
+
  */
 
 public class MDAnneArundelCountyEMSParser extends SmartAddressParser {
@@ -110,7 +114,13 @@ public class MDAnneArundelCountyEMSParser extends SmartAddressParser {
     }
     if (found) {
       int ipt = match.start();
-      parseAddress(body.substring(0,ipt).trim(), data);
+      String sAddr = body.substring(0,ipt).trim();
+      int pt = sAddr.indexOf("- btwn ");
+      if (pt >= 0) {
+        data.strCross = sAddr.substring(pt+7).trim();
+        sAddr = sAddr.substring(0,pt).trim();
+      }
+      parseAddrCity(sAddr, data);
       body = body.substring(ipt);
       
       // Following the address, we may find a place name in square brackets or
@@ -140,7 +150,7 @@ public class MDAnneArundelCountyEMSParser extends SmartAddressParser {
     // No brackets, maybe we can find a map indicator, which would mark the end
     // of the address
     else if ((match = MAP1.matcher(body)).find()) {
-      parseAddress(body.substring(0,match.start()).trim(), data);
+      parseAddrCity(body.substring(0,match.start()).trim(), data);
       body = body.substring(match.start()).trim();
     }
     
@@ -149,6 +159,13 @@ public class MDAnneArundelCountyEMSParser extends SmartAddressParser {
     else {
       parseAddress(StartType.START_ADDR, body, data);
       body = getLeft();
+      if (body.startsWith(",")) {
+        body = body.substring(2).trim();
+        int pt = body.indexOf(' ');
+        if (pt < 0) pt = body.length();
+        data.strCity = convertCodes(body.substring(0,pt).trim(), CITY_CODES);
+        body = body.substring(pt+1).trim();
+      }
     }
     
     // We aren't done yet.
@@ -181,4 +198,22 @@ public class MDAnneArundelCountyEMSParser extends SmartAddressParser {
 
     return true;
   }
+
+  /**
+   * Parse address and city
+   * @param sAddr address and city line
+   * @param data data object
+   */
+  private void parseAddrCity(String sAddr, Data data) {
+    int pt = sAddr.lastIndexOf(',');
+    if (pt >= 0) {
+      data.strCity = convertCodes(sAddr.substring(pt+1).trim(), CITY_CODES);
+      sAddr = sAddr.substring(0,pt).trim();
+    }
+    parseAddress(sAddr, data);
+  }
+  
+  private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "CR", "CROFTON"
+  });
 }
