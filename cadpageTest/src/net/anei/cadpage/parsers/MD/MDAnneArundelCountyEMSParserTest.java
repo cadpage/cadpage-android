@@ -344,12 +344,23 @@ public class MDAnneArundelCountyEMSParserTest extends BaseParserTest {
         "PRI:E",
         "UNIT:E7,E5,PE39,PE16,TK28,PTW43,SQ1,PM5,BC3,SCA",
         "ID:1008");
-    
+
+    doTest("T18",
+        "Medical Box 7-13 1719 DRYDEN WY, CR - btwn DANA ST and DANA ST (5291K8) Bravo A79 Medical Alert Alarm; 1500 [7/52]",
+        "BOX:7-13",
+        "CALL:Medical Alert Alarm",
+        "ADDR:1719 DRYDEN WY",
+        "CITY:CROFTON",
+        "X:DANA ST and DANA ST & 5291K8",
+        "PRI:B",
+        "UNIT:A79",
+        "ID:1500");
+   
   }
 
 
   public static void main(String[] args) {
-    new MDAnneArundelCountyEMSParserTest().generateTests("T17", "BOX CALL ADDR APT PLACE X UNIT ID INFO");
+    new MDAnneArundelCountyEMSParserTest().generateTests("T19", "BOX CALL ADDR APT CITY PLACE X PRI UNIT ID INFO");
   }
   
 }
