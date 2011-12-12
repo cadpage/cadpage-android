@@ -43,22 +43,24 @@ Contact: Joshua Ruby <josh@computerrescuemd.com>
 Contact: Chad Angelini <chadaangelini@verizon.net>
 (Text Message) QA911com:*D 6-1 CHEST PAINS 104 CHARLES ST DIFF SPEAKING Q06
 
+Contact: Brett VanZant <chvfd5@gmail.com>
+Sender: rc.165@c-msg.net
+(CAD) [CAD] QA911com:*D 4-1 COMMERCIAL BLDG FIRE 160 COURSEVALL DR @QAC PLANNING & ZONING COMMERCIAL BOX Q04
+
 ******************************************************************************/
 
 public class MDQueenAnnesCountyParser extends SmartAddressParser {
   
-  private static final String DEF_STATE = "MD";
-  private static final String DEF_CITY = "QUEEN ANNES COUNTY";
-  
   private static final Pattern MARKER = Pattern.compile("^(qac911|QA911com):\\*[DG] ");
+  private static final Pattern BOX_PTN = Pattern.compile("(?: BOX)? ([A-Z]{1,2}\\d{2})$");
   
   public MDQueenAnnesCountyParser() {
-    super(DEF_CITY, DEF_STATE);
+    super("QUEEN ANNES COUNTY", "MD");
   }
   
   @Override
   public String getFilter() {
-    return "qac911@qac.org,QA911com@qac.org";
+    return "qac911@qac.org,QA911com@qac.org,@c-msg.net";
   }
 
   @Override
@@ -69,8 +71,25 @@ public class MDQueenAnnesCountyParser extends SmartAddressParser {
     body = body.substring(match.end());
     
     // OK, go do your magic!!
-    parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ, body, data);
-    data.strSupp = getLeft();
+    parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ | FLAG_AT_BOTH, body, data);
+    
+    // Parse box number from what is left
+    String sExtra = getLeft();
+    match = BOX_PTN.matcher(sExtra);
+    if (match.find()) {
+      data.strBox = match.group(1);
+      sExtra = sExtra.substring(0, match.start()).trim();
+    }
+    
+    // What is left is usually suplaemtnat info.  But if the smart address parser
+    // picked a place name from the end of the the address, just append what is
+    // left to that
+    if (data.strPlace.length() > 0) {
+      data.strPlace = data.strPlace + " " + sExtra;
+    } else {
+      data.strSupp = sExtra;
+    }
+    
     return true;
   }
 }
