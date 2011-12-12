@@ -351,7 +351,8 @@ public class MDAnneArundelCountyEMSParserTest extends BaseParserTest {
         "CALL:Medical Alert Alarm",
         "ADDR:1719 DRYDEN WY",
         "CITY:CROFTON",
-        "X:DANA ST and DANA ST & 5291K8",
+        "X:DANA ST and DANA ST",
+        "MAP:5291K8",
         "PRI:B",
         "UNIT:A79",
         "ID:1500");
