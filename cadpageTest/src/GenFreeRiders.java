@@ -114,7 +114,7 @@ public class GenFreeRiders {
         int pt2 = line.indexOf(delim,pt1+1);
         if (pt2 < 0) throw new RuntimeException("Missing closing " + delim);
         user = line.substring(pt1+1,pt2).trim();
-        name = line.substring(0,pt1).trim();
+        name = line.substring(0,pt1).replace("\"", "").trim();
       }
       
       // Final validity check
