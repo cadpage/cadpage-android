@@ -66,6 +66,21 @@ Box Alarm 7-13 2903 COLD SPRING WAY  [Unit 446] (PARKRIDGE CIR) 17-K3 Echo E7,E5
 Contact: Steve Race <srrace@comcast.net>
 Medical Box 7-13 1719 DRYDEN WY, CR - btwn DANA ST and DANA ST (5291K8) Bravo A79 Medical Alert Alarm; 1500 [7/52]
 
+Contact: Michael Brown <mike.a.brown09@gmail.com>
+Medical Box 5-27 SB CRAIN HY/CAPITOL RACEWAY RD (5291K7) Bravo PM6,E5,A839,A289 MVC: Uknown Status; 2234 [6/118]
+Box Alarm 21-14 1562 PENZANCE WY, HA - btwn DORCHESTER BL and DORCHESTER BL (5055C5) Echo E29,TA5,QNT4,E10,SQ43,TK45,E45,TK28,E34,MU21,BC1,SCA1 Dwelling Fire (Hot ); 1920 [5/117]
+
+Box Alarm 21-14 = box assignment
+1562 PENZANCE WY, HA - btwn DORCHESTER BL and DORCHESTER BL = address of
+incident
+5055C5 = map coordinates
+Echo = TAC Channel
+E29,TA5,QNT4,E10,SQ43,TK45,E45,TK28,E34,MU21,BC1,SCA1 = Units
+Dwelling Fire = Incident Type
+Hot = Incident Response
+1920 = Time of Dispatch
+[5/117] = nothing important
+
  */
 
 public class MDAnneArundelCountyEMSParser extends SmartAddressParser {
@@ -185,7 +200,7 @@ public class MDAnneArundelCountyEMSParser extends SmartAddressParser {
     }
     
     if (token.length() >= 2 && Character.isLowerCase(token.charAt(1))) {
-      data.strPriority = token.substring(0,1);
+      data.strChannel = token;
       token = p.get(' ');
     }
     data.strUnit = token;
@@ -194,7 +209,8 @@ public class MDAnneArundelCountyEMSParser extends SmartAddressParser {
     // Anything left up to a possible trailing marker is the call description
     match = T_MARKER2.matcher(body);
     if (match.find()) {
-      data.strCallId = match.group(1);
+      String sTime = match.group(1);
+      data.strTime = sTime.substring(0,2) + ":" + sTime.substring(2,4);
       data.strSupp = new Parser(body.substring(match.end()).trim()).get('[');
       if (data.strSupp.equals("...")) data.strSupp = "";
       body = body.substring(0, match.start()).trim();
@@ -223,6 +239,7 @@ public class MDAnneArundelCountyEMSParser extends SmartAddressParser {
       "CV", "CROWNSVILLE",
       "DV", "DAVIDSONVILLE",
       "GM", "GAMBRILLS",
+      "HA", "HANOVER",
       "HN", "HANOVER"
   });
 }
