@@ -70,17 +70,6 @@ Contact: Michael Brown <mike.a.brown09@gmail.com>
 Medical Box 5-27 SB CRAIN HY/CAPITOL RACEWAY RD (5291K7) Bravo PM6,E5,A839,A289 MVC: Uknown Status; 2234 [6/118]
 Box Alarm 21-14 1562 PENZANCE WY, HA - btwn DORCHESTER BL and DORCHESTER BL (5055C5) Echo E29,TA5,QNT4,E10,SQ43,TK45,E45,TK28,E34,MU21,BC1,SCA1 Dwelling Fire (Hot ); 1920 [5/117]
 
-Box Alarm 21-14 = box assignment
-1562 PENZANCE WY, HA - btwn DORCHESTER BL and DORCHESTER BL = address of
-incident
-5055C5 = map coordinates
-Echo = TAC Channel
-E29,TA5,QNT4,E10,SQ43,TK45,E45,TK28,E34,MU21,BC1,SCA1 = Units
-Dwelling Fire = Incident Type
-Hot = Incident Response
-1920 = Time of Dispatch
-[5/117] = nothing important
-
  */
 
 public class MDAnneArundelCountyEMSParser extends SmartAddressParser {

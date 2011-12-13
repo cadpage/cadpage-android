@@ -19,6 +19,8 @@ package net.anei.cadpage;
 
 
 
+import net.anei.cadpage.HttpService.HttpRequest;
+import net.anei.cadpage.donation.DonationManager;
 import net.anei.cadpage.parsers.SmsMsgParser;
 import net.anei.cadpage.vendors.VendorManager;
 import android.app.Activity;
@@ -26,6 +28,7 @@ import android.app.PendingIntent;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
+import android.net.Uri;
 
 /**
  * Receives M2DM related intents 
@@ -46,6 +49,9 @@ public class C2DMReceiver extends BroadcastReceiver {
     
     // If initialization failure in progress, shut down without doing anything
     if (TopExceptionHandler.isInitFailure()) return;
+    
+    // Free version doesn't do C2DM stuff
+    if (DonationManager.instance().isFreeVersion()) return;
     
     if (ACTION_C2DM_REGISTERED.equals(intent.getAction())) {
       handleRegistration(context, intent);
@@ -94,13 +100,19 @@ public class C2DMReceiver extends BroadcastReceiver {
     if (ackURL == null) ackReq = null;
     if (ackReq == null) ackReq = "";
     
-    // If an auto acknowledge was requested do it now
-    if (ackReq.contains("A")) {
-      
+    // If there is a return URL, turn it into a URI
+    Uri ackUri = null;
+    if (ackURL != null) {
+      ackUri = Uri.parse(ackURL);
+      Uri uri = ackUri.buildUpon().appendQueryParameter("type", "auto").build();
+      HttpService.addHttpRequest(context, new HttpRequest(uri));
     }
     
     // See what kind of message this is
     String type = intent.getStringExtra("type");
+    
+    // Ping just needs to be acknowledged, which we have already done
+    if (type.equals("PING")) return;
     
     // Register and unregister requests are handled by VendorManager
     if (type.equals("REGISTER") || type.equals("UNREGISTER")) {

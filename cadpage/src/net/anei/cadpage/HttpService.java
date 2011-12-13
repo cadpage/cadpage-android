@@ -17,7 +17,7 @@ import android.os.Process;
 
 public class HttpService extends Service {
   
-  public static abstract class HttpRequest {
+  public static class HttpRequest {
     
     private URL url;
     private int connectTimeout;
@@ -69,7 +69,7 @@ public class HttpService extends Service {
      * @param status request response status
      * @param result request response result
      */
-    abstract public void processResponse(int status, String result);
+    public void processResponse(int status, String result) {}
   }
   
   private static Handler mHandler;
