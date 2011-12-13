@@ -220,7 +220,9 @@ public class MDAnneArundelCountyEMSParser extends SmartAddressParser {
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "CR", "CROFTON",
+      "CV", "CROWNSVILLE",
       "DV", "DAVIDSONVILLE",
-      "GM", "GAMBRILLS"
+      "GM", "GAMBRILLS",
+      "HN", "HANOVER"
   });
 }
