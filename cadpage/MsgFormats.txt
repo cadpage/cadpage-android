@@ -3613,6 +3613,20 @@ Respond for Alarm - Medical @ 24245 Wilderness Oak - 1408 - RETREAT AT CANYON SP
 Brown County, OH
 Contact: kieth <kiethw@frontier.com>
 
+(Alert: SICK PERSON (SPECIFIC DIAG)) 
+ALRM LVL: 1 
+LOC: DEERFIELD TOWNHOUSE 
+APARTMENTS 
+455 W MAIN ST 
+APT 703 
+MT ORAB 
+BTWN: N/A & N/A
+
+RCVD AS Phone
+
+COM
+
+
 **********************************************************
 **********************************************************
 **********************************************************
