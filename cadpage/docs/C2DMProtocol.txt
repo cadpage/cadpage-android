@@ -102,7 +102,7 @@ Either content or contentURL must be specified, everything else is optional.
 from - Sender address (default C2DM)
 subject - Message subject (optional)
 content - Actual message content
-contentURL - URL from from which message content can be retrieved 
+content_url - URL from from which message content can be retrieved 
              (use only if sending actual content exceeds the maximum size limit)
 format - Format/location parsing code (default, use user configured location code)
 sponsor - sponsoring organization (Setting this to non-empty value implies that you
@@ -131,6 +131,9 @@ type:     Type of acknowledgment
           RESP - sent when user indicates they are responding to call
           NO   - sent when user indicates they are not responding to call
 location: User GPS coordinates if requested and enabled
+
+Note: If message content was delivered through content_url instead of a content 
+keyword an automatic acknowledgment is redundant and will not be sent.
 
 
 SMS text message discovery
