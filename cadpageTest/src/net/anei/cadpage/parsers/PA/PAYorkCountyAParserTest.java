@@ -213,9 +213,32 @@ public class PAYorkCountyAParserTest extends BaseParserTest {
         "SRC:FIRESTA68",
         "UNIT:E68-2 E69-1 T");
 
+    doTest("T5",
+        "(Station 68) FAIRVIEW TWP I83 SB EXIT 39B   I 83 SB I 83X39BPATURNPIKE SB VEH ACC OT NO INJ  Veh OT 68-83 FIRESTA68 E68-2 R68  05:56",
+        "SRC:FIRESTA68",
+        "CITY:FAIRVIEW TWP",
+        "PLACE:I83 SB EXIT 39B",
+        "ADDR:I 83 SB",
+        "MADDR:I83 SB EXIT 39B",
+        "CALL:I 83X39BPATURNPIKE SB VEH ACC OT NO INJ Veh OT",
+        "MAP:68-83",
+        "SRC:FIRESTA68",
+        "UNIT:E68-2 R68");
+
+    doTest("T6",
+        "(Station 68) FAIRVIEW TWP    768 LEWISBERRY RD IRONSTONE RD, FISHING CREEK RD / CEDARS RD FIRE VEHICLE  WORKING FIRE 68-04 UFIRE68 UEMS68  18:47",
+        "SRC:Station 68",
+        "CITY:FAIRVIEW TWP",
+        "ADDR:768 LEWISBERRY RD",
+        "X:IRONSTONE RD / FISHING CREEK RD",
+        "CALL:/ CEDARS RD FIRE VEHICLE WORKING FIRE",
+        "MAP:68-04",
+        "SRC:Station 68",
+        "UNIT:UFIRE68 UEMS68");
+
   }
   
   public static void main(String[] args) {
-    new PAYorkCountyAParserTest().generateTests("T1", "SRC ID CITY PLACE ADDR APT X CALL MAP SRC UNIT");
+    new PAYorkCountyAParserTest().generateTests("T5", "SRC ID CITY PLACE ADDR APT X CALL MAP SRC UNIT");
   }
 }
