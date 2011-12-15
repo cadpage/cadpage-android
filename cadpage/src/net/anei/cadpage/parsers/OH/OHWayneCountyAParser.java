@@ -44,7 +44,7 @@ public class OHWayneCountyAParser extends SmartAddressParser {
   }
   
   @Override
-  public boolean parseMsg(String body, Data data) {
+  public boolean parseMsg(String subject, String body, Data data) {
     
     do {
       Matcher match = MASTER.matcher(body);
@@ -52,6 +52,9 @@ public class OHWayneCountyAParser extends SmartAddressParser {
         body = match.group(1).trim();
         break;
       }
+      
+      // Anything starting with (Dispatch Message) should go to the B parser
+      if (subject.equals("Dispatch Message")) return false;
       
       // We'll take it as long as it passed some kind of sender filter :(
       if (!ManagePreferences.overrideFilter() || ManagePreferences.filter().length() > 0) break; 

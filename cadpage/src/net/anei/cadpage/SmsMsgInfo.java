@@ -38,7 +38,7 @@ public class SmsMsgInfo {
   private boolean expectMore;
   
   // Cached map address
-  private String strMapAddress = null;
+  private String strBaseMapAddress = null;
   
 
   /**
@@ -186,16 +186,46 @@ public class SmsMsgInfo {
   /**
    * @return return mapping address
    */
-  private static final Pattern DIR_OF_PTN = Pattern.compile(" [NSEW]O ");
   public String getMapAddress() {
+    StringBuilder sb = new StringBuilder(getBaseMapAddress());
+    
+    // Add city if specified, default city otherwise
+    String city = strCity;
+    if (city.equals("OUT OF COUNTY")) city = "";
+    else if (city.length() == 0) {
+      city = getDefCity();
+    }
+    if (city.length() > 0 && !city.equalsIgnoreCase("NONE")) {
+      sb.append(",");
+      sb.append(city);
+    } 
+    
+    // Add state if specified, default state otherwise
+    String state = strState;
+    if (state.length() == 0) {
+      state = getDefState();
+    }
+    if (state.length() > 0 && !state.equalsIgnoreCase("NONE")) {
+      sb.append(",");
+      sb.append(state);
+    }
+    return sb.toString();
+  }
+  
+  /**
+   * @return base mapping address, which is the adjusted address without
+   * the additional city and state information
+   */
+  private static final Pattern DIR_OF_PTN = Pattern.compile(" [NSEW]O ");
+  public String getBaseMapAddress() {
     
     if (strAddress.length() == 0) return strAddress;
     
-    if (strMapAddress != null) return strMapAddress;
+    if (strBaseMapAddress != null) return strBaseMapAddress;
     
     if (SmsPopupUtils.GPSPattern.matcher(strAddress).find()) {
-      strMapAddress = strAddress;
-      return strMapAddress;
+      strBaseMapAddress = strAddress;
+      return strBaseMapAddress;
     }
     
     String sAddr = strAddress;
@@ -236,29 +266,8 @@ public class SmsMsgInfo {
       }
     }
     
-    // Add city if specified, default city otherwise
-    String city = strCity;
-    if (city.equals("OUT OF COUNTY")) city = "";
-    else if (city.length() == 0) {
-      city = getDefCity();
-    }
-    if (city.length() > 0 && !city.equalsIgnoreCase("NONE")) {
-      sb.append(",");
-      sb.append(city);
-    } 
-    
-    // Add state if specified, default state otherwise
-    String state = strState;
-    if (state.length() == 0) {
-      state = getDefState();
-    }
-    if (state.length() > 0 && !state.equalsIgnoreCase("NONE")) {
-      sb.append(",");
-      sb.append(state);
-    }
-    
-    strMapAddress = sb.toString();
-    return strMapAddress;
+    strBaseMapAddress = sb.toString().trim();
+    return strBaseMapAddress;
 	}
   
   // Clean up any street suffix abbreviations that Google isn't happy with

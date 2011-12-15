@@ -2,6 +2,7 @@ package net.anei.cadpage.parsers.NY;
 
 
 import java.util.Properties;
+import java.util.regex.Pattern;
 
 import net.anei.cadpage.SmsMsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchRedAlertParser;
@@ -75,6 +76,8 @@ BUILDING FIRE, AUTOMATIC ALARM - BUILDING at 205 BETHPAGE SWEETHOLLOW ROAD, OLD 
 
 public class NYNassauCountyRedAlertParser extends DispatchRedAlertParser {
   
+  private static final Pattern JUNK_PTN = Pattern.compile(" *\\([A-Z]\\) *");
+  
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "LAKE SUCCESS QUARD", "LAKE SUCCESS",
       "STRATHMORE VILLAGE", "STRATHMORE"
@@ -104,6 +107,9 @@ public class NYNassauCountyRedAlertParser extends DispatchRedAlertParser {
     
     // Some of the city names need to be adjusted
     data.strCity = convertCodes(data.strCity, CITY_CODES);
+    
+    // Clean paren stuff out of cross fields
+    data.strCross = JUNK_PTN.matcher(data.strCross).replaceAll(" ");
     return true;
   }
 }

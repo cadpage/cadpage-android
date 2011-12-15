@@ -194,6 +194,11 @@ public class DispatchRedAlertParser extends SmartAddressParser {
     String sCross = props.getProperty("CROSS");
     if (sCross != null) {
       ok = true;
+      pt = sCross.indexOf(',');
+      if (pt >= 0) {
+        data.strSupp = append(data.strSupp, " / ", sCross.substring(pt+1).trim());
+        sCross = sCross.substring(0,pt).trim();
+      }
       data.strCross = sCross;
     }
 
