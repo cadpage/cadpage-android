@@ -149,6 +149,7 @@ public class EmailDeveloperActivity extends Activity {
     // If configuration info requested, add that as well
     if (includeCfg) {
       ManagePreferences.addConfigInfo(context, body);
+      HttpService.appendLog(body);
       UserAcctManager.instance().addAccountInfo(body);
     }
     

@@ -67,6 +67,7 @@ public class NoticeActivity extends Activity {
    */
   public static void showNotice(Context context, String message) {
     Intent intent = new Intent(context, NoticeActivity.class);
+    if (!(context instanceof Activity)) intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
     intent.putExtra(EXTRAS_MSG, message);
     context.startActivity(intent);
   }

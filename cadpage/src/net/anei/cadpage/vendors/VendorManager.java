@@ -159,7 +159,7 @@ public class VendorManager {
     
     return message;
   }
-  private static final Pattern HTTP_PATTERN = Pattern.compile("\\bhttps?//:[^ ]+");
+  private static final Pattern HTTP_PATTERN = Pattern.compile("\\bhttps?://[^ ]+");
   
   /**
    * Return top level host name associated with URL

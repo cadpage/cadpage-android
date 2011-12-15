@@ -126,9 +126,9 @@ public abstract class SmsMsgParser {
   /**
    * Determine if message is a valid CAD message for this parser, and parse
    * all information from the message if it is
+   * @param msg message to be parsed
    * @overrideFilter true if parser filters should be overridden
    * @genAlert true if general alerts should be accepted
-   * @param msg message to be parsed
    * @return true if this message contain the text phrases that indicate it is 
    * a valid page message
    */

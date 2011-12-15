@@ -156,6 +156,11 @@ parameters added.
 These *CADPAGEQ* discover pages will show up in user inboxes where Cadpage is
 not installed or enabled.  The text page has be be user friendly and readable.
 
+The *CADPAGEQ* discover page will not work if received as an MMS message with
+a sender address that does not match the sender filter.  When an MMS message
+fails to pass the sender filter, we don't bother retrieving the message content
+so we can't tell if it starts with *CADPAGEQ*.
+
 Note that none of these will work if the pages is relayed through another
 messaging service that adds it's own message headers. 
 

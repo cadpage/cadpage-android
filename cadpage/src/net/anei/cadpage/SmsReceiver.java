@@ -52,6 +52,12 @@ public class SmsReceiver extends BroadcastReceiver {
         if (messages == null) return;
         message = new SmsMmsMessage( messages,System.currentTimeMillis());
         
+        // See if this is a vendor discovery query.  If it is, make it go away
+        if (message.isDiscoveryQuery(context)) {
+          abortBroadcast();
+          return;
+        }
+        
         // Save message for future test or error reporting use
         // If message is rejected as duplicate, don't do anything except call
         // abortbroadcast to keep it from going to anyone else

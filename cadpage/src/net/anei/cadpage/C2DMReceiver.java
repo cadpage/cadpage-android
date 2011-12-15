@@ -89,30 +89,19 @@ public class C2DMReceiver extends BroadcastReceiver {
     
   }
 
-  private void handleMessage(Context context, Intent intent) {
+  private void handleMessage(final Context context, final Intent intent) {
     
     // If registration has been canceled, all C2DM messages should be ignored
     if (ManagePreferences.registrationId() == null) return;
     
-    // Get the acknowledge URL and request code
-    String ackURL = intent.getStringExtra("ack_url");
-    String ackReq = intent.getStringExtra("ack_req");
-    if (ackURL == null) ackReq = null;
-    if (ackReq == null) ackReq = "";
-    
-    // If there is a return URL, turn it into a URI
-    Uri ackUri = null;
-    if (ackURL != null) {
-      ackUri = Uri.parse(ackURL);
-      Uri uri = ackUri.buildUpon().appendQueryParameter("type", "auto").build();
-      HttpService.addHttpRequest(context, new HttpRequest(uri));
-    }
-    
     // See what kind of message this is
     String type = intent.getStringExtra("type");
     
-    // Ping just needs to be acknowledged, which we have already done
-    if (type.equals("PING")) return;
+    // Ping just needs to be acknowledged
+    if (type.equals("PING")) {
+      sendAutoAck(context, intent);
+      return;
+    }
     
     // Register and unregister requests are handled by VendorManager
     if (type.equals("REGISTER") || type.equals("UNREGISTER")) {
@@ -120,35 +109,75 @@ public class C2DMReceiver extends BroadcastReceiver {
       String account = intent.getStringExtra("account");
       String token = intent.getStringExtra("token");
       VendorManager.instance().vendorRequest(context, type, vendor, account, token);
+      sendAutoAck(context, intent);
       return;
     }
     
-    // Reconstruct message from data
+    // Save timestamp
+    final long timestamp = System.currentTimeMillis();
+    
+    // Retrieve message content from intent for from URL
+    String content = intent.getStringExtra("content");
+    if (content != null) {
+      processContent(context, intent, content, timestamp);
+      sendAutoAck(context, intent);
+      return;
+    }
+    
+    String contentURL = intent.getStringExtra("content_url");
+    if (contentURL != null) {
+      HttpService.addHttpRequest(context, new HttpRequest(Uri.parse(contentURL)){
+        @Override
+        public void processResponse(int status, String result) {
+          if (status % 100 == 2) {
+            processContent(context, intent, result, timestamp);
+          }
+        }
+      });
+      return;
+    }
+    Log.w("C2DM message has no content");
+  }
+  
+  /**
+   * Send auto acknowledgment when message is received
+   * @param context current context
+   * @param intent received intent
+   */
+  private void sendAutoAck(Context context, Intent intent) {
+    String ackURL = intent.getStringExtra("ack_url");
+    sendResponseMsg(context, ackURL, "auto");
+  }
+    
+  private void processContent(Context context, Intent intent, String content, 
+                                long timestamp) {
+    
+    // Reconstruct message from data from intent fields
     String from = intent.getStringExtra("from");
     if (from == null) from = "C2DM";
     String subject = intent.getStringExtra("subject");
     if (subject == null) subject = "";
-    String content = intent.getStringExtra("content");
-    if (content == null) {
-      Log.w("C2DM message has no content");
-      return;
+    String location = intent.getStringExtra("format");
+    if (location != null) {
+      location = ManagePreferences.convertOldLocationCode(context, location);
     }
+    String sponsor = intent.getStringExtra("sponsor");
+    
+    // Get the acknowledge URL and request code
+    String ackURL = intent.getStringExtra("ack_url");
+    String ackReq = intent.getStringExtra("ack_req");
+    if (ackURL == null) ackReq = null;
+    if (ackReq == null) ackReq = "";
     
     SmsMmsMessage message = 
-      new SmsMmsMessage(from, subject, content, System.currentTimeMillis(), 
-                        SmsMmsMessage.MESSAGE_TYPE_C2DM);
-    
-    String location = intent.getStringExtra("format");
-    location = ManagePreferences.convertOldLocationCode(context, location);
-    message.setReqLocation(location);
-    message.setSponsor(intent.getStringExtra("sponsor"));
+      new SmsMmsMessage(from, subject, content, timestamp,
+                        location, sponsor, ackReq, ackURL);
     
     // Add to log buffer
     if (!SmsMsgLogBuffer.getInstance().add(message)) return;
     
     // See if the current parser will accept this as a CAD page
-    SmsMsgParser parser = ManageParsers.getInstance().getParser(null);
-    boolean isPage = parser.isPageMsg(message, true, false);
+    boolean isPage = message.isPageMsg(true, false);
     
     // If it didn't, accept it as a general page.  We have to do something with
     // it or it will just disappear
@@ -179,19 +208,46 @@ public class C2DMReceiver extends BroadcastReceiver {
     if (curActivity == activity) curActivity = null;
   }
 
+  
+  /**
+   * send response messages
+   * @param context current context
+   * @param ackURL acknowledge URL
+   * @param type request type to be sent 
+   */
+  public static void sendResponseMsg(Context context, String ackURL, String type) {
+    if (ackURL == null) return;
+    Uri uri = Uri.parse(ackURL).buildUpon().appendQueryParameter("type", type).build();
+    HttpService.addHttpRequest(context, new HttpRequest(uri));
+  }
+  
+  
+  /**
+   * Request a new C2DM registration ID
+   * @param context current context
+   */
   public static void register(Context context) {
     Intent intent = new Intent(ACTION_C2DM_REGISTER);
     intent.putExtra("app", PendingIntent.getBroadcast(context, 0, new Intent(), 0));
     intent.putExtra("sender", C2DM_SENDER_EMAIL);
     context.startService(intent);
   }
+
   
+  /**
+   * Request that current C2DM registration be dropped
+   * @param context current context
+   */
   public static void unregister(Context context) {
     Intent intent = new Intent(ACTION_C2DM_UNREGISTER);
     intent.putExtra("app", PendingIntent.getBroadcast(context, 0, new Intent(), 0));
     context.startService(intent);
   }
 
+  /**
+   * Generate an Email message with the current registration ID
+   * @param context current context
+   */
   public static void emailRegistrationId(Context context) {
     
     // Build send email intent and launch it

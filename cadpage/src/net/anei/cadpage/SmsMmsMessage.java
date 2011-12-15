@@ -12,6 +12,7 @@ import java.util.regex.Pattern;
 
 import net.anei.cadpage.donation.DonationManager;
 import net.anei.cadpage.parsers.SmsMsgParser;
+import net.anei.cadpage.vendors.VendorManager;
 
 import android.app.Activity;
 import android.content.Context;
@@ -66,6 +67,9 @@ public class SmsMmsMessage implements Serializable {
   // Location code and sponsor C2DM messages
   private String reqLocation = null;
   private String sponsor = null;
+  private String ackReq = null;
+  private String ackURL = null;
+  private boolean ackNeeded = false;
   
   private transient String parseAddress = null;
   private transient String parseSubject = null;
@@ -203,12 +207,38 @@ public class SmsMmsMessage implements Serializable {
     result.messageBody = "*** Content Timeout ***";
     return result;
   }
+  
+  /**
+   * Construct SmsMmsMessage from information received in a C2DM message 
+   * @param from
+   * @param subject
+   * @param content
+   * @param timestamp
+   * @param location
+   * @param sponsor
+   * @param ackReq
+   * @param ackURL
+   */
+  public SmsMmsMessage(String from, String subject, String content,
+                        long timestamp, String location, String sponsor, 
+                        String ackReq, String ackURL) {
+    this.messageType = MESSAGE_TYPE_C2DM;
+    this.fromAddress = from;
+    this.subject = subject;
+    this.contentLoc = content;
+    this.timestamp = timestamp;
+    this.location = location;
+    this.sponsor = sponsor;
+    this.ackReq = ackReq;
+    this.ackURL = ackURL;
+    this.ackNeeded = ackReq.contains("A");
+  }
 
   /**
    * Construct dummy SmsMmsMessage test notifications 
    */
   public SmsMmsMessage(String fromAddress, String subject, String messageBody,
-      long timestamp, int messageType) {
+                        long timestamp, int messageType) {
 
     this.fromAddress = fromAddress;
     this.messageBody = messageBody;
@@ -225,7 +255,7 @@ public class SmsMmsMessage implements Serializable {
    * Construct test SmsMmsMessage message to check getParseInfo() logic 
    */
   public SmsMmsMessage(String fromAddress, String messageBody,
-      long timestamp, int messageType) {
+                        long timestamp, int messageType) {
 
     this.fromAddress = fromAddress;
     this.messageBody = messageBody;
@@ -269,6 +299,18 @@ public class SmsMmsMessage implements Serializable {
     parseMessageBody = sb.toString().trim();
   }
   
+  /**
+   * Check if message is a vendor discovery query.  This should be called as 
+   * soon as the SmsMmsMessage object is constructed form an SMS or MMS message
+   * @param context current context
+   * @return true if this was a vendor discovery message that should not
+   * be processed further by anyone
+   */
+  public boolean isDiscoveryQuery(Context context) {
+    messageBody = VendorManager.instance().discoverQuery(context, messageBody);
+    return (messageBody == null);
+  }
+
   /**
    * Read serialized SmsMmsMessage object from Object input stream
    */
@@ -768,32 +810,60 @@ public class SmsMmsMessage implements Serializable {
     
     // If we don't have an info object, get a new one
     if (info == null) {
-      SmsMsgParser parser = null;
-      
-      // If we don't have a historical location code, but a location code was
-      // included in the message, use it to get a parser.  If the code happens
-      // to be invalid, just catch the exception and continue
-      if (location == null && reqLocation != null) {
-        try {
-          parser = ManageParsers.getInstance().getParser(reqLocation);
-        } catch (RuntimeException ex) {}
-      }
-      
-      // If we have a historical location code, use it
-      // Otherwise use the current configured location code.
-      // Again, location and info members are set as a side effect of a successful
-      // isPageMsg method call
-      if (parser == null) parser = ManageParsers.getInstance().getParser(location);
-      if (! parser.isPageMsg(this)) {
+      if (! isPageMsg()) {
         
         // It is almost impossible for the the parser call to fail for a
         // message where it previously succeeded.  But if it happens
         // try again with the general alert parser, which will never fail
-        parser = ManageParsers.getInstance().getAlertParser();
+        SmsMsgParser parser = ManageParsers.getInstance().getAlertParser();
         parser.isPageMsg(this);
       }
     }
     return info;
+  }
+  
+  /**
+   * Determine if this message is considered to be a CAD page message
+   * as determined by the parser associated with the message.  Has the
+   * side effect of setting up the parser message information object and
+   * setting the message location parser if it is not already set
+   * @return true if this is a valid CAD page
+   */
+  public boolean isPageMsg() {
+    return getParser().isPageMsg(this);
+  }
+  
+  /**
+   * Determine if message is a valid CAD message for this parser, and parse
+   * all information from the message if it is
+   * @overrideFilter true if parser filters should be overridden
+   * @genAlert true if general alerts should be accepted
+   * @return true if this message is a valid CAD page
+   */
+  public boolean isPageMsg(boolean overrideFilter, boolean genAlert) {
+    return getParser().isPageMsg(this, overrideFilter, genAlert);
+  }
+  
+  /**
+   * @return parser associated with this message
+   */
+  public SmsMsgParser getParser() {
+    
+    // If we don't have a historical location code, but a location code was
+    // included in the message, use it to get a parser.  If the code happens
+    // to be invalid, just catch the exception and continue
+    if (location == null && reqLocation != null) {
+      try {
+        return ManageParsers.getInstance().getParser(reqLocation);
+      } catch (RuntimeException ex) {}
+    }
+    
+    // If we have a historical location code, use it
+    // Otherwise use the current configured location code.
+    // Again, location and info members are set as a side effect of a successful
+    // isPageMsg method call
+    return ManageParsers.getInstance().getParser(location);
+    
   }
   
   /**
@@ -918,6 +988,11 @@ public class SmsMmsMessage implements Serializable {
     
     // Any button clears the notice
     ManageNotification.clear(context);
+    if (ackNeeded) {
+      C2DMReceiver.sendResponseMsg(context, ackURL, "ACK");
+      ackNeeded = false;
+      reportDataChange();
+    }
 
     switch (itemId) {
     case R.id.open_item:
@@ -1061,6 +1136,11 @@ public class SmsMmsMessage implements Serializable {
     
     sb.append("\nSponsor:");
     sb.append(sponsor);
+    
+    sb.append("ackReq:");
+    sb.append(ackReq);
+    sb.append("ackURL");
+    sb.append(ackURL);
     
     if (msgCount >= 0) {
       sb.append("\nMsgIndex:");

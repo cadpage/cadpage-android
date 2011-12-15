@@ -1,8 +1,11 @@
 package net.anei.cadpage;
 
+import java.io.IOException;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -14,21 +17,34 @@ import android.os.Handler;
 import android.os.IBinder;
 import android.os.PowerManager;
 import android.os.Process;
+import java.text.DateFormat;
 
 public class HttpService extends Service {
   
+  private static final int LOG_LIMIT = 10;
+  
   public static class HttpRequest {
     
-    private URL url;
-    private int connectTimeout;
-    private int readTimeout;
+    private Uri uri = null;
+    private URL url = null;
+    private int connectTimeout = 60000;
+    private int readTimeout = 30000;
+    
+    private int status = -1;
+    private String result = null;
     
     public HttpRequest(Uri uri) {
-      this(convURItoURL(uri));
+      this.uri = uri;
     }
     
     public HttpRequest(URL url) {
-      this(null, 60000, 30000);
+      this.url = url;
+    }
+    
+    public HttpRequest(Uri uri, int connectTimeout, int readTimeout) {
+      this.uri = uri;
+      this.connectTimeout = connectTimeout;
+      this.readTimeout = readTimeout;
     }
     
     public HttpRequest(URL url, int connectTimeout, int readTimeout) {
@@ -36,19 +52,7 @@ public class HttpService extends Service {
       this.connectTimeout = connectTimeout;
       this.readTimeout = readTimeout;
     }
-
-    /**
-     * Convert Uri object to URL object
-     * @param uri URI
-     * @return equivalent URL
-     */
-    private static URL convURItoURL(Uri uri) {
-      try {
-        return new URL(uri.toString());
-      } catch (MalformedURLException ex) {
-        throw new RuntimeException(ex.getMessage(), ex);
-      }
-    }
+    
     /**
      * @return return requested URL code
      */
@@ -63,6 +67,56 @@ public class HttpService extends Service {
     public int getReadTimeout() {
       return readTimeout;
     }
+    
+    /**
+     * Connect to remote host and return result
+     * This should not be called on the main dispatch thread
+     */
+    void connect() {
+      
+      // If we weren't passed a URL initially, it is time to convert the
+      // Uri to a URL.  This this throws an malformed URL exception, ignore it
+      // we will report a bad URL later on
+      if (url == null) {
+        try {
+          url = new URL(uri.toString());
+        } catch (MalformedURLException ex) {
+          Log.e(ex.getMessage());
+        }
+        
+        // If we have a URL, connnect to it
+        if (url == null) {
+          addLogEntry("Sending:" + uri.toString());
+          status = 400;
+          result = "Bad request:" + uri.toString();
+        } else {
+          addLogEntry("Sending:" + url.toString());
+          HttpURLConnection connect = null;
+          try {
+            connect = (HttpURLConnection)url.openConnection();
+            connect.setConnectTimeout(connectTimeout);
+            connect.setReadTimeout(readTimeout);
+            connect.connect();
+            status = connect.getResponseCode();
+            result = connect.getResponseMessage();
+          } 
+          
+          catch (IOException ex) {
+            status = 408;
+            result = "IO Error";
+          }
+          finally {
+            if (connect != null) connect.disconnect();
+          }
+          addLogEntry("Result:" + status + ": " + result);
+        }
+      }
+    }
+    
+    void process() {
+      processResponse(status, result);
+    }
+
     
     /**
      * This will be called when the HTTP request returns a result or failure status
@@ -99,7 +153,7 @@ public class HttpService extends Service {
     
     public HttpServiceThread() {
       super("HttpServiceThread");
-      setPriority(Process.THREAD_PRIORITY_FOREGROUND);
+      setPriority(Process.THREAD_PRIORITY_BACKGROUND);
       start();
     }
 
@@ -107,35 +161,32 @@ public class HttpService extends Service {
     public void run() {
       
       try {
+         
+        while (true) {
           
-        // Get next request from request queue.  If there aren't any remaining
-        // entries, it is time to kill this service
-        HttpRequest req;
-        synchronized(reqQueue) {
-          req = reqQueue.poll();
-          if (req == null) {
-            if (mWakeLock != null) mWakeLock.release();
-            stopSelf();
+          // Get next request from request queue.  If there aren't any remaining
+          // entries, it is time to kill this service
+          HttpRequest req;
+          synchronized(reqQueue) {
+            req = reqQueue.poll();
+            if (req == null) {
+              if (mWakeLock != null) mWakeLock.release();
+              stopSelf();
+              return;
+            }
           }
+          
+          // Build and fire off the Http request
+          req.connect();
+          
+          // And call the request process response method on the main dispatch thread
+          final HttpRequest req2 = req;
+          mHandler.post(new Runnable(){
+            @Override
+            public void run() {
+              req2.process();
+            }});
         }
-        
-        // Build and fire off the Http request
-        URL url = req.getUrl();
-        HttpURLConnection conn = (HttpURLConnection)url.openConnection();
-        conn.setConnectTimeout(req.getConnectionTimeout());
-        conn.setReadTimeout(req.getReadTimeout());
-        conn.connect();
-        final HttpRequest doReq = req;
-        final int respCode = conn.getResponseCode();
-        final String respMsg = conn.getResponseMessage();
-        conn.disconnect();
-        
-        // And call the request process response method on the main dispatch thread
-        mHandler.post(new Runnable(){
-          @Override
-          public void run() {
-            doReq.processResponse(respCode, respMsg);
-          }});
       } 
       
       // Any exceptions that get thrown should be rethrown on the dispatch thread
@@ -171,6 +222,38 @@ public class HttpService extends Service {
       // We don't need to pass anything, just make sure it got started
       reqQueue.add(request);
       context.startService(new Intent(context, HttpService.class));
+    }
+  }
+  
+  private static LinkedList<String> logQueue = new LinkedList<String>();
+  private static final DateFormat DATE_FMT = new SimpleDateFormat("MM/dd/yyyy hh:mm:ss");
+  
+  /**
+   * Add new line to rotating log buffer
+   * @param line
+   */
+  private static void addLogEntry(String line) {
+    line = DATE_FMT.format(new Date()) + "  " + line;
+    Log.i(line);
+    synchronized (logQueue) {
+      logQueue.add(line);
+      if (logQueue.size() > LOG_LIMIT) logQueue.poll();
+    }
+  }
+  
+  /**
+   * Append logged service information to StringBuilder
+   * @param sb StringBuilder where logged information will be appended
+   */
+  public static void appendLog(StringBuilder sb) {
+    synchronized (logQueue) {
+      if (logQueue.size() == 0) return;
+      
+      sb.append("\n\nHttpService log");
+      for (String line : logQueue) {
+        sb.append('\n');
+        sb.append(line);
+      }
     }
   }
 }

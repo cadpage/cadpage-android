@@ -307,7 +307,6 @@ public class MmsTransactionService extends Service {
         
         // OK, we have the desired record number
         // Now see if we can recover the content
-
         
         Uri mmsUri = ContentUris.withAppendedId(MMS_URI, recNo);
         Uri partUri = Uri.withAppendedPath(mmsUri, "part");
@@ -359,6 +358,11 @@ public class MmsTransactionService extends Service {
         if (text == null) continue;
         message.setMessageBody(text);
         SmsMsgLogBuffer.getInstance().update(message);
+        
+        // OK, we have a real message.  First see if it is a vendor discovery query
+        if (message.isDiscoveryQuery(MmsTransactionService.this)) {
+          qr.delete(mmsUri, null, null);
+        }
         
         // Now that we have the full message, we can try to parse it as a CAD page
         boolean isPage = 

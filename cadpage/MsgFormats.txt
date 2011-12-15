@@ -3611,7 +3611,17 @@ Sender: VisiNet.Command@sanantonio.gov
 Respond for Alarm - Medical @ 24245 Wilderness Oak - 1408 - RETREAT AT CANYON SPRINGS With Cross Streets of CANYON GOLF RD/CANYO
 **********************************************************
 Brown County, OH
-Contact: kieth <kiethw@frontier.com>
+Contact: "kieth" <kiethw@frontier.com>
+Sender: browncommctr@roadrunner.com
+[Alert: SMOKE IN THE AREA] ALRM LVL: 1 
+LOC: 
+13101 PURDY RD
+WASHINGTON 
+BTWN: N/A & N/A
+
+RCVD AS Phone
+
+COM: CALLER ADV MAN BURNING SOMETHING ABOUT TWO HO
 
 (Alert: SICK PERSON (SPECIFIC DIAG)) 
 ALRM LVL: 1 
@@ -3625,7 +3635,6 @@ BTWN: N/A & N/A
 RCVD AS Phone
 
 COM
-
 
 **********************************************************
 **********************************************************
