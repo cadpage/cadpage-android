@@ -28,7 +28,7 @@ public class NJCamdenCountyParserTest extends BaseParserTest {
         "(Dispatch SD45) M.V.A\nROUTE 295 SB RAMP TO 76 SB ALJO CUR ,04\n#:\nX:/\nZN:04Q\nCP:ROUTE 295 SB RAMP T  2011-03-31 09:06:36\nMI#:110073062",
         "CALL:M.V.A",
         "ADDR:ROUTE 295 SB",
-        "MADDR:RAMP TO 76 SB ALJO CUR ROUTE 295 SB RAMP T",
+        "MADDR:RAMP TO 76 SB ALJO CUR ROUTE 295 SB RAMP T,ROUTE 295",
         "CITY:Bellmawr",
         "MAP:04Q",
         "PLACE:RAMP TO 76 SB ALJO CUR ROUTE 295 SB RAMP T",

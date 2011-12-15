@@ -59,7 +59,8 @@ public class NYRocklandCountyAParserTest extends BaseParserTest {
         "CALL:BRUSH/MULCH/RUBBISH OUTSIDE",
         "ADDR:14 OLD ROUTE 304",
         "CITY:New City",
-        "X:FAIR HAVEN DR, WESTGATE BLVD / N MAIN ST, ZUKOR RD 16:16:06");
+        "X:FAIR HAVEN DR",
+        "INFO:WESTGATE BLVD / N MAIN ST, ZUKOR RD 16:16:06");
 
     doTest("T7",
         "HAAZMAT at CONGERS RD/MAIN ST, New City . . 10:40:52",

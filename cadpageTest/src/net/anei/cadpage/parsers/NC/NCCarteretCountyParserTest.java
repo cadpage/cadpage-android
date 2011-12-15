@@ -93,7 +93,7 @@ public class NCCarteretCountyParserTest extends BaseParserTest {
     doTest("T10",
         "CEC:BRIDGES ST ST EXT / HWY 70 11-087512 13:54:18 MVC MINOR",
         "ADDR:BRIDGES ST",
-        "MADDR:ST EXT / HWY 70",
+        "MADDR:ST EXT / HWY 70,BRIDGES ST",
         "PLACE:ST EXT / HWY 70",
         "ID:11-087512",
         "TIME:13:54:18",

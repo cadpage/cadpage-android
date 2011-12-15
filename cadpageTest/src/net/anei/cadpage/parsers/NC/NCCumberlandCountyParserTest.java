@@ -159,7 +159,7 @@ public class NCCumberlandCountyParserTest extends BaseParserTest {
         "CALL:ABNORMAL BREATHING CHEST PN",
         "SRC:4474 CAMERON RD",
         "ADDR:PECAN DR",
-        "MADDR:PAPER MILL");
+        "MADDR:PAPER MILL,PECAN DR");
 
   }
   

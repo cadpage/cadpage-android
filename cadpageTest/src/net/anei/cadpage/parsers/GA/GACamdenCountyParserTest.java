@@ -18,7 +18,7 @@ public class GACamdenCountyParserTest extends BaseParserTest {
         "astudstill@co.camden.ga.us:2011-101695* HIGHWAY 17 STEFFANS* * * KINGSLAND* * Traffic Stop* TRAFFIC STOP* * * 1128,1140,1150,1152,509,514,523,532,LS3,R3* * Med",
         "ID:2011-101695",
         "ADDR:HIGHWAY 17",
-        "MADDR:STEFFANS",
+        "MADDR:STEFFANS,HIGHWAY 17",
         "CITY:KINGSLAND",
         "PLACE:STEFFANS",
         "CALL:Traffic Stop",

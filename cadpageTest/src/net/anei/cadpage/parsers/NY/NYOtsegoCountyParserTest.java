@@ -29,7 +29,7 @@ public class NYOtsegoCountyParserTest extends BaseParserTest {
         "CALL:MVA PD",
         "PLACE:GRASSLANDS",
         "ADDR:ST HWY 28",
-        "MADDR:GRASSLANDS",
+        "MADDR:GRASSLANDS,ST 28",
         "SRC:COUNTY",
         "INFO:NARR 1 CAR PDMVA PERSON: (COMPLAINANT) (FMLS) SUE  JENNINGS");
 

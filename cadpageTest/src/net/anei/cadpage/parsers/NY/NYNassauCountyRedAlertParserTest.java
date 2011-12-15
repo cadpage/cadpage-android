@@ -199,16 +199,18 @@ public class NYNassauCountyRedAlertParserTest extends BaseParserTest {
         "ADDR:OYSTER BAY LIBRARY 89 MAIN ST E",
         "MADDR:OYSTER BAY LIBRARY 89 MAIN ST E & PEARL ST",
         "CITY:OYSTER BAY",
-        "X:PEARL ST / ANSTICE ST, PEDESTRIAN STRUCK",
+        "X:PEARL ST / ANSTICE ST",
+        "INFO:PEDESTRIAN STRUCK",
         "TIME:12:45:00");
 
     doTest("T2",
         "CHIEF, WIRE at  SANDY HILL ROAD, OYSTER BAY c/s: MAIN (E) ST, WIRES BURNING . . 00:20:00",
         "CALL:CHIEF, WIRE",
         "ADDR:SANDY HILL ROAD",
-        "MADDR:SANDY HILL ROAD & MAIN (E) ST",
+        "MADDR:SANDY HILL ROAD & MAIN ST",
         "CITY:OYSTER BAY",
-        "X:MAIN (E) ST, WIRES BURNING",
+        "X:MAIN ST",
+        "INFO:WIRES BURNING",
         "TIME:00:20:00");
 
   }

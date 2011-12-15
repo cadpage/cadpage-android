@@ -147,7 +147,6 @@ public class MDFrederickCountyParserTest extends BaseParserTest {
         "SRC:FredCo",
         "CALL:INJURY FROM VEHICLE ACCIDENT",
         "ADDR:LL(-77:23:59.6013,39:21:53.1520)",
-        "MADDR:I270NB / MONOCACY RIVER",
         "PLACE:I270NB / MONOCACY RIVER",
         "BOX:327002",
         "MAP:46");

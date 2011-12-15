@@ -15,7 +15,6 @@ import org.junit.Test;
 
 import net.anei.cadpage.SmsMmsMessage;
 import net.anei.cadpage.SmsMsgInfo;
-import net.anei.cadpage.SmsPopupUtils;
 import net.anei.cadpage.TestManagePreferences;
 import net.anei.cadpage.parsers.FieldProgramParser.Field;
 
@@ -28,7 +27,7 @@ public abstract class BaseParserTest {
   // This should be turned on when testing individual test classes
   // it needs to be turned off when running the entire suite as it causes
   // about a third of existing test classes to fail.
-  private static final boolean STRICT_MAP_CHECK = true;
+  private static final boolean STRICT_MAP_CHECK = false;
   
   private static final String FROM_ADDRESS = "1112223333";
 
@@ -172,11 +171,7 @@ public abstract class BaseParserTest {
     SmsMsgInfo info = msg.getInfo();
     String actMapAddr = "";
     if (chkMapAddr) {
-      actMapAddr = info.getMapAddress();
-      if (!SmsPopupUtils.GPSPattern.matcher(actMapAddr).find()) {
-        int pt = actMapAddr.indexOf(',');
-        if (pt >= 0) actMapAddr = actMapAddr.substring(0,pt).trim();
-      }
+      actMapAddr = info.getBaseMapAddress();
       if (actMapAddr.equals(info.getAddress())) actMapAddr = "";
       if (!STRICT_MAP_CHECK && expMapAddr.length() == 0) actMapAddr = "";
     }

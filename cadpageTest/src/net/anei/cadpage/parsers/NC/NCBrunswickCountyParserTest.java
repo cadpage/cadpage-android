@@ -70,7 +70,7 @@ public class NCBrunswickCountyParserTest extends BaseParserTest {
         "426:BAY POINT CT-JENNIS AV FELICIA 9103685110 11-026412 21:07:25 Stab-Gun-Trauma AT THE END OF BAYPOINT RD MALE SUBJ IS CUT",
         "PLACE:BAY POINT",
         "ADDR:CT-JENNIS AV",
-        "MADDR:BAY POINT",
+        "MADDR:BAY POINT,CT-JENNIS AVE",
         "NAME:FELICIA",
         "PHONE:9103685110",
         "ID:11-026412",
