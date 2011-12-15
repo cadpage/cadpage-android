@@ -3366,11 +3366,6 @@ Fwd: Subject:CAD Page
 FIRE, RESIDENTIAL; RORY LN ,BOWMAN ; ; Inc# 006986; 2509 2504 2521 2573 SUP-1 103 403 803 114 814; 
 epartment
 **********************************************************
-Windsor, CO
-Contact: Kirk Bauer <kbauer620@gmail.com>
-Sender: 777088342845
-" " (Dispatch) 21196,SIPFF -SICK & INJ   (F),805 COMPASSION DR.WI4201 WA 42,TEXT:RES FELL \n\\COMP:AUDREY \\PH:970.686.2743, TXT STOP to opt-out
-**********************************************************
 Montgomery County, PA (alternate)
 Contact: myfranchisepartners <myfranchisepartners@gmail.com>
 Sender: worcesterfd@verizon.net
@@ -3635,7 +3630,6 @@ BTWN: N/A & N/A
 RCVD AS Phone
 
 COM
-
 **********************************************************
 **********************************************************
 **********************************************************
