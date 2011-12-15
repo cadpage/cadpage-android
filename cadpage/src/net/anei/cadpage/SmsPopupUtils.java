@@ -135,7 +135,7 @@ public class SmsPopupUtils {
    * @param context current context
    * @return true if Internet connectivity is established
    */
-  private static boolean haveNet(Context context){
+  public static boolean haveNet(Context context){
 
     // If configured to always map request, return true
     char checkNetwork = ManagePreferences.mapNetworkChk().charAt(0);

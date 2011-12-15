@@ -3,6 +3,7 @@ package net.anei.cadpage.donation;
 import android.app.Activity;
 import net.anei.cadpage.CadPageApplication;
 import net.anei.cadpage.R;
+import net.anei.cadpage.SmsPopupUtils;
 import net.anei.cadpage.billing.BillingManager;
 
 /**
@@ -24,6 +25,7 @@ public class AndroidDonateEvent extends DonateEvent {
 
   @Override
   protected void doEvent(Activity activity) {
+    if (!SmsPopupUtils.haveNet(activity)) return;
     BillingManager.instance().startPurchase(activity);
     closeEvents(activity);
   }

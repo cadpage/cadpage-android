@@ -61,7 +61,7 @@ public class VendorActivity extends Activity {
       }
     });
     
-    Button btn = (Button)findViewById(R.string.donate_btn_cancel);
+    Button btn = (Button)findViewById(R.id.cancel_button);
     btn.setOnClickListener(new OnClickListener(){
       @Override
       public void onClick(View v) {

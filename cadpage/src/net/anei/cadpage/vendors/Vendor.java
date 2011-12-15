@@ -2,6 +2,7 @@ package net.anei.cadpage.vendors;
 
 import net.anei.cadpage.C2DMReceiver;
 import net.anei.cadpage.HttpService;
+import net.anei.cadpage.SmsPopupUtils;
 import net.anei.cadpage.HttpService.HttpRequest;
 import net.anei.cadpage.ManagePreferences;
 import net.anei.cadpage.R;
@@ -350,6 +351,7 @@ abstract class Vendor {
    * @param uri URI to be displayed
    */
   private void viewPage(Context context, Uri uri) {
+    if (!SmsPopupUtils.haveNet(activity)) return;
     Intent intent = new Intent(Intent.ACTION_VIEW, uri);
     context.startActivity(intent);
   }

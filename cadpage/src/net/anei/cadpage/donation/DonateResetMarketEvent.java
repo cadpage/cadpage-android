@@ -3,6 +3,7 @@ package net.anei.cadpage.donation;
 import android.app.Activity;
 import net.anei.cadpage.ManagePreferences;
 import net.anei.cadpage.R;
+import net.anei.cadpage.SmsPopupUtils;
 import net.anei.cadpage.billing.BillingManager;
 
 /**
@@ -16,6 +17,7 @@ public class DonateResetMarketEvent extends DonateEvent {
 
   @Override
   protected void doEvent(Activity activity) {
+    if (!SmsPopupUtils.haveNet(activity)) return;
     ManagePreferences.setInitBilling(false);
     BillingManager.instance().initialize(activity);
     closeEvents(activity);
