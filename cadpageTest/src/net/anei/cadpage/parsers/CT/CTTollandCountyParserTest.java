@@ -115,7 +115,15 @@ public class CTTollandCountyParserTest extends BaseParserTest {
         "CALL:BLS Fall",
         "X:HORSE HILL RD / WESTFORD RD",
         "ID:2011-00001969");
-  }
+
+    doTest("T14",
+        "(TN Alert) 140 RIVER RD / Willington * Lyon Manor BLS Commital 06:29 Cross Street DEPOT RD / VILLAGE ST 2011-00000860",
+        "ADDR:140 RIVER RD",
+        "CITY:Willington",
+        "CALL:Lyon Manor BLS Commital",
+        "X:DEPOT RD / VILLAGE ST",
+        "ID:2011-00000860");
+ }
   
   public static void main(String[] args) {
     new CTTollandCountyParserTest().generateTests("T1", "ADDR APT CITY CALL X ID");
