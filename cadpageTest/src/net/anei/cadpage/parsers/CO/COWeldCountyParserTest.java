@@ -18,6 +18,7 @@ public class COWeldCountyParserTest extends BaseParserTest {
         "20442,ALARMF,23691 CR 60H.E1 E4 L1,TEXT:AUDIBLE FROM GENERAL AND SMOKE DETECTOR \\COMP:1ST CLASS SECURITY \\PH:800 482 9800," ,
         "CALL:ALARMF",
         "ADDR:23691 CR 60H",
+        "MADDR:23691 COUNTY ROAD 60H",
         "ID:20442",
         "UNIT:E1 E4 L1",
         "PHONE:800 482 9800",
@@ -28,6 +29,7 @@ public class COWeldCountyParserTest extends BaseParserTest {
     	"20431,SMKODR,1ST ST/8TH AV.E4 L1,TEXT:SMELL OF NATURAL GAS ALL OVER THE AREA \\COMP:W012,",
     	"CALL:SMKODR",
     	"ADDR:1ST ST & 8TH AV",
+      "MADDR:1ST ST & 8TH AVE",
     	"ID:20431",
     	"UNIT:E4 L1",
     	"INFO:SMELL OF NATURAL GAS ALL OVER THE AREA",
@@ -37,6 +39,7 @@ public class COWeldCountyParserTest extends BaseParserTest {
     	"20373,SMKODR,10TH AV/22ND ST.E4 R1,TEXT:STRONG SMELL OF NATURAL GAS IN AIR IN THIS AREA \\COMP:MIKE RUANE \\PH:608 630 2959,",	
     	"CALL:SMKODR",
     	"ADDR:10TH AV & 22ND ST",
+      "MADDR:10TH AVE & 22ND ST",
     	"ID:20373",
     	"UNIT:E4 R1",
     	"INFO:STRONG SMELL OF NATURAL GAS IN AIR IN THIS AREA",
@@ -47,6 +50,7 @@ public class COWeldCountyParserTest extends BaseParserTest {
     	"20032,SMKODR,2114 BLUEBELL AV.E4 R1,TEXT:FROM THE SOUTH, STRONG SMELL OF NATURAL GAS UNK WHERE ITS COMING FROM,",
     	"CALL:SMKODR",
     	"ADDR:2114 BLUEBELL AV",
+      "MADDR:2114 BLUEBELL AVE",
     	"ID:20032",
     	"UNIT:E4 R1",
     	"INFO:FROM THE SOUTH, STRONG SMELL OF NATURAL GAS UNK WHERE ITS COMING FROM"
@@ -55,6 +59,7 @@ public class COWeldCountyParserTest extends BaseParserTest {
     	"19897,ALARMF,2013 1ST AV.E4 E1 L1,TEXT:AUDIBLE COMING FROM PULL STATION  NW DOOR, NO ATC, PREM PH 970 674 1957 \\COMP:OP 311 SHERLOCK PLUS \\PH:800 443",
     	"CALL:ALARMF",
     	"ADDR:2013 1ST AV",
+      "MADDR:2013 1ST AVE",
     	"ID:19897",
     	"UNIT:E4 E1 L1",
     	"INFO:AUDIBLE COMING FROM PULL STATION NW DOOR, NO ATC, PREM PH 970 674 1957",
@@ -77,6 +82,7 @@ public class COWeldCountyParserTest extends BaseParserTest {
         "22668,TAUF  ,11TH AV/18TH ST.E2 R1 WA,TEXT:RP HIT A GUY IN CROSSWALK,HE\nIS TRYING TO WALK AWAY,",
         "CALL:TAUF",
         "ADDR:11TH AV & 18TH ST",
+        "MADDR:11TH AVE & 18TH ST",
         "ID:22668",
         "UNIT:E2 R1 WA",
         "INFO:RP HIT A GUY IN CROSSWALK, HE IS TRYING TO WALK AWAY");
@@ -90,6 +96,7 @@ public class COWeldCountyParserTest extends BaseParserTest {
         "/ 10903,SI    -SICK & INJ (F&A),3103 23RD AV.E2 WA,,\n\n\n",
         "CALL:SI -SICK & INJ (F&A)",
         "ADDR:3103 23RD AV",
+        "MADDR:3103 23RD AVE",
         "ID:10903",
         "UNIT:E2 WA");
 
@@ -97,6 +104,7 @@ public class COWeldCountyParserTest extends BaseParserTest {
         "/ 11470,SI    -SICK & INJ (F&A),3136 51ST AV.E5 WA,TEXT:RIB PAIN,FELL A WEEK \nAGO \\COMP:DEL \\PH:314-226-9976,\n\n\n",
         "CALL:SI -SICK & INJ (F&A)",
         "ADDR:3136 51ST AV",
+        "MADDR:3136 51ST AVE",
         "ID:11470",
         "UNIT:E5 WA",
         "INFO:RIB PAIN, FELL A WEEK AGO",
@@ -113,6 +121,7 @@ public class COWeldCountyParserTest extends BaseParserTest {
         "ID:22452",
         "CALL:FIREVF-FIRE VEHICLE (F)",
         "ADDR:15899 NANCY AV",
+        "MADDR:15899 NANCY AVE",
         "UNIT:26",
         "INFO:TRUCK ON FIRE, NO ONE INSIDE 2 OUTSIDE");
 
@@ -128,6 +137,7 @@ public class COWeldCountyParserTest extends BaseParserTest {
         "ID:22422",
         "CALL:SIPFF -SICK & INJ (F)",
         "ADDR:905 S MCKINLEY AV",
+        "MADDR:905 S MCKINLEY AVE",
         "UNIT:26 PM3",
         "INFO:FEM FAINTED/WON'T WAKE UP NOW / SOURCE:E911",
         "NAME:LUCY GALLEGOS",
@@ -138,6 +148,7 @@ public class COWeldCountyParserTest extends BaseParserTest {
         "ID:22411",
         "CALL:SIPFF -SICK & INJ (F)",
         "ADDR:15125 GOOD AV",
+        "MADDR:15125 GOOD AVE",
         "UNIT:26 PM3",
         "INFO:HUSB IN THE TUB, UNCONS/BREATHING",
         "NAME:VALERIE JENKINS",
@@ -148,6 +159,7 @@ public class COWeldCountyParserTest extends BaseParserTest {
         "ID:22407",
         "CALL:SI -SICK & INJ (F&A)",
         "ADDR:9643 CR 23",
+        "MADDR:9643 COUNTY ROAD 23",
         "UNIT:26 PM3",
         "INFO:CO ALARM GOING OFF",
         "NAME:LYNETTE",
@@ -158,6 +170,7 @@ public class COWeldCountyParserTest extends BaseParserTest {
         "ID:22452",
         "CALL:FIREVF-FIRE VEHICLE (F)",
         "ADDR:15899 NANCY AV",
+        "MADDR:15899 NANCY AVE",
         "UNIT:26",
         "INFO:TRUCK ON FIRE, NO ONE INSIDE 2 OUTSIDE");
 
@@ -186,6 +199,7 @@ public class COWeldCountyParserTest extends BaseParserTest {
         "ID:22648",
         "CALL:SIPFF -SICK & INJ (F)",
         "ADDR:3804 BURLINGTON AV",
+        "MADDR:3804 BURLINGTON AVE",
         "UNIT:24 WA");
 
     doTest("T10",
@@ -193,6 +207,7 @@ public class COWeldCountyParserTest extends BaseParserTest {
         "ID:23039",
         "CALL:FIREGF-FIRE GRD CVR (F)",
         "ADDR:103 N JOSEPHINE AV",
+        "MADDR:103 N JOSEPHINE AVE",
         "UNIT:32 29",
         "INFO:TREE W/ A POWER LINE TOUCH IT AND ITS SMOKING",
         "NAME:DAVID",
@@ -208,6 +223,7 @@ public class COWeldCountyParserTest extends BaseParserTest {
          "ID:21461",
          "CALL:SIPFF -SICK & INJ (F)",
          "ADDR:CR 61 & HY 34",
+         "MADDR:COUNTY ROAD 61 & HWY 34",
          "UNIT:37 WA",
          "INFO:NORTH OF HY 34 1 MILE, PATIENT IN A SEMI VOMITING",
          "NAME:JOE ROBERTSON",
@@ -218,6 +234,7 @@ public class COWeldCountyParserTest extends BaseParserTest {
          "ID:21489",
          "CALL:TAIF -TA W/INJURY (F)",
          "ADDR:CR 49 & HY 34",
+         "MADDR:COUNTY ROAD 49 & HWY 34",
          "UNIT:37 WA",
          "INFO:HEAD ON",
          "NAME:CHAD",
@@ -228,6 +245,7 @@ public class COWeldCountyParserTest extends BaseParserTest {
          "ID:21489",
          "CALL:TAIF -TA W/INJURY (F)",
          "ADDR:CR 49 & HY 34",
+         "MADDR:COUNTY ROAD 49 & HWY 34",
          "UNIT:37 WA",
          "INFO:HEAD ON",
          "NAME:CHAD",
@@ -238,6 +256,7 @@ public class COWeldCountyParserTest extends BaseParserTest {
          "ID:21461",
          "CALL:SIPFF -SICK & INJ (F)",
          "ADDR:CR 61 & HY 34",
+         "MADDR:COUNTY ROAD 61 & HWY 34",
          "UNIT:37 WA",
          "INFO:NORTH OF HY 34 1 MILE, PATIENT IN A SEMI VOMITING",
          "NAME:JOE ROBERTSON");
@@ -247,6 +266,7 @@ public class COWeldCountyParserTest extends BaseParserTest {
          "ID:21415",
          "CALL:SIPFF -SICK & INJ (F)",
          "ADDR:24098 CR 50",
+         "MADDR:24098 COUNTY ROAD 50",
          "UNIT:37 WA",
          "INFO:RP NEEDING HELP OFF THE FLOOR",
          "NAME:EVELYN",
@@ -264,6 +284,7 @@ public class COWeldCountyParserTest extends BaseParserTest {
          "ID:21367",
          "CALL:SIPFF -SICK & INJ (F)",
          "ADDR:6876 CR 47",
+         "MADDR:6876 COUNTY ROAD 47",
          "UNIT:28 PVA56",
          "INFO:CHEST PAIN",
          "NAME:JOSH",
@@ -274,10 +295,37 @@ public class COWeldCountyParserTest extends BaseParserTest {
          "ID:21355",
          "CALL:TAIF -TA W/INJURY (F)",
          "ADDR:201 E BISON HY",
+         "MADDR:201 E BISON HWY",
          "UNIT:28A PVA56",
          "INFO:BLU NEON, DIDN'T ROLL.",
          "NAME:NICKI",
          "PHONE:970-215-5558");
+
+  }
+  
+  @Test
+  public void testParser6() {
+
+    doTest("T1",
+        "\" \" (Dispatch) 21196,SIPFF -SICK & INJ   (F),805 COMPASSION DR.WI4201 WA 42,TEXT:RES FELL \n\\COMP:AUDREY \\PH:970.686.2743, TXT STOP to opt-out",
+        "ID:21196",
+        "CALL:SIPFF -SICK & INJ (F)",
+        "ADDR:805 COMPASSION DR",
+        "UNIT:WI4201 WA 42",
+        "INFO:RES FELL",
+        "NAME:AUDREY",
+        "PHONE:970.686.2743");
+
+    doTest("T2",
+        "\" \" (Dispatch) 26965,SIPFF -SICK & INJ   (F),3400 LATHAM AV.24 WA,TEXT:SISTER ILL AND \nFELL \\COMP:PEGGY PANTOJA \\PH:3369*3860, TXT STOP to opt-out",
+        "ID:26965",
+        "CALL:SIPFF -SICK & INJ (F)",
+        "ADDR:3400 LATHAM AV",
+        "MADDR:3400 LATHAM AVE",
+        "UNIT:24 WA",
+        "INFO:SISTER ILL AND FELL",
+        "NAME:PEGGY PANTOJA",
+        "PHONE:3369*3860");
 
   }
   
