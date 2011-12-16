@@ -3605,9 +3605,22 @@ Contact: Adam Slater <adam@raymondmartin.com>
 Sender: VisiNet.Command@sanantonio.gov
 Respond for Alarm - Medical @ 24245 Wilderness Oak - 1408 - RETREAT AT CANYON SPRINGS With Cross Streets of CANYON GOLF RD/CANYO
 **********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
+************  READY TO ROLL ******************************
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
 Brown County, OH
 Contact: "kieth" <kiethw@frontier.com>
 Sender: browncommctr@roadrunner.com
+
 [Alert: SMOKE IN THE AREA] ALRM LVL: 1 
 LOC: 
 13101 PURDY RD
@@ -3630,15 +3643,120 @@ BTWN: N/A & N/A
 RCVD AS Phone
 
 COM
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-************  READY TO ROLL ******************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
+
+[Alert: SMOKE IN THE AREA]  ALRM LVL: 1 (not sure what level is for)
+LOC:
+13101 PURDY RD (address)
+WASHINGTON   (this is the township or village name)
+BTWN: N/A & N/A (intersections)
+
+RCVD AS Phone
+
+COM:
+CALLER ADV MAN BURNING SOMETHING ABOUT TWO HO (comments)
+
+(Alert: SICK PERSON (SPECIFIC DIAG)) ALRM LVL: 1
+LOC:
+DEERFIELD TOWNHOUSE APARTMENTS
+455 W MAIN ST
+APT 703
+MT ORAB
+BTWN: N/A & N/A
+
+RCVD AS Phone
+
+COM:
+
+(Alert: BREATHING PROBLEMS) ALRM LVL: 1
+LOC:
+14885 EASTWOOD RD
+STERLING
+BTWN: TRI-COUNTY HWY & N/A
+
+RCVD AS 911
+
+COM:
+60 YOF
+
+CT:
+6D0013 at POS 03
+-----------------------------------------------------
+(Alert: PSYCH/ABNRML BEHVR/SUICIDE ATT) ALRM LVL: 1
+LOC:
+14964 HILL CREST RD
+GREEN
+BTWN: BARDWELL-BUFORD RD & GREENBUSH EAST RD
+
+RCVD AS Phone
+
+COM:
+CAL
+------------------------------------------------------
+(Alert: BREATHING PROBLEMS) ALRM LVL: 1
+LOC:
+1871 CROSSTOWN ROAD
+STERLING TWP
+BTWN: N/A & N/A
+
+
+
+COM:
+78 Y O F
+HAVING TROUBLE BRAETHING
+COPD
+DIFFICULTY
+------------------------------------------------------
+(Alert: CHEST PAIN (NON TRAUMATIC)) ALRM LVL: 1
+LOC:
+7703 GARDNER RD
+LEWIS
+BTWN: OAK GROVE RD & N/A
+
+RCVD AS Phone
+
+COM:
+SEVERE CHEST PAINS
+77 Y O M
+PA-----------------------------------------------------
+(Alert: PSYCH/ABNRML BEHVR/SUICIDE ATT) ALRM LVL: 1
+LOC:
+200 COLUMBIA ST
+HIGGINSPORT
+BTWN: OLIVE ST & JOHN ST
+
+RCVD AS Phone
+
+COM:
+BOYFRIEND WENT TO CHE
+----------------------------------------------------
+(Alert: SICK PERSON (SPECIFIC DIAG)) ALRM LVL: 1
+LOC:
+DEERFIELD TOWNHOUSE APARTMENTS
+455 W MAIN ST
+APT 703
+MT ORAB
+BTWN: N/A & N/A
+
+RCVD AS Phone
+
+COM:
+-----------------------------------------------------
+(Alert: STRUCTURE FIRE UNCONFIRMED ALERM LVL: 1
+LOC:
+2567 US RTE 134  (this is the mutual add in another county that doesn't have
+the township or village)
+BTWN: N/A & N/A
+
+RCVD AS PHONE
+
+COM: ADVISED SMOKE WAS COMING OUT OF THE WINDOWS CA
+-----------------------------------------------------
+(Alert: FIRE ALARM) ALARM LVL: 1
+LOC:
+11519 US RTE 62
+EAGLE
+BTWN: N/A & MAPLE DR
+
+RCVD AS PHONE
+
+COM: FIRE ALARM EASTERN MIDDLE SCHOOL DUCT SMOKE D

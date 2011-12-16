@@ -8,10 +8,14 @@
   </string>
   
   <string name="active911_title">Active 911</string>
-  <string name="active911_summary">The local alternative</string>
+  <string name="active911_summary">Live response tracking and mapping</string>
   <string name="active911_text">
-    A nice long description of why Active 911 is such a cool product and
-    why everyone should sign up for it immediately
+  Active911 provides a host of services for smartphones, cell phones, and tablets:\n
+   - REAL TIME monitoring of response efforts\n
+   - LIVE mapping of your entire crew as they respond\n
+   - Detailed report generation\n
+   - Works on iPhone, Android, Blackberry, and more\n
+   - 2 way messaging to provide your crew with supplemental information\n
   </string>
   
   <string name="vendor_notice_title">Cadpage Direct Paging</string>
