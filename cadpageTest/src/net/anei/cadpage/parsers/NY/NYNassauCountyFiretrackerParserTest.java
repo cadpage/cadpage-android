@@ -26,6 +26,7 @@ public class NYNassauCountyFiretrackerParserTest extends BaseParserTest {
         "SRC:FFD",
         "CALL:DISTRIC DIST CALL FOR SMOKE IN THE AREA",
         "ADDR:CHURCH ST",
+        "MADDR:CHURCH ST & ARCHER ST",
         "X:ARCHER ST");
 
     doTest("T3",
@@ -192,6 +193,7 @@ public class NYNassauCountyFiretrackerParserTest extends BaseParserTest {
         "SRC:NMFD",
         "CALL:[GENERAL] [CARB]",
         "ADDR:185 E LOINES AV",
+        "MADDR:185 E LOINES AVE",
         "X:GRACE AVE / -DEAD END-- M/A 64");
 
     doTest("T5",

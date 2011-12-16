@@ -123,6 +123,7 @@ public class TXHarrisCountyESD1BParserTest extends BaseParserTest {
         "CODE:29B04",
         "CALL:Traffic/Trans Incide",
         "ADDR:E BW 8 N & WOODFOREST BW 8 NB",
+        "MADDR:E BW 8 N & WOODFOREST BW 8",
         "MAP:457Y",
         "BOX:2005");
 

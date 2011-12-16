@@ -48,6 +48,7 @@ public class MDAlleganyCountyParserTest extends BaseParserTest {
         "ID:058516",
         "CALL:BEHAVORIAL EMERGENCY",
         "ADDR:20960 MARYLAND HW",
+        "MADDR:20960 MARYLAND HWY",
         "BOX:F3601",
         "UNIT:CO36 A351 M512");
 

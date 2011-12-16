@@ -124,6 +124,7 @@ public class MDCharlesCountyParserTest extends BaseParserTest {
         "CALL:10-50 PI",
         "UNIT:MOTORCYCLE, EMS, ALS, ATV, BICYCLE, BIKE, 29B, 29D",
         "ADDR:RIPLEY RD",
+        "MADDR:2 MILES FROM ANNAPOLIS WOODS RD,RIPLEY RD",
         "PLACE:2 MILES FROM ANNAPOLIS WOODS RD",
         "MAP:15 F6",
         "INFO:Age u");

@@ -79,6 +79,13 @@ public class MDMontgomeryCountyParserTest extends BaseParserTest {
         "ADDR:14615 PHILIP DR",
         "UNIT:AT715");
 
+    doTest("T10",
+        "CAD MSG: * D * 0609 * RSC - RESET ALARM * 4908 AUBURN AVE ,MCG  * RS741B ECC1",
+        "BOX:0609",
+        "CALL:RSC - RESET ALARM",
+        "ADDR:4908 AUBURN AVE",
+        "UNIT:RS741B");
+
   }
   
   public static void main(String[] args) {

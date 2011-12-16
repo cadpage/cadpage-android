@@ -45,6 +45,7 @@ public class NCDurhamCountyParserTest extends BaseParserTest {
         "CAD:CHEST PAIN;2238 W NC 54 HWY;CELESTE CIR",
         "CALL:CHEST PAIN",
         "ADDR:2238 W NC 54 HWY",
+        "MADDR:2238 W NC 54",
         "X:CELESTE CIR");
 
     doTest("T6",
@@ -58,6 +59,7 @@ public class NCDurhamCountyParserTest extends BaseParserTest {
         "CAD:TRANSPORTATION ACCIDENT;28163 I40 E/EXIT 283;BLK 4DR VOLVO, BLK VW JETTER, BLK 2 DR JETTA [07/04/11 20:06:12 GAY]",
         "CALL:TRANSPORTATION ACCIDENT",
         "ADDR:28163 I40 E & EXIT 283",
+        "MADDR:28163 I 40 E",
         "INFO:BLK 4DR VOLVO, BLK VW JETTER, BLK 2 DR JETTA");
 
     doTest("T8",
@@ -88,6 +90,7 @@ public class NCDurhamCountyParserTest extends BaseParserTest {
         "(CAD:) ASST PD SEIZURE;1125 W NC 54 HWY;[LAW] {A324} CON BREATHING AND ALERT [09/10/11 01:52:07 MITCHELLM] Event spawned from INTOXICATED DRIVER. [09/10/2011 01:51",
         "CALL:ASST PD SEIZURE",
         "ADDR:1125 W NC 54 HWY",
+        "MADDR:1125 W NC 54",
         "UNIT:A324",
         "INFO:CON BREATHING AND ALERT / Event spawned from INTOXICATED DRIVER.");
   }

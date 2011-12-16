@@ -140,6 +140,7 @@ public class NYSuffolkCountyDParserTest extends BaseParserTest {
         "CALL:MOTOR VEHICLE ACCIDENT-INJURIES",
         "CODE:29-B-1",
         "ADDR:SB WILLIAM FLOYD PKWY & MORICHES MIDDLE ISLAND RD",
+        "MADDR:WILLIAM FLOYD PKWY & MORICHES MIDDLE ISLAND RD",
         "DATE:10/27",
         "TIME:09:13");
 

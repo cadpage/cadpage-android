@@ -27,6 +27,7 @@ public class NYMontgomeryCountyParserTest extends BaseParserTest {
         "SRC:HVFD 218",
         "CALL:MOTOR VEHICLE ACCIDENT",
         "ADDR:STATE HWY 30 T",
+        "MADDR:AMSTERDAM COMMONS,STATE 30 T",
         "CITY:AMSTERDAM",
         "PLACE:AMSTERDAM COMMONS",
         "ID:0851");

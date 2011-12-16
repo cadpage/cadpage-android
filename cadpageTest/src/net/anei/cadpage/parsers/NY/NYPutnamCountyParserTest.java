@@ -36,6 +36,7 @@ public class NYPutnamCountyParserTest extends BaseParserTest {
         "CALL:AUTOMATIC FIRE ALARM",
         "PLACE:METRO NORTH MECHANICAL SHOP",
         "ADDR:PROSPECT HILL RD",
+        "MADDR:METRO NORTH MECHANICAL SHOP,PROSPECT HILL RD",
         "SRC:11",
         "INFO:GENERAL");
     

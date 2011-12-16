@@ -79,6 +79,7 @@ public class NYNiagaraCountyParserTest extends BaseParserTest {
         "ID:6414",
         "CALL:18 / 94yof incoherant cons / br",
         "ADDR:6061 edward av",
+        "MADDR:6061 edward ave",
         "DATE:9/27",
         "TIME:17:46");
 
@@ -248,7 +249,8 @@ public class NYNiagaraCountyParserTest extends BaseParserTest {
         "((42996) NCFC MDIPASQU ) 42 ALEXANDER PK 82 F FELL UNKNOWN INJ POSS LIFT ASSIST BLS-S",
         "ID:42996",
         "CALL:82 F FELL UNKNOWN INJ POSS LIFT ASSIST BLS-S",
-        "ADDR:42 ALEXANDER PK");
+        "ADDR:42 ALEXANDER PK",
+        "MADDR:42 ALEXANDER PIKE");
 
     doTest("T36",
         "((41328) NCFC JBRUCE ) EMS ALARM @ 6666 SHETRAM RD",

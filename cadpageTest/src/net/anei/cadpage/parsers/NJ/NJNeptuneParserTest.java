@@ -42,6 +42,7 @@ public class NJNeptuneParserTest extends BaseParserTest {
         "Subject:NEPTUNE PD COMMS CENTER\nEMS ALL CALL 98.5 LAWRENCE AV FOR ALERTERD MENTAL STATUS",
         "CALL:EMS ALL CALL 98.5",
         "ADDR:LAWRENCE AV",
+        "MADDR:LAWRENCE AVE",
         "INFO:FOR ALERTERD MENTAL STATUS");
   }
   

@@ -47,7 +47,8 @@ public class VAWaynesboroParserTest extends BaseParserTest {
     doTest("T7",
         "Dispatch:300 BLK PATTON FARM RD - SQAUD 2 REQUESTED - PRI1 PT WITH ENTRAPMENT - OPERATE COUNTY 1",
         "CALL:SQAUD 2 REQUESTED - PRI1 PT WITH ENTRAPMENT - OPERATE COUNTY 1",
-        "ADDR:300 BLK PATTON FARM RD");
+        "ADDR:300 BLK PATTON FARM RD",
+        "MADDR:300  PATTON FARM RD");
     
     doTest("T8",
         "Dispatch2@ci.waynesboro.va.us Msg: Dispatch2:RESPOND 368 WALNUT AVE FALL, BACK INJURY",

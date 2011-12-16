@@ -54,6 +54,7 @@ public class TXManvelParserTest extends BaseParserTest {
         "SRC:MVFD",
         "CALL:FIRE",
         "ADDR:815 CR 393",
+        "MADDR:815 COUNTY ROAD 393",
         "CITY:MANVEL");
 
     doTest("T7",

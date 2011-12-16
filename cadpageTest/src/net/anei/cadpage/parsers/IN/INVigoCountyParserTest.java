@@ -37,6 +37,7 @@ public class INVigoCountyParserTest extends BaseParserTest {
         "Ct:CHEST PAIN Loc:500 W PARIS AV Apt: XSt:6TH ST WTH 4TH ST WTH Grid:0WTH Units:E-41 TC-1 Rmk:",
         "CALL:CHEST PAIN",
         "ADDR:500 W PARIS AV",
+        "MADDR:500 W PARIS AVE",
         "X:6TH ST WTH 4TH ST WTH",
         "MAP:0WTH",
         "UNIT:E-41 TC-1");
@@ -54,6 +55,7 @@ public class INVigoCountyParserTest extends BaseParserTest {
         "Ct:MVA-UNKNOWN-INJ Loc:US HWY 40/INTERSTATE 70 Apt: XSt: Grid:0169 Units:E-41 Rmk:SEMI AND PASSENGER CAR//UNKNOWN Injuries",
         "CALL:MVA-UNKNOWN-INJ",
         "ADDR:US HWY 40 & INTERSTATE 70",
+        "MADDR:US 40 & INTERSTATE 70",
         "MAP:0169",
         "UNIT:E-41",
         "INFO:SEMI AND PASSENGER CAR//UNKNOWN Injuries");

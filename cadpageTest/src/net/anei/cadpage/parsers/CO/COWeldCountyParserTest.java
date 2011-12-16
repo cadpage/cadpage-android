@@ -213,6 +213,37 @@ public class COWeldCountyParserTest extends BaseParserTest {
         "NAME:DAVID",
         "PHONE:405-8450");
 
+    doTest("T11",
+        "\" \" (Dispatch) 21196,SIPFF -SICK & INJ   (F),805 COMPASSION DR.WI4201 WA 42,TEXT:RES FELL \n\\COMP:AUDREY \\PH:970.686.2743, TXT STOP to opt-out",
+        "ID:21196",
+        "CALL:SIPFF -SICK & INJ (F)",
+        "ADDR:805 COMPASSION DR",
+        "UNIT:WI4201 WA 42",
+        "INFO:RES FELL",
+        "NAME:AUDREY",
+        "PHONE:970.686.2743");
+
+    doTest("T12",
+        "\" \" (Dispatch) 26965,SIPFF -SICK & INJ   (F),3400 LATHAM AV.24 WA,TEXT:SISTER ILL AND \nFELL \\COMP:PEGGY PANTOJA \\PH:3369*3860, TXT STOP to opt-out",
+        "ID:26965",
+        "CALL:SIPFF -SICK & INJ (F)",
+        "ADDR:3400 LATHAM AV",
+        "MADDR:3400 LATHAM AVE",
+        "UNIT:24 WA",
+        "INFO:SISTER ILL AND FELL",
+        "NAME:PEGGY PANTOJA",
+        "PHONE:3369*3860");
+
+    doTest("T13",
+        "\" \" (Dispatch) 26974,SIPFF -SICK & INJ   (F),3501 MAGNOLIA ST.24 WA,TEXT:RPS MOTHER SICK \\COMP:ESMERALA \\PH:970 405 3476, TXT STOP to opt-out",
+        "ID:26974",
+        "CALL:SIPFF -SICK & INJ (F)",
+        "ADDR:3501 MAGNOLIA ST",
+        "UNIT:24 WA",
+        "INFO:RPS MOTHER SICK",
+        "NAME:ESMERALA",
+        "PHONE:970 405 3476");
+
   }
   
   @Test
@@ -300,32 +331,6 @@ public class COWeldCountyParserTest extends BaseParserTest {
          "INFO:BLU NEON, DIDN'T ROLL.",
          "NAME:NICKI",
          "PHONE:970-215-5558");
-
-  }
-  
-  @Test
-  public void testParser6() {
-
-    doTest("T1",
-        "\" \" (Dispatch) 21196,SIPFF -SICK & INJ   (F),805 COMPASSION DR.WI4201 WA 42,TEXT:RES FELL \n\\COMP:AUDREY \\PH:970.686.2743, TXT STOP to opt-out",
-        "ID:21196",
-        "CALL:SIPFF -SICK & INJ (F)",
-        "ADDR:805 COMPASSION DR",
-        "UNIT:WI4201 WA 42",
-        "INFO:RES FELL",
-        "NAME:AUDREY",
-        "PHONE:970.686.2743");
-
-    doTest("T2",
-        "\" \" (Dispatch) 26965,SIPFF -SICK & INJ   (F),3400 LATHAM AV.24 WA,TEXT:SISTER ILL AND \nFELL \\COMP:PEGGY PANTOJA \\PH:3369*3860, TXT STOP to opt-out",
-        "ID:26965",
-        "CALL:SIPFF -SICK & INJ (F)",
-        "ADDR:3400 LATHAM AV",
-        "MADDR:3400 LATHAM AVE",
-        "UNIT:24 WA",
-        "INFO:SISTER ILL AND FELL",
-        "NAME:PEGGY PANTOJA",
-        "PHONE:3369*3860");
 
   }
   

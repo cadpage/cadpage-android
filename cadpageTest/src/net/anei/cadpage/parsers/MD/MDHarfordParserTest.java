@@ -117,6 +117,7 @@ public class MDHarfordParserTest extends BaseParserTest {
         "UNIT:E91",
         "CALL:HEART PROBLEM",
         "ADDR:ST-155 & SRT161",
+        "MADDR:ST-155 & SRT 161",
         "X:SRT161",
         "CITY:HAVRE DE GRACE",
         "ID:143258");

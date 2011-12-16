@@ -24,7 +24,7 @@ public class NCCatawbaCountyParserTest extends BaseParserTest {
     doTest("T2",
         "|2010-190520*3977 C & B FARM RD***CONOVER**AUTO PD*********",
         "ID:2010-190520",
-        "ADDR:3977 C & B FARM RD",
+        "ADDR:3977 C AND B FARM RD",
         "CITY:CONOVER",
         "CALL:AUTO PD");
 
@@ -52,7 +52,7 @@ public class NCCatawbaCountyParserTest extends BaseParserTest {
     doTest("T6",
         "|2010-190520*3977 C & B FARM RD***CONOVER**AUTO PD*********",
         "ID:2010-190520",
-        "ADDR:3977 C & B FARM RD",
+        "ADDR:3977 C AND B FARM RD",
         "CITY:CONOVER",
         "CALL:AUTO PD");
 
@@ -90,6 +90,7 @@ public class NCCatawbaCountyParserTest extends BaseParserTest {
         "2011-021016*1101 S BRADY AV*E*12*NEWTON**TESTING*ALARMING TESTING*EMS STANDBY NEWTON AREA*828-465-0034*C51*364*Medical: No*Hazards: No*02/09/2011 08:20:34 : pos4 : BADRUM   Landmark: EMS STANDBY NEWTON AREA*",
         "ID:2011-021016",
         "ADDR:1101 S BRADY AV",
+        "MADDR:1101 S BRADY AVE",
         "APT:12",
         "CITY:NEWTON",
         "INFO:ALARMING TESTING / Medical: No / Hazards: No / 02/09/2011 08:20:34 : pos4 : BADRUM   Landmark: EMS STANDBY NEWTON AREA",
@@ -119,6 +120,7 @@ public class NCCatawbaCountyParserTest extends BaseParserTest {
         "2011-021052*35 S US 321 HWY***NEWTON**Traffic Stop*********",
         "ID:2011-021052",
         "ADDR:35 S US 321 HWY",
+        "MADDR:35 S US 321",
         "CITY:NEWTON",
         "CALL:Traffic Stop");
 

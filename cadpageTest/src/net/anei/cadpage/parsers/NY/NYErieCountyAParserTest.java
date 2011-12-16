@@ -74,6 +74,7 @@ public class NYErieCountyAParserTest extends BaseParserTest {
         "ALERT@ERIE.GOV EMS 48 BENTLEY CR LANCASTER TOWN 79 Y/O FEMALE LETHARGIC",
         "CALL:EMS",
         "ADDR:48 BENTLEY CR",
+        "MADDR:48 BENTLEY CIR",
         "CITY:LANCASTER TOWN",
         "INFO:79 Y / O FEMALE LETHARGIC");
     

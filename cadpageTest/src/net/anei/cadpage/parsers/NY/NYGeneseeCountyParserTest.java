@@ -18,6 +18,7 @@ public class NYGeneseeCountyParserTest extends BaseParserTest {
         "[Dispatch]  Acc PIAA ** 392.3 RT 90 E** , BATAVIA - ** ONE VEHICLE ROLLOVER ** LEWISTON RD, I 90 / KELSEY RD, I 90 ** 07/12/11 17:29 **",
         "CALL:Acc PIAA",
         "ADDR:392.3 RT 90 E",
+        "MADDR:392.3 RT 90 E & LEWISTON RD, I 90",
         "CITY:BATAVIA",
         "INFO:ONE VEHICLE ROLLOVER",
         "X:LEWISTON RD, I 90 / KELSEY RD, I 90");

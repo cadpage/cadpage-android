@@ -85,6 +85,7 @@ public class ILWoodfordCountyParserTest extends BaseParserTest {
         "ID:11-005470",
         "CALL:ACCIDENT INJURY UNKNOWN",
         "ADDR:1386 STATE ROUTE 117",
+        "MADDR:1386 STATE 117",
         "X:1300N /  116/",
         "PLACE:PARSONS COMPANY",
         "CITY:ROANOKE",

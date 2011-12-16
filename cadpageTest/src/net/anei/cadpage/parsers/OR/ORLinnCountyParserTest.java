@@ -79,6 +79,7 @@ public class ORLinnCountyParserTest extends BaseParserTest {
         "SICK PERSON/ 1177 1ST AV Sweet Home/ 60602221/",
         "CALL:SICK PERSON",
         "ADDR:1177 1ST AV",
+        "MADDR:1177 1ST AVE",
         "CITY:Sweet Home",
         "MAP:60602221");
 
@@ -86,6 +87,7 @@ public class ORLinnCountyParserTest extends BaseParserTest {
         "UNK PROB (man down)/ 1228 4TH AV Sweet Home/ 60602221/",
         "CALL:UNK PROB (man down)",
         "ADDR:1228 4TH AV",
+        "MADDR:1228 4TH AVE",
         "CITY:Sweet Home",
         "MAP:60602221");
 
@@ -93,6 +95,7 @@ public class ORLinnCountyParserTest extends BaseParserTest {
         "O D/INGESTION/POISONING/ 1131 29TH AV #C2 Sweet Home/ 60632221/",
         "CALL:O D/INGESTION/POISONING",
         "ADDR:1131 29TH AV",
+        "MADDR:1131 29TH AVE",
         "APT:#C2",
         "CITY:Sweet Home",
         "MAP:60632221");
@@ -123,6 +126,7 @@ public class ORLinnCountyParserTest extends BaseParserTest {
         "ALARM-FIRE/ 1400 18TH AV Sweet Home LINMAR INDUSTRIES LLC/ 60612221/",
         "CALL:ALARM-FIRE",
         "ADDR:1400 18TH AV",
+        "MADDR:1400 18TH AVE",
         "CITY:Sweet Home",
         "PLACE:LINMAR INDUSTRIES LLC",
         "MAP:60612221");
@@ -131,6 +135,7 @@ public class ORLinnCountyParserTest extends BaseParserTest {
         "ALARM-FIRE/1400 18TH AV Sweet Home LINMAR INDUSTRIES LLC/HWY 20 & TAMARACK ST/60612221/ E21 STN21/Overhead door ~ water flow ~ zone 3 ~ riser 1",
         "CALL:ALARM-FIRE",
         "ADDR:1400 18TH AV",
+        "MADDR:1400 18TH AVE",
         "CITY:Sweet Home",
         "PLACE:LINMAR INDUSTRIES LLC",
         "X:HWY 20 & TAMARACK ST",

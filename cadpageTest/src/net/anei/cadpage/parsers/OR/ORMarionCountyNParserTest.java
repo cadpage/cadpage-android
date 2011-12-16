@@ -19,6 +19,7 @@ public class ORMarionCountyNParserTest extends BaseParserTest {
         "ID:49962",
         "CALL:TONE",
         "ADDR:819 RAILWAY AV",
+        "MADDR:819 RAILWAY AVE",
         "MAP:3030",
         "UNIT:VTON,STAF",
         "INFO:SAFE COM STA1@1830/APP CKS@1900 EMS@1945 STA1");
@@ -269,6 +270,7 @@ public class ORMarionCountyNParserTest extends BaseParserTest {
         "ID:339",
         "CALL:COMM",
         "ADDR:490 S PACIFIC HW",
+        "MADDR:490 S PACIFIC HWY",
         "MAP:2127",
         "UNIT:E21,E22,E24,E875,LA21,A21,TIME,PGE,N3",
         "INFO:LOTS OF SMOKE COMING FROM BACK OF LOC/");

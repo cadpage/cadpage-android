@@ -64,6 +64,7 @@ public class NYMonroeCountyWebsterParserTest extends BaseParserTest {
     doTest("T1",
         "L: 50 COTTAGE GROVE CI BOX: 0622\nT: CHIE - 6D2 : TRB BREATHING- DIFF SPEAKING            \nB: ROCH PRESB  PH:\nC1: BUFFALO RD\nC2: DEAD END\nX: 43 YO F PROB BREAT",
         "ADDR:50 COTTAGE GROVE CI",
+        "MADDR:50 COTTAGE GROVE CIR",
         "BOX:0622",
         "CALL:CHIE - 6D2 : TRB BREATHING- DIFF SPEAKING",
         "PLACE:ROCH PRESB",

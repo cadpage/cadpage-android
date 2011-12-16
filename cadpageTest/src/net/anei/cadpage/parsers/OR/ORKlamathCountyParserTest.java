@@ -41,6 +41,7 @@ public class ORKlamathCountyParserTest extends BaseParserTest {
         "CALL:3- MVA W/INJURIES",
         "PRI:1",
         "ADDR:MP27 DEAD INDIAN",
+        "MADDR:MP27 DEAD INDIAN,MP27 DEAD INDIAN",
         "CITY:KLAMATH FALLS",
         "PLACE:MP27 DEAD INDIAN");
 

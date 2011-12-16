@@ -28,6 +28,7 @@ public class TXNassauBayParserTest extends BaseParserTest {
         "SRC:NBFD",
         "CALL:STRUCTURE FIRE",
         "ADDR:1020-264 W NASA PKWY",
+        "MADDR:1020 W NASA PKWY",
         "CITY:WEBSTER",
         "CODE:WBW",
         "INFO:smoke inside");
@@ -99,6 +100,7 @@ public class TXNassauBayParserTest extends BaseParserTest {
         "SRC:WBFD",
         "CALL:FIRE ALARM",
         "ADDR:1001-B W BAY AREA BLVD",
+        "MADDR:1001 W BAY AREA BLVD",
         "CITY:WEBSTER",
         "CODE:WBW",
         "INFO:manual pull in offc");
@@ -108,6 +110,7 @@ public class TXNassauBayParserTest extends BaseParserTest {
         "SRC:WBFD",
         "CALL:UNCONSCIOUS",
         "ADDR:20233 IH 45 FWY",
+        "MADDR:20233  45 FWY",
         "CITY:WEBSTER",
         "CODE:WBW",
         "INFO:IN FRONT SHOWROOM / FEMALE PASSED OUT, IS BREATHING");
@@ -117,6 +120,7 @@ public class TXNassauBayParserTest extends BaseParserTest {
         "SRC:WBFD",
         "CALL:MINOR ACCIDENT",
         "ADDR:SH 3 HWY & MAGNOLIA AVE",
+        "MADDR:ST 3 & MAGNOLIA AVE",
         "CITY:WEBSTER",
         "CODE:WBE",
         "INFO:7 months / blk tk silber pt cruiser");
@@ -157,6 +161,7 @@ public class TXNassauBayParserTest extends BaseParserTest {
         "SRC:LCFD",
         "CALL:ELECTRICAL PROBLEMS SPARKS",
         "ADDR:500-BLK PALOMINO LN",
+        "MADDR:500 PALOMINO LN",
         "CITY:LEAGUE CITY",
         "CODE:LCFW",
         "INFO:(D2) E2 CAN GO BACK IN SERVICE");
@@ -193,6 +198,7 @@ public class TXNassauBayParserTest extends BaseParserTest {
         "SRC:LCFD",
         "CALL:FIRE ALARM",
         "ADDR:1455-3307 LOUISIANA AVE",
+        "MADDR:1455 LOUISIANA AVE",
         "CITY:LEAGUE CITY",
         "CODE:LCFE",
         "INFO:smoke dector alarm resd 281-557-2707 jones, jazzeline");

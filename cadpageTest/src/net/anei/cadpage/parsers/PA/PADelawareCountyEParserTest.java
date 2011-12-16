@@ -18,6 +18,7 @@ public class PADelawareCountyEParserTest extends BaseParserTest {
         "18:03\nHAVERFORD RD & WOODCREST AV\nFD INVESTIGATION\nHAVERFORD RD\nWOODCREST AV",
         "TIME:18:03",
         "ADDR:HAVERFORD RD & WOODCREST AV",
+        "MADDR:HAVERFORD RD & WOODCREST AVE",
         "CALL:FD INVESTIGATION",
         "X:HAVERFORD RD & WOODCREST AV");
   }

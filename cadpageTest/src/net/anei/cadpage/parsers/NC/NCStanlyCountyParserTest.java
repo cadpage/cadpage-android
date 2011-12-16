@@ -88,6 +88,7 @@ public class NCStanlyCountyParserTest extends BaseParserTest {
         "CAD:E13-DIABETIC PROBLEMS/40206 US 52 HWY N/NEW/AUSTIN RD/[Medical Priority Info] PROBLEM: diab prob # PATS: 1 AGE: 83 Years SEX: Male",
         "CALL:E13-DIABETIC PROBLEMS",
         "ADDR:40206 US 52 HWY N",
+        "MADDR:40206 US 52 N",
         "CITY:NEW LONDON",
         "X:AUSTIN RD",
         "INFO:diab prob # PATS: 1 AGE: 83 Years SEX: Male");

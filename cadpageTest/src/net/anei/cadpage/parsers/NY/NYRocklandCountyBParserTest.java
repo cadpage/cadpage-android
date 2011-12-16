@@ -33,6 +33,7 @@ public class NYRocklandCountyBParserTest extends BaseParserTest {
         "UNIT:15",
         "CALL:VEHICLE FIRE",
         "ADDR:TWAY 34.6 NB",
+        "MADDR:TWAY 34.6 & UNKNOWN",
         "X:UNKNOWN / NEW YORK STATE THWY N, NEW YORK STATE THRUWAY - 87 N");
 
     doTest("T4",

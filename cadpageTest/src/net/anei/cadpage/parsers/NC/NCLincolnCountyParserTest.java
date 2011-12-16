@@ -31,6 +31,7 @@ public class NCLincolnCountyParserTest extends BaseParserTest {
         "CODE:06D04",
         "CALL:BREATHING PROBLEMS",
         "ADDR:8888 N NC 16 HWY",
+        "MADDR:8888 N NC 16",
         "PLACE:DELLING COMMUNICATIONS",
         "X:CHARTER LN & HAGERS HOLLOW DR",
         "INFO:<REMOVED PT DATA>, Conscious, Breathing. Breathing Problems. Clammy. 1.He is completely alert (responding appropriately). 2.He does not have");

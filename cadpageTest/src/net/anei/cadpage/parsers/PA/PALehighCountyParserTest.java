@@ -85,6 +85,7 @@ public class PALehighCountyParserTest extends BaseParserTest {
         "SRC:ST3000",
         "CALL:FD STANDBY AT OWN ST",
         "ADDR:ALLENTOWN FD",
+        "MADDR:ALLENTOWN FD,ALLENTOWN FD",
         "CITY:ALLENTOWN",
         "PLACE:ALLENTOWN FD",
         "INFO:**FIRE STANDBY - AT OWN STATION / Original Location : ALLENTOWN FD",

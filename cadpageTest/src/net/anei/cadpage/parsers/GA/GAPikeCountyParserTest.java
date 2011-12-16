@@ -43,6 +43,7 @@ public class GAPikeCountyParserTest extends BaseParserTest {
         "PIKE COUNTY E-911:FIRSTR STRUCTURE FIRE INDUSTRIAL DRIVE/VERY END 770",
         "CALL:FIRSTR STRUCTURE FIRE",
         "ADDR:INDUSTRIAL DRIVE",
+        "MADDR:VERY END,INDUSTRIAL DRIVE",
         "PLACE:VERY END");
 
     doTest("T6",
@@ -56,6 +57,7 @@ public class GAPikeCountyParserTest extends BaseParserTest {
         "PIKE COUNTY E-911:FIRE FIRE GENERIC (TYPE) HIGHWAY 362 AREA OF CONCORD RD 3345591717",
         "CALL:FIRE FIRE GENERIC (TYPE)",
         "ADDR:HIGHWAY 362",
+        "MADDR:AREA OF CONCORD RD,HIGHWAY 362",
         "PLACE:AREA OF CONCORD RD",
         "PHONE:3345591717");
     

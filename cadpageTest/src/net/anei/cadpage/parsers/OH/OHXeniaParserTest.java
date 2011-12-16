@@ -63,6 +63,7 @@ public class OHXeniaParserTest extends BaseParserTest {
         "CRUI Location: STEVENSON RD US 42 E XENIA TWP Time: 23:52 Units: E51 M51 CHF50  Common Name: Info:  IN A DI",
         "CALL:CRUI",
         "ADDR:STEVENSON RD",
+        "MADDR:STEVENSON RD & US 42 E",
         "X:US 42 E",
         "CITY:XENIA TWP",
         "UNIT:E51 M51 CHF50",
@@ -87,6 +88,7 @@ public class OHXeniaParserTest extends BaseParserTest {
         "CRUI Location: STEVENSON RD US 42 E XENIA TWP Time: 23:52 Units: E51 M51 CHF50  Common Name: Info:  IN A DI",
         "CALL:CRUI",
         "ADDR:STEVENSON RD",
+        "MADDR:STEVENSON RD & US 42 E",
         "X:US 42 E",
         "CITY:XENIA TWP",
         "UNIT:E51 M51 CHF50",
@@ -123,6 +125,7 @@ public class OHXeniaParserTest extends BaseParserTest {
         "CRUI Location: E LIMESTONE ST XENIA AVE YELLOW SPRINGS Time: 18:42 Units: E82 HUSMA M51 CHF81  Common Name:",
         "CALL:CRUI",
         "ADDR:E LIMESTONE ST",
+        "MADDR:E LIMESTONE ST & XENIA AVE",
         "X:XENIA AVE",
         "CITY:YELLOW SPRINGS",
         "UNIT:E82 HUSMA M51 CHF81");
