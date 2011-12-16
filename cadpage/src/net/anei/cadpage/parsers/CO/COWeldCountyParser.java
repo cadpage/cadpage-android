@@ -24,6 +24,8 @@ Contact: Joshua Tapia <jtapia0145@gmail.com>
 Contact: JC Langley <ashaman01@gmail.com>
 Contact: Ryan Fuller <rfuller131@gmail.com>
 Contact: Bernard Covillo <bcovillo@gmail.com>
+Contact: Kirk Bauer <kbauer620@gmail.com>
+Contact: JC Langley <ashaman01@gmail.com>
 Sender: unpredictable
 " " (Dispatch) 22452,FIREVF-FIRE VEHICLE (F),15899 NANCY AV.26,TEXT:TRUCK ON FIRE, NO \nONE INSIDE 2 OUTSIDE, TXT STOP to opt-out
 " " (Dispatch) 22440,TAUF  -TA UNK INJURY(F),1108 LANTERN DR.26 PM3,,FG10 TXT STOP to opt-out
@@ -35,6 +37,8 @@ Sender: unpredictable
 " " (Dispatch) 22606,ATSUCF-ATTP SUICIDE (F),2926 GLEN DALE DR.24 WA,TEXT:OVERDOSE \COMP:DIANA \n\LOC:ALI - SHOWS #6 \PH:9706738057, TXT STOP to opt-out
 " " (Dispatch) 22648,SIPFF -SICK & INJ   (F),3804 BURLINGTON AV.24 WA,, TXT STOP to opt-out
 " " (Dispatch) 23039,FIREGF-FIRE GRD CVR (F),103 N JOSEPHINE AV.32 29,TEXT:TREE W/ A POWER \nLINE TOUCH IT AND ITS SMOKING \COMP:DAVID \PH:405-8450,FG5 TXT STOP to opt-out
+" " (Dispatch) 21196,SIPFF -SICK & INJ   (F),805 COMPASSION DR.WI4201 WA 42,TEXT:RES FELL \n\COMP:AUDREY \PH:970.686.2743, TXT STOP to opt-out
+" " (Dispatch) 26965,SIPFF -SICK & INJ   (F),3400 LATHAM AV.24 WA,TEXT:SISTER ILL AND \nFELL \COMP:PEGGY PANTOJA \PH:3369*3860, TXT STOP to opt-out
 
 Contact: Kevin Hudson <motorworks3@gmail.com>
 Sender: 93001026
@@ -48,11 +52,6 @@ Dispatch,21367,SIPFF -SICK & INJ (F),6876 CR 47.28 PVA56,TEXT:CHEST PAIN \COMP:J
 Dispatch,21355,TAIF -TA W/INJURY (F),201 E BISON HY.28A PVA56,TEXT:BLU NEON, DIDN'T\n\nROLL. \COMP:NICKI \PH:970-215-5558,FG9
 
 
-Contact: Kirk Bauer <kbauer620@gmail.com>
-Contact: JC Langley <ashaman01@gmail.com>
-Sender: 777nnnnnnn
-" " (Dispatch) 21196,SIPFF -SICK & INJ   (F),805 COMPASSION DR.WI4201 WA 42,TEXT:RES FELL \n\COMP:AUDREY \PH:970.686.2743, TXT STOP to opt-out
-" " (Dispatch) 26965,SIPFF -SICK & INJ   (F),3400 LATHAM AV.24 WA,TEXT:SISTER ILL AND \nFELL \COMP:PEGGY PANTOJA \PH:3369*3860, TXT STOP to opt-out
 
  */
 
