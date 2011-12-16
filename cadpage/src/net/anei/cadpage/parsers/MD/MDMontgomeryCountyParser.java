@@ -34,6 +34,9 @@ Contact: Morgan Kee <morgan.kee@gmail.com>
 Contact: Robert Murphy <robertmurphy30@gmail.com>
 FRM:General Alerts\nMSG:CAD MSG: * D *  * MAF FULL * 14615 PHILIP DR * AT715 BCNOT DFRS=
 
+Contact: Christopher Finelli <chris.finelli@gmail.com>
+CAD MSG: * D * 0609 * RSC - RESET ALARM * 4908 AUBURN AVE ,MCG  * RS741B ECC1
+
 */
 
 public class MDMontgomeryCountyParser extends SmsMsgParser {
