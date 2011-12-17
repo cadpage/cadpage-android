@@ -219,13 +219,13 @@ public class SmsMmsMessage implements Serializable {
    * @param ackReq
    * @param ackURL
    */
-  public SmsMmsMessage(String from, String subject, String content,
+  public SmsMmsMessage(String from, String subject, String messageBody,
                         long timestamp, String location, String sponsor, 
                         String ackReq, String ackURL) {
     this.messageType = MESSAGE_TYPE_C2DM;
     this.fromAddress = from;
     this.subject = subject;
-    this.contentLoc = content;
+    this.messageBody = messageBody;
     this.timestamp = timestamp;
     this.location = location;
     this.sponsor = sponsor;
