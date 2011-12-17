@@ -96,6 +96,7 @@ public class C2DMReceiver extends BroadcastReceiver {
     
     // See what kind of message this is
     String type = intent.getStringExtra("type");
+    if (type == null) type = "PAGE";
     
     // Ping just needs to be acknowledged
     if (type.equals("PING")) {
