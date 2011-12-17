@@ -41,6 +41,18 @@ MSG:i>¿DURF:2011:0013DispatchedALARM EMS5593 ROUTE 46, VERONA (ROUTE 31/FOX ST;
 ?VEOF:2011:0407>Dispatched\n>ALARM FIRE\n>5218 PATRICK RD (COUNTY ROUTE 48A), VERONA (VERONA, ROUTE 365/SNYDER RD; Near:TURNING STONE CASINO)
 WATA:2011:0305 >Dispatched >EMS CALL >358 MADISON ST, WATERVILLE VILLAGE (/TERRY MEADOWS DR; Near:WATERVILLE HIGH SCHOOL)
 
+Contact: Llewellyn Owens <bcsbeaverslew@yahoo.com>
+Sender: messaging@iamresponding.com
+[Waterville Amb]  &#239;&#187;&#191;WATA:2011:0356 &gt;Dispatched &gt;32B03 - UNKNOWN STATUS/OTHER CODES NOT APPLICABLE &gt;9218 MAIN ST N BROOKFIELD
+[Waterville Amb]  &#239;&#187;&#191;WATA:2011:0354 &gt;Dispatched &gt;26A11 - VOMITING &gt;97 STAFFORD AVE N, WATERVILLE VILLAGE (W BACON ST, E BACON ST/
+[Waterville Amb]  &#239;&#187;&#191;WATA:2011:0353 &gt;Dispatched &gt;17B03 - UNKNOWN STATUS/OTHER CODES NOT APPLICABLE &gt;774 ROUTE 12, SANGERFIELD (CR
+[Waterville Amb]  &#239;&#187;&#191;WATA:2011:0352 &gt;Dispatched &gt;TRANSPORT &gt;@HARDINGS NURSING HOME  (220 TOWER ST), WATERVILLE VILLAGE
+[Waterville Amb]  &#239;&#187;&#191;WATA:2011:0351 &gt;Dispatched &gt;EMS CALL &gt;@WATERVILLE MEMORIAL PARK ELEMENTARY SCHOOL  (145 E BACON ST), WATERVI
+[Waterville Amb]  &#239;&#187;&#191;WATA:2011:0350 &gt;Dispatched &gt;EMS CALL &gt;ONEIDA  COUNTY
+[Waterville Amb]  &#239;&#187;&#191;WATA:2011:0349 &gt;Dispatched &gt;17B01 - POSSIBLY DANGEROUS BODY AREA &gt;2522 ROUTE 315, MARSHALL (CALIFORNIA RD/HU
+[Waterville Amb]  &#239;&#187;&#191;WATA:2011:0348 &gt;Dispatched &gt;06C01-ABNORMAL BREATHING &gt;144 HUNTINGTON PL, WATERVILLE VILLAGE (/TOWER ST) #MID
+
+
 ** NOT IMPLEMENTED **
 FRM:dispatch@oc911.org\nMSG:???WEMF:2011:0346AcknowledgeMVA-UNKNOWNROUTE 233, WESTMORELAND/W MAIN ST (COUNTY ROUTE 23), WESTMORELAND
 ???STIF:2011:0140Dispatched30B01 - POSSIBLY DANGEROUS BODY AREA8533 CHAMINADE RD, MARCY (OLD RIVER RD/ORISKANY RD; Near:VINCES U PULL IT)
@@ -50,6 +62,8 @@ FRM:dispatch@oc911.org\nMSG:???WEMF:2011:0346AcknowledgeMVA-UNKNOWNROUTE 233, WE
 public class NYOneidaCountyParser extends SmsMsgParser {
   
   private static final Pattern DELIM = Pattern.compile(" *(?:\\n>?|>) *");
+  private static final Pattern CODE_PTN = Pattern.compile("^(\\d\\d[A-Z]\\d\\d) ?- ?");
+  private static final Pattern NY_PTN = Pattern.compile(", *NY$");
   private static final Pattern OUTSIDE = Pattern.compile("\\bOUTSIDE\\b");
   
   public NYOneidaCountyParser() {
@@ -58,11 +72,11 @@ public class NYOneidaCountyParser extends SmsMsgParser {
   
   @Override
   public String getFilter() {
-    return "dispatch@ocgov.net,@oc911.org";
+    return "dispatch@ocgov.net,@oc911.org,messaging@iamresponding.com";
   }
 
   @Override
-  protected boolean parseMsg(String body, Data data) {
+  protected boolean parseMsg(String subject, String body, Data data) {
     
     int pt = body.indexOf("Dispatched");
     if (pt < 0) return false;
@@ -76,25 +90,79 @@ public class NYOneidaCountyParser extends SmsMsgParser {
     
     String[] flds = DELIM.split(body);
     if (flds.length <= 3) return false;
+    
+    data.strSource = subject;
 
     data.strCallId = flds[0];
     if (flds[1].equals("Dispatch")) return false;
-    data.strCall = flds[2];
-    
-    Parser p = new Parser(flds[3]);
-    String sAddr = p.get(',');
-    pt = sAddr.indexOf('(');
-    if (pt >= 0) sAddr = sAddr.substring(0,pt).trim();
-    parseAddress(sAddr, data);
-    data.strCity = p.getOptional('(');
-    Matcher match = OUTSIDE.matcher(data.strCity);
-    if (match.find()) data.strCity = data.strCity.substring(0,match.start()).trim();
-    if (data.strCity.length() > 0) {
-      data.strCross = p.get(')');
-    } else {
-      data.strCity = p.get('/');
-      data.strCross = p.get();
+    String sCall = flds[2];
+    Matcher match = CODE_PTN.matcher(sCall);
+    if (match.find()) {
+      data.strCode = match.group(1);
+      sCall = sCall.substring(match.end()).trim();
     }
+    data.strCall = sCall;
+    
+    // Break address field into stuff before, inside, and after two sets of parenthesis
+    Parser p = new Parser(flds[3]);
+    String sPart1 = p.get('(');
+    String sPart2 = p.get(')');
+    String sPart3 = p.get('(');
+    String sPart4 = p.get(')');
+    String sPart5 = p.get();
+    
+    // If first part starts with @, it contains a place name
+    // and the second part is the address
+    if (sPart1.startsWith("@")) {
+      data.strPlace = sPart1.substring(1).trim();
+      parseAddress(sPart2, data);
+    }
+    
+    // Othewise, first part is the address and city
+    else {
+      match = NY_PTN.matcher(sPart1);
+      if (match.find()) sPart1 = sPart1.substring(0, match.start()).trim();
+      pt = sPart1.indexOf(',');
+      if (pt < 0) pt = sPart1.lastIndexOf(' ');
+      if (pt >= 0) {
+        data.strCity = sPart1.substring(pt+1).trim();
+        sPart1 = sPart1.substring(0,pt).trim();
+        pt = data.strCity.indexOf('/');
+        if (pt >= 0) {
+          data.strCross = data.strCity.substring(pt).trim();
+          data.strCity = data.strCity.substring(0,pt).trim();
+        }
+      }
+      parseAddress(sPart1, data);
+      
+      // Second part is generally the cross street
+      // It may have a New: place name and may have leading or trailing slash
+      // or semicolon characters that need to be removed
+      pt = sPart2.indexOf("Near:");
+      if (pt >= 0) {
+        data.strSupp = sPart2.substring(pt);
+        sPart2 = sPart2.substring(0,pt).trim();
+      }
+      if (sPart2.startsWith("/")) sPart2 = sPart2.substring(1).trim();
+      if (sPart2.endsWith(";")) sPart2 = sPart2.substring(0,sPart2.length()-1).trim();
+      if (sPart2.endsWith("/")) sPart2 = sPart2.substring(0,sPart2.length()-1).trim();
+      data.strCross = append(data.strCross, " & ", sPart2);
+    }
+    
+    // If we get this far, part 3 contains a city if it starts with a comma
+    // otherwise it contains additional information, as does part 4
+    // With some safeguards against a truncated city name
+    if (sPart3.startsWith(",")) {
+      sPart3 = sPart3.substring(1).trim();
+      if (data.strCity.length() == 0) data.strCity = sPart3;
+      else data.strSupp = append(data.strSupp, " / ", sPart3);
+    }
+    data.strSupp = append(data.strSupp, " / ", sPart4);
+    data.strSupp = append(data.strSupp, " / ", sPart5);
+    
+    // Check for and remove OUTSIDE from city
+    match = OUTSIDE.matcher(data.strCity);
+    if (match.find()) data.strCity = data.strCity.substring(0,match.start()).trim();
     return true;
   }
 }
