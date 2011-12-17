@@ -229,6 +229,9 @@ public class MDAnneArundelCountyEMSParser extends SmartAddressParser {
       "DV", "DAVIDSONVILLE",
       "GM", "GAMBRILLS",
       "HA", "HANOVER",
-      "HN", "HANOVER"
+      "HN", "HANOVER",
+      "MV", "MILLERSVILLE",
+      "OD", "ODENTON",
+      "SV", "SEVENRN",
   });
 }
