@@ -1,10 +1,15 @@
 package net.anei.cadpage.parsers.NY;
 
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.SortedSet;
+import java.util.TreeMap;
+import java.util.TreeSet;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.SmsMsgInfo.Data;
-import net.anei.cadpage.parsers.SmsMsgParser;
+import net.anei.cadpage.parsers.SmartAddressParser;
 
 /*    
 Oneida County, NY
@@ -59,7 +64,7 @@ FRM:dispatch@oc911.org\nMSG:???WEMF:2011:0346AcknowledgeMVA-UNKNOWNROUTE 233, WE
 
 */
 
-public class NYOneidaCountyParser extends SmsMsgParser {
+public class NYOneidaCountyParser extends SmartAddressParser {
   
   private static final Pattern DELIM = Pattern.compile(" *(?:\\n>?|>) *");
   private static final Pattern CODE_PTN = Pattern.compile("^(\\d\\d[A-Z]\\d\\d) ?- ?");
@@ -67,7 +72,7 @@ public class NYOneidaCountyParser extends SmsMsgParser {
   private static final Pattern OUTSIDE = Pattern.compile("\\bOUTSIDE\\b");
   
   public NYOneidaCountyParser() {
-    super("ONEIDA COUNTY", "NY");
+    super(CITY_LIST, "ONEIDA COUNTY", "NY");
   }
   
   @Override
@@ -118,22 +123,23 @@ public class NYOneidaCountyParser extends SmsMsgParser {
       parseAddress(sPart2, data);
     }
     
-    // Othewise, first part is the address and city
+    // Otherwise, first part is the address and city
     else {
       match = NY_PTN.matcher(sPart1);
       if (match.find()) sPart1 = sPart1.substring(0, match.start()).trim();
       pt = sPart1.indexOf(',');
-      if (pt < 0) pt = sPart1.lastIndexOf(' ');
       if (pt >= 0) {
         data.strCity = sPart1.substring(pt+1).trim();
         sPart1 = sPart1.substring(0,pt).trim();
         pt = data.strCity.indexOf('/');
         if (pt >= 0) {
-          data.strCross = data.strCity.substring(pt).trim();
+          data.strCross = data.strCity.substring(pt+1).trim();
           data.strCity = data.strCity.substring(0,pt).trim();
         }
+        parseAddress(sPart1, data);
+      } else {
+        parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END, sPart1, data);
       }
-      parseAddress(sPart1, data);
       
       // Second part is generally the cross street
       // It may have a New: place name and may have leading or trailing slash
@@ -154,7 +160,7 @@ public class NYOneidaCountyParser extends SmsMsgParser {
     // With some safeguards against a truncated city name
     if (sPart3.startsWith(",")) {
       sPart3 = sPart3.substring(1).trim();
-      if (data.strCity.length() == 0) data.strCity = sPart3;
+      if (data.strCity.length() == 0) data.strCity = expandCity(sPart3);
       else data.strSupp = append(data.strSupp, " / ", sPart3);
     }
     data.strSupp = append(data.strSupp, " / ", sPart4);
@@ -163,6 +169,81 @@ public class NYOneidaCountyParser extends SmsMsgParser {
     // Check for and remove OUTSIDE from city
     match = OUTSIDE.matcher(data.strCity);
     if (match.find()) data.strCity = data.strCity.substring(0,match.start()).trim();
+    
+    data.strCross = data.strCross.replace(",", " /").trim();
     return true;
   }
+  
+  /**
+   * Expand a possibly abbreviated city
+   * @param sPart3 possibly abbreviated city
+   * @return restored city
+   */
+  private String expandCity(String city) {
+    city = city.toUpperCase();
+    SortedSet<String> set = CITY_SET.tailSet(city);
+    if (set.isEmpty()) return city;
+    String result = set.first();
+    if (!result.startsWith(city)) return city;
+    return result;
+  }
+  
+  private TreeSet<String> CITY_SET = new TreeSet<String>(Arrays.asList(CITY_LIST));
+
+  private static final String[] CITY_LIST = new String[]{
+    "ANNSVILLE",
+    "AUGUSTA",
+    "AVA",
+    "BARNEVELD VILLAGE",
+    "BOONVILLE",
+    "BOONVILLE VILLAGE",
+    "BRIDGEWATER",
+    "BRIDGEWATER VILLAGE",
+    "BROOKFIELD",
+    "CAMDEN",
+    "CAMDEN VILLAGE",
+    "CLARK MILLS",
+    "CLAYVILLE VILLAGE",
+    "CLINTON VILLAGE",
+    "DEERFIELD",
+    "FLORENCE",
+    "FLOYD",
+    "FORESTPORT",
+    "HOLLAND PATENT VILLAGE",
+    "KIRKLAND",
+    "LEE",
+    "MARCY",
+    "MARSHALL",
+    "MCCONNELLSVILLE VILLAGE",
+    "N BROOKFIELD",
+    "NEW HARTFORD VILLAGE",
+    "NEW HARTFORD",
+    "NEW YORK MILLS VILLAGE",
+    "ONEIDA CASTLE VILLAGE",
+    "ORISKANY VILLAGE",
+    "ORISKANY FALLS VILLAGE",
+    "PARIS",
+    "PROSPECT VILLAGE",
+    "REMSEN VILLAGE",
+    "REMSEN",
+    "ROME",
+    "SANGERFIELD",
+    "SHERRILL",
+    "STEUBEN",
+    "SYLVAN BEACH VILLAGE",
+    "TRENTON",
+    "UTICA",
+    "VERNON VILLAGE",
+    "VERNON",
+    "VERONA",
+    "VIENNA",
+    "WATERVILLE VILLAGE",
+    "WESTERN",
+    "WESTMORELAND",
+    "WHITESBORO VILLAGE",
+    "WHITESTOWN",
+    "YORKVILLE VILLAGE",
+    
+    "ONEIDA COUNTY"
+  };
 }
