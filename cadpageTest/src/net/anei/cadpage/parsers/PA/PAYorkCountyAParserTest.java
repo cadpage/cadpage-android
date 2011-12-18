@@ -233,12 +233,31 @@ public class PAYorkCountyAParserTest extends BaseParserTest {
         "X:IRONSTONE RD / FISHING CREEK RD",
         "CALL:/ CEDARS RD FIRE VEHICLE WORKING FIRE",
         "MAP:68-04",
-        "SRC:Station 68",
         "UNIT:UFIRE68 UEMS68");
+
+    doTest("T7",
+        "(Station 68) NEWBERRY TWP    OLD TRAIL RD PINES RD VEH ACC INJ CL 2 updated locat ion 31-01 UFIRE31 UEMS31 UFIRE68  03:57",
+        "SRC:Station 68",
+        "CITY:NEWBERRY TWP",
+        "ADDR:OLD TRAIL RD & PINES RD",
+        "X:VEH ACC INJ CL",
+        "CALL:2 updated locat ion",
+        "MAP:31-01",
+        "UNIT:UFIRE31 UEMS31 UFIRE68");
+
+    doTest("T8",
+        "(Station 68) FAIRVIEW TWP    02 FOXFIRE LN OLD FORGE RD / WHEATLAND RD FIRE STRUCT RESID fire on back porch 68-04 FIRESTA68 E68-2 CCE24 E69-1 T68 CCT24",
+        "SRC:FIRESTA68",
+        "CITY:FAIRVIEW TWP",
+        "ADDR:02 FOXFIRE LN",
+        "X:OLD FORGE RD / WHEATLAND RD",
+        "CALL:FIRE STRUCT RESID fire on back porch",
+        "MAP:68-04",
+        "UNIT:E68-2 CCE24 E69-1 T68 CCT24");
 
   }
   
   public static void main(String[] args) {
-    new PAYorkCountyAParserTest().generateTests("T5", "SRC ID CITY PLACE ADDR APT X CALL MAP SRC UNIT");
+    new PAYorkCountyAParserTest().generateTests("T7", "SRC ID CITY PLACE ADDR APT X CALL MAP UNIT");
   }
 }
