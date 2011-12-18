@@ -3615,6 +3615,7 @@ Respond for Alarm - Medical @ 24245 Wilderness Oak - 1408 - RETREAT AT CANYON SP
 Brown County, OH
 Contact: "kieth" <kiethw@frontier.com>
 Sender: browncommctr@roadrunner.com
+DispatchA1Parser subclass
 
 [Alert: SMOKE IN THE AREA] ALRM LVL: 1 
 LOC: 
