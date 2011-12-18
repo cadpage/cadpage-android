@@ -1,9 +1,7 @@
 package net.anei.cadpage.parsers.NY;
 
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.SortedSet;
-import java.util.TreeMap;
 import java.util.TreeSet;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

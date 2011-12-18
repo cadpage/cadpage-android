@@ -210,24 +210,24 @@ public class SmsMmsMessage implements Serializable {
   
   /**
    * Construct SmsMmsMessage from information received in a C2DM message 
-   * @param from
-   * @param subject
-   * @param content
-   * @param timestamp
-   * @param location
-   * @param sponsor
-   * @param ackReq
-   * @param ackURL
+   * @param from message sender
+   * @param subject message subject
+   * @param messageBody message body
+   * @param timestamp received times tamp
+   * @param reqLocation requested location code
+   * @param sponsor sponsor code
+   * @param ackReq acknowledge request code
+   * @param ackURL acknowledge URL
    */
   public SmsMmsMessage(String from, String subject, String messageBody,
-                        long timestamp, String location, String sponsor, 
+                        long timestamp, String reqLocation, String sponsor, 
                         String ackReq, String ackURL) {
     this.messageType = MESSAGE_TYPE_C2DM;
     this.fromAddress = from;
     this.subject = subject;
     this.messageBody = messageBody;
     this.timestamp = timestamp;
-    this.location = location;
+    this.reqLocation = reqLocation;
     this.sponsor = sponsor;
     this.ackReq = ackReq;
     this.ackURL = ackURL;

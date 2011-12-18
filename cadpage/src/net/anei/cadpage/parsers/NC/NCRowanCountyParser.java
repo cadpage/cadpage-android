@@ -33,12 +33,23 @@ Contact: joey mcclanahan <rebelforlif@yahoo.com>
 Sender:CAD@co.rowan.nc.us
 STRUCTURE FIRE;209 E 15TH ST;SALS;N LEE ST;FAMILY CRISIS CENTER;OPS02
 
+Contact: Trey Hoshall <treyhoshall@gmail.com>
+Sender: CAD@co.rowan.nc.us
+CAD:31D2 UNCONSCIOUS;6130 OLD US 70 HWY;CLEV;GLENN FAUST RD;CLOVER RIDGE CT;4501;OPS12
+CAD:31D2 UNCONSCIOUS;3855 WOODLEAF BARBER RD;CLEV;THOMPSON RD;MT HALL RD;4504;OPS13
+CAD:29B1 TRAFFIC ACCIDENT INJURY;2050 MOUNTAIN RD;CLEV;LONE MOUNTAIN TR;CARSON RD;4506;OPS14
+CAD:FIRE ALARM ACTIVATION;11550 STATESVILLE BLVD;CLEV;W MAIN ST;AMITY HILL RD;FREIGHTLINER TRUCK MFG;4503;OPS14
+CAD:6C1 BREATHING PROBLEMS;303 N DEPOT ST;CLEV;W FOARD ST;4503;OPS14
+CAD:6D4 BREATHING PROBLEMS;11170 STATESVILLE BLVD;CLEV;MIMOSA ST;SCHOOL ST;CLEVELAND FIRE STN 45;4503;OPS13
+CAD:COUNTY FIRE MOVEUP;11170 STATESVILLE BLVD;CLEV;MIMOSA ST;SCHOOL ST;CLEVELAND FIRE STN 45;4503
+
 */
 
 public class NCRowanCountyParser extends DispatchOSSIParser {
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "CHGV", "CHINA GROVE",
+      "CLEV", "CLEVELAND",
       "CLVD", "CLEVELAND",
       "ESPN", "EAST SPENCER",
       "FATH", "FAITH",
@@ -55,12 +66,18 @@ public class NCRowanCountyParser extends DispatchOSSIParser {
   
   public NCRowanCountyParser() {
     super(CITY_CODES, "ROWAN COUNTY", "NC",
-           "CALL ADDR X/Z+? CITY! PLACE? INFO+");
+           "CALL ADDR X/Z+? CITY! XPLACE+? UNIT? CH");
   }
   
   @Override
   public String getFilter() {
     return "9300,CAD";
+  }
+  
+  @Override
+  protected boolean parseMsg(String body, Data data) {
+    if (!body.startsWith("CAD:")) body = "CAD:" + body;
+    return super.parseMsg(body, data);
   }
   
   // City field is required, and must be found in table to rule out
@@ -73,26 +90,40 @@ public class NCRowanCountyParser extends DispatchOSSIParser {
     }
   }
   
-  private class MyPlaceField extends PlaceField {
+  private class MyCrossPlaceField extends Field {
     
-    @Override
+    @Override 
     public boolean canFail() {
       return true;
     }
 
     @Override
     public boolean checkParse(String field, Data data) {
-      
-      if (field.length() <= 4) return false;
+      if (field.length() <= 5) return false;
       parse(field, data);
       return true;
+    }
+    
+    @Override
+    public void parse(String field, Data data) {
+      if (checkAddress(field) > 0) {
+        data.strCross = append(data.strCross, " / ", field);
+      } else {
+        data.strPlace = append(data.strPlace, " / ", field);
+      }
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "PLACE X";
     }
   }
   
   @Override
   protected Field getField(String name) {
-    if (name.equals("PLACE")) return new MyPlaceField();
     if (name.equals("CITY")) return new MyCityField();
+    if (name.equals("XPLACE")) return new MyCrossPlaceField();
+    if (name.equals("UNIT")) return new UnitField("\\d{4}", true);
     return super.getField(name);
   }
 }

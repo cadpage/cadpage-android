@@ -3605,7 +3605,6 @@ Respond for Alarm - Medical @ 24245 Wilderness Oak - 1408 - RETREAT AT CANYON SP
 **********************************************************
 **********************************************************
 **********************************************************
-**********************************************************
 ************  READY TO ROLL ******************************
 **********************************************************
 **********************************************************
@@ -3756,3 +3755,32 @@ BTWN: N/A & MAPLE DR
 RCVD AS PHONE
 
 COM: FIRE ALARM EASTERN MIDDLE SCHOOL DUCT SMOKE D
+**********************************************************
+Howard County, IN
+Contact: Michael Kaelin <mdkaelin@gmail.com>
+Sender: cisco.paging@co.howard.in.us
+Variant of DispatchCisco parser
+
+Subject:BREATHING PROBLEM
+Loc:1103 N 1100E XSt:200N 100N Grid:E300 Units:A11 Rmk:68 YOA FEMALE, DIZZY, BREATHING HARD, REAL RESTLE
+
+Subject:BREATHING PROBLEM
+Loc:221 S HOWARD ST XSt:MAIN ST G HOLIDAY LN Grid:D210 Units:AGTFD Rmk:CANCER PATIENT DIFFICULTY BREATHI
+
+Subject:BREATHING PROBLEM
+Loc:1401 SUNFLOWER CT XSt:MEADOW DR Grid:D210 Units:AGTFD Rmk:
+
+Subject:TRANSPORTION
+Loc:705 N MERIDIAN ST Grid:D205 Units:A11 Rmk:RETURN TRANSPORT FROM HOWARD COMM
+
+Subject:RESIDENTIAL FIRE
+Loc:10269 E 300S XSt:1100E 980E Grid:A400 Units:E11 A11 Rmk:SMOKE COMING FROM THE UTILITY CLOSET
+
+Subject:BREATHING PROBLEM
+Loc:6348 E 200N XSt:700E 600E Grid:D400 Units:AGTFD A11 Rmk:
+
+Subject:ABDOM/BACK PAIN
+Loc:705 N MERIDIAN ST Grid:D205 Units:A11 Rmk:ROOM 406 95 YOA FEMALE
+
+Subject:GAS ODOR
+Loc:325 S MAPLE ST G XSt:MAIN ST G HALL ST Grid:D210 Units:E11 A11 Rmk:SMELLS NATURAL GAS INSIDE HER RESIDENCE
