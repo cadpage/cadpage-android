@@ -14,6 +14,11 @@ public class CadpageParserTest extends BaseParserTest {
   }
   
   @Test
+  public void testBad() {
+    doBadTest("This is an Active911 test message");
+  }
+  
+  @Test
   public void testActve911() {
     doTest("T1",
         "title:LIFELINE ACTIVATION  address:2037 MAIN ST  city:PHILOMATH  cad_code:121411-18  map_code:545-360  ",
