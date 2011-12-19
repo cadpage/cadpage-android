@@ -6,6 +6,8 @@
     <item>deweythomas@gmail.com</item>
   </string-array>
   
+  <string name="donate_server_url">https://cadpageweb.appspot.com/lookup</string>
+  
   <string name="free_release_text"><string>
     This is the free version of Cadpage.  This version will never bother you
     for financial contributions to future Cadpage development.  Customer support
@@ -127,7 +129,7 @@
     Bummer, let\'s see what we can do about that.
   </string>
   
-  <string name="donate_reset_market_title">Reload market payment database</string>
+  <string name="donate_reset_market_title">Recalculate Purchase Status</string>
   
   <string name="donate_sob_story_title">"I can't afford $10"</string>
   <string name="donate_sob_story_text">

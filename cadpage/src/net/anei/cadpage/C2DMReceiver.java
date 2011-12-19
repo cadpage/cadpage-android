@@ -129,10 +129,8 @@ public class C2DMReceiver extends BroadcastReceiver {
     if (contentURL != null) {
       HttpService.addHttpRequest(context, new HttpRequest(Uri.parse(contentURL)){
         @Override
-        public void processResponse(int status, String result) {
-          if (status % 100 == 2) {
-            processContent(context, intent, result, timestamp);
-          }
+        public void processBody(String body) {
+          C2DMReceiver.this.processContent(context, intent, body, timestamp);
         }
       });
       return;

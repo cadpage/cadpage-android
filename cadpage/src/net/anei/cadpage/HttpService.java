@@ -1,6 +1,8 @@
 package net.anei.cadpage;
 
+import java.io.ByteArrayOutputStream;
 import java.io.IOException;
+import java.io.InputStream;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -8,6 +10,8 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.LinkedList;
 import java.util.Queue;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import android.app.Service;
 import android.content.Context;
@@ -32,6 +36,7 @@ public class HttpService extends Service {
     
     private int status = -1;
     private String result = null;
+    private String content = null;
     
     public HttpRequest(Uri uri) {
       this.uri = uri;
@@ -92,6 +97,7 @@ public class HttpService extends Service {
         } else {
           addLogEntry("Sending:" + url.toString());
           HttpURLConnection connect = null;
+          InputStream is = null;
           try {
             connect = (HttpURLConnection)url.openConnection();
             connect.setConnectTimeout(connectTimeout);
@@ -99,6 +105,12 @@ public class HttpService extends Service {
             connect.connect();
             status = connect.getResponseCode();
             result = connect.getResponseMessage();
+            
+            ByteArrayOutputStream os = new ByteArrayOutputStream();
+            is = connect.getInputStream();
+            int b;
+            while ((b = is.read()) >= 0) os.write(b);
+            content = os.toString();
           } 
           
           catch (IOException ex) {
@@ -106,24 +118,46 @@ public class HttpService extends Service {
             result = "IO Error";
           }
           finally {
+            if (is != null)
+              try { is.close(); } catch (IOException ex) {}
             if (connect != null) connect.disconnect();
           }
-          addLogEntry("Result:" + status + ": " + result);
+          addLogEntry("Result:" + status + ": " + result + '\n' + content);
         }
       }
     }
     
     void process() {
-      processResponse(status, result);
+      if (status != 200) {
+        processError(status, result);
+      } else {
+        processContent(content);
+      }
     }
 
-    
     /**
-     * This will be called when the HTTP request returns a result or failure status
-     * @param status request response status
-     * @param result request response result
+     * This will be called when the HTTP request returns an error or failure status
+     * @param status status
+     * @param result result
      */
-    public void processResponse(int status, String result) {}
+    protected void processError(int status, String result) {}
+
+    /**
+     * This will be called when the HTTP request returns successful result
+     * @param content response contents
+     */
+    protected void processContent(String content) {
+      Matcher match = BODY_PTN.matcher(content);
+      if (match.find()) processBody(match.group(1));
+    }
+    private static final Pattern BODY_PTN = Pattern.compile("<body>(.*?)</body>", Pattern.CASE_INSENSITIVE);
+
+    /**
+     * This will be called when the HTTP request returns a successful result
+     * and contents contains a parsable body component
+     * @param body body component from response content
+     */
+    protected void processBody(String body) {}
   }
   
   private static Handler mHandler;

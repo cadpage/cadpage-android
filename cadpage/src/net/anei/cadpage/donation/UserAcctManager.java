@@ -1,9 +1,14 @@
 package net.anei.cadpage.donation;
 
 import java.security.MessageDigest;
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.Arrays;
 import java.util.Date;
 
+import net.anei.cadpage.HttpService;
+import net.anei.cadpage.HttpService.HttpRequest;
 import net.anei.cadpage.ManagePreferences;
 import net.anei.cadpage.R;
 import net.anei.cadpage.donation.UserAcctManager;
@@ -11,12 +16,15 @@ import android.accounts.Account;
 import android.accounts.AccountManager;
 import android.accounts.OnAccountsUpdateListener;
 import android.content.Context;
+import android.net.Uri;
 import android.telephony.TelephonyManager;
 
 public abstract class UserAcctManager {
   
   public abstract void setContext(Context context);
   
+  public abstract void reloadStatus(Context context);
+
   /**
    * @return true if account management is supported by this version of Android
    */
@@ -48,6 +56,8 @@ public abstract class UserAcctManager {
   // references API calls that do not exist in Android 1.6
   public static class RealUserAcctManager extends UserAcctManager implements OnAccountsUpdateListener {
     
+    private static final DateFormat DATE_FMT = new SimpleDateFormat("MM-dd-yyyy");
+    
     Context context;
     private String userEmail = null;
     private String phoneNumber = null;
@@ -59,6 +69,7 @@ public abstract class UserAcctManager {
       TelephonyManager tMgr =(TelephonyManager)context.getSystemService(Context.TELEPHONY_SERVICE);
       phoneNumber = tMgr.getLine1Number();
       if (phoneNumber == null) phoneNumber = tMgr.getVoiceMailNumber();
+      phoneNumber = cleanName(phoneNumber);
       checkAccount(phoneNumber, false);
     }
   
@@ -67,15 +78,24 @@ public abstract class UserAcctManager {
       userEmail = null;
       for (Account acct : accts) {
         if (acct.type.equals("com.google")) {
-          String name = acct.name;
-          int pt = name.indexOf('<');
-          if (pt >= 0) name = name.substring(0,pt);
-          if (name.startsWith(".")) name = name.substring(1);
-          if (name.endsWith(".")) name = name.substring(0,name.length()-1);
+          String name = cleanName(acct.name);
           if (userEmail == null) userEmail = name;
           checkAccount(name, true);
         }
       }
+    }
+
+    /**
+     * Clean extraneous stuff from user name / phone #
+     * @param name
+     * @return
+     */
+    private String cleanName(String name) {
+      int pt = name.indexOf('<');
+      if (pt >= 0) name = name.substring(0,pt);
+      if (name.startsWith(".")) name = name.substring(1);
+      if (name.endsWith(".")) name = name.substring(0,name.length()-1);
+      return name;
     }
     
     /**
@@ -99,6 +119,50 @@ public abstract class UserAcctManager {
         if (isAcct && userEmail == null) userEmail = acct;
       }
     }
+    
+    @Override
+    public void reloadStatus(Context context) {
+      
+      // For now, only developers get do this
+      if (! DeveloperToolsManager.instance().isDeveloper(context)) return;
+      
+      // Build query with all of the possible account and phone ID's
+      Uri.Builder builder = Uri.parse(context.getString(R.string.donate_server_url)).buildUpon();
+      Account[] accounts = AccountManager.get(context).getAccountsByType("com.google");
+      for (Account acct : accounts) {
+        builder.appendQueryParameter("id", cleanName(acct.name));
+      }
+      builder.appendQueryParameter("id", phoneNumber);
+      
+      // Send it to the server and see what comes back
+      HttpService.addHttpRequest(context, new HttpRequest(builder.build()){
+
+        @Override
+        public void processBody(String body) {
+          String flds[] = body.split(",");
+          if (flds.length < 2) return;
+          Date purchaseDate = null;
+          try {
+            purchaseDate = DATE_FMT.parse(flds[0].trim());
+          } catch (ParseException ex) {}
+          if (purchaseDate != null) {
+            ManagePreferences.setPurchaseDate(purchaseDate);
+          }
+          
+          String stat = flds[1].trim();
+          if (stat.equals("LIFE")) {
+            ManagePreferences.setFreeRider(true);
+          } else {
+            int year = -1;
+            try {
+              year = Integer.parseInt(stat);
+            } catch (NumberFormatException ex) {}
+            if (year >=2011 && year <= 2050) ManagePreferences.setPaidYear(year);
+          }
+        }
+      });
+    }
+    
     
     /**
      * @return true if account management is supported by this version of Android
@@ -132,6 +196,10 @@ public abstract class UserAcctManager {
     @Override
     public boolean isAcctSupport() {
       return false;
+    }
+
+    @Override
+    public void reloadStatus(Context context) {
     }
   
     /**

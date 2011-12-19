@@ -235,10 +235,7 @@ abstract class Vendor {
     // Send an unregister request to the vendor server
     // we really don't care how it responds
     Uri uri = buildRequestUri("unregister", ManagePreferences.registrationId());
-    HttpService.addHttpRequest(context, new HttpRequest(uri){
-      @Override
-      public void processResponse(int status, String result) {}
-    });
+    HttpService.addHttpRequest(context, new HttpRequest(uri){});
     
     // Finally unregister from Google C2DM service.  If there are other vendor
     // services that are still active, they will request a new registration ID
@@ -259,10 +256,7 @@ abstract class Vendor {
       // It isn't our problem if it isn't accepted
       if (discoverUri != null) {
         Uri uri = discoverUri.buildUpon().appendQueryParameter("CadpageRegId", registrationId).build();
-        HttpService.addHttpRequest(context, new HttpRequest(uri){
-          @Override
-          public void processResponse(int status, String result) {}
-        });
+        HttpService.addHttpRequest(context, new HttpRequest(uri){});
       } 
       
       // Otherwise build a registration URL and display it in the web browser 
@@ -280,7 +274,7 @@ abstract class Vendor {
       Uri uri = buildRequestUri("reregister", registrationId);
       HttpService.addHttpRequest(context, new HttpService.HttpRequest(uri){
         @Override
-        public void processResponse(int status, String result) {
+        public void processError(int status, String result) {
           
           // If response was successful, we don't care about any details
           if (status % 100 == 2) return;

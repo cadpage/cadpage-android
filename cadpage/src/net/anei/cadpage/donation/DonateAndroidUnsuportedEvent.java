@@ -15,8 +15,7 @@ app)
 public class DonateAndroidUnsuportedEvent extends DonateScreenEvent {
   
   public DonateAndroidUnsuportedEvent() {
-    super(AlertStatus.YELLOW, R.string.donate_android_title, R.string.donate_android_unsupported_text,
-           DonateResetMarketEvent.instance());
+    super(AlertStatus.YELLOW, R.string.donate_android_title, R.string.donate_android_unsupported_text);
   }
 
   @Override
