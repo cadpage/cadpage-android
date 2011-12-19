@@ -4,11 +4,13 @@
     <item>SMS messages only</item>
     <item>MMS messages only</item>
     <item>SMS and MMS messages</item>
+    <item>Direct paging only</item>
   </string-array>
   <string-array name="pref_enable_msg_type_values">
-    <item>S</item>
-    <item>M</item>
-    <item>SM</item>
+    <item>CS</item>
+    <item>CM</item>
+    <item>CSM</item>
+    <item>C</item>
   </string-array>
   <string-array
     name="pref_mms_timeout_values">

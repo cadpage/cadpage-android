@@ -53,6 +53,10 @@ public class C2DMReceiver extends BroadcastReceiver {
     // Free version doesn't do C2DM stuff
     if (DonationManager.instance().isFreeVersion()) return;
     
+    // If not free version, abort broadcast so this won't be picked up by early
+    // versions of Free Cadpage that lack the above check
+    abortBroadcast();
+    
     if (ACTION_C2DM_REGISTERED.equals(intent.getAction())) {
       handleRegistration(context, intent);
     }

@@ -3,6 +3,8 @@ package net.anei.cadpage;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import net.anei.cadpage.donation.DonationManager;
+
 import android.app.AlertDialog;
 import android.content.ActivityNotFoundException;
 import android.content.ComponentName;
@@ -64,6 +66,7 @@ public class SmsPopupUtils {
    * Enables or disables the main SMS receiver
    */
   public static void enableSMSPopup(Context context, String enable) {
+    enableComponent(context, C2DMReceiver.class, enable.contains("C") && !DonationManager.instance().isFreeVersion());
     enableComponent(context, SmsReceiver.class, enable.contains("S"));
     enableComponent(context, PushReceiver.class, enable.contains("M"));
   }

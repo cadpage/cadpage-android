@@ -26,7 +26,7 @@ public class ManagePreferences {
   // (OK, if you know what you are doing, and the only new settings added
   // are boolean settings that default to false, you can get away with not
   // changing this)
-  private static final int PREFERENCE_VERSION = 16;
+  private static final int PREFERENCE_VERSION = 17;
   
   private static final DateFormat DATE_FORMAT = new SimpleDateFormat("MMddyyyy");
   
@@ -51,15 +51,19 @@ public class ManagePreferences {
       prefs.putInt(R.string.pref_version_key, PREFERENCE_VERSION);
     }
     
-    // Next set the application enable status
-    String enableStr = (enabled() ? enableMsgType() : "");
-    SmsPopupUtils.enableSMSPopup(context, enableStr);
-    
     // If old version was < 1, we need to reset the popup button configuration settings
     if (oldVersion < 1) {
       prefs.putString(R.string.pref_button1_key, context.getString(R.string.pref_button1_default));
       prefs.putString(R.string.pref_button2_key, context.getString(R.string.pref_button2_default));
       prefs.putString(R.string.pref_button3_key, context.getString(R.string.pref_button3_default));
+    }
+    
+    // If old version < 17, add a 'C' to message type preference
+    if (oldVersion < 17) {
+      String msgType = enableMsgType();
+      if (! msgType.startsWith("C")) {
+        prefs.putString(R.string.pref_enable_msg_type_key, "C" + msgType);
+      }
     }
     
     // Ditto if is a newer parser code that has been renamed,
@@ -78,6 +82,10 @@ public class ManagePreferences {
     
     // Set the install date if it hasn't already been set
     setInstallDate();
+    
+    // Next set the application enable status
+    String enableStr = (enabled() ? enableMsgType() : "");
+    SmsPopupUtils.enableSMSPopup(context, enableStr);
   }
   
   /**
