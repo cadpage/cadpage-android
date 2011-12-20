@@ -56,7 +56,7 @@ public class NCStanlyCountyParser extends DispatchOSSIParser {
   
   public NCStanlyCountyParser() {
     super(CITY_CODES, "STANLY COUNTY", "NC",
-           "CALL ADDR/Z+? CITY! X X? INFO+");
+           "CALL ADDR/Z+? CITY! X+? INFO+");
     setDelimiter('/');
   }
   

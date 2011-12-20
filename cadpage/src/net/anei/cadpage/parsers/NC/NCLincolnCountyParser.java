@@ -70,7 +70,7 @@ public class NCLincolnCountyParser extends DispatchOSSIParser {
   
   private class MyCodeField extends CodeField {
     public MyCodeField() {
-      setPattern(Pattern.compile("\\d{2}[A-Z]\\d{2}[A-Za-z]?"));
+      setPattern(Pattern.compile("\\d{2,3}[A-Z]\\d{2}[A-Za-z]?"));
     }
   }
   

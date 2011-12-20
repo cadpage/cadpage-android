@@ -1294,7 +1294,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     // And see if we have a keyword flagging the start of the address
     lastCity = -1;
     startNdx = isFlagSet(FLAG_START_FLD_REQ) ? 1 : 0;
-    result.tokens = tokens = address.split("\\s+");
+    result.tokens = tokens = address.trim().split("\\s+");
     tokenType = new int[tokens.length];
     boolean flexAt = isFlagSet(FLAG_AT_PLACE | FLAG_AT_BOTH);
     boolean ignoreAt = isFlagSet(FLAG_IGNORE_AT);

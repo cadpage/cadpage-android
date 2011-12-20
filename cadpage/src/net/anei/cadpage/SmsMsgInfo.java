@@ -381,7 +381,7 @@ public class SmsMsgInfo {
   // Google map isn't found of house numbers mixed with intersections
   // If we find an intersection marker, remove any house numbers
   private static final Pattern HOUSE_RANGE = Pattern.compile("\\b(\\d+)-[A-Z0-9/\\.]+\\b");
-  private static final Pattern HOUSE_NUMBER = Pattern.compile("^ *\\d+ +(?![&/]|(?:AV|AVE|ST|MILE)\\b)", Pattern.CASE_INSENSITIVE);
+  private static final Pattern HOUSE_NUMBER = Pattern.compile("^ *\\d+ +(?![NSEW]? *[&/]|(?:AV|AVE|ST|MILE)\\b)", Pattern.CASE_INSENSITIVE);
   private String cleanHouseNumbers(String sAddress) {
     
     // Start by eliminating any house ranges
