@@ -181,6 +181,16 @@ public class NCRowanCountyParserTest extends BaseParserTest {
         "X:MIMOSA ST / SCHOOL ST",
         "PLACE:CLEVELAND FIRE STN 45",
         "UNIT:4503");
+
+    doTest("T20",
+        "CAD:FIRE ALARM ACTIVATION;1020 EDMISTON RD;MTUL;CARSWELL RD;NC 801 HWY;6608;OPS12",
+        "CALL:FIRE ALARM ACTIVATION",
+        "ADDR:1020 EDMISTON RD",
+        "X:CARSWELL RD",
+        "CITY:MT ULLA",
+        "PLACE:NC 801 HWY",
+        "UNIT:6608",
+        "CH:OPS12");
  }
   
 

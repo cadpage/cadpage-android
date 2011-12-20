@@ -128,10 +128,17 @@ public class WIKenoshaCountyParserTest extends BaseParserTest {
         "CALL:ILS MED",
         "ADDR:10416 268TH AVE",
         "INFO:32 M ;ABDOMINAL PAIN CONSCIOUS: YES ,BREATHING: YES");
+
+    doTest("T17",
+        "From: RR114  #:002011185019 PT ASSIST at 10718 253RD AVE Rem: 67 M ;ASSIST CITIZEN CONSCIOUS: YES ,BREATHING: YES",
+        "ID:002011185019",
+        "CALL:PT ASSIST",
+        "ADDR:10718 253RD AVE",
+        "INFO:67 M ;ASSIST CITIZEN CONSCIOUS: YES ,BREATHING: YES");
    
   }
   
   public static void main(String[] args) {
-    new WIKenoshaCountyParserTest().generateTests("T16", "ID CALL ADDR PLACE INFO");
+    new WIKenoshaCountyParserTest().generateTests("T18", "ID CALL ADDR PLACE INFO");
   }
 }
