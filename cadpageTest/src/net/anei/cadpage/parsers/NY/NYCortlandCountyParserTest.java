@@ -35,6 +35,7 @@ public class NYCortlandCountyParserTest extends BaseParserTest {
     doTest("T4",
         "(3643 STHY 281) 12:31 , EMS ONLY , PARKING LOT B LARGE OVERHEAD DOOR, 27 Y/O MALE DOWN\nSYNCOPAL EPISODE\n\n\n\n,",
         "ADDR:3643 STHY 281",
+        "MADDR:3643 ST 281",
         "CALL:EMS ONLY",
         "INFO:PARKING LOT B LARGE OVERHEAD DOOR, 27 Y/O MALE DOWN SYNCOPAL EPISODE");
 

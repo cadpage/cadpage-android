@@ -47,6 +47,7 @@ public class GASmyrnaParserTest extends BaseParserTest {
         "CAD:FYI: ;FIRE GENERAL;4586-W VALLEY PKWY SE;S COBB DR SE;ASHLEY;heavy smoke [10/09/10 03:49:27 SMAHAMA] smoke coming from the unit below her [10/09/10 03:48:51",
         "CALL:FIRE GENERAL",
         "ADDR:4586-W VALLEY PKWY SE",
+        "MADDR:4586 VALLEY PKWY SE",
         "X:S COBB DR SE",
         "INFO:ASHLEY / heavy smoke / smoke coming from the unit below her");
  }

@@ -46,6 +46,7 @@ public class NYOneidaCountyParserTest extends BaseParserTest {
         "ID:2010:0644",
         "CALL:MVA-PI",
         "ADDR:HUGHES ST",
+        "MADDR:HUGHES ST & WEST ST",
         "CITY:WHITESBORO VILLAGE",
         "X:WEST ST / WHITESBORO VILLAGE");
     

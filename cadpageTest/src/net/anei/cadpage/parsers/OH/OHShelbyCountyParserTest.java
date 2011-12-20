@@ -37,6 +37,7 @@ public class OHShelbyCountyParserTest extends BaseParserTest {
         "CALL:28 - MIS",
         "INFO:UKNOWN TYPE FIRE ON EAST SIDE OF ROAD NORTH OF CARDO NEAR LOY RD",
         "ADDR:8000-B SR 66",
+        "MADDR:8000 SR 66",
         "CITY:FT LORAMIE",
         "X:LOY RD & BASINBURG RD");
 

@@ -35,6 +35,7 @@ public class VABrunswickCountyParserTest extends BaseParserTest {
         "ID:11-019164",
         "CALL:MOTOR VEHICLE CRASH",
         "ADDR:1634-BLK LAWRENCEVILLE PLANK RD",
+        "MADDR:1634 LAWRENCEVILLE PLANK RD",
         "X:POOR HOUSE RD / BRUNSWICK COMMONS DR");
 
     doTest("T4",

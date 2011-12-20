@@ -74,6 +74,7 @@ public class INPorterCountyParserTest extends BaseParserTest {
         "CALL:EMS AST-P2",
         "PLACE:WASHINGTON TWP HIGH SCHOOL",
         "ADDR:383 E ST RD 2",
+        "MADDR:383 E ST 2",
         "CITY:Washington Twp",
         "X:E EVANS AV and N");
 
@@ -104,6 +105,7 @@ public class INPorterCountyParserTest extends BaseParserTest {
         "UNIT:E29",
         "CALL:MV CRASH/TRANS.ACC",
         "ADDR:E US HWY 6 & EDMOND CT",
+        "MADDR:E US 6 & EDMOND CT",
         "CITY:Liberty Twp",
         "PRI:1",
         "INFO:CAR VS PICKUP, CAR IS IN DITCH");
@@ -134,6 +136,7 @@ public class INPorterCountyParserTest extends BaseParserTest {
         "UNIT:F35P1",
         "CALL:EMS AST-P1",
         "ADDR:429 E ST RD 2",
+        "MADDR:429 E ST 2",
         "CITY:Washington Twp",
         "X:N 400 E and N 450 E",
         "PRI:1",

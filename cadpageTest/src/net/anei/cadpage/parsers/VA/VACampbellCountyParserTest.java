@@ -19,6 +19,7 @@ public class VACampbellCountyParserTest extends BaseParserTest {
         "SRC:SQ02",
         "CALL:MVC/MOTOR VEHICLE CRASH/ACCIDE",
         "ADDR:002364 WATERLICK RD & LEESVILLE RD",
+        "MADDR:002364 WATERLICK RD",
         "ID:2010-061119",
         "INFO:REF TO A 3 CAR MVA. AT FIRST A REPORT OF NO PI. NO NEED FOR FIRE. VASI ADV THAT T"
         );

@@ -52,6 +52,7 @@ public class NCLincolnCountyParserTest extends BaseParserTest {
         "ID:201101460",
         "CALL:SMOKE INVESTIGATION",
         "ADDR:N LITTLE EGYPT RD & NC 73 HWY",
+        "MADDR:N LITTLE EGYPT RD & NC 73",
         "PLACE:near the ball field",
         "X:blk smoke near track unkn source");
 
@@ -103,6 +104,7 @@ public class NCLincolnCountyParserTest extends BaseParserTest {
         "CODE:31D03",
         "CALL:UNCONSCIOUS/FAINTING",
         "ADDR:6471 NC 73 HWY",
+        "MADDR:6471 NC 73",
         "PLACE:EAST LINCOLN HIGH SI",
         "X:320 & S INGLESIDE FARM RD",
         "INFO:N LITTLE EGYPT RD / You are responding to a patient who is unconscious (or has fainted). The patient is a 17 / year / old female, who is conscious and breathing. No");
@@ -114,15 +116,17 @@ public class NCLincolnCountyParserTest extends BaseParserTest {
         "CODE:29B01",
         "CALL:TRAFFIC ACCIDENT",
         "ADDR:N NC 16 HWY & NC 73 HWY",
+        "MADDR:N NC 16 & NC 73",
         "X:Age unknown, Female, Conscious, Breathing. Traffic / Transportation Incidents. Injuries. Caller Statement: 2 veh . 1.The incident involves m");
 
     doTest("T11",
         "2616:CAD:ELF-201102226-107B01-ASSIST MOTORIST AGENCY OFFICER-5514 NC 73 HWY-SCHRONCE RD-INVERLOCHY RD-JUST BEFORE EAST LINCOLN HIGH SCHOOL [04/19/11 05:22:28 CGRANTLAND] CALLER IS EXTREMELY UPSET [04/19/11 05:21:48 CGRANTLAND] RIGHT HAND SIDE OF RD COMING FROM LINCOLNTON [04/19/11 05:21:39 CGRANT",
         "SRC:ELF",
         "ID:201102226",
-        "CALL:107B01",
-        "ADDR:ASSIST MOTORIST AGENCY OFFICER",
-        "PLACE:5514 NC 73 HWY",
+        "CODE:107B01",
+        "CALL:ASSIST MOTORIST AGENCY OFFICER",
+        "ADDR:5514 NC 73 HWY",
+        "MADDR:5514 NC 73",
         "X:SCHRONCE RD & INVERLOCHY RD",
         "INFO:JUST BEFORE EAST LINCOLN HIGH SCHOOL / CALLER IS EXTREMELY UPSET / RIGHT HAND SIDE OF RD COMING FROM LINCOLNTON");
 
@@ -158,6 +162,7 @@ public class NCLincolnCountyParserTest extends BaseParserTest {
         "ID:201101460",
         "CALL:SMOKE INVESTIGATION",
         "ADDR:N LITTLE EGYPT RD & NC 73 HWY",
+        "MADDR:N LITTLE EGYPT RD & NC 73",
         "INFO:near the ball field / blk smoke near track unkn source");
   }
   

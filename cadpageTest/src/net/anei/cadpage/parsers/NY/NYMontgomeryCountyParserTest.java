@@ -53,6 +53,7 @@ public class NYMontgomeryCountyParserTest extends BaseParserTest {
         "SRC:HVFD 218",
         "CALL:EMS - EMS CALL",
         "ADDR:5005 STATE HWY 30",
+        "MADDR:5005 STATE 30",
         "CITY:AMSTERDAM",
         "ID:2250");
 
@@ -79,6 +80,7 @@ public class NYMontgomeryCountyParserTest extends BaseParserTest {
         "CALL:MOTOR VEHICLE ACCIDENT",
         "PLACE:RECOVERY SPORTS GRILL",
         "ADDR:5005 STHWY 30",
+        "MADDR:5005 ST 30",
         "CITY:AMSTERDAM",
         "ID:1331");
 
@@ -87,6 +89,7 @@ public class NYMontgomeryCountyParserTest extends BaseParserTest {
         "SRC:HVFD 218",
         "CALL:MOTOR VEHICLE ACCIDENT",
         "ADDR:STATE HWY 30 T",
+        "MADDR:AMSTERDAM COMMONS,STATE 30 T",
         "CITY:AMSTERDAM",
         "PLACE:AMSTERDAM COMMONS",
         "ID:0851");

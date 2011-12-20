@@ -28,6 +28,7 @@ public class ALHenryCountyParserTest extends BaseParserTest {
         "MEDICAL CALL 5526 CO. RD. 73 IN NEWVILLE 14 YO TOOK 15 TREDONE SUBJ. IS CONCIOUS AT THIS TIME.",
         "CALL:MEDICAL CALL",
         "ADDR:5526 CO RD 73",
+        "MADDR:5526 CO 73",
         "CITY:NEWVILLE",
         "INFO:14 YO TOOK 15 TREDONE SUBJ IS CONCIOUS AT THIS TIME");
 

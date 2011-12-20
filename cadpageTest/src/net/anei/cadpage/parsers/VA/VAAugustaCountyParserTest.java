@@ -48,6 +48,7 @@ public class VAAugustaCountyParserTest extends BaseParserTest {
         "CAD:CONTROL BURN INVESTIGATION:300-BLK TRINITY POINT RD:PARKERSBURG TPKE:MILLERS HOLLOW LN:CNTY-2",
         "CALL:CONTROL BURN INVESTIGATION",
         "ADDR:300-BLK TRINITY POINT RD",
+        "MADDR:300 TRINITY POINT RD",
         "X:PARKERSBURG TPKE & MILLERS HOLLOW LN",
         "INFO:CNTY-2");
 
@@ -78,6 +79,7 @@ public class VAAugustaCountyParserTest extends BaseParserTest {
         "CAD:AUTOMOBILE ACCIDENT:I81NB;AREA MM 217.9",
         "CALL:AUTOMOBILE ACCIDENT",
         "ADDR:I-81",
+        "MADDR:AREA MM 217.9,I-81",
         "PLACE:AREA MM 217.9");
   }
   

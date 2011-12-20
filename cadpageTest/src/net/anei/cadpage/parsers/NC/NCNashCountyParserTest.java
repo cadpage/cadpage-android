@@ -59,6 +59,7 @@ public class NCNashCountyParserTest extends BaseParserTest {
     doTest("T7",
         "NASH911:* SYKES RD* * * SPRING HOPE* * *FIRE* * SCOTT PARKER* * * * * * *",
         "ADDR:SYKES RD",
+        "MADDR:SCOTT PARKER,SYKES RD",
         "CITY:SPRING HOPE",
         "CALL:*FIRE",
         "PLACE:SCOTT PARKER");

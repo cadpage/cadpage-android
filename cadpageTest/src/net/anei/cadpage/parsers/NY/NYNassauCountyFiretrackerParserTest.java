@@ -42,6 +42,7 @@ public class NYNassauCountyFiretrackerParserTest extends BaseParserTest {
         "SRC:FFD",
         "CALL:STILL",
         "ADDR:WILLOWBROOK LN",
+        "MADDR:WILLOWBROOK LN & BROOKSIDE (N) AVE",
         "X:BROOKSIDE (N) AVE");
 
     doTest("T5",
@@ -209,6 +210,7 @@ public class NYNassauCountyFiretrackerParserTest extends BaseParserTest {
         "SRC:NMFD",
         "CALL:[AMBU] [AMBU]",
         "ADDR:MERRICK AVE",
+        "MADDR:MERRICK AVE & JERUSALEM AVE",
         "X:JERUSALEM AVE",
         "INFO:M/A 65 FEMALE LYING IN ROADWAY");
 
@@ -217,6 +219,7 @@ public class NYNassauCountyFiretrackerParserTest extends BaseParserTest {
         "SRC:NMFD",
         "CALL:[MVA] [MVA]",
         "ADDR:PARK AVE",
+        "MADDR:PARK AVE & CAMERON AVE",
         "X:CAMERON AVE",
         "INFO:M/A 65 AIDED WITH CHEST PAINS");
 
@@ -243,6 +246,7 @@ public class NYNassauCountyFiretrackerParserTest extends BaseParserTest {
         "SRC:NMFD",
         "CALL:[MVA] [MVA]",
         "ADDR:WEBSTER ST",
+        "MADDR:WEBSTER ST & MERRICK AVE",
         "X:MERRICK AVE",
         "INFO:M/A 64");
  }

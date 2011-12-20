@@ -41,6 +41,7 @@ public class NYRocklandCountyBParserTest extends BaseParserTest {
         "UNIT:15",
         "CALL:VEHICLE FIRE",
         "ADDR:TWAY - SLOATSBURG REST AREA",
+        "MADDR:TWAY - SLOATSBURG REST AREA & NEW YORK STATE THRUWAY - 87 N, NEW YORK STATE THRUWAY - 87",
         "X:NEW YORK STATE THRUWAY - 87 N, NEW YORK STATE THRUWAY - 87 / NEW YORK STATE THRUWAY - 87, NEW YORK STATE THRUWAY - 87 N");
 
     doTest("T5",
@@ -55,6 +56,7 @@ public class NYRocklandCountyBParserTest extends BaseParserTest {
         "UNIT:15",
         "CALL:BRUSH/MULCH/RUBBISH OUTSIDE",
         "ADDR:18 COLONIAL AV",
+        "MADDR:18 COLONIAL AVE",
         "X:POTHAT ST / RICHARD ST");
 
     doTest("T7",

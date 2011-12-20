@@ -68,6 +68,7 @@ public class ALMadisonCountyParserTest extends BaseParserTest {
     doTest("T8",
         "(R1 IPS I/Page Notification) Loc: TIMBERLANE AV NW/POPLAR AV NW HSV  EVT#: E1120841 TYPE: MVA/E TIME: 13:42:06",
         "ADDR:TIMBERLANE AV NW & POPLAR AV NW",
+        "MADDR:TIMBERLANE AVE NW & POPLAR AVE NW",
         "CITY:HUNTSVILLE",
         "ID:E1120841",
         "CALL:MVA W/ ENTRAPMENT");

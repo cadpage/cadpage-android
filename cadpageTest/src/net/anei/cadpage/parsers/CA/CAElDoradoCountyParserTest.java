@@ -38,6 +38,7 @@ public class CAElDoradoCountyParserTest extends BaseParserTest {
         "CALL:MED, TRAFFIC COLLISION",
         "ID:010121",
         "ADDR:4800 BLACK OAK MINE RD & 4702 MARSHALL RD",
+        "MADDR:4800 BLACK OAK MINE RD",
         "CITY:GARDEN VALLEY",
         "UNIT:GRVCHF E2772 E251N M61 51 GEOENGN");
 
@@ -55,6 +56,7 @@ public class CAElDoradoCountyParserTest extends BaseParserTest {
         "CALL:FIRE, SMOKE CHECK",
         "ID:010430",
         "ADDR:2990 GREENWOOD RD & 6272 HY 193",
+        "MADDR:2990 GREENWOOD RD",
         "CITY:GEORGETOWN",
         "UNIT:GEOENGN M61 61",
         "GPS:X: -120 50.5456  Y: 38 54.4036");
@@ -92,6 +94,7 @@ public class CAElDoradoCountyParserTest extends BaseParserTest {
         "CALL:MED, TRAFFIC COLLISION",
         "ID:018090",
         "ADDR:15250 WENTWORTH SPRINGS RD & 999998 ELEVEN PINES 14N08",
+        "MADDR:15250 WENTWORTH SPRINGS RD",
         "CITY:GEORGETOWN",
         "UNIT:GEOCHF E54");
 
@@ -100,6 +103,7 @@ public class CAElDoradoCountyParserTest extends BaseParserTest {
         "CALL:MED, CODE 2",
         "ID:022661",
         "ADDR:1000 HY 193 & 3000 HY 49",
+        "MADDR:1000 HWY 193",
         "CITY:COOL",
         "UNIT:E22 M61 72",
         "GPS:X: -121 0.9537  Y: 38 53.2183");

@@ -39,6 +39,7 @@ public class ORMarionCountyNParserTest extends BaseParserTest {
         "ID:47486",
         "CALL:STRC",
         "ADDR:ABIQUA RD & HW 213",
+        "MADDR:ABIQUA RD & HWY 213",
         "MAP:2833",
         "UNIT:E435,E485,E405,E415,D411,T489,T418,T419,R484,PGE,TIME,STAF,N7",
         "INFO:LARGE FLAMES APPX 2 MILES EAST");
@@ -122,6 +123,7 @@ public class ORMarionCountyNParserTest extends BaseParserTest {
         "ID:45886",
         "CALL:MVA",
         "ADDR:CASCADE HW & STATE ST",
+        "MADDR:CASCADE HWY & STATE ST",
         "MAP:3630",
         "UNIT:E425,D411,R404,M31,SBLE,SBLR,PGE,E415,LAW,N7",
         "INFO:SINGLE VEH ROLLOVER/ENTRAPMENT, NO INJ");
@@ -131,6 +133,7 @@ public class ORMarionCountyNParserTest extends BaseParserTest {
         "ID:56873",
         "CALL:MISC",
         "ADDR:8170 CASCADE HW",
+        "MADDR:8170 CASCADE HWY",
         "MAP:2733",
         "UNIT:E485,D411,N7",
         "INFO:POWER LINE DOWN W/LARGE TREE BLKING");
@@ -167,6 +170,7 @@ public class ORMarionCountyNParserTest extends BaseParserTest {
         "ID:57903",
         "CALL:MVA",
         "ADDR:MT ANGEL HW & HOBART RD",
+        "MADDR:MT ANGEL HWY & HOBART RD",
         "MAP:2929",
         "UNIT:E405,R404,M24,D411,LAW,STAF,N7",
         "INFO:2 VEH MVA/ELDERLY");
@@ -194,6 +198,7 @@ public class ORMarionCountyNParserTest extends BaseParserTest {
         "ID:4287",
         "CALL:MVA",
         "ADDR:STATE ST & CASCADE HW",
+        "MADDR:STATE ST & CASCADE HWY",
         "MAP:3630",
         "UNIT:E425,D411,R404,M24,E52,R484,PGE,E415,LAW,N7",
         "INFO:1 MVA/POSS INJ/NOT BLOCKING");
@@ -290,6 +295,7 @@ public class ORMarionCountyNParserTest extends BaseParserTest {
         "ID:639",
         "CALL:SICK",
         "ADDR:25496 S HW 99E",
+        "MADDR:25496 S HWY 99E",
         "MAP:1433",
         "UNIT:R903,OPPS,N1",
         "INFO:65YOM C/A/B DIZZY,SWEATING,");

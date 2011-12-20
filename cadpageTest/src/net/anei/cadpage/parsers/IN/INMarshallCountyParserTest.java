@@ -44,6 +44,7 @@ public class INMarshallCountyParserTest extends BaseParserTest {
     doTest("T5",
         "Update: ;625-33 OAKHILL AVE;PLYM;NURSERY ST;S SECOND ST;MEDICAL CALL;08/19/2011 20:52:25",
         "ADDR:625-33 OAKHILL AVE",
+        "MADDR:625 OAKHILL AVE",
         "CITY:PLYMOUTH",
         "X:NURSERY ST & S SECOND ST",
         "CALL:MEDICAL CALL");

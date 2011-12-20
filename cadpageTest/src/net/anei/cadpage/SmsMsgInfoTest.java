@@ -19,6 +19,8 @@ public class SmsMsgInfoTest {
   @Test
   public void testGetMapAddress() {
     
+    doMapTest("ORKlamathCounty", "97 S & STATE LINE RD,KENBURG,XX", "97 S & STATE LINE RD");
+    
     doMapTest("NCForsythCOunty", "421 & SCOTT RD,KENBURG,XX", "NB 421 & SCOTT RD");
     
     doMapTest("CR", "2245 BLACK CIR,KENBURG,XX", "2245 BLACK CIR");

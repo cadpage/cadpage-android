@@ -35,6 +35,7 @@ public class NYGeneseeCountyParserTest extends BaseParserTest {
         "[Dispatch]  Fire Auto ** 387.6 RT 90 W** , BATAVIA - ** POSS TRACTOR TRAILER FIRE - BOX TRAILER ** I 90, I-90 CONNECTOR / I 90,",
         "CALL:Fire Auto",
         "ADDR:387.6 RT 90 W",
+        "MADDR:387.6 RT 90 W & I 90, I-90 CONNECTOR",
         "CITY:BATAVIA",
         "INFO:POSS TRACTOR TRAILER FIRE - BOX TRAILER",
         "X:I 90, I-90 CONNECTOR / I 90,");
