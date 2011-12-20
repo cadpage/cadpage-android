@@ -45,7 +45,7 @@ public abstract class UserAcctManager {
    * @param sb String builder holding message being constructed
    */
   public void addAccountInfo(StringBuilder sb) {
-    sb.append("User:");
+    sb.append("\n\nUser:");
     sb.append(getUser());
     sb.append('\n');
     sb.append("Phone:");
