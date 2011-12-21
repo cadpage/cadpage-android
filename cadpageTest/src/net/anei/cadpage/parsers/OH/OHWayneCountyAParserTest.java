@@ -118,6 +118,16 @@ public class OHWayneCountyAParserTest extends BaseParserTest {
 
   }
   
+  @Test
+  public void testParser3() {
+
+    doTest("T1",
+        "SQUAD RUN 220 N MAIN ST 911 CALL RITTMAN IGA REF 54 YOF FALL VICTIM - INSIDE THE STORE ENTRANCE",
+        "CALL:SQUAD RUN",
+        "ADDR:220 N MAIN ST",
+        "INFO:911 CALL RITTMAN IGA REF 54 YOF FALL VICTIM - INSIDE THE STORE ENTRANCE");
+  }
+  
   public static void main(String[] args) {
     new OHWayneCountyAParserTest().generateTests("T1","CALL ADDR APT INFO");
   }
