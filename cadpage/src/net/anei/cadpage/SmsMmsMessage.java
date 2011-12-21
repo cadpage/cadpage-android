@@ -1140,9 +1140,9 @@ public class SmsMmsMessage implements Serializable {
     sb.append("\nSponsor:");
     sb.append(sponsor);
     
-    sb.append("ackReq:");
+    sb.append("\nackReq:");
     sb.append(ackReq);
-    sb.append("ackURL");
+    sb.append("\nackURL");
     sb.append(ackURL);
     
     if (msgCount >= 0) {
