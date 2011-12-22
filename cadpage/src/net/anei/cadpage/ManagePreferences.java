@@ -456,7 +456,6 @@ public class ManagePreferences {
   
   public static void setPaidYear(int year) {
     prefs.putInt(R.string.pref_paid_year_key, year);
-    setPaidYear(year, true);
   }
   
   public static void setPaidYear(int year, boolean set) {
@@ -516,6 +515,15 @@ public class ManagePreferences {
     prefs.putBoolean(R.string.pref_free_rider_key, newVal);
     DonationManager.instance().reset();
     MainDonateEvent.instance().refreshStatus();
+  }
+  
+  public static boolean freeSub() {
+    return prefs.getBoolean(R.string.pref_free_sub_key);
+  }
+  
+  public static void setFreeSub(boolean newVal) {
+    if (newVal == freeSub()) return;
+    prefs.putBoolean(R.string.pref_free_sub_key, newVal);
   }
   
   public static String authLocation() {
@@ -738,6 +746,7 @@ public class ManagePreferences {
         R.string.pref_install_date_key,
         R.string.pref_purchase_date_key,
         R.string.pref_free_rider_key,
+        R.string.pref_free_sub_key,
         R.string.pref_auth_location_key,
         R.string.pref_auth_extra_date_key,
         R.string.pref_auth_extra_cnt_key,

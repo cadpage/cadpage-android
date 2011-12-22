@@ -105,19 +105,35 @@ public abstract class UserAcctManager {
      */
     private void checkAccount(String acct, boolean isAcct) {
       String[] freeList = context.getResources().getStringArray(R.array.free_rider_list);
+      String[] paid2012List = context.getResources().getStringArray(R.array.paid_2012_list);
+      String[] free2012List = context.getResources().getStringArray(R.array.free_2012_list);
       String[] paid2011List = context.getResources().getStringArray(R.array.paid_2011_list);
+      String[] free2011List = context.getResources().getStringArray(R.array.free_2011_list);
       String hash = calcHash(acct);
       if (Arrays.binarySearch(freeList, hash) >= 0) {
         if (isAcct) userEmail = acct;
         ManagePreferences.setFreeRider(true);
+        ManagePreferences.setFreeSub(false);
+        return;
       }
-      if (Arrays.binarySearch(paid2011List, hash) >= 0) {
-        ManagePreferences.setPaidYear(2011, true);
-        if (ManagePreferences.purchaseDate() == null) {
-          ManagePreferences.setPurchaseDate(new Date());
-        }
-        if (isAcct && userEmail == null) userEmail = acct;
+      if (!isAcct) acct = null;
+      if (checkAcctList(hash, acct, 2012, false, paid2012List)) return;
+      if (checkAcctList(hash, acct, 2012, true, free2012List)) return;
+      if (checkAcctList(hash, acct, 2011, false, paid2011List)) return;
+      if (checkAcctList(hash, acct, 2011, true, free2011List)) return;
+    }
+    
+    private boolean checkAcctList(String hash, String acct, 
+                                    int paidYear, boolean freeSub, 
+                                    String[] acctList) {
+      if (Arrays.binarySearch(acctList, hash) < 0) return false;
+      ManagePreferences.setPaidYear(paidYear, true);
+      ManagePreferences.setFreeSub(freeSub);
+      if (ManagePreferences.purchaseDate() == null) {
+        ManagePreferences.setPurchaseDate(new Date());
       }
+      if (acct != null && userEmail == null) userEmail = acct;
+      return true;
     }
     
     @Override
@@ -139,25 +155,53 @@ public abstract class UserAcctManager {
 
         @Override
         public void processBody(String body) {
-          String flds[] = body.split(",");
-          if (flds.length < 2) return;
-          Date purchaseDate = null;
-          try {
-            purchaseDate = DATE_FMT.parse(flds[0].trim());
-          } catch (ParseException ex) {}
-          if (purchaseDate != null) {
-            ManagePreferences.setPurchaseDate(purchaseDate);
-          }
-          
-          String stat = flds[1].trim();
-          if (stat.equals("LIFE")) {
-            ManagePreferences.setFreeRider(true);
-          } else {
+          for (String line : body.split("<br>")) {
+            
+            String flds[] = line.split(",");
+            if (flds.length < 2) continue;
+            
+            // Evaluate the status field.  Value of LIFE translates to year 9999
             int year = -1;
-            try {
-              year = Integer.parseInt(stat);
-            } catch (NumberFormatException ex) {}
-            if (year >=2011 && year <= 2050) ManagePreferences.setPaidYear(year);
+            String stat = flds[1].trim();
+            if (stat.equals("LIFE")) {
+              year = 9999;
+            } else {
+              try {
+                year = Integer.parseInt(stat);
+              } catch (NumberFormatException ex) {}
+              if (year < 2011 && year > 2050) year = -1;
+            }
+            
+            // get the current status year.  If new status is better, update
+            // the user status
+            int paidYear = ManagePreferences.freeRider() ? 9999 : ManagePreferences.paidYear();
+            if (year > paidYear) {
+              if (year == 9999) {
+                ManagePreferences.setFreeRider(true);
+              } else {
+                ManagePreferences.setPaidYear(year, true);
+              }
+            }
+            
+            // If status is less that current, ignore everything else
+            if (year < paidYear) continue;
+            
+            // Otherwise evaluate and accept purchase date
+            if (flds.length <= 2) continue;
+            if (year >= paidYear) {
+              Date purchaseDate = null;
+              try {
+                purchaseDate = DATE_FMT.parse(flds[2].trim());
+              } catch (ParseException ex) {}
+              if (purchaseDate != null) {
+                ManagePreferences.setPurchaseDate(purchaseDate);
+              }
+            }
+            
+            // If sponsor code is "FREE", set the free subscriber flag
+            if (flds.length <= 3) continue;
+            String sponsor = flds[3].trim();
+            if (sponsor.equals("FREE")) ManagePreferences.setFreeSub(true);
           }
         }
       });

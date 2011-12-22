@@ -992,7 +992,7 @@ public class SmsMmsMessage implements Serializable {
     // Any button clears the notice
     ManageNotification.clear(context);
     if (ackNeeded) {
-      C2DMReceiver.sendResponseMsg(context, ackURL, "ACK");
+      C2DMReceiver.sendResponseMsg(context, ackReq, ackURL, "ACK");
       ackNeeded = false;
       reportDataChange();
     }

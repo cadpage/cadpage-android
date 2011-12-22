@@ -205,6 +205,9 @@ Samuel K Anders (sam@samanderscpa.com)(skacpa@bellsuth.net)
 Stephen Kelly (kelgar63@gmail.com)(skelly07@twcny.rr.com) 
 William Walters (lcff791@gmail.com)
 
+// List of users getting free credit for 2012
+$free_2012_list
+%2012
 
 // List of users getting credit for 2011
 $paid_2011_list
@@ -395,7 +398,8 @@ Guilford County 911 (GCES.C1450@gmail.com)
 Boiling Springs #1 (bsfd09@gmail.com)
 Boiling Springs #2 (bsfd10@gmail.com)
 
-// Unpaid users
+// List of users getting free credit for 2011
+$free_2011_list
 %2011/FREE
 >>pedro saldanha (psaldanha3115@gmail.com)
 >>Christina Kenny (tuwhada@gmail.com)
@@ -584,7 +588,7 @@ Boiling Springs #2 (bsfd10@gmail.com)
 >>Steven Bristow <sbristow13@gmail.com>
 >>Bret Milam (milam.bret6451@gmail.com)<theultimateone51@yahoo.com>
 >>eric gardner <egardne1@gmail.com>
-Kathleen Sullivan <6sullivk@gmail.com>
+>>Kathleen Sullivan <6sullivk@gmail.com>
 Robert Martone Jr <rmartone46@gmail.com>
 Matt Reitmeier <mcreitme@gmail.com>
 mark marino <markmarino26@gmail.com>
@@ -899,3 +903,5 @@ Rohit Goswamy (rohit319us@gmail.com)<desideejayrohit@gmail.com>
 %%12/21/2011
 Samantha Armstrong <damion042307@googlemail.com>
 Noah Moore <noahmarvin@gmail.com>
+%%12/22/2011
+Terry leist <tkl2424@gmail.com>

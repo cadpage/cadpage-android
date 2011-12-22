@@ -21,6 +21,7 @@ package net.anei.cadpage;
 
 import net.anei.cadpage.HttpService.HttpRequest;
 import net.anei.cadpage.donation.DonationManager;
+import net.anei.cadpage.donation.DonationManager.DonationStatus;
 import net.anei.cadpage.parsers.SmsMsgParser;
 import net.anei.cadpage.vendors.VendorManager;
 import android.app.Activity;
@@ -148,8 +149,9 @@ public class C2DMReceiver extends BroadcastReceiver {
    * @param intent received intent
    */
   private void sendAutoAck(Context context, Intent intent) {
+    String ackReq = intent.getStringExtra("ack_req");
     String ackURL = intent.getStringExtra("ack_url");
-    sendResponseMsg(context, ackURL, "auto");
+    sendResponseMsg(context, ackReq, ackURL, "auto");
   }
     
   private void processContent(Context context, Intent intent, String content, 
@@ -216,13 +218,33 @@ public class C2DMReceiver extends BroadcastReceiver {
   /**
    * send response messages
    * @param context current context
+   * @param ackReq acknowledge request code
    * @param ackURL acknowledge URL
    * @param type request type to be sent 
    */
-  public static void sendResponseMsg(Context context, String ackURL, String type) {
+  public static void sendResponseMsg(Context context, String ackReq, String ackURL, String type) {
     if (ackURL == null) return;
-    Uri uri = Uri.parse(ackURL).buildUpon().appendQueryParameter("type", type).build();
-    HttpService.addHttpRequest(context, new HttpRequest(uri));
+    if (ackReq == null) ackReq = "";
+    Uri.Builder bld = Uri.parse(ackURL).buildUpon().appendQueryParameter("type", type);
+    
+    // Add paid status if requested
+    if (ackReq.contains("P")) {
+      DonationStatus status = DonationManager.instance().status(); 
+      String paid;
+      if (status == DonationManager.DonationStatus.LIFE) {
+        paid = "YES";
+      } else if (ManagePreferences.freeSub()) {
+        paid = "NO";
+      } else if (status == DonationStatus.PAID || status == DonationStatus.PAID_WARN) {
+        paid = "YES";
+      } else {
+        paid = "NO";
+      }
+      bld.appendQueryParameter("paid_stat", paid);
+    }
+    
+    // Send the request
+    HttpService.addHttpRequest(context, new HttpRequest(bld.build()));
   }
   
   
