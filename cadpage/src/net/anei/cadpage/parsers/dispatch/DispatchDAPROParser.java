@@ -200,6 +200,7 @@ public class DispatchDAPROParser extends FieldProgramParser {
         "EXPLOSION",
         "FARM ACCIDENT",
         "FILL QUARTERS",
+        "FIRE-DUMPSTER",
         "FORREST FIRE",
         "GRASS FIRE",
         "GRASS FIRE THREATENING A STRUC",
