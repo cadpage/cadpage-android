@@ -3607,6 +3607,7 @@ City Fire\n930 Meeker Structure fire
 County road 16 and r auto acc
 1023 ensign core 0
 17372 hyw 34 medical emergency
+Rural medical report to the fire station   \n14390 hw 34 space 53
 **********************************************************
 **********************************************************
 **********************************************************

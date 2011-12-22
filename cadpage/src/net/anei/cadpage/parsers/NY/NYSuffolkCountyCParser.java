@@ -86,6 +86,10 @@ Contact: Michael Bellis <mbellis@optonline.net>
 Sender: greenlawnfd@rednmxcad.com
 Driver and/or EMT Needed for 2508 PAUMANACK VILLAGE DR . . 13:16:53
 
+Contact: michael allen <spca202@gmail.com>
+Sender: paging@alpinesoftware.com
+AUTOMATIC ALARM at 1708 CHURCH ST, HOLBROOK  c/s: RAFT AVE . . 19:34:22
+
 */
 
 public class NYSuffolkCountyCParser extends DispatchRedAlertParser {
