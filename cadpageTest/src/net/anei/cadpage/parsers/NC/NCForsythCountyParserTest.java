@@ -109,10 +109,18 @@ public class NCForsythCountyParserTest extends BaseParserTest {
         "CALL:Breathing Difficulty",
         "UNIT:R11",
         "X:HOLDER CT/SOUTHWEST SCH");
+    
+    doTest("T13",
+        "Location: 1 STOKES COUNTY: @STOKES COUNTY:511 WINDMILL ST Nature: DOA P:1  - default DISTRICT: F09 X Str: / CALLER NAME: 1224",
+        "ADDR:511 WINDMILL ST",
+        "CITY:STOKES COUNTY",
+        "CALL:DOA",
+        "UNIT:F09",
+        "NAME:1224");
  }
   
   public static void main(String[] args) {
-    new NCForsythCountyParserTest().generateTests("T12");
+    new NCForsythCountyParserTest().generateTests("T14");
   }
 }
 
