@@ -412,6 +412,14 @@ public class NYSuffolkCountyCParserTest extends BaseParserTest {
         "ADDR:2508 PAUMANACK VILLAGE DR",
         "TIME:13:16:53");
 
+    doTest("T2",
+        "AUTOMATIC ALARM at 1708 CHURCH ST, HOLBROOK  c/s: RAFT AVE . . 19:34:22",
+        "CALL:AUTOMATIC ALARM",
+        "ADDR:1708 CHURCH ST",
+        "CITY:HOLBROOK",
+        "X:RAFT AVE",
+        "TIME:19:34:22");
+
   }
   
   
