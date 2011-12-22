@@ -15,12 +15,15 @@ ABDOMINAL PAIN 985 N DAVIS ST (DEAD END & N 10TH AV) CON MAP: 5375D UNIT METWA S
 BREATHING PROB 39470 SW GEIGER RD (SW LAFOLLETT RD & FERN HILL RD) CON MAP: 5574B UNIT: METWA STA8
 SICK PERSON/UNKO 1045 N ADAIR ST (N 10TH AV & N 10TH-11TH AL) CON MAP: 5375D UNIT: METWA STA8
 RESIDENTIAL FIRE 822 N 28TH AV (N HOLLADAY DR & N 27TH AV) CON MAP: 5376D UNIT: METWA TIMERC CAS8 CFDUTY SIRN08 E813 E814 E815 E421 R8 T03 COCB1
+
+Clackamas County, OR
+Contact: Tyree Zander <tzander.depoebayfire@gmail.com>
+Sender: 777109496789
+    UNCON/FAINTING 37905 SE SERBAN RD (SE BLUFF RD & SE BAUMBACK RD) SAN MAP: 6013B UNIT: E74 M1
+
 */
 
 public class ORWashingtonCountyParser extends SmartAddressParser {
-  
-  private static final String DEF_STATE = "OR";
-  private static final String DEF_CITY = "WASHINGTON COUNTY";
   
   private static final String[] KEYWORDS = new String[]{
     "LOC", "MAP", "UNIT"
@@ -29,16 +32,21 @@ public class ORWashingtonCountyParser extends SmartAddressParser {
   private static final Properties CITY_TABLE = buildCodeTable(new String[]{
       "HIL", "HILLSBORO",
       "CON", "CORNELIUS",
-      "FOR", "FOREST GROVE"
+      "FOR", "FOREST GROVE",
+      "SAN", "SANDY"
   });
   
   public ORWashingtonCountyParser() {
-    super(DEF_CITY, DEF_STATE);
+    super("WASHINGTON COUNTY", "OR");
+  }
+  
+  public ORWashingtonCountyParser(String defCity, String defState) {
+    super(defCity, defState);
   }
   
   @Override
   public String getFilter() {
-    return "930010";
+    return "930010,77710";
   }
 
   @Override
