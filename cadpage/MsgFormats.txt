@@ -641,6 +641,15 @@ Washdown/spill: 21 LARCH LN, Town: MPK, Cross: WHITEWOOD DR, Map: E-8, Block#: 8
 Vehicle Accident: 21 LARCH LN, Town: MPK, Cross: WHITEWOOD DR, Map: E-8, Block#: 878-WEST, Time: 09:28:13
 *******************************************************************************
 *******************************************************************************
+* Central Georgia Dispatch subclasses
+*******************************************************************************
+***************************************************************************
+Dooly county, GA (GADoolyCountyParser)
+VFD Type:50I SUBTYPE:? LOC:HWY 41 & MT PLEASANT CHURCH RD C:11/23/2011 13:01:24 18 WHEELER VS ANOTHER VEH 11/23/2011 13:01:26 DCEM1 : DSPTCH & primary uni
+VFD Type:SMOKE SUBTYPE:? LOC:513 CLOVER ST C:11/24/2011 03:31:23 513 CLOVER ST: cross streets: W WOODWARD ST & PECAN ST 11/24/2011 03:32:59 10-85 CALLED T
+VFD Type:70 SUBTYPE:? LOC:N 5TH ST & E PINE ST C:11/25/2011 05:09:23 10-85 CALLED T REPORT A HOUSE ON FIRE ON N 5TH ST NEAR PINE ST
+*******************************************************************************
+*******************************************************************************
 * Individual parser classes
 *******************************************************************************
 ***************************************************************************
@@ -3819,32 +3828,3 @@ VFD Type:50I SUBTYPE:? LOC:109 I 75 N [@I75N EXIT 109[ : C:12/17/2011 19:48:39 V
 VFD Type:70W SUBTYPE:? LOC:107 I 75 N [@I75N MM 107 C:12/18/2011 12:53:33 VFDE2 : DSPTCH & primary unit.
 VFD Type:CANCELCALL SUBTYPE:? LOC:107 I 75 N [@I75N MM 107 C:12/18/2011 12:53:33 VFDE2 : DSPTCH & primary unit. 12/18/2011 12:53:53 ADV FIELD ON FIRE AT TH
 [Times - VFD]  VFD LOC:107 I 75 N [@I75N MM 107 Phone: Type:CANCELCALL SUBTYPE:? CREATED:13:2:14 C:12/18/2011 12:53:33 VFDE2 : DSPTCH & primary unit. 12/18/
-**********************************************************
-HIGH OCCUPANCY CMT2: GENERAL ALARM TIME: 06:16 UNTS: FD/TK3131 XST: I78EB OFF RAMP CCB XST2: OAKLEA RD
-Send time:1324536041000 (1 sec)
-Rec time: 1324554073565 (10.978 sec)
-
-ST3100 TYP: ALARM-WATER FLOW AD: 1263 S CEDAR CREST BLVD CTY: SALISBURY LOC: SUNRISE OF ALLENTOWN CN: OP #INT CMT1: **FIRE ALARM -
-Send time:1324536040000
-Rec time: 1324554062587
-
-M - HIGH OCCUPANCY CMT2: GENERAL ALARM TIME: 06:16 UNTS: FD/E3112 XST: I78EB OFFRAMP CCB XST2: OAKLEA RD
-Send time:1324535169000
-Rec time: 1324553294666
-
-OCK RD BRIDGE CMT2: Original Location : I78MM59 4WB TIME: 06:21 UNTS: FD/E3111 XST: W ROCK RD XST2: EMMAUS AV
-Send time:1324535106000
-Rec time: 1324553146531
-
-US AV
-Send time:1324534878000
-Rec time: 1324552895429
-
-OCK RD BRIDGE CMT2: Original Location : I78MM59 4WB TIME: 06:21 UNTS: FD/ST31A FD/B7282 FD/ST72 FD/E3112 XST: W ROCK RD XST2: EMMA
-Send time:1324534877000
-Rec time: 1324552893517
-*******************************************************************************
-Lehigh County PA
-ST0100 TYP: RESP DIST-ABN BREATH APT: 8 AD: 4015 SCHOENECK RD CTY: LOWER MACUNGIE LOC: BIG O MHP CN: NURSE JULIE CMT1: **CHARLIE BREATHING PROBLEMS - ABNORMAL REATHING CMT2: 57 YEAR OLD MALE | 502 LBS | FULL OF FLUID | BLOOD IN STOOL | TIME: 10:11 UNTS: FD/30CHIEFS FD/ST01 XST2: MOUNTAIN RD
-ST0100 TYP: NON-DWELL STRUCTURE AD: 8635 HENSINGERSVILLE RD CTY: 06 LONGSWAMP CMT1: **NON-DWELLING STRUCTURE FIRE (SHED, DETATCHED GARAGE) CMT2: FULLY INVOLVED STRUCTURE FIRE TIME: 01:37 UNTS: FD/ST01 XST: WALKER RD XST2: 8603 OAK HOLLOW LN
-ST0100 TYP: APARTMENT BLDG FIRE AD: 2130 STATE ST CTY: 06 LONGSWAMP CN: BERKS CMT1: **APARTMENT BUILDING FIRE (MULTI-OCCUPANCY RESIDENTIAL) CMT2: REQ ST 01 WIT BERKS ST21 SMOKE FROM BASEMENT IN APT BUILDING TIME: 14:22 UNTS: FD/E111 XST: 175 SCHLOSSBURG ST XST2: 380 JAMES LN
