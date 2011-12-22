@@ -61,4 +61,21 @@ public class ORWashingtonCountyParserTest extends BaseParserTest {
         "MAP:5376D",
         "UNIT:METWA TIMERC CAS8 CFDUTY SIRN08 E813 E814 E815 E421 R8 T03 COCB1");
   }
+  
+  @Test
+  public void testClackamasCounty() {
+
+    doTest("T1",
+        "    UNCON/FAINTING 37905 SE SERBAN RD (SE BLUFF RD & SE BAUMBACK RD) SAN MAP: 6013B UNIT: E74 M1",
+        "CALL:UNCON/FAINTING",
+        "ADDR:37905 SE SERBAN RD",
+        "X:SE BLUFF RD & SE BAUMBACK RD",
+        "CITY:SANDY",
+        "MAP:6013B",
+        "UNIT:E74 M1");
+  }
+  
+  public static void main(String[] args) {
+    new ORWashingtonCountyParserTest().generateTests("T1", "CALL ADDR X CITY MAP UNIT");
+  }
 }
