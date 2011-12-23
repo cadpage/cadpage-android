@@ -1,34 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">12152011</string>
-  <string name="release_version">v1.4.47</string>
+  <string name="release_date">12222011</string>
+  <string name="release_version">v1.4.48</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="min_purchase_date">11032011</string>
   <string name="release_text">
 What"'"s new in this release\n
 \n
-A lot of code to support direct paging from CodeMessaging.net or Active911 made
-it into this release.  Alas, nothing is available for normal users yet.\n
+Direct paging support with Active911.com is getting really close.  Good chance
+it will be rolled out next week.  CodeMessaging.net support is coming along.\n
 \n
 New Locations:\n
-Outagamie County, WI\n
-Winnebago County, WI\n
-both are links to the Calumet County location which dispatches all 3 counties.\n
+Dooly County and others in GA\n
+Howard County, IN\n
+Brown County, OH\n
+Clackamas County, OR\n
 \n
 Location Parsing Fixes:\n
-Lauderdale County, AL\n
-Windham County, CT\n
 Anne Arundel County, MD\n
-Queen Annes County, MD\n
-Steuben County, NY\n
-Cumberland County, NC\n
-Orange County, VA\n
-\n
-General fixes:\n
-\n
-Check network and roaming status before performing any actions that require
-network status.
+Oneida County, NY\n
+Orange County, NY\n
+Lincoln County, NC\n
+Rowan County, NC\n
+Stanly County, NC\n
+Franklin County, VA\n
   </string>  
 </resources>
   
