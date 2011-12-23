@@ -139,8 +139,8 @@ public abstract class UserAcctManager {
     @Override
     public void reloadStatus(Context context) {
       
-      // For now, only developers get do this
-      if (! DeveloperToolsManager.instance().isDeveloper(context)) return;
+      // Tentatively released to user base
+      // if (! DeveloperToolsManager.instance().isDeveloper(context)) return;
       
       // Build query with all of the possible account and phone ID's
       Uri.Builder builder = Uri.parse(context.getString(R.string.donate_server_url)).buildUpon();

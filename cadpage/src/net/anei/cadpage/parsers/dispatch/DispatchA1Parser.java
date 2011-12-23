@@ -31,12 +31,26 @@ Monroeville, PA (in Allegheny County)
 [Alert: Fall]  ALRM LVL: 1\nLOC:\n3912 BARBARA ANN DR\nMONROEVILLE\nBTWN: EVERGREEN DR & N/A\n\nRCVD AS Phone\n\nCOM:\n92 YO MALE/FELL/NOT BELIEVED TO BE INJURED/3R
 [Alert: Heart Problem]  ALRM LVL: 1\nLOC:\n205 HEATHER DR\nMONROEVILLE\nBTWN: DUFF RD & N/A\n\nRCVD AS Phone\n\nCOM:\nRAPID HEART BEAT\n87 YOF CARDIAC HX. CHARLIE
 
+Brown County, OH
+[Alert: SMOKE IN THE AREA] ALRM LVL: 1 \nLOC: \n13101 PURDY RD\nWASHINGTON \nBTWN: N/A & N/A\n\nRCVD AS Phone\n\nCOM: CALLER ADV MAN BURNING SOMETHING ABOUT TWO HO
+(Alert: SICK PERSON (SPECIFIC DIAG)) \nALRM LVL: 1 \nLOC: DEERFIELD TOWNHOUSE \nAPARTMENTS \n455 W MAIN ST \nAPT 703 \nMT ORAB \nBTWN: N/A & N/A\n\nRCVD AS Phone\n\nCOM
+[Alert: SMOKE IN THE AREA]  ALRM LVL: 1 (not sure what level is for)\nLOC:\n13101 PURDY RD (address)\nWASHINGTON   (this is the township or village name)\nBTWN: N/A & N/A (intersections)\n\nRCVD AS Phone\n\nCOM:\nCALLER ADV MAN BURNING SOMETHING ABOUT TWO HO (comments)
+(Alert: SICK PERSON (SPECIFIC DIAG)) ALRM LVL: 1\nLOC:\nDEERFIELD TOWNHOUSE APARTMENTS\n455 W MAIN ST\nAPT 703\nMT ORAB\nBTWN: N/A & N/A\n\nRCVD AS Phone\n\nCOM:
+(Alert: BREATHING PROBLEMS) ALRM LVL: 1\nLOC:\n14885 EASTWOOD RD\nSTERLING\nBTWN: TRI-COUNTY HWY & N/A\n\nRCVD AS 911\n\nCOM:\n60 YOF\n\nCT:\n6D0013 at POS 03
+(Alert: PSYCH/ABNRML BEHVR/SUICIDE ATT) ALRM LVL: 1\nLOC:\n14964 HILL CREST RD\nGREEN\nBTWN: BARDWELL-BUFORD RD & GREENBUSH EAST RD\n\nRCVD AS Phone\n\nCOM:\nCAL
+(Alert: BREATHING PROBLEMS) ALRM LVL: 1\nLOC:\n1871 CROSSTOWN ROAD\nSTERLING TWP\nBTWN: N/A & N/A\n\n\n\nCOM:\n78 Y O F\nHAVING TROUBLE BRAETHING\nCOPD\nDIFFICULTY
+(Alert: CHEST PAIN (NON TRAUMATIC)) ALRM LVL: 1\nLOC:\n7703 GARDNER RD\nLEWIS\nBTWN: OAK GROVE RD & N/A\n\nRCVD AS Phone\n\nCOM:\nSEVERE CHEST PAINS\n77 Y O M\nPA
+(Alert: PSYCH/ABNRML BEHVR/SUICIDE ATT) ALRM LVL: 1\nLOC:\n200 COLUMBIA ST\nHIGGINSPORT\nBTWN: OLIVE ST & JOHN ST\n\nRCVD AS Phone\n\nCOM:\nBOYFRIEND WENT TO CHE
+(Alert: SICK PERSON (SPECIFIC DIAG)) ALRM LVL: 1\nLOC:\nDEERFIELD TOWNHOUSE APARTMENTS\n455 W MAIN ST\nAPT 703\nMT ORAB\nBTWN: N/A & N/A\n\nRCVD AS Phone\n\nCOM:
+(Alert: STRUCTURE FIRE UNCONFIRMED) ALRM LVL: 1\nLOC:\n2567 US RTE 134\nBTWN: N/A & N/A\n\nRCVD AS PHONE\n\nCOM: ADVISED SMOKE WAS COMING OUT OF THE WINDOWS CA
+(Alert: FIRE ALARM) ALARM LVL: 1\nLOC:\n11519 US RTE 62\nEAGLE\nBTWN: N/A & MAPLE DR\n\nRCVD AS PHONE\n\nCOM: FIRE ALARM EASTERN MIDDLE SCHOOL DUCT SMOKE D
+
 */
 public class DispatchA1Parser extends FieldProgramParser {
 
   public DispatchA1Parser(String defCity, String defState) {
     super(defCity, defState, 
-           "ALRM_LVL:PRI LOC:SKIP PLACE? ADDR! APT? CITY! BTWN:X COM:SKIP INFO+ CT:SKIP INFO+");
+           "ALRM_LVL:PRI LOC:SKIP PLACE? ADDR! APT? CITY BTWN:X COM:INFO INFO+ CT:INFO INFO+");
   }
   
   @Override
@@ -57,13 +71,15 @@ public class DispatchA1Parser extends FieldProgramParser {
     @Override
     public boolean checkParse(String field, Data data) {
 
-      // If second following field starts with BTWN: this must be an address
+      // If first or second following field starts with BTWN: this must be an address
       // followed by a city
+      if (getRelativeField(1).startsWith("BTWN:")) return false;
       if (getRelativeField(2).startsWith("BTWN:")) return false;
       
       // If next field looks like an apartment, and third field starts with BTWN:, 
       // then this must be an address followed by apartment and city
-      if (getRelativeField(1).length()<=3 && getRelativeField(3).startsWith("BTWN:")) return false;
+      if ((getRelativeField(1).length()<=3 || getRelativeField(1).startsWith("APT"))&& 
+           getRelativeField(3).startsWith("BTWN:")) return false;
       
       // Otherwise, we can be a place field
       parse(field, data);
@@ -80,7 +96,10 @@ public class DispatchA1Parser extends FieldProgramParser {
 
     @Override
     public boolean checkParse(String field, Data data) {
-      if (field.length() > 3) return false; 
+      if (field.startsWith("APT")) {
+        field = field.substring(3).trim();
+      } 
+      else if (field.length() > 3) return false; 
       parse(field, data);
       return true;
     }

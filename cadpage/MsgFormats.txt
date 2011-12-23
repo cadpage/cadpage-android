@@ -411,6 +411,11 @@ Erlanger Dispatch, KY (KYErlangerDispatchParser)
 (Alert: Fire Structure) ALRM LVL: 1\nLOC:\n3812 HARVEST WY\nELSMERE\nBTWN: HARVEST LN & N/A
 (Alert: Fire Structure) ALRM LVL: 1\nLOC:\n416 ELKEN PL\nELSMERE\nBTWN: MAPLE AV & CALDWELL DR
 *******************************************************************************
+Brown County, OH (OHBrownCountyParser)
+[Alert: SMOKE IN THE AREA] ALRM LVL: 1 \nLOC: \n13101 PURDY RD\nWASHINGTON \nBTWN: N/A & N/A\n\nRCVD AS Phone\n\nCOM: CALLER ADV MAN BURNING SOMETHING ABOUT TWO HO
+(Alert: SICK PERSON (SPECIFIC DIAG)) \nALRM LVL: 1 \nLOC: DEERFIELD TOWNHOUSE \nAPARTMENTS \n455 W MAIN ST \nAPT 703 \nMT ORAB \nBTWN: N/A & N/A\n\nRCVD AS Phone\n\nCOM
+[Alert: SMOKE IN THE AREA]  ALRM LVL: 1 \nLOC:\n13101 PURDY RD\nWASHINGTON \nBTWN: N/A & N/A\n\nRCVD AS Phone\n\nCOM:\nCALLER ADV MAN BURNING SOMETHING ABOUT TWO HO (comments)
+*******************************************************************************
 Delaware County, OH (OHDelawareCountyParser)
 (Alert: Service Run-Fire) ALRM LVL: 1\nLOC:\n210 BIG RUN RD\nBERLIN TWP\nBTWN: STATE ROUTE 37 E & SOUTH END\nRCVD AS Radio\n\nCOM:\n\nCT:\n9961 at POS 05
 (Alert: Unresponsive / Unconscious) ALRM LVL: 1\nLOC:\n4114 CURVE RD\nBERLIN TWP\nBTWN: WINDING CREEK LN & LACKEY OLD STATE RD\nRCVD AS E-911 Call\nCOM:\nPROQA Urg
@@ -3632,150 +3637,6 @@ Rural medical report to the fire station   \n14390 hw 34 space 53
 **********************************************************
 **********************************************************
 **********************************************************
-Brown County, OH
-Contact: "kieth" <kiethw@frontier.com>
-Sender: browncommctr@roadrunner.com
-DispatchA1Parser subclass
-
-[Alert: SMOKE IN THE AREA] ALRM LVL: 1 
-LOC: 
-13101 PURDY RD
-WASHINGTON 
-BTWN: N/A & N/A
-
-RCVD AS Phone
-
-COM: CALLER ADV MAN BURNING SOMETHING ABOUT TWO HO
-
-(Alert: SICK PERSON (SPECIFIC DIAG)) 
-ALRM LVL: 1 
-LOC: DEERFIELD TOWNHOUSE 
-APARTMENTS 
-455 W MAIN ST 
-APT 703 
-MT ORAB 
-BTWN: N/A & N/A
-
-RCVD AS Phone
-
-COM
-
-[Alert: SMOKE IN THE AREA]  ALRM LVL: 1 (not sure what level is for)
-LOC:
-13101 PURDY RD (address)
-WASHINGTON   (this is the township or village name)
-BTWN: N/A & N/A (intersections)
-
-RCVD AS Phone
-
-COM:
-CALLER ADV MAN BURNING SOMETHING ABOUT TWO HO (comments)
-
-(Alert: SICK PERSON (SPECIFIC DIAG)) ALRM LVL: 1
-LOC:
-DEERFIELD TOWNHOUSE APARTMENTS
-455 W MAIN ST
-APT 703
-MT ORAB
-BTWN: N/A & N/A
-
-RCVD AS Phone
-
-COM:
-
-(Alert: BREATHING PROBLEMS) ALRM LVL: 1
-LOC:
-14885 EASTWOOD RD
-STERLING
-BTWN: TRI-COUNTY HWY & N/A
-
-RCVD AS 911
-
-COM:
-60 YOF
-
-CT:
-6D0013 at POS 03
------------------------------------------------------
-(Alert: PSYCH/ABNRML BEHVR/SUICIDE ATT) ALRM LVL: 1
-LOC:
-14964 HILL CREST RD
-GREEN
-BTWN: BARDWELL-BUFORD RD & GREENBUSH EAST RD
-
-RCVD AS Phone
-
-COM:
-CAL
-------------------------------------------------------
-(Alert: BREATHING PROBLEMS) ALRM LVL: 1
-LOC:
-1871 CROSSTOWN ROAD
-STERLING TWP
-BTWN: N/A & N/A
-
-
-
-COM:
-78 Y O F
-HAVING TROUBLE BRAETHING
-COPD
-DIFFICULTY
-------------------------------------------------------
-(Alert: CHEST PAIN (NON TRAUMATIC)) ALRM LVL: 1
-LOC:
-7703 GARDNER RD
-LEWIS
-BTWN: OAK GROVE RD & N/A
-
-RCVD AS Phone
-
-COM:
-SEVERE CHEST PAINS
-77 Y O M
-PA-----------------------------------------------------
-(Alert: PSYCH/ABNRML BEHVR/SUICIDE ATT) ALRM LVL: 1
-LOC:
-200 COLUMBIA ST
-HIGGINSPORT
-BTWN: OLIVE ST & JOHN ST
-
-RCVD AS Phone
-
-COM:
-BOYFRIEND WENT TO CHE
-----------------------------------------------------
-(Alert: SICK PERSON (SPECIFIC DIAG)) ALRM LVL: 1
-LOC:
-DEERFIELD TOWNHOUSE APARTMENTS
-455 W MAIN ST
-APT 703
-MT ORAB
-BTWN: N/A & N/A
-
-RCVD AS Phone
-
-COM:
------------------------------------------------------
-(Alert: STRUCTURE FIRE UNCONFIRMED ALERM LVL: 1
-LOC:
-2567 US RTE 134  (this is the mutual add in another county that doesn't have
-the township or village)
-BTWN: N/A & N/A
-
-RCVD AS PHONE
-
-COM: ADVISED SMOKE WAS COMING OUT OF THE WINDOWS CA
------------------------------------------------------
-(Alert: FIRE ALARM) ALARM LVL: 1
-LOC:
-11519 US RTE 62
-EAGLE
-BTWN: N/A & MAPLE DR
-
-RCVD AS PHONE
-
-COM: FIRE ALARM EASTERN MIDDLE SCHOOL DUCT SMOKE D
 **********************************************************
 Howard County, IN
 Contact: Michael Kaelin <mdkaelin@gmail.com>
