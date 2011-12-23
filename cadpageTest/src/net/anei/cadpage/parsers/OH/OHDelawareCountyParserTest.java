@@ -61,4 +61,8 @@ public class OHDelawareCountyParserTest extends BaseParserTest {
           "X:COLUMBUS PIKE & NORTH RD IN ORANGE TWP");
       
   }
+  
+  public static void main(String[] args) {
+    new OHDelawareCountyParserTest().generateTests("T1");
+  }
 }
