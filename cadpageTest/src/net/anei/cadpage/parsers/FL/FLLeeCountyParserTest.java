@@ -24,6 +24,8 @@ public class FLLeeCountyParserTest extends BaseParserTest {
         "PLACE:LIGHTHOUSE RESORT TIKI BAR",
         "NAME:VERIZON WIRELESS",
         "INFO:CONVULSIONS / ZURES / Original Location : LIGHTHOUSE RESORT TIKI BAR",
+        "TIME:16:34",
+        "UNIT:FBFBA32 FBFBE31",
         "X:1 MATANZAS BRIDGE & 1067 FOURTH ST");
 
     doTest("T2",
@@ -34,7 +36,9 @@ public class FLLeeCountyParserTest extends BaseParserTest {
         "CITY:FT MYERS BEACH",
         "PLACE:BAYSIDE ESTATES",
         "NAME:KESTLER, BARBARA",
-        "INFO:BREATHING PRO MS / Original Location : BAYSIDE ESTATES");
+        "INFO:BREATHING PRO MS / Original Location : BAYSIDE ESTATES",
+        "TIME:08:35",
+        "UNIT:FBFBA32 FBFBE33XST: 17681 EGLANTINE LN");
 
     doTest("T3",
         "10118004821 TYP: CHEST PAINS AD: 885 ARAPAHO TRL CTY: FORT MYERS LOC: INDIAN CREEK CN: HANKS, ROBIN & DEAN CMT1: CHEST PAIN (NON TRAUMATI CMT2: Original Location : INDIAN CREEK TIME: 18:29 FBFBA32 FBFBE33 XST: 1205 SHASTA TRL XST2: 1211 SHASTA TRL",
@@ -45,6 +49,8 @@ public class FLLeeCountyParserTest extends BaseParserTest {
         "PLACE:INDIAN CREEK",
         "NAME:HANKS, ROBIN & DEAN",
         "INFO:CHEST PAIN (NON TRAUMATI / Original Location : INDIAN CREEK",
+        "TIME:18:29",
+        "UNIT:FBFBA32 FBFBE33",
         "X:1205 SHASTA TRL & 1211 SHASTA TRL");
 
     doTest("T4",
@@ -57,6 +63,8 @@ public class FLLeeCountyParserTest extends BaseParserTest {
         "PLACE:TAHITIAN INN",
         "NAME:LCSO - CHELSEA",
         "INFO:SICK PERSON (SPECIFIC DIAGNOSIS) / Original Location : TAHITIAN INN",
+        "TIME:22:56",
+        "UNIT:FBFBA32 FBFBE33",
         "X:17605 BROADWAY AVE & 11891 IS");
 
     doTest("T5",
@@ -78,6 +86,8 @@ public class FLLeeCountyParserTest extends BaseParserTest {
         "PLACE:PKG LOT",
         "NAME:AT&T MOBILITY",
         "INFO:OVERDOSE / POISONING (INGESTION) / Original Location : PKG LOT",
+        "TIME:17:27",
+        "UNIT:FBFBA33 FBFBE31",
         "X:1511 ESTERO BLVD");
 
     doTest("T7",
@@ -90,6 +100,8 @@ public class FLLeeCountyParserTest extends BaseParserTest {
         "PLACE:CARLOS POINT CONDOS",
         "NAME:VERIZON WIRELESS",
         "INFO:HEMORRH / LACERATIONS / Original Location : CARLOS POINT CONDOS",
+        "TIME:20:38FBFBA33",
+        "UNIT:FBFBTK33",
         "X:99 TARPON RD & 111 ESTRELLITA DR");
 
     doTest("T8",
@@ -101,6 +113,8 @@ public class FLLeeCountyParserTest extends BaseParserTest {
         "CITY:FT MYERS BEACH",
         "NAME:METRO PCS",
         "INFO:1) MPDS TYPE (2?) / 38 YEAR OLD FEMALE SCIOUS BREATHING UNCONSCIOUS / FAINTING (NEAR)",
+        "TIME:21:51",
+        "UNIT:FBFBA32 FBFBE31",
         "X:111 MANGO ST & 81 MANGO ST");
 
     doTest("T9",
@@ -112,6 +126,8 @@ public class FLLeeCountyParserTest extends BaseParserTest {
         "PLACE:RED COCONUT RV PARK",
         "NAME:VERIZON WIRELESS",
         "INFO:FALLS / Original L RED COCONUT RV PARK",
+        "TIME:15:54",
+        "UNIT:FBFBA33 FBFBE31",
         "X:1 GULF VIEW COLONY & 930 SAND DOLLAR DR");
 
     doTest("T10",
@@ -122,6 +138,8 @@ public class FLLeeCountyParserTest extends BaseParserTest {
         "CITY:FT MYERS BEACH",
         "NAME:AT&T MOBILITY",
         "INFO:CHEST PAIN (NON TRAUMATIC) / 70 YEAR OL EMALE CONSCIOUS BREATHING CHEST PAIN (NON-TRAUMATIC)",
+        "TIME:20:33",
+        "UNIT:FBFBA32FBFBE33",
         "X:11211 AZALEA LN");
   }
   

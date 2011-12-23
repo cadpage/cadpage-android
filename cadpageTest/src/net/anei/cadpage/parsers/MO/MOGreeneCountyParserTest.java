@@ -22,6 +22,7 @@ public class MOGreeneCountyParserTest extends BaseParserTest {
         "MAP:U-8",
         "NAME:JOE SNYDER",
         "INFO:* * * CLONE STRUCTURE FIRES TO GF/FHOUSE-FBLDG/BF10/ CMT:AUTO_AID * * *",
+        "TIME:22:21",
         "UNIT:RF/BRUSH1",
         "X:598 S FOREST LN & 600 W ONEAL RD");
 
@@ -34,6 +35,7 @@ public class MOGreeneCountyParserTest extends BaseParserTest {
         "MAP:T-9",
         "PLACE:PRICE CUTTER",
         "INFO:* * * CLONE STRUCTURE FIRES TO GF/ FHOUSE-FBLDG/BF10/CMT:AUTO_AID * * * / PERSON FELL OFF BICYCLE -ELDERLY",
+        "TIME:19:12",
         "UNIT:RF/ST1");
 
     doTest("T3",
@@ -43,6 +45,7 @@ public class MOGreeneCountyParserTest extends BaseParserTest {
         "CITY:REPUBLIC",
         "MAP:U-10",
         "INFO:* * * CLONE STRUCTURE FIRES TO GF/FHOUSE-FBLDG/BF10/ CMT:AUTO_AID * * * / MOM IN LAW FELL, POSSIBLE HIP INJURY - 74 YEARS OLD",
+        "TIME:18:28",
         "UNIT:RF/ST1 RF/CMD1",
         "X:201 N CO");
 
@@ -56,6 +59,7 @@ public class MOGreeneCountyParserTest extends BaseParserTest {
         "PLACE:OAK COURT PLACE",
         "NAME:HIDEMAN ALARM CO",
         "INFO:* * * CLONE STRUCTURE FIRES TO GF/FHOUSE-FBLDG/BF10/ CMT:AUTO_AID * * * / GENERAL FIRE ALARM",
+        "TIME:18:28",
         "UNIT:RF/S");
 
     doTest("T5",
@@ -65,6 +69,7 @@ public class MOGreeneCountyParserTest extends BaseParserTest {
         "CITY:REPUBLIC",
         "MAP:V-8",
         "INFO:* * * CLONE STRUCTURE FIRES TO GF/FHOUSE-FBLDG/BF10/ CMT:AUTO_AID * * * / 69 YR OLD MALE, PHEMONIA TROUBLE BREATHING, CONCIOUS AND ALERT TROUBLE BR",
+        "TIME:06:08",
         "UNIT:RF/");
 
     doTest("T6",
@@ -74,6 +79,7 @@ public class MOGreeneCountyParserTest extends BaseParserTest {
         "CITY:REPUBLIC",
         "MAP:U-9",
         "INFO:* * * CLONE STRUCTURE FIRES TO GF/FHOUSE-FBLDG/BF10/ CMT:AUTO_AID * * * / 69 YR OLD MALE VOMMITING, CONCIOUS ALERT AND BREATHING. FACE ISSWOLLEN",
+        "TIME:00:37",
         "UNIT:RF/RESCUE");
 
     doTest("T7",
@@ -84,6 +90,7 @@ public class MOGreeneCountyParserTest extends BaseParserTest {
         "MAP:A-6",
         "NAME:VERIZON WIRELESS",
         "INFO:CLR WITH LOW BLOOD SURGAR, HAVING TROUBLE SPEAKING",
+        "TIME:17:43",
         "UNIT:GF/");
 
     doTest("T8",
@@ -97,6 +104,6 @@ public class MOGreeneCountyParserTest extends BaseParserTest {
   }
 
   public static void main(String[] args) {
-    new MOGreeneCountyParserTest().generateTests("T7");
+    new MOGreeneCountyParserTest().generateTests("T1");
   }
 }
