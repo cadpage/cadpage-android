@@ -239,6 +239,7 @@
     <item>3764ef8c31870ea2b746112f093ae0ac</item>  <!-- Stephen Kelly -->
     <item>37fdd79c06959f2ff806906cf3b689bf</item>  <!-- Scott Hooper -->
     <item>385afce28963d1dc3f1c94dd026fd472</item>  <!-- Blake McCloud -->
+    <item>3ef82839e240fb58ce55bda41af47fec</item>  <!-- Steven Erickson -->
     <item>3f02af07a0a1b32f12b719f174e250d9</item>  <!-- Lawrence McCaskill -->
     <item>408e83e4b79ede988664a9c94cdde9bb</item>  <!-- Walter Cooper -->
     <item>40aada1ed661cda37c44b7e9b0e9dfc6</item>  <!-- Grant Todack -->
@@ -423,6 +424,7 @@
     <item>27d5035e443064ff57831ab86b7f96df</item>  <!-- Joe Muller -->
     <item>2ae34230d1d8e44e7877c08bbc162f9e</item>  <!-- norman fisher -->
     <item>2b30698f40a083a968429ac7d7dc5393</item>  <!-- Stosh Sitkowski -->
+    <item>2b3ad74cb7dc4b9d3e8b4793d347d212</item>  <!-- Brandon Hull -->
     <item>2b88e08e00c658871284a1c087a2782a</item>  <!-- Logan Hasty -->
     <item>2ca4833315fa5c6e6a338facdd3058f3</item>  <!-- Charles Woodland -->
     <item>2eb7d4ab78d9f450f8bbb6edf51fbd83</item>  <!-- Jan Schatzberg -->
@@ -431,7 +433,6 @@
     <item>2fc204cb02bb5aca72221fa25a6e2318</item>  <!-- MEDIC70736@AOL.COM -->
     <item>303141fd9b28149687e367194954a8c8</item>  <!-- Wilson, Ryan -->
     <item>308ae93cb33b9f9948aab459a9259cfa</item>  <!-- James Stephenson -->
-    <item>313f7c5de50368bdb77501e8f192b249</item>  <!-- Kevin -->
     <item>349d49c09cd8b44bef14063c5a4f3620</item>  <!-- lcoppelman -->
     <item>3a85debc3225d72fec360179ef5ad149</item>  <!-- farlymot@hotmail.com -->
     <item>3bb8468a5ae39e36c17261fb52f31ec1</item>  <!-- chris tansey -->
@@ -490,7 +491,6 @@
     <item>66647ccc27649e44c665629acd415104</item>  <!-- Randy Young -->
     <item>66e18b4817ac910fbfd4f1dd4bc2074a</item>  <!-- Alex McDonald -->
     <item>67d2e5fa174a2979450f919d75bfee64</item>  <!-- ryan conrad -->
-    <item>6875b9d09e852f03e4452329fd16d978</item>  <!-- codymasters325@gmail.com -->
     <item>6a5038e3841d67829e2ce1ee7f2e867e</item>  <!-- Alicia Schall -->
     <item>6a6628f64cbc1a02fcce9ab056bb2c95</item>  <!-- W. A. Mullins -->
     <item>6a99adc4cede849b78f555f10145ba34</item>  <!-- Ryan Hope -->
@@ -538,6 +538,7 @@
     <item>96c744e38a3dc40ce3399d1eec8ac95a</item>  <!-- Rohit Goswamy -->
     <item>96e6a1784043b03926e30a5497b31b28</item>  <!-- Noah Moore -->
     <item>97443638aba12dfc3044cf32731d7baa</item>  <!-- marc butt -->
+    <item>98ca73caacf6ce1472ed211b4f122b84</item>  <!-- Hunter McKenzie -->
     <item>99f00ed650475f86304ab7b3d06cc5e1</item>  <!-- Dirtyjeeper96@aol.com kar1996 -->
     <item>99f1dbb93cac192bbcbdd245746a2722</item>  <!-- miguel quijano -->
     <item>9b99abe14ead5bd746481db00668a91d</item>  <!-- Jacqueline Howell -->
@@ -590,6 +591,7 @@
     <item>be136859feb12b1ca1a134e74f2174ae</item>  <!-- Jimmy Kelly -->
     <item>be136859feb12b1ca1a134e74f2174ae</item>  <!-- Jimmy Kelly -->
     <item>bf01acadce9c13b4eb7c1d4677aefe29</item>  <!-- Erik Modrzynski -->
+    <item>c0dab31a9d5449ea80314cef857946ef</item>  <!-- Adam Chapin -->
     <item>c141283904096a3a0b64f1aa9007bea5</item>  <!-- Summersbrian014@gmail.com -->
     <item>c3021c2aea8dbd94a24bb2d44f850e74</item>  <!-- Henry Hennings -->
     <item>c37fc54a593e598441d2adf60676d283</item>  <!-- Chad Angelini -->
@@ -639,7 +641,6 @@
     <item>e0945e0e1b226c0c28bfa3662feccacc</item>  <!-- Aaron Bradshaw -->
     <item>e123e59bd7cd98af87ce05ff95142e9b</item>  <!-- Gary Crider -->
     <item>e17332c2a568947cb6ab456e54ee21fb</item>  <!-- Matt Cowherd -->
-    <item>e1bf94498441af77a7d926df87508eaf</item>  <!-- Ryan Hines -->
     <item>e20a82544e560523e279a615c0c92f4a</item>  <!-- Chris Colvin -->
     <item>e26406c777a8b7865180d82d99d33d68</item>  <!-- Daniel Marlow -->
     <item>e2d7138c783b79a6fb2cec8ba45d96dd</item>  <!-- Travis Musselman -->
@@ -681,7 +682,6 @@
     <item>fcf87e3e7a515b585ce41f26822bfe29</item>  <!-- ofsinstructor -->
     <item>fde95643fe07ce72538c74c009c9946c</item>  <!-- Martin Mikhail -->
     <item>fe555b7ac3e68b9c0b0de4db8c65bc47</item>  <!-- Jonathan Mitchell -->
-    <item>ff647806abec9fe2d412e79a0ad8c826</item>  <!-- auntanya@nc.rr.com -->
     <item>ffba233b1dc1b88a865c7de9533502c8</item>  <!-- buddy vangelof -->
   </string-array>
 </resources>
