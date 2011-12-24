@@ -243,14 +243,21 @@ public class SmsPopupUtils {
       
       // A subfilter with length of 0 or 1 is invalid and is ignored
       // Doing otherwise makes it too difficult to determine whether or not
-      // an active filter is in lplace
+      // an active filter is in place
       if (tFilter.length() <= 1) continue;
       
-      // Otherwise filter is passed if it matches any substring in the address
-      // Check should be case insensitive, which we accomplish by downshifting
+      // If filter consists only of numeric digits, it needs to match the
+      // beginning of what is presumably a phone number.  Otherwise it can
+      // match any substring of the sender address.  This last
+      // check should be case insensitive, which we accomplish by downshifting
       // both the address and the filter
-      if (sAddress.toLowerCase().contains(tFilter.toLowerCase())) return true;
+      if (DIGITS.matcher(tFilter).matches()) {
+        if (sAddress.startsWith(tFilter)) return true;
+      } else {
+        if (sAddress.toLowerCase().contains(tFilter.toLowerCase())) return true;
+      }
     }
     return false;
   }
+  private static final Pattern DIGITS = Pattern.compile("\\d+");
 }
