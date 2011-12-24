@@ -3634,7 +3634,7 @@ County road 16 and r auto acc
 17372 hyw 34 medical emergency
 Rural medical report to the fire station   \n14390 hw 34 space 53
 **********************************************************
-Haywood County, NC (alternate)
+Haywood County, NC (alternate or replacement)
 Contact: B Poole <wforrestpoole@gmail.com>
 CAD:GOODWILL 75 PLAZA LOOP CANTON NEW CLYDE HWY X MINGUS HILL RD MDL 21D03 2011040779 17:35:40 EMERGENCY HEMORRHAGE LACERATIO
 **********************************************************
