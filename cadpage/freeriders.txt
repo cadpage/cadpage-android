@@ -196,14 +196,14 @@ Zach Smith (zachsmith.91142@gmail.com)(bigz1232003@yahoo.com)
 
 // List of users getting credit for 2012
 $paid_2012_list
-%2012
-Christopher Rowland (chrisprowl@gmail.com)(chrisprowl@aol.com) 
-Gerald Bentley (tbentley69@gmail.com) <jtbentley032595@hotmail.com>
-Patrick Hultman (pat.hultman@jocofd1.org)<pat.hultman@jocofd1.org>
 Robert Tripe <rmtripe@gmail.com>
+%2012
+Christopher Rowland (chrisprowl@gmail.com)(chrisprowl@aol.com)
 Samuel K Anders (sam@samanderscpa.com)(skacpa@bellsuth.net)
 Stephen Kelly (kelgar63@gmail.com)(skelly07@twcny.rr.com) 
 William Walters (lcff791@gmail.com)
+%%12/04/2011
+Patrick Hultman (pat.hultman@jocofd1.org)<pat.hultman@jocofd1.org>
 
 // List of users getting free credit for 2012
 $free_2012_list
@@ -258,13 +258,12 @@ Fred Windisch (fwindisch49@gmail.com)(fwindisch@ponderosavfd.org)
 Geoffrey Backus (backusgj@gmail.com)
 George Ewings (gewings@gmail.com)
 George Stewart (tank84123@gmail.com)(Tank84123@aol.com)
-Gerald Bentley (tbentley69@gmail.com) <jtbentley032595@hotmail.com> // $20
 George Gerstacker (fgerstacker@gmail.com)(gfredg@comcast.net)
 Grant Todack (gtodack@gmail.com)(grant_todack@yahoo.com)
 Greg Potter (army12.gp@gmail.com)(gtodack@gmail.com)(ffpotter@hotmail.com)
 greg seal (grgifts02@gmail.com)(grgifts02@yahoo.com)
 G W Foster (gfoster630@gmail.com)(gfoster@alexandercountync.gov)
-IVAN BROWNING (HOTFIREFIGHTER24@AOL.COM)
+IVAN BROWNING (ijbrowning0566@gmail.com)(HOTFIREFIGHTER24@AOL.COM)
 James Taylor jr (ladder197@gmail.com)(jrtaylor77@yahoo.com)
 Jason Baines (jebterp8411@gmail.com)(jebterps@aol.com)
 Jason Grimaldi <jasoncgrimaldi@gmail.com>
@@ -363,6 +362,9 @@ WILLIAM VOJIK (cmox51@gmail.com)(defiant154@aol.com)
 William Walters (lcff791@gmail.com) // $20
 William Yoder (actionlimo3910@gmail.com)(actionlimo@hotmail.com)
 zwelch85@gmail.com
+%%11/16/2011 
+Gerald Bentley (jbentley1971@gmail.com)
+Gerald Bentley (tbentley69@gmail.com)
 %%12/13/2011
 Garrett Parten <gparten06@gmail.com>
 %%12/19/2011
@@ -373,6 +375,8 @@ Francisco Saltar (ffrescue1@gmail.com)(ffrescue1@aol.com).
 Steven Erickson (durgan.se@gmail.com)(durgan@frontiernet.net)
 %%12/24/2011
 Cory Neal (cory.neal@jocofd1.org)
+%%12/27/2011
+Matthew Steelmon (barbersteelmon@gmail.com)
 
 // Guilford County Paid
 %2011/Guilford County
@@ -604,9 +608,9 @@ $free_2011_list
 >>auntanya@nc.rr.com (auntanya22@gmail.com)<auntanya@nc.rr.com>
 >>Ryan Hines <ryanhines.1@gmail.com>
 >>Frank Gardner (gardnerfrank787@gmail.com)<gardnerfrank@comcast.net>
-chris tansey <christansey343@gmail.com>
-Michael Vaughan <southhillfire736@gmail.com>
-lcoppelman (lcoppelman508@gmail.com)<lcoppelman@yahoo.com>
+>>chris tansey <christansey343@gmail.com>
+>>Michael Vaughan <southhillfire736@gmail.com>
+>>lcoppelman (lcoppelman508@gmail.com)<lcoppelman@yahoo.com>
 jrff135@yahoo.com (jrichards1351@gmail.com)<jrff135@yahoo.com>
 drudbart@aol.com (drudbart@gmail.com)<drudbart@aol.com>
 James Stephenson <usamp4you@gmail.com>
@@ -920,7 +924,10 @@ Daniel Dunbar <jcsd7755@gmail.com>
 Hunter McKenzie (hmckenzie@broadwayffa.com)
 Adam Chapin <16s258@gmail.com>
 Brandon Hull <blinky132@gmail.com>
-%%/12/26/2011
+%%12/26/2011
 "John" (john.mossbrooks@gmail.com)<mossyoak1992@yahoo.com>
 JTK (jtkphotograph@gmail.com)<kingkittygeosnick@yahoo.com>
 Paul Gupta <paul.n.gupta@gmail.com>
+%%12/27/2011
+Dawn Moore <dawn.moore1021@gmail.com>
+Brian Garbutt <bgarbutt55@gmail.com>
