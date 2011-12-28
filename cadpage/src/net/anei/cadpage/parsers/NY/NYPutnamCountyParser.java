@@ -1,7 +1,7 @@
 package net.anei.cadpage.parsers.NY;
 
-import net.anei.cadpage.SmsMsgInfo.Data;
-import net.anei.cadpage.parsers.SmsMsgParser;
+import net.anei.cadpage.parsers.MsgParser;
+import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /*
 Putnam County, NY 
@@ -41,7 +41,7 @@ Station numbers FYI
  
  */
 
-public class NYPutnamCountyParser extends SmsMsgParser {
+public class NYPutnamCountyParser extends MsgParser {
 
 
   public NYPutnamCountyParser() {

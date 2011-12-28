@@ -4,8 +4,8 @@ import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import net.anei.cadpage.SmsMsgInfo.Data;
-import net.anei.cadpage.parsers.SmsMsgParser;
+import net.anei.cadpage.parsers.MsgParser;
+import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /*
 Marion County, IN
@@ -23,7 +23,7 @@ E 30TH ST/N GERMAN CHURCH RD,WAR N03200 E11000 FIELD IFDFYI...FYI ONLY, SEVERAL 
 
 */
 
-public class INMarionCountyParser extends SmsMsgParser {
+public class INMarionCountyParser extends MsgParser {
   
   private static final Pattern MASTER = Pattern.compile("([^,]+),([A-Z]{3}) ([NS]\\d{5} [EW]\\d{5}) ([^ ]+) (.*)");
   private static final Pattern UNIT_PTN = Pattern.compile("^(?:[A-Z]+[0-9]+|IPAGE|MEDIA)\\b");

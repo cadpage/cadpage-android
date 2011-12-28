@@ -4,9 +4,8 @@ package net.anei.cadpage.parsers.MD;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import net.anei.cadpage.ManagePreferences;
-import net.anei.cadpage.SmsMsgInfo.Data;
 import net.anei.cadpage.parsers.SmartAddressParser;
+import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /*
 Charles County, MD
@@ -100,10 +99,8 @@ public class MDCharlesCountyParser extends SmartAddressParser {
     // Either a CAD subject or a pattern match is good enough to classify this
     // as a CAD page.  But even if neither is found, this could be a possible
     // page.  But at this point the identification is so weak we will only pursue
-    // it if a valid sender filter exists and has been passed
-    if (!good) {
-      if (ManagePreferences.overrideFilter() && ManagePreferences.filter().length() <= 1) return false;
-    }
+    // it if caller has identified this as a dispatch message
+    if (!good && !isPositiveId()) return false;
     
     // There is almost always a code pattern (or whatever it really is)
     // marking the end of the address

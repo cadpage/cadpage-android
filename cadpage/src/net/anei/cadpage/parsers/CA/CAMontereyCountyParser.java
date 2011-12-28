@@ -3,8 +3,8 @@ package net.anei.cadpage.parsers.CA;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import net.anei.cadpage.SmsMsgInfo.Data;
-import net.anei.cadpage.parsers.SmsMsgParser;
+import net.anei.cadpage.parsers.MsgParser;
+import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /*
 Monterey County, CA
@@ -29,7 +29,7 @@ Contact: joel mendoza <ffjoelmendoza@gmail.com>
  */
 
 
-public class CAMontereyCountyParser extends SmsMsgParser {
+public class CAMontereyCountyParser extends MsgParser {
   
   private static final Pattern MASTER = Pattern.compile("(?:(.*?) - )?([A-Z]{2,3}:.*?) - (.*?)(?:(?:Units?:(.*?))| - ([A-Z]{3}))");
   

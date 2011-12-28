@@ -1,7 +1,7 @@
 package net.anei.cadpage.parsers.PA;
 
-import net.anei.cadpage.SmsMsgInfo.Data;
-import net.anei.cadpage.parsers.SmsMsgParser;
+import net.anei.cadpage.parsers.MsgParser;
+import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /*
 Lancaster County, PA
@@ -21,7 +21,7 @@ VEH ACCIDENT-CLASS 2 / WEST COCALICO TWP~N KING ST / E QUEEN ST~~RES13~13:10:45^
 
 */
 
-public class PALancasterCountyParser extends SmsMsgParser {
+public class PALancasterCountyParser extends MsgParser {
   
   public PALancasterCountyParser() {
     super("LANCASTER COUNTY", "PA");

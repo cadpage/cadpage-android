@@ -3,8 +3,8 @@ package net.anei.cadpage.parsers.NY;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import net.anei.cadpage.SmsMsgInfo.Data;
-import net.anei.cadpage.parsers.SmsMsgParser;
+import net.anei.cadpage.parsers.MsgParser;
+import net.anei.cadpage.parsers.MsgInfo.Data;
 
 
 /*
@@ -19,7 +19,7 @@ All calls in Erie County, New York. Town of Clarence Center.
 */
 
 
-public class NYAmherstParser extends SmsMsgParser {
+public class NYAmherstParser extends MsgParser {
   
     private static final Pattern BOX = Pattern.compile("\\s[A-Z][A-Z][A-Z]\\.?\\s");
     

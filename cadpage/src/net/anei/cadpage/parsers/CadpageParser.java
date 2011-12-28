@@ -5,8 +5,7 @@ import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import net.anei.cadpage.SmsMsgInfo;
-import net.anei.cadpage.SmsMsgInfo.Data;
+import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /**
  * Parser class that convert the generic Cadpage message format to and from
@@ -157,7 +156,7 @@ public class CadpageParser  extends FieldProgramParser{
    * and dumb phones users would only be confused.
    * @return
    */
-  public static String formatInfo(SmsMsgInfo info, String delim, boolean inclMapAddr) {
+  public static String formatInfo(MsgInfo info, String delim, boolean inclMapAddr) {
     StringBuilder sb = new StringBuilder();
     append(sb, "PRI", info.getPriority(), delim);
     append(sb, "DATE", info.getDate(), delim);

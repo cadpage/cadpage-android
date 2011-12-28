@@ -1,6 +1,7 @@
 package net.anei.cadpage;
 
 import net.anei.cadpage.donation.UserAcctManager;
+import net.anei.cadpage.parsers.ManageParsers;
 import net.anei.cadpage.vendors.VendorManager;
 import android.app.Application;
 import android.content.Context;
@@ -23,7 +24,6 @@ public class CadPageApplication extends Application {
     getVersionInfo(this);
     try {
       ManagePreferences.setupPreferences(this);
-      ManageParsers.getInstance().setupNames(this);
      
       UserAcctManager.setup(this);
       

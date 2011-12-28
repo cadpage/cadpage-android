@@ -3,8 +3,8 @@ package net.anei.cadpage.parsers.NC;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import net.anei.cadpage.SmsMsgInfo.Data;
-import net.anei.cadpage.parsers.SmsMsgParser;
+import net.anei.cadpage.parsers.MsgParser;
+import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /* 
 Hoke County, NC
@@ -22,7 +22,7 @@ Hoke Co 911:730 GALATIA CHURCH RD* * * * * **EMD* * * * * * * * 09/15/2011 13:51
 
 */
 
-public class NCHokeCountyParser extends SmsMsgParser {
+public class NCHokeCountyParser extends MsgParser {
   
   private static final Pattern MASTER = 
       Pattern.compile("Hoke Co 911:([^\\*]+)\\*(?: \\*)*\\*([^\\*]+)\\*(?: \\*)+ *\\d\\d/\\d\\d/\\d{4} \\d\\d:\\d\\d:\\d\\d : (pos\\d+)(?: : [A-Za-z]+\\d+ (.*))?");

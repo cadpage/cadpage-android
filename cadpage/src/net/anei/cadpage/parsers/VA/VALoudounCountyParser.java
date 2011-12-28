@@ -2,8 +2,8 @@ package net.anei.cadpage.parsers.VA;
 
 import java.util.Properties;
 
-import net.anei.cadpage.SmsMsgInfo.Data;
-import net.anei.cadpage.parsers.SmsMsgParser;
+import net.anei.cadpage.parsers.MsgParser;
+import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /***
 
@@ -24,7 +24,7 @@ Sender: CC_Message_Notification@usamobility.net
 
 ***/
 
-public class VALoudounCountyParser extends SmsMsgParser {
+public class VALoudounCountyParser extends MsgParser {
 
   private static final Properties LCFRCityCodes = buildCodeTable(new String[]{
         "CH", "Chantilly",

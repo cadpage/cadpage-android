@@ -1,6 +1,6 @@
 package net.anei.cadpage.parsers.OH;
 
-import net.anei.cadpage.SmsMsgInfo.Data;
+import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchBParser;
 
 /*

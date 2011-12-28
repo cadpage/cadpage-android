@@ -2,8 +2,8 @@ package net.anei.cadpage.parsers.PA;
 
 import java.util.Properties;
 
-import net.anei.cadpage.SmsMsgInfo.Data;
-import net.anei.cadpage.parsers.SmsMsgParser;
+import net.anei.cadpage.parsers.MsgParser;
+import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /*  
 Mifflin County, PA
@@ -21,7 +21,7 @@ Contact: justin trego <jtrego77@gmail.com>
 FRM:cmessages@co.mifflin.pa.us<Body%3AFRM%3Acmessages@co.mifflin.pa.us>\nSUBJ:CAD Page for CFS 013011-1\nMSG:Residential Fire\n56 RED SHALE LN\nApt:\nBRATTON\nCross Streets : 26-92  CARLISLE GAP RD
 */
 
-public class PAMifflinCountyParser extends SmsMsgParser {
+public class PAMifflinCountyParser extends MsgParser {
 
   private static final String[] FIXED_KEYS = new String[]{"CALL", "LOC", "TOWN"};
   private static final MatchList TOWNSHIPS = new MatchList(new String[]{

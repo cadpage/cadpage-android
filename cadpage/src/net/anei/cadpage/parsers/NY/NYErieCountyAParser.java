@@ -1,8 +1,8 @@
 package net.anei.cadpage.parsers.NY;
 
-import net.anei.cadpage.SmsMmsMessage;
-import net.anei.cadpage.SmsMsgInfo.Data;
+import net.anei.cadpage.parsers.Message;
 import net.anei.cadpage.parsers.SmartAddressParser;
+import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /*
 Erie County, NY
@@ -73,16 +73,16 @@ TRH             EMS-Transportation Hot
 
 public class NYErieCountyAParser extends SmartAddressParser {
   
-  private SmsMmsMessage msg;
+  private Message msg;
   
   public NYErieCountyAParser() {
     super(CITY_LIST, "ERIE COUNTY", "NY");
   }
 
   @Override
-  protected Data parseMsg(SmsMmsMessage msg, boolean overrideFilter, boolean genAlert) {
+  protected Data parseMsg(Message msg, int parserFlags) {
     this.msg = msg;
-    return super.parseMsg(msg, overrideFilter, genAlert);
+    return super.parseMsg(msg, parserFlags);
   }
 
   @Override

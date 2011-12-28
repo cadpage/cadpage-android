@@ -1,6 +1,6 @@
 package net.anei.cadpage.parsers.PA;
 
-import net.anei.cadpage.SmsMsgInfo.Data;
+import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /* 
  Chester County, PA (version B)

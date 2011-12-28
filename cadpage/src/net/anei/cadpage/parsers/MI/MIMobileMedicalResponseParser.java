@@ -2,7 +2,7 @@ package net.anei.cadpage.parsers.MI;
 
 import java.util.regex.Pattern;
 
-import net.anei.cadpage.SmsMsgInfo.Data;
+import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchProQAParser;
 
 /*
@@ -51,6 +51,11 @@ public class MIMobileMedicalResponseParser extends DispatchProQAParser {
   @Override
   public String getFilter() {
     return "mailghost@mobilemedical.org,6344,6573";
+  }
+  
+  @Override
+  public String getLocName() {
+    return "Mobile Medical Response, MI";
   }
   
   @Override

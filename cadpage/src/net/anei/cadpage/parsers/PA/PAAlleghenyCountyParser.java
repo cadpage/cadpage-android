@@ -3,8 +3,8 @@ package net.anei.cadpage.parsers.PA;
 import java.util.Properties;
 import java.util.regex.Pattern;
 
-import net.anei.cadpage.SmsMsgInfo.Data;
-import net.anei.cadpage.parsers.SmsMsgParser;
+import net.anei.cadpage.parsers.MsgParser;
+import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /*
 Allegheny County, PA
@@ -36,7 +36,7 @@ ALLEGHENY COUNTY 911 :08B1G, E3, HAZMAT-SMELL OF GAS- ALRT/NO DIFF BREATH, 35 LO
 
 */
 
-public class PAAlleghenyCountyParser extends SmsMsgParser {
+public class PAAlleghenyCountyParser extends MsgParser {
   
   private static final String MARKER = "ALLEGHENY COUNTY 911 :";
   

@@ -11,6 +11,8 @@ import java.util.Map;
 
 import net.anei.cadpage.donation.DonationManager;
 import net.anei.cadpage.donation.MainDonateEvent;
+import net.anei.cadpage.parsers.ManageParsers;
+import net.anei.cadpage.parsers.MsgParser;
 import net.anei.cadpage.vendors.VendorManager;
 
 import android.content.Context;
@@ -190,6 +192,15 @@ public class ManagePreferences {
   
   public static void setLocation(String newLocation) {
     prefs.putString(R.string.pref_location_key, newLocation);
+  }
+  
+  public static MsgParser getCurrentParser() {
+    try {
+      return ManageParsers.getInstance().getParser(location());
+    } catch (RuntimeException ex) {
+      setLocation("General");
+      throw ex;
+    }
   }
   
   public static boolean overrideFilter() {

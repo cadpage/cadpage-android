@@ -1,7 +1,7 @@
 package net.anei.cadpage.parsers.MT;
 
-import net.anei.cadpage.SmsMsgInfo.Data;
 import net.anei.cadpage.parsers.FieldProgramParser;
+import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /*
 Flathead County, MT

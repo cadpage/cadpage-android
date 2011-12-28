@@ -2,8 +2,8 @@ package net.anei.cadpage.parsers.SC;
 
 import java.util.Properties;
 
-import net.anei.cadpage.SmsMsgInfo.Data;
-import net.anei.cadpage.parsers.SmsMsgParser;
+import net.anei.cadpage.parsers.MsgParser;
+import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /*
 York County, SC 
@@ -28,7 +28,7 @@ YK1  P: 2 LOC: 5700 WYLIE AV X: BELT ST / CHURCH ST * * Hickory Grove * HICKORY 
  */
 
 
-public class SCYorkCountyParser extends SmsMsgParser {
+public class SCYorkCountyParser extends MsgParser {
   
   private static final String[] KEYWORDS = new String[]{"UNIT", "P", "LOC", "X", "NAR", "INC#"}; 
 

@@ -1,8 +1,8 @@
 package net.anei.cadpage.parsers.OR;
 
-import net.anei.cadpage.SmsMsgInfo.Data;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
+import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /*
 Prineville, OR

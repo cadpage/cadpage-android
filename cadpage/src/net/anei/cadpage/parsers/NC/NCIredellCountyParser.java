@@ -1,7 +1,7 @@
 package net.anei.cadpage.parsers.NC;
 
-import net.anei.cadpage.SmsMsgInfo.Data;
-import net.anei.cadpage.parsers.SmsMsgParser;
+import net.anei.cadpage.parsers.MsgParser;
+import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /* 
 Iredell county, NC
@@ -24,7 +24,7 @@ FD70 C-90 GRASS / WOODS FIRE, TIMBER RD
 
 */
 
-public class NCIredellCountyParser extends SmsMsgParser {
+public class NCIredellCountyParser extends MsgParser {
   
   public NCIredellCountyParser() {
     super("IREDELL COUNTY", "NC");

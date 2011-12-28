@@ -4,8 +4,8 @@ import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import net.anei.cadpage.SmsMsgInfo.Data;
-import net.anei.cadpage.parsers.SmsMsgParser;
+import net.anei.cadpage.parsers.MsgParser;
+import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /*
 Orleans County, NY 
@@ -38,7 +38,7 @@ Contact: "jeffelsenheimer@yahoo.com" <jeffelsenheimer@yahoo.com>
 
 */
 
-public class NYOrleansCountyParser extends SmsMsgParser {
+public class NYOrleansCountyParser extends MsgParser {
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "VAL", "ALBION", 

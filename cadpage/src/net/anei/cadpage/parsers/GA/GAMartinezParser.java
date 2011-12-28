@@ -1,7 +1,7 @@
 package net.anei.cadpage.parsers.GA;
 
-import net.anei.cadpage.SmsMsgInfo.Data;
-import net.anei.cadpage.parsers.SmsMsgParser;
+import net.anei.cadpage.parsers.MsgParser;
+import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /*
 Martinez, GA (Martinez Columbia Fire Rescue
@@ -16,7 +16,7 @@ Working structure fire! Assistance is needed if available.\nAddress:711 HIDDEN P
  */
 
 
-public class GAMartinezParser extends SmsMsgParser {
+public class GAMartinezParser extends MsgParser {
   
   public GAMartinezParser() {
     super("MARTINEZ", "GA");

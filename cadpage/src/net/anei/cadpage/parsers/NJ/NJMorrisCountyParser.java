@@ -3,8 +3,8 @@ package net.anei.cadpage.parsers.NJ;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import net.anei.cadpage.SmsMsgInfo.Data;
-import net.anei.cadpage.parsers.SmsMsgParser;
+import net.anei.cadpage.parsers.MsgParser;
+import net.anei.cadpage.parsers.MsgInfo.Data;
 
 
 /*
@@ -39,7 +39,7 @@ prvs=62791756a7=dispatch@co.morris.nj.us PRO HAIRCUTTERS INC (23), 1711 RT 10 E 
 
 */
 
-public class NJMorrisCountyParser extends SmsMsgParser {
+public class NJMorrisCountyParser extends MsgParser {
   
   private static final Pattern MASTER_PTN = 
     Pattern.compile("^(.*) \\[([-A-Za-z ]+)\\] \\(([A-Z/ ]+)\\) - (.*)$");

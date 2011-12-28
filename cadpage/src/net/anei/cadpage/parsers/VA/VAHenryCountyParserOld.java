@@ -1,7 +1,7 @@
 package net.anei.cadpage.parsers.VA;
 
-import net.anei.cadpage.SmsMsgInfo.Data;
 import net.anei.cadpage.parsers.SmartAddressParser;
+import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /*
  **** OBSOLETE - ONLY KEPT FOR HISTORICAL PURPOSE ****

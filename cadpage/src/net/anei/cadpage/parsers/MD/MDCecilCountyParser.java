@@ -3,8 +3,8 @@ package net.anei.cadpage.parsers.MD;
 import java.util.Properties;
 import java.util.regex.Pattern;
 
-import net.anei.cadpage.SmsMsgInfo.Data;
-import net.anei.cadpage.parsers.SmsMsgParser;
+import net.anei.cadpage.parsers.MsgParser;
+import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /*    
  **********************************************************
@@ -48,7 +48,7 @@ import net.anei.cadpage.parsers.SmsMsgParser;
  
  */
 
-public class MDCecilCountyParser extends SmsMsgParser {
+public class MDCecilCountyParser extends MsgParser {
 
   private static final Pattern TIME_PTN = Pattern
       .compile("\\d\\d:\\d\\d:\\d\\d");

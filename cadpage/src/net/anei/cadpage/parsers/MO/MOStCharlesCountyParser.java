@@ -3,8 +3,8 @@ package net.anei.cadpage.parsers.MO;
 
 import java.util.regex.Pattern;
 
-import net.anei.cadpage.SmsMsgInfo.Data;
-import net.anei.cadpage.parsers.SmsMsgParser;
+import net.anei.cadpage.parsers.MsgParser;
+import net.anei.cadpage.parsers.MsgInfo.Data;
 
 
 /*
@@ -28,7 +28,7 @@ Sender: dispatch@sccda.org
 
 */
 
-public class MOStCharlesCountyParser extends SmsMsgParser {
+public class MOStCharlesCountyParser extends MsgParser {
   
   private static final Pattern ID_PTN = Pattern.compile("\\d{6}-\\d{5}");
  

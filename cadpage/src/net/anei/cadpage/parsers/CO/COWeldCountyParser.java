@@ -2,8 +2,8 @@ package net.anei.cadpage.parsers.CO;
 
 import java.util.regex.Pattern;
 
-import net.anei.cadpage.SmsMsgInfo.Data;
 import net.anei.cadpage.parsers.FieldProgramParser;
+import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /*
 20442,ALARMF,23691 CR 60H.E1 E4 L1,TEXT:AUDIBLE FROM GENERAL AND SMOKE DETECTOR \COMP:1ST CLASS SECURITY \PH:800 482 9800,
@@ -51,6 +51,13 @@ Dispatch,21415,SIPFF -SICK & INJ (F),24098 CR 50.37 WA,TEXT:RP NEEDING\nHELP OFF
 Dispatch,21377,FASIST-ASSIST (FIRE),21000 I 76.28,,
 Dispatch,21367,SIPFF -SICK & INJ (F),6876 CR 47.28 PVA56,TEXT:CHEST PAIN \COMP:JOSH\n\n\PH:303 319 9255,FG9
 Dispatch,21355,TAIF -TA W/INJURY (F),201 E BISON HY.28A PVA56,TEXT:BLU NEON, DIDN'T\n\nROLL. \COMP:NICKI \PH:970-215-5558,FG9
+
+Weld County, CO
+Contact: Kaleb Staley <kalebstaley@gmail.com>
+Sender: 86245
+Fr:<Basepage@weldcorcc.com>\nSu:Dispatch\nTxt: 27849,SI -SICK & INJ (F&A),CR 55/CR 62.37 WA,FG 5\n\n\nid:7
+
+(Dispatch)27849,SI -SICK & INJ (F&A),CR 55/CR 62.37 WA,FG 5\n\n\nid:7
 
  */
 

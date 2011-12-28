@@ -5,9 +5,8 @@ import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import net.anei.cadpage.ManagePreferences;
-import net.anei.cadpage.SmsMsgInfo.Data;
 import net.anei.cadpage.parsers.SmartAddressParser;
+import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class GeneralParser extends SmartAddressParser {
   
@@ -87,6 +86,11 @@ public class GeneralParser extends SmartAddressParser {
     return "Cadpage";
   }
   
+  @Override
+  public String getLocName() {
+    return "Generic Location";
+  }
+
   /**
    * Determine if message is a CAD page or not
    * Can be overridden by subclasses that have a clue
@@ -96,10 +100,8 @@ public class GeneralParser extends SmartAddressParser {
    */
   protected boolean isPageMsg(String subject, String body) {
     
-    // Accept anything, but only if there is a valid sender filter
-    if (! ManagePreferences.overrideFilter()) return false;
-    if (ManagePreferences.filter().length() <= 1) return false;
-    return true;
+    // Accept anything, but only if someone else has identified this as a CAD page
+    return isPositiveId();
   }
 
   @Override

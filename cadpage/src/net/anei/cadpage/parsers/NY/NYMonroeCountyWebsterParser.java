@@ -2,8 +2,8 @@ package net.anei.cadpage.parsers.NY;
 
 import java.util.Properties;
 
-import net.anei.cadpage.SmsMsgInfo.Data;
 import net.anei.cadpage.parsers.FieldProgramParser;
+import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /*
 Monroe County, NY (Webster) 

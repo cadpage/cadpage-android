@@ -1,8 +1,7 @@
 package net.anei.cadpage.parsers.SC;
 
-import net.anei.cadpage.ManagePreferences;
-import net.anei.cadpage.SmsMsgInfo.Data;
 import net.anei.cadpage.parsers.FieldProgramParser;
+import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /*
 Richland county, SC (Columbia)
@@ -50,9 +49,8 @@ public class SCRichlandCountyParser extends FieldProgramParser {
     if (super.parseMsg(body, data)) return true;
     
     // If not, see if we can get this through a general type parser
-    // Which will only accept it if passes some kind of sender address filter
-    if (ManagePreferences.overrideFilter() &&
-        ManagePreferences.filter().length() <= 1) return false;
+    // Which will only accept it caller has identified this as a dispatch page
+    if (!isPositiveId()) return false;
     
     parseAddress(StartType.START_CALL, FLAG_IGNORE_AT | FLAG_NO_IMPLIED_APT, body, data);
     if (data.strAddress.length() == 0) return false;

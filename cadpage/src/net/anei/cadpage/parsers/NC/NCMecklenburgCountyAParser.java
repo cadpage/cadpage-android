@@ -5,8 +5,8 @@ import java.util.HashSet;
 import java.util.Properties;
 import java.util.Set;
 
-import net.anei.cadpage.SmsMsgInfo.Data;
-import net.anei.cadpage.parsers.SmsMsgParser;
+import net.anei.cadpage.parsers.MsgParser;
+import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /*
 Mecklenburg County, NC
@@ -62,7 +62,7 @@ Subject:Incoming Message\n15503 N Old Statesville Rd North Meck Rescue Charlie 1
 
 */
 
-public class NCMecklenburgCountyAParser extends SmsMsgParser {
+public class NCMecklenburgCountyAParser extends MsgParser {
   
   private static final Set<String> PRI_VALUES = new HashSet<String>(Arrays.asList(new String[]{"Charlie", "Delta", "Fire - Emergency"}));
   private static final Properties CALL_CODES = buildCodeTable(new String[]{

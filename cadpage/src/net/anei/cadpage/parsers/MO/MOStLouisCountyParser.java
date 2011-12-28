@@ -3,8 +3,8 @@ package net.anei.cadpage.parsers.MO;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import net.anei.cadpage.SmsMsgInfo.Data;
-import net.anei.cadpage.parsers.SmsMsgParser;
+import net.anei.cadpage.parsers.MsgParser;
+import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /*
 St Louis County, MO
@@ -22,7 +22,7 @@ EVERGREEN BLVD / JANUARY AV (RES) - HSE FIRE ON CORNER - 3615,3620,3014,4310,360
 
 */
 
-public class MOStLouisCountyParser extends SmsMsgParser {
+public class MOStLouisCountyParser extends MsgParser {
   
   private static final Pattern TIME_STAMP = Pattern.compile("\\d\\d:\\d\\d");
   private static final Pattern CALL_PTN = Pattern.compile("(\\([A-Z ]+\\) - *.*) - ");

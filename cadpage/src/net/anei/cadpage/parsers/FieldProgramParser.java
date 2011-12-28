@@ -9,7 +9,7 @@ import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import net.anei.cadpage.SmsMsgInfo.Data;
+import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /**
  * This is a general purpose programmable field parser.  It can be used as a

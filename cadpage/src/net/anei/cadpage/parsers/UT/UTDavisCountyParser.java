@@ -2,8 +2,8 @@ package net.anei.cadpage.parsers.UT;
 
 import java.util.regex.Pattern;
 
-import net.anei.cadpage.SmsMsgInfo.Data;
-import net.anei.cadpage.parsers.SmsMsgParser;
+import net.anei.cadpage.parsers.MsgParser;
+import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /*
 Davis County, UT
@@ -22,7 +22,7 @@ paging@co.davis.ut.us<http://us.mc330.mail.yahoo.com/mc/compose?to=paging@co.dav
 */
 
 
-public class UTDavisCountyParser extends SmsMsgParser {
+public class UTDavisCountyParser extends MsgParser {
   
   private static final Pattern TIME_PAT = Pattern.compile("^\\d\\d:\\d\\d:\\d\\d .*");
   

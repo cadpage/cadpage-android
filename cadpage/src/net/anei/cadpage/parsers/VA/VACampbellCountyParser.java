@@ -7,8 +7,8 @@ import java.util.TreeSet;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import net.anei.cadpage.SmsMsgInfo.Data;
 import net.anei.cadpage.parsers.SmartAddressParser;
+import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /*
 DAPRO Systems http://www.daprosystems.com/ (This version is different enough that I did not use the builtin dapro

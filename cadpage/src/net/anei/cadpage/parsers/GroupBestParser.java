@@ -1,22 +1,21 @@
 package net.anei.cadpage.parsers;
 
-import net.anei.cadpage.SmsMmsMessage;
-import net.anei.cadpage.SmsMsgInfo.Data;
+import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /**
  * Abstract combination parser that accepts the results of the first parser
  * that accepts each message 
  */
 
-public class GroupBestParser extends SmsMsgParser {
+public class GroupBestParser extends MsgParser {
   
-  private SmsMsgParser[] parsers;
+  private MsgParser[] parsers;
   
   private String dispFilter;
   
-  private SmsMsgParser lastParser = null;
+  private MsgParser lastParser = null;
   
-  public GroupBestParser(SmsMsgParser ... parsers) {
+  public GroupBestParser(MsgParser ... parsers) {
     super(parsers[0].getDefaultCity(), parsers[0].getDefaultState());
     
     this.parsers = parsers;
@@ -26,7 +25,7 @@ public class GroupBestParser extends SmsMsgParser {
     // used to do any real filtering, but it will give us something to 
     // display in the settings menu
     StringBuilder sb = new StringBuilder();
-    for (SmsMsgParser parser : parsers) {
+    for (MsgParser parser : parsers) {
       String filter = parser.getFilter();
       if (filter.length() > 0) {
         if (sb.length() > 0) sb.append(',');
@@ -42,14 +41,14 @@ public class GroupBestParser extends SmsMsgParser {
   }
 
   @Override
-  protected Data parseMsg(SmsMmsMessage msg, boolean overrideFilter, boolean genAlert) {
-
-    SmsMsgParser bestParser = null;
+  protected Data parseMsg(Message msg, int parserFlags) {
+    
+    MsgParser bestParser = null;
     int bestScore = -1;
     Data bestData = null;
     
-    for (SmsMsgParser parser : parsers) {
-      Data tmp = parser.parseMsg(msg, overrideFilter, genAlert);
+    for (MsgParser parser : parsers) {
+      Data tmp = parser.parseMsg(msg, parserFlags);
       if (tmp != null) {
         int newScore = tmp.score();
         if (newScore > bestScore) {

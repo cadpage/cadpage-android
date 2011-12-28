@@ -2,8 +2,8 @@ package net.anei.cadpage.parsers.CO;
 
 import java.util.regex.Pattern;
 
-import net.anei.cadpage.SmsMsgInfo.Data;
 import net.anei.cadpage.parsers.FieldProgramParser;
+import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /*
 Larimer County, CO (also Weld and Boulder Counties)

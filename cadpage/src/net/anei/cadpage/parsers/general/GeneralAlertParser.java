@@ -2,10 +2,10 @@ package net.anei.cadpage.parsers.general;
 
 import java.util.regex.Pattern;
 
-import net.anei.cadpage.SmsMsgInfo.Data;
-import net.anei.cadpage.parsers.SmsMsgParser;
+import net.anei.cadpage.parsers.MsgParser;
+import net.anei.cadpage.parsers.MsgInfo.Data;
 
-public class GeneralAlertParser extends SmsMsgParser {
+public class GeneralAlertParser extends MsgParser {
   
   private static final Pattern[] EXTRA_BLANKS = new Pattern[]{
     Pattern.compile(" +(\n)"),

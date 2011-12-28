@@ -3,8 +3,8 @@ package net.anei.cadpage.parsers.NJ;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import net.anei.cadpage.SmsMsgInfo.Data;
 import net.anei.cadpage.parsers.SmartAddressParser;
+import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /*
 Sussex County, NJ (Bryam TWP FD)  (Sparta Dispatch - not entire county but 8 departments)

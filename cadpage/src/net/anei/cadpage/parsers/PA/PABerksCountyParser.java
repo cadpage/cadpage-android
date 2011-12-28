@@ -3,8 +3,8 @@ package net.anei.cadpage.parsers.PA;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import net.anei.cadpage.SmsMsgInfo.Data;
-import net.anei.cadpage.parsers.SmsMsgParser;
+import net.anei.cadpage.parsers.MsgParser;
+import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /*
 Berks County, PA
@@ -30,7 +30,7 @@ CAD MSG: *D MVAWITH  I78 / MP 39.6 EB 0078 MC DRIVER DOWN IN THE ROADWAY / NOT M
 
 */
 
-public class PABerksCountyParser extends SmsMsgParser {
+public class PABerksCountyParser extends MsgParser {
   
   private static final String DEF_STATE = "PA";
   private static final String DEF_CITY = "BERKS COUNTY";

@@ -1,9 +1,8 @@
 
 package net.anei.cadpage.parsers.AL;
 
-import net.anei.cadpage.ManagePreferences;
-import net.anei.cadpage.SmsMsgInfo.Data;
 import net.anei.cadpage.parsers.SmartAddressParser;
+import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /*
 Henry County, AL
@@ -34,9 +33,9 @@ public class ALHenryCountyParser extends SmartAddressParser {
   @Override
   public boolean parseMsg(String body, Data data) {
     
-    // Highly promiscuous parser.  So we better make sure that there is
-    // some kind of sender filter
-    if (ManagePreferences.overrideFilter() && ManagePreferences.filter().length() <= 1) return false;
+    // Highly promiscuous parser.  So we better make sure that the caller
+    // has identified this as a dispatch page
+    if (!isPositiveId()) return false;
     
     body = body.replace('@', '&').replace('.', ' ');
     parseAddress(StartType.START_CALL, FLAG_IGNORE_AT, body, data);

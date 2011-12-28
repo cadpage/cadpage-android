@@ -11,7 +11,10 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.donation.DonationManager;
-import net.anei.cadpage.parsers.SmsMsgParser;
+import net.anei.cadpage.parsers.ManageParsers;
+import net.anei.cadpage.parsers.Message;
+import net.anei.cadpage.parsers.MsgInfo;
+import net.anei.cadpage.parsers.MsgParser;
 import net.anei.cadpage.vendors.VendorManager;
 
 import android.app.Activity;
@@ -38,6 +41,9 @@ public class SmsMmsMessage implements Serializable {
   public static final int MESSAGE_TYPE_SMS = 0;
   public static final int MESSAGE_TYPE_MMS = 1;
   public static final int MESSAGE_TYPE_C2DM = 2;
+  
+  public static final int PARSE_FLG_FORCE = 1;
+  public static final int PARSE_FLG_SKIP_FILTER = 2;
 
   // Main message object private vars
   private String fromAddress = null;
@@ -54,7 +60,6 @@ public class SmsMmsMessage implements Serializable {
   private MessageClass messageClass = null;
   private boolean read = false;             
   private boolean locked = false;
-  private transient SmsMsgInfo info = null;
   private transient Date incidentDate = null;
   private int msgId = 0;
   private String location = null;
@@ -71,16 +76,12 @@ public class SmsMmsMessage implements Serializable {
   private String ackURL = null;
   private boolean ackNeeded = false;
   
-  private transient String parseAddress = null;
-  private transient String parseSubject = null;
-  private transient String parseMessageBody = null;
-  private transient int msgIndex = -1;
-  private transient int msgCount = -1;
-  
   // Temporary fields being monitored to see if they will be of any
   // use in identifying multi-part messages
   private long sentTime = 0L;
   private int iccIndex = 0;
+  
+  private transient Message parseInfo = null;
 
   public boolean isRead() {
     return read;
@@ -163,7 +164,7 @@ public class SmsMmsMessage implements Serializable {
     messageBody = body;
     
     // Calculate the from address and body to be used for parsing purposes
-    getParseInfo();
+    parseInfo = bldParseInfo();
   }
   
 
@@ -177,11 +178,11 @@ public class SmsMmsMessage implements Serializable {
     this.timestamp = timestamp;
     messageType = MESSAGE_TYPE_MMS;
     this.messageClass = messageClass;
-    this.fromAddress = this.parseAddress = fromAddress;
+    this.fromAddress = fromAddress;
     this.subject = (subject == null ? "" : subject);
     this.contentLoc = contentLoc;
     this.mmsMsgId = mmsMsgId;
-    this.messageBody = this.parseMessageBody = null;
+    this.messageBody = null;
   }
   
   /**
@@ -192,7 +193,7 @@ public class SmsMmsMessage implements Serializable {
     this.messageBody = messageBody;
     
     // Calculate the from address and body to be used for parsing purposes
-    getParseInfo();
+    parseInfo = bldParseInfo();
   }
 
   /**
@@ -224,17 +225,15 @@ public class SmsMmsMessage implements Serializable {
                         String ackReq, String ackURL) {
     this.messageType = MESSAGE_TYPE_C2DM;
     this.fromAddress = from;
-    this.parseAddress = from;
     this.subject = subject;
-    this.parseSubject = subject;
     this.messageBody = messageBody;
-    this.parseMessageBody = messageBody;
     this.timestamp = timestamp;
     this.reqLocation = reqLocation;
     this.sponsor = sponsor;
     this.ackReq = ackReq;
     this.ackURL = ackURL;
     this.ackNeeded = ackReq.contains("A");
+    this.parseInfo = bldParseInfo();
   }
 
   /**
@@ -244,14 +243,12 @@ public class SmsMmsMessage implements Serializable {
                         long timestamp, int messageType) {
 
     this.fromAddress = fromAddress;
+    this.subject = subject;
     this.messageBody = messageBody;
     this.timestamp = timestamp;
     this.messageType = messageType;
     this.location = "GeneralAlert";
-    
-    this.parseAddress = fromAddress;
-    this.parseSubject = subject;
-    this.parseMessageBody = messageBody;
+    this.parseInfo = bldParseInfo(false, subject, messageBody);
   }
 
   /**
@@ -266,7 +263,7 @@ public class SmsMmsMessage implements Serializable {
     this.messageType = messageType;
     this.location = "GeneralAlert";
     
-    getParseInfo();
+    parseInfo = bldParseInfo();
   }
 
   /**
@@ -279,27 +276,20 @@ public class SmsMmsMessage implements Serializable {
     this.timestamp = firstMsg.timestamp;
     this.messageType = firstMsg.messageType;
     this.messageClass = firstMsg.messageClass;
-    this.parseAddress = firstMsg.parseAddress;
-    this.parseSubject = firstMsg.parseSubject;
     this.sentTime = firstMsg.sentTime;
     this.iccIndex = firstMsg.iccIndex;
 
-    boolean addBlank = ManagePreferences.splitBlankIns();
-    StringBuffer sb = new StringBuffer();
     for (SmsMmsMessage msg : list) {
       if (msg != null) {
         if (this.messageBody == null) {
           this.messageBody = msg.messageBody;
-          sb.append(msg.parseMessageBody);
         } else {
           if (extraMsgBody == null) extraMsgBody = new ArrayList<String>();
           extraMsgBody.add(msg.messageBody);
-          if (addBlank) sb.append(' ');
-          sb.append(msg.parseMessageBody);
         }
       }
     }
-    parseMessageBody = sb.toString().trim();
+    buildParseInfo();
   }
   
   /**
@@ -320,7 +310,7 @@ public class SmsMmsMessage implements Serializable {
   private void readObject(java.io.ObjectInputStream stream)
   throws IOException, ClassNotFoundException {
     stream.defaultReadObject();
-    rebuildParseInfo();
+    buildParseInfo();
   }
   
   /**
@@ -334,312 +324,142 @@ public class SmsMmsMessage implements Serializable {
     if (extraMsgBody == null) return false;
     
     // Otherwise rebuild the parse message body
-    info = null;
-    rebuildParseInfo();
+    buildParseInfo();
     return true;
   }
 
-  private void rebuildParseInfo() {
-    getParseInfo();
+  private void buildParseInfo() {
+    parseInfo = bldParseInfo();
     if (extraMsgBody != null) {
+      String msgSubject = parseInfo.getSubject();
+      String parseMsgBody = parseInfo.getMessageBody();
       String delim = (ManagePreferences.splitBlankIns() ? " " : "");
       for (String msgBody : extraMsgBody) {
-        String saveAddress = parseAddress;
-        String saveSubject = parseSubject;
-        String saveBody = parseMessageBody;
-        msgCount = msgIndex = -1;
-        getParseInfo(msgBody);
-        parseAddress = saveAddress;
-        parseSubject = saveSubject;
-        parseMessageBody = saveBody + delim + parseMessageBody;
+        Message pInfo = bldParseInfo(true, subject, msgBody);
+        parseMsgBody = parseMsgBody + delim + pInfo.getMessageBody();
       }
+      parseInfo = bldParseInfo(false, msgSubject, parseMsgBody);
     }
   }
   
-  // Patterns used to perform front end descrambling
-  private static final Pattern[] MSG_HEADER_PTNS = new Pattern[]{
-    Pattern.compile("^(000\\d)/(000\\d)\\b"),
-    Pattern.compile("^(\\d)of(\\d):"),
-    Pattern.compile("^\\((\\d)/(\\d)\\)"),
-    Pattern.compile("^ *(\\d)/(\\d) / "),
-    Pattern.compile("^\\( *(\\d) +of +(\\d) *\\)"),
-    Pattern.compile("^Subject:(\\d)/(\\d)\\n"),
-    Pattern.compile("\\[(\\d) of (\\d)\\]$"),
-    Pattern.compile(":(\\d)of(\\d)$")
-  };
-  private static final Pattern OPT_OUT_PTN = Pattern.compile("TXT STOP.*$");
-  private static final Pattern PAGECOPY_PATTERN = Pattern.compile("Pagecopy-Fr:(\\S*)\\s");
-  private static final Pattern[] EMAIL_PATTERNS = new Pattern[]{ 
-    Pattern.compile("^(?:\\*.*\\*)?([\\w\\.]+@[\\w\\.]+)( +/ +/ +)"),
-    Pattern.compile(" - Sender: *([\\w\\.]+@[\\w\\.]+) *\n"),
-    Pattern.compile("^(?:[-=.+_a-z0-9]*[0-9a-f]{8,}[-=.+_a-z0-9]*=)?([\\w.!\\-]+@[\\w.]+)[\\s:]")
-  };
-  private static final Pattern EMAIL_PFX_PATTERN = Pattern.compile("^([\\w\\.]+@[\\w\\.]+)\\n");
-  private static final Pattern E_S_M_PATTERN = Pattern.compile("^(?:([^ ,;/]+) +)?S: *(.*?)(?: +M:|\n)");
+  private Message bldParseInfo() {
+    return bldParseInfo(true, subject, messageBody);
+  }
   
+  private Message bldParseInfo(boolean preParse, String msgSubject, String body) {
+    return new Message(preParse, fromAddress, msgSubject, body){
+
+      @Override
+      protected void setLocationCode(String location) {
+        SmsMmsMessage.this.location = location;
+      }
+    };
+  }
+
+  public boolean isPageMsg() {
+    return isPageMsg(0);
+  }
   
   /**
-   * Perform any front end unscrambling required to recover the original text
-   * message sent by dispatch for parsing purposes.
+   * Try to parse this message as a CAD page
+   * @param force true to force this message to be processed if at all possible.  
+   * This should be set for C2DM message where there is not alternative to Cadpage
+   * @return true if this has been identified and parsed as either a CAD page
+   * or a general alert
    */
-  private void getParseInfo() {
-    getParseInfo(messageBody);
-  }
-  
-  private void getParseInfo(String body) {
+  public boolean isPageMsg(int flags) {
     
-    // Set message body to empty string if we don't have one
-    if (body == null) body = "";
+    boolean force = (flags & PARSE_FLG_FORCE) != 0;
+    boolean skipFilter = (flags & PARSE_FLG_SKIP_FILTER) != 0;
     
-    // Start by decoding common HTML sequences
-    body = body.replaceAll("&nbsp;",  " ").replaceAll("&amp;",  "&")
-               .replaceAll("<br>", "\n").replaceAll("&gt;", ">").replaceAll("&lt;", "<").trim();
+    int parserFlags = 0;
+    if (skipFilter) parserFlags |= MsgParser.PARSE_FLG_SKIP_FILTER;
     
-    // default address and subject to obvious values
-    parseAddress = fromAddress;
-    parseSubject = (subject == null ? "" : subject);
-    
-    // Dummy loop we can break out of
-    do {
-      
-      // Check the message header pattern,these contain a msg number and total
-      // counts.  If the values don't match, set the flag indicating more data
-      // is expected
-      Matcher match = null;
-      boolean found = false;
-      for (Pattern ptn : MSG_HEADER_PTNS) {
-        match = ptn.matcher(body);
-        found = match.find();
-        if (found) break;
+    // First step is to check for an override sender filter
+    if (!skipFilter && ManagePreferences.overrideFilter()) {
+      String filter = ManagePreferences.filter();
+      if (filter.length() > 1) {
+        if (!MsgParser.matchFilter(getAddress(), filter)) return false;
+        parserFlags |= MsgParser.PARSE_FLG_POSITIVE_ID;
       }
-      if (found) {
-        msgIndex = Integer.parseInt(match.group(1));
-        msgCount = Integer.parseInt(match.group(2));
-        if (match.start() == 0) body = body.substring(match.end()).trim();
-        else body = body.substring(0,match.start()).trim();
-      } else {
-        if (body.startsWith("/ ")) body = body.substring(2).trim();
-      }
-      
-      // Get rid of leading quoted blanks
-      if (body.startsWith("\" \"")) body = body.substring(3).trim();
-      
-      // And trailing opt out message
-      match = OPT_OUT_PTN.matcher(body);
-      if (match.find()) body = body.substring(0,match.start()).trim();
-      
-      /* Decode patterns that look like this.....
-      1 of 3
-      FRM:CAD@livingstoncounty.livco
-      SUBJ:DO NOT REPLY
-      MSG:CAD:FYI: ;CITAF;5579 E GRAND RIVER;WILDWOOD DR;Event spawned from CITIZEN ASSIST LAW. [12/10/10
-      (Con't) 2 of 3
-      20:08:59 SPHILLIPS] CALLER LIVES NEXT DOOR TO THE ADDRESS OF THE WATER MAINBREAK [12/10/10 20:04:40 HROSSNER] CALLER ADV OF A WATER MAIN
-      (Con 3 of 3
-      BREAK(End)
-      
-      Or This
-      
-      FRM:e@fireblitz.com <Body%3AFRM%3Ae@fireblitz.com>
-      MSG:48: TOWNHOUSE FIRE
-      E818 BO802
-      9903 BREEZY KNOLL CT [DEAD END & GREEN HAVEN RD]
-      12/23 23:32
-      http://fireblitz.com/18/8.shtm
-      */
-      int pt1 = -1;
-      int pt2 = -1;
-      if (body.startsWith("FRM:")) {
-        pt1 = 0;
-        pt2 = 4;
-      } else if (EMAIL_PFX_PATTERN.matcher(body).find()) {
-        pt1 = pt2 = 0;
-      } else {
-        pt1 = body.indexOf("\nFRM:");
-        pt2 = pt1 + 5;
-      }
-      if (pt1 >= 0) {
-        int pt3 = body.indexOf('\n', pt2);
-        if (pt3 >= 0) {
-          parseAddress = body.substring(pt2, pt3).trim();
-          pt1 = pt3;
-          pt3 = body.indexOf("\nSUBJ:", pt1);
-          if (pt3 >= 0) {
-            pt1 = pt3;
-            pt2 = pt3 + 6;
-            pt3 = body.indexOf('\n', pt2);
-            if (pt3 >= 0) {
-              addSubject(body.substring(pt2, pt3));
-              pt1 = pt3;
-            }
-          }
-          pt3 = body.indexOf("\nMSG:", pt1);
-          if (pt3 >= 0) {
-            pt1 = pt3;
-            pt2 = pt1 + 5;
-            if (body.length() > pt2 && Character.isWhitespace(body.charAt(pt2))) pt2++;
-            StringBuilder sb = new StringBuilder();
-            boolean skipBreak = false;
-            for (String line : body.substring(pt2).split("\n")) {
-              if (line.startsWith("(Con")) {
-                skipBreak = true;
-              } else {
-                if (sb.length() > 0) {
-                  sb.append(skipBreak ? ' ' : '\n');
-                }
-                sb.append(line);
-                skipBreak = false;
-              }
-            }
-            trimLast(sb, "(End)");
-            trimLast(sb, "\nMore?");
-            body = sb.toString().trim();
-            break;
-          }
-        }
-      }
-      
-      /* Decode patterns that look like this 
-      CommCenter@ccems.com <Body%3ACommCenter@ccems.com> [] TAP OUT (SAL)
-       */
-      int ipt = body.indexOf(" [] ");
-      if (ipt >= 0) {
-        parseAddress = body.substring(0, ipt).trim();
-        if (parseAddress.contains("@")) {
-          body = body.substring(ipt+4).trim();
-          break;
-        }
-      }
-      
-      /* Decode patterns that look like this
-      Subject:HCCAD\nEOC:F03 WIRES >WIRES/POLE SHAWNEE DR&WALTERS MILL RD XS: WALTERS MILL RD FOREST HILL NOT ENTERED Cad: 2010-000019169
-      */
-      if (body.startsWith("Subject:")) {
-        ipt = body.indexOf('\n');
-        if (ipt >= 0) {
-          addSubject(body.substring(8,ipt).trim());
-          body = body.substring(ipt+1).trim();
-          break;
-        }
-      }
-      
-      /* Decode patterns that look like this
-        Dispatch@ci.waynesboro.va.us <Body%3ADispatch@ci.waynesboro.va.us> Msg: Dispatch:2ND CALL 1001 HOPEMAN PKWY, ZAP12 INJURIES FROM PREVIOUS MVA
-      */
-      ipt = body.indexOf(" Msg:");
-      if (ipt >= 0) {
-        String addr = body.substring(0,ipt).trim();
-        if (addr.contains("@") && ! addr.contains(":")) {
-          parseAddress = addr;
-          body = body.substring(ipt+5).trim();
-          break;
-        }
-      }
-      
-      /* Decode patterns that look like this
-       * Pagecopy-Fr:CAD@livingstoncounty.livco\nCAD:FYI: ;OVDOSE;4676 KENMORE DR;[Medical Priority Info] RESPONSE: P1 STA 1
-       */
-      match = PAGECOPY_PATTERN.matcher(body);
-      if (match.find()) {
-        parseAddress = match.group(1);
-        body = body.substring(match.end()).trim();
-        break;
-      }
-      
-      /* Decode patterns that look like
-       * S:subject M:msg
-       */
-      match = E_S_M_PATTERN.matcher(body);
-      if (match.find()) {
-        String from = match.group(1);
-        if (from != null) parseAddress = from;
-        addSubject(match.group(2));
-        body = body.substring(match.end()).trim();
-        break;
-      }
-      
-      /* Decode patterns that match EMAIL_PATTERN, which is basically an email address
-       * followed by one of a set of known delimiters
-       */
-      found = false;
-      for (Pattern ptn : EMAIL_PATTERNS) {
-        match = ptn.matcher(body);
-        found = match.find();
-        if (found) break;
-      }
-      if (found) {
-        parseAddress = match.group(1);
-        body = body.substring(match.end()).trim();
-        break;
-      }
-
-    } while (false);
-    
-    // Finally, leading values in square or round brackets are turned into
-    // message subjects.  There may be more than one of these, in which case
-    // only the last is retained
-    int pt1 = 0;
-    
-    // First skip leading dots and spaces
-    while (pt1 < body.length() && " .".indexOf(body.charAt(pt1))>=0) pt1++;
-    while (pt1 < body.length()) {
-      while (pt1 < body.length() && body.charAt(pt1) == ' ') pt1++;
-      if (pt1 >= body.length()) break;
-      
-      char d1 = body.charAt(pt1);
-      if (d1 != '(' && d1 != '[') break;
-      
-      char d2 = (d1 == '(' ? ')' : ']');
-      int level = 0;
-      int pt2;
-      for (pt2 = pt1; pt2 < body.length(); pt2++) {
-        char c = body.charAt(pt2);
-        if (c == d1) level++;
-        if (c == d2) level--;
-        if (level == 0) {
-          addSubject(body.substring(pt1+1, pt2).trim());
-          pt1 = pt2+1;
-          break;
-        }
-      }
-      if (pt2 >= body.length()) break;
+      parserFlags |= MsgParser.PARSE_FLG_SKIP_FILTER;
     }
     
-    body = body.substring(pt1);
-    if (body.startsWith("MSG:")) body = body.substring(4).trim();
+    // If we don't have a parse message, this is as far as we can go.  This
+    // happens for MMS messages that come in with an address but we have not
+    // yet downloaded the message body
+    if (parseInfo == null) return true;
     
-    // Last check, if we ended up with no message, use the last subject as the message
-    if (body.length() == 0) {
-      int pt = parseSubject.lastIndexOf('|');
-      if (pt >= 0) {
-        body = parseSubject.substring(pt+1);
-        parseSubject = parseSubject.substring(0,pt);
-      } else {
-        body = parseSubject;
-        parseSubject = "";
+    if (force) {
+      parserFlags |= MsgParser.PARSE_FLG_POSITIVE_ID | MsgParser.PARSE_FLG_GEN_ALERT;
+    } else if (ManagePreferences.genAlert()) {
+      parserFlags |= MsgParser.PARSE_FLG_GEN_ALERT;
+    }
+    
+    // OK, that is it for flags, now lets see about getting the right parser
+    MsgParser parser = null;
+    
+    // If specific location was requested with a C2DM message, use it to get
+    // a parser.  This is one of the only times we will ignore a bad location
+    // code
+    if (reqLocation != null) {
+      try {
+        parser = ManageParsers.getInstance().getParser(reqLocation);
+      } catch (RuntimeException ex) {}
+    }
+    
+    // If that didn't work, get the default location parser
+    if (parser == null) {
+      parser = ManagePreferences.getCurrentParser();
+    }
+    
+    // OK, parser gets to do its thing
+    return parser.isPageMsg(parseInfo, parserFlags);
+  }
+  
+  /**
+   * Get a parsed information object calculated by a previous call to isPageMsg()
+   * This can be called on a reconstructed message that previously was accepted
+   * by isPageMsg() to reconstruct the parsed message information.  It should
+   * not be called when a message is first constructed from received information.
+   * isPageMsg should be called in those cases.
+   * @return the parsed information object
+   */
+  public MsgInfo getInfo() {
+    
+    // If we didn't build a parse message info object when this was constructed
+    // we never will have and pared message information
+    if (parseInfo == null) return null;
+    
+    // Some special logic if the previous location was General
+    // And the current location code preference is not general
+    // And this message text is a valid message for this location code
+    // then use the results of the new location code.
+    // NOTE: Our location and info members will be set as a side effect of
+    // a successful isPageMsg call
+    if (location != null && location.startsWith("General")) {
+      String curLocCode = ManagePreferences.location();
+      if (! curLocCode.startsWith("General")) {
+        if (ManageParsers.getInstance().getParser(curLocCode).isPageMsg(parseInfo, MsgParser.PARSE_FLG_SKIP_FILTER)) {
+          return parseInfo.getInfo();
+        }
       }
     }
-    parseMessageBody = body;
+    
+    // If the Message object already has been parsed, return it's information
+    // If it was never parsed for some reason, return null
+    
+    // It is almost impossible for the the parser call to fail for a
+    // message where it previously succeeded.  But if it happens
+    // try again with the general alert parser, which will never fail
+    MsgInfo info = parseInfo.getInfo();
+    if (info != null || location == null) return info;
+    
+    MsgParser parser =  ManageParsers.getInstance().getParser(location);
+    parser.isPageMsg(parseInfo, MsgParser.PARSE_FLG_POSITIVE_ID | MsgParser.PARSE_FLG_SKIP_FILTER | MsgParser.PARSE_FLG_GEN_ALERT);
+    return parseInfo.getInfo();
   }
-  
-  private void trimLast(StringBuilder sb, String endCode) {
-    int len = sb.length()-endCode.length();
-    if (len < 0) return;
-    if (sb.substring(len).equals(endCode)) sb.setLength(len);
-  }
-  
-  public void addSubject(String subject) {
-    if (subject.length() == 0) return;
-    if (parseSubject.length() == 0) parseSubject = subject;
-    else parseSubject = parseSubject + '|' + subject;
-  }
-  
-
-  public void setParserInfo(String location, SmsMsgInfo info) {
-    this.location = location;
-    this.info = info;
-  }
-  
+ 
   public void setReqLocation(String reqLocation) {
     this.reqLocation = reqLocation;
   }
@@ -665,7 +485,8 @@ public class SmsMmsMessage implements Serializable {
     
     // Parse the info object and retrieve the parsed date & time
     // If there is no parsed time just return the received timestamp
-    if (getInfo() == null) return new Date(timestamp);
+    MsgInfo info = getInfo();
+    if (info == null) return new Date(timestamp);
     int[] dateArry = splitDateTime(info.getDate());
     int[] timeArry = splitDateTime(info.getTime());
     if (timeArry == null) return new Date(timestamp);
@@ -747,11 +568,15 @@ public class SmsMmsMessage implements Serializable {
   }
   
   public String getSubject() {
-    return parseSubject;
+    return (parseInfo == null ? subject : parseInfo.getSubject());
   }
 
   public String getMessageBody() {
-    return (parseMessageBody == null ? null : parseMessageBody.trim());
+    if (parseInfo == null) {
+      if (messageBody == null) return "";
+      return messageBody;
+    }
+    return parseInfo.getMessageBody();
   }
   
   public int getMessageType() {
@@ -763,7 +588,7 @@ public class SmsMmsMessage implements Serializable {
   }
 
   public String getAddress() {
-    return parseAddress;
+    return (parseInfo == null ? fromAddress : parseInfo.getAddress());
   }
   
   public String getLocation() {
@@ -779,11 +604,11 @@ public class SmsMmsMessage implements Serializable {
   }
   
   public int getMsgIndex() {
-    return msgIndex;
+    return (parseInfo == null ? -1 : parseInfo.getMsgIndex());
   }
   
   public int getMsgCount() {
-    return msgCount;
+    return (parseInfo == null ? -1 : parseInfo.getMsgCount());
   }
   
   public String getReqLocation() {
@@ -792,81 +617,6 @@ public class SmsMmsMessage implements Serializable {
   
   public String getSponsor() {
     return sponsor;
-  }
-  
-  public SmsMsgInfo getInfo() {
-    
-    // Some special logic if the previous location was General
-    // And the current location code preference is not general
-    // And this message text is a valid message for this location code
-    // then use the results of the new location code.
-    // NOTE: Our location and info members will be set as a side effect of
-    // a successful isPageMsg call
-    if (location != null && location.startsWith("General")) {
-      String curLocCode = ManagePreferences.location();
-      if (! curLocCode.startsWith("General")) {
-        if (ManageParsers.getInstance().getParser(curLocCode).isPageMsg(this)) {
-          return info;
-        }
-      }
-    }
-    
-    // If we don't have an info object, get a new one
-    if (info == null) {
-      if (! isPageMsg()) {
-        
-        // It is almost impossible for the the parser call to fail for a
-        // message where it previously succeeded.  But if it happens
-        // try again with the general alert parser, which will never fail
-        SmsMsgParser parser = ManageParsers.getInstance().getAlertParser();
-        parser.isPageMsg(this);
-      }
-    }
-    return info;
-  }
-  
-  /**
-   * Determine if this message is considered to be a CAD page message
-   * as determined by the parser associated with the message.  Has the
-   * side effect of setting up the parser message information object and
-   * setting the message location parser if it is not already set
-   * @return true if this is a valid CAD page
-   */
-  public boolean isPageMsg() {
-    return getParser().isPageMsg(this);
-  }
-  
-  /**
-   * Determine if message is a valid CAD message for this parser, and parse
-   * all information from the message if it is
-   * @overrideFilter true if parser filters should be overridden
-   * @genAlert true if general alerts should be accepted
-   * @return true if this message is a valid CAD page
-   */
-  public boolean isPageMsg(boolean overrideFilter, boolean genAlert) {
-    return getParser().isPageMsg(this, overrideFilter, genAlert);
-  }
-  
-  /**
-   * @return parser associated with this message
-   */
-  public SmsMsgParser getParser() {
-    
-    // If we don't have a historical location code, but a location code was
-    // included in the message, use it to get a parser.  If the code happens
-    // to be invalid, just catch the exception and continue
-    if (location == null && reqLocation != null) {
-      try {
-        return ManageParsers.getInstance().getParser(reqLocation);
-      } catch (RuntimeException ex) {}
-    }
-    
-    // If we have a historical location code, use it
-    // Otherwise use the current configured location code.
-    // Again, location and info members are set as a side effect of a successful
-    // isPageMsg method call
-    return ManageParsers.getInstance().getParser(location);
-    
   }
   
   /**
@@ -1044,15 +794,16 @@ public class SmsMmsMessage implements Serializable {
     Intent intent = new Intent(ACTION);
     intent.putExtra(EXTRA_MSG_ID, msgId);
     intent.putExtra(EXTRA_REPUBLISH, republish);
-    putExtraString(intent, EXTRA_FROM, parseAddress);
-    putExtraString(intent, EXTRA_SUBJECT, parseSubject);
-    putExtraString(intent, EXTRA_MESSAGE, parseMessageBody.trim());
+    putExtraString(intent, EXTRA_FROM, getAddress());
+    putExtraString(intent, EXTRA_SUBJECT, getSubject());
+    putExtraString(intent, EXTRA_MESSAGE, getMessageBody());
     intent.putExtra(EXTRA_TIME, timestamp);
     putExtraString(intent, EXTRA_LOC_CODE, location);
     
     intent.putExtra(EXTRA_QUIET_MODE, 
          !(ManagePreferences.notifyEnabled() || ManagePreferences.popupEnabled()));
     
+    MsgInfo info = getInfo();
     if (info != null) {
       putExtraString(intent, EXTRA_LOC_CITY, info.getDefCity());
       putExtraString(intent, EXTRA_LOC_STATE, info.getDefState());
@@ -1101,7 +852,7 @@ public class SmsMmsMessage implements Serializable {
     sb.append(fromAddress);
 
     sb.append("\nEff From:");
-    sb.append(parseAddress);
+    sb.append(getAddress());
     
     sb.append("\nType:");
     sb.append(messageType);
@@ -1112,7 +863,7 @@ public class SmsMmsMessage implements Serializable {
     sb.append("\nSubject:");
     sb.append(subject);
     sb.append("\nEff Subject:");
-    sb.append(parseSubject);
+    sb.append(getSubject());
     
     sb.append("\nBody:");
     sb.append(escape(messageBody));
@@ -1124,7 +875,7 @@ public class SmsMmsMessage implements Serializable {
     }
     
     sb.append("\nEff Body:");
-    sb.append(parseMessageBody);
+    sb.append(getMessageBody());
     
     sb.append("\nLocation:");
     sb.append(location);
@@ -1145,11 +896,11 @@ public class SmsMmsMessage implements Serializable {
     sb.append("\nackURL");
     sb.append(ackURL);
     
-    if (msgCount >= 0) {
+    if (getMsgCount() >= 0) {
       sb.append("\nMsgIndex:");
-      sb.append(msgIndex);
+      sb.append(getMsgIndex());
       sb.append(" of ");
-      sb.append(msgCount);
+      sb.append(getMsgCount());
     }
     
     sb.append("\nSend time:");
@@ -1222,9 +973,8 @@ public class SmsMmsMessage implements Serializable {
     if (s1 == null || s2 == null) return false;
     return s1.equals(s2);
   }
-
-  public void deleteFromContent(Context context) {
-    // TODO Auto-generated method stub
-    
+  
+  Message getParseInfo() {
+    return parseInfo;
   }
 }

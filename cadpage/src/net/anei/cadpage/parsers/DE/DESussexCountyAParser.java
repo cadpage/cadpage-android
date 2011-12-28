@@ -1,7 +1,7 @@
 package net.anei.cadpage.parsers.DE;
 
-import net.anei.cadpage.SmsMsgInfo.Data;
 import net.anei.cadpage.parsers.SmartAddressParser;
+import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /*
 [86 EMS] -- 31C2 -- 33384 Hartford Ct Lewes

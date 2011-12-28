@@ -1,7 +1,7 @@
 package net.anei.cadpage.parsers.GA;
 
-import net.anei.cadpage.SmsMsgInfo.Data;
 import net.anei.cadpage.parsers.SmartAddressParser;
+import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /* Sample Oconee Page
  * 

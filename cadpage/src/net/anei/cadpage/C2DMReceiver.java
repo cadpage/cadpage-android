@@ -22,7 +22,6 @@ package net.anei.cadpage;
 import net.anei.cadpage.HttpService.HttpRequest;
 import net.anei.cadpage.donation.DonationManager;
 import net.anei.cadpage.donation.DonationManager.DonationStatus;
-import net.anei.cadpage.parsers.SmsMsgParser;
 import net.anei.cadpage.vendors.VendorManager;
 import android.app.Activity;
 import android.app.PendingIntent;
@@ -183,18 +182,12 @@ public class C2DMReceiver extends BroadcastReceiver {
     if (!SmsMsgLogBuffer.getInstance().add(message)) return;
     
     // See if the current parser will accept this as a CAD page
-    boolean isPage = message.isPageMsg(true, false);
+    boolean isPage = message.isPageMsg(SmsMmsMessage.PARSE_FLG_FORCE);
     
-    // If it didn't, accept it as a general page.  We have to do something with
-    // it or it will just disappear
-    if (! isPage) {
-      SmsMsgParser genAlertParser = ManageParsers.getInstance().getAlertParser();
-      isPage = genAlertParser.isPageMsg(message, true, true);
-    }
-    
-    // This should never happen, but if the general alert parser can't handle
-    // it bail out
+    // This should never happen, 
     if (!isPage) return;
+    
+    // Process the message
     SmsReceiver.processCadPage(context, message);
   }
   

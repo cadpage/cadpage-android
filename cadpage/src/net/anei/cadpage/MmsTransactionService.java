@@ -38,7 +38,6 @@ import java.util.List;
 
 import net.anei.cadpage.mms.GenericPdu;
 import net.anei.cadpage.mms.PduParser;
-import net.anei.cadpage.parsers.SmsMsgParser;
 
 /**
  * This service is responsible for retrieving the actual content of MMS messages
@@ -62,12 +61,6 @@ public class MmsTransactionService extends Service {
   private PowerManager.WakeLock mWakeLock;
   
   // Cached copies of different preferences we might need during off thread processing
-  private boolean overrideFilter;
-  private String sFilter;
-  private boolean genAlert;
-  private SmsMsgParser parser;
-  private SmsMsgParser genAlertParser;
-  private boolean smsPassThrough;
   private int mmsTimeout;
 
   @Override
@@ -103,12 +96,6 @@ public class MmsTransactionService extends Service {
     
     // Collect all of the preferences we might need while we are still on
     // the main thread;
-    overrideFilter = ManagePreferences.overrideFilter();
-    sFilter = (overrideFilter ? ManagePreferences.filter() : "");
-    genAlert = ManagePreferences.genAlert();
-    parser = ManageParsers.getInstance().getParser(null);
-    genAlertParser = ManageParsers.getInstance().getAlertParser();
-    smsPassThrough = ManagePreferences.smspassthru();
     mmsTimeout = ManagePreferences.mmsTimeout()*60000;
     
     EventType type;
@@ -248,10 +235,9 @@ public class MmsTransactionService extends Service {
       if (message == null) return;
   
       // See if message passes override from filter
-      if (overrideFilter) {
-        String sAddress = message.getAddress();
-        if (! SmsPopupUtils.matchFilter(sAddress, sFilter)) return;
-      }
+      // Without a message body, isPageMsg doesn't do anything more than
+      // check the sender filter
+      if (! message.isPageMsg()) return;
       
       // Ignore if we have already processed a notification for this message
       if (SmsMsgLogBuffer.getInstance().checkDuplicateNotice(message)) return;
@@ -259,14 +245,6 @@ public class MmsTransactionService extends Service {
       // Save message for future test or error reporting use
       // Duplicate message check is ignored for now because we do not yet have a message body
       SmsMsgLogBuffer.getInstance().add(message);
-      
-      // See if we can rule out this message without the text body
-      // meaning with just a subject and from address
-      boolean isPage = (genAlert && sFilter.trim().length() > 1) ||
-          parser.isPageMsg(message, overrideFilter, genAlert);
-      
-      // If not a cad page, we're done with this
-      if (! isPage) return;
       
       // Otherwise, add to the list of messages that we are waiting for content from.
       MmsMsgEntry entry = new MmsMsgEntry();
@@ -360,20 +338,13 @@ public class MmsTransactionService extends Service {
         SmsMsgLogBuffer.getInstance().update(message);
         
         // OK, we have a real message.  First see if it is a vendor discovery query
+        // If it is, delete the message from the message inbox
         if (message.isDiscoveryQuery(MmsTransactionService.this)) {
           qr.delete(mmsUri, null, null);
         }
         
         // Now that we have the full message, we can try to parse it as a CAD page
-        boolean isPage = 
-            parser.isPageMsg(message, overrideFilter, genAlert);
-        
-        // If it didn't, see if we can accept this as a general page
-        // which only happens if the general alert config settings is set and there
-        // is an active user filter
-        if (! isPage && genAlert && sFilter.length()>1) {
-          isPage = genAlertParser.isPageMsg(message, overrideFilter, genAlert);
-        }
+        boolean isPage = message.isPageMsg();
         
         // If not a CAD page, we are done with it
         if (!isPage) continue;
@@ -382,7 +353,7 @@ public class MmsTransactionService extends Service {
         // If we were not supposed to pass messages through to the SMS app
         // we try to cover our tracks by deleting this message from the MMS
         // message content
-        if (!smsPassThrough) qr.delete(mmsUri, null, null);
+        if (!ManagePreferences.smspassthru()) qr.delete(mmsUri, null, null);
         
         // Pop back to the main thread to perform the rest of the CAD page 
         // message processing

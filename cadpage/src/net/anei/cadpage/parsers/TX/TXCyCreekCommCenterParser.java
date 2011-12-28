@@ -4,8 +4,8 @@ import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import net.anei.cadpage.SmsMsgInfo.Data;
-import net.anei.cadpage.parsers.SmsMsgParser;
+import net.anei.cadpage.parsers.MsgParser;
+import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /* Sample Harris Page
 
@@ -62,7 +62,7 @@ Contact: David Wisofsky <dwisofsky@gmail.com>
 
 */
 
-public class TXCyCreekCommCenterParser extends SmsMsgParser {
+public class TXCyCreekCommCenterParser extends MsgParser {
   
   private static final Pattern MARKER = Pattern.compile("^(\\d\\d/\\d\\d) (?:(\\d\\d:\\d\\d) )?");
   private static final Pattern TRAILER = Pattern.compile(" +(\\d{8,}) *$");

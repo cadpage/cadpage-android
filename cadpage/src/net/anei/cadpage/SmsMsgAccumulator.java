@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
+import net.anei.cadpage.parsers.MsgParser;
+
 import android.content.Context;
 
 /**
@@ -74,29 +76,8 @@ public class SmsMsgAccumulator {
       return true;
     }
     
-    // This message does not match any of the accumulating msg list
-    // Collect the important preference settings
-    boolean overrideFilter = ManagePreferences.overrideFilter();
-    String sFilter = (overrideFilter ? ManagePreferences.filter() : "");
-    
-    // If the default parser filter is being overridden, see if the from address
-    // matches the override filter
-    if (overrideFilter) {
-      String sAddress = newMsg.getAddress();
-      if (! SmsPopupUtils.matchFilter(sAddress, sFilter)) return false;
-    }
-    
     // See if the current parser will handle this message
-    boolean genAlert = ManagePreferences.genAlert();
-    boolean isPage = 
-        ManageParsers.getInstance().getParser(null).isPageMsg(newMsg, overrideFilter, genAlert);
-    
-    // If it didn't, see if we can accept this as a general page
-    // which only happens if the general alert config settings is set and there
-    // is an active user filter
-    if (! isPage && genAlert && sFilter.trim().length()>1) {
-      isPage = ManageParsers.getInstance().getAlertParser().isPageMsg(newMsg, overrideFilter, genAlert);
-    }
+    boolean isPage = newMsg.isPageMsg();
     
     // If not a cad page (or general alert), we're done with this
     if (! isPage) return false;
@@ -307,8 +288,7 @@ public class SmsMsgAccumulator {
       // Otherwise, invoke the current location parser and see if it thinks
       // we have a complete message.
       SmsMmsMessage msg = getMessage();
-      boolean isPage = 
-        ManageParsers.getInstance().getParser(null).isPageMsg(msg, true, false);
+      boolean isPage = msg.isPageMsg(MsgParser.PARSE_FLG_SKIP_FILTER);
       if (isPage && !msg.getInfo().isExpectMore()) return true;
       
       // If not, return false;
@@ -328,7 +308,13 @@ public class SmsMsgAccumulator {
      */
     public SmsMmsMessage getMessage() {
       if (result == null) result = new SmsMmsMessage(firstMessage, list);
-      result.getInfo();  // Not really necessary, but lets do it here to be consistent
+      
+      // We have to call isPageMsg() to do the initial message parsing,
+      // and we have to force processing because the component text messages
+      // have already been blocked from getting to the regular messaging app.
+      // If the parse still fails despite the force flag (very bady news)
+      // make this message disappear
+      if (!result.isPageMsg(SmsMmsMessage.PARSE_FLG_FORCE)) result = null;
       return result;
     }
   }

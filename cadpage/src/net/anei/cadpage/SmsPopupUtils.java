@@ -4,6 +4,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.donation.DonationManager;
+import net.anei.cadpage.parsers.MsgInfo;
 
 import android.app.AlertDialog;
 import android.content.ActivityNotFoundException;
@@ -114,7 +115,7 @@ public class SmsPopupUtils {
   /**
    * Request map location for message
    */
-  public static void  mapMessage(Context context, SmsMsgInfo info, boolean useGPS)  {
+  public static void  mapMessage(Context context, MsgInfo info, boolean useGPS)  {
     if (Log.DEBUG) Log.v("Request Received to Map Call");
     if (haveNet(context)) {
         String searchStr = null;
@@ -222,42 +223,4 @@ public class SmsPopupUtils {
     if (neg) result = -result;
     return result;
   }
-
-  /**
-   * Determine if message address matches address filter
-   * @param sAddress message address
-   * @param sFilter address filter
-   * @return true if message address satisfies filter
-   */
-  public static boolean matchFilter(String sAddress, String sFilter) {
-    
-    if (sFilter == null) return true;
-    
-    // A filter with length of 0 or 1 is invalid and is always passed
-    sFilter = sFilter.trim();
-    if (sFilter.length() <= 1) return true;
-    
-    // Filter can consist of multiple address filters separated by comas
-    for (String tFilter : sFilter.split(",")) {
-      tFilter = tFilter.trim();
-      
-      // A subfilter with length of 0 or 1 is invalid and is ignored
-      // Doing otherwise makes it too difficult to determine whether or not
-      // an active filter is in place
-      if (tFilter.length() <= 1) continue;
-      
-      // If filter consists only of numeric digits, it needs to match the
-      // beginning of what is presumably a phone number.  Otherwise it can
-      // match any substring of the sender address.  This last
-      // check should be case insensitive, which we accomplish by downshifting
-      // both the address and the filter
-      if (DIGITS.matcher(tFilter).matches()) {
-        if (sAddress.startsWith(tFilter)) return true;
-      } else {
-        if (sAddress.toLowerCase().contains(tFilter.toLowerCase())) return true;
-      }
-    }
-    return false;
-  }
-  private static final Pattern DIGITS = Pattern.compile("\\d+");
 }

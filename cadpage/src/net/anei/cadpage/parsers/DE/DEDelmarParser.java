@@ -1,8 +1,8 @@
 package net.anei.cadpage.parsers.DE;
 
 
-import net.anei.cadpage.SmsMsgInfo.Data;
-import net.anei.cadpage.parsers.SmsMsgParser;
+import net.anei.cadpage.parsers.MsgParser;
+import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /*
 Delmar DE, looking to implement second parser for MD
@@ -44,7 +44,7 @@ Sender: epage-owner@delmar74fire.com
  */
 
 
-public class DEDelmarParser extends SmsMsgParser {
+public class DEDelmarParser extends MsgParser {
   
   public DEDelmarParser() {
     super("DELMAR", "DE");

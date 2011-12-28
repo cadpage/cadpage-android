@@ -3,7 +3,8 @@ package net.anei.cadpage;
 import net.anei.cadpage.donation.DeveloperToolsManager;
 import net.anei.cadpage.donation.DonationManager;
 import net.anei.cadpage.donation.MainDonateEvent;
-import net.anei.cadpage.parsers.SmsMsgParser;
+import net.anei.cadpage.parsers.ManageParsers;
+import net.anei.cadpage.parsers.MsgParser;
 import net.anei.cadpage.preferences.DialogPreference;
 import net.anei.cadpage.preferences.EditTextPreference;
 import net.anei.cadpage.preferences.LocationCheckBoxPreference;
@@ -244,7 +245,7 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
  
     // Get the parser and see if it has a default filter
     // Save it in parserFilter so other preferences know what it is
-    SmsMsgParser parser = ManageParsers.getInstance().getParser(location);
+    MsgParser parser = ManageParsers.getInstance().getParser(location);
     parserFilter = parser.getFilter();
     parserDefCity = parser.getDefaultCity();
     parserDefState = parser.getDefaultState();

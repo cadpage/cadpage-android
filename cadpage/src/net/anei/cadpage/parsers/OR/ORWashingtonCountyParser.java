@@ -2,8 +2,8 @@ package net.anei.cadpage.parsers.OR;
 
 import java.util.Properties;
 
-import net.anei.cadpage.SmsMsgInfo.Data;
 import net.anei.cadpage.parsers.SmartAddressParser;
+import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /*
 Washington County, OR

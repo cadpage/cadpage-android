@@ -2,8 +2,8 @@ package net.anei.cadpage.parsers.OR;
 
 import java.util.Properties;
 
-import net.anei.cadpage.SmsMsgInfo.Data;
-import net.anei.cadpage.parsers.SmsMsgParser;
+import net.anei.cadpage.parsers.MsgParser;
+import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /*    
 Sample Benton County Page
@@ -14,9 +14,14 @@ Sender: alerts@corvallis.ealertgov.com
 (Corvallis Alert) INC:UNKNOWN MEDICAL\nADD:504 MELVILL CRESCENT AV [PHILOMATH]\nAPT:\nCITY:PHILOMATH\nX:SUNSHINE AV\nMAP:550-385\nCFS:101710-223\nDIS:PHILOM
 (Corvallis Alert) INC:BICYCLE ACCIDENT\nADD:DECKER RD and DECKER RIDGE RD\nAPT:\nCITY:PHILOMATH\nX:DECKER RD * BANKS LN\nMAP:480-420\nCFS:070611-52\nDIS:BEN
 
+
+sms send 1112223333 (1/3)(Corvallis Alert) INC:BICYCLE ACCIDENT\nADD:DECKER RD and 
+sms send 1112223333 (2/3)(Corvallis Alert) DECKER RIDGE RD\nAPT:\nCITY:PHILOMATH\nX:DECKER RD * 
+sms send 1112223333 (3/3)(Corvallis Alert) BANKS LN\nMAP:480-420\nCFS:070611-52\nDIS:BEN
+
 */
 
-public class ORBentonCountyParser extends SmsMsgParser {
+public class ORBentonCountyParser extends MsgParser {
   
   // List of streets that extend wholly or partly into a region that Google does
   // not recognize as part of Philomath

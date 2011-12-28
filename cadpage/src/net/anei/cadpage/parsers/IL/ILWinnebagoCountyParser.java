@@ -3,8 +3,8 @@ package net.anei.cadpage.parsers.IL;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import net.anei.cadpage.SmsMsgInfo.Data;
-import net.anei.cadpage.parsers.SmsMsgParser;
+import net.anei.cadpage.parsers.MsgParser;
+import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /*
 Winnebago County, IL (was Roscoe)
@@ -27,7 +27,7 @@ S:HRFD: Med:629 ALTHEA M: RES. C.O. ALARM\n
 
 */
 
-public class ILWinnebagoCountyParser extends SmsMsgParser {
+public class ILWinnebagoCountyParser extends MsgParser {
   
   private static Pattern MARKER = Pattern.compile(": (?:Med|Fire):");
   

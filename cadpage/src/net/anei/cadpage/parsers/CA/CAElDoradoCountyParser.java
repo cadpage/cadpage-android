@@ -3,8 +3,8 @@ package net.anei.cadpage.parsers.CA;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import net.anei.cadpage.SmsMsgInfo.Data;
-import net.anei.cadpage.parsers.SmsMsgParser;
+import net.anei.cadpage.parsers.MsgParser;
+import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /*
 El Dorado County, CA
@@ -27,7 +27,7 @@ Contact: "fyregoose@hotmail.com" <fyregoose@hotmail.com>
  */
 
 
-public class CAElDoradoCountyParser extends SmsMsgParser {
+public class CAElDoradoCountyParser extends MsgParser {
   
   private static final Pattern MARKER = Pattern.compile("^\\d{1,2}-\\w{3}-\\d{4}/\\d\\d:\\d\\d:\\d\\d: ");
   private static final Pattern MASTER = Pattern.compile("^(.*?): Inc# (.*?): (.*?) ,(.*? )(?:\\((.*?)\\) )? *(.*?)(?:;|$)");

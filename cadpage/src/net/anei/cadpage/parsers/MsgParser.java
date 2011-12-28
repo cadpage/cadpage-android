@@ -8,25 +8,43 @@ import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import net.anei.cadpage.ManageParsers;
-import net.anei.cadpage.SmsMmsMessage;
-import net.anei.cadpage.SmsMsgInfo;
-import net.anei.cadpage.SmsPopupUtils;
-import net.anei.cadpage.SmsMsgInfo.Data;
+import net.anei.cadpage.parsers.MsgInfo.Data;
 
 
 /**
  * This class is responsible for parsing useful information from an SMS page message
  */
-public abstract class SmsMsgParser {
+public abstract class MsgParser {
   
+  /**
+   * Parse flag indicates that sender address filtering should not be checked
+   */
+  public static final int PARSE_FLG_SKIP_FILTER = 0x01;
+  
+  /**
+   * Parse flag indicates that message has been positively ID's as coming from
+   * this dispatch center
+   */
+  public static final int PARSE_FLG_POSITIVE_ID = 0x02;
+  
+  /**
+   * Parse flag indicates that messages from dispatch that are not CAD pages
+   * should be treated as general alerts 
+   */
+  public static final int PARSE_FLG_GEN_ALERT = 0x04;
+  
+  // Default city and state passed in constructor
   private String defCity;
   private String defState;
+  
+  // Save parse flags so we can check message status from methods that
+  // were not passed the parse flags
+  private int parseFlags;
   
   // Pattern matching a terminated string of digits
   public static final Pattern NUMERIC = Pattern.compile("\\b\\d+\\b");
   
-  public SmsMsgParser(String defCity, String defState) {
+  public MsgParser(String defCity, String defState) {
     this.defCity = defCity;
     this.defState = defState;
   }
@@ -46,16 +64,59 @@ public abstract class SmsMsgParser {
   }
   
   /**
-   * build information object
-   * @param strMessage SMS message text to be parsed
-   * @return new message information object if successful, false otherwise
+   * Determine if message is a valid CAD message for this parser, and parse
+   * all information from the message if it is
+   * @param msg message to be parsed
+   * @overrideFilter true if parser filters should be overridden
+   * @genAlert true if general alerts should be accepted
+   * @return true if this message contain the text phrases that indicate it is 
+   * a valid page message
    */
-  protected Data parseMsg(SmsMmsMessage msg, boolean overrideFilter, boolean genAlert) {
+  public synchronized boolean isPageMsg(Message msg, int parseFlags) {
 
     // If parser filter is not being overridden, and the message address does not
     // match the parser filter, message should be rejected
     String filter = getFilter();
-    if (! overrideFilter && ! SmsPopupUtils.matchFilter(msg.getAddress(), filter)) return null;
+    boolean overrideFilter = (parseFlags & PARSE_FLG_SKIP_FILTER) != 0;
+    if (! overrideFilter && ! matchFilter(msg.getAddress(), filter)) return false;
+    
+    // Has to be synchronized because this is called from the MMS service thread
+    // And we only have one global copy of parsing flags for each parser
+    // Save parse flags for future reference
+    this.parseFlags = parseFlags;
+
+    
+    // See what the parseMsg method thinks of this
+    Data data = parseMsg(msg, parseFlags);
+    
+    // If this isn't a valid CAD page, see if we should treat it as a general alert
+    // If not then return failure
+    if (data == null && ((parseFlags & PARSE_FLG_GEN_ALERT) != 0) && isPositiveId()) {
+      data = ManageParsers.getInstance().getAlertParser().parseMsg(msg, parseFlags);
+    }
+    
+    // If all parsers failed, return false
+    if (data == null) return false;
+    
+    // Save parser code and information object in message so we won't have to
+    // go through all of this again
+    msg.setInfo(new MsgInfo(data));
+    msg.setLocationCode(getParserCode());
+    return true;
+  }
+  
+  /**
+   * build information object from information parsed from message
+   * @param msg message to be parsed
+   * @param parseFlags 
+   * @return new message information object if successful, false otherwise
+   */
+  protected Data parseMsg(Message msg, int parseFlags) {
+    
+    // Save parse flags for future reference (again)
+    // We have to do this again because the GroupBestParser will call 
+    // this method is sub parsers without calling the initial inPageMsg() method
+    this.parseFlags = parseFlags;
     
     // Decode the call page and place the data in the database
     String strSubject = msg.getSubject();
@@ -65,13 +126,25 @@ public abstract class SmsMsgParser {
     data.defState = defState;
     if (strMessage == null) return data;
     if (parseMsg(strSubject, strMessage, data)) return data;
-    
-    // If this isn't a valid CAD page, see if we should treat it as a general alert
-    // If not then return failure
-    if (!overrideFilter && genAlert && filter.length() > 1) {
-      return ManageParsers.getInstance().getAlertParser().parseMsg(msg, overrideFilter, genAlert);
-    }
     return null;
+  }
+  
+  /**
+   * Determine if this message has been identified as coming from the dispatch
+   * center we are parsing messages for
+   * @return true if it is, false otherwise
+   */
+  public boolean isPositiveId() {
+    
+    // If the caller flagged this as positively ID's, so be it
+    if ((parseFlags & PARSE_FLG_POSITIVE_ID) != 0) return true;
+    
+    // Otherwise consider this a positive ID if the message had to pass
+    // a non-empty filter
+    if ((parseFlags & PARSE_FLG_SKIP_FILTER) != 0) return false;
+    if (getFilter().length() <= 1) return false;
+    
+    return true;
   }
 
   /**
@@ -109,41 +182,6 @@ public abstract class SmsMsgParser {
   public String getFilter() {
     return "";
   }
-  
-  
-  /**
-   * Determine if message is a valid CAD message for this parser, and parse
-   * all information from the message if it is
-   * @param msg message to be parsed
-   * @return true if this message contain the text phrases that indicate it is 
-   * a valid page message
-   */
-  public boolean isPageMsg(SmsMmsMessage msg) {
-    return isPageMsg(msg, true, false);
-  }
-  
-  
-  /**
-   * Determine if message is a valid CAD message for this parser, and parse
-   * all information from the message if it is
-   * @param msg message to be parsed
-   * @overrideFilter true if parser filters should be overridden
-   * @genAlert true if general alerts should be accepted
-   * @return true if this message contain the text phrases that indicate it is 
-   * a valid page message
-   */
-  public boolean isPageMsg(SmsMmsMessage msg, boolean overrideFilter, boolean genAlert) {
-    
-    // See what the parseMsg method thinks of this
-    Data data = parseMsg(msg, overrideFilter, genAlert);
-    if (data == null) return false;
-    
-    // Save parser code and information object in message so we won't have to
-    // go through all of this again
-    SmsMsgInfo info = new SmsMsgInfo(data);
-    msg.setParserInfo(getParserCode(), info);
-    return true;
-  }
 
   /**
    * Convenience method to identify a page message by checking to see if
@@ -172,6 +210,33 @@ public abstract class SmsMsgParser {
     String clsName = this.getClass().getName();
     int ipt = clsName.lastIndexOf('.');
     return clsName.substring(ipt+1, clsName.length()-6);
+  }
+
+  /**
+   * @return Human readable name of location parser
+   */
+  public String getLocName() {
+    
+    // Overridden in special cased, but general default is to build a name
+    // from the default city and state
+    if (defCity.length() == 0) return "";
+
+    char[] carry = defCity.toCharArray();
+    boolean upshift = true;
+    for (int j = 0; j<carry.length; j++) {
+      char chr = carry[j];
+      if (chr == ' ') {
+        upshift = true;
+      } else if (upshift) {
+        chr = Character.toUpperCase(chr);
+        upshift = false;
+      } else {
+        chr = Character.toLowerCase(chr);
+      }
+      carry[j] = chr;
+    }
+    
+    return new String(carry);
   }
 
  
@@ -340,7 +405,7 @@ public abstract class SmsMsgParser {
   * @param addressLine address line to be parsed
   * @param data message info object to be filled
   */
- protected static void parseAddressCity(String addressLine, SmsMsgInfo.Data data) {
+ protected static void parseAddressCity(String addressLine, MsgInfo.Data data) {
    parseAddress(addressLine, data, true); 
  }
 
@@ -349,7 +414,7 @@ public abstract class SmsMsgParser {
   * @param addressLine address line to be parsed
   * @param data message info object to be filled
   */
- protected void parseAddress(String addressLine, SmsMsgInfo.Data data) {
+ protected void parseAddress(String addressLine, MsgInfo.Data data) {
    parseAddress(addressLine, data, false); 
  }
 
@@ -362,7 +427,7 @@ public abstract class SmsMsgParser {
  private static final Pattern INTERSECT = Pattern.compile("/|&");
  private static final Pattern APT = Pattern.compile("(?:\\bAPT|#APT|#|\\bAPT#|\\bUNIT) *([^ ]+)$",Pattern.CASE_INSENSITIVE);
  private static final Pattern DOT = Pattern.compile("\\.(?!\\d)");
- private static void parseAddress(String addressLine, SmsMsgInfo.Data data, 
+ private static void parseAddress(String addressLine, MsgInfo.Data data, 
                                      boolean parseCity) {
    addressLine = addressLine.trim();
    
@@ -784,4 +849,42 @@ public abstract class SmsMsgParser {
      return result;
    }
  }
+
+ /**
+  * Determine if message address matches address filter
+  * @param sAddress message address
+  * @param sFilter address filter
+  * @return true if message address satisfies filter
+  */
+ public static boolean matchFilter(String sAddress, String sFilter) {
+   
+   if (sFilter == null) return true;
+   
+   // A filter with length of 0 or 1 is invalid and is always passed
+   sFilter = sFilter.trim();
+   if (sFilter.length() <= 1) return true;
+   
+   // Filter can consist of multiple address filters separated by comas
+   for (String tFilter : sFilter.split(",")) {
+     tFilter = tFilter.trim();
+     
+     // A subfilter with length of 0 or 1 is invalid and is ignored
+     // Doing otherwise makes it too difficult to determine whether or not
+     // an active filter is in place
+     if (tFilter.length() <= 1) continue;
+     
+     // If filter consists only of numeric digits, it needs to match the
+     // beginning of what is presumably a phone number.  Otherwise it can
+     // match any substring of the sender address.  This last
+     // check should be case insensitive, which we accomplish by downshifting
+     // both the address and the filter
+     if (DIGITS.matcher(tFilter).matches()) {
+       if (sAddress.startsWith(tFilter)) return true;
+     } else {
+       if (sAddress.toLowerCase().contains(tFilter.toLowerCase())) return true;
+     }
+   }
+   return false;
+ }
+ private static final Pattern DIGITS = Pattern.compile("\\d+");
 }

@@ -3,8 +3,8 @@ package net.anei.cadpage.parsers.NY;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import net.anei.cadpage.SmsMsgInfo.Data;
-import net.anei.cadpage.parsers.SmsMsgParser;
+import net.anei.cadpage.parsers.MsgParser;
+import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /*
 Cortland County, NY
@@ -19,7 +19,7 @@ Sender: cville@fdcms.com
 
 */
 
-public class NYCortlandCountyParser extends SmsMsgParser {
+public class NYCortlandCountyParser extends MsgParser {
   
   private static Pattern MARKER = Pattern.compile("^\\d\\d:\\d\\d , ");
   

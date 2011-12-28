@@ -2,8 +2,8 @@ package net.anei.cadpage.parsers.IL;
 
 import java.util.regex.Pattern;
 
-import net.anei.cadpage.SmsMsgInfo.Data;
 import net.anei.cadpage.parsers.FieldProgramParser;
+import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /*
 Champaign-Urbana, IL (Champaign, Dewit, & Doublas Counties)
@@ -29,6 +29,11 @@ public class ILChampaignUrbanaParser extends FieldProgramParser {
            "ID NAME NAME? TIME ADDR APT? CITY INFO+");
   }
   
+  @Override
+  public String getLocName() {
+    return "Champaign-Urbana, IL";
+  }
+
   @Override
   protected boolean parseMsg(String body, Data data) {
     if (!body.startsWith("Run# ")) return false;

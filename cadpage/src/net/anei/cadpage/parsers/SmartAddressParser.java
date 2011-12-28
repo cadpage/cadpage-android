@@ -9,7 +9,6 @@ import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import net.anei.cadpage.SmsMsgInfo;
 import net.anei.cadpage.SmsPopupUtils;
 
 /**
@@ -18,7 +17,7 @@ import net.anei.cadpage.SmsPopupUtils;
  * deliminate where the the address portion of the message can be found. 
  *
  */
-public abstract class SmartAddressParser extends SmsMsgParser {
+public abstract class SmartAddressParser extends MsgParser {
   
 
   /**
@@ -319,7 +318,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
    * @param address address field to be parsed
    * @param data data object to be filled with information from parsed address field.
    */
-  protected void parseAddress(StartType sType, String address, SmsMsgInfo.Data data) {
+  protected void parseAddress(StartType sType, String address, MsgInfo.Data data) {
     parseAddress(sType, 0, address, data);
   }
 
@@ -334,7 +333,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
    * @param address address field to be parsed
    * @param data data object to be filled with information from parsed address field.
    */
-  protected void parseAddress(StartType sType, int flags, String address, SmsMsgInfo.Data data) {
+  protected void parseAddress(StartType sType, int flags, String address, MsgInfo.Data data) {
     Result result = parseAddress(sType, flags, address);
     result.getData(data);
   }
@@ -1525,7 +1524,7 @@ public abstract class SmartAddressParser extends SmsMsgParser {
     /**
      * Fill data object with information from parsed line
      */
-    public void getData(SmsMsgInfo.Data data) {
+    public void getData(MsgInfo.Data data) {
       
       // If prefix ends with some variation of "REPORTED AT" drop the 
       // REPORTED (AT has already been dropped)

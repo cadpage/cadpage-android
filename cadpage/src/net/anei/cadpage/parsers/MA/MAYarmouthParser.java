@@ -3,8 +3,8 @@ package net.anei.cadpage.parsers.MA;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import net.anei.cadpage.SmsMsgInfo.Data;
-import net.anei.cadpage.parsers.SmsMsgParser;
+import net.anei.cadpage.parsers.MsgParser;
+import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /*    
 Yarmouth, MA
@@ -23,7 +23,7 @@ Contact: Charles Talbott <medic2@comcast.net>
 
 */
 
-public class MAYarmouthParser extends SmsMsgParser {
+public class MAYarmouthParser extends MsgParser {
   
   private static final Pattern PRIORITY_PTN = Pattern.compile("Medical Priority (\\d)/\\d");
   private static final Pattern MAP_PTN = Pattern.compile("\\d_(?:North|East|South|West)_\\d");

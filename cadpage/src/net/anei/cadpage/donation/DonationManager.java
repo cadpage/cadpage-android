@@ -5,7 +5,6 @@ import java.util.Date;
 import java.util.GregorianCalendar;
 import java.util.Random;
 
-import net.anei.cadpage.ManageParsers;
 import net.anei.cadpage.ManagePreferences;
 
 public class DonationManager {
@@ -75,7 +74,7 @@ public class DonationManager {
     validLimitTime = curJDate.validUntilTime();
     
     // And calculated cached values
-    sponsor = ManageParsers.getInstance().getSponsor();
+    sponsor = ManagePreferences.getCurrentParser().getSponsor();
     daysSinceInstall = ManagePreferences.calcAuthRunDays(sponsor == null ? curDate : null);
     
     // Calculate expiration date

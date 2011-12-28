@@ -5,8 +5,8 @@ import java.util.Properties;
 import java.util.SortedSet;
 import java.util.TreeSet;
 
-import net.anei.cadpage.SmsMsgInfo.Data;
 import net.anei.cadpage.parsers.FieldProgramParser;
+import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /*
 DAPRO Systems http://www.daprosystems.com/

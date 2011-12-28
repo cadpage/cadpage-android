@@ -3,8 +3,8 @@ package net.anei.cadpage.parsers.MO;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import net.anei.cadpage.SmsMsgInfo.Data;
-import net.anei.cadpage.parsers.SmsMsgParser;
+import net.anei.cadpage.parsers.MsgParser;
+import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /*
 Jefferson City, MO
@@ -38,7 +38,7 @@ FRM:paging@jeffcitymo.org\nSUBJ:DONOTREPLY\nMSG:Aston, Nora 22:35 Medical Alarm 
 */
 
 
-public class MOJeffersonCityParser extends SmsMsgParser {
+public class MOJeffersonCityParser extends MsgParser {
   
   private static final Pattern MASTER_PTN = 
     Pattern.compile(" \\d\\d:\\d\\d (.*) (?:-Cross Streets-|-Address Between-) (.*)$");

@@ -3,9 +3,8 @@ package net.anei.cadpage.parsers.OH;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import net.anei.cadpage.ManagePreferences;
-import net.anei.cadpage.SmsMsgInfo.Data;
 import net.anei.cadpage.parsers.SmartAddressParser;
+import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /*
 taccad:SQUAD RUN 593 GATES ST CAROLYN RUNYON, AGE 64, POSSIBLE STROKE
@@ -59,8 +58,8 @@ public class OHWayneCountyAParser extends SmartAddressParser {
       // Anything starting with (Dispatch Message) should go to the B parser
       if (subject.equals("Dispatch Message")) return false;
       
-      // We'll take it as long as it passed some kind of sender filter :(
-      if (!ManagePreferences.overrideFilter() || ManagePreferences.filter().length() > 0) break; 
+      // We'll take it as long as caller identified this as a dispatch msg :(
+      if (isPositiveId()) break; 
       return false;
       
     } while (false);

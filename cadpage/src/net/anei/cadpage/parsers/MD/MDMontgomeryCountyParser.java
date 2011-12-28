@@ -3,8 +3,8 @@ package net.anei.cadpage.parsers.MD;
 import java.util.Properties;
 import java.util.regex.Pattern;
 
-import net.anei.cadpage.SmsMsgInfo.Data;
-import net.anei.cadpage.parsers.SmsMsgParser;
+import net.anei.cadpage.parsers.MsgParser;
+import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /*
 Montgomery County, MD
@@ -39,7 +39,7 @@ CAD MSG: * D * 0609 * RSC - RESET ALARM * 4908 AUBURN AVE ,MCG  * RS741B ECC1
 
 */
 
-public class MDMontgomeryCountyParser extends SmsMsgParser {
+public class MDMontgomeryCountyParser extends MsgParser {
   
   public MDMontgomeryCountyParser() {
     super("MONTGOMERY", "MD");

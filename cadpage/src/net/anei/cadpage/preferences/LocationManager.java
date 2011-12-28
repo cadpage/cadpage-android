@@ -10,8 +10,8 @@ import android.content.Context;
 import android.preference.Preference;
 import android.preference.Preference.OnPreferenceChangeListener;
 
-import net.anei.cadpage.ManageParsers;
 import net.anei.cadpage.ManagePreferences;
+import net.anei.cadpage.parsers.ManageParsers;
 
 /**
  * Class coordinates everything that needs to be done about the location setting

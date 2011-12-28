@@ -1,7 +1,7 @@
 package net.anei.cadpage.parsers.DE;
 
-import net.anei.cadpage.SmsMsgInfo.Data;
 import net.anei.cadpage.parsers.FieldProgramParser;
+import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /*
 Newcastle County, DE (variant B)

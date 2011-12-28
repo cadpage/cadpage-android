@@ -2,8 +2,8 @@ package net.anei.cadpage.parsers.NJ;
 
 import java.util.regex.Pattern;
 
-import net.anei.cadpage.SmsMsgInfo.Data;
-import net.anei.cadpage.parsers.SmsMsgParser;
+import net.anei.cadpage.parsers.MsgParser;
+import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /*
 Bergen County, NJ
@@ -25,7 +25,7 @@ Contact: rod smith <bravo2247@gmail.com>
  */
 
 
-public class NJMICOMParser extends SmsMsgParser {
+public class NJMICOMParser extends MsgParser {
   
   private static final Pattern CALL_DELIM = Pattern.compile("(?:-[AB]LS *)?\\d\\d:\\d\\d");
   
@@ -36,6 +36,11 @@ public class NJMICOMParser extends SmsMsgParser {
   @Override
   public String getFilter() {
     return "miccom@nnjmicu.org";
+  }
+  
+  @Override
+  public String getLocName() {
+    return "MICOM (northern NJ), NJ";
   }
 
   @Override

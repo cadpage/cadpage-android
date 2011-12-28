@@ -2,8 +2,8 @@ package net.anei.cadpage.parsers.CA;
 
 import java.util.Arrays;
 
-import net.anei.cadpage.SmsMsgInfo.Data;
 import net.anei.cadpage.parsers.SmartAddressParser;
+import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /*
 Shasta County, CA (was Bella Vista)

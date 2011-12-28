@@ -14,6 +14,8 @@ import com.google.tts.TTS.InitListener;
 import net.anei.cadpage.ManageKeyguard.LaunchOnKeyguardExit;
 import net.anei.cadpage.donation.DonationManager;
 import net.anei.cadpage.donation.MainDonateEvent;
+import net.anei.cadpage.parsers.ManageParsers;
+import net.anei.cadpage.parsers.MsgInfo;
 import net.anei.cadpage.wrappers.TextToSpeechWrapper;
 import net.anei.cadpage.wrappers.TextToSpeechWrapper.OnInitListener;
 import android.app.Activity;
@@ -86,7 +88,7 @@ public class SmsPopupActivity extends Activity {
   private TTS eyesFreeTts = null;
   private TextToSpeechWrapper androidTts = null;
 	
-	private SmsMsgInfo info;
+	private MsgInfo info;
 	
 	private PopupButtonHandler[] btnHandlers = null;
   

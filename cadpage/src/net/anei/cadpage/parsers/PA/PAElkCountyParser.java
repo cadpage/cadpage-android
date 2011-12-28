@@ -2,8 +2,8 @@ package net.anei.cadpage.parsers.PA;
 
 import java.util.Properties;
 
-import net.anei.cadpage.SmsMsgInfo.Data;
-import net.anei.cadpage.parsers.SmsMsgParser;
+import net.anei.cadpage.parsers.MsgParser;
+import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /*
 Elk County, PA (also dispatches Cameron County)
@@ -21,7 +21,7 @@ Inc: SICK PERSON Add: 303 CHESTNUT ST\nCity: ST_MARYS\nXSt: E MILL ST * OAK ST\n
  */
 
 
-public class PAElkCountyParser extends SmsMsgParser {
+public class PAElkCountyParser extends MsgParser {
   
   private static final Properties CITY_TABLE = buildCodeTable(new String[]{
       "ST_MARYS", "ST MARYS"

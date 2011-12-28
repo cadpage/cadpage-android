@@ -2,8 +2,8 @@ package net.anei.cadpage.parsers.MN;
 
 import java.util.Properties;
 
-import net.anei.cadpage.SmsMsgInfo.Data;
 import net.anei.cadpage.parsers.SmartAddressParser;
+import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /**
  * This class parses messages from some as yet unidentified CAD software vendor

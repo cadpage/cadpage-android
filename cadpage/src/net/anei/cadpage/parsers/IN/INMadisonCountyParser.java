@@ -2,7 +2,6 @@ package net.anei.cadpage.parsers.IN;
 
 import java.util.Properties;
 
-import net.anei.cadpage.SmsMsgInfo.Data;
 /*
 Madison County (Alexandria), IN
 Contact: Pamela Stigall <pamstigall@gmail.com>
@@ -22,9 +21,10 @@ Subject:{ST30} (63312) Dispatch\nUnit:RS35 Loc:2278 N 600W Venue:LAFAYE TWP Inc:
 Brent Jensen <brent.cutfd28@gmail.com>
 Fwd: (62208) DISPATCH) Unit:AM51 UnitSts: Loc:3363 E 200N Venue:UNION TWP Inc:Accidnt PI Date:12/04/2010 Time:09:59 CAR HIT POLE/CONSCIOUS BUT HIT HEAD/NOT A
 */
-import net.anei.cadpage.parsers.SmsMsgParser;
+import net.anei.cadpage.parsers.MsgParser;
+import net.anei.cadpage.parsers.MsgInfo.Data;
 
-public class INMadisonCountyParser extends SmsMsgParser {
+public class INMadisonCountyParser extends MsgParser {
   
   private static final String[] keywords = new String[] {"Unit", "UnitSts", "Loc", "Venue", "Inc", "Date", "Time", "Addtl"};
   

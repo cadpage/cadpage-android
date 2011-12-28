@@ -1,7 +1,7 @@
 package net.anei.cadpage.parsers.CA;
 
-import net.anei.cadpage.SmsMsgInfo.Data;
-import net.anei.cadpage.parsers.SmsMsgParser;
+import net.anei.cadpage.parsers.MsgParser;
+import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /*
 Ventura County, CA
@@ -19,7 +19,7 @@ System: InfoRad
  */
 
 
-public class CAVenturaCountyParser extends SmsMsgParser {
+public class CAVenturaCountyParser extends MsgParser {
   
   public CAVenturaCountyParser() {
     super("VENTURA COUNTY", "CA");

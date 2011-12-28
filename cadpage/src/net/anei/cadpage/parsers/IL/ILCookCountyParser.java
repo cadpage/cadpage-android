@@ -4,8 +4,8 @@ import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import net.anei.cadpage.SmsMsgInfo.Data;
-import net.anei.cadpage.parsers.SmsMsgParser;
+import net.anei.cadpage.parsers.MsgParser;
+import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /*
 Cook County, IL
@@ -22,7 +22,7 @@ Sender: 911@NWCDS.org
 
 */
 
-public class ILCookCountyParser extends SmsMsgParser {
+public class ILCookCountyParser extends MsgParser {
   
   private static final Pattern SUBJECT_PTN = Pattern.compile("(\\d\\d:\\d\\d:\\d\\d) (\\d\\d-\\d\\d-\\d{4})");
   private static final Pattern MASTER_PTN = Pattern.compile("\\*D (\\d{4} [A-Z0-9]+)/([^,]+) ,([A-Z]+)(?: \\((.*)\\))? (.*)");

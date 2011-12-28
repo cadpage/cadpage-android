@@ -3,8 +3,8 @@ package net.anei.cadpage.parsers.OH;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import net.anei.cadpage.SmsMsgInfo.Data;
-import net.anei.cadpage.parsers.SmsMsgParser;
+import net.anei.cadpage.parsers.MsgParser;
+import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /*
 Englewood, OH (In Montgomery county)
@@ -39,7 +39,7 @@ CAD@englewood.oh.us\nSUBJ:<No Subject>\nMSG:\n924 UE81:14:02:00-43:U46:CHECK NOR
  */
 
 
-public class OHEnglewoodParser extends SmsMsgParser {
+public class OHEnglewoodParser extends MsgParser {
   
   private static final Pattern MASTER = Pattern.compile("([^:]+?):(\\d\\d:\\d\\d:\\d\\d)-([A-Z0-9]+:[A-Z0-9]+):([^:?]+):@([^,]+?),([A-Z ]+?):(.*)");
   

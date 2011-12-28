@@ -1,13 +1,16 @@
-package net.anei.cadpage;
+package net.anei.cadpage.parsers;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
+import net.anei.cadpage.ManagePreferences;
+import net.anei.cadpage.SmsPopupUtils;
 
 /**
  * This class contains all of the useful data fields that are parsed from
  * the actual message text
  */
-public class SmsMsgInfo {
+public class MsgInfo {
 
   private String strCall;
   private String strPlace;
@@ -102,7 +105,7 @@ public class SmsMsgInfo {
    * constructor
    * @param info data object containing all message information
    */
-  public SmsMsgInfo(Data info) {
+  public MsgInfo(Data info) {
     strCall = info.strCall;
     strPlace = info.strPlace;
     strAddress = info.strAddress;

@@ -2,8 +2,8 @@ package net.anei.cadpage.parsers.MD;
 
 import java.util.Properties;
 
-import net.anei.cadpage.SmsMsgInfo.Data;
-import net.anei.cadpage.parsers.SmsMsgParser;
+import net.anei.cadpage.parsers.MsgParser;
+import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /*
 Prince Georges County, MD
@@ -33,7 +33,7 @@ Contact: Ricky Poole <handgunhunting@gmail.com>
  */
 
 
-public class MDPrinceGeorgesCountyFireBizParser extends SmsMsgParser {
+public class MDPrinceGeorgesCountyFireBizParser extends MsgParser {
   
   private static final Properties COUNTY_CODES = buildCodeTable(new String[]{
       "PG", "PRINCE GEORGES COUNTY",

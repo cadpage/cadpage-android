@@ -1,7 +1,7 @@
 package net.anei.cadpage.parsers.TN;
 
-import net.anei.cadpage.SmsMsgInfo.Data;
 import net.anei.cadpage.parsers.FieldProgramParser;
+import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /* 
 Hamilton County, TN

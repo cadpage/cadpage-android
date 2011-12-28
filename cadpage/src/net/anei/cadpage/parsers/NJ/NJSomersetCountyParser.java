@@ -4,8 +4,8 @@ import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import net.anei.cadpage.SmsMsgInfo.Data;
-import net.anei.cadpage.parsers.SmsMsgParser;
+import net.anei.cadpage.parsers.MsgParser;
+import net.anei.cadpage.parsers.MsgInfo.Data;
 
 
 /*
@@ -40,7 +40,7 @@ GRG-FD:11079916:07/14/2011 17:36:09:MVC:V POLE: FRANKLI-BUTLER ROAD & S MIDDLEBU
 
 */
 
-public class NJSomersetCountyParser extends SmsMsgParser {
+public class NJSomersetCountyParser extends MsgParser {
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "FRANKLI", "FRANKLIN TWP",
