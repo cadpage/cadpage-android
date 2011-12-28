@@ -10,7 +10,7 @@ import org.junit.Test;
 public class GroupBestParserTest extends BaseParserTest {
   
   public GroupBestParserTest() {
-    SmsMsgParser[] parsers = new SmsMsgParser[]{
+    MsgParser[] parsers = new MsgParser[]{
         new COAdamsCountyParser(),
         new COWeldCountyParser(),
         new CONorthglennEMSParser()

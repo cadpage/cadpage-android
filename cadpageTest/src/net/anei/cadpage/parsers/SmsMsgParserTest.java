@@ -6,7 +6,7 @@ import java.util.regex.Pattern;
 import org.junit.Test;
 
 import net.anei.cadpage.parsers.OR.ORBentonCountyParser;
-import net.anei.cadpage.parsers.SmsMsgParser.Parser;
+import net.anei.cadpage.parsers.MsgParser.Parser;
 
 import static org.junit.Assert.*;
 
@@ -25,7 +25,7 @@ public class SmsMsgParserTest {
   
   @Test
   public void testParserCode() {
-    SmsMsgParser parser = new ORBentonCountyParser();
+    MsgParser parser = new ORBentonCountyParser();
     assertEquals("ORBentonCounty", parser.getParserCode());
   }
 
@@ -134,7 +134,7 @@ public class SmsMsgParserTest {
   }
 
   private void doKeyTest(String title, String test, String[] keywords, String ... results) {
-    Properties props = SmsMsgParser.parseMessage(test, keywords);
+    Properties props = MsgParser.parseMessage(test, keywords);
     checkProperties(title, results, props);
   }
 

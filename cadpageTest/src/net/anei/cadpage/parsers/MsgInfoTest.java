@@ -1,11 +1,14 @@
-package net.anei.cadpage;
+package net.anei.cadpage.parsers;
 
 import static org.junit.Assert.*;
+
+import net.anei.cadpage.TestManagePreferences;
+import net.anei.cadpage.parsers.MsgInfo;
 
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-public class SmsMsgInfoTest {
+public class MsgInfoTest {
   
   @BeforeClass
   public static void classSetup() {
@@ -114,7 +117,7 @@ public class SmsMsgInfoTest {
   
   private void doMapTest(String title, String result, String address, 
                            String cross, String city, String state) {
-    SmsMsgInfo.Data data = new SmsMsgInfo.Data();
+    MsgInfo.Data data = new MsgInfo.Data();
     data.strAddress = address;
     data.strCross = cross;
     data.strCity = city;
@@ -123,19 +126,19 @@ public class SmsMsgInfoTest {
     data.defCity = "KENBURG";
     data.defState = "XX";
     
-    SmsMsgInfo info = new SmsMsgInfo(data);
+    MsgInfo info = new MsgInfo(data);
     assertEquals(title, result, info.getMapAddress());
   }
   
   private void doMapPlaceTest(String title, String result, String address, String place) { 
-    SmsMsgInfo.Data data = new SmsMsgInfo.Data();
+    MsgInfo.Data data = new MsgInfo.Data();
     data.strAddress = address;
     data.strPlace = place;
     
     data.defCity = "KENBURG";
     data.defState = "XX";
     
-    SmsMsgInfo info = new SmsMsgInfo(data);
+    MsgInfo info = new MsgInfo(data);
     assertEquals(title, result, info.getMapAddress());
   }
 

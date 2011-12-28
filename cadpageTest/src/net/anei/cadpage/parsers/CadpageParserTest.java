@@ -1,6 +1,5 @@
 package net.anei.cadpage.parsers;
 
-import net.anei.cadpage.SmsMmsMessage;
 import net.anei.cadpage.parsers.BaseParserTest;
 
 import org.junit.Test;
@@ -36,9 +35,9 @@ public class CadpageParserTest extends BaseParserTest {
   }
   
   private void doAllTest(String body) {
-    SmsMmsMessage msg = new SmsMmsMessage("ken@cadpage.org", body, 0, SmsMmsMessage.MESSAGE_TYPE_SMS);
-    SmsMsgParser parser = new CadpageParser();
-    assertTrue(parser.isPageMsg(msg));
+    Message msg = new Message(false, "ken@cadpage.org", "", body);
+    MsgParser parser = new CadpageParser();
+    assertTrue(parser.isPageMsg(msg, 0));
     assertEquals(body, CadpageParser.formatInfo(msg.getInfo(), "\n", false));
   }
 }

@@ -13,8 +13,6 @@ import java.util.Set;
 import org.junit.Before;
 import org.junit.Test;
 
-import net.anei.cadpage.SmsMmsMessage;
-import net.anei.cadpage.SmsMsgInfo;
 import net.anei.cadpage.TestManagePreferences;
 import net.anei.cadpage.parsers.FieldProgramParser.Field;
 
@@ -25,7 +23,7 @@ public abstract class BaseParserTest {
   
   private static final String FROM_ADDRESS = "1112223333";
 
-  private SmsMsgParser parser = null;
+  private MsgParser parser = null;
   private String defCity;
   private String defState;
   private String fromAddress = FROM_ADDRESS;
@@ -41,13 +39,13 @@ public abstract class BaseParserTest {
     return preferences;
   }
   
-  public void setParser(SmsMsgParser parser, String defCity, String defState) {
+  public void setParser(MsgParser parser, String defCity, String defState) {
     setParser(parser);
     this.defCity = defCity;
     this.defState = defState;
   }
   
-  public void setParser(SmsMsgParser parser) {
+  public void setParser(MsgParser parser) {
     // If parser is set twice, assume this is a group parser test
     // in which case bad message tests that should fail for the target parser
     // might be passed by another parser in the group.
@@ -64,7 +62,6 @@ public abstract class BaseParserTest {
     this.fromAddress = fromAddress;
   }
   
-  
   @Before
   public void baseSetup() {
     this.setFromAddress(FROM_ADDRESS);
@@ -78,13 +75,13 @@ public abstract class BaseParserTest {
   }
   
   private void checkError(String test) {
-    parser.isPageMsg(new SmsMmsMessage(fromAddress, test, 0L, 0));
+    parser.isPageMsg(new Message(true, fromAddress, "", test), 0);
   }
   
   public void doBadTest(String test) {
     if (skipBadTest) return;
-    SmsMmsMessage msg = new SmsMmsMessage(fromAddress, test, 0L, 0);
-    assertFalse(parser.isPageMsg(msg));
+    Message msg = new Message(true, fromAddress, "", test);
+    assertFalse(parser.isPageMsg(msg, 0));
   }
   
   /**
@@ -129,7 +126,7 @@ public abstract class BaseParserTest {
    * @param result - expected results
    */
   public void doSubTest(String title, boolean chkMapAddr, String subject, String test, String ... result) {
-    SmsMsgInfo.Data data = new SmsMsgInfo.Data();
+    MsgInfo.Data data = new MsgInfo.Data();
     String expMapAddr = "";
     for (String str : result) {
       int pt = str.indexOf(':');
@@ -160,9 +157,9 @@ public abstract class BaseParserTest {
       else fail("Keyword " + sType + " is not defined");
     }
     
-    SmsMmsMessage msg = new SmsMmsMessage(fromAddress, test, 0L, 0);
-    assertTrue(title + ":parse", parser.isPageMsg(msg));
-    SmsMsgInfo info = msg.getInfo();
+    Message msg = new Message(true, fromAddress, subject, test);
+    assertTrue(title + ":parse", parser.isPageMsg(msg, MsgParser.PARSE_FLG_POSITIVE_ID | MsgParser.PARSE_FLG_SKIP_FILTER));
+    MsgInfo info = msg.getInfo();
     String actMapAddr = "";
     if (chkMapAddr) {
       actMapAddr = info.getBaseMapAddress();
@@ -325,15 +322,15 @@ public abstract class BaseParserTest {
    */
   private void generateTest(String title, String test, String[] terms) {
     
-    SmsMmsMessage msg = new SmsMmsMessage(fromAddress, test, 0L, 0);
-    if (!parser.isPageMsg(msg)) {
+    Message msg = new Message(true, fromAddress, "", test);
+    if (!parser.isPageMsg(msg, MsgParser.PARSE_FLG_POSITIVE_ID | MsgParser.PARSE_FLG_SKIP_FILTER)) {
       System.out.println();
       System.out.println("// ************************ PARSE FAILURE *****************************");
       System.out.println("// " + test);
       return;
     }
     
-    SmsMsgInfo info = msg.getInfo();
+    MsgInfo info = msg.getInfo();
     System.out.println("");
     System.out.println("    doTest(\"" + title + "\",");
     System.out.print("        \"" + escape(test) + "\"");
@@ -365,7 +362,7 @@ public abstract class BaseParserTest {
    * @param sType requested value type
    * @return value of requested type
    */
-  private String getValue(SmsMsgInfo info, String sType) {
+  private String getValue(MsgInfo info, String sType) {
     if (sType.equals("CALL")) return info.getCall();
     if (sType.equals("PLACE")) return info.getPlace();
     if (sType.equals("ADDR")) return info.getAddress();

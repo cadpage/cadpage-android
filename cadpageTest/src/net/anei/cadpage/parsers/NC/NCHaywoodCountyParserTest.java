@@ -87,5 +87,13 @@ public class NCHaywoodCountyParserTest extends BaseParserTest {
         "CALL:ROUTINE SICK PERSON",
         "ADDR:311 PISGAH CREEK RD",
         "X:EDGEWATER LN & PISGAH MOUNTAIN RD");
+
+    doTest("T12",
+        "CAD:GOODWILL 75 PLAZA LOOP CANTON NEW CLYDE HWY X MINGUS HILL RD MDL 21D03 2011040779 17:35:40 EMERGENCY HEMORRHAGE LACERATIO",
+        "ADDR:GOODWILL 75 PLAZA LOOP CANTON NEW CLYDE HWY X MINGUS HILL RD MDL 21D03 2011040779 17:35:40 EMERGENCY HEMORRHAGE LACERATIO");
+ }
+  
+  public static void main(String[] args) {
+    new NCHaywoodCountyParserTest().generateTests("T1");
   }
 }

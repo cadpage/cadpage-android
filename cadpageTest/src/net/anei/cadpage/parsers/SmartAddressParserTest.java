@@ -1,7 +1,7 @@
 package net.anei.cadpage.parsers;
 
-import net.anei.cadpage.SmsMsgInfo.Data;
 import net.anei.cadpage.parsers.SmartAddressParser.StartType;
+import net.anei.cadpage.parsers.MsgInfo.Data;
 
 import org.junit.Test;
 

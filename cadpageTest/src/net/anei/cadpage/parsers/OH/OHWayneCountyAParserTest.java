@@ -16,6 +16,15 @@ public class OHWayneCountyAParserTest extends BaseParserTest {
   }
   
   @Test
+  public void testProblem() {
+    doTest("T1",
+        "SQUAD RUN 41 WILLARD ST JOE AYERS, AGE 76, TINGLING IN LEGS AND FEET",
+        "CALL:SQUAD RUN",
+        "ADDR:41 WILLARD ST",
+        "INFO:JOE AYERS, AGE 76, TINGLING IN LEGS AND FEET");
+  }
+  
+  @Test
   public void testParser() {
     doTest("T1",
         "taccad:SQUAD RUN 593 GATES ST CAROLYN RUNYON, AGE 64, POSSIBLE STROKE",
