@@ -3637,10 +3637,10 @@ CAD:41 HOLTZCLAW ST CANTON ORANGE ST X WINFIELD ST MDL 12D02-E 2011040926 12:48:
 CAD:44 HAYWOOD AV CANTON MINGUS ST X PUPPY DOG TR 2011040659 22:00:38 Fire Alarm - Smoke Detector SMOKE DETECTOR
 CAD:2219 RUSS AV 8 WAYNESVILLE CORTLAND CT X JULE NOLAND DR FDL 69D05 2011040700 08:15:46 RESIDENT STRUCT MULTIPLE
 **********************************************************
-Weld County, CO
-Contact: Kaleb Staley <kalebstaley@gmail.com>
-Sender: 86245
-Fr:<Basepage@weldcorcc.com>\nSu:Dispatch\nTxt: 27849,SI -SICK & INJ (F&A),CR 55/CR 62.37 WA,FG 5\n\n\nid:7
+Montgomery County, PA (alternate)
+Contact: Matt Sibley <msibley53@yahoo.com>
+Sender: adi53@comcast.net
+Alarm Close / 10:38 ** BUILDING FIRE NON-COMMERCIAL ** 472 5TH ST ** - ** 66-10 ** WASHINGTON ST AND WAYNE AVE ** \n
 **********************************************************
 **********************************************************
 **********************************************************

@@ -30,6 +30,10 @@ Subject:CAD Page\n\n#110120370 - \nF5:\nBRUSH/GRASS FIRE @ E ENGEL DR / CAIN DR,
 Subject:CAD Page\n\n#110127635 - \nF35:\nMISC. AST EMS @ PILOT TRAVEL CENTER,WGT\n- at 4105 E MORTHLAND DR,WGT\nCROSS: near DEAD END\nGRP:WF\nP
 Subject:CAD Page\n\n#110137072 - \nF35P1:\nEMS AST-P1 @ 429 E ST RD 2,WGT\nCROSS: btwn N 400 E and N 450 E\nGRP:WF\nPRI:1\ncomment: Medical ProQ
 
+Contact: "Kurtz, Eric [KurtzE@comcast.net] " <KurtzE@comcast.net>
+Sender: pcdisp@porterco-ps.org
+Subject:CAD Page\n\n#110166809 - \nF35P1:\nEMS AST-P1 @ 53 ASPEN RD,OGD\nCROSS: btwn BITTERSWEET LN and OGDEN RD\nGRP:OF\nPRI:1\ncomment: Medica 
+
 */
 
 public class INPorterCountyParser extends FieldProgramParser {
@@ -52,6 +56,7 @@ public class INPorterCountyParser extends FieldProgramParser {
       "BHB", "Burns Harbor",
       "CHE", "Chesterton",
       "HEB", "Hebron",
+      "OGD", "Ogden Dunes",
       "PTG", "Portage",
       "PTR", "Porter",
       "VAL", "Valparaiso",
