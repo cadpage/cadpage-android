@@ -8,6 +8,11 @@ public class MessageTest {
   
   @Test
   public void testParseInfo() {
+    doParseTest("COWeldCounty",
+        "Fr:<Basepage@weldcorcc.com>\nSu:Dispatch\nTxt: 27849,SI -SICK & INJ (F&A),CR 55/CR 62.37 WA,FG 5\n\n\nid:7",
+        "Basepage@weldcorcc.com",
+        "Dispatch",
+        "27849,SI -SICK & INJ (F&A),CR 55/CR 62.37 WA,FG 5\n\n\nid:7");
     
     doParseTest("CTLitchfieldCounty",
         "S: LCD Message\nNEW HARTFORD FIRE RESPOND TO 1580 LITCHFIELD TPKE   NEW HARTFORD, , MVA- NO INJURIES- FLUID SPILL ,:08:27",

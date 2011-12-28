@@ -332,6 +332,14 @@ public class COWeldCountyParserTest extends BaseParserTest {
          "NAME:NICKI",
          "PHONE:970-215-5558");
 
+     doTest("T9",
+         "Fr:<Basepage@weldcorcc.com>\nSu:Dispatch\nTxt: 27849,SI -SICK & INJ (F&A),CR 55/CR 62.37 WA,FG 5\n\n\nid:7",
+         "ID:27849",
+         "CALL:SI -SICK & INJ (F&A)",
+         "ADDR:CR 55 & CR 62",
+         "MADDR:COUNTY ROAD 55 & COUNTY ROAD 62",
+         "UNIT:37 WA");
+
   }
   
   public static void  main(String[] args) {
