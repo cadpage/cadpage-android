@@ -1,5 +1,5 @@
 
-Cadpage C2DM messaging protocol
+**** Cadpage C2DM messaging protocol
     
 Stuff we need from you
 First an HTTP address that cadpage will use to communicate with your servers.
@@ -169,7 +169,29 @@ Note that none of these will work if the pages is relayed through another
 messaging service that adds it's own message headers. 
 
 
-General notes:
+**** Finance issues:
+
+A revenue sharing arrangement with Cadpage, where Cadpage gets some percentage
+of your income from C2DM registered phones instead of collecting from the end users,
+is strongly encouraged, but not required to use this interface.
+
+If you do have a revenue sharing arrangement with us, you can indicate this by
+including a "sponsor" code in the C2DM messages sent to Cadpage.  This tells
+Cadpage that it is getting pages from a sponsored source and that it should not
+but the end user for money.  If you do not have a revenue sharing agreement, 
+please do not include a "sponsor" code.
+
+If the subscribing user already has a current paid Cadpage subscription, we would
+prefer that you credit the user for whatever amount would normally be sent to
+Cadpage.  You can determine if they have a paid subscription by sending the device
+a PING request with a P code in the ack_req field.  Cadpage will respond with
+an acknowledge query that contains a paid_status value of either YES or NO.
+
+If you do not have a revenue sharing agreement with us, please do not put anything
+in the sponsor field.
+
+
+**** General notes:
 
 Might be nice to have a web page feature allowing user to locate and map their
 own phone if it happened to be misplaced.
