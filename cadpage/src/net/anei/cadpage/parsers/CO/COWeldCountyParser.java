@@ -57,8 +57,6 @@ Contact: Kaleb Staley <kalebstaley@gmail.com>
 Sender: 86245
 Fr:<Basepage@weldcorcc.com>\nSu:Dispatch\nTxt: 27849,SI -SICK & INJ (F&A),CR 55/CR 62.37 WA,FG 5\n\n\nid:7
 
-(Dispatch)27849,SI -SICK & INJ (F&A),CR 55/CR 62.37 WA,FG 5\n\n\nid:7
-
  */
 
 

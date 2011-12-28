@@ -25,6 +25,11 @@ public class CadpageParser  extends FieldProgramParser{
   }
   
   @Override
+  public String getLocName() {
+    return "Cadpage";
+  }
+  
+  @Override
   protected boolean parseMsg(String body, Data data) {
     int fieldCnt = 0;
     int lastPt = 0;

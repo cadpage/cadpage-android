@@ -79,7 +79,10 @@ public class Message {
     Pattern.compile("^(?:[-=.+_a-z0-9]*[0-9a-f]{8,}[-=.+_a-z0-9]*=)?([\\w.!\\-]+@[\\w.]+)[\\s:]")
   };
   private static final Pattern EMAIL_PFX_PATTERN = Pattern.compile("^([\\w\\.]+@[\\w\\.]+)\\n");
-  private static final Pattern E_S_M_PATTERN = Pattern.compile("^(?:([^ ,;/]+) +)?S: *(.*?)(?: +M:|\n)");
+  private static final Pattern[] E_S_M_PATTERNS = new Pattern[]{
+    Pattern.compile("^(?:([^ ,;/]+) +)?S: *(.*?)(?: +M:|\n)"), 
+    Pattern.compile("^Fr:<(.*?)>\nSu:(.*?)\nTxt: ")
+  };
   
   private void preParse(String fromAddress, String subject, String body) {
     
@@ -238,17 +241,25 @@ public class Message {
         break;
       }
       
-      /* Decode patterns that look like
+      /* Decode patterns that contain an email address, subject, and message
        * S:subject M:msg
        */
-      match = E_S_M_PATTERN.matcher(body);
-      if (match.find()) {
+      found = false;
+      for (Pattern ptn : E_S_M_PATTERNS) {
+        match = ptn.matcher(body);
+        found = match.find();
+        if (found) break;
+      }
+      
+      if (found) {
         String from = match.group(1);
         if (from != null) parseAddress = from;
-        addSubject(match.group(2));
+        String sub = match.group(2);
+        if (sub != null) addSubject(sub);
         body = body.substring(match.end()).trim();
         break;
       }
+    
       
       /* Decode patterns that match EMAIL_PATTERN, which is basically an email address
        * followed by one of a set of known delimiters
