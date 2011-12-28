@@ -141,6 +141,17 @@ public class INPorterCountyParserTest extends BaseParserTest {
         "X:N 400 E and N 450 E",
         "PRI:1",
         "INFO:Medical ProQ");
+
+    doTest("T13",
+        "Subject:CAD Page\n\n#110166809 - \nF35P1:\nEMS AST-P1 @ 53 ASPEN RD,OGD\nCROSS: btwn BITTERSWEET LN and OGDEN RD\nGRP:OF\nPRI:1\ncomment: Medica ",
+        "ID:110166809",
+        "UNIT:F35P1",
+        "CALL:EMS AST-P1",
+        "ADDR:53 ASPEN RD",
+        "CITY:Ogden Dunes",
+        "X:BITTERSWEET LN and OGDEN RD",
+        "PRI:1",
+        "INFO:Medica");
   }
   
   public static void main(String[] args) {
