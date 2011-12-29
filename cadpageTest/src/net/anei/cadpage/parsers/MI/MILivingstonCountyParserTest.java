@@ -92,9 +92,16 @@ public class MILivingstonCountyParserTest extends BaseParserTest {
         "CALL:PIA",
         "ADDR:DORR RD & E GRAND RIVER",
         "INFO:JEEP LIBERTY VS SILVER VAN");
+
+    doTest("T13",
+        "CAD:CANCEL;N NATIONAL ST/E GRAND RIVER AVE; HOWL;AT CORNER",
+        "CALL:CANCEL",
+        "ADDR:N NATIONAL ST & E GRAND RIVER AVE",
+        "CITY:HOWELL",
+        "INFO:AT CORNER");
  }
   
   public static void main(String[] args) {
-    new MILivingstonCountyParserTest().generateTests("T13");
+    new MILivingstonCountyParserTest().generateTests("T14");
   }
 }
