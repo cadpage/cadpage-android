@@ -23,6 +23,7 @@ public class SmartAddressParserTest extends BaseParserTest {
   private static final int FLAG_CHECK_STATUS = SmartAddressParser.FLAG_CHECK_STATUS;
   private static final int FLAG_ONLY_CITY = SmartAddressParser.FLAG_ONLY_CITY;
   private static final int FLAG_ONLY_CROSS = SmartAddressParser.FLAG_ONLY_CROSS;
+  private static final int FLAG_CROSS_FOLLOWS = SmartAddressParser.FLAG_CROSS_FOLLOWS;
   
   private static final String[] CITY_LIST = new String[]{"KENSBURG", "KEN TOWN"};
   private static final String DEF_CITY = "STATE OF MIND";
@@ -37,10 +38,6 @@ public class SmartAddressParserTest extends BaseParserTest {
   
   @Test
   public void testProblem() {
-    doTest(ADDR, FLAG_ONLY_CROSS | FLAG_ANCHOR_END | FLAG_IMPLIED_INTERSECT, 
-        "DOUTHIT ST SW FAYE ST SW",
-        "X:DOUTHIT ST SW / FAYE ST SW");
-
   }
   
   @Test
@@ -161,6 +158,9 @@ public class SmartAddressParserTest extends BaseParserTest {
         "CITY:KENSBURG");
     doTest(ADDR, "300 N KENSBURG ST KENSBURG EXTRA",
         "ADDR:300 N KENSBURG ST",
+        "CITY:KENSBURG");
+    doTest(ADDR, FLAG_CROSS_FOLLOWS, "41 HOLTZCLAW ST KENSBURG ORANGE ST X WINFIELD ST",
+        "ADDR:41 HOLTZCLAW ST",
         "CITY:KENSBURG");
   }
   

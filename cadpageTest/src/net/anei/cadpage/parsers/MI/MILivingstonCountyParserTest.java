@@ -99,6 +99,27 @@ public class MILivingstonCountyParserTest extends BaseParserTest {
         "ADDR:N NATIONAL ST & E GRAND RIVER AVE",
         "CITY:HOWELL",
         "INFO:AT CORNER");
+
+    doTest("T14",
+        "CAD:Update: ;OIOUT;REGAL RECYCLERS;645 LUCY RD;INDUSTRIAL ST;{EN34} REQ CONSUMERS [12/28/11 17:51:25 LLOWE]",
+        "ADDR:645 LUCY RD",
+        "CALL:OIOUT",
+        "PLACE:REGAL RECYCLERS",
+        "X:INDUSTRIAL ST",
+        "INFO:{EN34} REQ CONSUMERS");
+
+    doTest("T15",
+        "CAD:FYI: ;CHOKE;5385 GREEN RD;CLYDE RD;[Medical Priority Info] RESPONSE: P1 STA 1 2 3 4 5 6 7 8<tel:12345678> FC FT RESPONDER SCRIPT: 78 year old, Male, Conscious, Not breathing. Choking. Not alert. Caller Statement: CHOKING ON FOOD . 1.He is n",
+        "CALL:CHOKE",
+        "ADDR:5385 GREEN RD",
+        "X:CLYDE RD",
+        "INFO:78 year old, Male, Conscious, Not breathing. Choking. Not alert. Caller Statement: CHOKING ON FOOD . 1.He is n");
+
+    doTest("T16",
+        "CAD:FYI: ;PIA;N LATSON RD/E HIGHLAND RD;RED TRUCK VS SMALL SEDAN PER CALLER SUBJECT IS NOT OK [12/28/11 19:50:00 MSPICER]",
+        "CALL:PIA",
+        "ADDR:N LATSON RD & E HIGHLAND RD",
+        "INFO:RED TRUCK VS SMALL SEDAN PER CALLER SUBJECT IS NOT OK");
  }
   
   public static void main(String[] args) {
