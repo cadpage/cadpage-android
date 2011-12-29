@@ -1,5 +1,7 @@
 package net.anei.cadpage.parsers.MI;
 
+import java.util.Properties;
+
 import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchOSSIParser;
 
@@ -42,6 +44,10 @@ Contact: John Masek <john.sta33@gmail.com>
 Sender: CAD@livingstoncounty.livco
 FRM:CAD@livingstoncounty.livco\nMSG:CAD:FYI: ;PIA;DORR RD/E GRAND RIVER;JEEP LIBERTY VS SILVER VAN [11/30/11 09:18:58 CWESTPHAL]
 
+Contact: James P Krywko <James.Krywko@ipaper.com>
+Sender: CAD@livingstoncounty.livco
+CAD:CANCEL;N NATIONAL ST/E GRAND RIVER AVE; HOWL;AT CORNER
+
 */
 
 public class MILivingstonCountyParser extends DispatchOSSIParser {
@@ -51,8 +57,8 @@ public class MILivingstonCountyParser extends DispatchOSSIParser {
   }
   
   public MILivingstonCountyParser() {
-    super("LIVINGSTON COUNTY", "MI",
-           "SKIP CALL PLACE? ADDR/s! X? X? INFO+");
+    super(CITY_CODES, "LIVINGSTON COUNTY", "MI",
+           "( CANCEL ADDR CITY | SKIP CALL PLACE? ADDR/s! X? X? ) INFO+");
   }
   
   @Override
@@ -60,4 +66,14 @@ public class MILivingstonCountyParser extends DispatchOSSIParser {
     if (body.startsWith("FYI: ;")) body = "CAD:" + body;
     return super.parseMsg(body, data);
   }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("CANCEL")) return new CallField("CANCEL");
+    return super.getField(name);
+  }
+  
+  private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "HOWL", "HOWELL"
+  });
 }
