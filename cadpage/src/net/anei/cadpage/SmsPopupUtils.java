@@ -1,13 +1,10 @@
 package net.anei.cadpage;
 
-import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.donation.DonationManager;
-import net.anei.cadpage.parsers.MsgInfo;
 
 import android.app.AlertDialog;
-import android.content.ActivityNotFoundException;
 import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
@@ -15,15 +12,10 @@ import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
-import android.net.Uri;
 import android.preference.PreferenceManager;
 import android.telephony.SmsMessage;
 
 public class SmsPopupUtils {
-
-  public static final Pattern GPSPattern = 
-    Pattern.compile("\\b([+-]?[0-9]+\\.[0-9]{4,}|[+-]?[0-9]+:[0-9]+:[0-9]+\\.[0-9]{4,})[,\\W]\\W*([+-]?[0-9]+\\.[0-9]{4,}|[+-]?[0-9]+:[0-9]+:[0-9]+\\.[0-9]{4,})\\b");
-
 
   public static final Pattern NAME_ADDR_EMAIL_PATTERN =
     Pattern.compile("\\s*(\"[^\"]*\"|[^<>\"]+)\\s*<([^<>]+)>\\s*");
@@ -110,29 +102,6 @@ public class SmsPopupUtils {
     }
     return version_sdk;
   }
-  
-
-  /**
-   * Request map location for message
-   */
-  public static void  mapMessage(Context context, MsgInfo info, boolean useGPS)  {
-    if (Log.DEBUG) Log.v("Request Received to Map Call");
-    if (haveNet(context)) {
-        String searchStr = null;
-        if (useGPS) searchStr = parseGPSCoords(info.getGPSLoc());
-        if (searchStr == null) searchStr = parseGPSCoords(info.getMapAddress());
-        if (searchStr == null) searchStr = Uri.encode(info.getMapAddress());
-        Uri uri = Uri.parse("geo:0,0?q=" + searchStr);
-        if (Log.DEBUG) Log.v("mapMessage: SearchStr=" + searchStr);
-        Intent intent = new Intent(Intent.ACTION_VIEW, uri);
-        
-        try {
-            context.startActivity(intent);
-        } catch (ActivityNotFoundException ex) {
-            Log.e("Could not find com.google.android.maps.Maps activity");
-        }
-    }
-  }
 
   /**
    * Determine if we have Internet connectivity
@@ -172,55 +141,5 @@ public class SmsPopupUtils {
     .setPositiveButton(R.string.donate_btn_OK, null)
     .setMessage(resId)
     .create().show();
-  }
-
-
-  /**
-   * Look for GPS coordinates in address line.  If found, parse them into a
-   * set of coordinates that Google Maps will recognize
-   */
-  private static String parseGPSCoords(String address) {
-    Matcher match = GPSPattern.matcher(address);
-    if (!match.find()) return null;
-
-    double c1 = cvtGpsCoord(match.group(1));
-    double c2 = cvtGpsCoord(match.group(2));
-    
-    // There isn't a consistent standard as to which is latitude and
-    // which is longitude, so we will have to make some guesses.
-    double latitude, longitude;
-    if (c1 < 0) {
-      latitude = c2;
-      longitude = c1;
-    } else if (c2 < 0) {
-      latitude = c1;
-      longitude = c2;
-    } else if (c1 > c2) {
-      latitude = c2;
-      longitude = -c1;
-    } else {
-      latitude = c1;
-      longitude = -c2;
-    }
-    return "" + latitude + "," + longitude;
-  }
-
-  /**
-   * Convert GPS coordinate in degree:min:sec form to strait degrees
-   */
-  private static double cvtGpsCoord(String coord) {
-    int pt1 = coord.indexOf(':');
-    if (pt1 < 0) return Double.parseDouble(coord);
-    int pt2 = coord.indexOf(':', pt1+1);
-    String sDeg = coord.substring(0, pt1);
-    char sgn = sDeg.charAt(0);
-    boolean neg = (sgn == '-');
-    if (neg || sgn == '+') sDeg = sDeg.substring(1);
-    int deg = Integer.parseInt(sDeg);
-    int min = Integer.parseInt(coord.substring(pt1+1,pt2));
-    double sec = Double.parseDouble(coord.substring(pt2+1));
-    double result = deg + min/60. + sec/3600.;
-    if (neg) result = -result;
-    return result;
   }
 }

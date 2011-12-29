@@ -41,6 +41,10 @@ FRM:messaging@iamresponding.com\nSUBJ:West Ridge Fire\nMSG:21B1 &gt;HEMORRHAGE /
 FRM:messaging@iamresponding.com\nSUBJ:West Ridge Fire\nMSG:9E1 &gt;CARDIAC/RESP ARREST / DEATH 4411 FOREST GLEN DR XS: W 38TH ST MILLCREEK TWP\n
 FRM:messaging@iamresponding.com\nSUBJ:West Ridge Fire\nMSG:28C10G&gt;STROKE (CVA) BREATH NORM &gt; 35 3643 MEADOW DR XS: CAUGHEY RD MILLCREEK TWP\n
 
+Contact: Matt Fuller <mfullererie@gmail.com>
+From: 8144312596
+1 of 2:ERIE911:65A >MUTUAL AID/ASSIST OUTSIDE AGEN 328 HIGH ST XS: N PARK ROW WATERFORD BORO CHIEF CHRIS BARBER
+
 */
 
 public class PAErieCountyAParser extends DispatchBParser {

@@ -3744,6 +3744,27 @@ ME621 M624; NO TEXT
 Somerset County, MD
 Contact: Chris McLain <ctm826@gmail.com>
 Sender: CAD@somerset911.local
+
+ALL - Allen
+BERL - Berlin
+CRIS - Crisfield
+DEAL - Deal Island
+EDEN - Eden
+EWEL - Ewell
+FAIR - Upper Fairmount
+FRUI - Fruitland
+MANO - Manokin
+MARI - Marion Station
+POCO - Pocomoke City
+PRIN - Princess Anne
+RHOD - Rhodes Point
+SALI - Salisbury
+TYLE - Tylerton
+VENT - Venton
+WEST - Westover
+
+
+
 CAD:S5A;BACK PAIN;23196 PAUL BENTON CIR;DEAL
 
 Contact: "Ford, Allen C" <acford@dpscs.state.md.us>

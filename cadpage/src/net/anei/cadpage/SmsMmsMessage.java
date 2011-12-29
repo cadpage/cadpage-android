@@ -18,8 +18,10 @@ import net.anei.cadpage.parsers.MsgParser;
 import net.anei.cadpage.vendors.VendorManager;
 
 import android.app.Activity;
+import android.content.ActivityNotFoundException;
 import android.content.Context;
 import android.content.Intent;
+import android.net.Uri;
 import android.telephony.SmsMessage;
 import android.telephony.SmsMessage.MessageClass;
 import android.text.format.DateFormat;
@@ -31,6 +33,8 @@ import android.view.View;
 import android.widget.Button;
 
 import static net.anei.cadpage.BroadcastBindings.*;
+
+
 
 public class SmsMmsMessage implements Serializable {
 
@@ -618,7 +622,7 @@ public class SmsMmsMessage implements Serializable {
   public String getSponsor() {
     return sponsor;
   }
-  
+
   /**
    * Create option or context menu for message
    * @param context current context
@@ -757,7 +761,7 @@ public class SmsMmsMessage implements Serializable {
       return true;
       
     case R.id.map_item:
-      SmsPopupUtils.mapMessage(context, getInfo(), false);
+      mapMessage(context, false);
       return true;
       
     case R.id.toggle_lock_item:
@@ -783,6 +787,50 @@ public class SmsMmsMessage implements Serializable {
     default:
       return false;
     }
+  }
+
+  /**
+   * Request map location for message
+   * @param context current context
+   * @param useGPS use GPS location in preference to regular address
+   */
+  private void  mapMessage(Context context, boolean useGPS)  {
+    if (Log.DEBUG) Log.v("Request Received to Map Call");
+    
+    String searchStr = getMapAddress(useGPS);
+    if (searchStr == null) return;
+    
+    if (!SmsPopupUtils.haveNet(context)) return;
+
+    Uri uri = Uri.parse("geo:0,0?q=" + Uri.encode(searchStr));
+    if (Log.DEBUG) Log.v("mapMessage: SearchStr=" + searchStr);
+    Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+    
+    try {
+        context.startActivity(intent);
+    } catch (ActivityNotFoundException ex) {
+        Log.e("Could not find com.google.android.maps.Maps activity");
+    }
+  }
+
+  /**
+   * Compute map search address
+   * @param useGPS true to use GPS location in preference to regular address
+   * @return map search string or null if not available
+   */
+  private String getMapAddress(boolean useGPS) {
+    
+    if (parseInfo == null) return null;
+    MsgInfo info = parseInfo.getInfo();
+    if (info == null) return null;
+    
+    String defCity = null;
+    String defState = null;
+    if (ManagePreferences.overrideDefaults()) {
+      defCity = ManagePreferences.defaultCity();
+      defState = ManagePreferences.defaultState();
+    }
+    return info.getMapAddress(useGPS, defCity, defState);
   }
   
   /**
@@ -814,7 +862,10 @@ public class SmsMmsMessage implements Serializable {
       putExtraString(intent, EXTRA_PARSE_ADDRESS, info.getAddress());
       putExtraString(intent, EXTRA_PARSE_CITY, info.getCity());
       putExtraString(intent, EXTRA_PARSE_STATE, info.getState());
-      putExtraString(intent, EXTRA_PARSE_MAP_ADDRESS, info.getMapAddress());
+      String mapAddress = getMapAddress(false);
+      if (mapAddress != null) {
+        putExtraString(intent, EXTRA_PARSE_MAP_ADDRESS, mapAddress);
+      }
       putExtraString(intent, EXTRA_PARSE_APT, info.getApt());
       putExtraString(intent, EXTRA_PARSE_MAP, info.getMap());
       putExtraString(intent, EXTRA_PARSE_BOX, info.getBox());

@@ -9,8 +9,6 @@ import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import net.anei.cadpage.SmsPopupUtils;
-
 /**
  * Abstract message parser class that adds support for "smart" address parsing.
  * That is parsing logic that can be used for text formats that do not clearly 
@@ -402,7 +400,7 @@ public abstract class SmartAddressParser extends MsgParser {
     // in this address.  If we do find them, pack them so they will parse
     // into a single token
     String gpsCoords = null;
-    Matcher match = SmsPopupUtils.GPSPattern.matcher(address);
+    Matcher match = MsgInfo.GPSPattern.matcher(address);
     if (match.find()) {
       gpsCoords = match.group(1) + ',' + match.group(2); 
       address = address.substring(0, match.start()) + gpsCoords 

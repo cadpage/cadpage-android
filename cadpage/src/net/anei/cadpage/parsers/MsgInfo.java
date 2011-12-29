@@ -3,9 +3,6 @@ package net.anei.cadpage.parsers;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import net.anei.cadpage.ManagePreferences;
-import net.anei.cadpage.SmsPopupUtils;
-
 /**
  * This class contains all of the useful data fields that are parsed from
  * the actual message text
@@ -187,16 +184,32 @@ public class MsgInfo {
   }
   
   /**
-   * @return return mapping address
+   * Calculate map search string to be passed to Google maps
+   * @param useGPS true if GPS coordinates should be used in preference to map address
+   * @param overrideCity if non-null, this value should override parser default city
+   * @param overrideState if non-null, this value should override parser default state
+   * @return return mapping address or null if there is no map address
    */
-  public String getMapAddress() {
-    StringBuilder sb = new StringBuilder(getBaseMapAddress());
+  public String getMapAddress(boolean useGPS, String overrideCity, String overrideState) {
+    
+    // See if we can find any GPS coordinates, if we do, return those
+    String mapAddr = null;
+    if (useGPS) mapAddr = parseGPSCoords(strGPSLoc);
+    if (mapAddr == null) mapAddr = parseGPSCoords(strAddress);
+    if (mapAddr != null) return mapAddr;
+    
+    // if there is no base address, return null
+    mapAddr = getBaseMapAddress();
+    if (mapAddr.length() == 0) return null;
+
+    
+    StringBuilder sb = new StringBuilder(mapAddr);
     
     // Add city if specified, default city otherwise
     String city = strCity;
     if (city.equals("OUT OF COUNTY")) city = "";
     else if (city.length() == 0) {
-      city = getDefCity();
+      city = (overrideCity != null ? overrideCity : defCity);
     }
     if (city.length() > 0 && !city.equalsIgnoreCase("NONE")) {
       sb.append(",");
@@ -206,13 +219,65 @@ public class MsgInfo {
     // Add state if specified, default state otherwise
     String state = strState;
     if (state.length() == 0) {
-      state = getDefState();
+      state = (overrideState != null ? overrideState : defState);
     }
     if (state.length() > 0 && !state.equalsIgnoreCase("NONE")) {
       sb.append(",");
       sb.append(state);
     }
     return sb.toString();
+  }
+
+  /**
+   * Look for GPS coordinates in address line.  If found, parse them into a
+   * set of coordinates that Google Maps will recognize
+   */
+  private static String parseGPSCoords(String address) {
+    Matcher match = GPSPattern.matcher(address);
+    if (!match.find()) return null;
+
+    double c1 = cvtGpsCoord(match.group(1));
+    double c2 = cvtGpsCoord(match.group(2));
+    
+    // There isn't a consistent standard as to which is latitude and
+    // which is longitude, so we will have to make some guesses.
+    double latitude, longitude;
+    if (c1 < 0) {
+      latitude = c2;
+      longitude = c1;
+    } else if (c2 < 0) {
+      latitude = c1;
+      longitude = c2;
+    } else if (c1 > c2) {
+      latitude = c2;
+      longitude = -c1;
+    } else {
+      latitude = c1;
+      longitude = -c2;
+    }
+    return "" + latitude + "," + longitude;
+  }
+  
+  public static final Pattern GPSPattern = 
+    Pattern.compile("\\b([+-]?[0-9]+\\.[0-9]{4,}|[+-]?[0-9]+:[0-9]+:[0-9]+\\.[0-9]{4,})[,\\W]\\W*([+-]?[0-9]+\\.[0-9]{4,}|[+-]?[0-9]+:[0-9]+:[0-9]+\\.[0-9]{4,})\\b");
+
+  /**
+   * Convert GPS coordinate in degree:min:sec form to strait degrees
+   */
+  private static double cvtGpsCoord(String coord) {
+    int pt1 = coord.indexOf(':');
+    if (pt1 < 0) return Double.parseDouble(coord);
+    int pt2 = coord.indexOf(':', pt1+1);
+    String sDeg = coord.substring(0, pt1);
+    char sgn = sDeg.charAt(0);
+    boolean neg = (sgn == '-');
+    if (neg || sgn == '+') sDeg = sDeg.substring(1);
+    int deg = Integer.parseInt(sDeg);
+    int min = Integer.parseInt(coord.substring(pt1+1,pt2));
+    double sec = Double.parseDouble(coord.substring(pt2+1));
+    double result = deg + min/60. + sec/3600.;
+    if (neg) result = -result;
+    return result;
   }
   
   /**
@@ -226,7 +291,7 @@ public class MsgInfo {
     
     if (strBaseMapAddress != null) return strBaseMapAddress;
     
-    if (SmsPopupUtils.GPSPattern.matcher(strAddress).find()) {
+    if (GPSPattern.matcher(strAddress).find()) {
       strBaseMapAddress = strAddress;
       return strBaseMapAddress;
     }
@@ -607,16 +672,14 @@ public class MsgInfo {
    * @return the default city 
    */
   public String getDefCity() {
-    boolean override = ManagePreferences.overrideDefaults();
-    return (override ? ManagePreferences.defaultCity() :  defCity);
+    return defCity;
   }
   
   /**
    * @return the default state 
    */
   public String getDefState() {
-    boolean override = ManagePreferences.overrideDefaults();
-    return (override ? ManagePreferences.defaultState() : defState);
+    return defState;
   }
   
   /**
