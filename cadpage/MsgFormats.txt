@@ -3642,6 +3642,9 @@ Contact: Matt Sibley <msibley53@yahoo.com>
 Sender: adi53@comcast.net
 Alarm Close / 10:38 ** BUILDING FIRE NON-COMMERCIAL ** 472 5TH ST ** - ** 66-10 ** WASHINGTON ST AND WAYNE AVE ** \n
 **********************************************************
+Unknown
+Contact: Ryan Klackle <klacklery@gmail.com>
+CAD:828-151A E Washington ST;1107030;[Medical Priority Info] RESPONSE; Amb & Rescue RESPONDER SCRIPT: 80 year old, Female, Conscious, Breathing. ALTERED LEVEL OF C
 **********************************************************
 **********************************************************
 **********************************************************
