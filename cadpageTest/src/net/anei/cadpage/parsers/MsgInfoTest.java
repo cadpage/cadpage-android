@@ -127,7 +127,7 @@ public class MsgInfoTest {
     data.defState = "XX";
     
     MsgInfo info = new MsgInfo(data);
-    assertEquals(title, result, info.getMapAddress());
+    assertEquals(title, result, info.getMapAddress(false, null, null));
   }
   
   private void doMapPlaceTest(String title, String result, String address, String place) { 
@@ -139,7 +139,7 @@ public class MsgInfoTest {
     data.defState = "XX";
     
     MsgInfo info = new MsgInfo(data);
-    assertEquals(title, result, info.getMapAddress());
+    assertEquals(title, result, info.getMapAddress(false, null,null));
   }
 
 }

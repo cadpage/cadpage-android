@@ -207,10 +207,19 @@ public class PAErieCountyAParserTest extends BaseParserTest {
         "ADDR:35 3643 MEADOW DR",
         "CITY:MILLCREEK TWP",
         "X:CAUGHEY RD");
+
+    doTest("T21",
+        "1 of 2:ERIE911:65A >MUTUAL AID/ASSIST OUTSIDE AGEN 328 HIGH ST XS: N PARK ROW WATERFORD BORO CHIEF CHRIS BARBER",
+        "SRC:ERIE911",
+        "CALL:MUTUAL AID/ASSIST OUTSIDE AGEN",
+        "ADDR:328 HIGH ST",
+        "CITY:WATERFORD",
+        "X:N PARK ROW",
+        "NAME:BORO CHIEF CHRIS BARBER");
  
   }
   
   public static void main(String[] args) {
-    new PAErieCountyAParserTest().generateTests("T21", "SRC CALL ADDR CITY X NAME MAP PLACE ID");
+    new PAErieCountyAParserTest().generateTests("T22", "SRC CALL ADDR CITY X NAME MAP PLACE ID");
   }
 }

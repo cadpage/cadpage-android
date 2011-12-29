@@ -1,7 +1,6 @@
 package net.anei.cadpage.parsers.MD;
 
 
-import net.anei.cadpage.TestManagePreferences;
 import net.anei.cadpage.parsers.BaseParserTest;
 
 import org.junit.Test;
@@ -10,8 +9,6 @@ public class MDCharlesCountyParserTest extends BaseParserTest {
   
   public MDCharlesCountyParserTest() {
     setParser(new MDCharlesCountyParser(), "CHARLES COUNTY", "MD");
-    TestManagePreferences pmgr = getPreferences();
-    pmgr.setTestOverrideFilter(false);
   }
   
   @Test

@@ -1,6 +1,5 @@
 package net.anei.cadpage.parsers.SC;
 
-import net.anei.cadpage.TestManagePreferences;
 import net.anei.cadpage.parsers.BaseParserTest;
 
 import org.junit.Test;
@@ -10,8 +9,6 @@ public class SCRichlandCountyParserTest extends BaseParserTest {
   
   public SCRichlandCountyParserTest() {
     setParser(new SCRichlandCountyParser(), "RICHLAND COUNTY", "SC");
-    TestManagePreferences pmgr = getPreferences();
-    pmgr.setTestOverrideFilter(false);
   }
   
   @Test

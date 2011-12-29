@@ -1,6 +1,5 @@
 package net.anei.cadpage.parsers.AL;
 
-import net.anei.cadpage.TestManagePreferences;
 import net.anei.cadpage.parsers.BaseParserTest;
 
 import org.junit.Test;
@@ -10,8 +9,6 @@ public class ALHenryCountyParserTest extends BaseParserTest {
   
   public ALHenryCountyParserTest() {
     setParser(new ALHenryCountyParser(), "HENRY COUNTY", "AL");
-    TestManagePreferences pmgr = getPreferences();
-    pmgr.setTestOverrideFilter(false);
   }
   
   @Test

@@ -1,6 +1,5 @@
 package net.anei.cadpage.parsers.general;
 
-import net.anei.cadpage.TestManagePreferences;
 import net.anei.cadpage.parsers.BaseParserTest;
 import net.anei.cadpage.parsers.general.GeneralParser;
 
@@ -11,10 +10,6 @@ public class GeneralParserTest extends BaseParserTest {
   
   public GeneralParserTest() {
     setParser(new GeneralParser(), "", "");
-    TestManagePreferences pmgr = getPreferences();
-    pmgr.setTestLocation("General");
-    pmgr.setTestOverrideFilter(true);
-    pmgr.setTestFilter("1112223333");
   }
   
   @Test

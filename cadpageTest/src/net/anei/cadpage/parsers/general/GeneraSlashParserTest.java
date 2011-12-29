@@ -1,6 +1,5 @@
 package net.anei.cadpage.parsers.general;
 
-import net.anei.cadpage.TestManagePreferences;
 import net.anei.cadpage.parsers.BaseParserTest;
 import net.anei.cadpage.parsers.general.GeneralSlashParser;
 
@@ -11,10 +10,6 @@ public class GeneraSlashParserTest extends BaseParserTest {
   
   public GeneraSlashParserTest() {
     setParser(new GeneralSlashParser(), "", "");
-    TestManagePreferences pmgr = getPreferences();
-    pmgr.setTestLocation("GeneralSlash");
-    pmgr.setTestOverrideFilter(true);
-    pmgr.setTestFilter("1112223333");
   }
   
   @Test

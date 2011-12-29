@@ -8,6 +8,7 @@ public class MessageTest {
   
   @Test
   public void testParseInfo() {
+        
     doParseTest("COWeldCounty",
         "Fr:<Basepage@weldcorcc.com>\nSu:Dispatch\nTxt: 27849,SI -SICK & INJ (F&A),CR 55/CR 62.37 WA,FG 5\n\n\nid:7",
         "Basepage@weldcorcc.com",
@@ -271,6 +272,8 @@ public class MessageTest {
   
   @Test
   public void testParseBreak() {
+    doParseTest("PAErieCounty", "1 of 2:ERIE911:65A >MUTUAL AID/ASSIST",
+                "ken@cadpage.org", "", "ERIE911:65A >MUTUAL AID/ASSIST", 1, 2);
     
     doParseTest("HDR1", "0001/0003 THIS IS A TEST",
                 "ken@cadpage.org", "", "THIS IS A TEST", 1, 3);

@@ -1,6 +1,5 @@
 package net.anei.cadpage.parsers.OH;
 
-import net.anei.cadpage.TestManagePreferences;
 import net.anei.cadpage.parsers.BaseParserTest;
 
 import org.junit.Test;
@@ -10,11 +9,6 @@ public class OHWayneCountyBParserTest extends BaseParserTest {
   
   public OHWayneCountyBParserTest() {
     setParser(new OHWayneCountyBParser(), "WAYNE COUNTY", "OH");
-    
-    // Needed when we run against the Wayne County A Parser
-    TestManagePreferences pmgr = getPreferences();
-    pmgr.setTestOverrideFilter(true);
-    pmgr.setTestFilter("1112223333");
   }
   
   @Test

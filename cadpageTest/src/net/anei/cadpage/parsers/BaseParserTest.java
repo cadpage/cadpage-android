@@ -13,7 +13,6 @@ import java.util.Set;
 import org.junit.Before;
 import org.junit.Test;
 
-import net.anei.cadpage.TestManagePreferences;
 import net.anei.cadpage.parsers.FieldProgramParser.Field;
 
 import static org.junit.Assert.*;
@@ -27,17 +26,7 @@ public abstract class BaseParserTest {
   private String defCity;
   private String defState;
   private String fromAddress = FROM_ADDRESS;
-  private TestManagePreferences preferences;
   private boolean skipBadTest = false;
-  
-  protected BaseParserTest() {
-    preferences = new TestManagePreferences();
-    preferences.setTestOverrideDefault(false);
-  }
-  
-  protected TestManagePreferences getPreferences() {
-    return preferences;
-  }
   
   public void setParser(MsgParser parser, String defCity, String defState) {
     setParser(parser);
@@ -367,7 +356,7 @@ public abstract class BaseParserTest {
     if (sType.equals("PLACE")) return info.getPlace();
     if (sType.equals("ADDR")) return info.getAddress();
     if (sType.equals("MADDR")) {
-      String mapAddr = info.getMapAddress();
+      String mapAddr = info.getMapAddress(false, null, null);
       int pt = mapAddr.indexOf(',');
       if (pt >= 0) mapAddr = mapAddr.substring(0,pt).trim();
       if (mapAddr.equals(info.getAddress())) mapAddr = "";
