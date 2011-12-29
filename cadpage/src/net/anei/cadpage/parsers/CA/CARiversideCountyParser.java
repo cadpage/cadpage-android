@@ -10,13 +10,6 @@ Riverside County, CA
 Contact: JackPeckham <jackpeckham@idyllwildfire.com>
 Sender: messaging@iamresponding.com
 
-"IDYL" is Idyllwild, ca 92549 for mapping and "PINC" is Pine Cove but shows
-up as Idyllwild, CA 92549 in Google maps
-
-You will see one Dec. 22, 17:42 "IAF-LOWER WAYNE" this is a ringing alarm at
-a school, Idyllwild Arts Foundation (IAF) & "Lower Wayne" is the building
-name
-
 MED, TRAFFIC COLLISION; 24630 UPPER RIM ROCK RD ,IDYL ; IFO ADDY SOLO VEH ROLLOVER; 24899 BLK AZALEA RD; 814_F_4/155__98; Inc# 118228; Cmd: RRU SUP 8; Tac: RVC TAC 0; M626; icy roads access from lower way
 MED, PERSON DOWN; STN621 @ 54160 MARANATHA DR ,IDYL ; ; 25778 BLK JOHNSON RD; 814_C_6/154__131; Inc# 119114; Cmd: RRU SUP 11; Tac: RVC TAC 0; M625; NO TEXT
 MED, PERSON DOWN; 25280 NORWOOD DR ,PINC ; RX TO PRES MEDS; 52100 BLK ACORN LN; 813_H_5/154__116; Inc# 118213; Cmd: RRU SUP 8; Tac: RVC TAC 0; STN23A E23 M624; NO TEXT

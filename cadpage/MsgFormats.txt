@@ -1082,6 +1082,11 @@ Saint Marys County, MD (MDSaintMarysCountyParser)
 14:41:22*Personal Injury Accident*21050 WILLOWS RD INTERSECTN*ABBERLY CREST LN*LEXINGTON PARK*CO3 CO39 CO6R*
 15:24:31*Working House Fire*20242 POINT LOOKOUT RD*OLD GREAT MILLS RD*INDIAN BRIDGE RD*GREAT MILLS*CO3 CO9 CO6 CO1 CO5 CO39 CO6R*
 ***************************************************************************
+Somerset County, MD (MDSomersetCountyParser)
+CAD:S5A;BACK PAIN;23196 PAUL BENTON CIR;DEAL
+CAD:ST2;MEDICAL ASSIST;4248 STROBEL LN;CRIS
+CAD:ST3;MEDICAL ASSIST;29762 LOVERS LN;MARI
+***************************************************************************
 Washington County, MD (MDWashingtonCountyParser)
 MAPLEVILLE RD / CHEWSVILLE RD - PIC, PERS INJURY COLLISION - CO16,RSQE7,R79,SO20 - 1106957 15:38
 73 S MAIN ST - FALLS,BACK INJURIES - R79 - 1106940 12:07 2nd ALERT!
@@ -3653,33 +3658,3 @@ CAD:828-151A E Washington ST;1107030;[Medical Priority Info] RESPONSE; Amb & Res
 **********************************************************
 **********************************************************
 **********************************************************
-Somerset County, MD
-Contact: Chris McLain <ctm826@gmail.com>
-Sender: CAD@somerset911.local
-
-ALL - Allen
-BERL - Berlin
-CRIS - Crisfield
-DEAL - Deal Island
-EDEN - Eden
-EWEL - Ewell
-FAIR - Upper Fairmount
-FRUI - Fruitland
-MANO - Manokin
-MARI - Marion Station
-POCO - Pocomoke City
-PRIN - Princess Anne
-RHOD - Rhodes Point
-SALI - Salisbury
-TYLE - Tylerton
-VENT - Venton
-WEST - Westover
-
-
-
-CAD:S5A;BACK PAIN;23196 PAUL BENTON CIR;DEAL
-
-Contact: "Ford, Allen C" <acford@dpscs.state.md.us>
-Fwd:  CAD:ST2;MEDICAL ASSIST;4248 STROBEL LN;CRIS
-Fwd:  CAD:ST3;MEDICAL ASSIST;29762 LOVERS LN;MARI
-Fwd:  CAD:ST3;MEDICAL ASSIST;28259 CRISFIELD MARION RD;MARI
