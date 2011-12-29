@@ -157,6 +157,10 @@ public class DispatchSouthernParser extends SmartAddressParser {
   // And Name/Phone number follows address
   public static final int DSFLAG_LEAD_PLACE = 0x010;
   
+  // Flag indicating cross street information follows the address instead of
+  // the usual name & phone
+  public static final int DSFLAG_FOLLOW_CROSS = 0x20;
+  
   private static final Pattern LEAD_PTN = Pattern.compile("^[\\w\\.]+:");
   private static final Pattern ID_TIME_PTN = Pattern.compile("\\b(\\d{2,4}-?\\d{4,8}) (\\d\\d:\\d\\d:\\d\\d)\\b");
   private static final Pattern OPT_ID_TIME_PTN = Pattern.compile("\\b(?:(\\d{2,4}-?\\d{4,8}) )?(\\d\\d:\\d\\d:\\d\\d)\\b");
@@ -168,6 +172,7 @@ public class DispatchSouthernParser extends SmartAddressParser {
   private boolean optDispatch;
   private boolean unitId;
   private boolean inclPlace;
+  private boolean inclCross;
   
   public DispatchSouthernParser(String[] cityList, String defCity, String defState) {
     this(cityList, defCity, defState, DSFLAG_DISPATCH_ID);
@@ -180,6 +185,7 @@ public class DispatchSouthernParser extends SmartAddressParser {
     this.unitId = (flags & DSFLAG_UNIT) != 0;
     this.idTimePattern = (flags & DSFLAG_ID_OPTIONAL) != 0 ? OPT_ID_TIME_PTN : ID_TIME_PTN;
     this.inclPlace = (flags &  DSFLAG_LEAD_PLACE) != 0;
+    this.inclCross = (flags & DSFLAG_FOLLOW_CROSS) != 0;
   }
 
   
@@ -218,18 +224,31 @@ public class DispatchSouthernParser extends SmartAddressParser {
     data.strCode = p.getLastOptional(" MDL ");
     if (data.strCode.length() == 0) data.strCode = p.getLastOptional(" FDL ");
     sAddr = p.get();
-    if (inclPlace) {
-      parseAddress(StartType.START_PLACE, sAddr, data);
-      String sName = getLeft();
-      Matcher match = PHONE_PTN.matcher(sName);
+    StartType st = (inclPlace ? StartType.START_PLACE : StartType.START_ADDR);
+    int flags = (inclCross ? FLAG_CROSS_FOLLOWS : 0);
+    parseAddress(st, flags, sAddr, data);
+    String sLeft = getLeft();
+    
+    // Processing what is left gets complicated
+    // if cross street information follows the address, process that
+    if (inclCross) {
+      data.strCross = sLeft.replace(" X ", " / ");
+    }
+    
+    // Otherwise, if the place name isn't located in front of the address
+    // assume whatever follows it is a place name
+    else if (!inclPlace) {
+      data.strPlace = sLeft;
+    }
+
+    // Otherwise assume it is a name followed by an optional phone number
+    else {
+      Matcher match = PHONE_PTN.matcher(sLeft);
       if (match.find()) {
         data.strPhone = match.group();
-        sName = sName.substring(0,match.start()).trim();
+        sLeft = sLeft.substring(0,match.start()).trim();
       }
-      data.strName = sName;
-    } else {
-      parseAddress(StartType.START_ADDR, sAddr, data);
-      data.strPlace = getLeft();
+      data.strName = sLeft;
     }
   }
 

@@ -47,6 +47,9 @@ FRM:CAD@livingstoncounty.livco\nMSG:CAD:FYI: ;PIA;DORR RD/E GRAND RIVER;JEEP LIB
 Contact: James P Krywko <James.Krywko@ipaper.com>
 Sender: CAD@livingstoncounty.livco
 CAD:CANCEL;N NATIONAL ST/E GRAND RIVER AVE; HOWL;AT CORNER
+CAD:Update: ;OIOUT;REGAL RECYCLERS;645 LUCY RD;INDUSTRIAL ST;{EN34} REQ CONSUMERS [12/28/11 17:51:25 LLOWE]
+CAD:FYI: ;CHOKE;5385 GREEN RD;CLYDE RD;[Medical Priority Info] RESPONSE: P1 STA 1 2 3 4 5 6 7 8<tel:12345678> FC FT RESPONDER SCRIPT: 78 year old, Male, Conscious, Not breathing. Choking. Not alert. Caller Statement: CHOKING ON FOOD . 1.He is n
+CAD:FYI: ;PIA;N LATSON RD/E HIGHLAND RD;RED TRUCK VS SMALL SEDAN PER CALLER SUBJECT IS NOT OK [12/28/11 19:50:00 MSPICER]
 
 */
 
@@ -67,9 +70,20 @@ public class MILivingstonCountyParser extends DispatchOSSIParser {
     return super.parseMsg(body, data);
   }
   
+  private class CancelField extends CallField {
+    public CancelField() {
+      setPattern("CANCEL");
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "CALL";
+    }
+  }
+  
   @Override
   public Field getField(String name) {
-    if (name.equals("CANCEL")) return new CallField("CANCEL");
+    if (name.equals("CANCEL")) return new CancelField();
     return super.getField(name);
   }
   

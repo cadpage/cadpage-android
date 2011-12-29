@@ -3629,14 +3629,6 @@ County road 16 and r auto acc
 17372 hyw 34 medical emergency
 Rural medical report to the fire station   \n14390 hw 34 space 53
 **********************************************************
-Haywood County, NC (replacement)
-Contact: B Poole <wforrestpoole@gmail.com>
-Sender: CAD@haywoodnc.net
-CAD:GOODWILL 75 PLAZA LOOP CANTON NEW CLYDE HWY X MINGUS HILL RD MDL 21D03 2011040779 17:35:40 EMERGENCY HEMORRHAGE LACERATIO
-CAD:41 HOLTZCLAW ST CANTON ORANGE ST X WINFIELD ST MDL 12D02-E 2011040926 12:48:52 EMERGENCY CONVULSIONS SEIZURE
-CAD:44 HAYWOOD AV CANTON MINGUS ST X PUPPY DOG TR 2011040659 22:00:38 Fire Alarm - Smoke Detector SMOKE DETECTOR
-CAD:2219 RUSS AV 8 WAYNESVILLE CORTLAND CT X JULE NOLAND DR FDL 69D05 2011040700 08:15:46 RESIDENT STRUCT MULTIPLE
-**********************************************************
 Montgomery County, PA (alternate)
 Contact: Matt Sibley <msibley53@yahoo.com>
 Sender: adi53@comcast.net
@@ -3651,6 +3643,7 @@ CAD:828-151A E Washington ST;1107030;[Medical Priority Info] RESPONSE; Amb & Res
 **********************************************************
 **********************************************************
 ************  READY TO ROLL ******************************
+**********************************************************
 **********************************************************
 **********************************************************
 **********************************************************

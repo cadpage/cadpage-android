@@ -87,6 +87,13 @@ public abstract class SmartAddressParser extends MsgParser {
    */
   public static final int FLAG_NO_IMPLIED_APT =0x0400;
   
+  /**
+   * Flag indicating there is cross street information following the address
+   * which means logic to identify a city followed by a street suffix as as
+   * street name instead of a city should be suppressed
+   */
+  public static final int FLAG_CROSS_FOLLOWS = 0x0800;
+  
   private Properties cityCodes = null;
   
   // Main dictionary maps words to a bitmap indicating what is important about that word
@@ -1108,8 +1115,12 @@ public abstract class SmartAddressParser extends MsgParser {
     
     // If there is a road suffix in one of the following two tokens, this
     // must be one of those accursed streets including the city name, but not
-    // the city
-    if (isType(ndx+1, ID_ROAD_SFX) || isType(ndx+2, ID_ROAD_SFX)) return -1;
+    // the city.
+    // Except some times there really is cross street information following
+    // the address, in which case just ignore all the above
+    if (!isFlagSet(FLAG_CROSS_FOLLOWS)) {
+      if (isType(ndx+1, ID_ROAD_SFX) || isType(ndx+2, ID_ROAD_SFX)) return -1;
+    }
     
     // If this is the start of a multi-word city, see if
     // we find a match in the muti-word city list

@@ -1,8 +1,7 @@
 package net.anei.cadpage.parsers.NC;
 
 
-import net.anei.cadpage.parsers.MsgInfo.Data;
-import net.anei.cadpage.parsers.dispatch.DispatchOSSIParser;
+import net.anei.cadpage.parsers.dispatch.DispatchSouthernParser;
 
 /*
 
@@ -11,6 +10,7 @@ Contact: bradford1967@hotmail.com" <bradford1967@hotmail.com>
 Contact: Kevin Wheeler <moo2175@gmail.com>
 Sender: CAD@haywoodnc.net
 
+****** NO LONGER USED *****
 CAD:1010170008;ROUTINE SICK PERSON;33 GRACE DR;CRUSO RD;JOHNS CREEK RD;12;10/17/2010 10:15:00
 CAD:1011010007;ROUTINE SICK PERSON;59 YAH WAY;MUNDY FIELD RD;12;11/01/2010 12:29:40
 CAD:1010300004;EMERGENCY TRAFFIC ACCIDENT;9600 CRUSO RD/BURNETTE COVE RD;12;10/30/2010 10:07:00
@@ -23,13 +23,18 @@ CAD:ROUTINE TRANSPORT;12695 CRUSO RD;CA;RM-525 TO HOME;MED6 CALL AND REQ ST12, F
 CAD:1011110016;ROUTINE CONVULSIONS SEIZURES;12588 CRUSO RD;EVERIDGE DR;COLD CREEK RD;12;11/11/2010 19:24:02
 CAD:1011110019;ROUTINE SICK PERSON;311 PISGAH CREEK RD;EDGEWATER LN;PISGAH MOUNTAIN RD;12;11/11/2010 20:58:54
 
+Contact: B Poole <wforrestpoole@gmail.com>
+CAD:GOODWILL 75 PLAZA LOOP CANTON NEW CLYDE HWY X MINGUS HILL RD MDL 21D03 2011040779 17:35:40 EMERGENCY HEMORRHAGE LACERATIO
+CAD:41 HOLTZCLAW ST CANTON ORANGE ST X WINFIELD ST MDL 12D02-E 2011040926 12:48:52 EMERGENCY CONVULSIONS SEIZURE
+CAD:44 HAYWOOD AV CANTON MINGUS ST X PUPPY DOG TR 2011040659 22:00:38 Fire Alarm - Smoke Detector SMOKE DETECTOR
+CAD:2219 RUSS AV 8 WAYNESVILLE CORTLAND CT X JULE NOLAND DR FDL 69D05 2011040700 08:15:46 RESIDENT STRUCT MULTIPLE
+
 */
 
-public class NCHaywoodCountyParser extends DispatchOSSIParser {
+public class NCHaywoodCountyParser extends DispatchSouthernParser {
   
   public NCHaywoodCountyParser() {
-    super("HAYWOOD COUNTY", "NC",
-           "ID? CALL? ADDR! X? X?");
+    super(CITY_LIST, "HAYWOOD COUNTY", "NC", DSFLAG_DISPATCH_ID | DSFLAG_LEAD_PLACE | DSFLAG_FOLLOW_CROSS);
   }
 
   @Override
@@ -37,38 +42,13 @@ public class NCHaywoodCountyParser extends DispatchOSSIParser {
     return "CAD@haywoodnc.net";
   }
   
-  // We need a call class that can verify its existence
-  // To be valid must start with 'ROUTINE', 'EMERGENCY' or 4 character code 
-  // starting with a digit and containing at least one non-digit
-  private class MyCallField extends CallField {
-
-    @Override
-    public boolean canFail() {
-      return true;
-    }
-
-    @Override
-    public boolean checkParse(String field, Data data) {
-      if (!isValid(field)) return false;
-      parse(field, data);
-      return true;
-    }
-
-    private boolean isValid(String field) {
-      if (field.startsWith("ROUTINE")) return true;
-      if (field.startsWith("EMERGENCY")) return true;
-
-      int pt = field.indexOf(' ');
-      if (pt >= 0) field = field.substring(0,pt);
-      return field.length() == 4 && Character.isDigit(field.charAt(0)) &&
-              ! NUMERIC.matcher(field).matches();
-    }
-  }
-
-  @Override
-  protected Field getField(String name) {
-    if (name.equals("CALL")) return new MyCallField();
-    return super.getField(name);
-  }
+  private static String[] CITY_LIST = new String[]{
+    "CANTON",
+    "CLYDE",
+    "LAKE JUNALUSKA",
+    "MAGGIE VALLEY",
+    "WAYNESVILLE",
+    "WEST CANTON"
+  };
   
 }
