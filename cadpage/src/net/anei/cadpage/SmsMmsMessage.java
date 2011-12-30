@@ -883,7 +883,7 @@ public class SmsMmsMessage implements Serializable {
   }
   
   private static void putExtraString(Intent intent, String key, String value) {
-    if (value.length() > 0) intent.putExtra(key, value);
+    if (value != null && value.length() > 0) intent.putExtra(key, value);
   }
 
 

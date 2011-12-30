@@ -73,12 +73,6 @@ public abstract class MsgParser {
    * a valid page message
    */
   public synchronized boolean isPageMsg(Message msg, int parseFlags) {
-
-    // If parser filter is not being overridden, and the message address does not
-    // match the parser filter, message should be rejected
-    String filter = getFilter();
-    boolean overrideFilter = (parseFlags & PARSE_FLG_SKIP_FILTER) != 0;
-    if (! overrideFilter && ! matchFilter(msg.getAddress(), filter)) return false;
     
     // Has to be synchronized because this is called from the MMS service thread
     // And we only have one global copy of parsing flags for each parser
@@ -97,11 +91,6 @@ public abstract class MsgParser {
     
     // If all parsers failed, return false
     if (data == null) return false;
-    
-    // Save parser code and information object in message so we won't have to
-    // go through all of this again
-    msg.setInfo(new MsgInfo(data));
-    msg.setLocationCode(getParserCode());
     return true;
   }
   
@@ -112,6 +101,12 @@ public abstract class MsgParser {
    * @return new message information object if successful, false otherwise
    */
   protected Data parseMsg(Message msg, int parseFlags) {
+
+    // If parser filter is not being overridden, and the message address does not
+    // match the parser filter, message should be rejected
+    String filter = getFilter();
+    boolean overrideFilter = (parseFlags & PARSE_FLG_SKIP_FILTER) != 0;
+    if (! overrideFilter && ! matchFilter(msg.getAddress(), filter)) return null;
     
     // Save parse flags for future reference (again)
     // We have to do this again because the GroupBestParser will call 
@@ -125,8 +120,13 @@ public abstract class MsgParser {
     data.defCity = defCity;
     data.defState = defState;
     if (strMessage == null) return data;
-    if (parseMsg(strSubject, strMessage, data)) return data;
-    return null;
+    if (!parseMsg(strSubject, strMessage, data)) return null;
+    
+    // Save parser code and information object in message so we won't have to
+    // go through all of this again
+    msg.setInfo(new MsgInfo(data));
+    msg.setLocationCode(getParserCode());
+    return data;
   }
   
   /**

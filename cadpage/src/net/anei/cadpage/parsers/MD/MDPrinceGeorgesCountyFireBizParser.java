@@ -1,8 +1,10 @@
 package net.anei.cadpage.parsers.MD;
 
 import java.util.Properties;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
-import net.anei.cadpage.parsers.MsgParser;
+import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /*
@@ -30,10 +32,12 @@ Contact: Ricky Poole <handgunhunting@gmail.com>
 32: HOUSE FIRE\nE827 BO885\n5311 ACORN DR (GLEN OAK DR and WHITE OAK AVE)\n10/01 15:59\nhttp://fireblitz.com/PG/27/3.shtm
 26: APARTMENT FIRE\nSQ827 BO883\n6912 WALKER MILL RD #C2 (KAREN BLVD and SHADY GLEN DR)\n10/01 21:35\nhttp://fireblitz.com/PG/27/0.shtm
 
+Contact: g wise <firedawg2009@gmail.com>
+10-09: SEIZURES\nB13\n8896 FORT SMALLWOOD RD-PA 1 SPIN & TRIM LAUDROMAT (ELIZABETH RD & AMHERST CT)\nhttp://fireblitz.com/AA/13/8.shtm
+
  */
 
-
-public class MDPrinceGeorgesCountyFireBizParser extends MsgParser {
+public class MDPrinceGeorgesCountyFireBizParser extends FieldProgramParser {
   
   private static final Properties COUNTY_CODES = buildCodeTable(new String[]{
       "PG", "PRINCE GEORGES COUNTY",
@@ -43,8 +47,13 @@ public class MDPrinceGeorgesCountyFireBizParser extends MsgParser {
       "DC", "WASHINGTON"
   });
   
+  private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "PA", "PASSADENA"
+  });
+  
   public MDPrinceGeorgesCountyFireBizParser() {
-    super("PRINCE GEORGES COUNTY", "MD");
+    super("PRINCE GEORGES COUNTY", "MD",
+         "MAPCALL! UNIT! ADDR! INFO? DATETIME");
   }
   
   @Override
@@ -56,88 +65,121 @@ public class MDPrinceGeorgesCountyFireBizParser extends MsgParser {
   protected boolean parseMsg(String body, Data data) {
     
     String[] lines = body.split("\n");
-    if (lines.length != 5 && lines.length != 6) return false;
+    if (lines.length <4 || lines.length > 6) return false;
     if (! lines[lines.length-1].startsWith("http://fireblitz.com/")) return false;
+    String[] lines2 = new String[lines.length-1];
+    System.arraycopy(lines, 0, lines2, 0, lines2.length);
+    return parseFields(lines2, data);
+  }
+  
+  private class MapCallField extends Field {
     
-    int ndx = 1;
-    for (String line : lines) {
-      line = line.trim();
+    @Override
+    public void parse(String field, Data data) {
       
-      switch (ndx) {
-        
-        // First line contains a station ID & map page followed by a colon and call description
-      case 1:
-        Parser p = new Parser(line);
-        String station = p.get(':');
-        data.strCall = p.get();
-        
-        // If the station contains a dash, there is a map page
-        p = new Parser(station);
-        data.strMap = p.getLastOptional('-');
-        station = p.get();
-        
-        // First two characters *MIGHT* be a county code
-        if (station.length() >= 2) {
-          String code = station.substring(0,2);
-          String county = COUNTY_CODES.getProperty(code);
-          if (county != null) {
-            data.defCity = county;
-            if (code.equals("DC")) data.defState = "DC";
-            station = station.substring(2);
-          }
-        }
-        
-        // Anything left is the response station
-        data.strSource = station;
-        ndx++;
-        break;
-        
-        // Second line is units
-      case 2:
-        p = new Parser(line);
-        data.strUnit = p.get(',');
-        ndx++;
-        break;
-        
-        // Third line is address, possibly with cross streets in parens
-        // or square brackets
-      case 3:
-        if (line.startsWith("PG ")) line = line.substring(3).trim();
-        int pt1 = line.indexOf('(');
-        if (pt1 < 0) pt1 = line.indexOf('[');
-        String sAddress;
-        if (pt1 < 0) {
-          sAddress = line;
-        } else {
-          sAddress = line.substring(0, pt1).trim();
-          char cEnd = (line.charAt(pt1)=='(' ? ')' : ']');
-          int pt2 = line.indexOf(cEnd, pt1+1);
-          if (pt2 < 0) pt2 = line.length();
-          data.strCross = line.substring(pt1+1, pt2);
-        }
-        pt1 = sAddress.indexOf(',');
-        if (pt1 >= 0) sAddress = sAddress.substring(0, pt1).trim();
-        parseAddress(sAddress, data);
-        ndx++;
-        break;
-        
-        // Fourth line may have notes
-      case 4:
-        if (line.startsWith("Notes:")) {
-          data.strSupp = line.substring(6).trim();
-          break;
-        }
-        
-        // But should eventually have the firebiz URL
-        if (line.startsWith("http://")) {
-          if (data.strSupp.length() > 0) data.strSupp += '\n';
-          data.strSupp += line;
-          ndx++;
-          break;
+      // First line contains a station ID & map page followed by a colon and call description
+      Parser p = new Parser(field);
+      data.strCall = p.getLastOptional(':');
+      if (data.strCall.length() == 0) abort();
+      String source = p.get('-');
+      data.strMap = p.get();
+      
+      // First two characters *MIGHT* be a county code
+      if (source.length() >= 2) {
+        String code = source.substring(0,2);
+        String county = COUNTY_CODES.getProperty(code);
+        if (county != null) {
+          data.strCity = county;
+          if (code.equals("DC")) data.strState = "DC";
+          source = source.substring(2);
         }
       }
+      data.strSource = source;
     }
     
-    return true;
+    @Override
+    public String getFieldNames() {
+      return "SRC CITY ST MAP CALL";
+    }
+  }
+  
+  private class MyUnitField extends UnitField {
+    @Override
+    public void parse(String field, Data data) {
+      Parser p = new Parser(field);
+      data.strUnit = p.get(',');
+      data.strSupp = p.get();
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "UNIT INFO";
+    }
+  }
+  
+  private static final Pattern CITY_CODE_PTN = Pattern.compile("-([A-Z]{2})\\b");
+  private class MyAddressField extends AddressField {
+    
+    @Override
+    public void parse(String field, Data data) {
+    
+      // Third line is address, possibly with cross streets in parens
+      // or square brackets
+      if (field.startsWith("PG ")) field = field.substring(3).trim();
+      int pt1 = field.indexOf('(');
+      if (pt1 < 0) pt1 = field.indexOf('[');
+      String sAddress;
+      if (pt1 < 0) {
+        sAddress = field;
+      } else {
+        sAddress = field.substring(0, pt1).trim();
+        char cEnd = (field.charAt(pt1)=='(' ? ')' : ']');
+        int pt2 = field.indexOf(cEnd, pt1+1);
+        if (pt2 < 0) pt2 = field.length();
+        data.strCross = field.substring(pt1+1, pt2);
+      }
+      pt1 = sAddress.indexOf(',');
+      if (pt1 >= 0) sAddress = sAddress.substring(0, pt1).trim();
+      Matcher match = CITY_CODE_PTN.matcher(sAddress);
+      if (match.find()) {
+        String code = match.group(1);
+        String city = CITY_CODES.getProperty(code);
+        if (city != null) {
+          data.strCity = city;
+          data.strPlace = sAddress.substring(match.end()).trim();
+          sAddress = sAddress.substring(0,match.start()).trim();
+        }
+      }
+      super.parse(sAddress, data);
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return super.getFieldNames() + " X";
+    }
+  }
+  
+  private class MyInfoField extends InfoField {
+    
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      if (!field.startsWith("Notes:")) return false;
+      super.parse(field.substring(6).trim(), data);
+      return true;
+    }
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("MAPCALL")) return new MapCallField();
+    if (name.equals("UNIT")) return new MyUnitField();
+    if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("INFO")) return new MyInfoField();
+    return super.getField(name);
   }
 }
