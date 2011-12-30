@@ -14,7 +14,7 @@ public class MDPrinceGeorgesCountyFireBizParserTest extends BaseParserTest {
   
   @Test
   public void testParser() {
-    
+
     doTest("T1",
         "55: BUILDING FIRE\nE809 TK809 BO804\n4637 37TH ST (ALLISON ST & DEAD END)\n12/07 04:51\nhttp://fireblitz.com/09/9.html",
         "SRC:55",
@@ -22,8 +22,9 @@ public class MDPrinceGeorgesCountyFireBizParserTest extends BaseParserTest {
         "UNIT:E809 TK809 BO804",
         "ADDR:4637 37TH ST",
         "X:ALLISON ST & DEAD END",
-        "INFO:http://fireblitz.com/09/9.html");
-        
+        "DATE:12/07",
+        "TIME:04:51");
+
     doTest("T2",
         "0-2 H12: PI\nS11 R11\nPG INDIAN HEAD HWY/FARMINGTON RD WEST\nNotes: WANTS ENGINE AND AMBULANCE FROM STATION 11\n12/07 06:14\nhttp://fireblitz.com/11/0.html",
         "SRC:0",
@@ -31,8 +32,10 @@ public class MDPrinceGeorgesCountyFireBizParserTest extends BaseParserTest {
         "CALL:PI",
         "UNIT:S11 R11",
         "ADDR:INDIAN HEAD HWY & FARMINGTON RD WEST",
-        "INFO:WANTS ENGINE AND AMBULANCE FROM STATION 11\nhttp://fireblitz.com/11/0.html");
-    
+        "INFO:WANTS ENGINE AND AMBULANCE FROM STATION 11",
+        "DATE:12/07",
+        "TIME:06:14");
+
     doTest("T3",
         "26: INVESTIGATION\nE817\n6036 PARKLAND CT (OLD SILVER HILL RD & OLD SILVER HILL RD)\n12/06 22:40\nhttp://fireblitz.com/17/9.html",
         "SRC:26",
@@ -40,8 +43,9 @@ public class MDPrinceGeorgesCountyFireBizParserTest extends BaseParserTest {
         "UNIT:E817",
         "ADDR:6036 PARKLAND CT",
         "X:OLD SILVER HILL RD & OLD SILVER HILL RD",
-        "INFO:http://fireblitz.com/17/9.html");
-      
+        "DATE:12/06",
+        "TIME:22:40");
+
     doTest("T4",
         "48: FD ACCIDENT\nSQ818 B802\nANNAPOLIS RD/PRINCESS GARDEN PY (9006 ANNAPOLIS RD/5900 PRINCESS GARD\n12/07 07:02\nhttp://fireblitz.com/18/6.html",
         "SRC:48",
@@ -49,17 +53,20 @@ public class MDPrinceGeorgesCountyFireBizParserTest extends BaseParserTest {
         "UNIT:SQ818 B802",
         "ADDR:ANNAPOLIS RD & PRINCESS GARDEN PY",
         "X:9006 ANNAPOLIS RD/5900 PRINCESS GARD",
-        "INFO:http://fireblitz.com/18/6.html");
-      
+        "DATE:12/07",
+        "TIME:07:02");
+
     doTest("T5",
         "24: OVERDOSE - ALS\nA824 MD847, CHARLIE OD/NOT ALRT\n1605 AIRPORT LN (SCHALL RD & BERRY RD)\n12/07 07:14\nhttp://fireblitz.com/24/8.html",
         "SRC:24",
         "CALL:OVERDOSE - ALS",
         "UNIT:A824 MD847",
+        "INFO:CHARLIE OD/NOT ALRT",
         "ADDR:1605 AIRPORT LN",
         "X:SCHALL RD & BERRY RD",
-        "INFO:http://fireblitz.com/24/8.html");
-      
+        "DATE:12/07",
+        "TIME:07:14");
+
     doTest("T6",
         "27: INJURED/SICK\nA827\n6304 MAXWELL DR #4 (CARSWELL AV & MORRIS AV)\n12/07 05:14\nhttp://fireblitz.com/27/2.html",
         "SRC:27",
@@ -68,8 +75,9 @@ public class MDPrinceGeorgesCountyFireBizParserTest extends BaseParserTest {
         "ADDR:6304 MAXWELL DR",
         "APT:4",
         "X:CARSWELL AV & MORRIS AV",
-        "INFO:http://fireblitz.com/27/2.html");
-      
+        "DATE:12/07",
+        "TIME:05:14");
+
     doTest("T7",
         "46: BUILDING FIRE\nE833 TK833 BO802\n1200 CAPITAL CENTER BL (BLVD AT THE CAP CTR)\n12/07 00:51\nhttp://fireblitz.com/33/9.html",
         "SRC:46",
@@ -77,8 +85,9 @@ public class MDPrinceGeorgesCountyFireBizParserTest extends BaseParserTest {
         "UNIT:E833 TK833 BO802",
         "ADDR:1200 CAPITAL CENTER BL",
         "X:BLVD AT THE CAP CTR",
-        "INFO:http://fireblitz.com/33/9.html");
-      
+        "DATE:12/07",
+        "TIME:00:51");
+
     doTest("T8",
         "46: BUILDING FIRE\nE837 TK837 BO802\n1200 CAPITAL CENTER BL (BLVD AT THE CAP CTR)\n12/07 00:51\nhttp://fireblitz.com/37/5.html",
         "SRC:46",
@@ -86,8 +95,9 @@ public class MDPrinceGeorgesCountyFireBizParserTest extends BaseParserTest {
         "UNIT:E837 TK837 BO802",
         "ADDR:1200 CAPITAL CENTER BL",
         "X:BLVD AT THE CAP CTR",
-        "INFO:http://fireblitz.com/37/5.html");
-      
+        "DATE:12/07",
+        "TIME:00:51");
+
     doTest("T9",
         "49: MEDIC LOCAL\nA849\n13218 DEERFIELD RD (DEAD END & MATTHEWS CT)\n12/06 23:00\nhttp://fireblitz.com/49/1.html",
         "SRC:49",
@@ -95,8 +105,9 @@ public class MDPrinceGeorgesCountyFireBizParserTest extends BaseParserTest {
         "UNIT:A849",
         "ADDR:13218 DEERFIELD RD",
         "X:DEAD END & MATTHEWS CT",
-        "INFO:http://fireblitz.com/49/1.html");
-    
+        "DATE:12/06",
+        "TIME:23:00");
+
     doTest("T10",
         "48: TOWNHOUSE FIRE\nE818 BO802\n9903 BREEZY KNOLL CT [DEAD END & GREEN HAVEN RD]\n12/23 23:32\nhttp://fireblitz.com/18/8.shtm",
         "SRC:48",
@@ -104,7 +115,8 @@ public class MDPrinceGeorgesCountyFireBizParserTest extends BaseParserTest {
         "UNIT:E818 BO802",
         "ADDR:9903 BREEZY KNOLL CT",
         "X:DEAD END & GREEN HAVEN RD",
-        "INFO:http://fireblitz.com/18/8.shtm");
+        "DATE:12/23",
+        "TIME:23:32");
 
     doTest("T11",
         "45: PIA-HIGHWAY\nSQ827\nNB CRAIN HWY SE/NB HEATHERMORE BLVD, PP - <8322/ 0>\n07/05 10:02\nhttp://fireblitz.com/27/0.shtm",
@@ -113,7 +125,8 @@ public class MDPrinceGeorgesCountyFireBizParserTest extends BaseParserTest {
         "UNIT:SQ827",
         "ADDR:NB CRAIN HWY SE & NB HEATHERMORE BLVD",
         "MADDR:CRAIN HWY SE & HEATHERMORE BLVD",
-        "INFO:http://fireblitz.com/27/0.shtm");
+        "DATE:07/05",
+        "TIME:10:02");
 
     doTest("T12",
         "27: PIA-HIGHWAY\nA827 SQ827\nSB CAP BELT IL A HWY/NB BRANCH AVE, PP\n07/06 10:20\nhttp://fireblitz.com/27/5.shtm",
@@ -122,8 +135,8 @@ public class MDPrinceGeorgesCountyFireBizParserTest extends BaseParserTest {
         "UNIT:A827 SQ827",
         "ADDR:SB CAP BELT IL A HWY & NB BRANCH AVE",
         "MADDR:CAP BELT IL A HWY & BRANCH AVE",
-        "INFO:http://fireblitz.com/27/5.shtm");
-
+        "DATE:07/06",
+        "TIME:10:20");
 
     doTest("T13",
         "32: HOUSE FIRE\nE827 BO885\n5311 ACORN DR (GLEN OAK DR and WHITE OAK AVE)\n10/01 15:59\nhttp://fireblitz.com/PG/27/3.shtm",
@@ -132,7 +145,8 @@ public class MDPrinceGeorgesCountyFireBizParserTest extends BaseParserTest {
         "UNIT:E827 BO885",
         "ADDR:5311 ACORN DR",
         "X:GLEN OAK DR and WHITE OAK AVE",
-        "INFO:http://fireblitz.com/PG/27/3.shtm");
+        "DATE:10/01",
+        "TIME:15:59");
 
     doTest("T14",
         "26: APARTMENT FIRE\nSQ827 BO883\n6912 WALKER MILL RD #C2 (KAREN BLVD and SHADY GLEN DR)\n10/01 21:35\nhttp://fireblitz.com/PG/27/0.shtm",
@@ -142,10 +156,22 @@ public class MDPrinceGeorgesCountyFireBizParserTest extends BaseParserTest {
         "ADDR:6912 WALKER MILL RD",
         "APT:C2",
         "X:KAREN BLVD and SHADY GLEN DR",
-        "INFO:http://fireblitz.com/PG/27/0.shtm");
- }
+        "DATE:10/01",
+        "TIME:21:35");
+
+    doTest("T15",
+        "10-09: SEIZURES\nB13\n8896 FORT SMALLWOOD RD-PA 1 SPIN & TRIM LAUDROMAT (ELIZABETH RD & AMHERST CT)\nhttp://fireblitz.com/AA/13/8.shtm",
+        "SRC:10",
+        "MAP:09",
+        "CALL:SEIZURES",
+        "UNIT:B13",
+        "ADDR:8896 FORT SMALLWOOD RD",
+        "CITY:PASSADENA",
+        "PLACE:1 SPIN & TRIM LAUDROMAT",
+        "X:ELIZABETH RD & AMHERST CT");
+  }
   
   public static void main(String[] args) {
-    new MDPrinceGeorgesCountyFireBizParserTest().generateTests("T15", "SRC CALL UNIT ADDR APT X INFO");
+    new MDPrinceGeorgesCountyFireBizParserTest().generateTests("T1");
   }
 }
