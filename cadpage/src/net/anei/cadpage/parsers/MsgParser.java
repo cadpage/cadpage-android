@@ -236,7 +236,13 @@ public abstract class MsgParser {
       carry[j] = chr;
     }
     
-    return new String(carry);
+    String locName = new String(carry);
+    
+    if (defState.length() > 0) {
+      locName = locName + ", " + defState;
+    }
+    
+    return locName;
   }
 
  
