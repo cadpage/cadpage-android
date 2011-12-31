@@ -91,6 +91,11 @@ public abstract class MsgParser {
     
     // If all parsers failed, return false
     if (data == null) return false;
+    
+    // Save parser code and information object in message so we won't have to
+    // go through all of this again
+    msg.setInfo(new MsgInfo(data));
+    msg.setLocationCode(getParserCode());
     return true;
   }
   
@@ -121,11 +126,6 @@ public abstract class MsgParser {
     data.defState = defState;
     if (strMessage == null) return data;
     if (!parseMsg(strSubject, strMessage, data)) return null;
-    
-    // Save parser code and information object in message so we won't have to
-    // go through all of this again
-    msg.setInfo(new MsgInfo(data));
-    msg.setLocationCode(getParserCode());
     return data;
   }
   
