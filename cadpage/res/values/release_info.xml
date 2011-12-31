@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">12229011</string>
-  <string name="release_version">v1.5.01</string>
+  <string name="release_date">12230011</string>
+  <string name="release_version">v1.5.02</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="min_purchase_date">11032011</string>
@@ -10,6 +10,9 @@ What"'"s new in this release\n
 \n
 Welcome to a new year, time for a new version number update.\n
 \n
+Fixed new bug in the last release crashing Cadpage that crashed Cadpage when
+multiple locations are configured and a text page isn"'"t accepted by any of them.\n
+\n
 New Locations:\n
 Riverside County, CA\n
 Somerset County, MD\n
@@ -17,6 +20,7 @@ Somerset County, MD\n
 Location Parsing Fixes:\n
 Weld County, CO\n
 Porter County, IN\n
+Prince George"'"s County\n
 Livingston County, MI\n
 Haywood County, NC\n
 Erie County, PA\n
