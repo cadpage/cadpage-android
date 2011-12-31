@@ -10,6 +10,20 @@ public class PAChesterCountyBParserTest extends BaseParserTest {
   public PAChesterCountyBParserTest() {
     setParser(new PAChesterCountyBParser(), "CHESTER COUNTY", "PA");
   }
+
+  @Test
+  public void testProblem() {
+    doTest("T5",
+        "[Update]\nSMOKE / ODOR INVEST (OUTSIDE)\nRT 41 / RT 841\nLGROVE\nHEAVY SMOKE CONDITION IN THE AREA - UNK WHAT'S IT'S ACTUALLY COMING FROM\n02/16/2011\n02:18\nROCHESTER, RANDOLF\n717-468-8174",
+        "CALL:SMOKE / ODOR INVEST (OUTSIDE)",
+        "ADDR:RT 41 & RT 841",
+        "CITY:LONDON GROVE TWP",
+        "INFO:HEAVY SMOKE CONDITION IN THE AREA - UNK WHAT'S IT'S ACTUALLY COMING FROM",
+        "DATE:02/16/2011",
+        "TIME:02:18",
+        "NAME:ROCHESTER, RANDOLF",
+        "PHONE:717-468-8174");
+  }
   
   @Test
   public void testBadMsg() {
