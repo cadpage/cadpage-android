@@ -1,7 +1,5 @@
 package net.anei.cadpage.parsers.PA;
 
-import java.util.regex.Pattern;
-
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
@@ -28,7 +26,7 @@ public class PADelawareCountyDParser extends FieldProgramParser {
   
   public PADelawareCountyDParser() {
     super("DELAWARE COUNTY", "PA",
-           "TIME! ADDR X/Z!+? DATE! CALL! UNIT! ID! INFO");
+           "TIME! ADDR CALL X/Z+? DATE CALL2 UNIT ID INFO");
   }
   
   @Override
@@ -41,21 +39,12 @@ public class PADelawareCountyDParser extends FieldProgramParser {
     return parseFields(body.split("\n"), data);
   }
   
-  private class MyTimeField extends TimeField {
-    public MyTimeField() {
-      setPattern(Pattern.compile("\\d\\d:\\d\\d"), true);
-    }
-  }
-  
-  private class MyDateField extends DateField {
-    public MyDateField() {
-      setPattern(Pattern.compile("\\d\\d/\\d\\d/\\d\\d\\d\\d"), true);
-    }
-  }
-  
-  private class MyIdField extends IdField {
-    public MyIdField() {
-      setPattern(Pattern.compile("F\\d{8}"), true);
+  private class MyCall2Field extends CallField {
+    @Override
+    public void parse(String field, Data data) {
+      if (data.strCall.length() == 0) {
+        super.parse(field, data);
+      }
     }
   }
   
@@ -69,9 +58,10 @@ public class PADelawareCountyDParser extends FieldProgramParser {
   
   @Override
   public Field getField(String name) {
-    if (name.equals("TIME")) return new MyTimeField();
-    if (name.equals("DATE")) return new MyDateField();
-    if (name.equals("ID")) return new MyIdField();
+    if (name.equals("TIME")) return new TimeField("\\d\\d:\\d\\d", true);
+    if (name.equals("DATE")) return new DateField("\\d\\d/\\d\\d/\\d\\d\\d\\d", true);
+    if (name.equals("CALL2")) return new MyCall2Field();
+    if (name.equals("ID")) return new IdField("F\\d{8}", true);
     if (name.equals("INFO")) return new MyInfoField();
     return super.getField(name);
   }

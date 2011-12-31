@@ -25,7 +25,7 @@ public class PAChesterCountyD3Parser extends PAChesterCountyBaseParser {
   private static final Pattern DELIM = Pattern.compile(" {2,}");
   
   public PAChesterCountyD3Parser() {
-    super("DIGITS DATE TIME CODE CALL ADDRCITY INFO+");
+    super("DIGITS DATE TIME CODE CALL ADDRCITY! INFO+");
   }
   
   @Override

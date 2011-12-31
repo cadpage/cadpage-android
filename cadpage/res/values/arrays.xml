@@ -191,8 +191,9 @@
     <item>COPuebloRFD</item>
     <item>VAWightCounty</item>
     <item>COGreeley</item>
-    <item>CTNorthBranford</item>   <!-- 11/20/2011 -->
-    <item>ILRoscoe</item> <!--  11/21/2011 -->
+    <item>CTNorthBranford</item>    <!-- 11/20/2011 -->
+    <item>ILRoscoe</item>           <!-- 11/21/2011 -->
+    <item>PADelawareCountyE"</item> <!-- 12/30/2011 -->
   </string-array>
   <string-array name="new_location_values">
     <item>NCChathamCounty</item>
@@ -205,6 +206,7 @@
     <item>COWeldCounty</item>
     <item>CTNewHavenCounty</item>
     <item>ILWinnebagoCounty</item>
+    <item>PADelawareCountyD"</item>
   </string-array>
   
   <!-- Array of state names -->
