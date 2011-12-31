@@ -1,0 +1,35 @@
+<project name="Cadpage Parsing Engine" default="build" basedir=".">
+	<description>
+		Build the Cadpage Parsing Engine library file
+	</description>
+	
+	<property name="src" value="src"/>
+	<property name="bin" value="bin"/>
+	<property name="dist" value="dist"/>
+	<property name="select" value="net/anei/cadpage/parsers/**"/>
+	<property name="filename" value="CadpageParser"/>
+	<property name="jarfile" value="${dist}/${filename}.jar"/>
+	<property name="zipfile" value="${dist}/${filename}.zip"/>
+	<property name="zipcontent" value="MsgFormats.txt ${zipfile}"/>
+	
+	<target name="clean">
+		<delete dir="${bin}"/>
+		<delete dir="${dist}"/>
+	</target>
+	
+	<target name="setup">
+	   <mkdir dir="${bin}"/>
+	   <mkdir dir="${dist}"/>
+	</target>
+    
+    <target name="compile" depends="setup">
+        <javac srcdir="${src}" includes="${select}" destdir="${bin}" 
+        	   source="1.5" target="1.5" debug="yes"/>
+    </target>
+	
+	<target name="jarfile" depends="compile">
+		<jar basedir="${bin}" includes="${select}" destfile="${jarfile}"/>
+	</target>
+	
+	<target name="build" depends="jarfile"/>
+</project>

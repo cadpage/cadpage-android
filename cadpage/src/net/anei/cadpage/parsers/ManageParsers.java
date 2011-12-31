@@ -117,6 +117,11 @@ public class ManageParsers {
    * @return location name 
    */
   public String getLocName(String location) {
+    
+    // Location shouldn't be null, but upstream bugs are setting it this
+    // so at least don't die over it
+    if (location == null) return "";
+    
     return getParser(location).getLocName();
   }
   

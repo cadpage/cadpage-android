@@ -83,12 +83,6 @@ public abstract class MsgParser {
     // See what the parseMsg method thinks of this
     Data data = parseMsg(msg, parseFlags);
     
-    // If this isn't a valid CAD page, see if we should treat it as a general alert
-    // If not then return failure
-    if (data == null && ((parseFlags & PARSE_FLG_GEN_ALERT) != 0) && isPositiveId()) {
-      data = ManageParsers.getInstance().getAlertParser().parseMsg(msg, parseFlags);
-    }
-    
     // If all parsers failed, return false
     if (data == null) return false;
     
@@ -125,8 +119,16 @@ public abstract class MsgParser {
     data.defCity = defCity;
     data.defState = defState;
     if (strMessage == null) return data;
-    if (!parseMsg(strSubject, strMessage, data)) return null;
-    return data;
+    if (parseMsg(strSubject, strMessage, data)) return data;
+    
+    // If this isn't a valid CAD page, see if we should treat it as a general alert
+    // If not then return failure
+    if ((parseFlags & PARSE_FLG_GEN_ALERT) != 0 && isPositiveId()) {
+      return ManageParsers.getInstance().getAlertParser().parseMsg(msg, parseFlags);
+    }
+    
+    // Otherwise return null
+    return null;
   }
   
   /**

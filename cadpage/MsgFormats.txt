@@ -2558,6 +2558,10 @@ QUEENS, NY -NYC- MVA GCP @ JEWEL AVE. MVA CAUSING DELAYS. USE CAUTION. MA570
 BROOKLYN, NY -NYC- SEXUAL ASSAULT E 95 ST & WILLMOHR ST. -67 PCT-. 1 YOUNG MALE VIC. PERP IS A BM KNOWN TO VIC. MA570
 UD COPIAGUE, NY -SUFFOLK- BANK ROBBERY 314 GREAT NECK RD - POLISH & SLAVIC FEDERAL CREDIT UNION. PERP LSW GREY APPAREL. REQ K9 & SQUAD. NY3170
 
+Contact: Robert Player <fd225ny@aol.com>
+PLAINVIEW, NY -NASSAU- PED STRUCK WOODBURY RD CS WEST GATE. SFD CHF-5800 OS RPT A PED STRUCK BY AUTO W SERIOUS INJ'S, REQ AMB-5893 FW. NY96\n
+
+
 Garden City
 Contact: Brian Gallo <tarkwolf@gmail.com>
 Sender: news@1rwn.com
@@ -3653,10 +3657,12 @@ Contact: dale allen <dallen422@gmail.com>
 Sender: dispatch@911email.net
 (E911) f-401 adv that meeting for tonight has been canceled
 **********************************************************
-Charleston County, SC (replacement or alternate?)
+Charleston County, SC (alternate) 
 Contact: Paul Stevens <barrett161@gmail.com>
 Sender: CDC_Dispatch@charlestoncounty.org
-(Dispatch Info) M01           0347105             District 01 EMS     s17A01G    2106 Mount Pleasant XS:KING ST EXT/LAUREL AV             Apt/Bldg:
+(Dispatch Info) M01           0347105             District 01 EMS     17A01G    2106 Mount Pleasant XS:KING ST EXT/LAUREL AV             Apt/Bldg:
+(Dispatch Info) 29B_Accident MVA Injury Unk   Location Name:
+(Dispatch Info) M01           0347144             District 01 EMS             Spring St / Septima XS:                                Apt/Bldg:
 **********************************************************
 Mecklenburg County, NC (A) (replace or alternate)
 Contact: Soundwood <soundwood@msn.com>
@@ -3665,6 +3671,9 @@ FRM:rc.334@c-msg.net\nSUBJ:cCAD\nMSG:[!] 10210 Couloak Dr SUIT E Charlie 28- Str
 FRM:rc.334@c-msg.net\nSUBJ:cCAD\nMSG:[!] 6700 Pleasant Oaks Cr Charlie 28- Stroke/CVA Songbird Ln/Catalina Ln COOR3 Map - 321321/E1 12282011-371
 FRM:rc.334@c-msg.net\nSUBJ:cCAD\nMSG:[!] 10611 Mount Holly Rd ifo residence Charlie 29- Traffic accident Chattaroy Dr/Latta Av COOF3 Map - 320320/D3 12272011-012
 **********************************************************
+Unknown
+Contact: 5155707818@vtext.com
+1211-0002346 District 09 Rescue Entrapment Unknown B Address: Dorchester Rd / Hill Blvd X Street:  IFO HUNLEY PARK Cmd Channel:  In
 **********************************************************
 **********************************************************
 **********************************************************
