@@ -295,7 +295,17 @@ public class PALehighCountyParserTest extends BaseParserTest {
         "TIME:19:47",
         "UNIT:FD/ST30 FD/E3011 FD/E3012",
         "X:RT222");
-  }
+
+    doTest("T25",
+        "ST3000 TYP: TRUCK/BUS/RV FIRE AD: I476MM59 6NB CTY: SOUTH WHITEHALL LOC: I476MM59 6NB CN: JOHN CMT1: **TRUCK/BUS/RECREATIONAL VEHI",
+        "SRC:ST3000",
+        "CALL:TRUCK/BUS/RV FIRE",
+        "ADDR:I476MM59 6NB",
+        "CITY:SOUTH WHITEHALL TWP",
+        "PLACE:I476MM59 6NB",
+        "NAME:JOHN",
+        "INFO:**TRUCK/BUS/RECREATIONAL VEHI");
+ }
   
   public static void main(String[] args) {
     new PALehighCountyParserTest().generateTests("T1");
