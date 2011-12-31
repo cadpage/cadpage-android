@@ -50,12 +50,11 @@ Contact: Ben Reagan <breagan@eastlincolnfd.org>
 (Incoming Message) 12019 Verhoeff Dr                       Huntersville Oaks Nursing *SNFFire -  Emergency             52F
 (Incoming Message) Beatties Ford Rd & Mcilwaine R          TREE DOWN BLOCKING ONE LANE   Fire -  Emergency             53-
 
+
 ** NOT IMPLEMENTED **
 Contact: John Stroup <j.stroup@northmeckrescue.org>
 Subject:Incoming Message\n15503 N Old Statesville Rd North Meck Rescue Charlie 12- Convulsion/Seizure 60 Foot St/Unnamed St Nmr1 Map - 266266/
 Subject:Incoming Message\n15503 N Old Statesville Rd North Meck Rescue Charlie 12- Convulsion/Seizure 60 Foot St/Unnamed St Nmr2 Map - 266266/
-
-
 
 16902 Harbor Master Cove                                              Fire -  Emergency             52F
 1010 Lakeview Dr              30-B      Pvl Rehab & Living Ctr  *SNF* Charlie                       06- Breathing Problems        Eden Cr/B

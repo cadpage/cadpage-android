@@ -3653,7 +3653,17 @@ Contact: dale allen <dallen422@gmail.com>
 Sender: dispatch@911email.net
 (E911) f-401 adv that meeting for tonight has been canceled
 **********************************************************
+Charleston County, SC (replacement or alternate?)
+Contact: Paul Stevens <barrett161@gmail.com>
+Sender: CDC_Dispatch@charlestoncounty.org
+(Dispatch Info) M01           0347105             District 01 EMS     s17A01G    2106 Mount Pleasant XS:KING ST EXT/LAUREL AV             Apt/Bldg:
 **********************************************************
+Mecklenburg County, NC (A) (replace or alternate)
+Contact: Soundwood <soundwood@msn.com>
+Sender: rc.334@c-msg.net
+FRM:rc.334@c-msg.net\nSUBJ:cCAD\nMSG:[!] 10210 Couloak Dr SUIT E Charlie 28- Stroke/CVA Mt Holly-Huntersvill Rd/Dunn Commons Pk COOR4 Map - 292292/J9 12302011-096
+FRM:rc.334@c-msg.net\nSUBJ:cCAD\nMSG:[!] 6700 Pleasant Oaks Cr Charlie 28- Stroke/CVA Songbird Ln/Catalina Ln COOR3 Map - 321321/E1 12282011-371
+FRM:rc.334@c-msg.net\nSUBJ:cCAD\nMSG:[!] 10611 Mount Holly Rd ifo residence Charlie 29- Traffic accident Chattaroy Dr/Latta Av COOF3 Map - 320320/D3 12272011-012
 **********************************************************
 **********************************************************
 ************  READY TO ROLL ******************************
