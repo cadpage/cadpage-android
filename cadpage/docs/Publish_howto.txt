@@ -79,3 +79,5 @@ Creating a free version of Cadpage
 * Update published version of Cadpage (free) product as above.  Don't bother
   figuring out what has changed.
 * Publish notice in Cadpage facebook page as above
+
+Next Free release v1.5.02
