@@ -853,7 +853,9 @@ public class FieldProgramParser extends SmartAddressParser {
      */
     public boolean isSkipStep() {
       if (tag != null) return false;
-      return field == null || field.getClass() == SkipField.class;
+      if (field == null) return true;
+      if (field.pattern != null) return false;
+      return field.getClass() == SkipField.class;
     }
     
     /**
