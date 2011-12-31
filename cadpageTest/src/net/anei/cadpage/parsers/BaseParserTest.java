@@ -146,8 +146,9 @@ public abstract class BaseParserTest {
       else fail("Keyword " + sType + " is not defined");
     }
     
-    Message msg = new Message(true, fromAddress, subject, test);
+    TestMessage msg = new TestMessage(true, fromAddress, subject, test);
     assertTrue(title + ":parse", parser.isPageMsg(msg, MsgParser.PARSE_FLG_POSITIVE_ID | MsgParser.PARSE_FLG_SKIP_FILTER));
+    assertEquals(title + ":location", parser.getParserCode(), msg.getLocation());
     MsgInfo info = msg.getInfo();
     String actMapAddr = "";
     if (chkMapAddr) {
@@ -180,6 +181,28 @@ public abstract class BaseParserTest {
     
     assertEquals(title + ":DefCity", defCity, info.getDefCity());
     assertEquals(title + ":DefState", defState, info.getDefState());
+  }
+  
+  private static class TestMessage extends Message {
+
+    private String location = null;
+    
+    public TestMessage(boolean preParse, String fromAddress, String subject, String body) {
+      super(preParse, fromAddress, subject, body);
+    }
+
+    @Override
+    protected void setLocationCode(String location) {
+      this.location = location;
+    }
+
+    public String getLocation() {
+      return location;
+    }
+    
+    
+    
+    
   }
   
   private static final Map<String,String> KEYWORD_MAP = new HashMap<String,String>(); 
@@ -397,6 +420,5 @@ public abstract class BaseParserTest {
     }
     int testNo = Integer.parseInt(title.substring(brk)) + 1;
     return title.substring(0,brk) + String.format("%" + (title.length()-brk) + "d", testNo);
-    
   }
 }
