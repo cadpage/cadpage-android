@@ -194,21 +194,6 @@ William Strite (wefr15@cinci.rr.com)
 yanksgt@gmail.com
 Zach Smith (zachsmith.91142@gmail.com)(bigz1232003@yahoo.com)
 
-// List of users getting credit for 2012
-$paid_2012_list
-Robert Tripe <rmtripe@gmail.com>
-%2012
-Christopher Rowland (chrisprowl@gmail.com)(chrisprowl@aol.com)
-Samuel K Anders (sam@samanderscpa.com)(skacpa@bellsuth.net)
-Stephen Kelly (kelgar63@gmail.com)(skelly07@twcny.rr.com) 
-William Walters (lcff791@gmail.com)
-%%12/04/2011
-Patrick Hultman (pat.hultman@jocofd1.org)<pat.hultman@jocofd1.org>
-
-// List of users getting free credit for 2012
-$free_2012_list
-%2012
-
 // List of users getting credit for 2011
 $paid_2011_list
 %2011
@@ -695,14 +680,14 @@ Lisa Edwards (jojosmima@gmail.com)<ledwards@townofchapelhill.org>
 >>Jerry Blevins (cblevins9150@gmail.com)<jerry.blevins@rowanrescue.org>
 >>Kevin White <firebird6352@gmail.com>
 >>brock patt <brockone17@gmail.com>
-Marcos Fernandez <firemanx2@gmail.com>
-Dave Wyre (crazydave203@gmail.com)<crazydave203@msn.com>
-miguel quijano <mquijano06@gmail.com>
-Greg Ellis <kmartsnakered2@gmail.com>
-Dennis Hoke <dennishoke34@gmail.com>
-Nate Osborne <n82336@gmail.com>
-gary rictor <gricsr225@gmail.com>
-heath hallead <hhallead@gmail.com>
+>>Marcos Fernandez <firemanx2@gmail.com>
+>>Dave Wyre (crazydave203@gmail.com)<crazydave203@msn.com>
+>>miguel quijano <mquijano06@gmail.com>
+>>Greg Ellis <kmartsnakered2@gmail.com>
+>>Dennis Hoke <dennishoke34@gmail.com>
+>>Nate Osborne <n82336@gmail.com>
+>>gary rictor <gricsr225@gmail.com>
+>>heath hallead <hhallead@gmail.com>
 Tim McCawley <timmccawley920@gmail.com>
 Rick Atwood (mfddpw01@gmail.com)<richardatwood77@yahoo.com>
 April Langan <aprillangan@gmail.com>
@@ -1033,7 +1018,6 @@ Dispatch Info <htfd11@gmail.com>
 Chris Ayers <wrfd1923cayers@gmail.com>
 "mbyers210@yahoo.com" (mbyers145@gmail.com)<mbyers210@yahoo.com>
 Michelle Kerr (michellekerr32@gmail.com)<michellekerr32@yahoo.com>
-
 %%12/30/2011
 Josh Josh (ktiedge89@gmail.com)<djv7590@gmail.com>
 Bobby Baehr <firefighter3919@gmail.com>
@@ -1042,3 +1026,28 @@ Christopher intartaglio <jeter8886@gmail.com>
 Erik Facundo <erik.facundo@gmail.com>
 rich michels <sirblknight@gmail.com>
 "crazyredneck4747@aol.com" (crazyredneck4747@gmail.com)<crazyredneck4747@aol.com>
+
+
+// List of users getting credit for 2012
+$paid_2012_list
+Robert Tripe <rmtripe@gmail.com>
+%2012
+Christopher Rowland (chrisprowl@gmail.com)(chrisprowl@aol.com)
+Samuel K Anders (sam@samanderscpa.com)(skacpa@bellsuth.net)
+Stephen Kelly (kelgar63@gmail.com)(skelly07@twcny.rr.com) 
+William Walters (lcff791@gmail.com)
+%%12/04/2011
+Patrick Hultman (pat.hultman@jocofd1.org)<pat.hultman@jocofd1.org>
+
+// List of users getting free credit for 2012
+$free_2012_list
+%2012
+%%01/01/2012
+Shawn Mingus (gcfd586@gmail.com)<s.mingus@loveladyrescue.com>
+Kyle Miller <millerk1110@gmail.com>
+Aaron Haynes <firecop142@gmail.com>
+kethornes (kethornes@gmail.com)<kethornes@yahoo.com>
+Swake2005 (steph78w@gmail.com)<swake2005@aol.com>
+patrick turner (pturner.ufdpio@gmail.com)<pturner.ssc@gmail.com>
+Marii Bertoni <mariobertoni4@gmail.com>
+Blaire Haggwood <blairehaggwood@gmail.com>
