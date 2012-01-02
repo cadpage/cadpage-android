@@ -392,11 +392,7 @@ public class SmsPopupActivity extends Activity {
     String timeStamp = message.getFormattedTimestamp(this).toString();
     if (ManagePreferences.showSource()) { 
       String source = info.getSource();
-      if (source.length() == 0) {
-        source = ManageParsers.getInstance().getLocName(newMessage.getLocation());
-        int ipt = source.indexOf(',');
-        if (ipt >= 0) source = source.substring(0,ipt).trim();
-      }
+      if (source.length() == 0) source = message.getLocation();
       headerText = getString(R.string.src_text_at, source, timeStamp);//
     } else { 
       headerText = getString(R.string.new_text_at, timeStamp);
