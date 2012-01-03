@@ -22,22 +22,19 @@ public class DonationManager {
   public static final int REL_EXEMPT_DAYS = 10;
   
   public enum DonationStatus {FREE, LIFE, AUTH_DEPT, SPONSOR, PAID, PAID_WARN, PAID_EXPIRE, 
-                               DEMO, DEMO_EXPIRE, EXEMPT};
+                               PAID_LIMBO, DEMO, DEMO_EXPIRE, EXEMPT};
   
   // Cached calculated values are only valid until this time
   private long validLimitTime = 0L;
   
-  // cached days since Cadpage was installed
-  private int daysSinceInstall;
-  
   // Cached expiration date
   private Date expireDate;
   
+  // Cached days since install
+  private int daysSinceInstall;
+  
   // cached days until Cadpage expires
   private int daysTillExpire;
-  
-  // cached days left to release exemption expires
-  private int daysTillReleaseExpire;
   
   // Cached donation status
   private DonationStatus status;
@@ -76,25 +73,32 @@ public class DonationManager {
     // And calculated cached values
     sponsor = ManagePreferences.getCurrentParser().getSponsor();
     daysSinceInstall = ManagePreferences.calcAuthRunDays(sponsor == null ? curDate : null);
+    int daysTillDemoEnds = DEMO_LIMIT_DAYS - daysSinceInstall;
     
     // Calculate expiration date
     // (one year past the purchase date anniversary in the last paid year)
     // ((Use install date if there is no purchase date))
     expireDate = null;
-    daysTillExpire = 0;
-    daysTillReleaseExpire = 0;
+    int daysTillSubExpire = -99999;
+    boolean limbo = false;
     int paidYear = ManagePreferences.paidYear();
     if (paidYear > 0) {
       Date tDate = ManagePreferences.purchaseDate();
       if (tDate == null) tDate = ManagePreferences.installDate();
-      Date minPurchaseDate = ManagePreferences.minPurchaseDate();
-      if (minPurchaseDate != null && minPurchaseDate.after(tDate)) tDate = minPurchaseDate;
       Calendar cal = new GregorianCalendar();
       cal.setTime(tDate);
       cal.set(Calendar.YEAR, paidYear+1);
       expireDate = cal.getTime();
-      daysTillExpire = curJDate.diffDays(new JulianDate(expireDate));
+      Date minExpireDate = ManagePreferences.minExpireDate();
+      if (minExpireDate != null && minExpireDate.after(expireDate)) expireDate = minExpireDate;
+      JulianDate jExpireDate = new JulianDate(expireDate);
+      daysTillSubExpire = curJDate.diffDays(jExpireDate);
+      if (daysTillSubExpire < 0) {
+        JulianDate jReleaseDate = new JulianDate(ManagePreferences.releaseDate());
+        limbo = jReleaseDate.diffDays(jExpireDate) >= 0;
+      }
     }
+    daysTillExpire = Math.max(daysTillDemoEnds, daysTillSubExpire);
     
     if (ManagePreferences.freeRider()) status = DonationStatus.LIFE;
     else if (ManagePreferences.authLocation().equals(ManagePreferences.location())) {
@@ -102,12 +106,17 @@ public class DonationManager {
     } else if (expireDate != null) {
       if (daysTillExpire > EXPIRE_WARN_DAYS) status = DonationStatus.PAID;
       else if (sponsor != null) status = DonationStatus.SPONSOR;
-      else if (daysTillExpire >= 0) status = DonationStatus.PAID_WARN;
-      else if (daysSinceInstall <= DEMO_LIMIT_DAYS) status = DonationStatus.DEMO;
+      else if (daysTillExpire >= 0) {
+        if (daysTillExpire == daysTillSubExpire) {
+          status = DonationStatus.PAID_WARN;
+        } else {
+          status = DonationStatus.DEMO;
+        }
+      } else if (limbo) status = DonationStatus.PAID_LIMBO;
       else status = DonationStatus.PAID_EXPIRE;
     } else if (sponsor != null) status = DonationStatus.SPONSOR;
     else {
-      if (daysSinceInstall <= DEMO_LIMIT_DAYS) status = DonationStatus.DEMO;
+      if (daysTillExpire >= 0) status = DonationStatus.DEMO;
       else status = DonationStatus.DEMO_EXPIRE;
     }
     
@@ -123,7 +132,7 @@ public class DonationManager {
         int days = exJDate.diffDays(curJDate);
         if (days <= REL_EXEMPT_DAYS) {
           status = DonationStatus.EXEMPT;
-          daysTillReleaseExpire = REL_EXEMPT_DAYS - days;
+          daysTillExpire = REL_EXEMPT_DAYS - days;
         }
       }
     }
@@ -200,11 +209,6 @@ public class DonationManager {
    */
   public int extraAuthLeft() {
     return MAX_EXTRA_DAYS - ManagePreferences.authExtraCnt();
-  }
-  
-  public int daysTillReleaseExpire() {
-    calculate();
-    return daysTillReleaseExpire;
   }
   
   /**

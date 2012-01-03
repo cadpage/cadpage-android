@@ -25,7 +25,7 @@ public class DonateExemptEvent extends DonateScreenEvent {
     switch (type) {
       
     case PARM_TEXT:
-      return new Object[]{DonationManager.instance().daysTillReleaseExpire()};
+      return new Object[]{DonationManager.instance().daysTillExpire()};
 
     default:
       return null;

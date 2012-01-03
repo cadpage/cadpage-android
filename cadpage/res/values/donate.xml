@@ -60,12 +60,20 @@
   
   <string name="donate_paid_warn_title">Your subscription will expire in %d days</string>
   <string name="donate_paid_warn_text">
-    Your current Cadpage subscription will expire on %s
+    Your current Cadpage subscription will expire on %s.  You can continue to 
+    use Cadpage beyond that date as long as you do not install a release
+    published after that date.
+  </string>
+  
+  <string name="donate_paid_limbo_title">Your Cadpage subscription has expired</string>
+  <string name="donate_paid_limbo_text">
+    Your current Cadpage subscription expired on %s.  You can continue to 
+    use Cadpage as long as you do not install a release published after that date.
   </string>
   
   <string name="donate_paid_expire_title">Your Cadpage subscription has expired</string>
   <string name="donate_paid_expire_text">
-    Your current Cadpage subscription expired %d days ago.
+    Your current Cadpage subscription expired on %s.
   </string>
   
   <string name="donate_demo_title">Cadpage demo expires in %d days</string>

@@ -56,7 +56,7 @@ public abstract class UserAcctManager {
   // references API calls that do not exist in Android 1.6
   public static class RealUserAcctManager extends UserAcctManager implements OnAccountsUpdateListener {
     
-    private static final DateFormat DATE_FMT = new SimpleDateFormat("MM-dd-yyyy");
+    private static final DateFormat DATE_FMT = new SimpleDateFormat("MM/dd/yyyy");
     
     Context context;
     private String userEmail = null;

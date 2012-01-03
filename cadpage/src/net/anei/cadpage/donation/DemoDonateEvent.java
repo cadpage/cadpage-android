@@ -25,15 +25,15 @@ public class DemoDonateEvent extends DonateScreenEvent {
 
   @Override
   protected Object[] getTextParms(int type) {
-    int days = DonationManager.instance().daysSinceInstall();
+    DonationManager mgr = DonationManager.instance();
     
     switch (type) {
     
     case PARM_TITLE:
-      return new Object[]{DonationManager.DEMO_LIMIT_DAYS-days};
+      return new Object[]{mgr.daysTillExpire()};
       
     case PARM_TEXT:
-      return new Object[]{days, DonationManager.DEMO_LIMIT_DAYS-days};
+      return new Object[]{mgr.daysSinceInstall(), mgr.daysTillExpire()};
 
     default:
       return null;

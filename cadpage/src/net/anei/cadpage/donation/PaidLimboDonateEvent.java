@@ -8,21 +8,21 @@ import net.anei.cadpage.R;
 /**
 Your Cadpage subscription will expire in %d days
 
-Your current Cadpage subscription will expire on %s.  You can continue to 
+Your current Cadpage subscription expired on %s.  You can continue to 
 use Cadpage beyond that date as long as you do not install a release
 published after that date.
 
  */
-public class PaidWarnDonateEvent extends DonateScreenEvent {
+public class PaidLimboDonateEvent extends DonateScreenEvent {
   
-  public PaidWarnDonateEvent() {
-    super(AlertStatus.YELLOW, R.string.donate_paid_warn_title, R.string.donate_paid_warn_text,
+  public PaidLimboDonateEvent() {
+    super(AlertStatus.YELLOW, R.string.donate_paid_limbo_title, R.string.donate_paid_limbo_text,
            ReqMoneyGroup.instance(), MagicWordEvent.instance());
   }
 
   @Override
   public boolean isEnabled() {
-    return (DonationManager.instance().status() == DonationManager.DonationStatus.PAID_WARN);
+    return (DonationManager.instance().status() == DonationManager.DonationStatus.PAID_LIMBO);
   }
 
   @Override
@@ -43,9 +43,9 @@ public class PaidWarnDonateEvent extends DonateScreenEvent {
     }
   }
   
-  private static final PaidWarnDonateEvent instance = new PaidWarnDonateEvent();
+  private static final PaidLimboDonateEvent instance = new PaidLimboDonateEvent();
   
-  public static PaidWarnDonateEvent instance() {
+  public static PaidLimboDonateEvent instance() {
     return instance;
   }
 

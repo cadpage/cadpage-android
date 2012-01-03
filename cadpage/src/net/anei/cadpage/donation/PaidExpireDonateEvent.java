@@ -1,11 +1,14 @@
 package net.anei.cadpage.donation;
 
+import java.text.DateFormat;
+import java.util.Date;
+
 import net.anei.cadpage.R;
 
 /**
 Your Cadpage subscription has expired
 
-Your current Cadpage subscription expired %d days ago
+Your current Cadpage subscription expired on %s
  */
 public class PaidExpireDonateEvent extends DonateScreenEvent {
   
@@ -27,7 +30,9 @@ public class PaidExpireDonateEvent extends DonateScreenEvent {
     switch (type) {
       
     case PARM_TEXT:
-      return new Object[]{-DonationManager.instance().daysTillExpire()};
+      Date expireDate = DonationManager.instance().expireDate();
+      String sDate = DateFormat.getDateInstance(DateFormat.MEDIUM).format(expireDate);
+      return new Object[]{sDate};
 
     default:
       return null;

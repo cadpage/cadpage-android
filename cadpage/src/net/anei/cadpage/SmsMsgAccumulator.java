@@ -286,8 +286,11 @@ public class SmsMsgAccumulator {
       if (list.size() < minCount) return false;
       
       // Otherwise, invoke the current location parser and see if it thinks
-      // we have a complete message.
+      // we have a complete message.  If we have an impossible parse failure
+      // return complete so we can get rid of this message
       SmsMmsMessage msg = getMessage();
+      if (msg == null) return true;
+      
       boolean isPage = msg.isPageMsg(MsgParser.PARSE_FLG_SKIP_FILTER);
       if (isPage && !msg.getInfo().isExpectMore()) return true;
       

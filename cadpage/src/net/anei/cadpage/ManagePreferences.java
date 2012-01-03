@@ -453,9 +453,9 @@ public class ManagePreferences {
     MainDonateEvent.instance().refreshStatus();
   }
   
-  public static Date minPurchaseDate() {
+  public static Date minExpireDate() {
     try {
-      return DATE_FORMAT.parse(prefs.context.getString(R.string.min_purchase_date));
+      return DATE_FORMAT.parse(prefs.context.getString(R.string.min_expire_date));
     } catch (ParseException ex) {
       return null;
     }
@@ -597,6 +597,15 @@ public class ManagePreferences {
   
   public static void setExemptDate() {
     setExemptDate(prefs.context.getString(R.string.release_date));
+  }
+  
+  public static Date releaseDate() {
+    String sDate = prefs.context.getString(R.string.release_date);
+    try {
+      return DATE_FORMAT.parse(sDate);
+    } catch (ParseException e) {
+      return null;
+    }
   }
   
   public static void setExemptDate(String newVal) {

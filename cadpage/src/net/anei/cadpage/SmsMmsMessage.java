@@ -380,7 +380,7 @@ public class SmsMmsMessage implements Serializable {
     if (skipFilter) parserFlags |= MsgParser.PARSE_FLG_SKIP_FILTER;
     
     // First step is to check for an override sender filter
-    if (!skipFilter && ManagePreferences.overrideFilter()) {
+    if (!force && !skipFilter && ManagePreferences.overrideFilter()) {
       String filter = ManagePreferences.filter();
       if (filter.length() > 1) {
         if (!MsgParser.matchFilter(getAddress(), filter)) return false;

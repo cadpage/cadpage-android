@@ -56,6 +56,7 @@ public class DeveloperToolsManager {
     "Stat: Free",
     "Stat: Donate paid",
     "Stat: Donate warn",
+    "Stat: Donate limbo",
     "Stat: Donate expired",
     "Stat: Demo",
     "Stat: Demo expired",
@@ -67,7 +68,7 @@ public class DeveloperToolsManager {
   };
   
   private static final String[] valueList = new String[]{
-    "31", "32", "33", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"
+    "31", "32", "33", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11"
   };
   
   private class DeveloperListPreference extends ListPreference {
@@ -123,15 +124,18 @@ public class DeveloperToolsManager {
         setPurchaseDate(DonationManager.EXPIRE_WARN_DAYS-2, -3);
         break;
         
-      case 4:     // Stat: Donate expire
+      case 4:     // Stat: Donate Limbo
+      case 5:     // Stat: Donate expire
         ManagePreferences.setAuthExemptDate(null);
         ManagePreferences.setFreeRider(false);
         ManagePreferences.setAuthLocation(null);
-        setPaidYear(-1);
-        setPurchaseDate(-1, -3);
+        Date releaseDate = ManagePreferences.releaseDate();
+        setPaidYear(-1, releaseDate);
+        int dayDelta = (val == 4 ? 0 : -1);
+        setPurchaseDate(dayDelta, -1, releaseDate);
         break;
       
-      case 5:     // Stat: Demo
+      case 6:     // Stat: Demo
         ManagePreferences.setAuthExemptDate(null);
         ManagePreferences.setFreeRider(false);
         ManagePreferences.setAuthLocation(null);
@@ -139,7 +143,7 @@ public class DeveloperToolsManager {
         ManagePreferences.setAuthRunDays(10);
         break;
         
-      case 6:     // Stat: Demo expired
+      case 7:     // Stat: Demo expired
         ManagePreferences.setAuthExemptDate(null);
         ManagePreferences.setFreeRider(false);
         ManagePreferences.setAuthLocation(null);
@@ -147,19 +151,19 @@ public class DeveloperToolsManager {
         ManagePreferences.setAuthRunDays(DonationManager.DEMO_LIMIT_DAYS+1);
         break;
         
-      case 7:     // Reset release info
+      case 8:     // Reset release info
         ManagePreferences.setRelease("");
         break;
         
-      case 8:     // Content Query
+      case 9:     // Content Query
         ContentQuery.query(context);
         break;
         
-      case 9:     // Recent tasks
+      case 10:     // Recent tasks
         ContentQuery.dumpRecentTasks(context);
         break;
         
-      case 10:    // Roll last date
+      case 11:    // Roll last date
         ManagePreferences.rollLastAuthDate("01012000");
         break;
         
@@ -178,12 +182,22 @@ public class DeveloperToolsManager {
       MainDonateEvent.instance().refreshStatus();
     }
     
+    private void setPurchaseDate(int dayOffset, int yearOffset, Date baseDate) {
+      ManagePreferences.setPurchaseDate(calcDate(dayOffset, yearOffset, baseDate));
+    }
+    
     private void setPurchaseDate(int dayOffset, int yearOffset) {
       ManagePreferences.setPurchaseDate(calcDate(dayOffset, yearOffset));
     }
     
     private Date calcDate(int dayOffset, int yearOffset) {
+      return calcDate(dayOffset, yearOffset, null);
+    }
+    
+    private Date calcDate(int dayOffset, int yearOffset, Date baseDate) {
+      if (baseDate == null) baseDate = new Date();
       Calendar cal = new GregorianCalendar();
+      cal.setTime(baseDate);
       cal.set(Calendar.HOUR, 0);
       cal.set(Calendar.MINUTE, 0);
       cal.set(Calendar.SECOND, 0);
@@ -198,7 +212,13 @@ public class DeveloperToolsManager {
     }
     
     private void setPaidYear(int yearOffset) {
+      setPaidYear(yearOffset, null);
+    }
+    
+    private void setPaidYear(int yearOffset, Date baseDate) {
+      if (baseDate == null) baseDate = new Date();
       Calendar cal = new GregorianCalendar();
+      cal.setTime(baseDate);
       int year = cal.get(Calendar.YEAR);
       year = yearOffset == Integer.MIN_VALUE ? 0 : year+yearOffset;
       ManagePreferences.setPaidYear(year);
