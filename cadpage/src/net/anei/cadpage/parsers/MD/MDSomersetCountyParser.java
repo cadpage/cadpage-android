@@ -7,7 +7,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /*    
 Somerset County, MD
-Conta/ct: "Ford, Allen C" <acford@dpscs.state.md.us>
+Contact: "Ford, Allen C" <acford@dpscs.state.md.us>
 Contact: Chris McLain <ctm826@gmail.com>
 Sender: CAD@somerset911.local
 

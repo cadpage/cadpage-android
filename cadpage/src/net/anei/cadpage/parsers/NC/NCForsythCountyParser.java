@@ -51,7 +51,7 @@ public class NCForsythCountyParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "forsythcountyfir@bellsouth.net,lfdalltext@lewisvillefire.com,gfdpaging@griffithfire.com";
+    return "forsythcountyfir@bellsouth.net,lfdalltext@lewisvillefire.com,gfdpaging@griffithfire.com,pgfr32@triad.rr.com";
   }
 
   @Override
