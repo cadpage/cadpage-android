@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">12232011</string>
+  <string name="release_date">01022011</string>
   <string name="release_version">v1.5.02</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
@@ -28,7 +28,11 @@ Erie County, PA\n
 General Fixes:\n
 Sender address filter logic has been changed so that numeric filters must match 
 the beginning of the sender phone number.  Filters containing non-numeric
-characters can still match any part of the sender address.
+characters can still match any part of the sender address.\n
+\n
+Fixed some serious problems with subscriptions expiring as soon as Cadpage is
+reinstalled.  And different problems that disabled all of the safeties that
+were designed to allow Cadpage to keep running when things screw up.
   </string>  
 </resources>
   
