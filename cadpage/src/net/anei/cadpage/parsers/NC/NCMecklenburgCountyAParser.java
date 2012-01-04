@@ -66,10 +66,17 @@ public class NCMecklenburgCountyAParser extends MsgParser {
   private static final Set<String> PRI_VALUES = new HashSet<String>(Arrays.asList(new String[]{"Charlie", "Delta", "Fire - Emergency"}));
   private static final Properties CALL_CODES = buildCodeTable(new String[]{
       "06-", "Breathing Problems",
+      "10-", "Chest Pain",
+      "12-", "Convulsion/Seizure",
       "17-", "Falls/Back injuries",
+      "23-", "Overdose/Ingestion/Poison",
       "26-", "Sick person", 
+      "28-", "Stroke/CVA",
+      "29-", "Traffic accident",
+      "30-", "Traumatic injuries",
       "31-", "Unconsciousness/Fainting",
       "32-", "Unknown problem",
+      "42-", "Fire/Police support",
       "52F", "Alarm-FIRE",
       "59-", "Fuel Spill",
       "69-", "Structure Fire",
