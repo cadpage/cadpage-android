@@ -194,6 +194,15 @@ public class NCRowanCountyParserTest extends BaseParserTest {
         "PLACE:NC 801 HWY",
         "UNIT:6608",
         "CH:OPS12");
+
+    doTest("T21",
+        "BCAD:32D3 UNKNOWN MEDICAL;175 WHISPERING OAKS LN;MOCK;OAK MEADOW LN;RATLEDGE RD;7305;OPS",
+        "CALL:BCAD:32D3 UNKNOWN MEDICAL",
+        "ADDR:175 WHISPERING OAKS LN",
+        "X:OAK MEADOW LN / RATLEDGE RD",
+        "CITY:MOCKSVILLE",
+        "UNIT:7305",
+        "CH:OPS");
  }
   
 

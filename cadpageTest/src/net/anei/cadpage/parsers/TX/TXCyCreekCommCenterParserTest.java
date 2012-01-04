@@ -306,7 +306,19 @@ public class TXCyCreekCommCenterParserTest extends BaseParserTest {
         "CALL:29D202P-MVI - ROLLOVER",
         "UNIT:M56 FO291N E78 L71",
         "X:NORTH FRWY SB NANNETTE LN 2");
-  }
+
+    doTest("T28",
+        "12/30 14:29 605 RILEY FUZZEL RD-HC, KATERING 2 KIDS; Map:292M- Sub: Nat:55B04-ELECTRICAL ODOR Units:E78 X-St:HARDY TOLL RD NB OLD RILE 20115823",
+        "DATE:12/30",
+        "TIME:14:29",
+        "ADDR:605 RILEY FUZZEL RD",
+        "MAP:292M-",
+        "PLACE:KATERING 2 KIDS",
+        "CALL:55B04-ELECTRICAL ODOR",
+        "UNIT:E78",
+        "X:HARDY TOLL RD NB OLD RILE",
+        "ID:20115823");
+ }
   
   public static void main(String[] args) {
     new TXCyCreekCommCenterParserTest().generateTests("T1", "DATE TIME PHONE ADDR APT CITY MAP PLACE CALL UNIT X ID");

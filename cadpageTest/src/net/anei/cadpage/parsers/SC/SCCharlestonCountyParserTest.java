@@ -211,6 +211,15 @@ public class SCCharlestonCountyParserTest extends BaseParserTest {
         "CALL:Rescue Medical Assist Bravo Response",
         "ADDR:93 America St",
         "X:E HAMPSTEAD SQUARE/BLAKE ST");
+
+    doTest("T25",
+        "1211-0002346 District 09 Rescue Entrapment Unknown B Address: Dorchester Rd / Hill Blvd X Street:  IFO HUNLEY PARK Cmd Channel:  In",
+        "ID:1211-0002346",
+        "SRC:09",
+        "ADDR:Dorchester Rd & Hill Blvd",
+        "X:IFO HUNLEY PARK",
+        "CH:In",
+        "CALL:Rescue Entrapment Unknown B");
     
   }
   
