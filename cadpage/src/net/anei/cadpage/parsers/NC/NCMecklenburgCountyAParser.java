@@ -102,7 +102,7 @@ public class NCMecklenburgCountyAParser extends MsgParser {
     data.strMap = substring(body,206,216);
     data.strCallId = substring(body,216);
 
-    if (!good && !PRI_VALUES.contains(data.strSupp)) return true;
+    if (!good && !PRI_VALUES.contains(data.strSupp)) return false;
     
     if (data.strCall.length()>=3) {
       String callCode = data.strCall.substring(0,3);

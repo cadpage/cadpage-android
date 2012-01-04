@@ -22,12 +22,18 @@ Contact: John Stroup <j.stroup@northmeckrescue.org>
 Sender: paging@rcscom.com
 Subject:Incoming Message\n15503 N Old Statesville Rd North Meck Rescue Charlie 12- Convulsion/Seizure 60 Foot St/Unnamed St Nmr1 Map - 266266/
 
+Contact:  Soundwood <soundwood@msn.com>
+From: 334@c-msg.net
+FRM:rc.334@c-msg.net\nSUBJ:cCAD\nMSG:[!] 10210 Couloak Dr SUIT E Charlie 28- Stroke/CVA Mt Holly-Huntersvill Rd/Dunn Commons Pk COOR4 Map - 292292/J9 12302011-096
+FRM:rc.334@c-msg.net\nSUBJ:cCAD\nMSG:[!] 6700 Pleasant Oaks Cr Charlie 28- Stroke/CVA Songbird Ln/Catalina Ln COOR3 Map - 321321/E1 12282011-371
+FRM:rc.334@c-msg.net\nSUBJ:cCAD\nMSG:[!] 10611 Mount Holly Rd ifo residence Charlie 29- Traffic accident Chattaroy Dr/Latta Av COOF3 Map - 320320/D3 12272011-012
+
 */
 
 public class NCMecklenburgCountyBParser extends SmartAddressParser {
   
   private static final Pattern CODE_PTN = Pattern.compile(" (\\d\\d-) ");
-  private static final Pattern UNIT_PTN = Pattern.compile("\\b[A-Z][A-Za-z]{1,2}\\d{1,3}\\b");
+  private static final Pattern UNIT_PTN = Pattern.compile("\\b[A-Z][A-Za-z]{1,4}\\d{1,3}\\b");
   
   
   public NCMecklenburgCountyBParser() {

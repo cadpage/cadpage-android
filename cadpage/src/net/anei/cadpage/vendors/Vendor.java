@@ -320,6 +320,7 @@ abstract class Vendor {
     String phone = UserAcctManager.instance().getPhoneNumber();
     Uri.Builder builder = baseURI.buildUpon();
     builder = builder.appendQueryParameter("req", req);
+    builder = builder.appendQueryParameter("vendor", getVendorCode());
     if (account != null) builder = builder.appendQueryParameter("account", account);
     if (token != null) builder = builder.appendQueryParameter("token", token);
     if (phone != null) builder = builder.appendQueryParameter("phone", phone);
@@ -347,6 +348,7 @@ abstract class Vendor {
   private void viewPage(Context context, Uri uri) {
     if (!SmsPopupUtils.haveNet(activity)) return;
     Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+    intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
     context.startActivity(intent);
   }
 }
