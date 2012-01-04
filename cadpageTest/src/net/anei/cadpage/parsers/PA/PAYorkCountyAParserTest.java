@@ -114,6 +114,16 @@ public class PAYorkCountyAParserTest extends BaseParserTest {
         "MAP:24-02",
         "SRC:FIRESTA24",
         "UNIT:E24-1");
+
+    doTest("T11",
+        "Fire Incident / W MANCHESTER TWP    CARLISLE RD RTE 30 WB VEH ACC INJ CL 2 r24 avail 02-05 UFIRE24  20:27¿\n\n\n",
+        "CITY:W MANCHESTER TWP",
+        "ADDR:CARLISLE RD & RTE 30 WB",
+        "MADDR:CARLISLE RD & RTE 30",
+        "X:VEH ACC INJ CL",
+        "CALL:2 r24 avail",
+        "MAP:02-05",
+        "UNIT:UFIRE24");
   }
   
   @Test

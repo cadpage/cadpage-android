@@ -93,7 +93,7 @@ public class CTNewHavenCountyBParserTest extends BaseParserTest {
   }
   
   @Test
-  public void testEastHaven() {
+  public void testNorthBrandon() {
 
     doTest("T1",
         "1100010113 MEDICAL MEDC 00254  BRANFORD RD Prem Map -  HARRISON RD/FOXON RD  MED4 R1 111116 23:04\n",
@@ -104,6 +104,37 @@ public class CTNewHavenCountyBParserTest extends BaseParserTest {
         "UNIT:MED4 R1",
         "TIME:23:04");
 
+    doTest("T2",
+        "1100011295 MEDICAL MEDD 01739 FOXON RD NORTH ST/SEA HILL RD  MED4 R1 111230 23:13\n",
+        "ID:1100011295",
+        "CALL:MEDICAL MEDD",
+        "ADDR:1739 FOXON RD",
+        "X:NORTH ST / SEA HILL RD",
+        "UNIT:MED4 R1",
+        "TIME:23:13");
+
+    doTest("T3",
+        "1100011302 MUTUAL AID 00260 FOREST RD JERZ LN/OLD FOREST RD  MED4 111231 03:49\n",
+        "ID:1100011302",
+        "CALL:MUTUAL AID",
+        "ADDR:260 FOREST RD",
+        "X:JERZ LN / OLD FOREST RD",
+        "UNIT:MED4",
+        "TIME:03:49");
+
+    doTest("T4",
+        "1100011303 MEDICAL MEDA 00043 WOODCHASE LN TOTOKET RD/MILL RD  515 MED4 111231 05:02\n",
+        "ID:1100011303",
+        "CALL:MEDICAL MEDA",
+        "ADDR:43 WOODCHASE LN",
+        "X:TOTOKET RD / MILL RD",
+        "UNIT:515 MED4",
+        "TIME:05:02");
+   
+  }
+  
+  @Test
+  public void testEastHaven() {
     doTest("T2",
         "1100005182 ALPHA MEDICAL 00055 THOMPSON ST  Prem Map -14 PP 65 FOXON RD/GAY ST  (Prem Map -14 PP 65)    S5 111120 15:40",
         "ID:1100005182",
@@ -176,6 +207,6 @@ public class CTNewHavenCountyBParserTest extends BaseParserTest {
   }
   
   public static void main(String[] args) {
-    new CTNewHavenCountyBParserTest().generateTests("T3", "ID CALL ADDR CITY MAP X UNIT TIME");
+    new CTNewHavenCountyBParserTest().generateTests("T2", "ID CALL ADDR CITY MAP X UNIT TIME");
   }
 }

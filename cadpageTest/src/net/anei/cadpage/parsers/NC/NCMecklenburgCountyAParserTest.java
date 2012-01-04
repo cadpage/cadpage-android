@@ -152,6 +152,6 @@ public class NCMecklenburgCountyAParserTest extends BaseParserTest {
   
 
   public static void main(String[] args) {
-    new NCMecklenburgCountyAParserTest().generateTests("T1", "ADDR APT PLACE INFO CALL X CH MAP ID");
+    new NCMecklenburgCountyAParserTest().generateTests("7", "ADDR APT PLACE INFO CALL X CH MAP ID");
   }
 }

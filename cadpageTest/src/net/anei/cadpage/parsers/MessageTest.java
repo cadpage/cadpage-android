@@ -8,6 +8,12 @@ public class MessageTest {
   
   @Test
   public void testParseInfo() {
+    
+    doParseTest("",
+        "farmersvillefd+caf_=7042218878=vtext.com@gmail.com", "",
+        "12000351  FIRST RESPONDERS  901 S STATE HIGHWAY 78 IN COLLIN COUNTY  PECAN CREEK DR / COUNTY ROAD 606  [FVFD DIST: FVF1 GRID: 124",
+        "farmersvillefd+caf_=7042218878=vtext.com@gmail.com", "",
+        "12000351  FIRST RESPONDERS  901 S STATE HIGHWAY 78 IN COLLIN COUNTY  PECAN CREEK DR / COUNTY ROAD 606  [FVFD DIST: FVF1 GRID: 124");
         
     doParseTest("COWeldCounty",
         "Fr:<Basepage@weldcorcc.com>\nSu:Dispatch\nTxt: 27849,SI -SICK & INJ (F&A),CR 55/CR 62.37 WA,FG 5\n\n\nid:7",
@@ -340,7 +346,18 @@ public class MessageTest {
   private void doParseTest(String title, String body, String expFrom, 
                              String expSubject, String expBody, 
                              int expIndex, int expCount) {
-    Message msg = new Message(true, "ken@cadpage.org", "", body);
+    doParseTest(title, "ken@cadpage.org", "", body, expFrom, expSubject, expBody, expIndex, expCount);
+  }
+  
+  private void doParseTest(String title, String from, String subject, String body, 
+                             String expFrom, String expSubject, String expBody) {
+    doParseTest(title, from, subject, body, expFrom, expSubject, expBody, -1, -1);
+  }
+  
+  private void doParseTest(String title, String from, String subject, String body, 
+                             String expFrom, String expSubject, String expBody, 
+                             int expIndex, int expCount) {
+    Message msg = new Message(true, from, subject, body);
     assertEquals(title + ":FROM", expFrom, msg.getAddress());
     assertEquals(title + ":SUBJ", expSubject, msg.getSubject());
     assertEquals(title + ":BODY", expBody, msg.getMessageBody());

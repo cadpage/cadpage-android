@@ -301,6 +301,7 @@ public class PALehighCountyParserTest extends BaseParserTest {
         "SRC:ST3000",
         "CALL:TRUCK/BUS/RV FIRE",
         "ADDR:I476MM59 6NB",
+        "MADDR:I476MM59 6NB,I476MM59 6NB",
         "CITY:SOUTH WHITEHALL TWP",
         "PLACE:I476MM59 6NB",
         "NAME:JOHN",

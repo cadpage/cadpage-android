@@ -95,6 +95,46 @@ public class NCMecklenburgCountyBParserTest extends BaseParserTest {
         "MAP:266266/");
   }
   
+  @Test
+  public void testParser3() {
+
+    doTest("T1",
+        "FRM:rc.334@c-msg.net\nSUBJ:cCAD\nMSG:[!] 10210 Couloak Dr SUIT E Charlie 28- Stroke/CVA Mt Holly-Huntersvill Rd/Dunn Commons Pk COOR4 Map - 292292/J9 12302011-096",
+        "ADDR:10210 Couloak Dr",
+        "INFO:SUIT E",
+        "PRI:C",
+        "CODE:28-",
+        "CALL:Stroke/CVA Mt",
+        "X:Holly-Huntersvill Rd & Dunn Commons Pk",
+        "UNIT:COOR4",
+        "MAP:292292/J9",
+        "ID:12302011-096");
+
+    doTest("T2",
+        "FRM:rc.334@c-msg.net\nSUBJ:cCAD\nMSG:[!] 6700 Pleasant Oaks Cr Charlie 28- Stroke/CVA Songbird Ln/Catalina Ln COOR3 Map - 321321/E1 12282011-371",
+        "ADDR:6700 Pleasant Oaks Cr",
+        "MADDR:6700 Pleasant Oaks Cir",
+        "PRI:C",
+        "CODE:28-",
+        "CALL:Stroke/CVA",
+        "X:Songbird Ln & Catalina Ln",
+        "UNIT:COOR3",
+        "MAP:321321/E1",
+        "ID:12282011-371");
+
+    doTest("T3",
+        "FRM:rc.334@c-msg.net\nSUBJ:cCAD\nMSG:[!] 10611 Mount Holly Rd ifo residence Charlie 29- Traffic accident Chattaroy Dr/Latta Av COOF3 Map - 320320/D3 12272011-012",
+        "ADDR:10611 Mount Holly Rd",
+        "INFO:ifo residence",
+        "PRI:C",
+        "CODE:29-",
+        "CALL:Traffic accident",
+        "X:Chattaroy Dr & Latta Av",
+        "UNIT:COOF3",
+        "MAP:320320/D3",
+        "ID:12272011-012");
+  }
+  
 
   public static void main(String[] args) {
     new NCMecklenburgCountyBParserTest().generateTests("T1", "ADDR APT INFO PRI CODE CALL X UNIT MAP ID");
