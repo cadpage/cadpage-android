@@ -79,6 +79,15 @@ public class NCCabarrusCountyAParserTest extends BaseParserTest {
         "CITY:CONCORD",
         "X:BRAXTON DR & SABLE CT",
         "NAME:BRITTANY STIREWALT");
+
+    doTest("T9",
+        "CAD:HEART PROBLEMS \\A.I.C.D;9900 ARBORDALE AV;CHL;MIDVALE TER;BRANCH ST;BUCKALOO, PATRICIA",
+        "CALL:HEART PROBLEMS \\A.I.C.D",
+        "ADDR:9900 ARBORDALE AV",
+        "MADDR:9900 ARBORDALE AVE",
+        "X:MIDVALE TER & BRANCH ST",
+        "CITY:CHARLOTTE",
+        "NAME:BUCKALOO, PATRICIA");
   }
   
   // @Test
