@@ -13,6 +13,7 @@ Contact: Michael Martocchio <maccaronimartocchio@gmail.com>
 Contact: "codymac08@yahoo.com" <codymac08@yahoo.com>
 Contact: Travis McGhee <mcgheetp@gmail.com>
 Contact: ryan sellers <rsellers43@gmail.com>
+Contact: Jimmy Greene <fireman11607@yahoo.com>
 Sender: CAD@cabarruscounty.us,930xxxxxxx
 
 CAD:ASSAULT W/ INJURY;2339 ODELL SCHOOL RD;CON;CONCORD HOUSE;HILLSDELL DR;LOCKWOOD RD;RAINTREE, HEALTH CARE OF CONCO
@@ -26,6 +27,7 @@ CAD:FALL WITH INJURY;8552 INDIAN SUMMER TR;HAR;TOM SAVAGE DR
 CAD:DAVIDSON RD/MOORESVILLE RD;DAV;SUSPICIOUS VEHICLE
 CAD:CANCEL;DAVIDSON RD/MOORESVILLE RD; DAV
 CAD:ASSAULT W/ INJURY;5048 DAFFODIL LN;CON;BRAXTON DR;SABLE CT;BRITTANY STIREWALT
+CAD:HEART PROBLEMS \A.I.C.D;9900 ARBORDALE AV;CHL;MIDVALE TER;BRANCH ST;BUCKALOO, PATRICIA
 
 Contact: Kevin Aube <aubercn41@aol.com>
 Contact: David Winecoff <dwinecoff6@gmail.com>
@@ -109,6 +111,7 @@ public class NCCabarrusCountyAParser extends DispatchOSSIParser {
       "KAN",  "KANNAPOLIS",
       "DAV",  "DAVIDSON",
       "LOC",  "LOCUST",
+      "CHL",  "CHARLOTTE",
       "CLT",  "CHARLOTTE",
       "MID",  "MIDLAND"
   });
