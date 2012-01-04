@@ -3664,13 +3664,21 @@ Sender: CDC_Dispatch@charlestoncounty.org
 (Dispatch Info) 29B_Accident MVA Injury Unk   Location Name:
 (Dispatch Info) M01           0347144             District 01 EMS             Spring St / Septima XS:                                Apt/Bldg:
 **********************************************************
-Mecklenburg County, NC (A) (replace or alternate)
-Contact: Soundwood <soundwood@msn.com>
-Sender: rc.334@c-msg.net
-FRM:rc.334@c-msg.net\nSUBJ:cCAD\nMSG:[!] 10210 Couloak Dr SUIT E Charlie 28- Stroke/CVA Mt Holly-Huntersvill Rd/Dunn Commons Pk COOR4 Map - 292292/J9 12302011-096
-FRM:rc.334@c-msg.net\nSUBJ:cCAD\nMSG:[!] 6700 Pleasant Oaks Cr Charlie 28- Stroke/CVA Songbird Ln/Catalina Ln COOR3 Map - 321321/E1 12282011-371
-FRM:rc.334@c-msg.net\nSUBJ:cCAD\nMSG:[!] 10611 Mount Holly Rd ifo residence Charlie 29- Traffic accident Chattaroy Dr/Latta Av COOF3 Map - 320320/D3 12272011-012
 **********************************************************
+Switzerland County, IN
+Contact: Cody McNeely <poseyvfd78209@yahoo.com>
+
+Sender: @scso-in.org
+Subject:SWITZERLAND COUNTY SHERIFF'S OFFICE (IN)\n20147 hansman ln\n\n75 yo male fell hurt ankel\n
+Subject:SWITZERLAND COUNTY SHERIFF'S OFFICE (IN)\n10303 searcy ridge rd\n70 year old female injured in fall\nconcious and breathing\n
+
+Sender: messaging@iamresponding.com
+Subject:PVFD\nPosey first responders run to 14612 antioch road 58 year old male bleeding\nfrom sore on hip\n\n\n
+Subject:PVFD\nantioch rd near shawnee campground\n10-50 P I\n\n\n
+
+Sender: colin.english@rocketmail.com
+Subject:PVFD\nbusiness meeting and elections tongiht all members to attendand per 201\n
+Subject:PVFD\nATTN POSEY FIRE MEMBERS MANDOTORY HAZMAT REFRESHER TRAINING TONIGHT @ 6PM\n
 **********************************************************
 **********************************************************
 **********************************************************

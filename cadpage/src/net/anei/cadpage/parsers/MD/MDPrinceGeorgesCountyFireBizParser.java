@@ -53,7 +53,7 @@ public class MDPrinceGeorgesCountyFireBizParser extends FieldProgramParser {
   
   public MDPrinceGeorgesCountyFireBizParser() {
     super("PRINCE GEORGES COUNTY", "MD",
-         "MAPCALL! UNIT! ADDR! INFO? DATETIME");
+         "MAPCALL! UNIT! ADDR! EXTRA+");
   }
   
   @Override
@@ -67,9 +67,7 @@ public class MDPrinceGeorgesCountyFireBizParser extends FieldProgramParser {
     String[] lines = body.split("\n");
     if (lines.length <4 || lines.length > 6) return false;
     if (! lines[lines.length-1].startsWith("http://fireblitz.com/")) return false;
-    String[] lines2 = new String[lines.length-1];
-    System.arraycopy(lines, 0, lines2, 0, lines2.length);
-    return parseFields(lines2, data);
+    return parseFields(lines, data);
   }
   
   private class MapCallField extends Field {
@@ -109,11 +107,6 @@ public class MDPrinceGeorgesCountyFireBizParser extends FieldProgramParser {
       Parser p = new Parser(field);
       data.strUnit = p.get(',');
       data.strSupp = p.get();
-    }
-    
-    @Override
-    public String getFieldNames() {
-      return "UNIT INFO";
     }
   }
   
@@ -155,22 +148,28 @@ public class MDPrinceGeorgesCountyFireBizParser extends FieldProgramParser {
     
     @Override
     public String getFieldNames() {
-      return super.getFieldNames() + " X";
+      return super.getFieldNames() + " PLACE X";
     }
   }
   
-  private class MyInfoField extends InfoField {
+  private static final Pattern DATE_TIME_PTN = Pattern.compile("(\\d\\d/\\d\\d) (\\d\\d:\\d\\d)");
+  private class MyExtraField extends Field {
     
     @Override
-    public boolean canFail() {
-      return true;
+    public void parse(String field, Data data) {
+      Matcher match = DATE_TIME_PTN.matcher(field);
+      if (match.matches()) {
+        data.strDate = match.group(1);
+        data.strTime = match.group(2);
+      } else {
+        if (field.startsWith("Notes:")) field = field.substring(6).trim();
+        data.strSupp = append(data.strSupp, "\n", field);
+      }
     }
     
     @Override
-    public boolean checkParse(String field, Data data) {
-      if (!field.startsWith("Notes:")) return false;
-      super.parse(field.substring(6).trim(), data);
-      return true;
+    public String getFieldNames() {
+      return "DATE TIME INFO";
     }
   }
   
@@ -179,7 +178,7 @@ public class MDPrinceGeorgesCountyFireBizParser extends FieldProgramParser {
     if (name.equals("MAPCALL")) return new MapCallField();
     if (name.equals("UNIT")) return new MyUnitField();
     if (name.equals("ADDR")) return new MyAddressField();
-    if (name.equals("INFO")) return new MyInfoField();
+    if (name.equals("EXTRA")) return new MyExtraField();
     return super.getField(name);
   }
 }

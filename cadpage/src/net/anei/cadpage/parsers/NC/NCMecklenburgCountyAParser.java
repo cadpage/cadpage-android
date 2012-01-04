@@ -65,21 +65,21 @@ public class NCMecklenburgCountyAParser extends MsgParser {
   
   private static final Set<String> PRI_VALUES = new HashSet<String>(Arrays.asList(new String[]{"Charlie", "Delta", "Fire - Emergency"}));
   private static final Properties CALL_CODES = buildCodeTable(new String[]{
-      "06-", "Breathing Problems",
-      "10-", "Chest Pain",
-      "12-", "Convulsion/Seizure",
-      "17-", "Falls/Back injuries",
-      "23-", "Overdose/Ingestion/Poison",
-      "26-", "Sick person", 
-      "28-", "Stroke/CVA",
-      "29-", "Traffic accident",
-      "30-", "Traumatic injuries",
-      "31-", "Unconsciousness/Fainting",
-      "32-", "Unknown problem",
-      "42-", "Fire/Police support",
+      "06", "Breathing Problems",
+      "10", "Chest Pain",
+      "12", "Convulsion/Seizure",
+      "17", "Falls/Back injuries",
+      "23", "Overdose/Ingestion/Poison",
+      "26", "Sick person", 
+      "28", "Stroke/CVA",
+      "29", "Traffic accident",
+      "30", "Traumatic injuries",
+      "31", "Unconsciousness/Fainting",
+      "32", "Unknown problem",
+      "42", "Fire/Police support",
       "52F", "Alarm-FIRE",
-      "59-", "Fuel Spill",
-      "69-", "Structure Fire",
+      "59", "Fuel Spill",
+      "69", "Structure Fire",
   });
   
   public NCMecklenburgCountyAParser() {
@@ -111,15 +111,14 @@ public class NCMecklenburgCountyAParser extends MsgParser {
 
     if (!good && !PRI_VALUES.contains(data.strSupp)) return false;
     
-    if (data.strCall.length()>=3) {
-      String callCode = data.strCall.substring(0,3);
-      String callDesc = CALL_CODES.getProperty(callCode);
-      if (callDesc != null && callDesc.startsWith(data.strCall.substring(3).trim())) {
-        StringBuilder sb = new StringBuilder(callCode);
-        sb.append(callCode.charAt(2) == '-' ? ' ' : '-');
-        sb.append(callDesc);
-        data.strCall = sb.toString();
-      }
+    int pt = data.strCall.indexOf('-');
+    if (pt < 0) pt = data.strCall.length();
+    if (pt >=2 && pt<=5) {
+      data.strCode = data.strCall.substring(0,pt).trim();
+      if (pt == data.strCall.length()) data.strCall = "";
+      else data.strCall = data.strCall.substring(pt+1).trim();
+      String callDesc = CALL_CODES.getProperty(data.strCode);
+      if (callDesc != null && callDesc.startsWith(data.strCall)) data.strCall = callDesc;
     }
     return true;
   }
