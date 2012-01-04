@@ -47,6 +47,10 @@ Contact: George Stewart <tank84123@gmail.com>
 Sender: 93001018
 CAD:FIRE ALARM ACTIVATION;1020 EDMISTON RD;MTUL;CARSWELL RD;NC 801 HWY;6608;OPS12
 
+Contact: Trey Hoshall <treyhoshall@gmail.com>
+Sender: CAD@co.rowan.nc.us
+BCAD:32D3 UNKNOWN MEDICAL;175 WHISPERING OAKS LN;MOCK;OAK MEADOW LN;RATLEDGE RD;7305;OPS
+
 */
 
 public class NCRowanCountyParser extends DispatchOSSIParser {
@@ -61,6 +65,7 @@ public class NCRowanCountyParser extends DispatchOSSIParser {
       "GRQY", "GRANITE QUARRY",
       "KANN", "KANNAPOLIS",
       "LAND", "LANDIS",
+      "MOCK", "MOCKSVILLE",
       "MOOR", "MOORESVILLE",
       "MTUL", "MT ULLA",
       "ROCK", "ROCKWELL",

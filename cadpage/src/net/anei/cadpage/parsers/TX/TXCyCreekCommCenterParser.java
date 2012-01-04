@@ -60,6 +60,9 @@ Sender: 2814750795
 Contact: David Wisofsky <dwisofsky@gmail.com>
 12/09 13:45 SPRING CYPRESS RD-HC/NORTH FR,; Map292-P- Sub: Nat:29D202P-MVI - ROLLOVER Units:M56 FO291N E78 L71 X-St:NORTH FRWY SB NANNETTE LN 2
 
+Contact: 8323221385@mms.mycricket.com
+12/30 14:29 605 RILEY FUZZEL RD-HC, KATERING 2 KIDS; Map:292M- Sub: Nat:55B04-ELECTRICAL ODOR Units:E78 X-St:HARDY TOLL RD NB OLD RILE 20115823
+
 */
 
 public class TXCyCreekCommCenterParser extends MsgParser {

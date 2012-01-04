@@ -9,6 +9,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 /*
 Charleston County, SC
 Contact: Gary Durgin <gary.durgin@charlestonrescue.com>
+Contact: 5155707818@vtext.com
 Sender: CDC_Dispatch@charlestoncounty.org ??
 1110-0001587 District 03 Rescue Rescue Needed Address: Orleans Rd / Sam Rittenberg Blvd X Street:   Cmd Channel: Incident 04
 1110-0001574 District 03 Rescue MVA Entrapment D Address: Playground Rd / Ashley River Rd X Street:   Cmd Channel: Incident 07
@@ -34,6 +35,7 @@ Sender: CDC_Dispatch@charlestoncounty.org ??
 1110-0001568 District 04 Rescue MVA  w/Injury B Address: JAMES ISLAND EXPWY / FOLLY RD X Street:  JAMES ISLAND CONNECTOR Cmd Channel: Incident 04
 1110-0001568 District 04 Rescue MVA  w/Injury B Address: JAMES ISLAND EXPWY / FOLLY RD X Street:  JAMES ISLAND CONNECTOR Cmd Channel: Incident 04
 1110-0001570 District 01 Rescue Medical Assist Bravo Response Address: 93 America St X Street: E HAMPSTEAD SQUARE/BLAKE ST  Cmd Channel:
+1211-0002346 District 09 Rescue Entrapment Unknown B Address: Dorchester Rd / Hill Blvd X Street:  IFO HUNLEY PARK Cmd Channel:  In
 
 Contact: Michael Helms <mhelms1125@gmail.com>
 Sender: CDC_Dispatch@charlestoncounty.org
@@ -80,7 +82,6 @@ public class SCCharlestonCountyParser extends FieldProgramParser {
     
     @Override
     public boolean checkParse(String field, Data data) {
-      
       Matcher match = PREFIX_PTN.matcher(field);
       if (!match.matches()) return false;
       data.strCallId = match.group(1);
@@ -88,6 +89,12 @@ public class SCCharlestonCountyParser extends FieldProgramParser {
       parse(match.group(3), data);
       return true;
     }
+
+    @Override
+    public String getFieldNames() {
+      return "ID SRC";
+    }
+    
   }
   
   @Override

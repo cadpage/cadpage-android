@@ -23,7 +23,14 @@ Sender: paging@rcscom.com
 Subject:Incoming Message\n15503 N Old Statesville Rd North Meck Rescue Charlie 12- Convulsion/Seizure 60 Foot St/Unnamed St Nmr1 Map - 266266/
 
 Contact:  Soundwood <soundwood@msn.com>
+Contact: bill elwood <elwoodaudio@gmail.com>
 From: 334@c-msg.net
+FRM:rc.334@c-msg.net\nSUBJ:cCAD\nMSG:[!] 10210 Couloak Dr SUIT E Charlie 28- Stroke/CVA Mt Holly-Huntersvill Rd/Dunn Commons Pk COOR4 Map - 292292/J9 12302011-096
+FRM:rc.334@c-msg.net\nSUBJ:cCAD\nMSG:[!] 6700 Pleasant Oaks Cr Charlie 28- Stroke/CVA Songbird Ln/Catalina Ln COOR3 Map - 321321/E1 12282011-371
+FRM:rc.334@c-msg.net\nSUBJ:cCAD\nMSG:[!] 10611 Mount Holly Rd ifo residence Charlie 29- Traffic accident Chattaroy Dr/Latta Av COOF3 Map - 320320/D3 12272011-012
+FRM:rc.334@c-msg.net\nSUBJ:cCAD\nMSG:[!] 4322 Oakdale Rd 81yom/dehydration/silent approBravo-BLS COLD 26BC-Sick person Simpson Rd/E I-485\n(Con't) 2 of 2\nINNER HY COOR3 Map - 293293/E8 12312011-085(End)
+
+FRM:rc.334@c-msg.net\nSUBJ:cCAD\nMSG:[!] 2709 Kelly Rd Delta 17- Falls/Back injury(traumtc)Pleasant Grove Rd/Weston Woods Ln COOR2 Map - 293293/D1012302011-271
 FRM:rc.334@c-msg.net\nSUBJ:cCAD\nMSG:[!] 10210 Couloak Dr SUIT E Charlie 28- Stroke/CVA Mt Holly-Huntersvill Rd/Dunn Commons Pk COOR4 Map - 292292/J9 12302011-096
 FRM:rc.334@c-msg.net\nSUBJ:cCAD\nMSG:[!] 6700 Pleasant Oaks Cr Charlie 28- Stroke/CVA Songbird Ln/Catalina Ln COOR3 Map - 321321/E1 12282011-371
 FRM:rc.334@c-msg.net\nSUBJ:cCAD\nMSG:[!] 10611 Mount Holly Rd ifo residence Charlie 29- Traffic accident Chattaroy Dr/Latta Av COOF3 Map - 320320/D3 12272011-012
@@ -32,7 +39,7 @@ FRM:rc.334@c-msg.net\nSUBJ:cCAD\nMSG:[!] 10611 Mount Holly Rd ifo residence Char
 
 public class NCMecklenburgCountyBParser extends SmartAddressParser {
   
-  private static final Pattern CODE_PTN = Pattern.compile(" (\\d\\d-) ");
+  private static final Pattern CODE_PTN = Pattern.compile(" (\\d{2}[A-Z]{0,2}-)");
   private static final Pattern UNIT_PTN = Pattern.compile("\\b[A-Z][A-Za-z]{1,4}\\d{1,3}\\b");
   
   
