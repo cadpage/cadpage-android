@@ -27,6 +27,7 @@ public abstract class BaseParserTest {
   private String defState;
   private String fromAddress = FROM_ADDRESS;
   private boolean skipBadTest = false;
+  private String parserLocCode = null;
   
   public void setParser(MsgParser parser, String defCity, String defState) {
     setParser(parser);
@@ -37,9 +38,12 @@ public abstract class BaseParserTest {
   public void setParser(MsgParser parser) {
     // If parser is set twice, assume this is a group parser test
     // in which case bad message tests that should fail for the target parser
-    // might be passed by another parser in the group.
+    // might be passed by another parser in the group.  Also if we are called
+    // multiple times, we want the parse location code to match the code
+    // reported by the first parser
     if (this.parser != null) skipBadTest = true;
     this.parser = parser;
+    if (parserLocCode == null) parserLocCode = parser.getParserCode();
   }
   
   public void setDefaults(String defCity, String defState) {
@@ -70,7 +74,7 @@ public abstract class BaseParserTest {
   public void doBadTest(String test) {
     if (skipBadTest) return;
     Message msg = new Message(true, fromAddress, "", test);
-    assertFalse(parser.isPageMsg(msg, 0));
+    assertFalse(parser.isPageMsg(msg, MsgParser.PARSE_FLG_POSITIVE_ID | MsgParser.PARSE_FLG_SKIP_FILTER));
   }
   
   /**
@@ -148,7 +152,9 @@ public abstract class BaseParserTest {
     
     TestMessage msg = new TestMessage(true, fromAddress, subject, test);
     assertTrue(title + ":parse", parser.isPageMsg(msg, MsgParser.PARSE_FLG_POSITIVE_ID | MsgParser.PARSE_FLG_SKIP_FILTER));
-    assertEquals(title + ":location", parser.getParserCode(), msg.getLocation());
+    if (parserLocCode != null) {
+      assertEquals(title + ":location", parserLocCode, msg.getLocation());
+    }
     MsgInfo info = msg.getInfo();
     String actMapAddr = "";
     if (chkMapAddr) {

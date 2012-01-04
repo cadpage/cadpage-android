@@ -12,6 +12,11 @@ public class NCMecklenburgCountyBParserTest extends BaseParserTest {
   }
   
   @Test
+  public void testParser0() {
+    doBadTest("12463 Stratfield Place Cr               CAROLINA CROSSING SUBD        Delta                         31- Unconsciousness/Fainting  Stineway Ct/Sam Meeks Rd                                    PINR3     Map - 405405/J9 07302011-086");
+  }
+  
+  @Test
   public void testParser1() {
 
     doTest("T1",

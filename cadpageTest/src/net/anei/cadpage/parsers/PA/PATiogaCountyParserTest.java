@@ -104,6 +104,15 @@ public class PATiogaCountyParserTest extends BaseParserTest {
         "CITY:RUTLAND TWP",
         "NAME:KRISTA",
         "ID:2011-0000021537");
+
+    doTest("T11",
+        "TC911:MED >MEDICAL 84 DROBERS LN RUTLAND TWP DENISE STETTLER Cad: 2011-0000032855",
+        "CALL:MEDICAL",
+        "ADDR:84 DROBERS LN",
+        "CITY:RUTLAND TWP",
+        "NAME:DENISE STETTLER",
+        "ID:2011-0000032855");
+
  }
   
   public static void main(String[] args) {
