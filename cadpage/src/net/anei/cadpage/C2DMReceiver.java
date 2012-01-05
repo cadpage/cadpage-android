@@ -98,6 +98,10 @@ public class C2DMReceiver extends BroadcastReceiver {
     // If registration has been canceled, all C2DM messages should be ignored
     if (ManagePreferences.registrationId() == null) return;
     
+    // Dump intent info
+//    Log.w("Processing C2DM Message");
+//    ContentQuery.dumpIntent(intent);
+    
     // See what kind of message this is
     String type = intent.getStringExtra("type");
     if (type == null) type = "PAGE";

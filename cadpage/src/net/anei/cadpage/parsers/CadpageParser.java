@@ -93,7 +93,7 @@ public class CadpageParser  extends FieldProgramParser{
     setMap("MAP",         "map_code");
     setMap("CH");
     setMap("UNIT");
-    setMap("INFO");
+    setMap("INFO",        "response_url");
     setMap("NAME");
     setMap("PHONE", "PH");
     setMap("CODE");
@@ -103,7 +103,6 @@ public class CadpageParser  extends FieldProgramParser{
     setMap("DCITY");
     setMap("DST");
     setMap("MADDR");
-    setMap(                "response_url");
   }
 
   /**
@@ -122,7 +121,6 @@ public class CadpageParser  extends FieldProgramParser{
     if (name.equals("DCITY")) return new DefCityField();
     if (name.equals("DST")) return new DefStateField();
     if (name.equals("MADDR")) return new SkipField();
-    if (name.equals("response_url")) return new SkipField();
     return super.getField(name);
   }
   

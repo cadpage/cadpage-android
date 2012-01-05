@@ -326,6 +326,9 @@ abstract class Vendor {
     if (phone != null) builder = builder.appendQueryParameter("phone", phone);
     builder = builder.appendQueryParameter("type", "C2DM");
     if (registrationId != null) builder = builder.appendQueryParameter("CadpageRegId", registrationId);
+    
+    // Add random seed to register request to defeat any browser cache
+    if (req.equals("register")) builder = builder.appendQueryParameter("seed", "" + System.currentTimeMillis() % 10000);
     return builder.build();
   }
   
