@@ -39,28 +39,31 @@ Subject:CAD Page\n\n#110166809 - \nF35P1:\nEMS AST-P1 @ 53 ASPEN RD,OGD\nCROSS: 
 public class INPorterCountyParser extends FieldProgramParser {
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
-
+      "BHB", "Burns Harbor",
+      "BSH", "Beverly Shores",
+      "CHE", "Chesterton",
+      "HEB", "Hebron",
+      "KTS", "Kouts",
+      "OGD", "Ogden Dunes",
+      "PTG", "Portage",
+      "PTR", "Porter",
+      "VAL", "Valparaiso",
+              
+      "BNT", "Boone Twp",
       "CCT", "Center Twp",
-      "CTT", "Center Twp",  // Dispatcher Typo?
+      "CTT", "Center Twp",
+      "ECT", "Eagle Creek Twp",
       "JKT", "Jackson Twp",
       "LBT", "Liberty Twp",
       "MGT", "Morgan Twp",
       "PGT", "Portage Twp",
       "PLT", "Pleasant Twp",
+      "PNT", "Pine Twp",
       "POT", "Porter Twp",
       "UNT", "Union Twp",
+      "WCT", "Westchester Twp",
       "WGT", "Washington Twp",
-      "WCT", "Weswtchester Twp",
-      "WNT", "Windfield Twp",
-      
-      "BHB", "Burns Harbor",
-      "CHE", "Chesterton",
-      "HEB", "Hebron",
-      "OGD", "Ogden Dunes",
-      "PTG", "Portage",
-      "PTR", "Porter",
-      "VAL", "Valparaiso",
-      
+      "WNT", "Winfield Twp",
   });
   
   public INPorterCountyParser() {

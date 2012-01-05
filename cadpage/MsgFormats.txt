@@ -3664,7 +3664,6 @@ Sender: CDC_Dispatch@charlestoncounty.org
 (Dispatch Info) 29B_Accident MVA Injury Unk   Location Name:
 (Dispatch Info) M01           0347144             District 01 EMS             Spring St / Septima XS:                                Apt/Bldg:
 **********************************************************
-**********************************************************
 Switzerland County, IN
 Contact: Cody McNeely <poseyvfd78209@yahoo.com>
 
@@ -3679,6 +3678,14 @@ Subject:PVFD\nantioch rd near shawnee campground\n10-50 P I\n\n\n
 Sender: colin.english@rocketmail.com
 Subject:PVFD\nbusiness meeting and elections tongiht all members to attendand per 201\n
 Subject:PVFD\nATTN POSEY FIRE MEMBERS MANDOTORY HAZMAT REFRESHER TRAINING TONIGHT @ 6PM\n
+**********************************************************
+Crawford County, PA
+Contact: Patriot Jon <patriot.jon21@gmail.com>
+Sender: OESCAD@WINDSTREAM.NET
+DispatchBParser base after combining subject and text
+
+FRM:\nSUBJ:TWDU >TREES/WIRES DOWN URGENT\nMSG:OESCAD:STATE HWY 18 SPRING TWP THARP, DENNIS Cad: 2012-0000000067
+FRM:OESCAD@WINDSTREAM.NET\nSUBJ:TWDU  >TREES/WIRES DOWN URGENT\nMSG:OESCAD:STATE HWY 18 SPRING TWP THARP, DENNIS Cad: 2012-0000000067
 **********************************************************
 **********************************************************
 **********************************************************
