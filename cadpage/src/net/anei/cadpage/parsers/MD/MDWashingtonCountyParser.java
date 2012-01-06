@@ -88,14 +88,28 @@ public class MDWashingtonCountyParser extends FieldProgramParser {
   }
   
   @Override
-  public boolean parseMsg(String body, Data data) {
+  public boolean parseMsg(String subject, String body, Data data) {
     
     // Drop everything after the first newline
     int pt = body.indexOf('\n');
     if (pt >= 0) body = body.substring(0,pt).trim();
     
+    pt = body.indexOf(" / [!] ");
+    if (pt >= 0) {
+      subject = body.substring(0,pt).trim();
+      body = body.substring(pt+7).trim();
+    }
+    
+    if (subject.endsWith("|!")) subject = subject.substring(0,subject.length()-2).trim();
+    data.strSource = subject;
+    
     // Split body into fields separated by  -
     return parseFields(DELIM.split(body), data);
+  }
+  
+  @Override
+  public String getProgram() {
+    return "SRC " + super.getProgram();
   }
   
   private class MyAddressField extends AddressField {
