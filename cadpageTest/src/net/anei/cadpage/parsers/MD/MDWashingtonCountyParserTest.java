@@ -157,6 +157,7 @@ public class MDWashingtonCountyParserTest extends BaseParserTest {
 
     doTest("T1",
         "S:WCo M:[!] 136 WISHING STAR CT  ,STAB  ,GUNSHOT  ,R75  ,CO10  ,1120268 23:48\n\n\n",
+        "SRC:WCo",
         "ADDR:136 WISHING STAR CT",
         "CALL:STAB - GUNSHOT",
         "UNIT:R75,CO10",
@@ -165,6 +166,7 @@ public class MDWashingtonCountyParserTest extends BaseParserTest {
 
     doTest("T2",
         "S:WCo M:[!] 11403 STONECROFT CT  , STONECROFT APARTMENTS BUILDING A APT 209  ,CHEST PAIN  ,R75  ,CO10  ,1120271 02:16",
+        "SRC:WCo",
         "ADDR:11403 STONECROFT CT",
         "CALL:STONECROFT APARTMENTS BUILDING A APT 209 - CHEST PAIN",
         "UNIT:R75,CO10",
@@ -173,6 +175,7 @@ public class MDWashingtonCountyParserTest extends BaseParserTest {
 
     doTest("T3",
         "S:WCo M:[!] 1800 DUAL HWY  , SUSQUEHANNA BANK STE 100 REAR OF  ,SMOKE INVESTIGATION  ,E03  ,CO10  ,UT3  ,1120229 07:12",
+        "SRC:WCo",
         "ADDR:1800 DUAL HWY",
         "CALL:SUSQUEHANNA BANK STE 100 REAR OF - SMOKE INVESTIGATION",
         "UNIT:E03,CO10,UT3",
@@ -181,6 +184,7 @@ public class MDWashingtonCountyParserTest extends BaseParserTest {
 
     doTest("T4",
         "S:WCo M:[!] 300 N COLONIAL DR  , APT E  ,HOUSE FIRE  ,CO10  ,E03  ,E01  ,TRK1  ,S75  ,R75  ,SO20  ,1120236 09:48",
+        "SRC:WCo",
         "ADDR:300 N COLONIAL DR",
         "CALL:APT E - HOUSE FIRE",
         "UNIT:CO10,E03,E01,TRK1,S75,R75,SO20",
@@ -189,6 +193,7 @@ public class MDWashingtonCountyParserTest extends BaseParserTest {
 
     doTest("T5",
         "S:WCo M:[!] 136 WISHING STAR CT  ,STAB  ,GUNSHOT  ,R75  ,CO10  ,1120268 23:48",
+        "SRC:WCo",
         "ADDR:136 WISHING STAR CT",
         "CALL:STAB - GUNSHOT",
         "UNIT:R75,CO10",
@@ -197,11 +202,27 @@ public class MDWashingtonCountyParserTest extends BaseParserTest {
 
     doTest("T6",
         "S:WCo M:[!] 17567 YORK RD  , WESTERN SIZZLIN STEAK HOUSE  ,ODOR OF SMOKE  ,CO26  ,CO10  ,CO2  ,TWR26  ,RS10  ,R26  ,1120262 22:1",
+        "SRC:WCo",
         "ADDR:17567 YORK RD",
         "CALL:WESTERN SIZZLIN STEAK HOUSE - ODOR OF SMOKE",
         "UNIT:CO26,CO10,CO2,TWR26,RS10,R26",
         "ID:1120262");
     
+  }
+  
+  @Test
+  public void testparser3() {
+
+    doTest("T1",
+        
+        "WCo / [!] 1396 S POTOMAC ST, SHEETZ - PIC, PERS INJURY COLLISION - E05,R75,UT3 - 1200168 10:39\n\n",
+        "SRC:WCo",
+        "ADDR:1396 S POTOMAC ST",
+        "PLACE:SHEETZ",
+        "CALL:PIC, PERS INJURY COLLISION",
+        "UNIT:E05,R75,UT3",
+        "ID:1200168",
+        "TIME:10:39");
   }
   
   public static void main(String[] args) {
