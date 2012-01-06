@@ -199,6 +199,20 @@ public class NYOneidaCountyParserTest extends BaseParserTest {
     
   }
   
+  @Test
+  public void testParser3() {
+
+    doTest("T1",
+        "(Bridgewater Fire) &#239;&#187;&#191;BRIA:2012:0001 &gt;Dispatched &gt;28C05 - SUDDEN PARALYSIS OR FACIAL DROOP (ONE SIDE) &gt;130 ELMWOOD AVE N, WATERV",
+        "SRC:Bridgewater Fire",
+        "ID:2012:0001",
+        "CODE:28C05",
+        "CALL:SUDDEN PARALYSIS OR FACIAL DROOP (ONE SIDE)",
+        "ADDR:130 ELMWOOD AVE N",
+        "CITY:WATERVILLE VILLAGE");
+
+  }
+  
   public static void main(String[] args) {
     new NYOneidaCountyParserTest().generateTests("T1", "SRC ID CODE CALL PLACE ADDR CITY X INFO");
   }

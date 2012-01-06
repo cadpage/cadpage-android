@@ -41,6 +41,14 @@ public class NCUnionCountyParserTest extends BaseParserTest {
         "SRC:S19",
         "INFO:BR-2",
         "X:OLD CHARLOTTE HWY & OLD CHARLOTTE HWY");
+
+    doTest("T4",
+        "CAD:604 SUNSET ST;MARSHVILLE;STRUCTURE FIRE EFD;CFD;S08",
+        "ADDR:604 SUNSET ST",
+        "CITY:MARSHVILLE",
+        "CALL:STRUCTURE FIRE EFD",
+        "SRC:CFD",
+        "INFO:S08");
   }
   
 

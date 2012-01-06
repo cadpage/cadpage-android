@@ -196,10 +196,33 @@ public class NCMecklenburgCountyBParserTest extends BaseParserTest {
         "UNIT:COOF3",
         "MAP:320320/D3",
         "ID:12272011-012");
+
+    doTest("T9",
+        "FRM:rc.334@c-msg.net\nSUBJ:cCAD\nMSG:[!] 2721 Nance Cove Rd Charlie 13- Diabetic problems Millwood Cr/Tall Meadow Rd COOR1 Map - 292292/H6 01052012-163",
+        "ADDR:2721 Nance Cove Rd",
+        "PRI:C",
+        "CODE:13-",
+        "CALL:Diabetic problems Millwood Cr/Tall",
+        "X:Meadow Rd",
+        "UNIT:COOR1",
+        "MAP:292292/H6",
+        "ID:01052012-163");
+
+    doTest("T10",
+        "1 of 2\nFRM:rc.334@c-msg.net\nSUBJ:cCAD\nMSG:[!] 10607 Bur Oak Dr Fire - Emergency 52C-Alarm-Carbon Monoxide Falling Stream Dr/Double Cedar Dr\n(Con't) 2 of 2\nCOOF3 Map - 292292/E9 01062012-101(End)",
+        "ADDR:10607 Bur Oak Dr",
+        "INFO:Fire -",
+        "PRI:E",
+        "CODE:52C-",
+        "CALL:Alarm-Carbon Monoxide Falling",
+        "X:Stream Dr & Double Cedar Dr",
+        "UNIT:COOF3",
+        "MAP:292292/E9",
+        "ID:01062012-101");
   }
   
 
   public static void main(String[] args) {
-    new NCMecklenburgCountyBParserTest().generateTests("T5", "ADDR APT INFO PRI CODE CALL X UNIT MAP ID");
+    new NCMecklenburgCountyBParserTest().generateTests("T9", "ADDR APT INFO PRI CODE CALL X UNIT MAP ID");
   }
 }
