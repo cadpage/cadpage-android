@@ -14,6 +14,10 @@ Contact: James Murray <jmurray1555@gmail.com>
 Sender: CAD@co.union.nc.us
 CAD:3626 HAYES RD;INDIAN TRAIL;BREATHING PROBLEMS EMD;S19;BR-2;OLD CHARLOTTE HWY;OLD CHARLOTTE HWY;09/26/2011 19:37:34
 
+Contact: Scott Kimrey <skimrey@windstream.net>
+Sender: CAD@co.union.nc.us
+CAD:604 SUNSET ST;MARSHVILLE;STRUCTURE FIRE EFD;CFD;S08
+
 */
 
 public class NCUnionCountyParser extends DispatchOSSIParser {

@@ -55,6 +55,9 @@ Sender: messaging@iamresponding.com
 [Waterville Amb]  &#239;&#187;&#191;WATA:2011:0349 &gt;Dispatched &gt;17B01 - POSSIBLY DANGEROUS BODY AREA &gt;2522 ROUTE 315, MARSHALL (CALIFORNIA RD/HU
 [Waterville Amb]  &#239;&#187;&#191;WATA:2011:0348 &gt;Dispatched &gt;06C01-ABNORMAL BREATHING &gt;144 HUNTINGTON PL, WATERVILLE VILLAGE (/TOWER ST) #MID
 
+Unknown,
+Contact: Laura Eaton <alightwenton@gmail.com>
+(Bridgewater Fire) &#239;&#187;&#191;BRIA:2012:0001 &gt;Dispatched &gt;28C05 - SUDDEN PARALYSIS OR FACIAL DROOP (ONE SIDE) &gt;130 ELMWOOD AVE N, WATERV
 
 ** NOT IMPLEMENTED **
 FRM:dispatch@oc911.org\nMSG:???WEMF:2011:0346AcknowledgeMVA-UNKNOWNROUTE 233, WESTMORELAND/W MAIN ST (COUNTY ROUTE 23), WESTMORELAND
@@ -158,7 +161,7 @@ public class NYOneidaCountyParser extends SmartAddressParser {
     // With some safeguards against a truncated city name
     if (sPart3.startsWith(",")) {
       sPart3 = sPart3.substring(1).trim();
-      if (data.strCity.length() == 0) data.strCity = expandCity(sPart3);
+      if (data.strCity.length() == 0) data.strCity = sPart3;
       else data.strSupp = append(data.strSupp, " / ", sPart3);
     }
     data.strSupp = append(data.strSupp, " / ", sPart4);
@@ -167,6 +170,7 @@ public class NYOneidaCountyParser extends SmartAddressParser {
     // Check for and remove OUTSIDE from city
     match = OUTSIDE.matcher(data.strCity);
     if (match.find()) data.strCity = data.strCity.substring(0,match.start()).trim();
+    data.strCity = expandCity(data.strCity);
     
     data.strCross = data.strCross.replace(",", " /").trim();
     return true;
@@ -178,6 +182,7 @@ public class NYOneidaCountyParser extends SmartAddressParser {
    * @return restored city
    */
   private String expandCity(String city) {
+    if (city.length() == 0) return city;
     city = city.toUpperCase();
     SortedSet<String> set = CITY_SET.tailSet(city);
     if (set.isEmpty()) return city;

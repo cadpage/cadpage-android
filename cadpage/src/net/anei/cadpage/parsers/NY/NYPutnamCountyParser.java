@@ -15,8 +15,12 @@ TRAFFIC/TRANSPORTATION ACCIDEN||92 FOGGINTOWN RD  STA 11 XS FARM TO MARKET RD/HA
 .... (11 Brewster) MEDIC ALERT||4100 STONECREST DR  STA 11 XS
 (2 Carmel) AUTOMATIC FIRE ALARM|CARMEL HIGH SCHOOL|30 FAIR ST  STA 12 XS VINK  DR/COUNTY CTR|NARR 845 225-8352/GE'L FIRE PERSON: (COMPLAINANT) (FMLS)
 
-Conact: brandon timmins <btimmins33@gmail.com>
+Contact: brandon timmins <btimmins33@gmail.com>
 .... (18 Mahopac) PSYCHIATRIC/ABNORMAL BEHAVIOR||151 W SHORE DR  STA 18 XS FARVIEW  RD/STEBBINS RD|NARR MALE EDP, SCENE SECURE..
+
+Contact: "smadsen70@aol.com" <smadsen70@aol.com>
+Sender: 777119178284
+.... (17 Lake Carmel) BREATHING PROBLEMS||78 DREW RD  STA 17 XS  |NARR PROQA SUMMARY:CHARLIE 06C01 BREATHING PROBLEMS PATIENT WITH BREATHING PROBLEMS.  93-YEAR-OLD MALE, CONSCIOUS AND BREATHING.
 
 
 Station numbers FYI
@@ -51,7 +55,7 @@ public class NYPutnamCountyParser extends MsgParser {
 
 @Override
   public String getFilter() {
-    return "911@putnamcountyny.gov,messaging@iamresponding.com";
+    return "911@putnamcountyny.gov,messaging@iamresponding.com,777";
   }
 
 @Override
