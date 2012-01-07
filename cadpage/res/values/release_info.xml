@@ -1,38 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">01022012</string>
-  <string name="release_version">v1.5.02</string>
+  <string name="release_date">01072012</string>
+  <string name="release_version">v1.5.06</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="min_expire_date">10012012</string>
   <string name="release_text">
 What"'"s new in this release\n
 \n
-Welcome to a new year, time for a new version number update.\n
-\n
-Fixed new bug in the last release crashing Cadpage that crashed Cadpage when
-multiple locations are configured and a text page isn"'"t accepted by any of them.\n
-\n
-New Locations:\n
-Riverside County, CA\n
-Somerset County, MD\n
+We got behind on Location fixes over the holidays and haven"'" caught up yet.  This
+release contains all the location fixes we have to date.  It will be followed by
+another location fix release as soon as I get caught up.  And that will be 
+followed by a release enabling Active911 registration.  Hang on, it is coming.\n
 \n
 Location Parsing Fixes:\n
-Weld County, CO\n
 Porter County, IN\n
-Prince George"'"s County\n
-Livingston County, MI\n
-Haywood County, NC\n
-Erie County, PA\n
-\n
-General Fixes:\n
-Sender address filter logic has been changed so that numeric filters must match 
-the beginning of the sender phone number.  Filters containing non-numeric
-characters can still match any part of the sender address.\n
-\n
-Fixed some serious problems with subscriptions expiring as soon as Cadpage is
-reinstalled.  And different problems that disabled all of the safeties that
-were designed to allow Cadpage to keep running when things screw up.
+Prince Charles County, MD\n
+Washington County, MD\n
+Oneida County, NY\n
+Cabarrus County, NC\n
+Forsyth County, NC\n
+Mecklenburg County, NC\n
+Rowan County, NC\n
   </string>  
 </resources>
   
