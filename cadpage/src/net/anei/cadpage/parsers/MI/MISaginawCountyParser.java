@@ -17,13 +17,18 @@ TRITWP *: MUTUAL AID *: 2385 S FORDNEY RD CTY: 12 *: NEED LZ SET UP
 TRITWP *: WIRES UP/ARCING *: 1125 W BELLE CTY: 21 *: *TREE ON WIRE SPARKING
 TRITWP  *: FIRE OUTSIDE *: PARKWAY&N SAGINAW CTY: 39 *: *BARREL ON FIRE AT PARK
 TRITWP  *: FIRE ALARM *: 810 W WALNUT CTY: 39
+
+Contact: Justin <jmkinney13@yahoo.com>
+FRM:emergin@saginawcounty.com\nMSG:TRITWP ¿*: APPLIANCE FIRE *: 122 W WALNUT CTY: 39 *: STOVE FIRE\n
   
 Contact: Chris Gerding <atfdgerding@yahoo.com>
 ALBEE   *: ASSIST PERSON UP *: 4737 W BURT RD CTY: 01 *: *LIFT ASSIST CMT1: PRIORITY ONE
 
+
  */
 public class MISaginawCountyParser extends FieldProgramParser {
   
+  private static final Pattern NON_PRINT = Pattern.compile("[^ -~]");
   private static final Pattern DELIM = Pattern.compile(" *(?<= )\\*: +");
   
   public MISaginawCountyParser() {
@@ -39,6 +44,7 @@ public class MISaginawCountyParser extends FieldProgramParser {
   @Override
   protected boolean parseMsg(String body, Data data) {
     
+    body = NON_PRINT.matcher(body).replaceAll("");
     String[] flds = DELIM.split(body);
     if (flds.length < 3) return false;
     return parseFields(flds, data);
