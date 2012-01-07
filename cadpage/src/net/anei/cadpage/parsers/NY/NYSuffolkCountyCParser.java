@@ -90,6 +90,12 @@ Contact: michael allen <spca202@gmail.com>
 Sender: paging@alpinesoftware.com
 AUTOMATIC ALARM at 1708 CHURCH ST, HOLBROOK  c/s: RAFT AVE . . 19:34:22
 
+Contact: "Lord Richard S. Michels" <sirblknight007@aol.com>
+Sender: 3-13-0@rednmx.com
+FRM:3-13-0@rednmx.com\nMSG:Ambulance Call: A/M RESP at 2100 SMITHTOWN AVENUE, RONKONKOMA  c/s: LAKELAND AVENUE   O: NBTY / NATAURES BOUNTY . . 10:41:21
+
+
+
 */
 
 public class NYSuffolkCountyCParser extends DispatchRedAlertParser {
@@ -100,6 +106,6 @@ public class NYSuffolkCountyCParser extends DispatchRedAlertParser {
 
   @Override
   public String getFilter() {
-    return "paging@alpinesoftware.com,@rednmxcad.com,";
+    return "paging@alpinesoftware.com,@rednmxcad.com,@rednmx.com";
   }
 }

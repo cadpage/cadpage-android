@@ -626,6 +626,7 @@
     <item>88e6ae09509dbf5e3eaf17b2cb9dd89f</item>  <!-- Shumaker Dairy, Inc. -->
     <item>8d4844d2fc669b90caa38f9159de2f28</item>  <!-- Christopher Rowland -->
     <item>cba63bfe2819ed0cfed20be9de383b78</item>  <!-- nicholas cook -->
+    <item>cf503a886be4726479ae97cc6f23afe5</item>  <!-- John Schneider -->
     <item>d6ee7f3c13dcd0edbd3a2980e538ee62</item>  <!-- Ford, Allen C -->
     <item>db8b169b184e8132a49361420d62e521</item>  <!-- Samuel K Anders -->
     <item>e978ba17e3164d39fb967e9914f5b8b3</item>  <!-- Jerry Digennaro -->
@@ -646,10 +647,12 @@
     <item>31f9d003bd04ccad6ba5e2fd829155f4</item>  <!-- Leon Apple -->
     <item>38f8946878070a8d01038719192a25d4</item>  <!-- Marii Bertoni -->
     <item>3a561ac801a9216567dab15ab0cb59fe</item>  <!-- fi31re425@hotmail.com -->
+    <item>4ba7cf50510791429a0654120ff11131</item>  <!-- jecashjr@hotmail.com -->
     <item>4de1a857837a477c7a2e26df678de5e5</item>  <!-- Dennis Alcorn -->
     <item>4efc59fa64ba59eec257b775989e41f9</item>  <!-- Jim Hill -->
     <item>5148ca9acc8ddc57ec02761f4f994b2f</item>  <!-- Jeffrey Avery -->
     <item>52c84ab1a8f3d6a79e571872281f840f</item>  <!-- Joe Maness -->
+    <item>55ae3edd359aa387ef8fb330abe1e87a</item>  <!-- jeremy fulk -->
     <item>61fefe0d5d3861645078c9de8a2a8a58</item>  <!-- Brianna Asselta -->
     <item>620d5165e3a0fbc5d10f0801a85a093d</item>  <!-- Tom Beberg -->
     <item>67498794cabcdd46119bb2ea9515c7df</item>  <!-- james weaver -->
@@ -681,12 +684,8 @@
     <item>f463ee7d453085aa0e98d9d12b635705</item>  <!-- Patrick Fitzwater JR LFD and Linn County Fire Corps -->
     <item>f49c14db6fc07f091a89f209fd218b8f</item>  <!-- Eric Sanders -->
     <item>f84a41403f3d2e062aeb17279a4ba0ab</item>  <!-- Brian Burkhardt -->
+    <item>f8f0c1cd273e5575bc67e62aa44fe66a</item>  <!-- Douglas Smith -->
     <item>fc0e6b4d5917d768a2cc1dcb25840aba</item>  <!-- Jacob Hollenbaugh -->
     <item>ff829e01aaeb1575852804b93f4e83a9</item>  <!-- brian gallagher -->
-  </string-array>
-  <string-array name="$01/06/2012">
-    <item>4ba7cf50510791429a0654120ff11131</item>  <!-- jecashjr@hotmail.com -->
-    <item>55ae3edd359aa387ef8fb330abe1e87a</item>  <!-- jeremy fulk -->
-    <item>f8f0c1cd273e5575bc67e62aa44fe66a</item>  <!-- Douglas Smith -->
   </string-array>
 </resources>

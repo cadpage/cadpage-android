@@ -320,6 +320,7 @@ public class MsgInfo {
         if (pt < 0) pt = sCross.indexOf('&');
         if (pt >= 0) sCross = sCross.substring(0, pt).trim();
         sCross = cleanStreetSuffix(sCross);
+        sCross = cleanBounds(sCross);
         sCross = cleanRoutes(sCross);
         sCross = cleanDoubleRoutes(sCross);
         sCross = cleanInterstate(sCross);
@@ -353,7 +354,7 @@ public class MsgInfo {
   private String cleanStreetSuffix(String sAddr) {
     
     // convert CR nn to COUNTY ROAD nn
-    // we need to do this before we do the abbreviations convertions that will
+    // we need to do this before we do the abbreviations converstions that will
     // change CR to CIR.
     sAddr = CRNN_PTN.matcher(sAddr).replaceAll("COUNTY ROAD $1");
     
@@ -440,7 +441,7 @@ public class MsgInfo {
   
   // Clean up and NB, SB, EB, or WB words
 
-  private static final Pattern DIRBOUND_PAT = Pattern.compile("\\s*\\b(N|S|E|W)B\\b", Pattern.CASE_INSENSITIVE);
+  private static final Pattern DIRBOUND_PAT = Pattern.compile("\\s*\\b(?:NB|SB|EB|WB|RA)\\b", Pattern.CASE_INSENSITIVE);
   private String cleanBounds(String sAddr) {
     Matcher match = DIRBOUND_PAT.matcher(sAddr);
     return match.replaceAll("").trim();

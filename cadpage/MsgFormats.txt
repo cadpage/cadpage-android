@@ -3693,6 +3693,9 @@ Contact: 8047217263@vtext.com
 368:CAD:FIRE CARBON MONOXIDE/SMOKE DET;714 JOHNS RD;S CRATER RD;OAK HILL CT;CARS
 366:CAD:ACCIDENT - COMMERICAL VEHICLE;16699 S CRATER RD/PRINCE GEORGE DR;PETE
 **********************************************************
+Sarasota County, ??
+Contact: Bill Hoag <bikeh1@gmail.com>
+SARASOTA COUNTY EVENT TYPE: ODOR-INSIDE Location: 4546 DEER CREEK BLVD NCTY G225 TIME: 21:39:20  Disp: BN3,E14,E15,R14
 **********************************************************
 **********************************************************
 ************  READY TO ROLL ******************************
@@ -3752,6 +3755,23 @@ Comments:
 Dispatched: {C1 }, {R5 } Caller states the white suv flipped over  -  
 might be trapped inside - caller not involed - Caller states white suv  
 poss trapped States 4 veh involved - caller not involed -
+
+SEE BELOW COMMENTS.  EXPLANATION IS IN CAPS.  TO ANSWER YOUR QUESTION,  
+PD DOES NOT REFER TO FD RESPONSE.  THIS CALL ITSELF STARTED AS A  
+POLICE CALL AND GOT UPGRADED INVOLVING THE FIRE DEPT.  ANYTHING ELSE,  
+PLEASE LET ME KNOW.
+
+2012000023 {01/05/2012 00:07:46} (IS THE ALARM NUMBER / DATE / TIME)
+AFCI     - Fire alarm - commercial/industrial{2} (IS THE INCIDENT TYPE)
+1 Willowbrook Mall;PD (IS THE ALARM ADDRESS / PD REFERS TO  
+POLICE-MEANS NOTHING FOR US)
+Units:
+
+Comments: (BELOW IS THE COMPANIES THAT WERE DISPATCHED & COMMENTS  
+ABOUT THE CALL- (PREEMPT - 03N IS NOT NEEDED/POLICE RELATED))
+   Station Dispatched : {C1 } Station Dispatched : {C2 } Units Recommended: ,;
+Dispatched: {C2 }, {C1 } PreEmpt - 03N
+Code 4 MaCYS COMM CENTER/8662297579/opred/acwn glass beak perimeter
 **********************************************************
 Onondaga County, NY
 Contact: Andrew Clark <ajc0079@gmail.com>
@@ -3768,3 +3788,7 @@ Remove line feeds
 (Skaneateles Fire) I/CAD MSG SKF 09:42:52  52 W GENESEE ST  VSK XTS:W LAKE ST/GRIFFIN ST,  , FIRE -E P:1 Lev:0 X: LINDSEY, CRAIG &amp; JUDITH  RESD 01/03
 (Skaneateles Fire) 01/02 17:57:49  Disp: 54C1, 54C2, 54C3, 54E11, 54E12, 54E21, 54E31, 54R1, 54SD1, CFCTAC3
 (Skaneateles Fire) I/CAD MSG SKF 17:58:51 1563 NEW SENECA TPKE  TSK XTS: LUCINDA DR/KNIGHTSBRIDGE RD,  , FIRE -F P:2 Lev:0 X:TWCBL MCGEE, KAREN VOIP
+(Skaneateles Fire) 042.968098 01/06  16:02:26 VEH IN A DITCH IS SMOKING Disp:38RP1, 54C1, 54C2, 54C3, 54E11, 54E12, 54E21, 54E31, 54MI1, 54R1, 54SD1, 54TK1
+(Skaneateles Fire) I/CAD MSG SKF 16:03:15  4061 STATE STREET RD TSK: EST XTS: JEWETT RD/OLD SENECA TPKE,  , MVC -IB P:1 Lev:0 X: NW SECTOR -076.426885
+(Skaneateles Fire) 1 CC RE LOCKED IN THE BLDG -- COMPL USES A WALKER AND IS UNABLE TO MOVE  Disp: 54E21, 54MI1, 54R1, 54TK1
+(Skaneateles Fire)  I/CAD MSG SKF 16:52:38 2745 E LAKE RD TSK: @SKANEATELES SAILING CLUB XTS:BUFFS BLUFF RD/COON HILL RD, , LOCK -R P:2 Lev:0 X:  M91

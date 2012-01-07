@@ -1054,6 +1054,8 @@ Jerry Digennaro (jerryd264@gmail.com)
 nicholas cook (monstermedic06@gmail.com)(nicholascook35@yahoo.com)
 %%01/05/2012
 Brian Gouza (emtff273@gmail.com)(gouz2@hotmail.com)
+%%01/06/2012
+John Schneider (schneider512.js@gmail.com)(john@afsscorp.com)
  
 // List of users getting free credit for 2012
 $free_2012_list
@@ -1115,7 +1117,7 @@ Billy Wroblewski <wrobs101@gmail.com>
 Carrie La Basco <labascofamily@gmail.com>
 "nozzlehogff@yahoo.com" (croftff56@gmail.com)<nozzlehogff@yahoo.com>
 Chris (bfd520@gmail.com)<cbfalcn@aol.com>
-$$01/06/2012
+%%01/06/2012
 Douglas Smith <kj4qap@gmail.com>
 "jecashjr@hotmail.com" (jamescash41@gmail.com)<jecashjr@hotmail.com>
 jeremy fulk <fire6036@gmail.com>

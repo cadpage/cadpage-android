@@ -23,12 +23,14 @@ Location: 1800 SPRINGFIELD FARM CT CL Nature: Breathing Difficulty P:1  - BREATH
 Location: 4595 STYERS FERRY RD WS Nature: Sick/Unknown P:1  - default DISTRICT: R11 X Str: FOX RIDGE LN/REMINGTON DR CALLER NAME:
 Nature: Motor Vehicle Accident P:1  - default DISTRICT: R11 X Str: LEWISVILLE-CLEMMONS RD/REYNOLDS RD CALLER NAME:
 Location: NB 421 FC Nature: Motor Vehicle Accident P:1  - default DISTRICT: R13 X Str: SCOTT RD/SB 421 CALLER NAME: FCSD
-Location: 191 LOWES FOOD DR FC: @A CLEANER WORLD Nature: Alarms - Fire or Smoke P:1\2s- default DISTRICT: F11 X Str: JENNINGS RD/SHALLOWFORD RD CALLER
-Location: 6441 HOLDER RD CL,RM 8: @CLEMMONS VILLAGE II Nature: Breathing Difficulty P:1\2s- BREATHING_DIFF DISTRICT: R11 X Str: HOLDER CT/SOUTHWEST SCH
+Location: 191 LOWES FOOD DR FC: @A CLEANER WORLD Nature: Alarms - Fire or Smoke P:1  - default DISTRICT: F11 X Str: JENNINGS RD/SHALLOWFORD RD CALLER
+Location: 6441 HOLDER RD CL,RM 8: @CLEMMONS VILLAGE II Nature: Breathing Difficulty P:1  - BREATHING_DIFF DISTRICT: R11 X Str: HOLDER CT/SOUTHWEST SCH
 
 Contact: Eugene Vogler <pwvogler@gmail.com>
-Sender: forsythcountyfir@bellsouth.net
 Location: 1 STOKES COUNTY: @STOKES COUNTY:511 WINDMILL ST Nature: DOA P:1  - default DISTRICT: F09 X Str: / CALLER NAME: 1224
+
+Contact: Joshua Brady <jbrady1009@gmail.com>
+Location: NB 311 WS Nature: Motor Vehicle Accident P:1  - default DISTRICT: F28 X Str: UNION CROSS RD_NB 311 RA/NB 311_RIDGEWOOD
 
  */
 
@@ -46,7 +48,7 @@ public class NCForsythCountyParser extends FieldProgramParser {
   
   public NCForsythCountyParser() {
     super(CITY_CODES, "FORSYTH COUNTY", "NC",
-           "Location:ADDR/S Nature:CALL! P:SKIP DISTRICT:UNIT X_Str:X CALLER_NAME:NAME");
+           "Location:ADDR/S Nature:CALL! P:PRI DISTRICT:UNIT X_Str:X CALLER_NAME:NAME");
   }
   
   @Override
@@ -56,7 +58,7 @@ public class NCForsythCountyParser extends FieldProgramParser {
 
   @Override
   protected boolean parseMsg(String body, Data data) {
-    body = body.replaceAll(": @", " @");
+    body = body.replace(": @", " @").replace('_', ' ');
     if (!super.parseMsg(body, data)) return false;
     
     if (data.strCity.equals(data.defCity)) data.strCity = "";
@@ -108,10 +110,20 @@ public class NCForsythCountyParser extends FieldProgramParser {
       return super.getFieldNames() + " PLACE";
     }
   }
+  
+  private class MyPriorityField extends PriorityField {
+    @Override
+    public void parse(String field, Data data) {
+      int pt = field.indexOf(' ');
+      if (pt >= 0) field = field.substring(0,pt);
+      super.parse(field, data);
+    }
+  }
 
   @Override
   protected Field getField(String name) {
     if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("PRI")) return new MyPriorityField();
     return super.getField(name);
   }
 }
