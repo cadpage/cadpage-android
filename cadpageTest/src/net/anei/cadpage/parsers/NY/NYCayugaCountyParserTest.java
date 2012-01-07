@@ -62,7 +62,8 @@ public class NYCayugaCountyParserTest extends BaseParserTest {
     doTest("T1",
         "(From 911 Center) 08/27/11 02:10 RIVER RD RT 38 CONQUEST MVAPI  subject came into bar  bloody states car accident   pirates landing bar  mvapi   believes",
         "ADDR:RIVER RD RT 38",
-        "CITY:CONQUEST",
+        "CIT" +
+        "Y:CONQUEST",
         "INFO:MVAPI subject came into bar bloody states car accident pirates landing bar mvapi believes");
 
     doTest("T2",

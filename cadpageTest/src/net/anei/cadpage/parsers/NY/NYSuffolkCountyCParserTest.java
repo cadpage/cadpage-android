@@ -419,6 +419,20 @@ public class NYSuffolkCountyCParserTest extends BaseParserTest {
         "CITY:HOLBROOK",
         "X:RAFT AVE",
         "TIME:19:34:22");
+  }
+  
+  @Test
+  public void testRonkonkoma() {
+
+    doTest("T1",
+        "FRM:3-13-0@rednmx.com\nMSG:Ambulance Call: A/M RESP at 2100 SMITHTOWN AVENUE, RONKONKOMA  c/s: LAKELAND AVENUE   O: NBTY / NATAURES BOUNTY . . 10:41:21",
+        "CALL:Ambulance Call",
+        "INFO:A/M RESP",
+        "ADDR:2100 SMITHTOWN AVENUE",
+        "CITY:RONKONKOMA",
+        "X:LAKELAND AVENUE",
+        "PLACE:NBTY / NATAURES BOUNTY",
+        "TIME:10:41:21");
 
   }
   

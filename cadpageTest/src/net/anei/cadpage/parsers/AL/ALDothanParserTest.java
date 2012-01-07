@@ -336,10 +336,19 @@ public class ALDothanParserTest extends BaseParserTest {
         "CITY:MADRID",
         "PLACE:RACEWAY/RRSB/2 veh ...");
 
+    doTest("T37",
+        "11:59:20/S38C-Medical Call-Code II-Non Emgy/3118 E MAIN ST/DOTHAN/AMERICAN INN/45129368/pd on scene ref s50 subj/",
+        "CALL:S38C-Medical Call-Code II-Non Emgy",
+        "ADDR:3118 E MAIN ST",
+        "CITY:DOTHAN",
+        "PLACE:AMERICAN INN",
+        "ID:45129368",
+        "INFO:pd on scene ref s50 subj");
+
   }
   
   
   public static void main(String[] args) {
-    new ALDothanParserTest().generateTests("T37");
+    new ALDothanParserTest().generateTests("T38");
   }
 }

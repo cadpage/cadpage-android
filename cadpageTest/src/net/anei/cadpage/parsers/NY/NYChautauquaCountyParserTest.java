@@ -165,6 +165,16 @@ public class NYChautauquaCountyParserTest extends BaseParserTest {
         "NAME:BRUCE HARRIS",
         "INFO:62/F  SEMI CONSCIOUS",
         "UNIT:A441");
+
+    doTest("T16",
+        "CHAUTAUQUA_COUNTY_SHERIFF (MSP CAD) 11:48 *EMS CALL ; 3878 VINEYARD DR ; C/T/V Dunkirk_T ; ; in the back of the store, female subj is passing out. ; M111 WCA1",
+        "SRC:MSP CAD",
+        "TIME:11:48",
+        "CALL:EMS CALL",
+        "ADDR:3878 VINEYARD DR",
+        "CITY:Dunkirk_T",
+        "INFO:in the back of the store, female subj is passing out. / WCA1",
+        "UNIT:M111");
   }
   
   public void doTestBemusPoint() {

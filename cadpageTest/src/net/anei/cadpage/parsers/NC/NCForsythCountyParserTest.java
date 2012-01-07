@@ -19,6 +19,7 @@ public class NCForsythCountyParserTest extends BaseParserTest {
         "ADDR:2312 HWY 65 E",
         "CITY:STOKES COUNTY",
         "CALL:Unconscious/Unresponsive/Syncope",
+        "PRI:1",
         "UNIT:R09",
         "NAME:STOK");
 
@@ -27,6 +28,7 @@ public class NCForsythCountyParserTest extends BaseParserTest {
         "ADDR:6206 REIDSVILLE RD",
         "PLACE:CREEKSIDE MANOR",
         "CALL:Chest Pain/Heart Problems",
+        "PRI:1",
         "UNIT:R31",
         "X:GOODWILL CHURCH RD/PINEY GR");
 
@@ -34,6 +36,7 @@ public class NCForsythCountyParserTest extends BaseParserTest {
         "Location: 9350 FREEMAN RD FC Nature: Headache P:1  - VISION_PROBLEMS DISTRICT: R31 X Str: PINEY GROVE RD/GOODWILL CHURCH RD CALLER NAME: MARTIN, NAOMI",
         "ADDR:9350 FREEMAN RD",
         "CALL:Headache",
+        "PRI:1",
         "UNIT:R31",
         "X:PINEY GROVE RD/GOODWILL CHURCH RD",
         "NAME:MARTIN, NAOMI");
@@ -43,6 +46,7 @@ public class NCForsythCountyParserTest extends BaseParserTest {
         "ADDR:6000BLK REIDSVILLE RD",
         "MADDR:6000 REIDSVILLE RD",
         "CALL:PUBLIC SERVICE CALL",
+        "PRI:3",
         "UNIT:F31",
         "X:BRINKLEY RD/GOODWILL CHURCH RD");
 
@@ -50,6 +54,7 @@ public class NCForsythCountyParserTest extends BaseParserTest {
         "Location: 1105 WHISPERING PINES DR FC Nature: Power Lines Arcing on Pole P:2  - default DISTRICT: F31 X Str: WARDS POND CT/QUAIL HOLLOW RD CALLER NAME:",
         "ADDR:1105 WHISPERING PINES DR",
         "CALL:Power Lines Arcing on Pole",
+        "PRI:2",
         "UNIT:F31",
         "X:WARDS POND CT/QUAIL HOLLOW RD");
 
@@ -57,6 +62,7 @@ public class NCForsythCountyParserTest extends BaseParserTest {
         "Location: 5825 POPPY SEED DR FC Nature: Brush Fire P:1  - default DISTRICT: F31 X Str: BRINKLEY PARK DR/JILAIN ST CALLER NAME: CARANNA, KENWYN",
         "ADDR:5825 POPPY SEED DR",
         "CALL:Brush Fire",
+        "PRI:1",
         "UNIT:F31",
         "X:BRINKLEY PARK DR/JILAIN ST",
         "NAME:CARANNA, KENWYN");
@@ -66,6 +72,7 @@ public class NCForsythCountyParserTest extends BaseParserTest {
         "ADDR:1800 SPRINGFIELD FARM CT",
         "CITY:CLEMMONS",
         "CALL:Breathing Difficulty",
+        "PRI:1",
         "UNIT:R11",
         "X:SPRINGFIELD FARM RD/");
 
@@ -74,6 +81,7 @@ public class NCForsythCountyParserTest extends BaseParserTest {
         "ADDR:4595 STYERS FERRY RD",
         "CITY:WINSTON-SALEM",
         "CALL:Sick/Unknown",
+        "PRI:1",
         "UNIT:R11",
         "X:FOX RIDGE LN/REMINGTON DR");
 
@@ -81,6 +89,7 @@ public class NCForsythCountyParserTest extends BaseParserTest {
         "Nature: Motor Vehicle Accident P:1  - default DISTRICT: R11 X Str: LEWISVILLE-CLEMMONS RD/REYNOLDS RD CALLER NAME:",
         "ADDR:LEWISVILLE-CLEMMONS RD & REYNOLDS RD",
         "CALL:Motor Vehicle Accident",
+        "PRI:1",
         "UNIT:R11");
 
     doTest("T10",
@@ -88,6 +97,7 @@ public class NCForsythCountyParserTest extends BaseParserTest {
         "ADDR:NB 421",
         "MADDR:421 & SCOTT RD",
         "CALL:Motor Vehicle Accident",
+        "PRI:1",
         "UNIT:R13",
         "X:SCOTT RD/SB 421",
         "NAME:FCSD");
@@ -97,16 +107,18 @@ public class NCForsythCountyParserTest extends BaseParserTest {
         "ADDR:191 LOWES FOOD DR",
         "PLACE:A CLEANER WORLD",
         "CALL:Alarms - Fire or Smoke",
+        "PRI:1",
         "UNIT:F11",
         "X:JENNINGS RD/SHALLOWFORD RD");
 
     doTest("T12",
-        "Location: 6441 HOLDER RD CL,RM 8: @CLEMMONS VILLAGE II Nature: Breathing Difficulty P:1\2s- BREATHING_DIFF DISTRICT: R11 X Str: HOLDER CT/SOUTHWEST SCH",
+        "Location: 6441 HOLDER RD CL,RM 8: @CLEMMONS VILLAGE II Nature: Breathing Difficulty P:1  - BREATHING_DIFF DISTRICT: R11 X Str: HOLDER CT/SOUTHWEST SCH",
         "ADDR:6441 HOLDER RD",
         "CITY:CLEMMONS",
         "APT:8",
         "PLACE:CLEMMONS VILLAGE II",
         "CALL:Breathing Difficulty",
+        "PRI:1",
         "UNIT:R11",
         "X:HOLDER CT/SOUTHWEST SCH");
     
@@ -115,12 +127,23 @@ public class NCForsythCountyParserTest extends BaseParserTest {
         "ADDR:511 WINDMILL ST",
         "CITY:STOKES COUNTY",
         "CALL:DOA",
+        "PRI:1",
         "UNIT:F09",
         "NAME:1224");
+
+    doTest("T14",
+        "Location: NB 311 WS Nature: Motor Vehicle Accident P:1  - default DISTRICT: F28 X Str: UNION CROSS RD_NB 311 RA/NB 311_RIDGEWOOD",
+        "ADDR:NB 311",
+        "MADDR:311 & UNION CROSS RD 311",
+        "CITY:WINSTON-SALEM",
+        "CALL:Motor Vehicle Accident",
+        "PRI:1",
+        "UNIT:F28",
+        "X:UNION CROSS RD NB 311 RA/NB 311 RIDGEWOOD");
  }
   
   public static void main(String[] args) {
-    new NCForsythCountyParserTest().generateTests("T14");
+    new NCForsythCountyParserTest().generateTests("T15");
   }
 }
 
