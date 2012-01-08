@@ -292,6 +292,60 @@ public class MDCharlesCountyParserTest extends BaseParserTest {
         "INFO:78 year old, Female, Conscious, Breathing. Hemorrhage / Lacerations. DANGEROUS hemorrhage. E112990012 1119557 10:52");
     
   }
+  
+  @Test
+  public void testParser4() {
+
+    doTest("T1",
+        "GAS LEAK INSIDE A COMMERCIAL BUILDING OR MF MULTI FAMILY 12421 TURTLE DOVE PL 10 K4 ODOR OF GAS INSIDE,HOUSE IS EVACUATED F120080006 1200424",
+        "CALL:GAS LEAK INSIDE A COMMERCIAL BUILDING OR MF MULTI FAMILY",
+        "ADDR:12421 TURTLE DOVE PL",
+        "MAP:10 K4",
+        "INFO:ODOR OF GAS INSIDE,HOUSE IS EVACUATED",
+        "ID:F120080006");
+
+    doTest("T2",
+        "CHEST PAINS, EMS, ALS, 10C, 10D 3012 PALMER PL, APT F 10 E6 1. 47 year old, Female, Conscious, Breathing. E120080019 1200423 14:03",
+        "CALL:CHEST PAINS",
+        "UNIT:EMS, ALS, 10C, 10D",
+        "ADDR:3012 PALMER PL",
+        "MAP:10 E6",
+        "INFO:1. 47 year old, Female, Conscious, Breathing. E120080019 1200423 14:03");
+
+    doTest("T3",
+        "TRAUMATIC INJURY, EMS, BLS, 30A, 30B 2501 REGAL PL 4 F11 WILL ADVISE MORE IN A MINUTE.... E120080018 1200422 13:22",
+        "CALL:TRAUMATIC INJURY",
+        "UNIT:EMS, BLS, 30A, 30B",
+        "ADDR:2501 REGAL PL",
+        "MAP:4 F11",
+        "INFO:WILL ADVISE MORE IN A MINUTE.... E120080018 1200422 13:22");
+
+    doTest("T4",
+        "CHOKING, EMS, ALS, 11D 70 VILLAGE ST, NURSES OFFICE 3RD FLOOR 10 F6 1. 87 year old, Male, Conscious, Breathing. E120080017 1200421 13:21",
+        "CALL:CHOKING",
+        "UNIT:EMS, ALS, 11D",
+        "ADDR:70 VILLAGE ST",
+        "PLACE:NURSES OFFICE 3RD FLOOR",
+        "MAP:10 F6",
+        "INFO:1. 87 year old, Male, Conscious, Breathing. E120080017 1200421 13:21");
+
+    doTest("T5",
+        "SICK PERSON, EMS, ALS, 26C, 26D 3135 FLANDERS CT 10 H4 1. 66 year old, Male, Conscious, Breathing. E120080015 1200419 12:33",
+        "CALL:SICK PERSON",
+        "UNIT:EMS, ALS, 26C, 26D",
+        "ADDR:3135 FLANDERS CT",
+        "MAP:10 H4",
+        "INFO:1. 66 year old, Male, Conscious, Breathing. E120080015 1200419 12:33");
+
+    doTest("T6",
+        "STRUC, SF HOUSE, TRAILER, ATTACHED SHED, GARAGE FIRE 1504 BRYAN CT 10 F7 PROBLEMS WITH THE FIRE PLACE / SMIKE IN THE RESIDENCE F120080005 12",
+        "CALL:STRUC, SF HOUSE, TRAILER, ATTACHED SHED, GARAGE FIRE",
+        "ADDR:1504 BRYAN CT",
+        "MAP:10 F7",
+        "INFO:PROBLEMS WITH THE FIRE PLACE / SMIKE IN THE RESIDENCE",
+        "ID:F120080005");
+
+  }
     
   public static void main(String[] args) {
     new MDCharlesCountyParserTest().generateTests("T1", "CALL UNIT ADDR PLACE CODE MAP INFO ID");
