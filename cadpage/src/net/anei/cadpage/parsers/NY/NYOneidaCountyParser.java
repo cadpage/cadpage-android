@@ -55,9 +55,12 @@ Sender: messaging@iamresponding.com
 [Waterville Amb]  &#239;&#187;&#191;WATA:2011:0349 &gt;Dispatched &gt;17B01 - POSSIBLY DANGEROUS BODY AREA &gt;2522 ROUTE 315, MARSHALL (CALIFORNIA RD/HU
 [Waterville Amb]  &#239;&#187;&#191;WATA:2011:0348 &gt;Dispatched &gt;06C01-ABNORMAL BREATHING &gt;144 HUNTINGTON PL, WATERVILLE VILLAGE (/TOWER ST) #MID
 
-Unknown,
 Contact: Laura Eaton <alightwenton@gmail.com>
 (Bridgewater Fire) &#239;&#187;&#191;BRIA:2012:0001 &gt;Dispatched &gt;28C05 - SUDDEN PARALYSIS OR FACIAL DROOP (ONE SIDE) &gt;130 ELMWOOD AVE N, WATERV
+
+Contact: David Ambrose <nhfd127@yahoo.com>
+Sender: messaging@iamresponding.com
+(New Hartford Fire) Dispatched >EMS CALL >@NH Post Office  (40 CAMPION RD), NEW HARTFORD
 
 ** NOT IMPLEMENTED **
 FRM:dispatch@oc911.org\nMSG:???WEMF:2011:0346AcknowledgeMVA-UNKNOWNROUTE 233, WESTMORELAND/W MAIN ST (COUNTY ROUTE 23), WESTMORELAND
@@ -87,21 +90,28 @@ public class NYOneidaCountyParser extends SmartAddressParser {
     int pt = body.indexOf("Dispatched");
     if (pt < 0) return false;
     
-    pt = body.lastIndexOf(':', pt-1);
-    if (pt < 0) return false;
-    pt = body.lastIndexOf(':', pt-1);
-    if (pt < 0) return false;
-    body = body.substring(pt+1);
-    
-    
-    String[] flds = DELIM.split(body);
-    if (flds.length <= 3) return false;
+    int pt2 = body.lastIndexOf(':', pt-1);
+    if (pt2 >= 0) {
+      pt = pt2+1;
+      pt2 = body.lastIndexOf(':', pt2-1);
+      if (pt2 >= 0) pt = pt2+1;
+    }
+    body = body.substring(pt);
     
     data.strSource = subject;
-
-    data.strCallId = flds[0];
-    if (flds[1].equals("Dispatch")) return false;
-    String sCall = flds[2];
+    
+    String[] flds = DELIM.split(body);
+    if (flds.length < 3) return false;
+    
+    int ndx = 0;
+    String fld = flds[ndx++];
+    if (!fld.equals("Dispatched")) {
+      data.strCallId = fld;
+      fld = flds[ndx++];
+      if (!fld.equals("Dispatched")) return false;
+    }
+    
+    String sCall = flds[ndx++];
     Matcher match = CODE_PTN.matcher(sCall);
     if (match.find()) {
       data.strCode = match.group(1);
@@ -110,7 +120,8 @@ public class NYOneidaCountyParser extends SmartAddressParser {
     data.strCall = sCall;
     
     // Break address field into stuff before, inside, and after two sets of parenthesis
-    Parser p = new Parser(flds[3]);
+    if (ndx >= flds.length) return false;
+    Parser p = new Parser(flds[ndx++]);
     String sPart1 = p.get('(');
     String sPart2 = p.get(')');
     String sPart3 = p.get('(');
