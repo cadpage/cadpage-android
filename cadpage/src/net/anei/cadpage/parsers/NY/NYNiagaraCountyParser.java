@@ -53,6 +53,10 @@ Sender: 7164383393@niagaracounty.com
 (45676) NCFC DLEVEN) 425 West Lane/CO Detector with no symptoms/Ops 1
 (43218) NCFC TLEADERS 454 lockport st. 91 yom difficulty breathing. ALS-P 31R9 is at ECMC returning
 
+Contact: David Sanders <skiestwo@gmail.com>
+Sender: 7164383393@niagaracounty.com
+((23406) NCFC CGREENE ) EMS @ 7300 Winbert Dr - 45yof Chest Pain - 01/06/12 @ 0442/hrs - EMS OPS  ALSP
+
 */
 
 
@@ -64,6 +68,8 @@ public class NYNiagaraCountyParser extends SmartAddressParser {
     
     private static final Pattern DATE_TIME_PTN = Pattern.compile("\\b(\\d{1,2}/\\d{1,2}(?:/\\d{2,4})?) (\\d{4})$");
     private static final Pattern TIME_PTN = Pattern.compile("\\b(\\d{4})(?:hrs)?$");
+    private static final Pattern DATE_TIME_PTN2 = 
+      Pattern.compile("(?: - *)?(?:(\\b\\d\\d/\\d\\d/\\d\\d(?:\\d\\d)?))?(?: *@ *)?(\\b\\d{4}) */?hrs(?: *- )?");
     
     public NYNiagaraCountyParser() {
       super("NIAGARA COUNTY", "NY");
@@ -111,6 +117,14 @@ public class NYNiagaraCountyParser extends SmartAddressParser {
 	      }
 	    }
 	    
+	    match = DATE_TIME_PTN2.matcher(body);
+	    if (match.find()) {
+	      String sDate = match.group(1);
+	      if (sDate != null) data.strDate = sDate;
+	      data.strTime = match.group(2);
+	      body = body.substring(0,match.start()).trim() + " " + body.substring(match.end()).trim();
+	    }
+	    
 	    body = body.replace(',', ' ').replace('.', ' ').replaceAll("//s+", " ");
 	    parseAddress(StartType.START_CALL, FLAG_NO_IMPLIED_APT, body, data);
 	    if (getStatus() == 0) {
@@ -122,8 +136,9 @@ public class NYNiagaraCountyParser extends SmartAddressParser {
 	      return true;
 	    }
 	    
-	    data.strSupp = getLeft();
+	    data.strSupp = unDash(getLeft());
 	    
+	    data.strCall = unDash(data.strCall);
 	    if (data.strCall.length() == 0) {
 	      data.strCall = data.strSupp;
 	      data.strSupp = "";
@@ -134,6 +149,12 @@ public class NYNiagaraCountyParser extends SmartAddressParser {
 
     private String expandTime(String time) {
       return time.substring(0,2) + ":" +time.substring(2,4);
+    }
+    
+    private String unDash(String field) {
+      if (field.startsWith("- ")) field = field.substring(2).trim();
+      if (field.endsWith(" -")) field = field.substring(0,field.length()-2).trim();
+      return field;
     }
 	}
 	

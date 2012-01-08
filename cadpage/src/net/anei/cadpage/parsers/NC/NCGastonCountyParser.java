@@ -22,14 +22,17 @@ Sender: rc.459@c-msg.net
 Contact: Robert Jacksonr <rgaryj32@gmail.com>
 Sender: rc.295@c-msg.net
 Fire-Commerical Business 100~BUCKEYE~DR~ X-ST: UNKNOWN / TWINBROOKS DR Phone:~(704) 524-5798 Station 30 01/06/2012
+Fire-Commerical Business 100~BUCKEYE~DR~ X-ST: UNKNOWN / TWINBROOKS DR Phone:~(704) 524-5798 Station 30 01/06/2012 08:30:55 10\nLD34, EN303, EN300, EN220, EN194, TA184, TA314, TA204, TA32, TA304
+
+Gas Leak 112~ODANIEL~ST~ X-ST: DUMONT AVE / DEAD END Station:~Station 32 01/06/2012 09:16:04 3\n
 
 */
 
 public class NCGastonCountyParser extends FieldProgramParser {
   
-  private static final Pattern TRAILER = Pattern.compile("Station (\\d+) (\\d\\d/\\d\\d/\\d{4}) (\\d\\d:\\d\\d:\\d\\d) \\d$");
+  private static final Pattern TRAILER = Pattern.compile("Station (\\d+) (\\d\\d/\\d\\d/\\d{4}) (\\d\\d:\\d\\d:\\d\\d) \\d{1,2}$");
   private static final Pattern TRAILER2 = Pattern.compile("Station (\\d+)\\b");
-  private static final String TRAILER3 = "NN/NN/NNNN NN;NN;NN N";
+  private static final String TRAILER3 = "NN/NN/NNNN NN;NN;NN NN";
   private static final Pattern CODE_PTN = Pattern.compile("^\\d{1,2}[A-Z]\\d{1,2}[A-Z]?\\b");
   
   public NCGastonCountyParser() {
@@ -66,6 +69,7 @@ public class NCGastonCountyParser extends FieldProgramParser {
         data.strDate = trail.substring(0,10);
         data.strTime = trail.substring(11,len);
       }
+      data.expectMore = true;
     }
     String defSource = match.group(1);
     body = body.substring(0, match.start()).trim();
