@@ -1,5 +1,7 @@
 package net.anei.cadpage.parsers.PA;
 
+import java.util.regex.Pattern;
+
 import net.anei.cadpage.parsers.MsgParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
@@ -19,9 +21,17 @@ VEH ACCIDENT-ENTRAPMENT-1A / ELIZABETHTOWN BORO~E COLLEGE AVE / S SPRUCE ST~~TRK
 Contact: James Taylor <jtaylor574@gmail.com>
 VEH ACCIDENT-CLASS 2 / WEST COCALICO TWP~N KING ST / E QUEEN ST~~RES13~13:10:45^\n
 
+Contact: Justin Fisher <justin62911@gmail.com>
+Sender: messaging@iamresponding.com
+FRM:messaging@iamresponding.com\nSUBJ:WBFC\nMSG:STANDBY-TRANSFER TO STATION\nWEST LAMPETER TWP~2901 WILLOW STREET PIKE~W WYNWOOD DR~DONNELLY DR~ENG906~14:44:13\n
+FRM:messaging@iamresponding.com\nSUBJ:WBFC\nMSG:BUILDING-DWELLING-1A\nPROVIDENCE TWP~417 LANC PIKE~MOUNT AIRY RD~DENNIS DR~ENG906~14:52:09\n
+FRM:messaging@iamresponding.com\nSUBJ:WBFC\nMSG:SPILL CONTROL\nMANOR TWP~2601 RIVER RD~ANCHOR RD~LETORT RD~ENG903,TAN903,BR903,TAN907~16:04:15\n
+
 */
 
 public class PALancasterCountyParser extends MsgParser {
+  
+  private static Pattern LANC_PTN = Pattern.compile("\\bLANC\\b", Pattern.CASE_INSENSITIVE);
   
   public PALancasterCountyParser() {
     super("LANCASTER COUNTY", "PA");
@@ -29,14 +39,19 @@ public class PALancasterCountyParser extends MsgParser {
   
   @Override
   public String getFilter() {
-    return "911@lcwc911.us";
+    return "911@lcwc911.us,messaging@iamresponding.com";
   }
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     
     if (! body.contains("~")) return false;
-    data.strCall = subject;
+    
+    if (subject.indexOf(' ') >= 0 || subject.indexOf('-') >= 0) { 
+      data.strCall = subject;
+    } else {
+      data.strSource = subject;
+    }
     
     int ndx = 0;
     for (String line : body.split("~")) {
@@ -46,8 +61,9 @@ public class PALancasterCountyParser extends MsgParser {
       
       case 1:
         int pt = line.indexOf('/');
+        if (pt < 0) pt = line.indexOf('\n');
         if (pt >= 0) {
-          data.strCall = line.substring(0,pt).trim();
+          data.strCall = append(data.strCall, " / ", line.substring(0,pt).trim());
           line = line.substring(pt+1).trim();
         } else {
           if (data.strCall.length() == 0) return false;
@@ -58,6 +74,7 @@ public class PALancasterCountyParser extends MsgParser {
         break;
         
       case 2:
+        line = LANC_PTN.matcher(line).replaceAll("LANCASTER");
         parseAddress(line, data);
         break;
         
