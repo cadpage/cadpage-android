@@ -84,24 +84,15 @@ public class DispatchGlobalDispatchParser extends FieldProgramParser {
         
         // Start by splitting field into list of words, and identifying
         // each word as station, unit or neither
-        int firstAddr = -1;
-        int lastAddr = -1;
         String[] words = field.split(" +");
         int[] types = new int[words.length];
+        boolean reg = false;
         for (int ii = 0; ii<words.length; ii++) {
           String word = words[ii];
-          types[ii] = (stationPtn != null && stationPtn.matcher(word).matches() ? 1 :
+          types[ii] = (reg ? 0 : stationPtn != null && stationPtn.matcher(word).matches() ? 1 :
             unitPtn != null && unitPtn.matcher(word).matches() ? 2 : 0);
-          if (types[ii] == 0) {
-            if (firstAddr < 0) firstAddr = ii;
-            lastAddr = ii;
-          }
+          if (types[ii] == 0) reg = true;
         }
-        
-        // We only pull words from either end, which means anything between the
-        // first regular word and the last regular word should be treated as a
-        // regular word
-        for (int ii = firstAddr+1; ii<lastAddr; ii++) types[ii] = 0;
         
         // Construct three Stringbuilders with all of the regular, station, and unit words
         StringBuilder[] sba = new StringBuilder[3];
