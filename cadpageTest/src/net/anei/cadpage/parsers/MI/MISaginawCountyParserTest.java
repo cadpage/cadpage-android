@@ -76,7 +76,18 @@ public class MISaginawCountyParserTest extends BaseParserTest {
         "CALL:FIRE ALARM",
         "ADDR:810 W WALNUT",
         "MAP:39");
-}
+ }
+  
+  @Test
+  public void testTritwp2() {
+    doTest("T1",
+        "FRM:emergin@saginawcounty.com\nMSG:TRITWP ¿*: APPLIANCE FIRE *: 122 W WALNUT CTY: 39 *: STOVE FIRE\n",
+        "SRC:TRITWP",
+        "CALL:APPLIANCE FIRE",
+        "ADDR:122 W WALNUT",
+        "MAP:39",
+        "INFO:STOVE FIRE");
+  }
   
   @Test
   public void testAlbeeParsaer() {

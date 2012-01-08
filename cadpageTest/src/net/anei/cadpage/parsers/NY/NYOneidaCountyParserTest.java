@@ -210,7 +210,18 @@ public class NYOneidaCountyParserTest extends BaseParserTest {
         "CALL:SUDDEN PARALYSIS OR FACIAL DROOP (ONE SIDE)",
         "ADDR:130 ELMWOOD AVE N",
         "CITY:WATERVILLE VILLAGE");
+  }
+  
+  @Test
+  public void testParser4() {
 
+    doTest("T1",
+        "(New Hartford Fire) Dispatched >EMS CALL >@NH Post Office  (40 CAMPION RD), NEW HARTFORD",
+        "SRC:New Hartford Fire",
+        "CALL:EMS CALL",
+        "PLACE:NH Post Office",
+        "ADDR:40 CAMPION RD",
+        "CITY:NEW HARTFORD");
   }
   
   public static void main(String[] args) {
