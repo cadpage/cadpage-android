@@ -39,6 +39,10 @@ MAILBOX@hrecc.org Msg: C80 EMS-FALLS 9718 VALLEY VIEW RD MCG CFS# 2011-034525 CR
 Contact: "wnlwaff@comcast.net" <wnlwaff@comcast.net>
 (Rescue 40) R40 EMS-DIFFICULTY BREATHING 1825 S MAIN ST HAR CFS# 2011-051783 CROSS: PLEASANT HILL RD/DUKES PLAZA
 
+*** NOT IMPLEMENTED ***
+Contact: Michael Roper <ropermw2@gmail.com>
+(Rescue 40) DIFFICULTY BREATHING 563 NEFF AVE A   2012-001403 CROSS: RESERVOIR ST/CHASE CT
+
 */
 
 public class VARockinghamCountyParser extends DispatchDAPROParser {

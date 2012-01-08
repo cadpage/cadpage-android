@@ -2742,6 +2742,10 @@ btwn SLONAKER RD & FUL ** IFO ** VOWLBY, COREY/H ** 6201 ** 07/10/11 ** ACCUNK *
 Contact: Bill Nestor <bnest19@gmail.com>
 Sender: wwfc.fdcms1@verizon.net
 FRM:wwfc.fdcms1@verizon.net\nSUBJ:Dispatch\nMSG:14:30 ** BRIANS HOUSE--610-594-8344- ** DEAD END & OAK LA ** ALARM - FIRE * ** 0603 ** WWHITE **
+
+Contact: Dick Guth <dguth01@gmail.com>
+Sender: lcfc73@fdcms.info
+Dispatch ** 18:00 ** ALARM - FIRE * ** 2316 CONESTOGA RD ,25 ** RITCHIE RES/610-827-9328- ** ADT/GQQ ** 877-238-7730 ** Inc
 **********************************************************
 Unknown
 Contact: Chris <chrisdi9@aol.com>
@@ -3686,6 +3690,8 @@ Contact: "Craig Powell" <craig@hardinvfd.org>
 [EMS]  11346 SH146N 72YOF DIFF BREATHING HISTORY OF CONGESTIVE HEART FAILURE
 [10-50]  146N S OF OVER PASS 10-50 OCCUPIED MIGHT CATCH FIRE
 [MVA]  2 vehicle major FM 834 @ CR 2003 by junior high
+**********************************************************
+**********************************************************
 **********************************************************
 **********************************************************
 ************  READY TO ROLL ******************************
