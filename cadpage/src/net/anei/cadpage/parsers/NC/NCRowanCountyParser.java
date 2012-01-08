@@ -51,6 +51,10 @@ Contact: Trey Hoshall <treyhoshall@gmail.com>
 Sender: CAD@co.rowan.nc.us
 BCAD:32D3 UNKNOWN MEDICAL;175 WHISPERING OAKS LN;MOCK;OAK MEADOW LN;RATLEDGE RD;7305;OPS
 
+Contact: Andrew King <aking.salisburyfire@gmail.com>
+Sender: CAD@co.rowan.nc.us
+CAD:FYI: ;HAZMAT LEVEL 1;1625 N JACKSON ST;SALS;W 15TH ST;S ROWAN AV;301
+
 */
 
 public class NCRowanCountyParser extends DispatchOSSIParser {
@@ -76,7 +80,7 @@ public class NCRowanCountyParser extends DispatchOSSIParser {
   
   public NCRowanCountyParser() {
     super(CITY_CODES, "ROWAN COUNTY", "NC",
-           "CALL ADDR X/Z+? CITY! XPLACE+? UNIT? CH");
+           "FYI? CALL ADDR X/Z+? CITY! XPLACE+? UNIT? CH");
   }
   
   @Override
@@ -131,6 +135,7 @@ public class NCRowanCountyParser extends DispatchOSSIParser {
   
   @Override
   protected Field getField(String name) {
+    if (name.equals("FYI")) return new SkipField("FYI:|UPDATE:");
     if (name.equals("CITY")) return new MyCityField();
     if (name.equals("XPLACE")) return new MyCrossPlaceField();
     if (name.equals("UNIT")) return new UnitField("\\d{4}", true);
