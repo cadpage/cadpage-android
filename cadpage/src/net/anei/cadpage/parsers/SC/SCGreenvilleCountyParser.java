@@ -22,14 +22,25 @@ Contact: Kenneth Gosnell <ki4rdl@gmail.com>
 Sender: 8643850725
 CAD:DIABETIC PROBLEM;518 GOFORTH RD;LAND;BUTTER ST;BUTTER ST;(S) (N)4H;GM1
 
+Contact: Tare Kennedy <tare@owen-kennedy.com>
+Sender: 8643850725
+CAD:FALLS;70 LATIMER RIDGE RD;HONE;CORN RD;(S) (N)86O;[Medical Priority Info] RESPONSE: Delta RESPONDER SCRIPT: 76 year old, Male, Conscious, Breathing. Falls.
+CAD:STROKE OR TIA;271 GREY RD;PELZ;DIST: 280.66 ft (S) (N)80V;243-3091 [01/04/12 06:30:45 CCHILDRESS] [Medical Priority Info] RESPONSE: Charlie RESPONDER SCRIPT
+CAD:OUTSIDE FIRE;419 CEDAR FALLS RD;FOUN;SWEET WATER RD;DUNKLIN BRIDGE RD;DIST: 86.71 ft (S) (N)80R;DK1
+CAD:STRUCTURE FIRE;10612 AUGUSTA RD;BELT;BOYS HOME OF THE SOUTH;DAVENTON RD;KERMIT WATSON BLVD;DIST: 715.97 ft (S) (N)86A;DK1
+
  */
 
 
 public class SCGreenvilleCountyParser extends DispatchOSSIParser {
   
   private static Properties CITY_CODES = buildCodeTable(new String[]{
+      "BELT", "BELTON",
+      "FOUN", "FOUNTAIN INN",
       "GRVL", "GREENVILLE",
+      "HONE", "HONES PATH",
       "LAND", "LANDRUM",
+      "PELZ", "PELZER",
       "TRAV", "TRAVELERS REST"
   });
   

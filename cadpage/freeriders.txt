@@ -761,8 +761,8 @@ Lisa Edwards (jojosmima@gmail.com)<ledwards@townofchapelhill.org>
 %%11/09/2011
 >>Angelina Kovach <ackovach88@gmail.com>
 >>TJ Farrance <tjfarrance@gmail.com>
-tmcarroll (tresemt71@gmail.com)<tmcarroll@frontiernet.net>
-Michael Haupt <haupts3183@gmail.com>
+>>tmcarroll (tresemt71@gmail.com)<tmcarroll@frontiernet.net>
+>>Michael Haupt <haupts3183@gmail.com>
 Brian Stewart <jbspriteh639@gmail.com>
 John Allshouse (jallshouse69@gmail.com)<swampy_812@yahoo.com>
 Lynn Sullenger <lsullenger647@gmail.com>
@@ -1057,6 +1057,8 @@ Brian Gouza (emtff273@gmail.com)(gouz2@hotmail.com)
 %%01/06/2012
 John Schneider (schneider512.js@gmail.com)(john@afsscorp.com)
 Charles Talbott (ct5358@gmail.com)<medic2@comcast.net>
+%%01/07/2012
+Scott Wilkerson (scottw9799@gmail.com)(Scottwilkerson@comcast.net)
  
 // List of users getting free credit for 2012
 $free_2012_list

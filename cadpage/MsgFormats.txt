@@ -3687,11 +3687,6 @@ Contact: "Craig Powell" <craig@hardinvfd.org>
 [10-50]  146N S OF OVER PASS 10-50 OCCUPIED MIGHT CATCH FIRE
 [MVA]  2 vehicle major FM 834 @ CR 2003 by junior high
 **********************************************************
-Wyoming County, NY (alternate or replacement)
-Contact: Louis Yunker <louisyunker@yahoo.com>
-Sender: wyco911@wyomingco.net
-SEIZURE/CONVULSION\n 1375 ROUTE 354 BENT (Between ROUTE 77 & GRAFF RD)
-**********************************************************
 **********************************************************
 **********************************************************
 ************  READY TO ROLL ******************************
@@ -3822,3 +3817,12 @@ SARASOTA COUNTY EVENT TYPE: STRUCTURE FIRE Location: 3908 WALNUT AVE NCTY G033 T
 SARASOTA COUNTY EVENT TYPE: STRUCTURE FIRE Location: 3908 WALNUT AVE NCTY G033 TIME: 16:12:52  Disp:
 SARASOTA COUNTY EVENT TYPE: ASSIST OTHER MEDICAL AGENCY Location: 5731 BEE RIDGE RD NCTY G128: @DOCTORS TIME: 18:51:05  Disp: BN2,E8,R8
 SARASOTA COUNTY EVENT TYPE: VEHICLE CRASH WITH INJURIES Location: BEE RIDGE RD/MAUNA LOA BLVD NCTY G149 TIME: 02:06:18  Disp: BN2,E16,R8,SQ8
+**********************************************************
+Wyoming County, NY (alternate or replacement)
+Contact: Louis Yunker <louisyunker@yahoo.com>
+Sender: wyco911@wyomingco.net
+SEIZURE/CONVULSION\n 1375 ROUTE 354 BENT (Between ROUTE 77 & GRAFF RD)
+HEART PROBLEMS\n1535 FRIEDMAN RD BENT (Between ROUTE 77 & TINKHAM RD)
+STRUCTURE FIRE\nFRENCH RD BENT (Between ROUTE 354 & HOOVER RD) barn fire
+SEIZURE/CONVULSION\n1375 ROUTE 354 BENT (Between ROUTE 77 & GRAFF RD)
+STRUCTURE FIRE\n1649 ROUTE 238 ATTT (Between NESBITT RD & ATTICA TOWN LINE)
