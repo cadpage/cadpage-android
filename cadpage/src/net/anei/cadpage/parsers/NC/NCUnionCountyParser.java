@@ -24,11 +24,17 @@ public class NCUnionCountyParser extends DispatchOSSIParser {
   
   public NCUnionCountyParser() {
     super("UNION COUNTY", "NC",
-           "ADDR CITY CALL SRC! INFO X X SKIP PLACE");
+           "ADDR CITY CALL SRC! INFO X/Z+? DATETIME PLACE");
   }
   
   @Override
   public String getFilter() {
     return "cad@uc.co.union.nc.us,cad@webmail.co.union.nc.us,cad@co.union.nc.us";
+  }
+  
+  @Override
+  protected Field getField(String name) {
+    if (name.equals("DATETIME")) return new DateTimeField("\\d\\d/\\d\\d/\\d{4} \\d\\d:\\d\\d:\\d\\d");
+    return super.getField(name);
   }
 }

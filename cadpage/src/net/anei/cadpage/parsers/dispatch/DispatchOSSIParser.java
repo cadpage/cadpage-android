@@ -41,6 +41,8 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 public class DispatchOSSIParser extends FieldProgramParser {
   
+  private static final Pattern DATE_TIME_PTN = Pattern.compile("(\\d\\d/\\d\\d/\\d{2,4}) (\\d\\d:\\d\\d:\\d\\d)\\b");
+  
   private boolean leadID = false;
   private boolean dateTimeReq = false;
   
@@ -146,7 +148,15 @@ public class DispatchOSSIParser extends FieldProgramParser {
       if (delim == '[') {
         pt = body.indexOf(']', st);
         if (pt < 0) pt = body.length();
-        priInfo = body.substring(st, pt).contains("Priority Info");
+        String content = body.substring(st,pt);
+        priInfo = content.contains("Priority Info");
+        if (data.strDate.length() == 0 && data.strTime.length() == 0) {
+          Matcher match2 = DATE_TIME_PTN.matcher(content);
+          if (match2.find()) {
+            data.strDate = match2.group(1);
+            data.strTime = match2.group(2);
+          }
+        }
         st = pt + 1;
       }
     }
@@ -168,11 +178,26 @@ public class DispatchOSSIParser extends FieldProgramParser {
       field = field.replaceAll("\\d", "N");
       if ("NN/NN/NNNN NN:NN:NN".startsWith(field)) dateTime = true;
     }
-    if (dateTime) fields.remove(ndx);
+    if (dateTime) {
+      field = fields.get(ndx);
+      if (field.length() >= 10) {
+        data.strDate = field.substring(0,10);
+        field = field.substring(10).trim();
+        if (field.length() == 8) data.strTime = field;
+        else if (field.length() >= 5) data.strTime = field.substring(0,5);
+      }
+        
+      fields.remove(ndx);
+    }
     else if (dateTimeReq) return false;
       
     // We have a nice clean array of data fields, pass it to the programmer
     // field processor to parse
     return parseFields(fields.toArray(new String[fields.size()]), data);
+  }
+  
+  @Override
+  public String getProgram() {
+    return super.getProgram() + " DATE TIME";
   }
 }

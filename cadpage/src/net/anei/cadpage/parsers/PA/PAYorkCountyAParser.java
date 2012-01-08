@@ -8,7 +8,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /*
 York County, PA
-Contact: wrblackwell@comcast.net
+Contact: William Blackwell <ff2blackwell@gmail.com>
 Contact: "Matthew Houck" <gr8tff@comcast.net> (megabytes of text samples)
 Contact: "firefighter_24@netzero.net" <firefighter_24@netzero.net>
 Sender: FIRE@mantwp.com
@@ -28,6 +28,7 @@ Fire Incident / W MANCHESTER TWP    CARLISLE RD RTE 30 WB VEH ACC INJ CL 2 r24 a
 Subject:Fire Incident\nMANCH TWP    975 DETWILER DR BELAIR WAY / STILLMEADOW LN FIRE STRUCT RESID shed on fire 24-14 FIRESTA24 E24-1 E2-1 TK24 R
 Subject:Fire Incident\nMANCH TWP CARS PLUS  2008 N  GEORGE ST WOODLAND AVE / I 83 SB, LIGHTNER RD, I 83X22NGEORGEST SB FIRE WIRES 24-07 FIRESTA
 Subject:Fire Incident\nMANCH TWP I83 NB EXIT EMIGSVILLE   I 83 NB I 83X24EMIGSVILLE NB DEBRIS REMOVAL non injury accident south of exit    24-83
+Subject:Fire Incident\nMANCH TWP    130 HARVEST DR WOODMONT DR / LEAF ST STROKE/CVA CL 1 42 m/cons/yh 24-16 EMSSTA24 FIRESTA24 E24-1 A261 EMSSTA102-2 M102-2  21:05
 
 Contact:Charles Schriver <chuckles494@gmail.com>
 Sender: york911alert@comcast.net 

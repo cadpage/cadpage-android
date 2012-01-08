@@ -60,7 +60,7 @@ public class TXNassauBayParser extends DispatchOSSIParser {
   
   protected TXNassauBayParser(String defCity, String defState) {
     super(CITY_CODES, defCity, defState,
-          "SKIP SRC CALL! ADDR! CITY? CODE? SKIP INFO+");
+          "SKIP SRC CALL! ADDR! CITY? CODE? DATETIME INFO+");
   }
   
   @Override
