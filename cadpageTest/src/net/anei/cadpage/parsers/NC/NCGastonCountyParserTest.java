@@ -96,6 +96,26 @@ public class NCGastonCountyParserTest extends BaseParserTest {
         "X:UNKNOWN / TWINBROOKS DR",
         "PHONE:(704) 524-5798",
         "SRC:30");
+
+    doTest("T2",
+        "Fire-Commerical Business 100~BUCKEYE~DR~ X-ST: UNKNOWN / TWINBROOKS DR Phone:~(704) 524-5798 Station 30 01/06/2012 08:30:55 10\nLD34, EN303, EN300, EN220, EN194, TA184, TA314, TA204, TA32, TA304",
+        "CALL:Fire-Commerical Business",
+        "ADDR:100 BUCKEYE DR",
+        "X:UNKNOWN / TWINBROOKS DR",
+        "PHONE:(704) 524-5798",
+        "SRC:30",
+        "UNIT:LD34, EN303, EN300, EN220, EN194, TA184, TA314, TA204, TA32, TA304",
+        "DATE:01/06/2012",
+        "TIME:08:30:55");
+
+    doTest("T3",
+        "Gas Leak 112~ODANIEL~ST~ X-ST: DUMONT AVE / DEAD END Station:~Station 32 01/06/2012 09:16:04 3\n",
+        "CALL:Gas Leak",
+        "ADDR:112 ODANIEL ST",
+        "X:DUMONT AVE / DEAD END",
+        "SRC:32",
+        "DATE:01/06/2012",
+        "TIME:09:16:04");
   }
   
 

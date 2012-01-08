@@ -133,7 +133,7 @@ public class NYNiagaraCountyParserTest extends BaseParserTest {
     doTest("T18",
         "((7720) NCFC MMYERS ) 4895 Gasport Rd - m in 50s in driveway was uncon now conscious. ALSP EMS/Air Ops RM264 from Ward/Lkpt 1551hrs",
         "ID:7720",
-        "CALL:- m in 50s in driveway was uncon now conscious ALSP EMS / Air Ops RM264 from Ward / Lkpt",
+        "CALL:m in 50s in driveway was uncon now conscious ALSP EMS / Air Ops RM264 from Ward / Lkpt",
         "ADDR:4895 Gasport Rd",
         "TIME:15:51");
 
@@ -205,7 +205,7 @@ public class NYNiagaraCountyParserTest extends BaseParserTest {
     doTest("T29",
         "[(44051] NCFC KTOMTISH ) 5460 Ernest Rd - 82 YOF - Pace Maker pain - Radiating down left arm into fingers - EMS Opps on location",
         "ID:44051",
-        "CALL:- 82 YOF - Pace Maker pain - Radiating down left arm into fingers - EMS Opps on location",
+        "CALL:82 YOF - Pace Maker pain - Radiating down left arm into fingers - EMS Opps on location",
         "ADDR:5460 Ernest Rd");
 
     doTest("T30",
@@ -235,9 +235,9 @@ public class NYNiagaraCountyParserTest extends BaseParserTest {
     doTest("T33",
         "((62154) NCFC CGREENE ) Requested by Hartland for Dump Truck fire behind Chapman's Market - 9202 Ridge Rd - Call Fire Control if responding. 09/21/11",
         "ID:62154",
-        "CALL:Requested by Hartland for Dump Truck fire behind Chapman's Market -",
+        "CALL:Requested by Hartland for Dump Truck fire behind Chapman's Market",
         "ADDR:9202 Ridge Rd",
-        "INFO:- Call Fire Control if responding 09 / 21 / 11");
+        "INFO:Call Fire Control if responding 09 / 21 / 11");
 
     doTest("T34",
         "((42817) NCFC MDIPASQU ) 6699 Wolcottsville rd 52 yof sick dehidrated bls-p",
@@ -269,6 +269,15 @@ public class NYNiagaraCountyParserTest extends BaseParserTest {
         "ID:43218",
         "CALL:GENERAL ALERT",
         "PLACE:454 lockport st. 91 yom difficulty breathing. ALS-P 31R9 is at ECMC returning");
+
+    doTest("T39",
+        "((23406) NCFC CGREENE ) EMS @ 7300 Winbert Dr - 45yof Chest Pain - 01/06/12 @ 0442/hrs - EMS OPS  ALSP",
+        "ID:23406",
+        "CALL:EMS",
+        "ADDR:7300 Winbert Dr",
+        "INFO:45yof Chest Pain EMS OPS ALSP",
+        "DATE:01/06/12",
+        "TIME:0442");
   }
   
   public static void main(String[] args) {
