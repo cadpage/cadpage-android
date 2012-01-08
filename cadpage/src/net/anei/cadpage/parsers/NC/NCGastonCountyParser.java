@@ -19,11 +19,17 @@ Sender: rc.459@c-msg.net
 (*CAD*) [CAD]   Tree In Roadway 124~CHURCH~ST~  X-ST: ROBINETTE LN - Phone:~(704) 634-0269 Station 40 08/30/2011 05:13:05 1\nEN403
 (*CAD*) [CAD]   29D2L ~WESLEYAN~DR/~MAIN~ST  X-ST: Phone:~(704) 460-7016 - Station:~Station 40 Station 40 08/29/2011 16:49:18 1\nEN403  WRECK.
 
+Contact: Robert Jacksonr <rgaryj32@gmail.com>
+Sender: rc.295@c-msg.net
+Fire-Commerical Business 100~BUCKEYE~DR~ X-ST: UNKNOWN / TWINBROOKS DR Phone:~(704) 524-5798 Station 30 01/06/2012
+
 */
 
 public class NCGastonCountyParser extends FieldProgramParser {
   
-  private static final Pattern TRAILER = Pattern.compile("Station (\\d+) \\d\\d/\\d\\d/\\d{4} \\d\\d:\\d\\d:\\d\\d \\d$");
+  private static final Pattern TRAILER = Pattern.compile("Station (\\d+) (\\d\\d/\\d\\d/\\d{4}) (\\d\\d:\\d\\d:\\d\\d) \\d$");
+  private static final Pattern TRAILER2 = Pattern.compile("Station (\\d+)\\b");
+  private static final String TRAILER3 = "NN/NN/NNNN NN;NN;NN N";
   private static final Pattern CODE_PTN = Pattern.compile("^\\d{1,2}[A-Z]\\d{1,2}[A-Z]?\\b");
   
   public NCGastonCountyParser() {
@@ -33,19 +39,34 @@ public class NCGastonCountyParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "rc.459@c-msg.net";
+    return "@c-msg.net";
   }
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
-    if (!subject.equals("*CAD*|CAD")) return false;
     String[] lines = body.split("\n");
     if (lines.length > 2) return false;
     if (lines.length > 1) data.strUnit = lines[1];
     body = lines[0];
     
     Matcher match = TRAILER.matcher(body);
-    if (!match.find()) return false;
+    if (match.find()) {
+      data.strDate = match.group(2);
+      data.strTime = match.group(3);
+    } else {
+      match = TRAILER2.matcher(body);
+      if (!match.find()) return false;
+      String trail = body.substring(match.end()).trim();
+      if (!TRAILER3.startsWith(trail.replaceAll("\\d", "N"))) return false;
+      int len = trail.length();
+      if (len >= 19) len = 19;
+      else if (len >= 16) len = 16;
+      else len = 0;
+      if (len > 0) {
+        data.strDate = trail.substring(0,10);
+        data.strTime = trail.substring(11,len);
+      }
+    }
     String defSource = match.group(1);
     body = body.substring(0, match.start()).trim();
     body = body.replace('~', ' ');
@@ -58,6 +79,11 @@ public class NCGastonCountyParser extends FieldProgramParser {
     }
     if (data.strSource.length() == 0) data.strSource = defSource;
     return true;
+  }
+  
+  @Override
+  public String getProgram() {
+    return "CODE " + super.getProgram() + " UNIT DATE TIME";
   }
   
   private class MyCrossField extends CrossField {
@@ -94,10 +120,5 @@ public class NCGastonCountyParser extends FieldProgramParser {
     if (name.equals("PHONE")) return new MyPhoneField();
     if (name.equals("SRC")) return new MySourceField();
     return super.getField(name);
-  }
-  
-  @Override
-  public String getProgram() {
-    return "CODE " + super.getProgram() + " UNIT";
   }
 }
