@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">01072012</string>
-  <string name="release_version">v1.5.06</string>
+  <string name="release_date">01082012</string>
+  <string name="release_version">v1.5.07</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="min_expire_date">10012012</string>
   <string name="release_text">
 What"'"s new in this release\n
 \n
-We got behind on Location fixes over the holidays and haven"'" caught up yet.  This
-release contains all the location fixes we have to date.  It will be followed by
-another location fix release as soon as I get caught up.  And that will be 
-followed by a release enabling Active911 registration.  Hang on, it is coming.\n
+Should be caught up on all outstanding reported location parsing problems.  Yea!!!\n
 \n
 Location Parsing Fixes:\n
-Porter County, IN\n
-Prince Charles County, MD\n
-Washington County, MD\n
+\n
+Pottawattamie County, IA\n
+Saginaw County, MI\n
+Gasconade County, MO\n
+Niagara County, NY\n
 Oneida County, NY\n
-Cabarrus County, NC\n
-Forsyth County, NC\n
-Mecklenburg County, NC\n
+Gaston County, NC\n
 Rowan County, NC\n
+Lancaster County, PA\n
+Greenville County, SC\n
+
   </string>  
 </resources>
   
