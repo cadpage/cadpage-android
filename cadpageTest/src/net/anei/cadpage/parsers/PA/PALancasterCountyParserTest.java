@@ -68,8 +68,40 @@ public class PALancasterCountyParserTest extends BaseParserTest {
         "UNIT:RES13");
   }
   
+  @Test
+  public void testParser2() {
+
+    doTest("T1",
+        "FRM:messaging@iamresponding.com\nSUBJ:WBFC\nMSG:STANDBY-TRANSFER TO STATION\nWEST LAMPETER TWP~2901 WILLOW STREET PIKE~W WYNWOOD DR~DONNELLY DR~ENG906~14:44:13\n",
+        "SRC:WBFC",
+        "CALL:STANDBY-TRANSFER TO STATION",
+        "CITY:WEST LAMPETER TWP",
+        "ADDR:2901 WILLOW STREET PIKE",
+        "X:W WYNWOOD DR & DONNELLY DR",
+        "UNIT:ENG906");
+
+    doTest("T2",
+        "FRM:messaging@iamresponding.com\nSUBJ:WBFC\nMSG:BUILDING-DWELLING-1A\nPROVIDENCE TWP~417 LANC PIKE~MOUNT AIRY RD~DENNIS DR~ENG906~14:52:09\n",
+        "SRC:WBFC",
+        "CALL:BUILDING-DWELLING-1A",
+        "CITY:PROVIDENCE TWP",
+        "ADDR:417 LANCASTER PIKE",
+        "X:MOUNT AIRY RD & DENNIS DR",
+        "UNIT:ENG906");
+
+    doTest("T3",
+        "FRM:messaging@iamresponding.com\nSUBJ:WBFC\nMSG:SPILL CONTROL\nMANOR TWP~2601 RIVER RD~ANCHOR RD~LETORT RD~ENG903,TAN903,BR903,TAN907~16:04:15\n",
+        "SRC:WBFC",
+        "CALL:SPILL CONTROL",
+        "CITY:MANOR TWP",
+        "ADDR:2601 RIVER RD",
+        "X:ANCHOR RD & LETORT RD",
+        "UNIT:ENG903,TAN903,BR903,TAN907");
+    
+  }
+  
   
   public static void main(String[] args) {
-    new PALancasterCountyParserTest().generateTests("T8", "CALL CITY ADDR X UNIT");
+    new PALancasterCountyParserTest().generateTests("T1", "SRC CALL CITY ADDR X UNIT");
   }
 }
