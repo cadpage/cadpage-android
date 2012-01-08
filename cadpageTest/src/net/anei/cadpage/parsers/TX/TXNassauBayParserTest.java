@@ -21,6 +21,8 @@ public class TXNassauBayParserTest extends BaseParserTest {
         "ADDR:18101 POINT LOOKOUT DR",
         "CITY:NASSAU BAY",
         "CODE:NB",
+        "DATE:01/12/2011",
+        "TIME:22:10:16",
         "INFO:TRASHROOM 1 SMOKE DETECTOR / fire alarms going");
 
     doTest("T2",
@@ -31,15 +33,19 @@ public class TXNassauBayParserTest extends BaseParserTest {
         "MADDR:1020 W NASA PKWY",
         "CITY:WEBSTER",
         "CODE:WBW",
+        "DATE:01/13/2011",
+        "TIME:11:46:25",
         "INFO:smoke inside");
 
     doTest("T3",
         "41:CAD:FYI: ;NBFD;ACCIDENT MAJOR;NASA PKWY/ST JOHN BLVD;HO;NB;01/18/2011 12:53:59",
         "SRC:NBFD",
         "CALL:ACCIDENT MAJOR",
+        "ADDR:NASA PKWY & ST JOHN BLVD",
         "CITY:NASSAU BAY",
         "CODE:NB",
-        "ADDR:NASA PKWY & ST JOHN BLVD");
+        "DATE:01/18/2011",
+        "TIME:12:53:59");
 
     doTest("T4",
         "CAD:FYI: ;NBFD;UNCONSCIOUS;1427 SAXONY LN;NB;NB;03/06/2011 14:30:40;female down in bathroom [03/06/11 14:30:28 DCOOLEY]",
@@ -48,6 +54,8 @@ public class TXNassauBayParserTest extends BaseParserTest {
         "ADDR:1427 SAXONY LN",
         "CITY:NASSAU BAY",
         "CODE:NB",
+        "DATE:03/06/2011",
+        "TIME:14:30:40",
         "INFO:female down in bathroom");
 
     doTest("T5",
@@ -56,15 +64,19 @@ public class TXNassauBayParserTest extends BaseParserTest {
         "CALL:ASSIST BY FIRE",
         "ADDR:3000 E NASA PKWY",
         "CITY:SEABROOK",
+        "DATE:03/06/2011",
+        "TIME:15:38:43",
         "INFO:boat");
 
     doTest("T6",
         ":CAD:FYI: ;NBFD;VEHICLE FIRE;18100 UPPER BAY RD;NB;NB;03/26/2011 13:36:15",
         "SRC:NBFD",
         "CALL:VEHICLE FIRE",
+        "ADDR:18100 UPPER BAY RD",
         "CITY:NASSAU BAY",
         "CODE:NB",
-        "ADDR:18100 UPPER BAY RD");
+        "DATE:03/26/2011",
+        "TIME:13:36:15");
   }
   
   @Test
@@ -77,6 +89,8 @@ public class TXNassauBayParserTest extends BaseParserTest {
         "ADDR:450 W MEDICAL CENTER BLVD",
         "CITY:WEBSTER",
         "CODE:WBW",
+        "DATE:04/02/2011",
+        "TIME:07:22:55",
         "INFO:CALLED THE NUMBER BELOW AND REC ANSWERING SERVICE THEY COULD PROVIDE MORE I");
 
     doTest("T2",
@@ -84,6 +98,8 @@ public class TXNassauBayParserTest extends BaseParserTest {
         "SRC:WBFD",
         "CALL:ACCIDENT MAJOR",
         "ADDR:MAGNOLIA & S KOBAYSHI",
+        "DATE:04/03/2011",
+        "TIME:18:01:07",
         "INFO:gry mits eclipse/////18 wheeler");
 
     doTest("T3",
@@ -93,6 +109,8 @@ public class TXNassauBayParserTest extends BaseParserTest {
         "ADDR:18206 EGRET BAY BLVD",
         "CITY:WEBSTER",
         "CODE:WBE",
+        "DATE:04/04/2011",
+        "TIME:17:01:45",
         "INFO:SMELL OF NATURAL GAS IN AREA - FENCED AREA NEXT TO ICHIBON");
 
     doTest("T4",
@@ -103,6 +121,8 @@ public class TXNassauBayParserTest extends BaseParserTest {
         "MADDR:1001 W BAY AREA BLVD",
         "CITY:WEBSTER",
         "CODE:WBW",
+        "DATE:04/05/2011",
+        "TIME:12:18:03",
         "INFO:manual pull in offc");
 
     doTest("T5",
@@ -113,6 +133,8 @@ public class TXNassauBayParserTest extends BaseParserTest {
         "MADDR:20233  45 FWY",
         "CITY:WEBSTER",
         "CODE:WBW",
+        "DATE:04/07/2011",
+        "TIME:14:44:07",
         "INFO:IN FRONT SHOWROOM / FEMALE PASSED OUT, IS BREATHING");
 
     doTest("T6",
@@ -123,6 +145,8 @@ public class TXNassauBayParserTest extends BaseParserTest {
         "MADDR:ST 3 & MAGNOLIA AVE",
         "CITY:WEBSTER",
         "CODE:WBE",
+        "DATE:04/10/2011",
+        "TIME:13:23:20",
         "INFO:7 months / blk tk silber pt cruiser");
 
     doTest("T7",
@@ -132,6 +156,8 @@ public class TXNassauBayParserTest extends BaseParserTest {
         "ADDR:901 S KOBAYASHI RD",
         "CITY:WEBSTER",
         "CODE:WBW",
+        "DATE:04/10/2011",
+        "TIME:16:11:22",
         "INFO:RESIDENT OF 133 CALLED ADVISED SHE HAD A KITCHEN FIRE AND SPRINKLERS CAME ON");
 
     doTest("T8",
@@ -141,6 +167,8 @@ public class TXNassauBayParserTest extends BaseParserTest {
         "ADDR:409 GREEN ST",
         "CITY:WEBSTER",
         "CODE:WBW",
+        "DATE:04/09/2011",
+        "TIME:11:58:10",
         "INFO:he is breathing / cold and clammy");
   }
   
@@ -148,12 +176,14 @@ public class TXNassauBayParserTest extends BaseParserTest {
   public void testParserLCFD() {
 
     doTest("T1",
-        ":CAD:FYI: ;LCFD;ELECTRICAL PROBLEMS SPARKS;FOX RUN CT/CREEKSIDE DR;LC;LCFW;09/10/2011 13:26:13;right next to soccer field, [09/10/11 1",
+        ":CAD:FYI: ;LCFD;ELECTRICAL PROBLEMS SPARKS;FOX RUN CT/CREEKSIDE DR;LC;LCFW;09/10/2011 13:26:13;right next to soccer field, [09/10/11 1  ",
         "SRC:LCFD",
         "CALL:ELECTRICAL PROBLEMS SPARKS",
         "ADDR:FOX RUN CT & CREEKSIDE DR",
         "CITY:LEAGUE CITY",
         "CODE:LCFW",
+        "DATE:09/10/2011",
+        "TIME:13:26:13",
         "INFO:right next to soccer field,");
 
     doTest("T2",
@@ -164,6 +194,8 @@ public class TXNassauBayParserTest extends BaseParserTest {
         "MADDR:500 PALOMINO LN",
         "CITY:LEAGUE CITY",
         "CODE:LCFW",
+        "DATE:09/10/2011",
+        "TIME:13:26:13",
         "INFO:(D2) E2 CAN GO BACK IN SERVICE");
 
     doTest("T3",
@@ -173,6 +205,8 @@ public class TXNassauBayParserTest extends BaseParserTest {
         "ADDR:207 HIDDEN PINES CT",
         "CITY:LEAGUE CITY",
         "CODE:LCFW",
+        "DATE:09/10/2011",
+        "TIME:13:26:13",
         "INFO:(D2) CONTACT ELECTRIC CO. POLE # F1233565A,");
 
     doTest("T4",
@@ -182,6 +216,8 @@ public class TXNassauBayParserTest extends BaseParserTest {
         "ADDR:3045 W MARINA BAY DR",
         "CITY:LEAGUE CITY",
         "CODE:LCFE",
+        "DATE:09/08/2011",
+        "TIME:08:52:28",
         "INFO:NO CONTACT MADE / BUILDING 2 ZONE 13");
 
     doTest("T5",
@@ -191,6 +227,8 @@ public class TXNassauBayParserTest extends BaseParserTest {
         "ADDR:2220 COVESIDE ST",
         "CITY:LEAGUE CITY",
         "CODE:LCFE",
+        "DATE:09/08/2011",
+        "TIME:15:19:21",
         "INFO:grass fire, front yard,possible from transformer");
 
     doTest("T6",
@@ -201,6 +239,8 @@ public class TXNassauBayParserTest extends BaseParserTest {
         "MADDR:1455 LOUISIANA AVE",
         "CITY:LEAGUE CITY",
         "CODE:LCFE",
+        "DATE:09/07/2011",
+        "TIME:10:52:53",
         "INFO:smoke dector alarm resd 281-557-2707 jones, jazzeline");
 
     doTest("T7",
@@ -210,6 +250,8 @@ public class TXNassauBayParserTest extends BaseParserTest {
         "ADDR:1450 LOUISIANA AVE",
         "CITY:LEAGUE CITY",
         "CODE:LCFE",
+        "DATE:09/07/2011",
+        "TIME:11:55:22",
         "INFO:at bldg 5");
 
     doTest("T8",
@@ -219,6 +261,8 @@ public class TXNassauBayParserTest extends BaseParserTest {
         "ADDR:211 W LEAGUE CITY PKWY",
         "CITY:LEAGUE CITY",
         "CODE:LCFW",
+        "DATE:09/07/2011",
+        "TIME:12:04:36",
         "INFO:automatic fire alarm, 24 hour fire circuit to positions 1 a");
 
     doTest("T9",
@@ -228,10 +272,12 @@ public class TXNassauBayParserTest extends BaseParserTest {
         "ADDR:2381 GUN RANGE RD",
         "CITY:LEAGUE CITY",
         "CODE:LCFE",
+        "DATE:09/07/2011",
+        "TIME:14:33:12",
         "INFO:grass, no buildings");
   }
   
   public static void main(String[] args) {
-    new TXNassauBayParserTest().generateTests("T5");
+    new TXNassauBayParserTest().generateTests("T1");
   }
 }

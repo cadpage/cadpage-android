@@ -111,7 +111,9 @@ public class NCCabarrusCountyAParserTest extends BaseParserTest {
         "ADDR:2500 S MAIN ST",
         "MAP:K401",
         "X:HAMPTON LN & SPRINGWAY DR",
-        "INFO:JORDAN HOT SPOT / {FROM CSO: CALLER HUNG UP ON ME / } / ** Transfer from CSO ** CSO received: 11/27/2011 14:30:17 Source: PHONE Nature: TRAFFIC ACCIDENT PI");
+        "INFO:JORDAN HOT SPOT / {FROM CSO: CALLER HUNG UP ON ME / } / ** Transfer from CSO ** CSO received: 11/27/2011 14:30:17 Source: PHONE Nature: TRAFFIC ACCIDENT PI",
+        "DATE:11/27/11",
+        "TIME:14:30:54");
 
     doTest("T2",
         "2845:CAD:A2,E11;1;RESPIRATORY DISTRESS;1307 POPLAR GLEN DR;K102;CANEVIEW CT;73 YO [11/27/11 12:25:16 HSTEPHENS]",
@@ -121,7 +123,9 @@ public class NCCabarrusCountyAParserTest extends BaseParserTest {
         "ADDR:1307 POPLAR GLEN DR",
         "MAP:K102",
         "X:CANEVIEW CT",
-        "INFO:73 YO");
+        "INFO:73 YO",
+        "DATE:11/27/11",
+        "TIME:12:25:16");
 
     doTest("T3",
         "2846:CAD:A2,E31,E41,OPS1;1;MVC INJURY- NO PIN IN/ENTRAP;2400 WONDER DR NE/ROXIE ST;K303;** Transfer from CSO ** CSO received: 11/27/2011 14:04:46 Source: PHONE Nature: TRAFFIC ACCIDENT PI Business: MCDONALDS Phone:7047865822 Call #: 752 Event Id: 11094816 Console: CBA4 Call Take",
@@ -143,7 +147,9 @@ public class NCCabarrusCountyAParserTest extends BaseParserTest {
         "ADDR:2500 S MAIN ST",
         "MAP:K401",
         "X:HAMPTON LN & SPRINGWAY DR",
-        "INFO:JORDAN HOT SPOT / {FROM CSO: CALLER HUNG UP ON ME / } / ** Transfer from CSO ** CSO received: 11/27/2011 14:30:17 Source: PHONE Nature: TRAFFIC ACCIDENT PI");
+        "INFO:JORDAN HOT SPOT / {FROM CSO: CALLER HUNG UP ON ME / } / ** Transfer from CSO ** CSO received: 11/27/2011 14:30:17 Source: PHONE Nature: TRAFFIC ACCIDENT PI",
+        "DATE:11/27/11",
+        "TIME:14:30:54");
 
     doTest("T5",
         "2848:CAD:A2,E21;1;RESPIRATORY DISTRESS;110 WESTOVER AV;K201;RENA ST;BEUNA ST;** Transfer from CSO ** CSO received: 11/27/2011 16:50:57 Source: E911 Nature: BREATHING PROBLEMS Call #: 792 Event Id: 11094854 Console: CBA7 Call Taker: SADEMPSEY Notes: [11/27/11 16:48:28",
@@ -154,7 +160,9 @@ public class NCCabarrusCountyAParserTest extends BaseParserTest {
         "MADDR:110 WESTOVER AVE",
         "MAP:K201",
         "X:RENA ST & BEUNA ST",
-        "INFO:** Transfer from CSO ** CSO received: 11/27/2011 16:50:57 Source: E911 Nature: BREATHING PROBLEMS Call #: 792 Event Id: 11094854 Console: CBA7 Call Taker: SADEMPSEY Notes:");
+        "INFO:** Transfer from CSO ** CSO received: 11/27/2011 16:50:57 Source: E911 Nature: BREATHING PROBLEMS Call #: 792 Event Id: 11094854 Console: CBA7 Call Taker: SADEMPSEY Notes:",
+        "DATE:11/27/11",
+        "TIME:16:48:28");
 
     doTest("T6",
         "4311:CAD:B1,E31;1;SEIZURES;902 VIRGINIA ST;K303;PENNSYLVANIA AV;FLORIDA AV;TERRI CLARK;** Transfer from CSO ** CSO received: 11/25/2011 20:27:26: E911 Nature: CONVULSIONS \\ SEIZURES Call #: 357 Event Id: 11094423 Console: CBA2 Call Taker: SVWHITLEY Notes: [11/25/11 20:2",
@@ -176,7 +184,9 @@ public class NCCabarrusCountyAParserTest extends BaseParserTest {
         "MADDR:1445 OAKWOOD AVE",
         "MAP:K203",
         "X:ROBINHOOD LANE EXT & WOODMOORE LN",
-        "INFO:KANNAPOLIS MIDDLE SCHOOL / pull station room 103");
+        "INFO:KANNAPOLIS MIDDLE SCHOOL / pull station room 103",
+        "DATE:11/30/11",
+        "TIME:09:05:34");
 
   }
   

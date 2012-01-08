@@ -28,7 +28,9 @@ public class NCJohnstonCountyParserTest extends BaseParserTest {
         "CALL:CARBON MONOXIDE ALARM",
         "ADDR:70 MYSTICAL CT",
         "X:(S)JORDAN RIDGE (N) & GALAXY DR",
-        "NAME:DENA HOLLOMAN");
+        "NAME:DENA HOLLOMAN",
+        "DATE:12/28/2010",
+        "TIME:22:20:35");
 
     doTest("T3",
         "CAD:CLDFR;CLD;17B01G;INJURED PERSON;104 LAKEVIEW CT;(S)SOUTH RIDGE (N);SOUTH RIDGE DR;DOBERT, HENRY;12/28/2010 11:00:58;CLDR1",
@@ -38,7 +40,9 @@ public class NCJohnstonCountyParserTest extends BaseParserTest {
         "CALL:INJURED PERSON",
         "ADDR:104 LAKEVIEW CT",
         "X:(S)SOUTH RIDGE (N) & SOUTH RIDGE DR",
-        "NAME:DOBERT, HENRY");
+        "NAME:DOBERT, HENRY",
+        "DATE:12/28/2010",
+        "TIME:11:00:58");
 
     doTest("T4",
         "CAD:OPS;CLD;10C02;CHEST PAINS;643 BIG PINE RD;PEACE LN;GOVERNMENT RD;ESTERLENE MILLER;02/09/2011 15:21:31;CLDR2",
@@ -48,7 +52,9 @@ public class NCJohnstonCountyParserTest extends BaseParserTest {
         "CALL:CHEST PAINS",
         "ADDR:643 BIG PINE RD",
         "X:PEACE LN & GOVERNMENT RD",
-        "NAME:ESTERLENE MILLER");
+        "NAME:ESTERLENE MILLER",
+        "DATE:02/09/2011",
+        "TIME:15:21:31");
 
     doTest("T5",
         "CAD:OPS;CLD;06D02;DIFFICULTY BREATHING;101 CHERRY CT;ALLEN RD;DAVIS, JOHN;02/09/2011 15:08:36;CLDR1",
@@ -58,7 +64,9 @@ public class NCJohnstonCountyParserTest extends BaseParserTest {
         "CALL:DIFFICULTY BREATHING",
         "ADDR:101 CHERRY CT",
         "X:ALLEN RD",
-        "NAME:DAVIS, JOHN");
+        "NAME:DAVIS, JOHN",
+        "DATE:02/09/2011",
+        "TIME:15:08:36");
 
     doTest("T6",
         "CAD:OPS4;CLD;52B01S;FIRE ALARM;330 STEEL BRIDGE RD;CONTENDER DR;CLEVELAND RD;BROADVIEW;02/09/2011 12:18:09;CLD1",
@@ -68,7 +76,9 @@ public class NCJohnstonCountyParserTest extends BaseParserTest {
         "CALL:FIRE ALARM",
         "ADDR:330 STEEL BRIDGE RD",
         "X:CONTENDER DR & CLEVELAND RD",
-        "NAME:BROADVIEW");
+        "NAME:BROADVIEW",
+        "DATE:02/09/2011",
+        "TIME:12:18:09");
 
     doTest("T7",
         "CAD:OPS4;CLD;MVA PERSONAL INJURY;WATKINS RD/CLEVELAND RD;SPRINT PCS;02/08/2011 07:18:56;CLD1",
@@ -76,7 +86,9 @@ public class NCJohnstonCountyParserTest extends BaseParserTest {
         "SRC:CLD",
         "CALL:MVA PERSONAL INJURY",
         "ADDR:WATKINS RD & CLEVELAND RD",
-        "X:SPRINT PCS");
+        "X:SPRINT PCS",
+        "DATE:02/08/2011",
+        "TIME:07:18:56");
 
     doTest("T8",
         "CAD:OPS4;CLD;GAS LEAK NATURAL GAS/PROPANE;105 JOSEPHINE RD;CLEVELAND RD;MOONLIGHT DR;POLENTA ELEMENTARY SCHOOL;SUSAN;02/08/2011",
@@ -85,7 +97,8 @@ public class NCJohnstonCountyParserTest extends BaseParserTest {
         "CALL:GAS LEAK NATURAL GAS/PROPANE",
         "ADDR:105 JOSEPHINE RD",
         "X:CLEVELAND RD & MOONLIGHT DR",
-        "NAME:POLENTA ELEMENTARY SCHOOL");
+        "NAME:POLENTA ELEMENTARY SCHOOL",
+        "DATE:02/08/2011");
 
     doTest("T9",
         "CAD:No Add`l Personnel / Unit;105 JOSEPHINE RD; GARN",
@@ -99,7 +112,9 @@ public class NCJohnstonCountyParserTest extends BaseParserTest {
         "SRC:CLD",
         "CALL:VEHICLE FIRE",
         "ADDR:314 I-40 HWY",
-        "X:314.5 & SPRINT PCS");
+        "X:314.5 & SPRINT PCS",
+        "DATE:02/07/2011",
+        "TIME:15:54:03");
 
     doTest("T11",
         "CAD:Standby At The Station;314 I-40 HWY; BENS;314.5",
@@ -113,7 +128,7 @@ public class NCJohnstonCountyParserTest extends BaseParserTest {
         "ADDR:314 I-40 HWY",
         "X:BENS & 314.5");
 
-    doTest("T20",
+    doTest("T13",
         "CAD:OPS;FOD;17A01G;INJURED PERSON;439 LONG BRANCH RD;BLACK CREEK RD;BANKS ST;DUPREE, KENNETH L & CATHERINE;02/14/2011 07:25:26;FODR1",
         "INFO:OPS",
         "SRC:FOD",
@@ -123,7 +138,7 @@ public class NCJohnstonCountyParserTest extends BaseParserTest {
         "X:BLACK CREEK RD & BANKS ST",
         "NAME:DUPREE, KENNETH L & CATHERINE");
 
-    doTest("T21",
+    doTest("T14",
         "CAD:OPS;STA6;17A01;INJURED PERSON;439 LONG BRANCH RD;BLACK CREEK RD;BANKS ST;DUPREE, KENNETH L & CATHERINE;02/14/2011 07:08:53;EMS62",
         "INFO:OPS",
         "SRC:STA6",
@@ -133,7 +148,7 @@ public class NCJohnstonCountyParserTest extends BaseParserTest {
         "X:BLACK CREEK RD & BANKS ST",
         "NAME:DUPREE, KENNETH L & CATHERINE");
 
-    doTest("T22",
+    doTest("T15",
         "CAD:OPS;STA6;CVA/STROKE;3800-B US 701 HWY S;STEWART RD;PEACH ORCHARD RD;BENSON AREA MEDICAL CENTER INC;02/14/2011 15:49:44;FOR6X,EMS52",
         "INFO:OPS",
         "SRC:STA6",
@@ -143,7 +158,7 @@ public class NCJohnstonCountyParserTest extends BaseParserTest {
         "X:STEWART RD & PEACH ORCHARD RD",
         "NAME:BENSON AREA MEDICAL CENTER INC");
 
-    doTest("T23",
+    doTest("T16",
         "CAD:OPS;STA6;26C01;SUDDEN ILLNESS;565 BOYETTE RD;(S)FOUR OAKS ASSISTED LIVING (N);KEEN RD;US 301 HWY S;OAKVIEW COMMONS;OAKVIEW",
         "INFO:OPS",
         "SRC:STA6",
@@ -153,7 +168,7 @@ public class NCJohnstonCountyParserTest extends BaseParserTest {
         "X:(S)FOUR OAKS ASSISTED LIVING (N) & KEEN RD",
         "NAME:US 301 HWY S");
 
-    doTest("T24",
+    doTest("T17",
         "CAD:OPS;STA6;DIFFICULTY BREATHING;200 E WELLONS ST;S BAKER ST;BROWN ST;KINGS RESTAURANT;03/29/2011 02:33:20;EMS62",
         "INFO:OPS",
         "SRC:STA6",
@@ -162,16 +177,18 @@ public class NCJohnstonCountyParserTest extends BaseParserTest {
         "X:S BAKER ST & BROWN ST",
         "NAME:KINGS RESTAURANT");
 
-    doTest("T25",
+    doTest("T18",
         "CAD:CLD;06D02;DIFF BREATHING 06-D-02;77 CARRIAGE CREEK DR;(S)CARRIAGE CREEK (N);STEEP HILL CT;BRADLEY, EDWARD;08/07/2011 20:15:39;CLDR1",
         "INFO:CLD",
         "SRC:06D02",
         "CALL:DIFF BREATHING 06-D-02",
         "ADDR:77 CARRIAGE CREEK DR",
         "X:(S)CARRIAGE CREEK (N) & STEEP HILL CT",
-        "NAME:BRADLEY, EDWARD");
+        "NAME:BRADLEY, EDWARD",
+        "DATE:08/07/2011",
+        "TIME:20:15:39");
 
-    doTest("T26",
+    doTest("T19",
         "CAD:No Add`l Personnel / Unit;1203 LIVE OAK CHURCH RD; SELM;6(S)PECAN GROVE MHP (N)",
         "CALL:No Add`l Personnel / Unit",
         "ADDR:1203 LIVE OAK CHURCH RD",
@@ -179,6 +196,6 @@ public class NCJohnstonCountyParserTest extends BaseParserTest {
   }
   
   public static void main(String[] args) {
-    new NCJohnstonCountyParserTest().generateTests("T26");
+    new NCJohnstonCountyParserTest().generateTests("T1");
   }
 }

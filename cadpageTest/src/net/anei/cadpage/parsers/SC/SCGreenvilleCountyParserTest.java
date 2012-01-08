@@ -37,7 +37,9 @@ public class SCGreenvilleCountyParserTest extends BaseParserTest {
         "CITY:GREENVILLE",
         "X:OLD MCELHANEY RD",
         "MAP:24F",
-        "INFO:Kristy- AOA: sprinkler trip / NG1");
+        "INFO:Kristy- AOA: sprinkler trip / NG1",
+        "DATE:04/26/11",
+        "TIME:12:28:12");
 
     doTest("T4",
         "CAD:ACKNOWLEDGE CALL;8 ANDERS RD; GRVL;(S) (N)24F",
@@ -54,7 +56,9 @@ public class SCGreenvilleCountyParserTest extends BaseParserTest {
         "X:ELIZABETH LN & ELIZABETH LN",
         "MAP:17O",
         "NAME:CHARLA SMITH,",
-        "INFO:SMOKE ALARM GOING OFF");
+        "INFO:SMOKE ALARM GOING OFF",
+        "DATE:04/26/11",
+        "TIME:13:34:03");
 
     doTest("T6",
         "CAD:ACKNOWLEDGE CALL;32 HUNT ST; TRAV;(S) (N)17O",
@@ -102,7 +106,9 @@ public class SCGreenvilleCountyParserTest extends BaseParserTest {
         "CALL:STROKE OR TIA",
         "ADDR:271 GREY RD",
         "CITY:PELZER",
-        "X:DIST: 280.66 ft (S) (N)80V & 243-3091");
+        "X:DIST: 280.66 ft (S) (N)80V & 243-3091",
+        "DATE:01/04/12",
+        "TIME:06:30:45");
 
     doTest("T12",
         "CAD:OUTSIDE FIRE;419 CEDAR FALLS RD;FOUN;SWEET WATER RD;DUNKLIN BRIDGE RD;DIST: 86.71 ft (S) (N)80R;DK1",

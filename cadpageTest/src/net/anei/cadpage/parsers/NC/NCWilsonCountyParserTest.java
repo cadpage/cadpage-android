@@ -38,7 +38,9 @@ public class NCWilsonCountyParserTest extends BaseParserTest {
         "ADDR:4659 EVANSDALE RD",
         "SRC:5B",
         "X:OLD STANTONSBURG RD & CASTLEWOOD LN",
-        "INFO:403 enroute");
+        "INFO:403 enroute",
+        "DATE:05/19/11",
+        "TIME:13:53:19");
 
     doTest("T4",
         "CAD:STRUCTURE FIRE 1;4659 EVANSDALE RD;5B;OLD STANTONSBURG RD;CASTLEWOOD LN;291-5847 [05/19/11 13:51:05 SBATTS]",
@@ -46,7 +48,9 @@ public class NCWilsonCountyParserTest extends BaseParserTest {
         "ADDR:4659 EVANSDALE RD",
         "SRC:5B",
         "X:OLD STANTONSBURG RD & CASTLEWOOD LN",
-        "INFO:291-5847");
+        "INFO:291-5847",
+        "DATE:05/19/11",
+        "TIME:13:51:05");
 
     doTest("T5",
         "CAD:11000827;69D10;STRUCTURE FIRE 1;4659 EVANSDALE RD;5B;OLD STANTONSBURG RD;CASTLEWOOD LN;403 enroute [05/19/11 13:53:19 DPITTMAN] [Fire Priority Info] Key Que",
@@ -56,7 +60,9 @@ public class NCWilsonCountyParserTest extends BaseParserTest {
         "ADDR:4659 EVANSDALE RD",
         "SRC:5B",
         "X:OLD STANTONSBURG RD & CASTLEWOOD LN",
-        "INFO:403 enroute");
+        "INFO:403 enroute",
+        "DATE:05/19/11",
+        "TIME:13:53:19");
 
     doTest("T6",
         "CAD:11000831;06D02;BREATHING PROBLEMS;5036 US 264A E;2C;RANCH FARM CT;HOLDENS CROSS RD;[Medical Priority Info] Key Questions Complete RESPONSE: MEDIC & FR RESPO",

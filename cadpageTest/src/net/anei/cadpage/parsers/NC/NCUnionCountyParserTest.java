@@ -21,7 +21,9 @@ public class NCUnionCountyParserTest extends BaseParserTest {
         "CALL:OUTSIDE FIRE",
         "SRC:S09",
         "INFO:WITMORE RD",
-        "X:NASH RD");
+        "X:NASH RD",
+        "DATE:02/15/2011",
+        "TIME:13:21:38");
 
     doTest("T2",
         "CAD:3812 E HWY 74;WINGATE;SICK PERSON EMD;S09;FX-CF2;BIVENS ST;N STEWART ST;02/18/2011 16:03:05;FOOD LION WINGATE",
@@ -31,6 +33,8 @@ public class NCUnionCountyParserTest extends BaseParserTest {
         "SRC:S09",
         "INFO:FX-CF2",
         "X:BIVENS ST & N STEWART ST",
+        "DATE:02/18/2011",
+        "TIME:16:03:05",
         "PLACE:FOOD LION WINGATE");
 
     doTest("T3",
@@ -40,7 +44,9 @@ public class NCUnionCountyParserTest extends BaseParserTest {
         "CALL:BREATHING PROBLEMS EMD",
         "SRC:S19",
         "INFO:BR-2",
-        "X:OLD CHARLOTTE HWY & OLD CHARLOTTE HWY");
+        "X:OLD CHARLOTTE HWY & OLD CHARLOTTE HWY",
+        "DATE:09/26/2011",
+        "TIME:19:37:34");
 
     doTest("T4",
         "CAD:604 SUNSET ST;MARSHVILLE;STRUCTURE FIRE EFD;CFD;S08",

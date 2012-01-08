@@ -157,6 +157,15 @@ public class PAYorkCountyAParserTest extends BaseParserTest {
         "MADDR:I83 NB EXIT EMIGSVILLE,I 83",
         "CALL:I 83X24EMIGSVILLE NB DEBRIS REMOVAL non injury accident south of exit",
         "MAP:24-83");
+
+    doTest("T4",
+        "Subject:Fire Incident\nMANCH TWP    130 HARVEST DR WOODMONT DR / LEAF ST STROKE/CVA CL 1 42 m/cons/yh 24-16 EMSSTA24 FIRESTA24 E24-1 A261 EMSSTA102-2 M102-2  21:05",
+        "CITY:MANCHESTER TWP",
+        "ADDR:130 HARVEST DR",
+        "X:WOODMONT DR / LEAF ST",
+        "CALL:STROKE / CVA CL 1 42 m / cons / yh",
+        "MAP:24-16",
+        "UNIT:EMSSTA24 FIRESTA24 E24-1 A261 EMSSTA102-2 M102-2");
   }
   
   @Test

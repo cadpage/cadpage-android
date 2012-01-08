@@ -51,7 +51,9 @@ public class NCStanlyCountyParserTest extends BaseParserTest {
         "ADDR:9029 COTTONVILLE RD",
         "CITY:NORWOOD",
         "X:HINSON RD & S STANLY SCHOOL RD",
-        "INFO:3 KEYPAD FIRE ALARM, 2 BURGLAR, AND HOLD UP ALARM");
+        "INFO:3 KEYPAD FIRE ALARM, 2 BURGLAR, AND HOLD UP ALARM",
+        "DATE:03/03/11",
+        "TIME:19:12:48");
 
     doTest("T6",
         "CAD:E10-CHEST PAINS/231 PRICE ST/NOR/CARVER ST/WIL-KRIS DR/[Medical Priority Info] PROBLEM: CHEST PAIINS.VOMITTING # PATS: 1 AGE: 66 Years SEX: Ma",
@@ -66,7 +68,9 @@ public class NCStanlyCountyParserTest extends BaseParserTest {
         "CALL:80-STRUCTURE ALARM",
         "ADDR:OLD CHARLOTTE RD & HARWOOD ST",
         "CITY:ALBEMARLE",
-        "INFO:SMOKE COMING FROM BARN ON OLD CHARLOTTE / B / T HARWOOD AND COBLE");
+        "INFO:SMOKE COMING FROM BARN ON OLD CHARLOTTE / B / T HARWOOD AND COBLE",
+        "DATE:04/03/11",
+        "TIME:17:44:15");
 
     doTest("T8",
         "CAD:80-STRUCTURE ALARM/1700 WOODHURST LN/ALB/BIRD RD/ANDERSON RD/manual activation [04/03/11 17:54:08 DSHAVER]",
@@ -74,7 +78,9 @@ public class NCStanlyCountyParserTest extends BaseParserTest {
         "ADDR:1700 WOODHURST LN",
         "CITY:ALBEMARLE",
         "X:BIRD RD & ANDERSON RD",
-        "INFO:manual activation");
+        "INFO:manual activation",
+        "DATE:04/03/11",
+        "TIME:17:54:08");
 
     doTest("T9",
         "CAD:80-DWELLING ALARM/601 EAST ST/ALB/N SEVENTH ST/N EIGHTH ST",
@@ -114,7 +120,9 @@ public class NCStanlyCountyParserTest extends BaseParserTest {
         "ADDR:NC 200 HWY",
         "MADDR:NC 200",
         "CITY:STANFIELD",
-        "INFO:WHEAT FIELD CUT BUT ON FIRE / APPX 1 ACRE / ONTO ROCK HOLE ON LEFT");
+        "INFO:WHEAT FIELD CUT BUT ON FIRE / APPX 1 ACRE / ONTO ROCK HOLE ON LEFT",
+        "DATE:07/02/11",
+        "TIME:18:42:57");
 
     doTest("T14",
         "CAD:E29-10-50 PI/249 DEESE ST/RFD/GOLD BRANCH RD/N CEMETERY ST/[Medical Priority Info] PROBLEM: car flipped # PATS: 1 AGE: 16 Years SEX: Female CONSCIOUS: Yes BREATHIN",
@@ -127,6 +135,6 @@ public class NCStanlyCountyParserTest extends BaseParserTest {
   
 
   public static void main(String[] args) {
-    new NCStanlyCountyParserTest().generateTests("T15");
+    new NCStanlyCountyParserTest().generateTests("T1");
   }
 }

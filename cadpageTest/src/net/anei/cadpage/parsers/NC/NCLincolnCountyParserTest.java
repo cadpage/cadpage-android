@@ -54,7 +54,9 @@ public class NCLincolnCountyParserTest extends BaseParserTest {
         "ADDR:N LITTLE EGYPT RD & NC 73 HWY",
         "MADDR:N LITTLE EGYPT RD & NC 73",
         "PLACE:near the ball field",
-        "X:blk smoke near track unkn source");
+        "X:blk smoke near track unkn source",
+        "DATE:03/22/11",
+        "TIME:10:13:09");
 
     doTest("T5",
         "4571:CAD:KFD-201101410-67D02-OUTSIDE FIRE-1111 SAILVIEW DR-CREPE RIDGE DR-CHAPEL CREEK DR-[Fire Priority Info] RESPONSE: Delta RESPONDER SCRIPT: Outside Fire. Brush/grass fire.Caller Statement: burning brush . 2.The caller is safe and out of danger. 3.Everyone else is safe and out of",
@@ -74,7 +76,9 @@ public class NCLincolnCountyParserTest extends BaseParserTest {
         "ADDR:5555 KING WILKINSON RD",
         "PLACE:CALVARY BAPTIST CHURCH",
         "X:MOUNTAINBROOK LN & DELLING DOWNS DR",
-        "INFO:Event spawned from LOG CALL FOR RECORDS. / TREE ACROSS THE ROAD");
+        "INFO:Event spawned from LOG CALL FOR RECORDS. / TREE ACROSS THE ROAD",
+        "DATE:03/10/2011",
+        "TIME:20:03:33");
 
     doTest("T7",
         "1873:CAD:JLFD-201101315-52C03U-ALARMS FOR FIRE-888 OPTIMIST CLUB RD-WOODMONT CARE CENTER-FORNEY CREEK PKWY-WOODS LN-[Fire Priority Info] RESPONSE: Charlie RESPONDER SCRIPT: Alarms. COMMERCIAL structure (Unknown).Caller Statement: FIRE ALARM . 1.The caller is an alarm",
@@ -95,7 +99,9 @@ public class NCLincolnCountyParserTest extends BaseParserTest {
         "CALL:OUTSIDE FIRE",
         "ADDR:1394 MICK LN",
         "X:ORCHARD RD",
-        "INFO:6.A single / level structure is involved. 7.No one is reported to be injured.");
+        "INFO:6.A single / level structure is involved. 7.No one is reported to be injured.",
+        "DATE:05/03/11",
+        "TIME:20:54:48");
 
     doTest("T9",
         "2646:CAD:ELF-31D03-31-D-3 UNCONSCIOUS/FAINTING-6471 NC 73 HWY-EAST LINCOLN HIGH SI-320-S INGLESIDE FARM RD-N LITTLE EGYPT RD-[Medical Priority Info] RESPONSE: Delta RESPONDER SCRIPT: You are responding to a patient who is unconscious (or has fainted). The patient is a 17-year-old female, who is conscious and breathing. No",
@@ -128,7 +134,9 @@ public class NCLincolnCountyParserTest extends BaseParserTest {
         "ADDR:5514 NC 73 HWY",
         "MADDR:5514 NC 73",
         "X:SCHRONCE RD & INVERLOCHY RD",
-        "INFO:JUST BEFORE EAST LINCOLN HIGH SCHOOL / CALLER IS EXTREMELY UPSET / RIGHT HAND SIDE OF RD COMING FROM LINCOLNTON");
+        "INFO:JUST BEFORE EAST LINCOLN HIGH SCHOOL / CALLER IS EXTREMELY UPSET / RIGHT HAND SIDE OF RD COMING FROM LINCOLNTON",
+        "DATE:04/19/11",
+        "TIME:05:22:28");
 
     doTest("T12",
         "915:CAD:ADMN-201103837-29D02m-29-D-2 TRAFFIC ACCIDENT-3068 CAT SQUARE RD-HENRY RD-PALM TREE DR-669 IS OUT WITH MALE AND ROUTINE RESPONSE RAN OVER BY FARM EQU",
@@ -168,6 +176,6 @@ public class NCLincolnCountyParserTest extends BaseParserTest {
   
 
   public static void main(String[] args) {
-    new NCLincolnCountyParserTest().generateTests("T14");
+    new NCLincolnCountyParserTest().generateTests("T1");
   }
 }

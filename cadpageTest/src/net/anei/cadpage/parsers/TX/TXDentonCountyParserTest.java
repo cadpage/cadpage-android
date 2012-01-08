@@ -33,7 +33,9 @@ public class TXDentonCountyParserTest extends BaseParserTest {
         "CALL:CITIZEN ASSIST",
         "ADDR:212 S SHADY SHORES RD",
         "CITY:LAKE DALLAS",
-        "INFO:NEAR MAIN OFFICE / AT THE HUNDLEY SHORES APARTMENTS / CALLER HAS TRIED EVERYTHING SHE");
+        "INFO:NEAR MAIN OFFICE / AT THE HUNDLEY SHORES APARTMENTS / CALLER HAS TRIED EVERYTHING SHE",
+        "DATE:08/08/11",
+        "TIME:09:54:29");
 
     doTest("T4",
         "CAD:SICK PERSON;5650 I35E;CORI;ORR NISSAN;MAIN BLDG AT NEW CAR SHOW ROOM / PT IN BATHROOM [08/08/11 08:09:48 THIGGINS] [Medical Priority Info] RESPONSE: Alpha",
@@ -41,7 +43,9 @@ public class TXDentonCountyParserTest extends BaseParserTest {
         "ADDR:5650 I35E",
         "MADDR:5650 I35",
         "CITY:CORINTH",
-        "INFO:ORR NISSAN / MAIN BLDG AT NEW CAR SHOW ROOM / PT IN BATHROOM");
+        "INFO:ORR NISSAN / MAIN BLDG AT NEW CAR SHOW ROOM / PT IN BATHROOM",
+        "DATE:08/08/11",
+        "TIME:08:09:48");
 
     doTest("T5",
         "CAD:TRAFFIC TRANSPORT INCIDENT;461MM I35 E;CORI;N/B;[Medical Priority Info] RESPONSE: Bravo RESPONDER SCRIPT: Unknown status/Other codes not applicable (Unknow",
@@ -57,7 +61,9 @@ public class TXDentonCountyParserTest extends BaseParserTest {
         "ADDR:CORINTH PKWY & I35 E FRONTAGE",
         "MADDR:CORINTH PKWY & I 35 E FRONTAGE",
         "CITY:CORINTH",
-        "INFO:{351} HEAD ON / FEMALE BLEEDING FROM FACE IN MITS GALANT");
+        "INFO:{351} HEAD ON / FEMALE BLEEDING FROM FACE IN MITS GALANT",
+        "DATE:08/04/11",
+        "TIME:09:29:27");
 
     doTest("T7",
         "CAD:TRAFFIC TRANSPORT INCIDENT;CORINTH PKWY/I35 E SERV;CORI;FEMALE WAS HIT HEAD ON BUT THAT WAS ALL SHE SAID BEFORE DISCONNECTING OTHER THAN THAT FACT THAT SHE",
@@ -73,14 +79,18 @@ public class TXDentonCountyParserTest extends BaseParserTest {
         "ADDR:TURBEVILLE RD & I35 E FRONTAGE",
         "MADDR:TURBEVILLE RD & I 35 E FRONTAGE",
         "CITY:HICKORY CREEK",
-        "INFO:POSS IN HICKORY CREEK PARK / {207} REQUESTING LCFD");
+        "INFO:POSS IN HICKORY CREEK PARK / {207} REQUESTING LCFD",
+        "DATE:08/04/11",
+        "TIME:13:05:39");
 
     doTest("T9",
         "CAD:ALARM FLOW;1035 HICKORY CREEK BLVD;HICK;212 NOTIFIED [08/05/11 03:40:25 BPUTNAM] rec: 0337 / will call prem next / att kh [08/05/11 03:40:01 BPUTNAM] poe:",
         "CALL:ALARM FLOW",
         "ADDR:1035 HICKORY CREEK BLVD",
         "CITY:HICKORY CREEK",
-        "INFO:212 NOTIFIED / rec: 0337 / will call prem next / att kh / poe:");
+        "INFO:212 NOTIFIED / rec: 0337 / will call prem next / att kh / poe:",
+        "DATE:08/05/11",
+        "TIME:03:40:25");
 
     doTest("T10",
         "CAD:SICK PERSON;1509 SHADOW CREST DR;CORI;[Medical Priority Info] PROBLEM: VOMITTING # PATS: 1 AGE: 72 Years SEX: Female CONSCIOUS: Yes BREATHING: Yes [08/05/1",
@@ -102,7 +112,9 @@ public class TXDentonCountyParserTest extends BaseParserTest {
         "ADDR:460MM I35 E",
         "MADDR:460MM I 35 E",
         "CITY:CORINTH",
-        "INFO:SB / {211} GO AHEAD AND TONE MEDICS / got transfer from pd denton for an accident");
+        "INFO:SB / {211} GO AHEAD AND TONE MEDICS / got transfer from pd denton for an accident",
+        "DATE:08/05/11",
+        "TIME:18:24:06");
 
     doTest("T13",
         "CAD:WATER MAIN BREAK;I35 E SERV/MEADOWVIEW DR;CORI;S/B;WATER MAIN BREAK / NOT A LOT OF WATER / SMALL LINE / LEAKING ONTO THE EDGE OF THE ROADWAY OF MEADOWVIEW",
@@ -118,7 +130,9 @@ public class TXDentonCountyParserTest extends BaseParserTest {
         "ADDR:201-L32 N SHADY SHORES RD",
         "MADDR:201 N SHADY SHORES RD",
         "CITY:LAKE DALLAS",
-        "INFO:CALLER IS GUY JEFFERSON / WIFE SLIPPED IN BATHTUB AND NEEDS ASSISTANCE TO GET HER OUT//SHE");
+        "INFO:CALLER IS GUY JEFFERSON / WIFE SLIPPED IN BATHTUB AND NEEDS ASSISTANCE TO GET HER OUT//SHE",
+        "DATE:08/06/11",
+        "TIME:03:03:19");
 
     doTest("T15",
         "CAD:SICK PERSON;505 GRAYSON LN;LAKE;[Medical Priority Info] RESPONSE: Delta RESPONDER SCRIPT: Not alert. 1.She is not completely alert (not responding appropri",
@@ -132,28 +146,36 @@ public class TXDentonCountyParserTest extends BaseParserTest {
         "CALL:TRAFFIC TRANSPORT INCIDENT",
         "ADDR:FM 2181 & POST OAK DR",
         "CITY:CORINTH",
-        "INFO:SB / {346} TONE OUT MEDICS FOR EVALUATION OF 13YO PT / RD BLOCKAGE / JEEP IS");
+        "INFO:SB / {346} TONE OUT MEDICS FOR EVALUATION OF 13YO PT / RD BLOCKAGE / JEEP IS",
+        "DATE:08/06/11",
+        "TIME:13:31:42");
 
     doTest("T17",
         "CAD:SICK PERSON;1200 MAIN ST;HICK;Event spawned from BOATER ASSIST. [08/06/2011 17:47:05 TCHAPMAN] LOST CONNECTION / CALLER ADV BATTERY WAS LOW [08/06/11 17:46",
         "CALL:SICK PERSON",
         "ADDR:1200 MAIN ST",
         "CITY:HICKORY CREEK",
-        "INFO:Event spawned from BOATER ASSIST. / LOST CONNECTION / CALLER ADV BATTERY WAS LOW");
+        "INFO:Event spawned from BOATER ASSIST. / LOST CONNECTION / CALLER ADV BATTERY WAS LOW",
+        "DATE:08/06/2011",
+        "TIME:17:47:05");
 
     doTest("T18",
         "CAD:WATER MAIN BREAK;FAIRVIEW DR/MEADOWVIEW DR;CORI;FIRST NOTICED 3-4 MINS AGO [08/06/11 18:03:38 TCHAPMAN] NO ONE AROUND THE HYDRANT [08/06/11 18:03:25 TCHAPM",
         "CALL:WATER MAIN BREAK",
         "ADDR:FAIRVIEW DR & MEADOWVIEW DR",
         "CITY:CORINTH",
-        "INFO:FIRST NOTICED 3-4 MINS AGO / NO ONE AROUND THE HYDRANT");
+        "INFO:FIRST NOTICED 3-4 MINS AGO / NO ONE AROUND THE HYDRANT",
+        "DATE:08/06/11",
+        "TIME:18:03:38");
 
     doTest("T19",
         "CAD:TRAFFIC TRANSPORT INCIDENT;MEADOWVIEW DR/FORESTWOOD DR;CORI;[LAW] UDTS: {314} RESPONDING CODE 2 OR 3 [08/06/11 18:07:04 CJMORRISON] [Medical Priority Info]",
         "CALL:TRAFFIC TRANSPORT INCIDENT",
         "ADDR:MEADOWVIEW DR & FORESTWOOD DR",
         "CITY:CORINTH",
-        "INFO:UDTS: {314} RESPONDING CODE 2 OR 3");
+        "INFO:UDTS: {314} RESPONDING CODE 2 OR 3",
+        "DATE:08/06/11",
+        "TIME:18:07:04");
 
   }
   
@@ -174,8 +196,9 @@ public class TXDentonCountyParserTest extends BaseParserTest {
         "NAME:ORR NISSAN",
         "ADDR:5650 I35 E",
         "MADDR:5650 I 35 E",
-        "INFO:brake on fire - sees flame");
- 
+        "INFO:brake on fire - sees flame",
+        "DATE:08/05/11",
+        "TIME:17:01:04");
   }
   
   public static void main(String[] args) {

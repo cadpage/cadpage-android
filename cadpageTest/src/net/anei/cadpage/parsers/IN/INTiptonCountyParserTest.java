@@ -60,7 +60,9 @@ public class INTiptonCountyParserTest extends BaseParserTest {
         "CALL:INJURED IN FALL",
         "ID:4002",
         "ADDR:304 E 625 N",
-        "INFO:hx of dementia / You are responding to");
+        "INFO:hx of dementia / You are responding to",
+        "DATE:10/06/10",
+        "TIME:18:51:56");
     
     doTest("T7",
         "CAD:G49;OUTSIDE FIRE-FIELD/WOODS;6001;6500 N 400 E",

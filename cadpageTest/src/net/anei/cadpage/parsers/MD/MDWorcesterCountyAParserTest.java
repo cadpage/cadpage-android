@@ -23,13 +23,15 @@ public class MDWorcesterCountyAParserTest extends BaseParserTest {
   @Test
   public void testParser() {
 
-   doTest("T1",
+    doTest("T1",
         "CAD:300;FALLS;5914 BOX IRON RD;GIRDLETREE;PINE ST;TAYLOR LANDING RD;11/23/2010 08:31:38",
         "SRC:300",
         "CALL:FALLS",
         "ADDR:5914 BOX IRON RD",
         "CITY:GIRDLETREE",
-        "X:PINE ST & TAYLOR LANDING RD");
+        "X:PINE ST & TAYLOR LANDING RD",
+        "DATE:11/23/2010",
+        "TIME:08:31:38");
 
     doTest("T2",
         "CAD:300;SICK PERSON;5822 DUKES RD;GIRDLETREE;RAILROAD AVE;SNOW HILL RD;11/16/2010 09:21:04",
@@ -37,7 +39,9 @@ public class MDWorcesterCountyAParserTest extends BaseParserTest {
         "CALL:SICK PERSON",
         "ADDR:5822 DUKES RD",
         "CITY:GIRDLETREE",
-        "X:RAILROAD AVE & SNOW HILL RD");
+        "X:RAILROAD AVE & SNOW HILL RD",
+        "DATE:11/16/2010",
+        "TIME:09:21:04");
 
     doTest("T3",
         "CAD:300;FALLS;5914 BOX IRON RD;GIRDLETREE;PINE ST;TAYLOR LANDING RD;11/23/2010 08:31:38",
@@ -45,7 +49,9 @@ public class MDWorcesterCountyAParserTest extends BaseParserTest {
         "CALL:FALLS",
         "ADDR:5914 BOX IRON RD",
         "CITY:GIRDLETREE",
-        "X:PINE ST & TAYLOR LANDING RD");
+        "X:PINE ST & TAYLOR LANDING RD",
+        "DATE:11/23/2010",
+        "TIME:08:31:38");
 
     doTest("T4",
         "CAD:100;TRAFFIC TRANSPORTATION ACC;3543 AYDELOTTE RD;DIST: 7.94 FT;POCOMOKE;BRANTLEY RD;SHEEPHOUSE RD;11/16/2010 00:31:42",
@@ -54,7 +60,9 @@ public class MDWorcesterCountyAParserTest extends BaseParserTest {
         "ADDR:3543 AYDELOTTE RD",
         "PLACE:DIST: 7.94 FT",
         "CITY:POCOMOKE",
-        "X:BRANTLEY RD & SHEEPHOUSE RD");
+        "X:BRANTLEY RD & SHEEPHOUSE RD",
+        "DATE:11/16/2010",
+        "TIME:00:31:42");
 
     doTest("T5",
         "CAD:100;PROPANE OR NATURAL GAS LEAK;1010 CLARKE AVE;POCOMOKE;ANN ST;MCMICHAEL AVE;11/12/2010 10:31:09",
@@ -62,7 +70,9 @@ public class MDWorcesterCountyAParserTest extends BaseParserTest {
         "CALL:PROPANE OR NATURAL GAS LEAK",
         "ADDR:1010 CLARKE AVE",
         "CITY:POCOMOKE",
-        "X:ANN ST & MCMICHAEL AVE");
+        "X:ANN ST & MCMICHAEL AVE",
+        "DATE:11/12/2010",
+        "TIME:10:31:09");
 
     doTest("T6",
         "CAD:100;FIRE ALARM;125 NEWTOWNE BLVD;HOLIDAY INN EXPRESS;POCOMOKE;OLD SNOW HILL RD;11/12/2010 08:15:38",
@@ -71,7 +81,9 @@ public class MDWorcesterCountyAParserTest extends BaseParserTest {
         "ADDR:125 NEWTOWNE BLVD",
         "PLACE:HOLIDAY INN EXPRESS",
         "CITY:POCOMOKE",
-        "X:OLD SNOW HILL RD");
+        "X:OLD SNOW HILL RD",
+        "DATE:11/12/2010",
+        "TIME:08:15:38");
 
     doTest("T7",
         "CAD:100;TRAFFIC TRANSPORTATION ACC;DIVIDING CREEK RD/WORTH RD;DIST: 25.70 FT;POCOMOKE;11/10/2010 15:20:42",
@@ -79,7 +91,9 @@ public class MDWorcesterCountyAParserTest extends BaseParserTest {
         "CALL:TRAFFIC TRANSPORTATION ACC",
         "ADDR:DIVIDING CREEK RD & WORTH RD",
         "PLACE:DIST: 25.70 FT",
-        "CITY:POCOMOKE");
+        "CITY:POCOMOKE",
+        "DATE:11/10/2010",
+        "TIME:15:20:42");
 
     doTest("T8",
         "CAD:MUTUAL AID ASSIST OUTSIDE AGY;4264 FIREHOUSE ST;NEWCHURCH STATION 1;NEW CHURCH;DEPOT ST;LANKFORD LN;11/08/2010 20:34:48",
@@ -87,7 +101,9 @@ public class MDWorcesterCountyAParserTest extends BaseParserTest {
         "ADDR:4264 FIREHOUSE ST",
         "PLACE:NEWCHURCH STATION 1",
         "CITY:NEW CHURCH",
-        "X:DEPOT ST & LANKFORD LN");
+        "X:DEPOT ST & LANKFORD LN",
+        "DATE:11/08/2010",
+        "TIME:20:34:48");
 
     doTest("T9",
         "CAD:100;TRAFFIC TRANSPORTATION ACC;OCEAN HWY/WORCESTER HWY;PRIOR TO 113;POCOMOKE;11/08/2010 01:15:41",
@@ -95,7 +111,9 @@ public class MDWorcesterCountyAParserTest extends BaseParserTest {
         "CALL:TRAFFIC TRANSPORTATION ACC",
         "ADDR:OCEAN HWY & WORCESTER HWY",
         "PLACE:PRIOR TO 113",
-        "CITY:POCOMOKE");
+        "CITY:POCOMOKE",
+        "DATE:11/08/2010",
+        "TIME:01:15:41");
 
     doTest("T10",
         "CAD:100;UNCONSCIOUS FAINTING;275 NEWTOWNE BLVD;BLDG LOWES;LOWES OF POCOMOKE;POCOMOKE;OLD SNOW HILL RD;11/07/2010 11:25:06",
@@ -104,7 +122,9 @@ public class MDWorcesterCountyAParserTest extends BaseParserTest {
         "ADDR:275 NEWTOWNE BLVD",
         "PLACE:BLDG LOWES",
         "CITY:LOWES OF POCOMOKE",
-        "X:POCOMOKE & OLD SNOW HILL RD");
+        "X:POCOMOKE & OLD SNOW HILL RD",
+        "DATE:11/07/2010",
+        "TIME:11:25:06");
 
     doTest("T11",
         "CAD:100;BREATHING PROBLEMS;906-16 LYNNHAVEN DR;POCOMOKE;8TH ST;HALEYS WAY;10/24/2010 06:58:01",
@@ -113,7 +133,9 @@ public class MDWorcesterCountyAParserTest extends BaseParserTest {
         "ADDR:906-16 LYNNHAVEN DR",
         "MADDR:906 LYNNHAVEN DR",
         "CITY:POCOMOKE",
-        "X:8TH ST & HALEYS WAY");
+        "X:8TH ST & HALEYS WAY",
+        "DATE:10/24/2010",
+        "TIME:06:58:01");
 
     doTest("T12",
         "CAD:S5;MUTUAL AID ASSIST OUTSIDE AGY;8987 COURTHOUSE HILL RD;POCOMOKE;DIVIDING CREEK RD;WALLACE TAYLOR RD;10/22/2010 22:01:04",
@@ -121,7 +143,9 @@ public class MDWorcesterCountyAParserTest extends BaseParserTest {
         "CALL:MUTUAL AID ASSIST OUTSIDE AGY",
         "ADDR:8987 COURTHOUSE HILL RD",
         "CITY:POCOMOKE",
-        "X:DIVIDING CREEK RD & WALLACE TAYLOR RD");
+        "X:DIVIDING CREEK RD & WALLACE TAYLOR RD",
+        "DATE:10/22/2010",
+        "TIME:22:01:04");
 
     doTest("T13",
         "CAD:100;UNCONSCIOUS FAINTING;1130 OLD VIRGINIA RD;POCOMOKE NAZARENE CHURCH;POCOMOKE;OCEAN HWY;SOUTHERN FIELDS DR;10/17/2010 11:32:35",
@@ -130,7 +154,9 @@ public class MDWorcesterCountyAParserTest extends BaseParserTest {
         "ADDR:1130 OLD VIRGINIA RD",
         "PLACE:POCOMOKE NAZARENE CHURCH",
         "CITY:POCOMOKE",
-        "X:OCEAN HWY & SOUTHERN FIELDS DR");
+        "X:OCEAN HWY & SOUTHERN FIELDS DR",
+        "DATE:10/17/2010",
+        "TIME:11:32:35");
 
     doTest("T14",
         "CAD:100;CARDIAC OR RESPIRATORY ARREST;2330 WORCESTER HWY;GRND FLR;POCOMOKE;OLD SNOW HILL RD;LAMBERTSON RD;10/18/2010 19:23:41",
@@ -139,7 +165,9 @@ public class MDWorcesterCountyAParserTest extends BaseParserTest {
         "ADDR:2330 WORCESTER HWY",
         "PLACE:GRND FLR",
         "CITY:POCOMOKE",
-        "X:OLD SNOW HILL RD & LAMBERTSON RD");
+        "X:OLD SNOW HILL RD & LAMBERTSON RD",
+        "DATE:10/18/2010",
+        "TIME:19:23:41");
 
     doTest("T15",
         "CAD:100;RESIDENTIAL STRUCTURE FIRE;208 14TH ST;POCOMOKE;MARKET ST;CEDAR RUN;10/23/2010 07:12:12",
@@ -147,7 +175,9 @@ public class MDWorcesterCountyAParserTest extends BaseParserTest {
         "CALL:RESIDENTIAL STRUCTURE FIRE",
         "ADDR:208 14TH ST",
         "CITY:POCOMOKE",
-        "X:MARKET ST & CEDAR RUN");
+        "X:MARKET ST & CEDAR RUN",
+        "DATE:10/23/2010",
+        "TIME:07:12:12");
 
     doTest("T16",
         "CAD:100;BREATHING PROBLEMS;906-16 LYNNHAVEN DR;POCOMOKE;8TH ST;HALEYS WAY;10/24/2010 06:58:01",
@@ -156,7 +186,9 @@ public class MDWorcesterCountyAParserTest extends BaseParserTest {
         "ADDR:906-16 LYNNHAVEN DR",
         "MADDR:906 LYNNHAVEN DR",
         "CITY:POCOMOKE",
-        "X:8TH ST & HALEYS WAY");
+        "X:8TH ST & HALEYS WAY",
+        "DATE:10/24/2010",
+        "TIME:06:58:01");
 
     doTest("T17",
         "CAD:400E;OUTSIDE FIRE;2476 BAYVIEW RD;GIRDLETREE;TAYLOR LANDING RD;BOX IRON RD;08/29/2011 08:58:46",
@@ -164,7 +196,9 @@ public class MDWorcesterCountyAParserTest extends BaseParserTest {
         "CALL:OUTSIDE FIRE",
         "ADDR:2476 BAYVIEW RD",
         "CITY:GIRDLETREE",
-        "X:TAYLOR LANDING RD & BOX IRON RD");
+        "X:TAYLOR LANDING RD & BOX IRON RD",
+        "DATE:08/29/2011",
+        "TIME:08:58:46");
 
     doTest("T18",
         "CAD:300;OUTSIDE FIRE;2476 BAYVIEW RD;GIRDLETREE;TAYLOR LANDING RD;BOX IRON RD;08/29/2011 08:58:11",
@@ -172,8 +206,10 @@ public class MDWorcesterCountyAParserTest extends BaseParserTest {
         "CALL:OUTSIDE FIRE",
         "ADDR:2476 BAYVIEW RD",
         "CITY:GIRDLETREE",
-        "X:TAYLOR LANDING RD & BOX IRON RD");
-    
+        "X:TAYLOR LANDING RD & BOX IRON RD",
+        "DATE:08/29/2011",
+        "TIME:08:58:11");
+   
   }
   
   public static void main(String[] args) {
