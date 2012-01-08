@@ -143,6 +143,15 @@ public class MOGasconadeCountyParserTest extends BaseParserTest {
         "DATE:7/19/2011",
         "TIME:18:18:37");
 
+    doTest("T14",
+        "1 of 2\nFRM:central@fidmail.com\nSUBJ:MESSAGE\nMSG:M50 CHEST PAIN  22511 MARIES COUNTY ROAD 459  MapRegions:  CrossStreets: HIGHWAY EE 6311.13 mi\n(Con't) 2 of 2\nNW Description: 22 YOM Dispatch: 1/7/2012 18:38:12\n",
+        "CALL:M50 CHEST PAIN",
+        "ADDR:22511 MARIES COUNTY ROAD 459",
+        "INFO:22 YOM",
+        "X:HIGHWAY EE 6311.13 mi NW",
+        "DATE:1/7/2012",
+        "TIME:18:38:12");
+
   }
 
   public static void main(String[] args) {
