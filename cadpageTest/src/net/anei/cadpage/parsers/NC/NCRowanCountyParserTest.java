@@ -203,10 +203,18 @@ public class NCRowanCountyParserTest extends BaseParserTest {
         "CITY:MOCKSVILLE",
         "UNIT:7305",
         "CH:OPS");
+
+    doTest("T22",
+        "CAD:FYI: ;HAZMAT LEVEL 1;1625 N JACKSON ST;SALS;W 15TH ST;S ROWAN AV;301",
+        "CALL:HAZMAT LEVEL 1",
+        "ADDR:1625 N JACKSON ST",
+        "X:W 15TH ST / S ROWAN AV",
+        "CITY:SALISBURY",
+        "CH:301");
  }
   
 
   public static void main(String[] args) {
-    new NCRowanCountyParserTest().generateTests("T20");
+    new NCRowanCountyParserTest().generateTests("T23");
   }
 }
