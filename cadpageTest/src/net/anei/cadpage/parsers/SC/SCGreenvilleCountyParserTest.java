@@ -87,10 +87,40 @@ public class SCGreenvilleCountyParserTest extends BaseParserTest {
         "X:BUTTER ST & BUTTER ST",
         "MAP:4H",
         "INFO:GM1");
+
+    doTest("T10",
+        "CAD:FALLS;70 LATIMER RIDGE RD;HONE;CORN RD;(S) (N)86O;[Medical Priority Info] RESPONSE: Delta RESPONDER SCRIPT: 76 year old, Male, Conscious, Breathing. Falls.",
+        "CALL:FALLS",
+        "ADDR:70 LATIMER RIDGE RD",
+        "CITY:HONES PATH",
+        "X:CORN RD",
+        "MAP:86O",
+        "INFO:76 year old, Male, Conscious, Breathing. Falls.");
+
+    doTest("T11",
+        "CAD:STROKE OR TIA;271 GREY RD;PELZ;DIST: 280.66 ft (S) (N)80V;243-3091 [01/04/12 06:30:45 CCHILDRESS] [Medical Priority Info] RESPONSE: Charlie RESPONDER SCRIPT",
+        "CALL:STROKE OR TIA",
+        "ADDR:271 GREY RD",
+        "CITY:PELZER",
+        "X:DIST: 280.66 ft (S) (N)80V & 243-3091");
+
+    doTest("T12",
+        "CAD:OUTSIDE FIRE;419 CEDAR FALLS RD;FOUN;SWEET WATER RD;DUNKLIN BRIDGE RD;DIST: 86.71 ft (S) (N)80R;DK1",
+        "CALL:OUTSIDE FIRE",
+        "ADDR:419 CEDAR FALLS RD",
+        "CITY:FOUNTAIN INN",
+        "X:SWEET WATER RD & DUNKLIN BRIDGE RD & DIST: 86.71 ft (S) (N)80R & DK1");
+
+    doTest("T13",
+        "CAD:STRUCTURE FIRE;10612 AUGUSTA RD;BELT;BOYS HOME OF THE SOUTH;DAVENTON RD;KERMIT WATSON BLVD;DIST: 715.97 ft (S) (N)86A;DK1",
+        "CALL:STRUCTURE FIRE",
+        "ADDR:10612 AUGUSTA RD",
+        "CITY:BELTON",
+        "X:BOYS HOME OF THE SOUTH & DAVENTON RD & KERMIT WATSON BLVD & DIST: 715.97 ft (S) (N)86A & DK1");
    
   }
   
   public static void main(String[] args) {
-    new SCGreenvilleCountyParserTest().generateTests("T1");
+    new SCGreenvilleCountyParserTest().generateTests("T10");
   }
 }

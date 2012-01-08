@@ -345,10 +345,19 @@ public class ALDothanParserTest extends BaseParserTest {
         "ID:45129368",
         "INFO:pd on scene ref s50 subj");
 
+    doTest("T38",
+        "15:51:56/S8BF-MVC-Code III/3998 W MAIN ST INTERSECTN/DOTHAN/N SHADY LN/38619245/BLK NISS PATHFINDER 1092 ON 2ND VEH UNK INJ S33/",
+        "CALL:S8BF-MVC-Code III",
+        "ADDR:3998 W MAIN ST",
+        "CITY:DOTHAN",
+        "X:N SHADY LN",
+        "ID:38619245",
+        "INFO:BLK NISS PATHFINDER 1092 ON 2ND VEH UNK INJ S33");
+
   }
   
   
   public static void main(String[] args) {
-    new ALDothanParserTest().generateTests("T38");
+    new ALDothanParserTest().generateTests("T39");
   }
 }

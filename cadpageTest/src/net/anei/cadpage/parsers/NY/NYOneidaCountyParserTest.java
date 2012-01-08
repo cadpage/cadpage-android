@@ -222,6 +222,14 @@ public class NYOneidaCountyParserTest extends BaseParserTest {
         "PLACE:NH Post Office",
         "ADDR:40 CAMPION RD",
         "CITY:NEW HARTFORD");
+
+    doTest("T2",
+        "(New Hartford Fire) Dispatched &gt;MVA-UNKNOWN &gt;@K-Mart  (4645 COMMERCIAL DR), NEW HARTFORD",
+        "SRC:New Hartford Fire",
+        "CALL:MVA-UNKNOWN",
+        "PLACE:K-Mart",
+        "ADDR:4645 COMMERCIAL DR",
+        "CITY:NEW HARTFORD");
   }
   
   public static void main(String[] args) {
