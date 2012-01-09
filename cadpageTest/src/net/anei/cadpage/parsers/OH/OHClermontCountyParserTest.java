@@ -119,6 +119,16 @@ public class OHClermontCountyParserTest extends BaseParserTest {
         "CITY:PIERCE TOWNSHIP",
         "NAME:WETZELL,CONNIE",
         "ID:2011-0000082440");
+
+    doTest("T12",
+        "31C02 >UNCONSCIOUS/FAINTING (NEAR) 5877 WOLFPEN PLEASANT HILL RD Apt: 316 Bldg XS: TRAVERSE CREEK DR MIAMI TWP RYAN, CHRISTY Map: Grids:, Cad: 2012-0000002524",
+        "CALL:UNCONSCIOUS/FAINTING (NEAR)",
+        "ADDR:5877 WOLFPEN PLEASANT HILL RD",
+        "APT:316 Bldg",
+        "X:TRAVERSE CREEK DR",
+        "CITY:MIAMI TWP",
+        "NAME:RYAN, CHRISTY",
+        "ID:2012-0000002524");
     
   }
   
