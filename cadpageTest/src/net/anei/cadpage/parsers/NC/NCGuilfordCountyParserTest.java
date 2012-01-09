@@ -367,6 +367,15 @@ public class NCGuilfordCountyParserTest extends BaseParserTest {
         "ADDR:4006 STARLING CT",
         "INFO:FD13 / ST55 / 1",
         "CALL:FIRAL");
+
+    doTest("T10",
+        "Subject:[Firedistrict13] (no subject)\nCAD:NEFD;ST33;1;52B01S;FIRAL;7707 FRENCH DR;YANCEYVILLE RD;JOHNSON WILLIMS\n\n______________",
+        "SRC:Firedistrict13",
+        "ADDR:7707 FRENCH DR",
+        "INFO:NEFD / ST33 / 1 / JOHNSON WILLIMS",
+        "CODE:52B01S",
+        "CALL:FIRAL",
+        "X:YANCEYVILLE RD");
     
   }
   

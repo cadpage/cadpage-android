@@ -309,6 +309,7 @@ public class MDCharlesCountyParserTest extends BaseParserTest {
         "CALL:CHEST PAINS",
         "UNIT:EMS, ALS, 10C, 10D",
         "ADDR:3012 PALMER PL",
+        "APT:F",
         "MAP:10 E6",
         "INFO:1. 47 year old, Female, Conscious, Breathing. E120080019 1200423 14:03");
 
@@ -348,7 +349,7 @@ public class MDCharlesCountyParserTest extends BaseParserTest {
   }
     
   public static void main(String[] args) {
-    new MDCharlesCountyParserTest().generateTests("T1", "CALL UNIT ADDR PLACE CODE MAP INFO ID");
+    new MDCharlesCountyParserTest().generateTests("T1", "CALL UNIT ADDR APT PLACE CODE MAP INFO ID");
   }
 
 }
