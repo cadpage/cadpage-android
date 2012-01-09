@@ -8,19 +8,19 @@
   <string name="release_text">
 What"'"s new in this release\n
 \n
-Should be caught up on all outstanding reported location parsing problems.  Yea!!!\n
-\n
-Location Parsing Fixes:\n
-\n
-Pottawattamie County, IA\n
-Saginaw County, MI\n
-Gasconade County, MO\n
-Niagara County, NY\n
-Oneida County, NY\n
-Gaston County, NC\n
-Rowan County, NC\n
-Lancaster County, PA\n
-Greenville County, SC\n
+  Should be caught up on all outstanding reported location parsing problems.  Yea!!!\n
+  \n
+  Location Parsing Fixes:\n
+  \n
+  Pottawattamie County, IA\n
+  Saginaw County, MI\n
+  Gasconade County, MO\n
+  Niagara County, NY\n
+  Oneida County, NY\n
+  Gaston County, NC\n
+  Rowan County, NC\n
+  Lancaster County, PA\n
+  Greenville County, SC\n
 
   </string>  
 </resources>
