@@ -7,6 +7,7 @@ import java.util.regex.Pattern;
 
 import net.anei.cadpage.C2DMReceiver;
 import net.anei.cadpage.R;
+import net.anei.cadpage.donation.DeveloperToolsManager;
 import android.content.Context;
 import android.net.Uri;
 import android.preference.PreferenceScreen;
@@ -38,9 +39,23 @@ public class VendorManager {
    * @param pref preference to be set up with vendor config menu
    */
   public void setupPreference(Context context, PreferenceScreen pref) {
+    boolean developer = DeveloperToolsManager.instance().isDeveloper(context);
     for (Vendor vendor : vendorList) {
-      pref.addPreference(new VendorPreference(context, vendor));
+      if (developer || vendor.isAvailable()) {
+        pref.addPreference(new VendorPreference(context, vendor));
+      }
     }
+  }
+  
+  /**
+   * @return Name of sponsoring agency if an active vendor is sponsoring Cadpage
+   */
+  public String getSponsor() {
+    for (Vendor vendor : vendorList) {
+      String sponsor = vendor.getSponsor();
+      if (sponsor != null) return sponsor;
+    }
+    return null;
   }
   
   /**

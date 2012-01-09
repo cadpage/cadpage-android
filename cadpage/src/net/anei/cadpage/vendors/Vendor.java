@@ -6,6 +6,8 @@ import net.anei.cadpage.SmsPopupUtils;
 import net.anei.cadpage.HttpService.HttpRequest;
 import net.anei.cadpage.ManagePreferences;
 import net.anei.cadpage.R;
+import net.anei.cadpage.donation.DonationManager;
+import net.anei.cadpage.donation.MainDonateEvent;
 import net.anei.cadpage.donation.UserAcctManager;
 import android.content.Context;
 import android.content.Intent;
@@ -19,8 +21,11 @@ abstract class Vendor {
   private int summaryId;
   private int textId;
   private int iconId;
+  private int logoId;
   private Uri baseURI;
   private String triggerCode;
+  
+  private String title = null;
   
   private Uri discoverUri = null;;
   
@@ -43,7 +48,7 @@ abstract class Vendor {
   private VendorActivity activity;
   
   
-  Vendor(int titleId, int summaryId, int textId, int iconId, 
+  Vendor(int titleId, int summaryId, int textId, int iconId, int logoId,
          String urlString, String triggerCode) {
     
     // Calculate vendor code by stripping "Vendor" off the end of the class name
@@ -57,6 +62,7 @@ abstract class Vendor {
     this.summaryId = summaryId;
     this.textId = textId;
     this.iconId = iconId;
+    this.logoId = logoId; 
     this.baseURI = Uri.parse(urlString);
     this.triggerCode = triggerCode;
   }
@@ -90,6 +96,13 @@ abstract class Vendor {
   }
   
   /**
+   * @return vendor logo resource ID
+   */
+  int getLogoId() {
+    return logoId;
+  }
+  
+  /**
    * @return vendor code by which this vendor is recognized
    */
   String getVendorCode() {
@@ -109,6 +122,21 @@ abstract class Vendor {
   String getTrigerCode() {
     return triggerCode;
   }
+
+  /**
+   * @return true if users registered with this vendor are sponsored by the agency
+   */
+  boolean isSponsored() {
+    return false;
+  }
+  
+  /**
+   * @return true if service is up and running and should be available for everyone,
+   * false if should only be available for developers
+   */
+  boolean isAvailable() {
+    return false;
+  }
   
   /**
    * Register Activity associated with this vendor
@@ -123,12 +151,21 @@ abstract class Vendor {
    * @param context current context
    */
   void setup(Context context) {
+    title = context.getString(titleId);
     prefs = context.getSharedPreferences(vendorCode + "Vendor", Context.MODE_PRIVATE);
     enabled = prefs.getBoolean("enabled", false);
     account = prefs.getString("account", null);
     token = prefs.getString("token", null);
     
     textPage = prefs.getBoolean("textPage", false);
+  }
+  
+  /**
+   * @return Name of sponsoring agency if an active vendor is sponsoring Cadpage
+   */
+  public String getSponsor() {
+    if (isSponsored() && isEnabled()) return title;
+    return null;
   }
   
   /**
@@ -228,9 +265,12 @@ abstract class Vendor {
    */
   void unregisterReq(Context context) {
     
+    if (!enabled) return;
+    
     // Disable access and save that status change
     enabled = false;
     saveStatus();
+    reportStatusChange();
     
     // Send an unregister request to the vendor server
     // we really don't care how it responds
@@ -281,6 +321,7 @@ abstract class Vendor {
           showNotice(context, R.string.vendor_register_err_msg, result);
           enabled = false;
           saveStatus();
+          reportStatusChange();
         }});            
     }
   }
@@ -303,11 +344,22 @@ abstract class Vendor {
     saveStatus();
     
     if (change) {
-      if (activity != null) activity.update();
+      reportStatusChange();
       showNotice(context, register ? R.string.vendor_connect_msg : R.string.vendor_disconnect_msg, null);
       if (register) setTextPage(false);
       else C2DMReceiver.unregister(context);
     }
+  }
+
+  /**
+   * Report enabled status change to all interested parties
+   */
+  private void reportStatusChange() {
+    if (isSponsored()) {
+      DonationManager.instance().reset();
+      MainDonateEvent.instance().refreshStatus();
+    }
+    if (activity != null) activity.update();
   }
 
   /**

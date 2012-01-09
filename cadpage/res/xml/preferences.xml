@@ -439,14 +439,10 @@
     </PreferenceScreen>
     <!-- Direct Paging screen -->  
     <PreferenceScreen
-      android:key="pref_direct_paging_key"
+      android:key="@string/pref_direct_paging_key"
       android:title="@string/pref_direct_paging_title"
       android:summary="@string/pref_direct_paging_summary"
       android:dependency="@string/pref_enabled_key">
-      <PreferenceScreen
-        android:key="@string/pref_vendors_screen_key"
-        android:title="@string/pref_vendors_screen_title"
-        android:summary="@string/pref_vendors_screen_summary"/>
     </PreferenceScreen>
       
   </PreferenceCategory>

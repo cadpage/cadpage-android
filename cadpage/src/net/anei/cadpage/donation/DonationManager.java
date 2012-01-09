@@ -6,6 +6,7 @@ import java.util.GregorianCalendar;
 import java.util.Random;
 
 import net.anei.cadpage.ManagePreferences;
+import net.anei.cadpage.vendors.VendorManager;
 
 public class DonationManager {
   
@@ -71,7 +72,10 @@ public class DonationManager {
     validLimitTime = curJDate.validUntilTime();
     
     // And calculated cached values
-    sponsor = ManagePreferences.getCurrentParser().getSponsor();
+    sponsor = VendorManager.instance().getSponsor();
+    if (sponsor == null) {
+      sponsor = ManagePreferences.getCurrentParser().getSponsor();
+    }
     daysSinceInstall = ManagePreferences.calcAuthRunDays(sponsor == null ? curDate : null);
     int daysTillDemoEnds = DEMO_LIMIT_DAYS - daysSinceInstall;
     

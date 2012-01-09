@@ -12,6 +12,14 @@ but shouldn't be too far off the standard which is.
   72x72 pixel
   48x48 pixel
   36x36 pixel
+If you want to make this one include the name of your service, it can be a lot wider.
+
+There is also room for a smaller status Icon that I can put in the call detail
+window for calls received from your service.  Icon sizes for this are
+  48x48
+  32x32
+  24x24
+  
 
 None of this is set in stone yet.  If simple changes will make it easier to code
 the web interface, by all means lets change them.

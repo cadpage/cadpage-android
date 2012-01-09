@@ -3678,12 +3678,6 @@ FRM:\nSUBJ:TWDU >TREES/WIRES DOWN URGENT\nMSG:OESCAD:STATE HWY 18 SPRING TWP THA
 FRM:OESCAD@WINDSTREAM.NET\nSUBJ:TWDU  >TREES/WIRES DOWN URGENT\nMSG:OESCAD:STATE HWY 18 SPRING TWP THARP, DENNIS Cad: 2012-0000000067
 FRM:OESCAD@WINDSTREAM.NET\nSUBJ:SFR   >STRUCTURE FIRE\nMSG:OESCAD:150 S MAIN ST XS: SPRING ST SPRINGBORO BORO PIERI, PIERINO Map:E-3\n(Con't) 2 of 2\nGrids:0,0 Cad: 2012-0000000547(End)
 **********************************************************
-Charleston County, SC (alternate)
-Contact: Josh Sims <josh.sims00@gmail.com>
-From: CDC_Dispatch@charlestoncounty.org
-(Dispatch Info) M04           0338252             District 04 EMS     04B01A    1402 Camp Rd        XS:SECESSIONVILLE RD/JAMES POINT DR  Apt/Bldg: 8           04B_Assault Poss Dang Area    Location Name:Fini Event Planning
-(Dispatch Info) M04           0347732             District 04 EMS     06D02A    311 Fleming Rd      XS:MAYBANK HWY/STIRCREEK RD          Apt/Bldg:
-**********************************************************
 Liberty County, ??
 Contact: "Craig Powell" <craig@hardinvfd.org>
 [FIRE CALL]  FM834 NEAR BASEBALL FIELDS POSS OUT OF CONTROL GRASS FIRE
@@ -3788,6 +3782,12 @@ Remove line feeds
 (Skaneateles Fire) I/CAD MSG SKF 16:03:15  4061 STATE STREET RD TSK: EST XTS: JEWETT RD/OLD SENECA TPKE,  , MVC -IB P:1 Lev:0 X: NW SECTOR -076.426885
 (Skaneateles Fire) 1 CC RE LOCKED IN THE BLDG -- COMPL USES A WALKER AND IS UNABLE TO MOVE  Disp: 54E21, 54MI1, 54R1, 54TK1
 (Skaneateles Fire)  I/CAD MSG SKF 16:52:38 2745 E LAKE RD TSK: @SKANEATELES SAILING CLUB XTS:BUFFS BLUFF RD/COON HILL RD, , LOCK -R P:2 Lev:0 X:  M91
+(Skaneateles Fire) I/CAD MSG SKF 04:37:24  110 FENNELL ST VSK XTS:PACKSWOOD PL/OLD SENECA TPK, APT B IN BACK, UNCP - P:1 Lev:0 X: M911//88 YO MALE U
+(Skaneateles Fire) NCP/NOT BREATHING// IS AN EXPECTED DEATH// HAS BEEN ILL FOR SOME TIME// REQ NO LIGHTS AND SIRENS// Disp: 54C1, 54C2, 54C3, 54E12
+
+Dispatch ** 04:38 **
+UNCONSCIOUS PERSON ** 110 FENNELL ST ** APT B IN BACK ** FOEHL, MARY KAY **
+((315)247-3**
 **********************************************************
 Prince George County, VA
 Contact: Kevin Hamel <khamel30@gmail.com>, 8047217263@vtext.com
@@ -3829,7 +3829,7 @@ SARASOTA COUNTY EVENT TYPE: STRUCTURE FIRE Location: 3908 WALNUT AVE NCTY G033 T
 SARASOTA COUNTY EVENT TYPE: ASSIST OTHER MEDICAL AGENCY Location: 5731 BEE RIDGE RD NCTY G128: @DOCTORS TIME: 18:51:05  Disp: BN2,E8,R8
 SARASOTA COUNTY EVENT TYPE: VEHICLE CRASH WITH INJURIES Location: BEE RIDGE RD/MAUNA LOA BLVD NCTY G149 TIME: 02:06:18  Disp: BN2,E16,R8,SQ8
 SARASOTA COUNTY EVENT TYPE: OUTSIDE FIRE-UNKNOWN Location: STONEYCREEK BLVD/CENTER RD SCTY G511 TIME: 19:00:05\2sDisp: BN4,E21,E26,R21
-
+SARASOTA COUNTY EVENT TYPE: VEHICLE CRASH WITH INJURIES Location: S TUTTLE AVE/SUNNYSIDE ST NCTY G124 TIME: 19:28:44  Disp: BN1,E2,EMS1,R2
 **********************************************************
 Wyoming County, NY (alternate or replacement)
 Contact: Louis Yunker <louisyunker@yahoo.com>
@@ -3852,3 +3852,13 @@ DELCO911:EMS >MEDICAL EMERGENCY 1141 MAIN ST XS: OLD HALCOTT RD FLEISCHMANNS VIL
 DELCO911:09D01 >CARDIAC/RESPIRATORY ARREST 451 BARLEY RD XS: COUNTY LINE MIDDLETOWN AJONDEAU, ARMAND Map:55 Grids:0,0 Cad: 2011-0000013362
 DELCO911:09E01 >CARDIAC/RESPIRATORY ARREST 1050 MAIN ST XS: REDKILL RD FLEISCHMANNS VILLAGE PATEL MANISHA Map:54CD Grids:0,0 Cad: 2011-0000013284
 DELCO911:ALMACT>ALARM ACTIVATION LOWER WAGNER AVE FLEISCHMANN Cad: 2011-0000015508
+**********************************************************
+Charleston County, SC (alternate)
+Contact: Josh Sims <josh.sims00@gmail.com>
+From: CDC_Dispatch@charlestoncounty.org
+(Dispatch Info) M04           0338252             District 04 EMS     04B01A    1402 Camp Rd        XS:SECESSIONVILLE RD/JAMES POINT DR  Apt/Bldg: 8           04B_Assault Poss Dang Area    Location Name:Fini Event Planning
+(Dispatch Info) M04           0347732             District 04 EMS     06D02A    311 Fleming Rd      XS:MAYBANK HWY/STIRCREEK RD          Apt/Bldg:
+(Dispatch Info) M04           0348340             District 04 EMS     33C06T    2 Bishop Gadsden WayXS:CAMP RD/CHESIRE DR                Apt/Bldg: 1059        33C_Transfer Emrgncy Respnse TLocation Name:MEYERS HALL
+(Dispatch Info) M04           0348332             District 04 EMS     26C02     2 BISHOP GADSDEN WAYXS:CAMP RD/CHESIRE DR                Apt/Bldg: APT 1002    26C_Sick Abnormal Breathing   Location Name:
+(Dispatch Info) M04           0348435             District 01 EMS     01C05     573 Meeting St      XS:JOHNSON ST/STUART ST              Apt/Bldg:             01C_Abn Pain Abv Navl Male >35Location Name:Crisis Ministries Sh
+(Dispatch Info) M04           0348430             District 04 EMS     131C01    Riverland Dr / CanalXS:                                  Apt/Bldg:             29B_Accident MVA Unknown      Location Name:

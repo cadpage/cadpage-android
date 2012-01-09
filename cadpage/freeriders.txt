@@ -773,10 +773,10 @@ Lisa Edwards (jojosmima@gmail.com)<ledwards@townofchapelhill.org>
 >>Garrett Sagraves (sagraves08@gmail.com)<rescue2389@aol.com>
 >>Matthew Boyce <aggrosk8er951@gmail.com>
 >>Rick Vogt <socalbc@gmail.com>
-Madden, Paul (paul.madden.02@gmail.com)<pmadden@mobilemedical.org>
-Joshua Morton <joshua.morton.jm@gmail.com>
-Donald Hymer (dwhymer@gmail.com)<donaldhymer@aol.com>
-Jack Ryan-Ackerman (yanksrox101@gmail.com)<jackra92@gmail.com>
+>>Madden, Paul (paul.madden.02@gmail.com)<pmadden@mobilemedical.org>
+>>Joshua Morton <joshua.morton.jm@gmail.com>
+>>Donald Hymer (dwhymer@gmail.com)<donaldhymer@aol.com>
+>>Jack Ryan-Ackerman (yanksrox101@gmail.com)<jackra92@gmail.com>
 Bruce LaMonica <blamonicamarketing@gmail.com>
 %%11/10/2011
 emt18829@comcast.net (emt1192@gmail.com)<emt18829@comcast.net>
@@ -1059,6 +1059,8 @@ John Schneider (schneider512.js@gmail.com)(john@afsscorp.com)
 Charles Talbott (ct5358@gmail.com)<medic2@comcast.net>
 %%01/07/2012
 Scott Wilkerson (scottw9799@gmail.com)(Scottwilkerson@comcast.net)
+%%01/09/2012
+Ed Miller (efm185@gmail.com)(efm185@ptd.net)
  
 // List of users getting free credit for 2012
 $free_2012_list
@@ -1146,3 +1148,6 @@ Paul Santee <rescue208@gmail.com>
 Chris Lance <bhetranschris@gmail.com>
 timothy johnson (toolman24.tj@gmail.com)<tjohnson@squad294.org>
 Chris Roberts <rhvfd13@gmail.com>
+"Kevin R. Murphy" (kevrmurphy@gmail.com)<kmurphy@rileyfire.com>
+brett schroeder <bschroeder620@gmail.com>
+Brent Henry <nightmare4sgt@gmail.com>

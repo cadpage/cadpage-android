@@ -13,6 +13,7 @@ class VendorPreference extends CheckBoxPreference {
     
     // Initialize preference
     this.vendor = vendor;
+    setOrder(0);
     setTitle(vendor.getTitleId());
     int summary = vendor.getSummaryId();
     if (summary > 0) setSummary(summary);

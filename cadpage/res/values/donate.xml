@@ -2,7 +2,7 @@
 <resources>
 
   <string-array name="donate_devel_list">
-    <item>kencorbin101@gmail.com</item>
+    <!-- item>kencorbin101@gmail.com</item-->
     <item>deweythomas@gmail.com</item>
   </string-array>
   
@@ -171,10 +171,10 @@
   
   <string name="donate_sponsor_title">Sponsored by %s</string>
   <string name="donate_sponsor_text">
-    You are using a location sponsored by\n%s\n 
-    Support for Cadpage development and maintenance is provided by the
-    location sponsor.  No further payment is expected from you as long as you
-    are using this location.
+    You are using a service sponsored by\n%s\n 
+    Support for Cadpage development and maintenance is provided by this
+    sponsor.  No further payment is expected from you as long as you
+    are using services provided by this sponsor.
   </string>
   
 </resources>

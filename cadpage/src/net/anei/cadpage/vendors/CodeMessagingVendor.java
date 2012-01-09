@@ -9,6 +9,7 @@ class CodeMessagingVendor extends Vendor {
            R.string.code_messaging_summary,
            R.string.code_messaging_text,
            0,
+           0,
            "http://www.CodePassport.net/CodePassport.asp?wci=Android",
            ">CMG");
   }

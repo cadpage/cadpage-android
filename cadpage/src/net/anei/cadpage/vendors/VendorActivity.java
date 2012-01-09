@@ -81,6 +81,7 @@ public class VendorActivity extends Activity {
           @Override
           public void onClick(DialogInterface dialog, int which) {
             vendor.unregisterReq(VendorActivity.this);
+            VendorActivity.this.finish();
           }
         })
         .setNegativeButton(android.R.string.no, null)
@@ -109,14 +110,18 @@ public class VendorActivity extends Activity {
     
     // OK, now that we have a vendor object, we can set up all of the display fields
     int resId = vendor.getIconId();
+    int logoId = vendor.getLogoId();
+    if (logoId > 0) resId = logoId;
     if (resId > 0) {
       ImageView imgView = (ImageView)findViewById(R.id.VendorImageView);
       imgView.setImageResource(resId);
     }
-    resId = vendor.getTitleId();
-    if (resId > 0) {
-      TextView txtView = (TextView)findViewById(R.id.VendorTitleView);
-      txtView.setText(resId);
+    if (logoId == 0) {
+      resId = vendor.getTitleId();
+      if (resId > 0) {
+        TextView txtView = (TextView)findViewById(R.id.VendorTitleView);
+        txtView.setText(resId);
+      }
     }
     resId = vendor.getTextId();
     if (resId > 0) {
