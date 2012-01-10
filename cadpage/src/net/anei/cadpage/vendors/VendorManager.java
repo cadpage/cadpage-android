@@ -59,6 +59,18 @@ public class VendorManager {
   }
   
   /**
+   * Return main icon ID associated with vendor code 
+   * @param vendorCode vendor code
+   * @return icon resource ID
+   */
+  public int getVendorIconId(String vendorCode) {
+    if (vendorCode == null) return 0;
+    Vendor vendor = findVendor(vendorCode);
+    if (vendor == null) return 0;
+    return vendor.getIconId();
+  }
+  
+  /**
    * Called by CD2MReceiver when a new registration ID is defined
    * @param context current context
    * @param registrationId new registration ID
@@ -117,7 +129,6 @@ public class VendorManager {
     vendor.vendorRequest(context, type, account, token);
   }
   
-  
   /**
    * Check for a C2DM discovery text message
    * @param context current context
@@ -141,19 +152,11 @@ public class VendorManager {
           return message;
         }
         
-        // Build URI from URL and extract the top level host name
-        Uri uri = Uri.parse(urlStr); 
-        String host = extractHostName(uri);
-        if (host == null) return message;
-        
-        // Loop through the vendors looking for one with a base URL pointing
-        // to the same top level host name
-        for (Vendor vendor : vendorList) {
-          Uri vendorUri = vendor.getBaseURI();
-          if (host.equals(extractHostName(vendorUri))) {
-            vendor.registerReq(context, uri);
-            return null;
-          }
+        // Find vendor associated with URL
+        Vendor vendor = findVendorFromUrl(urlStr);
+        if (vendor != null) {
+          vendor.registerReq(context, Uri.parse(urlStr));
+          return null;
         }
       }
     }
@@ -175,6 +178,38 @@ public class VendorManager {
     return message;
   }
   private static final Pattern HTTP_PATTERN = Pattern.compile("\\bhttps?://[^ ]+");
+  
+  /**
+   * Return vendor code associated with URL string
+   * @param urlString URL string
+   * @return vendor code if found or null if not
+   */
+  public String findVendorCodeFromUrl(String urlString) {
+    Vendor vendor = findVendorFromUrl(urlString);
+    if (vendor == null) return null;
+    return vendor.getVendorCode();
+  }
+
+  /**
+   * Find the vendor associated with a URL string
+   * @param urlString URL string
+   * @return associated vendor or null if not found
+   */
+  private Vendor findVendorFromUrl(String urlString) {
+    // Build URI from URL and extract the top level host name
+    Uri uri = Uri.parse(urlString);
+    String host = extractHostName(uri);
+    if (host == null) return null;
+    
+    // Loop through the vendors looking for one with a base URL pointing
+    // to the same top level host name
+    for (Vendor vendor : vendorList) {
+      Uri vendorUri = vendor.getBaseURI();
+      if (host.equals(extractHostName(vendorUri))) return vendor;
+    }
+    
+    return null;
+  }
   
   /**
    * Return top level host name associated with URL
@@ -202,7 +237,7 @@ public class VendorManager {
    * @param vendorCode vendor code
    * @return matching vendor object, or null if none found.
    */
-  public Vendor findVendor(String vendorCode) {
+ Vendor findVendor(String vendorCode) {
     for (Vendor vendor : vendorList) {
       if (vendorCode.equals(vendor.getVendorCode())) return vendor;
     }

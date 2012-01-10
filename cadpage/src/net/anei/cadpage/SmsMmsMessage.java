@@ -75,6 +75,8 @@ public class SmsMmsMessage implements Serializable {
   
   // Location code and sponsor C2DM messages
   private String reqLocation = null;
+  private String vendorCode = null;
+  // Dead member replaced by vendor
   private String sponsor = null;
   private String ackReq = null;
   private String ackURL = null;
@@ -220,12 +222,12 @@ public class SmsMmsMessage implements Serializable {
    * @param messageBody message body
    * @param timestamp received times tamp
    * @param reqLocation requested location code
-   * @param sponsor sponsor code
+   * @param vendorCode vendor code
    * @param ackReq acknowledge request code
    * @param ackURL acknowledge URL
    */
   public SmsMmsMessage(String from, String subject, String messageBody,
-                        long timestamp, String reqLocation, String sponsor, 
+                        long timestamp, String reqLocation, String vendorCode, 
                         String ackReq, String ackURL) {
     this.messageType = MESSAGE_TYPE_C2DM;
     this.fromAddress = from;
@@ -233,7 +235,7 @@ public class SmsMmsMessage implements Serializable {
     this.messageBody = messageBody;
     this.timestamp = timestamp;
     this.reqLocation = reqLocation;
-    this.sponsor = sponsor;
+    this.vendorCode = vendorCode;
     this.ackReq = ackReq;
     this.ackURL = ackURL;
     this.ackNeeded = ackReq.contains("A");
@@ -314,6 +316,11 @@ public class SmsMmsMessage implements Serializable {
   private void readObject(java.io.ObjectInputStream stream)
   throws IOException, ClassNotFoundException {
     stream.defaultReadObject();
+    
+    // Retrieve vendor Code from old Sponsor code
+    if (vendorCode == null) vendorCode = sponsor;
+    
+    // Rebuild parsed message information
     buildParseInfo();
   }
   
@@ -468,8 +475,8 @@ public class SmsMmsMessage implements Serializable {
     this.reqLocation = reqLocation;
   }
   
-  public void setSponsor(String sponsor) {
-    this.sponsor = sponsor;
+  public void setVendorCode(String vendorCode) {
+    this.vendorCode = vendorCode;
   }
 
   public long getTimestamp() {
@@ -619,8 +626,8 @@ public class SmsMmsMessage implements Serializable {
     return reqLocation;
   }
   
-  public String getSponsor() {
-    return sponsor;
+  public String getVendorCode() {
+    return vendorCode;
   }
 
   /**
@@ -939,8 +946,8 @@ public class SmsMmsMessage implements Serializable {
     sb.append("\nC2DM Loc:");
     sb.append(reqLocation);
     
-    sb.append("\nSponsor:");
-    sb.append(sponsor);
+    sb.append("\nVendorCode:");
+    sb.append(vendorCode);
     
     sb.append("\nackReq:");
     sb.append(ackReq);

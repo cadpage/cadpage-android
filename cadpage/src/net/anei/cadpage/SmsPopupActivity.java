@@ -16,6 +16,7 @@ import net.anei.cadpage.donation.DonationManager;
 import net.anei.cadpage.donation.MainDonateEvent;
 import net.anei.cadpage.parsers.ManageParsers;
 import net.anei.cadpage.parsers.MsgInfo;
+import net.anei.cadpage.vendors.VendorManager;
 import net.anei.cadpage.wrappers.TextToSpeechWrapper;
 import net.anei.cadpage.wrappers.TextToSpeechWrapper.OnInitListener;
 import android.app.Activity;
@@ -45,6 +46,7 @@ import android.view.WindowManager.LayoutParams;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ScrollView;
 import android.widget.TextView;
@@ -59,6 +61,7 @@ public class SmsPopupActivity extends Activity {
   private boolean exitingKeyguardSecurely = false;
   private InputMethodManager inputManager = null;
   private View inputView = null;
+  private ImageView fromImage;
   private TextView fromTV;
   private TextView messageReceivedTV;
   private TextView messageTV;
@@ -122,6 +125,7 @@ public class SmsPopupActivity extends Activity {
     resizeLayout();
 
     // Find the main textviews
+    fromImage = (ImageView)findViewById(R.id.FromImageView);
     fromTV = (TextView) findViewById(R.id.FromTextView);
     messageTV = (TextView) findViewById(R.id.MessageTextView);
     messageTV.setAutoLinkMask(Linkify.WEB_URLS);
@@ -386,6 +390,10 @@ public class SmsPopupActivity extends Activity {
     // Make any adjustments to buttons
     if (btnHandlers != null) prepareButtons();
     info = message.getInfo();
+    
+    // Update Icon to indicate direct paging source
+    int resIcon = VendorManager.instance().getVendorIconId(message.getVendorCode());
+    if (resIcon > 0) fromImage.setImageResource(resIcon);
     
     // Update TextView that contains the timestamp for the incoming message
     String headerText;

@@ -170,17 +170,21 @@ public class C2DMReceiver extends BroadcastReceiver {
       if (location.equals("Active911")) location = "Cadpage";
       location = ManagePreferences.convertOldLocationCode(context, location);
     }
-    String sponsor = intent.getStringExtra("sponsor");
+    String vendorCode = intent.getStringExtra("vendor");
+    if (vendorCode == null) vendorCode = intent.getStringExtra("sponsor");
     
     // Get the acknowledge URL and request code
     String ackURL = intent.getStringExtra("ack_url");
     String ackReq = intent.getStringExtra("ack_req");
+    if (vendorCode == null && ackURL != null) {
+      vendorCode = VendorManager.instance().findVendorCodeFromUrl(ackURL);
+    }
     if (ackURL == null) ackReq = null;
     if (ackReq == null) ackReq = "";
     
     SmsMmsMessage message = 
       new SmsMmsMessage(from, subject, content, timestamp,
-                        location, sponsor, ackReq, ackURL);
+                        location, vendorCode, ackReq, ackURL);
     
     // Add to log buffer
     if (!SmsMsgLogBuffer.getInstance().add(message)) return;

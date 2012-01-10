@@ -103,7 +103,7 @@ For REGISTER and UNREGISTER types
 vendor:     Assigned vendor code 
 account:    Users account number with your service
 token:      Security token that will be reported back to your servers with
-            reregister and unregister requests
+            re-register and unregister requests
             
 For regular message requests    
 Either content or contentURL must be specified, everything else is optional.    
@@ -113,8 +113,8 @@ content - Actual message content
 content_url - URL from from which message content can be retrieved 
              (use only if sending actual content exceeds the maximum size limit)
 format - Format/location parsing code (default, use user configured location code)
-sponsor - sponsoring organization (Setting this to non-empty value implies that you
-          are someone else is paying us so we won't try to collect from end users)
+vendor - Your vendor code.  Not required, but it does help us tag the message display
+         as coming through your service
 date - date/time you received page from dispatch, in a format yet to be specified.
 
 For everything
@@ -183,21 +183,11 @@ A revenue sharing arrangement with Cadpage, where Cadpage gets some percentage
 of your income from C2DM registered phones instead of collecting from the end users,
 is strongly encouraged, but not required to use this interface.
 
-If you do have a revenue sharing arrangement with us, you can indicate this by
-including a "sponsor" code in the C2DM messages sent to Cadpage.  This tells
-Cadpage that it is getting pages from a sponsored source and that it should not
-but the end user for money.  If you do not have a revenue sharing agreement, 
-please do not include a "sponsor" code.
-
 If the subscribing user already has a current paid Cadpage subscription, we would
 prefer that you credit the user for whatever amount would normally be sent to
 Cadpage.  You can determine if they have a paid subscription by sending the device
 a PING request with a P code in the ack_req field.  Cadpage will respond with
 an acknowledge query that contains a paid_status value of either YES or NO.
-
-If you do not have a revenue sharing agreement with us, please do not put anything
-in the sponsor field.
-
 
 **** General notes:
 
