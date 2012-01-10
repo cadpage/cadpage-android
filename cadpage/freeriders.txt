@@ -777,16 +777,16 @@ Lisa Edwards (jojosmima@gmail.com)<ledwards@townofchapelhill.org>
 >>Joshua Morton <joshua.morton.jm@gmail.com>
 >>Donald Hymer (dwhymer@gmail.com)<donaldhymer@aol.com>
 >>Jack Ryan-Ackerman (yanksrox101@gmail.com)<jackra92@gmail.com>
-Bruce LaMonica <blamonicamarketing@gmail.com>
+>>Bruce LaMonica <blamonicamarketing@gmail.com>
 %%11/10/2011
-emt18829@comcast.net (emt1192@gmail.com)<emt18829@comcast.net>
-Lori Roseman <rosemanfam5@gmail.com>
-Robert Sanfilippo <nysemt357@gmail.com>
-Justin Galvan <jgalvan82.jg@gmail.com>
-Terry Bouchard (tracyforbing@gmail.com)<firedude817@yahoo.com>
+>>emt18829@comcast.net (emt1192@gmail.com)<emt18829@comcast.net>
+>>Lori Roseman <rosemanfam5@gmail.com>
+>>Robert Sanfilippo <nysemt357@gmail.com>
+>>Justin Galvan <jgalvan82.jg@gmail.com>
+>>Terry Bouchard (tracyforbing@gmail.com)<firedude817@yahoo.com>
 %%11/11/2011
-FF Travis Martin (tmartin1072@gmail.com)<tmartin1072@hotmail.com>
-Gary Crider (garycrider935@gmail.com)<gary_crider@yahoo.com>
+>>FF Travis Martin (tmartin1072@gmail.com)<tmartin1072@hotmail.com>
+>>Gary Crider (garycrider935@gmail.com)<gary_crider@yahoo.com>
 Keith Autry <heavyrescue4@gmail.com>
 Justin Alter <jalter639@gmail.com>
 Thomas Homenchak <thomenchak@gmail.com>
@@ -1061,6 +1061,9 @@ Charles Talbott (ct5358@gmail.com)<medic2@comcast.net>
 Scott Wilkerson (scottw9799@gmail.com)(Scottwilkerson@comcast.net)
 %%01/09/2012
 Ed Miller (efm185@gmail.com)(efm185@ptd.net)
+%%01/09/2012
+"jameswhiteheart@gmail.com" <jameswhiteheart@gmail.com>
+Wayne Crider <wcrider15@gmail.com>
  
 // List of users getting free credit for 2012
 $free_2012_list
@@ -1151,3 +1154,11 @@ Chris Roberts <rhvfd13@gmail.com>
 "Kevin R. Murphy" (kevrmurphy@gmail.com)<kmurphy@rileyfire.com>
 brett schroeder <bschroeder620@gmail.com>
 Brent Henry <nightmare4sgt@gmail.com>
+%%01/09/2012
+Jason Overholt <jkoverholt@gmail.com>
+Mike Stadelman <infernoballz@gmail.com>
+"Hillerman, Scott" (irechief371@gmail.com)<shillerman@mobilemedical.org>
+%%01/10/2012
+Bob Snover (rjsnoverjr@gmail.com)<rjsnover@hotmail.com>
+Kevin Dann <kdann210@gmail.com>
+Matt Chesnov <mchesnov@gmail.com>
