@@ -485,7 +485,7 @@
   <string name="notification_msg_acc_text">Processing incoming alert</string>
   
   <!-- Direct Paging settings -->
-  <string name="pref_direct_paging_title">Direct Paging Settings</string>
+  <string name="pref_direct_paging_title">Direct Paging Vendors</string>
   <string name="pref_direct_paging_summary">Set up direct paging service</string>
   
 </resources>

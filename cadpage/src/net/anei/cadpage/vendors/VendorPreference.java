@@ -8,16 +8,18 @@ class VendorPreference extends CheckBoxPreference {
   
   private Vendor vendor;
   
-  VendorPreference(Context context, Vendor vendor) {
+  VendorPreference(Context context, Vendor vendor, int order) {
     super(context);
     
     // Initialize preference
     this.vendor = vendor;
-    setOrder(0);
+    vendor.registerPreference(this);
+    
+    setOrder(order);
     setTitle(vendor.getTitleId());
     int summary = vendor.getSummaryId();
     if (summary > 0) setSummary(summary);
-    setChecked(vendor.isEnabled());
+    update();
     
     // Onchange listener that always returns false.  User cannot actually
     // change the preference setting directly
@@ -35,5 +37,9 @@ class VendorPreference extends CheckBoxPreference {
         return true;
       }
     });
+  }
+
+  void update() {
+    setChecked(vendor.isEnabled());
   }
 }

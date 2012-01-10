@@ -787,7 +787,7 @@ Lisa Edwards (jojosmima@gmail.com)<ledwards@townofchapelhill.org>
 %%11/11/2011
 >>FF Travis Martin (tmartin1072@gmail.com)<tmartin1072@hotmail.com>
 >>Gary Crider (garycrider935@gmail.com)<gary_crider@yahoo.com>
-Keith Autry <heavyrescue4@gmail.com>
+>>Keith Autry <heavyrescue4@gmail.com>
 Justin Alter <jalter639@gmail.com>
 Thomas Homenchak <thomenchak@gmail.com>
 Lance Adam <firefighter40@gmail.com>
@@ -1064,6 +1064,8 @@ Ed Miller (efm185@gmail.com)(efm185@ptd.net)
 %%01/09/2012
 "jameswhiteheart@gmail.com" <jameswhiteheart@gmail.com>
 Wayne Crider <wcrider15@gmail.com>
+%%01/10/2012
+rob stickley (rkswildcat@earthlink.net)
  
 // List of users getting free credit for 2012
 $free_2012_list

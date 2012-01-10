@@ -2,7 +2,7 @@
 <resources>
 
   <string-array name="donate_devel_list">
-    <!-- item>kencorbin101@gmail.com</item-->
+    <item>kencorbin101@gmail.com</item>
     <item>deweythomas@gmail.com</item>
   </string-array>
   

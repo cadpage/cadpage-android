@@ -44,8 +44,11 @@ abstract class Vendor {
   private String account;
   private String token;
   
+  // Vendor preference that may need to be updated when status changes
+  private VendorPreference preference = null;
+  
   // Vendor Activity that may need to be updated when status changes
-  private VendorActivity activity;
+  private VendorActivity activity = null;
   
   
   Vendor(int titleId, int summaryId, int textId, int iconId, int logoId,
@@ -136,6 +139,14 @@ abstract class Vendor {
    */
   boolean isAvailable() {
     return false;
+  }
+  
+  /**
+   * Register VendorPreference associated with this vendor
+   * @param preference Vendor preference object
+   */
+  void registerPreference(VendorPreference preference) {
+    this.preference = preference;
   }
   
   /**
@@ -359,6 +370,7 @@ abstract class Vendor {
       DonationManager.instance().reset();
       MainDonateEvent.instance().refreshStatus();
     }
+    if (preference != null) preference.update();
     if (activity != null) activity.update();
   }
 

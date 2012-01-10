@@ -40,9 +40,10 @@ public class VendorManager {
    */
   public void setupPreference(Context context, PreferenceScreen pref) {
     boolean developer = DeveloperToolsManager.instance().isDeveloper(context);
+    int order = 10;
     for (Vendor vendor : vendorList) {
       if (developer || vendor.isAvailable()) {
-        pref.addPreference(new VendorPreference(context, vendor));
+        pref.addPreference(new VendorPreference(context, vendor, order++));
       }
     }
   }

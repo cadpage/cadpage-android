@@ -81,7 +81,6 @@ public class VendorActivity extends Activity {
           @Override
           public void onClick(DialogInterface dialog, int which) {
             vendor.unregisterReq(VendorActivity.this);
-            VendorActivity.this.finish();
           }
         })
         .setNegativeButton(android.R.string.no, null)
