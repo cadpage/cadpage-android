@@ -232,6 +232,20 @@ public class NYOneidaCountyParserTest extends BaseParserTest {
         "CITY:NEW HARTFORD");
   }
   
+  @Test
+  public void testParser5() {
+
+    doTest("T1",
+        ".... (Waterville Amb) &#239;&#187;&#191;WATA:2012:0010 &gt;Dispatched &gt;EMS CALL &gt;141 SANGER AVE, WATERVILLE VILLAGE (PARK PL/MADISON ST)",
+        "SRC:Waterville Amb",
+        "ID:2012:0010",
+        "CALL:EMS CALL",
+        "ADDR:141 SANGER AVE",
+        "CITY:WATERVILLE VILLAGE",
+        "X:PARK PL/MADISON ST");
+
+  }
+  
   public static void main(String[] args) {
     new NYOneidaCountyParserTest().generateTests("T1", "SRC ID CODE CALL PLACE ADDR CITY X INFO");
   }
