@@ -343,6 +343,7 @@ public class Message {
    */
   public void setInfo(MsgInfo msgInfo) {
     this.info = msgInfo;
+    setLocationCode(info.getParser().getParserCode());
   }
 
   /**

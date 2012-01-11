@@ -13,8 +13,6 @@ public class GroupBestParser extends MsgParser {
   
   private String dispFilter;
   
-  private MsgParser lastParser = null;
-  
   public GroupBestParser(MsgParser ... parsers) {
     super(parsers[0].getDefaultCity(), parsers[0].getDefaultState());
     
@@ -43,7 +41,16 @@ public class GroupBestParser extends MsgParser {
   @Override
   protected Data parseMsg(Message msg, int parserFlags) {
     
-    MsgParser bestParser = null;
+    // If caller has requested general alerts and postively identified this as
+    // coming form dispatch, we will have to handle the general alerts ourselves
+    // Passing a positive ID flag to sub-parsers might cause them to return 
+    // an inappropriate general alert status for a message that could be handled
+    // by one of the other subparsers.
+    int mask = (PARSE_FLG_GEN_ALERT | PARSE_FLG_POSITIVE_ID);
+    boolean genAlert = (parserFlags & mask) == mask;
+    
+    parserFlags &= ~PARSE_FLG_POSITIVE_ID;
+    
     int bestScore = -1;
     Data bestData = null;
     
@@ -52,15 +59,21 @@ public class GroupBestParser extends MsgParser {
       if (tmp != null) {
         int newScore = tmp.score();
         if (newScore > bestScore) {
-          bestParser = parser;
           bestData = tmp;
           bestScore = newScore;
         }
       }
     }
     
-    lastParser = bestParser;
-    return bestData;
+    if (bestData != null) return bestData;
+    
+    // If this isn't a valid CAD page, see if we should treat it as a general alert
+    // If not then return failure
+    if (genAlert) {
+      return ManageParsers.getInstance().getAlertParser().parseMsg(msg, parserFlags);
+    }
+    
+    return null;
   }
 
   // We have to override this to satisfy abstract requirements, but it will
@@ -69,12 +82,4 @@ public class GroupBestParser extends MsgParser {
   protected boolean parseMsg(String strMessage, Data data) {
     return false;
   }
-  
-  // Override getParserCode to relay request to the parser that really
-  // parsed the information
-  @Override
-  public String getParserCode() {
-    return (lastParser == null ? null : lastParser.getParserCode());
-  }
-
 }

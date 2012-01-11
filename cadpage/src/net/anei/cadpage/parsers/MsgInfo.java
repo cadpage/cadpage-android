@@ -40,6 +40,9 @@ public class MsgInfo {
   // Cached map address
   private String strBaseMapAddress = null;
   
+  // Parser used to create this information block
+  private MsgParser parser;
+  
 
   /**
    * Temporary data class used to pass information to constructor
@@ -72,6 +75,17 @@ public class MsgInfo {
     public String defState="";
     
     public boolean expectMore = false;
+    
+    public MsgParser parser;
+    
+    public Data(MsgParser parser) {
+      this.parser = parser;
+      if (parser != null) {
+        this.defCity = parser.getDefaultCity();
+        this.defState = parser.getDefaultState();
+      }
+    }
+    
     
 
     /**
@@ -127,6 +141,8 @@ public class MsgInfo {
     defCity = info.defCity;
     defState = info.defState;
     expectMore = info.expectMore;
+    
+    parser = info.parser;
   }
   
   /**
@@ -688,6 +704,10 @@ public class MsgInfo {
    */
   public boolean isExpectMore() {
     return expectMore;
+  }
+  
+  public MsgParser getParser() {
+    return parser;
   }
   
 

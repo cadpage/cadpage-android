@@ -10,7 +10,7 @@ class Active911Vendor extends Vendor {
            R.string.active911_text,
            R.drawable.active_911_vendor,
            R.drawable.active_911_logo,
-           "http://www.active911.com/cadpage_registration",
+           "https://www.active911.com/cadpage_registration",
            ">A91");
   }
 

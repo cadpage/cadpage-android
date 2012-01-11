@@ -38,6 +38,9 @@ public abstract class MsgParser {
    */
   public static final int PARSE_FLG_FORCE = 0x7;
   
+  // parser code
+  private String parserCode;
+  
   // Default city and state passed in constructor
   private String defCity;
   private String defState;
@@ -52,6 +55,11 @@ public abstract class MsgParser {
   public MsgParser(String defCity, String defState) {
     this.defCity = defCity;
     this.defState = defState;
+    
+    String clsName = this.getClass().getName();
+    int ipt = clsName.lastIndexOf('.');
+    parserCode = clsName.substring(ipt+1, clsName.length()-6);
+
   }
 
   /**
@@ -94,7 +102,6 @@ public abstract class MsgParser {
     // Save parser code and information object in message so we won't have to
     // go through all of this again
     msg.setInfo(new MsgInfo(data));
-    msg.setLocationCode(getParserCode());
     return true;
   }
   
@@ -120,9 +127,7 @@ public abstract class MsgParser {
     // Decode the call page and place the data in the database
     String strSubject = msg.getSubject();
     String strMessage = msg.getMessageBody();
-    Data data = new Data();
-    data.defCity = defCity;
-    data.defState = defState;
+    Data data = new Data(this);
     if (strMessage == null) return data;
     if (parseMsg(strSubject, strMessage, data)) return data;
     
@@ -211,12 +216,7 @@ public abstract class MsgParser {
    * @return parser code identifying the parser that actually was used
    */
   public String getParserCode() {
-    // This will be overridden in the parser group classes, but here we
-    // just extract the parser code from our own class name
-    
-    String clsName = this.getClass().getName();
-    int ipt = clsName.lastIndexOf('.');
-    return clsName.substring(ipt+1, clsName.length()-6);
+    return parserCode;
   }
 
   /**
