@@ -63,6 +63,10 @@ Sender: messaging@iamresponding.com
 (New Hartford Fire) Dispatched >EMS CALL >@NH Post Office  (40 CAMPION RD), NEW HARTFORD
 (New Hartford Fire) Dispatched &gt;MVA-UNKNOWN &gt;@K-Mart  (4645 COMMERCIAL DR), NEW HARTFORD
 
+Contact: "bcsbeaverslew@yahoo.com" <bcsbeaverslew@yahoo.com>
+Sender: 777121901640
+.... (Waterville Amb) &#239;&#187;&#191;WATA:2012:0010 &gt;Dispatched &gt;EMS CALL &gt;141 SANGER AVE, WATERVILLE VILLAGE (PARK PL/MADISON ST)
+
 ** NOT IMPLEMENTED **
 FRM:dispatch@oc911.org\nMSG:???WEMF:2011:0346AcknowledgeMVA-UNKNOWNROUTE 233, WESTMORELAND/W MAIN ST (COUNTY ROUTE 23), WESTMORELAND
 ???STIF:2011:0140Dispatched30B01 - POSSIBLY DANGEROUS BODY AREA8533 CHAMINADE RD, MARCY (OLD RIVER RD/ORISKANY RD; Near:VINCES U PULL IT)
@@ -82,7 +86,7 @@ public class NYOneidaCountyParser extends SmartAddressParser {
   
   @Override
   public String getFilter() {
-    return "dispatch@ocgov.net,@oc911.org,messaging@iamresponding.com";
+    return "dispatch@ocgov.net,@oc911.org,messaging@iamresponding.com,7771";
   }
 
   @Override
