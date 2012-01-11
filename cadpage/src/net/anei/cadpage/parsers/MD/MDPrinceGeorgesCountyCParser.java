@@ -42,6 +42,10 @@ E810 Incident: F112050265, Type: Fire Alarm-AFA, Loc: 14402 LAUREL PL, LP, btwn 
 E808 Incident: F112050338<tel:112050338>, Type: Apartment Gas Leak, Loc: 5231 MARLBORO PIKE, PP, btwn SHAMROCK AVE and LEE JAY DR, TalkGroup: TGA4, Box: 2627, Map: 5650 D 2, Text: Fire ProQA recommends dispatch at this time, Units:BO883, E808, E817, QT838, TK829
 RE833 Incident: F112500109, Type: PIA Limited Access, Loc: WB JOHN HANSON HWY WB/BALTIMORE WASHINGTON PK Y NB, PP, at WB JOHN HANSON HWY WB/BALTIMORE WASHINGTON PKY NB, PP <0, TalkGroup: TGA2, Box: 2213, Map: 5530 A 3, Text: COMPL ADV OF A SIG 9I, LOC IS NEAR THE RAMP LOC IS B4 THE KENILWORTH EXIT ON THE RIGHT// E809, RE833
 
+Contact: support@active911.com
+Subject: CAD Feed
+Engine 811 Incident: F120060261, Type: Medic Local, Loc: 11000 BALTIMORE AVE #105, PP, btwn SELLMAN RD and HARFORD AVE, TalkGroup: TGA2, Box: 3104, Map: 5288 E 5, Text: Medical ProQA recommends dispatch at this time, Units:A814, E811B, MD810\n\nSent to Prince George's alert recipients (E-mail, Wireless) through Alert Prince George's\n... powered by Cooper Notification's Roam Secure Alert Network\n--\n
+
 */
 
 public class MDPrinceGeorgesCountyCParser extends FieldProgramParser {
@@ -58,6 +62,8 @@ public class MDPrinceGeorgesCountyCParser extends FieldProgramParser {
   
   @Override
   public boolean parseMsg(String body, Data data) {
+    int pt = body.indexOf('\n');
+    if (pt >= 0) body = body.substring(0,pt).trim();
     body = body.replace(" Incident:", ", Incident:");
     body = body.replace(" Unit:", " Units:");
     if (!parseFields(body.split(","), data)) return false;
