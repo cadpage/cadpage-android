@@ -67,6 +67,11 @@ public class C2DMReceiver extends BroadcastReceiver {
   }
   
   private void handleRegistration(Context context, Intent intent) {
+    
+    // Dump intent info
+    Log.w("Processing C2DM Registration");
+    ContentQuery.dumpIntent(intent);
+    
     String error = intent.getStringExtra("error");
     if (error != null) {
       Log.w("C2DM registration failed: " + error);
@@ -99,8 +104,8 @@ public class C2DMReceiver extends BroadcastReceiver {
     if (ManagePreferences.registrationId() == null) return;
     
     // Dump intent info
-//    Log.w("Processing C2DM Message");
-//    ContentQuery.dumpIntent(intent);
+    Log.w("Processing C2DM Message");
+    ContentQuery.dumpIntent(intent);
     
     // See what kind of message this is
     String type = intent.getStringExtra("type");

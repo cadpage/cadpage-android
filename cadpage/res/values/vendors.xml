@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
   <string name="code_messaging_title">CodeMessaging.net</string>
-  <string name="code_messaging_summary">CodeMessaging.net is supper cool!!!</string>
+  <string name="code_messaging_summary">
+    Full-featured department messaging platform for routing dispatches
+    anywhere and getting alerts out to responders FAST!
+  </string>
   <string name="code_messaging_text">
-    A nice long description of why CodeMessaging.net is such a cool product and
-    why everyone should sign up for it immediately
+    Send and display your department"'"s dispatches on any device and
+    monitor responder status in real-time with Response Check. Users can login
+    and send messages within the department as well as manage their own profile
+    to route dispatches to any device (phones, pagers, tablets, computers,
+    televisions, etc). CodeMessaging.net specializes in bringing control of
+    dispatching to the department and responder.
   </string>
   
   <string name="active911_title">Active 911</string>

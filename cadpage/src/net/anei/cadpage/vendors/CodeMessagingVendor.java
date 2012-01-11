@@ -8,9 +8,20 @@ class CodeMessagingVendor extends Vendor {
     super(R.string.code_messaging_title,
            R.string.code_messaging_summary,
            R.string.code_messaging_text,
-           0,
-           0,
+           R.drawable.code_messaging_vendor,
+           R.drawable.code_messaging_logo,
            "http://www.CodePassport.net/CodePassport.asp?wci=Android",
            ">CMG");
   }
+
+  @Override
+  boolean isSponsored() {
+    return true;
+  }
+
+  @Override
+  boolean isAvailable() {
+    return false;
+  }
+  
 }
