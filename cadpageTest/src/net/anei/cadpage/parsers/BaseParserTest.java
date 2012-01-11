@@ -46,6 +46,10 @@ public abstract class BaseParserTest {
     if (parserLocCode == null) parserLocCode = parser.getParserCode();
   }
   
+  public void setexpLocCode(String parserLocCode) {
+    this.parserLocCode = parserLocCode;
+  }
+  
   public void setDefaults(String defCity, String defState) {
     this.defCity = defCity;
     this.defState = defState;
@@ -62,6 +66,7 @@ public abstract class BaseParserTest {
   
   @Test
   public void testBadMsg() {
+    if (parser == null) return;
     // Just call the parser with a badly formated msg and make sure it doesn't croak
     checkError("BAD MSG");
     checkError("");
@@ -119,7 +124,7 @@ public abstract class BaseParserTest {
    * @param result - expected results
    */
   public void doSubTest(String title, boolean chkMapAddr, String subject, String test, String ... result) {
-    MsgInfo.Data data = new MsgInfo.Data();
+    MsgInfo.Data data = new MsgInfo.Data(null);
     String expMapAddr = "";
     for (String str : result) {
       int pt = str.indexOf(':');

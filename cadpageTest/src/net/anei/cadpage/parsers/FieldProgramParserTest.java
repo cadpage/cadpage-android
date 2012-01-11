@@ -558,7 +558,7 @@ public class FieldProgramParserTest extends BaseParserTest {
   private void doFieldFail(String title, String program, String body) {
     parser.setProgram(program);
     parser.checkForSkips();
-    assertFalse(parser.parseMsg(body, new Data()));
+    assertFalse(parser.parseMsg(body, new Data(parser)));
   }
   
   private static class TestParser extends FieldProgramParser {

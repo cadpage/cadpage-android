@@ -1,32 +1,33 @@
 package net.anei.cadpage.parsers;
 
+import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.CO.COAdamsCountyParser;
 import net.anei.cadpage.parsers.CO.COWeldCountyParser;
 import net.anei.cadpage.parsers.CO.CONorthglennEMSParser;
 
 import org.junit.Test;
+import static org.junit.Assert.*;
 
 
 public class GroupBestParserTest extends BaseParserTest {
   
-  public GroupBestParserTest() {
-    MsgParser[] parsers = new MsgParser[]{
-        new COAdamsCountyParser(),
-        new COWeldCountyParser(),
-        new CONorthglennEMSParser()
-    };
-    setParser(new GroupBestParser(parsers), "", "");
-  }
-  
   @Test
-  public void testParser() {
+  public void testRealParser() {
     
+    MsgParser adamsParser = new COAdamsCountyParser();
+    MsgParser weldCountyParser = new COWeldCountyParser();
+    MsgParser northGlennParser = new CONorthglennEMSParser();
+    MsgParser[] parsers = new MsgParser[]{ adamsParser, weldCountyParser, northGlennParser };
+    setParser(new GroupBestParser(parsers), "", "");
+    
+    setexpLocCode(adamsParser.getParserCode());
     setDefaults("ADAMS COUNTY", "CO");
     doTest("ADAMS COUNTY",
         "Subject:IPS I/Page Notification E 64TH AVE/MONACO ST ADAM CCPD 09:51:48 TYPE CODE: ACCI CALLER NAME: TIME: 09:51:48 Comments: -104.90947",
         "ADDR:E 64TH AVE & MONACO ST",
         "CALL:ACCI");
 
+    setexpLocCode(weldCountyParser.getParserCode());
     setDefaults("WELD COUNTY", "CO");
     doTest("Greeley",
         "20442,ALARMF,23691 CR 60H.E1 E4 L1,TEXT:AUDIBLE FROM GENERAL AND SMOKE DETECTOR \\COMP:1ST CLASS SECURITY \\PH:800 482 9800," ,
@@ -39,11 +40,142 @@ public class GroupBestParserTest extends BaseParserTest {
         "NAME:1ST CLASS SECURITY",
         "PHONE:800 482 9800");
     
+    setexpLocCode(northGlennParser.getParserCode());
     setDefaults("ADAMS COUNTY", "CO");
     doTest("T1",
         "- part 1 of 1 / RC:Run# 10174/6211 OLIVE ST///Pregnancy / Childbirth/",
         "ID:10174",
         "ADDR:6211 OLIVE ST",
         "CALL:Pregnancy / Childbirth");
+  }
+  
+  @Test
+  public void testSingleParser() {
+    MsgParser parser = new TestParser("TESTA", "AFROM", "AA");
+    
+    int flgs = 0;
+    doTest(parser, flgs, "AFROM", "AA", "TESTA", "TESTA", "");
+    doFail(parser, flgs, "AFROM", "BB");
+    doFail(parser, flgs, "BFROM", "AA");
+    
+    flgs = MsgParser.PARSE_FLG_GEN_ALERT;
+    doTest(parser, flgs, "AFROM", "AA", "TESTA", "TESTA", "");
+    doTest(parser, flgs, "AFROM", "BB", "GeneralAlert", "GENERAL ALERT", "BB");
+    doFail(parser, flgs, "BFROM", "AA");
+    
+    flgs = MsgParser.PARSE_FLG_SKIP_FILTER;
+    doTest(parser, flgs, "AFROM", "AA", "TESTA", "TESTA", "");
+    doFail(parser, flgs, "AFROM", "BB");
+    doTest(parser, flgs, "BFROM", "AA", "TESTA", "TESTA", "");
+    
+    flgs = MsgParser.PARSE_FLG_FORCE;
+    doTest(parser, flgs, "AFROM", "AA", "TESTA", "TESTA", "");
+    doTest(parser, flgs, "AFROM", "BB", "GeneralAlert","GENERAL ALERT", "BB");
+    doTest(parser, flgs, "BFROM", "AA", "TESTA", "TESTA", "");
+  }
+  
+  @Test
+  public void testGroupParser() {
+    MsgParser parser = new GroupBestParser(new MsgParser[]{
+        new TestParser("TESTA", "AFROM", "AA"),   
+        new TestParser("TESTB", "BFROM", "BB"),   
+    });
+    
+    int flgs = 0;
+    doTest(parser, flgs, "AFROM", "AA", "TESTA", "TESTA", "");
+    doTest(parser, flgs, "BFROM", "BB", "TESTB", "TESTB", "");
+    doFail(parser, flgs, "AFROM", "BB");
+    doFail(parser, flgs, "BFROM", "AA");
+    
+    flgs = MsgParser.PARSE_FLG_GEN_ALERT;
+    doTest(parser, flgs, "AFROM", "AA", "TESTA", "TESTA", "");
+    doTest(parser, flgs, "BFROM", "BB", "TESTB", "TESTB", "");
+    doTest(parser, flgs, "AFROM", "BB", "GeneralAlert", "GENERAL ALERT", "BB");
+    doTest(parser, flgs, "BFROM", "AA", "GeneralAlert", "GENERAL ALERT", "AA");
+    doFail(parser, flgs, "CFROM", "AA");
+    
+    flgs = MsgParser.PARSE_FLG_SKIP_FILTER;
+    doTest(parser, flgs, "AFROM", "AA", "TESTA", "TESTA", "");
+    doTest(parser, flgs, "BFROM", "BB", "TESTB", "TESTB", "");
+    doTest(parser, flgs, "AFROM", "BB", "TESTB", "TESTB", "");
+    doTest(parser, flgs, "BFROM", "AA", "TESTA", "TESTA", "");
+    doTest(parser, flgs, "CFROM", "AA", "TESTA", "TESTA", "");
+    doFail(parser, flgs, "CFROM", "CC");
+    
+    flgs = MsgParser.PARSE_FLG_FORCE;
+    doTest(parser, flgs, "AFROM", "AA", "TESTA", "TESTA", "");
+    doTest(parser, flgs, "BFROM", "BB", "TESTB", "TESTB", "");
+    doTest(parser, flgs, "AFROM", "BB", "TESTB", "TESTB", "");
+    doTest(parser, flgs, "BFROM", "AA", "TESTA", "TESTA", "");
+    doTest(parser, flgs, "CFROM", "AA", "TESTA", "TESTA", "");
+    doTest(parser, flgs, "CFROM", "CC", "GeneralAlert", "GENERAL ALERT", "CC");
+  }
+  
+
+  public void doFail(MsgParser parser, int flags, String address, String body) {
+    TestMessage msg = new TestMessage(address, body);
+    assertFalse("pass", parser.isPageMsg(msg, flags));
+  }
+  
+  public void doTest(MsgParser parser, int flags, String address, String body,
+                      String expParser, String expCall, String expPlace) {
+    
+    TestMessage msg = new TestMessage(address, body);
+    assertTrue("fail", parser.isPageMsg(msg, flags));
+    assertEquals("parser", expParser, msg.getLocationCode());
+    assertEquals("call", expCall, msg.getInfo().getCall());
+    assertEquals("place", expPlace, msg.getInfo().getPlace());
+  }
+  
+  // Test message that retains location code
+  private static class TestMessage extends Message {
+    private String location;
+
+    public TestMessage(String address, String body) {
+      super(false, address, "", body);
+    }
+    
+    @Override
+    protected void setLocationCode(String location) {
+      this.location = location;
+    }
+    
+    public String getLocationCode() {
+      return location;
+    }
+  }
+  
+  // Test message parser used to build test Group parsers
+  private static class TestParser extends MsgParser {
+    
+    private String name;
+    private String filter;
+    private String key;
+    
+    public TestParser(String name, String filter, String key) {
+      super("", "");
+      this.name = name;
+      this.filter = filter;
+      this.key = key;
+    }
+    
+    @Override
+    public String getFilter() {
+      return filter;
+    }
+
+    @Override
+    public String getParserCode() {
+      return name;
+    }
+    
+    @Override
+    public boolean parseMsg(String body, Data data) {
+      if (!body.startsWith(key)) return false;
+      data.strCall = name;
+      return true;
+    }
+    
+    
   }
 }

@@ -117,7 +117,7 @@ public class MsgInfoTest {
   
   private void doMapTest(String title, String result, String address, 
                            String cross, String city, String state) {
-    MsgInfo.Data data = new MsgInfo.Data();
+    MsgInfo.Data data = new MsgInfo.Data(null);
     data.strAddress = address;
     data.strCross = cross;
     data.strCity = city;
@@ -131,7 +131,7 @@ public class MsgInfoTest {
   }
   
   private void doMapPlaceTest(String title, String result, String address, String place) { 
-    MsgInfo.Data data = new MsgInfo.Data();
+    MsgInfo.Data data = new MsgInfo.Data(null);
     data.strAddress = address;
     data.strPlace = place;
     
