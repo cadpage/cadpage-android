@@ -32,6 +32,11 @@ public abstract class MsgParser {
    * should be treated as general alerts 
    */
   public static final int PARSE_FLG_GEN_ALERT = 0x04;
+
+  /**
+   * Force flag forces processing of message
+   */
+  public static final int PARSE_FLG_FORCE = 0x7;
   
   // Default city and state passed in constructor
   private String defCity;

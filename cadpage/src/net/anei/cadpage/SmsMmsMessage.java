@@ -402,7 +402,7 @@ public class SmsMmsMessage implements Serializable {
     if (parseInfo == null) return true;
     
     if (force) {
-      parserFlags |= MsgParser.PARSE_FLG_POSITIVE_ID | MsgParser.PARSE_FLG_GEN_ALERT;
+      parserFlags |= MsgParser.PARSE_FLG_FORCE;
     } else if (ManagePreferences.genAlert()) {
       parserFlags |= MsgParser.PARSE_FLG_GEN_ALERT;
     }
