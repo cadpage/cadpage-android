@@ -346,10 +346,53 @@ public class MDCharlesCountyParserTest extends BaseParserTest {
         "INFO:PROBLEMS WITH THE FIRE PLACE / SMIKE IN THE RESIDENCE",
         "ID:F120080005");
 
+    doTest("T7",
+        "SICK PERSON, EMS, ALS, 26C, 26D MALL CIR, VAN GO BUS 702 10 C3 Age unknown, female, conscious, breathing. E120100069 1200551 18:24",
+        "CALL:SICK PERSON",
+        "UNIT:EMS, ALS, 26C, 26D",
+        "ADDR:MALL CIR",
+        "MADDR:VAN GO BUS 702,MALL CIR",
+        "PLACE:VAN GO BUS 702",
+        "MAP:10 C3",
+        "INFO:Age unknown, female, conscious, breathing. E120100069 1200551 18:24");
+
+    doTest("T8",
+        "TROUBLE BREATHING, RESPIRATORY DISTRESS, EMS, ALS, 6C, 6D 2547 MATTAWOMAN BEANTOWN RD 5 A12 81-year-old, female, conscious, breathing. Calle",
+        "CALL:TROUBLE BREATHING, RESPIRATORY DISTRESS",
+        "UNIT:EMS, ALS, 6C, 6D",
+        "ADDR:2547 MATTAWOMAN BEANTOWN RD",
+        "MAP:5 A12",
+        "INFO:81-year-old, female, conscious, breathing. Calle");
+
+    doTest("T9",
+        "SICK PERSON, EMS, ALS, 26C, 26D 9559 PEP RALLY LN 3 C13 13-month-old, male, conscious, breathing. Caller Statement: NOT RESPONDING. E120100",
+        "CALL:SICK PERSON",
+        "UNIT:EMS, ALS, 26C, 26D",
+        "ADDR:9559 PEP RALLY LN",
+        "MAP:3 C13",
+        "INFO:13-month-old, male, conscious, breathing. Caller Statement: NOT RESPONDING. E120100");
+
+    doTest("T10",
+        "CHEST PAINS, EMS, ALS, 10C, 10D 12171 ELL LN, APT61 10 H4 42-year-old, female, conscious, breathing. Caller Statement: CHEST. E120100048 120",
+        "CALL:CHEST PAINS",
+        "UNIT:EMS, ALS, 10C, 10D",
+        "ADDR:12171 ELL LN",
+        "PLACE:APT61",
+        "MAP:10 H4",
+        "INFO:42-year-old, female, conscious, breathing. Caller Statement: CHEST. E120100048 120");
+
+    doTest("T11",
+        "TROUBLE BREATHING, RESPIRATORY DISTRESS, EMS, ALS, 6C, 6D 402 GARNER AVE 10 B6 45-year-old, female, conscious, breathing. Caller Statement:",
+        "CALL:TROUBLE BREATHING, RESPIRATORY DISTRESS",
+        "UNIT:EMS, ALS, 6C, 6D",
+        "ADDR:402 GARNER AVE",
+        "MAP:10 B6",
+        "INFO:45-year-old, female, conscious, breathing. Caller Statement:");
+
   }
     
   public static void main(String[] args) {
-    new MDCharlesCountyParserTest().generateTests("T1", "CALL UNIT ADDR APT PLACE CODE MAP INFO ID");
+    new MDCharlesCountyParserTest().generateTests("T7", "CALL UNIT ADDR APT PLACE CODE MAP INFO ID");
   }
 
 }
