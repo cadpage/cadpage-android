@@ -1372,9 +1372,9 @@ Subject:Dispatch\nDispatch ** 23:01 ** MEDICAL ALARM ACTIVATION ** 790 E MAPLE A
 Subject:Dispatch\nDispatch ** 21:01 ** BREATHING PROBLEMS ** 5400 ROUTE 31 ** HALL, JANET ** WHITBECK RD * W UNION ST ** 315-359-3978 ** \n
 ***************************************************************************
 Wyoming County, NY
-2314, STEDMAN RD;BENNINGTON TOWN (TINKHAM RD / GEISE RD)\n4105-Fire Alarm\nBE:2011:59\nThe document(s) accompanying t
-560, BURROUGH RD;BENNINGTON TOWN (GETMAN RD / FRIEDMAN RD)\n4001-Abdominal Pain\nBE:2011:57\nThe document(s) accompan
-ATTICA RODEO GROUNDS ;ATTICA VILLAGE ( 230 EXCHANGE ST)\n4109-Stand-by\nAT:2011:211
+SICK PERSON\n90 KERN RD BENT (Between ERIE CO LINE & URF RD) ADULT FML NOT FEELING WELL
+FALLS\n1387 ROUTE 77 BENT (Between ROUTE 354 & POLAND HILL RD)
+HEART PROBLEMS\n1535 FRIEDMAN RD BENT (Between ROUTE 77 & TINKHAM RD)
 ***************************************************************************
 Westchester County, NY (NYWestchesterCountyParser)
 IPage / 4 DUDLEY LN MAMARONECK_T, Cross: FENIMORE RD, Type:ALARM, RESD, Time out: 09:42:46 Area: MAMTW,Alarm lev: 0 ,Comments:
@@ -3706,21 +3706,6 @@ S:Call M:FIRE / 10-50 J-2 / STATE RD CC JEFFCO/FESTUS FIRE / HWY 67 / FIRE DEPT 
 **********************************************************
 **********************************************************
 **********************************************************
-Wyoming County, NY (REPLACE!!!)
-Contact: Louis Yunker <louisyunker@yahoo.com>
-Sender: wyco911@wyomingco.net
-SEIZURE/CONVULSION\n 1375 ROUTE 354 BENT (Between ROUTE 77 & GRAFF RD)
-HEART PROBLEMS\n1535 FRIEDMAN RD BENT (Between ROUTE 77 & TINKHAM RD)
-STRUCTURE FIRE\nFRENCH RD BENT (Between ROUTE 354 & HOOVER RD) barn fire
-SEIZURE/CONVULSION\n1375 ROUTE 354 BENT (Between ROUTE 77 & GRAFF RD)
-STRUCTURE FIRE\n1649 ROUTE 238 ATTT (Between NESBITT RD & ATTICA TOWN LINE)
-
-Contact: Kimo Brandon <brandokw@clarkson.edu>
-Sender: wyco911@wyomingco.net
-SICK PERSON\n90 KERN RD BENT (Between ERIE CO LINE & URF RD) ADULT FML NOT FEELING WELL
-FALLS\n1387 ROUTE 77 BENT (Between ROUTE 354 & POLAND HILL RD)
-HEART PROBLEMS\n1535 FRIEDMAN RD BENT (Between ROUTE 77 & TINKHAM RD)
-STRUCTURE FIRE\nFRENCH RD BENT (Between ROUTE 354 & HOOVER RD) barn fire
 **********************************************************
 Onondaga County, NY
 Contact: Andrew Clark <ajc0079@gmail.com>

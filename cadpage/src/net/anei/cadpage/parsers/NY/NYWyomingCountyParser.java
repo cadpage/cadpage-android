@@ -1,110 +1,56 @@
 package net.anei.cadpage.parsers.NY;
 
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
+import java.util.Properties;
 
-import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.SmartAddressParser;
 
 
 /*
-Wyoming County, NY
-Contact: Kimo Brandon <brandokw@clarkson.edu>,5853565874@vtext.com
-Sender: benningtonfd+bncCJaK9YeOBRDD1c7yBBoEC5LrgA@googleg
-        benningtonfd+bncCJaK9YeOBRCi3LryBBoEcjen6A@googleg
+Wyoming County, NY (REPLACE!!!)
+Contact: Kimo Brandon <brandokw@clarkson.edu>
+Contact: Louis Yunker <louisyunker@yahoo.com>
+Sender: wyco911@wyomingco.net
 
- 2314, STEDMAN RD;BENNINGTON TOWN (TINKHAM RD / GEISE RD)\n4105-Fire Alarm\nBE:2011:59\nThe document(s) accompanying t
- 560, BURROUGH RD;BENNINGTON TOWN (GETMAN RD / FRIEDMAN RD)\n4001-Abdominal Pain\nBE:2011:57\nThe document(s) accompan
- ATTICA RODEO GROUNDS ;ATTICA VILLAGE ( 230 EXCHANGE ST)\n4109-Stand-by\nAT:2011:211
-709, BURROUGH RD;BENNINGTON TOWN (FRIEDMAN RD / ROUTE 354)\n4026-Sick Person\nBE:2011:54
- 1204, FRENCH RD;BENNINGTON TOWN (ROUTE 354 / HOOVER RD)\n4001-Abdominal Pain\nBE:2011:51
- 2050, ROUTE 354 #PH;BENNINGTON TOWN (FRENCH RD / MAXON RD)\n4002-Allergies\nBE:2011:46
- 1950, ROUTE 354 ;BENNINGTON TOWN (FRENCH RD / MAXON RD)\n6302-MVA/INJURY\nBE:2011:45
-32,S PEARL ST #APT LOWER;ATTICA VILLAGE (MAIN ST / DEAD END)\n4010-Chest Pain\nAT:2011:174
- 380, ROUTE 77 ;BENNINGTON TOWN (GENESEE CO LINE / CHURCH RD)\n4030-Traumatic Injury\nBE:2011:42
-(!BE) BURROUGHS RD/ROUTE 20A\n4029-Traffic Accident\nHC:2011:17
+SICK PERSON\n90 KERN RD BENT (Between ERIE CO LINE & URF RD) ADULT FML NOT FEELING WELL
+FALLS\n1387 ROUTE 77 BENT (Between ROUTE 354 & POLAND HILL RD)
+HEART PROBLEMS\n1535 FRIEDMAN RD BENT (Between ROUTE 77 & TINKHAM RD)
+STRUCTURE FIRE\nFRENCH RD BENT (Between ROUTE 354 & HOOVER RD) barn fire
+SEIZURE/CONVULSION\n1375 ROUTE 354 BENT (Between ROUTE 77 & GRAFF RD)
+STRUCTURE FIRE\n1649 ROUTE 238 ATTT (Between NESBITT RD & ATTICA TOWN LINE)
 
 */
 
 
-public class NYWyomingCountyParser extends FieldProgramParser {
+public class NYWyomingCountyParser extends SmartAddressParser {
+  
+  public NYWyomingCountyParser() {
+    super(CITY_CODES, "WYOMING COUNTY", "NY");
+  }
+  
+  @Override
+  public String getFilter() {
+    return "wyco911@wyomingco.net";
+  }
+
+  @Override
+  protected boolean parseMsg(String body, Data data) {
+    String[] flds = body.split("\n");
+    if (flds.length != 2) return false;
+
+    data.strCall = flds[0];
+    Parser p = new Parser(flds[1]);
+    String sAddr = p.get("(Between ");
+    data.strCross = p.get(')');
+    data.strSupp = p.get();
     
-    public NYWyomingCountyParser() {
-      super("WYOMING COUNTY", "NY",
-             "ADDR CALL SRCMAP!");
-    }
+    parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END, sAddr, data);
+    return true;
     
-    @Override
-    public String getFilter() {
-      return "benningtonfd";
-    }
-
-	  @Override
-	  protected boolean parseMsg(String body, Data data) {
-	    return parseFields(body.split("\n"), data);
-	  }
-	  
-	  private static final Pattern X_PTN = Pattern.compile("\\((.*?)\\)$");
-	  private class MyAddressField extends AddressField {
-	    
-	    @Override
-	    public void parse(String field, Data data) {
-	      Matcher match = X_PTN.matcher(field);
-	      if (match.find()) {
-	        data.strCross = match.group(1).trim();
-	        field = field.substring(0,match.start()).trim();
-	      }
-	      Parser p = new Parser(field);
-	      String sCity = p.getLastOptional(";");
-	      sCity = stripTrail(sCity, " TOWN");
-	      sCity = stripTrail(sCity, " VILLAGE");
-	      sCity = stripTrail(sCity, " CITY");
-	      data.strCity = sCity;
-	      data.strPhone = p.getLastOptional(" #PH");
-	      data.strApt = p.getLastOptional(" #APT");
-	      parseAddress(p.get().replaceAll(", ?", " "), data);
-	      
-	      if (checkAddress(data.strAddress) == 0  && checkAddress(data.strCross) > 0) {
-	        data.strPlace = data.strAddress;
-	        data.strAddress = data.strCross;
-	        data.strCross = "";
-	      }
-	    }
-	    
-	    @Override
-	    public String getFieldNames() {
-	      return "PLACE ADDR APT PHONE CITY X";
-	    }
-	    
-	    private String stripTrail(String field, String term) {
-	      if (field.endsWith(term)) field = field.substring(0, field.length()-term.length()).trim();
-	      return field;
-	    }
-	  }
-
-	  private static final Pattern SRC_MAP_PTN = Pattern.compile("([A-Z]{2}):(\\d{4}:\\d{1,4})");
-	  private class SourceMapField extends Field {
-	    
-      @Override
-      public void parse(String field, Data data) {
-        Matcher match = SRC_MAP_PTN.matcher(field);
-        if (!match.matches()) abort();
-        data.strSource = match.group(1);
-        data.strMap = match.group(2);
-      }
-      
-      @Override
-      public String getFieldNames() {
-        return "SRC MAP";
-      }
-	  }
-
-    @Override
-    protected Field getField(String name) {
-      if (name.equals("ADDR")) return new MyAddressField();
-      if (name.equals("SRCMAP")) return new SourceMapField();
-      return super.getField(name);
-    }
-	  
-	}
-	
+  }
+  
+  private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "ATTT", "ATTICA",
+      "BENT", "BENNINGTON"
+  });
+}
