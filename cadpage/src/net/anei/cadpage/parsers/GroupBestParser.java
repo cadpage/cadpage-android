@@ -41,15 +41,14 @@ public class GroupBestParser extends MsgParser {
   @Override
   protected Data parseMsg(Message msg, int parserFlags) {
     
-    // If caller has requested general alerts and postively identified this as
-    // coming form dispatch, we will have to handle the general alerts ourselves
-    // Passing a positive ID flag to sub-parsers might cause them to return 
-    // an inappropriate general alert status for a message that could be handled
-    // by one of the other subparsers.
-    int mask = (PARSE_FLG_GEN_ALERT | PARSE_FLG_POSITIVE_ID);
-    boolean genAlert = (parserFlags & mask) == mask;
-    
-    parserFlags &= ~PARSE_FLG_POSITIVE_ID;
+    // OK, this gets complicated
+    // If all three flags are on (which is what PARSE_FLG_FORCE is, we can't
+    // pass them directly to the subparsers.  If we do, they will all return
+    // a general alert status, possibly masking a real positive parser hit from
+    // one of the other parsers.  In this case, and this case only, we turn off
+    // the general alert flag passed to subparsers and handle it ourselves
+    boolean genAlert = (parserFlags & MsgParser.PARSE_FLG_FORCE) == MsgParser.PARSE_FLG_FORCE;
+    if (genAlert) parserFlags &= ~PARSE_FLG_GEN_ALERT;
     
     int bestScore = -1;
     Data bestData = null;
@@ -67,8 +66,8 @@ public class GroupBestParser extends MsgParser {
     
     if (bestData != null) return bestData;
     
-    // If this isn't a valid CAD page, see if we should treat it as a general alert
-    // If not then return failure
+    // If non of our subparsers found this to be valid page, and the original
+    // flags forced a general alert, handle that now
     if (genAlert) {
       return ManageParsers.getInstance().getAlertParser().parseMsg(msg, parserFlags);
     }
