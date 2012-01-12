@@ -515,9 +515,36 @@ public class PABucksCountyParserTest extends BaseParserTest {
         "ID:FD1117661",
         "UNIT:E5");
 
+    doTest("T42",
+        "911: STA4  type:FSPEC   adr:2318 KAY AV ,22  btwn DEAD END & MASTER AV  aai:  box:04005  map:3261C10  tm:14:27:35  FD1200565    Run: E4-1",
+        "SRC:STA4",
+        "CALL:FSPEC - SPECIAL ASSIGNMENT",
+        "ADDR:2318 KAY AV",
+        "MADDR:2318 KAY AVE",
+        "CITY:BENSALEM TWP",
+        "X:DEAD END & MASTER AV",
+        "BOX:04005",
+        "MAP:3261C10",
+        "ID:FD1200565",
+        "UNIT:E4-1");
+
+    doTest("T43",
+        "911: STA4  type:FALRM   adr:3338 RICHLIEU RD ,22 -- COUNTRY COMMONS btwn DEBRA DR & PA TP  aai:215 639 2800  box:65031  map:3261H9  tm:17:34:44 FD1200573    Run: E65 E",
+        "SRC:STA4",
+        "CALL:FALRM - FIRE ALARM (LOC)",
+        "PLACE:COUNTRY COMMONS",
+        "ADDR:3338 RICHLIEU RD",
+        "CITY:BENSALEM TWP",
+        "X:DEBRA DR & PA TP",
+        "INFO:215 639 2800",
+        "BOX:65031",
+        "MAP:3261H9",
+        "ID:FD1200573",
+        "UNIT:E65 E");
+
   }
   
   public static void main(String[] args) {
-    new PABucksCountyParserTest().generateTests("T42");
+    new PABucksCountyParserTest().generateTests("T44");
   }
 }
