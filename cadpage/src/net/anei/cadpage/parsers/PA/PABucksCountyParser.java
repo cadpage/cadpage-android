@@ -77,6 +77,13 @@ Contact: "Shapp, Dave" <dave.shapp@midwayvfc.com>
 911: STA5  type:ELEVAT  adr:OUR LADY GUADAL ,26 at 5194 COLD SPRING CREAME RD ,26 btwn GREYSTONE DR & RT 413  aai:  box:15052  map:2923F2 tm:14:31:10  FD1116465    Run: E15
 911: STA5  type:FINV    adr:AQUETONG RD/TAYLOR LA ,65  aai:  box:05031  map:2924E1  tm:21:09:49  FD1117661    Run: E5
 
+Contact: Ed Ackerman <ed.ackerman@gmail.com>
+Sender: 2002000004
+911: STA4  type:FSPEC   adr:2318 KAY AV ,22  btwn DEAD END & MASTER AV  aai:  box:04005  map:3261C10  tm:14:27:35  FD1200565    Run: E4-1
+
+Contact: "sweetcheeks6839@aol.com" <sweetcheeks6839@aol.com>
+911: STA4  type:FALRM   adr:3338 RICHLIEU RD ,22 -- COUNTRY COMMONS btwn DEBRA DR & PA TP  aai:215 639 2800  box:65031  map:3261H9  tm:17:34:44 FD1200573    Run: E65 E
+
  */
 
 
@@ -96,7 +103,6 @@ public class PABucksCountyParser extends FieldProgramParser {
   protected boolean parseMsg(String body, Data data) {
     
     if (body.startsWith("911:")) body = body.substring(4).trim();
-    data.expectMore = true;
     
     body = body.replaceAll(" btwn ", " btwn:").replaceAll(" stype:", " type:").replaceAll("&nbsp;", " ").replaceAll("&amp;", "&").trim();
     return super.parseMsg(body, data);
