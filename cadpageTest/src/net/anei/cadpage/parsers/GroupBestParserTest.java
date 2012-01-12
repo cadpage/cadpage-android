@@ -55,17 +55,17 @@ public class GroupBestParserTest extends BaseParserTest {
     
     int flgs = 0;
     doTest(parser, flgs, "AFROM", "AA", "TESTA", "TESTA", "");
-    doFail(parser, flgs, "AFROM", "BB");
-    doFail(parser, flgs, "BFROM", "AA");
+    doTest(parser, flgs, "AFROM", "BB");
+    doTest(parser, flgs, "BFROM", "AA");
     
     flgs = MsgParser.PARSE_FLG_GEN_ALERT;
     doTest(parser, flgs, "AFROM", "AA", "TESTA", "TESTA", "");
     doTest(parser, flgs, "AFROM", "BB", "GeneralAlert", "GENERAL ALERT", "BB");
-    doFail(parser, flgs, "BFROM", "AA");
+    doTest(parser, flgs, "BFROM", "AA");
     
     flgs = MsgParser.PARSE_FLG_SKIP_FILTER;
     doTest(parser, flgs, "AFROM", "AA", "TESTA", "TESTA", "");
-    doFail(parser, flgs, "AFROM", "BB");
+    doTest(parser, flgs, "AFROM", "BB");
     doTest(parser, flgs, "BFROM", "AA", "TESTA", "TESTA", "");
     
     flgs = MsgParser.PARSE_FLG_FORCE;
@@ -74,8 +74,37 @@ public class GroupBestParserTest extends BaseParserTest {
     doTest(parser, flgs, "BFROM", "AA", "TESTA", "TESTA", "");
   }
   
+  public void testSingleLooseFilterParser() {
+    MsgParser parser = new TestParser("TESTA", "AFROM", null);
+    
+    int flgs = 0;
+    doTest(parser, flgs, "AFROM", "XX", "TESTA", "TESTA", "");
+    doTest(parser, flgs, "XFROM", "XX");
+    
+    flgs = MsgParser.PARSE_FLG_SKIP_FILTER;
+    doTest(parser, flgs, "AFROM", "XX");
+    doTest(parser, flgs, "XFROM", "XX");
+    
+    flgs = MsgParser.PARSE_FLG_SKIP_FILTER | MsgParser.PARSE_FLG_POSITIVE_ID;
+    doTest(parser, flgs, "AFROM", "XX", "TESTA", "TESTA", "");
+    doTest(parser, flgs, "XFROM", "XX", "TESTA", "TESTA", "");
+  }
+  
+  public void testSingleLooseNoFilterParser() {
+    MsgParser parser = new TestParser("TESTA", "", null);
+    
+    int flgs = 0;
+    doTest(parser, flgs, "XFROM", "XX");
+    
+    flgs = MsgParser.PARSE_FLG_SKIP_FILTER;
+    doTest(parser, flgs, "XFROM", "XX");
+    
+    flgs = MsgParser.PARSE_FLG_SKIP_FILTER | MsgParser.PARSE_FLG_POSITIVE_ID;
+    doTest(parser, flgs, "XFROM", "XX", "TESTA", "TESTA", "");
+  }
+  
   @Test
-  public void testGroupParser() {
+  public void testGroupParser1() {
     MsgParser parser = new GroupBestParser(new MsgParser[]{
         new TestParser("TESTA", "AFROM", "AA"),   
         new TestParser("TESTB", "BFROM", "BB"),   
@@ -84,15 +113,15 @@ public class GroupBestParserTest extends BaseParserTest {
     int flgs = 0;
     doTest(parser, flgs, "AFROM", "AA", "TESTA", "TESTA", "");
     doTest(parser, flgs, "BFROM", "BB", "TESTB", "TESTB", "");
-    doFail(parser, flgs, "AFROM", "BB");
-    doFail(parser, flgs, "BFROM", "AA");
+    doTest(parser, flgs, "AFROM", "BB");
+    doTest(parser, flgs, "BFROM", "AA");
     
     flgs = MsgParser.PARSE_FLG_GEN_ALERT;
     doTest(parser, flgs, "AFROM", "AA", "TESTA", "TESTA", "");
     doTest(parser, flgs, "BFROM", "BB", "TESTB", "TESTB", "");
     doTest(parser, flgs, "AFROM", "BB", "GeneralAlert", "GENERAL ALERT", "BB");
     doTest(parser, flgs, "BFROM", "AA", "GeneralAlert", "GENERAL ALERT", "AA");
-    doFail(parser, flgs, "CFROM", "AA");
+    doTest(parser, flgs, "CFROM", "AA");
     
     flgs = MsgParser.PARSE_FLG_SKIP_FILTER;
     doTest(parser, flgs, "AFROM", "AA", "TESTA", "TESTA", "");
@@ -100,7 +129,7 @@ public class GroupBestParserTest extends BaseParserTest {
     doTest(parser, flgs, "AFROM", "BB", "TESTB", "TESTB", "");
     doTest(parser, flgs, "BFROM", "AA", "TESTA", "TESTA", "");
     doTest(parser, flgs, "CFROM", "AA", "TESTA", "TESTA", "");
-    doFail(parser, flgs, "CFROM", "CC");
+    doTest(parser, flgs, "CFROM", "CC");
     
     flgs = MsgParser.PARSE_FLG_FORCE;
     doTest(parser, flgs, "AFROM", "AA", "TESTA", "TESTA", "");
@@ -111,13 +140,117 @@ public class GroupBestParserTest extends BaseParserTest {
     doTest(parser, flgs, "CFROM", "CC", "GeneralAlert", "GENERAL ALERT", "CC");
   }
   
+  @Test
+  public void testGroupParser2() {
+    MsgParser parser = new GroupBestParser(new MsgParser[]{
+        new TestParser("TESTA", "AFROM", "AA"),   
+        new TestParser("TESTB", "BFROM", null),   
+    });
+    
+    int flgs = 0;
+    doTest(parser, flgs, "AFROM", "AA", "TESTA", "TESTA", "");
+    doTest(parser, flgs, "BFROM", "BB", "TESTB", "TESTB", "");
+    doTest(parser, flgs, "AFROM", "BB");
+    doTest(parser, flgs, "BFROM", "AA", "TESTB", "TESTB", "");
+    
+    flgs = MsgParser.PARSE_FLG_SKIP_FILTER;
+    doTest(parser, flgs, "AFROM", "AA", "TESTA", "TESTA", "");
+    doTest(parser, flgs, "BFROM", "AA", "TESTA", "TESTA", "");
+    doTest(parser, flgs, "BFROM", "AA", "TESTA", "TESTA", "");
+    doTest(parser, flgs, "BFROM", "BB");
+    doTest(parser, flgs, "CFROM", "AA", "TESTA", "TESTA", "");
+    doTest(parser, flgs, "CFROM", "CC");
+    
+    flgs = MsgParser.PARSE_FLG_SKIP_FILTER | MsgParser.PARSE_FLG_POSITIVE_ID;
+    doTest(parser, flgs, "AFROM", "AA", "TESTA", "TESTA", "");
+    doTest(parser, flgs, "BFROM", "AA", "TESTA", "TESTA", "");
+    doTest(parser, flgs, "BFROM", "AA", "TESTA", "TESTA", "");
+    doTest(parser, flgs, "BFROM", "BB", "TESTB", "TESTB", "");
+    doTest(parser, flgs, "CFROM", "AA", "TESTA", "TESTA", "");
+    doTest(parser, flgs, "CFROM", "CC", "TESTB", "TESTB", "");
+    
+    flgs = MsgParser.PARSE_FLG_GEN_ALERT;
+    doTest(parser, flgs, "AFROM", "AA", "TESTA", "TESTA", "");
+    doTest(parser, flgs, "BFROM", "BB", "TESTB", "TESTB", "");
+    doTest(parser, flgs, "BFROM", "AA", "TESTB", "TESTB", "");
+    doTest(parser, flgs, "AFROM", "BB", "GeneralAlert", "GENERAL ALERT", "BB");
+    doTest(parser, flgs, "CFROM", "AA");
+    
+    flgs = MsgParser.PARSE_FLG_SKIP_FILTER | MsgParser.PARSE_FLG_GEN_ALERT;
+    doTest(parser, flgs, "AFROM", "AA", "TESTA", "TESTA", "");
+    doTest(parser, flgs, "BFROM", "AA", "TESTA", "TESTA", "");
+    doTest(parser, flgs, "BFROM", "AA", "TESTA", "TESTA", "");
+    doTest(parser, flgs, "BFROM", "BB");
+    doTest(parser, flgs, "CFROM", "AA", "TESTA", "TESTA", "");
+    doTest(parser, flgs, "CFROM", "CC");
+    
+    flgs = MsgParser.PARSE_FLG_FORCE;
+    doTest(parser, flgs, "AFROM", "AA", "TESTA", "TESTA", "");
+    doTest(parser, flgs, "BFROM", "AA", "TESTA", "TESTA", "");
+    doTest(parser, flgs, "BFROM", "AA", "TESTA", "TESTA", "");
+    doTest(parser, flgs, "BFROM", "BB", "TESTB", "TESTB", "");
+    doTest(parser, flgs, "CFROM", "AA", "TESTA", "TESTA", "");
+    doTest(parser, flgs, "CFROM", "CC", "TESTB", "TESTB", "");
+  }
+  
+  @Test
+  public void testGroupParser3() {
+    MsgParser parser = new GroupBestParser(new MsgParser[]{
+        new TestParser("TESTA", "AFROM", "AA"),   
+        new TestParser("TESTB", "", null),   
+    });
+    
+    int flgs = 0;
+    doTest(parser, flgs, "AFROM", "AA", "TESTA", "TESTA", "");
+    doTest(parser, flgs, "BFROM", "BB");
+    doTest(parser, flgs, "AFROM", "BB");
+    doTest(parser, flgs, "BFROM", "AA");
+    
+    flgs = MsgParser.PARSE_FLG_SKIP_FILTER;
+    doTest(parser, flgs, "AFROM", "AA", "TESTA", "TESTA", "");
+    doTest(parser, flgs, "BFROM", "AA", "TESTA", "TESTA", "");
+    doTest(parser, flgs, "BFROM", "AA", "TESTA", "TESTA", "");
+    doTest(parser, flgs, "BFROM", "BB");
+    doTest(parser, flgs, "CFROM", "AA", "TESTA", "TESTA", "");
+    doTest(parser, flgs, "CFROM", "CC");
+    
+    flgs = MsgParser.PARSE_FLG_SKIP_FILTER | MsgParser.PARSE_FLG_POSITIVE_ID;
+    doTest(parser, flgs, "AFROM", "AA", "TESTA", "TESTA", "");
+    doTest(parser, flgs, "BFROM", "AA", "TESTA", "TESTA", "");
+    doTest(parser, flgs, "BFROM", "AA", "TESTA", "TESTA", "");
+    doTest(parser, flgs, "BFROM", "BB", "TESTB", "TESTB", "");
+    
+    flgs = MsgParser.PARSE_FLG_GEN_ALERT;
+    doTest(parser, flgs, "AFROM", "AA", "TESTA", "TESTA", "");
+    doTest(parser, flgs, "BFROM", "BB");
+    doTest(parser, flgs, "BFROM", "AA");
+    doTest(parser, flgs, "AFROM", "BB", "GeneralAlert", "GENERAL ALERT", "BB");
+    doTest(parser, flgs, "CFROM", "AA");
+    
+    flgs = MsgParser.PARSE_FLG_SKIP_FILTER | MsgParser.PARSE_FLG_GEN_ALERT;
+    doTest(parser, flgs, "AFROM", "AA", "TESTA", "TESTA", "");
+    doTest(parser, flgs, "BFROM", "AA", "TESTA", "TESTA", "");
+    doTest(parser, flgs, "BFROM", "AA", "TESTA", "TESTA", "");
+    doTest(parser, flgs, "BFROM", "BB");
+    doTest(parser, flgs, "CFROM", "AA", "TESTA", "TESTA", "");
+    doTest(parser, flgs, "CFROM", "CC");
+    
+    flgs = MsgParser.PARSE_FLG_FORCE;
+    doTest(parser, flgs, "AFROM", "AA", "TESTA", "TESTA", "");
+    doTest(parser, flgs, "BFROM", "AA", "TESTA", "TESTA", "");
+    doTest(parser, flgs, "BFROM", "AA", "TESTA", "TESTA", "");
+    doTest(parser, flgs, "BFROM", "BB", "TESTB", "TESTB", "");
+    doTest(parser, flgs, "CFROM", "AA", "TESTA", "TESTA", "");
+    doTest(parser, flgs, "CFROM", "CC", "TESTB", "TESTB", "");
+  }
+  
 
-  public void doFail(MsgParser parser, int flags, String address, String body) {
+  private void doTest(MsgParser parser, int flags, String address, String body) {
     TestMessage msg = new TestMessage(address, body);
     assertFalse("pass", parser.isPageMsg(msg, flags));
   }
   
-  public void doTest(MsgParser parser, int flags, String address, String body,
+  private void doTest(MsgParser parser, int flags, String address, String body,
                       String expParser, String expCall, String expPlace) {
     
     TestMessage msg = new TestMessage(address, body);
@@ -171,7 +304,11 @@ public class GroupBestParserTest extends BaseParserTest {
     
     @Override
     public boolean parseMsg(String body, Data data) {
-      if (!body.startsWith(key)) return false;
+      if (key == null) {
+        if (!isPositiveId()) return false;
+      } else {
+        if (!body.startsWith(key)) return false;
+      }
       data.strCall = name;
       return true;
     }
