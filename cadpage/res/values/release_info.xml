@@ -1,18 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">01102012</string>
-  <string name="release_version">v1.5.08</string>
+  <string name="release_date">01112012</string>
+  <string name="release_version">v1.5.09</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="min_expire_date">10012012</string>
   <string name="release_text">
 What"'"s new in this release\n
 \n
-  Active911 Direct Paging is enabled.  Enjoy!!\n
-  \n
-  Location Parsing Fixes:\n
-  \n
-  Clermont County, OH\n
+Location Parsing Fixes:\n
+\n
+Sussex County, DE\n
+St Charles County, MD\n
+Oneida County, NY\n
+Bucks County, PA\n
+\n
+General Fixes\n
+\n
+Fixed some serious bugs in the restructured parsing logic released a week ago,
+most of which seem to have been successfully covered up by error recovery logic.\n
+\n
+Fixed some minor issues with the Direct Paging registration logic.
   </string>  
 </resources>
   
