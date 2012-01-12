@@ -58,7 +58,15 @@ public class NYWyomingCountyParserTest extends BaseParserTest {
         "ADDR:1649 ROUTE 238",
         "CITY:ATTICA",
         "X:NESBITT RD & ATTICA TOWN LINE");
-    
+
+    doTest("T7",
+        "SICK PERSON\n1258 BURROUGH RD BENT (Between ROUTE 354 & SCHOELLKOPF RD)Post surgical abdominal pain.",
+        "CALL:SICK PERSON",
+        "ADDR:1258 BURROUGH RD",
+        "CITY:BENNINGTON",
+        "X:ROUTE 354 & SCHOELLKOPF RD",
+        "INFO:Post surgical abdominal pain.");
+   
   }
   
   public static void main(String[] args) {

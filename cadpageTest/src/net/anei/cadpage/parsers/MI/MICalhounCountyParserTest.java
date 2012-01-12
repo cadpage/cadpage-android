@@ -93,6 +93,17 @@ public class MICalhounCountyParserTest extends BaseParserTest {
         "CITY:MARSHALL TWP",
         "PLACE:ASHGROVE APARTMENTS",
         "NAME:BRIAN DARGI");
+
+    doTest("T2",
+        "marshalltwpfire+caf_=2692824689=vtext.com@gmail.com PRI: 0 INC: F13120111000007 TYP: UNKNOWN ACCIDENT AD: MICHIGAN AVE&I69 SB CTY: MT CN: DENISE MATHERS CMT1: CALLER HEARD WHAT SOU",
+        "PRI:0",
+        "ID:F13120111000007",
+        "CALL:UNKNOWN ACCIDENT",
+        "ADDR:MICHIGAN AVE & I69 SB",
+        "MADDR:MICHIGAN AVE & I 69",
+        "CITY:MARSHALL TWP",
+        "NAME:DENISE MATHERS",
+        "INFO:CALLER HEARD WHAT SOU");
   }
   
   public static void main(String[] args) {
