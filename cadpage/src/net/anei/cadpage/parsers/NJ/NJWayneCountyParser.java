@@ -10,6 +10,8 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 /*
 Wayne County, NJ
 Contact: support@active911
+Sender: cad@waynetownship.com
+
 
 2012000006 {01/03/2012 10:58:16}\nAFCI     - Fire alarm - commercial/industrial{3}\n3 Willowbrook Mall;PD\nUnits:\n\nComments:\n  Station Dispatched : {C1 } Station Dispatched : {C2 } Units Recommended: ,;\nDispatched: {C2 }, {C1 } ZONE 3 FIRE ALARM/IDHIT/8772387739/ACWN/ADT
 2012000019 {01/04/2012 11:47:19}\nFCI      - Fire - commercial/industrial{1}\n1520 Rt23;PD\nUnits:\n\nComments:\n  Station Dispatched : {C3 } Station Dispatched : {C1 } Loc changed  \nfrom {1530 Rt23;PD} to {1520 Rt23;PD}\n\nPri from -> 5 to 1\n  Station Dispatched : {C2 } Station Dispatched : {C5 } Units Recommended: (Not able to recommend);\nDispatched: {C5 }, {C2 } Elco admin services\nRough,Jim  862 226 9566\nCaller stated her heard a popping sound inside the building and they nsmell smoke\nAddress in 1538 rt23  behing wayne Hardware Update reviewed by dispatcher- Peterson, Tracy L-716
@@ -24,6 +26,11 @@ public class NJWayneCountyParser extends FieldProgramParser {
   public NJWayneCountyParser() {
     super("WAYNE COUNTY", "NJ",
            "IDDATETIME CALL ADDR! Units:UNIT+ Comments:INFO+");
+  }
+  
+  @Override
+  public String getFilter() {
+    return "cad@waynetownship.com,5417047704";
   }
   
   @Override
