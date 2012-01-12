@@ -807,10 +807,10 @@ Lisa Edwards (jojosmima@gmail.com)<ledwards@townofchapelhill.org>
 >>Bryan Murray (badwolf7615@gmail.com)<bmurray@sussexcountyde.gov>
 %%11/14/2011
 >>Christopher Winters <cwinters418@gmail.com>
-Brady Holder <aguybradyis@gmail.com>
-daniel garretto <djgarretto@gmail.com>
-Pluta, Jim (jimpluta@gmail.com)<jpluta@olv-bvs.org>
-Lori Roseman <rosemanfam5@gmail.com>
+>>Brady Holder <aguybradyis@gmail.com>
+>>daniel garretto <djgarretto@gmail.com>
+>>Pluta, Jim (jimpluta@gmail.com)<jpluta@olv-bvs.org>
+>>Lori Roseman <rosemanfam5@gmail.com>
 %%11/15/2011
 Richard Clagett <rhclagett@gmail.com>
 Austin Lee (austinlee9691@gmail.com)<austin.lee@student.rcsnc.org>
@@ -1066,6 +1066,8 @@ Ed Miller (efm185@gmail.com)(efm185@ptd.net)
 Wayne Crider <wcrider15@gmail.com>
 %%01/10/2012
 rob stickley (rkswildcat@gmail.com)(rkswildcat@earthlink.net)
+%%01/12/2012
+Richard Keith (rkeithtav1@gmail.com)(rkeith@tavares.org)
  
 // List of users getting free credit for 2012
 $free_2012_list
@@ -1181,3 +1183,7 @@ Danny Fogal <ffemt7432@gmail.com>
 Tim Young <tdyoung2578@gmail.com>
 Tom Myers <sunsetbeachweather@gmail.com>
 Danny Barton <djb1988@gmail.com>
+Eric <ericdmarshall661@gmail.com>
+%%01/12/2012
+Alan Jarmon <nedhc75@gmail.com>
+Richard Knox (richardgknox1490@gmail.com)<richardgknox@yahoo.com>
