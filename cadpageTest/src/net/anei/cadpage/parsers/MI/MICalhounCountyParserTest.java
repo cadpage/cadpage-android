@@ -80,6 +80,21 @@ public class MICalhounCountyParserTest extends BaseParserTest {
           "NAME:TAKESH WORTHEM");
   }
   
+  @Test
+  public void testParser2() {
+
+    doTest("T1",
+        "marshalltwpfire+caf_=2692824689=vtext.com@gmail.com PRI: 1 INC: F13120110000005 TYP: NO TYPE DESCRP AVAIL APT: 61 AD: 201 WEST DR N CTY: MT LOC: ASHGROVE APARTMENTS CN: BRIAN DARGI",
+        "PRI:1",
+        "ID:F13120110000005",
+        "CALL:NO TYPE DESCRP AVAIL",
+        "APT:61",
+        "ADDR:201 WEST DR N",
+        "CITY:MARSHALL TWP",
+        "PLACE:ASHGROVE APARTMENTS",
+        "NAME:BRIAN DARGI");
+  }
+  
   public static void main(String[] args) {
     new MICalhounCountyParserTest().generateTests("T1");
   }
