@@ -809,6 +809,7 @@ public class SmsMmsMessage implements Serializable {
     
     if (!SmsPopupUtils.haveNet(context)) return;
 
+    searchStr = searchStr.replaceAll(" *& *", " AT ");
     Uri uri = Uri.parse("geo:0,0?q=" + Uri.encode(searchStr));
     if (Log.DEBUG) Log.v("mapMessage: SearchStr=" + searchStr);
     Intent intent = new Intent(Intent.ACTION_VIEW, uri);

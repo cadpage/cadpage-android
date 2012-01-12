@@ -18,6 +18,7 @@ HEART PROBLEMS\n1535 FRIEDMAN RD BENT (Between ROUTE 77 & TINKHAM RD)
 STRUCTURE FIRE\nFRENCH RD BENT (Between ROUTE 354 & HOOVER RD) barn fire
 SEIZURE/CONVULSION\n1375 ROUTE 354 BENT (Between ROUTE 77 & GRAFF RD)
 STRUCTURE FIRE\n1649 ROUTE 238 ATTT (Between NESBITT RD & ATTICA TOWN LINE)
+SICK PERSON\n1258 BURROUGH RD BENT (Between ROUTE 354 & SCHOELLKOPF RD)Post surgical abdominal pain.
 
 */
 
@@ -50,7 +51,31 @@ public class NYWyomingCountyParser extends SmartAddressParser {
   }
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "ARCT", "ARCADE",
       "ATTT", "ATTICA",
-      "BENT", "BENNINGTON"
+      "BENT", "BENNINGTON",
+      "CAST", "CASTILE",
+      "COVT", "COVINGTON",
+      "EAGT", "EAGLE",
+      "GAIT", "GAINSVEILLE",
+      "GENT", "GENESEE FALLS",
+      "JAVT", "JAVA",
+      "MIDT", "MIDDLEBURY",
+      "ORAT", "ORANGEVILLE",
+      "PERT", "PERRY",
+      "PIKT", "PIKE",
+      "WART", "WARSAW",
+      "WEAT", "WEATHERSFIELD",
+      
+      "ARCV", "ARCADE",
+      "ATTV", "ATTICA",
+      "CASV", "CASTILE",
+      "GAIV", "GAINSVILLE",
+      "PERV", "PERRY",
+      "PIKV", "PIKE",
+      "SILV", "SILVER SPRINGS",
+      "STRV", "STRYKERSVILLE",
+      "WARV", "WARSAW",
+      "WYOV", "WYOMING"
   });
 }
