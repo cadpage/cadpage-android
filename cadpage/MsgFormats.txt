@@ -1218,6 +1218,11 @@ Sussex County, NJ (NJSussexCountyParser)
 [I-B2010-009210]  ALARMF @ 7 WATERLOO ROAD  , BYRAM - ALL AMERICAN CRAFT. ALARMS PLUS (800-932-3822) OPERATOR 1224. UTILITY ROOM
 [I-B2011-004688]  FIRE @ 33 SLEEPY HOLLOW ROAD  , BYRAM - CALLER REPORTS HIS LIVING ROOM IS SMOKING.
 ***************************************************************************
+Wayne County, NJ (NJWayneCountyParser)
+2012000006 {01/03/2012 10:58:16}\nAFCI     - Fire alarm - commercial/industrial{3}\n3 Willowbrook Mall;PD\nUnits:\n\nComments:\n  Station Dispatched : {C1 } Station Dispatched : {C2 } Units Recommended: ,;\nDispatched: {C2 }, {C1 } ZONE 3 FIRE ALARM/IDHIT/8772387739/ACWN/ADT
+2012000019 {01/04/2012 11:47:19}\nFCI      - Fire - commercial/industrial{1}\n1520 Rt23;PD\nUnits:\n\nComments:\n  Station Dispatched : {C3 } Station Dispatched : {C1 } Loc changed  \nfrom {1530 Rt23;PD} to {1520 Rt23;PD}\n\nPri from -> 5 to 1\n  Station Dispatched : {C2 } Station Dispatched : {C5 } Units Recommended: (Not able to recommend);\nDispatched: {C5 }, {C2 } Elco admin services\nRough,Jim  862 226 9566\nCaller stated her heard a popping sound inside the building and they nsmell smoke\nAddress in 1538 rt23  behing wayne Hardware Update reviewed by dispatcher- Peterson, Tracy L-716
+2012000017 {01/04/2012 10:49:09}\nAFCI     - Fire alarm - commercial/industrial{3}\n520 Rt46;PD.\n  Units:\n\nComments:\n  Station Dispatched : {C1 } Station Dispatched : {C2 } Units Recommended: ,;\nDispatched: {C2 }, {C1 } Adt/877 2387739/id iub/acwn\nRed Lobster\nzone 18 ANSUL
+***************************************************************************
 Albany County, NY (Colonie)
 FIRE ALARM E405,E406,RS2,E412\n54 SUNSET BL\n HIGGINS ROBERT\nMap COL VILL 12:00:30
 STRUCTURE FIRE E412,E410,RS3,E454,CVFT,TK9\n45 RAILROAD AV(FULLER)\n CNY STORM ALLSTARS\nMap FULLER 08:48:16
@@ -3691,77 +3696,6 @@ Contact: "Craig Powell" <craig@hardinvfd.org>
 ************  READY TO ROLL ******************************
 **********************************************************
 **********************************************************
-Wayne County, NJ
-Contact: support@active911
-012000006 {01/03/2012 10:58:16}
-AFCI     - Fire alarm - commercial/industrial{3}
-3 Willowbrook Mall;PD
-Units:
-
-Comments:
-  Station Dispatched : {C1 } Station Dispatched : {C2 } Units Recommended: ,;
-Dispatched: {C2 }, {C1 } ZONE 3 FIRE ALARM/IDHIT/8772387739/ACWN/ADT
-
-
-
-2012000019 {01/04/2012 11:47:19}
-FCI      - Fire - commercial/industrial{1}
-1520 Rt23;PD
-Units:
-
-Comments:
-  Station Dispatched : {C3 } Station Dispatched : {C1 } Loc changed  
-from {1530 Rt23;PD} to {1520 Rt23;PD}
-
-Pri from -> 5 to 1
-  Station Dispatched : {C2 } Station Dispatched : {C5 } Units  
-Recommended: (Not able to recommend);
-Dispatched: {C5 }, {C2 } Elco admin services
-Rough,Jim  862 226 9566
-Caller stated her heard a popping sound inside the building and they  
-smell smoke
-Address in 1538 rt23  behing wayne Hardware Update reviewed by  
-dispatcher- Peterson, Tracy L-716
-
-
-2012000017 {01/04/2012 10:49:09}
-AFCI     - Fire alarm - commercial/industrial{3}
-520 Rt46;PD.
-  Units:
-
-Comments:
-  Station Dispatched : {C1 } Station Dispatched : {C2 } Units Recommended: ,;
-Dispatched: {C2 }, {C1 } Adt/877 2387739/id iub/acwn
-Red Lobster
-zone 18 ANSUL
-
-2012000022 {01/04/2012 20:21:09}
-MVAE     - MVA - extrication{1}
-Valley Rd/French Hill Rd;PD
-Units:
-
-Comments:
-  Station Dispatched : {R5 } Station Dispatched : {C1 } Units Recommended: ,;
-Dispatched: {C1 }, {R5 } Caller states the white suv flipped over  -  
-might be trapped inside - caller not involed - Caller states white suv  
-poss trapped States 4 veh involved - caller not involed -
-
-SEE BELOW COMMENTS.  EXPLANATION IS IN CAPS.  TO ANSWER YOUR QUESTION,  
-PD DOES NOT REFER TO FD RESPONSE.  THIS CALL ITSELF STARTED AS A  
-POLICE CALL AND GOT UPGRADED INVOLVING THE FIRE DEPT.  ANYTHING ELSE,  
-PLEASE LET ME KNOW.
-
-2012000023 {01/05/2012 00:07:46} (IS THE ALARM NUMBER / DATE / TIME)
-AFCI     - Fire alarm - commercial/industrial{2} (IS THE INCIDENT TYPE)
-1 Willowbrook Mall;PD (IS THE ALARM ADDRESS / PD REFERS TO  
-POLICE-MEANS NOTHING FOR US)
-Units:
-
-Comments: (BELOW IS THE COMPANIES THAT WERE DISPATCHED & COMMENTS  
-ABOUT THE CALL- (PREEMPT - 03N IS NOT NEEDED/POLICE RELATED))
-   Station Dispatched : {C1 } Station Dispatched : {C2 } Units Recommended: ,;
-Dispatched: {C2 }, {C1 } PreEmpt - 03N
-Code 4 MaCYS COMM CENTER/8662297579/opred/acwn glass beak perimeter
 **********************************************************
 Onondaga County, NY
 Contact: Andrew Clark <ajc0079@gmail.com>
