@@ -3690,12 +3690,34 @@ Contact: "Craig Powell" <craig@hardinvfd.org>
 [10-50]  146N S OF OVER PASS 10-50 OCCUPIED MIGHT CATCH FIRE
 [MVA]  2 vehicle major FM 834 @ CR 2003 by junior high
 **********************************************************
+Loudoun County, VA (alternate?)
+Contact: "tom_tuck@hotmail.com" <tom_tuck@hotmail.com>
+Sender: alert_76507@mail.emacoop.loudoun.gov
+Auto Accident w/double Entrapment - Evergreen Mills Rd & The Woods Rd. - Co. 9, 1, 13, 7, BC601, EM601, SO600, OP600, AIRC3, 2nd helo alerted - Op's on 6L-TAC31 Eff Body:P600, AIRC3, 2nd helo alerted - Op's on 6L-TAC31
+(1/2) Auto Accident w/double Entrapment - Evergreen Mills Rd & The Woods Rd. - Co. 9, 1, 13, 7, BC601, EM601, SO600, O
+(2/2) P600, AIRC3, 2nd helo alerted - Op's on 6L-TAC31 Eff Body:P600, AIRC3, 2nd helo alerted - Op's on 6L-TAC31
 **********************************************************
 **********************************************************
 **********************************************************
 ************  READY TO ROLL ******************************
 **********************************************************
 **********************************************************
+**********************************************************
+Wyoming County, NY (REPLACE!!!)
+Contact: Louis Yunker <louisyunker@yahoo.com>
+Sender: wyco911@wyomingco.net
+SEIZURE/CONVULSION\n 1375 ROUTE 354 BENT (Between ROUTE 77 & GRAFF RD)
+HEART PROBLEMS\n1535 FRIEDMAN RD BENT (Between ROUTE 77 & TINKHAM RD)
+STRUCTURE FIRE\nFRENCH RD BENT (Between ROUTE 354 & HOOVER RD) barn fire
+SEIZURE/CONVULSION\n1375 ROUTE 354 BENT (Between ROUTE 77 & GRAFF RD)
+STRUCTURE FIRE\n1649 ROUTE 238 ATTT (Between NESBITT RD & ATTICA TOWN LINE)
+
+Contact: Kimo Brandon <brandokw@clarkson.edu>
+Sender: wyco911@wyomingco.net
+SICK PERSON\n90 KERN RD BENT (Between ERIE CO LINE & URF RD) ADULT FML NOT FEELING WELL
+FALLS\n1387 ROUTE 77 BENT (Between ROUTE 354 & POLAND HILL RD)
+HEART PROBLEMS\n1535 FRIEDMAN RD BENT (Between ROUTE 77 & TINKHAM RD)
+STRUCTURE FIRE\nFRENCH RD BENT (Between ROUTE 354 & HOOVER RD) barn fire
 **********************************************************
 Onondaga County, NY
 Contact: Andrew Clark <ajc0079@gmail.com>
@@ -3764,15 +3786,6 @@ SARASOTA COUNTY EVENT TYPE: ASSIST OTHER MEDICAL AGENCY Location: 5731 BEE RIDGE
 SARASOTA COUNTY EVENT TYPE: VEHICLE CRASH WITH INJURIES Location: BEE RIDGE RD/MAUNA LOA BLVD NCTY G149 TIME: 02:06:18  Disp: BN2,E16,R8,SQ8
 SARASOTA COUNTY EVENT TYPE: OUTSIDE FIRE-UNKNOWN Location: STONEYCREEK BLVD/CENTER RD SCTY G511 TIME: 19:00:05\2sDisp: BN4,E21,E26,R21
 SARASOTA COUNTY EVENT TYPE: VEHICLE CRASH WITH INJURIES Location: S TUTTLE AVE/SUNNYSIDE ST NCTY G124 TIME: 19:28:44  Disp: BN1,E2,EMS1,R2
-**********************************************************
-Wyoming County, NY (alternate or replacement)
-Contact: Louis Yunker <louisyunker@yahoo.com>
-Sender: wyco911@wyomingco.net
-SEIZURE/CONVULSION\n 1375 ROUTE 354 BENT (Between ROUTE 77 & GRAFF RD)
-HEART PROBLEMS\n1535 FRIEDMAN RD BENT (Between ROUTE 77 & TINKHAM RD)
-STRUCTURE FIRE\nFRENCH RD BENT (Between ROUTE 354 & HOOVER RD) barn fire
-SEIZURE/CONVULSION\n1375 ROUTE 354 BENT (Between ROUTE 77 & GRAFF RD)
-STRUCTURE FIRE\n1649 ROUTE 238 ATTT (Between NESBITT RD & ATTICA TOWN LINE)
 **********************************************************
 Delaware County, NY
 Contact: "Fleischmanns 1st. Asst. Chief" <ffd1302@gmail.com>

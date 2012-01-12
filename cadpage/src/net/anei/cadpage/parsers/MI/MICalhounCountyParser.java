@@ -19,6 +19,10 @@ PRI: 2 INC: F15111121000849 TYP: CITIZEN ASSIST AD: 1427 NE CAPITAL AVE CTY: PT 
 PRI: 1 INC: F15111121000850 TYP: P1 MEDICAL AD: 23650 M78 CTY: PT LOC: MELVIN WHITING RESD CN: LIFEALERT CMT1: --89YOM--HEART BE
 PRI: 2 INC: F15111121000849 TYP: CITIZEN ASSIST AD: 1427 NE CAPITAL AVE CTY: PT LOC: PINES AT PENNFIELD CN: TAKESH WORTHEM CMT1:
 
+Contact: Rick Bonney <bonneyrick@gmail.com>
+Sender: vtext.com@gmail.com
+marshalltwpfire+caf_=2692824689=vtext.com@gmail.com PRI: 1 INC: F13120110000005 TYP: NO TYPE DESCRP AVAIL APT: 61 AD: 201 WEST DR N CTY: MT LOC: ASHGROVE APARTMENTS CN: BRIAN DARGI
+
 */
 
 public class MICalhounCountyParser extends DispatchPrintrakParser {
@@ -46,6 +50,7 @@ public class MICalhounCountyParser extends DispatchPrintrakParser {
 
 
   private static final Properties CITY_TABLE = buildCodeTable(new String[]{
+      "MT", "MARSHALL TWP",
       "PT", "PENNFIELD TWP"
   });
 }
