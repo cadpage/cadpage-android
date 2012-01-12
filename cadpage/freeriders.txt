@@ -813,7 +813,7 @@ Lisa Edwards (jojosmima@gmail.com)<ledwards@townofchapelhill.org>
 >>Pluta, Jim (jimpluta@gmail.com)<jpluta@olv-bvs.org>
 >>Lori Roseman <rosemanfam5@gmail.com>
 %%11/15/2011
-Richard Clagett <rhclagett@gmail.com>
+>>Richard Clagett <rhclagett@gmail.com>
 Austin Lee (austinlee9691@gmail.com)<austin.lee@student.rcsnc.org>
 jeremy sexton <jeremy80xx@gmail.com>
 james bennett (bcfpd102@gmail.com)<budah4276@yahoo.com>
@@ -1069,7 +1069,8 @@ Wayne Crider <wcrider15@gmail.com>
 rob stickley (rkswildcat@gmail.com)(rkswildcat@earthlink.net)
 %%01/12/2012
 Richard Keith (rkeithtav1@gmail.com)(rkeith@tavares.org)
- 
+Kevin Hamel <khamel30@gmail.com> // Prince George County, VA
+
 // List of users getting free credit for 2012
 $free_2012_list
 %2012

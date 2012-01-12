@@ -198,6 +198,6 @@ public class DispatchOSSIParser extends FieldProgramParser {
   
   @Override
   public String getProgram() {
-    return super.getProgram() + " DATE TIME";
+    return (leadID ? "ID " : "") + super.getProgram() + " DATE TIME";
   }
 }

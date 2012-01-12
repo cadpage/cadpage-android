@@ -150,6 +150,11 @@ Pittsylvania County, VA (VAPittsylvaniaCountyParser)
 699:CAD:RESPIRATORY DISTRESS;600 NORTH POINTE LN;DAN;SEMINOLE DR;[Medical Priority Info] PROBLEM: TROUBLE BREATHING #PATS: 1 AGE: 5 Months SEX
 698:CAD:RESPIRATORY DISTRESS;1000 LAWLESS CREEK RD;BLA;PRITCHETT LN;DAKE DR;[Medical Priority Info] PROBLEM: DIFF BREATHING #PATS: 1 AGE: 13 Y
 *******************************************************************************
+Prince George County, VA (VAPrinceGeorgeCountyParser)
+388:CAD:FIRE AUTOMATIC AID - DINWIDDIE;SPAIN DR/OAK GROVE
+386:CAD:ACCIDENT ENTRAPMENT-OVERTURNED;38 I95 S;CARS
+384:CAD:FIRE WIRE/POWER LINES DOWN;13499 S CRATER RD/GARYS CHURCH RD;PETE
+*******************************************************************************
 *******************************************************************************
 * DispatchBParser subclasses
 *******************************************************************************
@@ -3703,8 +3708,14 @@ System: ITI
 S:Call M:FIRE / 10-50 J-2 / STATE RD CC JEFFCO/FESTUS FIRE / HWY 67 / FIRE DEPT / H4 FI H1 / FESTUS FD66651 / JPAD H4 FI H1\n\n\n
 (call) FIRE / BRUSH / 2819 NORTH SELMA ROAD JEFFCO/R7 /DOOLING HO /EMS /6610 /jpad brush with exposer R-7 FD720146 /JPAD 603031
 **********************************************************
+Onondaga County, NY (alternate)
+Contact: Al Pola <alpola828@gmail.com>
+Dispatch ** 04:38 **
+UNCONSCIOUS PERSON ** 110 FENNELL ST ** APT B IN BACK ** FOEHL, MARY KAY **
+((315)247-3**
 **********************************************************
 ************  READY TO ROLL ******************************
+**********************************************************
 **********************************************************
 **********************************************************
 **********************************************************
@@ -3713,7 +3724,7 @@ Onondaga County, NY
 Contact: Andrew Clark <ajc0079@gmail.com>
 Sender: e9web1@ongov.net
 [CAD MSG POF 18:04:47 7461 BROADFIELD RD TPO XTS:SWEET RD] HENNEBERRY RD,  , UNCP - P:1 Lev:0 X:  TWCBL BUSHNECK, JOHN VOIP 02/14 18:03:57 911 CC RE 1 YO UNCP/NOT BREATH IS CON. IS BREATHING A LITTLE BIT FACE IS A LITTLE BLU  Disp: 51C1,51C2,51C3,51C4,51RP51,5
-**********************************************************
+
 Onondaga County, NY
 Contact: Al Pola <alpola828@gmail.com>
 Remove line feeds
@@ -3730,28 +3741,7 @@ Remove line feeds
 (Skaneateles Fire)  I/CAD MSG SKF 16:52:38 2745 E LAKE RD TSK: @SKANEATELES SAILING CLUB XTS:BUFFS BLUFF RD/COON HILL RD, , LOCK -R P:2 Lev:0 X:  M91
 (Skaneateles Fire) I/CAD MSG SKF 04:37:24  110 FENNELL ST VSK XTS:PACKSWOOD PL/OLD SENECA TPK, APT B IN BACK, UNCP - P:1 Lev:0 X: M911//88 YO MALE U
 (Skaneateles Fire) NCP/NOT BREATHING// IS AN EXPECTED DEATH// HAS BEEN ILL FOR SOME TIME// REQ NO LIGHTS AND SIRENS// Disp: 54C1, 54C2, 54C3, 54E12
-
-Dispatch ** 04:38 **
-UNCONSCIOUS PERSON ** 110 FENNELL ST ** APT B IN BACK ** FOEHL, MARY KAY **
-((315)247-3**
 **********************************************************
-Prince George County, VA
-Contact: Kevin Hamel <khamel30@gmail.com>, 8047217263@vtext.com
-Sender: cad@messages.princegeorgeva.org
-Wants free subscription
-CARS = CARSON
-PETE = PETESBURG
-388:CAD:FIRE AUTOMATIC AID - DINWIDDIE;SPAIN DR/OAK GROVE
-386:CAD:ACCIDENT ENTRAPMENT-OVERTURNED;38 I95 S;CARS
-384:CAD:FIRE WIRE/POWER LINES DOWN;13499 S CRATER RD/GARYS CHURCH RD;PETE
-380:CAD:FIRE AUTOMATIC AID - DINWIDDIE;27317 REAMS DR
-379:CAD:ACCIDENT UNKNOWN INJURY;20000-BLK S CRATER RD;OFFRAMP I95 S;HALIFAX RD;CARS
-377:CAD:ACCIDENT ENTRAPMENT-OVERTURNED;20000 ROWANTY RD;ROWANTY CT;INDIAN SWAMP LN;CARS
-376:CAD:EMS-SICK;16702 S CRATER RD;PRINCE GEORGE DR;PRINCE GEORGE DR;PETE
-375:CAD:ACCIDENT UNKNOWN INJURY;42 I95 S;I295 S;PETE
-369:CAD:FIRE ALARM;2643 LANSING RD;INDIAN RD;TEMPLETON RD;PETE
-368:CAD:FIRE CARBON MONOXIDE/SMOKE DET;714 JOHNS RD;S CRATER RD;OAK HILL CT;CARS
-366:CAD:ACCIDENT - COMMERICAL VEHICLE;16699 S CRATER RD/PRINCE GEORGE DR;PETE
 **********************************************************
 Union County, OH
 Contact: "Daniel Boone Sr." <daniel.boonesr@gmail.com>
