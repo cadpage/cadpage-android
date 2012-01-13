@@ -56,9 +56,21 @@ public class NCHarnettCountyParserTest extends BaseParserTest {
         "CITY:SPRING LAKE",
         "CALL:MUTUAL AID WITH OTHER COUNTY");
 
+    doTest("T7",
+        "FRM:cadpage@harnett.org\nMSG:1201-003613*2728 DARROCH RD*****FIRE OTHER*********",
+        "ID:1201-003613",
+        "ADDR:2728 DARROCH RD",
+        "CALL:FIRE OTHER");
+
+    doTest("T8",
+        "FRM:cadpage@harnett.org\nMSG:1201-002111*11860 NC 210 S*****FIRE RES STR*********",
+        "ID:1201-002111",
+        "ADDR:11860 NC 210 S",
+        "CALL:FIRE RES STR");
+
   }
 
   public static void main(String[] args) {
-    new NCHarnettCountyParserTest().generateTests("T6");
+    new NCHarnettCountyParserTest().generateTests("T7");
   }
 }

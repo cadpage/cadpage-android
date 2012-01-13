@@ -95,6 +95,18 @@ public class NYMontgomeryCountyParserTest extends BaseParserTest {
         "ID:0851");
   }
   
+  @Test
+  public void testParser2() {
+
+    doTest("T1",
+        "FIRE - SMOKE CALL  1788 BURTONVILLE RD CHARLESTON  01/13/2012 0533",
+        "CALL:FIRE - SMOKE CALL",
+        "ADDR:1788 BURTONVILLE RD",
+        "CITY:CHARLESTON",
+        "ID:0533");
+
+  }
+  
   public static void main(String[] args) {
     new NYMontgomeryCountyParserTest().generateTests("T1", "SRC CALL PLACE ADDR CITY ID");
   }
