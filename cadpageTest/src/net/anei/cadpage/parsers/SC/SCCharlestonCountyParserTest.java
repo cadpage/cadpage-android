@@ -242,6 +242,81 @@ public class SCCharlestonCountyParserTest extends BaseParserTest {
         "CALL:Medical Assist Bravo Response");
   }
   
+  @Test
+  public void testFixedLengthParser() {
+
+    doTest("T1",
+        "(Dispatch Info) M04           0338252             District 04 EMS     04B01A    1402 Camp Rd        XS:SECESSIONVILLE RD/JAMES POINT DR  Apt/Bldg: 8           04B_Assault Poss Dang Area    Location Name:Fini Event Planning",
+        "UNIT:M04",
+        "ID:0338252",
+        "SRC:04",
+        "CALL:EMS",
+        "CODE:04B01A",
+        "ADDR:1402 Camp Rd",
+        "APT:8",
+        "X:SECESSIONVILLE RD/JAMES POINT DR",
+        "INFO:04B_Assault Poss Dang Area",
+        "PLACE:Fini Event Planning");
+
+    doTest("T2",
+        "(Dispatch Info) M04           0347732             District 04 EMS     06D02A    311 Fleming Rd      XS:MAYBANK HWY/STIRCREEK RD          Apt/Bldg:",
+        "UNIT:M04",
+        "ID:0347732",
+        "SRC:04",
+        "CALL:EMS",
+        "CODE:06D02A",
+        "ADDR:311 Fleming Rd",
+        "X:MAYBANK HWY/STIRCREEK RD");
+
+    doTest("T3",
+        "(Dispatch Info) M04           0348340             District 04 EMS     33C06T    2 Bishop Gadsden WayXS:CAMP RD/CHESIRE DR                Apt/Bldg: 1059        33C_Transfer Emrgncy Respnse TLocation Name:MEYERS HALL",
+        "UNIT:M04",
+        "ID:0348340",
+        "SRC:04",
+        "CALL:EMS",
+        "CODE:33C06T",
+        "ADDR:2 Bishop Gadsden Way",
+        "APT:1059",
+        "X:CAMP RD/CHESIRE DR",
+        "INFO:33C_Transfer Emrgncy Respnse T",
+        "PLACE:MEYERS HALL");
+
+    doTest("T4",
+        "(Dispatch Info) M04           0348332             District 04 EMS     26C02     2 BISHOP GADSDEN WAYXS:CAMP RD/CHESIRE DR                Apt/Bldg: APT 1002    26C_Sick Abnormal Breathing   Location Name:",
+        "UNIT:M04",
+        "ID:0348332",
+        "SRC:04",
+        "CALL:EMS",
+        "CODE:26C02",
+        "ADDR:2 BISHOP GADSDEN WAY",
+        "APT:APT 1002",
+        "X:CAMP RD/CHESIRE DR",
+        "INFO:26C_Sick Abnormal Breathing");
+
+    doTest("T5",
+        "(Dispatch Info) M04           0348435             District 01 EMS     01C05     573 Meeting St      XS:JOHNSON ST/STUART ST              Apt/Bldg:             01C_Abn Pain Abv Navl Male >35Location Name:Crisis Ministries Sh",
+        "UNIT:M04",
+        "ID:0348435",
+        "SRC:01",
+        "CALL:EMS",
+        "CODE:01C05",
+        "ADDR:573 Meeting St",
+        "X:JOHNSON ST/STUART ST",
+        "INFO:01C_Abn Pain Abv Navl Male >35",
+        "PLACE:Crisis Ministries Sh");
+
+    doTest("T6",
+        "(Dispatch Info) M04           0348430             District 04 EMS     131C01    Riverland Dr / CanalXS:                                  Apt/Bldg:             29B_Accident MVA Unknown      Location Name:",
+        "UNIT:M04",
+        "ID:0348430",
+        "SRC:04",
+        "CALL:EMS",
+        "CODE:131C01",
+        "ADDR:Riverland Dr & Canal",
+        "INFO:29B_Accident MVA Unknown");
+
+  }
+  
   public static void main(String[] args) {
     new SCCharlestonCountyParserTest().generateTests("T1");
   }
