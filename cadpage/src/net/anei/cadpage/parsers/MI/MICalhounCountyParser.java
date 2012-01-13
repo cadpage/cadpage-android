@@ -51,7 +51,32 @@ public class MICalhounCountyParser extends DispatchPrintrakParser {
 
 
   private static final Properties CITY_TABLE = buildCodeTable(new String[]{
+      "AL", "ALBION",
+      "AS", "ATHENS TWP",
+      "AT", "ALBION TWP",
+      "BC", "BATTLE CREEK",
+      "BE", "BEDFORD TWP",
+      "BT", "BURLINGTON TWP",
+      "BU", "BURLINGTON",
+      "CL", "CLARENCE TWP",
+      "CT", "CLARENDON TWP",
+      "CO", "CONVIS TWP",
+      "EC", "ECKFORD TWP",
+      "ET", "EMMETT TWP",
+      "FT", "FREDONIA TWP",
+      "HO", "HOMER VILLIAGE",
+      "HP", "HOMER TWP",
+      "LE", "LEE TWP",
+      "LT", "LEROY TWP",
+      "MA", "MARSHALL",
+      "MO", "MARENGO TWP",
       "MT", "MARSHALL TWP",
-      "PT", "PENNFIELD TWP"
+      "NT", "NEWTON TWP",
+      "PT", "PENNFIELD TWP",
+      "SF", "SPRINGFIELD",
+      "ST", "SHERIDAN TWP",
+      "TK", "TEKONSHA",
+      "TT", "TEKONSHA TWP",
+      "VA", "ATHENS"
   });
 }
