@@ -21,14 +21,16 @@ FRM:cadpage@harnett.org\nMSG:1108-070330*1995 BETHEL BAPTIST RD***SPRING LAKE***
 Contact: Chris McCormick <mac3295@gmail.com>
 FRM:cadpage@harnett.org\nMSG:1111-092766*1 CLARK RD***LILLINGTON***MISC. FIRE****1175****
 FRM:cadpage@harnett.org\nMSG:1111-093153*8030 RAY MEDE***SPRING LAKE***MUTUAL AID WITH OTHER COUNTY********
+FRM:cadpage@harnett.org\nMSG:1201-003613*2728 DARROCH RD*****FIRE OTHER*********
+FRM:cadpage@harnett.org\nMSG:1201-002111*11860 NC 210 S*****FIRE RES STR*********
 
 */
 
 public class NCHarnettCountyParser extends FieldProgramParser {
   
   public NCHarnettCountyParser() {
-    super("HARNETT COUNTY", "NC",
-           "ID ADDR CITY CALL! SEQ");
+    super(CITY_LIST, "HARNETT COUNTY", "NC",
+           "ID ADDR CITY? CALL! SEQ");
   }
   
   @Override
@@ -39,7 +41,7 @@ public class NCHarnettCountyParser extends FieldProgramParser {
   @Override
   protected boolean parseMsg(String body, Data data) {
     String flds[] = body.split("\\*+");
-    if (flds.length < 4) return false;
+    if (flds.length < 3) return false;
     return parseFields(flds, data);
   }
   
@@ -61,4 +63,54 @@ public class NCHarnettCountyParser extends FieldProgramParser {
     if (name.equals("SEQ")) return new SeqField();
     return super.getField(name);
   }
+  
+  private static final String[] CITY_LIST = new String[]{
+    
+    // Townships
+    "ANDERSON CREEK",
+    "AVERASBORO",
+    "BARBECUE",
+    "BLACK RIVER",
+    "BUCKHORN",
+    "DUKE",
+    "GROVE",
+    "HECTORS CREEK",
+    "JOHNSONVILLE",
+    "LILLINGTON",
+    "NEILLS CREEK",
+    "STEWARTS CREEK",
+    "UPPER LITTLE RIVER",
+    
+    // Cities and towns
+    "CAMERON",
+    "COATS",
+    "DUNN",
+    "ERWIN",
+    "LILLINGTON",
+    "SPRING LAKE",
+    
+    // Unincorporated Communities
+    "ANDERSON CREEK",
+    "BARBECUE",
+    "BARCLAYSVILLE",
+    "BUIES CREEK",
+    "BUNNLEVEL",
+    "CAPE FEAR",
+    "CHALYBEATE SPRINGS",
+    "COKESBURY",
+    "DUNCAN",
+    "JOHNSONVILLE",
+    "HARNETT",
+    "KIPLING",
+    "LUART",
+    "MAMERS",
+    "OLIVIA",
+    "OVERHILLS",
+    "PINEVIEW",
+    "RYES",
+    "SEMINOLE",
+    "SHAWTOWN",
+    "SPOUT SPRINGS",
+    "TURLINGTON"
+  };
 }
