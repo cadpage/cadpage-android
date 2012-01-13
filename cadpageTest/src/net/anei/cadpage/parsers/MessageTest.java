@@ -278,6 +278,9 @@ public class MessageTest {
   
   @Test
   public void testParseBreak() {
+    doParseTest("OHHamiltonCounty", "0002/0002 XST2: 6400 DAWSON RD",
+                "ken@cadpage.org", "", "XST2: 6400 DAWSON RD", 2, 2);
+    
     doParseTest("PAErieCounty", "1 of 2:ERIE911:65A >MUTUAL AID/ASSIST",
                 "ken@cadpage.org", "", "ERIE911:65A >MUTUAL AID/ASSIST", 1, 2);
     

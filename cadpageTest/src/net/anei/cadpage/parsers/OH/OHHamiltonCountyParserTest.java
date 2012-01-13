@@ -171,9 +171,29 @@ public class OHHamiltonCountyParserTest extends BaseParserTest {
         "UNIT:HFE89 HFE92 HFFG3 HFMDRF",
         "X:4497 MIAMI RD");
 
+    doTest("T6",
+        "HC:TROUBLE BREATHING 5545 DRAKE RD INDN GLORIA ** TROUBLE BREATHING ** 87YO FEMALE...TRBL BREATHING 11:21 HFM65 XST: 8298 BRILL RD XST2: 8260 GRAVES RD",
+        "ADDR:5545 DRAKE RD",
+        "CITY:INDIAN HILL",
+        "PLACE:GLORIA",
+        "CALL:TROUBLE BREATHING",
+        "INFO:87YO FEMALE...TRBL BREATHING",
+        "UNIT:HFM65",
+        "X:8298 BRILL RD & 8260 GRAVES RD");
+
+    doTest("T7",
+        "HC:WIRES DOWN 6506 KENWOOD RD MDRA ISSIAH ** WIRES DOWN / ARCING / ON FIRE ** C/COMP REF LOW-HANGING POWER LINES 00:01 HFQ65 XST: 6450 NAVAHO TL XST2: 6400 DAWSON RD",
+        "ADDR:6506 KENWOOD RD",
+        "CITY:MADEIRA",
+        "PLACE:ISSIAH",
+        "CALL:WIRES DOWN / ARCING / ON FIRE",
+        "INFO:C/COMP REF LOW-HANGING POWER LINES",
+        "UNIT:HFQ65",
+        "X:6450 NAVAHO TL & 6400 DAWSON RD");
+
   }
   
   public static void main(String[] args) {
-    new OHHamiltonCountyParserTest().generateTests("T1", "ADDR CITY APT PLACE CALL INFO UNIT X");
+    new OHHamiltonCountyParserTest().generateTests("T6", "ADDR CITY APT PLACE CALL INFO UNIT X");
   }
 }
