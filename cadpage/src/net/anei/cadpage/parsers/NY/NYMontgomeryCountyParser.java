@@ -22,6 +22,10 @@ Subject:HVFD 218\nMOTOR VEHICLE ACCIDENT WALMART 101 SANFORD FARM SHOP CT AMSTER
 Subject:HVFD 218\nMOTOR VEHICLE ACCIDENT RECOVERY SPORTS GRILL 5005 STHWY 30 AMSTERDAM  09/26/2011 1331\n\n\n
 Subject:HVFD 218\nMOTOR VEHICLE ACCIDENT   STATE HWY 30 T AMSTERDAM AMSTERDAM COMMONS 09/25/2011 0851
 
+Contact: Kenneth LaBelle <klabelle65@gmail.com>
+Sender: paging@impact-sys.com
+FIRE - SMOKE CALL  1788 BURTONVILLE RD CHARLESTON  01/13/2012 0533
+
 */
 
 
@@ -36,14 +40,13 @@ public class NYMontgomeryCountyParser extends SmartAddressParser {
   
   @Override
   public String getFilter() {
-    return "messaging@iamresponding.com";
+    return "paging@impact-sys.com,messaging@iamresponding.com";
   }
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     
-    if (!SUBJ_PTN.matcher(subject).matches()) return false;
-    data.strSource = subject;
+    if (SUBJ_PTN.matcher(subject).matches()) data.strSource = subject;
     Matcher match = TAIL_PTN.matcher(body);
     if (!match.find()) return false;
     data.strCallId = match.group(1);
