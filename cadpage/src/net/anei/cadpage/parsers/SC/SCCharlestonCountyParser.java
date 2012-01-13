@@ -46,7 +46,17 @@ Contact: Gregory Kramer <g.j.kramer@gmail.com>
 
 Contact: Patrick Phillips <james.patrick.phillips@gmail.com>
 (Dispatch Info) Medical Assist Bravo Response 1717 River Rd X Street: TOBY RD/UNNAMED_298 ST Cmnd Channel: EMS OPS
+
  
+Contact: Josh Sims <josh.sims00@gmail.com>
+From: CDC_Dispatch@charlestoncounty.org
+(Dispatch Info) M04           0338252             District 04 EMS     04B01A    1402 Camp Rd        XS:SECESSIONVILLE RD/JAMES POINT DR  Apt/Bldg: 8           04B_Assault Poss Dang Area    Location Name:Fini Event Planning
+(Dispatch Info) M04           0347732             District 04 EMS     06D02A    311 Fleming Rd      XS:MAYBANK HWY/STIRCREEK RD          Apt/Bldg:
+(Dispatch Info) M04           0348340             District 04 EMS     33C06T    2 Bishop Gadsden WayXS:CAMP RD/CHESIRE DR                Apt/Bldg: 1059        33C_Transfer Emrgncy Respnse TLocation Name:MEYERS HALL
+(Dispatch Info) M04           0348332             District 04 EMS     26C02     2 BISHOP GADSDEN WAYXS:CAMP RD/CHESIRE DR                Apt/Bldg: APT 1002    26C_Sick Abnormal Breathing   Location Name:
+(Dispatch Info) M04           0348435             District 01 EMS     01C05     573 Meeting St      XS:JOHNSON ST/STUART ST              Apt/Bldg:             01C_Abn Pain Abv Navl Male >35Location Name:Crisis Ministries Sh
+(Dispatch Info) M04           0348430             District 04 EMS     131C01    Riverland Dr / CanalXS:                                  Apt/Bldg:             29B_Accident MVA Unknown      Location Name:
+
  */
 
 
@@ -63,12 +73,52 @@ public class SCCharlestonCountyParser extends FieldProgramParser {
   }
   
   @Override
-  public boolean parseMsg(String body, Data data) {
+  public boolean parseMsg(String subject, String body, Data data) {
+    
+    // See if we can parse this as a fixed field message
+    if (parseFixedFieldMsg(subject, body, data)) return true;
     body = body.replace(" Op Channel:", " Cmd Channel:").replace(" Cmnd Channel:", " Cmd Channel:");
     if (! super.parseMsg(body, data)) return false;
     if (data.strCall.length() == 0) return false;
     if (data.strAddress.length() == 0) return false;
     return true;
+  }
+
+  private boolean parseFixedFieldMsg(String subject, String body, Data data) {
+    if (!subject.equals("Dispatch Info")) return false;
+    if (body.length() < 87) return false;
+    if (!body.substring(34,43).equals("District ")) return false;
+    if (!body.substring(84,87).equals("XS:")) return false;
+    if (body.length() >= 130 &&
+        !body.substring(121,130).equals("Apt/Bldg:")) return false;
+    if (body.length() >= 187 &&
+        !body.substring(173,187).equals("Location Name:")) return false;
+    if (body.length() < 130) data.expectMore = true;
+    
+    data.strUnit = getField(body, 0, 14);
+    data.strCallId = getField(body, 14,34);
+    data.strSource = getField(body, 43, 46);
+    data.strCall = getField(body, 46, 54);
+    data.strCode = getField(body, 54, 64);
+    parseAddress(getField(body, 64, 84), data);
+    data.strCross = getField(body, 87, 121);
+    data.strApt = getField(body, 130, 143);
+    data.strSupp = getField(body, 143, 173);
+    data.strPlace = getField(body, 187, 9999);
+    
+    return true;
+  }
+  
+  @Override
+  public String getProgram() {
+    return "UNIT ID SRC CALL CODE ADDR X APT INFO PLACE CH";
+  }
+  
+  private static String getField(String body, int start, int end) {
+    int len = body.length();
+    if (start > len) start = len;
+    if (end > len) end = len;
+    return body.substring(start, end).trim();
   }
 
   private static final Pattern PREFIX_PTN = 

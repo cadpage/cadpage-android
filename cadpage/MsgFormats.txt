@@ -1770,13 +1770,14 @@ Rip and Run Report\nRip and Run Report\n\n~\nLocation Information:\n\nLocation:~
 Rip and Run Report\nRip and Run Report\n\n~\nLocation Information:\n\nLocation:~~LEADER HEIGHTS~RD/~PINE GROVE~RD\nVenue:~YORK TWP\nCross Streets~\nQuadrant:~19-04\nDistrict:~19-04\n~\nCall Information:\n\nCall Number:~8218\nCall Type:~ DEBRIS REMOVAL\nSource:~DISPATCHED BY YORK COUNTY 911\nPriority:~ 4\nStatus:~IN PROGRESS\nAssigned To:~BACK UP CALL TAKER 2\nCaller:~Winemiller,~Robert\nCall Date/Time:~10/24/2011 19:36:59\nDispatch Date/Time:~10/24/2011 19:40:19\nArrive Date/Time:~\nClear Date/Time:~\nEnroute Date/Time:~\nLatest Unit Cleared Date/Time:~\n~\nIncident Number(s)\n2011-00001705~~GOODWILL FIRE COMPANY NO. 1 YORK TOWNSHIP\n2011-00025487~~YORK AREA REGIONAL POLICE DEPARTMENT\n~\nUnits Sent:~2\nFIRESTA19, 21-81~\n\nAlerts:\n~\nLocation Alerts\n\nPerson Alerts\n\nVehicle Alerts\n~~\nNarrative:\n\nNarrative Time~Narrative\n10/24/11 19:38:09~no ot\n10/24/11 19:38:26~leaking fluids\n10/24/11 19:38:29~antifreeze\n10/24/11 19:38:45~no hazards\n10/24/11 19:39:10~both veh are blocking traffic\n10/24/11 19:39:19~in the middle of the intersection\n10/24/11 19:39:23~just occured\n10/24/11 19:39:43~veh 1: blue volzwagon passat\n10/24/11 19:39:50~veh 2: red dodge neon\n10/24/11 19:40:13~c/o has the blue veh\n10/24/11 19:40:32~Nature Of Call: fluids on roadway
 Rip and Run Report\nRip and Run Report\n\n~\nLocation Information:\n\nLocation:~2301~SPRINGWOOD~RD~\nVenue:~YORK TWP\nCross Streets~\nPAULINE DR / I 83 NB\nPhone:~(717) 741-2822\nQuadrant:~19-09\nDistrict:~19-09\n~\nCall Information:\n\nCall Number:~9986\nCall Type:~ FALLS CL 2\nSource:~DISPATCHED BY YORK COUNTY 911\nPriority:~ 4\nStatus:~IN PROGRESS\nAssigned To:~CALL TAKER 7\nCaller:~OnCall#Faith,~Acadian\nCall Date/Time:~10/26/2011 16:10:53\nDispatch Date/Time:~10/26/2011 16:14:53\nArrive Date/Time:~10/26/2011 16:19:44\nClear Date/Time:~\nEnroute Date/Time:~10/26/2011 16:17:09\nLatest Unit Cleared Date/Time:~10/26/2011 16:17:04\n~\nIncident Number(s)\n2011-00001710~~GOODWILL FIRE COMPANY NO. 1 YORK TOWNSHIP\n2011-00003105~~YOE FIRE CO AMBULANCE INC\n2011-00003067~~YOE FIRE COMPANY AMBULANCE SERVICE\n2011-00025631~~YORK AREA REGIONAL POLICE DEPARTMENT\n~\nUnits Sent:~5\nMICU19-2, MICU36-2, EMSSTA19, FIRESTA19, 21-89~\n\nAlerts:\n~\nLocation Alerts\n\nPerson Alerts\n\nVehicle Alerts\n~~\nNarrative:\n\nNarrative Time~Narrative\n10/26/11 16:12:49~Problem: fall-bleed from face.\2sPatient Info: 1 patient(s); 91 Years old; Female; Conscious: Yes; Breathing: Yes;\n10/26/11 16:12:49~ProQA Dispatch Message Sent; Chief Complaint Number: 17; Dispatch Level: 17B01; Response Text: Bravo\n10/26/11 16:12:56~no hosp preference\n10/26/11 16:13:16~lockbox on the side door-code for lock box is 2628 for key locatio\n10/26/11 16:13:27~Nature Of Call: 91 yof/\n10/26/11 16:13:35~ProQA Questionnaire Completed; Chief Complaint Number: 17; Dispatch Level: 17B01; Response Text: Bravo\n10/26/11 16:13:35~Problem: fall-bleed from face.\2sPatient Info: 1 patient(s); 91 Years old; Female; Conscious: Yes; Breathing: Yes;\n10/26/11 16:13:37~Nature Of Call: 91 yof/unkn dest\n10/26/11 16:32:01~Nature Of Call: Non emergency for lift assist
 ***************************************************************************
-Charleston County, SC (SCCharlestonCountyAParser)
+Charleston County, SC (SCCharlestonCountyParser)
 1110-0001587 District 03 Rescue Rescue Needed Address: Orleans Rd / Sam Rittenberg Blvd X Street:   Cmd Channel: Incident 04
 1110-0001574 District 03 Rescue MVA Entrapment D Address: Playground Rd / Ashley River Rd X Street:   Cmd Channel: Incident 07
 1110-0001568 District 04 Rescue MVA  w/Injury B Address: JAMES ISLAND EXPWY / FOLLY RD X Street:  JAMES ISLAND CONNECTOR Cmd Chann
-***************************************************************************
-Charleston County, SC (SCCharlestonCountyBParser)
 Medical Assist Charlie Respons 1605 Highway 41 X Street: JOE ROUSE RD/JOE ROUSE RD Op Channel: EMS OPS
+(Dispatch Info) M04           0338252             District 04 EMS     04B01A    1402 Camp Rd        XS:SECESSIONVILLE RD/JAMES POINT DR  Apt/Bldg: 8           04B_Assault Poss Dang Area    Location Name:Fini Event Planning
+(Dispatch Info) M04           0347732             District 04 EMS     06D02A    311 Fleming Rd      XS:MAYBANK HWY/STIRCREEK RD          Apt/Bldg:
+(Dispatch Info) M04           0348340             District 04 EMS     33C06T    2 Bishop Gadsden WayXS:CAMP RD/CHESIRE DR                Apt/Bldg: 1059        33C_Transfer Emrgncy Respnse TLocation Name:MEYERS HALL
 ***************************************************************************
 Oconee County, SC (SCOconeeCountyParser)
 [911 Message]  S80 - CORONARY PROBLEM  1280 N  STHY 11 XStreet: SPRINGDALE DR / SCENIC HEIGHTS RD, FOWLER RD WEST UNION    2011-00000815  09/26/11 22:27  Narr:   S
@@ -3760,15 +3761,6 @@ Remove line feeds
 (Skaneateles Fire) I/CAD MSG SKF 04:37:24  110 FENNELL ST VSK XTS:PACKSWOOD PL/OLD SENECA TPK, APT B IN BACK, UNCP - P:1 Lev:0 X: M911//88 YO MALE U
 (Skaneateles Fire) NCP/NOT BREATHING// IS AN EXPECTED DEATH// HAS BEEN ILL FOR SOME TIME// REQ NO LIGHTS AND SIRENS// Disp: 54C1, 54C2, 54C3, 54E12
 **********************************************************
-Charleston County, SC (alternate)
-Contact: Josh Sims <josh.sims00@gmail.com>
-From: CDC_Dispatch@charlestoncounty.org
-(Dispatch Info) M04           0338252             District 04 EMS     04B01A    1402 Camp Rd        XS:SECESSIONVILLE RD/JAMES POINT DR  Apt/Bldg: 8           04B_Assault Poss Dang Area    Location Name:Fini Event Planning
-(Dispatch Info) M04           0347732             District 04 EMS     06D02A    311 Fleming Rd      XS:MAYBANK HWY/STIRCREEK RD          Apt/Bldg:
-(Dispatch Info) M04           0348340             District 04 EMS     33C06T    2 Bishop Gadsden WayXS:CAMP RD/CHESIRE DR                Apt/Bldg: 1059        33C_Transfer Emrgncy Respnse TLocation Name:MEYERS HALL
-(Dispatch Info) M04           0348332             District 04 EMS     26C02     2 BISHOP GADSDEN WAYXS:CAMP RD/CHESIRE DR                Apt/Bldg: APT 1002    26C_Sick Abnormal Breathing   Location Name:
-(Dispatch Info) M04           0348435             District 01 EMS     01C05     573 Meeting St      XS:JOHNSON ST/STUART ST              Apt/Bldg:             01C_Abn Pain Abv Navl Male >35Location Name:Crisis Ministries Sh
-(Dispatch Info) M04           0348430             District 04 EMS     131C01    Riverland Dr / CanalXS:                                  Apt/Bldg:             29B_Accident MVA Unknown      Location Name:
 **********************************************************
 Humphreys County, TN
 Contact: dale allen <dallen422@gmail.com>
