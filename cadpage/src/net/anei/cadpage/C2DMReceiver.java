@@ -19,6 +19,8 @@ package net.anei.cadpage;
 
 
 
+import java.text.SimpleDateFormat;
+
 import net.anei.cadpage.HttpService.HttpRequest;
 import net.anei.cadpage.donation.DonationManager;
 import net.anei.cadpage.donation.DonationManager.DonationStatus;
@@ -237,21 +239,28 @@ public class C2DMReceiver extends BroadcastReceiver {
     if (ackReq.contains("P")) {
       DonationStatus status = DonationManager.instance().status(); 
       String paid;
+      String expireDate;
       if (status == DonationManager.DonationStatus.LIFE) {
         paid = "YES";
+        expireDate = "LIFE";
       } else if (ManagePreferences.freeSub()) {
         paid = "NO";
+        expireDate = null;
       } else if (status == DonationStatus.PAID || status == DonationStatus.PAID_WARN) {
         paid = "YES";
+        expireDate = DATE_FORMAT.format(DonationManager.instance().expireDate());
       } else {
         paid = "NO";
+        expireDate = null;
       }
-      bld.appendQueryParameter("paid_stat", paid);
+      bld.appendQueryParameter("paid_status", paid);
+      if (expireDate != null) bld.appendQueryParameter("paid_expire_date", expireDate);
     }
     
     // Send the request
     HttpService.addHttpRequest(context, new HttpRequest(bld.build()));
   }
+  private static final SimpleDateFormat DATE_FORMAT = new SimpleDateFormat("MM/dd/yyyy");
   
   
   /**

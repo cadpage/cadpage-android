@@ -143,6 +143,9 @@ location: User GPS coordinates if requested and enabled
 paid_status: Cadpage subscription status if requested
              YES - user is a paid Cadpage subscriber entitled to any discounts that brings
              NO  - user is not a paid Cadpage subscriber
+paid_expire_date: If subscription status is YES, this contains the date the subscription
+                  expires as MM/DD/YYYY.  If the subscription never expires, it has a value
+                  of "LIFE".            
 
 Note: If message content was delivered through content_url instead of a content 
 keyword an automatic acknowledgment is redundant and will not be sent.
