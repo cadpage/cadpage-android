@@ -3,8 +3,8 @@ package net.anei.cadpage.parsers.PA;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import net.anei.cadpage.parsers.MsgParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.SmartAddressParser;
 
 /*
 Berks County, PA
@@ -28,9 +28,13 @@ Contact: jarrod emes <jkemes@gmail.com>
 Sender: _1ZLG@berks.alertpa.org
 CAD MSG: *D MVAWITH  I78 / MP 39.6 EB 0078 MC DRIVER DOWN IN THE ROADWAY / NOT MOVING / 2 TT PULLED OFF TO THE SI
 
+Contact: support@active911.com
+Sender: alert_2NTE@berks.alertpa.org
+CAD MSG: *D BLSTRAUM 101 DOE MOUNTAIN LN @BEAR CREEK SKI AREA 0086   14YOM/BROKEN LEFT WRIST/CON AND ALERT/PT WILL BE IN THE SKI PATROLE RO
+
 */
 
-public class PABerksCountyParser extends MsgParser {
+public class PABerksCountyParser extends SmartAddressParser {
   
   private static final String DEF_STATE = "PA";
   private static final String DEF_CITY = "BERKS COUNTY";
@@ -66,16 +70,25 @@ public class PABerksCountyParser extends MsgParser {
     } else {
       data.strCity = muniCode;
     }
+    String address = body.substring(0, match.start()).trim();
+    body = body.substring(match.end()).trim();
     
     // An '@' splits place name from address
-    String address = body.substring(0, match.start()).trim();
+    // They aren't consistent about which is which, so we will use the address
+    // check logic to make that determination
     pt = address.indexOf('@');
     if (pt >= 0) {
-      data.strPlace = address.substring(0, pt).trim();
-      address = address.substring(pt+1).trim();
+      String part1 = address.substring(0, pt).trim();
+      String part2 = address.substring(pt+1).trim();
+      if (checkAddress(part1) > checkAddress(part2)) {
+        address = part1;
+        data.strPlace = part2;
+      } else {
+        data.strPlace = part1;
+        address = part2;
+      }
     }
-    data.strAddress = address.replace("/", "&");
-    body = body.substring(match.end()).trim();
+    parseAddress(address, data);
     
     // Anything beyond that is supplemental info
     data.strSupp = body.replaceAll("//+", "/");
@@ -89,18 +102,18 @@ public class PABerksCountyParser extends MsgParser {
     /*20*/  null,
     /*21*/  "MOUNT PENN",
     /*22*/  "ST. LAWRENCE",
-    /*23*/  "LOWER ALSACE TOWNSHIP",
-    /*24*/  "ALSACE TOWNSHIP",
-    /*25*/  "EXETER TOWNSHIP",
-    /*26*/  "AMITY TOWNSHIP",
-    /*27*/  "DOUGLASS TOWNSHIP",
-    /*28*/  "UNION TOWNSHIP",
+    /*23*/  "LOWER ALSACE TWP",
+    /*24*/  "ALSACE TWP",
+    /*25*/  "EXETER TWP",
+    /*26*/  "AMITY TWP",
+    /*27*/  "DOUGLASS TWP",
+    /*28*/  "UNION TWP",
     /*29*/  "BIRDSBORO",
     /*30*/  "NEW MORGAN",
-    /*31*/  "ROBESON TOWNSHIP",
-    /*32*/  "CAERNARVON TOWNSHIP",
-    /*33*/  "BRECKNOCK TOWNSHIP",
-    /*34*/  "CUMRU TOWNSHIP",
+    /*31*/  "ROBESON TWP",
+    /*32*/  "CAERNARVON TWP",
+    /*33*/  "BRECKNOCK TWP",
+    /*34*/  "CUMRU TWP",
     /*35*/  "MOHTON",
     /*36*/  "SHILLINGTON",
     /*37*/  "KENHORST",
@@ -109,62 +122,62 @@ public class PABerksCountyParser extends MsgParser {
     /*40*/  null,
     /*41*/  "OLD WYOMISSING HILLS",
     /*42*/  "OLD WEST LAWN",
-    /*43*/  "SPRING TOWNSHIP",
+    /*43*/  "SPRING TWP",
     /*44*/  "SINKING SPRINGS",
-    /*45*/  "SOUTH HEIDELBERG TOWNSHIP",
+    /*45*/  "SOUTH HEIDELBERG TWP",
     /*46*/  "WERNERSVILLE",
     /*47*/  "ROBESONIA",
     /*48*/  "HEIDELBERG",
     /*49*/  "WOMELSDORF",
     /*50*/  null,
-    /*51*/  "MARION TOWNSHIP",
+    /*51*/  "MARION TWP",
     /*52*/  "NORTH HEIDELBERG",
     /*53*/  "LOWER HEIDELBERG",
-    /*54*/  "BERN TOWNSHIP",
-    /*55*/  "CENTRE TOWNSHIP",
-    /*56*/  "PENN TOWNSHIP",
+    /*54*/  "BERN TWP",
+    /*55*/  "CENTRE TWP",
+    /*56*/  "PENN TWP",
     /*57*/  "BERNVILLE",
-    /*58*/  "JEFFERSON TOWNSHIP",
-    /*59*/  "UPPER BERN TOWNSHIP",
+    /*58*/  "JEFFERSON TWP",
+    /*59*/  "UPPER BERN TWP",
     /*60*/  "CENTERPORT",
-    /*61*/  "TILDEN TOWNSHIP",
-    /*62*/  "UPPER TULPEHOCKEN TOWNSHIP",
+    /*61*/  "TILDEN TWP",
+    /*62*/  "UPPER TULPEHOCKEN TWP",
     /*63*/  "STRAUSSTOWN",
-    /*64*/  "BETHEL TOWNSHIP",
-    /*65*/  "TULPEHOCKEN TOWNSHIP",
-    /*66*/  "MUHLENBERG TOWNSHIP",
+    /*64*/  "BETHEL TWP",
+    /*65*/  "TULPEHOCKEN TWP",
+    /*66*/  "MUHLENBERG TWP",
     /*67*/  "LAURELDALE",
     /*68*/  null,
-    /*69*/  "ONTELAUNEE TOWNSHIP",
+    /*69*/  "ONTELAUNEE TWP",
     /*70*/  null,
     /*71*/  "LEESPORT",
-    /*72*/  "MAIDENCREEK TOWNSHIP",
-    /*73*/  "PERRY TOWNSHIP",
+    /*72*/  "MAIDENCREEK TWP",
+    /*73*/  "PERRY TWP",
     /*74*/  "SHOEMAKERSVILE",
-    /*75*/  "WINDSOR TOWNSHIP",
+    /*75*/  "WINDSOR TWP",
     /*76*/  "HAMBURG",
-    /*77*/  "ALBANY TOWNSHIP",
-    /*78*/  "GREENWICH TOWNSHIP",
-    /*79*/  "MAXATAWNY TOWNSHIP",
+    /*77*/  "ALBANY TWP",
+    /*78*/  "GREENWICH TWP",
+    /*79*/  "MAXATAWNY TWP",
     /*80*/  "LENHARTSVILLE",
     /*81*/  "KUTZTOWN",
     /*82*/  "LYONS",
     /*83*/  "FLEETWOOD",
-    /*84*/  "RICHMOND TOWNSHIP",
+    /*84*/  "RICHMOND TWP",
     /*85*/  "TOPTON",
-    /*86*/  "LONGSWAMP TOWNSHIP",
-    /*87*/  "ROCKLAND TOWNSHIP",
-    /*88*/  "DISTRICT TOWNSHIP",
-    /*89*/  "PIKE TOWNSHIP",
+    /*86*/  "LONGSWAMP TWP",
+    /*87*/  "ROCKLAND TWP",
+    /*88*/  "DISTRICT TWP",
+    /*89*/  "PIKE TWP",
     /*90*/  null,
-    /*91*/  "RUSCOMBMANOR TOWNSHIP",
-    /*92*/  "OLEY TOWNSHIP",
-    /*93*/  "EARL TOWNSHIP",
+    /*91*/  "RUSCOMBMANOR TWP",
+    /*92*/  "OLEY TWP",
+    /*93*/  "EARL TWP",
     /*94*/  "BOYERTOWN",
-    /*95*/  "COLEBROOKDALE TOWNSHIP",
+    /*95*/  "COLEBROOKDALE TWP",
     /*96*/  "BECHTELSVILLE",
-    /*97*/  "WASHINGTON TOWNSHIP",
+    /*97*/  "WASHINGTON TWP",
     /*98*/  "BALLY",
-    /*99*/  "HEREFORD TOWNSHIP"
+    /*99*/  "HEREFORD TWP"
   };
 }

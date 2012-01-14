@@ -3730,8 +3730,15 @@ Dispatch ** 04:38 **
 UNCONSCIOUS PERSON ** 110 FENNELL ST ** APT B IN BACK ** FOEHL, MARY KAY **
 ((315)247-3**
 **********************************************************
+Geauga County, OH (alternate)
+Contact: Courtney Sanders <csanders3217@gmail.com>
+Sender: 69310
+medical alarm general unit c 17111 munn rd
 **********************************************************
-**********************************************************
+Unknown
+Contact: KEVIN FLYNN <kwf9111@gmail.com>
+Sender: 777116058637
+.... (NFD) 12-001870 MEDICAL \n1089 180TH ST \nATWOOD AVE / BANCROF/T AVE \nNICHOLS \nNFR WLAB
 **********************************************************
 **********************************************************
 **********************************************************
@@ -3774,3 +3781,49 @@ Sender: dispatch@911email.net
 (E911) RAIL CAR LEAKING AT JOHNSONVILLE RAIL YARD CONTAINS SODIUM HYDROXIDE CSX ADVISED THEY JUST FOUND IT ON ITS SIDE
 (E911) AMBULANCE REQ 1714 LONG ST 70 Y/O/M COPD PATIENT BADLY SWOLLEN AND WILL TAKE SEVERAL MEN TO PICK HIM UP
 (E911) ANY FIRE PERSONELL NOT BUSY F401 IS REQUESTING ONE OF YOU GO TO THE HALL AND GET REPORT FOR 737 CHEROKEE DR 10/07/2011 SMOKE SCARE, OWNER
+**********************************************************
+Hunterdon County, NJ (Flemington)
+Contact: Dan Palmer <cantbeatl337@gmail.com>
+49FD:ALRM ACT: (49)SHOPPES AT FLEMINGTON / 100 REAVILLE AVE NEAR: R202-31 RAMP TO RARITAN TWP LI 12003820: EM NAILS::ZONE 4 & 9 / GENERAL FIRE SIGNAL / WATN
+49FD:SMOKE L3: (49)15 BONNELL ST NEAR: PARK AVE TO ACADEMY ST 12002996 POSSIBLE ELECTRICAL::SMOKE DISAPATING 
+49FD:SMOKE L3: (49)WALGREENS / 29 STATE HWY NO 31 NEAR: CHURCH ST TO RARITAN TWP LINE 12002674: BAD SMELL OF SMOKE COMING OUT OF VENTS
+49FD:ALRM ACT: (49)HUNTER HILLS APARTMENTS / 1 GARDEN LANE NEAR: MAIN ST N TO CUL DE SAC 12002158: APT I-6 / FIRE ALARM SET OFF BY COOKING, REQUESTING ASSIST
+49FD:HMT GAS L3: (21)JOHANNA FARMS / 1 JOHANNA FARMS RD NEAR: R202 SOUTH TO BR+W RR TRACKS 11125350 WATER FLOW::UPGRADE - SMELL OF GAS IN BLDG PER CMD
+49FD:FIRE L3:(21)41 STIRRUP LANE NEAR: CARRIAGE GATE DR TO CARRIAGE G 11123569 SMOKE IN LAUNDRY ROOM::
+
+
+The number in parenthesis (49) or (21) is whos call it is, raritan township
+is next to us so that is the location of the call if it (21) which is their
+station number.
+
+49FD refers to fire department 49 I assume (I don't work for the county,
+just a volunteer firemen.) So yes.
+Frenchtown Fire - Station 11
+Glen Gardner Fire - Station 12
+Hampton Fire - Station 13
+High Bridge Fire - Station 14
+Holland Township Fire - Station 15
+Kingwood Fire  Station 16
+Lambertville Fire - Station 17
+Lebanon Borough Fire - Station 18
+Lebanon Township Fire - Station 19
+Raritan Township Fire - Station 21
+Whitehouse Station Fire - Station 22
+Stockton Fire - Station 23
+Oldwick Fire - Station 24
+Pattenburg Fire - Station 25
+West Amwell Township Fire - Station 26
+East Whitehouse Fire - Station 31
+Readington Fire - Station 32
+Three Bridges Fire - Station 33
+Fairmount Fire - Station 34
+Bloomsbury Fire - Station 43
+Califon Fire Station 44
+Clinton Fire - Station 45
+Annandale Fire - Station 46
+Sergeantsville Fire - Station 47
+Amwell Valley Fire - Station 48
+Flemington Fire - Station 49
+Quackertown Fire - Station 91
+Milford Fire - Station 92
+

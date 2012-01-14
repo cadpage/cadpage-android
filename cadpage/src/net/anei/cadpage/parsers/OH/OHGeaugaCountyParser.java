@@ -33,7 +33,6 @@ GEAUGA COUNTY SHERIFF (Text Message) M/A to Chardon for a Fire Alarm off at Geau
 GEAUGA COUNTY SHERIFF (Text Message) FIRE DEPT NEEDED AT - M/A TO MONTVILLE 9141 CLAY ST SMELL OF GAS IN THE HOUSE TXT STOP to opt-out
 GEAUGA COUNTY SHERIFF (Text Message) RESCUE IS NEEDED AT - 14181 RADCLIFFE RD 72 YO FEMALE CONS NOT RESPONSIVE HIST OF HEART PROBLEMS TXT STOP to opt-out
 GEAUGA COUNTY SHERIFF (Text Message) RESCUE IS NEEDED AT - hambden twp park -- 13860 gar hwy -- 16 y/o male -- back pain -- 2800 TXT STOP to opt-out
-
 GEAUGA COUNTY SHERIFF (Text Message) RESCUE IS NEEDED AT - sunco station female in custody hx heart problems TXT STOP to opt-out
 GEAUGA COUNTY SHERIFF (Text Message) RESCUE IS NEEDED AT - 9922 OLD STATE RD 90 YO FEMALE DIFF BREATHING TXT STOP to opt-out
 GEAUGA COUNTY SHERIFF (Text Message) Rescue needed at 1 La Verne Ln, female possible going into Labor. 2800/Wright TXT STOP to opt-out
