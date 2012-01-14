@@ -89,9 +89,16 @@ public class PABerksCountyParserTest extends BaseParserTest {
         "PLACE:BEAR CREEK SKI AREA",
         "CITY:LONGSWAMP TWP",
         "INFO:14YOM/BROKEN LEFT WRIST/CON AND ALERT/PT WILL BE IN THE SKI PATROLE RO");
- }
+
+    doTest("T11",
+        "FRM: \nMSG:CAD MSG: *D SF       65B MEADOW GLEN LN 0034 HEAVY SMOKE, GETTING WORSE; POSSIBLY COMING FROM DOWNSTAIRS APT; HUNGU",
+        "CALL:*D SF",
+        "ADDR:65B MEADOW GLEN LN",
+        "CITY:CUMRU TWP",
+        "INFO:HEAVY SMOKE, GETTING WORSE; POSSIBLY COMING FROM DOWNSTAIRS APT; HUNGU");
+  }
   
   public static void main(String[] args) {
-    new PABerksCountyParserTest().generateTests("T10", "CALL ADDR PLACE CITY INFO");
+    new PABerksCountyParserTest().generateTests("T11", "CALL ADDR PLACE CITY INFO");
   }
 }
