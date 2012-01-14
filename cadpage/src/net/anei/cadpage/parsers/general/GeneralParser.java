@@ -190,7 +190,7 @@ public class GeneralParser extends SmartAddressParser {
           // Otherwise run it through the smart parser just in case the
           // call desc is followed by an address
           else {
-            parseAddress(StartType.START_CALL, fld, data);
+            parseAddress(StartType.START_CALL, FLAG_NO_IMPLIED_APT, fld, data);
             if (data.strSupp.length() == 0) data.strSupp = getLeft();
           }
           break;
@@ -282,7 +282,7 @@ public class GeneralParser extends SmartAddressParser {
         if (!foundAddr) {
           StartType st = (data.strCall.length() == 0 ? StartType.START_CALL :
                           data.strPlace.length() == 0 ? StartType.START_PLACE : StartType.START_SKIP);
-          Result res = parseAddress(st, fld);
+          Result res = parseAddress(st, FLAG_NO_IMPLIED_APT, fld);
           if (res.getStatus() > 0) {
             // Bingo!  Anything past the address goes into info
             foundAddr = true;

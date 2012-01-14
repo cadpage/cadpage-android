@@ -88,7 +88,7 @@ public class MDCharlesCountyParser extends SmartAddressParser {
   
   @Override
   public String getFilter() {
-    return "rc.263@c-msg.net,dispatch@ccso.us";
+    return "rc.263@c-msg.net,dispatch@ccso.us,@sms.mdfiretech.com";
   }
 
 
