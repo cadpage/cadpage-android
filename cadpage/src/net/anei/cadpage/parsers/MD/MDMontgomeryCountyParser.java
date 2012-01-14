@@ -37,6 +37,10 @@ FRM:General Alerts\nMSG:CAD MSG: * D *  * MAF FULL * 14615 PHILIP DR * AT715 BCN
 Contact: Christopher Finelli <chris.finelli@gmail.com>
 CAD MSG: * D * 0609 * RSC - RESET ALARM * 4908 AUBURN AVE ,MCG  * RS741B ECC1
 
+Contact: Tim Whirley <t.whirley76@gmail.com>
+Sender: alrt_7H8G@mcen.montgomerycountymd.gov
+CAD MSG: * D * 1704 * ABDOMINAL PAIN * 7500 MATTINGLY LA ,MCG  * A717 ECC30
+
 */
 
 public class MDMontgomeryCountyParser extends MsgParser {
@@ -64,7 +68,9 @@ public class MDMontgomeryCountyParser extends MsgParser {
     data.strPlace = p.get(')');
     p = new Parser(strAddress);
     p.getLastOptional(',');
-    parseAddress(p.get(), data);
+    strAddress = p.get();
+    strAddress = strAddress.replaceAll("\\bLA\\b", "LN");
+    parseAddress(strAddress, data);
     for (String unit : props.getProperty("Units", "").split(" +")) {
       if (validUnit(unit)) {
         if (data.strUnit.length() > 0) data.strUnit += ' ';
