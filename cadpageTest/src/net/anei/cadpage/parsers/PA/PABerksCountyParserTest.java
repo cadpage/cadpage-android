@@ -25,7 +25,7 @@ public class PABerksCountyParserTest extends BaseParserTest {
         "CAD MSG: *D MVAWITH  102 BEAVER CREEK RD 0087 1 VEH / SPUN OUT / MALE OCC (COMP'S HUSBAND) BELIEVES HE FRACTURED H",
         "CALL:*D MVAWITH",
         "ADDR:102 BEAVER CREEK RD",
-        "CITY:ROCKLAND TOWNSHIP",
+        "CITY:ROCKLAND TWP",
         "INFO:1 VEH / SPUN OUT / MALE OCC (COMP'S HUSBAND) BELIEVES HE FRACTURED H");
     
     doTest("T3",
@@ -41,7 +41,7 @@ public class PABerksCountyParserTest extends BaseParserTest {
         "CAD MSG: *D MVAUNK   NOBLE ST / BASTIAN RD 0079 ONE CAR, OCCUPIED, INTO A FIELD // ONLY LANDMARK SHE COULD MEN",
         "CALL:*D MVAUNK",
         "ADDR:NOBLE ST & BASTIAN RD",
-        "CITY:MAXATAWNY TOWNSHIP",
+        "CITY:MAXATAWNY TWP",
         "INFO:ONE CAR, OCCUPIED, INTO A FIELD / ONLY LANDMARK SHE COULD MEN");
     
     doTest("T5",
@@ -55,7 +55,7 @@ public class PABerksCountyParserTest extends BaseParserTest {
         "CAD MSG: *D MVAENT   FORGEDALE RD / DAVIDS DR 0087 2VEHS HEAD ON/2 VICTIMS ENTRAPPED /1 FEMALE SERIOUSLY INJ/BLEED",
         "CALL:*D MVAENT",
         "ADDR:FORGEDALE RD & DAVIDS DR",
-        "CITY:ROCKLAND TOWNSHIP",
+        "CITY:ROCKLAND TWP",
         "INFO:2VEHS HEAD ON/2 VICTIMS ENTRAPPED /1 FEMALE SERIOUSLY INJ/BLEED");
     
     doTest("T7",
@@ -79,11 +79,19 @@ public class PABerksCountyParserTest extends BaseParserTest {
         "CALL:*D MVAWITH",
         "ADDR:I78 & MP 39.6 EB",
         "MADDR:I 78 & MP 39.6",
-        "CITY:GREENWICH TOWNSHIP",
+        "CITY:GREENWICH TWP",
         "INFO:MC DRIVER DOWN IN THE ROADWAY / NOT MOVING / 2 TT PULLED OFF TO THE SI");
+
+    doTest("T10",
+        "CAD MSG: *D BLSTRAUM 101 DOE MOUNTAIN LN @BEAR CREEK SKI AREA 0086   14YOM/BROKEN LEFT WRIST/CON AND ALERT/PT WILL BE IN THE SKI PATROLE RO",
+        "CALL:*D BLSTRAUM",
+        "ADDR:101 DOE MOUNTAIN LN",
+        "PLACE:BEAR CREEK SKI AREA",
+        "CITY:LONGSWAMP TWP",
+        "INFO:14YOM/BROKEN LEFT WRIST/CON AND ALERT/PT WILL BE IN THE SKI PATROLE RO");
  }
   
   public static void main(String[] args) {
-    new PABerksCountyParserTest().generateTests("T8", "CALL ADDR CITY INFO");
+    new PABerksCountyParserTest().generateTests("T10", "CALL ADDR PLACE CITY INFO");
   }
 }
