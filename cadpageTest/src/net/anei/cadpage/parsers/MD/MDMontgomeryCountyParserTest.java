@@ -54,7 +54,7 @@ public class MDMontgomeryCountyParserTest extends BaseParserTest {
         "CAD MSG: * D * 3132 * BOX ALARM * 209 FOUNTAIN GREEN LA ,GA  * E708 E722 E729 E734 E728 T731 AT708 RS703 M73M",
         "BOX:3132",
         "CALL:BOX ALARM",
-        "ADDR:209 FOUNTAIN GREEN LA",
+        "ADDR:209 FOUNTAIN GREEN LN",
         "UNIT:E708 E722 E729 E734 E728 T731 AT708 RS703");
 
     doTest("T7",
