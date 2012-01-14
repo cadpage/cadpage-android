@@ -24,9 +24,9 @@ Publishing a regular Cadpage release
 * update release_date item
 * Update release_info based on information in issues list
 * Run Cadpage in emulator to make sure release_info look correct
-* Commit all changes
 * Use Cadpage RMB menu Android Tools > Export signed application package to
   build a cadpage.apk file
+* Commit all changes
 * use command line svn cp to copy cadpage trunk to tags/<release>
 
 * Login to https://market.android.com/publish as market@cadpage.org

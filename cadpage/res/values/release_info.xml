@@ -1,26 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">01112012</string>
-  <string name="release_version">v1.5.09</string>
+  <string name="release_date">01142012</string>
+  <string name="release_version">v1.5.10</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="min_expire_date">10012012</string>
   <string name="release_text">
 What"'"s new in this release\n
 \n
+Direct paging for CodeMessaging.net is now supported!!!\n
+\n
+New Locations:\n
+Sarasota County, FL\n
+Wayne County, NJ\n
+Delaware County, NY\n
+Union County, OH\n
+Crawford County, PA\n
+Humphreys County, TN\n
+Prince George County, VA\n
+\n
 Location Parsing Fixes:\n
+Montgomery County, MD\n
+Calhoun County, MI\n
+Montgomery County, NY\n
+Wyoming County, NY\n
+Harnett County, NC\n
+Berks County, PA\n
+Charleston County, SC\n
 \n
-Sussex County, DE\n
-St Charles County, MD\n
-Oneida County, NY\n
-Bucks County, PA\n
-\n
-General Fixes\n
-\n
-Fixed some serious bugs in the restructured parsing logic released a week ago,
-most of which seem to have been successfully covered up by error recovery logic.\n
-\n
-Fixed some minor issues with the Direct Paging registration logic.
+General Fixes:\n
+Changed &amp; to AT in map searches sent to Google Maps.  This does a better
+job of locating overpasses reported as intersections.
   </string>  
 </resources>
   
