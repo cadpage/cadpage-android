@@ -32,6 +32,10 @@ Contact: support@active911.com
 Sender: alert_2NTE@berks.alertpa.org
 CAD MSG: *D BLSTRAUM 101 DOE MOUNTAIN LN @BEAR CREEK SKI AREA 0086   14YOM/BROKEN LEFT WRIST/CON AND ALERT/PT WILL BE IN THE SKI PATROLE RO
 
+Contact: Joe Mcglynn <jmladder57@gmail.com>
+Sender: 1410000029
+FRM: \nMSG:CAD MSG: *D SF       65B MEADOW GLEN LN 0034 HEAVY SMOKE, GETTING WORSE; POSSIBLY COMING FROM DOWNSTAIRS APT; HUNGU
+
 */
 
 public class PABerksCountyParser extends SmartAddressParser {

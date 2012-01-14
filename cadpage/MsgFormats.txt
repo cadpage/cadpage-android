@@ -3333,18 +3333,6 @@ Contact: "Roger Bennett" <rbennett@allconet.org>  (AllCoNet.org) (Dispatch cente
 Sender: acgov_911_cad@allconet.org
 S:CAD M:08:26 #047678 BEHAVORIAL EMERGENCY 12037 IRIS AVE SW  BOX:F0801 DUE:A396 M514\n\n\n
 **********************************************************
-Unknown
-Contact; Wayne Jackson <southhillfire721@yahoo.com>
-Sender: swpage@vameck911.comcastbiz.net
-
-Subject:MECK 911\n
-11-030267 ACCIDENT W/INJURY\n
-NB I-85 MM 4\n
-//\n
-NB INTERSTATE EIGHTY-FIVE - MM 04\2sMECK CO\n
-CO#7 SSRS VSP\n
-\n
-**********************************************************
 Unknown:
 Contact: Charlie Humert <humbert04.ch@gmail.com>
 Sender: KC-911@kc911.us
@@ -3695,15 +3683,6 @@ Sender: colin.english@rocketmail.com
 Subject:PVFD\nbusiness meeting and elections tongiht all members to attendand per 201\n
 Subject:PVFD\nATTN POSEY FIRE MEMBERS MANDOTORY HAZMAT REFRESHER TRAINING TONIGHT @ 6PM\n
 **********************************************************
-Crawford County, PA
-Contact: Patriot Jon <patriot.jon21@gmail.com>
-Sender: OESCAD@WINDSTREAM.NET
-DispatchBParser base after combining subject and text
-
-FRM:\nSUBJ:TWDU >TREES/WIRES DOWN URGENT\nMSG:OESCAD:STATE HWY 18 SPRING TWP THARP, DENNIS Cad: 2012-0000000067
-FRM:OESCAD@WINDSTREAM.NET\nSUBJ:TWDU  >TREES/WIRES DOWN URGENT\nMSG:OESCAD:STATE HWY 18 SPRING TWP THARP, DENNIS Cad: 2012-0000000067
-FRM:OESCAD@WINDSTREAM.NET\nSUBJ:SFR   >STRUCTURE FIRE\nMSG:OESCAD:150 S MAIN ST XS: SPRING ST SPRINGBORO BORO PIERI, PIERINO Map:E-3\n(Con't) 2 of 2\nGrids:0,0 Cad: 2012-0000000547(End)
-**********************************************************
 Liberty County, ??
 Contact: "Craig Powell" <craig@hardinvfd.org>
 [FIRE CALL]  FM834 NEAR BASEBALL FIELDS POSS OUT OF CONTROL GRASS FIRE
@@ -3740,7 +3719,19 @@ Contact: KEVIN FLYNN <kwf9111@gmail.com>
 Sender: 777116058637
 .... (NFD) 12-001870 MEDICAL \n1089 180TH ST \nATWOOD AVE / BANCROF/T AVE \nNICHOLS \nNFR WLAB
 **********************************************************
+Unknown,
+Contact: Randy Callahan <randy.callahan@csuglobal.edu>
+Sender: DoNotReply@Emergin.com
+00045,FIRE ALARM,415 S MASON ST.TEXT:ZONE/3-SMOKE DETECTOR, INS PH/97-407-0415 \NAME:LIFE SAFETY \PH:800 268 6870,
 **********************************************************
+Unknown
+Contact; Wayne Jackson <southhillfire721@yahoo.com>
+Sender: swpage@vameck911.comcastbiz.net
+Subject:MECK 911\n11-030267 ACCIDENT W/INJURY\nNB I-85 MM 4\n//\nNB INTERSTATE EIGHTY-FIVE - MM 04  MECK CO\nCO#7 SSRS VSP\n\n
+
+Contact: Michael Herndon <mherndonffemt@gmail.com>
+Sender: swpage@vameck911.comcastbiz.net
+(MECK 911) 12-001451 SUBJECT FALLEN\n5539 HIGHWAY FORTY-SEVEN\n//\nCHASE CITY NURSING AND REHAB CENTER  MECK CO\nCCRS
 **********************************************************
 **********************************************************
 ************  READY TO ROLL ******************************
@@ -3826,4 +3817,14 @@ Amwell Valley Fire - Station 48
 Flemington Fire - Station 49
 Quackertown Fire - Station 91
 Milford Fire - Station 92
+**********************************************************
+Crawford County, PA
+Contact: Patriot Jon <patriot.jon21@gmail.com>
+Sender: OESCAD@WINDSTREAM.NET
+DispatchBParser base after combining subject and text
 
+FRM:\nSUBJ:TWDU >TREES/WIRES DOWN URGENT\nMSG:OESCAD:STATE HWY 18 SPRING TWP THARP, DENNIS Cad: 2012-0000000067
+FRM:OESCAD@WINDSTREAM.NET\nSUBJ:TWDU  >TREES/WIRES DOWN URGENT\nMSG:OESCAD:STATE HWY 18 SPRING TWP THARP, DENNIS Cad: 2012-0000000067
+FRM:OESCAD@WINDSTREAM.NET\nSUBJ:SFR   >STRUCTURE FIRE\nMSG:OESCAD:150 S MAIN ST XS: SPRING ST SPRINGBORO BORO PIERI, PIERINO Map:E-3\n(Con't) 2 of 2\nGrids:0,0 Cad: 2012-0000000547(End)
+1 of 2\nFRM:OESCAD@WINDSTREAM.NET\nSUBJ:CS    >CARDIAC SYMPTOMS\nMSG:OESCAD:135 MEAD AVE XS: BEAVER ST SPRINGBORO BORO NAAS, DAVID C Map:E-3\n(Con't) 2 of 2\nGrids:0,0 Cad: 2012-0000001348(End)
+1 of 2\nFRM:OESCAD@WINDSTREAM.NET\nSUBJ:UNC   >UNCONSCIOUS SUBJECT\nMSG:OESCAD:104 CUSSEWAGO ST Apt: A Bldg XS: SPRINGBORO RD SPRINGBORO BORO\n(Con't) 2 of 2\nHOOVER,KYLE Map:E-3 Grids:0,0 Cad: 2012-0000001631(End)
