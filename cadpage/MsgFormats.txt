@@ -8,7 +8,7 @@ to a new district format
 * DispatchOSSIParser subclasses
 *******************************************************************************
 *******************************************************************************
-Smyrna,GA (GASmyrnaParser)
+Smyrna, GA (GASmyrnaParser)
 CAD:FYI: ;STRUCTURE FIRE;2501 WOODLANDS DR SE;FLAMES INSIDE FUSE BOX INSIDE CALLERS APARTMENT. SMELLS WIRES BURNING. [08/08/10 22:53:28 DTHACKER];103157
 CAD:Update: ;VEHICLE FIRE;S COBB DR SE/BOURNE DR SE;METRO PCS;OWNER OF VEH CALLED --- ADV ON 280 AT WH [10/11/10 17:46:52 ABERRY] blk dodge charger on fire [10/
 CAD:FYI: ;VEHICLE FIRE;WINDY HILL RD SE/S COBB DR SE;METRO PCS;blk dodge charger on fire [10/11/10 17:46:16 DSNIVELY] ;104107
@@ -3739,6 +3739,8 @@ Sender: swpage@vameck911.comcastbiz.net
 (MECK 911) 12-001451 SUBJECT FALLEN\n5539 HIGHWAY FORTY-SEVEN\n//\nCHASE CITY NURSING AND REHAB CENTER  MECK CO\nCCRS
 **********************************************************
 **********************************************************
+**********************************************************
+**********************************************************
 ************  READY TO ROLL ******************************
 **********************************************************
 **********************************************************
@@ -3763,8 +3765,6 @@ Remove line feeds
 (Skaneateles Fire)  I/CAD MSG SKF 16:52:38 2745 E LAKE RD TSK: @SKANEATELES SAILING CLUB XTS:BUFFS BLUFF RD/COON HILL RD, , LOCK -R P:2 Lev:0 X:  M91
 (Skaneateles Fire) I/CAD MSG SKF 04:37:24  110 FENNELL ST VSK XTS:PACKSWOOD PL/OLD SENECA TPK, APT B IN BACK, UNCP - P:1 Lev:0 X: M911//88 YO MALE U
 (Skaneateles Fire) NCP/NOT BREATHING// IS AN EXPECTED DEATH// HAS BEEN ILL FOR SOME TIME// REQ NO LIGHTS AND SIRENS// Disp: 54C1, 54C2, 54C3, 54E12
-**********************************************************
-**********************************************************
 **********************************************************
 Hunterdon County, NJ (Flemington)
 Contact: Dan Palmer <cantbeatl337@gmail.com>
@@ -3811,13 +3811,3 @@ Flemington Fire - Station 49
 Quackertown Fire - Station 91
 Milford Fire - Station 92
 **********************************************************
-Crawford County, PA
-Contact: Patriot Jon <patriot.jon21@gmail.com>
-Sender: OESCAD@WINDSTREAM.NET
-DispatchBParser base after combining subject and text
-
-FRM:\nSUBJ:TWDU >TREES/WIRES DOWN URGENT\nMSG:OESCAD:STATE HWY 18 SPRING TWP THARP, DENNIS Cad: 2012-0000000067
-FRM:OESCAD@WINDSTREAM.NET\nSUBJ:TWDU  >TREES/WIRES DOWN URGENT\nMSG:OESCAD:STATE HWY 18 SPRING TWP THARP, DENNIS Cad: 2012-0000000067
-FRM:OESCAD@WINDSTREAM.NET\nSUBJ:SFR   >STRUCTURE FIRE\nMSG:OESCAD:150 S MAIN ST XS: SPRING ST SPRINGBORO BORO PIERI, PIERINO Map:E-3\n(Con't) 2 of 2\nGrids:0,0 Cad: 2012-0000000547(End)
-1 of 2\nFRM:OESCAD@WINDSTREAM.NET\nSUBJ:CS    >CARDIAC SYMPTOMS\nMSG:OESCAD:135 MEAD AVE XS: BEAVER ST SPRINGBORO BORO NAAS, DAVID C Map:E-3\n(Con't) 2 of 2\nGrids:0,0 Cad: 2012-0000001348(End)
-1 of 2\nFRM:OESCAD@WINDSTREAM.NET\nSUBJ:UNC   >UNCONSCIOUS SUBJECT\nMSG:OESCAD:104 CUSSEWAGO ST Apt: A Bldg XS: SPRINGBORO RD SPRINGBORO BORO\n(Con't) 2 of 2\nHOOVER,KYLE Map:E-3 Grids:0,0 Cad: 2012-0000001631(End)
