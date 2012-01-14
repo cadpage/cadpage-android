@@ -21,7 +21,7 @@ class CodeMessagingVendor extends Vendor {
 
   @Override
   boolean isAvailable() {
-    return false;
+    return true;
   }
   
 }
