@@ -3740,7 +3740,6 @@ Sender: swpage@vameck911.comcastbiz.net
 **********************************************************
 **********************************************************
 **********************************************************
-**********************************************************
 ************  READY TO ROLL ******************************
 **********************************************************
 **********************************************************
@@ -3810,4 +3809,13 @@ Amwell Valley Fire - Station 48
 Flemington Fire - Station 49
 Quackertown Fire - Station 91
 Milford Fire - Station 92
+**********************************************************
+Juniata County, PA
+Contact: Wendy Varner <wendy.s.varner@gmail.com>
+Sender: UNIATA911@Juniata.PA
+FRM:JUNIATA911@Juniata.PA\nMSG:JUNIATA911:EATMNT>ALTERED MENTAL STATUS 3931 WILLIAM PENN HWY FERMANAGH ANITA Map: Grids:, Cad: 2012-0000000151
+FRM:JUNIATA911@Juniata.PA\nMSG:JUNIATA911:EATMNT>ALTERED MENTAL STATUS 3931 WILLIAM PENN HWY FERMANAGH ANITA Map: Grids:, Cad: 2012-0000000151
+FRM:JUNIATA911@Juniata.PA\nMSG:JUNIATA911:ECPA >CHEST PAIN 21 WALLEYE DR FERMANAGH HALEY FOLK Map: Grids:, Cad: 2012-0000000131
+FRM:JUNIATA911@Juniata.PA\nMSG:JUNIATA911:EILLB >ILL PERSON 68 LEXI ST FERMANAGH BERRY'S PERSONAL /ELIZABETH Map: Grids:, Cad: 2012-0000000126
+FRM:JUNIATA911@Juniata.PA\nMSG:JUNIATA911:EILLB >ILL PERSON 69 COTTAGE RD MILFORD LOCUST GROVE RETIREMENT VILLAG Map: Grids:, Cad: 2012-00
 **********************************************************
