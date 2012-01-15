@@ -72,5 +72,21 @@ public class PAMifflinCountyParserTest extends BaseParserTest {
         "ADDR:56 RED SHALE LN",
         "CITY:BRATTON TWP",
         "X:26-92  CARLISLE GAP RD");
- }
+  }
+  
+  @Test
+  public void testJuanityCounty() {
+
+    doTest("T1",
+        "1 of 2\nFRM:cmessages@co.mifflin.pa.us\nSUBJ:CAD Page for CFS 011512-8\nMSG:ALS - Sick Person\n11 SUNSET RD\nApt: \nLEWISTOWN\nhttp://maps.google.c\n(Con't) 2 of 2\nom/maps?q=+40.58788%20-77.56015\nCross Streets : 1-8  E WILSON AVE * 1-8 HARDING AVE \n(End)",
+        "ID:011512-8",
+        "CALL:ALS - Sick Person",
+        "ADDR:11 SUNSET RD",
+        "CITY:LEWISTOWN",
+        "X:1-8  E WILSON AVE * 1-8 HARDING AVE");
+  }
+  
+  public static void main(String args[]) {
+    new PAMifflinCountyParserTest().generateTests("T1", "ID CALL ADDR APT CITY X");
+  }
 }
