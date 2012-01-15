@@ -22,11 +22,14 @@ Sender: ccsodispatch@co.collin.tx.us
 11055307  MEDICATION OVERDOSE  415 S BRIDGEFARMER RD IN LOWRY CROSSING  E US HIGHWAY 380 / COUNTY ROAD 403  [LCFD DIST: LCF1 GRID: 3100]  UNITS: LCF2  ST RMK: 10J3  CFS RMK 19:34 36 YOA FEMALE TOOK SOMETYPE OF SLEEP  {CAD004 19:35}
 11044930  FIRST RESPONDERS  3737 E UNIVERSITY DR IN COLLIN COUNTY  COUNTY ROAD 407 / COUNTY ROAD 404  [LCFD DIST: LCF1 GRID: 1211]  UNITS: LCF1  ST RMK: <NONE>  CFS RMK 17:52 7 YOA FEMALE WITH ABDOMINAL PAINS///  {CAD004 17:52}
 11046597  MAJOR ACCIDENT 10/50  COUNTY ROAD 393  /  FM 546 IN COLLIN COUNTY [LCFD DIST: LCF1 GRID: 1322]  UNITS: LCF1  ST RMK: 8J1  CFS RMK 21:40 SOMEONE HAS FALLEN OUT OF A TRUCK  {CAD004 21:40}
-
 11056128  GRASS FIRE  10753 COUNTY ROAD 903 IN COLLIN COUNTY  COUNTY ROAD 902  UNITS: BRF1  ST RMK: <NONE>  CFS RMK 21:52 RIGHT ON
 
-Message From Dispatch 11043265  MAJOR ACCIDENT 10/50  COUNTY ROAD 398  / COUNTY ROAD 447 IN COLLIN COUNTY  [CCSO DIST: 131 GRID: 1322]  UNITS: 1206 131B AMRF LCF1  ST RMK: 8K4  CFS RMK 16:24 CAR ON IT'S ROOF ON CR 398....UNK IF  {C (01/02)
-Message From Dispatch 11039781  INJURED PERSON  2665 BRIAR TR IN COLLIN COUNTY  COUNTY ROAD 324  [CCSO DIST: 131 GRID: 1331]  UNITS: AMRP LCF1  ST RMK: 8H2  CFS RMK 13:54 RP HAS FALLEN AND AND INJURIED BOTH   {CAD003 14:01}
+Contact: active911.com
+Sender: ccsodispatch@co.collin.tx.us
+12003605  UNAUTHORIZED BURN  3352 HEDRICK LN IN COLLIN COUNTY  COUNTY ROAD 941  [LCFD DIST: LCF1 GRID: 1322]  UNITS: LCF1  ST RMK: <NONE> CFS RMK 17:12 NEIGHBOR BEHIND THE RP IS BURNING TR  {CAD001 17:13}
+CFS No: 12003605  UNAUTHORIZED BURN  3352 HEDRICK LN  COUNTY ROAD 941 /
+LOWRY CROSSING REQUESTING FIRE MARSHAL  COME TO THE LOCATION - CALLED IN AS SUBJECT  BURNING TRASH IN A SMOKER  CFS No: 12003605 UNAUTHORIZED BURN  7605 COUNTY ROAD 941  PRIVATE ROAD 5206 / PRIVATE ROAD 5205
+DISREGARD  CFS No: 12003635  MINOR ACCIDENT 10/50  FM 546 / FM 3286  DISREGARD
 
 */
 
@@ -45,7 +48,7 @@ public class TXCollinCountyParser extends FieldProgramParser {
   
   public TXCollinCountyParser() {
     super("COLLIN COUNTY", "TX",
-        "( ID CALL ADDR+? X | MASH ) UNITS:UNIT ST_RMK:INFO CFS_RMK:INFO");
+        "( ID CALL ADDR X | MASH | IDCALL ADDR X ) UNITS:UNIT ST_RMK:INFO CFS_RMK:INFO");
   }
   
   @Override
@@ -72,14 +75,20 @@ public class TXCollinCountyParser extends FieldProgramParser {
       body = body.substring(0,match.start()) + body.substring(match.end());
     }
     
+    pt = body.indexOf("CFS No: ");
+    if (pt >= 0) {
+      data.strSupp = body.substring(0,pt).trim();
+      body = body.substring(pt+8).trim();
+    }
+    
     // It seems that the original dispatch message uses double blanks as field
     // delimiters, but that some helpful? forwarding services are eliminating
     // the redundant blanks.  If this text message has the original double
     // blank delimiters, we can call parseFields to finsh things off
-    sAddress = "";
     body = body.replace("CFS RMK ", "CFS RMK: ");
+    body = body.replaceAll(" +/ +", " / ");
     String[] flds = body.split("  +");
-    if (flds.length >= 5) {
+    if (flds.length >= 3) {
       if (!parseFields(flds, data)) return false;
     } else {
       if (!super.parseMsg(body, data)) return false;
@@ -88,36 +97,19 @@ public class TXCollinCountyParser extends FieldProgramParser {
     if (data.strCity.equals("COLLIN COUNTY")) data.strCity = "";
     return data.strAddress.length() > 0;
   }
-  
-  private static final Pattern ID_PTN = Pattern.compile("\\d{8}");
-  private class MyIdField extends IdField {
-    public MyIdField() {
-      setPattern(ID_PTN);
-    }
-  }
 
-  private String sAddress;
+  private static final Pattern IN_PTN = Pattern.compile(" IN ", Pattern.CASE_INSENSITIVE);
   private class MyAddressField extends AddressField {
-    
-    
-    @Override
-    public boolean canFail() {
-      return true;
-    }
 
     @Override
-    public boolean checkParse(String field, Data data) {
+    public void parse(String field, Data data) {
       
-      // This is a repeating field that should accumulate an address field
-      // until it contains the " IN " marker
-      if (data.strAddress.length() > 0) return false;
-      sAddress = append(sAddress, " ", field);
-      int pt = sAddress.indexOf(" IN ");
-      if (pt < 0) return true;
-      
-      parseAddress(sAddress.substring(0,pt).trim(), data);
-      data.strCity = sAddress.substring(pt+4).trim();
-      return true;
+      Matcher match = IN_PTN.matcher(field);
+      if (match.find()) {
+        data.strCity = field.substring(match.end()).trim();
+        field = field.substring(0,match.start()).trim();
+      }
+      super.parse(field, data);
     }
   }
   
@@ -125,13 +117,19 @@ public class TXCollinCountyParser extends FieldProgramParser {
   // double blank delimiters have been removed
   private static final Pattern MASH_PTN = Pattern.compile("(\\d{8}) +(.*)(?: IN | in )(.*)");
   private class MashField extends Field {
+    
     @Override
-    public void parse(String field, Data data) {
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
       
       // Start with easy stuff.  ID is always the first token
       // and call/address and city/cross are separated with a " IN " marker
       Matcher match = MASH_PTN.matcher(field);
-      if (!match.matches()) abort();
+      if (!match.matches()) return false;
       data.strCallId = match.group(1);
       
       // Use smart parser to separate call and address
@@ -142,21 +140,39 @@ public class TXCollinCountyParser extends FieldProgramParser {
         if (sTail.startsWith(tc)) {
           data.strCity = tc;
           data.strCross = sTail.substring(tc.length()).trim();
-          return;
+          return true;
         }
       }
       
       Parser p = new Parser(sTail);
       data.strCity = p.get(' ');
       data.strCross = p.get();
+      return true;
+    }
+    
+    @Override
+    public void parse(String field, Data data) {
+      abort();
+    }
+  }
+  
+  private static final Pattern ID_CALL_PTN = Pattern.compile("(\\d{8}) +(.*)");
+  private class IDCallField extends Field {
+    @Override
+    public void parse(String field, Data data) {
+      Matcher match = ID_CALL_PTN.matcher(field);
+      if (!match.find()) abort();
+      data.strCallId = match.group(1);
+      data.strCall = match.group(2);
     }
   }
   
   @Override
   public Field getField(String name) {
-    if (name.equals("ID")) return new MyIdField();
+    if (name.equals("ID")) return new IdField("\\d{8}");
     if (name.equals("ADDR")) return new MyAddressField();
     if (name.equals("MASH")) return new MashField();
+    if (name.equals("IDCALL")) return new IDCallField();
     return super.getField(name);
   }
   
