@@ -24,6 +24,9 @@ FRM:cadpage@harnett.org\nMSG:1111-093153*8030 RAY MEDE***SPRING LAKE***MUTUAL AI
 FRM:cadpage@harnett.org\nMSG:1201-003613*2728 DARROCH RD*****FIRE OTHER*********
 FRM:cadpage@harnett.org\nMSG:1201-002111*11860 NC 210 S*****FIRE RES STR*********
 
+Contact: Roy Gibbs <boham29@gmail.com>
+B1201-004551*11 BROOK LN*****EMS ABD PAIN*********
+
 */
 
 public class NCHarnettCountyParser extends FieldProgramParser {
