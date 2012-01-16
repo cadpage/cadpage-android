@@ -1,6 +1,8 @@
 package net.anei.cadpage.parsers.PA;
 
 import java.util.Properties;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
@@ -54,8 +56,8 @@ Sender: 2155102861
 911: SQ134  type:AASSLT  adr:STADIUM BAR & GRIL ,36 at 1903 BETHLEHEM PK ,36 btwn SWARTLEY RD & MILL RD aai:  box:60063  map:3032F3  tm:02:33:13  ED1127778  
 911: STA4  type:RDOM    adr:NESHA STATE PARK ,22 at 3401 STATE RD ,22 btwn DUNKSFERRY RD & WINKS LA  aai:NEXT TO POOL AREA AT PICNIC AREA  box:37023  map:3374C7  tm:12:52:17  FD1111780    Run: R16 SQ37 R4
 911: SQ134  type:ATRAN   adr:CENTER SQUARE TOWR #823-A ,28 at 555 BROAD ST #823-A ,28 btwn ATKINSON DR & VETE  aai:  box:19052  map:2922H10 tm:18:18:15  ED1127865  
-STA19  type:FALRM   adr:LINDEN ELEM SCH ,28 at 480 LINDEN AV ,28 btwn EAST ST & ROHR DR  aai:  box:19093  map:2923A10  tm:20:27:42  FD1111756\4s
-911: STA19  type:GALRM   adr:6 FLINT CI ,29  btwn WINDSOR WY & CUL DE SAC  aai:  box:79020  map:3034H5  tm:23:32:45  FD1112459\4sRun: E79\4s\n
+STA19  type:FALRM   adr:LINDEN ELEM SCH ,28 at 480 LINDEN AV ,28 btwn EAST ST & ROHR DR  aai:  box:19093  map:2923A10  tm:20:27:42  FD1111756    
+911: STA19  type:GALRM   adr:6 FLINT CI ,29  btwn WINDSOR WY & CUL DE SAC  aai:  box:79020  map:3034H5  tm:23:32:45  FD1112459    Run: E79    \n
 
 Contact: Patrick Roberts <pgremt@gmail.com>
 Sender: 2156696195
@@ -84,14 +86,20 @@ Sender: 2002000004
 Contact: "sweetcheeks6839@aol.com" <sweetcheeks6839@aol.com>
 911: STA4  type:FALRM   adr:3338 RICHLIEU RD ,22 -- COUNTRY COMMONS btwn DEBRA DR & PA TP  aai:215 639 2800  box:65031  map:3261H9  tm:17:34:44 FD1200573    Run: E65 E
 
+Contact: "porco23@yahoo.com" <porco23@yahoo.com>
+Sender: alert_@alert.bucksema.org
+(#6331  1/1) FDWL\nadr:2008 BRISTOL RD ,75  btwn SHADOW CREEK LA & GUINEA LA\nbox:29045\ntm:22:34:01 FD1200729\nRun: E29 E78 L29 E93
+
  */
 
 
 public class PABucksCountyParser extends FieldProgramParser {
   
+  private static final Pattern MARKER1 = Pattern.compile("^[A-Z]+\nadr:");
+  
   public PABucksCountyParser() {
     super("BUCKS COUNTY", "PA",
-           "SRC! type:CALL! adr:ADDR! btwn:X aai:INFO box:BOX map:MAP tm:ID% Run:UNIT");
+           "SRC type:CALL! adr:ADDR! btwn:X aai:INFO box:BOX map:MAP tm:ID% Run:UNIT");
   }
   
   @Override
@@ -103,6 +111,11 @@ public class PABucksCountyParser extends FieldProgramParser {
   protected boolean parseMsg(String body, Data data) {
     
     if (body.startsWith("911:")) body = body.substring(4).trim();
+    
+    Matcher match = MARKER1.matcher(body);
+    if (match.find()) {
+      body = "type:" + body.replace('\n', ' ');
+    }
     
     body = body.replaceAll(" btwn ", " btwn:").replaceAll(" stype:", " type:").replaceAll("&nbsp;", " ").replaceAll("&amp;", "&").trim();
     return super.parseMsg(body, data);
