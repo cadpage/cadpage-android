@@ -68,9 +68,15 @@ public class NCHarnettCountyParserTest extends BaseParserTest {
         "ADDR:11860 NC 210 S",
         "CALL:FIRE RES STR");
 
+    doTest("T9",
+        "1201-004551*11 BROOK LN*****EMS ABD PAIN*********",
+        "ID:1201-004551",
+        "ADDR:11 BROOK LN",
+        "CALL:EMS ABD PAIN");
+
   }
 
   public static void main(String[] args) {
-    new NCHarnettCountyParserTest().generateTests("T7");
+    new NCHarnettCountyParserTest().generateTests("T1");
   }
 }
