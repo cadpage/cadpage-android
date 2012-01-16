@@ -23,8 +23,7 @@ public class SCOconeeCountyParserTest extends BaseParserTest {
         "CITY:WEST UNION",
         "ID:2011-00000815",
         "DATE:09/26/11",
-        "TIME:22:27",
-        "INFO:S");
+        "TIME:22:27");
 
     doTest("T2",
         "[911 Message]  S80 - CORONARY PROBLEM  206 S  TUGALOO ST XStreet: W MAULDIN ST / BOOKER DR WALHALLA    2011-00000809  09/25/11 06:49  Narr:   PATIENT IS HER FATHER",
