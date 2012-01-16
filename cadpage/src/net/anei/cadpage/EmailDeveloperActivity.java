@@ -1,7 +1,12 @@
 package net.anei.cadpage;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 import net.anei.cadpage.donation.DonationManager;
 import net.anei.cadpage.donation.UserAcctManager;
+import net.anei.cadpage.vendors.VendorManager;
 import android.app.Activity;
 import android.app.AlarmManager;
 import android.app.PendingIntent;
@@ -135,11 +140,15 @@ public class EmailDeveloperActivity extends Activity {
     }
     
     // If message info requested, add that
+    String vendorEmail = null;
     if (includeMsg) {
       SmsMmsMessage message;
       if (type == EmailType.MESSAGE) {
         message = SmsMessageQueue.getInstance().getMessage(msgId);
-        if (message != null) message.addMessageInfo(context, body);
+        if (message != null) {
+          message.addMessageInfo(context, body);
+          vendorEmail = VendorManager.instance().getEmailAddress(message.getVendorCode());
+        }
       } else {
         SmsMsgLogBuffer lb = SmsMsgLogBuffer.getInstance();
         if (lb != null) lb.addMessageInfo(context, body);
@@ -156,6 +165,12 @@ public class EmailDeveloperActivity extends Activity {
     // Build send email intent and launch it
     Intent intent = new Intent(Intent.ACTION_SEND);
     String[] emailAddr = context.getResources().getStringArray(R.array.email_devel_addr);
+    if (vendorEmail != null) {
+      List<String> list = new ArrayList<String>();
+      list.addAll(Arrays.asList(vendorEmail.split(";")));
+      list.addAll(Arrays.asList(emailAddr));
+      emailAddr = list.toArray(new String[list.size()]);
+    }
     intent.putExtra(Intent.EXTRA_EMAIL, emailAddr);
     String emailSubject = CadPageApplication.getNameVersion() + " " +
         context.getResources().getStringArray(R.array.email_devel_subject)[type.ordinal()];

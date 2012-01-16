@@ -11,7 +11,8 @@ class Active911Vendor extends Vendor {
            R.drawable.active_911_vendor,
            R.drawable.active_911_logo,
            "https://www.active911.com/cadpage_registration",
-           ">A91");
+           ">A91",
+           "support@active911.com");
   }
 
   @Override

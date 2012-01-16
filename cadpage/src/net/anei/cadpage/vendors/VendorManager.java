@@ -72,6 +72,18 @@ public class VendorManager {
   }
   
   /**
+   * Get support email address associated with vendor code
+   * @param vendorCode vendor code
+   * @return vendor support email address
+   */
+  public String getEmailAddress(String vendorCode) {
+    if (vendorCode == null) return null;
+    Vendor vendor = findVendor(vendorCode);
+    if (vendor == null) return null;
+    return vendor.getEmailAddress();
+  }
+  
+  /**
    * Called by CD2MReceiver when a new registration ID is defined
    * @param context current context
    * @param registrationId new registration ID

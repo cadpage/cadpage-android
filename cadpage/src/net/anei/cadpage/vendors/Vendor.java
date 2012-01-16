@@ -24,6 +24,7 @@ abstract class Vendor {
   private int logoId;
   private Uri baseURI;
   private String triggerCode;
+  private String emailAddress;
   
   private String title = null;
   
@@ -52,7 +53,7 @@ abstract class Vendor {
   
   
   Vendor(int titleId, int summaryId, int textId, int iconId, int logoId,
-         String urlString, String triggerCode) {
+         String urlString, String triggerCode, String emailAddress) {
     
     // Calculate vendor code by stripping "Vendor" off the end of the class name
     String clsName = this.getClass().getName();
@@ -68,6 +69,7 @@ abstract class Vendor {
     this.logoId = logoId; 
     this.baseURI = Uri.parse(urlString);
     this.triggerCode = triggerCode;
+    this.emailAddress = emailAddress;
   }
   
   /**
@@ -124,6 +126,13 @@ abstract class Vendor {
    */
   String getTrigerCode() {
     return triggerCode;
+  }
+  
+  /**
+   * @return support email address
+   */
+  String getEmailAddress() {
+    return emailAddress;
   }
 
   /**

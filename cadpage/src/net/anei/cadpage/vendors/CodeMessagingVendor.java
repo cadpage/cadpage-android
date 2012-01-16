@@ -11,7 +11,8 @@ class CodeMessagingVendor extends Vendor {
            R.drawable.code_messaging_vendor,
            R.drawable.code_messaging_logo,
            "http://www.CodePassport.net/CodePassport.asp?wci=Android",
-           ">CMG");
+           ">CMG",
+           "dewey@generationconsultants.com");
   }
 
   @Override
