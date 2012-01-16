@@ -541,10 +541,23 @@ public class PABucksCountyParserTest extends BaseParserTest {
         "MAP:3261H9",
         "ID:FD1200573",
         "UNIT:E65 E");
+  }
+  
+  @Test
+  public void testParser2() {
 
+    doTest("T1",
+        "(#6331  1/1) FDWL\nadr:2008 BRISTOL RD ,75  btwn SHADOW CREEK LA & GUINEA LA\nbox:29045\ntm:22:34:01 FD1200729\nRun: E29 E78 L29 E93",
+        "CALL:FDWL - DWELLING FIRE (TAC)",
+        "ADDR:2008 BRISTOL RD",
+        "CITY:WARRINGTON TWP",
+        "X:SHADOW CREEK LA & GUINEA LA",
+        "BOX:29045",
+        "ID:FD1200729",
+        "UNIT:E29 E78 L29 E93");
   }
   
   public static void main(String[] args) {
-    new PABucksCountyParserTest().generateTests("T44");
+    new PABucksCountyParserTest().generateTests("T1");
   }
 }

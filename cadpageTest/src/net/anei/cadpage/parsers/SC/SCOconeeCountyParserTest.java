@@ -91,6 +91,22 @@ public class SCOconeeCountyParserTest extends BaseParserTest {
 
   }
   
+  @Test
+  public void testActive911() {
+
+    doTest("T1",
+        "(911 Message) S74 - RESPIRATORY DISTRESS  502 VERA DR XStreet: HOBSON ST / DEAD END WESTMINSTER    2012-00000025  01/14/12 01:28  Narr:   TONED RQ5  DOES HAVE HEART PROBLEMS  HEART PT HAVING TROUBLE BREATHING  E911 Info - Class of Service: RESD Special Response Info: WESTMINSTER CITY PD WESTMINSTER CITY FIRE  EMS ER-5 ER-3",
+        "CALL:S74 - RESPIRATORY DISTRESS",
+        "ADDR:502 VERA DR",
+        "X:HOBSON ST / DEAD END",
+        "CITY:WESTMINSTER",
+        "ID:2012-00000025",
+        "DATE:01/14/12",
+        "TIME:01:28",
+        "INFO:TONED RQ5  DOES HAVE HEART PROBLEMS  HEART PT HAVING TROUBLE BREATHING / RESD",
+        "UNIT:EMS ER-5 ER-3");
+  }
+  
   public static void main(String[] args) {
     new SCOconeeCountyParserTest().generateTests("T1", "UNIT CALL ADDR APT X CITY PLACE ID DATE TIME INFO");
   }
