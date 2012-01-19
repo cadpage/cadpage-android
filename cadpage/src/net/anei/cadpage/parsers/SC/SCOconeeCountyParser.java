@@ -23,13 +23,17 @@ System: Aegis
 Contact: support@active911.com
 (911 Message) S74 - RESPIRATORY DISTRESS  502 VERA DR XStreet: HOBSON ST / DEAD END WESTMINSTER    2012-00000025  01/14/12 01:28  Narr:   TONED RQ5  DOES HAVE HEART PROBLEMS  HEART PT HAVING TROUBLE BREATHING  E911 Info - Class of Service: RESD Special Response Info: WESTMINSTER CITY PD WESTMINSTER CITY FIRE  EMS ER-5 ER-3
 
+(911 Message) 70S - STRUCTURE FIRE  10941 CLEMSON BLVD XStreet: PRESSLEY PL / SONNYS DR SENECA  BQS #5 CLEMSON BLVD   01/16/12 17:44  Narr:   IN NEIGHBORHOOD BEHIND THE ROAD RUNNER  SOMEWHERE ACROSS STREET  E911 Info - Class of Service: BUSN Special Response Info: SHERIFF DEPT SENECA  CORINTH-SHILOH FIRE #3  EMS ER-1 ER-2
+(911 Message) LIFT ASSISTANCE  1407 W LITTLE RIVER DR XStreet: AZURE COVE CT / KEOWEE LAKESHORE DR SENECA     01/15/12 20:43  Narr:   NO 10-52 RESPONDING UNLESS NEEDED  HE HAS FALLEN  NEEDS HELP LIFTING SOMEONE OUT OF THE FLOOR  E911 Info - Class of Service: RESD Special Response Info: SHERIFF DEPT SENECA CORINTH-SHILOH FIRE #3  EMS ER-1 ER-2
+(911 Message) S32 - SPINAL INJURY  105 GLORIA LN XStreet: SHILOH RD / DEAD END SENECA 2012-00000009  01/13/12 17:35  Narr:   CANT MOVE HIS LEG  HUSBAND FELL BATHROOM FLOOR
+
  */
 
 
 public class SCOconeeCountyParser extends FieldProgramParser {
   
   private static final Pattern ID_PTN = Pattern.compile("  (\\d{4}-\\d{8})  ");
-  private static final Pattern DATE_TIME_MARK = Pattern.compile("    (\\d\\d/\\d\\d/\\d\\d) (\\d\\d:\\d\\d)\\b");
+  private static final Pattern DATE_TIME_MARK = Pattern.compile("  +(\\d\\d/\\d\\d/\\d\\d) (\\d\\d:\\d\\d)\\b");
   private static final Pattern DATE_TIME_MARK2 = Pattern.compile("^(\\d\\d/\\d\\d/\\d\\d) (\\d\\d:\\d\\d)\\b");
   private static final String DATE_TIME_MARK3 = "NN/NN/NN NN:NN";
   
