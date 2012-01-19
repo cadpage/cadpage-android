@@ -50,6 +50,12 @@ public class CONorthglennEMSParserTest extends BaseParserTest {
         "ID:5678",
         "ADDR:1301 PONTIAC ST",
         "CALL:Fall Victim");
+
+    doTest("T7",
+        "(- part 1 of 1) RC:Run# 575/5486 RIVERDALE WAY/287//Injured Party//",
+        "ID:575",
+        "ADDR:5486 RIVERDALE WAY",
+        "CALL:287 / Injured Party");
  }
   
   public static void main(String[] args) {
