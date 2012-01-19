@@ -31,7 +31,7 @@ Contact: Al Pola <alpola828@gmail.com>
 
 public class NYOnondagaCountyParser extends FieldProgramParser {
 
-  private static final Pattern MARKER = Pattern.compile("^(?:I/)?CAD MSG [A-Z]+) +(\\d\\d:\\d\\d:\\d\\d) +");
+  private static final Pattern MARKER = Pattern.compile("^(?:I/)?CAD MSG ([A-Z]+) +(\\d\\d:\\d\\d:\\d\\d) +");
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "OTOW","OWASCO",

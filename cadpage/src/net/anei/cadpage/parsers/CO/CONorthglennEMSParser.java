@@ -16,6 +16,9 @@ sender: dispatch@northglennambulance.com
 Subject:- part 1 of 1\nRC:Run# 3769/3015 CALIFORNIA ST//out of control child hit head/Not Known//\n
 Subject:- part 1 of 1\nRun# 5678/ 1301 PONTIAC ST/ Fall Victim\n
 
+Contact: Alan Mikes <alanmark64@gmail.com>
+(- part 1 of 1) RC:Run# 575/5486 RIVERDALE WAY/287//Injured Party//
+
 */
 
 public class CONorthglennEMSParser extends DispatchProQAParser {
