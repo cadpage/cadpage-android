@@ -102,8 +102,7 @@ public class SCOconeeCountyParserTest extends BaseParserTest {
         "ID:2012-00000025",
         "DATE:01/14/12",
         "TIME:01:28",
-        "INFO:TONED RQ5  DOES HAVE HEART PROBLEMS  HEART PT HAVING TROUBLE BREATHING / RESD",
-        "UNIT:EMS ER-5 ER-3");
+        "INFO:TONED RQ5  DOES HAVE HEART PROBLEMS  HEART PT HAVING TROUBLE BREATHING");
   }
   
   public static void main(String[] args) {

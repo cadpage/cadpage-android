@@ -216,10 +216,22 @@ public class PAErieCountyAParserTest extends BaseParserTest {
         "CITY:WATERFORD",
         "X:N PARK ROW",
         "NAME:BORO CHIEF CHRIS BARBER");
- 
+
+    doTest("T22",
+        "ERIE911:1C4 >ABDOM PAIN - FEM 12-50 W/FAINT 9625 MARK RD XS: WATTSBURG RD GREENE TWP WEED DAVID Map:307 Grids:, Cad: 2012-0000006327",
+        "SRC:ERIE911",
+        "CALL:ABDOM PAIN - FEM",
+        "ADDR:12-50 W & FAINT 9625 MARK RD",
+        "MADDR:12 W & FAINT 9625 MARK RD",
+        "CITY:GREENE TWP",
+        "X:WATTSBURG RD",
+        "NAME:WEED DAVID",
+        "MAP:307",
+        "ID:2012-0000006327");
+
   }
   
   public static void main(String[] args) {
-    new PAErieCountyAParserTest().generateTests("T22", "SRC CALL ADDR CITY X NAME MAP PLACE ID");
+    new PAErieCountyAParserTest().generateTests("T23", "SRC CALL ADDR CITY X NAME MAP PLACE ID");
   }
 }

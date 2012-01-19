@@ -100,7 +100,7 @@ public class GenFreeRiders {
    * @param line
    */
   private static final Pattern OPEN_BRACKET = Pattern.compile("[<({]");
-  private static final Pattern VALID_EMAIL = Pattern.compile("\\d+|[\\w\\.]+@[\\w\\.]+");
+  private static final Pattern VALID_EMAIL = Pattern.compile("\\d+|[-\\w\\.]+@[-\\w\\.]+");
   private static UserInfo cvtUser(String line) {
     try {
       // parse name and user account from line
