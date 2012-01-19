@@ -541,12 +541,8 @@ public class PABucksCountyParserTest extends BaseParserTest {
         "MAP:3261H9",
         "ID:FD1200573",
         "UNIT:E65 E");
-  }
   
-  @Test
-  public void testParser2() {
-
-    doTest("T1",
+    doTest("T44",
         "(#6331  1/1) FDWL\nadr:2008 BRISTOL RD ,75  btwn SHADOW CREEK LA & GUINEA LA\nbox:29045\ntm:22:34:01 FD1200729\nRun: E29 E78 L29 E93",
         "CALL:FDWL - DWELLING FIRE (TAC)",
         "ADDR:2008 BRISTOL RD",
@@ -555,6 +551,15 @@ public class PABucksCountyParserTest extends BaseParserTest {
         "BOX:29045",
         "ID:FD1200729",
         "UNIT:E29 E78 L29 E93");
+
+    doTest("T45",
+        "B911: SQ134  type:COP     adr:90 ROBIN LA ,36  sbtwn MAPLE LEAF DR & COURT  saai:  box:27031  map:2920C5  tm:12:14:59  ED1202205  ",
+        "SRC:B911: SQ134",
+        "CALL:COP - CARBON MONOXIDE POISONING",
+        "ADDR:90 ROBIN LA",
+        "BOX:27031",
+        "MAP:2920C5",
+        "ID:ED1202205");
   }
   
   public static void main(String[] args) {
