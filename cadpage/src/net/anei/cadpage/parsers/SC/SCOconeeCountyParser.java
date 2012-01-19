@@ -35,7 +35,7 @@ public class SCOconeeCountyParser extends FieldProgramParser {
   
   public SCOconeeCountyParser() {
     super(CITY_LIST, "OCONEE COUNTY", "SC",
-           "BASE! Narr:INFO E911_Info_-_Class_of_Service:INFO Special_Response_Info:UNIT");
+           "BASE! Narr:INFO E911_Info_-_Class_of_Service:SKIP Special_Response_Info:SKIP");
   }
   
   @Override

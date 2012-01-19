@@ -860,15 +860,15 @@ Lisa Edwards (jojosmima@gmail.com)<ledwards@townofchapelhill.org>
 %%11/21/2011
 >>Troy Cagle <trockofpain47@gmail.com>
 >>ryan conrad <crad1218@gmail.com>
-Matt Cowherd <mcowherd06@gmail.com>
+>>Matt Cowherd <mcowherd06@gmail.com>
 %%11/22/2011
-Stephen Craig <stephen12775@gmail.com>
+>>Stephen Craig <stephen12775@gmail.com>
 %%11/23/2011
-Brian (onthehookrecovery@gmail.com)<lmbdf3@aol.com>
-winston parrish <winstonticoman@gmail.com>
-Ryan Hope <hfd985@gmail.com>
-norman fisher <normanjfisher08@gmail.com>
-Randy Young <ryoung8507@gmail.com>
+>>Brian (onthehookrecovery@gmail.com)<lmbdf3@aol.com>
+>>winston parrish <winstonticoman@gmail.com>
+>>Ryan Hope <hfd985@gmail.com>
+>>norman fisher <normanjfisher08@gmail.com>
+>>Randy Young <ryoung8507@gmail.com>
 David Liddil <dvliddil@yahoo.com>
 paul delp <pdiesel2227@gmail.com>
 %%11/24/2011
@@ -1078,6 +1078,10 @@ Patriot Jon <patriot.jon21@gmail.com> // Crawford County, PA
 Matt Randall (vaporjet@gmail.com)
 %%01/16/2012
 Richard Carrier (acarrier10@gmail.com).
+%%01/17/2012
+"tare@owen-kennedy.com" <tare@owen-kennedy.com>
+%%01/18/2012
+"John.Witasick@gmail.com" <John.Witasick@gmail.com>
 
 // List of users getting free credit for 2012
 $free_2012_list
@@ -1229,7 +1233,6 @@ zach billie <zack.billie@gmail.com>
 %%01/15/2012
 Thomas Harmon <firemarshalharmon@gmail.com>
 "Michael Smith " <smitty.08@hotmail.com>
-
 Dustan Murphy <dustan.murphy@gmail.com>
 Michael Johnson <spike4789@gmail.com>
 Jackie (jwyckoff256@gmail.com)<jackie_wyckoff@yahoo.com>
@@ -1237,3 +1240,10 @@ Jeff Spellman <captspellman@gmail.com>
 Stephen Thompson <steveyt614@gmail.com>
 %%01/16/2012
 Jack Lafon <jacksue798185@gmail.com>
+brooks jason (jason.w.brooks2@gmail.com)<carpet_6@yahoo.com>
+"Brandon Hansen" (b.hansen693@gmail.com)<b.hansen693@yahoo.com>
+"Willoughby, Jacob" <jwilloughby@mobilemedical.org>
+Timothy Mcclure <hunter211980@gmail.com>
+Ryan McCaffery <rpmmac001@gmail.com>
+%%01/17/2012
+Ryan Davis <hemifreak16@gmail.com>
