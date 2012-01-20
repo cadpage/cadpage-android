@@ -78,13 +78,15 @@ public class NYOnondagaCountyParser extends FieldProgramParser {
   private class MyAddressField extends AddressField {
     @Override
     public void parse(String field, Data data) {
+      String sPlace = "";
       int pt = field.indexOf(':');
       if (pt >= 0) {
-        data.strPlace = field.substring(pt+1).trim();
+        sPlace = field.substring(pt+1).trim();
         field = field.substring(0,pt).trim();
-        if (data.strPlace.startsWith("@")) data.strPlace = data.strPlace.substring(1).trim();
+        if (sPlace.startsWith("@")) sPlace = sPlace.substring(1).trim();
       }
       super.parse(field, data);
+      data.strPlace = append(data.strPlace, " / ", sPlace);
     }
   }
   
