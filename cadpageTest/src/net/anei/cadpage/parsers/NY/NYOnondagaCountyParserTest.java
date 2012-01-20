@@ -12,7 +12,24 @@ public class NYOnondagaCountyParserTest extends BaseParserTest {
   }
   
   @Test
-  public void testParser() {
+  public void testPompey() {
+
+    doTest("T1",
+        "[CAD MSG POF 18:04:47 7461 BROADFIELD RD TPO XTS:SWEET RD] HENNEBERRY RD,  , UNCP - P:1 Lev:0 X:  TWCBL BUSHNECK, JOHN VOIP 02/14 18:03:57 911 CC RE 1 YO UNCP/NOT BREATH IS CON. IS BREATHING A LITTLE BIT FACE IS A LITTLE BLU  Disp: 51C1,51C2,51C3,51C4,51RP51,5",
+        "SRC:POF",
+        "TIME:18:04:47",
+        "ADDR:7461 BROADFIELD RD",
+        "CITY:POMPEY",
+        "X:SWEET RD HENNEBERRY RD",
+        "CALL:, UNCP -",
+        "PRI:1",
+        "INFO:TWCBL BUSHNECK, JOHN VOIP 02/14 18:03:57 911 CC RE 1 YO UNCP/NOT BREATH IS CON. IS BREATHING A LITTLE BIT FACE IS A LITTLE BLU",
+        "UNIT:51C1,51C2,51C3,51C4,51RP51,5");
+    
+  }
+  
+  @Test
+  public void testSkaneateles() {
 
     doTest("T1",
         "....(Skaneateles Fire) I/CAD MSG SKF 22:14:04 3104 W Lake Rd TSK XTS: FIRE LANE 9/THE LANE, , WIRE -E P:1 Lev:0 X: M911 - CC - Electric Wire Against A Tree - Is arcing and sparking - compl has no power now Disp: 54C1, 54C2, 54C3, 54E11, 54E12, 54E21, 54E31, 54MI1, 54R1, 54SD1",
