@@ -24,6 +24,7 @@ S:HRFD: Med:4694 indigo place M: c/o alarm no \n
 S:HRFD: Fire:380 Morning Cloak  #4 M: DRyer Fire\n
 S:HRFD: Fire:6569 Burr Oak Rd M: fire alarm\n
 S:HRFD: Med:629 ALTHEA M: RES. C.O. ALARM\n
+S:HRFD: Med:6567 SPRINGWOOD CT M: \n
 
 */
 
