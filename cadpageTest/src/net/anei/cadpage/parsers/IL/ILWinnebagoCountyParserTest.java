@@ -72,10 +72,14 @@ public class ILWinnebagoCountyParserTest extends BaseParserTest {
         "SRC:HRFD",
         "ADDR:629 ALTHEA",
         "CALL:RES. C.O. ALARM");
-    
-  }
+
+    doTest("T5",
+        "S:HRFD: Med:6567 SPRINGWOOD CT M: \n",
+        "SRC:HRFD",
+        "ADDR:6567 SPRINGWOOD CT");
+ }
   
   public static void main(String[] args) {
-    new ILWinnebagoCountyParserTest().generateTests("T3", "SRC ADDR APT CALL");
+    new ILWinnebagoCountyParserTest().generateTests("T1", "SRC ADDR APT CALL");
   }
 }
