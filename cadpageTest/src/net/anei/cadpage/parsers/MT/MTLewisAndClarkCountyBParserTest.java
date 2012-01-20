@@ -15,7 +15,7 @@ public class MTLewisAndClarkCountyBParserTest extends BaseParserTest {
   public void testParser() {
 
     doTest("T1",
-        "(MUTUAL AID REQ) REQ: 1 Management Staff |Engine 6411 |Tender 6423 LOC: 5106 bluebell rd  TYPE: South Structure - 1st Alarm West Valley is requesting mutual aid, South Structure - 1st Alarm. CONTACT West Valley STAGING ON GOLD CHANNEL",
+        "(MUTUAL AID REQ) REQ: 1 Management Staff |Engine 6411 |Tender 6423\nLOC: 5106 bluebell rd  TYPE: South Structure - 1st Alarm West Valley is requesting mutual aid, South Structure - 1st Alarm. CONTACT West Valley STAGING ON GOLD CHANNEL",
         "CALL:1 Management Staff |Engine 6411 |Tender 6423",
         "ADDR:5106 bluebell rd",
         "INFO:South Structure - 1st Alarm West Valley is requesting mutual aid, South Structure - 1st Alarm. CONTACT West Valley STAGING ON GOLD CHANNEL");
