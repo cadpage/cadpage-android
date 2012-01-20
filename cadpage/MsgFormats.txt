@@ -3732,12 +3732,6 @@ Contact: Courtney Sanders <csanders3217@gmail.com>
 Sender: 69310
 medical alarm general unit c 17111 munn rd
 **********************************************************
-Muscalane County, IA
-Contact: KEVIN FLYNN <kwf9111@gmail.com>
-System: Iamresponding
-Sender: 777116058637
-.... (NFD) 12-001870 MEDICAL \n1089 180TH ST \nATWOOD AVE / BANCROF/T AVE \nNICHOLS \nNFR WLAB
-**********************************************************
 Unknown,
 Contact: Randy Callahan <randy.callahan@csuglobal.edu>
 Sender: DoNotReply@Emergin.com
@@ -3907,5 +3901,34 @@ Additional Inc#s:
 
 The Call Taker is MCCARTHY CHRISTINE
 The Dispatcher is KNIGHTON JUSTIN
+**********************************************************
+Muscalane County, IA
+Contact: KEVIN FLYNN <kwf9111@gmail.com>
+System: Iamresponding
+Sender: 777116058637
+.... (NFD) 12-001870 MEDICAL \n1089 180TH ST \nATWOOD AVE / BANCROF/T AVE \nNICHOLS \nNFR WLAB
+
+777107977885 <777107977885>*: *.... (NFD) 11-052885 <11052885>ACCIDENT-PI
+IJEM AVE/ MAIN ST
+NICHOLS
+NFD NFR
+
+777107978443 <777107978443>*: *.... (NFD) 11-052886 <11052886>FIRE-STRUCTURE
+410 RAILROAD ST
+IJEM AVE / WASHINGTO/N AVE
+NICHOLS
+NFD
+
+777123267630 <777123267630>*: *.... (NFD) 12-001933 <12001933> MEDICAL
+1649 HOLLY AVE
+160TH ST / 170TH ST/
+WEST LIBERTY
+NFR WLAB
+
+*777112540653**: *.... (NFD) 12-000312 <12000312> FIRE-STRUCTURE
+1530 ATWOOD AVE
+560TH ST SE / 160TH/ST
+WEST LIBERTY
+NFD WLFD
 
 **********************************************************

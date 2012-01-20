@@ -43,6 +43,15 @@ public class ILWinnebagoCountyParser extends MsgParser {
   
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
+    
+    // If there is no call description, the message presparsing logic forces
+    // what would normally be the subject into the message body.  We have to 
+    // reverse this
+    if (subject.length() == 0) {
+      subject = body;
+      body = "";
+    }
+    
     Matcher match = MARKER.matcher(subject);
     if (!match.find()) return false;
     data.strSource = subject.substring(0, match.start()).trim();
