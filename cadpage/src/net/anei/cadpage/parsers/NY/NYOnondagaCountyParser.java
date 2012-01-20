@@ -78,9 +78,13 @@ public class NYOnondagaCountyParser extends FieldProgramParser {
   private class MyAddressField extends AddressField {
     @Override
     public void parse(String field, Data data) {
+      int pt = field.indexOf(':');
+      if (pt >= 0) {
+        data.strPlace = field.substring(pt+1).trim();
+        field = field.substring(0,pt).trim();
+        if (data.strPlace.startsWith("@")) data.strPlace = data.strPlace.substring(1).trim();
+      }
       super.parse(field, data);
-      if (data.strPlace.startsWith(":")) data.strPlace = data.strPlace.substring(1).trim();
-      if (data.strPlace.startsWith("@")) data.strPlace = data.strPlace.substring(1).trim();
     }
   }
   
@@ -97,7 +101,7 @@ public class NYOnondagaCountyParser extends FieldProgramParser {
     
     @Override
     public String getFieldNames() {
-      return super.getFieldNames() + " CALL";
+      return "X CALL";
     }
   }
 
@@ -110,6 +114,7 @@ public class NYOnondagaCountyParser extends FieldProgramParser {
       if (match.find()) {
         field = append(field.substring(0,match.start()).trim(), " ", field.substring(match.end()));
       }
+      super.parse(field, data);
     }
   }
 
