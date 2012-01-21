@@ -340,6 +340,17 @@ public class COWeldCountyParserTest extends BaseParserTest {
          "MADDR:COUNTY ROAD 55 & COUNTY ROAD 62",
          "UNIT:37 WA");
 
+     doTest("T10",
+         "Dispatch / 01417,TAIF  -TA W/INJURY (F),65TH AV/HY 34 BY.E5 R1 WA,TEXT:2 VEHS, INJURIES \n\\COMP:DANIEL \\PH:970 397 9175,\n\n\n",
+         "ID:01417",
+         "CALL:TAIF -TA W/INJURY (F)",
+         "ADDR:65TH AV & HY 34 BY",
+         "MADDR:65TH AVE & HWY 34 BY",
+         "UNIT:E5 R1 WA",
+         "INFO:2 VEHS, INJURIES",
+         "NAME:DANIEL",
+         "PHONE:970 397 9175");
+
   }
   
   public static void  main(String[] args) {
