@@ -39,7 +39,6 @@ req=info       general request for information about your company and service
     This will come from a web browser, you can do any interaction you want with it
 
 req=register - initial user request to register phone
-    vendor          Vendor code
     phone           Phone number if we have it (for Android tablets we probably will not)
     type            C2DM for now (Another code my be used in future for Apple Push connections)
     CadpageRegId    Cadpage registration ID, this is what you need to send messages to this device

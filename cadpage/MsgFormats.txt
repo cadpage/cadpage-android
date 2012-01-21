@@ -3706,13 +3706,6 @@ Sender: colin.english@rocketmail.com
 Subject:PVFD\nbusiness meeting and elections tongiht all members to attendand per 201\n
 Subject:PVFD\nATTN POSEY FIRE MEMBERS MANDOTORY HAZMAT REFRESHER TRAINING TONIGHT @ 6PM\n
 **********************************************************
-Liberty County, ??
-Contact: "Craig Powell" <craig@hardinvfd.org>
-[FIRE CALL]  FM834 NEAR BASEBALL FIELDS POSS OUT OF CONTROL GRASS FIRE
-[EMS]  11346 SH146N 72YOF DIFF BREATHING HISTORY OF CONGESTIVE HEART FAILURE
-[10-50]  146N S OF OVER PASS 10-50 OCCUPIED MIGHT CATCH FIRE
-[MVA]  2 vehicle major FM 834 @ CR 2003 by junior high
-**********************************************************
 Loudoun County, VA (alternate?)
 Contact: "tom_tuck@hotmail.com" <tom_tuck@hotmail.com>
 Sender: alert_76507@mail.emacoop.loudoun.gov
@@ -3833,6 +3826,7 @@ Milford Fire - Station 92
 **********************************************************
 Monmouth County, NJ
 Contact: support@active911.com
+URL: https://www.active911.com/interface/parser_report.php?key=61-L24LF
 
 Manalapan Fire Co #1 (61) 
 Subject: Automatic R&R Notification
@@ -3906,6 +3900,366 @@ Additional Inc#s:
 
 The Call Taker is MCCARTHY CHRISTINE
 The Dispatcher is KNIGHTON JUSTIN
+
+
+Agency name: Manalapan Fire Co #1
+Location: Manalapan, NJ
+
+
+Example #1
+------------
+
+
+From: <MCSOZD2@MCSONJ.ORG>
+Subject: Automatic R&R Notification
+Body: 
+  
+Incident Number  : 2012-00000042                    ORI: 26-2          Station: STA 26-2  
+Incident Type  . : FIRS F FIRE STRUC           Priority: 1  
+Incident Location: 90 OAKLAND MILLS RD                                  Venue: MANALAPAN  
+Located Between  : MILL RD/ 
+
+Call Time- 17:25:27                                Date- 01/19/2012  
+Dispatch -              En-route-              On-scene-              Depart 1-  
+Arrive 2 -              Depart 2-              In-statn- 
+
+Area: 26A4              Section :   33         Beat  . : 26A4        Map . . :  
+Grid:                   Quadrant: 262S         District: E262 
+
+Phone Number: (732) 308-4591                Call Source:  911 
+
+Caller. . . : ROB YUHAS 
+
+Nature of Call : CHIMNEY FIRE/ ADVISED TO EVACUATE 
+
+Additional Info  
+  RESD: 
+
+Additional Inc#s: 
+
+The Call Taker is DALY EVAN  
+The Dispatcher is BRUNO CHRISTOPHER
+
+
+
+
+Example #2
+------------
+
+
+From: <mcsoza7@MCSONJ.ORG>
+Subject: Automatic R&R Notification
+Body: 
+  
+** ** ** ** ** ** ** ** ** ** ** ** FINAL REPORT ** ** ** ** ** ** ** ** ** ** ** **  
+Incident Number  : 2012-00000042                    ORI: 26-2          Station: STA 26-2  
+Incident Type  . : FIRS F FIRE STRUC           Priority: 1  
+Incident Location: 90 OAKLAND MILLS RD                                  Venue: MANALAPAN 
+
+Call Time- 17:25:27                                Date- 01/19/2012  
+Dispatch - 17:25:50     En-route- 17:29:37     On-scene- 17:31:16     Depart 1-  
+Arrive 2 -              Depart 2-              In-statn-              Cleared - 18:18:23 
+
+Area: 26A4              Section :   33         Beat  . : 26A4  
+Grid:                   Quadrant: 262S         District: E262 
+
+Phone Number: (732) 308-4591                Call Source:  911 
+
+Caller. . . : ROB YUHAS 
+
+Units sent  :  
+ 12-1        F12A                 26-2        F262A  
+ 32-1        F32A                 12-1        1266  
+ 12-1        1269                 12-1        1274  
+ 12-1        1275                 26-2        26286  
+ 32-1        3266                 32-1        3290  
+ 32-1        3296                 26-2        26266  
+ 26-2        26267                26-2        26290 
+
+Nature of Call : CHIMNEY FIRE/ ADVISED TO EVACUATE 
+
+Additional Info  
+  RESD: 
+
+Narrative  
+ Information on the units assigned to the call follows.  
+     Unit#: F12A   Radio#:        Ofcr 1:             Ofcr 2:  
+        DSP: 01/19/12 17:25   ENR:            :    ARV:            :  
+        DPT:            :     AR2:            :    DP2:            :  
+        QTR:            :     CLR: 01/19/12 17:30  
+     Unit#: 1266   Radio#:        Ofcr 1:             Ofcr 2:  
+        DSP: 01/19/12 17:29   ENR: 01/19/12 17:29  ARV: 01/19/12 17:36  
+        DPT:            :     AR2:            :    DP2:            :  
+        QTR:            :     CLR: 01/19/12 18:18  
+     Unit#: 1274   Radio#:        Ofcr 1:             Ofcr 2:  
+        DSP: 01/19/12 17:33   ENR: 01/19/12 17:33  ARV: 01/19/12 17:54  
+        DPT:            :     AR2:            :    DP2:            :  
+        QTR:            :     CLR: 01/19/12 18:18  
+     Unit#: 1275   Radio#:        Ofcr 1:             Ofcr 2:  
+        DSP: 01/19/12 17:34   ENR: 01/19/12 17:34  ARV: 01/19/12 17:40  
+        DPT:            :     AR2:            :    DP2:            :  
+        QTR:            :     CLR: 01/19/12 18:18  
+     Unit#: 1269   Radio#:        Ofcr 1:             Ofcr 2:  
+        DSP: 01/19/12 17:34   ENR: 01/19/12 17:34  ARV: 01/19/12 17:39  
+        DPT:            :     AR2:            :    DP2:            :  
+        QTR:            :     CLR: 01/19/12 18:18  
+     Unit#: F262A  Radio#:        Ofcr 1:             Ofcr 2:  
+        DSP: 01/19/12 17:25   ENR:            :    ARV:            :  
+        DPT:            :     AR2:            :    DP2:            :  
+        QTR:            :     CLR: 01/19/12 17:30  
+     Unit#: 26286  Radio#:        Ofcr 1:             Ofcr 2:  
+        DSP: 01/19/12 17:29   ENR: 01/19/12 17:29  ARV: 01/19/12 17:54  
+        DPT:            :     AR2:            :    DP2:            :  
+        QTR:            :     CLR: 01/19/12 18:18  
+     Unit#: 26266  Radio#:        Ofcr 1:             Ofcr 2:  
+        DSP: 01/19/12 17:29   ENR: 01/19/12 17:29  ARV: 01/19/12 17:31  
+        DPT:            :     AR2:            :    DP2:            :  
+        QTR:            :     CLR: 01/19/12 18:18  
+     Unit#: 26267  Radio#:        Ofcr 1:             Ofcr 2:  
+        DSP: 01/19/12 17:29   ENR: 01/19/12 17:29  ARV: 01/19/12 17:34  
+        DPT:            :     AR2:            :    DP2:            :  
+        QTR:            :     CLR: 01/19/12 18:18  
+     Unit#: 26290  Radio#:        Ofcr 1:             Ofcr 2:  
+        DSP: 01/19/12 17:33   ENR: 01/19/12 17:33  ARV: 01/19/12 17:36  
+        DPT:            :     AR2:            :    DP2:            :  
+        QTR:            :     CLR: 01/19/12 18:18  
+     Unit#: F32A   Radio#:        Ofcr 1:             Ofcr 2:  
+        DSP: 01/19/12 17:25   ENR:            :    ARV:            :  
+        DPT:            :     AR2:            :    DP2:            :  
+        QTR:            :     CLR: 01/19/12 17:30  
+     Unit#: 3290   Radio#:        Ofcr 1:             Ofcr 2:  
+        DSP: 01/19/12 17:29   ENR: 01/19/12 17:29  ARV: 01/19/12 17:36  
+        DPT:            :     AR2:            :    DP2:            :  
+        QTR:            :     CLR: 01/19/12 18:08  
+     Unit#: 3266   Radio#:        Ofcr 1:             Ofcr 2:  
+        DSP: 01/19/12 17:37   ENR: 01/19/12 17:37  ARV: 01/19/12 17:45  
+        DPT:            :     AR2:            :    DP2:            :  
+        QTR:            :     CLR: 01/19/12 18:08  
+     Unit#: 3296   Radio#:        Ofcr 1:             Ofcr 2:  
+        DSP:            :     ENR:            :    ARV: 01/19/12 17:40  
+        DPT:            :     AR2:            :    DP2:            :  
+        QTR:            :     CLR: 01/19/12 18:08  
+ PD 26 NTFD  
+ CODE 2  
+ 26 21
+
+
+
+
+Example #3
+------------
+
+
+From: <MCSOZD2@MCSONJ.ORG>
+Subject: Automatic R&R Notification
+Body: 
+  
+Incident Number  : 2012-00000043                    ORI: 26-2          Station: STA 26-2  
+Incident Type  . : CRBA F CARB MONOX           Priority: 1  
+Incident Location: 41 YATES RD                                          Venue: MANALAPAN  
+Located Between  : SALTER CT/CRAWFORD RD 
+
+Call Time- 22:31:12                                Date- 01/19/2012  
+Dispatch - 22:31:47     En-route-              On-scene-              Depart 1-  
+Arrive 2 -              Depart 2-              In-statn- 
+
+Area: 26A4              Section :   34         Beat  . : 26A4        Map . . :  
+Grid:                   Quadrant: F262         District: E262 
+
+Phone Number: (732) 462-4033                Call Source:  TEL 
+
+Caller. . . : NICHOLAS VULTIS 
+
+Units sent  :  
+ 26-2        F262A 
+
+Nature of Call : CO ALARM SOUNDING/RESIDENTS EVACUATING/NO 
+
+Additional Info  
+  SYMPTOMS - JUST GOT HOME FROM VACATION 
+
+Narrative  
+ CODE 3                                            RMCDONAL   22:31:16  
+ MCRR NOTIFIED FOR FIRE DEPT                       RMCDONAL   22:31:31 
+
+Additional Inc#s: 
+
+The Call Taker is MCDONALD ROBIN  
+The Dispatcher is BRUNO CHRISTOPHER
+
+
+
+
+Example #4
+------------
+
+
+From: <MCSOZD2@MCSONJ.ORG>
+Subject: Automatic R&R Notification
+Body: 
+  
+** ** ** ** ** ** ** ** ** ** ** ** FINAL REPORT ** ** ** ** ** ** ** ** ** ** ** **  
+Incident Number  : 2012-00000043                    ORI: 26-2          Station: STA 26-2  
+Incident Type  . : CRBA F CARB MONOX           Priority: 1  
+Incident Location: 41 YATES RD                                          Venue: MANALAPAN 
+
+Call Time- 22:31:12                                Date- 01/19/2012  
+Dispatch - 22:31:47     En-route- 22:34:42     On-scene- 22:38:54     Depart 1-  
+Arrive 2 -              Depart 2-              In-statn-              Cleared - 22:50:52 
+
+Area: 26A4              Section :   34         Beat  . : 26A4  
+Grid:                   Quadrant: F262         District: E262 
+
+Phone Number: (732) 462-4033                Call Source:  TEL 
+
+Caller. . . : NICHOLAS VULTIS 
+
+Units sent  :  
+ 26-2        F262A                26-2        26267  
+ 26-2        26268                26-2        26290 
+
+Nature of Call : CO ALARM SOUNDING/RESIDENTS EVACUATING/NO 
+
+Additional Info  
+  SYMPTOMS - JUST GOT HOME FROM VACATION 
+
+Narrative  
+ Information on the units assigned to the call follows.  
+     Unit#: F262A  Radio#:        Ofcr 1:             Ofcr 2:  
+        DSP: 01/19/12 22:31   ENR:            :    ARV:            :  
+        DPT:            :     AR2:            :    DP2:            :  
+        QTR:            :     CLR: 01/19/12 22:50  
+     Unit#: 26267  Radio#:        Ofcr 1:             Ofcr 2:  
+        DSP: 01/19/12 22:34   ENR: 01/19/12 22:34  ARV: 01/19/12 22:38  
+        DPT:            :     AR2:            :    DP2:            :  
+        QTR:            :     CLR: 01/19/12 22:50  
+     Unit#: 26290  Radio#:        Ofcr 1:             Ofcr 2:  
+        DSP: 01/19/12 22:39   ENR: 01/19/12 22:39  ARV:            :  
+        DPT:            :     AR2:            :    DP2:            :  
+        QTR:            :     CLR: 01/19/12 22:50  
+     Unit#: 26268  Radio#:        Ofcr 1:             Ofcr 2:  
+        DSP: 01/19/12 22:41   ENR: 01/19/12 22:41  ARV:            :  
+        DPT:            :     AR2:            :    DP2:            :  
+        QTR:            :     CLR: 01/19/12 22:50  
+ CODE 3                                            RMCDONAL   22:31:16  
+ MCRR NOTIFIED FOR FIRE DEPT                       RMCDONAL   22:31:31  
+ CALLER JUST GOT HOME FROM VACATION AND ARE        RMCDONAL   22:31:51  
+ EVACUATING                                        RMCDONAL   22:31:53  
+ 26267 REQUESTING SQUAD AND GAS CO                 CBRUNO     22:35:16  
+ CALL COPIED FOR EMS DUE TO SYMPTOMS               LCIVELLO   22:35:23  
+ SECOND ALERT                                      CBRUNO     22:38:03  
+ ** CORRECTION  NO SYMPTOMS                        LCIVELLO   22:38:17  
+ ** EMS NOT DISPATCHED                             LCIVELLO   22:38:24  
+ NO NEED FOR EMS                                   BLYNCH     22:39:22  
+ GAS CO NTFD AND RESPONDING                        CBRUNO     22:45:06  
+ 26267 FAULTY DETECTORS REQ TO CANCEL GAS CO       CBRUNO     22:47:07  
+ SET OFF DUE TO FAULTY ALARM // ALL 10-4           MNCIOFFI   22:50:06  
+ PATROL CLEAR                                      MNCIOFFI   22:50:11  
+ UNITS CLEAR FAULTY DETECTORS                      CBRUNO     22:50:50 
+
+The Call Taker is MCDONALD ROBIN  
+The Dispatcher is BRUNO CHRISTOPHER
+
+
+
+
+Example #5
+------------
+
+
+From: <mcson6@MCSONJ.ORG>
+Subject: Automatic R&R Notification
+Body: 
+  
+Incident Number  : 2012-00000044                    ORI: 26-2          Station: STA 26-2  
+Incident Type  . : FIRA F FIRE ALARM           Priority: 1  
+Incident Location: 327 ST HWY 33                                        Venue: MANALAPAN  
+Located Between  : WOODWARD RD/IRON ORE RD  
+Common Name. . . : MARRIANE MANOR LLC 
+
+Call Time- 23:21:19                                Date- 01/19/2012  
+Dispatch - 23:22:20     En-route-              On-scene-              Depart 1-  
+Arrive 2 -              Depart 2-              In-statn- 
+
+Area: 26A4              Section :   30         Beat  . : 26A4        Map . . :    E  
+Grid:                   Quadrant: F262         District: E262 
+
+Phone Number: (000) 000-0000                Call Source:  TEL 
+
+Units sent  :  
+ 26-2        F262A 
+
+Nature of Call : FIRE ALARM/ASSOC FIRE PROTECTION 8009323822 
+
+Additional Info  
+  SRN #75548 
+
+Narrative  
+ PD 26 CALLED IN                                   DMELLACI   23:22:20 
+
+Additional Inc#s: 
+
+The Call Taker is NIGRO-CIOFFI MARIA  
+The Dispatcher is HORN EDWARD
+
+
+
+
+Example #6
+------------
+
+
+From: <mcson6@MCSONJ.ORG>
+Subject: Automatic R&R Notification
+Body: 
+  
+** ** ** ** ** ** ** ** ** ** ** ** FINAL REPORT ** ** ** ** ** ** ** ** ** ** ** **  
+Incident Number  : 2012-00000044                    ORI: 26-2          Station: STA 26-2  
+Incident Type  . : FIRA F FIRE ALARM           Priority: 1  
+Incident Location: 327 ST HWY 33                                        Venue: MANALAPAN  
+Common Name. . . : MARRIANE MANOR LLC 
+
+Call Time- 23:21:19                                Date- 01/19/2012  
+Dispatch - 23:22:20     En-route- 23:24:39     On-scene- 23:28:51     Depart 1-  
+Arrive 2 -              Depart 2-              In-statn-              Cleared - 23:34:33 
+
+Area: 26A4              Section :   30         Beat  . : 26A4  
+Grid:                   Quadrant: F262         District: E262 
+
+Phone Number: (000) 000-0000                Call Source:  TEL 
+
+Units sent  :  
+ 26-2        F262A                26-2        26267  
+ 26-2        26277 
+
+Nature of Call : FIRE ALARM/ASSOC FIRE PROTECTION 8009323822 
+
+Additional Info  
+  SRN #75548 
+
+Narrative  
+ Information on the units assigned to the call follows.  
+     Unit#: F262A  Radio#:        Ofcr 1:             Ofcr 2:  
+        DSP: 01/19/12 23:22   ENR:            :    ARV:            :  
+        DPT:            :     AR2:            :    DP2:            :  
+        QTR:            :     CLR: 01/19/12 23:34  
+     Unit#: 26267  Radio#:        Ofcr 1:             Ofcr 2:  
+        DSP: 01/19/12 23:24   ENR: 01/19/12 23:24  ARV: 01/19/12 23:30  
+        DPT:            :     AR2:            :    DP2:            :  
+        QTR:            :     CLR: 01/19/12 23:34  
+     Unit#: 26277  Radio#:        Ofcr 1:             Ofcr 2:  
+        DSP: 01/19/12 23:24   ENR: 01/19/12 23:24  ARV: 01/19/12 23:28  
+        DPT:            :     AR2:            :    DP2:            :  
+        QTR:            :     CLR: 01/19/12 23:34  
+ PD 26 CALLED IN                                   DMELLACI   23:22:20  
+ FIRE DEPT ON LOCATION                             MNCIOFFI   23:30:51  
+ 100 RELATED FIRE DEPT RESET ALARM                 RMCDONAL   23:34:15  
+ EVERYTHING 10-4                                   RMCDONAL   23:34:18  
+ PATROL CLEAR                                      RMCDONAL   23:34:20  
+ RESET BY PREMIS FD CLEAR                          EHORN      23:34:24 
+
+The Call Taker is NIGRO-CIOFFI MARIA  
+The Dispatcher is HORN EDWARD
 **********************************************************
 Muscalane County, IA
 Contact: KEVIN FLYNN <kwf9111@gmail.com>
@@ -3935,5 +4289,61 @@ NFR WLAB
 560TH ST SE / 160TH/ST
 WEST LIBERTY
 NFD WLFD
-
 **********************************************************
+Liberty County, ??
+Contact: "Craig Powell" <craig@hardinvfd.org>
+[FIRE CALL]  FM834 NEAR BASEBALL FIELDS POSS OUT OF CONTROL GRASS FIRE
+[EMS]  11346 SH146N 72YOF DIFF BREATHING HISTORY OF CONGESTIVE HEART FAILURE
+[10-50]  146N S OF OVER PASS 10-50 OCCUPIED MIGHT CATCH FIRE
+[MVA]  2 vehicle major FM 834 @ CR 2003 by junior high
+**********************************************************
+https://www.active911.com/interface/parser_report.php?key=63-3Da5z
+
+Agency name: Hardin VFD
+Location: Hardin, TX
+
+
+Example #1
+------------
+
+
+From: "Liberty County " <lcso@lcffa.org>
+Subject: FIRE CALL
+Body: EXXON STATION IN HULL BEHIND ELEMENTARY SCHOOL  ON FIRE POSS EXPLOSIONS 
+
+
+
+**DO NOT REPLY - Emergency Notification Only**
+
+
+
+
+
+Example #2
+------------
+
+
+From: "Liberty County " <lcso@lcffa.org>
+Subject: MEDICAL CALL
+Body: 437 CR2002W 72 YOM CHEST PAINS
+
+
+
+**DO NOT REPLY - Emergency Notification Only**
+
+
+
+
+
+Example #3
+------------
+
+
+From: Craig Powell <dcpowell7002@gmail.com>
+Subject: Test
+Body: Testing 01/20/2012
+
+Craig
+
+
+

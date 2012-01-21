@@ -15,12 +15,19 @@ public class MTLewisAndClarkCountyBParser extends FieldProgramParser {
 
   public MTLewisAndClarkCountyBParser() {
     super("LEWIS AND CLARK COUNTY", "MT",
-           "REQ:CALL! LOC:ADDR! TYPE:INFO!");
+           "REQ:INFO! LOC:ADDR! TYPE:INFO!");
   }
   
   @Override
-  protected boolean parseMsg(String body, Data data) {
+  protected boolean parseMsg(String subject, String body, Data data) {
+    if (subject.length() == 0) return false;
+    data.strCall = subject;
     body = body.replace('\n', ' ');
     return super.parseMsg(body, data);
+  }
+  
+  @Override
+  public String getProgram() {
+    return "CALL " + super.getProgram();
   }
 }
