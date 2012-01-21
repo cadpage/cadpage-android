@@ -96,6 +96,7 @@ public class OHHamiltonCountyParser extends SmartAddressParser {
       "MDRF", "MADEIRA-INDIAN HILL",
       "MRMF", "MARIEMONT",
       "MILI", "MILFORD",
+      "MILF", "MILFORD",
       "MONF", "MONTGOMERY",
       "REAF", "READING",
       "SHRF", "SHARONVILLE",
