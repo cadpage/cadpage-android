@@ -1,5 +1,6 @@
 package net.anei.cadpage.parsers.CO;
 
+import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
@@ -57,11 +58,16 @@ Contact: Kaleb Staley <kalebstaley@gmail.com>
 Sender: 86245
 Fr:<Basepage@weldcorcc.com>\nSu:Dispatch\nTxt: 27849,SI -SICK & INJ (F&A),CR 55/CR 62.37 WA,FG 5\n\n\nid:7
 
+Contact: Doug Gilliland <dgilliland88@gmail.com>
+Sender: CommtechMessenger@weldcorcc.com
+Dispatch / 01417,TAIF  -TA W/INJURY (F),65TH AV/HY 34 BY.E5 R1 WA,TEXT:2 VEHS, INJURIES \n\COMP:DANIEL \PH:970 397 9175,\n\n\n
+
  */
 
 
 public class COWeldCountyParser extends FieldProgramParser {
   
+  private static final Pattern MARKER = Pattern.compile("^Dispatch *[,/] *");
   private static final Pattern DELIM = Pattern.compile("[,\\\\]");
 
   public COWeldCountyParser() {
@@ -73,7 +79,8 @@ public class COWeldCountyParser extends FieldProgramParser {
   protected boolean parseMsg(String body, Data data) {
 
     body = body.replace('\n', ' ').replaceAll("  +", " ");
-    if (body.startsWith("Dispatch,")) body = body.substring(9).trim();
+    Matcher match = MARKER.matcher(body);
+    if (match.find()) body = body.substring(match.end());
     String[] flds = DELIM.split(body);
     return super.parseFields(flds, data);
   }
