@@ -18,10 +18,12 @@ public class NYGeneseeCountyParserTest extends BaseParserTest {
         "[Dispatch]  Acc PIAA ** 392.3 RT 90 E** , BATAVIA - ** ONE VEHICLE ROLLOVER ** LEWISTON RD, I 90 / KELSEY RD, I 90 ** 07/12/11 17:29 **",
         "CALL:Acc PIAA",
         "ADDR:392.3 RT 90 E",
-        "MADDR:392.3 RT 90 E & LEWISTON RD, I 90",
+        "MADDR:392.3 RT 90 E & LEWISTON RD",
         "CITY:BATAVIA",
         "INFO:ONE VEHICLE ROLLOVER",
-        "X:LEWISTON RD, I 90 / KELSEY RD, I 90");
+        "X:LEWISTON RD, I 90 / KELSEY RD, I 90",
+        "DATE:07/12/11",
+        "TIME:17:29");
 
     doTest("T2",
         "[Dispatch]  Alarm Fire ** ** 2614 W  MAIN STREET RD , BATAVIA - ** 2ND FLOOR SMOKE DETECRTOR KENNETH HERMAN RESIDENCE ** READ",
@@ -35,7 +37,7 @@ public class NYGeneseeCountyParserTest extends BaseParserTest {
         "[Dispatch]  Fire Auto ** 387.6 RT 90 W** , BATAVIA - ** POSS TRACTOR TRAILER FIRE - BOX TRAILER ** I 90, I-90 CONNECTOR / I 90,",
         "CALL:Fire Auto",
         "ADDR:387.6 RT 90 W",
-        "MADDR:387.6 RT 90 W & I 90, I-90 CONNECTOR",
+        "MADDR:387.6 RT 90 W & I 90",
         "CITY:BATAVIA",
         "INFO:POSS TRACTOR TRAILER FIRE - BOX TRAILER",
         "X:I 90, I-90 CONNECTOR / I 90,");
@@ -54,7 +56,9 @@ public class NYGeneseeCountyParserTest extends BaseParserTest {
         "ADDR:5402 ELLICOTT STREET RD",
         "CITY:BETHANY",
         "INFO:ONE VEHICLE ACCIDENT",
-        "X:CLAPSADDLE RD / MAYNE RD");
+        "X:CLAPSADDLE RD / MAYNE RD",
+        "DATE:06/19/11",
+        "TIME:02:22");
 
     doTest("T6",
         "(Dispatch) Acc PIAA ** FRONTIER KITCHENS** 8392 LEWISTON RD , BATAVIA - ** TWO CAR MVA MINER INJ ** PARK RD / W MAIN STREET RD",
@@ -81,8 +85,72 @@ public class NYGeneseeCountyParserTest extends BaseParserTest {
         "CITY:BATAVIA",
         "INFO:2 CAR MVA W INJ",
         "X:COUNTY BLDG / COLONIAL BL");
-
   }
+  
+  @Test
+  public void testParser2() {
+
+    doTest("T1",
+        "GENESEE COUNTY DISPATCH Unit:251 Status:Dispatched Acc PIAA ** BANK STREET RD , ASSEMBLYMAN R. STEPHEN HAWLEY DR BATAVIA - ** 3 CAR MVA ** ** 01/19/12 11:07",
+        "UNIT:251",
+        "CALL:Acc PIAA",
+        "ADDR:BANK STREET RD",
+        "MADDR:BANK STREET RD & ASSEMBLYMAN R STEPHEN HAWLEY DR",
+        "CITY:BATAVIA",
+        "INFO:3 CAR MVA",
+        "X:ASSEMBLYMAN R STEPHEN HAWLEY DR",
+        "DATE:01/19/12",
+        "TIME:11:07");
+
+    doTest("T2",
+        "GENESEE COUNTY DISPATCH Unit:251 Status:Dispatched Acc PIAA * ** BATAVIA STAFFORD TOWNLINE RD , FOTCH RD BATAVIA - ** ** ** 01/20/12 16:08 ** 2012-00001287 ** TXT STOP to opt-out",
+        "UNIT:251",
+        "CALL:Acc PIAA",
+        "ADDR:BATAVIA STAFFORD TOWNLINE RD",
+        "MADDR:BATAVIA STAFFORD TOWNLINE RD & FOTCH RD",
+        "CITY:BATAVIA",
+        "X:FOTCH RD",
+        "DATE:01/20/12",
+        "TIME:16:08",
+        "ID:2012-00001287");
+
+    doTest("T3",
+        "GENESEE COUNTY DISPATCH Unit:251 Status:Dispatched Fire CO Detector ** ** 3645 GALLOWAY RD , BATAVIA - ** CO DECTOR IS GOING OFF ** LEWISTON RD / KELSEY RD ** 01/18/12 18:52 ** 2012-00000016 ** TXT STOP to opt-out",
+        "UNIT:251",
+        "CALL:Fire CO Detector",
+        "ADDR:3645 GALLOWAY RD",
+        "CITY:BATAVIA",
+        "INFO:CO DECTOR IS GOING OFF",
+        "X:LEWISTON RD / KELSEY RD",
+        "DATE:01/18/12",
+        "TIME:18:52",
+        "ID:2012-00000016");
+
+    doTest("T4",
+        "GENESEE COUNTY DISPATCH Unit:251 Status:Dispatched Acc PIAA * ** BANK STREET RD , ASSEMBLYMAN R. STEPHEN HAWLEY DR BATAVIA - ** 3 CAR MVA ** ** 01/19/12 11:07 ** 2012-00000188 ** TXT STOP to opt-out",
+        "UNIT:251",
+        "CALL:Acc PIAA",
+        "ADDR:BANK STREET RD",
+        "MADDR:BANK STREET RD & ASSEMBLYMAN R STEPHEN HAWLEY DR",
+        "CITY:BATAVIA",
+        "INFO:3 CAR MVA",
+        "X:ASSEMBLYMAN R STEPHEN HAWLEY DR",
+        "DATE:01/19/12",
+        "TIME:11:07",
+        "ID:2012-00000188");
+
+    doTest("T5",
+        "GENESEE COUNTY DISPATCH Unit:EP56 Status:Dispatched EMD Alpha ** ** 2128 MAIN RD , PEMBROKE - ** 78 Y/O MALE COMPLAINING OF DIZZINESS ** INDIAN FALLS RD / CLEVELAND RD ** 01/22/12 06:57 ** 2012-00000021 ** TXT STOP to opt-out",
+        "UNIT:EP56",
+        "CALL:EMD Alpha",
+        "ADDR:2128 MAIN RD",
+        "CITY:PEMBROKE",
+        "INFO:78 Y/O MALE COMPLAINING OF DIZZINESS",
+        "X:INDIAN FALLS RD / CLEVELAND RD",
+        "DATE:01/22/12",
+        "TIME:06:57",
+        "ID:2012-00000021");
+ }
   
   public static void main(String[] args) {
     new NYGeneseeCountyParserTest().generateTests("T1");
