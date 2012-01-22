@@ -46,7 +46,7 @@ public class NCHokeCountyParser extends MsgParser {
     String sExtra = getOptGroup(match.group(4));
     int pt = sExtra.indexOf("Cross streets:");
     if (pt >= 0) {
-      sExtra = sExtra.substring(pt+15).trim();
+      sExtra = sExtra.substring(pt+14).trim();
       pt = sExtra.indexOf(" Cross");
       if (pt >= 0) sExtra = sExtra.substring(0,pt).trim();
       data.strCross = sExtra;
