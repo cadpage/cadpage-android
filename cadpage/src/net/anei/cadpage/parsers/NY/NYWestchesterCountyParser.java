@@ -56,6 +56,7 @@ public class NYWestchesterCountyParser extends FieldProgramParser {
       "LARCH", "LARCHMONT",
       "MAMTW", "MAMARONECK",
       "MILLW", "MILLWOOD",
+      "PNDRRG", "POUND RIDGE",
       "PVILL", "PLEASANTVILLE",
       "RYE",   "RYE"
   });

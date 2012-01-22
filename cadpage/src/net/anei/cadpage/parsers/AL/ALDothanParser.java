@@ -12,6 +12,7 @@ Contact: Tracy Faulkner <ycartf@gmail.com>
 Contact: Chad Proctor <xyi9130@gmail.com>
 Contact: Rita <7965975rita228@gmail.com>
 Contact: Russell Smith <rsmedic1@gmail.com>
+Contact: "JP" <jp230rfd@aol.com>
 Sender: Robot.ALERT@dothan.org
  
 15:49:38/SC-Service Call Non-Emergency/801 E LAFAYETTE ST/DOTHAN/14523968/ref lines fell at front door, see c404/
@@ -52,6 +53,7 @@ Sender: Robot.ALERT@dothan.org
 14:06:05/S8AE-MVC-Code III Critical/15809 S U S 231/MADRID/RACEWAY/RRSB/2 veh .../
 11:59:20/S38C-Medical Call-Code II-Non Emgy/3118 E MAIN ST/DOTHAN/AMERICAN INN/45129368/pd on scene ref s50 subj/
 15:51:56/S8BF-MVC-Code III/3998 W MAIN ST INTERSECTN/DOTHAN/N SHADY LN/38619245/BLK NISS PATHFINDER 1092 ON 2ND VEH UNK INJ S33/
+11:06:53/S38AE-Medical Call-Code III Crit-Em/235 MALVERN RD/REHOBETH/REHOBETH FIRE & RESCUE (NEW)/RRSA/TEST CALL ONLY--DO NOT RESPOND/
 
 ** NOT IMPLEMENTED **
 S38A 4375 CO RD 203 LOT 15 55YOF NOT BREATHING CPR IN PROGRESS

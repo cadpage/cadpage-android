@@ -689,6 +689,11 @@ MISSING PERSON\n 2564150099\n3804 HATCH BLVD, SHEFFIELD
 SUICIDAL PERSON\n 6622123327\n105 FORREST DR, CHEROKEE\n43 YOF
 BREATHING PROBLEM\nCHEROKEE FAMILY CLINIC 2563594516\n1080 2ND ST, CHEROKEE\n62 YOF
 ***************************************************************************
+Dothan, AL (ALDothanParser)
+15:49:38/SC-Service Call Non-Emergency/801 E LAFAYETTE ST/DOTHAN/14523968/ref lines fell at front door, see c404/
+16:31:23/SC-Service Call Non-Emergency/401 W INEZ RD/DOTHAN/TANGLEWOOD APARTMENTS/24135869/POWER LINES DOWN AT ENTRANCE, POSS SPARKING, RELAYED BY/
+18:35:57/MAID-Mutual Aid Request/5499 MONTGOMERY HWY INTERSECTN/DOTHAN/JOHN D ODOM RD/63981245/ECHO RESCUE --/
+***************************************************************************
 Henry County, AL (ALHenryCountyParser)
 MEDICAL EMERGENCY CO.RD. 405 @ CO.RD. 49 SOUTH OF 134 EAST FEMALE SUBJ FALLEN FROM HORSE... HAVING DIFFICULTY BREATHING
 MEDICAL CALL 5526 CO. RD. 73 IN NEWVILLE 14 YO TOOK 15 TREDONE SUBJ. IS CONCIOUS AT THIS TIME.
@@ -2871,10 +2876,6 @@ Sender: cadpage@rmetro.com
 (- part 1 of 1)RC:0038-A/Run#36872/CALL:03:32/DISP:03:32/ENR:03:33/ATS:03:37/TRA:03:45/ATD:0 3:53/PUZIP:98408/DO:St Joseph Hospital
 (- part 1 of 1) RC:Run# 36872/Sick Person/<Unknown>/S 56TH ST & PACIFIC AVE///X=56th&55th/TACOMA//
 **********************************************************
-Unknown
-Contact: "JP" <jp230rfd@aol.com>
-Sender: Robot.ALERT@dothan.org
-11:06:53/S38AE-Medical Call-Code III Crit-Em/235 MALVERN RD/REHOBETH/REHOBETH FIRE & RESCUE (NEW)/RRSA/TEST CALL ONLY--DO NOT RESPOND/
 **********************************************************
 Unknown
 Contact: Jason Reed <reedjasonf@gmail.com>
@@ -3583,11 +3584,6 @@ Contact: "nemo48@sbcglobal.net" <nemo48@sbcglobal.net>
 Sender: paging@easthavenfire.com
 1100005182 ALPHA MEDICAL 00055 THOMPSON ST  Prem Map -14 PP 65 FOXON RD/GAY ST  (Prem Map -14 PP 65)\4sS5 111120 15:40
 **********************************************************
-Dothan, AL (variant from same dispatch??)
-Contact: Jacob Wozow <jwozow06@gmail.com>
-Sender: Robot.ALERT@dothan.org
-MEDICAL CALL - NON-EMERGENCY 163 COPPERHEAD RD - STAGE UNTIL LAW ENFORCEMENT ON SCENE...COMM CTR
-**********************************************************
 Monroe County, NY (alternate)
 Contact: "NEIL MATHEWS (RIT Student)" <nem9082@rit.edu>
 Sender: a-rita@rit.edu
@@ -3754,10 +3750,14 @@ Cumberland County, TN ???
 Contact: Jeremy <fyrboy55@gmail.com>
 Sender: 911-CENTER@cumberlandtn911.org
 911-CENTER:1046 INJURY ACCIDENT LANTANA AT STORIE 7656250985 COUNTY
+911-CENTER:1072A FIRE ALARM 912 GERONIMO LN 9317470058 COUNTY WIDE
+911-CENTER:1072B FIRE, BRUSH/WOODS 18 JASPER DR 931 COUNTY WIDE
+911-CENTER:1072S FIRE, STRUCTURE 171 RED FOX DR 931 COUNTY WIDE
 **********************************************************
-Dothan, AL (Alternate or replacement)
+Dothan, AL (Alternate form from same dispatch)
 Contact: Jacob Wozow <jwozow06@gmail.com>
 Sender: Robot.ALERT@dothan.org
+MEDICAL CALL - NON-EMERGENCY 163 COPPERHEAD RD - STAGE UNTIL LAW ENFORCEMENT ON SCENE...COMM CTR
 GRASS FIRE     3271 FOWLER RD, LOVETOWN ....C19
 **********************************************************
 Genesee County, ??
