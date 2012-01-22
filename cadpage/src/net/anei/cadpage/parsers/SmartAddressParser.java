@@ -515,8 +515,11 @@ public abstract class SmartAddressParser extends MsgParser {
     if (isFlagSet(FLAG_CHECK_STATUS|FLAG_IMPLIED_INTERSECT|FLAG_PAD_FIELD)) return false;
     
     // OK, we have to have at least 2 items before the city
+    // Unless we are parsing a cross street instead of a real address, in which
+    // case we allow it to be empty
     if (result.startAddress < 0) return false;
-    return parseToCity(result.startAddress, result.startAddress+2, result);
+    int reserve = (isFlagSet(FLAG_ONLY_CROSS) ? 0 : 2);
+    return parseToCity(result.startAddress, result.startAddress+reserve, result);
   }
 
   /**

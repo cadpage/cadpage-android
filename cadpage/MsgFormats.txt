@@ -3752,10 +3752,6 @@ Sender: Robot.ALERT@dothan.org
 MEDICAL CALL - NON-EMERGENCY 163 COPPERHEAD RD - STAGE UNTIL LAW ENFORCEMENT ON SCENE...COMM CTR
 GRASS FIRE     3271 FOWLER RD, LOVETOWN ....C19
 **********************************************************
-Genesee County, ??
-Contact: rtripp@2ki.net
-Sender: 777125053712
-GENESEE COUNTY DISPATCH Unit:251 Status:Dispatched Acc PIAA ** BANK STREET RD , ASSEMBLYMAN R. STEPHEN HAWLEY DR BATAVIA - ** 3 CAR MVA ** ** 01/19/12 11:07
 **********************************************************
 Geauga County, OH (alternate)
 Contact: Courtney Sanders <csanders3217@gmail.com>

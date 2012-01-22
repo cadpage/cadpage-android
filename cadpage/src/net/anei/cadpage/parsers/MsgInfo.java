@@ -301,6 +301,7 @@ public class MsgInfo {
    * the additional city and state information
    */
   private static final Pattern DIR_OF_PTN = Pattern.compile(" [NSEW]O ");
+  private static final Pattern CROSS_DELIM = Pattern.compile("[&/,]");
   public String getBaseMapAddress() {
     
     if (strAddress.length() == 0) return strAddress;
@@ -332,9 +333,8 @@ public class MsgInfo {
     if (!validAddress(sAddr)) {
       if (strCross.length() > 0) {
         String sCross = strCross;
-        int pt = sCross.indexOf('/');
-        if (pt < 0) pt = sCross.indexOf('&');
-        if (pt >= 0) sCross = sCross.substring(0, pt).trim();
+        Matcher match = CROSS_DELIM.matcher(sCross);
+        if (match.find()) sCross = sCross.substring(0,match.start()).trim();
         sCross = cleanStreetSuffix(sCross);
         sCross = cleanBounds(sCross);
         sCross = cleanRoutes(sCross);
