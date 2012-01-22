@@ -354,6 +354,13 @@ public class ALDothanParserTest extends BaseParserTest {
         "ID:38619245",
         "INFO:BLK NISS PATHFINDER 1092 ON 2ND VEH UNK INJ S33");
 
+    doTest("T39",
+        "11:06:53/S38AE-Medical Call-Code III Crit-Em/235 MALVERN RD/REHOBETH/REHOBETH FIRE & RESCUE (NEW)/RRSA/TEST CALL ONLY--DO NOT RESPOND/",
+        "CALL:S38AE-Medical Call-Code III Crit-Em",
+        "ADDR:235 MALVERN RD",
+        "CITY:REHOBETH",
+        "PLACE:REHOBETH FIRE & RESCUE (NEW)/RRSA/TEST CALL ONLY--DO NOT RESPOND");
+
   }
   
   
