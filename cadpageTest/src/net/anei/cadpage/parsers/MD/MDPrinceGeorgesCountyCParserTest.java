@@ -359,7 +359,7 @@ public class MDPrinceGeorgesCountyCParserTest extends BaseParserTest {
   }
   
   public static void main(String[] args) {
-    new MDPrinceGeorgesCountyCParserTest().generateTests("T1");
+    new MDPrinceGeorgesCountyCParserTest().generateTests("T27");
   }
   
   

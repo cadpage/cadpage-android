@@ -56,6 +56,17 @@ public class NYOntarioCountyParserTest extends BaseParserTest {
         "UNIT:F14",
         "INFO:WOKE UP TO CO DETECTOR GOING OFF, NO ILLNESS, WILL WAIT OUTSIDE",
         "ID:F111960002");
+
+    doTest("T6",
+        "CO DET.\n15:39\nLAKE BREEZE HOME, 3101 STATE RT 21\nSTATE RT 5 - COUNTY ROAD 32\nF04\nCO DETECTOR IN BASEMENT IS GOING OFF - NO ILLNESS\nF120210009",
+        "CALL:CO DET.",
+        "PLACE:LAKE BREEZE HOME",
+        "ADDR:3101 STATE RT 21",
+        "MADDR:3101 STATE 21",
+        "X:STATE RT 5 - COUNTY ROAD 32",
+        "UNIT:F04",
+        "INFO:CO DETECTOR IN BASEMENT IS GOING OFF - NO ILLNESS",
+        "ID:F120210009");
  }
   
   public static void main(String[] args) {
