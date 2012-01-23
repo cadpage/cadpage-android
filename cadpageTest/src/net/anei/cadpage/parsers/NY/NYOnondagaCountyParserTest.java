@@ -126,9 +126,32 @@ public class NYOnondagaCountyParserTest extends BaseParserTest {
         "PRI:1",
         "INFO:M911//88 YO MALE UNCP/NOT BREATHING// IS AN EXPECTED DEATH// HAS BEEN ILL FOR SOME TIME// REQ NO LIGHTS AND SIRENS//",
         "UNIT:54C1, 54C2, 54C3, 54E12");
+
+    doTest("T9",
+        "[Skaneateles Fire] I/CAD MSG SKF 08:17:45 55 JORDAN ST VSK: @VILLAGE LANDING XTS: ACADEMY ST/E ELIZABETH ST, APT 109, UNCP - P:1 Lev:0 X: PH BROCK, ESTHER M RESD 01/22 08:15:44 SEE ADDIE COGGEN, 100 YOF, PH # 685-5355 FEELING FAINT/HX OF HEART Number of patients: 1 Responder sc",
+        "SRC:SKF",
+        "TIME:08:17:45",
+        "ADDR:55 JORDAN ST",
+        "CITY:SKANEATELES",
+        "PLACE:VILLAGE LANDING",
+        "X:ACADEMY ST/E ELIZABETH ST, APT 109, UNCP -",
+        "PRI:1",
+        "INFO:PH BROCK, ESTHER M RESD 01/22 08:15:44 SEE ADDIE COGGEN, 100 YOF, PH # 685-5355 FEELING FAINT/HX OF HEART Number of patients: 1 Responder sc");
+
+    doTest("T10",
+        "[Skaneateles Fire] I/CAD MSG MRF 11:23:17 3800 LEE MULROY RD TMR:@ULTIMATE GOAL XTS:BISHOP HILL RD/LAWRENCE RD, IFO , MVC -IB P:1 Lev:0 X: M911 CC RE A 2 CARS 1 ROLL OVER THERE IS STILL OCCP IN THE ROLL OVER Disp: 33C1, 33C2, 33C3, 33C4, 33E2, 33R1, 54E11",
+        "SRC:MRF",
+        "TIME:11:23:17",
+        "ADDR:3800 LEE MULROY RD",
+        "CITY:MARCELLUS",
+        "PLACE:ULTIMATE GOAL",
+        "X:BISHOP HILL RD/LAWRENCE RD, IFO , MVC -IB",
+        "PRI:1",
+        "INFO:M911 CC RE A 2 CARS 1 ROLL OVER THERE IS STILL OCCP IN THE ROLL OVER",
+        "UNIT:33C1, 33C2, 33C3, 33C4, 33E2, 33R1, 54E11");
   }
   
   public static void main(String[] args) {
-    new NYOnondagaCountyParserTest().generateTests("T1");
+    new NYOnondagaCountyParserTest().generateTests("T9");
   }
 }
