@@ -66,6 +66,8 @@ public class C2DMReceiver extends BroadcastReceiver {
     else if (ACTION_C2DM_RECEIVE.equals(intent.getAction())) {
       handleMessage(context, intent);
     }
+    
+    setResultCode(Activity.RESULT_OK);
   }
   
   private void handleRegistration(Context context, Intent intent) {

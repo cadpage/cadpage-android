@@ -3752,7 +3752,6 @@ Sender: Robot.ALERT@dothan.org
 MEDICAL CALL - NON-EMERGENCY 163 COPPERHEAD RD - STAGE UNTIL LAW ENFORCEMENT ON SCENE...COMM CTR
 GRASS FIRE     3271 FOWLER RD, LOVETOWN ....C19
 **********************************************************
-**********************************************************
 Geauga County, OH (alternate)
 Contact: Courtney Sanders <csanders3217@gmail.com>
 Sender: 69310 
@@ -3761,6 +3760,18 @@ Auburn & Stafford/ One car MVA
 rescue 15720 Nash Rd for 44 yo male sudden illness. 2800
 10780 STELLA LN 6 MONTH OLD BABY LATHARGIC
 10592 Longview Trl for a 2 YOM possible CROUP.
+**********************************************************
+Bucks County, NY (variant)
+Contact: "Shapp, Dave" <dave.shapp@midwayvfc.com>
+Sender: iamresponding.com
+
+RAUTO  Box:15023
+Adr: CHURCH RD/RT 413 ,26
+RT 413 3/4 OF A MILE FROM CHURCH
+01/21/12  12:43:51
+FD1201070
+Run: R5 E15
+
 **********************************************************
 **********************************************************
 **********************************************************
@@ -4405,3 +4416,57 @@ Sender: 911-CENTER@co.marion.ms.us
 -  - 911-CENTER:EVENT: SIG1 LOC:115 KOKOMO RD Cad: 2012-0000000429 1023 >18:21 1024 >19:28\n
 -  - 911-CENTER:SIG1 >MVA 115 KOKOMO RD KOKOMO TONEY, JACK Map: Grids:, Cad: 2012-0000000429\n
 -  - 911-CENTER:SIG72 >MEDICAL CALL 91 HURRICANE CREEK RD SANDY HOOK CELLULAR SOUTH Map: Grids:, Cad: 2012-0000000390\n
+**********************************************************
+Greator Lenox Amulance Service (GLAS), NY (in Madison County)
+Contact: "Kyle M. Cashel" <kcashel@gmail.com>
+Sender: messaging@iamresponding.com
+
+FRM:messaging@iamresponding.com
+SUBJ:Greater Lenox
+MSG:Sick Person
+7738 WISE RD , LENOX ( / N COURT)
+
+FRM:messaging@iamresponding.com
+SUBJ:Greater Lenox
+MSG:Assist
+400 LAMB AV , CANASTOTA VILLAGE ( / DEPPOLITI AV)
+
+FRM:messaging@iamresponding.com
+SUBJ:Greater Lenox
+MSG:Heart Problem
+@MADISON COUNTY DSS (133 NORTH COURT ST (WAMPSVILLE VIL
+
+FRM:messaging@iamresponding.com
+SUBJ:Greater Lenox
+MSG:Convulsions/Seizures
+7216 NELSON RD , LENOX (SENECA TRNPK / PAVONE PL)
+
+FRM:messaging@iamresponding.com
+SUBJ:Greater Lenox
+MSG:Sick Person
+400 LAMB AV , CANASTOTA VILLAGE ( / DEPPOLITI AV)
+
+FRM:messaging@iamresponding.com
+SUBJ:Greater Lenox
+MSG:Chest Pain
+123 CAYUGA AV , SULLIVAN ( ONEIDA LAKE AV / ROUTE 31)
+
+FRM:messaging@iamresponding.com
+SUBJ:Greater Lenox
+MSG:Sick Person
+7885 TACKABURY RD , LENOX ( DITCH BANK RD / INDIAN OPENING RD)
+
+FRM:messaging@iamresponding.com
+SUBJ:Greater Lenox
+MSG: Chest Pain
+3881 COTTONS RD , LINCOLN ( CLOCKVILLE RD / NELSON RD)
+
+FRM:messaging@iamresponding.com
+SUBJ:Greater Lenox
+MSG:MVA - Personal Injury
+@MM 261.7 (261 70 I90 )
+
+FRM:messaging@iamresponding.com
+SUBJ:Greater Lenox
+MSG:MVA - Unknown
+RAILROAD \ DEPOT (, CANASTOTA VILLAGE)
