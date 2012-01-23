@@ -227,8 +227,8 @@ public class SmsMsgAccumulator {
       // If req msg count is differen't don't even consider it
       if (newMsg.getMsgCount() != count) return false;
       
-      // This message must have been sent within 5 seconds of last message
-      if (newMsg.getSentTime() - lastMessage.getSentTime() > 5000) return false;
+      // This message must have been sent within 30 seconds of last message
+      if (newMsg.getSentTime() - lastMessage.getSentTime() > 30000) return false;
       
       // We generally expect a complete sender address match
       String newAddr = newMsg.getFromAddress();
