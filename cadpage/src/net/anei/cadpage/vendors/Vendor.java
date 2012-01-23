@@ -238,7 +238,12 @@ abstract class Vendor {
    * @param context current context
    */
   void moreInfoReq(Context context) {
-    Uri uri = baseURI.buildUpon().appendQueryParameter("req", "info").build();
+    Uri uri;
+    if (!enabled) {
+      uri = baseURI.buildUpon().appendQueryParameter("req", "info").build();
+    } else {
+      uri = buildRequestUri("profile", ManagePreferences.registrationId());
+    }
     viewPage(context, uri);
   }
 

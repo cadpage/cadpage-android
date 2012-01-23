@@ -37,6 +37,16 @@ your servers.  Cadpage will send the following parameter information to this add
 
 req=info       general request for information about your company and service
     This will come from a web browser, you can do any interaction you want with it
+    
+req=profile    request by user for specific information about their account
+    vendor          Vendor code
+    account         Account number/string reported in REGISTER request to device
+    phone           Phone number reported in REGISTER request to device
+    token           Security token reported in REGISTER request to device
+    type            C2DM for now (Another code my be used in future for Apple Push connections)
+    CadpageRegId    New Cadpage registration ID
+
+    This will come from a web browser, you can do any interaction you want with it
 
 req=register - initial user request to register phone
     phone           Phone number if we have it (for Android tablets we probably will not)
