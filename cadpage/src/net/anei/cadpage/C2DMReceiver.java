@@ -107,6 +107,9 @@ public class C2DMReceiver extends BroadcastReceiver {
     // If registration has been canceled, all C2DM messages should be ignored
     if (ManagePreferences.registrationId() == null) return;
     
+    // Likewise if Cadpage is disabled
+    if (!ManagePreferences.enabled()) return;
+    
     // Dump intent info
     Log.w("Processing C2DM Message");
     ContentQuery.dumpIntent(intent);
