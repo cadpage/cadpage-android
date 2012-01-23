@@ -338,6 +338,31 @@ public class MDPrinceGeorgesCountyCParserTest extends BaseParserTest {
         "MAP:5530 A 3",
         "INFO:COMPL ADV OF A SIG 9I / LOC IS NEAR THE RAMP LOC IS B4 THE KENILWORTH EXIT ON THE RIGHT// E809 / RE833",
         "UNIT:RE833");
+
+    doTest("T27",
+        "BC 882 Incident: F120220163, Type: House Gas Leak, Loc: 12112 FORGE LN, PP, btwn FEDERAL LN and FOXHILLLN, TalkGroup: TGG3, Box: 3910, Map: 5412 K 6, Text: Fire ProQA recommends ",
+        "SRC:BC 882",
+        "ID:F120220163",
+        "CALL:House Gas Leak",
+        "ADDR:12112 FORGE LN",
+        "X:FEDERAL LN and FOXHILLLN",
+        "CH:TGG3",
+        "BOX:3910",
+        "MAP:5412 K 6",
+        "UNIT:BC 882");
+
+    doTest("T28",
+        "BC 886 Incident: F120220232, Type: Street Alarm, Loc: 4726 MANGUM RD, PP, btwn 47TH PL and MUSKOGEE ST,TalkGroup: TGG3, Box: 1102, Map: 5288 B 8, Text: *CALLER ADV SMELL SMOKE FRM BASEMENT, Units:BO886, E811B, E812B, TK812, TK814",
+        "SRC:BC 886",
+        "ID:F120220232",
+        "CALL:Street Alarm",
+        "ADDR:4726 MANGUM RD",
+        "X:47TH PL and MUSKOGEE ST",
+        "CH:TGG3",
+        "BOX:1102",
+        "MAP:5288 B 8",
+        "INFO:*CALLER ADV SMELL SMOKE FRM BASEMENT",
+        "UNIT:BO886,E811B,E812B,TK812,TK814");
   }
   
   @Test
@@ -359,7 +384,7 @@ public class MDPrinceGeorgesCountyCParserTest extends BaseParserTest {
   }
   
   public static void main(String[] args) {
-    new MDPrinceGeorgesCountyCParserTest().generateTests("T27");
+    new MDPrinceGeorgesCountyCParserTest().generateTests("T29");
   }
   
   
