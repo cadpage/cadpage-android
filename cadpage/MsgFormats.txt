@@ -3751,6 +3751,7 @@ Contact: Jacob Wozow <jwozow06@gmail.com>
 Sender: Robot.ALERT@dothan.org
 MEDICAL CALL - NON-EMERGENCY 163 COPPERHEAD RD - STAGE UNTIL LAW ENFORCEMENT ON SCENE...COMM CTR
 GRASS FIRE     3271 FOWLER RD, LOVETOWN ....C19
+C'WOOD RESCUE REQ LIFTING ASSISTANCE AT 456 HOUSTON ST
 **********************************************************
 Geauga County, OH (alternate)
 Contact: Courtney Sanders <csanders3217@gmail.com>
