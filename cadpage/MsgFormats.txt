@@ -3771,8 +3771,12 @@ RT 413 3/4 OF A MILE FROM CHURCH
 01/21/12  12:43:51
 FD1201070
 Run: R5 E15
-
 **********************************************************
+Lane County, OR
+Contact: "Robert Holmes" <RHolmes@lrfr.org>
+Sender: ce911@ci.eugene.or.us
+FRM:ce911@ci.eugene.or.us
+MSG:LRF TYP: VEHICLE VS PED ACC AD: TORRINGTON AVE&LYNNBROOK DR CTY: EUGENE MAP: EF557 C TIME: 08:12
 **********************************************************
 **********************************************************
 ************  READY TO ROLL ******************************
@@ -4470,3 +4474,4 @@ FRM:messaging@iamresponding.com
 SUBJ:Greater Lenox
 MSG:MVA - Unknown
 RAILROAD \ DEPOT (, CANASTOTA VILLAGE)
+**********************************************************
