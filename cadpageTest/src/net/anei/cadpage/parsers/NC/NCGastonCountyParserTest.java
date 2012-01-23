@@ -85,6 +85,41 @@ public class NCGastonCountyParserTest extends BaseParserTest {
         "DATE:08/29/2011",
         "TIME:16:49:18");
   }
+
+  @Test
+  public void testDirectPaging() {
+
+    doTest("T1",
+        "[!noSignature!] Illegal Burning ~8TH~AVE/~PARK~ST X-ST: Station:~Station 41 Quadrant:~41A 01/23/2012 00:53:21 1\nBU407",
+        "CALL:Illegal Burning",
+        "ADDR:8TH AVE & PARK ST",
+        "SRC:41",
+        "MAP:41A",
+        "DATE:01/23/2012",
+        "TIME:00:53:21",
+        "UNIT:BU407");
+
+    doTest("T2",
+        "[!noSignature!] 29B1M 2400~N ~I~85~ X-ST: N ONRAMP 23 MCADENVILLE / N EXIT 26 BEL MTH Station:~Station 40 01/22/2012 13:39:39 2  LD400, E37P MVA.",
+        "CODE:29B1M",
+        "ADDR:2400 N I 85",
+        "X:N ONRAMP 23 MCADENVILLE / N EXIT 26 BEL MTH",
+        "SRC:40",
+        "DATE:01/22/2012",
+        "TIME:13:39:39",
+        "UNIT:LD400, E37P MVA.");
+
+    doTest("T3",
+        "[!noSignature!] 29B4 ~WILKINSON~BLVD/~LAKEWOOD~RD X-ST: Phone:~(704) 215-0592 Station:~Station 41 01/19/2012 17:46:11 6  EN401, SP172, E25P,",
+        "CODE:29B4",
+        "ADDR:WILKINSON BLVD & LAKEWOOD RD",
+        "PHONE:(704) 215-0592",
+        "SRC:41",
+        "DATE:01/19/2012",
+        "TIME:17:46:11",
+        "UNIT:EN401, SP172, E25P,");
+
+  }
   
   @Test
   public void testParser2() {
