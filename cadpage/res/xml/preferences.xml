@@ -443,6 +443,11 @@
       android:title="@string/pref_direct_paging_title"
       android:summary="@string/pref_direct_paging_summary"
       android:dependency="@string/pref_enabled_key">
+      <Preference 
+        android:key="@string/pref_reconnect_key"
+        android:title="@string/pref_reconnect_title"
+        android:summary="@string/pref_reconnect_summary" 
+        android:order="1000"/>
     </PreferenceScreen>
       
   </PreferenceCategory>

@@ -916,7 +916,7 @@ Lisa Edwards (jojosmima@gmail.com)<ledwards@townofchapelhill.org>
 >>joshua hall <smokeeater1520@gmail.com>
 >>Jeremy Hicks <jeremyhicks187@gmail.com>
 >>troy hagy <troyhpc@gmail.com>
-jonathan heverly <jheverly23@gmail.com>
+>>jonathan heverly <jheverly23@gmail.com>
 %%12/07/2011
 kristian schoman (kris.schoman@gmail.com)<xdoughboyx123@gmail.com>
 slocklear98@yahoo.com (shaunlocklear79@gmail.com)<slocklear98@yahoo.com>
@@ -1086,6 +1086,7 @@ Tare Kennedy <tare@owen-kennedy.com>
 "aschloss@terpalum.umd.edu" (aschloss1@gmail.com)<aschloss@terpalum.umd.edu>
 %%01/23/2012
 John Sherrer <jwsherrer@gmail.com> // Schley County, GA
+"Fleischmanns 1st. Asst. Chief" <ffd1302@gmail.com> // Delaware County, NY
 
 // List of users getting free credit for 2012
 $free_2012_list

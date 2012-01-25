@@ -35,6 +35,10 @@ abstract class Vendor {
   // True if vendor is active (ie has successfully registered with server
   private boolean enabled = false;
   
+  // True if vendor was active, but was inactivated because the vendor failed
+  // to respond to a reregister request
+  private boolean broken = false;
+  
   // True if we have have identified text pages coming from this vendor
   private boolean textPage = false;
   
@@ -174,6 +178,7 @@ abstract class Vendor {
     title = context.getString(titleId);
     prefs = context.getSharedPreferences(vendorCode + "Vendor", Context.MODE_PRIVATE);
     enabled = prefs.getBoolean("enabled", false);
+    broken = prefs.getBoolean("broken", false);
     account = prefs.getString("account", null);
     token = prefs.getString("token", null);
     
@@ -194,6 +199,7 @@ abstract class Vendor {
   private void saveStatus() {
     SharedPreferences.Editor editor = prefs.edit();
     editor.putBoolean("enabled", enabled);
+    editor.putBoolean("broken", broken);
     editor.putString("account", account);
     editor.putString("token", token);
     editor.commit();
@@ -219,8 +225,9 @@ abstract class Vendor {
   void addStatusInfo(StringBuilder sb) {
     sb.append("\n\nVendor:" + vendorCode);
     sb.append("\nenabled:" + enabled);
+    sb.append("\nbroken:" + broken);
     sb.append("\ntextPage:" + textPage);
-    if (enabled) {
+    if (enabled || broken) {
       sb.append("\naccount:" + account);
       sb.append("\ntoken:" + token);
     }
@@ -231,6 +238,13 @@ abstract class Vendor {
    */
   boolean isEnabled() {
     return enabled;
+  }
+  
+  /**
+   * @return broken status of vendor
+   */
+  boolean isBroken() {
+    return broken;
   }
 
   /**
@@ -263,7 +277,10 @@ abstract class Vendor {
   public void registerReq(Context context, Uri uri) {
     
     // If already enabled, we don't have to do anything
-    if (enabled) return;
+    if (enabled) {
+      reconnect(context);
+      return;
+    }
     
     // Set registration in progress flag
     // and save the discovery URI
@@ -336,19 +353,40 @@ abstract class Vendor {
     // Otherwise, if we are registered with this server, pass the new registration
     // ID to them
     else if (enabled) {
-      Uri uri = buildRequestUri("reregister", registrationId);
-      HttpService.addHttpRequest(context, new HttpService.HttpRequest(uri){
-        @Override
-        public void processError(int status, String result) {
-          
-          // If response was successful, we don't care about any details
-          if (status % 100 == 2) return;
-          showNotice(context, R.string.vendor_register_err_msg, result);
-          enabled = false;
-          saveStatus();
-          reportStatusChange();
-        }});            
+      sendReregister(context, registrationId);            
     }
+  }
+
+  /**
+   * Send current registration ID to vendor
+   * @param context current context
+   */
+  void reconnect(Context context) {
+    if (enabled || broken) {
+      String registrationId = ManagePreferences.registrationId();
+      if (registrationId != null) sendReregister(context, registrationId);
+    }
+  }
+  
+  /**
+   * Send reregister request to vendor
+   * @param context current context
+   * @param registrationId registration ID
+   */
+  private void sendReregister(final Context context, String registrationId) {
+    Uri uri = buildRequestUri("reregister", registrationId);
+    HttpService.addHttpRequest(context, new HttpService.HttpRequest(uri){
+      @Override
+      public void processError(int status, String result) {
+        
+        // If response was successful, we don't care about any details
+        if (status % 100 == 2) return;
+        showNotice(context, R.string.vendor_register_err_msg, result);
+        enabled = false;
+        broken = true;
+        saveStatus();
+        reportStatusChange();
+      }});
   }
 
   /**
@@ -364,6 +402,7 @@ abstract class Vendor {
     
     boolean change = (this.enabled != register);
     this.enabled = register;
+    this.broken = false;
     this.account = account;
     this.token = token;
     saveStatus();

@@ -4335,19 +4335,9 @@ Body: 437 CR2002W 72 YOM CHEST PAINS
 
 **DO NOT REPLY - Emergency Notification Only**
 
+[MEDICAL CALL]  437 CR2002W 72 YOM CHEST PAINS
+FIRE CALL] EXXON STATION IN HULL BEHIND ELEMENTARY SCHOOL  ON FIRE POSS EXPLOSIONS
 
-
-
-
-Example #3
-------------
-
-
-From: Craig Powell <dcpowell7002@gmail.com>
-Subject: Test
-Body: Testing 01/20/2012
-
-Craig
 **********************************************************
 Napa County, CA
 Contact: Joe Russo <bumbero19@gmail.com>

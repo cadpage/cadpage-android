@@ -7,9 +7,12 @@ import java.util.regex.Pattern;
 
 import net.anei.cadpage.C2DMReceiver;
 import net.anei.cadpage.R;
+import net.anei.cadpage.SmsPopupUtils;
 import net.anei.cadpage.donation.DeveloperToolsManager;
 import android.content.Context;
 import android.net.Uri;
+import android.preference.Preference;
+import android.preference.Preference.OnPreferenceClickListener;
 import android.preference.PreferenceScreen;
 
 /**
@@ -38,7 +41,17 @@ public class VendorManager {
    * @param context current context
    * @param pref preference to be set up with vendor config menu
    */
-  public void setupPreference(Context context, PreferenceScreen pref) {
+  public void setupPreference(final Context context, PreferenceScreen pref) {
+    
+    Preference reconnectPref = pref.findPreference(context.getString(R.string.pref_reconnect_key));
+    reconnectPref.setOnPreferenceClickListener(new OnPreferenceClickListener(){
+
+      @Override
+      public boolean onPreferenceClick(Preference preference) {
+        if (SmsPopupUtils.haveNet(context)) reconnect(context);
+        return true;
+      }});
+    
     boolean developer = DeveloperToolsManager.instance().isDeveloper(context);
     int order = 10;
     for (Vendor vendor : vendorList) {
@@ -81,6 +94,14 @@ public class VendorManager {
     Vendor vendor = findVendor(vendorCode);
     if (vendor == null) return null;
     return vendor.getEmailAddress();
+  }
+  
+  /**
+   * Reconnect all enabled vendors
+   * @param context current context
+   */
+  void reconnect(Context context) {
+    for (Vendor vendor : vendorList) vendor.reconnect(context);
   }
   
   /**

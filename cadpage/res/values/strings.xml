@@ -488,4 +488,7 @@
   <string name="pref_direct_paging_title">Direct Paging Vendors</string>
   <string name="pref_direct_paging_summary">Set up direct paging service</string>
   
+  <string name="pref_reconnect_title">Reconnect Direct Paging</string>
+  <string name="pref_reconnect_summary">Restore connections with currently enabled Direct Paging vendors</string>
+  
 </resources>

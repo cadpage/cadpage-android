@@ -105,4 +105,5 @@
    <string name="pref_callback_key">callback</string>
    <string name="pref_textsize_key">textsize</string>
    <string name="pref_direct_paging_key">direct_paging</string>
+   <string name="pref_reconnect_key">reconnect</string>
 </resources>
