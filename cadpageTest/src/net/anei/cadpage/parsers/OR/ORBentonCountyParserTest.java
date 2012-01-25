@@ -21,7 +21,8 @@ public class ORBentonCountyParserTest extends BaseParserTest {
         "CITY:PHILOMATH",
         "X:N 17TH ST * N 18TH ST",
         "MAP:540-365",
-        "ID:0907010-119");
+        "ID:0907010-119",
+        "UNIT:PHILOMATH FIRE");
 
     doTest("T2",
         "(Corvallis Alert) INC:COMM FIRE ALARM\nADD:421 S 19TH ST\nAPT:\nCITY:PHILOMATH\nX:ASH ST * CEDAR ST\nMAP:540-360\nCFS:100410-188\nDIS:PHILOMATH FIRE\nDIS:PHI",
@@ -30,7 +31,8 @@ public class ORBentonCountyParserTest extends BaseParserTest {
         "CITY:PHILOMATH",
         "X:ASH ST * CEDAR ST",
         "MAP:540-360",
-        "ID:100410-188");
+        "ID:100410-188",
+        "UNIT:PHILOMATH FIRE");
     
     doTest("T3",
         "(Corvallis Alert) INC:UNKNOWN MEDICAL\nADD:504 MELVILL CRESCENT AV [PHILOMATH]\nAPT:\nCITY:PHILOMATH\nX:SUNSHINE AV\nMAP:550-385\nCFS:101710-223\nDIS:PHILOM",
@@ -39,7 +41,8 @@ public class ORBentonCountyParserTest extends BaseParserTest {
         "CITY:PHILOMATH",
         "X:SUNSHINE AV",
         "MAP:550-385",
-        "ID:101710-223");
+        "ID:101710-223",
+        "UNIT:PHILOM");
 
     doTest("T4",
         "(Corvallis Alert) INC:BICYCLE ACCIDENT\nADD:DECKER RD and DECKER RIDGE RD\nAPT:\nCITY:PHILOMATH\nX:DECKER RD * BANKS LN\nMAP:480-420\nCFS:070611-52\nDIS:BEN",
@@ -48,7 +51,8 @@ public class ORBentonCountyParserTest extends BaseParserTest {
         "MADDR:DECKER RD & DECKER RIDGE RD",
         "X:DECKER RD * BANKS LN",
         "MAP:480-420",
-        "ID:070611-52");
+        "ID:070611-52",
+        "UNIT:BEN");
     
   }
   
