@@ -96,9 +96,25 @@ public class PABerksCountyParserTest extends BaseParserTest {
         "ADDR:65B MEADOW GLEN LN",
         "CITY:CUMRU TWP",
         "INFO:HEAVY SMOKE, GETTING WORSE; POSSIBLY COMING FROM DOWNSTAIRS APT; HUNGU");
+
+    doTest("T12",
+        "CAD MSG: *D SF       DIRECTLINK @2561 BERNVILLE RD 0054 PENSKI ENTERANCE / BUILDING 1 TRANSFORMER ROOM / SMOKE IN THE BUILDING",
+        "CALL:*D SF",
+        "ADDR:2561 BERNVILLE RD",
+        "PLACE:DIRECTLINK",
+        "CITY:BERN TWP",
+        "INFO:PENSKI ENTERANCE / BUILDING 1 TRANSFORMER ROOM / SMOKE IN THE BUILDING");
+
+    doTest("T13",
+        "CAD MSG: *D AFA      RHMC C BUILDING @600 SPRUCE ST 0038 BLDG C/GENERAL FIRE/ATN/610-988-8222",
+        "CALL:*D AFA",
+        "ADDR:600 SPRUCE ST",
+        "PLACE:RHMC C BUILDING",
+        "CITY:WEST READING",
+        "INFO:BLDG C/GENERAL FIRE/ATN/610-988-8222");
   }
   
   public static void main(String[] args) {
-    new PABerksCountyParserTest().generateTests("T11", "CALL ADDR PLACE CITY INFO");
+    new PABerksCountyParserTest().generateTests("T15", "CALL ADDR PLACE CITY INFO");
   }
 }
