@@ -3744,12 +3744,6 @@ Contact: Michael Herndon <mherndonffemt@gmail.com>
 Sender: swpage@vameck911.comcastbiz.net
 (MECK 911) 12-001451 SUBJECT FALLEN\n5539 HIGHWAY FORTY-SEVEN\n//\nCHASE CITY NURSING AND REHAB CENTER  MECK CO\nCCRS
 **********************************************************
-Madison County, NY (alternate)
-Contact: Kyle Cashel <kcashel@gmail.com>
-Sender: messaging@iamresponding.com
-Seems to be a common iamresponding format
-FRM:messaging@iamresponding.com\nSUBJ:Greater Lenox\nMSG:Sick Person\n400 LAMB AV , CANASTOTA VILLAGE ( / DEPPOLITI AV)
-**********************************************************
 Dothan, AL (Alternate form from same dispatch)
 Contact: Jacob Wozow <jwozow06@gmail.com>
 Sender: Robot.ALERT@dothan.org
@@ -3782,6 +3776,13 @@ Contact: "Robert Holmes" <RHolmes@lrfr.org>
 Sender: ce911@ci.eugene.or.us
 FRM:ce911@ci.eugene.or.us
 MSG:LRF TYP: VEHICLE VS PED ACC AD: TORRINGTON AVE&LYNNBROOK DR CTY: EUGENE MAP: EF557 C TIME: 08:12
+**********************************************************
+Camden County, NJ (alternate or replacement)
+Contact: Dave <davem@usa.net>
+Sender: ccfsup@camdencounty.com
+(CCCAlert) REQ FOR FM TO RESPOND - 508 MAIN AVE. BEDROOM FIRE. UNDER CONTROL.
+(CCCAlert) 2 BLS UNITS AND RESCUE OPERATING AT RT 561 AND MORRIS DRIVE FOR AN OVERTURNED DUMP TRUCK ON TOP OF A VEHICLE
+**********************************************************
 **********************************************************
 **********************************************************
 ************  READY TO ROLL ******************************
@@ -4469,4 +4470,10 @@ FRM:messaging@iamresponding.com
 SUBJ:Greater Lenox
 MSG:MVA - Unknown
 RAILROAD \ DEPOT (, CANASTOTA VILLAGE)
+
+Contact: "emtdebbie33@yahoo.com" <emtdebbie33@yahoo.com>
+(Greater Lenox) Convulsions/Seizures\n7216 NELSON RD , LENOX ( SENECA TRNPK / PAVONE PL)
+
+Contact: Kyle Cashel <kcashel@gmail.com>
+FRM:messaging@iamresponding.com\nSUBJ:Greater Lenox\nMSG:Sick Person\n400 LAMB AV , CANASTOTA VILLAGE ( / DEPPOLITI AV)
 **********************************************************

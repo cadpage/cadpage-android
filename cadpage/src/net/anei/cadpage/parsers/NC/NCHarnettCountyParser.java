@@ -27,6 +27,9 @@ FRM:cadpage@harnett.org\nMSG:1201-002111*11860 NC 210 S*****FIRE RES STR********
 Contact: Roy Gibbs <boham29@gmail.com>
 B1201-004551*11 BROOK LN*****EMS ABD PAIN*********
 
+Contact: Chris McCormick <mac3295@gmail.com>
+FRM:cadpage@harnett.org\nMSG:1201-006955*2802 WALKER RD***LINDEN**FIRE RES STR*********
+
 */
 
 public class NCHarnettCountyParser extends FieldProgramParser {
@@ -114,6 +117,9 @@ public class NCHarnettCountyParser extends FieldProgramParser {
     "SEMINOLE",
     "SHAWTOWN",
     "SPOUT SPRINGS",
-    "TURLINGTON"
+    "TURLINGTON",
+    
+    // Other
+    "LINDEN"
   };
 }
