@@ -143,9 +143,16 @@ public class NCAlexanderCountyParserTest extends BaseParserTest {
         "CALL:PREGNANCY OR CHILDBIRTH",
         "CODE:24D03",
         "X:HAPPY PLAINS RD & HARD ROCK LN");
+
+    doTest("T18",
+        "CAD:13 WIER CIR;STROKE;28C01L;4TH ST SW;5TH AV SW",
+        "ADDR:13 WIER CIR",
+        "CALL:STROKE",
+        "CODE:28C01L",
+        "X:4TH ST SW & 5TH AV SW");
   }
 
   public static void main(String[] args) {
-    new NCAlexanderCountyParserTest().generateTests("T18", "ADDR PLACE CALL CODE X");
+    new NCAlexanderCountyParserTest().generateTests("T19", "ADDR PLACE CALL CODE X");
   }
 }
