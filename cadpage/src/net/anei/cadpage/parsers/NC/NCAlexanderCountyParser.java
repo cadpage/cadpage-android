@@ -43,11 +43,14 @@ Contact: kevin chapman <kchapman3042@gmail.com>
 CAD:FYI: ;93 TELEPHONE EXCHANGE RD;TRAUMATIC INJURIES;30B01;SPENCER LN;HONEY LN
 CAD:765 CARRIGAN RD;PREGNANCY OR CHILDBIRTH;24D03;HAPPY PLAINS RD;HARD ROCK LN
 
+Contact: Landon Russ <landonruss1993@gmail.com>
+CAD:13 WIER CIR;STROKE;28C01L;4TH ST SW;5TH AV SW
+
 */
 
 public class NCAlexanderCountyParser extends SmartAddressParser {
   
-  private static final Pattern CODE_PTN = Pattern.compile("\\d{1,2}[A-Z]\\d{1,2}[a-z]?");
+  private static final Pattern CODE_PTN = Pattern.compile("\\d{1,2}[A-Z]\\d{1,2}[A-Za-z]?");
   private static final Pattern NC_PTN = Pattern.compile("\\bNC\\b");
   
   public NCAlexanderCountyParser() {
