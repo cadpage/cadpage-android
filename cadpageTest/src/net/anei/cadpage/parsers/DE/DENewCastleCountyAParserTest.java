@@ -137,7 +137,7 @@ public class DENewCastleCountyAParserTest extends BaseParserTest {
         "CALL:M29D5 (MVC--NOT ALERT)",
         "ADDR:CONCORD PK & INTERSTATE 95",
         "MADDR:CONCORD PIKE & INTERSTATE 95",
-        "PLACE:- LI:FROM 202 ONTO 95 SOUTH",
+        "PLACE:LI:FROM 202 ONTO 95 SOUTH",
         "INFO:—àDSC:MVC—! PAT:1 SEX:Male AGE:25Years CON:Y BRE:Y");
 
     doTest("T16",
@@ -159,7 +159,7 @@ public class DENewCastleCountyAParserTest extends BaseParserTest {
         "03:51T:55C1 (L1*ELECTRICAL HAZ W~NEAR WATER) L:112 BUCK RD ,HU07 - LI:IN FRONT OF ABV - X:ARDLEIGH DR ~ GREENOCK DR : transformer",
         "CALL:55C1 (L1*ELECTRICAL HAZ W~NEAR WATER)",
         "ADDR:112 BUCK RD",
-        "PLACE:- LI:IN FRONT OF ABV",
+        "PLACE:LI:IN FRONT OF ABV",
         "X:ARDLEIGH DR ~ GREENOCK DR",
         "INFO:transformer");
 
@@ -211,8 +211,16 @@ public class DENewCastleCountyAParserTest extends BaseParserTest {
         "CALL:M29D5 (MVC--NOT ALERT)",
         "ADDR:113 S DUPONT HY",
         "MADDR:113 S DUPONT HWY",
-        "PLACE:HARES CORNER",
+        "PLACE:LONE STAR STEAKHOU / HARES CORNER",
         "X:btwn CHRISTIANA RD ~ FIFTH AV");
+
+    doTest("T25",
+        "[eFB] F00 14:33 1 - T:M31D3 (SYNCOPE-NOT ALERT) L:160 ACADEMY ST ,3B --* **DRAKE HALL *btwn E DELAWARE AV ~ LOVETT AV *UD CENTRAL MALL - LI:RM #054 - DESC:—àDSC:DIZZY, PASSED OUT—! PAT:1 SEX:Female AGE:19Years CON:Y BRE:Y",
+        "CALL:M31D3 (SYNCOPE-NOT ALERT)",
+        "ADDR:160 ACADEMY ST",
+        "PLACE:DRAKE HALL / UD CENTRAL MALL - LI:RM #054",
+        "X:btwn E DELAWARE AV ~ LOVETT AV",
+        "INFO:—àDSC:DIZZY, PASSED OUT—! PAT:1 SEX:Female AGE:19Years CON:Y BRE:Y");
   
   }
   
