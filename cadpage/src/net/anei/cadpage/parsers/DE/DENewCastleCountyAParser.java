@@ -50,6 +50,9 @@ Contact: Matthew Comegys <mcomegys2832@gmail.com>
 Sender: rc.302@c-msg.net
 28CAD / [eFB] F00 17:23 1 - T:M29D5 (MVC--NOT ALERT) L:113 S DUPONT HY ,4Q -- LONE STAR STEAKHOU btwn CHRISTIANA RD ~ FIFTH AV * 28CAD / HARES CORNER - DESC:\n\n
 
+Contact: Jason Froimowitz <jsf@udel.edu>
+[eFB] F00 14:33 1 - T:M31D3 (SYNCOPE-NOT ALERT) L:160 ACADEMY ST ,3B --* **DRAKE HALL *btwn E DELAWARE AV ~ LOVETT AV *UD CENTRAL MALL - LI:RM #054 - DESC:—àDSC:DIZZY, PASSED OUT—! PAT:1 SEX:Female AGE:19Years CON:Y BRE:Y
+
  */
 
 
@@ -103,7 +106,7 @@ public class DENewCastleCountyAParser extends FieldProgramParser {
     body = body.replace('\n', ' ');
     body = body.replaceAll("  +", " ");
     body = body.replace(" :", " DESC:");
-    body = NAKED_BTWN.matcher(body).replaceFirst("X:btwn");
+    body = NAKED_BTWN.matcher(body).replaceFirst(" X:btwn");
     return super.parseMsg(body, data);
   }
   
@@ -136,20 +139,15 @@ public class DENewCastleCountyAParser extends FieldProgramParser {
     }
   }
 
+  private static final Pattern PLACE_PTN = Pattern.compile("[- \\*]*(.*?)[- \\*]*");
   private void parsePlace(String fld, Data data) {
-    if (fld.startsWith("*")) {
-      fld = fld.substring(1).trim();
-    } else if (fld.startsWith("--")) {
-      fld = fld.substring(2).trim();
-    }
-    if (fld.endsWith("-")) {
-      fld = fld.substring(0,fld.length()-1).trim();
-    }
+    Matcher match = PLACE_PTN.matcher(fld);
+    if (match.matches()) fld = match.group(1);
     if (fld.length() > 0) {
       if (CITY_SET.contains(fld.toUpperCase())) {
         data.strCity = fld;
       } else {
-        data.strPlace = fld;
+        data.strPlace = append(data.strPlace, " / ", fld);
       }
     }
   }

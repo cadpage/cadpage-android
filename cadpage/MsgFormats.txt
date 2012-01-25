@@ -3717,9 +3717,13 @@ S:Call M:FIRE / 10-50 J-2 / STATE RD CC JEFFCO/FESTUS FIRE / HWY 67 / FIRE DEPT 
 **********************************************************
 Onondaga County, NY (alternate)
 Contact: Al Pola <alpola828@gmail.com>
+
 Dispatch ** 04:38 **
 UNCONSCIOUS PERSON ** 110 FENNELL ST ** APT B IN BACK ** FOEHL, MARY KAY **
 ((315)247-3**
+
+Dispatch ** 09:27 ** CHEST PAIN POSSIBLE HEART ** 43 W ELIZABETH ST ** - ** FORD,KATHY ** (315) 214-5 **
+Dispatch ** 01:27 ** UNCONSCIOUS PERSON ** 17  PRENTISS DR ** - ** SAVAGE-CANTY MA ** (315) 685-5 **
 **********************************************************
 Geauga County, OH (alternate)
 Contact: Courtney Sanders <csanders3217@gmail.com>
