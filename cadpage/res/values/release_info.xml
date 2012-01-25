@@ -1,23 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">01202012</string>
-  <string name="release_version">v1.5.11</string>
+  <string name="release_date">01252012</string>
+  <string name="release_version">v1.5.12</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="min_expire_date">10012012</string>
   <string name="release_text">
 What"'"s new in this release\n
 \n
-New Locations:\n
-Onondaga County, NY\n
-Juniata County, PA\n
-\n
 Location Parsing Fixes:\n
-Winnebago County, IL\n
-Lewis and Clark County, MT\n
-Bucks County, PA,\n
-Oconee County, SC\n
-Collin County, TX\n
+Newcastle County, DE\n
+Weld County, CO\n
+Genesee County, NY\n
+Ontario County, NY\n
+Westchester County, NY\n
+Alexander County, NC\n
+Gaston County, NC\n
+Harnett County, NC\n
+Hoke County, NC\n
+Hamilton County, OH\n
+Benton County, OR\n
+Frederick County, VA\n
+\n
+General Fixes:\n
+Fixed several problems with direct paging\n
+Fixed problem with split message merge logic\n
   </string>  
 </resources>
   
