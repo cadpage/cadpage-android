@@ -74,6 +74,13 @@ public class NCHarnettCountyParserTest extends BaseParserTest {
         "ADDR:11 BROOK LN",
         "CALL:EMS ABD PAIN");
 
+    doTest("T10",
+        "FRM:cadpage@harnett.org\nMSG:1201-006955*2802 WALKER RD***LINDEN**FIRE RES STR*********",
+        "ID:1201-006955",
+        "ADDR:2802 WALKER RD",
+        "CITY:LINDEN",
+        "CALL:FIRE RES STR");
+
   }
 
   public static void main(String[] args) {
