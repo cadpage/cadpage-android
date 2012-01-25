@@ -1,8 +1,6 @@
 package net.anei.cadpage.parsers.OR;
 
-import java.util.Properties;
-
-import net.anei.cadpage.parsers.MsgParser;
+import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /*    
@@ -16,7 +14,7 @@ Sender: alerts@corvallis.ealertgov.com
 
 */
 
-public class ORBentonCountyParser extends MsgParser {
+public class ORBentonCountyParser extends FieldProgramParser {
   
   // List of streets that extend wholly or partly into a region that Google does
   // not recognize as part of Philomath
@@ -34,7 +32,8 @@ public class ORBentonCountyParser extends MsgParser {
   }; 
   
   public ORBentonCountyParser() {
-    super("BENTON COUNTY", "OR");
+    super("BENTON COUNTY", "OR",
+          "INC:CALL! ADD:ADDR! APT:APT CITY:CITY! X:X MAP:MAP CFS:ID DIS:UNIT");
   }
   
   @Override
@@ -45,27 +44,7 @@ public class ORBentonCountyParser extends MsgParser {
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     if (! subject.equals("Corvallis Alert")) return false;
-
-    Properties props = parseMessage(body, "\n");
-    
-    data.strCall=props.getProperty("INC", null);
-    data.strAddress=props.getProperty("ADD", null);
-    if (data.strCall == null || data.strAddress == null) return false;
-    
-    int pt = data.strAddress.lastIndexOf(' ');
-    if (pt >= 0) {
-      String token = data.strAddress.substring(pt+1);
-      if (token.charAt(0) == '[' && token.charAt(token.length()-1) == ']') {
-        data.strAddress = data.strAddress.substring(0, pt).trim();
-        data.strCity = token.substring(1, token.length()-2);
-      }
-    }
-
-    data.strCity=props.getProperty("CITY", "");
-    data.strApt =props.getProperty("APT", "");
-    data.strCross=props.getProperty("X", "");
-    data.strMap=props.getProperty("MAP", "");
-    data.strCallId = props.getProperty("CFS", "");
+    if (!parseFields(body.split("\n"), data)) return false;
     
     // Now for some special fixes to work around Dispatch map issues
     if (data.strCity.equals("PHILOMATH")) {
@@ -79,7 +58,21 @@ public class ORBentonCountyParser extends MsgParser {
       }
     }
     
-    
     return true;
+  }
+  
+  private class MyAddressField extends AddressField {
+    @Override
+    public void parse(String field, Data data) {
+      Parser p = new Parser(field);
+      parseAddress(p.get('['), data);
+      data.strCity = p.get(']');
+    }
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("ADDR")) return new MyAddressField();
+    return super.getField(name);
   }
 }
