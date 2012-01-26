@@ -30,8 +30,6 @@ Sender: ccsodispatch@co.collin.tx.us
 CFS No: 12003605  UNAUTHORIZED BURN  3352 HEDRICK LN  COUNTY ROAD 941 /
 LOWRY CROSSING REQUESTING FIRE MARSHAL  COME TO THE LOCATION - CALLED IN AS SUBJECT  BURNING TRASH IN A SMOKER  CFS No: 12003605 UNAUTHORIZED BURN  7605 COUNTY ROAD 941  PRIVATE ROAD 5206 / PRIVATE ROAD 5205
 DISREGARD  CFS No: 12003635  MINOR ACCIDENT 10/50  FM 546 / FM 3286  DISREGARD
-
-*** Not Parsing ***
 ASSIST DEPUTY WITH TREE IN ROAD  CFS No: 12005736  TRAFFIC HAZARD COUNTY ROAD 325 / COUNTY ROAD 324
 
 Message From Dispatch DISREGARD MAJOR AT MONTE CARLO AND 380 LOCATION WAS CHANGED AND IS PNFD SORRY FOR THE PAGE
@@ -42,6 +40,8 @@ Message From Dispatch MUTUAL AID STRUCTURE FIRE 6031 FM 546 CFS 12006098-- MUTUA
 
 public class TXCollinCountyParser extends FieldProgramParser {
   
+  private static final Pattern CFS_ID_PTN = Pattern.compile(" CFS (\\d{8})\\b");
+  private static final Pattern LEAD_DASH_PTN = Pattern.compile("^[ -]+");
   private static final Pattern DIST_GRID_PTN = Pattern.compile("\\[([A-Z]+) DIST: .* GRID: (\\d+) *\\]");
   
   private static final String[] DOUBLE_CITY_LIST = new String[] {
@@ -55,7 +55,7 @@ public class TXCollinCountyParser extends FieldProgramParser {
   
   public TXCollinCountyParser() {
     super("COLLIN COUNTY", "TX",
-        "( ID CALL ADDR X | MASH | IDCALL ADDR X ) UNITS:UNIT ST_RMK:INFO CFS_RMK:INFO");
+        "MASH UNITS:UNIT ST_RMK:INFO CFS_RMK:INFO");
   }
   
   @Override
@@ -66,7 +66,27 @@ public class TXCollinCountyParser extends FieldProgramParser {
   @Override
   protected boolean parseMsg(String body, Data data) {
     
-    if (body.startsWith("Message From Dispatch ")) body = body.substring(22).trim();
+    String alert = null;
+    if (body.startsWith("Message From Dispatch ")) {
+      body = body.substring(22).trim();
+      if (body.startsWith("MUTUAL AID")) {
+        Matcher match  = CFS_ID_PTN.matcher(body);
+        if (match.find()) {
+          data.strCallId = match.group(1);
+          parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ, body.substring(0,match.start()).trim(), data);
+          String sInfo = body.substring(match.end());
+          match = LEAD_DASH_PTN.matcher(sInfo);
+          if (match.find()) sInfo = sInfo.substring(match.end());
+          data.strSupp = sInfo;
+          return true;
+        }
+        
+        parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ, body, data);
+        return true;
+      }
+      
+      alert = body;
+    }
 
     // Remove trailing ID
     int pt = body.lastIndexOf('{');
@@ -94,98 +114,147 @@ public class TXCollinCountyParser extends FieldProgramParser {
     // blank delimiters, we can call parseFields to finsh things off
     body = body.replace("CFS RMK ", "CFS RMK: ");
     body = body.replaceAll(" +/ +", " / ");
-    String[] flds = body.split("  +");
-    if (flds.length >= 3) {
-      if (!parseFields(flds, data)) return false;
-    } else {
-      if (!super.parseMsg(body, data)) return false;
+    if (super.parseMsg(body, data)) {
+      
+      if (data.strCity.equalsIgnoreCase("COLLIN COUNTY")) data.strCity = "";
+      if (data.strAddress.length() > 0) return true;
     }
     
-    if (data.strCity.equals("COLLIN COUNTY")) data.strCity = "";
-    return data.strAddress.length() > 0;
-  }
-
-  private static final Pattern IN_PTN = Pattern.compile(" IN ", Pattern.CASE_INSENSITIVE);
-  private class MyAddressField extends AddressField {
-
-    @Override
-    public void parse(String field, Data data) {
-      
-      Matcher match = IN_PTN.matcher(field);
-      if (match.find()) {
-        data.strCity = field.substring(match.end()).trim();
-        field = field.substring(0,match.start()).trim();
-      }
-      super.parse(field, data);
+    if (alert != null) {
+      data.strCall = "GENERAL ALERT";
+      data.strPlace = alert;
+      return true;
     }
+    
+    return false;
   }
   
-  // Parse a mashup of ID, CALL, ADDR, CITY, and Cross streets in which the
-  // double blank delimiters have been removed
-  private static final Pattern MASH_PTN = Pattern.compile("(\\d{8}) +(.*)(?: IN | in )(.*)");
+  // Parse a mashup of ID, CALL, ADDR, CITY, and Cross streets all of which might
+  // or might not be separated by double blank delimiters
+  private static final Pattern ID_PTN = Pattern.compile("^(\\d{8}) +");
+  private static final Pattern IN_PTN = Pattern.compile(" +IN +", Pattern.CASE_INSENSITIVE);
   private class MashField extends Field {
     
     @Override
-    public boolean canFail() {
-      return true;
-    }
-    
-    @Override
-    public boolean checkParse(String field, Data data) {
+    public void parse(String field, Data data) {
       
       // Start with easy stuff.  ID is always the first token
-      // and call/address and city/cross are separated with a " IN " marker
-      Matcher match = MASH_PTN.matcher(field);
-      if (!match.matches()) return false;
-      data.strCallId = match.group(1);
-      
-      // Use smart parser to separate call and address
-      parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ | FLAG_ANCHOR_END, match.group(2).trim(), data);
-      
-      String sTail = match.group(3).toUpperCase();
-      for (String tc : DOUBLE_CITY_LIST) {
-        if (sTail.startsWith(tc)) {
-          data.strCity = tc;
-          data.strCross = sTail.substring(tc.length()).trim();
-          return true;
-        }
-      }
-      
-      Parser p = new Parser(sTail);
-      data.strCity = p.get(' ');
-      data.strCross = p.get();
-      return true;
-    }
-    
-    @Override
-    public void parse(String field, Data data) {
-      abort();
-    }
-  }
-  
-  private static final Pattern ID_CALL_PTN = Pattern.compile("(\\d{8}) +(.*)");
-  private class IDCallField extends Field {
-    @Override
-    public void parse(String field, Data data) {
-      Matcher match = ID_CALL_PTN.matcher(field);
+      Matcher match = ID_PTN.matcher(field);
       if (!match.find()) abort();
       data.strCallId = match.group(1);
-      data.strCall = match.group(2);
+      field = field.substring(match.end());
+      
+      // Break up what is left by any double blank delimiters and see what we have to work with
+      String[] flds = field.split("  +");
+      switch (flds.length) {
+      
+      case 1:
+        
+        parseAddr(CALL | CROSS, flds[0], data);
+        return;
+        
+      case 2:
+        
+        // Two fields is ambiguous, we don't know if if the break is call/address and cross
+        // or call and address/cross.  We'll check both for an IN keyword, which
+        // would mark the address
+        if (parseAddr(OPTIONAL | CROSS, flds[1], data)) {
+          data.strCall = flds[0];
+          return;
+        }
+        
+        if (parseAddr(OPTIONAL | CALL, flds[0], data)) {
+          data.strCross = flds[1];
+          return;
+        }
+        
+        break;
+        
+      case 3:
+        
+        // Three fields breaks into call, address/city and cross
+        data.strCall = flds[0];
+        parseAddr(0, flds[1], data);
+        data.strCross = flds[2];
+        return;
+        
+      // More than 3 fields, we haven't a clue what to do.  
+      default:
+        abort();
+      }
+    }
+    
+    private static final int OPTIONAL = 1;
+    private static final int CALL = 2;
+    private static final int CROSS = 4;
+    private boolean parseAddr(int flags, String sAddress, Data data) {
+      
+      // Break out flag options
+      boolean optional = (flags & OPTIONAL) != 0;
+      boolean call = (flags & CALL) != 0;
+      boolean cross = (flags & CROSS) != 0;
+      
+      int parseFlags = 0;
+      StartType st = StartType.START_ADDR;
+      if (call) {
+        st = StartType.START_CALL;
+        parseFlags |= FLAG_START_FLD_REQ; 
+      }
+      
+      // Next, see if address contains an IN keyword separated call/address from city/cross
+      Matcher match = IN_PTN.matcher(sAddress);
+      if (match.find()) {
+        
+        // Check, use smart parser to split call and address
+        parseAddress(st, parseFlags | FLAG_ANCHOR_END, sAddress.substring(0,match.start()), data);
+        
+        // Now lets look at the right side of the IN keyword
+        // If we aren't handling cross streets, it is all city
+        String tail = sAddress.substring(match.end());
+        if (!cross) {
+          data.strCity = tail;
+          return true;
+        }
+        
+        // Otherwise, see if it starts with a two word city, if it does
+        // use that city to break tail into city and cross streets
+        String tail2 = tail.toUpperCase();
+        for (String tc : DOUBLE_CITY_LIST) {
+          if (tail2.startsWith(tc)) {
+            data.strCity = tail.substring(0,tc.length());
+            data.strCross = tail.substring(tc.length()).trim();
+            return true;
+          }
+        }
+        
+        // Otherwise first word of tail is city, rest is cross
+        Parser p = new Parser(tail);
+        data.strCity = p.get(' ');
+        data.strCross = p.get();
+        return true;
+      }
+      
+      // No IN keyword, if this was an optional parse, return failure
+      if (optional) return false;
+      
+      // no IN keyword, which we assume means no city
+      // Use smart address parser to separate call, adddress, and cross
+      if (!cross) parseFlags |= FLAG_ANCHOR_END;
+      parseAddress(st, parseFlags, sAddress, data);
+      if (cross) data.strCross = getLeft();
+      return true;
     }
   }
   
   @Override
   public Field getField(String name) {
-    if (name.equals("ID")) return new IdField("\\d{8}");
-    if (name.equals("ADDR")) return new MyAddressField();
     if (name.equals("MASH")) return new MashField();
-    if (name.equals("IDCALL")) return new IDCallField();
     return super.getField(name);
   }
   
   @Override
   public String getProgram() {
-    return "ID CALL ADDR CITY X SRC MAP UNIT INFO";
+    return "ID CALL ADDR CITY X SRC MAP UNIT INFO PLACE";
   }
   
 //  
