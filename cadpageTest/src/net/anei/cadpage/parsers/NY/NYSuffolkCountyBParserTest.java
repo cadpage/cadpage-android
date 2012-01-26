@@ -353,9 +353,44 @@ public class NYSuffolkCountyBParserTest extends BaseParserTest {
         "TIME:16:16",
         "DATE:10-29-11",
         "ID:2011-004718");
+
+    doTest("T34",
+        "*** 16 *** 180 E PULASKI RD CS: ALBERMARLE ST ADTML: 10-C-1 TOA: 15:43 01-26-12 2012-000393 TYPE: CHEST PAIN LOC: 180 E PULASKI RD HU",
+        "CALL:16",
+        "ADDR:180 E PULASKI RD",
+        "X:ALBERMARLE ST",
+        "CODE:10-C-1",
+        "TIME:15:43",
+        "DATE:01-26-12",
+        "ID:2012-000393",
+        "INFO:CHEST PAIN LOC: 180 E PULASKI RD HU");
+
+    doTest("T35",
+        "*** 16 ***  JONES LN CS: W JERICHO TRNP ADTML: 29-B-1 TOA: 14:04 01-26-12 2012-000392 TYPE: MOTOR VEHICLE ACCIDENT  IN PARKING LOT CR",
+        "CALL:16",
+        "ADDR:JONES LN",
+        "MADDR:JONES LN & W JERICHO TRNP",
+        "X:W JERICHO TRNP",
+        "CODE:29-B-1",
+        "TIME:14:04",
+        "DATE:01-26-12",
+        "ID:2012-000392",
+        "INFO:MOTOR VEHICLE ACCIDENT  IN PARKING LOT CR");
+
+    doTest("T36",
+        "*** 16 *** 379 NEW YORK AV CS: ELM ST ADTML: 17-D-3 TOA: 13:28 01-26-12 2012-000391 TYPE: FALLS LOC: 379 NEW YORK AV HUNTIN :@FOX'S  ",
+        "CALL:16",
+        "ADDR:379 NEW YORK AV",
+        "MADDR:379 NEW YORK AVE",
+        "X:ELM ST",
+        "CODE:17-D-3",
+        "TIME:13:28",
+        "DATE:01-26-12",
+        "ID:2012-000391",
+        "INFO:FALLS LOC: 379 NEW YORK AV HUNTIN :@FOX'S");
   }
   
   public static void main(String[] args) {
-    new NYSuffolkCountyBParserTest().generateTests("T1");
+    new NYSuffolkCountyBParserTest().generateTests("T34");
   }
 }

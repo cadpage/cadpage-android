@@ -123,6 +123,15 @@ public class PACambriaCountyParserTest extends BaseParserTest {
         "ADDR:349 VO TECH DR",
         "CITY:RICHLAND TWP");
 
+    doTest("T2",
+        "Date: 01/24/12\nTime: 18:02:50\nNature: 69D03-Delta STRUCTURE FIRE\nLocation: 7458 ADMIRAL PEARY HWY-CB\nSta 70, Sta 71, Sta 72, Sta 75",
+        "DATE:01/24/12",
+        "TIME:18:02:50",
+        "CALL:69D03-Delta STRUCTURE FIRE",
+        "ADDR:7458 ADMIRAL PEARY HWY",
+        "CITY:CRESSON",
+        "UNIT:Sta 70, Sta 71, Sta 72, Sta 75");
+
   }
   
   
