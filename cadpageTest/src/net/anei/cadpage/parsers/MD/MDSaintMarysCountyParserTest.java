@@ -789,9 +789,19 @@ public class MDSaintMarysCountyParserTest extends BaseParserTest {
         "UNIT:ST38",
         "INFO:302-CVA");
 
+    doTest("T75",
+        "(27758 CAD ) 20:38:46*ODOR UNKNOWN*49154 WYNNE RD*WOODLAWN LN*RIDGE*CO4 CO14*Odor (Strange / Unknown).  Odor inside.Caller Statement:*",
+        "TIME:20:38:46",
+        "CALL:ODOR UNKNOWN",
+        "ADDR:49154 WYNNE RD",
+        "X:WOODLAWN LN",
+        "CITY:RIDGE",
+        "UNIT:CO4 CO14",
+        "INFO:Odor (Strange / Unknown).  Odor inside.Caller Statement:");
+
   }
 
   public static void main(String[] args) {
-    new MDSaintMarysCountyParserTest().generateTests("T74", "TIME CALL ADDR APT X PLACE CITY UNIT INFO");
+    new MDSaintMarysCountyParserTest().generateTests("T1", "TIME CALL ADDR APT X PLACE CITY UNIT INFO");
   }
 }

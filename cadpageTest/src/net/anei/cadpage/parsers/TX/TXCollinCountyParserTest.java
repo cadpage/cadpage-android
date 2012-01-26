@@ -114,7 +114,7 @@ public class TXCollinCountyParserTest extends BaseParserTest {
         "SRC:LCFD",
         "MAP:1322",
         "UNIT:LCF1",
-        "INFO:<NONE> / 15:09 8 HOUSES DOWN");
+        "INFO:<NONE> / 15:09 8 HOUSES DOWN  ITEMS LEFT OVER FR A");
 
     doTest("T8",
         "11055307  MEDICATION OVERDOSE  415 S BRIDGEFARMER RD IN LOWRY CROSSING  E US HIGHWAY 380 / COUNTY ROAD 403  [LCFD DIST: LCF1 GRID: 3100]  UNITS: LCF2  ST RMK: 10J3  CFS RMK 19:34 36 YOA FEMALE TOOK SOMETYPE OF SLEEP  {CAD004 19:35}",
@@ -177,7 +177,7 @@ public class TXCollinCountyParserTest extends BaseParserTest {
         "SRC:LCFD",
         "MAP:1322",
         "UNIT:LCF1",
-        "INFO:<NONE> CFS RMK: 17:12 NEIGHBOR BEHIND THE RP IS BURNING TR");
+        "INFO:<NONE> / 17:12 NEIGHBOR BEHIND THE RP IS BURNING TR");
 
     doTest("T2",
         "CFS No: 12003605  UNAUTHORIZED BURN  3352 HEDRICK LN  COUNTY ROAD 941 /",
@@ -201,9 +201,34 @@ public class TXCollinCountyParserTest extends BaseParserTest {
         "ADDR:FM 546 & FM 3286",
         "X:DISREGARD",
         "INFO:DISREGARD");
+
+    doTest("T5",
+        "ASSIST DEPUTY WITH TREE IN ROAD  CFS No: 12005736  TRAFFIC HAZARD COUNTY ROAD 325 / COUNTY ROAD 324",
+        "ID:12005736",
+        "CALL:TRAFFIC HAZARD",
+        "ADDR:COUNTY ROAD 325 & COUNTY ROAD 324",
+        "INFO:ASSIST DEPUTY WITH TREE IN ROAD");
+
+    doTest("T6",
+        "Message From Dispatch DISREGARD MAJOR AT MONTE CARLO AND 380 LOCATION WAS CHANGED AND IS PNFD SORRY FOR THE PAGE",
+        "CALL:GENERAL ALERT",
+        "PLACE:DISREGARD MAJOR AT MONTE CARLO AND 380 LOCATION WAS CHANGED AND IS PNFD SORRY FOR THE PAGE");
+
+    doTest("T7",
+        "Message From Dispatch MUTUAL AID SFIRE 6031 FM 546 CFS 12006098",
+        "ID:12006098",
+        "CALL:MUTUAL AID SFIRE",
+        "ADDR:6031 FM 546");
+
+    doTest("T8",
+        "Message From Dispatch MUTUAL AID STRUCTURE FIRE 6031 FM 546 CFS 12006098-- MUTUAL AID WITH BRANCH",
+        "ID:12006098",
+        "CALL:MUTUAL AID STRUCTURE FIRE",
+        "ADDR:6031 FM 546",
+        "INFO:MUTUAL AID WITH BRANCH");
   }
   
   public static void main(String[] args) {
-    new TXCollinCountyParserTest().generateTests("T1", "ID CALL ADDR CITY X SRC MAP UNIT INFO");
+    new TXCollinCountyParserTest().generateTests("T6");
   }
 }
