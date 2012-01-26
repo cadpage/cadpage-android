@@ -30,7 +30,6 @@ Contact: Paul Bomboy <training@easthillsems.com>
 Sender: Cambria 9-1-1
 FRM:Cambria 9-1-1\nMSG:Date: 11/07/11\nTime: 18:02:55\nNature: 10C01-Charlie CHEST PAIN\nLocation: 349 VO TECH DR-RI\n|
 
-**** NOT PARSING ****
 Contact: support@active911.com
 Sender; "Cambria 9-1-1" <alerts@cambria.ealertgov.com>
 Date: 01/24/12\nTime: 18:02:50\nNature: 69D03-Delta STRUCTURE FIRE\nLocation: 7458 ADMIRAL PEARY HWY-CB\nSta 70, Sta 71, Sta 72, Sta 75
@@ -41,10 +40,11 @@ public class PACambriaCountyParser extends FieldProgramParser {
   
   private static final Pattern MARKER1 = Pattern.compile("\\d\\d");
   private static final Pattern MARKER2 = Pattern.compile("^\\d\\d ");
+  private static final Pattern BAR_PTN = Pattern.compile("([ \n])\\| ");
   
   public PACambriaCountyParser() {
     super(CITY_CODES, "CAMBRIA COUNTY", "PA",
-           "Date:DATE? Time:TIME! Nature:CALL! Location:ADDR/y! Sta:UNIT");
+           "Date:DATE? Time:TIME! Nature:CALL! Location:ADDR/y! UNIT Sta:UNIT");
   }
   
   @Override
@@ -61,9 +61,14 @@ public class PACambriaCountyParser extends FieldProgramParser {
       body = body.substring(match.end()).trim();
     }
     
-    body = body.replace('\n', ' ').replace(" | ", " Sta: ");
+    body = BAR_PTN.matcher(body).replaceAll("$1Sta: ");
     if (body.endsWith("|")) body = body.substring(0,body.length()-1).trim();
-    return super.parseMsg(body, data);
+    String[] flds = body.split("\n");
+    if (flds.length >= 5) {
+      return parseFields(flds, data);
+    } else {
+      return super.parseMsg(body.replace('\n', ' '), data);
+    }
   }
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
