@@ -328,6 +328,19 @@ public class NYNassauCountyRedAlertParserTest extends BaseParserTest {
 
   }
   
+  @Test
+  public void testUnknown3() {
+
+    doTest("T1",
+        "RESCUE, STROKE at 2374 JERUSALEM AVENUE, NORTH BELLMORE c/s: HAMILTON ROAD O: NU IMAGE MEDICAL ASSOCIATES . . 10:39:01",
+        "CALL:RESCUE, STROKE",
+        "ADDR:2374 JERUSALEM AVENUE",
+        "CITY:NORTH BELLMORE",
+        "X:HAMILTON ROAD",
+        "PLACE:NU IMAGE MEDICAL ASSOCIATES",
+        "TIME:10:39:01");
+  }
+  
   public static void main(String[] args) {
     new NYNassauCountyRedAlertParserTest().generateTests("T1", "CALL MAP UNIT INFO ADDR APT CITY X PLACE TIME");
   }
