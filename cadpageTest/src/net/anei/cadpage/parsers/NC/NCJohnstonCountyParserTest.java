@@ -193,6 +193,18 @@ public class NCJohnstonCountyParserTest extends BaseParserTest {
         "CALL:No Add`l Personnel / Unit",
         "ADDR:1203 LIVE OAK CHURCH RD",
         "X:SELM & 6(S)PECAN GROVE MHP (N)");
+
+    doTest("T20",
+        "CAD:OPS;CLD;31D02;UNCONSCIOUS PERSON 31-D-02;16 CARRIAGE CREEK DR;(S)CARRIAGE CREEK (N);CLEVELAND RD;STEEP HILL CT;MCDANIELS, ALBERT M;01/26/2012 06:25:19;CLDR1",
+        "INFO:OPS",
+        "SRC:CLD",
+        "CODE:31D02",
+        "CALL:UNCONSCIOUS PERSON 31-D-02",
+        "ADDR:16 CARRIAGE CREEK DR",
+        "X:(S)CARRIAGE CREEK (N) & CLEVELAND RD & STEEP HILL CT",
+        "NAME:MCDANIELS, ALBERT M",
+        "DATE:01/26/2012",
+        "TIME:06:25:19");
   }
   
   public static void main(String[] args) {

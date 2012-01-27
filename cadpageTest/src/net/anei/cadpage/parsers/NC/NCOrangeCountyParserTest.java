@@ -97,6 +97,14 @@ public class NCOrangeCountyParserTest extends BaseParserTest {
         "ADDR:741 W BARBEE CHAPEL RD",
         "TIME:16:43:44",
         "CODE:19C03");
+
+    doTest("T5",
+        "(CAD Page for CFS 012512-150) RECD: 11:42:42\nTG: OPS 1\nINC: HEART PROBLEMS\nLOC: 218 CEDAR CLUB CIR\nAPT: \nBLDG: \nEMD:",
+        "ID:012512-150",
+        "CH:OPS 1",
+        "CALL:HEART PROBLEMS",
+        "ADDR:218 CEDAR CLUB CIR",
+        "TIME:11:42:42");
    
   }
   
