@@ -33,6 +33,7 @@ Sender: cadpage@orangeem.org
 Contact: Rob Pruitt <repruitt@gmail.com>
 Sender: cadpage@orangeem.org
 Subject:CAD Page for CFS 112211-111\nTG: OPS \nINC: Auto Fire Alarm\nLOC: 511 HIGHGROVE DR\nAPT: \nBLDG: \n
+Subject:CAD Page for CFS 012512-269\nRECD: 16:43:44\nTG: OPS 1\nINC: HEART PROBLEMS\nLOC: 741 W BARBEE CHAPEL RD\nAPT: \nBLDG: \nEMD: 19C03
 
  */
 
@@ -43,7 +44,7 @@ public class NCOrangeCountyParser extends FieldProgramParser {
   
   public NCOrangeCountyParser() {
     super("ORANGE COUNTY", "NC",
-           "( TG:CH INC:CALL LOC:ADDR! APT:APT BLDG:APT | CH CALL ADDR! Apt:APT Build:APT )");
+           "( CH CALL ADDR! Apt:APT Build:APT | RECD:TIME? TG:CH INC:CALL LOC:ADDR! APT:APT BLDG:APT EMD:CODE )");
   }
   
   @Override
@@ -68,6 +69,7 @@ public class NCOrangeCountyParser extends FieldProgramParser {
 
   @Override
   protected Field getField(String name) {
+    if (name.equals("CH")) return new ChannelField("OPS.*");
     if (name.equals("APT")) return new MyAptField();
     return super.getField(name);
   }
