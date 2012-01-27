@@ -39,13 +39,17 @@ Contact: Daniel Fry <dfry79@gmail.com>
 Sender: CAD@johnstonnc.com
 CAD:No Add`l Personnel / Unit;1203 LIVE OAK CHURCH RD; SELM;6(S)PECAN GROVE MHP (N)
 
+Contact: Dean COR <dean.koehmstedt@raleighnc.gov>
+Sender: 93001024
+CAD:OPS;CLD;31D02;UNCONSCIOUS PERSON 31-D-02;16 CARRIAGE CREEK DR;(S)CARRIAGE CREEK (N);CLEVELAND RD;STEEP HILL CT;MCDANIELS, ALBERT M;01/26/2012 06:25:19;CLDR1
+
 */
 
 public class NCJohnstonCountyParser extends DispatchOSSIParser {
   
   public NCJohnstonCountyParser() {
     super("JOHNSTON COUNTY", "NC",
-           "( INFO SRC CODE? | ) CALL ADDR! X? X? NAME");
+           "( INFO SRC CODE? | ) CALL ADDR! X? X? X2? NAME");
   }
 
   @Override
@@ -87,12 +91,23 @@ public class NCJohnstonCountyParser extends DispatchOSSIParser {
       return true;
     }
   }
+  
+  // Cross street won't pass normal address validation
+  // We will take anything that doesn't look like a name with a comma
+  private class MyCross2Field extends CrossField {
+    @Override
+    public boolean checkParse(String field, Data data) {
+      if (field.contains(",")) return false;
+      return super.checkParse(field, data);
+    }
+  }
 
   @Override
   protected Field getField(String name) {
     if (name.equals("SRC")) return new MySourceField();
     if (name.equals("CODE")) return new MyCodeField();
     if (name.equals("X")) return new MyCrossField();
+    if (name.equals("X2")) return new MyCross2Field();
     return super.getField(name);
   }
 }
