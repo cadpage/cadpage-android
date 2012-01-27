@@ -36,9 +36,10 @@ FRM:rc.334@c-msg.net\nSUBJ:cCAD\nMSG:[!] 2709 Kelly Rd Delta 17- Falls/Back inju
 FRM:rc.334@c-msg.net\nSUBJ:cCAD\nMSG:[!] 10210 Couloak Dr SUIT E Charlie 28- Stroke/CVA Mt Holly-Huntersvill Rd/Dunn Commons Pk COOR4 Map - 292292/J9 12302011-096
 FRM:rc.334@c-msg.net\nSUBJ:cCAD\nMSG:[!] 6700 Pleasant Oaks Cr Charlie 28- Stroke/CVA Songbird Ln/Catalina Ln COOR3 Map - 321321/E1 12282011-371
 FRM:rc.334@c-msg.net\nSUBJ:cCAD\nMSG:[!] 10611 Mount Holly Rd ifo residence Charlie 29- Traffic accident Chattaroy Dr/Latta Av COOF3 Map - 320320/D3 12272011-012
-
 FRM:rc.334@c-msg.net\nSUBJ:cCAD\nMSG:[!] 2721 Nance Cove Rd Charlie 13- Diabetic problems Millwood Cr/Tall Meadow Rd COOR1 Map - 292292/H6 01052012-163
 1 of 2\nFRM:rc.334@c-msg.net\nSUBJ:cCAD\nMSG:[!] 10607 Bur Oak Dr Fire - Emergency 52C-Alarm-Carbon Monoxide Falling Stream Dr/Double Cedar Dr\n(Con't) 2 of 2\nCOOF3 Map - 292292/E9 01062012-101(End)
+
+
 
 */
 

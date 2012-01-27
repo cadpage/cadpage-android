@@ -3777,10 +3777,8 @@ Sender: ce911@ci.eugene.or.us
 FRM:ce911@ci.eugene.or.us
 MSG:LRF TYP: VEHICLE VS PED ACC AD: TORRINGTON AVE&LYNNBROOK DR CTY: EUGENE MAP: EF557 C TIME: 08:12
 **********************************************************
-Suffolk County, NY (alternage)
-Contact: Tyler Gibbs <moosespace91@gmail.com>
-Sender: scmproducts@optonline.net
-*** 16 *** 79 W 22 ST CS: SIBLEY PL ADTML: 6-D-2 TOA: 07:01 01-26-12 2012-000387 TYPE: RESPIRATORY LOC: 79 W 22 ST HUNTIS   CROSS: SI
+**********************************************************
+**********************************************************
 **********************************************************
 **********************************************************
 ************  READY TO ROLL ******************************
@@ -3788,6 +3786,8 @@ Sender: scmproducts@optonline.net
 **********************************************************
 Hunterdon County, NJ (Flemington)
 Contact: Dan Palmer <cantbeatl337@gmail.com>
+General location is not working!!!
+
 49FD:ALRM ACT: (49)SHOPPES AT FLEMINGTON / 100 REAVILLE AVE NEAR: R202-31 RAMP TO RARITAN TWP LI 12003820: EM NAILS::ZONE 4 & 9 / GENERAL FIRE SIGNAL / WATN
 49FD:SMOKE L3: (49)15 BONNELL ST NEAR: PARK AVE TO ACADEMY ST 12002996 POSSIBLE ELECTRICAL::SMOKE DISAPATING 
 49FD:SMOKE L3: (49)WALGREENS / 29 STATE HWY NO 31 NEAR: CHURCH ST TO RARITAN TWP LINE 12002674: BAD SMELL OF SMOKE COMING OUT OF VENTS
@@ -3830,6 +3830,44 @@ Amwell Valley Fire - Station 48
 Flemington Fire - Station 49
 Quackertown Fire - Station 91
 Milford Fire - Station 92
+
+Contact: Joe Zujkowski <jzujkowski@gmail.com>
+Sender: hces@hunterdon.co.nj.us
+22RS:MVA UNKNOWN: (24)CO HWY NO 517 HWY NEAR: FIELDVIEW/DINNERPOT TO LAUREL
+12007721 2 PICKUP TRUCKS::2 PICK UP HEAD ON DS TO DS
+
+22RS:RESP DIS: (22)18 JUDGE THOMPSON RD NEAR: COLONIAL RD TO CUL DE SAC
+12007605 RESP DISTRESS::6 YOM / HAS BEEN GIVEN A NEBULIZER / NO IMPROVEMENT
+
+22RS:AMB NEED: (22)245 NUTHATCH CT NEAR: NUTHATCH CT/BLDG 43 TO NO OUTL
+12007597 SHAKING / LEFT SIDE PAIN::IS IN BED COVERED UP / LEFT SIDE PAIN /
+SHAKING /
+
+22RS:MV STOP: (49)HUNTERDON SHOPPING CENTER / 35 REAVILLE AVE NEAR: MAIN ST
+CIR TO R202-31 12007596 ZDU27L::
+
+22RS:HEART AA: (22)101 OLD FARM RD NEAR: R523 TO SCRABBLETOWN RD 12007510
+30 YOM::CHEST PAIN / STOMACH PAIN / BACK PAIN / ARM PAIN / NAUSEA /
+DIZZYNESS
+
+22RS:AMB NEED: (24)23 CO HWY NO 517 HWY NEAR: LAMINGTON RD TO JOLIET ST
+12007493 LIFT ASSIST::ASSIST PTL IN MOVING ELDERLY WOMAN FROM CHAIR TO BED
+
+22RS:AMB NEEDB: (22)CHUBB CORPORATION BUILDING A / 202 HALLS MILL RD NEAR:
+R523 TO TAYLORS MILL RD 12007449 23YOF PREGNANT::DIZZY NAUSEAS / 1 EAST
+LADIES RO
+
+22RS:AMB NEEDB: (22)CHUBB CORPORATION BUILDING A / 202 HALLS MILL RD #BLD A
+NEAR: R523 TO TAYLORS MILL RD 12007402 50'S YOF::ELEVATED BP NAUSEAS / PT
+IN NUR
+
+22RS:UNCON A: (46)76 OLD MOUNTAIN RD NEAR: CHERRY ST TO CONRAIL RR TRACKS
+12007379 63YOM::SYNCOPE HX DIABETIES
+
+22RS:LACCER: (24)24 OLD MINE RD NEAR: COKESBURY RD TO DEAD END 12007354
+FACIAL LACERATION::30'S YOA MALE CUT ON FOREHEAD FROM FALLING GLASS,
+REPLACING WINDO
+
 **********************************************************
 Monmouth County, NJ
 Contact: support@active911.com
@@ -4414,6 +4452,7 @@ Sender: 911-CENTER@co.marion.ms.us
 -  - 911-CENTER:EVENT: SIG1 LOC:115 KOKOMO RD Cad: 2012-0000000429 1023 >18:21 1024 >19:28\n
 -  - 911-CENTER:SIG1 >MVA 115 KOKOMO RD KOKOMO TONEY, JACK Map: Grids:, Cad: 2012-0000000429\n
 -  - 911-CENTER:SIG72 >MEDICAL CALL 91 HURRICANE CREEK RD SANDY HOOK CELLULAR SOUTH Map: Grids:, Cad: 2012-0000000390\n
+-  - 911-CENTER:SIG72 >MEDICAL CALL 244 SPRING HILL CHURCH RD SANDY HOOK LEWIS, MARY Map: Grids:, Cad: 2012-0000001643\n
 **********************************************************
 Greator Lenox Amulance Service (GLAS), NY (in Madison County)
 Contact: "Kyle M. Cashel" <kcashel@gmail.com>
@@ -4482,44 +4521,6 @@ Sender: ccfsup@camdencounty.com
 (CCCAlert) 2 BLS UNITS AND RESCUE OPERATING AT RT 561 AND MORRIS DRIVE FOR AN OVERTURNED DUMP TRUCK ON TOP OF A VEHICLE
 (CCCAlert) 2 BLS UNITS AND RESCUE OPERATING AT RT 561 AND MORRIS DRIVE FOR AN OVERTURNED DUMP TRUCK ON TOP OF A VEHICLE
 (CCCAlert) e1351 ol at s135 with a vehicle that has hit the side of the building reporting structural damage 
-(CCCAlert) REQ FOR FM TO RESPOND - 508 MAIN AVE. BEDROOM FIRE. UNDER CONTROL. 
+(CCCAlert) REQ FOR FM TO RESPOND - 508 MAIN AVE. BEDROOM FIRE. UNDER CONTROL.
+(CCCAlert) DWELLING 1513 BRICK RD / SQ1331 ON LOCATION REPORTING  2 STY SINGLE FAMILY SMOKE SHOWING FROM FRONT DOOR
 **********************************************************
-From:alrt387851@alert.princegeorgescountymd.gov
-Eff From:alrt387851@alert.princegeorgescountymd.gov
-Type:0
-Class:UNKNOWN
-Subject:null
-Eff Subject:
-Body:(1/4) BC888 Incident: F120260190, Type: Non-Emerg Service, Loc: 11901 OLD FORT RD, PP, btwn COURTYARD DR and W
-Body:(2/4) INDJAMMER CT, TalkGroup: TGC2, Box: 4706, Map: 5881 D 4, Text: CALLER ADV THERE IS A BODY IN A WELL IBO
-Body:(4/4) 7, TR806, TS847, TSBO
-Eff Body:BC888 Incident: F120260190, Type: Non-Emerg Service, Loc: 11901 OLD FORT RD, PP, btwn COURTYARD DR and WINDJAMMER CT, TalkGroup: TGC2, Box: 4706, Map: 5881 D 4, Text: CALLER ADV THERE IS A BODY IN A WELL IBO7, TR806, TS847, TSBO
-Location:MDPrinceGeorgesCountyC
-ContentLoc:null
-mmsMsgId:null
-C2DM Loc:null
-VendorCode:null
-ackReq:null
-ackURLnull
-Send time:1327604426000
-Rec time: 1327604428883
-
-From:alrt387847@alert.princegeorgescountymd.gov
-Eff From:alrt387847@alert.princegeorgescountymd.gov
-Type:0
-Class:UNKNOWN
-Subject:null
-Eff Subject:
-Body:(2/4) INDJAMMER CT, TalkGroup: TGC2, Box: 4706, Map: 5881 D 4, Text: CALLER ADV THERE IS A BODY IN A WELL IBO
-Body:(3/4) THIS LOCATION,,,HE ALSO MENTIONED TWO NAMES TYRONE LEWIS AND LINWOOD JOHNSON,,,,,,NFI, Units:BO885, MD84
-Body:(4/4) 7, TR806, TS847, TSBO
-Eff Body:INDJAMMER CT, TalkGroup: TGC2, Box: 4706, Map: 5881 D 4, Text: CALLER ADV THERE IS A BODY IN A WELL IBOTHIS LOCATION,,,HE ALSO MENTIONED TWO NAMES TYRONE LEWIS AND LINWOOD JOHNSON,,,,,,NFI, Units:BO885, MD847, TR806, TS847, TSBO
-Location:General
-ContentLoc:null
-mmsMsgId:null
-C2DM Loc:null
-VendorCode:null
-ackReq:null
-ackURLnull
-Send time:1327604423000
-Rec time: 1327604424164

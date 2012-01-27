@@ -72,6 +72,10 @@ Contact: Jan Schatzberg <390janpfd@gmail.com>
 Sender: notifications@Plainviewfd.com
 BUILDING FIRE, AUTOMATIC ALARM - BUILDING at 205 BETHPAGE SWEETHOLLOW ROAD, OLD BETHPAGE  c/s: HUB DRIVE   O: ALJO-GEFFA PRECISION MANUFACTURING, LLC
 
+Contact: michael rut <mrut530@gmail.com>
+Sender: 93001049
+RESCUE, STROKE at 2374 JERUSALEM AVENUE, NORTH BELLMORE c/s: HAMILTON ROAD O: NU IMAGE MEDICAL ASSOCIATES . . 10:39:01
+
 */
 
 public class NYNassauCountyRedAlertParser extends DispatchRedAlertParser {
