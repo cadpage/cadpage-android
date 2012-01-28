@@ -9,6 +9,8 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -354,24 +356,53 @@ public abstract class BaseParserTest {
     }
     
     MsgInfo info = msg.getInfo();
-    System.out.println("");
+    System.out.println();
     System.out.println("    doTest(\"" + title + "\",");
-    System.out.print("        \"" + escape(test) + "\"");
+    String brk = "";
+    String[] lines = breakLines(test);
+    for (String line : lines) {
+      System.out.print(brk + "        \"" + escape(line) + "\"");
+      brk = " +\n";
+    }
+    System.out.println(",");
+    if (lines.length > 1) System.out.println();
+    brk = "";
     for (int jj = 0; jj<terms.length; jj++) {
       String term = terms[jj];
       String value = getValue(info, term);
       if (value.length() == 0) continue;
-      System.out.print(",\n        \"" + term + ":" + escape(value) + "\"");
+      System.out.print(brk + "        \"" + term + ":" + escape(value) + "\"");
+      brk = ",\n";
       if (term.equals("ADDR")) {
         term = "MADDR";
          value = getValue(info, term);
         if (value.length() == 0) continue;
-        System.out.print(",\n        \"" + term + ":" + escape(value) + "\"");
+        System.out.print(brk + "        \"" + term + ":" + escape(value) + "\"");
       }
     }
     System.out.println(");");
   }
+  
+  private static final Pattern NEWLINE_PTN = Pattern.compile("\n+");
+  private String[] breakLines(String test) {
+    if (test.length() < 100 || test.indexOf('\n') < 0) return new String[]{test};
+    List<String> list = new ArrayList<String>();
+    Matcher match = NEWLINE_PTN.matcher(test);
+    int st = 0;
+    while (match.find()) {
+      if (match.start() > 0) {
+        int pt = match.end();
+        list.add(test.substring(st, pt));
+        st = pt;
+      }
+    }
+    if (st < test.length()) list.add(test.substring(st));  
+    return list.toArray(new String[list.size()]);
+  }
+    
+    
 
+ 
   private String escape(String value) {
     value = value.replace("\\", "\\\\");
     value = value.replace("\"", "\\\"");
