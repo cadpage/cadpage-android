@@ -45,6 +45,14 @@ public class PAButlerCountyParserTest extends BaseParserTest {
         "CITY:CRANBERRY TWP",
         "NAME:CANDLEWOOD EXTENDED STAY",
         "ID:2011-0000074503");
+
+    doTest("T5",
+        "\".\"@co.butler.pa.us :ALAF >ALARM/FIRE 20620 ROUTE 19 CRANBERRY TWP RAMPART Map: Grids:00000,000 Cad: 2012-0000006337",
+        "CALL:ALARM/FIRE",
+        "ADDR:20620 ROUTE 19",
+        "CITY:CRANBERRY TWP",
+        "NAME:RAMPART",
+        "ID:2012-0000006337");
   }
   
   public static void main(String[] args) {
