@@ -190,7 +190,7 @@ public class DispatchSouthernParser extends SmartAddressParser {
 
   
   @Override
-  public boolean parseMsg(String body, Data data) {
+  protected boolean parseMsg(String body, Data data) {
     
     // Message must always start with dispatcher ID, which we promptly discard
     if (leadDispatch || optDispatch) {

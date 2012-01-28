@@ -1,6 +1,7 @@
 package net.anei.cadpage.parsers.NC;
 
 
+import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchSouthernParser;
 
 /*
@@ -28,18 +29,26 @@ CAD:GOODWILL 75 PLAZA LOOP CANTON NEW CLYDE HWY X MINGUS HILL RD MDL 21D03 20110
 CAD:41 HOLTZCLAW ST CANTON ORANGE ST X WINFIELD ST MDL 12D02-E 2011040926 12:48:52 EMERGENCY CONVULSIONS SEIZURE
 CAD:44 HAYWOOD AV CANTON MINGUS ST X PUPPY DOG TR 2011040659 22:00:38 Fire Alarm - Smoke Detector SMOKE DETECTOR
 CAD:2219 RUSS AV 8 WAYNESVILLE CORTLAND CT X JULE NOLAND DR FDL 69D05 2011040700 08:15:46 RESIDENT STRUCT MULTIPLE
+CAD:ARBY`S (CANTON) 701 CHAMPION DR CANTON DUSTY DR X CHAMPION - 1-40 EAST MDL 26A01 20:30:24 ROUTINE SICK PERSON
 
 */
 
 public class NCHaywoodCountyParser extends DispatchSouthernParser {
   
   public NCHaywoodCountyParser() {
-    super(CITY_LIST, "HAYWOOD COUNTY", "NC", DSFLAG_DISPATCH_ID | DSFLAG_LEAD_PLACE | DSFLAG_FOLLOW_CROSS);
+    super(CITY_LIST, "HAYWOOD COUNTY", "NC", DSFLAG_LEAD_PLACE | DSFLAG_FOLLOW_CROSS | DSFLAG_ID_OPTIONAL);
   }
 
   @Override
   public String getFilter() {
     return "CAD@haywoodnc.net";
+  }
+  
+  @Override
+  protected boolean parseMsg(String body, Data data) {
+    if (!body.startsWith("CAD:")) return false;
+    body = body.substring(4).trim();
+    return super.parseMsg(body, data);
   }
   
   private static String[] CITY_LIST = new String[]{
