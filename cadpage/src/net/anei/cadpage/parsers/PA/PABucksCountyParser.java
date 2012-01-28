@@ -94,6 +94,11 @@ Contact: Ryan Pankoe <rpankoe@gmail.com>
 Sender: 8276
 B911: SQ134  type:COP     adr:90 ROBIN LA ,36  sbtwn MAPLE LEAF DR & COURT  saai:  box:27031  map:2920C5  tm:12:14:59  ED1202205  
 
+*** NOT PARSING ***
+Contact: Joseph Montanya <flounder53@gmail.com>
+Sender: alert6921@alert.bucksema.org
+Body:Subject:1/2\nFAPT\nadr:CREEK VILL APT #F18 ,71 at 160 FALLSINGTON TULLYT RD #F18 ,71\nbox:33022\ntm:18:57:03 FD1201370\nRun: E33 L3
+
  */
 
 

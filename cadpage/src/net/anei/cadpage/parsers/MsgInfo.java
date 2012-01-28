@@ -301,7 +301,7 @@ public class MsgInfo {
    * the additional city and state information
    */
   private static final Pattern DIR_OF_PTN = Pattern.compile(" [NSEW]O ");
-  private static final Pattern CROSS_DELIM = Pattern.compile("[&/,]| - ");
+  private static final Pattern CROSS_DELIM = Pattern.compile("[&/,@]| - ");
   public String getBaseMapAddress() {
     
     if (strAddress.length() == 0) return strAddress;

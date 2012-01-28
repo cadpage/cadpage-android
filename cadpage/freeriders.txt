@@ -965,7 +965,7 @@ Lisa Edwards (jojosmima@gmail.com)<ledwards@townofchapelhill.org>
 >>Kaitlin Klinkebiel (kaiterj1226@gmail.com)<kaiterj@hotmail.com>
 >>Tony George <tonytone301@gmail.com>
 >>"Grzegorczyk, Chris" <cgrzegorczyk@mobilemedical.org>
-"lbc3emt11@gmail.com" <lbc3emt11@gmail.com>
+>>"lbc3emt11@gmail.com" <lbc3emt11@gmail.com>
 %%12/16/2011
 Derrick Potter <dpfire29@gmail.com>
 Mike King <mkingr6@gmail.com>
@@ -1092,6 +1092,8 @@ John Sherrer <jwsherrer@gmail.com> // Schley County, GA
 %%01/26/2012
 Christopher Dunleavy (cpditty@gmail.com)(cdunleavy@homewardboundservices.org)
 Steve Hinch (2014@aberdeenfd.org)
+%%01/28/2012
+Alyn Scritchfield (rescuegal@gmail.com)(rescuegal@msn.com)
 
 // List of users getting free credit for 2012
 $free_2012_list

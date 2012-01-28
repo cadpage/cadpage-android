@@ -3,6 +3,14 @@ Supported district message formats
 This isn't intended to be the final or full documentation for different 
 message formats, but it is a good summary to look through for something similar
 to a new district format
+
+Suspected BNN Feeds
+Ann Arundel County, MD
+Erie County (B), NY
+BNN Alerts
+Charlse County, MD (alternate)
+Allegheny County, PA (alternate)
+
 *******************************************************************************
 *******************************************************************************
 * DispatchOSSIParser subclasses
@@ -3786,6 +3794,7 @@ Contact: Mike ECFW <webmaster@ecfwire.com>
 Sender: news@1rwn.com
   / DEPEW, NY -ERIE- *WORKING FIRE* 108 WYANDOTTE ST CS LAVERACK AVE. SVCS OS ADV ATTIC FIRE IN A 1 STY OCC DWG. 1 LSO.  MA REQ TO SCN. NY537\n\n
 **********************************************************
+
 **********************************************************
 **********************************************************
 **********************************************************
