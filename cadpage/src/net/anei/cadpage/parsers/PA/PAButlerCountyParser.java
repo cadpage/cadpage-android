@@ -10,12 +10,16 @@ Contact: Jeff Gooch <goochff21@gmail.com>
 "."@butlerco.911 :CO3 >CO DETECTOR / FIRE RESPONSE 437 SETTLERS VILLAGE CIR CRANBERRY TWP ALEJANDRO, GABRIEL Map: Grids:00000,000 Cad: 2011-0000074937
 "."@butlerco.911 :SERV >SERVICE CALL 143 FOX RUN RD CRANBERRY TWP CHEETHAM WILLIAM Map: Grids:00000,000 Cad: 2011-0000075245
 "."@butlerco.911 :FIRST >FIRE - STRUCTURE 20036 ROUTE 19 CRANBERRY TWP CANDLEWOOD EXTENDED STAY Map: Grids:00000,000 Cad: 2011-0000074503
+"."@co.butler.pa.us :ALAF >ALARM/FIRE 20620 ROUTE 19 CRANBERRY TWP RAMPART Map: Grids:00000,000 Cad: 2012-0000006337
 
 */
 
 public class PAButlerCountyParser extends DispatchBParser {
   
-  private static final String MARKER = "\".\"@butlerco.911 :";
+  private static final String[] MARKERS = new String[]{
+    "\".\"@butlerco.911 :",
+    "\".\"@co.butler.pa.us :"
+  };
 
   public PAButlerCountyParser() {
     super(CITY_LIST, "BUTLER COUNTY", "PA");
@@ -28,8 +32,17 @@ public class PAButlerCountyParser extends DispatchBParser {
   
   @Override
   public boolean parseMsg(String body, Data data) {
-    if (!body.startsWith(MARKER)) return false;
-    body = body.substring(MARKER.length()).trim();
+
+    boolean found = false;
+    for (String marker : MARKERS) {
+      if (body.startsWith(marker)) {
+        found = true;
+        body = body.substring(marker.length()).trim();
+        break;
+      }
+    }
+    if (!found) return false;
+    
     if (! super.parseMsg(body, data)) return false;
     if (data.strMap.equals("00000,000")) data.strMap = "";
     return true;
