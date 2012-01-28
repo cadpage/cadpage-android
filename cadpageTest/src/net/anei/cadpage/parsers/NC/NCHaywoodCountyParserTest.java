@@ -56,6 +56,15 @@ public class NCHaywoodCountyParserTest extends BaseParserTest {
         "ID:2011040700",
         "TIME:08:15:46",
         "INFO:RESIDENT STRUCT MULTIPLE");
+
+    doTest("T1",
+        "CAD:ARBY`S (CANTON) 701 CHAMPION DR CANTON DUSTY DR X CHAMPION - 1-40 EAST MDL 26A01 20:30:24 ROUTINE SICK PERSON",
+        "PLACE:ARBY`S (CANTON)",
+        "ADDR:701 CHAMPION DR",
+        "CITY:CANTON",
+        "X:DUSTY DR / CHAMPION - 1-40 EAST",
+        "CODE:26A01",
+        "TIME:20:30:24");
  }
   
   public static void main(String[] args) {
