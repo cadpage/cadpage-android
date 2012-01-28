@@ -16,8 +16,8 @@ public class PAFayetteCountyParserTest extends BaseParserTest {
 
     doTest("T9",
         "FAYETTE-911:FACINJ>F-ACCIDENT W/ INJURIES VANCES MILL RD NORTH UNION WILSON PAUL 7249637757 Map: Grids:, Cad: 2011-0000029638",
-        "CALL:F-ACCIDENT W/INJURIES VANCES",
-        "ADDR:MILL RD",
+        "CALL:F-ACCIDENT W/INJURIES",
+        "ADDR:VANCES MILL RD",
         "CITY:NORTH UNION TWP",
         "NAME:WILSON PAUL",
         "PHONE:7249637757",

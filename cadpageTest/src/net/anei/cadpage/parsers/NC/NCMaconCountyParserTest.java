@@ -72,5 +72,19 @@ public class NCMaconCountyParserTest extends BaseParserTest {
         "CITY:OTTO",
         "NAME:SMITH, J",
         "PHONE:8283699999");
+
+    doTest("T17",
+        "911 CENTER:80 >DOMESTIC DISTURBANCE ADDINGTON BRIDGE RD XS: GEORGIA RD @ 3887 FRANKLIN STOCKTON, THERESA 7069820877",
+        "CALL:DOMESTIC DISTURBANCE",
+        "ADDR:ADDINGTON BRIDGE RD",
+        "MADDR:ADDINGTON BRIDGE RD & GEORGIA RD",
+        "X:GEORGIA RD @ 3887",
+        "CITY:FRANKLIN",
+        "NAME:STOCKTON, THERESA",
+        "PHONE:7069820877");
+  }
+  
+  public static void main(String[] args) {
+    new NCMaconCountyParserTest().generateTests("T1", "CALL ADDR X CITY NAME PHONE");
   }
 }
