@@ -15,7 +15,10 @@ Contact: Terry <securetalk@gmail.com>
 Contact: "Russ Swinehart Jr." <snoopfire10@yahoo.com>
 Contact: Jayson Wagner <jayson.wagner58@yahoo.com>
 Contact: John Shipp <dieseltruckie14@gmail.com>
-Sender: 8276,a@bnn.us
+Contact: Kevin Coughlin <kcoughlin37@gmail.com>
+Contact: Patrick Roberts <pgremt@gmail.com>
+Contact: "sweetcheeks6839@aol.com" <sweetcheeks6839@aol.com>
+Sender: 8276,a@bnn.us,215,2002
 
 911:SQ134  type:BTAI    adr:S LIMEKILN PK/UPPER STATE RD ,48  aai:  box:74064  map:3033F7  tm:21:05:23  ED1042264
 911:SQ134  type:ARESP   adr:4217 HORSESHOE WY ,36  btwn BERRY BROW DR &amp; SPARROW WY  aai:  box:60002  map:2921B10  tm:05:02:04  ED1042293  
@@ -27,20 +30,10 @@ Sender: 8276,a@bnn.us
 911:STA19  type:FALRM   adr:DTH ,29 at 595 W STATE ST ,29 btwn PROGRESS DR &amp; RT 611 BY  aai:215 345-2200  box:19051  map:3034G2  tm:12:37:42  FD101999
 911:SQ134  type:ASEIZ   adr:BRISTOL RD/UPPER STATE RD ,29  aai:AT ENTR TO BLOOMING GLEN  box:34041  map:3033K5  tm:11:01:28  ED1043679
 911: STA19  type:FUNK    adr:EDISON RD/RT 611 ,29  aai:  box:79028  map:3034K5  tm:12:44:52  FD1108375    Run: E79    \n
-
-Contact: Kevin Coughlin <kcoughlin37@gmail.com>
-Sender: 2155102861
 911: STA16  type:RAUTO   adr:ROBS TRUCK & TRAIL ,22 at 750 STREET RD ,22 btwn CLIVE AV & SAMUEL AV  aai:IFO  box:37017  map:3374A8  tm:16:43:05  FD1116594    Ru
-
-0001/0002 911:SQ134  type:ATRAN   adr:2343 BETHLEHEM PK #312 ,36 -- DOCK MEADOWS NH btwn UNIONVILLE PK &amp; CHURCH RD  aai:GO TO CHURCH RD NORTH ENTRANCE  
-0002/0002 box:60063 map:3032E3 &nbsp;tm:14:48:06 ED1042598&nbsp;
-
-0001/0002 911: SQ134  type:BFALL   adr:800 MANOR DR #315 ,48 -- NEW SEASONS ASSIST btwn E SCHOOL HOUSE RD & COUNTY LINE  aai:  box:74066 map:3033E8
-0002/0002 tm:16:50:43  ED1101813
-
-0001/0002 911: SQ134  type:AALLR   adr:4371 COUNTY LINE RD ,48 -- VERTIS DIRECT MKTG btwn BRITAIN WOOD CI & RR CROSSING  aai:  box:74096 map:3033C7
-0002/0002 tm:09:28:45  ED1102262
-
+911:SQ134  type:ATRAN   adr:2343 BETHLEHEM PK #312 ,36 -- DOCK MEADOWS NH btwn UNIONVILLE PK &amp; CHURCH RD  aai:GO TO CHURCH RD NORTH ENTRANCE box:60063 map:3032E3 &nbsp;tm:14:48:06 ED1042598&nbsp;
+911: SQ134  type:BFALL   adr:800 MANOR DR #315 ,48 -- NEW SEASONS ASSIST btwn E SCHOOL HOUSE RD & COUNTY LINE  aai:  box:74066 map:3033E8 tm:16:50:43  ED1101813
+911: SQ134  type:AALLR   adr:4371 COUNTY LINE RD ,48 -- VERTIS DIRECT MKTG btwn BRITAIN WOOD CI & RR CROSSING  aai:  box:74096 map:3033C7 tm:09:28:45  ED1102262
 911: STA57  type:FEMS    adr:SLEEPY HOLLOW RD/SPINNERSTOWN RD ,45  aai:  box:75011  map:2693K9  tm:10:26:44  FD1104574    Run: E75
 911: STA57  stype:FTAI    adr:FRIER RD/MILL RD ,45  aai:  box:57002  map:  tm:13:51:38  FD1104463    Run: E57
 911: STA4  type:RAUTO   adr:PHILMONT AV/E STREET RD ,43  aai:PHILMONT SO STREET  box:04003  map:3261B8  tm:10:21:22  FD1104774    Run: R4 R6 E1
@@ -58,19 +51,12 @@ Sender: 2155102861
 911: SQ134  type:ATRAN   adr:CENTER SQUARE TOWR #823-A ,28 at 555 BROAD ST #823-A ,28 btwn ATKINSON DR & VETE  aai:  box:19052  map:2922H10 tm:18:18:15  ED1127865  
 STA19  type:FALRM   adr:LINDEN ELEM SCH ,28 at 480 LINDEN AV ,28 btwn EAST ST & ROHR DR  aai:  box:19093  map:2923A10  tm:20:27:42  FD1111756    
 911: STA19  type:GALRM   adr:6 FLINT CI ,29  btwn WINDSOR WY & CUL DE SAC  aai:  box:79020  map:3034H5  tm:23:32:45  FD1112459    Run: E79    \n
-
-Contact: Patrick Roberts <pgremt@gmail.com>
-Sender: 2156696195
 911: SQ122  type:ESPEC   adr:HARTS FIRE CO ,74 at 1195 YORK RD ,74 btwn OLD YORK RD & BRISTOL RD  aai:  box:93030  map:3147E4  tm:05:04:12  ED1131511
-
-Contact: "Ryan Pankoe" <rpankoe@gmail.com>
 911: SQ134  type:BASSLT  adr:248 INVERNESS CI ,48  btwn BONNIE LARK CT & CUL DE SAC  aai:  box:74059  map:3033F7  tm:16:38:31  ED1133930  
 911: SQ134  type:FIRCAL  adr:4201 MILORDS LA ,26  btwn SIR ANDREW CT & SIR ANDREW CT  aai:NEXT DOOR  box:19018  map:2923B4  tm:19:34:11  ED1136021  
 911: STA19  type:WIRES   adr:RT 202/N SHADY RETREAT RD ,47  aai:  box:19006  map:3034E1  tm:13:59:42  FD1116344    Run: E19    \n
 911: STA19  type:FDWL    adr:260 SANDY RIDGE RD ,29  btwn CAVALLO WY & IRON HILL RD  aai:  box:19006  map:3034C1  tm:12:08:50  FD1116685    Run: L79 E
 911: SQ134  type:ATAI    adr:BETHLEHEM PK/HILLTOWN PK ,36  aai:  box:60041  map:3032H4  tm:21:37:43  ED1139682  
-
-Contact: "Shapp, Dave" <dave.shapp@midwayvfc.com>
 911: STA5  type:FALRM   adr:5263 MOUNTAIN TOP RD ,26  btwn HOLICONG RD & DEAD END  aai:MARTINI RESD #2157942445  box:05027  map:2924E9 tm:19:46:52  FD1118872    Run: E5
 911: STA5  type:RAUTO   adr:HOLICONG RD/YORK RD ,26  aai:ON YORK NO HOLICONG  box:05021  map:2924B6  tm:12:43:08  FD1117995    Run: R5 E5
 911: STA5  type:FBLD    adr:4201 MILORDS LA ,26  btwn SIR ANDREW CT & SIR ANDREW CT  aai:NEXT DOOR  box:19018  map:2923B4  tm:19:34:01 FD1116371    Run: L5 E79 E20 TW24
@@ -78,42 +64,55 @@ Contact: "Shapp, Dave" <dave.shapp@midwayvfc.com>
 911: STA5  type:WIRES   adr:CHURCH SCHOOL RD/MECHANICSVILLE RD ,26 aai:ON MECHANICSVILLE  box:15021  map:2923F9  tm:14:06:20  FD1118031 Run: E15
 911: STA5  type:ELEVAT  adr:OUR LADY GUADAL ,26 at 5194 COLD SPRING CREAME RD ,26 btwn GREYSTONE DR & RT 413  aai:  box:15052  map:2923F2 tm:14:31:10  FD1116465    Run: E15
 911: STA5  type:FINV    adr:AQUETONG RD/TAYLOR LA ,65  aai:  box:05031  map:2924E1  tm:21:09:49  FD1117661    Run: E5
-
-Contact: Ed Ackerman <ed.ackerman@gmail.com>
-Sender: 2002000004
 911: STA4  type:FSPEC   adr:2318 KAY AV ,22  btwn DEAD END & MASTER AV  aai:  box:04005  map:3261C10  tm:14:27:35  FD1200565    Run: E4-1
-
-Contact: "sweetcheeks6839@aol.com" <sweetcheeks6839@aol.com>
 911: STA4  type:FALRM   adr:3338 RICHLIEU RD ,22 -- COUNTRY COMMONS btwn DEBRA DR & PA TP  aai:215 639 2800  box:65031  map:3261H9  tm:17:34:44 FD1200573    Run: E65 E
+911: SQ134  type:COP     adr:90 ROBIN LA ,36  sbtwn MAPLE LEAF DR & COURT  saai:  box:27031  map:2920C5  tm:12:14:59  ED1202205  
+911: SQ134  type:BTRAN   adr:139 BIRCHWOOD DR ,27  btwn BIRCHWOOD DR & LYNWOOD DR  aai:  box:34011  map:3033E3  tm:19:20:35  ED1203702  
+911: SQ134  type:BBLED   adr:DOCK MEADOWS NH #14 ,36 at 2343 BETHLEHEM PK #14 ,36 btwn UNIONVILLE PK & CHURCH  aai:USE RT 309 ENTRANCE  box:60063  map:3032E3  tm:18:28:26  ED1203695  
+911: STA19  type:FALRM   adr:GRUNDY HALL ,29 at 1290 ALMSHOUSE RD ,29 btwn TURK RD & RT 611  aai:  box:79057  map:3034J7  tm:03:30:43  FD1201380    Ru
+911: SQ134  type:ACVA    adr:NEW SEASONS ASSIST #110 ,48 at 800 MANOR DR #110 ,48 btwn E SCHOOL HOUSE RD & AN  aai:  box:74066  map:3033E8  tm:18:15:21  ED1203569  
+911: SQ134  type:AFAINT  adr:1500 HORIZON DR #112 ,48 -- ENDODONTIC SPECIAL btwn HORIZON CI & COUNTY LINE RD  aai:  box:74058  map:3033F8  tm:16:29:39  ED1203559  
+911: SQ134  type:ABLED   adr:DOCK MEADOWS NH #14 ,36 at 2343 BETHLEHEM PK #14 ,36 btwn UNIONVILLE PK & CHURCH  aai:  box:60063  map:3032E3  tm:09:32:32  ED1203769  
+911: SQ134  type:BFALL   adr:WALMART STORE ,36 at 1515 BETHLEHEM PK ,36 btwn HILLTOWN PK & SWARTLEY RD  aai:W SECTOR  box:60062  map:3032H4  tm:14:32:51  ED1203813  
 
 Contact: "porco23@yahoo.com" <porco23@yahoo.com>
 Sender: alert_@alert.bucksema.org
 (#6331  1/1) FDWL\nadr:2008 BRISTOL RD ,75  btwn SHADOW CREEK LA & GUINEA LA\nbox:29045\ntm:22:34:01 FD1200729\nRun: E29 E78 L29 E93
+(#6779  1/1) FEMS\nadr:1837 JERICHO DR ,75\nbox:29058\ntm:01:33:42 FD1201317\nRun: E29
+(#6613  1/1) WIREIN\nadr:2401 GREENSWARD RD N ,75\nbox:29501\ntm:11:51:55 FD1201251\n
 
-Contact: Ryan Pankoe <rpankoe@gmail.com>
-Sender: 8276
-B911: SQ134  type:COP     adr:90 ROBIN LA ,36  sbtwn MAPLE LEAF DR & COURT  saai:  box:27031  map:2920C5  tm:12:14:59  ED1202205  
-
-*** NOT PARSING ***
 Contact: Joseph Montanya <flounder53@gmail.com>
 Sender: alert6921@alert.bucksema.org
-Body:Subject:1/2\nFAPT\nadr:CREEK VILL APT #F18 ,71 at 160 FALLSINGTON TULLYT RD #F18 ,71\nbox:33022\ntm:18:57:03 FD1201370\nRun: E33 L3
+Subject:1/2\nFAPT\nadr:CREEK VILL APT #F18 ,71 at 160 FALLSINGTON TULLYT RD #F18 ,71\nbox:33022\ntm:18:57:03 FD1201370\nRun: E33 L3
+Subject:1/2\nFAPT\nadr:CREEK VILL APT #F18 ,71 at 160 FALLSINGTON TULLYT RD #F18 ,71\nbox:33022\ntm:18:57:03 FD1201370\nRun: E33 L3
+
+Contact: Ed Ackerman <ed.ackerman@gmail.com>
+Sender: Bucks RSAN
+FRM:Bucks RSAN\nSUBJ:1/1\nMSG:WIREIN\nadr:1871 WHITE BRIAR RD ,73\nbox:02047\ntm:09:52:53 FD1201327\nRun: E2 L1 E4 R6=
+FRM:Bucks RSAN\nSUBJ:1/1\nMSG:AUNR\nadr:BELMONT HILLS ELEM ,22 at 5000 NESHAMINY BL ,22\nbox:84048\ntm:09:05:59 ED1203237=
+FRM:Bucks RSAN\nSUBJ:1/1\nMSG:FALRM\nadr:ANDYS DINER ,22 at 2224 LINCOLN HY ,22\naai:215-638-1444\nbox:04032\ntm:13:07:04 FD1201397\nRun: E4-1=
+
+Contact: "Shapp, Dave" <dave.shapp@midwayvfc.com>
+Sender: iamresponding.com
+RAUTO  Box:15023\nAdr: CHURCH RD/RT 413 ,26\nbtwn:RT 413 3/4 OF A MILE FROM CHURCH\n01/21/12  12:43:51\nFD1201070\nRun: R5 E15
+COALRM Box:05035 adr: 3425 AQUETONG RD ,65 btwn:MECHANICSVILLE RD & SAW MILL RD 01/28/12  15:44:26 FD1201409   Run: C5
 
  */
 
 
 public class PABucksCountyParser extends FieldProgramParser {
   
-  private static final Pattern MARKER1 = Pattern.compile("^[A-Z]+\nadr:");
+  private static final Pattern MARKER1 = Pattern.compile("^[A-Z]+\\s+(?:Adr:|adr:|Box:)");
+  private static final Pattern NAKED_DATE_TIME = Pattern.compile("(?<!: ?)\\d\\d/\\d\\d/\\d\\d +\\d\\d:\\d\\d:\\d\\d\\b");
   
   public PABucksCountyParser() {
     super("BUCKS COUNTY", "PA",
-           "SRC type:CALL! adr:ADDR! btwn:X aai:INFO box:BOX map:MAP tm:ID% Run:UNIT");
+           "SRC type:CALL! Box:BOX? adr:ADDR! btwn:X aai:INFO box:BOX map:MAP tm:TIME% Run:UNIT");
   }
   
   @Override
   public String getFilter() {
-    return "8276,@bnn.us";
+    return "8276,@bnn.us,215,iamresponding.com,Bucks RSAN";
   }
 
   @Override
@@ -121,12 +120,14 @@ public class PABucksCountyParser extends FieldProgramParser {
     
     if (body.startsWith("911:")) body = body.substring(4).trim();
     
+    if (body.endsWith("=")) body = body.substring(0,body.length()-1).trim();
     Matcher match = MARKER1.matcher(body);
     if (match.find()) {
       body = "type:" + body.replace('\n', ' ');
     }
     
-    body = body.replaceAll(" btwn ", " btwn:").replaceAll(" stype:", " type:").replaceAll("&nbsp;", " ").replaceAll("&amp;", "&").trim();
+    body = NAKED_DATE_TIME.matcher(body).replaceFirst(" tm: $0");
+    body = body.replace(" Adr:", " adr:").replaceAll(" s?btwn ", " btwn:").replace(" stype:", " type:").replace(" saai:", " aai:").trim();
     return super.parseMsg(body, data);
   }
   
@@ -140,6 +141,8 @@ public class PABucksCountyParser extends FieldProgramParser {
     }
   }
   
+  private static final Pattern LA_PTN = Pattern.compile("\\bLA\\b", Pattern.CASE_INSENSITIVE);
+  private static final Pattern COLD_SPRING_PTN = Pattern.compile("\\bCOLD SPRING C[A-Z]+\\b");
   private class MyAddressField extends AddressField {
     
     @Override
@@ -152,7 +155,16 @@ public class PABucksCountyParser extends FieldProgramParser {
         if (pt >= 0) data.strPlace = data.strPlace.substring(0, pt).trim();
       }
       String cityCode = p.getLastOptional(',');
-      super.parse(p.get(), data);
+      sAddr = p.get();
+      sAddr = LA_PTN.matcher(sAddr).replaceAll("LN");
+      sAddr = sAddr.replace("FRIER RD", "FREIER RD");
+      Matcher match = COLD_SPRING_PTN.matcher(sAddr);
+      if (match.find()) {
+        if ("COLD SPRING CREAMERY".startsWith(match.group())) {
+          sAddr = sAddr.substring(0,match.start()) + "COLD SPRING CREAMERY" + sAddr.substring(match.end());
+        }
+      }
+      super.parse(sAddr, data);
       if (cityCode.length() > 0) {
         try {
           int iCity = Integer.parseInt(cityCode);
@@ -169,15 +181,32 @@ public class PABucksCountyParser extends FieldProgramParser {
       return "PLACE " + super.getFieldNames() + " CITY";
     }
   }
+  
+  private class MyCrossField extends CrossField {
+    @Override
+    public void parse(String field, Data data) {
+      field = LA_PTN.matcher(field).replaceAll("LN");
+      super.parse(field, data);
+    }
+  }
     
-  private class MyIdField extends IdField {
+  private class MyTimeField extends TimeField {
     
     @Override
-    public void parse(String tm, Data data) {
-      if (tm != null) {
-        Parser p = new Parser(tm);
-        data.strCallId = p.getLastOptional(' ');
+    public void parse(String field, Data data) {
+      Parser p = new Parser(field);
+      String token = p.get(' ');
+      if (token.contains("/")) {
+        data.strDate = token;
+        token = p.get(' ');
       }
+      data.strTime = token;
+      data.strCallId = p.get();
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "DATE TIME ID";
     }
   }
   
@@ -185,7 +214,8 @@ public class PABucksCountyParser extends FieldProgramParser {
   public Field getField(String name) {
     if (name.equals("CALL")) return new MyCallField();
     if (name.equals("ADDR")) return new MyAddressField();
-    if (name.equals("ID")) return new MyIdField();
+    if (name.equals("X")) return new MyCrossField();
+    if (name.equals("TIME")) return new MyTimeField();
     return super.getField(name);
   }
   

@@ -30,6 +30,12 @@ Sender: 7770*
 RT206 \n\nCall Time- 20:06:09                                : 1712 \n\n: (609) 372-3923\16sCaller : AMANDA CHAMBERLAIN \n\nNature of Call : ENGINE
 COMPARTMENT FIRE - VEHICLE OFF TO \n\nAdditional Info  \n  WPH2:  \n  SIDE OF ROAD \n\nAdditional Inc#s
 
+
+*** NOT PARSING ***
+Contact: Ryan Willitts <ryan.willitts@vincentfire.org>
+Sender: 777121651113
+MOTHER RELEASED FROM HOSPITAL TODAY RQSR \n\nAdditional Info  \n  RESD:  \n  ASSISTANCE IN GETTING HER IN RESD \n\nAdditional Inc#s
+
 */
 
 public class NJBurlingtonCountyParser extends FieldProgramParser {
@@ -56,7 +62,7 @@ public class NJBurlingtonCountyParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "7770";
+    return "777";
   }
   
   @Override

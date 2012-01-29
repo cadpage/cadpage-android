@@ -1234,6 +1234,11 @@ Sta:23-1\nType:MVC\nLoc:233 N MAIN ST\nVen:HARRISON\nDsp-07:56:31\nClr-
 Sta:23-1\nType:SEIZ\nLoc:143 SALVATORE DR\nVen:HARRISON\nDsp-15:26:16\nClr- 
 Sta:23-1\nType:DWEL\nLoc:296 WESTBROOK DR\nVen:WOOLWICH\nDsp-08:16:44\nClr- 
 ***************************************************************************
+Hunterdon County, NJ (Flemington)
+49FD:ALRM ACT: (49)SHOPPES AT FLEMINGTON / 100 REAVILLE AVE NEAR: R202-31 RAMP TO RARITAN TWP LI 12003820: EM NAILS::ZONE 4 & 9 / GENERAL FIRE SIGNAL / WATN
+49FD:SMOKE L3: (49)15 BONNELL ST NEAR: PARK AVE TO ACADEMY ST 12002996 POSSIBLE ELECTRICAL::SMOKE DISAPATING 
+49FD:SMOKE L3: (49)WALGREENS / 29 STATE HWY NO 31 NEAR: CHURCH ST TO RARITAN TWP LINE 12002674: BAD SMELL OF SMOKE COMING OUT OF VENTS
+***************************************************************************
 Monmouth County, NJ (NJMonmouthCountyParser)
 (<mcsoz6@MCSONJ.ORG>) S:Automatic R&R Notification\n\nIncident Number  : 2012-00000040                    ORI: 26-2          Station: STA 26-2\nIncident Type  . : CRBA F CARB MONOX           Priority: 1\nIncident Location: 686 ST ANDREWS PL                                    Venue: MANALAPAN\nLocated Between  : SAWGRASS DR/\n\nCall Time- 21:28:10                                Date- 01/18/2012\nDispatch -              En-route-              On-scene-              Depart 1-\nArrive 2 -              Depart 2-              In-statn-\n\nArea: 26A4              Section :   29         Beat  . : 26A4        Map . . :\nGrid:                   Quadrant: F262         District: E262\n\nPhone Number: (908) 770-0906                Call Source:  911\n\nCaller. . . : JESSICA SEAGULL\n\nNature of Call : CO ALARM SOUNDING/HAS GAS FIREPLACE ON EARLIE\n\nAdditional Info\n  WPH1:  RADIUS 01 MILES\n  R PD 26 NTFD\n\nAdditional Inc#s:\n\nThe Call Taker is FRUEH DOUGLAS\nThe Dispatcher is MCCORMICK KIEL
 (<mcsoz6@MCSONJ.ORG>) S:Automatic R&R Notification\nIncident Number : 2012-00000039 ORI: 26-2\nStation: STA 26-2\nIncident Type . : FIRA F FIRE ALARM Priority: 1\nIncident Location: 103 PENSION RD\nVenue: MANALAPAN\nLocated Between : GORDONS CORNER RD/PINE BROOK RD\nCommon Name. . . : WESTERN MONMOUTH UTILITIES\n\nCall Time- 20:50:27 Date- 01/17/2012\nDispatch - 20:51:05 En-route- On-scene- Depart\n1-\nArrive 2 - Depart 2- In-statn-\n\nArea: 26A3 Section : 20 Beat . : 26A3 Map . .:\nGrid: Quadrant: 1226 District: E262\n\nPhone Number: (800) 434-4000 Call Source: TEL\n\nCaller. . . : COMPLETE SEC MJ01\n\nUnits sent :\n12-1 F12A 26-2 F262A\n\nNature of Call : WESTERN MONMOUTH UTILITIES ZONE//FILTRATION\n\nAdditional Info\nREF#3231017\nBLDG PREM//732-614-1586\n\nNarrative\nPD NTFD CMCCARTH 20:50:41\nALARM CO ATT TO NTFY KH CMCCARTH 20:50:45\n\nAdditional Inc#s:\n12-1 201200000035\n\nThe Call Taker is MCCARTHY CHRISTINE\nThe Dispatcher is KNIGHTON JUSTIN
@@ -3773,16 +3778,6 @@ rescue 15720 Nash Rd for 44 yo male sudden illness. 2800
 10780 STELLA LN 6 MONTH OLD BABY LATHARGIC
 10592 Longview Trl for a 2 YOM possible CROUP.
 **********************************************************
-Bucks County, NY (variant)
-Contact: "Shapp, Dave" <dave.shapp@midwayvfc.com>
-Sender: iamresponding.com
-
-RAUTO  Box:15023
-Adr: CHURCH RD/RT 413 ,26
-RT 413 3/4 OF A MILE FROM CHURCH
-01/21/12  12:43:51
-FD1201070
-Run: R5 E15
 **********************************************************
 Boone County, KY
 Contact: "rbailey74@gmail.com" <rbailey74@gmail.com>, 8597435533@messaging.sprintpcs.com
@@ -3794,97 +3789,12 @@ Contact: Mike ECFW <webmaster@ecfwire.com>
 Sender: news@1rwn.com
   / DEPEW, NY -ERIE- *WORKING FIRE* 108 WYANDOTTE ST CS LAVERACK AVE. SVCS OS ADV ATTIC FIRE IN A 1 STY OCC DWG. 1 LSO.  MA REQ TO SCN. NY537\n\n
 **********************************************************
-
 **********************************************************
 **********************************************************
 **********************************************************
 ************  READY TO ROLL ******************************
 **********************************************************
 **********************************************************
-Hunterdon County, NJ (Flemington)
-Contact: Dan Palmer <cantbeatl337@gmail.com>
-General location is not working!!!
-
-49FD:ALRM ACT: (49)SHOPPES AT FLEMINGTON / 100 REAVILLE AVE NEAR: R202-31 RAMP TO RARITAN TWP LI 12003820: EM NAILS::ZONE 4 & 9 / GENERAL FIRE SIGNAL / WATN
-49FD:SMOKE L3: (49)15 BONNELL ST NEAR: PARK AVE TO ACADEMY ST 12002996 POSSIBLE ELECTRICAL::SMOKE DISAPATING 
-49FD:SMOKE L3: (49)WALGREENS / 29 STATE HWY NO 31 NEAR: CHURCH ST TO RARITAN TWP LINE 12002674: BAD SMELL OF SMOKE COMING OUT OF VENTS
-49FD:ALRM ACT: (49)HUNTER HILLS APARTMENTS / 1 GARDEN LANE NEAR: MAIN ST N TO CUL DE SAC 12002158: APT I-6 / FIRE ALARM SET OFF BY COOKING, REQUESTING ASSIST
-49FD:HMT GAS L3: (21)JOHANNA FARMS / 1 JOHANNA FARMS RD NEAR: R202 SOUTH TO BR+W RR TRACKS 11125350 WATER FLOW::UPGRADE - SMELL OF GAS IN BLDG PER CMD
-49FD:FIRE L3:(21)41 STIRRUP LANE NEAR: CARRIAGE GATE DR TO CARRIAGE G 11123569 SMOKE IN LAUNDRY ROOM::
-
-
-The number in parenthesis (49) or (21) is whos call it is, raritan township
-is next to us so that is the location of the call if it (21) which is their
-station number.
-
-49FD refers to fire department 49 I assume (I don't work for the county,
-just a volunteer firemen.) So yes.
-Frenchtown Fire - Station 11
-Glen Gardner Fire - Station 12
-Hampton Fire - Station 13
-High Bridge Fire - Station 14
-Holland Township Fire - Station 15
-Kingwood Fire  Station 16
-Lambertville Fire - Station 17
-Lebanon Borough Fire - Station 18
-Lebanon Township Fire - Station 19
-Raritan Township Fire - Station 21
-Whitehouse Station Fire - Station 22
-Stockton Fire - Station 23
-Oldwick Fire - Station 24
-Pattenburg Fire - Station 25
-West Amwell Township Fire - Station 26
-East Whitehouse Fire - Station 31
-Readington Fire - Station 32
-Three Bridges Fire - Station 33
-Fairmount Fire - Station 34
-Bloomsbury Fire - Station 43
-Califon Fire Station 44
-Clinton Fire - Station 45
-Annandale Fire - Station 46
-Sergeantsville Fire - Station 47
-Amwell Valley Fire - Station 48
-Flemington Fire - Station 49
-Quackertown Fire - Station 91
-Milford Fire - Station 92
-
-Contact: Joe Zujkowski <jzujkowski@gmail.com>
-Sender: hces@hunterdon.co.nj.us
-22RS:MVA UNKNOWN: (24)CO HWY NO 517 HWY NEAR: FIELDVIEW/DINNERPOT TO LAUREL
-12007721 2 PICKUP TRUCKS::2 PICK UP HEAD ON DS TO DS
-
-22RS:RESP DIS: (22)18 JUDGE THOMPSON RD NEAR: COLONIAL RD TO CUL DE SAC
-12007605 RESP DISTRESS::6 YOM / HAS BEEN GIVEN A NEBULIZER / NO IMPROVEMENT
-
-22RS:AMB NEED: (22)245 NUTHATCH CT NEAR: NUTHATCH CT/BLDG 43 TO NO OUTL
-12007597 SHAKING / LEFT SIDE PAIN::IS IN BED COVERED UP / LEFT SIDE PAIN /
-SHAKING /
-
-22RS:MV STOP: (49)HUNTERDON SHOPPING CENTER / 35 REAVILLE AVE NEAR: MAIN ST
-CIR TO R202-31 12007596 ZDU27L::
-
-22RS:HEART AA: (22)101 OLD FARM RD NEAR: R523 TO SCRABBLETOWN RD 12007510
-30 YOM::CHEST PAIN / STOMACH PAIN / BACK PAIN / ARM PAIN / NAUSEA /
-DIZZYNESS
-
-22RS:AMB NEED: (24)23 CO HWY NO 517 HWY NEAR: LAMINGTON RD TO JOLIET ST
-12007493 LIFT ASSIST::ASSIST PTL IN MOVING ELDERLY WOMAN FROM CHAIR TO BED
-
-22RS:AMB NEEDB: (22)CHUBB CORPORATION BUILDING A / 202 HALLS MILL RD NEAR:
-R523 TO TAYLORS MILL RD 12007449 23YOF PREGNANT::DIZZY NAUSEAS / 1 EAST
-LADIES RO
-
-22RS:AMB NEEDB: (22)CHUBB CORPORATION BUILDING A / 202 HALLS MILL RD #BLD A
-NEAR: R523 TO TAYLORS MILL RD 12007402 50'S YOF::ELEVATED BP NAUSEAS / PT
-IN NUR
-
-22RS:UNCON A: (46)76 OLD MOUNTAIN RD NEAR: CHERRY ST TO CONRAIL RR TRACKS
-12007379 63YOM::SYNCOPE HX DIABETIES
-
-22RS:LACCER: (24)24 OLD MINE RD NEAR: COKESBURY RD TO DEAD END 12007354
-FACIAL LACERATION::30'S YOA MALE CUT ON FOREHEAD FROM FALLING GLASS,
-REPLACING WINDO
-
 **********************************************************
 **********************************************************
 Muscalane County, IA
