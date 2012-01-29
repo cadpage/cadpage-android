@@ -6,10 +6,10 @@ import java.util.regex.Pattern;
 public class PatternTest {
 
   private static final Pattern MASTER = 
-    Pattern.compile("^[A-Z]+\nadr:");
+    Pattern.compile("\\b([A-Z]{2}|STATE) *(?:ROAD|RD|RT|RTE|ROUTE|HW|HWY|HY) (?:NO )?+(\\d+[NSEW]?|[A-Z]{1,2})\\b", Pattern.CASE_INSENSITIVE);
   
   public static void main(String[] args) {
-    doTest("FDWL\nadr:2008 BRISTOL RD ,75  btwn SHADOW CREEK LA & GUINEA LA");
+    doTest("29 STATE HWY NO 31");
   }
   
   private static void doTest(String test) {
