@@ -961,7 +961,7 @@ Lisa Edwards (jojosmima@gmail.com)<ledwards@townofchapelhill.org>
 >>Melissa <lyssaisaemt@gmail.com>
 >>Casey Mckenna <c.j.mckenna91@gmail.com>
 >>Brandon Ward <lightsportpilot23@gmail.com>
->>Daniel Marlow (dmarlow4030@gmail.com)<dmarlow4030@gmail.com>
+Daniel Marlow (marlow4030@gmail.com)<dmarlow4030@gmail.com>
 >>Kaitlin Klinkebiel (kaiterj1226@gmail.com)<kaiterj@hotmail.com>
 >>Tony George <tonytone301@gmail.com>
 >>"Grzegorczyk, Chris" <cgrzegorczyk@mobilemedical.org>
@@ -974,14 +974,14 @@ Lisa Edwards (jojosmima@gmail.com)<ledwards@townofchapelhill.org>
 >>robertandjenniferhaley <robertandjenniferhaley@gmail.com>
 >>Todd Tischendorf <ttischendorf@gmail.com>
 >>"robyurth@msn.com" (robyurthtrt44@gmail.com)<robyurth@msn.com>
-"preachingbiker@hotmail.com" (preachingbiker@gmail.com)<preachingbiker@hotmail.com>
-Francis Marker <fmarker44@gmail.com>
+>>"preachingbiker@hotmail.com" (preachingbiker@gmail.com)<preachingbiker@hotmail.com>
+>>Francis Marker <fmarker44@gmail.com>
 %%12/19/2011
-"farlymot@hotmail.com" (farlymot@gmail.com)<farlymot@hotmail.com>
-Jan Schatzberg <390janpfd@gmail.com>
-"Dan Simmons." <simmons.dan26@gmail.com>
+>>"farlymot@hotmail.com" (farlymot@gmail.com)<farlymot@hotmail.com>
+>>Jan Schatzberg <390janpfd@gmail.com>
+>>"Dan Simmons." <simmons.dan26@gmail.com>
 %%12/20/2011
-Aaron Bradshaw <sweetcheeks6839@gmail.com>
+>>Aaron Bradshaw <sweetcheeks6839@gmail.com>
 Alyssa Okvist <alyssaokvist@gmail.com>
 Christopher Grohs <christopher.grohs@gmail.com>
 Dustin Livingston <livingstondustin28@gmail.com>
@@ -1095,6 +1095,8 @@ Steve Hinch (2014@aberdeenfd.org)
 %%01/28/2012
 Alyn Scritchfield (rescuegal@gmail.com)(rescuegal@msn.com)
 Richard Notarianni <richn043360@gmail.com>
+%%01/30/2012
+David Shapp (David@Shapp.com)
 
 // List of users getting free credit for 2012
 $free_2012_list
@@ -1348,3 +1350,9 @@ Me <krayz22innc@gmail.com>
 Barry Tolle <wastucker1980@gmail.com>
 Shelton Pope <coats607@gmail.com>
 oscar salgado <zack33z@gmail.com>
+%%01/29/2012
+William Trowbridge <ratchief40@gmail.com>
+Gerald Brinson <84gbrinson@gmail.com>
+Steve Ingersoll (nhfd33@gmail.com)<nhfd33@yahoo.com>
+"tyron.santiago4" <tyron.santiago4@gmail.com>
+
