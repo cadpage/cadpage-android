@@ -26,6 +26,10 @@ FRM:911-CENTER@911Center@central\nMSG:911-CENTER:FF >WILDLAND FIRE 9707 OLD HART
 FRM:911-CENTER@911Center@central\nMSG:\n911-CENTER:MSTR >STROKE 3294 BELLTOWN RD XS: NEW BETHEL CHURCH LN HARTFORD Map: Grids:, Cad: 2011-0000013576
 1 of 2\nFRM:911-CENTER@911Center@central\nMSG:\n911-CENTER:MSZ >SEIZURES 4255 NEW HARTFORD RD XS: NEAR SOUTHEASTERN PKY OWENSBORO DAY, RUS Map:\n(Con't) 2 of 2\nGrids:, Cad: 2011-0000013611(End)
 
+Contact: Jeffery Kingkade <jeffery.kingkade@gmail.com>
+Sender: 2002000004
+911-CENTER:MU >UNCONCIOUS 5005 HIGHWAY 142 XS: TIMBER RIDGE DR PHILPOT BIRKHEAD, LARRY, REV Map: Grids:, Cad: 2012-0000008822
+
 */
 public class KYDaviessCountyParser extends DispatchBParser {
 
@@ -38,7 +42,7 @@ public class KYDaviessCountyParser extends DispatchBParser {
   
   @Override
   public String getFilter() {
-    return "911-CENTER";
+    return "911-CENTER,2002";
   }
   
   @Override
