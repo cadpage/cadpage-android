@@ -787,6 +787,48 @@ public class PABucksCountyParserTest extends BaseParserTest {
         "TIME:11:51:55",
         "ID:FD1201251");
 
+    doTest("T4",
+        "(#6393  1/1) FUMEIN\nadr:2009 CEDAR DR ,76  btwn WINDSOR LA & APPLE CT\nbox:66001\ntm:13:50:55 FD1200871\nRun: TW66 E66 E29 E93 R29",
+        "CALL:FUMEIN - FUMES INSIDE STRUCTURE (TAC)",
+        "BOX:66001",
+        "ADDR:2009 CEDAR DR",
+        "CITY:WARWICK TWP",
+        "X:WINDSOR LN & APPLE CT",
+        "TIME:13:50:55",
+        "ID:FD1200871",
+        "UNIT:TW66 E66 E29 E93 R29");
+
+    doTest("T5",
+        "(#6417  1/1) BFALL\nadr:3018 STREET RD ,75  btwn HONORA ST & FOLLY RD\nbox:78013\ntm:15:33:54 ED1202384",
+        "CALL:BFALL - FALL VICTIM - NON CRITICAL",
+        "BOX:78013",
+        "ADDR:3018 STREET RD",
+        "CITY:WARRINGTON TWP",
+        "X:HONORA ST & FOLLY RD",
+        "TIME:15:33:54",
+        "ID:ED1202384");
+
+    doTest("T6",
+        "(#6499  1/1) FDWL\nadr:2221 SARAHS LA ,75  btwn MARIE CI & CUL DE SAC\nbox:29059\ntm:22:13:24 FD1201135\nRun: E29 E78 L29 E66",
+        "CALL:FDWL - DWELLING FIRE (TAC)",
+        "BOX:29059",
+        "ADDR:2221 SARAHS LN",
+        "CITY:WARRINGTON TWP",
+        "X:MARIE CI & CUL DE SAC",
+        "TIME:22:13:24",
+        "ID:FD1201135",
+        "UNIT:E29 E78 L29 E66");
+
+    doTest("T7",
+        "(#6613  1/1) WIREIN\nadr:2401 GREENSWARD RD N ,75\nbox:29501\ntm:11:51:55 FD1201251\nRun: E29 E78 L90",
+        "CALL:WIREIN - WIRES IN DWELLING",
+        "BOX:29501",
+        "ADDR:2401 GREENSWARD RD N",
+        "CITY:WARRINGTON TWP",
+        "TIME:11:51:55",
+        "ID:FD1201251",
+        "UNIT:E29 E78 L90");
+
   }
   
   @Test
@@ -892,13 +934,7 @@ public class PABucksCountyParserTest extends BaseParserTest {
   public void testParser4() {
 
     doTest("T1",
-        "RAUTO  Box:15023\n" +
-        "Adr: CHURCH RD/RT 413 ,26\n" +
-        "btwn:RT 413 3/4 OF A MILE FROM CHURCH\n" +
-        "01/21/12  12:43:51\n" +
-        "FD1201070\n" +
-        "Run: R5 E15",
-
+        "RAUTO  Box:15023\nAdr: CHURCH RD/RT 413 ,26\nbtwn:RT 413 3/4 OF A MILE FROM CHURCH\n01/21/12  12:43:51\nFD1201070\nRun: R5 E15",
         "CALL:RAUTO - AUTO EXTRICATION",
         "BOX:15023",
         "ADDR:CHURCH RD & RT 413",
@@ -920,6 +956,18 @@ public class PABucksCountyParserTest extends BaseParserTest {
         "TIME:15:44:26",
         "ID:FD1201409",
         "UNIT:C5");
+
+    doTest("T3",
+        "FALRM  Box:05031 adr: 5960 HONEY HOLLOW RD ,65 btwn:STREET RD & DEWEES RD RESID-MINNAUGH 01/29/12  20:16:02 FD1201463   Run: E5",
+        "CALL:FALRM - FIRE ALARM (LOC)",
+        "BOX:05031",
+        "ADDR:5960 HONEY HOLLOW RD",
+        "CITY:SOLEBURY TWP",
+        "X:STREET RD & DEWEES RD RESID-MINNAUGH",
+        "DATE:01/29/12",
+        "TIME:20:16:02",
+        "ID:FD1201463",
+        "UNIT:E5");
 
   }
   

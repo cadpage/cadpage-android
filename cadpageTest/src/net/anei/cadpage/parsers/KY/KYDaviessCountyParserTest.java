@@ -87,6 +87,19 @@ public class KYDaviessCountyParserTest extends BaseParserTest {
         "ID:2011-0000013611");
   }
   
+  @Test
+  public void testParser2() {
+
+    doTest("T1",
+        "911-CENTER:MU >UNCONCIOUS 5005 HIGHWAY 142 XS: TIMBER RIDGE DR PHILPOT BIRKHEAD, LARRY, REV Map: Grids:, Cad: 2012-0000008822",
+        "CALL:UNCONCIOUS",
+        "ADDR:5005 HIGHWAY 142",
+        "X:TIMBER RIDGE DR",
+        "NAME:PHILPOT BIRKHEAD, LARRY, REV",
+        "ID:2012-0000008822");
+
+  }
+  
   public static void main(String[] args) {
     new KYDaviessCountyParserTest().generateTests("T1", "CALL ADDR X NAME ID");
   }
