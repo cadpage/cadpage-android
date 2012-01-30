@@ -735,6 +735,18 @@ public class PABucksCountyParserTest extends BaseParserTest {
         "MAP:3032H4",
         "TIME:14:32:51",
         "ID:ED1203813");
+
+    doTest("T55",
+        "911: SQ134  type:AABDO   adr:54 CHEROKEE RD ,47  btwn LENAPE DR & PUEBLO RD  aai:  box:34033  map:3033J2  tm:23:45:25  ED1203857  ",
+        "SRC:SQ134",
+        "CALL:AABDO - ACUTE ABDOMEN",
+        "BOX:34033",
+        "ADDR:54 CHEROKEE RD",
+        "CITY:NEW BRITAIN",
+        "X:LENAPE DR & PUEBLO RD",
+        "MAP:3033J2",
+        "TIME:23:45:25",
+        "ID:ED1203857");
   }
   
   @Test
@@ -781,6 +793,46 @@ public class PABucksCountyParserTest extends BaseParserTest {
   public void testParser2() {
 
     doTest("T1",
+        "Subject:1/2\nFAPT\nadr:CREEK VILL APT #F18 ,71 at 160 FALLSINGTON TULLYT RD #F18 ,71\nbox:33022\ntm:18:57:03 FD1201370\nRun: E33 L3",
+        "CALL:FAPT - APARTMENT FIRE (BOX)",
+        "BOX:33022",
+        "PLACE:CREEK VILL APT #F18",
+        "ADDR:160 FALLSINGTON TULLYTOWN RD",
+        "APT:F18",
+        "CITY:TULLYTOWN",
+        "TIME:18:57:03",
+        "ID:FD1201370",
+        "UNIT:E33 L3");
+
+    doTest("T2",
+        "Subject:1/1\nFSPEC\nadr:1812 FARRAGUT AV ,24\nbox:53039\ntm:12:44:12 FD1201444\nRun: L25",
+        "CALL:FSPEC - SPECIAL ASSIGNMENT",
+        "BOX:53039",
+        "ADDR:1812 FARRAGUT AV",
+        "MADDR:1812 FARRAGUT AVE",
+        "CITY:BRISTOL",
+        "TIME:12:44:12",
+        "ID:FD1201444",
+        "UNIT:L25");
+
+    doTest("T3",
+        "Subject:1/2\nFAPT\nadr:GRUNDY TOWERS #1010 ,24 at 205 POND ST #1010 ,24\nbox:50092\ntm:18:46:52 FD1201459\nRun: E50 E52 E53 Q51 L25",
+        "CALL:FAPT - APARTMENT FIRE (BOX)",
+        "BOX:50092",
+        "PLACE:GRUNDY TOWERS #1010",
+        "ADDR:205 POND ST",
+        "APT:1010",
+        "CITY:BRISTOL",
+        "TIME:18:46:52",
+        "ID:FD1201459",
+        "UNIT:E50 E52 E53 Q51 L25");
+
+  }
+  
+  @Test
+  public void testParser3() {
+
+    doTest("T1",
         "FRM:Bucks RSAN\n" +
         "SUBJ:1/1\n" +
         "MSG:WIREIN\n" +
@@ -790,8 +842,8 @@ public class PABucksCountyParserTest extends BaseParserTest {
         "Run: E2 L1 E4 R6=",
 
         "CALL:WIREIN - WIRES IN DWELLING",
-        "ADDR:1871 WHITE BRIAR RD",
-        "CITY:U SOUTHAMPTON TWP",
+        "ADDR:1871 WHITEBRIAR RD",
+        "CITY:UPPER SOUTHAMPTON TWP",
         "BOX:02047",
         "TIME:09:52:53",
         "ID:FD1201327",
@@ -837,7 +889,7 @@ public class PABucksCountyParserTest extends BaseParserTest {
   }
   
   @Test
-  public void testParser3() {
+  public void testParser4() {
 
     doTest("T1",
         "RAUTO  Box:15023\n" +

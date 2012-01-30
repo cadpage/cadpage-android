@@ -385,7 +385,7 @@ public abstract class BaseParserTest {
   
   private static final Pattern NEWLINE_PTN = Pattern.compile("\n+");
   private String[] breakLines(String test) {
-    if (test.length() < 100 || test.indexOf('\n') < 0) return new String[]{test};
+    if (test.length() < 130 || test.indexOf('\n') < 0) return new String[]{test};
     List<String> list = new ArrayList<String>();
     Matcher match = NEWLINE_PTN.matcher(test);
     int st = 0;
