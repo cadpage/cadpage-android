@@ -74,6 +74,7 @@ STA19  type:FALRM   adr:LINDEN ELEM SCH ,28 at 480 LINDEN AV ,28 btwn EAST ST & 
 911: SQ134  type:AFAINT  adr:1500 HORIZON DR #112 ,48 -- ENDODONTIC SPECIAL btwn HORIZON CI & COUNTY LINE RD  aai:  box:74058  map:3033F8  tm:16:29:39  ED1203559  
 911: SQ134  type:ABLED   adr:DOCK MEADOWS NH #14 ,36 at 2343 BETHLEHEM PK #14 ,36 btwn UNIONVILLE PK & CHURCH  aai:  box:60063  map:3032E3  tm:09:32:32  ED1203769  
 911: SQ134  type:BFALL   adr:WALMART STORE ,36 at 1515 BETHLEHEM PK ,36 btwn HILLTOWN PK & SWARTLEY RD  aai:W SECTOR  box:60062  map:3032H4  tm:14:32:51  ED1203813  
+911: SQ134  type:AABDO   adr:54 CHEROKEE RD ,47  btwn LENAPE DR & PUEBLO RD  aai:  box:34033  map:3033J2  tm:23:45:25  ED1203857  
 
 Contact: "porco23@yahoo.com" <porco23@yahoo.com>
 Sender: alert_@alert.bucksema.org
@@ -84,7 +85,8 @@ Sender: alert_@alert.bucksema.org
 Contact: Joseph Montanya <flounder53@gmail.com>
 Sender: alert6921@alert.bucksema.org
 Subject:1/2\nFAPT\nadr:CREEK VILL APT #F18 ,71 at 160 FALLSINGTON TULLYT RD #F18 ,71\nbox:33022\ntm:18:57:03 FD1201370\nRun: E33 L3
-Subject:1/2\nFAPT\nadr:CREEK VILL APT #F18 ,71 at 160 FALLSINGTON TULLYT RD #F18 ,71\nbox:33022\ntm:18:57:03 FD1201370\nRun: E33 L3
+Subject:1/1\nFSPEC\nadr:1812 FARRAGUT AV ,24\nbox:53039\ntm:12:44:12 FD1201444\nRun: L25
+Subject:1/2\nFAPT\nadr:GRUNDY TOWERS #1010 ,24 at 205 POND ST #1010 ,24\nbox:50092\ntm:18:46:52 FD1201459\nRun: E50 E52 E53 Q51 L25
 
 Contact: Ed Ackerman <ed.ackerman@gmail.com>
 Sender: Bucks RSAN
@@ -112,7 +114,7 @@ public class PABucksCountyParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "8276,@bnn.us,215,iamresponding.com,Bucks RSAN";
+    return "8276,@bnn.us,215,iamresponding.com,Bucks RSAN,@alert.bucksema.org";
   }
 
   @Override
@@ -142,7 +144,6 @@ public class PABucksCountyParser extends FieldProgramParser {
   }
   
   private static final Pattern LA_PTN = Pattern.compile("\\bLA\\b", Pattern.CASE_INSENSITIVE);
-  private static final Pattern COLD_SPRING_PTN = Pattern.compile("\\bCOLD SPRING C[A-Z]+\\b");
   private class MyAddressField extends AddressField {
     
     @Override
@@ -158,12 +159,9 @@ public class PABucksCountyParser extends FieldProgramParser {
       sAddr = p.get();
       sAddr = LA_PTN.matcher(sAddr).replaceAll("LN");
       sAddr = sAddr.replace("FRIER RD", "FREIER RD");
-      Matcher match = COLD_SPRING_PTN.matcher(sAddr);
-      if (match.find()) {
-        if ("COLD SPRING CREAMERY".startsWith(match.group())) {
-          sAddr = sAddr.substring(0,match.start()) + "COLD SPRING CREAMERY" + sAddr.substring(match.end());
-        }
-      }
+      sAddr = sAddr.replace("WHITE BRIAR", "WHITEBRIAR");
+      sAddr = expandStreet("COLD SPRING CREAMERY", sAddr);
+      sAddr = expandStreet("FALLSINGTON TULLYTOWN", sAddr);
       super.parse(sAddr, data);
       if (cityCode.length() > 0) {
         try {
@@ -174,6 +172,26 @@ public class PABucksCountyParser extends FieldProgramParser {
           }
         } catch (NumberFormatException ex) {}
       }
+    }
+    
+    private final String expandStreet(String fullName, String field) {
+      int trigLen  = fullName.lastIndexOf(' ');
+      if (trigLen < 0) return field;
+      trigLen += 2;
+      if (trigLen > fullName.length()) return field;
+      String trigger = fullName.substring(0,trigLen);
+      int pt1 = 0;
+      while (true) {
+        int pt2 = field.indexOf(trigger, pt1);
+        if (pt2 < 0) break;
+        int pt3 = field.indexOf(' ', pt2+trigLen);
+        if (pt3 < 0) pt3 = field.length();
+        if (fullName.startsWith(field.substring(pt2,pt3))) {
+          field = field.substring(0,pt2) + fullName + field.substring(pt3);
+        }
+        pt1 = pt3;
+      }
+      return field;
     }
     
     @Override
@@ -273,7 +291,7 @@ public class PABucksCountyParser extends FieldProgramParser {
   /*70*/ "",
   /*71*/ "TULLYTOWN",
   /*72*/ "UPPER MAKEFIELD TWP",
-  /*73*/ "U SOUTHAMPTON TWP",
+  /*73*/ "UPPER SOUTHAMPTON TWP",
   /*74*/ "WARMINSTER TWP",
   /*75*/ "WARRINGTON TWP",
   /*76*/ "WARWICK TWP",
