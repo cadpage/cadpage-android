@@ -135,7 +135,21 @@ public class MIEatonCountyParserTest extends BaseParserTest {
         "INFO:Event spawned from MISCELLANEOUS INCIDENT.");
   }
   
+  @Test
+  public void testEMSParser() {
+
+    doTest("T1",
+        "CAD:FYI: ;EEMS;20120003108;01/29/2012 01:17:26;PRIORTY3;7291 TUCKER RD;ERCY;70/F VOMITTING THE PAST 3-4 HRS [01/29/12 01:21:07 MLUNDQUIST]",
+        "CALL:EEMS / PRIORTY3",
+        "ID:20120003108",
+        "DATE:01/29/2012",
+        "TIME:01:17:26",
+        "ADDR:7291 TUCKER RD",
+        "INFO:ERCY / 70/F VOMITTING THE PAST 3-4 HRS");
+
+  }
+  
   public static void main(String[] args) {
-    new MIEatonCountyParserTest().generateTests("T6");
+    new MIEatonCountyParserTest().generateTests("T1");
   }
 }
