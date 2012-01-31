@@ -150,7 +150,36 @@ public class NYGeneseeCountyParserTest extends BaseParserTest {
         "DATE:01/22/12",
         "TIME:06:57",
         "ID:2012-00000021");
- }
+  }
+  
+  @Test
+  public void testParser3() {
+
+    doTest("T1",
+        "GENESEE COUNTY DISPATCH Unit:EP57 Status:Dispatched EMD Alpha ** Batavia Mobile Home Park** 3322 W MAIN STREET RD , BATAVIA - 31 ** 40 Y/O MALE VOMITTING ** WORTENDYKE RD / STEGMAN RD ** 01/29/12 10:53 ** 2012-00000025 ** TXT STOP to opt-out",
+        "UNIT:EP57",
+        "CALL:EMD Alpha",
+        "PLACE:Batavia Mobile Home Park",
+        "ADDR:3322 W MAIN STREET RD",
+        "CITY:BATAVIA",
+        "INFO:40 Y/O MALE VOMITTING",
+        "X:WORTENDYKE RD / STEGMAN RD",
+        "DATE:01/29/12",
+        "TIME:10:53",
+        "ID:2012-00000025");
+
+    doTest("T2",
+        "GENESEE COUNTY DISPATCH EMD Charlie ** ** 1858 MAIN RD , PEMBROKE - ** 91 YOM POSS STROKE ** CLEVELAND RD / BOYCE RD ** 01/30/12 20:25 ** 2012-00000026 ** TXT STOP to opt-out",
+        "CALL:EMD Charlie",
+        "ADDR:1858 MAIN RD",
+        "CITY:PEMBROKE",
+        "INFO:91 YOM POSS STROKE",
+        "X:CLEVELAND RD / BOYCE RD",
+        "DATE:01/30/12",
+        "TIME:20:25",
+        "ID:2012-00000026");
+
+  }
   
   public static void main(String[] args) {
     new NYGeneseeCountyParserTest().generateTests("T1");
