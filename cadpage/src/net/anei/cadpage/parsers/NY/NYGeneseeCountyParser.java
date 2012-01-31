@@ -29,12 +29,17 @@ GENESEE COUNTY DISPATCH Unit:251 Status:Dispatched Fire CO Detector ** ** 3645 G
 GENESEE COUNTY DISPATCH Unit:251 Status:Dispatched Acc PIAA * ** BANK STREET RD , ASSEMBLYMAN R. STEPHEN HAWLEY DR BATAVIA - ** 3 CAR MVA ** ** 01/19/12 11:07 ** 2012-00000188 ** TXT STOP to opt-out
 GENESEE COUNTY DISPATCH Unit:EP56 Status:Dispatched EMD Alpha ** ** 2128 MAIN RD , PEMBROKE - ** 78 Y/O MALE COMPLAINING OF DIZZINESS ** INDIAN FALLS RD / CLEVELAND RD ** 01/22/12 06:57 ** 2012-00000021 ** TXT STOP to opt-out
 
+Contact: Stephen Smelski <steveepfd@gmail.com>
+Sender: 77712
+GENESEE COUNTY DISPATCH Unit:EP57 Status:Dispatched EMD Alpha ** Batavia Mobile Home Park** 3322 W MAIN STREET RD , BATAVIA - 31 ** 40 Y/O MALE VOMITTING ** WORTENDYKE RD / STEGMAN RD ** 01/29/12 10:53 ** 2012-00000025 ** TXT STOP to opt-out
+GENESEE COUNTY DISPATCH EMD Charlie ** ** 1858 MAIN RD , PEMBROKE - ** 91 YOM POSS STROKE ** CLEVELAND RD / BOYCE RD ** 01/30/12 20:25 ** 2012-00000026 ** TXT STOP to opt-out
+
 */
 
 
 public class NYGeneseeCountyParser extends FieldProgramParser {
   
-  private static Pattern MARKER = Pattern.compile("^GENESEE COUNTY DISPATCH Unit:(.*?) Status:Dispatched +");
+  private static Pattern MARKER = Pattern.compile("^GENESEE COUNTY DISPATCH +(?:Unit:(.*?) Status:Dispatched +)?");
   
   public NYGeneseeCountyParser() {
     super(CITY_LIST, "GENESEE COUNTY", "NY",
@@ -53,7 +58,7 @@ public class NYGeneseeCountyParser extends FieldProgramParser {
       
       Matcher match = MARKER.matcher(body);
       if (match.find()) {
-        data.strUnit = match.group(1);
+        data.strUnit = getOptGroup(match.group(1));
         body = body.substring(match.end());
         break;
       }
@@ -78,13 +83,15 @@ public class NYGeneseeCountyParser extends FieldProgramParser {
     }
   }
   
+  private static final Pattern TRAIL_DIGITS = Pattern.compile(" +-(?: \\d+)?$");
   private class MyAddressField extends AddressField {
     
     @Override
     public boolean checkParse(String field, Data data) {
       
-      // Remove trailing dash
-      if (field.endsWith("-")) field = field.substring(0,field.length()-1).trim();
+      // Remove trailing dash and digits
+      Matcher match = TRAIL_DIGITS.matcher(field);
+      if (match.find()) field = field.substring(0,match.start());
       
       // If field contains comma, parse as address and cross / city
       int pt = field.indexOf(',');
