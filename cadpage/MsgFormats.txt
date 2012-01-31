@@ -3530,11 +3530,6 @@ Contact: "kk_customs@yahoo.com" <kk_customs@yahoo.com>
 Sender: 777101378742
 CITY OF TEMPLE Incidents. Caller Statement: TTA MULTIPLE INJ . TTA MULTIPLE INJ ProQA dispatch code: 29D02 Dispatch level suffix: l Response text: Delta Responder script: HIGH MECHANISM (k through s) (Auto-bicycle/motorcycle). 1.The incident involves a motorcycle. TXT STOP to opt-out
 **********************************************************
-Unknown
-Contact: Rob <robertjr1975@aol.com>
-Sender: singerly@gmail.com
-FRM:singerly@gmail.com\nMSG:1304A\nBUILDING FIRE\nELKTON MIDDLE SCHOOL @615 NORT\n23:20:22\n11021680\n23:23:02\nCALLER DRIVING BY SCHOOL AND S
-**********************************************************
 Androscoggin County, ME
 Contact: Matthew Conklin <tfd949@gmail.com>
 From: asodispatch1@roadrunner.com
@@ -3778,7 +3773,6 @@ rescue 15720 Nash Rd for 44 yo male sudden illness. 2800
 10780 STELLA LN 6 MONTH OLD BABY LATHARGIC
 10592 Longview Trl for a 2 YOM possible CROUP.
 **********************************************************
-**********************************************************
 Boone County, KY
 Contact: "rbailey74@gmail.com" <rbailey74@gmail.com>, 8597435533@messaging.sprintpcs.com
 Sender: pscc@boonecountyky.org
@@ -3788,6 +3782,16 @@ Unknown, NY
 Contact: Mike ECFW <webmaster@ecfwire.com>
 Sender: news@1rwn.com
   / DEPEW, NY -ERIE- *WORKING FIRE* 108 WYANDOTTE ST CS LAVERACK AVE. SVCS OS ADV ATTIC FIRE IN A 1 STY OCC DWG. 1 LSO.  MA REQ TO SCN. NY537\n\n
+**********************************************************
+Singerly VFD in Cecil County, MD
+Contact: Rob <robertjr1975@aol.com>
+Sender: singerly@gmail.com
+FRM:singerly@gmail.com\nMSG:1304A\nBUILDING FIRE\nELKTON MIDDLE SCHOOL @615 NORT\n23:20:22\n11021680\n23:23:02\nCALLER DRIVING BY SCHOOL AND S
+
+Contact: Christopher Olson <lilsmokeeater5@yahoo.com>
+singerly@gmail.com: 0201A\nHOUSE \nHOUSE FIRE\n470 BLAIR SHORE RD\nBLAIR LN\nWOOD DUCK LN\n22:39:45\n12001775\n22:42:05\nSMELL OF SOMETHING BURNING GET
+singerly@gmail.com: 1401\nHOUSE \nHOUSE FIRE\n1030 KIRK RD\nBLACKSNAKE RD\nPROVIDENCE RD\n07:47:54\n12001740\n07:50:02\nCHIMNEY FIRE WITH FLAMES CALLE 
+**********************************************************
 **********************************************************
 **********************************************************
 **********************************************************
