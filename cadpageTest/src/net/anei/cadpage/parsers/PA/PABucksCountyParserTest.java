@@ -747,6 +747,42 @@ public class PABucksCountyParserTest extends BaseParserTest {
         "MAP:3033J2",
         "TIME:23:45:25",
         "ID:ED1203857");
+
+    doTest("T56",
+        "911: STA57  type:BTAI    adr:PORTZER RD/RT 663 ,45  aai:ON PORTZER,,PAST ANIMAL HOSP  box:57007  map:2695A9  tm:18:05:19  ED1203958",
+        "SRC:STA57",
+        "CALL:BTAI - BLS TRAFFIC ACCIDENT (MINOR INJURIES)",
+        "BOX:57007",
+        "ADDR:PORTZER RD & RT 663",
+        "CITY:MILFORD TWP",
+        "INFO:ON PORTZER,,PAST ANIMAL HOSP",
+        "MAP:2695A9",
+        "TIME:18:05:19",
+        "ID:ED1203958");
+
+    doTest("T57",
+        "911: STA57  type:STDBY   adr:PORTZER RD/RT 663 ,45  aai:  box:57007  map:2695A9  tm:18:05:25  FD1201500    Run: E57",
+        "SRC:STA57",
+        "CALL:STDBY - FIRE STANDBY",
+        "BOX:57007",
+        "ADDR:PORTZER RD & RT 663",
+        "CITY:MILFORD TWP",
+        "MAP:2695A9",
+        "TIME:18:05:25",
+        "ID:FD1201500",
+        "UNIT:E57");
+
+    doTest("T58",
+        "911: STA57  type:FPOL    adr:OLD BETHLEHEM PK/PORTZER RD ,45  aai:  box:57003  map:2695A8  tm:18:16:46  FD1201502\\4sRun: FP57 FP75",
+        "SRC:STA57",
+        "CALL:FPOL - FIRE POLICE REQUEST",
+        "BOX:57003",
+        "ADDR:OLD BETHLEHEM PK & PORTZER RD",
+        "MADDR:OLD BETHLEHEM PIKE & PORTZER RD",
+        "CITY:MILFORD TWP",
+        "MAP:2695A8",
+        "TIME:18:16:46",
+        "ID:FD1201502\\4sRun: FP57 FP75");
   }
   
   @Test
@@ -868,6 +904,17 @@ public class PABucksCountyParserTest extends BaseParserTest {
         "TIME:18:46:52",
         "ID:FD1201459",
         "UNIT:E50 E52 E53 Q51 L25");
+
+    doTest("T4",
+        "Subject:1/1\nFBLD\nadr:301 WOOD ST ,24 -- LBUCK SENIOR CITIZ\nbox:51015\ntm:09:59:54 FD1201481\nRun: E50 E52 E53 Q51 TW14 E11 R10",
+        "CALL:FBLD - BUILDING FIRE (BOX)",
+        "BOX:51015",
+        "PLACE:LBUCK SENIOR CITIZ",
+        "ADDR:301 WOOD ST",
+        "CITY:BRISTOL",
+        "TIME:09:59:54",
+        "ID:FD1201481",
+        "UNIT:E50 E52 E53 Q51 TW14 E11 R10");
 
   }
   

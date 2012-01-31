@@ -246,9 +246,17 @@ public class TXMontgomeryCountyParserTest extends BaseParserTest {
         "ADDR:25469 BOROUGH PARK DR",
         "APT:MISSION WOODS",
         "CITY:SPRING");
+
+    doTest("T28",
+        "(Nature: F08-CONTROLLED BURN) New Fire Run: 2012-03389,,B113,Location: 2226 BOB WHITE-SC,Building: ,Cross: ,1702 COUGAR CREEK-C,Grid: 253E,Map:",
+        "ID:2012-03389",
+        "CALL:F08-CONTROLLED BURN",
+        "UNIT:B113",
+        "ADDR:2226 BOB WHITE",
+        "CITY:SPRING");
   }
   
   public static void main(String[] args) {
-    new TXMontgomeryCountyParserTest().generateTests("T27");
+    new TXMontgomeryCountyParserTest().generateTests("T1");
   }
 }
