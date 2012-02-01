@@ -57,6 +57,9 @@ Contact: David Sanders <skiestwo@gmail.com>
 Sender: 7164383393@niagaracounty.com
 ((23406) NCFC CGREENE ) EMS @ 7300 Winbert Dr - 45yof Chest Pain - 01/06/12 @ 0442/hrs - EMS OPS  ALSP
 
+Contact: 7163168535@messaging.nextel.com
+((64253) NCFC CGREENE) FIRE ALM @ Wilson Central School - 374 Lake St (Main Bldg) - OPS 1 - 01/31/12 @ 0355/hrs
+
 */
 
 
@@ -70,6 +73,8 @@ public class NYNiagaraCountyParser extends SmartAddressParser {
     private static final Pattern TIME_PTN = Pattern.compile("\\b(\\d{4})(?:hrs)?$");
     private static final Pattern DATE_TIME_PTN2 = 
       Pattern.compile("(?: - *)?(?:(\\b\\d\\d/\\d\\d/\\d\\d(?:\\d\\d)?))?(?: *@ *)?(\\b\\d{4}) */?hrs(?: *- )?");
+    
+    private static final Pattern CALL_AT_PTN = Pattern.compile("^([A-Z ]+)@");
     
     public NYNiagaraCountyParser() {
       super("NIAGARA COUNTY", "NY");
@@ -121,12 +126,21 @@ public class NYNiagaraCountyParser extends SmartAddressParser {
 	    if (match.find()) {
 	      String sDate = match.group(1);
 	      if (sDate != null) data.strDate = sDate;
-	      data.strTime = match.group(2);
+	      data.strTime = expandTime(match.group(2));
 	      body = body.substring(0,match.start()).trim() + " " + body.substring(match.end()).trim();
 	    }
 	    
 	    body = body.replace(',', ' ').replace('.', ' ').replaceAll("//s+", " ");
-	    parseAddress(StartType.START_CALL, FLAG_NO_IMPLIED_APT, body, data);
+	    
+	    StartType st = StartType.START_CALL;
+	    match = CALL_AT_PTN.matcher(body); 
+	    if (match.find()) {
+	      data.strCall = match.group(1).trim();
+	      body = body.substring(match.end()).trim();
+	      st = StartType.START_PLACE;
+	    }
+	    
+	    parseAddress(st, FLAG_NO_IMPLIED_APT, body, data);
 	    if (getStatus() == 0) {
 	      data.strCall = "GENERAL ALERT";
 	      data.strAddress = "";
@@ -144,6 +158,7 @@ public class NYNiagaraCountyParser extends SmartAddressParser {
 	      data.strSupp = "";
 	    }
 	    
+	    data.strPlace = unDash(data.strPlace);
 	    return true;
 	  }
 
