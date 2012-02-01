@@ -83,7 +83,7 @@ public class NYGeneseeCountyParser extends FieldProgramParser {
     }
   }
   
-  private static final Pattern TRAIL_DIGITS = Pattern.compile(" +-(?: \\d+)?$");
+  private static final Pattern TRAIL_DIGITS = Pattern.compile(" +-(?: (\\d+))?$");
   private class MyAddressField extends AddressField {
     
     @Override
@@ -91,7 +91,11 @@ public class NYGeneseeCountyParser extends FieldProgramParser {
       
       // Remove trailing dash and digits
       Matcher match = TRAIL_DIGITS.matcher(field);
-      if (match.find()) field = field.substring(0,match.start());
+      if (match.find()) {
+        String sInfo = match.group(1);
+        if (sInfo != null) data.strSupp = append(data.strSupp, " / ", sInfo);
+        field = field.substring(0,match.start());
+      }
       
       // If field contains comma, parse as address and cross / city
       int pt = field.indexOf(',');

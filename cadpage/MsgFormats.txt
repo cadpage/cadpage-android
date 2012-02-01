@@ -1906,6 +1906,11 @@ Lewisville, TX (TXLewisvilleParser)
 *1725 SHUFORDS CT*****FIRE****B160,CHIEF,E164,E165,M163,Q163,T167*300****
 *251 N I35E SBFR*****FIRE****B160,CHIEF,E161,E164,M161,Q162,T167*127****
 ***************************************************************************
+Liberty County, TX (TXLibertyCountyParser)
+[FIRE CALL]  FM834 NEAR BASEBALL FIELDS POSS OUT OF CONTROL GRASS FIRE
+[EMS]  11346 SH146N 72YOF DIFF BREATHING HISTORY OF CONGESTIVE HEART FAILURE
+[10-50]  146N S OF OVER PASS 10-50 OCCUPIED MIGHT CATCH FIRE
+***************************************************************************
 Manvel, TX (TXManvelParser)
 [ NEW CALL ]  MVFD\nALFIRE\n3403 SOUTHFORK PARKWAY\nMANVEL\n1103200011 12:50 PM
 [ NEW CALL ]  MVFD\nACCUNK\nS. MASTER / JUST PAST GATES LOOP\nMANVEL\n1102210022 5:25 PM
@@ -3830,50 +3835,6 @@ NFR WLAB
 WEST LIBERTY
 NFD WLFD
 **********************************************************
-Liberty County, TX
-Contact: "Craig Powell" <craig@hardinvfd.org>
-[FIRE CALL]  FM834 NEAR BASEBALL FIELDS POSS OUT OF CONTROL GRASS FIRE
-[EMS]  11346 SH146N 72YOF DIFF BREATHING HISTORY OF CONGESTIVE HEART FAILURE
-[10-50]  146N S OF OVER PASS 10-50 OCCUPIED MIGHT CATCH FIRE
-[MVA]  2 vehicle major FM 834 @ CR 2003 by junior high
-**********************************************************
-https://www.active911.com/interface/parser_report.php?key=63-3Da5z
-
-Agency name: Hardin VFD
-Location: Hardin, TX
-
-
-Example #1
-------------
-
-
-From: "Liberty County " <lcso@lcffa.org>
-Subject: FIRE CALL
-Body: EXXON STATION IN HULL BEHIND ELEMENTARY SCHOOL  ON FIRE POSS EXPLOSIONS 
-
-
-
-**DO NOT REPLY - Emergency Notification Only**
-
-
-
-
-
-Example #2
-------------
-
-
-From: "Liberty County " <lcso@lcffa.org>
-Subject: MEDICAL CALL
-Body: 437 CR2002W 72 YOM CHEST PAINS
-
-
-
-**DO NOT REPLY - Emergency Notification Only**
-
-[MEDICAL CALL]  437 CR2002W 72 YOM CHEST PAINS
-FIRE CALL] EXXON STATION IN HULL BEHIND ELEMENTARY SCHOOL  ON FIRE POSS EXPLOSIONS
-
 **********************************************************
 Napa County, CA
 Contact: Joe Russo <bumbero19@gmail.com>

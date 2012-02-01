@@ -80,17 +80,8 @@ req=unregister     Used by Cadpage to inidicate user request to unregister their
     
     Return an OK or ERROR response code to indicate success or failure
     
-req=query       Used when Cadpage is installed on a clean system where it has 
-                lost all of its configuration information.  If we can recover the
-                registration ID (uncertain at this point) this allows us to
-                recover the account information
-    params                   
-    phone           Phone number if we have it (for Android tablets we probably will not)
-    CadpageRegId    Cadpage registration ID, this is what you need to send messages to this device
-    
-    If you can identify this account in your database, respond by sending a REGISTER
-    request to the device
-    
+    If user is not registered with your service, you should send an req=unregister
+    request to the registration ID that is passed.
     
 Once you have a Cadpage registration ID, you can send messages to the device.  The
 technical details are explained at http://code.google.com/android/c2dm/

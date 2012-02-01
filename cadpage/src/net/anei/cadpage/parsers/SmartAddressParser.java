@@ -157,6 +157,10 @@ public abstract class SmartAddressParser extends MsgParser {
   // numbered road names
   private static final int ID_NUMBERED_ROAD_SFX = 0x100000;
   
+  // Bitmask bit indicating token is a word that is commonly used to qualify
+  // other highway names
+  private static final int ID_ROAD_QUALIFIER = 0x200000;
+  
   // Bitmask indicating dictionary word is either a route number prefix or a
   // route prefix extender
   private static final int ID_ROUTE_PFX = ID_ROUTE_PFX_PFX | ID_ROUTE_PFX_EXT;
@@ -216,10 +220,12 @@ public abstract class SmartAddressParser extends MsgParser {
         "AVENUE", "AV", "AVE", 
         "STREET", "ST", 
         "PLACE", "PL",
-        "ROAD", "RD"); 
+        "ROAD", "RD");
+    
+    setupDictionary(ID_ROAD_QUALIFIER, "OLD");
         
     setupDictionary(ID_ROUTE_PFX_EXT, "RT", "RTE", "ROUTE", "HW", "HWY", "HIGHWAY", "ROAD", "RD");
-    setupDictionary(ID_ROUTE_PFX_PFX, "STATE", "ST", "SR", "SRT", "US", "FS", "INTERSTATE", "I", "STHWY", "USHWY", "CO", "CR", "COUNTY");
+    setupDictionary(ID_ROUTE_PFX_PFX, "STATE", "ST", "SR", "SRT", "US", "FS", "INTERSTATE", "I", "STHWY", "SH", "USHWY", "CO", "CR", "COUNTY", "FM");
     setupDictionary(ID_ROUTE_PFX_PFX, new String[]{defState});
     setupDictionary(ID_DIRECTION, "N", "NE", "E", "SE", "S", "SW", "W", "NW", "NB", "EB", "SB", "WB", "EXT");
     setupDictionary(ID_OPT_ROAD_PFX, "OLD", "NEW");
@@ -1265,10 +1271,20 @@ public abstract class SmartAddressParser extends MsgParser {
         end = start + 1;
         if (isType(start, ID_ROUTE_PFX_PFX) && isType(start+1, ID_ROUTE_PFX_EXT)) end++;
         if (isType(end, ID_NUMBER | ID_ALPHA_ROUTE)) {
+          
+          // Yet another special case Texas FM number highways can be terminated
+          // with a street suffix :(
+          if (tokens[start].equalsIgnoreCase("FM")) {
+            if (isType(end+1, ID_ROAD_SFX)) end++;
+          }
           end++;
           break;
         }
       }
+      
+      // OK, OK, if we find a number followed by a connector, we will consider
+      // it a numbered highway (sheesh)
+      if (isType(start, ID_NUMBER) && isType(start+1, ID_CONNECTOR)) return start+1;
       
       // Still no luck,
       // start looking for a street suffix (or cross street indicator
@@ -1276,6 +1292,9 @@ public abstract class SmartAddressParser extends MsgParser {
       end = start;
       boolean good = false;
       while (++end - start <= 3) {
+        
+        // An intersection marker marks the end of things
+        if (isType(end, ID_CONNECTOR)) return -1;
 
         good = true;
         if (isType(end, ID_ROAD_SFX) &&
@@ -1285,8 +1304,6 @@ public abstract class SmartAddressParser extends MsgParser {
         }
         if (isType(end, ID_CROSS_STREET)) break;
         
-        // A number preceded by a route prefix counts as a road
-        if (isType(end, ID_NUMBER) && end > 0 && isType(end-1, ID_ROUTE_PFX)) {end++; break;}
         good = false;
       }
       
@@ -1443,15 +1460,14 @@ public abstract class SmartAddressParser extends MsgParser {
       do {
         if (sfx.length() == 2 && sfx.charAt(1) == 'B' &&
             "NESW".indexOf(sfx.charAt(0)) >= 0) break;
+
+        if (sfx.length() == 1 && 
+            "NESW".indexOf(sfx.charAt(0)) >= 0) break;
         
         // Nothing recognized, return false
         return false;
         
       } while (false);
-      
-      // OK, this looks valid.
-      // But Google maps won't recognize the highway qualifier, so we have to get rid of it
-      tokens[ndx] = token.substring(0, pt);
     }
     
     // OK, we've concluded this is a valid single word road name.  Now we
