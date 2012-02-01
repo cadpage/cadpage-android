@@ -34,6 +34,9 @@ ALLEGHENY COUNTY 911 :27D3S, E0, STABBING - CENTRAL WOUNDS, 612 CENTER AVE, ASP,
 Contact: David Gallagher <ffmedic114@gmail.com>
 ALLEGHENY COUNTY 911 :08B1G, E3, HAZMAT-SMELL OF GAS- ALRT/NO DIFF BREATH, 35 LOCUST ST #1STFL, ETN, btwn ELM WAY and WALNUT ST, NMD1, E16001, Medical ProQA recommends dispatch at this time, Units:171, E160ALL - From 404 05/09/2011 19:48:13 TXT STOP to opt-out
 
+Contact: support@active911.com
+(268 Station) 29D2P, F0, TRAFFIC-HIGH MECHANISM (ROLLOVER), BRIDGEVILLE EXIT, SFT, at 54 SB I-79 OFRP MILLERS RUN RD RMP, SFT, btwn END and MILLERS RUN RD, SFD3, 268003, CAR OVERTURNED, Units:268EN1, 268RQ1 - From 703 01/31/2012 19:18:34
+
 */
 
 public class PAAlleghenyCountyParser extends MsgParser {
@@ -41,20 +44,31 @@ public class PAAlleghenyCountyParser extends MsgParser {
   private static final String MARKER = "ALLEGHENY COUNTY 911 :";
   
   // Run ID consists of one or two 6+ digit numbers
-  private static final Pattern ID_PTN = Pattern.compile("\\d{6,}( +\\d{6,})?");
+  private static final Pattern UNIT_PTN = Pattern.compile("E?\\d{5,}(?: +E?\\d{5,})*");
   
   public PAAlleghenyCountyParser() {
     super("ALLEGHENY COUNTY", "PA");
   }
 
   @Override
-  protected boolean parseMsg(String body, Data data) {
-
-    if (body.startsWith(MARKER)) {
-      body = body.substring(MARKER.length()).trim();
-    } else if (body.startsWith(":")) {
-      body = body.substring(1).trim();
-    } else return false;
+  protected boolean parseMsg(String subject, String body, Data data) {
+    
+    // There are a number of different message markers
+    do {
+      if (body.startsWith(MARKER)) {
+        body = body.substring(MARKER.length()).trim();
+        break;
+      }
+        
+      if (body.startsWith(":")) {
+        body = body.substring(1).trim();
+        break;
+      }
+      
+      if (subject.endsWith(" Station")) break;
+        
+      return false;
+    } while (false);
     
     // Remove trailing stuff that we aren't interested in
     data.expectMore = true;
@@ -112,16 +126,17 @@ public class PAAlleghenyCountyParser extends MsgParser {
         data.strCross = fld.substring(5).trim();
         continue;
       }
-      if (ID_PTN.matcher(fld).matches()) {
-        if (source != null) data.strSource = source;
+      if (UNIT_PTN.matcher(fld).matches()) {
+        if (source != null) data.strSource = append(data.strSource, " ", source);
         source = null;
-        data.strCallId = fld;
+        data.strUnit = append(data.strUnit, " ", fld);
         break;
       }
       if (source != null) {
         if (data.strSupp.length() > 0) data.strSupp += " / ";
         data.strSupp += source;
       }
+      
       source = fld;
     }
     if (source != null) {
@@ -133,17 +148,16 @@ public class PAAlleghenyCountyParser extends MsgParser {
     // supp info
     if (ndx >= fldCnt) return true;
     while (!flds[ndx].startsWith("Units:")) {
-      if (flds[ndx].length() > 0) {
-        if (data.strSupp.length() > 0) data.strSupp += " / ";
-        data.strSupp += flds[ndx];
+      if (!flds[ndx].startsWith("Medical ProQA")) {
+        data.strSupp = append(data.strSupp, " / ", flds[ndx]);
       }
       if (++ndx >= fldCnt) return true;
     }
     
     // Anything from the Unit tag on goes into units
-    data.strUnit = flds[ndx].substring(6).trim();
+    data.strUnit = append(data.strUnit, " ", flds[ndx].substring(6).trim());
     while (++ndx < fldCnt) {
-      if (flds[ndx].length() > 0) data.strUnit = data.strUnit + ' ' + flds[ndx];
+      data.strUnit = append(data.strUnit, " ", flds[ndx]);
     }
     
     return true;
