@@ -995,7 +995,7 @@ Daniel Marlow (marlow4030@gmail.com)<dmarlow4030@gmail.com>
 >>Terry leist <tkl2424@gmail.com>
 >>scot mclean <stm250@gmail.com>
 %%12/23/2011
-Nathan Riggs (n8thgr8@gmail.com)<Nathan.Riggs@davidsoncountync.gov>
+>>Nathan Riggs (n8thgr8@gmail.com)<Nathan.Riggs@davidsoncountync.gov>
 Chad Sacre <ccmksacre@gmail.com>
 Martin Mikhail (thencrediblehulk@gmail.com)<martin.rsengineering@gmail.com>
 John Willard <jwillard9206@gmail.com>
@@ -1099,10 +1099,12 @@ Richard Notarianni <richn043360@gmail.com>
 %%01/30/2012
 David Shapp (dave.shapp@midwayvfc.com)(David@Shapp.com)
 Joe Zujkowski <jzujkowski@gmail.com> // Hunterdon County, NJ
+%%01/31/2012
+Dan Palmer <cantbeatl337@gmail.com>
 
 // List of users getting free credit for 2012
 $free_2012_list
-%2012
+%2012/FREE
 %%01/01/2012
 Kyle Miller <millerk1110@gmail.com>
 Aaron Haynes <firecop142@gmail.com>
