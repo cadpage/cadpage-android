@@ -17,7 +17,8 @@ public class OKTulsaParserTest extends BaseParserTest {
     doTest("T1",
         "PAGE-OUT / 09:11PM Tue 05/10/2011 2200 N HWY167NB EXPY; UNK WHAT IS ON FIRE CS7 ENR PUBLIC SAFETY COMMUNICATIONS",
         "CALL:EXPY",
-        "ADDR:2200 N HWY-167",
+        "ADDR:2200 N HWY-167NB",
+        "MADDR:2200 N HWY 167",
         "INFO:UNK WHAT IS ON FIRE CS7 ENR PUBLIC SAFETY COMMUNICATIONS");
 
     doTest("T2",
@@ -41,7 +42,8 @@ public class OKTulsaParserTest extends BaseParserTest {
     doTest("T5",
         "PAGE-OUT / 06:13PM Wed 05/11/2011 MVA AT 17700 E I44WB EXP; OHP/PAFFORD ENR PUBLIC SAFETY COMMUNICATIONS",
         "CALL:MVA",
-        "ADDR:17700 E I-44",
+        "ADDR:17700 E I-44WB",
+        "MADDR:17700 E I 44",
         "INFO:EXP; OHP/PAFFORD ENR PUBLIC SAFETY COMMUNICATIONS");
 
     doTest("T6",

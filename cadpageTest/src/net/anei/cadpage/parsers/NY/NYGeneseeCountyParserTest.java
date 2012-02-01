@@ -162,7 +162,7 @@ public class NYGeneseeCountyParserTest extends BaseParserTest {
         "PLACE:Batavia Mobile Home Park",
         "ADDR:3322 W MAIN STREET RD",
         "CITY:BATAVIA",
-        "INFO:40 Y/O MALE VOMITTING",
+        "INFO:31 / 40 Y/O MALE VOMITTING",
         "X:WORTENDYKE RD / STEGMAN RD",
         "DATE:01/29/12",
         "TIME:10:53",

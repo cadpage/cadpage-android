@@ -77,7 +77,9 @@ public class OHGeaugaCountyParserTest extends BaseParserTest {
     doTest("T12",
         "GEAUGA COUNTY SHERIFF (Text Message) RESCUE IS NEEDED AT - 9544 old state 32 yof chest pain TXT STOP to opt-out",
         "CALL:RESCUE",
-        "ADDR:9544 old state 32",
+        "PLACE:9544",
+        "ADDR:old state 32",
+        "MADDR:9544,old state 32",
         "INFO:yof chest pain");
 
     doTest("T13",

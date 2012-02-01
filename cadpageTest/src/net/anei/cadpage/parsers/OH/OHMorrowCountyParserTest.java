@@ -37,6 +37,7 @@ public class OHMorrowCountyParserTest extends BaseParserTest {
         "CALL:MVA",
         "PRI:1",
         "ADDR:156 I-71",
+        "MADDR:156 I 71",
         "CITY:PERRY TWP",
         "X:MM 156 & MM 158",
         "INFO:NB / 2 SEMI / UNK IF OTHER SEMI IS CARRYING ANY HAZMAT / ACCIDENT IS SPREAD OUT");

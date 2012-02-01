@@ -92,6 +92,7 @@ public class VALexingtonRockbridgeCountyParserTest extends BaseParserTest {
         "S:LCAD M:[LCAD] Type: ACCIDENT MVC Loc: I-81 N BOUND Units: CO09A,LXRS1, City: LEXINGTON 8/14/2011 2:36:17 PM **Nearest Address: \n\n",
         "CALL:ACCIDENT MVC",
         "ADDR:I-81 N BOUND",
+        "MADDR:I 81 N BOUND",
         "UNIT:CO09A,LXRS1,",
         "CITY:LEXINGTON");
   }

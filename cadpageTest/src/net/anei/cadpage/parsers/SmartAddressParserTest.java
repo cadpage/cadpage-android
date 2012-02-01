@@ -505,8 +505,8 @@ public class SmartAddressParserTest extends BaseParserTest {
   public void testRoadTokens() {
     doTest(SKIP, "BAD US-30", "ADDR:US-30");
     doTest(SKIP, "BAD us30", "ADDR:us-30");
-    doTest(SKIP, "BAD ST30NB", "ADDR:ST-30");
-    doTest(SKIP, "BAD I105WB", "ADDR:I-105");
+    doTest(SKIP, "BAD ST30NB", "ADDR:ST-30NB");
+    doTest(SKIP, "BAD I105WB", "ADDR:I-105WB");
     doTest(SKIP, "BAD CO7", "ADDR:CO-7");
     
     doTest(SKIP, "BAD ST30A", "ADDR:BAD ST30A");

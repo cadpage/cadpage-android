@@ -109,6 +109,7 @@ public class MIRichmondParserTest extends BaseParserTest {
         "**TEST**  I-94/CHURCH RD,  CASCO. ROLLOVER ACCIDENT",
         "CALL:TEST - ROLLOVER ACCIDENT",
         "ADDR:I-94 & CHURCH RD",
+        "MADDR:I 94 & CHURCH RD",
         "CITY:CASCO");
 
     doTest("T19",

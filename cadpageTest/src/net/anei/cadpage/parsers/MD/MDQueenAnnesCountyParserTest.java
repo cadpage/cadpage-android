@@ -25,7 +25,7 @@ public class MDQueenAnnesCountyParserTest extends BaseParserTest {
     doTest("T2",
         "qac911:*D 4-5 MVC W/ENTRAPMENT RT301NB / RT304 RESCUE BOX Q04",
         "CALL:4-5 MVC W/ENTRAPMENT",
-        "ADDR:RT301 & RT304",
+        "ADDR:RT301NB & RT304",
         "MADDR:RT 301 & RT 304",
         "INFO:RESCUE",
         "BOX:Q04");
@@ -41,7 +41,7 @@ public class MDQueenAnnesCountyParserTest extends BaseParserTest {
     doTest("T4",
         "qac911:*D 4-5 UNCONSCIOUS/FAINTING RT301NB / ROLLING BRIDGE RD UNCONSCIOUS Q04",
         "CALL:4-5 UNCONSCIOUS/FAINTING",
-        "ADDR:RT301 & ROLLING BRIDGE RD",
+        "ADDR:RT301NB & ROLLING BRIDGE RD",
         "MADDR:RT 301 & ROLLING BRIDGE RD",
         "INFO:UNCONSCIOUS",
         "BOX:Q04");
@@ -49,7 +49,7 @@ public class MDQueenAnnesCountyParserTest extends BaseParserTest {
     doTest("T5",
         "qac911:*D 5-2 MVC W/ROLLOVER RT301NB / HAYDEN RD RESCUE BOX Q05",
         "CALL:5-2 MVC W/ROLLOVER",
-        "ADDR:RT301 & HAYDEN RD",
+        "ADDR:RT301NB & HAYDEN RD",
         "MADDR:RT 301 & HAYDEN RD",
         "INFO:RESCUE",
         "BOX:Q05");

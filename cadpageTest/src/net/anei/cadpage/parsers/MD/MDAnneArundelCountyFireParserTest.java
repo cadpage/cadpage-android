@@ -19,6 +19,7 @@ public class MDAnneArundelCountyFireParserTest extends BaseParserTest {
         "CITY:SEVERN",
         "CALL:FIRE ACTIVITY",
         "ADDR:I-97 & BENFIELD",
+        "MADDR:I 97 & BENFIELD",
         "INFO:BENFIELD RAMP CLOSED DUE TO BRUSH FIRE.");
 
     doTest("T2",

@@ -338,7 +338,7 @@ public class NYSteubenCountyParserTest extends BaseParserTest {
         "SRC:Avoca FD",
         "PLACE:MILE 139",
         "ADDR:I-86",
-        "MADDR:I-86 & BETWEEN EXIT 35 +",
+        "MADDR:I 86 & BETWEEN EXIT 35 +",
         "X:BETWEEN EXIT 35 +",
         "CODE:29B1",
         "CALL:Traffic Accidents  Injuries");
@@ -348,7 +348,7 @@ public class NYSteubenCountyParserTest extends BaseParserTest {
         "SRC:Avoca FD",
         "PLACE:MILE 139",
         "ADDR:I-86",
-        "MADDR:I-86 & BETWEEN EXIT 35 +",
+        "MADDR:I 86 & BETWEEN EXIT 35 +",
         "X:BETWEEN EXIT 35 +",
         "CODE:29B1",
         "CALL:RECALLED - Traffic Accidents  Injuries");
@@ -484,7 +484,7 @@ public class NYSteubenCountyParserTest extends BaseParserTest {
         "SRC:BTFD",
         "PLACE:MILE 154",
         "ADDR:I-86",
-        "MADDR:I-86 & BETWEEN EXIT 39 +",
+        "MADDR:I 86 & BETWEEN EXIT 39 +",
         "X:BETWEEN EXIT 39 +",
         "CODE:29D2",
         "CALL:Traffic Accidents High mechanism");

@@ -78,8 +78,8 @@ public class VAAugustaCountyParserTest extends BaseParserTest {
     doTest("T9",
         "CAD:AUTOMOBILE ACCIDENT:I81NB;AREA MM 217.9",
         "CALL:AUTOMOBILE ACCIDENT",
-        "ADDR:I-81",
-        "MADDR:AREA MM 217.9,I-81",
+        "ADDR:I-81NB",
+        "MADDR:AREA MM 217.9,I 81",
         "PLACE:AREA MM 217.9");
   }
   
@@ -89,7 +89,8 @@ public class VAAugustaCountyParserTest extends BaseParserTest {
     doTest("T10",
         "CAD:AUTOMOBILE ACCIDENT:I81NB AREA MM 217.9",
         "CALL:AUTOMOBILE ACCIDENT",
-        "ADDR:I-81 PLACE:AREA MM 217.9");
+        "ADDR:I-81 PLACE:AREA MM 217.9",
+        "MADDR:I 81 PLACE:AREA MM 217.9");
     
   }
   

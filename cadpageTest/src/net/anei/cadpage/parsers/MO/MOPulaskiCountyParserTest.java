@@ -40,6 +40,7 @@ public class MOPulaskiCountyParserTest extends BaseParserTest {
         "MOTOR VEHICLE ACCIDENT WITH INJURY  150 I-44 EAST UNIT PULASKI COUNTY CrossStreets: HFD2 Call Received Time: 12/6/2010 22:25:49 Dispatch: 12/6/2010 22:28:11",
         "CALL:MOTOR VEHICLE ACCIDENT WITH INJURY",
         "ADDR:150 I-44 EAST",
+        "MADDR:150 I 44 EAST",
         "CITY:PULASKI COUNTY",
         "UNIT:HFD2");
 

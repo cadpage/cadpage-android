@@ -65,6 +65,7 @@ public class WIEauClaireParserTest extends BaseParserTest {
         "TIME::48:14 PM",
         "CITY:Union",
         "ADDR:I-94, 59mm, Westbound",
+        "MADDR:I 94, 59mm, Westbound",
         "CALL:Motorvehicle Collision",
         "INFO:10/50 PI");
 

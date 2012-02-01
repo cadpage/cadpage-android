@@ -34,7 +34,7 @@ public class KYDaviessCountyParserTest extends BaseParserTest {
         "911-CENTER:ACCINJ>ACCIDENT WITH INJURIES 3970 CRANE POND RD XS: U S HIGHWAY 231 PHILPOT JOHNS, AMY Map: Grids:, Cad: 2011-0000013291",
         "CALL:ACCIDENT WITH INJURIES",
         "ADDR:3970 CRANE POND RD",
-        "X:U S HIGHWAY 231",
+        "X:US HIGHWAY 231",
         "NAME:PHILPOT JOHNS, AMY",
         "ID:2011-0000013291");
 
@@ -42,7 +42,7 @@ public class KYDaviessCountyParserTest extends BaseParserTest {
         "911-CENTER:FF >WILDLAND FIRE 9707 OLD HARTFORD RD XS: U S HIGHWAY 231 UTICA KIPLING, ED Map: Grids:, Cad: 2011-0000013076",
         "CALL:WILDLAND FIRE",
         "ADDR:9707 OLD HARTFORD RD",
-        "X:U S HIGHWAY 231",
+        "X:US HIGHWAY 231",
         "NAME:UTICA KIPLING, ED",
         "ID:2011-0000013076");
 
