@@ -277,10 +277,20 @@ public class NYNiagaraCountyParserTest extends BaseParserTest {
         "ADDR:7300 Winbert Dr",
         "INFO:45yof Chest Pain EMS OPS ALSP",
         "DATE:01/06/12",
-        "TIME:0442");
-  }
+        "TIME:04:42");
+
+    doTest("T40",
+        "((64253) NCFC CGREENE) FIRE ALM @ Wilson Central School - 374 Lake St (Main Bldg) - OPS 1 - 01/31/12 @ 0355/hrs",
+        "ID:64253",
+        "CALL:FIRE ALM",
+        "PLACE:Wilson Central School",
+        "ADDR:374 Lake St",
+        "INFO:(Main Bldg) - OPS 1",
+        "DATE:01/31/12",
+        "TIME:03:55");
+ }
   
   public static void main(String[] args) {
-    new NYNiagaraCountyParserTest().generateTests("T1", "ID CALL ADDR APT INFO DATE TIME PLACE");
+    new NYNiagaraCountyParserTest().generateTests("T1", "ID CALL PLACE ADDR APT INFO DATE TIME");
   }
 }
