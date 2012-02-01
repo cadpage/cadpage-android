@@ -81,6 +81,13 @@ public class NCHarnettCountyParserTest extends BaseParserTest {
         "CITY:LINDEN",
         "CALL:FIRE RES STR");
 
+    doTest("T11",
+        "1201-009149*1 YOUNG RD***ANGIER**FIRE ILLEGAL*********",
+        "ID:1201-009149",
+        "ADDR:1 YOUNG RD",
+        "CITY:ANGIER",
+        "CALL:FIRE ILLEGAL");
+
   }
 
   public static void main(String[] args) {
