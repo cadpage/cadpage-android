@@ -3807,10 +3807,11 @@ BTF03
 BTFIRE
 REPORT OF A FIRE IN THE FURNACE
 **********************************************************
-Unknown
+Polk County, IA (Grimes Fire & Rescue)
 Contact: angela brouwer <abrouwerdcg@gmail.com>
 Sender: 777129998926
 .... (Grimes) Location: 500 S JAMES ST GRIM: @SCHOOL - GRIM Type: STILL VEHICLE Caller:  Time: 19:47:24
+.... (Grimes) Location: 101 SE DESTINATION DR GRIMES Type: MEDICAL  Caller: GRIMES FAMILY PHYSICIANS Time: 10:54:07
 **********************************************************
 **********************************************************
 **********************************************************

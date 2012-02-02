@@ -20,6 +20,11 @@ RT:SMOKEINVES-INVESTIGATE SMOKE  Loc:LONDON LN, HAMILTON COUNTY  (SALEM RD/BILL 
 RT:ACC1-MOTOR VEHICLE ACCIDENT WITH INJURIES  Loc:STANDIFER GAP RD, HAMILTON COUNTY  (CROSS GATE RD/OOLTEWAH RINGGOLD RD)  #[9243-9299]
 RT:FTRASH-OUTSIDE TRASH FIRE  Loc:5205 ALABAMA RD, HAMILTON COUNTY  (BATES RD/BLAIR RD)  #[5000-5399]
 
+Contact: Darren Randall <d.randall@tricommunityfire.com>
+Sender: <user phone>
+RT:AFA RESIDENTIAL  Loc:2706 NILE RD, HAMILTON COUNTY  (CLIPPER DR/DANUBE DR)  #
+
+
  */
 
 public class TNHamiltonCountyParser extends FieldProgramParser {
@@ -37,6 +42,7 @@ public class TNHamiltonCountyParser extends FieldProgramParser {
     
     int pt = body.indexOf("  #[");
     if (pt >= 0) body = body.substring(0,pt).trim();
+    if (body.endsWith("#")) body = body.substring(0,body.length()-1).trim();
     else data.expectMore = true;
     
     return super.parseMsg(body, data);

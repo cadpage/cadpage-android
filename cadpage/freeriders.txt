@@ -1006,10 +1006,10 @@ Daniel Marlow (marlow4030@gmail.com)<dmarlow4030@gmail.com>
 >>Brandon Hull <blinky132@gmail.com>
 %%12/26/2011
 >>"John" (john.mossbrooks@gmail.com)<mossyoak1992@yahoo.com>
-JTK (jtkphotograph@gmail.com)<kingkittygeosnick@yahoo.com>
-Paul Gupta <paul.n.gupta@gmail.com>
+>>JTK (jtkphotograph@gmail.com)<kingkittygeosnick@yahoo.com>
+>>Paul Gupta <paul.n.gupta@gmail.com>
 %%12/27/2011
-Dawn Moore <dawn.moore1021@gmail.com>
+>>Dawn Moore <dawn.moore1021@gmail.com>
 Brian Garbutt <bgarbutt55@gmail.com>
 "pmonahan6@live.com" (pmonahan630@gmail.com)<pmonahan6@live.com>
 Julie Maiorana <julie.maiorana@gmail.com>
@@ -1378,4 +1378,6 @@ Chris Heimel <chrisheimel77@gmail.com>
 John Short <ffshort444@gmail.com>
 Randy Haylock <redneck8621@gmail.com>
 will craine <firefighterwill.craine64@gmail.com>
-
+"chris dorsey " <dosay2003@hotmail.com>
+Stephen Gagliardi <stephen249surf@gmail.com>
+Michele Murphy <usatrini01@gmail.com>
