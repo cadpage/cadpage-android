@@ -83,6 +83,17 @@ public class TNHamiltonCountyParserTest extends BaseParserTest {
  
   }
   
+  @Test
+  public void testParser2() {
+
+    doTest("T1",
+        "RT:AFA RESIDENTIAL  Loc:2706 NILE RD, HAMILTON COUNTY  (CLIPPER DR/DANUBE DR)  #",
+        "CALL:AFA RESIDENTIAL",
+        "ADDR:2706 NILE RD",
+        "X:CLIPPER DR/DANUBE DR");
+
+  }
+  
 
   public static void main(String[] args) {
     new TNHamiltonCountyParserTest().generateTests("T1");

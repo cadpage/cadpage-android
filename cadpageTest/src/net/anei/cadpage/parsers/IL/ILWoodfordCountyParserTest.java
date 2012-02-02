@@ -90,6 +90,15 @@ public class ILWoodfordCountyParserTest extends BaseParserTest {
         "PLACE:PARSONS COMPANY",
         "CITY:ROANOKE",
         "UNIT:1V24 ROFD WF8");
+
+    doTest("T9",
+        "(Woodford Comm) 12-002663 FIRE\n1248 1700E\n1200N / 1300N/\nROANOKE\n1V24 ROFD",
+        "ID:12-002663",
+        "CALL:FIRE",
+        "ADDR:1248 1700E",
+        "X:1200N / 1300N/",
+        "CITY:ROANOKE",
+        "UNIT:1V24 ROFD");
    
   }
   
