@@ -3788,15 +3788,6 @@ Contact: Mike ECFW <webmaster@ecfwire.com>
 Sender: news@1rwn.com
   / DEPEW, NY -ERIE- *WORKING FIRE* 108 WYANDOTTE ST CS LAVERACK AVE. SVCS OS ADV ATTIC FIRE IN A 1 STY OCC DWG. 1 LSO.  MA REQ TO SCN. NY537\n\n
 **********************************************************
-Singerly VFD in Cecil County, MD
-Contact: Rob <robertjr1975@aol.com>
-Sender: singerly@gmail.com
-FRM:singerly@gmail.com\nMSG:1304A\nBUILDING FIRE\nELKTON MIDDLE SCHOOL @615 NORT\n23:20:22\n11021680\n23:23:02\nCALLER DRIVING BY SCHOOL AND S
-
-Contact: Christopher Olson <lilsmokeeater5@yahoo.com>
-singerly@gmail.com: 0201A\nHOUSE \nHOUSE FIRE\n470 BLAIR SHORE RD\nBLAIR LN\nWOOD DUCK LN\n22:39:45\n12001775\n22:42:05\nSMELL OF SOMETHING BURNING GET
-singerly@gmail.com: 1401\nHOUSE \nHOUSE FIRE\n1030 KIRK RD\nBLACKSNAKE RD\nPROVIDENCE RD\n07:47:54\n12001740\n07:50:02\nCHIMNEY FIRE WITH FLAMES CALLE 
-**********************************************************
 Suffolk County NY (alternate)
 Contact: Todd Rudloff <btfd43capt2@gmail.com>
 
@@ -3816,6 +3807,10 @@ BTF03
 BTFIRE
 REPORT OF A FIRE IN THE FURNACE
 **********************************************************
+Unknown
+Contact: angela brouwer <abrouwerdcg@gmail.com>
+Sender: 777129998926
+.... (Grimes) Location: 500 S JAMES ST GRIM: @SCHOOL - GRIM Type: STILL VEHICLE Caller:  Time: 19:47:24
 **********************************************************
 **********************************************************
 **********************************************************
@@ -4011,3 +4006,69 @@ FRM:ce911@ci.eugene.or.us\nMSG:LRF TYP: STRUCTURE FIRE AD: 18152 HWY 36 CTY: UNC
 FRM:ce911@ci.eugene.or.us\nMSG:LDF TYP: BLEEDING D AD: 88267 TERRITORIAL RD CTY: VENETA MAP: LF00008 LOC: DON JUAN RESTAURANT TIME: 18:03
 FRM:ce911@ci.eugene.or.us\nMSG:LDF TYP: MVA AD: CANTRELL RD&CENTRAL RD CTY: UNC EUG MAP: LF00008 TIME: 15:41
 FRM:ce911@ci.eugene.or.us\nMSG:LDF TYP: CHEST PAIN C AD: 29733 LUSK RD CTY: UNC EUG MAP: LF00015 TIME: 07:37
+**********************************************************
+Singerly VFD in Cecil County, MD
+Contact: Rob <robertjr1975@aol.com>
+Sender: singerly@gmail.com
+FRM:singerly@gmail.com\nMSG:1304A\nBUILDING FIRE\nELKTON MIDDLE SCHOOL @615 NORT\n23:20:22\n11021680\n23:23:02\nCALLER DRIVING BY SCHOOL AND S
+
+Contact: Christopher Olson <lilsmokeeater5@yahoo.com>
+singerly@gmail.com: 0201A\nHOUSE \nHOUSE FIRE\n470 BLAIR SHORE RD\nBLAIR LN\nWOOD DUCK LN\n22:39:45\n12001775\n22:42:05\nSMELL OF SOMETHING BURNING GET
+singerly@gmail.com: 1401\nHOUSE \nHOUSE FIRE\n1030 KIRK RD\nBLACKSNAKE RD\nPROVIDENCE RD\n07:47:54\n12001740\n07:50:02\nCHIMNEY FIRE WITH FLAMES CALLE
+ 
+singerly@gmail.com: 0304
+MVA (M
+MOTOR VEHICLE ACC
+SINGERLY FIRE COMPAN @399 E PU
+00:49:36
+12001778
+00:49:54
+
+singerly@gmail.com: 1303
+AFA (A
+AUTOMATIC FIRE ALARM
+515 FLETCHWOOD RD @WAREHOUSE S
+OAKMONT DR
+OAKRIDGE CT
+01:25:41
+12001779
+01:26:04
+WAREHOUSE AREA WATER FLOW, BUS
+
+singerly@gmail.com: 0304
+MVA (M
+MOTOR VEHICLE ACC
+E PULASKI HWY / DELANCY RD
+13:56:29
+12001803
+13:58:00
+2 VEHICLES 2 PATIENTS
+
+singerly@gmail.com: 0305
+MVA (M
+MOTOR VEHICLE ACC
+W PULASKI HWY / LANDING LN
+14:23:22
+12001804
+14:25:09
+POL
+
+singerly@gmail.com: 1302
+AFA (A
+AUTOMATIC FIRE ALARM
+110 JAMES ST @ELKTON HIGH SCHO
+07:05:19
+12001833
+07:06:12
+GENERAL ALARM/WILL ATTEMPT TO
+
+singerly@gmail.com: 1303
+AFA (A
+AUTOMATIC FIRE ALARM
+515 FLETCHWOOD RD @WAREHOUSE S
+OAKMONT DR
+OAKRIDGE CT
+23:02:22
+12001882
+23:03:48
+ZONE 86 WATERFLOW WEARHOUSE 1 
