@@ -783,6 +783,18 @@ public class PABucksCountyParserTest extends BaseParserTest {
         "MAP:2695A8",
         "TIME:18:16:46",
         "ID:FD1201502\\4sRun: FP57 FP75");
+
+    doTest("T59",
+        "911: STA57  type:BTAI    adr:PORTZER RD/RT 663 ,45  aai:ON PORTZER,,PAST ANIMAL HOSP  box:57007  map:2695A9  tm:18:05:19  ED1203958",
+        "SRC:STA57",
+        "CALL:BTAI - BLS TRAFFIC ACCIDENT (MINOR INJURIES)",
+        "BOX:57007",
+        "ADDR:PORTZER RD & RT 663",
+        "CITY:MILFORD TWP",
+        "INFO:ON PORTZER,,PAST ANIMAL HOSP",
+        "MAP:2695A9",
+        "TIME:18:05:19",
+        "ID:ED1203958");
   }
   
   @Test

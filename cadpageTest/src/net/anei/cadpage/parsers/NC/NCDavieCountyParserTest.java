@@ -122,10 +122,20 @@ public class NCDavieCountyParserTest extends BaseParserTest {
         "NAME:FOWLER ANSLO",
         "PHONE:336-284-4275",
         "UNIT:14");
+
+    doTest("T12",
+        "911:Call #120201-4100* Address:1407 JUNCTION RD* * * City:MOCKSVILLE* * Type:50PD* ACCIDENT/DAMAGE* INNES* PH#:704-640-5463* Units:14* IRA:*",
+        "ID:120201-4100",
+        "ADDR:1407 JUNCTION RD",
+        "CITY:MOCKSVILLE",
+        "CALL:50PD - ACCIDENT/DAMAGE",
+        "NAME:INNES",
+        "PHONE:704-640-5463",
+        "UNIT:14");
   }
   
 
   public static void main(String[] args) {
-    new NCDavieCountyParserTest().generateTests("T12");
+    new NCDavieCountyParserTest().generateTests("T13");
   }
 }
