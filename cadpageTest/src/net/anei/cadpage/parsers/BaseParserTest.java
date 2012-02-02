@@ -421,11 +421,9 @@ public abstract class BaseParserTest {
     if (sType.equals("PLACE")) return info.getPlace();
     if (sType.equals("ADDR")) return info.getAddress();
     if (sType.equals("MADDR")) {
-      String mapAddr = info.getMapAddress(false, null, null);
-      int pt = mapAddr.indexOf(',');
-      if (pt >= 0) mapAddr = mapAddr.substring(0,pt).trim();
-      if (mapAddr.equals(info.getAddress())) mapAddr = "";
-      return mapAddr;
+      String addr = info.getBaseMapAddress();
+      if (addr.equals(info.getAddress())) addr = "";
+      return addr;
     }
     if (sType.equals("CITY")) return info.getCity();
     if (sType.equals("APT")) return info.getApt();

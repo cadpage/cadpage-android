@@ -865,6 +865,28 @@ public class PABucksCountyParserTest extends BaseParserTest {
         "ID:FD1201251",
         "UNIT:E29 E78 L90");
 
+    doTest("T8",
+        "(#7645  1/1) BTAI\nadr:W STREET RD/YORK RD ,74\nbox:90041 map:3147E7\ntm:08:14:08 ED1204133",
+        "CALL:BTAI - BLS TRAFFIC ACCIDENT (MINOR INJURIES)",
+        "BOX:90041",
+        "ADDR:W STREET RD & YORK RD",
+        "CITY:WARMINSTER TWP",
+        "MAP:3147E7",
+        "TIME:08:14:08",
+        "ID:ED1204133");
+
+    doTest("T9",
+        "(#7651  1/2) BFALL\nadr:2010 YORK RD ,76 -- YORK TOWN MANOR\nbtwn:MEYER WY & PARK DR\naai:UNIT 119\nbox:66050 map:3035F10\ntm:09:07:36",
+        "CALL:BFALL - FALL VICTIM - NON CRITICAL",
+        "BOX:66050",
+        "PLACE:YORK TOWN MANOR",
+        "ADDR:2010 YORK RD",
+        "CITY:WARWICK TWP",
+        "X:MEYER WY & PARK DR",
+        "INFO:UNIT 119",
+        "MAP:3035F10",
+        "TIME:09:07:36");
+
   }
   
   @Test

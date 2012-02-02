@@ -105,7 +105,15 @@ public class NCOrangeCountyParserTest extends BaseParserTest {
         "CALL:HEART PROBLEMS",
         "ADDR:218 CEDAR CLUB CIR",
         "TIME:11:42:42");
-   
+
+    doTest("T6",
+        "(CAD Page for CFS 020112-248) RECD: 16:04:19\nTG: OPS \nINC: OTHER, FIRE\nLOC: 403 MARTIN LUTHER KING JR BLVD\nAPT: \nBLDG: \nEMD:",
+        "ID:020112-248",
+        "CH:OPS",
+        "CALL:OTHER, FIRE",
+        "ADDR:403 MARTIN LUTHER KING JR BLVD",
+        "TIME:16:04:19");
+  
   }
   
 
