@@ -3797,6 +3797,24 @@ Contact: Christopher Olson <lilsmokeeater5@yahoo.com>
 singerly@gmail.com: 0201A\nHOUSE \nHOUSE FIRE\n470 BLAIR SHORE RD\nBLAIR LN\nWOOD DUCK LN\n22:39:45\n12001775\n22:42:05\nSMELL OF SOMETHING BURNING GET
 singerly@gmail.com: 1401\nHOUSE \nHOUSE FIRE\n1030 KIRK RD\nBLACKSNAKE RD\nPROVIDENCE RD\n07:47:54\n12001740\n07:50:02\nCHIMNEY FIRE WITH FLAMES CALLE 
 **********************************************************
+Suffolk County NY (alternate)
+Contact: Todd Rudloff <btfd43capt2@gmail.com>
+
+[Message from HipLink]  BTFD
+Fire Alarm
+PAGED
+11 MANSFIELD DR
+BTF02
+BTFIRE
+ADT,877-535-0563 OPER#AMH, REPORTS AN ACTIVATED GENERAL FIRE ALARM.
+
+[Message from HipLink]  BTFD
+Fire Other
+PAGED
+16 CARLISLE DR
+BTF03
+BTFIRE
+REPORT OF A FIRE IN THE FURNACE
 **********************************************************
 **********************************************************
 **********************************************************
