@@ -1,30 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">01252012</string>
-  <string name="release_version">v1.5.12</string>
+  <string name="release_date">02022012</string>
+  <string name="release_version">v1.5.13</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="min_expire_date">10012012</string>
   <string name="release_text">
 What"'"s new in this release\n
 \n
+New Locations:\n
+Hunterdon County, NJ\n
+Monmouth County, NJ\n
+Liberty County, TX\n
+\n
 Location Parsing Fixes:\n
-Newcastle County, DE\n
-Weld County, CO\n
+Colbert County, AL\n
+Eaton County, MI\n
 Genesee County, NY\n
-Ontario County, NY\n
-Westchester County, NY\n
-Alexander County, NC\n
-Gaston County, NC\n
+Niagara County, NY\n
 Harnett County, NC\n
-Hoke County, NC\n
-Hamilton County, OH\n
-Benton County, OR\n
-Frederick County, VA\n
+Haywood County, NC\n
+Johnston County, NC\n
+Lincoln County, NC\n
+Macon County, NC\n
+Orange County, NC\n
+Allegheny County, PA\n
+Buck County, PA\n
+Butler County, PA\n
+Cambria County, PA\n
+Hamilton County, TN\n
+Collin County, TX\n
 \n
 General Fixes:\n
 Fixed several problems with direct paging\n
-Fixed problem with split message merge logic\n
   </string>  
 </resources>
   
