@@ -1,5 +1,6 @@
 package net.anei.cadpage.vendors;
 
+import android.net.Uri;
 import net.anei.cadpage.R;
 
 class Active911Vendor extends Vendor {
@@ -10,7 +11,7 @@ class Active911Vendor extends Vendor {
            R.string.active911_text,
            R.drawable.active_911_vendor,
            R.drawable.active_911_logo,
-           "https://www.active911.com/cadpage_registration",
+           "https://www.active911.com",
            ">A91",
            "support@active911.com");
   }
@@ -24,6 +25,14 @@ class Active911Vendor extends Vendor {
   boolean isAvailable() {
     return true;
   }
-  
-  
+
+  @Override
+  Uri getBaseURI(String req) {
+    Uri uri = super.getBaseURI();
+    if (req.equals("register") || req.equals("info") || req.equals("profile")) {
+      return uri.buildUpon().appendPath("cadpage_registration").build();
+    } else {
+      return uri.buildUpon().appendPath("interface").appendPath("cadpage_api.php").build();
+    }
+  }
 }

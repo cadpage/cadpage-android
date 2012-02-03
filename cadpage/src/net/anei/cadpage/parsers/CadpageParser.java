@@ -165,7 +165,7 @@ public class CadpageParser  extends FieldProgramParser{
     append(sb, "DATE", info.getDate(), delim);
     append(sb, "TIME", info.getTime(), delim);
     append(sb, "CALL", info.getCall(), delim);
-    append(sb, "PL", info.getPlace(), delim);
+    append(sb, "PLACE", info.getPlace(), delim);
     append(sb, "ADDR", info.getAddress(), delim);
     append(sb, "CITY", info.getCity(), delim);
     append(sb, "ST", info.getState(), delim);

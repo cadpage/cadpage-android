@@ -68,7 +68,11 @@ req=reregister  Used by Cadpage to report a change to the device registration ID
     type            C2DM for now (Another code my be used in future for Apple Push connections)
     CadpageRegId    New Cadpage registration ID
     
-    Return an OK or ERROR response code to indicate success or failure
+    Return an 200 - OK if successful
+              400 - ERROR if device is not found or has been deregistered
+              Anything else indicates link is broken but fixable.  In a broken
+              state Cadpage will attempt a reregister with the old account
+              and token information when user attempts to reregister
     
 req=unregister     Used by Cadpage to inidicate user request to unregister their phone  
     vendor          Vendor code
@@ -99,11 +103,14 @@ type:   Message type which can take following values
         PING - Cadpage will initiate automatic response to server
         PAGE (or anything not listed above) - alert page
         
-For REGISTER and UNREGISTER types
+For REGISTER type
 vendor:     Assigned vendor code 
 account:    Users account number with your service
 token:      Security token that will be reported back to your servers with
             re-register and unregister requests
+            
+For UNREGISTER type            
+vendor:     Assigned vendor code 
             
 For regular message requests    
 Either content or contentURL must be specified, everything else is optional.    
@@ -115,7 +122,8 @@ content_url - URL from from which message content can be retrieved
 format - Format/location parsing code (default, use user configured location code)
 vendor - Your vendor code.  Not required, but it does help us tag the message display
          as coming through your service
-date - date/time you received page from dispatch, in a format yet to be specified.
+unix_time - date/time you received page from dispatch, as a unix timestamp 
+            (seconds since midnight Jan 1, 1970)
 
 For everything
 ack_url:  URL Cadpage will connect with to acknowledge message status (optional)

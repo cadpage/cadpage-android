@@ -119,6 +119,14 @@ abstract class Vendor {
   }
   
   /**
+   * @param request type of request this will be used for
+   * @return base vendor URI that we use to communicate with this vendor
+   */
+  Uri getBaseURI(String req) {
+    return getBaseURI();
+  }
+  
+  /**
    * @return base vendor URI that we use to communicate with this vendor
    */
   Uri getBaseURI() {
@@ -383,7 +391,7 @@ abstract class Vendor {
         if (status % 100 == 2) return;
         showNotice(context, R.string.vendor_register_err_msg, result);
         enabled = false;
-        broken = true;
+        broken = (status != 400);
         saveStatus();
         reportStatusChange();
       }});
@@ -435,7 +443,7 @@ abstract class Vendor {
    */
   private Uri buildRequestUri(String req, String registrationId) {
     String phone = UserAcctManager.instance().getPhoneNumber();
-    Uri.Builder builder = baseURI.buildUpon();
+    Uri.Builder builder = getBaseURI(req).buildUpon();
     builder = builder.appendQueryParameter("req", req);
     builder = builder.appendQueryParameter("vendor", getVendorCode());
     if (account != null) builder = builder.appendQueryParameter("account", account);

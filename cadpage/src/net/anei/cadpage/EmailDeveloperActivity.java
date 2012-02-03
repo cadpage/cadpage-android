@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+import net.anei.cadpage.donation.DeveloperToolsManager;
 import net.anei.cadpage.donation.DonationManager;
 import net.anei.cadpage.donation.UserAcctManager;
 import net.anei.cadpage.vendors.VendorManager;
@@ -162,6 +163,13 @@ public class EmailDeveloperActivity extends Activity {
       UserAcctManager.instance().addAccountInfo(body);
     }
     
+    // If user is a developer, log the message contents.  This helps get
+    // the info on emulators where no email clients are available
+    String message = body.toString();
+    if (DeveloperToolsManager.instance().isDeveloper(context)) {
+      Log.w(message);
+    }
+    
     // Build send email intent and launch it
     Intent intent = new Intent(Intent.ACTION_SEND);
     String[] emailAddr = context.getResources().getStringArray(R.array.email_devel_addr);
@@ -175,7 +183,7 @@ public class EmailDeveloperActivity extends Activity {
     String emailSubject = CadPageApplication.getNameVersion() + " " +
         context.getResources().getStringArray(R.array.email_devel_subject)[type.ordinal()];
     intent.putExtra(Intent.EXTRA_SUBJECT, emailSubject);
-    intent.putExtra(Intent.EXTRA_TEXT, body.toString());
+    intent.putExtra(Intent.EXTRA_TEXT, message);
     intent.setType("message/rfc822");
     context.startActivity(Intent.createChooser(
         intent, context.getString(R.string.pref_sendemail_title)));
