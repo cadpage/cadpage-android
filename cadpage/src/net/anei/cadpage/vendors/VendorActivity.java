@@ -1,6 +1,7 @@
 package net.anei.cadpage.vendors;
 
 import net.anei.cadpage.R;
+import net.anei.cadpage.SmsPopupUtils;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -65,7 +66,9 @@ public class VendorActivity extends Activity {
     btn.setOnClickListener(new OnClickListener(){
       @Override
       public void onClick(View v) {
-        VendorActivity.this.finish();
+        if (SmsPopupUtils.haveNet(VendorActivity.this)) {
+          VendorActivity.this.finish();
+        }
       }
     });
   }
@@ -80,7 +83,9 @@ public class VendorActivity extends Activity {
         .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener(){
           @Override
           public void onClick(DialogInterface dialog, int which) {
-            vendor.unregisterReq(VendorActivity.this);
+            if (SmsPopupUtils.haveNet(VendorActivity.this)) {
+              vendor.unregisterReq(VendorActivity.this);
+            }
           }
         })
         .setNegativeButton(android.R.string.no, null)

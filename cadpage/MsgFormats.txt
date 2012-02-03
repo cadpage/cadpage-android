@@ -1097,7 +1097,7 @@ DISPATCH From FED01:ALS1, Medic Local, 4500 LORDS LANDING RD #205, PP, btwn BISH
 DISPATCH From FED10:ALS1, Medic Local, 6802 BURCH HILL RD, PP, btwn BRANDYWINE RD and COLLIN HILL WAY, TGC2
 DISPATCH From FED10:BLS0, BLS Amb, 12003 WALLACE LN, PP, btwn DULEY STATION RD and WALLACE LANDING CT, TGC 2, 4504, 5884 C 1, Medical ProQA recommends dispatch at this time, Unit:A820
 BC 887 STREET, Street Alarm, 11113 BIRCH WAY, PP, btwn ELM WAY and PENNY AVE, TGC3, 2515, 5882 G 2, Fire ProQA recommends dispatch at this time, Units:BO887, E825, RE840, SQ827, TK832
-E820 ALS, Medic Local, 15903 BISHOPSTONE TER, PP, btwn GALESHEAD DR and END, TGA2, 2001, 5653 D 5, Police ProQA recommends dispatch at this time, Units:A843, E820, NMR Eff Body:ProQA recommends dispatch at this time, Units:A843, E820, NMR
+E820 ALS, Medic Local, 15903 BISHOPSTONE TER, PP, btwn GALESHEAD DR and END, TGA2, 2001, 5653 D 5, Police ProQA recommends dispatch at this time, Units:A843, E820, NMR
 SQ814 APTF, Apartment Fire, 1404 KANAWHA ST #302, PP, btwn 14TH AVE and 15TH AVE, TGA2, 3413, 5409 C 2, Fire ProQA recommends dispatch at this time, Units:BO884, E702, E712, E834, PE844, SQ814, TK801, TK812
 SQ814 BUILDG, Building Gas Leak, 13922 BALTIMORE AVE, LP, btwn LAUREL LAKES CT and CYPRESS ST, TGA9, 1007, 5169 B 7, Fire ProQA recommends dispatch at this time, Units:BO886, E810, RE849, SQ814, TK831
 SQ814 HOUSEF, House Fire, 3400 PENNSYLVANIA ST, PP, btwn WELLS BLVD and ADELPHI RD, TGA2, 0117, 5409 G 4, Fire ProQA recommends dispatch at this time, Units:BO884, E807, E811, E834, PE844, SQ814, TK801, TK812
@@ -1196,9 +1196,9 @@ Stone County, MO (MOStoneCountyParser)
 911-CENTER:FBF BRUSH/FOREST FIRE 546 CAMP CLARK HL 4175989172 SMALL ST BRUSH FIRE
 ***************************************************************************
 Flathead County, MT (MTFlatheadCountyParser)
-Body: 1 of 3\nFRM:dispatch@communicationcenter.com\nSUBJ:Dispatch Information\nMSG:Unit:MCFD Status:Dispatched Location: 417 1ST AVE N Martin City Call\n(Con't) 2 of 3\nType: Medical ALS Call Time: 06:29 Info:  ton of cars in front drive, thengo to back yard  had chest pains prior to this  CO UNITS ADV \n(Con't) 3 of 3\ncpr in progress  50 ACK  55 ACK  turning blue  unk what happened, goingto him now  \n(End)
-Body: 1 of 3\nFRM:dispatch@communicationcenter.com\nSUBJ:Dispatch Information\nMSG:Unit:MCFD Status:Dispatched Location: Hungry Horse Reservoir Call\n(Con't) 2 of 3\nType: Medical ALS Call Time: 21:13 Info:  RUN CARD SHOWED NO FIRE UNITS TODISPATCH, DISPATCHED HHFD AND MCFD FROM MEMORY  1602 AND 1501\n(Con't) 3 of 3\nACK  RP CALLED BACK....FATHER IS FEELING WEAK AND SLEEPY  ADV TO CALL BACKWHEN GETS\n(End)
-Body: 1 of 3\nFRM:dispatch@communicationcenter.com\nSUBJ:Dispatch Information\nMSG:Unit:MCFD Status:Dispatched Location: HIGHWAY 2 E Hungry Horse Call\n(Con't) 2 of 3\nType: F Smoke Investigation - Outside Call Time: 20:00 Info:  RP LIVES AT844 WOODLAND AVE  CAN SEE WHAT APPEARS TO BE A SMOKE CLOUD\n(Con't) 3 of 3\nCOMING FORM THE AREA OF HUNGRY HORSE. \n(End)
+1 of 3\nFRM:dispatch@communicationcenter.com\nSUBJ:Dispatch Information\nMSG:Unit:MCFD Status:Dispatched Location: 417 1ST AVE N Martin City Call\n(Con't) 2 of 3\nType: Medical ALS Call Time: 06:29 Info:  ton of cars in front drive, thengo to back yard  had chest pains prior to this  CO UNITS ADV \n(Con't) 3 of 3\ncpr in progress  50 ACK  55 ACK  turning blue  unk what happened, goingto him now  \n(End)
+1 of 3\nFRM:dispatch@communicationcenter.com\nSUBJ:Dispatch Information\nMSG:Unit:MCFD Status:Dispatched Location: Hungry Horse Reservoir Call\n(Con't) 2 of 3\nType: Medical ALS Call Time: 21:13 Info:  RUN CARD SHOWED NO FIRE UNITS TODISPATCH, DISPATCHED HHFD AND MCFD FROM MEMORY  1602 AND 1501\n(Con't) 3 of 3\nACK  RP CALLED BACK....FATHER IS FEELING WEAK AND SLEEPY  ADV TO CALL BACKWHEN GETS\n(End)
+1 of 3\nFRM:dispatch@communicationcenter.com\nSUBJ:Dispatch Information\nMSG:Unit:MCFD Status:Dispatched Location: HIGHWAY 2 E Hungry Horse Call\n(Con't) 2 of 3\nType: F Smoke Investigation - Outside Call Time: 20:00 Info:  RP LIVES AT844 WOODLAND AVE  CAN SEE WHAT APPEARS TO BE A SMOKE CLOUD\n(Con't) 3 of 3\nCOMING FORM THE AREA OF HUNGRY HORSE. \n(End)
 ***************************************************************************
 Lewis and Clark County, MT (MTLewisAndClarkCountyAParser)
 UNITS:#759\nCFS:112210-49\nTYP:Parking complaint\nLOC:1259 N ROBERTS ST\nBUSN:\nAPT:\nCMP:jane blatch\nPHONE:     555-6489\nCMNTS: WHITE TOYOTA PC PARKED BLOCKING ALLEY\nMAP: MAP P10\nMAP: COP6\nMAP: MAP K10
@@ -2726,7 +2726,7 @@ bnnfeed:U/D NY| Suffolk| Brentwood| *Explosion*| 43 4th St| CMD adv pri srches i
 Onslow County, NC
 Contact: Chris Bennett <fireman2497@gmail.com>
 Sender: CAD@ocmail2.onslownc.gov
-Body: 1 of 2\n
+1 of 2\n
 FRM:CAD@ocmail2.onslownc.gov\n
 MSG:CAD:CONVULSIONS/SEIZURES;187 COSTON RD;RICH;10;[Medical Priority Info]
 Key Questions Complete RESPONSE:\n
@@ -2795,8 +2795,8 @@ SCENE IS SECURE
  
 
 Contact:Marc Ferry <marcrferry@gmail.com> 
-Body: 1 of 2\n FRM:paging@minquas.org\n SUBJ:21 WILLIAMS WY ,39\n MSG:EMOTIONAL DISORDER - BLS * ** 21 WILLIAMS WY ,39 ** - **  ** CALN ** HUMPTON FARMS **\n(Con't) 2 of 2\nLYNN BL & HUMPTON RD ** (End)
-Body: 1 of 2\nFRM:paging@minquas.org\nSUBJ:21 WILLIAMS WY ,39\nMSG:EMOTIONAL DISORDER - BLS * ** 21 WILLIAMS WY ,39 ** - **  ** CALN ** HUMPTON FARMS **\n(Con't) 2 of 2\nLYNN BL & HUMPTON RD ** (End)
+1 of 2\n FRM:paging@minquas.org\n SUBJ:21 WILLIAMS WY ,39\n MSG:EMOTIONAL DISORDER - BLS * ** 21 WILLIAMS WY ,39 ** - **  ** CALN ** HUMPTON FARMS **\n(Con't) 2 of 2\nLYNN BL & HUMPTON RD ** (End)
+1 of 2\nFRM:paging@minquas.org\nSUBJ:21 WILLIAMS WY ,39\nMSG:EMOTIONAL DISORDER - BLS * ** 21 WILLIAMS WY ,39 ** - **  ** CALN ** HUMPTON FARMS **\n(Con't) 2 of 2\nLYNN BL & HUMPTON RD ** (End)
 
 Contact: Sergio Ora <skip513@gmail.com>
 Sender: 47dispatch@gmail.com
@@ -2808,7 +2808,7 @@ Sender: libertyfc@fdcms.com
 
 Contact: Thomas Guaschino <guaschino1@gmail.com>
 Sender: adi62@ridgefirecompany.com
-Body: 1 of 2\n
+1 of 2\n
 FRM:adi62@ridgefirecompany.com\n
 SUBJ:645 RIDGE RD ,18  btwn S\n
 MSG:Dispatch ** 02:08 ** ACCIDENT - UNKNOWN INJURIES * ** 645 RIDGE RD ,18
@@ -2823,6 +2823,10 @@ FRM:wwfc.fdcms1@verizon.net\nSUBJ:Dispatch\nMSG:14:30 ** BRIANS HOUSE--610-594-8
 Contact: Dick Guth <dguth01@gmail.com>
 Sender: lcfc73@fdcms.info
 Dispatch ** 18:00 ** ALARM - FIRE * ** 2316 CONESTOGA RD ,25 ** RITCHIE RES/610-827-9328- ** ADT/GQQ ** 877-238-7730 ** Inc
+
+Contact: Jinx Ratcliff <mysterymachinegt@yahoo.com>
+Sender: 44@westwoodfire.com
+  / Dispatch\n19:40\nBUILDING FIRE *\n1614 COBBLESTONE DR ,16  btwn FLINT DR &\n3RD FLR\nCOUZ,GABRIEL\n610-354-282\n\n
 **********************************************************
 Unknown
 Contact: Chris <chrisdi9@aol.com>
@@ -2833,7 +2837,8 @@ Unknown
 Contact: Taurean Summers <summerstaurean@gmail.com>
 Sender: From:access@mvrda.org
 Looks like Oneida County, NY parser
-Body:?OFD2011-00574>Dispatched\n
+
+?OFD2011-00574>Dispatched\n
 >Disturbance Domestic Injury\n
 >5236 MESCALERO TRL (SUNLAND AVE/WESTMORELAND AVE)
 
@@ -2962,7 +2967,7 @@ Sender: dispatch@jvfc.com
 (47-09 : SICK SUBJECT, TRBR) 2909 PAPER MILL RD : E471 A475 : 23:25:32\nREM:  : MS BONNIE SMITH
 (BOX-AREA : CALL TYPE) ADDRESS : UNIT1 UNIT2 : HH:MM:SS\nREM:  : MS BONNIE SMITH
 (47-10 : 1050PI) SHOPRITE; 14330 JARRETTSVILLE PK : A475 E471 : 13:01:12\n\nREM:F ON DK BLU OR BLK M/C FELL OVER. DOESN'T NEED AMBO. ANOTHER M/C WITH HER.  : KRISTY
-Body:(47-17 : TREE FIRE / EMERG) 13908 MANOR RD : E471 : 20:32:38\n\nREM:TREE IN THE FRONT YARD IS ON FIRE...IS BY A TELEPHONE POLE  : MS. VICTORIA
+(47-17 : TREE FIRE / EMERG) 13908 MANOR RD : E471 : 20:32:38\n\nREM:TREE IN THE FRONT YARD IS ON FIRE...IS BY A TELEPHONE POLE  : MS. VICTORIA
 **********************************************************
 Cumberland County, NC (alternate)
 Contact: Brandon Norris <lawranger197@gmail.com>
@@ -3052,7 +3057,7 @@ Unknown
 Contact: Kenneth Barron <kbarron6@gmail.com>
 Sender: <empty>
 generic location does not work!!!
-Body:VENANGO 911:MEDA >MEDICAL ALPHA 11 LOCUST ST XS: CHURCH ST ROUSEVILLE THERET JOSH Map: Grids:, Cad: 2011-0000015668
+VENANGO 911:MEDA >MEDICAL ALPHA 11 LOCUST ST XS: CHURCH ST ROUSEVILLE THERET JOSH Map: Grids:, Cad: 2011-0000015668
 **********************************************************
 Pennington county, SD
 Contact: fireman <fireman@rushmore.com>
@@ -3435,7 +3440,7 @@ F83 ALERT: MV ACCID UNK INJ LUKOIL / 143 E WASHINGTON AVE WASHINGTON BORO (SENT 
 Lancaster, PA (alternate)
 Contact: Justin Fisher <justin62911@gmail.com>
 Sender: messaging@iamresponding.com
-Body:FRM:messaging@iamresponding.com\n
+FRM:messaging@iamresponding.com\n
 WBFC\nMSG:BRUSH-1A \nMANOR TWP~341 PORT RD~CONESTOGA RIVER~FRYS RUN~TAN903,ENG903,BR903,ENG907~19:44:08 \n
 **********************************************************
 Saginaw Cuonty, MI (replacement or alternate)
@@ -3459,7 +3464,7 @@ epartment
 Montgomery County, PA (alternate)
 Contact: myfranchisepartners <myfranchisepartners@gmail.com>
 Sender: worcesterfd@verizon.net
-(FIRE ALARM) FIRE ALARM ** 2293 WARNER RD ** Dispatch ** - ** 64-02 **  **  ** Eff Body:FIRE ALARM ** 2293 WARNER RD ** Dispatch ** - ** 64-02 **  **  **
+(FIRE ALARM) FIRE ALARM ** 2293 WARNER RD ** Dispatch ** - ** 64-02 **  **  **
 
 Contact: 2153504443@txt.att.net
  1 of 3
@@ -3555,7 +3560,7 @@ Sender: mplus@co.broome.ny.us
 Unknown
 Contact: david la celle <dlacelle5170@gmail.com>
 Sender: PagingService@sircomm.com
-Body:(SIRCOMM) 6:55 PM\nNEW EVENT JRM051\nACCN\nNON INJURY ACCIDENT\n0 168 OVERPASS APT EB\nJEROME
+(SIRCOMM) 6:55 PM\nNEW EVENT JRM051\nACCN\nNON INJURY ACCIDENT\n0 168 OVERPASS APT EB\nJEROME
 **********************************************************
 Unknown
 Contact: Theresa Kingsley <theresadkingsley@gmail.com>
@@ -3723,15 +3728,21 @@ Subject:PVFD\nATTN POSEY FIRE MEMBERS MANDOTORY HAZMAT REFRESHER TRAINING TONIGH
 Loudoun County, VA (alternate?)
 Contact: "tom_tuck@hotmail.com" <tom_tuck@hotmail.com>
 Sender: alert_76507@mail.emacoop.loudoun.gov
-Auto Accident w/double Entrapment - Evergreen Mills Rd & The Woods Rd. - Co. 9, 1, 13, 7, BC601, EM601, SO600, OP600, AIRC3, 2nd helo alerted - Op's on 6L-TAC31 Eff Body:P600, AIRC3, 2nd helo alerted - Op's on 6L-TAC31
+Auto Accident w/double Entrapment - Evergreen Mills Rd & The Woods Rd. - Co. 9, 1, 13, 7, BC601, EM601, SO600, OP600, AIRC3, 2nd helo alerted - Op's on 6L-TAC31
 (1/2) Auto Accident w/double Entrapment - Evergreen Mills Rd & The Woods Rd. - Co. 9, 1, 13, 7, BC601, EM601, SO600, O
-(2/2) P600, AIRC3, 2nd helo alerted - Op's on 6L-TAC31 Eff Body:P600, AIRC3, 2nd helo alerted - Op's on 6L-TAC31
+(2/2) P600, AIRC3, 2nd helo alerted - Op's on 6L-TAC31
 **********************************************************
 Festus, MO (in Jefferson County)
 Contact: Tim Mullins <tmullinsaco@yahoo.com>
+Sender: JBITTER@CITYOFFESTUS.ORG
 System: ITI
+
 S:Call M:FIRE / 10-50 J-2 / STATE RD CC JEFFCO/FESTUS FIRE / HWY 67 / FIRE DEPT / H4 FI H1 / FESTUS FD66651 / JPAD H4 FI H1\n\n\n
 (call) FIRE / BRUSH / 2819 NORTH SELMA ROAD JEFFCO/R7 /DOOLING HO /EMS /6610 /jpad brush with exposer R-7 FD720146 /JPAD 603031
+FIRE/10-50 J-2/ STATE RD CC JEFFCO/FESTUS FIRE / HWY 67 /FIRE DEP /H4 FI H1 FESTUS  FD66651 / JPAD H4 FI H1
+
+( 1 of  2) S:Call M:FIRE / MUTUAL AID / 12532 STATE RD TT JEFFCO/R-7 / R7SCHOOLRD / EMS / H3 FI H1 / BRUSH ENDANGERING A STRUCTURE/ 66
+( 2 of  2) 14 6037 \n R-7 FD720096 / JPAD H3 FI H1\n
 **********************************************************
 Onondaga County, NY (alternate)
 Contact: Al Pola <alpola828@gmail.com>
@@ -3812,12 +3823,20 @@ Contact: angela brouwer <abrouwerdcg@gmail.com>
 Sender: 777129998926
 .... (Grimes) Location: 500 S JAMES ST GRIM: @SCHOOL - GRIM Type: STILL VEHICLE Caller:  Time: 19:47:24
 .... (Grimes) Location: 101 SE DESTINATION DR GRIMES Type: MEDICAL  Caller: GRIMES FAMILY PHYSICIANS Time: 10:54:07
+.... (Grimes) Location: 200 SW BROOKSIDE DR GRIM,111 Type: MEDICAL  Caller: KENNYBROOK VILLAGE Time: 13:42:46
+.... (Grimes) Location: 5555 NW 55TH AVE JOHN: @CHILDSERVE - JOHN Type: COMMFIRE ALARM Caller: ADT/DBI Time: 17:01:43
 **********************************************************
+Lincoln County, NC (or not) (alternate)
+Contact: Craig Spry <kcspry@gmail.com>
+Sender: paging@rcscom.com
+Subject:Incoming Message\n9717 Tidal Ct                           STANDBY LAND SEARCH           Bravo               42- Fire/Police
+**********************************************************
+Weld County, CO (replace or alternate?)
+Contact; Ryan Fuller <rfuller131@gmail.com>
+" " 24\nSIPF\nD\n3211 LUPTON AVE\nEV\n24\nMOM IS NOT WAKING UP 0000 Confirm 0001 Refuse TXT STOP to opt-out
 **********************************************************
 **********************************************************
 ************  READY TO ROLL ******************************
-**********************************************************
-**********************************************************
 **********************************************************
 **********************************************************
 Muscalane County, IA
@@ -4073,3 +4092,27 @@ OAKRIDGE CT
 12001882
 23:03:48
 ZONE 86 WATERFLOW WEARHOUSE 1 
+**********************************************************
+Geauga County, OH (replaced ??)
+Contact:David Schantz <hfd3607@gmail.com>
+Sender: 69310
+
+Rescue needed at 9580 Venus Rd for an elderly female with back pain
+MUNSON FD RESCUE NEEDED AT 12805 KEYSTONE LN FOR A MEDICAL ALARM GOING OFF AT THE RESIDENCE. 2800/BMR
+rescue 11660 Blue Heron Trl female w/back and leg pain
+9545 Venus Rd for a reported Structure Fire Evacuation in progress
+17748 Rock Creek Lot 103 for a 72 YOF Choking possibly not breathing.
+12340 Bass Lake Area E Bed 3 for a 66 YOM unresponsive
+rescue 11660 Blue Heron Trl female w/back and leg pain
+MUNSON FD NEEDED FOR A RESIDENTIAL FIRE ALARM 11660 SHERMAN RD. ALARM ACTIVATED AT THE FAMILY ROOM SMOKE DETECTOR 2800/BMR
+11691 woodiebrook rd poss doa
+12340 bass lake rd dolan ct 92 yom unresponsive room 21
+fire alarm -- 7120 fox ledges lane --
+13 DANIEL LN FEMALE FELL OUTSIDE
+Rescue Needed Notre Dame Retreat Center 13000 Auburn Rd female in her 80's difficulty breathing from inhaling ant spray
+9659 Venus for a Chimney fire.
+Rescue is needed at 9740 Cedar Rd - extension off of Heath Rd - for a male victim of an assault with back pain, Deputies are onscene.
+Medic is requested mutual aid to Thompson Fire at 7670 Dewey Rd for a 62 yof possible heart attack.
+dishwasher fire 13364 rockhaven rd
+manpower needs have a working structure fire 13364 rockhaven
+PLEASE RESPOND TO A WORKING STRUCTURE FIRE 13364 ROCKHAVEN RD THANK YOU 2800

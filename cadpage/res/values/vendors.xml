@@ -47,10 +47,10 @@
     Server response: %2$s
   </string>
   <string name="vendor_registration_error">
-    Attempt assign Direct Paging Registration ID has been rejected.  The reported
+    Attempt to assign Direct Paging Registration ID has been rejected.  The reported
     error was\n
     %s\n
-    Please this to the Cadpage developers.
+    Please report this to the Cadpage developers.
     
   </string>
 </resources>

@@ -385,6 +385,8 @@ Damien Bielli (damienbielli@gmail.com)(DamienBielli369@msn.com)
 Ronald Zynda (hzyndazynda@gmail.com)(hzynda@yahoo.com)
 Brian Woodley (brock0011@gmail.com)
 Chris Hammett (hammettcw7@gmail.com)<hammettcw7@gmail.com>
+%%11/20/2011
+Sue Copley <scopley1958@gmail.com>
 %%11/23/2011
 Laura Eaton (alightwenton@gmail.com)(alightwenton@aol.com)
 %%11/26/2011
@@ -1011,8 +1013,8 @@ Daniel Marlow (marlow4030@gmail.com)<dmarlow4030@gmail.com>
 %%12/27/2011
 >>Dawn Moore <dawn.moore1021@gmail.com>
 >>Brian Garbutt <bgarbutt55@gmail.com>
-"pmonahan6@live.com" (pmonahan630@gmail.com)<pmonahan6@live.com>
-Julie Maiorana <julie.maiorana@gmail.com>
+>>"pmonahan6@live.com" (pmonahan630@gmail.com)<pmonahan6@live.com>
+>>Julie Maiorana <julie.maiorana@gmail.com>
 Jesse Moses <jmm2140@gmail.com>
 %%12/28/2011
 Curtis Hammond <medichammond@gmail.com>
@@ -1049,7 +1051,7 @@ Samuel K Anders (sam@samanderscpa.com)(skacpa@bellsuth.net)
 Stephen Kelly (kelgar63@gmail.com)(skelly07@twcny.rr.com) 
 William Walters (lcff791@gmail.com)
 %%10/28/2011
-Daniel Durand <dandurand1968@gmail.com>
+Daniel Durand <dandurand1968@gmail.com> // Market purchase
 %%12/04/2011
 Patrick Hultman (pat.hultman@jocofd1.org)<pat.hultman@jocofd1.org>
 %%01/01/2012
@@ -1103,6 +1105,8 @@ David Shapp (dave.shapp@midwayvfc.com)(David@Shapp.com)
 Joe Zujkowski <jzujkowski@gmail.com> // Hunterdon County, NJ
 %%01/31/2012
 Dan Palmer <cantbeatl337@gmail.com>
+%%02/02/2012
+Wilborn Adams (wilborn.p.adams@gmail.com)(Wilborn19@msn.com)
 
 // List of users getting free credit for 2012
 $free_2012_list

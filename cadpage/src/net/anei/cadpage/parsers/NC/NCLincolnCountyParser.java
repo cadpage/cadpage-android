@@ -32,10 +32,6 @@ Contact: Kevin Yount <unionfd622@yahoo.com>
 Sender: 93001043
 455:CAD:UFD-1100005100-29B04-29-B-4 TRAFFIC ACCIDENT-1513 ALF HOOVER RD-REEPSVILLE BAPTIST CHURCH-J RHYNE REEP RD-REEPSVILLE RD-[Medical Priority Info] RESPONSE: Bravo RESPONDER SCRIPT: Age unknown, Gender unknown, Consciousness unknown, Breathing status unknown. Traffic / Transportation Incidents. Unknown status/Other cod
 
-Contact: Craig Spry <kcspry@gmail.com>
-Sender: paging@rcscom.com
-Subject:Incoming Message\n9717 Tidal Ct                           STANDBY LAND SEARCH           Bravo               42- Fire/Police
-
 */
 
 public class NCLincolnCountyParser extends DispatchOSSIParser {
