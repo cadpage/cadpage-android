@@ -302,6 +302,19 @@ public class ORMarionCountyNParserTest extends BaseParserTest {
 
   }
   
+  @Test
+  public void testParser4() {
+
+    doTest("T1",
+        " : / FALL:  653:E:PINE:ST:::::4430:MD2,R81,:FALL SEMI CON 15YRM NO BLEEDING:20120202:210913",
+        "CALL:FALL",
+        "ADDR:653 E PINE ST",
+        "MAP:4430",
+        "UNIT:MD2,R81",
+        "INFO:FALL SEMI CON 15YRM NO BLEEDING");
+
+  }
+  
   public static void main(String[] args) {
     new ORMarionCountyNParserTest().generateTests("T4");
   }
