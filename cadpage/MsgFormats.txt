@@ -727,6 +727,11 @@ Ozark, AL (ALOzarkParser)
 (ALERT!) SERVICE CALL 192 CEDAR CT OFF PINE AVE OFF NEWTON AVE REF LIFTING ASSISTANCE PER MEDIC 1
 (ALERT!) MED EMER 145 PATTERSON OFF E EUFAULA, MALE SUBJECT SEVERAL LAC TO ARM, BLEEDING HEAVILY
 ***************************************************************************
+San Bernardino County, CA (CASanBernardinoCountyParser)
+[] | TU - T>W Cypress Ave / S Center St - REDC >LOC INFO: >AGN MAP:RED045 -TB MAP:648 B2 >X ST: >E261,MS261,AMR33>COMMENTS:GREEN 300 vs BLACK SEDAN,External Case Number 'RED _1200689' added for Redlands.,Automatic Case Number(s) issued for Ground Ambulance: \n
+[] | HEART->1600 E Citrus Ave -A REDC >LOC INFO:DR HOENSHELL >AGN MAP:RED069 -TB MAP:608 F7 >X ST:N DEARBORN ST/S LA SALLE ST >E261,MS261,AMR37>COMMENTS:[ProQA Session Aborted] ALLIED AGENCY,External Case Number 'RED _1200691' added for Redlands.,Automatic C\n
+[] | SICK-D>105 Terracina Blvd -106-a REDC >LOC INFO:BROOKSIDE HEALTH >AGN MAP:RED043 -TB MAP:647 H2 >X ST:BROOKSIDE AVE/CORDOVA AVE >E264,ME263R,AMR39>COMMENTS:793-2271,[ProQA Script] Dispatch code: 26D01 85 year old, Male, Conscious, Breathing. Sick Person\n
+***************************************************************************
 El Dorado County, CA (CAElDoradoCountyParser)
 (CAD Page) 15-May-2011/16:10:27: HAZ, ELECTRICAL: Inc# 010021: 5537 MORGAN RANCH LOOP ,GEORGETOWN  GEOCHF GEOENG M61 61; ; X: -120 50.5096  Y: 38 54.859
 (CAD Page) 19-May-2011/12:37:08: MEDICAL: Inc# 010306: 6530 WENTWORTH SPRINGS RD ,GEORGETOWN (GEORGETOWN ELEMENTARY SCHOOL) GEOCHF GEOENG M89 61; ; X: -120 49.84

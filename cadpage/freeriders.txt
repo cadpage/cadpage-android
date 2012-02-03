@@ -1108,7 +1108,7 @@ Dan Palmer <cantbeatl337@gmail.com>
 %%02/02/2012
 Wilborn Adams (wilborn.p.adams@gmail.com)(Wilborn19@msn.com)
 %%02/03/2012
-David Fox (davidalanfox@gmail.com)<david.fox@sbcglobal.net>
+David Fox (david.alan.fox@gmail.com)<david.fox@sbcglobal.net>
 
 // List of users getting free credit for 2012
 $free_2012_list
