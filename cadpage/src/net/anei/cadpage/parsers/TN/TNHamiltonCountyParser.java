@@ -23,7 +23,7 @@ RT:FTRASH-OUTSIDE TRASH FIRE  Loc:5205 ALABAMA RD, HAMILTON COUNTY  (BATES RD/BL
 Contact: Darren Randall <d.randall@tricommunityfire.com>
 Sender: <user phone>
 RT:AFA RESIDENTIAL  Loc:2706 NILE RD, HAMILTON COUNTY  (CLIPPER DR/DANUBE DR)  #
-
+RT:FASEMS-FIRE DEPARTMENT ASSISTING EMS WITH MANPOWER  Loc:9407 CATHOWKEN DR, HA MILTON COUNTY  (FULLER RD/DEAD END)  #[9400-9499]
 
  */
 
@@ -42,9 +42,10 @@ public class TNHamiltonCountyParser extends FieldProgramParser {
     
     int pt = body.indexOf("  #[");
     if (pt >= 0) body = body.substring(0,pt).trim();
-    if (body.endsWith("#")) body = body.substring(0,body.length()-1).trim();
     else data.expectMore = true;
-    
+
+    if (body.endsWith("#")) body = body.substring(0,body.length()-1).trim();
+
     return super.parseMsg(body, data);
   }
   
