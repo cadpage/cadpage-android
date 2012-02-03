@@ -52,13 +52,14 @@ Contact: "audritsh@earthlink.net" <audritsh@earthlink.net>
 ((836) Hi Gina ) LIFT: 4279::THIRD:ST:::::1829:E876,N3,:80 YOF C/B/A  NON INJURY LIFT ASSIST:20110930:090843
 ((339) Hi Gina ) COMM:  490:S:PACIFIC:HW:::::2127:E21,E22,E24,E875,LA21,A21,TIME,PGE,N3,:LOTS OF SMOKE COMING FROM BACK OF LOC/:20110929:222851
 ((432) Hi Gina ) SICK:  950::EVERGREEN:RD:211::::2026:M23,E22,N3,:86 YF C/B/A FEELING DIZZY:20110930:000053
-
-** NOT IMPLEMENTED **
 ((2319) Hi Gina ) MED NO :1285 TIERRA LYNN DR    :    Map:2028 :20YOM C/DIFF B/A FEVER LOW HEMOGLOBIN :09/28/2011 :20:24 :
 
 Contact: Megan Patterson <iputfiresout@gmail.com>
 (639) :  / SICK:25496:S:HW 99E::::::1433:R903,OPPS,N1,:65YOM C/A/B DIZZY,SWEATING,:20110930:070050\n
 
+Contact: Barb <firegroundleader@hotmail.com>
+Sender: trex@ci.woodburn.or.us 
+ : / FALL:  653:E:PINE:ST:::::4430:MD2,R81,:FALL SEMI CON 15YRM NO BLEEDING:20120202:210913
 
 */
 
@@ -83,8 +84,7 @@ public class ORMarionCountyNParser extends FieldProgramParser {
   protected boolean parseMsg(String subject, String body, Data data) {
     
     if (subject.startsWith("(")) subject = new Parser(subject.substring(1).trim()).get(')');
-    if (! CALL_ID_PTN.matcher(subject).matches()) return false;
-    data.strCallId = subject;
+    if (CALL_ID_PTN.matcher(subject).matches()) data.strCallId = subject;
 
     Matcher match = LEAD_PTN.matcher(body);
     if (match.find()) body = body.substring(match.end());

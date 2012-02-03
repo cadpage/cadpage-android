@@ -1024,7 +1024,7 @@ Daniel Marlow (marlow4030@gmail.com)<dmarlow4030@gmail.com>
 >>David Lough <david.lough.emt@gmail.com>
 >>"obfd805@hotmail.com" (obfd805@gmail.com)<obfd805@hotmail.com>
 >>Richard Martorana <richardm10260@gmail.com>
-Nick <nward13bravo@gmail.com>
+>>Nick <nward13bravo@gmail.com>
 gene fauble <genefauble@gmail.com>
 (jrhofer77@gmail.com)hoferjr@yahoo.com
 Dispatch Info <htfd11@gmail.com>
@@ -1107,6 +1107,8 @@ Joe Zujkowski <jzujkowski@gmail.com> // Hunterdon County, NJ
 Dan Palmer <cantbeatl337@gmail.com>
 %%02/02/2012
 Wilborn Adams (wilborn.p.adams@gmail.com)(Wilborn19@msn.com)
+%%02/03/2012
+David Fox (davidalanfox@gmail.com)<david.fox@sbcglobal.net>
 
 // List of users getting free credit for 2012
 $free_2012_list

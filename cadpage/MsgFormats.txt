@@ -3732,18 +3732,6 @@ Auto Accident w/double Entrapment - Evergreen Mills Rd & The Woods Rd. - Co. 9, 
 (1/2) Auto Accident w/double Entrapment - Evergreen Mills Rd & The Woods Rd. - Co. 9, 1, 13, 7, BC601, EM601, SO600, O
 (2/2) P600, AIRC3, 2nd helo alerted - Op's on 6L-TAC31
 **********************************************************
-Festus, MO (in Jefferson County)
-Contact: Tim Mullins <tmullinsaco@yahoo.com>
-Sender: JBITTER@CITYOFFESTUS.ORG
-System: ITI
-
-S:Call M:FIRE / 10-50 J-2 / STATE RD CC JEFFCO/FESTUS FIRE / HWY 67 / FIRE DEPT / H4 FI H1 / FESTUS FD66651 / JPAD H4 FI H1\n\n\n
-(call) FIRE / BRUSH / 2819 NORTH SELMA ROAD JEFFCO/R7 /DOOLING HO /EMS /6610 /jpad brush with exposer R-7 FD720146 /JPAD 603031
-FIRE/10-50 J-2/ STATE RD CC JEFFCO/FESTUS FIRE / HWY 67 /FIRE DEP /H4 FI H1 FESTUS  FD66651 / JPAD H4 FI H1
-
-( 1 of  2) S:Call M:FIRE / MUTUAL AID / 12532 STATE RD TT JEFFCO/R-7 / R7SCHOOLRD / EMS / H3 FI H1 / BRUSH ENDANGERING A STRUCTURE/ 66
-( 2 of  2) 14 6037 \n R-7 FD720096 / JPAD H3 FI H1\n
-**********************************************************
 Onondaga County, NY (alternate)
 Contact: Al Pola <alpola828@gmail.com>
 
@@ -4123,3 +4111,18 @@ Rescue is needed stand by in the area of 12250 Waterfowl Ln for a 17 yo suicidal
 MUNSON FD RESCUE NEEDED AT 12805 KEYSTONE LN FOR A MEDICAL ALARM GOING OFF AT THE RESIDENCE. 2800/BMR
 MA Needed to 14075 Fairgate Blvd in Newbury for a 14yof out of control stated she was going to harm herself she is out of control needs eval
 fire dept -- gas spill -- papa c's -- 13940 gar hwy -- 2800
+**********************************************************
+Festus, MO (in Jefferson County)
+Contact: Tim Mullins <tmullinsaco@yahoo.com>
+Sender: JBITTER@CITYOFFESTUS.ORG
+System: ITI
+
+S:Call M:FIRE / 10-50 J-2 / STATE RD CC JEFFCO/FESTUS FIRE / HWY 67 / FIRE DEPT / H4 FI H1 / FESTUS FD66651 / JPAD H4 FI H1\n\n\n
+(call) FIRE / BRUSH / 2819 NORTH SELMA ROAD JEFFCO/R7 /DOOLING HO /EMS /6610 /jpad brush with exposer R-7 FD720146 /JPAD 603031
+FIRE/10-50 J-2/ STATE RD CC JEFFCO/FESTUS FIRE / HWY 67 /FIRE DEP /H4 FI H1 FESTUS  FD66651 / JPAD H4 FI H1
+
+( 1 of  2) S:Call M:FIRE / MUTUAL AID / 12532 STATE RD TT JEFFCO/R-7 / R7SCHOOLRD / EMS / H3 FI H1 / BRUSH ENDANGERING A STRUCTURE/ 66
+( 2 of  2) 14 6037 \n R-7 FD720096 / JPAD H3 FI H1\n
+
+( 1 of  2) S:Call M:FIRE / MUTUAL AID / 12532 STATE RD TT JEFFCO/R-7 / R7SCHOOLRD / EMS / H3 FI H1 / BRUSH ENDANGERING A STRUCTURE/ 66
+( 2 of  2) 14 6037 \nR-7 FD720096 / JPAD H3 FI H1\n
