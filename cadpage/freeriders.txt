@@ -1010,7 +1010,7 @@ Daniel Marlow (marlow4030@gmail.com)<dmarlow4030@gmail.com>
 >>Paul Gupta <paul.n.gupta@gmail.com>
 %%12/27/2011
 >>Dawn Moore <dawn.moore1021@gmail.com>
-Brian Garbutt <bgarbutt55@gmail.com>
+>>Brian Garbutt <bgarbutt55@gmail.com>
 "pmonahan6@live.com" (pmonahan630@gmail.com)<pmonahan6@live.com>
 Julie Maiorana <julie.maiorana@gmail.com>
 Jesse Moses <jmm2140@gmail.com>
@@ -1048,6 +1048,8 @@ Christopher Rowland (chrisprowl@gmail.com)(chrisprowl@aol.com)
 Samuel K Anders (sam@samanderscpa.com)(skacpa@bellsuth.net)
 Stephen Kelly (kelgar63@gmail.com)(skelly07@twcny.rr.com) 
 William Walters (lcff791@gmail.com)
+%%10/28/2011
+Daniel Durand <dandurand1968@gmail.com>
 %%12/04/2011
 Patrick Hultman (pat.hultman@jocofd1.org)<pat.hultman@jocofd1.org>
 %%01/01/2012
