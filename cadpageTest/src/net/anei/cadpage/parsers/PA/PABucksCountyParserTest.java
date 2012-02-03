@@ -950,6 +950,17 @@ public class PABucksCountyParserTest extends BaseParserTest {
         "ID:FD1201481",
         "UNIT:E50 E52 E53 Q51 TW14 E11 R10");
 
+    doTest("T5",
+        "Subject:1/2\nFALRM\nadr:ST ANDREWS EPISCOP ,79 at 55 W AFTON AV ,79\nbtwn:PENN VALLEY DR & BREECE DR\naai:PARRISH HOUSE\nbox:00071",
+        "CALL:FALRM - FIRE ALARM (LOC)",
+        "BOX:00071",
+        "PLACE:ST ANDREWS EPISCOP",
+        "ADDR:55 W AFTON AV",
+        "MADDR:55 W AFTON AVE",
+        "CITY:YARDLEY",
+        "X:PENN VALLEY DR & BREECE DR",
+        "INFO:PARRISH HOUSE");
+
   }
   
   @Test
