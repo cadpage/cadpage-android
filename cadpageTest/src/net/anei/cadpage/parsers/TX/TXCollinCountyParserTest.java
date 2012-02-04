@@ -226,6 +226,19 @@ public class TXCollinCountyParserTest extends BaseParserTest {
         "CALL:MUTUAL AID STRUCTURE FIRE",
         "ADDR:6031 FM 546",
         "INFO:MUTUAL AID WITH BRANCH");
+
+    doTest("T6",
+        "12008893  TEST CALL  305 S POWELL PKWY IN ANNA   {ANNA FIRE DEPT}   W 5 ST / W 6 ST  [ANFD DIST: ANF1 GRID: 1900]  UNITS: ANF1  ST RMK: 17J4  CFS RMK 14:46 TEST  TEST TEST ONLY  {CAD006 14:46}",
+        "ID:12008893",
+        "CALL:TEST CALL",
+        "ADDR:305 S POWELL PKWY",
+        "CITY:ANNA",
+        "PLACE:ANNA FIRE DEPT",
+        "X:W 5 ST / W 6 ST",
+        "SRC:ANFD",
+        "MAP:1900",
+        "UNIT:ANF1",
+        "INFO:17J4 / 14:46 TEST  TEST TEST ONLY");
   }
   
   public static void main(String[] args) {
