@@ -27,6 +27,8 @@ FRM:cadpage@harnett.org\nMSG:1201-002111*11860 NC 210 S*****FIRE RES STR********
 Contact: Roy Gibbs <boham29@gmail.com>
 B1201-004551*11 BROOK LN*****EMS ABD PAIN*********
 1201-009149*1 YOUNG RD***ANGIER**FIRE ILLEGAL*********
+1202-010125*1101 SILAS MOORE RD***BENSON**EMS SICK*********
+1202-010135*51 ELLIE CT***FUQUAY VARINA**FIRE RES STR*********
 
 Contact: Chris McCormick <mac3295@gmail.com>
 FRM:cadpage@harnett.org\nMSG:1201-006955*2802 WALKER RD***LINDEN**FIRE RES STR*********
@@ -122,6 +124,9 @@ public class NCHarnettCountyParser extends FieldProgramParser {
     
     // Other
     "LINDEN",
-    "ANGIER"
+    "ANGIER",
+    "BENSON",
+    "FUQUAY VARINA",
+    "FUQUAY-VARINA"
   };
 }

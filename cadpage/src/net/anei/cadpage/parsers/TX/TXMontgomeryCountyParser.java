@@ -52,6 +52,7 @@ Sender:  firecad@thewoodlandstownship-tx.gov
 (Nature: 06D02-BREATHING PROBLEMS - DIFICULTY SPE) New Fire Run: 2011-96229,,B113,Location: 258 SPRING PINES DR-SC,Building: ,Cross: 26202 MAPLE
 (Nature: 10D02-CHEST PAIN - Difficulty speaking b) New Fire Run: 2011-96261,,B111,Location: 25469 BOROUGH PARK DR-SC,617,Building: MISSION WOODS
 (Nature: F08-CONTROLLED BURN) New Fire Run: 2012-03389,,B113,Location: 2226 BOB WHITE-SC,Building: ,Cross: ,1702 COUGAR CREEK-C,Grid: 253E,Map:
+(Nature: F36-SMOKE IN THE BUILDING) New Fire Run: 2012-03786,,TK10,Location: 10510 SIX PINES DR-WD,2211,Building: TAMARAC PINES APTS,Cross: 1800
 
  */
 
@@ -65,12 +66,13 @@ public class TXMontgomeryCountyParser extends FieldProgramParser {
       "PG",   "PATTON VILLAGE",
       "RF",   "ROMAN FOREST",
       "SC",   "SPRING",
-      "SP",   "SPLENDORA"
+      "SP",   "SPLENDORA",
+      "WD",   "WOODLANDS"
   });
   
   public TXMontgomeryCountyParser() {
     super(CITY_CODES, "MONTGOMERY COUNTY", "TX",
-           "New_Fire_Run:ID! Nature:CALL? UNIT! Location:ADDR/y! Building:APT Cross:X/c");
+           "New_Fire_Run:ID! Nature:CALL? UNIT! Location:ADDR/y! Building:PLACE Cross:X/c");
   }
   
   @Override
