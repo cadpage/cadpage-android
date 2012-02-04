@@ -77,6 +77,12 @@ public class ILWinnebagoCountyParserTest extends BaseParserTest {
         "S:HRFD: Med:6567 SPRINGWOOD CT M: \n",
         "SRC:HRFD",
         "ADDR:6567 SPRINGWOOD CT");
+
+    doTest("T6",
+        "S:HRFD: Med:10636 MEADOW SWEET M: cHEST PAIN \n",
+        "SRC:HRFD",
+        "ADDR:10636 MEADOW SWEET",
+        "CALL:cHEST PAIN");
  }
   
   public static void main(String[] args) {
