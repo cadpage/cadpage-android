@@ -34,6 +34,7 @@ ASSIST DEPUTY WITH TREE IN ROAD  CFS No: 12005736  TRAFFIC HAZARD COUNTY ROAD 32
 Message From Dispatch DISREGARD MAJOR AT MONTE CARLO AND 380 LOCATION WAS CHANGED AND IS PNFD SORRY FOR THE PAGE
 Message From Dispatch MUTUAL AID SFIRE 6031 FM 546 CFS 12006098
 Message From Dispatch MUTUAL AID STRUCTURE FIRE 6031 FM 546 CFS 12006098-- MUTUAL AID WITH BRANCH
+12008893  TEST CALL  305 S POWELL PKWY IN ANNA   {ANNA FIRE DEPT}   W 5 ST / W 6 ST  [ANFD DIST: ANF1 GRID: 1900]  UNITS: ANF1  ST RMK: 17J4  CFS RMK 14:46 TEST  TEST TEST ONLY  {CAD006 14:46}
 
 */
 
@@ -131,6 +132,7 @@ public class TXCollinCountyParser extends FieldProgramParser {
   // Parse a mashup of ID, CALL, ADDR, CITY, and Cross streets all of which might
   // or might not be separated by double blank delimiters
   private static final Pattern ID_PTN = Pattern.compile("^(\\d{8}) +");
+  private static final Pattern BRACKET_PTN = Pattern.compile(" +\\{(.*?)\\} *");
   private static final Pattern IN_PTN = Pattern.compile(" +IN +", Pattern.CASE_INSENSITIVE);
   private class MashField extends Field {
     
@@ -142,6 +144,13 @@ public class TXCollinCountyParser extends FieldProgramParser {
       if (!match.find()) abort();
       data.strCallId = match.group(1);
       field = field.substring(match.end());
+      
+      // A field in {} is considered a place name
+      match = BRACKET_PTN.matcher(field);
+      if (match.find()) {
+        data.strPlace = match.group(1);
+        field = field.substring(0,match.start()) + "  " + field.substring(match.end());
+      }
       
       // Break up what is left by any double blank delimiters and see what we have to work with
       String[] flds = field.split("  +");
@@ -253,7 +262,7 @@ public class TXCollinCountyParser extends FieldProgramParser {
   
   @Override
   public String getProgram() {
-    return "ID CALL ADDR CITY X SRC MAP UNIT INFO PLACE";
+    return "ID CALL ADDR CITY PLACE X SRC MAP UNIT INFO";
   }
   
 //  
