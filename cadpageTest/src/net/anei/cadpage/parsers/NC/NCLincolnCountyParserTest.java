@@ -158,6 +158,18 @@ public class NCLincolnCountyParserTest extends BaseParserTest {
         "PLACE:REEPSVILLE BAPTIST CHURCH",
         "X:J RHYNE REEP RD & REEPSVILLE RD",
         "INFO:Age unknown, Gender unknown, Consciousness unknown, Breathing status unknown. Traffic / Transportation Incidents. Unknown status/Other cod");
+
+    doTest("T14",
+        "1112:CAD:FYI: -EMSC-201201013-TRANSFER-433 MCALISTER RD-CMC LINCOLN (NEW)-BEECHNUT ST-MEDICAL CENTER DR-going to brian center/ no special :1of2\n\n\n" +
+        "DISCLAIMER: Pu",
+
+        "ID:201201013",
+        "SRC:EMSC",
+        "CALL:TRANSFER",
+        "ADDR:433 MCALISTER RD",
+        "PLACE:CMC LINCOLN (NEW)",
+        "X:BEECHNUT ST & MEDICAL CENTER DR",
+        "INFO:going to brian center/ no special");
   }
   
   // @Test
