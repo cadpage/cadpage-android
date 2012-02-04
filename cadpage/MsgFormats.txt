@@ -1667,6 +1667,11 @@ MVA-UKN INJURY SW TUALATIN VALLEY HW/SW331ST AV (33098 TUALATIN VALLEY/331ST) HI
 ABDOMINAL PAIN 985 N DAVIS ST (DEAD END & N 10TH AV) CON MAP: 5375D UNIT METWA STA8
 BREATHING PROB 39470 SW GEIGER RD (SW LAFOLLETT RD & FERN HILL RD) CON MAP: 5574B UNIT: METWA STA8
 ***************************************************************************
+Armstrong County, PA (PAArmstrongCountyParser)
+473 TROY HILL RD AIRPORT RD / MCGREGOR RD FMISC 39992 05:40 7245453398
+11878 STATE ROUTE 85 ARMSDALE RD / CRYTZER RD ORPHANS OF THE STORM VAENT 40313 19:09 7247120225
+141 ADAMS RD STATE ROUTE 85 / BALLOCK LN FMISC 40720 09:07 7247837418
+***************************************************************************
 Allegheny County, PA (PAAlleghenyCountyParser)
 ALLEGHENY COUNTY 911 :FRCOM3, F1, POSS FIRE COM - SMELL OF SMOKE/BLDG ENDG, SHARPSBURG TOWERS #902, SHP, at 601 MAIN ST #902, SHP, btwn S MAIN ST and 7TH ST, NFD3, 265002, CALLER REPORTING A STRONG SMELL OF "SCHLAK" PAINT OR AMMONIA IN THE BUILDING. CALLER WAS ADVISED TO EVAC, Units:102EN1, 111EN1, 149EN1, 191EN1,
 ALLEGHENY COUNTY 911 :NGASRES, F1, NATURAL GAS SMELL/LEAK RES BLDG, 40 EASTON RD, FOX, btwn CHAPEL OAK RD and OLD MILL RD, ON THE STREET, IN FRONT OF, NFD3, 157001, Medical ProQA recommends dispatch at this time, Units:102EN1, 157EN1, 172EN1 - From 405 11/11/2010 12:17:38 TXT STOP to opt-out
@@ -2930,29 +2935,6 @@ Contact: Keith Przybylski <keithprzybylski@gmail.com>
 Sender: messenger_911@comcast.net
 #F001106290116\n06/29/2011\n12:12\nPSYCHIATRIC EMERGENCY\n1 MONTPELIER BL btwn MOORES LA & COMMONW\nJEFFERSON FARMS\n80S YOF MENTAL\nM25A1\nM25A1\n$F0011037731
 **********************************************************
-Geauga County, OH
-Contact: "Pettit, Lewis 911" <LPettit@co.geauga.oh.us>,4404785985@vtext.com
-Sender: Lpettit@co.geauga.oh.us
-
-Verizon has a message number (different for each message) followed by
-"GEAUGA COUNTY SHERIFF (Text Message)", thenthe message.
-The SMS service has the SMS code 69310 then the message.
-
-13610 Bass Lake Rd
-MVA Bass Lake & Butternut
-MVA Auburn & Butternut
-MVA Bass Lake & Butternut
-Fire 12418 Merritt Rd
-EMS 12418 Merritt Rd
-
-Sender:77706NNNNNNN
-
-GEAUGA COUNTY SHERIFF (Text Message) INJURY ACCIDENT AT - 12450 Merrit Rd /2878 TXT STOP to opt-out
-GEAUGA COUNTY SHERIFF (Text Message) RESCUE IS NEEDED AT - 13610 Bass Lake Rd 7 yof diff breathing /2878 TXT STOP to opt-out
-
-Sender:69310
-FD needed 12518 Merritt Rd for an garage fire /2878
-**********************************************************
 Unknown
 Contact: Jeff Hanner <jhanner@windstream.net>
 SCFD Type:CHP SUBTYPE:? LOC:112 WILD AZALEA DR [@ROCK HILL C:7/7/2011 06:49:39 122 WILD AZALEA: cross streets: DOGWOOD ST & E ROCKHILL DR 7/7/2011 06:49:4
@@ -3811,14 +3793,6 @@ BTF03
 BTFIRE
 REPORT OF A FIRE IN THE FURNACE
 **********************************************************
-Polk County, IA (Grimes Fire & Rescue)
-Contact: angela brouwer <abrouwerdcg@gmail.com>
-Sender: 777129998926
-.... (Grimes) Location: 500 S JAMES ST GRIM: @SCHOOL - GRIM Type: STILL VEHICLE Caller:  Time: 19:47:24
-.... (Grimes) Location: 101 SE DESTINATION DR GRIMES Type: MEDICAL  Caller: GRIMES FAMILY PHYSICIANS Time: 10:54:07
-.... (Grimes) Location: 200 SW BROOKSIDE DR GRIM,111 Type: MEDICAL  Caller: KENNYBROOK VILLAGE Time: 13:42:46
-.... (Grimes) Location: 5555 NW 55TH AVE JOHN: @CHILDSERVE - JOHN Type: COMMFIRE ALARM Caller: ADT/DBI Time: 17:01:43
-**********************************************************
 Lincoln County, NC (or not) (alternate)
 Contact: Craig Spry <kcspry@gmail.com>
 Sender: paging@rcscom.com
@@ -3826,7 +3800,21 @@ Subject:Incoming Message\n9717 Tidal Ct                           STANDBY LAND S
 **********************************************************
 Weld County, CO (replace or alternate?)
 Contact; Ryan Fuller <rfuller131@gmail.com>
+Sender: 777
 " " 24\nSIPF\nD\n3211 LUPTON AVE\nEV\n24\nMOM IS NOT WAKING UP 0000 Confirm 0001 Refuse TXT STOP to opt-out
+" " 36\nTAU\nD\nWCR 21\nPL\n36\n4DR SD DOWN IN DITCH\nProQA Medical Recommended Dispatch Level = 29B04U\nYou are responding to patients involved in a traffic incident.  (If TXT STOP to opt-out
+" " known -- relay  spertinent patient-specific information.) Unknown status/Other codes n TXT STOP to opt-out
+
+Contact: Greg McGinn <GMcGinn@ftluptonfire.com>
+ " " 26\nTAU\nD\nHWY 85 SB\nFL\n26\nRED CHEVY BLAZER VS WHITE FORD EXPLORER.  EXPLORER LOST CONTROL\nProQA Medical Recommended Dispatch Level = 29B04U\nYou are responding to TXT STOP to opt-out
+ " " patients involved in a traffic incident.  (If known -- relay  pertinent patient-speci TXT STOP to opt-out
+
+ " " responding to patients involved in a traffic incident.  (If known -- relay  pertinent patien TXT STOP to opt-out
+ " " 26\nTAU\nD\nWCR 18\nFL\n26D\nVEH IN THE DITCH LIGHTS STILL ON - RP COULD NOT STOP. VEH IS A DRK SEDAN\nProQA Medical Recommended Dispatch Level = 29B04U\nYou are TXT STOP to opt-out
+ " " 26\nTAU\nD\nHWY 52\nFL\n26A\nSB** RP SEEN A BLK CAR POSS 4 DR CAR GO OFF THE RD AND DOWN EMBANKMENT, RP JUST\nPASSED BY TXT STOP to opt-out
+
+**********************************************************
+**********************************************************
 **********************************************************
 **********************************************************
 ************  READY TO ROLL ******************************
@@ -4088,7 +4076,7 @@ OAKRIDGE CT
 23:03:48
 ZONE 86 WATERFLOW WEARHOUSE 1 
 **********************************************************
-Geauga County, OH (replaced ??)
+Geauga County, OH (alternate)
 Contact:David Schantz <hfd3607@gmail.com>
 Sender: 69310
 
@@ -4131,3 +4119,12 @@ FIRE/10-50 J-2/ STATE RD CC JEFFCO/FESTUS FIRE / HWY 67 /FIRE DEP /H4 FI H1 FEST
 
 ( 1 of  2) S:Call M:FIRE / MUTUAL AID / 12532 STATE RD TT JEFFCO/R-7 / R7SCHOOLRD / EMS / H3 FI H1 / BRUSH ENDANGERING A STRUCTURE/ 66
 ( 2 of  2) 14 6037 \nR-7 FD720096 / JPAD H3 FI H1\n
+**********************************************************
+Polk County, IA (Grimes Fire & Rescue)
+Contact: angela brouwer <abrouwerdcg@gmail.com>
+Sender: 777129998926
+.... (Grimes) Location: 500 S JAMES ST GRIM: @SCHOOL - GRIM Type: STILL VEHICLE Caller:  Time: 19:47:24
+.... (Grimes) Location: 101 SE DESTINATION DR GRIMES Type: MEDICAL  Caller: GRIMES FAMILY PHYSICIANS Time: 10:54:07
+.... (Grimes) Location: 200 SW BROOKSIDE DR GRIM,111 Type: MEDICAL  Caller: KENNYBROOK VILLAGE Time: 13:42:46
+.... (Grimes) Location: 5555 NW 55TH AVE JOHN: @CHILDSERVE - JOHN Type: COMMFIRE ALARM Caller: ADT/DBI Time: 17:01:43
+.... (Grimes) Location: 2555 W 1ST ST GRIM: @DALLAS CENTER GRIMES HIGH SCHOOL - GRIM Type: COMMFIRE ALARM Caller: ADT Time: 20:37:32

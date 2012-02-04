@@ -36,6 +36,7 @@ GEAUGA COUNTY SHERIFF (Text Message) RESCUE IS NEEDED AT - hambden twp park -- 1
 GEAUGA COUNTY SHERIFF (Text Message) RESCUE IS NEEDED AT - sunco station female in custody hx heart problems TXT STOP to opt-out
 GEAUGA COUNTY SHERIFF (Text Message) RESCUE IS NEEDED AT - 9922 OLD STATE RD 90 YO FEMALE DIFF BREATHING TXT STOP to opt-out
 GEAUGA COUNTY SHERIFF (Text Message) Rescue needed at 1 La Verne Ln, female possible going into Labor. 2800/Wright TXT STOP to opt-out
+GEAUGA COUNTY SHERIFF (Text Message) RESCUE IS NEEDED AT - 12115 COUNTRY OAKS TRL 96 Y/O/F POSSIBLE D.O.A. 2800/DP TXT STOP to opt-out
  
 */
 
