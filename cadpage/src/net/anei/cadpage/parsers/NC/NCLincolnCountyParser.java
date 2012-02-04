@@ -32,6 +32,10 @@ Contact: Kevin Yount <unionfd622@yahoo.com>
 Sender: 93001043
 455:CAD:UFD-1100005100-29B04-29-B-4 TRAFFIC ACCIDENT-1513 ALF HOOVER RD-REEPSVILLE BAPTIST CHURCH-J RHYNE REEP RD-REEPSVILLE RD-[Medical Priority Info] RESPONSE: Bravo RESPONDER SCRIPT: Age unknown, Gender unknown, Consciousness unknown, Breathing status unknown. Traffic / Transportation Incidents. Unknown status/Other cod
 
+Contact: Lisa Dellinger <lisadellinger2@gmail.com>
+Sender: CAD@lincolne911.org
+1112:CAD:FYI: -EMSC-201201013-TRANSFER-433 MCALISTER RD-CMC LINCOLN (NEW)-BEECHNUT ST-MEDICAL CENTER DR-going to brian center/ no special :1of2\n\n\nDISCLAIMER: Pu
+
 */
 
 public class NCLincolnCountyParser extends DispatchOSSIParser {
@@ -40,7 +44,7 @@ public class NCLincolnCountyParser extends DispatchOSSIParser {
   
   public NCLincolnCountyParser() {
     super("LINCOLN COUNTY", "NC",
-           "ID: SRC ID? CODE? CALL ADDR PLACE? X X? INFO+");
+           "ID: FYI? SRC ID? CODE? CALL ADDR PLACE? X X? INFO+");
   }
   
   @Override

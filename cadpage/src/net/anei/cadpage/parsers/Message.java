@@ -61,6 +61,7 @@ public class Message {
   protected void setLocationCode(String location) {}
   
   // Patterns used to perform front end descrambling
+  private static final Pattern DISCLAIMER_PTN = Pattern.compile("\\n+DISCLA.*$", Pattern.CASE_INSENSITIVE);
   private static final Pattern[] MSG_HEADER_PTNS = new Pattern[]{
     Pattern.compile("^(000\\d)/(000\\d)\\b"),
     Pattern.compile("^(\\d) *of *(\\d):"),
@@ -93,6 +94,9 @@ public class Message {
     // default address and subject to obvious values
     parseAddress = fromAddress;
     parseSubject = subject;
+    
+    // Remove trailing disclaimer
+    body = DISCLAIMER_PTN.matcher(body).replaceFirst("");
     
     // Dummy loop we can break out of
     do {

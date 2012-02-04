@@ -200,4 +200,10 @@ public class DispatchOSSIParser extends FieldProgramParser {
   public String getProgram() {
     return (leadID ? "ID " : "") + super.getProgram() + " DATE TIME";
   }
+  
+  @Override
+  protected Field getField(String name) {
+    if (name.equals("FYI")) return new SkipField("FYI:");
+    return super.getField(name);
+  }
 }
