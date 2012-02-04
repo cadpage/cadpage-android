@@ -138,7 +138,7 @@ public class TXMontgomeryCountyParserTest extends BaseParserTest {
         "CALL:F48-CODE 1000 DRILL ONLY",
         "UNIT:E113",
         "ADDR:27430 ROBINSON RD",
-        "APT:ST 113 S MONT CO FIRE",
+        "PLACE:ST 113 S MONT CO FIRE",
         "CITY:OAK RIDGE",
         "X:27254 BL");
 
@@ -207,7 +207,7 @@ public class TXMontgomeryCountyParserTest extends BaseParserTest {
         "CALL:28C01L-STROKE/CVA - Not alert - Less tha",
         "UNIT:B113",
         "ADDR:25610 OAKHURST DR",
-        "APT:GRACE MEMORY CARE II",
+        "PLACE:GRACE MEMORY CARE II",
         "CITY:SPRING");
 
     doTest("T24",
@@ -244,7 +244,7 @@ public class TXMontgomeryCountyParserTest extends BaseParserTest {
         "CALL:10D02-CHEST PAIN - Difficulty speaking b",
         "UNIT:B111",
         "ADDR:25469 BOROUGH PARK DR",
-        "APT:MISSION WOODS",
+        "PLACE:MISSION WOODS",
         "CITY:SPRING");
 
     doTest("T28",
@@ -254,6 +254,16 @@ public class TXMontgomeryCountyParserTest extends BaseParserTest {
         "UNIT:B113",
         "ADDR:2226 BOB WHITE",
         "CITY:SPRING");
+
+    doTest("T29",
+        "(Nature: F36-SMOKE IN THE BUILDING) New Fire Run: 2012-03786,,TK10,Location: 10510 SIX PINES DR-WD,2211,Building: TAMARAC PINES APTS,Cross: 1800",
+        "ID:2012-03786",
+        "CALL:F36-SMOKE IN THE BUILDING",
+        "UNIT:TK10",
+        "ADDR:10510 SIX PINES DR",
+        "PLACE:TAMARAC PINES APTS",
+        "CITY:WOODLANDS",
+        "X:1800");
   }
   
   public static void main(String[] args) {
