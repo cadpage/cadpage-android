@@ -335,7 +335,7 @@ public class NYSuffolkCountyBParserTest extends BaseParserTest {
 
     doTest("T32",
         "*** 16 ***  BROADWAY CS: PARK AVE ADTML: 31-D-3 TOA: 16:14 10-20-11 2011-004568 TYPE: UNCONSCIOUS / FAINTING (NEAR) I/V/O NURSERY E/M",
-        "CALL:16",
+        "CALL:16 - UNCONSCIOUS / FAINTING",
         "ADDR:BROADWAY",
         "MADDR:BROADWAY & PARK AVE",
         "X:PARK AVE",
@@ -343,7 +343,7 @@ public class NYSuffolkCountyBParserTest extends BaseParserTest {
         "TIME:16:14",
         "DATE:10-20-11",
         "ID:2011-004568",
-        "INFO:UNCONSCIOUS / FAINTING (NEAR) I/V/O NURSERY E/M");
+        "INFO:(NEAR) I/V/O NURSERY E/M");
 
     doTest("T33",
         "*** 16 *** 24 FOXHURST RD CS: DIX HILLS RD TOA: 16:16 10-29-11 2011-004718",
@@ -356,18 +356,17 @@ public class NYSuffolkCountyBParserTest extends BaseParserTest {
 
     doTest("T34",
         "*** 16 *** 180 E PULASKI RD CS: ALBERMARLE ST ADTML: 10-C-1 TOA: 15:43 01-26-12 2012-000393 TYPE: CHEST PAIN LOC: 180 E PULASKI RD HU",
-        "CALL:16",
+        "CALL:16 - CHEST PAIN",
         "ADDR:180 E PULASKI RD",
         "X:ALBERMARLE ST",
         "CODE:10-C-1",
         "TIME:15:43",
         "DATE:01-26-12",
-        "ID:2012-000393",
-        "INFO:CHEST PAIN LOC: 180 E PULASKI RD HU");
+        "ID:2012-000393");
 
     doTest("T35",
         "*** 16 ***  JONES LN CS: W JERICHO TRNP ADTML: 29-B-1 TOA: 14:04 01-26-12 2012-000392 TYPE: MOTOR VEHICLE ACCIDENT  IN PARKING LOT CR",
-        "CALL:16",
+        "CALL:16 - MOTOR VEHICLE ACCIDENT",
         "ADDR:JONES LN",
         "MADDR:JONES LN & W JERICHO TRNP",
         "X:W JERICHO TRNP",
@@ -375,22 +374,41 @@ public class NYSuffolkCountyBParserTest extends BaseParserTest {
         "TIME:14:04",
         "DATE:01-26-12",
         "ID:2012-000392",
-        "INFO:MOTOR VEHICLE ACCIDENT  IN PARKING LOT CR");
+        "INFO:IN PARKING LOT CR");
 
     doTest("T36",
         "*** 16 *** 379 NEW YORK AV CS: ELM ST ADTML: 17-D-3 TOA: 13:28 01-26-12 2012-000391 TYPE: FALLS LOC: 379 NEW YORK AV HUNTIN :@FOX'S  ",
-        "CALL:16",
+        "CALL:16 - FALLS",
         "ADDR:379 NEW YORK AV",
         "MADDR:379 NEW YORK AVE",
         "X:ELM ST",
         "CODE:17-D-3",
         "TIME:13:28",
         "DATE:01-26-12",
-        "ID:2012-000391",
-        "INFO:FALLS LOC: 379 NEW YORK AV HUNTIN :@FOX'S");
+        "ID:2012-000391");
+
+    doTest("T37",
+        "*** 16 *** 257 E 17 CS: LENOX RD ADTML: 17-A-1 TOA: 10:16 02-05-12 2012-000535 TYPE: FALLS LOC: 257A E 17 ST HUNTIS   CROSS: LENOX RD",
+        "CALL:16 - FALLS",
+        "ADDR:257 E 17",
+        "X:LENOX RD",
+        "CODE:17-A-1",
+        "TIME:10:16",
+        "DATE:02-05-12",
+        "ID:2012-000535");
+
+    doTest("T38",
+        "*** 16 *** 2 MATHER CT CS: STRATTON DR ADTML: 6-C-1 TOA: 08:00 02-05-12 2012-000533 TYPE: RESPIRATORY LOC: 2 MATHER CT HUNTIS   CROSS",
+        "CALL:16 - RESPIRATORY",
+        "ADDR:2 MATHER CT",
+        "X:STRATTON DR",
+        "CODE:6-C-1",
+        "TIME:08:00",
+        "DATE:02-05-12",
+        "ID:2012-000533");
   }
   
   public static void main(String[] args) {
-    new NYSuffolkCountyBParserTest().generateTests("T34");
+    new NYSuffolkCountyBParserTest().generateTests("T39");
   }
 }
