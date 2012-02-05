@@ -3812,8 +3812,19 @@ Contact: Greg McGinn <GMcGinn@ftluptonfire.com>
  " " responding to patients involved in a traffic incident.  (If known -- relay  pertinent patien TXT STOP to opt-out
  " " 26\nTAU\nD\nWCR 18\nFL\n26D\nVEH IN THE DITCH LIGHTS STILL ON - RP COULD NOT STOP. VEH IS A DRK SEDAN\nProQA Medical Recommended Dispatch Level = 29B04U\nYou are TXT STOP to opt-out
  " " 26\nTAU\nD\nHWY 52\nFL\n26A\nSB** RP SEEN A BLK CAR POSS 4 DR CAR GO OFF THE RD AND DOWN EMBANKMENT, RP JUST\nPASSED BY TXT STOP to opt-out
-
 **********************************************************
+Delaware County, PA
+Contact: Thomas Dobbins <tdobbins53@gmail.com>
+Sender: bfc53@comcast.net
+[Update]**AUTOMATIC FIRE ALARM**2725 WEST CHESTER PKE LAW**S MALIN RD**SCHOOL HOUSE LN**13:23**02/04/2012**MULTIPLE LISTING,~ COMPUTER STORE,
+**********************************************************
+Botetourt County, VA
+Contact: Zach Beckner <zach.beckner@gmail.com>
+Sender: SM@botetourtva.us
+System: Southern
+SM:167000 INTERSTATE 81 BUCHANAN 12001756 02:03:45 ACCIDENT 10-50 NB SIDE TRACTOR TRAILER WENT DOWN OVER BANK POSS FLIPPED\n\n\nThe information in this e-mail messag
+BCH:1078 BRUGHS MILL RD FINCASTLE 12001840 12:35:42 FLUE FIRE CALLING FROM HER IN LAWS. HOME NO IS 992-4197--SHE CHECKED IF ANYONE WAS HOME AND NO ONE ANSWERED.
+ARG:158300 INTERSTATE 81 FINCASTLE 12001904 16:01:02 ACCIDENT 10-50 NB / HIT THE GUARDRAIL / WAS ALL OVER THE ROAD BEFORE THAT FOR ABOUT 3 MILES / SAYS HE IS NOT
 **********************************************************
 **********************************************************
 **********************************************************
@@ -3927,6 +3938,8 @@ Sender: 911-CENTER@co.marion.ms.us
 -  - 911-CENTER:SIG72 >MEDICAL CALL 244 SPRING HILL CHURCH RD SANDY HOOK LEWIS, MARY Map: Grids:, Cad: 2012-0000001643\n
 -  - 911-CENTER:SIG72 >MEDICAL CALL 240 BRANTON BAY RD TYLERTOWN AT&T MOBILITY Map: Grids:, Cad: 2012-0000001839\n
 -  - 911-CENTER:EVENT: SIG72 LOC:37 STRINGER BULLOCK RD Cad: 2012-0000001996 ENR >21:01 1023 >21:15 1024 >21:41\n
+-  - 911-CENTER:EVENT: SIG1 LOC:283 MAYS CREEK RD Cad: 2012-0000002303 1023 >22:12 1024 >22:43\n
+
 **********************************************************
 Greator Lenox Amulance Service (GLAS), NY (in Madison County)
 Contact: "Kyle M. Cashel" <kcashel@gmail.com>
@@ -4087,6 +4100,23 @@ GOMER CT
 20:36:49
 FIRE ACROSS STREET BELIEVED T 
 
+singerly@gmail.com: 1301
+MVA (M
+MOTOR VEHICLE ACC
+E OLD PHILADELPHIA RD / PULASK
+23:21:51
+12002033
+23:22:19
+MALE IS INJURIEDTRAFFIC ACCIDE 
+
+singerly@gmail.com: 1405
+MVA (M
+MOTOR VEHICLE ACC
+HIGHS @5655 TELEGRAPH RD
+23:22:43
+12002034
+23:23:56
+ACROSS FROM THE HIGHS STORE DR 
 **********************************************************
 Geauga County, OH (alternate)
 Contact:David Schantz <hfd3607@gmail.com>

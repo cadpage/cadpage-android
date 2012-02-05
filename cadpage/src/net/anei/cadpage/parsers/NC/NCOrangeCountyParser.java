@@ -39,6 +39,9 @@ Subject:CAD Page for CFS 012512-269\nRECD: 16:43:44\nTG: OPS 1\nINC: HEART PROBL
 Contact: Chapel Hill Fire Department <chfdfm91@gmail.com>
 (CAD Page for CFS 020112-248) RECD: 16:04:19\nTG: OPS \nINC: OTHER, FIRE\nLOC: 403 MARTIN LUTHER KING JR BLVD\nAPT: \nBLDG: \nEMD:
 
+Contact: Hendrix Valenzuela <blackhelmetfirefighter@gmail.com
+Subject:CAD Page for CFS 020412-294\nRECD: 18:34:31\nTG: OPS 1\nINC: CHEST PAINS\nLOC: 112 NC 54\nAPT: F1\nBLDG: \nEMD: 10D02\n
+
  */
 
 

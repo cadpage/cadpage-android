@@ -684,7 +684,7 @@ Lisa Edwards (jojosmima@gmail.com)<ledwards@townofchapelhill.org>
 >>Ken Long <pennstate026@gmail.com>
 >>Steven Bristow <sbristow13@gmail.com>
 %%11/05/2011
->>Rod Ault (rodneyjault@gmail.com)<ff26emt@yahoo.com>
+>>Rod Ault (ff26emt1@gmail.com)(rodneyjault@gmail.com)<ff26emt@yahoo.com>
 >>ryan patton <yellowlancer02@gmail.com>
 >>Kim Cunningham (mimmy1986@gmail.com)<kimcunningham1986@yahoo.com>
 >>Teresa Eaton <emt5981@gmail.com>
@@ -1030,11 +1030,11 @@ Daniel Marlow (marlow4030@gmail.com)<dmarlow4030@gmail.com>
 >>Dispatch Info <htfd11@gmail.com>
 %%12/29/2011
 >>Chris Ayers <wrfd1923cayers@gmail.com>
-"mbyers210@yahoo.com" (mbyers145@gmail.com)<mbyers210@yahoo.com>
-Michelle Kerr (michellekerr32@gmail.com)<michellekerr32@yahoo.com>
+>>"mbyers210@yahoo.com" (mbyers145@gmail.com)<mbyers210@yahoo.com>
+>>Michelle Kerr (michellekerr32@gmail.com)<michellekerr32@yahoo.com>
 %%12/30/2011
-Josh Josh (ktiedge89@gmail.com)<djv7590@gmail.com>
-Bobby Baehr <firefighter3919@gmail.com>
+>>Josh Josh (ktiedge89@gmail.com)<djv7590@gmail.com>
+>>Bobby Baehr <firefighter3919@gmail.com>
 "joel.hall@hotmail.com" (jhall886@gmail.com)<joel.hall@hotmail.com>
 Christopher intartaglio <jeter8886@gmail.com>
 Erik Facundo <erik.facundo@gmail.com>
@@ -1405,3 +1405,8 @@ Brandie Harlow <harlow625@gmail.com>
 %%02/04/2012
 Melinda Clark <mindi4923@gmail.com>
 //**** Reload marker *****//
+//**** Reload Rod Ault ***//
+Lance Bailey <lanceb30@gmail.com>
+Kelly Willard <brakelnatnic@gmail.com>
+%%02/05/2012
+echodelta73 <echodelta73@gmail.com>

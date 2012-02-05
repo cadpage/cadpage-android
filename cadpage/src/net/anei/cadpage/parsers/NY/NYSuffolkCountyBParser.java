@@ -54,12 +54,11 @@ Contact: Tyler Gibbs <moosespace91@gmail.com>
 Sender: scmproducts@optonline.net
 *** 16 ***  BROADWAY CS: PARK AVE ADTML: 31-D-3 TOA: 16:14 10-20-11 2011-004568 TYPE: UNCONSCIOUS / FAINTING (NEAR) I/V/O NURSERY E/M
 *** 16 *** 24 FOXHURST RD CS: DIX HILLS RD TOA: 16:16 10-29-11 2011-004718
-
-Contact: Tyler Gibbs <moosespace91@gmail.com>
-Sender: scmproducts@optonline.net
 *** 16 *** 180 E PULASKI RD CS: ALBERMARLE ST ADTML: 10-C-1 TOA: 15:43 01-26-12 2012-000393 TYPE: CHEST PAIN LOC: 180 E PULASKI RD HU
 *** 16 ***  JONES LN CS: W JERICHO TRNP ADTML: 29-B-1 TOA: 14:04 01-26-12 2012-000392 TYPE: MOTOR VEHICLE ACCIDENT  IN PARKING LOT CR
 *** 16 *** 379 NEW YORK AV CS: ELM ST ADTML: 17-D-3 TOA: 13:28 01-26-12 2012-000391 TYPE: FALLS LOC: 379 NEW YORK AV HUNTIN :@FOX'S  
+*** 16 *** 257 E 17 CS: LENOX RD ADTML: 17-A-1 TOA: 10:16 02-05-12 2012-000535 TYPE: FALLS LOC: 257A E 17 ST HUNTIS   CROSS: LENOX RD
+*** 16 *** 2 MATHER CT CS: STRATTON DR ADTML: 6-C-1 TOA: 08:00 02-05-12 2012-000533 TYPE: RESPIRATORY LOC: 2 MATHER CT HUNTIS   CROSS
 
 */
 
@@ -71,7 +70,7 @@ public class NYSuffolkCountyBParser extends FieldProgramParser {
   
   public NYSuffolkCountyBParser() {
     super(CITY_LIST, "SUFFOLK COUNTY", "NY",
-           "ADDR/SP! CS:X! ADTML:CODE? TOA:TIMEDATE TYPE:INFO");
+           "ADDR/SP! CS:X! ADTML:CODE? TOA:TIMEDATE TYPE:INFO LOC:SKIP");
   }
   
   @Override
@@ -125,9 +124,24 @@ public class NYSuffolkCountyBParser extends FieldProgramParser {
     }
   }
   
+  private static final Pattern CALL_DELIM_PTN = Pattern.compile("\\(|  ");
+  private class MyInfoField extends InfoField {
+    @Override
+    public void parse(String field, Data data) {
+      if (data.strCall.length() <= 2) {
+        Matcher match = CALL_DELIM_PTN.matcher(field);
+        int pt = match.find() ? match.start() : field.length();
+        data.strCall = append(data.strCall, " - ", field.substring(0,pt).trim());
+        field = field.substring(pt).trim();
+      }
+      super.parse(field, data);
+    }
+  }
+  
   @Override
   public Field getField(String name) {
     if (name.equals("TIMEDATE")) return new MyTimeDateField();
+    if (name.equals("INFO")) return new MyInfoField();
     return super.getField(name);
   }
   

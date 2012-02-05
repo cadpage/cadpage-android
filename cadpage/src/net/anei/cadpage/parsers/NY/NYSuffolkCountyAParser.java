@@ -20,7 +20,6 @@ TYPE: BLEEDING / LACERATIONS LOC: 462 SPUR DR N NBAYSH  CROSS: WB SSP OFF RAMP-X
 TYPE: PREGNANCY / CHILDBIRTH / MISCARRIAGE LOC: 330 MOTOR PKWY HAUPPA:@FELDMAN, KRAMER & MONACO STE 400  CROSS: WASHINGTON AV / MARCUS BLVD C
 TYPE: PSYCHIATRIC / ABNORMAL BEHAVIOR / SUICIDE LOC: 200 WIRELESS BLVD HAUPPA: @SOCIAL SERVICES HAUPPAUGE INTERVIEW AREA CROSS: MORELAND RD /
 
-
 Center Moriches, NY
 Contact: William Renzetti <williamrenzetti@gmail.com> (works for Suffolk County 911)
 FAINTING (NEAR) LOC: 46 SAUNDERS AV CENTEM:@KINGS CHAPEL CHURCH  CROSS: ROWEIN RD CODE: 31-D-2 TIME: 17:24:12
@@ -102,11 +101,14 @@ public class NYSuffolkCountyAParser extends SmartAddressParser {
   
   @Override
   public String getFilter() {
-    return "paging@scfres.com";
+    return "paging@scfres.com,@communityamb.org";
   }
 
   @Override
   protected boolean parseMsg(String body, Data data) {
+    
+    // Anything starting with 3 asterisks is the similar but different (B) variant
+    if (body.startsWith("***")) return false;
 
     // Some formats cut the initial TYPE: code
     if (body.startsWith("FWD:")) body = body.substring(4).trim();
