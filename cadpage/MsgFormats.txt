@@ -1547,6 +1547,11 @@ CAD:5413 MONROE ANSONVILLE RD;CHEST PAIN EMD;S09;B-CF2;CLARK ST;ANSONVILLE RD;01
 CAD:226 S MAIN ST;GATEWOOD VILLAGE;FIRE ALARM EFD;S09;B2;HINSON ST;GOODWILL LN;01/16/2011 14:04:24
 CAD:1299 WITMORE RD/OLD MONROE MARSHVILLE RD;ACCIDENT EMD;S09;B-CF2;01/21/2011 16:59:15
 ***************************************************************************
+Wayne County, NC (NCWayneCountyParser)
+Structure Fire  117,S RUNNING DEER CIR ;DUDLEY  DUDLEY [76]
+Traffic Accident-Inj    1574,    DURHAM LAKE RD ; DUDLEY  DUDLEY    [68]
+Gas Leak        105,    ROLLINGWOOD CT ;  DUDLEY    DUDLEY    [71]
+***************************************************************************
 Las Vegas, NV (NVLasVegasParser)
 [SMS]  RE: 4051722 U: 3901, P: 2, G: 2914, PH: 28 L: 4966 MOMENTI ST-CC# , B: , AL: PC:, 26B PN:, N:26B], Location from Fire: 4966 MOMENTI ST, 01:57:51 88YOM CB...SE
 [SMS]  I: 4051701 U: 3901, P: 2, G: 2819, PH: 97 L: 6255 W TROPICANA AVE# , B: , AL: PC:, 32B PN:, N:32B], 00:38:29 Class of service: WPH2], 00:38:29 Validity of add
