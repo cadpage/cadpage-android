@@ -219,6 +219,16 @@ public class KYDaviessCountyParserTest extends BaseParserTest {
         "NAME:PHILPOT BIRKHEAD, LARRY, REV",
         "ID:2012-0000008822");
 
+    doTest("T2",
+        "FRM:911-CENTER@911Center@central\n" +
+        "MSG:MTI >TRAUMATIC INJURY 1734 DANIELS LN XS: HAYDEN RD OWENSBORO HARMON, MATT Map: Grids:, Cad: 2012-0000010677",
+
+        "CALL:TRAUMATIC INJURY",
+        "ADDR:1734 DANIELS LN",
+        "X:HAYDEN RD",
+        "NAME:OWENSBORO HARMON, MATT",
+        "ID:2012-0000010677");
+
   }
   
   @Test
