@@ -4074,7 +4074,19 @@ OAKRIDGE CT
 23:02:22
 12001882
 23:03:48
-ZONE 86 WATERFLOW WEARHOUSE 1 
+ZONE 86 WATERFLOW WEARHOUSE 1
+
+ singerly@gmail.com: 1401
+HOUSE 
+HOUSE FIRE
+20 ROLLING GREEN LN
+HILLTOP RD
+GOMER CT
+20:36:11
+12002025
+20:36:49
+FIRE ACROSS STREET BELIEVED T 
+
 **********************************************************
 Geauga County, OH (alternate)
 Contact:David Schantz <hfd3607@gmail.com>
@@ -4105,6 +4117,7 @@ MUNSON FD RESCUE NEEDED AT 12805 KEYSTONE LN FOR A MEDICAL ALARM GOING OFF AT TH
 MA Needed to 14075 Fairgate Blvd in Newbury for a 14yof out of control stated she was going to harm herself she is out of control needs eval
 fire dept -- gas spill -- papa c's -- 13940 gar hwy -- 2800
 9376 brakeman rd 79 yof fell poss broken hip req no siren
+Rescue Needed 12120 Arborwood Way 5yom laceration to the head
 
 **********************************************************
 Festus, MO (in Jefferson County)

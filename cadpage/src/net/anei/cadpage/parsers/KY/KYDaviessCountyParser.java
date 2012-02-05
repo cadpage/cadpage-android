@@ -36,6 +36,7 @@ Sender: 2002000004
 Contact: Wayne Hall <f1ref1ghter63304@gmail.com>
 Sender: 911-CENTER@911Center@central
 1 of 2\nFRM:911-CENTER@911Center@central\nMSG:CLIV >CHILD LOCKED IN CAR 3523 HIGHWAY 54 XS: NEAR COMMONWEALTH CT OWENSBORO SHULER, JASON Map:\n(Con't) 2 of 2\nGrids:, Cad: 2012-0000010440(End)
+FRM:911-CENTER@911Center@central\nMSG:MTI >TRAUMATIC INJURY 1734 DANIELS LN XS: HAYDEN RD OWENSBORO HARMON, MATT Map: Grids:, Cad: 2012-0000010677
 
 */
 public class KYDaviessCountyParser extends DispatchBParser {
