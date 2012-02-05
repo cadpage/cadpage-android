@@ -26,7 +26,7 @@ public class NCWayneCountyParser extends MsgParser {
   private static final Pattern MASTER = Pattern.compile("(.*?)  +(\\d+) *, *(.*?) +[; ] *(.*?)  +(.*?) \\[(\\d+)\\]");
   
   public NCWayneCountyParser() {
-    super("WAYNE", "NC");
+    super("WAYNE COUNTY", "NC");
   }
   
   @Override
@@ -36,6 +36,7 @@ public class NCWayneCountyParser extends MsgParser {
 
   @Override
   protected boolean parseMsg(String body, Data data) {
+    body = body.replace('\t', ' ');
     Matcher match = MASTER.matcher(body);
     if (!match.find()) return false;
     
