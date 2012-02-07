@@ -26,6 +26,7 @@ Contact: support@active911.com
 (911 Message) 70S - STRUCTURE FIRE  10941 CLEMSON BLVD XStreet: PRESSLEY PL / SONNYS DR SENECA  BQS #5 CLEMSON BLVD   01/16/12 17:44  Narr:   IN NEIGHBORHOOD BEHIND THE ROAD RUNNER  SOMEWHERE ACROSS STREET  E911 Info - Class of Service: BUSN Special Response Info: SHERIFF DEPT SENECA  CORINTH-SHILOH FIRE #3  EMS ER-1 ER-2
 (911 Message) LIFT ASSISTANCE  1407 W LITTLE RIVER DR XStreet: AZURE COVE CT / KEOWEE LAKESHORE DR SENECA     01/15/12 20:43  Narr:   NO 10-52 RESPONDING UNLESS NEEDED  HE HAS FALLEN  NEEDS HELP LIFTING SOMEONE OUT OF THE FLOOR  E911 Info - Class of Service: RESD Special Response Info: SHERIFF DEPT SENECA CORINTH-SHILOH FIRE #3  EMS ER-1 ER-2
 (911 Message) S32 - SPINAL INJURY  105 GLORIA LN XStreet: SHILOH RD / DEAD END SENECA 2012-00000009  01/13/12 17:35  Narr:   CANT MOVE HIS LEG  HUSBAND FELL BATHROOM FLOOR
+[911 Message] 50 - TRAFFIC ACCIDENT  TEARDROP TRL WAR WOMAN TRL XStreet: SENECA     02/07/12 04:21  Narr:   PT NAME IS KEITH ALLEN STUTRIDGE  HE IS HURT  NO OVERTURNED  HAD A 10-50 ABOUT 50 YARDS UP THE ROADWAY  STD MALE LAYING IN THE ROADWAY \n
 
  */
 
@@ -103,8 +104,15 @@ public class SCOconeeCountyParser extends FieldProgramParser {
       String sAddr = sLeader.substring(pt+2).trim();
       
       sAddr = sAddr.replace(" XStreet:", " XS:");
-      parseAddress(StartType.START_ADDR, FLAG_START_FLD_REQ, sAddr, data);
-      data.strPlace = getLeft();
+      parseAddress(StartType.START_ADDR, FLAG_IMPLIED_INTERSECT, sAddr, data);
+      String left = getLeft();
+      if (left.startsWith("XS:")) {
+        data.strCross = append(data.strCross, " & ", left.substring(3).trim());
+      } else {
+        Parser p  = new Parser(getLeft());
+        data.strPlace = p.get(" XS:");
+        data.strCross = append(data.strCross, " & ", p.get());
+      }
     }
     
     @Override
