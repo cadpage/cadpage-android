@@ -230,6 +230,14 @@ public class NYOneidaCountyParserTest extends BaseParserTest {
         "PLACE:K-Mart",
         "ADDR:4645 COMMERCIAL DR",
         "CITY:NEW HARTFORD");
+
+    doTest("T3",
+        "(New Hartford Fire) Dispatched  INVESTIGATE  50 COURT KNLS, NEW HARTFORD (/ROYAL CT)",
+        "SRC:New Hartford Fire",
+        "CALL:INVESTIGATE",
+        "ADDR:50 COURT KNOLLE",
+        "CITY:NEW HARTFORD",
+        "X:ROYAL CT");
   }
   
   @Test
