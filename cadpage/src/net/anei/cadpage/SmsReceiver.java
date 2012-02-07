@@ -48,7 +48,7 @@ public class SmsReceiver extends BroadcastReceiver {
        
       // Otherwise convert Intent into an SMS/MSS message
       else if (ACTION_SMS_RECEIVED.equals(intent.getAction())) {
-        SmsMessage[] messages = SmsPopupUtils.getMessagesFromIntent(intent);
+        SmsMessage[] messages = getMessagesFromIntent(intent);
         if (messages == null) return;
         message = new SmsMmsMessage( messages,System.currentTimeMillis());
         if (message.getMessageBody() == null) return;
@@ -95,6 +95,38 @@ public class SmsReceiver extends BroadcastReceiver {
     // See if we have a live message to process, and if so, do it
     SmsMmsMessage msg = accumulator.nextMsg();
     if (msg != null) processCadPage(context, msg);
+  }
+
+  /**
+   * Read the PDUs out of an {@link #SMS_RECEIVED_ACTION} or a
+   * {@link #DATA_SMS_RECEIVED_ACTION} intent.
+   * 
+   * @param intent
+   *           the intent to read from
+   * @return an array of SmsMessages for the PDUs
+   */
+  public static final SmsMessage[] getMessagesFromIntent(Intent intent) {
+    Object[] messages = (Object[]) intent.getSerializableExtra("pdus");
+    if (messages == null) {
+      return null;
+    }
+    if (messages.length == 0) {
+      return null;
+    }
+
+    byte[][] pduObjs = new byte[messages.length][];
+
+    for (int i = 0; i < messages.length; i++) {
+      pduObjs[i] = (byte[]) messages[i];
+    }
+    byte[][] pdus = new byte[pduObjs.length][];
+    int pduCount = pdus.length;
+    SmsMessage[] msgs = new SmsMessage[pduCount];
+    for (int i = 0; i < pduCount; i++) {
+      pdus[i] = pduObjs[i];
+      msgs[i] = SmsMessage.createFromPdu(pdus[i]);
+    }
+    return msgs;
   }
 
 
@@ -188,6 +220,7 @@ public class SmsReceiver extends BroadcastReceiver {
     // Otherwise OK
     return true;
   }
+  
   
   /**
    * Request most recently received page be reprocessed

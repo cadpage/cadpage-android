@@ -2,18 +2,14 @@ package net.anei.cadpage;
 
 import java.util.regex.Pattern;
 
-import net.anei.cadpage.donation.DonationManager;
-
 import android.app.AlertDialog;
 import android.content.ComponentName;
 import android.content.Context;
-import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.preference.PreferenceManager;
-import android.telephony.SmsMessage;
 
 public class SmsPopupUtils {
 
@@ -22,38 +18,6 @@ public class SmsPopupUtils {
 
   public static final Pattern QUOTED_STRING_PATTERN =
     Pattern.compile("\\s*\"([^\"]*)\"\\s*");
-
-  /**
-   * Read the PDUs out of an {@link #SMS_RECEIVED_ACTION} or a
-   * {@link #DATA_SMS_RECEIVED_ACTION} intent.
-   * 
-   * @param intent
-   *           the intent to read from
-   * @return an array of SmsMessages for the PDUs
-   */
-  public static final SmsMessage[] getMessagesFromIntent(Intent intent) {
-    Object[] messages = (Object[]) intent.getSerializableExtra("pdus");
-    if (messages == null) {
-      return null;
-    }
-    if (messages.length == 0) {
-      return null;
-    }
-
-    byte[][] pduObjs = new byte[messages.length][];
-
-    for (int i = 0; i < messages.length; i++) {
-      pduObjs[i] = (byte[]) messages[i];
-    }
-    byte[][] pdus = new byte[pduObjs.length][];
-    int pduCount = pdus.length;
-    SmsMessage[] msgs = new SmsMessage[pduCount];
-    for (int i = 0; i < pduCount; i++) {
-      pdus[i] = pduObjs[i];
-      msgs[i] = SmsMessage.createFromPdu(pdus[i]);
-    }
-    return msgs;
-  }
 
   /**
    * Enables or disables the main SMS receiver
