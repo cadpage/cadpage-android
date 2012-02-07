@@ -81,6 +81,12 @@ public class VAAugustaCountyParserTest extends BaseParserTest {
         "ADDR:I-81NB",
         "MADDR:AREA MM 217.9,I 81",
         "PLACE:AREA MM 217.9");
+
+    doTest("T10",
+        "CAD@co.augusta.va.us Msg: CAD:FYI: :AUTOMOBILE ACCIDENT:BROADVIEW ACRES:SANGERS LN/JEFFERSON HWY",
+        "CALL:AUTOMOBILE ACCIDENT",
+        "PLACE:BROADVIEW ACRES",
+        "ADDR:SANGERS LN & JEFFERSON HWY");
   }
   
   // @Test
