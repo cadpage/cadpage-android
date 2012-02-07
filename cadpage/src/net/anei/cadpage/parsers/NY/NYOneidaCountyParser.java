@@ -62,6 +62,7 @@ Contact: David Ambrose <nhfd127@yahoo.com>
 Sender: messaging@iamresponding.com
 (New Hartford Fire) Dispatched >EMS CALL >@NH Post Office  (40 CAMPION RD), NEW HARTFORD
 (New Hartford Fire) Dispatched &gt;MVA-UNKNOWN &gt;@K-Mart  (4645 COMMERCIAL DR), NEW HARTFORD
+(New Hartford Fire) Dispatched  INVESTIGATE  50 COURT KNLS, NEW HARTFORD (/ROYAL CT)
 
 Contact: "bcsbeaverslew@yahoo.com" <bcsbeaverslew@yahoo.com>
 Sender: 777121901640
@@ -76,9 +77,11 @@ FRM:dispatch@oc911.org\nMSG:???WEMF:2011:0346AcknowledgeMVA-UNKNOWNROUTE 233, WE
 public class NYOneidaCountyParser extends SmartAddressParser {
   
   private static final Pattern DELIM = Pattern.compile(" *(?:\\n>?|>) *");
+  private static final Pattern DELIM2 = Pattern.compile("  +");
   private static final Pattern CODE_PTN = Pattern.compile("^(\\d\\d[A-Z]\\d\\d) ?- ?");
   private static final Pattern NY_PTN = Pattern.compile(", *NY$");
   private static final Pattern OUTSIDE = Pattern.compile("\\bOUTSIDE\\b");
+  private static final Pattern KNLS = Pattern.compile("\\bKNLS\\b", Pattern.CASE_INSENSITIVE);
   
   public NYOneidaCountyParser() {
     super(CITY_LIST, "ONEIDA COUNTY", "NY");
@@ -106,6 +109,7 @@ public class NYOneidaCountyParser extends SmartAddressParser {
     data.strSource = subject;
     
     String[] flds = DELIM.split(body);
+    if (flds.length < 3) flds = DELIM2.split(body);
     if (flds.length < 3) return false;
     
     int ndx = 0;
@@ -144,6 +148,7 @@ public class NYOneidaCountyParser extends SmartAddressParser {
     else {
       match = NY_PTN.matcher(sPart1);
       if (match.find()) sPart1 = sPart1.substring(0, match.start()).trim();
+      sPart1 = KNLS.matcher(sPart1).replaceAll("KNOLLE");
       pt = sPart1.indexOf(',');
       if (pt >= 0) {
         data.strCity = sPart1.substring(pt+1).trim();
