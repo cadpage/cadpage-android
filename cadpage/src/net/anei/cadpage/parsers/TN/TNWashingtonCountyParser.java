@@ -47,6 +47,8 @@ prvs=280581d2f=JCFDTEXT@johnsoncitytn.org Breathing Problems/ASTHMA-DELTA M1,E4,
 prvs=281dbe8be=JCFDTEXT@johnsoncitytn.org Abdominal Pain/Problems-CHARLIE M2,E7,R2\n2911 CHATHAM DR #3-1\nCHATHAM APTS\nX-STR= NEWTON DR\nCARTER SELLS RD\nMap 53C 12:46:55 11162258\nThi
 prvs=2861b1534=JCFDTEXT@johnsoncitytn.org Chest Pain(Non-Traumatic)-CHARLIE M1,R2,E7\n310 N STATE OF FRANKLIN RD\nMEDICAL OFFICE BUILDING 2\nX-STR= RAIL ROAD OVERPASS/W WALNUT ST\nPRO
 
+prvs=377b8c42e=JCFDTEXT@johnsoncitytn.org Convulsions/Seizures-DELTA M3,R3,E5\n138 VIEW BEND RD\nX-STR= WOODSTONE CT\n;WOODSTONE CONDOS\nMap 30D 21:06:59 12019235\nThink green: Only pri
+
 Contact: Jason Powell <firedupleadership@gmail.com>
 Sender: CAD@wc911.org
 Breathing Problems-DELTA M1,E3 \n300 W WALNUT ST #2 \nSHAMROCK \nMap 54b 14:59:59 11111863 \nThink green: Only print this e-mail and any attachment 
@@ -54,7 +56,6 @@ Breathing Problems-CHARLIE M1,E1,R1 \n1 UNAKA CT #7 \nMap 39D 21:23:05 11112056 
 House/Residential Fire Alarm E2 \n2701 S ROAN ST #124 \nHERITAGE TRAILER PARK \nMap 55D 22:50:03 115214 \nThink green: Only print this e-mail and an
 Assault/Sexual Assault-BRAVO M3,R3,E9 \n2918 BRISTOL HY \nADVANCE AUTO PARTS \nMap 38A 19:53:06 11113913 \nThink green: Only print this e-mail and a
 Chest Pain(Non-Traumatic)-DELTA M1,R1,E3\n805 KENTUCKY ST\nX-STR= COLORADO ST\nORLEANS ST\nMap 47D 16:50:49 11147626\nThink green: Only print thi
-
 */
 
 public class TNWashingtonCountyParser extends FieldProgramParser {

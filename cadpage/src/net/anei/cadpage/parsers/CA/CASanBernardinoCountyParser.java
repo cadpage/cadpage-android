@@ -34,7 +34,6 @@ Contact: support@active911.com
 [] | DIA-C1>1325 Pacific St - REDC >LOC INFO: >AGN MAP:RED038 -TB MAP:648 C3 >X ST:W CRESCENT AVE/BALBOA CT >E262,MS261,AMR33,E262>COMMENTS:WPH2 LAT:34.03305900 LON:-117.177429 METERS:32 %:095,[ProQA Script] Dispatch code: 13C01 83 year old, Male, Conscious,\n
 [] | ALL-C1>1666 Brookside Ave - REDC >LOC INFO: >AGN MAP:RED043 -TB MAP:647 H2 >X ST:CASCADE ST/TERRACINA BLVD >E264,ME263,AMR39>COMMENTS:WPH2 LAT:34.04496800 LON:-117.211869 METERS:19 %:063,[ProQA Script] Dispatch code: 02C01 27 year old, Male, Conscious, \n
 [] | CI - C>250 E Fern Ave -109 REDC >LOC INFO: >AGN MAP:RED055 -TB MAP:648 C1 >X ST:SONORA ST/MYRTLE ST >T261,BC705,E261,E264>COMMENTS:[Address: 250 E FERN AVE] [Medium] [Unknown] FERNWOOD CONDOS RESIDENT IN WHEELCHAIR UNABLE TO EVACUATE WITHOUT ASSISTANCE,\n
-
  | FALL-A>1240 Devon Pl - REDC >LOC INFO: >AGN MAP:RED095 -TB MAP:608 D5 >X ST:E BROCKTON AVE/BARBRA LN >ME263,AMR38>COMMENTS:[ProQA Script] Dispatch code: 17A01G 70 year old, Female, Conscious, Breathing. Falls. NOT DANGEROUS body area (On the ground or f
  | CA- Co>111 W Lugonia Ave - REDC >LOC INFO:REDLANDS COMMUNITY CENTER >AGN MAP:RED094 -TB MAP:608 B5 >X ST:WASHINGTON ST/CLAY ST >E261>COMMENTS:FIRE SMOKE DETECTOR SOUTH ZONE4,External Case Number 'RED _1200732' added for Redlands.,
  | FU - U>Mission Rd / California St - LOMC >LOC INFO: >AGN MAP:LOM022 -TB MAP:647 F1 >X ST: >E264,MS251R,ME263,BC402>COMMENTS:WPH2 LAT:34.05005300 LON:-117.226889 METERS:14 %:095,RP STATES ON THE CORNER OF MISSION AND CALIFORNIA OFF THE ACCESS ROAD TO THE
@@ -102,6 +101,24 @@ public class CASanBernardinoCountyParser extends FieldProgramParser {
     return parseFields(body.split(">"), data);
   }
   
+  private class MyCallField extends CallField {
+    
+    @Override
+    public void parse(String field, Data data) {
+      String key = field;
+      int pt = key.indexOf(' ');
+      if (pt >= 0) key = field.substring(0,pt);
+      String desc = TYPE_CODES.getProperty(key);
+      if (desc == null) {
+        pt = key.indexOf('-');
+        if (pt >= 0) key = key.substring(0,pt);
+        desc = TYPE_CODES.getProperty(key);
+      }
+      if (desc != null) field = field + " - " + desc;
+      super.parse(field, data);
+    }
+  }
+  
   private class MyAddressField extends AddressField {
     
     @Override
@@ -151,6 +168,7 @@ public class CASanBernardinoCountyParser extends FieldProgramParser {
   
   @Override
   public Field getField(String name) {
+    if (name.equals("CALL")) return new MyCallField();
     if (name.equals("ADDR")) return new MyAddressField();
     if (name.equals("MAP")) return new MyMapField();
     if (name.equals("INFO")) return new MyInfoField();
@@ -160,5 +178,103 @@ public class CASanBernardinoCountyParser extends FieldProgramParser {
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "RED", "REDLANDS",
       "REDC", "REDLANDS"
+  });
+  
+  private static final Properties TYPE_CODES = buildCodeTable(new String[]{
+      "AB", "Animal Bites",
+      "ABD", "Abdominal Pain",
+      "ALL", "Allergies",
+      "AP", "Aircraft Crash on Airport",
+      "APH", "VCV AP Crash High",
+      "APL", "VCV AP Crash Low",
+      "APM", "VCV AP Crash Medium",
+      "AS", "Aircraft Standby",
+      "ASLT", "Assault",
+      "AT", "Ambulance Transport",
+      "BIRTH", "Childbirth",
+      "BP", "Back Pain",
+      "BT", "Bomb Threat",
+      "CI", "Commercial Investigation",
+      "CO", "Carbon Monoxide Alarm",
+      "CP", "Chest Pains",
+      "CPR", "CPR in Progress",
+      "CST", "Create Strike Team",
+      "CVA", "Stroke",
+      "DIA", "Diabetic Problem",
+      "ELEV", "Elevator Problems",
+      "EYE", "Eye Problems",
+      "FALL", "Fall Victim",
+      "FAR", "Fire Alarm with Reset",
+      "FD", "Dumpster Fire",
+      "FG", "Vegetation Fire",
+      "FH", "Hay Fire",
+      "FI", "Improvement Fire",
+      "FR", "Refuse Fire",
+      "FS", "Structure Fire- Non Comm",
+      "FT", "Motorhome/Truck/Bus Fire",
+      "FTF", "Frwy Truck/Bus Fire",
+      "FU", "Unknown Type Fire",
+      "FV", "Vehicle Fire",
+      "FVF", "Frwy Vehicle Fire",
+      "FWI", "Fireworks Investigation",
+      "GAS", "Ambulance Standby",
+      "GBP", "Burn Permit",
+      "GCC", "County Comm Incident",
+      "GEH", "Environmental Health Inc",
+      "GEM", "Emergency Medical Inc",
+      "GHZ", "Hazardous Materials Inc",
+      "GIT", "IT Incident",
+      "GLL", "Loma Linda City Inc",
+      "GMH", "Medical Helicopter Inc",
+      "GMI", "Miscellaneous Gov Inc",
+      "GMU", "Out-of-System Mutual Aid",
+      "GPH", "Public Health Incident",
+      "GRD", "Road Department Inc",
+      "GRF", "Referral Incident",
+      "GSW", "Gunshot Wound",
+      "GWX", "Weather Incident",
+      "HA", "Headache",
+      "HCE", "Heat/Cold Exposure",
+      "HL", "Hemorrhage/Laceration",
+      "HP", "Heart problems",
+      "HZ", "Hazardous Materials",
+      "IN", "Inside Investigation",
+      "INH", "Carbon Monoxide/Inh/Haz",
+      "MA", "Medical Aid",
+      "MCI", "Multi-Casualty Incident",
+      "MU", "Mutual Aid Requested",
+      "OD", "Overdose",
+      "OE", "Other Emergency",
+      "OI", "Outside Investigation",
+      "PS", "Public Service",
+      "PSY", "Psychiatric/Abn Behavior",
+      "RA", "Residential Alarm",
+      "RQ", "Rescue",
+      "RR", "Railcar Incident",
+      "RS", "Specialized Rescue",
+      "SICK", "Sick Person",
+      "SOB", "Shortness of Breath",
+      "SP", "Fuel Spill",
+      "STAB", "Stabbing",
+      "SWTR", "Swift Water Rescue",
+      "SZ", "Seizures",
+      "TD", "Tree Down",
+      "TE", "TC with Extrication",
+      "TEF", "Frwy TC w/Extrication",
+      "TEST", "TEST INCIDENT",
+      "TF", "TC with Fire",
+      "TFF", "Frwy TC w/Fire",
+      "TFR", "Tactical Fire Response",
+      "TI", "TC with Injuries",
+      "TIF", "Frwy TC w/Injuries",
+      "TO", "TC w Vehicle Over Side",
+      "TOF", "Frwy TC Over the side",
+      "TRAUMA", "Traumatic Injuries",
+      "TU", "TC with Unknown Injuries",
+      "TUF", "Frwy TC Unk Injuries",
+      "UNC", "Unconscious Person",
+      "UNKM", "Unk Medical (Man Down)",
+      "WS", "Water Salvage",
+      "ZAP", "Outside Elec Incident"
   });
 }
