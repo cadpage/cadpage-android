@@ -306,6 +306,7 @@ public class SmsMmsMessage implements Serializable {
    * be processed further by anyone
    */
   public boolean isDiscoveryQuery(Context context) {
+    if (messageBody == null) return false;
     messageBody = VendorManager.instance().discoverQuery(context, messageBody);
     return (messageBody == null);
   }

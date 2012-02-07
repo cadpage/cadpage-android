@@ -51,7 +51,7 @@ public class SmsReceiver extends BroadcastReceiver {
         SmsMessage[] messages = getMessagesFromIntent(intent);
         if (messages == null) return;
         message = new SmsMmsMessage( messages,System.currentTimeMillis());
-        if (message.getMessageBody() == null) return;
+        if (message.getMessageBody().length() == 0) return;
         
         // See if this is a vendor discovery query.  If it is, make it go away
         if (message.isDiscoveryQuery(context)) {
