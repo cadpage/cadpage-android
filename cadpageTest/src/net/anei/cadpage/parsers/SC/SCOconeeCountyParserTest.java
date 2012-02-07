@@ -135,9 +135,18 @@ public class SCOconeeCountyParserTest extends BaseParserTest {
         "DATE:01/13/12",
         "TIME:17:35",
         "INFO:CANT MOVE HIS LEG  HUSBAND FELL BATHROOM FLOOR");
+
+    doTest("T5",
+        "[911 Message] 50 - TRAFFIC ACCIDENT  TEARDROP TRL WAR WOMAN TRL XStreet: SENECA     02/07/12 04:21  Narr:   PT NAME IS KEITH ALLEN STUTRIDGE  HE IS HURT  NO OVERTURNED  HAD A 10-50 ABOUT 50 YARDS UP THE ROADWAY  STD MALE LAYING IN THE ROADWAY \n",
+        "CALL:50 - TRAFFIC ACCIDENT",
+        "ADDR:TEARDROP TRL & WAR WOMAN TRL",
+        "X:SENECA",
+        "DATE:02/07/12",
+        "TIME:04:21",
+        "INFO:PT NAME IS KEITH ALLEN STUTRIDGE  HE IS HURT  NO OVERTURNED  HAD A 10-50 ABOUT 50 YARDS UP THE ROADWAY  STD MALE LAYING IN THE ROADWAY");
  }
   
   public static void main(String[] args) {
-    new SCOconeeCountyParserTest().generateTests("T2", "UNIT CALL ADDR APT X CITY PLACE ID DATE TIME INFO");
+    new SCOconeeCountyParserTest().generateTests("T1", "UNIT CALL ADDR APT X CITY PLACE ID DATE TIME INFO");
   }
 }
