@@ -22,6 +22,10 @@ CAD:ELECTRICAL FIRE - DLOC:135 CRAWFORD DR:CRAWFORD MANOR - 11104:MADISON DR:WAY
 CAD:CONTROL BURN INVESTIGATION:3445 OLD GREENVILLE RD:RT 613 / 245-04:GLORY LN:CHESTNUT RIDGE RD:CNTY-2
 CAD:AUTOMOBILE ACCIDENT:I81NB AREA MM 217.9
 
+Contact: Doug Brydge <dbrydge@gmail.com>
+Sender: CAD@co.augusta.va.us
+CAD@co.augusta.va.us Msg: CAD:FYI: :AUTOMOBILE ACCIDENT:BROADVIEW ACRES:SANGERS LN/JEFFERSON HWY
+
  */
 
 public class VAAugustaCountyParser extends DispatchOSSIParser {
@@ -30,7 +34,7 @@ public class VAAugustaCountyParser extends DispatchOSSIParser {
   
   public VAAugustaCountyParser() {
     super("AUGUSTA COUNTY", "VA",
-           "CALL! PLACE? ADDR/S! MAP? EXTRA? X X INFO");
+           "FYI? EMPTY? CALL! PLACE? ADDR/S! MAP? EXTRA? X X INFO");
   }
   
   @Override
@@ -80,6 +84,8 @@ public class VAAugustaCountyParser extends DispatchOSSIParser {
   protected Field getField(String name) {
     if (name.equals("MAP")) return new MyMapField();
     if (name.equals("EXTRA")) return new ExtraField();
+    if (name.equals("FYI")) return new SkipField("FYI");
+    if (name.equals("EMPTY")) return new SkipField("");
     return super.getField(name);
   }
   
