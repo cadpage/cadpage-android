@@ -377,6 +377,23 @@ public class TNWashingtonCountyParserTest extends BaseParserTest {
         "PLACE:MEDICAL OFFICE BUILDING 2",
         "X:RAIL ROAD OVERPASS/W WALNUT ST & PRO");
 
+    doTest("T35",
+        "prvs=377b8c42e=JCFDTEXT@johnsoncitytn.org Convulsions/Seizures-DELTA M3,R3,E5\n" +
+        "138 VIEW BEND RD\n" +
+        "X-STR= WOODSTONE CT\n" +
+        ";WOODSTONE CONDOS\n" +
+        "Map 30D 21:06:59 12019235\n" +
+        "Think green: Only pri",
+
+        "CALL:Convulsions/Seizures",
+        "PRI:D",
+        "UNIT:M3,R3,E5",
+        "ADDR:138 VIEW BEND RD",
+        "X:WOODSTONE CT & ;WOODSTONE CONDOS",
+        "MAP:30D",
+        "TIME:21:06:59",
+        "ID:12019235");
+
   }
   
   @Test
