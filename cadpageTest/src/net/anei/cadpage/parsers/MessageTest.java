@@ -9,6 +9,12 @@ public class MessageTest {
   @Test
   public void testParseInfo() {
     
+    doParseTest("COWeldCounty",
+        " \" \" 26\nFIREV\nD\n14619 WCR 18\nFL\n26 TXT STOP to opt-out",
+        "ken@cadpage.org",
+        "",
+        "26\nFIREV\nD\n14619 WCR 18\nFL\n26");
+    
     doParseTest("",
         "farmersvillefd+caf_=7042218878=vtext.com@gmail.com", "",
         "12000351  FIRST RESPONDERS  901 S STATE HIGHWAY 78 IN COLLIN COUNTY  PECAN CREEK DR / COUNTY ROAD 606  [FVFD DIST: FVF1 GRID: 124",

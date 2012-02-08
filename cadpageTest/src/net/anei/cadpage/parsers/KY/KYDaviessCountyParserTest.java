@@ -247,6 +247,16 @@ public class KYDaviessCountyParserTest extends BaseParserTest {
         "NAME:OWENSBORO SHULER, JASON",
         "ID:2012-0000010440");
 
+    doTest("T2",
+        "FRM:911-CENTER@911Center@central\n" +
+        "MSG:MBD >BREATHING DIFFICULTY 4913 GRANDVIEW DR XS: REID RD OWENSBORO YELLOW AMBULANCE Map: Grids:, Cad: 2012-0000011569",
+
+        "CALL:BREATHING DIFFICULTY",
+        "ADDR:4913 GRANDVIEW DR",
+        "X:REID RD",
+        "NAME:OWENSBORO YELLOW AMBULANCE",
+        "ID:2012-0000011569");
+
   }
   
   public static void main(String[] args) {
