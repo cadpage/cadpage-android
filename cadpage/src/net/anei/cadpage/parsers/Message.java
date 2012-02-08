@@ -61,6 +61,7 @@ public class Message {
   protected void setLocationCode(String location) {}
   
   // Patterns used to perform front end descrambling
+  private static final Pattern LEAD_BLANK = Pattern.compile("^ *\" \" +");
   private static final Pattern DISCLAIMER_PTN = Pattern.compile("\\n+DISCLA.*$", Pattern.CASE_INSENSITIVE);
   private static final Pattern[] MSG_HEADER_PTNS = new Pattern[]{
     Pattern.compile("^(000\\d)/(000\\d)\\b"),
@@ -95,7 +96,7 @@ public class Message {
     parseAddress = fromAddress;
     parseSubject = subject;
     
-    // Remove trailing disclaimer
+    // Remove trailing disclaimer(s)
     body = DISCLAIMER_PTN.matcher(body).replaceFirst("");
     
     // Dummy loop we can break out of
@@ -121,7 +122,8 @@ public class Message {
       }
       
       // Get rid of leading quoted blanks
-      if (body.startsWith("\" \"")) body = body.substring(3).trim();
+      match = LEAD_BLANK.matcher(body);
+      if (match.find()) body = body.substring(match.end());
       
       // And trailing opt out message
       match = OPT_OUT_PTN.matcher(body);

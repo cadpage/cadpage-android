@@ -41,6 +41,7 @@
    <string name="pref_split_min_msg_default">1</string>
    <string name="pref_rev_msg_order_default">false</string>
    <string name="pref_split_blank_ins_default">true</string>
+   <string name="pref_split_chk_sender_default">true</string>
    <string name="pref_suppress_dup_msg_default">true</string>
    <string name="pref_publish_pages_default">false</string>
    <string name="pref_useGoogleMapApp_default">true</string>

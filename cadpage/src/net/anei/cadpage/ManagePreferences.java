@@ -28,7 +28,7 @@ public class ManagePreferences {
   // (OK, if you know what you are doing, and the only new settings added
   // are boolean settings that default to false, you can get away with not
   // changing this)
-  private static final int PREFERENCE_VERSION = 17;
+  private static final int PREFERENCE_VERSION = 18;
   
   private static final DateFormat DATE_FORMAT = new SimpleDateFormat("MMddyyyy");
   
@@ -257,6 +257,10 @@ public class ManagePreferences {
   
   public static boolean splitBlankIns() {
     return prefs.getBoolean(R.string.pref_split_blank_ins_key);
+  }
+  
+  public static boolean splitChkSender() {
+    return prefs.getBoolean(R.string.pref_split_chk_sender_key);
   }
   
   public static boolean revMsgOrder() {
@@ -719,6 +723,7 @@ public class ManagePreferences {
         R.string.pref_msgtimeout_key,
         R.string.pref_split_min_msg_key,
         R.string.pref_split_blank_ins_key,
+        R.string.pref_split_chk_sender_key,
         R.string.pref_rev_msg_order_key,
         R.string.pref_suppress_dup_msg_key,
         R.string.pref_publish_pages_key,

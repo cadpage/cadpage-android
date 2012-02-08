@@ -96,6 +96,7 @@
    <string name="pref_email_key">emaildev</string>
    <string name="pref_history_limit_key">historylimit</string>
    <string name="pref_split_blank_ins_key">splitBlankIns</string>
+   <string name="pref_split_chk_sender_key">splitBlankIns</string>
    <string name="pref_rev_msg_order_key">rev_msg_order</string>
    <string name="pref_suppress_dup_msg_key">supDupMsg</string>
    <string name="pref_publish_pages_key">publish_pages</string>

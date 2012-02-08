@@ -423,6 +423,13 @@
           android:defaultValue="@string/pref_split_blank_ins_default" />
           
       <CheckBoxPreference
+          android:key="@string/pref_split_chk_sender_key"
+          android:title="@string/pref_split_chk_sender_title"
+          android:summaryOn="@string/pref_split_chk_sender_summaryon"
+          android:summaryOff="@string/pref_split_chk_sender_summaryoff"
+          android:defaultValue="@string/pref_split_chk_sender_default" />
+          
+      <CheckBoxPreference
           android:key="@string/pref_suppress_dup_msg_key"
           android:title="@string/pref_suppress_dup_msg_title"
           android:summaryOn="@string/pref_suppress_dup_msg_summaryon"

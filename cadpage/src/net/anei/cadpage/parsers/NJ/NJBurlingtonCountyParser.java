@@ -35,6 +35,7 @@ COMPARTMENT FIRE - VEHICLE OFF TO \n\nAdditional Info  \n  WPH2:  \n  SIDE OF RO
 Contact: Ryan Willitts <ryan.willitts@vincentfire.org>
 Sender: 777121651113
 MOTHER RELEASED FROM HOSPITAL TODAY RQSR \n\nAdditional Info  \n  RESD:  \n  ASSISTANCE IN GETTING HER IN RESD \n\nAdditional Inc#s
+Nature of Call : 75YOM CHEST PAIN/RESP DIFF, EXTENSIVE CARDIAC \n\nAdditional Info  \n  RESD:  \n   HX, PACEMAKER
 
 */
 

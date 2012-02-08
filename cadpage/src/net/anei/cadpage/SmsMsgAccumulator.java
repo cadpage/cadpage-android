@@ -230,6 +230,9 @@ public class SmsMsgAccumulator {
       // This message must have been sent within 30 seconds of last message
       if (newMsg.getSentTime() - lastMessage.getSentTime() > 30000) return false;
       
+      // If we aren't checking the sender address, that is good enough
+      if (! ManagePreferences.splitChkSender()) return true;
+      
       // We generally expect a complete sender address match
       String newAddr = newMsg.getFromAddress();
       String lastAddr = lastMessage.getFromAddress();
