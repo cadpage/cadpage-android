@@ -22,6 +22,9 @@ Subject:IPS I/Page Notification\n26900 E COLFAX AVE ARAP ARAP,454: @FOX RIDGE FA
 Contact: Derrick Keeton <derrickkeeton@gmail.com>
 IPS I/Page Notification / 10433 SALIDA ST ADAM CCPD 06:51:58 TYPE CODE: FRALRM CALLER NAME:  TIME: 06:51:58\n\n\n
 
+Contact: JC Langley <ashaman01@gmail.com>
+(IPS I/Page Notification) E 470 EB ADAM ADAM: @E 470 EB/E 56TH AVE 22:58:36 TYPE CODE: NONSTR CALLER NAME:  TIME: 22:58:36 Comments:  -104.701552 +39.798521 WH
+
  */
 
 
@@ -35,6 +38,7 @@ public class COAdamsCountyParser extends SmartAddressParser {
   private static final Pattern TIME_MARK = Pattern.compile(" +\\d\\d:\\d\\d:\\d\\d$");
   
   private static final Properties CITY_TABLE = buildCodeTable(new String[]{
+      "ADAM ADAM", "",
       "ADAM CCPD", "",
       "ARAP ARAP", "ARAPAHOE COUNTY"
   });

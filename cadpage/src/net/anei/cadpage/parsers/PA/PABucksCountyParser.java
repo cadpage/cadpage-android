@@ -96,12 +96,14 @@ Sender: alert_@alert.bucksema.org
 Contact: Joseph Montanya <flounder53@gmail.com>
 Contact: "Russ Swinehart Jr." <snoopfire10@yahoo.com>
 Contact: Kevin Campbell <kevincampbell800@gmail.com>
+Contact: "Ryan Pankoe" <rpankoe@gmail.com>
 Sender: @alert.bucksema.org
 Subject:1/2\nFAPT\nadr:CREEK VILL APT #F18 ,71 at 160 FALLSINGTON TULLYT RD #F18 ,71\nbox:33022\ntm:18:57:03 FD1201370\nRun: E33 L3
 Subject:1/1\nFSPEC\nadr:1812 FARRAGUT AV ,24\nbox:53039\ntm:12:44:12 FD1201444\nRun: L25
 Subject:1/2\nFAPT\nadr:GRUNDY TOWERS #1010 ,24 at 205 POND ST #1010 ,24\nbox:50092\ntm:18:46:52 FD1201459\nRun: E50 E52 E53 Q51 L25
 Subject:1/1\nFBLD\nadr:301 WOOD ST ,24 -- LBUCK SENIOR CITIZ\nbox:51015\ntm:09:59:54 FD1201481\nRun: E50 E52 E53 Q51 TW14 E11 R10
 Subject:1/2\nFALRM\nadr:ST ANDREWS EPISCOP ,79 at 55 W AFTON AV ,79\nbtwn:PENN VALLEY DR & BREECE DR\naai:PARRISH HOUSE\nbox:00071
+Subject:1/1\nATRAN \nadr:101 BARBERRY CT ,48 \nbtwn:CUL DE SAC & E FAIRWOOD DR \nbox:34030 map:3033H1 \ntm:11:11:13 ED1205059
 
 Contact: Ed Ackerman <ed.ackerman@gmail.com>
 Sender: Bucks RSAN

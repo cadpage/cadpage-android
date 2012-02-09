@@ -90,7 +90,7 @@ public class COWeldCountyParser extends FieldProgramParser {
     
     @Override
     public String getFieldNames() {
-      return super.getFieldNames() + "APT PLACE";
+      return super.getFieldNames() + " APT PLACE";
     }
   }
   
