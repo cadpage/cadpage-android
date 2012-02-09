@@ -977,6 +977,17 @@ public class PABucksCountyParserTest extends BaseParserTest {
         "ID:FD1201865",
         "UNIT:E88 L65 L8 E84 E7 E4");
 
+    doTest("T7",
+        "Subject:1/1\nATRAN \nadr:101 BARBERRY CT ,48 \nbtwn:CUL DE SAC & E FAIRWOOD DR \nbox:34030 map:3033H1 \ntm:11:11:13 ED1205059",
+        "CALL:ATRAN - ALS/UNSPECIFIED EMERGENCY",
+        "BOX:34030",
+        "ADDR:101 BARBERRY CT",
+        "CITY:NEW BRITAIN TWP",
+        "X:CUL DE SAC & E FAIRWOOD DR",
+        "MAP:3033H1",
+        "TIME:11:11:13",
+        "ID:ED1205059");
+
   }
   
   @Test

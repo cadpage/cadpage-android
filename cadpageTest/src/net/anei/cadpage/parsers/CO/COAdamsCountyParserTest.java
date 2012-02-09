@@ -54,10 +54,17 @@ public class COAdamsCountyParserTest extends BaseParserTest {
         "IPS I/Page Notification / 10433 SALIDA ST ADAM CCPD 06:51:58 TYPE CODE: FRALRM CALLER NAME:  TIME: 06:51:58\n\n\n",
         "ADDR:10433 SALIDA ST",
         "CALL:FRALRM");
+
+    doTest("T8",
+        "(IPS I/Page Notification) E 470 EB ADAM ADAM: @E 470 EB/E 56TH AVE 22:58:36 TYPE CODE: NONSTR CALLER NAME:  TIME: 22:58:36 Comments:  -104.701552 +39.798521 WH",
+        "ADDR:E 470 EB",
+        "MADDR:E 470 EB/E 56TH AVE,E 470",
+        "PLACE:E 470 EB/E 56TH AVE",
+        "CALL:NONSTR");
     
   }
   
   public static void main(String[] args) {
-    new COAdamsCountyParserTest().generateTests("T7", "ADDR CITY PLACE CALL");
+    new COAdamsCountyParserTest().generateTests("T1", "ADDR CITY PLACE CALL");
   }
 }

@@ -429,6 +429,15 @@ public class COWeldCountyParserTest extends BaseParserTest {
         "UNIT:2206",
         "INFO:toned mv stn 6 male shot himself in the head with a gun / ProQA Medical Case 5590 Aborted  bouilder emd");
 
+    doTest("T1",
+        "Dispatch / LAFF\nFIRESR\nD\n711 MEADOWLARK DR\nBOLFF\n22\nalready toned stn 6 mnt view....for trailer on fire\n",
+        "SRC:LAFF",
+        "CALL:FIRESR",
+        "ADDR:711 MEADOWLARK DR",
+        "CITY:BOLFF",
+        "UNIT:22",
+        "INFO:already toned stn 6 mnt view....for trailer on fire");
+
   }
   
   public static void  main(String[] args) {
