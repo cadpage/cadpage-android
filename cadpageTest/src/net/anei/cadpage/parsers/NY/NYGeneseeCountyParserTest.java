@@ -181,6 +181,22 @@ public class NYGeneseeCountyParserTest extends BaseParserTest {
 
   }
   
+  @Test
+  public void testParser4() {
+
+    doTest("T1",
+        "GENESEE COUNTY DISPATCH EMD Charlie ** ** 11208 MAPLEWOOD RD , ALEXANDER - ** 10 MO FEMALE PASSING OUT ** STROH RD / GENESEE ST ** 02/07/12 19:53 ** 2012-00000026 ** TXT STOP to opt-out",
+        "CALL:EMD Charlie",
+        "ADDR:11208 MAPLEWOOD RD",
+        "CITY:ALEXANDER",
+        "INFO:10 MO FEMALE PASSING OUT",
+        "X:STROH RD / GENESEE ST",
+        "DATE:02/07/12",
+        "TIME:19:53",
+        "ID:2012-00000026");
+
+  }
+  
   public static void main(String[] args) {
     new NYGeneseeCountyParserTest().generateTests("T1");
   }

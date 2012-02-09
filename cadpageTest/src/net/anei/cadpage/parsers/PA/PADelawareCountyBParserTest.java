@@ -19,6 +19,7 @@ public class PADelawareCountyBParserTest extends BaseParserTest {
         "ADDR:OAK AV & PEMBROKE AV",
         "MADDR:OAK AVE & PEMBROKE AVE",
         "CALL:FIRE-NON  VEHICLE FIRE",
+        "TIME:13:25:12",
         "ID:F11032418");
 
     doTest("T2",
@@ -28,6 +29,7 @@ public class PADelawareCountyBParserTest extends BaseParserTest {
         "CITY:UPPER DARBY TWP",
         "X:MONTGOMERY AV",
         "CALL:ALS-EMS  RESPIRATORY DIFFICULTY",
+        "TIME:12:13:17",
         "INFO:67 Y/O FEMALE",
         "ID:F11032408");
 
@@ -37,6 +39,7 @@ public class PADelawareCountyBParserTest extends BaseParserTest {
         "CITY:YEADON",
         "X:MYRA AV & BAILEY RD",
         "CALL:FIRE-BLD  BUILDING FIRE, RES/DWELLING",
+        "TIME:20:21:17",
         "INFO:STOVE",
         "ID:F11031897");
 
@@ -46,6 +49,7 @@ public class PADelawareCountyBParserTest extends BaseParserTest {
         "CITY:YEADON",
         "X:S LANSDOWNE AV & ELBERON AV",
         "CALL:FIRE-BLD  BUILDING FIRE, RES/DWELLING",
+        "TIME:18:28:43",
         "INFO:STOVE",
         "ID:F11031009");
 
@@ -57,6 +61,7 @@ public class PADelawareCountyBParserTest extends BaseParserTest {
         "PLACE:BALTIMORE PIKE CHECK CASHING",
         "X:E BALTIMORE AV & E BALTIMORE AV",
         "CALL:FIRE-BLD  BUILDING FIRE, RES/DWELLING",
+        "TIME:20:39:44",
         "INFO:ODOR OF SMOKE 2ND FLOOR   2ND EMERGENCY 20",
         "ID:F1103170");
 
@@ -67,6 +72,7 @@ public class PADelawareCountyBParserTest extends BaseParserTest {
         "PLACE:56 MANOA FIRE CO",
         "X:WYNDMOOR RD & STANLEY AV",
         "CALL:FIRE-OTH  COVER ASSIGNMENT",
+        "TIME:13:25:09",
         "INFO:1 ENG FROM STA 20    CH 9",
         "ID:F11029664");
 
@@ -76,6 +82,7 @@ public class PADelawareCountyBParserTest extends BaseParserTest {
         "CITY:YEADON",
         "X:PARMLEY AV & W COBBS CREEK PKWY",
         "CALL:ALS-EMS FALL W/TRAUMA",
+        "TIME:03:36:04",
         "INFO:HEAD INJURY   DIABETIC PATIENT ENGINE ASSIST EMS   FD RESPOND AT EMERGENCY SPEED",
         "ID:F11028163");
 
@@ -86,6 +93,7 @@ public class PADelawareCountyBParserTest extends BaseParserTest {
         "APT:A",
         "X:HEATHER CIR & KAREN DR",
         "CALL:FIRE-BLD BUILDING FIRE, COMMERCIAL BLDG",
+        "TIME:13:37:14",
         "INFO:STOVE",
         "ID:F11027836");
 
@@ -96,6 +104,7 @@ public class PADelawareCountyBParserTest extends BaseParserTest {
         "CITY:EAST LANSDOWNE",
         "X:E BALTIMORE AV & PEMBROKE AV",
         "CALL:ASSIST FD TO ASSIST EMS",
+        "TIME:00:15:59",
         "INFO:LEG WOUND - DIABETIC - NO BLOOD THINNERS   65YOM   3RD EMER 103   LIFT ASSIST",
         "ID:F11029789");
 
@@ -104,6 +113,7 @@ public class PADelawareCountyBParserTest extends BaseParserTest {
         "ADDR:BALTIMORE AV & LEXINGTON AV",
         "MADDR:BALTIMORE AVE & LEXINGTON AVE",
         "CALL:ALS-EMS  SEIZURES",
+        "TIME:01:53:58",
         "ID:F11030225");
 
     doTest("T11",
@@ -111,6 +121,7 @@ public class PADelawareCountyBParserTest extends BaseParserTest {
         "ADDR:WEST CHESTER PKE & PARK AV",
         "MADDR:WEST CHESTER PKE & PARK AVE",
         "CALL:DISASTER  EMS BOX ALARM",
+        "TIME:15:29:36",
         "ID:F11028912");
 
     doTest("T12",
@@ -120,6 +131,7 @@ public class PADelawareCountyBParserTest extends BaseParserTest {
         "CITY:EAST LANSDOWNE",
         "X:PEMBROKE AV & EMERSON AV",
         "CALL:ALARM AUTOMATIC FIRE ALARM",
+        "TIME:08:35:32",
         "INFO:UPSTAIRS SMOKE DET RES/SCOTT",
         "ID:F11027387");
 
@@ -131,6 +143,7 @@ public class PADelawareCountyBParserTest extends BaseParserTest {
         "PLACE:24 EAST LANSDOWNE FIRE CO",
         "X:PEMBROKE AV & EMERSON AV",
         "CALL:TEST  PRINTER TEST",
+        "TIME:11:06:09",
         "ID:F11023838");
 
     doTest("T14",
@@ -140,6 +153,7 @@ public class PADelawareCountyBParserTest extends BaseParserTest {
         "CITY:EAST LANSDOWNE",
         "X:EMERSON AV & GLENWOOD AV",
         "CALL:ALARM  CARBON MONOXIDE ALARM",
+        "TIME:20:43:53",
         "ID:F11024160");
 
     doTest("T15",
@@ -150,6 +164,7 @@ public class PADelawareCountyBParserTest extends BaseParserTest {
         "APT:3FL E",
         "X:LORI DR & ALFRED DR",
         "CALL:FIRE-BLD BUILDING FIRE, WITH ENTRAPMENT",
+        "TIME:01:21:32",
         "INFO:SMOKE INSIDE - FEMALE CALLER CANNOT GET OUT",
         "ID:F11021062");
 
@@ -160,8 +175,53 @@ public class PADelawareCountyBParserTest extends BaseParserTest {
         "CITY:EAST LANSDOWNE",
         "X:PEMBROKE AV & EMERSON AV",
         "CALL:FIRE-OTH WIRES/TRANSFORMER,  W/HAZARDS",
+        "TIME:17:21:01",
         "ID:F11023150");
  }
+  
+  @Test
+  public void testActive911() {
+
+    doTest("T1",
+        "[ALERT! Upper Darby (*)] 1220 BLYTHE AV UD X1: DESMOND AVXtWOWNSHIP LINE RD Nature: FIRE-OTH FD\n" +
+        "INVESTIGATION Time: 23:42:27 Notes: 2 PTS Inc: Fq20p703 AM\n",
+
+        "ADDR:1220 BLYTHE AV",
+        "MADDR:1220 BLYTHE AVE",
+        "CITY:UPPER DARBY TWP",
+        "X:DESMOND AVXtWOWNSHIP LINE RD",
+        "CALL:FIRE-OTH FD INVESTIGATION",
+        "TIME:23:42:27",
+        "INFO:2 PTS",
+        "ID:Fq20p703 AM");
+
+    doTest("T2",
+        "[ALERT! Upper Darby (*)] 2314 GARRETT RD UD : @DON PAPA'S BAKERY X1: OWEN AV X2: WINDERMERE AV\n" +
+        "Nature: ALARM AUTOMATIC FIRE ALARM Time: 12:20:36 Notes: BASEMENT Inc:\n" +
+        "F12006791 AM\n",
+
+        "ADDR:2314 GARRETT RD",
+        "CITY:UPPER DARBY TWP",
+        "PLACE:DON PAPA'S BAKERY",
+        "X:OWEN AV & WINDERMERE AV",
+        "CALL:ALARM AUTOMATIC FIRE ALARM",
+        "TIME:12:20:36",
+        "INFO:BASEMENT",
+        "ID:F12006791 AM");
+
+    doTest("T3",
+        "[ALERT! Upper Darby (*)] 6430 MARKET ST UD : ASTRA FOODS INC X1: SEPTA X2: S MILLBOURNE AV\n" +
+        "Nature: FIRE-OTH FD INVESTIGATION Time: 06:37:29 Inc: F12006748 AM\n",
+
+        "ADDR:6430 MARKET ST",
+        "CITY:UPPER DARBY TWP",
+        "PLACE:ASTRA FOODS INC",
+        "X:SEPTA & S MILLBOURNE AV",
+        "CALL:FIRE-OTH FD INVESTIGATION",
+        "TIME:06:37:29",
+        "ID:F12006748 AM");
+
+  }
   
   public static void main(String[] args) {
     new PADelawareCountyBParserTest().generateTests("T1");

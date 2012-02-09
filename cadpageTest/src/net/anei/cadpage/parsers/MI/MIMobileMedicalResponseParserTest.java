@@ -124,10 +124,17 @@ public class MIMobileMedicalResponseParserTest extends BaseParserTest {
         "ADDR:1227 JANES AVE",
         "CALL:P-1 Life Threatening Emergency",
         "INFO:Breathing Problems / 26 / F .... IFO STOP-N-SHOP / ALS / SAGINAW / <Unknown> / 02:02");
- 
+
+    doTest("T16",
+        "(<CAD> - part 1 of 1) RC:Run# 9980/4116 W COOK RD/P-1 Life Threatening Emergency//Heart Problems / A.I.C.D./88 f  stier 1   Stat 91/ALS/GRAND BLANC///<Un",
+        "ID:9980",
+        "ADDR:4116 W COOK RD",
+        "CALL:P-1 Life Threatening Emergency",
+        "INFO:Heart Problems / A.I.C.D. / 88 f  stier 1   Stat 91 / ALS / GRAND BLANC / <Un");
+
   }
   
   public static void main(String[] args) {
-    new MIMobileMedicalResponseParserTest().generateTests("T16");
+    new MIMobileMedicalResponseParserTest().generateTests("T17");
   }
 }
