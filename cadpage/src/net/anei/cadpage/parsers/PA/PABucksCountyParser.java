@@ -108,6 +108,7 @@ Sender: Bucks RSAN
 FRM:Bucks RSAN\nSUBJ:1/1\nMSG:WIREIN\nadr:1871 WHITE BRIAR RD ,73\nbox:02047\ntm:09:52:53 FD1201327\nRun: E2 L1 E4 R6=
 FRM:Bucks RSAN\nSUBJ:1/1\nMSG:AUNR\nadr:BELMONT HILLS ELEM ,22 at 5000 NESHAMINY BL ,22\nbox:84048\ntm:09:05:59 ED1203237=
 FRM:Bucks RSAN\nSUBJ:1/1\nMSG:FALRM\nadr:ANDYS DINER ,22 at 2224 LINCOLN HY ,22\naai:215-638-1444\nbox:04032\ntm:13:07:04 FD1201397\nRun: E4-1=
+FRM:Bucks RSAN]nSUBJ:1/1]nMSG:FAPT\nadr:1577 NESHAMINY VALLEY DR ,22\nbtwn:SHEWELL RD & COUNTRY LIGHT CHAL E\nbox:88015\ntm:06:33:52 FD1201865  Run: E8=8 L65 L8 E84 E7 E4=
 
 Contact: "Shapp, Dave" <dave.shapp@midwayvfc.com>
 Sender: iamresponding.com
@@ -139,6 +140,8 @@ public class PABucksCountyParser extends FieldProgramParser {
     if (body.startsWith("911:")) body = body.substring(4).trim();
     
     if (body.endsWith("=")) body = body.substring(0,body.length()-1).trim();
+    int pt = body.lastIndexOf('=');
+    if (pt >= 100) body = body.substring(0,pt) + body.substring(pt+1);
     Matcher match = MARKER1.matcher(body);
     if (match.find()) {
       body = "type:" + body.replace('\n', ' ');
