@@ -26,16 +26,12 @@ Sender: 7770*
 .... (Station 171) : 9  \n: 15 TRENTON RD                                        Venue: Pembtn Twp  \nLocated Between  : BUSANSKY LA/PEMBERTON BROWNS MILLS RD  \n: STA 181 \n\nCall Time- 14:48:58                                : 1811 \n\n: (609) 893-2114                :  TEL \n\nNature of Call : BUSANSKY LA/PEMBERTON BROWNS MILLS RD
 .... (Station 171) : 1  \n: 2357 RT206                                           Venue: Southamptn  \nLocated Between  : RT38/EASTAMPTON TWP LINE  \n: VINCENTOWN DINER \n\nCall Time- 15:08:40                                : 1711 \n\n: (609) 354-2191                Caller : RICHARD SIMONE \n\nNature of Call : 2 CAR MVA WITH NECK AND BACK INJURIES/ \n\nAdditional Info  \n  IAO  \n  EVERYONE OUT VEHICLE MOVED TO SIDE/
 
-.... (Station 171) :   13 F Vehicle              Priority: 1  \n: RIDGE RD &amp; RT206                                    Venue: Southamptn  \n  Cross Street . :
-RT206 \n\nCall Time- 20:06:09                                : 1712 \n\n: (609) 372-3923\16sCaller : AMANDA CHAMBERLAIN \n\nNature of Call : ENGINE
-COMPARTMENT FIRE - VEHICLE OFF TO \n\nAdditional Info  \n  WPH2:  \n  SIDE OF ROAD \n\nAdditional Inc#s
-
-
-*** NOT PARSING ***
 Contact: Ryan Willitts <ryan.willitts@vincentfire.org>
-Sender: 777121651113
-MOTHER RELEASED FROM HOSPITAL TODAY RQSR \n\nAdditional Info  \n  RESD:  \n  ASSISTANCE IN GETTING HER IN RESD \n\nAdditional Inc#s
-Nature of Call : 75YOM CHEST PAIN/RESP DIFF, EXTENSIVE CARDIAC \n\nAdditional Info  \n  RESD:  \n   HX, PACEMAKER
+Sender: 7771
+.... (Station 171) :   13 F Vehicle              Priority: 1  \n: RIDGE RD & RT206                                    Venue: Southamptn  \n  Cross Street . : RT206 \n\nCall Time- 20:06:09                                : 1712 \n\n: (609) 372-3923                Caller : AMANDA CHAMBERLAIN \n\nNature of Call : ENGINE COMPARTMENT FIRE - VEHICLE OFF TO \n\nAdditional Info  \n  WPH2:  \n  SIDE OF ROAD \n\nAdditional Inc#s
+.... (Station 171) : FIRE F Fire Call            Priority: 1  \n: 2356 RT206                                           Venue: Southamptn  \nLocated Between  : RT38/EASTAMPTON TWP LINE  \n   : WAWA 17 (RT38 NEW WAWA) \n\nCall Time- 05:46:07                                  : 1711 \n\n: (800) 929-2011                 
+.... (Station 171) :   16 F Alarms               Priority: 1  \n: 2356 RT206                                           Venue: Southamptn  \nLocated Between  : RT38/EASTAMPTON TWP LINE  \n   : WAWA 17 (RT38 NEW WAWA) \n\nCall Time- 05:46:07                        : 1711 \n\n: (800) 929-2011                 Caller  : OP430 CENTRAL STATION \n\nNature of Call : ACT FIRE//DUCT DETECTOR//6092671257
+.... (Station 171) :   16 F Alarms               Priority: 1  \n: 2356 RT206                                           Venue: Southamptn  \nLocated Between  : RT38/EASTAMPTON TWP LINE  \n   : WAWA 17 (RT38 NEW WAWA) \n\nCall Time- 05:46:07                                  : 1711 \n\n: (800) 929-2011                 Caller  : OP430 CENTRAL STATION \n\nNature of Call : ACT FIRE//DUCT DETECTOR//6092671257
 
 */
 
@@ -58,7 +54,7 @@ public class NJBurlingtonCountyParser extends FieldProgramParser {
   
   public NJBurlingtonCountyParser() {
     super(CITY_CODES, "BURLINGTON COUNTY", "NJ",
-           "PRI ADDR! Venue:CITY! CrossStreet:ADDR2? LocatedBetween:X? PLACE CallTime:TIME ID SKIP PHONE Caller:NAME Complaintant:SKIP NatureOfCall:INFO INFO+ AdditionalInfo:INFO");
+           "CALL Priority:PRI! ADDR! Venue:CITY! CrossStreet:ADDR2? LocatedBetween:X? PLACE CallTime:TIME ID SKIP PHONE Caller:NAME Complaintant:SKIP NatureOfCall:INFO INFO+ AdditionalInfo:INFO");
   }
   
   @Override
@@ -75,6 +71,7 @@ public class NJBurlingtonCountyParser extends FieldProgramParser {
     
     if (!body.startsWith(": ")) return false;
     body = body.substring(2).trim();
+    if (!body.contains("Priority:")) body = "Priority:" + body;
     
     // See if we have all of it
     int pt = body.indexOf("Additional Inc#s");
@@ -84,6 +81,7 @@ public class NJBurlingtonCountyParser extends FieldProgramParser {
       data.expectMore = true;
     }
     
+    body = body.replace(" Priority:", "\nPriority:");
     body = body.replace("Venue:", "\nVenue:");
     body = body.replace("Cross Street . :", "CrossStreet:");
     body = body.replace("Located Between  :", "LocatedBetween:");
@@ -104,6 +102,7 @@ public class NJBurlingtonCountyParser extends FieldProgramParser {
   private class Address2Field extends Field {
     @Override
     public void parse(String field, Data data) {
+      if (data.strAddress.contains("&") & data.strAddress.contains(field)) return;
       data.strAddress = append(data.strAddress, " & ", field);
     }
   }
