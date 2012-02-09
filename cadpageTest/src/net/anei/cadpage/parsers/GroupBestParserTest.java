@@ -29,16 +29,14 @@ public class GroupBestParserTest extends BaseParserTest {
 
     setexpLocCode(weldCountyParser.getParserCode());
     setDefaults("WELD COUNTY", "CO");
-    doTest("Greeley",
-        "20442,ALARMF,23691 CR 60H.E1 E4 L1,TEXT:AUDIBLE FROM GENERAL AND SMOKE DETECTOR \\COMP:1ST CLASS SECURITY \\PH:800 482 9800," ,
-        "CALL:ALARMF",
-        "ADDR:23691 CR 60H",
-        "MADDR:23691 COUNTY ROAD 60H",
-        "ID:20442",
-        "UNIT:E1 E4 L1",
-        "INFO:AUDIBLE FROM GENERAL AND SMOKE DETECTOR",
-        "NAME:1ST CLASS SECURITY",
-        "PHONE:800 482 9800");
+    doTest("Weld County",
+        "\" \" 24\nSIPF\nD\n3211 LUPTON AVE\nEV\n24\nMOM IS NOT WAKING UP 0000 Confirm 0001 Refuse TXT STOP to opt-out",
+        "SRC:24",
+        "CALL:SIPF",
+        "ADDR:3211 LUPTON AVE",
+        "CITY:EVANS",
+        "UNIT:24",
+        "INFO:MOM IS NOT WAKING UP 0000 Confirm 0001 Refuse");
     
     setexpLocCode(northGlennParser.getParserCode());
     setDefaults("ADAMS COUNTY", "CO");
