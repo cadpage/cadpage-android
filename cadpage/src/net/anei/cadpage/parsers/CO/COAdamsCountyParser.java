@@ -35,7 +35,7 @@ public class COAdamsCountyParser extends SmartAddressParser {
   private static final String[] KEYWORDS = 
     new String[]{"LOC", "TYPE CODE", "CALLER NAME", "TIME", "Comments"};
   
-  private static final Pattern TIME_MARK = Pattern.compile(" +\\d\\d:\\d\\d:\\d\\d$");
+  private static final Pattern TIME_MARK = Pattern.compile(" +(\\d\\d:\\d\\d:\\d\\d)$");
   
   private static final Properties CITY_TABLE = buildCodeTable(new String[]{
       "ADAM ADAM", "",
@@ -60,20 +60,35 @@ public class COAdamsCountyParser extends SmartAddressParser {
     Matcher match = CAD_MARKER.matcher(body);
     if (!match.find()) return false;
     body = "LOC:" + body.substring(match.end()).trim();
+    body= body.replace("E 470", "E-470");
     
     Properties props = parseMessage(body, KEYWORDS);
     String sAddr = props.getProperty("LOC", "");
     match = TIME_MARK.matcher(sAddr);
-    if (match.find()) sAddr = sAddr.substring(0, match.start());
+    if (match.find()) {
+      data.strTime = match.group(1);
+      sAddr = sAddr.substring(0, match.start());
+    }
     int pt = sAddr.lastIndexOf(':');
+    String sPlace = null;
     if (pt >= 0) {
-      data.strPlace = sAddr.substring(pt+1).trim();
+      sPlace = sAddr.substring(pt+1).trim();
       sAddr = sAddr.substring(0,pt).trim();
-      if (data.strPlace.startsWith("@")) {
-        data.strPlace = data.strPlace.substring(1).trim();
-      }
+      if (sPlace.startsWith("@")) sPlace = sPlace.substring(1).trim();
     }
     parseAddress(StartType.START_ADDR, sAddr.replace(',', ' '), data);
+    if (sPlace != null) {
+      String sCross = null;
+      pt = sPlace.indexOf('/');
+      if (pt >= 0) {
+        String sPart1 = sPlace.substring(0,pt).trim();
+        String sPart2 = sPlace.substring(pt+1).trim();
+        if (sPart1.equals(data.strAddress)) sCross = sPart2;
+        else if (sPart2.equals(data.strAddress)) sCross = sPart1; 
+      }
+      if (sCross != null) data.strAddress = append(data.strAddress, " & ", sCross);
+      else data.strPlace = sPlace;
+    }
     
     data.strCall = props.getProperty("TYPE CODE", "");
     
