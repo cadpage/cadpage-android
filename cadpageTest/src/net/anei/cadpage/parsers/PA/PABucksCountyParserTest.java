@@ -961,6 +961,22 @@ public class PABucksCountyParserTest extends BaseParserTest {
         "X:PENN VALLEY DR & BREECE DR",
         "INFO:PARRISH HOUSE");
 
+    doTest("T6",
+        "FAPT\n" +
+        "adr:1577 NESHAMINY VALLEY DR ,22\n" +
+        "btwn:SHEWELL RD & COUNTRY LIGHT CHAL E\n" +
+        "box:88015\n" +
+        "tm:06:33:52 FD1201865  Run: E8=8 L65 L8 E84 E7 E4=",
+
+        "CALL:FAPT - APARTMENT FIRE (BOX)",
+        "BOX:88015",
+        "ADDR:1577 NESHAMINY VALLEY DR",
+        "CITY:BENSALEM TWP",
+        "X:SHEWELL RD & COUNTRY LIGHT CHAL E",
+        "TIME:06:33:52",
+        "ID:FD1201865",
+        "UNIT:E88 L65 L8 E84 E7 E4");
+
   }
   
   @Test
