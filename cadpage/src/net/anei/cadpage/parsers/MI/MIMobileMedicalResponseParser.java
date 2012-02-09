@@ -35,6 +35,9 @@ Contact: "chrisgrzegorczyk@hotmail.com" <chrisgrzegorczyk@hotmail.com>
 Contact: Tim Young <tdyoung2578@gmail.com>
 --<CAD> - part 1 of 1 --RC:Run# 64549/1227 JANES AVE/P-1 Life Threatening Emergency//Breathing Problems/26/F .... IFO STOP-N-SHOP/ALS/SAGINAW///<Unknown>/02:02
 
+Contact: Nicholas Funk <nfunk01@gmail.com>
+(<CAD> - part 1 of 1) RC:Run# 9980/4116 W COOK RD/P-1 Life Threatening Emergency//Heart Problems / A.I.C.D./88 f  stier 1   Stat 91/ALS/GRAND BLANC///<Un
+  
  */
 
 

@@ -27,6 +27,11 @@ X1: WEST CHESTER PKE X2: PARK AV Nature: DISASTER  EMS BOX ALARM Time: 15:29:36 
 1203 ALFRED AV YE,3FL E  X1: LORI DR X2: ALFRED DR Nature: FIRE-BLD BUILDING FIRE, WITH ENTRAPMENT Time: 01:21:32  Notes: SMOKE INSIDE - FEMALE CALLER CANNOT GET OUT   Inc: F11021062
 164 MELROSE AV EL  X1: PEMBROKE AV X2: EMERSON AV Nature: FIRE-OTH WIRES/TRANSFORMER,  W/HAZARDS Time: 17:21:01  Inc: F11023150
 
+Contact: support@active911.com
+[ALERT! Upper Darby (*)] 1220 BLYTHE AV UD X1: DESMOND AVXtWOWNSHIP LINE RD Nature: FIRE-OTH FD\nINVESTIGATION Time: 23:42:27 Notes: 2 PTS Inc: Fq20p703 AM\n
+[ALERT! Upper Darby (*)] 2314 GARRETT RD UD : @DON PAPA'S BAKERY X1: OWEN AV X2: WINDERMERE AV\nNature: ALARM AUTOMATIC FIRE ALARM Time: 12:20:36 Notes: BASEMENT Inc:\nF12006791 AM\n
+[ALERT! Upper Darby (*)] 6430 MARKET ST UD : ASTRA FOODS INC X1: SEPTA X2: S MILLBOURNE AV\nNature: FIRE-OTH FD INVESTIGATION Time: 06:37:29 Inc: F12006748 AM\n
+
 */
 
 public class PADelawareCountyBParser extends FieldProgramParser {
@@ -37,13 +42,13 @@ public class PADelawareCountyBParser extends FieldProgramParser {
   
   public PADelawareCountyBParser() {
     super(CITY_CODES, "DELAWARE COUNTY", "PA",
-           "ADDR/S X1:XADDR? X2:X? Nature:CALL! Time:SKIP Notes:INFO? Inc:ID");
+           "ADDR/S X1:XADDR? X2:X? Nature:CALL! Time:TIME Notes:INFO? Inc:ID");
   }
   
   @Override
   public boolean parseMsg(String body, Data data) {
     crossAddress = false;
-    return super.parseMsg(body, data);
+    return super.parseMsg(body.replace('\n', ' '), data);
   }
   
   private class MyAddressField extends AddressField {
@@ -51,7 +56,8 @@ public class PADelawareCountyBParser extends FieldProgramParser {
     @Override
     public void parse(String field, Data data) {
       Parser p = new Parser(field);
-      data.strPlace = p.getLastOptional(": @");
+      data.strPlace = p.getLastOptional(':');
+      if (data.strPlace.startsWith("@")) data.strPlace = data.strPlace.substring(1).trim();
       data.strApt = p.getLastOptional(',');
       super.parse(p.get(), data);
     }
