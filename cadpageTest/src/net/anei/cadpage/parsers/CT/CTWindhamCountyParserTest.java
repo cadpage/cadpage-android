@@ -43,8 +43,8 @@ public class CTWindhamCountyParserTest extends BaseParserTest {
         "UNIT:STA94 STA594 MOOS1",
         "CH:UHF-4",
         "PRI:1",
-        "CALL:Sick Person BARBER",
-        "ADDR:HILL RD & N  MAIN ST",
+        "CALL:Sick Person",
+        "ADDR:BARBER HILL RD & N  MAIN ST",
         "CITY:Moosup",
         "TIME:17:35");
 

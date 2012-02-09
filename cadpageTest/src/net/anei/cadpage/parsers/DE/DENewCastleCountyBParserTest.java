@@ -62,7 +62,7 @@ public class DENewCastleCountyBParserTest extends BaseParserTest {
         "CALL:Assault",
         "NAME:Days Inn",
         "ADDR:900 Churchmans Rd",
-        "APT:#122",
+        "APT:122",
         "CITY:Newark",
         "X:Rte 1 Sb & Old Churchmans Rd",
         "UNIT:M4B1A");

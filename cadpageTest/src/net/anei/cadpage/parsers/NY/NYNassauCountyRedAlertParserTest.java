@@ -196,8 +196,8 @@ public class NYNassauCountyRedAlertParserTest extends BaseParserTest {
     doTest("T1",
         "RESCUE, AMBU at OYSTER BAY LIBRARY 89 MAIN ST E, OYSTER BAY c/s: PEARL ST / ANSTICE ST, PEDESTRIAN STRUCK . . 12:45:00",
         "CALL:RESCUE, AMBU",
-        "ADDR:OYSTER BAY LIBRARY 89 MAIN ST E",
-        "MADDR:OYSTER BAY LIBRARY 89 MAIN ST E & PEARL ST",
+        "PLACE:OYSTER BAY LIBRARY",
+        "ADDR:89 MAIN ST E",
         "CITY:OYSTER BAY",
         "X:PEARL ST / ANSTICE ST",
         "INFO:PEDESTRIAN STRUCK",
@@ -339,6 +339,19 @@ public class NYNassauCountyRedAlertParserTest extends BaseParserTest {
         "X:HAMILTON ROAD",
         "PLACE:NU IMAGE MEDICAL ASSOCIATES",
         "TIME:10:39:01");
+  }
+  
+  @Test
+  public void testUnknown4() {
+
+    doTest("T1",
+        "FRM:paging@alpinesoftware.com\nMSG:Signal 9 . . Overdose at FAIRFIELD APARTMENTS 675 CONKLIN ST CS: SECATOGUE AVE. . 22:45:13",
+        "CALL:Signal 9 - Overdose",
+        "ADDR:675 CONKLIN ST",
+        "X:SECATOGUE AVE",
+        "PLACE:FAIRFIELD APARTMENTS",
+        "TIME:22:45:13");
+
   }
   
   public static void main(String[] args) {

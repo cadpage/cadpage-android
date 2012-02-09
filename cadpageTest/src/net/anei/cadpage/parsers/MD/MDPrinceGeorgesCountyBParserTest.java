@@ -19,7 +19,7 @@ public class MDPrinceGeorgesCountyBParserTest extends BaseParserTest {
         "SRC:FED01",
         "CALL:ALS1-Medic Local",
         "ADDR:4500 LORDS LANDING RD",
-        "APT:#205",
+        "APT:205",
         "X:BISHOPS BEQUEST RD and CAPTAIN");
 
     doTest("T2",
@@ -150,7 +150,7 @@ public class MDPrinceGeorgesCountyBParserTest extends BaseParserTest {
         "SRC:A843",
         "CALL:ALS1-Medic Local",
         "ADDR:4321 COLLINGTON RD",
-        "APT:#3",
+        "APT:3",
         "X:EVERGREEN PKY and TOWN CENTER BLVD",
         "CH:TGA2",
         "MAP:54  2/2 / 13 C 9",
@@ -209,7 +209,7 @@ public class MDPrinceGeorgesCountyBParserTest extends BaseParserTest {
         "SRC:SQ814",
         "CALL:APTF-Apartment Fire",
         "ADDR:1404 KANAWHA ST",
-        "APT:#302",
+        "APT:302",
         "X:14TH AVE and 15TH AVE",
         "CH:TGA2",
         "MAP:5409 C 2",

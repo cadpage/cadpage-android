@@ -491,7 +491,7 @@ public class SmartAddressParserTest extends BaseParserTest {
     
     doTest(ADDR, "1500 BLACK ST #20 BELOW",
         "ADDR:1500 BLACK ST",
-        "APT:#20");
+        "APT:20");
   }
   
   @Test 

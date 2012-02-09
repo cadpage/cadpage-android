@@ -96,7 +96,7 @@ public class ORLinnCountyParserTest extends BaseParserTest {
         "CALL:O D/INGESTION/POISONING",
         "ADDR:1131 29TH AV",
         "MADDR:1131 29TH AVE",
-        "APT:#C2",
+        "APT:C2",
         "CITY:Sweet Home",
         "MAP:60632221");
 
@@ -155,7 +155,7 @@ public class ORLinnCountyParserTest extends BaseParserTest {
         "CHEST PAIN/ 1530 TAMARACK ST #62 Sweet Home MT SHADOW TRAILER PARK/ 60612221/",
         "CALL:CHEST PAIN",
         "ADDR:1530 TAMARACK ST",
-        "APT:#62",
+        "APT:62",
         "CITY:Sweet Home",
         "PLACE:MT SHADOW TRAILER PARK",
         "MAP:60612221");
@@ -181,7 +181,7 @@ public class ORLinnCountyParserTest extends BaseParserTest {
         "EYE PROB/INJURIES/ 1530 TAMARACK ST #218 Sweet Home MT SHADOW TRAILER PARK/ 60612221/",
         "CALL:EYE PROB/INJURIES",
         "ADDR:1530 TAMARACK ST",
-        "APT:#218",
+        "APT:218",
         "CITY:Sweet Home",
         "PLACE:MT SHADOW TRAILER PARK",
         "MAP:60612221");
