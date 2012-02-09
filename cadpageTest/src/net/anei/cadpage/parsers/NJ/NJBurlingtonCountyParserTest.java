@@ -159,6 +159,97 @@ public class NJBurlingtonCountyParserTest extends BaseParserTest {
         "INFO:2 CAR MVA WITH NECK AND BACK INJURIES/ / IAO EVERYONE OUT VEHICLE MOVED TO SIDE/");
   }
   
+  @Test
+  public void testParser2() {
+
+    doTest("T1",
+        ".... (Station 171) :   13 F Vehicle              Priority: 1  \n" +
+        ": RIDGE RD & RT206                                    Venue: Southamptn  \n" +
+        "  Cross Street . : RT206 \n\n" +
+        "Call Time- 20:06:09                                : 1712 \n\n" +
+        ": (609) 372-3923                Caller : AMANDA CHAMBERLAIN \n\n" +
+        "Nature of Call : ENGINE COMPARTMENT FIRE - VEHICLE OFF TO \n\n" +
+        "Additional Info  \n" +
+        "  WPH2:  \n" +
+        "  SIDE OF ROAD \n\n" +
+        "Additional Inc#s",
+
+        "SRC:Station 171",
+        "CALL:13 F Vehicle",
+        "PRI:1",
+        "ADDR:RIDGE RD & RT206",
+        "MADDR:RIDGE RD & RT 206",
+        "CITY:Southampton",
+        "TIME:20:06:09",
+        "ID:1712",
+        "PHONE:(609) 372-3923",
+        "NAME:AMANDA CHAMBERLAIN",
+        "INFO:ENGINE COMPARTMENT FIRE - VEHICLE OFF TO / WPH2: SIDE OF ROAD");
+
+    doTest("T2",
+        ".... (Station 171) : FIRE F Fire Call            Priority: 1  \n" +
+        ": 2356 RT206                                           Venue: Southamptn  \n" +
+        "Located Between  : RT38/EASTAMPTON TWP LINE  \n" +
+        "   : WAWA 17 (RT38 NEW WAWA) \n\n" +
+        "Call Time- 05:46:07                                  : 1711 \n\n" +
+        ": (800) 929-2011                 ",
+
+        "SRC:Station 171",
+        "CALL:FIRE F Fire Call",
+        "PRI:1",
+        "ADDR:2356 RT206",
+        "MADDR:2356 RT 206",
+        "CITY:Southampton",
+        "X:RT38/EASTAMPTON TWP LINE",
+        "TIME:05:46:07",
+        "ID:1711",
+        "PHONE:(800) 929-2011");
+
+    doTest("T3",
+        ".... (Station 171) :   16 F Alarms               Priority: 1  \n" +
+        ": 2356 RT206                                           Venue: Southamptn  \n" +
+        "Located Between  : RT38/EASTAMPTON TWP LINE  \n" +
+        "   : WAWA 17 (RT38 NEW WAWA) \n\n" +
+        "Call Time- 05:46:07                        : 1711 \n\n" +
+        ": (800) 929-2011                 Caller  : OP430 CENTRAL STATION \n\n" +
+        "Nature of Call : ACT FIRE//DUCT DETECTOR//6092671257",
+
+        "SRC:Station 171",
+        "CALL:16 F Alarms",
+        "PRI:1",
+        "ADDR:2356 RT206",
+        "MADDR:2356 RT 206",
+        "CITY:Southampton",
+        "X:RT38/EASTAMPTON TWP LINE",
+        "TIME:05:46:07",
+        "ID:1711",
+        "PHONE:(800) 929-2011 Caller",
+        "INFO:ACT FIRE//DUCT DETECTOR//6092671257");
+
+    doTest("T4",
+        ".... (Station 171) :   16 F Alarms               Priority: 1  \n" +
+        ": 2356 RT206                                           Venue: Southamptn  \n" +
+        "Located Between  : RT38/EASTAMPTON TWP LINE  \n" +
+        "   : WAWA 17 (RT38 NEW WAWA) \n\n" +
+        "Call Time- 05:46:07                                  : 1711 \n\n" +
+        ": (800) 929-2011                 Caller : OP430 CENTRAL STATION \n\n" +
+        "Nature of Call : ACT FIRE//DUCT DETECTOR//6092671257",
+
+        "SRC:Station 171",
+        "CALL:16 F Alarms",
+        "PRI:1",
+        "ADDR:2356 RT206",
+        "MADDR:2356 RT 206",
+        "CITY:Southampton",
+        "X:RT38/EASTAMPTON TWP LINE",
+        "TIME:05:46:07",
+        "ID:1711",
+        "PHONE:(800) 929-2011",
+        "NAME:OP430 CENTRAL STATION",
+        "INFO:ACT FIRE//DUCT DETECTOR//6092671257");
+   
+  }
+  
   public static void main(String[] args) {
     new NJBurlingtonCountyParserTest().generateTests("T1");
   }
