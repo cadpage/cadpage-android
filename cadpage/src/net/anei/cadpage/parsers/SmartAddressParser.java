@@ -215,7 +215,7 @@ public abstract class SmartAddressParser extends MsgParser {
     setupDictionary(ID_AMBIG_ROAD_SFX, 
         "PLACE", "TRAIL", "PATH", "PIKE", "COURT", "MALL", "TURNPIKE", "PASS", 
         "RUN", "LANE", "PARK", "POINT", "RIDGE", "CREEK", "MILL", "BRIDGE", "HILLS",
-        "TRACE");
+        "HILL", "TRACE");
     
     setupDictionary(ID_NUMBERED_ROAD_SFX, 
         "AVENUE", "AV", "AVE", 
@@ -1576,6 +1576,7 @@ public abstract class SmartAddressParser extends MsgParser {
       
       if (startApt >= 0) {
         data.strApt = buildData(startApt, end, 0);
+        if (data.strApt.startsWith("#")) data.strApt = data.strApt.substring(1);
         end = initApt;
       }
       

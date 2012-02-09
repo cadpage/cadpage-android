@@ -76,6 +76,10 @@ Contact: michael rut <mrut530@gmail.com>
 Sender: 93001049
 RESCUE, STROKE at 2374 JERUSALEM AVENUE, NORTH BELLMORE c/s: HAMILTON ROAD O: NU IMAGE MEDICAL ASSOCIATES . . 10:39:01
 
+Contact: Justin Kanetis <kanetisj257@gmail.com>
+Sender: paging@alpinesoftware.com
+FRM:paging@alpinesoftware.com\nMSG:Signal 9 . . Overdose at FAIRFIELD APARTMENTS 675 CONKLIN ST CS: SECATOGUE AVE. . 22:45:13
+
 */
 
 public class NYNassauCountyRedAlertParser extends DispatchRedAlertParser {

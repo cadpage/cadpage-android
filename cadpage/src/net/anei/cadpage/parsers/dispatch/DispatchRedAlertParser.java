@@ -148,7 +148,8 @@ public class DispatchRedAlertParser extends SmartAddressParser {
     if (pt >= 0) {
       body = body.substring(0, pt) + " LOC: " + body.substring(pt+4);
     }
-    body = "TYPE:" + body.replace("c/s:", "CROSS:").replaceAll("\\s+", " ");
+    
+    body = "TYPE:" + body.replace("c/s:", "CROSS:").replace(" CS:", " CROSS:").replaceAll("\\s+", " ");
     Properties props = parseMessage(body, new String[]{"TYPE","LOC","CROSS","O", "- S"});
     
     String sAddress = props.getProperty("LOC");
@@ -170,7 +171,11 @@ public class DispatchRedAlertParser extends SmartAddressParser {
         sAddress = sAddress.substring(0,indx).trim();
       }
       // Protect C/O sequence form being treated as an intersection
-      parseAddress(sAddress.replace("C/O", "C%O"), data);
+      parseAddress(StartType.START_PLACE, FLAG_ANCHOR_END, sAddress.replace("C/O", "C%O"), data);
+      if (data.strAddress.length() == 0) {
+        data.strAddress = data.strPlace;
+        data.strPlace = "";
+      }
       data.strAddress = data.strAddress.replace("C%O", "C/O");
       
       String sCall = props.getProperty("TYPE", "");
@@ -190,7 +195,7 @@ public class DispatchRedAlertParser extends SmartAddressParser {
       data.strCall = data.strCall.replaceAll("\\. \\.", "-");
     }
 
-    data.strPlace = props.getProperty("O", "");
+    data.strPlace = append(data.strPlace, " - ", props.getProperty("O", ""));
     String sCross = props.getProperty("CROSS");
     if (sCross != null) {
       ok = true;
