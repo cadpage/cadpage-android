@@ -523,6 +523,7 @@ public class MsgInfo {
     Pattern.compile("\\b([A-Z]{2}|STATE) *(?:ROAD|RD|RT|RTE|ROUTE|HW|HWY|HY) +(\\d+[NSEW]?|[A-Z]{1,2})\\b", Pattern.CASE_INSENSITIVE),
     Pattern.compile("\\b([A-Z]{2}|STATE) +(\\d+|[A-Z]{1,2})\\b *(?:ROAD|RD|RT|RTE|ROUTE|HW|HWY|HY)\\b", Pattern.CASE_INSENSITIVE)
   };
+  private static final Pattern I_FWY_PTN = Pattern.compile("\\b(I[- ]\\d+) +FWY\\b", Pattern.CASE_INSENSITIVE);
   private String cleanDoubleRoutes(String sAddress) {
     for (Pattern ptn : DBL_ROUTE_PTNS) {
       Matcher match = ptn.matcher(sAddress);
@@ -552,6 +553,9 @@ public class MsgInfo {
       sb.append(sAddress.substring(lastPt));
       sAddress = sb.toString();
     }
+    
+    // Google also doesn't like I-20 fwy contructs
+    sAddress = I_FWY_PTN.matcher(sAddress).replaceAll("$1");
     return sAddress;
   }
 

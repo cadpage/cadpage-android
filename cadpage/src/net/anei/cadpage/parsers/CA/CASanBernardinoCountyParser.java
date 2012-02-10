@@ -80,6 +80,13 @@ Contact: support@active911.com
  | FALL-B>Industrial Park Ave / W Colton Ave - REDC >LOC INFO:LONG JOHN SILVERS >AGN MAP:RED078 -TB MAP:607 J6 >X ST: >ME263,MS261,AMR36,E264>COMMENTS:WPH2 LAT:34.06314300 LON:-117.201955 METERS:9 %:090,[ProQA Script] Dispatch code: 17B01 88 year old, Male
  | SICK-D>Jasmine St / E Brockton Ave - REDC >LOC INFO: >AGN MAP:RED097 -TB MAP:608 F6 >X ST: >ME263,MS261,AMR31,E261>COMMENTS:WPH2 LAT:34.06647900 LON:-117.147002 METERS:19 %:063,PT IN SILVER TOYOTA,External Case Number 'RED _1200730' added for Redlands.,
 
+[] | TIF - >I 10 Fwy E / N University St - REDC >LOC INFO:EB I10 @ UNIVERSITY >AGN MAP:RED067 -TB MAP:608 D7 >X ST: >MS261,E261,AMR31,T261,BC706,ME263>COMMENTS:CHP MC OFFICER HIT BY VEH,[ProQA Session Aborted] ALLIED AGENCY,074/RED,External Case Number 'RED \n
+
+
+** NOT PARSING CORRECTLY :(
+[] | TIF - >0 WB 10 CALIFORNIA > MTN VIEW - REDC >LOC INFO:EB 10 MTN VIEW > CALIFORNIA >AGN MAP:LOM029 -TB MAP:607 E6 >X ST:I 10 ONRP W/I 10 EXIT 75 OFRP W >T261,BC704,MS261,E264,AMR33>COMMENTS:External Case Number 'RED _1200872' added for Redlands.,Automati\n
+
+
  */
 
 public class CASanBernardinoCountyParser extends FieldProgramParser {
@@ -105,6 +112,7 @@ public class CASanBernardinoCountyParser extends FieldProgramParser {
     
     @Override
     public void parse(String field, Data data) {
+      if (field.endsWith("-")) field = field.substring(0,field.length()-1).trim();
       String key = field;
       int pt = key.indexOf(' ');
       if (pt >= 0) key = field.substring(0,pt);
