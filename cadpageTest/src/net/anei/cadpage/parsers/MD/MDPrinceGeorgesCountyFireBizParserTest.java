@@ -182,6 +182,16 @@ public class MDPrinceGeorgesCountyFireBizParserTest extends BaseParserTest {
         "PLACE:1 SPIN & TRIM LAUDROMAT",
         "X:ELIZABETH RD & AMHERST CT",
         "INFO:http://fireblitz.com/AA/13/8.shtm");
+
+    doTest("T16",
+        "1: MEDIC LOCAL\nE801\n6505 BELCREST RD\n02/10 14:55\nhttp://fireblitz.com/PG/01/5.shtm",
+        "SRC:1",
+        "CALL:MEDIC LOCAL",
+        "UNIT:E801",
+        "ADDR:6505 BELCREST RD",
+        "DATE:02/10",
+        "TIME:14:55",
+        "INFO:http://fireblitz.com/PG/01/5.shtm");
   }
   
   public static void main(String[] args) {

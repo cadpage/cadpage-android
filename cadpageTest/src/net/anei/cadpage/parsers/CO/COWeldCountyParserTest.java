@@ -429,7 +429,7 @@ public class COWeldCountyParserTest extends BaseParserTest {
         "UNIT:2206",
         "INFO:toned mv stn 6 male shot himself in the head with a gun / ProQA Medical Case 5590 Aborted  bouilder emd");
 
-    doTest("T1",
+    doTest("T4",
         "Dispatch / LAFF\nFIRESR\nD\n711 MEADOWLARK DR\nBOLFF\n22\nalready toned stn 6 mnt view....for trailer on fire\n",
         "SRC:LAFF",
         "CALL:FIRESR",
@@ -437,6 +437,23 @@ public class COWeldCountyParserTest extends BaseParserTest {
         "CITY:BOLFF",
         "UNIT:22",
         "INFO:already toned stn 6 mnt view....for trailer on fire");
+
+    doTest("T5",
+        "22\n" +
+        "SI\n" +
+        "D\n" +
+        "7803 MONARCH RD\n" +
+        "MV4A\n" +
+        "2201\n" +
+        "TONED OUT 2224 REF A MALE PARTY WITH A DIABETIC SEIZURE.\n" +
+        "ProQA Medical Case 8109 Aborted\\2sOTHER CENTER EMD'D",
+
+        "SRC:22",
+        "CALL:SI",
+        "ADDR:7803 MONARCH RD",
+        "CITY:MV4A",
+        "UNIT:2201",
+        "INFO:TONED OUT 2224 REF A MALE PARTY WITH A DIABETIC SEIZURE. / ProQA Medical Case 8109 Aborted\\2sOTHER CENTER EMD'D");
 
   }
   
