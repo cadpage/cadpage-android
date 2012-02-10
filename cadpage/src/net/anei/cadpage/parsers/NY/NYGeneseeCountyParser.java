@@ -38,6 +38,10 @@ Contact: Ryan" <hinz_ryan@yahoo.com>
 From:777131912238
 GENESEE COUNTY DISPATCH EMD Charlie ** ** 11208 MAPLEWOOD RD , ALEXANDER - ** 10 MO FEMALE PASSING OUT ** STROH RD / GENESEE ST ** 02/07/12 19:53 ** 2012-00000026 ** TXT STOP to opt-out
 
+Contact: "wkirch@rochester.rr.com" <wkirch@rochester.rr.com>
+Sender: 777132537038
+GENESEE COUNTY DISPATCH Unit:AX06 Status:Dispatched Fire Mutual Aid ** * <UNKNOWN> , - ** FAST TEAM TO THE HOUSE FIRE ** ** 02/09/12 10:21 ** 2012-00000027 ** TXT STOP to opt-out
+
 */
 
 
@@ -58,9 +62,10 @@ public class NYGeneseeCountyParser extends FieldProgramParser {
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     do {
+      Matcher match = MARKER.matcher(body);
+      
       if (subject.equals("Dispatch")) break;
       
-      Matcher match = MARKER.matcher(body);
       if (match.find()) {
         data.strUnit = getOptGroup(match.group(1));
         body = body.substring(match.end());
@@ -148,9 +153,9 @@ public class NYGeneseeCountyParser extends FieldProgramParser {
       if (data.strCity.length() > 0) return false;
       
       // Strip off trailing dash
-      if (field.startsWith(",")) field = field.substring(1).trim();
-      if (field.endsWith("-")) field = field.substring(0,field.length()-1).trim();
-      data.strCity = field;
+      if (! field.startsWith(",")) return false;
+      if (! field.endsWith("-")) return false;
+      data.strCity = field.substring(1, field.length()-1).trim();
       return true;
     }
   }
