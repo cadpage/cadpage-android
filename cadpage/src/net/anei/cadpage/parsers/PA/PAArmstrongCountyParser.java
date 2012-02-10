@@ -22,6 +22,11 @@ Contact: brandon kilgore <firefghter10@gmail.com>
 Sender: 911Dispatch@co.armstrong.pa.us
 (Dispatch) FREEPORT RD, US ROUTE 422 / PONY FARM RD, US ROUTE 422 VAENT 3706 06:42
 
+Contact: Jacob Dively <jpdively@gmail.com>
+Sender: 911Dispatch@co.armstrong.pa.us
+(Dispatch) 105 ELM DR MAPLE LN / LOCUST LN FCOALM 4524 14:11 8003643616
+(Dispatch) 571 EAST BRADY RD ROLLING HILLS RD / CORNMAN DR VAINJ 4360 01:41 7245451228
+
 */
 
 public class PAArmstrongCountyParser extends SmartAddressParser {
