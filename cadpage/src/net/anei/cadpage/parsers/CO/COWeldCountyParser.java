@@ -46,6 +46,7 @@ From:wrc-hiplink@weldcorcc.com
 Dispatch / 22\nSIPF\nD\n13009 WCR 13\nMV3E\n2203\nFALL..INSIDE BUSINESS\n
 Dispatch / LAFF\nFIRESR\nD\n711 MEADOWLARK DR\nBOLFF\n22\nalready toned stn 6 mnt view....for trailer on fire\n
 (Dispatch) 22\nATSUCI\nD\n2651 HUGHS DR\nMV6B\n2206\ntoned mv stn 6 male shot himself in the head with a gun\nProQA Medical Case 5590 Aborted  bouilder emd
+22\nSI\nD\n7803 MONARCH RD\nMV4A\n2201\nTONED OUT 2224 REF A MALE PARTY WITH A DIABETIC SEIZURE.\nProQA Medical Case 8109 Aborted\2sOTHER CENTER EMD'D
 
  */
 

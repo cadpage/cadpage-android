@@ -230,12 +230,20 @@ public class SmsMsgAccumulator {
       // This message must have been sent within 30 seconds of last message
       if (newMsg.getSentTime() - lastMessage.getSentTime() > 30000) return false;
       
-      // If we aren't checking the sender address, that is good enough
-      if (! ManagePreferences.splitChkSender()) return true;
-      
-      // We generally expect a complete sender address match
+      // There is an option to not check the sender address. But we have to check
+      // something or we will accumulate messages from anyone, whether or not
+      // they pass any sender filters in place.  What we will do is accept
+      // this as a match if either the first or last 4 characters are the same
       String newAddr = newMsg.getFromAddress();
       String lastAddr = lastMessage.getFromAddress();
+      if (! ManagePreferences.splitChkSender()) {
+        if (newAddr.length() >= 4 && lastAddr.length() >= 4) {
+          if (newAddr.substring(0,4).equals(lastAddr.substring(0,4))) return true;
+          if (newAddr.substring(newAddr.length()-4).equals(lastAddr.substring(lastAddr.length()-4))) return true;
+        }
+      }
+      
+      // We generally expect a complete sender address match
       if (newAddr.equals(lastAddr)) return true;
       
       // if they don't match, we will check the last 3 characters of both addresses
