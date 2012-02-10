@@ -25,7 +25,7 @@ public class CASanBernardinoCountyParserTest extends BaseParserTest {
 
     doTest("T2",
         "[] | HEART->1600 E Citrus Ave -A REDC >LOC INFO:DR HOENSHELL >AGN MAP:RED069 -TB MAP:608 F7 >X ST:N DEARBORN ST/S LA SALLE ST >E261,MS261,AMR37>COMMENTS:[ProQA Session Aborted] ALLIED AGENCY,External Case Number 'RED _1200691' added for Redlands.,Automatic C\n",
-        "CALL:HEART-",
+        "CALL:HEART",
         "ADDR:1600 E Citrus Ave",
         "APT:A",
         "CITY:REDLANDS",
@@ -110,7 +110,7 @@ public class CASanBernardinoCountyParserTest extends BaseParserTest {
 
     doTest("T9",
         "[] | BIRTH->1320 Industrial Park Ave - REDC >LOC INFO:BURGER KING >AGN MAP:RED078 -TB MAP:607 J6 >X ST:W COLTON AVE/TRI-CITY CENTER DR >E264,ME263R,AMR39>COMMENTS:WPH2 LAT:34.06319600 LON:-117.200990 METERS:14 %:063,[ProQA Script] Dispatch code: 24B02 21 yea\n",
-        "CALL:BIRTH- - Childbirth",
+        "CALL:BIRTH - Childbirth",
         "ADDR:1320 Industrial Park Ave",
         "CITY:REDLANDS",
         "PLACE:BURGER KING",
@@ -380,7 +380,7 @@ public class CASanBernardinoCountyParserTest extends BaseParserTest {
 
     doTest("T33",
         " | HEART->1301 California St - REDC >LOC INFO:KAISER >AGN MAP:RED091 -TB MAP:607 F5 >X ST:W LUGONIA AVE/ALMOND AVE >ME263,AMR38>COMMENTS:NURSE TREATMETN AREA 6 1ST FLOOR,[ProQA Script] Dispatch code: 19C04 65 year old, Female, Conscious, Breathing. Heart P",
-        "CALL:HEART-",
+        "CALL:HEART",
         "ADDR:1301 California St",
         "CITY:REDLANDS",
         "PLACE:KAISER",
@@ -521,7 +521,7 @@ public class CASanBernardinoCountyParserTest extends BaseParserTest {
 
     doTest("T45",
         " | FALL ->725 Chestnut Ave - REDC >LOC INFO: >AGN MAP:RED045 -TB MAP:648 C2 >X ST:S CENTER ST/PACIFIC ST >E261,MS261,AMR36>COMMENTS:*** EMD COMPLETED WITH CARDS NOT PROQA ***,85 YOM,External Case Number 'RED _1200743' added for Redlands.,Automatic Case Num",
-        "CALL:FALL - - Fall Victim",
+        "CALL:FALL - Fall Victim",
         "ADDR:725 Chestnut Ave",
         "CITY:REDLANDS",
         "MAP:RED045 - 648 C2",
@@ -533,6 +533,7 @@ public class CASanBernardinoCountyParserTest extends BaseParserTest {
         " | TI - T>N University St / I 10 Fwy E - REDC >LOC INFO: >AGN MAP:RED067 -TB MAP:608 D7 >X ST: >ME263,AMR30>COMMENTS:[ProQA Session Aborted] ALLIED AGENCY,1 PT COMPLAINING OF PAIN,External Case Number 'RED _1200744' added for Redlands.,Automatic Case Numbe",
         "CALL:TI - T - TC with Injuries",
         "ADDR:N University St & I 10 Fwy E",
+        "MADDR:N University St & I 10 E",
         "CITY:REDLANDS",
         "MAP:RED067 - 608 D7",
         "UNIT:ME263,AMR30",
@@ -550,7 +551,7 @@ public class CASanBernardinoCountyParserTest extends BaseParserTest {
 
     doTest("T48",
         " | HEART->1075 Parkford Dr - REDC >LOC INFO:76 STATION >AGN MAP:RED047 -TB MAP:648 E2 >X ST:MARSHALL ST/FORD ST >E262,MS261,AMR37>COMMENTS:PT INSIDE EMPLOYEE OFFICE,[ProQA Script] Dispatch code: 19C07 48 year old, Female, Conscious, Breathing. Heart Proble",
-        "CALL:HEART-",
+        "CALL:HEART",
         "ADDR:1075 Parkford Dr",
         "CITY:REDLANDS",
         "PLACE:76 STATION",
@@ -729,7 +730,7 @@ public class CASanBernardinoCountyParserTest extends BaseParserTest {
 
     doTest("T64",
         " | ZAP - >San Timoteo Canyon Rd / Beaumont Ave - REDC >LOC INFO: >AGN MAP:RED035 -TB MAP:647 H3 >X ST: >E261>COMMENTS:WPH2 LAT:34.01817700 LON:-117.188372 METERS:28 %:095,WIRES DOWN IN ROADWAY,External Case Number 'RED _1200727' added for Redlands.,",
-        "CALL:ZAP - - Outside Elec Incident",
+        "CALL:ZAP - Outside Elec Incident",
         "ADDR:San Timoteo Canyon Rd & Beaumont Ave",
         "CITY:REDLANDS",
         "MAP:RED035 - 647 H3",
@@ -766,6 +767,17 @@ public class CASanBernardinoCountyParserTest extends BaseParserTest {
         "MAP:RED097 - 608 F6",
         "UNIT:ME263,MS261,AMR31,E261",
         "INFO:WPH2 LAT:34.06647900 LON:-117.147002 METERS:19 %:063,PT IN SILVER TOYOTA");
+
+    doTest("T68",
+        "[] | TIF - >I 10 Fwy E / N University St - REDC >LOC INFO:EB I10 @ UNIVERSITY >AGN MAP:RED067 -TB MAP:608 D7 >X ST: >MS261,E261,AMR31,T261,BC706,ME263>COMMENTS:CHP MC OFFICER HIT BY VEH,[ProQA Session Aborted] ALLIED AGENCY,074/RED,External Case Number 'RED \n",
+        "CALL:TIF - Frwy TC w/Injuries",
+        "ADDR:I 10 Fwy E & N University St",
+        "MADDR:I 10 E & N University St",
+        "CITY:REDLANDS",
+        "PLACE:EB I10 @ UNIVERSITY",
+        "MAP:RED067 - 608 D7",
+        "UNIT:MS261,E261,AMR31,T261,BC706,ME263",
+        "INFO:CHP MC OFFICER HIT BY VEH, ALLIED AGENCY,074/RED");
  }
   
   public static void main(String[] args) {

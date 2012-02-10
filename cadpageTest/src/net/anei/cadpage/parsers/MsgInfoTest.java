@@ -22,6 +22,8 @@ public class MsgInfoTest {
   @Test
   public void testGetMapAddress() {
     
+    doMapTest("CASanBernardino", "I 10 E & N University St,KENBURG,XX", "I 10 Fwy E & N University St");
+    
     doMapTest("NYOrangeCount", "1166 US 9W,KENBURG,XX", "1166 US RTE 9W");
     
     doMapTest("ORKlamathCounty", "97 S & STATE LINE RD,KENBURG,XX", "97 S & STATE LINE RD");
