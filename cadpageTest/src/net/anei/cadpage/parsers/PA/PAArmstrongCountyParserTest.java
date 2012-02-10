@@ -77,6 +77,29 @@ public class PAArmstrongCountyParserTest extends BaseParserTest {
 
   }
   
+  @Test
+  public void testParser3() {
+
+    doTest("T1",
+        "(Dispatch) 105 ELM DR MAPLE LN / LOCUST LN FCOALM 4524 14:11 8003643616",
+        "ADDR:105 ELM DR",
+        "X:MAPLE LN / LOCUST LN",
+        "CALL:FCOALM",
+        "ID:4524",
+        "TIME:14:11",
+        "PHONE:8003643616");
+
+    doTest("T2",
+        "(Dispatch) 571 EAST BRADY RD ROLLING HILLS RD / CORNMAN DR VAINJ 4360 01:41 7245451228",
+        "ADDR:571 EAST BRADY RD",
+        "X:ROLLING HILLS RD / CORNMAN DR",
+        "CALL:VAINJ",
+        "ID:4360",
+        "TIME:01:41",
+        "PHONE:7245451228");
+
+  }
+  
   
   public static void main(String[] args) {
     new PAArmstrongCountyParserTest().generateTests("T1", "ADDR X PLACE CALL ID TIME PHONE");
