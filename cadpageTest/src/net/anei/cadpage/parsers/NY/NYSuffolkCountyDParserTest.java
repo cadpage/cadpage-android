@@ -146,6 +146,67 @@ public class NYSuffolkCountyDParserTest extends BaseParserTest {
 
   }
   
+  @Test
+  public void testAction911() {
+
+    doTest("T1",
+        "[] CHEST PAIN - NORMAL BREATHING (AGE >=35) code: 10-C-4 at: 43 WHITE BIRCH CIR c/s: CENTRAL BLVD d/t: 02/07 23:25:51\n",
+        "CALL:CHEST PAIN - NORMAL BREATHING (AGE >=35)",
+        "CODE:10-C-4",
+        "ADDR:43 WHITE BIRCH CIR",
+        "X:CENTRAL BLVD",
+        "DATE:02/07",
+        "TIME:23:25:51");
+
+    doTest("T2",
+        "[] UNCONSCIOUS / FAINTING (NEAR) - FAINTING EPISODE(S) AND ALERT >=35 (WITH CARDIAC HISTORY) code: 31-C-2 at: ROUTE 25A c/s:  d/t: 02/08 19:17:00\n",
+        "CALL:UNCONSCIOUS / FAINTING (NEAR) - FAINTING EPISODE(S) AND ALERT >=35 (WITH CARDIAC HISTORY)",
+        "CODE:31-C-2",
+        "ADDR:ROUTE 25A",
+        "DATE:02/08",
+        "TIME:19:17:00");
+
+    doTest("T3",
+        "[] DIABETIC - UNCONSCIOUS code: 13-D-1 at: 7 BRADDOCK CT c/s: STRATHMORE CT d/t: 02/08 21:30:30\n",
+        "CALL:DIABETIC - UNCONSCIOUS",
+        "CODE:13-D-1",
+        "ADDR:7 BRADDOCK CT",
+        "X:STRATHMORE CT",
+        "DATE:02/08",
+        "TIME:21:30:30");
+
+    doTest("T4",
+        "[] BURNS (SCALDS) / EXPLOSION - FIRE ALARM (UNKNOWN SITUATION) code: 7-A-2 at: 3 PURITAN PATH, PORT JEFFERSON c/s: PILGRIM DR d/t: 02/09 10:08:19\n",
+        "CALL:BURNS (SCALDS) / EXPLOSION - FIRE ALARM (UNKNOWN SITUATION)",
+        "CODE:7-A-2",
+        "ADDR:3 PURITAN PATH",
+        "CITY:PORT JEFFERSON",
+        "X:PILGRIM DR",
+        "DATE:02/09",
+        "TIME:10:08:19");
+
+    doTest("T5",
+        "[] UNKNOWN PROBLEM - MEDICAL ALERT NOTIFICATION code: 32-B-2 at: 22 LANDING LN, PORT JEFFERSON c/s: OLD HOMESTEAD RD d/t: 02/09 11:11:32\n",
+        "CALL:UNKNOWN PROBLEM - MEDICAL ALERT NOTIFICATION",
+        "CODE:32-B-2",
+        "ADDR:22 LANDING LN",
+        "CITY:PORT JEFFERSON",
+        "X:OLD HOMESTEAD RD",
+        "DATE:02/09",
+        "TIME:11:11:32");
+
+    doTest("T6",
+        "[] BLEEDING / LACERATIONS - SERIOUS HEMORRHAGE code: 21-B-2 at: 12 HEARTHSIDE DR, MOUNT SINAI c/s: COBBLESTONE WAY d/t: 02/09 15:50:23\n",
+        "CALL:BLEEDING / LACERATIONS - SERIOUS HEMORRHAGE",
+        "CODE:21-B-2",
+        "ADDR:12 HEARTHSIDE DR",
+        "CITY:MOUNT SINAI",
+        "X:COBBLESTONE WAY",
+        "DATE:02/09",
+        "TIME:15:50:23");
+
+  }
+  
   public static void main(String[] args) {
     new NYSuffolkCountyDParserTest().generateTests("T1");
   }
