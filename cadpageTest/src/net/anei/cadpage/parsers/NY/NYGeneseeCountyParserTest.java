@@ -197,6 +197,21 @@ public class NYGeneseeCountyParserTest extends BaseParserTest {
 
   }
   
+  @Test
+  public void testParser5() {
+
+    doTest("T1",
+        "GENESEE COUNTY DISPATCH Unit:AX06 Status:Dispatched Fire Mutual Aid ** * <UNKNOWN> , - ** FAST TEAM TO THE HOUSE FIRE ** ** 02/09/12 10:21 ** 2012-00000027 ** TXT STOP to opt-out",
+        "UNIT:AX06",
+        "CALL:Fire Mutual Aid",
+        "ADDR:* <UNKNOWN>",
+        "INFO:FAST TEAM TO THE HOUSE FIRE",
+        "DATE:02/09/12",
+        "TIME:10:21",
+        "ID:2012-00000027");
+
+  }
+  
   public static void main(String[] args) {
     new NYGeneseeCountyParserTest().generateTests("T1");
   }
