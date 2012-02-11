@@ -38,6 +38,15 @@ Contact: Zach Akin <brfdfireman@gmail.com>
 Sender: 93001NNN
 ICOM/400 notification,HOUSE FIRE/ 1173 W SHERMAN ST Lebanon/ 4142A3131/
 
+Contact: Active911.com
+[ICOM/400 notification] TEST 1st ALARM FIRE/ 1115 SE JACKSON ST Albany LINN CO SHERIFFS OFFICE/JAIL/ 282511S11/\n
+[ICOM/400 notification] OTH STRCT FIRE/ 36149 RIVERSIDE DR INTERSECTN Linn County  /  OAKVILLE RD/ 30181111/\n
+[ICOM/400 notification] ALARM-FIRE/ 618 SW WASHINGTON ST Albany/ 282411N11/\n
+[ICOM/400 notification] ALARM-FIRE/ 525 SW 25TH AV Albany OREGON FREEZE DRY PLANT #2/ 30241212/\n
+[ICOM/400 notification] ALARM-FIRE/ 1929 SE GRAND PRAIRIE RD Albany VILLAS AT COURTYARD/ 30261212/\n
+[ICOM/400 notification] TRAF COLLISION/ 3700 NE KNOX BUTTE RD Linn County LINN CO FAIRGROUNDS AND EXPO/ 26291313/\n
+[ICOM/400 notification] CARDIAC/RESP ARREST/ 2801 SW UMATILLA ST Albany/ 30231212/\n
+
 */
 
 public class ORLinnCountyParser extends FieldProgramParser {
@@ -57,7 +66,12 @@ public class ORLinnCountyParser extends FieldProgramParser {
     if (body.startsWith("ICOM/400 notification,")) body = body.substring(22).trim();
     String[] flds = body.split("/");
     if (flds.length < 3) return false;
-    return parseFields(flds, data);
+    if (!parseFields(flds, data)) return false;
+    if (data.strAddress.endsWith(" INTERSECTN")) {
+      data.strAddress = data.strAddress.substring(0,data.strAddress.length()-11).trim();
+    }
+    if (data.strCity.equalsIgnoreCase("LINN COUNTY")) data.strCity = "";
+    return true;
   }
   
   private class MyCallField extends CallField {
@@ -69,7 +83,7 @@ public class ORLinnCountyParser extends FieldProgramParser {
   
   private class MyMapField extends MapField {
     public MyMapField() {
-      setPattern(Pattern.compile("\\d{4}[A-Z]?\\d\\d\\*?\\d\\d"));
+      setPattern(Pattern.compile("\\d{4}[A-Z]?\\d\\d\\*?[A-Z]?\\d\\d"));
     }
   }
   

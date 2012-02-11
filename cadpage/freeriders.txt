@@ -1121,7 +1121,7 @@ William Prell (fmbill6147@gmail.com)(wprell@swbell.net)
 Robert George (rgeorge906@gmail.com)(rgeorge001@triad.rr.com)
 David Kozlowski (stoliboi@gmail.com)(dman5667000@aol.com)
 Tommy Guy (tguy1340@gmail.com)(guy225@charter.net)
-Neil Payne (chief250@comcast.net)
+Neil Payne (paynebrock@gmail.com)(chief250@comcast.net)
 Ryan A Zerbe (rzerbe47@hotmail.com)
 
 // List of users getting free credit for 2012
@@ -1160,12 +1160,12 @@ $free_2012_list
 >>Jim Hill <jim.hill2121@gmail.com>
 >>Leon Apple <flyinafarm@gmail.com>
 >>"fi31re425@hotmail.com" (fi31re425@gmail.com)<fi31re425@hotmail.com>
-Eric Sanders <gasman888@gmail.com>
-Rosco Meadows <roscomeadows@gmail.com>
-Mike Carey <mikecarey07@gmail.com>
-BRANDON BAKER <cutzofanigma@gmail.com>
+>>Eric Sanders <gasman888@gmail.com>
+>>Rosco Meadows <roscomeadows@gmail.com>
+>>Mike Carey <mikecarey07@gmail.com>
+>>BRANDON BAKER <cutzofanigma@gmail.com>
 %%01/04/2012
-"Mark J. Roberts" (mjroberts39@gmail.com)<emtmroberts@yahoo.com>
+>>"Mark J. Roberts" (mjroberts39@gmail.com)<emtmroberts@yahoo.com>
 "brian gallagher " (briang1fun@gmail.com)<briang1fun@hotmail.com>
 Blaine Schildt <blaineschildt@gmail.com>
 Jeffrey Avery <ladder2hfdbatt2@gmail.com>
@@ -1456,3 +1456,9 @@ matt (donald.m.daniels@gmail.com)<matt.daniels@fairfieldrescue.com>
 John Crisman <pumperdriver@gmail.com>
 Scott Willard <electronicaddictions@gmail.com>
 (nfit247@gmail.com) easygee247@yahoo.com
+%%02/10/2012
+Stan Michaels <stanleymichaels298@gmail.com>
+Clifton Hallman <cliftonhallman@gmail.com>
+James Rossi <jimrossi861@gmail.com>
+Travis Franklin <tfwellman@gmail.com>
+kris hamelin <kp.hamelin@gmail.com>
