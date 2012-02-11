@@ -361,7 +361,7 @@ public class MsgInfo {
   private static final Pattern HW_PTN = Pattern.compile("\\bH[WY]\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern STH_PTN = Pattern.compile("\\bST?HY?\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern PK_PTN = Pattern.compile("\\bP[IK]\\b", Pattern.CASE_INSENSITIVE);
-  private static final Pattern PW_PTN = Pattern.compile("\\bPW\\b", Pattern.CASE_INSENSITIVE);
+  private static final Pattern PW_PTN = Pattern.compile("\\bP[WY]\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern CI_PTN = Pattern.compile("\\bC[IR]\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern BLV_PTN = Pattern.compile("\\bBLV\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern TL_PTN = Pattern.compile("\\bTL\\b", Pattern.CASE_INSENSITIVE);

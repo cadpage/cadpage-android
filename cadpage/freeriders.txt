@@ -1062,6 +1062,7 @@ Jerry Digennaro (jerryd264@gmail.com)
 %%01/03/2012
 "Ford, Allen C" (pacman21817@gmail.com)<acford@dpscs.state.md.us> // Somerset County, MD
 nicholas cook (monstermedic06@gmail.com)(nicholascook35@yahoo.com)
+Samantha Smith <noschool81677@gmail.com>
 %%01/05/2012
 Brian Gouza (emtff273@gmail.com)(gouz2@hotmail.com)
 %%01/06/2012
@@ -1119,6 +1120,9 @@ William Prell (fmbill6147@gmail.com)(wprell@swbell.net)
 %%02/10/2012
 Robert George (rgeorge906@gmail.com)(rgeorge001@triad.rr.com)
 David Kozlowski (stoliboi@gmail.com)(dman5667000@aol.com)
+Tommy Guy (tguy1340@gmail.com)(guy225@charter.net)
+Neil Payne (chief250@comcast.net)
+Ryan A Zerbe (rzerbe47@hotmail.com)
 
 // List of users getting free credit for 2012
 $free_2012_list
@@ -1153,9 +1157,9 @@ $free_2012_list
 >>"davdodge01@aol.com" (davdodge01@gmail.com)<davdodge01@aol.com>
 >>will craine <firefighterwill.craine64@gmail.com>
 >>brandon stroupe <stroupe15@gmail.com>
-Jim Hill <jim.hill2121@gmail.com>
-Leon Apple <flyinafarm@gmail.com>
-"fi31re425@hotmail.com" (fi31re425@gmail.com)<fi31re425@hotmail.com>
+>>Jim Hill <jim.hill2121@gmail.com>
+>>Leon Apple <flyinafarm@gmail.com>
+>>"fi31re425@hotmail.com" (fi31re425@gmail.com)<fi31re425@hotmail.com>
 Eric Sanders <gasman888@gmail.com>
 Rosco Meadows <roscomeadows@gmail.com>
 Mike Carey <mikecarey07@gmail.com>

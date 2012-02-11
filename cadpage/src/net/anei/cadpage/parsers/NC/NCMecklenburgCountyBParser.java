@@ -39,14 +39,15 @@ FRM:rc.334@c-msg.net\nSUBJ:cCAD\nMSG:[!] 10611 Mount Holly Rd ifo residence Char
 FRM:rc.334@c-msg.net\nSUBJ:cCAD\nMSG:[!] 2721 Nance Cove Rd Charlie 13- Diabetic problems Millwood Cr/Tall Meadow Rd COOR1 Map - 292292/H6 01052012-163
 1 of 2\nFRM:rc.334@c-msg.net\nSUBJ:cCAD\nMSG:[!] 10607 Bur Oak Dr Fire - Emergency 52C-Alarm-Carbon Monoxide Falling Stream Dr/Double Cedar Dr\n(Con't) 2 of 2\nCOOF3 Map - 292292/E9 01062012-101(End)
 
-
+Sender: alerts@cadpage.org
+[!] 3310 Dunn Commons Py 201 RIVERMERE APTS Fire - Emergency 52F-Alarm-FIRE Shady Creek Rd/Dunn Commons Pk COOF3 Map - 292292/H9 02102012-333
 
 */
 
 public class NCMecklenburgCountyBParser extends SmartAddressParser {
   
   private static final Set<String> PRI_VALUES = new HashSet<String>(Arrays.asList(new String[]{"Charlie", "Delta", "Fire - Emergency"}));
-  private static final Pattern CODE_PTN = Pattern.compile(" (\\d{2}[A-Z]{0,2}-)");
+  private static final Pattern CODE_PTN = Pattern.compile(" (\\d{2}[A-Z]{0,2})-");
   private static final Pattern UNIT_PTN = Pattern.compile("\\b[A-Z][A-Za-z]{1,4}\\d{1,3}\\b");
   
   
@@ -56,7 +57,7 @@ public class NCMecklenburgCountyBParser extends SmartAddressParser {
   
   @Override
   public String getFilter() {
-    return "@minthillvfd.com";
+    return "@minthillvfd.com,alerts@cadpage.org";
   }
   
   @Override
@@ -94,7 +95,10 @@ public class NCMecklenburgCountyBParser extends SmartAddressParser {
       part1 = part1.substring(0,pt).trim();
     }
     parseAddress(StartType.START_ADDR, part1, data);
-    data.strSupp = getLeft();
+    String sInfo = getLeft();
+    if (sInfo.endsWith("-")) sInfo = sInfo.substring(0,sInfo.length()-1).trim();
+    data.strSupp = sInfo;
+    
     
     return true;
   }

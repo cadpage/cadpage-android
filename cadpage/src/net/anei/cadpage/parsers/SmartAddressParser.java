@@ -192,7 +192,7 @@ public abstract class SmartAddressParser extends MsgParser {
         "DRIVE", "DR",
         "SQUARE", "SQ",
         "BLVD", "BL", "BLV",
-        "PARKWAY", "WAY", "PKWY", "PKY", "PK", "FWY", "WY", "HW", "EXPW", "PW",
+        "PARKWAY", "WAY", "PKWY", "PKY", "PK", "PY", "FWY", "WY", "HW", "EXPW", "PW",
         "CIRCLE", "CIR", "CL",
         "TRAIL", "TRL", "TR", "TL",
         "PATH",
