@@ -18,7 +18,6 @@ public class ORLinnCountyParserTest extends BaseParserTest {
         "OTH STRCT FIRE/40560 MCQUEEN DR Linn County/HWY 228 &/6654B23*21/ E23 PT23 STN23 SF M21 A201 E21 E25 STN21 TONE WT21 1ST E22 STN22 WT22 STN24",
         "CALL:OTH STRCT FIRE",
         "ADDR:40560 MCQUEEN DR",
-        "CITY:Linn County",
         "X:HWY 228 &",
         "MAP:6654B23*21",
         "UNIT:E23 PT23 STN23 SF M21 A201 E21 E25 STN21 TONE WT21 1ST E22 STN22 WT22 STN24");
@@ -51,28 +50,24 @@ public class ORLinnCountyParserTest extends BaseParserTest {
         "SICK PERSON/ 24490 WEST BRUSH CREEK RD Linn County/ 705023*21/",
         "CALL:SICK PERSON",
         "ADDR:24490 WEST BRUSH CREEK RD",
-        "CITY:Linn County",
         "MAP:705023*21");
 
     doTest("T6",
         "SICK PERSON/ 45265 SUNNYSIDE RD Linn County/ 547021*21/",
         "CALL:SICK PERSON",
         "ADDR:45265 SUNNYSIDE RD",
-        "CITY:Linn County",
         "MAP:547021*21");
 
     doTest("T7",
         "TRAUMA INJ/ 43813 WILEY CREEK DR Linn County/ 587022*21/",
         "CALL:TRAUMA INJ",
         "ADDR:43813 WILEY CREEK DR",
-        "CITY:Linn County",
         "MAP:587022*21");
 
     doTest("T8",
         "STROKE/CVA/ 43786 WILEY CREEK DR Linn County/ 587022*21/",
         "CALL:STROKE/CVA",
         "ADDR:43786 WILEY CREEK DR",
-        "CITY:Linn County",
         "MAP:587022*21");
 
     doTest("T9",
@@ -112,14 +107,12 @@ public class ORLinnCountyParserTest extends BaseParserTest {
         "BREATH PROB/ 43156 NORTH RIVER DR Linn County/ 586622*21/",
         "CALL:BREATH PROB",
         "ADDR:43156 NORTH RIVER DR",
-        "CITY:Linn County",
         "MAP:586622*21");
 
     doTest("T14",
         "BREATH PROB/ 38110 HWY 228 Linn County/ 6649A23*21/",
         "CALL:BREATH PROB",
         "ADDR:38110 HWY 228",
-        "CITY:Linn County",
         "MAP:6649A23*21");
 
     doTest("T15",
@@ -203,7 +196,66 @@ public class ORLinnCountyParserTest extends BaseParserTest {
         "MAP:4142A3131");
   }
   
+  @Test
+  public void testActive911() {
+
+    doTest("T1",
+        "[ICOM/400 notification] TEST 1st ALARM FIRE/ 1115 SE JACKSON ST Albany LINN CO SHERIFFS OFFICE/JAIL/ 282511S11/\n",
+        "CALL:TEST 1st ALARM FIRE",
+        "ADDR:1115 SE JACKSON ST",
+        "CITY:Albany",
+        "PLACE:LINN CO SHERIFFS OFFICE",
+        "X:JAIL",
+        "MAP:282511S11");
+
+    doTest("T2",
+        "[ICOM/400 notification] OTH STRCT FIRE/ 36149 RIVERSIDE DR INTERSECTN Linn County  /  OAKVILLE RD/ 30181111/\n",
+        "CALL:OTH STRCT FIRE",
+        "ADDR:36149 RIVERSIDE DR",
+        "X:OAKVILLE RD",
+        "MAP:30181111");
+
+    doTest("T3",
+        "[ICOM/400 notification] ALARM-FIRE/ 618 SW WASHINGTON ST Albany/ 282411N11/\n",
+        "CALL:ALARM-FIRE",
+        "ADDR:618 SW WASHINGTON ST",
+        "CITY:Albany",
+        "MAP:282411N11");
+
+    doTest("T4",
+        "[ICOM/400 notification] ALARM-FIRE/ 525 SW 25TH AV Albany OREGON FREEZE DRY PLANT #2/ 30241212/\n",
+        "CALL:ALARM-FIRE",
+        "ADDR:525 SW 25TH AV",
+        "MADDR:525 SW 25TH AVE",
+        "CITY:Albany",
+        "PLACE:OREGON FREEZE DRY PLANT #2",
+        "MAP:30241212");
+
+    doTest("T5",
+        "[ICOM/400 notification] ALARM-FIRE/ 1929 SE GRAND PRAIRIE RD Albany VILLAS AT COURTYARD/ 30261212/\n",
+        "CALL:ALARM-FIRE",
+        "ADDR:1929 SE GRAND PRAIRIE RD",
+        "CITY:Albany",
+        "PLACE:VILLAS AT COURTYARD",
+        "MAP:30261212");
+
+    doTest("T6",
+        "[ICOM/400 notification] TRAF COLLISION/ 3700 NE KNOX BUTTE RD Linn County LINN CO FAIRGROUNDS AND EXPO/ 26291313/\n",
+        "CALL:TRAF COLLISION",
+        "ADDR:3700 NE KNOX BUTTE RD",
+        "PLACE:LINN CO FAIRGROUNDS AND EXPO",
+        "MAP:26291313");
+
+    doTest("T7",
+        "[ICOM/400 notification] CARDIAC/RESP ARREST/ 2801 SW UMATILLA ST Albany/ 30231212/\n",
+        "CALL:CARDIAC/RESP ARREST",
+        "ADDR:2801 SW UMATILLA ST",
+        "CITY:Albany",
+        "MAP:30231212");
+
+  }
+  
   public static void main(String[] args) {
-    new ORLinnCountyParserTest().generateTests("T23");
+    new ORLinnCountyParserTest().generateTests("T1");
   }
 }
