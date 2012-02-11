@@ -54,6 +54,7 @@ public class MDPrinceGeorgesCountyFireBizParserTest extends BaseParserTest {
         "CALL:FD ACCIDENT",
         "UNIT:SQ818 B802",
         "ADDR:ANNAPOLIS RD & PRINCESS GARDEN PY",
+        "MADDR:ANNAPOLIS RD & PRINCESS GARDEN PKWY",
         "X:9006 ANNAPOLIS RD/5900 PRINCESS GARD",
         "DATE:12/07",
         "TIME:07:02",
