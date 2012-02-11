@@ -395,12 +395,12 @@ public class COWeldCountyParserTest extends BaseParserTest {
 
     doTest("T1",
         "Dispatch / 22\nSIPF\nD\n13009 WCR 13\nMV3E\n2203\nFALL..INSIDE BUSINESS\n",
-        "SRC:22",
+        "SRC:MV3",
         "CALL:SIPF",
         "ADDR:13009 CR 13",
         "MADDR:13009 COUNTY ROAD 13",
-        "CITY:MV3E",
-        "UNIT:2203",
+        "CITY:MEAD",
+        "UNIT:MV3E",
         "INFO:FALL..INSIDE BUSINESS");
 
     doTest("T2",
@@ -408,7 +408,7 @@ public class COWeldCountyParserTest extends BaseParserTest {
         "SRC:LAFF",
         "CALL:FIRESR",
         "ADDR:711 MEADOWLARK DR",
-        "CITY:BOLFF",
+        "CITY:LAFAYETTE",
         "UNIT:22",
         "INFO:already toned stn 6 mnt view....for trailer on fire");
 
@@ -422,23 +422,14 @@ public class COWeldCountyParserTest extends BaseParserTest {
         "toned mv stn 6 male shot himself in the head with a gun\n" +
         "ProQA Medical Case 5590 Aborted  bouilder emd",
 
-        "SRC:22",
+        "SRC:MV6",
         "CALL:ATSUCI",
         "ADDR:2651 HUGHS DR",
-        "CITY:MV6B",
-        "UNIT:2206",
+        "CITY:ERIE",
+        "UNIT:MV6B",
         "INFO:toned mv stn 6 male shot himself in the head with a gun / ProQA Medical Case 5590 Aborted  bouilder emd");
 
     doTest("T4",
-        "Dispatch / LAFF\nFIRESR\nD\n711 MEADOWLARK DR\nBOLFF\n22\nalready toned stn 6 mnt view....for trailer on fire\n",
-        "SRC:LAFF",
-        "CALL:FIRESR",
-        "ADDR:711 MEADOWLARK DR",
-        "CITY:BOLFF",
-        "UNIT:22",
-        "INFO:already toned stn 6 mnt view....for trailer on fire");
-
-    doTest("T5",
         "22\n" +
         "SI\n" +
         "D\n" +
@@ -448,12 +439,48 @@ public class COWeldCountyParserTest extends BaseParserTest {
         "TONED OUT 2224 REF A MALE PARTY WITH A DIABETIC SEIZURE.\n" +
         "ProQA Medical Case 8109 Aborted\\2sOTHER CENTER EMD'D",
 
-        "SRC:22",
+        "SRC:MV4",
         "CALL:SI",
         "ADDR:7803 MONARCH RD",
-        "CITY:MV4A",
-        "UNIT:2201",
+        "CITY:NIWOT",
+        "UNIT:MV4A",
         "INFO:TONED OUT 2224 REF A MALE PARTY WITH A DIABETIC SEIZURE. / ProQA Medical Case 8109 Aborted\\2sOTHER CENTER EMD'D");
+
+    doTest("T5",
+        "22\n" +
+        "TAI\n" +
+        "D\n" +
+        "1415 VISTA VIEW DR; HAJEK CHEVROLET\n" +
+        "MV1B\n" +
+        "2201\n" +
+        "ROLL OVER // RP DISC'D BEFORE GETTING FRUTHER\n" +
+        "RP ADVD THEY WERE ON HWY 119 // DIDN'T GIVE DOT // SOUNDED",
+
+        "SRC:MV1",
+        "CALL:TAI",
+        "ADDR:1415 VISTA VIEW DR",
+        "PLACE:HAJEK CHEVROLET",
+        "CITY:LONGMONT",
+        "UNIT:MV1B",
+        "INFO:ROLL OVER // RP DISC'D BEFORE GETTING FRUTHER / RP ADVD THEY WERE ON HWY 119 // DIDN'T GIVE DOT // SOUNDED");
+
+    doTest("T6",
+        "22\n" +
+        "ALARMFR\n" +
+        "D\n" +
+        "2758 IRONWOOD CIR; CAMPBELL RESIDENCE\n" +
+        "MV6E\n" +
+        "2206\n" +
+        "STN 6 AND 2226.  GENERAL FIRE ALARM AND SMOKE DETECTOR.\n" +
+        "BOULDER ADVISING TO CANCEL.  PROPER CODES",
+
+        "SRC:MV6",
+        "CALL:ALARMFR",
+        "ADDR:2758 IRONWOOD CIR",
+        "PLACE:CAMPBELL RESIDENCE",
+        "CITY:ERIE",
+        "UNIT:MV6E",
+        "INFO:STN 6 AND 2226.  GENERAL FIRE ALARM AND SMOKE DETECTOR. / BOULDER ADVISING TO CANCEL.  PROPER CODES");
 
   }
   
