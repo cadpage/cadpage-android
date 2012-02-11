@@ -47,6 +47,8 @@ Dispatch / 22\nSIPF\nD\n13009 WCR 13\nMV3E\n2203\nFALL..INSIDE BUSINESS\n
 Dispatch / LAFF\nFIRESR\nD\n711 MEADOWLARK DR\nBOLFF\n22\nalready toned stn 6 mnt view....for trailer on fire\n
 (Dispatch) 22\nATSUCI\nD\n2651 HUGHS DR\nMV6B\n2206\ntoned mv stn 6 male shot himself in the head with a gun\nProQA Medical Case 5590 Aborted  bouilder emd
 22\nSI\nD\n7803 MONARCH RD\nMV4A\n2201\nTONED OUT 2224 REF A MALE PARTY WITH A DIABETIC SEIZURE.\nProQA Medical Case 8109 Aborted\2sOTHER CENTER EMD'D
+22\nTAI\nD\n1415 VISTA VIEW DR; HAJEK CHEVROLET\nMV1B\n2201\nROLL OVER // RP DISC'D BEFORE GETTING FRUTHER\nRP ADVD THEY WERE ON HWY 119 // DIDN'T GIVE DOT // SOUNDED
+22\nALARMFR\nD\n2758 IRONWOOD CIR; CAMPBELL RESIDENCE\nMV6E\n2206\nSTN 6 AND 2226.  GENERAL FIRE ALARM AND SMOKE DETECTOR.\nBOULDER ADVISING TO CANCEL.  PROPER CODES
 
  */
 
@@ -95,6 +97,43 @@ public class COWeldCountyParser extends FieldProgramParser {
     }
   }
   
+  private static final Pattern UNIT_PTN = Pattern.compile("[A-Z]{2}\\d[A-Z]");
+  private class MyCityField extends CityField {
+    @Override
+    public void parse(String field, Data data) {
+      
+      // Things are done differently in Boulder county
+      if (field.equals("BOLFF")) {
+        String sCity = STATION_CODES.getProperty(data.strSource);
+        if (sCity == null) sCity = "BOULDER COUNTY";
+        data.strCity = sCity;
+      } else {
+        String key = field;
+        if (UNIT_PTN.matcher(key).matches()) key = key.substring(0,3);
+        String sCity = STATION_CODES.getProperty(key);
+        if (sCity != null) {
+          data.strCity = sCity;
+          data.strSource = key;
+          data.strUnit = field;
+        } else {
+          super.parse(field, data);
+        }
+      }
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "CITY SRC UNIT";
+    }
+  }
+  
+  private class MyUnitField extends UnitField {
+    @Override
+    public void parse(String field, Data data) {
+      if (data.strUnit.length() == 0) data.strUnit = field;
+    }
+  }
+  
   private static final Pattern CODE_PTN = Pattern.compile("ProQA Medical Recommended Dispatch Level = (\\w+)");
   private class MyInfoField extends InfoField {
     @Override
@@ -115,8 +154,11 @@ public class COWeldCountyParser extends FieldProgramParser {
   
   @Override
   public Field getField(String name) {
+    if (name.equals("DIG")) return new SkipField("\\d+", true);
     if (name.equals("D")) return new SkipField("D", true);
     if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("CITY")) return new MyCityField();
+    if (name.equals("UNIT")) return new MyUnitField();
     if (name.equals("INFO")) return new MyInfoField();
     return super.getField(name);
   }
@@ -126,5 +168,15 @@ public class COWeldCountyParser extends FieldProgramParser {
       "FL", "FORT LUPTON",
       "MI", "MILLIKEN",
       "PL", "PLATTEVILLE"
+  });
+  
+  private static final Properties STATION_CODES = buildCodeTable(new String[]{
+      "BOLFF", "BOULDER COUNTY",
+      "LAFF", "LAFAYETTE",
+      "MV1", "LONGMONT",
+      "MV3", "MEAD",
+      "MV4", "NIWOT",
+      "MV6", "ERIE",
+      "MV7", "DACNO"
   });
 }
