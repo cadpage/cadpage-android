@@ -22,6 +22,9 @@ Contact: Dustin Miller <ff3650dm@gmail.com>
 STRUCTURE FIRE-SF-422,412,421,471,531,431,447,510,4PC-1995 NW LOWER BRIDGE WAY-Map 1413NW-19:04:36 
 BRUSH FIRE HIGH RISK RESPONSE-BH-441,412,447,531,543,481,E640,448,541,442,544,4PC-NW 43RD ST/NW LOWER BRIDGE WAY-Map 1413NW-17:13:24
 
+Contact: JASON ZOE ARNOLD <jzarnold@msn.com>
+Stroke Abnormal breathing -C-271,221- 2 ROGUE LN 17692 ROGUE LN -Map 191129-08:11:41
+
 */
 
 
@@ -82,6 +85,13 @@ public class ORDeschutesCountyParser extends FieldProgramParser {
     }
   }
   
+  private class MyAddressField extends AddressField {
+    @Override
+    public void parse(String field, Data data) {
+      parseAddress(StartType.START_ADDR, field, data);
+    }
+  }
+  
   private class MyMapField extends MapField {
     
     @Override
@@ -102,6 +112,7 @@ public class ORDeschutesCountyParser extends FieldProgramParser {
     if (name.equals("CALL")) return new MyCallField();
     if (name.equals("PRI")) return new MyPriorityField();
     if (name.equals("UNITSRC")) return new UnitSourceField();
+    if (name.equals("ADDR")) return new MyAddressField();
     if (name.equals("MAP")) return new MyMapField();
     return super.getField(name);
   }
