@@ -94,9 +94,25 @@ public class ORDeschutesCountyParserTest extends BaseParserTest {
         "ADDR:2 ROGUE LN",
         "MAP:191129");
 
+    doTest("T11",
+        "Uncons / Fainting Not alert\\3s-D-271,221- 10 HUMMINGBIRD LN 17553 HUMMINGBIRD LN -Map 191130-08:45:45",
+        "CALL:Uncons / Fainting Not alert\\3s",
+        "PRI:D",
+        "UNIT:271,221",
+        "ADDR:10 HUMMINGBIRD LN",
+        "MAP:191130");
+
+    doTest("T12",
+        "CHEST PAIN-C-271,221- 6 WALLOWA LOOP 57720 WALLOWA LOOP -Map 191128-06:54:45",
+        "CALL:CHEST PAIN",
+        "PRI:C",
+        "UNIT:271,221",
+        "ADDR:6 WALLOWA LOOP",
+        "MAP:191128");
+
   }
   
   public static void main(String args[]) {
-    new ORDeschutesCountyParserTest().generateTests("T11");
+    new ORDeschutesCountyParserTest().generateTests("T13");
   }
 }
