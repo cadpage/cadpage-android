@@ -1139,7 +1139,49 @@ public class PABucksCountyParserTest extends BaseParserTest {
         "TIME:23:13:16",
         "ID:FD1201989",
         "UNIT:R19 E79");
+
+    doTest("T5",
+        "Subject:1/1\nSQ134:ASEIZ\nadr:517 N MAIN ST ,27\nbtwn:W HILLCREST AV & PEACE VALLEY RD\nbox:34008 map:3033E2\ntm:20:10:13 ED1205526",
+        "CALL:ASEIZ - SEIZURES - ACTIVE",
+        "BOX:34008",
+        "ADDR:517 N MAIN ST",
+        "CITY:CHALFONT",
+        "X:W HILLCREST AV & PEACE VALLEY RD",
+        "MAP:3033E2",
+        "TIME:20:10:13",
+        "ID:ED1205526",
+        "UNIT:SQ134");
+
+    doTest("T6",
+        "911: STA19  type:FALRM   adr:COURT HOUSE MTR IN #137 ,28 at 625 N MAIN ST #137 ,28 btwn FONTHILL DR & CHAPMAN  aai:  box:19014  map:2922J8  tm:19:44:2",
+        "SRC:STA19",
+        "CALL:FALRM - FIRE ALARM (LOC)",
+        "BOX:19014",
+        "PLACE:COURT HOUSE MTR IN #137",
+        "ADDR:625 N MAIN ST",
+        "APT:137",
+        "CITY:DOYLESTOWN",
+        "X:FONTHILL DR & CHAPMAN",
+        "MAP:2922J8",
+        "TIME:19:44:2");
     
+  }
+  
+  @Test
+  public void testParser6() {
+
+    doTest("T1",
+        "(#9823  1/1) STA0:FEMS\nadr:4008 WALTHAM CT ,42\nbtwn:COVINGTON RD & CUL DE SAC\nbox:80012\ntm:19:07:17 FD1202015  Run: UT80",
+        "SRC:STA0",
+        "CALL:FEMS - FIRE ASSIST EMS (LOC)",
+        "BOX:80012",
+        "ADDR:4008 WALTHAM CT",
+        "CITY:LOWER MAKEFIELD TWP",
+        "X:COVINGTON RD & CUL DE SAC",
+        "TIME:19:07:17",
+        "ID:FD1202015",
+        "UNIT:UT80");
+
   }
   
   public static void main(String[] args) {

@@ -70,6 +70,17 @@ public class PAChesterCountyFParserTest extends BaseParserTest {
         "MADDR:OLD BALTIMORE PIKE & VILLAGE RD",
         "INFO:2 VEH/BLKG ROADWAY/");
 
+    doTest("T8",
+        "(Dispatch) CHIMNEY FIRE * ** 3064 LIMESTONE RD ,44 ** WFALLO **  ** HOSTETTER RD & HIGHVIEW D ** - ** CHIMNEY\n" +
+        "DETAILS TO FOLLOW\n" +
+        "**",
+
+        "CALL:CHIMNEY FIRE",
+        "ADDR:3064 LIMESTONE RD",
+        "CITY:WEST FALLOWFIELD TWP",
+        "X:HOSTETTER RD & HIGHVIEW D",
+        "INFO:CHIMNEY DETAILS TO FOLLOW");
+
   }
   
   public static void main(String[] args) {
