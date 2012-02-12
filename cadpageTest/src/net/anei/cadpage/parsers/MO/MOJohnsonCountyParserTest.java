@@ -36,6 +36,11 @@ public class MOJohnsonCountyParserTest extends BaseParserTest {
         "[ Subject: 911 Page ] 7/17/2011 21:02:06 FIRE STRUCTURE 1072 NW 475 RD JOHNSON COUNTY",
         "CALL:FIRE STRUCTURE",
         "ADDR:1072 NW 475 RD");
+
+    doTest("T5",
+        "911 Page / Dispatch: 2/11/2012 18:06:31 FIRE STRUCTURE 18 SE 135 RD JOHNSON COUNTY\n",
+        "CALL:FIRE STRUCTURE",
+        "ADDR:18 SE 135 RD");
   }
   
   public static void main(String[] args) {
