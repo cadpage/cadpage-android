@@ -183,15 +183,6 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
     // correct default summary displays
     overrideDefaultPref.getOnPreferenceChangeListener().
         onPreferenceChange(overrideDefaultPref, ManagePreferences.overrideDefaults());
-
-    // Test message response
-    Preference testmsgPref = findPreference(getString(R.string.pref_testmsg_key));
-    testmsgPref.setOnPreferenceClickListener(new OnPreferenceClickListener(){
-      @Override
-      public boolean onPreferenceClick(Preference preference) {
-        SmsReceiver.repeatLastPage(SmsPopupConfigActivity.this);
-        return true;
-      }});
     
     // Email developer response
     Preference emailPref = findPreference(getString(R.string.pref_email_key));

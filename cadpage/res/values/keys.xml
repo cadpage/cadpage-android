@@ -86,7 +86,6 @@
    <string name="pref_gen_alert_key">gen_alert</string>
    <string name="pref_show_source_key">show_source</string>
    <string name="pref_useGoogleMapApp_key">useGoogleMapApp</string>
-   <string name="pref_testmsg_key">testmsg</string>
    <string name="pref_override_default_key">overrideDefaultLoc</string>
    <string name="pref_defstate_key">defaultState</string>
    <string name="pref_defcity_key">defaultCity</string>

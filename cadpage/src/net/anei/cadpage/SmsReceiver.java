@@ -17,7 +17,6 @@ public class SmsReceiver extends BroadcastReceiver {
   
   private static final String EXTRA_TIMEOUT = "net.anei.cadpage.SmsReceive.MSG_TIMEOUT";
   private static final String EXTRA_TIMEOUT_ID = "net.anei.cadapge.SmsReceive.TIMEOUT_ID";
-  private static final String EXTRA_REPEAT_LAST = "net.anei.cadpage.SmsReceive.REPEAT_LAST";
 
   @Override
   public synchronized void onReceive(Context context, Intent intent) {
@@ -35,19 +34,10 @@ public class SmsReceiver extends BroadcastReceiver {
     
     // Otherwise pick up and process a new message
     else {
-
-      // If repeat_last flag is set, this is a fake intent instructing us
-      // to reprocess the most recently received message (that passed the 
-      // sender address filter
-
-      SmsMmsMessage message = null;
-      if (intent.getBooleanExtra(EXTRA_REPEAT_LAST, false)) {
-        message = SmsMsgLogBuffer.getInstance().getLastMessage();
-        if (message != null) message.setRead(false);
-      }
        
       // Otherwise convert Intent into an SMS/MSS message
-      else if (ACTION_SMS_RECEIVED.equals(intent.getAction())) {
+      SmsMmsMessage message = null;
+      if (ACTION_SMS_RECEIVED.equals(intent.getAction())) {
         SmsMessage[] messages = getMessagesFromIntent(intent);
         if (messages == null) return;
         message = new SmsMmsMessage( messages,System.currentTimeMillis());
@@ -219,18 +209,6 @@ public class SmsReceiver extends BroadcastReceiver {
     
     // Otherwise OK
     return true;
-  }
-  
-  
-  /**
-   * Request most recently received page be reprocessed
-   * @param context requesting context
-   */
-  public static void repeatLastPage(Context context) {
-    Intent intent = new Intent("android.provider.Telephony.SMS_RECEIVED");
-    intent.setClass(context, SmsReceiver.class);
-    intent.putExtra(EXTRA_REPEAT_LAST, true);
-    context.sendOrderedBroadcast(intent, null);
   }
 }
 

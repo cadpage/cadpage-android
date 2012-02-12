@@ -330,11 +330,6 @@
           android:title="@string/pref_callback_title"
           android:summary="@string/pref_callback_summary"
           android:defaultValue="" />
-          
-      <Preference
-        android:key="@string/pref_testmsg_key"
-        android:title="@string/pref_testmsg_title" >
-      </Preference>
       
       <CheckBoxPreference
           android:key="@string/pref_override_default_key"
