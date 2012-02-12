@@ -37,7 +37,7 @@ public class ZUKWestMidlandsParser extends SmartAddressParser {
     Matcher match = MASTER.matcher(body);
     if (!match.matches()) return false;
 
-    data.strCallId = match.group(1);
+    data.strUnit = match.group(1);
     data.strTime = match.group(2);
     data.strCall = match.group(3);
     String sCode = match.group(4);
