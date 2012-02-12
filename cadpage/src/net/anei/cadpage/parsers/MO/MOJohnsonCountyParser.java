@@ -18,6 +18,10 @@ Sender: cadpage@joco911.org
 [ 911 Page ] Dispatch: 7/18/2011 22:25:03 FIRE GRASS SE DD HWY & SE 341 RD JOHNSON COUNTY
 [ Subject: 911 Page ] 7/17/2011 21:02:06 FIRE STRUCTURE 1072 NW 475 RD JOHNSON COUNTY
 
+Contact: Dustin Moore <firefighter.8115@gmail.com>
+Sender: cadpage@joco911.org
+911 Page / Dispatch: 2/11/2012 18:06:31 FIRE STRUCTURE 18 SE 135 RD JOHNSON COUNTY\n
+
 */
 
 public class MOJohnsonCountyParser extends SmartAddressParser {
@@ -40,7 +44,17 @@ public class MOJohnsonCountyParser extends SmartAddressParser {
   
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
-    if (!subject.contains("911 Page")) return false;
+    
+    do {
+      if (subject.contains("911 Page")) break;
+      
+      if (body.startsWith("911 Page / ")) {
+        body = body.substring(11).trim();
+        break;
+      }
+      
+      return false;
+    } while (false);
     Matcher match = MARKER.matcher(body);
     if (!match.find()) return false;
     body = body.substring(match.end()).trim().replace(',', ' ');
