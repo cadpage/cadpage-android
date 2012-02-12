@@ -21,6 +21,7 @@ public class MainDonateEvent extends DonateScreenEvent {
         AuthDonateEvent.instance(),
         PaidDonateEvent.instance(),
         CadpageDonateEvent.instance(),
+        CadpageUKDonateEvent.instance(),
         SponsorDonateEvent.instance(),
         DonateExemptEvent.instance(),
         PaidWarnDonateEvent.instance(),

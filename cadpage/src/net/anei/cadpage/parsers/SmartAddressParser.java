@@ -16,7 +16,6 @@ import java.util.regex.Pattern;
  *
  */
 public abstract class SmartAddressParser extends MsgParser {
-  
 
   /**
    * Type code indicating what kind of information might preceed the address
@@ -165,24 +164,46 @@ public abstract class SmartAddressParser extends MsgParser {
   // route prefix extender
   private static final int ID_ROUTE_PFX = ID_ROUTE_PFX_PFX | ID_ROUTE_PFX_EXT;
   
-  private static final Pattern PAT_HOUSE_NUMBER = Pattern.compile("\\d+(?:-[0-9/]+)?(?:-?[A-Z])?");
+  private static final Pattern PAT_HOUSE_NUMBER = Pattern.compile("\\d+(?:-[0-9/]+)?(?:-?[A-Z])?", Pattern.CASE_INSENSITIVE);
   
   // List of multiple word cities that need to be converted to and from single tokens
   List<String[]> mWordCities = null;
   
   public SmartAddressParser(String[] cities, String defCity, String defState) {
-    this(defCity, defState);
+    this(cities, defCity, defState, CountryCode.US);
+  }
+  
+  public SmartAddressParser(String[] cities, String defCity, String defState, 
+                            CountryCode code) {
+    this(defCity, defState, code);
     setupCities(cities);
   }
   
   public SmartAddressParser(Properties cityCodes, String defCity, String defState) {
-    this(defCity, defState);
+    this(cityCodes, defCity, defState, CountryCode.US);
+  }
+  
+  public SmartAddressParser(Properties cityCodes, String defCity, String defState, 
+                            CountryCode code) {
+    this(defCity, defState, code);
     if (cityCodes != null) setupCities(getKeywords(cityCodes));
     this.cityCodes = cityCodes;
   }
   
   public SmartAddressParser(String defCity, String defState) {
-    super(defCity, defState);
+    this(defCity, defState, CountryCode.US);
+  }
+  
+  public SmartAddressParser(String defCity, String defState, CountryCode code) {
+    super(defCity, defState, code);
+    setupDictionary(defState);
+  }
+
+  /**
+   * Set up base dictionary common to all countries
+   * @param defState default state
+   */
+  private void setupDictionary(String defState) {
     setupDictionary(ID_ROAD_SFX, 
         "AVENUE", "AV", "AVE", 
         "STREET", "ST", 
@@ -236,6 +257,16 @@ public abstract class SmartAddressParser extends MsgParser {
     // C/S should be in this list, but it gets changed before we parse stuff
     setupDictionary(ID_CROSS_STREET, "XS:", "X:");
     setupDictionary(ID_APPT, "APT:", "APT", "#", "SP", "RM", "SUITE:");
+    
+    // Add any country specific words
+    switch (getCountryCode()) {
+    case UK:
+      setupDictionary(ID_ROAD_SFX,
+          "CLOSE",
+          "GREEN",
+          "CRESCENT");
+      break;
+    }
   }
   
   /**

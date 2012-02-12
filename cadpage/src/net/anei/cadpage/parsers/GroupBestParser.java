@@ -13,6 +13,8 @@ public class GroupBestParser extends MsgParser {
   
   private String dispFilter;
   
+  private String sponsor;
+  
   public GroupBestParser(MsgParser ... parsers) {
     super(parsers[0].getDefaultCity(), parsers[0].getDefaultState());
     
@@ -31,6 +33,18 @@ public class GroupBestParser extends MsgParser {
       }
     }
     dispFilter = sb.toString();
+    
+    // Group parser is sponsored if all of it subparsers are sponsored
+    sponsor = null;
+    for (MsgParser parser : parsers) {
+      String pSponsor = parser.getSponsor();
+      if (pSponsor == null) {
+        sponsor = null;
+        break;
+      } else if (sponsor == null) {
+        sponsor = pSponsor;
+      }
+    }
   }
   
   @Override
@@ -82,4 +96,11 @@ public class GroupBestParser extends MsgParser {
   protected boolean parseMsg(String strMessage, Data data) {
     return false;
   }
+
+  @Override
+  public String getSponsor() {
+    return sponsor;
+  }
+  
+  
 }

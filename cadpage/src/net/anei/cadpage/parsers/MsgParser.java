@@ -10,11 +10,15 @@ import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
-
 /**
  * This class is responsible for parsing useful information from an SMS page message
  */
 public abstract class MsgParser {
+
+  /**
+   * Country code passed to constructor to set up tables for specific countries
+   */
+  public enum CountryCode {US, UK};
   
   /**
    * Parse flag indicates that sender address filtering should not be checked
@@ -45,6 +49,9 @@ public abstract class MsgParser {
   private String defCity;
   private String defState;
   
+  // Parser country code
+  private CountryCode countryCode;
+  
   // Save parse flags so we can check message status from methods that
   // were not passed the parse flags
   private int parseFlags;
@@ -53,8 +60,13 @@ public abstract class MsgParser {
   public static final Pattern NUMERIC = Pattern.compile("\\b\\d+\\b");
   
   public MsgParser(String defCity, String defState) {
+    this(defCity, defState, CountryCode.US);
+  }
+  
+  public MsgParser(String defCity, String defState, CountryCode countryCode) {
     this.defCity = defCity;
     this.defState = defState;
+    this.countryCode = countryCode;
     
     String clsName = this.getClass().getName();
     int ipt = clsName.lastIndexOf('.');
@@ -74,6 +86,13 @@ public abstract class MsgParser {
    */
   public String getDefaultState() {
     return defState;
+  }
+  
+  /**
+   * @return parser country code
+   */
+  public CountryCode getCountryCode() {
+    return countryCode;
   }
   
   /**
@@ -181,10 +200,13 @@ public abstract class MsgParser {
   }
   
   /**
-   * @return sponsor of this user.  A non-null value means someoen else is
+   * @return sponsor of this user.  A non-null value means someone else is
    * paying and we aren't going to bug users for donations.
    */
   public String getSponsor() {
+    
+    // UK locations are free for now
+    if (countryCode == MsgParser.CountryCode.UK) return "UK"; 
     return null;
   }
   

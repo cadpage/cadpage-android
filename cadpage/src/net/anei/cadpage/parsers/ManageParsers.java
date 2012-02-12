@@ -84,7 +84,9 @@ public class ManageParsers {
   private String getParserClassname(String location) {
     
     String pkg = null;
-    if (Character.isUpperCase(location.charAt(1))) {
+    if (location.charAt(0) == 'Z') {
+      pkg = location.substring(0,3);
+    } else if (Character.isUpperCase(location.charAt(1))) {
       pkg = location.substring(0,2);
     } else if (location.startsWith("Dispatch")) {
       pkg = "dispatch";

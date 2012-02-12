@@ -32,6 +32,7 @@ public class MsgInfo {
   private String strTime;
   private String defCity;
   private String defState;
+  private MsgParser.CountryCode countryCode;
   
   // Flag set when parser determines that message is incomplete
   // and another part should be expected
@@ -73,6 +74,7 @@ public class MsgInfo {
     public String strTime = "";
     public String defCity = "";
     public String defState="";
+    public MsgParser.CountryCode countryCode = MsgParser.CountryCode.US;
     
     public boolean expectMore = false;
     
@@ -83,6 +85,7 @@ public class MsgInfo {
       if (parser != null) {
         this.defCity = parser.getDefaultCity();
         this.defState = parser.getDefaultState();
+        this.countryCode = parser.getCountryCode();
       }
     }
     
@@ -148,6 +151,7 @@ public class MsgInfo {
     strTime = info.strTime;
     defCity = info.defCity;
     defState = info.defState;
+    countryCode = info.countryCode;
     expectMore = info.expectMore;
     
     parser = info.parser;
@@ -249,6 +253,13 @@ public class MsgInfo {
       sb.append(",");
       sb.append(state);
     }
+    
+    // Only add country for non-US addresses
+    if (countryCode != MsgParser.CountryCode.US) {
+      sb.append(",");
+      sb.append(countryCode.toString());
+    }
+    
     return sb.toString();
   }
 
@@ -308,6 +319,7 @@ public class MsgInfo {
    * @return base mapping address, which is the adjusted address without
    * the additional city and state information
    */
+  private static final Pattern UK_POST_CODE_PTN = Pattern.compile("^[A-Z]{2}\\d \\d[A-Z]{2} +");
   private static final Pattern DIR_OF_PTN = Pattern.compile(" [NSEW]O ");
   private static final Pattern CROSS_DELIM = Pattern.compile("[&/,@]| - ");
   public String getBaseMapAddress() {
@@ -321,7 +333,17 @@ public class MsgInfo {
       return strBaseMapAddress;
     }
     
+    // UK addresses have a postal code prefix that we don't want to mess with
     String sAddr = strAddress;
+    String prefix = "";
+    if (countryCode == MsgParser.CountryCode.UK){
+      Matcher match = UK_POST_CODE_PTN.matcher(sAddr);
+      if (match.find()) {
+        prefix = sAddr.substring(0,match.end());
+        sAddr = sAddr.substring(match.end());
+      }
+    }
+    
     sAddr = DIR_OF_PTN.matcher(sAddr).replaceAll(" & ");
     sAddr = cleanStreetSuffix(sAddr);
     sAddr = cleanBlock(sAddr);
@@ -334,11 +356,11 @@ public class MsgInfo {
     // Make sure & are surrounded by blanks
     sAddr = sAddr.replaceAll(" *& *", " & ");
     
-    StringBuilder sb = new StringBuilder(sAddr);
-    
     // If there wasn't an address number or intersection marker in address
     // try appending cross street info as as intersection
-    if (!validAddress(sAddr)) {
+    if (validAddress(sAddr)) {
+      sAddr = prefix + sAddr;
+    } else {
       if (strCross.length() > 0) {
         String sCross = strCross;
         Matcher match = CROSS_DELIM.matcher(sCross);
@@ -348,18 +370,21 @@ public class MsgInfo {
         sCross = cleanRoutes(sCross);
         sCross = cleanDoubleRoutes(sCross);
         sCross = cleanInterstate(sCross);
-        sb.append(" & ");
-        sb.append(sCross);
+        sAddr = prefix + sAddr + " & " + sCross;
       }
     
       // If that didn't work, lets hope a place name will be enough
       else if (strPlace.length() > 0) {
-        sb.insert(0, ',');
-        sb.insert(0, strPlace);
+        sAddr  = strPlace + "," + prefix + sAddr;
+      }
+      
+      // else just append prefix
+      else {
+        sAddr = prefix + sAddr;
       }
     }
     
-    strBaseMapAddress = sb.toString().trim();
+    strBaseMapAddress = sAddr.trim();
     return strBaseMapAddress;
 	}
   
@@ -572,7 +597,7 @@ public class MsgInfo {
    * @return true if address is valid standalone address
    * (ie either starts with a house number or contains an intersection marker) 
    */
-  private static final Pattern HOUSE_NO_PTN = Pattern.compile("^(?:[NSEW] +)?\\d+ ");
+  private static final Pattern HOUSE_NO_PTN = Pattern.compile("^(?:[NSEW] +)?\\d+[A-Z]? ", Pattern.CASE_INSENSITIVE);
   private boolean validAddress(String sAddr) {
     if (HOUSE_NO_PTN.matcher(sAddr).find()) return true;;
     if (sAddr.contains("&") || sAddr.contains(" AND ") || sAddr.contains(" and ")) return true; 

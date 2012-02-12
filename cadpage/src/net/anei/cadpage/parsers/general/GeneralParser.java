@@ -5,6 +5,7 @@ import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import net.anei.cadpage.parsers.MsgParser;
 import net.anei.cadpage.parsers.SmartAddressParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
@@ -27,7 +28,11 @@ public class GeneralParser extends SmartAddressParser {
    * Default constructor
    */
   public GeneralParser() {
-    this(null);
+    this("", "", null, CountryCode.US);
+  }
+  
+  public GeneralParser(CountryCode countryCode) {
+    this("", "", null, CountryCode.US);
   }
   
   /**
@@ -35,7 +40,11 @@ public class GeneralParser extends SmartAddressParser {
    * @param delim Special delimiter
    */
   public GeneralParser(String delim) {
-    this("", "", delim);
+    this("", "", delim, CountryCode.US);
+  }
+  
+  public GeneralParser(String delim, CountryCode countryCode) {
+    this("", "", delim, countryCode);
   }
   
   /**
@@ -49,7 +58,12 @@ public class GeneralParser extends SmartAddressParser {
   
   
   public GeneralParser(String defCity, String defState, String delim) {
-    super(defCity, defState);
+    this(defCity, defState, delim, CountryCode.US);
+  }
+  
+  public GeneralParser(String defCity, String defState, 
+                       String delim, CountryCode countryCode) {
+    super(defCity, defState, countryCode);
     
     // Set up delimiter pattern
     String delimPattern = DELIM_PATTERN_STR;
