@@ -1090,6 +1090,58 @@ public class PABucksCountyParserTest extends BaseParserTest {
 
   }
   
+  @Test
+  public void testParser5() {
+
+    doTest("T1",
+        "Subject:1/1\nSQ134 STA60:ATAI\nadr:1235 S TOWNSHIP LINE RD ,36\nbtwn:CHALFONT RD & LIMEKILN PK\nbox:61003\ntm:08:57:03 ED1205458",
+        "CALL:ATAI - ALS TRAFFIC ACCIDENT INJURIES",
+        "BOX:61003",
+        "ADDR:1235 S TOWNSHIP LINE RD",
+        "CITY:HILLTOWN TWP",
+        "X:CHALFONT RD & LIMEKILN PK",
+        "TIME:08:57:03",
+        "ID:ED1205458",
+        "UNIT:SQ134 STA60");
+
+    doTest("T2",
+        "Subject:1/1\nSQ134:AABDO\nadr:10 DUBLIN RD ,36\nbtwn:HILLTOWN PK & PINESIDE DR\nbox:23017 map:2921D4\ntm:13:27:42 ED1205485",
+        "CALL:AABDO - ACUTE ABDOMEN",
+        "BOX:23017",
+        "ADDR:10 DUBLIN RD",
+        "CITY:HILLTOWN TWP",
+        "X:HILLTOWN PK & PINESIDE DR",
+        "MAP:2921D4",
+        "TIME:13:27:42",
+        "ID:ED1205485",
+        "UNIT:SQ134");
+
+    doTest("T3",
+        "Subject:1/1\nSQ134 SQ124:AABDO\nadr:10 DUBLIN RD ,36\nbtwn:HILLTOWN PK & PINESIDE DR\nbox:23017 map:2921D4\ntm:13:27:42 ED1205485",
+        "CALL:AABDO - ACUTE ABDOMEN",
+        "BOX:23017",
+        "ADDR:10 DUBLIN RD",
+        "CITY:HILLTOWN TWP",
+        "X:HILLTOWN PK & PINESIDE DR",
+        "MAP:2921D4",
+        "TIME:13:27:42",
+        "ID:ED1205485",
+        "UNIT:SQ134 SQ124");
+
+    doTest("T4",
+        "911: STA19  type:RAUTO   adr:S MAIN ST/S RT 611 ,29  aai:  box:79025  map:3034K3  tm:23:13:16  FD1201989    Run: R19 E79    \n",
+        "SRC:STA19",
+        "CALL:RAUTO - AUTO EXTRICATION",
+        "BOX:79025",
+        "ADDR:S MAIN ST & S RT 611",
+        "CITY:DOYLESTOWN TWP",
+        "MAP:3034K3",
+        "TIME:23:13:16",
+        "ID:FD1201989",
+        "UNIT:R19 E79");
+    
+  }
+  
   public static void main(String[] args) {
     new PABucksCountyParserTest().generateTests("T1");
   }

@@ -193,6 +193,17 @@ public class MDPrinceGeorgesCountyFireBizParserTest extends BaseParserTest {
         "DATE:02/10",
         "TIME:14:55",
         "INFO:http://fireblitz.com/PG/01/5.shtm");
+
+    doTest("T17",
+        "46: PIA\nE837\nNB HARRY S TRUMAN DR/NEW ORCHARD DR\n02/11 11:07\nhttp://fireblitz.com/PG/37/2.shtm",
+        "SRC:46",
+        "CALL:PIA",
+        "UNIT:E837",
+        "ADDR:NB HARRY S TRUMAN DR & NEW ORCHARD DR",
+        "MADDR:HARRY S TRUMAN DR & NEW ORCHARD DR",
+        "DATE:02/11",
+        "TIME:11:07",
+        "INFO:http://fireblitz.com/PG/37/2.shtm");
   }
   
   public static void main(String[] args) {
