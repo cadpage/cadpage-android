@@ -123,7 +123,6 @@ public class NYSuffolkCountyDParserTest extends BaseParserTest {
         "CALL:FALLS-NOT DANGEROUS BODY AREA",
         "CODE:17-A-1G",
         "ADDR:15D GUILFORD CT",
-        "MADDR:15D GUILFORD CT & BRIDGEWATER DR",
         "X:BRIDGEWATER DR",
         "DATE:10/10",
         "TIME:09:53");

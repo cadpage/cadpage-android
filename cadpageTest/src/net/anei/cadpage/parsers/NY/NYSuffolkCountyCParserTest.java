@@ -208,7 +208,6 @@ public class NYSuffolkCountyCParserTest extends BaseParserTest {
         "INFO:GENERAL FIRE ALARM Residential (multiple)",
         "CODE:52C04",
         "ADDR:700H HEALTH SCIENCES DR",
-        "MADDR:700H HEALTH SCIENCES DR & NICOLLS RD",
         "CITY:STONY BROOK",
         "X:NICOLLS RD",
         "PLACE:CHAPIN APTS",
