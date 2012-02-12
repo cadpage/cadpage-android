@@ -118,12 +118,20 @@ RAUTO  Box:15023\nAdr: CHURCH RD/RT 413 ,26\nbtwn:RT 413 3/4 OF A MILE FROM CHUR
 COALRM Box:05035 adr: 3425 AQUETONG RD ,65 btwn:MECHANICSVILLE RD & SAW MILL RD 01/28/12  15:44:26 FD1201409   Run: C5
 FALRM  Box:05031 adr: 5960 HONEY HOLLOW RD ,65 btwn:STREET RD & DEWEES RD RESID-MINNAUGH 01/29/12  20:16:02 FD1201463   Run: E5
 
+Contact: Ryan Pankoe <rpankoe@gmail.com>
+Sender: alert9693@alert.bucksema.org
+Subject:1/1\nSQ134 STA60:ATAI\nadr:1235 S TOWNSHIP LINE RD ,36\nbtwn:CHALFONT RD & LIMEKILN PK\nbox:61003\ntm:08:57:03 ED1205458
+Subject:1/1\nSQ134:AABDO\nadr:10 DUBLIN RD ,36\nbtwn:HILLTOWN PK & PINESIDE DR\nbox:23017 map:2921D4\ntm:13:27:42 ED1205485
+Subject:1/1\nSQ134 SQ124:AABDO\nadr:10 DUBLIN RD ,36\nbtwn:HILLTOWN PK & PINESIDE DR\nbox:23017 map:2921D4\ntm:13:27:42 ED1205485
+911: STA19  type:RAUTO   adr:S MAIN ST/S RT 611 ,29  aai:  box:79025  map:3034K3  tm:23:13:16  FD1201989    Run: R19 E79    \n
+
  */
 
 
 public class PABucksCountyParser extends FieldProgramParser {
   
   private static final Pattern MARKER1 = Pattern.compile("^[A-Z]+\\s+(?:Adr:|adr:|Box:)");
+  private static final Pattern MARKER2 = Pattern.compile("^([A-Z0-9 ]+):([A-Z]+)\n");
   private static final Pattern NAKED_DATE_TIME = Pattern.compile("(?<!: ?)\\d\\d/\\d\\d/\\d\\d +\\d\\d:\\d\\d:\\d\\d\\b");
   
   public PABucksCountyParser() {
@@ -144,14 +152,26 @@ public class PABucksCountyParser extends FieldProgramParser {
     if (body.endsWith("=")) body = body.substring(0,body.length()-1).trim();
     int pt = body.lastIndexOf('=');
     if (pt >= 100) body = body.substring(0,pt) + body.substring(pt+1);
+    boolean mark2 = false;
     Matcher match = MARKER1.matcher(body);
     if (match.find()) {
-      body = "type:" + body.replace('\n', ' ');
+      body = "type:" + body.replace('\n', ' ').trim();
+    } else {
+      match = MARKER2.matcher(body);
+      if (match.find()) {
+        mark2 = true;
+        body = match.group(1) + " type:" + match.group(2) + " " + body.substring(match.end()).replace('\n', ' ').trim();
+      }
     }
     
     body = NAKED_DATE_TIME.matcher(body).replaceFirst(" tm: $0");
     body = body.replace(" Adr:", " adr:").replaceAll(" s?btwn ", " btwn:").replace(" stype:", " type:").replace(" saai:", " aai:").trim();
-    return super.parseMsg(body, data);
+    if (! super.parseMsg(body, data)) return false;
+    if (mark2 && data.strUnit.length() == 0) {
+      data.strUnit = data.strSource;
+      data.strSource = "";
+    }
+    return true;
   }
   
   private class MyCallField extends CallField {
