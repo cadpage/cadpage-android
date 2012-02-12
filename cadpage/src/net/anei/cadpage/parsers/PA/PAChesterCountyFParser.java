@@ -19,6 +19,10 @@ Sender: cad@oxfordfire.com
 (Dispatch) FIRE POLICE REQUEST * ** EB UNION SCHOOL RD EO CREAM RD ,56   (V) ** LWROXF **  **  ** - ** ASSIST PSP WITH A TRAFFIC CONTROL\n**
 (Dispatch) ACCIDENT - UNKNOWN INJURIES * ** OLD BALTIMORE PK/VILLAGE RD ,57    (V) **  **  **  ** - ** 2 VEH/BLKG ROADWAY/\n**
 
+Contact: Matthew Woolston <matthew.woolston@gmail.com>
+Sender: cad@oxfordfire.com
+(Dispatch) CHIMNEY FIRE * ** 3064 LIMESTONE RD ,44 ** WFALLO **  ** HOSTETTER RD & HIGHVIEW D ** - ** CHIMNEY\nDETAILS TO FOLLOW\n**
+
  */
 
 

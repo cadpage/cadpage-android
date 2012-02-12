@@ -332,6 +332,7 @@ public class PAChesterCountyBaseParser extends FieldProgramParser {
       "POCOPS", "POCOPSON TWP",
       "PNSBRY", "",
       "WESTWN", "WESTTOWN TWP",
+      "WFALLO", "WEST FALLOWFIELD TWP",
       "WGOSHN", "WEST GOSHEN TWP",
       "WGROVE", "WEST GROVE",
       "WILLIS", "WILLISTOWN TWP",
