@@ -319,7 +319,7 @@ public class MsgInfo {
    * @return base mapping address, which is the adjusted address without
    * the additional city and state information
    */
-  private static final Pattern UK_POST_CODE_PTN = Pattern.compile("^[A-Z]{2}\\d \\d[A-Z]{2} +");
+  private static final Pattern UK_POST_CODE_PTN = Pattern.compile("^[A-Z]{1,2}\\d{1,2}[A-Z]? \\d[A-Z]{2} +");
   private static final Pattern DIR_OF_PTN = Pattern.compile(" [NSEW]O ");
   private static final Pattern CROSS_DELIM = Pattern.compile("[&/,@]| - ");
   public String getBaseMapAddress() {

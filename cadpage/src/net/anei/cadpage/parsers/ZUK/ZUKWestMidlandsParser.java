@@ -8,7 +8,8 @@ import net.anei.cadpage.parsers.SmartAddressParser;
 
 /*
 West Midlands, UK
-Contact: "thebattyilike@hotmail.com" <thebattyilike@hotmail.com>
+Contact: richard smith <thebattyilike@hotmail.com>
+Sender: +447624805974
 
 E:1699 (16:45) Unconscious DY8 4JA The Brambles Residential Home 69a Vicarage Road Amblecote Stourbridge (390070,285129)
 E:989 (12:13) Abdo Pain DY8 1HB Highbury House Nursing Home The Old Rectory Parkfield Road Stourbridge (390537,284075)
@@ -26,10 +27,15 @@ E:1075 (11:55) UNK DIAGNOSIS DY8 5UN 56 Brooklands Wordsley Stourbridge (389821,
 public class ZUKWestMidlandsParser extends SmartAddressParser {
 
   private static final Pattern MASTER =
-    Pattern.compile("(E:\\d+) +\\((\\d\\d:\\d\\d)\\) *(.*?) ([A-Z]{2}\\d \\d[A-Z]{2}) +(.*?) +\\((\\d+,\\d+)\\)");
+    Pattern.compile("(E:\\d+) +\\((\\d\\d:\\d\\d)\\) *(.*?) ([A-Z]{1,2}\\d{1,2}[A-Z]? \\d[A-Z]{2}) +(.*?) +\\((\\d+,\\d+)\\)");
 
   public ZUKWestMidlandsParser() {
     super(CITY_LIST, "", "West Midlands", CountryCode.UK);
+  }
+  
+  @Override
+  public String getFilter() {
+    return "447624805974";
   }
 
   @Override
@@ -37,7 +43,7 @@ public class ZUKWestMidlandsParser extends SmartAddressParser {
     Matcher match = MASTER.matcher(body);
     if (!match.matches()) return false;
 
-    data.strUnit = match.group(1);
+    data.strCallId = match.group(1);
     data.strTime = match.group(2);
     data.strCall = match.group(3);
     String sCode = match.group(4);
