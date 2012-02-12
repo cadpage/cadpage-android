@@ -16,7 +16,7 @@ public class ZUKWestMidlandsParserTest extends BaseParserTest {
 
     doTest("T1",
         "E:1699 (16:45) Unconscious DY8 4JA The Brambles Residential Home 69a Vicarage Road Amblecote Stourbridge (390070,285129)",
-        "ID:E:1699",
+        "UNIT:E:1699",
         "TIME:16:45",
         "CALL:Unconscious",
         "PLACE:The Brambles Residential Home",
@@ -26,7 +26,7 @@ public class ZUKWestMidlandsParserTest extends BaseParserTest {
 
     doTest("T2",
         "E:989 (12:13) Abdo Pain DY8 1HB Highbury House Nursing Home The Old Rectory Parkfield Road Stourbridge (390537,284075)",
-        "ID:E:989",
+        "UNIT:E:989",
         "TIME:12:13",
         "CALL:Abdo Pain",
         "PLACE:Highbury House Nursing Home The Old Rectory",
@@ -37,7 +37,7 @@ public class ZUKWestMidlandsParserTest extends BaseParserTest {
 
     doTest("T3",
         "E:1131 (13:07) Allergy DY8 4AT 15 Jardine Close Amblecote Stourbridge (390184,284942)",
-        "ID:E:1131",
+        "UNIT:E:1131",
         "TIME:13:07",
         "CALL:Allergy",
         "ADDR:DY8 4AT 15 Jardine Close",
@@ -46,7 +46,7 @@ public class ZUKWestMidlandsParserTest extends BaseParserTest {
 
     doTest("T4",
         "E:1112 (12:20) UNK DIAGNOSIS DY9 9AE 37 Grove Road Wollescote Stourbridge (392960,283446)",
-        "ID:E:1112",
+        "UNIT:E:1112",
         "TIME:12:20",
         "CALL:UNK DIAGNOSIS",
         "ADDR:DY9 9AE 37 Grove Road",
@@ -55,7 +55,7 @@ public class ZUKWestMidlandsParserTest extends BaseParserTest {
 
     doTest("T5",
         "E:1481 (14:27) Burn DY8 3JS 14 Orwell Close Norton Stourbridge (388565,283699)",
-        "ID:E:1481",
+        "UNIT:E:1481",
         "TIME:14:27",
         "CALL:Burn",
         "ADDR:DY8 3JS 14 Orwell Close",
@@ -64,7 +64,7 @@ public class ZUKWestMidlandsParserTest extends BaseParserTest {
 
     doTest("T6",
         "E:1302 (14:00) UNK DIAGNOSIS DY8 3ER 10 Manor Lane Norton Stourbridge (388759,283434)",
-        "ID:E:1302",
+        "UNIT:E:1302",
         "TIME:14:00",
         "CALL:UNK DIAGNOSIS",
         "ADDR:DY8 3ER 10 Manor Lane",
@@ -73,7 +73,7 @@ public class ZUKWestMidlandsParserTest extends BaseParserTest {
 
     doTest("T7",
         "E:1444 (14:53) Chest Pain DY6 9PG 19 Barnett Green Kingswinford (388879,287721)",
-        "ID:E:1444",
+        "UNIT:E:1444",
         "TIME:14:53",
         "CALL:Chest Pain",
         "ADDR:DY6 9PG 19 Barnett Green",
@@ -82,7 +82,7 @@ public class ZUKWestMidlandsParserTest extends BaseParserTest {
 
     doTest("T8",
         "E:1294 (13:52) Convulsions DY8 4JU 11 Corbett Crescent Amblecote Stourbridge (390356,285008)",
-        "ID:E:1294",
+        "UNIT:E:1294",
         "TIME:13:52",
         "CALL:Convulsions",
         "ADDR:DY8 4JU 11 Corbett Crescent",
@@ -91,7 +91,7 @@ public class ZUKWestMidlandsParserTest extends BaseParserTest {
 
     doTest("T9",
         "E:1517 (15:24) Chest Pain DY6 8JG 15 Wellington Close Kingswinford (389335,287797)",
-        "ID:E:1517",
+        "UNIT:E:1517",
         "TIME:15:24",
         "CALL:Chest Pain",
         "ADDR:DY6 8JG 15 Wellington Close",
@@ -100,7 +100,7 @@ public class ZUKWestMidlandsParserTest extends BaseParserTest {
 
     doTest("T10",
         "E:1642 (16:19) Falls DY9 0QE 17 Brook Crescent Hagley Stourbridge (390590,280007)",
-        "ID:E:1642",
+        "UNIT:E:1642",
         "TIME:16:19",
         "CALL:Falls",
         "ADDR:DY9 0QE 17 Brook Crescent",
@@ -109,7 +109,7 @@ public class ZUKWestMidlandsParserTest extends BaseParserTest {
 
     doTest("T11",
         "E:1075 (11:55) UNK DIAGNOSIS DY8 5UN 56 Brooklands Wordsley Stourbridge (389821,286440)",
-        "ID:E:1075",
+        "UNIT:E:1075",
         "TIME:11:55",
         "CALL:UNK DIAGNOSIS",
         "ADDR:DY8 5UN 56 Brooklands",
