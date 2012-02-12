@@ -86,9 +86,17 @@ public class ORDeschutesCountyParserTest extends BaseParserTest {
         "ADDR:NW 43RD ST & NW LOWER BRIDGE WAY",
         "MAP:1413NW");
 
+    doTest("T10",
+        "Stroke Abnormal breathing -C-271,221- 2 ROGUE LN 17692 ROGUE LN -Map 191129-08:11:41",
+        "CALL:Stroke Abnormal breathing",
+        "PRI:C",
+        "UNIT:271,221",
+        "ADDR:2 ROGUE LN",
+        "MAP:191129");
+
   }
   
   public static void main(String args[]) {
-    new ORDeschutesCountyParserTest().generateTests("T10");
+    new ORDeschutesCountyParserTest().generateTests("T11");
   }
 }
