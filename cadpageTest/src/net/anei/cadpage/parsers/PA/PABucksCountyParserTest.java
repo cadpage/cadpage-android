@@ -1184,6 +1184,29 @@ public class PABucksCountyParserTest extends BaseParserTest {
 
   }
   
+  @Test
+  public void testParser7() {
+
+    doTest("T1",
+        "(#10067  1/2) STA57:FPOL\n" +
+        "adr:1940 GERYVILLE PK ,45\n" +
+        "btwn:SLEEPY HOLLOW RD & TITLOW RD\n" +
+        "box:75001\n" +
+        "tm:18:15:10 FD1202048  Run: FP75 FP",
+
+        "SRC:STA57",
+        "CALL:FPOL - FIRE POLICE REQUEST",
+        "BOX:75001",
+        "ADDR:1940 GERYVILLE PK",
+        "MADDR:1940 GERYVILLE PIKE",
+        "CITY:MILFORD TWP",
+        "X:SLEEPY HOLLOW RD & TITLOW RD",
+        "TIME:18:15:10",
+        "ID:FD1202048",
+        "UNIT:FP75 FP");
+
+  }
+  
   public static void main(String[] args) {
     new PABucksCountyParserTest().generateTests("T1");
   }

@@ -482,6 +482,23 @@ public class COWeldCountyParserTest extends BaseParserTest {
         "UNIT:MV6E",
         "INFO:STN 6 AND 2226.  GENERAL FIRE ALARM AND SMOKE DETECTOR. / BOULDER ADVISING TO CANCEL.  PROPER CODES");
 
+    doTest("T7",
+        "(Dispatch) 22\n" +
+        "SI\n" +
+        "D\n" +
+        "659 GRIMSON PL\n" +
+        "MV6E\n" +
+        "2206\n" +
+        "ProQA Medical Case 10112 Aborted\\2son radio\n" +
+        "ProQA Medical Returned Error 39\\2sCase already on file - Call ID 10112",
+
+        "SRC:MV6",
+        "CALL:SI",
+        "ADDR:659 GRIMSON PL",
+        "CITY:ERIE",
+        "UNIT:MV6E",
+        "INFO:ProQA Medical Case 10112 Aborted\\2son radio / ProQA Medical Returned Error 39\\2sCase already on file - Call ID 10112");
+
   }
   
   public static void  main(String[] args) {
