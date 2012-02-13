@@ -131,6 +131,10 @@ Contact: Jon DiNola <jbdinola@gmail.com>
 Sender: alert_@alert.bucksema.org
 (#9823  1/1) STA0:FEMS\nadr:4008 WALTHAM CT ,42\nbtwn:COVINGTON RD & CUL DE SAC\nbox:80012\ntm:19:07:17 FD1202015  Run: UT80
 
+Contact: "Terry (IT Consulting)" <securetalk@gmail.com>
+Sender: alert_@alert.bucksema.org
+(#10067  1/2) STA57:FPOL\nadr:1940 GERYVILLE PK ,45\nbtwn:SLEEPY HOLLOW RD & TITLOW RD\nbox:75001\ntm:18:15:10 FD1202048  Run: FP75 FP
+
  */
 
 

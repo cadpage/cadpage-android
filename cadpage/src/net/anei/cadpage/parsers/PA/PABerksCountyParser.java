@@ -1,5 +1,6 @@
 package net.anei.cadpage.parsers.PA;
 
+import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -57,13 +58,16 @@ public class PABerksCountyParser extends SmartAddressParser {
   protected boolean parseMsg(String body, Data data) {
 
     // Strip off any prefix
-    int pt = body.indexOf("CAD MSG: ");
+    int pt = body.indexOf("CAD MSG: *D ");
     if (pt < 0) return false;
     body = body.substring(pt);
     
     // Extract primary call description
     if (body.length() < 20) return false;
-    data.strCall = body.substring(9, 20).trim();
+    String call = body.substring(12, 20).trim();
+    String desc = CALL_CODES.getProperty(call);
+    if (desc != null) call = call + " - " + desc;
+    data.strCall = call;
     body = body.substring(20);
     
     // Look for a 4 digit station ID, this marks the end of the address
@@ -188,4 +192,22 @@ public class PABerksCountyParser extends SmartAddressParser {
     /*98*/  "BALLY",
     /*99*/  "HEREFORD TWP"
   };
+  
+  private static final Properties CALL_CODES = buildCodeTable(new String[]{
+      "MVAENT", "Accident w/ entrapment",
+      "MVAUNK", "Accident unknown inj",
+      "MVAWITH", "Accident w/ injury",
+      "SF", "Structure Fire",
+      "RSF", "Reading Structure Fire",
+      "RAFA", "Reading Fire Alarm",
+      "REMERG", "Reading Emerge",
+      "RMISC", "Reading Misc",
+      "RBF", "Reading Brush Fire",
+      "BF", "Brush Fire",
+      "CMA", "Carbon Monoxide",
+      "AFA", "Fire Alarm",
+      "VF", "Vehicle Fire",
+      "FS", "Fire Service",
+      "FSB", "Fire Scene Standby"
+  });
 }
