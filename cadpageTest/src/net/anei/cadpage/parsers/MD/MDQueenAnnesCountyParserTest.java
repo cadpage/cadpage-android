@@ -167,6 +167,17 @@ public class MDQueenAnnesCountyParserTest extends BaseParserTest {
         "BOX:Q04");
   }
   
+  @Test
+  public void testParser5() {
+
+    doTest("T1",
+        "[CAD] D 4-11 ABDOMINAL PAINS 1130 BURRISSVILLE RD Q04",
+        "CALL:4-11 ABDOMINAL PAINS",
+        "ADDR:1130 BURRISSVILLE RD",
+        "BOX:Q04");
+
+  }
+  
   public static void main(String[] args) {
     new MDQueenAnnesCountyParserTest().generateTests("T1", "CALL ADDR PLACE INFO BOX");
   }

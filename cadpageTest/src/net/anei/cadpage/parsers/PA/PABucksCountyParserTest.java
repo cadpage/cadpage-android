@@ -1164,7 +1164,19 @@ public class PABucksCountyParserTest extends BaseParserTest {
         "X:FONTHILL DR & CHAPMAN",
         "MAP:2922J8",
         "TIME:19:44:2");
-    
+
+    doTest("T7",
+        "Subject:1/2\nSQ134 SQ125:ACHESP\nadr:1080 PATRICK PL ,27\nbtwn:LINDENFIELD PY & LINDENFIELD PY\nbox:34028 map:3033G3\ntm:12:27:07 E",
+        "CALL:ACHESP - CHEST PAINS (CARDIAC SYMPT.)",
+        "BOX:34028",
+        "ADDR:1080 PATRICK PL",
+        "CITY:CHALFONT",
+        "X:LINDENFIELD PY & LINDENFIELD PY",
+        "MAP:3033G3",
+        "TIME:12:27:07",
+        "ID:E",
+        "UNIT:SQ134 SQ125");
+     
   }
   
   @Test
@@ -1204,6 +1216,25 @@ public class PABucksCountyParserTest extends BaseParserTest {
         "TIME:18:15:10",
         "ID:FD1202048",
         "UNIT:FP75 FP");
+
+    doTest("T2",
+        "STA53:FALRM\n" +
+        "adr:HARBOUR LIGHTS APT #A ,24 at 1032 RADCLIFFE ST #A ,24\n" +
+        "btwn:JEFFERSON AV & LINCOLN AV\n" +
+        "box:53061\n" +
+        "tm:20:54 FD1202049  Run: E53",
+
+        "SRC:STA53",
+        "CALL:FALRM - FIRE ALARM (LOC)",
+        "BOX:53061",
+        "PLACE:HARBOUR LIGHTS APT #A",
+        "ADDR:1032 RADCLIFFE ST",
+        "APT:A",
+        "CITY:BRISTOL",
+        "X:JEFFERSON AV & LINCOLN AV",
+        "TIME:20:54",
+        "ID:FD1202049",
+        "UNIT:E53");
 
   }
   
