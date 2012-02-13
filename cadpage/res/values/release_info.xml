@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">02092012</string>
-  <string name="release_version">v1.5.14</string>
+  <string name="release_date">02122012</string>
+  <string name="release_version">v1.5.15</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="min_expire_date">10012012</string>
@@ -9,30 +9,24 @@
 What"'"s new in this release\n
 \n
 New Locations:\n
-San Bernardino County, CO\n
-Wayne County, NC\n
+West Midlands Region, UK\n
 \n
 Location Parsing Fixes:\n
-Adams County, CO\n
 Weld County, CO\n
-Daviess County, KY\n
-Burlington County, NJ\n
-Nassau County, NY\n
-Suffolk County, NY\n
-Harnett County, NC\n
-Lincoln County, NC\n
-Marion County, OR\n
+Queen Anne"'"s County, MD\n
+Johnson County, MO\n
+Genesee County, NY\n
+Mecklenburg County, NC\n
+Deschutes County, OR\n
+Linn County, OR\n
+Berks County, PA\n
 Bucks County, PA\n
-Delaware County, PA\n
-Oconee County, SC\n
-Hamilton County, TN\n
-Collin County, TX\n
-Montgomery County, TX\n
-Agusta County, VA\n
+Chester County, PA\n
 \n
 General Fixes:\n
-Link to Paypal payment page was broken\n
-Force close in direct paging discovery logic\n
+Problems with split page merge logic introduced in last release.\n
+Problems picking best result from multiple location settings.\n
+Removed Test Last Message option from Location settings\n
   </string>  
 </resources>
   
