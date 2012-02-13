@@ -39,6 +39,11 @@ public class ZUKWestMidlandsParser extends SmartAddressParser {
   }
 
   @Override
+  public String getLocName() {
+    return "West Midlands Region, UK";
+  }
+
+  @Override
   protected boolean parseMsg(String body, Data data) {
     Matcher match = MASTER.matcher(body);
     if (!match.matches()) return false;

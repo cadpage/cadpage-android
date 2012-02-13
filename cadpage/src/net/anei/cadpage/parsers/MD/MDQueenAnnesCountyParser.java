@@ -47,12 +47,15 @@ Contact: Brett VanZant <chvfd5@gmail.com>
 Sender: rc.165@c-msg.net
 (CAD) [CAD] QA911com:*D 4-1 COMMERCIAL BLDG FIRE 160 COURSEVALL DR @QAC PLANNING & ZONING COMMERCIAL BOX Q04
 
+Contact: "T.J. Palmatary" <tjpalmatary@gmail.com>
+[CAD] D 4-11 ABDOMINAL PAINS 1130 BURRISSVILLE RD Q04
+
 ******************************************************************************/
 
 public class MDQueenAnnesCountyParser extends SmartAddressParser {
   
-  private static final Pattern MARKER = Pattern.compile("^(qac911|QA911com):\\*[DG] ");
-  private static final Pattern BOX_PTN = Pattern.compile("(?: BOX)? ([A-Z]{1,2}\\d{2})$");
+  private static final Pattern MARKER = Pattern.compile("^(?:(?:qac911|QA911com):\\*)?[DG] ");
+  private static final Pattern BOX_PTN = Pattern.compile("\\b(?:BOX )?([A-Z]{1,2}\\d{2})$");
   
   public MDQueenAnnesCountyParser() {
     super("QUEEN ANNES COUNTY", "MD");
@@ -76,12 +79,11 @@ public class MDQueenAnnesCountyParser extends SmartAddressParser {
     // Parse box number from what is left
     String sExtra = getLeft();
     match = BOX_PTN.matcher(sExtra);
-    if (match.find()) {
-      data.strBox = match.group(1);
-      sExtra = sExtra.substring(0, match.start()).trim();
-    }
+    if (!match.find()) return false;
+    data.strBox = match.group(1);
+    sExtra = sExtra.substring(0, match.start()).trim();
     
-    // What is left is usually suplaemtnat info.  But if the smart address parser
+    // What is left is usually supplemental info.  But if the smart address parser
     // picked a place name from the end of the the address, just append what is
     // left to that
     if (data.strPlace.length() > 0) {
