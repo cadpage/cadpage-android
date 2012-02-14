@@ -34,6 +34,17 @@ CAD:TRAFFIC TRANSPORT INCIDENT;MEADOWVIEW DR/FORESTWOOD DR;CORI;[LAW] UDTS: {314
 CAD:110137609;238 STRAIT LN;HILLTOP LN;HICKORY CREEK;LCFD;FIRE STRUCTURE
 CAD:110138525;08/05/2011 17:00:12;FIRE VEHICLE;ORR NISSAN;5650 I35 E;LCFD;brake on fire - sees flame [08/05/11 17:01:04 TPRICE]
 
+CAD:FYI: ;120027784;02/12/2012 23:49:22;TRAFFIC TRANSPORT INCIDENT;458MM I 35 E;LCFD;[Medical Priority Info] RESPONSE: Bravo RESPONDER SCRIPT: Unknown status/O
+CAD:FYI: ;120027776;02/12/2012 23:38:48;FIRE STRUCTURE;1402 CHEYENNE RD;LARAMIE DR;LVFD;2 ALARM [02/12/12 23:41:25 MELLIS] OPS CHANNEL 4 [02/12/12 23:40:31 MEL
+CAD:FYI: ;120027767;02/12/2012 23:05:32;BREATHING PROBLEMS;1652 KNOLL RIDGE CIR;SHADOW CREST DR;LCFD;[Medical Priority Info] RESPONSE: Delta RESPONDER SCRIPT:
+
+**NOT PARSING**
+Sender: lpd@outbounds5.obsmtp.com
+Date : 13 Feb 12 05:42 GMT\nFrom : <lpd@outbounds5.obsmtp.com>\nTo : <9404656680@vtext.com>\n\n1402 CHEYENNE HOLDING AT 2 ALARM
+Date : 13 Feb 12 05:27 GMT\nFrom : <lpd@outbounds5.obsmtp.com>\nTo : <9404656680@vtext.com>\n\nM161 OUT SMOKE COMING FROM THE CHIMNEY AND SMOKE INSIDE THE HOU
+Date : 13 Feb 12 05:21 GMT\nFrom : <lpd@outbounds5.obsmtp.com>\nTo : <9404656680@vtext.com>\n\n1402 CHEYENNE RD*****FIRE****B160,CHIEF,E161,E162,E164,M161,T1
+
+
  */
 
 public class TXDentonCountyParser extends DispatchOSSIParser {
@@ -41,6 +52,7 @@ public class TXDentonCountyParser extends DispatchOSSIParser {
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "CORI", "CORINTH",
       "LAKE", "LAKE DALLAS",
+      "LVFD", "LEWISVILLE",
       "HICK", "HICKORY CREEK",
       "SHAD", "SHADY SHORES",
       "LCFD", ""
@@ -48,7 +60,7 @@ public class TXDentonCountyParser extends DispatchOSSIParser {
   
   public TXDentonCountyParser() {
     super(CITY_CODES, "DENTON COUNTY", "TX",
-          "( ID ( DATIME CALL NAME ADDR CITY INFO+ | ADDR X X CITY CALL ) | CALL ADDR CITY INFO+ )");
+          "FYI? ( ID ( DATIME CALL NAME ADDR CITY INFO+ | ADDR X X CITY CALL ) | CALL ADDR CITY INFO+ )");
   }
   
   @Override

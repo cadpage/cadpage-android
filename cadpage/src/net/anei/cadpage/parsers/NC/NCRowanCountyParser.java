@@ -67,7 +67,6 @@ Contact: support@active911.com
 First 4 in Cooleemee, Davies County
 Last could be Nellie dr in Davidson County
 
-
 */
 
 public class NCRowanCountyParser extends DispatchOSSIParser {
