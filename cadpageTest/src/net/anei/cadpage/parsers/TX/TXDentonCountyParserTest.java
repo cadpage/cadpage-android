@@ -199,9 +199,35 @@ public class TXDentonCountyParserTest extends BaseParserTest {
         "INFO:brake on fire - sees flame",
         "DATE:08/05/11",
         "TIME:17:01:04");
+
+    doTest("T3",
+        "CAD:FYI: ;120027784;02/12/2012 23:49:22;TRAFFIC TRANSPORT INCIDENT;458MM I 35 E;LCFD;[Medical Priority Info] RESPONSE: Bravo RESPONDER SCRIPT: Unknown status/O",
+        "ID:120027784",
+        "CALL:TRAFFIC TRANSPORT INCIDENT",
+        "NAME:458MM I 35 E",
+        "ADDR:LCFD",
+        "INFO:Unknown status/O");
+
+    doTest("T4",
+        "CAD:FYI: ;120027776;02/12/2012 23:38:48;FIRE STRUCTURE;1402 CHEYENNE RD;LARAMIE DR;LVFD;2 ALARM [02/12/12 23:41:25 MELLIS] OPS CHANNEL 4 [02/12/12 23:40:31 MEL",
+        "ID:120027776",
+        "CALL:FIRE STRUCTURE",
+        "NAME:1402 CHEYENNE RD",
+        "ADDR:LARAMIE DR",
+        "CITY:LEWISVILLE",
+        "INFO:2 ALARM / OPS CHANNEL 4",
+        "DATE:02/12/12",
+        "TIME:23:41:25");
+
+    doTest("T5",
+        "CAD:FYI: ;120027767;02/12/2012 23:05:32;BREATHING PROBLEMS;1652 KNOLL RIDGE CIR;SHADOW CREST DR;LCFD;[Medical Priority Info] RESPONSE: Delta RESPONDER SCRIPT:",
+        "ID:120027767",
+        "CALL:BREATHING PROBLEMS",
+        "NAME:1652 KNOLL RIDGE CIR",
+        "ADDR:SHADOW CREST DR");
   }
   
   public static void main(String[] args) {
-    new TXDentonCountyParserTest().generateTests("T1");
+    new TXDentonCountyParserTest().generateTests("T3");
   }
 }
