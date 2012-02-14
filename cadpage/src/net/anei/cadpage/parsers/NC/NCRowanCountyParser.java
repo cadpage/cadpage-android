@@ -55,6 +55,7 @@ Contact: Andrew King <aking.salisburyfire@gmail.com>
 Sender: CAD@co.rowan.nc.us
 CAD:FYI: ;HAZMAT LEVEL 1;1625 N JACKSON ST;SALS;W 15TH ST;S ROWAN AV;301
 
+Out of County mutual aid calls
 Contact: support@active911.com
 [] CAD:FIRE ALARM ACTIVATION;136 MARGINAL ST;COOLEEMEE ELEM SCHOOL\n
 [] CAD:FIRE ALARM ACTIVATION;136 MARGINAL ST;COOLEEMEE ELEMENTARY SCHOOL\n
@@ -63,32 +64,17 @@ Contact: support@active911.com
 [] CAD:CANCEL;252 WATT ST\n
 [] CAD:FIRE ALARM ACTIVATION;264 NOLLIE DR;JOCKEY\n
 
+First 4 in Cooleemee, Davies County
+Last could be Nellie dr in Davidson County
+
+
 */
 
 public class NCRowanCountyParser extends DispatchOSSIParser {
   
-  private static final Properties CITY_CODES = buildCodeTable(new String[]{
-      "CHGV", "CHINA GROVE",
-      "CLEV", "CLEVELAND",
-      "CLVD", "CLEVELAND",
-      "ESPN", "EAST SPENCER",
-      "FATH", "FAITH",
-      "GOLD", "GOLD HILL",
-      "GRQY", "GRANITE QUARRY",
-      "KANN", "KANNAPOLIS",
-      "LAND", "LANDIS",
-      "MOCK", "MOCKSVILLE",
-      "MOOR", "MOORESVILLE",
-      "MTUL", "MT ULLA",
-      "ROCK", "ROCKWELL",
-      "SALS", "SALISBURY",
-      "SPEN", "SPENCER",
-      "WOOD", "WOODLEAF"
-  }); 
-  
   public NCRowanCountyParser() {
     super(CITY_CODES, "ROWAN COUNTY", "NC",
-           "FYI? CALL ADDR X/Z+? CITY! XPLACE+? UNIT? CH");
+           "FYI? CALL ADDR ( OPTPLACE INFO+ | X/Z+? CITY XPLACE+? UNIT? CH )");
   }
   
   @Override
@@ -98,13 +84,63 @@ public class NCRowanCountyParser extends DispatchOSSIParser {
   
   @Override
   protected boolean parseMsg(String body, Data data) {
-    if (!body.startsWith("CAD:")) body = "CAD:" + body;
-    return super.parseMsg(body, data);
+    boolean ok = body.startsWith("CAD:");
+    if (!ok) body = "CAD:" + body;
+    if (!super.parseMsg(body, data)) return false;
+    
+    // If we never got a city, assume this is an out of county mutual aid call
+    // If we didn't have the CAD: prefix and don't have a city, this is just
+    // to chancy to accept
+    if (data.strCity.length() == 0) {
+      if (!ok) return false;
+      data.defCity = "";
+    }
+    return true;
+  }
+  
+  // Special place field that only triggers if there is no city field
+  // further downstream.  This indicates an out of county mutual aid call
+  private class OptionalPlaceField extends PlaceField {
+    
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      
+      // Only valid if we detect a downstream city field (length <= 4)
+      for (int ndx = 0; ; ndx++) {
+        String fld = getRelativeField(ndx);
+        if (fld.length() == 0) break;
+        if (fld.length() <= 4) return false;
+      }
+      parse(field, data);
+      
+      // We don't know what county this is, but we now it is not Rowan County
+      return true;
+    }
+      
+    
   }
   
   // City field is required, and must be found in table to rule out
   // similar transactions from other locations
   private class MyCityField extends CityField {
+    
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      if (field.length() > 4) return false;
+      parse(field, data);
+      return true;
+    }
+    
     @Override
     public void parse(String field, Data data) {
       super.parse(field, data);
@@ -144,9 +180,29 @@ public class NCRowanCountyParser extends DispatchOSSIParser {
   @Override
   protected Field getField(String name) {
     if (name.equals("FYI")) return new SkipField("FYI:|UPDATE:");
+    if (name.equals("OPTPLACE")) return new OptionalPlaceField();
     if (name.equals("CITY")) return new MyCityField();
     if (name.equals("XPLACE")) return new MyCrossPlaceField();
     if (name.equals("UNIT")) return new UnitField("\\d{4}", true);
     return super.getField(name);
   }
+  
+  private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "CHGV", "CHINA GROVE",
+      "CLEV", "CLEVELAND",
+      "CLVD", "CLEVELAND",
+      "ESPN", "EAST SPENCER",
+      "FATH", "FAITH",
+      "GOLD", "GOLD HILL",
+      "GRQY", "GRANITE QUARRY",
+      "KANN", "KANNAPOLIS",
+      "LAND", "LANDIS",
+      "MOCK", "MOCKSVILLE",
+      "MOOR", "MOORESVILLE",
+      "MTUL", "MT ULLA",
+      "ROCK", "ROCKWELL",
+      "SALS", "SALISBURY",
+      "SPEN", "SPENCER",
+      "WOOD", "WOODLEAF"
+  }); 
 }
