@@ -451,7 +451,7 @@ public class SmsMmsMessage implements Serializable {
     // a successful isPageMsg call
     if (location != null && location.startsWith("General")) {
       String curLocCode = ManagePreferences.location();
-      if (! curLocCode.startsWith("General")) {
+      if (! curLocCode.startsWith("General") || curLocCode.contains(",")) {
         if (ManageParsers.getInstance().getParser(curLocCode).isPageMsg(parseInfo, MsgParser.PARSE_FLG_SKIP_FILTER)) {
           return parseInfo.getInfo();
         }
