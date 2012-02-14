@@ -213,8 +213,48 @@ public class NCRowanCountyParserTest extends BaseParserTest {
         "CH:301");
  }
   
+  @Test
+  public void testOutOfCounty() {
+    
+    setDefaults("", "NC");
+
+    doTest("T1",
+        "[] CAD:FIRE ALARM ACTIVATION;136 MARGINAL ST;COOLEEMEE ELEM SCHOOL\n",
+        "CALL:FIRE ALARM ACTIVATION",
+        "ADDR:136 MARGINAL ST",
+        "PLACE:COOLEEMEE ELEM SCHOOL");
+
+    doTest("T2",
+        "[] CAD:FIRE ALARM ACTIVATION;136 MARGINAL ST;COOLEEMEE ELEMENTARY SCHOOL\n",
+        "CALL:FIRE ALARM ACTIVATION",
+        "ADDR:136 MARGINAL ST",
+        "PLACE:COOLEEMEE ELEMENTARY SCHOOL");
+
+    doTest("T3",
+        "[] CAD:FIRE ALARM ACTIVATION;136 MARGIN ST\n",
+        "CALL:FIRE ALARM ACTIVATION",
+        "ADDR:136 MARGIN ST");
+
+    doTest("T4",
+        "[] CAD:SMOKE VISABLE IN STRUCTURE;252 WATT ST\n",
+        "CALL:SMOKE VISABLE IN STRUCTURE",
+        "ADDR:252 WATT ST");
+
+    doTest("T5",
+        "[] CAD:CANCEL;252 WATT ST\n",
+        "CALL:CANCEL",
+        "ADDR:252 WATT ST");
+
+    doTest("T6",
+        "[] CAD:FIRE ALARM ACTIVATION;264 NOLLIE DR;JOCKEY\n",
+        "CALL:FIRE ALARM ACTIVATION",
+        "ADDR:264 NOLLIE DR",
+        "PLACE:JOCKEY");
+      
+  }
+  
 
   public static void main(String[] args) {
-    new NCRowanCountyParserTest().generateTests("T23");
+    new NCRowanCountyParserTest().generateTests("T1");
   }
 }
