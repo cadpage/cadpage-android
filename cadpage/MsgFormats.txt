@@ -3740,11 +3740,6 @@ UNCONSCIOUS PERSON ** 110 FENNELL ST ** APT B IN BACK ** FOEHL, MARY KAY **
 Dispatch ** 09:27 ** CHEST PAIN POSSIBLE HEART ** 43 W ELIZABETH ST ** - ** FORD,KATHY ** (315) 214-5 **
 Dispatch ** 01:27 ** UNCONSCIOUS PERSON ** 17  PRENTISS DR ** - ** SAVAGE-CANTY MA ** (315) 685-5 **
 **********************************************************
-Geauga County, OH (alternate)
-Contact: Courtney Sanders <csanders3217@gmail.com>
-Sender: 69310
-medical alarm general unit c 17111 munn rd
-**********************************************************
 Unknown,
 Contact: Randy Callahan <randy.callahan@csuglobal.edu>
 Sender: DoNotReply@Emergin.com
@@ -3766,15 +3761,6 @@ MEDICAL CALL - NON-EMERGENCY 163 COPPERHEAD RD - STAGE UNTIL LAW ENFORCEMENT ON 
 GRASS FIRE     3271 FOWLER RD, LOVETOWN ....C19
 C'WOOD RESCUE REQ LIFTING ASSISTANCE AT 456 HOUSTON ST
 **********************************************************
-Geauga County, OH (alternate)
-Contact: Courtney Sanders <csanders3217@gmail.com>
-Sender: 69310 
-Munn/Crackel MVA elderly male disoriented
-Auburn & Stafford/ One car MVA
-rescue 15720 Nash Rd for 44 yo male sudden illness. 2800
-10780 STELLA LN 6 MONTH OLD BABY LATHARGIC
-10592 Longview Trl for a 2 YOM possible CROUP.
-**********************************************************
 Boone County, KY
 Contact: "rbailey74@gmail.com" <rbailey74@gmail.com>, 8597435533@messaging.sprintpcs.com
 Sender: pscc@boonecountyky.org
@@ -3790,21 +3776,6 @@ Contact: Craig Spry <kcspry@gmail.com>
 Sender: paging@rcscom.com
 Subject:Incoming Message\n9717 Tidal Ct                           STANDBY LAND SEARCH           Bravo               42- Fire/Police
 **********************************************************
-Weld County, CO (replace or alternate?)
-Contact; Ryan Fuller <rfuller131@gmail.com>
-Sender: 777
-" " 24\nSIPF\nD\n3211 LUPTON AVE\nEV\n24\nMOM IS NOT WAKING UP 0000 Confirm 0001 Refuse TXT STOP to opt-out
-" " 36\nTAU\nD\nWCR 21\nPL\n36\n4DR SD DOWN IN DITCH\nProQA Medical Recommended Dispatch Level = 29B04U\nYou are responding to patients involved in a traffic incident.  (If TXT STOP to opt-out
-" " known -- relay  spertinent patient-specific information.) Unknown status/Other codes n TXT STOP to opt-out
-
-Contact: Greg McGinn <GMcGinn@ftluptonfire.com>
- " " 26\nTAU\nD\nHWY 85 SB\nFL\n26\nRED CHEVY BLAZER VS WHITE FORD EXPLORER.  EXPLORER LOST CONTROL\nProQA Medical Recommended Dispatch Level = 29B04U\nYou are responding to TXT STOP to opt-out
- " " patients involved in a traffic incident.  (If known -- relay  pertinent patient-speci TXT STOP to opt-out
-
- " " responding to patients involved in a traffic incident.  (If known -- relay  pertinent patien TXT STOP to opt-out
- " " 26\nTAU\nD\nWCR 18\nFL\n26D\nVEH IN THE DITCH LIGHTS STILL ON - RP COULD NOT STOP. VEH IS A DRK SEDAN\nProQA Medical Recommended Dispatch Level = 29B04U\nYou are TXT STOP to opt-out
- " " 26\nTAU\nD\nHWY 52\nFL\n26A\nSB** RP SEEN A BLK CAR POSS 4 DR CAR GO OFF THE RD AND DOWN EMBANKMENT, RP JUST\nPASSED BY TXT STOP to opt-out
-**********************************************************
 Delaware County, PA
 Contact: Thomas Dobbins <tdobbins53@gmail.com>
 Sender: bfc53@comcast.net
@@ -3815,6 +3786,23 @@ Contact: Boz Williams <bozw41@gmail.com>
 Sender: DISPATCH@co.starke.in.us
 MSG:DISPATCH:VFD:WTFD - 8161 MEDICAL/9660, E STATE ROAD 8,KNOX
 **********************************************************
+Robeson County, NC
+Contact: jimmy wallace <jimwall63@gmail.com>
+Sender: CAD@robesoncoso.org
+CAD:BREATHING PROBLEMS;006;5812 NC71 HWY N;REV BILL RD;ARTHUR RD;12002171;[Medical Priority Info] PROBLEM: BREATHING TROUBLE # PATS: 1 AGE: 36 Years SEX: Female
+**********************************************************
+Unknown,
+Contact: Joseph L Corbin Jr <jcorbinjr@gmail.com>
+Sender: 911@ci.ravenna.oh.us
+*general parser won't work*
+911@ci.ravenna.oh.us:* 15_edinburg_general29,MEDICAL EMERGENCY *\n3594,INDRUSTRY RD, * ,ROOTSTOWN * 89YOA MALE OXYGEN MACHINE BROKEN,\nTROU
+911@ci.ravenna.oh.us:* 15_edinburg_general29,MEDICAL EMERGENCY * 4265,ROCK SPRING RD, * ,Ravenna * 53 YR OLD MALE DIFFICULTY BREATHING, PO
+**********************************************************
+Weld County, CO (alternate or replacement)
+Contact: 19703712539@tmomail.net
+Contact: Doug Gilliland <dgilliland88@gmail.com>
+Dispatch / GFD \nSI\n3206 70TH AVE\nGF5\nE5\nchest pain\n
+GFD\nSI\n5436 24TH ST\nGF5\nE5\nHUSBAND FELL, RP NOT ON SCENE\nProQA Medical Recommended Dispatch Level = 17A03G\nYou are responding to a patient involved in a fall. 
 **********************************************************
 **********************************************************
 ************  READY TO ROLL ******************************
@@ -4113,6 +4101,15 @@ HIGHS @5655 TELEGRAPH RD
 ACROSS FROM THE HIGHS STORE DR 
 **********************************************************
 Geauga County, OH (alternate)
+Contact: Courtney Sanders <csanders3217@gmail.com>
+Sender: 69310 
+medical alarm general unit c 17111 munn rd
+Munn/Crackel MVA elderly male disoriented
+Auburn & Stafford/ One car MVA
+rescue 15720 Nash Rd for 44 yo male sudden illness. 2800
+10780 STELLA LN 6 MONTH OLD BABY LATHARGIC
+10592 Longview Trl for a 2 YOM possible CROUP.
+
 Contact:David Schantz <hfd3607@gmail.com>
 Sender: 69310
 
@@ -4444,3 +4441,11 @@ SMS / 725 12011269 Disp:16:59:20 Enroute:16:59:27 On Scene:17:26:43 To Hosp:17:4
 kanawawha County, WV
 Contact: support@active911.com
 https://www.active911.com/interface/parser_report.php?key=100-VCUPI
+**********************************************************
+York County, ME (replacement)
+Contact: Sean Perkins <sperkins@waterborofire.org>
+Sender: dispatch@sanfordmaine.org
+(Sanford RCC Page) MEDICAL EMERGENCY\nGOODALL HOSPITAL URGENT CARE/PHARMACY\n10 GOODALL DR \nWaterboro\n2/13/2012 16:59
+(Sanford RCC Page) MEDICAL EMERGENCY\n22 COYNE RD \nWaterboro\n2/13/2012 10:51
+(Sanford RCC Page) FIRE, OTHER\n23 BACK ST \nWaterboro\n2/13/2012 18:58
+(Sanford RCC Page) MEDICAL EMERGENCY\n50 SANFORD RD \nWaterboro\n2/14/2012 14:53

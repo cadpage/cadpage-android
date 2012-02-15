@@ -38,13 +38,6 @@ CAD:FYI: ;120027784;02/12/2012 23:49:22;TRAFFIC TRANSPORT INCIDENT;458MM I 35 E;
 CAD:FYI: ;120027776;02/12/2012 23:38:48;FIRE STRUCTURE;1402 CHEYENNE RD;LARAMIE DR;LVFD;2 ALARM [02/12/12 23:41:25 MELLIS] OPS CHANNEL 4 [02/12/12 23:40:31 MEL
 CAD:FYI: ;120027767;02/12/2012 23:05:32;BREATHING PROBLEMS;1652 KNOLL RIDGE CIR;SHADOW CREST DR;LCFD;[Medical Priority Info] RESPONSE: Delta RESPONDER SCRIPT:
 
-**NOT PARSING**
-Sender: lpd@outbounds5.obsmtp.com
-Date : 13 Feb 12 05:42 GMT\nFrom : <lpd@outbounds5.obsmtp.com>\nTo : <9404656680@vtext.com>\n\n1402 CHEYENNE HOLDING AT 2 ALARM
-Date : 13 Feb 12 05:27 GMT\nFrom : <lpd@outbounds5.obsmtp.com>\nTo : <9404656680@vtext.com>\n\nM161 OUT SMOKE COMING FROM THE CHIMNEY AND SMOKE INSIDE THE HOU
-Date : 13 Feb 12 05:21 GMT\nFrom : <lpd@outbounds5.obsmtp.com>\nTo : <9404656680@vtext.com>\n\n1402 CHEYENNE RD*****FIRE****B160,CHIEF,E161,E162,E164,M161,T1
-
-
  */
 
 public class TXDentonCountyParser extends DispatchOSSIParser {
@@ -60,7 +53,7 @@ public class TXDentonCountyParser extends DispatchOSSIParser {
   
   public TXDentonCountyParser() {
     super(CITY_CODES, "DENTON COUNTY", "TX",
-          "FYI? ( ID ( DATIME CALL NAME ADDR CITY INFO+ | ADDR X X CITY CALL ) | CALL ADDR CITY INFO+ )");
+          "FYI? ( ID ( DATIME CALL ( ADDR/Z CITY | NAME ADDR CITY ) INFO+ | ADDR X X CITY CALL ) | CALL ADDR CITY INFO+ )");
   }
   
   @Override
@@ -74,12 +67,6 @@ public class TXDentonCountyParser extends DispatchOSSIParser {
     }
   }
   
-  private class DateTimeField extends SkipField {
-    public DateTimeField() {
-      setPattern(Pattern.compile("\\d\\d/\\d\\d/\\d{4} \\d\\d:\\d\\d:\\d\\d"));
-    }
-  }
-  
   private static final Pattern SERV_PTN = Pattern.compile("\\bSERV\\b");
   private class MyAddressField extends AddressField {
     @Override
@@ -89,11 +76,27 @@ public class TXDentonCountyParser extends DispatchOSSIParser {
     }
   }
   
+  private static final Pattern CITY_PTN = Pattern.compile("[A-Z]{4}");
+  private class MyCityField extends CityField {
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      if (!CITY_PTN.matcher(field).matches()) return false;
+      parse(field, data);
+      return true;
+    }
+  }
+  
   @Override
   public Field getField(String name) {
     if (name.equals("ID")) return new MyIdField();
-    if (name.equals("DATIME")) return new DateTimeField();
+    if (name.equals("DATIME")) return new DateTimeField("\\d\\d/\\d\\d/\\d{4} \\d\\d:\\d\\d:\\d\\d");
     if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("CITY")) return new MyCityField();
     return super.getField(name);
   }
 }
