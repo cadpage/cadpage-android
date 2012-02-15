@@ -3804,6 +3804,9 @@ Contact: Doug Gilliland <dgilliland88@gmail.com>
 Dispatch / GFD \nSI\n3206 70TH AVE\nGF5\nE5\nchest pain\n
 GFD\nSI\n5436 24TH ST\nGF5\nE5\nHUSBAND FELL, RP NOT ON SCENE\nProQA Medical Recommended Dispatch Level = 17A03G\nYou are responding to a patient involved in a fall. 
 **********************************************************
+Burlington County, NJ (alternage?)
+Contact: John Hamilton <skinink66@gmail.com>
+[MLCAD] EMS E EMS Call Loc: 5142 CHURCH RD Ven: Mt Laurel XS: PREAKNESS DR/SHARP RD Nature: SON IS CHOKING // 15:44:31 02/14/2012
 **********************************************************
 ************  READY TO ROLL ******************************
 **********************************************************

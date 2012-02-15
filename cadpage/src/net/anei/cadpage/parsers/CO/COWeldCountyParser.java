@@ -58,7 +58,7 @@ public class COWeldCountyParser extends FieldProgramParser {
 
   public COWeldCountyParser() {
     super(CITY_CODES, "WELD COUNTY", "CO",
-          "SRC? CALL D ADDR CITY UNIT! INFO+");
+          "SRC CALL D ADDR CITY UNIT! INFO+");
   }
   
   @Override
@@ -155,7 +155,6 @@ public class COWeldCountyParser extends FieldProgramParser {
   
   @Override
   public Field getField(String name) {
-    if (name.equals("SRC")) return new SourceField("\\d\\d");
     if (name.equals("D")) return new SkipField("D", true);
     if (name.equals("ADDR")) return new MyAddressField();
     if (name.equals("CITY")) return new MyCityField();

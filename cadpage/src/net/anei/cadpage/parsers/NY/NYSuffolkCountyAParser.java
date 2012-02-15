@@ -64,6 +64,10 @@ Contact: Stuart NOHEJO <stupman1975@gmail.com>
 Sender: paging@scfres.com
 TYPE: HEADACHE LOC: 68 FOREST AV SHIRLE  CROSS: DAWN DR / WINSTON DR CODE: 18-C-2 TIME: 16:09:54\n\n
 
+Contact: PJ Llobell <pllobell@gmail.com>
+Sender: paging@scfres.com
+TYPE: RESPIRATORY LOC: 16 TEAL CRSN GREATR   CROSS:  / WIDGEON CT CODE: 6-D-1 TIME: 15:59:03
+
 */
 
 public class NYSuffolkCountyAParser extends SmartAddressParser {
@@ -77,6 +81,7 @@ public class NYSuffolkCountyAParser extends SmartAddressParser {
       "DIXHIL", "Dix Hills",
       "EMORIC", "East Moriches",
       "EPATCH", "East Patchogue",
+      "GREATR", "Great River",
       "GREENL", "Greenlawn",
       "HUNTIN", "Huntington",
       "HUNTIS", "Huntington Station",
