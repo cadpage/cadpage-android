@@ -3798,12 +3798,6 @@ Sender: 911@ci.ravenna.oh.us
 911@ci.ravenna.oh.us:* 15_edinburg_general29,MEDICAL EMERGENCY *\n3594,INDRUSTRY RD, * ,ROOTSTOWN * 89YOA MALE OXYGEN MACHINE BROKEN,\nTROU
 911@ci.ravenna.oh.us:* 15_edinburg_general29,MEDICAL EMERGENCY * 4265,ROCK SPRING RD, * ,Ravenna * 53 YR OLD MALE DIFFICULTY BREATHING, PO
 **********************************************************
-Weld County, CO (alternate)
-Contact: 19703712539@tmomail.net
-Contact: Doug Gilliland <dgilliland88@gmail.com>
-Dispatch / GFD \nSI\n3206 70TH AVE\nGF5\nE5\nchest pain\n
-GFD\nSI\n5436 24TH ST\nGF5\nE5\nHUSBAND FELL, RP NOT ON SCENE\nProQA Medical Recommended Dispatch Level = 17A03G\nYou are responding to a patient involved in a fall. 
-**********************************************************
 Burlington County, NJ (alternage?)
 Contact: John Hamilton <skinink66@gmail.com>
 [MLCAD] EMS E EMS Call Loc: 5142 CHURCH RD Ven: Mt Laurel XS: PREAKNESS DR/SHARP RD Nature: SON IS CHOKING // 15:44:31 02/14/2012
@@ -3812,8 +3806,9 @@ Contact: Robert Allen <rallen7779@gmail.com>
 Sender: chief1300@comcast.net
 Messenger 911 / [Update]\n18:43:42\n133 E TrfcEntp\n5010\nSOUTH AV\nPINE ST\nPINE ST\n
 Messenger 911 / 18:43:42\n129 E AccInjry\n5010\nSOUTH AV\nPINE ST\nPINE ST\n
-
-**********************************************************
+Messenger 911 / [Update]\n22:39:55\n16 F Alarms\n1321\n691 EAYRESTOWN RD\nMUNICIPAL DR/RT38\n609.267.1224/GENERAL ALARM
+Messenger 911 / 14:29:55\n132 E UnkMedEmrg\n1310\n4 HEMSING DR\nMAIN ST/ESTATE RD\nMALE WITH FOOT INJURY\nWPH2:
+*********************************************************
 **********************************************************
 **********************************************************
 ************  READY TO ROLL ******************************
@@ -4461,3 +4456,11 @@ Sender: dispatch@sanfordmaine.org
 (Sanford RCC Page) FIRE, OTHER\n23 BACK ST \nWaterboro\n2/13/2012 18:58
 (Sanford RCC Page) MEDICAL EMERGENCY\n50 SANFORD RD \nWaterboro\n2/14/2012 14:53
 (Sanford RCC Page) MEDICAL EMERGENCY\n77 SOKOKIS TRL \nWaterboro\n2/14/2012 20:07
+(Sanford RCC Page) MEDICAL EMERGENCY\n22 MILL POND RD \nWaterboro\n2/15/2012 09:19
+**********************************************************
+Weld County, CO (alternate)
+Contact: 19703712539@tmomail.net
+Contact: Doug Gilliland <dgilliland88@gmail.com>
+Dispatch / GFD \nSI\n3206 70TH AVE\nGF5\nE5\nchest pain\n
+GFD\nSI\n5436 24TH ST\nGF5\nE5\nHUSBAND FELL, RP NOT ON SCENE\nProQA Medical Recommended Dispatch Level = 17A03G\nYou are responding to a patient involved in a fall. 
+BCOF\nSI\nD\n3722 MONTEREY PL\nBORUF\n2224\nWILL BE A TRANSPORT FOR M1 ...FEMALE IN HER MID 20'S..ENTER THE DOOR ON THELEFT\nSIDE OF THE HOUSE SLIDING GLASS DOORS &
