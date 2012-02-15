@@ -798,7 +798,7 @@ public class PABucksCountyParserTest extends BaseParserTest {
   }
   
   @Test
-  public void testParser1() {
+  public void testParserPatrick() {
 
     doTest("T1",
         "(#6331  1/1) FDWL\n" +
@@ -988,6 +988,37 @@ public class PABucksCountyParserTest extends BaseParserTest {
         "TIME:11:11:13",
         "ID:ED1205059");
 
+    doTest("T8",
+        "Subject:1/1\n" +
+        "SQ125 SQ134:ACVA\n" +
+        "adr:216 UNION ST ,28\n" +
+        "btwn:HARVEY AV & N HAMILTON ST\n" +
+        "aai:\"ALLEN GREER\" RESD 215 348 1001\n" +
+        "box:1901ap:2922H10\n" +
+        "tm:06:34:10 ED1205674",
+
+        "CALL:ACVA - CVA/STROKE",
+        "BOX:1901ap:2922H10",
+        "ADDR:216 UNION ST",
+        "CITY:DOYLESTOWN",
+        "X:HARVEY AV & N HAMILTON ST",
+        "INFO:\"ALLEN GREER\" RESD 215 348 1001",
+        "TIME:06:34:10",
+        "ID:ED1205674",
+        "UNIT:SQ125 SQ134");
+
+    doTest("T9",
+        "Subject:1/1\nSQ134:AFALL\nadr:10 DUBLIN RD ,36\nbtwn:HILLTOWN PK & PINESIDE DR\nbox:23017 map:2921D4\ntm:18:47:44 ED1205765",
+        "CALL:AFALL - FALL VICTIM - CRITICAL",
+        "BOX:23017",
+        "ADDR:10 DUBLIN RD",
+        "CITY:HILLTOWN TWP",
+        "X:HILLTOWN PK & PINESIDE DR",
+        "MAP:2921D4",
+        "TIME:18:47:44",
+        "ID:ED1205765",
+        "UNIT:SQ134");
+
   }
   
   @Test
@@ -1046,6 +1077,28 @@ public class PABucksCountyParserTest extends BaseParserTest {
         "TIME:13:07:04",
         "ID:FD1201397",
         "UNIT:E4-1");
+
+    doTest("T1",
+        "FRM:Bucks RSAN\n" +
+        "SUBJ:1/1\n" +
+        "MSG:STA1 STA65 STA2 STA4 STA3:FAPT\n" +
+        "adr:400 E STREET RD ,43 -- CROFTWOOD APT\n" +
+        "btwn:CENTRAL AV & STERNER MILL RD\n" +
+        "aai:BUILDI=NG 4\n" +
+        "box:01050\n" +
+        "tm:10:01:14 FD1202073  Run: L65 L2 MSS11 E4 Q73 R4=",
+
+        "SRC:STA1 STA65 STA2 STA4 STA3",
+        "CALL:FAPT - APARTMENT FIRE (BOX)",
+        "BOX:01050",
+        "PLACE:CROFTWOOD APT",
+        "ADDR:400 E STREET RD",
+        "CITY:LOWER SOUTHAMPTON TWP",
+        "X:CENTRAL AV & STERNER MILL RD",
+        "INFO:BUILDING 4",
+        "TIME:10:01:14",
+        "ID:FD1202073",
+        "UNIT:L65 L2 MSS11 E4 Q73 R4");
 
   }
   
@@ -1235,8 +1288,30 @@ public class PABucksCountyParserTest extends BaseParserTest {
         "TIME:20:54",
         "ID:FD1202049",
         "UNIT:E53");
-
   }
+  
+  @Test
+  public void testParser8() {
+
+    doTest("T1",
+        "Subject:1/1\n" +
+        "SQ168:ABLED\n" +
+        "adr:SHERWOOD RESIDENCE ,44 at 92 OAKWOOD DR ,44\n" +
+        "btwn:BUTTONWOOD DR & BUTTONWOOD DR\n" +
+        "box:21011 map:3262E tm:09:50:07 ED1205837",
+
+        "CALL:ABLED - ACUTE HEMORRHAGE",
+        "BOX:21011",
+        "PLACE:SHERWOOD RESIDENCE",
+        "ADDR:92 OAKWOOD DR",
+        "CITY:MIDDLETOWN TWP",
+        "X:BUTTONWOOD DR & BUTTONWOOD DR",
+        "MAP:3262E",
+        "TIME:09:50:07",
+        "ID:ED1205837",
+        "UNIT:SQ168");
+  }
+  
   
   public static void main(String[] args) {
     new PABucksCountyParserTest().generateTests("T1");

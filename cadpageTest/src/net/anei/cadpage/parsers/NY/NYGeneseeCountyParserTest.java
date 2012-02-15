@@ -150,6 +150,16 @@ public class NYGeneseeCountyParserTest extends BaseParserTest {
         "DATE:01/22/12",
         "TIME:06:57",
         "ID:2012-00000021");
+
+    doTest("T6",
+        "GENESEE COUNTY DISPATCH EMD Delta ** ** 2584 MAIN RD , PEMBROKE - LOWER ** 25 YO MALE TROUBLE BREATHING - CO REQ NO FIRE DEPT ** SLUSSER RD / CHURCH ST ** 02/13/12 04:59 ** 2012-00000035 ** TXT STOP to opt-out",
+        "CALL:EMD Delta",
+        "ADDR:2584 MAIN RD",
+        "INFO:25 YO MALE TROUBLE BREATHING - CO REQ NO FIRE DEPT",
+        "X:PEMBROKE - LOWER & SLUSSER RD / CHURCH ST",
+        "DATE:02/13/12",
+        "TIME:04:59",
+        "ID:2012-00000035");
   }
   
   @Test

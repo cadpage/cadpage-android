@@ -264,6 +264,15 @@ public class TXMontgomeryCountyParserTest extends BaseParserTest {
         "PLACE:TAMARAC PINES APTS",
         "CITY:WOODLANDS",
         "X:1800");
+
+    doTest("T30",
+        "(Nature: F18-LIVE WIRES DOWN) New Fire Run: 2012-04542,,E111,Location: MM 73,Building: SPRING CREEK BRIDGE M,Cross: ,,Grid: 292B,Map: ,.",
+        "ID:2012-04542",
+        "CALL:F18-LIVE WIRES DOWN",
+        "UNIT:E111",
+        "ADDR:MM 73",
+        "MADDR:SPRING CREEK BRIDGE M,MM 73",
+        "PLACE:SPRING CREEK BRIDGE M");
   }
   
   public static void main(String[] args) {

@@ -332,6 +332,15 @@ public class PALehighCountyParserTest extends BaseParserTest {
         "TIME:12:56",
         "UNIT:FD/R3041 FD/E112 FD/E811FD/06TK21 FD/B6681 FD/ST07RIT FD/CA3292 FD/RH6651",
         "X:3200 RT100 & 3203 ORCHARD RD");
+
+    doTest("T28",
+        "ST3000 TYP: ODOR INVEST INSIDE AD: 1845 SASSAFRASS LN CTY: LOWER MACUNGIE CN: RUBY WILSON CMT1: **ODOR INVESTIGATION INSIDE - UNKN",
+        "SRC:ST3000",
+        "CALL:ODOR INVEST INSIDE",
+        "ADDR:1845 SASSAFRASS LN",
+        "CITY:LOWER MACUNGIE TWP",
+        "NAME:RUBY WILSON",
+        "INFO:**ODOR INVESTIGATION INSIDE - UNKN");
  }
   
   public static void main(String[] args) {

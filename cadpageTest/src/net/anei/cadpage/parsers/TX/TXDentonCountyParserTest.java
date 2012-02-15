@@ -192,36 +192,39 @@ public class TXDentonCountyParserTest extends BaseParserTest {
     doTest("T2",
         "CAD:110138525;08/05/2011 17:00:12;FIRE VEHICLE;ORR NISSAN;5650 I35 E;LCFD;brake on fire - sees flame [08/05/11 17:01:04 TPRICE]",
         "ID:110138525",
+        "DATE:08/05/2011",
+        "TIME:17:00:12",
         "CALL:FIRE VEHICLE",
         "NAME:ORR NISSAN",
         "ADDR:5650 I35 E",
         "MADDR:5650 I 35 E",
-        "INFO:brake on fire - sees flame",
-        "DATE:08/05/11",
-        "TIME:17:01:04");
+        "INFO:brake on fire - sees flame");
 
     doTest("T3",
         "CAD:FYI: ;120027784;02/12/2012 23:49:22;TRAFFIC TRANSPORT INCIDENT;458MM I 35 E;LCFD;[Medical Priority Info] RESPONSE: Bravo RESPONDER SCRIPT: Unknown status/O",
         "ID:120027784",
+        "DATE:02/12/2012",
+        "TIME:23:49:22",
         "CALL:TRAFFIC TRANSPORT INCIDENT",
-        "NAME:458MM I 35 E",
-        "ADDR:LCFD",
+        "ADDR:458MM I 35 E",
         "INFO:Unknown status/O");
 
     doTest("T4",
         "CAD:FYI: ;120027776;02/12/2012 23:38:48;FIRE STRUCTURE;1402 CHEYENNE RD;LARAMIE DR;LVFD;2 ALARM [02/12/12 23:41:25 MELLIS] OPS CHANNEL 4 [02/12/12 23:40:31 MEL",
         "ID:120027776",
+        "DATE:02/12/2012",
+        "TIME:23:38:48",
         "CALL:FIRE STRUCTURE",
         "NAME:1402 CHEYENNE RD",
         "ADDR:LARAMIE DR",
         "CITY:LEWISVILLE",
-        "INFO:2 ALARM / OPS CHANNEL 4",
-        "DATE:02/12/12",
-        "TIME:23:41:25");
+        "INFO:2 ALARM / OPS CHANNEL 4");
 
     doTest("T5",
         "CAD:FYI: ;120027767;02/12/2012 23:05:32;BREATHING PROBLEMS;1652 KNOLL RIDGE CIR;SHADOW CREST DR;LCFD;[Medical Priority Info] RESPONSE: Delta RESPONDER SCRIPT:",
         "ID:120027767",
+        "DATE:02/12/2012",
+        "TIME:23:05:32",
         "CALL:BREATHING PROBLEMS",
         "NAME:1652 KNOLL RIDGE CIR",
         "ADDR:SHADOW CREST DR");
