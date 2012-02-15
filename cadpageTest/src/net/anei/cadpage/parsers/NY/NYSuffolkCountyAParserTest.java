@@ -252,6 +252,16 @@ public class NYSuffolkCountyAParserTest extends BaseParserTest {
         "X:DAWN DR / WINSTON DR",
         "CODE:18-C-2",
         "TIME:16:09:54");
+
+    doTest("T27",
+        "TYPE: RESPIRATORY LOC: 16 TEAL CRSN GREATR   CROSS:  / WIDGEON CT CODE: 6-D-1 TIME: 15:59:03",
+        "CALL:RESPIRATORY",
+        "ADDR:16 TEAL CRSN",
+        "MADDR:16 TEAL CRESCENT",
+        "CITY:Great River",
+        "X:/ WIDGEON CT",
+        "CODE:6-D-1",
+        "TIME:15:59:03");
    
   }
   
