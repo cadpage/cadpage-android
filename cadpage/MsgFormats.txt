@@ -2610,12 +2610,6 @@ Contact: James Mayhew <kc4bpx@gmail.com>
 Sender: e911@ps400.hanoverva.org <From%3Ae911@ps400.hanoverva.org>
 Subject:(21777) a
 Unit:E12 UnitSts: Inc#:2010-00000919 Inc:MVANoInj Loc:36 S INTERSTATE 295 MapRef:R Map 1591 VEH VS DEER, NO INJS, H
-
-**********************************************************
-Unknown from problem report, was trying Suffolk County
-contact: "shiloe1@yahoo.com" <shiloe1@yahoo.com>
-sender: news@1rwn.com
-WANTAGH, NY (NASSAU) *M/C MVA* JERUSALEM AVE & DAFFODIL LN. WFD CHF 6900 RPTS M/C VS CAR. E692 O/S. A6918 TO TX AIDED. NY64
 **********************************************************
 Unknown from problem report
 contact: Jason Baalman <jason.baalman@gmail.com>
@@ -2714,6 +2708,11 @@ Lewis & Clarke County, MT (SAR)
 Contact: Doug Robinson <freedomdoug@gmail.com>
 Sender: 777038645546
 HELENA 911 ([SARpage] Commo Meeting) Commo Meeting AT SAR BLDG MON 4/18/11 1800hrs TXT STOP to opt-out
+**********************************************************
+Unknown from problem report, was trying Suffolk County
+contact: "shiloe1@yahoo.com" <shiloe1@yahoo.com>
+sender: news@1rwn.com
+WANTAGH, NY (NASSAU) *M/C MVA* JERUSALEM AVE & DAFFODIL LN. WFD CHF 6900 RPTS M/C VS CAR. E692 O/S. A6918 TO TX AIDED. NY64
 **********************************************************
 Suffolk County, NY (new)
 Contact: Dennis Whittam <dwhittam@gmail.com>
@@ -2971,13 +2970,6 @@ Cumberland County, NC (alternate)
 Contact: Brandon Norris <lawranger197@gmail.com>
 Sender: messaging@iamresponding.com
 (Station 13) 7/11/2011 16:16:30;DIFFICULTY SPEAKING BREATHING;ST13,ST19;4737 DESERT RIDGE RD;HYPONY TRL
-**********************************************************
-Suffolk County, NY (alternate)
-Contact: Brandon Tishim <tishimb@gmail.com>
-Sender: Bob@relaycom.com
-(FROM RELAY) 33 BAY RUN OFF OF HERRICKS LN JAMESPORT\nELDERLY MALE SICK
-(FROM RELAY) 415 OSTRANDER AVE, INJURY FROM A FALL
-(FROM RELAY) 95 OSTRANDER AVE, DIFFICULTY BREATHING
 **********************************************************
 NYC, NY
 Contact: Danny Ackerman <danny.ackerman@gmail.com>
@@ -3798,22 +3790,109 @@ System: Sundance
 *general parser won't work*
 911@ci.ravenna.oh.us:* 15_edinburg_general29,MEDICAL EMERGENCY *\n3594,INDRUSTRY RD, * ,ROOTSTOWN * 89YOA MALE OXYGEN MACHINE BROKEN,\nTROU
 911@ci.ravenna.oh.us:* 15_edinburg_general29,MEDICAL EMERGENCY * 4265,ROCK SPRING RD, * ,Ravenna * 53 YR OLD MALE DIFFICULTY BREATHING, PO
-**********************************************************
-Burlington County, NJ (alternage?)
-Contact: John Hamilton <skinink66@gmail.com>
-[MLCAD] EMS E EMS Call Loc: 5142 CHURCH RD Ven: Mt Laurel XS: PREAKNESS DR/SHARP RD Nature: SON IS CHOKING // 15:44:31 02/14/2012
-
-Contact: Robert Allen <rallen7779@gmail.com>
-Sender: chief1300@comcast.net
-Messenger 911 / [Update]\n18:43:42\n133 E TrfcEntp\n5010\nSOUTH AV\nPINE ST\nPINE ST\n
-Messenger 911 / 18:43:42\n129 E AccInjry\n5010\nSOUTH AV\nPINE ST\nPINE ST\n
-Messenger 911 / [Update]\n22:39:55\n16 F Alarms\n1321\n691 EAYRESTOWN RD\nMUNICIPAL DR/RT38\n609.267.1224/GENERAL ALARM
-Messenger 911 / 14:29:55\n132 E UnkMedEmrg\n1310\n4 HEMSING DR\nMAIN ST/ESTATE RD\nMALE WITH FOOT INJURY\nWPH2:
 *********************************************************
+**********************************************************
 **********************************************************
 **********************************************************
 ************  READY TO ROLL ******************************
 **********************************************************
+**********************************************************
+** Broken locations **
+**********************************************************
+Las Vegas, NV (replacement)
+Contact: Trevor Nelson <robs_trevor@yahoo.com>
+Sender: sms@pageway.net
+SMS / 725 12011164 Pri:4 Prob:Sch Grid:2625-1/11 3186 S MARYLAND PKWY Bld:ER Apt:25 Zip:89169
+SMS / 725 12011200 Pri:4 Prob:Imm Grid:2429-1/11 61 N NELLIS BLVD Bld: Apt: Zip:89110
+SMS / 725 12011221 Pri:5 Prob:Imm Grid:2826-1/11 2170 E HARMON AV Bld: Apt:324A Zip:89119
+SMS / 725 12011269 Pri:5 Prob:Imm Grid:1823-1/11 2202 W CRAIG RD Bld: Apt: Zip:89032
+
+SMS / 725 12011269 Disp:16:59:20 Enroute:16:59:27 On Scene:17:26:43 To Hosp:17:40:01 At Hosp:17:58:28
+**********************************************************
+York County, ME (replacement)
+Contact: Sean Perkins <sperkins@waterborofire.org>
+Sender: dispatch@sanfordmaine.org
+(Sanford RCC Page) MEDICAL EMERGENCY\nGOODALL HOSPITAL URGENT CARE/PHARMACY\n10 GOODALL DR \nWaterboro\n2/13/2012 16:59
+(Sanford RCC Page) MEDICAL EMERGENCY\n22 COYNE RD \nWaterboro\n2/13/2012 10:51
+(Sanford RCC Page) FIRE, OTHER\n23 BACK ST \nWaterboro\n2/13/2012 18:58
+(Sanford RCC Page) MEDICAL EMERGENCY\n50 SANFORD RD \nWaterboro\n2/14/2012 14:53
+(Sanford RCC Page) MEDICAL EMERGENCY\n77 SOKOKIS TRL \nWaterboro\n2/14/2012 20:07
+(Sanford RCC Page) MEDICAL EMERGENCY\n22 MILL POND RD \nWaterboro\n2/15/2012 09:19
+(Sanford RCC Page) MEDICAL EMERGENCY\nGOODALL HOSPITAL URGENT CARE/PHARMACY\n10 GOODALL DR \nWaterboro\n2/15/2012 10:30
+(Sanford RCC Page) MEDICAL EMERGENCY\nLAKE ARROWHEAD\nWaterboro\n2/16/2012 14:53
+**********************************************************
+** Active911
+**********************************************************
+kanawawha County, WV
+Contact: support@active911.com
+https://www.active911.com/interface/parser_report.php?key=100-VCUPI
+**********************************************************
+** General location doesn't work **
+**********************************************************
+Greator Lenox Amulance Service (GLAS), NY (in Madison County)
+Contact: "Kyle M. Cashel" <kcashel@gmail.com>
+Sender: messaging@iamresponding.com
+4 users requesting - make priority
+
+FRM:messaging@iamresponding.com
+SUBJ:Greater Lenox
+MSG:Sick Person
+7738 WISE RD , LENOX ( / N COURT)
+
+FRM:messaging@iamresponding.com
+SUBJ:Greater Lenox
+MSG:Assist
+400 LAMB AV , CANASTOTA VILLAGE ( / DEPPOLITI AV)
+
+FRM:messaging@iamresponding.com
+SUBJ:Greater Lenox
+MSG:Heart Problem
+@MADISON COUNTY DSS (133 NORTH COURT ST (WAMPSVILLE VIL
+
+FRM:messaging@iamresponding.com
+SUBJ:Greater Lenox
+MSG:Convulsions/Seizures
+7216 NELSON RD , LENOX (SENECA TRNPK / PAVONE PL)
+
+FRM:messaging@iamresponding.com
+SUBJ:Greater Lenox
+MSG:Sick Person
+400 LAMB AV , CANASTOTA VILLAGE ( / DEPPOLITI AV)
+
+FRM:messaging@iamresponding.com
+SUBJ:Greater Lenox
+MSG:Chest Pain
+123 CAYUGA AV , SULLIVAN ( ONEIDA LAKE AV / ROUTE 31)
+
+FRM:messaging@iamresponding.com
+SUBJ:Greater Lenox
+MSG:Sick Person
+7885 TACKABURY RD , LENOX ( DITCH BANK RD / INDIAN OPENING RD)
+
+FRM:messaging@iamresponding.com
+SUBJ:Greater Lenox
+MSG: Chest Pain
+3881 COTTONS RD , LINCOLN ( CLOCKVILLE RD / NELSON RD)
+
+FRM:messaging@iamresponding.com
+SUBJ:Greater Lenox
+MSG:MVA - Personal Injury
+@MM 261.7 (261 70 I90 )
+
+FRM:messaging@iamresponding.com
+SUBJ:Greater Lenox
+MSG:MVA - Unknown
+RAILROAD \ DEPOT (, CANASTOTA VILLAGE)
+
+Contact: "emtdebbie33@yahoo.com" <emtdebbie33@yahoo.com>
+(Greater Lenox) Convulsions/Seizures\n7216 NELSON RD , LENOX ( SENECA TRNPK / PAVONE PL)
+
+Contact: Kyle Cashel <kcashel@gmail.com>
+FRM:messaging@iamresponding.com\nSUBJ:Greater Lenox\nMSG:Sick Person\n400 LAMB AV , CANASTOTA VILLAGE ( / DEPPOLITI AV)
+FRM:messaging@iamresponding.com\nSUBJ:Greater Lenox\nMSG:MVA - Personal Injury\n5050 BURLESON RD , LINCOLN ( VEDDER RD / FOREST AV)
+
+Contact: Erick Haas <ericknjenn@gmail.com>
+FRM:messaging@iamresponding.com\nSUBJ:Greater Lenox\nMSG:Falls\n400 LAMB AV #144, CANASTOTA VILLAGE ( / DEPPOLITI AV)
 **********************************************************
 Muscalane County, IA
 Contact: KEVIN FLYNN <kwf9111@gmail.com>
@@ -3845,7 +3924,6 @@ NFR WLAB
 560TH ST SE / 160TH/ST
 WEST LIBERTY
 NFD WLFD
-**********************************************************
 **********************************************************
 Napa County, CA
 Contact: Joe Russo <bumbero19@gmail.com>
@@ -3924,71 +4002,6 @@ Sender: 911-CENTER@co.marion.ms.us
 -  - 911-CENTER:EVENT: SIG72 LOC:37 STRINGER BULLOCK RD Cad: 2012-0000001996 ENR >21:01 1023 >21:15 1024 >21:41\n
 -  - 911-CENTER:EVENT: SIG1 LOC:283 MAYS CREEK RD Cad: 2012-0000002303 1023 >22:12 1024 >22:43\n
 -  - 911-CENTER:EVENT: SFIRE LOC:31 OILFIELD CUT OFF RD Cad: 2012-0000002674 ENR >03:33 1023 >03:39 1024 >07:10\n
-**********************************************************
-Greator Lenox Amulance Service (GLAS), NY (in Madison County)
-Contact: "Kyle M. Cashel" <kcashel@gmail.com>
-Sender: messaging@iamresponding.com
-4 users requesting - make priority
-
-FRM:messaging@iamresponding.com
-SUBJ:Greater Lenox
-MSG:Sick Person
-7738 WISE RD , LENOX ( / N COURT)
-
-FRM:messaging@iamresponding.com
-SUBJ:Greater Lenox
-MSG:Assist
-400 LAMB AV , CANASTOTA VILLAGE ( / DEPPOLITI AV)
-
-FRM:messaging@iamresponding.com
-SUBJ:Greater Lenox
-MSG:Heart Problem
-@MADISON COUNTY DSS (133 NORTH COURT ST (WAMPSVILLE VIL
-
-FRM:messaging@iamresponding.com
-SUBJ:Greater Lenox
-MSG:Convulsions/Seizures
-7216 NELSON RD , LENOX (SENECA TRNPK / PAVONE PL)
-
-FRM:messaging@iamresponding.com
-SUBJ:Greater Lenox
-MSG:Sick Person
-400 LAMB AV , CANASTOTA VILLAGE ( / DEPPOLITI AV)
-
-FRM:messaging@iamresponding.com
-SUBJ:Greater Lenox
-MSG:Chest Pain
-123 CAYUGA AV , SULLIVAN ( ONEIDA LAKE AV / ROUTE 31)
-
-FRM:messaging@iamresponding.com
-SUBJ:Greater Lenox
-MSG:Sick Person
-7885 TACKABURY RD , LENOX ( DITCH BANK RD / INDIAN OPENING RD)
-
-FRM:messaging@iamresponding.com
-SUBJ:Greater Lenox
-MSG: Chest Pain
-3881 COTTONS RD , LINCOLN ( CLOCKVILLE RD / NELSON RD)
-
-FRM:messaging@iamresponding.com
-SUBJ:Greater Lenox
-MSG:MVA - Personal Injury
-@MM 261.7 (261 70 I90 )
-
-FRM:messaging@iamresponding.com
-SUBJ:Greater Lenox
-MSG:MVA - Unknown
-RAILROAD \ DEPOT (, CANASTOTA VILLAGE)
-
-Contact: "emtdebbie33@yahoo.com" <emtdebbie33@yahoo.com>
-(Greater Lenox) Convulsions/Seizures\n7216 NELSON RD , LENOX ( SENECA TRNPK / PAVONE PL)
-
-Contact: Kyle Cashel <kcashel@gmail.com>
-FRM:messaging@iamresponding.com\nSUBJ:Greater Lenox\nMSG:Sick Person\n400 LAMB AV , CANASTOTA VILLAGE ( / DEPPOLITI AV)
-FRM:messaging@iamresponding.com\nSUBJ:Greater Lenox\nMSG:MVA - Personal Injury\n5050 BURLESON RD , LINCOLN ( VEDDER RD / FOREST AV)
-
-Contact: Erick Haas <ericknjenn@gmail.com>
-FRM:messaging@iamresponding.com\nSUBJ:Greater Lenox\nMSG:Falls\n400 LAMB AV #144, CANASTOTA VILLAGE ( / DEPPOLITI AV)
 **********************************************************
 Camden County, NJ (alternate)
 Contact: Dave <davem@usa.net>
@@ -4173,7 +4186,6 @@ Sender: 777129998926
 .... (Grimes) Location: 200 SW BROOKSIDE DR GRIM,111 Type: MEDICAL  Caller: KENNYBROOK VILLAGE Time: 13:42:46
 .... (Grimes) Location: 5555 NW 55TH AVE JOHN: @CHILDSERVE - JOHN Type: COMMFIRE ALARM Caller: ADT/DBI Time: 17:01:43
 .... (Grimes) Location: 2555 W 1ST ST GRIM: @DALLAS CENTER GRIMES HIGH SCHOOL - GRIM Type: COMMFIRE ALARM Caller: ADT Time: 20:37:32
-**********************************************************
 **********************************************************
 Blaine County, ID
 Contact: Jamie Hoover <hooverj18@gmail.com>
@@ -4435,34 +4447,38 @@ System: Prophoenix
 6245: CAD¡plprairiewi.com Subject:Phoenix Notification 2012000157 ä02/09/2012 18:43:23ñ MED CALL - Medical Callä1ñ 8109 57th Ave Units: 5641 Comments:
 6245: CAD¡plprairiewi.com Subject:Phoenix Notification 2012000158 ä02/09/2012 18:53:48ñ MED CALL - Medical Callä1ñ 10106 29th Ave Units: 5642 Comments:
 **********************************************************
-Las Vegas, NV (replacement)
-Contact: Trevor Nelson <robs_trevor@yahoo.com>
-Sender: sms@pageway.net
-SMS / 725 12011164 Pri:4 Prob:Sch Grid:2625-1/11 3186 S MARYLAND PKWY Bld:ER Apt:25 Zip:89169
-SMS / 725 12011200 Pri:4 Prob:Imm Grid:2429-1/11 61 N NELLIS BLVD Bld: Apt: Zip:89110
-SMS / 725 12011221 Pri:5 Prob:Imm Grid:2826-1/11 2170 E HARMON AV Bld: Apt:324A Zip:89119
-SMS / 725 12011269 Pri:5 Prob:Imm Grid:1823-1/11 2202 W CRAIG RD Bld: Apt: Zip:89032
-
-SMS / 725 12011269 Disp:16:59:20 Enroute:16:59:27 On Scene:17:26:43 To Hosp:17:40:01 At Hosp:17:58:28
-**********************************************************
-kanawawha County, WV
-Contact: support@active911.com
-https://www.active911.com/interface/parser_report.php?key=100-VCUPI
-**********************************************************
-York County, ME (replacement)
-Contact: Sean Perkins <sperkins@waterborofire.org>
-Sender: dispatch@sanfordmaine.org
-(Sanford RCC Page) MEDICAL EMERGENCY\nGOODALL HOSPITAL URGENT CARE/PHARMACY\n10 GOODALL DR \nWaterboro\n2/13/2012 16:59
-(Sanford RCC Page) MEDICAL EMERGENCY\n22 COYNE RD \nWaterboro\n2/13/2012 10:51
-(Sanford RCC Page) FIRE, OTHER\n23 BACK ST \nWaterboro\n2/13/2012 18:58
-(Sanford RCC Page) MEDICAL EMERGENCY\n50 SANFORD RD \nWaterboro\n2/14/2012 14:53
-(Sanford RCC Page) MEDICAL EMERGENCY\n77 SOKOKIS TRL \nWaterboro\n2/14/2012 20:07
-(Sanford RCC Page) MEDICAL EMERGENCY\n22 MILL POND RD \nWaterboro\n2/15/2012 09:19
-(Sanford RCC Page) MEDICAL EMERGENCY\nGOODALL HOSPITAL URGENT CARE/PHARMACY\n10 GOODALL DR \nWaterboro\n2/15/2012 10:30
-**********************************************************
 Weld County, CO (alternate)
 Contact: 19703712539@tmomail.net
 Contact: Doug Gilliland <dgilliland88@gmail.com>
 Dispatch / GFD \nSI\n3206 70TH AVE\nGF5\nE5\nchest pain\n
 GFD\nSI\n5436 24TH ST\nGF5\nE5\nHUSBAND FELL, RP NOT ON SCENE\nProQA Medical Recommended Dispatch Level = 17A03G\nYou are responding to a patient involved in a fall. 
 BCOF\nSI\nD\n3722 MONTEREY PL\nBORUF\n2224\nWILL BE A TRANSPORT FOR M1 ...FEMALE IN HER MID 20'S..ENTER THE DOOR ON THELEFT\nSIDE OF THE HOUSE SLIDING GLASS DOORS &
+**********************************************************
+Burlington County, NJ (alternage?)
+Contact: John Hamilton <skinink66@gmail.com>
+[MLCAD] EMS E EMS Call Loc: 5142 CHURCH RD Ven: Mt Laurel XS: PREAKNESS DR/SHARP RD Nature: SON IS CHOKING // 15:44:31 02/14/2012
+
+Contact: Robert Allen <rallen7779@gmail.com>
+Sender: chief1300@comcast.net
+Messenger 911 / [Update]\n18:43:42\n133 E TrfcEntp\n5010\nSOUTH AV\nPINE ST\nPINE ST\n
+Messenger 911 / 18:43:42\n129 E AccInjry\n5010\nSOUTH AV\nPINE ST\nPINE ST\n
+Messenger 911 / [Update]\n22:39:55\n16 F Alarms\n1321\n691 EAYRESTOWN RD\nMUNICIPAL DR/RT38\n609.267.1224/GENERAL ALARM
+Messenger 911 / 14:29:55\n132 E UnkMedEmrg\n1310\n4 HEMSING DR\nMAIN ST/ESTATE RD\nMALE WITH FOOT INJURY\nWPH2:
+Messenger 911 / [Update]\n14:57:17\n129F E Mva/Fire\n1311\n1740 E RT38\nEAYRESTOWN RD/SMITHVILLE RD\n1 VEH OVERTURNED//OCCUPANTS ST\nIFO\n
+**********************************************************
+Suffolk County, NY (alternate)
+Contact: Brandon Tishim <tishimb@gmail.com>
+Sender: Bob@relaycom.com
+(FROM RELAY) 33 BAY RUN OFF OF HERRICKS LN JAMESPORT\nELDERLY MALE SICK
+(FROM RELAY) 415 OSTRANDER AVE, INJURY FROM A FALL
+(FROM RELAY) 95 OSTRANDER AVE, DIFFICULTY BREATHING
+
+Contact: Bill Wilkinson <billthemedic@gmail.com>
+Sender: Bob@relaycom.com
+(FROM RELAY) 236 MAIN RD AQUEBOGUE; DIRECTLY ACROSS FROM FEDUN REALITY 92 Y/O FEMALE \nCHEST PAINS
+(FROM RELAY) 2185 SPLISH SPLASH DRIVE FEMALE POSSIBLE STROKE
+(FROM RELAY) 178  PECONIC BAY BLVD IN AQUEBOGUE   AT THE  REEVE RESIDENCE SUBJECT \nSEIZURES
+(FROM RELAY) 1053 OLD COUNTRY RD PEARLE VISION CENTER  FEMALE HEAD INJURY FROM A FALL
+(FROM RELAY) 70 SCHULTZ RD MALE HEAD INJURY FROM A FALL ,, ACROSS FROM THE SPORTSMAN \nKENNEL IN MANORVILLE
+(FROM RELAY) 1272 EAST MAIN ST  DR. BROOK'S OFC  MALE  FAINTING EPISODES
+(MSG FROM RELAY) MICHAEL'S 1440 OLD COUNTRY RD. FEMALE. GENERAL WEAKNESS.

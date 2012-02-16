@@ -40,6 +40,10 @@ Contact: Josh Tapia <JTapia@ftluptonfire.com>
 " " 32\nFASIST\nD\n23510 HIGHWAY 257\nMI\n32\nS SIDE OF THE UP RR // GAS BLOW OFF\nRP THINKS IT NEEDS TO BE CHECKED ON BCSE IT'S "REALLY BLUE" TXT STOP to opt-out
 " " 26\nTAI\nD\nWCR 19\nFL\n26\nTAI\nProQA Medical Recommended Dispatch Level = 29D02p\nYou are responding to patients involved in a traffic incident.  (If known -- relay TXT STOP to opt-out
 
+Contact: Derek Olsen <dolsen207@gmail.com>
+Sender: 777127623127
+" " 32\nSIPF\nD\n107 PAR DR\nMI\n32\nSEIZURE TXT STOP to opt-out
+
 Contact: mike stratton <mikerstratton@gmail.com>
 Contact: Doug Gilliland <dgilliland88@gmail.com>
 From:wrc-hiplink@weldcorcc.com
