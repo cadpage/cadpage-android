@@ -14,6 +14,11 @@ YELLOW HAMMER RD/FIRE TOWER RD;1050;[LAW] {37} ONE FINGER AND JAW/ SEC CONCUSION
 77 CASTLE ST;LIBERTY AVE;BELLMONT ST;FIRE OTHER NOT LISTED;microwave hot and not in use [06/23/11 09:59:22 JTEMPLETON].   
 W WINDSOR BLVD/N PRINCE BLVD;ACCIDENT WITH INJURIES;supreme prking lot. 2 veh. chryslter pt cruiser vs dodge ram piick up [06/23/11 13:13:34 JTEMPLETON]
 
+Isle of Wight County, VA (alternate)
+Contact: Larry Regula <fshook03@gmail.com>
+Sender: CAD@isleofwightus.net
+CAD:1207 CARRSVILLE HWY;6D;SPRINGDALE APARTMENTS;FALLS AND RELATED INJURIES;JAMESTOWN LN;LEES MILL RD;99 yo female--has fallen, home nurse is unable to gain a
+
  */
 public class VAIsleOfWightCountyParser extends DispatchOSSIParser {
   
@@ -29,6 +34,7 @@ public class VAIsleOfWightCountyParser extends DispatchOSSIParser {
   
   @Override
   public boolean parseMsg(String body, Data data) {
-    return super.parseMsg("CAD:" + body, data);
+    if (!body.startsWith("CAD:")) body = "CAD:" + body;
+    return super.parseMsg(body, data);
   }
 }
