@@ -1127,7 +1127,9 @@ Ryan A Zerbe (rzerbe47@gmail.com)(rzerbe47@hotmail.com)
 Sean Perkins <sperkins@waterborofire.org> // York County, ME
 %%02/13/2012
 Brenton Ward(brenton.ward@gmail.com)
-
+%%02/15/2012
+Robert Vanburen (rvanburen29@gmail.com)<bobert6house@hotmail.com>
+Lori Ann Santini(nysaemtp@yahoo.com)
 
 // List of users getting free credit for 2012
 $free_2012_list
@@ -1199,7 +1201,7 @@ $free_2012_list
 >>Fperl <fperlmut76@gmail.com>
 >>Wayne M <wayne4489@gmail.com>
 >>troy josey <tjosey74@gmail.com>
-Thomas Kunz <max.kunz99@gmail.com>
+>>Thomas Kunz <max.kunz99@gmail.com>
 Connie Mccoy <maniacmedic5@gmail.com>
 jeremy holt <jholtsonfire@gmail.com>
 %%01/07/2012

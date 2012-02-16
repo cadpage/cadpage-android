@@ -61,6 +61,11 @@ public class TXDentonCountyParser extends DispatchOSSIParser {
     return "CAD@dentoncounty.com";
   }
   
+  @Override
+  public String getSponsor() {
+    return "Lake Cities Fire Department";
+  }
+
   private class MyIdField extends IdField {
     public MyIdField() {
       setPattern(Pattern.compile("\\d{9}"));

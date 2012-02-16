@@ -3791,9 +3791,10 @@ Contact: jimmy wallace <jimwall63@gmail.com>
 Sender: CAD@robesoncoso.org
 CAD:BREATHING PROBLEMS;006;5812 NC71 HWY N;REV BILL RD;ARTHUR RD;12002171;[Medical Priority Info] PROBLEM: BREATHING TROUBLE # PATS: 1 AGE: 36 Years SEX: Female
 **********************************************************
-Unknown,
+Portage County, OH
 Contact: Joseph L Corbin Jr <jcorbinjr@gmail.com>
 Sender: 911@ci.ravenna.oh.us
+System: Sundance
 *general parser won't work*
 911@ci.ravenna.oh.us:* 15_edinburg_general29,MEDICAL EMERGENCY *\n3594,INDRUSTRY RD, * ,ROOTSTOWN * 89YOA MALE OXYGEN MACHINE BROKEN,\nTROU
 911@ci.ravenna.oh.us:* 15_edinburg_general29,MEDICAL EMERGENCY * 4265,ROCK SPRING RD, * ,Ravenna * 53 YR OLD MALE DIFFICULTY BREATHING, PO
@@ -4457,6 +4458,7 @@ Sender: dispatch@sanfordmaine.org
 (Sanford RCC Page) MEDICAL EMERGENCY\n50 SANFORD RD \nWaterboro\n2/14/2012 14:53
 (Sanford RCC Page) MEDICAL EMERGENCY\n77 SOKOKIS TRL \nWaterboro\n2/14/2012 20:07
 (Sanford RCC Page) MEDICAL EMERGENCY\n22 MILL POND RD \nWaterboro\n2/15/2012 09:19
+(Sanford RCC Page) MEDICAL EMERGENCY\nGOODALL HOSPITAL URGENT CARE/PHARMACY\n10 GOODALL DR \nWaterboro\n2/15/2012 10:30
 **********************************************************
 Weld County, CO (alternate)
 Contact: 19703712539@tmomail.net
