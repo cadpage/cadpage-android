@@ -253,6 +253,14 @@ public class ORLinnCountyParserTest extends BaseParserTest {
         "CITY:Albany",
         "MAP:30231212");
 
+    doTest("T8",
+        "[ICOM/400 notification] A501 Recall Alarm/ TRAF COLLISION/25010 S I5 Linn County MP212 S I5//vehicle was traveling south, put his blinker on to the\n",
+        "CALL:A501 Recall Alarm/TRAF COLLISION",
+        "ADDR:25010 S I5",
+        "MADDR:25010 S I 5",
+        "PLACE:MP212 S I5",
+        "INFO:vehicle was traveling south, put his blinker on to the");
+
   }
   
   public static void main(String[] args) {
