@@ -59,6 +59,17 @@ public class VAIsleOfWightCountyParserTest extends BaseParserTest {
         "TIME:13:13:34");
   }
   
+  @Test
+  public void testparser2() {
+
+    doTest("T1",
+        "CAD:1207 CARRSVILLE HWY;6D;SPRINGDALE APARTMENTS;FALLS AND RELATED INJURIES;JAMESTOWN LN;LEES MILL RD;99 yo female--has fallen, home nurse is unable to gain a",
+        "ADDR:1207 CARRSVILLE HWY",
+        "CALL:6D",
+        "INFO:SPRINGDALE APARTMENTS / FALLS AND RELATED INJURIES / JAMESTOWN LN / LEES MILL RD / 99 yo female--has fallen, home nurse is unable to gain a");
+
+  }
+  
   public static void main(String[] args) {
     new VAIsleOfWightCountyParserTest().generateTests("T1");
   }
