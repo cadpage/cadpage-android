@@ -140,10 +140,19 @@ public class NCForsythCountyParserTest extends BaseParserTest {
         "PRI:1",
         "UNIT:F28",
         "X:UNION CROSS RD NB 311 RA/NB 311 RIDGEWOOD");
+
+    doTest("T15",
+        "Location: 125 CHAUCER VIEW CIR KE Nature: Chest Pain/Heart Problems P:1  - default DISTRICT: F41 X Str: CHAUCER MANOR LN/CHAUCER",
+        "ADDR:125 CHAUCER VIEW CIR",
+        "CITY:KERNERSVILLE",
+        "CALL:Chest Pain/Heart Problems",
+        "PRI:1",
+        "UNIT:F41",
+        "X:CHAUCER MANOR LN/CHAUCER");
  }
   
   public static void main(String[] args) {
-    new NCForsythCountyParserTest().generateTests("T15");
+    new NCForsythCountyParserTest().generateTests("T16");
   }
 }
 
