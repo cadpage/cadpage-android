@@ -24,7 +24,12 @@ Contact: Mark Kendall <mark.kendall2408@gmail.com>
 Sender: 5304482408
 FIRE, OTHER; 7600 BLACK BUTTE RD / 28502 HWY 44 ,SHINGLETOWN ; ; ; Map: 3678; Inc# 003825; E2460 VOL20 B2408; portable saw on fire.
 
-(NOT SUPPORTED)
+Contact: support@active911.com
+Sender: Robert Richardson <rprichardson@gmail.com>
+(CAD Page) MEDICAL; 11633 SONORA TRL,SHASTACOLL ; ; 20818 BLK HWY 299 E; Map:3225; Inc# 001115;E2452 VOL33; 80 YOF GEN ILL
+
+
+*** NOT SUPPORTED ***
 Contact: Erik Revheim <ejrevheim@gmail.com>
 Sender: 5304109246
 CLOSE: Inc# 005310; FIRE, WILDLAND CITY MTZ; 11794 MCELROY LN ,BUCKEYE ; DSP: 7-15-19:33; AIQ: 7-15-19:46;
@@ -67,13 +72,10 @@ public class CAShastaCountyParser extends SmartAddressParser {
     }
     Arrays.sort(statList);
     parseAddress(statList[0].address, data);
-
-    data.strCross = statList[1].address;
-    if (statList[2].status >= 0) data.strCross = data.strCross + " & " + statList[2].address;
-    
+    data.strCross = append(statList[1].address, " & ", statList[2].address);
     
     // Parse rest of fields
-    if (!flds[4].startsWith("Map: ")) return false;
+    if (!flds[4].startsWith("Map:")) return false;
     data.strMap = flds[4].substring(5).trim();
     
     if (!flds[5].startsWith("Inc# ")) return false;
