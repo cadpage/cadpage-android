@@ -121,7 +121,21 @@ public class CAShastaCountyParserTest extends BaseParserTest {
         "ID:003825",
         "UNIT:E2460 VOL20 B2408",
         "INFO:portable saw on fire.");
-        
+  }
+  
+  @Test
+  public void testActive911() {
+    
+    doTest("T1",
+        "(CAD Page) MEDICAL; 11633 SONORA TRL,SHASTACOLL ; ; 20818 BLK HWY 299 E; Map:3225; Inc# 001115;E2452 VOL33; 80 YOF GEN ILL",
+        "CALL:MEDICAL",
+        "ADDR:11633 SONORA TRL",
+        "SRC:SHASTACOLL",
+        "X:20818 BLK HWY 299 E",
+        "MAP:225",
+        "ID:001115",
+        "UNIT:E2452 VOL33",
+        "INFO:80 YOF GEN ILL");
   }
   
   public static void main(String[] args) {
