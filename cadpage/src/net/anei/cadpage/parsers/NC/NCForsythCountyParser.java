@@ -32,6 +32,9 @@ Location: 1 STOKES COUNTY: @STOKES COUNTY:511 WINDMILL ST Nature: DOA P:1  - def
 Contact: Joshua Brady <jbrady1009@gmail.com>
 Location: NB 311 WS Nature: Motor Vehicle Accident P:1  - default DISTRICT: F28 X Str: UNION CROSS RD_NB 311 RA/NB 311_RIDGEWOOD
 
+Contact: Tim Swaim <swaimus@gmail.com>
+Location: 125 CHAUCER VIEW CIR KE Nature: Chest Pain/Heart Problems P:1  - default DISTRICT: F41 X Str: CHAUCER MANOR LN/CHAUCER
+
  */
 
 
@@ -40,7 +43,9 @@ public class NCForsythCountyParser extends FieldProgramParser {
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "FC", "FORSYTH COUNTY",
       "CL", "CLEMMONS",
+      "KE", "KERNERSVILLE",
       "LE", "LEWISVILLE",
+      "RH", "RURAL HALL",
       "WS", "WINSTON-SALEM"
   });
   
