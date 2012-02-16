@@ -64,16 +64,36 @@ public class PAArmstrongCountyParserTest extends BaseParserTest {
   }
   
   @Test
-  public void testParser2() {
+  public void testParserBrandon() {
 
     doTest("T1",
         "(Dispatch) FREEPORT RD, US ROUTE 422 / PONY FARM RD, US ROUTE 422 VAENT 3706 06:42",
-        "ADDR:FREEPORT",
-        "MADDR:RD, US ROUTE 422 / PONY FARM RD, US ROUTE 422,FREEPORT",
-        "PLACE:RD, US ROUTE 422 / PONY FARM RD, US ROUTE 422",
+        "ADDR:FREEPORT RD & US ROUTE 422",
+        "MADDR:FREEPORT RD & US 422",
+        "X:PONY FARM RD / US ROUTE 422",
         "CALL:VAENT",
         "ID:3706",
         "TIME:06:42");
+
+    doTest("T2",
+        "(Dispatch) 13 HILLTOP PLAZA COMMERCE DR / FRANKLIN HILL RD HOLIDAY INNFAFALR 5238 15:39 8887467539",
+        "ADDR:13 HILLTOP PLAZA",
+        "X:COMMERCE DR / FRANKLIN HILL RD",
+        "PLACE:HOLIDAY",
+        "CALL:INNFAFALR",
+        "ID:5238",
+        "TIME:15:39",
+        "PHONE:8887467539");
+
+    doTest("T3",
+        "(Dispatch) 592 TARRTOWN RD FURNACE RUN RD / STATE ROUTE 1038, BUTLER RD PJ GRECOFVEH 5258 17:45 7249548780",
+        "ADDR:592 TARRTOWN RD",
+        "X:FURNACE RUN RD / STATE ROUTE 1038 / BUTLER RD",
+        "PLACE:PJ",
+        "CALL:GRECOFVEH",
+        "ID:5258",
+        "TIME:17:45",
+        "PHONE:7249548780");
 
   }
   
