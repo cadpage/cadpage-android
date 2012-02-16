@@ -62,10 +62,22 @@ public class NYGreeneCountyParserTest extends BaseParserTest {
         "CITY:CATSKILL",
         "NAME:VILLAGE #401",
         "ID:2011-0000011139");
-    
+
+    doTest("T7",
+        "FRM:GREENE911@thinkgreene.us\n" +
+        "MSG:GREENE911:STRUCT>STRUCTURE FIRE SLEEPY HOLLOW RD & LAKE VIEW D ATHENS BARBARA Cad: 2012-0000002596",
+
+        "CALL:STRUCTURE FIRE SLEEPY",
+        "ADDR:HOLLOW RD & LAKE VIEW D",
+        "CITY:ATHENS",
+        "NAME:BARBARA",
+        "ID:2012-0000002596");
+   
   }
   
+  
+  
   public static void main(String[] args) {
-    new NYGreeneCountyParserTest().generateTests("T6", "CALL ADDR CITY NAME MAP ID");
+    new NYGreeneCountyParserTest().generateTests("T1", "CALL ADDR CITY NAME MAP ID");
   }
 }

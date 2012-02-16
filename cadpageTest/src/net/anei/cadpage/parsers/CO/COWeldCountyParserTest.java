@@ -387,6 +387,15 @@ public class COWeldCountyParserTest extends BaseParserTest {
         "UNIT:26",
         "CODE:29D02p",
         "INFO:TAI / You are responding to patients involved in a traffic incident.  (If known -- relay");
+
+    doTest("T1",
+        "\" \" 32\nSIPF\nD\n107 PAR DR\nMI\n32\nSEIZURE TXT STOP to opt-out",
+        "SRC:32",
+        "CALL:SIPF",
+        "ADDR:107 PAR DR",
+        "CITY:MILLIKEN",
+        "UNIT:32",
+        "INFO:SEIZURE");
     
   }
   
