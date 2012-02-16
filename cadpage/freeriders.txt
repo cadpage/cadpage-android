@@ -1129,7 +1129,7 @@ Sean Perkins <sperkins@waterborofire.org> // York County, ME
 Brenton Ward(brenton.ward@gmail.com)
 %%02/15/2012
 Robert Vanburen (rvanburen29@gmail.com)<bobert6house@hotmail.com>
-Lori Ann Santini(nysaemtp@yahoo.com)
+Lori Ann Santini (nysaemtp@gmail.com)(nysaemtp@yahoo.com)
 
 // List of users getting free credit for 2012
 $free_2012_list
@@ -1202,11 +1202,11 @@ $free_2012_list
 >>Wayne M <wayne4489@gmail.com>
 >>troy josey <tjosey74@gmail.com>
 >>Thomas Kunz <max.kunz99@gmail.com>
-Connie Mccoy <maniacmedic5@gmail.com>
-jeremy holt <jholtsonfire@gmail.com>
+>>Connie Mccoy <maniacmedic5@gmail.com>
+>>jeremy holt <jholtsonfire@gmail.com>
 %%01/07/2012
-timothy norris <hmtroman1@gmail.com>
-James Leinhauser <linehouser@gmail.com>
+>>timothy norris <hmtroman1@gmail.com>
+>>James Leinhauser <linehouser@gmail.com>
 Christopher Henderson <hendersonc26@gmail.com>
 Ned Treaster <treaster3@gmail.com>
 "gary_schwiegerath@comcast.net" (garyschwiegerath@gmail.com)<gary_schwiegerath@comcast.net>
@@ -1497,3 +1497,8 @@ Drew Siegel <drewsiegel8@gmail.com>
 Codi Rowe <codi.rowe.4548@gmail.com>
 Judd Howdyshell <juddhowdyshell@gmail.com>
 brent.hayner@gmail.com <brent.hayner@gmail.com>
+%%02/15/2012
+"blake.pyke" <blake.pyke@gmail.com>
+"Kehn, Matthew" <mkehn@mobilemedical.org>
+Ryan Lee <duckie1931@gmail.com>
+Barbara Ross <blrnut214@gmail.com>

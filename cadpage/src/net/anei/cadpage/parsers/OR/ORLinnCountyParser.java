@@ -1,7 +1,5 @@
 package net.anei.cadpage.parsers.OR;
 
-import java.util.regex.Pattern;
-
 
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
@@ -46,6 +44,7 @@ Contact: Active911.com
 [ICOM/400 notification] ALARM-FIRE/ 1929 SE GRAND PRAIRIE RD Albany VILLAS AT COURTYARD/ 30261212/\n
 [ICOM/400 notification] TRAF COLLISION/ 3700 NE KNOX BUTTE RD Linn County LINN CO FAIRGROUNDS AND EXPO/ 26291313/\n
 [ICOM/400 notification] CARDIAC/RESP ARREST/ 2801 SW UMATILLA ST Albany/ 30231212/\n
+[ICOM/400 notification] A501 Recall Alarm/ TRAF COLLISION/25010 S I5 Linn County MP212 S I5//vehicle was traveling south, put his blinker on to the\n
 
 */
 
@@ -53,7 +52,7 @@ public class ORLinnCountyParser extends FieldProgramParser {
   
   public ORLinnCountyParser() {
     super(CITY_LIST, "LINN COUNTY", "OR",
-           "CALL CALL!+? ADDR/SXP! X/Z? MAP! UNIT INFO");
+           "CALL CALL!+? ADDR/SXP! X/Z? MAP! UNIT? INFO");
   }
   
   @Override
@@ -81,16 +80,11 @@ public class ORLinnCountyParser extends FieldProgramParser {
     }
   }
   
-  private class MyMapField extends MapField {
-    public MyMapField() {
-      setPattern(Pattern.compile("\\d{4}[A-Z]?\\d\\d\\*?[A-Z]?\\d\\d"));
-    }
-  }
-  
   @Override
   public Field getField(String name) {
     if (name.equals("CALL")) return new MyCallField();
-    if (name.equals("MAP")) return new MyMapField();
+    if (name.equals("MAP")) return new MapField("(?:\\d{4}[A-Z]?\\d\\d\\*?[A-Z]?\\d\\d|)", true);
+    if (name.equals("UNIT")) return new UnitField("[A-Z0-9 ]+");
     return super.getField(name);
   }
   
