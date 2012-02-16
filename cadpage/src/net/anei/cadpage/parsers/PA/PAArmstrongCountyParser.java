@@ -21,6 +21,8 @@ Armstrong County, PA
 Contact: brandon kilgore <firefghter10@gmail.com>
 Sender: 911Dispatch@co.armstrong.pa.us
 (Dispatch) FREEPORT RD, US ROUTE 422 / PONY FARM RD, US ROUTE 422 VAENT 3706 06:42
+(Dispatch) 13 HILLTOP PLAZA COMMERCE DR / FRANKLIN HILL RD HOLIDAY INNFAFALR 5238 15:39 8887467539
+(Dispatch) 592 TARRTOWN RD FURNACE RUN RD / STATE ROUTE 1038, BUTLER RD PJ GRECOFVEH 5258 17:45 7249548780
 
 Contact: Jacob Dively <jpdively@gmail.com>
 Sender: 911Dispatch@co.armstrong.pa.us
@@ -57,13 +59,17 @@ public class PAArmstrongCountyParser extends SmartAddressParser {
     // We need to call the smart parser twice, once for the real address
     // and a second time to get the cross streets (which look like intersections)
     
+    body = body.replace(",", "/");
     parseAddress(StartType.START_ADDR, body, data);
     body = getLeft();
     do {
       if (body.startsWith("/")) body = body.substring(1).trim();
       Result result2 = parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS, body);
       if (result2.getStatus() > 0) {
+        String oldCross = data.strCross;
+        data.strCross = "";
         result2.getData(data);
+        data.strCross = append(oldCross, " / ", data.strCross);
         body = getLeft();
       }
     } while (body.startsWith("/"));
