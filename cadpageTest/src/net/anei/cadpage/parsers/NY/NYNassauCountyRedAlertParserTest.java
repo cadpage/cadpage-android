@@ -339,18 +339,24 @@ public class NYNassauCountyRedAlertParserTest extends BaseParserTest {
         "X:HAMILTON ROAD",
         "PLACE:NU IMAGE MEDICAL ASSOCIATES",
         "TIME:10:39:01");
-  }
-  
-  @Test
-  public void testUnknown4() {
 
-    doTest("T1",
+    doTest("T2",
         "FRM:paging@alpinesoftware.com\nMSG:Signal 9 . . Overdose at FAIRFIELD APARTMENTS 675 CONKLIN ST CS: SECATOGUE AVE. . 22:45:13",
         "CALL:Signal 9 - Overdose",
         "ADDR:675 CONKLIN ST",
         "X:SECATOGUE AVE",
         "PLACE:FAIRFIELD APARTMENTS",
         "TIME:22:45:13");
+
+    doTest("T3",
+        "Investigation: SILENT CALL 626 ONLY at 3750 HEMPSTEAD TPKE, LEVITTOWN  c/s: WANTAGH AV SOUTH   O: STOP & SHOP . . 20:57:26",
+        "CALL:Investigation",
+        "INFO:SILENT CALL 626 ONLY",
+        "ADDR:3750 HEMPSTEAD TPKE",
+        "CITY:LEVITTOWN",
+        "X:WANTAGH AV SOUTH",
+        "PLACE:STOP & SHOP",
+        "TIME:20:57:26");
 
   }
   
