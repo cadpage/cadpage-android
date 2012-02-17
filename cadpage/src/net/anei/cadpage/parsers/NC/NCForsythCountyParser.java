@@ -42,10 +42,13 @@ public class NCForsythCountyParser extends FieldProgramParser {
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "FC", "FORSYTH COUNTY",
+      "BE", "BETHANIA",
       "CL", "CLEMMONS",
+      "HP", "HIGH POINT",
       "KE", "KERNERSVILLE",
       "LE", "LEWISVILLE",
       "RH", "RURAL HALL",
+      "TO", "TOBACCOVILLE",
       "WS", "WINSTON-SALEM"
   });
   
