@@ -49,6 +49,7 @@ public class NCForsythCountyParser extends FieldProgramParser {
       "LE", "LEWISVILLE",
       "RH", "RURAL HALL",
       "TO", "TOBACCOVILLE",
+      "WA", "WALKERTOWN",
       "WS", "WINSTON-SALEM"
   });
   
