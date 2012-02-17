@@ -3799,15 +3799,6 @@ System: Sundance
 **********************************************************
 ** Broken locations **
 **********************************************************
-Las Vegas, NV (replacement)
-Contact: Trevor Nelson <robs_trevor@yahoo.com>
-Sender: sms@pageway.net
-SMS / 725 12011164 Pri:4 Prob:Sch Grid:2625-1/11 3186 S MARYLAND PKWY Bld:ER Apt:25 Zip:89169
-SMS / 725 12011200 Pri:4 Prob:Imm Grid:2429-1/11 61 N NELLIS BLVD Bld: Apt: Zip:89110
-SMS / 725 12011221 Pri:5 Prob:Imm Grid:2826-1/11 2170 E HARMON AV Bld: Apt:324A Zip:89119
-SMS / 725 12011269 Pri:5 Prob:Imm Grid:1823-1/11 2202 W CRAIG RD Bld: Apt: Zip:89032
-
-SMS / 725 12011269 Disp:16:59:20 Enroute:16:59:27 On Scene:17:26:43 To Hosp:17:40:01 At Hosp:17:58:28
 **********************************************************
 York County, ME (replacement)
 Contact: Sean Perkins <sperkins@waterborofire.org>

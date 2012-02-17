@@ -1562,7 +1562,7 @@ public class FieldProgramParser extends SmartAddressParser {
 
     @Override
     public void parse(String field, Data data) {
-      data.strApt = field;
+      data.strApt = append(data.strApt, "-", field);
     }
   }
 

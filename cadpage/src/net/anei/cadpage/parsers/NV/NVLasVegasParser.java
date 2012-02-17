@@ -9,93 +9,66 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /*
 Las Vegas, NV
-Contact: Andy Stone <akmedic33@gmail.com>
-Sender: sms@epageit.net
-System: GEAC software  
+Contact: Trevor Nelson <robs_trevor@yahoo.com>
+Sender: sms@pageway.net
+SMS / 725 12011164 Pri:4 Prob:Sch Grid:2625-1/11 3186 S MARYLAND PKWY Bld:ER Apt:25 Zip:89169
+SMS / 725 12011200 Pri:4 Prob:Imm Grid:2429-1/11 61 N NELLIS BLVD Bld: Apt: Zip:89110
+SMS / 725 12011221 Pri:5 Prob:Imm Grid:2826-1/11 2170 E HARMON AV Bld: Apt:324A Zip:89119
+SMS / 725 12011269 Pri:5 Prob:Imm Grid:1823-1/11 2202 W CRAIG RD Bld: Apt: Zip:89032
 
-[SMS]  RE: 4051722 U: 3901, P: 2, G: 2914, PH: 28 L: 4966 MOMENTI ST-CC# , B: , AL: PC:, 26B PN:, N:26B], Location from Fire: 4966 MOMENTI ST, 01:57:51 88YOM CB...SE
-[SMS]  I: 4051701 U: 3901, P: 2, G: 2819, PH: 97 L: 6255 W TROPICANA AVE# , B: , AL: PC:, 32B PN:, N:32B], 00:38:29 Class of service: WPH2], 00:38:29 Validity of add
-[SMS]  I: 4051596 U: 3901, P: 2, G: 3223, PH: 55 L: S I 215 / S I 15# , B: , AL: PC:, 29B PN:, N:29B], 18:24:23 PR WAS PASSERBY UNK IF DRIVER IS INJ], 18:24:16 NHP E
-[SMS]  I: 4050480 U: 3901, P: 1, G: 2715, PH: 62 L: 3779 TOHONO CANYON ST-CC# , B: , AL: PC:, 19D PN:, N:19D], Location from Fire: 3779 TOHONO CANYON ST, 22:04:52 Cl
-[SMS]  I: 4050510 U: 3901, P: 1, G: 2925, PH: 92 L: 5757 WAYNE NEWTON BLVD-CC# , B: MCCARRAN INTERNATION, AL: PC:, 31D PN:, N:31D], Location from Fire: 5757 WAYNE NE
-[SMS]  I: 4051701 U: 3901, P: 2, G: 2819, PH: 97 L: 6255 W TROPICANA AVE# , B: , AL: PC:, 32B PN:, N:32B], 00:38:29 Class of service: WPH2], 00:38:29 Validity of add
-[SMS]  RE: 4051722 U: 3901, P: 2, G: 2914, PH: 28 L: 4966 MOMENTI ST-CC# , B: , AL: PC:, 26B PN:, N:26B], Location from Fire: 4966 MOMENTI ST, 01:57:51 88YOM CB...SE
-[SMS]  I: 4051593 U: 3901, P: 2, G: 3316, PH: 99 L: 291 TAYMAN PARK AVE# , B: , AL: PC:, 25B PN:, N:25B], 18:22:40 17YOM,, /L2K ,, CODE 4 TO ENTER METO 97], 18:22:19
-[SMS]  I: 4051184 U: 3901, P: 1, G: 2915, PH: 51 L: 10196 STONE OAK CT-CC# , B: , AL: PC:, 10D PN:, N:10D], Location from Fire: 10196 STONE OAK CT, 01:36:01 [Geograp
-[SMS]  I: 4049937 U: 3901, P: 1, G: 2824, PH: 57 L: 265 E HARMON AVE# , B: , AL: PC:, 6C PN:, N:6C], 00:09:13 65YOM,CSHORT OF BREATH], 00:09:04 [Address: 265 E HARMO
+*** Should not parse ***
+SMS / 725 12011269 Disp:16:59:20 Enroute:16:59:27 On Scene:17:26:43 To Hosp:17:40:01 At Hosp:17:58:28
 
 */
 
 public class NVLasVegasParser extends FieldProgramParser {
   
-  private static final Pattern TIME_PTN = Pattern.compile("\\b\\d\\d:\\d\\d:\\d\\d\\b");
-  private static final Pattern TIME_PTN2 = Pattern.compile("], \\d\\d:\\d\\d:\\d\\d\\b");
+  private static final Pattern MARKER = Pattern.compile("^SMS / 725 (\\d{8}) ");
   
   public NVLasVegasParser() {
     super("LAS VEGAS", "NV",
-           "I:ID U:UNIT P:PRI G:MAP PH:MAP L:ADDR B:PLACE AL:PLACE PC:CODE PN:SKIP N:SKIP");
+           "Pri:PRI! Prob:CALL! Grid:ADDR! Bld:APT! Apt:APT! Zip:CITY!");
   }
   
   @Override
   public String getFilter() {
-    return "sms@epageit.net";
+    return "sms@pageway.net";
   }
   
   @Override
-  public boolean parseMsg(String subject, String body, Data data) {
-    
-    if (!subject.equals("SMS")) return false;
-    
-    body = body.replaceFirst("^RE:", "I:");
-    int pt = body.indexOf("], ");
-    if (pt < 0) return false;
-    String extra = body.substring(pt+3).trim();
-    body = body.substring(0,pt).trim();
-    body = body.replace(",", " ");
-    if (!parseMsg(body, data)) return false;
-    Matcher match = TIME_PTN.matcher(extra);
-    if (match.find()) {
-      extra = extra.substring(match.end()).trim();
-      extra = TIME_PTN2.matcher(extra).replaceAll(",");
-      data.strSupp = extra;
-    }
-    
-    return true;
+  public boolean parseMsg(String body, Data data) {
+    Matcher match = MARKER.matcher(body);
+    if (!match.find()) return false;
+    data.strCallId = match.group(1);
+    body = body.substring(match.end()).trim();
+    if (body.startsWith("Disp:"))  return false;
+    return super.parseMsg(body, data);
   }
   
+  @Override
+  public String getProgram() {
+    return "ID " + super.getProgram();
+  }
+  
+  private static final Pattern ADDRESS_PTN = Pattern.compile("(\\d{4}-\\d/\\d{2}) +(.*)");
   private class MyAddressField extends AddressField {
     @Override
     public void parse(String field, Data data) {
-      if (field.endsWith("#")) field = field.substring(0,field.length()-1).trim();
-      if (field.endsWith("-CC")) field = field.substring(0,field.length()-3).trim();
-      super.parse(field, data);
+      Matcher match = ADDRESS_PTN.matcher(field);
+      if (!match.matches()) abort();
+      data.strMap = match.group(1);
+      super.parse(match.group(2), data);
     }
-  }
-  
-  private class MyMapField extends MapField {
+    
     @Override
-    public void parse(String field, Data data) {
-      data.strMap = append(data.strMap, "-", field);
-    }
-  }
-  
-  private class MyPlaceField extends PlaceField {
-    @Override
-    public void parse(String field, Data data) {
-      data.strPlace = append(data.strPlace, " - ", field);
+    public String getFieldNames() {
+      return "MAP " + super.getFieldNames();
     }
   }
   
   @Override
   public Field getField(String name) {
     if (name.equals("ADDR")) return new MyAddressField();
-    if (name.equals("MAP")) return new MyMapField();
-    if (name.equals("PLACE")) return new MyPlaceField();
     return super.getField(name);
-  }
-  
-  @Override
-  public String getProgram() {
-    return super.getProgram() + " INFO";
   }
 }
