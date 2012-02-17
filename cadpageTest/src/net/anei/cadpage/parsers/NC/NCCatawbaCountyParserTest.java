@@ -32,6 +32,7 @@ public class NCCatawbaCountyParserTest extends BaseParserTest {
         "|2010-188877*1127 2ND ST NE*218**CONOVER**LIFELINE*********",
         "ID:2010-188877",
         "ADDR:1127 2ND ST NE",
+        "APT:218",
         "CITY:CONOVER",
         "CALL:LIFELINE");
 
@@ -67,7 +68,7 @@ public class NCCatawbaCountyParserTest extends BaseParserTest {
         "2011-020998*100 SOUTHWEST BLVD*B*1*NEWTON**TESTING*ALARMING TESTING*CATAWBA COUNTY SHERIFFS OFFICE*828-464-5241*C51*363*Medical: No*Hazards: No*02/09/2011 07:52:50 : pos4 : BADRUM   Landmark: CATAWBA COUNTY SHERIFFS OFFICE*",
         "ID:2011-020998",
         "ADDR:100 SOUTHWEST BLVD",
-        "APT:1",
+        "APT:B-1",
         "CITY:NEWTON",
         "INFO:ALARMING TESTING / Medical: No / Hazards: No / 02/09/2011 07:52:50 : pos4 : BADRUM   Landmark: CATAWBA COUNTY SHERIFFS OFFICE",
         "CALL:TESTING",
@@ -91,7 +92,7 @@ public class NCCatawbaCountyParserTest extends BaseParserTest {
         "ID:2011-021016",
         "ADDR:1101 S BRADY AV",
         "MADDR:1101 S BRADY AVE",
-        "APT:12",
+        "APT:E-12",
         "CITY:NEWTON",
         "INFO:ALARMING TESTING / Medical: No / Hazards: No / 02/09/2011 08:20:34 : pos4 : BADRUM   Landmark: EMS STANDBY NEWTON AREA",
         "CALL:TESTING",
@@ -103,6 +104,7 @@ public class NCCatawbaCountyParserTest extends BaseParserTest {
         "2011-021018*100 SOUTHWEST BLVD*A**NEWTON*Landmark Comment: AED 1ST FLOOR LOBBY HALLWAY NEAR PUBLIC REST ROOMS*TESTING*ALARMING TESTING**828-465-8200*C51*363*Medical: No*Hazards: No*02/09/2011 08:26:53 : pos4 : BADRUM   Landmark: CATAWBA COUNTY GOVERNMENT CENTER  Landmark Comment: AED 1ST FLOOR LOBBY HALLWAY NEAR PUBLIC REST ROOMS*",
         "ID:2011-021018",
         "ADDR:100 SOUTHWEST BLVD",
+        "APT:A",
         "CITY:NEWTON",
         "INFO:Landmark Comment: AED 1ST FLOOR LOBBY HALLWAY NEAR PUBLIC REST ROOMS / ALARMING TESTING / Medical: No / Hazards: No / 02/09/2011 08:26:53 : pos4 : BADRUM   Landmark: CATAWBA COUNTY GOVERNMENT CENTER  Landmark Comment: AED 1ST FLOOR LOBBY HALLWAY NEAR PUBLIC REST ROOMS",
         "CALL:TESTING",

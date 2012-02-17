@@ -291,7 +291,7 @@ public class CASanBernardinoCountyParserTest extends BaseParserTest {
         " | FU - U>Mission Rd / California St - LOMC >LOC INFO: >AGN MAP:LOM022 -TB MAP:647 F1 >X ST: >E264,MS251R,ME263,BC402>COMMENTS:WPH2 LAT:34.05005300 LON:-117.226889 METERS:14 %:095,RP STATES ON THE CORNER OF MISSION AND CALIFORNIA OFF THE ACCESS ROAD TO THE",
         "CALL:FU - U - Unknown Type Fire",
         "ADDR:Mission Rd & California St",
-        "CITY:LOMC",
+        "CITY:LOMA LINDA",
         "MAP:LOM022 - 647 F1",
         "UNIT:E264,MS251R,ME263,BC402",
         "INFO:WPH2 LAT:34.05005300 LON:-117.226889 METERS:14 %:095,RP STATES ON THE CORNER OF MISSION AND CALIFORNIA OFF THE ACCESS ROAD TO THE");
@@ -698,7 +698,7 @@ public class CASanBernardinoCountyParserTest extends BaseParserTest {
         "CALL:UNC-D3 - Unconscious Person",
         "ADDR:2140 Mentone Blvd",
         "APT:133",
-        "CITY:MEN",
+        "CITY:MENTONE",
         "PLACE:FRIENDLY HILLS MHP",
         "MAP:MEN099 - 609 A5",
         "X:CRAFTON AVE/PLUMWOOD LN",

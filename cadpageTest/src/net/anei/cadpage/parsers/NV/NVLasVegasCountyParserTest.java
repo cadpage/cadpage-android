@@ -12,107 +12,51 @@ public class NVLasVegasCountyParserTest extends BaseParserTest {
   }
   
   @Test
+  public void testBadMsg() {
+    doBadTest("SMS / 725 12011269 Disp:16:59:20 Enroute:16:59:27 On Scene:17:26:43 To Hosp:17:40:01 At Hosp:17:58:28");
+  }
+  
+  @Test
   public void testParser() {
 
     doTest("T1",
-        "[SMS]  RE: 4051722 U: 3901, P: 2, G: 2914, PH: 28 L: 4966 MOMENTI ST-CC# , B: , AL: PC:, 26B PN:, N:26B], Location from Fire: 4966 MOMENTI ST, 01:57:51 88YOM CB...SE",
-        "ID:4051722",
-        "UNIT:3901",
-        "PRI:2",
-        "MAP:2914-28",
-        "ADDR:4966 MOMENTI ST",
-        "CODE:26B",
-        "INFO:88YOM CB...SE");
+        "SMS / 725 12011164 Pri:4 Prob:Sch Grid:2625-1/11 3186 S MARYLAND PKWY Bld:ER Apt:25 Zip:89169",
+        "ID:12011164",
+        "PRI:4",
+        "CALL:Sch",
+        "MAP:2625-1/11",
+        "ADDR:3186 S MARYLAND PKWY",
+        "APT:ER-25",
+        "CITY:89169");
 
     doTest("T2",
-        "[SMS]  I: 4051701 U: 3901, P: 2, G: 2819, PH: 97 L: 6255 W TROPICANA AVE# , B: , AL: PC:, 32B PN:, N:32B], 00:38:29 Class of service: WPH2], 00:38:29 Validity of add",
-        "ID:4051701",
-        "UNIT:3901",
-        "PRI:2",
-        "MAP:2819-97",
-        "ADDR:6255 W TROPICANA AVE",
-        "CODE:32B",
-        "INFO:Class of service: WPH2, Validity of add");
+        "SMS / 725 12011200 Pri:4 Prob:Imm Grid:2429-1/11 61 N NELLIS BLVD Bld: Apt: Zip:89110",
+        "ID:12011200",
+        "PRI:4",
+        "CALL:Imm",
+        "MAP:2429-1/11",
+        "ADDR:61 N NELLIS BLVD",
+        "CITY:89110");
 
     doTest("T3",
-        "[SMS]  I: 4051596 U: 3901, P: 2, G: 3223, PH: 55 L: S I 215 / S I 15# , B: , AL: PC:, 29B PN:, N:29B], 18:24:23 PR WAS PASSERBY UNK IF DRIVER IS INJ], 18:24:16 NHP E",
-        "ID:4051596",
-        "UNIT:3901",
-        "PRI:2",
-        "MAP:3223-55",
-        "ADDR:S I 215 & S I 15",
-        "CODE:29B",
-        "INFO:PR WAS PASSERBY UNK IF DRIVER IS INJ, NHP E");
+        "SMS / 725 12011221 Pri:5 Prob:Imm Grid:2826-1/11 2170 E HARMON AV Bld: Apt:324A Zip:89119",
+        "ID:12011221",
+        "PRI:5",
+        "CALL:Imm",
+        "MAP:2826-1/11",
+        "ADDR:2170 E HARMON AV",
+        "MADDR:2170 E HARMON AVE",
+        "APT:324A",
+        "CITY:89119");
 
     doTest("T4",
-        "[SMS]  I: 4050480 U: 3901, P: 1, G: 2715, PH: 62 L: 3779 TOHONO CANYON ST-CC# , B: , AL: PC:, 19D PN:, N:19D], Location from Fire: 3779 TOHONO CANYON ST, 22:04:52 Cl",
-        "ID:4050480",
-        "UNIT:3901",
-        "PRI:1",
-        "MAP:2715-62",
-        "ADDR:3779 TOHONO CANYON ST",
-        "CODE:19D",
-        "INFO:Cl");
-
-    doTest("T5",
-        "[SMS]  I: 4050510 U: 3901, P: 1, G: 2925, PH: 92 L: 5757 WAYNE NEWTON BLVD-CC# , B: MCCARRAN INTERNATION, AL: PC:, 31D PN:, N:31D], Location from Fire: 5757 WAYNE NE",
-        "ID:4050510",
-        "UNIT:3901",
-        "PRI:1",
-        "MAP:2925-92",
-        "ADDR:5757 WAYNE NEWTON BLVD",
-        "PLACE:MCCARRAN INTERNATION",
-        "CODE:31D");
-
-    doTest("T6",
-        "[SMS]  I: 4051701 U: 3901, P: 2, G: 2819, PH: 97 L: 6255 W TROPICANA AVE# , B: , AL: PC:, 32B PN:, N:32B], 00:38:29 Class of service: WPH2], 00:38:29 Validity of add",
-        "ID:4051701",
-        "UNIT:3901",
-        "PRI:2",
-        "MAP:2819-97",
-        "ADDR:6255 W TROPICANA AVE",
-        "CODE:32B",
-        "INFO:Class of service: WPH2, Validity of add");
-
-    doTest("T7",
-        "[SMS]  RE: 4051722 U: 3901, P: 2, G: 2914, PH: 28 L: 4966 MOMENTI ST-CC# , B: , AL: PC:, 26B PN:, N:26B], Location from Fire: 4966 MOMENTI ST, 01:57:51 88YOM CB...SE",
-        "ID:4051722",
-        "UNIT:3901",
-        "PRI:2",
-        "MAP:2914-28",
-        "ADDR:4966 MOMENTI ST",
-        "CODE:26B",
-        "INFO:88YOM CB...SE");
-
-    doTest("T8",
-        "[SMS]  I: 4051593 U: 3901, P: 2, G: 3316, PH: 99 L: 291 TAYMAN PARK AVE# , B: , AL: PC:, 25B PN:, N:25B], 18:22:40 17YOM,, /L2K ,, CODE 4 TO ENTER METO 97], 18:22:19",
-        "ID:4051593",
-        "UNIT:3901",
-        "PRI:2",
-        "MAP:3316-99",
-        "ADDR:291 TAYMAN PARK AVE",
-        "CODE:25B",
-        "INFO:17YOM,, /L2K ,, CODE 4 TO ENTER METO 97,");
-
-    doTest("T9",
-        "[SMS]  I: 4051184 U: 3901, P: 1, G: 2915, PH: 51 L: 10196 STONE OAK CT-CC# , B: , AL: PC:, 10D PN:, N:10D], Location from Fire: 10196 STONE OAK CT, 01:36:01 [Geograp",
-        "ID:4051184",
-        "UNIT:3901",
-        "PRI:1",
-        "MAP:2915-51",
-        "ADDR:10196 STONE OAK CT",
-        "CODE:10D",
-        "INFO:[Geograp");
-
-    doTest("T10",
-        "[SMS]  I: 4049937 U: 3901, P: 1, G: 2824, PH: 57 L: 265 E HARMON AVE# , B: , AL: PC:, 6C PN:, N:6C], 00:09:13 65YOM,CSHORT OF BREATH], 00:09:04 [Address: 265 E HARMO",
-        "ID:4049937",
-        "UNIT:3901",
-        "PRI:1",
-        "MAP:2824-57",
-        "ADDR:265 E HARMON AVE",
-        "CODE:6C",
-        "INFO:65YOM,CSHORT OF BREATH, [Address: 265 E HARMO");
+        "SMS / 725 12011269 Pri:5 Prob:Imm Grid:1823-1/11 2202 W CRAIG RD Bld: Apt: Zip:89032",
+        "ID:12011269",
+        "PRI:5",
+        "CALL:Imm",
+        "MAP:1823-1/11",
+        "ADDR:2202 W CRAIG RD",
+        "CITY:89032");
   }
   
 
