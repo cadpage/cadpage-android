@@ -1,32 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">02122012</string>
-  <string name="release_version">v1.5.15</string>
+  <string name="release_date">02162012</string>
+  <string name="release_version">v1.5.16</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="min_expire_date">10012012</string>
   <string name="release_text">
 What"'"s new in this release\n
-\n
-New Locations:\n
-West Midlands Region, UK\n
+Denton County, TX is now sponsored by Lake Cities FD\n
 \n
 Location Parsing Fixes:\n
-Weld County, CO\n
-Queen Anne"'"s County, MD\n
-Johnson County, MO\n
-Genesee County, NY\n
-Mecklenburg County, NC\n
-Deschutes County, OR\n
+San Bernardino County, CA\n
+Shasta County, CA\n
+Greene County, NY\n
+Suffolk County, NY\n
+Ulster County, NY\n
+Las Vegas, NV\n
+Forsyth County, NC\n
+Rowan County, NC\n
 Linn County, OR\n
-Berks County, PA\n
-Bucks County, PA\n
-Chester County, PA\n
-\n
-General Fixes:\n
-Problems with split page merge logic introduced in last release.\n
-Problems picking best result from multiple location settings.\n
-Removed Test Last Message option from Location settings\n
+Armstrong County, PA\n
+Denton County, TX\n
+Isle of Wight County, VA\n
   </string>  
 </resources>
   
