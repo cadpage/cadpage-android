@@ -80,6 +80,10 @@ Contact: Justin Kanetis <kanetisj257@gmail.com>
 Sender: paging@alpinesoftware.com
 FRM:paging@alpinesoftware.com\nMSG:Signal 9 . . Overdose at FAIRFIELD APARTMENTS 675 CONKLIN ST CS: SECATOGUE AVE. . 22:45:13
 
+Contact: Greggory Kenny <kennyg1025@gmail.com>
+Sender: levittown@rednmxcad.com
+Investigation: SILENT CALL 626 ONLY at 3750 HEMPSTEAD TPKE, LEVITTOWN  c/s: WANTAGH AV SOUTH   O: STOP & SHOP . . 20:57:26
+
 */
 
 public class NYNassauCountyRedAlertParser extends DispatchRedAlertParser {

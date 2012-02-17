@@ -57,11 +57,11 @@ Dispatch / LAFF\nFIRESR\nD\n711 MEADOWLARK DR\nBOLFF\n22\nalready toned stn 6 mn
 
 public class COWeldCountyParser extends FieldProgramParser {
 
-  protected COWeldCountyParser() {
+  public COWeldCountyParser() {
     this("WELD COUNTY", "CO");
   }
   
-  public COWeldCountyParser(String defCity, String defState) {
+  protected COWeldCountyParser(String defCity, String defState) {
     super(defCity, defState,
           "SKIP CALL D ADDR SRC UNIT! INFO+");
   }
