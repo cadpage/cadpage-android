@@ -2011,6 +2011,11 @@ Cabell County. WV (WVCabellCountyParser)
 1 of 2\nFRM:dispatch@ccerc911.org\nSUBJ:(22343) CCERC911\nMSG:113030199/10-30-11/14:16:29/Structure Fire/6419 RT 60/BARBOURSVILLE/GEORGES DRY\n(Con't) 2 of 2\nCLEANERS/FARMDALE RD/MAIN ST/201 231 ENRT/237/(End)
 1 of 2\nFRM:dispatch@ccerc911.org\nSUBJ:(22412) CCERC911\nMSG:113030260/10-30-11/16:53:24/Abdominal Pain/6430 OHIO RIVER RD APT1/LESAGE/TAN\n(Con't) 2 of 2\nZONE/DOUTHAT LN/NINE MILE RD/22YR FEMALE/27WKS PREGNANT/(End)
 ***************************************************************************
+Kanawha County, WV (WVKanawhaCountyParser)
+(Message Forwarded by PageGate)  FIRE ALARM reported at 95 RHL BLVD in SOUTH CHARLESTON on 02/10/12 15:00
+(Message Forwarded by PageGate)  DECREASED LOC (SEMI-UNRESPONSIVE) reported at 2700 MOUNTAINEER BLVD in SOUTH CHARLESTON on 02/10/12 18:43
+(Message Forwarded by PageGate)  SHORTNESS OF BREATH reported at 5218 1/2 INDIANA ST in SOUTH CHARLESTON on 02/10/12 19:03
+***************************************************************************
 Eau Claire, WI (VAEauClaireParser)
 [Case# 11-253]  @5:23:16 AM // Brunswick // W2250 Rim Rock Rd // Vehicle Fire // vehicle fire, no exposures
 [Case# 11-252]  @7:21:18 PM // Washington // 4940 Meadowbrook Ln // Sounding Fire Alarm // sounding fire alarm, showing 1st & 2nd floor smoke detector
@@ -2021,11 +2026,11 @@ LMC213 #:002011070865 ILS MED at 7701 95TH ST Rem: 50 M ;HEART PROBLEM CONSCIOUS
 NLB260 #:002011071148 ALS MED at 4204 109TH ST Rem: 69 F ;CHEST PAIN CONSCIOUS: YES ,BREATHING: YES
 DMB193 #:002011072020 BLS MED at 10519 120TH AVE EAST TOURIST INFO CNTR Rem: CHEST PAIN
 ***************************************************************************
-***************************************************************************
 West Midlands, UK (ZUKWestMidlandsParser)
 E:1699 (16:45) Unconscious DY8 4JA The Brambles Residential Home 69a Vicarage Road Amblecote Stourbridge (390070,285129)
 E:989 (12:13) Abdo Pain DY8 1HB Highbury House Nursing Home The Old Rectory Parkfield Road Stourbridge (390537,284075)
 E:1131 (13:07) Allergy DY8 4AT 15 Jardine Close Amblecote Stourbridge (390184,284942)
+***************************************************************************
 ***************************************************************************
 ***************************************************************************
 *********** Districts that are not yet supported. *************************
@@ -3796,15 +3801,11 @@ System: Sundance
 ************  READY TO ROLL ******************************
 **********************************************************
 **********************************************************
-** Broken locations **
 **********************************************************
 **********************************************************
 **********************************************************
 ** Active911
 **********************************************************
-kanawawha County, WV
-Contact: support@active911.com
-https://www.active911.com/interface/parser_report.php?key=100-VCUPI
 *********************************************************
 Monmouth County, NJ (alternate?)
 Contact: Peter Hall <phall@englishtownfd.com>
