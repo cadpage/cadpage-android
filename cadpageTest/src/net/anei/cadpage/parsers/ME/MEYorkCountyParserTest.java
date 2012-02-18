@@ -15,49 +15,89 @@ public class MEYorkCountyParserTest extends BaseParserTest {
   public void testParser() {
 
     doTest("T1",
-        "[Page]  MEDICAL EMERGENCY26 EAST SHORE RD Waterboro7/4/2011 12:36",
+        "(Sanford RCC Page) MEDICAL EMERGENCY\nGOODALL HOSPITAL URGENT CARE/PHARMACY\n10 GOODALL DR \nWaterboro\n2/13/2012 16:59",
         "CALL:MEDICAL EMERGENCY",
-        "ADDR:26 EAST SHORE RD",
-        "CITY:Waterboro");
+        "PLACE:GOODALL HOSPITAL URGENT CARE/PHARMACY",
+        "ADDR:10 GOODALL DR",
+        "CITY:Waterboro",
+        "DATE:2/13/2012",
+        "TIME:16:59");
 
     doTest("T2",
-        "[Page]  FIRE, OTHER161 BEAVER DAM RD Waterboro7/4/2011 11:43",
-        "CALL:FIRE, OTHER",
-        "ADDR:161 BEAVER DAM RD",
-        "CITY:Waterboro");
+        "(Sanford RCC Page) MEDICAL EMERGENCY\n22 COYNE RD \nWaterboro\n2/13/2012 10:51",
+        "CALL:MEDICAL EMERGENCY",
+        "ADDR:22 COYNE RD",
+        "CITY:Waterboro",
+        "DATE:2/13/2012",
+        "TIME:10:51");
 
     doTest("T3",
-        "[Page]  MEDICAL EMERGENCYMX 270 MOTOR CROSS TRACKLyman7/3/2011 11:24",
-        "CALL:MEDICAL EMERGENCY",
-        "ADDR:MX 270 MOTOR CROSS TRACK",
-        "CITY:Lyman");
+        "(Sanford RCC Page) FIRE, OTHER\n23 BACK ST \nWaterboro\n2/13/2012 18:58",
+        "CALL:FIRE, OTHER",
+        "ADDR:23 BACK ST",
+        "CITY:Waterboro",
+        "DATE:2/13/2012",
+        "TIME:18:58");
 
     doTest("T4",
-        "[Page]  MEDICAL EMERGENCY54 ROCKY RD Lyman7/2/2011 17:51",
+        "(Sanford RCC Page) MEDICAL EMERGENCY\n50 SANFORD RD \nWaterboro\n2/14/2012 14:53",
         "CALL:MEDICAL EMERGENCY",
-        "ADDR:54 ROCKY RD",
-        "CITY:Lyman");
+        "ADDR:50 SANFORD RD",
+        "CITY:Waterboro",
+        "DATE:2/14/2012",
+        "TIME:14:53");
 
     doTest("T5",
-        "[Page]  FIRE, OTHERDEERING RIDGE RD.PHEASANT RUN RD Waterboro7/2/2011 03:22",
-        "CALL:FIRE, OTHER",
-        "ADDR:DEERING RIDGE RD & PHEASANT RUN RD",
-        "CITY:Waterboro");
+        "(Sanford RCC Page) MEDICAL EMERGENCY\n77 SOKOKIS TRL \nWaterboro\n2/14/2012 20:07",
+        "CALL:MEDICAL EMERGENCY",
+        "ADDR:77 SOKOKIS TRL",
+        "CITY:Waterboro",
+        "DATE:2/14/2012",
+        "TIME:20:07");
 
     doTest("T6",
-        "(Page) FIRE, STRUCTURE13 KINGS CT Waterboro7/23/2011 16:00",
-        "CALL:FIRE, STRUCTURE",
-        "ADDR:13 KINGS CT",
-        "CITY:Waterboro");
+        "(Sanford RCC Page) MEDICAL EMERGENCY\n22 MILL POND RD \nWaterboro\n2/15/2012 09:19",
+        "CALL:MEDICAL EMERGENCY",
+        "ADDR:22 MILL POND RD",
+        "CITY:Waterboro",
+        "DATE:2/15/2012",
+        "TIME:09:19");
 
     doTest("T7",
-        "(Page) MOTOR VEHICLE ACCIDENT-PI/HAZ979 SOKOKIS TRL Waterboro7/24/2011 13:31",
-        "CALL:MOTOR VEHICLE ACCIDENT-PI/HAZ",
-        "ADDR:979 SOKOKIS TRL",
-        "CITY:Waterboro");
+        "(Sanford RCC Page) MEDICAL EMERGENCY\nGOODALL HOSPITAL URGENT CARE/PHARMACY\n10 GOODALL DR \nWaterboro\n2/15/2012 10:30",
+        "CALL:MEDICAL EMERGENCY",
+        "PLACE:GOODALL HOSPITAL URGENT CARE/PHARMACY",
+        "ADDR:10 GOODALL DR",
+        "CITY:Waterboro",
+        "DATE:2/15/2012",
+        "TIME:10:30");
+
+    doTest("T8",
+        "(Sanford RCC Page) MEDICAL EMERGENCY\nLAKE ARROWHEAD\nWaterboro\n2/16/2012 14:53",
+        "CALL:MEDICAL EMERGENCY",
+        "ADDR:LAKE ARROWHEAD",
+        "CITY:Waterboro",
+        "DATE:2/16/2012",
+        "TIME:14:53");
+
+    doTest("T9",
+        "(Sanford RCC Page) MEDICAL EMERGENCY\n1331 SOKOKIS TRL \nWaterboro\n2/17/2012 05:41",
+        "CALL:MEDICAL EMERGENCY",
+        "ADDR:1331 SOKOKIS TRL",
+        "CITY:Waterboro",
+        "DATE:2/17/2012",
+        "TIME:05:41");
+
+    doTest("T10",
+        "(Sanford RCC Page) FIRE, OTHER\n26 LOGAN CIRCLE EXT \nWaterboro\n2/17/2012 11:29",
+        "CALL:FIRE, OTHER",
+        "ADDR:26 LOGAN CIRCLE EXT",
+        "CITY:Waterboro",
+        "DATE:2/17/2012",
+        "TIME:11:29");
   }
   
   public static void main(String[] args) {
-    new MEYorkCountyParserTest().generateTests("T8", "CALL ADDR CITY");
+    new MEYorkCountyParserTest().generateTests("T1");
   }
 }
