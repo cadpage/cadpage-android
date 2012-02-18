@@ -3790,10 +3790,6 @@ System: Sundance
 *general parser won't work*
 911@ci.ravenna.oh.us:* 15_edinburg_general29,MEDICAL EMERGENCY *\n3594,INDRUSTRY RD, * ,ROOTSTOWN * 89YOA MALE OXYGEN MACHINE BROKEN,\nTROU
 911@ci.ravenna.oh.us:* 15_edinburg_general29,MEDICAL EMERGENCY * 4265,ROCK SPRING RD, * ,Ravenna * 53 YR OLD MALE DIFFICULTY BREATHING, PO
-*********************************************************
-Monmouth County, NJ (alternate?)
-Contact: Peter Hall <phall@englishtownfd.com>
-[!] FIRA F FIRE ALARM | 21 LASATTA AV | X-ST: | BULIDING 700//SPRINKLER ROOM SMOKE DETECTOR | 08:22:17 | 02/17/2012
 **********************************************************
 **********************************************************
 **********************************************************
@@ -3803,25 +3799,33 @@ Contact: Peter Hall <phall@englishtownfd.com>
 ** Broken locations **
 **********************************************************
 **********************************************************
-York County, ME (replacement)
-Contact: Sean Perkins <sperkins@waterborofire.org>
-Sender: dispatch@sanfordmaine.org
-(Sanford RCC Page) MEDICAL EMERGENCY\nGOODALL HOSPITAL URGENT CARE/PHARMACY\n10 GOODALL DR \nWaterboro\n2/13/2012 16:59
-(Sanford RCC Page) MEDICAL EMERGENCY\n22 COYNE RD \nWaterboro\n2/13/2012 10:51
-(Sanford RCC Page) FIRE, OTHER\n23 BACK ST \nWaterboro\n2/13/2012 18:58
-(Sanford RCC Page) MEDICAL EMERGENCY\n50 SANFORD RD \nWaterboro\n2/14/2012 14:53
-(Sanford RCC Page) MEDICAL EMERGENCY\n77 SOKOKIS TRL \nWaterboro\n2/14/2012 20:07
-(Sanford RCC Page) MEDICAL EMERGENCY\n22 MILL POND RD \nWaterboro\n2/15/2012 09:19
-(Sanford RCC Page) MEDICAL EMERGENCY\nGOODALL HOSPITAL URGENT CARE/PHARMACY\n10 GOODALL DR \nWaterboro\n2/15/2012 10:30
-(Sanford RCC Page) MEDICAL EMERGENCY\nLAKE ARROWHEAD\nWaterboro\n2/16/2012 14:53
-(Sanford RCC Page) MEDICAL EMERGENCY\n1331 SOKOKIS TRL \nWaterboro\n2/17/2012 05:41
-(Sanford RCC Page) FIRE, OTHER\n26 LOGAN CIRCLE EXT \nWaterboro\n2/17/2012 11:29
 **********************************************************
 ** Active911
 **********************************************************
 kanawawha County, WV
 Contact: support@active911.com
 https://www.active911.com/interface/parser_report.php?key=100-VCUPI
+*********************************************************
+Monmouth County, NJ (alternate?)
+Contact: Peter Hall <phall@englishtownfd.com>
+*** CodeMessage client - rc.317@c-msg.net***
+(mCAD) [!] FIRA F FIRE ALARM | 21 LASATTA AV | X-ST: | BULIDING 700//SPRINKLER ROOM SMOKE DETECTOR | 08:22:17 | 02/17/2012
+(mCAD) [!] FIRA F FIRE ALARM | 4189 N RT 9 | X-ST: RT 522/SCHIBANOFF RD | BUSN: BROCK FARMS // ZONE: GENERAL | 15:30:16 | 01/26/2012
+(mCAD) [!] FIRA F FIRE ALARM | 124 SHINNECOCK DR | X-ST: | LEFT POT ON STOVE//HOUSE FILLED W/SMOKE | 15:31:14 | 01/26/2012
+(mCAD) [!] FIRS F FIRE STRUC | 15 APPLE BLOSSOM LN BLOSSUM | X-ST: THOMPSON GROVE RD/ | FIRE IN GARAGE | 21:22:19 | 01/26/2012
+(mCAD) [!] FIRS F FIRE STRUC | AVALON LA | X-ST: SPRINGHOUSE CI/ | ACROSS FROM 13 NO HOUSE NUMBER//SEES FLAMES | 18:59:46 | 01/27/2012
+(mCAD) [!] FIRS F FIRE STRUC | 18 KINNEY RD | X-ST: SWEETMANS LN/ | SMOKE COMING OUT OF WALL OVEN... | 18:18:33 | 01/28/2012
+(mCAD) [!] FIRW F FIRE WOODS | 47 LASATTA AV | X-ST: ENGLISH CLUB DR/CARRIAGE LN | 6X6 PIT UNATTENDED BURNING IN THE REAR OF THE | 14:30:44 | 01/31/2012
+(mCAD) [!] MVAF F MVA FIRE | FREEHOLD RD | X-ST: | PU TRUCK VS PU TRUCK/TELPHONE POLE AND WIRES | 13:22:55 | 02/02/2012
+(mCAD) [!] FIRA F FIRE ALARM | 49 LASATTA AV | X-ST: ENGLISH CLUB DR/CARRIAGE LN | BRANDYWINE/ZONE 2 GENERAL/ATT KEY | 10:41:21 | 02/05/2012
+(mCAD) [!] AIDF F AID-F | 5 SWEETMANS LN | X-ST: BORDER-MILLSTONE TWP/ST HWY 33 W | 6 HAVILAND DR .32 ODOR OF SMOKE IN RESD | 06:05:10 | 02/07/2012
+(mCAD) [!] MVFA F MVA FD/ALS | 232 SMITHBURG-527A RD | X-ST: ROBERTS RD/GRANDVIEW LN | CURVE NEAR CHURCH/2 VEH/ONE VEH WAS ON FIRE | 17:08:21 | 02/08/2012
+(mCAD) [!] FIRW F FIRE WOODS | 71 NEW BEGINNINGS CG | X-ST: TRACY STATION RD/GENESIS ST | KIDS AROUND A FIRE IN THE WOODS | 16:51:25 | 02/09/2012
+(mCAD) [!] FIRA F FIRE ALARM | 47 WILD TURKEY WY | X-ST: UNION HILL RD/ | APT D FIRE ALARM IN APT STILL GOING OFF PER C | 02:22:16 | 02/10/2012
+(mCAD) [!] GAS F GAS | 628 ST ANDREWS PL | X-ST: SAWGRASS DR/ | SMELLS GAS IN THE HALLWAY OF HIS RESIDENCE | 21:06:37 | 02/10/2012
+(mCAD) [!] FIRA F FIRE ALARM | 116 MILLHURST RD | X-ST: MAIN ST/STATION ST | COMMERCIAL-MANALAPAN ENGLISHTOWN BOARD OF ED | 11:28:04 | 02/14/2012
+(mCAD) [!] CRBA F CARB MONOX | 5 TURTLE HOLLOW DR | X-ST: KINNEY RD/ | CO ALARM SOUNDING//NO SYMPTOMS//EVACUATING | 09:34:25 | 02/15/2012
+(mCAD) [!] FIRA F FIRE ALARM | 21 LASATTA AV | X-ST: WATER ST/CARRIAGE LN | BULIDING 700//SPRINKLER ROOM SMOKE DETECTOR | 08:22:17 | 02/17/2012
 **********************************************************
 ** General location doesn't work **
 **********************************************************

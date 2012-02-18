@@ -1,36 +1,51 @@
 package net.anei.cadpage.parsers.ME;
 
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-
-import net.anei.cadpage.parsers.SmartAddressParser;
+import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /*
-Waterboro, ME
+York County, ME (replacement)
 Contact: Sean Perkins <sperkins@waterborofire.org>
-Sender: U.2229178@pager.ucom.com
-[Page]  MEDICAL EMERGENCY26 EAST SHORE RD Waterboro7/4/2011 12:36
-[Page]  FIRE, OTHER161 BEAVER DAM RD Waterboro7/4/2011 11:43
-[Page]  MEDICAL EMERGENCYMX 270 MOTOR CROSS TRACKLyman7/3/2011 11:24 
-[Page]  MEDICAL EMERGENCY54 ROCKY RD Lyman7/2/2011 17:51 
-[Page]  FIRE, OTHERDEERING RIDGE RD.PHEASANT RUN RD Waterboro7/2/2011 03:22 
-(Page) FIRE, STRUCTURE13 KINGS CT Waterboro7/23/2011 16:00
-(Page) MOTOR VEHICLE ACCIDENT-PI/HAZ979 SOKOKIS TRL Waterboro7/24/2011 13:31
+Sender: dispatch@sanfordmaine.org
 
-(Page) FIRE ALARM ACTIVATIONWATERBORO ELEMENTARY SCHOOL340 SOKOKIS TRL Waterboro7/28/2011 11:33
+(Sanford RCC Page) MEDICAL EMERGENCY\nGOODALL HOSPITAL URGENT CARE/PHARMACY\n10 GOODALL DR \nWaterboro\n2/13/2012 16:59
+(Sanford RCC Page) MEDICAL EMERGENCY\n22 COYNE RD \nWaterboro\n2/13/2012 10:51
+(Sanford RCC Page) FIRE, OTHER\n23 BACK ST \nWaterboro\n2/13/2012 18:58
+(Sanford RCC Page) MEDICAL EMERGENCY\n50 SANFORD RD \nWaterboro\n2/14/2012 14:53
+(Sanford RCC Page) MEDICAL EMERGENCY\n77 SOKOKIS TRL \nWaterboro\n2/14/2012 20:07
+(Sanford RCC Page) MEDICAL EMERGENCY\n22 MILL POND RD \nWaterboro\n2/15/2012 09:19
+(Sanford RCC Page) MEDICAL EMERGENCY\nGOODALL HOSPITAL URGENT CARE/PHARMACY\n10 GOODALL DR \nWaterboro\n2/15/2012 10:30
+(Sanford RCC Page) MEDICAL EMERGENCY\nLAKE ARROWHEAD\nWaterboro\n2/16/2012 14:53
+(Sanford RCC Page) MEDICAL EMERGENCY\n1331 SOKOKIS TRL \nWaterboro\n2/17/2012 05:41
+(Sanford RCC Page) FIRE, OTHER\n26 LOGAN CIRCLE EXT \nWaterboro\n2/17/2012 11:29
 
 */
 
-public class MEYorkCountyParser extends SmartAddressParser {
+public class MEYorkCountyParser extends FieldProgramParser {
   
-  private static final String[] CALL_LIST = new String[]{
-    "MEDICAL EMERGENCY",
-    "FIRE, OTHER",
-    "FIRE, STRUCTURE",
-    "MOTOR VEHICLE ACCIDENT-PI/HAZ"
-  };
+  public MEYorkCountyParser() {
+    super(CITY_LIST, "YORK COUNTY", "ME",
+           "CALL PLACE? ADDR/Z CITY DATETIME!");
+  }
   
+  @Override
+  public String getFilter() {
+    return "dispatch@sanfordmaine.org";
+  }
+  
+  @Override
+  public boolean parseMsg(String subject, String body, Data data) {
+    
+    if (!subject.equals("Sanford RCC Page")) return false;
+    return parseFields(body.split("\n"), data);
+  }
+  
+  @Override
+  protected Field getField(String name) {
+    if (name.equals("DATETIME")) return new DateTimeField("\\d\\d?/\\d\\d?/\\d{4} \\d\\d:\\d\\d", true);
+    return super.getField(name);
+  }
+
   private static final String[] CITY_LIST = new String[]{
     "ACTON",
     "ALFRED",
@@ -62,50 +77,4 @@ public class MEYorkCountyParser extends SmartAddressParser {
     "WELLS",
     "YORK"
   };
-  
-  private static final Pattern DATE_TIME_PTN = 
-    Pattern.compile("\\d\\d?/\\d\\d?/\\d{4} \\d\\d:\\d\\d");
-  
-  public MEYorkCountyParser() {
-    super(CITY_LIST, "YORK COUNTY", "ME");
-  }
-  
-  @Override
-  public String getFilter() {
-    return "@pager.ucom.com";
-  }
-  
-  @Override
-  public boolean parseMsg(String subject, String body, Data data) {
-    
-    if (!subject.equals("Page")) return false;
-    for (String call : CALL_LIST) {
-      if (body.startsWith(call)) {
-        data.strCall = call;
-        body = body.substring(call.length()).trim();
-        break;
-      }
-    }
-    if (data.strCall.length() == 0) return false;
-    
-    Matcher match = DATE_TIME_PTN.matcher(body);
-    if (!match.find()) return false;
-    String sAddr = body.substring(0, match.start()).trim().replace(".", " & ");
-    parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END, sAddr, data);
-    
-    // There is always a city, but sometimes there isn't a space separating it from the address :(
-    if (data.strCity.length() == 0) {
-      String sUpAddr = sAddr.toUpperCase();
-      for (String city : CITY_LIST) {
-        if (sUpAddr.endsWith(city)) {
-          int pt = sAddr.length() - city.length();
-          data.strAddress = "";
-          parseAddress(sAddr.substring(0,pt).trim(), data);
-          data.strCity = sAddr.substring(pt);
-          break;
-        }
-      }
-    }
-    return true;
-  }
 }
