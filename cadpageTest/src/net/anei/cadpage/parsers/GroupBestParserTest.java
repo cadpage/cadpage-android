@@ -33,9 +33,10 @@ public class GroupBestParserTest extends BaseParserTest {
     doTest("Weld County",
         "\" \" 24\nSIPF\nD\n3211 LUPTON AVE\nEV\n24\nMOM IS NOT WAKING UP 0000 Confirm 0001 Refuse TXT STOP to opt-out",
         "SRC:24",
-        "CALL:SIPF",
+        "CODE:SIPF",
+        "CALL:SICK AND INJURED POLICE/FIRE",
         "ADDR:3211 LUPTON AVE",
-        "CITY:EVANS",
+        "SRC:EV",
         "UNIT:24",
         "INFO:MOM IS NOT WAKING UP 0000 Confirm 0001 Refuse");
     
