@@ -3791,6 +3791,9 @@ System: Sundance
 911@ci.ravenna.oh.us:* 15_edinburg_general29,MEDICAL EMERGENCY *\n3594,INDRUSTRY RD, * ,ROOTSTOWN * 89YOA MALE OXYGEN MACHINE BROKEN,\nTROU
 911@ci.ravenna.oh.us:* 15_edinburg_general29,MEDICAL EMERGENCY * 4265,ROCK SPRING RD, * ,Ravenna * 53 YR OLD MALE DIFFICULTY BREATHING, PO
 *********************************************************
+Monmouth County, NJ (alternate?)
+Contact: Peter Hall <phall@englishtownfd.com>
+[!] FIRA F FIRE ALARM | 21 LASATTA AV | X-ST: | BULIDING 700//SPRINKLER ROOM SMOKE DETECTOR | 08:22:17 | 02/17/2012
 **********************************************************
 **********************************************************
 **********************************************************
