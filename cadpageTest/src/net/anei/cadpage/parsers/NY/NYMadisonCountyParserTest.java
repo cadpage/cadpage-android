@@ -19,4 +19,10 @@ public class NYMadisonCountyParserTest {
       setParser(new NYMadisonCountyParser());
     }
   }
+  
+  public static class TestGLAS extends NYMadisonCountyGLASParserTest {
+    public TestGLAS() {
+      setParser(new NYMadisonCountyParser());
+    }
+  }
 }
