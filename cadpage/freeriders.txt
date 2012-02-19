@@ -1129,6 +1129,8 @@ Brenton Ward(brenton.ward@gmail.com)
 %%02/15/2012
 Robert Vanburen (rvanburen29@gmail.com)<bobert6house@hotmail.com>
 Lori Ann Santini (nysaemtp@gmail.com)(nysaemtp@yahoo.com)
+%%02/19/2012
+Brandon Turner (b.turner0602@gmail.com)(bturner0602@yahoo.com)
 
 // List of users getting free credit for 2012
 $free_2012_list
@@ -1214,11 +1216,11 @@ $free_2012_list
 %%01/08/2012
 >>"David J. Morgan" (djmorgan911@gmail.com)<djmorgan@chatmosscable.com>
 >>Chris Lance <bhetranschris@gmail.com>
-timothy johnson (toolman24.tj@gmail.com)<tjohnson@squad294.org>
-Chris Roberts <rhvfd13@gmail.com>
-"Kevin R. Murphy" (kevrmurphy@gmail.com)<kmurphy@rileyfire.com>
-brett schroeder <bschroeder620@gmail.com>
-Brent Henry (brenthenry4@gmail.com)<nightmare4sgt@gmail.com>
+>>timothy johnson (toolman24.tj@gmail.com)<tjohnson@squad294.org>
+>>Chris Roberts <rhvfd13@gmail.com>
+>>"Kevin R. Murphy" (kevrmurphy@gmail.com)<kmurphy@rileyfire.com>
+>>brett schroeder <bschroeder620@gmail.com>
+>>Brent Henry (brenthenry4@gmail.com)<nightmare4sgt@gmail.com>
 %%01/09/2012
 Jason Overholt <jkoverholt@gmail.com>
 Mike Stadelman <infernoballz@gmail.com>
@@ -1513,3 +1515,9 @@ Joshua Higginbotham <higgi6492@gmail.com>
 "Kiva A. Sanders-Moultrie" <layahmax23@gmail.com>
 William Lazarcheck <sjerseyscraziest@gmail.com>
 Steven Moreland <stevenmoreland2103@gmail.com>
+%%02/18/2012
+Dustin Runyon (ma3runyon@gmail.com)<ma3runyon@yahoo.com>
+Joe Plummer <countycar1@gmail.com>
+Timmy <andt463@gmail.com>
+%%02/19/2012
+richard albright <ralbright12189@gmail.com>

@@ -24,6 +24,9 @@ S:Dispatch Center M:11-004214 GENERAL MEDICAL/AMBULANCE\n401 N 6 ST\nFRANKLIN ST
  */
 
 
+// We do have a DispatchSieldwarePareser class, but it can't handle the 
+// special case where a newline separates the place and city fields.  So we
+// don't use it for this one.
 public class IAJacksonCountyParser extends FieldProgramParser {
   
   private static final Pattern CALL_ID_PATTERN =

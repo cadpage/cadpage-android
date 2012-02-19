@@ -507,6 +507,30 @@ NATURAL GAS - OUTSIDE at 108 BIRCH LN, New City c/s: OLD BRICK RD / RED HILLRD .
 AUTOMATIC ALARM at 129 STRAWTOWN RD, New City c/s: VILLAGE WAY / RONE CT . . 00:07:21
 *******************************************************************************
 *******************************************************************************
+* DispatchShieldwareParser subclasses
+*******************************************************************************
+***************************************************************************
+Woodford County, IL (ILWoodfordCountyParser)
+(Woodford Comm) 11-022625 ODOR OF NATURAL GAS\n411 W FRONT ST\nN N PL /  N GREEN ST/\nCASEYS OF ROANOKE  ROANOKE\n1V14 ROFD WF27
+[Woodford Comm]  11-015377 FIRE\n1936 1400N\n1900E / 2000E/\nROANOKE\n1V24 ROFD
+[Woodford Comm]  11-014297 AMBULANCE CALL\n304 N FRANKLIN ST\nW DAVISON ST / W BRO/AD ST\nROANOKE\n1V24 ROFD
+***************************************************************************
+Muscalane County, IA (IAMuscatineCountyParser)
+.... (NFD) 12-001870 MEDICAL \n1089 180TH ST \nATWOOD AVE / BANCROF/T AVE \nNICHOLS \nNFR WLAB
+.... (NFD) 11-052885 ACCIDENT-PI\nIJEM AVE/ MAIN ST\nNICHOLS\nNFD NFR
+.... (NFD) 11-052886 FIRE-STRUCTURE\n410 RAILROAD ST\nIJEM AVE / WASHINGTO/N AVE\nNICHOLS\nNFD
+***************************************************************************
+Halifax County, VA (VAHalifaxCountyParser)
+[from Central]  11-023176 FALLEN PATIENT\n2210 N TERRYS BRIDGE RD\nJAMES D HAGOOD HWY //SUNSET LN\nHALIFAX
+[from Central]  11-023175 FALLEN PATIENT\n1167 LEWIS FERRELL RD\nOAK LEVEL RD / LITTL/E CIR\nSOUTH BOSTON
+[from Central]  11-023166 EMERGENCY MEDICAL SERVICE\n111-22 ROSEHILL DR\nPOWELL RD / DEAD END/EN\nROSE HILL APARTMENTS  SOUTH BOSTON
+***************************************************************************
+Winchester, VA (VAWinchesterParser)
+(Winchester ECC info) 11-041989 INSIDE SMELL OR SMOKE\n336 GRAY AVE\nNATIONAL AVE / VIRGI/NIA AVE\nWINCHESTER\nBAT6 E4 E5 EC18 M41 TK2 W1 E
+(Winchester ECC info) 11-042157 INSIDE FIRE STRUCT/ELEC/CHIMN\n122-1 E PALL MALL ST\nS CAMERON ST / S KEN/T ST\nWINCHESTER\nBAT6 E1 E4 E5 EC21 M51 TK2
+(Winchester ECC info) 11-042110 FIRE ALARM\n1890 AMHERST ST\nWESTSIDE STATION DR// CITY LIMITS\nADULT PSYCH CENTER  WINCHESTER\nE1 E4 EC15 TK2
+*******************************************************************************
+*******************************************************************************
 * DispatchSouthernParser subclasses
 *******************************************************************************
 *******************************************************************************
@@ -944,11 +968,6 @@ S:HRFD: Med: 687 Marion Rd M: 56 f deleious\n\n
 S:HRFD: Med:9918 Bluebonnet M: 70 M diaahra\n\n
 (HRFD: Med:14244 krotz Dr) m fall victim
 (HRFD: Med:6792 Michelle Dr) F Trouble Breathing
-***************************************************************************
-Woodford County, IL (ILWoodfordCountyParser)
-(Woodford Comm) 11-022625 ODOR OF NATURAL GAS\n411 W FRONT ST\nN N PL /  N GREEN ST/\nCASEYS OF ROANOKE  ROANOKE\n1V14 ROFD WF27
-[Woodford Comm]  11-015377 FIRE\n1936 1400N\n1900E / 2000E/\nROANOKE\n1V24 ROFD
-[Woodford Comm]  11-014297 AMBULANCE CALL\n304 N FRANKLIN ST\nW DAVISON ST / W BRO/AD ST\nROANOKE\n1V24 ROFD
 ***************************************************************************
 Jackson County, IN (INJacksonCountyParser)
 (medical run) 1047 E CR 400 S Wegan Church 80 y/o/f unconscious
@@ -1971,11 +1990,6 @@ Subject:BCSO CFS Info - DO NOT REPLY\n11-019210 BREATHING DIFFICULTY \n493 BROOK
 Subject:BCSO CFS Info - DO NOT REPLY\n11-019305 CHEST PAIN/HEART PROBLEM \n1562 GREENS CHAPEL RD \nMEREDITH MILL RD / G/RNADY RD \nBRODNA
 Subject:BCSO CFS Info - DO NOT REPLY\n11-019164 MOTOR VEHICLE CRASH \n1634-BLK LAWRENCEVILLE PLANK RD \nPOOR HOUSE RD / BRUNSWICK COMMONS DR
 ***************************************************************************
-Halifax County, VA (VAHalifaxCountyParser)
-[from Central]  11-023176 FALLEN PATIENT\n2210 N TERRYS BRIDGE RD\nJAMES D HAGOOD HWY //SUNSET LN\nHALIFAX
-[from Central]  11-023175 FALLEN PATIENT\n1167 LEWIS FERRELL RD\nOAK LEVEL RD / LITTL/E CIR\nSOUTH BOSTON
-[from Central]  11-023166 EMERGENCY MEDICAL SERVICE\n111-22 ROSEHILL DR\nPOWELL RD / DEAD END/EN\nROSE HILL APARTMENTS  SOUTH BOSTON
-***************************************************************************
 Lexington & Rockbridge Counties VA (VALexingtonRockbridgeCounty)
 [LCAD] Type: EMS-TRNSPORT Loc: 429 W NELSON ST Units: LXRS1, City: LEXINGTON 1/27/2011 2:10:08 PM SPORT. BRUSHY 1\nMessage Created 1/27/2011 2:10:00 PM
 [LCAD] Type: EMS-PAIN Loc: GREEN HILL APT Units: LXRS1, City: LEXINGTON 1/27/2011 1:22:32 AM **Nearest Address: 475 FOREST GROVE RD, LEXINGTON49 YOF HAVING A PANIC ATTACK & CAN`T FEEL LEGS.OPERATE BRUSHY 1\nMessage Created 1/27/2011 1:22:00 AM
@@ -2010,11 +2024,6 @@ Waynesboro, VA (VAWaynesboroParser)
 Dispatch2:RESPOND SEIZURES 14 FRONTIER RIDGE CT, AP1302 SARS 1
 Dispatch2:MVC, HEAD ON COLLISION MAIN-ROSSER-BROAD
 Dispatch:RESPOND - 2ND CALL - CHEST PAIN - 1142 NEW HOPE RD, AP3
-***************************************************************************
-Winchester, VA (VAWinchesterParser)
-(Winchester ECC info) 11-041989 INSIDE SMELL OR SMOKE\n336 GRAY AVE\nNATIONAL AVE / VIRGI/NIA AVE\nWINCHESTER\nBAT6 E4 E5 EC18 M41 TK2 W1 E
-(Winchester ECC info) 11-042157 INSIDE FIRE STRUCT/ELEC/CHIMN\n122-1 E PALL MALL ST\nS CAMERON ST / S KEN/T ST\nWINCHESTER\nBAT6 E1 E4 E5 EC21 M51 TK2
-(Winchester ECC info) 11-042110 FIRE ALARM\n1890 AMHERST ST\nWESTSIDE STATION DR// CITY LIMITS\nADULT PSYCH CENTER  WINCHESTER\nE1 E4 EC15 TK2
 ***************************************************************************
 Cabell County. WV (WVCabellCountyParser)
 1 of 2\nFRM:dispatch@ccerc911.org\nSUBJ:(22225) CCERC911\nMSG:113030126/10-30-11/06:42:08/Other Fire/8160 FRAZIERS LN/LESAGE/LORENA LN/KATHI\n(Con't) 2 of 2\nLN/50YF/BLEEDING FROM A SURGICAL WOUND IN STOMACH//(End)
@@ -3814,46 +3823,16 @@ Code Messaging acct #485
 **********************************************************
 **********************************************************
 **********************************************************
-*********************************************************
 **********************************************************
 **********************************************************
 **********************************************************
 **********************************************************
-*********************************************************
+**********************************************************
+**********************************************************
 **********************************************************
 ************  READY TO ROLL ******************************
 **********************************************************
 **********************************************************
-Muscalane County, IA
-Contact: KEVIN FLYNN <kwf9111@gmail.com>
-System: Iamresponding
-Sender: 777116058637
-
-** Priority **
-.... (NFD) 12-001870 MEDICAL \n1089 180TH ST \nATWOOD AVE / BANCROF/T AVE \nNICHOLS \nNFR WLAB
-
-777107977885 <777107977885>*: *.... (NFD) 11-052885 <11052885>ACCIDENT-PI
-IJEM AVE/ MAIN ST
-NICHOLS
-NFD NFR
-
-777107978443 <777107978443>*: *.... (NFD) 11-052886 <11052886>FIRE-STRUCTURE
-410 RAILROAD ST
-IJEM AVE / WASHINGTO/N AVE
-NICHOLS
-NFD
-
-777123267630 <777123267630>*: *.... (NFD) 12-001933 <12001933> MEDICAL
-1649 HOLLY AVE
-160TH ST / 170TH ST/
-WEST LIBERTY
-NFR WLAB
-
-*777112540653**: *.... (NFD) 12-000312 <12000312> FIRE-STRUCTURE
-1530 ATWOOD AVE
-560TH ST SE / 160TH/ST
-WEST LIBERTY
-NFD WLFD
 **********************************************************
 Napa County, CA
 Contact: Joe Russo <bumbero19@gmail.com>

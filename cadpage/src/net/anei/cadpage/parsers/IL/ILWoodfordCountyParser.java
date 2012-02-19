@@ -1,7 +1,7 @@
 package net.anei.cadpage.parsers.IL;
 
-import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.dispatch.DispatchShieldwareParser;
 
 /*
 Woodford County, IL
@@ -21,11 +21,10 @@ Agency: Woodford County Communications
 
 */
 
-public class ILWoodfordCountyParser extends FieldProgramParser {
+public class ILWoodfordCountyParser extends DispatchShieldwareParser {
   
   public ILWoodfordCountyParser() {
-    super("WOODFORD COUNTY", "IL",
-           "IDCALL ADDR X/Z? PLCITY UNIT END");
+    super("WOODFORD COUNTY", "IL");
   }
   
   @Override
@@ -36,46 +35,6 @@ public class ILWoodfordCountyParser extends FieldProgramParser {
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     if (!subject.equals("Woodford Comm")) return false;
-    String[] flds = body.split("\n");
-    if (flds.length != 4 && flds.length != 5) return false;
-    return parseFields(flds, data);
-  }
-  
-  private class IdCallField extends Field {
-    
-    @Override
-    public void parse(String field, Data data) {
-      Parser p = new Parser(field);
-      data.strCallId = p.get(' ');
-      data.strCall = p.get();
-    }
-    
-    @Override
-    public String getFieldNames() {
-      return "ID CALL";
-    }
-  }
-  
-  private class PlaceCityField extends Field {
-    
-    @Override
-    public void parse(String field, Data data) {
-      Parser p = new Parser(field);
-      data.strCity = p.getLast("  ");
-      data.strPlace = p.get();
-    }
-    
-    @Override
-    public String getFieldNames() {
-      return "PLACE CITY";
-    }
-  }
-  
-  @Override
-  public Field getField(String name) {
-    if (name.equals("IDCALL")) return new IdCallField();
-    if (name.equals("PLCITY")) return new PlaceCityField();
-    return super.getField(name);
-    
+    return super.parseMsg(body, data);
   }
 }

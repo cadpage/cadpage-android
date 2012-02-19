@@ -1,10 +1,7 @@
 package net.anei.cadpage.parsers.VA;
 
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-
-import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.dispatch.DispatchShieldwareParser;
 
 /*
 Halifax County, VA
@@ -24,13 +21,10 @@ Sender: halifaxeoc@co.halifax.va.us
 (from Central) 11-022783 ACCIDENT INVOLVING PEDESTRIAN\n104-20 LOVE SHOP PARK RD\nOLD HALIFAX RD / DEA/D END\nLOVE SHOP TRAILER PARK  SOUTH BOSTON
 
  */
-public class VAHalifaxCountyParser extends FieldProgramParser {
-  
-  private static final Pattern ID_PTN = Pattern.compile("^(\\d\\d-\\d{6}) +");
+public class VAHalifaxCountyParser extends DispatchShieldwareParser {
   
   public VAHalifaxCountyParser() {
-    super("HALIFAX COUNTY", "VA",
-           "CALL ADDR X CITY");
+    super("HALIFAX COUNTY", "VA", FLG_NO_UNIT);
   }
   
   @Override
@@ -41,37 +35,6 @@ public class VAHalifaxCountyParser extends FieldProgramParser {
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
     if (!subject.equals("from Central")) return false;
-    Matcher match = ID_PTN.matcher(body);
-    if (!match.find()) return false;
-    data.strCallId = match.group(1);
-    body = body.substring(match.end()).trim();
-    
-    return parseFields(body.split("\n"), data);
-  }
-  
-  private class MyCityField extends CityField {
-    
-    @Override
-    public void parse(String field, Data data) {
-      Parser p = new Parser(field);
-      data.strPlace = p.getOptional("  ");
-      super.parse(p.get(), data);
-    }
-    
-    @Override 
-    public String getFieldNames() {
-      return "PLACE CITY";
-    }
-  }
-  
-  @Override
-  public Field getField(String name) {
-    if (name.equals("CITY")) return new MyCityField();
-    return super.getField(name);
-  }
-  
-  @Override
-  public String getProgram() {
-    return "ID " + super.getProgram();
+    return super.parseMsg(body, data);
   }
 }
