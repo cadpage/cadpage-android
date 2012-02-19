@@ -1349,6 +1349,11 @@ Madison County, NY (NYMadisonCOuntyBParser)
 [911 Dispatch]  BRKFD:2011:172\nDispatched\nPsychiatric/Suicide Attempt\n11325 MILL , BROOKFIELD ( CENTER /)
 [911 Dispatch]  BRKFD:2011:171\nDispatched\nBreathing Problem\n10825 HOXIE RD , BROOKFIELD ( COYOTE RUN /)
 ***************************************************************************
+Madison County - Greator Lenox Amulance Service, NY (NYMadisonCountyGLASParser)
+FRM:messaging@iamresponding.com\nSUBJ:Greater Lenox\nMSG:Sick Person\n7738 WISE RD , LENOX ( / N COURT)
+FRM:messaging@iamresponding.com\nSUBJ:Greater Lenox\nMSG:Assist\n400 LAMB AV , CANASTOTA VILLAGE ( / DEPPOLITI AV)
+FRM:messaging@iamresponding.com\nSUBJ:Greater Lenox\nMSG:Heart Problem\n@MADISON COUNTY DSS (133 NORTH COURT ST (WAMPSVILLE VIL
+***************************************************************************
 Monroe County, NY (NYMonroeCountyWebsterParser) 
 L: 701 AUDLEY END\nT: STRUCTURE FIRE\nO: \nB: \nC1: FINCHINGFIELD LA\nC2: WOODBRIDGE LA\nX: PLASTIC CONTAINER CAUGHT FIRE ON STOVE..COMP SAYS THAT CONTAINER IS SMOLD
 L: 286 PHILLIPS RD\nT: AUTOMATIC FIRE ALARM\nO: SMELTER RES - 265451\nB:\nC1: N CHIGWELL LA\nC2: MEADOW BREEZE LA\nX: FIRE ALRM ,GEN, C/C - ONLY CORNER STREET ALRM
@@ -3802,101 +3807,16 @@ Code Messaging acct #485
 [mCAD] DEPT24 \tTYP: ALS MEDICAL CALL |305 HIGHLAND AVE |MAYBROOK /LHUSBAND SUICIDAL SUICIDAL PERSON / ATTEMPTED SUICIDE 1)THE CALLER IS ON SCENE BUT IS NOT THE VICTIM/SUSPECT (2ND PARTY) 2)THIS INCIDENT IS IN XST: BROADWAY \n
 **********************************************************
 **********************************************************
-************  READY TO ROLL ******************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
 **********************************************************
 **********************************************************
 *********************************************************
-Monmouth County, NJ (alternate?)
-Contact: Peter Hall <phall@englishtownfd.com>
-*** CodeMessage client - rc.317@c-msg.net***
-(mCAD) [!] FIRA F FIRE ALARM | 21 LASATTA AV | X-ST: | BULIDING 700//SPRINKLER ROOM SMOKE DETECTOR | 08:22:17 | 02/17/2012
-(mCAD) [!] FIRA F FIRE ALARM | 4189 N RT 9 | X-ST: RT 522/SCHIBANOFF RD | BUSN: BROCK FARMS // ZONE: GENERAL | 15:30:16 | 01/26/2012
-(mCAD) [!] FIRA F FIRE ALARM | 124 SHINNECOCK DR | X-ST: | LEFT POT ON STOVE//HOUSE FILLED W/SMOKE | 15:31:14 | 01/26/2012
-(mCAD) [!] FIRS F FIRE STRUC | 15 APPLE BLOSSOM LN BLOSSUM | X-ST: THOMPSON GROVE RD/ | FIRE IN GARAGE | 21:22:19 | 01/26/2012
-(mCAD) [!] FIRS F FIRE STRUC | AVALON LA | X-ST: SPRINGHOUSE CI/ | ACROSS FROM 13 NO HOUSE NUMBER//SEES FLAMES | 18:59:46 | 01/27/2012
-(mCAD) [!] FIRS F FIRE STRUC | 18 KINNEY RD | X-ST: SWEETMANS LN/ | SMOKE COMING OUT OF WALL OVEN... | 18:18:33 | 01/28/2012
-(mCAD) [!] FIRW F FIRE WOODS | 47 LASATTA AV | X-ST: ENGLISH CLUB DR/CARRIAGE LN | 6X6 PIT UNATTENDED BURNING IN THE REAR OF THE | 14:30:44 | 01/31/2012
-(mCAD) [!] MVAF F MVA FIRE | FREEHOLD RD | X-ST: | PU TRUCK VS PU TRUCK/TELPHONE POLE AND WIRES | 13:22:55 | 02/02/2012
-(mCAD) [!] FIRA F FIRE ALARM | 49 LASATTA AV | X-ST: ENGLISH CLUB DR/CARRIAGE LN | BRANDYWINE/ZONE 2 GENERAL/ATT KEY | 10:41:21 | 02/05/2012
-(mCAD) [!] AIDF F AID-F | 5 SWEETMANS LN | X-ST: BORDER-MILLSTONE TWP/ST HWY 33 W | 6 HAVILAND DR .32 ODOR OF SMOKE IN RESD | 06:05:10 | 02/07/2012
-(mCAD) [!] MVFA F MVA FD/ALS | 232 SMITHBURG-527A RD | X-ST: ROBERTS RD/GRANDVIEW LN | CURVE NEAR CHURCH/2 VEH/ONE VEH WAS ON FIRE | 17:08:21 | 02/08/2012
-(mCAD) [!] FIRW F FIRE WOODS | 71 NEW BEGINNINGS CG | X-ST: TRACY STATION RD/GENESIS ST | KIDS AROUND A FIRE IN THE WOODS | 16:51:25 | 02/09/2012
-(mCAD) [!] FIRA F FIRE ALARM | 47 WILD TURKEY WY | X-ST: UNION HILL RD/ | APT D FIRE ALARM IN APT STILL GOING OFF PER C | 02:22:16 | 02/10/2012
-(mCAD) [!] GAS F GAS | 628 ST ANDREWS PL | X-ST: SAWGRASS DR/ | SMELLS GAS IN THE HALLWAY OF HIS RESIDENCE | 21:06:37 | 02/10/2012
-(mCAD) [!] FIRA F FIRE ALARM | 116 MILLHURST RD | X-ST: MAIN ST/STATION ST | COMMERCIAL-MANALAPAN ENGLISHTOWN BOARD OF ED | 11:28:04 | 02/14/2012
-(mCAD) [!] CRBA F CARB MONOX | 5 TURTLE HOLLOW DR | X-ST: KINNEY RD/ | CO ALARM SOUNDING//NO SYMPTOMS//EVACUATING | 09:34:25 | 02/15/2012
-(mCAD) [!] FIRA F FIRE ALARM | 21 LASATTA AV | X-ST: WATER ST/CARRIAGE LN | BULIDING 700//SPRINKLER ROOM SMOKE DETECTOR | 08:22:17 | 02/17/2012
 **********************************************************
-** General location doesn't work **
 **********************************************************
-Greator Lenox Amulance Service (GLAS), NY (in Madison County)
-Contact: "Kyle M. Cashel" <kcashel@gmail.com>
-Sender: messaging@iamresponding.com
-4 users requesting - make priority
-
-FRM:messaging@iamresponding.com
-SUBJ:Greater Lenox
-MSG:Sick Person
-7738 WISE RD , LENOX ( / N COURT)
-
-FRM:messaging@iamresponding.com
-SUBJ:Greater Lenox
-MSG:Assist
-400 LAMB AV , CANASTOTA VILLAGE ( / DEPPOLITI AV)
-
-FRM:messaging@iamresponding.com
-SUBJ:Greater Lenox
-MSG:Heart Problem
-@MADISON COUNTY DSS (133 NORTH COURT ST (WAMPSVILLE VIL
-
-FRM:messaging@iamresponding.com
-SUBJ:Greater Lenox
-MSG:Convulsions/Seizures
-7216 NELSON RD , LENOX (SENECA TRNPK / PAVONE PL)
-
-FRM:messaging@iamresponding.com
-SUBJ:Greater Lenox
-MSG:Sick Person
-400 LAMB AV , CANASTOTA VILLAGE ( / DEPPOLITI AV)
-
-FRM:messaging@iamresponding.com
-SUBJ:Greater Lenox
-MSG:Chest Pain
-123 CAYUGA AV , SULLIVAN ( ONEIDA LAKE AV / ROUTE 31)
-
-FRM:messaging@iamresponding.com
-SUBJ:Greater Lenox
-MSG:Sick Person
-7885 TACKABURY RD , LENOX ( DITCH BANK RD / INDIAN OPENING RD)
-
-FRM:messaging@iamresponding.com
-SUBJ:Greater Lenox
-MSG: Chest Pain
-3881 COTTONS RD , LINCOLN ( CLOCKVILLE RD / NELSON RD)
-
-FRM:messaging@iamresponding.com
-SUBJ:Greater Lenox
-MSG:MVA - Personal Injury
-@MM 261.7 (261 70 I90 )
-
-FRM:messaging@iamresponding.com
-SUBJ:Greater Lenox
-MSG:MVA - Unknown
-RAILROAD \ DEPOT (, CANASTOTA VILLAGE)
-
-Contact: "emtdebbie33@yahoo.com" <emtdebbie33@yahoo.com>
-(Greater Lenox) Convulsions/Seizures\n7216 NELSON RD , LENOX ( SENECA TRNPK / PAVONE PL)
-
-Contact: Kyle Cashel <kcashel@gmail.com>
-FRM:messaging@iamresponding.com\nSUBJ:Greater Lenox\nMSG:Sick Person\n400 LAMB AV , CANASTOTA VILLAGE ( / DEPPOLITI AV)
-FRM:messaging@iamresponding.com\nSUBJ:Greater Lenox\nMSG:MVA - Personal Injury\n5050 BURLESON RD , LINCOLN ( VEDDER RD / FOREST AV)
-
-Contact: Erick Haas <ericknjenn@gmail.com>
-FRM:messaging@iamresponding.com\nSUBJ:Greater Lenox\nMSG:Falls\n400 LAMB AV #144, CANASTOTA VILLAGE ( / DEPPOLITI AV)
+**********************************************************
+**********************************************************
+**********************************************************
+************  READY TO ROLL ******************************
+**********************************************************
 **********************************************************
 Muscalane County, IA
 Contact: KEVIN FLYNN <kwf9111@gmail.com>

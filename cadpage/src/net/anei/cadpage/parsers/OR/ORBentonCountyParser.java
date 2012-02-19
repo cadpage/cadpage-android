@@ -26,6 +26,7 @@ public class ORBentonCountyParser extends FieldProgramParser {
     "DECKER",
     "GRASS HEIGHTS",
     "LINVILLE",
+    "MARYS PEAK",
     "NEUMAN",
     "PETERSON",
     "STARR CREEK"
