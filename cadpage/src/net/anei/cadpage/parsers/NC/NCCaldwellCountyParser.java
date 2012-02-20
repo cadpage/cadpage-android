@@ -22,6 +22,9 @@ CARBON MONOXIDE DETECTOR ALARM;398 THOMPSON DR;HUD;SHADY OAK TER;HICKORY BLVD;11
 UNKNOWN MEDICAL CODE;1450 SHAIRE CENTER DR;LEN;APT 1;ANDREWS CIR;LOVEJOY ST;1108080045
 UNCONSC FAINT NEAR DELTA;9 LIBERTY ST;GF;FALLS AV;1108100046
 
+Contact: Marty Bumgarner <mbumgarner@gcfdnc.com>
+ACCIDENT PROPERTY DAMAGE;GRACE CHAPEL RD/WOLFE RD;HICK;1202190163
+
 */
 
 public class NCCaldwellCountyParser extends FieldProgramParser {
@@ -74,6 +77,7 @@ public class NCCaldwellCountyParser extends FieldProgramParser {
       "GF",   "GRANITE FALLS",
       "GMW",  "GAMEWELL",
       "GC",   "GRACE CHAPEL",
+      "HICK", "HICKORY",
       "HUD",  "HUDSON",
       "KC",   "KINGS CREEK",
       "LEN",  "LENOIR",
