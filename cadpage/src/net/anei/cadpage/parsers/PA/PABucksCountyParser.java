@@ -148,6 +148,7 @@ STA53:FALRM\nadr:HARBOUR LIGHTS APT #A ,24 at 1032 RADCLIFFE ST #A ,24\nbtwn:JEF
 Contact: Kevan Williams <kwscotch36@gmail.com>
 Sender: alert10485@alert.bucksema.org
 Subject:1/1\nSQ168:ABLED\nadr:SHERWOOD RESIDENCE ,44 at 92 OAKWOOD DR ,44\nbtwn:BUTTONWOOD DR & BUTTONWOOD DR\nbox:21011 map:3262E tm:09:50:07 ED1205837
+Subject:1/2\nSTA45 STA0:FAPT \nadr:106 DISPATCH DR ,72 \nbtwn:LEXINGTON CT & DISPATCH DR \nbox:71038 \ntm:19:20:02 FD1202317  Run: TR7 
 
  */
 
@@ -155,7 +156,7 @@ Subject:1/1\nSQ168:ABLED\nadr:SHERWOOD RESIDENCE ,44 at 92 OAKWOOD DR ,44\nbtwn:
 public class PABucksCountyParser extends FieldProgramParser {
   
   private static final Pattern MARKER1 = Pattern.compile("^[A-Z]+\\s+(?:Adr:|adr:|Box:)");
-  private static final Pattern MARKER2 = Pattern.compile("^([A-Z0-9 ]+):([A-Z]+)\n");
+  private static final Pattern MARKER2 = Pattern.compile("^([A-Z0-9 ]+):([A-Z]+) *\n");
   private static final Pattern NAKED_DATE_TIME = Pattern.compile("(?<!: ?)\\d\\d/\\d\\d/\\d\\d +\\d\\d:\\d\\d:\\d\\d\\b");
   
   public PABucksCountyParser() {
