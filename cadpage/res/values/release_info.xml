@@ -1,27 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">02162012</string>
-  <string name="release_version">v1.5.16</string>
+  <string name="release_date">02202012</string>
+  <string name="release_version">v1.5.17</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="min_expire_date">10012012</string>
   <string name="release_text">
 What"'"s new in this release\n
-Denton County, TX is now sponsored by Lake Cities FD\n
+\n
+New Locations:\n
+Muscalatine County, IA\n
+Marion County, MS\n
+Monmounty County, NJ\n
+Madison County, NY (GLAS)\n
+Kanawha County, WV\n
 \n
 Location Parsing Fixes:\n
-San Bernardino County, CA\n
-Shasta County, CA\n
-Greene County, NY\n
-Suffolk County, NY\n
-Ulster County, NY\n
-Las Vegas, NV\n
-Forsyth County, NC\n
-Rowan County, NC\n
-Linn County, OR\n
-Armstrong County, PA\n
-Denton County, TX\n
-Isle of Wight County, VA\n
+Weld County, CO\n
+York County, ME\n
+Caldwell County, NC\n
+Benton County, OR\n
+Bucks County, PA\n
   </string>  
 </resources>
   
