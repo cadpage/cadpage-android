@@ -70,6 +70,13 @@ public class NCCaldwellCountyParserTest extends BaseParserTest {
         "CITY:GRANITE FALLS",
         "X:FALLS AV",
         "ID:1108100046");
+
+    doTest("T8",
+        "ACCIDENT PROPERTY DAMAGE;GRACE CHAPEL RD/WOLFE RD;HICK;1202190163",
+        "CALL:ACCIDENT PROPERTY DAMAGE",
+        "ADDR:GRACE CHAPEL RD & WOLFE RD",
+        "CITY:HICKORY",
+        "ID:1202190163");
   }
 
   public static void main(String[] args) {
