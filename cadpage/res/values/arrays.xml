@@ -230,6 +230,7 @@
     <item>MA Massechusetts</item>
     <item>MI Michigan</item>
     <item>MN Minnesota</item>
+    <item>MS Mississippi</item>
     <item>MO Missouri</item>
     <item>MT Montana</item>
     <item>NV Nevada</item>
@@ -379,6 +380,7 @@
     <item>MISaginawCounty</item>
     <item>MNAnokaCounty</item>
     <item>MNHennepinCounty</item>
+    <item>MSMarionCounty</item>
     <item>MOBarryCounty</item>
     <item>MOGasconadeCounty</item>
     <item>MOGreeneCounty</item>
@@ -748,6 +750,7 @@
     <item>Saginaw County, MI</item>
     <item>Anoka County, MN</item>
     <item>Hennepin County, MN</item>
+    <item>Marion County, MS</item>
     <item>Barry County, MO</item>
     <item>Gasconade County, MO</item>
     <item>Greene County, MO</item>
