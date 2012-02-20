@@ -1310,6 +1310,24 @@ public class PABucksCountyParserTest extends BaseParserTest {
         "TIME:09:50:07",
         "ID:ED1205837",
         "UNIT:SQ168");
+
+    doTest("T2",
+        "Subject:1/2\n" +
+        "STA45 STA0:FAPT \n" +
+        "adr:106 DISPATCH DR ,72 \n" +
+        "btwn:LEXINGTON CT & DISPATCH DR \n" +
+        "box:71038 \n" +
+        "tm:19:20:02 FD1202317  Run: TR7 ",
+
+        "SRC:STA45 STA0",
+        "CALL:FAPT - APARTMENT FIRE (BOX)",
+        "BOX:71038",
+        "ADDR:106 DISPATCH DR",
+        "CITY:UPPER MAKEFIELD TWP",
+        "X:LEXINGTON CT & DISPATCH DR",
+        "TIME:19:20:02",
+        "ID:FD1202317",
+        "UNIT:TR7");
   }
   
   
