@@ -1330,6 +1330,166 @@ public class PABucksCountyParserTest extends BaseParserTest {
         "UNIT:TR7");
   }
   
+  @Test
+  public void testActive911() {
+
+    doTest("T1",
+        "[Important message from Bucks County RSAN] STA19:WIRES\n" +
+        "adr:400 OLD DUBLIN PK ,29 -- PENN COLOR INC\n" +
+        "btwn:TRAFALGAR RD & PINE RUN RD\n" +
+        "aai:IFO WAREHOUSE\n" +
+        "box:19005\n" +
+        "tm:16:47:17 FD1202274  Run: E19\n" +
+        "Sent by mss911 Bucks to STA19, mss911 Bucks (Voice/Fax Dialer, E-mail accounts, Pagers, Cell phones) through Bucks County RSAN\n",
+
+        "SRC:STA19",
+        "CALL:WIRES - WIRES DOWN (LOC)",
+        "BOX:19005",
+        "PLACE:PENN COLOR INC",
+        "ADDR:400 OLD DUBLIN PK",
+        "MADDR:400 OLD DUBLIN PIKE",
+        "CITY:DOYLESTOWN TWP",
+        "X:TRAFALGAR RD & PINE RUN RD",
+        "INFO:IFO WAREHOUSE",
+        "TIME:16:47:17",
+        "ID:FD1202274",
+        "UNIT:E19");
+
+    doTest("T2",
+        "[Important message from Bucks County RSAN] STA19:FINV\n" +
+        "adr:42 PEBBLE WOODS DR N ,29\n" +
+        "btwn:TURK RD & OAK DR\n" +
+        "aai:IRO\n" +
+        "box:79025\n" +
+        "tm:22:35:50 FD1202284  Run: E79\n" +
+        "Sent by mss911 Bucks to STA19, mss911 Bucks (Voice/Fax Dialer, E-mail accounts, Pagers, Cell phones) through Bucks County RSAN\n",
+
+        "SRC:STA19",
+        "CALL:FINV - FIRE INVESTIGATION (LOC)",
+        "BOX:79025",
+        "ADDR:42 PEBBLE WOODS DR N",
+        "CITY:DOYLESTOWN TWP",
+        "X:TURK RD & OAK DR",
+        "INFO:IRO",
+        "TIME:22:35:50",
+        "ID:FD1202284",
+        "UNIT:E79");
+
+    doTest("T3",
+        "[Important message from Bucks County RSAN] STA19:FALRM\n" +
+        "adr:641 N MAIN ST ,28 -- CYCLE SPORTS\n" +
+        "btwn:MERCER RD & SWAMP RD\n" +
+        "box:19014\n" +
+        "tm:12:03:27 FD1202341  Run: E19\n" +
+        "Sent by mss911 Bucks to STA19, mss911 Bucks (Voice/Fax Dialer, E-mail accounts, Pagers, Cell phones) through Bucks County RSAN\n",
+
+        "SRC:STA19",
+        "CALL:FALRM - FIRE ALARM (LOC)",
+        "BOX:19014",
+        "PLACE:CYCLE SPORTS",
+        "ADDR:641 N MAIN ST",
+        "CITY:DOYLESTOWN",
+        "X:MERCER RD & SWAMP RD",
+        "TIME:12:03:27",
+        "ID:FD1202341",
+        "UNIT:E19");
+
+    doTest("T4",
+        "[Important message from Bucks County RSAN] STA19:FCHIMN\n" +
+        "adr:3 WASHINGTON SQ ,29\n" +
+        "btwn:OLDE COLONIAL DR & DEAD END\n" +
+        "box:19007\n" +
+        "tm:19:18:33 FD1202357  Run: L79 E19 E19-1 E79\n" +
+        "Sent by mss911 Bucks to STA19, mss911 Bucks (Voice/Fax Dialer, E-mail accounts, Pagers, Cell phones) through Bucks County RSAN\n",
+
+        "SRC:STA19",
+        "CALL:FCHIMN - CHIMNEY FIRE (TAC)",
+        "BOX:19007",
+        "ADDR:3 WASHINGTON SQ",
+        "CITY:DOYLESTOWN TWP",
+        "X:OLDE COLONIAL DR & DEAD END",
+        "TIME:19:18:33",
+        "ID:FD1202357",
+        "UNIT:L79 E19 E19-1 E79");
+
+    doTest("T5",
+        "[Important message from Bucks County RSAN] STA19:FBRU\n" +
+        "adr:217 UNION ST ,28\n" +
+        "btwn:N HAMILTON ST & N CLINTON ST\n" +
+        "box:19012\n" +
+        "tm:14:24:40 FD1202382  Run: E19 F79\n" +
+        "Sent by mss911 Bucks to STA19, mss911 Bucks (Voice/Fax Dialer, E-mail accounts, Pagers, Cell phones) through Bucks County RSAN\n",
+
+        "SRC:STA19",
+        "CALL:FBRU - BRUSH FIRE (LOC)",
+        "BOX:19012",
+        "ADDR:217 UNION ST",
+        "CITY:DOYLESTOWN",
+        "X:N HAMILTON ST & N CLINTON ST",
+        "TIME:14:24:40",
+        "ID:FD1202382",
+        "UNIT:E19 F79");
+
+    doTest("T6",
+        "[Important message from Bucks County RSAN] STA29 STA19 STA34:FDWL\n" +
+        "adr:57 OLD NEW RD ,29\n" +
+        "btwn:DAVIDS WY & WESTAWAY LA\n" +
+        "box:78054\n" +
+        "tm:01:57:28 FD1202404  Run: E78 E29 L29 E79 TR34\n" +
+        "Sent by mss911 Bucks to STA19, STA29, STA34, mss911 Bucks (Voice/Fax Dialer, E-mail accounts, Pagers, Cell phones) through Bucks County RSAN\n",
+
+        "SRC:STA29 STA19 STA34",
+        "CALL:FDWL - DWELLING FIRE (TAC)",
+        "BOX:78054",
+        "ADDR:57 OLD NEW RD",
+        "CITY:DOYLESTOWN TWP",
+        "X:DAVIDS WY & WESTAWAY LN",
+        "TIME:01:57:28",
+        "ID:FD1202404",
+        "UNIT:E78 E29 L29 E79 TR34");
+
+    doTest("T7",
+        "[Important message from Bucks County RSAN] STA19:FALRM\n" +
+        "adr:GRUNDY HALL ,29 at 1290 ALMSHOUSE RD ,29\n" +
+        "btwn:TURK RD & RT 611\n" +
+        "box:79057\n" +
+        "tm:12:13:33 FD1202423  Run: E79\n" +
+        "Sent by mss911 Bucks to STA19, mss911 Bucks (Voice/Fax Dialer, E-mail accounts, Pagers, Cell phones) through Bucks County RSAN\n",
+
+        "SRC:STA19",
+        "CALL:FALRM - FIRE ALARM (LOC)",
+        "BOX:79057",
+        "PLACE:GRUNDY HALL",
+        "ADDR:1290 ALMSHOUSE RD",
+        "CITY:DOYLESTOWN TWP",
+        "X:TURK RD & RT 611",
+        "TIME:12:13:33",
+        "ID:FD1202423",
+        "UNIT:E79");
+
+    doTest("T8",
+        "[Important message from Bucks County RSAN] STA19:FALRM\n" +
+        "adr:MOOSE LODGE ,28 at 127 E STATE ST ,28\n" +
+        "btwn:BROAD ST & CHURCH ST\n" +
+        "aai:2158507282\n" +
+        "box:19023\n" +
+        "tm:14:01:57 FD1202430  Run: E19\n" +
+        "Sent by mss911 Bucks to STA19, mss911 Bucks (Voice/Fax Dialer, E-mail accounts, Pagers, Cell phones) through Bucks County RSAN\n",
+
+        "SRC:STA19",
+        "CALL:FALRM - FIRE ALARM (LOC)",
+        "BOX:19023",
+        "PLACE:MOOSE LODGE",
+        "ADDR:127 E STATE ST",
+        "CITY:DOYLESTOWN",
+        "X:BROAD ST & CHURCH ST",
+        "INFO:2158507282",
+        "TIME:14:01:57",
+        "ID:FD1202430",
+        "UNIT:E19");
+
+  }
+  
   
   public static void main(String[] args) {
     new PABucksCountyParserTest().generateTests("T1");
