@@ -260,6 +260,7 @@ abstract class Vendor {
    * @param context current context
    */
   void moreInfoReq(Context context) {
+    if (!SmsPopupUtils.haveNet(context)) return;
     Uri uri;
     if (!enabled) {
       uri = baseURI.buildUpon().appendQueryParameter("req", "info").build();
@@ -289,7 +290,10 @@ abstract class Vendor {
       reconnect(context);
       return;
     }
-    
+
+    // Make sure we have network connectivity
+    if (!SmsPopupUtils.haveNet(context)) return;
+
     // Set registration in progress flag
     // and save the discovery URI
     inProgress = true;
@@ -474,7 +478,6 @@ abstract class Vendor {
    * @param uri URI to be displayed
    */
   private void viewPage(Context context, Uri uri) {
-    if (!SmsPopupUtils.haveNet(context)) return;
     Intent intent = new Intent(Intent.ACTION_VIEW, uri);
     intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
     context.startActivity(intent);
