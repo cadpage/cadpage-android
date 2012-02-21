@@ -3833,7 +3833,11 @@ Subject:Station 71 & 81\nFAPT   Box:71038 adr: 106 DISPATCH DR ,72 bt
 Gladstone, MO (Kansas City) (Clay County)
 Contact: DAVIDFFMED@vtext.com,8165061013@vzwpix.com
 Sender: sender@local-emailblast.com
-(Fire/EMS Call Notification)5700 n main rom 154 hip pain
+(Fire/EMS Call Notification) 5700 n main rom 154 hip pain
+(Fire/EMS Call Notification) m2 chest pain 7224 n bellefontain
+(Fire/EMS Call Notification) e2 need for lift asst 208 ne 58 apt 2
+(Fire/EMS Call Notification) 120 nw 63rd st, #b, 1 yoa ingested clear eyes
+(Fire/EMS Call Notification) 3806 n brooktree lane unconcious fem no med history
 **********************************************************
 **********************************************************
 **********************************************************

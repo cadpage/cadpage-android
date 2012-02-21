@@ -20,6 +20,10 @@ Talbot 911:*D DOR ASSIST EMS 821 FIELDCREST DR D01
 Talbot 911:*D 61 POLICE REQUEST EMS IDLEWILD PARK @116 IDLEWILD AVE BRAVO RESPONSE T60
 Talbot 911:*D 43 SM NON-DWELLING FIRE 7011 HOPKINS NECK RD SHED/DETACH GARAGE T40
 
+Contact: Chris Hash <east66side@gmail.com>
+Sender: 4109247197
+Talbot 911:*D 62AH C-SMOKE DETECTOR 700 PORT ST @HEART FIELDS AT EAST COMMERCIAL STRUCTURE T60
+
 The codes following the *D are the box area and then the T__ and such is the
 station number that has the call. We have the following stations in the
 county.
@@ -61,7 +65,7 @@ public class MDTalbotCountyParser extends SmartAddressParser {
     body = body.substring(pt+1).trim();
     
     // OK, go do your magic!!
-    parseAddress(StartType.START_CALL, body, data);
+    parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ | FLAG_AT_BOTH, body, data);
     data.strSupp = getLeft();
     return true;
   }
