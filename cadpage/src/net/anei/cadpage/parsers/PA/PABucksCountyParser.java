@@ -150,6 +150,16 @@ Sender: alert10485@alert.bucksema.org
 Subject:1/1\nSQ168:ABLED\nadr:SHERWOOD RESIDENCE ,44 at 92 OAKWOOD DR ,44\nbtwn:BUTTONWOOD DR & BUTTONWOOD DR\nbox:21011 map:3262E tm:09:50:07 ED1205837
 Subject:1/2\nSTA45 STA0:FAPT \nadr:106 DISPATCH DR ,72 \nbtwn:LEXINGTON CT & DISPATCH DR \nbox:71038 \ntm:19:20:02 FD1202317  Run: TR7 
 
+Contact support@active911.com
+[Important message from Bucks County RSAN] STA19:WIRES\nadr:400 OLD DUBLIN PK ,29 -- PENN COLOR INC\nbtwn:TRAFALGAR RD & PINE RUN RD\naai:IFO WAREHOUSE\nbox:19005\ntm:16:47:17 FD1202274  Run: E19\nSent by mss911 Bucks to STA19, mss911 Bucks (Voice/Fax Dialer, E-mail accounts, Pagers, Cell phones) through Bucks County RSAN\n
+[Important message from Bucks County RSAN] STA19:FINV\nadr:42 PEBBLE WOODS DR N ,29\nbtwn:TURK RD & OAK DR\naai:IRO\nbox:79025\ntm:22:35:50 FD1202284  Run: E79\nSent by mss911 Bucks to STA19, mss911 Bucks (Voice/Fax Dialer, E-mail accounts, Pagers, Cell phones) through Bucks County RSAN\n
+[Important message from Bucks County RSAN] STA19:FALRM\nadr:641 N MAIN ST ,28 -- CYCLE SPORTS\nbtwn:MERCER RD & SWAMP RD\nbox:19014\ntm:12:03:27 FD1202341  Run: E19\nSent by mss911 Bucks to STA19, mss911 Bucks (Voice/Fax Dialer, E-mail accounts, Pagers, Cell phones) through Bucks County RSAN\n
+[Important message from Bucks County RSAN] STA19:FCHIMN\nadr:3 WASHINGTON SQ ,29\nbtwn:OLDE COLONIAL DR & DEAD END\nbox:19007\ntm:19:18:33 FD1202357  Run: L79 E19 E19-1 E79\nSent by mss911 Bucks to STA19, mss911 Bucks (Voice/Fax Dialer, E-mail accounts, Pagers, Cell phones) through Bucks County RSAN\n
+[Important message from Bucks County RSAN] STA19:FBRU\nadr:217 UNION ST ,28\nbtwn:N HAMILTON ST & N CLINTON ST\nbox:19012\ntm:14:24:40 FD1202382  Run: E19 F79\nSent by mss911 Bucks to STA19, mss911 Bucks (Voice/Fax Dialer, E-mail accounts, Pagers, Cell phones) through Bucks County RSAN\n
+[Important message from Bucks County RSAN] STA29 STA19 STA34:FDWL\nadr:57 OLD NEW RD ,29\nbtwn:DAVIDS WY & WESTAWAY LA\nbox:78054\ntm:01:57:28 FD1202404  Run: E78 E29 L29 E79 TR34\nSent by mss911 Bucks to STA19, STA29, STA34, mss911 Bucks (Voice/Fax Dialer, E-mail accounts, Pagers, Cell phones) through Bucks County RSAN\n
+[Important message from Bucks County RSAN] STA19:FALRM\nadr:GRUNDY HALL ,29 at 1290 ALMSHOUSE RD ,29\nbtwn:TURK RD & RT 611\nbox:79057\ntm:12:13:33 FD1202423  Run: E79\nSent by mss911 Bucks to STA19, mss911 Bucks (Voice/Fax Dialer, E-mail accounts, Pagers, Cell phones) through Bucks County RSAN\n
+[Important message from Bucks County RSAN] STA19:FALRM\nadr:MOOSE LODGE ,28 at 127 E STATE ST ,28\nbtwn:BROAD ST & CHURCH ST\naai:2158507282\nbox:19023\ntm:14:01:57 FD1202430  Run: E19\nSent by mss911 Bucks to STA19, mss911 Bucks (Voice/Fax Dialer, E-mail accounts, Pagers, Cell phones) through Bucks County RSAN\n
+
  */
 
 
@@ -177,6 +187,8 @@ public class PABucksCountyParser extends FieldProgramParser {
     if (body.endsWith("=")) body = body.substring(0,body.length()-1).trim();
     int pt = body.lastIndexOf('=');
     if (pt >= 100) body = body.substring(0,pt) + body.substring(pt+1);
+    pt = body.indexOf("\nSent by mss911 ");
+    if (pt >= 0) body = body.substring(0,pt).trim();
     boolean mark2 = false;
     Matcher match = MARKER1.matcher(body);
     if (match.find()) {

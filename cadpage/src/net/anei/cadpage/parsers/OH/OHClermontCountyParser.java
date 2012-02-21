@@ -37,6 +37,8 @@ Contact: Harold Thiele <thieleha@gmail.com>
 Sender: 911-CENTER@clermontcountyohio.gov
 31C02 >UNCONSCIOUS/FAINTING (NEAR) 5877 WOLFPEN PLEASANT HILL RD Apt: 316 Bldg XS: TRAVERSE CREEK DR MIAMI TWP RYAN, CHRISTY Map: Grids:, Cad: 2012-0000002524
 
+Contact: "kieth" <kiethw@frontier.com>
+ " " 09B01 >CARDIAC OR RESP ARREST/DEATH 3373 COLE RD XS: CHERY LN PIERCE TOWNSHIP SCHAEFFER, DANIEL P Map: Grids:, Cad: 2012-0000015385 TXT STOP to opt-out
 
 */
 
