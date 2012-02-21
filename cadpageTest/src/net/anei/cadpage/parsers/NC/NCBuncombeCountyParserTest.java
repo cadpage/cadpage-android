@@ -743,10 +743,19 @@ public class NCBuncombeCountyParserTest extends BaseParserTest {
         "UNIT:B6",
         "CALL:(FR) STRUCTURE FIRE",
         "X:PARKER DR & ALEXANDER AVE");
+
+    doTest("T93",
+        "CAD:34 WALL ST;FS1;ZONE GENERAL FIRE;SELF HELP CREDIT UNION;SIMPLEX;(FR) FIRE ALARM;BATTERY PARK AVE;OTIS ST;12002186",
+        "ADDR:34 WALL ST",
+        "UNIT:FS1",
+        "CALL:ZONE GENERAL FIRE / (FR) FIRE ALARM",
+        "INFO:SELF HELP CREDIT UNION / SIMPLEX",
+        "X:BATTERY PARK AVE & OTIS ST",
+        "ID:12002186");
   }
   
 
   public static void main(String[] args) {
-    new NCBuncombeCountyParserTest().generateTests("T90");
+    new NCBuncombeCountyParserTest().generateTests("T1");
   }
 }
