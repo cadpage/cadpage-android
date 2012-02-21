@@ -111,6 +111,10 @@ S: M:CAD:503 PAINT FORK RD;B15;8287780508;Buncombe County;STROKE;ROCKY LN;HARWOO
 Contact: Bobby Davis <bobbyrdavis@gmail.com>
 CAD:110-1/2 SUMMER ST;B6;VERIZON;(FR) STRUCTURE FIRE;PARKER DR;ALEXANDER AVE
 
+Contact: Joshua Adell <joshuaadell@gmail.com>
+Sender: CAD@buncombecounty.org
+CAD:34 WALL ST;FS1;ZONE GENERAL FIRE;SELF HELP CREDIT UNION;SIMPLEX;(FR) FIRE ALARM;BATTERY PARK AVE;OTIS ST;12002186
+
 */
 
 public class NCBuncombeCountyParser extends DispatchOSSIParser {
@@ -160,7 +164,7 @@ public class NCBuncombeCountyParser extends DispatchOSSIParser {
    */
   private class MyUnitField extends UnitField {
     public MyUnitField() {
-      setPattern(Pattern.compile("B[0-9]{1,3}[A-Z]?"));
+      setPattern(Pattern.compile("[A-Z]{1,2}[0-9]{1,3}[A-Z]?"));
     }
   }
   
