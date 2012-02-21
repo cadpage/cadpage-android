@@ -262,7 +262,17 @@ public class NYSuffolkCountyAParserTest extends BaseParserTest {
         "X:/ WIDGEON CT",
         "CODE:6-D-1",
         "TIME:15:59:03");
-   
+
+    doTest("T28",
+        "TYPE: STRUCTURE FIRE LOC: 605 7 AV ENORTH   CROSS: 6 ST / OWEN CT CODE: 69-D-6 TIME: 11:34:38",
+        "CALL:STRUCTURE FIRE",
+        "ADDR:605 7 AV",
+        "MADDR:605 7 AVE",
+        "CITY:East Northport",
+        "X:6 ST / OWEN CT",
+        "CODE:69-D-6",
+        "TIME:11:34:38");
+  
   }
   
   public static void main(String[] args) {
