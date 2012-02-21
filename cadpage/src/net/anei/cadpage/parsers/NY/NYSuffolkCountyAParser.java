@@ -68,6 +68,9 @@ Contact: PJ Llobell <pllobell@gmail.com>
 Sender: paging@scfres.com
 TYPE: RESPIRATORY LOC: 16 TEAL CRSN GREATR   CROSS:  / WIDGEON CT CODE: 6-D-1 TIME: 15:59:03
 
+Contact: Michael Bellis <bellis.michael@gmail.com>
+TYPE: STRUCTURE FIRE LOC: 605 7 AV ENORTH   CROSS: 6 ST / OWEN CT CODE: 69-D-6 TIME: 11:34:38
+
 */
 
 public class NYSuffolkCountyAParser extends SmartAddressParser {
@@ -80,6 +83,7 @@ public class NYSuffolkCountyAParser extends SmartAddressParser {
       "CENTEM", "Center Moriches",
       "DIXHIL", "Dix Hills",
       "EMORIC", "East Moriches",
+      "ENORTH", "East Northport",
       "EPATCH", "East Patchogue",
       "GREATR", "Great River",
       "GREENL", "Greenlawn",
