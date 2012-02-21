@@ -21,6 +21,7 @@ CAD:FALLS;124 JAMISON RD;TRAV;FARMINGTON TRL;WEBB CREEK CT;(S) (N)18F;NG1
 Contact: Kenneth Gosnell <ki4rdl@gmail.com>
 Sender: 8643850725
 CAD:DIABETIC PROBLEM;518 GOFORTH RD;LAND;BUTTER ST;BUTTER ST;(S) (N)4H;GM1
+CAD:ABDOMINAL PAIN;178 DUFFS MOUNTAIN RD;MARI;DIST: 63.24 FT (S) (N)7H;GM1
 
 Contact: Tare Kennedy <tare@owen-kennedy.com>
 Sender: 8643850725
@@ -40,6 +41,7 @@ public class SCGreenvilleCountyParser extends DispatchOSSIParser {
       "GRVL", "GREENVILLE",
       "HONE", "HONES PATH",
       "LAND", "LANDRUM",
+      "MARI", "MARIETTA",
       "PELZ", "PELZER",
       "TRAV", "TRAVELERS REST"
   });

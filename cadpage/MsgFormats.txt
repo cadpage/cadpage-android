@@ -3795,7 +3795,8 @@ Sender: bfc53@comcast.net
 Marshall County, IN (alternate)
 Contact: Boz Williams <bozw41@gmail.com>
 Sender: DISPATCH@co.starke.in.us
-MSG:DISPATCH:VFD:WTFD - 8161 MEDICAL/9660, E STATE ROAD 8,KNOX
+FRM:DISPATCH@co.starke.in.us\nMSG:DISPATCH:VFD:WTFD - 8161 MEDICAL/9660, E STATE ROAD 8,KNOX
+FRM:DISPATCH@co.starke.in.us\nMSG:DISPATCH:VFD:WTFD - 8044 FIRE-BRUSH/10980, E 50 N,KNOX
 **********************************************************
 Robeson County, NC
 Contact: jimmy wallace <jimwall63@gmail.com>
