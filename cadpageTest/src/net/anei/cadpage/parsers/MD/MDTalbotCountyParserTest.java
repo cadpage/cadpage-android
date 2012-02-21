@@ -63,9 +63,17 @@ public class MDTalbotCountyParserTest extends BaseParserTest {
         "ADDR:7011 HOPKINS NECK RD",
         "INFO:SHED / DETACH GARAGE T40");
 
+    doTest("T8",
+        "Talbot 911:*D 62AH C-SMOKE DETECTOR 700 PORT ST @HEART FIELDS AT EAST COMMERCIAL STRUCTURE T60",
+        "BOX:62AH",
+        "CALL:C-SMOKE DETECTOR",
+        "ADDR:700 PORT ST",
+        "PLACE:HEART",
+        "INFO:FIELDS AT EAST COMMERCIAL STRUCTURE T60");
+
   }
   
   public static void main(String[] args) {
-    new MDTalbotCountyParserTest().generateTests("T1", "BOX CALL ADDR INFO");
+    new MDTalbotCountyParserTest().generateTests("T1", "BOX CALL ADDR PLACE INFO");
   }
 }
