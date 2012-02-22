@@ -223,7 +223,8 @@ public class NJBurlingtonCountyParserTest extends BaseParserTest {
         "X:RT38/EASTAMPTON TWP LINE",
         "TIME:05:46:07",
         "ID:1711",
-        "PHONE:(800) 929-2011 Caller",
+        "PHONE:(800) 929-2011",
+        "NAME:OP430 CENTRAL STATION",
         "INFO:ACT FIRE//DUCT DETECTOR//6092671257");
 
     doTest("T4",
@@ -247,7 +248,35 @@ public class NJBurlingtonCountyParserTest extends BaseParserTest {
         "PHONE:(800) 929-2011",
         "NAME:OP430 CENTRAL STATION",
         "INFO:ACT FIRE//DUCT DETECTOR//6092671257");
-   
+
+    doTest("T5",
+        ".... (Station 171) :   11 F StrctrFire           Priority: 1  \n" +
+        ": 380 MAGNOLIA RD                                      Venue: Pembtn Twp  \n" +
+        "Located Between  : SIMONTOWN RD/ONGS HAT RD \n\n" +
+        "Call Time- 13:24:25                                  : 1822 \n\n" +
+        ": (000) 000-0000                 Caller  : P1848 \n\n" +
+        "Nature of Call : STRUCTURE FIRE /GARAGE TRAILOR AND FIELD ON F \n\n" +
+        "Additional Info  \n" +
+        "  IRE \n\n" +
+        "   \n" +
+        "POLICE ON LOCATION REPORTING A BARN WELL INVOLVED - ALSO     13:29:17  \n" +
+        "NUMEROUS Body: CALLS // F1801 ADVISED //                           13:29:25  \n" +
+        "F1801 ON LOCATION REPORTING A GARAGE WELL INVOLVED WITH A    13:32:49  \n" +
+        "2ND GARAGE AS EXPOSURE Body: //                                    13:32:57 \n\n" +
+        "Additional Inc#s",
+
+        "SRC:Station 171",
+        "CALL:11 F StrctrFire",
+        "PRI:1",
+        "ADDR:380 MAGNOLIA RD",
+        "CITY:Pemberton Twp",
+        "X:SIMONTOWN RD/ONGS HAT RD",
+        "TIME:13:24:25",
+        "ID:1822",
+        "PHONE:(000) 000-0000",
+        "NAME:P1848",
+        "INFO:STRUCTURE FIRE /GARAGE TRAILOR AND FIELD ON F / IRE POLICE ON LOCATION REPORTING A BARN WELL INVOLVED - ALSO 13:29:17 NUMEROUS Body: CALLS // F1801 ADVISED // 13:29:25 F1801 ON LOCATION REPORTING A GARAGE WELL INVOLVED WITH A 13:32:49 2ND GARAGE AS EXPOSURE Body: // 13:32:57");
+  
   }
   
   public static void main(String[] args) {
