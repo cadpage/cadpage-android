@@ -25,8 +25,10 @@ Sender: 5304482408
 FIRE, OTHER; 7600 BLACK BUTTE RD / 28502 HWY 44 ,SHINGLETOWN ; ; ; Map: 3678; Inc# 003825; E2460 VOL20 B2408; portable saw on fire.
 
 Contact: support@active911.com
-Sender: Robert Richardson <rprichardson@gmail.com>
-(CAD Page) MEDICAL; 11633 SONORA TRL,SHASTACOLL ; ; 20818 BLK HWY 299 E; Map:3225; Inc# 001115;E2452 VOL33; 80 YOF GEN ILL
+From: shucad@fire.ca.gov
+(CAD Page) MEDICAL; 11633 SONORA TRL,SHASTACOLL ; ; 20818 BLK HWY 299 E;\nMap:3225; Inc# 001115;E2452 VOL33; 80 YOF GEN ILL
+(CAD Page) FIRE, RESIDENTIAL; 10632 CHESHIRE WY ,PALOCEDRO ; ; 20401 BLK BUTTERCUP LN; Map: 3375; Inc# 001284; B2415 AE32 VOL32 WT32 VOL33 WT33 E2452 PRVPRV TRNTRN; structure fire across from
+(CAD Page) Test; 11633 SONORA TRL,SHASTACOLL ; ; 20818 BLK HWY 299 E;\nMap:3225; Inc# 001115;E2452 VOL33; 80 YOF GEN
 
 
 *** NOT SUPPORTED ***
@@ -51,7 +53,7 @@ public class CAShastaCountyParser extends SmartAddressParser {
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     
-    String[] flds = body.trim().split(" *; *");
+    String[] flds = body.replace('\n', ' ').trim().split(" *; *");
     if (flds.length < 6) return false;
     
     String[] addressList = new String[3];
