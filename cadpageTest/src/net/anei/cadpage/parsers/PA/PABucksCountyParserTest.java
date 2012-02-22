@@ -902,7 +902,7 @@ public class PABucksCountyParserTest extends BaseParserTest {
   }
   
   @Test
-  public void testParser2() {
+  public void testRyanPankoe() {
 
     doTest("T1",
         "Subject:1/2\nFAPT\nadr:CREEK VILL APT #F18 ,71 at 160 FALLSINGTON TULLYT RD #F18 ,71\nbox:33022\ntm:18:57:03 FD1201370\nRun: E33 L3",
@@ -1018,6 +1018,143 @@ public class PABucksCountyParserTest extends BaseParserTest {
         "TIME:18:47:44",
         "ID:ED1205765",
         "UNIT:SQ134");
+
+    doTest("T10",
+        "Subject:1/1\nSQ134:AFAINT \nadr:102 ASPEN CT ,48 \nbtwn:E FAIRWOOD DR & CUL DE SAC \nbox:34030 map:3033H1 \ntm:05:28:39 ED1205933",
+        "CALL:AFAINT - SYNCOPAL EPISODE",
+        "BOX:34030",
+        "ADDR:102 ASPEN CT",
+        "CITY:NEW BRITAIN TWP",
+        "X:E FAIRWOOD DR & CUL DE SAC",
+        "MAP:3033H1",
+        "TIME:05:28:39",
+        "ID:ED1205933",
+        "UNIT:SQ134");
+
+    doTest("T11",
+        "Subject:1/1\nSQ134:ATRAN\nadr:209 OVERLOOK DR ,48\nbtwn:STONY HILL CT & RIDGE CT\nbox:74052 map:3033D5\ntm:00:21:23 ED1205914",
+        "CALL:ATRAN - ALS/UNSPECIFIED EMERGENCY",
+        "BOX:74052",
+        "ADDR:209 OVERLOOK DR",
+        "CITY:NEW BRITAIN TWP",
+        "X:STONY HILL CT & RIDGE CT",
+        "MAP:3033D5",
+        "TIME:00:21:23",
+        "ID:ED1205914",
+        "UNIT:SQ134");
+
+    doTest("T12",
+        "Subject:1/1\nSQ134:AFAINT\nadr:102 ASPEN CT ,48\nbtwn:E FAIRWOOD DR & CUL DE SAC\nbox:34030 map:3033H1\ntm:05:28:39 ED1205933",
+        "CALL:AFAINT - SYNCOPAL EPISODE",
+        "BOX:34030",
+        "ADDR:102 ASPEN CT",
+        "CITY:NEW BRITAIN TWP",
+        "X:E FAIRWOOD DR & CUL DE SAC",
+        "MAP:3033H1",
+        "TIME:05:28:39",
+        "ID:ED1205933",
+        "UNIT:SQ134");
+
+    doTest("T13",
+        "STA19:WIREIN adr:131 WESTBURY CT ,29 btwn:AVENUE A & CUL DE SAC box:19042 tm:10:45:39 FD1202161 Run: L79 E19 E19-1 E79 Sent by mss911 Bucks to STA19,",
+        "SRC:STA19",
+        "CALL:WIREIN - WIRES IN DWELLING",
+        "BOX:19042",
+        "ADDR:131 WESTBURY CT",
+        "CITY:DOYLESTOWN TWP",
+        "X:AVENUE A & CUL DE SAC",
+        "TIME:10:45:39",
+        "ID:FD1202161",
+        "UNIT:L79 E19 E19-1 E79");
+
+    doTest("T14",
+        "SQ134:AUNR\n" +
+        "adr:800 MANOR DR #325 ,48 -- NEW SEASONS ASSIST\n" +
+        "btwn:E SCHOOL HOUSE RD & ANDRE DR\n" +
+        "box:74066 map:3033E8:12:14:32 ED1205978",
+
+        "CALL:AUNR - UNRESPONSIVE SUBJECT",
+        "BOX:74066",
+        "PLACE:NEW SEASONS ASSIST",
+        "ADDR:800 MANOR DR",
+        "APT:325",
+        "CITY:NEW BRITAIN TWP",
+        "X:E SCHOOL HOUSE RD & ANDRE DR",
+        "MAP:3033E8:12:14:32 ED1205978",
+        "UNIT:SQ134");
+
+    doTest("T15",
+        "Subject:1/1\nSQ134 STA60:ACHESP\nadr:31 CHURCH RD ,36\nbtwn:BETHLEHEM PK & PARK RD\nbox:60011\ntm:14:03:32 ED1205994",
+        "CALL:ACHESP - CHEST PAINS (CARDIAC SYMPT.)",
+        "BOX:60011",
+        "ADDR:31 CHURCH RD",
+        "CITY:HILLTOWN TWP",
+        "X:BETHLEHEM PK & PARK RD",
+        "TIME:14:03:32",
+        "ID:ED1205994",
+        "UNIT:SQ134 STA60");
+
+    doTest("T16",
+        "Subject:1/1\nSQ134:ASEIZ\nadr:MANOR CARE HEALTH SERVICES#228,MONT TWP\naai:640 BETHLEHEM PIKE\nbox: map:\ntm:19:53:41 ED1206032",
+        "CALL:ASEIZ - SEIZURES - ACTIVE",
+        "ADDR:MANOR CARE HEALTH SERVICES",
+        "APT:228",
+        "INFO:640 BETHLEHEM PIKE",
+        "TIME:19:53:41",
+        "ID:ED1206032",
+        "UNIT:SQ134");
+
+    doTest("T17",
+        "Subject:1/2\nSQ134:FIRCAL\nadr:SALVAGE DIRECT ,47 at 77 BRISTOL RD ,47\nbtwn:W BUTLER AV & UNAMI TL\nbox:34025 map:3033J4\ntm:22:0",
+        "CALL:FIRCAL - FIRE CALL (EMS)",
+        "BOX:34025",
+        "PLACE:SALVAGE DIRECT",
+        "ADDR:77 BRISTOL RD",
+        "CITY:NEW BRITAIN",
+        "X:W BUTLER AV & UNAMI TL",
+        "MAP:3033J4",
+        "TIME:22:0",
+        "UNIT:SQ134");
+
+    doTest("T18",
+        "STA19:FSTORE adr:NATIONAL PENN INSU ,28 at 169 BROAD ST ,28 btwn:N MAIN ST & UNION ST box:19012 tm:13:22:16 FD1202212 Run: L79 E19 E19-1 E79 Sent by m",
+        "SRC:STA19",
+        "CALL:FSTORE - SMALL STORE FIRE (TAC)",
+        "BOX:19012",
+        "PLACE:NATIONAL PENN INSU",
+        "ADDR:169 BROAD ST",
+        "CITY:DOYLESTOWN",
+        "X:N MAIN ST & UNION ST",
+        "TIME:13:22:16",
+        "ID:FD1202212",
+        "UNIT:L79 E19 E19-1 E79 Sent by m");
+
+    doTest("T19",
+        "STA19:FALRM adr:GOLDEN LIVING ,28 at 432 MAPLE AV ,28 btwn:COTTAGE ST & EAST ST box:19055 tm:13:27:51 FD1202214 Run: E15 Sent by mss911 Bucks to STA19",
+        "SRC:STA19",
+        "CALL:FALRM - FIRE ALARM (LOC)",
+        "BOX:19055",
+        "PLACE:GOLDEN LIVING",
+        "ADDR:432 MAPLE AV",
+        "MADDR:432 MAPLE AVE",
+        "CITY:DOYLESTOWN",
+        "X:COTTAGE ST & EAST ST",
+        "TIME:13:27:51",
+        "ID:FD1202214",
+        "UNIT:E15");
+
+    doTest("T20",
+        "STA19:FALRM adr:GRUNDY HALL ,29 at 1290 ALMSHOUSE RD ,29 btwn:TURK RD & RT 611 box:79057 tm:12:13:33 FD1202423 Run: E79 Sent by mss911 Bucks to STA19,",
+        "SRC:STA19",
+        "CALL:FALRM - FIRE ALARM (LOC)",
+        "BOX:79057",
+        "PLACE:GRUNDY HALL",
+        "ADDR:1290 ALMSHOUSE RD",
+        "CITY:DOYLESTOWN TWP",
+        "X:TURK RD & RT 611",
+        "TIME:12:13:33",
+        "ID:FD1202423",
+        "UNIT:E79");
 
   }
   
@@ -1488,10 +1625,148 @@ public class PABucksCountyParserTest extends BaseParserTest {
         "ID:FD1202430",
         "UNIT:E19");
 
+    doTest("T9",
+        "(Important message from Bucks County RSAN) SQ134 SQ125:FIRCAL\n" +
+        "adr:SALVAGE DIRECT ,47 at 77 BRISTOL RD ,47\n" +
+        "btwn:W BUTLER AV & UNAMI TL\n" +
+        "box:34025 map:3033J4\n" +
+        "tm:22:06:32 ED1206040\n\n" +
+        "Sent by mss911 Bucks to SQ134, SQ125, mss911 Bucks (Voice/Fax Dialer, E-mail accounts, Pagers, Cell phones) through Bucks County RSAN",
+
+        "CALL:FIRCAL - FIRE CALL (EMS)",
+        "BOX:34025",
+        "PLACE:SALVAGE DIRECT",
+        "ADDR:77 BRISTOL RD",
+        "CITY:NEW BRITAIN",
+        "X:W BUTLER AV & UNAMI TL",
+        "MAP:3033J4",
+        "TIME:22:06:32",
+        "ID:ED1206040",
+        "UNIT:SQ134 SQ125");
+
+    doTest("T10",
+        "(Important message from Bucks County RSAN) SQ134:ACHESP\n" +
+        "adr:31 CHURCH RD ,36\n" +
+        "btwn:BETHLEHEM PK & PARK RD\n" +
+        "box:60011 map:3032E1\n" +
+        "tm:14:03:32 ED1205994\n\n" +
+        "Sent by mss911 Bucks to SQ134, mss911 Bucks (Voice/Fax Dialer, E-mail accounts, Pagers, Cell phones) through Bucks County RSAN",
+
+        "CALL:ACHESP - CHEST PAINS (CARDIAC SYMPT.)",
+        "BOX:60011",
+        "ADDR:31 CHURCH RD",
+        "CITY:HILLTOWN TWP",
+        "X:BETHLEHEM PK & PARK RD",
+        "MAP:3032E1",
+        "TIME:14:03:32",
+        "ID:ED1205994",
+        "UNIT:SQ134");
+
+    doTest("T11",
+        "(Important message from Bucks County RSAN) SQ134:ACHESP\n" +
+        "adr:1600 HORIZON DR #117 ,48 -- GWYNEDD FAMILY MED\n" +
+        "btwn:HORIZON CI & COUNTY LINE RD\n" +
+        "aai:STE 117\n" +
+        "box:74058 map:3033F8\n" +
+        "tm:16:11:55 ED1206008\n\n" +
+        "Sent by mss911 Bucks to SQ134, mss911 Bucks (Voice/Fax Dialer, E-mail accounts, Pagers, Cell phones) through Bucks County RSAN",
+
+        "CALL:ACHESP - CHEST PAINS (CARDIAC SYMPT.)",
+        "BOX:74058",
+        "PLACE:GWYNEDD FAMILY MED",
+        "ADDR:1600 HORIZON DR",
+        "APT:117",
+        "CITY:NEW BRITAIN TWP",
+        "X:HORIZON CI & COUNTY LINE RD",
+        "INFO:STE 117",
+        "MAP:3033F8",
+        "TIME:16:11:55",
+        "ID:ED1206008",
+        "UNIT:SQ134");
+
+    doTest("T12",
+        "(Important message from Bucks County RSAN) SQ134:ACHESP\n" +
+        "adr:1600 HORIZON DR #117 ,48 -- GWYNEDD FAMILY MED\n" +
+        "btwn:HORIZON CI & COUNTY LI\n" +
+        "aai:STE 117\n" +
+        "box:74058 map:3033F8\n" +
+        "tm:16:11:55 ED1206008\n\n" +
+        "Sent by mss911 Bucks to SQ134, mss911 Bucks (Voice/Fax Dialer, E-mail accounts, Pagers, Cell phones) through Bucks County RSAN",
+
+        "CALL:ACHESP - CHEST PAINS (CARDIAC SYMPT.)",
+        "BOX:74058",
+        "PLACE:GWYNEDD FAMILY MED",
+        "ADDR:1600 HORIZON DR",
+        "APT:117",
+        "CITY:NEW BRITAIN TWP",
+        "X:HORIZON CI & COUNTY LI",
+        "INFO:STE 117",
+        "MAP:3033F8",
+        "TIME:16:11:55",
+        "ID:ED1206008",
+        "UNIT:SQ134");
+
+    doTest("T13",
+        "(Important message from Bucks County RSAN) SQ134:ACHESP\n" +
+        "adr:1600 HORIZON DR #117 ,48 -- GWYNEDD FAMILY MED\n" +
+        "btwn:HORIZON CI & COUNTY LI\n" +
+        "aai:STE 117\n" +
+        "box:74058 map:3033F8\n" +
+        "tm:16:11:55 ED1206008\n\n" +
+        "Sent by mss911 Bucks to SQ134, mss911 Bucks (Voice/Fax Dialer, E-mail accounts, Pagers, Cell phones) through Bucks County RSAN",
+
+        "CALL:ACHESP - CHEST PAINS (CARDIAC SYMPT.)",
+        "BOX:74058",
+        "PLACE:GWYNEDD FAMILY MED",
+        "ADDR:1600 HORIZON DR",
+        "APT:117",
+        "CITY:NEW BRITAIN TWP",
+        "X:HORIZON CI & COUNTY LI",
+        "INFO:STE 117",
+        "MAP:3033F8",
+        "TIME:16:11:55",
+        "ID:ED1206008",
+        "UNIT:SQ134");
+
+    doTest("T14",
+        "(Important message from Bucks County RSAN) SQ134:ASEIZ\n" +
+        "adr:MANOR CARE HEALTH SERVICES#228,MONT TWP\n" +
+        "aai:640 BETHLEHEM PIKE\n" +
+        "box: map:\n" +
+        "tm:19:53:41 ED1206032\n\n" +
+        "Sent by mss911 Bucks to SQ134, mss911 Bucks (Voice/Fax Dialer, E-mail accounts, Pagers, Cell phones) through Bucks County RSAN",
+
+        "CALL:ASEIZ - SEIZURES - ACTIVE",
+        "ADDR:MANOR CARE HEALTH SERVICES",
+        "APT:228",
+        "INFO:640 BETHLEHEM PIKE",
+        "TIME:19:53:41",
+        "ID:ED1206032",
+        "UNIT:SQ134");
+
+    doTest("T15",
+        "(Important message from Bucks County RSAN) SQ134:FIRCAL\n" +
+        "adr:SALVAGE DIRECT ,47 at 77 BRISTOL RD ,47\n" +
+        "btwn:W BUTLER AV & UNAMI TL\n" +
+        "box:34025 map:3033J4\n" +
+        "tm:22:06:32 ED1206040\n\n" +
+        "Sent by mss911 Bucks to SQ134, mss911 Bucks (Voice/Fax Dialer, E-mail accounts, Pagers, Cell phones) through Bucks County RSAN",
+
+        "CALL:FIRCAL - FIRE CALL (EMS)",
+        "BOX:34025",
+        "PLACE:SALVAGE DIRECT",
+        "ADDR:77 BRISTOL RD",
+        "CITY:NEW BRITAIN",
+        "X:W BUTLER AV & UNAMI TL",
+        "MAP:3033J4",
+        "TIME:22:06:32",
+        "ID:ED1206040",
+        "UNIT:SQ134");
+
   }
   
   
   public static void main(String[] args) {
-    new PABucksCountyParserTest().generateTests("T1");
+    new PABucksCountyParserTest().generateTests("T10");
   }
 }
