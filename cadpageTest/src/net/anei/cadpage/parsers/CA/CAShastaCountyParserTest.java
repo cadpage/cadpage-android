@@ -125,9 +125,9 @@ public class CAShastaCountyParserTest extends BaseParserTest {
   
   @Test
   public void testActive911() {
-    
+
     doTest("T1",
-        "(CAD Page) MEDICAL; 11633 SONORA TRL,SHASTACOLL ; ; 20818 BLK HWY 299 E; Map:3225; Inc# 001115;E2452 VOL33; 80 YOF GEN ILL",
+        "(CAD Page) MEDICAL; 11633 SONORA TRL,SHASTACOLL ; ; 20818 BLK HWY 299 E;\nMap:3225; Inc# 001115;E2452 VOL33; 80 YOF GEN ILL",
         "CALL:MEDICAL",
         "ADDR:11633 SONORA TRL",
         "SRC:SHASTACOLL",
@@ -136,9 +136,31 @@ public class CAShastaCountyParserTest extends BaseParserTest {
         "ID:001115",
         "UNIT:E2452 VOL33",
         "INFO:80 YOF GEN ILL");
+
+    doTest("T2",
+        "(CAD Page) FIRE, RESIDENTIAL; 10632 CHESHIRE WY ,PALOCEDRO ; ; 20401 BLK BUTTERCUP LN; Map: 3375; Inc# 001284; B2415 AE32 VOL32 WT32 VOL33 WT33 E2452 PRVPRV TRNTRN; structure fire across from",
+        "CALL:FIRE, RESIDENTIAL",
+        "ADDR:10632 CHESHIRE WY",
+        "SRC:PALOCEDRO",
+        "X:20401 BLK BUTTERCUP LN",
+        "MAP:3375",
+        "ID:001284",
+        "UNIT:B2415 AE32 VOL32 WT32 VOL33 WT33 E2452 PRVPRV TRNTRN",
+        "INFO:structure fire across from");
+
+    doTest("T3",
+        "(CAD Page) Test; 11633 SONORA TRL,SHASTACOLL ; ; 20818 BLK HWY 299 E;\nMap:3225; Inc# 001115;E2452 VOL33; 80 YOF GEN",
+        "CALL:Test",
+        "ADDR:11633 SONORA TRL",
+        "SRC:SHASTACOLL",
+        "X:20818 BLK HWY 299 E",
+        "MAP:225",
+        "ID:001115",
+        "UNIT:E2452 VOL33",
+        "INFO:80 YOF GEN");
   }
   
   public static void main(String[] args) {
-    new CAShastaCountyParserTest().generateTests("T11", "CALL ADDR SRC X MAP ID UNIT INFO");
+    new CAShastaCountyParserTest().generateTests("T1", "CALL ADDR SRC X MAP ID UNIT INFO");
   }
 }
