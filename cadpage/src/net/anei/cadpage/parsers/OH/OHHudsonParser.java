@@ -21,7 +21,6 @@ HudsonCAD:CAD System 5555,DARROW RD.,JOANN STORES INC.,HUDSONEMS,EMSSHORTNESS OF
 HudsonCAD:CAD System 200,LAUREL LAKE DR.,,EMS,EMSGREENWOOD 303 LUMBAR PAIN
 HudsonCAD:CAD System 1430,WINSLOW DR.,,HUDSON EMS,EMSCHEST PAINS
 
-*** Not implemented - waiting for more examples ***
 HudsonCAD:CAD System 200,LAUREL LAKE DR.,LAUREL LAKE RETIREMENT COMMUNITY,HUDSONF376,Fire Alarm: , Public Buildings 0600 to MidnightCAL COM CYTHIA 800 498 7565 COMMONS FIRE ALARM
 HudsonCAD:CAD System 7421,MARBLEHEAD DR.,,HudsonF374,Fire Alarm: ResidentialSMOKE HEAT FIRE ALARM PER JULIA WITH DIEBOLD 18005484478
 
@@ -32,7 +31,7 @@ public class OHHudsonParser extends FieldProgramParser {
   
   public OHHudsonParser() {
     super("HUDSON", "OH",
-           "NUM ADDR PLACE MARKER! INFO MAADDR");
+           "NUM ADDR PLACE SRC! INFO MAADDR");
   }
   
   @Override
@@ -61,12 +60,6 @@ public class OHHudsonParser extends FieldProgramParser {
       data.strAddress = "";
       field = field.replace(".", "");
       parseAddress(field, data);
-    }
-  }
-  
-  private class MarkerField extends SkipField {
-    public MarkerField() {
-      setPattern(Pattern.compile("(?:HUDSON|Hudson) ?(?:EMS|FIRE)|(EMS|FIRE)"), true);
     }
   }
   
@@ -118,7 +111,7 @@ public class OHHudsonParser extends FieldProgramParser {
   protected Field getField(String name) {
     if (name.equals("NUM")) return new NumberField();
     if (name.equals("ADDR")) return new MyAddressField();
-    if (name.equals("MARKER")) return new MarkerField();
+    if (name.equals("SRC")) return new SourceField("(?:HUDSON|Hudson)? ?(?:EMS|FIRE|F\\d+)", true);
     if (name.equals("INFO")) return new MyInfoField();
     if (name.equals("MAADDR")) return new MAAddressField();
     return super.getField(name);
