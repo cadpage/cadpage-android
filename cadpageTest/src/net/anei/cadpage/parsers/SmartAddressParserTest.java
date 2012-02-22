@@ -42,10 +42,9 @@ public class SmartAddressParserTest extends BaseParserTest {
   
   @Test
   public void testProblems() {
-    
-//    doTest(PLACE, FLAG_ANCHOR_END, "7 NON-AMBULATORY PTS ON 2ND FLOOR 15 BROOKSIDE AVE",
-//        "PLACE:7 NON-AMBULATORY PTS ON 2ND FLOOR ",
-//        "ADDR:15 BROOKSIDE AVE");
+    doTest(CALL, "MVA-TRAPPED MULTI PT/ADD RESPO LAKE PLEASANT RD&TATE RD EXTRA",
+          "CALL:MVA-TRAPPED MULTI PT/ADD RESPO",
+          "ADDR:LAKE PLEASANT RD & TATE RD");
 
     doTest(SKIP, "707-1/2 5TH AV SE UNCONSCIOUS",
            "ADDR:707-1/2 5TH AV SE");

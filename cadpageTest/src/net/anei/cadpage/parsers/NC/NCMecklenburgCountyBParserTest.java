@@ -109,8 +109,8 @@ public class NCMecklenburgCountyBParserTest extends BaseParserTest {
         "INFO:SUIT E",
         "PRI:C",
         "CODE:28",
-        "CALL:Stroke/CVA Mt",
-        "X:Holly-Huntersvill Rd & Dunn Commons Pk",
+        "CALL:Stroke/CVA",
+        "X:Mt Holly-Huntersvill Rd & Dunn Commons Pk",
         "UNIT:COOR4",
         "MAP:292292/J9",
         "ID:12302011-096");
@@ -167,8 +167,8 @@ public class NCMecklenburgCountyBParserTest extends BaseParserTest {
         "INFO:SUIT E",
         "PRI:C",
         "CODE:28",
-        "CALL:Stroke/CVA Mt",
-        "X:Holly-Huntersvill Rd & Dunn Commons Pk",
+        "CALL:Stroke/CVA",
+        "X:Mt Holly-Huntersvill Rd & Dunn Commons Pk",
         "UNIT:COOR4",
         "MAP:292292/J9",
         "ID:12302011-096");
@@ -233,6 +233,18 @@ public class NCMecklenburgCountyBParserTest extends BaseParserTest {
         "UNIT:COOF3",
         "MAP:292292/H9",
         "ID:02102012-333");
+
+    doTest("T12",
+        "[!] 10210 Couloak Dr CMC MTN ISLAND URGENT CARE Charlie 17- Falls/Back injury(traumtc)Mt Holly-Huntersvill Rd/Dunn Commons Pk COOR2 Map - 292292/J9 02202012-329",
+        "ADDR:10210 Couloak Dr",
+        "INFO:CMC MTN ISLAND URGENT CARE",
+        "PRI:C",
+        "CODE:17",
+        "CALL:Falls/Back injury(traumtc)Mt",
+        "X:Holly-Huntersvill Rd & Dunn Commons Pk",
+        "UNIT:COOR2",
+        "MAP:292292/J9",
+        "ID:02202012-329");
   }
   
 

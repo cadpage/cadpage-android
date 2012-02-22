@@ -91,7 +91,8 @@ public class NCBuncombeCountyParserTest extends BaseParserTest {
         "CALL:BCFR ASSISTANCE REQUESTED",
         "DATE:12/23/10",
         "TIME:16:54:46",
-        "INFO:AS03 / Event spawned from ASSIST LAW ENFORCEMENT. / COMP IS REQ EMS COME TO CHECK HER / Event spawned from DOMESTIC DISTURBANCE.");
+        "UNIT:AS03",
+        "INFO:Event spawned from ASSIST LAW ENFORCEMENT. / COMP IS REQ EMS COME TO CHECK HER / Event spawned from DOMESTIC DISTURBANCE.");
 
     doTest("T11",
         "CAD:2147 BREVARD RD;B21U;APT 4;HEART PROBLEMS;CARLAND DR;GLENN BRIDGE RD",

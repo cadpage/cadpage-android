@@ -229,6 +229,15 @@ public class PAErieCountyAParserTest extends BaseParserTest {
         "MAP:307",
         "ID:2012-0000006327");
 
+    doTest("T23",
+        "ERIE911:29D4A >MVA-TRAPPED MULTI PT/ADD RESPO LAKE PLEASANT RD&TATE RD XS: TATE RD GREENE TWP Cad: 2012-0000020343",
+        "SRC:ERIE911",
+        "CALL:MVA-TRAPPED MULTI PT/ADD RESPO",
+        "ADDR:LAKE PLEASANT RD & TATE RD",
+        "CITY:GREENE TWP",
+        "X:TATE RD",
+        "ID:2012-0000020343");
+
   }
   
   public static void main(String[] args) {
