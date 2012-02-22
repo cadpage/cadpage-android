@@ -42,6 +42,10 @@ FRM:rc.334@c-msg.net\nSUBJ:cCAD\nMSG:[!] 2721 Nance Cove Rd Charlie 13- Diabetic
 Sender: alerts@cadpage.org
 [!] 3310 Dunn Commons Py 201 RIVERMERE APTS Fire - Emergency 52F-Alarm-FIRE Shady Creek Rd/Dunn Commons Pk COOF3 Map - 292292/H9 02102012-333
 
+Contact: Ronald Shumaker <smokediverbull@yahoo.com>
+CodeMessaging account:334
+[!] 10210 Couloak Dr CMC MTN ISLAND URGENT CARE Charlie 17- Falls/Back injury(traumtc)Mt Holly-Huntersvill Rd/Dunn Commons Pk COOR2 Map - 292292/J9 02202012-329
+
 */
 
 public class NCMecklenburgCountyBParser extends SmartAddressParser {

@@ -164,6 +164,10 @@ public abstract class SmartAddressParser extends MsgParser {
   // route prefix extender
   private static final int ID_ROUTE_PFX = ID_ROUTE_PFX_PFX | ID_ROUTE_PFX_EXT;
   
+  // Bitmask indicating dictionary word should be considered as starting a multi-word
+  // street name
+  private static final int ID_STREET_NAME_PREFIX = 0x400000;
+  
   private static final Pattern PAT_HOUSE_NUMBER = Pattern.compile("\\d+(?:-[0-9/]+)?(?:-?[A-Z])?", Pattern.CASE_INSENSITIVE);
   
   // List of multiple word cities that need to be converted to and from single tokens
@@ -257,6 +261,7 @@ public abstract class SmartAddressParser extends MsgParser {
     // C/S should be in this list, but it gets changed before we parse stuff
     setupDictionary(ID_CROSS_STREET, "XS:", "X:");
     setupDictionary(ID_APPT, "APT:", "APT", "#", "SP", "RM", "SUITE:");
+    setupDictionary(ID_STREET_NAME_PREFIX, "LAKE", "MT", "MOUNT");
     
     // Add any country specific words
     switch (getCountryCode()) {
@@ -1018,6 +1023,9 @@ public abstract class SmartAddressParser extends MsgParser {
     
     // If road starts with a direction, back up one place
     if (sAddr > start && isType(sAddr, ID_DIRECTION)) sAddr--;
+    
+    // If road starts with a common street name prefix, back up one place
+    if (sAddr > start && isType(sAddr-1, ID_STREET_NAME_PREFIX)) sAddr--;
     
     // Look up to 3 tokens back to see if we find a direction token
     // Stop search if we encounter a /, lest we confuse a W/INJURY
