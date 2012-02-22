@@ -49,7 +49,7 @@ public class NCLincolnCountyParser extends DispatchOSSIParser {
   
   @Override
   public String getFilter() {
-    return "cad@lincolnsheriff.org,cad@lincolne911.org,93001";
+    return "cad@do-not-reply-lincolne911.org,93001";
   }
   
   @Override
