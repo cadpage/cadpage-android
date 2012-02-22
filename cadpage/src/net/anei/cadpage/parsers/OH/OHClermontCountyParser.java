@@ -75,7 +75,7 @@ public class OHClermontCountyParser extends DispatchBParser {
   
   @Override
   public String getFilter() {
-    return "911-CENTER@clermontcountyohio.gov";
+    return "911-CENTER@clermontcountyohio.gov,777";
   }
   
   @Override
