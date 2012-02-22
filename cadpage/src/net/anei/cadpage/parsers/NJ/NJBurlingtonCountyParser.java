@@ -32,6 +32,7 @@ Sender: 7771
 .... (Station 171) : FIRE F Fire Call            Priority: 1  \n: 2356 RT206                                           Venue: Southamptn  \nLocated Between  : RT38/EASTAMPTON TWP LINE  \n   : WAWA 17 (RT38 NEW WAWA) \n\nCall Time- 05:46:07                                  : 1711 \n\n: (800) 929-2011                 
 .... (Station 171) :   16 F Alarms               Priority: 1  \n: 2356 RT206                                           Venue: Southamptn  \nLocated Between  : RT38/EASTAMPTON TWP LINE  \n   : WAWA 17 (RT38 NEW WAWA) \n\nCall Time- 05:46:07                        : 1711 \n\n: (800) 929-2011                 Caller  : OP430 CENTRAL STATION \n\nNature of Call : ACT FIRE//DUCT DETECTOR//6092671257
 .... (Station 171) :   16 F Alarms               Priority: 1  \n: 2356 RT206                                           Venue: Southamptn  \nLocated Between  : RT38/EASTAMPTON TWP LINE  \n   : WAWA 17 (RT38 NEW WAWA) \n\nCall Time- 05:46:07                                  : 1711 \n\n: (800) 929-2011                 Caller  : OP430 CENTRAL STATION \n\nNature of Call : ACT FIRE//DUCT DETECTOR//6092671257
+.... (Station 171) :   11 F StrctrFire           Priority: 1  \n: 380 MAGNOLIA RD                                      Venue: Pembtn Twp  \nLocated Between  : SIMONTOWN RD/ONGS HAT RD \n\nCall Time- 13:24:25                                  : 1822 \n\n: (000) 000-0000                 Caller  : P1848 \n\nNature of Call : STRUCTURE FIRE /GARAGE TRAILOR AND FIELD ON F \n\nAdditional Info  \n  IRE \n\n   \nPOLICE ON LOCATION REPORTING A BARN WELL INVOLVED - ALSO     13:29:17  \nNUMEROUS Body: CALLS // F1801 ADVISED //                           13:29:25  \nF1801 ON LOCATION REPORTING A GARAGE WELL INVOLVED WITH A    13:32:49  \n2ND GARAGE AS EXPOSURE Body: //                                    13:32:57 \n\nAdditional Inc#s
 
 */
 
@@ -87,6 +88,7 @@ public class NJBurlingtonCountyParser extends FieldProgramParser {
     body = body.replace("Located Between  :", "LocatedBetween:");
     body = body.replace("Call Time-", "CallTime:");
     body = body.replace("Caller :", "\nCaller:");
+    body = body.replace("Caller  :", "\nCaller:");
     body = body.replace("Nature of Call :", "NatureOfCall:");
     body = body.replace("Additional Info", "AdditionalInfo:");
     body = body.replace(" : ", "\n");
