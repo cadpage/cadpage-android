@@ -38,13 +38,33 @@
     android:layout="@layout/popup_privacy"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content" />
+
+  <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:padding="2dp">
+    <Button
+      android:id="@+id/btnMoreInfo"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:gravity="center"
+      android:text="@string/more_info" />
+    <ImageButton android:layout_width="wrap_content" 
+      android:layout_height="wrap_content" 
+      android:id="@+id/btnCallback" 
+      android:gravity="center"
+      android:background="@drawable/ic_callback_pop" 
+      android:fadeScrollbars="false" 
+      android:clickable="true"/>
+  </LinearLayout>
+
   <LinearLayout
     android:id="@+id/ButtonLinearLayout"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     android:gravity="center"
-    android:padding="2dp"
-    android:background="@android:color/darker_gray">
+    android:padding="2dp">
     <Button
       android:id="@+id/button1"
       android:layout_height="wrap_content"
@@ -64,15 +84,6 @@
       android:text=""
       android:layout_width="fill_parent" />
   </LinearLayout>
-
-  <ImageButton android:layout_width="wrap_content" 
-    android:layout_height="wrap_content" 
-    android:id="@+id/btnCallback" 
-    android:layout_gravity="center" 
-    android:background="@drawable/ic_callback_pop" 
-    android:fadeScrollbars="false" 
-    android:layout_marginTop="15dp" 
-    android:clickable="true"/>
     
   <Button
     android:id="@+id/donate_status_button"

@@ -81,6 +81,7 @@ public class SmsMmsMessage implements Serializable {
   private String ackReq = null;
   private String ackURL = null;
   private boolean ackNeeded = false;
+  private String infoURL = null;
   
   // Temporary fields being monitored to see if they will be of any
   // use in identifying multi-part messages
@@ -228,7 +229,7 @@ public class SmsMmsMessage implements Serializable {
    */
   public SmsMmsMessage(String from, String subject, String messageBody,
                         long timestamp, String reqLocation, String vendorCode, 
-                        String ackReq, String ackURL) {
+                        String ackReq, String ackURL, String infoURL) {
     this.messageType = MESSAGE_TYPE_C2DM;
     this.fromAddress = from;
     this.subject = subject;
@@ -238,6 +239,7 @@ public class SmsMmsMessage implements Serializable {
     this.vendorCode = vendorCode;
     this.ackReq = ackReq;
     this.ackURL = ackURL;
+    this.infoURL = infoURL;
     this.ackNeeded = ackReq.contains("A");
     this.parseInfo = bldParseInfo();
   }
@@ -630,6 +632,10 @@ public class SmsMmsMessage implements Serializable {
   public String getVendorCode() {
     return vendorCode;
   }
+  
+  public String getInfoURL() {
+    return infoURL;
+  }
 
   /**
    * Create option or context menu for message
@@ -795,6 +801,22 @@ public class SmsMmsMessage implements Serializable {
     default:
       return false;
     }
+  }
+  
+  /**
+   * Display web page with additional information if there is one
+   * @param context current context
+   */
+  public void showMoreInfo(Context context) {
+    String url = getInfoURL();
+    if (url == null) return;
+    
+    if (! SmsPopupUtils.haveNet(context)) return;
+    
+    Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
+    intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+    context.startActivity(intent);
+
   }
 
   /**

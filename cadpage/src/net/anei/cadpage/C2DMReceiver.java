@@ -194,9 +194,11 @@ public class C2DMReceiver extends BroadcastReceiver {
     if (ackURL == null) ackReq = null;
     if (ackReq == null) ackReq = "";
     
+    String infoUrl = intent.getStringExtra("info_url"); 
+    
     SmsMmsMessage message = 
       new SmsMmsMessage(from, subject, content, timestamp,
-                        location, vendorCode, ackReq, ackURL);
+                        location, vendorCode, ackReq, ackURL, infoUrl);
     
     // Add to log buffer
     if (!SmsMsgLogBuffer.getInstance().add(message)) return;

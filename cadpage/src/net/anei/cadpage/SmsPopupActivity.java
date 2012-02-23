@@ -75,6 +75,8 @@ public class SmsPopupActivity extends Activity {
   private View privacyView = null;
   private View buttonsLL = null;
   private LinearLayout mainLL = null;
+  private Button moreInfoBtn = null;
+  
 
   private boolean wasVisible = false;
 
@@ -155,26 +157,36 @@ public class SmsPopupActivity extends Activity {
         Button btn = (Button) findViewById(buttonIDs[ndx-1]);
         btnHandlers[ndx-1] = new PopupButtonHandler(getApplicationContext(), ndx, btn);
       }
-      View btnCB = findViewById(R.id.btnCallback);
-      if ( ManagePreferences.getCallback().length() > 0 ){
-        btnCB.setVisibility(View.VISIBLE);
-        btnCB.setOnClickListener(new View.OnClickListener() {
-          @Override
-          public void onClick(View v) {
-            try {
-              String urlPhone = "tel:" + ManagePreferences.getCallback();
-              Intent intent = new Intent(Intent.ACTION_CALL);
-              intent.setData(Uri.parse(urlPhone));
-              startActivity(intent);
-            } catch (Exception e) {
-              Log.v("SMSPopupActivity: Phone call failed" + e.getMessage());
-            }
-
+    }
+    
+    // Set up more info button
+    moreInfoBtn = (Button)findViewById(R.id.btnMoreInfo);
+    moreInfoBtn.setOnClickListener(new View.OnClickListener(){
+      @Override
+      public void onClick(View v) {
+        message.showMoreInfo(SmsPopupActivity.this);
+      }});
+    
+    // Set up Callback button
+    View btnCB = findViewById(R.id.btnCallback);
+    if ( ManagePreferences.getCallback().length() > 0 ){
+      btnCB.setVisibility(View.VISIBLE);
+      btnCB.setOnClickListener(new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+          try {
+            String urlPhone = "tel:" + ManagePreferences.getCallback();
+            Intent intent = new Intent(Intent.ACTION_CALL);
+            intent.setData(Uri.parse(urlPhone));
+            startActivity(intent);
+          } catch (Exception e) {
+            Log.v("SMSPopupActivity: Phone call failed" + e.getMessage());
           }
-        });
-      }
-      else btnCB.setVisibility(View.GONE);
-    } 
+
+        }
+      });
+    }
+    else btnCB.setVisibility(View.GONE);
     
     // Hook donate status button to current donation status
     Button btn = (Button)findViewById(R.id.donate_status_button);
@@ -381,6 +393,9 @@ public class SmsPopupActivity extends Activity {
 
     // Store message
     message = newMessage;
+    
+    String url = message.getInfoURL();
+    moreInfoBtn.setVisibility(url == null ? View.GONE : View.VISIBLE);
     
     // Make any adjustments to buttons
     if (btnHandlers != null) prepareButtons();
