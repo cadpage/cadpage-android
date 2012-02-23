@@ -6,10 +6,10 @@ import java.util.regex.Pattern;
 public class PatternTest {
 
   private static final Pattern MASTER = 
-    Pattern.compile("(.+?) at ([A-Z0-9 ]+?) in ([A-z0-9 ]+?) on (\\d\\d/\\d\\d/\\d\\d) (\\d\\d:\\d\\d)");
+    Pattern.compile("911-CENTER:([A-Z0-9]+) +(.+?) AT (.+?) (\\d{3}\\d{7}?)([ A-Z]+)*");
   
   public static void main(String[] args) {
-    doTest("FIRE ALARM reported at 95 RHL BLVD in SOUTH CHARLESTON on 02/10/12 15:00");
+    doTest("911-CENTER:1046 INJURY ACCIDENT LANTANA AT STORIE 7656250985 COUNTY");
   }
   
   private static void doTest(String test) {
