@@ -31,7 +31,6 @@ Sender: From:911@co.davie.nc.us
 Contact: support@active911.com
 911:Call #120223-6774* Address:277 OLD TOWNE DR* * * City:ADVANCE* Geo Comment: KINDERTON DEV NBH: OFF 160 BLOCK YADKIN VALLEY RD* Type:MED* MEDICAL CALL* GAIL GODWIN* PH#:336-909-2667* Units:24* IRA:* Medical: No* Hazards: No* NARR:02/23/2012 01:51:24 : pos2 : MCROWE Cross streets: BROOKSTONE DR//DEADEND Geo Comment: KINDERTON DEV NBH: OFF 160 BLOCK YADKIN VALLEY RD*
 
-
  */
 
 
@@ -41,7 +40,7 @@ public class NCDavieCountyParser extends FieldProgramParser {
   
   public NCDavieCountyParser() {
     super("DAVIE COUNTY", "NC",
-           "ID Address:ADDR! City:CITY! NBH:INFO3 Type:CALL CALL NAME PH:PHONE Units:UNIT IRA:SKIP INFO+ Geo_Comment:INFO2");
+           "ID Address:ADDR! City:CITY! Geo_Comment:INFO2? NBH:INFO3 Type:CALL CALL NAME PH:PHONE Units:UNIT IRA:SKIP INFO+ Geo_Comment:INFO2");
   }
 
   @Override
@@ -71,14 +70,14 @@ public class NCDavieCountyParser extends FieldProgramParser {
   private class MyInfo2Field extends InfoField {
     @Override
     public void parse(String field, Data data) {
-      data.strSupp = "Geo Comment: " + field;
+      data.strSupp = append(data.strSupp, " ", "Geo Comment: " + field);
     }
   }
   
   private class MyInfo3Field extends InfoField {
     @Override
     public void parse(String field, Data data) {
-      data.strSupp = "NBH: " + field;
+      data.strSupp = append(data.strSupp, " ", "NBH: " + field);
     }
   }
 

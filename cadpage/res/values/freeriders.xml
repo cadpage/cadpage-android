@@ -389,6 +389,7 @@
     <item>afdcd002f98c0602b1b3a14421699d7d</item>  <!-- Brad Myers -->
   </string-array>
   <string-array name="paid_2012_list">
+    <item>063173067c26318f8fe41ebf6ecbbdf5</item>  <!-- rlholmes54@gmail.com -->
     <item>065342934d52aea241b384c7ae64f57d</item>  <!-- Patrick Hultman -->
     <item>0cb3d9f97b80ce376bef0a81ff716d55</item>  <!-- David Shapp -->
     <item>0cdd99d7b6054d36cc2e77f7755f0de5</item>  <!-- Robert Vanburen -->
@@ -451,6 +452,7 @@
   </string-array>
   <string-array name="free_2012_list">
     <item>003c98126f4ee80aa1f81e6c1c391ea4</item>  <!-- Rob Waldron -->
+    <item>0130ede5d6d88b05ea2665640851c7d8</item>  <!-- Steve Walker100049@ -->
     <item>014512f4f8df69ced61d51cc178dc222</item>  <!-- Dan Roser -->
     <item>01a3db60ea6a98707f8cb9c508eb8f29</item>  <!-- Michael Abusharia -->
     <item>022033156e331c6f136ac30bceb7611d</item>  <!-- Timothy Mcclure -->
@@ -470,7 +472,6 @@
     <item>0f88d1e4c53d636973a0cf4c125a3c58</item>  <!-- Matt Z -->
     <item>0fcf4772979ced925e68295a9f40386d</item>  <!-- Frank Machokas -->
     <item>0fcf4772979ced925e68295a9f40386d</item>  <!-- Frank Machokas -->
-    <item>11bbada47b79917e06e0f58eb58c5e74</item>  <!-- Erin Norris -->
     <item>1224e4b8e237f0e8a4b5c72bf359d893</item>  <!-- William Trowbridge -->
     <item>126fa95106971b927e4f434e363b4368</item>  <!-- Dj Brady -->
     <item>128ce9576d19debf5d507b40c8965d35</item>  <!-- Adam Rioch -->
@@ -569,6 +570,7 @@
     <item>6597b6ba25f981a41432ee6b0cd3e61e</item>  <!-- Tom Myers -->
     <item>68bd61d91330b7e18b9b7942e54a0b18</item>  <!-- Michael Reinbeck, Jr. -->
     <item>6959073f7a20ae852ec1f35b44cdc08c</item>  <!-- Adam Bashore -->
+    <item>6993cb2c604601d212226b6ab12b6ef7</item>  <!-- Christine Cummings -->
     <item>6a33bd3106b1ed2346a937404b9f29ff</item>  <!-- will craine -->
     <item>6c2a2df6b0bb4b42359379b3951b2d3b</item>  <!-- Glenn Mckenney -->
     <item>6dcad0c645af556139b4c693d5220bdd</item>  <!-- Melody Kalk -->
@@ -586,6 +588,7 @@
     <item>741c8ab4a1f81d78b4a08c3d430e7aaa</item>  <!-- chad dolan -->
     <item>767f21d13b78141372e3a651395f0fee</item>  <!-- Caitlin Goforth -->
     <item>77596a079fc6a372eeb5d6139174fd1e</item>  <!-- Gerald Brinson -->
+    <item>7794c380bae0519db6ee8c001852068c</item>  <!-- Steve Shipley -->
     <item>7d7aafb7d0bf94f1d3421ba1353608a0</item>  <!-- Danny Fogal -->
     <item>7da615e13fe8909c9ab3c289ee7f6bd3</item>  <!-- Me -->
     <item>7e11b59cb2d83935efbf2d2db618fb25</item>  <!-- Adam Roberts -->
@@ -600,6 +603,7 @@
     <item>83b7657d9ad03bdb37c0d0c97b7e303d</item>  <!-- Thomas Harmon -->
     <item>875f65cd2ffdef7ff050f1536c914218</item>  <!-- Jeremy Smith -->
     <item>88888807939aa0c57ee2e08fc55f936e</item>  <!-- Scott Gleed -->
+    <item>88e0d637d1a1af9d2614157d49d16151</item>  <!-- Richard Ryan -->
     <item>8944bbbdf983e11928a4e35c332a4231</item>  <!-- edward mullen -->
     <item>89b5f9a068acc8fe529543f0deb436a8</item>  <!-- Jr McElyea -->
     <item>89d549a19cf32159eccfafefc3152891</item>  <!-- Judd Howdyshell -->
@@ -640,11 +644,13 @@
     <item>b39091dc9215556df74c6f8452e6a6be</item>  <!-- Michael McClary -->
     <item>b57f2e10f37872e69f558ec914a1d481</item>  <!-- Justin Kanetis -->
     <item>b61587b29bdd68dd9dc327981ca8364c</item>  <!-- Sylvia Kovach -->
+    <item>b768fc24cf1ca600de406aaf9ce0ef0e</item>  <!-- Brian Burns -->
     <item>b7e885001a44750392bc1fce092e9bf6</item>  <!-- Martin Hrinko -->
     <item>bc32947cb7662d3694a3c2dff7dc8764</item>  <!-- Willoughby, Jacob -->
     <item>bd198b55ac008149267a782dc1aafb7f</item>  <!-- Chris Heimel -->
     <item>c05edea5d4401972e0de357b14a02804</item>  <!-- Phillip Newsom -->
     <item>c19c53c3bb713b8539a3cc625d251f1e</item>  <!-- Ryan Davis -->
+    <item>c1e11592dfa523ad642012061931f92f</item>  <!-- Lisa Burruss -->
     <item>c334b870a86fbc6685c18af4d5aa7ed1</item>  <!-- Sue Hoskins -->
     <item>c59bd12eb417c4aeb8aee8bc6fbbf57d</item>  <!-- Zach Dains -->
     <item>c64a0409f6013573214bfa8d36e00456</item>  <!-- Chad Houston -->
@@ -661,6 +667,7 @@
     <item>cdae9cfee155350f264dbb1a2e0a4f4b</item>  <!-- Micky42069 -->
     <item>ce9a48d23a11112823b34bef73294ba4</item>  <!-- George Butt -->
     <item>ced405a65ca7bd301a9f72879124088f</item>  <!-- Schearer, Benjamin -->
+    <item>cfbc6fc381459c56e828175fbfd3cf34</item>  <!-- Scott Davis -->
     <item>d0050d5e7c54686106ea6cc04ca85de5</item>  <!-- Shawn Leonard -->
     <item>d03b7466aa2499176339fb2fb4a1a6df</item>  <!-- Becky Hendershott -->
     <item>d142dd89a1351fe0bc3f0ebcf9d29a5c</item>  <!-- Evan Spence -->
@@ -678,6 +685,7 @@
     <item>df792074cb68bfe8d9ac6df6a2de6c41</item>  <!-- Andy Malcolm -->
     <item>e06f9f2a24183609fb455a7596be18a2</item>  <!-- James O'Regan -->
     <item>e1a20e1c85f40c66f10efce969d09b42</item>  <!-- Stephen Thompson -->
+    <item>e43f7de1e4d707c6af5ae8a99987b07d</item>  <!-- Tammy Stadel -->
     <item>e5647d64cf58c0599462be585389e110</item>  <!-- Craig Yingling -->
     <item>e62ecff4136bbb17ab384462fe8cde4e</item>  <!-- jason knightly -->
     <item>e685774b336d9a2cf337467512219658</item>  <!-- Joshua Higginbotham -->
