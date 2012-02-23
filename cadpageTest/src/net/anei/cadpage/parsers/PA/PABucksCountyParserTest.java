@@ -1796,6 +1796,27 @@ public class PABucksCountyParserTest extends BaseParserTest {
         "ID:ED1206040",
         "UNIT:SQ134");
 
+    doTest("T16",
+        "[Important message from Bucks County RSAN] STA19:FALRM\n" +
+        "adr:1290 ALMSHOUSE RD ,29 -- GRUNDY HALL\n" +
+        "btwn:TURK RD & RT 611\n" +
+        "aai:2153434117\n" +
+        "box:79057\n" +
+        "tm:18:47:59 FD1202516  Run: E79\n" +
+        "Sent by mss911 Bucks to STA19, mss911 Bucks (Voice/Fax Dialer, E-mail accounts, Pagers, Cell phones) through Bucks County RSAN\n",
+
+        "SRC:STA19",
+        "CALL:FALRM - FIRE ALARM (LOC)",
+        "BOX:79057",
+        "PLACE:GRUNDY HALL",
+        "ADDR:1290 ALMSHOUSE RD",
+        "CITY:DOYLESTOWN TWP",
+        "X:TURK RD & RT 611",
+        "INFO:2153434117",
+        "TIME:18:47:59",
+        "ID:FD1202516",
+        "UNIT:E79");
+
   }
   
   
