@@ -125,6 +125,20 @@ public class PAAlleghenyCountyParserTest extends BaseParserTest {
         "UNIT:E14004 142 269");
 
     doTest("T11",
+        "ALLEGHENY COUNTY 911 :FRILL, F3, ILLEGAL FIRE, 5172 LOMBARDI DR, BWB, btwn SUNNY DR and END, SFD1, 104002, Units:104AST1, 104AST2 - From 701 02/23/2012 13:23:10",
+        "CALL:FRILL - ILLEGAL FIRE",
+        "PRI:F3",
+        "ADDR:5172 LOMBARDI DR",
+        "CITY:BALDWIN",
+        "X:SUNNY DR and END",
+        "SRC:SFD1",
+        "UNIT:104002 104AST1 104AST2");
+  }
+  
+  @Test
+  public void testActive911() {
+
+    doTest("T1",
         "(268 Station) 29D2P, F0, TRAFFIC-HIGH MECHANISM (ROLLOVER), BRIDGEVILLE EXIT, SFT, at 54 SB I-79 OFRP MILLERS RUN RD RMP, SFT, btwn END and MILLERS RUN RD, SFD3, 268003, CAR OVERTURNED, Units:268EN1, 268RQ1 - From 703 01/31/2012 19:18:34",
         "CALL:29D2P - TRAFFIC-HIGH MECHANISM (ROLLOVER)",
         "PRI:F0",
