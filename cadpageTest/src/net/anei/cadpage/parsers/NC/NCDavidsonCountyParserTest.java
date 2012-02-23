@@ -143,10 +143,28 @@ public class NCDavidsonCountyParserTest extends BaseParserTest {
         "ADDR:2570 RIVERVIEW RD",
         "ID:2011020042",
         "INFO:BLUE WATER PT / RIVERHOUSE RD / DIFF BREATHING # PATS: 1 AGE: 72");
- }
+
+    doTest("T11",
+        "CAD:P31-UNCONSCIOUS/FAINTING-DELTA;106 MT VISTA HEALTH PARK RD;MT VISTA HEALTH PARK;2012003042;S MAIN ST EXT;[Medical Priority Info] PROBLEM: uncon # PATS:",
+        "CALL:P31-UNCONSCIOUS/FAINTING-DELTA",
+        "ADDR:106 MT VISTA HEALTH PARK RD",
+        "PLACE:MT VISTA HEALTH PARK",
+        "ID:2012003042",
+        "X:S MAIN ST EXT",
+        "INFO:uncon # PATS:");
+
+    doTest("T12",
+        "CAD:P1-ABDOMINAL PAINS-CHARLIE;15 E SALISBURY ST;ENERGY UNITED (DENTON);2012003053;S MAIN ST;GARNER ST;[Medical Priority Info] PROBLEM: stomach pains # PAT",
+        "CALL:P1-ABDOMINAL PAINS-CHARLIE",
+        "ADDR:15 E SALISBURY ST",
+        "PLACE:ENERGY UNITED (DENTON)",
+        "ID:2012003053",
+        "X:S MAIN ST & GARNER ST",
+        "INFO:stomach pains # PAT");
+  }
   
   public static void main(String[] args) {
-    new NCDavidsonCountyParserTest().generateTests("T1");
+    new NCDavidsonCountyParserTest().generateTests("T11");
   }
 }
 
