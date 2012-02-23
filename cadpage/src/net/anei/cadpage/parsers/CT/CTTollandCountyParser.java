@@ -152,7 +152,9 @@ public class CTTollandCountyParser extends SmartAddressParser {
     "WAREHOUSE POINT",
     
     // Windham county
-    "ASHFORD"
+    "ASHFORD",
+    "WILLIMANTIC",
+    "WINDHAM"
   };
 
 }
