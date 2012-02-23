@@ -130,7 +130,6 @@ Subject:1/1\nSQ134:ASEIZ\nadr:517 N MAIN ST ,27\nbtwn:W HILLCREST AV & PEACE VAL
 Subject:1/2\nSQ134 SQ125:ACHESP\nadr:1080 PATRICK PL ,27\nbtwn:LINDENFIELD PY & LINDENFIELD PY\nbox:34028 map:3033G3\ntm:12:27:07 E
 Subject:1/1\nSQ125 SQ134:ACVA\nadr:216 UNION ST ,28\nbtwn:HARVEY AV & N HAMILTON ST\naai:"ALLEN GREER" RESD 215 348 1001\nbox:1901ap:2922H10\ntm:06:34:10 ED1205674
 Subject:1/1\nSQ134:AFALL\nadr:10 DUBLIN RD ,36\nbtwn:HILLTOWN PK & PINESIDE DR\nbox:23017 map:2921D4\ntm:18:47:44 ED1205765
-
 Subject:1/1\nSQ134:AFAINT \nadr:102 ASPEN CT ,48 \nbtwn:E FAIRWOOD DR & CUL DE SAC \nbox:34030 map:3033H1 \ntm:05:28:39 ED1205933
 Subject:1/1\nSQ134:ATRAN\nadr:209 OVERLOOK DR ,48\nbtwn:STONY HILL CT & RIDGE CT\nbox:74052 map:3033D5\ntm:00:21:23 ED1205914
 Subject:1/1\nSQ134:AFAINT\nadr:102 ASPEN CT ,48\nbtwn:E FAIRWOOD DR & CUL DE SAC\nbox:34030 map:3033H1\ntm:05:28:39 ED1205933
@@ -142,6 +141,7 @@ Subject:1/2\nSQ134:FIRCAL\nadr:SALVAGE DIRECT ,47 at 77 BRISTOL RD ,47\nbtwn:W B
 STA19:FSTORE adr:NATIONAL PENN INSU ,28 at 169 BROAD ST ,28 btwn:N MAIN ST & UNION ST box:19012 tm:13:22:16 FD1202212 Run: L79 E19 E19-1 E79 Sent by m
 STA19:FALRM adr:GOLDEN LIVING ,28 at 432 MAPLE AV ,28 btwn:COTTAGE ST & EAST ST box:19055 tm:13:27:51 FD1202214 Run: E15 Sent by mss911 Bucks to STA19
 STA19:FALRM adr:GRUNDY HALL ,29 at 1290 ALMSHOUSE RD ,29 btwn:TURK RD & RT 611 box:79057 tm:12:13:33 FD1202423 Run: E79 Sent by mss911 Bucks to STA19,
+STA19:FALRM adr:1290 ALMSHOUSE RD ,29 - GRUNDY HALL btwn:TURK RD & RT 611 aai:2153434117 box:79057 tm:18:47:59 FD1202516 Run: E79 Sent by mss911 Bucks
 
 Contact: Jon DiNola <jbdinola@gmail.com>
 Sender: alert_@alert.bucksema.org
@@ -160,6 +160,10 @@ Sender: alert10485@alert.bucksema.org
 Subject:1/1\nSQ168:ABLED\nadr:SHERWOOD RESIDENCE ,44 at 92 OAKWOOD DR ,44\nbtwn:BUTTONWOOD DR & BUTTONWOOD DR\nbox:21011 map:3262E tm:09:50:07 ED1205837
 Subject:1/2\nSTA45 STA0:FAPT \nadr:106 DISPATCH DR ,72 \nbtwn:LEXINGTON CT & DISPATCH DR \nbox:71038 \ntm:19:20:02 FD1202317  Run: TR7
 
+Contact: "jecashjr@hotmail.com" <jecashjr@hotmail.com>
+Sender: a@bnn.us
+STA26 STA23 STA87 STA17 STA18:FDWL adr:1032 OLD BETHLEHEM RD ,33 btwn:RIDGE RD & CREEK RD box:76030 tm:09:07:08 FD1202476 Run: TW26 TR23 E26 E17 Sent 
+
 Contact support@active911.com
 Sender: "Bucks RSAN" <alert10965@alert.bucksema.org>
 [Important message from Bucks County RSAN] STA19:WIRES\nadr:400 OLD DUBLIN PK ,29 -- PENN COLOR INC\nbtwn:TRAFALGAR RD & PINE RUN RD\naai:IFO WAREHOUSE\nbox:19005\ntm:16:47:17 FD1202274  Run: E19\nSent by mss911 Bucks to STA19, mss911 Bucks (Voice/Fax Dialer, E-mail accounts, Pagers, Cell phones) through Bucks County RSAN\n
@@ -177,6 +181,7 @@ Sender: "Bucks RSAN" <alert10965@alert.bucksema.org>
 (Important message from Bucks County RSAN) SQ134:ACHESP\nadr:1600 HORIZON DR #117 ,48 -- GWYNEDD FAMILY MED\nbtwn:HORIZON CI & COUNTY LI\naai:STE 117\nbox:74058 map:3033F8\ntm:16:11:55 ED1206008\n\nSent by mss911 Bucks to SQ134, mss911 Bucks (Voice/Fax Dialer, E-mail accounts, Pagers, Cell phones) through Bucks County RSAN
 (Important message from Bucks County RSAN) SQ134:ASEIZ\nadr:MANOR CARE HEALTH SERVICES#228,MONT TWP\naai:640 BETHLEHEM PIKE\nbox: map:\ntm:19:53:41 ED1206032\n\nSent by mss911 Bucks to SQ134, mss911 Bucks (Voice/Fax Dialer, E-mail accounts, Pagers, Cell phones) through Bucks County RSAN
 (Important message from Bucks County RSAN) SQ134:FIRCAL\nadr:SALVAGE DIRECT ,47 at 77 BRISTOL RD ,47\nbtwn:W BUTLER AV & UNAMI TL\nbox:34025 map:3033J4\ntm:22:06:32 ED1206040\n\nSent by mss911 Bucks to SQ134, mss911 Bucks (Voice/Fax Dialer, E-mail accounts, Pagers, Cell phones) through Bucks County RSAN
+
 
  */
 
@@ -240,17 +245,15 @@ public class PABucksCountyParser extends FieldProgramParser {
   }
   
   private static final Pattern LA_PTN = Pattern.compile("\\bLA\\b", Pattern.CASE_INSENSITIVE);
+  private static final Pattern CITY_CODE_PTN = Pattern.compile("(\\d+)[- ]*(.*)");
   private class MyAddressField extends AddressField {
     
     @Override
     public void parse(String sAddr, Data data) {
       Parser p = new Parser(sAddr);
       data.strPlace = p.getOptional(" at ");
-      if (data.strPlace.length() == 0) data.strPlace = p.getLastOptional("--");
-      if (data.strPlace.length() > 0) {
-        int pt = data.strPlace.indexOf(',');
-        if (pt >= 0) data.strPlace = data.strPlace.substring(0, pt).trim();
-      }
+      int pt = data.strPlace.indexOf(',');
+      if (pt >= 0) data.strPlace = data.strPlace.substring(0,pt).trim();
       String cityCode = p.getLastOptional(',');
       sAddr = p.get();
       sAddr = LA_PTN.matcher(sAddr).replaceAll("LN");
@@ -260,13 +263,17 @@ public class PABucksCountyParser extends FieldProgramParser {
       sAddr = expandStreet("FALLSINGTON TULLYTOWN", sAddr);
       super.parse(sAddr, data);
       if (cityCode.length() > 0) {
-        try {
-          int iCity = Integer.parseInt(cityCode);
+        Matcher match = CITY_CODE_PTN.matcher(cityCode);
+        if (match.matches()) {
+          int iCity = Integer.parseInt(match.group(1));
           iCity = iCity - INIT_TOWN_CODE;
           if (iCity >= 0 && iCity < TOWN_CODES.length){
             data.strCity = TOWN_CODES[iCity];
           }
-        } catch (NumberFormatException ex) {}
+          data.strPlace = append(data.strPlace, " - ", match.group(2));
+        } else {
+          data.strCity = cityCode;
+        }
       }
     }
     

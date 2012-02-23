@@ -124,6 +124,7 @@ vendor - Your vendor code.  Not required, but it does help us tag the message di
          as coming through your service
 unix_time - date/time you received page from dispatch, as a unix timestamp 
             (seconds since midnight Jan 1, 1970)
+info_url - URL of web page containing additional information about call.            
 
 For everything
 ack_url:  URL Cadpage will connect with to acknowledge message status (optional)
