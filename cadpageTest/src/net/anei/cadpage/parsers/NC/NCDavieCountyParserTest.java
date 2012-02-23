@@ -134,8 +134,24 @@ public class NCDavieCountyParserTest extends BaseParserTest {
         "UNIT:14");
   }
   
+  @Test
+  public void testActive911() {
+
+    doTest("T1",
+        "911:Call #120223-6774* Address:277 OLD TOWNE DR* * * City:ADVANCE* Geo Comment: KINDERTON DEV NBH: OFF 160 BLOCK YADKIN VALLEY RD* Type:MED* MEDICAL CALL* GAIL GODWIN* PH#:336-909-2667* Units:24* IRA:* Medical: No* Hazards: No* NARR:02/23/2012 01:51:24 : pos2 : MCROWE Cross streets: BROOKSTONE DR//DEADEND Geo Comment: KINDERTON DEV NBH: OFF 160 BLOCK YADKIN VALLEY RD*",
+        "ID:120223-6774",
+        "ADDR:277 OLD TOWNE DR",
+        "CITY:ADVANCE",
+        "INFO:Geo Comment: KINDERTON DEV NBH: OFF 160 BLOCK YADKIN VALLEY RD / Medical: No / Hazards: No / NARR:02/23/2012 01:51:24 : pos2 : MCROWE Cross streets: BROOKSTONE DR//DEADEND Geo Comment: KINDERTON DEV NBH: OFF 160 BLOCK YADKIN VALLEY RD",
+        "CALL:MED - MEDICAL CALL",
+        "NAME:GAIL GODWIN",
+        "PHONE:336-909-2667",
+        "UNIT:24");
+
+  }
+  
 
   public static void main(String[] args) {
-    new NCDavieCountyParserTest().generateTests("T13");
+    new NCDavieCountyParserTest().generateTests("T1");
   }
 }

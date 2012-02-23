@@ -67,6 +67,18 @@ public class MORayCountyParserTest extends BaseParserTest {
         "CALL:ABDOMINAL PAIN",
         "ADDR:12595 ORRICK RD",
         "INFO:28 YOLD FEMALE CONS AND BREATH SEVERE STOMACH PAIN LOWER ABDOMEN LUPUS");
+
+    doTest("T7",
+        "WHFD RCAD EMS 501 ARAPAHOE DR HOMESTEAD VILLAGE Description: [11/19/2011 02:56:14 0021] female help \n" +
+        "[11/19/2011 02:56:56 0021] calling back \n",
+
+        "SRC:WHFD RCAD",
+        "CALL:EMS",
+        "ADDR:501 ARAPAHOE DR",
+        "CITY:HOMESTEAD VILLAGE",
+        "INFO:female help / calling back",
+        "DATE:11/19/2011",
+        "TIME:02:56:14");
   }
   
   @Test
