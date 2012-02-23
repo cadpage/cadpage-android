@@ -1099,6 +1099,7 @@ public class PABucksCountyParserTest extends BaseParserTest {
         "CALL:ASEIZ - SEIZURES - ACTIVE",
         "ADDR:MANOR CARE HEALTH SERVICES",
         "APT:228",
+        "CITY:MONT TWP",
         "INFO:640 BETHLEHEM PIKE",
         "TIME:19:53:41",
         "ID:ED1206032",
@@ -1154,6 +1155,20 @@ public class PABucksCountyParserTest extends BaseParserTest {
         "X:TURK RD & RT 611",
         "TIME:12:13:33",
         "ID:FD1202423",
+        "UNIT:E79");
+
+    doTest("T21",
+        "STA19:FALRM adr:1290 ALMSHOUSE RD ,29 - GRUNDY HALL btwn:TURK RD & RT 611 aai:2153434117 box:79057 tm:18:47:59 FD1202516 Run: E79 Sent by mss911 Bucks",
+        "SRC:STA19",
+        "CALL:FALRM - FIRE ALARM (LOC)",
+        "BOX:79057",
+        "ADDR:1290 ALMSHOUSE RD",
+        "CITY:DOYLESTOWN TWP",
+        "PLACE:GRUNDY HALL",
+        "X:TURK RD & RT 611",
+        "INFO:2153434117",
+        "TIME:18:47:59",
+        "ID:FD1202516",
         "UNIT:E79");
 
   }
@@ -1468,6 +1483,23 @@ public class PABucksCountyParserTest extends BaseParserTest {
   }
   
   @Test
+  public void testJecashjr() {
+
+    doTest("T1",
+        "STA26 STA23 STA87 STA17 STA18:FDWL adr:1032 OLD BETHLEHEM RD ,33 btwn:RIDGE RD & CREEK RD box:76030 tm:09:07:08 FD1202476 Run: TW26 TR23 E26 E17 Sent ",
+        "SRC:STA26 STA23 STA87 STA17 STA18",
+        "CALL:FDWL - DWELLING FIRE (TAC)",
+        "BOX:76030",
+        "ADDR:1032 OLD BETHLEHEM RD",
+        "CITY:EAST ROCKHILL",
+        "X:RIDGE RD & CREEK RD",
+        "TIME:09:07:08",
+        "ID:FD1202476",
+        "UNIT:TW26 TR23 E26 E17 Sent");
+
+  }
+  
+  @Test
   public void testActive911() {
 
     doTest("T1",
@@ -1739,6 +1771,7 @@ public class PABucksCountyParserTest extends BaseParserTest {
         "CALL:ASEIZ - SEIZURES - ACTIVE",
         "ADDR:MANOR CARE HEALTH SERVICES",
         "APT:228",
+        "CITY:MONT TWP",
         "INFO:640 BETHLEHEM PIKE",
         "TIME:19:53:41",
         "ID:ED1206032",
