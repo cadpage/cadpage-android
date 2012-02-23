@@ -41,6 +41,8 @@ BCAD:P10-CHEST PAINS-CHARLIE;1125 WEAVER RD;2011018228;FROG POND DR;MEADOWVIEW R
 
 Contact: Andrew King <aking.salisburyfire@gmail.com>
 CAD:P6-BREATHING PROBLEMS-DELTA;2570 RIVERVIEW RD;2011020042;BLUE WATER PT;RIVERHOUSE RD;[Medical Priority Info] PROBLEM: DIFF BREATHING # PATS: 1 AGE: 72
+CAD:P31-UNCONSCIOUS/FAINTING-DELTA;106 MT VISTA HEALTH PARK RD;MT VISTA HEALTH PARK;2012003042;S MAIN ST EXT;[Medical Priority Info] PROBLEM: uncon # PATS:
+CAD:P1-ABDOMINAL PAINS-CHARLIE;15 E SALISBURY ST;ENERGY UNITED (DENTON);2012003053;S MAIN ST;GARNER ST;[Medical Priority Info] PROBLEM: stomach pains # PAT
 
 ***/
 
@@ -50,7 +52,7 @@ public class NCDavidsonCountyParser extends DispatchOSSIParser {
 
   public NCDavidsonCountyParser() {
     super("DAVIDSON COUNTY", "NC",
-           "CALL ADDR! INTLS? ID? X+? INFO+");
+           "CALL ADDR! INTLS? ( ID | PLACE ID | ) X+? INFO+");
   }
   
   @Override
@@ -78,6 +80,7 @@ public class NCDavidsonCountyParser extends DispatchOSSIParser {
   
   @Override
   public Field getField(String name) {
+    if (name.equals("ID")) return new IdField("\\d{10}");
     if (name.equals("INFO")) return new MyInfoField();
     return super.getField(name);
   }
