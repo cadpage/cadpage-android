@@ -388,7 +388,7 @@ public class SmsPopupActivity extends Activity {
     
     // Update Icon to indicate direct paging source
     int resIcon = VendorManager.instance().getVendorIconId(message.getVendorCode());
-    if (resIcon >= 0) resIcon = R.drawable.ic_launcher; 
+    if (resIcon <= 0) resIcon = R.drawable.ic_launcher; 
     fromImage.setImageResource(resIcon);
     
     // Update TextView that contains the timestamp for the incoming message

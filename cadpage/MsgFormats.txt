@@ -4350,7 +4350,7 @@ Sender: Bob@relaycom.com
 (FROM RELAY) 1272 EAST MAIN ST  DR. BROOK'S OFC  MALE  FAINTING EPISODES
 (MSG FROM RELAY) MICHAEL'S 1440 OLD COUNTRY RD. FEMALE. GENERAL WEAKNESS.
 **********************************************************
-Decatur, TX (in Wise County)
+Decatur, TX
 Contact: Michael Richardson <grizzly.richardson@gmail.com>
 Sender: messaging@iamresponding.com
 System: Cardinal CAD SE

@@ -261,12 +261,17 @@ abstract class Vendor {
    */
   void moreInfoReq(Context context) {
     if (!SmsPopupUtils.haveNet(context)) return;
-    Uri uri;
-    if (!enabled) {
-      uri = baseURI.buildUpon().appendQueryParameter("req", "info").build();
-    } else {
-      uri = buildRequestUri("profile", ManagePreferences.registrationId());
-    }
+    Uri uri = baseURI.buildUpon().appendQueryParameter("req", "info").build();
+    viewPage(context, uri);
+  }
+
+  /**
+   * Process user request vendor user profile
+   * @param context current context
+   */
+  void profileReq(Context context) {
+    if (!SmsPopupUtils.haveNet(context)) return;
+    Uri uri = buildRequestUri("profile", ManagePreferences.registrationId());
     viewPage(context, uri);
   }
 

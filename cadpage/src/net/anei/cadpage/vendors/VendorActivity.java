@@ -23,6 +23,8 @@ public class VendorActivity extends Activity {
   private static final int CONFIRM_UNREGISTER_DLG = 1;
   
   private TextView infoTextView;
+  private Button moreInfoButton;
+  private Button profileButton;
   private Button registerButton;
   private Button unregisterButton;
   
@@ -36,11 +38,19 @@ public class VendorActivity extends Activity {
     
     // We can't do the cool stuff until we get a Vendor code
     // But can set up the button handlers here
-    Button moreInfoButton = (Button)findViewById(R.id.more_info_button);
+    moreInfoButton = (Button)findViewById(R.id.more_info_button);
     moreInfoButton.setOnClickListener(new OnClickListener(){
       @Override
       public void onClick(View v) {
         vendor.moreInfoReq(VendorActivity.this);
+      }
+    });
+    
+    profileButton = (Button)findViewById(R.id.profile_button);
+    profileButton.setOnClickListener(new OnClickListener(){
+      @Override
+      public void onClick(View v) {
+        vendor.profileReq(VendorActivity.this);
       }
     });
     
@@ -145,10 +155,14 @@ public class VendorActivity extends Activity {
     if (vendor.isEnabled()) {
       infoTextView.setText(R.string.vendor_registered);
       infoTextView.setVisibility(View.VISIBLE);
+      moreInfoButton.setVisibility(View.GONE);
+      profileButton.setVisibility(View.VISIBLE);
       registerButton.setVisibility(View.GONE);
       unregisterButton.setVisibility(View.VISIBLE);
     } else {
       infoTextView.setVisibility(View.GONE);
+      moreInfoButton.setVisibility(View.VISIBLE);
+      profileButton.setVisibility(View.GONE);
       registerButton.setVisibility(View.VISIBLE);
       unregisterButton.setVisibility(View.GONE);
     }

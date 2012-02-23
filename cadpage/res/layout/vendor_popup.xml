@@ -53,6 +53,11 @@
     android:layout_width="fill_parent"
     android:text="@string/vendor_more_info"/>
   <Button
+    android:id="@+id/profile_button"
+    android:layout_height="wrap_content"
+    android:layout_width="fill_parent"
+    android:text="@string/vendor_profile"/>
+  <Button
     android:id="@+id/register_button"
     android:layout_height="wrap_content"
     android:layout_width="fill_parent"
