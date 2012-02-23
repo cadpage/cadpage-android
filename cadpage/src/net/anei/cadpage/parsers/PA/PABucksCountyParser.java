@@ -181,7 +181,7 @@ Sender: "Bucks RSAN" <alert10965@alert.bucksema.org>
 (Important message from Bucks County RSAN) SQ134:ACHESP\nadr:1600 HORIZON DR #117 ,48 -- GWYNEDD FAMILY MED\nbtwn:HORIZON CI & COUNTY LI\naai:STE 117\nbox:74058 map:3033F8\ntm:16:11:55 ED1206008\n\nSent by mss911 Bucks to SQ134, mss911 Bucks (Voice/Fax Dialer, E-mail accounts, Pagers, Cell phones) through Bucks County RSAN
 (Important message from Bucks County RSAN) SQ134:ASEIZ\nadr:MANOR CARE HEALTH SERVICES#228,MONT TWP\naai:640 BETHLEHEM PIKE\nbox: map:\ntm:19:53:41 ED1206032\n\nSent by mss911 Bucks to SQ134, mss911 Bucks (Voice/Fax Dialer, E-mail accounts, Pagers, Cell phones) through Bucks County RSAN
 (Important message from Bucks County RSAN) SQ134:FIRCAL\nadr:SALVAGE DIRECT ,47 at 77 BRISTOL RD ,47\nbtwn:W BUTLER AV & UNAMI TL\nbox:34025 map:3033J4\ntm:22:06:32 ED1206040\n\nSent by mss911 Bucks to SQ134, mss911 Bucks (Voice/Fax Dialer, E-mail accounts, Pagers, Cell phones) through Bucks County RSAN
-
+[Important message from Bucks County RSAN] STA19:FALRM\nadr:1290 ALMSHOUSE RD ,29 -- GRUNDY HALL\nbtwn:TURK RD & RT 611\naai:2153434117\nbox:79057\ntm:18:47:59 FD1202516  Run: E79\nSent by mss911 Bucks to STA19, mss911 Bucks (Voice/Fax Dialer, E-mail accounts, Pagers, Cell phones) through Bucks County RSAN\n
 
  */
 

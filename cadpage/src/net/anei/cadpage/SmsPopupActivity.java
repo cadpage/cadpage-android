@@ -132,11 +132,6 @@ public class SmsPopupActivity extends Activity {
     messageReceivedTV = (TextView) findViewById(R.id.HeaderTextView);
     messageScrollView = (ScrollView) findViewById(R.id.MessageScrollView);
 
-    // Find the ImageView that will show the contact photo
-    //photoImageView = (ImageView) findViewById(R.id.FromImageView);
-    //contactPhotoPlaceholderDrawable =
-    //  getResources().getDrawable(SmsPopupUtils.CONTACT_PHOTO_PLACEHOLDER);
-
     // Enable long-press context menu
     mainLL = (LinearLayout)findViewById(R.id.MainLinearLayout);
     registerForContextMenu(mainLL);
@@ -393,7 +388,8 @@ public class SmsPopupActivity extends Activity {
     
     // Update Icon to indicate direct paging source
     int resIcon = VendorManager.instance().getVendorIconId(message.getVendorCode());
-    if (resIcon > 0) fromImage.setImageResource(resIcon);
+    if (resIcon >= 0) resIcon = R.drawable.ic_launcher; 
+    fromImage.setImageResource(resIcon);
     
     // Update TextView that contains the timestamp for the incoming message
     String headerText;
