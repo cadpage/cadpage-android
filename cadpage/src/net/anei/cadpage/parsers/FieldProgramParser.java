@@ -57,8 +57,11 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  *     y - parse -xx city convention
  *     i - implied intersection convention
  *     s - accept sloppy addresses
- *     S - Invoke smart parser logic, this is followed by up two 3 characters
- *         The first determines what can come ahead of the address
+ *     S - Invoke smart parser logic, this is followed by some optional flag
+ *         characters, followed by up two 3 field designation characters
+ *         Flag characters
+ *         0 - @ or AT can mark begining or end of address
+ *         First field character determines what can come ahead of the address
  *         X - nothing
  *         C - call description (req)
  *         c - call description (opt)
@@ -66,7 +69,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  *         p - place name (req)
  *         S - something we can skip (opt)
  *         s - something we can skip (req)
- *         The second determines what data comes after the address
+ *         Second field character determines what data comes after the address
  *         X - nothing
  *         C - call description
  *         P - place name
@@ -76,8 +79,8 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  *         N - name
  *         I - supplemental info
  *         x - cross streets
- *         The third determines what to do with a special field between the
- *         regular address and the city field
+ *         Third field character determines what to do with a special field between 
+ *         the regular address and the city field
  *         X - nothing
  *         P - place name
  *         S - something we can skip
@@ -1369,6 +1372,11 @@ public class FieldProgramParser extends SmartAddressParser {
         do {
           if (++pt >= qual.length()) break;
           char chr = qual.charAt(pt);
+          if (chr == '0') {
+            parseFlags |= FLAG_AT_BOTH;
+            if (++pt >= qual.length()) break;
+          }
+          chr = qual.charAt(pt);
           int pt2 = "cPsCpS".indexOf(chr);
           if (pt2 >= 0) {
             if (pt2 >= 3) {
