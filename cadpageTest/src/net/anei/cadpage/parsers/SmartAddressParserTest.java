@@ -42,6 +42,9 @@ public class SmartAddressParserTest extends BaseParserTest {
   
   @Test
   public void testProblems() {
+    doTest(PLACE, FLAG_AT_BOTH | FLAG_ANCHOR_END, "515 FLETCHWOOD RD @WAREHOUSE S",
+           "ADDR:515 FLETCHWOOD RD",
+           "PLACE:WAREHOUSE S");
     doTest(CALL, "MVA-TRAPPED MULTI PT/ADD RESPO LAKE PLEASANT RD&TATE RD EXTRA",
           "CALL:MVA-TRAPPED MULTI PT/ADD RESPO",
           "ADDR:LAKE PLEASANT RD & TATE RD");

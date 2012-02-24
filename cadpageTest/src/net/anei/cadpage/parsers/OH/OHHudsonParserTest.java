@@ -87,9 +87,16 @@ public class OHHudsonParserTest extends BaseParserTest {
         "ADDR:7421 MARBLEHEAD DR",
         "SRC:HudsonF374",
         "INFO:Fire Alarm: ResidentialSMOKE HEAT FIRE ALARM PER JULIA WITH DIEBOLD 18005484478");
+
+    doTest("T11",
+        "HudsonCAD:CAD System 340,N MAIN ST.,ST MARY CATHOLIC CHURCH,HUDSONF376,Fire Alarm: , Public Buildings 0600 to Midnightroom f smoke dect gilmore 800 374 4947 330 653 8118",
+        "ADDR:340 N MAIN ST",
+        "PLACE:ST MARY CATHOLIC CHURCH",
+        "SRC:HUDSONF376",
+        "INFO:Fire Alarm: / Public Buildings 0600 to Midnightroom f smoke dect gilmore 800 374 4947 330 653 8118");
   }
   
   public static void main(String[] args) {
-    new OHHudsonParserTest().generateTests("T9");
+    new OHHudsonParserTest().generateTests("T1");
   }
 }
