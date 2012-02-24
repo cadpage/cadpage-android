@@ -28,13 +28,14 @@ FRM:messaging@iamresponding.com\nSUBJ:Greater Lenox\nMSG:Sick Person\n400 LAMB A
 FRM:messaging@iamresponding.com\nSUBJ:Greater Lenox\nMSG:MVA - Personal Injury\n5050 BURLESON RD , LINCOLN ( VEDDER RD / FOREST AV)
 FRM:messaging@iamresponding.com\nSUBJ:Greater Lenox\nMSG:Falls\n400 LAMB AV #144, CANASTOTA VILLAGE ( / DEPPOLITI AV)
 (Greater Lenox) Convulsions/Seizures\n7216 NELSON RD , LENOX ( SENECA TRNPK / PAVONE PL)
+FRM:messaging@iamresponding.com\nSUBJ:Greater Lenox\nMSG:MVA - Unknown\nCANAL RD , LENOX
 
 */
 
 
 public class NYMadisonCountyGLASParser extends MsgParser {
   
-  private static final Pattern MASTER = Pattern.compile("(.*?)\n(.*?)(?: *, (.*?))? \\((.*?)\\)?");
+  private static final Pattern MASTER = Pattern.compile("(.*?)\n(.*?)(?: *, (.*?))?(?: \\((.*?)\\)?)?");
   
   public NYMadisonCountyGLASParser() {
     super("MADISON COUNTY", "NY");
@@ -54,7 +55,7 @@ public class NYMadisonCountyGLASParser extends MsgParser {
     data.strCall = match.group(1).trim();
     parseAddress(match.group(2).trim(), data);
     data.strCity = getOptGroup(match.group(3));
-    String sCross = match.group(4).trim();
+    String sCross = getOptGroup(match.group(4));
     if (sCross.startsWith("/")) sCross = sCross.substring(1).trim();
     if (sCross.startsWith(",")) {
       data.strCity = sCross.substring(1).trim();
