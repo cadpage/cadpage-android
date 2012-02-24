@@ -29,7 +29,7 @@ Sender: 911-CENTER@co.marion.ms.us
 -  - 911-CENTER:EVENT: SIG72 LOC:37 STRINGER BULLOCK RD Cad: 2012-0000001996 ENR >21:01 1023 >21:15 1024 >21:41\n
 -  - 911-CENTER:EVENT: SIG1 LOC:283 MAYS CREEK RD Cad: 2012-0000002303 1023 >22:12 1024 >22:43\n
 -  - 911-CENTER:EVENT: SFIRE LOC:31 OILFIELD CUT OFF RD Cad: 2012-0000002674 ENR >03:33 1023 >03:39 1024 >07:10\n
-
+s
 */
 
 public class MSMarionCountyParser extends DispatchBParser {
@@ -43,7 +43,7 @@ public class MSMarionCountyParser extends DispatchBParser {
   
   @Override
   public String getFilter() {
-    return "911-CENTER@co.marion.ms.us";
+    return "@co.marion.ms.us";
   }
   
   @Override
