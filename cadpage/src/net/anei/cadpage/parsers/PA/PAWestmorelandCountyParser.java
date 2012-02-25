@@ -29,6 +29,10 @@ Loc: 220 TOLLHOUSE LN N_HUNT_T X-sts: ARONA RD & Inc#:F11004303 NATURE: FIRE CAL
 
 Body: 1 of 3\nFRM:incident@wcvfd3.org\nMSG:\nLoc: 220 TOLLHOUSE LN N_HUNT_T X-sts: ARONA RD & Inc#:F11004303  \nNATURE: FIRE CALLER: SHARON KAUFFMAN TOC:\n(Con't) 2 of 3\n15:52:00 Comments: ODOR OF  \nPOSS PLASTIC BURNING IN THE RESDIENCE FT 3\ ADV TO GET OUT OF THE  \nHOUSE...NOHO ADV Disp:\n(Con't) 3 of 3\nE94-2,E57,E02-1,E03-1,Q10(End)
 
+Contact: Google <firefighter4920@gmail.com>
+Sender: alert@ecm2.us
+1 of 3\nFRM:alert@ecm2.us\nSUBJ:ST49 - 911 Call\nMSG:Loc: 151 GOODVIEW DR WASH_T: @WEST HAVEN MANOR NURSING HOME X-sts: ROUTE 66 & ROUTE 66 \n(Con't) 2 of 3\nInc#:F12002321 NATURE: AFA AUTOMATIC FIRE ALARM  CALLER: SELECT SECURITY.20 TOC: 18:09:59 Fire TAC:  EMS Tac: Comments: SPECIAL ADDRESS\n(Con't) 3 of 3\nCOMMENT: WING ?? ROOM # ?? GENERAL FIRE WATC FT 6  Disp: E49,Q102,E102,E169\n(End)
+
 */
 
 public class PAWestmorelandCountyParser extends FieldProgramParser {
@@ -58,7 +62,7 @@ public class PAWestmorelandCountyParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "alert@emgcall.net,alert@emgcall.net,message@ecm2.us,incident@wcvfd3.org";
+    return "alert@emgcall.net,alert@emgcall.net,@ecm2.us,incident@wcvfd3.org";
   }
 
   @Override
