@@ -1,8 +1,5 @@
 package net.anei.cadpage.parsers.MS;
 
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-
 import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchBParser;
 
@@ -47,8 +44,6 @@ public class MSMarionCountyParser extends DispatchBParser {
     body = body.substring(MARKER.length()).trim();
     if (body.startsWith("EVENT:")) return false;
     if (! super.parseMsg(body, data)) return false;
-    int pt = data.strCallId.indexOf(' ');
-    if (pt >= 0) data.strCallId = data.strCallId.substring(0,pt);
     return true;
   }
 
