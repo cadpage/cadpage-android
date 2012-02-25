@@ -176,10 +176,31 @@ public class PAWestmorelandCountyParserTest extends BaseParserTest {
         "NAME:SHARON KAUFFMAN",
         "INFO:ODOR OF POSS PLASTIC BURNING IN THE RESDIENCE FT 3\\ ADV TO GET OUT OF THE HOUSE...NOHO ADV",
         "UNIT:E94-2,E57,E02-1,E03-1,Q10");
+
+    doTest("T1",
+        "1 of 3\n" +
+        "FRM:alert@ecm2.us\n" +
+        "SUBJ:ST49 - 911 Call\n" +
+        "MSG:Loc: 151 GOODVIEW DR WASH_T: @WEST HAVEN MANOR NURSING HOME X-sts: ROUTE 66 & ROUTE 66 \n" +
+        "(Con't) 2 of 3\n" +
+        "Inc#:F12002321 NATURE: AFA AUTOMATIC FIRE ALARM  CALLER: SELECT SECURITY.20 TOC: 18:09:59 Fire TAC:  EMS Tac: Comments: SPECIAL ADDRESS\n" +
+        "(Con't) 3 of 3\n" +
+        "COMMENT: WING ?? ROOM # ?? GENERAL FIRE WATC FT 6  Disp: E49,Q102,E102,E169\n" +
+        "(End)",
+
+        "ADDR:151 GOODVIEW DR",
+        "CITY:WASH_T",
+        "PLACE:WEST HAVEN MANOR NURSING HOME",
+        "X:ROUTE 66 & ROUTE 66",
+        "ID:F12002321",
+        "CALL:AFA AUTOMATIC FIRE ALARM",
+        "NAME:SELECT SECURITY.20",
+        "INFO:SPECIAL ADDRESS COMMENT: WING ?? ROOM # ?? GENERAL FIRE WATC FT 6",
+        "UNIT:E49,Q102,E102,E169");
        
   }
   
   public static void main(String[] args) {
-    new PAWestmorelandCountyParserTest().generateTests("T14");
+    new PAWestmorelandCountyParserTest().generateTests("T1");
   }
 }
