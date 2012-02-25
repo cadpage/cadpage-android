@@ -410,7 +410,7 @@ public class PABucksCountyParser extends FieldProgramParser {
       "BOMB",     "BOMB THREAT",
       "BURN",     "BURN VICTIM (LOC)",
       "CBURN",    "CONTROLLED BURN",
-      "COALRM",   "CARBON MONOXIDE ALARM (LOC )",
+      "COALRM",   "CARBON MONOXIDE ALARM (LOC)",
       "DECON",    "DECON ASSIGNMENT (LOC)",
       "ELEVAT",   "STUCK ELEVATOR (LOC)",
       "EXBLD",    "EXTINGUISHED STRUCTURE (TAC)",
