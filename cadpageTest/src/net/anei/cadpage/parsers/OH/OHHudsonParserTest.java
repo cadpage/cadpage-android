@@ -94,6 +94,13 @@ public class OHHudsonParserTest extends BaseParserTest {
         "PLACE:ST MARY CATHOLIC CHURCH",
         "SRC:HUDSONF376",
         "INFO:Fire Alarm: / Public Buildings 0600 to Midnightroom f smoke dect gilmore 800 374 4947 330 653 8118");
+
+    doTest("T12",
+        "HudsonCAD:CAD System 5555,DARROW RD.,JOANN STORES INC.,HUDSONF376,Fire Alarm: , Public Buildings 0600 to Midnightriser #401 North Building sprinkler activation 800 689-4984",
+        "ADDR:5555 DARROW RD",
+        "PLACE:JOANN STORES INC.",
+        "SRC:HUDSONF376",
+        "INFO:Fire Alarm: / Public Buildings 0600 to Midnightriser #401 North Building sprinkler activation 800 689-4984");
   }
   
   public static void main(String[] args) {

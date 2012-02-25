@@ -193,8 +193,20 @@ public class MORayCountyParserTest extends BaseParserTest {
         "TIME:02:56:14");
 
   }
+  
+  @Test
+  public void testParserLeeOdell() {
+
+    doTest("T1",
+        "LMED1 LSQ1 LP2 LP3 L602 MSHP RCSO 10-50 TRAFFIC/TRANSPORTATION INCIDENT W 206TH ST & HIGHWAY C RAY COUNTY Description: on 206th n one mile west of c",
+        "UNIT:LMED1 LSQ1 LP2 LP3 L602 MSHP RCSO",
+        "CALL:10-50 TRAFFIC/TRANSPORTATION INCIDENT",
+        "ADDR:W 206TH ST & HIGHWAY C",
+        "INFO:on 206th n one mile west of c");
+
+  }
 
   public static void main(String[] args) {
-    new MORayCountyParserTest().generateTests("T5");
+    new MORayCountyParserTest().generateTests("T1");
   }
 }

@@ -222,11 +222,18 @@ public class DENewCastleCountyAParserTest extends BaseParserTest {
         "PLACE:DRAKE HALL / UD CENTRAL MALL - LI:RM #054",
         "X:btwn E DELAWARE AV ~ LOVETT AV",
         "INFO:—àDSC:DIZZY, PASSED OUT—! PAT:1 SEX:Female AGE:19Years CON:Y BRE:Y");
-  
+
+    doTest("T26",
+        "[FB] F00 10:25 1 - T:M29B1 (MVC) L:LIBRARY AV~E MAIN ST ,PK *NEWARK - LI:IFO MCDONALDS - DESC:",
+        "CALL:M29B1 (MVC)",
+        "ADDR:LIBRARY AV & E MAIN ST",
+        "MADDR:LIBRARY AVE & E MAIN ST",
+        "PLACE:NEWARK - LI:IFO MCDONALDS");
+ 
   }
   
   public static void main(String[] args) {
-    new DENewCastleCountyAParserTest().generateTests("T25");
+    new DENewCastleCountyAParserTest().generateTests("T1");
   }
 }
     		
