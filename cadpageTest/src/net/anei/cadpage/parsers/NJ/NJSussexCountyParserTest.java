@@ -15,123 +15,86 @@ public class NJSussexCountyParserTest extends BaseParserTest {
   public void testParser1() {
 
     doTest("T1",
-        "(I-B2011-004928) ALARMF @ 172 LACKAWANNA DRIVE  , BYRAM - PROTECTIVE SERVICES (800-633-2677) OPERATOR 1663. GENERAL FIRE.",
-        "ID:I-B2011-004928",
-        "CALL:ALARMF",
-        "ADDR:172 LACKAWANNA DRIVE",
-        "CITY:BYRAM",
-        "INFO:PROTECTIVE SERVICES (800-633-2677) OPERATOR 1663. GENERAL FIRE.");
+        "[Message from HipLink]  BTFD\n" +
+        "Fire Alarm\n" +
+        "PAGED\n" +
+        "11 MANSFIELD DR\n" +
+        "BTF02\n" +
+        "BTFIRE\n" +
+        "ADT,877-535-0563 OPER#AMH, REPORTS AN ACTIVATED GENERAL FIRE ALARM.",
+
+        "SRC:BTFD",
+        "CALL:Fire Alarm",
+        "ADDR:11 MANSFIELD DR",
+        "UNIT:BTF02 BTFIRE",
+        "INFO:ADT,877-535-0563 OPER#AMH, REPORTS AN ACTIVATED GENERAL FIRE ALARM.");
 
     doTest("T2",
-        "[I-B2010-009210]  ALARMF @ 7 WATERLOO ROAD  , BYRAM - ALL AMERICAN CRAFT. ALARMS PLUS (800-932-3822) OPERATOR 1224. UTILITY ROOM",
-        "ID:I-B2010-009210",
-        "CALL:ALARMF",
-        "ADDR:7 WATERLOO ROAD",
-        "CITY:BYRAM",
-        "INFO:ALL AMERICAN CRAFT. ALARMS PLUS (800-932-3822) OPERATOR 1224. UTILITY ROOM");
+        "[Message from HipLink]  BTFD\nFire Other\nPAGED\n16 CARLISLE DR\nBTF03\nBTFIRE\nREPORT OF A FIRE IN THE FURNACE",
+        "SRC:BTFD",
+        "CALL:Fire Other",
+        "ADDR:16 CARLISLE DR",
+        "UNIT:BTF03 BTFIRE",
+        "INFO:REPORT OF A FIRE IN THE FURNACE");
 
     doTest("T3",
-        "[I-B2011-004688]  FIRE @ 33 SLEEPY HOLLOW ROAD  , BYRAM - CALLER REPORTS HIS LIVING ROOM IS SMOKING.",
-        "ID:I-B2011-004688",
-        "CALL:FIRE",
-        "ADDR:33 SLEEPY HOLLOW ROAD",
-        "CITY:BYRAM",
-        "INFO:CALLER REPORTS HIS LIVING ROOM IS SMOKING.");
+        "[Message from HipLink]  BTFD\n" +
+        "Suspicious Acti\n" +
+        "PAGED\n" +
+        "161 LACKAWANNA DR\n" +
+        "BTF02\n" +
+        "BTFIRE\n" +
+        "POSSIBLE CHIMNEY FIRE\n" +
+        "24 E/R\n" +
+        "chief 2 i/s\n" +
+        "Call type l reopened by Cat",
+
+        "SRC:BTFD",
+        "CALL:Suspicious Acti",
+        "ADDR:161 LACKAWANNA DR",
+        "UNIT:BTF02 BTFIRE",
+        "INFO:POSSIBLE CHIMNEY FIRE / 24 E/R / chief 2 i/s / Call type l reopened by Cat");
 
     doTest("T4",
-        "(I-B2011-003217) FIREPD @ 4 MOUNTAIN AVENUE  , BYRAM - CALLER REPORTS THICK BLACK SMOKE COMING FROM THE RESIDENCE.",
-        "ID:I-B2011-003217",
-        "CALL:FIREPD",
-        "ADDR:4 MOUNTAIN AVENUE",
-        "CITY:BYRAM",
-        "INFO:CALLER REPORTS THICK BLACK SMOKE COMING FROM THE RESIDENCE.");
+        "[Message from HipLink]  BTFD\n" +
+        "Fire Other\n" +
+        "PAGED\n" +
+        "I 80\n" +
+        "BTF06\n" +
+        "BTFIRE\n" +
+        "BRAKE FIRE ON A T.T. BYRAM FIRE AND EMS WAS DISPATCHED AS PER NJSP",
+
+        "SRC:BTFD",
+        "CALL:Fire Other",
+        "ADDR:I 80",
+        "UNIT:BTF06 BTFIRE",
+        "INFO:BRAKE FIRE ON A T.T. BYRAM FIRE AND EMS WAS DISPATCHED AS PER NJSP");
 
     doTest("T5",
-        "[I-B2011-000701]  FIRE @ 228 TOMAHAWK TRAIL  , BYRAM - STRUCTURE FIRE",
-        "ID:I-B2011-000701",
-        "CALL:FIRE",
-        "ADDR:228 TOMAHAWK TRAIL",
-        "CITY:BYRAM",
-        "INFO:STRUCTURE FIRE");
-  }
-  
-  @Test
-  public void testParser2() {
+        "[Message from HipLink]  BTFD\n" +
+        "MV Acc Injury\n" +
+        "PAGED\n" +
+        "LACKAWANNA DR\n" +
+        "BTF02\n" +
+        "43EMS\n" +
+        "MOTOR VEHICLE ACCIDENT WITH ENTRAPPMENT\n" +
+        "PATIENT REMOVED",
 
-    doTest("T1",
-        "KBROWN@andpd (I-2011-000118) MVA-F @ DECKER POND ROAD/SUNSET DRIVE  , GREEN TWP - CAR VS GUARDRAIL - MINOR INJURIES.",
-        "ID:I-2011-000118",
-        "CALL:MVA-F",
-        "ADDR:DECKER POND ROAD & SUNSET DRIVE",
-        "CITY:GREEN TWP",
-        "INFO:CAR VS GUARDRAIL - MINOR INJURIES.");
-
-    doTest("T2",
-        "KBROWN@andpd (I-2011-000121) MVA-F @ HIBLER ROAD/WINTERMUTE ROAD  , GREEN TWP - CALLER REPORTING MOTORCYCLE MVA -- CALLER STATES APPEARS NO L",
-        "ID:I-2011-000121",
-        "CALL:MVA-F",
-        "ADDR:HIBLER ROAD & WINTERMUTE ROAD",
-        "CITY:GREEN TWP",
-        "INFO:CALLER REPORTING MOTORCYCLE MVA -- CALLER STATES APPEARS NO L");
-
-    setDefaults("", "");
-    doTest("T3",
-        "dcrater@andpd (I-2011-000117) ASSIST-F @  OUT OF TOWN  ,  - 44 KISHPAUGH RD FULLY INVOLVED STRUCTURE",
-        "ID:I-2011-000117",
-        "CALL:ASSIST-F",
-        "ADDR:44 KISHPAUGH RD",
-        "INFO:FULLY INVOLVED STRUCTURE");
-    setDefaults("SUSSEX COUNTY", "NJ");
-
-    doTest("T4",
-        "kwilson@andpd (I-2011-000099) BURN-F @ 1 SCENIC DRIVE  , GREEN TWP - permit: A-3251 burning all day ** DO NOT RESPOND**",
-        "ID:I-2011-000099",
-        "CALL:BURN-F",
-        "ADDR:1 SCENIC DRIVE",
-        "CITY:GREEN TWP",
-        "INFO:permit: A-3251 burning all day ** DO NOT RESPOND**");
-
-    doTest("T5",
-        "jcasella@andpd (I-2011-000122) MVA-F @ 21 SUTTON ROAD  , GREEN TWP - CAR VS TREE",
-        "ID:I-2011-000122",
-        "CALL:MVA-F",
-        "ADDR:21 SUTTON ROAD",
-        "CITY:GREEN TWP",
-        "INFO:CAR VS TREE");
+        "SRC:BTFD",
+        "CALL:MV Acc Injury",
+        "ADDR:LACKAWANNA DR",
+        "UNIT:BTF02 43EMS",
+        "INFO:MOTOR VEHICLE ACCIDENT WITH ENTRAPPMENT / PATIENT REMOVED");
 
     doTest("T6",
-        "jragsdale@andpd (I-2011-000108) TRANSF @ 71 WOLFS CORNER ROAD  , GREEN TWP - MUNICIPAL BLDG CALLED- HAS PASSERBY ADV OF TRANSFORMER FIRE hasEML = false;",
-        "ID:I-2011-000108",
-        "CALL:TRANSF",
-        "ADDR:71 WOLFS CORNER ROAD",
-        "CITY:GREEN TWP",
-        "INFO:MUNICIPAL BLDG CALLED- HAS PASSERBY ADV OF TRANSFORMER FIRE hasEML = false;");
-
-    doTest("T7",
-        "kbrown@andpd (I-2011-000155) PUMP @ 6 RAMSEY COURT  , FRELINGHUYSEN - WARREN COUNTY COMMUNICATIONS REQUESTING A PUMP OUT FOR THE FOOT OF WATER IN BASEMENT.",
-        "ID:I-2011-000155",
-        "CALL:PUMP",
-        "ADDR:6 RAMSEY COURT",
-        "CITY:FRELINGHUYSEN",
-        "INFO:WARREN COUNTY COMMUNICATIONS REQUESTING A PUMP OUT FOR THE FOOT OF WATER IN BASEMENT.");
-
-    doTest("T8",
-        "jcasella@andpd (I-2011-000194) MVA-F @  ROUTE 94  , GREEN TWP - \nin front of wilbur's country storE",
-        "ID:I-2011-000194",
-        "CALL:MVA-F",
-        "ADDR:ROUTE 94",
-        "CITY:GREEN TWP",
-        "INFO:in front of wilbur's country storE");
-
-    doTest("T9",
-        "JHOLMES@andpd (I-2011-000217) FUEL @ 231 PEQUEST ROAD  , GREEN TWP -",
-        "ID:I-2011-000217",
-        "CALL:FUEL",
-        "ADDR:231 PEQUEST ROAD",
-        "CITY:GREEN TWP");
- }
+        "[Message from HipLink]  BTFD\nFire Other\nPAGED\n17 STONEHEDGE LN\nBTF03\nBTFIRE",
+        "SRC:BTFD",
+        "CALL:Fire Other",
+        "ADDR:17 STONEHEDGE LN",
+        "UNIT:BTF03 BTFIRE");
+  }
   
   public static void main(String[] args) {
-    new NJSussexCountyParserTest().generateTests("T10", "ID CALL ADDR CITY INFO");
+    new NJSussexCountyParserTest().generateTests("T1");
   }
 }
