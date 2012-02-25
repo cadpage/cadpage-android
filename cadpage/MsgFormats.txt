@@ -1308,10 +1308,15 @@ Somerset County, NJ (NJSomersetCountyParser)
 [CAD]  [CAD] EFD-FD:11051982:05/14/2011 11:51:28:FIRE ALARM:GENERAL: FRANKLI-HAMPTON INN / 255 DAVIDSON AVE
 [CAD]  [CAD] EFD-FD:11052014:05/14/2011 13:35:40:FIRE ALARM:ZONE-2ND FL REAR HALL SMK: FRANKLI-1165 HAMILTON ST
 ***************************************************************************
-Sussex County, NJ (NJSussexCountyParser)
+Sussex County, NJ (NJSussexCountyAParser)
 (I-B2011-004928) ALARMF @ 172 LACKAWANNA DRIVE  , BYRAM - PROTECTIVE SERVICES (800-633-2677) OPERATOR 1663. GENERAL FIRE.
 [I-B2010-009210]  ALARMF @ 7 WATERLOO ROAD  , BYRAM - ALL AMERICAN CRAFT. ALARMS PLUS (800-932-3822) OPERATOR 1224. UTILITY ROOM
 [I-B2011-004688]  FIRE @ 33 SLEEPY HOLLOW ROAD  , BYRAM - CALLER REPORTS HIS LIVING ROOM IS SMOKING.
+***************************************************************************
+Sussex County, NJ (NJSussexCountyBParser)
+[Message from HipLink]  BTFD\nFire Alarm\nPAGED\n11 MANSFIELD DR\nBTF02\nBTFIRE\nADT,877-535-0563 OPER#AMH, REPORTS AN ACTIVATED GENERAL FIRE ALARM.
+[Message from HipLink]  BTFD\nFire Other\nPAGED\n16 CARLISLE DR\nBTF03\nBTFIRE\nREPORT OF A FIRE IN THE FURNACE
+[Message from HipLink]  BTFD\nSuspicious Acti\nPAGED\n161 LACKAWANNA DR\nBTF02\nBTFIRE\nPOSSIBLE CHIMNEY FIRE\n24 E/R\nchief 2 i/s\nCall type l reopened by Cat
 ***************************************************************************
 Wayne County, NJ (NJWayneCountyParser)
 2012000006 {01/03/2012 10:58:16}\nAFCI     - Fire alarm - commercial/industrial{3}\n3 Willowbrook Mall;PD\nUnits:\n\nComments:\n  Station Dispatched : {C1 } Station Dispatched : {C2 } Units Recommended: ,;\nDispatched: {C2 }, {C1 } ZONE 3 FIRE ALARM/IDHIT/8772387739/ACWN/ADT

@@ -33,13 +33,13 @@ JHOLMES@andpd (I-2011-000217) FUEL @ 231 PEQUEST ROAD  , GREEN TWP -
  */
 
 
-public class NJSussexCountyParserOld extends SmartAddressParser {
+public class NJSussexCountyAParser extends SmartAddressParser {
   
   private static final Pattern SUBJECT_PTN = Pattern.compile("I-[A-Z]?\\d{4}-\\d{6}");
   private static final Pattern MASTER_PTN = 
     Pattern.compile("([-A-Z ]+) @ ([^,]+)  , ([^-]*) -(?: (.*))?"); 
   
-  public NJSussexCountyParserOld() {
+  public NJSussexCountyAParser() {
     super("SUSSEX COUNTY", "NJ");
   }
 
