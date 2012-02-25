@@ -5,10 +5,10 @@ import net.anei.cadpage.parsers.BaseParserTest;
 import org.junit.Test;
 
 
-public class NJSussexCountyParserOldTest extends BaseParserTest {
+public class NJSussexCountyAParserTest extends BaseParserTest {
   
-  public NJSussexCountyParserOldTest() {
-    setParser(new NJSussexCountyParserOld(), "SUSSEX COUNTY", "NJ");
+  public NJSussexCountyAParserTest() {
+    setParser(new NJSussexCountyAParser(), "SUSSEX COUNTY", "NJ");
   }
   
   @Test
@@ -132,6 +132,6 @@ public class NJSussexCountyParserOldTest extends BaseParserTest {
  }
   
   public static void main(String[] args) {
-    new NJSussexCountyParserOldTest().generateTests("T10", "ID CALL ADDR CITY INFO");
+    new NJSussexCountyAParserTest().generateTests("T10", "ID CALL ADDR CITY INFO");
   }
 }

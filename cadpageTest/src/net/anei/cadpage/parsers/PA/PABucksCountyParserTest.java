@@ -1271,7 +1271,7 @@ public class PABucksCountyParserTest extends BaseParserTest {
 
     doTest("T2",
         "COALRM Box:05035 adr: 3425 AQUETONG RD ,65 btwn:MECHANICSVILLE RD & SAW MILL RD 01/28/12  15:44:26 FD1201409   Run: C5",
-        "CALL:COALRM - CARBON MONOXIDE ALARM (LOC )",
+        "CALL:COALRM - CARBON MONOXIDE ALARM (LOC)",
         "BOX:05035",
         "ADDR:3425 AQUETONG RD",
         "CITY:SOLEBURY TWP",
