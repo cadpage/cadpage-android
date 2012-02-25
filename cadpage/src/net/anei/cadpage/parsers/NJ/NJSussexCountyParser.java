@@ -1,69 +1,53 @@
 package net.anei.cadpage.parsers.NJ;
 
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-
-import net.anei.cadpage.parsers.SmartAddressParser;
+import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /*
-Sussex County, NJ (Bryam TWP FD)  (Sparta Dispatch - not entire county but 8 departments)
-Contact:Todd Rudloff <btfd43capt2@gmail.com>
+Sussex County, NJ (Replace)
+Contact: Todd Rudloff <btfd43capt2@gmail.com>
 
-(I-B2011-004928) ALARMF @ 172 LACKAWANNA DRIVE  , BYRAM - PROTECTIVE SERVICES (800-633-2677) OPERATOR 1663. GENERAL FIRE.
-[I-B2010-009210]  ALARMF @ 7 WATERLOO ROAD  , BYRAM - ALL AMERICAN CRAFT. ALARMS PLUS (800-932-3822) OPERATOR 1224. UTILITY ROOM
-[I-B2011-004688]  FIRE @ 33 SLEEPY HOLLOW ROAD  , BYRAM - CALLER REPORTS HIS LIVING ROOM IS SMOKING.
-(I-B2011-003217) FIREPD @ 4 MOUNTAIN AVENUE  , BYRAM - CALLER REPORTS THICK BLACK SMOKE COMING FROM THE RESIDENCE.
-[I-B2011-000701]  FIRE @ 228 TOMAHAWK TRAIL  , BYRAM - STRUCTURE FIRE
-
-Contact: Michael Rafferty <mpraff15@yahoo.com>
-KBROWN@andpd (I-2011-000118) MVA-F @ DECKER POND ROAD/SUNSET DRIVE  , GREEN TWP - CAR VS GUARDRAIL - MINOR INJURIES.
-KBROWN@andpd (I-2011-000121) MVA-F @ HIBLER ROAD/WINTERMUTE ROAD  , GREEN TWP - CALLER REPORTING MOTORCYCLE MVA -- CALLER STATES APPEARS NO L
-dcrater@andpd (I-2011-000117) ASSIST-F @  OUT OF TOWN  ,  - 44 KISHPAUGH RD FULLY INVOLVED STRUCTURE
-kwilson@andpd (I-2011-000099) BURN-F @ 1 SCENIC DRIVE  , GREEN TWP - permit: A-3251 burning all day ** DO NOT RESPOND**
-jcasella@andpd (I-2011-000122) MVA-F @ 21 SUTTON ROAD  , GREEN TWP - CAR VS TREE
-jragsdale@andpd (I-2011-000108) TRANSF @ 71 WOLFS CORNER ROAD  , GREEN TWP - MUNICIPAL BLDG CALLED- HAS PASSERBY ADV OF TRANSFORMER FIRE hasEML = false;
-
-Contact: mpraff15 <mpraff15@gmail.com>
-Sender: 6245
-kbrown@andpd (I-2011-000155) PUMP @ 6 RAMSEY COURT  , FRELINGHUYSEN - WARREN COUNTY COMMUNICATIONS REQUESTING A PUMP OUT FOR THE FOOT OF WATER IN BASEMENT.
-jcasella@andpd (I-2011-000194) MVA-F @  ROUTE 94  , GREEN TWP - \nin front of wilbur's country storE
-JHOLMES@andpd (I-2011-000217) FUEL @ 231 PEQUEST ROAD  , GREEN TWP -
+[Message from HipLink]  BTFD\nFire Alarm\nPAGED\n11 MANSFIELD DR\nBTF02\nBTFIRE\nADT,877-535-0563 OPER#AMH, REPORTS AN ACTIVATED GENERAL FIRE ALARM.
+[Message from HipLink]  BTFD\nFire Other\nPAGED\n16 CARLISLE DR\nBTF03\nBTFIRE\nREPORT OF A FIRE IN THE FURNACE
+[Message from HipLink]  BTFD\nSuspicious Acti\nPAGED\n161 LACKAWANNA DR\nBTF02\nBTFIRE\nPOSSIBLE CHIMNEY FIRE\n24 E/R\nchief 2 i/s\nCall type l reopened by Cat
+[Message from HipLink]  BTFD\nFire Other\nPAGED\nI 80\nBTF06\nBTFIRE\nBRAKE FIRE ON A T.T. BYRAM FIRE AND EMS WAS DISPATCHED AS PER NJSP
+[Message from HipLink]  BTFD\nMV Acc Injury\nPAGED\nLACKAWANNA DR\nBTF02\n43EMS\nMOTOR VEHICLE ACCIDENT WITH ENTRAPPMENT\nPATIENT REMOVED
+[Message from HipLink]  BTFD\nFire Other\nPAGED\n17 STONEHEDGE LN\nBTF03\nBTFIRE
 
  */
 
 
-public class NJSussexCountyParser extends SmartAddressParser {
+public class NJSussexCountyParser extends FieldProgramParser {
   
-  private static final Pattern SUBJECT_PTN = Pattern.compile("I-[A-Z]?\\d{4}-\\d{6}");
-  private static final Pattern MASTER_PTN = 
-    Pattern.compile("([-A-Z ]+) @ ([^,]+)  , ([^-]*) -(?: (.*))?"); 
   
   public NJSussexCountyParser() {
-    super("SUSSEX COUNTY", "NJ");
+    super("SUSSEX COUNTY", "NJ",
+          "SRC CALL PAGED ADDR UNIT UNIT INFO+");
   }
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     
-    if (! SUBJECT_PTN.matcher(subject).matches()) return false;
-    data.strCallId = subject;
-    body = body.replace('\n', ' ');
-    Matcher match = MASTER_PTN.matcher(body);
-    if (!match.matches()) return false;
-    data.strCall = match.group(1).trim();
-    parseAddress(match.group(2).trim(), data);
-    data.strCity = match.group(3).trim();
-    String sInfo = getOptGroup(match.group(4));
-    if (data.strAddress.equals("OUT OF TOWN")) {
-      data.strAddress = "";
-      parseAddress(StartType.START_ADDR, sInfo, data);
-      data.strSupp = getLeft();
-      data.defCity = "";
-      data.defState = "";
-    } else {
-      data.strSupp = sInfo;
-    }
-    return true;
+    if (!subject.equals("Message from HipLink")) return false;
+    String[] flds = body.split("\n");
+    if (flds.length < 6) return false;
+    return parseFields(flds, data);
   }
+  
+  private class MyUnitField extends UnitField {
+    @Override
+    public void parse(String field, Data data) {
+      data.strUnit = append(data.strUnit, " ", field);
+    }
+  }
+
+  @Override
+  protected Field getField(String name) {
+    if (name.equals("SRC")) return new SourceField("[A-Z]+", true);
+    if (name.equals("PAGED")) return new SkipField("PAGED", true);
+    if (name.equals("UNIT")) return new MyUnitField();
+    return super.getField(name);
+  }
+  
+  
 }

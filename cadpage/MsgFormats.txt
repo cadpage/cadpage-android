@@ -3873,65 +3873,13 @@ Contact: Andrew H <modernmidnight@gmail.com>
 **********************************************************
 **********************************************************
 **********************************************************
-Sussex County, NJ (Replace)
-Contact: Todd Rudloff <btfd43capt2@gmail.com>
-
-[Message from HipLink]  BTFD
-Fire Alarm
-PAGED
-11 MANSFIELD DR
-BTF02
-BTFIRE
-ADT,877-535-0563 OPER#AMH, REPORTS AN ACTIVATED GENERAL FIRE ALARM.
-
-[Message from HipLink]  BTFD
-Fire Other
-PAGED
-16 CARLISLE DR
-BTF03
-BTFIRE
-REPORT OF A FIRE IN THE FURNACE
-
-[Message from HipLink]  BTFD
-Suspicious Acti
-PAGED
-161 LACKAWANNA DR
-BTF02
-BTFIRE
-POSSIBLE CHIMNEY FIRE
-24 E/R
-chief 2 i/s
-Call type l reopened by Cat
-
-[Message from HipLink]  BTFD
-Fire Other
-PAGED
-I 80
-BTF06
-BTFIRE
-BRAKE FIRE ON A T.T. BYRAM FIRE AND EMS WAS DISPATCHED AS PER NJSP
-
-[Message from HipLink]  BTFD
-MV Acc Injury
-PAGED
-LACKAWANNA DR
-BTF02
-43EMS
-MOTOR VEHICLE ACCIDENT WITH ENTRAPPMENT
-PATIENT REMOVED
-
-[Message from HipLink]  BTFD
-Fire Other
-PAGED
-17 STONEHEDGE LN
-BTF03
-BTFIRE
 **********************************************************
 York County, NY (Replace - possibly not universal)
 Contact: "Freistat, Brandon" <brandon.freistat@fairviewfire.net>
 Sender: messaging@iamresponding.com
 (Station 68) : 203 LOCUST DR \n  FAIRVIEW TWP\n  \nLONGVIEW AVE / PLEASANT VIEW RD\nDistrict: 68-02\n\n    FIRE STRUCT RESID\nUnits Sent: 2\nFIRESTA68, 52-03
 (Station 68) : 378 PLEASANT VIEW RD \n  FAIRVIEW TWP\n  \nGURTNER RD / LANE\nDistrict: 68-02\n\n    FIRE STRUCT RESID\nUnits Sent: 2\nFIRESTA68, 52-12 \n\n   
+(Station 68) : 6000 LEWISBERRY RD \nAdditional Location Information:BLK\n  CONEWAGO TWP\n  \nBREMER RD / ANDERSONTOWN RD\nCOPENHAFFER RD\nDistrict: 26-09
 **********************************************************
 Portage County, OH
 Contact: Joseph L Corbin Jr <jcorbinjr@gmail.com>
