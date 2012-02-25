@@ -38,41 +38,23 @@ OBTK1 OT1 OT2 OFD OSQ1 LFD RFD WHSQ1 LB1 RBT7 800 FIRE NATURAL COVER OR BRUSH 10
 
 WHFD RCAD EMS 501 ARAPAHOE DR HOMESTEAD VILLAGE Description: [11/19/2011 02:56:14 0021] female help \n[11/19/2011 02:56:56 0021] calling back \n
 
+Contact: "Lee O'Dell" <leeodell@woodheightsfire.com>
+Sender: raycountycentraldispatch@gmail.com
+LMED1 LSQ1 LP2 LP3 L602 MSHP RCSO 10-50 TRAFFIC/TRANSPORTATION INCIDENT W 206TH ST & HIGHWAY C RAY COUNTY Description: on 206th n one mile west of c
 
 
 
 Please respond to 15796 Hwy M, Rayville, MO\nmale subj. is 10-55 and suicidal\ncall came in 3rd party from excelsior springs pd\nall units responding t
-
-
 
 */
 
 
 public class MORayCountyParser extends DispatchGlobalDispatchParser {
   
-  private static final String[] CITY_TABLE = new String[]{
-    "CAMDEN",
-    "CRYSTAL LAKES",
-    "ELMIRA",
-    "EXCELSIOR SPRINGS",
-    "FLEMING",
-    "HARDIN",
-    "HENRIETTA",
-    "HOMESTEAD",
-    "HOMESTEAD VILLAGE",
-    "LAWSON",
-    "ORRICK",
-    "RAYVILLE",
-    "RICHMOND",
-    "STET",
-    "WOODS HEIGHTS",
-    "RAY COUNTY"
-  };
-  
   private static final Pattern STATION_PTN = 
       Pattern.compile("WHFD|LFD|OFD|RFD|RCAD|EXFD|HFD");
   private static final Pattern UNIT_PTN = 
-      Pattern.compile("WH[A-Z]\\d|[68]0\\d|67\\d[A-Z]?|LMED\\d|[LOR][A-Z]\\d|MED4\\d|M4\\d|LSQ\\d|RCSO|L\\d{3}|WHSQ\\d|315|400|OBTK\\d|OSQ\\d|RBT\\d");
+      Pattern.compile("WH[A-Z]\\d|[68]0\\d|67\\d[A-Z]?|LMED\\d|[LOR][A-Z]\\d|MED4\\d|M4\\d|LSQ\\d|RCSO|MSHP|L\\d{3}|WHSQ\\d|315|400|OBTK\\d|OSQ\\d|RBT\\d");
   
   public MORayCountyParser() {
     super(CITY_TABLE, "RAY COUNTY", "MO", STATION_PTN, UNIT_PTN);
@@ -92,4 +74,23 @@ public class MORayCountyParser extends DispatchGlobalDispatchParser {
     if (data.strCity.equals("RAY COUNTY")) data.strCity = "";
     return true;
   }
+  
+  private static final String[] CITY_TABLE = new String[]{
+    "CAMDEN",
+    "CRYSTAL LAKES",
+    "ELMIRA",
+    "EXCELSIOR SPRINGS",
+    "FLEMING",
+    "HARDIN",
+    "HENRIETTA",
+    "HOMESTEAD",
+    "HOMESTEAD VILLAGE",
+    "LAWSON",
+    "ORRICK",
+    "RAYVILLE",
+    "RICHMOND",
+    "STET",
+    "WOODS HEIGHTS",
+    "RAY COUNTY"
+  };
 }

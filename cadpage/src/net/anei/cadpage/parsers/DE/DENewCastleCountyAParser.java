@@ -53,6 +53,10 @@ Sender: rc.302@c-msg.net
 Contact: Jason Froimowitz <jsf@udel.edu>
 [eFB] F00 14:33 1 - T:M31D3 (SYNCOPE-NOT ALERT) L:160 ACADEMY ST ,3B --* **DRAKE HALL *btwn E DELAWARE AV ~ LOVETT AV *UD CENTRAL MALL - LI:RM #054 - DESC:—àDSC:DIZZY, PASSED OUT—! PAT:1 SEX:Female AGE:19Years CON:Y BRE:Y
 
+Contact: Andrew H <modernmidnight@gmail.com>
+Sender: rc.1@c-msg.net
+[FB] F00 10:25 1 - T:M29B1 (MVC) L:LIBRARY AV~E MAIN ST ,PK *NEWARK - LI:IFO MCDONALDS - DESC:
+
  */
 
 

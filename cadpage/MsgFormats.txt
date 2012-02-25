@@ -3823,14 +3823,6 @@ Contact: jimmy wallace <jimwall63@gmail.com>
 Sender: CAD@robesoncoso.org
 CAD:BREATHING PROBLEMS;006;5812 NC71 HWY N;REV BILL RD;ARTHUR RD;12002171;[Medical Priority Info] PROBLEM: BREATHING TROUBLE # PATS: 1 AGE: 36 Years SEX: Female
 **********************************************************
-Portage County, OH
-Contact: Joseph L Corbin Jr <jcorbinjr@gmail.com>
-Sender: 911@ci.ravenna.oh.us
-System: Sundance
-*general parser won't work*
-911@ci.ravenna.oh.us:* 15_edinburg_general29,MEDICAL EMERGENCY *\n3594,INDRUSTRY RD, * ,ROOTSTOWN * 89YOA MALE OXYGEN MACHINE BROKEN,\nTROU
-911@ci.ravenna.oh.us:* 15_edinburg_general29,MEDICAL EMERGENCY * 4265,ROCK SPRING RD, * ,Ravenna * 53 YR OLD MALE DIFFICULTY BREATHING, PO
-**********************************************************
 Orange County, NY
 Contact: Ian Zuckerman <izuckerman5632@gmail.com>
 Sender: OC911@co.orange.ny.us
@@ -3864,7 +3856,9 @@ Contact: Franklin Brown <franklin.brown4782@gmail.com>
 Sender: tipton911dispatch@gmail.com
 - null - Ic# 261 EMS Ds# 540917 Al# 1 Utl# KAT-HRY 02/22/12 180 MICAH DR TC :( ) KATHRYN CV 23 MONTH OLD MALE HIGH FEVER 2
 **********************************************************
-**********************************************************
+Morris County, NJ ?
+Contact: Andrew H <modernmidnight@gmail.com>
+[FB] F00 10:25 1 - T:M29B1 (MVC) L:LIBRARY AV~E MAIN ST ,PK *NEWARK - LI:IFO MCDONALDS - DESC:
 **********************************************************
 **********************************************************
 **********************************************************
@@ -3932,7 +3926,25 @@ PAGED
 17 STONEHEDGE LN
 BTF03
 BTFIRE
-
+**********************************************************
+York County, NY (Replace - possibly not universal)
+Contact: "Freistat, Brandon" <brandon.freistat@fairviewfire.net>
+Sender: messaging@iamresponding.com
+(Station 68) : 203 LOCUST DR \n  FAIRVIEW TWP\n  \nLONGVIEW AVE / PLEASANT VIEW RD\nDistrict: 68-02\n\n    FIRE STRUCT RESID\nUnits Sent: 2\nFIRESTA68, 52-03
+(Station 68) : 378 PLEASANT VIEW RD \n  FAIRVIEW TWP\n  \nGURTNER RD / LANE\nDistrict: 68-02\n\n    FIRE STRUCT RESID\nUnits Sent: 2\nFIRESTA68, 52-12 \n\n   
+**********************************************************
+Portage County, OH
+Contact: Joseph L Corbin Jr <jcorbinjr@gmail.com>
+Sender: 911@ci.ravenna.oh.us
+System: Sundance
+*general parser won't work*
+911@ci.ravenna.oh.us:* 15_edinburg_general29,MEDICAL EMERGENCY *\n3594,INDRUSTRY RD, * ,ROOTSTOWN * 89YOA MALE OXYGEN MACHINE BROKEN,\nTROU
+911@ci.ravenna.oh.us:* 15_edinburg_general29,MEDICAL EMERGENCY * 4265,ROCK SPRING RD, * ,Ravenna * 53 YR OLD MALE DIFFICULTY BREATHING, PO
+911@ci.ravenna.oh.us:* 15_edinburg_generalMA,MUTUAL AID * 0,PALMYRA TOWNSHIP [EDIT], * PALMYRA,Ravenna * 1511 TO MEET 2011 AT STATION 20
+911@ci.ravenna.oh.us:* 15_edinburg_general29,MEDICAL EMERGENCY * 7824,TALLMADGE RD, * ,Ravenna * 80 YOA FEMALE CHEST PAINS﻿
+911@ci.ravenna.oh.us:* 15_edinburg_general29,MEDICAL EMERGENCY * 4174,PORTER RD , * ,EDINBURG TWP * FEMALE VERY LIGHT HEADED﻿
+911@ci.ravenna.oh.us:* 15_edinburg_general29,MEDICAL EMERGENCY * 3594,INDUSTRY RD, * ,ROOTSTOWN * 89 YOA MALE FALLEN
+911@ci.ravenna.oh.us:* 15_edinburg_general28,FIRE * 4907,ROCK SPRING RD, * ,Ravenna * CHIMNEY FIRE﻿
 **********************************************************
 Camden County, NJ (alternate)
 Contact: Dave <davem@usa.net>
