@@ -5,7 +5,9 @@ import net.anei.cadpage.parsers.GroupBestParser;
 public class PAYorkCountyParser extends GroupBestParser {
   
   public PAYorkCountyParser() {
-    super(new PAYorkCountyAParser(), new PAYorkCountyBParser());
+    super(new PAYorkCountyAParser(), 
+           new PAYorkCountyBParser(), 
+           new PAYorkCountyCParser());
   }
   
 }

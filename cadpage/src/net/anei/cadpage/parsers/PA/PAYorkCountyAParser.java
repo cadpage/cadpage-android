@@ -66,6 +66,9 @@ public class PAYorkCountyAParser extends SmartAddressParser {
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     
+    // Rule out variant C  Otherwise the code might be enought to pass
+    if (body.contains("District:")) return false;
+    
     if (subject.length() > 0) {
       if (subject.startsWith("Station ")) data.strSource = subject;
     }
