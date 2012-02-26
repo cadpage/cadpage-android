@@ -1651,6 +1651,11 @@ NECC, OH (OHNECCParser)
 [NECC] [F] LV:1 ALARM FIRE\n/\nCHILI'S GRILL & BAR\n11329<tel:11329> MONTGOMERY RD\n(SY)\nXS: HARPERSPOINTE DR & E KEMPER RD\n\nRCVD AS Phone\n\nCOM:\nF28 FIRE DUCT ALARM\nE9
 (NECC) [F] LV:1 AUTO ACCIDENT INJURY\n/\nFIELDS ERTEL RD/UNION CEMETERY RD\n(SY)\nXS: UNION CEMETERY RD & GREEN ARBORS LN\n\nRCVD AS Phone\n\nCOM:
 ***************************************************************************
+Portage County, OH (OHPortageCountyParser)
+911@ci.ravenna.oh.us:* 15_edinburg_general29,MEDICAL EMERGENCY *\n3594,INDRUSTRY RD, * ,ROOTSTOWN * 89YOA MALE OXYGEN MACHINE BROKEN,\nTROU
+911@ci.ravenna.oh.us:* 15_edinburg_general29,MEDICAL EMERGENCY * 4265,ROCK SPRING RD, * ,Ravenna * 53 YR OLD MALE DIFFICULTY BREATHING, PO
+911@ci.ravenna.oh.us:* 15_edinburg_generalMA,MUTUAL AID * 0,PALMYRA TOWNSHIP [EDIT], * PALMYRA,Ravenna * 1511 TO MEET 2011 AT STATION 20
+***************************************************************************
 Shelby County, OH (OHShelbyCountyParser)
 11-005105|28 - DRO|CAR CRASHED INTO WATER@11 WATER ST
 11-008684|11:09:00|:28 - SF|MICROWAVE ON FIRE @ 301 ELIZABETH ST RUSSIA BETW FIRST ST & CUL DE SAC|PHLIPOT
@@ -3885,18 +3890,6 @@ Contact: Andrew H <modernmidnight@gmail.com>
 **********************************************************
 **********************************************************
 **********************************************************
-Portage County, OH
-Contact: Joseph L Corbin Jr <jcorbinjr@gmail.com>
-Sender: 911@ci.ravenna.oh.us
-System: Sundance
-*general parser won't work*
-911@ci.ravenna.oh.us:* 15_edinburg_general29,MEDICAL EMERGENCY *\n3594,INDRUSTRY RD, * ,ROOTSTOWN * 89YOA MALE OXYGEN MACHINE BROKEN,\nTROU
-911@ci.ravenna.oh.us:* 15_edinburg_general29,MEDICAL EMERGENCY * 4265,ROCK SPRING RD, * ,Ravenna * 53 YR OLD MALE DIFFICULTY BREATHING, PO
-911@ci.ravenna.oh.us:* 15_edinburg_generalMA,MUTUAL AID * 0,PALMYRA TOWNSHIP [EDIT], * PALMYRA,Ravenna * 1511 TO MEET 2011 AT STATION 20
-911@ci.ravenna.oh.us:* 15_edinburg_general29,MEDICAL EMERGENCY * 7824,TALLMADGE RD, * ,Ravenna * 80 YOA FEMALE CHEST PAINS﻿
-911@ci.ravenna.oh.us:* 15_edinburg_general29,MEDICAL EMERGENCY * 4174,PORTER RD , * ,EDINBURG TWP * FEMALE VERY LIGHT HEADED﻿
-911@ci.ravenna.oh.us:* 15_edinburg_general29,MEDICAL EMERGENCY * 3594,INDUSTRY RD, * ,ROOTSTOWN * 89 YOA MALE FALLEN
-911@ci.ravenna.oh.us:* 15_edinburg_general28,FIRE * 4907,ROCK SPRING RD, * ,Ravenna * CHIMNEY FIRE﻿
 **********************************************************
 Camden County, NJ (alternate)
 Contact: Dave <davem@usa.net>
