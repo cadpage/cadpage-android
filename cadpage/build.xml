@@ -28,7 +28,8 @@
     </target>
 	
 	<target name="jarfile" depends="compile">
-		<jar basedir="${bin}" includes="${select}" destfile="${jarfile}"/>
+		<jar basedir="${bin}" includes="${select}" destfile="${jarfile}"
+		     manifest="MANIFEST.MF"/>
 	</target>
 	
 	<target name="build" depends="jarfile"/>
