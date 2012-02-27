@@ -379,7 +379,7 @@ public class PABucksCountyParser extends FieldProgramParser {
   /*55*/ "PENNDEL",
   /*56*/ "PERKASIE",
   /*57*/ "PLUMSTEAD TWP",
-  /*58*/ "QUAKERTOWN TWP",
+  /*58*/ "QUAKERTOWN",
   /*59*/ "RICHLAND TWP",
   /*60*/ "",
   /*61*/ "RICHLANDTOWN",

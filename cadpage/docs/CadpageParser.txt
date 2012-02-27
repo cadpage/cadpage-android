@@ -1,0 +1,100 @@
+Using the Cadpage Parser in a standalone server environment
+
+
+The Cadpage Parser is distributed as the CadpageParser.jar file available from
+http://www.cadpage.org/download-cadpage.  It is distributred under a GPL3 license, 
+the source code is available from http://code.google.com/p/cadpage
+
+It can be called directy from a Java program, but will most commonly be 
+executed as a standalone process   You do have to have Java 1.5 or better
+installed on your system.
+
+The command to run the Cadpage parser is
+java -jar CadpageParser.jar <arguments>
+
+Once started it will read page message information from stdin and output the parsed 
+results to stdout.  Anything displayed on stderr indicates a fatal error and should
+be logged and reported to the developers.
+
+Arguments can be one of
+FLGS=<flags>
+   Flags can be any combination of
+   P - Preparse message to remove artifacts inserted by a upstream message
+       service.  Should not be necessary if page is coming directly from 
+       dispatch CAD software
+   G - Messages should be parsed as general alerts if not recognized as CAD pages
+   default value "G"
+FMT=<format code>
+   format code is the parser format code.  Default value - read from stdin
+SUBJ=<message subject>
+   message subject.  Default value - read from stdin
+   
+Any parameter value set to a dash (-) will be read from stdin for every message
+to be parsed
+
+The parser will start by optionially reading values for flags, format code, and 
+message subject as separate lines from stdin.  It will then read any number of
+lines of text message, which can be terminated by an
+<*EOD*>
+marker, or by a regular EOF on stdin.  Parser will terminate after parsing this
+message if input was terminated by a regular EOF.
+
+The subject and text information will be parsed according to the defined
+format code and the results written to stdout terminated by a
+<*EOD*>
+marker.  If the parser fails to parse this text, it will output an immediate
+<*EOD*>
+marker
+
+
+Example #1 - Parser dedicated to handling a single location, pages received
+directly from dispatch.  Subject is first line of input
+
+java -jar CadpageParser.jar FLGS= FMT=ORBentonCounty 
+Corvallis Alert
+INC: CODE 1 MEDICAL
+ADD:1740 MAIN ST
+APT:
+CITY:PHILOMATH
+X:N 17TH ST * N 18TH ST
+MAP:540-365
+CFS:0907010-119
+DIS:PHILOMATH FIRE
+<*EOD*>
+
+
+Example #2 - Parser handles pages from multiple locations, pages may be received
+from an upstream messaging service which has already attempted to embed the
+message subject in the message text.  Format code is first line of input.  Subject
+is the blank second line.  The actual message text starts with the S: line
+
+java -jar CadpageParser.jar FLGS=P FMT=ORBentonCounty 
+ORBentonCounty
+
+S: Corvallis Alert
+M: INC: CODE 1 MEDICAL
+ADD:1740 MAIN ST
+APT:
+CITY:PHILOMATH
+X:N 17TH ST * N 18TH ST
+MAP:540-365
+CFS:0907010-119
+DIS:PHILOMATH FIRE
+<*EOD*>
+
+
+Example #3 - Parser is invoked once per text page, pages may be received
+from an upstream messaging service which has already attempted to embed the
+message subject in the message text. Input is terminated by a hard EOF
+
+java -jar CadpageParser.jar FLGS=PG FMT=ORBentonCounty "SUBJ=Corvallis Alert" 
+ORBentonCounty
+INC: CODE 1 MEDICAL
+ADD:1740 MAIN ST
+APT:
+CITY:PHILOMATH
+X:N 17TH ST * N 18TH ST
+MAP:540-365
+CFS:0907010-119
+DIS:PHILOMATH FIRE
+
