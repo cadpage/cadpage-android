@@ -247,6 +247,7 @@
     <item>TX Texas</item>
     <item>UT Utah</item>
     <item>VA Virginia</item>
+    <item>WA Washington</item>
     <item>WV West Virginia</item>
     <item>WI Wisconsin</item>
     <item>ZUK United Kingdom</item>
@@ -613,6 +614,7 @@
     <item>VARockinghamCounty</item>
     <item>VAWaynesboro</item>
     <item>VAWinchester</item>
+    <item>WAYakimaCounty</item>
     <item>WVCabellCounty</item>
     <item>WVKanawhaCounty</item>
     <item>WIBrownCounty</item>
@@ -987,6 +989,7 @@
     <item>Rockingham County, VA</item>
     <item>Waynesboro, VA</item>
     <item>Winchester, VA</item>
+    <item>Yakima County, WA</item>
     <item>Cabell County, WV</item>
     <item>Kanawha County, WV</item>
     <item>Brown County, WI</item>
