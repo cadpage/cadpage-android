@@ -60,6 +60,14 @@ public class Message {
    */
   protected void setLocationCode(String location) {}
   
+  /**
+   * Called by test code to retrieve value set as the location code
+   * @return location code saved by setLocationCode
+   */
+  protected String getLocationCode() {
+    return null;
+  }
+  
   // Patterns used to perform front end descrambling
   private static final Pattern LEAD_BLANK = Pattern.compile("^ *\" \" +");
   private static final Pattern DISCLAIMER_PTN = Pattern.compile("\\n+DISCLA.*$", Pattern.CASE_INSENSITIVE);

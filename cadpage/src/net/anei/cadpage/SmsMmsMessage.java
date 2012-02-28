@@ -367,6 +367,11 @@ public class SmsMmsMessage implements Serializable {
       protected void setLocationCode(String location) {
         SmsMmsMessage.this.location = location;
       }
+      
+      @Override
+      public String getLocationCode() {
+        return SmsMmsMessage.this.location;
+      }
     };
   }
 
