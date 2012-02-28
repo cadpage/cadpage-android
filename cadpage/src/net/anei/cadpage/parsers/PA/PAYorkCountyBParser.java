@@ -50,6 +50,7 @@ public class PAYorkCountyBParser extends FieldProgramParser {
 
   @Override
   protected boolean parseMsg(String body, Data data) {
+    body = body.replace("\r", "").replace("\t", " ");
     if (!body.startsWith(START_MARKER)) return false;
     body = body.replace('~', ' ');
     return parseFields(body.split("\n"), data);
