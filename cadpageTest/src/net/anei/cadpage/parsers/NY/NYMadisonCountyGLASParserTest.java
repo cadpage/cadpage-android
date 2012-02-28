@@ -32,9 +32,9 @@ public class NYMadisonCountyGLASParserTest extends BaseParserTest {
     doTest("T3",
         "FRM:messaging@iamresponding.com\nSUBJ:Greater Lenox\nMSG:Heart Problem\n@MADISON COUNTY DSS (133 NORTH COURT ST (WAMPSVILLE VIL",
         "CALL:Heart Problem",
-        "ADDR:@MADISON COUNTY DSS",
-        "MADDR:@MADISON COUNTY DSS & 133 NORTH COURT ST (WAMPSVILLE VIL",
-        "X:133 NORTH COURT ST (WAMPSVILLE VIL");
+        "PLACE:MADISON COUNTY DSS",
+        "ADDR:133 NORTH COURT ST",
+        "CITY:WAMPSVILLE VILLAGE");
 
     doTest("T4",
         "FRM:messaging@iamresponding.com\nSUBJ:Greater Lenox\nMSG:Convulsions/Seizures\n7216 NELSON RD , LENOX (SENECA TRNPK / PAVONE PL)",
@@ -76,9 +76,9 @@ public class NYMadisonCountyGLASParserTest extends BaseParserTest {
     doTest("T9",
         "FRM:messaging@iamresponding.com\nSUBJ:Greater Lenox\nMSG:MVA - Personal Injury\n@MM 261.7 (261 70 I90 )",
         "CALL:MVA - Personal Injury",
-        "ADDR:@MM 261.7",
-        "MADDR:@MM 261.7 & 261 70 I 90",
-        "X:261 70 I90");
+        "PLACE:MM 261.7",
+        "ADDR:261 70 I90",
+        "MADDR:261 70 I 90");
 
     doTest("T10",
         "FRM:messaging@iamresponding.com\nSUBJ:Greater Lenox\nMSG:MVA - Unknown\nRAILROAD \\ DEPOT (, CANASTOTA VILLAGE)",
@@ -126,6 +126,6 @@ public class NYMadisonCountyGLASParserTest extends BaseParserTest {
   }
   
   public static void main(String[] args) {
-    new NYMadisonCountyGLASParserTest().generateTests("T1", "CALL ADDR APT CITY X");
+    new NYMadisonCountyGLASParserTest().generateTests("T1", "CALL PLACE ADDR APT CITY X");
   }
 }
