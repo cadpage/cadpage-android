@@ -29,6 +29,7 @@ FRM:messaging@iamresponding.com\nSUBJ:Greater Lenox\nMSG:MVA - Personal Injury\n
 FRM:messaging@iamresponding.com\nSUBJ:Greater Lenox\nMSG:Falls\n400 LAMB AV #144, CANASTOTA VILLAGE ( / DEPPOLITI AV)
 (Greater Lenox) Convulsions/Seizures\n7216 NELSON RD , LENOX ( SENECA TRNPK / PAVONE PL)
 FRM:messaging@iamresponding.com\nSUBJ:Greater Lenox\nMSG:MVA - Unknown\nCANAL RD , LENOX
+FRM:messaging@iamresponding.com\nSUBJ:Greater Lenox\nMSG:Chest Pain\n@THERMOLD & RMH CORPORATION (7059 HARP RD (LENOX) )
 
 */
 
@@ -53,14 +54,41 @@ public class NYMadisonCountyGLASParser extends MsgParser {
     Matcher match = MASTER.matcher(body);
     if (!match.matches()) return false;
     data.strCall = match.group(1).trim();
-    parseAddress(match.group(2).trim(), data);
-    data.strCity = getOptGroup(match.group(3));
-    String sCross = getOptGroup(match.group(4));
-    if (sCross.startsWith("/")) sCross = sCross.substring(1).trim();
-    if (sCross.startsWith(",")) {
-      data.strCity = sCross.substring(1).trim();
+    String sPart1 = match.group(2).trim();
+    String sPart2 = getOptGroup(match.group(3));
+    String sPart3 = getOptGroup(match.group(4));
+    if (sPart1.startsWith("@")) {
+     data.strPlace = sPart1.substring(1).trim(); 
+     if (sPart2.length() > 0) {
+       parseAddress(sPart2, data);
+       data.strCross = sPart3;
+     } else {
+       Parser p = new Parser(sPart3);
+       parseAddress(p.get('('), data);
+       data.strCity = p.get(')');
+     }
     } else {
-      data.strCross = sCross;
+      parseAddress(sPart1, data);
+      data.strCity = sPart2;
+      if (sPart3.startsWith("/")) sPart3 = sPart3.substring(1).trim();
+      if (sPart3.startsWith(",")) {
+        data.strCity = sPart3.substring(1).trim();
+      } else {
+        data.strCross = sPart3;
+      }
+    }
+    
+    // Check for truncated VILLAGE following city
+    int pt = data.strCity.lastIndexOf(' ');
+    if (pt >= 0) {
+      String last = data.strCity.substring(pt+1).trim().toUpperCase();
+      for (String city : new String[]{"VILLAGE"}) {
+        if (city.equals(last)) break;
+        if (city.startsWith(last)) {
+          data.strCity = data.strCity.substring(0,pt+1) + city;
+          break;
+        }
+      }
     }
     return true;
   }
