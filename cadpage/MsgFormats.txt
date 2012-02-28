@@ -3890,6 +3890,15 @@ Morris County, NJ ?
 Contact: Andrew H <modernmidnight@gmail.com>
 [FB] F00 10:25 1 - T:M29B1 (MVC) L:LIBRARY AV~E MAIN ST ,PK *NEWARK - LI:IFO MCDONALDS - DESC:
 **********************************************************
+Tipton County, TN
+Contact: Franklin Brown <franklin.brown4782@gmail.com>
+Sender: tipton911dispatch@gmail.com
+6 56 03 Transp = Arrive = Avail  =  7 18 43 Rpt # = 00-TS000000\n
+- null - ACK OF HEAD 0647,005 TAU3 ,TSFD1 (02/02)\n
+- null - Ic# 162 EMS Ds# 540916 Al# 1 Utl# BEA-VER 02/27/12 650 JIMMY PAYNE RD TC :( ) BEAVER CREEK RD 49 YO MALE SICKLE C
+6 Transp = Arrive = Avail\2s= 17 32 05 Rpt # = 00-TS000000\n
+- null - Ic# 106 EMS Ds# 540916 Al# 1 Utl# BEA-VER 02/26/12 1056 WRIGHT RD TC :( ) BEAVER CREEK RD 60 Y/O MALE FALLEN PART
+
 **********************************************************
 **********************************************************
 **********************************************************
