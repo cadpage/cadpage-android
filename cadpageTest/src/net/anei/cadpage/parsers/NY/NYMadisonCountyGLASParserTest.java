@@ -123,6 +123,13 @@ public class NYMadisonCountyGLASParserTest extends BaseParserTest {
         "ADDR:CANAL RD",
         "CITY:LENOX");
 
+    doTest("T16",
+        "FRM:messaging@iamresponding.com\nSUBJ:Greater Lenox\nMSG:Chest Pain\n@THERMOLD & RMH CORPORATION (7059 HARP RD (LENOX) )",
+        "CALL:Chest Pain",
+        "PLACE:THERMOLD & RMH CORPORATION",
+        "ADDR:7059 HARP RD",
+        "CITY:LENOX");
+
   }
   
   public static void main(String[] args) {
