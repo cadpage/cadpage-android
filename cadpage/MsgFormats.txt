@@ -481,7 +481,7 @@ Otsego County, NY (NYOstegoCountyParser)
 * DispatchA3Parser subclasses
 *******************************************************************************
 *******************************************************************************
-Camden County, GA (GACamdenCountyParser)
+Camden County, GA (GACamdenCountyAParser)
 astudstill@co.camden.ga.us:2011-101695* HIGHWAY 17 STEFFANS* * * KINGSLAND* * Traffic Stop* TRAFFIC STOP* * * 1128,1140,1150,1152,509,514,523,532,LS3,R3* * Med
 astudstill@co.camden.ga.us:2011-104696* 4059 MARTIN LUTHER KING BLVD* N4* * 514,541,546,ENG4,LS4,MED4 KINGSLAND* * INJURY* INJURY* 509,ENG5,LS3* * Medical: No
 astudstill@co.camden.ga.us:2011-101995* 405 & HIGHWAY 40 OLD WAFFLE HOUSE* * * KINGSLAND* * ACCIDENT* ACCIDENT* ELAINE* 386-208-4465* 514,541,546,ENG4,LS4,MED4
@@ -1263,10 +1263,15 @@ Burlington County, NJ (NJBurlingtonCounty)
 .... (Station 171) :   11 F StrctrFire           Priority: 1  : 4209 RT563                                 Venue: Woodland  Located Between  : RT532/S OOY PLACE RD Call Time- 19:30:14                                : 2911 : (609) 848-4053                Caller : RODNEY CONCILMAN  Complaintant: 4211 RT563 Nature of Call : FLAMES COMING OUT OF THE CHIMNEY// Additional Inc#s
 .... (Station 171) :  EMS E EMS Call             Priority: 1  : 1883 RT38                                          Venue: Southamptn  Located Between  : SMITHVILLE RD/RT206   : DIAMOND M LUMBER Call Time- 09:35:44                      : 1711: (609) 261-2701                Caller : NJSP Nature of Call : MVA / RQST EMS
 ***************************************************************************
-Camden County, NJ (NJCamdenCountyParser)
+Camden County, NJ (NJCamdenCountyAParser)
 (Dispatch SD45) DWELLING\n312 9TH ST ,14\n#:\nX:CENTER/CHERRY\nZN:14A\nCP:  2011-03-31 10:44:12\nMI#:110073123\nRES#:SD45
 (Dispatch SD45) M.V.A\nROUTE 295 SB RAMP TO 76 SB ALJO CUR ,04\n#:\nX:/\nZN:04Q\nCP:ROUTE 295 SB RAMP T  2011-03-31 09:06:36\nMI#:110073062 
 (Dispatch SD45) DIABETIC\n217 BLACK HORSE PK N ,25\n#:4\nX:CARLISLE/LAKEVIEW\nZN:25B\nCP:MAX GROUP PHILLY CO  2011-03-30 13:23:26\nMI#:11007
+***************************************************************************
+Camden County, NJ (NJCamdenCountyBParser)
+(CCCAlert) REQ FOR FM TO RESPOND - 508 MAIN AVE. BEDROOM FIRE. UNDER CONTROL.
+(CCCAlert) 2 BLS UNITS AND RESCUE OPERATING AT RT 561 AND MORRIS DRIVE FOR AN OVERTURNED DUMP TRUCK ON TOP OF A VEHICLE
+(CCCAlert) e1351 ol at s135 with a vehicle that has hit the side of the building reporting structural damage 
 ***************************************************************************
 Cumberland County, NJ (NJCumberlandCountyParser)
 E911:E22_INVEST_(VINELAND CITY)1763 CHEROKEE LA_2011-04-24 19:02:46_
@@ -3900,15 +3905,6 @@ Contact: Andrew H <modernmidnight@gmail.com>
 **********************************************************
 **********************************************************
 **********************************************************
-Camden County, NJ (alternate)
-Contact: Dave <davem@usa.net>
-Sender: ccfsup@camdencounty.com
-(CCCAlert) REQ FOR FM TO RESPOND - 508 MAIN AVE. BEDROOM FIRE. UNDER CONTROL.
-(CCCAlert) 2 BLS UNITS AND RESCUE OPERATING AT RT 561 AND MORRIS DRIVE FOR AN OVERTURNED DUMP TRUCK ON TOP OF A VEHICLE
-(CCCAlert) 2 BLS UNITS AND RESCUE OPERATING AT RT 561 AND MORRIS DRIVE FOR AN OVERTURNED DUMP TRUCK ON TOP OF A VEHICLE
-(CCCAlert) e1351 ol at s135 with a vehicle that has hit the side of the building reporting structural damage 
-(CCCAlert) REQ FOR FM TO RESPOND - 508 MAIN AVE. BEDROOM FIRE. UNDER CONTROL.
-(CCCAlert) DWELLING 1513 BRICK RD / SQ1331 ON LOCATION REPORTING  2 STY SINGLE FAMILY SMOKE SHOWING FROM FRONT DOOR
 **********************************************************
 Geauga County, OH (alternate)
 Contact: Courtney Sanders <csanders3217@gmail.com>
