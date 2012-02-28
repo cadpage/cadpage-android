@@ -306,7 +306,7 @@ public class PABucksCountyParserTest extends BaseParserTest {
         "CALL:FBLD - BUILDING FIRE (BOX)",
         "ADDR:121 PARK AV",
         "MADDR:121 PARK AVE",
-        "CITY:QUAKERTOWN TWP",
+        "CITY:QUAKERTOWN",
         "X:FRONT ST & S 2ND ST",
         "INFO:QUAKERTOWN ASSOCIATES 215-901-8033",
         "BOX:17001",

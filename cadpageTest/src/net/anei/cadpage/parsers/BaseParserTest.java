@@ -48,7 +48,7 @@ public abstract class BaseParserTest {
     if (parserLocCode == null) parserLocCode = parser.getParserCode();
   }
   
-  public void setexpLocCode(String parserLocCode) {
+  public void setExpLocCode(String parserLocCode) {
     this.parserLocCode = parserLocCode;
   }
   
@@ -126,6 +126,22 @@ public abstract class BaseParserTest {
    * @param result - expected results
    */
   public void doSubTest(String title, boolean chkMapAddr, String subject, String test, String ... result) {
+    
+    TestMessage msg = new TestMessage(true, fromAddress, subject, test);
+    assertTrue(title + ":parse", parser.isPageMsg(msg, MsgParser.PARSE_FLG_POSITIVE_ID | MsgParser.PARSE_FLG_SKIP_FILTER));
+    doMsgTest(title, chkMapAddr, msg, result);
+  }
+  
+  /**
+   * The real main parse method.  Call can pass any subclass of Message.  Message
+   * object must have been parsed prior to call.
+   * @param title - test name
+   * @param chkMapAddr - true if map addresses should be checked
+   * @param msg - parsed message
+   * @param result - expected results
+   */
+  protected void doMsgTest(String title, boolean chkMapAddr, Message msg, String...result) {
+    
     MsgInfo.Data data = new MsgInfo.Data(null);
     String expMapAddr = "";
     for (String str : result) {
@@ -156,11 +172,8 @@ public abstract class BaseParserTest {
       else if (sType.equals("TIME")) data.strTime = str;
       else fail("Keyword " + sType + " is not defined");
     }
-    
-    TestMessage msg = new TestMessage(true, fromAddress, subject, test);
-    assertTrue(title + ":parse", parser.isPageMsg(msg, MsgParser.PARSE_FLG_POSITIVE_ID | MsgParser.PARSE_FLG_SKIP_FILTER));
     if (parserLocCode != null) {
-      assertEquals(title + ":location", parserLocCode, msg.getLocation());
+      assertEquals(title + ":location", parserLocCode, msg.getLocationCode());
     }
     MsgInfo info = msg.getInfo();
     String actMapAddr = "";
@@ -209,7 +222,8 @@ public abstract class BaseParserTest {
       this.location = location;
     }
 
-    public String getLocation() {
+    @Override
+    public String getLocationCode() {
       return location;
     }
     

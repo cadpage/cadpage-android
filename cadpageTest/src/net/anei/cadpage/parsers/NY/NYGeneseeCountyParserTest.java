@@ -205,6 +205,17 @@ public class NYGeneseeCountyParserTest extends BaseParserTest {
         "TIME:19:53",
         "ID:2012-00000026");
 
+    doTest("T2",
+        "GENESEE COUNTY DISPATCH Unit:AX10 Status:Dispatched EMD Delta ** ** 89 COLONY RUN , ATTICA - APT D ** 78YO MALE TROUBLE BREATHING  ** COLONY CT / ALEXANDER RD ** 02/26/12 20:04 ** 2012-00000046 ** TXT STOP to opt-out",
+        "UNIT:AX10",
+        "CALL:EMD Delta",
+        "ADDR:89 COLONY RUN",
+        "INFO:78YO MALE TROUBLE BREATHING",
+        "X:ATTICA - APT D & COLONY CT / ALEXANDER RD",
+        "DATE:02/26/12",
+        "TIME:20:04",
+        "ID:2012-00000046");
+
   }
   
   @Test

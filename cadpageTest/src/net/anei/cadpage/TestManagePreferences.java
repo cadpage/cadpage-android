@@ -26,6 +26,10 @@ public class TestManagePreferences extends ManagePreferences {
   public void setTestFilter(String filter) {
     prefMap.put(R.string.pref_filter_key, filter);
   }
+  
+  public void setTestGenAlert(boolean newVal) {
+    prefMap.put(R.string.pref_gen_alert_key, newVal);
+  }
 
   public void putBoolean(int resPrefId, boolean newVal) {
     prefMap.put(resPrefId, newVal);

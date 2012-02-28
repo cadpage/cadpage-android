@@ -20,7 +20,7 @@ public class GroupBestParserTest extends BaseParserTest {
     MsgParser[] parsers = new MsgParser[]{ adamsParser, weldCountyParser, northGlennParser };
     setParser(new GroupBestParser(parsers), "", "");
     
-    setexpLocCode(adamsParser.getParserCode());
+    setExpLocCode(adamsParser.getParserCode());
     setDefaults("ADAMS COUNTY", "CO");
     doTest("ADAMS COUNTY",
         "Subject:IPS I/Page Notification E 64TH AVE/MONACO ST ADAM CCPD 09:51:48 TYPE CODE: ACCI CALLER NAME: TIME: 09:51:48 Comments: -104.90947",
@@ -28,7 +28,7 @@ public class GroupBestParserTest extends BaseParserTest {
         "TIME:09:51:48",
         "CALL:ACCI");
 
-    setexpLocCode(weldCountyParser.getParserCode());
+    setExpLocCode(weldCountyParser.getParserCode());
     setDefaults("WELD COUNTY", "CO");
     doTest("Weld County",
         "\" \" 24\nSIPF\nD\n3211 LUPTON AVE\nEV\n24\nMOM IS NOT WAKING UP 0000 Confirm 0001 Refuse TXT STOP to opt-out",
@@ -40,7 +40,7 @@ public class GroupBestParserTest extends BaseParserTest {
         "UNIT:24",
         "INFO:MOM IS NOT WAKING UP 0000 Confirm 0001 Refuse");
     
-    setexpLocCode(northGlennParser.getParserCode());
+    setExpLocCode(northGlennParser.getParserCode());
     setDefaults("ADAMS COUNTY", "CO");
     doTest("T1",
         "- part 1 of 1 / RC:Run# 10174/6211 OLIVE ST///Pregnancy / Childbirth/",

@@ -176,6 +176,126 @@ public class PAYorkCountyBParserTest extends BaseParserTest {
         "UNIT:FIRESTA892, E19",
         "INFO:c/o adv that they have wires sparking in the front yard / not threatening home but near tree branches / c/o does not have power / do not see flames / wires are not down, they are sparking in the air / Nature Of Call: odor of gas outside / Nature Of Call: wires sparking");
 
+    doTest("T12",
+        "Rip and Run Report\n" +
+        "Rip and Run Report\n\n" +
+        "~\n" +
+        "Location Information:\n\n" +
+        "Location:~~I~83~NB/~I~83X14LEADERHEIGHTS~NB\n" +
+        "Venue:~YORK TWP\n" +
+        "Cross Streets~\n" +
+        "Quadrant:~19-833\n" +
+        "District:~19-833\n" +
+        "~\n" +
+        "Call Information:\n\n" +
+        "Call Number:~3936\n" +
+        "Call Type:~ FIRE VEHICLE \n" +
+        "Source:~DISPATCHED BY YORK COUNTY 911\n" +
+        "Priority:~ 2\n" +
+        "Status:~IN PROGRESS\n" +
+        "Assigned To:~CALL TAKER 2\n" +
+        "Caller:~Himmelright,~Christine\n" +
+        "Call Date/Time:~02/26/2012 17:42:25\n" +
+        "Dispatch Date/Time:~02/26/2012 17:44:07\n" +
+        "Arrive Date/Time:~\n" +
+        "Clear Date/Time:~\n" +
+        "Enroute Date/Time:~\n" +
+        "Latest Unit Cleared Date/Time:~\n" +
+        "~\n" +
+        "Incident Number(s)\n" +
+        "2012-00001075~~GOODWILL FIRE COMPANY NO. 1 YORK TOWNSHIP\n" +
+        "~\n" +
+        "Units Sent:~1\n" +
+        "FIRESTA19~\n\n" +
+        "Alerts:\n" +
+        "~\n" +
+        "Location Alerts\n\n" +
+        "Person Alerts\n\n" +
+        "Vehicle Alerts\n" +
+        "~~\n" +
+        "Narrative:\n\n" +
+        "Narrative Time~Narrative\n" +
+        "02/26/12 17:43:52~In the medium of the road smoke and flames",
+
+        "ADDR:I 83 NB & I 83X14LEADERHEIGHTS NB",
+        "MADDR:I 83 & I 83X14LEADERHEIGHTS",
+        "CITY:YORK TWP",
+        "MAP:19-833",
+        "ID:3936",
+        "CALL:FIRE VEHICLE",
+        "PRI:2",
+        "NAME:Himmelright, Christine",
+        "DATE:02/26/2012",
+        "TIME:17:42:25",
+        "UNIT:FIRESTA19",
+        "INFO:In the medium of the road smoke and flames");
+
+    doTest("T13",
+        "Rip and Run Report\n" +
+        "Rip and Run Report\n\n" +
+        "~\n" +
+        "Location Information:\n\n" +
+        "Location:~25~MONUMENT~RD~\n" +
+        "Venue:~YORK TWP\n" +
+        "Cross Streets~\n" +
+        "S GEORGE ST\n" +
+        "OLD BALTIMORE PIKE / GRANTLEY RD\n" +
+        "Phone:~(717) 851-2604\n" +
+        "Quadrant:~19-05\n" +
+        "District:~19-05\n" +
+        "~\n" +
+        "Call Information:\n\n" +
+        "Call Number:~4561\n" +
+        "Call Type:~ FIRE AFA FALSE\n" +
+        "Source:~DISPATCHED BY YORK COUNTY 911\n" +
+        "Priority:~ 4\n" +
+        "Status:~IN PROGRESS\n" +
+        "Assigned To:~CALL TAKER 1\n" +
+        "Caller:~Kevin,~Simplex\n" +
+        "Call Date/Time:~02/27/2012 11:24:29\n" +
+        "Dispatch Date/Time:~02/27/2012 11:26:16\n" +
+        "Arrive Date/Time:~\n" +
+        "Clear Date/Time:~\n" +
+        "Enroute Date/Time:~\n" +
+        "Latest Unit Cleared Date/Time:~02/27/2012 11:28:12\n" +
+        "~\n" +
+        "Incident Number(s)\n" +
+        "2012-00001076~~GOODWILL FIRE COMPANY NO. 1 YORK TOWNSHIP\n" +
+        "2012-00005505~~YORK AREA REGIONAL POLICE DEPARTMENT\n" +
+        "~\n" +
+        "Units Sent:~2\n" +
+        "FIRESTA19, 21-66~\n\n" +
+        "Alerts:\n" +
+        "~\n" +
+        "Location Alerts\n\n" +
+        "Person Alerts\n\n" +
+        "Vehicle Alerts\n" +
+        "~~\n" +
+        "Narrative:\n\n" +
+        "Narrative Time~Narrative\n" +
+        "02/27/12 11:25:22~unk location, general fire\n" +
+        "02/27/12 11:25:32~will att premsis, will att keyholders\n" +
+        "02/27/12 11:25:51~disp adv'd to hold on have someone calling in\n" +
+        "02/27/12 11:26:20~spoke to Barbra stated false alarm, unk reason, all isok\n" +
+        "02/27/12 11:26:51~still did not have a location\n" +
+        "02/27/12 11:27:18~Nature Of Call: general alm\n" +
+        "02/27/12 11:27:18~Barbara Hess on scene saying sprinkler system was beingrehooked up and that is why it went off\n" +
+        "02/27/12 11:27:22~nNO EMERGENCY\n" +
+        "02/27/12 11:28:04~Nature Of Call: general alm /reconnected sprinkler system",
+
+        "ADDR:25 MONUMENT RD",
+        "CITY:YORK TWP",
+        "X:S GEORGE ST",
+        "MAP:19-05",
+        "ID:4561",
+        "CALL:FIRE AFA FALSE",
+        "PRI:4",
+        "NAME:Kevin, Simplex",
+        "DATE:02/27/2012",
+        "TIME:11:24:29",
+        "UNIT:FIRESTA19, 21-66",
+        "INFO:unk location, general fire / will att premsis, will att keyholders / disp adv'd to hold on have someone calling in / spoke to Barbra stated false alarm, unk reason, all isok / still did not have a location / Nature Of Call: general alm / Barbara Hess on scene saying sprinkler system was beingrehooked up and that is why it went off / nNO EMERGENCY / Nature Of Call: general alm /reconnected sprinkler system");
+
   }
   
   public static void main(String[] args) {

@@ -2,18 +2,11 @@ package net.anei.cadpage.parsers;
 
 import static org.junit.Assert.*;
 
-import net.anei.cadpage.TestManagePreferences;
 import net.anei.cadpage.parsers.MsgInfo;
 
-import org.junit.BeforeClass;
 import org.junit.Test;
 
 public class MsgInfoTest {
-  
-  @BeforeClass
-  public static void classSetup() {
-    new TestManagePreferences().setTestOverrideDefault(false);
-  }
   
   @Test
   public void testProblem() {
