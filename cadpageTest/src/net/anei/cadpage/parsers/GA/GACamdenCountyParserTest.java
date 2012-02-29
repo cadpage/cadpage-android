@@ -75,6 +75,16 @@ public class GACamdenCountyParserTest extends BaseParserTest {
         "PHONE:316-258-1559",
         "UNIT:ENG4,LS4",
         "INFO:Medical: No / Haz");
+
+    doTest("T7",
+        "astudstill@co.camden.ga.us:2012-037466* BOONE AND SUMMERBROOK* * * KINGSLAND* * INVESTIGATE* INVESTIGATE SUSPICIOUS PERSON/VEHICLE* JUAN RODRIGUEZ* 912-8",
+        "ID:2012-037466",
+        "ADDR:BOONE AND SUMMERBROOK",
+        "CITY:KINGSLAND",
+        "CALL:INVESTIGATE",
+        "INFO:SUSPICIOUS PERSON/VEHICLE",
+        "NAME:JUAN RODRIGUEZ",
+        "PHONE:912-8");
   
   }
   

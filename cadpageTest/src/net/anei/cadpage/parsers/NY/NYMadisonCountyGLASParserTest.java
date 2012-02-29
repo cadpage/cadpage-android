@@ -130,6 +130,17 @@ public class NYMadisonCountyGLASParserTest extends BaseParserTest {
         "ADDR:7059 HARP RD",
         "CITY:LENOX");
 
+    doTest("T17",
+        "FRM:messaging@iamresponding.com\n" +
+        "SUBJ:Greater Lenox\n" +
+        "MSG:Traumatic Injuries\n" +
+        "@SCHOOL CANASTOTA ROBERTS ST JR SR HIGH SCHOOL (302 ROBERTS ST (CANASTOTA VILLAGE) )",
+
+        "CALL:Traumatic Injuries",
+        "PLACE:SCHOOL CANASTOTA ROBERTS ST JR SR HIGH SCHOOL",
+        "ADDR:302 ROBERTS ST",
+        "CITY:CANASTOTA VILLAGE");
+
   }
   
   public static void main(String[] args) {
