@@ -3966,12 +3966,7 @@ System: ITI
 S:Call M:FIRE / 10-50 J-2 / STATE RD CC JEFFCO/FESTUS FIRE / HWY 67 / FIRE DEPT / H4 FI H1 / FESTUS FD66651 / JPAD H4 FI H1\n\n\n
 (call) FIRE / BRUSH / 2819 NORTH SELMA ROAD JEFFCO/R7 /DOOLING HO /EMS /6610 /jpad brush with exposer R-7 FD720146 /JPAD 603031
 FIRE/10-50 J-2/ STATE RD CC JEFFCO/FESTUS FIRE / HWY 67 /FIRE DEP /H4 FI H1 FESTUS  FD66651 / JPAD H4 FI H1
-
-( 1 of  2) S:Call M:FIRE / MUTUAL AID / 12532 STATE RD TT JEFFCO/R-7 / R7SCHOOLRD / EMS / H3 FI H1 / BRUSH ENDANGERING A STRUCTURE/ 66
-( 2 of  2) 14 6037 \n R-7 FD720096 / JPAD H3 FI H1\n
-
-( 1 of  2) S:Call M:FIRE / MUTUAL AID / 12532 STATE RD TT JEFFCO/R-7 / R7SCHOOLRD / EMS / H3 FI H1 / BRUSH ENDANGERING A STRUCTURE/ 66
-( 2 of  2) 14 6037 \nR-7 FD720096 / JPAD H3 FI H1\n
+S:Call M:FIRE / MUTUAL AID / 12532 STATE RD TT JEFFCO/R-7 / R7SCHOOLRD / EMS / H3 FI H1 / BRUSH ENDANGERING A STRUCTURE/ 66 14 6037 \nR-7 FD720096 / JPAD H3 FI H1\n
 **********************************************************
 Polk County, IA (Grimes Fire & Rescue)
 Contact: angela brouwer <abrouwerdcg@gmail.com>
@@ -3984,45 +3979,15 @@ Sender: 777129998926
 **********************************************************
 Blaine County, ID
 Contact: Jamie Hoover <hooverj18@gmail.com>
+Contact: Kelland Wolf <krswolf@gmail.com>
 Sender: ldispatch@co.blaine.id.us
 
-(CAD Page for CFS BC012512-12) FIRE ALARM
-314 S 7TH ST
-Apt:
-BELLEVUE
-Cross Streets : PINE ST * POPLAR ST
-
-(CAD Page for CFS BC013012-62) GAS LEAK-ODOR NO INJURY
-119 S MAIN ST
-Apt:
-BELLEVUE
-
-Cross Streets : ELM ST * OAK ST
-(CAD Page for CFS BC120311-14) STRUCTURE FIRE
-313 N 2ND AVE
-Apt:
-HAILEY
-Cross Streets : E GALENA ST * E SILVER ST
-
-(CAD Page for CFS BC111611-42) HAZMAT NO INJURY INCIDENT
-516 N MAIN ST
-Apt:
-BELLEVUE
-Cross Streets : BEECH ST * ASH ST
-
-(CAD Page for CFS BC072511-60) FIRE-STRUCTURE
-CEDAR ST and N 4TH ST
-Apt:
-BELLEVUE
-Cross Streets : ELM ST * CEDAR ST
-
-Contact: Kelland Wolf <krswolf@gmail.com>
-
- (CAD Page for CFS BC021212-61) Convulsions-Seizures
-1160 ECHO HILL DR
-Apt: 
-HAILEY
-Cross Streets : BUTTERFLY DR * BERRYCREEK DR
+(CAD Page for CFS BC012512-12) FIRE ALARM\n314 S 7TH ST\nApt:\nBELLEVUE\nCross Streets : PINE ST * POPLAR ST
+(CAD Page for CFS BC013012-62) GAS LEAK-ODOR NO INJURY\n119 S MAIN ST\nApt:\nBELLEVUE\nCross Streets : ELM ST * OAK ST
+(CAD Page for CFS BC120311-14) STRUCTURE FIRE\n313 N 2ND AVE\nApt:\nHAILEY\nCross Streets : E GALENA ST * E SILVER ST
+(CAD Page for CFS BC111611-42) HAZMAT NO INJURY INCIDENT\n516 N MAIN ST\nApt:\nBELLEVUE\nCross Streets : BEECH ST * ASH ST
+(CAD Page for CFS BC072511-60) FIRE-STRUCTURE\nCEDAR ST and N 4TH ST\nApt:\nBELLEVUE\nCross Streets : ELM ST * CEDAR ST
+(CAD Page for CFS BC021212-61) Convulsions-Seizures\n1160 ECHO HILL DR\nApt: \nHAILEY\nCross Streets : BUTTERFLY DR * BERRYCREEK DR
 **********************************************************
 Botetourt County, VA
 Contact: Zach Beckner <zach.beckner@gmail.com>
