@@ -16,6 +16,10 @@ astudstill@co.camden.ga.us:2011-104843* 429 EAGLE BLVD* * * KINGSLAND* * PERSON 
 Contact:  Jeff <kfr438@tds.net>
 astudstill@co.camden.ga.us:2011-181161* ADVANCE COLLISION CENTER* * * KINGSLAND* * WIRE DOWN* WIRE DOWN* JOHN* 316-258-1559* ENG4,LS4* * Medical: No* Haz
 
+Contact: Scott Gregory <kfr436@gmail.com>
+Sender: astudstill@co.camden.ga.us
+astudstill@co.camden.ga.us:2012-037466* BOONE AND SUMMERBROOK* * * KINGSLAND* * INVESTIGATE* INVESTIGATE SUSPICIOUS PERSON/VEHICLE* JUAN RODRIGUEZ* 912-8
+
 */
 public class GACamdenCountyParser extends DispatchA3Parser {
   

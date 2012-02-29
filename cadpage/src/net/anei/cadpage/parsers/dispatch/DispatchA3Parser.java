@@ -16,6 +16,7 @@ astudstill@co.camden.ga.us:2011-101995* 405 & HIGHWAY 40 OLD WAFFLE HOUSE* * * K
 astudstill@co.camden.ga.us:2011-104843* 429 EAGLE BLVD* * * KINGSLAND* * PERSON SICK* PERSON SICK* * 540,ENG4,LS4* * Medical: No* Haz
 214 REDWOOD ST* * * KINGSLAND* * PERSON SICK* PERSON SICK* MS FAGEN*912-269-6157* LS3,R3* * Medical: No* Hazards: No* 
 astudstill@co.camden.ga.us:2011-181161* ADVANCE COLLISION CENTER* * * KINGSLAND* * WIRE DOWN* WIRE DOWN* JOHN* 316-258-1559* ENG4,LS4* * Medical: No* Haz
+astudstill@co.camden.ga.us:2012-037466* BOONE AND SUMMERBROOK* * * KINGSLAND* * INVESTIGATE* INVESTIGATE SUSPICIOUS PERSON/VEHICLE* JUAN RODRIGUEZ* 912-8
 
 Northampton County, NC
 S: M:Northampton911:* URIAH MARTIN RD // NEAR CEMETERY* * * CONWAY* * FIRE - BRUSH* * * * EMS3,FS20* * Medical: No* Hazards: No* * 
@@ -26,11 +27,11 @@ S: M:Northampton911:* 203 WHITE ST* * * CONWAY* * ODOR OF GAS* * * * FS20* * Med
 */
 public class DispatchA3Parser extends FieldProgramParser {
   
-  private static final Pattern DELIM = Pattern.compile("\\*(?: \\*)*");
+  private static final Pattern DELIM = Pattern.compile("\\* ?");
   
   public DispatchA3Parser(String defCity, String defState) {
     super(defCity, defState,
-           "ID? ADDR/SXP APT? CITY! CALL CALL2? ( NAME PHONE | ) UNIT! INFO+");
+           "ID? ADDR/SXP APT APT CITY! CALL CALL INFO ( UNIT! | NAME UNIT! | NAME PHONE UNIT ) INFO+");
   }
   
   @Override
@@ -50,16 +51,14 @@ public class DispatchA3Parser extends FieldProgramParser {
     }
   }
   
-  private class Call2Field extends SkipField {
+  private class MyInfoField extends InfoField {
     
     @Override
-    public boolean canFail() {
-      return true;
-    }
-    
-    @Override
-    public boolean checkParse(String field, Data data) {
-      return (field.equalsIgnoreCase(data.strCall));
+    public void parse(String field, Data data) {
+      if (field.toUpperCase().startsWith(data.strCall.toUpperCase())) {
+        field = field.substring(data.strCall.length()).trim();
+      }
+      super.parse(field, data);
     }
   }
   
@@ -73,45 +72,14 @@ public class DispatchA3Parser extends FieldProgramParser {
     }
   }
   
-  // Pattern that the unit field must match
-  private static final Pattern REAL_UNIT_PTN = Pattern.compile("[A-Z0-9]{1,3}[0-9](?:,[A-Z0-9]{1,4})*");
-  
-  // Name field is OK, unless it is a unit field
-  private class MyNameField extends NameField {
-    
-    @Override
-    public boolean canFail() {
-      return true;
-    }
-    
-    public boolean checkParse(String field, Data data) {
-      if (REAL_UNIT_PTN.matcher(field).matches()) return false;
-      super.parse(field, data);
-      return true;
-    }
-  }
-  
-  // Unit field must match unit pattern
-  // But if name field is empty, it can only means that this field was tried
-  // as a name field and failed because it matched the unit pattern, so we don't
-  // have to check it again
-  private class MyUnitField extends UnitField {
-    @Override
-    public void parse(String field, Data data) {
-      if (data.strName.length() > 0 && 
-          ! REAL_UNIT_PTN.matcher(field).matches()) abort();
-      super.parse(field, data);
-    }
-  }
   
   @Override
   public Field getField(String name) {
     if (name.equals("ID")) return new MyIdField();
     if (name.equals("APT")) return new MyAptField();
     if (name.equals("CITY")) return new MyCityField();
-    if (name.equals("CALL2")) return new Call2Field();
-    if (name.equals("NAME")) return new MyNameField();
-    if (name.equals("UNIT")) return new MyUnitField();
+    if (name.equals("INFO")) return new MyInfoField();
+    if (name.equals("UNIT")) return new UnitField("[A-Z0-9]{1,3}[0-9](?:,[A-Z0-9]{1,4})*", true);
     return super.getField(name);
   }
 }

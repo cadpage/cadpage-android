@@ -31,6 +31,7 @@ FRM:messaging@iamresponding.com\nSUBJ:Greater Lenox\nMSG:Falls\n400 LAMB AV #144
 FRM:messaging@iamresponding.com\nSUBJ:Greater Lenox\nMSG:MVA - Unknown\nCANAL RD , LENOX
 FRM:messaging@iamresponding.com\nSUBJ:Greater Lenox\nMSG:Chest Pain\n@THERMOLD & RMH CORPORATION (7059 HARP RD (LENOX) )
 FRM:messaging@iamresponding.com\nSUBJ:Greater Lenox\nMSG:Chest Pain\n@THERMOLD & RMH CORPORATION (7059 HARP RD (LENOX) )
+FRM:messaging@iamresponding.com\nSUBJ:Greater Lenox\nMSG:Traumatic Injuries\n@SCHOOL CANASTOTA ROBERTS ST JR SR HIGH SCHOOL (302 ROBERTS ST (CANASTOTA VILLAGE) )
 
 */
 

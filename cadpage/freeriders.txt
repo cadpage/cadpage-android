@@ -340,6 +340,7 @@ Fred Windisch (fwindisch49@gmail.com)(fwindisch@ponderosavfd.org)
 Benjamin Wagner (roanokefpd8@gmail.com)(roanokefpd8@gmail.com)
 Charles Schriver (chuckles494@gmail.com)(chuckles_co7@yahoo.com)
 Christopher Rowland (chrisprowl@gmail.com)(chrisprowl@aol.com) //$20
+Jason Winston <jasonswinston50@gmail.com> // Market Purchase
 %%11/07/2011
 Jason Baines (jebterp8411@gmail.com)(jebterps@aol.com)
 Alex Turner (rmrussia007@gmail.com)(rmrussia@hotmail.com)
@@ -1148,8 +1149,11 @@ David Prevatt (fire76man@gmail.com)(david.prevatt@yahoo.com)
 Mary Levanduski (buzzyl1513@gmail.com)(buzzymary@yahoo.com)
 %%02/27/2012
 Joseph L Corbin Jr <jcorbinjr@gmail.com> // Portage County, OH
+%%02/29/2012
+Michael Propst (fire13.mp@gmail.com)(mpropst@catawbacountync.gov) //$20
 
 // *** Insert Paid Users here ***
+
 // List of users getting free credit for 2012
 $free_2012_list
 %2012/FREE
@@ -1259,17 +1263,17 @@ $free_2012_list
 >>Jon Guffey <jpguffey9347@gmail.com>
 >>George Crosiar <george.crosiar@gmail.com>
 >>tyffany napolitano <softbalstik716@gmail.com>
-Jimmy Fink <fireman22jf@gmail.com>
-Danny Fogal <ffemt7432@gmail.com>
-Tim Young <tdyoung2578@gmail.com>
-Tom Myers <sunsetbeachweather@gmail.com>
-Danny Barton <djb1988@gmail.com>
-Eric <ericdmarshall661@gmail.com>
+>>Jimmy Fink <fireman22jf@gmail.com>
+>>Danny Fogal <ffemt7432@gmail.com>
+>>Tim Young <tdyoung2578@gmail.com>
+>>Tom Myers <sunsetbeachweather@gmail.com>
+>>Danny Barton <djb1988@gmail.com>
+>>Eric <ericdmarshall661@gmail.com>
 %%01/12/2012
-Alan Jarmon <nedhc75@gmail.com>
-Richard Knox (richardgknox1490@gmail.com)<richardgknox@yahoo.com>
-Daniel Negron <nirs2562@gmail.com>
-Shane McCleary <mccleary09@gmail.com>
+>>Alan Jarmon <nedhc75@gmail.com>
+>>Richard Knox (richardgknox1490@gmail.com)<richardgknox@yahoo.com>
+>>Daniel Negron <nirs2562@gmail.com>
+>>Shane McCleary <mccleary09@gmail.com>
 "edward.ottati@hotmail.com" (edward.ottati@gmail.com)<edward.ottati@hotmail.com>
 "Jderbyshire" <flashover520@gmail.com>
 Julie <spoiled96brat@gmail.com>
@@ -1579,3 +1583,13 @@ Matt Coane <mattcoane@gmail.com>
 Kyle Morris (wildlandfire09@gmail.com)<kyle.morris@montgomerycountync.com>
 "Eberhart, Bruce" <beberhart@mobilemedical.org>
 EVAN ZOOG (ejzoog@gmail.com)<ejzoog@verizon.net>
+%%02/28/2012
+"schaffau@aol.com" (dschaffauer@gmail.com)<schaffau@aol.com>
+Kyle Cashel <kcashel@gmail.com>
+uncle moo <unclemoo4@gmail.com>
+Kimberlie Turner <kimberlieturner20@gmail.com>
+%%02/29/2012
+Scott Gregory <kfr436@gmail.com>
+Jamie Harris <firefighter751@gmail.com>
+Marie Reed <marieelouisereed@gmail.com>
+Darryl Falls (dfalls7412@gmail.com)<ifldarryl@yahoo.com>
