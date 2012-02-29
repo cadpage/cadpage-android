@@ -194,11 +194,14 @@ public class C2DMReceiver extends BroadcastReceiver {
     if (ackURL == null) ackReq = null;
     if (ackReq == null) ackReq = "";
     
+    String callId = intent.getStringExtra("call_id");
+    String serverTime = intent.getStringExtra("unix_time");
     String infoUrl = intent.getStringExtra("info_url"); 
     
     SmsMmsMessage message = 
       new SmsMmsMessage(from, subject, content, timestamp,
-                        location, vendorCode, ackReq, ackURL, infoUrl);
+                        location, vendorCode, ackReq, ackURL, 
+                        callId, serverTime, infoUrl);
     
     // Add to log buffer
     if (!SmsMsgLogBuffer.getInstance().add(message)) return;
