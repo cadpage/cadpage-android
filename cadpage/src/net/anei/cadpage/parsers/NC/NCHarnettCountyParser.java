@@ -33,13 +33,16 @@ B1201-004551*11 BROOK LN*****EMS ABD PAIN*********
 Contact: Chris McCormick <mac3295@gmail.com>
 FRM:cadpage@harnett.org\nMSG:1201-006955*2802 WALKER RD***LINDEN**FIRE RES STR*********
 
+Contact: Roy Gibbs <boham29@gmail.com>
+1202-017757*137 MERCHANT DR***ANGIER**EMS BACK PN*******Hazards: No**
+
 */
 
 public class NCHarnettCountyParser extends FieldProgramParser {
   
   public NCHarnettCountyParser() {
     super(CITY_LIST, "HARNETT COUNTY", "NC",
-           "ID ADDR CITY? CALL! SEQ");
+           "ID ADDR CITY? CALL!");
   }
   
   @Override
@@ -60,16 +63,9 @@ public class NCHarnettCountyParser extends FieldProgramParser {
     }
   }
   
-  private class SeqField extends SkipField {
-    public SeqField() {
-      setPattern(Pattern.compile("\\d{4}"), true);
-    }
-  }
-  
   @Override
   public Field getField(String name) {
     if (name.equals("ID")) return new MyIdField();
-    if (name.equals("SEQ")) return new SeqField();
     return super.getField(name);
   }
   
