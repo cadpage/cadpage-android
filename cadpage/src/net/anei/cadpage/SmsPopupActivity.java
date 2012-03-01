@@ -346,6 +346,9 @@ public class SmsPopupActivity extends Activity {
   // Populate views from intent
   private void populateViews(Intent intent) {
     
+    // Log startup intent
+    ContentQuery.dumpIntent(intent);
+    
     // Check to see if Cadpage is operating in restricted mode, and if it is
     // launch the donation status menu.  We'll check the donation status again
     // when this menu is closed

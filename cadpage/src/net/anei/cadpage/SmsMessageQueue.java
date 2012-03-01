@@ -119,6 +119,10 @@ public class SmsMessageQueue implements Serializable {
     // years.  Sounds unlikely, but we must at least consider the possibility
     if (nextMsgId < 0) clearAll();
     
+    // Log new message ID while we are trying to track a mysterious problem
+    // where Cadpage occasionally brings up a wrong or inappropriate message
+    Log.w("New Mesage " + nextMsgId + ": " + msg.getMessageBody());
+    
     // Assign next msg ID
     msg.setMsgId(nextMsgId++);
     

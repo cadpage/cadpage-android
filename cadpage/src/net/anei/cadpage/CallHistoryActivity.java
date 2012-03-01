@@ -85,6 +85,9 @@ public class CallHistoryActivity extends ListActivity {
    */
   private void startup() {
     Intent intent = getIntent();
+    
+    // Log intent for debug purposes
+    ContentQuery.dumpIntent(intent);
 
     // We do some special processing if the intent was launched by the user
     // instead of through some internal trigger.
