@@ -1019,6 +1019,11 @@ S:Dispatch Center M:11-004602 GENERAL MEDICAL/AMBULANCE\n33618 MILL CREEK RD\n32
 S:Dispatch Center M:11-004682 GENERAL MEDICAL/AMBULANCE\n208 N 12 ST\nSTATE ST / PARK ST/\nMEDICAL ASSOCIATES OF BELLEVUE  BELLEVUE\nBEA1\n\n\n
 S:Dispatch Center M:11-004692 MOTOR VEH ACCIDENT W/INJURIES\nE 1 ST/ N MAIN ST\nST DONATUS\n49 8 BEA1 BEA2 BEF1\n\n\n
 ***************************************************************************
+Polk County, IA (IAPolkCountyParser)
+.... (Grimes) Location: 500 S JAMES ST GRIM: @SCHOOL - GRIM Type: STILL VEHICLE Caller:  Time: 19:47:24
+.... (Grimes) Location: 101 SE DESTINATION DR GRIMES Type: MEDICAL  Caller: GRIMES FAMILY PHYSICIANS Time: 10:54:07
+.... (Grimes) Location: 200 SW BROOKSIDE DR GRIM,111 Type: MEDICAL  Caller: KENNYBROOK VILLAGE Time: 13:42:46
+***************************************************************************
 Pottawattamie county, IA (IAPottawattamieCountyParser)
 [1700]  17-11-339 11/23 08:32\n20595 MCPHERSON AV, POTT COUNTY\nFIRE - WEED GRASS FIRE\nXST: STATE ORCHARD RD//SUNNYDALE RD 
 [1700]  17-11-338 11/21 17:33\n3000 RISEN SON BV, POTT COUNTY\nEMS/FIRE - UNCONCIOUS/FAINTING\nXST: VIRGINIA HILLS RD//
@@ -3986,14 +3991,6 @@ HAMBDEN FD RESCUE NEEDED AT 14050 GAR HWY FOR A 21 YOM IN AND OUT OF CONCIOUSNES
 2nd Page for FIU to 15279 Hemlock Point Russell Twp for the Structure Fire.
 **********************************************************
 **********************************************************
-Polk County, IA (Grimes Fire & Rescue)
-Contact: angela brouwer <abrouwerdcg@gmail.com>
-Sender: 777129998926
-.... (Grimes) Location: 500 S JAMES ST GRIM: @SCHOOL - GRIM Type: STILL VEHICLE Caller:  Time: 19:47:24
-.... (Grimes) Location: 101 SE DESTINATION DR GRIMES Type: MEDICAL  Caller: GRIMES FAMILY PHYSICIANS Time: 10:54:07
-.... (Grimes) Location: 200 SW BROOKSIDE DR GRIM,111 Type: MEDICAL  Caller: KENNYBROOK VILLAGE Time: 13:42:46
-.... (Grimes) Location: 5555 NW 55TH AVE JOHN: @CHILDSERVE - JOHN Type: COMMFIRE ALARM Caller: ADT/DBI Time: 17:01:43
-.... (Grimes) Location: 2555 W 1ST ST GRIM: @DALLAS CENTER GRIMES HIGH SCHOOL - GRIM Type: COMMFIRE ALARM Caller: ADT Time: 20:37:32
 **********************************************************
 **********************************************************
 **********************************************************

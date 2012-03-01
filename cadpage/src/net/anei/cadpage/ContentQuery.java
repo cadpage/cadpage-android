@@ -113,7 +113,7 @@ public class ContentQuery {
     Log.w("Action:" + intent.getAction());
     Log.w("Categories:");
     if (intent.getCategories() != null) {
-      for (String str : intent.getCategories()) Log.v("  " + str);
+      for (String str : intent.getCategories()) Log.w("  " + str);
     }
     Log.w("Type:" + intent.getType());
     Log.w("Comp:" + intent.getComponent().getClassName());
