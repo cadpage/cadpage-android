@@ -361,10 +361,18 @@ public class ALDothanParserTest extends BaseParserTest {
         "CITY:REHOBETH",
         "PLACE:REHOBETH FIRE & RESCUE (NEW)/RRSA/TEST CALL ONLY--DO NOT RESPOND");
 
+    doTest("T40",
+        "12:43:12/S38B-Medical Call-Code III-Emergy/803 CHINOOK ST/DOTHAN/13956428/MALE SUBJ SOB/",
+        "CALL:S38B-Medical Call-Code III-Emergy",
+        "ADDR:803 CHINOOK ST",
+        "CITY:DOTHAN",
+        "ID:13956428",
+        "INFO:MALE SUBJ SOB");
+
   }
   
   
   public static void main(String[] args) {
-    new ALDothanParserTest().generateTests("T39");
+    new ALDothanParserTest().generateTests("T1");
   }
 }
