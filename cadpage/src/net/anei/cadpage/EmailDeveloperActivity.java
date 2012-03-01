@@ -126,7 +126,7 @@ public class EmailDeveloperActivity extends Activity {
     }
   }
   
-  public static void sendEmailRequest(Context context, EmailType type, 
+  public static void sendEmailRequest(final Context context, final EmailType type, 
                                         boolean includeMsg, int msgId,
                                         boolean includeCfg) {
     
@@ -159,15 +159,37 @@ public class EmailDeveloperActivity extends Activity {
     // If configuration info requested, add that as well
     if (includeCfg) {
       ManagePreferences.addConfigInfo(context, body);
-      HttpService.appendLog(body);
+      // HttpService.appendLog(body);
       UserAcctManager.instance().addAccountInfo(body);
     }
     
+    final String message = body.toString();
+    
+    // If config info was requested, include any Cadpage log information
+    if (includeCfg) {
+      final String vendorEmail2 = vendorEmail;
+      new LogCollector("time", null, "CadPage:V"){
+        @Override
+        void collectLog(String logBuffer) {
+          sendEmailRequest(context, type, vendorEmail2,
+                           message + "\nLog Buffer:\n" + logBuffer);
+        }
+      };
+    } else {
+      sendEmailRequest(context, type, vendorEmail, message);
+    }
+    
+  }
+
+  private static void sendEmailRequest(Context context, EmailType type,
+                                         String vendorEmail, String message) {
+    
     // If user is a developer, log the message contents.  This helps get
     // the info on emulators where no email clients are available
-    String message = body.toString();
+    // But, we have to surround this with start and end log markers so the log
+    // collector won't pick it up and report it a second time
     if (DeveloperToolsManager.instance().isDeveloper(context)) {
-      Log.w(message);
+      Log.w(LogCollector.START_MARKER + '\n' + message + '\n' + LogCollector.END_MARKER);
     }
     
     // Build send email intent and launch it
@@ -187,7 +209,6 @@ public class EmailDeveloperActivity extends Activity {
     intent.setType("message/rfc822");
     context.startActivity(Intent.createChooser(
         intent, context.getString(R.string.pref_sendemail_title)));
-    
   }
   
   
