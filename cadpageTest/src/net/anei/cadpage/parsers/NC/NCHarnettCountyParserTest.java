@@ -110,9 +110,16 @@ public class NCHarnettCountyParserTest extends BaseParserTest {
         "CITY:FUQUAY VARINA",
         "CALL:FIRE RES STR");
 
+    doTest("T5",
+        "1202-017757*137 MERCHANT DR***ANGIER**EMS BACK PN*******Hazards: No**",
+        "ID:1202-017757",
+        "ADDR:137 MERCHANT DR",
+        "CITY:ANGIER",
+        "CALL:EMS BACK PN");
+
   }
 
   public static void main(String[] args) {
-    new NCHarnettCountyParserTest().generateTests("T3");
+    new NCHarnettCountyParserTest().generateTests("T1");
   }
 }
