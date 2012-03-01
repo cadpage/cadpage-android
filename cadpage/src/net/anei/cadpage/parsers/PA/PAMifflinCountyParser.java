@@ -1,9 +1,7 @@
 package net.anei.cadpage.parsers.PA;
 
-import java.util.Properties;
-
-import net.anei.cadpage.parsers.MsgParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.dispatch.DispatchA4Parser;
 
 /*  
 Mifflin County, PA
@@ -26,12 +24,7 @@ Sender: cmessages@co.mifflin.pa.us
 
 */
 
-public class PAMifflinCountyParser extends MsgParser {
-
-  private static final String[] FIXED_KEYS = new String[]{"CALL", "LOC", "TOWN"};
-  private static final MatchList TOWNSHIPS = new MatchList(new String[]{
-      "ARMAGH", "BRATTON", "BROWN", "DECATUR", "DERRY", "GRANVILLE", "MENNO", "OLIVER", "UNION", "WAYNE"
-  });
+public class PAMifflinCountyParser extends DispatchA4Parser {
   
   public PAMifflinCountyParser() {
     super("MIFFLIN COUNTY", "PA");
@@ -44,25 +37,12 @@ public class PAMifflinCountyParser extends MsgParser {
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
-    
-    if (!subject.startsWith("CAD Page for CFS ")) return false;
-    data.strCallId = subject.substring(17).trim();
-    
-    Properties props = parseMessage(body, "\n", FIXED_KEYS);
-    
-    data.strCall = props.getProperty("CALL");
-    if (data.strCall == null) return false;
-    
-    String sAddr = props.getProperty("LOC");
-    if (sAddr == null) return false;
-    parseAddress(sAddr, data);
-    
-    data.strCity = props.getProperty("TOWN", "");
+    if (! super.parseMsg(subject, body, data)) return false;
     if (TOWNSHIPS.contains(data.strCity)) data.strCity += " TWP"; 
-    
-    data.strApt = props.getProperty("Apt", "").replaceAll("/", "");
-    data.strCross = props.getProperty("Cross Streets", "");
-    
     return true;
   }
+
+  private static final MatchList TOWNSHIPS = new MatchList(new String[]{
+      "ARMAGH", "BRATTON", "BROWN", "DECATUR", "DERRY", "GRANVILLE", "MENNO", "OLIVER", "UNION", "WAYNE"
+  });
 }

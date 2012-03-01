@@ -947,7 +947,12 @@ WHITFIELD CO. 911:F12 SF-COMMERCIAL/INDUSTRIAL/SCHOO 1812 KIMBERLY PARK DR 42371
 WHITFIELD CO. 911:50I M.V. ACCIDENT W/INJURIES I 75 SB MM 333 6789341809
 WHITFIELD CO. 911:F15 FIRE ALARM 1220 BROADRICK DR 7062758899 ALARM ASSIGN 1-3
 ***************************************************************************
-Kootenai County, ID
+Blaine County, ID (IDBlaineCountyParser)
+(CAD Page for CFS BC012512-12) FIRE ALARM\n314 S 7TH ST\nApt:\nBELLEVUE\nCross Streets : PINE ST * POPLAR ST
+(CAD Page for CFS BC013012-62) GAS LEAK-ODOR NO INJURY\n119 S MAIN ST\nApt:\nBELLEVUE\nCross Streets : ELM ST * OAK ST
+(CAD Page for CFS BC120311-14) STRUCTURE FIRE\n313 N 2ND AVE\nApt:\nHAILEY\nCross Streets : E GALENA ST * E SILVER ST
+***************************************************************************
+Kootenai County, ID (IDKootenaiCountyParser)
 KOOTENAI COUNTY SHERIFF KCFR\nFIRE STRUCTURE \n1576 W TUALATIN DR\nF1A  \nF1V\nOPS1 \nVISIBLE FLAMES    IN GARAGE\n13:12:17 04/30/2011 - T.TAYLOR\nRES IS UNOCC\n13:12:50 04/30/2011 - T.TAYLOR\nVEH IN GARAGE    RP SAYS HER HOUSE IS GOING TO BLOW UP\n13:13:00 04/30/2011 - D.WILSON       \nFLAME\nSent by CLI  Sat Apr 30 13:16:15 2011\n0000 Confirm 0001 Refuse TXT STOP to opt-out
 HAUS\nACCIDENT INJURY\nN WATERFORD LOOP & N HAUSER LAKE RD\nGW7A \nB751\nOPS4 \nMC ACCIDENT    WENT OFF RDWY    CAB    POSS BROKEN COLLARS     CUTS ON FACE   \nCONTROLLED
 KCFR\nFIRE STRUCTURE \nN SMITH LN & E MULLAN AVE\nF1C  \nF1V\nOPS1 \nTRAILER FULLY ENGULFED ON SMITH RD JUST OFF MULLAN   FLAMES FROM WINDOWS AND\nROOF \n10:49:32 05/28/20
@@ -3989,17 +3994,6 @@ Sender: 777129998926
 .... (Grimes) Location: 5555 NW 55TH AVE JOHN: @CHILDSERVE - JOHN Type: COMMFIRE ALARM Caller: ADT/DBI Time: 17:01:43
 .... (Grimes) Location: 2555 W 1ST ST GRIM: @DALLAS CENTER GRIMES HIGH SCHOOL - GRIM Type: COMMFIRE ALARM Caller: ADT Time: 20:37:32
 **********************************************************
-Blaine County, ID
-Contact: Jamie Hoover <hooverj18@gmail.com>
-Contact: Kelland Wolf <krswolf@gmail.com>
-Sender: ldispatch@co.blaine.id.us
-
-(CAD Page for CFS BC012512-12) FIRE ALARM\n314 S 7TH ST\nApt:\nBELLEVUE\nCross Streets : PINE ST * POPLAR ST
-(CAD Page for CFS BC013012-62) GAS LEAK-ODOR NO INJURY\n119 S MAIN ST\nApt:\nBELLEVUE\nCross Streets : ELM ST * OAK ST
-(CAD Page for CFS BC120311-14) STRUCTURE FIRE\n313 N 2ND AVE\nApt:\nHAILEY\nCross Streets : E GALENA ST * E SILVER ST
-(CAD Page for CFS BC111611-42) HAZMAT NO INJURY INCIDENT\n516 N MAIN ST\nApt:\nBELLEVUE\nCross Streets : BEECH ST * ASH ST
-(CAD Page for CFS BC072511-60) FIRE-STRUCTURE\nCEDAR ST and N 4TH ST\nApt:\nBELLEVUE\nCross Streets : ELM ST * CEDAR ST
-(CAD Page for CFS BC021212-61) Convulsions-Seizures\n1160 ECHO HILL DR\nApt: \nHAILEY\nCross Streets : BUTTERFLY DR * BERRYCREEK DR
 **********************************************************
 Botetourt County, VA
 Contact: Zach Beckner <zach.beckner@gmail.com>
