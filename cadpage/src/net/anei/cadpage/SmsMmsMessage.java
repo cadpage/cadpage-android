@@ -82,11 +82,12 @@ public class SmsMmsMessage implements Serializable {
   private String ackURL = null;
   private boolean ackNeeded = false;
   private String infoURL = null;
+  private String callId = null;
+  private String serverTime = null;
   
   // Temporary fields being monitored to see if they will be of any
   // use in identifying multi-part messages
   private long sentTime = 0L;
-  private int iccIndex = 0;
   
   private transient Message parseInfo = null;
 
@@ -153,7 +154,6 @@ public class SmsMmsMessage implements Serializable {
     fromAddress = sms.getDisplayOriginatingAddress();
     messageClass = sms.getMessageClass();
     sentTime = sms.getTimestampMillis();
-    iccIndex = sms.getIndexOnIcc();
 
     String body;
     if (messages.length == 1 || sms.isReplace()) {
@@ -240,6 +240,8 @@ public class SmsMmsMessage implements Serializable {
     this.vendorCode = vendorCode;
     this.ackReq = ackReq;
     this.ackURL = ackURL;
+    this.callId = callId;
+    this.serverTime = serverTime;
     this.infoURL = infoURL;
     this.ackNeeded = ackReq.contains("A");
     this.parseInfo = bldParseInfo();
@@ -286,7 +288,6 @@ public class SmsMmsMessage implements Serializable {
     this.messageType = firstMsg.messageType;
     this.messageClass = firstMsg.messageClass;
     this.sentTime = firstMsg.sentTime;
-    this.iccIndex = firstMsg.iccIndex;
 
     for (SmsMmsMessage msg : list) {
       if (msg != null) {
@@ -984,6 +985,11 @@ public class SmsMmsMessage implements Serializable {
     sb.append("\nackURL");
     sb.append(ackURL);
     
+    sb.append("\nCall ID:");
+    sb.append(callId);
+    sb.append("\nServer Time:");
+    sb.append(serverTime);
+    
     if (getMsgCount() >= 0) {
       sb.append("\nMsgIndex:");
       sb.append(getMsgIndex());
@@ -995,9 +1001,6 @@ public class SmsMmsMessage implements Serializable {
     sb.append(sentTime);
     sb.append("\nRec time: ");
     sb.append(timestamp);
-    sb.append("\nICC Index:");
-    sb.append(iccIndex);
-    
     
     sb.append('\n');
   }
