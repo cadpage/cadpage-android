@@ -1204,6 +1204,11 @@ CAD MSG: *D A3   57       HANSON BLVD NW / ANDOVER BLVD NW  NE CORNER..SMOKE/CHA
 CAD MSG: *D A3   39F      17844 XEON ST NW  FIRE ALARM... SMOKE OR HEAT UPSTAIRS OR IN GARAGE... SMALL DOG ONSITE INC:10019638  
 CAD MSG: *D A3   45F      14950 HANSON BLVD NW @ANDOVER ELEMENTARY  PLANNED FIRE DRILL AT 1330 ... WILL CALL BACK WHEN COMPLETE INC:10019627   
 ***************************************************************************
+Hennepin county, MN (MNHennepinCountyParser)
+NAME-KENDRA;  LOC-4001 STINSON BLVD NE [#404;  EVTYPE-STROKE;  COMMENTS-POSSIBLE STROKE --- USE MAIN ENTRANCE TO THE 4TH FL
+NAME-BRINATTE,HELEN;  LOC-2626 KENZIE TER [#114 [@WALKER ON KENZIE APT;  EVTYPE-ILL;  COMMENTS-2626 KENZIE TER : cross stre
+NAME-;  LOC-2600 39TH AVE NE [#100 [@SILVER LAKE CLINIC;  EVTYPE-BREATH;  COMMENTS-2600 39TH AVE NE : cross streets : SILVE
+***************************************************************************
 Jefferson County, MO (MOJeffersonCountyParser)
 Location: @PACIFIC STATION 2 Call Type: MOVEUP MUP Comments: 7376 HIGHWAY O RP's Address: Pri: 4 Area: 77 Disp: 7724
 Location: 16 SYCAMORE GREEN ACRES CNTY Call Type: STILL CHKBLDG Comments: CARD 77272 MAP 77 RP's Address: 16 SYCAMORE GREEN ACRES Pri: 3 Area: 77 Disp: 7710
@@ -1214,10 +1219,10 @@ Johnson County, MO (MOJohnsonCountyParser)
 [ 911 Page ] Dispatch: 7/20/2011 19:24:58 FIRE VEHCILE 793 NE 101 RD JOHNSON COUNTY MO
 [ 911 Page ] Dispatch: 7/18/2011 22:25:03 FIRE GRASS SE DD HWY & SE 341 RD JOHNSON COUNTY
 ***************************************************************************
-Hennepin county, MN (MNHennepinCountyParser)
-NAME-KENDRA;  LOC-4001 STINSON BLVD NE [#404;  EVTYPE-STROKE;  COMMENTS-POSSIBLE STROKE --- USE MAIN ENTRANCE TO THE 4TH FL
-NAME-BRINATTE,HELEN;  LOC-2626 KENZIE TER [#114 [@WALKER ON KENZIE APT;  EVTYPE-ILL;  COMMENTS-2626 KENZIE TER : cross stre
-NAME-;  LOC-2600 39TH AVE NE [#100 [@SILVER LAKE CLINIC;  EVTYPE-BREATH;  COMMENTS-2600 39TH AVE NE : cross streets : SILVE
+Festus, MO (MOFestus)
+(call) FIRE / BRUSH / 2819 NORTH SELMA ROAD JEFFCO/R7 /DOOLING HO /EMS /6610 /jpad brush with exposer R-7 FD720146 /JPAD 603031
+(call) FIRE/10-50 J-2/ STATE RD CC JEFFCO/FESTUS FIRE / HWY 67 /FIRE DEP /H4 FI H1 FESTUS  FD66651 / JPAD H4 FI H1
+S:Call M:FIRE / MUTUAL AID / 12532 STATE RD TT JEFFCO/R-7 / R7SCHOOLRD / EMS / H3 FI H1 / BRUSH ENDANGERING A STRUCTURE/ 66 14 6037 \nR-7 FD720096 / JPAD H3 FI H1\n
 ***************************************************************************
 Jefferson City, MO (MOJeffersonCityParser)
 Subject:DONOTREPLY\nSnyder, Jodi 14:00 Medical Emergency 718 MICHIGAN -Cross Streets- LOUISIANA AVE / MISSOURI BLVD E1   CONSCIOUS  OUTSID
@@ -3980,25 +3985,6 @@ Fire Depts are needed at Twilight Stables in the horse barn at 12759 Mill View L
 HAMBDEN FD RESCUE NEEDED AT 14050 GAR HWY FOR A 21 YOM IN AND OUT OF CONCIOUSNESS POSSIBLE ALLERGIC REACTION 2800/BMR
 2nd Page for FIU to 15279 Hemlock Point Russell Twp for the Structure Fire.
 **********************************************************
-Festus, MO (in Jefferson County)
-Contact: Tim Mullins <tmullinsaco@yahoo.com>
-Sender: JBITTER@CITYOFFESTUS.ORG
-System: ITI
-
-S:Call M:FIRE / 10-50 J-2 / STATE RD CC JEFFCO/FESTUS FIRE / HWY 67 / FIRE DEPT / H4 FI H1 / FESTUS FD66651 / JPAD H4 FI H1\n\n\n
-(call) FIRE / BRUSH / 2819 NORTH SELMA ROAD JEFFCO/R7 /DOOLING HO /EMS /6610 /jpad brush with exposer R-7 FD720146 /JPAD 603031
-FIRE/10-50 J-2/ STATE RD CC JEFFCO/FESTUS FIRE / HWY 67 /FIRE DEP /H4 FI H1 FESTUS  FD66651 / JPAD H4 FI H1
-S:Call M:FIRE / MUTUAL AID / 12532 STATE RD TT JEFFCO/R-7 / R7SCHOOLRD / EMS / H3 FI H1 / BRUSH ENDANGERING A STRUCTURE/ 66 14 6037 \nR-7 FD720096 / JPAD H3 FI H1\n
-
-4th field has me stumped?? values are
-FESTUS FIRE = this is the Dep that I am on 
-R7 = Jefferson R7 Fire Dep. 
-R-7
-
-5th field ???? values are
-HWY 67
-DOOLING HO = this was the RD the call was on 
-R7SCHOOLRD = cross St.
 **********************************************************
 Polk County, IA (Grimes Fire & Rescue)
 Contact: angela brouwer <abrouwerdcg@gmail.com>
