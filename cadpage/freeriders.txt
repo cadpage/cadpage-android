@@ -1160,6 +1160,8 @@ $paid_2013_list
 %2013
 %%03/01/2012
 Michael Krott(krott.michael@gmail.com)
+%%03/02/2012
+Nick Thiele(thiele.nick@gmail.com)
 
 // List of users getting free credit for 2012
 $free_2012_list
@@ -1296,7 +1298,7 @@ $free_2012_list
 >>Greg Petruccelli <mridea314@gmail.com>
 >>David Hendershott <davandreb@gmail.com>
 >>Todd Gorter (toddgorter@gmail.com)<toddco.mapskc@gmail.com>
-"DJ Freeman" (djfreeman427@gmail.com)<djfreeman427@yahoo.com>
+>>"DJ Freeman" (djfreeman427@gmail.com)<djfreeman427@yahoo.com>
 James Griffiths <griffballs72@gmail.com>
 %%01/14/2012
 "Jaime B " (jaime101889@gmail.com)<jaime1018@msn.com>
