@@ -1046,8 +1046,8 @@ Daniel Marlow (marlow4030@gmail.com)<dmarlow4030@gmail.com>
 
 // List of users getting credit for 2012
 $paid_2012_list
-Robert Tripe <rmtripe@gmail.com>
 %2012
+Robert Tripe <rmtripe@gmail.com>
 Christopher Rowland (chrisprowl@gmail.com)(chrisprowl@aol.com)
 Samuel K Anders (sam@samanderscpa.com)(skacpa@bellsuth.net)
 Stephen Kelly (kelgar63@gmail.com)(skelly07@twcny.rr.com) 
@@ -1154,6 +1154,12 @@ Joseph L Corbin Jr <jcorbinjr@gmail.com> // Portage County, OH
 Daniel A. Perry (dapiv2@gmail.com)<DAP634@students.jwu.edu> // Hanover, NH
 
 // *** Insert Paid Users here ***
+
+// List of users getting credit for 2013
+$paid_2013_list
+%2013
+%%03/01/2012
+Michael Krott(krott.michael@gmail.com)
 
 // List of users getting free credit for 2012
 $free_2012_list
@@ -1289,7 +1295,7 @@ $free_2012_list
 %%01/13/2012
 >>Greg Petruccelli <mridea314@gmail.com>
 >>David Hendershott <davandreb@gmail.com>
-Todd Gorter (toddgorter@gmail.com)<toddco.mapskc@gmail.com>
+>>Todd Gorter (toddgorter@gmail.com)<toddco.mapskc@gmail.com>
 "DJ Freeman" (djfreeman427@gmail.com)<djfreeman427@yahoo.com>
 James Griffiths <griffballs72@gmail.com>
 %%01/14/2012

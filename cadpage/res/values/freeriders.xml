@@ -460,6 +460,9 @@
     <item>f3caf96cb79dbac8a7f47ad3156818a5</item>  <!-- Wayne Crider -->
     <item>f7030bad074cf282d80f1a8860972fc0</item>  <!-- Kevin Flynn -->
   </string-array>
+  <string-array name="paid_2013_list">
+    <item>da3ecd948fc930b1f7817b92de91a88b</item>  <!-- Michael Krott -->
+  </string-array>
   <string-array name="free_2012_list">
     <item>003c98126f4ee80aa1f81e6c1c391ea4</item>  <!-- Rob Waldron -->
     <item>0130ede5d6d88b05ea2665640851c7d8</item>  <!-- Steve Walker100049@ -->
@@ -519,7 +522,6 @@
     <item>2c82a058ed50fa336a7aa9dee46e2aff</item>  <!-- Chris Gallway -->
     <item>2cde50a103fcebb79bb1685c7723a41a</item>  <!-- Ryan McCaffery -->
     <item>2d08211b3993c75f94c5984e8e55b97e</item>  <!-- Steven Moreland -->
-    <item>2dbb78821c70daa1fce35d0ff67a3131</item>  <!-- Todd Gorter -->
     <item>2df1ffd8e483d4e103279c39c7137a37</item>  <!-- Kurt Miller -->
     <item>2ed0d016d40ec21720d04bdc8ce1042b</item>  <!-- Kevin Wood -->
     <item>3019888686835524758bc1e7997d223b</item>  <!-- Jacob Dively -->

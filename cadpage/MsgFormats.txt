@@ -4075,7 +4075,7 @@ System: Cardinal CAD SE
 Sampson County, NC
 Contact: "klee@intrstar.net" <klee@intrstar.net>
 Sender: EMS@sampsonnc.com
-DispatchA3??
+DispatchA3
 
 EMS:2012-013061* 2280 HOBBTON HWY* * * CLINTON* WEDGEWOOD LN* BUMPY LN* K12* * ABDOMINAL* ABDOMINAL PAIN* CSRS,EMS79* 1328A* Medical: No* Hazards:  
 EMS:2012-013062* 219 W CARTER ST* * * CLINTON* BARDEN ST* BUNTING ST* L11* * BREATH DIFF* BREATHING DIFFICULTIES* CSRS,EMS75* 1379* Medical: No* Hazards: No* 02/2
