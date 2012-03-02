@@ -91,7 +91,7 @@ public class ALColbertCountyParserTest extends BaseParserTest {
     doTest("T4",
         "[E911] MVC WITHOUT INJURY\nJJS\n",
         "CALL:MVC WITHOUT INJURY",
-        "NAME:JJS");
+        "ADDR:JJS");
     
   }
   
