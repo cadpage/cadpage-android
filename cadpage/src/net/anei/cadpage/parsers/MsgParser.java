@@ -508,6 +508,23 @@ public abstract class MsgParser {
    }
    return props;
  }
+ 
+ /**
+  * Determine if this is a personal name or a place name
+  * @param field field to be checked
+  * @return true if should be place name, false if a personal name
+  */
+ protected static boolean checkPlace(String field) {
+   if (field.contains(",")) return false;
+   if (field.toUpperCase().startsWith("MR")) return false;
+   int cnt = 0;
+   char last = 'X';
+   for (char chr : field.toCharArray()) {
+     if (chr == ' ' && last != ' ') cnt++;
+     last = chr;
+   }
+   return cnt >= 2;
+ }
 
  /**
   * Convert any special codes in an item

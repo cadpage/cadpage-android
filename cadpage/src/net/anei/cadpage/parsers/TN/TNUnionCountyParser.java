@@ -1,10 +1,6 @@
 package net.anei.cadpage.parsers.TN;
 
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-
-import net.anei.cadpage.parsers.FieldProgramParser;
-import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.dispatch.DispatchGeoconxParser;
 
 /* 
 Union County, TN
@@ -48,66 +44,14 @@ S:E911 M:TREE IN ROADWAY\nSHARON COLLINS 8653567818\n143 RACCOON VALLEY RD, MAYN
 
  */
 
-public class TNUnionCountyParser extends FieldProgramParser {
+public class TNUnionCountyParser extends DispatchGeoconxParser {
   
   public TNUnionCountyParser() {
-    super("UNION COUNTY", "TN",
-           "CALL NAMEPH ADDR INFO+");
+    super("UNION COUNTY", "TN");
   }
   
   @Override
   public String getFilter() {
     return "dispatch@911email.net";
-  }
-
-  @Override
-  protected boolean parseMsg(String subject, String body, Data data) {
-    
-    if (!subject.equals("E911")) return false;
-    return parseFields(body.split("\n"), data);
-  }
-  
-  // Name & Phone field
-  private static final Pattern PHONE_PTN = Pattern.compile("\\b\\d+$");
-  private class NamePhoneField extends Field {
-    
-    @Override
-    public void parse(String field, Data data) {
-      Matcher match = PHONE_PTN.matcher(field);
-      if (match.find()) {
-        data.strPhone = match.group();
-        field = field.substring(0,match.start()).trim();
-      }
-      data.strName = field;
-    }
-    
-    @Override
-    public String getFieldNames() {
-      return "NAME PHONE";
-    }
-  }
-
-  // Address, City field
-  private class MyAddressField extends AddressField {
-    
-    @Override
-    public void parse(String field, Data data) {
-      Parser p = new Parser(field);
-      data.strCity = p.getLastOptional(',');
-      super.parse(p.get(','), data);
-      data.strApt = p.get();
-    }
-    
-    @Override
-    public String getFieldNames() {
-      return "ADDR APT CITY";
-    }
-  }
-  
-  @Override
-  public Field getField(String name) {
-    if (name.equals("NAMEPH")) return new NamePhoneField();
-    if (name.equals("ADDR")) return new MyAddressField();
-    return super.getField(name);
   }
 }

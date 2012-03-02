@@ -1817,6 +1817,32 @@ public class FieldProgramParser extends SmartAddressParser {
   }
 
   /**
+   * Place/Name field processor
+   * Handles a field that could be either a pesonal or public place name
+   */
+  public class PlaceNameField extends Field {
+    
+    public PlaceNameField() {};
+    public PlaceNameField(String pattern) {
+      super(pattern);
+    }
+    public PlaceNameField(String pattern, boolean hardPattern) {
+      super(pattern, hardPattern);
+    }
+
+    @Override
+    public void parse(String field, Data data) {
+      if (checkPlace(field)) data.strPlace = field;
+      else data.strName = field;
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "NAME PLACE";
+    }
+  }
+
+  /**
    * Priority field processor
    */
   public class PriorityField extends Field {
@@ -2047,6 +2073,7 @@ public class FieldProgramParser extends SmartAddressParser {
     if (name.equals("SRC")) return new SourceField();
     if (name.equals("CODE")) return new CodeField();
     if (name.equals("NAME")) return new NameField();
+    if (name.equals("PLACENAME")) return new PlaceNameField();
     if (name.equals("PRI")) return new PriorityField();
     if (name.equals("CH")) return new ChannelField();
     if (name.equals("GPS")) return new GPSField();

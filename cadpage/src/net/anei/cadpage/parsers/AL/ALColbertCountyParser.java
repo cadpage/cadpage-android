@@ -3,11 +3,8 @@ package net.anei.cadpage.parsers.AL;
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
-import net.anei.cadpage.parsers.FieldProgramParser;
-import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.dispatch.DispatchGeoconxParser;
 
 /*
 Colbert County, AL
@@ -53,11 +50,10 @@ Contact: support@active911.com
 [E911] AMPUTATION\nADAY, SHANE 145 ADAY DR, CHEROKEE
 
 */
-public class ALColbertCountyParser extends FieldProgramParser {
+public class ALColbertCountyParser extends DispatchGeoconxParser {
   
   public ALColbertCountyParser() {
-    super("COLBERT COUNTY", "AL",
-           "CALL ( ADDR END | NAMEPH? ADDR INFO )");
+    super(CITY_SET, "COLBERT COUNTY", "AL", true);
   }
   
   @Override
@@ -68,137 +64,6 @@ public class ALColbertCountyParser extends FieldProgramParser {
   @Override
   public String getFilter() {
     return "911alert@comcast.net";
-  }
-  
-  @Override
-  protected boolean parseMsg(String subject, String body, Data data) {
-    String flds[] = body.split("\n");
-    if (!subject.equals("E911") && flds.length < 3) return false;
-    if (!parseFields(flds, data)) return false;
-    
-    // SOmetimes, what we interpreted as a name should be a place
-    if (checkPlace(data.strName)) {
-      data.strPlace = data.strName;
-      data.strName = "";
-    }
-    return true;
-  }
-  
-  /**
-   * Determine if this is a personal name or a place name
-   * @param field field to be checked
-   * @return true if should be place name
-   */
-  private boolean checkPlace(String field) {
-    if (field.contains(",")) return false;
-    if (field.toUpperCase().startsWith("MR")) return false;
-    int cnt = 0;
-    char last = 'X';
-    for (char chr : field.toCharArray()) {
-      if (chr == ' ' && last != ' ') cnt++;
-      last = chr;
-    }
-    return cnt >= 2;
-  }
-
-  private static final Pattern PHONE_PTN = Pattern.compile("\\b\\d{10}$");
-  private static final Pattern DIGIT_PTN = Pattern.compile("\\b\\d{1,7}\\b");
-  private class NamePhoneField extends Field {
-    
-    @Override
-    public boolean canFail() {
-      return true;
-    }
-    
-    @Override
-    public boolean checkParse(String field, Data data) {
-      
-      // A comma followed by a legitimate name indicates this is really an
-      // address field, which we should not recognize
-      int pt = field.lastIndexOf(',');
-      if (pt >= 0) {
-        String sCity = field.substring(pt+1).trim().toUpperCase();
-        if (CITY_SET.contains(sCity)) return false;
-      }
-      
-      // Ditto if it contains an @
-      if (field.indexOf('@') >= 0) return false;
-      
-      // Or a number with fewer than 8 digits
-      if (DIGIT_PTN.matcher(field).find()) return false;
-      
-      parse(field, data);
-      return true;
-    }
-    
-    
-    @Override
-    public void parse(String field, Data data) {
-      Matcher match = PHONE_PTN.matcher(field);
-      if (match.find()) {
-        data.strPhone = match.group();
-        field = field.substring(0,match.start()).trim();
-      }
-      data.strName = field;
-    }
-    
-    @Override
-    public String getFieldNames() {
-      return "NAME PHONE";
-    }
-  }
-  
-  private static final Pattern CITY_PTN = Pattern.compile(", *([A-Z]+ ?[A-Z]*)$", Pattern.CASE_INSENSITIVE);
-  private static final Pattern APT_PTN = Pattern.compile(", *(\\w+)$");
-  private class MyAddressField extends AddressField {
-    
-    @Override
-    public void parse(String field, Data data) {
-      field = field.replace("&&", "&");
-      
-      Matcher match = CITY_PTN.matcher(field);
-      if (match.find()) {
-        data.strCity = match.group(1).trim(); 
-        field = field.substring(0,match.start()).trim();
-      }
-      
-      match = APT_PTN.matcher(field);
-      if (match.find()) {
-        data.strApt = match.group(1);
-        field = field.substring(0,match.start()).trim();
-      }
-      
-      String tail = "";
-      int pt = field.indexOf('@');
-      if (pt >= 0) {
-        tail = field.substring(pt);
-        field = field.substring(0,pt).trim();
-      }
-      
-      StartType st = (data.strName.length() > 0 ? StartType.START_ADDR : StartType.START_PLACE);
-      parseAddress(st, FLAG_ANCHOR_END, field, data);
-      if (st == StartType.START_PLACE){ 
-        if (data.strAddress.length() == 0) {
-          data.strAddress = data.strPlace;
-        } else {
-          data.strName = data.strPlace;
-        }
-        data.strPlace = "";
-      }
-      data.strAddress = append(data.strAddress, " ", tail);
-    }
-    
-    @Override
-    public String getFieldNames() {
-      return "ADDR CITY";
-    }
-  }
-  
-  @Override
-  public Field getField(String name) {
-    if (name.equals("NAMEPH")) return new NamePhoneField();
-    if (name.equals("ADDR")) return new MyAddressField();
-    return super.getField(name);
   }
   
   private static final Set<String> CITY_SET = new HashSet<String>(Arrays.asList(new String[]{
