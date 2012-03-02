@@ -1639,6 +1639,11 @@ Randolph 911 - GRFD\nBREATHING\n5064 CROTTS DR\nSTA40\nSTA40\n10-15 JAMES KIRKMA
 Randolph 911 - GRFD\nABDOMINAL PAIN\n6242 CEDAR LN\nSTA41\nSTA41\n10-15 HOWARD PEELE..68 YO..SICKNESS AND TREMBLING...TESTICLE PAIN..ABDOMINAL\nPAIN..CONFUSED...26 D 1\n10:26:05 08/22/2011 - MCCORQUODALE, C\nPROQA WOULD NOT LAUNCH
 Randolph 911 - GRFD\nFALL\n8374 HARLOW RD;UNIT 10\nSTA41\nSTA41\nCHILTON MHP...CAILY SKEEN...87 Y/O FEMALE...KEY BEHIND THE ELECTRICAL AT THE TELEPHONE POLE INSIDE THE BLK BOX AND THE KEY IS FOR A DEAD BOLT...ABLE TO VOICE CONTACT UNK INJ
 ***************************************************************************
+Sampson County, NC (NCSampsonCountyParser)
+EMS:2012-013061* 2280 HOBBTON HWY* * * CLINTON* WEDGEWOOD LN* BUMPY LN* K12* * ABDOMINAL* ABDOMINAL PAIN* CSRS,EMS79* 1328A* Medical: No* Hazards:  
+EMS:2012-013062* 219 W CARTER ST* * * CLINTON* BARDEN ST* BUNTING ST* L11* * BREATH DIFF* BREATHING DIFFICULTIES* CSRS,EMS75* 1379* Medical: No* Hazards: No* 02/2
+EMS:2012-013047* I40 MM 343* * * NEWTON GROVE* MCLAMB RD UNDERPASS* EXIT 343 HOBBTON HWY* D11* * MVA I* MOTOR VEHICLE ACCIDENT WITH INJURIES* EMS79* 1263* Medical
+***************************************************************************
 Rutherford County, NC (NCRutherfordCountyParser)
 Paging: Location= 159 WALKER DR*\nAPT/ROOM* City=Forest City* Call \nType= FIRE STRUCT* Units=SMFD1*\nApr24,3:05am
 Paging: Location= 557 US 221A HWY*\nAPT/ROOM* City=Forest City* Call \nType= FIRE POWERLN* Units=DUKE1, SMFD1*\nApr23,4:27am
@@ -4072,47 +4077,3 @@ System: Cardinal CAD SE
 (Decatur FD) MEDICAL EMERGENCY, 147 CR 3131,  - DPD 112
 **********************************************************
 **********************************************************
-Sampson County, NC
-Contact: "klee@intrstar.net" <klee@intrstar.net>
-Sender: EMS@sampsonnc.com
-DispatchA3
-
-EMS:2012-013061* 2280 HOBBTON HWY* * * CLINTON* WEDGEWOOD LN* BUMPY LN* K12* * ABDOMINAL* ABDOMINAL PAIN* CSRS,EMS79* 1328A* Medical: No* Hazards:  
-EMS:2012-013062* 219 W CARTER ST* * * CLINTON* BARDEN ST* BUNTING ST* L11* * BREATH DIFF* BREATHING DIFFICULTIES* CSRS,EMS75* 1379* Medical: No* Hazards: No* 02/2
-EMS:2012-013047* I40 MM 343* * * NEWTON GROVE* MCLAMB RD UNDERPASS* EXIT 343 HOBBTON HWY* D11* * MVA I* MOTOR VEHICLE ACCIDENT WITH INJURIES* EMS79* 1263* Medical
-EMS:2012-013001* 91 N CHURCH AVE* * * GARLAND* W THIRD ST* W FOURTH ST* T10* * CHEST PAIN* CHEST PAIN* EMS77* 1376* Medical: No* Hazards: No* *
-EMS:2012-012994* 303 MARTIN LUTHER KING JR BLVD* * * CLINTON* WEEKS ST* SOUTHEAST BLVD* L12* * UNCONSCIOUS* UNCONSCIOUS/FAINTING* CSRS,EMS77* 1380* Medical: No* H
-EMS:2012-012960* 120 SOUTHWOOD DR* 305A* * CLINTON* SOUTH WEST BLVD* * M12* Landmark Comment: UPDATED 01/07* BREATH DIFF* BREATHING DIFFICULTIES* CSRS,EMS75* 1380
-EMS:2012-012906* 229 e MORISEY BLVD* * * CLINTON* LISBON ST* DEVANE ST* L12* * BURNS* BURNS* CSRS,EMS75* 1275* Medical: No* Hazards: No* *
-EMS:2012-012904* 134 W SECOND ST* * * GARLAND* S CHURCH AVE* BROOKS AVE* T10* * SICK CALLS* SICK CALLS* 7112* 1376* Medical: No* Hazards: No* *
-EMS:2012-012890* 2100 REEDSFORD RD* * * CLINTON* MELVABROOK DR* BILLY LN* M13,M14* * MVA I* MOTOR VEHICLE ACCIDENT WITH INJURIES* CSRS,EMS76,STA14* 1330* Medical: Comment: TRACT 10 OVERDOSE* OVERDOSE* CSRS,EMS71* 1284A* Medical: No* Hazards: No* *
-EMS:2012-012887* 249 KAYLA LN* * * CLINTON* KING RD* KING RD* I14* Geo Comment: TRACT 10 OVERDOSE* OVERDOSE* CSRS,EMS71* 1284A* Medical: No* Hazards: No* *
-EMS:2012-012877* 233 EFFIE PETERSON LN* * * ROSEBORO* PORTER RD* DEAD END* M9* * STRUCTURE FI* STRUCTURE FIRE* CSRS,EMS76* 1336* Medical: No* Hazards: No* *
-EMS:2012-012839* 4056 REEDSFORD RD* * * CLINTON* HUCKLEBERRY LN* STEVE HARRIS LN* N14,N15* * CHEST PAIN* CHEST PAIN* CSRS,EMS71* 1347A* Medical: No* Hazards: No*
-EMS:2012-012887* 249 KAYLA LN* * * CLINTON* KING RD* KING RD* I14* Geo Comment: TRACT 10 OVERDOSE* OVERDOSE* CSRS,EMS71* 1284A* Medical: No* Hazards: No* *
-EMS:2012-012838* 1498 HAWLEY RD* * OR* DUNN* FRED TEW RD* UNION GROVE CH RD* C4* * MVA I* MOTOR VEHICLE ACCIDENT WITH INJURIES* EMS72,PVRS,Z951RT* 1254C* Medical:
-EMS:2012-012833* 253 PINE OAK LN* * * DUNN* MIDWAY ELEM SCH RD* DEAD END* E6* * SICK CALLS* SICK CALLS* EMS78* 1255A* Medical: No* Hazards: No* *
-EMS:2012-012830* 203 N MAIN ST* * * SALEMBURG* CLINTON ST* CHURCH ST* K6* * BREATH DIFF* BREATHING DIFFICULTIES* EMS76* 1378* Medical: No* Hazards: No* 02/26/2012
-EMS:2012-012826* 939 SOUTHWEST BLVD* * TAC3* CLINTON* MARTIN LUTH KING BLV* * L12* * STRUCTURE FI* STRUCTURE FIRE* CSRS,EMS72,STA14,STA16,STA8* 1380* Medical: No*
-EMS:2012-012816* 301 MAIN ST* * * NEWTON GROVE* E CIRCLE ST* N CHURCH ST* C11* Landmark Comment: UPDATED 2-02* BREATH DIFF* BREATHING DIFFICULTIES* EMS71,EMS72,NG
-
-I would like for you to add a location for Sampson County, NC. The messages  
-come from email address: scems@sampsonnc.com. The messages are sent out from  
-the Sampson County 911 center for all calls for Sampson County EMS (EMS), 7  
-volunteer rescue squads: Clinton-Sampson Rescue Squad (CSRS), Garland Rescue  
-Squad (GRS), Roseboro Rescue Squad (RRS), Newton Grove Rescue Squad (NGRS),  
-Suttontown Rescue Squad (SRS), Clement Rescue Squad (CRS) and Plain View  
-Rescue Squad (PVRS) as well as 19 fire departments: Harrells (STA1), Ivanhoe  
-(STA1A), Halls (STA2), Spiveys Corner (STA3), Roseboro (STA4), Newton Grove  
-(STA5), Vanns Crossroads (STA6), Salemburg (STA7), Turkey (STA8), Plain View  
-(STA9), Clement (STA10), Garland (STA11), Autryville (STA12), Piney Grove  
-(STA13), Clinton (STA14), Herring (STA15), Taylors Bridge (STA16),  
-Godwin-Falcon (STA17) and Faison (STA18). The fire units begin with a "Z"  
-for CAD purposes with the first number for its respective department, with  
-the exception of station 1A (a substation of station 1 with shared  
-equipment). Also Godwin-Falcon (STA17) is actually a Cumberland Co, NC, and  
-Faison (STA18) is a Dupin Co, NC, department with service areas in Sampson  
-County. The CAD is VisonCAD, that's all I know from that aspect. I  
-appreciate what you guys are doing. If you have any questions, or need any  
-more information, please let me know. I will gladly do my best to obtain any  
-more details you might need. Thanks!
