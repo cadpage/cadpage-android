@@ -32,6 +32,12 @@ FRM:KIM.HANNER@chathamnc.org
 MSG:KIM.HANNER:475 NATURE TRAIL RD CHAPEL HILL 1119504 00:09:15 Convulsions/ Seizures- CONTINUOUS or
 (Con't) 2 of 2
 MULTIPLE seiz PREVIOUS CALL FOR THIS ADDRESS WITH THIS NUMBER GIVEN BY CARY PD UNKNOWN PROBLEM POSSIBLE SEIZURES(End)
+
+
+Contact: C Stephens <scubastevechfd@gmail.com>
+Sender: TRACY.BALDWIN__@chathamnc.org
+  / TRACY.BALDWIN__:602 N SECOND AVE SILER CITY 1207466 16:44:01 medical call caller christie harris subj having chest pain\n
+
 */
 
 public class NCChathamCountyParser extends DispatchSouthernParser {

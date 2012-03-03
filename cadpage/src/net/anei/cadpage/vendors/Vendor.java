@@ -393,14 +393,29 @@ abstract class Vendor {
   private void sendReregister(final Context context, String registrationId) {
     Uri uri = buildRequestUri("reregister", registrationId);
     HttpService.addHttpRequest(context, new HttpService.HttpRequest(uri){
+      
+      @Override
+      protected void processContent(String content) {
+        processError(200, null);
+      }
+
       @Override
       public void processError(int status, String result) {
         
+        // Don't know what negative result means, but lets ignore it
+        if (status < 0) return;
+        
+        // A successful return indicates link is working, anything else
+        // indicates that it is broken
+        boolean newStat = ((status / 100) == 2);
+        
+        // If nothing has changed, all is well
+        if (enabled == newStat) return;
+        
         // If response was successful, we don't care about any details
-        if (status % 100 == 2) return;
-        showNotice(context, R.string.vendor_register_err_msg, result);
-        enabled = false;
-        broken = (status != 400);
+        enabled = newStat;
+        if (! enabled) broken = (status != 400);
+        showNotice(context, enabled ? R.string.vendor_connect_msg : R.string.vendor_disconnect_msg, null);
         saveStatus();
         reportStatusChange();
       }});
