@@ -63,6 +63,7 @@ public class Parser {
         }
       }
       System.out.println(EOD_MARKER);
+      System.out.flush();
     }
   }
 
