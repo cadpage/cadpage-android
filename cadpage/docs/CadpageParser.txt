@@ -1,6 +1,5 @@
 Using the Cadpage Parser in a standalone server environment
 
-
 The Cadpage Parser is distributed as the CadpageParser.jar file available from
 http://www.cadpage.org/download-cadpage.  It is distributred under a GPL3 license, 
 the source code is available from http://code.google.com/p/cadpage
@@ -98,3 +97,24 @@ MAP:540-365
 CFS:0907010-119
 DIS:PHILOMATH FIRE
 
+
+
+*** For more information ****
+
+This file, and other important documentation, is part of the subversion source archive
+that checked out from https://cadpage.googlecode.com/svn/trunk/.  The various interface
+specs are in a cadpage/docs directory.  You can check out the entire set with
+
+svn checkout https://cadpage.googlecode.com/svn/trunk/cadpage/docs docs --user <google acct>
+
+These specs change constantly so you will want to refresh the workspace periodically with
+svn update doc
+
+The one file that will be of particular interest is MsgFormats.txt which lists all
+of the message formats we currently support, plus a bunch of others that are in
+different stages of being implemented.  The name of the Parser used can be found
+in parenthesis beside the location.  The Format code associated with that parser
+is simply the parser name with the word Parser stripped off.
+
+There are other cool things you can do with Subversion, look for the online manual 
+if you are interested.  Contact us if you want commit rights.
