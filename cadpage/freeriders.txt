@@ -1154,6 +1154,9 @@ Joseph L Corbin Jr <jcorbinjr@gmail.com> // Portage County, OH
 Daniel A. Perry (dapiv2@gmail.com)<DAP634@students.jwu.edu> // Hanover, NH
 %%03/02/2012
 Michael Rafferty (mpraff15@gmail.com)(mpraff15@yahoo.com)
+%%03/03/2012
+Nicole Nichols (swsshibby@gmail.com)(swsshibby@yahoo.com)
+
 
 // *** Insert Paid Users here ***
 
@@ -1306,10 +1309,10 @@ $free_2012_list
 >>"Jaime B " (jaime101889@gmail.com)<jaime1018@msn.com>
 >>Fedor Salvador <fedorsalvador@gmail.com>
 >>William Simpson <wsimpson368@gmail.com>
-Jason Hill <jhill5730@gmail.com>
-Ryan Hendrix <hendrix2444@gmail.com>
-Derek Deblaker <ovfd911@gmail.com>
-"tatteredntorn75@yahoo.com" (patrickc.1120@gmail.com)<tatteredntorn75@yahoo.com>
+>>Jason Hill <jhill5730@gmail.com>
+>>Ryan Hendrix <hendrix2444@gmail.com>
+>>Derek Deblaker <ovfd911@gmail.com>
+>>"tatteredntorn75@yahoo.com" (patrickc.1120@gmail.com)<tatteredntorn75@yahoo.com>
 ryan gotimer <r.gotimer@gmail.com>
 zach billie <zack.billie@gmail.com>
 %%01/15/2012
@@ -1610,9 +1613,12 @@ Scott <scottfen@gmail.com>
 %%03/01/2012
 Janine Sullivan <babygirl51134@gmail.com>
 Bill King (entennialfirefighter@gmail.com)<Bill.King@api-nsg.us>
-
 a fireman (fireman9919@gmail.com)<fireman9919@yahoo.com>
 Eric Deking <lowzer63d@gmail.com>
 Dj Newman <djn154@gmail.com>
 %%03/02/2012
 Dean Miller (deanplott@gmail.com)<bandit1234556@yahoo.com>
+
+Shane Helton <shane.helton04@gmail.com>
+Aldo Cacciotti (acjr2819@gmail.com)<acjr2819@yahoo.com>
+Joe Phillips <jphillips0786@gmail.com>

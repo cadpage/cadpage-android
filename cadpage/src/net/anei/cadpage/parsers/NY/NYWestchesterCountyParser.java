@@ -46,6 +46,12 @@ Contact: Jason Head <jhead17@gmail.com>
 Sender: IPage@westchestergov.com
 (IPage) 2365 BOSTON POST RD LARCHMONT, Cross: DEANE PL, Type:MVA, INJURIES, Time out: 19:23:17 Area: LARCH,Alarm lev: 0
 
+Contact: support@active911.com
+From: _IPAGE@westchestergov.com
+(Email Copy Message From Hiplink) 647 FOREST AVE MAMARONECK_T, Cross: ROCKINGSTONE AVE, Type:INVEST, CO-NO, Time out: 17:53:26 Area: MAMTW,Alarm lev: 0 ,Comments:
+(Email Copy Message From Hiplink) 20 AVON RD MAMARONECK_T, Cross: LANCIA LN, Type:ALS, , Time out: 16:27:11 Area: LARCH,Alarm lev: 0 ,Comments:   CHILD SWALLOWED SHAMPOO
+(Email Copy Message From Hiplink) 1165 OLD WHITE PLAINS RD MAMARONECK_T, Cross: GATE HOUSE LN, Type:INVEST, OUTSIDE, Time out: 17:19:51 Area: MAMTW,Alarm lev: 0 ,Comments:   ODOR OF GAS IN THE AREA
+
 */
 
 
@@ -84,7 +90,11 @@ public class NYWestchesterCountyParser extends FieldProgramParser {
     }
     
     // Check for IPage signature
-    if (!subject.equals("IPage")) return false;
+    do {
+      if (subject.equals("IPage")) break;
+      if (subject.equals("Email Copy Message From Hiplink")) break;
+      return false;
+    } while (false);
     
     body = body.replace(" Area:", ",Area:");
     return parseFields(body.split(","), data);

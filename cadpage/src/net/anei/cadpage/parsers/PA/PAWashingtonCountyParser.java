@@ -62,7 +62,6 @@ public class PAWashingtonCountyParser extends FieldProgramParser {
   }
   
   // Address field parser
-  private static final Pattern EXT_PTN = Pattern.compile(" EXT?\\b");
   private class MyAddressField extends AddressField {
     
     @Override
@@ -72,7 +71,6 @@ public class PAWashingtonCountyParser extends FieldProgramParser {
       if (data.strPlace.startsWith("@")) data.strPlace = data.strPlace.substring(1).trim(); 
       data.strCity = convertCodes(p.getLast(' '), CITY_CODES); 
       fld = p.get();
-      fld =EXT_PTN.matcher(fld).replaceAll("");
       super.parse(fld, data);
     }
     
