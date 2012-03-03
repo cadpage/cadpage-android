@@ -56,6 +56,14 @@ public class NCChathamCountyParserTest extends BaseParserTest {
         "TIME:00:09:15",
         "INFO:Convulsions/ Seizures- CONTINUOUS or MULTIPLE seiz PREVIOUS CALL FOR THIS ADDRESS WITH THIS NUMBER GIVEN BY CARY PD UNKNOWN PROBLEM POSSIBLE SEIZURES(End)");
 
+    doTest("T6",
+        "  / TRACY.BALDWIN__:602 N SECOND AVE SILER CITY 1207466 16:44:01 medical call caller christie harris subj having chest pain\n",
+        "ADDR:602 N SECOND AVE",
+        "CITY:SILER CITY",
+        "ID:1207466",
+        "TIME:16:44:01",
+        "INFO:medical call caller christie harris subj having chest pain");
+
   }
   
   public static void main(String[] args) {
