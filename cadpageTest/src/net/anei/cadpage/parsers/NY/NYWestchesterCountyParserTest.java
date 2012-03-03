@@ -171,6 +171,34 @@ public class NYWestchesterCountyParserTest extends BaseParserTest {
         "CALL:MVA / INJURIES");
   }
   
+  @Test
+  public void testActive911() {
+
+    doTest("T1",
+        "(Email Copy Message From Hiplink) 647 FOREST AVE MAMARONECK_T, Cross: ROCKINGSTONE AVE, Type:INVEST, CO-NO, Time out: 17:53:26 Area: MAMTW,Alarm lev: 0 ,Comments:",
+        "ADDR:647 FOREST AVE",
+        "CITY:MAMARONECK",
+        "X:ROCKINGSTONE AVE",
+        "CALL:INVEST / CO-NO");
+
+    doTest("T2",
+        "(Email Copy Message From Hiplink) 20 AVON RD MAMARONECK_T, Cross: LANCIA LN, Type:ALS, , Time out: 16:27:11 Area: LARCH,Alarm lev: 0 ,Comments:   CHILD SWALLOWED SHAMPOO",
+        "ADDR:20 AVON RD",
+        "CITY:LARCHMONT",
+        "X:LANCIA LN",
+        "CALL:ALS",
+        "INFO:CHILD SWALLOWED SHAMPOO");
+
+    doTest("T3",
+        "(Email Copy Message From Hiplink) 1165 OLD WHITE PLAINS RD MAMARONECK_T, Cross: GATE HOUSE LN, Type:INVEST, OUTSIDE, Time out: 17:19:51 Area: MAMTW,Alarm lev: 0 ,Comments:   ODOR OF GAS IN THE AREA",
+        "ADDR:1165 OLD WHITE PLAINS RD",
+        "CITY:MAMARONECK",
+        "X:GATE HOUSE LN",
+        "CALL:INVEST / OUTSIDE",
+        "INFO:ODOR OF GAS IN THE AREA");
+
+  }
+  
   public static void main(String[] args) {
     new NYWestchesterCountyParserTest().generateTests("T1");
   }
