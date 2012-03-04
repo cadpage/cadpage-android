@@ -38,6 +38,10 @@ GRG-FD:11090214:08/06/2011 16:56:13:FIRE ALARM:SMOKE DETECTOR: FRANKLI-27 KIRBY 
 GRG-FD:11090292:08/06/2011 21:34:50:FIRE ALARM:GENERAL: FRANKLI-3333 STATE HWY NO 27 HWY
 GRG-FD:11079916:07/14/2011 17:36:09:MVC:V POLE: FRANKLI-BUTLER ROAD & S MIDDLEBUSH ROAD
 
+Contact: Sean Lambertz <sean.lambertz@gmail.com>
+*3898: *messaging@iamresponding.com / 77 RESCUE / kharju:SBB-RS:12029633 :03/01/2012 23:53:12:SICK PERSON:22 YOM: SOUTH B-SOUTHSIDE GRILL / 2 MAIN ST #10
+*4101: *ghargreave@co.somerset.nj.us /  / SBB-FD:12027787:02/27/2012 11:58:34:FIRE: SOUTH B-SOUTHSIDE GRILL / 2 MAIN ST
+
 */
 
 public class NJSomersetCountyParser extends MsgParser {
@@ -51,8 +55,8 @@ public class NJSomersetCountyParser extends MsgParser {
       "SOUTH B", "SOUTH BRUNSWICK"
   });
   
-  private static final Pattern MARKER = Pattern.compile("^([^ ]+):(\\d{8}):\\d\\d/\\d\\d/\\d\\d\\d\\d \\d\\d:\\d\\d:\\d\\d:");
-  private static final Pattern MASTER = Pattern.compile("(.*) ([A-Z]+)-(?! )(?:(.*) / +)?([^\\(]*)(?:\\((.*)\\))?");
+  private static final Pattern MARKER = Pattern.compile("^(?:/ [A-Z0-9 ]* / (?:[A-Za-z]+:)?(?:[[^:]*]:)?)?([^: ]+):(\\d{8}) *:(\\d\\d/\\d\\d/\\d\\d\\d\\d) (\\d\\d:\\d\\d:\\d\\d):");
+  private static final Pattern MASTER = Pattern.compile("(.*?): ([A-Z ]+)-(?! )(?:(.*) / +)?([^\\(]*)(?:\\((.*)\\))?");
   private static final Pattern ROUTE_HWY_PTN = Pattern.compile("\\b(STATE|COUNTY|US) (?:ROUTE|ROAD|HWY)(?: NO)? (\\d+)(?: HWY)?\\b");
   
   public NJSomersetCountyParser() {
@@ -61,7 +65,7 @@ public class NJSomersetCountyParser extends MsgParser {
   
   @Override
   public String getFilter() {
-    return "rc.502@c-msg.net";
+    return "rc.502@c-msg.net,messaging@iamresponding.com,ghargreave@co.somerset.nj.us";
   }
   
   @Override
@@ -71,12 +75,14 @@ public class NJSomersetCountyParser extends MsgParser {
     if (!match.find()) return false;
     data.strSource = match.group(1);
     data.strCallId = match.group(2);
+    data.strDate = match.group(3);
+    data.strTime = match.group(4);
     body = body.substring(match.end()).trim();
     
     match = MASTER.matcher(body);
     if (!match.matches()) return false;
     data.strCall = match.group(1).trim();
-    data.strCity = convertCodes(match.group(2), CITY_CODES);
+    data.strCity = convertCodes(match.group(2).trim(), CITY_CODES);
     data.strPlace = null2empty(match.group(3));
     String sAddr = match.group(4).trim();
     data.strSupp = null2empty(match.group(5));
