@@ -91,6 +91,19 @@ public class SCOconeeCountyParserTest extends BaseParserTest {
   }
   
   @Test
+  public void testParser2() {
+
+    doTest("T1",
+        "(911 Message) C55 - WELFARE CHECK > 143 FERNWOOD DR WEST UNION > XStreet: BURNS MILL RD, SAFETY HARBOR RD / DEAD END 2012-00006725",
+        "CALL:C55 - WELFARE CHECK",
+        "ADDR:143 FERNWOOD DR",
+        "X:BURNS MILL RD, SAFETY HARBOR RD / DEAD END",
+        "CITY:WEST UNION",
+        "ID:2012-00006725");
+
+  }
+  
+  @Test
   public void testActive911() {
 
     doTest("T1",
@@ -131,7 +144,7 @@ public class SCOconeeCountyParserTest extends BaseParserTest {
         "ADDR:105 GLORIA LN",
         "X:SHILOH RD / DEAD END",
         "CITY:SENECA",
-        "PLACE:2012-00000009",
+        "ID:2012-00000009",
         "DATE:01/13/12",
         "TIME:17:35",
         "INFO:CANT MOVE HIS LEG  HUSBAND FELL BATHROOM FLOOR");
