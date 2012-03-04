@@ -52,7 +52,6 @@ public class NJCumberlandCountyParser extends FieldProgramParser {
   }
   
   private static final Pattern ADDR_PTN = Pattern.compile("^\\((.*)\\)");
-  private static final Pattern LA_PTN = Pattern.compile(" LA\\b");
   private class MyAddressField extends AddressField {
 
     @Override
@@ -64,9 +63,6 @@ public class NJCumberlandCountyParser extends FieldProgramParser {
         data.strCity = match.group(1);
         field = field.substring(match.end()).trim();
       }
-      
-      // Replace LA abbrv with LN
-      field = LA_PTN.matcher(field).replaceAll(" LN");
       
       // slash divides address into two parts, either which can be a place name
       // or they can both be streets

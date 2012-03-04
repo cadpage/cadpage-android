@@ -8,6 +8,15 @@ import java.util.regex.Pattern;
  * the actual message text
  */
 public class MsgInfo {
+  
+  // Flags that will be queried by the MsgParser.getMapFlags() method
+  // the alter aspects of the map query string generation
+  
+  // Suppress LA -> LN translation
+  public static final int MAP_FLG_SUPPR_LA = 1;
+  
+  // Suppress EXT removal
+  public static final int MAP_FLG_SUPPR_EXT = 2;
 
   private String strCall;
   private String strPlace;
@@ -402,6 +411,8 @@ public class MsgInfo {
   private static final Pattern GR_PTN = Pattern.compile("\\bGR\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern CRSN_PTN = Pattern.compile("\\bCRSN\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern CG_PTN = Pattern.compile("\\bCG\\b", Pattern.CASE_INSENSITIVE);
+  private static final Pattern LA_PTN = Pattern.compile("\\bLA\\b", Pattern.CASE_INSENSITIVE);
+  private static final Pattern EXT_PTN = Pattern.compile(" EXT?\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern NEAR_PTN = Pattern.compile("\\b(?:NEAR|OFF)\\b", Pattern.CASE_INSENSITIVE);
   private String cleanStreetSuffix(String sAddr) {
     
@@ -422,6 +433,12 @@ public class MsgInfo {
     sAddr = replace(sAddr, GR_PTN, "GRADE");
     sAddr = replace(sAddr, CRSN_PTN, "CRESCENT");
     sAddr = replace(sAddr, CG_PTN, "CROSSING");
+    
+    // Some alterations are suppressed by different parsers to meet local
+    // requirements
+    int mapFlags = parser.getMapFlags();
+    if ((mapFlags & MAP_FLG_SUPPR_LA) == 0) sAddr = replace(sAddr, LA_PTN, "LN");
+    if ((mapFlags & MAP_FLG_SUPPR_EXT) == 0) sAddr = EXT_PTN.matcher(sAddr).replaceAll("");
     
     if (!sAddr.contains("CUT OFF")) {
       sAddr = NEAR_PTN.matcher(sAddr).replaceAll("&");

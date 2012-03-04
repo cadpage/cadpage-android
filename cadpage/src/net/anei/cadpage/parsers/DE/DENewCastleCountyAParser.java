@@ -114,14 +114,12 @@ public class DENewCastleCountyAParser extends FieldProgramParser {
     return super.parseMsg(body, data);
   }
   
-  private static final Pattern LANE_PTN = Pattern.compile("\\bLA\\b");
   private class MyAddressField extends AddressField {
     
     @Override
     public void parse(String fld, Data data) {
       Parser p = new Parser(fld);
       String sAddress = p.get(',').replaceAll("~","&");
-      sAddress = LANE_PTN.matcher(sAddress).replaceAll("LN");
       parseAddress(sAddress, data);
       p.get(' ');
       fld = p.get();

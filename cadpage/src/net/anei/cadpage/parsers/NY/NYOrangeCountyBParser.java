@@ -63,6 +63,12 @@ public class NYOrangeCountyBParser extends DispatchPrintrakParser {
   }
   
   @Override
+  public int getMapFlags() {
+    // Keep EXT markers
+    return MAP_FLG_SUPPR_EXT;
+  }
+  
+  @Override
   public boolean parseMsg(String body, Data data) {
     int pt = body.indexOf('\n');
     if (pt >= 0) body = body.substring(0,pt).trim();

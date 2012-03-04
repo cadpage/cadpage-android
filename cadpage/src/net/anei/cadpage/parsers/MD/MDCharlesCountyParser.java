@@ -94,7 +94,11 @@ public class MDCharlesCountyParser extends SmartAddressParser {
 
   public MDCharlesCountyParser() {
     super( "CHARLES COUNTY", "MD");
-
+  }
+  
+  @Override
+  public int getMapFlags() {
+    return MAP_FLG_SUPPR_LA;
   }
   
   @Override

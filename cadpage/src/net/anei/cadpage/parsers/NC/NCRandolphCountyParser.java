@@ -33,6 +33,12 @@ public class NCRandolphCountyParser extends FieldProgramParser {
     super("RANDOLPH COUNTY", "NC",
            "SRC CALL ADDR UNIT SKIP INFO! INFO+");
   }
+  
+  @Override
+  public int getMapFlags() {
+    // Keep EXT markers
+    return MAP_FLG_SUPPR_EXT;
+  }
 
   @Override
   protected boolean parseMsg(String body, Data data) {

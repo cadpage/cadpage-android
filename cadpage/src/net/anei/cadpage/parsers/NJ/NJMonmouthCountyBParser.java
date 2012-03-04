@@ -1,7 +1,6 @@
 package net.anei.cadpage.parsers.NJ;
 
 import java.util.Properties;
-import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
@@ -34,8 +33,6 @@ CodeMessage client: rc.317@c-msg.net
 
 public class NJMonmouthCountyBParser extends FieldProgramParser {
   
-  private static Pattern LA_PTN = Pattern.compile("\\bLA\\b", Pattern.CASE_INSENSITIVE);
-  
   public NJMonmouthCountyBParser() {
     super(CITY_CODES, "MONMOUTH COUNTY", "NJ",
            "CALL ADDR/S X-ST:X! INFO TIME DATE!");
@@ -50,8 +47,6 @@ public class NJMonmouthCountyBParser extends FieldProgramParser {
   public boolean parseMsg(String subject, String body, Data data) {
     if (!subject.startsWith("mCAD")) return false;
     if (!parseFields(body.split("\\|"), data)) return false;
-    data.strAddress = LA_PTN.matcher(data.strAddress).replaceAll("LN");
-    data.strCross = LA_PTN.matcher(data.strCross).replaceAll("LN");
     return true;
   }
   

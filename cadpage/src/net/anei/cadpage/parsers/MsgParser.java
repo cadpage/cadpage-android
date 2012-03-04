@@ -218,6 +218,18 @@ public abstract class MsgParser {
   }
 
   /**
+   * @return map address adjustment flags<br>
+   * MAP_FLG_SUPPR_LA suppresses LA -> LN adjustment<br>
+   * MAP_FLG_SUPPR_EXT suppresses EXT removal
+   */
+  public int getMapFlags() {
+    return 0;
+  }
+  public static final int MAP_FLG_SUPPR_LA = MsgInfo.MAP_FLG_SUPPR_LA;
+  public static final int MAP_FLG_SUPPR_EXT = MsgInfo.MAP_FLG_SUPPR_EXT;
+
+
+  /**
    * Convenience method to identify a page message by checking to see if
    * it contains a sequence of key phrases in the proper order
    * @param body body of message to be checked
@@ -937,6 +949,6 @@ public abstract class MsgParser {
      }
    }
    return false;
- }
+  }
  private static final Pattern DIGITS = Pattern.compile("\\d+");
 }

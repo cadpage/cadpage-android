@@ -61,6 +61,12 @@ public class NCDavidsonCountyParser extends DispatchOSSIParser {
   }
   
   @Override
+  public int getMapFlags() {
+    // Keep EXT markers
+    return MAP_FLG_SUPPR_EXT;
+  }
+
+  @Override
   public boolean parseMsg(String body, Data data) {
     if (body.startsWith("/")) body = body.substring(1).trim();
     boolean ok = body.startsWith("CAD:");

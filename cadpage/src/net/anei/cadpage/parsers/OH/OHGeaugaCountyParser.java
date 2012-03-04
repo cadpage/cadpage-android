@@ -59,6 +59,12 @@ public class OHGeaugaCountyParser extends SmartAddressParser {
   }
   
   @Override
+  public int getMapFlags() {
+    // Suppress LA -> LN address adjustment
+    return MAP_FLG_SUPPR_LA;
+  }
+  
+  @Override
   public boolean parseMsg(String body, Data data) {
     Matcher match = MARKER.matcher(body);
     if (!match.find()) return false;

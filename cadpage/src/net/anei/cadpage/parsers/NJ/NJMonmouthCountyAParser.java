@@ -34,7 +34,6 @@ public class NJMonmouthCountyAParser extends FieldProgramParser {
   
   private static final Pattern KEYWORD_TRAIL_PTN = Pattern.compile("[ \\.]+:");
   private static final Pattern CALL_TIME_DATE_PTN = Pattern.compile("\\bCall Time- ([0-9:]+) +Date- ([0-9/]+) *\n.*?(?=\nArea:)", Pattern.DOTALL);
-  private static final Pattern LA_PTN = Pattern.compile("\\bLA\\b");
   
   public NJMonmouthCountyAParser() {
     super("MONMOUTH COUNTY", "NJ",
@@ -73,8 +72,6 @@ public class NJMonmouthCountyAParser extends FieldProgramParser {
     body = body.replace('\n', ' ');
     body = body.replaceAll("  +", " ");
     if (!super.parseMsg(body, data)) return false;
-    data.strAddress = LA_PTN.matcher(data.strAddress).replaceAll("LN");
-    data.strCross = LA_PTN.matcher(data.strCross).replaceAll("LN");
     return true;
   }
   

@@ -4082,15 +4082,6 @@ Rig existing parser to not depend on 9300 sender address
 (Call) WIRES DOWN 7967 KEENE RD @ BURNS DISP NE - PATROL REQUESTING A CHIEF TO THE SCENE FOR WIRES IN THE TREE ARCHING?\n
 **********************************************************
 
-MEYorkCounty         *BAD
-NCCabarrusCountyA    *BAD X
-NCDavidsonCounty     *GOOD worked without X
-NCRandolphCounty     *GOOD corrects without
-PABlairCounty        *MAP ALWAYS FAILS
-PAWashingtonCounty   *Bad - EXT? Removed by parser
-NYNassauCountyRedAlert *Bad
-NYChenangoCounty     *Bad X
-NYOrangeCountyB      *Good & removing Ext gets wrong location??
 
 
 

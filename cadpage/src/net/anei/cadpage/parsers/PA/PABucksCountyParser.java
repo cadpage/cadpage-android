@@ -244,7 +244,6 @@ public class PABucksCountyParser extends FieldProgramParser {
     }
   }
   
-  private static final Pattern LA_PTN = Pattern.compile("\\bLA\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern CITY_CODE_PTN = Pattern.compile("(\\d+)[- ]*(.*)");
   private class MyAddressField extends AddressField {
     
@@ -256,7 +255,6 @@ public class PABucksCountyParser extends FieldProgramParser {
       if (pt >= 0) data.strPlace = data.strPlace.substring(0,pt).trim();
       String cityCode = p.getLastOptional(',');
       sAddr = p.get();
-      sAddr = LA_PTN.matcher(sAddr).replaceAll("LN");
       sAddr = sAddr.replace("FRIER RD", "FREIER RD");
       sAddr = sAddr.replace("WHITE BRIAR", "WHITEBRIAR");
       sAddr = expandStreet("COLD SPRING CREAMERY", sAddr);
@@ -302,14 +300,6 @@ public class PABucksCountyParser extends FieldProgramParser {
       return "PLACE " + super.getFieldNames() + " CITY";
     }
   }
-  
-  private class MyCrossField extends CrossField {
-    @Override
-    public void parse(String field, Data data) {
-      field = LA_PTN.matcher(field).replaceAll("LN");
-      super.parse(field, data);
-    }
-  }
     
   private class MyTimeField extends TimeField {
     
@@ -335,7 +325,6 @@ public class PABucksCountyParser extends FieldProgramParser {
   public Field getField(String name) {
     if (name.equals("CALL")) return new MyCallField();
     if (name.equals("ADDR")) return new MyAddressField();
-    if (name.equals("X")) return new MyCrossField();
     if (name.equals("TIME")) return new MyTimeField();
     return super.getField(name);
   }

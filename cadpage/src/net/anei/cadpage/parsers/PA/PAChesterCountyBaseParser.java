@@ -27,7 +27,6 @@ public class PAChesterCountyBaseParser extends FieldProgramParser {
         data.strPlace = field.substring(pt+3).trim();
         field = field.substring(0,pt).trim();
       }
-      field = field.replaceAll("\\bLA\\b", "LN");
       super.parse(field, data);
     }
     

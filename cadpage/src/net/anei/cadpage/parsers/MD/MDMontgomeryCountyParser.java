@@ -69,7 +69,6 @@ public class MDMontgomeryCountyParser extends MsgParser {
     p = new Parser(strAddress);
     p.getLastOptional(',');
     strAddress = p.get();
-    strAddress = strAddress.replaceAll("\\bLA\\b", "LN");
     parseAddress(strAddress, data);
     for (String unit : props.getProperty("Units", "").split(" +")) {
       if (validUnit(unit)) {
