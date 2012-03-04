@@ -43,7 +43,8 @@ public class DENewCastleCountyAParserTest extends BaseParserTest {
     doTest("T4",
         "[FB] F00 08:06 1 - T:55B2 (L1*ELECTRICAL HAZARD-WIRES DWN) L:ELGIN LA~SHIPLEY RD ,QB *OAK LANE MANOR - X: DESC: WIRES DOWN.?!?!",
         "CALL:55B2 (L1*ELECTRICAL HAZARD-WIRES DWN)",
-        "ADDR:ELGIN LN & SHIPLEY RD",
+        "ADDR:ELGIN LA & SHIPLEY RD",
+        "MADDR:ELGIN LN & SHIPLEY RD",
         "PLACE:OAK LANE MANOR",
         "INFO:WIRES DOWN.?!?!");
 
@@ -94,7 +95,8 @@ public class DENewCastleCountyAParserTest extends BaseParserTest {
     doTest("T10",
         "23:34T:69D5 (L3*MULTI-RESIDENTIAL FIRE) L:100 ORCHARD LA #1 ,LU *HOLLY OAK - X:WALNUT ST ~ RIDGE RD",
         "CALL:69D5 (L3*MULTI-RESIDENTIAL FIRE)",
-        "ADDR:100 ORCHARD LN",
+        "ADDR:100 ORCHARD LA",
+        "MADDR:100 ORCHARD LN",
         "CITY:HOLLY OAK",
         "X:WALNUT ST ~ RIDGE RD",
         "APT:1");
@@ -127,7 +129,8 @@ public class DENewCastleCountyAParserTest extends BaseParserTest {
     doTest("T14",
         "13:58T:52B1G (L1*RES FIRE ALARM~GENERAL ALAR) L:102 PONDS LA ,PNGR *PONDS OF GREENVILLE - X:MONTCHANIN RD ~ DEAD-END : afa",
         "CALL:52B1G (L1*RES FIRE ALARM~GENERAL ALAR)",
-        "ADDR:102 PONDS LN",
+        "ADDR:102 PONDS LA",
+        "MADDR:102 PONDS LN",
         "PLACE:PONDS OF GREENVILLE",
         "X:MONTCHANIN RD ~ DEAD-END",
         "INFO:afa");
@@ -183,7 +186,8 @@ public class DENewCastleCountyAParserTest extends BaseParserTest {
         "Subject:24CAD\n[eFB] F00 21:22 1 - T:M10D2 (CHEST PAINS-DIFF SPEAKING BETW) L:1000 SNOWY EGRET LA ,AGC2 btwn POLE BRIDGE RD ~ BOBWHITE \nCT *AUGUSTINE CREEK II - DESC:??DSC:CHEST PAIN?! PAT:1 SEX:Male AGE:52Years CON:Y BRE:Y\n",
         "SRC:24CAD",
         "CALL:M10D2 (CHEST PAINS-DIFF SPEAKING BETW)",
-        "ADDR:1000 SNOWY EGRET LN",
+        "ADDR:1000 SNOWY EGRET LA",
+        "MADDR:1000 SNOWY EGRET LN",
         "X:btwn POLE BRIDGE RD ~ BOBWHITE CT",
         "PLACE:AUGUSTINE CREEK II",
         "INFO:??DSC:CHEST PAIN?! PAT:1 SEX:Male AGE:52Years CON:Y BRE:Y");

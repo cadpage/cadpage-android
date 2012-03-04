@@ -52,7 +52,7 @@ public class NJMonmouthCountyBParserTest extends BaseParserTest {
     doTest("T5",
         "(mCAD) [!] FIRS F FIRE STRUC | AVALON LA | X-ST: SPRINGHOUSE CI/ | ACROSS FROM 13 NO HOUSE NUMBER//SEES FLAMES | 18:59:46 | 01/27/2012",
         "CALL:FIRS F FIRE STRUC",
-        "ADDR:AVALON LN",
+        "ADDR:AVALON LA",
         "MADDR:AVALON LN & SPRINGHOUSE CIR",
         "X:SPRINGHOUSE CI",
         "INFO:ACROSS FROM 13 NO HOUSE NUMBER//SEES FLAMES",

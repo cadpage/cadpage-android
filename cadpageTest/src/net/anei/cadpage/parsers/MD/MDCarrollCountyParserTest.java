@@ -38,6 +38,7 @@ public class MDCarrollCountyParserTest extends BaseParserTest {
         "SRC:Co12",
         "CALL:BLS",
         "ADDR:5584 COMPTON LA",
+        "MADDR:5584 COMPTON LN",
         "CITY:SYKESVILLE",
         "BOX:1214",
         "UNIT:X129");

@@ -51,7 +51,8 @@ public class PAChesterCountyCParserTest extends BaseParserTest {
     doTest("T5",
         "OUT BUILDING / SHED FIRE **6 CARNATION LA*14:54*25 ENG ASSIST D59 – SHED",
         "CALL:OUT BUILDING / SHED FIRE *",
-        "ADDR:6 CARNATION LN",
+        "ADDR:6 CARNATION LA",
+        "MADDR:6 CARNATION LN",
         "TIME:14:54",
         "INFO:25 ENG ASSIST D59 – SHED");
 
@@ -68,7 +69,8 @@ public class PAChesterCountyCParserTest extends BaseParserTest {
     doTest("T7",
         "ALARM - CARBON MONOXIDE **5 COOPERSHALWK LA, CHADDS FORD*09:12*ENG25 ASST D59",
         "CALL:ALARM - CARBON MONOXIDE *",
-        "ADDR:5 COOPERSHALWK LN",
+        "ADDR:5 COOPERSHALWK LA",
+        "MADDR:5 COOPERSHALWK LN",
         "CITY:CHADDS FORD",
         "TIME:09:12",
         "INFO:ENG25 ASST D59");

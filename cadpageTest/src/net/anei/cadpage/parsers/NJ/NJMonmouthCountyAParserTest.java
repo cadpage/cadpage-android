@@ -352,7 +352,7 @@ public class NJMonmouthCountyAParserTest extends BaseParserTest {
         "SRC:STA 26-2",
         "CALL:FIRS F FIRE STRUC",
         "PRI:1",
-        "ADDR:AVALON LN",
+        "ADDR:AVALON LA",
         "MADDR:AVALON LN & SPRINGHOUSE CIR",
         "CITY:MANALAPAN",
         "X:SPRINGHOUSE CI",

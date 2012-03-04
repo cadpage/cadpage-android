@@ -130,6 +130,7 @@ public class PABlairCountyParserTest extends BaseParserTest {
         "(Inc: Vehicle Fire) Inc: Vehicle Fire \nAdd: 110 SUNSET HILLS EXT \nCity: SNYDER TW \nUnits: 31A\n31A\nLat/Lon: @40.67871 @78.25442\n10/1/2011 9:35:19 PM \nDR #: 31",
         "CALL:Vehicle Fire",
         "ADDR:110 SUNSET HILLS EXT",
+        "MADDR:110 SUNSET HILLS",
         "CITY:SNYDER TWP",
         "UNIT:31A 31A",
         "GPS:@40.67871 @78.25442",

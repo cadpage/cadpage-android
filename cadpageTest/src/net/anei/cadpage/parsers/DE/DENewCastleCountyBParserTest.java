@@ -34,6 +34,7 @@ public class DENewCastleCountyBParserTest extends BaseParserTest {
         "CALL:Medical Alarm",
         "NAME:Forest Glen Townhses",
         "ADDR:3 Pimlico La",
+        "MADDR:3 Pimlico Ln",
         "X:Rue Madora & Dead",
         "UNIT:M32B2");
 

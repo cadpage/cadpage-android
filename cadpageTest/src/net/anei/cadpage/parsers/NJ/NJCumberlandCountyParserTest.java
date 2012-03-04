@@ -18,7 +18,8 @@ public class NJCumberlandCountyParserTest extends BaseParserTest {
         "UNIT:E22",
         "CALL:INVEST",
         "CITY:VINELAND CITY",
-        "ADDR:1763 CHEROKEE LN",
+        "ADDR:1763 CHEROKEE LA",
+        "MADDR:1763 CHEROKEE LN",
         "DATE:04/24/2011",
         "TIME:19:02:46");
 

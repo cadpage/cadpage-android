@@ -57,6 +57,7 @@ public class PAChesterCountyAParserTest extends BaseParserTest {
         "Initial Type: AOD        Final Type: AOD     (OVERDOSE - ALS *)\nLoc: 6 WAYS LA ,62  btwn MUNICIPAL BOUNDARY & E CYPRESS ST (V) AKA:",
         "CALL:AOD (OVERDOSE - ALS *)",
         "ADDR:6 WAYS LA",
+        "MADDR:6 WAYS LN",
         "CITY:KENNETT TWP",
         "X:MUNICIPAL BOUNDARY & E CYPRESS ST");
 

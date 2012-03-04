@@ -3,6 +3,7 @@ package net.anei.cadpage.parsers;
 import static org.junit.Assert.*;
 
 import net.anei.cadpage.parsers.MsgInfo;
+import net.anei.cadpage.parsers.general.GeneralParser;
 
 import org.junit.Test;
 
@@ -121,6 +122,8 @@ public class MsgInfoTest {
     data.defCity = "KENBURG";
     data.defState = "XX";
     
+    data.parser = new GeneralParser();
+    
     MsgInfo info = new MsgInfo(data);
     assertEquals(title, result, info.getMapAddress(false, null, null));
   }
@@ -132,6 +135,8 @@ public class MsgInfoTest {
     
     data.defCity = "KENBURG";
     data.defState = "XX";
+    
+    data.parser = new GeneralParser();
     
     MsgInfo info = new MsgInfo(data);
     assertEquals(title, result, info.getMapAddress(false, null,null));

@@ -92,6 +92,7 @@ public class MEYorkCountyParserTest extends BaseParserTest {
         "(Sanford RCC Page) FIRE, OTHER\n26 LOGAN CIRCLE EXT \nWaterboro\n2/17/2012 11:29",
         "CALL:FIRE, OTHER",
         "ADDR:26 LOGAN CIRCLE EXT",
+        "MADDR:26 LOGAN CIRCLE",
         "CITY:Waterboro",
         "DATE:2/17/2012",
         "TIME:11:29");

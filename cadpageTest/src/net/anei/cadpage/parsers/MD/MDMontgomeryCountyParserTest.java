@@ -54,7 +54,8 @@ public class MDMontgomeryCountyParserTest extends BaseParserTest {
         "CAD MSG: * D * 3132 * BOX ALARM * 209 FOUNTAIN GREEN LA ,GA  * E708 E722 E729 E734 E728 T731 AT708 RS703 M73M",
         "BOX:3132",
         "CALL:BOX ALARM",
-        "ADDR:209 FOUNTAIN GREEN LN",
+        "ADDR:209 FOUNTAIN GREEN LA",
+        "MADDR:209 FOUNTAIN GREEN LN",
         "UNIT:E708 E722 E729 E734 E728 T731 AT708 RS703");
 
     doTest("T7",
@@ -90,7 +91,8 @@ public class MDMontgomeryCountyParserTest extends BaseParserTest {
         "CAD MSG: * D * 1704 * ABDOMINAL PAIN * 7500 MATTINGLY LA ,MCG  * A717 ECC30",
         "BOX:1704",
         "CALL:ABDOMINAL PAIN",
-        "ADDR:7500 MATTINGLY LN",
+        "ADDR:7500 MATTINGLY LA",
+        "MADDR:7500 MATTINGLY LN",
         "UNIT:A717");
 
   }

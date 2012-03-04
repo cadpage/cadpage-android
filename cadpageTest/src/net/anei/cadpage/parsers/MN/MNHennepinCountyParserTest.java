@@ -50,6 +50,7 @@ public class MNHennepinCountyParserTest extends BaseParserTest {
         "NAME-areson, dale;  LOC-2512 SILVER LA [#204 [@EQUINOX APT;  EVTYPE-FALL;  COMMENTS-2512 SILVER LA : cross streets : SILVER",
         "NAME:areson, dale",
         "ADDR:2512 SILVER LA",
+        "MADDR:2512 SILVER LN",
         "APT:204",
         "PLACE:EQUINOX APT",
         "CALL:FALL",
