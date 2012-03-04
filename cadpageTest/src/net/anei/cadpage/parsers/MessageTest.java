@@ -9,6 +9,12 @@ public class MessageTest {
   @Test
   public void testParseInfo() {
     
+    doParseTest("NJSomersetCounty", 
+        "*3898: *messaging@iamresponding.com / 77 RESCUE / kharju:SBB-RS:12029633 :03/01/2012 23 <201223>:53:12:SICK PERSON:22 YOM: SOUTH B-SOUTHSIDE GRILL / 2 MAIN ST #10",
+        "messaging@iamresponding.com",
+        "",
+        "/ 77 RESCUE / kharju:SBB-RS:12029633 :03/01/2012 23 <201223>:53:12:SICK PERSON:22 YOM: SOUTH B-SOUTHSIDE GRILL / 2 MAIN ST #10");
+    
     doParseTest("COWeldCounty",
         " \" \" 26\nFIREV\nD\n14619 WCR 18\nFL\n26 TXT STOP to opt-out",
         "ken@cadpage.org",
