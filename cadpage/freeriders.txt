@@ -1316,8 +1316,8 @@ $free_2012_list
 >>ryan gotimer <r.gotimer@gmail.com>
 >>zach billie <zack.billie@gmail.com>
 %%01/15/2012
-Thomas Harmon <firemarshalharmon@gmail.com>
-"Michael Smith " <smitty.08@hotmail.com>
+>>Thomas Harmon <firemarshalharmon@gmail.com>
+>>"Michael Smith " <smitty.08@hotmail.com>
 Dustan Murphy <dustan.murphy@gmail.com>
 Michael Johnson <spike4789@gmail.com>
 Jackie (jwyckoff256@gmail.com)<jackie_wyckoff@yahoo.com>
@@ -1624,3 +1624,6 @@ Joe Phillips <jphillips0786@gmail.com>
 %%03/03/2012
 Tom C (thomascintula@gmail.com)<thomascintula@yahoo.com>
 jack trego <tregojack@gmail.com>
+%%03/04/2012
+Ed Woods <ewoods8393@gmail.com>
+Drew Pruitt <dpruitt603@gmail.com>

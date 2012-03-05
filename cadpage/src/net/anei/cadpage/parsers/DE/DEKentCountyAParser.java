@@ -26,6 +26,9 @@ System: New World Systems
 [!]  [K] 29D2L MVC Motorcycle/Bicycle 375 GATEWAY SOUTH BLVD SONIC - SOUTH DOVER Dover : Xst's: DEAD END / DEAD END Caller:
 [!]  [K] Structure-Residential Single 241 E CAMDEN WYOMING AVE Camden Wyoming : CAMDEN Xst's: S MAIN ST, N MAIN ST / S WEST ST, N WEST ST Caller: HARRISON THERE'S
 
+Contact: Tom <tw4715@comcast.net>
+[CAD]33C1T Transfer/Interfacility 2809 ANDREWVILLE RD Harrington : Xst's: TODDS CHAPEL RD, PROSPECT CHURCH RD / GREENWOOD RD Caller: CAY HOLLY
+
  */
 
 
@@ -45,7 +48,7 @@ public class DEKentCountyAParser extends FieldProgramParser {
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
-    if (!subject.equals("!|K")) return false;
+    if (!subject.equals("!|K") && !subject.equals("CAD")) return false;
     body = body.replace("Xst's:", "Xsts:");
     return parseFields(splitMsg(body), data);
   }
