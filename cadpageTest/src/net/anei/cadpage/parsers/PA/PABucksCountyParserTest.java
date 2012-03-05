@@ -1390,7 +1390,7 @@ public class PABucksCountyParserTest extends BaseParserTest {
   }
   
   @Test
-  public void testParser6() {
+  public void testJonDinola() {
 
     doTest("T1",
         "(#9823  1/1) STA0:FEMS\nadr:4008 WALTHAM CT ,42\nbtwn:COVINGTON RD & CUL DE SAC\nbox:80012\ntm:19:07:17 FD1202015  Run: UT80",
@@ -1403,6 +1403,18 @@ public class PABucksCountyParserTest extends BaseParserTest {
         "TIME:19:07:17",
         "ID:FD1202015",
         "UNIT:UT80");
+
+    doTest("T2",
+        "(#16847  1/1) STA0:FCHIMN\nadr:2331 LAKEVIEW DR ,42\nbtwn:WEINMANN WY & OXFORD RD\nbox:00103\ntm:07:13:58 FD1202958  Run: L0 R0",
+        "SRC:STA0",
+        "CALL:FCHIMN - CHIMNEY FIRE (TAC)",
+        "BOX:00103",
+        "ADDR:2331 LAKEVIEW DR",
+        "CITY:LOWER MAKEFIELD TWP",
+        "X:WEINMANN WY & OXFORD RD",
+        "TIME:07:13:58",
+        "ID:FD1202958",
+        "UNIT:L0 R0");
 
   }
   

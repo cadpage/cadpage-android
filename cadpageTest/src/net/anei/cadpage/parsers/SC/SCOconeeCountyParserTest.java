@@ -104,6 +104,21 @@ public class SCOconeeCountyParserTest extends BaseParserTest {
   }
   
   @Test
+  public void testAdamRichardson() {
+
+    doTest("T1",
+        "FRM:911@oconeelaw.com\n" +
+        "SUBJ:911 Message\n" +
+        "MSG:LIFT ASSISTANCE > 1407 W LITTLE RIVER DR SENECA > XStreet: AZURE COVE CT / KEOWEE LAKESHORE DR\n",
+
+        "CALL:LIFT ASSISTANCE",
+        "ADDR:1407 W LITTLE RIVER DR",
+        "X:AZURE COVE CT / KEOWEE LAKESHORE DR",
+        "CITY:SENECA");
+
+  }
+  
+  @Test
   public void testActive911() {
 
     doTest("T1",
