@@ -22,6 +22,10 @@ System: Aegis
 
 (911 Message) C55 - WELFARE CHECK > 143 FERNWOOD DR WEST UNION > XStreet: BURNS MILL RD, SAFETY HARBOR RD / DEAD END 2012-00006725
 
+Contact: Adam Richardson <adamrichardson13@yahoo.com>
+Sender: 911@oconeelaw.com
+FRM:911@oconeelaw.com\nSUBJ:911 Message\nMSG:LIFT ASSISTANCE > 1407 W LITTLE RIVER DR SENECA > XStreet: AZURE COVE CT / KEOWEE LAKESHORE DR\n
+
 Contact: support@active911.com
 (911 Message) S74 - RESPIRATORY DISTRESS  502 VERA DR XStreet: HOBSON ST / DEAD END WESTMINSTER    2012-00000025  01/14/12 01:28  Narr:   TONED RQ5  DOES HAVE HEART PROBLEMS  HEART PT HAVING TROUBLE BREATHING  E911 Info - Class of Service: RESD Special Response Info: WESTMINSTER CITY PD WESTMINSTER CITY FIRE  EMS ER-5 ER-3
 (911 Message) 70S - STRUCTURE FIRE  10941 CLEMSON BLVD XStreet: PRESSLEY PL / SONNYS DR SENECA  BQS #5 CLEMSON BLVD   01/16/12 17:44  Narr:   IN NEIGHBORHOOD BEHIND THE ROAD RUNNER  SOMEWHERE ACROSS STREET  E911 Info - Class of Service: BUSN Special Response Info: SHERIFF DEPT SENECA  CORINTH-SHILOH FIRE #3  EMS ER-1 ER-2
@@ -97,7 +101,9 @@ public class SCOconeeCountyParser extends FieldProgramParser {
           sTrailer = body.substring(match.end()).trim();
           break;
         }
-        abort();
+        
+        sLeader = body;
+        sTrailer = "";
       } while (false);
 
       sLeader = sLeader.replace(" > ", "  ");

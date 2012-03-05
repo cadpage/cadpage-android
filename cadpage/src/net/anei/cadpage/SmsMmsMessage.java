@@ -85,6 +85,10 @@ public class SmsMmsMessage implements Serializable {
   private String callId = null;
   private String serverTime = null;
   
+  // custom response menu
+  private String responseMenu = null;
+  private boolean responseMenuVisible = true;
+  
   // Temporary fields being monitored to see if they will be of any
   // use in identifying multi-part messages
   private long sentTime = 0L;
@@ -132,6 +136,20 @@ public class SmsMmsMessage implements Serializable {
   
   public void setMsgId(int msgId) {
     this.msgId = msgId;
+  }
+  
+  public String getResponseMenu() {
+    return responseMenu;
+  }
+  
+  public boolean isResponseMenuVisible() {
+    return responseMenuVisible;
+  }
+  
+  public void setResposneMenuVisible(boolean responseMenuVisible) {
+    if (this.responseMenuVisible == responseMenuVisible) return;
+    this.responseMenuVisible = responseMenuVisible;
+    reportDataChange();
   }
   
   private void reportDataChange() {
@@ -238,14 +256,23 @@ public class SmsMmsMessage implements Serializable {
     this.timestamp = timestamp;
     this.reqLocation = reqLocation;
     this.vendorCode = vendorCode;
-    this.ackReq = ackReq;
     this.ackURL = ackURL;
     this.callId = callId;
     this.serverTime = serverTime;
     this.infoURL = infoURL;
     this.ackNeeded = ackReq.contains("A");
     this.parseInfo = bldParseInfo();
+    
+    // If request code contains a custom menu, separate that out
+    Matcher match = SQ_BRACKETS.matcher(ackReq);
+    if (match.find()) {
+      this.responseMenu = match.group(1);
+      ackReq = ackReq.substring(0,match.start()) + ackReq.substring(0,match.end());
+    }
+    this.ackReq = ackReq;
   }
+  private static final Pattern SQ_BRACKETS = Pattern.compile("\\[(.*)\\]");
+  
 
   /**
    * Construct dummy SmsMmsMessage test notifications 

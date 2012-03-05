@@ -146,6 +146,7 @@ STA19:FALRM adr:1290 ALMSHOUSE RD ,29 - GRUNDY HALL btwn:TURK RD & RT 611 aai:21
 Contact: Jon DiNola <jbdinola@gmail.com>
 Sender: alert_@alert.bucksema.org
 (#9823  1/1) STA0:FEMS\nadr:4008 WALTHAM CT ,42\nbtwn:COVINGTON RD & CUL DE SAC\nbox:80012\ntm:19:07:17 FD1202015  Run: UT80
+(#16847  1/1) STA0:FCHIMN\nadr:2331 LAKEVIEW DR ,42\nbtwn:WEINMANN WY & OXFORD RD\nbox:00103\ntm:07:13:58 FD1202958  Run: L0 R0
 
 Contact: "Terry (IT Consulting)" <securetalk@gmail.com>
 Sender: alert_@alert.bucksema.org

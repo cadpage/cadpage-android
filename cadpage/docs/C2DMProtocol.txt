@@ -137,6 +137,13 @@ ack_req:  String of characters indicating what kind manual responses may be sent
           L - Request user location (again only if user has enabled location
               services and allowed Cadpage to report this info
           P - Request user payment status
+          [...] - Custom Response menu.  The response menu consists of any
+          number of response definition separated by semicolons.  Each
+          response definition look like
+          <code>=<desc>
+          where code is the code that will be reported to the server when this 
+                     response is selected
+                desc is the text for this response that will be displayed
 
 
 Cadpage acknowledgments
