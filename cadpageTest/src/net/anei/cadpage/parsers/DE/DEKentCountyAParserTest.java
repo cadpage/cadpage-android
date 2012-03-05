@@ -91,6 +91,17 @@ public class DEKentCountyAParserTest extends BaseParserTest {
         "X:S MAIN ST, N MAIN ST / S WEST ST, N WEST ST");
   }
   
+  @Test
+  public void testTom() {
+
+    doTest("T1",
+        "[CAD]33C1T Transfer/Interfacility 2809 ANDREWVILLE RD Harrington : Xst's: TODDS CHAPEL RD, PROSPECT CHURCH RD / GREENWOOD RD Caller: CAY HOLLY",
+        "CALL:33C1T Transfer/Interfacility",
+        "ADDR:2809 ANDREWVILLE RD",
+        "CITY:Harrington",
+        "X:TODDS CHAPEL RD, PROSPECT CHURCH RD / GREENWOOD RD");
+  }
+  
   public static void main(String[] args) {
     new DEKentCountyAParserTest().generateTests("T1");
   }
