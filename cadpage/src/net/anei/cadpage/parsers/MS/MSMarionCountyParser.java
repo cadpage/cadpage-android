@@ -1,5 +1,8 @@
 package net.anei.cadpage.parsers.MS;
 
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchBParser;
 
@@ -20,6 +23,12 @@ Sender: 911-CENTER@co.marion.ms.us
 -  - 911-CENTER:SIG72 >MEDICAL CALL 244 SPRING HILL CHURCH RD SANDY HOOK LEWIS, MARY Map: Grids:, Cad: 2012-0000001643\n
 -  - 911-CENTER:SIG72 >MEDICAL CALL 240 BRANTON BAY RD TYLERTOWN AT&T MOBILITY Map: Grids:, Cad: 2012-0000001839\n
 
+Contact: "Prowler" <prowler251@gmail.com>
+911-CENTER:SIG72 >MEDICAL CALL 221 NEW HOPE KOKOMO RD FOXWORTH AT&T MOBILITY Map: Grids:, Cad: 2012-0000004183
+911-CENTER:SIG72 >MEDICAL CALL 1837 HWY 35 S FOXWORTH Map: Grids:, Cad: 2012-0000004092
+911-CENTER:SIG72 >MEDICAL CALL 1831 HWY 35 S FOXWORTH RILEY, BETTY Map: Grids:, Cad: 2012-0000004015
+
+
 // Time reports - do not parse
 -  - 911-CENTER:EVENT: SIG72 LOC:37 STRINGER BULLOCK RD Cad: 2012-0000001996 ENR >21:01 1023 >21:15 1024 >21:41\n
 
@@ -27,7 +36,7 @@ Sender: 911-CENTER@co.marion.ms.us
 
 public class MSMarionCountyParser extends DispatchBParser {
   
-  private static final String MARKER = "-  - 911-CENTER:";
+  private static final Pattern MARKER = Pattern.compile("^(?:-  - )?911-CENTER:");
 
   public MSMarionCountyParser() {
     super(CITY_LIST, "MARION COUNTY", "MS");
@@ -40,8 +49,9 @@ public class MSMarionCountyParser extends DispatchBParser {
   
   @Override
   protected boolean parseMsg(String body, Data data) {
-    if (!body.startsWith(MARKER)) return false;
-    body = body.substring(MARKER.length()).trim();
+    Matcher match = MARKER.matcher(body);
+    if (!match.find()) return false;
+    body = body.substring(match.end());
     if (body.startsWith("EVENT:")) return false;
     if (! super.parseMsg(body, data)) return false;
     return true;
