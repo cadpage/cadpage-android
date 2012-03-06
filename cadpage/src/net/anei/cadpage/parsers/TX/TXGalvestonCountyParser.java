@@ -26,9 +26,14 @@ DICK = Dickinson
 .... (Santa Fe Fire) CAD:FYI: FIRE - NON SPECIFIC 7330 AVE M ST FIRE IN HOME HEATER CENTRAL UNIT SMOKE THEN FLAMES IS OUT NOW WITH WATER IN TRL [12/07/11 10:30:23 JHILLMAN]
 .... (Santa Fe Fire) CAD:Update: FIRE - NON SPECIFIC 12619 HARRIETT LN SMALL CONT IN FENCE DUE TO WEATHER FIRE PUT OUT [12/07/11 12:58:06 JHILLMAN] IN AREA LOOKING OUT [12/07/11 12:53:05 JHILLMAN] NO CONTROL BURNS CALLED IN TODAY ON HARRIET LN MADE CONT WITH FI
 
+.... (Santa Fe Fire) LANDING ZONE 15117 WALNUT ST Event spawned from STROKE. [03/04/2012 21:08:14 BSCOTT] {SFMED1} NEED LF OUT HERE [03/04/12 21:07:26 BSCOTT] CALLER ADV HE ASKED HIS WIFE IF SHE KNEW WHO HE WAS AND SHE THOUGHT HE WAS AN EMT.. [0
+.... (Santa Fe Fire) POLE FIRE 5318 IKE FRANK RD CLR ADV THERE WAS A TRANSFORMER ON FIRE AT THIS ADDRESS. AVD THAT IT IS OUT. HAS STOPPED SMOKING [03/04/12 07:48:36 JIDEMA]
+
  */
 
 public class TXGalvestonCountyParser extends DispatchOSSIParser {
+  
+  private static final Pattern SUBJECT_PTN = Pattern.compile(".* FIRE", Pattern.CASE_INSENSITIVE);
   
   public TXGalvestonCountyParser() {
     super("GALVESTON COUNTY", "TX",
@@ -42,8 +47,9 @@ public class TXGalvestonCountyParser extends DispatchOSSIParser {
   
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
-    if (subject.length() == 0) return false;
+    if (! SUBJECT_PTN.matcher(subject).matches()) return false;
     data.strSource = subject;
+    if (!body.startsWith("CAD:")) body = "CAD:" + body;
     return super.parseMsg(body, data);
   }
   
