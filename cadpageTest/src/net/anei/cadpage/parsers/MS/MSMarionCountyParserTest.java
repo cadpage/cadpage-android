@@ -97,6 +97,33 @@ public class MSMarionCountyParserTest extends BaseParserTest {
         "CITY:SANDY HOOK",
         "NAME:LEWIS, MARY",
         "ID:2012-0000001643");
+  }
+  
+  @Test
+  public void testProwler() {
+
+    doTest("T1",
+        "911-CENTER:SIG72 >MEDICAL CALL 221 NEW HOPE KOKOMO RD FOXWORTH AT&T MOBILITY Map: Grids:, Cad: 2012-0000004183",
+        "CALL:MEDICAL CALL",
+        "ADDR:221 NEW HOPE KOKOMO RD",
+        "CITY:FOXWORTH",
+        "NAME:AT&T MOBILITY",
+        "ID:2012-0000004183");
+
+    doTest("T2",
+        "911-CENTER:SIG72 >MEDICAL CALL 1837 HWY 35 S FOXWORTH Map: Grids:, Cad: 2012-0000004092",
+        "CALL:MEDICAL CALL",
+        "ADDR:1837 HWY 35 S",
+        "CITY:FOXWORTH",
+        "ID:2012-0000004092");
+
+    doTest("T3",
+        "911-CENTER:SIG72 >MEDICAL CALL 1831 HWY 35 S FOXWORTH RILEY, BETTY Map: Grids:, Cad: 2012-0000004015",
+        "CALL:MEDICAL CALL",
+        "ADDR:1831 HWY 35 S",
+        "CITY:FOXWORTH",
+        "NAME:RILEY, BETTY",
+        "ID:2012-0000004015");
 
   }
   
