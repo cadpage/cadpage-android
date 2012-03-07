@@ -60,17 +60,22 @@ Sender: scmproducts@optonline.net
 *** 16 *** 257 E 17 CS: LENOX RD ADTML: 17-A-1 TOA: 10:16 02-05-12 2012-000535 TYPE: FALLS LOC: 257A E 17 ST HUNTIS   CROSS: LENOX RD
 *** 16 *** 2 MATHER CT CS: STRATTON DR ADTML: 6-C-1 TOA: 08:00 02-05-12 2012-000533 TYPE: RESPIRATORY LOC: 2 MATHER CT HUNTIS   CROSS
 
+Contact: edepasquale@commackfd.org
+Sender: paging2@firerescuesystems.xohost.com
+***23 CO Call No Symptoms*** 14 EMPIRE CT COMMACK CS: PIMLICO DR  - CUL DE SAC TOA: 06:18 03-07-12
+
 */
 
 public class NYSuffolkCountyBParser extends FieldProgramParser {
   
-  private static final String[] CITY_LIST = new String[]{
-    "PORT JEFFERSON", "BELLE TERRE", "MOUNT SINAI", "STONY BROOK", "MILLER PLACE", "CORAM"
-  };
-  
   public NYSuffolkCountyBParser() {
     super(CITY_LIST, "SUFFOLK COUNTY", "NY",
            "ADDR/SP! CS:X! ADTML:CODE? TOA:TIMEDATE TYPE:INFO LOC:SKIP");
+  }
+  
+  @Override
+  public String getFilter() {
+    return "@firerescuesystems.xohost.com,scmproducts@optonline.net";
   }
   
   @Override
@@ -89,8 +94,13 @@ public class NYSuffolkCountyBParser extends FieldProgramParser {
     }
     return true;
   }
+  
+  @Override
+  public String getProgram() {
+    return "CALL " + super.getProgram();
+  }
 
-  private static final Pattern TIME_DATE = Pattern.compile("^(\\d\\d:\\d\\d) (\\d\\d[-/]\\d\\d[-/]\\d\\d) ");
+  private static final Pattern TIME_DATE = Pattern.compile("^(\\d\\d:\\d\\d) (\\d\\d[-/]\\d\\d[-/]\\d\\d)\\b");
   private static final Pattern ANGLE_BKT_PTN = Pattern.compile("<[^<>]*>");
   private static final Pattern ID_PTN = Pattern.compile("\\b\\d{4}-\\d{6}\\b");
   private static final Pattern DISTRICT_PTN = Pattern.compile("\\b(?:NORTH BABYLON FC|AMITYVILLE FD|DEER PARK FIRE DISTRICT|PT JEFFERSON)\\b");
@@ -145,8 +155,13 @@ public class NYSuffolkCountyBParser extends FieldProgramParser {
     return super.getField(name);
   }
   
-  @Override
-  public String getProgram() {
-    return "CALL " + super.getProgram();
-  }
+  private static final String[] CITY_LIST = new String[]{
+    "BELLE TERRE", 
+    "COMMACK",
+    "CORAM",
+    "MOUNT SINAI", 
+    "MILLER PLACE", 
+    "PORT JEFFERSON", 
+    "STONY BROOK" 
+  };
 }
