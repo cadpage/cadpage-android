@@ -406,9 +406,18 @@ public class NYSuffolkCountyBParserTest extends BaseParserTest {
         "TIME:08:00",
         "DATE:02-05-12",
         "ID:2012-000533");
+
+    doTest("T39",
+        "***23 CO Call No Symptoms*** 14 EMPIRE CT COMMACK CS: PIMLICO DR  - CUL DE SAC TOA: 06:18 03-07-12",
+        "CALL:23 CO Call No Symptoms",
+        "ADDR:14 EMPIRE CT",
+        "CITY:COMMACK",
+        "X:PIMLICO DR  - CUL DE SAC",
+        "TIME:06:18",
+        "DATE:03-07-12");
   }
   
   public static void main(String[] args) {
-    new NYSuffolkCountyBParserTest().generateTests("T39");
+    new NYSuffolkCountyBParserTest().generateTests("T1");
   }
 }
