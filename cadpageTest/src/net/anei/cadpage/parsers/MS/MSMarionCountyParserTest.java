@@ -125,6 +125,14 @@ public class MSMarionCountyParserTest extends BaseParserTest {
         "NAME:RILEY, BETTY",
         "ID:2012-0000004015");
 
+    doTest("T4",
+        "911-CENTER:SIG34 >FIGHT 238 JONES RD FOXWORTH DUNCAN, JOSEPH Map: Grids:, Cad: 2012-0000004278",
+        "CALL:FIGHT",
+        "ADDR:238 JONES RD",
+        "CITY:FOXWORTH",
+        "NAME:DUNCAN, JOSEPH",
+        "ID:2012-0000004278");
+
   }
   
   public static void main(String[] args) {
