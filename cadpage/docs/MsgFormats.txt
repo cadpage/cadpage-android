@@ -1873,6 +1873,11 @@ Chester County, PA (PAChesterCountyFParser)
 (Dispatch) CARDIAC/RESP ARREST - ALS * ** 167 MOUNT PLEASANT RD ,69 ** ENOTT **  ** GRANT ST & COOPER LA ** - ** 48/F--LIPS BLUE\nDETAILS TO FOLLOW\n**
 (Dispatch) ALARM - FIRE * ** 117 HYACINTH DR ,71 ** NEWLON ** THUNDER HILL ** RIDGE DR & MCBERTY CT ** - ** SMOKE ALARM GOING OFF - NO VIS SMOKE - 2ND FLO\nOR **
 ***************************************************************************
+Dauphin County, PA (PADauphinCountyParser)
+(29CAD) [!] Box:29-1 Loc:31 S RIVER RD HFT DAUP XSts:PETERS MOUNTAIN RD ,SYCAMORE AV Event Type:OVERDOSE / POISONING (INGESTION) Class: 1 Disp: P29
+(29CAD) [!] Box:29-6 Loc:100 S FOURTH ST HFX DAUP: @BEER AND SODA PLUS XSts:RISE ST ,PETERS MOUNTAIN RD Event Type:TRAFFIC / TRANSPORTATION ACCIDENT INJURIES Class: Disp: E29-1
+(29CAD) [!] Box:29-6 Loc:123 RIVERVIEW DR HFT DAUP Event Type:CHEST PAIN Class: 1 Disp: 13-2,6-4
+***************************************************************************
 Delaware County, PA (PADelawareCountyAParser)
 13:59*FIRE-NON - NON BLDG RESPONSE*643 CONCHESTER HWY*CHELSEA PKWY*610-859-8920,~ MULCH ON ISLAND NEAR STOP SIGN IN CORNER OF THE PARKING LOT
 13:42*ALARM -*785 CHERRY TREE RD B*HIDDEN VALLEY RD*OFFICE #610-494-8583,ESZ 406,APT B3 CMCST VOIP CALL,~ HALLWAY SMOKE DETECTOR,OFFICE #610-494-8583,ESZ 406,
@@ -3880,11 +3885,6 @@ Contact: Craig Spry <kcspry@gmail.com>
 Sender: paging@rcscom.com
 Subject:Incoming Message\n9717 Tidal Ct                           STANDBY LAND SEARCH           Bravo               42- Fire/Police
 **********************************************************
-Delaware County, PA
-Contact: Thomas Dobbins <tdobbins53@gmail.com>
-Sender: bfc53@comcast.net
-[Update]**AUTOMATIC FIRE ALARM**2725 WEST CHESTER PKE LAW**S MALIN RD**SCHOOL HOUSE LN**13:23**02/04/2012**MULTIPLE LISTING,~ COMPUTER STORE,
-**********************************************************
 Marshall County, IN (alternate)
 Contact: Boz Williams <bozw41@gmail.com>
 Sender: DISPATCH@co.starke.in.us
@@ -3951,13 +3951,6 @@ Sender: 93001023
 OUTSIDE FIRE AT MM 175 SB // WEST SIDE IN TREES/ 1/4 ACRE MED FUEL GRID 526 BN8 TRK84 ON SCENE/DOF E81 E83 T83 EN ROUTE ID 2565
 EVENT TYPE: OUTSIDE FIRE-BRUSH Location: COLFAX LN/TOWN TER NPRT G544 TIME: 17:26:42 Disp: BN8,DOF,E81,T83,TRK84
 WORKING BRUSH FIRE @ 3261 TOWN TER NORTH PORT, XST YEADON TER, APX 1/4 ACRE// MED TO HEAVY FUEL// FAST MOVING// UNITS ON SCENE // FD3 DISPATCH 2641 B82 B83 BN8 DOF E81 RAV84 T83 TRK84
-**********************************************************
-Unknown
-Contact: Chris Gros <gichristopher6@gmail.com>
-Sender: rc.464@c-msg.net
-CodeMessaging client 446
-(29CAD) [!] Box:29-1 Loc:31 S RIVER RD HFT DAUP XSts:PETERS MOUNTAIN RD ,SYCAMORE AV Event Type:OVERDOSE / POISONING (INGESTION) Class: 1 Disp: P29
-**********************************************************
 **********************************************************
 **********************************************************
 **********************************************************
@@ -4092,6 +4085,17 @@ Rig existing parser to not depend on 9300 sender address
 (Call) NE ACT FOR A ENGINE M/A TO LAKEVIEW FOR AN AUTO ACCIDENT ROUTE 5 AND OLD LAKESHORE RD?\n
 (Call) WIRES DOWN 7967 KEENE RD @ BURNS DISP NE - PATROL REQUESTING A CHIEF TO THE SCENE FOR WIRES IN THE TREE ARCHING?\n
 **********************************************************
- 
-
-
+Delaware County, PA
+Contact: Thomas Dobbins <tdobbins53@gmail.com>
+Sender: bfc53@comcast.net
+[Update]**AUTOMATIC FIRE ALARM**2725 WEST CHESTER PKE LAW**S MALIN RD**SCHOOL HOUSE LN**13:23**02/04/2012**MULTIPLE LISTING,~ COMPUTER STORE,
+STREET CLOSED**REED RD & S PARKWAY BLVD**REED RD**S PARKWAY BLVD**09:14**03/06/2012**Field Event,REED RD CLOSED FROM PARKWAY TO MARPIT
+VEHICLE FIRE**467 LAWRENCE RD**WARREN BLVD**SPRINGHOUSE RD**08:00**03/06/2012**610-353-3644,BEHIND DR BRENNER'S BLDG,-075.349238
+WITH ENTRAPMENT**40 S NEWTOWN STREET RD**REESE AV**MARY JANE LN**04:22**03/06/2012**610-356-9755,~OVERTURNED,501 LANSDOWNE AV UD,ER: @DELAWAR\r
+NATURAL GAS LEAK, INSIDE**400 S STATE RD**US HWY 1 NB**US HWY 1 SB**20:35**03/05/2012*** USE @name LOOKUP OR APT % FOR ALL INCIDENTS AT THIS \r
+AUTOMATIC FIRE ALARM**104 RED FOX PL**TROUT RUN DR**TROUT RUN DR**15:19**03/04/2012**~ RES MARTIN,~ SMOKE DET. HALLWAY,OBN,RES 610-356-0622, \r
+BUILDING FIRE, RES/DWELLING**20 OBERLIN AV**DARTMOUTH AV**LAFAYETTE AV**05:12**03/05/2012**~ODOR OF SMOKE IN BLDG, **M102/147/132/131/RE44/TW\r
+AUTOMATIC FIRE ALARM**1797 S SPROUL RD**W SPROUL RD**CRUM CREEK RD**20:04**03/05/2012**610-543-3350,~PIANELLO BLSG,OBN, **532\r
+BUILDING FIRE, RES/DWELLING**200 DARTMOUTH AV**OBERLIN AV**S PRINCETON AV**07:56**03/06/2012**~SMOKE IN THE BASEMENT,~ALSO HEARS A HISSING NO\r
+**********************************************************
+**********************************************************
