@@ -597,7 +597,8 @@ public class MsgInfo {
             (prefix.equalsIgnoreCase(state) ||
              prefix.equalsIgnoreCase("CO") ||
              prefix.equalsIgnoreCase("US") ||
-             prefix.equalsIgnoreCase("ST"))) {
+             prefix.equalsIgnoreCase("ST") ||
+             prefix.equalsIgnoreCase("FM"))) {
           sb.append(sAddress.substring(lastPt, match.start()));
           sb.append(prefix);
           sb.append(' ');
@@ -810,7 +811,4 @@ public class MsgInfo {
       sb.append(value);
     }
   }
-
-
-
 }
