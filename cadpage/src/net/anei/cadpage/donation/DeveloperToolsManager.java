@@ -63,12 +63,13 @@ public class DeveloperToolsManager {
     "Reset release info",
     "Content Query",
     "Recent Tasks",
-    "Stat: Roll Last Date"
+    "Stat: Roll Last Date",
+    "Set Cadpage Parser"
     
   };
   
   private static final String[] valueList = new String[]{
-    "31", "32", "33", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11"
+    "31", "32", "33", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"
   };
   
   private class DeveloperListPreference extends ListPreference {
@@ -165,6 +166,10 @@ public class DeveloperToolsManager {
         
       case 11:    // Roll last date
         ManagePreferences.rollLastAuthDate("01012000");
+        break;
+        
+      case 12:    // Set Cadpage Parser
+        ManagePreferences.setLocation("Cadpage");
         break;
         
       case 31:    // C2DM Register

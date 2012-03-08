@@ -60,17 +60,16 @@ Sender: scmproducts@optonline.net
 *** 16 *** 257 E 17 CS: LENOX RD ADTML: 17-A-1 TOA: 10:16 02-05-12 2012-000535 TYPE: FALLS LOC: 257A E 17 ST HUNTIS   CROSS: LENOX RD
 *** 16 *** 2 MATHER CT CS: STRATTON DR ADTML: 6-C-1 TOA: 08:00 02-05-12 2012-000533 TYPE: RESPIRATORY LOC: 2 MATHER CT HUNTIS   CROSS
 
+Contact: Stupman1975 <stupman1975@gmail.com>
+Sender: masticambco@optonline.net
+***16-26 Sick*** ***26-A-1*** 139 SHINNECOCK AV CS: BETTS PL / MASTIC RD TOA: 10:13 03/07/12 26-A-1 2012-000419 \n
+
 Contact: edepasquale@commackfd.org
 Sender: paging2@firerescuesystems.xohost.com
 ***23 CO Call No Symptoms*** 14 EMPIRE CT COMMACK CS: PIMLICO DR  - CUL DE SAC TOA: 06:18 03-07-12
 ***24 Mutual Aid R.I.T.***  ROBIN DR COMMACK CS: NEW HWY TOA: 20:25  
 ***23 Motor Vehicle Accident***  LEFFERTS PL CS: ELWOOD RD TOA: 17:58 03-07-12
-
-Contact: Stupman1975 <stupman1975@gmail.com>
-Sender: masticambco@optonline.net
-***16-26 Sick*** ***26-A-1*** 139 SHINNECOCK AV CS: BETTS PL / MASTIC RD TOA: 10:13 03/07/12 26-A-1 2012-000419 \n
-
-
+***13 Residential Automatic Fire Alarm*** 34 MCARTHUR LN SMITHTOWN CS: LAUREL DR  - LEDGEWOOD DR TOA: 10:02 03-08-12
 
 */
 
@@ -169,7 +168,8 @@ public class NYSuffolkCountyBParser extends FieldProgramParser {
     "CORAM",
     "MOUNT SINAI", 
     "MILLER PLACE", 
-    "PORT JEFFERSON", 
+    "PORT JEFFERSON",
+    "SMITHTOWN",
     "STONY BROOK" 
   };
 }
