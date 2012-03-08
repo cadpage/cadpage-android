@@ -69,6 +69,7 @@ public class TXGalvestonCountyParserTest extends BaseParserTest {
         "SRC:Santa Fe Fire",
         "CALL:LINE DOWN",
         "ADDR:1946 N FM 646 RD",
+        "MADDR:1946 N FM 646",
         "X:HARRIETT LN",
         "INFO:LINE DOWN ON THE GROUND",
         "DATE:11/03/11",

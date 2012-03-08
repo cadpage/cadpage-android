@@ -163,7 +163,8 @@ public class NJHunterdonCountyParserTest extends BaseParserTest {
         "CALL:AMB NEEDB",
         "CITY:Readington Twp",
         "PLACE:CHUBB CORPORATION BUILDING A",
-        "ADDR:202 HALLS MILL RD #BLD A",
+        "ADDR:202 HALLS MILL RD",
+        "APT:BLD A",
         "X:R523 TO TAYLORS MILL RD",
         "ID:12007402",
         "INFO:50'S YOF::ELEVATED BP NAUSEAS / PT IN NUR");
