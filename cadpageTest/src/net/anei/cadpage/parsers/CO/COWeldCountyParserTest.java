@@ -502,7 +502,7 @@ public class COWeldCountyParserTest extends BaseParserTest {
   }
   
   @Test
-  public void testParser2() {
+  public void testDougGilliland() {
 
     doTest("T1",
         "Dispatch / GFD \nSI\n3206 70TH AVE\nGF5\nE5\nchest pain\n",
