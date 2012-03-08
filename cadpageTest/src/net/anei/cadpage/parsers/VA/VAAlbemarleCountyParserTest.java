@@ -91,6 +91,18 @@ public class VAAlbemarleCountyParserTest extends BaseParserTest {
         "X:100 STRATFORD CT");
   }
   
+  @Test
+  public void testCharlesThomas() {
+
+    doTest("T1",
+        "NORTHGARDE TREE DOWN AD: 900 MONACAN TRAIL RD CTY: AC LOC: NB 2 TREES DOWN BLOCKING THE NB LANES XST: CROSSOVER XST2: CROSSOVER\\r",
+        "SRC:NORTHGARDE",
+        "CALL:TREE DOWN",
+        "ADDR:900 MONACAN TRAIL RD",
+        "INFO:NB 2 TREES DOWN BLOCKING THE NB LANES",
+        "X:CROSSOVER & CROSSOVER\\r");
+  }
+  
   public static void main(String[] args) {
     new VAAlbemarleCountyParserTest().generateTests("T1");
   }
