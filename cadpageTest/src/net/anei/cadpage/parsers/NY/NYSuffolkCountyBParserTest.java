@@ -408,6 +408,18 @@ public class NYSuffolkCountyBParserTest extends BaseParserTest {
         "ID:2012-000533");
 
     doTest("T39",
+        "***16-26 Sick*** ***26-A-1*** 139 SHINNECOCK AV CS: BETTS PL  / MASTIC RD TOA: 10:13 03/07/12 26-A-1 2012-000419 \n",
+        "CALL:16-26 Sick",
+        "PLACE:***26-A-1**",
+        "ADDR:139 SHINNECOCK AV",
+        "MADDR:139 SHINNECOCK AVE",
+        "X:BETTS PL  / MASTIC RD",
+        "TIME:10:13",
+        "DATE:03/07/12",
+        "ID:2012-000419",
+        "INFO:26-A-1");
+
+    doTest("T40",
         "***23 CO Call No Symptoms*** 14 EMPIRE CT COMMACK CS: PIMLICO DR  - CUL DE SAC TOA: 06:18 03-07-12",
         "CALL:23 CO Call No Symptoms",
         "ADDR:14 EMPIRE CT",
@@ -415,7 +427,25 @@ public class NYSuffolkCountyBParserTest extends BaseParserTest {
         "X:PIMLICO DR  - CUL DE SAC",
         "TIME:06:18",
         "DATE:03-07-12");
-  }
+
+    doTest("T41",
+        "***24 Mutual Aid R.I.T.***  ROBIN DR COMMACK CS: NEW HWY TOA: 20:25  ",
+        "CALL:24 Mutual Aid R.I.T.",
+        "ADDR:ROBIN DR",
+        "MADDR:ROBIN DR & NEW HWY",
+        "CITY:COMMACK",
+        "X:NEW HWY",
+        "TIME:20:25");
+
+    doTest("T42",
+        "***23 Motor Vehicle Accident***  LEFFERTS PL CS: ELWOOD RD TOA: 17:58 03-07-12",
+        "CALL:23 Motor Vehicle Accident",
+        "ADDR:LEFFERTS PL",
+        "MADDR:LEFFERTS PL & ELWOOD RD",
+        "X:ELWOOD RD",
+        "TIME:17:58",
+        "DATE:03-07-12");
+ }
   
   public static void main(String[] args) {
     new NYSuffolkCountyBParserTest().generateTests("T1");

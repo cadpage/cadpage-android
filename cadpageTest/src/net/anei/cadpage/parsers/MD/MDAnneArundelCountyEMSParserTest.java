@@ -379,12 +379,77 @@ public class MDAnneArundelCountyEMSParserTest extends BaseParserTest {
         "CH:Echo",
         "UNIT:E29,TA5,QNT4,E10,SQ43,TK45,E45,TK28,E34,MU21,BC1,SCA1",
         "TIME:19:20");
+
+    doTest("T21",
+        "[] *MEDICAL BOX 5-27 1068 RT3 S (CAPITOL RACEWAY RD/HOLSON RD) 17-K1 E5,PM5,TRO,A7 CARDIAC ARREST; 0633 RR>HOW Y>OTH [1/48]  /17d-8/ \n",
+        "BOX:5-27",
+        "CALL:CARDIAC ARREST",
+        "ADDR:1068 RT3 S",
+        "MADDR:1068 RT 3 S",
+        "X:CAPITOL RACEWAY RD/HOLSON RD",
+        "MAP:17-K1",
+        "UNIT:E5,PM5,TRO,A7",
+        "TIME:06:33",
+        "INFO:RR>HOW Y>OTH");
+
+    doTest("T22",
+        "[] *Medical Box 7-18 1260 DEFENSE HWY  [AUTUMN MEADOWS] 18-D7 A7 ABDOM PAIN; 0823 RR>HOW Y>OTH [2/49]  /4d-128/ \n",
+        "BOX:7-18",
+        "CALL:ABDOM PAIN",
+        "ADDR:1260 DEFENSE HWY",
+        "PLACE:AUTUMN MEADOWS",
+        "MAP:18-D7",
+        "UNIT:A7",
+        "TIME:08:23",
+        "INFO:RR>HOW Y>OTH");
+
+    doTest("T23",
+        "[] Medical Box 6-23 775 SNODGRASS RD (BISHOP RD) 14-G9 E5,A7 SICK PERSON; 1227 RR>HOW Y>OTH [3/50] \n",
+        "BOX:6-23",
+        "CALL:SICK PERSON",
+        "ADDR:775 SNODGRASS RD",
+        "X:BISHOP RD",
+        "MAP:14-G9",
+        "UNIT:E5,A7",
+        "TIME:12:27",
+        "INFO:RR>HOW Y>OTH");
+
+    doTest("T24",
+        "[] Local Alarm 7-18 2026 HERMITAGE HILLS DR (JUSTIN DR/JUSTIN DR) 18-F7 E73 ALARMS/NON HIGH LIFE (HOT); RES: GUHA KEYPAD FIRE ALARM  1546 [4/51] \n",
+        "BOX:7-18",
+        "CALL:ALARMS/NON HIGH LIFE (HOT); RES: GUHA KEYPAD FIRE ALARM",
+        "ADDR:2026 HERMITAGE HILLS DR",
+        "X:JUSTIN DR/JUSTIN DR",
+        "MAP:18-F7",
+        "UNIT:E73",
+        "TIME:15:46");
+
+    doTest("T25",
+        "[] Box Alarm 28-15 MAYFIELD RD/URBAN RD 12-J1 Echo E28,QNT4,E5,TW26,TK33,SQ7,MU6,BC1,SCA DWELLING FIRE (HOT); FRONT PORCH ON FIRE  1610 [5/52] \n",
+        "BOX:28-15",
+        "CALL:DWELLING FIRE (HOT); FRONT PORCH ON FIRE",
+        "ADDR:MAYFIELD RD & URBAN RD",
+        "MAP:12-J1",
+        "CH:Echo",
+        "UNIT:E28,QNT4,E5,TW26,TK33,SQ7,MU6,BC1,SCA",
+        "TIME:16:10");
+
+    doTest("T26",
+        "[] *MEDICAL Box 7-16 1724 FOXDALE CT (CASTLEFORD SQ/KINGSGATE DR) 18-C4 SQ7,MU6 ALLERGIC RXN; 1623 RR>AAM,HOW Y>OTH [6/53]  /4m-2/ \n",
+        "BOX:7-16",
+        "CALL:ALLERGIC RXN",
+        "ADDR:1724 FOXDALE CT",
+        "X:CASTLEFORD SQ/KINGSGATE DR",
+        "MAP:18-C4",
+        "UNIT:SQ7,MU6",
+        "TIME:16:23",
+        "INFO:RR>AAM,HOW Y>OTH");
    
   }
 
 
   public static void main(String[] args) {
-    new MDAnneArundelCountyEMSParserTest().generateTests("T19", "BOX CALL ADDR APT CITY PLACE X MAP CH UNIT TIME INFO");
+    new MDAnneArundelCountyEMSParserTest().generateTests("T21", "BOX CALL ADDR APT CITY PLACE X MAP CH UNIT TIME INFO");
   }
   
 }
