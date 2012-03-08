@@ -445,7 +445,16 @@ public class NYSuffolkCountyBParserTest extends BaseParserTest {
         "X:ELWOOD RD",
         "TIME:17:58",
         "DATE:03-07-12");
- }
+
+    doTest("T43",
+        "***13 Residential Automatic Fire Alarm*** 34 MCARTHUR LN SMITHTOWN CS: LAUREL DR  - LEDGEWOOD DR TOA: 10:02 03-08-12",
+        "CALL:13 Residential Automatic Fire Alarm",
+        "ADDR:34 MCARTHUR LN",
+        "CITY:SMITHTOWN",
+        "X:LAUREL DR  - LEDGEWOOD DR",
+        "TIME:10:02",
+        "DATE:03-08-12");
+}
   
   public static void main(String[] args) {
     new NYSuffolkCountyBParserTest().generateTests("T1");
