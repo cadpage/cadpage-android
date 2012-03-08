@@ -3950,6 +3950,10 @@ FELL AND HIT HER HEAD // IS BLEEDING // NOT ON BLOOD THINNERS // FELL WHILE USIN
 Y/ /UNKN INJURIES //ALTER MENTAL STATUS TAU3 ,TSFD1 Name(HOOD, JIMMY) P#/Type(476-0036/ City = BRIGHTON ,State = ,Zip C (0 E
 - null - Ic# 169 MVCU Ds# 540916 Al# 1 Utl# HIL-LTO 02/28/12 5021 HWY 14 S HY TC :( ) HILLTOP CR SINGLE VEHICLE VS DEER UN
 **********************************************************
+Burlington County, NJ (alternate?)
+Contact: John Hamilton <skinink66@gmail.com>
+[MLCAD] EMS E EMS Call Loc: 5142 CHURCH RD Ven: Mt Laurel XS: PREAKNESS DR/SHARP RD Nature: SON IS CHOKING // 15:44:31 02/14/2012
+**********************************************************
 **********************************************************
 **********************************************************
 **********************************************************
@@ -4013,19 +4017,6 @@ HAMBDEN FD RESCUE NEEDED AT 14050 GAR HWY FOR A 21 YOM IN AND OUT OF CONCIOUSNES
 2nd Page for FIU to 15279 Hemlock Point Russell Twp for the Structure Fire.
 **********************************************************
 **********************************************************
-**********************************************************
-Burlington County, NJ (alternate?)
-Contact: John Hamilton <skinink66@gmail.com>
-[MLCAD] EMS E EMS Call Loc: 5142 CHURCH RD Ven: Mt Laurel XS: PREAKNESS DR/SHARP RD Nature: SON IS CHOKING // 15:44:31 02/14/2012
-
-Contact: Robert Allen <rallen7779@gmail.com>
-Sender: chief1300@comcast.net
-Messenger 911 / [Update]\n18:43:42\n133 E TrfcEntp\n5010\nSOUTH AV\nPINE ST\nPINE ST\n
-Messenger 911 / 18:43:42\n129 E AccInjry\n5010\nSOUTH AV\nPINE ST\nPINE ST\n
-Messenger 911 / [Update]\n22:39:55\n16 F Alarms\n1321\n691 EAYRESTOWN RD\nMUNICIPAL DR/RT38\n609.267.1224/GENERAL ALARM
-Messenger 911 / 14:29:55\n132 E UnkMedEmrg\n1310\n4 HEMSING DR\nMAIN ST/ESTATE RD\nMALE WITH FOOT INJURY\nWPH2:
-Messenger 911 / [Update]\n14:57:17\n129F E Mva/Fire\n1311\n1740 E RT38\nEAYRESTOWN RD/SMITHVILLE RD\n1 VEH OVERTURNED//OCCUPANTS ST\nIFO\n
-Messenger 911 / [Update]\n10:34:13\n129F E Mva/Fire\n1340\nE RT38\nMT HOLLY BP\nWHI PICKUP TRUCK FLIPPED OVER \nWRLS:\2sPCS/WIRELESS DEFAULT\n
 **********************************************************
 Suffolk County, NY (alternate)
 Contact: Brandon Tishim <tishimb@gmail.com>
