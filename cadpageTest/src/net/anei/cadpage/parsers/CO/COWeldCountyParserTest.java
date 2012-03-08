@@ -501,6 +501,54 @@ public class COWeldCountyParserTest extends BaseParserTest {
 
   }
   
+  @Test
+  public void testParser2() {
+
+    doTest("T1",
+        "Dispatch / GFD \nSI\n3206 70TH AVE\nGF5\nE5\nchest pain\n",
+        "CODE:SI",
+        "CALL:SICK AND INJURED FIRE/EMS",
+        "ADDR:3206 70TH AVE",
+        "SRC:GF5",
+        "UNIT:E5",
+        "INFO:chest pain");
+
+    doTest("T2",
+        "GFD\n" +
+        "SI\n" +
+        "5436 24TH ST\n" +
+        "GF5\n" +
+        "E5\n" +
+        "HUSBAND FELL, RP NOT ON SCENE\n" +
+        "ProQA Medical Recommended Dispatch Level = 17A03G\n" +
+        "You are responding to a patient involved in a fall. ",
+
+        "CODE:17A03G",
+        "CALL:SICK AND INJURED FIRE/EMS",
+        "ADDR:5436 24TH ST",
+        "SRC:GF5",
+        "UNIT:E5",
+        "INFO:HUSBAND FELL, RP NOT ON SCENE / You are responding to a patient involved in a fall.");
+
+    doTest("T3",
+        "BCOF\n" +
+        "SI\n" +
+        "D\n" +
+        "3722 MONTEREY PL\n" +
+        "BORUF\n" +
+        "2224\n" +
+        "WILL BE A TRANSPORT FOR M1 ...FEMALE IN HER MID 20'S..ENTER THE DOOR ON THELEFT\n" +
+        "SIDE OF THE HOUSE SLIDING GLASS DOORS &",
+
+        "CODE:SI",
+        "CALL:SICK AND INJURED FIRE/EMS",
+        "ADDR:3722 MONTEREY PL",
+        "SRC:BORUF",
+        "UNIT:2224",
+        "INFO:WILL BE A TRANSPORT FOR M1 ...FEMALE IN HER MID 20'S..ENTER THE DOOR ON THELEFT / SIDE OF THE HOUSE SLIDING GLASS DOORS &");
+    
+  }
+  
   public static void  main(String[] args) {
     new COWeldCountyParserTest().generateTests("T1");
   }
