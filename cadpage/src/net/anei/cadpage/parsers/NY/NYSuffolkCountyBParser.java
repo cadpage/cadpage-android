@@ -63,6 +63,14 @@ Sender: scmproducts@optonline.net
 Contact: edepasquale@commackfd.org
 Sender: paging2@firerescuesystems.xohost.com
 ***23 CO Call No Symptoms*** 14 EMPIRE CT COMMACK CS: PIMLICO DR  - CUL DE SAC TOA: 06:18 03-07-12
+***24 Mutual Aid R.I.T.***  ROBIN DR COMMACK CS: NEW HWY TOA: 20:25  
+***23 Motor Vehicle Accident***  LEFFERTS PL CS: ELWOOD RD TOA: 17:58 03-07-12
+
+Contact: Stupman1975 <stupman1975@gmail.com>
+Sender: masticambco@optonline.net
+***16-26 Sick*** ***26-A-1*** 139 SHINNECOCK AV CS: BETTS PL / MASTIC RD TOA: 10:13 03/07/12 26-A-1 2012-000419 \n
+
+
 
 */
 
@@ -100,7 +108,7 @@ public class NYSuffolkCountyBParser extends FieldProgramParser {
     return "CALL " + super.getProgram();
   }
 
-  private static final Pattern TIME_DATE = Pattern.compile("^(\\d\\d:\\d\\d) (\\d\\d[-/]\\d\\d[-/]\\d\\d)\\b");
+  private static final Pattern TIME_DATE = Pattern.compile("^(\\d\\d:\\d\\d)(?: (\\d\\d[-/]\\d\\d[-/]\\d\\d))?\\b");
   private static final Pattern ANGLE_BKT_PTN = Pattern.compile("<[^<>]*>");
   private static final Pattern ID_PTN = Pattern.compile("\\b\\d{4}-\\d{6}\\b");
   private static final Pattern DISTRICT_PTN = Pattern.compile("\\b(?:NORTH BABYLON FC|AMITYVILLE FD|DEER PARK FIRE DISTRICT|PT JEFFERSON)\\b");
@@ -111,7 +119,7 @@ public class NYSuffolkCountyBParser extends FieldProgramParser {
       Matcher match = TIME_DATE.matcher(field);
       if (!match.find()) abort();
       data.strTime = match.group(1);
-      data.strDate = match.group(2);
+      data.strDate = getOptGroup(match.group(2));
       field = field.substring(match.end()).trim();
       field = ANGLE_BKT_PTN.matcher(field).replaceAll("");
      match = DISTRICT_PTN.matcher(field);
