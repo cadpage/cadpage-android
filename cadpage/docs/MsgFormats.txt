@@ -2143,10 +2143,15 @@ Eau Claire, WI (VAEauClaireParser)
 [Case# 11-252]  @7:21:18 PM // Washington // 4940 Meadowbrook Ln // Sounding Fire Alarm // sounding fire alarm, showing 1st & 2nd floor smoke detector
 [Case# 11-251]  @4:03:35 PM // Washington // 4400 blk South Lowes creek  rd // Fire //
 ***************************************************************************
-Kenosha County, WI (WIKenoshaCountyParser)
+Kenosha County, WI (WIKenoshaCountyAParser)
 LMC213 #:002011070865 ILS MED at 7701 95TH ST Rem: 50 M ;HEART PROBLEM CONSCIOUS: YES ,BREATHING: YES
 NLB260 #:002011071148 ALS MED at 4204 109TH ST Rem: 69 F ;CHEST PAIN CONSCIOUS: YES ,BREATHING: YES
 DMB193 #:002011072020 BLS MED at 10519 120TH AVE EAST TOURIST INFO CNTR Rem: CHEST PAIN
+***************************************************************************
+Kenosha County, WI (WIKenoshaCountyBParser)
+6245  CAD¡plprairiewi.com Subject:Phoenix Notification 2012000155 ä02/09/2012 03:24:52ñ MED CALL - Medical Callä1ñ 11623 28th Ave Units: 5641 Comments:
+6245: CAD¡plprairiewi.com Subject:Phoenix Notification 2012000152 ä02/08/2012 16:54:48ñ MED CALL - Medical Callä1ñ 9500BLK 88th Ave Units: 5642 Comments
+6245: CAD¡plprairiewi.com Subject:Phoenix Notification 2012000153 ä02/08/2012 17:47:01ñ FIRE STR - Fire - Structureä1ñ 8000 95th St Units: 5691 5641 56
 ***************************************************************************
 West Midlands, UK (ZUKWestMidlandsParser)
 E:1699 (16:45) Unconscious DY8 4JA The Brambles Residential Home 69a Vicarage Road Amblecote Stourbridge (390070,285129)
@@ -4007,17 +4012,6 @@ Fire Depts are needed at Twilight Stables in the horse barn at 12759 Mill View L
 HAMBDEN FD RESCUE NEEDED AT 14050 GAR HWY FOR A 21 YOM IN AND OUT OF CONCIOUSNESS POSSIBLE ALLERGIC REACTION 2800/BMR
 2nd Page for FIU to 15279 Hemlock Point Russell Twp for the Structure Fire.
 **********************************************************
-Kenosha County, WI Village of Pleasant Prairie, Pleasant Prairie Fire & Rescue
-Contact: David Wilkinson <dwilkinson@plprairiewi.com>
-Sender: CAD@plprairiewi.com
-System: Prophoenix
-6245  CAD¡plprairiewi.com Subject:Phoenix Notification 2012000155 ä02/09/2012 03:24:52ñ MED CALL - Medical Callä1ñ 11623 28th Ave Units: 5641 Comments:
-6245: CAD¡plprairiewi.com Subject:Phoenix Notification 2012000152 ä02/08/2012 16:54:48ñ MED CALL - Medical Callä1ñ 9500BLK 88th Ave Units: 5642 Comments
-6245: CAD¡plprairiewi.com Subject:Phoenix Notification 2012000153 ä02/08/2012 17:47:01ñ FIRE STR - Fire - Structureä1ñ 8000 95th St Units: 5691 5641 56
-6245: CAD¡plprairiewi.com Subject:Phoenix Notification 2012000154 ä02/08/2012 18:09:17ñ ELEV ALM - Elevator Alarmä1ñ 8330 82nd St,CMPLX Units: 5642 Comm
-6245: CAD¡plprairiewi.com Subject:Phoenix Notification 2012000151 ä02/08/2012 07:18:41ñ MED CALL - Medical Callä1ñ 11831 120th Ct Units: 5642 Comments:
-6245: CAD¡plprairiewi.com Subject:Phoenix Notification 2012000157 ä02/09/2012 18:43:23ñ MED CALL - Medical Callä1ñ 8109 57th Ave Units: 5641 Comments:
-6245: CAD¡plprairiewi.com Subject:Phoenix Notification 2012000158 ä02/09/2012 18:53:48ñ MED CALL - Medical Callä1ñ 10106 29th Ave Units: 5642 Comments:
 **********************************************************
 Weld County, CO (alternate)
 Contact: 19703712539@tmomail.net
