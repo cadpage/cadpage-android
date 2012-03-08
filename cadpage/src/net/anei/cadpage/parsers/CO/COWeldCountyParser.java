@@ -52,6 +52,12 @@ Dispatch / LAFF\nFIRESR\nD\n711 MEADOWLARK DR\nBOLFF\n22\nalready toned stn 6 mn
 22\nALARMFR\nD\n2758 IRONWOOD CIR; CAMPBELL RESIDENCE\nMV6E\n2206\nSTN 6 AND 2226.  GENERAL FIRE ALARM AND SMOKE DETECTOR.\nBOULDER ADVISING TO CANCEL.  PROPER CODES
 (Dispatch) 22\nSI\nD\n659 GRIMSON PL\nMV6E\n2206\nProQA Medical Case 10112 Aborted\2son radio\nProQA Medical Returned Error 39\2sCase already on file - Call ID 10112
 
+Contact: 19703712539@tmomail.net
+Contact: Doug Gilliland <dgilliland88@gmail.com>
+Dispatch / GFD \nSI\n3206 70TH AVE\nGF5\nE5\nchest pain\n
+GFD\nSI\n5436 24TH ST\nGF5\nE5\nHUSBAND FELL, RP NOT ON SCENE\nProQA Medical Recommended Dispatch Level = 17A03G\nYou are responding to a patient involved in a fall. 
+BCOF\nSI\nD\n3722 MONTEREY PL\nBORUF\n2224\nWILL BE A TRANSPORT FOR M1 ...FEMALE IN HER MID 20'S..ENTER THE DOOR ON THELEFT\nSIDE OF THE HOUSE SLIDING GLASS DOORS &
+
  */
 
 
@@ -63,7 +69,7 @@ public class COWeldCountyParser extends FieldProgramParser {
   
   protected COWeldCountyParser(String defCity, String defState) {
     super(defCity, defState,
-          "SKIP CALL D ADDR SRC UNIT! INFO+");
+          "SKIP ( CALL D | CALL2 ) ADDR SRC UNIT! INFO+");
   }
   
   @Override
@@ -79,10 +85,20 @@ public class COWeldCountyParser extends FieldProgramParser {
   }
   
   private class MyCallField extends CallField {
+    
+    private boolean strict;
+    
+    public MyCallField(boolean strict) {
+      this.strict = strict;
+    }
+    
     @Override
     public void parse(String field, Data data) {
       String desc = CALL_CODES.getProperty(field);
-      if (desc == null) desc = field;
+      if (desc == null) {
+        if (strict) abort();
+        desc = field;
+      }
       data.strCode = field;
       data.strCall = desc;
     }
@@ -138,8 +154,9 @@ public class COWeldCountyParser extends FieldProgramParser {
   
   @Override
   public Field getField(String name) {
-    if (name.equals("CALL")) return new MyCallField();
+    if (name.equals("CALL")) return new MyCallField(false);
     if (name.equals("D")) return new SkipField("D", true);
+    if (name.equals("CALL2")) return new MyCallField(true);
     if (name.equals("ADDR")) return new MyAddressField();
     if (name.equals("INFO")) return new MyInfoField();
     return super.getField(name);
