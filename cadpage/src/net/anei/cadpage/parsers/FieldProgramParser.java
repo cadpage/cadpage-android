@@ -714,6 +714,20 @@ public class FieldProgramParser extends SmartAddressParser {
     String[] fields = parseMessageFields(body, tagList);
     return parseFields(fields, data);
   }
+  
+
+  /**
+   * This method is invoked to process an array of parsed fields as determined
+   * by the field program passed to the constructor
+   * @param fields Array of fields to be processed
+   * @param minFields minimum required number of fields
+   * @param data Data object to be filled
+   * @return true if parsing was successful
+   */
+  public boolean parseFields(String[] fields, int minFields, Data data) {
+    if (fields.length < minFields) return false;
+    return parseFields(fields, data);
+  }
 
   /**
    * This method is invoked to process an array of parsed fields as determined
