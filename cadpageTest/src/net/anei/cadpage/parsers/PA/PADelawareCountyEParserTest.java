@@ -1,0 +1,104 @@
+package net.anei.cadpage.parsers.PA;
+
+import net.anei.cadpage.parsers.BaseParserTest;
+
+import org.junit.Test;
+
+
+public class PADelawareCountyEParserTest extends BaseParserTest {
+  
+  public PADelawareCountyEParserTest() {
+    setParser(new PADelawareCountyEParser(), "DELAWARE COUNTY", "PA");
+  }
+  
+  @Test
+  public void testParser() {
+
+    doTest("T1",
+        "[Update]**AUTOMATIC FIRE ALARM**2725 WEST CHESTER PKE LAW**S MALIN RD**SCHOOL HOUSE LN**13:23**02/04/2012**MULTIPLE LISTING,~ COMPUTER STORE,",
+        "CALL:AUTOMATIC FIRE ALARM",
+        "ADDR:2725 WEST CHESTER PKE",
+        "X:S MALIN RD & SCHOOL HOUSE LN",
+        "TIME:13:23",
+        "DATE:02/04/2012",
+        "INFO:MULTIPLE LISTING,  COMPUTER STORE,");
+
+    doTest("T2",
+        "STREET CLOSED**REED RD & S PARKWAY BLVD**REED RD**S PARKWAY BLVD**09:14**03/06/2012**Field Event,REED RD CLOSED FROM PARKWAY TO MARPIT",
+        "CALL:STREET CLOSED",
+        "ADDR:REED RD & S PARKWAY BLVD",
+        "X:REED RD & S PARKWAY BLVD",
+        "TIME:09:14",
+        "DATE:03/06/2012",
+        "INFO:Field Event,REED RD CLOSED FROM PARKWAY TO MARPIT");
+
+    doTest("T3",
+        "VEHICLE FIRE**467 LAWRENCE RD**WARREN BLVD**SPRINGHOUSE RD**08:00**03/06/2012**610-353-3644,BEHIND DR BRENNER'S BLDG,-075.349238",
+        "CALL:VEHICLE FIRE",
+        "ADDR:467 LAWRENCE RD",
+        "X:WARREN BLVD & SPRINGHOUSE RD",
+        "TIME:08:00",
+        "DATE:03/06/2012",
+        "INFO:610-353-3644,BEHIND DR BRENNER'S BLDG,-075.349238");
+
+    doTest("T4",
+        "WITH ENTRAPMENT**40 S NEWTOWN STREET RD**REESE AV**MARY JANE LN**04:22**03/06/2012**610-356-9755,~OVERTURNED,501 LANSDOWNE AV UD,ER: @DELAWAR\\r",
+        "CALL:WITH ENTRAPMENT",
+        "ADDR:40 S NEWTOWN STREET RD",
+        "X:REESE AV & MARY JANE LN",
+        "TIME:04:22",
+        "DATE:03/06/2012",
+        "INFO:610-356-9755, OVERTURNED,501 LANSDOWNE AV UD,ER: @DELAWAR\\r");
+
+    doTest("T5",
+        "NATURAL GAS LEAK, INSIDE**400 S STATE RD**US HWY 1 NB**US HWY 1 SB**20:35**03/05/2012*** USE @name LOOKUP OR APT % FOR ALL INCIDENTS AT THIS \\r",
+        "CALL:NATURAL GAS LEAK, INSIDE",
+        "ADDR:400 S STATE RD",
+        "X:US HWY 1 NB & US HWY 1 SB",
+        "TIME:20:35",
+        "DATE:03/05/2012",
+        "INFO:* USE @name LOOKUP OR APT % FOR ALL INCIDENTS AT THIS \\r");
+
+    doTest("T6",
+        "AUTOMATIC FIRE ALARM**104 RED FOX PL**TROUT RUN DR**TROUT RUN DR**15:19**03/04/2012**~ RES MARTIN,~ SMOKE DET. HALLWAY,OBN,RES 610-356-0622, \\r",
+        "CALL:AUTOMATIC FIRE ALARM",
+        "ADDR:104 RED FOX PL",
+        "X:TROUT RUN DR & TROUT RUN DR",
+        "TIME:15:19",
+        "DATE:03/04/2012",
+        "INFO:  RES MARTIN,  SMOKE DET. HALLWAY,OBN,RES 610-356-0622, \\r");
+
+    doTest("T7",
+        "BUILDING FIRE, RES/DWELLING**20 OBERLIN AV**DARTMOUTH AV**LAFAYETTE AV**05:12**03/05/2012**~ODOR OF SMOKE IN BLDG, **M102/147/132/131/RE44/TW\\r",
+        "CALL:BUILDING FIRE, RES/DWELLING",
+        "ADDR:20 OBERLIN AV",
+        "MADDR:20 OBERLIN AVE",
+        "X:DARTMOUTH AV & LAFAYETTE AV",
+        "TIME:05:12",
+        "DATE:03/05/2012",
+        "INFO: ODOR OF SMOKE IN BLDG, / M102/147/132/131/RE44/TW\\r");
+
+    doTest("T8",
+        "AUTOMATIC FIRE ALARM**1797 S SPROUL RD**W SPROUL RD**CRUM CREEK RD**20:04**03/05/2012**610-543-3350,~PIANELLO BLSG,OBN, **532\\r",
+        "CALL:AUTOMATIC FIRE ALARM",
+        "ADDR:1797 S SPROUL RD",
+        "X:W SPROUL RD & CRUM CREEK RD",
+        "TIME:20:04",
+        "DATE:03/05/2012",
+        "INFO:610-543-3350, PIANELLO BLSG,OBN, / 532\\r");
+
+    doTest("T9",
+        "BUILDING FIRE, RES/DWELLING**200 DARTMOUTH AV**OBERLIN AV**S PRINCETON AV**07:56**03/06/2012**~SMOKE IN THE BASEMENT,~ALSO HEARS A HISSING NO\\r",
+        "CALL:BUILDING FIRE, RES/DWELLING",
+        "ADDR:200 DARTMOUTH AV",
+        "MADDR:200 DARTMOUTH AVE",
+        "X:OBERLIN AV & S PRINCETON AV",
+        "TIME:07:56",
+        "DATE:03/06/2012",
+        "INFO: SMOKE IN THE BASEMENT, ALSO HEARS A HISSING NO\\r");
+  }
+  
+  public static void main(String[] args) {
+    new PADelawareCountyEParserTest().generateTests("T1");
+  }
+}
