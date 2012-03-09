@@ -2027,6 +2027,11 @@ Cy Creek Comm Center, TX (TXCyCreekCommCenterParser)
 09/06 11:56 W HILLSIDE DR/EASTEX FRWY, ; Map:414D Sub: Nat:MA-MUTUAL AID / ASSIST AGENCY Units:E91 T81 T73 E-L19 X-St:EASTEX
 09/06 11:28 19707 WOOD WALK LN, ; Map:337U Sub:PINEHURST OF ATASCOCITA Nat:09E01-ARREST - NOT BREATHING Units:E-M19 E-M29 E-7900
 ***************************************************************************
+Decatur, TX (TXDecaturParser)
+(Decatur FD) MEDICAL EMERGENCY, 800 MEDICAL CENTER DR #C,  - DPD 221\n\nDr Swaims office
+(Decatur FD) MAJOR ACCIDENT,  730 S 287,  - DPD 221 \n\n2 vehs
+(Decatur FD) STRUCTURE FIRE, 2905 MURVIL,  - DPD 207 \n\nNO SMOKE OR FLAMES BUT CAN SMELL BURNING WIRES
+***************************************************************************
 Harris County ESD #1, TX (TXHarrisCountyESD1AParser)
 67B01U / GRASS/WOODS FIRE / 2418 LILY LN / APT: / BLD: / KM: 460T / XSTRTS: OLEANDER ST/WISTERIA WAY / Box #: 1705
 Unknown Problem / 916 Jones Rd / APT: / BLD: / KM: 460S / XSTRTS: MIZELL ST/STEELE RD / Box #: 1704
