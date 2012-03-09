@@ -11,7 +11,7 @@ class Active911Vendor extends Vendor {
            R.string.active911_text,
            R.drawable.active_911_vendor,
            R.drawable.active_911_logo,
-           "https://www.active911.com",
+           "http://www.active911.com",
            ">A91",
            "support@active911.com");
   }
