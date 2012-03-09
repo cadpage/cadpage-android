@@ -1,37 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">03022012</string>
-  <string name="release_version">v1.5.19</string>
+  <string name="release_date">03082012</string>
+  <string name="release_version">v1.5.21</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="min_expire_date">10012012</string>
   <string name="release_text">
 What"'"s new in this release\n
 \n
-Cadpage now includes information from system log in problem reports.  Which is why
-we now need a new permission to read the system log.\n
-\n
 New Locations:\n
-Blaine County, ID\n
-Festus, MO\n
-Hanover, NH\n
-Camden County, NJ (alt)\n
-Sussex County, NJ (alt)\n
-York County, NY (alt)\n
-Sampson Cuonty, NC\n
-Portange County, OH\n
-Johnson County, TN\n
-Botetourt County, VA\n
-Yakima County, WA\n
+Dauphin County, PA\n
+Decatur, TX\n
+Kenosha County, WI (alt)\n
 \n
 Location Parsing Fixes:\n
-Camden County, GA\n
-Somerset County, MD\n
-Madison County, NY\n
+Weld County, CO\n
+Kent County, DE\n
 Marion County, MS\n
-Ray County, MO\n
-Harnett County, NC\n
-York County, PA\n
+Somerset County, NJ\n
+Chautauqua County, NY\n
+Suffolk County, NY\n
+Winchester County, NY\n
+Delaware County, PA\n
+Oconee County, SC\n
+Galvaston County, TX\n
+\n
+General Fixes:\n
+Fixed some problems with direct paging vendor reconnect logic\n
+Fixed problems mapping addresses containing LA or EXT\n
   </string>  
 </resources>
   
