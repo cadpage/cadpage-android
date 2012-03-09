@@ -4056,13 +4056,5 @@ Rig existing parser to not depend on 9300 sender address
 (Call) WIRES DOWN 7967 KEENE RD @ BURNS DISP NE - PATROL REQUESTING A CHIEF TO THE SCENE FOR WIRES IN THE TREE ARCHING?\n
 **********************************************************
 **********************************************************
-Sarasota County, FL (alternate)
-Contact: Scott Titus <stitus@cityofnorthport.com>
-Sender: 93001
-OUTSIDE FIRE AT MM 175 SB // WEST SIDE IN TREES/ 1/4 ACRE MED FUEL GRID 526 BN8 TRK84 ON SCENE/DOF E81 E83 T83 EN ROUTE ID 2565
-EVENT TYPE: OUTSIDE FIRE-BRUSH Location: COLFAX LN/TOWN TER NPRT G544 TIME: 17:26:42 Disp: BN8,DOF,E81,T83,TRK84
-WORKING BRUSH FIRE @ 3261 TOWN TER NORTH PORT, XST YEADON TER, APX 1/4 ACRE// MED TO HEAVY FUEL// FAST MOVING// UNITS ON SCENE // FD3 DISPATCH 2641 B82 B83 BN8 DOF E81 RAV84 T83 TRK84
-BAYFLIGHT REF DROWNING AT 2125 WENONA DR NPRT G524//BN8, E83, R84, TRK84 ON SCENE WITH 2YOM CONS/BREATHING//DISPATCHER #2675
-EVENT TYPE: STRUCTURE FIRE Location: 2633 RIDGEWOOD DR NPRT G544 TIME: 01:26:04
 **********************************************************
 **********************************************************
