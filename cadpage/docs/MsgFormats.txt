@@ -3980,6 +3980,8 @@ Contact: John Hamilton <skinink66@gmail.com>
 **********************************************************
 **********************************************************
 **********************************************************
+**********************************************************
+**********************************************************
 ************  READY TO ROLL ******************************
 **********************************************************
 **********************************************************
@@ -4026,8 +4028,6 @@ Fire Depts are needed at Twilight Stables in the horse barn at 12759 Mill View L
 HAMBDEN FD RESCUE NEEDED AT 14050 GAR HWY FOR A 21 YOM IN AND OUT OF CONCIOUSNESS POSSIBLE ALLERGIC REACTION 2800/BMR
 2nd Page for FIU to 15279 Hemlock Point Russell Twp for the Structure Fire.
 **********************************************************
-**********************************************************
-**********************************************************
 Suffolk County, NY (alternate)
 Contact: Brandon Tishim <tishimb@gmail.com>
 Sender: Bob@relaycom.com
@@ -4045,7 +4045,6 @@ Sender: Bob@relaycom.com
 (FROM RELAY) 1272 EAST MAIN ST  DR. BROOK'S OFC  MALE  FAINTING EPISODES
 (MSG FROM RELAY) MICHAEL'S 1440 OLD COUNTRY RD. FEMALE. GENERAL WEAKNESS.
 **********************************************************
-**********************************************************
 Erie County, NY (alternate)
 Contact: Bob Taylor <btthevoice@gmail.com>
 Sender: 15373@alert.erie.gov
@@ -4054,7 +4053,4 @@ Rig existing parser to not depend on 9300 sender address
 (Call) EMS 1425 STURGEON PT RD EVANS H/NE/RM ACT  CARBON MONOXIDE DETECTOR WITH ILLNESS IN THE RESIDENCE?\n
 (Call) NE ACT FOR A ENGINE M/A TO LAKEVIEW FOR AN AUTO ACCIDENT ROUTE 5 AND OLD LAKESHORE RD?\n
 (Call) WIRES DOWN 7967 KEENE RD @ BURNS DISP NE - PATROL REQUESTING A CHIEF TO THE SCENE FOR WIRES IN THE TREE ARCHING?\n
-**********************************************************
-**********************************************************
-**********************************************************
 **********************************************************

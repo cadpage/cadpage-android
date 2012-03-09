@@ -32,6 +32,10 @@ Contact: Steve Hayes <stevekhayes@gmail.com>
 Sender: messaging@iamresponding.com
 (BEMUS POINT) 21:45 *MVA PI ; 1220 86 WB ; C/T/V Ellery ; NYSP Jamestown ; 3A14 OUT WITH AN MVA WITH MINOR INJURIES   I86 WB NEAR OVERLOOK ; A441 R442 E
 
+Contact: "cdlj6286@yahoo.com" <cdlj6286@yahoo.com>
+Sender: dispatch@sheriff.us
+Subject:MSP CAD\n22:26 *SINGLE COMPANY ; 12082 HANOVER RD ; C/T/V Hanover ; HC1 ; Donna Bartelo ; power lines arcing on a pole, in front of \r
+
 */
 
 
@@ -49,7 +53,7 @@ public class NYChautauquaCountyParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "911@cattco.org,7770, messaging@iamresponding.com";
+    return "911@cattco.org,7770, messaging@iamresponding.com,dispatch@sheriff.us";
   }
 
   @Override

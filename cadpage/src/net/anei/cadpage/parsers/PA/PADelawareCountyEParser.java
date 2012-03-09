@@ -1,6 +1,5 @@
 package net.anei.cadpage.parsers.PA;
 
-import java.util.Properties;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
@@ -26,13 +25,9 @@ public class PADelawareCountyEParser extends FieldProgramParser {
   
   private static final Pattern DELIM = Pattern.compile("\\*\\*");
   
-  private static final Properties CITY_CODES = buildCodeTable(new String[]{
-      "LAW", ""
-  });
-  
   public PADelawareCountyEParser() {
-    super(CITY_CODES, "DELAWARE COUNTY", "PA",
-           "UPDT? CALL ADDR/S X X TIME DATE! INFO+");
+    super("DELAWARE COUNTY", "PA",
+           "UPDT? CALL ADDR/SXP X X TIME DATE! INFO+");
   }
   
   @Override
