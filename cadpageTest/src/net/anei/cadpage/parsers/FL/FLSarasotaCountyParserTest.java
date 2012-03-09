@@ -88,6 +88,33 @@ public class FLSarasotaCountyParserTest extends BaseParserTest {
         "UNIT:BN1,E2,EMS1,R2");
   }
   
+  @Test
+  public void testScottTitus() {
+
+    doTest("T1",
+        "EVENT TYPE: OUTSIDE FIRE-BRUSH Location: COLFAX LN/TOWN TER NPRT G544 TIME: 17:26:42 Disp: BN8,DOF,E81,T83,TRK84",
+        "CALL:OUTSIDE FIRE-BRUSH",
+        "ADDR:COLFAX LN & TOWN TER",
+        "CITY:NORTH PORT",
+        "MAP:G544",
+        "TIME:17:26:42",
+        "UNIT:BN8,DOF,E81,T83,TRK84");
+
+    doTest("T2",
+        "EVENT TYPE: STRUCTURE FIRE Location: 2633 RIDGEWOOD DR NPRT G544 TIME: 01:26:04",
+        "CALL:STRUCTURE FIRE",
+        "ADDR:2633 RIDGEWOOD DR",
+        "CITY:NORTH PORT",
+        "MAP:G544",
+        "TIME:01:26:04");
+  }
+  
+  @Test
+  public void testFallback() {
+    
+    
+  }
+  
   public static void main(String[] args) {
     new FLSarasotaCountyParserTest().generateTests("T1");
   }
