@@ -45,7 +45,7 @@ HC:ODOR OF GAS 61 W SHARON RD GLEN ** SMELL OF GAS ** BR45 ON SCENE 11:50 HFR97 
 
 public class OHHamiltonCountyParser extends SmartAddressParser {
   
-  private static final Pattern MASTER = Pattern.compile("HC:(.*) \\*\\* (.*) \\*\\* (.*) \\d{1,2}:\\d\\d (.*)");
+  private static final Pattern MASTER = Pattern.compile("HC:(.*) \\*\\* (.*) \\*\\* (.*) (\\d{1,2}:\\d\\d) (.*)");
  
   public OHHamiltonCountyParser() {
     super(CITY_CODES, "HAMILTON COUNTY", "OH");
@@ -72,7 +72,8 @@ public class OHHamiltonCountyParser extends SmartAddressParser {
     data.strPlace = sPlace;
     data.strCall = match.group(2).trim();
     data.strSupp = match.group(3).trim();
-    Parser p = new Parser(match.group(4).trim());
+    data.strTime = match.group(4);
+    Parser p = new Parser(match.group(5).trim());
     String x2 = p.getLastOptional(" XST2:");
     String x1 = p.getLastOptional(" XST:");
     data.strUnit = p.get();
