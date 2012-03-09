@@ -42,8 +42,7 @@ public class OHLickingCountyParserTest extends BaseParserTest {
     doTest("T5",
         "LC911:HEMMORAGE/LACERATION - Location:   14584.00  JUG STREET RD  JERSEY TWP",
         "CALL:HEMMORAGE/LACERATION",
-        "ADDR:14584 JUG STREET",
-        "APT:RD",
+        "ADDR:14584 JUG STREET RD",
         "CITY:JERSEY TWP");
 
   }

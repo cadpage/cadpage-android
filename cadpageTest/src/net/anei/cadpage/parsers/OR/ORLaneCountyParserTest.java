@@ -83,10 +83,23 @@ public class ORLaneCountyParserTest extends BaseParserTest {
         "CITY:EUGENE",
         "MAP:LF00015",
         "TIME:07:37");
-    
+
+    doTest("T11",
+        "FRM:ce911@ci.eugene.or.us\n" +
+        "MSG:LDF TYP: VEHICLE VS PED ACC AD: HWY 126 MP29 CTY: UNC WAN MAP: LF00002 LOC: HWY 126 MP29 TIME: 20:08",
+
+        "SRC:LDF",
+        "CALL:VEHICLE VS PED ACC",
+        "ADDR:HWY 126 MP29",
+        "MADDR:HWY 126 MP29,HWY 126 MP29",
+        "CITY:WALTON",
+        "MAP:LF00002",
+        "PLACE:HWY 126 MP29",
+        "TIME:20:08");
+   
   }
   
   public static void main(String args[]) {
-    new ORLaneCountyParserTest().generateTests("T4", "SRC CALL ADDR APT CITY MAP PLACE TIME");
+    new ORLaneCountyParserTest().generateTests("T1", "SRC CALL ADDR APT CITY MAP PLACE TIME");
   }
 }

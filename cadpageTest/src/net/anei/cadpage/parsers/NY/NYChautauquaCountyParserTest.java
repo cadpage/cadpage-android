@@ -177,6 +177,7 @@ public class NYChautauquaCountyParserTest extends BaseParserTest {
         "UNIT:M111");
   }
   
+  @Test
   public void doTestBemusPoint() {
 
     doTest("T1",
@@ -190,6 +191,23 @@ public class NYChautauquaCountyParserTest extends BaseParserTest {
         "NAME:NYSP Jamestown",
         "INFO:3A14 OUT WITH AN MVA WITH MINOR INJURIES   I86 WB NEAR OVERLOOK / E",
         "UNIT:A441 R442");
+
+  }
+  
+  @Test
+  public  void testCdlj6286() {
+
+    doTest("T1",
+        "Subject:MSP CAD\n" +
+        "22:26 *SINGLE COMPANY ; 12082 HANOVER RD ; C/T/V Hanover ; HC1 ; Donna Bartelo ; power lines arcing on a pole, in front of \\r",
+
+        "SRC:MSP CAD",
+        "TIME:22:26",
+        "CALL:SINGLE COMPANY",
+        "ADDR:12082 HANOVER RD",
+        "CITY:Hanover",
+        "NAME:HC1",
+        "INFO:Donna Bartelo / power lines arcing on a pole, in front of \\r");
 
   }
   

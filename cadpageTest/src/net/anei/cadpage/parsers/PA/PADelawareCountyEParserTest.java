@@ -18,6 +18,7 @@ public class PADelawareCountyEParserTest extends BaseParserTest {
         "[Update]**AUTOMATIC FIRE ALARM**2725 WEST CHESTER PKE LAW**S MALIN RD**SCHOOL HOUSE LN**13:23**02/04/2012**MULTIPLE LISTING,~ COMPUTER STORE,",
         "CALL:AUTOMATIC FIRE ALARM",
         "ADDR:2725 WEST CHESTER PKE",
+        "PLACE:LAW",
         "X:S MALIN RD & SCHOOL HOUSE LN",
         "TIME:13:23",
         "DATE:02/04/2012",
