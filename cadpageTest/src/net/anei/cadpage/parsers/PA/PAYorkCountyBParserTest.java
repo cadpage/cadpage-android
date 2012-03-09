@@ -298,6 +298,75 @@ public class PAYorkCountyBParserTest extends BaseParserTest {
 
   }
   
+  @Test
+  public void testParser2() {
+
+    doTest("T1",
+        "Rip and Run Report\n" +
+        "Rip and Run Report\n\n" +
+        "~\n" +
+        "Location Information:\n\n" +
+        "Location:~887~DELTA~RD~\n" +
+        "Venue:~WINDSOR TWP\n" +
+        "Cross Streets~\n" +
+        "BAHNS MILL RD / BURKHOLDER RD\n" +
+        "Phone:~(717) 246-5500\n" +
+        "Quadrant:~34-401\n" +
+        "District:~34-401\n" +
+        "~\n" +
+        "Call Information:\n\n" +
+        "Call Number:~5361\n" +
+        "Call Type:~ FIRE AFA HIGH RISK\n" +
+        "Source:~DISPATCHED BY YORK COUNTY 911\n" +
+        "Priority:~ 4\n" +
+        "Status:~IN PROGRESS\n" +
+        "Assigned To:~CALL TAKER 6\n" +
+        "Caller:~#96538,~Advantage\n" +
+        "Call Date/Time:~03/08/2012 19:19:22\n" +
+        "Dispatch Date/Time:~03/08/2012 19:21:17\n" +
+        "Arrive Date/Time:~\n" +
+        "Clear Date/Time:~\n" +
+        "Enroute Date/Time:~\n" +
+        "Latest Unit Cleared Date/Time:~\n" +
+        "~\n" +
+        "Incident Number(s)\n" +
+        "2012-00001103~~GOODWILL FIRE COMPANY NO. 1 YORK TOWNSHIP\n" +
+        "2012-00001033~~LAUREL FIRE COMPANY NO. 1\n" +
+        "2012-00001117~~LEO INDEPENDENT FIRE ENGINE COMPANY\n" +
+        "2012-00001103~~YOE FIRE COMPANY\n" +
+        "2012-00006285~~YORK AREA REGIONAL POLICE DEPARTMENT\n" +
+        "~\n" +
+        "Units Sent:~7\n" +
+        "FIRESTA34, E37-1, T36, TK34, E34, TK19, 21-89~\n\n" +
+        "Alerts:\n" +
+        "~\n" +
+        "Location Alerts\n\n" +
+        "Person Alerts\n\n" +
+        "Vehicle Alerts\n" +
+        "~~\n" +
+        "Narrative:\n\n" +
+        "Narrative Time~Narrative\n" +
+        "03/08/12 19:20:16~alarm from zone 2 and radio back up\n" +
+        "03/08/12 19:20:19~audible alarm\n" +
+        "03/08/12 19:20:26~attempting premise and keyholders\n" +
+        "03/08/12 19:20:32~unknown structure type\n" +
+        "03/08/12 19:20:59~Nature Of Call: zone 2",
+
+        "ADDR:887 DELTA RD",
+        "CITY:WINDSOR TWP",
+        "X:BAHNS MILL RD / BURKHOLDER RD",
+        "MAP:34-401",
+        "ID:5361",
+        "CALL:FIRE AFA HIGH RISK",
+        "PRI:4",
+        "NAME:#96538, Advantage",
+        "DATE:03/08/2012",
+        "TIME:19:19:22",
+        "UNIT:FIRESTA34, E37-1, T36, TK34, E34, TK19, 21-89",
+        "INFO:alarm from zone 2 and radio back up / audible alarm / attempting premise and keyholders / unknown structure type / Nature Of Call: zone 2");
+
+  }
+  
   public static void main(String[] args) {
     new PAYorkCountyBParserTest().generateTests("T1");
   }

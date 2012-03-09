@@ -21,6 +21,7 @@ public class OHHamiltonCountyParserTest extends BaseParserTest {
         "PLACE:NEISHA COOK / NGHBR",
         "CALL:STRUCTURE FIRE",
         "INFO:INV REF.. SMOKE & FLAMES VISIBLE FROM THE ROOF.. RESD POSS UNOCC, COMPL A",
+        "TIME:22:43",
         "UNIT:HFE75 HFE74 HFQ79 HFQ78 HFR79 HFS26 HFRAT97 HFFG3 HFIMAT79",
         "X:1331 ANGELA AV XST");
 
@@ -31,6 +32,7 @@ public class OHHamiltonCountyParserTest extends BaseParserTest {
         "PLACE:MATT GITTERMAN",
         "CALL:STRUCTURE FIRE",
         "INFO:ODOR OF PLASTIC BURNING LIGHT SMOKE FROM AN ATTIC VENT...CEILING IN THE K",
+        "TIME:06:47",
         "UNIT:HFE109 HFE102 HFE42 HFL25 HFL42 HFS25 HFRAT25 HFFG3 HFIMAT25",
         "X:12037 WESTERLY DR");
 
@@ -41,6 +43,7 @@ public class OHHamiltonCountyParserTest extends BaseParserTest {
         "PLACE:PLANT MAINT ENG WIRELESS-VERIZON WIR",
         "CALL:STRUCTURE FIRE",
         "INFO:ROOF VENT ON FIRE",
+        "TIME:14:10",
         "UNIT:HFE90 HFE43 HFT90 HFT86 HFM90 HFFRFDM32 HFRAT96 HFFG5");
 
     doTest("T4",
@@ -50,6 +53,7 @@ public class OHHamiltonCountyParserTest extends BaseParserTest {
         "PLACE:INTERSECTION T-MOBILE USA, INC",
         "CALL:AUTO ACCIDENT / PERSON INJURED",
         "INFO:INV FOR A 2 VEH, MC VS A VEH",
+        "TIME:14:53",
         "UNIT:HFM242 HFE42 HFL42 HFFG2");
 
     doTest("T5",
@@ -59,6 +63,7 @@ public class OHHamiltonCountyParserTest extends BaseParserTest {
         "PLACE:DOROTHY, MOM",
         "CALL:PSYCHIATRIC EMERGENCY",
         "INFO:C C REF 5 YO BEHAVING VIOLENTLY, ACTING OUT. HX OF BEHAVIORAL ISSUES.",
+        "TIME:16:59",
         "UNIT:HFS48",
         "X:14 BACHMAN ST & 26 BACHMAN ST");
 
@@ -69,6 +74,7 @@ public class OHHamiltonCountyParserTest extends BaseParserTest {
         "PLACE:CHRISTINE",
         "CALL:FIRE ALARM",
         "INFO:INV...NOTHING SHOWING..COMP BELIEVES IT COULD BE A MALFUNTION WITH ALARM.",
+        "TIME:09:08",
         "UNIT:HFE43 HFL42 HFFG3",
         "X:11551 PROMENADE DR");
 
@@ -80,6 +86,7 @@ public class OHHamiltonCountyParserTest extends BaseParserTest {
         "PLACE:MICHEAL MARCUM",
         "CALL:NON-BREATHER / CARDIAC ARREST",
         "INFO:M/70'S, COMP CAN SEE M SUBJ LAYING ON THE FLOOR OF THE RESD THRU A WINDOW",
+        "TIME:20:29",
         "UNIT:HFS48 HFQ48 HFFG5",
         "X:300 INGRAM RD & 300 INGRAM RD");
 
@@ -90,6 +97,7 @@ public class OHHamiltonCountyParserTest extends BaseParserTest {
         "PLACE:TIM SHEEIN",
         "CALL:PERSON UNCONSCIOUS / NON-RESPONSIVE",
         "INFO:F/46 DISORIENTED, POSS REACTION TO MEDS FOR MIGRANES",
+        "TIME:20:33",
         "UNIT:HFM242 HFGRES",
         "X:158 JUNEFIELD AV & 168 JUNEDALE DR");
 
@@ -102,6 +110,7 @@ public class OHHamiltonCountyParserTest extends BaseParserTest {
         "PLACE:CHRISTINA",
         "CALL:APPLIANCE FIRE",
         "INFO:GREASE FIRE ON THE STOVE",
+        "TIME:21:03",
         "UNIT:HFE43 HFE296 HFE97 HFE45 HFT90 HFL97 HFS97 HFRAT79 HFFG2",
         "X:599 ASHBURN RD & 601 DINSMORE DR");
 
@@ -112,13 +121,14 @@ public class OHHamiltonCountyParserTest extends BaseParserTest {
         "PLACE:ALOIS ALZHEIMER CTR STEPHANIE",
         "CALL:STRUCTURE FIRE",
         "INFO:INVS SMOKE FILLING HALLS",
+        "TIME:05:05",
         "UNIT:HFQ48 HFE42 HFE109 HFE75 HFR78 HFL42 HFM96 HFRAT74 HFFG2 HFIMAT48",
         "X:1200 SPRINGDALE RD & 48 CROMWELL RD");
      
   }
   
   @Test
-  public void testParser2() {
+  public void testParserFrancisco() {
 
     doTest("T1",
         "HC:FIRE ALARM 6855 ALBERLY LN INDN GENTILE RESD INDN PD ** FIRE ALARM ** GENERAL 02:47 HFE64 HFQ65 HFFG3 XST: 9200 SHAWNEE RUN RD",
@@ -127,27 +137,30 @@ public class OHHamiltonCountyParserTest extends BaseParserTest {
         "PLACE:GENTILE RESD INDN PD",
         "CALL:FIRE ALARM",
         "INFO:GENERAL",
+        "TIME:02:47",
         "UNIT:HFE64 HFQ65 HFFG3",
         "X:9200 SHAWNEE RUN RD");
 
     doTest("T2",
-        "HC:FIRE ALARM 7141 MIAMI AV MDRA MDRA PD CAROL/ADT ** FIRE ALARM ** INV GEN FIRE ALARM, ZONE F1 AND SUPERVISORY TRBL SIGNAL ON E1. 01 1:24 HFQ65 XST:",
+        "HC:FIRE ALARM 7141 MIAMI AV MDRA MDRA PD CAROL/ADT ** FIRE ALARM ** INV GEN FIRE ALARM, ZONE F1 AND SUPERVISORY TRBL SIGNAL ON E1. 01 1:24 HFQ65 XST: ",
         "ADDR:7141 MIAMI AV",
         "MADDR:7141 MIAMI AVE",
         "CITY:MADEIRA",
         "PLACE:MDRA PD CAROL / ADT",
         "CALL:FIRE ALARM",
         "INFO:INV GEN FIRE ALARM, ZONE F1 AND SUPERVISORY TRBL SIGNAL ON E1. 01",
+        "TIME:1:24",
         "UNIT:HFQ65");
 
     doTest("T3",
-        "HC:FIRE ALARM 7141 MIAMI AV MDRA MDRA PD ADT..NOTIFING ** FIRE ALARM ** INV FOR..ZONE F1 FIRE ALARM ACTIVATION OPER/BEX 02:00 HF IGH BP WITH SOME",
+        "HC:FIRE ALARM 7141 MIAMI AV MDRA MDRA PD ADT..NOTIFING ** FIRE ALARM ** INV FOR..ZONE F1 FIRE ALARM ACTIVATION OPER/BEX 02:00 HF IGH BP WITH SOME ",
         "ADDR:7141 MIAMI AV",
         "MADDR:7141 MIAMI AVE",
         "CITY:MADEIRA",
         "PLACE:MDRA PD ADTNOTIFING",
         "CALL:FIRE ALARM",
         "INFO:INV FOR..ZONE F1 FIRE ALARM ACTIVATION OPER/BEX",
+        "TIME:02:00",
         "UNIT:HF IGH BP WITH SOME");
 
     doTest("T4",
@@ -157,6 +170,7 @@ public class OHHamiltonCountyParserTest extends BaseParserTest {
         "PLACE:FELLER RESD RANGERS",
         "CALL:FIRE ALARM",
         "INFO:GENERAL FIRE ALRM",
+        "TIME:07:41",
         "UNIT:HFE64 HFQ65 HFFG2",
         "X:8300 OLD STABLE");
 
@@ -168,6 +182,7 @@ public class OHHamiltonCountyParserTest extends BaseParserTest {
         "PLACE:INDN PD",
         "CALL:FIRE ALARM",
         "INFO:INV GEN FIRE ALARM.",
+        "TIME:02:17",
         "UNIT:HFE89 HFE92 HFFG3 HFMDRF",
         "X:4497 MIAMI RD");
 
@@ -178,6 +193,7 @@ public class OHHamiltonCountyParserTest extends BaseParserTest {
         "PLACE:GLORIA",
         "CALL:TROUBLE BREATHING",
         "INFO:87YO FEMALE...TRBL BREATHING",
+        "TIME:11:21",
         "UNIT:HFM65",
         "X:8298 BRILL RD & 8260 GRAVES RD");
 
@@ -188,12 +204,13 @@ public class OHHamiltonCountyParserTest extends BaseParserTest {
         "PLACE:ISSIAH",
         "CALL:WIRES DOWN / ARCING / ON FIRE",
         "INFO:C/COMP REF LOW-HANGING POWER LINES",
+        "TIME:00:01",
         "UNIT:HFQ65",
         "X:6450 NAVAHO TL & 6400 DAWSON RD");
   }
   
   @Test
-  public void testParser3() {
+  public void testDaveYergin() {
 
     doTest("T1",
         "HC:CO ALARM 1737 HARMON DR WYOM LARRY MEYER ** CARBON MONOXIDE ALARM ** C/COMPL REF CO ALARM SOUNDING INTERMITTENTLY - COMPL IS HOOKED UP TO DIAL 05:28 HFE97 HFFG2 XST: ROLLING HILLS DR XST2: 1799 WOODRUFF LN",
@@ -202,6 +219,7 @@ public class OHHamiltonCountyParserTest extends BaseParserTest {
         "PLACE:LARRY MEYER",
         "CALL:CARBON MONOXIDE ALARM",
         "INFO:C/COMPL REF CO ALARM SOUNDING INTERMITTENTLY - COMPL IS HOOKED UP TO DIAL",
+        "TIME:05:28",
         "UNIT:HFE97 HFFG2",
         "X:ROLLING HILLS DR & 1799 WOODRUFF LN");
 
@@ -213,6 +231,7 @@ public class OHHamiltonCountyParserTest extends BaseParserTest {
         "PLACE:RESD WHITE ADT-MVS",
         "CALL:MEDICAL ALARM",
         "INFO:THIRD PARTY FRM THE CITY.ADT CONTACTED THEM FOR A MEDICAL ALARM WITH NO V",
+        "TIME:11:18",
         "UNIT:HFE97",
         "X:500 DAVID J SAVAGE W & 398 WASHINGTON AV");
 
@@ -224,6 +243,7 @@ public class OHHamiltonCountyParserTest extends BaseParserTest {
         "PLACE:WYOMING CITY HALL-1ST FLOOR REILAG 9701",
         "CALL:SMELL OF GAS",
         "INFO:INV ODOR OF NATURAL GAS ON FIRST FLOOR----C9701 IS ENROUTE.....",
+        "TIME:09:05",
         "UNIT:HFE97 HFR97 HFFG2",
         "X:398 WASHINGTON AV & 498 PENDERY AV");
 
@@ -235,6 +255,7 @@ public class OHHamiltonCountyParserTest extends BaseParserTest {
         "PLACE:GRACEWORKS ENHANCED LIVIN LINDA STEELE",
         "CALL:TROUBLE BREATHING",
         "INFO:F/40",
+        "TIME:04:24",
         "UNIT:HFE297",
         "X:2 CHESTNUT AV & 1 RITCHIE AV");
 
@@ -244,12 +265,13 @@ public class OHHamiltonCountyParserTest extends BaseParserTest {
         "CITY:GLENDALE",
         "CALL:SMELL OF GAS",
         "INFO:BR45 ON SCENE",
+        "TIME:11:50",
         "UNIT:HFR97",
         "X:1001 CHURCH ST & 999 SUMMIT AV:");
-    
+   
   }
   
   public static void main(String[] args) {
-    new OHHamiltonCountyParserTest().generateTests("T1", "ADDR CITY APT PLACE CALL INFO UNIT X");
+    new OHHamiltonCountyParserTest().generateTests("T1", "ADDR CITY APT PLACE CALL INFO TIME UNIT X");
   }
 }
