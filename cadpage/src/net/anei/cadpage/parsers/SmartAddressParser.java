@@ -240,7 +240,7 @@ public abstract class SmartAddressParser extends MsgParser {
     setupDictionary(ID_AMBIG_ROAD_SFX, 
         "PLACE", "TRAIL", "PATH", "PIKE", "COURT", "MALL", "TURNPIKE", "PASS", 
         "RUN", "LANE", "PARK", "POINT", "RIDGE", "CREEK", "MILL", "BRIDGE", "HILLS",
-        "HILL", "TRACE", "STREET");
+        "HILL", "TRACE", "STREET", "MILE");
     
     setupDictionary(ID_NUMBERED_ROAD_SFX, 
         "AVENUE", "AV", "AVE", 
@@ -852,7 +852,7 @@ public abstract class SmartAddressParser extends MsgParser {
       }
       
       // See if this is a two part route name
-      if (sAddr > 0 && !isType(sAddr-1, ID_NOT_ADDRESS | ID_CONNECTOR) && 
+      while (sAddr > 0 && !isType(sAddr-1, ID_NOT_ADDRESS | ID_CONNECTOR) && 
           (isType(sAddr, ID_ROUTE_PFX_EXT) && isType(sAddr-1, ID_ROUTE_PFX_PFX) ||
            isType(sAddr, ID_AMBIG_ROAD_SFX))) {
         sAddr--;
