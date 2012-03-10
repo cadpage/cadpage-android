@@ -1,5 +1,7 @@
   package net.anei.cadpage.parsers.PA;
 
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -184,6 +186,11 @@ Sender: "Bucks RSAN" <alert10965@alert.bucksema.org>
 (Important message from Bucks County RSAN) SQ134:FIRCAL\nadr:SALVAGE DIRECT ,47 at 77 BRISTOL RD ,47\nbtwn:W BUTLER AV & UNAMI TL\nbox:34025 map:3033J4\ntm:22:06:32 ED1206040\n\nSent by mss911 Bucks to SQ134, mss911 Bucks (Voice/Fax Dialer, E-mail accounts, Pagers, Cell phones) through Bucks County RSAN
 [Important message from Bucks County RSAN] STA19:FALRM\nadr:1290 ALMSHOUSE RD ,29 -- GRUNDY HALL\nbtwn:TURK RD & RT 611\naai:2153434117\nbox:79057\ntm:18:47:59 FD1202516  Run: E79\nSent by mss911 Bucks to STA19, mss911 Bucks (Voice/Fax Dialer, E-mail accounts, Pagers, Cell phones) through Bucks County RSAN\n
 
+
+*** OOC Mutual Aid ***
+[Important message from Bucks County RSAN] SQ134:ACVA\nadr:54 NESHAMINY FALLS CIRCLE X/WOODSBLUFF\naai:RN -CV 345A MONTGO TWP\nbox: map:\ntm:16:14:29 ED1208711\nSent by mss911 Bucks to SQ134, mss911 Bucks (Voice/Fax Dialer, E-mail accounts, Pagers, Cell phones) through Bucks County RSAN
+[Important message from Bucks County RSAN] SQ134:ACHESP\nadr:46 CENTER COURT X/WOODSBLUFF RUN\naai:CV A345\nbox: map:\ntm:10:28:46 ED1208799\nSent by mss911 Bucks to SQ134, mss911 Bucks (Voice/Fax Dialer, E-mail accounts, Pagers, Cell phones) through Bucks County RSAN
+
  */
 
 
@@ -251,6 +258,7 @@ public class PABucksCountyParser extends FieldProgramParser {
     @Override
     public void parse(String sAddr, Data data) {
       Parser p = new Parser(sAddr);
+      data.strCross = p.getLastOptional("X/");
       data.strPlace = p.getOptional(" at ");
       int pt = data.strPlace.indexOf(',');
       if (pt >= 0) data.strPlace = data.strPlace.substring(0,pt).trim();
@@ -301,6 +309,25 @@ public class PABucksCountyParser extends FieldProgramParser {
       return "PLACE " + super.getFieldNames() + " CITY";
     }
   }
+  
+  private static final Pattern COVER_PTN = Pattern.compile("\\bCV +(A\\d{3}|\\d{3}A)\\b");
+  private class MyInfoField extends InfoField {
+    @Override
+    public void parse(String field, Data data) {
+      Matcher match = COVER_PTN.matcher(field);
+      if (match.find()) {
+        String code = match.group(1);
+        int ipt = code.length()-1;
+        if (Character.isUpperCase(code.charAt(ipt))) {
+          code = code.substring(ipt) + code.substring(0,ipt);
+        }
+        String defCity = COVER_CODES.get(code);
+        if (defCity == null) defCity = "";
+        data.defCity = defCity;
+      }
+      super.parse(field, data);
+    }
+  }
     
   private class MyTimeField extends TimeField {
     
@@ -326,6 +353,7 @@ public class PABucksCountyParser extends FieldProgramParser {
   public Field getField(String name) {
     if (name.equals("CALL")) return new MyCallField();
     if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("INFO")) return new MyInfoField();
     if (name.equals("TIME")) return new MyTimeField();
     return super.getField(name);
   }
@@ -508,4 +536,13 @@ public class PABucksCountyParser extends FieldProgramParser {
       "ESPEC",      "STANDBY / SPECIAL ASSIGNMENT (EMS)",
       "MALRM",      "MEDICAL ALARM"
   });
+  
+  private static final Map<String,String> COVER_CODES = new HashMap<String,String>();
+  static {
+    setupCoverCodes("MONTGOMERY COUNTY", "A345");
+  }
+  
+  private static final void setupCoverCodes(String county, String ... stationCodes) {
+    for (String code : stationCodes) COVER_CODES.put(code, county);
+  }
 }
