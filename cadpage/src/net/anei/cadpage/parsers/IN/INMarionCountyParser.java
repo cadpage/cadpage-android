@@ -21,26 +21,18 @@ E WASHINGTON ST/S ORIENTAL ST,IND N00100 E01400 BUILDING/WORKI IFDFYI FIRE UNDER
 8850 FALL CREEK RD,LWR N07000 E08900 CIV/FATALITY IFDFYI SINGLE FATALITY ON OP3...ENC I04762 @ FROM: IF42
 E 30TH ST/N GERMAN CHURCH RD,WAR N03200 E11000 FIELD IFDFYI...FYI ONLY, SEVERAL IFD APPARATUS, EG37 FROM LAWRENCE, AND HANCOCK CO GRASS TRUCK ON THIS :1of2
 
+2803 BOYD LN, IND N02600 E02800 CIV/SLIGHT/INJ 700CIV SMALL GREASE FIRE PT BURN OTHER APPARATUS NEEDED. KW I03344
+7300 E 10TH ST,WAR N01000 E07300 PI W/EXTRAPMENT MD42 BC04 C1823 OP3 EG43 EG42 EXTF SQ10 TC43 EG44 I01960
+1142 BLAINE AV,IND S01200 W01600 RESIDENCE/WORKIN MD05 TS18 SF04 IPAGE MEDIA I02223
+W WASHINGTON ST/S WEST ST, IND N00001 W00500 PI W/ ENTRAPMENT MD01 BC13 C1823 OP1 EG13 LD13 EXTF SQ07 TC07 I02630
+
 */
 
 public class INMarionCountyParser extends MsgParser {
   
-  private static final Pattern MASTER = Pattern.compile("([^,]+),([A-Z]{3}) ([NS]\\d{5} [EW]\\d{5}) ([^ ]+) (.*)");
-  private static final Pattern UNIT_PTN = Pattern.compile("^(?:[A-Z]+[0-9]+|IPAGE|MEDIA)\\b");
-  
-  private static final Properties CITY_CODES = buildCodeTable(new String[]{
-      "IND", "Indianapolis",
-      "LWR", "Lawrence TWP",
-      "PIK", "Pike TWP",
-      "WAY", "Wayne TWP",
-      "SPD", "Speedway",
-      "PER", "Perry TWP",
-      "DEC", "Decatur TWP",
-      "WAR", "Warren TWP",
-      "WAS", "Washington TWP",
-      "HAM", "Hamilton County"
-  });
-  
+  private static final Pattern MASTER = Pattern.compile("([^,]+), *([A-Z]{3}) ([NS]\\d{5} [EW]\\d{5}) ([^ ]+(?: *W/ *[^ ]+)?) (.*)");
+  private static final Pattern CALL_ID_PTN = Pattern.compile("\\bI\\d{5}$");
+  private static final Pattern UNIT_PTN = Pattern.compile("^(?:[A-Z]+[0-9]+|IPAGE|MEDIA|CSTF)\\b");
   
   public INMarionCountyParser() {
     super("MARION COUNTY", "IN");
@@ -61,12 +53,29 @@ public class INMarionCountyParser extends MsgParser {
     data.strMap = match.group(3);
     data.strCall = match.group(4);
     String sExtra = match.group(5).trim();
+    match = CALL_ID_PTN.matcher(sExtra);
+    if (match.find()) {
+      data.strCallId = match.group();
+      sExtra = sExtra.substring(0,match.start()).trim();
+    }
     if (UNIT_PTN.matcher(sExtra).find()) {
       data.strUnit = sExtra;
     } else {
       data.strSupp = sExtra;
     }
     return true;
-    
   }
+  
+  private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "IND", "Indianapolis",
+      "LWR", "Lawrence TWP",
+      "PIK", "Pike TWP",
+      "WAY", "Wayne TWP",
+      "SPD", "Speedway",
+      "PER", "Perry TWP",
+      "DEC", "Decatur TWP",
+      "WAR", "Warren TWP",
+      "WAS", "Washington TWP",
+      "HAM", "Hamilton County"
+  });
 }
