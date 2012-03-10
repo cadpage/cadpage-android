@@ -17,6 +17,9 @@ Sender: cccademail@camdencounty.com
 (Dispatch SD45) DIABETIC\n217 BLACK HORSE PK N ,25\n#:4\nX:CARLISLE/LAKEVIEW\nZN:25B\nCP:MAX GROUP PHILLY CO  2011-03-30 13:23:26\nMI#:11007
 (Dispatch SD45) DWELLING\nBURLINGTON ST S/MONMOUTH ST ,14\n#:\nX:/\nZN:14A\nCP:  2011-03-30 10:33:28\nMI#:110072287\nRES#:SD45
 
+Contact: Steve Kane <captsteevo@gmail.com>
+(Dispatch QT60) APARTMENT  \n1800 LAUREL RD ,22   \n#:114  \nX:BLACKWOOD CLEMENTON/  \nZN:22B  \nCP:STONINGTON COURT AP  2012-03-09 07:24:49  \nMI#:
+
 */
 
 public class NJCamdenCountyAParser extends FieldProgramParser {
@@ -25,7 +28,7 @@ public class NJCamdenCountyAParser extends FieldProgramParser {
   
   public NJCamdenCountyAParser() {
     super("CAMDEN COUNTY", "NJ",
-           "CALL ADDR/SXP! X:X! ZN:MAP! CP:PLACE MI:ID RES:UNIT");
+           "CALL ADDR/SXP! #:APT X:X! ZN:MAP! CP:PLACE MI:ID RES:UNIT");
   }
   
   @Override

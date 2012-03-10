@@ -27,6 +27,7 @@ CodeMessaging client 446
 (29CAD) [!] Box:29-6 Loc:117 ARMSTRONG ST HFX DAUP XSts:N FRONT ST ,FISHER ST Event Type:CARDIAC OR RESPIRATORY ARREST / DEATH AED RESPONSE Class: 1 Disp: P29
 (29CAD) [!] Box:29-6 Loc:201 MARKET ST HFX DAUP XSts:S SECOND ST ,S THIRD ST Event Type:CHEST PAIN Class: Disp: M/PC81,13-1,20-2
 (29CAD) [!] Box:29-2 Loc:676 DUNKEL SCHOOL RD HFT DAUP XSts:CATERPILLAR LN ,KEIFFER RD Event Type:BREATHING PROBLEMS Class: 1 Disp: 13-2,6-5
+(21CAD) [!] Box:21-4 Loc:179 WOLFE RD WST DAUP XSts:RAKERS MILL RD ,HENNINGER RD Event Type:BREATHING PROBLEMS Class: 1 Disp: P21
 
  */
 
@@ -98,7 +99,6 @@ public class PADauphinCountyParser extends FieldProgramParser {
       // JEFFERSON TWP
       // LYKENS TWP
       // RUSH TWP
-      // WASHINGTON TWP
                    
       "CWT DAUP",  "CONEWAGO TWP",
 //      "DAB DAUP",  "DAB DAUP",  // Unknown
@@ -131,7 +131,7 @@ public class PADauphinCountyParser extends FieldProgramParser {
       "WIC DAUP",  "WICONISCO",
       "WIL DAUP",  "WILLIAMSTOWN",
       "WLT DAUP",  "WILLIAMS TWP",
-      "WST DAUP",  "WILLIAMS TWP",
+      "WST DAUP",  "WASHINTON TWP",
 
       // Cumberland County
       "EPEN CUMB", "EAST PENNSBORO TWP",
