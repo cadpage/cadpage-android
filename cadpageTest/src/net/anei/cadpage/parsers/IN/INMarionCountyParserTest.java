@@ -118,9 +118,28 @@ public class INMarionCountyParserTest extends BaseParserTest {
         "CALL:PI W/ ENTRAPMENT",
         "UNIT:MD01 BC13 C1823 OP1 EG13 LD13 EXTF SQ07 TC07",
         "ID:I02630");
+
+    doTest("T13",
+        "1720 W THOMPSON RD,PER S05000 W02200 SEMI/RV/MOTHM TC64 NONEMG FOR TOOLS ONLY, TNB I03861\n",
+        "ADDR:1720 W THOMPSON RD",
+        "CITY:Perry TWP",
+        "MAP:S05000 W02200",
+        "CALL:SEMI/RV/MOTHM",
+        "UNIT:TC64 NONEMG FOR TOOLS ONLY, TNB",
+        "ID:I03861");
+
+    doTest("T14",
+        "S NORFOLK ST/W MINNESOTA ST,WAY S01600 W05450 RESIDENCE/WORKIN MD82 TS83 WPAGE MEDIA I03875\n\n.",
+        "ADDR:S NORFOLK ST & W MINNESOTA ST",
+        "CITY:Wayne TWP",
+        "MAP:S01600 W05450",
+        "CALL:RESIDENCE/WORKIN",
+        "UNIT:MD82 TS83 WPAGE MEDIA",
+        "ID:I03875");
+
   }
   
   public static void main(String[] args) {
-    new INMarionCountyParserTest().generateTests("T9", "ADDR CITY MAP CALL UNIT INFO ID");
+    new INMarionCountyParserTest().generateTests("T1", "ADDR CITY MAP CALL UNIT INFO ID");
   }
 }

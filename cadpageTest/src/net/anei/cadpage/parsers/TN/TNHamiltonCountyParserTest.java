@@ -106,6 +106,17 @@ public class TNHamiltonCountyParserTest extends BaseParserTest {
 
   }
   
+  @Test
+  public void testDanny() {
+
+    doTest("T1",
+        "RT:STROKE-STROKE  Loc:10320 HAMBY RD, HAMILTON COUNTY  (SEQUOYAH ACCESS RD/PLES LN)  #[10206-10329]",
+        "CALL:STROKE-STROKE",
+        "ADDR:10320 HAMBY RD",
+        "X:SEQUOYAH ACCESS RD/PLES LN");
+
+  }
+  
 
   public static void main(String[] args) {
     new TNHamiltonCountyParserTest().generateTests("T1");
