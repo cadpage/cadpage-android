@@ -321,11 +321,16 @@ public class PABucksCountyParser extends FieldProgramParser {
         if (Character.isUpperCase(code.charAt(ipt))) {
           code = code.substring(ipt) + code.substring(0,ipt);
         }
-        String defCity = COVER_CODES.get(code);
-        if (defCity == null) defCity = "";
-        data.defCity = defCity;
+        String city = COVER_CODES.get(code);
+        if (city == null) city = "";
+        data.strCity = city;
       }
       super.parse(field, data);
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "INFO CITY";
     }
   }
     
