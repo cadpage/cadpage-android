@@ -97,7 +97,15 @@ public class MSMarionCountyParserTest extends BaseParserTest {
         "CITY:SANDY HOOK",
         "NAME:LEWIS, MARY",
         "ID:2012-0000001643");
-  }
+
+    doTest("T11",
+        "-  - 911-CENTER:SIG1S >MVA WITH INJURIES TEN MILE CREEK RD FOXWORTH AT&T MOBILITY Map: Grids:, Cad: 2012-0000004324\n",
+        "CALL:MVA WITH INJURIES",
+        "ADDR:TEN MILE CREEK RD",
+        "CITY:FOXWORTH",
+        "NAME:AT&T MOBILITY",
+        "ID:2012-0000004324");
+ }
   
   @Test
   public void testProwler() {
