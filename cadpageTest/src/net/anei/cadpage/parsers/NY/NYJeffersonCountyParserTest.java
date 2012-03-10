@@ -87,6 +87,25 @@ public class NYJeffersonCountyParserTest extends BaseParserTest {
         "INFO:83 Y/F FELL OUT OF BED BROKEN NOSE AN");
  }
   
+  @Test
+  public void testActive911() {
+
+    doTest("T1",
+        "(DISPATCH:1) CHIMNEY FIRE|12636 COUNTY ROUTE 66:ADAMS(T)|CHIMNEY FIRE   CALLBACK=(315)783-7406 LAT=  LON= UNC=    05315-783-7406 03/08 13:43:40  086CAUTION:  WIRELESS CALL         WIRELESS-AT&amp;T MOBILITY(TCS) WPH1   18864         CADY RD                                        ADAMS CENTER                  NYCELL = 3034  SECTOR = 3                             LAT:+043.910222  LON:-075.996056ELV:+00000 COF:0         COP:000MTN:315-511-4609       CPF:ATTMO-911ai.com-            ESN:00888                                VERIFY PD                       VERIFY FD                       VERIFY EMS",
+        "CALL:CHIMNEY FIRE",
+        "ADDR:12636 COUNTY ROUTE 66",
+        "CITY:ADAMS",
+        "INFO:CHIMNEY FIRE   CALLBACK=(315)783-7406 LAT=  LON= UNC=    05315-783-7406 03/08 13:43:40  086CAUTION:  WIRELESS CALL         WIRELESS-AT&T MOBILITY(TCS) WPH1   18864         CADY RD                                        ADAMS CENTER                  NYCELL = 3034  SECTOR = 3                             LAT:+043.910222  LON:-075.996056ELV:+00000 COF:0         COP:000MTN:315-511-4609       CPF:ATTMO-911ai.com-            ESN:00888                                VERIFY PD                       VERIFY FD                       VERIFY EMS");
+
+    doTest("T1",
+        "(DISPATCH:29,1) TEST-FIRE/EMS|310 S MAIN ST; MANNSVILLE MANOR FIRE DEPART:MANNSVILLE(V)|",
+        "CALL:TEST-FIRE/EMS",
+        "ADDR:310 S MAIN ST",
+        "PLACE:MANNSVILLE MANOR FIRE DEPART",
+        "CITY:MANNSVILLE");
+
+  }
+  
   public static void main(String[] args) {
     new NYJeffersonCountyParserTest().generateTests("T10");
   }

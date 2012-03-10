@@ -40,6 +40,7 @@ public class NJCamdenCountyAParserTest extends BaseParserTest {
         "CALL:DIABETIC",
         "ADDR:217 BLACK HORSE PK N",
         "MADDR:217 BLACK HORSE PIKE N",
+        "APT:4",
         "CITY:Mount Ephraim",
         "X:CARLISLE/LAKEVIEW",
         "MAP:25B",
@@ -55,6 +56,29 @@ public class NJCamdenCountyAParserTest extends BaseParserTest {
         "MAP:14A",
         "ID:110072287",
         "UNIT:SD45");
+  }
+  
+  @Test
+  public void testSteveKane() {
+
+    doTest("T1",
+        "(Dispatch QT60) APARTMENT  \n" +
+        "1800 LAUREL RD ,22   \n" +
+        "#:114  \n" +
+        "X:BLACKWOOD CLEMENTON/  \n" +
+        "ZN:22B  \n" +
+        "CP:STONINGTON COURT AP  2012-03-09 07:24:49  \n" +
+        "MI#:",
+
+        "CALL:APARTMENT",
+        "ADDR:1800 LAUREL RD",
+        "CITY:Lindenwold",
+        "APT:114",
+        "X:BLACKWOOD CLEMENTON/",
+        "MAP:22B",
+        "PLACE:STONINGTON COURT AP",
+        "UNIT:QT60");
+
   }
   
   public static void main(String[] args) {

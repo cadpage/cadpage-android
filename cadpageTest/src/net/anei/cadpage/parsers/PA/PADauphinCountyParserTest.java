@@ -183,6 +183,17 @@ public class PADauphinCountyParserTest extends BaseParserTest {
         "CALL:BREATHING PROBLEMS",
         "PRI:1",
         "UNIT:13-2,6-5");
+
+    doTest("T17",
+        "(21CAD) [!] Box:21-4 Loc:179 WOLFE RD WST DAUP XSts:RAKERS MILL RD ,HENNINGER RD Event Type:BREATHING PROBLEMS Class: 1 Disp: P21",
+        "SRC:21CAD",
+        "BOX:21-4",
+        "ADDR:179 WOLFE RD",
+        "CITY:WASHINTON TWP",
+        "X:RAKERS MILL RD / HENNINGER RD",
+        "CALL:BREATHING PROBLEMS",
+        "PRI:1",
+        "UNIT:P21");
  }
   
   public static void main(String[] args) {
