@@ -98,12 +98,11 @@ public class Message {
   private void preParse(String fromAddress, String subject, String body) {
     
     // Start by decoding common HTML sequences
-    body = body.replaceAll("&nbsp;",  " ").replaceAll("&amp;",  "&")
-               .replaceAll("<br>", "\n").replaceAll("&gt;", ">").replaceAll("&lt;", "<").trim();
+    body = decode(body);
     
     // default address and subject to obvious values
     parseAddress = fromAddress;
-    parseSubject = subject;
+    parseSubject = decode(subject);
     
     // Remove trailing disclaimer(s)
     body = DISCLAIMER_PTN.matcher(body).replaceFirst("");
@@ -293,6 +292,16 @@ public class Message {
 
     } while (false);
     parseMessageBody = finish(body);
+  }
+
+  /**
+   * Remove common HTML sequences
+   * @param body
+   * @return
+   */
+  private String decode(String body) {
+    return body.replaceAll("&nbsp;",  " ").replaceAll("&amp;",  "&")
+               .replaceAll("<br>", "\n").replaceAll("&gt;", ">").replaceAll("&lt;", "<").trim();
   }
   
   /**

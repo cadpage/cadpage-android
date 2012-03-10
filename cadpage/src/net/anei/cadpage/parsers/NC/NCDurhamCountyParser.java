@@ -26,6 +26,10 @@ Contact: Jeff Howard <parkwood151@gmail.com>
 From: CAD@durhamnc.gov
 (CAD:) ASST PD SEIZURE;1125 W NC 54 HWY;[LAW] {A324} CON BREATHING AND ALERT [09/10/11 01:52:07 MITCHELLM] Event spawned from INTOXICATED DRIVER. [09/10/2011 01:51
 
+Contact: "tc9008@aol.com" <tc9008@aol.com>
+Sender: CAD@durhamnc.gov
+CAD:SICK PERSON;6234 DELLO ST;***caller req no sirens*** [03/06/12 02:05:55 HOWARDS] ;DONLEE DR;DOYLE RD
+
 */
 
 public class NCDurhamCountyParser extends DispatchOSSIParser {

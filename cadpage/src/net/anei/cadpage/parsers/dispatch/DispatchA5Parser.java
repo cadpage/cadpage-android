@@ -1,13 +1,14 @@
-package net.anei.cadpage.parsers.NJ;
+package net.anei.cadpage.parsers.dispatch;
 
-import net.anei.cadpage.parsers.dispatch.DispatchA5Parser;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+import net.anei.cadpage.parsers.FieldProgramParser;
+import net.anei.cadpage.parsers.MsgInfo.Data;
 
 
 /*
 Monmouth County, NJ
-Contact: support@active911.com
-Sender: @MCSONJ.ORG
-
 (<mcsoza7@MCSONJ.ORG>) S: Automatic R&R Notification\n** ** ** ** ** ** ** ** ** ** ** ** FINAL REPORT ** ** ** ** ** ** ** ** ** ** ** **  \nIncident Number  : 2012-00000042                    ORI: 26-2          Station: STA 26-2  \nIncident Type  . : FIRS F FIRE STRUC           Priority: 1  \nIncident Location: 90 OAKLAND MILLS RD                                  Venue: MANALAPAN \n\nCall Time- 17:25:27                                Date- 01/19/2012  \nDispatch - 17:25:50     En-route- 17:29:37     On-scene- 17:31:16     Depart 1-  \nArrive 2 -              Depart 2-              In-statn-              Cleared - 18:18:23 \n\nArea: 26A4              Section :   33         Beat  . : 26A4  \nGrid:                   Quadrant: 262S         District: E262 \n\nPhone Number: (732) 308-4591                Call Source:  911 \n\nCaller. . . : ROB YUHAS \n\nUnits sent  :  \n 12-1        F12A                 26-2        F262A  \n 32-1        F32A                 12-1        1266  \n 12-1        1269                 12-1        1274  \n 12-1        1275                 26-2        26286  \n 32-1        3266                 32-1        3290  \n 32-1        3296                 26-2        26266  \n 26-2        26267                26-2        26290 \n\nNature of Call : CHIMNEY FIRE/ ADVISED TO EVACUATE \n\nAdditional Info  \n  RESD: \n\nNarrative  \n Information on the units assigned to the call follows.  \n     Unit#: F12A   Radio#:        Ofcr 1:             Ofcr 2:  \n        DSP: 01/19/12 17:25   ENR:            :    ARV:            :  \n        DPT:            :     AR2:            :    DP2:            :  \n        QTR:            :     CLR: 01/19/12 17:30  \n     Unit#: 1266   Radio#:        Ofcr 1:             Ofcr 2:  \n        DSP: 01/19/12 17:29   ENR: 01/19/12 17:29  ARV: 01/19/12 17:36  \n        DPT:            :     AR2:            :    DP2:            :  \n        QTR:            :     CLR: 01/19/12 18:18  \n     Unit#: 1274   Radio#:        Ofcr 1:             Ofcr 2:  \n        DSP: 01/19/12 17:33   ENR: 01/19/12 17:33  ARV: 01/19/12 17:54  \n        DPT:            :     AR2:            :    DP2:            :  \n        QTR:            :     CLR: 01/19/12 18:18  \n     Unit#: 1275   Radio#:        Ofcr 1:             Ofcr 2:  \n        DSP: 01/19/12 17:34   ENR: 01/19/12 17:34  ARV: 01/19/12 17:40  \n        DPT:            :     AR2:            :    DP2:            :  \n        QTR:            :     CLR: 01/19/12 18:18  \n     Unit#: 1269   Radio#:        Ofcr 1:             Ofcr 2:  \n        DSP: 01/19/12 17:34   ENR: 01/19/12 17:34  ARV: 01/19/12 17:39  \n        DPT:            :     AR2:            :    DP2:            :  \n        QTR:            :     CLR: 01/19/12 18:18  \n     Unit#: F262A  Radio#:        Ofcr 1:             Ofcr 2:  \n        DSP: 01/19/12 17:25   ENR:            :    ARV:            :  \n        DPT:            :     AR2:            :    DP2:            :  \n        QTR:            :     CLR: 01/19/12 17:30  \n     Unit#: 26286  Radio#:        Ofcr 1:             Ofcr 2:  \n        DSP: 01/19/12 17:29   ENR: 01/19/12 17:29  ARV: 01/19/12 17:54  \n        DPT:            :     AR2:            :    DP2:            :  \n        QTR:            :     CLR: 01/19/12 18:18  \n     Unit#: 26266  Radio#:        Ofcr 1:             Ofcr 2:  \n        DSP: 01/19/12 17:29   ENR: 01/19/12 17:29  ARV: 01/19/12 17:31  \n        DPT:            :     AR2:            :    DP2:            :  \n        QTR:            :     CLR: 01/19/12 18:18  \n     Unit#: 26267  Radio#:        Ofcr 1:             Ofcr 2:  \n        DSP: 01/19/12 17:29   ENR: 01/19/12 17:29  ARV: 01/19/12 17:34  \n        DPT:            :     AR2:            :    DP2:            :  \n        QTR:            :     CLR: 01/19/12 18:18  \n     Unit#: 26290  Radio#:        Ofcr 1:             Ofcr 2:  \n        DSP: 01/19/12 17:33   ENR: 01/19/12 17:33  ARV: 01/19/12 17:36  \n        DPT:            :     AR2:            :    DP2:            :  \n        QTR:            :     CLR: 01/19/12 18:18  \n     Unit#: F32A   Radio#:        Ofcr 1:             Ofcr 2:  \n        DSP: 01/19/12 17:25   ENR:            :    ARV:            :  \n        DPT:            :     AR2:            :    DP2:            :  \n        QTR:            :     CLR: 01/19/12 17:30  \n     Unit#: 3290   Radio#:        Ofcr 1:             Ofcr 2:  \n        DSP: 01/19/12 17:29   ENR: 01/19/12 17:29  ARV: 01/19/12 17:36  \n        DPT:            :     AR2:            :    DP2:            :  \n        QTR:            :     CLR: 01/19/12 18:08  \n     Unit#: 3266   Radio#:        Ofcr 1:             Ofcr 2:  \n        DSP: 01/19/12 17:37   ENR: 01/19/12 17:37  ARV: 01/19/12 17:45  \n        DPT:            :     AR2:            :    DP2:            :  \n        QTR:            :     CLR: 01/19/12 18:08  \n     Unit#: 3296   Radio#:        Ofcr 1:             Ofcr 2:  \n        DSP:            :     ENR:            :    ARV: 01/19/12 17:40  \n        DPT:            :     AR2:            :    DP2:            :  \n        QTR:            :     CLR: 01/19/12 18:08  \n PD 26 NTFD  \n CODE 2  \n 26 21
 
 (<mcsoz6@MCSONJ.ORG>) S:Automatic R&R Notification\n\nIncident Number  : 2012-00000040                    ORI: 26-2          Station: STA 26-2\nIncident Type  . : CRBA F CARB MONOX           Priority: 1\nIncident Location: 686 ST ANDREWS PL                                    Venue: MANALAPAN\nLocated Between  : SAWGRASS DR/\n\nCall Time- 21:28:10                                Date- 01/18/2012\nDispatch -              En-route-              On-scene-              Depart 1-\nArrive 2 -              Depart 2-              In-statn-\n\nArea: 26A4              Section :   29         Beat  . : 26A4        Map . . :\nGrid:                   Quadrant: F262         District: E262\n\nPhone Number: (908) 770-0906                Call Source:  911\n\nCaller. . . : JESSICA SEAGULL\n\nNature of Call : CO ALARM SOUNDING/HAS GAS FIREPLACE ON EARLIE\n\nAdditional Info\n  WPH1:  RADIUS 01 MILES\n  R PD 26 NTFD\n\nAdditional Inc#s:\n\nThe Call Taker is FRUEH DOUGLAS\nThe Dispatcher is MCCORMICK KIEL
@@ -24,16 +25,88 @@ Sender: @MCSONJ.ORG
 (<MCSOZ3@MCSONJ.ORG>) S: Automatic R&R Notification\nIncident Number  : 2012-00000055                    ORI: 32-1          Station: STA 32-1  \nIncident Type  . : FIRS F FIRE STRUC           Priority: 1  \nIncident Location: CHARLESTON SPRING RD                                 Venue: MILLSTONE  \n  Cross Street . : CARRIAGE WY \n\nCall Time- 16:26:27                                Date- 01/26/2012  \nDispatch - 16:32:31     En-route-              On-scene-              Depart 1-  \nArrive 2 -              Depart 2-              In-statn- \n\nArea: 3200              Section : 1851         Beat  . :   32        Map . . :  \nGrid:                   Quadrant: 3215         District: E321 \n\nPhone Number: (609) 396-8852                Call Source:  911 \n\nCaller. . . : ELIZABETH GOLDMAN \n\nUnits sent  :  \n 26-2        F262A                32-1        F32A  \n 16-1        F161A                32-1        3275 \n\nNature of Call : REPORTING A HOUSE FIRE \n\nAdditional Info  \n  WPH2:  RADIUS 01 MILES  \n  SAW SMOKE FROM WINDOW 2ND FLR \n\nNarrative  \n CALLER DROVE PAST ON SCHOOL BUS                   MHEATON    16:26:56  \n IS ATTEMPTING TO DRIVE BACK                       MHEATON    16:27:01  \n NJSP NTFD                                         MHEATON    16:27:43  \n 44 CHARLESTOWN SPRINGS                            MHEATON    16:32:27 \n\nAdditional Inc#s:  \n 16-1        201200000112             26-2        201200000053 \n\nThe Call Taker is HEATON MICHAEL  \nThe Dispatcher is SPANO MICHAEL
 (<mcsop7@MCSONJ.ORG>) S: Automatic R&R Notification\nIncident Number  : 2012-00000054                    ORI: 26-2          Station: STA 26-2  \nIncident Type  . : AIDF F AID-F                Priority: 1  \nIncident Location: 5 SWEETMANS LN                                       Venue: MANALAPAN  \nLocated Between  : BORDER-MILLSTONE TWP/ST HWY 33 W  \nCommon Name. . . : STATION 26-2 \n\nCall Time- 16:34:08                                Date- 01/26/2012  \nDispatch - 16:34:38     En-route-              On-scene-              Depart 1-  \nArrive 2 -              Depart 2-              In-statn- \n\nArea: 26A4              Section :   32         Beat  . : 26A4        Map . . :  \nGrid:                   Quadrant: F262         District: E262 \n\nPhone Number: (000) 000-0000                Call Source:  TEL \n\nCaller. . . : 3275 \n\nUnits sent  :  \n 26-2        F262A \n\nNature of Call : IN MILLSTONE CHARLSTON SPRING STRUCTURE \n\nAdditional Info  \n  SAME ABOVE \n\nAdditional Inc#s: \n\nThe Call Taker is KNIGHTON JUSTIN  \nThe Dispatcher is KNIGHTON JUSTIN
 
+Burlington County, NJ
+S: Automatic R&amp;R Notification\n  \nIncident Number  : 2012-00000242                    ORI: E179          Station:  \nIncident Type  . :  129 E AccInjry             Priority: 1  \nIncident Location: RT206                                                Venue: Southamptn  \n  Cross Street . : BUDDTOWN RD \n\nCall Time- 18:55:19                                Date- 03/08/2012  \nDispatch - 18:56:59     En-route-              On-scene-              Depart 1-  \nArrive 2 -              Depart 2-              In-statn- \n\nArea: 1700              Section :    1         Beat  . : 1790        Map . . :  \nGrid:  M16              Quadrant: 1710         District: 1710 \n\nPhone Number: (609) 731-1906                Call Source:  911 \n\nCaller. . . : ALICE LISTON \n\nUnits sent  :  \n 03171       F1710                03171       F1712  \n E178        E1782                E179        E1791 \n\nNature of Call : 2 VEH MVA// ONE FEMALE WITH A HEAD INJURY//NO \n\nAdditional Info  \n  WPH2:  \n   OTHER HAZARDS \n\nAdditional Inc#s:  \n E178        201200000257             03171       201200000084 \n\nThe Call Taker is MCCORMACK KENNETH J  \nThe Dispatcher is ENDRES ANTHONY G
+S: Automatic R&amp;R Notification\n  \nIncident Number  : 2012-00000242                    ORI: E179          Station:  \nIncident Type  . :  EMS E EMS Call             Priority: 1  \nIncident Location: RT206                                                Venue: Southamptn  \n  Cross Street . : BUDDTOWN RD \n\nCall Time- 18:55:19                                Date- 03/08/2012  \nDispatch -              En-route-              On-scene-              Depart 1-  \nArrive 2 -              Depart 2-              In-statn- \n\nArea: 1700              Section :    1         Beat  . : 1790        Map . . :  \nGrid:  M16              Quadrant: 1710         District: 1710 \n\nPhone Number: (609) 731-1906                Call Source:  911 \n\nCaller. . . : ALICE LISTON \n\nNature of Call : 2 VEH MVA// INJURIES \n\nAdditional Info  \n  WPH2: \n\nAdditional Inc#s:  \n 03171       201200000084 \n\nThe Call Taker is MCCORMACK KENNETH J  \nThe Dispatcher is ENDRES ANTHONY G
+S: Automatic R&amp;R Notification\n  \nIncident Number  : 2012-00000083                    ORI: 03171         Station:  \nIncident Type  . :   16 F Alarms               Priority: 1  \nIncident Location: 511 MEADOWYCK LA                                     Venue: Southamptn  \nLocated Between  : CHURCH RD/EAYRESTOWN RD \n\nCall Time- 12:53:11                                Date- 03/08/2012  \nDispatch - 12:53:24     En-route-              On-scene-              Depart 1-  \nArrive 2 -              Depart 2-              In-statn- \n\nArea: 1700              Section :    1         Beat  . : 1790        Map . . :  \nGrid:  K14              Quadrant: 1700         District: 1700 \n\nPhone Number: (718) 494-6414                Call Source:  TEL \n\nCaller. . . : STATE WIDE ALARMS  \nComplaintant: OP 401 \n\nUnits sent  :  \n 03171       F171                 03171       F1710  \n 03172       F172 \n\nNature of Call : CO ALARM / 609-801-1503- \n\nAdditional Info  \n  TWIN OAKS \n\nAddress Checks \n\nAdditional Inc#s:  \n 03172       201200000056 \n\nThe Call Taker is KINNEY DAVID R  \nThe Dispatcher is KNOTT VINCENT M
+S: Automatic R&amp;R Notification\n  \nIncident Number  : 2012-00000238                    ORI: E179          Station:  \nIncident Type  . :  117 E Falls                Priority: 1  \nIncident Location: 311 RED LION RD                                      Venue: Southamptn  \nLocated Between  : NEW FREEDOM RD/HILLIARDS BRIDGE RD \n\nCall Time- 17:14:29                                Date- 03/07/2012  \nDispatch - 17:20:28     En-route-              On-scene- 17:20:28     Depart 1-  \nArrive 2 -              Depart 2-              In-statn- \n\nArea: 1700              Section :    1         Beat  . : 1790        Map . . :  \nGrid:  L16              Quadrant: 1712         District: 1712 \n\nPhone Number: (856) 498-4915                Call Source:  911 \n\nCaller. . . : RYAN SUSANNE \n\nUnits sent  :  \n E159        E1593                03171       F171  \n 03171       F1710                03171       F1712  \n 03172       F172                 E178        E1782  \n E179        E179 \n\nNature of Call : 16/F THROWN FROM HORSE BACK AND HEAD PAIN \n\nAdditional Info  \n  WPH1:  RADIUS 01 MILES  \n  HX BACK PROBLEM \n\nAdditional Inc#s:  \n E159        201200004136             E178        201200000252  \n 03171       201200000082             03172       201200000054 \n\nThe Call Taker is TAYL0R BONNIE J  \nThe Dispatcher is JOHNSON THOMAS
+S: Automatic R&amp;R Notification\n  \nIncident Number  : 2012-00000238                    ORI: E179          Station:  \nIncident Type  . :  117 E Falls                Priority: 1  \nIncident Location: 311 RED LION RD                                      Venue: Southamptn  \nLocated Between  : NEW FREEDOM RD/HILLIARDS BRIDGE RD \n\nCall Time- 17:14:29                                Date- 03/07/2012  \nDispatch - 17:20:28     En-route-              On-scene- 17:20:28     Depart 1-  \nArrive 2 -              Depart 2-              In-statn- \n\nArea: 1700              Section :    1         Beat  . : 1790        Map . . :  \nGrid:  L16              Quadrant: 1712         District: 1712 \n\nPhone Number: (856) 498-4915                Call Source:  911 \n\nCaller. . . : RYAN SUSANNE \n\nUnits sent  :  \n E159        E1593                03171       F171  \n 03171       F1710                E178        E1782  \n E179        E179 \n\nNature of Call : 16/F THROWN FROM HORSE BACK AND HEAD PAIN \n\nAdditional Info  \n  WPH1:  RADIUS 01 MILES  \n  HX BACK PROBLEM \n\nAdditional Inc#s:  \n E159        201200004136             E178        201200000252  \n 03171       201200000082 \n\nThe Call Taker is TAYL0R BONNIE J  \nThe Dispatcher is JOHNSON THOMAS
+S: Automatic R&amp;R Notification\n  \nIncident Number  : 2012-00000234                    ORI: E179          Station:  \nIncident Type  . : 129F E Mva/Fire             Priority: 1  \nIncident Location: 2063 RT206                                           Venue: Southamptn  \nLocated Between  : RIDGE RD/RETREAT RD  \nCommon Name. . . : HAGERTHEY REPAIR SHOP \n\nCall Time- 08:42:10                                Date- 03/07/2012  \nDispatch - 08:44:01     En-route-              On-scene-              Depart 1-  \nArrive 2 -              Depart 2-              In-statn- \n\nArea: 1700              Section :    1         Beat  . : 1790        Map . . :  \nGrid:  L16              Quadrant: 1712         District: 1712 \n\nPhone Number: (609) 584-5000                Call Source:  TEL \n\nCaller. . . : DISP 1614  \nComplaintant: NJSP-RED LION \n\nUnits sent  :  \n E179        E179                 03171       F171  \n 03172       F172                 E178        E1781  \n E179        E1791 \n\nNature of Call : MVA DRIVER WITH HEAD LAC//NJSP ON LOC \n\nAdditional Info  \n  IAO \n\nAddress Checks \n\nAdditional Inc#s:  \n E178        201200000247             03171       201200000081  \n 03172       201200000053 \n\nThe Call Taker is MURRAY SHAKIRA  \nThe Dispatcher is YERKES WAYNE D
+S: Automatic R&amp;R Notification\n  \nIncident Number  : 2012-00000083                    ORI: 03171         Station:  \nIncident Type  . : FIRE F Fire Call            Priority: 1  \nIncident Location: 511 MEADOWYCK LA                                     Venue: Southamptn  \nLocated Between  : CHURCH RD/EAYRESTOWN RD \n\nCall Time- 12:53:11                                Date- 03/08/2012  \nDispatch -              En-route-              On-scene-              Depart 1-  \nArrive 2 -              Depart 2-              In-statn- \n\nArea: 1700              Section :    1         Beat  . : 1790        Map . . :  \nGrid:  K14              Quadrant: 1700         District: 1700 \n\nPhone Number: (718) 494-6414                Call Source:  TEL \n\nCaller. . . : STATE WIDE ALARMS  \nComplaintant: OP 401 \n\nNature of Call : CO ALARM / 609-801-1503- \n\nAdditional Info  \n  TWIN OAKS \n\nAddress Checks \n\nAdditional Inc#s: \n\nThe Call Taker is KINNEY DAVID R  \nThe Dispatcher is KNOTT VINCENT M
+S: Automatic R&amp;R Notification\n  \nIncident Number  : 2012-00000234                    ORI: E179          Station:  \nIncident Type  . :  EMS E EMS Call             Priority: 1  \nIncident Location: 2063 RT206                                           Venue: Southamptn  \nLocated Between  : RIDGE RD/RETREAT RD  \nCommon Name. . . : HAGERTHEY REPAIR SHOP \n\nCall Time- 08:42:10                                Date- 03/07/2012  \nDispatch -              En-route-              On-scene-              Depart 1-  \nArrive 2 -              Depart 2-              In-statn- \n\nArea: 1700              Section :    1         Beat  . : 1790        Map . . :  \nGrid:  L16              Quadrant: 1712         District: 1712 \n\nPhone Number: (609) 584-5000                Call Source:  TEL \n\nCaller. . . : DISP 1614  \nComplaintant: NJSP-RED LION \n\nUnits sent  :  \n E179        E179                 E178        E1781  \n E179        E1791 \n\nNature of Call : MVA DRIVER WITH HEAD LAC//NJSP ON LOC \n\nAdditional Info  \n  IAO \n\nAddress Checks \n\nAdditional Inc#s:  \n E178        201200000247             03171       201200000081 \n\nThe Call Taker is MURRAY SHAKIRA  \nThe Dispatcher is YERKES WAYNE D
+
 */
 
-public class NJMonmouthCountyAParser extends DispatchA5Parser {
+public class DispatchA5Parser extends FieldProgramParser {
   
-  public NJMonmouthCountyAParser() {
-    super("MONMOUTH COUNTY", "NJ");
+  private static final Pattern KEYWORD_TRAIL_PTN = Pattern.compile("[ \\.]+:");
+  private static final Pattern CALL_TIME_DATE_PTN = Pattern.compile("\\bCall Time- ([0-9:]+) +Date- ([0-9/]+) *\n.*?(?=\nArea:)", Pattern.DOTALL);
+  
+  public DispatchA5Parser(String defCity, String defState) {
+    super(defCity, defState,
+           "Incident_Number:ID! ORI:SKIP! Station:SRC! " +
+           "Incident_Type:CALL! Priority:PRI! " +
+           "Incident_Location:ADDR! Venue:CITY! " +
+           "Located_Between:X? Cross_Street:X? Common_Name:PLACE? " +
+           "Call_Time:TIME! Call_Date:DATE! " +
+           "Area:MAP! Section:MAP! Beat:SKIP! Map:SKIP! " +
+           "Grid:SKIP! Quadrant:MAP! District:MAP! " +
+           "Phone_Number:PHONE! Call_Source:SKIP! " +
+           "Caller:NAME? " +
+           "Units_sent:UNIT? " +
+           "Nature_of_Call:INFO ");
   }
   
   @Override
-  public String getFilter() {
-    return "@MCSONJ.ORG";
+  protected boolean parseMsg(String subject, String body, Data data) {
+    if (!subject.equals("Automatic R&R Notification")) return false;
+    if (body.contains("** FINAL REPORT **")) return false;
+    
+    int pt = body.indexOf("\nAdditional Info");
+    if (pt < 0) return false;
+    body = body.substring(0,pt).trim();
+    
+    body = KEYWORD_TRAIL_PTN.matcher(body).replaceAll(":");
+    Matcher match = CALL_TIME_DATE_PTN.matcher(body);
+    if (!match.find()) return false;
+    body = match.replaceFirst("Call Time:$1 Call Date:$2 ");
+    
+    body = body.replace('\n', ' ');
+    body = body.replaceAll("  +", " ");
+    if (!super.parseMsg(body, data)) return false;
+    return true;
+  }
+  
+  private class MyCrossField extends CrossField {
+    @Override
+    public void parse(String field, Data data) {
+      if (field.endsWith("/")) field = field.substring(0,field.length()-1).trim();
+      super.parse(field, data);
+    }
+  }
+  
+  private static final Pattern MAP_TRAIL_PTN = Pattern.compile("[ +]+$");
+  private class MyMapField extends MapField {
+    @Override
+    public void parse(String field, Data data) {
+      field = MAP_TRAIL_PTN.matcher(field).replaceFirst("");
+      data.strMap = append(field, "/", data.strMap);
+    }
+  }
+  
+  private class MyPhoneField extends PhoneField {
+    @Override
+    public void parse(String field, Data data) {
+      if (field.equals("(000) 000-0000")) return;
+      super.parse(field, data);
+    }
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("X")) return new MyCrossField();
+    if (name.equals("MAP")) return new MyMapField();
+    if (name.equals("PHONE")) return new MyPhoneField();
+    return super.getField(name);
   }
 }
