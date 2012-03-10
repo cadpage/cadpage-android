@@ -1837,7 +1837,6 @@ public class PABucksCountyParserTest extends BaseParserTest {
   
   @Test
   public void testOOCMutualAid() {
-    setDefaults("MONTGOMERY COUNTY", "PA");
 
     doTest("T1",
         "[Important message from Bucks County RSAN] SQ134:ACVA\n" +
@@ -1851,6 +1850,7 @@ public class PABucksCountyParserTest extends BaseParserTest {
         "ADDR:54 NESHAMINY FALLS CIRCLE",
         "X:WOODSBLUFF",
         "INFO:RN -CV 345A MONTGO TWP",
+        "CITY:MONTGOMERY COUNTY",
         "TIME:16:14:29",
         "ID:ED1208711",
         "UNIT:SQ134");
@@ -1867,6 +1867,7 @@ public class PABucksCountyParserTest extends BaseParserTest {
         "ADDR:46 CENTER COURT",
         "X:WOODSBLUFF RUN",
         "INFO:CV A345",
+        "CITY:MONTGOMERY COUNTY",
         "TIME:10:28:46",
         "ID:ED1208799",
         "UNIT:SQ134");
