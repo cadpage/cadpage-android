@@ -1833,11 +1833,48 @@ public class PABucksCountyParserTest extends BaseParserTest {
         "TIME:18:47:59",
         "ID:FD1202516",
         "UNIT:E79");
+  }
+  
+  @Test
+  public void testOOCMutualAid() {
+    setDefaults("MONTGOMERY COUNTY", "PA");
+
+    doTest("T1",
+        "[Important message from Bucks County RSAN] SQ134:ACVA\n" +
+        "adr:54 NESHAMINY FALLS CIRCLE X/WOODSBLUFF\n" +
+        "aai:RN -CV 345A MONTGO TWP\n" +
+        "box: map:\n" +
+        "tm:16:14:29 ED1208711\n" +
+        "Sent by mss911 Bucks to SQ134, mss911 Bucks (Voice/Fax Dialer, E-mail accounts, Pagers, Cell phones) through Bucks County RSAN",
+
+        "CALL:ACVA - CVA/STROKE",
+        "ADDR:54 NESHAMINY FALLS CIRCLE",
+        "X:WOODSBLUFF",
+        "INFO:RN -CV 345A MONTGO TWP",
+        "TIME:16:14:29",
+        "ID:ED1208711",
+        "UNIT:SQ134");
+
+    doTest("T2",
+        "[Important message from Bucks County RSAN] SQ134:ACHESP\n" +
+        "adr:46 CENTER COURT X/WOODSBLUFF RUN\n" +
+        "aai:CV A345\n" +
+        "box: map:\n" +
+        "tm:10:28:46 ED1208799\n" +
+        "Sent by mss911 Bucks to SQ134, mss911 Bucks (Voice/Fax Dialer, E-mail accounts, Pagers, Cell phones) through Bucks County RSAN",
+
+        "CALL:ACHESP - CHEST PAINS (CARDIAC SYMPT.)",
+        "ADDR:46 CENTER COURT",
+        "X:WOODSBLUFF RUN",
+        "INFO:CV A345",
+        "TIME:10:28:46",
+        "ID:ED1208799",
+        "UNIT:SQ134");
 
   }
   
   
   public static void main(String[] args) {
-    new PABucksCountyParserTest().generateTests("T10");
+    new PABucksCountyParserTest().generateTests("T17");
   }
 }
