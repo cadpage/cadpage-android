@@ -107,6 +107,14 @@ public class NCDurhamCountyParserTest extends BaseParserTest {
         "INFO:CON BREATHING AND ALERT / Event spawned from INTOXICATED DRIVER.",
         "DATE:09/10/11",
         "TIME:01:52:07");
+
+    doTest("T13",
+        "CAD:SICK PERSON;6234 DELLO ST;***caller req no sirens*** [03/06/12 02:05:55 HOWARDS] ;DONLEE DR;DOYLE RD",
+        "CALL:SICK PERSON",
+        "ADDR:6234 DELLO ST",
+        "INFO:***caller req no sirens*** / DONLEE DR / DOYLE RD",
+        "DATE:03/06/12",
+        "TIME:02:05:55");
   }
   
   public static void main(String[] args) {
