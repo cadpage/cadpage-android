@@ -41,12 +41,14 @@ GRG-FD:11079916:07/14/2011 17:36:09:MVC:V POLE: FRANKLI-BUTLER ROAD & S MIDDLEBU
 Contact: Sean Lambertz <sean.lambertz@gmail.com>
 *3898: *messaging@iamresponding.com / 77 RESCUE / kharju:SBB-RS:12029633 :03/01/2012 23:53:12:SICK PERSON:22 YOM: SOUTH B-SOUTHSIDE GRILL / 2 MAIN ST #10
 *4101: *ghargreave@co.somerset.nj.us /  / SBB-FD:12027787:02/27/2012 11:58:34:FIRE: SOUTH B-SOUTHSIDE GRILL / 2 MAIN ST
+  / SBB-FD:12033968:03/11/2012 10:49:03:STRUCTURE FIRE: BOUND B-547 WHEATLAND AVE\n
 
 */
 
 public class NJSomersetCountyParser extends MsgParser {
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "BOUND B", "BOUND BROOK",
       "FRANKLI", "FRANKLIN TWP",
       "MONTGOM", "MONTGOMERY TWP",
       "HOPEWEL", "HOPEWELL TWP",
@@ -65,7 +67,7 @@ public class NJSomersetCountyParser extends MsgParser {
   
   @Override
   public String getFilter() {
-    return "rc.502@c-msg.net,messaging@iamresponding.com,ghargreave@co.somerset.nj.us";
+    return "rc.502@c-msg.net,messaging@iamresponding.com,@co.somerset.nj.us";
   }
   
   @Override
