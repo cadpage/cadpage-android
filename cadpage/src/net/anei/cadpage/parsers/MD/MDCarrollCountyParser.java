@@ -81,13 +81,17 @@ Contact: Troy Hipsley <troy.hipsley@gmail.com>
 Contact: james zuna <mtpockets316@yahoo.com>
 Co14 / [!] CT:VC KLEE MILL RD S / LIBERTY RD W SYKE BOX:1416 DUE:X149 E141 [08]\n\n
 
+Contact: Mike Karolenko <mkarolenko@gmail.com>
+Sender: rc.383@c-msg.net
+(Co3) [!] CT:ALARM 2 400 N CENTER ST @TOWNMALL WESTMINSTER WEST BOX:0380 DUE:E33 [03]
+
 */
 
 public class MDCarrollCountyParser extends FieldProgramParser {
   
   // List of call descriptions consisting for multiple words
   private static final String[] TWO_WORD_CALLS = new String[] {
-    "BF RESC", "TRAIN AC", "TRAIN FI", "GAS LINE", "AMB TRANS"
+    "BF RESC", "TRAIN AC", "TRAIN FI", "GAS LINE", "AMB TRANS", "ALARM 2"
   };
   
   private static final Pattern TRAIL_SEQ = Pattern.compile(" \\[\\d+\\]$");
