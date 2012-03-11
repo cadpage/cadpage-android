@@ -263,6 +263,16 @@ public class NJSomersetCountyParserTest extends BaseParserTest {
         "CITY:SOUTH BRUNSWICK",
         "PLACE:SOUTHSIDE GRILL",
         "ADDR:2 MAIN ST");
+
+    doTest("T3",
+        "  / SBB-FD:12033968:03/11/2012 10:49:03:STRUCTURE FIRE: BOUND B-547 WHEATLAND AVE\n",
+        "SRC:SBB-FD",
+        "ID:12033968",
+        "DATE:03/11/2012",
+        "TIME:10:49:03",
+        "CALL:STRUCTURE FIRE",
+        "CITY:BOUND BROOK",
+        "ADDR:547 WHEATLAND AVE");
   }
   
   
