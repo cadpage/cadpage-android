@@ -30,6 +30,10 @@ Contact: Shane Taylor <vtdb8829taylor@gmail.com>
 Sender: MAILBOX@hrecc.org
 R35 EMS-ILLNESS 201 HILL AVE ELK CFS# 2011-073441 CROSS: W C ST/W D ST
 
+Contact: Shannon Freeze <sfreeze435@gmail.com>
+Sender: +15402446442
+MAILBOX:RS4 TRAFFIC CRASH US HWY CFS# 2012-004561
+
 */
 
 public class VAPageCountyParser extends DispatchDAPROParser {

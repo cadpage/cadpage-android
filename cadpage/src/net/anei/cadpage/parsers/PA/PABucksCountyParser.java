@@ -1,7 +1,5 @@
   package net.anei.cadpage.parsers.PA;
 
-import java.util.HashMap;
-import java.util.Map;
 import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -310,20 +308,18 @@ public class PABucksCountyParser extends FieldProgramParser {
     }
   }
   
-  private static final Pattern COVER_PTN = Pattern.compile("\\bCV +(A\\d{3}|\\d{3}A)\\b");
+  private static final Pattern COVER_PTN = Pattern.compile("\\bCV +[A-Z]?(\\d)\\d\\d[A-Z]?\\b");
   private class MyInfoField extends InfoField {
     @Override
     public void parse(String field, Data data) {
       Matcher match = COVER_PTN.matcher(field);
       if (match.find()) {
         String code = match.group(1);
-        int ipt = code.length()-1;
-        if (Character.isUpperCase(code.charAt(ipt))) {
-          code = code.substring(ipt) + code.substring(0,ipt);
+        switch (code.charAt(0)-'0') {
+        case 3:
+          data.strCity = "MONTGOMERY COUNTY";
+          break;
         }
-        String city = COVER_CODES.get(code);
-        if (city == null) city = "";
-        data.strCity = city;
       }
       super.parse(field, data);
     }
@@ -541,13 +537,4 @@ public class PABucksCountyParser extends FieldProgramParser {
       "ESPEC",      "STANDBY / SPECIAL ASSIGNMENT (EMS)",
       "MALRM",      "MEDICAL ALARM"
   });
-  
-  private static final Map<String,String> COVER_CODES = new HashMap<String,String>();
-  static {
-    setupCoverCodes("MONTGOMERY COUNTY", "A345");
-  }
-  
-  private static final void setupCoverCodes(String county, String ... stationCodes) {
-    for (String code : stationCodes) COVER_CODES.put(code, county);
-  }
 }
