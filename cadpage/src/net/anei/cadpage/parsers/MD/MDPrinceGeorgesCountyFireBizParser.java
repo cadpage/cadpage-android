@@ -36,9 +36,10 @@ Contact: g wise <firedawg2009@gmail.com>
 10-09: SEIZURES\nB13\n8896 FORT SMALLWOOD RD-PA 1 SPIN & TRIM LAUDROMAT (ELIZABETH RD & AMHERST CT)\nhttp://fireblitz.com/AA/13/8.shtm
 
 Contact: Christopher Olson <lilsmokeeater5@yahoo.com>
-Sender: russ@fireblitz.com
+Sender: @fireblitz.com
 1: MEDIC LOCAL\nE801\n6505 BELCREST RD\n02/10 14:55\nhttp://fireblitz.com/PG/01/5.shtm
 46: PIA\nE837\nNB HARRY S TRUMAN DR/NEW ORCHARD DR\n02/11 11:07\nhttp://fireblitz.com/PG/37/2.shtm
+pg37-e@fireblitz.com: 46: MEDIC LOCAL\nE837B\n2513 BAIKAL LOOP (CAPE BARON CT and CAPE TEAL CT)\n03/10 18:15\nhttp://fireblitz.com/PG/37/4.shtm 
 
  */
 

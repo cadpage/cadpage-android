@@ -60,7 +60,8 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  *     S - Invoke smart parser logic, this is followed by some optional flag
  *         characters, followed by up two 3 field designation characters
  *         Flag characters
- *         0 - @ or AT can mark begining or end of address
+ *         0 - @ or AT can mark begining of address or place
+ *         1 - @ or AT marks beginning of place
  *         First field character determines what can come ahead of the address
  *         X - nothing
  *         C - call description (req)
@@ -1388,6 +1389,10 @@ public class FieldProgramParser extends SmartAddressParser {
           char chr = qual.charAt(pt);
           if (chr == '0') {
             parseFlags |= FLAG_AT_BOTH;
+            if (++pt >= qual.length()) break;
+          }
+          if (chr == '1') {
+            parseFlags |= FLAG_AT_PLACE;
             if (++pt >= qual.length()) break;
           }
           chr = qual.charAt(pt);

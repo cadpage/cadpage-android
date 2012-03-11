@@ -20,6 +20,10 @@ CT:MVC MORGNEC RD / TALBOT BLVD  BOX:6001 DUE:E6 A8 PM1-1
 CT:STRUCTURE FIRE 408 MORGNEC RD APT 103  BOX:6001 DUE:E6 E4 QAE71 QAE52 TWR6 QATWL5 R6 RP4 A8 A81 PM1-1
 CT:CHEST PAIN 11673 KENNEDYVILLE RD  BOX:4002 DUE:E4 A8 PM1-1
 
+Contact: "jahurlock@cvfd7.com" <jahurlock@cvfd7.com>
+Sender: 911@kentgov.org
+(CAD) CT:STRUCTURE FIRE 205 ROOSEVELT DR  BOX:6001 DUE:RA6F
+
 */
 
 
@@ -27,7 +31,7 @@ public class MDKentCountyParser extends FieldProgramParser {
 
   public MDKentCountyParser() {
     super("KENT COUNTY", "MD",
-           "CT:ADDR! BOX:BOX! DUE:UNIT!");
+           "CT:ADDR/S1C! BOX:BOX! DUE:UNIT!");
   }
   
   @Override
