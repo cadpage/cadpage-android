@@ -526,7 +526,7 @@ public abstract class MsgParser {
   * @param field field to be checked
   * @return true if should be place name, false if a personal name
   */
- protected static boolean checkPlace(String field) {
+ protected boolean checkPlace(String field) {
    if (field.contains(",")) return false;
    if (field.toUpperCase().startsWith("MR")) return false;
    int cnt = 0;
