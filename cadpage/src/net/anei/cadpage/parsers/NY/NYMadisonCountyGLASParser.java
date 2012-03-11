@@ -32,13 +32,14 @@ FRM:messaging@iamresponding.com\nSUBJ:Greater Lenox\nMSG:MVA - Unknown\nCANAL RD
 FRM:messaging@iamresponding.com\nSUBJ:Greater Lenox\nMSG:Chest Pain\n@THERMOLD & RMH CORPORATION (7059 HARP RD (LENOX) )
 FRM:messaging@iamresponding.com\nSUBJ:Greater Lenox\nMSG:Chest Pain\n@THERMOLD & RMH CORPORATION (7059 HARP RD (LENOX) )
 FRM:messaging@iamresponding.com\nSUBJ:Greater Lenox\nMSG:Traumatic Injuries\n@SCHOOL CANASTOTA ROBERTS ST JR SR HIGH SCHOOL (302 ROBERTS ST (CANASTOTA VILLAGE) )
+FRM:messaging@iamresponding.com\nSUBJ:Greater Lenox\nMSG:Psychiatric/Suicide Attempt\r\n403 S PETERBORO , CANASTOTA VILLAGE ( / RASBACH)
 
 */
 
 
 public class NYMadisonCountyGLASParser extends MsgParser {
   
-  private static final Pattern MASTER = Pattern.compile("(.*?)\n(.*?)(?: *, (.*?))?(?: \\((.*?)\\)?)?");
+  private static final Pattern MASTER = Pattern.compile("(.*?)\r?\n(.*?)(?: *, (.*?))?(?: \\((.*?)\\)?)?");
   
   public NYMadisonCountyGLASParser() {
     super("MADISON COUNTY", "NY");
