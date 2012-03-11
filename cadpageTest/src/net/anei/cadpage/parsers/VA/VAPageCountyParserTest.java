@@ -78,9 +78,16 @@ public class VAPageCountyParserTest extends BaseParserTest {
         "CITY:ELKTON",
         "ID:2011-073441",
         "X:W C ST/W D ST");
+
+    doTest("T8",
+        "MAILBOX:RS4 TRAFFIC CRASH US HWY CFS# 2012-004561",
+        "SRC:RS4",
+        "CALL:TRAFFIC CRASH",
+        "ADDR:US HWY",
+        "ID:2012-004561");
  }
   
   public static void main(String[] args) {
-    new VAPageCountyParserTest().generateTests("T8", "SRC CALL ADDR CITY ID X");
+    new VAPageCountyParserTest().generateTests("T1", "SRC CALL ADDR CITY ID X");
   }
 }
