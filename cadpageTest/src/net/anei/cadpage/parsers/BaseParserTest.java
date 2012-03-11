@@ -348,6 +348,7 @@ public abstract class BaseParserTest {
       if (line == null) break;
       if (line.trim().length() == 0) break;
       line = line.replace("\\n", "\n");
+      line = line.replace("\\r", "\r");
       msgList.add(line);
     }
     return msgList.toArray(new String[msgList.size()]);
@@ -421,6 +422,7 @@ public abstract class BaseParserTest {
     value = value.replace("\\", "\\\\");
     value = value.replace("\"", "\\\"");
     value = value.replace("\n", "\\n");
+    value = value.replace("\r", "\\r");
     return value;
   }
 

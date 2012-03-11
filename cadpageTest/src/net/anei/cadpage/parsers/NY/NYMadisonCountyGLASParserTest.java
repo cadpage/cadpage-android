@@ -141,6 +141,17 @@ public class NYMadisonCountyGLASParserTest extends BaseParserTest {
         "ADDR:302 ROBERTS ST",
         "CITY:CANASTOTA VILLAGE");
 
+    doTest("T18",
+        "FRM:messaging@iamresponding.com\n" +
+        "SUBJ:Greater Lenox\n" +
+        "MSG:Psychiatric/Suicide Attempt\r\n" +
+        "403 S PETERBORO , CANASTOTA VILLAGE ( / RASBACH)",
+
+        "CALL:Psychiatric/Suicide Attempt",
+        "ADDR:403 S PETERBORO",
+        "CITY:CANASTOTA VILLAGE",
+        "X:RASBACH");
+
   }
   
   public static void main(String[] args) {
