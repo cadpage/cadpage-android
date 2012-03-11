@@ -34,6 +34,16 @@ NOTIFICATIONS 85 MANITOU ST DEPEW CONDUCTED THE DAILY FIRE RADIO AND PAGER TEST
 Contact: Kira Wilson <kira.jeanne0106@gmail.com>
 ALERT@ERIE.GOV EMS DOG BITE 140 VALLEY VIEW
 
+Erie County, NY (alternate)
+Contact: Bob Taylor <btthevoice@gmail.com>
+Sender: 15373@alert.erie.gov
+(Call) FIRE RESIDENTIAL 6680 LAKE SHORE RD EVANS FOREGIN OBJECT STRUCK A LIVE ELECTRICAL OUTLET.?\n
+(Call) EMS 1425 STURGEON PT RD EVANS H/NE/RM ACT  CARBON MONOXIDE DETECTOR WITH ILLNESS IN THE RESIDENCE?\n
+(Call) NE ACT FOR A ENGINE M/A TO LAKEVIEW FOR AN AUTO ACCIDENT ROUTE 5 AND OLD LAKESHORE RD?\n
+(Call) WIRES DOWN 7967 KEENE RD @ BURNS DISP NE - PATROL REQUESTING A CHIEF TO THE SCENE FOR WIRES IN THE TREE ARCHING?\n
+(Call) RE TRANSMIT OF PAGE FOR INJURY ACCIDENT IFO 8061 SOUTHWESTERN-NORTH EVANS ONLY?\r\n
+(Call) ALARM RINGING 8545 N MAIN ST EVANS FIRE ALARM ACTIVATION COMING FROM FIRE PANEL?\r\n
+
 Not yet implemented!
 Contact: peter putnam <medic4451@gmail.com>
 Sender: 17165415102
@@ -86,11 +96,11 @@ public class NYErieCountyAParser extends SmartAddressParser {
   }
 
   @Override
-  protected boolean parseMsg(String body, Data data) {
+  protected boolean parseMsg(String subject, String body, Data data) {
     
     if (body.startsWith("AMH ")) return parseAmhMsg(body.substring(4), data);
     if (msg.getAddress().equals("ALERT@ERIE.GOV")) return parseErieMsg(body, data);
-    if (msg.getAddress().startsWith("9300")) return parseDepewMsg(body, data); 
+    if (subject.equals("Call") || msg.getAddress().startsWith("9300")) return parseDepewMsg(body, data); 
     return false;
   }
 
@@ -108,6 +118,7 @@ public class NYErieCountyAParser extends SmartAddressParser {
   }
 
   private boolean parseDepewMsg(String body, Data data) {
+    if (body.endsWith("?")) body = body.substring(0,body.length()-1).trim();
     parseAddress(StartType.START_CALL, body, data);
     if (data.strAddress.length() == 0) return false;
     if (data.strCall.length() == 0) {
@@ -142,6 +153,7 @@ public class NYErieCountyAParser extends SmartAddressParser {
     "EDEN TOWN",
     "ELMA CENTER",
     "ELMA TOWN",
+    "EVANS",
     "EVANS TOWN",
     "FARNHAM",
     "GOWANDA",
