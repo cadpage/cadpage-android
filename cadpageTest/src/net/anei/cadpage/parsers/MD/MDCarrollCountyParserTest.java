@@ -599,6 +599,21 @@ public class MDCarrollCountyParserTest extends BaseParserTest {
 
   }
   
+  @Test
+  public void testParser3() {
+
+    doTest("T53",
+        "(Co3) [!] CT:ALARM 2 400 N CENTER ST @TOWNMALL WESTMINSTER WEST BOX:0380 DUE:E33 [03]",
+        "SRC:Co3",
+        "CALL:ALARM 2",
+        "BOX:0380",
+        "PLACE:TOWNMALL WESTMINSTER",
+        "ADDR:400 N CENTER ST",
+        "CITY:WESTMINISTER",
+        "UNIT:E33");
+
+  }
+  
   public static void main(String[] args) {
     new MDCarrollCountyParserTest().generateTests("T53");
   }
