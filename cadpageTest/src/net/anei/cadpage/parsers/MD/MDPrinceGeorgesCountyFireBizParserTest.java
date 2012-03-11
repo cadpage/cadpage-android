@@ -204,6 +204,22 @@ public class MDPrinceGeorgesCountyFireBizParserTest extends BaseParserTest {
         "DATE:02/11",
         "TIME:11:07",
         "INFO:http://fireblitz.com/PG/37/2.shtm");
+
+    doTest("T18",
+        "pg37-e@fireblitz.com: 46: MEDIC LOCAL\n" +
+        "E837B\n" +
+        "2513 BAIKAL LOOP (CAPE BARON CT and CAPE TEAL CT)\n" +
+        "03/10 18:15\n" +
+        "http://fireblitz.com/PG/37/4.shtm ",
+
+        "SRC:46",
+        "CALL:MEDIC LOCAL",
+        "UNIT:E837B",
+        "ADDR:2513 BAIKAL LOOP",
+        "X:CAPE BARON CT and CAPE TEAL CT",
+        "DATE:03/10",
+        "TIME:18:15",
+        "INFO:http://fireblitz.com/PG/37/4.shtm");
   }
   
   public static void main(String[] args) {

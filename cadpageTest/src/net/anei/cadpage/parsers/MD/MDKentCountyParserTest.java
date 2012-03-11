@@ -17,71 +17,90 @@ public class MDKentCountyParserTest extends BaseParserTest {
     
     doTest("T1",
         "CT:ASSAULT 835 HIGH ST  BOX:6001 DUE:A8 PM1-1",
-        "ADDR:ASSAULT 835 HIGH ST",
+        "CALL:ASSAULT",
+        "ADDR:835 HIGH ST",
         "BOX:6001",
         "UNIT:A8 PM1-1");
 
     doTest("T2",
         "CT:MVC/PT NOT ALERT W CAMPUS AVE / WASHINGTON AVE  BOX:6001 DUE:E6 R6 A8 PM1-1",
-        "ADDR:MVC & PT NOT ALERT W CAMPUS AVE & WASHINGTON AVE",
+        "CALL:MVC/PT NOT ALERT",
+        "ADDR:W CAMPUS AVE & WASHINGTON AVE",
         "BOX:6001",
         "UNIT:E6 R6 A8 PM1-1");
 
     doTest("T3",
         "CT:CARDIAC ARREST 25129 WYMONT PARK RD  BOX:5005 DUE:A8",
-        "ADDR:CARDIAC ARREST 25129 WYMONT PARK RD",
+        "CALL:CARDIAC ARREST",
+        "ADDR:25129 WYMONT PARK RD",
         "BOX:5005",
         "UNIT:A8");
 
     doTest("T4",
         "CT:ASSAULT 835 HIGH ST  BOX:6001 DUE:A8 PM1-1",
-        "ADDR:ASSAULT 835 HIGH ST",
+        "CALL:ASSAULT",
+        "ADDR:835 HIGH ST",
         "BOX:6001",
         "UNIT:A8 PM1-1");
 
     doTest("T5",
         "CT:UNCON/SYNCOPAL 818 HIGH ST  BOX:6001 DUE:A8 PM1-1",
-        "ADDR:UNCON & SYNCOPAL 818 HIGH ST",
+        "CALL:UNCON/SYNCOPAL",
+        "ADDR:818 HIGH ST",
         "BOX:6001",
         "UNIT:A8 PM1-1");
 
     doTest("T6",
         "CT:EMOTIONAL DISORDER 104 VICKERS DR @KENT CO DETENTION CE  BOX:6001 DUE:A81",
-        "ADDR:EMOTIONAL DISORDER 104 VICKERS DR @KENT CO DETENTION CE",
+        "CALL:EMOTIONAL DISORDER",
+        "ADDR:104 VICKERS DR",
+        "PLACE:KENT CO DETENTION CE",
         "BOX:6001",
         "UNIT:A81");
 
     doTest("T7",
         "CT:ALLERGIC REACTION TACO BELL/KFC @709 WASHINGTON AVE  BOX:6001 DUE:A8 PM1-1",
-        "ADDR:ALLERGIC REACTION TACO BELL & KFC @709 WASHINGTON AVE",
+        "CALL:ALLERGIC REACTION TACO BELL/KFC",
+        "ADDR:709 WASHINGTON AVE",
         "BOX:6001",
         "UNIT:A8 PM1-1");
 
     doTest("T8",
         "CT:MVC RT 213 / RT 291  BOX:6001 DUE:RA8E",
-        "ADDR:MVC RT 213 & RT 291",
+        "CALL:MVC",
+        "ADDR:RT 213 & RT 291",
         "BOX:6001",
         "UNIT:RA8E");
 
     doTest("T9",
         "CT:MVC MORGNEC RD / TALBOT BLVD  BOX:6001 DUE:E6 A8 PM1-1",
-        "ADDR:MVC MORGNEC RD & TALBOT BLVD",
+        "CALL:MVC",
+        "ADDR:MORGNEC RD & TALBOT BLVD",
         "BOX:6001",
         "UNIT:E6 A8 PM1-1");
 
     doTest("T10",
         "CT:STRUCTURE FIRE 408 MORGNEC RD APT 103  BOX:6001 DUE:E6 E4 QAE71 QAE52 TWR6 QATWL5 R6 RP4 A8 A81 PM1-1",
-        "ADDR:STRUCTURE FIRE 408 MORGNEC RD",
+        "CALL:STRUCTURE FIRE",
+        "ADDR:408 MORGNEC RD",
         "BOX:6001",
         "APT:103",
         "UNIT:E6 E4 QAE71 QAE52 TWR6 QATWL5 R6 RP4 A8 A81 PM1-1");
 
     doTest("T11",
         "CT:CHEST PAIN 11673 KENNEDYVILLE RD  BOX:4002 DUE:E4 A8 PM1-1",
-        "ADDR:CHEST PAIN 11673 KENNEDYVILLE RD",
+        "CALL:CHEST PAIN",
+        "ADDR:11673 KENNEDYVILLE RD",
         "BOX:4002",
         "UNIT:E4 A8 PM1-1");
-  
+
+    doTest("T12",
+        "(CAD) CT:STRUCTURE FIRE 205 ROOSEVELT DR  BOX:6001 DUE:RA6F",
+        "CALL:STRUCTURE FIRE",
+        "ADDR:205 ROOSEVELT DR",
+        "BOX:6001",
+        "UNIT:RA6F");
+ 
   }
   
   public static void main(String[] args) {
