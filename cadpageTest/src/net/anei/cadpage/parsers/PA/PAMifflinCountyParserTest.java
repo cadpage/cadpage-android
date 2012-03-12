@@ -86,6 +86,24 @@ public class PAMifflinCountyParserTest extends BaseParserTest {
         "X:1-8  E WILSON AVE * 1-8 HARDING AVE");
   }
   
+  @Test
+  public void testRusMcmahon() {
+
+    doTest("T1",
+        "Subject:CAD Page for CFS 031012-66\n" +
+        "ALS - Breathing Difficulty\r\n" +
+        "204 CORNFIELD CIR\r\n" +
+        "Apt: \r\n" +
+        "DERRY\r\n" +
+        "http://maps.google.com/maps?q=+40.61\r",
+
+        "ID:031012-66",
+        "CALL:ALS - Breathing Difficulty",
+        "ADDR:204 CORNFIELD CIR",
+        "CITY:DERRY TWP");
+
+  }
+  
   public static void main(String args[]) {
     new PAMifflinCountyParserTest().generateTests("T1", "ID CALL ADDR APT CITY X");
   }
