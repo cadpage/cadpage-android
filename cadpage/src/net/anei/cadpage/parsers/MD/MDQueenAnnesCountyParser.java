@@ -50,12 +50,16 @@ Sender: rc.165@c-msg.net
 Contact: "T.J. Palmatary" <tjpalmatary@gmail.com>
 [CAD] D 4-11 ABDOMINAL PAINS 1130 BURRISSVILLE RD Q04
 
+Contact: "jahurlock@cvfd7.com" <jahurlock@cvfd7.com>
+[CAD] D KENT MUTUAL AID MEDICAL 30564 CHESTERVILLE BRIDGE RD MUTUAL AID ONLY KENT
+
 ******************************************************************************/
 
 public class MDQueenAnnesCountyParser extends SmartAddressParser {
   
   private static final Pattern MARKER = Pattern.compile("^(?:(?:qac911|QA911com):\\*)?[DG] ");
   private static final Pattern BOX_PTN = Pattern.compile("\\b(?:BOX )?([A-Z]{1,2}\\d{2})$");
+  private static final Pattern MA_PTN = Pattern.compile("^(.*) MUTUAL AID\\b");
   
   public MDQueenAnnesCountyParser() {
     super("QUEEN ANNES COUNTY", "MD");
@@ -79,9 +83,17 @@ public class MDQueenAnnesCountyParser extends SmartAddressParser {
     // Parse box number from what is left
     String sExtra = getLeft();
     match = BOX_PTN.matcher(sExtra);
-    if (!match.find()) return false;
-    data.strBox = match.group(1);
-    sExtra = sExtra.substring(0, match.start()).trim();
+    if (match.find()) {
+      data.strBox = match.group(1);
+      sExtra = sExtra.substring(0, match.start()).trim();
+    } 
+
+    // BOX is usually required, but not if this looks like a mutual aid call
+    else {
+      match = MA_PTN.matcher(data.strCall);
+      if (!match.find()) return false;
+      data.strCity = match.group(1);
+    }
     
     // What is left is usually supplemental info.  But if the smart address parser
     // picked a place name from the end of the the address, just append what is
