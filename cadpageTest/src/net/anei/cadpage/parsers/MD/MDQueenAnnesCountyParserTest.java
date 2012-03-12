@@ -178,7 +178,19 @@ public class MDQueenAnnesCountyParserTest extends BaseParserTest {
 
   }
   
+  @Test
+  public void testJahurlock() {
+
+    doTest("T1",
+        "[CAD] D KENT MUTUAL AID MEDICAL 30564 CHESTERVILLE BRIDGE RD MUTUAL AID ONLY KENT",
+        "CALL:KENT MUTUAL AID MEDICAL",
+        "CITY:KENT",
+        "ADDR:30564 CHESTERVILLE BRIDGE RD",
+        "INFO:MUTUAL AID ONLY KENT");
+
+  }
+  
   public static void main(String[] args) {
-    new MDQueenAnnesCountyParserTest().generateTests("T1", "CALL ADDR PLACE INFO BOX");
+    new MDQueenAnnesCountyParserTest().generateTests("T1", "CALL CITY ADDR PLACE INFO BOX");
   }
 }
