@@ -363,6 +363,20 @@ public class MDPrinceGeorgesCountyCParserTest extends BaseParserTest {
         "MAP:5288 B 8",
         "INFO:*CALLER ADV SMELL SMOKE FRM BASEMENT",
         "UNIT:BO886,E811B,E812B,TK812,TK814");
+
+    doTest("T29",
+        "WI Incident: F120710288, Type: PIA Limited Access, Loc: MANGO CAFE, BP, at 4719 ANNAPOLIS RD, BP, btwn KENILWORTH AVE and 48TH ST, TalkGroup: TGA2, Box: 0914, Map: 5410 A 10, Text: 2 VEH ACC UNBK INJ UNK TRAPPED PEOPLE IN OTHER CALL CRYING, Unit:WI",
+        "SRC:WI",
+        "ID:F120710288",
+        "CALL:PIA Limited Access",
+        "ADDR:4719 ANNAPOLIS RD",
+        "PLACE:MANGO CAFE",
+        "X:KENILWORTH AVE and 48TH ST",
+        "CH:TGA2",
+        "BOX:0914",
+        "MAP:5410 A 10",
+        "INFO:2 VEH ACC UNBK INJ UNK TRAPPED PEOPLE IN OTHER CALL CRYING",
+        "UNIT:WI");
   }
   
   @Test
@@ -384,8 +398,6 @@ public class MDPrinceGeorgesCountyCParserTest extends BaseParserTest {
   }
   
   public static void main(String[] args) {
-    new MDPrinceGeorgesCountyCParserTest().generateTests("T29");
+    new MDPrinceGeorgesCountyCParserTest().generateTests("T1");
   }
-  
-  
 }
