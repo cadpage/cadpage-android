@@ -22,6 +22,10 @@ Contact: Wendy Varner <wendy.s.varner@gmail.com>
 Sender: cmessages@co.mifflin.pa.us
 1 of 2\nFRM:cmessages@co.mifflin.pa.us\nSUBJ:CAD Page for CFS 011512-8\nMSG:ALS - Sick Person\n11 SUNSET RD\nApt: \nLEWISTOWN\nhttp://maps.google.c\n(Con't) 2 of 2\nom/maps?q=+40.58788%20-77.56015\nCross Streets : 1-8  E WILSON AVE * 1-8 HARDING AVE \n(End)
 
+Contact: Russ Mcmahon <rmcmahon0@yahoo.com>
+Sender: cmessages@co.mifflin.pa.us
+Subject:CAD Page for CFS 031012-66\nALS - Breathing Difficulty\r\n204 CORNFIELD CIR\r\nApt: \r\nDERRY\r\nhttp://maps.google.com/maps?q=+40.61\r
+
 */
 
 public class PAMifflinCountyParser extends DispatchA4Parser {

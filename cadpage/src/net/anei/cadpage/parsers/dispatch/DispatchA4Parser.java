@@ -24,7 +24,7 @@ public class DispatchA4Parser extends FieldProgramParser {
   
   public DispatchA4Parser(String defCity, String defState) {
     super(defCity, defState,
-          "CALL! ADDR! Apt:APT! CITY! Cross_Streets:X!");
+          "CALL! ADDR! Apt:APT! CITY! Cross_Streets:X");
   }
 
   @Override
