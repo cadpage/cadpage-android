@@ -47,7 +47,7 @@ Sender:  alrt383233@alert.princegeorgescountymd.gov
 BC 882 Incident: F120220163, Type: House Gas Leak, Loc: 12112 FORGE LN, PP, btwn FEDERAL LN and FOXHILLLN, TalkGroup: TGG3, Box: 3910, Map: 5412 K 6, Text: Fire ProQA recommends 
 TK828 Incident: F120220163, Type: House Gas Leak, Loc: 12112 FORGE LN, PP, btwn FEDERAL LN and FOXHILL LN, TalkGroup: TGG3, Box: 3910, Map: 5412 K 6, Text: Fire ProQA recommends 
 BC 886 Incident: F120220232, Type: Street Alarm, Loc: 4726 MANGUM RD, PP, btwn 47TH PL and MUSKOGEE ST,TalkGroup: TGG3, Box: 1102, Map: 5288 B 8, Text: *CALLER ADV SMELL SMOKE FRM BASEMENT, Units:BO886, E811B, E812B, TK812, TK814
-
+WI Incident: F120710288, Type: PIA Limited Access, Loc: MANGO CAFE, BP, at 4719 ANNAPOLIS RD, BP, btwn K ENILWORTH AVE and 48TH ST, TalkGroup: TGA2, Box: 0914, Map: 5410 A 10, Text: 2 VEH ACC UNBK INJ UNK TRAP PED PEOPLE IN OTHER CALL CRYING, Unit:WI
 
 Contact: support@active911.com
 Subject: CAD Feed
@@ -81,7 +81,7 @@ public class MDPrinceGeorgesCountyCParser extends FieldProgramParser {
   //  The PP field isn't parsed, but it must match PP or LP or UM
   private class PPField extends SkipField {
     public PPField() {
-      setPattern(Pattern.compile("(?:PP|PL|GP|LP|UM)(?: .*)?"), true);
+      setPattern(Pattern.compile("(?:PP|PL|GP|LP|UM|BP)(?: .*)?"), true);
     }
   }
   
