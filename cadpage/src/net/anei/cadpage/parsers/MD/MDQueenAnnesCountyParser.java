@@ -52,6 +52,10 @@ Contact: "T.J. Palmatary" <tjpalmatary@gmail.com>
 
 Contact: "jahurlock@cvfd7.com" <jahurlock@cvfd7.com>
 [CAD] D KENT MUTUAL AID MEDICAL 30564 CHESTERVILLE BRIDGE RD MUTUAL AID ONLY KENT
+[CAD] D 7-5 UNKNOWN PROBLEM 304 MERGANSER DR MEDICAL ALARM Q07
+
+Contact: ffmedicmo@gmail.com
+1-9 HEART PROBLEMS 1630 MAIN ST CARDIAC HISTORY Q01
 
 ******************************************************************************/
 
@@ -59,7 +63,7 @@ public class MDQueenAnnesCountyParser extends SmartAddressParser {
   
   private static final Pattern MARKER = Pattern.compile("^(?:(?:qac911|QA911com):\\*)?[DG] ");
   private static final Pattern BOX_PTN = Pattern.compile("\\b(?:BOX )?([A-Z]{1,2}\\d{2})$");
-  private static final Pattern MA_PTN = Pattern.compile("^(.*) MUTUAL AID\\b");
+  private static final Pattern CALL_PTN = Pattern.compile("(?:\\d{1,2}-\\d{1,2} |(.*) MUTUAL AID\\b).*");
   
   public MDQueenAnnesCountyParser() {
     super("QUEEN ANNES COUNTY", "MD");
@@ -74,11 +78,16 @@ public class MDQueenAnnesCountyParser extends SmartAddressParser {
   protected boolean parseMsg(String body, Data data) {
 
     Matcher match = MARKER.matcher(body);
-    if (! match.find()) return false;
-    body = body.substring(match.end());
+    if (match.find()) body = body.substring(match.end());
     
     // OK, go do your magic!!
     parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ | FLAG_AT_BOTH, body, data);
+    
+    // Call description has to match one of two specific patterns
+    match = CALL_PTN.matcher(data.strCall);
+    if (!match.find()) return false;
+    String city = match.group(1);
+    if (city != null && city.equalsIgnoreCase("KENT")) data.strCity = city;
     
     // Parse box number from what is left
     String sExtra = getLeft();
@@ -88,11 +97,9 @@ public class MDQueenAnnesCountyParser extends SmartAddressParser {
       sExtra = sExtra.substring(0, match.start()).trim();
     } 
 
-    // BOX is usually required, but not if this looks like a mutual aid call
+    // BOX is required, unless this was a mutual aid call
     else {
-      match = MA_PTN.matcher(data.strCall);
-      if (!match.find()) return false;
-      data.strCity = match.group(1);
+      if (city == null) return false;
     }
     
     // What is left is usually supplemental info.  But if the smart address parser
