@@ -188,6 +188,25 @@ public class MDQueenAnnesCountyParserTest extends BaseParserTest {
         "ADDR:30564 CHESTERVILLE BRIDGE RD",
         "INFO:MUTUAL AID ONLY KENT");
 
+    doTest("T2",
+        "[CAD] D 7-5 UNKNOWN PROBLEM 304 MERGANSER DR MEDICAL ALARM Q07",
+        "CALL:7-5 UNKNOWN PROBLEM",
+        "ADDR:304 MERGANSER DR",
+        "INFO:MEDICAL ALARM",
+        "BOX:Q07");
+
+  }
+  
+  @Test
+  public void testFfmedicmo() {
+
+    doTest("T1",
+        "1-9 HEART PROBLEMS 1630 MAIN ST CARDIAC HISTORY Q01",
+        "CALL:1-9 HEART PROBLEMS",
+        "ADDR:1630 MAIN ST",
+        "INFO:CARDIAC HISTORY",
+        "BOX:Q01");
+
   }
   
   public static void main(String[] args) {
