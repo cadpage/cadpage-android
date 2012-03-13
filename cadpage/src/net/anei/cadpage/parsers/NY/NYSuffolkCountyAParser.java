@@ -71,6 +71,10 @@ TYPE: RESPIRATORY LOC: 16 TEAL CRSN GREATR   CROSS:  / WIDGEON CT CODE: 6-D-1 TI
 Contact: Michael Bellis <bellis.michael@gmail.com>
 TYPE: STRUCTURE FIRE LOC: 605 7 AV ENORTH   CROSS: 6 ST / OWEN CT CODE: 69-D-6 TIME: 11:34:38
 
+Contact: Joe Sauerwein <jfsauerwein@gmail.com>
+Sender: paging@scfres.com
+TYPE: ALARMS LOC: 32 MONTAUK HWY BLUEPO : @BURGER KING BLUE POINT  CROSS: BELL AV / BUFFIN LN CODE: 52-C-3P TIME: 13:20:43\r\n\r\n\r
+
 */
 
 public class NYSuffolkCountyAParser extends SmartAddressParser {
@@ -79,6 +83,7 @@ public class NYSuffolkCountyAParser extends SmartAddressParser {
 
   private static final Properties CITY_TABLE = buildCodeTable(new String[]{
       "BAYSHO", "Bay Shore",
+      "BLUEPO", "Blue Point",
       "BRENTW", "Brentwood",
       "CENTEM", "Center Moriches",
       "DIXHIL", "Dix Hills",
