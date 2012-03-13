@@ -272,6 +272,16 @@ public class NYSuffolkCountyAParserTest extends BaseParserTest {
         "X:6 ST / OWEN CT",
         "CODE:69-D-6",
         "TIME:11:34:38");
+
+    doTest("T29",
+        "TYPE: ALARMS LOC: 32 MONTAUK HWY BLUEPO : @BURGER KING BLUE POINT  CROSS: BELL AV / BUFFIN LN CODE: 52-C-3P TIME: 13:20:43\r\n\r\n\r",
+        "CALL:ALARMS",
+        "ADDR:32 MONTAUK HWY",
+        "CITY:Blue Point",
+        "PLACE:BURGER KING BLUE POINT",
+        "X:BELL AV / BUFFIN LN",
+        "CODE:52-C-3P",
+        "TIME:13:20:43");
   
   }
   
