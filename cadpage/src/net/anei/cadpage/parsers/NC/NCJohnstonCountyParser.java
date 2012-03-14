@@ -43,6 +43,9 @@ Contact: Dean COR <dean.koehmstedt@raleighnc.gov>
 Sender: 93001024
 CAD:OPS;CLD;31D02;UNCONSCIOUS PERSON 31-D-02;16 CARRIAGE CREEK DR;(S)CARRIAGE CREEK (N);CLEVELAND RD;STEEP HILL CT;MCDANIELS, ALBERT M;01/26/2012 06:25:19;CLDR1
 
+Contact: "Dan_berg" <dan_berg@hotmail.com>
+FRM:cad paging \nMSG:CAD:OPS;CLD;06D01;DIFF BREATHING 06-D-01;107 GARNET LN;(S)SWIFTVIEW (N);GOVERNMENT RD;AVERY, B A;03/14/2012 09:54:04;CLDR1
+
 */
 
 public class NCJohnstonCountyParser extends DispatchOSSIParser {

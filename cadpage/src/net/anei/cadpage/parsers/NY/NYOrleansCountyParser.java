@@ -35,32 +35,14 @@ Contact: "jeffelsenheimer@yahoo.com" <jeffelsenheimer@yahoo.com>
 (FrmFireCntrl 2) HEART PROBLEMS/AICD; 12469 LAKESHORE FL44 RD TYA; 80 yof high BP & pulse 19-c-6
 (FrmFireCntrl1) ALS ONLY RESPONSE; 28 MAIN ST MDL; MEDINA ALS 83 YOF ABDOMINAL PAIN
 (FrmFireCntrl3) ACCIDENT VEH PDO; 1355 YATES CARLTON TL RD TCR; ATV ROLLOVER, NO PT FOUND COVA/CAFD
+OCDISPATCH@ORLEANSNY.COM ABDOMINAL PAIN /PROBLEMS; 2103 NIA ORL CTYLINE RD TYA; 73 YOF CANCER PT   1-A-1 TXT STOP to opt-out
 
 */
 
 public class NYOrleansCountyParser extends MsgParser {
   
-  private static final Properties CITY_CODES = buildCodeTable(new String[]{
-      "VAL", "ALBION", 
-      "TAL", "ALBION", 
-      "BAR", "ALBION", 
-      "TGN", "ALBION", 
-      "TCR", "CARLTON",
-      "VLD", "LYNDONVILLE", 
-      "YAT", "LYNDONVILLE",
-      "VMD", "MEDINA", 
-      "TRW", "MEDINA", 
-      "TSH", "MEDINA",
-      "VHL", "HOLLEY", 
-      "TMR", "HOLLEY", 
-      "TCL", "HOLLEY",
-      "TKN", "KENDALL", 
-      "TGP", "GASPORT",  
-      "TYA", "YATES",
-      "MDL", "MIDDLEPORT"
-  });
-  
   private static final Pattern CODE_PATTERN = Pattern.compile("\\b\\d{1,2}-?[A-Za-z]-?\\d\\b");
+  private static final Pattern NIA_ORL_CTYLINE = Pattern.compile("\\bNIA ORL CTYLINE RD\\b", Pattern.CASE_INSENSITIVE);
   
   public NYOrleansCountyParser() {
     super("ORLEANS COUNTY", "NY");
@@ -81,7 +63,9 @@ public class NYOrleansCountyParser extends MsgParser {
     String fld = flds[1].trim();
     int pt = fld.lastIndexOf(' ');
     if (pt < 0) return false;
-    parseAddress(fld.substring(0,pt), data);
+    String sAddr = fld.substring(0,pt);
+    sAddr = NIA_ORL_CTYLINE.matcher(sAddr).replaceAll("NIAGARA ORLEANS COUNTYLINE RD");
+    parseAddress(sAddr, data);
     data.strCity = CITY_CODES.getProperty(fld.substring(pt+1));
     if (data.strCity == null) return false;
     
@@ -104,4 +88,24 @@ public class NYOrleansCountyParser extends MsgParser {
     }
     return true;
   }
+  
+  private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "VAL", "ALBION", 
+      "TAL", "ALBION", 
+      "BAR", "ALBION", 
+      "TGN", "ALBION", 
+      "TCR", "CARLTON",
+      "VLD", "LYNDONVILLE", 
+      "YAT", "LYNDONVILLE",
+      "VMD", "MEDINA", 
+      "TRW", "MEDINA", 
+      "TSH", "MEDINA",
+      "VHL", "HOLLEY", 
+      "TMR", "HOLLEY", 
+      "TCL", "HOLLEY",
+      "TKN", "KENDALL", 
+      "TGP", "GASPORT",  
+      "TYA", "YATES",
+      "MDL", "MIDDLEPORT"
+  });
 }
