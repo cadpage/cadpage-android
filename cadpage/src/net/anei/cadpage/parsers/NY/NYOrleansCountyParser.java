@@ -64,7 +64,7 @@ public class NYOrleansCountyParser extends MsgParser {
     int pt = fld.lastIndexOf(' ');
     if (pt < 0) return false;
     String sAddr = fld.substring(0,pt);
-    sAddr = NIA_ORL_CTYLINE.matcher(sAddr).replaceAll("NIAGARA ORLEANS COUNTYLINE RD");
+    sAddr = NIA_ORL_CTYLINE.matcher(sAddr).replaceAll("COUNTY LINE RD");
     parseAddress(sAddr, data);
     data.strCity = CITY_CODES.getProperty(fld.substring(pt+1));
     if (data.strCity == null) return false;
