@@ -22,6 +22,7 @@ singerly@gmail.com: 1303\nAFA (A\nAUTOMATIC FIRE ALARM\n515 FLETCHWOOD RD @WAREH
 singerly@gmail.com: 1401\nHOUSE \nHOUSE FIRE\n20 ROLLING GREEN LN\nHILLTOP RD\nGOMER CT\n20:36:11\n12002025\n20:36:49\nFIRE ACROSS STREET BELIEVED T 
 singerly@gmail.com: 1301\nMVA (M\nMOTOR VEHICLE ACC\nE OLD PHILADELPHIA RD / PULASK\n23:21:51\n12002033\n23:22:19\nMALE IS INJURIEDTRAFFIC ACCIDE 
 singerly@gmail.com: 1405\nMVA (M\nMOTOR VEHICLE ACC\nHIGHS @5655 TELEGRAPH RD\n23:22:43\n12002034\n23:23:56\nACROSS FROM THE HIGHS STORE DR \n 
+OOC\nEASST \nENGINE ASSIST\n3247 APPLETON\n13:10:14\n12003811\n13:12:15\nGARAGE FIRE ASSIST STATION 22
 
  */
 
@@ -44,6 +45,7 @@ public class MDCecilCountyBParser extends FieldProgramParser {
   protected boolean parseMsg(String body, Data data) {
     body = NORT_PTN.matcher(body).replaceAll("NORTH");
     if (! parseFields(body.split("\n"), data)) return false;
+    if (data.strCode.equals("OOC")) data.defCity = "";
     return true;
   }
   
@@ -63,7 +65,7 @@ public class MDCecilCountyBParser extends FieldProgramParser {
   
   @Override
   public Field getField(String name) {
-    if (name.equals("CODE")) return new CodeField("\\d{4}[A-Z]?", true);
+    if (name.equals("CODE")) return new CodeField("\\d{4}[A-Z]?|OOC", true);
     if (name.equals("XTRA")) return new SkipField(".{3,6}");
     if (name.equals("TIME")) return new MyTimeField();
     if (name.equals("ID")) return new IdField("\\d{8}", true);

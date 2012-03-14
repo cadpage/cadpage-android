@@ -3983,6 +3983,10 @@ Contact: Michael Hill <fyrman1603@gmail.com>
 Sender: messaging@iamresponding.com
 Subject:OLNE 1600\nFIRE/RESCUE - 5755 N SHIPLEY OLNEY\4s-\3sBARN ON FIRE\r\n\r\n\r
 **********************************************************
+Cumberland County, NC (replaced)
+Contact: Franco Webb <blueleaderrocko@gmail.com>
+Sender: CAD@co.cumberland.nc.us
+CAD:DIST: 70.97 FT (S)CRYSTAL PARK (N);03/13/2012 08:34:54;6D2 BREATHING DIFFICULTY SPEAK;0531;2536 PINNACLE DR;VOYAGER DR
 **********************************************************
 **********************************************************
 **********************************************************
