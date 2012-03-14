@@ -110,7 +110,7 @@ public class NYOrleansCountyParserTest extends BaseParserTest {
     doTest("T13",
         "OCDISPATCH@ORLEANSNY.COM ABDOMINAL PAIN /PROBLEMS; 2103 NIA ORL CTYLINE RD TYA; 73 YOF CANCER PT   1-A-1 TXT STOP to opt-out",
         "CALL:ABDOMINAL PAIN /PROBLEMS",
-        "ADDR:2103 NIAGARA ORLEANS COUNTYLINE RD",
+        "ADDR:2103 COUNTY LINE RD",
         "CITY:YATES",
         "INFO:73 YOF CANCER PT",
         "CODE:1-A-1");
