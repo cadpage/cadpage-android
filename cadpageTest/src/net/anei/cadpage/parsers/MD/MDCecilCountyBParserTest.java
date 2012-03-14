@@ -214,6 +214,20 @@ public class MDCecilCountyBParserTest extends BaseParserTest {
         "TIME:23:22:43",
         "ID:12002034",
         "INFO:ACROSS FROM THE HIGHS STORE DR");
+  }
+  
+  @Test
+  public void testOOC() {
+    setDefaults("", "MD");
+    
+    doTest("T13",
+        "OOC\nEASST \nENGINE ASSIST\n3247 APPLETON\n13:10:14\n12003811\n13:12:15\nGARAGE FIRE ASSIST STATION 22",
+        "CODE:OOC",
+        "CALL:ENGINE ASSIST",
+        "ADDR:3247 APPLETON",
+        "TIME:13:10:14",
+        "ID:12003811",
+        "INFO:GARAGE FIRE ASSIST STATION 22");
    
   }
   
