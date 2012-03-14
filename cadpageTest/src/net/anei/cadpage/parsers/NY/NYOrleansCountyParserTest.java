@@ -106,9 +106,17 @@ public class NYOrleansCountyParserTest extends BaseParserTest {
         "MADDR:1355 YATES CARLTON TRL RD",
         "CITY:CARLTON",
         "INFO:ATV ROLLOVER, NO PT FOUND COVA/CAFD");
+
+    doTest("T13",
+        "OCDISPATCH@ORLEANSNY.COM ABDOMINAL PAIN /PROBLEMS; 2103 NIA ORL CTYLINE RD TYA; 73 YOF CANCER PT   1-A-1 TXT STOP to opt-out",
+        "CALL:ABDOMINAL PAIN /PROBLEMS",
+        "ADDR:2103 NIAGARA ORLEANS COUNTYLINE RD",
+        "CITY:YATES",
+        "INFO:73 YOF CANCER PT",
+        "CODE:1-A-1");
  }
   
   public static void main(String[] args) {
-    new NYOrleansCountyParserTest().generateTests("T12", "CALL ADDR CITY INFO CODE");
+    new NYOrleansCountyParserTest().generateTests("T1", "CALL ADDR CITY INFO CODE");
   }
 }

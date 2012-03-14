@@ -208,6 +208,20 @@ public class NCJohnstonCountyParserTest extends BaseParserTest {
         "NAME:MCDANIELS, ALBERT M",
         "DATE:01/26/2012",
         "TIME:06:25:19");
+
+    doTest("T21",
+        "FRM:cad paging \n" +
+        "MSG:CAD:OPS;CLD;06D01;DIFF BREATHING 06-D-01;107 GARNET LN;(S)SWIFTVIEW (N);GOVERNMENT RD;AVERY, B A;03/14/2012 09:54:04;CLDR1",
+
+        "INFO:OPS",
+        "SRC:CLD",
+        "CODE:06D01",
+        "CALL:DIFF BREATHING 06-D-01",
+        "ADDR:107 GARNET LN",
+        "X:(S)SWIFTVIEW (N) & GOVERNMENT RD",
+        "NAME:AVERY, B A",
+        "DATE:03/14/2012",
+        "TIME:09:54:04");
   }
   
   public static void main(String[] args) {
