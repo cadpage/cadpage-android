@@ -117,6 +117,13 @@ public class NCHarnettCountyParserTest extends BaseParserTest {
         "CITY:ANGIER",
         "CALL:EMS BACK PN");
 
+    doTest("T6",
+        "1203-021836*DARK WOOD DR***SPRING LAKE**FIRE SMO INV*******Hazards: No**",
+        "ID:1203-021836",
+        "ADDR:DARK WOOD DR",
+        "CITY:SPRING LAKE",
+        "CALL:FIRE SMO INV");
+
   }
 
   public static void main(String[] args) {

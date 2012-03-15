@@ -81,6 +81,24 @@ public class PAChesterCountyFParserTest extends BaseParserTest {
         "X:HOSTETTER RD & HIGHVIEW D",
         "INFO:CHIMNEY DETAILS TO FOLLOW");
 
+    doTest("T1",
+        "Fwd:  1 of 2\n" +
+        "FRM:paging@minquas.org\n" +
+        "SUBJ:517 WASHINGTON AV ,11\n" +
+        "MSG:HEMORRHAGING - ALS * ** 517 WASHINGTON AV ,11 ** - ** 73/M - BLEEDINGFROM\n" +
+        "(Con't) 2 of 2\n" +
+        "RECTUM\r\n" +
+        "DETAILS TO FOLLOW\r\n" +
+        "** DNGTWN **  ** WHITELAND AV & WAGNER AV ** (End)",
+
+        "CALL:HEMORRHAGING - ALS",
+        "ADDR:517 WASHINGTON AV",
+        "MADDR:517 WASHINGTON AVE",
+        "CITY:DOWNINGTOWN",
+        "PLACE:73/M - BLEEDINGFROM RECTUM DETAILS TO FOLLOW",
+        "X:DNGTWN",
+        "INFO:WHITELAND AV & WAGNER AV");
+
   }
   
   public static void main(String[] args) {

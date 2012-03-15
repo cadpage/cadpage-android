@@ -454,6 +454,15 @@ public class NYSuffolkCountyBParserTest extends BaseParserTest {
         "X:LAUREL DR  - LEDGEWOOD DR",
         "TIME:10:02",
         "DATE:03-08-12");
+
+    doTest("T44",
+        "***23 Motor Vehicle Accident*** 1815 E JERICHO TRNP E NORTHPORT CS: E DEER PARK RD  - JERICHO TRNP TOA: 14:55 03-14-12",
+        "CALL:23 Motor Vehicle Accident",
+        "ADDR:1815 E JERICHO TRNP",
+        "CITY:E NORTHPORT",
+        "X:E DEER PARK RD  - JERICHO TRNP",
+        "TIME:14:55",
+        "DATE:03-14-12");
 }
   
   public static void main(String[] args) {
