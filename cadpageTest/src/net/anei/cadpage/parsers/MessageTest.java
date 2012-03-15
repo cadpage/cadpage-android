@@ -9,6 +9,12 @@ public class MessageTest {
   @Test
   public void testParseInfo() {
     
+    doParseTest("PAChesterCountyF",
+    		"1 of 2\n FRM:paging@minquas.org\n SUBJ:21 WILLIAMS WY ,39\n MSG:EMOTIONAL DISORDER - BLS * ** 21 WILLIAMS WY ,39 ** - **  ** CALN ** HUMPTON FARMS **\n(Con't) 2 of 2\nLYNN BL & HUMPTON RD ** (End)",
+        "paging@minquas.org",
+        "21 WILLIAMS WY ,39",
+        "EMOTIONAL DISORDER - BLS * ** 21 WILLIAMS WY ,39 ** - **  ** CALN ** HUMPTON FARMS ** LYNN BL & HUMPTON RD **");
+    
     doParseTest("NJSomersetCounty", 
         "*3898: *messaging@iamresponding.com / 77 RESCUE / kharju:SBB-RS:12029633 :03/01/2012 23 <201223>:53:12:SICK PERSON:22 YOM: SOUTH B-SOUTHSIDE GRILL / 2 MAIN ST #10",
         "messaging@iamresponding.com",

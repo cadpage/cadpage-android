@@ -20,7 +20,7 @@ public class PAChesterCountyFParserTest extends BaseParserTest {
         "ADDR:WB LANCASTER PK EO BETHEL RD",
         "MADDR:LANCASTER PIKE & BETHEL RD",
         "CITY:LOWER OXFORD TWP",
-        "INFO:VEH VS MALE DETAILS TO FOLLOW");
+        "INFO:VEH VS MALE");
 
     doTest("T2",
         "(Dispatch) CARDIAC/RESP ARREST - ALS * ** 167 MOUNT PLEASANT RD ,69 ** ENOTT **  ** GRANT ST & COOPER LA ** - ** 48/F--LIPS BLUE\nDETAILS TO FOLLOW\n**",
@@ -28,7 +28,7 @@ public class PAChesterCountyFParserTest extends BaseParserTest {
         "ADDR:167 MOUNT PLEASANT RD",
         "CITY:EAST NOTINGHAM TWP",
         "X:GRANT ST & COOPER LA",
-        "INFO:48/F--LIPS BLUE DETAILS TO FOLLOW");
+        "INFO:48/F--LIPS BLUE");
 
     doTest("T3",
         "(Dispatch) ALARM - FIRE * ** 117 HYACINTH DR ,71 ** NEWLON ** THUNDER HILL ** RIDGE DR & MCBERTY CT ** - ** SMOKE ALARM GOING OFF - NO VIS SMOKE - 2ND FLO\nOR **",
@@ -79,9 +79,74 @@ public class PAChesterCountyFParserTest extends BaseParserTest {
         "ADDR:3064 LIMESTONE RD",
         "CITY:WEST FALLOWFIELD TWP",
         "X:HOSTETTER RD & HIGHVIEW D",
-        "INFO:CHIMNEY DETAILS TO FOLLOW");
+        "INFO:CHIMNEY");
+
+    doTest("T9",
+        "(Dispatch) CHIMNEY FIRE * ** 3064 LIMESTONE RD ,44 ** WFALLO **  ** HOSTETTER RD & HIGHVIEW D ** - ** CHIMNEY\n" +
+        "DETAILS TO FOLLOW\n" +
+        "**",
+
+        "CALL:CHIMNEY FIRE",
+        "ADDR:3064 LIMESTONE RD",
+        "CITY:WEST FALLOWFIELD TWP",
+        "X:HOSTETTER RD & HIGHVIEW D",
+        "INFO:CHIMNEY");
+
+  }
+  
+  @Test
+  public void testParse2() {
 
     doTest("T1",
+        "CHIMNEY FIRE * ** 451 DONOFRIO DR ,11 ** - ** SPARKS FROM CHIMNEY\nDETAILS TO FOLLOW\n ** DNGTWN ** JOHNSONTOWN **",
+        "CALL:CHIMNEY FIRE",
+        "ADDR:451 DONOFRIO DR",
+        "CITY:DOWNINGTOWN",
+        "INFO:SPARKS FROM CHIMNEY",
+        "PLACE:JOHNSONTOWN");
+
+    doTest("T2",
+        "EMOTIONAL DISORDER - BLS * ** 282 W CHURCH ST ,11 ** - ** PER PD O/S --\nSCENE IS SECURE\n ** DNGTWN **",
+        "CALL:EMOTIONAL DISORDER - BLS",
+        "ADDR:282 W CHURCH ST",
+        "CITY:DOWNINGTOWN",
+        "INFO:PER PD O/S -- SCENE IS SECURE");
+
+    doTest("T3",
+        "OVERDOSE - BLS * ** 10 W LANCASTER AV ,11 ** -11PD ** ALCOHOL OD ** DNGTWN **  ** E LANCASTER AV & MANOR AV *",
+        "CALL:OVERDOSE - BLS",
+        "ADDR:10 W LANCASTER AV",
+        "MADDR:10 W LANCASTER AVE",
+        "CITY:DOWNINGTOWN",
+        "INFO:11PD / ALCOHOL OD");
+
+    doTest("T4",
+        "1 of 2\n" +
+        " FRM:paging@minquas.org\n" +
+        " SUBJ:21 WILLIAMS WY ,39\n" +
+        " MSG:EMOTIONAL DISORDER - BLS * ** 21 WILLIAMS WY ,39 ** - **  ** CALN ** HUMPTON FARMS **\n" +
+        "(Con't) 2 of 2\n" +
+        "LYNN BL & HUMPTON RD ** (End)",
+
+        "CALL:EMOTIONAL DISORDER - BLS",
+        "ADDR:21 WILLIAMS WY",
+        "CITY:CALN TWP",
+        "PLACE:HUMPTON FARMS");
+
+    doTest("T5",
+        "1 of 2\n" +
+        "FRM:paging@minquas.org\n" +
+        "SUBJ:21 WILLIAMS WY ,39\n" +
+        "MSG:EMOTIONAL DISORDER - BLS * ** 21 WILLIAMS WY ,39 ** - **  ** CALN ** HUMPTON FARMS **\n" +
+        "(Con't) 2 of 2\n" +
+        "LYNN BL & HUMPTON RD ** (End)",
+
+        "CALL:EMOTIONAL DISORDER - BLS",
+        "ADDR:21 WILLIAMS WY",
+        "CITY:CALN TWP",
+        "PLACE:HUMPTON FARMS");
+
+    doTest("T6",
         "Fwd:  1 of 2\n" +
         "FRM:paging@minquas.org\n" +
         "SUBJ:517 WASHINGTON AV ,11\n" +
@@ -95,10 +160,8 @@ public class PAChesterCountyFParserTest extends BaseParserTest {
         "ADDR:517 WASHINGTON AV",
         "MADDR:517 WASHINGTON AVE",
         "CITY:DOWNINGTOWN",
-        "PLACE:73/M - BLEEDINGFROM RECTUM DETAILS TO FOLLOW",
-        "X:DNGTWN",
-        "INFO:WHITELAND AV & WAGNER AV");
-
+        "INFO:73/M - BLEEDINGFROM RECTUM");
+   
   }
   
   public static void main(String[] args) {
