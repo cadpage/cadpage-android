@@ -107,6 +107,9 @@ public class Message {
     // Remove trailing disclaimer(s)
     body = DISCLAIMER_PTN.matcher(body).replaceFirst("");
     
+    // Remove leading Fwd: flag
+    if (body.startsWith("Fwd:")) body = body.substring(4).trim();
+    
     // Dummy loop we can break out of
     do {
       

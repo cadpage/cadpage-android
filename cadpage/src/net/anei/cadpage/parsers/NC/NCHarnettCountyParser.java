@@ -36,6 +36,9 @@ FRM:cadpage@harnett.org\nMSG:1201-006955*2802 WALKER RD***LINDEN**FIRE RES STR**
 Contact: Roy Gibbs <boham29@gmail.com>
 1202-017757*137 MERCHANT DR***ANGIER**EMS BACK PN*******Hazards: No**
 
+Contact: Ryan Davis <hemifreak16@gmail.com>
+1203-021836*DARK WOOD DR***SPRING LAKE**FIRE SMO INV*******Hazards: No**
+
 */
 
 public class NCHarnettCountyParser extends FieldProgramParser {

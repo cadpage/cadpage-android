@@ -71,6 +71,10 @@ Sender: paging2@firerescuesystems.xohost.com
 ***23 Motor Vehicle Accident***  LEFFERTS PL CS: ELWOOD RD TOA: 17:58 03-07-12
 ***13 Residential Automatic Fire Alarm*** 34 MCARTHUR LN SMITHTOWN CS: LAUREL DR  - LEDGEWOOD DR TOA: 10:02 03-08-12
 
+Contact: "cfd153@aol.com" <cfd153@aol.com
+Sender: paging2@firerescuesystems.xohost.com
+***23 Motor Vehicle Accident*** 1815 E JERICHO TRNP E NORTHPORT CS: E DEER PARK RD  - JERICHO TRNP TOA: 14:55 03-14-12
+
 */
 
 public class NYSuffolkCountyBParser extends FieldProgramParser {
@@ -166,8 +170,9 @@ public class NYSuffolkCountyBParser extends FieldProgramParser {
     "BELLE TERRE", 
     "COMMACK",
     "CORAM",
+    "E NORTHPORT",
     "MOUNT SINAI", 
-    "MILLER PLACE", 
+    "MILLER PLACE",
     "PORT JEFFERSON",
     "SMITHTOWN",
     "STONY BROOK" 
