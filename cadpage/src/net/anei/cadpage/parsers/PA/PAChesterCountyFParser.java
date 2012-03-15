@@ -9,6 +9,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 /* 
 Chester County, PA (Variant F)
 Contact: "A. Testa" <tac239@msn.com>
+Contact: Matthew Woolston <matthew.woolston@gmail.com>
 Sender: cad@oxfordfire.com
 
 (Dispatch) ACCIDENT - PEDESTRIAN STRUCK * ** WB LANCASTER PK EO BETHEL RD ,56   (V) ** LWROXF **  **  ** - ** VEH VS MALE\nDETAILS TO FOLLOW\n
@@ -18,34 +19,46 @@ Sender: cad@oxfordfire.com
 (Dispatch) ELECTRICAL FIRE INSIDE * ** 325 S BROOKSIDE DR ,06 ** OXFORD ** BROOKSIDE ESTATES ** MCLEOD DR & SEBASTIAN DR ** - ** ELECTIRCAL SPARKED - SMOKED COMI
 (Dispatch) FIRE POLICE REQUEST * ** EB UNION SCHOOL RD EO CREAM RD ,56   (V) ** LWROXF **  **  ** - ** ASSIST PSP WITH A TRAFFIC CONTROL\n**
 (Dispatch) ACCIDENT - UNKNOWN INJURIES * ** OLD BALTIMORE PK/VILLAGE RD ,57    (V) **  **  **  ** - ** 2 VEH/BLKG ROADWAY/\n**
-
-Contact: Matthew Woolston <matthew.woolston@gmail.com>
-Sender: cad@oxfordfire.com
 (Dispatch) CHIMNEY FIRE * ** 3064 LIMESTONE RD ,44 ** WFALLO **  ** HOSTETTER RD & HIGHVIEW D ** - ** CHIMNEY\nDETAILS TO FOLLOW\n**
+
+Contact: Glenn Heininger <glenn.heininger@gmail.com>
+Contact:Marc Ferry <marcrferry@gmail.com> 
+Sender: paging@minquas.org
+System: PRC CAD
+
+CHIMNEY FIRE * ** 451 DONOFRIO DR ,11 ** - ** SPARKS FROM CHIMNEY\nDETAILS TO FOLLOW\n ** DNGTWN ** JOHNSONTOWN **
+EMOTIONAL DISORDER - BLS * ** 282 W CHURCH ST ,11 ** - ** PER PD O/S --\nSCENE IS SECURE\n ** DNGTWN **
+OVERDOSE - BLS * ** 10 W LANCASTER AV ,11 ** -11PD ** ALCOHOL OD ** DNGTWN **  ** E LANCASTER AV & MANOR AV *
+1 of 2\n FRM:paging@minquas.org\n SUBJ:21 WILLIAMS WY ,39\n MSG:EMOTIONAL DISORDER - BLS * ** 21 WILLIAMS WY ,39 ** - **  ** CALN ** HUMPTON FARMS **\n(Con't) 2 of 2\nLYNN BL & HUMPTON RD ** (End)
+1 of 2\nFRM:paging@minquas.org\nSUBJ:21 WILLIAMS WY ,39\nMSG:EMOTIONAL DISORDER - BLS * ** 21 WILLIAMS WY ,39 ** - **  ** CALN ** HUMPTON FARMS **\n(Con't) 2 of 2\nLYNN BL & HUMPTON RD ** (End)
+Fwd:  1 of 2\nFRM:paging@minquas.org\nSUBJ:517 WASHINGTON AV ,11\nMSG:HEMORRHAGING - ALS * ** 517 WASHINGTON AV ,11 ** - ** 73/M - BLEEDINGFROM\n(Con't) 2 of 2\nRECTUM\r\nDETAILS TO FOLLOW\r\n** DNGTWN **  ** WHITELAND AV & WAGNER AV ** (End)
 
  */
 
 
 public class PAChesterCountyFParser extends PAChesterCountyBaseParser {
-  
+
+  private static final Pattern DETAILS_TO_FOLLOW = Pattern.compile("\\r?\\nDETAILS TO FOLLOW\\b\\r?\\n?");
   private static final Pattern DELIM = Pattern.compile("(\\* )?\\*\\*");
   
   public PAChesterCountyFParser() {
-    super("CALL ADDRCITY CITY PLACE X APT INFO");
+    super("CALL ADDRCITY ( TAG INFO CITY PLACE | CITY PLACE X APT INFO )");
   }
   
   @Override
   public String getFilter() {
-    return "cad@oxfordfire.com";
+    return "cad@oxfordfire.com,paging@minquas.org";
   }
 
   @Override
-  protected boolean parseMsg(String subject, String body, Data data) {
+  protected boolean parseMsg(String body, Data data) {
     
-    if (!subject.equals("Dispatch")) return false;
+    if (!body.contains(" * ** ")) return false;
+
+    body = DETAILS_TO_FOLLOW.matcher(body).replaceAll("");
+    body = body.replace('\n', ' ');
 
     // Split and parse by asterisk delimiters
-    body = body.replace('\n', ' ');
     return parseFields(DELIM.split(body), data);
   }
   
@@ -61,9 +74,25 @@ public class PAChesterCountyFParser extends PAChesterCountyBaseParser {
     }
   }
   
+  private class TagField extends InfoField {
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      if (! field.startsWith("-")) return false;
+      field = field.substring(1).trim();
+      super.parse(field, data);
+      return true;
+    }
+  }
+  
   @Override
   public Field getField(String name) {
     if (name.equals("ADDRCITY")) return new MyAddressCityField();
+    if (name.equals("TAG")) return new TagField();
     return super.getField(name);
   }
 } 

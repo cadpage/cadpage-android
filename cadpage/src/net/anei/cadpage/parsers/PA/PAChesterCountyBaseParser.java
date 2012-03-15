@@ -314,6 +314,8 @@ public class PAChesterCountyBaseParser extends FieldProgramParser {
   
   protected static final Properties CITY_CODES = buildCodeTable(new String[]{
       "AVNDAL", "AVONDALE",
+      "DNGTWN", "DOWNINGTOWN",
+      "CALN",   "CALN TWP",
       "EGOSHN", "EAST GOSHEN TWP",
       "EMARLB", "EAST MARLBOROUGH TWP",
       "ENOTT",  "EAST NOTINGHAM TWP",

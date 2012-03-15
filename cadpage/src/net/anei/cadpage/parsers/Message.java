@@ -83,6 +83,7 @@ public class Message {
   };
   private static final Pattern OPT_OUT_PTN = Pattern.compile("TXT STOP.*$");
   private static final Pattern PAGECOPY_PATTERN = Pattern.compile("Pagecopy-Fr:(\\S*)\\s");
+  
   private static final Pattern[] EMAIL_PATTERNS = new Pattern[]{ 
     Pattern.compile("^(?:\\*.*\\*)?([\\w\\.]+@[\\w\\.]+)( +/ +/ +)"),
     Pattern.compile(" - Sender: *([\\w\\.]+@[\\w\\.]+) *\n"),
@@ -90,6 +91,7 @@ public class Message {
     Pattern.compile("^\\*\\d+: \\*([\\w\\w]+@[\\w\\.]+) +")
   };
   private static final Pattern EMAIL_PFX_PATTERN = Pattern.compile("^([\\w\\.]+@[\\w\\.]+)\\n");
+  private static final Pattern FRM_TAG_PATTERN = Pattern.compile("\n *FRM:");
   private static final Pattern[] E_S_M_PATTERNS = new Pattern[]{
     Pattern.compile("^(?:([^ ,;/]+) +)?S: *(.*?)(?: +M:|\n)"), 
     Pattern.compile("^Fr:<(.*?)>\nSu:(.*?)\nTxt: ")
@@ -160,53 +162,49 @@ public class Message {
       http://fireblitz.com/18/8.shtm
       */
       int pt1 = -1;
-      int pt2 = -1;
       if (body.startsWith("FRM:")) {
-        pt1 = 0;
-        pt2 = 4;
+        pt1 = 4;
       } else if (EMAIL_PFX_PATTERN.matcher(body).find()) {
-        pt1 = pt2 = 0;
+        pt1 = 0;
       } else {
-        pt1 = body.indexOf("\nFRM:");
-        pt2 = pt1 + 5;
+        match = FRM_TAG_PATTERN.matcher(body);
+        if (match.find()) pt1 = match.end();
       }
       if (pt1 >= 0) {
-        int pt3 = body.indexOf('\n', pt2);
-        if (pt3 >= 0) {
-          parseAddress = body.substring(pt2, pt3).trim();
-          pt1 = pt3;
-          pt3 = body.indexOf("\nSUBJ:", pt1);
-          if (pt3 >= 0) {
-            pt1 = pt3;
-            pt2 = pt3 + 6;
-            pt3 = body.indexOf('\n', pt2);
-            if (pt3 >= 0) {
-              addSubject(body.substring(pt2, pt3));
-              pt1 = pt3;
-            }
+        String[] lines = body.substring(pt1).split("\n");
+        if (lines.length > 1) {
+          lines[0] = lines[0].trim();
+          int ndx = 1;
+          lines[1] = lines[1].trim();
+          if (lines[1].startsWith("SUBJ:")) {
+            lines[1] = lines[1].substring(5).trim();
+            ndx++;
           }
-          pt3 = body.indexOf("\nMSG:", pt1);
-          if (pt3 >= 0) {
-            pt1 = pt3;
-            pt2 = pt1 + 5;
-            if (body.length() > pt2 && Character.isWhitespace(body.charAt(pt2))) pt2++;
-            StringBuilder sb = new StringBuilder();
-            boolean skipBreak = false;
-            for (String line : body.substring(pt2).split("\n")) {
-              if (line.startsWith("(Con")) {
-                skipBreak = true;
-              } else {
-                if (sb.length() > 0) {
-                  sb.append(skipBreak ? ' ' : '\n');
+          if (lines.length > ndx) {
+            String line = lines[ndx];
+            while (line.length() > 0 && line.charAt(0)==' ') line = line.substring(1);
+            if (line.startsWith("MSG:")) {
+              parseAddress = lines[0];
+              if (ndx > 1) addSubject(lines[1]);
+              StringBuilder sb = new StringBuilder(line.substring(4).trim());
+              boolean skipBreak = false;
+              for ( ndx++; ndx < lines.length; ndx++) {
+                line = lines[ndx];
+                if (line.startsWith("(Con")) {
+                  skipBreak = true;
+                } else {
+                  if (sb.length() > 0) {
+                    sb.append(skipBreak ? ' ' : '\n');
+                  }
+                  sb.append(line);
+                  skipBreak = false;
                 }
-                sb.append(line);
-                skipBreak = false;
               }
+              trimLast(sb, "(End)");
+              trimLast(sb, "\nMore?");
+              body = sb.toString().trim();
+              break;
             }
-            trimLast(sb, "(End)");
-            trimLast(sb, "\nMore?");
-            body = sb.toString().trim();
-            break;
           }
         }
       }

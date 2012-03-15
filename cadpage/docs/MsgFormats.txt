@@ -2953,28 +2953,6 @@ Sender: alarm-bounces@libertycornerfire.org
 ([Alarm] FD-2011-000264) 7705 @ 55 ARCHGATE RD  , BASKING RIDGE - 1ST/2ND FLOOR SMOKE DETECTORS 123-456-7890 <888-729-2450> , JENSEN 123-456-7890 <888-729-2450>
 **********************************************************
 Alternate Chester County, PA
-Contact: Glenn Heininger <glenn.heininger@gmail.com>
-System: PRC CAD
-Sender: paging@minquas.org
-Very messy text format, haven't figured out exact what is what.
-More info requested 12/14
-CHIMNEY FIRE * ** 451 DONOFRIO DR ,11 ** - ** SPARKS FROM CHIMNEY
-DETAILS TO FOLLOW
- ** DNGTWN ** JOHNSONTOWN **
- 
-  EMOTIONAL DISORDER - BLS * ** 282 W CHURCH ST ,11 ** - ** PER PD O/S --
-SCENE IS SECURE
- ** DNGTWN **
- 
-  OVERDOSE - BLS * ** 10 W LANCASTER AV ,11 ** -11PD ** ALCOHOL OD
- ** DNGTWN **  ** E LANCASTER AV & MANOR AV *
- 
-
-Contact:Marc Ferry <marcrferry@gmail.com> 
-Sender: paging@minquas.org
-1 of 2\n FRM:paging@minquas.org\n SUBJ:21 WILLIAMS WY ,39\n MSG:EMOTIONAL DISORDER - BLS * ** 21 WILLIAMS WY ,39 ** - **  ** CALN ** HUMPTON FARMS **\n(Con't) 2 of 2\nLYNN BL & HUMPTON RD ** (End)
-1 of 2\nFRM:paging@minquas.org\nSUBJ:21 WILLIAMS WY ,39\nMSG:EMOTIONAL DISORDER - BLS * ** 21 WILLIAMS WY ,39 ** - **  ** CALN ** HUMPTON FARMS **\n(Con't) 2 of 2\nLYNN BL & HUMPTON RD ** (End)
-Fwd:  1 of 2\nFRM:paging@minquas.org\nSUBJ:517 WASHINGTON AV ,11\nMSG:HEMORRHAGING - ALS * ** 517 WASHINGTON AV ,11 ** - ** 73/M - BLEEDINGFROM\n(Con't) 2 of 2\nRECTUM\r\nDETAILS TO FOLLOW\r\n** DNGTWN **  ** WHITELAND AV & WAGNER AV ** (End)
 
 Contact: Sergio Ora <skip513@gmail.com>
 Sender: 47dispatch@gmail.com
@@ -3993,16 +3971,11 @@ CAD:DIST: 70.97 FT (S)CRYSTAL PARK (N);03/13/2012 08:34:54;6D2 BREATHING DIFFICU
 Contact: Jr McElyea <j.mcelyea1@gmail.com>
 (Station 04) 03/13/2012 21:25:57;69D3 STRUCTURE FIRE COMM BLDG;0531,1332,2132,2151,2171,0432;GEORGE OWEN RD/HOPE MILLS RD
 **********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
+St Louis County, MO (alternate)
+Contact: Steve <steve@stlouisarsenal.com>
+Sender: alert@scfa911.org
+DispatchGlobalDispatchParser subclass
+(Dispatch) DIFFICULTY BREATHING \n\n1762 LEMAY FERRY RD, Apt. APT 313 \n1617 \nMapRegions: L29-49, LE Card # 4143 CrossStreets: LE Card# 4143 0.00 mi \nCall Number: 7182
 **********************************************************
 **********************************************************
 **********************************************************
