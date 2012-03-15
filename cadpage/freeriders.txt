@@ -1370,10 +1370,10 @@ $free_2012_list
 >>Frank Machokas <ffmachokas@gmail.com>
 >>Ryan De Mars <hobartff527@gmail.com>
 >>Joseph Krefft <amtracker1986@gmail.com>
-Ronald Rutt Jr <ronfyrfytr@gmail.com>
-Kurt Miller <volff21@gmail.com>
+>>Ronald Rutt Jr <ronfyrfytr@gmail.com>
+>>Kurt Miller <volff21@gmail.com>
 %%01/20/2012
-Jack Jones <cheif5529@gmail.com>
+>>Jack Jones <cheif5529@gmail.com>
 Rob Gore <whatroadtj@gmail.com>
 Nick Owarzani <phone626@gmail.com>
 Evan Spence <firefighterspence@gmail.com>
@@ -1689,3 +1689,8 @@ Russell Brandon <rbrandon151@gmail.com>
 Logan Walters <jrfirefighter15@gmail.com>
 %%03/13/2012
 Trevor Hile <hiletm1@gmail.com>
+%%03/14/2012
+Kyle Scott <ksscott1983@gmail.com>
+%%03/15/2012
+Sharon Hodges <shodges43.sh@gmail.com>
+Robert Hess <ffresdivr@gmail.com>

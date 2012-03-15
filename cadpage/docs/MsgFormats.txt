@@ -1281,10 +1281,15 @@ St Charles County, MO (MOStCharlesCountyParser)
 072611-26676        23 Overdose QD           308 Donald Ave                                    PRAIRIE HOMES ADDN/HWY V APT:                X ST:SUSAN AVE/RUTH AVE            MAP:BB 8-19        Orchard Farm B2
 081911-29644        29 Motor Vehicle Accident4795 Highway 94 N                                 CHU Trinity Lutheran ChurAPT:                X ST:CHURCH RD/HIGHWAY H           MAP:Z 10-19        Orchard Farm B2
 ***************************************************************************
-St Louis County, MO (MOStLouisCountyParser)
+St Louis County, MO (MOStLouisCountyAParser)
 MONROE AV / OAKRIDGE DR (MISC) - WIRES DOWN - 4310 09:04
 6721 THURSTON AV (MISC) - WIRES DOWN - 4310 00:22
 BROTHERTON LN (RES) - HOUSE ON BROTHERTON - 3025,4310,4610,3615,4210,3016,3017 22:27
+***************************************************************************
+St Louis County, MO (MOStLouisCountyBParser)
+(Dispatch) DIFFICULTY BREATHING \n\n1762 LEMAY FERRY RD, Apt. APT 313 \n1617 \nMapRegions: L29-49, LE Card # 4143 CrossStreets: LE Card# 4143 0.00 mi \nCall Number: 7182
+(Dispatch) ANIMAL BITE \n\n325 W ARLEE AVE \n1117 1614 \nMapRegions: K29-49, LE Card # 4271 CrossStreets: LE Card# 4271 0.00 mi \nCall Number: 718281
+(Dispatch) FALL \n\n2116 KEVIN DR \n1617 \nMapRegions: K30-49, LE Card # 4130 CrossStreets: LE Card# 4130 0.00 mi \nCall Number: 718280
 ***************************************************************************
 Stone County, MO (MOStoneCountyParser)
 911-CENTER:FMA MUTUAL AID/ASSIST OUTSIDE AGEN 214 E 5TH ST 4175270913 S MAPLE ST MUTUAL AID ASSIST OUTSIDE AGENCY
@@ -3971,11 +3976,6 @@ CAD:DIST: 70.97 FT (S)CRYSTAL PARK (N);03/13/2012 08:34:54;6D2 BREATHING DIFFICU
 Contact: Jr McElyea <j.mcelyea1@gmail.com>
 (Station 04) 03/13/2012 21:25:57;69D3 STRUCTURE FIRE COMM BLDG;0531,1332,2132,2151,2171,0432;GEORGE OWEN RD/HOPE MILLS RD
 **********************************************************
-St Louis County, MO (alternate)
-Contact: Steve <steve@stlouisarsenal.com>
-Sender: alert@scfa911.org
-DispatchGlobalDispatchParser subclass
-(Dispatch) DIFFICULTY BREATHING \n\n1762 LEMAY FERRY RD, Apt. APT 313 \n1617 \nMapRegions: L29-49, LE Card # 4143 CrossStreets: LE Card# 4143 0.00 mi \nCall Number: 7182
 **********************************************************
 **********************************************************
 **********************************************************
