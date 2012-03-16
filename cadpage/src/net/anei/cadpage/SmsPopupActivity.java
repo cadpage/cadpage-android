@@ -111,7 +111,7 @@ public class SmsPopupActivity extends Activity {
   @Override
   protected void onCreate(Bundle bundle) {
     super.onCreate(bundle);
-    if (Log.DEBUG) Log.v("SMSPopupActivity: onCreate()");
+    Log.v("SMSPopupActivity.onCreate()");
 
     requestWindowFeature(Window.FEATURE_NO_TITLE);
     setContentView(R.layout.popup);
@@ -242,7 +242,7 @@ public class SmsPopupActivity extends Activity {
   @Override
   protected void onNewIntent(Intent intent) {
     super.onNewIntent(intent);
-    if (Log.DEBUG) Log.v("SMSPopupActivity: onNewIntent()");
+    Log.v("SMSPopupActivity.onNewIntent()");
 
     // First things first, acquire wakelock, otherwise the phone may sleep
     //ManageWakeLock.acquirePartial(getApplicationContext());
@@ -880,7 +880,7 @@ private boolean externalStorageAvailable() {
    */
   public static void launchActivity(Context context, int msgId) {
     Intent popup = new Intent(context, SmsPopupActivity.class);
-    popup.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_EXCLUDE_FROM_RECENTS);
+    popup.setFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP | Intent.FLAG_ACTIVITY_CLEAR_TOP);
     popup.putExtra(EXTRAS_MSG_ID, msgId);
     context.startActivity(popup);
   }

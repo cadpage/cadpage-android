@@ -110,18 +110,48 @@ public class ContentQuery {
   }
 
   public static void dumpIntent(Intent intent) {
-    Log.w("Action:" + intent.getAction());
-    Log.w("Categories:");
+    Log.v("Flags:" + dumpFlags(intent.getFlags()));
+    Log.v("Action:" + intent.getAction());
+    Log.v("Categories:");
     if (intent.getCategories() != null) {
-      for (String str : intent.getCategories()) Log.w("  " + str);
+      for (String str : intent.getCategories()) Log.v("  " + str);
     }
-    Log.w("Type:" + intent.getType());
-    Log.w("Comp:" + intent.getComponent().getClassName());
+    Log.v("Type:" + intent.getType());
+    Log.v("Comp:" + intent.getComponent().getClassName());
     Bundle extra = intent.getExtras();
     if (extra != null) {
       for (String key : extra.keySet()) {
-        Log.w("  " + key + ":" + extra.get(key));
+        Log.v("  " + key + ":" + extra.get(key));
       }
+    }
+  }
+  
+  private static String dumpFlags(int flags) {
+    StringBuilder sb = new StringBuilder();
+    addFlag(sb, flags, Intent.FLAG_ACTIVITY_BROUGHT_TO_FRONT, "FLAG_ACTIVITY_BROUGHT_TO_FRONT");
+    addFlag(sb, flags, Intent.FLAG_ACTIVITY_CLEAR_TOP, "FLAG_ACTIVITY_CLEAR_TOP");
+    addFlag(sb, flags, Intent.FLAG_ACTIVITY_CLEAR_WHEN_TASK_RESET, "FLAG_ACTIVITY_CLEAR_WHEN_TASK_RESET");
+    addFlag(sb, flags, Intent.FLAG_ACTIVITY_EXCLUDE_FROM_RECENTS, "FLAG_ACTIVITY_EXCLUDE_FROM_RECENTS");
+    addFlag(sb, flags, Intent.FLAG_ACTIVITY_FORWARD_RESULT, "FLAG_ACTIVITY_FORWARD_RESULT");
+    addFlag(sb, flags, Intent.FLAG_ACTIVITY_LAUNCHED_FROM_HISTORY, "FLAG_ACTIVITY_LAUNCHED_FROM_HISTORY");
+    addFlag(sb, flags, Intent.FLAG_ACTIVITY_MULTIPLE_TASK, "FLAG_ACTIVITY_MULTIPLE_TASK");
+    addFlag(sb, flags, Intent.FLAG_ACTIVITY_NEW_TASK, "FLAG_ACTIVITY_NEW_TASK");
+    addFlag(sb, flags, Intent.FLAG_ACTIVITY_NO_ANIMATION, "FLAG_ACTIVITY_NO_ANIMATION");
+    addFlag(sb, flags, Intent.FLAG_ACTIVITY_NO_HISTORY, "FLAG_ACTIVITY_NO_HISTORY");
+    addFlag(sb, flags, Intent.FLAG_ACTIVITY_NO_USER_ACTION, "FLAG_ACTIVITY_NO_USER_ACTION");
+    addFlag(sb, flags, Intent.FLAG_ACTIVITY_PREVIOUS_IS_TOP, "FLAG_ACTIVITY_PREVIOUS_IS_TOP");
+    addFlag(sb, flags, Intent.FLAG_ACTIVITY_REORDER_TO_FRONT, "FLAG_ACTIVITY_REORDER_TO_FRONT");
+    addFlag(sb, flags, Intent.FLAG_ACTIVITY_RESET_TASK_IF_NEEDED, "FLAG_ACTIVITY_RESET_TASK_IF_NEEDED");
+    addFlag(sb, flags, Intent.FLAG_ACTIVITY_SINGLE_TOP, "FLAG_ACTIVITY_SINGLE_TOP");
+    addFlag(sb, flags, Intent.FLAG_RECEIVER_REGISTERED_ONLY, "FLAG_RECEIVER_REGISTERED_ONLY");
+    addFlag(sb, flags, Intent.FLAG_RECEIVER_REPLACE_PENDING, "FLAG_RECEIVER_REPLACE_PENDING");
+    return sb.toString();
+  }
+  
+  private static void addFlag(StringBuilder sb, int flags, int flag, String desc) {
+    if ((flags & flag) != 0) {
+      if (sb.length() > 0) sb.append(',');
+      sb.append(desc);
     }
   }
 

@@ -31,6 +31,7 @@ public class CallHistoryActivity extends ListActivity {
   @Override
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
+    Log.v("CallaHistoryActivity.onCreate()");
     
     // If initialization failure in progress, shut down without doing anything
     if (TopExceptionHandler.isInitFailure()) {
@@ -75,6 +76,7 @@ public class CallHistoryActivity extends ListActivity {
   protected void onNewIntent(Intent intent) {
     super.onNewIntent(intent);
     setIntent(intent);
+    Log.v("CallHistoryActivity.onNewIntent()");
     
     startup();
   }
@@ -200,6 +202,11 @@ public class CallHistoryActivity extends ListActivity {
    */
   public static void launchActivity(Context context, SmsMmsMessage message) {
     Intent intent = getLaunchIntent(context, message);
+    intent.addFlags(Intent.FLAG_ACTIVITY_NO_USER_ACTION);
+    
+    Log.v("CallHistoryActivity Launching....");
+    ContentQuery.dumpIntent(intent);
+    
     context.startActivity(intent);
   }
 

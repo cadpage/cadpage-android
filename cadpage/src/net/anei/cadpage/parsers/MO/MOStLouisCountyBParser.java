@@ -62,6 +62,31 @@ public class MOStLouisCountyBParser extends FieldProgramParser {
     }
   }
   
+  private static final Pattern MAP_PTN = Pattern.compile("[A-Z]\\d\\d-\\d\\d");
+  private class MyMapField extends MapField {
+    @Override
+    public void parse(String field, Data data) {
+      int pt = field.indexOf(',');
+      if (pt >= 0) {
+        String p1 = field.substring(0,pt).trim();
+        String p2 = field.substring(pt+1).trim();
+        if (MAP_PTN.matcher(p1).matches()) {
+          field = p1;
+          data.strSupp = p2;
+        } else if (MAP_PTN.matcher(p2).matches()) {
+          field = p2;
+          data.strSupp = p1;
+        }
+      }
+      super.parse(field, data);
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "MAP INFO";
+    }
+  }
+  
   private static final Pattern CARD_PTN = Pattern.compile("\\b[A-Z]{2} Card# \\d{4} 0\\.00 mi\\b");
   private class MyCrossField extends CrossField {
     @Override
@@ -76,6 +101,7 @@ public class MOStLouisCountyBParser extends FieldProgramParser {
   @Override
   protected Field getField(String name) {
     if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("MAP")) return new MyMapField();
     if (name.equals("X")) return new MyCrossField();
     return super.getField(name);
   }
