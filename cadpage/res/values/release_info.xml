@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">03082012</string>
-  <string name="release_version">v1.5.21</string>
+  <string name="release_date">03152012</string>
+  <string name="release_version">v1.5.22</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="min_expire_date">10012012</string>
@@ -9,25 +9,32 @@
 What"'"s new in this release\n
 \n
 New Locations:\n
-Dauphin County, PA\n
-Decatur, TX\n
-Kenosha County, WI (alt)\n
+St Louis County, MO (Alt)\n
+Erie County, NY (Alt)\n
+Suffolk County, NY (Alt)\n
+Burlington County, NJ (Alt)\n
 \n
 Location Parsing Fixes:\n
-Weld County, CO\n
-Kent County, DE\n
+Marion County, IN\n
+Kent County, MD\n
+Cecil County, MD\n
+Prince Georges County, MD\n
+Queen Anne"'"s County, MD\n
 Marion County, MS\n
+Shelby County, OH\n
+Camden County, NJ\n
 Somerset County, NJ\n
-Chautauqua County, NY\n
+Madison County, NY\n
+Orleans County, NY\n
 Suffolk County, NY\n
-Winchester County, NY\n
-Delaware County, PA\n
-Oconee County, SC\n
-Galvaston County, TX\n
+Hamilton County, OH\n
+Bucks County, PA\n
+Dauphin County, PA\n
+Mifflin County, PA\n
+Cy Creek Comm Center, TX\n
 \n
 General Fixes:\n
-Fixed some problems with direct paging vendor reconnect logic\n
-Fixed problems mapping addresses containing LA or EXT\n
+Another attempt to track down sporadic problem bringing up old calls.
   </string>  
 </resources>
   
