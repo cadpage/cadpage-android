@@ -25,7 +25,8 @@ public class MOStLouisCountyBParserTest extends BaseParserTest {
         "ADDR:1762 LEMAY FERRY RD",
         "APT:313",
         "UNIT:1617",
-        "MAP:L29-49, LE Card # 4143",
+        "MAP:L29-49",
+        "INFO:LE Card # 4143",
         "ID:7182");
 
     doTest("T2",
@@ -38,7 +39,8 @@ public class MOStLouisCountyBParserTest extends BaseParserTest {
         "CALL:ANIMAL BITE",
         "ADDR:325 W ARLEE AVE",
         "UNIT:1117 1614",
-        "MAP:K29-49, LE Card # 4271",
+        "MAP:K29-49",
+        "INFO:LE Card # 4271",
         "ID:718281");
 
     doTest("T3",
@@ -51,7 +53,8 @@ public class MOStLouisCountyBParserTest extends BaseParserTest {
         "CALL:FALL",
         "ADDR:2116 KEVIN DR",
         "UNIT:1617",
-        "MAP:K30-49, LE Card # 4130",
+        "MAP:K30-49",
+        "INFO:LE Card # 4130",
         "ID:718280");
 
     doTest("T4",
@@ -64,7 +67,8 @@ public class MOStLouisCountyBParserTest extends BaseParserTest {
         "CALL:OBS",
         "ADDR:812 DAMMERT AVE",
         "UNIT:1617",
-        "MAP:K29-49, LE Card # 4064",
+        "MAP:K29-49",
+        "INFO:LE Card # 4064",
         "ID:718269");
 
     doTest("T5",
@@ -77,7 +81,8 @@ public class MOStLouisCountyBParserTest extends BaseParserTest {
         "CALL:SICK CASE",
         "ADDR:115 W ETTA AVE",
         "UNIT:1614",
-        "MAP:K29-49, LE Card # 4273",
+        "MAP:K29-49",
+        "INFO:LE Card # 4273",
         "ID:718257");
 
     doTest("T6",
@@ -90,7 +95,8 @@ public class MOStLouisCountyBParserTest extends BaseParserTest {
         "CALL:AMBT",
         "ADDR:4400 BIG CHIEF DR",
         "UNIT:1617 1134",
-        "MAP:AF Card# 3031, L28-49",
+        "INFO:AF Card# 3031",
+        "MAP:L28-49",
         "X:AZTEC DR 0.01 mi E TURQUOISE DR 0.06 mi NW",
         "ID:718255");
 
@@ -105,7 +111,8 @@ public class MOStLouisCountyBParserTest extends BaseParserTest {
         "ADDR:1762 LEMAY FERRY RD",
         "APT:313",
         "UNIT:1617",
-        "MAP:L29-49, LE Card # 4143",
+        "MAP:L29-49",
+        "INFO:LE Card # 4143",
         "ID:7182");
 
     doTest("T8",
@@ -117,7 +124,8 @@ public class MOStLouisCountyBParserTest extends BaseParserTest {
         "CALL:VEHACC",
         "ADDR:GREEN PARK RD & REAVIS BARRACKS RD",
         "UNIT:1710 1614 1757",
-        "MAP:L29-49, LE Card # 4107, LE Card # 4201, ME Card# 1665, ME Card# 747 CrossStreets");
+        "MAP:L29-49",
+        "INFO:LE Card # 4107, LE Card # 4201, ME Card# 1665, ME Card# 747 CrossStreets");
 
     doTest("T9",
         "(Dispatch) ASTFIR \n\n317 EAST DAVIS \n1614 \nMapRegions:  CrossStreets: \nCall Number: 718231",
@@ -136,7 +144,8 @@ public class MOStLouisCountyBParserTest extends BaseParserTest {
         "CALL:ACCIDENTAL INJURY",
         "ADDR:373 TUCKAHOE DR",
         "UNIT:1617",
-        "MAP:K31-59, LE Card # 4248",
+        "MAP:K31-59",
+        "INFO:LE Card # 4248",
         "ID:718226");
 
     doTest("T11",
@@ -144,7 +153,8 @@ public class MOStLouisCountyBParserTest extends BaseParserTest {
         "CALL:VEHACC",
         "ADDR:LEMAY FERRY RD & FANNIE AVE",
         "UNIT:1614 1617",
-        "MAP:K28-49, LE Card # 4299",
+        "MAP:K28-49",
+        "INFO:LE Card # 4299",
         "ID:718216");
   }
   
