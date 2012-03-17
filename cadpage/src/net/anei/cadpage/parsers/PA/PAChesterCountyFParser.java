@@ -32,6 +32,7 @@ OVERDOSE - BLS * ** 10 W LANCASTER AV ,11 ** -11PD ** ALCOHOL OD ** DNGTWN **  *
 1 of 2\n FRM:paging@minquas.org\n SUBJ:21 WILLIAMS WY ,39\n MSG:EMOTIONAL DISORDER - BLS * ** 21 WILLIAMS WY ,39 ** - **  ** CALN ** HUMPTON FARMS **\n(Con't) 2 of 2\nLYNN BL & HUMPTON RD ** (End)
 1 of 2\nFRM:paging@minquas.org\nSUBJ:21 WILLIAMS WY ,39\nMSG:EMOTIONAL DISORDER - BLS * ** 21 WILLIAMS WY ,39 ** - **  ** CALN ** HUMPTON FARMS **\n(Con't) 2 of 2\nLYNN BL & HUMPTON RD ** (End)
 Fwd:  1 of 2\nFRM:paging@minquas.org\nSUBJ:517 WASHINGTON AV ,11\nMSG:HEMORRHAGING - ALS * ** 517 WASHINGTON AV ,11 ** - ** 73/M - BLEEDINGFROM\n(Con't) 2 of 2\nRECTUM\r\nDETAILS TO FOLLOW\r\n** DNGTWN **  ** WHITELAND AV & WAGNER AV ** (End)
+ 1 of 2\nFRM:paging@minquas.org\nSUBJ:150 E PENNSYLVANIA AV ,1\nMSG:ABDOMINAL PAIN - ALS * ** 150 E PENNSYLVANIA AV ,11 ** DOCTORS EXPRESS-- ROOM\n(Con't) 2 of 2\n1-BRAN ** 60'S/M\r\nDETAILS TO FOLLOW\r\n** DNGTWN **  ** WALLACE AV & GREEN ST ** (End)
 
  */
 
@@ -42,7 +43,7 @@ public class PAChesterCountyFParser extends PAChesterCountyBaseParser {
   private static final Pattern DELIM = Pattern.compile("(\\* )?\\*\\*");
   
   public PAChesterCountyFParser() {
-    super("CALL ADDRCITY ( TAG INFO CITY PLACE | CITY PLACE X APT INFO )");
+    super("CALL ADDRCITY ( CITY PLACE X APT INFO | APT INFO CITY PLACE )");
   }
   
   @Override
@@ -74,25 +75,18 @@ public class PAChesterCountyFParser extends PAChesterCountyBaseParser {
     }
   }
   
-  private class TagField extends InfoField {
-    @Override
-    public boolean canFail() {
-      return true;
-    }
-    
+  private class MyCityField extends CityField {
     @Override
     public boolean checkParse(String field, Data data) {
-      if (! field.startsWith("-")) return false;
-      field = field.substring(1).trim();
-      super.parse(field, data);
-      return true;
+      if (field.length() == 0) return true;
+      return super.checkParse(field, data);
     }
   }
   
   @Override
   public Field getField(String name) {
     if (name.equals("ADDRCITY")) return new MyAddressCityField();
-    if (name.equals("TAG")) return new TagField();
+    if (name.equals("CITY")) return new MyCityField();
     return super.getField(name);
   }
 } 

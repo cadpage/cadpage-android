@@ -57,6 +57,10 @@ Contact: "jahurlock@cvfd7.com" <jahurlock@cvfd7.com>
 Contact: ffmedicmo@gmail.com
 1-9 HEART PROBLEMS 1630 MAIN ST CARDIAC HISTORY Q01
 
+Contact: Josh Ruby <firefighter_josh@hotmail.com>
+Sender: rc.579@c-msg.net
+1-3 SEIZURES 380 LOG CANOE CIR @PRS GUITARS <35 NOT VERIFIED Q01
+
 ******************************************************************************/
 
 public class MDQueenAnnesCountyParser extends SmartAddressParser {

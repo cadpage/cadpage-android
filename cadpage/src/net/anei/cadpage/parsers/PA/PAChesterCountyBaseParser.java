@@ -115,11 +115,18 @@ public class PAChesterCountyBaseParser extends FieldProgramParser {
     
     @Override
     public void parse(String field, Data data) {
+      if (field.startsWith("-")) field = field.substring(1).trim();
       if (field.endsWith("-")) field = field.substring(0,field.length()-1).trim();
       if (field.startsWith("APT ")) {
         field = field.substring(4).trim();
       }
-      super.parse(field, data);
+      if (field.length() > 6) data.strPlace = field;
+      else super.parse(field, data);
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "APT PLACE";
     }
   }
   
