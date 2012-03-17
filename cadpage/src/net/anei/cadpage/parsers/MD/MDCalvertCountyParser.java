@@ -43,7 +43,7 @@ public class MDCalvertCountyParser extends SmartAddressParser {
   };
   
   private static final Pattern UNIT_PTN = Pattern.compile("\\b(?:[BETSRAM]\\d{1,3}|TN\\d|NDC|NMED|COM)\\b");
-  private static final Pattern TIME_DATE_PTN = Pattern.compile("\\b\\d\\d:\\d\\d \\d\\d/\\d\\d/\\d\\d\\b");
+  private static final Pattern TIME_DATE_PTN = Pattern.compile("\\b(\\d\\d:\\d\\d) (\\d\\d/\\d\\d/\\d\\d)\\b");
   private static final Pattern ID_PTN = Pattern.compile("\\b\\d{4}-\\d{8}\\b");
   
   public MDCalvertCountyParser() {
@@ -60,6 +60,8 @@ public class MDCalvertCountyParser extends SmartAddressParser {
     
     Matcher timeDateMatch = TIME_DATE_PTN.matcher(body);
     if (! timeDateMatch.find()) return false;
+    data.strTime = timeDateMatch.group(1);
+    data.strDate = timeDateMatch.group(2);
     
     String strCall = body.substring(0,timeDateMatch.start()).trim();
     Matcher unitMatch = UNIT_PTN.matcher(strCall);
