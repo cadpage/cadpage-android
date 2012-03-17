@@ -75,6 +75,15 @@ Contact: Joe Sauerwein <jfsauerwein@gmail.com>
 Sender: paging@scfres.com
 TYPE: ALARMS LOC: 32 MONTAUK HWY BLUEPO : @BURGER KING BLUE POINT  CROSS: BELL AV / BUFFIN LN CODE: 52-C-3P TIME: 13:20:43\r\n\r\n\r
 
+Contact: support@active911.com
+TYPE: RESPIRATORY LOC: 14 RITA DR MOUNTS CROSS: WESTCLIFF DR / JONI DR CODE:6-D-1 TIME: 23:35:41
+TYPE: BLEEDING / LACERATIONS LOC: 103 ROE LN PORTJE CROSS: VILLAGE WOODS RD / CODE: 21-B-1 TIME: 13:18:59
+TYPE: MOTOR VEHICLE ACCIDENT WB RT 347 CROSS: NESCONSET HWY / JAYNE BLVD CODE: 29-B-1A TIME: 18:02:43
+TYPE: HEADACHE LOC: 39 MANOR DR MILLEP CROSS: GRAHAM CT / OAKS DR CODE: 18-C-2 TIME:21:50:53
+TYPE: BURNS (SCALDS) / EXPLOSION LOC: 9 ARBOR RIDGE LN CENTRE CROSS: VALIANT DR / VALIANT DR CODE: 7-A-2 TIME: 03:05:16
+TYPE: BLEEDING / LACERATIONS LOC: 80 GRENADA CIR MOUNTS RIGHT SIDE APT CROSS: CARDIFF RUN / SEVILLA WK CODE: 21-D-3 TIME: 08:47:11
+TYPE: RESPIRATORY LOC: 255 OAKLAND AV PORTJE :@PAX CHRISTI CROSS: HIGHLAND BLVD / ROUTE 25A CODE: 6-C-1A TIME: 08:55:59
+
 */
 
 public class NYSuffolkCountyAParser extends SmartAddressParser {
@@ -86,6 +95,7 @@ public class NYSuffolkCountyAParser extends SmartAddressParser {
       "BLUEPO", "Blue Point",
       "BRENTW", "Brentwood",
       "CENTEM", "Center Moriches",
+      "CENTRE", "Centereach",
       "DIXHIL", "Dix Hills",
       "EMORIC", "East Moriches",
       "ENORTH", "East Northport",
@@ -97,11 +107,14 @@ public class NYSuffolkCountyAParser extends SmartAddressParser {
       "HAUPPA", "Hauppauge",
       "MANORV", "Manorville",
       "MASTIC", "Mastic",
+      "MILLEP", "Miller Place",
       "MORICH", "Moriches",
+      "MOUNTS", "Mount Siani",
       "NBAYSH", "Bay Shore",
       "NORTHP", "Northport",
       "OAKDAL", "Oakdale",
       "PATCH",  "Patchogue",
+      "PORTJE", "Port Jefferson",
       "SHIRLE", "Shirley",
       "RONKON", "Ronkonkoma"
   });
