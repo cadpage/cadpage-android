@@ -19,7 +19,7 @@ public class NYSuffolkCountyAParserTest extends BaseParserTest {
         "TYPE: GAS LEAKS / GAS ODOR (NATURAL / L.P.G.) LOC: 11 BRENTWOOD PKWY BRENTW HOMELESS SHELTER CROSS: PENNSYLVANIA AV / SUFFOLK AV CODE: 60-B-2 TIME: 12:54:16",
         "CALL:GAS LEAKS / GAS ODOR (NATURAL / L.P.G.)",
         "ADDR:11 BRENTWOOD PKWY",
-        "CITY:Brentwood",
+        "CITY:BRENTWOOD",
         "PLACE:HOMELESS SHELTER",
         "X:PENNSYLVANIA AV / SUFFOLK AV",
         "CODE:60-B-2",
@@ -30,7 +30,7 @@ public class NYSuffolkCountyAParserTest extends BaseParserTest {
         "CALL:STRUCTURE FIRE",
         "ADDR:81 NEW HAMPSHIRE AV",
         "MADDR:81 NEW HAMPSHIRE AVE",
-        "CITY:Bay Shore",
+        "CITY:NORTH BAY SHORE",
         "X:E FORKS RD / E 3 AV",
         "CODE:69-D-10",
         "TIME:16:36:48");
@@ -40,7 +40,7 @@ public class NYSuffolkCountyAParserTest extends BaseParserTest {
         "CALL:OPEN BURNING",
         "ADDR:65 GRANT AVE",
         "X:SUFFOLK AVE",
-        "CITY:Brentwood",
+        "CITY:BRENTWOOD",
         "CODE:54-C-6",
         "TIME:18:39:20");
 
@@ -48,7 +48,7 @@ public class NYSuffolkCountyAParserTest extends BaseParserTest {
         "TYPE: BLEEDING / LACERATIONS LOC: 462 SPUR DR N NBAYSH  CROSS: WB SSP OFF RAMP-X42N 5TH AV / E 3 AV CODE: 21-A-1 TIME: 03:36:22",
         "CALL:BLEEDING / LACERATIONS",
         "ADDR:462 SPUR DR N",
-        "CITY:Bay Shore",
+        "CITY:NORTH BAY SHORE",
         "X:WB SSP OFF RAMP-X42N 5TH AV / E 3 AV",
         "CODE:21-A-1",
         "TIME:03:36:22");
@@ -57,7 +57,7 @@ public class NYSuffolkCountyAParserTest extends BaseParserTest {
         "TYPE: PREGNANCY / CHILDBIRTH / MISCARRIAGE LOC: 330 MOTOR PKWY HAUPPA:@FELDMAN, KRAMER & MONACO STE 400  CROSS: WASHINGTON AV / MARCUS BLVD C",
         "CALL:PREGNANCY / CHILDBIRTH / MISCARRIAGE",
         "ADDR:330 MOTOR PKWY",
-        "CITY:Hauppauge",
+        "CITY:HAUPPAUGE",
         "PLACE:FELDMAN, KRAMER & MONACO STE 400",
         "X:WASHINGTON AV / MARCUS BLVD");
 
@@ -65,7 +65,7 @@ public class NYSuffolkCountyAParserTest extends BaseParserTest {
         "TYPE: PSYCHIATRIC / ABNORMAL BEHAVIOR / SUICIDE LOC: 200 WIRELESS BLVD HAUPPA: @SOCIAL SERVICES HAUPPAUGE INTERVIEW AREA CROSS: MORELAND RD /",
         "CALL:PSYCHIATRIC / ABNORMAL BEHAVIOR / SUICIDE",
         "ADDR:200 WIRELESS BLVD",
-        "CITY:Hauppauge",
+        "CITY:HAUPPAUGE",
         "PLACE:SOCIAL SERVICES HAUPPAUGE INTERVIEW AREA",
         "X:MORELAND RD /");
 
@@ -74,7 +74,7 @@ public class NYSuffolkCountyAParserTest extends BaseParserTest {
         "CALL:FAINTING (NEAR)",
         "ADDR:46 SAUNDERS AV",
         "MADDR:46 SAUNDERS AVE",
-        "CITY:Center Moriches",
+        "CITY:CENTER MORICHES",
         "PLACE:KINGS CHAPEL CHURCH",
         "X:ROWEIN RD",
         "CODE:31-D-2",
@@ -85,7 +85,7 @@ public class NYSuffolkCountyAParserTest extends BaseParserTest {
         "CALL:SEIZURES",
         "ADDR:20 TRAINOR AV",
         "MADDR:20 TRAINOR AVE",
-        "CITY:Center Moriches",
+        "CITY:CENTER MORICHES",
         "X:SUNRISE HWY S  BERNSTEIN BLVD",
         "CODE:12-C-1",
         "TIME:03:39:02");
@@ -94,7 +94,7 @@ public class NYSuffolkCountyAParserTest extends BaseParserTest {
         "ABDOMINAL PAINS LOC: 18 INWOOD RD CENTEM CROSS: UNION AV / BEACHFERN RD CODE: 1-A-1 TIME: 21:21:39",
         "CALL:ABDOMINAL PAINS",
         "ADDR:18 INWOOD RD",
-        "CITY:Center Moriches",
+        "CITY:CENTER MORICHES",
         "X:UNION AV / BEACHFERN RD",
         "CODE:1-A-1",
         "TIME:21:21:39");
@@ -104,7 +104,7 @@ public class NYSuffolkCountyAParserTest extends BaseParserTest {
         "CALL:UNKNOWN PROBLEM",
         "ADDR:150 CHICHESTER AV",
         "MADDR:150 CHICHESTER AVE",
-        "CITY:Center Moriches",
+        "CITY:CENTER MORICHES",
         "X:YARMOUTH LN / FROWEIN RD",
         "TIME:08:01:10");
 
@@ -112,7 +112,7 @@ public class NYSuffolkCountyAParserTest extends BaseParserTest {
         "FAINTING (NEAR) LOC: 6 FROWEIN RD EMORIC: @CEDAR LODGE NURSING HOME IN THE DINING ROOM CROSS: WALDEN CT  OAK ST CODE: 31-D-3 TIME: 18:51:38",
         "CALL:FAINTING (NEAR)",
         "ADDR:6 FROWEIN RD",
-        "CITY:East Moriches",
+        "CITY:EAST MORICHES",
         "PLACE:CEDAR LODGE NURSING HOME IN THE DINING ROOM",
         "X:WALDEN CT  OAK ST",
         "CODE:31-D-3",
@@ -123,7 +123,7 @@ public class NYSuffolkCountyAParserTest extends BaseParserTest {
         "CALL:GAS ODOR (NATURAL  L.P.G.)",
         "ADDR:MCGRAW ST",
         "MADDR:MCGRAW ST & GRAND AVE",
-        "CITY:Shirley",
+        "CITY:SHIRLEY",
         "PLACE:I / V / O SHIRLEY PLAZA",
         "X:GRAND AV / OAK AV",
         "CODE:60-C-2",
@@ -134,7 +134,7 @@ public class NYSuffolkCountyAParserTest extends BaseParserTest {
         "CALL:FAINTING (NEAR)",
         "ADDR:53-10 LONG TREE LN",
         "MADDR:53 LONG TREE LN",
-        "CITY:Moriches",
+        "CITY:MORICHES",
         "PLACE:PINE HILLS SOUTH CLUBHOUSE COMMUNITY ROOM",
         "CODE:31-E-1",
         "TIME:14:54:18");
@@ -143,7 +143,7 @@ public class NYSuffolkCountyAParserTest extends BaseParserTest {
         "TYPE: ALARMS LOC: 127 CRYSTAL BEACH BLVD MORICH  CROSS: BEVERLY CT / CODE: 52-B-1C TIME: 21:15:11",
         "CALL:ALARMS",
         "ADDR:127 CRYSTAL BEACH BLVD",
-        "CITY:Moriches",
+        "CITY:MORICHES",
         "X:BEVERLY CT /",
         "CODE:52-B-1C",
         "TIME:21:15:11");
@@ -153,7 +153,7 @@ public class NYSuffolkCountyAParserTest extends BaseParserTest {
         "CALL:PSYCHIATRIC / ABNORMAL BEHAVIOR / SUICIDE",
         "ADDR:79 ABBOTT AV",
         "MADDR:79 ABBOTT AVE",
-        "CITY:Mastic",
+        "CITY:MASTIC",
         "PLACE:***_VIP_***",
         "X:ELGIN ST / FOXCROFT ST",
         "CODE:25-B-6",
@@ -163,7 +163,7 @@ public class NYSuffolkCountyAParserTest extends BaseParserTest {
         "TYPE: ALARMS LOC: 100 PATRICIA CT OAKDAL @OAKDALE APARTMENTS    APARTMENT 3 CROSS: RACE PL /  CODE: 52-C-1S TIME: 19:16:55",
         "CALL:ALARMS",
         "ADDR:100 PATRICIA CT",
-        "CITY:Oakdale",
+        "CITY:OAKDALE",
         "PLACE:OAKDALE APARTMENTS    APARTMENT 3",
         "X:RACE PL /",
         "CODE:52-C-1S",
@@ -174,7 +174,7 @@ public class NYSuffolkCountyAParserTest extends BaseParserTest {
         "CALL:STRUCTURE FIRE",
         "ADDR:1 WILBUR AV",
         "MADDR:1 WILBUR AVE",
-        "CITY:Manorville",
+        "CITY:MANORVILLE",
         "X:SOHMER ST /",
         "CODE:69-D-5",
         "TIME:17:17:43");
@@ -192,7 +192,7 @@ public class NYSuffolkCountyAParserTest extends BaseParserTest {
         "CALL:ALARMS",
         "ADDR:311 BAY AV",
         "MADDR:311 BAY AVE",
-        "CITY:East Patchogue",
+        "CITY:EAST PATCHOGUE",
         "PLACE:BAY HOUSE",
         "X:NEWINS ST / PARK ST",
         "CODE:52-C-3G",
@@ -202,7 +202,7 @@ public class NYSuffolkCountyAParserTest extends BaseParserTest {
         "TYPE: CHEST PAIN LOC: 3845 VETERANS MEMORIAL HWY RONKON: @HOLIDAY INN RONKONKOMA: @HOLIDAY INN RONKONKOMA:06:12.4418,40:48:13.4 PARKI",
         "CALL:CHEST PAIN",
         "ADDR:3845 VETERANS MEMORIAL HWY",
-        "CITY:Ronkonkoma",
+        "CITY:RONKONKOMA",
         "PLACE:HOLIDAY INN RONKONKOMA",
         "INFO:HOLIDAY INN RONKONKOMA 06 12.4418,40 48 13.4 PARKI");
 
@@ -210,7 +210,7 @@ public class NYSuffolkCountyAParserTest extends BaseParserTest {
         "TYPE: UNKNOWN PROBLEM LOC: 195 CUBA HILL RD GREENL  CROSS: MANOR RD / DANVILLE DR CODE: 32-B-2 TIME: 17:30:40",
         "CALL:UNKNOWN PROBLEM",
         "ADDR:195 CUBA HILL RD",
-        "CITY:Greenlawn",
+        "CITY:GREENLAWN",
         "X:MANOR RD / DANVILLE DR",
         "CODE:32-B-2",
         "TIME:17:30:40");
@@ -219,7 +219,7 @@ public class NYSuffolkCountyAParserTest extends BaseParserTest {
         "TYPE: STRUCTURE FIRE LOC: 1 ARNOLD DR HUNTIN  CROSS: PARTRIDGE LN /  CODE: default TIME: 06:38:03",
         "CALL:STRUCTURE FIRE",
         "ADDR:1 ARNOLD DR",
-        "CITY:Huntington",
+        "CITY:HUNTINGTON",
         "X:PARTRIDGE LN /",
         "CODE:default",
         "TIME:06:38:03");
@@ -228,7 +228,7 @@ public class NYSuffolkCountyAParserTest extends BaseParserTest {
         "TYPE: STRUCTURE FIRE LOC: 6 MAJESTIC DR DIXHIL  CROSS: ROYAL LN / REGENCY LN CODE: 69-D-6 TIME: 02:22:25",
         "CALL:STRUCTURE FIRE",
         "ADDR:6 MAJESTIC DR",
-        "CITY:Dix Hills",
+        "CITY:DIX HILLS",
         "X:ROYAL LN / REGENCY LN",
         "CODE:69-D-6",
         "TIME:02:22:25");
@@ -238,7 +238,7 @@ public class NYSuffolkCountyAParserTest extends BaseParserTest {
         "CALL:FALLS",
         "ADDR:37 WATERSIDE AV",
         "MADDR:37 WATERSIDE AVE",
-        "CITY:Northport",
+        "CITY:NORTHPORT",
         "X:MONROE ST / WILLIS ST",
         "CODE:17-B-3",
         "TIME:13:40:45");
@@ -248,7 +248,7 @@ public class NYSuffolkCountyAParserTest extends BaseParserTest {
         "CALL:HEADACHE",
         "ADDR:68 FOREST AV",
         "MADDR:68 FOREST AVE",
-        "CITY:Shirley",
+        "CITY:SHIRLEY",
         "X:DAWN DR / WINSTON DR",
         "CODE:18-C-2",
         "TIME:16:09:54");
@@ -258,7 +258,7 @@ public class NYSuffolkCountyAParserTest extends BaseParserTest {
         "CALL:RESPIRATORY",
         "ADDR:16 TEAL CRSN",
         "MADDR:16 TEAL CRESCENT",
-        "CITY:Great River",
+        "CITY:GREAT RIVER",
         "X:/ WIDGEON CT",
         "CODE:6-D-1",
         "TIME:15:59:03");
@@ -268,7 +268,7 @@ public class NYSuffolkCountyAParserTest extends BaseParserTest {
         "CALL:STRUCTURE FIRE",
         "ADDR:605 7 AV",
         "MADDR:605 7 AVE",
-        "CITY:East Northport",
+        "CITY:EAST NORTHPORT",
         "X:6 ST / OWEN CT",
         "CODE:69-D-6",
         "TIME:11:34:38");
@@ -277,7 +277,7 @@ public class NYSuffolkCountyAParserTest extends BaseParserTest {
         "TYPE: ALARMS LOC: 32 MONTAUK HWY BLUEPO : @BURGER KING BLUE POINT  CROSS: BELL AV / BUFFIN LN CODE: 52-C-3P TIME: 13:20:43\r\n\r\n\r",
         "CALL:ALARMS",
         "ADDR:32 MONTAUK HWY",
-        "CITY:Blue Point",
+        "CITY:BLUE POINT",
         "PLACE:BURGER KING BLUE POINT",
         "X:BELL AV / BUFFIN LN",
         "CODE:52-C-3P",
@@ -292,7 +292,7 @@ public class NYSuffolkCountyAParserTest extends BaseParserTest {
         "TYPE: RESPIRATORY LOC: 14 RITA DR MOUNTS CROSS: WESTCLIFF DR / JONI DR CODE:6-D-1 TIME: 23:35:41",
         "CALL:RESPIRATORY",
         "ADDR:14 RITA DR",
-        "CITY:Mount Siani",
+        "CITY:MT SINAI",
         "X:WESTCLIFF DR / JONI DR",
         "CODE:6-D-1",
         "TIME:23:35:41");
@@ -301,7 +301,7 @@ public class NYSuffolkCountyAParserTest extends BaseParserTest {
         "TYPE: BLEEDING / LACERATIONS LOC: 103 ROE LN PORTJE CROSS: VILLAGE WOODS RD / CODE: 21-B-1 TIME: 13:18:59",
         "CALL:BLEEDING / LACERATIONS",
         "ADDR:103 ROE LN",
-        "CITY:Port Jefferson",
+        "CITY:PORT JEFFERSON",
         "X:VILLAGE WOODS RD /",
         "CODE:21-B-1",
         "TIME:13:18:59");
@@ -317,7 +317,7 @@ public class NYSuffolkCountyAParserTest extends BaseParserTest {
         "TYPE: HEADACHE LOC: 39 MANOR DR MILLEP CROSS: GRAHAM CT / OAKS DR CODE: 18-C-2 TIME:21:50:53",
         "CALL:HEADACHE",
         "ADDR:39 MANOR DR",
-        "CITY:Miller Place",
+        "CITY:MILLER PLACE",
         "X:GRAHAM CT / OAKS DR",
         "CODE:18-C-2",
         "TIME:21:50:53");
@@ -326,7 +326,7 @@ public class NYSuffolkCountyAParserTest extends BaseParserTest {
         "TYPE: BURNS (SCALDS) / EXPLOSION LOC: 9 ARBOR RIDGE LN CENTRE CROSS: VALIANT DR / VALIANT DR CODE: 7-A-2 TIME: 03:05:16",
         "CALL:BURNS (SCALDS) / EXPLOSION",
         "ADDR:9 ARBOR RIDGE LN",
-        "CITY:Centereach",
+        "CITY:CENTEREACH",
         "X:VALIANT DR / VALIANT DR",
         "CODE:7-A-2",
         "TIME:03:05:16");
@@ -335,7 +335,7 @@ public class NYSuffolkCountyAParserTest extends BaseParserTest {
         "TYPE: BLEEDING / LACERATIONS LOC: 80 GRENADA CIR MOUNTS RIGHT SIDE APT CROSS: CARDIFF RUN / SEVILLA WK CODE: 21-D-3 TIME: 08:47:11",
         "CALL:BLEEDING / LACERATIONS",
         "ADDR:80 GRENADA CIR",
-        "CITY:Mount Siani",
+        "CITY:MT SINAI",
         "PLACE:RIGHT SIDE APT",
         "X:CARDIFF RUN / SEVILLA WK",
         "CODE:21-D-3",
@@ -346,7 +346,7 @@ public class NYSuffolkCountyAParserTest extends BaseParserTest {
         "CALL:RESPIRATORY",
         "ADDR:255 OAKLAND AV",
         "MADDR:255 OAKLAND AVE",
-        "CITY:Port Jefferson",
+        "CITY:PORT JEFFERSON",
         "PLACE:PAX CHRISTI",
         "X:HIGHLAND BLVD / ROUTE 25A",
         "CODE:6-C-1A",
