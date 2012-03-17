@@ -285,6 +285,75 @@ public class NYSuffolkCountyAParserTest extends BaseParserTest {
   
   }
   
+  @Test
+  public void testActive911() {
+
+    doTest("T1",
+        "TYPE: RESPIRATORY LOC: 14 RITA DR MOUNTS CROSS: WESTCLIFF DR / JONI DR CODE:6-D-1 TIME: 23:35:41",
+        "CALL:RESPIRATORY",
+        "ADDR:14 RITA DR",
+        "CITY:Mount Siani",
+        "X:WESTCLIFF DR / JONI DR",
+        "CODE:6-D-1",
+        "TIME:23:35:41");
+
+    doTest("T2",
+        "TYPE: BLEEDING / LACERATIONS LOC: 103 ROE LN PORTJE CROSS: VILLAGE WOODS RD / CODE: 21-B-1 TIME: 13:18:59",
+        "CALL:BLEEDING / LACERATIONS",
+        "ADDR:103 ROE LN",
+        "CITY:Port Jefferson",
+        "X:VILLAGE WOODS RD /",
+        "CODE:21-B-1",
+        "TIME:13:18:59");
+
+    doTest("T3",
+        "TYPE: MOTOR VEHICLE ACCIDENT WB RT 347 CROSS: NESCONSET HWY / JAYNE BLVD CODE: 29-B-1A TIME: 18:02:43",
+        "CALL:MOTOR VEHICLE ACCIDENT WB RT 347",
+        "ADDR:NESCONSET HWY & JAYNE BLVD",
+        "CODE:29-B-1A",
+        "TIME:18:02:43");
+
+    doTest("T4",
+        "TYPE: HEADACHE LOC: 39 MANOR DR MILLEP CROSS: GRAHAM CT / OAKS DR CODE: 18-C-2 TIME:21:50:53",
+        "CALL:HEADACHE",
+        "ADDR:39 MANOR DR",
+        "CITY:Miller Place",
+        "X:GRAHAM CT / OAKS DR",
+        "CODE:18-C-2",
+        "TIME:21:50:53");
+
+    doTest("T5",
+        "TYPE: BURNS (SCALDS) / EXPLOSION LOC: 9 ARBOR RIDGE LN CENTRE CROSS: VALIANT DR / VALIANT DR CODE: 7-A-2 TIME: 03:05:16",
+        "CALL:BURNS (SCALDS) / EXPLOSION",
+        "ADDR:9 ARBOR RIDGE LN",
+        "CITY:Centereach",
+        "X:VALIANT DR / VALIANT DR",
+        "CODE:7-A-2",
+        "TIME:03:05:16");
+
+    doTest("T6",
+        "TYPE: BLEEDING / LACERATIONS LOC: 80 GRENADA CIR MOUNTS RIGHT SIDE APT CROSS: CARDIFF RUN / SEVILLA WK CODE: 21-D-3 TIME: 08:47:11",
+        "CALL:BLEEDING / LACERATIONS",
+        "ADDR:80 GRENADA CIR",
+        "CITY:Mount Siani",
+        "PLACE:RIGHT SIDE APT",
+        "X:CARDIFF RUN / SEVILLA WK",
+        "CODE:21-D-3",
+        "TIME:08:47:11");
+
+    doTest("T7",
+        "TYPE: RESPIRATORY LOC: 255 OAKLAND AV PORTJE :@PAX CHRISTI CROSS: HIGHLAND BLVD / ROUTE 25A CODE: 6-C-1A TIME: 08:55:59",
+        "CALL:RESPIRATORY",
+        "ADDR:255 OAKLAND AV",
+        "MADDR:255 OAKLAND AVE",
+        "CITY:Port Jefferson",
+        "PLACE:PAX CHRISTI",
+        "X:HIGHLAND BLVD / ROUTE 25A",
+        "CODE:6-C-1A",
+        "TIME:08:55:59");
+ 
+  }
+  
   public static void main(String[] args) {
     new NYSuffolkCountyAParserTest().generateTests("T1", "CALL ADDR CITY PLACE X CODE INFO TIME");
   }
