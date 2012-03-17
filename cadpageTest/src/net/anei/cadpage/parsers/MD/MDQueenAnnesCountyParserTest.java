@@ -209,6 +209,19 @@ public class MDQueenAnnesCountyParserTest extends BaseParserTest {
 
   }
   
+  @Test
+  public void testJoshRuby() {
+
+    doTest("T1",
+        "1-3 SEIZURES 380 LOG CANOE CIR @PRS GUITARS <35 NOT VERIFIED Q01",
+        "CALL:1-3 SEIZURES",
+        "ADDR:380 LOG CANOE CIR",
+        "PLACE:PRS GUITARS <35 NOT VERIFIED",
+        "BOX:Q01");
+
+  }
+  
+  
   public static void main(String[] args) {
     new MDQueenAnnesCountyParserTest().generateTests("T1", "CALL CITY ADDR PLACE INFO BOX");
   }

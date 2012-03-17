@@ -117,8 +117,9 @@ public class PAChesterCountyFParserTest extends BaseParserTest {
         "CALL:OVERDOSE - BLS",
         "ADDR:10 W LANCASTER AV",
         "MADDR:10 W LANCASTER AVE",
+        "APT:11PD",
         "CITY:DOWNINGTOWN",
-        "INFO:11PD / ALCOHOL OD");
+        "INFO:ALCOHOL OD");
 
     doTest("T4",
         "1 of 2\n" +
@@ -161,6 +162,23 @@ public class PAChesterCountyFParserTest extends BaseParserTest {
         "MADDR:517 WASHINGTON AVE",
         "CITY:DOWNINGTOWN",
         "INFO:73/M - BLEEDINGFROM RECTUM");
+
+    doTest("T7",
+        " 1 of 2\n" +
+        "FRM:paging@minquas.org\n" +
+        "SUBJ:150 E PENNSYLVANIA AV ,1\n" +
+        "MSG:ABDOMINAL PAIN - ALS * ** 150 E PENNSYLVANIA AV ,11 ** DOCTORS EXPRESS-- ROOM\n" +
+        "(Con't) 2 of 2\n" +
+        "1-BRAN ** 60'S/M\r\n" +
+        "DETAILS TO FOLLOW\r\n" +
+        "** DNGTWN **  ** WALLACE AV & GREEN ST ** (End)",
+
+        "CALL:ABDOMINAL PAIN - ALS",
+        "ADDR:150 E PENNSYLVANIA AV",
+        "MADDR:150 E PENNSYLVANIA AVE",
+        "PLACE:DOCTORS EXPRESS-- ROOM 1-BRAN",
+        "CITY:DOWNINGTOWN",
+        "INFO:60'S/M");
    
   }
   
