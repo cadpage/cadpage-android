@@ -271,6 +271,23 @@ public class OHHamiltonCountyParserTest extends BaseParserTest {
    
   }
   
+  @Test
+  public void testJordanCadwell() {
+
+    doTest("T1",
+        "HC:CHEST PAIN 10 DOROTHY CT LINC APT 67 RONNIE BROWN ** CHEST PAIN ** F 57 ALSO TRBL BREATHING & ABDOMINAL PAIN 16:18 HFS58 HFALS97 XST2: 9795 MANGHAM DR",
+        "ADDR:10 DOROTHY CT",
+        "CITY:LINCOLN HEIGHTS",
+        "APT:67",
+        "PLACE:RONNIE BROWN",
+        "CALL:CHEST PAIN",
+        "INFO:F 57 ALSO TRBL BREATHING & ABDOMINAL PAIN",
+        "TIME:16:18",
+        "UNIT:HFS58 HFALS97",
+        "X:9795 MANGHAM DR");
+
+  }
+  
   public static void main(String[] args) {
     new OHHamiltonCountyParserTest().generateTests("T1", "ADDR CITY APT PLACE CALL INFO TIME UNIT X");
   }

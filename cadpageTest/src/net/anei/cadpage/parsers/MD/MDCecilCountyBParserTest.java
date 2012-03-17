@@ -220,7 +220,7 @@ public class MDCecilCountyBParserTest extends BaseParserTest {
   public void testOOC() {
     setDefaults("", "MD");
     
-    doTest("T13",
+    doTest("T1",
         "OOC\nEASST \nENGINE ASSIST\n3247 APPLETON\n13:10:14\n12003811\n13:12:15\nGARAGE FIRE ASSIST STATION 22",
         "CODE:OOC",
         "CALL:ENGINE ASSIST",
@@ -228,7 +228,16 @@ public class MDCecilCountyBParserTest extends BaseParserTest {
         "TIME:13:10:14",
         "ID:12003811",
         "INFO:GARAGE FIRE ASSIST STATION 22");
-   
+
+    doTest("T2",
+        "OOC\nRASS (\nRESCUE ASSIST\n400 WOLLASTON                 \n02:36:14\n12003975\n02:36:56\nX WATER WORKS / IVY HALL APT /",
+        "CODE:OOC",
+        "CALL:RESCUE ASSIST",
+        "ADDR:400 WOLLASTON",
+        "TIME:02:36:14",
+        "ID:12003975",
+        "INFO:X WATER WORKS / IVY HALL APT /");
+  
   }
   
   public static void main(String[] args) {
