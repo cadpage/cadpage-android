@@ -45,11 +45,15 @@ Contact: Jorden Caldwell <jorden072892@gmail.com>
 Sender: 93001006
 HC:CHEST PAIN 10 DOROTHY CT LINC APT 67 RONNIE BROWN ** CHEST PAIN ** F 57 ALSO TRBL BREATHING & ABDOMINAL PAIN 16:18 HFS58 HFALS97 XST2: 9795 MANGHAM DR
 
+Contact: "Thiele, Nick" <NThiele@mcfd71.org>
+Sender: HC@hamilton-co.org
+HC:INJURY FROM A FALL 7100 DEARWESTER DR SYCM SEASONS RET CTR 7100 DAWN ,EMP ** PERSON INJURED IN A FALL ** ASSISTED LIVING, RM 221, M-ELDERLY , CONFUSED AFTER F
+
 */
 
 public class OHHamiltonCountyParser extends SmartAddressParser {
   
-  private static final Pattern MASTER = Pattern.compile("HC:(.*) \\*\\* (.*) \\*\\* (.*) (\\d{1,2}:\\d\\d) (.*)");
+  private static final Pattern MASTER = Pattern.compile("HC:(.*) \\*\\* (.*) \\*\\* (.*?)(?: (\\d{1,2}:\\d\\d) (.*))?");
  
   public OHHamiltonCountyParser() {
     super(CITY_CODES, "HAMILTON COUNTY", "OH");
@@ -76,8 +80,8 @@ public class OHHamiltonCountyParser extends SmartAddressParser {
     data.strPlace = sPlace;
     data.strCall = match.group(2).trim();
     data.strSupp = match.group(3).trim();
-    data.strTime = match.group(4);
-    Parser p = new Parser(match.group(5).trim());
+    data.strTime = getOptGroup(match.group(4));
+    Parser p = new Parser(getOptGroup(match.group(5)));
     String x2 = p.getLastOptional(" XST2:");
     String x1 = p.getLastOptional(" XST:");
     data.strUnit = p.get();

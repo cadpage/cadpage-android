@@ -162,19 +162,31 @@ public class FlowLayout extends ViewGroup {
 	
 	/**
 	 * Adjust horizontal position of all child views for this row
-	 * @param startNdx
-	 * @param endNdx
-	 * @param extra
+	 * @param startNdx index of first child view on this row
+	 * @param endNdx index of first child view on next row
+	 * @param extra amount of extra pixels to be distributed 
 	 */
 	private void adjustPosition(int startNdx, int endNdx, int extra) {
+	  
+	  // If there is no or negative space, don't do anything
+	  // this will be the case if a negative real size was padded
 	  if (extra <= 0) return;
+	  
+	  // Left justify doesn't require any adjustments
 	  if (mJustify == JUSTIFY_LEFT) return;
-	  int adj = mJustify == JUSTIFY_RIGHT ? extra : extra/2;
-	  if (DEBUG) Log.w("adjustPosition for " + startNdx + "-" + endNdx + " by " + adj);
-	  for (int ndx = startNdx; ndx < endNdx; ndx++) {
-	    View child = getChildAt(ndx);
-      LayoutParams lp = (LayoutParams) child.getLayoutParams();
-      lp.x += adj;
+	  
+	  // The fill option is the hard one
+	  if (mJustify ==- JUSTIFY_FILL) {
+	    
+	  }
+	  else {
+  	  int adj = mJustify == JUSTIFY_RIGHT ? extra : extra/2;
+  	  if (DEBUG) Log.w("adjustPosition for " + startNdx + "-" + endNdx + " by " + adj);
+  	  for (int ndx = startNdx; ndx < endNdx; ndx++) {
+  	    View child = getChildAt(ndx);
+        LayoutParams lp = (LayoutParams) child.getLayoutParams();
+        lp.x += adj;
+  	  }
 	  }
 	}
 
