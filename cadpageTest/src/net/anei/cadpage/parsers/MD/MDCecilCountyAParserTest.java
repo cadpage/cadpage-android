@@ -57,6 +57,14 @@ public class MDCecilCountyAParserTest extends BaseParserTest {
         "CITY:RISING SUN",
         "ID:10023751");
 
+    doTest("T6",
+        "0402*GAS LEAK INSIDE*57 STONEY CHASE DR*ELK*15:50:15*12003260",
+        "BOX:0402",
+        "CALL:GAS LEAK INSIDE",
+        "ADDR:57 STONEY CHASE DR",
+        "CITY:ELKTON",
+        "ID:12003260");
+
     setDefaults("", "");
     doTest("T20",
         "OOC*AMBO CALL*WARE VILLAGE 7 E LOCUST*01:13:01*10023819",
@@ -70,5 +78,9 @@ public class MDCecilCountyAParserTest extends BaseParserTest {
         "ADDR:207 SHEFFEILD LN",
         "ID:11001029");
     
+  }
+  
+  public static void main(String[] args) {
+    new MDCecilCountyAParserTest().generateTests("T1", "BOX CALL ADDR APT X CITY ID");
   }
 }
