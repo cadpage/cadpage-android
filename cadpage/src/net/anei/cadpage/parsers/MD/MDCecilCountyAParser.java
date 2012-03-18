@@ -12,6 +12,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  Contact: Andrew Himmer <himmer1w1@gmail.com>
  Contact: Keith Stumpf <keith.stumpf@yahoo.com>
  Contact: Patrick <firerescue28@gmail.com>
+ Contact: Stephen Cummins <steve8424@gmail.com>
  Sender: cfcrs8@gmail.com
  System: EMBERS (Messenger 911 used locally at Ft Mead)
 
@@ -46,6 +47,8 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  1402*MOTOR VEHICLE ACC*HILLTOP RD / TELEGRAPH RD*ELK*18:02:03*11000938 
  OOC*HOUSE FIRE*207 SHEFFEILD LN*12:03:09*11001029
  
+0402*GAS LEAK INSIDE*57 STONEY CHASE DR*ELK*15:50:15*12003260
+
  */
 
 public class MDCecilCountyAParser extends MsgParser {

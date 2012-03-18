@@ -1179,6 +1179,7 @@ Pc Doctors <2209751@gmail.com>  // Johnson County, TN
 %%03/17/2012
 "Timothy P. McDonald" (tmcdonald@kirwanfire.com)<tmcdonald@northwestems.net>
 Jamie Hoover <hooverj18@gmail.com> // Blaine County, ID
+Lee Bender <leebender@gmail.com>
 
 // *** Insert Paid Users here ***
 
@@ -1392,7 +1393,7 @@ $free_2012_list
 >>Jacob Dively <jpdively@gmail.com>
 >>"James O'Regan" <iggyfd@gmail.com>
 >>Elijah otis <boyofthegoggins@gmail.com>
-Chad Houston <chouston64@gmail.com>
+>>Chad Houston <chouston64@gmail.com>
 %%01/22/2012
 Jeffrey Forde (jeffrey.e.forde@gmail.com)<jforde@trumbullvfc.com>
 Matt Buchko <mbuchko@pc-sar.com>
