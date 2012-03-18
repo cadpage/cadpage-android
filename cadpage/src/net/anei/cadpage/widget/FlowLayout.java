@@ -1,5 +1,7 @@
 package net.anei.cadpage.widget;
 
+import java.util.Arrays;
+
 import net.anei.cadpage.Log;
 import net.anei.cadpage.R;
 import android.content.Context;
@@ -15,7 +17,7 @@ public class FlowLayout extends ViewGroup {
   private static final int JUSTIFY_CENTER = 3;
   private static final int JUSTIFY_FILL = 4;
   
-  private static final boolean DEBUG = true;
+  private static final boolean DEBUG = false;
 	private int mHorizontalSpacing;
 	private int mVerticalSpacing;
 	private boolean mBalance;
@@ -58,7 +60,8 @@ public class FlowLayout extends ViewGroup {
     final int count = getChildCount();
     for (int ndx = 0; ndx < count; ndx++) {
       View child = getChildAt(ndx);
-      measureChild(child, childWidthSpec, MeasureSpec.UNSPECIFIED);
+      if (child.getVisibility() == View.GONE) continue; 
+      child.measure(childWidthSpec, MeasureSpec.UNSPECIFIED);
       if (DEBUG) Log.w("B" + ndx + "  W:" + child.getMeasuredWidth() + "  H:" + child.getMeasuredHeight());
     }
     
@@ -124,6 +127,7 @@ public class FlowLayout extends ViewGroup {
 		int count = getChildCount();
 		for (int ndx = 0; ndx < count; ndx++) {
 			View child = getChildAt(ndx);
+      if (child.getVisibility() == View.GONE) continue; 
 
 			LayoutParams lp = (LayoutParams) child.getLayoutParams();
 		  int spacing = mHorizontalSpacing;
@@ -168,6 +172,8 @@ public class FlowLayout extends ViewGroup {
 	 */
 	private void adjustPosition(int startNdx, int endNdx, int extra) {
 	  
+	  if (startNdx >= endNdx) return;
+	  
 	  // If there is no or negative space, don't do anything
 	  // this will be the case if a negative real size was padded
 	  if (extra <= 0) return;
@@ -176,14 +182,95 @@ public class FlowLayout extends ViewGroup {
 	  if (mJustify == JUSTIFY_LEFT) return;
 	  
 	  // The fill option is the hard one
-	  if (mJustify ==- JUSTIFY_FILL) {
+	  if (mJustify == JUSTIFY_FILL) {
 	    
+	    // The trick it to identify a minimum view width for each child view
+	    // that will expand the total row width to the target value.
+	    // First step in computing that number is to get the current width
+	    // of all children sorted from lowest to highest
+	    int[] childWidths = new int[endNdx-startNdx];
+      for (int ndx = startNdx; ndx < endNdx; ndx++) {
+        View child = getChildAt(ndx);
+        int width = (child.getVisibility() == View.GONE ? Integer.MAX_VALUE : child.getMeasuredWidth());
+        childWidths[ndx-startNdx] = width;
+      }
+      Arrays.sort(childWidths);
+
+      // Start with a minWidth of zero and loop through the child widths
+      int minWidth = 0;
+      int mod = 0;
+      int used = 0;
+      for (int ndx = 0; ndx < childWidths.length; ndx++) {
+        int childWidth = childWidths[ndx];
+        
+        // for each child, compute the number of pixels that can be be distributed
+        // to all previous children before their widths exceed this child's width
+        int capacity = ndx * (childWidth-minWidth);
+        
+        // If the remaining extra pixels exceed this capacity, bump the min
+        // width up to this child width, and consume the pixels used to get 
+        // up this far
+        if (extra - used > capacity) {
+          minWidth = childWidth;
+          used += capacity;
+        } 
+        
+        // if the remaining pixels do not exceed this capacity, divide the
+        // remaining pixels by the number of children they are distributed over
+        // to determine the final min width
+        else {
+          minWidth += (extra-used)/ndx;
+          mod = (extra-used) % ndx;
+          break;
+        }
+      }
+	    
+	    // OK, we come out of this with two valus
+	    // minWidth = calculated minimum view width
+	    // mod = number of leftover pixels if all views have minimum width
+	    // To this we add adj = amount by which child views must be shifted to right
+	    int adj = 0;
+	    
+	    // OK, make one last pass through the child views
+      for (int ndx = startNdx; ndx < endNdx; ndx++) {
+        View child = getChildAt(ndx);
+        if (child.getVisibility() == View.GONE) continue;
+        
+        // If a horizontal shift is needed, do it now
+        if (adj > 0) {
+          LayoutParams lp = (LayoutParams) child.getLayoutParams();
+          lp.x += adj;
+        }
+        
+        // Otherwise we only need to adjust views with current width below th
+        // target width
+        if (child.getMeasuredWidth() < minWidth) {
+          
+          // Calculate the target width
+          // which wil be the min width, plus 1 for the first mod children
+          int tgtWidth = minWidth;
+          if (mod > 0) {
+            tgtWidth++;
+            mod--;
+          }
+          
+          // Increase adj by the amount we increasing this view width
+          // and remeasure the child with the target width and existing height
+          adj += tgtWidth-child.getMeasuredWidth();
+          child.measure(MeasureSpec.makeMeasureSpec(MeasureSpec.EXACTLY, tgtWidth),
+                        MeasureSpec.makeMeasureSpec(MeasureSpec.EXACTLY, child.getMeasuredHeight()));
+        }
+      }
 	  }
+	  
+	  // Right and Center justify are pretty simple.  Just have to add either
+	  // all or half of the extra space to each X position
 	  else {
   	  int adj = mJustify == JUSTIFY_RIGHT ? extra : extra/2;
   	  if (DEBUG) Log.w("adjustPosition for " + startNdx + "-" + endNdx + " by " + adj);
   	  for (int ndx = startNdx; ndx < endNdx; ndx++) {
   	    View child = getChildAt(ndx);
+        if (child.getVisibility() == View.GONE) continue; 
         LayoutParams lp = (LayoutParams) child.getLayoutParams();
         lp.x += adj;
   	  }
@@ -196,6 +283,7 @@ public class FlowLayout extends ViewGroup {
 		final int count = getChildCount();
 		for (int i = 0; i < count; i++) {
 			View child = getChildAt(i);
+			if (child.getVisibility() == View.GONE) continue;
 			LayoutParams lp = (LayoutParams) child.getLayoutParams();
 			child.layout(lp.x, lp.y, lp.x + child.getMeasuredWidth(), lp.y + child.getMeasuredHeight());
 		}

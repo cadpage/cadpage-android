@@ -64,7 +64,7 @@
     android:id="@+id/RegButtonLayout"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
-    f:justify="center"
+    f:justify="fill"
     f:balance="true"
     f:horizontalSpacing="4dip"
     f:verticalSpacing="4dip"
