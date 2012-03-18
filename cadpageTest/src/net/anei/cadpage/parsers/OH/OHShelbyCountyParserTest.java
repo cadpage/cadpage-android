@@ -78,6 +78,41 @@ public class OHShelbyCountyParserTest extends BaseParserTest {
   }
   
   @Test
+  public void testJerryArmes() {
+
+    doTest("T1",
+        "(CAD Page) 12-003898|18:00:00|28-MIS|THERE IS A POWER POLE THAT IS ON FIRE @ 6053 DAWSON RD, HOUSTON X OF  STOKER RD &  SR 47|BROWN",
+        "ID:12-003898",
+        "TIME:18:00:00",
+        "CALL:28-MIS",
+        "INFO:THERE IS A POWER POLE THAT IS ON FIRE",
+        "ADDR:6053 DAWSON RD",
+        "CITY:HOUSTON",
+        "X:STOKER RD & SR 47",
+        "NAME:BROWN");
+
+    doTest("T2",
+        "(CAD Page) 12-003885|15:23:00|4-AWI|CAR/MOTORCYCLE @  EILERMAN RD@ FT LORAMIE SWANDERS RD, FT LORAMIE X OF  & |",
+        "ID:12-003885",
+        "TIME:15:23:00",
+        "CALL:4-AWI",
+        "INFO:CAR/MOTORCYCLE",
+        "ADDR:EILERMAN RD & FT LORAMIE SWANDERS RD",
+        "CITY:FT LORAMIE");
+
+    doTest("T3",
+        "(CAD Page) 12-003671|04:29:00|28-MIS|HAD A FIRE IN OUR GARAGE, NEED @ 9011 GREENVILLE RD, SIDNEY X OF  HARDIN WAPAKONETA RD &  PATTERSON HALPIN RD|YOUNG",
+        "ID:12-003671",
+        "TIME:04:29:00",
+        "CALL:28-MIS",
+        "INFO:HAD A FIRE IN OUR GARAGE, NEED",
+        "ADDR:9011 GREENVILLE RD",
+        "CITY:SIDNEY",
+        "X:HARDIN WAPAKONETA RD & PATTERSON HALPIN RD",
+        "NAME:YOUNG");
+  }
+  
+  @Test
   public void testActive911() {
 
     doTest("T1",
