@@ -20,12 +20,13 @@ public class CadpageParserTest extends BaseParserTest {
   @Test
   public void testActve911() {
     doTest("T1",
-        "title:LIFELINE ACTIVATION  address:2037 MAIN ST  city:PHILOMATH  cad_code:121411-18  map_code:545-360  ",
+        "title:LIFELINE ACTIVATION  address:2037 MAIN ST  city:PHILOMATH  cad_code:121411-18  map_code:545-360  response_url:http://active911.com/a7cBv6I",
         "CALL:LIFELINE ACTIVATION",
         "ADDR:2037 MAIN ST",
         "CITY:PHILOMATH",
         "ID:121411-18",
-        "MAP:545-360");
+        "MAP:545-360",
+        "URL:http://active911.com/a7cBv6I");
   }
   
   @Test

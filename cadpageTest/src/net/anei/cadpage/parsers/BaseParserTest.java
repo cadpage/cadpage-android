@@ -170,6 +170,7 @@ public abstract class BaseParserTest {
       else if (sType.equals("GPS")) data.strGPSLoc = str;
       else if (sType.equals("DATE")) data.strDate = str;
       else if (sType.equals("TIME")) data.strTime = str;
+      else if (sType.equals("URL")) data.strInfoURL = str;
       else fail("Keyword " + sType + " is not defined");
     }
     if (parserLocCode != null) {
@@ -204,6 +205,7 @@ public abstract class BaseParserTest {
     assertEquals(title + ":GPS", data.strGPSLoc, info.getGPSLoc());
     assertEquals(title + ":Date", data.strDate, info.getDate());
     assertEquals(title + ":Time", data.strTime, info.getTime());
+    assertEquals(title + ":URL", data.strInfoURL, info.getInfoURL());
     
     assertEquals(title + ":DefCity", defCity, info.getDefCity());
     assertEquals(title + ":DefState", defState, info.getDefState());
@@ -255,6 +257,7 @@ public abstract class BaseParserTest {
     KEYWORD_MAP.put("GPS", "GPS");
     KEYWORD_MAP.put("DATE", "DATE");
     KEYWORD_MAP.put("TIME", "TIME");
+    KEYWORD_MAP.put("URL", "URL");
   }
   
   /**
@@ -459,6 +462,7 @@ public abstract class BaseParserTest {
     if (sType.equals("GPS")) return info.getGPSLoc();
     if (sType.equals("DATE")) return info.getDate();
     if (sType.equals("TIME")) return info.getTime();
+    if (sType.equals("URL")) return info.getInfoURL();
     else throw new RuntimeException("Keyword " + sType + " is not defined");
   }
   
