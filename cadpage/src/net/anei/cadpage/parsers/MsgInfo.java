@@ -119,7 +119,7 @@ public class MsgInfo {
       if (strCallId.length() > 0) result += 10;
       if (strName.length() > 0) result += 10;
       if (strPhone.length() > 0) result += 10;
-      if (strSupp.length() > 0) result += 5;
+      if (strSupp.length() > 0) result += 1;
       if (strCode.length() > 0) result += 10;
       if (strSource.length() > 0) result += 10;
       if (strState.length() > 0) result += 10;

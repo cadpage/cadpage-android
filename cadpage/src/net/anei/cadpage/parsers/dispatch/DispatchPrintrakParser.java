@@ -102,8 +102,6 @@ public class DispatchPrintrakParser extends FieldProgramParser {
    */
   public static final int FLG_USE_CMT1_CALL = 0x1;
   
-  private boolean useCmt1Call;
-  
   public DispatchPrintrakParser(String defCity, String defState) {
     this(null, defCity, defState, null);
   }
@@ -122,8 +120,9 @@ public class DispatchPrintrakParser extends FieldProgramParser {
   
   public DispatchPrintrakParser(Properties cityCodes, String defCity, String defState, String expTerm, int flags) {
     super(cityCodes, defCity, defState,
-          setExpectFlag("SRC PRI:PRI INC:ID TYP:CALL! BLD:APT APT:APT AD:ADDR! CTY:CITY MAP:MAP LOC:PLACE CN:NAME CMT1:INFO1 CMT2:INFO TIME:TIME UNTS:UNIT XST:X XST2:X UNTS:UNIT", expTerm));
-    useCmt1Call = (flags & FLG_USE_CMT1_CALL) != 0;
+          setExpectFlag("SRC PRI:PRI INC:ID TYP:CALL! BLD:APT APT:APT AD:ADDR! CTY:CITY MAP:MAP LOC:PLACE CN:NAME CMT1:" + 
+                        ((flags & FLG_USE_CMT1_CALL) != 0 ? "CALL2" : "INFO") + 
+                        " CMT2:INFO TIME:TIME UNTS:UNIT XST:X XST2:X UNTS:UNIT", expTerm));
   }
   
   private class MyAptField extends AptField {
@@ -151,15 +150,11 @@ public class DispatchPrintrakParser extends FieldProgramParser {
     }
   }
   
-  private class Info1Field extends InfoField {
+  private class Call2Field extends CallField {
     @Override
     public void parse(String field, Data data) {
-      if (useCmt1Call) {
-        if (field.startsWith("**")) field = field.substring(2).trim();
-        data.strCall = field;
-      } else {
-        super.parse(field, data);
-      }
+      if (field.startsWith("**")) field = field.substring(2).trim();
+      data.strCall = field;
     }
   }
   
@@ -167,7 +162,7 @@ public class DispatchPrintrakParser extends FieldProgramParser {
   public Field getField(String name) {
     if (name.equals("APT")) return new MyAptField();
     if (name.equals("TIME")) return new MyTimeField();
-    if (name.equals("INFO1")) return new Info1Field();
+    if (name.equals("CALL2")) return new Call2Field();
     return super.getField(name);
   }
 }
