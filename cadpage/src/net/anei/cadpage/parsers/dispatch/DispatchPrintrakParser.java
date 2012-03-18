@@ -97,6 +97,13 @@ GLFD - CF/10647 TYP: BRUSH FIRE......... AD: 170 FRETWELL RD CMT1: <<< SEND GLEN
 
 public class DispatchPrintrakParser extends FieldProgramParser {
   
+  /**
+   * Flag indicating we should use the CMT1 field to replace the normal call field
+   */
+  public static final int FLG_USE_CMT1_CALL = 0x1;
+  
+  private boolean useCmt1Call;
+  
   public DispatchPrintrakParser(String defCity, String defState) {
     this(null, defCity, defState, null);
   }
@@ -110,8 +117,13 @@ public class DispatchPrintrakParser extends FieldProgramParser {
   }
   
   public DispatchPrintrakParser(Properties cityCodes, String defCity, String defState, String expTerm) {
+    this(cityCodes, defCity, defState, expTerm, 0);
+  }
+  
+  public DispatchPrintrakParser(Properties cityCodes, String defCity, String defState, String expTerm, int flags) {
     super(cityCodes, defCity, defState,
-          setExpectFlag("SRC PRI:PRI INC:ID TYP:CALL! BLD:APT APT:APT AD:ADDR! CTY:CITY MAP:MAP LOC:PLACE CN:NAME CMT1:INFO CMT2:INFO TIME:TIME UNTS:UNIT XST:X XST2:X UNTS:UNIT", expTerm));
+          setExpectFlag("SRC PRI:PRI INC:ID TYP:CALL! BLD:APT APT:APT AD:ADDR! CTY:CITY MAP:MAP LOC:PLACE CN:NAME CMT1:INFO1 CMT2:INFO TIME:TIME UNTS:UNIT XST:X XST2:X UNTS:UNIT", expTerm));
+    useCmt1Call = (flags & FLG_USE_CMT1_CALL) != 0;
   }
   
   private class MyAptField extends AptField {
@@ -139,10 +151,23 @@ public class DispatchPrintrakParser extends FieldProgramParser {
     }
   }
   
+  private class Info1Field extends InfoField {
+    @Override
+    public void parse(String field, Data data) {
+      if (useCmt1Call) {
+        if (field.startsWith("**")) field = field.substring(2).trim();
+        data.strCall = field;
+      } else {
+        super.parse(field, data);
+      }
+    }
+  }
+  
   @Override
   public Field getField(String name) {
     if (name.equals("APT")) return new MyAptField();
     if (name.equals("TIME")) return new MyTimeField();
+    if (name.equals("INFO1")) return new Info1Field();
     return super.getField(name);
   }
 }

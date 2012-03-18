@@ -86,7 +86,7 @@ public class PALehighCountyParser extends DispatchPrintrakParser {
   });
   
   public PALehighCountyParser() {
-    super(CITY_TABLE, "LEHIGH COUNTY", "PA", "UNTS:UNIT");
+    super(CITY_TABLE, "LEHIGH COUNTY", "PA", "UNTS:UNIT", FLG_USE_CMT1_CALL);
   }
   
   @Override
