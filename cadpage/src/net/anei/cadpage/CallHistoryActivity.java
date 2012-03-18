@@ -18,8 +18,6 @@ import android.widget.TextView;
 
 public class CallHistoryActivity extends ListActivity {
   
-  private static final String EXTRA_MSG_ID = "net.anei.cadpage.CallHistoryActivity.MSG_ID";
-  
   private static final int RELEASE_DIALOG = 1;
   
   // keep track of which message text view has opened a context menu
@@ -31,8 +29,6 @@ public class CallHistoryActivity extends ListActivity {
   @Override
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
-    Log.v("CallaHistoryActivity.onCreate()");
-    
     Log.w("CallHistoryActivity.onCreate()");
     
     // If initialization failure in progress, shut down without doing anything
@@ -111,11 +107,10 @@ public class CallHistoryActivity extends ListActivity {
       }
     }
     
-    // If popup is enabled, and there is a message ID passed from SmsReceiver
-    // launch a message popup to display it
+    // Otherwise, if we should automatically display a call, do it now
     else {
-      int msgId = intent.getIntExtra(EXTRA_MSG_ID, 0);
-      if (msgId > 0)  SmsPopupActivity.launchActivity(this, msgId);
+      SmsMmsMessage msg = SmsMessageQueue.getInstance().getDisplayMessage();
+      if (msg != null)  SmsPopupActivity.launchActivity(this, msg.getMsgId());
     }
   }
 
@@ -205,23 +200,14 @@ public class CallHistoryActivity extends ListActivity {
   /**
    * Launch activity
    */
-  public static void launchActivity(Context context, SmsMmsMessage message) {
-    Intent intent = getLaunchIntent(context, message);
+  public static void launchActivity(Context context) {
+    Intent intent = getLaunchIntent(context);
     intent.addFlags(Intent.FLAG_ACTIVITY_NO_USER_ACTION);
     
     Log.v("CallHistoryActivity Launching....");
     ContentQuery.dumpIntent(intent);
     
     context.startActivity(intent);
-  }
-
-  /**
-   * Build intent to launch this activity
-   * @param context
-   * @return
-   */
-  public static Intent getLaunchIntent(Context context) {
-    return getLaunchIntent(context, null);
   }
   
   /**
@@ -230,16 +216,13 @@ public class CallHistoryActivity extends ListActivity {
    * @param message
    * @return
    */
-  public static Intent getLaunchIntent(Context context, SmsMmsMessage message) {
+  public static Intent getLaunchIntent(Context context) {
     Intent intent = new Intent(context, CallHistoryActivity.class);
     int flags =
       Intent.FLAG_ACTIVITY_NEW_TASK |
       Intent.FLAG_ACTIVITY_SINGLE_TOP |
       Intent.FLAG_ACTIVITY_CLEAR_TOP;
     intent.setFlags(flags);
-    if (message != null) {
-      intent.putExtra(EXTRA_MSG_ID, message.getMsgId());
-    }
     return intent;
   }
 }

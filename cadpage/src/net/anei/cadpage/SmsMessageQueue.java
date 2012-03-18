@@ -259,6 +259,23 @@ public class SmsMessageQueue implements Serializable {
   public int getNewCallCount() {
     return newCallCount;
   }
+
+  /**
+   * @return message to be displayed when Cadpage starts up, or null if no
+   * message should be displayed
+   */
+  public SmsMmsMessage getDisplayMessage() {
+    
+    // We don't display a message if there are no queued messge, or if the
+    // automatic popup is not enabled
+    if (queue.size() == 0) return null;
+    if (!ManagePreferences.popupEnabled()) return null;
+    
+    // First message in queue will be displayed if it has not yet been opened
+    SmsMmsMessage msg = queue.get(0);
+    if (msg.isRead()) return null;
+    return msg;
+  }
   
   private static SmsMessageQueue msgQueue = null;
   

@@ -180,7 +180,7 @@ public class SmsReceiver extends BroadcastReceiver {
     if (process ||  notify) ManageWakeLock.acquireFull(context);
 
     // And finally, launch the main application screen
-    if (process) CallHistoryActivity.launchActivity(context, message);
+    if (process) CallHistoryActivity.launchActivity(context);
   }
 
   /**
