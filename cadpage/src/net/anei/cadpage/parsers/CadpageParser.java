@@ -93,7 +93,7 @@ public class CadpageParser  extends FieldProgramParser{
     setMap("MAP",         "map_code");
     setMap("CH");
     setMap("UNIT");
-    setMap("INFO",        "response_url");
+    setMap("INFO");
     setMap("NAME");
     setMap("PHONE", "PH");
     setMap("CODE");
@@ -103,6 +103,7 @@ public class CadpageParser  extends FieldProgramParser{
     setMap("DCITY");
     setMap("DST");
     setMap("MADDR");
+    setMap("URL",         "response_url");
   }
 
   /**

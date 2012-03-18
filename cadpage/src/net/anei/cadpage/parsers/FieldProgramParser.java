@@ -2011,6 +2011,16 @@ public class FieldProgramParser extends SmartAddressParser {
   }
   
   /**
+   * Info URL field
+   */
+  public class InfoUrlField extends Field {
+    @Override
+    public void parse(String field, Data data) {
+      data.strInfoURL = field;
+    }
+  }
+  
+  /**
    * Skip field processor
    */
   public class SkipField extends Field {
@@ -2100,6 +2110,7 @@ public class FieldProgramParser extends SmartAddressParser {
     if (name.equals("TIME")) return new TimeField();
     if (name.equals("DATETIME")) return new DateTimeField();
     if (name.equals("TIMEDATE")) return new TimeDateField();
+    if (name.equals("URL")) return new InfoUrlField();
     if (name.equals("SKIP")) return new SkipField();
     if (name.equals("INTLS")) return new InitialsField();
     if (name.equals("END")) return new EndField();

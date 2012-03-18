@@ -115,8 +115,11 @@ public class MsgOptionManager {
     for (int btn = 1; btn <= 6; btn++) {
       int itemNdx = ManagePreferences.popupButton(btn);
       if (itemNdx == 0) continue;
-      regButtonList.add(new ButtonHandler(itemNdx, regButtonGroup));
+      regButtonList.add(new ButtonHandler(ITEM_ID_LIST[itemNdx], ITEM_TEXT_LIST[itemNdx], regButtonGroup));
     }
+    
+    // More info button is always added at end
+    regButtonList.add(new ButtonHandler(R.id.more_info_item, R.string.more_info, regButtonGroup));
   }
 
   /**
@@ -135,11 +138,10 @@ public class MsgOptionManager {
     final private int itemId;
     final private Button button;
 
-    public ButtonHandler(int itemNdx, ViewGroup parent) {
-      itemId = ITEM_ID_LIST[itemNdx];
+    public ButtonHandler(int itemId, int resId, ViewGroup parent) {
+      this.itemId = itemId;
       button = (Button)LayoutInflater.from(activity).inflate(R.layout.popup_button, parent, false);
       button.setId(itemId);
-      int resId = ITEM_TEXT_LIST[itemNdx];
       if (resId != 0) button.setText(resId);
       button.setOnClickListener(this);
       parent.addView(button);
@@ -215,7 +217,13 @@ public class MsgOptionManager {
     case R.id.email_item:
       item.setEnabled(! DonationManager.instance().isFreeVersion());
       break;
+      
+      // More info disappears if there is no info to display
+    case R.id.more_info_item:
+      item.setVisible(message.getInfoURL() != null);
+      break;
     }
+    
    
   }
 
@@ -263,6 +271,11 @@ public class MsgOptionManager {
       
     case R.id.publish_item:
       message.broadcastIntent(activity, true);
+      return true;
+      
+    case R.id.more_info_item:
+      message.showMoreInfo(activity);
+      return true;
     
     default:
       return false;

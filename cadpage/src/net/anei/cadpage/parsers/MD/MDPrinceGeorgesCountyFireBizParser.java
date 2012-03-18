@@ -59,7 +59,7 @@ public class MDPrinceGeorgesCountyFireBizParser extends FieldProgramParser {
   
   public MDPrinceGeorgesCountyFireBizParser() {
     super("PRINCE GEORGES COUNTY", "MD",
-         "MAPCALL! UNIT! ADDR! EXTRA+");
+         "MAPCALL! UNIT! ADDR! EXTRA+? URL END");
   }
   
   @Override

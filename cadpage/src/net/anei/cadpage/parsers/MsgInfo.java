@@ -39,6 +39,7 @@ public class MsgInfo {
   private String strGPSLoc;
   private String strDate;
   private String strTime;
+  private String strInfoURL;
   private String defCity;
   private String defState;
   private MsgParser.CountryCode countryCode;
@@ -81,6 +82,7 @@ public class MsgInfo {
     public String strGPSLoc = "";
     public String strDate = "";
     public String strTime = "";
+    public String strInfoURL = "";
     public String defCity = "";
     public String defState="";
     public MsgParser.CountryCode countryCode = MsgParser.CountryCode.US;
@@ -128,6 +130,7 @@ public class MsgInfo {
       if (strGPSLoc.length() > 0) result += 10;
       if (strDate.length() > 0) result += 10;
       if (strTime.length() > 0) result += 10;
+      if (strTime.length() > 0) result += 10;
       return result;
     }
   }
@@ -158,6 +161,7 @@ public class MsgInfo {
     strGPSLoc = info.strGPSLoc;
     strDate = info.strDate;
     strTime = info.strTime;
+    strInfoURL = info.strInfoURL;
     defCity = info.defCity;
     defState = info.defState;
     countryCode = info.countryCode;
@@ -746,6 +750,12 @@ public class MsgInfo {
     return strTime;
   }
   
+  /**
+   * @return information URL field
+   */
+  public String getInfoURL() {
+    return strInfoURL;
+  }
   
   /**
    * @return the default city 

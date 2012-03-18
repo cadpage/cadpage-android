@@ -39,26 +39,13 @@
     android:layout="@layout/popup_privacy"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content" />
-
-  <LinearLayout
-    android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
+  <ImageButton android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:id="@+id/btnCallback" 
     android:gravity="center"
-    android:padding="4dp">
-    <Button
-      android:id="@+id/btnMoreInfo"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:gravity="center"
-      android:text="@string/more_info" />
-    <ImageButton android:layout_width="wrap_content" 
-      android:layout_height="wrap_content" 
-      android:id="@+id/btnCallback" 
-      android:gravity="center"
-      android:background="@drawable/ic_callback_pop" 
-      android:fadeScrollbars="false" 
-      android:clickable="true"/>
-  </LinearLayout>
+    android:background="@drawable/ic_callback_pop" 
+    android:fadeScrollbars="false" 
+    android:clickable="true"/>
 
   <net.anei.cadpage.widget.FlowLayout
     android:id="@+id/RegButtonLayout"

@@ -659,8 +659,19 @@ public class SmsMmsMessage implements Serializable {
     return vendorCode;
   }
   
+  /**
+   * Get the extra information URL.  If we don't have one at this level, 
+   * look for one in the parsed message information
+   * @return extra information URL
+   */
   public String getInfoURL() {
-    return infoURL;
+    if (infoURL != null) return infoURL;
+    if (parseInfo == null) return null;
+    MsgInfo info = parseInfo.getInfo();
+    if (info == null) return null;
+    String url = info.getInfoURL();
+    if (url.length() > 0) return url;
+    return null;
   }
   
   /**

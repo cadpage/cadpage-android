@@ -61,12 +61,9 @@ public class SmsPopupActivity extends Activity {
   private ScrollView messageScrollView = null;
   private ProgressDialog mProgressDialog = null;
 
-
   private ViewStub privacyViewStub;
   private View privacyView = null;
   private LinearLayout mainLL = null;
-  private Button moreInfoBtn = null;
-  
 
   private boolean wasVisible = false;
 
@@ -127,14 +124,6 @@ public class SmsPopupActivity extends Activity {
     // Enable long-press context menu
     mainLL = (LinearLayout)findViewById(R.id.MainLinearLayout);
     registerForContextMenu(mainLL);
-    
-    // Set up more info button
-    moreInfoBtn = (Button)findViewById(R.id.btnMoreInfo);
-    moreInfoBtn.setOnClickListener(new View.OnClickListener(){
-      @Override
-      public void onClick(View v) {
-        message.showMoreInfo(SmsPopupActivity.this);
-      }});
     
     // Set up Callback button
     View btnCB = findViewById(R.id.btnCallback);
@@ -329,8 +318,6 @@ public class SmsPopupActivity extends Activity {
     optManager.setMessage(message);
     optManager.prepareButtons();
     
-    String url = message.getInfoURL();
-    moreInfoBtn.setVisibility(url == null ? View.GONE : View.VISIBLE);
     info = message.getInfo();
     
     // Update Icon to indicate direct paging source
