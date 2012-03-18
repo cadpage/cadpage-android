@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
   xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:f="http://schemas.android.com/apk/res/net.anei.cadpage"
   android:layout_height="fill_parent"
   android:orientation="vertical"
   android:minWidth="310dp"
@@ -43,7 +44,7 @@
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     android:gravity="center"
-    android:padding="2dp">
+    android:padding="4dp">
     <Button
       android:id="@+id/btnMoreInfo"
       android:layout_width="wrap_content"
@@ -59,31 +60,15 @@
       android:clickable="true"/>
   </LinearLayout>
 
-  <LinearLayout
-    android:id="@+id/ButtonLinearLayout"
+  <net.anei.cadpage.widget.FlowLayout
+    android:id="@+id/RegButtonLayout"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
-    android:gravity="center"
-    android:padding="2dp">
-    <Button
-      android:id="@+id/button1"
-      android:layout_height="wrap_content"
-      android:layout_weight="1"
-      android:text=""
-      android:layout_width="fill_parent" />
-    <Button
-      android:id="@+id/button2"
-      android:layout_height="wrap_content"
-      android:layout_weight="1"
-      android:text=""
-      android:layout_width="fill_parent" />
-    <Button
-      android:id="@+id/button3"
-      android:layout_height="wrap_content"
-      android:layout_weight="1"
-      android:text=""
-      android:layout_width="fill_parent" />
-  </LinearLayout>
+    f:justify="center"
+    f:balance="true"
+    f:horizontalSpacing="4dip"
+    f:verticalSpacing="4dip"
+    android:padding="4dp"/>
     
   <Button
     android:id="@+id/donate_status_button"

@@ -33,6 +33,8 @@ public class CallHistoryActivity extends ListActivity {
     super.onCreate(savedInstanceState);
     Log.v("CallaHistoryActivity.onCreate()");
     
+    Log.w("CallHistoryActivity.onCreate()");
+    
     // If initialization failure in progress, shut down without doing anything
     if (TopExceptionHandler.isInitFailure()) {
       finish();
@@ -77,6 +79,8 @@ public class CallHistoryActivity extends ListActivity {
     super.onNewIntent(intent);
     setIntent(intent);
     Log.v("CallHistoryActivity.onNewIntent()");
+    
+    Log.w("CallHistoryActivity.onNewIntent()");
     
     startup();
   }
@@ -177,8 +181,9 @@ public class CallHistoryActivity extends ListActivity {
     super.onCreateContextMenu(menu, view, menuInfo);
 
     msgTextView = (HistoryMsgTextView)view;
-    SmsMmsMessage.createMenu(this, menu, false);
-    msgTextView.getMessage().prepareMenu(this, menu);
+    MsgOptionManager optMgr = new MsgOptionManager(this, msgTextView.getMessage());
+    optMgr.createMenu(menu, false);
+    optMgr.prepareMenu(menu);
   }
 
 
@@ -191,7 +196,7 @@ public class CallHistoryActivity extends ListActivity {
     if (msgTextView != null) {
       SmsMmsMessage msg = msgTextView.getMessage();
       if (msg != null) {
-        if (msg.menuItemSelected(this, item.getItemId(), false)) return true;
+        if (new MsgOptionManager(this, msg).menuItemSelected(item.getItemId(), false)) return true;
       }
     }
     return super.onContextItemSelected(item);

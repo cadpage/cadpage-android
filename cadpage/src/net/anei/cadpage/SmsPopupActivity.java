@@ -3,9 +3,6 @@ package net.anei.cadpage;
 
 import android.net.Uri;
 import android.os.Bundle;
-import android.os.Environment;
-
-import java.util.ArrayList;
 
 import com.google.tts.TTS;
 import com.google.tts.TTSVersionAlert;
@@ -14,13 +11,11 @@ import com.google.tts.TTS.InitListener;
 import net.anei.cadpage.ManageKeyguard.LaunchOnKeyguardExit;
 import net.anei.cadpage.donation.DonationManager;
 import net.anei.cadpage.donation.MainDonateEvent;
-import net.anei.cadpage.parsers.ManageParsers;
 import net.anei.cadpage.parsers.MsgInfo;
 import net.anei.cadpage.vendors.VendorManager;
 import net.anei.cadpage.wrappers.TextToSpeechWrapper;
 import net.anei.cadpage.wrappers.TextToSpeechWrapper.OnInitListener;
 import android.app.Activity;
-import android.app.AlertDialog;
 import android.app.Dialog;
 import android.app.ProgressDialog;
 import android.content.Context;
@@ -29,23 +24,19 @@ import android.content.Intent;
 import android.content.DialogInterface.OnCancelListener;
 import android.content.pm.ActivityInfo;
 import android.content.res.Configuration;
-import android.graphics.drawable.Drawable;
-import android.speech.RecognizerIntent;
-import android.text.TextUtils;
 import android.text.util.Linkify;
 import android.view.ContextMenu;
 import android.view.Display;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.ViewGroup;
 import android.view.ViewStub;
 import android.view.Window;
 import android.view.ContextMenu.ContextMenuInfo;
 import android.view.View.OnClickListener;
-import android.view.WindowManager.LayoutParams;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ScrollView;
@@ -57,6 +48,7 @@ public class SmsPopupActivity extends Activity {
   
   private static final String EXTRAS_MSG_ID = "SmsPopupActivity.MSG_ID";
   private SmsMmsMessage message;
+  private MsgOptionManager optManager;
 
   private boolean exitingKeyguardSecurely = false;
   private InputMethodManager inputManager = null;
@@ -67,13 +59,11 @@ public class SmsPopupActivity extends Activity {
   private TextView messageTV;
 
   private ScrollView messageScrollView = null;
-  private EditText qrEditText = null;
   private ProgressDialog mProgressDialog = null;
 
 
   private ViewStub privacyViewStub;
   private View privacyView = null;
-  private View buttonsLL = null;
   private LinearLayout mainLL = null;
   private Button moreInfoBtn = null;
   
@@ -82,10 +72,7 @@ public class SmsPopupActivity extends Activity {
 
   private static final double WIDTH = 0.9;
   private static final int MAX_WIDTH = 640;
-  private static final int DIALOG_DELETE = Menu.FIRST;
-  private static final int DIALOG_QUICKREPLY = Menu.FIRST + 1;
-  private static final int DIALOG_PRESET_MSG = Menu.FIRST + 2;
-  private static final int DIALOG_LOADING = Menu.FIRST + 3;
+  private static final int DIALOG_LOADING = Menu.FIRST;
 
   // TextToSpeech variables
   private boolean ttsInitialized = false;
@@ -94,8 +81,6 @@ public class SmsPopupActivity extends Activity {
   private TextToSpeechWrapper androidTts = null;
 	
 	private MsgInfo info;
-	
-	private PopupButtonHandler[] btnHandlers = null;
   
 
   // Establish whether the Android TextToSpeech class is available to us
@@ -112,6 +97,8 @@ public class SmsPopupActivity extends Activity {
   protected void onCreate(Bundle bundle) {
     super.onCreate(bundle);
     Log.v("SMSPopupActivity.onCreate()");
+    
+    optManager = new MsgOptionManager(this);
 
     requestWindowFeature(Window.FEATURE_NO_TITLE);
     setContentView(R.layout.popup);
@@ -134,30 +121,12 @@ public class SmsPopupActivity extends Activity {
     messageReceivedTV = (TextView) findViewById(R.id.HeaderTextView);
     messageScrollView = (ScrollView) findViewById(R.id.MessageScrollView);
 
+    // Set up regular button list
+    optManager.setupButtons((ViewGroup)findViewById(R.id.RegButtonLayout));
+
     // Enable long-press context menu
     mainLL = (LinearLayout)findViewById(R.id.MainLinearLayout);
     registerForContextMenu(mainLL);
-
-    // Assign view stubs
-    privacyViewStub = (ViewStub) findViewById(R.id.PrivacyViewStub);
-    buttonsLL = findViewById(R.id.ButtonLinearLayout);
-
-    if (! ManagePreferences.showButtons()) {
-
-      // Hide button layout
-      buttonsLL.setVisibility(View.GONE);
-      btnHandlers = null;
-
-    } else {
-
-      // Setup the buttons
-      int[] buttonIDs = new int[]{R.id.button1, R.id.button2, R.id.button3};
-      if (btnHandlers == null) btnHandlers = new PopupButtonHandler[3];
-      for (int ndx = 1; ndx<=3; ndx++) {
-        Button btn = (Button) findViewById(buttonIDs[ndx-1]);
-        btnHandlers[ndx-1] = new PopupButtonHandler(getApplicationContext(), ndx, btn);
-      }
-    }
     
     // Set up more info button
     moreInfoBtn = (Button)findViewById(R.id.btnMoreInfo);
@@ -194,49 +163,6 @@ public class SmsPopupActivity extends Activity {
     
     // Populate display fields
     populateViews(getIntent());
-  }
-
-  // List of menu items associated with each button ID.
-  static final int[] ITEM_ID_LIST = new int[]{
-    0, R.id.ack_item, R.id.map_item, R.id.toggle_lock_item, 
-    R.id.delete_item, R.id.close_item, R.id.email_item,
-    R.id.publish_item
-  };
- 
-  /*
-   * Internal class to handle dynamic button functions on popup
-   */
-  class PopupButtonHandler implements OnClickListener {
-    public int itemId;
-    public Button button;
-
-    public PopupButtonHandler(Context mContext, int buttonNum, Button button) {
-      
-      this.button = button;
-      
-      int buttonId = ManagePreferences.popupButton(buttonNum);
-      
-      String[] buttonTextArray = mContext.getResources().getStringArray(R.array.pref_button_text);
-      button.setText(buttonTextArray[buttonId]);
-
-      itemId = ITEM_ID_LIST[buttonId];
-      
-      button.setVisibility(itemId == 0 ? View.GONE : View.VISIBLE);
-      button.setOnClickListener(this);
-    }
-    
-    public void prepareButton(SmsMmsMessage msg) {
-      msg.prepareButton(itemId, button);
-    }
-
-    public void onClick(View v) {
-      
-      // Perform the requested action
-      message.menuItemSelected(SmsPopupActivity.this, itemId, true);
-      
-      // Reset button status in case anything has changed
-      prepareButtons();
-    }
   }
 
   @Override
@@ -396,12 +322,15 @@ public class SmsPopupActivity extends Activity {
 
     // Store message
     message = newMessage;
+
+    // Assign view stubs
+    privacyViewStub = (ViewStub) findViewById(R.id.PrivacyViewStub);
+    
+    optManager.setMessage(message);
+    optManager.prepareButtons();
     
     String url = message.getInfoURL();
     moreInfoBtn.setVisibility(url == null ? View.GONE : View.VISIBLE);
-    
-    // Make any adjustments to buttons
-    if (btnHandlers != null) prepareButtons();
     info = message.getInfo();
     
     // Update Icon to indicate direct paging source
@@ -496,39 +425,6 @@ public class SmsPopupActivity extends Activity {
     //storeFileMessage();
     
   } //end of function
-
-  /**
-   * Make any last minute corrections to button statuses
-   */
-  private void prepareButtons() {
-    for (PopupButtonHandler btnHandler : btnHandlers) {
-      btnHandler.prepareButton(message);
-    }
-  }
-
-private boolean externalStorageAvailable() {
-	// From google
-	boolean mExternalStorageAvailable = false;
-	boolean mExternalStorageWriteable = false;
-	String state = Environment.getExternalStorageState();
-
-	if (Environment.MEDIA_MOUNTED.equals(state)) {
-	    // We can read and write the media
-	    mExternalStorageAvailable = mExternalStorageWriteable = true;
-	} else if (Environment.MEDIA_MOUNTED_READ_ONLY.equals(state)) {
-	    // We can only read the media
-	    mExternalStorageAvailable = true;
-	    mExternalStorageWriteable = false;
-	} else {
-	    // Something else is wrong. It may be one of many other states, but all we need
-	    //  to know is we can neither read nor write
-	    mExternalStorageAvailable = mExternalStorageWriteable = false;
-	}
-	if (mExternalStorageAvailable==true && mExternalStorageWriteable==true){
-		return true;
-	}
-	return false;
-}
   /*
    * This handles hiding and showing various views depending on the privacy
    * settings of the app and the current state of the phone (keyguard on or off)
@@ -582,22 +478,6 @@ private boolean externalStorageAvailable() {
     if (Log.DEBUG) Log.v("onCreateDialog()");
 
     switch (id) {
-      /*
-       * Delete message dialog
-       */
-      case DIALOG_DELETE:
-        return new AlertDialog.Builder(this)
-        .setIcon(android.R.drawable.ic_dialog_alert)
-        .setTitle(getString(R.string.pref_show_delete_button_dialog_title))
-        .setMessage(getString(R.string.pref_show_delete_button_dialog_text))
-        .setPositiveButton(android.R.string.ok, new DialogInterface.OnClickListener() {
-          public void onClick(DialogInterface dialog, int whichButton) {
-            deleteMessage();
-          }
-        })
-        .setNegativeButton(android.R.string.cancel, null)
-        .create();
-
 
         /*
          * Loading Dialog
@@ -613,32 +493,6 @@ private boolean externalStorageAvailable() {
     return null;
   }
 
-  @Override
-  protected void onPrepareDialog(int id, Dialog dialog) {
-    super.onPrepareDialog(id, dialog);
-
-    if (Log.DEBUG) Log.v("onPrepareDialog()");
-    // User interacted so remove all locks and cancel reminders
-    ClearAllReceiver.removeCancel(getApplicationContext());
-    ClearAllReceiver.clearAll(false);
-
-    switch (id) {
-      case DIALOG_QUICKREPLY:
-        showSoftKeyboard(qrEditText);
-
-        // Set width of dialog to fill_parent
-        LayoutParams mLP = dialog.getWindow().getAttributes();
-
-        // TODO: this should be limited in case the screen is large
-        mLP.width = LayoutParams.FILL_PARENT;
-        dialog.getWindow().setAttributes(mLP);
-        break;
-
-      case DIALOG_PRESET_MSG:
-        break;
-    }
-  }
-
 
   /* (non-Javadoc)
    * @see android.app.Activity#onCreateOptionsMenu(android.view.Menu)
@@ -647,7 +501,7 @@ private boolean externalStorageAvailable() {
   public boolean onCreateOptionsMenu(Menu menu) {
     super.onCreateOptionsMenu(menu);
     
-    SmsMmsMessage.createMenu(this, menu, true);
+    optManager.createMenu(menu, true);
     return true;
   }
 
@@ -656,7 +510,7 @@ private boolean externalStorageAvailable() {
    */
   @Override
   public boolean onPrepareOptionsMenu(Menu menu) {
-    message.prepareMenu(this, menu);
+    optManager.prepareMenu(menu);
     return true;
   }
 
@@ -665,7 +519,7 @@ private boolean externalStorageAvailable() {
    */
   @Override
   public boolean onOptionsItemSelected(MenuItem item) {
-    if (message.menuItemSelected(this, item.getItemId(), true)) return true;
+    if (optManager.menuItemSelected(item.getItemId(), true)) return true;
     return super.onOptionsItemSelected(item);
   }
 
@@ -675,8 +529,8 @@ private boolean externalStorageAvailable() {
   @Override
   public void onCreateContextMenu(ContextMenu menu, View v, ContextMenuInfo menuInfo) {
     super.onCreateContextMenu(menu, v, menuInfo);
-    SmsMmsMessage.createMenu(this, menu, true);
-    message.prepareMenu(this, menu);
+    optManager.createMenu(menu, true);
+    optManager.prepareMenu(menu);
   }
 
   /*
@@ -684,7 +538,7 @@ private boolean externalStorageAvailable() {
    */
   @Override
   public boolean onContextItemSelected(MenuItem item) {
-    if (message.menuItemSelected(this, item.getItemId(), true)) return true;
+    if (optManager.menuItemSelected(item.getItemId(), true)) return true;
     return super.onContextItemSelected(item);
   }
 
@@ -806,14 +660,6 @@ private boolean externalStorageAvailable() {
     });
   }
 
-  /**
-   * Delete the current message from the system database
-   */
-  private void deleteMessage() {
-    SmsMessageQueue.getInstance().addNewMsg(message);
-    finish();
-  }
-
 
   @Override
   public void onConfigurationChanged(Configuration newConfig) {
@@ -835,18 +681,6 @@ private boolean externalStorageAvailable() {
 
     mainLL.setMinimumWidth(width);
     mainLL.invalidate();
-  }
- 
-  /**
-   * Show the soft keyboard and store the view that triggered it
-   */
-  private void showSoftKeyboard(View triggerView) {
-    if (Log.DEBUG) Log.v("showSoftKeyboard()");
-    if (inputManager == null) {
-      inputManager = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
-    }
-    inputView = triggerView;
-    inputManager.toggleSoftInput(InputMethodManager.SHOW_FORCED, 0);
   }
 
   /**

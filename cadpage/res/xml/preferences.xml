@@ -237,39 +237,48 @@
         <PreferenceScreen
           android:title="@string/pref_button_config_title"
           android:summary="@string/pref_button_config_summary">
-          <CheckBoxPreference
-            android:key="@string/pref_show_buttons_key"
-            android:title="@string/pref_show_buttons_title"
-            android:summaryOn="@string/pref_show_buttons_summaryon"
-            android:summaryOff="@string/pref_show_buttons_summaryoff"
-            android:defaultValue="@string/pref_show_buttons_default" />
           <net.anei.cadpage.preferences.ListPreference
             android:key="@string/pref_button1_key"
             android:title="@string/pref_button1_title"
             android:summary="@string/pref_button_summary"
             android:entries="@array/pref_button_text"
             android:entryValues="@array/pref_button_values"
-            android:dialogTitle="@string/pref_button1_title"
-            android:defaultValue="@string/pref_button1_default"
-            android:dependency="@string/pref_show_buttons_key" />
+            android:dialogTitle="@string/pref_button1_title"/>
           <net.anei.cadpage.preferences.ListPreference
             android:key="@string/pref_button2_key"
             android:title="@string/pref_button2_title"
             android:summary="@string/pref_button_summary"
             android:entries="@array/pref_button_text"
             android:entryValues="@array/pref_button_values"
-            android:dialogTitle="@string/pref_button2_title"
-            android:defaultValue="@string/pref_button2_default"
-            android:dependency="@string/pref_show_buttons_key" />
+            android:dialogTitle="@string/pref_button2_title"/>
           <net.anei.cadpage.preferences.ListPreference
             android:key="@string/pref_button3_key"
             android:title="@string/pref_button3_title"
             android:summary="@string/pref_button_summary"
             android:entries="@array/pref_button_text"
             android:entryValues="@array/pref_button_values"
-            android:dialogTitle="@string/pref_button3_title"
-            android:defaultValue="@string/pref_button3_default"
-            android:dependency="@string/pref_show_buttons_key" />
+            android:dialogTitle="@string/pref_button3_title"/>
+          <net.anei.cadpage.preferences.ListPreference
+            android:key="@string/pref_button4_key"
+            android:title="@string/pref_button4_title"
+            android:summary="@string/pref_button_summary"
+            android:entries="@array/pref_button_text"
+            android:entryValues="@array/pref_button_values"
+            android:dialogTitle="@string/pref_button3_title"/>
+          <net.anei.cadpage.preferences.ListPreference
+            android:key="@string/pref_button5_key"
+            android:title="@string/pref_button5_title"
+            android:summary="@string/pref_button_summary"
+            android:entries="@array/pref_button_text"
+            android:entryValues="@array/pref_button_values"
+            android:dialogTitle="@string/pref_button3_title"/>
+          <net.anei.cadpage.preferences.ListPreference
+            android:key="@string/pref_button6_key"
+            android:title="@string/pref_button6_title"
+            android:summary="@string/pref_button_summary"
+            android:entries="@array/pref_button_text"
+            android:entryValues="@array/pref_button_values"
+            android:dialogTitle="@string/pref_button3_title"/>
         </PreferenceScreen>
       </PreferenceCategory>
     </PreferenceScreen>

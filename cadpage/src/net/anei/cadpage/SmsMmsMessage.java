@@ -10,15 +10,12 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import net.anei.cadpage.donation.DonationManager;
 import net.anei.cadpage.parsers.ManageParsers;
 import net.anei.cadpage.parsers.Message;
 import net.anei.cadpage.parsers.MsgInfo;
 import net.anei.cadpage.parsers.MsgParser;
 import net.anei.cadpage.vendors.VendorManager;
 
-import android.app.Activity;
-import android.content.ActivityNotFoundException;
 import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
@@ -26,11 +23,6 @@ import android.telephony.SmsMessage;
 import android.telephony.SmsMessage.MessageClass;
 import android.text.format.DateFormat;
 import android.text.format.DateUtils;
-import android.view.Menu;
-import android.view.MenuInflater;
-import android.view.MenuItem;
-import android.view.View;
-import android.widget.Button;
 
 import static net.anei.cadpage.BroadcastBindings.*;
 
@@ -670,170 +662,16 @@ public class SmsMmsMessage implements Serializable {
   public String getInfoURL() {
     return infoURL;
   }
-
+  
   /**
-   * Create option or context menu for message
+   * Called when the user has done anything to indicate they are aware of the page
    * @param context current context
-   * @param menu menu to be constructed
-   * @param display true if called from popup menu display
    */
-  public static void createMenu(Activity context, Menu menu, boolean display) {
-    MenuInflater inflater = context.getMenuInflater();
-    inflater.inflate(R.menu.message_menu, menu);
-    if (display) {
-      menu.removeItem(R.id.open_item);
-    } else {
-      menu.removeItem(R.id.close_item);
-    }
-  }
-  
-  public void prepareMenu(Activity context, Menu menu) {
-    for (int ndx = 0; ndx < menu.size(); ndx++) {
-      final MenuItem item = menu.getItem(ndx);
-      prepareItem(new ItemObject() {
-        
-        @Override
-        public int getId() {
-          return item.getItemId();
-        }
-
-        @Override
-        public void setEnabled(boolean enabled) {
-          item.setEnabled(enabled);
-        }
-
-        @Override
-        public void setTitle(int resId) {
-          item.setTitle(resId);
-        }
-
-        @Override
-        public void setVisible(boolean visible) {
-          item.setVisible(visible);
-        }
-        
-      });
-    }
-  }
-  
-  public void prepareButton(int itemId, Button button) {
-    final int fItemId = itemId;
-    final Button fBtn = button;
-    prepareItem(new ItemObject(){
-      
-      @Override
-      public int getId() {
-        return fItemId;
-      }
-
-      @Override
-      public void setEnabled(boolean enabled) {
-        fBtn.setEnabled(enabled);
-      }
-
-      @Override
-      public void setTitle(int resId) {
-        fBtn.setText(resId);
-      }
-
-      @Override
-      public void setVisible(boolean visible) {
-        fBtn.setVisibility(visible ? View.VISIBLE : View.GONE);
-      }
-    });
-  }
-  
-  private interface ItemObject {
-    public int getId();
-    public void setTitle(int resId);
-    public void setEnabled(boolean enabled);
-    public void setVisible(boolean visible);
-  }
-  
-  private void prepareItem(ItemObject item) {
-    
-    switch (item.getId()) {
-    
-    // Disabled button is never visible
-    case 0:
-      item.setVisible(false);
-      break;
-    
-    // Disable map item if we have no address
-    case R.id.map_item:
-      item.setEnabled(getInfo().getAddress().length() > 0);
-      break;
-    
-    // Change label on toggle lock item depending on current lock state
-    case  R.id.toggle_lock_item:
-      item.setTitle(isLocked() ? R.string.unlock_item_text : R.string.lock_item_text);
-      break;
-      
-    // Delete is only enabled if message has been read and is not locked
-    case R.id.delete_item:
-      item.setEnabled(canDelete());
-      break;
-    
-    // Email is disabled for the free version
-    case R.id.email_item:
-      item.setEnabled(! DonationManager.instance().isFreeVersion());
-      break;
-    }
-   
-  }
-
-  /**
-   * Handle a menu selection concerning this message
-   * @param context current context
-   * @param itemId Selected Menu ID
-   * @param display true if called from message display dialog
-   * @return true if menu item processed, false otherwise
-   */
-  public boolean menuItemSelected(Activity context, int itemId, boolean display) {
-    
-    // Any button clears the notice
-    ManageNotification.clear(context);
+  public void acknowledge(Context context) {
     if (ackNeeded) {
       C2DMReceiver.sendResponseMsg(context, ackReq, ackURL, "ACK");
       ackNeeded = false;
       reportDataChange();
-    }
-
-    switch (itemId) {
-    case R.id.open_item:
-      SmsPopupActivity.launchActivity(context, this);
-      return true;
-      
-    case R.id.ack_item:
-      // Doesn't do anything yet (except clear notification)
-      return true;
-      
-    case R.id.map_item:
-      mapMessage(context, false);
-      return true;
-      
-    case R.id.toggle_lock_item:
-      toggleLocked();
-      return true;
-      
-    case R.id.delete_item:
-      SmsMessageQueue.getInstance().deleteMessage(this);
-      if (display) context.finish();
-      return true;
-      
-    case R.id.close_item:
-      context.finish();
-      return true;
-      
-    case R.id.email_item:
-      EmailDeveloperActivity.sendMessageEmail(context,  msgId);
-      return true;
-      
-    case R.id.publish_item:
-      broadcastIntent(context, true);
-    
-    default:
-      return false;
     }
   }
   
@@ -854,36 +692,11 @@ public class SmsMmsMessage implements Serializable {
   }
 
   /**
-   * Request map location for message
-   * @param context current context
-   * @param useGPS use GPS location in preference to regular address
-   */
-  private void  mapMessage(Context context, boolean useGPS)  {
-    if (Log.DEBUG) Log.v("Request Received to Map Call");
-    
-    String searchStr = getMapAddress(useGPS);
-    if (searchStr == null) return;
-    
-    if (!SmsPopupUtils.haveNet(context)) return;
-
-    searchStr = searchStr.replaceAll(" *& *", " AT ");
-    Uri uri = Uri.parse("geo:0,0?q=" + Uri.encode(searchStr));
-    if (Log.DEBUG) Log.v("mapMessage: SearchStr=" + searchStr);
-    Intent intent = new Intent(Intent.ACTION_VIEW, uri);
-    
-    try {
-        context.startActivity(intent);
-    } catch (ActivityNotFoundException ex) {
-        Log.e("Could not find com.google.android.maps.Maps activity");
-    }
-  }
-
-  /**
    * Compute map search address
    * @param useGPS true to use GPS location in preference to regular address
    * @return map search string or null if not available
    */
-  private String getMapAddress(boolean useGPS) {
+  public String getMapAddress(boolean useGPS) {
     
     if (parseInfo == null) return null;
     MsgInfo info = parseInfo.getInfo();

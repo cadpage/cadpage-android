@@ -9,8 +9,6 @@
    <string name="pref_onlyShowOnKeyguard_default">false</string>
    <string name="pref_noShowInCall_default">false</string>
    <string name="pref_require_unlock_default">false</string>
-   <string name="pref_show_buttons_default">true</string>
-   <string name="pref_show_delete_button_default">false</string>
    <string name="pref_blur_default">true</string>
    <string name="pref_vibrate_default">true</string>
    <string name="pref_vibrate_pattern_default">0,1200</string>
@@ -24,6 +22,9 @@
    <string name="pref_button1_default">1</string>
    <string name="pref_button2_default">2</string>
    <string name="pref_button3_default">5</string>
+   <string name="pref_button4_default">0</string>
+   <string name="pref_button5_default">0</string>
+   <string name="pref_button6_default">0</string>
    <string name="pref_quickreply_default">false</string>
    <string name="pref_delivery_report_default">false</string>
    <string name="pref_split_message_default">false</string>

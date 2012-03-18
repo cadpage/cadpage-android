@@ -1,0 +1,17 @@
+<resources>
+    <declare-styleable name="FlowLayout">
+        <attr name="horizontalSpacing" format="dimension" />
+        <attr name="verticalSpacing" format="dimension" />
+        <attr name="balance" format="boolean" />
+        <attr name="justify">
+            <flag name="left" value="1" />
+            <flag name="right" value="2" />
+            <flag name="center" value="3" />
+            <flag name="fill" value="4" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="FlowLayout_LayoutParams">
+    	<attr name="layout_breakLine" format="boolean" />
+        <attr name="layout_horizontalSpacing" format="dimension" />
+    </declare-styleable>
+</resources>

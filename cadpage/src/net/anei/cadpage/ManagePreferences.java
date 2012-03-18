@@ -28,7 +28,7 @@ public class ManagePreferences {
   // (OK, if you know what you are doing, and the only new settings added
   // are boolean settings that default to false, you can get away with not
   // changing this)
-  private static final int PREFERENCE_VERSION = 19;
+  private static final int PREFERENCE_VERSION = 20;
   
   private static final DateFormat DATE_FORMAT = new SimpleDateFormat("MMddyyyy");
   
@@ -53,11 +53,14 @@ public class ManagePreferences {
       prefs.putInt(R.string.pref_version_key, PREFERENCE_VERSION);
     }
     
-    // If old version was < 1, we need to reset the popup button configuration settings
-    if (oldVersion < 1) {
+    // If old version was < 20, we need to reset the popup button configuration settings
+    if (oldVersion < 20) {
       prefs.putString(R.string.pref_button1_key, context.getString(R.string.pref_button1_default));
       prefs.putString(R.string.pref_button2_key, context.getString(R.string.pref_button2_default));
       prefs.putString(R.string.pref_button3_key, context.getString(R.string.pref_button3_default));
+      prefs.putString(R.string.pref_button4_key, context.getString(R.string.pref_button4_default));
+      prefs.putString(R.string.pref_button5_key, context.getString(R.string.pref_button5_default));
+      prefs.putString(R.string.pref_button6_key, context.getString(R.string.pref_button6_default));
     }
     
     // If old version < 17, add a 'C' to message type preference
@@ -411,10 +414,6 @@ public class ManagePreferences {
     return prefs.getIntValue(R.string.pref_history_limit_key);
   }
   
-  public static boolean showButtons() {
-    return prefs.getBoolean(R.string.pref_show_buttons_key);
-  }
-  
   public static int popupButton(int button) {
     
     switch (button) {
@@ -426,6 +425,15 @@ public class ManagePreferences {
       
     case 3:
       return prefs.getIntValue(R.string.pref_button3_key);
+      
+    case 4:
+      return prefs.getIntValue(R.string.pref_button4_key);
+      
+    case 5:
+      return prefs.getIntValue(R.string.pref_button5_key);
+      
+    case 6:
+      return prefs.getIntValue(R.string.pref_button6_key);
       
     default:    // Anything else is disabled
       return 0;
@@ -762,7 +770,6 @@ public class ManagePreferences {
         R.string.pref_delete_unopen_key,
         R.string.pref_autorotate_key,
         
-        R.string.pref_show_buttons_key,
         R.string.pref_button1_key,
         R.string.pref_button2_key,
         R.string.pref_button3_key,
