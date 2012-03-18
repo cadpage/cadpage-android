@@ -288,6 +288,19 @@ public class OHHamiltonCountyParserTest extends BaseParserTest {
 
   }
   
+  @Test
+  public void testNickThiel() {
+
+    doTest("T1",
+        "HC:INJURY FROM A FALL 7100 DEARWESTER DR SYCM SEASONS RET CTR 7100 DAWN ,EMP ** PERSON INJURED IN A FALL ** ASSISTED LIVING, RM 221, M-ELDERLY , CONFUSED AFTER F",
+        "ADDR:7100 DEARWESTER DR",
+        "CITY:SYCAMORE TWP",
+        "PLACE:SEASONS RET CTR 7100 DAWN ,EMP",
+        "CALL:PERSON INJURED IN A FALL",
+        "INFO:ASSISTED LIVING, RM 221, M-ELDERLY , CONFUSED AFTER F");
+
+  }
+  
   public static void main(String[] args) {
     new OHHamiltonCountyParserTest().generateTests("T1", "ADDR CITY APT PLACE CALL INFO TIME UNIT X");
   }
