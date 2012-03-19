@@ -77,6 +77,7 @@ public class FlowLayout extends ViewGroup {
         int trialWidth = getMeasuredWidth()-1;
         calcLayout(trialWidth, -1);
         if (getMeasuredHeight() > height) break;
+        if (trialWidth >= widthSize) throw new RuntimeException("Infinite loop");
         widthSize = trialWidth;
       }
     }

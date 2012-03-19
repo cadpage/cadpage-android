@@ -8,6 +8,7 @@ import android.app.ListActivity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.DisplayMetrics;
 import android.view.ContextMenu;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -39,6 +40,15 @@ public class CallHistoryActivity extends ListActivity {
       return;
     }
     
+    // Apparently only an activity can calculate the total screen size.
+    // So do it now and save it in preferences so it will be included in
+    // generated emails
+    DisplayMetrics displaymetrics = new DisplayMetrics();
+    getWindowManager().getDefaultDisplay().getMetrics(displaymetrics);
+    int height = displaymetrics.heightPixels;
+    int width = displaymetrics.widthPixels;
+    ManagePreferences.setScreenSize(""+width+"X"+height);
+
     // Initialize billing manager
     BillingManager.instance().initialize(this);
     

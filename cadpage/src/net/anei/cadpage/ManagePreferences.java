@@ -15,10 +15,12 @@ import net.anei.cadpage.parsers.ManageParsers;
 import net.anei.cadpage.parsers.MsgParser;
 import net.anei.cadpage.vendors.VendorManager;
 
+import android.app.Activity;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.os.Build;
 import android.preference.PreferenceManager;
+import android.util.DisplayMetrics;
 
 public class ManagePreferences {
   
@@ -147,6 +149,10 @@ public class ManagePreferences {
    */
   protected static void setTestPreference(ManagePreferences prefs) {
     ManagePreferences.prefs = prefs;
+  }
+  
+  public static void setScreenSize(String newVal) {
+    prefs.putString(R.string.pref_screen_size_key, newVal);
   }
   
   public static boolean initialized() {
@@ -707,13 +713,14 @@ public class ManagePreferences {
    * @param sb StringBuilder object where message is constructed
    */
   public static void addConfigInfo(Context context, StringBuilder sb) {
-    sb.append(String.format("\n\n----------\nSysinfo - %s\nModel: %s\nStatus:%s\n\n",
+    sb.append(String.format("\n\n----------\nSysinfo - %s\nModel: %s\nStatus: %s\n\n",
         Build.FINGERPRINT, Build.MODEL, DonationManager.instance().status().toString()));
     
     sb.append("Preference Configuration:\n");
 
     // Array of preference keys to include in email
     final int[] pref_keys = {
+        R.string.pref_screen_size_key,
         R.string.pref_initialized_key,
         R.string.pref_enabled_key,
         R.string.pref_enable_msg_type_key,
