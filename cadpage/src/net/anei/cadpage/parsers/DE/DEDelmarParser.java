@@ -52,6 +52,7 @@ Sender: cad@sussexcountyde.gov
 (CAD Alert) 821        Call at 25877 Prince St                                             City19966      Problem Sick Person(Specific Diag)-ALS
 (CAD Alert) 821        Call at 30971 Buttonwood Dr                                         City19958      Problem Sick Person(Specific Diag)-BLS
 
+*** Different format ***
 (CAD Alert) 821    Call at: 403 Ingramtown Rd                       Loc:                               City: 19947      Problem: Traumatic Injuries-BLS           Lat:38691260    Long:75379283  Inc#:2012-005426         Disp:09:21:33Cross St:S KING ST/PARSONS LN       
 
  */
