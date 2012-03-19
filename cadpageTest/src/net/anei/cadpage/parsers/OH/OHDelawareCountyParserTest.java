@@ -59,6 +59,29 @@ public class OHDelawareCountyParserTest extends BaseParserTest {
           "ADDR:SHANAHAN RD & COLUMBUS PIKE",
           "CITY:BERLIN TWP",
           "X:COLUMBUS PIKE & NORTH RD IN ORANGE TWP");
+
+    doTest("T6",
+        "(Alert: Bad Trip) ALRM LVL: 1\n" +
+        "LOC:\n" +
+        "416 CANTERBURY CT\n" +
+        "WESTERVILLE\n" +
+        "BTWN: WINDEMERE DR & DEAD END/CUL DE SAC\n\n" +
+        "RCVD AS 368-7 Digit Line\n\n" +
+        "COM:\n" +
+        "TRK441 AND R441\n" +
+        "LIGHTENING STRIKE\n" +
+        "W WESTERVILLE\n" +
+        "BN111 IS IN CHARGE\n" +
+        "WESTERVILLE FG\n\n" +
+        "CT:\n" +
+        "9914 at POS 06",
+
+        "CALL:Bad Trip",
+        "PRI:1",
+        "ADDR:416 CANTERBURY CT",
+        "CITY:WESTERVILLE",
+        "X:WINDEMERE DR & DEAD END/CUL DE SAC",
+        "INFO:TRK441 AND R441 / LIGHTENING STRIKE / W WESTERVILLE / BN111 IS IN CHARGE / WESTERVILLE FG / 9914 at POS 06");
       
   }
   
