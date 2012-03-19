@@ -188,12 +188,13 @@ public class FlowLayout extends ViewGroup {
 	    // that will expand the total row width to the target value.
 	    // First step in computing that number is to get the current width
 	    // of all children sorted from lowest to highest
-	    int[] childWidths = new int[endNdx-startNdx];
+	    int[] childWidths = new int[endNdx-startNdx+1];
       for (int ndx = startNdx; ndx < endNdx; ndx++) {
         View child = getChildAt(ndx);
-        int width = (child.getVisibility() == View.GONE ? Integer.MAX_VALUE : child.getMeasuredWidth());
+        int width = (child.getVisibility() == View.GONE ? MAX_VALUE : child.getMeasuredWidth());
         childWidths[ndx-startNdx] = width;
       }
+      childWidths[childWidths.length-1] = MAX_VALUE;
       Arrays.sort(childWidths);
 
       // Start with a minWidth of zero and loop through the child widths
@@ -276,6 +277,10 @@ public class FlowLayout extends ViewGroup {
   	  }
 	  }
 	}
+	
+	// Bigger than anything, but not so big as to give us overflow errors when
+	// we multiply it by something
+	private static final int MAX_VALUE = 0x1000000;
 
 	@Override
 	protected void onLayout(boolean changed, int l, int t, int r, int b) {
