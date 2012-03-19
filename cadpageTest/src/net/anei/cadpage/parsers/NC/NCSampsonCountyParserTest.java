@@ -116,15 +116,15 @@ public class NCSampsonCountyParserTest extends BaseParserTest {
         "UNIT:CSRS,EMS76,STA14");
 
     doTest("T10",
-        "EMS:2012-012887* 249 KAYLA LN* * * CLINTON* KING RD* KING RD* I14* Geo Comment: TRACT 10 OVERDOSE* OVERDOSE* CSRS,EMS71* 1284A* Medical: No* Hazards: No* *",
+        "EMS:2012-012887* 249 KAYLA LN* * * CLINTON* KING RD* KING RD* I14* Geo Comment: TRACT *10* OVERDOSE* OVERDOSE* CSRS,EMS71* 1284A* Medical: No* Hazards: No* *",
         "ID:2012-012887",
         "ADDR:249 KAYLA LN",
         "CITY:CLINTON",
         "X:KING RD & KING RD",
         "MAP:I14",
-        "INFO:Geo Comment: TRACT 10 OVERDOSE / CSRS,EMS71 / Medical: No / Hazards: No",
+        "INFO:Geo Comment: TRACT *10 / OVERDOSE / 1284A / Medical: No / Hazards: No",
         "CALL:OVERDOSE",
-        "UNIT:1284A");
+        "UNIT:CSRS,EMS71");
 
     doTest("T11",
         "EMS:2012-012877* 233 EFFIE PETERSON LN* * * ROSEBORO* PORTER RD* DEAD END* M9* * STRUCTURE FI* STRUCTURE FIRE* CSRS,EMS76* 1336* Medical: No* Hazards: No* *",
@@ -149,15 +149,15 @@ public class NCSampsonCountyParserTest extends BaseParserTest {
         "UNIT:CSRS,EMS71");
 
     doTest("T13",
-        "EMS:2012-012887* 249 KAYLA LN* * * CLINTON* KING RD* KING RD* I14* Geo Comment: TRACT 10 OVERDOSE* OVERDOSE* CSRS,EMS71* 1284A* Medical: No* Hazards: No* *",
+        "EMS:2012-012887* 249 KAYLA LN* * * CLINTON* KING RD* KING RD* I14* Geo Comment: TRACT *10* OVERDOSE* OVERDOSE* CSRS,EMS71* 1284A* Medical: No* Hazards: No* *",
         "ID:2012-012887",
         "ADDR:249 KAYLA LN",
         "CITY:CLINTON",
         "X:KING RD & KING RD",
         "MAP:I14",
-        "INFO:Geo Comment: TRACT 10 OVERDOSE / CSRS,EMS71 / Medical: No / Hazards: No",
+        "INFO:Geo Comment: TRACT *10 / OVERDOSE / 1284A / Medical: No / Hazards: No",
         "CALL:OVERDOSE",
-        "UNIT:1284A");
+        "UNIT:CSRS,EMS71");
 
     doTest("T14",
         "EMS:2012-012838* 1498 HAWLEY RD* * OR* DUNN* FRED TEW RD* UNION GROVE CH RD* C4* * MVA I* MOTOR VEHICLE ACCIDENT WITH INJURIES* EMS72,PVRS,Z951RT* 1254C* Medical:",
@@ -215,6 +215,17 @@ public class NCSampsonCountyParserTest extends BaseParserTest {
         "INFO:Landmark Comment: UPDATED 2-02 / BREATHING DIFFICULTIES",
         "CALL:BREATH DIFF",
         "UNIT:EMS71,EMS72,NG");
+
+    doTest("T19",
+        "EMS:2012-017694* 79 ROMAY MCKOY LN* * * ROSE HILL* BILL TOWN RD* LOOPS BACK TO ITSELF* S14* Geo Comment: *24* ABDOMINAL* ABDOMINAL PAIN* EMS77* 1352A* Medical: No",
+        "ID:2012-017694",
+        "ADDR:79 ROMAY MCKOY LN",
+        "CITY:ROSE HILL",
+        "X:BILL TOWN RD & LOOPS BACK TO ITSELF",
+        "MAP:S14",
+        "INFO:Geo Comment: *24 / ABDOMINAL PAIN / 1352A / Medical: No",
+        "CALL:ABDOMINAL",
+        "UNIT:EMS77");
   }
 
   public static void main(String[] args) {
