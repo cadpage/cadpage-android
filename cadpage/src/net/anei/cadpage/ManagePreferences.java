@@ -773,6 +773,9 @@ public class ManagePreferences {
         R.string.pref_button1_key,
         R.string.pref_button2_key,
         R.string.pref_button3_key,
+        R.string.pref_button4_key,
+        R.string.pref_button5_key,
+        R.string.pref_button6_key,
 
         R.string.pref_paid_year_key,
         R.string.pref_install_date_key,
