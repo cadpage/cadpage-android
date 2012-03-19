@@ -41,6 +41,19 @@ Sender: epage-owner@delmar74fire.com
 (CAD Alert) 74AST      Call at Northwood Dr & Mavel Dr                                                     Problem Traffic/TransportationAcdntBLS
 (CAD Alert) 74AS1      Call at Bi State Blvd & S Bi State Blv                               City19940      Problem Traffic/TransportationAcdntBLS
 
+Agency name: Lewes Vol Fire CO Station 82 
+Location: Millsboro, DE
+Constact: support@active911.com
+Sender: cad@sussexcountyde.gov
+(CAD Alert) 82B        Call at 11 Hartford Way                                             City19958      Problem Gas Leak
+(CAD Alert) 80ST       Call at 26002 John J Williams Hwy     Renaissance Nursing rm 114 / rCity19966      Problem Interfacillity/Palliative-ALS
+(CAD Alert) 82B        Call at Robinsonville Rd & Seashell Bl                              City19958      Problem Traffic/TransportationAcdntBLS
+(CAD Alert) 821        Call at 20415 Beaver Dam Rd                                         City19951      Problem Unconscious/Fainting(Near)-ALS
+(CAD Alert) 821        Call at 25877 Prince St                                             City19966      Problem Sick Person(Specific Diag)-ALS
+(CAD Alert) 821        Call at 30971 Buttonwood Dr                                         City19958      Problem Sick Person(Specific Diag)-BLS
+
+(CAD Alert) 821    Call at: 403 Ingramtown Rd                       Loc:                               City: 19947      Problem: Traumatic Injuries-BLS           Lat:38691260    Long:75379283  Inc#:2012-005426         Disp:09:21:33Cross St:S KING ST/PARSONS LN       
+
  */
 
 
@@ -52,7 +65,7 @@ public class DEDelmarParser extends MsgParser {
   
   @Override
   public String getFilter() {
-    return "epage-owner@delmar74fire.com";
+    return "epage-owner@delmar74fire.com,cad@sussexcountyde.gov";
   }
 
   @Override
@@ -63,10 +76,18 @@ public class DEDelmarParser extends MsgParser {
     
     data.strUnit = body.substring(0,11).trim();
     parseAddress(body.substring(19,49).trim(), data);
-    data.strPlace = body.substring(49,80).trim();
-    int pt = body.indexOf("Problem ", 80);
+    
+    int pt = 49;
+    int cityPt = body.indexOf("City", pt);
+    if (cityPt >= 0) pt = cityPt+4;
+    pt = body.indexOf("Problem ", pt);
     if (pt < 0) return false;
     data.strCall = body.substring(pt+8).trim();
+    if (cityPt >= 0) {
+      data.strCity = body.substring(cityPt+4, pt).trim();
+      pt = cityPt;
+    }
+    data.strPlace = body.substring(49, pt).trim();
     
     return true;
   }
