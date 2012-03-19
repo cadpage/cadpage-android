@@ -25,6 +25,6 @@ public class OHDelawareCountyParser extends DispatchA1Parser {
   
   @Override
   public String getFilter() {
-    return "911@co.delaware.oh.us";
+    return "del-911@co.delaware.oh.us";
   }
 }
