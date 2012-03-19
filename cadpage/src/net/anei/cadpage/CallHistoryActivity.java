@@ -18,6 +18,8 @@ import android.widget.TextView;
 
 public class CallHistoryActivity extends ListActivity {
   
+  private static String EXTRA_SHUTDOWN = "net.anei.cadpage.CallHistoryActivity.SHUTDOWN";
+  
   private static final int RELEASE_DIALOG = 1;
   
   // keep track of which message text view has opened a context menu
@@ -90,6 +92,12 @@ public class CallHistoryActivity extends ListActivity {
     
     // Log intent for debug purposes
     ContentQuery.dumpIntent(intent);
+    
+    // If this is a shutdown request, that is as far as we need to go
+    if (intent.getBooleanExtra(EXTRA_SHUTDOWN, false)) {
+      finish();
+      return;
+    }
 
     // We do some special processing if the intent was launched by the user
     // instead of through some internal trigger.
@@ -224,5 +232,15 @@ public class CallHistoryActivity extends ListActivity {
       Intent.FLAG_ACTIVITY_CLEAR_TOP;
     intent.setFlags(flags);
     return intent;
+  }
+
+  /**
+   * Called by active context to shut down the main application
+   * @param context current context
+   */
+  public static void shutdown(Context context) {
+    Intent intent = new Intent(context, CallHistoryActivity.class);
+    intent.putExtra(EXTRA_SHUTDOWN, true);
+    context.startActivity(intent);
   }
 }

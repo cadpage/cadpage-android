@@ -410,6 +410,7 @@
   <string name="unlock_item_text">Unlock</string>
   <string name="delete_item_text">Delete</string>
   <string name="close_item_text">Close</string>
+  <string name="close_app_item_text">Close App</string>
   <string name="email_item_text">Report Problem</string>
   <string name="publish_item_text">Publish Page</string>
 

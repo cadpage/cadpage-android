@@ -97,14 +97,14 @@ public class MsgOptionManager {
   private static final int[] ITEM_ID_LIST = new int[]{
     0, R.id.ack_item, R.id.map_item, R.id.toggle_lock_item, 
     R.id.delete_item, R.id.close_item, R.id.email_item,
-    R.id.publish_item
+    R.id.publish_item, R.id.close_app_item
   };
   
   // List of item title resources associated with each button index
   private static final int[] ITEM_TEXT_LIST = new int[]{
     0, R.string.ack_item_text, R.string.map_item_text, 0, 
     R.string.delete_item_text, R.string.close_item_text, R.string.email_item_text,
-    R.string.publish_item_text
+    R.string.publish_item_text, R.string.close_app_item_text
   };
   
   public void setupButtons(ViewGroup viewGroup) {
@@ -263,6 +263,11 @@ public class MsgOptionManager {
       
     case R.id.close_item:
       activity.finish();
+      return true;
+      
+    case R.id.close_app_item:
+      activity.finish();
+      CallHistoryActivity.shutdown(activity);
       return true;
       
     case R.id.email_item:

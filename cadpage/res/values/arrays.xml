@@ -73,6 +73,7 @@
     <item>@string/lock_item_text</item>
     <item>@string/delete_item_text</item>
     <item>@string/close_item_text</item>
+    <item>@string/close_app_item_text</item>
     <item>@string/email_item_text</item>
     <item>@string/publish_item_text</item>
   </string-array>
@@ -84,6 +85,7 @@
     <item>3</item>
     <item>4</item>
     <item>5</item>
+    <item>8</item>
     <item>6</item>
     <item>7</item>
   </string-array>  
