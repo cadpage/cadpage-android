@@ -42,6 +42,16 @@ public class FlowLayout extends ViewGroup {
 	  if (DEBUG)
 	    Log.w("FlowLayout.onMeasure() WSpec:" + MeasureSpec.toString(widthMeasureSpec) + 
 	                                " HSpec:" + MeasureSpec.toString(heightMeasureSpec));
+	  
+	  // Sometimes a parent throws a zero size spec at us.  Which is what throws us
+	  // into an infinite loop.  So we check for that problem here and if found
+	  // return an empty measurement
+	  if (isNullSpec(widthMeasureSpec) || isNullSpec(heightMeasureSpec)) {
+	    setMeasuredDimension(resolveSize(0, widthMeasureSpec),
+                           resolveSize(0, heightMeasureSpec));
+	    return;
+	  }
+	  
     int widthMode = MeasureSpec.getMode(widthMeasureSpec);
     int realWidth = MeasureSpec.getSize(widthMeasureSpec);
     
@@ -77,7 +87,10 @@ public class FlowLayout extends ViewGroup {
         int trialWidth = getMeasuredWidth()-1;
         calcLayout(trialWidth, -1);
         if (getMeasuredHeight() > height) break;
-        if (trialWidth >= widthSize) throw new RuntimeException("Infinite loop");
+        if (trialWidth >= widthSize) {
+          throw new RuntimeException("FlowLayout loop calculating view for wspec:" + MeasureSpec.toString(widthMeasureSpec) + 
+                                                                         "  hspec:" + MeasureSpec.toString(heightMeasureSpec));
+        }
         widthSize = trialWidth;
       }
     }
@@ -101,8 +114,19 @@ public class FlowLayout extends ViewGroup {
     setMeasuredDimension(resolveSize(getMeasuredWidth(), widthMeasureSpec),
                          resolveSize(getMeasuredHeight(), heightMeasureSpec));
 	}
-	
+
 	/**
+	 * Determine if this is a null measurement spec, that is one that does
+	 * not permit a non-zero size view
+	 * @param measureSpec Measurement Spec
+	 * @return true if measurement requires a size of zero
+	 */
+	private boolean isNullSpec(int measureSpec) {
+	  return MeasureSpec.getMode(measureSpec) != MeasureSpec.UNSPECIFIED &&
+	          MeasureSpec.getSize(measureSpec) <= 0;
+  }
+
+  /**
 	 * Perform a child layout calculation
 	 * @param widthSize effective width limit
 	 * @param realWidth actual window width (negative if undetermined)
