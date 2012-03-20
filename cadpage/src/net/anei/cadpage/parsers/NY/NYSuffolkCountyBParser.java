@@ -74,6 +74,7 @@ Sender: paging2@firerescuesystems.xohost.com
 Contact: "cfd153@aol.com" <cfd153@aol.com
 Sender: paging2@firerescuesystems.xohost.com
 ***23 Motor Vehicle Accident*** 1815 E JERICHO TRNP E NORTHPORT CS: E DEER PARK RD  - JERICHO TRNP TOA: 14:55 03-14-12
+***23 Misc*** PEPPERTREE COMMONS 6401 JERICHO TPKE COMMACK TOA: 18:31 03-16-12
 
 */
 
@@ -81,7 +82,7 @@ public class NYSuffolkCountyBParser extends FieldProgramParser {
   
   public NYSuffolkCountyBParser() {
     super(CITY_LIST, "SUFFOLK COUNTY", "NY",
-           "ADDR/SP! CS:X! ADTML:CODE? TOA:TIMEDATE TYPE:INFO LOC:SKIP");
+           "ADDR/SP! CS:X? ADTML:CODE? TOA:TIMEDATE TYPE:INFO LOC:SKIP");
   }
   
   @Override
