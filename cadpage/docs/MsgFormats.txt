@@ -3965,11 +3965,6 @@ CAD:DIST: 70.97 FT (S)CRYSTAL PARK (N);03/13/2012 08:34:54;6D2 BREATHING DIFFICU
 Contact: Jr McElyea <j.mcelyea1@gmail.com>
 (Station 04) 03/13/2012 21:25:57;69D3 STRUCTURE FIRE COMM BLDG;0531,1332,2132,2151,2171,0432;GEORGE OWEN RD/HOPE MILLS RD
 **********************************************************
-Marion County (N), OR (Replacement)  
-Contact: Louis Gisler <lgisler1@gmail.com>
-Sender: trex@ci.woodburn.or.us
-Subject:(41911) :\nR63 MED60 C60 R60  MEDICAL  771 S GRICE LP  MAP 5020 78 YOM RECTAL BLEEDING\r
-**********************************************************
 Woodlands, TX
 Contact: support@active911.com
 Sender: firecad
@@ -3980,6 +3975,14 @@ Same as Montgomer County, TX
 **********************************************************
 ************  READY TO ROLL ******************************
 **********************************************************
+**********************************************************
+Marion County (N), OR (Replacement)  
+Contact: Louis Gisler <lgisler1@gmail.com>
+Sender: trex@ci.woodburn.or.us
+Subject:(41911) :\nR63 MED60 C60 R60  MEDICAL  771 S GRICE LP  MAP 5020 78 YOM RECTAL BLEEDING\r
+Subject:(42496) :\nMEDICAL 471 N 2ND ST  MAP/5020A\r
+Subject:(42327) :\nSMALL FUEL SPILL, I5/239/SB 5217\r
+Subject:(41911) :\nR63 MED60 C60 R60  MEDICAL  771 S GRICE LP  MAP 5020 78 YOM RECTAL BLEEDING\r
 **********************************************************
 Geauga County, OH (alternate)
 Contact: Courtney Sanders <csanders3217@gmail.com>
