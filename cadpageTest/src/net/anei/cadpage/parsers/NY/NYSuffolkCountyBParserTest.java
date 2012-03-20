@@ -463,7 +463,16 @@ public class NYSuffolkCountyBParserTest extends BaseParserTest {
         "X:E DEER PARK RD  - JERICHO TRNP",
         "TIME:14:55",
         "DATE:03-14-12");
-}
+
+    doTest("T45",
+        "***23 Misc*** PEPPERTREE COMMONS 6401 JERICHO TPKE COMMACK TOA: 18:31 03-16-12",
+        "CALL:23 Misc",
+        "PLACE:PEPPERTREE COMMONS",
+        "ADDR:6401 JERICHO TPKE",
+        "CITY:COMMACK",
+        "TIME:18:31",
+        "DATE:03-16-12");
+  }
   
   public static void main(String[] args) {
     new NYSuffolkCountyBParserTest().generateTests("T1");

@@ -435,6 +435,18 @@ public class MDPrinceGeorgesCountyCParserTest extends BaseParserTest {
         "MAP:5288 E 5",
         "UNIT:A814,E811B,MD810");
 
+    doTest("T30",
+        "(CAD Feed) Battalion Chief 884 Incident: F120790133, Type: Collapse Invest, Loc: 4316 FARRAGUT ST, HP, btwn 43RD AVE and CHURCH PL, TalkGroup: TGD3, Box: 5511, Map: 5409 K 8, Text: Fire ProQA recommends dispatch at this time, Units:A855, BO884, E855B, MD812, SQ801, SQ814, TS814 Sent to Prince George's alert recipients (E-mail, Wireless) through Alert Prince George's ... powered by Cooper Notification's Roam Secure Alert Network -- You received this message because you registered on Alert Prince George's.  To change your alerting preferences go to https://alert.princegeorgescountymd.gov/mygroups.php Reply to this message with \"Stop\" to end all notifications from Alert Prince George's to this device",
+        "SRC:Battalion Chief 884",
+        "ID:F120790133",
+        "CALL:Collapse Invest",
+        "ADDR:4316 FARRAGUT ST",
+        "X:43RD AVE and CHURCH PL",
+        "CH:TGD3",
+        "BOX:5511",
+        "MAP:5409 K 8",
+        "UNIT:A855,BO884,E855B,MD812,SQ801,SQ814,TS814");
+
   }
   
   public static void main(String[] args) {
