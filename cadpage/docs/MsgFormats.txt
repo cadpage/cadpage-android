@@ -3971,6 +3971,19 @@ Sender: firecad
 Same as Montgomer County, TX
 (Nature: 17A02G-FALL ON THE GROUND OR FLOOR - NON) New Fire Run: 2012-07613,,TK10,Location: 6203 ALDEN BRIDGE DR,3305,Building: THE CONSERVATORY,Cross: ,,Grid: 216Q,Map: 4976,.
 **********************************************************
+Butler County, PA (replacement?)
+Contact: Jeff Gooch <goochff21@gmail.com>XS
+Sender: messaging@iamresponding.com
+(CTVFC) FIRE - VEHICLE 78 .8 I 79 XS: TELL CRA PD IF FIRE OR EMS GOES CRANBERRY TWP
+(CTVFC) ALARM/FIRE 218 ELMHURST CIR CRANBERRY TWP
+(CTVFC) ALARM / SPRINKLER 20111 ROUTE 19 CRANBERRY TWP
+**********************************************************
+Clermont County, OH (?) 
+Contact: Dennis Rutter <dennis.rutter73@gmail.com>
+*777139400995**: * " " FVEH >VEHICLE FIRE 2500 HWY 50 XS: JOHNNYTOWN RD OWENSVILLE Map: Grids:, Cad: 2012-0000024426 <20120000024426>
+**********************************************************
+**********************************************************
+**********************************************************
 **********************************************************
 **********************************************************
 ************  READY TO ROLL ******************************
