@@ -301,6 +301,24 @@ public class OHHamiltonCountyParserTest extends BaseParserTest {
 
   }
   
+  @Test
+  public void testScottHolland() {
+
+    doTest("T1",
+        "HC@hamilton-co.org\n" +
+        "MSG:\n" +
+        "HC:ODOR OF GAS 393 PROVIDENCE WY SHRN NEXT TO TRAILER..... CHARLES SOILBACK ** SMELL OF GAS ** SEE MALE COMPL REF ODOR OF NATURAL GAS LEAK FROM A POSS 1 INCH PIPE COMIN 12:07 HFE88 HFFG2 XST: 399 TARRYTON DR XST2: 337 CAMBRIDGE DR\r\n",
+
+        "ADDR:393 PROVIDENCE WY",
+        "CITY:SHARONVILLE",
+        "PLACE:NEXT TO TRAILER CHARLES SOILBACK",
+        "CALL:SMELL OF GAS",
+        "INFO:SEE MALE COMPL REF ODOR OF NATURAL GAS LEAK FROM A POSS 1 INCH PIPE COMIN",
+        "TIME:12:07",
+        "UNIT:HFE88 HFFG2",
+        "X:399 TARRYTON DR & 337 CAMBRIDGE DR");
+  }
+  
   public static void main(String[] args) {
     new OHHamiltonCountyParserTest().generateTests("T1", "ADDR CITY APT PLACE CALL INFO TIME UNIT X");
   }
