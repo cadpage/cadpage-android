@@ -44,6 +44,10 @@ Contact: "wkirch@rochester.rr.com" <wkirch@rochester.rr.com>
 Sender: 777132537038
 GENESEE COUNTY DISPATCH Unit:AX06 Status:Dispatched Fire Mutual Aid ** * <UNKNOWN> , - ** FAST TEAM TO THE HOUSE FIRE ** ** 02/09/12 10:21 ** 2012-00000027 ** TXT STOP to opt-out
 
+Contact: Bob Tripp <btripp2003@gmail.com>
+Sender: 777147513270
+GENESEE COUNTY DISPATCH Alarm Fire ** College Village** 8170 BATAVIA STAFFORD TOWNLINE RD , BATAVIA - C 102 ** COMMERCIAL FIRE ALARM ** ASSEMBLYMAN R. STEPHEN HAWLEY DR / BYRON RD ** 03/20/12 21:11 ** 2012-00000064 ** TXT STOP to opt-out
+
 */
 
 
@@ -66,19 +70,19 @@ public class NYGeneseeCountyParser extends FieldProgramParser {
     do {
       Matcher match = MARKER.matcher(body);
       
-      if (subject.equals("Dispatch")) break;
-      
       if (match.find()) {
         data.strUnit = getOptGroup(match.group(1));
         body = body.substring(match.end());
         break;
       }
+      
+      if (subject.equals("Dispatch")) break;
         
       return false;
     } while (false);
+    
     String flds[] = body.split("\\*\\*");
-    if (flds.length < 3) return false;
-    return parseFields(flds, data);
+    return parseFields(flds, 3, data);
   }
   
   @Override
@@ -94,27 +98,26 @@ public class NYGeneseeCountyParser extends FieldProgramParser {
     }
   }
   
-  private static final Pattern TRAIL_DIGITS = Pattern.compile(" +-(?: (\\d+))?$");
   private class MyAddressField extends AddressField {
     
     @Override
     public boolean checkParse(String field, Data data) {
       
-      // Remove trailing dash and digits
-      Matcher match = TRAIL_DIGITS.matcher(field);
-      if (match.find()) {
-        String sInfo = match.group(1);
-        if (sInfo != null) data.strSupp = append(data.strSupp, " / ", sInfo);
-        field = field.substring(0,match.start());
-      }
-      
       // If field contains comma, parse as address and cross / city
+      String sApt = "";
       int pt = field.indexOf(',');
       if (pt >= 0) {
 	      String sAddr = field.substring(0,pt).trim();
 	      String sCity = field.substring(pt+1).trim();
+	      int pt2 = sCity.lastIndexOf('-');
+	      if (pt2 >= 0) {
+	        sApt = sCity.substring(pt2+1).trim();
+	        if (sApt.startsWith("APT ")) sApt = sApt.substring(4);
+	        sCity = sCity.substring(0,pt2).trim();
+	      }
 	      parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS | FLAG_ONLY_CITY | FLAG_ANCHOR_END, sCity, data);
         parseAddress(sAddr, data);
+        data.strApt = append(data.strApt, "-", sApt);
 	      return true;
       }
       
@@ -137,7 +140,7 @@ public class NYGeneseeCountyParser extends FieldProgramParser {
     
     @Override
     public String getFieldNames() {
-      return "ADDR CITY";
+      return "ADDR CITY APT";
     }
   }
   

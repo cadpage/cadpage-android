@@ -4111,6 +4111,3 @@ Sender: WaterfordDispatch@mydomain.com
 2012-009905*\n563 BOSTON POST ROAD*\n14*\n2*\nWATERFORD*\n*\nEMS ALS*\nAMBULANCE CALL - ALS*\nBlue Anchor*\n*\nCO4*\n*\n*\n*\n*
 2012-009851*\n745 VAUXHALL STREET EXTENSION*\n*\n*\nWATERFORD*\n*\nMVA WITH*\nVEHICLE ACCIDENT WITH INJURIES*\nDanielle Chaude*\n*\nCO4,CO5,MED11,W200,W500*\n*\n*\n*\n*
 **********************************************************
-
-
-
