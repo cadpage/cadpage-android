@@ -100,12 +100,17 @@ public class PADelawareCountyBParser extends FieldProgramParser {
   public boolean parseMsg(String body, Data data) {
     Matcher match = CAP_PTN.matcher(body);
     if (match.find()) {
-      data.strSupp = "CAPCODE:" + match.group(1);
+      data.strUnit = match.group(1);
       body = body.substring(match.end()).trim();
     }
     
     crossAddress = false;
     return super.parseMsg(body.replace('\n', ' '), data);
+  }
+  
+  @Override
+  public String getProgram() {
+    return "UNIT " + super.getProgram();
   }
   
   private class MyAddressField extends AddressField {
