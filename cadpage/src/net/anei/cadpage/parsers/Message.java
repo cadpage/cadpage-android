@@ -256,6 +256,16 @@ public class Message {
         break;
       }
       
+      /* Decode patterns that look like this
+       * "HC@hamilton-co.org\nMSG:\nHC:ODOR OF GAS 393 PROVIDENCE WY SHRN NEXT TO TRAILER..... CHARLES SOILBACK ** SMELL OF GAS ** SEE MALE COMPL REF ODOR OF NATURAL GAS LEAK FROM A POSS 1 INCH PIPE COMIN",
+       */
+      ipt  = body.indexOf("\nMSG:\n");
+      if (ipt >= 0) {
+        parseAddress = body.substring(0,ipt);
+        body = body.substring(ipt+6).trim();
+        break;
+      }
+      
       /* Decode patterns that contain an email address, subject, and message
        * S:subject M:msg
        */
