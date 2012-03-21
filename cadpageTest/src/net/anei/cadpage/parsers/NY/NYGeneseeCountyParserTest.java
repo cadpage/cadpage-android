@@ -156,7 +156,9 @@ public class NYGeneseeCountyParserTest extends BaseParserTest {
         "CALL:EMD Delta",
         "ADDR:2584 MAIN RD",
         "INFO:25 YO MALE TROUBLE BREATHING - CO REQ NO FIRE DEPT",
-        "X:PEMBROKE - LOWER & SLUSSER RD / CHURCH ST",
+        "CITY:PEMBROKE",
+        "APT:LOWER",
+        "X:SLUSSER RD / CHURCH ST",
         "DATE:02/13/12",
         "TIME:04:59",
         "ID:2012-00000035");
@@ -172,7 +174,8 @@ public class NYGeneseeCountyParserTest extends BaseParserTest {
         "PLACE:Batavia Mobile Home Park",
         "ADDR:3322 W MAIN STREET RD",
         "CITY:BATAVIA",
-        "INFO:31 / 40 Y/O MALE VOMITTING",
+        "APT:31",
+        "INFO:40 Y/O MALE VOMITTING",
         "X:WORTENDYKE RD / STEGMAN RD",
         "DATE:01/29/12",
         "TIME:10:53",
@@ -211,7 +214,9 @@ public class NYGeneseeCountyParserTest extends BaseParserTest {
         "CALL:EMD Delta",
         "ADDR:89 COLONY RUN",
         "INFO:78YO MALE TROUBLE BREATHING",
-        "X:ATTICA - APT D & COLONY CT / ALEXANDER RD",
+        "CITY:ATTICA",
+        "APT:D",
+        "X:COLONY CT / ALEXANDER RD",
         "DATE:02/26/12",
         "TIME:20:04",
         "ID:2012-00000046");
@@ -219,7 +224,7 @@ public class NYGeneseeCountyParserTest extends BaseParserTest {
   }
   
   @Test
-  public void testParser5() {
+  public void testWkirch() {
 
     doTest("T1",
         "GENESEE COUNTY DISPATCH Unit:AX06 Status:Dispatched Fire Mutual Aid ** * <UNKNOWN> , - ** FAST TEAM TO THE HOUSE FIRE ** ** 02/09/12 10:21 ** 2012-00000027 ** TXT STOP to opt-out",
@@ -231,6 +236,24 @@ public class NYGeneseeCountyParserTest extends BaseParserTest {
         "TIME:10:21",
         "ID:2012-00000027");
 
+  }
+  
+  @Test
+  public void testBobTripp() {
+
+    doTest("T1",
+        "GENESEE COUNTY DISPATCH Alarm Fire ** College Village** 8170 BATAVIA STAFFORD TOWNLINE RD , BATAVIA - C 102 ** COMMERCIAL FIRE ALARM ** ASSEMBLYMAN R. STEPHEN HAWLEY DR / BYRON RD ** 03/20/12 21:11 ** 2012-00000064 ** TXT STOP to opt-out",
+        "CALL:Alarm Fire",
+        "PLACE:College Village",
+        "ADDR:8170 BATAVIA STAFFORD TOWNLINE RD",
+        "INFO:COMMERCIAL FIRE ALARM",
+        "CITY:BATAVIA",
+        "APT:C 102",
+        "X:ASSEMBLYMAN R. STEPHEN HAWLEY DR / BYRON RD",
+        "DATE:03/20/12",
+        "TIME:21:11",
+        "ID:2012-00000064");
+   
   }
   
   public static void main(String[] args) {
