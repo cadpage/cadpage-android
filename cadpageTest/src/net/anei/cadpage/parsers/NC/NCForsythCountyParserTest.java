@@ -149,7 +149,34 @@ public class NCForsythCountyParserTest extends BaseParserTest {
         "PRI:1",
         "UNIT:F41",
         "X:CHAUCER MANOR LN/CHAUCER");
- }
+  }
+  
+  @Test
+  public void testActive911() {
+
+    doTest("T1",
+        "Location: 6010 MEADOWBROOK MALL CT CL: @CREST OF CLEMMONS Nature: Unconscious/Unresponsive/Syncope P:1  - CONFIRMED DISTRICT: F14 X Str: RAMADA DR/ CALLER NAME: THE CREST OF CLEMMONS",
+        "ADDR:6010 MEADOWBROOK MALL CT",
+        "CITY:CLEMMONS",
+        "PLACE:CREST OF CLEMMONS",
+        "CALL:Unconscious/Unresponsive/Syncope",
+        "PRI:1",
+        "UNIT:F14",
+        "X:RAMADA DR/",
+        "NAME:THE CREST OF CLEMMONS");
+
+    doTest("T2",
+        "Location: 3905 CLEMMONS RD CL: @REGENCY CARE OF CLEMMONS Nature: Breathing Difficulty P:1  - OVER_50_DIFF DISTRICT: F14 X Str: BRIDGEWATER DR/JOY PARK LN CALLER NAME: DOMINION MANAGEMENT GROUP / FORS",
+        "ADDR:3905 CLEMMONS RD",
+        "CITY:CLEMMONS",
+        "PLACE:REGENCY CARE OF CLEMMONS",
+        "CALL:Breathing Difficulty",
+        "PRI:1",
+        "UNIT:F14",
+        "X:BRIDGEWATER DR/JOY PARK LN",
+        "NAME:DOMINION MANAGEMENT GROUP / FORS");
+
+  }
   
   public static void main(String[] args) {
     new NCForsythCountyParserTest().generateTests("T16");
