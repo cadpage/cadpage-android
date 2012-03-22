@@ -3982,6 +3982,25 @@ Clermont County, OH (?)
 Contact: Dennis Rutter <dennis.rutter73@gmail.com>
 *777139400995**: * " " FVEH >VEHICLE FIRE 2500 HWY 50 XS: JOHNNYTOWN RD OWENSVILLE Map: Grids:, Cad: 2012-0000024426 <20120000024426>
 **********************************************************
+Bernards Township, NJ
+Contact: Ron DePasquale <rondepasquale@gmail.com>
+Sender: alarm-bounces@libertycornerfire.org
+7705 @ 5 POPLAR DR  , STIRLING - GENERAL FIRE ALARM alarm left in troubl... Active Units:
+8310 @ 268 S FINLEY AVE [CR 613]/LAKE RD  , BASKING RIDGE -Active Units:
+6302 @ VALLEY RD [CR 512]/MOUNTAIN AVE [CR 531] , GILLETTE -, Active Units: 840
+([Alarm] (no subject)) 8320 @ KING GEORGE RD [CR 651]/SPRING VALLEY BL  ,BASKING RIDGE -Active Units:__________________________________
+([Alarm] EM-2011-000879) 8322 @ 2 HANCOCK CT  , BASKING RIDGE - grill fire against a house_______________________________________________
+([Alarm] (no subject)) 7705 @ 254 POTOMAC DR  , BASKING RIDGE - Active Units: ______________________________________________ Alarm mailing
+([Alarm] FD-2011-000264) 7705 @ 55 ARCHGATE RD  , BASKING RIDGE - 1ST/2ND FLOOR SMOKE DETECTORS 123-456-7890 <888-729-2450> , JENSEN 123-456-7890 <888-729-2450>
+
+Liberty Corner, NJ (Sommerset County)
+Contact: support@active911.com
+Sender: <RGizienski@bernardspd.org>
+Subject: [Alarm] FD-2012-000137
+Body: 8323 @ 3575 VALLEY RD [CR 512]/MT AIRY RD [CR 525]  , BASKING RIDGE - GAS LEAK.
+Subject: [Alarm] (no subject)
+Body:  54 ALEXANDRIA WY (HAMPTON CT TO SALEM CT) CO ALARM NEGATIVE ILLNESS, CASE # 139
+**********************************************************
 **********************************************************
 **********************************************************
 **********************************************************
@@ -3995,7 +4014,6 @@ Sender: trex@ci.woodburn.or.us
 Subject:(41911) :\nR63 MED60 C60 R60  MEDICAL  771 S GRICE LP  MAP 5020 78 YOM RECTAL BLEEDING\r
 Subject:(42496) :\nMEDICAL 471 N 2ND ST  MAP/5020A\r
 Subject:(42327) :\nSMALL FUEL SPILL, I5/239/SB 5217\r
-Subject:(41911) :\nR63 MED60 C60 R60  MEDICAL  771 S GRICE LP  MAP 5020 78 YOM RECTAL BLEEDING\r
 **********************************************************
 Geauga County, OH (alternate)
 Contact: Courtney Sanders <csanders3217@gmail.com>
@@ -4040,22 +4058,6 @@ Fire Depts are needed at Twilight Stables in the horse barn at 12759 Mill View L
 HAMBDEN FD RESCUE NEEDED AT 14050 GAR HWY FOR A 21 YOM IN AND OUT OF CONCIOUSNESS POSSIBLE ALLERGIC REACTION 2800/BMR
 2nd Page for FIU to 15279 Hemlock Point Russell Twp for the Structure Fire.
 **********************************************************
-Suffolk County, NY (alternate)
-Contact: Brandon Tishim <tishimb@gmail.com>
-Sender: Bob@relaycom.com
-(FROM RELAY) 33 BAY RUN OFF OF HERRICKS LN JAMESPORT\nELDERLY MALE SICK
-(FROM RELAY) 415 OSTRANDER AVE, INJURY FROM A FALL
-(FROM RELAY) 95 OSTRANDER AVE, DIFFICULTY BREATHING
-
-Contact: Bill Wilkinson <billthemedic@gmail.com>
-Sender: Bob@relaycom.com
-(FROM RELAY) 236 MAIN RD AQUEBOGUE; DIRECTLY ACROSS FROM FEDUN REALITY 92 Y/O FEMALE \nCHEST PAINS
-(FROM RELAY) 2185 SPLISH SPLASH DRIVE FEMALE POSSIBLE STROKE
-(FROM RELAY) 178  PECONIC BAY BLVD IN AQUEBOGUE   AT THE  REEVE RESIDENCE SUBJECT \nSEIZURES
-(FROM RELAY) 1053 OLD COUNTRY RD PEARLE VISION CENTER  FEMALE HEAD INJURY FROM A FALL
-(FROM RELAY) 70 SCHULTZ RD MALE HEAD INJURY FROM A FALL ,, ACROSS FROM THE SPORTSMAN \nKENNEL IN MANORVILLE
-(FROM RELAY) 1272 EAST MAIN ST  DR. BROOK'S OFC  MALE  FAINTING EPISODES
-(MSG FROM RELAY) MICHAEL'S 1440 OLD COUNTRY RD. FEMALE. GENERAL WEAKNESS.
 **********************************************************
 **********************************************************
 King George County, VA
@@ -4076,25 +4078,6 @@ DES ABDOMINAL PAIN 4755 JAMES MADISON PKY CFS# 2012-007574 Run# 000657 CROSS: CO
 KGFR2 FIRE ALARM RESIDENTIAL 6138 SCHOONER CIR CFS# 2012-007553 Run# 000656 CROSS: WINDWARD LN/ROSEDALE DR
 DES DIFFICULTY BREATHING 9445 INAUGURAL DR CFS# 2012-007549 Run# 000655 CROSS: KINGS HWY/COLUMBIA DR
 KGFR1 MUTUAL AID TO (FIRE) 518 MARKET ST PORT ROYAL CFS# 2012-007530 Run# 000652 
-**********************************************************
-Bernards Township, NJ
-Contact: Ron DePasquale <rondepasquale@gmail.com>
-Sender: alarm-bounces@libertycornerfire.org
-7705 @ 5 POPLAR DR  , STIRLING - GENERAL FIRE ALARM alarm left in troubl... Active Units:
-8310 @ 268 S FINLEY AVE [CR 613]/LAKE RD  , BASKING RIDGE -Active Units:
-6302 @ VALLEY RD [CR 512]/MOUNTAIN AVE [CR 531] , GILLETTE -, Active Units: 840
-([Alarm] (no subject)) 8320 @ KING GEORGE RD [CR 651]/SPRING VALLEY BL  ,BASKING RIDGE -Active Units:__________________________________
-([Alarm] EM-2011-000879) 8322 @ 2 HANCOCK CT  , BASKING RIDGE - grill fire against a house_______________________________________________
-([Alarm] (no subject)) 7705 @ 254 POTOMAC DR  , BASKING RIDGE - Active Units: ______________________________________________ Alarm mailing
-([Alarm] FD-2011-000264) 7705 @ 55 ARCHGATE RD  , BASKING RIDGE - 1ST/2ND FLOOR SMOKE DETECTORS 123-456-7890 <888-729-2450> , JENSEN 123-456-7890 <888-729-2450>
-
-Liberty Corner, NJ (Sommerset County)
-Contact: support@active911.com
-Sender: <RGizienski@bernardspd.org>
-Subject: [Alarm] FD-2012-000137
-Body: 8323 @ 3575 VALLEY RD [CR 512]/MT AIRY RD [CR 525]  , BASKING RIDGE - GAS LEAK.
-Subject: [Alarm] (no subject)
-Body:  54 ALEXANDRIA WY (HAMPTON CT TO SALEM CT) CO ALARM NEGATIVE ILLNESS, CASE # 139
 **********************************************************
 Waterford Township, CT
 Contact: Jason Finnigan <finni94tac@gmail.com>
