@@ -138,6 +138,15 @@ public class OHClermontCountyParserTest extends BaseParserTest {
         "CITY:PIERCE TOWNSHIP",
         "NAME:SCHAEFFER, DANIEL P",
         "ID:2012-0000015385");
+
+    doTest("T14",
+        "\" \" FBURN >POSSIBLE OPEN BURN BRANDYWINE DR&CUTTY SARK XS: CUTTY SARK LINDALE REFUSED Cad: 2012-0000025310",
+        "CALL:POSSIBLE OPEN BURN",
+        "ADDR:BRANDYWINE DR & CUTTY SARK",
+        "X:CUTTY SARK",
+        "CITY:LINDALE",
+        "NAME:REFUSED",
+        "ID:2012-0000025310");
     
   }
   

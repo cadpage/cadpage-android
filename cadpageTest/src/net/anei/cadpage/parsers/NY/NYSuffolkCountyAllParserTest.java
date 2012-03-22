@@ -31,6 +31,12 @@ public class NYSuffolkCountyAllParserTest {
     }
   }
   
+  public static class TestE extends NYSuffolkCountyEParserTest {
+    public TestE() {
+      setParser(new NYSuffolkCountyAllParser());
+    }
+  }
+  
   public static class TestDixHills extends NYDixHillsParserTest {
     public TestDixHills() {
       setParser(new NYSuffolkCountyAllParser());
