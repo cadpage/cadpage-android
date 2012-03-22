@@ -8,6 +8,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /*
 Salem County, NJ (Deepwater)
+Contact: Michael Warner <warnersta7@gmail.com>
 Contact: "m.warner1@comcast.net" <m.warner1@comcast.net>
 Sender: msg@cfmsg.com
 
@@ -17,12 +18,13 @@ Sender: msg@cfmsg.com
 (Chief ALT) [STA:7] -- Fire Alarm System -- 117 N Broadway Way Pennsville Township NJ - Cross STS:Brandriff Ave -- Caller: VERIZON / KAREN 6158005
 (Chief ALT) [STA:7] -- Out Of County Assist -- Delaware Memorial Brg New Castle DE -- Caller: COUNTY
 (Chief ALT) [STA:7] -- Motor Vehicle Accident -- 430 N Broadway Way Pennsville Township NJ - Cross STS:Rt 130 Overpass -- Caller: 520
- 
+(Chief ALT) [STA:7] -- Structure Fire - Medium Hazard -- 709 S Broadway Way Pennsville Township NJ - Cross STS:Sharp St And Lighthouse Rd -- Caller: LS-5
+
  */
 
 public class NJSalemCountyBParser extends FieldProgramParser {
   
-  private static final Pattern DELIM = Pattern.compile(" --? ");
+  private static final Pattern DELIM = Pattern.compile(" -- | - (?=Cross STS:)");
   
   public NJSalemCountyBParser() {
     super(CITY_LIST, "SALEM COUNTY", "NJ",

@@ -4001,6 +4001,11 @@ Body: 8323 @ 3575 VALLEY RD [CR 512]/MT AIRY RD [CR 525]  , BASKING RIDGE - GAS 
 Subject: [Alarm] (no subject)
 Body:  54 ALEXANDRIA WY (HAMPTON CT TO SALEM CT) CO ALARM NEGATIVE ILLNESS, CASE # 139
 **********************************************************
+Butte County, CA
+Contact: "McLean, Scott" <Scott.McLean@fire.ca.gov>
+Very similar to Shasta County, CA
+Sender: btucad@fire.ca.gov<mailto:btucad@fire.ca.gov>
+(CAD Page) MEDICAL; 1759 12TH ST ,THERMALITO ; ; 1200 BLK TEHAMA AVE; Map: 6683; Inc# 002759; Date-Time: 21-Mar-2012/20:55:59; CARDIAC;
 **********************************************************
 **********************************************************
 **********************************************************
@@ -4079,7 +4084,7 @@ KGFR2 FIRE ALARM RESIDENTIAL 6138 SCHOONER CIR CFS# 2012-007553 Run# 000656 CROS
 DES DIFFICULTY BREATHING 9445 INAUGURAL DR CFS# 2012-007549 Run# 000655 CROSS: KINGS HWY/COLUMBIA DR
 KGFR1 MUTUAL AID TO (FIRE) 518 MARKET ST PORT ROYAL CFS# 2012-007530 Run# 000652 
 **********************************************************
-Waterford Township, CT
+Waterford Town, CT
 Contact: Jason Finnigan <finni94tac@gmail.com>
 Dispatched from waterford communications center
 Sender: WaterfordDispatch@mydomain.com
