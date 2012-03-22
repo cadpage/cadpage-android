@@ -75,6 +75,15 @@ public class NJSalemCountyBParserTest extends BaseParserTest {
         "CITY:Pennsville Township",
         "X:Rt 130 Overpass",
         "NAME:520");
+
+    doTest("T7",
+        "(Chief ALT) [STA:7] -- Structure Fire - Medium Hazard -- 709 S Broadway Way Pennsville Township NJ - Cross STS:Sharp St And Lighthouse Rd -- Caller: LS-5",
+        "SRC:STA:7",
+        "CALL:Structure Fire - Medium Hazard",
+        "ADDR:709 S Broadway Way",
+        "CITY:Pennsville Township",
+        "X:Sharp St And Lighthouse Rd",
+        "NAME:LS-5");
   }
   
   public static void main(String[] args) {
