@@ -52,6 +52,21 @@ C30 EMS-DIFFICULTY BREATHING 3240 THOROUGHFARE RD ELK CFS# 2010-094548 CROSS: WH
 C30 EMS-DIFFICULTY BREATHING 320 E ROCKINGHAM ST ELK CFS# 2010-094840 CROSS: JACKSON AVE/PAGE ST
 R35 EMS-ILLNESS 516 W SPOTSWOOD TRL ELK CFS# 2011-018309 CROSS: SHENANDOAH AVE/2ND ST
 
+King George County, VA
+KGFR1 MOTOR VEHICLE ACCIDENT KINGS HWY & BIG TIMBER RD CFS# 2012-007738 Run# 000668
+DES MOTOR VEHICLE ACCIDENT KINGS HWY & BIG TIMBER RD CFS# 2012-007738 Run# 000668
+DES CHOKING 6053 ROSEDALE DR CFS# 2012-007707 Run# 000666 CROSS: FERRY DOCK RD/SIXTH ST
+DES MOTOR VEHICLE ACCIDENT KINGS HWY & BIG TIMBER RD CFS# 2012-007738 Run# 000668
+KGFR1 PUBLIC SERVICE - FIRE DEPT 8122 KINGS HWY CFS# 2012-007650 Run# 000664 CROSS: MADISON DR/DAHLGREN RD
+DES ILLNESS 9352 INAUGURAL DR CFS# 2012-007642 Run# 000663 CROSS: COLUMBIA DR/AMBASSADOR DR
+KGFR1 PUBLIC SERVICE - FIRE DEPT 8122 KINGS HWY CFS# 2012-007650 Run# 000664 CROSS: MADISON DR/DAHLGREN RD
+DES ALLERGIC REACTION 9447 INAUGURAL DR CFS# 2012-007604 Run# 000661 CROSS: KINGS HWY/COLUMBIA DR
+DES ILLNESS 17065 TWELFTH ST CFS# 2012-007589 Run# 000659 CROSS: DAHLGREN RD/POTOMAC DR
+DES ABDOMINAL PAIN 4755 JAMES MADISON PKY CFS# 2012-007574 Run# 000657 CROSS: COMMERCE DR/DANUBE DR
+KGFR2 FIRE ALARM RESIDENTIAL 6138 SCHOONER CIR CFS# 2012-007553 Run# 000656 CROSS: WINDWARD LN/ROSEDALE DR
+DES DIFFICULTY BREATHING 9445 INAUGURAL DR CFS# 2012-007549 Run# 000655 CROSS: KINGS HWY/COLUMBIA DR
+KGFR1 MUTUAL AID TO (FIRE) 518 MARKET ST PORT ROYAL CFS# 2012-007530 Run# 000652 
+
 
 ** NOT PARSING ***
 Contact: "Wes Grieve" <wesgrieve@yahoo.com>
@@ -62,9 +77,20 @@ MAILBOX:SAVANNAH LN/NAUMAN LN
 
 public class DispatchDAPROParser extends FieldProgramParser {
   
+  private static final String PROGRAM_STR = "ADDR/SC! CFS:ID! Run:SKIP? CROSS:X";
+  
+  public DispatchDAPROParser(String defCity, String defState) {
+    super(defCity, defState, PROGRAM_STR);
+    buildCallDictionary();
+  }
+  
   public DispatchDAPROParser(Properties cityCodeTable, String defCity, String defState) {
-    super(cityCodeTable, defCity, defState,
-           "ADDR/SC! CFS:ID! CROSS:X");
+    super(cityCodeTable, defCity, defState, PROGRAM_STR);
+    buildCallDictionary();
+  }
+  
+  public DispatchDAPROParser(String[] cityList, String defCity, String defState) {
+    super(cityList, defCity, defState, PROGRAM_STR);
     buildCallDictionary();
   }
   
@@ -76,6 +102,7 @@ public class DispatchDAPROParser extends FieldProgramParser {
     pt += 4;
     body = body.substring(0,pt) + ':' + body.substring(pt+1);
     if (body.startsWith("MAILBOX:")) body = body.substring(8).trim();
+    body = body.replace(" Run# ", " Run: ");
     
     if (! super.parseMsg(body, data)) return false;
     if (data.strAddress.length() == 0) return false;

@@ -300,6 +300,11 @@ MAILBOX:S07 EMS-OTHER/DEFINE 18360 VIRGIL H GOODE HWY 124 RMT CFS# 2010-030542 C
 MAILBOX:S07 EMS-CHEST PAIN 413 WOODDALE DR RMT CFS# 2010-030355 CROSS: VIRGIL H GOODE HWY/DEAD END
 MAILBOX:S07 EMS-PATIENT FALLEN 3005 GREEN LEVEL RD RMT CFS# 2010-030541 CROSS: GRASSY HILL RD/LITTLE MOUNTAIN DR
 *******************************************************************************
+King George County, VA (VAKingGeorgeCounty)
+KGFR1 MOTOR VEHICLE ACCIDENT KINGS HWY & BIG TIMBER RD CFS# 2012-007738 Run# 000668
+DES MOTOR VEHICLE ACCIDENT KINGS HWY & BIG TIMBER RD CFS# 2012-007738 Run# 000668
+DES CHOKING 6053 ROSEDALE DR CFS# 2012-007707 Run# 000666 CROSS: FERRY DOCK RD/SIXTH ST
+*******************************************************************************
 Page County, VA (VAPageCountyParser)
 MAILBOX:RS3 PAIN 16 E MAIN ST LUR CFS# 2011-000782 CROSS: BROAD ST/TANNERY RD
 ***************************************************************************
@@ -4007,18 +4012,18 @@ Very similar to Shasta County, CA
 Sender: btucad@fire.ca.gov<mailto:btucad@fire.ca.gov>
 (CAD Page) MEDICAL; 1759 12TH ST ,THERMALITO ; ; 1200 BLK TEHAMA AVE; Map: 6683; Inc# 002759; Date-Time: 21-Mar-2012/20:55:59; CARDIAC;
 **********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-************  READY TO ROLL ******************************
-**********************************************************
-**********************************************************
 Marion County (N), OR (Replacement)  
 Contact: Louis Gisler <lgisler1@gmail.com>
 Sender: trex@ci.woodburn.or.us
 Subject:(41911) :\nR63 MED60 C60 R60  MEDICAL  771 S GRICE LP  MAP 5020 78 YOM RECTAL BLEEDING\r
 Subject:(42496) :\nMEDICAL 471 N 2ND ST  MAP/5020A\r
 Subject:(42327) :\nSMALL FUEL SPILL, I5/239/SB 5217\r
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
+************  READY TO ROLL ******************************
+**********************************************************
 **********************************************************
 Geauga County, OH (alternate)
 Contact: Courtney Sanders <csanders3217@gmail.com>
@@ -4065,24 +4070,6 @@ HAMBDEN FD RESCUE NEEDED AT 14050 GAR HWY FOR A 21 YOM IN AND OUT OF CONCIOUSNES
 **********************************************************
 **********************************************************
 **********************************************************
-King George County, VA
-Contact: "Michael S. Hirsh" <kgdes914@gmail.com>
-Sender: 
-System: Daypro
-DispatchDAPROPParser subclass
-KGFR1 MOTOR VEHICLE ACCIDENT KINGS HWY & BIG TIMBER RD CFS# 2012-007738 Run# 000668
-DES MOTOR VEHICLE ACCIDENT KINGS HWY & BIG TIMBER RD CFS# 2012-007738 Run# 000668
-DES CHOKING 6053 ROSEDALE DR CFS# 2012-007707 Run# 000666 CROSS: FERRY DOCK RD/SIXTH ST
-DES MOTOR VEHICLE ACCIDENT KINGS HWY & BIG TIMBER RD CFS# 2012-007738 Run# 000668
-KGFR1 PUBLIC SERVICE - FIRE DEPT 8122 KINGS HWY CFS# 2012-007650 Run# 000664 CROSS: MADISON DR/DAHLGREN RD
-DES ILLNESS 9352 INAUGURAL DR CFS# 2012-007642 Run# 000663 CROSS: COLUMBIA DR/AMBASSADOR DR
-KGFR1 PUBLIC SERVICE - FIRE DEPT 8122 KINGS HWY CFS# 2012-007650 Run# 000664 CROSS: MADISON DR/DAHLGREN RD
-DES ALLERGIC REACTION 9447 INAUGURAL DR CFS# 2012-007604 Run# 000661 CROSS: KINGS HWY/COLUMBIA DR
-DES ILLNESS 17065 TWELFTH ST CFS# 2012-007589 Run# 000659 CROSS: DAHLGREN RD/POTOMAC DR
-DES ABDOMINAL PAIN 4755 JAMES MADISON PKY CFS# 2012-007574 Run# 000657 CROSS: COMMERCE DR/DANUBE DR
-KGFR2 FIRE ALARM RESIDENTIAL 6138 SCHOONER CIR CFS# 2012-007553 Run# 000656 CROSS: WINDWARD LN/ROSEDALE DR
-DES DIFFICULTY BREATHING 9445 INAUGURAL DR CFS# 2012-007549 Run# 000655 CROSS: KINGS HWY/COLUMBIA DR
-KGFR1 MUTUAL AID TO (FIRE) 518 MARKET ST PORT ROYAL CFS# 2012-007530 Run# 000652 
 **********************************************************
 Waterford Town, CT
 Contact: Jason Finnigan <finni94tac@gmail.com>
