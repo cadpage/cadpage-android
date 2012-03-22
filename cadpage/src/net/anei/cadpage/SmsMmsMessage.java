@@ -138,7 +138,7 @@ public class SmsMmsMessage implements Serializable {
     return responseMenuVisible;
   }
   
-  public void setResposneMenuVisible(boolean responseMenuVisible) {
+  public void setResponseMenuVisible(boolean responseMenuVisible) {
     if (this.responseMenuVisible == responseMenuVisible) return;
     this.responseMenuVisible = responseMenuVisible;
     reportDataChange();
@@ -684,6 +684,16 @@ public class SmsMmsMessage implements Serializable {
       ackNeeded = false;
       reportDataChange();
     }
+  }
+  
+  /**
+   * Send response code by to vendor
+   * @param context current context
+   * @param respCode response code to be sent
+   */
+  public void sendResponse(Context context, String respCode) {
+    C2DMReceiver.sendResponseMsg(context, ackReq, ackURL, respCode);
+    
   }
   
   /**

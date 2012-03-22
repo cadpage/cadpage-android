@@ -6,7 +6,6 @@
    <string name="new_text_at">New Call Received at %s</string>
    <string name="src_text_at">%1$s call at %2$s</string>
    <string name="mms_subject">Subject:</string>
-   <string name="more_info">More Info</string>
    
 <!--  Permission strings -->
    <string name="cadperm_title">Receive CAD pages</string>
@@ -405,6 +404,7 @@
   <!-- Message menu items -->
   <string name="open_item_text">Open</string>
   <string name="ack_item_text">Ack</string>
+  <string name="resp_menu_item_text">Resp Menu</string>
   <string name="map_item_text">Map</string>
   <string name="lock_item_text">Lock</string>
   <string name="unlock_item_text">Unlock</string>
@@ -413,6 +413,10 @@
   <string name="close_app_item_text">Close App</string>
   <string name="email_item_text">Report Problem</string>
   <string name="publish_item_text">Publish Page</string>
+  <string name="more_info_item_text">More Info</string>
+  
+  <!--  Response message menu items  -->
+  <string name="not_responding_text">Not Responding</string>
 
   <!-- Email developer Dialog items -->
   <string name="pref_sendemail_title">E-mail the developers</string>

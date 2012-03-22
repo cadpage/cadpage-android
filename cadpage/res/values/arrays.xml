@@ -68,7 +68,7 @@
   <!--  Configurable popup dialog buttons -->
   <string-array name="pref_button_text">
     <item>@string/button_disabled</item>
-    <item>@string/ack_item_text</item>
+    <item>@string/resp_menu_item_text</item>
     <item>@string/map_item_text</item>
     <item>@string/lock_item_text</item>
     <item>@string/delete_item_text</item>
@@ -76,6 +76,7 @@
     <item>@string/close_app_item_text</item>
     <item>@string/email_item_text</item>
     <item>@string/publish_item_text</item>
+    <item>@string/more_info_item_text</item>
   </string-array>
   <string-array
     name="pref_button_values">
@@ -88,6 +89,7 @@
     <item>8</item>
     <item>6</item>
     <item>7</item>
+    <item>9</item>
   </string-array>  
 
   <string-array name="pref_timeout_entries">

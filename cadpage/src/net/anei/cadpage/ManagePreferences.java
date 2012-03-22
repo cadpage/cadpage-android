@@ -30,7 +30,7 @@ public class ManagePreferences {
   // (OK, if you know what you are doing, and the only new settings added
   // are boolean settings that default to false, you can get away with not
   // changing this)
-  private static final int PREFERENCE_VERSION = 20;
+  private static final int PREFERENCE_VERSION = 21;
   
   private static final DateFormat DATE_FORMAT = new SimpleDateFormat("MMddyyyy");
   
@@ -56,7 +56,7 @@ public class ManagePreferences {
     }
     
     // If old version was < 20, we need to reset the popup button configuration settings
-    if (oldVersion < 20) {
+    if (oldVersion < 21) {
       prefs.putString(R.string.pref_button1_key, context.getString(R.string.pref_button1_default));
       prefs.putString(R.string.pref_button2_key, context.getString(R.string.pref_button2_default));
       prefs.putString(R.string.pref_button3_key, context.getString(R.string.pref_button3_default));

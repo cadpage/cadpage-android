@@ -119,32 +119,12 @@ public class SmsPopupActivity extends Activity {
     messageScrollView = (ScrollView) findViewById(R.id.MessageScrollView);
 
     // Set up regular button list
-    optManager.setupButtons((ViewGroup)findViewById(R.id.RegButtonLayout));
+    optManager.setupButtons((ViewGroup)findViewById(R.id.RespButtonLayout),
+                            (ViewGroup)findViewById(R.id.RegButtonLayout));
 
     // Enable long-press context menu
     mainLL = (LinearLayout)findViewById(R.id.MainLinearLayout);
     registerForContextMenu(mainLL);
-    
-    // Set up Callback button
-    View btnCB = findViewById(R.id.btnCallback);
-    if ( ManagePreferences.getCallback().length() > 0 ){
-      btnCB.setVisibility(View.VISIBLE);
-      btnCB.setOnClickListener(new View.OnClickListener() {
-        @Override
-        public void onClick(View v) {
-          try {
-            String urlPhone = "tel:" + ManagePreferences.getCallback();
-            Intent intent = new Intent(Intent.ACTION_CALL);
-            intent.setData(Uri.parse(urlPhone));
-            startActivity(intent);
-          } catch (Exception e) {
-            Log.v("SMSPopupActivity: Phone call failed" + e.getMessage());
-          }
-
-        }
-      });
-    }
-    else btnCB.setVisibility(View.GONE);
     
     // Hook donate status button to current donation status
     Button btn = (Button)findViewById(R.id.donate_status_button);

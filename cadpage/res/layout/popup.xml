@@ -40,19 +40,15 @@
     android:layout_width="fill_parent"
     android:layout_height="wrap_content" />
 
-  <LinearLayout
+  <net.anei.cadpage.widget.FlowLayout
+    android:id="@+id/RespButtonLayout"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
-    android:gravity="center"
-    android:padding="4dp">
-    <ImageButton android:layout_width="wrap_content" 
-      android:layout_height="wrap_content" 
-      android:id="@+id/btnCallback" 
-      android:gravity="center"
-      android:background="@drawable/ic_callback_pop" 
-      android:fadeScrollbars="false" 
-      android:clickable="true"/>
-  </LinearLayout>
+    f:justify="fill"
+    f:balance="true"
+    f:horizontalSpacing="4dip"
+    f:verticalSpacing="4dip"
+    android:padding="4dp"/>
 
   <net.anei.cadpage.widget.FlowLayout
     android:id="@+id/RegButtonLayout"

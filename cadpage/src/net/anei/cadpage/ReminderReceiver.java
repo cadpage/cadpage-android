@@ -12,6 +12,9 @@ public class ReminderReceiver extends BroadcastReceiver {
   
   private static String EXTRAS_MSG_ID = "net.anei.cadpage.EXTRAS_MSG_ID";
   private static String EXTRAS_COUNT = "net.anei.cadpage.EXTRAS_REMINDER_COUNT";
+  
+  // Flag we keep so we can tell if their is a reminder active
+  private static boolean reminderActive = false;
 
   /*
    * We're not going to do anything in the onReceive() as taking too long here
@@ -46,7 +49,8 @@ public class ReminderReceiver extends BroadcastReceiver {
 
     if (repeatCount > 0) repeatCount--;
 
-    if (repeatCount != 0) {
+    reminderActive = repeatCount != 0;
+    if (reminderActive) {
       ReminderReceiver.scheduleReminder(context, message, repeatCount);
       ManageWakeLock.acquireFull(context);
     }
@@ -85,6 +89,8 @@ public class ReminderReceiver extends BroadcastReceiver {
       if (Log.DEBUG) Log.v("ReminderReceiver: scheduled reminder notification in " + reminderInterval
           + " seconds, count is " + 999);
       myAM.set(AlarmManager.RTC_WAKEUP, triggerTime, reminderPendingIntent);
+      
+      reminderActive = true;
     }
   }
 
@@ -94,11 +100,20 @@ public class ReminderReceiver extends BroadcastReceiver {
    */
   public static void cancelReminder(Context context) {
 
+    reminderActive = false;
     Intent reminderIntent = new Intent(context, ReminderReceiver.class);
     reminderIntent.setAction(ACTION_REMIND);
     PendingIntent reminderPendingIntent =
       PendingIntent.getBroadcast(context, 0, reminderIntent, PendingIntent.FLAG_CANCEL_CURRENT);
     reminderPendingIntent.cancel();
     if (Log.DEBUG) Log.v("ReminderReceiver: cancelReminder()");
+  }
+
+  /**
+   * Determine if we need an acknowledge button to clear an active reminder 
+   * @return true if we need an acknowledge button
+   */
+  public static boolean isAckNeeded() {
+    return reminderActive;
   }
 }

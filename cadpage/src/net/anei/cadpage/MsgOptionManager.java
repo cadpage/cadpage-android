@@ -26,9 +26,13 @@ public class MsgOptionManager {
   private Activity activity;
   private SmsMmsMessage message;
   
-  // View group and list of button handlers associated with regular buttons
-  private ViewGroup regButtonGroup = null;
-  private List<ButtonHandler> regButtonList = new ArrayList<ButtonHandler>();
+  // View group and list of button handlers associated with response menu buttons
+  private ViewGroup respButtonGroup = null;
+  private List<ButtonHandler> respButtonList = new ArrayList<ButtonHandler>();
+  
+  // View group and list of button handlers associated with main menu buttons
+  private ViewGroup mainButtonGroup = null;
+  private List<ButtonHandler> mainButtonList = new ArrayList<ButtonHandler>();
   
   public MsgOptionManager(Activity activity) {
     this(activity, null);
@@ -41,6 +45,10 @@ public class MsgOptionManager {
   
   public void setMessage(SmsMmsMessage message) {
     this.message = message;
+    
+    // If we are in the process of building button lists for the call display
+    // then we have to set up a response array with this message
+    if (respButtonGroup != null) setupResponseButtons();
   }
 
   /**
@@ -55,6 +63,7 @@ public class MsgOptionManager {
     if (display) {
       menu.removeItem(R.id.open_item);
     } else {
+      menu.removeItem(R.id.resp_menu_item);
       menu.removeItem(R.id.close_item);
     }
   }
@@ -95,38 +104,113 @@ public class MsgOptionManager {
 
   // List of menu items associated with each button index.
   private static final int[] ITEM_ID_LIST = new int[]{
-    0, R.id.ack_item, R.id.map_item, R.id.toggle_lock_item, 
-    R.id.delete_item, R.id.close_item, R.id.email_item,
-    R.id.publish_item, R.id.close_app_item
+    0, 
+    R.id.resp_menu_item, 
+    R.id.map_item, 
+    R.id.toggle_lock_item, 
+    R.id.delete_item, 
+    R.id.close_item, 
+    R.id.email_item,
+    R.id.publish_item, 
+    R.id.close_app_item,
+    R.id.more_info_item
   };
   
   // List of item title resources associated with each button index
   private static final int[] ITEM_TEXT_LIST = new int[]{
-    0, R.string.ack_item_text, R.string.map_item_text, 0, 
-    R.string.delete_item_text, R.string.close_item_text, R.string.email_item_text,
-    R.string.publish_item_text, R.string.close_app_item_text
+    0, 
+    R.string.resp_menu_item_text, 
+    R.string.map_item_text, 
+    0, 
+    R.string.delete_item_text, 
+    R.string.close_item_text, 
+    R.string.email_item_text,
+    R.string.publish_item_text, 
+    R.string.close_app_item_text,
+    R.string.more_info_item_text
   };
   
-  public void setupButtons(ViewGroup viewGroup) {
-    regButtonGroup = viewGroup;
+  public void setupButtons(ViewGroup respButtonGroup, ViewGroup mainButtonGroup) {
+    this.respButtonGroup = respButtonGroup;
+    this.mainButtonGroup = mainButtonGroup;
+    
+    // If we have a message, use it to set up the response menu
+    if (message != null) setupResponseButtons();
 
     // Setup the regular button list
-    regButtonList.clear();
+    boolean hasMoreInfo = false;
+    mainButtonList.clear();
+    mainButtonGroup.removeAllViews();
     for (int btn = 1; btn <= 6; btn++) {
       int itemNdx = ManagePreferences.popupButton(btn);
       if (itemNdx == 0) continue;
-      regButtonList.add(new ButtonHandler(ITEM_ID_LIST[itemNdx], ITEM_TEXT_LIST[itemNdx], regButtonGroup));
+      if (itemNdx == 9) hasMoreInfo = true;
+      mainButtonList.add(new ButtonHandler(ITEM_ID_LIST[itemNdx], ITEM_TEXT_LIST[itemNdx], mainButtonGroup));
     }
     
-    // More info button is always added at end
-    regButtonList.add(new ButtonHandler(R.id.more_info_item, R.string.more_info, regButtonGroup));
+    // If user doesn't have a More info button configured, add it at the end
+    if (!hasMoreInfo) {
+      mainButtonList.add(new ButtonHandler(R.id.more_info_item, R.string.more_info_item_text, mainButtonGroup));
+    }
+  }
+  
+  /**
+   * Setup up the response button menu.  This is called when we finally have
+   * both a message and response button viewgroup
+   */
+  private void setupResponseButtons() {
+    
+    // Start by clearing any previous arrays
+    respButtonList.clear();
+    respButtonGroup.removeAllViews();
+    
+    // There are three cases.  First if there is a callback number configured
+    // we want to set up responding and not responding buttons
+    String callback = ManagePreferences.getCallback();
+    if (callback.length() > 0) {
+      respButtonList.add(new ButtonHandler(R.id.ack_item, R.string.not_responding_text, respButtonGroup));
+      respButtonList.add(new ButtonHandler(R.id.resp_call_item, "Responding", callback, respButtonGroup));
+    }
+    
+    // Second, if there are any pending notifications set up a single ack button
+    else if (ManageNotification.isAckNeeded()) {
+      respButtonList.add(new ButtonHandler(R.id.ack_item, R.string.ack_item_text, respButtonGroup));
+    }
+    
+    // Otherwise, there is no response menu needed
   }
 
   /**
    * Make any last minute corrections to button statuses
    */
   public void prepareButtons() {
-    for (ButtonHandler btnHandler : regButtonList) {
+    
+    // First step is to see which button menu should be visible
+    // If we do not have a response button menu, then force main menu display mode
+    boolean responseMenu = message.isResponseMenuVisible();
+    if (responseMenu && respButtonList.size() == 0) {
+      responseMenu = false;
+      message.setResponseMenuVisible(false);
+    }
+    
+    // Set the menu visibility and prepare all buttons in the visible menu
+    if (responseMenu) {
+      respButtonGroup.setVisibility(View.VISIBLE);
+      mainButtonGroup.setVisibility(View.GONE);
+      prepareButtons(respButtonList);
+    } else {
+      respButtonGroup.setVisibility(View.GONE);
+      mainButtonGroup.setVisibility(View.VISIBLE);
+      prepareButtons(mainButtonList);
+    }
+  }
+
+  /**
+   * Prepare all buttons in a button menu
+   * @param buttonList list of buttons to be prepared
+   */
+  public void prepareButtons(List<ButtonHandler> buttonList) {
+    for (ButtonHandler btnHandler : buttonList) {
       btnHandler.prepareButton();
     }
   }
@@ -137,14 +221,46 @@ public class MsgOptionManager {
   private class ButtonHandler implements OnClickListener {
     final private int itemId;
     final private Button button;
+    private String respCode = null;
 
+    /**
+     * Normal constructor for regular button items
+     * @param itemId button item ID
+     * @param resId button title resource ID
+     * @param parent parent ViewGroup
+     */
     public ButtonHandler(int itemId, int resId, ViewGroup parent) {
+      this(itemId, resId, null, null, parent);
+    }
+    
+    /**
+     * Common constructor 
+     * @param itemId button item ID
+     * @param title button title
+     * @param respCode button response code
+     * @param parent parent ViewGroup
+     */
+    public ButtonHandler(int itemId, String title, String respCode, ViewGroup parent) {
+      this(itemId, 0, title, respCode, parent);
+    }
+    
+    /**
+     * Common constructor 
+     * @param itemId button item ID
+     * @param resId button title resource ID
+     * @param title button title
+     * @param respCode button response code
+     * @param parent parent ViewGroup
+     */
+    private ButtonHandler(int itemId, int resId, String title, String respCode, ViewGroup parent) {
       this.itemId = itemId;
       button = (Button)LayoutInflater.from(activity).inflate(R.layout.popup_button, parent, false);
       button.setId(itemId);
       if (resId != 0) button.setText(resId);
+      else button.setText(title);
       button.setOnClickListener(this);
       parent.addView(button);
+      this.respCode = respCode;
     }
     
     public void prepareButton() {
@@ -175,7 +291,7 @@ public class MsgOptionManager {
     public void onClick(View v) {
       
       // Perform the requested action
-      menuItemSelected(itemId, true);
+      menuItemSelected(itemId, true, respCode);
       
       // Reset button status in case anything has changed
       prepareButtons();
@@ -193,9 +309,10 @@ public class MsgOptionManager {
     
     switch (item.getId()) {
     
-    // Disabled button is never visible
-    case 0:
-      item.setVisible(false);
+    // Response menu button is only visible if response menu has more than one button
+    // A single button would be a Ack button which never has to be repeated
+    case R.id.resp_menu_item:
+      item.setVisible(respButtonList.size() > 1);
       break;
     
     // Disable map item if we have no address
@@ -223,8 +340,6 @@ public class MsgOptionManager {
       item.setVisible(message.getInfoURL() != null);
       break;
     }
-    
-   
   }
 
   /**
@@ -234,18 +349,23 @@ public class MsgOptionManager {
    * @return true if menu item processed, false otherwise
    */
   public boolean menuItemSelected(int itemId, boolean display) {
+    return menuItemSelected(itemId, display, null);
+  }
+  
+  public boolean menuItemSelected(int itemId, boolean display, String respCode) {
     
     // Any button clears the notice
     ManageNotification.clear(activity);
     message.acknowledge(activity);
 
     switch (itemId) {
-    case R.id.open_item:
-      SmsPopupActivity.launchActivity(activity, message);
+    
+    case R.id.resp_menu_item:
+      message.setResponseMenuVisible(true);
       return true;
       
-    case R.id.ack_item:
-      // Doesn't do anything yet (except clear notification)
+    case R.id.open_item:
+      SmsPopupActivity.launchActivity(activity, message);
       return true;
       
     case R.id.map_item:
@@ -280,6 +400,30 @@ public class MsgOptionManager {
       
     case R.id.more_info_item:
       message.showMoreInfo(activity);
+      return true;
+      
+    case R.id.ack_item:
+      message.setResponseMenuVisible(false);
+      return true;
+      
+    case R.id.resp_call_item:
+      message.setResponseMenuVisible(false);
+      try {
+        String urlPhone = "tel:" + respCode;
+        Intent intent = new Intent(Intent.ACTION_CALL);
+        intent.setData(Uri.parse(urlPhone));
+        activity.startActivity(intent);
+      } catch (Exception e) {
+        Log.v("SMSPopupActivity: Phone call failed" + e.getMessage());
+      }
+      return true;
+      
+    case R.id.resp_text_item:
+      return true;
+      
+    case R.id.resp_http_item:
+      message.setResponseMenuVisible(false);
+      message.sendResponse(activity, respCode);
       return true;
     
     default:

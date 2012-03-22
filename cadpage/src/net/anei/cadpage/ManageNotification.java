@@ -413,4 +413,19 @@ public class ManageNotification {
 
     return null;
   }
+
+
+  /**
+   * Called to determine if an acknowledge function is needed to clear a
+   * pending alert
+   * @return true if there is a reminder or alert to be cleared
+   */
+  public static boolean isAckNeeded() {
+    
+    // If the media player is active, we *REALLY* need an acknowledge function
+    if (mMediaPlayer != null) return true;
+    
+    // Otherwise ask the Reminder Receiver it if has an active reminder out
+    return ReminderReceiver.isAckNeeded();
+  }
 }
