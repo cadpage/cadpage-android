@@ -1,6 +1,20 @@
+Publishing a Cadpage Parser update
+* Run CadTests and fix any problems
+* Open a cammand shell and run "ant build" in the Cadpage work directory.
+  This will build a CadpageParser.jar file in the dist directory
+* Open the Cadpage project and switch to the Downloads page
+* There is a file cabinet near the bottom of the page that contains a 
+  CadpageParser.jar file.  Click the Add File button, select the new 
+  CadpageParser.jar file and upload it.
+* Open current issues and display all with a status of "ReadyToRelease"
+* Fire of an email to anyone using the Cadpage Parser describing the changes
+  reported in the ReadyToRelease issues
+* Block change ReadyToRelease issues to give them a status of Beta  
+
+
 Publishing a Cadpage Beta release
 
-* Run CadTests and fix any problems
+* First publish a Cadpage Parser update if you haven't already
 * Update the release version numbers in AndroidManifest.xml
 * Commit changes to AndroidManifest.xml
 * Use Cadpage RMB menu Android Tools > Export signed application package to
@@ -16,9 +30,9 @@ Publishing a Cadpage Beta release
 ***************************************************************************
 Publishing a regular Cadpage release
 
-* Run CadTests and fix any problems
+* Publish a Cadpage Parser update if you haven not done so already
 * Update the release version numbers in AndroidManifest.xml
-* Open current issues and display all with a status of "ReadyToRelease"
+* Open current issues and display all with a status of "Beta"
 * open res/values/release_info.xml
 * update release_version item
 * update release_date item

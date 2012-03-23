@@ -1,40 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">03152012</string>
-  <string name="release_version">v1.5.22</string>
+  <string name="release_date">03222012</string>
+  <string name="release_version">v1.5.23</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="min_expire_date">10012012</string>
   <string name="release_text">
-What"'"s new in this release\n
+Major changes to the way the call detail buttons are configured and used\n
+Buttons are no longer optional, you have to have them\n
+You can configure up to 6 buttons
+If a callback number is configured, you will first be given the choice of
+Not Responding or Responding buttons.  If there is something for the Ack button 
+to do, it will be shown by itself until you acknowledge the call.  Then you
+get to the regular button menu, which no longer includes an Ack button\n
+There is a new Close App button that closes both the call display and call
+history windows\n 
 \n
 New Locations:\n
-St Louis County, MO (Alt)\n
-Erie County, NY (Alt)\n
-Suffolk County, NY (Alt)\n
-Burlington County, NJ (Alt)\n
+Waterford Town, CT\n
+Suffolk County, NY (alt)\n
+King George County, VA\n
 \n
 Location Parsing Fixes:\n
-Marion County, IN\n
-Kent County, MD\n
-Cecil County, MD\n
+Delmar, DE\n
+Calvert County, MD\n
 Prince Georges County, MD\n
-Queen Anne"'"s County, MD\n
-Marion County, MS\n
-Shelby County, OH\n
-Camden County, NJ\n
-Somerset County, NJ\n
-Madison County, NY\n
-Orleans County, NY\n
+Salem County, NJ\n
+Genesee County, NY\n
 Suffolk County, NY\n
+Sampson County, NC\n
+Delaware County, OH\n
 Hamilton County, OH\n
-Bucks County, PA\n
-Dauphin County, PA\n
-Mifflin County, PA\n
-Cy Creek Comm Center, TX\n
+Delaware County, PA\n
+Chester County, PA\n
+Lehigh County, PA\n
 \n
 General Fixes:\n
-Another attempt to track down sporadic problem bringing up old calls.
+Fixed problem with odd calls coming up when Cadpage is first launched
   </string>  
 </resources>
   
