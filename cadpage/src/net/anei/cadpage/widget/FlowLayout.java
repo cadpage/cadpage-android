@@ -17,7 +17,7 @@ public class FlowLayout extends ViewGroup {
   private static final int JUSTIFY_CENTER = 3;
   private static final int JUSTIFY_FILL = 4;
   
-  private static final boolean DEBUG = false;
+  private static final boolean DEBUG = true;
 	private int mHorizontalSpacing;
 	private int mVerticalSpacing;
 	private boolean mBalance;
@@ -45,8 +45,9 @@ public class FlowLayout extends ViewGroup {
 	  
 	  // Sometimes a parent throws a zero size spec at us.  Which is what throws us
 	  // into an infinite loop.  So we check for that problem here and if found
-	  // return an empty measurement
-	  if (isNullSpec(widthMeasureSpec) || isNullSpec(heightMeasureSpec)) {
+	  // return an empty measurement.  Ditto if the view group is empty
+    final int count = getChildCount();
+	  if (count == 0 || isNullSpec(widthMeasureSpec) || isNullSpec(heightMeasureSpec)) {
 	    setMeasuredDimension(resolveSize(0, widthMeasureSpec),
                            resolveSize(0, heightMeasureSpec));
 	    return;
@@ -67,12 +68,18 @@ public class FlowLayout extends ViewGroup {
     }
     
     // Start by calculating the desired size of each child
-    final int count = getChildCount();
+    boolean empty = true;
     for (int ndx = 0; ndx < count; ndx++) {
       View child = getChildAt(ndx);
-      if (child.getVisibility() == View.GONE) continue; 
+      if (child.getVisibility() == View.GONE) continue;
+      empty = false;
       child.measure(childWidthSpec, MeasureSpec.UNSPECIFIED);
       if (DEBUG) Log.w("B" + ndx + "  W:" + child.getMeasuredWidth() + "  H:" + child.getMeasuredHeight());
+    }
+    if (empty) {
+      setMeasuredDimension(resolveSize(0, widthMeasureSpec),
+                           resolveSize(0, heightMeasureSpec));
+      return;
     }
     
     // If the balance option is set, we will multiple calls to calclayout
