@@ -164,20 +164,79 @@ public class MsgOptionManager {
     respButtonList.clear();
     respButtonGroup.removeAllViews();
     
-    // There are three cases.  First if there is a callback number configured
-    // we want to set up responding and not responding buttons
-    String callback = ManagePreferences.getCallback();
-    if (callback.length() > 0) {
-      respButtonList.add(new ButtonHandler(R.id.ack_item, R.string.not_responding_text, respButtonGroup));
-      respButtonList.add(new ButtonHandler(R.id.resp_call_item, "Responding", callback, respButtonGroup));
+    // Lets see what we need for a response button menu
+    do {
+      
+      // If response options have been requested by a direct paging vendor, they
+      // preempt everything
+      if (setupDirectPageMenu()) break;
+      
+      
+      // If there is a callback number configured
+      // we want to set up responding and not responding buttons
+      String callback = ManagePreferences.getCallback();
+      if (callback.length() > 0) {
+        respButtonList.add(new ButtonHandler(R.id.ack_item, R.string.not_responding_text, respButtonGroup));
+        respButtonList.add(new ButtonHandler(R.id.resp_call_item, R.string.responding_text, callback, respButtonGroup));
+        break;
+      }
+      
+      // Second, if there are any pending notifications set up a single ack button
+      if (ManageNotification.isAckNeeded()) {
+        respButtonList.add(new ButtonHandler(R.id.ack_item, R.string.ack_item_text, respButtonGroup));
+        break;
+      }
+      
+      // Otherwise, there is no response menu needed
+      return;
+    } while (false);
+  }
+  
+  /**
+   * Set up response menu with buttons defined by C2DM direct paging vendors
+   * @return true if we set up any buttons, false otherwise
+   */
+  public boolean setupDirectPageMenu() {
+    boolean result = false;
+    
+    // First see if normal responding and non-responding buttons were requested
+    // We don't generate a not responding button unless a responding button was
+    // requested.  If a responding button is requested without a not responding
+    // button, generate a dummy not responding button that doesn't do anything
+    String ackReq = message.getAckReq();
+    if (ackReq != null && ackReq.contains("R")) {
+      if (ackReq.contains("N")) {
+        respButtonList.add(new ButtonHandler(R.id.resp_http_item, R.string.not_responding_text, "NO", respButtonGroup));
+      } else {
+        respButtonList.add(new ButtonHandler(R.id.ack_item, R.string.not_responding_text, respButtonGroup));
+      }
+      respButtonList.add(new ButtonHandler(R.id.resp_http_item, R.string.responding_text, "RESP", respButtonGroup));
+      result = true;
     }
     
-    // Second, if there are any pending notifications set up a single ack button
-    else if (ManageNotification.isAckNeeded()) {
-      respButtonList.add(new ButtonHandler(R.id.ack_item, R.string.ack_item_text, respButtonGroup));
+    // Next see if they requested any custom menus, and if they did, set those up
+    String respMenu = message.getResponseMenu();
+    if (respMenu != null) {
+      for (String btnDef : respMenu.split(";")) {
+        String respCode, respDesc;
+        int pt = btnDef.indexOf('=');
+        if (pt >= 0) {
+          respCode = btnDef.substring(0,pt).trim();
+          respDesc = btnDef.substring(pt+1).trim();
+        } else {
+          respCode = "";
+          respDesc = btnDef.trim();
+        }
+        if (respCode.length() > 0) {
+          respButtonList.add(new ButtonHandler(R.id.resp_http_item, respDesc, respCode, respButtonGroup));
+        } else {
+          respButtonList.add(new ButtonHandler(R.id.ack_item, respDesc, null, respButtonGroup));
+        }
+        result = true;
+      }
     }
     
-    // Otherwise, there is no response menu needed
+    return result;
   }
 
   /**
@@ -234,7 +293,7 @@ public class MsgOptionManager {
     }
     
     /**
-     * Common constructor 
+     * Response button constructor
      * @param itemId button item ID
      * @param title button title
      * @param respCode button response code
@@ -242,6 +301,17 @@ public class MsgOptionManager {
      */
     public ButtonHandler(int itemId, String title, String respCode, ViewGroup parent) {
       this(itemId, 0, title, respCode, parent);
+    }
+    
+    /**
+     * Response button constructor
+     * @param itemId button item ID
+     * @param resId button title resource ID
+     * @param respCode button response code
+     * @param parent parent ViewGroup
+     */
+    public ButtonHandler(int itemId, int resId, String respCode, ViewGroup parent) {
+      this(itemId, resId, null, respCode, parent);
     }
     
     /**

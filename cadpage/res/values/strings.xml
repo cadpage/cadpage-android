@@ -416,6 +416,7 @@
   <string name="more_info_item_text">More Info</string>
   
   <!--  Response message menu items  -->
+  <string name="responding_text">Responding</string>
   <string name="not_responding_text">Not Responding</string>
 
   <!-- Email developer Dialog items -->

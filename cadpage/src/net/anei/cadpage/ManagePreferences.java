@@ -55,7 +55,7 @@ public class ManagePreferences {
       prefs.putInt(R.string.pref_version_key, PREFERENCE_VERSION);
     }
     
-    // If old version was < 20, we need to reset the popup button configuration settings
+    // If old version was < 21, we need to reset the popup button configuration settings
     if (oldVersion < 21) {
       prefs.putString(R.string.pref_button1_key, context.getString(R.string.pref_button1_default));
       prefs.putString(R.string.pref_button2_key, context.getString(R.string.pref_button2_default));

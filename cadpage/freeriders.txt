@@ -1188,7 +1188,10 @@ Michele Campbell <michele.cambell@gmail.com>
 %%03/19/2012
 "Scheible, Mark" (mscheible@huntersvillefd.com)
 %%03/22/2012
-Michael Hirsh <kgdes914@gmail.com>
+Michael Hirsh <kgdes914@gmail.com> // King George County, VA
+%%03/23/2012
+Jason Finnigan <finni94tac@gmail.com> // Waterford Town, CT
+
 
 // *** Insert Paid Users here ***
 %2012/Pennfield FD //chief@pennfieldtwp.com
@@ -1480,9 +1483,9 @@ $free_2012_list
 >>oscar salgado <zack33z@gmail.com>
 %%01/29/2012
 >>William Trowbridge <ratchief40@gmail.com>
-Gerald Brinson <84gbrinson@gmail.com>
-Steve Ingersoll (nhfd33@gmail.com)<nhfd33@yahoo.com>
-"tyron.santiago4" <tyron.santiago4@gmail.com>
+>>Gerald Brinson <84gbrinson@gmail.com>
+>>Steve Ingersoll (nhfd33@gmail.com)<nhfd33@yahoo.com>
+>>"tyron.santiago4" <tyron.santiago4@gmail.com>
 %%01/30/2012
 Torrance Booth (gravityhatesyou@gmail.com)<torrance.booth@gmail.com>
 brad marshall <northspartans@gmail.com>
@@ -1772,3 +1775,5 @@ Christopher Casey (cpoctc@gmail.com)<cpoctc@yahoo.com>
 John Bair (jmbsrs@gmail.com)<jmbsrs@gmail.com>
 %%03/22/2012
 "jacdogg88@hotmail.com" (jacdogg88@gmail.com)<jacdogg88@hotmail.com>
+"Craig Hostetler" (chosie633@gmail.com)<chosie633@zoominternet.net>
+Paul McHargue <1997emt@gmail.com>
