@@ -130,6 +130,10 @@ public class SmsMmsMessage implements Serializable {
     this.msgId = msgId;
   }
   
+  public String getAckReq() {
+    return ackReq;
+  }
+  
   public String getResponseMenu() {
     return responseMenu;
   }
@@ -845,6 +849,11 @@ public class SmsMmsMessage implements Serializable {
     sb.append(ackReq);
     sb.append("\nackURL");
     sb.append(ackURL);
+    sb.append("\nresponseMenu:");
+    sb.append(responseMenu);
+    sb.append("\nresponseMenuActive:");
+    sb.append(responseMenuVisible);
+    
     
     sb.append("\nCall ID:");
     sb.append(callId);
