@@ -8,7 +8,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 Waterford Town, CT
 Contact: Jason Finnigan <finni94tac@gmail.com>
 Dispatched from waterford communications center
-Sender: WaterfordDispatch@mydomain.com
+Sender: wecc@waterfordct.org
 
 2012-009336*\n16 SCENIC VIEW DRIVE*\n*\n*\nWATERFORD*\n*\nEMS BLS*\nAMBULANCE CALL - BLS*\n*\n*\nCO4*\n*\n*\n*\n*
 2012-009419*\nINTERSTATE 395 (X77-MONT)*\n*\n*\nWATERFORD*\n*\nMVA HIGH*\nVEHICLE ACCIDENT - HIGHWAY/SPEED*\n*\n*\n49,CO4,CO5,MED11,W500,W51,W57*\n*\n*\n*\n*
@@ -32,7 +32,7 @@ public class CTWaterfordTownParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "WaterfordDispatch@mydomain.com";
+    return "wecc@waterfordct.org";
   }
   
   @Override
