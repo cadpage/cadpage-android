@@ -18,6 +18,14 @@ FRM:globalpaging@nowestps.org\nSUBJ:From Northwest\nMSG:314 PAINTER HILL RD  ROX
 FRM:globalpaging@nowestps.org\nSUBJ:From Northwest\nMSG:71 SOUTH ST  ROXBURY FIRE ALARM RO ENG12 RO ENG10 RO TKR11 ROX RES9 ROX FD1 Primary Incident: 00119\n\n\n(End)
 FRM:globalpaging@nowestps.org\nSUBJ:From Northwest\nMSG:BOTSFORD HILL RD & GOLDEN HARVEST RD  ROXBURY WIRES DOWN/FIRE ROX RES9 ROX FD1 Primary Incident: 00109
 
+Seymour, CT
+Contact: support@active911.com
+Sender: globalpaging@nowestps.org
+(From Northwest) 21 LANTERN DR  SEYMOUR PSYCHIATRIC PROBLEM TANGO 5 SEY 1ST Primary Incident: 012658 21 LANTERN DR
+(From Northwest) 15 SHARI DR, Apt. B  SEYMOUR DIFFICULTY BREATHING, SOB TANGO 5 SEY 1ST Primary Incident: 012581 15 SHARI DR, Apt. B
+(From Northwest) 1 ELMWOOD DR  SEYMOUR CONVULSION/SEIZURE CONT/MULTI SEIZURES TANGO 5 SEY 1ST Primary Incident: 012603 1 ELMWOOD DR
+(From Northwest) DE*FOREST ST & MAIN ST  SEYMOUR MVA PEDESTRIAN TANGO 6 SEY 1ST Primary Incident: 012610 DE*FOREST ST & MAIN ST
+
 */
 
 public class CTRoxburyParser extends SmartAddressParser {
@@ -38,11 +46,13 @@ public class CTRoxburyParser extends SmartAddressParser {
     if (!subject.equals("From Northwest")) return false;
     int pt = body.indexOf('\n');
     if (pt >= 0) body = body.substring(0,pt).trim();
+    if (body.startsWith("DE*")) body = body.substring(3).trim();
     Parser p = new Parser(body);
-    data.strCallId = p.getLastOptional("Primary Incident:");
+    String sAddr = p.get("Primary Incident:");
+    data.strCallId = p.get(' ');
     if (data.strCallId.length() == 0) return false;
-    body = p.get();
-    parseAddress(StartType.START_ADDR, body, data);
+    
+    parseAddress(StartType.START_ADDR, sAddr, data);
     body = getLeft();
     Matcher match = UNIT_PTN.matcher(body);
     if (match.find()) {
