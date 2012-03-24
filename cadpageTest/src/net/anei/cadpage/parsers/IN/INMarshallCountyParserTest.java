@@ -44,6 +44,7 @@ public class INMarshallCountyParserTest extends BaseParserTest {
     doTest("T4",
         "CAD:FYI: ;SR 110/ELM RD;TIPP;FIRE GRASS;08/21/2011 19:17:18 ",
         "ADDR:SR 110 & ELM RD",
+        "MADDR:ST 110 & ELM RD",
         "CITY:TIPPECANOE",
         "CALL:FIRE GRASS",
         "DATE:08/21/2011",

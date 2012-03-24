@@ -80,6 +80,7 @@ public class GAWhitfieldCountyParserTest extends BaseParserTest {
         "WHITFIELD CO. 911:50I M.V. ACCIDENT W/INJURIES RAYBURN SR @ BOWERS RD 7064838978",
         "CALL:50I M.V. ACCIDENT W/INJURIES",
         "ADDR:RAYBURN SR & BOWERS RD",
+        "MADDR:RAYBURN ST & BOWERS RD",
         "PHONE:7064838978");
 
     doTest("T11",

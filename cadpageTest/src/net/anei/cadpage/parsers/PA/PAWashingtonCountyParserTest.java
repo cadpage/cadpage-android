@@ -54,6 +54,7 @@ public class PAWashingtonCountyParserTest extends BaseParserTest {
     doTest("T6",
         "Xstreet: REISSING RD SR 50 TYPE: GRASS OR FIELD FIRE TIME: 15:07:34 Comments: ON REISSING NEAR SR 50",
         "ADDR:REISSING RD & SR 50",
+        "MADDR:REISSING RD & ST 50",
         "CALL:GRASS OR FIELD FIRE");
 
     doTest("T7",
@@ -64,6 +65,7 @@ public class PAWashingtonCountyParserTest extends BaseParserTest {
     doTest("T8",
         "Xstreet: SR 980 HIGHLAND DR TYPE: VEHICLE ACCIDENT WITH INJURIES TIME: 14:17:43 Comments: JUST PASSED HIGHLAND HEADED TOWARD CECIL",
         "ADDR:SR 980 & HIGHLAND DR",
+        "MADDR:ST 980 & HIGHLAND DR",
         "CALL:VEHICLE ACCIDENT WITH INJURIES");
    
   }

@@ -194,6 +194,7 @@ public class GeneralParserTest extends BaseParserTest {
         "FSTRUC>STRUCTURE FIRE 1890 SR 232 XS: LAUREL POINT ISABEL RD LAUREL BUTLER, SHAWN Map: Grids:, Cad: 2011-0000014744<br>",
         "CALL:FSTRUC>STRUCTURE FIRE",
         "ADDR:1890 SR 232",
+        "MADDR:1890 ST 232",
         "X:LAUREL POINT ISABEL RD LAUREL BUTLER",
         "INFO:SHAWN",
         "ID:2011-0000014744");
@@ -224,6 +225,7 @@ public class GeneralParserTest extends BaseParserTest {
         "TIME:02:57:00",
         "CALL::8 - EMS",
         "ADDR:12040 SR 362",
+        "MADDR:12040 ST 362",
         "INFO:UNIT 19 MINSTER BETW CANAL #1 RD & COUNTY LINE");
     
     doTest("T26",

@@ -52,6 +52,7 @@ public class INTiptonCountyParserTest extends BaseParserTest {
         "CALL:UNKNOWN MEDICAL PROBLEM",
         "ID:4004",
         "ADDR:3421 N SR 19",
+        "MADDR:3421 N ST 19",
         "INFO:You are responding to a patient with an unknown problem");
     
     doTest("T6",

@@ -179,6 +179,7 @@ public class OHXeniaParserTest extends BaseParserTest {
         "FMBLS-MEDICAL Location: 1541 SR 380 COUNTRY PLACE CT / RENAISSANCE WOOD CT XENIA TWP Time: 00:28 Units: M52",
         "CALL:FMBLS-MEDICAL",
         "ADDR:1541 SR 380",
+        "MADDR:1541 ST 380",
         "X:COUNTRY PLACE CT / RENAISSANCE WOOD CT",
         "CITY:XENIA TWP",
         "UNIT:M52");
