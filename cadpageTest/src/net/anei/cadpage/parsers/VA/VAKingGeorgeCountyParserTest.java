@@ -19,21 +19,21 @@ public class VAKingGeorgeCountyParserTest extends BaseParserTest {
         "SRC:KGFR1",
         "CALL:MOTOR VEHICLE ACCIDENT",
         "ADDR:KINGS HWY & BIG TIMBER RD",
-        "ID:2012-007738");
+        "ID:000668");
 
     doTest("T2",
         "DES MOTOR VEHICLE ACCIDENT KINGS HWY & BIG TIMBER RD CFS# 2012-007738 Run# 000668",
         "SRC:DES",
         "CALL:MOTOR VEHICLE ACCIDENT",
         "ADDR:KINGS HWY & BIG TIMBER RD",
-        "ID:2012-007738");
+        "ID:000668");
 
     doTest("T3",
         "DES CHOKING 6053 ROSEDALE DR CFS# 2012-007707 Run# 000666 CROSS: FERRY DOCK RD/SIXTH ST",
         "SRC:DES",
         "CALL:CHOKING",
         "ADDR:6053 ROSEDALE DR",
-        "ID:2012-007707",
+        "ID:000666",
         "X:FERRY DOCK RD/SIXTH ST");
 
     doTest("T4",
@@ -41,14 +41,14 @@ public class VAKingGeorgeCountyParserTest extends BaseParserTest {
         "SRC:DES",
         "CALL:MOTOR VEHICLE ACCIDENT",
         "ADDR:KINGS HWY & BIG TIMBER RD",
-        "ID:2012-007738");
+        "ID:000668");
 
     doTest("T5",
         "KGFR1 PUBLIC SERVICE - FIRE DEPT 8122 KINGS HWY CFS# 2012-007650 Run# 000664 CROSS: MADISON DR/DAHLGREN RD",
         "SRC:KGFR1",
         "CALL:PUBLIC SERVICE - FIRE DEPT",
         "ADDR:8122 KINGS HWY",
-        "ID:2012-007650",
+        "ID:000664",
         "X:MADISON DR/DAHLGREN RD");
 
     doTest("T6",
@@ -56,7 +56,7 @@ public class VAKingGeorgeCountyParserTest extends BaseParserTest {
         "SRC:DES",
         "CALL:ILLNESS",
         "ADDR:9352 INAUGURAL DR",
-        "ID:2012-007642",
+        "ID:000663",
         "X:COLUMBIA DR/AMBASSADOR DR");
 
     doTest("T7",
@@ -64,7 +64,7 @@ public class VAKingGeorgeCountyParserTest extends BaseParserTest {
         "SRC:KGFR1",
         "CALL:PUBLIC SERVICE - FIRE DEPT",
         "ADDR:8122 KINGS HWY",
-        "ID:2012-007650",
+        "ID:000664",
         "X:MADISON DR/DAHLGREN RD");
 
     doTest("T8",
@@ -72,7 +72,7 @@ public class VAKingGeorgeCountyParserTest extends BaseParserTest {
         "SRC:DES",
         "CALL:ALLERGIC REACTION",
         "ADDR:9447 INAUGURAL DR",
-        "ID:2012-007604",
+        "ID:000661",
         "X:KINGS HWY/COLUMBIA DR");
 
     doTest("T9",
@@ -80,7 +80,7 @@ public class VAKingGeorgeCountyParserTest extends BaseParserTest {
         "SRC:DES",
         "CALL:ILLNESS",
         "ADDR:17065 TWELFTH ST",
-        "ID:2012-007589",
+        "ID:000659",
         "X:DAHLGREN RD/POTOMAC DR");
 
     doTest("T10",
@@ -88,7 +88,7 @@ public class VAKingGeorgeCountyParserTest extends BaseParserTest {
         "SRC:DES",
         "CALL:ABDOMINAL PAIN",
         "ADDR:4755 JAMES MADISON PKY",
-        "ID:2012-007574",
+        "ID:000657",
         "X:COMMERCE DR/DANUBE DR");
 
     doTest("T11",
@@ -96,7 +96,7 @@ public class VAKingGeorgeCountyParserTest extends BaseParserTest {
         "SRC:KGFR2",
         "CALL:FIRE ALARM RESIDENTIAL",
         "ADDR:6138 SCHOONER CIR",
-        "ID:2012-007553",
+        "ID:000656",
         "X:WINDWARD LN/ROSEDALE DR");
 
     doTest("T12",
@@ -104,16 +104,16 @@ public class VAKingGeorgeCountyParserTest extends BaseParserTest {
         "SRC:DES",
         "CALL:DIFFICULTY BREATHING",
         "ADDR:9445 INAUGURAL DR",
-        "ID:2012-007549",
+        "ID:000655",
         "X:KINGS HWY/COLUMBIA DR");
 
     doTest("T13",
-        "KGFR1 MUTUAL AID TO (FIRE) 518 MARKET ST PORT ROYAL CFS# 2012-007530 Run# 000652 ",
+        "KGFR1 MUTUAL AID TO (FIRE) 518 MARKET ST PORT ROYAL CFS# 2012-007530 Run# 000652",
         "SRC:KGFR1",
         "CALL:MUTUAL AID TO (FIRE)",
-        "ADDR:518 MARKET ST",
         "CITY:PORT ROYAL",
-        "ID:2012-007530");
+        "ADDR:518 MARKET ST",
+        "ID:000652");
   }
   
   @Test
@@ -124,7 +124,7 @@ public class VAKingGeorgeCountyParserTest extends BaseParserTest {
         "SRC:KGFR1",
         "CALL:OVERDOSE",
         "ADDR:8429 FLETCHERS CHAPEL RD",
-        "ID:2012-008288",
+        "ID:000728",
         "X:CALEDON RD/SHELTON LN");
 
     doTest("T2",
@@ -132,14 +132,14 @@ public class VAKingGeorgeCountyParserTest extends BaseParserTest {
         "SRC:DES",
         "CALL:MUTUAL AID TO (RESCUE)",
         "ADDR:9384 CANVAS BACK COURT",
-        "ID:2012-008307");
+        "ID:000729");
 
     doTest("T3",
         "KGFR1 OVERDOSE 8429 FLETCHERS CHAPEL RD CFS# 2012-008288 Run# 000728 CROSS: CALEDON RD/SHELTON LN",
         "SRC:KGFR1",
         "CALL:OVERDOSE",
         "ADDR:8429 FLETCHERS CHAPEL RD",
-        "ID:2012-008288",
+        "ID:000728",
         "X:CALEDON RD/SHELTON LN");
 
     doTest("T4",
@@ -147,7 +147,7 @@ public class VAKingGeorgeCountyParserTest extends BaseParserTest {
         "SRC:KGFR2",
         "CALL:MVA OVERTURNED",
         "ADDR:KINGS HWY & SALEM CHURCH RD",
-        "ID:2012-008347");
+        "ID:000731");
     
   }
   
