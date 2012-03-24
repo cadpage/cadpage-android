@@ -1,11 +1,8 @@
 package net.anei.cadpage.parsers.IL;
 
 import java.util.Properties;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
-import net.anei.cadpage.parsers.SmartAddressParser;
-import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.dispatch.DispatchA6Parser;
 
 /*
 Peoria County, IL
@@ -28,17 +25,20 @@ Sender: *firepage@ci.peoria.il.us*<firepage@ci.peoria.il.us>
 Contact: Tonia Windish <twindish4@gmail.com>
 S: M:10/03/11 415 W BUTTERNUT ST EL :( 400) N MORGAN ST MALE W/BAD HEADACHE FELL ON SAT AND WAS CKED OUT THEN BUT NOW REQ TRANSP BACK TO HOSP 94 Y (01/02)\n\n
 
-A quick Guide to the way the call is typed:
-
-date / call address / call area (CO=county HC=Hanna City) / next address is
-the nearest cross street / call information typed by dispatcher / next
-number is the time the call was typed into the CAD
-
 */
 
 
-public class ILPeoriaCountyParser extends SmartAddressParser {
-      
+public class ILPeoriaCountyParser extends DispatchA6Parser {
+  
+  public ILPeoriaCountyParser() {
+    super(CITY_CODES, "PEORIA COUNTY", "IL");
+  }
+  
+  @Override
+  public String getFilter() {
+    return "firepage@ci.peoria.il.us";
+  }
+  
   private static final Properties CITY_CODES = buildCodeTable(new String[] {
     "PA", "PEORIA",
     "CO", "PEORIA COUNTY",
@@ -57,41 +57,4 @@ public class ILPeoriaCountyParser extends SmartAddressParser {
     "PR", "PRINCEVILLE",
     "WP", "WEST PEORIA"
   });
-  
-  public ILPeoriaCountyParser() {
-    super(CITY_CODES, "PEORIA COUNTY", "IL");
-  }
-  
-  private static final Pattern LEAD_DATE_PAT = Pattern.compile("^\\d\\d/\\d\\d/\\d\\d ");
-  private static final Pattern TRAIL_TIME_PAT = Pattern.compile(" \\d{4},\\d{3} *$");
-  private static final Pattern MID_ID_PAT = Pattern.compile(" :\\( *(\\d+) *\\) ");
-  
-  @Override
-  public String getFilter() {
-    return "firepage@ci.peoria.il.us";
-  }
-  
-  @Override
-  protected boolean parseMsg(String body, Data data) {
-    
-    Matcher match = LEAD_DATE_PAT.matcher(body);
-    if (!match.find()) return false;
-    body = body.substring(match.end()).trim();
-    
-    match = TRAIL_TIME_PAT.matcher(body);
-    if (match.find()) body = body.substring(0, match.start()).trim();
-    
-    match = MID_ID_PAT.matcher(body);
-    if (!match.find()) return false;
-    data.strCallId = match.group(1);
-    
-    String sAddr = body.substring(0,match.start()).replace('{', ' ').replace('}', ' ').trim();
-    parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END, sAddr, data);
-    body = body.substring(match.end()).trim();
-    
-    parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS, body, data);
-    data.strSupp = getLeft();
-    
-    return true;
-  }
 }
