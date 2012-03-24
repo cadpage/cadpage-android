@@ -55,10 +55,13 @@ E801 Incident: F120760294, Type: Overdose, Loc: OUTBACK STEAK HOUSE, HP, at 3500
 Contact: support@active911.com
 (CAD Feed) Engine 811 Incident: F120060261, Type: Medic Local, Loc: 11000 BALTIMORE AVE #105, PP, btwn SELLMAN RD and HARFORD AVE, TalkGroup: TGA2, Box: 3104, Map: 5288 E 5, Text: Medical ProQA recommends dispatch at this time, Units:A814, E811B, MD810\n\nSent to Prince George's alert recipients (E-mail, Wireless) through Alert Prince George's\n... powered by Cooper Notification's Roam Secure Alert Network\n--\n
 (CAD Feed) Battalion Chief 884 Incident: F120790133, Type: Collapse Invest, Loc: 4316 FARRAGUT ST, HP, btwn 43RD AVE and CHURCH PL, TalkGroup: TGD3, Box: 5511, Map: 5409 K 8, Text: Fire ProQA recommends dispatch at this time, Units:A855, BO884, E855B, MD812, SQ801, SQ814, TS814 Sent to Prince George's alert recipients (E-mail, Wireless) through Alert Prince George's ... powered by Cooper Notification's Roam Secure Alert Network -- You received this message because you registered on Alert Prince George's.  To change your alerting preferences go to https://alert.princegeorgescountymd.gov/mygroups.php Reply to this message with "Stop" to end all notifications from Alert Prince George's to this device
+(CAD Feed) Engine 828 Incident: F120830248, Type: BLS Amb, Loc: NB CAP BELT OL A HWY AT NB BALTIMORE WASHINGTON PKY NB, GP, at NB CAP BELT OL A HWY AT NB BALTIMORE WASHINGTON PKY NB, G, TalkGroup: TGA2, Box: 2833, Map: 5410 J 2, Text: O/L OF THE CAP BELTWAY AT THE PARKWAY MSP ONSCENE W/ AN INJ PERSON FROM A PREV ACCIDENT, Units:A830, E828 Sent to Prince George's alert recipients (E-mail, Wireless) through Alert Prince George's ... powered by Cooper Notification's Roam Secure Alert Network -- You received this message because you registered on Alert Prince George's.\2sTo change your alerting preferences go to https://alert.princegeorgescountymd.gov/mygroups.php Reply to this message with "Stop" to end all notifications from Alert Prince George's to this device\2sresponse_url:http://active911.com/alaHkdEI 
 
 */
 
 public class MDPrinceGeorgesCountyCParser extends FieldProgramParser {
+  
+  private static final Pattern AT_PTN = Pattern.compile("\\bAT\\b", Pattern.CASE_INSENSITIVE);
   
   public MDPrinceGeorgesCountyCParser() {
     super("PRINCE GEORGES COUNTY", "MD",
@@ -80,13 +83,14 @@ public class MDPrinceGeorgesCountyCParser extends FieldProgramParser {
     body = body.replace(" Unit:", " Units:");
     if (!parseFields(body.split(","), data)) return false;
     if (data.strUnit.length() == 0) data.strUnit = data.strSource;
+    data.strAddress = AT_PTN.matcher(data.strAddress).replaceAll("&");
     return true;
   }
   
   //  The PP field isn't parsed, but it must match PP or LP or UM
   private class PPField extends SkipField {
     public PPField() {
-      setPattern(Pattern.compile("(?:PP|PL|GP|LP|UM|BP|HP)(?: .*)?"), true);
+      setPattern(Pattern.compile("(?:PP|PL|GP?|LP|UM|BP|HP)(?: .*)?"), true);
     }
   }
   
@@ -101,6 +105,7 @@ public class MDPrinceGeorgesCountyCParser extends FieldProgramParser {
       data.strPlace = data.strAddress;
       data.strAddress = "";
       parse(field.substring(3).trim(), data);
+      if (data.strAddress.equals(data.strPlace)) data.strPlace = "";
       return true;
     }
     
