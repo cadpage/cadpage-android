@@ -104,7 +104,7 @@ public class TNWashingtonCountyParserTest extends BaseParserTest {
         "CALL:Motor Vehicle Crash - Injury",
         "UNIT:E2,E3,MP29",
         "ADDR:I26W & OKOLONA EXIT",
-        "MADDR:I26 & OKOLONA EXIT",
+        "MADDR:I 26 & OKOLONA EXIT",
         "MAP:63C",
         "TIME:14:16:38",
         "ID:115276");
@@ -201,7 +201,7 @@ public class TNWashingtonCountyParserTest extends BaseParserTest {
         "CALL:Motor Vehicle Crash - Injury",
         "UNIT:E2,E3,MP29",
         "ADDR:I26W & OKOLONA EXIT",
-        "MADDR:I26 & OKOLONA EXIT",
+        "MADDR:I 26 & OKOLONA EXIT",
         "MAP:63C",
         "TIME:14:16:38",
         "ID:115276");
@@ -331,7 +331,7 @@ public class TNWashingtonCountyParserTest extends BaseParserTest {
         "CALL:Motor Vehicle Crash - Injury",
         "UNIT:E8,E6",
         "ADDR:I26E & MILE MARKER 14",
-        "MADDR:I26 & MILE MARKER 14",
+        "MADDR:I 26 & MILE MARKER 14",
         "TIME:15:38:04",
         "ID:117287");
 

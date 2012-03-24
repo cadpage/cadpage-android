@@ -273,6 +273,14 @@ public class TXMontgomeryCountyParserTest extends BaseParserTest {
         "ADDR:MM 73",
         "MADDR:SPRING CREEK BRIDGE M,MM 73",
         "PLACE:SPRING CREEK BRIDGE M");
+
+    doTest("T31",
+        "(Nature: 29B04U-MVA - Unknown status/Other codes) New Fire Run: 2012-08140,,L111,Location: IH45 N & RAYFORD RD,Building: ,Cross: ,,Grid: 252W,Ma",
+        "ID:2012-08140",
+        "CALL:29B04U-MVA - Unknown status/Other codes",
+        "UNIT:L111",
+        "ADDR:IH45 N & RAYFORD RD",
+        "MADDR:I 45 N & RAYFORD RD");
   }
   
   public static void main(String[] args) {

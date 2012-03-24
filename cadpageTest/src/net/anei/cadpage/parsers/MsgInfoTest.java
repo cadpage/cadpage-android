@@ -43,7 +43,7 @@ public class MsgInfoTest {
     doMapTest("MOJeffersonCounty", "OLD MORSE MILL RD & STATE EE,KENBURG,XX", 
                                    "OLD MORSE MILL RD & STATE RD EE");
     
-    doMapTest("TXLewsville", "251 N I35 FRONTAGE RD,KENBURG,XX",
+    doMapTest("TXLewsville", "251 N I 35 FRONTAGE RD,KENBURG,XX",
                              "251 N I35E SBFR");
     
     doMapTest("PAArmstrongCounty", "868 STATE 28,KENBURG,XX",

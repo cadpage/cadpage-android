@@ -64,6 +64,19 @@ public class PAChesterCountyEParserTest extends BaseParserTest {
         "UNIT:3604",
         "SRC:36");
 
+    doTest("T5",
+        "(Dispatch) 03/21/12 * 13:49:18 * MOBILE HOME/TRAILER FIRE * * 8 VIEW LA ,58 * WESTVIEW WY & DEAD END * PENN * - *  * 610-960-709 * 2204 *  * 22 * Dispatch *",
+        "DATE:03/21/12",
+        "TIME:13:49:18",
+        "CALL:MOBILE HOME/TRAILER FIRE",
+        "ADDR:8 VIEW LA",
+        "MADDR:8 VIEW LN",
+        "CITY:PENN TWP",
+        "X:WESTVIEW WY & DEAD END",
+        "PHONE:610-960-709",
+        "UNIT:2204",
+        "SRC:22");
+
   }
   
   public static void main(String[] args) {

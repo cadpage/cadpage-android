@@ -41,7 +41,7 @@ public class TXDentonCountyParserTest extends BaseParserTest {
         "CAD:SICK PERSON;5650 I35E;CORI;ORR NISSAN;MAIN BLDG AT NEW CAR SHOW ROOM / PT IN BATHROOM [08/08/11 08:09:48 THIGGINS] [Medical Priority Info] RESPONSE: Alpha",
         "CALL:SICK PERSON",
         "ADDR:5650 I35E",
-        "MADDR:5650 I35",
+        "MADDR:5650 I 35",
         "CITY:CORINTH",
         "INFO:ORR NISSAN / MAIN BLDG AT NEW CAR SHOW ROOM / PT IN BATHROOM",
         "DATE:08/08/11",
