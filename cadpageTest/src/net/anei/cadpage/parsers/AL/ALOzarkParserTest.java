@@ -49,6 +49,12 @@ public class ALOzarkParserTest extends BaseParserTest {
         "ADDR:135 JUDSON DR",
         "X:WILL LOGAN RD",
         "INFO:PATIENT CONFUSED AND CLAMY");
+
+    doTest("T6",
+        "MEDICAL EMERGENCY AT 198 HOLIDAY LANE REF MEDICAL ALARM UNKN INJURIES\nSABRINA PETERS",
+        "CALL:MEDICAL EMERGENCY",
+        "ADDR:198 HOLIDAY LANE",
+        "INFO:MEDICAL ALARM UNKN INJURIES SABRINA PETERS");
   }
   
   public static void main(String[] args) {
