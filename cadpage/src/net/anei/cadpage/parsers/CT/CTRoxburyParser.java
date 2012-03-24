@@ -33,7 +33,7 @@ public class CTRoxburyParser extends SmartAddressParser {
   private static final Pattern UNIT_PTN = Pattern.compile("\\b(?:ROX?|TANGO)\\b");
 
   public CTRoxburyParser() {
-    super(CITY_LIST, "ROXBURY", "CT");
+    super(CITY_LIST, "", "CT");
   }
   
   @Override
