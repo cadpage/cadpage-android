@@ -18,6 +18,7 @@ Sender: wgfc22@comcast.net
 Contact: Justin Gattorno <jgattorno@gmail.com>
 Sender: wgfc22@comcast.net
 (Dispatch) 03/23/12 * 11:11:49 * HOUSE FIRE * * 64 RICHARDS LA,88   (NV) *  *  * ** X-STRT DARIEN RD - COVERED * NCC *  *  *  *  * Dispatch *
+(Dispatch) 03/21/12 * 13:49:18 * MOBILE HOME/TRAILER FIRE * * 8 VIEW LA ,58 * WESTVIEW WY & DEAD END * PENN * - *  * 610-960-709 * 2204 *  * 22 * Dispatch *
 
  */
 
