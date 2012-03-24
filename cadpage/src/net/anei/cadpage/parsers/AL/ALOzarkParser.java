@@ -17,6 +17,10 @@ Sender: dispatch@ozarkdale911.org
 (ALERT!) DELAY PAGE.DOUGLAS DR OFF E HWY 27,REF SUBJECT STABBED,UNITS STAG FOR OPD
 (ALERT!) MEDICAL EMER 135 JUDSON DR OFF WILL LOGAN RD REF PATIENT CONFUSED AND CLAMY
 
+Contact: John Price <jprice911@yahoo.com>
+Sender: dispatch1@ozarkdale911.org
+MEDICAL EMERGENCY AT 198 HOLIDAY LANE REF MEDICAL ALARM UNKN INJURIES\nSABRINA PETERS
+
 */
 public class ALOzarkParser extends SmartAddressParser {
   
@@ -34,8 +38,9 @@ public class ALOzarkParser extends SmartAddressParser {
   
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
-    if (!subject.equals("ALERT!")) return false;
+    boolean confirm = subject.equals("ALERT!");
     
+    body = body.replace('\n', ' ');
     Matcher match = DELIM.matcher(body);
     String lastDelim = "";
     int lastPt = 0;
@@ -50,7 +55,9 @@ public class ALOzarkParser extends SmartAddressParser {
     }
     
     // If there was no REF key, use the first comma instead
+    // Not acceptable if we haven't confirmed this is a page with the proper subject
     if (! lastDelim.equals("REF")) {
+      if (!confirm) return false;
       int pt = body.indexOf(',', lastPt);
       if (pt >= 0) {
         lastDelim = "REF";
