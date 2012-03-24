@@ -1,6 +1,8 @@
 package net.anei.cadpage.parsers.CT;
 
 
+import java.util.regex.Pattern;
+
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
@@ -21,9 +23,14 @@ Sender: wecc@waterfordct.org
 2012-009905*\n563 BOSTON POST ROAD*\n14*\n2*\nWATERFORD*\n*\nEMS ALS*\nAMBULANCE CALL - ALS*\nBlue Anchor*\n*\nCO4*\n*\n*\n*\n*
 2012-009851*\n745 VAUXHALL STREET EXTENSION*\n*\n*\nWATERFORD*\n*\nMVA WITH*\nVEHICLE ACCIDENT WITH INJURIES*\nDanielle Chaude*\n*\nCO4,CO5,MED11,W200,W500*\n*\n*\n*\n*
 
+Contact: Jared DiPierro <jared.dipierro@gmail.com>
+  / 2012-010577* BOSTON POST ROAD* * * WATERFORD* * MVA WITH* VEHICLE ACCIDENT WITH INJURIES* * * CO1,CO4,W100,W11,W400* * * * *\n
+
 */
 
 public class CTWaterfordTownParser extends FieldProgramParser {
+  
+  private static final Pattern DELIM = Pattern.compile("\\*[\n ]");
   
   public CTWaterfordTownParser() {
     super("WATERFORD TWP", "CT",
@@ -38,7 +45,7 @@ public class CTWaterfordTownParser extends FieldProgramParser {
   @Override
   public boolean parseMsg(String body, Data data) {
     if (body.endsWith("*")) body = body + '\n';
-    return parseFields(body.split("\\*\n"), 11, data);
+    return parseFields(DELIM.split(body), 11, data);
   }
   
   @Override
