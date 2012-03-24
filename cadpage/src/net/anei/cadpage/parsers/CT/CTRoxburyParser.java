@@ -30,7 +30,7 @@ Sender: globalpaging@nowestps.org
 
 public class CTRoxburyParser extends SmartAddressParser {
   
-  private static final Pattern UNIT_PTN = Pattern.compile("\\bROX?\\b");
+  private static final Pattern UNIT_PTN = Pattern.compile("\\b(?:ROX?|TANGO)\\b");
 
   public CTRoxburyParser() {
     super(CITY_LIST, "ROXBURY", "CT");
@@ -52,12 +52,13 @@ public class CTRoxburyParser extends SmartAddressParser {
     data.strCallId = p.get(' ');
     if (data.strCallId.length() == 0) return false;
     
+    sAddr = sAddr.replace(',', ' ').trim();
     parseAddress(StartType.START_ADDR, sAddr, data);
     body = getLeft();
     Matcher match = UNIT_PTN.matcher(body);
     if (match.find()) {
       data.strUnit = body.substring(match.start());
-      body = body.substring(0,match.start());
+      body = body.substring(0,match.start()).trim();
     }
     data.strCall = body;
     return true;
