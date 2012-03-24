@@ -64,6 +64,35 @@ public class CTRoxburyParserTest extends BaseParserTest {
     
   }
   
+  @Test
+  public void testSeymour() {
+
+    doTest("T1",
+        "(From Northwest) 21 LANTERN DR  SEYMOUR PSYCHIATRIC PROBLEM TANGO 5 SEY 1ST Primary Incident: 012658 21 LANTERN DR",
+        "ADDR:21 LANTERN DR",
+        "CALL:SEYMOUR PSYCHIATRIC PROBLEM TANGO 5 SEY 1ST",
+        "ID:012658");
+
+    doTest("T2",
+        "(From Northwest) 15 SHARI DR, Apt. B  SEYMOUR DIFFICULTY BREATHING, SOB TANGO 5 SEY 1ST Primary Incident: 012581 15 SHARI DR, Apt. B",
+        "ADDR:15 SHARI",
+        "CALL:DR, Apt B SEYMOUR DIFFICULTY BREATHING, SOB TANGO 5 SEY 1ST",
+        "ID:012581");
+
+    doTest("T3",
+        "(From Northwest) 1 ELMWOOD DR  SEYMOUR CONVULSION/SEIZURE CONT/MULTI SEIZURES TANGO 5 SEY 1ST Primary Incident: 012603 1 ELMWOOD DR",
+        "ADDR:1 ELMWOOD DR",
+        "CALL:SEYMOUR CONVULSION / SEIZURE CONT / MULTI SEIZURES TANGO 5 SEY 1ST",
+        "ID:012603");
+
+    doTest("T4",
+        "(From Northwest) DE*FOREST ST & MAIN ST  SEYMOUR MVA PEDESTRIAN TANGO 6 SEY 1ST Primary Incident: 012610 DE*FOREST ST & MAIN ST",
+        "ADDR:FOREST ST & MAIN ST",
+        "CALL:SEYMOUR MVA PEDESTRIAN TANGO 6 SEY 1ST",
+        "ID:012610");
+
+  }
+  
   public static void main(String[] args) {
     new CTRoxburyParserTest().generateTests("T1", "ADDR CITY CALL UNIT ID");
   }

@@ -116,6 +116,41 @@ public class VAKingGeorgeCountyParserTest extends BaseParserTest {
         "ID:2012-007530");
   }
   
+  @Test
+  public void testCamdenBullock() {
+
+    doTest("T1",
+        "KGFR1 OVERDOSE 8429 FLETCHERS CHAPEL RD CFS# 2012-008288 Run# 000728 CROSS: CALEDON RD/SHELTON LN",
+        "SRC:KGFR1",
+        "CALL:OVERDOSE",
+        "ADDR:8429 FLETCHERS CHAPEL RD",
+        "ID:2012-008288",
+        "X:CALEDON RD/SHELTON LN");
+
+    doTest("T2",
+        "DES MUTUAL AID TO (RESCUE) 9384 CANVAS BACK COURT CFS# 2012-008307 Run# 000729",
+        "SRC:DES",
+        "CALL:MUTUAL AID TO (RESCUE)",
+        "ADDR:9384 CANVAS BACK COURT",
+        "ID:2012-008307");
+
+    doTest("T3",
+        "KGFR1 OVERDOSE 8429 FLETCHERS CHAPEL RD CFS# 2012-008288 Run# 000728 CROSS: CALEDON RD/SHELTON LN",
+        "SRC:KGFR1",
+        "CALL:OVERDOSE",
+        "ADDR:8429 FLETCHERS CHAPEL RD",
+        "ID:2012-008288",
+        "X:CALEDON RD/SHELTON LN");
+
+    doTest("T4",
+        "KGFR2 MVA OVERTURNED KINGS HWY & SALEM CHURCH RD CFS# 2012-008347 Run# 000731",
+        "SRC:KGFR2",
+        "CALL:MVA OVERTURNED",
+        "ADDR:KINGS HWY & SALEM CHURCH RD",
+        "ID:2012-008347");
+    
+  }
+  
   public static void main(String[] args) {
     new VAKingGeorgeCountyParserTest().generateTests("T1", "SRC CALL CITY ADDR ID X INFO");
   }
