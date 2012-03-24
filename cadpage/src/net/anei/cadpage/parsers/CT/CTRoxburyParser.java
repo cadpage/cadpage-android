@@ -65,6 +65,7 @@ public class CTRoxburyParser extends SmartAddressParser {
   }
   
   private static String[] CITY_LIST = new String[]{
-    "ROXBURY"  
+    "ROXBURY",
+    "SEYMOUR"
   };
 }
