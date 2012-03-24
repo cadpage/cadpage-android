@@ -39,6 +39,9 @@ Contact: Roy Gibbs <boham29@gmail.com>
 Contact: Ryan Davis <hemifreak16@gmail.com>
 1203-021836*DARK WOOD DR***SPRING LAKE**FIRE SMO INV*******Hazards: No**
 
+Contact: Jeff Johnson <rfdjjohnson@gmail.com>
+1112-103007*2915 MATTHEWS MILL POND RD***ANGIER***MOTOR VEHICLE ACCIDENT****1143****
+
 */
 
 public class NCHarnettCountyParser extends FieldProgramParser {

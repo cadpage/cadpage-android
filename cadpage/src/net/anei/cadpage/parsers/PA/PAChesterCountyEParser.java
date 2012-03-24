@@ -15,6 +15,10 @@ Sender: wgfc22@comcast.net
 (Dispatch) 05/31/11 * 09:30:53 * HYPO TENSION - ALS * * 774 W GLENVIEW DR ,58 * PHEASANT WY & EDGEWOOD CT * PENN * - *  * 610-345-136 * 2203 *  * 22 * Dispatch *
 (Dispatch) 05/31/11 * 00:36:12 * BARN FIRE * * 248 HOOD RD ,48 * MUNICIPAL BOUNDARY & N MOSQUITO LA * WMARLB * - *  * 610-316-731 * 3604   * 36 * Dispatch *
 
+Contact: Justin Gattorno <jgattorno@gmail.com>
+Sender: wgfc22@comcast.net
+(Dispatch) 03/23/12 * 11:11:49 * HOUSE FIRE * * 64 RICHARDS LA,88   (NV) *  *  * ** X-STRT DARIEN RD - COVERED * NCC *  *  *  *  * Dispatch *
+
  */
 
 

@@ -71,7 +71,7 @@ public class GroupBestParser extends MsgParser {
       Data tmp = parser.parseMsg(msg, parserFlags);
       if (tmp != null) {
         int newScore = tmp.score();
-        if (!parser.getParserCode().startsWith("General")) newScore +=2;
+        if (!parser.getParserCode().startsWith("General")) newScore +=25;
         if (newScore > bestScore) {
           bestData = tmp;
           bestScore = newScore;

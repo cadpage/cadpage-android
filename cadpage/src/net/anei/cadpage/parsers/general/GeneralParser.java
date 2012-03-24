@@ -127,12 +127,20 @@ public class GeneralParser extends SmartAddressParser {
     if (body.startsWith("CAD:")) body = body.substring(4).trim();
     
     // Strip out any date and time fields
-    body = DATE_PATTERN.matcher(body).replaceAll("");
-    body = TIME_PATTERN.matcher(body).replaceAll("");
+    Matcher match = DATE_PATTERN.matcher(body);
+    if (match.find()) {
+      data.strDate = match.group();
+      body = match.replaceAll("");
+    }
+    match = TIME_PATTERN.matcher(body);
+    if (match.find()) {
+      data.strTime = match.group();
+      body = match.replaceAll("");
+    }
 
     // Parse text into different fields separated by delimiters
     // that match DELIM_PATTERN
-    Matcher match = DELIM_PATTERN.matcher(body);
+    match = DELIM_PATTERN.matcher(body);
     String nextDelim = "";
     FieldType nextType = null;
     int pt = 0;
