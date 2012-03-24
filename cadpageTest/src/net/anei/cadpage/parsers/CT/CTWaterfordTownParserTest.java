@@ -181,6 +181,19 @@ public class CTWaterfordTownParserTest extends BaseParserTest {
 
   }
   
+  @Test
+  public void testJaredDiPerrio() {
+
+    doTest("T1",
+        "  / 2012-010577* BOSTON POST ROAD* * * WATERFORD* * MVA WITH* VEHICLE ACCIDENT WITH INJURIES* * * CO1,CO4,W100,W11,W400* * * * *\n",
+        "ID:2012-010577",
+        "ADDR:BOSTON POST ROAD",
+        "CITY:WATERFORD",
+        "CALL:VEHICLE ACCIDENT WITH INJURIES",
+        "UNIT:CO1,CO4,W100,W11,W400");
+
+  }
+  
   public static void main(String[] args) {
     new CTWaterfordTownParserTest().generateTests("T1");
   }
