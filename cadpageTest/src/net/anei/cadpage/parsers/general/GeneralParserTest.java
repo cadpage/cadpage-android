@@ -56,6 +56,7 @@ public class GeneralParserTest extends BaseParserTest {
         "CALL:MBLS-MEDICAL",
         "ADDR:160 RICHARD DR",
         "INFO:DAYTON XENIA RD / ROBERT LN XENIA TWP",
+        "TIME:17:31",
         "UNIT:M51  Common");
     
     doTest("T6",
@@ -64,6 +65,7 @@ public class GeneralParserTest extends BaseParserTest {
         "ADDR:2008 ELBOW LN",
         "CITY:LOWER MACUNGIE",
         "INFO:SMOKE IN THE DWELLING / SMOKE COMING FROM THE EXHAUST PIPE OF HEATING SYSTEM FILLING BASEMENT WIT",
+        "TIME:06:58",
         "PLACE:LINDA STROHL",
         "UNIT:FD/30CHIEFS FD/ST30 FD/A6681 FD/ST66 FD/R3041 FD/E3012 FD/TK3031 FD/E3112",
         "X:4486 REDWOOD LN & HESS CIR");
@@ -73,13 +75,15 @@ public class GeneralParserTest extends BaseParserTest {
         "CALL:IPS I/Page Notification /",
         "ADDR:7583 WALL TRIANA HWY",
         "INFO:MDCO: @URGENT MEDCARE",
-        "ID:C1009726");
+        "ID:C1009726",
+        "TIME:13:36:55");
     
     doTest("T8",
         "(*CAD*) [CAD] CO DETECTOR, CARBON MONOXIDE, 8A 2204 JASON CT 7 K2 CALLER ADVISED HIS BSMT CO DETECTOR IS GOING OFF. F103510001 1022578 02:01",
         "CALL:CARBON MONOXIDE",
         "ADDR:8A 2204 JASON CT",
-        "INFO:7 K2 CALLER ADVISED HIS BSMT CO DETECTOR IS GOING OFF F103510001 1022578");
+        "INFO:7 K2 CALLER ADVISED HIS BSMT CO DETECTOR IS GOING OFF F103510001 1022578",
+        "TIME:02:01");
     
     doTest("T9",
         "CAD:16 BLUE HERON DR;B213;BECKHAM, LINDA & MALACHY;FALLS;RIVER CANE DR",
@@ -176,10 +180,13 @@ public class GeneralParserTest extends BaseParserTest {
         "ID:F11000861",
         "CALL:FIRE",
         "NAME:ANTHONY GALADIAY",
+        "TIME:19:08:40",
         "SRC:E26-1");
     
     doTest("T20",
         "(From 911 Center) 02/14/11 16:26 5 CEDAR LN BRUTUS Cardiac",
+        "DATE:02/14/11",
+        "TIME:16:26",
         "CALL:BRUTUS Cardiac",
         "ADDR:5 CEDAR LN");
     
@@ -194,6 +201,8 @@ public class GeneralParserTest extends BaseParserTest {
     doTest("T22",
         "CAD:WCRS;424;02/23/2011 14:14:08;ACCIDENT W/INJURY;750 FISHING CREEK ARBOR RD",
         "ID:424",
+        "DATE:02/23/2011",
+        "TIME:14:14:08",
         "CALL:ACCIDENT W/INJURY",
         "ADDR:750 FISHING CREEK ARBOR RD");
     
@@ -212,6 +221,7 @@ public class GeneralParserTest extends BaseParserTest {
     doTest("T25",
         "(CAD Page) 11-009351|02:57:00|:8 - EMS|\n@ 12040 SR 362 UNIT 19 MINSTER BETW CANAL #1 RD & COUNTY LINE|",
         "ID:11-009351",
+        "TIME:02:57:00",
         "CALL::8 - EMS",
         "ADDR:12040 SR 362",
         "INFO:UNIT 19 MINSTER BETW CANAL #1 RD & COUNTY LINE");
@@ -222,7 +232,8 @@ public class GeneralParserTest extends BaseParserTest {
         "ADDR:106 DELANCY PL",
         "X:RUTLEDGE AVE",
         "INFO:DEAD END ~ ^",
-        "UNIT:QRS204");
+        "UNIT:QRS204",
+        "TIME:08:55:30");
     
     doTest("T27",
         ".... (CCVFD) STRUCTURE FIRE(69D01) 12102 STEEPLEWAY BLVD  (409A) (%GRA2%) COMMENTS:12102 STEEPLEWAY BLVD: cross streets: \nWEST RD &amp; THOROUGHBRED DR",
@@ -245,6 +256,15 @@ public class GeneralParserTest extends BaseParserTest {
         "ADDR:3791 S CRANBERRY BLVD",
         "INFO:XST PRINCE LN, VEHICLE ACCIDENT WITH EXTRACTION, 2 PTS ALL PT'S STABLE, FIRE DISPATCH 2641 /UNIT ON SCENE- BN8, NPF3",
         "UNIT:E81");
+    
+    doTest("T30",
+        "(Dispatch) 03/23/12 * 11:11:49 * HOUSE FIRE * * 64 RICHARDS LA,88   (NV) *  *  * ** X-STRT DARIEN RD - COVERED * NCC *  *  *  *  * Dispatch *",
+        "DATE:03/23/12",
+        "TIME:11:11:49",
+        "CALL:HOUSE FIRE",
+        "ADDR:64 RICHARDS LA",
+        "MADDR:64 RICHARDS LN",
+        "INFO:88   (NV) * X-STRT DARIEN RD - COVERED * NCC * Dispatch");
 
   }
   

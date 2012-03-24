@@ -124,6 +124,13 @@ public class NCHarnettCountyParserTest extends BaseParserTest {
         "CITY:SPRING LAKE",
         "CALL:FIRE SMO INV");
 
+    doTest("T7",
+        "1112-103007*2915 MATTHEWS MILL POND RD***ANGIER***MOTOR VEHICLE ACCIDENT****1143****",
+        "ID:1112-103007",
+        "ADDR:2915 MATTHEWS MILL POND RD",
+        "CITY:ANGIER",
+        "CALL:MOTOR VEHICLE ACCIDENT");
+
   }
 
   public static void main(String[] args) {
