@@ -77,7 +77,7 @@ MAILBOX:SAVANNAH LN/NAUMAN LN
 
 public class DispatchDAPROParser extends FieldProgramParser {
   
-  private static final String PROGRAM_STR = "ADDR/SC! CFS:ID! Run:SKIP? CROSS:X";
+  private static final String PROGRAM_STR = "ADDR/SC! CFS:ID! Run:ID? CROSS:X";
   
   public DispatchDAPROParser(String defCity, String defState) {
     super(defCity, defState, PROGRAM_STR);
