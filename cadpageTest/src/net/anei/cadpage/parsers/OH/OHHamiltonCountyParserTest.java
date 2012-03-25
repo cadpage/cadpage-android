@@ -317,6 +317,21 @@ public class OHHamiltonCountyParserTest extends BaseParserTest {
         "TIME:12:07",
         "UNIT:HFE88 HFFG2",
         "X:399 TARRYTON DR & 337 CAMBRIDGE DR");
+
+    doTest("T2",
+        "HC@hamilton-co.org\n" +
+        "MSG:\n" +
+        "HC:FIRE ALARM 10665 TECHWOODS CR BLUE CANDLEWOOD SUITES SIEMENS MONOTORING * FIRE ALARM ** ZONE 1 GEN FIRE 19:26 HFE13 HFE87 HFT13 HFFG2 XST: 4664 CREEK RD XST2: 4746 CREEK RD\r\n",
+
+        "ADDR:10665 TECHWOODS CR",
+        "MADDR:10665 TECHWOODS CIR",
+        "CITY:BLUE ASH",
+        "PLACE:CANDLEWOOD SUITES SIEMENS MONOTORING",
+        "CALL:FIRE ALARM",
+        "INFO:ZONE 1 GEN FIRE",
+        "TIME:19:26",
+        "UNIT:HFE13 HFE87 HFT13 HFFG2",
+        "X:4664 CREEK RD & 4746 CREEK RD");
   }
   
   public static void main(String[] args) {
