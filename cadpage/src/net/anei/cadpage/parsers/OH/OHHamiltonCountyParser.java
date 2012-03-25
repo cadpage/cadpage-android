@@ -52,12 +52,13 @@ HC:INJURY FROM A FALL 7100 DEARWESTER DR SYCM SEASONS RET CTR 7100 DAWN ,EMP ** 
 Contact: Scott Holland <sholland3535@gmail.com>
 Sender: HC@hamilton-co.org
 HC@hamilton-co.org\nMSG:\nHC:ODOR OF GAS 393 PROVIDENCE WY SHRN NEXT TO TRAILER..... CHARLES SOILBACK ** SMELL OF GAS ** SEE MALE COMPL REF ODOR OF NATURAL GAS LEAK FROM A POSS 1 INCH PIPE COMIN 12:07 HFE88 HFFG2 XST: 399 TARRYTON DR XST2: 337 CAMBRIDGE DR\r\n
+HC@hamilton-co.org\nMSG:\nHC:FIRE ALARM 10665 TECHWOODS CR BLUE CANDLEWOOD SUITES SIEMENS MONOTORING * FIRE ALARM ** ZONE 1 GEN FIRE 19:26 HFE13 HFE87 HFT13 HFFG2 XST: 4664 CREEK RD XST2: 4746 CREEK RD\r\n
 
 */
 
 public class OHHamiltonCountyParser extends SmartAddressParser {
   
-  private static final Pattern MASTER = Pattern.compile("HC:(.*) \\*\\* (.*) \\*\\* (.*?)(?: (\\d{1,2}:\\d\\d) (.*))?");
+  private static final Pattern MASTER = Pattern.compile("HC:(.*) \\*\\*? (.*?) \\*\\* (.*?)(?: (\\d{1,2}:\\d\\d) (.*))?");
  
   public OHHamiltonCountyParser() {
     super(CITY_CODES, "HAMILTON COUNTY", "OH");
