@@ -12,6 +12,13 @@ public class PAChesterCountyBaseParser extends FieldProgramParser {
     super(CITY_CODES, "CHESTER COUNTY", "PA", programStr);
   }
   
+  @Override
+  protected boolean parseFields(String[] fields, Data data) {
+    if (!super.parseFields(fields, data)) return false;
+    if (data.strCity.equals("NEW CASTLE COUNTY")) data.strState = "DE";
+    return true;
+  }
+  
   // ADDRPL: address - place
   protected class AddressPlaceField extends AddressField {
     
@@ -218,7 +225,7 @@ public class PAChesterCountyBaseParser extends FieldProgramParser {
     return super.getField(name);
   }
 
-  private static final Pattern ADDR_PTN = Pattern.compile("(.*), *(\\d\\d)");
+  private static final Pattern ADDR_PTN = Pattern.compile("(.*), *(\\d\\d)(?: +\\(.*\\))?");
   public boolean parseChesterAddress(String field, Data data) {
     Matcher match = ADDR_PTN.matcher(field);
     if (!match.matches()) return false;
@@ -316,7 +323,9 @@ public class PAChesterCountyBaseParser extends FieldProgramParser {
     /* 83 */ "POTTSDOWN",       // WARWICK COUNTY PARK
     /* 84 */ "COATESVILLE",     // HIBERNIA COUNTY PARK
     /* 85 */ "NOTTINGHAM",      // NOTTINGHAM COUNTY PARK
-    /* 86 */ "GLENMOORE"        // SPRINGTON MANOR COUNTY PARK
+    /* 86 */ "GLENMOORE",        // SPRINGTON MANOR COUNTY PARK
+    /* 87 */ "",
+    /* 88 */ "NEW CASTLE COUNTY"
   };
   
   protected static final Properties CITY_CODES = buildCodeTable(new String[]{
@@ -333,6 +342,7 @@ public class PAChesterCountyBaseParser extends FieldProgramParser {
       "LGROVE", "LONDON GROVE TWP",
       "LONDER", "LONDONERRY TWP",
       "LWROXF", "LOWER OXFORD TWP",
+      "NCC",    "NEW CASTLE COUNTY",
       "NEWLON", "NEW LONDON TWP",
       "NGARDN", "NEW GARDEN TWP",
       "OXFORD", "OXFORD",

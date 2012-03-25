@@ -725,7 +725,7 @@ public class FieldProgramParser extends SmartAddressParser {
    * @param data Data object to be filled
    * @return true if parsing was successful
    */
-  public boolean parseFields(String[] fields, int minFields, Data data) {
+  protected boolean parseFields(String[] fields, int minFields, Data data) {
     if (fields.length < minFields) return false;
     return parseFields(fields, data);
   }
@@ -737,7 +737,7 @@ public class FieldProgramParser extends SmartAddressParser {
    * @param data Data object to be filled
    * @return true if parsing was successful
    */
-  public boolean parseFields(String[] fields, Data data) {
+  protected boolean parseFields(String[] fields, Data data) {
     return startLink.exec(fields, 0, data, null);
   }
   
