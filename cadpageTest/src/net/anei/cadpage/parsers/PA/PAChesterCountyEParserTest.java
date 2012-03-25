@@ -77,6 +77,18 @@ public class PAChesterCountyEParserTest extends BaseParserTest {
         "UNIT:2204",
         "SRC:22");
 
+    doTest("T6",
+        "(Dispatch) 03/23/12 * 11:11:49 * HOUSE FIRE * * 64 RICHARDS LA,88   (NV) *  *  * ** X-STRT DARIEN RD - COVERED * NCC *  *  *  *  * Dispatch *",
+        "DATE:03/23/12",
+        "TIME:11:11:49",
+        "CALL:HOUSE FIRE",
+        "ADDR:64 RICHARDS LA",
+        "MADDR:64 RICHARDS LN",
+        "X:DARIEN RD",
+        "INFO:COVERED",
+        "CITY:NEW CASTLE COUNTY",
+        "ST:DE");
+
   }
   
   public static void main(String[] args) {
