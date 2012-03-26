@@ -41,7 +41,6 @@
         <action android:name="android.intent.action.CONTENT_CHANGED"/>
       </intent-filter>
     </receiver>
-    <receiver android:name=".MsgOptionManager.SendSMSReceiver"/>
     
     <!-- Only C2DM servers can send messages for the app. If permission is not set - any other app can generate it --> 
     <receiver android:name=".C2DMReceiver" android:permission="com.google.android.c2dm.permission.SEND" >
