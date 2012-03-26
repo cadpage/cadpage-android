@@ -80,7 +80,30 @@ public class NJCamdenCountyAParserTest extends BaseParserTest {
         "UNIT:QT60");
 
   }
-  
+ 
+  @Test
+  public void testGuyDietrick() {
+
+    doTest("T1",
+        "Subject:Dispatch SD11\n" +
+        "INCIDENTAL  \r\n" +
+        "260 AUDUBON AV ,01   \r\n" +
+        "#:  \r\n" +
+        "X:BELOIT/WYOMING  \r\n" +
+        "ZN:01A  \r\n" +
+        "CP:  2012-03-25 07:29:59  \r\n" +
+        "MI#:1200\r",
+
+        "CALL:INCIDENTAL",
+        "ADDR:260 AUDUBON AV",
+        "MADDR:260 AUDUBON AVE",
+        "CITY:Audubon",
+        "X:BELOIT/WYOMING",
+        "MAP:01A",
+        "ID:1200",
+        "UNIT:SD11");
+
+  }
   public static void main(String[] args) {
     new NJCamdenCountyAParserTest().generateTests("T1");
   }

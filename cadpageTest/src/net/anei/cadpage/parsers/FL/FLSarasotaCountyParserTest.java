@@ -107,6 +107,14 @@ public class FLSarasotaCountyParserTest extends BaseParserTest {
         "CITY:NORTH PORT",
         "MAP:G544",
         "TIME:01:26:04");
+
+    doTest("T3",
+        "EVENT TYPE: STRUCTURE FIRE Location: PAN AMERICAN BLVD/LA BREA ST NPRT G565 TIME: 19:07:40",
+        "CALL:STRUCTURE FIRE",
+        "ADDR:PAN AMERICAN BLVD & LA BREA ST",
+        "CITY:NORTH PORT",
+        "MAP:G565",
+        "TIME:19:07:40");
   }
   
   @Test
