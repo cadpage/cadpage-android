@@ -20,6 +20,9 @@ Sender: cccademail@camdencounty.com
 Contact: Steve Kane <captsteevo@gmail.com>
 (Dispatch QT60) APARTMENT  \n1800 LAUREL RD ,22   \n#:114  \nX:BLACKWOOD CLEMENTON/  \nZN:22B  \nCP:STONINGTON COURT AP  2012-03-09 07:24:49  \nMI#:
 
+Contact: "Guy Dietrich Jr." <dvipergtsrgt@gmail.com>
+Subject:Dispatch SD11\nINCIDENTAL  \r\n260 AUDUBON AV ,01   \r\n#:  \r\nX:BELOIT/WYOMING  \r\nZN:01A  \r\nCP:  2012-03-25 07:29:59  \r\nMI#:1200\r
+
 */
 
 public class NJCamdenCountyAParser extends FieldProgramParser {

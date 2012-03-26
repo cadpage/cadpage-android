@@ -70,7 +70,7 @@ public class MDPrinceGeorgesCountyCParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "@alert.princegeorgescountymd.gov";
+    return "@alert.princegeorgescountymd.gov,PSCC";
   }
   
   @Override

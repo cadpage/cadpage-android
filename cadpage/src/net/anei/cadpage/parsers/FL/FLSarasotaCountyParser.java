@@ -27,6 +27,7 @@ Contact: Scott Titus <stitus@cityofnorthport.com>
 Sender: 93001
 EVENT TYPE: OUTSIDE FIRE-BRUSH Location: COLFAX LN/TOWN TER NPRT G544 TIME: 17:26:42 Disp: BN8,DOF,E81,T83,TRK84
 EVENT TYPE: STRUCTURE FIRE Location: 2633 RIDGEWOOD DR NPRT G544 TIME: 01:26:04
+EVENT TYPE: STRUCTURE FIRE Location: PAN AMERICAN BLVD/LA BREA ST NPRT G565 TIME: 19:07:40
 
 
 *** FREE FORM - NOT PARSED ***
@@ -43,6 +44,11 @@ public class FLSarasotaCountyParser extends FieldProgramParser {
         "EVENT_TYPE:CALL! Location:ADDR/S! TIME:TIME! Disp:UNIT");
   }
   
+  @Override
+  public int getMapFlags() {
+    return  MAP_FLG_SUPPR_LA;
+  }
+
   @Override
   public String getFilter() {
     return "77711,93001";
