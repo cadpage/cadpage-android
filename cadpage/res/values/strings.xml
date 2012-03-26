@@ -212,14 +212,39 @@
 <!-- Popup Button Configuration -->
   <string name="pref_button_config_title">Button Configuration</string>
   <string name="pref_button_config_summary">Popup button configuration</string>
-  <string name="pref_button_summary">Current Setting: %s</string>
+  <string name="pref_main_button_config_title">Main Button Menu </string>
+  <string name="pref_main_button_config_summary">Configure main button menu</string>
+  <string name="pref_resp_button_config_title">Response Button Menu </string>
+  <string name="pref_resp_button_config_summary">Configure response button menu</string>
+  <string name="pref_xtra_resp_button_config_title">Regular Buttons </string>
+  
+  <string name="pref_resp_type_title">Response Type</string>
+  <string name="pref_resp_type_summary">Response buttons trigger: %s</string>
+  <string name="pref_resp_merge_title">Merge Response Menus</string>
+  <string name="pref_resp_merge_summaryon">User response menu will be merged with vendor response menu</string>
+  <string name="pref_resp_merge_summaryoff">Vendor response menu replaces user response menu</string>
 
+  <string name="pref_button_summary">Current Setting: %s</string>
   <string name="pref_button1_title">Button 1 Configuration</string>
   <string name="pref_button2_title">Button 2 Configuration</string>
   <string name="pref_button3_title">Button 3 Configuration</string>
   <string name="pref_button4_title">Button 4 Configuration</string>
   <string name="pref_button5_title">Button 5 Configuration</string>
   <string name="pref_button6_title">Button 6 Configuration</string>
+
+  <string name="pref_desc_callback1_title">Button 1 Description</string>
+  <string name="pref_desc_callback2_title">Button 2 Description</string>
+  <string name="pref_desc_callback3_title">Button 3 Description</string>
+  <string name="pref_desc_callback4_title">Button 4 Description</string>
+  <string name="pref_desc_callback5_title">Button 5 Description</string>
+  <string name="pref_desc_callback6_title">Button 6 Description</string>
+
+  <string name="pref_code_callback1_title">Button 1 Phone/Code</string>
+  <string name="pref_code_callback2_title">Button 2 Phone/Code</string>
+  <string name="pref_code_callback3_title">Button 3 Phone/Code</string>
+  <string name="pref_code_callback4_title">Button 4 Phone/Code</string>
+  <string name="pref_code_callback5_title">Button 5 Phone/Code</string>
+  <string name="pref_code_callback6_title">Button 6 Phone/Code</string>
 
 <!-- Misc missing string -->
   <string name="view_contact">View Contact</string>

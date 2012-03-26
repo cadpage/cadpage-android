@@ -41,6 +41,7 @@
         <action android:name="android.intent.action.CONTENT_CHANGED"/>
       </intent-filter>
     </receiver>
+    <receiver android:name=".MsgOptionManager.SendSMSReceiver"/>
     
     <!-- Only C2DM servers can send messages for the app. If permission is not set - any other app can generate it --> 
     <receiver android:name=".C2DMReceiver" android:permission="com.google.android.c2dm.permission.SEND" >
@@ -110,6 +111,7 @@
   <uses-permission android:name="net.anei.cadpage.permission.C2D_MESSAGE" />
           
   <uses-permission android:name="android.permission.READ_SMS" />
+  <uses-permission android:name="android.permission.SEND_SMS" />
   <uses-permission android:name="android.permission.RECEIVE_SMS" />
   <uses-permission android:name="android.permission.RECEIVE_MMS" />
   <uses-permission android:name="android.permission.WRITE_SMS" />

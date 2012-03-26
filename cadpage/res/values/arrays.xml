@@ -91,6 +91,16 @@
     <item>7</item>
     <item>9</item>
   </string-array>  
+  
+  <string-array name="pref_resp_type_text">
+    <item>Phone call</item>
+    <item>Text reply</item>
+  </string-array>
+  
+  <string-array name="pref_resp_type_values">
+    <item>P</item>
+    <item>T</item>
+  </string-array>
 
   <string-array name="pref_timeout_entries">
     <item>@string/pref_timeout_entries_10s</item>

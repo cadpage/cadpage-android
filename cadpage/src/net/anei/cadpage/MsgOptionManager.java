@@ -5,10 +5,13 @@ import java.util.List;
 
 import net.anei.cadpage.donation.DonationManager;
 import android.app.Activity;
+import android.app.PendingIntent;
 import android.content.ActivityNotFoundException;
+import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
+import android.telephony.SmsManager;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -141,7 +144,7 @@ public class MsgOptionManager {
     boolean hasMoreInfo = false;
     mainButtonList.clear();
     mainButtonGroup.removeAllViews();
-    for (int btn = 1; btn <= 6; btn++) {
+    for (int btn = 1; btn <= ManagePreferences.POPUP_BUTTON_CNT; btn++) {
       int itemNdx = ManagePreferences.popupButton(btn);
       if (itemNdx == 0) continue;
       if (itemNdx == 9) hasMoreInfo = true;
@@ -163,40 +166,35 @@ public class MsgOptionManager {
     // Start by clearing any previous arrays
     respButtonList.clear();
     respButtonGroup.removeAllViews();
-    
-    // Lets see what we need for a response button menu
-    do {
-      
-      // If response options have been requested by a direct paging vendor, they
-      // preempt everything
-      if (setupDirectPageMenu()) break;
-      
-      
-      // If there is a callback number configured
-      // we want to set up responding and not responding buttons
-      String callback = ManagePreferences.getCallback();
-      if (callback.length() > 0) {
-        respButtonList.add(new ButtonHandler(R.id.ack_item, R.string.not_responding_text, respButtonGroup));
-        respButtonList.add(new ButtonHandler(R.id.resp_call_item, R.string.responding_text, callback, respButtonGroup));
-        break;
-      }
-      
-      // Second, if there are any pending notifications set up a single ack button
-      if (ManageNotification.isAckNeeded()) {
-        respButtonList.add(new ButtonHandler(R.id.ack_item, R.string.ack_item_text, respButtonGroup));
-        break;
-      }
-      
-      // Otherwise, there is no response menu needed
-      return;
-    } while (false);
-  }
+
   
+    // If response options have been requested by a direct paging vendor, they
+    // preempt everything
+    boolean menu = setupDirectPageButtons();
+    
+    // If there are is no direct paging menu, or the user has requested that
+    // user response buttons be merged with direct paging menus, add in
+    // the user response buttons
+    if (!menu || ManagePreferences.responseMerge()) {
+      if (setupUserButtons()) menu = true;
+    }
+    
+    // If we have set up anything, add any user extra buttons to end
+    if (menu) {
+      setupExtraButtons();
+    }
+    
+    // Otherwise, if there are any pending notifications set up a single ack button
+    else if (ManageNotification.isAckNeeded()) {
+      respButtonList.add(new ButtonHandler(R.id.ack_item, R.string.ack_item_text, respButtonGroup));
+    }
+  }
+
   /**
    * Set up response menu with buttons defined by C2DM direct paging vendors
    * @return true if we set up any buttons, false otherwise
    */
-  public boolean setupDirectPageMenu() {
+  public boolean setupDirectPageButtons() {
     boolean result = false;
     
     // First see if normal responding and non-responding buttons were requested
@@ -237,6 +235,58 @@ public class MsgOptionManager {
     }
     
     return result;
+  }
+  
+  /**
+   * Set up the custom user response button menu 
+   * @return true if anything was set up
+   */
+  private boolean setupUserButtons() {
+    
+    // See if we are setting up phone call or text reply response buttons
+    int buttonId = (ManagePreferences.responseType().equals("T") 
+                        ? R.id.resp_text_item : R.id.resp_call_item);
+    
+    // There may be buttons with title but no codes.  But if all of the buttons
+    // have no codes, then there is no point in setting anything up.  But this
+    // means we have to make two passes through the buttons.  The first
+    // gets the codes and determines if any are non-empty
+    String[] respCodes = new String[ManagePreferences.CALLBACK_BUTTON_CNT];
+    String[] respDesc = new String[ManagePreferences.CALLBACK_BUTTON_CNT];
+    boolean found = false;
+    for (int btn = 1; btn <= ManagePreferences.CALLBACK_BUTTON_CNT; btn++) {
+      String code = ManagePreferences.callbackButtonCode(btn);
+      String desc = ManagePreferences.callbackButtonTitle(btn);
+      respCodes[btn-1] = code;
+      respDesc[btn-1] = desc;
+      if (desc.length() > 0 && code.length() > 0) found = true;
+    }
+    if (!found) return false;
+    
+    // We have at least one, so make another pass to actually set up the user
+    // defined buttons
+    for (int btn = 1; btn <= ManagePreferences.CALLBACK_BUTTON_CNT; btn++) {
+      String desc = respDesc[btn-1];
+      if (desc.length() == 0) continue;
+      String code = respCodes[btn-1];
+      if (code.length() > 0) {
+        respButtonList.add(new ButtonHandler(buttonId, desc, code, respButtonGroup));
+      } else {
+        respButtonList.add(new ButtonHandler(R.id.ack_item, desc, null, respButtonGroup));
+      }
+    }
+    return true;
+  }
+  
+  /**
+   * Set up and "extra" regular buttons user wants to appear in response menu
+   */
+  private void setupExtraButtons() {
+    for (int btn = 1; btn < ManagePreferences.EXTRA_BUTTON_CNT; btn++) {
+      int itemNdx = ManagePreferences.extraButton(btn);
+      if (itemNdx == 0) continue;
+      respButtonList.add(new ButtonHandler(ITEM_ID_LIST[itemNdx], ITEM_TEXT_LIST[itemNdx], respButtonGroup));
+    }
   }
 
   /**
@@ -489,6 +539,8 @@ public class MsgOptionManager {
       return true;
       
     case R.id.resp_text_item:
+      message.setResponseMenuVisible(false);
+      sendSMS(message.getFromAddress(), respCode);
       return true;
       
     case R.id.resp_http_item:
@@ -526,4 +578,63 @@ public class MsgOptionManager {
     }
   }
 
+  /**
+   * Send SMS response message
+   * @param target target phone number or address
+   * @param message message to be sent
+   */
+  private void sendSMS(String target, String message){ 
+    Log.v("Sending text reponse to " + target + " : " + message);
+    
+    
+    Intent sendIntent = new Intent("Sent", null, activity, SendSMSReceiver.class);
+    sendIntent.setFlags(Intent.FLAG_DEBUG_LOG_RESOLUTION);
+    PendingIntent sentPI = PendingIntent.getBroadcast(activity, 0, sendIntent, 0);                
+    Intent deliverIntent = new Intent("Delivered", null, activity, SendSMSReceiver.class);
+    deliverIntent.setFlags(Intent.FLAG_DEBUG_LOG_RESOLUTION);
+    PendingIntent deliveredPI = PendingIntent.getBroadcast(activity, 0, deliverIntent, 0);                
+
+    SmsManager sms = SmsManager.getDefault();
+    sms.sendTextMessage(target, null, message, sentPI, deliveredPI);        
+  }
+  
+  public static class SendSMSReceiver extends BroadcastReceiver {
+
+    @Override
+    public void onReceive(Context context, Intent intent) {
+      if (intent == null) return;
+      String action = intent.getAction();
+      String status;
+      switch (getResultCode()) {
+      
+      case Activity.RESULT_OK:
+        status = "OK";
+        break;
+        
+      case SmsManager.RESULT_ERROR_GENERIC_FAILURE:
+        status = "Generic failure"; 
+        break;
+        
+      case SmsManager.RESULT_ERROR_NO_SERVICE:
+        status = "No service"; 
+        break;
+        
+      case SmsManager.RESULT_ERROR_NULL_PDU:
+        status = "Null PDU";
+        break;
+        
+      case SmsManager.RESULT_ERROR_RADIO_OFF:
+        status = "Radio off";
+        break;
+        
+      case Activity.RESULT_CANCELED:
+        status = "Canceled";
+        break;                        
+      
+      default:
+        status = "" + getResultCode();
+      }
+      Log.v("SMS " + action + " status:" + status);
+    }
+  }
 }

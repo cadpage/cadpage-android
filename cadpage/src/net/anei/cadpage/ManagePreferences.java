@@ -15,12 +15,10 @@ import net.anei.cadpage.parsers.ManageParsers;
 import net.anei.cadpage.parsers.MsgParser;
 import net.anei.cadpage.vendors.VendorManager;
 
-import android.app.Activity;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.os.Build;
 import android.preference.PreferenceManager;
-import android.util.DisplayMetrics;
 
 public class ManagePreferences {
   
@@ -30,7 +28,7 @@ public class ManagePreferences {
   // (OK, if you know what you are doing, and the only new settings added
   // are boolean settings that default to false, you can get away with not
   // changing this)
-  private static final int PREFERENCE_VERSION = 21;
+  private static final int PREFERENCE_VERSION = 22;
   
   private static final DateFormat DATE_FORMAT = new SimpleDateFormat("MMddyyyy");
   
@@ -420,34 +418,67 @@ public class ManagePreferences {
     return prefs.getIntValue(R.string.pref_history_limit_key);
   }
   
-  public static int popupButton(int button) {
-    
-    switch (button) {
-    case 1:
-      return prefs.getIntValue(R.string.pref_button1_key);
-      
-    case 2:
-      return prefs.getIntValue(R.string.pref_button2_key);
-      
-    case 3:
-      return prefs.getIntValue(R.string.pref_button3_key);
-      
-    case 4:
-      return prefs.getIntValue(R.string.pref_button4_key);
-      
-    case 5:
-      return prefs.getIntValue(R.string.pref_button5_key);
-      
-    case 6:
-      return prefs.getIntValue(R.string.pref_button6_key);
-      
-    default:    // Anything else is disabled
-      return 0;
-    }
+  public static String responseType() {
+    return prefs.getString(R.string.pref_resp_type_key);
   }
-
-  public static String getCallback() {
-    return prefs.getString(R.string.pref_callback_key);
+  
+  public static boolean responseMerge() {
+    return prefs.getBoolean(R.string.pref_resp_merge_key);
+  }
+  
+  private static final int[] POPUP_BUTTON_IDS = new int[]{
+    R.string.pref_button1_key,
+    R.string.pref_button2_key,
+    R.string.pref_button3_key,
+    R.string.pref_button4_key,
+    R.string.pref_button5_key,
+    R.string.pref_button6_key
+  };
+  
+  public static final int POPUP_BUTTON_CNT = POPUP_BUTTON_IDS.length;
+  public static int popupButton(int button) {
+    String val =  prefs.getString(POPUP_BUTTON_IDS[button-1]);
+    if (val.length() == 0) return 0;
+    return Integer.parseInt(val);
+  }
+  
+  private static final int[] CALLBACK_TITLE_IDS = new int[]{
+    R.string.pref_callback1_title_key,
+    R.string.pref_callback2_title_key,
+    R.string.pref_callback3_title_key,
+    R.string.pref_callback4_title_key,
+    R.string.pref_callback5_title_key,
+    R.string.pref_callback6_title_key,
+  };
+  
+  public static final int CALLBACK_BUTTON_CNT = CALLBACK_TITLE_IDS.length;
+  public static String callbackButtonTitle(int button) {
+    return prefs.getString(CALLBACK_TITLE_IDS[button-1]);
+  }
+  
+  private static final int[] CALLBACK_CODE_IDS = new int[]{
+    R.string.pref_callback1_key,
+    R.string.pref_callback2_key,
+    R.string.pref_callback3_key,
+    R.string.pref_callback4_key,
+    R.string.pref_callback5_key,
+    R.string.pref_callback6_key,
+  };
+  
+  public static String callbackButtonCode(int button) {
+    return prefs.getString(CALLBACK_CODE_IDS[button-1]);
+  }
+  
+  private static final int[] EXTRA_BUTTON_IDS = new int[]{
+    R.string.pref_xtra_resp_button1_key,
+    R.string.pref_xtra_resp_button2_key
+  };
+  
+  public static final int EXTRA_BUTTON_CNT = EXTRA_BUTTON_IDS.length;
+  public static int extraButton(int button) {
+    String val =  prefs.getString(EXTRA_BUTTON_IDS[button-1]);
+    if (val.length() == 0) return 0;
+    return Integer.parseInt(val);
   }
   
   public static Date installDate() {
@@ -730,7 +761,6 @@ public class ManagePreferences {
         R.string.pref_filter_key,
         R.string.pref_gen_alert_key,
         R.string.pref_show_source_key,
-        R.string.pref_callback_key,
         R.string.pref_override_default_key,
         R.string.pref_defcity_key,
         R.string.pref_defstate_key,
@@ -783,6 +813,24 @@ public class ManagePreferences {
         R.string.pref_button4_key,
         R.string.pref_button5_key,
         R.string.pref_button6_key,
+        
+        R.string.pref_resp_type_key,
+        R.string.pref_resp_merge_key,
+        R.string.pref_callback1_title_key,
+        R.string.pref_callback1_key,
+        R.string.pref_callback2_title_key,
+        R.string.pref_callback2_key,
+        R.string.pref_callback3_title_key,
+        R.string.pref_callback3_key,
+        R.string.pref_callback4_title_key,
+        R.string.pref_callback4_key,
+        R.string.pref_callback5_title_key,
+        R.string.pref_callback5_key,
+        R.string.pref_callback6_title_key,
+        R.string.pref_callback6_key,
+        
+        R.string.pref_xtra_resp_button1_key,
+        R.string.pref_xtra_resp_button2_key,
 
         R.string.pref_paid_year_key,
         R.string.pref_install_date_key,
