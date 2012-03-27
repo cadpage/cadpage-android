@@ -46,7 +46,6 @@ public class CTRoxburyParser extends SmartAddressParser {
     if (!subject.equals("From Northwest")) return false;
     int pt = body.indexOf('\n');
     if (pt >= 0) body = body.substring(0,pt).trim();
-    if (body.startsWith("DE*")) body = body.substring(3).trim();
     Parser p = new Parser(body);
     String sAddr = p.get("Primary Incident:");
     data.strCallId = p.get(' ');

@@ -557,7 +557,7 @@ public class MsgInfo {
   // This method breaks those up into two separate tokens, also dropping any
   // direction qualifiers
   private static final Pattern ROUTE_PTN =
-    Pattern.compile("\\b(RT|RTE|HW|HWY|US|ST|I|CO|CR|SRT|I)-?(\\d{1,3})(?:[NSEW]B)?\\b", Pattern.CASE_INSENSITIVE);
+    Pattern.compile("\\b(RT|RTE|HW|HWY|US|ST|I|CO|CR|SRT|I)-?(\\d{1,3})(?:[NSEW]B?)?\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern ROUTE_PTN2 =
     Pattern.compile("\\b([A-Z]{2})(\\d{1,3})(?:[NSEW]B)?\\b", Pattern.CASE_INSENSITIVE);
   
