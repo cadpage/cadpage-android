@@ -68,6 +68,12 @@ Contact: "bcsbeaverslew@yahoo.com" <bcsbeaverslew@yahoo.com>
 Sender: 777121901640
 .... (Waterville Amb) &#239;&#187;&#191;WATA:2012:0010 &gt;Dispatched &gt;EMS CALL &gt;141 SANGER AVE, WATERVILLE VILLAGE (PARK PL/MADISON ST)
 
+
+Contact: ryan legacy <rlegacy63@gmail.com>
+Sender:messaging@iamresponding.com
+(Oriskany Falls Fire) ORFA:2012:0067  Dispatched  EMS CALL  @OLIVERAPTS #APT 103  (124 COOPER ST), ORISKANY FALLS VILLA
+
+ 
 ** NOT IMPLEMENTED **
 FRM:dispatch@oc911.org\nMSG:???WEMF:2011:0346AcknowledgeMVA-UNKNOWNROUTE 233, WESTMORELAND/W MAIN ST (COUNTY ROUTE 23), WESTMORELAND
 ???STIF:2011:0140Dispatched30B01 - POSSIBLY DANGEROUS BODY AREA8533 CHAMINADE RD, MARCY (OLD RIVER RD/ORISKANY RD; Near:VINCES U PULL IT)
@@ -130,7 +136,9 @@ public class NYOneidaCountyParser extends SmartAddressParser {
     
     // Break address field into stuff before, inside, and after two sets of parenthesis
     if (ndx >= flds.length) return false;
-    Parser p = new Parser(flds[ndx++]);
+    String sAddr = flds[ndx++];
+    while (ndx < flds.length) sAddr = sAddr + "  " + flds[ndx++];
+    Parser p = new Parser(sAddr);
     String sPart1 = p.get('(');
     String sPart2 = p.get(')');
     String sPart3 = p.get('(');

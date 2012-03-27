@@ -136,6 +136,9 @@ ack_req:  String of characters indicating what kind manual responses may be sent
           N - NO user indicates that they are not responding
           L - Request user location (again only if user has enabled location
               services and allowed Cadpage to report this info
+              An L code may be followed by two numbers separated with a slash,
+              as in L300/30.  This tells Cadpage to continue sending periodic
+              location reports for 300 seconds at 30 second intervals
           P - Request user payment status
           [...] - Custom Response menu.  The response menu consists of any
           number of response definition separated by semicolons.  Each

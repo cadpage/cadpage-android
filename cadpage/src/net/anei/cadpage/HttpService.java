@@ -6,8 +6,6 @@ import java.io.InputStream;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
-import java.text.SimpleDateFormat;
-import java.util.Date;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.regex.Matcher;
@@ -21,11 +19,8 @@ import android.os.Handler;
 import android.os.IBinder;
 import android.os.PowerManager;
 import android.os.Process;
-import java.text.DateFormat;
 
 public class HttpService extends Service {
-  
-  private static final int LOG_LIMIT = 10;
   
   public static class HttpRequest {
     
@@ -91,11 +86,9 @@ public class HttpService extends Service {
         
         // If we have a URL, connnect to it
         if (url == null) {
-          addLogEntry("Sending:" + uri.toString());
           status = 400;
           result = "Bad request:" + uri.toString();
         } else {
-          addLogEntry("Sending:" + url.toString());
           HttpURLConnection connect = null;
           InputStream is = null;
           try {
@@ -122,7 +115,6 @@ public class HttpService extends Service {
               try { is.close(); } catch (IOException ex) {}
             if (connect != null) connect.disconnect();
           }
-          addLogEntry("Result:" + status + ": " + result + '\n' + content);
         }
       }
     }
@@ -256,38 +248,6 @@ public class HttpService extends Service {
       // We don't need to pass anything, just make sure it got started
       reqQueue.add(request);
       context.startService(new Intent(context, HttpService.class));
-    }
-  }
-  
-  private static LinkedList<String> logQueue = new LinkedList<String>();
-  private static final DateFormat DATE_FMT = new SimpleDateFormat("MM/dd/yyyy hh:mm:ss");
-  
-  /**
-   * Add new line to rotating log buffer
-   * @param line
-   */
-  private static void addLogEntry(String line) {
-    line = DATE_FMT.format(new Date()) + "  " + line;
-    Log.i(line);
-    synchronized (logQueue) {
-      logQueue.add(line);
-      if (logQueue.size() > LOG_LIMIT) logQueue.poll();
-    }
-  }
-  
-  /**
-   * Append logged service information to StringBuilder
-   * @param sb StringBuilder where logged information will be appended
-   */
-  public static void appendLog(StringBuilder sb) {
-    synchronized (logQueue) {
-      if (logQueue.size() == 0) return;
-      
-      sb.append("\n\nHttpService log");
-      for (String line : logQueue) {
-        sb.append('\n');
-        sb.append(line);
-      }
     }
   }
 }
