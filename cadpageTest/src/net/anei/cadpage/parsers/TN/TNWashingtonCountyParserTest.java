@@ -458,6 +458,28 @@ public class TNWashingtonCountyParserTest extends BaseParserTest {
    
   }
   
+  @Test
+  public void testDerrickHughs() {
+
+    doTest("T1",
+        "prvs=425025d88=jcfdtext@johnsoncitytn.org (<No Subject>) Convulsions/Seizures-CHARLIE M2,E7,R2\n" +
+        "3211 MAYFIELD DR #28\n" +
+        "TIMBERRIDGE TRAILER PARK\n" +
+        "X-STR= NUNLEY LN\n" +
+        "W WALNUT ST\n" +
+        "Map 53C 1",
+
+        "CALL:Convulsions/Seizures",
+        "PRI:C",
+        "UNIT:M2,E7,R2",
+        "ADDR:3211 MAYFIELD DR",
+        "APT:28",
+        "PLACE:TIMBERRIDGE TRAILER PARK",
+        "X:NUNLEY LN & W WALNUT ST",
+        "MAP:53C 1");
+    
+  }
+  
 
   public static void main(String[] args) {
     new TNWashingtonCountyParserTest().generateTests("T1");
