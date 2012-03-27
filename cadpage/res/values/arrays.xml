@@ -194,35 +194,6 @@
     <item>40</item>
   </string-array>
   
-  <!-- Pair of arrays used to convert existing location code values when an
-       existing Parser needs to be renamed for some reason -->
-  <string-array name="old_location_values">
-    <item>NCChattamCounty</item>
-    <item>MDCentreville</item>
-    <item>PADelewareCounty</item>
-    <item>OHDelewareCounty</item>
-    <item>NJBergenCounty</item>
-    <item>COPuebloRFD</item>
-    <item>VAWightCounty</item>
-    <item>COGreeley</item>
-    <item>CTNorthBranford</item>    <!-- 11/20/2011 -->
-    <item>ILRoscoe</item>           <!-- 11/21/2011 -->
-    <item>PADelawareCountyE"</item> <!-- 12/30/2011 -->
-  </string-array>
-  <string-array name="new_location_values">
-    <item>NCChathamCounty</item>
-    <item>MDQueenAnnesCounty</item>
-    <item>PADelawareCounty</item>
-    <item>OHDelawareCounty</item>
-    <item>NJMICOM</item>
-    <item>COPuebloCounty</item>
-    <item>VAIsleOfWightCounty</item>
-    <item>COWeldCounty</item>
-    <item>CTNewHavenCounty</item>
-    <item>ILWinnebagoCounty</item>
-    <item>PADelawareCountyD"</item>
-  </string-array>
-  
   <!-- Array of state names -->
   <string-array name="pref_state_names">
     <item>Ge General location</item>
@@ -301,7 +272,7 @@
     <item>COWeldCounty</item>
     <item>CTLitchfieldCounty</item>
     <item>CTNewHavenCounty</item>
-    <item>CTRoxbury</item>
+    <item>CTNorthwestPublicSafety</item>
     <item>CTTollandCounty</item>
     <item>CTTrumbull</item>
     <item>CTWaterfordTown</item>
@@ -687,7 +658,7 @@
     <item>Weld County, CO</item>
     <item>Litchfield County, CT</item>
     <item>New Haven County, CT</item>
-    <item>Roxbury, CT</item>
+    <item>Northwest Public Safety, CT</item>
     <item>Tolland County, CT</item>
     <item>Trumbull, CT</item>
     <item>Waterford Town, CT</item>

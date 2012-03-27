@@ -2,6 +2,7 @@ package net.anei.cadpage.parsers;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Properties;
 
 
 
@@ -28,6 +29,9 @@ public class ManageParsers {
    * @return requested parser
    */
   public MsgParser getParser(String location) {
+    
+    // Convert any old codes that have been renamed to new values
+    location = convertLocationCode(location);
     
     // First level cache.  If location code matches what we have stored for
     // the current location code, return the current parser
@@ -135,5 +139,30 @@ public class ManageParsers {
   public static ManageParsers getInstance() {
     return instance;
   }
+  
+  /**
+   * Convert old codes that have been renamed to something else
+   * @param location requested location code
+   * @return possibly updated location code
+   */
+  public static String convertLocationCode(String location) {
+    return MsgParser.convertCodes(location, OLD_CODE_TABLE);
+  }
+  
+  // fixed map mapping old to new location codes
+  private static final Properties OLD_CODE_TABLE = MsgParser.buildCodeTable(new String[]{
+        "NCChattamCounty",    "NCChathamCounty",
+        "MDCentreville",      "MDQueenAnnesCounty",
+        "PADelewareCounty",   "PADelawareCounty",
+        "OHDelewareCounty",   "OHDelawareCounty",
+        "NJBergenCounty",     "NJMICOM",
+        "COPuebloRFD",        "COPuebloCounty",
+        "VAWightCounty",      "VAIsleOfWightCounty",
+        "COGreeley",          "COWeldCounty",
+        "CTNorthBranford",    "CTNewHavenCounty",       // 11/20/2011 
+        "ILRoscoe",           "ILWinnebagoCounty",      // 11/21/2011 
+        "PADelawareCountyE",  "PADelawareCountyD",      // 12/30/2011 
+        "CTRoxbury",          "CTNorthwestPublicSafety",// 03/21/2012 
+  });
 
 }

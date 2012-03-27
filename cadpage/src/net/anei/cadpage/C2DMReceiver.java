@@ -180,7 +180,6 @@ public class C2DMReceiver extends BroadcastReceiver {
     String location = intent.getStringExtra("format");
     if (location != null) {
       if (location.equals("Active911")) location = "Cadpage";
-      location = ManagePreferences.convertOldLocationCode(context, location);
     }
     String vendorCode = intent.getStringExtra("vendor");
     if (vendorCode == null) vendorCode = intent.getStringExtra("sponsor");

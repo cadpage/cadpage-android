@@ -912,23 +912,6 @@ public class SmsMmsMessage implements Serializable {
     }
     return message;
   }
-
-  /**
-   * Fix any obsolete location codes
-   * @param context current context
-   */
-  public void fixOldLocation(Context context) {
-    if (location != null) location = ManagePreferences.convertOldLocationCode(context, location);
-    
-    // That *SHOULD* fix things, but if we still can't retrieve a parser with this
-    // location, force it to "General".
-    try {
-      ManageParsers.getInstance().getParser(location);
-    } catch (RuntimeException ex) {
-      location = "General";
-    }
-  }
-
   
   @Override
   public boolean equals(Object obj) {

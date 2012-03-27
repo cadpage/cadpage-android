@@ -28,14 +28,19 @@ Sender: globalpaging@nowestps.org
 
 */
 
-public class CTRoxburyParser extends SmartAddressParser {
+public class CTNorthwestPublicSafetyParser extends SmartAddressParser {
   
   private static final Pattern UNIT_PTN = Pattern.compile("\\b(?:ROX?|TANGO)\\b");
 
-  public CTRoxburyParser() {
+  public CTNorthwestPublicSafetyParser() {
     super(CITY_LIST, "", "CT");
   }
   
+  @Override
+  public String getLocName() {
+    return "Northwest Public Safety, CT";
+  }
+
   @Override
   public String getFilter() {
     return "globalpaging@nowestps.org";

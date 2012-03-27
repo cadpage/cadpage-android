@@ -52,7 +52,6 @@ public class SmsMessageQueue implements Serializable {
       int msgId = msg.getMsgId();
       if (msgId == 0) assign = true;
       if (msgId >= nextMsgId) nextMsgId = msgId+1;
-      msg.fixOldLocation(context);
     }
     
     // First time this release is loaded, the saved messages won't have any
