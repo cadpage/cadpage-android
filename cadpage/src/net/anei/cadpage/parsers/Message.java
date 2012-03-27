@@ -102,6 +102,9 @@ public class Message {
     // Start by decoding common HTML sequences
     body = decode(body);
     
+    // Get rid of any \r characters
+    body = body.replace("\r", "");
+    
     // default address and subject to obvious values
     parseAddress = fromAddress;
     parseSubject = decode(subject);

@@ -56,6 +56,11 @@ Breathing Problems-CHARLIE M1,E1,R1 \n1 UNAKA CT #7 \nMap 39D 21:23:05 11112056 
 House/Residential Fire Alarm E2 \n2701 S ROAN ST #124 \nHERITAGE TRAILER PARK \nMap 55D 22:50:03 115214 \nThink green: Only print this e-mail and an
 Assault/Sexual Assault-BRAVO M3,R3,E9 \n2918 BRISTOL HY \nADVANCE AUTO PARTS \nMap 38A 19:53:06 11113913 \nThink green: Only print this e-mail and a
 Chest Pain(Non-Traumatic)-DELTA M1,R1,E3\n805 KENTUCKY ST\nX-STR= COLORADO ST\nORLEANS ST\nMap 47D 16:50:49 11147626\nThink green: Only print thi
+
+Contact: Derick Hughes <smokeeater1@gmail.com>
+Sender: cfdtext@johnsoncitytn.org
+prvs=425025d88=jcfdtext@johnsoncitytn.org (<No Subject>) Convulsions/Seizures-CHARLIE M2,E7,R2\n3211 MAYFIELD DR #28\nTIMBERRIDGE TRAILER PARK\nX-STR= NUNLEY LN\nW WALNUT ST\nMap 53C 1
+
 */
 
 public class TNWashingtonCountyParser extends FieldProgramParser {
