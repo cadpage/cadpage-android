@@ -94,7 +94,7 @@ public class CTRoxburyParserTest extends BaseParserTest {
 
     doTest("T4",
         "(From Northwest) DE*FOREST ST & MAIN ST  SEYMOUR MVA PEDESTRIAN TANGO 6 SEY 1ST Primary Incident: 012610 DE*FOREST ST & MAIN ST",
-        "ADDR:FOREST ST & MAIN ST",
+        "ADDR:DE*FOREST ST & MAIN ST",
         "CITY:SEYMOUR",
         "CALL:MVA PEDESTRIAN",
         "UNIT:TANGO 6 SEY 1ST",

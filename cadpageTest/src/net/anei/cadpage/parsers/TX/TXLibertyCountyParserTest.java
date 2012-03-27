@@ -24,7 +24,7 @@ public class TXLibertyCountyParserTest extends BaseParserTest {
         "[EMS]  11346 SH146N 72YOF DIFF BREATHING HISTORY OF CONGESTIVE HEART FAILURE",
         "CALL:EMS",
         "ADDR:11346 SH-146N",
-        "MADDR:11346 ST-146N",
+        "MADDR:11346 ST 146",
         "INFO:72YOF DIFF BREATHING HISTORY OF CONGESTIVE HEART FAILURE");
 
     doTest("T3",
@@ -122,7 +122,7 @@ public class TXLibertyCountyParserTest extends BaseParserTest {
         "[EMS]16897 SH146N\n78YOM AMPUTATED LEG HAS BEEN BOTHERING HIM FOR A WEEK",
         "CALL:EMS",
         "ADDR:16897 SH-146N",
-        "MADDR:16897 ST-146N",
+        "MADDR:16897 ST 146",
         "INFO:78YOM AMPUTATED LEG HAS BEEN BOTHERING HIM FOR A WEEK");
     
   }

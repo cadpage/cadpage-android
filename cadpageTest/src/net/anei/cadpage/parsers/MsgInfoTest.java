@@ -16,6 +16,8 @@ public class MsgInfoTest {
   @Test
   public void testGetMapAddress() {
     
+    doMapTest("TXLibertyCounty", "16897 ST 146,KENBURG,XX", "16897 SH-146N");
+    
     doMapTest("INStJosephCounty", "30750 ST 2,KENBURG,XX", "30750 SR 2 HW");
     
     doMapTest("CASanBernardino", "I 10 E & N University St,KENBURG,XX", "I 10 Fwy E & N University St");
