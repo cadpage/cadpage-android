@@ -5,10 +5,10 @@ import net.anei.cadpage.parsers.BaseParserTest;
 import org.junit.Test;
 
 
-public class CTRoxburyParserTest extends BaseParserTest {
+public class CTNorthwestPublicSafetyParserTest extends BaseParserTest {
   
-  public CTRoxburyParserTest() {
-    setParser(new CTRoxburyParser(), "", "CT");
+  public CTNorthwestPublicSafetyParserTest() {
+    setParser(new CTNorthwestPublicSafetyParser(), "", "CT");
   }
   
   @Test
@@ -103,6 +103,6 @@ public class CTRoxburyParserTest extends BaseParserTest {
   }
   
   public static void main(String[] args) {
-    new CTRoxburyParserTest().generateTests("T1", "ADDR CITY CALL UNIT ID");
+    new CTNorthwestPublicSafetyParserTest().generateTests("T1", "ADDR CITY CALL UNIT ID");
   }
 }
