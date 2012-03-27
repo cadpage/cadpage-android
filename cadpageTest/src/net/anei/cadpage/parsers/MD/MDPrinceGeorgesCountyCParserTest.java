@@ -419,6 +419,23 @@ public class MDPrinceGeorgesCountyCParserTest extends BaseParserTest {
   }
   
   @Test
+  public void testJrCap20() {
+
+    doTest("T1",
+        "A820 Incident: F120860131, Type: Medic Local, Loc: 5011 ROBLEE DR, PP, btwn TENBURY CT and LYNFORD CT, TalkGroup: TGA2, Box: 2017, Map: 5651 K 9, Text: Medical ProQA recommends dispatch at this time, Units:A820, E820, MD826=",
+        "SRC:A820",
+        "ID:F120860131",
+        "CALL:Medic Local",
+        "ADDR:5011 ROBLEE DR",
+        "X:TENBURY CT and LYNFORD CT",
+        "CH:TGA2",
+        "BOX:2017",
+        "MAP:5651 K 9",
+        "UNIT:A820,E820,MD826=");
+
+  }
+  
+  @Test
   public void testActive911() {
 
     doTest("T1",
