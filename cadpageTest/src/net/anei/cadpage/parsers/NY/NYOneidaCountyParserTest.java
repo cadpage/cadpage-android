@@ -254,6 +254,20 @@ public class NYOneidaCountyParserTest extends BaseParserTest {
 
   }
   
+  @Test
+  public void testRyanLegacy() {
+
+    doTest("T1",
+        "(Oriskany Falls Fire) ORFA:2012:0067  Dispatched  EMS CALL  @OLIVERAPTS #APT 103  (124 COOPER ST), ORISKANY FALLS VILLA",
+        "SRC:Oriskany Falls Fire",
+        "ID:2012:0067",
+        "CALL:EMS CALL",
+        "PLACE:OLIVERAPTS #APT 103",
+        "ADDR:124 COOPER ST",
+        "CITY:ORISKANY FALLS VILLAGE");
+    
+  }
+  
   public static void main(String[] args) {
     new NYOneidaCountyParserTest().generateTests("T1", "SRC ID CODE CALL PLACE ADDR CITY X INFO");
   }
