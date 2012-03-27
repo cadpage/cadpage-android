@@ -52,6 +52,11 @@ A855 Incident: F120760259, Type: BLS Amb, Loc: HYATTSVILLE STATION - PGPD, HP, a
 A834 Incident: F120760294, Type: Overdose, Loc: OUTBACK STEAK HOUSE, HP, at 3500 EAST WEST HWY, HP, btwn EDITORS PARK DR and BELCREST RD, TalkGroup: TGA2, Box: 0107, Map: 5409 G 6, Text: Medical ProQA recomme nds dispatch at this time, Units:A834, E801
 E801 Incident: F120760294, Type: Overdose, Loc: OUTBACK STEAK HOUSE, HP, at 3500 EAST WEST HWY, HP, btwn EDITORS PARK DR and BELCREST RD, TalkGroup: TGA2, Box: 0107, Map: 5409 G 6, Text: Medical ProQA recomme nds dispatch at this time, Units:A834, E801
 
+Contact: Jrcapt20 <jrcapt20@gmail.com>
+Sender: PSCC
+A820 Incident: F120860131, Type: Medic Local, Loc: 5011 ROBLEE DR, PP, btwn TENBURY CT and LYNFORD CT, TalkGroup: TGA2, Box: 2017, Map: 5651 K 9, Text: Medical ProQA recommends dispatch at this time, Units:A820, E820, MD826=
+
+
 Contact: support@active911.com
 (CAD Feed) Engine 811 Incident: F120060261, Type: Medic Local, Loc: 11000 BALTIMORE AVE #105, PP, btwn SELLMAN RD and HARFORD AVE, TalkGroup: TGA2, Box: 3104, Map: 5288 E 5, Text: Medical ProQA recommends dispatch at this time, Units:A814, E811B, MD810\n\nSent to Prince George's alert recipients (E-mail, Wireless) through Alert Prince George's\n... powered by Cooper Notification's Roam Secure Alert Network\n--\n
 (CAD Feed) Battalion Chief 884 Incident: F120790133, Type: Collapse Invest, Loc: 4316 FARRAGUT ST, HP, btwn 43RD AVE and CHURCH PL, TalkGroup: TGD3, Box: 5511, Map: 5409 K 8, Text: Fire ProQA recommends dispatch at this time, Units:A855, BO884, E855B, MD812, SQ801, SQ814, TS814 Sent to Prince George's alert recipients (E-mail, Wireless) through Alert Prince George's ... powered by Cooper Notification's Roam Secure Alert Network -- You received this message because you registered on Alert Prince George's.  To change your alerting preferences go to https://alert.princegeorgescountymd.gov/mygroups.php Reply to this message with "Stop" to end all notifications from Alert Prince George's to this device

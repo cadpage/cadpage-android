@@ -252,6 +252,7 @@ public class VendorManager {
    */
   private static String extractHostName(Uri uri) {
     String host = uri.getHost();
+    if (host == null) return null;
     int pt = host.lastIndexOf('.');
     if (pt > 0) pt = host.lastIndexOf('.', pt-1);
     if (pt >= 0) host = host.substring(pt+1);

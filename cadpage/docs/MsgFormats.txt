@@ -4073,7 +4073,6 @@ Sender: wgfc22@comcast.net
 (Dispatch) 03/23/12 * 11:11:49 * HOUSE FIRE * * 64 RICHARDS LA,88   (NV) *  *  * ** X-STRT DARIEN RD - COVERED * NCC *  *  *  *  * Dispatch *
 **********************************************************
 **********************************************************
-**********************************************************
 ************  READY TO ROLL ******************************
 **********************************************************
 **********************************************************
@@ -4082,6 +4081,26 @@ Sender: wgfc22@comcast.net
 **********************************************************
 **********************************************************
 **********************************************************
+**********************************************************
+Olney, IL in Richland County
+Contact: "Olney FD" <office@olneyfd.com
+Sender: messaging@iamresponding.com
+System: Information Technologies, Inc
+FIRE/RESCUE will turn into department code soon
+
+FIRE/RESCUE - 5755 N SHIPLEY OLNEY - BARN ON FIRE
+FIRE/RESCUE - DEERFARM/SHIPLEY -
+FIRE/RESCUE - S PALMER ST NOBLE -
+FIRE/RESCUE - 225 S PALMER ST NOBLE - VEH ON FIRE
+FIRE/RESCUE - 4752 N SHIPLEY OLNEY -
+FIRE/RESCUE - 380 W SOUTH NOBLE - DAN ROBINSON REQUEST NOBLE FIRE RESPOND AS HE HAS A HOT ELCECTICAL SMELL COMING FROM HIS HALLWAY BELIVED TO BE THE ATTIC.
+FIRE/RESCUE - E PARKERSBURG LN - -
+FIRE/RESCUE - 325N NOBLE - -
+FIRE/RESCUE - 225 S PALMER ST NOBLE - VEH ON FIRE
+FIRE/RESCUE - S PALMER ST NOBLE -
+FIRE/RESCUE - 5755 N SHIPLEY OLNEY - BARN ON FIRE
+FIRE/RESCUE - 2631 E ELBOW LN NOBLE - - REC'D 911 CELL CALL OF A BRUSH OR FIELD FIRE. ORIGINAL CALL WAS N OF 450N AND BETWEEN 600E AND 700E. TONED OUT NFD. 2203 MCCORMICK CALLED AND ADV'D THAT ALAN WALKER HAD A CONTROLLED BURN LAST NIGHT AND IS NOT SURE IF THEY HAVE STARTED IT BACK UP THIS MORNING, BUT WILL BE RESPONDING TO CHECK. MN
+FIRE/RESCUE - 3772 E TWIN BRIDGE LN - -
 
 
 
