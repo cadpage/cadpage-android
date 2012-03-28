@@ -11,7 +11,7 @@ Kent County, DE
 public class DEKentCountyParser extends GroupBestParser {
   
   public DEKentCountyParser() {
-    super(new DEKentCountyAParser(), new DEKentCountyBParser());
+    super(new DEKentCountyAParser(), new DEKentCountyBParser(), new DEKentCountyCParser());
   }
 }
 
