@@ -4016,8 +4016,9 @@ Body:  54 ALEXANDRIA WY (HAMPTON CT TO SALEM CT) CO ALARM NEGATIVE ILLNESS, CASE
 Butte County, CA
 Contact: "McLean, Scott" <Scott.McLean@fire.ca.gov>
 Very similar to Shasta County, CA
-Sender: btucad@fire.ca.gov<mailto:btucad@fire.ca.gov>
+Sender: btucad@fire.ca.gov
 (CAD Page) MEDICAL; 1759 12TH ST ,THERMALITO ; ; 1200 BLK TEHAMA AVE; Map: 6683; Inc# 002759; Date-Time: 21-Mar-2012/20:55:59; CARDIAC;
+(CAD Page) MEDICAL; 14897 DEL ORO DR ,MGLA ; ;  DEAD-END; Map: 5633; Inc# 002916; Date-Time: 26-Mar-2012/09:00:57; CARDIAC;
 **********************************************************
 Marion County (N), OR (Replacement)  
 Contact: Louis Gisler <lgisler1@gmail.com>
@@ -4096,7 +4097,22 @@ Contact: TRACY VOHWINKLE <twinpeaks001@gmail.com
 Sender: rc.32@c-msg.net
 21CAD / URINATE PAT:1 SEX:Male AGE:82Years CON:Y BRE:Y?!\n
 **********************************************************
+Montgomery County, NC (replace)
+Contact: Kyle Morris <wildlandfire09@gmail.com>
+Sender: @montgomerycountync.com
+CAD:DAYS INN 531 EAST MAIN ST 105 BISCOE 14:14:20 ASSAULT - SEXUAL ASSAULT man an woman was fighting and then fm turned on caller.
+CAD:1344 NC HWY 109 S MT GILEAD MDL 09E01 19:26:03 CARDIAC OR RESPIRATORY ARREST - DEATH
+CAD:1344 NC HWY 109 S MT GILEAD 19:21:52 UNCONSCIOUS - FAINTING (NEAR) E
+CAD:348 AUMAN RD BISCOE 17:25:35 ASSAULT - SEXUAL ASSAULT ASSAULT CALLERS SON GAVE FM BLACK EYE
 **********************************************************
+Nassau County, NY (alternate)
+Contact: Besnik Gjonlekaj <tigerfdny@gmail.com>
+Sender: Alarm@WHFD.com
+(West Hempstead Fire Dept 3/24/2012 04 <201204>:21) Call:  RESCUE  Sub: AMBU 108 NEW YORK AVE WEST HEMPSTEAD Cross: BELMONT AVE  &  GRAND AVEFEMAEL CHEST LAC - HazMat:   Hyd:
+(West Hempstead Fire Dept 3/25/2012 19 <201219>:05) Call:  RESCUE  Sub: AMBU ROOSEVELT BLVD WEST HEMPSTEAD Cross: MC KINLEY ST  &  NASSAU BLVD17 Y/O MALE FAINTED - HazMat:
+(West Hempstead Fire Dept 3/26/2012 14 <201214>:12) Call:  RESCUE  Sub: AMBU 249 BELMONT AVE WEST HEMPSTEAD Cross: BROADWAY  &  MAYFAIR AVEINTERNAL BLEEDING - HazMat:   Hyd:
+(West Hempstead Fire Dept 3/26/2012 18 <201218>:36) Call:  GENERAL  Sub: HOUS 100 TRINITY PL WEST HEMPSTEAD Cross: MARLBOROUGH ROAD  &  BUCKINGHAM ROADSMOKE DECTS GOING OFF -
+(West Hempstead Fire Dept 3/27/2012 10 <201210>:36) Call:  RESCUE  Sub: AMBU 84 STRATFORD ROAD WEST HEMPSTEAD Cross: STEVENS AVE  &  TRINITY PLMALE DIFF BREATHING - HazMat:
 **********************************************************
 **********************************************************
 ************  READY TO ROLL ******************************

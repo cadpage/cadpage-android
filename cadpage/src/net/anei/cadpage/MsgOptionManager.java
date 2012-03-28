@@ -603,8 +603,17 @@ public class MsgOptionManager {
     deliverIntent.setFlags(Intent.FLAG_DEBUG_LOG_RESOLUTION);
     PendingIntent deliveredPI = PendingIntent.getBroadcast(activity, 0, deliverIntent, 0);   
 
+    /**
+     * The send logic apparently isn't as bulletproof as we like.  It sometimes
+     * throws a null pointer exception on the other side of an RPC.  We can't
+     * do much about it.
+     */
     SmsManager sms = SmsManager.getDefault();
-    sms.sendTextMessage(target, null, message, sentPI, deliveredPI);        
+    try {
+      sms.sendTextMessage(target, null, message, sentPI, deliveredPI);
+    } catch (NullPointerException ex) {
+      Log.e(ex);
+    }
   }
   
   public static class SendSMSReceiver extends BroadcastReceiver {
