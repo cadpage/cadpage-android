@@ -20,4 +20,10 @@ public class DEKentCountyParserTest {
     }
   }
   
+  public static class TestC extends DEKentCountyCParserTest {
+    public TestC() {
+      setParser(new DEKentCountyParser());
+    }
+  }
+  
 }
