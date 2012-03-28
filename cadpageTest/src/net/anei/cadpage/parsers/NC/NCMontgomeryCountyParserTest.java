@@ -15,57 +15,44 @@ public class NCMontgomeryCountyParserTest extends BaseParserTest {
   public void testParser() {
 
     doTest("T1",
-        "SDUNN:201107504 105 WHITE TAIL RUN MT GILEAD MAN WITH A GUN jeremy collins is there arguing/ has a gun/subject is in the yard",
-        "ID:201107504",
-        "ADDR:105 WHITE TAIL RUN",
-        "CITY:MT GILEAD",
-        "CALL:MAN WITH A GUN",
-        "INFO:jeremy collins is there arguing / has a gun / subject is in the yard");
+        "CAD:DAYS INN 531 EAST MAIN ST 105 BISCOE 14:14:20 ASSAULT - SEXUAL ASSAULT man an woman was fighting and then fm turned on caller.",
+        "PLACE:DAYS INN",
+        "ADDR:531 EAST MAIN ST 105",
+        "CITY:BISCOE",
+        "TIME:14:14:20",
+        "CALL:ASSAULT",
+        "INFO:SEXUAL ASSAULT man an woman was fighting and then fm turned on caller.");
 
     doTest("T2",
-        "JWHITAKER:106 EAST ALLENTON ST MT GILEAD STATION 2 PAGE 201107494 16:44:24 station 2 will be having cpr class at 7 on Monday the 28th",
-        "ID:201107494",
-        "ADDR:106 EAST ALLENTON ST",
+        "CAD:1344 NC HWY 109 S MT GILEAD MDL 09E01 19:26:03 CARDIAC OR RESPIRATORY ARREST - DEATH",
+        "ADDR:1344 NC HWY 109 S",
+        "MADDR:1344 NC 109 S",
         "CITY:MT GILEAD",
-        "CALL:STATION 2 PAGE",
-        "INFO:station 2 will be having cpr class at 7 on Monday the 28th");
+        "CODE:09E01",
+        "TIME:19:26:03",
+        "CALL:CARDIAC OR RESPIRATORY ARREST",
+        "INFO:DEATH");
 
     doTest("T3",
-        "MDAVIS:201107560 179 TILLERY DAM RD MT GILEAD ILLEGAL BURN MAN BURNING TRASH NEAR PLANT ON RIVERBED, HAVE ASKED HIM TO PUT IT OUT, REFUSING. EXT 0.",
-        "ID:201107560",
-        "ADDR:179 TILLERY DAM RD",
+        "CAD:1344 NC HWY 109 S MT GILEAD 19:21:52 UNCONSCIOUS - FAINTING (NEAR) E",
+        "ADDR:1344 NC HWY 109 S",
+        "MADDR:1344 NC 109 S",
         "CITY:MT GILEAD",
-        "CALL:ALERT",
-        "INFO:ILLEGAL BURN MAN BURNING TRASH NEAR PLANT ON RIVERBED, HAVE ASKED HIM TO PUT IT OUT, REFUSING EXT 0");
+        "TIME:19:21:52",
+        "CALL:UNCONSCIOUS",
+        "INFO:FAINTING (NEAR) E");
 
     doTest("T4",
-        "JWHITAKER:201107575 644 BISCOE RD TROY FIRE ALARM tommy and debbie honeycutt,gen fire and gen burg,no contact on premise,audible",
-        "ID:201107575",
-        "ADDR:644 BISCOE RD",
-        "CITY:TROY",
-        "CALL:FIRE ALARM",
-        "INFO:tommy and debbie honeycutt,gen fire and gen burg,no contact on premise,audible");
-
-    doTest("T5",
-        "JWHITAKER:201107593 468 EAST MAIN ST CANDOR FIRE ALARM plant 28,riser 1 water flow",
-        "ID:201107593",
-        "ADDR:468 EAST MAIN ST",
-        "CITY:CANDOR",
-        "CALL:FIRE ALARM",
-        "INFO:plant 28,riser 1 water flow");
-
-    doTest("T6",
-        "KMORRIS:1895 NC HWY 24-27 E INT BISCOE INFORMATION 201107696 12:09:59 test",
-        "ID:201107696",
-        "ADDR:1895 NC HWY 24 27 E",
-        "MADDR:1895 NC 24 27 E",
+        "CAD:348 AUMAN RD BISCOE 17:25:35 ASSAULT - SEXUAL ASSAULT ASSAULT CALLERS SON GAVE FM BLACK EYE",
+        "ADDR:348 AUMAN RD",
         "CITY:BISCOE",
-        "CALL:INFORMATION",
-        "INFO:test");
+        "TIME:17:25:35",
+        "CALL:ASSAULT",
+        "INFO:SEXUAL ASSAULT ASSAULT CALLERS SON GAVE FM BLACK EYE");
   }
   
 
   public static void main(String[] args) {
-    new NCMontgomeryCountyParserTest().generateTests("T1", "ID ADDR CITY CALL INFO");
+    new NCMontgomeryCountyParserTest().generateTests("T1", "PLACE ADDR APT CITY CODE TIME CALL INFO");
   }
 }
