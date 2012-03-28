@@ -4097,14 +4097,6 @@ Contact: TRACY VOHWINKLE <twinpeaks001@gmail.com
 Sender: rc.32@c-msg.net
 21CAD / URINATE PAT:1 SEX:Male AGE:82Years CON:Y BRE:Y?!\n
 **********************************************************
-Montgomery County, NC (replace)
-Contact: Kyle Morris <wildlandfire09@gmail.com>
-Sender: @montgomerycountync.com
-CAD:DAYS INN 531 EAST MAIN ST 105 BISCOE 14:14:20 ASSAULT - SEXUAL ASSAULT man an woman was fighting and then fm turned on caller.
-CAD:1344 NC HWY 109 S MT GILEAD MDL 09E01 19:26:03 CARDIAC OR RESPIRATORY ARREST - DEATH
-CAD:1344 NC HWY 109 S MT GILEAD 19:21:52 UNCONSCIOUS - FAINTING (NEAR) E
-CAD:348 AUMAN RD BISCOE 17:25:35 ASSAULT - SEXUAL ASSAULT ASSAULT CALLERS SON GAVE FM BLACK EYE
-**********************************************************
 Nassau County, NY (alternate)
 Contact: Besnik Gjonlekaj <tigerfdny@gmail.com>
 Sender: Alarm@WHFD.com
@@ -4209,4 +4201,5 @@ System: Sunguard OSSI
 @RIFD: 15221:;CRASH PERSONAL INJURIES;24TH ST/18TH AV
 @RIFD: 15226:;FIRE OTHER;1323 14TH ST
 @RIFD: 15227:;FIRE ALARM;3605 11TH AV
+**********************************************************
 **********************************************************

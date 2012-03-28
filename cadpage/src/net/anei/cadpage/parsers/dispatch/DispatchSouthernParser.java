@@ -144,6 +144,12 @@ ARG:158300 INTERSTATE 81 FINCASTLE 12001904 16:01:02 ACCIDENT 10-50 NB / HIT THE
 JBC:TRUCKSTOPS-TRAVEL CENTERS OF AMERICA 2905 LEE HWY TROUTVILLE 12001955 23:03:26 CARDIAC 50 YO M/
 SM:1 ROANOKE RD/CATAWBA RD 12002013 20:11:16 CARDIAC WANT TO MEET AT PAPA JOHNS HAVING CHEST PAINS DIFF BREATHING 70 YOM HAS FLUID ON CHEST/WILL BE IN A\n\n\nThe inf
 
+Montgomery County, NC
+CAD:DAYS INN 531 EAST MAIN ST 105 BISCOE 14:14:20 ASSAULT - SEXUAL ASSAULT man an woman was fighting and then fm turned on caller.
+CAD:1344 NC HWY 109 S MT GILEAD MDL 09E01 19:26:03 CARDIAC OR RESPIRATORY ARREST - DEATH
+CAD:1344 NC HWY 109 S MT GILEAD 19:21:52 UNCONSCIOUS - FAINTING (NEAR) E
+CAD:348 AUMAN RD BISCOE 17:25:35 ASSAULT - SEXUAL ASSAULT ASSAULT CALLERS SON GAVE FM BLACK EYE
+`
 */
 
 public class DispatchSouthernParser extends SmartAddressParser {
@@ -154,7 +160,7 @@ public class DispatchSouthernParser extends SmartAddressParser {
   // Flag indicating a leading dispatch name is optional
   public static final int DSFLAG_OPT_DISPATCH_ID = 0x02;
   
-  // Flag indicate a unit designation follows the time stampe
+  // Flag indicate a unit designation follows the time stamp
   public static final int DSFLAG_UNIT = 0x04;
   
   // Flag indicating that the call ID is optional
