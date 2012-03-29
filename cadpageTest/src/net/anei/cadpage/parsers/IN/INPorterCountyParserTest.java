@@ -152,9 +152,29 @@ public class INPorterCountyParserTest extends BaseParserTest {
         "X:BITTERSWEET LN and OGDEN RD",
         "PRI:1",
         "INFO:Medica");
+
+    doTest("T14",
+        "Subject:CAD Page\n\n" +
+        "#120036045 - \n" +
+        "F35:\n" +
+        "MISC. AST EMS @ 253-1 N ST RD 2,WGT\n" +
+        "CROSS: btwn RIGG RD and E 300 N\n" +
+        "GRP:WF\n" +
+        "PRI:1\n" +
+        "comment: COMPLAINI\r",
+
+        "ID:120036045",
+        "UNIT:F35",
+        "CALL:MISC. AST EMS",
+        "ADDR:253-1 N ST RD 2",
+        "MADDR:253 N ST 2",
+        "CITY:Washington Twp",
+        "X:RIGG RD and E 300 N",
+        "PRI:1",
+        "INFO:COMPLAINI");
   }
   
   public static void main(String[] args) {
-    new INPorterCountyParserTest().generateTests("T12");
+    new INPorterCountyParserTest().generateTests("T1");
   }
 }

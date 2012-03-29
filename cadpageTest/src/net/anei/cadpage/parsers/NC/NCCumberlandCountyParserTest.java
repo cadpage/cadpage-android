@@ -108,7 +108,8 @@ public class NCCumberlandCountyParserTest extends BaseParserTest {
         "(Station 13) 08/2011 18:00:08;RESIDENTIAL ALARM;0431,2131,ST13,ST19;5681 CAMDEN RD;STATE ST",
         "TIME:18:00:08",
         "CALL:RESIDENTIAL ALARM",
-        "SRC:0431,2131,ST13,ST19",
+        "SRC:ST13,ST19",
+        "UNIT:0431,2131",
         "ADDR:5681 CAMDEN RD",
         "X:STATE ST");
 
@@ -142,7 +143,8 @@ public class NCCumberlandCountyParserTest extends BaseParserTest {
         "(Station 13) 08/2011 18:00:08;RESIDENTIAL ALARM;0431,2131,ST13,ST19;5681 CAMDEN RD;STATE ST",
         "TIME:18:00:08",
         "CALL:RESIDENTIAL ALARM",
-        "SRC:0431,2131,ST13,ST19",
+        "UNIT:0431,2131",
+        "SRC:ST13,ST19",
         "ADDR:5681 CAMDEN RD",
         "X:STATE ST");
 
@@ -157,14 +159,30 @@ public class NCCumberlandCountyParserTest extends BaseParserTest {
         "DATE:12/09/2011",
         "TIME:22:21:31",
         "CALL:ABNORMAL BREATHING CHEST PN",
-        "SRC:4474 CAMERON RD",
-        "ADDR:PECAN DR",
-        "MADDR:PAPER MILL,PECAN DR");
+        "ADDR:4474 CAMERON RD",
+        "X:PECAN DR");
+
+  }
+  
+  @Test
+  public void testShaneDisbrow() {
+
+    doTest("T1",
+        "FRM:CAD@co.cumberland.nc.us\n" +
+        "MSG:CAD:DIST: 1.02 FT;03/28/2012 06:10:51;67D1 WILDLAND FIRE;CCFD22;2240 N BRAGG BLVD;LUCAS RD;SHELL STATION\r\n",
+
+        "UNIT:CCFD22",
+        "PLACE:SHELL STATION",
+        "DATE:03/28/2012",
+        "TIME:06:10:51",
+        "CALL:67D1 WILDLAND FIRE",
+        "ADDR:2240 N BRAGG BLVD",
+        "X:LUCAS RD");
 
   }
   
 
   public static void main(String[] args) {
-    new NCCumberlandCountyParserTest().generateTests("T3");
+    new NCCumberlandCountyParserTest().generateTests("T1");
   }
 }
