@@ -4018,13 +4018,6 @@ Body: 8323 @ 3575 VALLEY RD [CR 512]/MT AIRY RD [CR 525]  , BASKING RIDGE - GAS 
 Subject: [Alarm] (no subject)
 Body:  54 ALEXANDRIA WY (HAMPTON CT TO SALEM CT) CO ALARM NEGATIVE ILLNESS, CASE # 139
 **********************************************************
-Butte County, CA
-Contact: "McLean, Scott" <Scott.McLean@fire.ca.gov>
-Very similar to Shasta County, CA
-Sender: btucad@fire.ca.gov
-(CAD Page) MEDICAL; 1759 12TH ST ,THERMALITO ; ; 1200 BLK TEHAMA AVE; Map: 6683; Inc# 002759; Date-Time: 21-Mar-2012/20:55:59; CARDIAC;
-(CAD Page) MEDICAL; 14897 DEL ORO DR ,MGLA ; ;  DEAD-END; Map: 5633; Inc# 002916; Date-Time: 26-Mar-2012/09:00:57; CARDIAC;
-**********************************************************
 Marion County (N), OR (Replacement)  
 Contact: Louis Gisler <lgisler1@gmail.com>
 Sender: trex@ci.woodburn.or.us
@@ -4116,6 +4109,10 @@ Butler County, CA
 Contact: 5302308251@txt.att.net
 System: Northrop gunman alturis cad
 **********************************************************
+Montville, CT
+Contact: William Betters <betters49@gmail.com>
+**********************************************************
+**********************************************************
 **********************************************************
 ************  READY TO ROLL ******************************
 **********************************************************
@@ -4147,5 +4144,13 @@ System: Sunguard OSSI
 @RIFD: 15221:;CRASH PERSONAL INJURIES;24TH ST/18TH AV
 @RIFD: 15226:;FIRE OTHER;1323 14TH ST
 @RIFD: 15227:;FIRE ALARM;3605 11TH AV
+**********************************************************
+Butte County, CA
+Contact: "McLean, Scott" <Scott.McLean@fire.ca.gov>
+Very similar to Shasta County, CA
+Sender: btucad@fire.ca.gov
+(CAD Page) MEDICAL; 1759 12TH ST ,THERMALITO ; ; 1200 BLK TEHAMA AVE; Map: 6683; Inc# 002759; Date-Time: 21-Mar-2012/20:55:59; CARDIAC;
+(CAD Page) MEDICAL; 14897 DEL ORO DR ,MGLA ; ;  DEAD-END; Map: 5633; Inc# 002916; Date-Time: 26-Mar-2012/09:00:57; CARDIAC;
+(CAD Page) OTH,REFERRAL; 7540 OROVILLE BANGOR HWY / 2 BANGOR PARK RD ,BNGR ; ; ; Map: 6985; Inc# ; Date-Time: 28-Mar-2012/09:29:18; LOOSE HORSE ON BANGOR PARK RD
 **********************************************************
 **********************************************************
