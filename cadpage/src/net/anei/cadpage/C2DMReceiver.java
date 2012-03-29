@@ -166,7 +166,7 @@ public class C2DMReceiver extends BroadcastReceiver {
   private void sendAutoAck(Context context, Intent intent) {
     String ackReq = intent.getStringExtra("ack_req");
     String ackURL = intent.getStringExtra("ack_url");
-    sendResponseMsg(context, ackReq, ackURL, "auto");
+    sendResponseMsg(context, ackReq, ackURL, "AUTO");
   }
     
   private void processContent(Context context, Intent intent, String content, 

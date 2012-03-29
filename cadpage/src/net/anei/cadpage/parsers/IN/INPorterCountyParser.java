@@ -32,7 +32,11 @@ Subject:CAD Page\n\n#110137072 - \nF35P1:\nEMS AST-P1 @ 429 E ST RD 2,WGT\nCROSS
 
 Contact: "Kurtz, Eric [KurtzE@comcast.net] " <KurtzE@comcast.net>
 Sender: pcdisp@porterco-ps.org
-Subject:CAD Page\n\n#110166809 - \nF35P1:\nEMS AST-P1 @ 53 ASPEN RD,OGD\nCROSS: btwn BITTERSWEET LN and OGDEN RD\nGRP:OF\nPRI:1\ncomment: Medica 
+Subject:CAD Page\n\n#110166809 - \nF35P1:\nEMS AST-P1 @ 53 ASPEN RD,OGD\nCROSS: btwn BITTERSWEET LN and OGDEN RD\nGRP:OF\nPRI:1\ncomment: Medica
+
+Contact: Gregory Adair <firemedic3087@gmail.com>
+Sender: pcdisp@porterco-ps.org
+Subject:CAD Page\n\n#120036045 - \nF35:\nMISC. AST EMS @ 253-1 N ST RD 2,WGT\nCROSS: btwn RIGG RD and E 300 N\nGRP:WF\nPRI:1\ncomment: COMPLAINI\r
 
 */
 

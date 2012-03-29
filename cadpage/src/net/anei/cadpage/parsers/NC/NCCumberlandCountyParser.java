@@ -33,6 +33,10 @@ Contact: Jr McElyea <j.mcelyea1@gmail.com>
 Sender: essaging@iamresponding.com
 (Station #4) PAPER MILL 12/09/2011 22:21:31;ABNORMAL BREATHING CHEST PN;4474 CAMERON RD;PECAN DR
 
+Contact: Shane Disbrow <s_disbrow@hotmail.com>
+Sender: CAD@co.cumberland.nc.us
+FRM:CAD@co.cumberland.nc.us\nMSG:CAD:DIST: 1.02 FT;03/28/2012 06:10:51;67D1 WILDLAND FIRE;CCFD22;2240 N BRAGG BLVD;LUCAS RD;SHELL STATION\r\n
+
 */
 
 public class NCCumberlandCountyParser extends FieldProgramParser {
@@ -41,7 +45,7 @@ public class NCCumberlandCountyParser extends FieldProgramParser {
   
   public NCCumberlandCountyParser() {
     super("CUMBERLAND COUNTY", "NC",
-           "UNIT? DATETIME CALL SRC ADDR X PLACE");
+           "UNIT? PLACE? DATETIME CALL UNIT2? ADDR X PLACE");
   }
   
   @Override
@@ -79,13 +83,24 @@ public class NCCumberlandCountyParser extends FieldProgramParser {
   private static final Pattern DATE_PTN = Pattern.compile("\\d\\d/\\d\\d/\\d{4}");
   private class MyDateTimeField extends DateTimeField {
     @Override
-    public void parse(String field, Data data) {
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
       Matcher match = DATE_TIME_PTN.matcher(field);
-      if (!match.matches()) abort();
+      if (!match.matches()) return false;
       data.strPlace = append(data.strPlace, " / ", getOptGroup(match.group(1)));
       String sDate = match.group(2);
       data.strTime = match.group(3);
       if (sDate != null && DATE_PTN.matcher(sDate).matches()) data.strDate = sDate;
+      return true;
+    }
+    
+    @Override
+    public void parse(String field, Data data) {
+      if (!checkParse(field, data)) abort();
     }
     
     @Override
@@ -94,10 +109,38 @@ public class NCCumberlandCountyParser extends FieldProgramParser {
     }
   }
   
+  private class MyUnitField2 extends UnitField {
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      if (field.contains(" ")) return false;
+      parse(field, data);
+      return true;
+    }
+    
+    @Override
+    public void parse(String field, Data data) {
+      StringBuilder src = new StringBuilder();
+      StringBuilder unit = new StringBuilder(data.strUnit);
+      for (String token : field.split(",")) {
+        StringBuilder sb = (token.startsWith("ST") ? src : unit);
+        if (sb.length() > 0) sb.append(',');
+        sb.append(token);
+      }
+      data.strSource = src.toString();
+      data.strUnit = unit.toString();
+    }
+  }
+  
   @Override
   public Field getField(String name) {
     if (name.equals("UNIT")) return new MyUnitField();
     if (name.equals("DATETIME")) return new MyDateTimeField();
+    if (name.equals("UNIT2")) return new MyUnitField2();
     return super.getField(name);
   }
 }

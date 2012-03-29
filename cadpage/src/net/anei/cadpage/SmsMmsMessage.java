@@ -263,7 +263,7 @@ public class SmsMmsMessage implements Serializable {
     Matcher match = SQ_BRACKETS.matcher(ackReq);
     if (match.find()) {
       this.responseMenu = match.group(1);
-      ackReq = ackReq.substring(0,match.start()) + ackReq.substring(0,match.end());
+      ackReq = ackReq.substring(0,match.start()) + ackReq.substring(match.end());
     }
     this.ackReq = ackReq;
   }

@@ -86,9 +86,11 @@ public class HttpService extends Service {
         
         // If we have a URL, connnect to it
         if (url == null) {
+          Log.i("Sending:" + uri.toString());
           status = 400;
           result = "Bad request:" + uri.toString();
         } else {
+          Log.i("Sending:" + url.toString());
           HttpURLConnection connect = null;
           InputStream is = null;
           try {
@@ -115,6 +117,7 @@ public class HttpService extends Service {
               try { is.close(); } catch (IOException ex) {}
             if (connect != null) connect.disconnect();
           }
+          Log.i("Result:" + status + ": " + result + '\n' + content);
         }
       }
     }

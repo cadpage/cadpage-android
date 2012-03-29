@@ -524,7 +524,6 @@
     <item>0a26681e6f6fe74edd0afaae38836081</item>  <!-- Scott Rine -->
     <item>0a59725eb63f9ec09c526c1e70aeb7c1</item>  <!-- jjsrods@sbcglobal.net -->
     <item>0b1c92a464dc074783b1ecb0ff8069a1</item>  <!-- blake.pyke -->
-    <item>0b499761b6c82e5fc27ea17bad0fb407</item>  <!-- edsmith078 -->
     <item>0c6818719a8dc2431e5d2c3555110ee4</item>  <!-- Colin Foerst -->
     <item>0cbbbe7ee160ca655223fe08c24fdbaa</item>  <!-- Eberhart, Bruce -->
     <item>0dadb56d56b03d423126db2c26005384</item>  <!-- Bradley Little -->
@@ -561,6 +560,7 @@
     <item>275c63c5c0602b7c6ffcb1369935df31</item>  <!-- Kelly Willard -->
     <item>2794f32dedb1feae6e95f95df3fb5aae</item>  <!-- Dustin Runyon -->
     <item>29a1e43a73dbe1f3cf82e56a826725a8</item>  <!-- Bill King -->
+    <item>2aae9513422efcfb4e02a3a931e9b67a</item>  <!-- chris tucker -->
     <item>2c82a058ed50fa336a7aa9dee46e2aff</item>  <!-- Chris Gallway -->
     <item>2d08211b3993c75f94c5984e8e55b97e</item>  <!-- Steven Moreland -->
     <item>30c5b0883add2ab52244200645a26671</item>  <!-- MF -->
@@ -569,14 +569,15 @@
     <item>33d762ffe6b997654aef459d531812da</item>  <!-- Me -->
     <item>34120a30c1d72b22d43b4f9498afcab4</item>  <!-- gang related -->
     <item>344db43e34a3ea2a206864f0dbdbb8db</item>  <!-- Kyle Scott -->
-    <item>34a1b517f30d2d063750cfc7f5721306</item>  <!-- Nick Correggia -->
     <item>34e9c3ee0236ae59d6c0967121ff9727</item>  <!-- Scott -->
     <item>3565e75d43ef3b22db869edcc351c848</item>  <!-- Ryan -->
     <item>36e74ce623ca31707f673e43b7e3f40c</item>  <!-- Nate Hampton -->
     <item>37a24e7cc8b8da46f1709b9877aab204</item>  <!-- Michele Murphy -->
     <item>381da7ace28b6321bdb9b82151eba3ec</item>  <!-- sam newsham -->
+    <item>38b7eb038d1daf8a3bb9624e46bd663c</item>  <!-- Paul Kirch -->
     <item>3a683602c1650df5180e9e7ef715e4ae</item>  <!-- Paul Ferrell -->
     <item>3ac85ea6e8b97610eed5f8fcff51dd64</item>  <!-- stacy O'Bannon -->
+    <item>3b3bcc116d9441fa901fd16ba7bee532</item>  <!-- walter rochester -->
     <item>3b3ecbb25eacbcd07c542e4ce86496a1</item>  <!-- Drew Siegel -->
     <item>3cd1dcd25035c428d5541bbfe15529b1</item>  <!-- michaelmyersfos@aol.com -->
     <item>3db8497b358522e33a09f35e4ab865ef</item>  <!-- Tom C -->
@@ -595,6 +596,7 @@
     <item>47e1cdb62834bf0e79cc9e7be73b8cf5</item>  <!-- Aldo Cacciotti -->
     <item>47efa0e043d7cae6af9726c863b452b7</item>  <!-- Sharon Hodges -->
     <item>48c13d492f8b4f6dc62492d5c55bc283</item>  <!-- Michael Cajayon -->
+    <item>48cd597ff977f6538773f7ba0b23441b</item>  <!-- Elizabeth Van Asma -->
     <item>495cd90c5352a1926432325923fd5404</item>  <!-- Drew Pruitt -->
     <item>499eb4fb80068b10d814d60ba95d1cee</item>  <!-- Blake Macek -->
     <item>4a7b7316647548db3f2f7c0ec301b73c</item>  <!-- rvarano210@aol.com -->
@@ -620,12 +622,12 @@
     <item>6581a2ab8f1e1bfc39b0d256b9bc1d3d</item>  <!-- Corey Holt -->
     <item>660b4232e491de0554f13199858e1a8f</item>  <!-- Kyle Eanes -->
     <item>68bd61d91330b7e18b9b7942e54a0b18</item>  <!-- Michael Reinbeck, Jr. -->
-    <item>6959073f7a20ae852ec1f35b44cdc08c</item>  <!-- Adam Bashore -->
     <item>6993cb2c604601d212226b6ab12b6ef7</item>  <!-- Christine Cummings -->
     <item>6994dd88d8b8ecfc39169f4272b3c378</item>  <!-- Andrew -->
     <item>6a33bd3106b1ed2346a937404b9f29ff</item>  <!-- will craine -->
     <item>6a60c9d240ae12002579ffbb0a487d57</item>  <!-- Jimmy Flowers -->
     <item>6c8b6d62afce131b65339944c2d1b06a</item>  <!-- Tyler Butler -->
+    <item>6caad6be05c0fccdca8b766586c2ce98</item>  <!-- joe swerk -->
     <item>6dcd9fc54f9d763d1eb8fb9949598b32</item>  <!-- Lisa Caldwell -->
     <item>6fcdee4c8b994730df54ab4170418a8d</item>  <!-- Kim Cunningham -->
     <item>70c3e545baacf031c127335321df0d01</item>  <!-- DAN OFFERMANN -->
@@ -675,10 +677,10 @@
     <item>a027c007c06cf5d65c34494eab5332c3</item>  <!-- Melinda Clark -->
     <item>a08579a934c4d3a7838e6358b80a8914</item>  <!-- Kiva A. Sanders-Moultrie -->
     <item>a18709f95149e9aea3c3c606098464f2</item>  <!-- brad scott -->
-    <item>a1980aaa7f41b9f28701f2cc6bd61bf6</item>  <!-- Benjamin Baker -->
     <item>a33c21f2f3a0e62b5de271f73cb4a818</item>  <!-- Steven Hodge -->
     <item>a3cfb4e1cffdc2216635077de010feb9</item>  <!-- Eric Deking -->
     <item>a5ec4fc16634742e1bd86c0cd4386e52</item>  <!-- Kristin Snyder -->
+    <item>a617ba09e22f1a2ba5295d0d7510067e</item>  <!-- Anthony Tingler -->
     <item>a6eb1c5cce61c70a5b1c049d9da6d696</item>  <!-- Jay Rodriguez -->
     <item>a7edce85ee613d1ed041b62b1a3cf26c</item>  <!-- Todd Spitzer -->
     <item>a89c71740c0c09a6c3108ce6bc6405bc</item>  <!-- Robert Schwader -->
@@ -710,11 +712,9 @@
     <item>cc6f7568a64103c2a8e80c92ce10b7ed</item>
     <item>cdae9cfee155350f264dbb1a2e0a4f4b</item>  <!-- Micky42069 -->
     <item>ce41a6c40423f36fd88773cba4be08e3</item>  <!-- Cathleen Kloczkowski -->
-    <item>ce9a48d23a11112823b34bef73294ba4</item>  <!-- George Butt -->
     <item>cec17c303dfd59c4a84433e4a657f44e</item>  <!-- Ken Williams -->
     <item>ced405a65ca7bd301a9f72879124088f</item>  <!-- Schearer, Benjamin -->
     <item>cfbc6fc381459c56e828175fbfd3cf34</item>  <!-- Scott Davis -->
-    <item>d0050d5e7c54686106ea6cc04ca85de5</item>  <!-- Shawn Leonard -->
     <item>d0dcd9d7aeb43930d60cfe36b8af9ea3</item>  <!-- Paul McHargue -->
     <item>d28d9c1642513a2a67fe2ab9676d8910</item>  <!-- Corey Rayfield -->
     <item>d2b037b8fcd6dd3735867ace236b277c</item>  <!-- Wilson_firefighter19 -->
