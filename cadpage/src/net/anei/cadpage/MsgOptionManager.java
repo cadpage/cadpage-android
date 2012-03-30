@@ -286,7 +286,7 @@ public class MsgOptionManager {
    * Set up and "extra" regular buttons user wants to appear in response menu
    */
   private void setupExtraButtons() {
-    for (int btn = 1; btn < ManagePreferences.EXTRA_BUTTON_CNT; btn++) {
+    for (int btn = 1; btn <= ManagePreferences.EXTRA_BUTTON_CNT; btn++) {
       int itemNdx = ManagePreferences.extraButton(btn);
       if (itemNdx == 0) continue;
       respButtonList.add(new ButtonHandler(ITEM_ID_LIST[itemNdx], ITEM_TEXT_LIST[itemNdx], respButtonGroup));
