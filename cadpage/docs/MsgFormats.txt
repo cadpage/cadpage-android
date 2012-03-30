@@ -1057,6 +1057,11 @@ Peoria County, IL (ILPeoriaCountyParser)
 12/26/10 2800 S ZESSIN RD CO :(20200) W MC DONALD RD 84 YOM CARRYING SOMETHING IN GARAGE, FELL BACKWARD, HIT HEAD ON CONCRETE, C/A/B OK
 12/27/10 533 N BRAD CT HC :( 600) N PEKIN LN 82 YO MALE FELL HAS HEAD AND HIP INJ NO BLEEDING 1527,004
 ***************************************************************************
+Richland County, IL (ILRichlandCounty)
+FIRE/RESCUE - 5755 N SHIPLEY OLNEY - BARN ON FIRE
+FIRE/RESCUE - DEERFARM/SHIPLEY -
+FIRE/RESCUE - S PALMER ST NOBLE -
+***************************************************************************
 Winnebago County, IL (ILWinnebagoParser)
 S:HRFD: Med: 687 Marion Rd M: 56 f deleious\n\n
 S:HRFD: Med:9918 Bluebonnet M: 70 M diaahra\n\n
@@ -4121,25 +4126,6 @@ Sender: 911@louisa.org
 ************  READY TO ROLL ******************************
 **********************************************************
 **********************************************************
-Olney, IL in Richland County
-Contact: "Olney FD" <office@olneyfd.com
-Sender: messaging@iamresponding.com
-System: Information Technologies, Inc
-FIRE/RESCUE will turn into department code soon
-
-FIRE/RESCUE - 5755 N SHIPLEY OLNEY - BARN ON FIRE
-FIRE/RESCUE - DEERFARM/SHIPLEY -
-FIRE/RESCUE - S PALMER ST NOBLE -
-FIRE/RESCUE - 225 S PALMER ST NOBLE - VEH ON FIRE
-FIRE/RESCUE - 4752 N SHIPLEY OLNEY -
-FIRE/RESCUE - 380 W SOUTH NOBLE - DAN ROBINSON REQUEST NOBLE FIRE RESPOND AS HE HAS A HOT ELCECTICAL SMELL COMING FROM HIS HALLWAY BELIVED TO BE THE ATTIC.
-FIRE/RESCUE - E PARKERSBURG LN - -
-FIRE/RESCUE - 325N NOBLE - -
-FIRE/RESCUE - 225 S PALMER ST NOBLE - VEH ON FIRE
-FIRE/RESCUE - S PALMER ST NOBLE -
-FIRE/RESCUE - 5755 N SHIPLEY OLNEY - BARN ON FIRE
-FIRE/RESCUE - 2631 E ELBOW LN NOBLE - - REC'D 911 CELL CALL OF A BRUSH OR FIELD FIRE. ORIGINAL CALL WAS N OF 450N AND BETWEEN 600E AND 700E. TONED OUT NFD. 2203 MCCORMICK CALLED AND ADV'D THAT ALAN WALKER HAD A CONTROLLED BURN LAST NIGHT AND IS NOT SURE IF THEY HAVE STARTED IT BACK UP THIS MORNING, BUT WILL BE RESPONDING TO CHECK. MN
-FIRE/RESCUE - 3772 E TWIN BRIDGE LN - -
 **********************************************************
 Rock Island County, IL
 Contact: Darin Keith <darin.keith@hotmail.com>
