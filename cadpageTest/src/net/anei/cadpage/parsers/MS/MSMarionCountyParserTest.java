@@ -106,9 +106,11 @@ public class MSMarionCountyParserTest extends BaseParserTest {
         "NAME:AT&T MOBILITY",
         "ID:2012-0000004324");
 
-    doTest("T2",
+    doTest("T12",
         "-  - 911-CENTER:SIG72 >MEDICAL CALL TAYLORS CUT OFF FOXWORTH BLANSETT, ELISABETH Map: Grids:, Cad: 2012-0000005837\n",
-        "CALL:MEDICAL CALL TAYLORS CUT OFF FOXWORTH",
+        "CALL:MEDICAL CALL",
+        "ADDR:TAYLORS CUTOFF",
+        "CITY:FOXWORTH",
         "NAME:BLANSETT, ELISABETH",
         "ID:2012-0000005837");
  }
