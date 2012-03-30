@@ -6,10 +6,10 @@ import java.util.regex.Pattern;
 public class PatternTest {
 
   private static final Pattern MASTER = 
-    Pattern.compile("([^ ]+):(\\d{8}) *:(\\d\\d/\\d\\d/\\d\\d\\d\\d) (\\d\\d:\\d\\d:\\d\\d):");
+    Pattern.compile("@RIFD: (\\d+):;([^;]+?);([^;]+?)");
   
   public static void main(String[] args) {
-    doTest("/ 77 RESCUE / kharju:SBB-RS:12029633 :03/01/2012 23 <201223>:53:12:SICK PERSON:22 YOM: SOUTH B-SOUTHSIDE GRILL / 2 MAIN ST #10");
+    doTest("@RIFD: 15221:;CRASH PERSONAL INJURIES;24TH ST/18TH AV");
   }
   
   private static void doTest(String test) {
