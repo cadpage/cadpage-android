@@ -28,7 +28,7 @@
    <string name="pref_button5_default">0</string>
    <string name="pref_button6_default">9</string>
    <string name="pref_xtra_resp_button1_default">2</string>
-   <string name="pref_xtra_resp_button2_default">0</string>
+   <string name="pref_xtra_resp_button2_default">9</string>
    <string name="pref_quickreply_default">false</string>
    <string name="pref_delivery_report_default">false</string>
    <string name="pref_split_message_default">false</string>

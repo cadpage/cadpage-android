@@ -141,7 +141,9 @@ public class VendorManager {
    * @param error error message
    */
   public void failureC2DMId(Context context, String error) {
-    String errMsg = context.getString(R.string.vendor_registration_error, error);
+    int resId = R.string.vendor_registration_error;
+    if (error.equals("ACCOUNT_MISSING")) resId = R.string.vendor_account_missing_error;
+    String errMsg = context.getString(resId, error);
     NoticeActivity.showNotice(context, errMsg);
     
   }

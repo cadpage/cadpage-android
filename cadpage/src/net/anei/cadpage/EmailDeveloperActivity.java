@@ -168,7 +168,7 @@ public class EmailDeveloperActivity extends Activity {
     // If config info was requested, include any Cadpage log information
     if (includeCfg) {
       final String vendorEmail2 = vendorEmail;
-      new LogCollector("time", null, "CadPage:V"){
+      new LogCollector("time", null, "CadPage:V;ActivityManager:I"){
         @Override
         void collectLog(String logBuffer) {
           sendEmailRequest(context, type, vendorEmail2,

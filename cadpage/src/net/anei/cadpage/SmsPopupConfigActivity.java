@@ -13,6 +13,7 @@ import net.anei.cadpage.preferences.LocationManager;
 import net.anei.cadpage.vendors.VendorManager;
 import android.content.SharedPreferences;
 import android.content.res.Resources;
+import android.os.Build;
 import android.os.Bundle;
 import android.preference.CheckBoxPreference;
 import android.preference.Preference;
@@ -195,7 +196,8 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
     
     // Set up C2DM vendor preference screen
     PreferenceScreen vendorPref = (PreferenceScreen)findPreference(getString(R.string.pref_direct_paging_key));
-    if (DonationManager.instance().isFreeVersion()) {
+    if (Build.VERSION.SDK_INT < Build.VERSION_CODES.FROYO ||
+        DonationManager.instance().isFreeVersion()) {
       vendorPref.setEnabled(false);
     } else {
       VendorManager.instance().setupPreference(this, vendorPref);

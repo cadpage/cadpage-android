@@ -43,6 +43,9 @@
   
   <string name="vendor_connect_msg">Direct paging from %s has been activated</string>
   <string name="vendor_disconnect_msg">Direct paging from %s has been disconnected</string>
+  <string name="vendor_reg_failure_msg">
+     Google C2DM registration Failed.\n
+  </string>
   <string name="vendor_register_err_msg">
     Direct paging from %1$s has been disconnected\n
     Server response: %2$s
@@ -52,6 +55,9 @@
     error was\n
     %s\n
     Please report this to the Cadpage developers.
-    
+  </string>
+  <string name="vendor_account_missing_error">
+    A Google account must be registered on this device before you can register
+    with a direct paging vendor
   </string>
 </resources>

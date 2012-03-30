@@ -275,12 +275,14 @@ public class C2DMReceiver extends BroadcastReceiver {
   /**
    * Request a new C2DM registration ID
    * @param context current context
+   * @return true if register request was initiated, false if there is not
+   * component to handle C2DM registrations
    */
-  public static void register(Context context) {
+  public static boolean register(Context context) {
     Intent intent = new Intent(ACTION_C2DM_REGISTER);
     intent.putExtra("app", PendingIntent.getBroadcast(context, 0, new Intent(), 0));
     intent.putExtra("sender", C2DM_SENDER_EMAIL);
-    context.startService(intent);
+    return context.startService(intent) != null;
   }
 
   
@@ -288,10 +290,10 @@ public class C2DMReceiver extends BroadcastReceiver {
    * Request that current C2DM registration be dropped
    * @param context current context
    */
-  public static void unregister(Context context) {
+  public static boolean unregister(Context context) {
     Intent intent = new Intent(ACTION_C2DM_UNREGISTER);
     intent.putExtra("app", PendingIntent.getBroadcast(context, 0, new Intent(), 0));
-    context.startService(intent);
+    return context.startService(intent) != null;
   }
 
   /**

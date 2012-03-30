@@ -1203,7 +1203,7 @@ William Dix (ddbill2001@gmail.com)(ddbill2001@aol.com)
 Blake Isbell(bwi7735@gmail.com)bwi525@yahoo.com)
 
 // *** Insert Paid Users here ***
-%2012/Pennfield FD //chief@pennfieldtwp.com
+%2012/Pennfield FD //chief@pennfieldtwp.com  - {Payment Pending)
 %%03/18/2012
 Tim Smith (2692095808)
 Jeff Bammer (2692093429)
@@ -1228,7 +1228,6 @@ Tim Waterson (2693170994)
 John Smith (33424584534)
 Bill Stone (3428820123)
 Joan Black (3429963432)
-
 
 // List of users getting credit for 2013
 $paid_2013_list
