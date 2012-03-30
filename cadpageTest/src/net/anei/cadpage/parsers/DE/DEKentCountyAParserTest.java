@@ -102,6 +102,18 @@ public class DEKentCountyAParserTest extends BaseParserTest {
         "X:TODDS CHAPEL RD, PROSPECT CHURCH RD / GREENWOOD RD");
   }
   
+  @Test
+  public void testSamCrawford() {
+
+    doTest("T1",
+        "[K] 17B1G Falls - Possibly Dangerous 2 LAKE CREST DR Milford : HAVEN LAKE ESTATES Xst's: HAVEN LN / WILLIAMSVILLE RD Caller: L MURPHY  ",
+        "CALL:17B1G Falls - Possibly Dangerous",
+        "ADDR:2 LAKE CREST DR",
+        "CITY:Milford",
+        "X:HAVEN LN / WILLIAMSVILLE RD");
+
+  }
+  
   public static void main(String[] args) {
     new DEKentCountyAParserTest().generateTests("T1");
   }
