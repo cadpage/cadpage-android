@@ -112,6 +112,13 @@ public class PABerksCountyParserTest extends BaseParserTest {
         "PLACE:RHMC C BUILDING",
         "CITY:WEST READING",
         "INFO:BLDG C/GENERAL FIRE/ATN/610-988-8222");
+
+    doTest("T14",
+        "CAD MSG: *D ALSMED   459 MEMORIAL HWY 0091 F IN SEIZURES / 1YOF /",
+        "CALL:ALSMED",
+        "ADDR:459 MEMORIAL HWY",
+        "CITY:RUSCOMBMANOR TWP",
+        "INFO:F IN SEIZURES / 1YOF /");
   }
   
   public static void main(String[] args) {
