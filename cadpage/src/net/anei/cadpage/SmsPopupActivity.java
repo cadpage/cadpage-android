@@ -93,7 +93,6 @@ public class SmsPopupActivity extends Activity {
   @Override
   protected void onCreate(Bundle bundle) {
     super.onCreate(bundle);
-    Log.v("SMSPopupActivity.onCreate()");
     
     optManager = new MsgOptionManager(this);
 
@@ -137,7 +136,6 @@ public class SmsPopupActivity extends Activity {
   @Override
   protected void onNewIntent(Intent intent) {
     super.onNewIntent(intent);
-    Log.v("SMSPopupActivity.onNewIntent()");
 
     // First things first, acquire wakelock, otherwise the phone may sleep
     //ManageWakeLock.acquirePartial(getApplicationContext());

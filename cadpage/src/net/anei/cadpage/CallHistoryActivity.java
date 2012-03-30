@@ -32,7 +32,6 @@ public class CallHistoryActivity extends ListActivity {
   @Override
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
-    Log.w("CallHistoryActivity.onCreate()");
     
     // If initialization failure in progress, shut down without doing anything
     if (TopExceptionHandler.isInitFailure()) {
@@ -48,9 +47,6 @@ public class CallHistoryActivity extends ListActivity {
     int height = displaymetrics.heightPixels;
     int width = displaymetrics.widthPixels;
     ManagePreferences.setScreenSize(""+width+"X"+height);
-
-    // Initialize billing manager
-    BillingManager.instance().initialize(this);
     
     // If preferences have never been initialized, bring up the preference
     // screen to initialize them now.  This is necessary because the new
@@ -60,6 +56,9 @@ public class CallHistoryActivity extends ListActivity {
       Intent intent = new Intent(this, SmsPopupConfigActivity.class);
       startActivity(intent);
     }
+
+    // Initialize billing manager
+    BillingManager.instance().initialize(this);
     
     // Set up list heading
     TextView tv = new TextView(this);
@@ -86,9 +85,6 @@ public class CallHistoryActivity extends ListActivity {
   protected void onNewIntent(Intent intent) {
     super.onNewIntent(intent);
     setIntent(intent);
-    Log.v("CallHistoryActivity.onNewIntent()");
-    
-    Log.w("CallHistoryActivity.onNewIntent()");
     
     startup();
   }
@@ -101,6 +97,7 @@ public class CallHistoryActivity extends ListActivity {
     Intent intent = getIntent();
     
     // Log intent for debug purposes
+    Log.v("CallHistoryActivity.startup()");
     ContentQuery.dumpIntent(intent);
     
     // If this is a shutdown request, that is as far as we need to go
@@ -221,9 +218,6 @@ public class CallHistoryActivity extends ListActivity {
   public static void launchActivity(Context context) {
     Intent intent = getLaunchIntent(context);
     intent.addFlags(Intent.FLAG_ACTIVITY_NO_USER_ACTION);
-    
-    Log.v("CallHistoryActivity Launching....");
-    ContentQuery.dumpIntent(intent);
     
     context.startActivity(intent);
   }

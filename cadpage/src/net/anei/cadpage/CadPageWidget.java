@@ -111,6 +111,9 @@ public class CadPageWidget extends AppWidgetProvider {
   
   @Override 
   public void onReceive(Context context, Intent intent){
+    Log.v("Widgit Activity");
+    ContentQuery.dumpIntent(intent);
+
     super.onReceive(context, intent);
     if (ACTION_UPDATE.equals(intent.getAction())) {
       updateEnabled(context);
