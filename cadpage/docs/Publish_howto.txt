@@ -1,6 +1,6 @@
 Publishing a Cadpage Parser update
 * Run CadTests and fix any problems
-* Open a cammand shell and run "ant build" in the Cadpage work directory.
+* Open a command shell and run "ant build" in the Cadpage work directory.
   This will build a CadpageParser.jar file in the dist directory
 * Open the Cadpage project and switch to the Downloads page
 * There is a file cabinet near the bottom of the page that contains a 

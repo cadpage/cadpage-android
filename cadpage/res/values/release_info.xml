@@ -1,42 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">03222012</string>
-  <string name="release_version">v1.5.23</string>
+  <string name="release_date">03302012</string>
+  <string name="release_version">v1.5.24</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="min_expire_date">10012012</string>
   <string name="release_text">
-Major changes to the way the call detail buttons are configured and used\n
-Buttons are no longer optional, you have to have them\n
-You can configure up to 6 buttons
-If a callback number is configured, you will first be given the choice of
-Not Responding or Responding buttons.  If there is something for the Ack button 
-to do, it will be shown by itself until you acknowledge the call.  Then you
-get to the regular button menu, which no longer includes an Ack button\n
-There is a new Close App button that closes both the call display and call
-history windows\n 
+Handcent has published a new release that blocks Cadpage from functioning 
+correctly.  See http://facebook.com/cadpage for more information.\n
+\n
+This release adds more user configurable response buttons.  And the capability
+to have response buttons send text replies as well as initiate phone calls.
+For users who are registered to receive direct pages, the direct paging vendor
+can now define the response buttons that will appear.\n 
 \n
 New Locations:\n
-Waterford Town, CT\n
-Suffolk County, NY (alt)\n
-King George County, VA\n
+Butte County, CA\n
+Kent County, DE (alt)\n
+St Joseph County, IN\n
+Richland County, IL\n
+Rock Island County, IL\n
 \n
 Location Parsing Fixes:\n
-Delmar, DE\n
-Calvert County, MD\n
+Ozark, AL\n
+Waterford Town, CT\n
+Roxbury, CT renamed to Northwest Public Safety, CT\n
+Kent County, DE\n
+Sarasota County, FL\n
 Prince Georges County, MD\n
-Salem County, NJ\n
-Genesee County, NY\n
-Suffolk County, NY\n
-Sampson County, NC\n
-Delaware County, OH\n
+Marion County, MS\n
+Oneida County, NY\n
+Cumberland Cuonty, NC\n
+Montgomery County, NC\n
 Hamilton County, OH\n
-Delaware County, PA\n
 Chester County, PA\n
-Lehigh County, PA\n
+Liberty County, TX\n
+Montgomery County, TX\n
+King George County, VA\n
 \n
 General Fixes:\n
-Fixed problem with odd calls coming up when Cadpage is first launched
+Fixed crash when user disables all main menu buttons\n
+Fixed crash when direct paging vendor sends invalid URL\n
+General address parsing improvements\n
   </string>  
 </resources>
   
