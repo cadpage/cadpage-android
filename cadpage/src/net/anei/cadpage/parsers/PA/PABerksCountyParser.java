@@ -41,17 +41,18 @@ Contact: Michael Wertz <jrfirefighter85@msn.com>
 CAD MSG: *D SF       DIRECTLINK @2561 BERNVILLE RD 0054 PENSKI ENTERANCE / BUILDING 1 TRANSFORMER ROOM / SMOKE IN THE BUILDING
 CAD MSG: *D AFA      RHMC C BUILDING @600 SPRUCE ST 0038 BLDG C/GENERAL FIRE/ATN/610-988-8222
 
+COntact: Diana York <hawkmeadow@gmail.com>
+Sender: alrt_350Z@berks.alertpa.org
+CAD MSG: *D ALSMED   459 MEMORIAL HWY 0091 F IN SEIZURES / 1YOF /
+
 */
 
 public class PABerksCountyParser extends SmartAddressParser {
   
-  private static final String DEF_STATE = "PA";
-  private static final String DEF_CITY = "BERKS COUNTY";
-  
   private static final Pattern MUNI_CODE_PAT = Pattern.compile(" 00\\d\\d ");
   
   public PABerksCountyParser() {
-    super(DEF_CITY, DEF_STATE);
+    super("BERKS COUNTY", "PA");
   }
 
   @Override

@@ -26,7 +26,6 @@ E2011017511;FIRE;STRUCTURE-RESIDENTIAL;9996 KENTUCKY SPRINGS RD;INFO-HOUSE IS ON
 Contact: "Jason Slater" <jaiebo@yahoo.com>
 E2011019295;FIRE;Advised;E FIRST ST & ST CECELIA AVE;INFO-
 
-
 ***/
 
 public class VALouisaCountyParser extends FieldProgramParser {
