@@ -29,6 +29,9 @@ System: New World Systems
 Contact: Tom <tw4715@comcast.net>
 [CAD]33C1T Transfer/Interfacility 2809 ANDREWVILLE RD Harrington : Xst's: TODDS CHAPEL RD, PROSPECT CHURCH RD / GREENWOOD RD Caller: CAY HOLLY
 
+Contact: Sam Crawford <nremtde@gmail.com>
+[K] 17B1G Falls - Possibly Dangerous 2 LAKE CREST DR Milford : HAVEN LAKE ESTATES Xst's: HAVEN LN / WILLIAMSVILLE RD Caller: L MURPHY  
+
  */
 
 
@@ -48,7 +51,7 @@ public class DEKentCountyAParser extends FieldProgramParser {
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
-    if (!subject.equals("!|K") && !subject.equals("CAD")) return false;
+    if (!subject.equals("!|K") && !subject.equals("K") && !subject.equals("CAD")) return false;
     body = body.replace("Xst's:", "Xsts:");
     return parseFields(splitMsg(body), data);
   }
