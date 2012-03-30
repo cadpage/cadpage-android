@@ -23,6 +23,7 @@ Sender: 911-CENTER@co.marion.ms.us
 -  - 911-CENTER:SIG72 >MEDICAL CALL 244 SPRING HILL CHURCH RD SANDY HOOK LEWIS, MARY Map: Grids:, Cad: 2012-0000001643\n
 -  - 911-CENTER:SIG72 >MEDICAL CALL 240 BRANTON BAY RD TYLERTOWN AT&T MOBILITY Map: Grids:, Cad: 2012-0000001839\n
 -  - 911-CENTER:SIG1S >MVA WITH INJURIES TEN MILE CREEK RD FOXWORTH AT&T MOBILITY Map: Grids:, Cad: 2012-0000004324\n
+-  - 911-CENTER:SIG72 >MEDICAL CALL TAYLORS CUT OFF FOXWORTH BLANSETT, ELISABETH Map: Grids:, Cad: 2012-0000005837\n
 
 Contact: "Prowler" <prowler251@gmail.com>
 911-CENTER:SIG72 >MEDICAL CALL 221 NEW HOPE KOKOMO RD FOXWORTH AT&T MOBILITY Map: Grids:, Cad: 2012-0000004183
@@ -40,6 +41,7 @@ Contact: "Prowler" <prowler251@gmail.com>
 public class MSMarionCountyParser extends DispatchBParser {
   
   private static final Pattern MARKER = Pattern.compile("^(?:-  - )?911-CENTER:");
+  private static final Pattern CUTOFF_PTN = Pattern.compile("\\bCUT +OFF\\b", Pattern.CASE_INSENSITIVE);
 
   public MSMarionCountyParser() {
     super(CITY_LIST, "MARION COUNTY", "MS");
@@ -63,6 +65,12 @@ public class MSMarionCountyParser extends DispatchBParser {
   @Override
   protected boolean isPageMsg(String body) {
     return true;
+  }
+
+  @Override
+  protected boolean parseAddrField(String field, Data data) {
+    field = CUTOFF_PTN.matcher(field).replaceAll("CUTOFF");
+    return super.parseAddrField(field, data);
   }
 
   private static final String[] CITY_LIST = new String[]{
