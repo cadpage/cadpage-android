@@ -1057,7 +1057,12 @@ Peoria County, IL (ILPeoriaCountyParser)
 12/26/10 2800 S ZESSIN RD CO :(20200) W MC DONALD RD 84 YOM CARRYING SOMETHING IN GARAGE, FELL BACKWARD, HIT HEAD ON CONCRETE, C/A/B OK
 12/27/10 533 N BRAD CT HC :( 600) N PEKIN LN 82 YO MALE FELL HAS HEAD AND HIP INJ NO BLEEDING 1527,004
 ***************************************************************************
-Richland County, IL (ILRichlandCounty)
+Rock Island County, IL (ILRockIslandCountyParser)
+@RIFD: 15221:;CRASH PERSONAL INJURIES;24TH ST/18TH AV
+@RIFD: 15226:;FIRE OTHER;1323 14TH ST
+@RIFD: 15227:;FIRE ALARM;3605 11TH AV
+***************************************************************************
+Richland County, IL (ILRichlandCountyParser)
 FIRE/RESCUE - 5755 N SHIPLEY OLNEY - BARN ON FIRE
 FIRE/RESCUE - DEERFARM/SHIPLEY -
 FIRE/RESCUE - S PALMER ST NOBLE -
@@ -4127,13 +4132,6 @@ Sender: 911@louisa.org
 **********************************************************
 **********************************************************
 **********************************************************
-Rock Island County, IL
-Contact: Darin Keith <darin.keith@hotmail.com>
-Sender: 40404
-System: Sunguard OSSI
-@RIFD: 15221:;CRASH PERSONAL INJURIES;24TH ST/18TH AV
-@RIFD: 15226:;FIRE OTHER;1323 14TH ST
-@RIFD: 15227:;FIRE ALARM;3605 11TH AV
 **********************************************************
 Butte County, CA
 Contact: "McLean, Scott" <Scott.McLean@fire.ca.gov>
