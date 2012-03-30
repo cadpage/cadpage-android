@@ -86,7 +86,7 @@ public class DEKentCountyCParser extends FieldProgramParser {
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
-    if (!subject.equals("Incident Alert")) return false;
+    if (!subject.equals("Incident Alert") && !subject.equals("!")) return false;
     return super.parseMsg(body, data);
   }
   
