@@ -131,7 +131,35 @@ public class NJSussexCountyAParserTest extends BaseParserTest {
         "CITY:GREEN TWP");
  }
   
+  @Test
+  public void testNewMilford() {
+
+    doTest("T1",
+        "(I-2012-000063)FDPLANE @ 636 SCHAEFER AVENUE , ORADELL BORO - PLANE CRASH INTO HOT TUB TEST TEST TEST",
+        "ID:I-2012-000063",
+        "CALL:FDPLANE",
+        "ADDR:636 SCHAEFER AVENUE",
+        "CITY:ORADELL BORO",
+        "INFO:PLANE CRASH INTO HOT TUB TEST TEST TEST");
+
+    doTest("T2",
+        "(I-2012-000063)FFIRA @ 105 OLD NEW BRIDGE ROAD  , NEW MILFORD BORO - WATER FLOW ALARM AT ZANZARI'S ",
+        "ID:I-2012-000063",
+        "CALL:FFIRA",
+        "ADDR:105 OLD NEW BRIDGE ROAD",
+        "CITY:NEW MILFORD BORO",
+        "INFO:WATER FLOW ALARM AT ZANZARI'S");
+
+    doTest("T3",
+        "(I-2012-000067)FBRSH @ 413 BOULEVARD  , NEW MILFORD BORO - ",
+        "ID:I-2012-000067",
+        "CALL:FBRSH",
+        "ADDR:413 BOULEVARD",
+        "CITY:NEW MILFORD BORO");
+
+  }
+  
   public static void main(String[] args) {
-    new NJSussexCountyAParserTest().generateTests("T10", "ID CALL ADDR CITY INFO");
+    new NJSussexCountyAParserTest().generateTests("T1", "ID CALL ADDR CITY INFO");
   }
 }
