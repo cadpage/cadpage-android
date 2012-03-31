@@ -259,8 +259,8 @@ public class MsgOptionManager {
     String[] respDesc = new String[ManagePreferences.CALLBACK_BUTTON_CNT];
     boolean found = false;
     for (int btn = 1; btn <= ManagePreferences.CALLBACK_BUTTON_CNT; btn++) {
-      String code = ManagePreferences.callbackButtonCode(btn);
-      String desc = ManagePreferences.callbackButtonTitle(btn);
+      String code = ManagePreferences.callbackButtonCode(btn).trim();
+      String desc = ManagePreferences.callbackButtonTitle(btn).trim();
       respCodes[btn-1] = code;
       respDesc[btn-1] = desc;
       if (desc.length() > 0 && code.length() > 0) found = true;
