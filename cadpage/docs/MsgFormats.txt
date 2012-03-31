@@ -4127,20 +4127,48 @@ System: Northrop gunman alturis cad
 Montville, CT
 Contact: William Betters <betters49@gmail.com>
 **********************************************************
-Louisa County, VA (Replace ??)
-Contact: Lisa Burruss <medic725@gmail.com>
-Sender: 911@louisa.org
-(Incident Notification) Call#: -1994 ; EMS-Extremity Injury ; 118 FREESTYLE LN ; ; Box 407 ; Info:  DOG ON SITE...  Closed APCO Case: -1994  APCO Narrative: Is the p
-
-Contact: "Jason Slater" <jaiebo@yahoo.com>
-Sender: 911@louisa.org
-(Incident Notification) Call#: -2095 ; EMS-Seizure ; 172 DAVIS HWY ; DOLLAR GENERAL - MINERAL; Box 201 ; Info:\2sGREY VAN\2s3YOM SIEZING
+Acadian (All of Texas, Louisiana, Mississippi)
+Contact: Heath Manson <heath.manson@gmail.com>
+Sender: commcenter@acadian.com
+Resp#9879458 Non Life Threatening EmergencySick Person (Specific Diag.) Loc: Add:228 Birchwood Dr APT: Cross St:Ridgewood Dr/E Old Field Dr City:Huffman Cnty: Harris Map Pg: Dest: Pt's Name:
+**********************************************************
+**********************************************************
+**********************************************************
 **********************************************************
 **********************************************************
 ************  READY TO ROLL ******************************
 **********************************************************
 **********************************************************
+Louisa County, VA (Replace)
+Contact: Lisa Burruss <medic725@gmail.com>
+Sender: 911@louisa.org
+(Incident Notification) Call#: -1994 ; EMS-Extremity Injury ; 118 FREESTYLE LN ; ; Box 407 ; Info:  DOG ON SITE...  Closed APCO Case: -1994  APCO Narrative: Is the p
+(Incident Notification) Call#: -2165 ; EMS-Chest Pain/Cardiac Problem ; 16247 JONES FARM RD ; ; Box 509 ; Info:  EMD/PAS  NO DRUGS USED  NOT FAINTED - HE IS WEAK AND
+(Incident Notification) Call#: -2121 ; MVC-Injury ; 2752 BUMPASS RD ; ; Box 306 ; Info:  MEDIC2 CONTACT SPOTSY FOR CLOSER UNIT  CALLING SPOTSYLVANIA FOR ANOTHER EMS
+(Incident Notification) Call#: -1994 ; EMS-Extremity Injury ; 118 FREESTYLE LN ; ; Box 407 ; Info:  DOG ON SITE...  Closed APCO Case: -1994  APCO Narrative: Is the p
+(Incident Notification) Call#: -1991 ; MVC-Injury ; JEFFERSON HWY ; ; Box 501 ; Info:  SPOKE TO VSP DISPATCH -- RESCUE NEEDED -- NO DEPUTY  CALLER WAS A PASSERBY WHO
+(Incident Notification) Call#: -1979 ; EMS-Chest Pain/Cardiac Problem ; 3411 HOLLY GROVE DR ; ; Box 405 ; Info:  Opened APCO Case: -1979  E911 Info - Class of Servic
+(Incident Notification) Call#: -1763 ; F-Alarm-Residential ; 7265 CROSS COUNTY RD ; ; Box 407 ; Info:  KEYPAD FIRE ALARM GAIL COOLEY TRIED TO CALL WENT TO  VM
+(Incident Notification) Call#: -1668 ; EMS-Pregnancy/Childbirth ; 298 WINDYKNIGHT RD CTOR ; ; Box 509 ; Info:  HAS NO IDEA IF SHE FEELS LIKE SHE WANTS TO PUSH  23 YO
+(Incident Notification) Call#: -1542 ; EMS-Seizure ; 342 SHELTON HILL RD ; ; Box 501 ; Info:  E911 Info - Class of Service: WPH2 Special Response Info: (540) 511-701
+
+Contact: "Jason Slater" <jaiebo@yahoo.com>
+Sender: 911@louisa.org
+(Incident Notification) Call#: -2095 ; EMS-Seizure ; 172 DAVIS HWY ; DOLLAR GENERAL - MINERAL; Box 201 ; Info:  GREY VAN  3YOM SIEZING
 **********************************************************
+EnergyCare (Erie County, PA)
+Contact: "Thomas, George" <gthomas@emergycare.org>
+System: Zoll RescueNet
+Run# 17973/ 0087-A/ 08:55/ ALS/ Priority 1/ E 20TH ST & MCCLELLAND AVE/ 16510/ GREY PICKUP TRUCK/ ON 20TH/ W OF MCCLELLAND/ <PROQA_DET>/ MALE IN PICKUP PARKED ON SIDE OF ROAD SLUMPED OVER OFF TO THE SIDE UNK. EMD: 31D0/ ECDOPS: 2012-35555/ <Unknown>/ X=Buffalo Rd&E 20th St
+Run# 17958/ 0081-A/ 08:17/ BLS/ Priority 1/ 2416 STATE ST/ 16503/ <PROQA_DET>/ UPMC HAMOT MEDICAL CENTER/ BLS P1; 52 year old/ Female/ Unconscious/ Breathing. Convulsions /Seizures. Not seizing now and breathing effectively (verified) (Epileptic or Previous history of seizures). EMD: 12A1E/ ECDOPS: 2012-35545/ <Unknown>/ X=E 26th St&W 24th St
+Run# 17945/ 0030-A/ 07:30/ Medical Taxi/ Priority 4 / VA Out of Town/ TANGLEWOOD APTS/ 16504/ 101 - BUILDING 819/ <PROQA_DET>/ VA MEDICAL CTR UNIVERSITY CAMPUS/ NU/ OWN CH/BILL VA/MCGUIRE WILL DO/ COCCARELLI/ ALBERT/ X=UNNAMED|WAYNE&WAYNE
+Run# 17968/ 0045-A/ 09:30/ BLS/ Priority 3 / Local/ TWINBROOK MEDICAL CENTER/ 16511/ east 212/ <PROQA_DET>/ UPMC HAMOT MEDICAL CENTER/ wound clinic for md meritz/ med nec for crew/ ms pt sacreal wounds nsa/ LAST NAME/ FIRST NAME/ X=PRIESTLEY&NAPIER
 **********************************************************
-**********************************************************
-**********************************************************
+New Milford, NJ
+Contact: Active911.com
+Sender: miccom@nnjmicu.org <miccom@nnjmicu.org>
+(I-2012-000063)FDPLANE @ 636 SCHAEFER AVENUE , ORADELL BORO - PLANE CRASH INTO HOT TUB TEST TEST TEST
+(I-2012-000063)FFIRA @ 105 OLD NEW BRIDGE ROAD  , NEW MILFORD BORO - WATER FLOW ALARM AT ZANZARI'S 
+303 CANCEL: #12-0034873 New Milford Boro *745 Chestnut St Paged:15:34 Enrte:15:36 Scene:15:38 Avail:15:48 Cxl Rsn: Refused Medical Aid Code:
+(I-2012-000067)FBRSH @ 413 BOULEVARD  , NEW MILFORD BORO - 
+

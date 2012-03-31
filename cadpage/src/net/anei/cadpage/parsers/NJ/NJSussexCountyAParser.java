@@ -30,6 +30,13 @@ kbrown@andpd (I-2011-000155) PUMP @ 6 RAMSEY COURT  , FRELINGHUYSEN - WARREN COU
 jcasella@andpd (I-2011-000194) MVA-F @  ROUTE 94  , GREEN TWP - \nin front of wilbur's country storE
 JHOLMES@andpd (I-2011-000217) FUEL @ 231 PEQUEST ROAD  , GREEN TWP -
 
+New Milford, NJ
+Contact: Active911.com
+Sender: miccom@nnjmicu.org <miccom@nnjmicu.org>
+(I-2012-000063)FDPLANE @ 636 SCHAEFER AVENUE , ORADELL BORO - PLANE CRASH INTO HOT TUB TEST TEST TEST
+(I-2012-000063)FFIRA @ 105 OLD NEW BRIDGE ROAD  , NEW MILFORD BORO - WATER FLOW ALARM AT ZANZARI'S 
+(I-2012-000067)FBRSH @ 413 BOULEVARD  , NEW MILFORD BORO - 
+
  */
 
 
@@ -37,7 +44,7 @@ public class NJSussexCountyAParser extends SmartAddressParser {
   
   private static final Pattern SUBJECT_PTN = Pattern.compile("I-[A-Z]?\\d{4}-\\d{6}");
   private static final Pattern MASTER_PTN = 
-    Pattern.compile("([-A-Z ]+) @ ([^,]+)  , ([^-]*) -(?: (.*))?"); 
+    Pattern.compile("([-A-Z ]+) @ ([^,]+) +, ([^-]*) -(?: (.*))?"); 
   
   public NJSussexCountyAParser() {
     super("SUSSEX COUNTY", "NJ");
