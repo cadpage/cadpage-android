@@ -263,7 +263,7 @@ public class MsgOptionManager {
       String desc = ManagePreferences.callbackButtonTitle(btn).trim();
       respCodes[btn-1] = code;
       respDesc[btn-1] = desc;
-      if (desc.length() > 0 && code.length() > 0) found = true;
+      if (code.length() > 0) found = true;
     }
     if (!found) return false;
     
