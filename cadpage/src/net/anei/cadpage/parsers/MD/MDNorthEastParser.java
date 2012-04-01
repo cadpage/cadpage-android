@@ -24,7 +24,7 @@ public class MDNorthEastParser extends FieldProgramParser {
   
   public MDNorthEastParser() {
     super(CITY_CODES, "NORTH EAST", "MD",
-           "CODE CALL ADDR X/Z+? CITY X/Z? DATE TIME INFO CH UNIT");
+           "CODE CALL ADDR X/Z+? CITY X/Z? DATE TIME! INFO CH UNIT");
   }
   
   @Override
@@ -34,7 +34,7 @@ public class MDNorthEastParser extends FieldProgramParser {
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
-    if (! parseFields(body.split("\n"), data)) return false;
+    if (! parseFields(body.split("\n"),6 , data)) return false;
     if (data.strCall.startsWith(data.strCode)) data.strCode = "";
     if (data.strCity.equals("OOC")) {
       data.strCity = data.defCity = data.defState = "";
