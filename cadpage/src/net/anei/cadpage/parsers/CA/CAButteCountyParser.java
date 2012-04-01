@@ -14,6 +14,10 @@ Sender: btucad@fire.ca.gov
 (CAD Page) MEDICAL; 14897 DEL ORO DR ,MGLA ; ;  DEAD-END; Map: 5633; Inc# 002916; Date-Time: 26-Mar-2012/09:00:57; CARDIAC;
 (CAD Page) OTH,REFERRAL; 7540 OROVILLE BANGOR HWY / 2 BANGOR PARK RD ,BNGR ; ; ; Map: 6985; Inc# ; Date-Time: 28-Mar-2012/09:29:18; LOOSE HORSE ON BANGOR PARK RD
 
+Contact: chip fowler <chipfowler86@gmail.com>
+Sender: btucad@fire.ca.gov
+FRM:btucad@fire.ca.gov\nSUBJ:CAD Page\nMSG:MEDICAL; 6423 JACK HILL DR ,KELLY_RDGE ; ; 5499 BLK HIGH ROCKS CT; Map:6534; Inc# 003098;\n(Con't) 2 of 2\nDate-Time: 31-Mar-2012/22:38:02; ILL MALE; (End)
+
  */
 
 
@@ -34,7 +38,13 @@ public class CAButteCountyParser extends FieldProgramParser {
     
     if (!subject.equals("CAD Page")) return false;
     body = body.replace(" Inc#", " Inc:");
-    return parseFields(body.split(";"), 6, data);
+    if (! parseFields(body.split(";"), 6, data)) return false;
+    String realCity = CITY_ADJ_TABLE.getProperty(data.strCity);
+    if (realCity != null) {
+      data.strPlace = data.strCity;
+      data.strCity = realCity;
+    }
+    return true;
   }
   
   private class MyDateTimeField extends Field {
@@ -60,6 +70,11 @@ public class CAButteCountyParser extends FieldProgramParser {
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "BNGR", "BANGOR",
+      "KELLY_RDGE", "KELLY RIDGE",
       "MGLA", "MAGALIA"
+  });
+  
+  private static final Properties CITY_ADJ_TABLE = buildCodeTable(new String[]{
+      "KELLY RIDGE",    "OROVILLE"
   });
 }
