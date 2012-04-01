@@ -62,6 +62,20 @@ public class IAPolkCountyParserTest extends BaseParserTest {
 
   }
   
+  @Test
+  public void testRichardDavis() {
+
+    doTest("T1",
+        "(PCFD) Location: 6015 NW 62ND AVE JOHN: @JOFD Type: MA MEDICAL Time: 13:46:40",
+        "SRC:PCFD",
+        "ADDR:6015 NW 62ND AVE",
+        "CITY:JOHNSTON",
+        "CALL:MA MEDICAL",
+        "PLACE:JOFD",
+        "TIME:13:46:40");
+
+  }
+  
   public static void main(String[] args) {
     new IAPolkCountyParserTest().generateTests("T1");
   }
