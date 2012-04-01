@@ -16,18 +16,22 @@ Sender: 777129998926
 .... (Grimes) Location: 5555 NW 55TH AVE JOHN: @CHILDSERVE - JOHN Type: COMMFIRE ALARM Caller: ADT/DBI Time: 17:01:43
 .... (Grimes) Location: 2555 W 1ST ST GRIM: @DALLAS CENTER GRIMES HIGH SCHOOL - GRIM Type: COMMFIRE ALARM Caller: ADT Time: 20:37:32
 
+Contact: Rich Davis <med1c@msn.com>
+Sender: messaging@iamresponding.com
+(PCFD) Location: 6015 NW 62ND AVE JOHN: @JOFD Type: MA MEDICAL Time: 13:46:40
+
  */
 
 public class IAPolkCountyParser extends FieldProgramParser {
   
   public IAPolkCountyParser() {
     super(CITY_LIST, "POLK COUNTY", "IA",
-           "Location:ADDR/S! Type:CALL! Caller:PLACE! Time:TIME!");
+           "Location:ADDR/S! Type:CALL! Caller:PLACE? Time:TIME!");
   }
   
   @Override
   public String getFilter() {
-    return "7771";
+    return "7771,messaging@iamresponding.com";
   }
 
   @Override
