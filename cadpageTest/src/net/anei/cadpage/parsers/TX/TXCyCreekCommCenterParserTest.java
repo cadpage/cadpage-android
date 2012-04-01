@@ -1053,6 +1053,80 @@ public class TXCyCreekCommCenterParserTest extends BaseParserTest {
     
   }
   
+  @Test
+  public void testActive911B() {
+
+    doTest("T1",
+        "[] 03/28 10:28 8310 BUNKER BEND DR-HC, ; Map:338S- Sub:PINEHURST OF ATASCOCITA Nat:6-RESPIRATORY Units:E-M19 X-St:MAGNOLIA BEND DR LEGEND O 201213746\n",
+        "DATE:03/28",
+        "TIME:10:28",
+        "ADDR:8310 BUNKER BEND DR",
+        "MAP:338S-",
+        "PLACE:PINEHURST OF ATASCOCITA",
+        "CALL:6-RESPIRATORY",
+        "UNIT:E-M19",
+        "X:MAGNOLIA BEND DR LEGEND O",
+        "ID:201213746");
+
+    doTest("T2",
+        "[] 03/28 12:24 5403 ENCHANTED TIMBERS DR-HC, ; Map:337S- Sub:OAKS OF ATASCOCITA Nat:17-INJURED PERSON FROM A FALL Units:E-M19 X-St:TIMBER FOREST DR OAK TIMB 201213772\n",
+        "DATE:03/28",
+        "TIME:12:24",
+        "ADDR:5403 ENCHANTED TIMBERS DR",
+        "MAP:337S-",
+        "PLACE:OAKS OF ATASCOCITA",
+        "CALL:17-INJURED PERSON FROM A FALL",
+        "UNIT:E-M19",
+        "X:TIMBER FOREST DR OAK TIMB",
+        "ID:201213772");
+
+    doTest("T3",
+        "[] 03/28 14:24 2914 RYAN CT-HC, ; Map:376F- Sub:ATASCOCITA ACRES Nat:24-O B CALL Units:E-M29 X-St:ATASCOCITA WAY 201213786\n",
+        "DATE:03/28",
+        "TIME:14:24",
+        "ADDR:2914 RYAN CT",
+        "MAP:376F-",
+        "PLACE:ATASCOCITA ACRES",
+        "CALL:24-O B CALL",
+        "UNIT:E-M29",
+        "X:ATASCOCITA WAY",
+        "ID:201213786");
+
+    doTest("T4",
+        "[] 03/28 17:22 E FM 1960-HC/TIMBER FOREST DR, ; Map:337W- Sub: Nat:29-MOTOR VEHICLE INCIDENT Units:E-M29 E-E39 X-St:TIMBER FOREST DR MOON TRA 201213805\n",
+        "DATE:03/28",
+        "TIME:17:22",
+        "ADDR:E FM 1960 & TIMBER FOREST DR",
+        "MAP:337W-",
+        "CALL:29-MOTOR VEHICLE INCIDENT",
+        "UNIT:E-M29 E-E39",
+        "X:TIMBER FOREST DR MOON TRA",
+        "ID:201213805");
+
+    doTest("T5",
+        "[] 03/29 01:09 E FM 1960-HC/ATASCOCITA SHORE, ; Map:338S- Sub: Nat:6-RESPIRATORY Units:E-M19 X-St:ATASCOCITA SHORES DR PINE 201213861\n",
+        "DATE:03/29",
+        "TIME:01:09",
+        "ADDR:E FM 1960 & ATASCOCITA SHORE",
+        "MAP:338S-",
+        "CALL:6-RESPIRATORY",
+        "UNIT:E-M19",
+        "X:ATASCOCITA SHORES DR PINE",
+        "ID:201213861");
+
+    doTest("T6",
+        "[] 03/29 01:12 9718 FLEMING SPRINGS DR-HC, ; Map:376F- Sub: Nat:12-SEIZURES Units:E-M29 X-St:CASCADE HOUSE DR FLEMING 201213863\n",
+        "DATE:03/29",
+        "TIME:01:12",
+        "ADDR:9718 FLEMING SPRINGS DR",
+        "MAP:376F-",
+        "CALL:12-SEIZURES",
+        "UNIT:E-M29",
+        "X:CASCADE HOUSE DR FLEMING",
+        "ID:201213863");
+
+  }
+  
   public static void main(String[] args) {
     new TXCyCreekCommCenterParserTest().generateTests("T1", "SRC DATE TIME PHONE ADDR APT CITY MAP PLACE CALL UNIT X ID");
   }
