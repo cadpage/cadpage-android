@@ -47,6 +47,28 @@ public class CAButteCountyParserTest extends BaseParserTest {
         "TIME:09:29:18");
  }
   
+  @Test
+  public void testChipFowler() {
+
+    doTest("T1",
+        "FRM:btucad@fire.ca.gov\n" +
+        "SUBJ:CAD Page\n" +
+        "MSG:MEDICAL; 6423 JACK HILL DR ,KELLY_RDGE ; ; 5499 BLK HIGH ROCKS CT; Map:6534; Inc# 003098;\n" +
+        "(Con't) 2 of 2\n" +
+        "Date-Time: 31-Mar-2012/22:38:02; ILL MALE; (End)",
+
+        "CALL:MEDICAL / ILL MALE",
+        "ADDR:6423 JACK HILL DR",
+        "PLACE:KELLY RIDGE",
+        "CITY:OROVILLE",
+        "X:5499 BLK HIGH ROCKS CT",
+        "MAP:6534",
+        "ID:003098",
+        "DATE:31-Mar-2012",
+        "TIME:22:38:02");
+
+  }
+  
   public static void main(String[] args) {
     new CAButteCountyParserTest().generateTests("T1");
   }
