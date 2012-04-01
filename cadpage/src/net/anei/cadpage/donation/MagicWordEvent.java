@@ -1,5 +1,6 @@
 package net.anei.cadpage.donation;
 
+import net.anei.cadpage.C2DMReceiver;
 import net.anei.cadpage.ManagePreferences;
 import net.anei.cadpage.R;
 import android.app.Activity;
@@ -17,18 +18,24 @@ public class MagicWordEvent extends DonateQueryEvent {
   public MagicWordEvent() {
     super(null, R.string.donate_magic_word_title, R.string.donate_magic_word_text);
   }
-
-  @Override
-  public boolean isEnabled() {
-    DonationManager.DonationStatus status = DonationManager.instance().status();
-    return status != DonationManager.DonationStatus.LIFE &&
-            status != DonationManager.DonationStatus.PAID &&
-            status != DonationManager.DonationStatus.AUTH_DEPT &&
-            status != DonationManager.DonationStatus.SPONSOR;
-  }
+//
+//  @Override
+//  public boolean isEnabled() {
+//    DonationManager.DonationStatus status = DonationManager.instance().status();
+//    return status != DonationManager.DonationStatus.LIFE &&
+//            status != DonationManager.DonationStatus.PAID &&
+//            status != DonationManager.DonationStatus.AUTH_DEPT &&
+//            status != DonationManager.DonationStatus.SPONSOR;
+//  }
 
   @Override
   protected boolean process(Activity activity, String input) {
+    
+    // Special word that nobody knows about that will reset the C2DM registration code
+    if (input.equalsIgnoreCase("ZAPIT")) {
+      C2DMReceiver.unregister(activity);
+      return true;
+    }
     
     // Check for two kinds of daily magic words
     int type = DonationManager.validateAuthCode(input);

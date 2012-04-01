@@ -4134,21 +4134,6 @@ Resp#9879458 Non Life Threatening EmergencySick Person (Specific Diag.) Loc: Add
 Resp#9881088 Life Threatening Emergency Breathing Problem Loc: Add:25809 Lakewater Dr APT: Cross St:Waterwood Dr/Dead End City:Huffman Cnty: Harris Map Pg: Dest: Pt's Name:
 Resp#9881174 Life Threatening Emergency Heart Problems Loc: Add:187 Cypress St APT: Cross St:Dead End/Main St City:Harris County Cnty: Harris Map Pg: Dest: Pt's Name:
 **********************************************************
-Baltimore County, MD? (trying North East, MD)
-Contact: Emma Schneider <ejschneider41@verizon.net>
-Sender: postmaster@sparkgroup.net
-(Station 41 ALERT!!) UNCONSCIOUS DIABETIC\n046-04\nE461 E18 M465 IV415 CCM129 EMS5\n9341 EDWAY CI\n\nIncident Number (120911179)
-(Station 41 ALERT!!) FALL INJURY NON DANGEROUS\n041-21\nIV415\n300 CANTATA CT APT 302, 21136, MD\n\nIncident Number (120911036)
-(Station 41 ALERT!!) BUILDING FIRE\n056-06\nBC21 E56 E412 E311 E401 T313 T404\n11602 REISTERSTOWN RD, 21136, MD\n\nIncident Number (120910568)
-(Station 41 ALERT!!) UNKNOWN ILLNESS OR INJURY\n041-21\nA415 M56\n300 CANTATA CT APT 314, 21136, MD\n\nIncident Number (120910566)
-(Station 41 ALERT!!) CP  CLAMMY\n041-06\nM415 CCM139\n744 COCKEYS MILL RD, 21136, MD\n\nIncident Number (120910541)
-(Station 41 ALERT!!) STROKE  NOT ALERT\n049-10\nM395 M415\n14032 CUBA RD\n\nIncident Number (120901630)
-(Station 41 ALERT!!) FALL  POSS DANGEROUS AREA\n056-06\nA415 IV465\n11722 REISTERSTOWN RD, 21136, MD\n\nIncident Number (120901441)
-(Station 41 ALERT!!) INJ-DANGROUS BDY AREA\n041-03\nM56 SU418\nSTOCKSDALE AV & POWER LINE, 21136, MD\n\nIncident Number (120901111)
-(Station 41 ALERT!!) SICK SUBJECT NOT ALERT\n041-01\nM415 M56\n10 VILLAGE CENTER RD, 21136, MD\n\nIncident Number (120901433)
-(Station 41 ALERT!!) 1050PI\n041-01\nA415 M315 E413\nFRANKLIN ES @  33 COCKEYS MILL RD, 21136, MD\n\nIncident Number (120900817)
-(Station 41 ALERT!!) 1050PI ROLL-OVER\n041-20\nA415 M315 E413\nI795 & WESTMINSTER PK, 21136, MD\n\nIncident Number (120900400)
-**********************************************************
 **********************************************************
 **********************************************************
 **********************************************************
@@ -4179,6 +4164,7 @@ Run# 17973/ 0087-A/ 08:55/ ALS/ Priority 1/ E 20TH ST & MCCLELLAND AVE/ 16510/ G
 Run# 17958/ 0081-A/ 08:17/ BLS/ Priority 1/ 2416 STATE ST/ 16503/ <PROQA_DET>/ UPMC HAMOT MEDICAL CENTER/ BLS P1; 52 year old/ Female/ Unconscious/ Breathing. Convulsions /Seizures. Not seizing now and breathing effectively (verified) (Epileptic or Previous history of seizures). EMD: 12A1E/ ECDOPS: 2012-35545/ <Unknown>/ X=E 26th St&W 24th St
 Run# 17945/ 0030-A/ 07:30/ Medical Taxi/ Priority 4 / VA Out of Town/ TANGLEWOOD APTS/ 16504/ 101 - BUILDING 819/ <PROQA_DET>/ VA MEDICAL CTR UNIVERSITY CAMPUS/ NU/ OWN CH/BILL VA/MCGUIRE WILL DO/ COCCARELLI/ ALBERT/ X=UNNAMED|WAYNE&WAYNE
 Run# 17968/ 0045-A/ 09:30/ BLS/ Priority 3 / Local/ TWINBROOK MEDICAL CENTER/ 16511/ east 212/ <PROQA_DET>/ UPMC HAMOT MEDICAL CENTER/ wound clinic for md meritz/ med nec for crew/ ms pt sacreal wounds nsa/ LAST NAME/ FIRST NAME/ X=PRIESTLEY&NAPIER
+Response#9881174 Alerted:17:42:02Enroute:17:42:07At Scene:17:56:30Depart:18:14:27Destination:18:56:29
 **********************************************************
 New Milford, NJ
 Contact: Active911.com
@@ -4187,4 +4173,18 @@ Sender: miccom@nnjmicu.org <miccom@nnjmicu.org>
 (I-2012-000063)FFIRA @ 105 OLD NEW BRIDGE ROAD  , NEW MILFORD BORO - WATER FLOW ALARM AT ZANZARI'S 
 303 CANCEL: #12-0034873 New Milford Boro *745 Chestnut St Paged:15:34 Enrte:15:36 Scene:15:38 Avail:15:48 Cxl Rsn: Refused Medical Aid Code:
 (I-2012-000067)FBRSH @ 413 BOULEVARD  , NEW MILFORD BORO - 
-
+**********************************************************
+Baltimore County, MD? (trying North East, MD)
+Contact: Emma Schneider <ejschneider41@verizon.net>
+Sender: postmaster@sparkgroup.net
+(Station 41 ALERT!!) UNCONSCIOUS DIABETIC\n046-04\nE461 E18 M465 IV415 CCM129 EMS5\n9341 EDWAY CI\n\nIncident Number (120911179)
+(Station 41 ALERT!!) FALL INJURY NON DANGEROUS\n041-21\nIV415\n300 CANTATA CT APT 302, 21136, MD\n\nIncident Number (120911036)
+(Station 41 ALERT!!) BUILDING FIRE\n056-06\nBC21 E56 E412 E311 E401 T313 T404\n11602 REISTERSTOWN RD, 21136, MD\n\nIncident Number (120910568)
+(Station 41 ALERT!!) UNKNOWN ILLNESS OR INJURY\n041-21\nA415 M56\n300 CANTATA CT APT 314, 21136, MD\n\nIncident Number (120910566)
+(Station 41 ALERT!!) CP  CLAMMY\n041-06\nM415 CCM139\n744 COCKEYS MILL RD, 21136, MD\n\nIncident Number (120910541)
+(Station 41 ALERT!!) STROKE  NOT ALERT\n049-10\nM395 M415\n14032 CUBA RD\n\nIncident Number (120901630)
+(Station 41 ALERT!!) FALL  POSS DANGEROUS AREA\n056-06\nA415 IV465\n11722 REISTERSTOWN RD, 21136, MD\n\nIncident Number (120901441)
+(Station 41 ALERT!!) INJ-DANGROUS BDY AREA\n041-03\nM56 SU418\nSTOCKSDALE AV & POWER LINE, 21136, MD\n\nIncident Number (120901111)
+(Station 41 ALERT!!) SICK SUBJECT NOT ALERT\n041-01\nM415 M56\n10 VILLAGE CENTER RD, 21136, MD\n\nIncident Number (120901433)
+(Station 41 ALERT!!) 1050PI\n041-01\nA415 M315 E413\nFRANKLIN ES @  33 COCKEYS MILL RD, 21136, MD\n\nIncident Number (120900817)
+(Station 41 ALERT!!) 1050PI ROLL-OVER\n041-20\nA415 M315 E413\nI795 & WESTMINSTER PK, 21136, MD\n\nIncident Number (120900400)

@@ -15,7 +15,8 @@ public class PaidDonateEvent extends DonateScreenEvent {
   public PaidDonateEvent() {
     super(AlertStatus.GREEN, R.string.donate_paid_title, R.string.donate_paid_text,
           AndroidDonateEvent.instance(),
-          PaypalDonateEvent.instance());
+          PaypalDonateEvent.instance(),
+          MagicWordEvent.instance());
   }
 
   @Override
