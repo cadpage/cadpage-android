@@ -268,6 +268,20 @@ public class NYOneidaCountyParserTest extends BaseParserTest {
     
   }
   
+  @Test
+  public void testJosephMororsco() {
+
+    doTest("T1",
+        "(Yorkville Fire) YORF:2012:0096 Dispatched EMS CALL 43 MAIN ST, YORKVILLE VILLAGE (/COMMERCIAL DR Near:YORKVILLE AUTO SALES) #APT 3 BACK",
+        "SRC:Yorkville Fire",
+        "CALL:2012: 0096 Dispatched EMS CALL",
+        "ADDR:43 MAIN ST",
+        "CITY:YORKVILLE VILLAGE",
+        "X:COMMERCIAL DR",
+        "INFO:Near:YORKVILLE AUTO SALES");
+
+  }
+  
   public static void main(String[] args) {
     new NYOneidaCountyParserTest().generateTests("T1", "SRC ID CODE CALL PLACE ADDR CITY X INFO");
   }
