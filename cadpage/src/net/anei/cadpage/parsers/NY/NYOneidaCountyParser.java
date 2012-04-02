@@ -73,6 +73,10 @@ Contact: ryan legacy <rlegacy63@gmail.com>
 Sender:messaging@iamresponding.com
 (Oriskany Falls Fire) ORFA:2012:0067  Dispatched  EMS CALL  @OLIVERAPTS #APT 103  (124 COOPER ST), ORISKANY FALLS VILLA
 
+Contact: Joseph Morosco <yfd120@gmail.com>
+Sender: messaging@iamresponding.com
+(Yorkville Fire) YORF:2012:0096 Dispatched EMS CALL 43 MAIN ST, YORKVILLE VILLAGE (/COMMERCIAL DR Near:YORKVILLE AUTO SALES) #APT 3 BACK
+
  
 ** NOT IMPLEMENTED **
 FRM:dispatch@oc911.org\nMSG:???WEMF:2011:0346AcknowledgeMVA-UNKNOWNROUTE 233, WESTMORELAND/W MAIN ST (COUNTY ROUTE 23), WESTMORELAND
@@ -114,19 +118,54 @@ public class NYOneidaCountyParser extends SmartAddressParser {
     
     data.strSource = subject;
     
+    // Here is where things get complicated.  We need to break the call down
+    // into an ID field, a field that contains the word "DISPATCH", a call field
+    // and address field with everything else.  For most pages, there are
+    // some well defined delimiters that do this
     String[] flds = DELIM.split(body);
     if (flds.length < 3) flds = DELIM2.split(body);
-    if (flds.length < 3) return false;
-    
-    int ndx = 0;
-    String fld = flds[ndx++];
-    if (!fld.equals("Dispatched")) {
-      data.strCallId = fld;
-      fld = flds[ndx++];
-      if (!fld.equals("Dispatched")) return false;
+    String sCall, sAddr;
+    if (flds.length >= 3) {
+      int ndx = 0;
+      String fld = flds[ndx++];
+      if (!fld.equals("Dispatched")) {
+        data.strCallId = fld;
+        fld = flds[ndx++];
+        if (!fld.equals("Dispatched")) return false;
+      }
+      
+      sCall = flds[ndx++];
+      
+      if (ndx >= flds.length) return false;
+      sAddr = flds[ndx++];
+      while (ndx < flds.length) sAddr = sAddr + "  " + flds[ndx++];
     }
+
+    // For pages that lack an identifying delimiter, we will use the smart
+    // address parser to find the break between the call and the first address
+    else {
+      pt = body.indexOf('@');
+      if (pt >= 0) {
+        sCall = body.substring(0,pt).trim();
+        sAddr = body.substring(pt).trim();
+      } else {
+        pt = body.indexOf(',');
+        pt2 = body.indexOf('(');
+        if (pt < 0) pt = body.length();
+        if (pt2 < 0) pt2 = body.length();
+        pt = Math.min(pt, pt2);
+        while (pt > 0 && body.charAt(pt-1) == ' ') pt--;
+        sAddr = body.substring(0,pt);
+        String sExtra = body.substring(pt);
+        Result res = parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ, sAddr);
+        if (res.getStatus() == 0) return false;
+        sCall = res.getAddressPrefix();
+        sAddr = res.getFullAddress();
+        if (sCall == null || sAddr == null) return false;
+        sAddr = sAddr + sExtra;
+      }
+    } 
     
-    String sCall = flds[ndx++];
     Matcher match = CODE_PTN.matcher(sCall);
     if (match.find()) {
       data.strCode = match.group(1);
@@ -135,9 +174,6 @@ public class NYOneidaCountyParser extends SmartAddressParser {
     data.strCall = sCall;
     
     // Break address field into stuff before, inside, and after two sets of parenthesis
-    if (ndx >= flds.length) return false;
-    String sAddr = flds[ndx++];
-    while (ndx < flds.length) sAddr = sAddr + "  " + flds[ndx++];
     Parser p = new Parser(sAddr);
     String sPart1 = p.get('(');
     String sPart2 = p.get(')');

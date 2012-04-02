@@ -1662,12 +1662,31 @@ public abstract class SmartAddressParser extends MsgParser {
       if (endAll < 0) return "";
       return buildData(endAll, tokens.length, 0);
     }
+    
+    /**
+     * @return whatever was identifying as being in front of the address
+     */
+    public String getAddressPrefix() {
+      if (startAddress < 0) return null;
+      return buildData(0,startAddress, 0);
+    }
+    
+    /**
+     * @return everything from start of identified address to end of string
+     */
+    public String getFullAddress() {
+      if (startAddress < 0) return null;
+      return buildData(startAddress, endAll, 0);
+    }
   
     /**
      * Construct data field from the token sequence from given start and end position
      * @param start starting token index
      * @param end ending token index
-     * @param addr true if we are processing the address field
+     * @param addr code indicating what should be inserted between street names
+     *         0 nothing or leave existing slash
+     *         1 - slash
+     *         2 - ampersand
      * @return Constructed data field.
      */
     private String buildData(int start, int end, int addrCode) {
