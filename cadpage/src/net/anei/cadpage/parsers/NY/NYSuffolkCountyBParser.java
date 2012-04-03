@@ -76,6 +76,13 @@ Sender: paging2@firerescuesystems.xohost.com
 ***23 Motor Vehicle Accident*** 1815 E JERICHO TRNP E NORTHPORT CS: E DEER PARK RD  - JERICHO TRNP TOA: 14:55 03-14-12
 ***23 Misc*** PEPPERTREE COMMONS 6401 JERICHO TPKE COMMACK TOA: 18:31 03-16-12
 
+Contact: paging2@firerescuesystems.xohost.com
+Sender: paging2@firerescuesystems.xohost.com
+Sig 3 ALS Needed *** 16 ***  E 6 ST CS: FAIRGROUND AVE TOA: 11:53
+Sig 3 CL Needed *** 16 *** 160 WALT WHITMAN RD CS: PINETREE RD TOA: 11:16 04-01-12 2012-001368\r
+Sig 3 ALS Needed *** 16 *** 107 E 25 ST CS: POPLAR AVE TOA: 09:49 04-01-12 2012-001365\r
+Sig3 Full Crew Need *** 16 *** 160 WALT WHITMAN RD CS: PINETREE RD TOA: 11:16 04-01-12 2012-001368\r
+
 */
 
 public class NYSuffolkCountyBParser extends FieldProgramParser {
@@ -93,11 +100,12 @@ public class NYSuffolkCountyBParser extends FieldProgramParser {
   @Override
   protected boolean parseMsg(String body, Data data) {
     
-    if (!body.startsWith("***")) return false;
-    int pta = body.indexOf("***",3); 
-    if (pta < 0) return false;
-    data.strCall = body.substring(3, pta).trim();
-    body = body.substring(pta+3).trim();
+    int pt1 = body.indexOf("***");
+    if (pt1 < 0) return false;
+    int pt2 = body.indexOf("***",pt1+3); 
+    if (pt2 < 0) return false;
+    data.strCall = append(body.substring(pt1+3, pt2).trim(), " - ", body.substring(0,pt1));
+    body = body.substring(pt2+3).trim();
     if (! super.parseMsg(body, data)) return false;
     if (data.strPlace.endsWith("*")) data.strPlace = data.strPlace.substring(0, data.strPlace.length()-1).trim();
     if (data.strAddress.length() == 0) {
