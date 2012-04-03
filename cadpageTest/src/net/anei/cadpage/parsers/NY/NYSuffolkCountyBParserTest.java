@@ -472,9 +472,43 @@ public class NYSuffolkCountyBParserTest extends BaseParserTest {
         "CITY:COMMACK",
         "TIME:18:31",
         "DATE:03-16-12");
+
+    doTest("T46",
+        "Sig 3 ALS Needed *** 16 ***  E 6 ST CS: FAIRGROUND AVE TOA: 11:53",
+        "CALL:16 - Sig 3 ALS Needed ",
+        "ADDR:E 6 ST",
+        "X:FAIRGROUND AVE",
+        "TIME:11:53");
+
+    doTest("T47",
+        "Sig 3 CL Needed *** 16 *** 160 WALT WHITMAN RD CS: PINETREE RD TOA: 11:16 04-01-12 2012-001368\r",
+        "CALL:16 - Sig 3 CL Needed ",
+        "ADDR:160 WALT WHITMAN RD",
+        "X:PINETREE RD",
+        "TIME:11:16",
+        "DATE:04-01-12",
+        "ID:2012-001368");
+
+    doTest("T48",
+        "Sig 3 ALS Needed *** 16 *** 107 E 25 ST CS: POPLAR AVE TOA: 09:49 04-01-12 2012-001365\r",
+        "CALL:16 - Sig 3 ALS Needed ",
+        "ADDR:107 E 25 ST",
+        "X:POPLAR AVE",
+        "TIME:09:49",
+        "DATE:04-01-12",
+        "ID:2012-001365");
+
+    doTest("T49",
+        "Sig3 Full Crew Need *** 16 *** 160 WALT WHITMAN RD CS: PINETREE RD TOA: 11:16 04-01-12 2012-001368\r",
+        "CALL:16 - Sig3 Full Crew Need ",
+        "ADDR:160 WALT WHITMAN RD",
+        "X:PINETREE RD",
+        "TIME:11:16",
+        "DATE:04-01-12",
+        "ID:2012-001368");
   }
   
   public static void main(String[] args) {
-    new NYSuffolkCountyBParserTest().generateTests("T1");
+    new NYSuffolkCountyBParserTest().generateTests("T46");
   }
 }
