@@ -29,7 +29,7 @@ public class ILRockIslandCountyParser extends MsgParser {
   
   @Override
   public String getFilter() {
-    return "40404";
+    return "cad@ricoetsb.org";
   }
 
   @Override
