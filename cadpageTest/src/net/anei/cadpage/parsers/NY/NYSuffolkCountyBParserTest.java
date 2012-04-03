@@ -506,6 +506,15 @@ public class NYSuffolkCountyBParserTest extends BaseParserTest {
         "TIME:11:16",
         "DATE:04-01-12",
         "ID:2012-001368");
+
+    doTest("T50",
+        "***23 Heavy Rescue***  SUNKEN MEADOW PKY CS: NORTHERN STATE PKY TOA: 23:23 04-01-12",
+        "CALL:23 Heavy Rescue",
+        "ADDR:SUNKEN MEADOW PKY",
+        "MADDR:MEADOW PKY & NORTHERN STATE PKY",
+        "X:NORTHERN STATE PKY",
+        "TIME:23:23",
+        "DATE:04-01-12");
   }
   
   public static void main(String[] args) {
