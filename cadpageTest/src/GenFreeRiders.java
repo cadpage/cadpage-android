@@ -146,7 +146,9 @@ public class GenFreeRiders {
   private static String generateCsvLine(UserInfo info, String status,
                                           String purchase, String sponsor) {
     StringBuilder sb = new StringBuilder();
-    if (info.name != null) sb.append(info.name);
+    if (info.name != null) {
+      sb.append(info.name.replace(',', ';'));
+    }
     sb.append(',');
     sb.append(info.user);
     sb.append(',');
