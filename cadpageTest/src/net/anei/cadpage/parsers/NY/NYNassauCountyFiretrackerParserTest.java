@@ -41,7 +41,7 @@ public class NYNassauCountyFiretrackerParserTest extends BaseParserTest {
         "(FirePage) ** FFD FIRE CALL ** STILL WILLOWBROOK LA C/S: BROOKSIDE (N) AVE TOA:\n09:16 [FireTracker]",
         "SRC:FFD",
         "CALL:STILL",
-        "ADDR:WILLOWBROOK LN",
+        "ADDR:WILLOWBROOK LA",
         "MADDR:WILLOWBROOK LN & BROOKSIDE (N) AVE",
         "X:BROOKSIDE (N) AVE");
 
@@ -70,6 +70,13 @@ public class NYNassauCountyFiretrackerParserTest extends BaseParserTest {
         "X:LONG BEACH (N) AVE / PENNSYLVANIA AVE");
 
     doTest("T8",
+        "FirePage / ** FFD SIGNAL 9 ** SIG 9 MALE VOMITTING 21 NORTON ST C/S: GUY LOMBARDO\nAVE / HUDSON AVE TOA: 18:42 [FireTracker]\n",
+        "SRC:FFD",
+        "CALL:SIG 9 MALE VOMITTING",
+        "ADDR:21 NORTON ST",
+        "X:GUY LOMBARDO AVE / HUDSON AVE");
+
+    doTest("T9",
         "FirePage / ** FFD SIGNAL 9 ** SIG 9 MALE VOMITTING 21 NORTON ST C/S: GUY LOMBARDO\nAVE / HUDSON AVE TOA: 18:42 [FireTracker]\n",
         "SRC:FFD",
         "CALL:SIG 9 MALE VOMITTING",
@@ -252,19 +259,23 @@ public class NYNassauCountyFiretrackerParserTest extends BaseParserTest {
  }
   
   @Test
-  public void testParser4() {
+  public void testWPFDParser() {
 
-    doTest("T8",
-        "FirePage / ** FFD SIGNAL 9 ** SIG 9 MALE VOMITTING 21 NORTON ST C/S: GUY LOMBARDO\nAVE / HUDSON AVE TOA: 18:42 [FireTracker]\n",
-        "SRC:FFD",
-        "CALL:SIG 9 MALE VOMITTING",
-        "ADDR:21 NORTON ST",
-        "X:GUY LOMBARDO AVE / HUDSON AVE");
+    doTest("T1",
+        "(FirePage) **WPFD** [CARBON] (CARB) [UPSTAIRS BEDROOM-NO AIDED] 141 COLLINS AVE\n" +
+        "WILLISTON PARK C/S:LAFAYETTE ST / CENTER ST TOA:18:12 4/4/2012\n" +
+        "[",
+
+        "SRC:WPFD",
+        "CALL:[CARBON] (CARB) [UPSTAIRS BEDROOM-NO AIDED]",
+        "ADDR:141 COLLINS AVE",
+        "PLACE:WILLISTON PARK",
+        "X:LAFAYETTE ST / CENTER ST");
 
   }
   
   public static void main(String[] args) {
-    new NYNassauCountyFiretrackerParserTest().generateTests("T8");
+    new NYNassauCountyFiretrackerParserTest().generateTests("T1");
     //new NYNassauCountyFiretrackerParserTest().generateTests("T1", "SRC CALL ADDR X INFO");
   }
 }
