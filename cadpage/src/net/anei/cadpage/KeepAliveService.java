@@ -3,6 +3,7 @@ package net.anei.cadpage;
 import java.util.ArrayList;
 import java.util.List;
 
+import android.annotation.SuppressLint;
 import android.app.Notification;
 import android.app.PendingIntent;
 import android.app.Service;
@@ -80,6 +81,7 @@ public class KeepAliveService extends Service {
     return null;
   }
 
+  @SuppressLint("NewApi")
   @Override
   public int onStartCommand(Intent intent, int flags, int startId) {
     if (intent != null) {

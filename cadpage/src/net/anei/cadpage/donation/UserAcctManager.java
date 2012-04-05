@@ -15,6 +15,7 @@ import net.anei.cadpage.donation.UserAcctManager;
 import android.accounts.Account;
 import android.accounts.AccountManager;
 import android.accounts.OnAccountsUpdateListener;
+import android.annotation.TargetApi;
 import android.content.Context;
 import android.net.Uri;
 import android.telephony.TelephonyManager;
@@ -54,6 +55,7 @@ public abstract class UserAcctManager {
 
   // This really is used, but we have to invoke the class at runtime because it
   // references API calls that do not exist in Android 1.6
+  @TargetApi(5)
   public static class RealUserAcctManager extends UserAcctManager implements OnAccountsUpdateListener {
     
     private static final DateFormat DATE_FMT = new SimpleDateFormat("MM/dd/yyyy");
@@ -73,6 +75,7 @@ public abstract class UserAcctManager {
       checkAccount(phoneNumber, false);
     }
   
+    @TargetApi(5)
     @Override
     public void onAccountsUpdated(Account[] accts) {
       userEmail = null;

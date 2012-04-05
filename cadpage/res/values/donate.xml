@@ -8,7 +8,7 @@
   
   <string name="donate_server_url">https://cadpageweb.appspot.com/lookup</string>
   
-  <string name="free_release_text"><string>
+  <string name="free_release_text">
     This is the free version of Cadpage.  This version will never bother you
     for financial contributions to future Cadpage development.  Customer support
     is minimal, and updates will run 4-6 months behind the standard version.\n
@@ -26,7 +26,7 @@
     If you are adamantly opposed to paying anything on general principle, you
     should still run the standard version for the initial 30 day demo period,
     then switch to this version.
-  </string></string>
+  </string>
 
   <string name="donate_btn_cancel">Cancel</string>
   <string name="donate_btn_done">Done</string>
