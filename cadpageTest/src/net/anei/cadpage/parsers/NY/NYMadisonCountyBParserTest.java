@@ -118,7 +118,40 @@ public class NYMadisonCountyBParserTest extends BaseParserTest {
         "PLACE:MADISON COUNTY VETERANS OFFICE BUILDING",
         "ADDR:138 NORTH COURT ST",
         "CITY:WAMPSVILLE");
-  }
+
+    doTest("T12",
+        "FRM:e-911@co.madison.ny.us\n" +
+        "SUBJ:[wampsvillefd] 911 Dispatch\n" +
+        "MSG:WAMFD:2012:33\r\n" +
+        "Dispatched\r\n" +
+        "Structure Fire\r\n" +
+        "6438 PERRYVILLE RD , SULLIVAN ( MADISON / OSBORNE RD)",
+
+        "SRC:WAMFD",
+        "ID:2012:33",
+        "CALL:Structure Fire",
+        "ADDR:6438 PERRYVILLE RD",
+        "CITY:SULLIVAN",
+        "X:MADISON / OSBORNE RD");
+
+    doTest("T13",
+        " 1 of 2\n" +
+        "FRM:e-911@co.madison.ny.us\n" +
+        "SUBJ:[wampsvillefd] 911 Dispatch\n" +
+        "MSG:WAMFD:2012:30\r\n" +
+        "Dispatched\r\n" +
+        "Test Call\r\n" +
+        "118 N COURT , WAMPSVILLE VILLAGE (\n" +
+        "(Con't 2 of 2\n" +
+        "DANIELS DR / MARKELL DR)(End)",
+
+        "SRC:WAMFD",
+        "ID:2012:30",
+        "CALL:Test Call",
+        "ADDR:118 N COURT",
+        "CITY:WAMPSVILLE VILLAGE",
+        "X:DANIELS DR / MARKELL DR");
+ }
   
   public static void main(String[] args) {
     new NYMadisonCountyBParserTest().generateTests("T1");

@@ -169,6 +169,14 @@ public class NJMonmouthCountyBParserTest extends BaseParserTest {
         "INFO:BULIDING 700//SPRINKLER ROOM SMOKE DETECTOR",
         "TIME:08:22:17",
         "DATE:02/17/2012");
+
+    doTest("T18",
+        "(eCAD) [!] FIRA F FIRE ALARM | 10 DANA CT | X-ST: | GENERAL FIRE ALARM//OP#3499 | 10:51:46 | 04/05/2012",
+        "CALL:FIRA F FIRE ALARM",
+        "ADDR:10 DANA CT",
+        "INFO:GENERAL FIRE ALARM//OP#3499",
+        "TIME:10:51:46",
+        "DATE:04/05/2012");
   }
   
   public static void main(String[] args) {
