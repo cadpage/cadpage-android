@@ -275,6 +275,89 @@ public class NJSomersetCountyParserTest extends BaseParserTest {
         "ADDR:547 WHEATLAND AVE");
   }
   
+  @Test
+  public void testActive911() {
+
+    doTest("T1",
+        "([Alarm] (no subject)) LBC-FD:12046100:04/03/2012 11:44:34:FIRE ALARM:PULLSTATION: BERNARD-FELLOWSHIP VILLAGE / 8000 FELLOWSHIP RD\n\n" +
+        "_______________________________________________\n" +
+        "Alarm mailing list\n" +
+        "Alarm@libertycornerfire.org\n" +
+        "http://libertycornerfire.org/mailman/listinfo/alarm_libertycornerfire.org",
+
+        "SRC:LBC-FD",
+        "ID:12046100",
+        "DATE:04/03/2012",
+        "TIME:11:44:34",
+        "CALL:FIRE ALARM:PULLSTATION",
+        "CITY:BERNARD",
+        "PLACE:FELLOWSHIP VILLAGE",
+        "ADDR:8000 FELLOWSHIP RD");
+
+    doTest("T2",
+        "([Alarm] (no subject)) LBC-FD:12046621:04/04/2012 09:39:53:FIRE ALARM:GENERAL PULL ZONE 19: BERNARD-FELLOWSHIP VILLAGE / 8000 FELLOWSHIP RD\n\n" +
+        "_______________________________________________\n" +
+        "Alarm mailing list\n" +
+        "Alarm@libertycornerfire.org\n" +
+        "http://libertycornerfire.org/mailman/listinfo/alarm_libertycornerfire.org",
+
+        "SRC:LBC-FD",
+        "ID:12046621",
+        "DATE:04/04/2012",
+        "TIME:09:39:53",
+        "CALL:FIRE ALARM:GENERAL PULL ZONE 19",
+        "CITY:BERNARD",
+        "PLACE:FELLOWSHIP VILLAGE",
+        "ADDR:8000 FELLOWSHIP RD");
+
+    doTest("T3",
+        "([Alarm] (no subject)) LBC-FD:12045123:04/01/2012 17:54:21:WATER PROBLEM: BERNARD-28 SHANNON HILL RD\n\n" +
+        "_______________________________________________\n" +
+        "Alarm mailing list\n" +
+        "Alarm@libertycornerfire.org\n" +
+        "http://libertycornerfire.org/mailman/listinfo/alarm_libertycornerfire.org",
+
+        "SRC:LBC-FD",
+        "ID:12045123",
+        "DATE:04/01/2012",
+        "TIME:17:54:21",
+        "CALL:WATER PROBLEM",
+        "CITY:BERNARD",
+        "ADDR:28 SHANNON HILL RD");
+
+    doTest("T4",
+        "([Alarm] (no subject)) LBC-FD:12045135:04/01/2012 18:31:20:MV FIRE:PATROL FIRE: BERNARD-BERNARDS TOWNSHIP POLICE DEPT / 1 COLLYER LN\n\n" +
+        "_______________________________________________\n" +
+        "Alarm mailing list\n" +
+        "Alarm@libertycornerfire.org\n" +
+        "http://libertycornerfire.org/mailman/listinfo/alarm_libertycornerfire.org",
+
+        "SRC:LBC-FD",
+        "ID:12045135",
+        "DATE:04/01/2012",
+        "TIME:18:31:20",
+        "CALL:MV FIRE:PATROL FIRE",
+        "CITY:BERNARD",
+        "PLACE:BERNARDS TOWNSHIP POLICE DEPT",
+        "ADDR:1 COLLYER LN");
+
+    doTest("T5",
+        "([Alarm] (no subject)) LBC-FD:12045790:04/02/2012 20:49:11:OPEN BURN: BERNARD-15 QUINCY RD\n\n" +
+        "_______________________________________________\n" +
+        "Alarm mailing list\n" +
+        "Alarm@libertycornerfire.org\n" +
+        "http://libertycornerfire.org/mailman/listinfo/alarm_libertycornerfire.org",
+
+        "SRC:LBC-FD",
+        "ID:12045790",
+        "DATE:04/02/2012",
+        "TIME:20:49:11",
+        "CALL:OPEN BURN",
+        "CITY:BERNARD",
+        "ADDR:15 QUINCY RD");
+
+  }
+  
   
   public static void main(String[] args) {
     new NJSomersetCountyParserTest().generateTests("T1", "SRC ID DATE TIME CALL CITY PLACE ADDR APT INFO");
