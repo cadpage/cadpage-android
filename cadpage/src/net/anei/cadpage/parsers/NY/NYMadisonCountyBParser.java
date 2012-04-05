@@ -19,6 +19,10 @@ Contact: bcsbeaverslew@yahoo.com <bcsbeaverslew@yahoo.com>
 [911 Dispatch]  BRKFD:2011:164\nDispatched\nSick Person\n10799 HOXIE RD , BROOKFIELD ( COYOTE RUN /)
 [911 Dispatch]  BRKFD:2011:163\nDispatched\nTraumatic Injuries\n1910 FAIRGROUND RD , BROOKFIELD ( / ELM)\n
 
+Contact: Erick Haas <erick.haas@live.com>
+Sender: e-911@co.madison.ny.us
+ 1 of 2\nFRM:e-911@co.madison.ny.us\nSUBJ:[wampsvillefd] 911 Dispatch\nMSG:WAMFD:2012:34\r\nDispatched\r\nChest Pain\r\n@MADISON COUNTY VETERANS OFFICE\n(Con't) 2 of 2\nBUILDING (138 NORTH COURT ST (WAMPSVILLE VIL )(End)
+
 */
 
 
@@ -31,7 +35,7 @@ public class NYMadisonCountyBParser extends FieldProgramParser {
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
-    if (!subject.equals("911 Dispatch")) return false;
+    if (!subject.endsWith("911 Dispatch")) return false;
     String[] flds = body.split("\n");
     if (! flds[1].trim().equals("Dispatched")) return false;
     return parseFields(flds, data);
@@ -62,7 +66,9 @@ public class NYMadisonCountyBParser extends FieldProgramParser {
       if (field.startsWith("@")) {
         Parser p = new Parser(field.substring(1).trim());
         data.strPlace = p.get('(');
-        parseAddress(p.get(')'), data);
+        p = new Parser(p.get(')'));
+        parseAddress(p.get('('), data);
+        data.strCity = p.get(')');
       } else {
         Parser p = new Parser(field);
         parseAddress(p.get(','), data);
@@ -72,11 +78,14 @@ public class NYMadisonCountyBParser extends FieldProgramParser {
         if (sCross.endsWith("/")) sCross = sCross.substring(0,sCross.length()-1).trim();
         data.strCross = sCross;
       }
+      if (data.strCity.endsWith(" VIL")) {
+        data.strCity = data.strCity.substring(0,data.strCity.length()-4).trim();
+      }
     }
     
     @Override
     public String getFieldNames() {
-      return "ADDR CITY X";
+      return "PLACE ADDR CITY X";
     }
   }
 
