@@ -73,9 +73,7 @@ public class OKTulsaParser extends GeneralParser {
     // If it fails, it can only be because it couldn't find an address
     // We know this is a CAD page so we don't want to fail, so we'll just
     // do our own general alert
-    data.strCall = "GENERAL ALERT";
-    data.strPlace = body;
-    return true;
+    return data.parseGeneralAlert(body);
   }
 
 }

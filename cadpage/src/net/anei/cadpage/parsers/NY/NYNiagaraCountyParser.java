@@ -142,11 +142,9 @@ public class NYNiagaraCountyParser extends SmartAddressParser {
 	    
 	    parseAddress(st, FLAG_NO_IMPLIED_APT, body, data);
 	    if (getStatus() == 0) {
-	      data.strCall = "GENERAL ALERT";
-	      data.strAddress = "";
-	      data.strPlace = save;
-	      data.strDate = "";
-	      data.strTime = "";
+	      String callId = data.strCallId;
+	      if (!data.parseGeneralAlert(save)) return false;
+	      data.strCallId = callId;
 	      return true;
 	    }
 	    

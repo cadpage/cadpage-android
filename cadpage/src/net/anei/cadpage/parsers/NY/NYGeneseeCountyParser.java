@@ -1,8 +1,5 @@
 package net.anei.cadpage.parsers.NY;
 
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
@@ -48,16 +45,20 @@ Contact: Bob Tripp <btripp2003@gmail.com>
 Sender: 777147513270
 GENESEE COUNTY DISPATCH Alarm Fire ** College Village** 8170 BATAVIA STAFFORD TOWNLINE RD , BATAVIA - C 102 ** COMMERCIAL FIRE ALARM ** ASSEMBLYMAN R. STEPHEN HAWLEY DR / BYRON RD ** 03/20/12 21:11 ** 2012-00000064 ** TXT STOP to opt-out
 
+Contact: support@active911.com
+[Dispatch] Unit:EP57 Status:Dispatched EMD Alpha ** JIM'S SALOON** 2677 W  MAIN STREET RD , BATAVIA - ** 45 YO MALE FALLEN WITH BACK INJURY ** EAST AVE / HARTSHORN RD ** 04/01/12 02:37 ** 2012-00006425 **\nCONFIDENTIALITY NOTICE:  The information contained in this message and any documents, files, previous messages or other information attached to it, may be privileged, confidential and protected from disclosure. If the reader of this message is not the intended recipient(s), you are hereby notified that any dissemination, distribution, or copying of this communication is strictly prohibited. If you have received this communication in error, please notify us immediately by replying to the message and deleting it from your computer.�  \n
+[Dispatch] Unit:601 Status:Dispatched EMD Omega ** ** 3445 PRATT RD , BATAVIA - ** LIFTING ASSISTANCE  ** KELSEY RD / MILLER RD ** 04/01/12 14:59 ** 2012-00000082 **\nCONFIDENTIALITY NOTICE:  The information contained in this message and any documents, files, previous messages or other information attached to it, may be privileged, confidential and protected from disclosure. If the reader of this message is not the intended recipient(s), you are hereby notified that any dissemination, distribution, or copying of this communication is strictly prohibited. If you have received this communication in error, please notify us immediately by replying to the message and deleting it from your computer.�  \n
+
+[Dispatch] MENTAL HEALTH EVALUATION - SCENE IS SECURE - NYSP ON SCENE\nCONFIDENTIALITY NOTICE:  The information contained in this message and any documents, files, previous messages or other information attached to it, may be privileged, confidential and protected from disclosure. If the reader of this message is not the intended recipient(s), you are hereby notified that any dissemination, distribution, or copying of this communication is strictly prohibited. If you have received this communication in error, please notify us immediately by replying to the message and deleting it from your computer.�  \n
+
 */
 
 
 public class NYGeneseeCountyParser extends FieldProgramParser {
   
-  private static Pattern MARKER = Pattern.compile("^GENESEE COUNTY DISPATCH +(?:Unit:(.*?) Status:Dispatched +)?");
-  
   public NYGeneseeCountyParser() {
     super(CITY_LIST, "GENESEE COUNTY", "NY",
-           "CALL PLACE? ADDR CITY? INFO! X DATETIME ID");
+           "Unit:UNIT? Status:CALL! PLACE? ADDR CITY? INFO! X DATETIME ID");
   }
   
   @Override
@@ -68,11 +69,9 @@ public class NYGeneseeCountyParser extends FieldProgramParser {
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     do {
-      Matcher match = MARKER.matcher(body);
       
-      if (match.find()) {
-        data.strUnit = getOptGroup(match.group(1));
-        body = body.substring(match.end());
+      if (body.startsWith("GENESEE COUNTY DISPATCH ")) {
+        body = body.substring(24).trim();
         break;
       }
       
@@ -81,8 +80,19 @@ public class NYGeneseeCountyParser extends FieldProgramParser {
       return false;
     } while (false);
     
+    int pt = body.indexOf('\n');
+    if (pt >= 0) body = body.substring(0,pt).trim();
+    String saveBody = body;
+    
+    if (body.startsWith("Unit:")) {
+      body = body.replace(" Status:", "**Status:");
+    } else if(!body.startsWith("Status:")) {
+      body = "Status: " + body;
+    }
+    
     String flds[] = body.split("\\*\\*");
-    return parseFields(flds, 3, data);
+    return parseFields(flds, 3, data) ||
+            data.parseGeneralAlert(saveBody);
   }
   
   @Override
@@ -93,6 +103,7 @@ public class NYGeneseeCountyParser extends FieldProgramParser {
   private class MyCallField extends CallField {
     @Override
     public void parse(String field, Data data) {
+      if (field.startsWith("Dispatched ")) field = field.substring(11).trim();
       if (field.endsWith("*")) field = field.substring(0,field.length()-1).trim();
       super.parse(field, data);
     }

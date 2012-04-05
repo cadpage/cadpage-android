@@ -36,6 +36,14 @@ public abstract class MsgParser {
    * should be treated as general alerts 
    */
   public static final int PARSE_FLG_GEN_ALERT = 0x04;
+  
+  /**
+   * Parser flag indicating that we are being called from a parser test class.
+   * This suppresses the usual logic that reports general alerts identified
+   * by individual parsers as parsing failurs if the general alert processing
+   * flag was not passed.
+   */
+  public static final int PARSE_FLG_TEST_MODE = 0x08;
 
   /**
    * Force flag forces processing of message
@@ -148,7 +156,19 @@ public abstract class MsgParser {
     String strMessage = msg.getMessageBody();
     Data data = new Data(this);
     if (strMessage == null) return data;
-    if (parseMsg(strSubject, strMessage, data)) return data;
+    if (parseMsg(strSubject, strMessage, data)) {
+      
+      // Generally, if the parse was happy with the call, we are happy.  One exception
+      // is when individual parser determine a message should be a general alert because
+      // it isn't a real CAD page, but it has enough identifying markers to positively
+      // identify it as coming from Dispatch.  If the user didn't want to process
+      // general alerts, and we aren't running in a test class, change this to
+      // an outright failure
+      if (data.strCall.equals("GENERAL ALERT")) {
+        if ((parseFlags & (PARSE_FLG_GEN_ALERT | PARSE_FLG_TEST_MODE)) == 0) return null;
+      }
+      return data;
+    }
     
     // If this isn't a valid CAD page, see if we should treat it as a general alert
     // If not then return failure

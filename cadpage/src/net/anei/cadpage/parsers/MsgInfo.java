@@ -61,38 +61,73 @@ public class MsgInfo {
    *
    */
   public static class Data {
-    public String strCall = "";
-    public String strPlace = "";
-    public String strAddress = "";
-    public String strCity = "";
-    public String strApt = "";
-    public String strCross = "";
-    public String strBox= "" ;
-    public String strUnit= "" ;
-    public String strState="";
-    public String strMap = "";
-    public String strCallId = "";
-    public String strPhone="";
-    public String strSupp="";
-    public String strCode="";
-    public String strSource = "";
-    public String strName = "";
-    public String strPriority = "";
-    public String strChannel = "";
-    public String strGPSLoc = "";
-    public String strDate = "";
-    public String strTime = "";
-    public String strInfoURL = "";
-    public String defCity = "";
-    public String defState="";
-    public MsgParser.CountryCode countryCode = MsgParser.CountryCode.US;
+    public String strCall;
+    public String strPlace;
+    public String strAddress;
+    public String strCity;
+    public String strApt;
+    public String strCross;
+    public String strBox;
+    public String strUnit;
+    public String strState;
+    public String strMap;
+    public String strCallId;
+    public String strPhone;
+    public String strSupp;
+    public String strCode;
+    public String strSource;
+    public String strName;
+    public String strPriority;
+    public String strChannel;
+    public String strGPSLoc;
+    public String strDate;
+    public String strTime;
+    public String strInfoURL;
+    public String defCity;
+    public String defState;
+    public MsgParser.CountryCode countryCode;
     
-    public boolean expectMore = false;
+    public boolean expectMore;
     
     public MsgParser parser;
     
     public Data(MsgParser parser) {
       this.parser = parser;
+      initialize();
+    }
+    
+    /**
+     * Initialize existing Data structure to original state
+     */
+    private void initialize() {
+      expectMore = false;
+      
+      strCall = "";
+      strPlace = "";
+      strAddress = "";
+      strCity = "";
+      strApt = "";
+      strCross = "";
+      strBox= "" ;
+      strUnit= "" ;
+      strState="";
+      strMap = "";
+      strCallId = "";
+      strPhone="";
+      strSupp="";
+      strCode="";
+      strSource = "";
+      strName = "";
+      strPriority = "";
+      strChannel = "";
+      strGPSLoc = "";
+      strDate = "";
+      strTime = "";
+      strInfoURL = "";
+      defCity = "";
+      defState="";
+      countryCode = MsgParser.CountryCode.US;
+      
       if (parser != null) {
         this.defCity = parser.getDefaultCity();
         this.defState = parser.getDefaultState();
@@ -100,6 +135,18 @@ public class MsgInfo {
       }
     }
     
+    /**
+     * Clear any information left over from a failed parse attempt, and 
+     * set the data field to return a general alert status
+     * @param message message to be set as the general alert text
+     * @returns always returns true
+     */
+    public boolean parseGeneralAlert(String message) {
+      initialize();
+      strCall = "GENERAL ALERT";
+      strPlace = message;
+      return true;
+    }
     
 
     /**
@@ -109,7 +156,7 @@ public class MsgInfo {
     public int score() {
       int result = 0;
       if (strAddress.length() > 0) result += 10000;
-      if (strCall.length() > 0) result += 1000;
+      if (strCall.length() > 0 && !strCall.equals("ALERT") && !strCall.equals("GENERAL ALERT")) result += 1000;
       if (strCity.length() > 0) result += 100;
       if (strCross.length() > 0) result += 100;
       if (strApt.length() > 0) result += 100;

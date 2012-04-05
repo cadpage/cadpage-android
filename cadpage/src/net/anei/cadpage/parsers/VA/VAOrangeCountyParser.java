@@ -61,11 +61,7 @@ public class VAOrangeCountyParser extends FieldProgramParser {
     if (subject.length() == 0) return false;
     if (!body.contains("[INCIDENT#]:")) {
       int pt = body.indexOf("[Orange911]  ");
-      if (pt > 0) {
-        data.strCall = "GENERAL ALERT";
-        data.strPlace = body.substring(pt+13).trim();
-        return true;
-      }
+      if (pt > 0) return data.parseGeneralAlert(body.substring(pt+13).trim());
       return false;
     }
 

@@ -61,14 +61,15 @@ public class GroupBestParser extends MsgParser {
     // a general alert status, possibly masking a real positive parser hit from
     // one of the other parsers.  In this case, and this case only, we turn off
     // the general alert flag passed to subparsers and handle it ourselves
-    boolean genAlert = (parserFlags & MsgParser.PARSE_FLG_FORCE) == MsgParser.PARSE_FLG_FORCE;
-    if (genAlert) parserFlags &= ~PARSE_FLG_GEN_ALERT;
+    int tFlags = parserFlags;
+    boolean genAlert = (tFlags & MsgParser.PARSE_FLG_FORCE) == MsgParser.PARSE_FLG_FORCE;
+    if (genAlert) tFlags &= ~PARSE_FLG_GEN_ALERT;
     
     int bestScore = -1;
     Data bestData = null;
     
     for (MsgParser parser : parsers) {
-      Data tmp = parser.parseMsg(msg, parserFlags);
+      Data tmp = parser.parseMsg(msg, tFlags);
       if (tmp != null) {
         int newScore = tmp.score();
         if (!parser.getParserCode().startsWith("General")) newScore +=25;

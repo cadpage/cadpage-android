@@ -189,6 +189,9 @@ Sender: "Bucks RSAN" <alert10965@alert.bucksema.org>
 [Important message from Bucks County RSAN] SQ134:ACVA\nadr:54 NESHAMINY FALLS CIRCLE X/WOODSBLUFF\naai:RN -CV 345A MONTGO TWP\nbox: map:\ntm:16:14:29 ED1208711\nSent by mss911 Bucks to SQ134, mss911 Bucks (Voice/Fax Dialer, E-mail accounts, Pagers, Cell phones) through Bucks County RSAN
 [Important message from Bucks County RSAN] SQ134:ACHESP\nadr:46 CENTER COURT X/WOODSBLUFF RUN\naai:CV A345\nbox: map:\ntm:10:28:46 ED1208799\nSent by mss911 Bucks to SQ134, mss911 Bucks (Voice/Fax Dialer, E-mail accounts, Pagers, Cell phones) through Bucks County RSAN
 
+** General Alert **
+(Important message from Bucks County RSAN) STA19, ANY AVAIL STATION 19 CHIEF OFFICER PHONE FIRE COMMUNICATIONS Sent by mss911 Bucks to STA19, mss911 Bucks (Voice/Fax Dialer, E-mail accounts, Pagers, Cell phones) through Bucks County RSAN
+
  */
 
 
@@ -209,7 +212,7 @@ public class PABucksCountyParser extends FieldProgramParser {
   }
 
   @Override
-  protected boolean parseMsg(String body, Data data) {
+  protected boolean parseMsg(String subject, String body, Data data) {
     
     if (body.startsWith("911:")) body = body.substring(4).trim();
     
@@ -218,6 +221,8 @@ public class PABucksCountyParser extends FieldProgramParser {
     if (pt >= 100) body = body.substring(0,pt) + body.substring(pt+1);
     pt = body.indexOf("Sent by mss911 ");
     if (pt >= 0) body = body.substring(0,pt).trim();
+    String saveBody = body;
+    
     boolean mark2 = false;
     Matcher match = MARKER1.matcher(body);
     if (match.find()) {
@@ -232,12 +237,18 @@ public class PABucksCountyParser extends FieldProgramParser {
     
     body = NAKED_DATE_TIME.matcher(body).replaceFirst(" tm: $0");
     body = body.replace(" Adr:", " adr:").replaceAll(" s?btwn ", " btwn:").replace(" stype:", " type:").replace(" saai:", " aai:").trim();
-    if (! super.parseMsg(body, data)) return false;
-    if (mark2 && data.strUnit.length() == 0) {
-      data.strUnit = data.strSource;
-      data.strSource = "";
+    if (super.parseMsg(body, data)) {
+      if (mark2 && data.strUnit.length() == 0) {
+        data.strUnit = data.strSource;
+        data.strSource = "";
+      }
+      return true;
     }
-    return true;
+    
+    if (subject.equals("Important message from Bucks County RSAN")) {
+      return data.parseGeneralAlert(saveBody);
+    }
+    return false;
   }
   
   private class MyCallField extends CallField {
