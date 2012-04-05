@@ -28,6 +28,7 @@ CodeMessage client: rc.317@c-msg.net
 (mCAD) [!] FIRA F FIRE ALARM | 116 MILLHURST RD | X-ST: MAIN ST/STATION ST | COMMERCIAL-MANALAPAN ENGLISHTOWN BOARD OF ED | 11:28:04 | 02/14/2012
 (mCAD) [!] CRBA F CARB MONOX | 5 TURTLE HOLLOW DR | X-ST: KINNEY RD/ | CO ALARM SOUNDING//NO SYMPTOMS//EVACUATING | 09:34:25 | 02/15/2012
 (mCAD) [!] FIRA F FIRE ALARM | 21 LASATTA AV | X-ST: WATER ST/CARRIAGE LN | BULIDING 700//SPRINKLER ROOM SMOKE DETECTOR | 08:22:17 | 02/17/2012
+(eCAD) [!] FIRA F FIRE ALARM | 10 DANA CT | X-ST: | GENERAL FIRE ALARM//OP#3499 | 10:51:46 | 04/05/2012
 
 */
 
@@ -40,12 +41,12 @@ public class NJMonmouthCountyBParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "rc.317@c-msg.net";
+    return "@c-msg.net";
   }
   
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
-    if (!subject.startsWith("mCAD")) return false;
+    if (!subject.startsWith("mCAD") && !subject.startsWith("eCAD")) return false;
     if (!parseFields(body.split("\\|"), data)) return false;
     return true;
   }

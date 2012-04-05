@@ -22,6 +22,8 @@ Contact: bcsbeaverslew@yahoo.com <bcsbeaverslew@yahoo.com>
 Contact: Erick Haas <erick.haas@live.com>
 Sender: e-911@co.madison.ny.us
  1 of 2\nFRM:e-911@co.madison.ny.us\nSUBJ:[wampsvillefd] 911 Dispatch\nMSG:WAMFD:2012:34\r\nDispatched\r\nChest Pain\r\n@MADISON COUNTY VETERANS OFFICE\n(Con't) 2 of 2\nBUILDING (138 NORTH COURT ST (WAMPSVILLE VIL )(End)
+FRM:e-911@co.madison.ny.us\nSUBJ:[wampsvillefd] 911 Dispatch\nMSG:WAMFD:2012:33\r\nDispatched\r\nStructure Fire\r\n6438 PERRYVILLE RD , SULLIVAN ( MADISON / OSBORNE RD)
+ 1 of 2\nFRM:e-911@co.madison.ny.us\nSUBJ:[wampsvillefd] 911 Dispatch\nMSG:WAMFD:2012:30\r\nDispatched\r\nTest Call\r\n118 N COURT , WAMPSVILLE VILLAGE (\n(Con't 2 of 2\nDANIELS DR / MARKELL DR)(End)
 
 */
 
