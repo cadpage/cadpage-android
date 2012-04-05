@@ -48,11 +48,15 @@ Contact: J N <shadymailman@gmail.com>,Jason Ng <jasonkwng@gmail.com>
 1 of 2\nFRM:dispatch@firetracker.net\nSUBJ:FirePage\nMSG:**NMFD** [AMBU] [AMBU] 1766 MERRICK AVE [DUNKIN DONUTS] C/S: WEBSTER ST\n/ GARFIELD ST -\n(Co 2 of 2\nM/A 64 ASSAULT VICTIM / R/O TOA:15:51 6/25/2011 Town Of:\nNO MERRICK [FireTracker](End)
 FRM:dispatch@firetracker.net\nSUBJ:FirePage\nMSG:**NMFD** [MVA] [MVA] WEBSTER ST C/S: MERRICK AVE - M/A 64 TOA:11:56\n6/28/2011 Town Of: MERRICK [FireTracker
 
+Contact: "derf337@aol.com" <derf337@aol.com>
+Sender: dispatch@firetracker.net
+(FirePage) **WPFD** [CARBON] (CARB) [UPSTAIRS BEDROOM-NO AIDED] 141 COLLINS AVE\nWILLISTON PARK C/S:LAFAYETTE ST / CENTER ST TOA:18:12 4/4/2012\n[
 
 */
 public class NYNassauCountyFiretrackerParser extends FieldProgramParser {
   
   private static final Pattern FFD_MARKER = Pattern.compile("^\\*\\* FFD [^\\*]+ \\*\\* ");
+  private static final Pattern FD_MARKER = Pattern.compile("^\\*{0,2}([A-Z]{2,3}FD)\\*{0,2} +");
   
   public NYNassauCountyFiretrackerParser() {
     super("NASSAU COUNTY", "NY", 
@@ -110,15 +114,15 @@ public class NYNassauCountyFiretrackerParser extends FieldProgramParser {
         body = body.substring(match.end()).trim();
         break;
       }
-      if (body.startsWith("**NMFD**")) {
-        data.strSource = "NMFD";
-        body = body.substring(8).trim();
+      if ((match = FD_MARKER.matcher(body)).find()) {
+        data.strSource = match.group(1);
+        body = body.substring(match.end()).trim();
         break;
       }
       return false;
     } while (false);
     
-    body = body.replace('\n', ' ').replace(" LA ", " LN ");
+    body = body.replace('\n', ' ');
 
     return super.parseMsg(body, data);
   }

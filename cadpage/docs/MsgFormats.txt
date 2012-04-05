@@ -4254,8 +4254,6 @@ Response Code: 17A01G BLS E120910010 07:35
 FEM DIF BREATHING
 2nd Party, 1 Patient, 72 year(s) Female, Conscious, Breathing
 Response Code: 6D04 ALS E120910009 06:59
-
-**********************************************************
 **********************************************************
 **********************************************************
 ************  READY TO ROLL ******************************
@@ -4343,3 +4341,29 @@ S: M:3169 N MISSOURI 20 DAY OLD DIFF BREATING DELTA MBP 51C\n\n\n\n\n\n
 S: M:302 KEENEY DR - CJ JUNIOR HIGH - POSSIBLE SEIZURE\n
 S: M:25589 TABOR MAIN - DIFF BREATHING\n
 S: M:3169 N MISSOURI 20 DAY OLD DIFF BREATING DELTA MBP 51C\n\n\n\n\n\n
+**********************************************************
+Pender County, NC
+Contact: Tripp Lanier <triper99@gmail.com>
+Sender: 911-@pendersheriff.com
+
+911-:=12-010417* OLD MAPLE HILL RD N // NC HWY 50* * * * * * * * * 29-TRAFFIC/TRANSPORTATION ACCIDENTS* * * FD13* * * * *
+911-:=12-012441* OLD MAPLE HILL RD N // NC HWY 50* * * * * * * * * BRUSH/FOREST FIRE (RP 1-4)* * * FD13* * * * *
+911-:=12-012596* HOLLINGSWORTH DR // NC HWY 50* * * * * * * * * 29-TRAFFIC/TRANSPORTATION ACCIDENTS* * * FD13* * * * *
+911-:=12-013390* 1520 OLD MAPLE HILL RD* * * * * * * * * 29-TRAFFIC/TRANSPORTATION ACCIDENTS* * * FD13* * * * *
+911-:=12-009752* 5471 NC HWY 50* * * * * * * * * 29-TRAFFIC/TRANSPORTATION ACCIDENTS* * * FD13* * * * *
+911-:=12-009855* 14976 NC HWY 53 EAST* * * * * * * * * ASSIST EMS* * * FD13,FD15* * * * *
+
+*911-:= - **This is a CAD incident!*
+*12-009855 *- Run number
+** *- *Begin call separator (there is always a space after this.)*
+14976 NC HWY 53 EAST - Address
+* * * * * * * * * - *End address, begin call type (always a space after this.)*
+*ASSIST EMS - **Call type*
+
+** * * - **End call type, begin responding stations (always a space after
+this.)*
+
+*FD13,FD15 - Responding stations, separated by a comma and no spaces*
+
+** * * * * - End call*
+**********************************************************
