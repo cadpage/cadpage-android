@@ -37,12 +37,23 @@ SUNRISE ASSISTED LIVING (23), 209 LITTLETON RD [Morris Plains] (SICK PERSN) - 1S
 prvs=3175827e30=dispatch@co.morris.nj.us Police Academy Morris Cty, 500 W HANOVER AVE [Parsippany-Troy] (UNCONSCNS) - CONSTRUCTION WORKER STATED HE BLACKED OUT. HE IS SITTING INSID
 prvs=62791756a7=dispatch@co.morris.nj.us PRO HAIRCUTTERS INC (23), 1711 RT 10 E [Morris Plains] (HEM/CUTS) - 82 Y/O FEMALE LACERATION TO LEG - 2398 16:07
 
+Contact: kmattes13 <kmattes13@gmail.com>
+Sender: Dispatch@co.morris.nj.us
+4 CONDIT ST [Roxbury Twp] (APPLIANCE) - 3691,3681,3682,3683\r\nCALLER STATES SMOKE COMING FROM FURNACE, TURNED OFF NO LONGER SMOKING\r\nF\r
+MERRY HEART NURSING HOME BLD A (36) BUILDING B, 200 RT 10 W [Roxbury Twp] (HEART) - 3681,3682,3683,8000\r\nPT WITH ALTERED MENTAL STATUS\r
+7 STONE COTTAGE LN [Roxbury Twp] (HEM/CUTS) - 3683,3682,3681,8000\r\nMALE LACERATIONS\r\n1 Patient, 41 year(s) Male, Conscious, Breathing\r\r
+ROXBURY FAMILY CARE (36) 4TH FLOOR, 66 SUNSET STRP [Roxbury Twp] (UNCONSCIOU) - 3681,3682,3683,8000\r\nUNCONCIOUS FEMALE\r\n1 Patient, 73 \r
+38 REGER RD [Roxbury Twp] (ABDOMINAL) - 3681,3682,3683\r\n70 YOF SEVERE ABDOMINAL PAIN\r\n1 Patient, 70 year(s) Female, Conscious, Breathi\r
+DIALYSIS CENTER OF NJ (36), 175 RIGHTER RD [Roxbury Twp] (CARDIO/ARR) - 3681,3682,3683,8000,E80515\r\nEXT.9 MALE RESPIRATORY ARREST\r\n1st\r
+NOAH'S ARK ANIMAL WELFARE (36), 1915 RT 46 W [Roxbury Twp] (HEM/CUTS) - 3682,3681,3683\r\nHEAD LACERATION\r\n1 Patient, 8 year(s) Male, Co\r
+209 MAIN ST [Roxbury Twp] (RES ALARM) - 3691,3681,3682,3683\r\nROXBURY HISTORIC TRUST - FRONT DOOR - MAIN ST LEDGEWOOD\r\nF120950013 17:2\r
+
 */
 
 public class NJMorrisCountyParser extends MsgParser {
   
   private static final Pattern MASTER_PTN = 
-    Pattern.compile("^(.*) \\[([-A-Za-z ]+)\\] \\(([A-Z/ ]+)\\) - (.*)$");
+    Pattern.compile("(.*?) \\[([-A-Za-z ]+)\\] \\(([A-Z/ ]+)\\) - (.*)", Pattern.DOTALL);
   
   private static final Pattern PLACE_CODE_PTN = Pattern.compile("\\(\\d+\\)$");
   
@@ -73,11 +84,23 @@ public class NJMorrisCountyParser extends MsgParser {
     
     data.strCity = match.group(2).trim();
     data.strCall = match.group(3).trim();
-    p = new Parser(match.group(4));
-    String sExtra = p.getLastOptional(" - ");
-    data.strSupp = p.get();
-    p = new Parser(sExtra);
-    data.strUnit = p.get(' ');
+    String sExtra = match.group(4);
+    String[] flds = sExtra.split("\n");
+    if (flds.length > 1) {
+      data.strUnit = flds[0].trim();
+      for (int ndx = 1; ndx < flds.length; ndx++) {
+        data.strSupp = append(data.strSupp, " / ", flds[ndx].trim());
+      }
+    }
+    
+    else {
+      p = new Parser(sExtra);
+      sExtra = p.getLastOptional(" - ");
+      data.strSupp = p.get();
+      p = new Parser(sExtra);
+      data.strUnit = p.get(' ');
+      data.strTime = p.get();
+    }
     return true;
   }
 }
