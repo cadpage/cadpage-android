@@ -20,6 +20,7 @@ Sender: dispatch@ozarkdale911.org
 Contact: John Price <jprice911@yahoo.com>
 Sender: dispatch1@ozarkdale911.org
 MEDICAL EMERGENCY AT 198 HOLIDAY LANE REF MEDICAL ALARM UNKN INJURIES\nSABRINA PETERS
+MEDICAL EMERGENCY AT 460 W COLLEGE ST REF FEMALE SUBJECT UNCONSCIENE\njohn dunn
 
 */
 public class ALOzarkParser extends SmartAddressParser {
@@ -33,14 +34,18 @@ public class ALOzarkParser extends SmartAddressParser {
   
   @Override
   public String getFilter() {
-    return "dispatch@ozarkdale911.org";
+    return "@ozarkdale911.org";
   }
   
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     boolean confirm = subject.equals("ALERT!");
     
-    body = body.replace('\n', ' ');
+    int pt = body.lastIndexOf('\n');
+    if (pt >= 0) {
+      data.strName = body.substring(pt+1).trim();
+      body = body.substring(0,pt);
+    }
     Matcher match = DELIM.matcher(body);
     String lastDelim = "";
     int lastPt = 0;
@@ -58,7 +63,7 @@ public class ALOzarkParser extends SmartAddressParser {
     // Not acceptable if we haven't confirmed this is a page with the proper subject
     if (! lastDelim.equals("REF")) {
       if (!confirm) return false;
-      int pt = body.indexOf(',', lastPt);
+      pt = body.indexOf(',', lastPt);
       if (pt >= 0) {
         lastDelim = "REF";
         String field = body.substring(lastPt, pt).trim();
