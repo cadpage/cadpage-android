@@ -100,6 +100,24 @@ public class NYMadisonCountyBParserTest extends BaseParserTest {
         "ADDR:1910 FAIRGROUND RD",
         "CITY:BROOKFIELD",
         "X:ELM");
+
+    doTest("T11",
+        " 1 of 2\n" +
+        "FRM:e-911@co.madison.ny.us\n" +
+        "SUBJ:[wampsvillefd] 911 Dispatch\n" +
+        "MSG:WAMFD:2012:34\r\n" +
+        "Dispatched\r\n" +
+        "Chest Pain\r\n" +
+        "@MADISON COUNTY VETERANS OFFICE\n" +
+        "(Con't) 2 of 2\n" +
+        "BUILDING (138 NORTH COURT ST (WAMPSVILLE VIL )(End)",
+
+        "SRC:WAMFD",
+        "ID:2012:34",
+        "CALL:Chest Pain",
+        "PLACE:MADISON COUNTY VETERANS OFFICE BUILDING",
+        "ADDR:138 NORTH COURT ST",
+        "CITY:WAMPSVILLE");
   }
   
   public static void main(String[] args) {
