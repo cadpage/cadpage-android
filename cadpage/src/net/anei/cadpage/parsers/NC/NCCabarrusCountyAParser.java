@@ -39,6 +39,10 @@ Contact: David Winecoff <dwinecoff6@gmail.com>
 4311:CAD:B1,E31;1;SEIZURES;902 VIRGINIA ST;K303;PENNSYLVANIA AV;FLORIDA AV;TERRI CLARK;** Transfer from CSO ** CSO received: 11/25/2011 20:27:26: E911 Nature: CONVULSIONS \ SEIZURES Call #: 357 Event Id: 11094423 Console: CBA2 Call Taker: SVWHITLEY Notes: [11/25/11 20:2
 2861:CAD:BC1,L14,A3,E21,OPS1,E12;1;FIRE ALARM- NO WATER FLOW;1445 OAKWOOD AV;K203;ROBINHOOD LANE EXT;WOODMOORE LN;KANNAPOLIS MIDDLE SCHOOL;pull station room 103 [11/30/11 09:05:34 HSTEPHENS]
 
+Contact: Jim Howard <jchoward8@gmail.com>
+Sender: CAD@cabarruscounty.us
+SICK PERSON (SPECIFIC DIAGNOS);13875 BROADWAY AV;MID;GARMON MILL RD;BAIN AV;HILL, DALE\r
+
 */
 
 public class NCCabarrusCountyAParser extends DispatchOSSIParser {
@@ -59,7 +63,10 @@ public class NCCabarrusCountyAParser extends DispatchOSSIParser {
   protected boolean parseMsg(String body, Data data) {
     Matcher match = OPER_PTN.matcher(body);
     if (match.find()) body = body.substring(match.end()).trim();
-    return super.parseMsg(body, data);
+    boolean ok = body.startsWith("CAD:");
+    if (!ok) body = "CAD:" + body;
+    if (! super.parseMsg(body, data)) return false;
+    return (ok || data.strCity.length() > 3);
   }
   
   private static final Pattern UNIT_PTN = Pattern.compile("[A-Z]+[0-9]+");

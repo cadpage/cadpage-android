@@ -48,6 +48,10 @@ DIALYSIS CENTER OF NJ (36), 175 RIGHTER RD [Roxbury Twp] (CARDIO/ARR) - 3681,368
 NOAH'S ARK ANIMAL WELFARE (36), 1915 RT 46 W [Roxbury Twp] (HEM/CUTS) - 3682,3681,3683\r\nHEAD LACERATION\r\n1 Patient, 8 year(s) Male, Co\r
 209 MAIN ST [Roxbury Twp] (RES ALARM) - 3691,3681,3682,3683\r\nROXBURY HISTORIC TRUST - FRONT DOOR - MAIN ST LEDGEWOOD\r\nF120950013 17:2\r
 
+Contact: "envapp@yahoo.com" <envapp@yahoo.com>
+Sender: dispatch@co.morris.nj.us
+prvs=244183d440=dispatch@co.morris.nj.us 16 LINDSLEY RD [Harding Twp] (CO ALARM) - 1399\nCO ACTIVATION SURIT RES ..973-538-0659\nF120950020 19:28
+
 */
 
 public class NJMorrisCountyParser extends MsgParser {
