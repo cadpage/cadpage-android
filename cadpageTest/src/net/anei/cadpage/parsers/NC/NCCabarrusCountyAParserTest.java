@@ -190,6 +190,21 @@ public class NCCabarrusCountyAParserTest extends BaseParserTest {
 
   }
   
+  @Test
+  public void testJimHoward() {
+
+    doTest("T1",
+        "SICK PERSON (SPECIFIC DIAGNOS);13875 BROADWAY AV;MID;GARMON MILL RD;BAIN AV;HILL, DALE\r",
+        "CALL:SICK PERSON (SPECIFIC DIAGNOS)",
+        "ADDR:13875 BROADWAY AV",
+        "MADDR:13875 BROADWAY AVE",
+        "X:GARMON MILL RD & BAIN AV",
+        "CITY:MIDLAND",
+        "NAME:HILL, DALE");
+   
+    
+  }
+  
   public static void main(String[] args) {
     new NCCabarrusCountyAParserTest().generateTests("T1");
   }

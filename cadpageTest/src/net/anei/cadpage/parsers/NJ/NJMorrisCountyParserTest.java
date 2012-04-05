@@ -313,6 +313,17 @@ public class NJMorrisCountyParserTest extends BaseParserTest {
         "CALL:RES ALARM",
         "INFO:ROXBURY HISTORIC TRUST - FRONT DOOR - MAIN ST LEDGEWOOD / F120950013 17:2",
         "UNIT:3691,3681,3682,3683");
+
+    doTest("T9",
+        "prvs=244183d440=dispatch@co.morris.nj.us 16 LINDSLEY RD [Harding Twp] (CO ALARM) - 1399\n" +
+        "CO ACTIVATION SURIT RES ..973-538-0659\n" +
+        "F120950020 19:28",
+
+        "ADDR:16 LINDSLEY RD",
+        "CITY:Harding Twp",
+        "CALL:CO ALARM",
+        "INFO:CO ACTIVATION SURIT RES ..973-538-0659 / F120950020 19:28",
+        "UNIT:1399");
     
   }
   
