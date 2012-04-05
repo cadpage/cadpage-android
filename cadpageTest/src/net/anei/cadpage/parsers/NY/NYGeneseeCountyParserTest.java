@@ -12,6 +12,23 @@ public class NYGeneseeCountyParserTest extends BaseParserTest {
   }
   
   @Test
+  public void testProblem() {
+
+    doTest("T1",
+        "GENESEE COUNTY DISPATCH Unit:251 Status:Dispatched Acc PIAA ** BANK STREET RD , ASSEMBLYMAN R. STEPHEN HAWLEY DR BATAVIA - ** 3 CAR MVA ** ** 01/19/12 11:07",
+        "UNIT:251",
+        "CALL:Acc PIAA",
+        "ADDR:BANK STREET RD",
+        "MADDR:BANK STREET RD & ASSEMBLYMAN R STEPHEN HAWLEY DR",
+        "CITY:BATAVIA",
+        "INFO:3 CAR MVA",
+        "X:ASSEMBLYMAN R STEPHEN HAWLEY DR",
+        "DATE:01/19/12",
+        "TIME:11:07");
+
+  }
+  
+  @Test
   public void testParser() {
 
     doTest("T1",
@@ -254,6 +271,54 @@ public class NYGeneseeCountyParserTest extends BaseParserTest {
         "TIME:21:11",
         "ID:2012-00000064");
    
+  }
+  
+  @Test
+  public void testActive911() {
+
+
+    doTest("T1",
+        "[Dispatch] Unit:EP57 Status:Dispatched EMD Alpha ** JIM'S SALOON** 2677 W  MAIN STREET RD , BATAVIA - ** 45 YO MALE FALLEN WITH BACK INJURY ** EAST AVE / HARTSHORN RD ** 04/01/12 02:37 ** 2012-00006425 **\n" +
+        "CONFIDENTIALITY NOTICE:  The information contained in this message and any documents, files, previous messages or other information attached to it, may be privileged, confidential and protected from disclosure. If the reader of this message is not the intended recipient(s), you are hereby notified that any dissemination, distribution, or copying of this communication is strictly prohibited. If you have received this communication in error, please notify us immediately by replying to the message and deleting it from your computer.�  \n",
+
+        "UNIT:EP57",
+        "CALL:EMD Alpha",
+        "PLACE:JIM'S SALOON",
+        "ADDR:2677 W  MAIN STREET RD",
+        "CITY:BATAVIA",
+        "INFO:45 YO MALE FALLEN WITH BACK INJURY",
+        "X:EAST AVE / HARTSHORN RD",
+        "DATE:04/01/12",
+        "TIME:02:37",
+        "ID:2012-00006425");
+
+
+    doTest("T2",
+        "[Dispatch] Unit:601 Status:Dispatched EMD Omega ** ** 3445 PRATT RD , BATAVIA - ** LIFTING ASSISTANCE  ** KELSEY RD / MILLER RD ** 04/01/12 14:59 ** 2012-00000082 **\n" +
+        "CONFIDENTIALITY NOTICE:  The information contained in this message and any documents, files, previous messages or other information attached to it, may be privileged, confidential and protected from disclosure. If the reader of this message is not the intended recipient(s), you are hereby notified that any dissemination, distribution, or copying of this communication is strictly prohibited. If you have received this communication in error, please notify us immediately by replying to the message and deleting it from your computer.�  \n",
+
+        "UNIT:601",
+        "CALL:EMD Omega",
+        "ADDR:3445 PRATT RD",
+        "CITY:BATAVIA",
+        "INFO:LIFTING ASSISTANCE",
+        "X:KELSEY RD / MILLER RD",
+        "DATE:04/01/12",
+        "TIME:14:59",
+        "ID:2012-00000082");
+
+  }
+  
+  @Test
+  public void testGeneralAlert() {
+
+    doTest("T1",
+        "[Dispatch] MENTAL HEALTH EVALUATION - SCENE IS SECURE - NYSP ON SCENE\n" +
+        "CONFIDENTIALITY NOTICE:  The information contained in this message and any documents, files, previous messages or other information attached to it, may be privileged, confidential and protected from disclosure. If the reader of this message is not the intended recipient(s), you are hereby notified that any dissemination, distribution, or copying of this communication is strictly prohibited. If you have received this communication in error, please notify us immediately by replying to the message and deleting it from your computer.�  \n",
+
+        "CALL:GENERAL ALERT",
+        "PLACE:MENTAL HEALTH EVALUATION - SCENE IS SECURE - NYSP ON SCENE");
+
   }
   
   public static void main(String[] args) {

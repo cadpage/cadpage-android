@@ -23,6 +23,9 @@ import static org.junit.Assert.*;
 public abstract class BaseParserTest {
   
   private static final String FROM_ADDRESS = "1112223333";
+  private static final int PARSE_FLAGS = MsgParser.PARSE_FLG_TEST_MODE | 
+                                            MsgParser.PARSE_FLG_POSITIVE_ID | 
+                                            MsgParser.PARSE_FLG_SKIP_FILTER;
 
   private MsgParser parser = null;
   private String defCity;
@@ -81,7 +84,7 @@ public abstract class BaseParserTest {
   public void doBadTest(String test) {
     if (skipBadTest) return;
     Message msg = new Message(true, fromAddress, "", test);
-    assertFalse(parser.isPageMsg(msg, MsgParser.PARSE_FLG_POSITIVE_ID | MsgParser.PARSE_FLG_SKIP_FILTER));
+    assertFalse(parser.isPageMsg(msg, PARSE_FLAGS));
   }
   
   /**
@@ -128,7 +131,7 @@ public abstract class BaseParserTest {
   public void doSubTest(String title, boolean chkMapAddr, String subject, String test, String ... result) {
     
     TestMessage msg = new TestMessage(true, fromAddress, subject, test);
-    assertTrue(title + ":parse", parser.isPageMsg(msg, MsgParser.PARSE_FLG_POSITIVE_ID | MsgParser.PARSE_FLG_SKIP_FILTER));
+    assertTrue(title + ":parse", parser.isPageMsg(msg, PARSE_FLAGS));
     doMsgTest(title, chkMapAddr, msg, result);
   }
   
@@ -366,7 +369,7 @@ public abstract class BaseParserTest {
   private void generateTest(String title, String test, String[] terms) {
     
     Message msg = new Message(true, fromAddress, "", test);
-    if (!parser.isPageMsg(msg, MsgParser.PARSE_FLG_POSITIVE_ID | MsgParser.PARSE_FLG_SKIP_FILTER)) {
+    if (!parser.isPageMsg(msg, PARSE_FLAGS)) {
       System.out.println();
       System.out.println("// ************************ PARSE FAILURE *****************************");
       System.out.println("// " + test);
