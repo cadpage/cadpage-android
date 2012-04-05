@@ -43,6 +43,14 @@ Contact: Sean Lambertz <sean.lambertz@gmail.com>
 *4101: *ghargreave@co.somerset.nj.us /  / SBB-FD:12027787:02/27/2012 11:58:34:FIRE: SOUTH B-SOUTHSIDE GRILL / 2 MAIN ST
   / SBB-FD:12033968:03/11/2012 10:49:03:STRUCTURE FIRE: BOUND B-547 WHEATLAND AVE\n
 
+Contact: support@active911.com
+Sender: mmisciagna@co.somerset.nj.us
+([Alarm] (no subject)) LBC-FD:12046100:04/03/2012 11:44:34:FIRE ALARM:PULLSTATION: BERNARD-FELLOWSHIP VILLAGE / 8000 FELLOWSHIP RD\n\n_______________________________________________\nAlarm mailing list\nAlarm@libertycornerfire.org\nhttp://libertycornerfire.org/mailman/listinfo/alarm_libertycornerfire.org
+([Alarm] (no subject)) LBC-FD:12046621:04/04/2012 09:39:53:FIRE ALARM:GENERAL PULL ZONE 19: BERNARD-FELLOWSHIP VILLAGE / 8000 FELLOWSHIP RD\n\n_______________________________________________\nAlarm mailing list\nAlarm@libertycornerfire.org\nhttp://libertycornerfire.org/mailman/listinfo/alarm_libertycornerfire.org
+([Alarm] (no subject)) LBC-FD:12045123:04/01/2012 17:54:21:WATER PROBLEM: BERNARD-28 SHANNON HILL RD\n\n_______________________________________________\nAlarm mailing list\nAlarm@libertycornerfire.org\nhttp://libertycornerfire.org/mailman/listinfo/alarm_libertycornerfire.org
+([Alarm] (no subject)) LBC-FD:12045135:04/01/2012 18:31:20:MV FIRE:PATROL FIRE: BERNARD-BERNARDS TOWNSHIP POLICE DEPT / 1 COLLYER LN\n\n_______________________________________________\nAlarm mailing list\nAlarm@libertycornerfire.org\nhttp://libertycornerfire.org/mailman/listinfo/alarm_libertycornerfire.org
+([Alarm] (no subject)) LBC-FD:12045790:04/02/2012 20:49:11:OPEN BURN: BERNARD-15 QUINCY RD\n\n_______________________________________________\nAlarm mailing list\nAlarm@libertycornerfire.org\nhttp://libertycornerfire.org/mailman/listinfo/alarm_libertycornerfire.org
+
 */
 
 public class NJSomersetCountyParser extends MsgParser {
@@ -71,7 +79,7 @@ public class NJSomersetCountyParser extends MsgParser {
   }
   
   @Override
-  public boolean parseMsg(String subject, String body, Data data) {
+  public boolean parseMsg(String body, Data data) {
 
     Matcher match = MARKER.matcher(body);
     if (!match.find()) return false;
@@ -80,6 +88,9 @@ public class NJSomersetCountyParser extends MsgParser {
     data.strDate = match.group(3);
     data.strTime = match.group(4);
     body = body.substring(match.end()).trim();
+    
+    int pt = body.indexOf('\n');
+    if (pt >= 0) body = body.substring(0,pt).trim();
     
     match = MASTER.matcher(body);
     if (!match.matches()) return false;
