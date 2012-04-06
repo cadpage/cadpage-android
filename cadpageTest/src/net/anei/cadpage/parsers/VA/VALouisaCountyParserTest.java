@@ -16,76 +16,87 @@ public class VALouisaCountyParserTest extends BaseParserTest {
   public void testParser() {
 
     doTest("T1",
-        "E2011014354;RESCUE NEEDED;UNCONSCIOUS/UNRESPONSIVE/FAINTING;296 SHADY LN;INFO-44 YO M -- FEELING FAINT & DIZZY -- FEELING A LITTLE BETTER AT THIS TIME -- WANTI",
-        "ID:E2011014354",
-        "CALL:RESCUE NEEDED / UNCONSCIOUS/UNRESPONSIVE/FAINTING",
-        "ADDR:296 SHADY LN",
-        "INFO:44 YO M -- FEELING FAINT & DIZZY -- FEELING A LITTLE BETTER AT THIS TIME -- WANTI");
+        "(Incident Notification) Call#: -1994 ; EMS-Extremity Injury ; 118 FREESTYLE LN ; ; Box 407 ; Info:  DOG ON SITE...  Closed APCO Case: -1994  APCO Narrative: Is the p",
+        "ID:1994",
+        "CALL:EMS-Extremity Injury",
+        "ADDR:118 FREESTYLE LN",
+        "BOX:407",
+        "INFO:DOG ON SITE...");
 
     doTest("T2",
-        "E2011016323;MVC;UNK INJURIES;2375 WEST BROAD ST;INFO-CALL TRANS'D TO GOOCHLAND",
-        "ID:E2011016323",
-        "CALL:MVC / UNK INJURIES",
-        "ADDR:2375 WEST BROAD ST",
-        "INFO:CALL TRANS'D TO GOOCHLAND");
+        "(Incident Notification) Call#: -2165 ; EMS-Chest Pain/Cardiac Problem ; 16247 JONES FARM RD ; ; Box 509 ; Info:  EMD/PAS  NO DRUGS USED  NOT FAINTED - HE IS WEAK AND",
+        "ID:2165",
+        "CALL:EMS-Chest Pain/Cardiac Problem",
+        "ADDR:16247 JONES FARM RD",
+        "BOX:509",
+        "INFO:EMD/PAS  NO DRUGS USED  NOT FAINTED - HE IS WEAK AND");
 
     doTest("T3",
-        "E2011016344;FIRE;SMOKE-OUTSIDE;383 MOON SHADOW LN;INFO-CAN SMELL AND SEE IN THE SMOKE, NO ACTIVE FLAMES, NO CONTROL BURNS LOGGED IN THE AREA",
-        "ID:E2011016344",
-        "CALL:FIRE / SMOKE-OUTSIDE",
-        "ADDR:383 MOON SHADOW LN",
-        "INFO:CAN SMELL AND SEE IN THE SMOKE, NO ACTIVE FLAMES, NO CONTROL BURNS LOGGED IN THE AREA");
+        "(Incident Notification) Call#: -2121 ; MVC-Injury ; 2752 BUMPASS RD ; ; Box 306 ; Info:  MEDIC2 CONTACT SPOTSY FOR CLOSER UNIT  CALLING SPOTSYLVANIA FOR ANOTHER EMS",
+        "ID:2121",
+        "CALL:MVC-Injury",
+        "ADDR:2752 BUMPASS RD",
+        "BOX:306",
+        "INFO:MEDIC2 CONTACT SPOTSY FOR CLOSER UNIT  CALLING SPOTSYLVANIA FOR ANOTHER EMS");
 
     doTest("T4",
-        "E2011016321;RESCUE NEEDED;ALLERGIC REACTION;409 POINDEXTER RD [# [@CO7;INFO-41YOM, BEE STING, AWAKE AND TALKING NORMALLY, BECOMING ITCHY, NO EPI PEN AVAILABLE, S",
-        "ID:E2011016321",
-        "CALL:RESCUE NEEDED / ALLERGIC REACTION",
-        "ADDR:409 POINDEXTER RD",
-        "UNIT:CO7",
-        "INFO:41YOM, BEE STING, AWAKE AND TALKING NORMALLY, BECOMING ITCHY, NO EPI PEN AVAILABLE, S");
+        "(Incident Notification) Call#: -1994 ; EMS-Extremity Injury ; 118 FREESTYLE LN ; ; Box 407 ; Info:  DOG ON SITE...  Closed APCO Case: -1994  APCO Narrative: Is the p",
+        "ID:1994",
+        "CALL:EMS-Extremity Injury",
+        "ADDR:118 FREESTYLE LN",
+        "BOX:407",
+        "INFO:DOG ON SITE...");
 
     doTest("T5",
-        "E2011016299;RESCUE NEEDED;SICK/OTHER;1116 SIGNBOARD RD;INFO-32YOF HBP, VOMITING.  ONSET A COUPLE HOURS AGO - VOMITTED UP HER MEDS, STOMACH MEDS",
-        "ID:E2011016299",
-        "CALL:RESCUE NEEDED / SICK/OTHER",
-        "ADDR:1116 SIGNBOARD RD",
-        "INFO:32YOF HBP, VOMITING.  ONSET A COUPLE HOURS AGO - VOMITTED UP HER MEDS, STOMACH MEDS");
+        "(Incident Notification) Call#: -1991 ; MVC-Injury ; JEFFERSON HWY ; ; Box 501 ; Info:  SPOKE TO VSP DISPATCH -- RESCUE NEEDED -- NO DEPUTY  CALLER WAS A PASSERBY WHO",
+        "ID:1991",
+        "CALL:MVC-Injury",
+        "ADDR:JEFFERSON HWY",
+        "BOX:501",
+        "INFO:SPOKE TO VSP DISPATCH -- RESCUE NEEDED -- NO DEPUTY  CALLER WAS A PASSERBY WHO");
 
     doTest("T6",
-        "E2011016568;FIRE;Advised;4745 EAST GRAY FOX CIRCLE;INFO-SHED ON FIRE ALSOWOODS ON FIRE",
-        "ID:E2011016568",
-        "CALL:FIRE / Advised",
-        "ADDR:4745 EAST GRAY FOX CIRCLE",
-        "INFO:SHED ON FIRE ALSOWOODS ON FIRE");
+        "(Incident Notification) Call#: -1979 ; EMS-Chest Pain/Cardiac Problem ; 3411 HOLLY GROVE DR ; ; Box 405 ; Info:  Opened APCO Case: -1979  E911 Info - Class of Servic",
+        "ID:1979",
+        "CALL:EMS-Chest Pain/Cardiac Problem",
+        "ADDR:3411 HOLLY GROVE DR",
+        "BOX:405");
 
     doTest("T7",
-        "E2011016535;MVC;UNK INJURIES;FREDERICKS HALL RD;INFO-1 CAR OFF ROADWAY  OUT OF CAR, SOME BRUISING - SAYS BRAKES WENT OUT.",
-        "ID:E2011016535",
-        "CALL:MVC / UNK INJURIES",
-        "ADDR:FREDERICKS HALL RD",
-        "INFO:1 CAR OFF ROADWAY  OUT OF CAR, SOME BRUISING - SAYS BRAKES WENT OUT.");
+        "(Incident Notification) Call#: -1763 ; F-Alarm-Residential ; 7265 CROSS COUNTY RD ; ; Box 407 ; Info:  KEYPAD FIRE ALARM GAIL COOLEY TRIED TO CALL WENT TO  VM",
+        "ID:1763",
+        "CALL:F-Alarm-Residential",
+        "ADDR:7265 CROSS COUNTY RD",
+        "BOX:407",
+        "INFO:KEYPAD FIRE ALARM GAIL COOLEY TRIED TO CALL WENT TO  VM");
 
     doTest("T8",
-        "E2011016569;MVC;NO INJURIES;JAMES MADISON HWY & LOUISA RD;INFO-2 CAR MVC NO INJURIES OUT OF THE RD WAY SUBJS ARE OUT OF THE VEH",
-        "ID:E2011016569",
-        "CALL:MVC / NO INJURIES",
-        "ADDR:JAMES MADISON HWY & LOUISA RD",
-        "INFO:2 CAR MVC NO INJURIES OUT OF THE RD WAY SUBJS ARE OUT OF THE VEH");
+        "(Incident Notification) Call#: -1668 ; EMS-Pregnancy/Childbirth ; 298 WINDYKNIGHT RD CTOR ; ; Box 509 ; Info:  HAS NO IDEA IF SHE FEELS LIKE SHE WANTS TO PUSH  23 YO",
+        "ID:1668",
+        "CALL:EMS-Pregnancy/Childbirth",
+        "ADDR:298 WINDYKNIGHT RD",
+        "BOX:509",
+        "INFO:HAS NO IDEA IF SHE FEELS LIKE SHE WANTS TO PUSH  23 YO");
 
     doTest("T9",
-        "E2011017511;FIRE;STRUCTURE-RESIDENTIAL;9996 KENTUCKY SPRINGS RD;INFO-HOUSE IS ON FIRE",
-        "ID:E2011017511",
-        "CALL:FIRE / STRUCTURE-RESIDENTIAL",
-        "ADDR:9996 KENTUCKY SPRINGS RD",
-        "INFO:HOUSE IS ON FIRE");
+        "(Incident Notification) Call#: -1542 ; EMS-Seizure ; 342 SHELTON HILL RD ; ; Box 501 ; Info:  E911 Info - Class of Service: WPH2 Special Response Info: (540) 511-701",
+        "ID:1542",
+        "CALL:EMS-Seizure",
+        "ADDR:342 SHELTON HILL RD",
+        "BOX:501",
+        "INFO:E911 Info - Class of Service: WPH2 Special Response Info: (540) 511-701");
 
     doTest("T10",
-        "E2011019295;FIRE;Advised;E FIRST ST & ST CECELIA AVE;INFO-",
-        "ID:E2011019295",
-        "CALL:FIRE / Advised",
-        "ADDR:E FIRST ST & ST CECELIA AVE");
-    
+        "(Incident Notification) Call#: -2095 ; EMS-Seizure ; 172 DAVIS HWY ; DOLLAR GENERAL - MINERAL; Box 201 ; Info:  GREY VAN  3YOM SIEZING",
+        "ID:2095",
+        "CALL:EMS-Seizure",
+        "ADDR:172 DAVIS HWY",
+        "PLACE:DOLLAR GENERAL - MINERAL",
+        "BOX:201",
+        "INFO:GREY VAN  3YOM SIEZING");
+   
   }
+  
   public static void main(String[] args) {
     new VALouisaCountyParserTest().generateTests("T1");
   }
