@@ -107,9 +107,18 @@ public class VARockinghamCountyParserTest extends BaseParserTest {
         "CITY:HARRISONBURG",
         "ID:2011-051783",
         "X:PLEASANT HILL RD/DUKES PLAZA");
+
+    doTest("T11",
+        "C60 EMS-FALLS 273 CENTER ST TIM CFS# 2012-022275 CROSS: SHENANDOAH AVE/NEW MARKET RD",
+        "SRC:C60",
+        "CALL:EMS-FALLS",
+        "ADDR:273 CENTER ST",
+        "CITY:TIMBERVILLE",
+        "ID:2012-022275",
+        "X:SHENANDOAH AVE/NEW MARKET RD");
  }
   
   public static void main(String[] args) {
-    new VARockinghamCountyParserTest().generateTests("T10");
+    new VARockinghamCountyParserTest().generateTests("T11");
   }
 }

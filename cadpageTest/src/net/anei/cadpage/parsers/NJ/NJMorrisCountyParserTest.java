@@ -327,6 +327,22 @@ public class NJMorrisCountyParserTest extends BaseParserTest {
     
   }
   
+  @Test
+  public void testGarySantaniello() {
+
+    doTest("T1",
+        "(Roxbury Fire) LITTLE ACHIEVEMENTS CHILD CARE (36), 290 MT ARLINGTON BLVD [Roxbury Twp] (UNCONSCIOU) - 3682,3681,3683\n" +
+        "3 YOM FELT DIZZY , FELL AND BROKE",
+
+        "PLACE:LITTLE ACHIEVEMENTS CHILD CARE",
+        "ADDR:290 MT ARLINGTON BLVD",
+        "CITY:Roxbury Twp",
+        "CALL:UNCONSCIOU",
+        "INFO:3 YOM FELT DIZZY , FELL AND BROKE",
+        "UNIT:3682,3681,3683");
+
+  }
+  
   public static void main(String[] args) {
     new NJMorrisCountyParserTest().generateTests("T1", "PLACE ADDR APT CITY CALL INFO UNIT TIME");
   }
