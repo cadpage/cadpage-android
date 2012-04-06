@@ -4259,22 +4259,6 @@ Response Code: 6D04 ALS E120910009 06:59
 ************  READY TO ROLL ******************************
 **********************************************************
 **********************************************************
-Louisa County, VA (Replace)
-Contact: Lisa Burruss <medic725@gmail.com>
-Sender: 911@louisa.org
-(Incident Notification) Call#: -1994 ; EMS-Extremity Injury ; 118 FREESTYLE LN ; ; Box 407 ; Info:  DOG ON SITE...  Closed APCO Case: -1994  APCO Narrative: Is the p
-(Incident Notification) Call#: -2165 ; EMS-Chest Pain/Cardiac Problem ; 16247 JONES FARM RD ; ; Box 509 ; Info:  EMD/PAS  NO DRUGS USED  NOT FAINTED - HE IS WEAK AND
-(Incident Notification) Call#: -2121 ; MVC-Injury ; 2752 BUMPASS RD ; ; Box 306 ; Info:  MEDIC2 CONTACT SPOTSY FOR CLOSER UNIT  CALLING SPOTSYLVANIA FOR ANOTHER EMS
-(Incident Notification) Call#: -1994 ; EMS-Extremity Injury ; 118 FREESTYLE LN ; ; Box 407 ; Info:  DOG ON SITE...  Closed APCO Case: -1994  APCO Narrative: Is the p
-(Incident Notification) Call#: -1991 ; MVC-Injury ; JEFFERSON HWY ; ; Box 501 ; Info:  SPOKE TO VSP DISPATCH -- RESCUE NEEDED -- NO DEPUTY  CALLER WAS A PASSERBY WHO
-(Incident Notification) Call#: -1979 ; EMS-Chest Pain/Cardiac Problem ; 3411 HOLLY GROVE DR ; ; Box 405 ; Info:  Opened APCO Case: -1979  E911 Info - Class of Servic
-(Incident Notification) Call#: -1763 ; F-Alarm-Residential ; 7265 CROSS COUNTY RD ; ; Box 407 ; Info:  KEYPAD FIRE ALARM GAIL COOLEY TRIED TO CALL WENT TO  VM
-(Incident Notification) Call#: -1668 ; EMS-Pregnancy/Childbirth ; 298 WINDYKNIGHT RD CTOR ; ; Box 509 ; Info:  HAS NO IDEA IF SHE FEELS LIKE SHE WANTS TO PUSH  23 YO
-(Incident Notification) Call#: -1542 ; EMS-Seizure ; 342 SHELTON HILL RD ; ; Box 501 ; Info:  E911 Info - Class of Service: WPH2 Special Response Info: (540) 511-701
-
-Contact: "Jason Slater" <jaiebo@yahoo.com>
-Sender: 911@louisa.org
-(Incident Notification) Call#: -2095 ; EMS-Seizure ; 172 DAVIS HWY ; DOLLAR GENERAL - MINERAL; Box 201 ; Info:  GREY VAN  3YOM SIEZING
 **********************************************************
 EnergyCare (Erie County, PA)
 Contact: "Thomas, George" <gthomas@emergycare.org>
@@ -4329,6 +4313,7 @@ Resp#9882387 Life Threatening Emergency Breathing Problem Loc: Add:58 Short Leaf
 Resp#9882614 Unscheduled Tx Unscheduled Transport Loc:Clear Lake Regional Medical CeAdd:500 Medical Center Blvd APT:5536 Cross St:Connecting Road/Unnamed Street City:Webster Cnty: Map Pg: Dest:Park Manor South Belt 11902 Resource Pkwy Pt's Name: taylor paula
 Resp#9884208 Immediate/Eme Response 29A01-Minor Injury Loc: Add:Plum Grove Rd & Huffman ClevelAPT: Cross St: City:Harris County Cnty: Harris Map Pg: Dest: Pt's Name:
 Resp#9885116 Life Threatening Emergency Traffic Accidents Loc: Add:Kingwood Dr & Huffman ClevelanAPT: Cross St: City:Harris County Cnty: Harris Map Pg: Dest: Pt's Name:
+Resp#9893942 Unscheduled Tx Unscheduled Transport Loc:West Houston Medical Center Add:12141 Richmond Ave APT:335 Cross St:Driveway/Unnamed Street City:Houston Cnty: Map Pg: Dest: 7789 Southwest Fwy Pt's Name: gonzalez ofelia
 **********************************************************
 Jasper County, MO
 Contact: "C. Virgin F. F. 452" <cjfpd452@yahoo.com>

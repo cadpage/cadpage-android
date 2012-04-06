@@ -1,30 +1,26 @@
 package net.anei.cadpage.parsers.VA;
 
-import java.util.regex.Pattern;
+import java.util.Properties;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /***
 Louisa County, VA
-Contact: Michael Thaw <yankee.fire11@gmail.com>
-Contact: "Jaiebo" <jaiebo@yahoo.com>
-Sender: CADLCFEMS@louisa.org
-Sender: CADEMS2@louisa.org
-Sender: CADCo2@louisa.org
-
-E2011014354;RESCUE NEEDED;UNCONSCIOUS/UNRESPONSIVE/FAINTING;296 SHADY LN;INFO-44 YO M -- FEELING FAINT & DIZZY -- FEELING A LITTLE BETTER AT THIS TIME -- WANTI
-E2011016323;MVC;UNK INJURIES;2375 WEST BROAD ST;INFO-CALL TRANS'D TO GOOCHLAND
-E2011016344;FIRE;SMOKE-OUTSIDE;383 MOON SHADOW LN;INFO-CAN SMELL AND SEE IN THE SMOKE, NO ACTIVE FLAMES, NO CONTROL BURNS LOGGED IN THE AREA
-E2011016321;RESCUE NEEDED;ALLERGIC REACTION;409 POINDEXTER RD [# [@CO7;INFO-41YOM, BEE STING, AWAKE AND TALKING NORMALLY, BECOMING ITCHY, NO EPI PEN AVAILABLE, S
-E2011016299;RESCUE NEEDED;SICK/OTHER;1116 SIGNBOARD RD;INFO-32YOF HBP, VOMITING.  ONSET A COUPLE HOURS AGO - VOMITTED UP HER MEDS, STOMACH MEDS
-E2011016568;FIRE;Advised;4745 EAST GRAY FOX CIRCLE;INFO-SHED ON FIRE ALSOWOODS ON FIRE
-E2011016535;MVC;UNK INJURIES;FREDERICKS HALL RD;INFO-1 CAR OFF ROADWAY  OUT OF CAR, SOME BRUISING - SAYS BRAKES WENT OUT.
-E2011016569;MVC;NO INJURIES;JAMES MADISON HWY & LOUISA RD;INFO-2 CAR MVC NO INJURIES OUT OF THE RD WAY SUBJS ARE OUT OF THE VEH
-E2011017511;FIRE;STRUCTURE-RESIDENTIAL;9996 KENTUCKY SPRINGS RD;INFO-HOUSE IS ON FIRE
-
+Contact: Lisa Burruss <medic725@gmail.com>
 Contact: "Jason Slater" <jaiebo@yahoo.com>
-E2011019295;FIRE;Advised;E FIRST ST & ST CECELIA AVE;INFO-
+Sender: 911@louisa.org
+
+(Incident Notification) Call#: -1994 ; EMS-Extremity Injury ; 118 FREESTYLE LN ; ; Box 407 ; Info:  DOG ON SITE...  Closed APCO Case: -1994  APCO Narrative: Is the p
+(Incident Notification) Call#: -2165 ; EMS-Chest Pain/Cardiac Problem ; 16247 JONES FARM RD ; ; Box 509 ; Info:  EMD/PAS  NO DRUGS USED  NOT FAINTED - HE IS WEAK AND
+(Incident Notification) Call#: -2121 ; MVC-Injury ; 2752 BUMPASS RD ; ; Box 306 ; Info:  MEDIC2 CONTACT SPOTSY FOR CLOSER UNIT  CALLING SPOTSYLVANIA FOR ANOTHER EMS
+(Incident Notification) Call#: -1994 ; EMS-Extremity Injury ; 118 FREESTYLE LN ; ; Box 407 ; Info:  DOG ON SITE...  Closed APCO Case: -1994  APCO Narrative: Is the p
+(Incident Notification) Call#: -1991 ; MVC-Injury ; JEFFERSON HWY ; ; Box 501 ; Info:  SPOKE TO VSP DISPATCH -- RESCUE NEEDED -- NO DEPUTY  CALLER WAS A PASSERBY WHO
+(Incident Notification) Call#: -1979 ; EMS-Chest Pain/Cardiac Problem ; 3411 HOLLY GROVE DR ; ; Box 405 ; Info:  Opened APCO Case: -1979  E911 Info - Class of Servic
+(Incident Notification) Call#: -1763 ; F-Alarm-Residential ; 7265 CROSS COUNTY RD ; ; Box 407 ; Info:  KEYPAD FIRE ALARM GAIL COOLEY TRIED TO CALL WENT TO  VM
+(Incident Notification) Call#: -1668 ; EMS-Pregnancy/Childbirth ; 298 WINDYKNIGHT RD CTOR ; ; Box 509 ; Info:  HAS NO IDEA IF SHE FEELS LIKE SHE WANTS TO PUSH  23 YO
+(Incident Notification) Call#: -1542 ; EMS-Seizure ; 342 SHELTON HILL RD ; ; Box 501 ; Info:  E911 Info - Class of Service: WPH2 Special Response Info: (540) 511-701
+(Incident Notification) Call#: -2095 ; EMS-Seizure ; 172 DAVIS HWY ; DOLLAR GENERAL - MINERAL; Box 201 ; Info:  GREY VAN  3YOM SIEZING
 
 ***/
 
@@ -32,25 +28,31 @@ public class VALouisaCountyParser extends FieldProgramParser {
 
   
   public VALouisaCountyParser() {
-    super("LOUISA COUNTY", "VA",
-           "ID CALL CALL ADDR! APT:APT? UNIT:UNIT? INFO:INFO!");
+    super(CITY_CODES, "LOUISA COUNTY", "VA",
+           "Call#:ID! CALL! ADDR/S! PLACE Box:BOX! Info:INFO!");
   }
   
   @Override
   public String getFilter() {
-    return "@louisa.org,";
+    return "911@louisa.org,";
   }
   
   @Override
-  public boolean parseMsg(String body, Data data) {
-    body = body.replace("[#", ";APT:").replace("[@",";UNIT:").replace(";INFO-",";INFO:");
+  public boolean parseMsg(String subject, String body, Data data) {
+    if (!subject.equals("Incident Notification")) return false;
+    body = body.replace(" Box ", " Box:");
+    int pt = body.indexOf(" Closed APCO Case:");
+    if (pt < 0) pt = body.indexOf(" Opened APCO Case:");
+    if (pt >= 0) body = body.substring(0,pt).trim();
     return parseFields(body.split(";"), data);
   }
   
   // ID field, confirm has correct form
   private class MyIdField extends IdField {
-    public MyIdField() {
-      setPattern(Pattern.compile("E\\d{10}"), true);
+    @Override
+    public void parse(String field, Data data) {
+      if (field.startsWith("-")) field = field.substring(1).trim();
+      super.parse(field, data);
     }
   }
   
@@ -59,4 +61,8 @@ public class VALouisaCountyParser extends FieldProgramParser {
     if (name.equals("ID")) return new MyIdField();
     return super.getField(name);
   }
+  
+  private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "CTOR", ""
+  });
 }
