@@ -33,6 +33,7 @@ public class SmartAddressParserTest extends BaseParserTest {
   
   public SmartAddressParserTest() {
     parser = new TestParser(CITY_LIST, DEF_CITY, DEF_STATE);
+    parser.setupMultiWordStreets("JEAN GOUL", "PAUL G GETTY");
     setParser(parser, DEF_CITY, DEF_STATE);
   }
   
@@ -679,6 +680,16 @@ public class SmartAddressParserTest extends BaseParserTest {
         "X:TOWN AVE SOMEWHERE IN",
         "CITY:KENSBURG");
     
+  }
+  
+  @Test
+  public void testMultiWordStreets() {
+    doTest(CALL, "STRUCTURE FIRE JEAN GOUL AVE SOME MORE STUFF",
+           "CALL:STRUCTURE FIRE",
+           "ADDR:JEAN GOUL AVE");
+    doTest(CALL, "STRUCTURE FIRE PAUL G GETTY RD & LOST CREEK RD IGNORE EVERYTHING ELSE",
+           "CALL:STRUCTURE FIRE",
+           "ADDR:PAUL G GETTY RD & LOST CREEK RD");
   }
   
   @Override
