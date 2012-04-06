@@ -4,7 +4,7 @@
 	</description>
 	
 	<property name="src" value="src"/>
-	<property name="bin" value="bin"/>
+	<property name="bin" value="bin/classes"/>
 	<property name="dist" value="dist"/>
 	<property name="select" value="net/anei/cadpage/parsers/**"/>
 	<property name="filename" value="CadpageParser"/>
