@@ -52,6 +52,10 @@ Contact: "envapp@yahoo.com" <envapp@yahoo.com>
 Sender: dispatch@co.morris.nj.us
 prvs=244183d440=dispatch@co.morris.nj.us 16 LINDSLEY RD [Harding Twp] (CO ALARM) - 1399\nCO ACTIVATION SURIT RES ..973-538-0659\nF120950020 19:28
 
+Contact: Gary Santaniello <gary.santaniello@gmail.com>
+Sender: messaging@iamresponding.com 
+(Roxbury Fire) LITTLE ACHIEVEMENTS CHILD CARE (36), 290 MT ARLINGTON BLVD [Roxbury Twp] (UNCONSCIOU) - 3682,3681,3683\n3 YOM FELT DIZZY , FELL AND BROKE
+
 */
 
 public class NJMorrisCountyParser extends MsgParser {

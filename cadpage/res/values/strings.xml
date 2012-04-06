@@ -93,25 +93,9 @@
    <string name="pref_noShowInCall_title">Restrict In Call Popup</string>
    <string name="pref_noShowInCall_summaryon">Popup window will not show when call in progress</string>
    <string name="pref_noShowInCall_summaryoff">Popup window will show when call in progress</string>
-
-   <string name="pref_useGoogleMapApp_title">Use Google Maps Application</string>
-   <string name="pref_useGoogleMapApp_summaryon">Call Map button will launch Google Maps application</string>
-   <string name="pref_useGoogleMapApp_summaryoff">Call Map button wil launch local Map window</string>
    
    <string name="pref_email_title">E-mail the Developer</string>
    <string name="pref_email_summary">E-mail comments or bugs to the developer</string>
-
-   <string name="pref_require_unlock_title">Require Screen Unlock</string>
-   <string name="pref_require_unlock_summaryon">Buttons will be hidden till screen is unlocked</string>
-   <string name="pref_require_unlock_summaryoff">Buttons will show immediately</string>
-
-   <string name="pref_inbox_app_title">Choose Inbox App</string>
-   <string name="pref_inbox_app_summary">Choose the application that is launched for multiple messages</string>
-   <string name="pref_inbox_app_info">Note that the "Reply" messaging application is set by the system</string>
-
-   <string name="pref_blur_title">Blur Background</string>
-   <string name="pref_blur_summaryon">The background behind the message window will be blurred out</string>
-   <string name="pref_blur_summaryoff">The background behind the message window will not be blurred</string>
 
 <!-- Notification Preferences -->
    <string name="pref_notif_title">Notification Settings</string>
@@ -125,7 +109,6 @@
    <string name="pref_notif_enabled_title">Enable Notifications</string>
    <string name="pref_notif_enabled_summaryon">Notifications are enabled</string>
    <string name="pref_notif_enabled_summaryoff">Notifications are disabled</string>
-   <string name="pref_notif_enabled_warning">To avoid conflicts and multiple alerts, please disable the system SMS notifications and any other apps that provide a notification when a SMS is received.\n\nTo turn off the system notification, go to the messaging app, hit menu -> settings and un-check notifications.</string>
 
    <string name="pref_notif_test_title">Test Notification</string>
    <string name="pref_notif_test_summary">Test out your notification</string>
@@ -177,37 +160,16 @@
    <string name="pref_notif_repeat_times_title">Number of Reminders</string>
    <string name="pref_notif_repeat_times_summary">The number of reminder notifications to play.  Cur value: %s</string>
 
-   <string name="pref_notif_repeat_screen_on_title">Screen On for Reminders</string>
-   <string name="pref_notif_repeat_screen_on_summaryon">Reminders will turn screen on again</string>
-   <string name="pref_notif_repeat_screen_on_summaryoff">Reminders will not turn screen on</string>
-   <string name="pref_notif_repeat_screen_on_warning">Warning - turning the screen on for reminders can significantly affect battery life</string>
-
 <!-- Contact Notification Customization Strings -->
   <string name="pref_notif_default_title">Default Notifications</string>
-  <string name="pref_notif_default_summary">Notifications for all contacts without an individual customization</string>
   <string name="pref_notif_override_title">Override Notification</string>
   <string name="pref_notif_override_summary">Use this to play the included sound even when phone is in silent mode.</string>
   <string name="pref_notif_override_summaryon">Notification Sounds will not play. The default sound will.</string>
   <string name="pref_notif_override_summaryoff">Notification sounds and rules will be followed</string>
-  <string name="pref_contacts_title">Contacts Notifications</string>
-  <string name="pref_contacts_summary">Individual contact customization</string>
-
-  <string name="contact_customization_add">Add Custom Notifications</string>
-  <string name="contact_customization_edit">Edit Custom Notification</string>
-  <string name="contact_customization_remove">Remove Custom Notification</string>
-  <string name="contact_customization_removed_toast">Custom Notification Removed</string>
-  <string name="contact_customization_save">Save</string>
-  <string name="contact_customization_title">Notifications for %s</string>
-  <string name="contact_customization_enabled">Notifications are enabled for %s</string>
-  <string name="contact_customization_disabled">Notifications are disabled for %s</string>
-  <string name="contact_customization_add_hint">Add/Edit contact notifications...</string>
-  
-  <string name="ringtone_silent">Silent</string>
     
 <!-- Text-To-Speech and Voice Transcription Strings -->
   <string name="loading_message">Loading...</string>
   <string name="error_message">Error</string>
-  <string name="error_no_voice_recognition">Voice recognition not available on this device</string> 
       
 <!-- Popup Button Configuration -->
   <string name="pref_button_config_title">Button Configuration</string>
@@ -220,9 +182,8 @@
   
   <string name="pref_resp_type_title">Response Type</string>
   <string name="pref_resp_type_summary">Response buttons trigger: %s</string>
-  <string name="pref_resp_merge_title">Merge Response Menus</string>
-  <string name="pref_resp_merge_summaryon">User response menu will be merged with vendor response menu</string>
-  <string name="pref_resp_merge_summaryoff">Vendor response menu replaces user response menu</string>
+  <string name="pref_resp_merge_title">Direct paging message menu</string>
+  <string name="pref_resp_merge_summary">Direct page vendor message menus will be\n%s</string>
 
   <string name="pref_button_summary">Current Setting: %s</string>
   <string name="pref_button1_title">Button 1 Configuration</string>
@@ -246,41 +207,6 @@
   <string name="pref_code_callback5_title">Button 5 Phone/Code</string>
   <string name="pref_code_callback6_title">Button 6 Phone/Code</string>
 
-<!-- Misc missing string -->
-  <string name="view_contact">View Contact</string>
-
-<!-- Quick Reply Checkbox Preference -->
-  <string name="pref_quickreply_title">Quick Reply</string>
-  <string name="pref_quickreply_summaryon">Quick Reply is enabled</string>
-  <string name="pref_quickreply_summaryoff">Quick Reply is disabled</string>
-  <string name="pref_quickreply_bothreplybuttons">Both reply buttons are already active, to
-    configure them please go to the Button Configuration screen</string>
-  <string name="pref_quickreply_noreplybuttons">No reply buttons are currently active, to
-    configure them please go to the Button Configuration screen</string>
-
-  <!-- Misc missing string -->
-  <string name="button_replybyaddress">Reply (to phone number)</string>
-
-  <!-- Quick Reply Signature pref -->
-  <string name="pref_notif_signature_title">Quick Reply Signature</string>
-  <string name="pref_notif_signature_summary">Appears at the end of every quick reply</string>
-
-  <!-- Eula Strings -->
-  <string name="eula_title">SMS Popup License Agreement</string>
-  <string name="eula_accept">Accept</string>
-  <string name="eula_refuse">Uninstall</string>
-
-  <!-- Send message prefs -->
-  <string name="pref_delivery_report_title">Delivery Reports</string>
-  <string name="pref_delivery_report_summary">Request a delivery report for each message you
-    send via quick reply</string>
-
-  <string name="pref_split_message_title">Split Long Messages</string>
-  <string name="pref_split_message_summaryon">Long messages will be split up (only needed for
-    some CDMA carriers)</string>
-  <string name="pref_split_message_summaryoff">Long messages will not be split up (only needed
-    for some CDMA carriers)</string>
-
   <!-- Other new prefs -->
   <string name="pref_autorotate_title">Autorotate Always On</string>
   <string name="pref_autorotate_summaryon">Popup will always autorotate</string>
@@ -298,16 +224,6 @@
   <string name="pref_screen_on_summaryoff">Screen will not turn on when popup shows</string>
 
   <string name="pref_screen_category">Screen Control</string>
-
-  <!-- Other new Quick Reply prefs -->
-  <string name="quickreply_sent_toast">Message Sent</string>
-  <string name="quickreply_failed_send_later">Currently unable to send your message. It will be
-    sent when the service becomes available.</string>
-  <string name="quickreply_failed">Message failed to send</string>
-
-
-  <!-- Arrays texts -->
-  <string name="pref_custom">Custom</string>
 
   <string name="pref_notif_repeat_times_entries_keep_repeting">Keep repeating</string>
 
@@ -413,8 +329,6 @@
   <string name="pref_publish_pages_summaryoff">Cad pages will not be published for 3rd party
     applications</string>
 
-  <string name="app_file_dir">/Android/data/Cadpage/files/</string>
-  <string name="app_file_name">callhistory.csv</string>
   <string name="exit">Exit</string>
   <string name="clearall_text">Clear All</string>
   <string name="pref_passthrusms_title">Pass Calls through to SMS Client</string>
@@ -446,8 +360,6 @@
 
   <!-- Email developer Dialog items -->
   <string name="pref_sendemail_title">E-mail the developers</string>
-  <string name="pref_sendemail_summary">E-mail comments or bugs to the developers</string>
-
   <string name="sendemail_btn_ok">Send</string>
   <string name="sendemail_btn_cancel">Cancel</string>
 
@@ -455,11 +367,6 @@
   <string name="pref_disclaimer_summary">View Disclaimer regarding Cadpage use.</string>
   <string name="pref_disclaimer_url">http://code.google.com/p/Cadpage/wiki/Disclaimer
   </string>
-  <string name="callback_item_text">Phone</string>
-  <string name="pref_callback_dialog">Enter Callback Phone Number</string>
-  <string name="pref_callback_title">Callback Number</string>
-  <string name="pref_callback_summary">When configured there will be a &quot;Phone&quot;
-    button configured to call this number. Cur value: %s</string>
 
   <!-- Location settings -->
   <string name="pref_location_screen_title">Location Settings</string>
@@ -471,7 +378,6 @@
   <string name="pref_textsize_summary">Select the Text size for History Screen Messages
   </string>
   <string name="pref_textsize_title">Text Size</string>
-  <string name="widget_name">Cadpage Settings</string>
   
   <!--  Donation settings -->
   <string name="pref_payment_status_title">Payment Status</string>

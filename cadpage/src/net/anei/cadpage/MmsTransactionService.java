@@ -17,6 +17,7 @@
 
 package net.anei.cadpage;
 
+import android.annotation.SuppressLint;
 import android.app.Notification;
 import android.app.Service;
 import android.content.ContentResolver;
@@ -63,6 +64,7 @@ public class MmsTransactionService extends Service {
   // Cached copies of different preferences we might need during off thread processing
   private int mmsTimeout;
 
+  @SuppressLint("NewApi")
   @Override
   public void onCreate() {
     if (Log.DEBUG) Log.v("MmsTransactionService.onCreate()");

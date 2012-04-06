@@ -170,16 +170,19 @@ public class MsgOptionManager {
     // Start by clearing any previous arrays
     respButtonList.clear();
     respButtonGroup.removeAllViews();
+    
+    char mergeOption = ManagePreferences.responseMerge().charAt(0);
 
   
     // If response options have been requested by a direct paging vendor, they
     // preempt everything
-    boolean menu = setupDirectPageButtons();
+    boolean menu = false;
+    if (mergeOption != 'I') menu = setupDirectPageButtons();
     
     // If there are is no direct paging menu, or the user has requested that
     // user response buttons be merged with direct paging menus, add in
     // the user response buttons
-    if (!menu || ManagePreferences.responseMerge()) {
+    if (!menu || mergeOption == 'A') {
       if (setupUserButtons()) menu = true;
     }
     

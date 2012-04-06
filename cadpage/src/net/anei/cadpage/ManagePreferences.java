@@ -28,7 +28,7 @@ public class ManagePreferences {
   // (OK, if you know what you are doing, and the only new settings added
   // are boolean settings that default to false, you can get away with not
   // changing this)
-  private static final int PREFERENCE_VERSION = 22;
+  private static final int PREFERENCE_VERSION = 23;
   
   private static final DateFormat DATE_FORMAT = new SimpleDateFormat("MMddyyyy");
   
@@ -45,13 +45,6 @@ public class ManagePreferences {
 
     // Before we do anything else, see what the old preference version number was
     int oldVersion = prefs.getInt(R.string.pref_version_key, 0);
-    
-    // If the old version doesn't match the current version, we need to reload
-    // the preference defaults and update the preference version
-    if (oldVersion != PREFERENCE_VERSION) {
-      PreferenceManager.setDefaultValues(context, R.xml.preferences, true);
-      prefs.putInt(R.string.pref_version_key, PREFERENCE_VERSION);
-    }
     
     // If old version was < 21, we need to reset the popup button configuration settings
     if (oldVersion < 21) {
@@ -71,6 +64,12 @@ public class ManagePreferences {
       }
     }
     
+    if (oldVersion < 23) {
+      boolean oldMergeOption = prefs.getBoolean(R.string.pref_resp_merge_key);
+      String newMergeOption = (oldMergeOption ? "A" : "R");
+      prefs.putString(R.string.pref_resp_merge_key, newMergeOption);
+    }
+    
     // Ditto if is a newer parser code that has been renamed,
     String location = location();
     String newLocation = convertOldLocationCode(context, location);
@@ -87,8 +86,16 @@ public class ManagePreferences {
     
     // Set the install date if it hasn't already been set
     setInstallDate();
+
+    // Now that we've taken care of any manual corrections....
+    // If the old version doesn't match the current version, we need to reload
+    // the preference defaults and update the preference version
+    if (oldVersion != PREFERENCE_VERSION) {
+      PreferenceManager.setDefaultValues(context, R.xml.preferences, true);
+      prefs.putInt(R.string.pref_version_key, PREFERENCE_VERSION);
+    }
     
-    // Next set the application enable status
+    // Finally set the application enable status
     String enableStr = (enabled() ? enableMsgType() : "");
     SmsPopupUtils.enableSMSPopup(context, enableStr);
   }
@@ -412,8 +419,8 @@ public class ManagePreferences {
     return prefs.getString(R.string.pref_resp_type_key);
   }
   
-  public static boolean responseMerge() {
-    return prefs.getBoolean(R.string.pref_resp_merge_key);
+  public static String responseMerge() {
+    return prefs.getString(R.string.pref_resp_merge_key);
   }
   
   private static final int[] POPUP_BUTTON_IDS = new int[]{
@@ -461,7 +468,8 @@ public class ManagePreferences {
   
   private static final int[] EXTRA_BUTTON_IDS = new int[]{
     R.string.pref_xtra_resp_button1_key,
-    R.string.pref_xtra_resp_button2_key
+    R.string.pref_xtra_resp_button2_key,
+    R.string.pref_xtra_resp_button3_key
   };
   
   public static final int EXTRA_BUTTON_CNT = EXTRA_BUTTON_IDS.length;
@@ -821,6 +829,7 @@ public class ManagePreferences {
         
         R.string.pref_xtra_resp_button1_key,
         R.string.pref_xtra_resp_button2_key,
+        R.string.pref_xtra_resp_button3_key,
 
         R.string.pref_paid_year_key,
         R.string.pref_install_date_key,

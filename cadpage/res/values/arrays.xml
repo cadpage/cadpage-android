@@ -101,7 +101,19 @@
     <item>P</item>
     <item>T</item>
   </string-array>
-
+  
+  <string-array name="pref_resp_merge_text">
+    <item>Replace user menu</item>
+    <item>Add to user menu</item>
+    <item>Ignore</item>
+  </string-array>
+  
+  <string-array name="pref_resp_merge_values">
+    <item>R</item>
+    <item>A</item>
+    <item>I</item>
+  </string-array>
+  
   <string-array name="pref_timeout_entries">
     <item>@string/pref_timeout_entries_10s</item>
     <item>@string/pref_timeout_entries_20s</item>

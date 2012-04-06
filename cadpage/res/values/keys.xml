@@ -35,9 +35,6 @@
    <string name="pref_show_personal_key">show_personal</string>
    <string name="pref_onlyShowOnKeyguard_key">showonkeyguard</string>
    <string name="pref_noShowInCall_key">noshowincall</string>
-   <string name="pref_require_unlock_key">requireunlock</string>
-   <string name="pref_inbox_app_key">inboxapp</string>
-   <string name="pref_blur_key">blur</string>
    <string name="pref_notif_enabled_key">notification</string>
    <string name="pref_notif_override_key">override</string>
    <string name="pref_popup_enabled_key">popup</string>
@@ -54,20 +51,6 @@
    <string name="pref_notif_repeat_key">notif_repeat</string>
    <string name="pref_notif_repeat_interval_key">notif_repeat_interval</string>
    <string name="pref_notif_repeat_times_key">notif_repeat_num</string>
-   <string name="contacts_key">contacts_key</string>
-   <string name="c_pref_notif_enabled_key">c_notification</string>
-   <string name="c_pref_notif_test_key">c_notiftest</string>
-   <string name="c_pref_notif_sound_key">c_notifsound</string>
-   <string name="c_pref_vibrate_key">c_vibrate</string>
-   <string name="c_pref_vibrate_pattern_key">c_vibrate_pattern</string>
-   <string name="c_pref_vibrate_pattern_custom_key">c_vibrate_pattern_custom</string>
-   <string name="c_pref_flashled_key">c_flashled</string>
-   <string name="c_pref_flashled_color_key">c_flashled_color</string>
-   <string name="c_pref_flashled_color_custom_key">c_flashled_color_custom</string>
-   <string name="c_pref_flashled_pattern_key">c_flashled_pattern</string>
-   <string name="c_pref_flashled_pattern_custom_key">c_flashled_pattern_custom</string>
-   <string name="c_pref_category">c_pref_category</string>
-   <string name="quickmessages_key">quickmessages_key</string>
    <string name="pref_resp_type_key">resp_type</string>
    <string name="pref_resp_merge_key">resp_merge</string>
    <string name="pref_button1_key">button1</string>
@@ -90,7 +73,7 @@
    <string name="pref_callback6_key">callback6</string>
    <string name="pref_xtra_resp_button1_key">xtra_resp_button1</string>
    <string name="pref_xtra_resp_button2_key">xtra_resp_button2</string>
-   <string name="pref_delivery_report_key">deliveryreport</string>
+   <string name="pref_xtra_resp_button3_key">xtra_resp_button3</string>
    <string name="pref_autorotate_key">autorotate</string>
    <string name="pref_map_network_chk_key">map_network_chk</string>
    <string name="pref_delete_unopen_key">delete_unopen</string>
@@ -103,7 +86,6 @@
    <string name="pref_filter_key">filter</string>
    <string name="pref_gen_alert_key">gen_alert</string>
    <string name="pref_show_source_key">show_source</string>
-   <string name="pref_useGoogleMapApp_key">useGoogleMapApp</string>
    <string name="pref_override_default_key">overrideDefaultLoc</string>
    <string name="pref_defstate_key">defaultState</string>
    <string name="pref_defcity_key">defaultCity</string>
@@ -117,7 +99,6 @@
    <string name="pref_rev_msg_order_key">rev_msg_order</string>
    <string name="pref_suppress_dup_msg_key">supDupMsg</string>
    <string name="pref_publish_pages_key">publish_pages</string>
-   <string name="settings_key">settings</string>
    <string name="pref_passthrusms_key">passthrusms</string>
    <string name="pref_disclaimer_key">disclaimer</string>
    <string name="pref_textsize_key">textsize</string>

@@ -47,7 +47,8 @@ public class CadPageWidget extends AppWidgetProvider {
     views.setOnClickPendingIntent(R.id.widget_button_popup, popupPendingIntent);
     views.setOnClickPendingIntent(R.id.widget_text_newcalls, callsPendingIntent);
 
-    int newCallCount = SmsMessageQueue.getInstance().getNewCallCount();
+    SmsMessageQueue instance = SmsMessageQueue.getInstance();
+    int newCallCount = (instance == null ? 0 : instance.getNewCallCount());
     views.setTextViewText(R.id.widget_text_newcalls, Integer.toString(newCallCount));
     
     appWidgetManager.updateAppWidget(appWidgetIds, views);

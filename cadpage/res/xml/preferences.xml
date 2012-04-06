@@ -294,13 +294,14 @@
               android:summary="@string/pref_resp_type_summary"
               android:entries="@array/pref_resp_type_text"
               android:entryValues="@array/pref_resp_type_values"/>
-              
-            <CheckBoxPreference
+            
+            <net.anei.cadpage.preferences.ListPreference
               android:key="@string/pref_resp_merge_key"
+              android:defaultValue="@string/pref_resp_merge_default"
               android:title="@string/pref_resp_merge_title"
-              android:summaryOn="@string/pref_resp_merge_summaryon"
-              android:summaryOff="@string/pref_resp_merge_summaryoff"
-              android:defaultValue="@string/pref_resp_merge_default" />
+              android:summary="@string/pref_resp_merge_summary"
+              android:entries="@array/pref_resp_merge_text"
+              android:entryValues="@array/pref_resp_merge_values"/>
             
             <PreferenceCategory
               android:title="@string/pref_resp_button_config_title">
@@ -390,7 +391,15 @@
                 android:entries="@array/pref_button_text"
                 android:entryValues="@array/pref_button_values"
                 android:dialogTitle="@string/pref_button2_title"/>
-            </PreferenceCategory>  
+             <net.anei.cadpage.preferences.ListPreference
+                android:key="@string/pref_xtra_resp_button3_key"
+                android:defaultValue="@string/pref_xtra_resp_button3_default"
+                android:title="@string/pref_button3_title"
+                android:summary="@string/pref_button_summary"
+                android:entries="@array/pref_button_text"
+                android:entryValues="@array/pref_button_values"
+                android:dialogTitle="@string/pref_button3_title"/>
+             </PreferenceCategory>  
           </PreferenceScreen>
         </PreferenceScreen>
       </PreferenceCategory>

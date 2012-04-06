@@ -8,8 +8,6 @@
    <string name="pref_show_personal_default">false</string>
    <string name="pref_onlyShowOnKeyguard_default">false</string>
    <string name="pref_noShowInCall_default">false</string>
-   <string name="pref_require_unlock_default">false</string>
-   <string name="pref_blur_default">true</string>
    <string name="pref_vibrate_default">true</string>
    <string name="pref_vibrate_pattern_default">0,1200</string>
    <string name="pref_flashled_default">true</string>
@@ -18,9 +16,8 @@
    <string name="pref_notif_repeat_default">false</string>
    <string name="pref_notif_repeat_interval_default">5</string>
    <string name="pref_notif_repeat_times_default">2</string>
-   <string name="pref_notif_repeat_screen_on_default">false</string>
    <string name="pref_resp_type_default">P</string>
-   <string name="pref_resp_merge_default">false</string>
+   <string name="pref_resp_merge_default">R</string>
    <string name="pref_button1_default">1</string>
    <string name="pref_button2_default">2</string>
    <string name="pref_button3_default">5</string>
@@ -29,14 +26,11 @@
    <string name="pref_button6_default">9</string>
    <string name="pref_xtra_resp_button1_default">2</string>
    <string name="pref_xtra_resp_button2_default">9</string>
-   <string name="pref_quickreply_default">false</string>
-   <string name="pref_delivery_report_default">false</string>
-   <string name="pref_split_message_default">false</string>
+   <string name="pref_xtra_resp_button3_default">0</string>
    <string name="pref_delete_unopen_default">false</string>
    <string name="pref_autorotate_default">true</string>
    <string name="pref_map_network_chk_default">C</string>
    <string name="pref_screen_on_default">true</string>
-   <string name="pref_location_default">1</string>
    <string name="pref_override_filter_default">true</string>
    <string name="pref_gen_alert_default">true</string>
    <string name="pref_show_source_default">false</string>
@@ -49,7 +43,6 @@
    <string name="pref_split_chk_sender_default">true</string>
    <string name="pref_suppress_dup_msg_default">true</string>
    <string name="pref_publish_pages_default">false</string>
-   <string name="pref_useGoogleMapApp_default">true</string>
    <string name="pref_history_limit_default">10</string>
    <string name="pref_passthrusms_default">false</string>
 <string name="pref_textsize_default">14</string>
