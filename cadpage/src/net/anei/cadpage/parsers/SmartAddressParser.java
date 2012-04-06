@@ -143,7 +143,7 @@ public abstract class SmartAddressParser extends MsgParser {
   // Bitmask bit indicating token is an ambiguous road suffix
   private static final int ID_AMBIG_ROAD_SFX = 0x10000;
   
-  // Bitmask bit indicatign token cannot be part of an address
+  // Bitmask bit indicating token cannot be part of an address
   private static final int ID_NOT_ADDRESS = 0x20000;
   
   // Bitmask bit indicating token can be an alpha route or highway number
@@ -170,8 +170,11 @@ public abstract class SmartAddressParser extends MsgParser {
   
   private static final Pattern PAT_HOUSE_NUMBER = Pattern.compile("\\d+(?:-[0-9/]+)?(?:-?[A-Z])?", Pattern.CASE_INSENSITIVE);
   
-  // List of multiple word cities that need to be converted to and from single tokens
-  List<String[]> mWordCities = null;
+  // List of multiple word cities
+  private MultiWordList mWordCities = null;
+  
+  // List of multiple word street names
+  private MultiWordList mWordStreets = null;
   
   public SmartAddressParser(String[] cities, String defCity, String defState) {
     this(cities, defCity, defState, CountryCode.US);
@@ -263,7 +266,7 @@ public abstract class SmartAddressParser extends MsgParser {
     // C/S should be in this list, but it gets changed before we parse stuff
     setupDictionary(ID_CROSS_STREET, "XS:", "X:");
     setupDictionary(ID_APPT, "APT:", "APT", "#", "SP", "RM", "SUITE:");
-    setupDictionary(ID_STREET_NAME_PREFIX, "LAKE", "MT", "MOUNT");
+    setupDictionary(ID_STREET_NAME_PREFIX, "LAKE", "MT", "MOUNT", "SUNKEN");
     
     // Add any country specific words
     switch (getCountryCode()) {
@@ -293,27 +296,7 @@ public abstract class SmartAddressParser extends MsgParser {
   }
   
   private void setupCities(String[] cities) {
-
-    // Run thorough the city list
-    for (String city : cities) {
-      
-      // If city name contains a blank, things get complicated
-      if (city.contains(" ")) {
-        
-        // Break up city name into token list and add it to mWordCities
-        if (mWordCities == null) mWordCities = new ArrayList<String[]>();
-        String[] tokenList = city.split(" +");
-        mWordCities.add(tokenList);
-        
-        // And add the first token to the dictionary as an incomplete city
-        setupDictionary(ID_CITY | ID_MULTIWORD, tokenList[0]);
-      }
-      
-      // Otherwise, we just add this to dictionary as a normal city
-      else {
-        setupDictionary(ID_CITY | ID_COMPLETE, city);
-      }
-    }
+    mWordCities = new MultiWordList(+1, ID_CITY, ID_MULTIWORD, ID_COMPLETE, cities);
   }
   
   private void setupDictionary(int bitMask, String ... args) {
@@ -323,6 +306,14 @@ public abstract class SmartAddressParser extends MsgParser {
       if (oldMask != null) newMask |= oldMask;
       dictionary.put(arg, newMask);
     }
+  }
+  
+  /**
+   * Set up preloaded multi-word street names
+   * @param names list of multi-word street names.  with no street suffixes
+   */
+  protected void setupMultiWordStreets(String ... names) {
+    mWordStreets = new MultiWordList(-1, 0, ID_MULTIWORD, 0, names);
   }
   
   
@@ -1026,6 +1017,12 @@ public abstract class SmartAddressParser extends MsgParser {
     // If road starts with a direction, back up one place
     if (sAddr > start && isType(sAddr, ID_DIRECTION)) sAddr--;
     
+    // Check our preloaded multiple word street name list
+    if (mWordStreets != null) {
+      int tmp = mWordStreets.findEndSequence(sAddr);
+      if (tmp >= 0 && tmp >= start) sAddr = tmp;
+    }
+    
     // If road starts with a common street name prefix, back up one place
     if (sAddr > start && isType(sAddr-1, ID_STREET_NAME_PREFIX)) sAddr--;
     
@@ -1161,48 +1158,25 @@ public abstract class SmartAddressParser extends MsgParser {
    */
   private int findEndCity(int ndx) {
     
-    // If this isn't a city or city start the answer is no
-    if (! isType(ndx, ID_CITY)) return -1;
+    // If there is no city list, obviously there is no city
+    if (mWordCities == null) return -1;
+
+    // See if we can find the end of a city sequence
+    // If not, then return -1;
+    int endNdx = mWordCities.findEndSequence(ndx);
+    if (endNdx < 0) return -1;
     
-    // If there is a road suffix in one of the following two tokens, this
-    // must be one of those accursed streets including the city name, but not
-    // the city.
+    // We did find a city, but if it is followed by a road suffix, disqualify it
+    if (isType(endNdx, ID_ROAD_SFX)) return -1;
+    
+    // A road suffix one or two tokens past the end of the city also disqualifies it
     // Except some times there really is cross street information following
     // the address, in which case just ignore all the above
     if (!isFlagSet(FLAG_CROSS_FOLLOWS)) {
-      if (isType(ndx+1, ID_ROAD_SFX) || isType(ndx+2, ID_ROAD_SFX)) return -1;
+      if (isType(endNdx+1, ID_ROAD_SFX) || isType(endNdx+2, ID_ROAD_SFX)) return -1;
     }
     
-    // If this is the start of a multi-word city, see if
-    // we find a match in the muti-word city list
-    // If there are multiple matches, pick the longest
-    int endNdx = -1;
-    if (isType(ndx, ID_MULTIWORD)) {
-      for (String[] tokenList : mWordCities) {
-        boolean match = true;
-        for (int j = 0; j< tokenList.length; j++) {
-          if (ndx+j >= tokens.length ||
-              ! tokenList[j].equalsIgnoreCase(tokens[ndx+j])) {
-            match = false;
-            break;
-          }
-        }
-        if (match) {
-          int tmp = ndx + tokenList.length;
-          if (tmp > endNdx) endNdx = tmp;
-        }
-      }
-    }
-
-    // If we didn't find a multi-word city see if this token is
-    // a singleword city
-    if (endNdx < 0 && isType(ndx, ID_COMPLETE)) {
-      endNdx = ndx + 1;
-    }
-    
-    // If we did find a city, check to make sure it isn't followed by
-    // a road suffix before we return it's end
-    if (endNdx >= 0 && isType(endNdx, ID_ROAD_SFX)) return -1;
+    // Looks good, lets return this
     return endNdx;
   }
 
@@ -1552,6 +1526,118 @@ public abstract class SmartAddressParser extends MsgParser {
     if (token.length() > 4) return false;
     char chr = token.charAt(0);
     return (chr == '#' || Character.isDigit(chr));
+  }
+  
+  /**
+   * This class contains a searchable list of multi word items.  It will be
+   * used to keep two lists.  One of multi-word cities, and another of multi-word
+   * streets.
+   */
+  private class MultiWordList {
+    
+    private int dir;
+    private int idFlag;
+    private int incompFlag;
+    private int completeFlag;
+    private List<String[]> wordList = null;
+    
+    /**
+     * Create a multiword list
+     * @param dir search direction +1 for forward search, -1 for backward search
+     * @param idFlag token flag used to objects in this list.  If zero any
+     * token will be considered to be at least a single word match
+     * @param incompFlag token flag used to mark beginning of multiword sequences
+     * @param completeFlag token flag used to mark complete single word sequence.
+     * Not used if idFlag is zero
+     * @param nameList list of possibly multiword names to be added to list
+     */
+    public MultiWordList(int dir, int idFlag, int incompFlag, int completeFlag, String[] nameList) {
+      this.dir = (dir < 0 ? -1 : 1);
+      this.incompFlag = incompFlag;
+      this.completeFlag = completeFlag;
+      
+      int flags1 = idFlag | incompFlag;
+      int flags2 = idFlag | completeFlag;
+
+      // Run thorough the city list
+      for (String name : nameList) {
+        
+        // If city name does not contain a blank, we are not interested in it
+        if (name.contains(" ")) {
+          
+          // Break up city name into token list.
+          // If this a backward search list, reverse the tokenList word order
+          if (wordList == null) wordList = new ArrayList<String[]>();
+          String[] tokenList = name.split(" +");
+          if (dir < 0) {
+            for (int ndx = 0; ndx < tokenList.length/2; ndx++) {
+              int ndx2 = tokenList.length-ndx-1;
+              String tmp = tokenList[ndx];
+              tokenList[ndx] = tokenList[ndx2];
+              tokenList[ndx2] = tmp;
+            }
+          }
+          
+          // Add the token list to the word list
+          wordList.add(tokenList);
+          
+          // And add the first token to the dictionary as an incomplete city
+          if (flags1 != 0) setupDictionary(flags1, tokenList[0]);
+        }
+        
+        // Otherwise, we just add this to dictionary as a normal city
+        else {
+          if (flags2 != 0) setupDictionary(flags2, name);
+        }
+      }
+    }
+    
+    /**
+     * Search for a single or multi-word sequence begining at specfied index
+     * @param ndx specified token index
+     * @return if no sequence found, return -1.
+     * If search direction is forward returns one past the end of a found sequence
+     * If search direction is backward, returns the beginning of found sequence
+     */
+    public int findEndSequence(int ndx) {
+      
+      // If there is an ID token flag, and isn't set for this index, look no further 
+      if (idFlag != 0 && !isType(ndx, idFlag)) return -1;
+      
+      // If this is flagged as the start of a multi-word entry, see if
+      // we find a match in the muti-word list
+      // If there are multiple matches, pick the longest
+      int foundLen = 0;
+      if (isType(ndx, incompFlag)) {
+        for (String[] tokenList : wordList) {
+          boolean match = true;
+          for (int j = 0; j< tokenList.length; j++) {
+            int jj = ndx + j*dir;
+            if (jj < 0 || jj >= tokens.length ||
+                ! tokenList[j].equalsIgnoreCase(tokens[jj])) {
+              match = false;
+              break;
+            }
+          }
+          if (match) {
+            if (tokenList.length > foundLen) foundLen = tokenList.length;
+          }
+        }
+      }
+
+      // If we didn't find a multiword match, see if this is flagged as a complete
+      // single word match.  If there was no completeFlag, than any single word
+      // item will be considered a match.  If no singleword match, return -1
+      if (foundLen == 0) {
+        if (completeFlag == 0 || isType(ndx, completeFlag)) foundLen = 1;
+        else return -1;
+      }
+      
+      // Compute the end (or beginning) index of what we have found and return it.
+      int endNdx = ndx + foundLen*dir;
+      if (dir < 0) endNdx++;
+      return endNdx;
+    }
   }
   
   
