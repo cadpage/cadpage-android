@@ -404,6 +404,8 @@ Wayne Newcomb (firegod412@gmail.com)(firegod12@aol.com)
 Steven Patak (spatak@gmail.com)
 %%11/30/2011
 Dan Hunsicker <dbh383@gmail.com>
+%%12/01/2011
+Brian Shatzel (animalctrl1219@gmail.com)<animalctrl1219@optonline.net> // Market problem
 %%12/08/2011
 Kristine Bell (kristinenbell@gmail.com)<kbell@laurelvfd.org> // $3
 %%12/13/2011
@@ -1243,6 +1245,18 @@ Tim Waterson (2693170994)
 John Smith (33424584534)
 Bill Stone (3428820123)
 Joan Black (3429963432)
+
+%2012/Porter EMS, IL            // Payment pending
+%%04/06/2012
+Medic 11        (2194053540)
+Medic 12        (2194055136)
+Medic 21        (2194057168)
+Medic 31        (2194059826)
+Medic 41        (2194059827)
+EMS Spare       (2194058995)
+EMS 3           (2194058218)
+Dale Lanham     (2194055168)
+Gary Atherton   (2194055167)
 
 // List of users getting credit for 2013
 $paid_2013_list

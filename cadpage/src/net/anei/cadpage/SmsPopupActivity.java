@@ -507,6 +507,20 @@ public class SmsPopupActivity extends Activity {
     return super.onContextItemSelected(item);
   }
 
+  /**
+   * Back key pressed
+   */
+  @Override
+  public void onBackPressed() {
+    super.onBackPressed();
+    
+    // Clear any active notification
+    ManageNotification.clear(this);
+    
+    // Flag message acknowledgement
+    message.acknowledge(this);
+  }
+
   // The eyes-free text-to-speech library InitListener
   private final TTS.InitListener eyesFreeTtsListener = new InitListener() {
     public void onInit(int version) {
