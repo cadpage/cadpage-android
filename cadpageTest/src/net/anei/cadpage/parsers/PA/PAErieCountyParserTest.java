@@ -24,4 +24,10 @@ public class PAErieCountyParserTest {
       setParser(new PAErieCountyParser());
     }
   }
+  
+  public static class TestEnergyCare extends PAErieCountyCParserTest {
+    public TestEnergyCare() {
+      setParser(new PAErieCountyParser());
+    }
+  }
 }
