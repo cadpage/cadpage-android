@@ -18,9 +18,9 @@ Run# 17968/ 0045-A/ 09:30/ BLS/ Priority 3 / Local/ TWINBROOK MEDICAL CENTER/ 16
  */
 
 
-public class PAErieCountyEnergyCareParser extends DispatchProQAParser {
+public class PAErieCountyEmergyCareParser extends DispatchProQAParser {
   
-  public PAErieCountyEnergyCareParser() {
+  public PAErieCountyEmergyCareParser() {
     super("ERIE COUNTY", "PA",
            "SKIP TIME CALL PRI ADDR PLACE? ZIP! INFO+");
   }

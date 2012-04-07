@@ -50,6 +50,8 @@ public class TXLongviewParser extends DispatchProQAParser {
     
     if (flds.length < 6) return false;
     
+    for (int j = 0; j<flds.length; j++) flds[j] = flds[j].trim();
+    
     // Fields are tightly delimited but very loosely positioned
     // Only consistent field we can identify is a time marker, so lets find it
     int timeLine = -1;

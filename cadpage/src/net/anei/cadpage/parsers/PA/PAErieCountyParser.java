@@ -8,7 +8,7 @@ public class PAErieCountyParser extends GroupBestParser {
     super(new PAErieCountyAParser(), 
           new PAErieCountyBParser(), 
           new PAErieCountyCParser(),
-          new PAErieCountyEnergyCareParser());
+          new PAErieCountyEmergyCareParser());
   }
   
   
