@@ -36,6 +36,9 @@ Contact: "cdlj6286@yahoo.com" <cdlj6286@yahoo.com>
 Sender: dispatch@sheriff.us
 Subject:MSP CAD\n22:26 *SINGLE COMPANY ; 12082 HANOVER RD ; C/T/V Hanover ; HC1 ; Donna Bartelo ; power lines arcing on a pole, in front of \r
 
+Contact: Allen Koczwara <akoczwara@gmail.com>
+CHAUTAUQUA_COUNTY_SHERIFF (MSP CAD) 19:42 *EMS CALL ; 3711 RT5 46D3 ; C/T/V Dunkirk_T ; ED4 ; ; mother is at lot 46D3, DIB. ; R111 WCA1
+
 */
 
 
@@ -88,6 +91,15 @@ public class NYChautauquaCountyParser extends FieldProgramParser {
     return "SRC TIME " + super.getProgram();
   }
   
+  // City field must remove trailing _T
+  private class MyCityField extends CityField {
+    @Override
+    public void parse(String field, Data data) {
+      if (field.endsWith("_T")) field = field.substring(0,field.length()-2).trim();
+      super.parse(field, data);
+    }
+  }
+  
   // Name field needs to remove trailing commas
   private class MyUnitField extends UnitField {
 
@@ -107,6 +119,7 @@ public class NYChautauquaCountyParser extends FieldProgramParser {
 
   @Override
   protected Field getField(String name) {
+    if (name.equals("CITY")) return new MyCityField();
     if (name.equals("UNIT")) return new MyUnitField();
     return super.getField(name);
   }
