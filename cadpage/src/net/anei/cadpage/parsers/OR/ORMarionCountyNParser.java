@@ -60,6 +60,10 @@ Contact: Megan Patterson <iputfiresout@gmail.com>
 Contact: Barb <firegroundleader@hotmail.com>
 Sender: trex@ci.woodburn.or.us 
  : / FALL:  653:E:PINE:ST:::::4430:MD2,R81,:FALL SEMI CON 15YRM NO BLEEDING:20120202:210913
+ 
+Contact: Fred Bridgehouse <bridgehousefred@gmail.com>
+Sender: dispatch@ci.woodburn.or.us
+(Incident) STRC F:10509 S WILDCAT RD, CLACKAMAS COUNTY::::R484, T419, T489, E435, E485, E495, D411, TIME1, MOLALLA-E82, MOLALLA-TND82, SVFSTAFF:NORTH OF
 
 */
 
@@ -70,14 +74,14 @@ public class ORMarionCountyNParser extends FieldProgramParser {
   
   public ORMarionCountyNParser() {
     super(CITY_LIST, "MARION COUNTY", "OR",
-           "CALL ADDR1 ADDR1 ADDR1 ADDR1 ( CITY | APT ) ADDR2 ADDR2 ADDR2 MAP UNIT INFO");
+           "CALL ( ADDRCITY ( CITY | APT ) X | ADDR1 ADDR1 ADDR1 ADDR1 ( CITY | APT ) ADDR2 ADDR2 ADDR2 ) MAP UNIT INFO");
   }
   
   private String address[] = new String[2];
   
   @Override
   public String getFilter() {
-    return "trex@ci.woodburn.or.us,600500";
+    return "@ci.woodburn.or.us,600500";
   }
 
   @Override
@@ -92,7 +96,12 @@ public class ORMarionCountyNParser extends FieldProgramParser {
     address[0] = address[1] = "";
     if (! parseFields(body.split(":"), data)) return false;
     
-    data.strAddress = append(address[0], " & ", address[1]);
+    int pt = address[0].indexOf(',');
+    if (pt >= 0) {
+      data.strCity = address[0].substring(0,pt).trim();
+      address[0] = address[0].substring(0,pt).trim();
+    }
+    parseAddress(append(address[0], " & ", address[1]), data);
     return true;
   }
   
