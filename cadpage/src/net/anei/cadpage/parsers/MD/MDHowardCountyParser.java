@@ -1,6 +1,8 @@
 package net.anei.cadpage.parsers.MD;
 
 import java.util.Properties;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
@@ -21,6 +23,32 @@ Sender: Rc.261@c-msg.net
 [CAD] 14101 HOWARD RD DYTN: @SMITH RESIDENCE TYPE: MEDICAL-*********** @ 08:30:53 BEAT/BOX: 0545
 (CAD) [CAD] EVENT: F11023456 7110 MINSTREL WAY ECOL: @BRIGHTON GARDENS TYPE: SMOKE-INSIDE/HIGHOCC @ 10:38:22 BEAT/BOX: 1034
 (CAD) [CAD] EVENT: F11023457 RT 29 SB/RIVERS EDGE RD SCOL TYPE: RESCUE--UNKNOW @ 10:56:54 BEAT/BOX: 029086
+
+Contact: support@ctive911.com
+Sender: rc.446@c-msg.net
+(hCAD) [!] EVENT: F12009425 10162 BRACKEN DR ECW: @LEE RESIDENCE: @GLANCEY RESIDENCE TYPE: MEDICAL-ALSA/PD-HOT @ 01:16:08 BEAT/BOX: 0810
+(hCAD) [!] EVENT: F12009429 8789 FREDERICK RD EC TYPE: MEDICAL-ALSA-HOT @ 03:26:18 BEAT/BOX: 0212
+(hCAD) [!] EVENT: F12009429 8789 FREDERICK RD EC TYPE: MEDICAL-*********** @ 03:26:18 BEAT/BOX: 0212
+(hCAD) [!] EVENT: F12009443 3004 NORTH RIDGE RD EC,H217: @HEARTLANDS COMM CTR & ASST LVG TYPE: MEDICAL-*********** @ 09:36:10 BEAT/BOX: 0241
+(hCAD) [!] EVENT: F12009444 8450 BALTIMORE NATIONAL PK WB EC: @NORMANDY SHOPPING CENTER TYPE: CHECK-ALS/PD-COLD @ 09:38:57 BEAT/BOX: 0243
+(hCAD) [!] EVENT: F12009444 8450 BALTIMORE NATIONAL PK WB EC: @NORMANDY SHOPPING CENTER TYPE: CHECK-ALS/PD-COLD @ 09:38:57 BEAT/BOX: 0243
+(hCAD) [!] EVENT: F12009454 MARYLAND AVE/SAINT PAUL ST EC TYPE: LOCKV-ANIMAL @ 11:19:38 BEAT/BOX: 0214
+(hCAD) [!] EVENT: F12009456 8766 CLOUDLEAP CT ECOL,T3 TYPE: MEDICAL-*********** @ 11:42:28 BEAT/BOX: 0919
+(hCAD) [!] EVENT: F12009456 8766 CLOUDLEAP CT ECOL,T3 TYPE: MEDICAL-BARIATRIC @ 11:42:28 BEAT/BOX: 0919
+(hCAD) [!] EVENT: F12009458 10300 LITTLE PATUXENT PKWY WB WCOL,D300: @SEARS TYPE: BRUSH-BRUSH @ 11:59:01 BEAT/BOX: 0701
+(hCAD) [!] EVENT: F12009459 4150 MONTGOMERY RD EC: @STATION 2 TYPE: VEHICLE-AUTO @ 12:04:50 BEAT/BOX: 0201
+(hCAD) [!] EVENT: F12009460 3675 MOUNT IDA DR EC: @TIBER HUDSON SENIOR HOUSING TYPE: ALFIRE-BUSC @ 12:09:06 BEAT/BOX: 0213
+(hCAD) [!] EVENT: F12009460 3675 MOUNT IDA DR EC: @TIBER HUDSON SENIOR HOUSING TYPE: ALFIRE-BUSC @ 12:09:06 BEAT/BOX: 0213
+(hCAD) [!] EVENT: F12009460 3675 MOUNT IDA DR EC,100: @TIBER HUDSON SENIOR HOUSING TYPE: SMOKE-INSIDE/HIGHOCC @ 12:09:06 BEAT/BOX: 0213
+(hCAD) [!] EVENT: F12009460 3675 MOUNT IDA DR EC,100: @TIBER HUDSON SENIOR HOUSING TYPE: SMOKE-INSIDE/HIGHOCC @ 12:09:06 BEAT/BOX: 0213
+(hCAD) [!] EVENT: F12009460 3675 MOUNT IDA DR EC,100: @TIBER HUDSON SENIOR HOUSING TYPE: SMOKE-INSIDE/HIGHOCC @ 12:09:06 BEAT/BOX: 0213
+(hCAD) [!] EVENT: F12009464 3290 CENTENNIAL LN ECW: @ARBYS TYPE: MISC-noPD @ 12:48:31 BEAT/BOX: 0804
+(hCAD) [!] EVENT: F12009466 BALTIMORE COUNTY CTNV: @BC4 TYPE: MUTAID-MAALS @ 13:17:25 BEAT/BOX: BC04
+(hCAD) [!] EVENT: F12009470 11185 CHAMBERS CT WDSK,A TYPE: FIRE-APPLIANCE @ 13:24:48 BEAT/BOX: 0815
+(hCAD) [!] EVENT: F12009470 11185 CHAMBERS CT WDSK,A TYPE: FIRE-APPLIANCE @ 13:24:48 BEAT/BOX: 0815
+(hCAD) [!] EVENT: F12009479 3120 WHEATON WAY EC,J TYPE: MEDICAL-*********** @ 15:16:49 BEAT/BOX: 0243
+(hCAD) [!] EVENT: F12009479 3120 WHEATON WAY EC,J TYPE: MEDICAL-ALSA-HOT @ 15:16:49 BEAT/BOX: 0243
+(hCAD) [!] EVENT: F12009491 3410 PLUMTREE DR ECW: @SHANTY GRILL TYPE: MEDICAL-*********** @ 18:10:56 BEAT/BOX: 0208
  
 */
 
@@ -39,7 +67,7 @@ public class MDHowardCountyParser extends FieldProgramParser {
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     
-    if (! subject.startsWith("CAD")) return false;
+    if (! subject.startsWith("CAD") && ! subject.startsWith("hCAD")) return false;
     return super.parseMsg(body, data);
   }
   
@@ -51,7 +79,9 @@ public class MDHowardCountyParser extends FieldProgramParser {
       if (id) field = field.substring(7).trim();
       Parser p = new Parser(field);
       if (id) data.strCallId = p.get(' ');
-      data.strPlace = p.getLastOptional(": @");
+      String sAddr = p.get(": @");
+      data.strPlace = p.get().replace(": @", " - ");
+      p = new Parser(sAddr);
       data.strApt = p.getLastOptional(',');
       super.parse(p.get(), data);
     }
@@ -62,13 +92,22 @@ public class MDHowardCountyParser extends FieldProgramParser {
     }
   }
   
+  private static final Pattern TRAIL_JUNK_PTN = Pattern.compile("-\\**$");
   private class MyCallField extends CallField {
     @Override
     public void parse(String field, Data data) {
       int pt = field.indexOf('@');
       if (pt < 0) abort();
+      data.strTime = field.substring(pt+1).trim();
       field = field.substring(0,pt).trim();
+      Matcher match = TRAIL_JUNK_PTN.matcher(field);
+      if (match.find()) field = field.substring(0,match.start()).trim();
       super.parse(field, data);
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "CALL TIME";
     }
   }
   
