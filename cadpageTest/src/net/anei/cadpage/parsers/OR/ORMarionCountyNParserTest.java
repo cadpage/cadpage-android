@@ -315,6 +315,19 @@ public class ORMarionCountyNParserTest extends BaseParserTest {
 
   }
   
+  @Test
+  public void testFredBridgehouse() {
+
+    doTest("T1",
+        "(Incident) STRC F:10509 S WILDCAT RD, CLACKAMAS COUNTY::::R484, T419, T489, E435, E485, E495, D411, TIME1, MOLALLA-E82, MOLALLA-TND82, SVFSTAFF:NORTH OF",
+        "CALL:STRC F",
+        "ADDR:10509 S WILDCAT RD",
+        "CITY:CLACKAMAS COUNTY",
+        "UNIT:R484, T419, T489, E435, E485, E495, D411, TIME1, MOLALLA-E82, MOLALLA-TND82, SVFSTAFF",
+        "INFO:NORTH OF");
+    
+  }
+  
   public static void main(String[] args) {
     new ORMarionCountyNParserTest().generateTests("T4");
   }
