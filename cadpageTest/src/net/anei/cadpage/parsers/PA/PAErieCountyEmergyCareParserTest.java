@@ -1,15 +1,15 @@
 package net.anei.cadpage.parsers.PA;
 
 import net.anei.cadpage.parsers.BaseParserTest;
-import net.anei.cadpage.parsers.PA.PAErieCountyEnergyCareParserTest;
+import net.anei.cadpage.parsers.PA.PAErieCountyEmergyCareParserTest;
 
 import org.junit.Test;
 
 
-public class PAErieCountyEnergyCareParserTest extends BaseParserTest {
+public class PAErieCountyEmergyCareParserTest extends BaseParserTest {
   
-  public PAErieCountyEnergyCareParserTest() {
-    setParser(new PAErieCountyEnergyCareParser(), "ERIE COUNTY", "PA");
+  public PAErieCountyEmergyCareParserTest() {
+    setParser(new PAErieCountyEmergyCareParser(), "ERIE COUNTY", "PA");
   }
   
   @Test
@@ -62,6 +62,6 @@ public class PAErieCountyEnergyCareParserTest extends BaseParserTest {
   }
   
   public static void main(String[] args) {
-    new PAErieCountyEnergyCareParserTest().generateTests("T1");
+    new PAErieCountyEmergyCareParserTest().generateTests("T1");
   }
 }
