@@ -1545,6 +1545,32 @@ public class FieldProgramParser extends SmartAddressParser {
     }
   }
   
+  private static final Pattern ZIP_PATTERN = Pattern.compile("\\d{5}");
+  public class ZipField extends Field {
+    
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      if (! ZIP_PATTERN.matcher(field).matches()) return false;
+      data.strCity = field;
+      return true;
+    }
+
+    @Override
+    public void parse(String field, Data data) {
+      if (!checkParse(field, data)) abort();
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "CITY";
+    }
+  }
+  
   /**
    * Field containing address and city separated by a comma
    */
@@ -2089,6 +2115,7 @@ public class FieldProgramParser extends SmartAddressParser {
     if (name.equals("PLACE")) return new PlaceField();
     if (name.equals("ADDR")) return new AddressField();
     if (name.equals("CITY")) return new CityField();
+    if (name.equals("ZIP")) return new ZipField();
     if (name.equals("ADDRCITY")) return new AddressCityField();
     if (name.equals("APT")) return new AptField();
     if (name.equals("X")) return new CrossField();

@@ -82,21 +82,30 @@ public class DispatchProQAParser extends FieldProgramParser {
     data.strCallId = body.substring(pt, pt2).trim();
 
     body = body.substring(pt2+1);
-    pt = body.indexOf("/<PROQA_DET>");
-    if (pt >= 0) body = body.substring(0,pt).trim();
     pt = body.indexOf("ProQA comments:");
     if (pt >= 0) body = body.substring(0,pt).trim();
 
     // Everything else is variable
     String[] lines = body.split("/+");
-    for (int ndx = 0; ndx < lines.length; ndx++) {
-      lines[ndx] = lines[ndx].trim();
-    }
     return parseFields(lines, data);
   }
   
   @Override
   public String getProgram() {
     return "ID " + super.getProgram();
+  }
+  
+  private class BaseInfoField extends InfoField {
+    @Override
+    public void parse(String field, Data data) {
+      if (field.equals("<PROQA_DET>")) return;
+      super.parse(field, data);
+    }
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("INFO")) return new BaseInfoField();
+    return super.getField(name);
   }
 }
