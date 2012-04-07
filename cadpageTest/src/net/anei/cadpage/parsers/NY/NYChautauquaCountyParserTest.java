@@ -172,7 +172,7 @@ public class NYChautauquaCountyParserTest extends BaseParserTest {
         "TIME:11:48",
         "CALL:EMS CALL",
         "ADDR:3878 VINEYARD DR",
-        "CITY:Dunkirk_T",
+        "CITY:Dunkirk",
         "INFO:in the back of the store, female subj is passing out. / WCA1",
         "UNIT:M111");
   }
@@ -208,6 +208,22 @@ public class NYChautauquaCountyParserTest extends BaseParserTest {
         "CITY:Hanover",
         "NAME:HC1",
         "INFO:Donna Bartelo / power lines arcing on a pole, in front of \\r");
+
+  }
+  
+  @Test
+  public void testAllenKoczwara() {
+
+    doTest("T1",
+        "CHAUTAUQUA_COUNTY_SHERIFF (MSP CAD) 19:42 *EMS CALL ; 3711 RT5 46D3 ; C/T/V Dunkirk_T ; ED4 ; ; mother is at lot 46D3, DIB. ; R111 WCA1",
+        "SRC:MSP CAD",
+        "TIME:19:42",
+        "CALL:EMS CALL",
+        "ADDR:3711 RT5 46D3",
+        "MADDR:3711 RT 5 46D3",
+        "CITY:Dunkirk",
+        "NAME:ED4",
+        "INFO:mother is at lot 46D3, DIB.");
 
   }
   
