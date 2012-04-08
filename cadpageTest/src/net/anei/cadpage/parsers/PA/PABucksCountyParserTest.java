@@ -1833,6 +1833,26 @@ public class PABucksCountyParserTest extends BaseParserTest {
         "TIME:18:47:59",
         "ID:FD1202516",
         "UNIT:E79");
+
+    doTest("T17",
+        "(Important message from Bucks County RSAN) SQ134:AFALL\n" +
+        "adr:2800 STATE RD #315 ,77 -- LUTHERAN COMMUNITY btwn:TELFO BORO LINE & AUTUMN LEA CI aai:MEADOWS APTS\n" +
+        "box:37501 map:2919H7\n" +
+        "tm:12:30:21 ED1212342\n" +
+        "Sent by mss911 Bucks to SQ134, mss911 Bucks (Voice/Fax Dialer, E-mail accounts, Pagers, Cell phones) through Bucks County RSAN",
+
+        "CALL:AFALL - FALL VICTIM - CRITICAL",
+        "BOX:37501",
+        "PLACE:LUTHERAN COMMUNITY",
+        "ADDR:2800 STATE RD",
+        "APT:315",
+        "CITY:WEST ROCKHILL TWP",
+        "X:TELFO BORO LINE & AUTUMN LEA CI",
+        "INFO:MEADOWS APTS",
+        "MAP:2919H7",
+        "TIME:12:30:21",
+        "ID:ED1212342",
+        "UNIT:SQ134");
   }
   
   @Test
@@ -1886,6 +1906,6 @@ public class PABucksCountyParserTest extends BaseParserTest {
   
   
   public static void main(String[] args) {
-    new PABucksCountyParserTest().generateTests("T17");
+    new PABucksCountyParserTest().generateTests("T1");
   }
 }
