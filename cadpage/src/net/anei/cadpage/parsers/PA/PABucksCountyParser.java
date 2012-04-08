@@ -183,6 +183,7 @@ Sender: "Bucks RSAN" <alert10965@alert.bucksema.org>
 (Important message from Bucks County RSAN) SQ134:ASEIZ\nadr:MANOR CARE HEALTH SERVICES#228,MONT TWP\naai:640 BETHLEHEM PIKE\nbox: map:\ntm:19:53:41 ED1206032\n\nSent by mss911 Bucks to SQ134, mss911 Bucks (Voice/Fax Dialer, E-mail accounts, Pagers, Cell phones) through Bucks County RSAN
 (Important message from Bucks County RSAN) SQ134:FIRCAL\nadr:SALVAGE DIRECT ,47 at 77 BRISTOL RD ,47\nbtwn:W BUTLER AV & UNAMI TL\nbox:34025 map:3033J4\ntm:22:06:32 ED1206040\n\nSent by mss911 Bucks to SQ134, mss911 Bucks (Voice/Fax Dialer, E-mail accounts, Pagers, Cell phones) through Bucks County RSAN
 [Important message from Bucks County RSAN] STA19:FALRM\nadr:1290 ALMSHOUSE RD ,29 -- GRUNDY HALL\nbtwn:TURK RD & RT 611\naai:2153434117\nbox:79057\ntm:18:47:59 FD1202516  Run: E79\nSent by mss911 Bucks to STA19, mss911 Bucks (Voice/Fax Dialer, E-mail accounts, Pagers, Cell phones) through Bucks County RSAN\n
+(Important message from Bucks County RSAN) SQ134:AFALL\nadr:2800 STATE RD #315 ,77 -- LUTHERAN COMMUNITY btwn:TELFO BORO LINE & AUTUMN LEA CI aai:MEADOWS APTS\nbox:37501 map:2919H7\ntm:12:30:21 ED1212342\nSent by mss911 Bucks to SQ134, mss911 Bucks (Voice/Fax Dialer, E-mail accounts, Pagers, Cell phones) through Bucks County RSAN
 
 
 *** OOC Mutual Aid ***
@@ -428,7 +429,7 @@ public class PABucksCountyParser extends FieldProgramParser {
   /*74*/ "WARMINSTER TWP",
   /*75*/ "WARRINGTON TWP",
   /*76*/ "WARWICK TWP",
-  /*77*/ "PENNRIDGE REGIONAL PD",
+  /*77*/ "WEST ROCKHILL TWP",
   /*78*/ "WRIGHTSTOWN TWP",
   /*79*/ "YARDLEY"
   };
