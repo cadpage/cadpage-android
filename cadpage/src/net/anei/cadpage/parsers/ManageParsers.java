@@ -163,6 +163,7 @@ public class ManageParsers {
         "ILRoscoe",           "ILWinnebagoCounty",      // 11/21/2011 
         "PADelawareCountyE",  "PADelawareCountyD",      // 12/30/2011 
         "CTRoxbury",          "CTNorthwestPublicSafety",// 03/21/2012 
+        "PAErieCountyEnergyCare", "PAErieCountyEmergyCare", //04/07/2012
   });
 
 }
