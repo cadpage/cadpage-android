@@ -22,7 +22,9 @@ public class ORMarionCountyNParserTest extends BaseParserTest {
         "MADDR:819 RAILWAY AVE",
         "MAP:3030",
         "UNIT:VTON,STAF",
-        "INFO:SAFE COM STA1@1830/APP CKS@1900 EMS@1945 STA1");
+        "INFO:SAFE COM STA1@1830/APP CKS@1900 EMS@1945 STA1",
+        "DATE:03/02/2011",
+        "TIME:17:48/58");
 
     doTest("T2",
         "[(45354]  : ) CVA: 1732::PINE:ST:9::::3029:M24,R404,D411,STAF,N7,:35 Y M C/B/A LEFT SIDE PARALYSIS:20110223:110234",
@@ -32,7 +34,9 @@ public class ORMarionCountyNParserTest extends BaseParserTest {
         "APT:9",
         "MAP:3029",
         "UNIT:M24,R404,D411,STAF,N7",
-        "INFO:35 Y M C/B/A LEFT SIDE PARALYSIS");
+        "INFO:35 Y M C/B/A LEFT SIDE PARALYSIS",
+        "DATE:02/23/2011",
+        "TIME:11:02/34");
 
     doTest("T3",
         "[(47486]  : ) STRC:::ABIQUA:RD:::HW 213::2833:E435,E485,E405,E415,D411,T489,T418,T419,R484,PGE,TIME,STAF,N7,:LARGE FLAMES APPX 2 MILES EAST:20110226:183324",
@@ -42,7 +46,9 @@ public class ORMarionCountyNParserTest extends BaseParserTest {
         "MADDR:ABIQUA RD & HWY 213",
         "MAP:2833",
         "UNIT:E435,E485,E405,E415,D411,T489,T418,T419,R484,PGE,TIME,STAF,N7",
-        "INFO:LARGE FLAMES APPX 2 MILES EAST");
+        "INFO:LARGE FLAMES APPX 2 MILES EAST",
+        "DATE:02/26/2011",
+        "TIME:18:33/24");
 
     doTest("T4",
         "[(48144]  : ) SICK: 5024::CROOKED FINGER:RD:::::3340:E485,D411,:75YOM C/B/A DIZZY:20110228:043844",
@@ -51,7 +57,9 @@ public class ORMarionCountyNParserTest extends BaseParserTest {
         "ADDR:5024 CROOKED FINGER RD",
         "MAP:3340",
         "UNIT:E485,D411",
-        "INFO:75YOM C/B/A DIZZY");
+        "INFO:75YOM C/B/A DIZZY",
+        "DATE:02/28/2011",
+        "TIME:04:38/44");
 
     doTest("T5",
         "[(50323]  : ) BREA:12884::MASCHER:RD:::::3230:E415,D411,STAF,:85YOF C/A/SOB FAST HEART RATE/150:20110303:140259",
@@ -60,7 +68,9 @@ public class ORMarionCountyNParserTest extends BaseParserTest {
         "ADDR:12884 MASCHER RD",
         "MAP:3230",
         "UNIT:E415,D411,STAF",
-        "INFO:85YOF C/A/SOB FAST HEART RATE/150");
+        "INFO:85YOF C/A/SOB FAST HEART RATE/150",
+        "DATE:03/03/2011",
+        "TIME:14:02/59");
 
     doTest("T6",
         "[(50791]  : ) FALL:  930::OAK:ST:130::::3031:M23,R404,D411,N7,:99YOF C/A/B GLF R HIP PAIN:20110304:073911",
@@ -70,7 +80,9 @@ public class ORMarionCountyNParserTest extends BaseParserTest {
         "APT:130",
         "MAP:3031",
         "UNIT:M23,R404,D411,N7",
-        "INFO:99YOF C/A/B GLF R HIP PAIN");
+        "INFO:99YOF C/A/B GLF R HIP PAIN",
+        "DATE:03/04/2011",
+        "TIME:07:39/11");
 
     doTest("T7",
         "[(52678]  : ) ALM: 1106::PINE:ST:::::3030:E405,D411,N7,:CO2 DETECTOR ALRM AT COMM LOC:20110306:215554",
@@ -79,7 +91,9 @@ public class ORMarionCountyNParserTest extends BaseParserTest {
         "ADDR:1106 PINE ST",
         "MAP:3030",
         "UNIT:E405,D411,N7",
-        "INFO:CO2 DETECTOR ALRM AT COMM LOC");
+        "INFO:CO2 DETECTOR ALRM AT COMM LOC",
+        "DATE:03/06/2011",
+        "TIME:21:55/54");
 
     doTest("T8",
         "[(52806]  : ) UNC: 5870::VALLEY VIEW:RD:::::3032:M24,R404,D411,N7,:65YOM UNC/NOT BREA:20110307:073728",
@@ -88,7 +102,9 @@ public class ORMarionCountyNParserTest extends BaseParserTest {
         "ADDR:5870 VALLEY VIEW RD",
         "MAP:3032",
         "UNIT:M24,R404,D411,N7",
-        "INFO:65YOM UNC/NOT BREA");
+        "INFO:65YOM UNC/NOT BREA",
+        "DATE:03/07/2011",
+        "TIME:07:37/28");
 
     doTest("T9",
         "[(53886]  : ) MISC:12622::SILVERTON:RD:::::3030:E415,D411,N7,:FLAMES SEEN FROM FIELD NEAR BY:20110308:190734",
@@ -97,7 +113,9 @@ public class ORMarionCountyNParserTest extends BaseParserTest {
         "ADDR:12622 SILVERTON RD",
         "MAP:3030",
         "UNIT:E415,D411,N7",
-        "INFO:FLAMES SEEN FROM FIELD NEAR BY");
+        "INFO:FLAMES SEEN FROM FIELD NEAR BY",
+        "DATE:03/08/2011",
+        "TIME:19:07/34");
 
     doTest("T10",
         "[(53944]  : ) SUIC: 1418::PINE:ST:D::::3030:M24,R404,D411,N7,:64YOF/C/B/SUIC ATTEMPT, SLASHED WRISTS:20110308:194443",
@@ -107,7 +125,9 @@ public class ORMarionCountyNParserTest extends BaseParserTest {
         "APT:D",
         "MAP:3030",
         "UNIT:M24,R404,D411,N7",
-        "INFO:64YOF/C/B/SUIC ATTEMPT, SLASHED WRISTS");
+        "INFO:64YOF/C/B/SUIC ATTEMPT, SLASHED WRISTS",
+        "DATE:03/08/2011",
+        "TIME:19:44/43");
 
     doTest("T11",
         "[(54072]  : ) MVA:  918:N:FIRST:ST:::::3031:E405,E435,R404,D411,M23,N7,:ONE VEH ROLLOVER IFO ROTHS STORE:20110309:022055",
@@ -116,7 +136,9 @@ public class ORMarionCountyNParserTest extends BaseParserTest {
         "ADDR:918 N FIRST ST",
         "MAP:3031",
         "UNIT:E405,E435,R404,D411,M23,N7",
-        "INFO:ONE VEH ROLLOVER IFO ROTHS STORE");
+        "INFO:ONE VEH ROLLOVER IFO ROTHS STORE",
+        "DATE:03/09/2011",
+        "TIME:02:20/55");
 
     doTest("T12",
         "[(45886]  : ) MVA:::CASCADE:HW:::STATE:ST:3630:E425,D411,R404,M31,SBLE,SBLR,PGE,E415,LAW,N7,:SINGLE VEH ROLLOVER/ENTRAPMENT, NO INJ:20110224:063549",
@@ -126,7 +148,9 @@ public class ORMarionCountyNParserTest extends BaseParserTest {
         "MADDR:CASCADE HWY & STATE ST",
         "MAP:3630",
         "UNIT:E425,D411,R404,M31,SBLE,SBLR,PGE,E415,LAW,N7",
-        "INFO:SINGLE VEH ROLLOVER/ENTRAPMENT, NO INJ");
+        "INFO:SINGLE VEH ROLLOVER/ENTRAPMENT, NO INJ",
+        "DATE:02/24/2011",
+        "TIME:06:35/49");
 
     doTest("T13",
         "((56873) : ) MISC: 8170::CASCADE:HW:::::2733:E485,D411,N7,:POWER LINE DOWN W/LARGE TREE BLKING:20110313:152421",
@@ -136,7 +160,9 @@ public class ORMarionCountyNParserTest extends BaseParserTest {
         "MADDR:8170 CASCADE HWY",
         "MAP:2733",
         "UNIT:E485,D411,N7",
-        "INFO:POWER LINE DOWN W/LARGE TREE BLKING");
+        "INFO:POWER LINE DOWN W/LARGE TREE BLKING",
+        "DATE:03/13/2011",
+        "TIME:15:24/21");
 
     doTest("T14",
         "((56971) : ) AOA:34000:S:ELLIS:RD:::::2737:E485,N7,:LARGE TREE ONTO HOUSE/UNK FURTHER:20110313:154421",
@@ -145,7 +171,9 @@ public class ORMarionCountyNParserTest extends BaseParserTest {
         "ADDR:34000 S ELLIS RD",
         "MAP:2737",
         "UNIT:E485,N7",
-        "INFO:LARGE TREE ONTO HOUSE/UNK FURTHER");
+        "INFO:LARGE TREE ONTO HOUSE/UNK FURTHER",
+        "DATE:03/13/2011",
+        "TIME:15:44/21");
 
     doTest("T15",
         "((57141) : ) UNC: 3351::SEMINOLE:RD:::::3234:M24,R404,D411,N7,:86 YOF UNC/DIFF B/NOT ALERT:20110313:203929",
@@ -154,7 +182,9 @@ public class ORMarionCountyNParserTest extends BaseParserTest {
         "ADDR:3351 SEMINOLE RD",
         "MAP:3234",
         "UNIT:M24,R404,D411,N7",
-        "INFO:86 YOF UNC/DIFF B/NOT ALERT");
+        "INFO:86 YOF UNC/DIFF B/NOT ALERT",
+        "DATE:03/13/2011",
+        "TIME:20:39/29");
 
     doTest("T16",
         "((57514) : ) UNC:  728:W:MAIN:ST:::::3030:M24,R404,D411,STAF,N7,:74 YOM IN SEIZ:20110314:124736",
@@ -163,7 +193,9 @@ public class ORMarionCountyNParserTest extends BaseParserTest {
         "ADDR:728 W MAIN ST",
         "MAP:3030",
         "UNIT:M24,R404,D411,STAF,N7",
-        "INFO:74 YOM IN SEIZ");
+        "INFO:74 YOM IN SEIZ",
+        "DATE:03/14/2011",
+        "TIME:12:47/36");
 
     doTest("T17",
         "((57903) : ) MVA:::MT ANGEL:HW:::HOBART:RD:2929:E405,R404,M24,D411,LAW,STAF,N7,:2 VEH MVA/ELDERLY",
@@ -182,7 +214,9 @@ public class ORMarionCountyNParserTest extends BaseParserTest {
         "ADDR:173 STEELHAMMER RD",
         "MAP:3031",
         "UNIT:M24,R404,D411,STAF,N7",
-        "INFO:93YOF C/A/B HX OF CVA/NOT ABLE TO SPEAK");
+        "INFO:93YOF C/A/B HX OF CVA/NOT ABLE TO SPEAK",
+        "DATE:03/16/2011",
+        "TIME:10:39/35");
 
     doTest("T19",
         "((58975) : ) PBLC:  206::WESTFIELD:ST:::::3030:E415,D411,STAF,N7,:REQ D411 RESPOND W/LADDER TO GET IN WINDOW:20110316:141622",
@@ -191,7 +225,9 @@ public class ORMarionCountyNParserTest extends BaseParserTest {
         "ADDR:206 WESTFIELD ST",
         "MAP:3030",
         "UNIT:E415,D411,STAF,N7",
-        "INFO:REQ D411 RESPOND W/LADDER TO GET IN WINDOW");
+        "INFO:REQ D411 RESPOND W/LADDER TO GET IN WINDOW",
+        "DATE:03/16/2011",
+        "TIME:14:16/22");
 
     doTest("T20",
         "((4287) : ) MVA:::STATE:ST:::CASCADE:HW:3630:E425,D411,R404,M24,E52,R484,PGE,E415,LAW,N7,:1 MVA/POSS INJ/NOT BLOCKING:20111003:205247",
@@ -201,7 +237,9 @@ public class ORMarionCountyNParserTest extends BaseParserTest {
         "MADDR:STATE ST & CASCADE HWY",
         "MAP:3630",
         "UNIT:E425,D411,R404,M24,E52,R484,PGE,E415,LAW,N7",
-        "INFO:1 MVA/POSS INJ/NOT BLOCKING");
+        "INFO:1 MVA/POSS INJ/NOT BLOCKING",
+        "DATE:10/03/2011",
+        "TIME:20:52/47");
 
   }
   
@@ -215,7 +253,9 @@ public class ORMarionCountyNParserTest extends BaseParserTest {
         "ADDR:10581 SARATOGA DR",
         "MAP:2628",
         "UNIT:R454,M23,N3",
-        "INFO:65 YOF C/B/A LEG PAIN FROM FALL FROM FARM EQ");
+        "INFO:65 YOF C/B/A LEG PAIN FROM FALL FROM FARM EQ",
+        "DATE:07/28/2011",
+        "TIME:22:04/53");
 
     doTest("T2",
         "(13523) :  /  UNC:  830:N:MAIN:ST:9::::2530:R454,M22,:77YOM UNC/NOT RESP:20110728:114333\n",
@@ -225,7 +265,9 @@ public class ORMarionCountyNParserTest extends BaseParserTest {
         "APT:9",
         "MAP:2530",
         "UNIT:R454,M22",
-        "INFO:77YOM UNC/NOT RESP");
+        "INFO:77YOM UNC/NOT RESP",
+        "DATE:07/28/2011",
+        "TIME:11:43/33");
 
     doTest("T3",
         "(15331) :| AOA:  141::14TH:ST:LYONS::::3030:E405,E415,N7,:REQ ENGINE TO RESPOND TO FIRE SCN:20110730:170018 \n",
@@ -235,14 +277,11 @@ public class ORMarionCountyNParserTest extends BaseParserTest {
         "CITY:LYONS",
         "MAP:3030",
         "UNIT:E405,E415,N7",
-        "INFO:REQ ENGINE TO RESPOND TO FIRE SCN");
+        "INFO:REQ ENGINE TO RESPOND TO FIRE SCN",
+        "DATE:07/30/2011",
+        "TIME:17:00/18");
 
-  }
-  
-  @Test
-  public void testParser3() {
-
-    doTest("T1",
+    doTest("T4",
         "(25615) :  /  CVA:  455:W:MARQUAM:ST:33::::2630:R454,M24,N7,:65 YOM POSS CVA  C/B/A SIDE OF FACE DROOPY:20110812:150536\n",
         "ID:25615",
         "CALL:CVA",
@@ -250,27 +289,33 @@ public class ORMarionCountyNParserTest extends BaseParserTest {
         "APT:33",
         "MAP:2630",
         "UNIT:R454,M24,N7",
-        "INFO:65 YOM POSS CVA  C/B/A SIDE OF FACE DROOPY");
+        "INFO:65 YOM POSS CVA  C/B/A SIDE OF FACE DROOPY",
+        "DATE:08/12/2011",
+        "TIME:15:05/36");
 
-    doTest("T2",
+    doTest("T5",
         "((2463) : ) UNC:20510::BOONES FERRY:RD:::::1530:R903,M21,N1,:22YOF C/DIFF B/SEMI ALERT:20110929:064217",
         "ID:2463",
         "CALL:UNC",
         "ADDR:20510 BOONES FERRY RD",
         "MAP:1530",
         "UNIT:R903,M21,N1",
-        "INFO:22YOF C/DIFF B/SEMI ALERT");
+        "INFO:22YOF C/DIFF B/SEMI ALERT",
+        "DATE:09/29/2011",
+        "TIME:06:42/17");
 
-    doTest("T3",
+    doTest("T6",
         "((836) Hi Gina ) LIFT: 4279::THIRD:ST:::::1829:E876,N3,:80 YOF C/B/A  NON INJURY LIFT ASSIST:20110930:090843",
         "ID:836",
         "CALL:LIFT",
         "ADDR:4279 THIRD ST",
         "MAP:1829",
         "UNIT:E876,N3",
-        "INFO:80 YOF C/B/A  NON INJURY LIFT ASSIST");
+        "INFO:80 YOF C/B/A  NON INJURY LIFT ASSIST",
+        "DATE:09/30/2011",
+        "TIME:09:08/43");
 
-    doTest("T4",
+    doTest("T7",
         "((339) Hi Gina ) COMM:  490:S:PACIFIC:HW:::::2127:E21,E22,E24,E875,LA21,A21,TIME,PGE,N3,:LOTS OF SMOKE COMING FROM BACK OF LOC/:20110929:222851",
         "ID:339",
         "CALL:COMM",
@@ -278,9 +323,11 @@ public class ORMarionCountyNParserTest extends BaseParserTest {
         "MADDR:490 S PACIFIC HWY",
         "MAP:2127",
         "UNIT:E21,E22,E24,E875,LA21,A21,TIME,PGE,N3",
-        "INFO:LOTS OF SMOKE COMING FROM BACK OF LOC/");
+        "INFO:LOTS OF SMOKE COMING FROM BACK OF LOC/",
+        "DATE:09/29/2011",
+        "TIME:22:28/51");
 
-    doTest("T5",
+    doTest("T8",
         "((432) Hi Gina ) SICK:  950::EVERGREEN:RD:211::::2026:M23,E22,N3,:86 YF C/B/A FEELING DIZZY:20110930:000053",
         "ID:432",
         "CALL:SICK",
@@ -288,9 +335,19 @@ public class ORMarionCountyNParserTest extends BaseParserTest {
         "APT:211",
         "MAP:2026",
         "UNIT:M23,E22,N3",
-        "INFO:86 YF C/B/A FEELING DIZZY");
+        "INFO:86 YF C/B/A FEELING DIZZY",
+        "DATE:09/30/2011",
+        "TIME:00:00/53");
 
-    doTest("T6",
+    doTest("T9",
+        "((2319) Hi Gina ) MED NO :1285 TIERRA LYNN DR    :    Map:2028 :20YOM C/DIFF B/A FEVER LOW HEMOGLOBIN :09/28/2011 :20:24 :",
+        "ID:2319",
+        "CALL:MED NO",
+        "ADDR:1285 TIERRA LYNN DR Map 2028 20YOM C & DIFF B & A FEVER LOW HEMOGLOBIN & 20 24",
+        "MADDR:1285 TIERRA LYNN DR Map 2028 20YOM C",
+        "APT:09/28/2011");
+
+    doTest("T10",
         "(639) :  / SICK:25496:S:HW 99E::::::1433:R903,OPPS,N1,:65YOM C/A/B DIZZY,SWEATING,:20110930:070050\n",
         "ID:639",
         "CALL:SICK",
@@ -298,21 +355,19 @@ public class ORMarionCountyNParserTest extends BaseParserTest {
         "MADDR:25496 S HWY 99E",
         "MAP:1433",
         "UNIT:R903,OPPS,N1",
-        "INFO:65YOM C/A/B DIZZY,SWEATING,");
+        "INFO:65YOM C/A/B DIZZY,SWEATING,",
+        "DATE:09/30/2011",
+        "TIME:07:00/50");
 
-  }
-  
-  @Test
-  public void testParser4() {
-
-    doTest("T1",
+    doTest("T11",
         " : / FALL:  653:E:PINE:ST:::::4430:MD2,R81,:FALL SEMI CON 15YRM NO BLEEDING:20120202:210913",
         "CALL:FALL",
         "ADDR:653 E PINE ST",
         "MAP:4430",
         "UNIT:MD2,R81",
-        "INFO:FALL SEMI CON 15YRM NO BLEEDING");
-
+        "INFO:FALL SEMI CON 15YRM NO BLEEDING",
+        "DATE:02/02/2012",
+        "TIME:21:09/13");
   }
   
   @Test
@@ -329,6 +384,6 @@ public class ORMarionCountyNParserTest extends BaseParserTest {
   }
   
   public static void main(String[] args) {
-    new ORMarionCountyNParserTest().generateTests("T4");
+    new ORMarionCountyNParserTest().generateTests("T1");
   }
 }
