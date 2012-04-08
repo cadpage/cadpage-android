@@ -88,7 +88,8 @@ public class CadPageWidget extends AppWidgetProvider {
       views.setViewVisibility(R.id.widget_button_popup,View.INVISIBLE );
       views.setViewVisibility(R.id.widget_text_newcalls, View.INVISIBLE);
     }
-    int newCallCount = SmsMessageQueue.getInstance().getNewCallCount();
+    SmsMessageQueue instance = SmsMessageQueue.getInstance();
+    int newCallCount = (instance == null ? 0 : instance.getNewCallCount());
     views.setTextViewText(R.id.widget_text_newcalls, Integer.toString(newCallCount));
     appWidgetManager.updateAppWidget(appWidgetIds, views);
   }
