@@ -45,6 +45,10 @@ Contact: Bob Tripp <btripp2003@gmail.com>
 Sender: 777147513270
 GENESEE COUNTY DISPATCH Alarm Fire ** College Village** 8170 BATAVIA STAFFORD TOWNLINE RD , BATAVIA - C 102 ** COMMERCIAL FIRE ALARM ** ASSEMBLYMAN R. STEPHEN HAWLEY DR / BYRON RD ** 03/20/12 21:11 ** 2012-00000064 ** TXT STOP to opt-out
 
+Contact: Brian S <sabrefan7bs@gmail.com>
+Sender: 777143485475
+GENESEE COUNTY DISPATCH Unit:451 Status:Dispatched Fire Mutual Aid ** * 157 ASPEN ST , NEWSTEAD - ** STANDBY TANKERS IN YOUR HALL ** ** 03/31/12 14:44 ** 2012-00000055 ** TXT STOP to opt-out\r
+
 Contact: support@active911.com
 [Dispatch] Unit:EP57 Status:Dispatched EMD Alpha ** JIM'S SALOON** 2677 W  MAIN STREET RD , BATAVIA - ** 45 YO MALE FALLEN WITH BACK INJURY ** EAST AVE / HARTSHORN RD ** 04/01/12 02:37 ** 2012-00006425 **\nCONFIDENTIALITY NOTICE:  The information contained in this message and any documents, files, previous messages or other information attached to it, may be privileged, confidential and protected from disclosure. If the reader of this message is not the intended recipient(s), you are hereby notified that any dissemination, distribution, or copying of this communication is strictly prohibited. If you have received this communication in error, please notify us immediately by replying to the message and deleting it from your computer.�  \n
 [Dispatch] Unit:601 Status:Dispatched EMD Omega ** ** 3445 PRATT RD , BATAVIA - ** LIFTING ASSISTANCE  ** KELSEY RD / MILLER RD ** 04/01/12 14:59 ** 2012-00000082 **\nCONFIDENTIALITY NOTICE:  The information contained in this message and any documents, files, previous messages or other information attached to it, may be privileged, confidential and protected from disclosure. If the reader of this message is not the intended recipient(s), you are hereby notified that any dissemination, distribution, or copying of this communication is strictly prohibited. If you have received this communication in error, please notify us immediately by replying to the message and deleting it from your computer.�  \n
@@ -113,6 +117,9 @@ public class NYGeneseeCountyParser extends FieldProgramParser {
     
     @Override
     public boolean checkParse(String field, Data data) {
+      
+      // remove leading asterisk
+      if (field.startsWith("*")) field = field.substring(1).trim();
       
       // If field contains comma, parse as address and cross / city
       String sApt = "";
