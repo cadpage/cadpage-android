@@ -12,23 +12,6 @@ public class NYGeneseeCountyParserTest extends BaseParserTest {
   }
   
   @Test
-  public void testProblem() {
-
-    doTest("T1",
-        "GENESEE COUNTY DISPATCH Unit:251 Status:Dispatched Acc PIAA ** BANK STREET RD , ASSEMBLYMAN R. STEPHEN HAWLEY DR BATAVIA - ** 3 CAR MVA ** ** 01/19/12 11:07",
-        "UNIT:251",
-        "CALL:Acc PIAA",
-        "ADDR:BANK STREET RD",
-        "MADDR:BANK STREET RD & ASSEMBLYMAN R STEPHEN HAWLEY DR",
-        "CITY:BATAVIA",
-        "INFO:3 CAR MVA",
-        "X:ASSEMBLYMAN R STEPHEN HAWLEY DR",
-        "DATE:01/19/12",
-        "TIME:11:07");
-
-  }
-  
-  @Test
   public void testParser() {
 
     doTest("T1",
@@ -247,7 +230,7 @@ public class NYGeneseeCountyParserTest extends BaseParserTest {
         "GENESEE COUNTY DISPATCH Unit:AX06 Status:Dispatched Fire Mutual Aid ** * <UNKNOWN> , - ** FAST TEAM TO THE HOUSE FIRE ** ** 02/09/12 10:21 ** 2012-00000027 ** TXT STOP to opt-out",
         "UNIT:AX06",
         "CALL:Fire Mutual Aid",
-        "ADDR:* <UNKNOWN>",
+        "ADDR:<UNKNOWN>",
         "INFO:FAST TEAM TO THE HOUSE FIRE",
         "DATE:02/09/12",
         "TIME:10:21",
@@ -271,6 +254,22 @@ public class NYGeneseeCountyParserTest extends BaseParserTest {
         "TIME:21:11",
         "ID:2012-00000064");
    
+  }
+  
+  @Test
+  public void testBrianS() {
+
+    doTest("T1",
+        "GENESEE COUNTY DISPATCH Unit:451 Status:Dispatched Fire Mutual Aid ** * 157 ASPEN ST , NEWSTEAD - ** STANDBY TANKERS IN YOUR HALL ** ** 03/31/12 14:44 ** 2012-00000055 ** TXT STOP to opt-out\r",
+        "UNIT:451",
+        "CALL:Fire Mutual Aid",
+        "ADDR:157 ASPEN ST",
+        "INFO:STANDBY TANKERS IN YOUR HALL",
+        "X:NEWSTEAD",
+        "DATE:03/31/12",
+        "TIME:14:44",
+        "ID:2012-00000055");
+
   }
   
   @Test
