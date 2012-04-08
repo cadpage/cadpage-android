@@ -38,12 +38,14 @@ public class SCGreenvilleCountyParser extends DispatchOSSIParser {
   private static Properties CITY_CODES = buildCodeTable(new String[]{
       "BELT", "BELTON",
       "FOUN", "FOUNTAIN INN",
+      "GRER", "GREER",
       "GRVL", "GREENVILLE",
       "HONE", "HONES PATH",
       "LAND", "LANDRUM",
       "MARI", "MARIETTA",
       "PELZ", "PELZER",
-      "TRAV", "TRAVELERS REST"
+      "TRAV", "TRAVELERS REST",
+      "TAYL", "TAYLORS"
   });
   
   public SCGreenvilleCountyParser() {
