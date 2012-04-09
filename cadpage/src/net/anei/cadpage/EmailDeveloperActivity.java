@@ -159,7 +159,8 @@ public class EmailDeveloperActivity extends Activity {
     // If configuration info requested, add that as well
     if (includeCfg) {
       ManagePreferences.addConfigInfo(context, body);
-      UserAcctManager.instance().addAccountInfo(body);
+      UserAcctManager acctMgr = UserAcctManager.instance();
+      if (acctMgr != null) acctMgr.addAccountInfo(body);
     }
     
     final String message = body.toString();
