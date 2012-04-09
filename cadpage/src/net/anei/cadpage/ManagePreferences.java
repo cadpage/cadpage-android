@@ -42,9 +42,22 @@ public class ManagePreferences {
     
     // Initialize the preference object
     prefs = new ManagePreferences(context);
+    
+    Object oldMergeOption = prefs.getPreference(R.string.pref_resp_merge_key);
+    if (oldMergeOption instanceof Boolean) {
+      String newMergeOption = ((Boolean)oldMergeOption ? "A" : "R");
+      prefs.putString(R.string.pref_resp_merge_key, newMergeOption);
+    }
 
     // Before we do anything else, see what the old preference version number was
     int oldVersion = prefs.getInt(R.string.pref_version_key, 0);
+
+    // If the old version doesn't match the current version, we need to reload
+    // the preference defaults and update the preference version
+    if (oldVersion != PREFERENCE_VERSION) {
+      PreferenceManager.setDefaultValues(context, R.xml.preferences, true);
+      prefs.putInt(R.string.pref_version_key, PREFERENCE_VERSION);
+    }
     
     // If old version was < 21, we need to reset the popup button configuration settings
     if (oldVersion < 21) {
@@ -64,14 +77,6 @@ public class ManagePreferences {
       }
     }
     
-    if (oldVersion < 23) {
-      try {
-        boolean oldMergeOption = prefs.getBoolean(R.string.pref_resp_merge_key);
-        String newMergeOption = (oldMergeOption ? "A" : "R");
-        prefs.putString(R.string.pref_resp_merge_key, newMergeOption);
-      } catch (ClassCastException ex) {}
-    }
-    
     // Ditto if is a newer parser code that has been renamed,
     String location = location();
     String newLocation = convertOldLocationCode(context, location);
@@ -88,14 +93,6 @@ public class ManagePreferences {
     
     // Set the install date if it hasn't already been set
     setInstallDate();
-
-    // Now that we've taken care of any manual corrections....
-    // If the old version doesn't match the current version, we need to reload
-    // the preference defaults and update the preference version
-    if (oldVersion != PREFERENCE_VERSION) {
-      PreferenceManager.setDefaultValues(context, R.xml.preferences, true);
-      prefs.putInt(R.string.pref_version_key, PREFERENCE_VERSION);
-    }
     
     // Finally set the application enable status
     String enableStr = (enabled() ? enableMsgType() : "");
@@ -916,6 +913,10 @@ public class ManagePreferences {
   
   private void registerListener(int resId, PreferenceChangeListener listener) {
     listenerMap.put(context.getString(resId), listener);
+  }
+  
+  protected Object getPreference(int resPrefId) {
+    return mPrefs.getAll().get(context.getString(resPrefId));
   }
   
   protected boolean getBoolean(int resPrefId) {
