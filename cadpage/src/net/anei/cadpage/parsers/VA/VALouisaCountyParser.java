@@ -22,6 +22,10 @@ Sender: 911@louisa.org
 (Incident Notification) Call#: -1542 ; EMS-Seizure ; 342 SHELTON HILL RD ; ; Box 501 ; Info:  E911 Info - Class of Service: WPH2 Special Response Info: (540) 511-701
 (Incident Notification) Call#: -2095 ; EMS-Seizure ; 172 DAVIS HWY ; DOLLAR GENERAL - MINERAL; Box 201 ; Info:  GREY VAN  3YOM SIEZING
 
+Contact: george hill <glhill1964@gmail.com>
+Sender: Dispatch@louisa.org
+Subject:Incident Notification\nCall#: -3239 ; EMS-Trauma with Injury ; 17383 JEFFERSON HWY ; ; Box 509 ; Info: \r
+
 ***/
 
 public class VALouisaCountyParser extends FieldProgramParser {
@@ -34,7 +38,7 @@ public class VALouisaCountyParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "911@louisa.org,";
+    return "911@louisa.org,Dispatch@louisa.org";
   }
   
   @Override
