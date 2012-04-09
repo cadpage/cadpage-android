@@ -4267,6 +4267,13 @@ Response Code: 6D04 ALS E120910009 06:59
 **********************************************************
 **********************************************************
 **********************************************************
+New Milford, NJ
+Contact: Active911.com
+Sender: miccom@nnjmicu.org <miccom@nnjmicu.org>
+(I-2012-000063)FDPLANE @ 636 SCHAEFER AVENUE , ORADELL BORO - PLANE CRASH INTO HOT TUB TEST TEST TEST
+(I-2012-000063)FFIRA @ 105 OLD NEW BRIDGE ROAD  , NEW MILFORD BORO - WATER FLOW ALARM AT ZANZARI'S 
+303 CANCEL: #12-0034873 New Milford Boro *745 Chestnut St Paged:15:34 Enrte:15:36 Scene:15:38 Avail:15:48 Cxl Rsn: Refused Medical Aid Code:
+(I-2012-000067)FBRSH @ 413 BOULEVARD  , NEW MILFORD BORO - 
 **********************************************************
 Baltimore County, MD? (trying North East, MD)
 Contact: Emma Schneider <ejschneider41@verizon.net>
