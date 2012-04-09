@@ -31,7 +31,9 @@ public class DeveloperToolsManager {
   public boolean isDeveloper(Context context) {
     
     // Get current user account name
-    String user = UserAcctManager.instance().getUser();
+    UserAcctManager acctMgr = UserAcctManager.instance();
+    if (acctMgr == null) return false;
+    String user = acctMgr.getUser();
     if (user == null) return false;
     
     // See if it is in our developer list
