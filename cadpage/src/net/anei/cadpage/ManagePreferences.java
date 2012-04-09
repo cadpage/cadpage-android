@@ -65,9 +65,11 @@ public class ManagePreferences {
     }
     
     if (oldVersion < 23) {
-      boolean oldMergeOption = prefs.getBoolean(R.string.pref_resp_merge_key);
-      String newMergeOption = (oldMergeOption ? "A" : "R");
-      prefs.putString(R.string.pref_resp_merge_key, newMergeOption);
+      try {
+        boolean oldMergeOption = prefs.getBoolean(R.string.pref_resp_merge_key);
+        String newMergeOption = (oldMergeOption ? "A" : "R");
+        prefs.putString(R.string.pref_resp_merge_key, newMergeOption);
+      } catch (ClassCastException ex) {}
     }
     
     // Ditto if is a newer parser code that has been renamed,
