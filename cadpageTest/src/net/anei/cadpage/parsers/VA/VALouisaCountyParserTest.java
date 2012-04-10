@@ -94,6 +94,13 @@ public class VALouisaCountyParserTest extends BaseParserTest {
         "PLACE:DOLLAR GENERAL - MINERAL",
         "BOX:201",
         "INFO:GREY VAN  3YOM SIEZING");
+
+    doTest("T11",
+        "Subject:Incident Notification\nCall#: -3239 ; EMS-Trauma with Injury ; 17383 JEFFERSON HWY ; ; Box 509 ; Info: \r",
+        "ID:3239",
+        "CALL:EMS-Trauma with Injury",
+        "ADDR:17383 JEFFERSON HWY",
+        "BOX:509");
    
   }
   

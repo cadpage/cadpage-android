@@ -70,7 +70,7 @@ public class TestManagePreferences extends ManagePreferences {
     return (String)getPreference(resPrefId);
   }
   
-  private Object getPreference(int resPrefId) {
+  protected Object getPreference(int resPrefId) {
     return getPreference(resPrefId, null);
   }
   
