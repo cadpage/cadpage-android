@@ -226,6 +226,8 @@ public class FieldProgramParser extends SmartAddressParser {
       }
       tagList = tags.toArray(new String[tags.size()]);
     }
+    
+    System.out.println(toString());
   }
   
   /**
@@ -982,7 +984,7 @@ public class FieldProgramParser extends SmartAddressParser {
           // Data field is not tagged
           // If it is the last field, check to see if it might be a truncated
           // tag for a future step.  If it is, we are finished
-          if (ndx == flds.length-1) {
+          if (ndx == flds.length-1 && curFld.length() > 0) {
             Step tStep = procStep;
             while (tStep != null) {
               if (tStep.tag != null && tStep.tag.startsWith(curFld)) {
@@ -1016,7 +1018,8 @@ public class FieldProgramParser extends SmartAddressParser {
             // with the next step in the chain
             ndx = startNdx;
             lastStep = startStep;
-            startStep = startStep.nextStep;
+            startStep = null;
+            if (succLink != null) startStep = succLink.getStep();
             
             // If this hits the end of the chain, make sure we didn't skip
             // any required fields
@@ -1098,6 +1101,26 @@ public class FieldProgramParser extends SmartAddressParser {
       if (failLink != null && failLink.getStep() != null) failLink.getStep().checkForSkips();
       
     }
+    
+    @Override
+    public String toString() {
+      return "" + hashCode() + "  " + getFieldName() + getLinkName("Succ", succLink) + getLinkName("Fail", failLink); 
+    }
+    
+    private String getFieldName() {
+      if (field == null) return "-----";
+      String name = field.getClass().getName();
+      int pt = name.lastIndexOf('$');
+      if (pt < 0) pt = name.lastIndexOf('.');
+      if (pt >= 0) name = name.substring(pt+1);
+      if (name.endsWith("Field")) name = name.substring(0,name.length()-5);
+      return name;
+    }
+    
+    private String getLinkName(String title, StepLink link) {
+      if (link == null) return "";
+      return "  " + title + ": " + link.toString();
+    }
   }
   
   /**
@@ -1134,6 +1157,11 @@ public class FieldProgramParser extends SmartAddressParser {
     public boolean exec(String[] flds, int ndx, Data data, Step lastStep) {
       if (step == null) return true;
       return step.process(flds, ndx+inc, data, lastStep);
+    }
+    
+    @Override
+    public String toString() {
+      return (step == null ? "-----" : step.hashCode()) + "/" + inc;
     }
     
   }
@@ -2150,4 +2178,14 @@ public class FieldProgramParser extends SmartAddressParser {
   
   @SuppressWarnings("serial")
   private static class FieldProgramException extends RuntimeException {};
+  
+  @Override
+  public String toString() {
+    StringBuilder sb = new StringBuilder("Start:" + startLink.toString());
+    for (Step step = startLink.getStep(); step != null; step = step.nextStep) {
+      sb.append('\n');
+      sb.append(step.toString());
+    }
+    return sb.toString();
+  }
 }

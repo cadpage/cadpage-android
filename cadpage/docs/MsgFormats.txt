@@ -4251,20 +4251,12 @@ FEM DIF BREATHING
 2nd Party, 1 Patient, 72 year(s) Female, Conscious, Breathing
 Response Code: 6D04 ALS E120910009 06:59
 **********************************************************
-Farmington, CT
-Contact: Vincenzo <vgarcia1322@comcast.net>
-Sender: pdpaging@farmington-ct.org
-1100024685 MEDICAL CALL CHARLIE RESPONSE 00088  SCOTT SWAMP RD   UM1 XXFF AMR1 111117 15:13
-
-Contact: "J. Neves" <jneves@effd.org>
-Sender: pdpaging@farmington-ct.org
-1200006652 FIRE - BRUSH FIRE 01825 FARMINGTON AVE Prem Map -  PARK POND PL/SOUTH MAIN ST  XXTH 120409 11:05\r\n\r
 **********************************************************
-New Haven, CT (alternate or replacement)
-Contact: "nemo48@sbcglobal.net" <nemo48@sbcglobal.net>
-Sender: paging@easthavenfire.com
-1100005182 ALPHA MEDICAL 00055 THOMPSON ST  Prem Map -14 PP 65 FOXON RD/GAY ST  (Prem Map -14 PP 65)\4sS5 111120 15:40
-**********************************************************
+Siskiyou County, CA
+Contact: "Kendall, Luke" <Luke.Kendall@fire.ca.gov>
+Sender: skucad@FIRE.CA.GOV
+(CAD Page) OTH, CONTROL BURN; I 5 MP SK52.78 ANDERSON GRADE @ =L(41.788893,-122.587478) ,YREKA ; ; ; X: -122 35.2486  Y: 41 47.3335;  ; Inc# 002367; Cmd: ; Tac: ; YRE-DPT CHFGRP; ; BURNING AT MP 50.5 NEAR SHASTA RIVER OFF I 5<a href="http://maps.google.com/?q=41.788893,-122.587478" /> Map
+(CAD Page) From: SKUCAD02*2 VEHICLE ACCIDENT - 1 CONFIRMED 1144, 3 SERIOUS INJURIES TRANSPORTED TO MERCY MT SHASTA - 1 COPTER ACTIVATED TO HOSPITAL - CASKU 002297
 **********************************************************
 **********************************************************
 ************  READY TO ROLL ******************************
@@ -4368,3 +4360,22 @@ Sender: 911-CENTER@williamson-tn.org
 911-CENTER:FA >FIRE ALARM 1201 BRADLEY DR XS: BOBBY DR FRANKLIN DAN WATERS Map: Grids:W,4 Cad: 2012-0000016906
 911-CENTER:MED >MEDICAL CALL 1786 MASTERS DR XS: SIGNATURE CT FRANKLIN NELSON, JACK Map: Grids:V,13 Cad: 2012-0000016869
 **********************************************************
+Farmington, CT
+Contact: Vincenzo <vgarcia1322@comcast.net>
+Sender: pdpaging@farmington-ct.org
+1100024685 MEDICAL CALL CHARLIE RESPONSE 00088  SCOTT SWAMP RD   UM1 XXFF AMR1 111117 15:13
+
+Contact: "J. Neves" <jneves@effd.org>
+Sender: pdpaging@farmington-ct.org
+1200006652 FIRE - BRUSH FIRE 01825 FARMINGTON AVE Prem Map -  PARK POND PL/SOUTH MAIN ST  XXTH 120409 11:05\r\n\r
+1200006665 FIRE - MV  00270 FARMINGTON AVE Prem Map -  TALCOTT NOTCH RD/PARK DR  EXOG UE1 XXEF 120409 15:40\r\n\r
+1200006659 FIRE - BRUSH FIRE SPIELMAN HWY/ MOUNTAIN SPRING RD\3sLC1 XXBF 120409 13:26\r\n\r
+1200006665 FIRE - MV  00270 FARMINGTON AVE Prem Map -  TALCOTT NOTCH RD/PARK DR  EXOG UE1 XXEF 120409 15:40\r\n\r
+1200006653 MEDICAL CALL BRAVO RESPONSE 00204 MAIN ST BIDWELL SQ/ROURKE PL  XXFF AMR1 120409 11:12\r\n\r
+1200006626 FIRE - SMOKE/GAS INVEST OUTSIDE 00339 MEADOW RD SOMERSBY WAY/JUDSON LA  EXSW XXFF 120409 00:12\r\n\r
+1200006038 MEDICAL CALL CHARLIE RESPONSE 00051 LITCHFIELD RD PLAINVILLE AVE/BIRCH ST  UM1 XXTH AMR1 120330 20:14\r\n\r
+**********************************************************
+New Haven, CT (alternate or replacement)
+Contact: "nemo48@sbcglobal.net" <nemo48@sbcglobal.net>
+Sender: paging@easthavenfire.com
+1100005182 ALPHA MEDICAL 00055 THOMPSON ST  Prem Map -14 PP 65 FOXON RD/GAY ST  (Prem Map -14 PP 65)\4sS5 111120 15:40

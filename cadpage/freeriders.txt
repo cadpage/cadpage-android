@@ -1224,6 +1224,8 @@ Jeremy Emph (csvff69@gmail.com)(csvff69@aol.com) // $15
 %%04/08/2012
 "McLean, Scott" (mclean5522@gmail.com)<Scott.McLean@fire.ca.gov> // Butte County, CA
 Joshua VanSteenburg(jvansteenburg1985@gmail.com)
+%%04/09/2012
+Levon Ellian (MCP2461@aol.com)
 
 // *** Insert Paid Users here ***
 %2012/Pennfield FD //chief@pennfieldtwp.com  - {Payment Pending)
@@ -1255,7 +1257,7 @@ Joan Black (3429963432)
 %2012/Porter EMS, IL            // Payment pending
 %%04/06/2012
 Medic 11        (2194053540)
-Medic 12        (2194055136)
+Medic 12        (2194055126)
 Medic 21        (2194057168)
 Medic 31        (2194059826)
 Medic 41        (2194059827)
@@ -1732,7 +1734,7 @@ jack trego <tregojack@gmail.com>
 Ed Woods <ewoods8393@gmail.com>
 Drew Pruitt <dpruitt603@gmail.com>
 %%03/05/2012
-Cathleen Kloczkowski <cat.kloczowski@gmail.com>
+Cathleen Kloczkowski (catems2@gmail.com)<cat.kloczowski@gmail.com>
 %%03/06/2012
 Emma Schneider (airygirl52@gmail.com)<ejschneider41@verizon.net>
 "lamar_sauder@yahoo.com" (lsauder512@gmail.com)<lamar_sauder@yahoo.com>
@@ -1891,7 +1893,6 @@ troy hagy <troyhpc@gmail.com>
 Bruce Reiersen <breiersen135@gmail.com>
 %04/08/2012
 Mike (firefighter3198@gmail.com)<mluczak_14@msn.com>
-
 "ffemtmike31@aol.com" (ffemtmike31@gmail.com)<ffemtmike31@aol.com>
 Tim Seyfert (officertimmay73@gmail.com)<timscadpage@yahoo.com>
 Michael Berg <mpberg2@gmail.com>
@@ -1899,4 +1900,9 @@ Michael Berg <mpberg2@gmail.com>
 Jeff Oldenburg <jeffoldenburg@gmail.com>
 Will Smart <dfmsmart@gmail.com>
 
+Barry lotts <barrylotts@gmail.com>
+Chris Sweeney <chrissweeney50@gmail.com>
+%%04/10/2012
+Bob Harris <harrisbs180@gmail.com>
+Justin Martin <justin03martin@gmail.com>
 
