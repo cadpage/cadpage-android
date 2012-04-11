@@ -53,15 +53,83 @@ public class PAErieCountyEmergyCareParserTest extends BaseParserTest {
         "TIME:09:30",
         "CALL:BLS",
         "PRI:3",
-        "ADDR:Local",
-        "MADDR:TWINBROOK MEDICAL CENTER,Local",
-        "PLACE:TWINBROOK MEDICAL CENTER",
+        "ADDR:TWINBROOK MEDICAL CENTER",
         "CITY:16511",
         "INFO:east 212 / UPMC HAMOT MEDICAL CENTER / wound clinic for md meritz / med nec for crew / ms pt sacreal wounds nsa / LAST NAME / FIRST NAME / X=PRIESTLEY&NAPIER");
-   
+
+    doTest("T5",
+        "Run# 19857/ 0095-A/ 10:51/ BLS/ Priority 1/ 531 E 12TH ST/ 16503/ DOWNSTAIRS/ <PROQA_DET>/ SAINT VINCENT HEALTH CENTER/ BLS P1; 21 year old/ Male/ Conscious/ Breathing. Hemorrhage/ Lacerations. SERIOUS hemorrhage. EMD: 21B2/ ECDOPS: 2012-39719/ <Unknown>/ X=Wallace St&Ash St",
+        "ID:19857",
+        "TIME:10:51",
+        "CALL:BLS",
+        "PRI:1",
+        "ADDR:531 E 12TH ST",
+        "CITY:16503",
+        "INFO:DOWNSTAIRS / SAINT VINCENT HEALTH CENTER / BLS P1; 21 year old / Male / Conscious / Breathing. Hemorrhage / Lacerations. SERIOUS hemorrhage. EMD: 21B2 / ECDOPS: 2012-39719 / <Unknown> / X=Wallace St&Ash St");
+
+    doTest("T6",
+        "Run# 19859/ 0096-A/ 10:58/ Paramedic Intercept/ Priority 1/ 10906 LAKE RD/ 16428/ <PROQA_DET>/ DISORIENTED PERSON/ ASSIST CRESCENT/ <Unknown>/ X=N Mill St",
+        "ID:19859",
+        "TIME:10:58",
+        "CALL:Paramedic Intercept",
+        "PRI:1",
+        "ADDR:10906 LAKE RD",
+        "CITY:16428",
+        "INFO:DISORIENTED PERSON / ASSIST CRESCENT / <Unknown> / X=N Mill St");
+
+    doTest("T7",
+        "Run# 19866/ 0100-A/ 11:20/ BLS/ Priority 2/ 2912 COCHRAN ST/ 16508/ STAGE AWAY/ <PROQA_DET>/ BLS P1 / LAW; 40 year old/ Female/ Conscious/ Breathing. Psychiatric / AbnormalBehavior / Suicide Attempt. Non-SERIOUS or MINOR hemorrhage (Violent). EMD: 25B2V/ ECDOPS: 2012-39726/ <Unknown>/ X=W 31st St&W 29th St",
+        "ID:19866",
+        "TIME:11:20",
+        "CALL:BLS",
+        "PRI:2",
+        "ADDR:2912 COCHRAN ST",
+        "CITY:16508",
+        "INFO:STAGE AWAY / BLS P1 / LAW; 40 year old / Female / Conscious / Breathing. Psychiatric / AbnormalBehavior / Suicide Attempt. Non-SERIOUS or MINOR hemorrhage (Violent). EMD: 25B2V / ECDOPS: 2012-39726 / <Unknown> / X=W 31st St&W 29th St");
+
+    doTest("T8",
+        "Run# 19872/ 0104-A/ 11:44/ BLS W/ALS ASSIST/ Priority 1/ 1042 E 11TH ST/ 16503/ WITH ENGINE 8/ <PROQA_DET>/ BLS P1 / ALS P1; 38 year old/ Male/ Conscious/ Breathing. Chest Pain (Non-Traumatic). Abnormal breathing. EMD: 10C1/ ECDOPS: 2012-39737/ <Unknown>/ X=Pennsylvania Ave&Brewster St",
+        "ID:19872",
+        "TIME:11:44",
+        "CALL:BLS W / ALS ASSIST",
+        "PRI:1",
+        "ADDR:1042 E 11TH ST",
+        "CITY:16503",
+        "INFO:WITH ENGINE 8 / BLS P1 / ALS P1; 38 year old / Male / Conscious / Breathing. Chest Pain (Non-Traumatic). Abnormal breathing. EMD: 10C1 / ECDOPS: 2012-39737 / <Unknown> / X=Pennsylvania Ave&Brewster St");
+
+    doTest("T9",
+        "Run# 19860/ 0098-A/ 11:01/ ALS/ Priority 1/ DIALYSIS CENTER OF ERIE/ 16502/ LOBBY/ <PROQA_DET>/ BLS P1 / ALS P1; 71 year old/ Female/ Conscious/ Breathing. Chest Pain (Non-Traumatic). Abnormal breathing. EMD: 10C1/ ECDOPS: 2012-39721/ <Unknown>/ X=17TH&16TH",
+        "ID:19860",
+        "TIME:11:01",
+        "CALL:ALS",
+        "PRI:1",
+        "ADDR:DIALYSIS CENTER OF ERIE",
+        "CITY:16502",
+        "INFO:LOBBY / BLS P1 / ALS P1; 71 year old / Female / Conscious / Breathing. Chest Pain (Non-Traumatic). Abnormal breathing. EMD: 10C1 / ECDOPS: 2012-39721 / <Unknown> / X=17TH&16TH");
+
+    doTest("T10",
+        "Run# 19861/ 0099-A/ 11:07/ BLS/ Priority 1/ GRANDVIEW MANOR/ 16504/ 122/ <PROQA_DET>/ BLS PRIORITY 1; 92 year old/ Female/ Consciousness unknown/ Breathing status unknown. Unknown Problem (Man Down). EMD: 32B2/ ECDOPS: 2012-39722/ <Unknown>/ X=UNNAMED|UNNAMED&UNNAMED",
+        "ID:19861",
+        "TIME:11:07",
+        "CALL:BLS",
+        "PRI:1",
+        "ADDR:GRANDVIEW MANOR",
+        "CITY:16504",
+        "INFO:122 / BLS PRIORITY 1; 92 year old / Female / Consciousness unknown / Breathing status unknown. Unknown Problem (Man Down). EMD: 32B2 / ECDOPS: 2012-39722 / <Unknown> / X=UNNAMED|UNNAMED&UNNAMED");
+
+    doTest("T11",
+        "Run# 19839/ 0044-B/ 09:41/ BLS/ Priority 3 / Local/ UPMC HAMOT MEDICAL CENTER/ 16550/ WOUND CLINIC/ <PROQA_DET>/ TWINBROOK MEDICAL CENTER/ NO SPEC ATTN/CREW TO GET MED NEC/HUTCHINSON/ CHARLES/ X=2ND&DOBBINS LANDING",
+        "ID:19839",
+        "TIME:09:41",
+        "CALL:BLS",
+        "PRI:3",
+        "ADDR:UPMC HAMOT MEDICAL CENTER",
+        "CITY:16550",
+        "INFO:WOUND CLINIC / TWINBROOK MEDICAL CENTER / NO SPEC ATTN / CREW TO GET MED NEC / HUTCHINSON / CHARLES / X=2ND&DOBBINS LANDING");
+  
   }
   
   public static void main(String[] args) {
-    new PAErieCountyEmergyCareParserTest().generateTests("T1");
+    new PAErieCountyEmergyCareParserTest().generateTests("T5");
   }
 }
