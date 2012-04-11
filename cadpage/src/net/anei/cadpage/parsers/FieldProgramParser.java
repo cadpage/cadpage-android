@@ -226,8 +226,6 @@ public class FieldProgramParser extends SmartAddressParser {
       }
       tagList = tags.toArray(new String[tags.size()]);
     }
-    
-    System.out.println(toString());
   }
   
   /**
