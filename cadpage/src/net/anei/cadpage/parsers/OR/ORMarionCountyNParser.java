@@ -47,13 +47,18 @@ Contact: Barb <firegroundleader@hotmail.com>
 ((836) Hi Gina ) LIFT: 4279::THIRD:ST:::::1829:E876,N3,:80 YOF C/B/A  NON INJURY LIFT ASSIST:20110930:090843
 ((339) Hi Gina ) COMM:  490:S:PACIFIC:HW:::::2127:E21,E22,E24,E875,LA21,A21,TIME,PGE,N3,:LOTS OF SMOKE COMING FROM BACK OF LOC/:20110929:222851
 ((432) Hi Gina ) SICK:  950::EVERGREEN:RD:211::::2026:M23,E22,N3,:86 YF C/B/A FEELING DIZZY:20110930:000053
-((2319) Hi Gina ) MED NO :1285 TIERRA LYNN DR    :    Map:2028 :20YOM C/DIFF B/A FEVER LOW HEMOGLOBIN :09/28/2011 :20:24 :
 (639) :  / SICK:25496:S:HW 99E::::::1433:R903,OPPS,N1,:65YOM C/A/B DIZZY,SWEATING,:20110930:070050\n
  : / FALL:  653:E:PINE:ST:::::4430:MD2,R81,:FALL SEMI CON 15YRM NO BLEEDING:20120202:210913
  
 Contact: Fred Bridgehouse <bridgehousefred@gmail.com>
 Sender: dispatch@ci.woodburn.or.us
 (Incident) STRC F:10509 S WILDCAT RD, CLACKAMAS COUNTY::::R484, T419, T489, E435, E485, E495, D411, TIME1, MOLALLA-E82, MOLALLA-TND82, SVFSTAFF:NORTH OF
+(Incident) UNC F:228 STEELHAMMER RD, SILVERTON:::NORTH 7:R404, D411, MED24::41 YOM IN AND OUT CONS/DIFF BREA/A:4/8/2012 1:32:13 PM
+(Incident) UNC F:1015 OAK ST 20 , SILVERTON:SILVER CLIFF ESTATES:::R404, D411, MED24::39 YOF UNC/BREA/A DIAB EMERGECY:4/8/2012
+
+
+** NOT PARSING **
+((2319) Hi Gina ) MED NO :1285 TIERRA LYNN DR    :    Map:2028 :20YOM C/DIFF B/A FEVER LOW HEMOGLOBIN :09/28/2011 :20:24 :
 
 */
 
@@ -61,10 +66,11 @@ public class ORMarionCountyNParser extends FieldProgramParser {
   
   private static final Pattern CALL_ID_PTN = Pattern.compile("\\d{1,5}");
   private static final Pattern LEAD_PTN = Pattern.compile("^: *[/)\\|] *");
+  private static final Pattern TIME_PTN = Pattern.compile("\\b(\\d{1,2}):(\\d{1,2}):(\\d{1,2})\\b");
   
   public ORMarionCountyNParser() {
     super(CITY_LIST, "MARION COUNTY", "OR",
-           "CALL ( ADDRCITY ( CITY | APT ) X | ADDR1 ADDR1 ADDR1 ADDR1 ( CITY | APT ) ADDR2 ADDR2 ADDR2 ) MAP UNIT INFO DATE TIME");
+           "CALL ( ADDRCITY ( CITY | APT ) X MAP UNIT! INFO+? DATETIME | ADDR1 ADDR1 ADDR1 ADDR1 ( CITY | APT ) ADDR2 ADDR2 ADDR2  MAP UNIT! INFO DATE TIME )");
   }
   
   private String address[] = new String[2];
@@ -83,15 +89,20 @@ public class ORMarionCountyNParser extends FieldProgramParser {
     Matcher match = LEAD_PTN.matcher(body);
     if (match.find()) body = body.substring(match.end());
     
-    address[0] = address[1] = "";
-    if (! parseFields(body.split(":"), data)) return false;
+    // Time field has to be protected from being broken up by colon field separators
+    body = TIME_PTN.matcher(body).replaceAll("$1-$2-$3");
     
-    int pt = address[0].indexOf(',');
-    if (pt >= 0) {
-      data.strCity = address[0].substring(0,pt).trim();
-      address[0] = address[0].substring(0,pt).trim();
+    address[0] = address[1] = "";
+    if (! parseFields(body.split(":"), 6, data)) return false;
+    
+    if (data.strAddress.length() == 0) {
+      int pt = address[0].indexOf(',');
+      if (pt >= 0) {
+        data.strCity = address[0].substring(0,pt).trim();
+        address[0] = address[0].substring(0,pt).trim();
+      }
+      parseAddress(append(address[0], " & ", address[1]), data);
     }
-    parseAddress(append(address[0], " & ", address[1]), data);
     return true;
   }
   
@@ -125,11 +136,23 @@ public class ORMarionCountyNParser extends FieldProgramParser {
     }
   }
   
-  private static final Pattern TIME_PTN = Pattern.compile("\\d{6}");
+  private static final Pattern TIME2_PTN = Pattern.compile("\\d{6}");
   private class MyTimeField extends TimeField {
     @Override public void parse(String field, Data data) {
-      if (!TIME_PTN.matcher(field).matches()) return;
-      data.strTime = field.substring(0,2) + ":" + field.substring(2,4) + "/" + field.substring(4,6);
+      if (!TIME2_PTN.matcher(field).matches()) return;
+      data.strTime = field.substring(0,2) + ":" + field.substring(2,4) + ":" + field.substring(4,6);
+    }
+  }
+  
+  private class MyDateTimeField extends DateTimeField {
+    public MyDateTimeField() {
+      super("\\d{1,2}/\\d{1,2}/\\d{4}\\b.*");
+    }
+    
+    @Override
+    public void parse(String field, Data data) {
+      field = field.replace('-', ':');
+      if (field.contains(" ")) super.parse(field, data);
     }
   }
   
@@ -138,6 +161,7 @@ public class ORMarionCountyNParser extends FieldProgramParser {
     if (name.equals("ADDR1")) return new MyAddressField(0);
     if (name.equals("ADDR2")) return new MyAddressField(1);
     if (name.equals("UNIT")) return new MyUnitField();
+    if (name.equals("DATETIME")) return new MyDateTimeField();
     if (name.equals("DATE")) return new MyDateField();
     if (name.equals("TIME")) return new MyTimeField();
     return super.getField(name);

@@ -532,7 +532,7 @@ public class SmsMmsMessage implements Serializable {
     MsgInfo info = getInfo();
     if (info == null) return new Date(timestamp);
     int[] dateArry = splitDateTime(info.getDate());
-    int[] timeArry = splitDateTime(info.getTime());
+    int[] timeArry = splitTime(info.getTime());
     if (timeArry == null) return new Date(timestamp);
     
     // Set result fields from parsed time field
@@ -576,6 +576,22 @@ public class SmsMmsMessage implements Serializable {
       }
     }
     return cal.getTime();
+  }
+  
+  private static int[] splitTime(String field) {
+    int pt = field.indexOf(' ');
+    String marker = null;
+    if (pt >= 0) {
+      marker = field.substring(pt+1).trim().toUpperCase();
+      field = field.substring(0,pt);
+      if (!marker.equals("AM") && !marker.equals("PM")) return null;
+    }
+    int[] result = splitDateTime(field);
+    if (marker != null) {
+      if (result[0] > 12) return null;
+      if (marker.equals("PM")) result[0] += 12;
+    }
+    return result;
   }
   
   /**
