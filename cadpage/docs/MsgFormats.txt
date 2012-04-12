@@ -4263,6 +4263,10 @@ Contact: Alan Griffin <cbfirechief@gmail.com>
 Sender: messaging@iamresponding.com
 *(Station 21) CAD:ST21;RESIDENTIAL SINGLE ALARM;1107 CANAL DR;****TAC3*****;resd altrm... kitchen heat [04/11/12 14:19:37 LLA] *****tac3***** [04/11/12 1
 **********************************************************
+Hamilton County, OH
+Contact: Barry Evans <Barry.Evans@raymondjames.com>
+Sender: CFD.Dispatch@cincinnati-oh.gov
+FRM:CFD.Dispatch@cincinnati-oh.gov\nMSG:fyi - working fire 7131 fernbank - garage - fg02 CFD Dispatch
 **********************************************************
 **********************************************************
 ************  READY TO ROLL ******************************
