@@ -32,17 +32,25 @@ Contact: Clinton Masr <mastclinton@gmail.com>
 Sender: km911alert@gmail.com
 (FASP@20:13) City of Lebanon CUMBERLAND ST N 9TH ST MV - Accident w/Injuries Pedestrian Struck Box 15-04 Class 1 for EMS BC190 \n\nTo unsubscribe reply STOP
 
+Contact: nevin weaver <weavmy36@gmail.com>
+Sender: km911alert@gmail.com
+Subject:Sta 29@12:50\nSouth Lebanon Twp 2618 KING ST MI - Miscellaneous Wire Down FG 3 E29 Fire-Box 29-01 EMS-Box 140-1\r\n\r\nTo unsubscribe r\r
+
 */
 
 public class PALebanonCountyParser extends SmartAddressParser {
   
   private static final Pattern[] CITY_PTNS = new Pattern[]{
     Pattern.compile("^(.* Township) "),
+    Pattern.compile("^(.* Twp) "),
     Pattern.compile("^City of ([^ ]*) "),
     Pattern.compile("^(.*) Borough ")
   };
   private static final Pattern CALL_BOX_PTN = 
-    Pattern.compile(" ((?:Med Class|[A-Z]{2,3} - ).*) (?:Box|BOX) ?([0-9\\-]+) ");
+      Pattern.compile(" (?:Med Class(\\d) |([A-Z]{2,3} - ))(.*) " + 
+                      "(?:(?:Box|BOX) ?([0-9\\-]+)|Fire-Box ([0-9\\-]+) EMS-Box ([0-9\\-]+))");
+  private static final Pattern TAIL_CLASS_PTN = Pattern.compile("^Class (\\d) for EMS ");
+  private static final Pattern UNIT_PTN = Pattern.compile(" +([A-Z]+[0-9]+(?:-[0-9]+)?|[0-9]+[A-Z]+|FG[ -]?\\d)$");
 
   public PALebanonCountyParser() {
     super("LEBANON COUNTY", "PA");
@@ -50,6 +58,9 @@ public class PALebanonCountyParser extends SmartAddressParser {
   
   @Override 
   public boolean parseMsg(String body, Data data) {
+    
+    int pt = body.indexOf('\n');
+    if (pt >= 0) body = body.substring(0,pt).trim();
 
     // Look for city, borough, or township at start of text
     for (Pattern ptn : CITY_PTNS) {
@@ -65,13 +76,36 @@ public class PALebanonCountyParser extends SmartAddressParser {
     Matcher match = CALL_BOX_PTN.matcher(body);
     if (!match.find()) return false;
     String sAddress = body.substring(0,match.start()).trim();
-    data.strCall = match.group(1);
-    data.strBox = match.group(2);
-    data.strUnit = body.substring(match.end()).trim();
+    data.strPriority = getOptGroup(match.group(1));
+    String sCallPfx = match.group(2);
+    data.strCall = (sCallPfx == null ? "" : sCallPfx) + match.group(3).trim();
+    data.strBox = match.group(4);
+    if (data.strBox == null) {
+      data.strBox = "Fire:" + match.group(5) + " EMS:" + match.group(6);
+    }
+    String sTail = body.substring(match.end()).trim();
     
     parseAddress(StartType.START_ADDR, FLAG_IMPLIED_INTERSECT, sAddress, data);
     data.strPlace = getLeft();
     if (data.strPlace.startsWith("* ")) data.strPlace = data.strPlace.substring(2).trim();
+    
+    match = TAIL_CLASS_PTN.matcher(sTail);
+    if (match.find()) {
+      data.strPriority = match.group(1);
+      sTail = sTail.substring(match.end()).trim();
+    }
+    data.strUnit = sTail;
+    
+    // If there was no unit specified in tail section, try extracting it from end
+    // of call description
+    if (data.strUnit.length() == 0) {
+      while (true) {
+        match = UNIT_PTN.matcher(data.strCall);
+        if (!match.find()) break;
+        data.strUnit = append(match.group(1), " ", data.strUnit);
+        data.strCall = data.strCall.substring(0,match.start()).trim();
+      }
+    }
     
     return true;
   }
