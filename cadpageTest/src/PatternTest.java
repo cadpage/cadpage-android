@@ -6,10 +6,10 @@ import java.util.regex.Pattern;
 public class PatternTest {
 
   private static final Pattern MASTER = 
-    Pattern.compile("@RIFD: (\\d+):;([^;]+?);([^;]+?)");
+      Pattern.compile(" (Med Class(\\d) |([A-Z]{2,3} - ))(.*) (?:(?:Box|BOX) ?([0-9\\-]+)|Fire-Box ([0-9\\-]+) EMS-Box ([0-9\\-]+))");
   
   public static void main(String[] args) {
-    doTest("@RIFD: 15221:;CRASH PERSONAL INJURIES;24TH ST/18TH AV");
+    doTest("2618 KING ST MI - Miscellaneous Wire Down FG 3 E29 Fire-Box 29-01 EMS-Box 140-1");
   }
   
   private static void doTest(String test) {

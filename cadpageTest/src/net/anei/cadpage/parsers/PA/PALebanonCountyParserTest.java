@@ -26,7 +26,8 @@ public class PALebanonCountyParserTest extends BaseParserTest {
         "City of Lebanon 541 SPRUCE ST Med Class1 Hemorrhage Box 190-2 199MU",
         "CITY:LEBANON",
         "ADDR:541 SPRUCE ST",
-        "CALL:Med Class1 Hemorrhage",
+        "PRI:1",
+        "CALL:Hemorrhage",
         "BOX:190-2",
         "UNIT:199MU");
 
@@ -34,7 +35,8 @@ public class PALebanonCountyParserTest extends BaseParserTest {
         "Cornwall Borough 113 WENGER ST Med Class3 Fall Victim BOX 190-6 A192",
         "CITY:CORNWALL",
         "ADDR:113 WENGER ST",
-        "CALL:Med Class3 Fall Victim",
+        "PRI:3",
+        "CALL:Fall Victim",
         "BOX:190-6",
         "UNIT:A192");
 
@@ -42,7 +44,8 @@ public class PALebanonCountyParserTest extends BaseParserTest {
         "City of Lebanon 437 NEW ST Med Class1 Abdominal Pain Box190-2 BC190",
         "CITY:LEBANON",
         "ADDR:437 NEW ST",
-        "CALL:Med Class1 Abdominal Pain",
+        "PRI:1",
+        "CALL:Abdominal Pain",
         "BOX:190-2",
         "UNIT:BC190");
 
@@ -50,7 +53,8 @@ public class PALebanonCountyParserTest extends BaseParserTest {
         "City of Lebanon 220 E WEIDMAN ST Med Class1 ALOC Box 190-2 A193 M12-3",
         "CITY:LEBANON",
         "ADDR:220 E WEIDMAN ST",
-        "CALL:Med Class1 ALOC",
+        "PRI:1",
+        "CALL:ALOC",
         "BOX:190-2",
         "UNIT:A193 M12-3");
 
@@ -59,7 +63,8 @@ public class PALebanonCountyParserTest extends BaseParserTest {
         "CITY:SOUTH LEBANON TOWNSHIP",
         "ADDR:590 S 5TH AVE",
         "PLACE:Cedar Haven ROOM 313F",
-        "CALL:Med Class1 Heart Problem",
+        "PRI:1",
+        "CALL:Heart Problem",
         "BOX:190-3",
         "UNIT:193MU");
 
@@ -77,7 +82,8 @@ public class PALebanonCountyParserTest extends BaseParserTest {
         "CITY:NORTH CORNWALL TOWNSHIP",
         "ADDR:900 TUCK ST",
         "PLACE:Manor Care",
-        "CALL:Med Class1 Altered Mental Status",
+        "PRI:1",
+        "CALL:Altered Mental Status",
         "BOX:190-8",
         "UNIT:193MU");
 
@@ -101,7 +107,8 @@ public class PALebanonCountyParserTest extends BaseParserTest {
         "City of Lebanon 544 N 8TH ST Med Class3 302 Commitment Assist MHMR Box 190-2 A198",
         "CITY:LEBANON",
         "ADDR:544 N 8TH ST",
-        "CALL:Med Class3 302 Commitment Assist MHMR",
+        "PRI:3",
+        "CALL:302 Commitment Assist MHMR",
         "BOX:190-2",
         "UNIT:A198");
 
@@ -127,7 +134,8 @@ public class PALebanonCountyParserTest extends BaseParserTest {
         "CITY:SOUTH LEBANON TOWNSHIP",
         "ADDR:518 S 5TH ST",
         "PLACE:SUPPORTIVE CONCEPTS",
-        "CALL:Med Class3 Abdominal Pain",
+        "PRI:3",
+        "CALL:Abdominal Pain",
         "BOX:190-4",
         "UNIT:A198");
 
@@ -135,12 +143,30 @@ public class PALebanonCountyParserTest extends BaseParserTest {
         "(FASP@20:13) City of Lebanon CUMBERLAND ST N 9TH ST MV - Accident w/Injuries Pedestrian Struck Box 15-04 Class 1 for EMS BC190 \n\nTo unsubscribe reply STOP",
         "CITY:LEBANON",
         "ADDR:CUMBERLAND ST & N 9TH ST",
+        "PRI:1",
         "CALL:MV - Accident w/Injuries Pedestrian Struck",
         "BOX:15-04",
-        "UNIT:Class 1 for EMS BC190 \n\nTo unsubscribe reply STOP");
+        "UNIT:BC190");
  }
   
+  @Test
+  public void testNevinWeaver() {
+
+    doTest("T1",
+        "Subject:Sta 29@12:50\n" +
+        "South Lebanon Twp 2618 KING ST MI - Miscellaneous Wire Down FG 3 E29 Fire-Box 29-01 EMS-Box 140-1\r\n" +
+        "\r\n" +
+        "To unsubscribe r\r",
+
+        "CITY:SOUTH LEBANON TWP",
+        "ADDR:2618 KING ST",
+        "CALL:MI - Miscellaneous Wire Down",
+        "BOX:Fire:29-01 EMS:140-1",
+        "UNIT:FG 3 E29");
+
+  }
+  
   public static void main(String[] args) {
-    new PALebanonCountyParserTest().generateTests("T1", "CITY ADDR APT PLACE CALL BOX UNIT");
+    new PALebanonCountyParserTest().generateTests("T1", "CITY ADDR APT PLACE PRI CALL BOX UNIT");
   }
 }
