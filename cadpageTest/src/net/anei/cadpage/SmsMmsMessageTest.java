@@ -23,6 +23,14 @@ public class SmsMmsMessageTest extends BaseParserTest {
   public void classSetup() {
     testPrefs = new TestManagePreferences();
   }
+  
+  @Test
+  public void testIncidentDateAmPm() {
+    doTimeTest("full dt/AM time", "01/01/2012 13:23:10", "12/13/2011", "1:18:50 AM",
+               "12/13/2011 01:18:50");
+    doTimeTest("full dt/AM time", "01/01/2012 13:23:10", "12/13/2011", "1:18:50 PM",
+               "12/13/2011 13:18:50");
+  }
 
   @Test
   public void testEscape() {
