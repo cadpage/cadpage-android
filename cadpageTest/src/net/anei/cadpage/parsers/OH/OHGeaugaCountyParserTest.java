@@ -115,7 +115,7 @@ public class OHGeaugaCountyParserTest extends BaseParserTest {
 
     doTest("T19",
         "GEAUGA COUNTY SHERIFF (Text Message) FIRE DEPT NEEDED AT - M/A TO MONTVILLE 9141 CLAY ST SMELL OF GAS IN THE HOUSE TXT STOP to opt-out",
-        "CALL:FIRE DEPT NEEDED",
+        "CALL:FIRE DEPT",
         "PLACE:M/A TO MONTVILLE",
         "ADDR:9141 CLAY ST",
         "INFO:SMELL OF GAS IN THE HOUSE");
@@ -156,6 +156,64 @@ public class OHGeaugaCountyParserTest extends BaseParserTest {
         "ADDR:12115 COUNTRY OAKS TRL",
         "INFO:96 Y / O / F POSSIBLE DOA 2800 / DP");
     
+  }
+  
+  @Test
+  public void testActive911() {
+
+    doTest("T1",
+        "(Alert Notification) Rescue needed at 12340 Bass Lake Rd Center of Dialysis for 78yof compl of infected port<br />",
+        "CALL:Rescue",
+        "ADDR:12340 Bass Lake Rd",
+        "INFO:Center of Dialysis for 78yof compl of infected port");
+
+    doTest("T2",
+        "(Alert Notification) 12340 BASS LAKE RD A 1 BED 1 86 YOM CHANGE IN MENTAL STATUS<br />",
+        "CALL:A 1 BED 1 86 YOM CHANGE IN MENTAL STATUS",
+        "ADDR:12340 BASS LAKE RD");
+
+    doTest("T3",
+        "(Alert Notification) rescue -- 14036 rock creek -- 43 y/o female -- breathing problems/low pulse ox -- 2800<br />",
+        "CALL:rescue",
+        "ADDR:14036 rock creek",
+        "INFO:43 y/o female -- breathing problems/low pulse ox -- 2800");
+
+    doTest("T4",
+        "(Alert Notification) 12120 Caves Rd for a Chimney Fire Evacuation in progress.<br />",
+        "CALL:Chimney Fire Evacuation in progress",
+        "ADDR:12120 Caves Rd");
+
+    doTest("T5",
+        "(Alert Notification) REQUEST ON STAND BY AT THE STATION FOR POSSIBLE SUICIDAL MALE 10917 LEADER<br />",
+        "PLACE:REQUEST ON STAND BY AT THE STATION FOR POSSIBLE SUICIDAL MALE 10917 LEADER");
+
+    doTest("T6",
+        "(Alert Notification) Barclay House for a lift assist 88 yof slid out of chair 13149 Gar Hwy<br />",
+        "CALL:Barclay House for a lift assist 88 yof slid out of chair",
+        "ADDR:13149 Gar Hwy");
+
+    doTest("T7",
+        "(Alert Notification) rescue needed 12630 gwendolyn farms suicide attempt by hanging<br />",
+        "CALL:rescue",
+        "PLACE:12630 gwendolyn farms suicide attempt by hanging");
+
+    doTest("T8",
+        "(Alert Notification) Medical Arts building 13221 Ravenna Rd Dr Kondray's office 48yr old female difficulty breathing.<br />",
+        "CALL:Medical Arts building",
+        "ADDR:13221 Ravenna Rd",
+        "INFO:Dr Kondray's office 48yr old female difficulty breathing");
+
+    doTest("T9",
+        "(Alert Notification) RESCUE NEEDD AT 10942 LEADER FEMALE THAT FELL<br />",
+        "CALL:RESCUE",
+        "PLACE:10942 LEADER FEMALE THAT FELL");
+
+    doTest("T10",
+        "(Alert Notification) rescue needed at 11995 fowlers mill rd female several day ago<br />",
+        "CALL:rescue",
+        "ADDR:11995 fowlers mill rd",
+        "INFO:female several day ago");
+   
   }
   
   public static void main(String[] args) {
