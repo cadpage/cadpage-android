@@ -4395,6 +4395,7 @@ Sender: paging@easthavenfire.com
 **********************************************************
 Colchester Emergency Communications, CT
 Contact: Kevin McManus <kmacinct@gmail.com>
+Sender: messaging@iamresponding.com,911@kx911.com
 INCIDENT TOWN\ ADDRESS \ APARTMENT \ CROSS STREET \ NATURE OF EMERGENCY \ NAME OR LOCATION NAME \ ** INCIDENT NUMBER \ TIME OF DISPATCH ** MapIt: Address and town in line, CT (Free Text by Dispatcher)
 
 COLCHESTER\ 25 VILLAGE CT\ \@  AMSTON RD\ FAINTING OR UNCONC. PERS\ VOGEL,HERBERT H \  ** 12-6474  \ 11:42 ** MapIt:  25  VILLAGE CT, COLCHESTER , CT ( UNCONSCIOUS )

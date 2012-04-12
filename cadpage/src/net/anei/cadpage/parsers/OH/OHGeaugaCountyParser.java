@@ -37,16 +37,29 @@ GEAUGA COUNTY SHERIFF (Text Message) RESCUE IS NEEDED AT - sunco station female 
 GEAUGA COUNTY SHERIFF (Text Message) RESCUE IS NEEDED AT - 9922 OLD STATE RD 90 YO FEMALE DIFF BREATHING TXT STOP to opt-out
 GEAUGA COUNTY SHERIFF (Text Message) Rescue needed at 1 La Verne Ln, female possible going into Labor. 2800/Wright TXT STOP to opt-out
 GEAUGA COUNTY SHERIFF (Text Message) RESCUE IS NEEDED AT - 12115 COUNTRY OAKS TRL 96 Y/O/F POSSIBLE D.O.A. 2800/DP TXT STOP to opt-out
+
+Contact: support@active911
+Sender: OH_GC_ENS@CO.GEAUGA.OH.US
+(Alert Notification) Rescue needed at 12340 Bass Lake Rd Center of Dialysis for 78yof compl of infected port<br />
+(Alert Notification) 12340 BASS LAKE RD A 1 BED 1 86 YOM CHANGE IN MENTAL STATUS<br />
+(Alert Notification) rescue -- 14036 rock creek -- 43 y/o female -- breathing problems/low pulse ox -- 2800<br />
+(Alert Notification) 12120 Caves Rd for a Chimney Fire Evacuation in progress.<br />
+(Alert Notification) REQUEST ON STAND BY AT THE STATION FOR POSSIBLE SUICIDAL MALE 10917 LEADER<br />
+(Alert Notification) Barclay House for a lift assist 88 yof slid out of chair 13149 Gar Hwy<br />
+(Alert Notification) rescue needed 12630 gwendolyn farms suicide attempt by hanging<br />
+(Alert Notification) Medical Arts building 13221 Ravenna Rd Dr Kondray's office 48yr old female difficulty breathing.<br />
+(Alert Notification) RESCUE NEEDD AT 10942 LEADER FEMALE THAT FELL<br />
+(Alert Notification) rescue needed at 11995 fowlers mill rd female several day ago<br />
  
 */
 
 public class OHGeaugaCountyParser extends SmartAddressParser {
   
   private static final Pattern MARKER = Pattern.compile("^GEAUGA COUNTY SHERIFF \\(Text Message[^\\)]*\\) ");
-  private static final String[] CALL_MARKS = new String[]{
-    " IS NEEDED AT - ",
-    " needed at ",
-    " AT - "
+  private static final Pattern CALL_MARK_PTN = 
+      Pattern.compile(" (?:(?:(?:IS )?NEEDE?D(?: AT)?(?: -)?)|AT -) ", Pattern.CASE_INSENSITIVE);
+  private static final String[] CALL_PREFIXES = new String[]{
+    "FOR A "
   };
  
   public OHGeaugaCountyParser() {
@@ -65,28 +78,36 @@ public class OHGeaugaCountyParser extends SmartAddressParser {
   }
   
   @Override
-  public boolean parseMsg(String body, Data data) {
-    Matcher match = MARKER.matcher(body);
-    if (!match.find()) return false;
-    body = body.substring(match.end()).trim();
-    
-    StartType st = StartType.START_CALL;
-    for (String mark : CALL_MARKS) {
-      int pt = body.indexOf(mark);
-      if (pt >= 0) {
-        data.strCall = body.substring(0,pt).trim();
-        body = body.substring(pt+mark.length()).trim();
-        st = StartType.START_PLACE;
+  public boolean parseMsg(String subject, String body, Data data) {
+    do {
+      Matcher match = MARKER.matcher(body);
+      if (match.find()) {
+        body = body.substring(match.end()).trim();
         break;
       }
+      
+      if (subject.equals("Alert Notification")) {
+        if (body.endsWith("<br />")) body = body.substring(0,body.length()-6).trim();
+        break;
+      }
+      
+      return false;
+    } while (false);
+      
+    StartType st = StartType.START_CALL;
+    Matcher match = CALL_MARK_PTN.matcher(body);
+    if (match.find()) {
+      data.strCall = body.substring(0,match.start()).trim();
+      body = body.substring(match.end()).trim();
+      st = StartType.START_PLACE;
     }
     
     String[] flds = body.split(" -- ");
-    if (flds.length > 1) {
+    if (flds.length > 2) {
       int addrNdx = 0;
-      if (checkAddress(flds[0]) < checkAddress(flds[1])) {
-        data.strPlace =  flds[0];
-        addrNdx = 1;
+      if (data.strCall.length() == 0) data.strCall = flds[addrNdx++]; 
+      if (checkAddress(flds[addrNdx]) < checkAddress(flds[addrNdx+1])) {
+        data.strPlace =  flds[addrNdx++];
       }
       parseAddress(flds[addrNdx], data);
       for (int ndx = addrNdx+1; ndx < flds.length; ndx++) {
@@ -107,6 +128,14 @@ public class OHGeaugaCountyParser extends SmartAddressParser {
         } else {
           data.strSupp = sExtra;
         }
+      }
+    }
+    
+    // Clear out call prefixes
+    for (String pfx : CALL_PREFIXES) {
+      if (data.strCall.toUpperCase().startsWith(pfx)) {
+        data.strCall = data.strCall.substring(pfx.length()).trim();
+        break;
       }
     }
     
