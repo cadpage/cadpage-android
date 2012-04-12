@@ -143,6 +143,18 @@ public class NJGloucesterCountyParserTest extends BaseParserTest {
 
   }
   
+  @Test
+  public void testParser5() {
+
+    doTest("T1",
+        "COUNTY OF GLOUCESTER (#353519) Dispatch\n\nSta:10-2\nType:ALRM\nLoc:5 BELMONT BLVD\\                \nVen:WASHINGTON\nDsp-\nClr- STOP",
+        "SRC:10-2",
+        "CALL:ALRM",
+        "ADDR:5 BELMONT BLVD",
+        "CITY:WASHINGTON TWP");
+
+  }
+  
   public static void main(String[] args) {
     new NJGloucesterCountyParserTest().generateTests("T1", "SRC CALL ADDR APT CITY");
   }
