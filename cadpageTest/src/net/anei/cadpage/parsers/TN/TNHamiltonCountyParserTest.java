@@ -104,6 +104,14 @@ public class TNHamiltonCountyParserTest extends BaseParserTest {
         "ADDR:8475 COMMUNITY PL",
         "X:PITTMAN LN/PATTENTOWN RD");
 
+    doTest("T1",
+        "RT:FMUAID-FIRE DEPARTMENT MUTUAL AID ALARM  Loc:281 CLARK RD, DOGWOOD RD THE CROSS CATOOSA CO",
+        "CALL:FMUAID-FIRE DEPARTMENT MUTUAL AID ALARM",
+        "ADDR:281 CLARK RD",
+        "CITY:CATOOSA COUNTY",
+        "ST:GA",
+        "X:DOGWOOD RD THE CROSS");
+
   }
   
   @Test
