@@ -24,7 +24,7 @@ public class VABotetourtCountyParser extends DispatchSouthernParser {
 
   @Override
   public String getFilter() {
-    return "SM@botetourtva.us";
+    return "@botetourtva.us";
   }
   
   private static final String[] CITY_LIST = new String[]{
