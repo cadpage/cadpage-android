@@ -274,12 +274,28 @@ public class NYOneidaCountyParserTest extends BaseParserTest {
     doTest("T1",
         "(Yorkville Fire) YORF:2012:0096 Dispatched EMS CALL 43 MAIN ST, YORKVILLE VILLAGE (/COMMERCIAL DR Near:YORKVILLE AUTO SALES) #APT 3 BACK",
         "SRC:Yorkville Fire",
-        "CALL:2012: 0096 Dispatched EMS CALL",
+        "ID:2012:0096",
+        "CALL:EMS CALL",
         "ADDR:43 MAIN ST",
         "CITY:YORKVILLE VILLAGE",
         "X:COMMERCIAL DR",
         "INFO:Near:YORKVILLE AUTO SALES");
 
+  }
+  
+  @Test
+  public void testOpie2() {
+
+    doTest("T1",
+        "(Vernon Fire/Rescue) VENF:2012:0079 ;Dispatched ;19C04 - CARDIAC HISTORY ;4500 BEAVER MEADOW RD, VERNON (COOPER ST/ROUTE 5)",
+        "SRC:Vernon Fire/Rescue",
+        "ID:2012:0079",
+        "CODE:19C04",
+        "CALL:CARDIAC HISTORY",
+        "ADDR:4500 BEAVER MEADOW RD",
+        "CITY:VERNON",
+        "X:COOPER ST/ROUTE 5");
+    
   }
   
   public static void main(String[] args) {
