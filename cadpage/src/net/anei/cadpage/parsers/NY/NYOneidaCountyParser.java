@@ -77,6 +77,10 @@ Contact: Joseph Morosco <yfd120@gmail.com>
 Sender: messaging@iamresponding.com
 (Yorkville Fire) YORF:2012:0096 Dispatched EMS CALL 43 MAIN ST, YORKVILLE VILLAGE (/COMMERCIAL DR Near:YORKVILLE AUTO SALES) #APT 3 BACK
 
+Contact: opie286 <opie286@gmail.com>
+Sender: messaging@iamresponding.com
+(Vernon Fire/Rescue) VENF:2012:0079 ;Dispatched ;19C04 - CARDIAC HISTORY ;4500 BEAVER MEADOW RD, VERNON (COOPER ST/ROUTE 5)
+
  
 ** NOT IMPLEMENTED **
 FRM:dispatch@oc911.org\nMSG:???WEMF:2011:0346AcknowledgeMVA-UNKNOWNROUTE 233, WESTMORELAND/W MAIN ST (COUNTY ROUTE 23), WESTMORELAND
@@ -86,8 +90,7 @@ FRM:dispatch@oc911.org\nMSG:???WEMF:2011:0346AcknowledgeMVA-UNKNOWNROUTE 233, WE
 
 public class NYOneidaCountyParser extends SmartAddressParser {
   
-  private static final Pattern DELIM = Pattern.compile(" *(?:\\n>?|>) *");
-  private static final Pattern DELIM2 = Pattern.compile("  +");
+  private static final Pattern MARKER = Pattern.compile("(?:\\b(\\d+:\\d+\\b)[^A-Z0-9]+)?\\bDispatched([^A-Z0-9]{1,3})(?=[A-Z0-9])");
   private static final Pattern CODE_PTN = Pattern.compile("^(\\d\\d[A-Z]\\d\\d) ?- ?");
   private static final Pattern NY_PTN = Pattern.compile(", *NY$");
   private static final Pattern OUTSIDE = Pattern.compile("\\bOUTSIDE\\b");
@@ -105,52 +108,39 @@ public class NYOneidaCountyParser extends SmartAddressParser {
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     
-    int pt = body.indexOf("Dispatched");
-    if (pt < 0) return false;
-    
-    int pt2 = body.lastIndexOf(':', pt-1);
-    if (pt2 >= 0) {
-      pt = pt2+1;
-      pt2 = body.lastIndexOf(':', pt2-1);
-      if (pt2 >= 0) pt = pt2+1;
-    }
-    body = body.substring(pt);
-    
     data.strSource = subject;
+
+    // Format usually, but not always, has some field delimiters, but they
+    // seem to change with the phase of the moon. There is always a "Dispatched"
+    // field followed by a delimiter, followed (hopefully) by a alphnumeric character.
+    // so we use this pattern to find and identify the delimiter
+    Matcher match = MARKER.matcher(body);
+    if (!match.find()) return false;
+    data.strCallId = getOptGroup(match.group(1));
+    String delim = match.group(2);
+    body = body.substring(match.end());
     
-    // Here is where things get complicated.  We need to break the call down
-    // into an ID field, a field that contains the word "DISPATCH", a call field
-    // and address field with everything else.  For most pages, there are
-    // some well defined delimiters that do this
-    String[] flds = DELIM.split(body);
-    if (flds.length < 3) flds = DELIM2.split(body);
+    // If we identified a delimiter that is something other than a single
+    // blank, use it to break the rest of the page into a call and an address
+    // portion
     String sCall, sAddr;
-    if (flds.length >= 3) {
-      int ndx = 0;
-      String fld = flds[ndx++];
-      if (!fld.equals("Dispatched")) {
-        data.strCallId = fld;
-        fld = flds[ndx++];
-        if (!fld.equals("Dispatched")) return false;
-      }
-      
-      sCall = flds[ndx++];
-      
-      if (ndx >= flds.length) return false;
-      sAddr = flds[ndx++];
-      while (ndx < flds.length) sAddr = sAddr + "  " + flds[ndx++];
+    if (!delim.equals(" ")) {
+      int pt = body.indexOf(delim);
+      if (pt < 0) return false;
+      sCall = body.substring(0,pt).trim();
+      sAddr = body.substring(pt+delim.length()).trim();
     }
 
-    // For pages that lack an identifying delimiter, we will use the smart
+    // If the identified delimiter was a single blank, we will use the smart
     // address parser to find the break between the call and the first address
     else {
-      pt = body.indexOf('@');
+      int pt = body.indexOf('@');
       if (pt >= 0) {
         sCall = body.substring(0,pt).trim();
         sAddr = body.substring(pt).trim();
       } else {
         pt = body.indexOf(',');
-        pt2 = body.indexOf('(');
+        int pt2 = body.indexOf('(');
         if (pt < 0) pt = body.length();
         if (pt2 < 0) pt2 = body.length();
         pt = Math.min(pt, pt2);
@@ -166,7 +156,7 @@ public class NYOneidaCountyParser extends SmartAddressParser {
       }
     } 
     
-    Matcher match = CODE_PTN.matcher(sCall);
+    match = CODE_PTN.matcher(sCall);
     if (match.find()) {
       data.strCode = match.group(1);
       sCall = sCall.substring(match.end()).trim();
@@ -193,7 +183,7 @@ public class NYOneidaCountyParser extends SmartAddressParser {
       match = NY_PTN.matcher(sPart1);
       if (match.find()) sPart1 = sPart1.substring(0, match.start()).trim();
       sPart1 = KNLS.matcher(sPart1).replaceAll("KNOLLE");
-      pt = sPart1.indexOf(',');
+      int pt = sPart1.indexOf(',');
       if (pt >= 0) {
         data.strCity = sPart1.substring(pt+1).trim();
         sPart1 = sPart1.substring(0,pt).trim();
