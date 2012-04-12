@@ -476,6 +476,19 @@ public class MDPrinceGeorgesCountyCParserTest extends BaseParserTest {
         "INFO:O/L OF THE CAP BELTWAY AT THE PARKWAY MSP ONSCENE W/ AN INJ PERSON FROM A PREV ACCIDENT",
         "UNIT:A830,E828");
 
+    doTest("T4",
+        "(CAD Feed) Engine 809 Incident: F121010358, Type: Street Alarm, Loc: 3205 RHODE ISLAND AVE #23, MR, btwn EASTERN AVE and 33RD ST, TalkGroup: TA11, Box: 5502, Map: 5529 F 1, Units:BO884, E809, E855B, TK801, TK809 Sent to Prince George's alert recipients (E-mail, Wireless) through Alert Prince George's ... powered by Cooper Notification's Roam Secure Alert Network -- You received this message because you registered on Alert Prince George's.\\2sTo change your alerting preferences go to https://alert.princegeorgescountymd.gov/mygroups.php Reply to this message with \"Stop\" to end all notifications from Alert Prince George's to this device",
+        "SRC:Engine 809",
+        "ID:F121010358",
+        "CALL:Street Alarm",
+        "ADDR:3205 RHODE ISLAND AVE",
+        "APT:23",
+        "X:EASTERN AVE and 33RD ST",
+        "CH:TA11",
+        "BOX:5502",
+        "MAP:5529 F 1",
+        "UNIT:BO884,E809,E855B,TK801,TK809");
+
   }
   
   public static void main(String[] args) {
