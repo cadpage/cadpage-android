@@ -33,6 +33,10 @@ Subject:1/2\n\nDispatch\n\nSta:43-2\n\nType:SERV\n\nLoc:751 LINCOLN AVE         
 Contact: Tom <bad69shovel@yahoo.com>
 Dispatch\nSta:28-3\nType:ALRM\nLoc:158 KENTON AVE                \nVen:PITMAN\nDsp-\nClr-
 
+Contact: orders@coasttocoastoutlet.com
+Sender: 777155668218
+COUNTY OF GLOUCESTER (#353519) Dispatch\n\nSta:10-2\nType:ALRM\nLoc:5 BELMONT BLVD\                \nVen:WASHINGTON\nDsp-\nClr- STOP
+
  */
 
 
@@ -45,7 +49,7 @@ public class NJGloucesterCountyParser extends FieldProgramParser {
  
   @Override
   public String getFilter() {
-    return "@private.gloucesteralert.com";
+    return "@private.gloucesteralert.com,777155";
   }
 
   @Override
@@ -53,6 +57,29 @@ public class NJGloucesterCountyParser extends FieldProgramParser {
     return parseFields(body.split("\n"), data);
   }
   
+  private class MyAddressField extends AddressField {
+    @Override
+    public void parse(String field, Data data) {
+      int pt = field.indexOf('\\');
+      if (pt >= 0) {
+        data.strPlace = field.substring(pt+1).trim();
+        field = field.substring(0,pt).trim();
+      }
+      super.parse(field, data);
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return super.getFieldNames() + " PLACE";
+    }
+  }
+  
+  @Override
+  protected Field getField(String name) {
+    if (name.equals("ADDR")) return new MyAddressField();
+    return super.getField(name);
+  }
+
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "DEPTFORD", "DEPFORD TWP",
       "EAST GREENWICH", "E GREENWICH TWP",
