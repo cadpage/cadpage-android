@@ -36,6 +36,10 @@ Contact: nevin weaver <weavmy36@gmail.com>
 Sender: km911alert@gmail.com
 Subject:Sta 29@12:50\nSouth Lebanon Twp 2618 KING ST MI - Miscellaneous Wire Down FG 3 E29 Fire-Box 29-01 EMS-Box 140-1\r\n\r\nTo unsubscribe r\r
 
+Contact: "Roger Funck" <rogerfunck@verizon.net>
+Sender: 7176798487
+East Hanover Township 7 TOWER LN AREA OF MV - Accident w/Injuries fg 3 E12  Fire-Box 12-03 EMS-Box 190-16
+
 */
 
 public class PALebanonCountyParser extends SmartAddressParser {
@@ -50,7 +54,7 @@ public class PALebanonCountyParser extends SmartAddressParser {
       Pattern.compile(" (?:Med Class(\\d) |([A-Z]{2,3} - ))(.*) " + 
                       "(?:(?:Box|BOX) ?([0-9\\-]+)|Fire-Box ([0-9\\-]+) EMS-Box ([0-9\\-]+))");
   private static final Pattern TAIL_CLASS_PTN = Pattern.compile("^Class (\\d) for EMS ");
-  private static final Pattern UNIT_PTN = Pattern.compile(" +([A-Z]+[0-9]+(?:-[0-9]+)?|[0-9]+[A-Z]+|FG[ -]?\\d)$");
+  private static final Pattern UNIT_PTN = Pattern.compile(" +([A-Z]+[0-9]+(?:-[0-9]+)?|[0-9]+[A-Z]+|FG[ -]?\\d)$", Pattern.CASE_INSENSITIVE);
 
   public PALebanonCountyParser() {
     super("LEBANON COUNTY", "PA");
@@ -102,7 +106,7 @@ public class PALebanonCountyParser extends SmartAddressParser {
       while (true) {
         match = UNIT_PTN.matcher(data.strCall);
         if (!match.find()) break;
-        data.strUnit = append(match.group(1), " ", data.strUnit);
+        data.strUnit = append(match.group(1).toUpperCase(), " ", data.strUnit);
         data.strCall = data.strCall.substring(0,match.start()).trim();
       }
     }
