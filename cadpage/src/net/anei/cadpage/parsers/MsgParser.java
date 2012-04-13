@@ -484,6 +484,16 @@ public abstract class MsgParser {
  protected void parseAddress(String addressLine, MsgInfo.Data data) {
    parseAddress(addressLine, data, false); 
  }
+ 
+ /**
+  * Perform any parser specific customizations involved in calcualting a
+  * map address
+  * @param sAddress original map address
+  * @return customized map address
+  */
+ public String adjustMapAddress(String sAddress) {
+   return sAddress;
+ }
 
  /**
   * Parse address line into address and city fields

@@ -391,9 +391,12 @@ public class MsgInfo {
       strBaseMapAddress = strAddress;
       return strBaseMapAddress;
     }
+
+    // Perform any parser specific customizations
+    String sAddr = strAddress;
+    if (parser != null) sAddr = parser.adjustMapAddress(sAddr);
     
     // UK addresses have a postal code prefix that we don't want to mess with
-    String sAddr = strAddress;
     String prefix = "";
     if (countryCode == MsgParser.CountryCode.UK){
       Matcher match = UK_POST_CODE_PTN.matcher(sAddr);

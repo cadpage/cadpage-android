@@ -167,4 +167,13 @@ public class MDPrinceGeorgesCountyCParser extends FieldProgramParser {
     if (name.equals("UNIT")) return new MyUnitField();
     return super.getField(name);
   }
+
+  
+  @Override
+  public String adjustMapAddress(String sAddress) {
+    // Undo various abbreviations of CAPITAL BELTWAY
+    return CAP_BELT_PTN.matcher(sAddress).replaceAll("CAPITAL BELTWAY");
+  }
+  private static final Pattern CAP_BELT_PTN = 
+      Pattern.compile("\\bCAP BELT(?:WAY)?(?: OL A)(?: HWY)?\\b", Pattern.CASE_INSENSITIVE);
 }
