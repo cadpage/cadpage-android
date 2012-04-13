@@ -29,6 +29,10 @@ Sender: alerts@blairalerts.com
 (Inc: FIRE ASSIST) Inc: FIRE ASSIST \nAdd: STATION 1 \nCity:  \nUnits: 9011 31A\n31A\nLat/Lon: @-1.00000 @-1.00000\n10/5/2011 2:27:41 AM \nDR #: 311100256
 (Inc: Vehicle Fire) Inc: Vehicle Fire \nAdd: 110 SUNSET HILLS EXT \nCity: SNYDER TW \nUnits: 31A\n31A\nLat/Lon: @40.67871 @78.25442\n10/1/2011 9:35:19 PM \nDR #: 31
 
+Andrew Myers <ajm5389@gmail.com>
+Sender: alerts@blairalerts.com
+Inc: Inside/Outside Invest \nAdd: 8162 WOODBURY PIKE \nCity: TAYLOR TW \nUnits: 400 60A 40A\nAgency: 40A\nMap: http://maps.google.com/maps?q=+40.34854%20-78.40453
+
 */
 
 
@@ -37,12 +41,13 @@ public class PABlairCountyParser extends FieldProgramParser {
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "DUNCANSVI",  "DUNCANSVILLE",
       "SNYDER TW",  "SNYDER TWP",
+      "TAYLOR TW",  "TAYLOR TWP",
       "TYRONE BO",  "TYRONE"
   });
   
   public PABlairCountyParser() {
     super(CITY_CODES, "BLAIR COUNTY", "PA",
-           "Inc:CALL! Add:ADDR! City:CITY! Units:UNIT! Lat/Lon:GPS! DR_#:ID");
+           "Inc:CALL! Add:ADDR! City:CITY! Units:UNIT! ( Agency:SRC Map:GPS2 | Lat/Lon:GPS DR_#:ID )");
   }
   
   @Override
@@ -66,9 +71,21 @@ public class PABlairCountyParser extends FieldProgramParser {
     }
   }
   
+  private static final Pattern MAP_URL = Pattern.compile("http://maps.google.com/maps\\?q=([-+][\\d\\.]+)%20([-+][\\d\\.]+)");
+  private class MyGPS2Field extends GPSField {
+    @Override
+    public void parse(String field, Data data) {
+      Matcher match = MAP_URL.matcher(field);
+      if (match.find()) {
+        super.parse(match.group(1) + "," + match.group(2), data);
+      }
+    }
+  }
+  
   @Override
   public Field getField(String name) {
     if (name.equals("GPS")) return new MyGPSField();
+    if (name.equals("GPS2")) return new MyGPS2Field();
     return super.getField(name);
   }
 }

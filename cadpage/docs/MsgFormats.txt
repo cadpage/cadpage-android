@@ -4270,6 +4270,10 @@ FRM:CFD.Dispatch@cincinnati-oh.gov\nMSG:fyi - working fire 7131 fernbank - garag
 FRM:CFD.Dispatch@cincinnati-oh.gov<mailto:CFD.Dispatch@cincinnati-oh.gov>\nMSG:WORKING FIRE 2609 CUMMINS, FIREGROUND 2 CFD Dispatch
 FRM:CFD.Dispatch@cincinnati-oh.gov<mailto:CFD.Dispatch@cincinnati-oh.gov>\nMSG:REPORT OF CHILD & ADULT TRAPPED ON 4TH FLOOR. 2ND ALARM ON 907 FORAKER AVE. FIRE GROUND 2... CFD Dispatch
 **********************************************************
+Unknown
+[PG09] 9: OUTSIDE GAS LEAK  At: 04/12 10:12  Dispatch: E809  All: E809  To: BLADENSBURG ELEMENTARY  
+**********************************************************
+**********************************************************
 **********************************************************
 **********************************************************
 ************  READY TO ROLL ******************************
