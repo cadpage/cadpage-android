@@ -218,6 +218,18 @@ public class NJMorrisCountyParserTest extends BaseParserTest {
         "INFO:82 Y/O FEMALE LACERATION TO LEG",
         "UNIT:2398",
         "TIME:16:07");
+
+    doTest("T23",
+        "prvs=24498f54c3=dispatch@co.morris.nj.us MORRISTOWN BEARD SCHOOL (22), 70 WHIPPANY RD [Morris Twp] (STROKE\\\\CVA) - E2368,F22DUTY,E8002\n" +
+        "AT FRONT OF CAMPUS; POSS MALE WITH STROKE\n" +
+        "1st",
+
+        "PLACE:MORRISTOWN BEARD SCHOOL",
+        "ADDR:70 WHIPPANY RD",
+        "CITY:Morris Twp",
+        "CALL:STROKE\\\\CVA",
+        "INFO:AT FRONT OF CAMPUS; POSS MALE WITH STROKE / 1st",
+        "UNIT:E2368,F22DUTY,E8002");
   }
   
   @Test

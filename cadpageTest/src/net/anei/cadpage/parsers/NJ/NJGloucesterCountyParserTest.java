@@ -155,6 +155,25 @@ public class NJGloucesterCountyParserTest extends BaseParserTest {
 
   }
   
+  @Test
+  public void testJohnGoldish() {
+
+    doTest("T1",
+        "COUNTY OF GLOUCESTER (#353135) Dispatch\n\n" +
+        "Sta:10-3\n" +
+        "Type:ALRM\n" +
+        "Loc:5600 BLACK HORSE PIKE         \n" +
+        "Ven:WASHINGTON\n" +
+        "Dsp-04:11:36     \n" +
+        "Clr- STOP",
+
+        "SRC:10-3",
+        "CALL:ALRM",
+        "ADDR:5600 BLACK HORSE PIKE",
+        "CITY:WASHINGTON TWP");
+
+  }
+  
   public static void main(String[] args) {
     new NJGloucesterCountyParserTest().generateTests("T1", "SRC CALL ADDR APT CITY");
   }

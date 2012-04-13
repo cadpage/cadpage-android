@@ -221,6 +221,18 @@ public class MDQueenAnnesCountyParserTest extends BaseParserTest {
 
   }
   
+  @Test
+  public void testEmeric7() {
+
+    doTest("T1",
+        "[CAD] D KENT MUTUAL AID 10788 CHESTERVILLE RD MULTIPLE UNITS HOT KENT",
+        "CALL:KENT MUTUAL AID",
+        "CITY:KENT",
+        "ADDR:10788 CHESTERVILLE RD",
+        "INFO:MULTIPLE UNITS HOT KENT");
+
+  }
+  
   
   public static void main(String[] args) {
     new MDQueenAnnesCountyParserTest().generateTests("T1", "CALL CITY ADDR PLACE INFO BOX");
