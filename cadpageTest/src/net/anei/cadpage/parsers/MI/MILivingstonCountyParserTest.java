@@ -171,6 +171,13 @@ public class MILivingstonCountyParserTest extends BaseParserTest {
         "INFO:RED TRUCK VS SMALL SEDAN PER CALLER SUBJECT IS NOT OK",
         "DATE:12/28/11",
         "TIME:19:50:00");
+
+    doTest("T22",
+        "CAD:FYI: ;SICK;10165 CARLEE JUNE DR;RUNYAN LAKE RD;[Medical Priority Info] RESPONSE: P1 STA 1 4 5 6 7 8 FC FT RESPONDER SCRIPT: 37 year old, Male, Consci",
+        "CALL:SICK",
+        "ADDR:10165 CARLEE JUNE DR",
+        "X:RUNYAN LAKE RD",
+        "INFO:37 year old, Male, Consci");
   }
   
   public static void main(String[] args) {

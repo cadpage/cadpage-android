@@ -166,6 +166,20 @@ public class PALebanonCountyParserTest extends BaseParserTest {
 
   }
   
+  @Test
+  public void testRobertFunc() {
+
+    doTest("T1",
+        "East Hanover Township 7 TOWER LN AREA OF MV - Accident w/Injuries fg 3 E12  Fire-Box 12-03 EMS-Box 190-16",
+        "CITY:EAST HANOVER TOWNSHIP",
+        "ADDR:7 TOWER LN",
+        "PLACE:AREA OF",
+        "CALL:MV - Accident w/Injuries",
+        "BOX:Fire:12-03 EMS:190-16",
+        "UNIT:FG 3 E12");
+
+  }
+  
   public static void main(String[] args) {
     new PALebanonCountyParserTest().generateTests("T1", "CITY ADDR APT PLACE PRI CALL BOX UNIT");
   }
