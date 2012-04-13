@@ -6,10 +6,10 @@ import java.util.regex.Pattern;
 public class PatternTest {
 
   private static final Pattern MASTER = 
-      Pattern.compile("(.*?) \\[([-A-Za-z ]+)\\] \\(([A-Z\\\\/ ]+)\\) - (.*)", Pattern.DOTALL);
+      Pattern.compile("http://maps.google.com/maps\\?q=");
   
   public static void main(String[] args) {
-    doTest("MORRISTOWN BEARD SCHOOL (22), 70 WHIPPANY RD [Morris Twp] (STROKE\\CVA) - E2368,F22DUTY,E8002\nAT FRONT OF CAMPUS; POSS MALE WITH STROKE\n1st");
+    doTest("http://maps.google.com/maps?q=+40.34854%20-78.40453");
   }
   
   private static void doTest(String test) {

@@ -137,6 +137,25 @@ public class PABlairCountyParserTest extends BaseParserTest {
         "ID:31");
   }
   
+  @Test
+  public void testAndrewMeyers() {
+    doTest("T1",
+        "Inc: Inside/Outside Invest \n" +
+        "Add: 8162 WOODBURY PIKE \n" +
+        "City: TAYLOR TW \n" +
+        "Units: 400 60A 40A\n" +
+        "Agency: 40A\n" +
+        "Map: http://maps.google.com/maps?q=+40.34854%20-78.40453",
+
+        "CALL:Inside/Outside Invest",
+        "ADDR:8162 WOODBURY PIKE",
+        "CITY:TAYLOR TWP",
+        "UNIT:400 60A 40A",
+        "SRC:40A",
+        "GPS:+40.34854,-78.40453");
+
+  }
+  
   public static void main(String[] args) {
     new PABlairCountyParserTest().generateTests("T1");
   }
