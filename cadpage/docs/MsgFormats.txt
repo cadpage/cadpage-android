@@ -4270,21 +4270,6 @@ FRM:CFD.Dispatch@cincinnati-oh.gov\nMSG:fyi - working fire 7131 fernbank - garag
 FRM:CFD.Dispatch@cincinnati-oh.gov<mailto:CFD.Dispatch@cincinnati-oh.gov>\nMSG:WORKING FIRE 2609 CUMMINS, FIREGROUND 2 CFD Dispatch
 FRM:CFD.Dispatch@cincinnati-oh.gov<mailto:CFD.Dispatch@cincinnati-oh.gov>\nMSG:REPORT OF CHILD & ADULT TRAPPED ON 4TH FLOOR. 2ND ALARM ON 907 FORAKER AVE. FIRE GROUND 2... CFD Dispatch
 **********************************************************
-Prince Georges County, MD
-Contact: Randy Kuenzli <chief9.rk@gmail.com>
-[PG09] 9: OUTSIDE GAS LEAK  At: 04/12 10:12  Dispatch: E809  All: E809  To: BLADENSBURG ELEMENTARY
-[PG09] 9: ROUTINE TRANSPORT\2sAt: 04/13 07:23\2sBackup: A809\2sAll: A809\2sTo: PGGH - HOSPITAL\2s
-[PG09] 13: MEDIC LOCAL\nAt: 04/12 20:34\nDispatch: A809\nAll: E807 MD830 A809\nTo: 5435 KENILWORTH AVE (KENNEDY ST and JEFFERSON ST)
-[PG09] 13: PIA\nAt: 04/12 19:37\nDispatch: A809\nAll: A809 E807\nTo: EB RIVERDALE RD/EB NB KENILWORTH AVE OFRP EB EAST WEST HWY
-[PG09] 8: INJURED/SICK\nAt: 04/12 18:46\nDispatch: A809\nAll: A809\nTo: 1 YOST PL (ALPACA PL and EAST CAPITOL ST)
-[PG09] 9: ASSAULT\nAt: 04/12 12:04\nDispatch: A809\nAll: A809\nTo: 55TH AVE/EB LANDOVER RD
-[PG09] 9: OUTSIDE GAS LEAK\nAt: 04/12 10:12\nDispatch: E809\nAll: E809\nTo: BLADENSBURG ELEMENTARY
-[PG09] 9: MEDIC LOCAL\nAt: 04/12 10:02\nDispatch: A809\nAll: A809 MD830\nTo: PORT TOWNS ELEMENTARY
-[PG09] 9: OUTSIDE GAS LEAK\nAt: 04/12 09:20\nDispatch: E809\nAll: E809\nTo: BLADENSBURG ELEMENTARY
-[PG09] 9: INJURED/SICK\nAt: 04/12 04:42\nDispatch: A809\nAll: A809\nTo: 6001 LOGAN WAY #C10 (EMERSON ST and TOWNSEND WAY)
-[PG09] 28: BUILDING FIRE\nAt: 04/12 00:12\nDispatch: TK809 BO882\nAll: E828 PE830 E833 E833B TW833 TK809 SQ806 BO882\nTo: 8500 ANNAPOLIS RD
-
-**********************************************************
 **********************************************************
 **********************************************************
 **********************************************************
@@ -4434,3 +4419,4 @@ CFFD:2012:306\nDISPATCHED\nMEDALS\n80, THOMAS BL ;LAWRENCE TWP
 CFFD:2012:307\nDISPATCHED\nMEDALS\n1165, S LOCUST ST ;CANAL FULTON
 CFFD:2012:308\nDISPATCHED\nMEDALS\n581, BEVERLY AV ;CANAL FULTON
 CFFD:2012:309\nDISPATCHED\nMEDALS\n8757, SPRING GROVE AV NW ;LAWRENCE TWP
+**********************************************************
