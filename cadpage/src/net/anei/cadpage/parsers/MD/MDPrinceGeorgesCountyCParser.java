@@ -63,6 +63,22 @@ Contact: support@active911.com
 (CAD Feed) Engine 828 Incident: F120830248, Type: BLS Amb, Loc: NB CAP BELT OL A HWY AT NB BALTIMORE WASHINGTON PKY NB, GP, at NB CAP BELT OL A HWY AT NB BALTIMORE WASHINGTON PKY NB, G, TalkGroup: TGA2, Box: 2833, Map: 5410 J 2, Text: O/L OF THE CAP BELTWAY AT THE PARKWAY MSP ONSCENE W/ AN INJ PERSON FROM A PREV ACCIDENT, Units:A830, E828 Sent to Prince George's alert recipients (E-mail, Wireless) through Alert Prince George's ... powered by Cooper Notification's Roam Secure Alert Network -- You received this message because you registered on Alert Prince George's.\2sTo change your alerting preferences go to https://alert.princegeorgescountymd.gov/mygroups.php Reply to this message with "Stop" to end all notifications from Alert Prince George's to this device\2sresponse_url:http://active911.com/alaHkdEI 
 (CAD Feed) Engine 809 Incident: F121010358, Type: Street Alarm, Loc: 3205 RHODE ISLAND AVE #23, MR, btwn EASTERN AVE and 33RD ST, TalkGroup: TA11, Box: 5502, Map: 5529 F 1, Units:BO884, E809, E855B, TK801, TK809 Sent to Prince George's alert recipients (E-mail, Wireless) through Alert Prince George's ... powered by Cooper Notification's Roam Secure Alert Network -- You received this message because you registered on Alert Prince George's.\2sTo change your alerting preferences go to https://alert.princegeorgescountymd.gov/mygroups.php Reply to this message with "Stop" to end all notifications from Alert Prince George's to this device
 
+Contact: Dewey Thomas <dewey@codemessaging.net>
+[BATT6] Battalion Chief 886 Incident: F121030330, Type: PIA Limited Access, Loc: OL CAP BELTBETWEEN NEW HAMSHIRE AVE & COUNTY LINE, TalkGroup: TGA2, Box: MAMC, Text: PE841 A841 SQ814 BO886 CHANNEL 7 BRAVO, Units:A841, BO886, PE841, SQ814
+[BATT4] Battalion Chief 884 Incident: F121030295, Type: Street Alarm, Loc: 5437 16TH AVE #204, PP, btwn JONATHAN ST and KENNEDY ST, TalkGroup: TA11, Box: 4401, Map: 5409 C 8, Text: Fire ProQA recommends dispatch at this time, Units:BO884, E855B, PE844, TK801, TK834
+[EMS09] Ambulance 809 Incident: F121030289, Type: Acc w/Inj, Loc: EB RIVERDALE RD/EB NB KENILWORTH AVE OFRP EB EAST WEST HWY,, <0/ 0>, TalkGroup: TGA2, Box: 1303, Map: 5410 C 7, Text: RPPD O/S W/ A ACCIDENT, Units:A809, E807
+[EMS09] Ambulance 809 Incident: F121030276, Type: BLS Amb, Loc: 1 YOST PL, PP, btwn ALPACA PL and EAST CAPITOL ST, TalkGroup: TGA2, Box: 0817, Map: 5530 F 8, Text: TO THE REAR.., Unit:A809
+[EMS09] Ambulance 809 Incident: F121030225, Type: Acc w/Inj, Loc: DECATUR ST/46TH AVE, HP, <4600/ 4900>, TalkGroup: TGA2, Box: 0909, Map: 5409 K 8, Text: DUMPTRUCK AND MERCEDES...UNK INJ...HYATTSVILLE PD ADV, Units:A809, E809
+[PG09] Ambulance 809 Incident: F121030225, Type: Acc w/Inj, Loc: DECATUR ST/46TH AVE, HP, <4600/ 4900>, TalkGroup: TGA2, Box: 0909, Map: 5409 K 8, Text: DUMPTRUCK AND MERCEDES...UNK INJ...HYATTSVILLE PD ADV, Units:A809, E809
+[EMS09] Ambulance 809 Incident: F121030187, Type: BLS Amb, Loc: 3551 55TH AVE #3, PP, btwn MACBETH ST and MADISON WAY, TalkGroup: TGA2, Box: 0916, Map: 5530 C 1, Text: Medical ProQA recommends dispatch at this time, Unit:A809
+[BATT6] Battalion Chief 886 Incident: F121030179, Type: House Fire, Loc: 9406 GLEN RIDGE DR, TalkGroup: TGA2, Box: MAHC, Text: SQ849 TW810 A849 FOR THE HOUSEF HOWARD TGB1 HOWARD BOX 6-16, Units:A849B, BO886, SQ849, TW810
+[EMS09] Ambulance 809 Incident: F121030140, Type: Assault, Loc: 55TH AVE/EB LANDOVER RD, PP, <3799/ 5499>, TalkGroup: TGA2, Box: 0911, Map: 5410 C 10, Unit:A809
+[PG09] Engine 809 Incident: F121030103, Type: Outside Gas Leak, Loc: BLADENSBURG ELEMENTARY, BP, at 4915 ANNAPOLIS RD, BP, btwn EDMONSTON RD and 51ST ST, TalkGroup: TGA2, Box: 0914, Map: 5410 A 10, Text: Fire ProQA recommends dispatch at this time, Unit:E809
+[EMS09] Ambulance 809 Incident: F121030099, Type: Medic Local, Loc: PORT TOWNS ELEMENTARY, BP, at 4351 58TH AVE, BP, btwn 57TH AVE and EMERSON ST, TalkGroup: TGA2, Box: 0904, Map: 5410 D 9, Text: Medical ProQA recommends dispatch at this time, Units:A809, MD830
+[PG09] Engine 809 Incident: F121030089, Type: Outside Gas Leak, Loc: BLADENSBURG ELEMENTARY, BP, at 4915 ANNAPOLIS RD, BP, btwn EDMONSTON RD and 51ST ST, TalkGroup: TGA2, Box: 0914, Map: 5410 A 10, Text: Fire ProQA recommends dispatch at this time, Unit:E809
+[PGWFD] Working Incident Incident: F121030003, Type: Building Fire, Loc: 8500 ANNAPOLIS RD, PP, btwn 85TH AVE and SB CAP BELT HWY OFRP WB ANNAPOLIS RD, TalkGroup: TGA3, Box: 2805, Map: 5411 A 7, Text: Fire ProQA recommends dispatch at this time, Units:A806, BO881, EMSDO, MD830, NSO, WI
+[PG09] Truck 809 Incident: F121030003, Type: Building Fire, Loc: 8500 ANNAPOLIS RD, PP, btwn 85TH AVE and SB CAP BELT HWY OFRP WB ANNAPOLIS RD, TalkGroup: TGA2, Box: 2805, Map: 5411 A 7, Text: Fire ProQA recommends dispatch at this time, Units:BO882, E828, E833, E833B, PE830, SQ806, TK809, TW833
+
 */
 
 public class MDPrinceGeorgesCountyCParser extends FieldProgramParser {
@@ -144,7 +160,7 @@ public class MDPrinceGeorgesCountyCParser extends FieldProgramParser {
   
   @Override
   public Field getField(String name) {
-    if (name.equals("PP")) return new SkipField("[A-Z]{1,2}(?: <0)?", true);
+    if (name.equals("PP")) return new SkipField("[A-Z]{0,2}(?: <0)?", true);
     if (name.equals("AT")) return new AtField();
     if (name.equals("X")) return new MyCrossField();
     if (name.equals("INFO")) return new MyInfoField();

@@ -411,6 +411,7 @@ public class MsgInfo {
     sAddr = cleanRoutes(sAddr);
     sAddr = cleanDoubleRoutes(sAddr);
     sAddr = cleanInterstate(sAddr);
+    sAddr = cleanOffRamp(sAddr);
     
     // Make sure & are surrounded by blanks
     sAddr = sAddr.replaceAll(" *& *", " & ");
@@ -429,6 +430,7 @@ public class MsgInfo {
         sCross = cleanRoutes(sCross);
         sCross = cleanDoubleRoutes(sCross);
         sCross = cleanInterstate(sCross);
+        sCross = cleanOffRamp(sCross);
         sAddr = prefix + sAddr + " & " + sCross;
       }
     
@@ -666,6 +668,13 @@ public class MsgInfo {
     
     // Google also doesn't like I-20 fwy contructs
     sAddress = I_FWY_PTN.matcher(sAddress).replaceAll("$1");
+    return sAddress;
+  }
+  
+  private static final Pattern OFFRAMP_PTN = Pattern.compile(" OFRP ", Pattern.CASE_INSENSITIVE);
+  private static String cleanOffRamp(String sAddress) {
+    Matcher match = OFFRAMP_PTN.matcher(sAddress);
+    if (match.find()) sAddress = sAddress.substring(0,match.start()).trim();
     return sAddress;
   }
 
