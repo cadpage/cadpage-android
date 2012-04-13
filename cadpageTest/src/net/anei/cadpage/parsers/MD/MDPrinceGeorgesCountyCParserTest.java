@@ -488,7 +488,183 @@ public class MDPrinceGeorgesCountyCParserTest extends BaseParserTest {
         "BOX:5502",
         "MAP:5529 F 1",
         "UNIT:BO884,E809,E855B,TK801,TK809");
+  }
+  
+  @Test
+  public void testCodeMessaging() {
 
+    doTest("T1",
+        "[BATT6] Battalion Chief 886 Incident: F121030330, Type: PIA Limited Access, Loc: OL CAP BELTBETWEEN NEW HAMSHIRE AVE & COUNTY LINE, TalkGroup: TGA2, Box: MAMC, Text: PE841 A841 SQ814 BO886 CHANNEL 7 BRAVO, Units:A841, BO886, PE841, SQ814",
+        "SRC:Battalion Chief 886",
+        "ID:F121030330",
+        "CALL:PIA Limited Access",
+        "ADDR:OL CAP BELTBETWEEN NEW HAMSHIRE AVE & COUNTY LINE",
+        "CH:TGA2",
+        "BOX:MAMC",
+        "INFO:PE841 A841 SQ814 BO886 CHANNEL 7 BRAVO",
+        "UNIT:A841,BO886,PE841,SQ814");
+
+    doTest("T2",
+        "[BATT4] Battalion Chief 884 Incident: F121030295, Type: Street Alarm, Loc: 5437 16TH AVE #204, PP, btwn JONATHAN ST and KENNEDY ST, TalkGroup: TA11, Box: 4401, Map: 5409 C 8, Text: Fire ProQA recommends dispatch at this time, Units:BO884, E855B, PE844, TK801, TK834",
+        "SRC:Battalion Chief 884",
+        "ID:F121030295",
+        "CALL:Street Alarm",
+        "ADDR:5437 16TH AVE",
+        "APT:204",
+        "X:JONATHAN ST and KENNEDY ST",
+        "CH:TA11",
+        "BOX:4401",
+        "MAP:5409 C 8",
+        "UNIT:BO884,E855B,PE844,TK801,TK834");
+
+    doTest("T3",
+        "[EMS09] Ambulance 809 Incident: F121030289, Type: Acc w/Inj, Loc: EB RIVERDALE RD/EB NB KENILWORTH AVE OFRP EB EAST WEST HWY,, <0/ 0>, TalkGroup: TGA2, Box: 1303, Map: 5410 C 7, Text: RPPD O/S W/ A ACCIDENT, Units:A809, E807",
+        "SRC:Ambulance 809",
+        "ID:F121030289",
+        "CALL:Acc w/Inj",
+        "ADDR:EB RIVERDALE RD & EB NB KENILWORTH AVE OFRP EB EAST WEST HWY",
+        "MADDR:RIVERDALE RD & KENILWORTH AVE",
+        "CH:TGA2",
+        "BOX:1303",
+        "MAP:5410 C 7",
+        "INFO:RPPD O/S W/ A ACCIDENT",
+        "UNIT:A809,E807");
+
+    doTest("T4",
+        "[EMS09] Ambulance 809 Incident: F121030276, Type: BLS Amb, Loc: 1 YOST PL, PP, btwn ALPACA PL and EAST CAPITOL ST, TalkGroup: TGA2, Box: 0817, Map: 5530 F 8, Text: TO THE REAR.., Unit:A809",
+        "SRC:Ambulance 809",
+        "ID:F121030276",
+        "CALL:BLS Amb",
+        "ADDR:1 YOST PL",
+        "X:ALPACA PL and EAST CAPITOL ST",
+        "CH:TGA2",
+        "BOX:0817",
+        "MAP:5530 F 8",
+        "INFO:TO THE REAR..",
+        "UNIT:A809");
+
+    doTest("T5",
+        "[EMS09] Ambulance 809 Incident: F121030225, Type: Acc w/Inj, Loc: DECATUR ST/46TH AVE, HP, <4600/ 4900>, TalkGroup: TGA2, Box: 0909, Map: 5409 K 8, Text: DUMPTRUCK AND MERCEDES...UNK INJ...HYATTSVILLE PD ADV, Units:A809, E809",
+        "SRC:Ambulance 809",
+        "ID:F121030225",
+        "CALL:Acc w/Inj",
+        "ADDR:DECATUR ST & 46TH AVE",
+        "CH:TGA2",
+        "BOX:0909",
+        "MAP:5409 K 8",
+        "INFO:DUMPTRUCK AND MERCEDES...UNK INJ...HYATTSVILLE PD ADV",
+        "UNIT:A809,E809");
+
+    doTest("T6",
+        "[PG09] Ambulance 809 Incident: F121030225, Type: Acc w/Inj, Loc: DECATUR ST/46TH AVE, HP, <4600/ 4900>, TalkGroup: TGA2, Box: 0909, Map: 5409 K 8, Text: DUMPTRUCK AND MERCEDES...UNK INJ...HYATTSVILLE PD ADV, Units:A809, E809",
+        "SRC:Ambulance 809",
+        "ID:F121030225",
+        "CALL:Acc w/Inj",
+        "ADDR:DECATUR ST & 46TH AVE",
+        "CH:TGA2",
+        "BOX:0909",
+        "MAP:5409 K 8",
+        "INFO:DUMPTRUCK AND MERCEDES...UNK INJ...HYATTSVILLE PD ADV",
+        "UNIT:A809,E809");
+
+    doTest("T7",
+        "[EMS09] Ambulance 809 Incident: F121030187, Type: BLS Amb, Loc: 3551 55TH AVE #3, PP, btwn MACBETH ST and MADISON WAY, TalkGroup: TGA2, Box: 0916, Map: 5530 C 1, Text: Medical ProQA recommends dispatch at this time, Unit:A809",
+        "SRC:Ambulance 809",
+        "ID:F121030187",
+        "CALL:BLS Amb",
+        "ADDR:3551 55TH AVE",
+        "APT:3",
+        "X:MACBETH ST and MADISON WAY",
+        "CH:TGA2",
+        "BOX:0916",
+        "MAP:5530 C 1",
+        "UNIT:A809");
+
+    doTest("T8",
+        "[BATT6] Battalion Chief 886 Incident: F121030179, Type: House Fire, Loc: 9406 GLEN RIDGE DR, TalkGroup: TGA2, Box: MAHC, Text: SQ849 TW810 A849 FOR THE HOUSEF HOWARD TGB1 HOWARD BOX 6-16, Units:A849B, BO886, SQ849, TW810",
+        "SRC:Battalion Chief 886",
+        "ID:F121030179",
+        "CALL:House Fire",
+        "ADDR:9406 GLEN RIDGE DR",
+        "CH:TGA2",
+        "BOX:MAHC",
+        "INFO:SQ849 TW810 A849 FOR THE HOUSEF HOWARD TGB1 HOWARD BOX 6-16",
+        "UNIT:A849B,BO886,SQ849,TW810");
+
+    doTest("T9",
+        "[EMS09] Ambulance 809 Incident: F121030140, Type: Assault, Loc: 55TH AVE/EB LANDOVER RD, PP, <3799/ 5499>, TalkGroup: TGA2, Box: 0911, Map: 5410 C 10, Unit:A809",
+        "SRC:Ambulance 809",
+        "ID:F121030140",
+        "CALL:Assault",
+        "ADDR:55TH AVE & EB LANDOVER RD",
+        "MADDR:55TH AVE & LANDOVER RD",
+        "CH:TGA2",
+        "BOX:0911",
+        "MAP:5410 C 10",
+        "UNIT:A809");
+
+    doTest("T10",
+        "[PG09] Engine 809 Incident: F121030103, Type: Outside Gas Leak, Loc: BLADENSBURG ELEMENTARY, BP, at 4915 ANNAPOLIS RD, BP, btwn EDMONSTON RD and 51ST ST, TalkGroup: TGA2, Box: 0914, Map: 5410 A 10, Text: Fire ProQA recommends dispatch at this time, Unit:E809",
+        "SRC:Engine 809",
+        "ID:F121030103",
+        "CALL:Outside Gas Leak",
+        "ADDR:4915 ANNAPOLIS RD",
+        "PLACE:BLADENSBURG ELEMENTARY",
+        "X:EDMONSTON RD and 51ST ST",
+        "CH:TGA2",
+        "BOX:0914",
+        "MAP:5410 A 10",
+        "UNIT:E809");
+
+    doTest("T11",
+        "[EMS09] Ambulance 809 Incident: F121030099, Type: Medic Local, Loc: PORT TOWNS ELEMENTARY, BP, at 4351 58TH AVE, BP, btwn 57TH AVE and EMERSON ST, TalkGroup: TGA2, Box: 0904, Map: 5410 D 9, Text: Medical ProQA recommends dispatch at this time, Units:A809, MD830",
+        "SRC:Ambulance 809",
+        "ID:F121030099",
+        "CALL:Medic Local",
+        "ADDR:4351 58TH AVE",
+        "PLACE:PORT TOWNS ELEMENTARY",
+        "X:57TH AVE and EMERSON ST",
+        "CH:TGA2",
+        "BOX:0904",
+        "MAP:5410 D 9",
+        "UNIT:A809,MD830");
+
+    doTest("T12",
+        "[PG09] Engine 809 Incident: F121030089, Type: Outside Gas Leak, Loc: BLADENSBURG ELEMENTARY, BP, at 4915 ANNAPOLIS RD, BP, btwn EDMONSTON RD and 51ST ST, TalkGroup: TGA2, Box: 0914, Map: 5410 A 10, Text: Fire ProQA recommends dispatch at this time, Unit:E809",
+        "SRC:Engine 809",
+        "ID:F121030089",
+        "CALL:Outside Gas Leak",
+        "ADDR:4915 ANNAPOLIS RD",
+        "PLACE:BLADENSBURG ELEMENTARY",
+        "X:EDMONSTON RD and 51ST ST",
+        "CH:TGA2",
+        "BOX:0914",
+        "MAP:5410 A 10",
+        "UNIT:E809");
+
+    doTest("T13",
+        "[PGWFD] Working Incident Incident: F121030003, Type: Building Fire, Loc: 8500 ANNAPOLIS RD, PP, btwn 85TH AVE and SB CAP BELT HWY OFRP WB ANNAPOLIS RD, TalkGroup: TGA3, Box: 2805, Map: 5411 A 7, Text: Fire ProQA recommends dispatch at this time, Units:A806, BO881, EMSDO, MD830, NSO, WI",
+        "SRC:Working Incident",
+        "ID:F121030003",
+        "CALL:Building Fire",
+        "ADDR:8500 ANNAPOLIS RD",
+        "X:85TH AVE and SB CAP BELT HWY OFRP WB ANNAPOLIS RD",
+        "CH:TGA3",
+        "BOX:2805",
+        "MAP:5411 A 7",
+        "UNIT:A806,BO881,EMSDO,MD830,NSO,WI");
+
+    doTest("T14",
+        "[PG09] Truck 809 Incident: F121030003, Type: Building Fire, Loc: 8500 ANNAPOLIS RD, PP, btwn 85TH AVE and SB CAP BELT HWY OFRP WB ANNAPOLIS RD, TalkGroup: TGA2, Box: 2805, Map: 5411 A 7, Text: Fire ProQA recommends dispatch at this time, Units:BO882, E828, E833, E833B, PE830, SQ806, TK809, TW833",
+        "SRC:Truck 809",
+        "ID:F121030003",
+        "CALL:Building Fire",
+        "ADDR:8500 ANNAPOLIS RD",
+        "X:85TH AVE and SB CAP BELT HWY OFRP WB ANNAPOLIS RD",
+        "CH:TGA2",
+        "BOX:2805",
+        "MAP:5411 A 7",
+        "UNIT:BO882,E828,E833,E833B,PE830,SQ806,TK809,TW833");
   }
   
   public static void main(String[] args) {

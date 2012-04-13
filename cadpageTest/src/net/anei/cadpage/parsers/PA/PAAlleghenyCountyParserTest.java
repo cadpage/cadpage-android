@@ -144,7 +144,7 @@ public class PAAlleghenyCountyParserTest extends BaseParserTest {
         "PRI:F0",
         "PLACE:BRIDGEVILLE EXIT",
         "ADDR:54 SB I-79 OFRP MILLERS RUN RD RMP",
-        "MADDR:54 I 79 OFRP MILLERS RUN RD RMP",
+        "MADDR:54 I 79",
         "CITY:SOUTH FAYETTE",
         "X:END and MILLERS RUN RD",
         "SRC:SFD3",
