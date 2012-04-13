@@ -51,6 +51,18 @@ public class NCMontgomeryCountyParserTest extends BaseParserTest {
         "INFO:SEXUAL ASSAULT ASSAULT CALLERS SON GAVE FM BLACK EYE");
   }
   
+  @Test
+  public void testMikeBarrington() {
+
+    doTest("T1",
+        "CAD:217 BRUTONVILLE CHURCH ST CANDOR 20:52:18 SMOKE INVESTIGATION (OUTSIDE) ADV THERE IS SMOKE AND IT IS MAKING HER SICK FROM FIRE EARLIER TODAY",
+        "ADDR:217 BRUTONVILLE CHURCH ST",
+        "CITY:CANDOR",
+        "TIME:20:52:18",
+        "CALL:SMOKE INVESTIGATION (OUTSIDE) ADV THERE IS SMOKE AND IT IS MAKING HER SICK FROM FIRE EARLIER TODAY");
+
+  }
+  
 
   public static void main(String[] args) {
     new NCMontgomeryCountyParserTest().generateTests("T1", "PLACE ADDR APT CITY CODE TIME CALL INFO");
