@@ -469,7 +469,7 @@ public class MDPrinceGeorgesCountyCParserTest extends BaseParserTest {
         "ID:F120830248",
         "CALL:BLS Amb",
         "ADDR:NB CAP BELT OL A HWY & NB BALTIMORE WASHINGTON PKY NB",
-        "MADDR:CAP BELT OL A HWY & BALTIMORE WASHINGTON PKY",
+        "MADDR:CAPITAL BELTWAY & BALTIMORE WASHINGTON PKY",
         "CH:TGA2",
         "BOX:2833",
         "MAP:5410 J 2",

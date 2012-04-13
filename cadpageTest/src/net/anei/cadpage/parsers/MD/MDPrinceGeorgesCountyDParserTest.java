@@ -123,6 +123,16 @@ public class MDPrinceGeorgesCountyDParserTest extends BaseParserTest {
         "TIME:00:12",
         "UNIT:E828 PE830 E833 E833B TW833 TK809 SQ806 BO882",
         "ADDR:8500 ANNAPOLIS RD");
+
+    doTest("T12",
+        "[PG09] 13: STREET ALARM  At: 04/13 12:37  Dispatch: TK809 BO884  All: E807 TK809 E807B TK801 BO884  To: 5906 62ND AVE (GREENVALE PKY and 64TH AVE)  ",
+        "SRC:PG09",
+        "CALL:STREET ALARM",
+        "DATE:04/13",
+        "TIME:12:37",
+        "UNIT:E807 TK809 E807B TK801 BO884",
+        "ADDR:5906 62ND AVE",
+        "X:GREENVALE PKY and 64TH AVE");
   }
   
   public static void main(String[] args) {
