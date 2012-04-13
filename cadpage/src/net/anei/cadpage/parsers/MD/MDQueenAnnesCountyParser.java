@@ -61,6 +61,9 @@ Contact: Josh Ruby <firefighter_josh@hotmail.com>
 Sender: rc.579@c-msg.net
 1-3 SEIZURES 380 LOG CANOE CIR @PRS GUITARS <35 NOT VERIFIED Q01
 
+Contact: "emteric7@yahoo.com" <emteric7@yahoo.com>
+[CAD] D KENT MUTUAL AID 10788 CHESTERVILLE RD MULTIPLE UNITS HOT KENT
+
 ******************************************************************************/
 
 public class MDQueenAnnesCountyParser extends SmartAddressParser {

@@ -36,6 +36,7 @@ SUNRISE ASSISTED LIVING (23), 209 LITTLETON RD [Morris Plains] (SICK PERSN) - 1S
 
 prvs=3175827e30=dispatch@co.morris.nj.us Police Academy Morris Cty, 500 W HANOVER AVE [Parsippany-Troy] (UNCONSCNS) - CONSTRUCTION WORKER STATED HE BLACKED OUT. HE IS SITTING INSID
 prvs=62791756a7=dispatch@co.morris.nj.us PRO HAIRCUTTERS INC (23), 1711 RT 10 E [Morris Plains] (HEM/CUTS) - 82 Y/O FEMALE LACERATION TO LEG - 2398 16:07
+prvs=24498f54c3=dispatch@co.morris.nj.us MORRISTOWN BEARD SCHOOL (22), 70 WHIPPANY RD [Morris Twp] (STROKE\\CVA) - E2368,F22DUTY,E8002\nAT FRONT OF CAMPUS; POSS MALE WITH STROKE\n1st
 
 Contact: kmattes13 <kmattes13@gmail.com>
 Sender: Dispatch@co.morris.nj.us
@@ -61,7 +62,7 @@ Sender: messaging@iamresponding.com
 public class NJMorrisCountyParser extends MsgParser {
   
   private static final Pattern MASTER_PTN = 
-    Pattern.compile("(.*?) \\[([-A-Za-z ]+)\\] \\(([A-Z/ ]+)\\) - (.*)", Pattern.DOTALL);
+    Pattern.compile("(.*?) \\[([-A-Za-z ]+)\\] \\(([A-Z\\\\/ ]+)\\) - (.*)", Pattern.DOTALL);
   
   private static final Pattern PLACE_CODE_PTN = Pattern.compile("\\(\\d+\\)$");
   

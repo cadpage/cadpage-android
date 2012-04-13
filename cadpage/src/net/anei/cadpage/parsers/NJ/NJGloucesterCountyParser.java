@@ -37,6 +37,10 @@ Contact: orders@coasttocoastoutlet.com
 Sender: 777155668218
 COUNTY OF GLOUCESTER (#353519) Dispatch\n\nSta:10-2\nType:ALRM\nLoc:5 BELMONT BLVD\                \nVen:WASHINGTON\nDsp-\nClr- STOP
 
+Contact: John Godish <jg10306@gmail.com>
+Sender: 777146881581
+COUNTY OF GLOUCESTER (#353135) Dispatch\n\nSta:10-3\nType:ALRM\nLoc:5600 BLACK HORSE PIKE         \nVen:WASHINGTON\nDsp-04:11:36     \nClr- STOP
+
  */
 
 
@@ -49,7 +53,7 @@ public class NJGloucesterCountyParser extends FieldProgramParser {
  
   @Override
   public String getFilter() {
-    return "@private.gloucesteralert.com,777155";
+    return "@private.gloucesteralert.com,7771";
   }
 
   @Override
