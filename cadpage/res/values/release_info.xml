@@ -1,42 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">04072012</string>
-  <string name="release_version">v1.5.26</string>
+  <string name="release_date">04132012</string>
+  <string name="release_version">v1.5.32</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="min_expire_date">10012012</string>
   <string name="release_text">
-Added option so hide direct paging vendor response menu buttons.\n
-\n
 New Locations:\n
-EmergyCare in Erie County, PA\n
-Louisa County, VA (replacement)\n
+Acadian Ambulance, LA, MS, TX\n
+Baltimore County, MD\n
+Prince Georges County, MD (alt)\n
+
 \n
 Location Parsing Fixes:\n
-Ozark, AL\n
-Butte County, CA\n
-Polk County, IN\n
-Howard County, MD\n
-Somerset County, NJ\n
-Monmouth County,NJ\n
-Morris County, NJ\n
-Sussex County, NJ\n
-Chatauqua County, NY\n
-Genesee County, NY\n
-Madison County, NY\n
-Nassau County, NY\n
+Prince Georges County, MD\n
 Oneida County, NY\n
-Suffolk COunty, NY\n
-Cabarrus County, NC\n
+Morris County, NJ\n
+Geauga County, OH\n
 Marion County, OR\n
-Bucks County, PA\n
-Greenville County, SC\n
+Erie County, PA\n
+Blair County, PA\n
+Lebanon County, PA\n
+Hamilton County, TN\n
+Botetourt County, VA\n
 \n
 General Fixes:\n
 Fixed to work properly with Pansi SMS.  Handcent and Go SMS remain uncooperative.\n
-Fixed problem that may be responsible for sporadic widget issues.\n
-Fixed some problems with general alert reports.\n
-Using return key to close call detail window wil now clear Cadpage notifications.\n
   </string>  
 </resources>
   
