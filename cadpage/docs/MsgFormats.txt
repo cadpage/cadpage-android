@@ -4391,7 +4391,7 @@ Calan Fulton, OH
 Contact: support@active911.com
 Sender: RED@sssnet.com
 RED:[02]- NATURE: EMERGENCY MEDICAL CALL LOCATION: 5830 MANCHEST ER AV NW LAWRENCE TWP BETWEEN PATTERSON / GADDIS ACCESS BY NORTH LAWRENCE FIRE COMMENTS: MENTAL HEALTH EVAL ON STATIO N
-RED:[43]- NATURE: EMERGENCY MEDICAL CALL LOCATION: 80 THOMAS BL NW LAWRENCE TWP BETWEEN NICHOLAS / CARMELLA ACCESS BY 40 C ORNERS TRAILER PARK COMMENTS: COMPLICATIONS WITH PANCREATITI S
+RED:[43]- NATURE: EMERGENCY MEDICAL CALL LOCATION: 80 TfHOMAS BL NW LAWRENCE TWP BETWEEN NICHOLAS / CARMELLA ACCESS BY 40 C ORNERS TRAILER PARK COMMENTS: COMPLICATIONS WITH PANCREATITI S
 RED:[02]- NATURE: PUBLIC SERVICE-SQUAD LOCATION: 8757 SPRING GRO VE AV NW LAWRENCE TWP BETWEEN GLENCOE / GENEVA COMMENTS: LI FT ASSIST GARAGE ENTRANCE
 
 Sender: cencom@neohio.twcbc.com
@@ -4401,3 +4401,78 @@ CFFD:2012:307\nDISPATCHED\nMEDALS\n1165, S LOCUST ST ;CANAL FULTON
 CFFD:2012:308\nDISPATCHED\nMEDALS\n581, BEVERLY AV ;CANAL FULTON
 CFFD:2012:309\nDISPATCHED\nMEDALS\n8757, SPRING GROVE AV NW ;LAWRENCE TWP
 **********************************************************
+Bucks County, PA (Alternate)
+
+I have the option of having the initial Bucks County dispatches sent in the
+following format via email, instead of the "text message" format.  I'm
+thinking that this would be much better if you had a second Bucks County
+parser for this format because for EMS units, we can actually see the units
+being dispatched by the "DISP and ADD" fields instead of just the 134/E60
+source text like we're using now.  Just the unit identifiers like A134 and
+QUT60 would be all we'd need.  I wouldn't include the medic number/name.
+Plus, you could take the "ENTRY:" text and add that in as info so we know
+what the problem is instead of just a call-type.  Other than that, I don't
+think we really need to add anything else.  Some things like Xref:, Initial
+Alarm Level:,Final Alarm Level:, Final Type:, Pri:, Dspo:, and Prem:,
+Group:, Beat:, Src:, and ATT: don't really mean anything to us.  We
+typically use the Fire Blk for all box maps, but having the EMS Blk may be
+helpful too.  They could just be listed right beside each other and we'd
+know the difference since EMS stations are 3 digits in the 100's (ex: 134)
+and fire stations are 2 (ex: 60).  Nobody uses the PD Blk for anything.
+What do you think about this?  Would it be possible to use for the
+additional info?  I've been trying to find a way to get that entry text into
+the dispatches like other dispatch centers do it, but Bucks refuses to add
+it to the paging because they want to make sure all their messages come
+through to people with pagers in a single SMS message.  Lehigh county never
+cared, so I usually got 2-3 SMS messages for each alarm.  If you post this
+in the issues list, just remove the caller name/number.  Thanks.
+
+Subject: 
+
+911 Data
+
+
+Date: 
+
+Fri, 13 Apr 2012 15:57:29 -0400
+
+
+From: 
+
+ <mailto:mss@co.bucks.pa.us> <mss@co.bucks.pa.us>
+
+
+To: 
+
+ <mailto:countyprints@chalfontems.org> <countyprints@chalfontems.org>
+
+ 
+
+ <SYSTEM GENERATED> TO INT1 FROM FS01  : 
+134/E60
+                                                    
+ 
+ 
+ Inc History for: #ED1213417    Xref:                           #PD121040864
+
+ 
+ Entered      04/13/12  15:57:01  BY PD10   753      
+ Dispatched   04/13/12  15:57:23  BY FS01   619      
+ 
+ Initial Type: ADIAB   Initial Alarm Level:  1  Final Alarm Level:  1
+ Final Type: ADIAB (DIABETIC EMERGENCY) Pri: 3 Dspo:      Prem: [  ]
+ EMS Blk:  134620 Fire Blk:  60063  Police Blk:  36106  Map Page: 3032G4 
+ Group: EN  Beat: 134 Src:  N ATT:  MTC - Meet the Complainant  
+ Loc: RT 309 OFFICE FURN ,36 at 1711 BETHLEHEM PK ,36 btwn SWARTLEY RD &
+MILL RD
+ 
+ Loc Info: 
+ Name: DAN MCTAGUE             Addr:                         Phone:
+2676406378
+ 
+/1557  (753     )  ENTRY:         63YOM,,AWAKE BUT INCOHERENT,,REFUSING THE
+SUGA
+                                  RS
+/1557  (619     )  DISP    A134    #125093   PANKOE,RYAN 
+/1557              ADD     QUT60  
+ 

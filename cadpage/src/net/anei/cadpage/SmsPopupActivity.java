@@ -15,6 +15,7 @@ import net.anei.cadpage.parsers.MsgInfo;
 import net.anei.cadpage.vendors.VendorManager;
 import net.anei.cadpage.wrappers.TextToSpeechWrapper;
 import net.anei.cadpage.wrappers.TextToSpeechWrapper.OnInitListener;
+import android.annotation.TargetApi;
 import android.app.Activity;
 import android.app.Dialog;
 import android.app.ProgressDialog;
@@ -510,7 +511,8 @@ public class SmsPopupActivity extends Activity {
   /**
    * Back key pressed
    */
-  @Override
+@TargetApi(5)
+@Override
   public void onBackPressed() {
     super.onBackPressed();
     
