@@ -102,7 +102,7 @@ public class MsgInfoTest {
     
     doMapTest("EO", "BLACK ST & RED RD,KENBURG,XX", "BLACK ST EO RED RD");
     
-    doMapTest("SRT", "SRT 155 & SRT 161,KENBURG,XX", "SRT155&SRT161");
+    doMapTest("SRT", "ST 155 & ST 161,KENBURG,XX", "SRT155&SRT161");
     
     doMapTest("NEAR", "BRICK CHURCH RD & RT 214,KENBURG,XX", "BRICK CHURCH RD NEAR RT 214");
   }

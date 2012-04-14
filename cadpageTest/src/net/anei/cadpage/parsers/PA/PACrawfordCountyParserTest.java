@@ -16,7 +16,7 @@ public class PACrawfordCountyParserTest extends BaseParserTest {
 
     doTest("T1",
         "FRM:\nSUBJ:TWDU >TREES/WIRES DOWN URGENT\nMSG:OESCAD:STATE HWY 18 SPRING TWP THARP, DENNIS Cad: 2012-0000000067",
-        "CALL:TREES/WIRES DOWN URGENT OESCAD:",
+        "CALL:TREES/WIRES DOWN URGENT",
         "ADDR:STATE HWY 18",
         "MADDR:STATE 18",
         "CITY:SPRING TWP",
@@ -25,7 +25,7 @@ public class PACrawfordCountyParserTest extends BaseParserTest {
 
     doTest("T2",
         "FRM:OESCAD@WINDSTREAM.NET\nSUBJ:TWDU  >TREES/WIRES DOWN URGENT\nMSG:OESCAD:STATE HWY 18 SPRING TWP THARP, DENNIS Cad: 2012-0000000067",
-        "CALL:TREES/WIRES DOWN URGENT OESCAD:",
+        "CALL:TREES/WIRES DOWN URGENT",
         "ADDR:STATE HWY 18",
         "MADDR:STATE 18",
         "CITY:SPRING TWP",
@@ -34,7 +34,7 @@ public class PACrawfordCountyParserTest extends BaseParserTest {
 
     doTest("T3",
         "FRM:OESCAD@WINDSTREAM.NET\nSUBJ:SFR   >STRUCTURE FIRE\nMSG:OESCAD:150 S MAIN ST XS: SPRING ST SPRINGBORO BORO PIERI, PIERINO Map:E-3\n(Con't) 2 of 2\nGrids:0,0 Cad: 2012-0000000547(End)",
-        "CALL:STRUCTURE FIRE OESCAD:",
+        "CALL:STRUCTURE FIRE",
         "ADDR:150 S MAIN ST",
         "X:SPRING ST",
         "CITY:SPRINGBORO",
@@ -44,7 +44,7 @@ public class PACrawfordCountyParserTest extends BaseParserTest {
 
     doTest("T4",
         "1 of 2\nFRM:OESCAD@WINDSTREAM.NET\nSUBJ:CS    >CARDIAC SYMPTOMS\nMSG:OESCAD:135 MEAD AVE XS: BEAVER ST SPRINGBORO BORO NAAS, DAVID C Map:E-3\n(Con't) 2 of 2\nGrids:0,0 Cad: 2012-0000001348(End)",
-        "CALL:CARDIAC SYMPTOMS OESCAD:",
+        "CALL:CARDIAC SYMPTOMS",
         "ADDR:135 MEAD AVE",
         "X:BEAVER ST",
         "CITY:SPRINGBORO",
@@ -54,7 +54,7 @@ public class PACrawfordCountyParserTest extends BaseParserTest {
 
     doTest("T5",
         "1 of 2\nFRM:OESCAD@WINDSTREAM.NET\nSUBJ:UNC   >UNCONSCIOUS SUBJECT\nMSG:OESCAD:104 CUSSEWAGO ST Apt: A Bldg XS: SPRINGBORO RD SPRINGBORO BORO\n(Con't) 2 of 2\nHOOVER,KYLE Map:E-3 Grids:0,0 Cad: 2012-0000001631(End)",
-        "CALL:UNCONSCIOUS SUBJECT OESCAD:",
+        "CALL:UNCONSCIOUS SUBJECT",
         "ADDR:104 CUSSEWAGO ST",
         "APT:A Bldg",
         "X:SPRINGBORO RD",

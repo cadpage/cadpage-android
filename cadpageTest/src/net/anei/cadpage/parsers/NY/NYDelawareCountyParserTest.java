@@ -47,8 +47,8 @@ public class NYDelawareCountyParserTest extends BaseParserTest {
 
     doTest("T4",
         "DELCO911:ALMACT>ALARM ACTIVATION LOWER WAGNER AVE FLEISCHMANN Cad: 2011-0000015508",
-        "CALL:ALARM ACTIVATION LOWER",
-        "ADDR:WAGNER AVE",
+        "CALL:ALARM ACTIVATION",
+        "ADDR:LOWER WAGNER AVE",
         "CITY:FLEISCHMANNS",
         "ID:2011-0000015508");
 
@@ -84,8 +84,8 @@ public class NYDelawareCountyParserTest extends BaseParserTest {
 
     doTest("T8",
         "DELCO911:ALMACT>ALARM ACTIVATION LOWER WAGNER AVE FLEISCHMANN Cad: 2011-0000015508",
-        "CALL:ALARM ACTIVATION LOWER",
-        "ADDR:WAGNER AVE",
+        "CALL:ALARM ACTIVATION",
+        "ADDR:LOWER WAGNER AVE",
         "CITY:FLEISCHMANNS",
         "ID:2011-0000015508");
 

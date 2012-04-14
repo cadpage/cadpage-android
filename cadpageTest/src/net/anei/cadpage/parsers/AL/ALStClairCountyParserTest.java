@@ -105,8 +105,9 @@ public class ALStClairCountyParserTest extends BaseParserTest {
 
     doTest("T10",
         "9-1-1CENTRAL:50 >WRECK CO RD 23 @ BEULAH LN ASHVILLE DORIS LAWLER 2054731205 Cad: 2011-0000073324",
-        "CALL:WRECK CO RD 23",
-        "ADDR:BEULAH LN",
+        "CALL:WRECK",
+        "ADDR:CO RD 23 & BEULAH LN",
+        "MADDR:CO 23 & BEULAH LN",
         "CITY:ASHVILLE",
         "NAME:DORIS LAWLER",
         "PHONE:2054731205",

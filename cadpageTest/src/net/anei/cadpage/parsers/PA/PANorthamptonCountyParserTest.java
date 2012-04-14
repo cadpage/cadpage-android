@@ -38,8 +38,8 @@ public class PANorthamptonCountyParserTest extends BaseParserTest {
     doTest("T3",
         "[e49]MVAI >MVA WITH INJURIES 248 AT PENNSVILLE LIGHT LEHIGH TWP NATALIE BRODIANO Cad: 2011-0000086361",
         "UNIT:e49",
-        "CALL:MVA WITH INJURIES 248",
-        "ADDR:PENNSVILLE LIGHT",
+        "CALL:MVA WITH INJURIES",
+        "ADDR:248 AT PENNSVILLE LIGHT",
         "CITY:LEHIGH TWP",
         "NAME:NATALIE BRODIANO",
         "ID:2011-0000086361");

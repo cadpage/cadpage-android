@@ -39,6 +39,9 @@ public class SmartAddressParserTest extends BaseParserTest {
   
   @Test
   public void testProblem() {
+    doTest(CALL,"EMS-UNCONSCIOUS VIRGIL H GOODE HWY & GLEN MEADOW HWY",
+           "CALL:EMS-UNCONSCIOUS",
+           "ADDR:VIRGIL H GOODE HWY & GLEN MEADOW HWY");
   }
   
   @Test
@@ -692,6 +695,19 @@ public class SmartAddressParserTest extends BaseParserTest {
            "ADDR:PAUL G GETTY RD & LOST CREEK RD");
   }
   
+  @Test
+  public void testCallPrefixList() {
+    doTest(CALL, FLAG_ANCHOR_END, "BLUE EYED GIRL W/GLASSES AND NOTHING ELSE",
+           "CALL:BLUE EYED GIRL W/GLASSES",
+           "ADDR:AND NOTHING ELSE");
+    doTest(CALL, FLAG_ANCHOR_END, "BLUE EYED GIRL W/O GLASSES AND NOTHING ELSE",
+        "CALL:BLUE EYED GIRL",
+        "ADDR:W & O GLASSES AND NOTHING ELSE");
+    doTest(CALL, FLAG_ANCHOR_END, "BLUE EYED SUNSHINE 500 N 30 ST",
+        "CALL:BLUE EYED SUNSHINE",
+        "ADDR:500 N 30 ST");
+  }
+  
   @Override
   public void testBadMsg() {
   }
@@ -712,6 +728,11 @@ public class SmartAddressParserTest extends BaseParserTest {
     
     public TestParser(String[] cities, String city,  String state) {
       super(cities, city, state);
+      setupCallList(
+          "BLUE EYED GIRL W/GLASSES",
+          "BLUE EYED GIRL",
+          "EMS-UNCONSCIOUS"
+      );
     }
     
     public void setStartTypeFlags(StartType startType, int flags) {

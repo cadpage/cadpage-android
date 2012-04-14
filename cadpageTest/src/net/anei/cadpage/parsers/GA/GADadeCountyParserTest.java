@@ -45,7 +45,7 @@ public class GADadeCountyParserTest extends BaseParserTest {
         
     doTest("T4",
         "DADE COUNTY 911:50PI >M.V.A. - POSSIBLE INJURIES 13500 HWY 136 E XS: N & S MOORE RD NEW SALEM ROBERTS, CHIP Map:6,15 Grids:0,0 Cad: 2011-0000000992",
-        "CALL:MVA - POSSIBLE INJURIES",
+        "CALL:M.V.A. - POSSIBLE INJURIES",
         "ADDR:13500 HWY 136 E",
         "X:N & S MOORE RD",
         "PLACE:NEW SALEM",
@@ -65,14 +65,14 @@ public class GADadeCountyParserTest extends BaseParserTest {
         
     doTest("T6",
         "DADE COUNTY 911:78 >ASSISTANCE/ MUTUAL AID 84 RUSHING WATER TRL CHRISTY / WALKER Cad: 2011-0000001334",
-        "CALL:ASSISTANCE/MUTUAL AID",
+        "CALL:ASSISTANCE/ MUTUAL AID",
         "ADDR:84 RUSHING WATER TRL",
         "NAME:CHRISTY / WALKER",
         "ID:2011-0000001334");
 
     doTest("T7",
         "DADE COUNTY 911:78 >ASSISTANCE/ MUTUAL AID 8376 HWY 157 S HEAD RIVER WALKER CO Cad: 2011-0000015531",
-        "CALL:ASSISTANCE/MUTUAL AID",
+        "CALL:ASSISTANCE/ MUTUAL AID",
         "ADDR:8376 HWY 157 S",
         "PLACE:HEAD RIVER",
         "NAME:WALKER CO",

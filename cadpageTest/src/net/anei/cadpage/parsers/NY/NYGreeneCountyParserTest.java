@@ -17,7 +17,7 @@ public class NYGreeneCountyParserTest extends BaseParserTest {
     
     doTest("T1",
         "GREENE 911:WIRES >WIRES DOWN / ARCING 117 RIVER RD ATHENS BRAUMULLER, HELENE Map: Grids:0,0 Cad: 2010-0000033052",
-        "CALL:WIRES DOWN/ARCING",
+        "CALL:WIRES DOWN / ARCING",
         "ADDR:117 RIVER RD",
         "CITY:ATHENS",
         "NAME:BRAUMULLER, HELENE",
@@ -67,8 +67,8 @@ public class NYGreeneCountyParserTest extends BaseParserTest {
         "FRM:GREENE911@thinkgreene.us\n" +
         "MSG:GREENE911:STRUCT>STRUCTURE FIRE SLEEPY HOLLOW RD & LAKE VIEW D ATHENS BARBARA Cad: 2012-0000002596",
 
-        "CALL:STRUCTURE FIRE SLEEPY",
-        "ADDR:HOLLOW RD & LAKE VIEW D",
+        "CALL:STRUCTURE FIRE",
+        "ADDR:SLEEPY HOLLOW RD & LAKE VIEW D",
         "CITY:ATHENS",
         "NAME:BARBARA",
         "ID:2012-0000002596");

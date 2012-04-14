@@ -68,7 +68,7 @@ public class MSMarionCountyParserTest extends BaseParserTest {
 
     doTest("T7",
         "-  - 911-CENTER:SIG80 >MISSING PERSON / RUNAWAY 191 STOGNER RD FOXWORTH CELLULAR SOUTH Map: Grids:, Cad: 2012-0000000431\n",
-        "CALL:MISSING PERSON/RUNAWAY",
+        "CALL:MISSING PERSON / RUNAWAY",
         "ADDR:191 STOGNER RD",
         "CITY:FOXWORTH",
         "NAME:CELLULAR SOUTH",

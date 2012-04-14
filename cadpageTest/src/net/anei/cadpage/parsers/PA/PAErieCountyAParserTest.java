@@ -187,7 +187,7 @@ public class PAErieCountyAParserTest extends BaseParserTest {
     doTest("T18",
         "FRM:messaging@iamresponding.com\nSUBJ:West Ridge Fire\nMSG:21B1 &gt;HEMORRHAGE / LACERATIONS 4242 ASBURY RD XS: THOROUGHBRED LOOP MILLCREEK TWP\n",
         "SRC:West Ridge Fire",
-        "CALL:HEMORRHAGE/LACERATIONS",
+        "CALL:HEMORRHAGE / LACERATIONS",
         "ADDR:4242 ASBURY RD",
         "CITY:MILLCREEK TWP",
         "X:THOROUGHBRED LOOP");
@@ -195,7 +195,7 @@ public class PAErieCountyAParserTest extends BaseParserTest {
     doTest("T19",
         "FRM:messaging@iamresponding.com\nSUBJ:West Ridge Fire\nMSG:9E1 &gt;CARDIAC/RESP ARREST / DEATH 4411 FOREST GLEN DR XS: W 38TH ST MILLCREEK TWP\n",
         "SRC:West Ridge Fire",
-        "CALL:CARDIAC/RESP ARREST/DEATH",
+        "CALL:CARDIAC/RESP ARREST / DEATH",
         "ADDR:4411 FOREST GLEN DR",
         "CITY:MILLCREEK TWP",
         "X:W 38TH ST");
@@ -203,8 +203,8 @@ public class PAErieCountyAParserTest extends BaseParserTest {
     doTest("T20",
         "FRM:messaging@iamresponding.com\nSUBJ:West Ridge Fire\nMSG:28C10G&gt;STROKE (CVA) BREATH NORM &gt; 35 3643 MEADOW DR XS: CAUGHEY RD MILLCREEK TWP\n",
         "SRC:West Ridge Fire",
-        "CALL:STROKE (CVA) BREATH NORM >",
-        "ADDR:35 3643 MEADOW DR",
+        "CALL:STROKE (CVA) BREATH NORM > 35",
+        "ADDR:3643 MEADOW DR",
         "CITY:MILLCREEK TWP",
         "X:CAUGHEY RD");
 
@@ -220,9 +220,8 @@ public class PAErieCountyAParserTest extends BaseParserTest {
     doTest("T22",
         "ERIE911:1C4 >ABDOM PAIN - FEM 12-50 W/FAINT 9625 MARK RD XS: WATTSBURG RD GREENE TWP WEED DAVID Map:307 Grids:, Cad: 2012-0000006327",
         "SRC:ERIE911",
-        "CALL:ABDOM PAIN - FEM",
-        "ADDR:12-50 W & FAINT 9625 MARK RD",
-        "MADDR:12 W & FAINT 9625 MARK RD",
+        "CALL:ABDOM PAIN - FEM 12-50 W/FAINT",
+        "ADDR:9625 MARK RD",
         "CITY:GREENE TWP",
         "X:WATTSBURG RD",
         "NAME:WEED DAVID",
