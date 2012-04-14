@@ -1,9 +1,6 @@
 package net.anei.cadpage.parsers.VA;
 
-import java.util.Comparator;
 import java.util.Properties;
-import java.util.SortedSet;
-import java.util.TreeSet;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -40,7 +37,7 @@ public class VACampbellCountyParser extends SmartAddressParser {
   
   public VACampbellCountyParser() {
     super(CITY_CODES, "CAMPBELL COUNTY","VA");
-    buildCallDictionary();
+    setup();
   }
   
   @Override
@@ -74,43 +71,13 @@ public class VACampbellCountyParser extends SmartAddressParser {
     
     // OK, now to work out the address field
     String sAddress = props.getProperty("LOC", "");
-    
-    // See if we can identify a call description from our canned list
-    String callDesc = getCallDesc(sAddress);
-    if (callDesc != null) {
-      
-      // We got one, the call description comes off the front
-      data.strCall = callDesc;
-      sAddress = sAddress.substring(callDesc.length()).trim();
-      
-      // Anything else an an address
-      parseAddress(sAddress, data);
-      
-      // No call description match eh
-      // We'll have to rely on the smart parser to save us
-    } else {
-      parseAddress(StartType.START_CALL, FLAG_ANCHOR_END, sAddress, data);
-    }
+    parseAddress(StartType.START_CALL, FLAG_ANCHOR_END, sAddress, data);
     
     return true;
   }
-  
-  // This is a tree set containing all of the expected call descriptions
-  // sorted in reverse order because we need to search the tree backward and
-  // Android implementation of TreeSet lacks features that make that easy
-  private static TreeSet<String> callDictionary = new TreeSet<String>(new Comparator<String>(){
-    @Override
-    public int compare(String str1, String str2) {
-      return -str1.compareTo(str2);
-    }});
-  
-  /**
-   * Build call description dictionary
-   */
-  private void buildCallDictionary() {
-    
-    // Loop through all call descriptions
-    for (String call : new String[]{
+
+  private void setup() {
+    setupCallList(
         "EMS-OTHER",
         "EMS-OTHER/DEFINE",
         "EMS-ABDOMINAL PAIN",
@@ -220,24 +187,6 @@ public class VACampbellCountyParser extends SmartAddressParser {
         "VEHICLE FIRE THREATENING A STRUCTURE",
         "WATER EVENT",
         "WATER REMOVAL"
-    }) callDictionary.add(call + " ");
-  }
-  
-  private String getCallDesc(String body) {
-    
-    // Search the call dictionary sorted set for the highest entry less than or
-    // equal to message body.  If the body starts with this string, we have a
-    // match.  If not, we have to keep searching backward through the sorted set
-    // for the entry less than or equal to the message body
-    
-    // We reversed the tree order so we can accomplish this trick without
-    // needing a backward read feature, with Android seems to be lacking
-    String firstWord = new Parser(body).get(' ');
-    SortedSet<String> tail =  callDictionary.tailSet(body);
-    for (String call : tail) {
-      if (body.startsWith(call)) return call.trim();
-      if (!call.startsWith(firstWord)) return null;
-    }
-    return null;
+        );
   }
 }

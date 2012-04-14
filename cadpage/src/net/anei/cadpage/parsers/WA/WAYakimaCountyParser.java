@@ -1,8 +1,5 @@
 package net.anei.cadpage.parsers.WA;
 
-import java.util.Comparator;
-import java.util.SortedSet;
-import java.util.TreeSet;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -33,6 +30,7 @@ public class WAYakimaCountyParser extends SmartAddressParser {
   
   public WAYakimaCountyParser() {
     super("YAKIMA COUNTY", "WA");
+    setup();
   }
   
   @Override
@@ -58,33 +56,12 @@ public class WAYakimaCountyParser extends SmartAddressParser {
       data.strPlace = sAddr.substring(pt+1).trim();
       sAddr = sAddr.substring(0,pt).trim();
     }
-    
-    // See if we can find call in the list of common call descriptions
-    String call = getCallDesc(sAddr);
-    if (call != null) {
-      data.strCall = call;
-      parseAddress(sAddr.substring(call.length()+1).trim(), data);
-    }
-    
-    // If not, fall back to using the smart address parser
-    else {
-      parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ | FLAG_ANCHOR_END, sAddr, data);
-    }
-    
+    parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ | FLAG_ANCHOR_END, sAddr, data);
     return true;
   }
-  
-  // This is a tree set containing all of the expected call descriptions
-  // sorted in reverse order because we need to search the tree backward and
-  // Android implementation of TreeSet lacks features that make that easy
-  private static TreeSet<String> CALL_SET = new TreeSet<String>(new Comparator<String>(){
-    @Override
-    public int compare(String str1, String str2) {
-      return -str1.compareTo(str2);
-   }});
-  
-  static {
-    for (String call : new String[]{
+
+  private void setup() {
+    setupCallList(
       "ACCIDENT HITRUN",
       "ACCIDENT INJURY",
       "ACCIDENT NO INJ",
@@ -117,24 +94,6 @@ public class WAYakimaCountyParser extends SmartAddressParser {
       "FIRE STRUCTURE",
       "FIRE TRASH GARB",
       "FIRE VEHICLE"
-    }) CALL_SET.add(call + " ");
-  }
-  
-  private static String getCallDesc(String body) {
-    
-    // Search the call dictionary sorted set for the highest entry less than or
-    // equal to message body.  If the body starts with this string, we have a
-    // match.  If not, we have to keep searching backward through the sorted set
-    // for the entry less than or equal to the message body
-    
-    // We reversed the tree order so we can accomplish this trick without
-    // needing a backward read feature, with Android seems to be lacking
-    String firstWord = new Parser(body).get(' ');
-    SortedSet<String> tail =  CALL_SET.tailSet(body);
-    for (String call : tail) {
-      if (body.startsWith(call)) return call.trim();
-      if (!call.startsWith(firstWord)) return null;
-    }
-    return null;
+    );
   }
 }

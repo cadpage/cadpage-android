@@ -36,7 +36,8 @@ public class PACrawfordCountyParser extends DispatchBParser {
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
     if (!subject.contains(">")) return false;
-    body = subject + " " + body;
+    if (!body.startsWith("OESCAD:")) return false;
+    body = subject + " " + body.substring(7).trim();
     return super.parseMsg(body, data);
   }
   

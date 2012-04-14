@@ -1,11 +1,14 @@
 package net.anei.cadpage.parsers;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.Enumeration;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Properties;
+import java.util.SortedSet;
+import java.util.TreeSet;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -176,6 +179,11 @@ public abstract class SmartAddressParser extends MsgParser {
   // List of multiple word street names
   private MultiWordList mWordStreets = null;
   
+  // This is a tree set containing all of the expected call descriptions
+  // sorted in reverse order because we need to search the tree backward and
+  // Android implementation of TreeSet lacks features that make that easy
+  private TreeSet<String> callDictionary = null;
+  
   public SmartAddressParser(String[] cities, String defCity, String defState) {
     this(cities, defCity, defState, CountryCode.US);
   }
@@ -295,6 +303,9 @@ public abstract class SmartAddressParser extends MsgParser {
     return result;
   }
   
+  /**
+   * Set up predefined city code tables or lists
+   */
   private void setupCities(String[] cities) {
     mWordCities = new MultiWordList(+1, ID_CITY, ID_MULTIWORD, ID_COMPLETE, cities);
   }
@@ -306,6 +317,21 @@ public abstract class SmartAddressParser extends MsgParser {
       if (oldMask != null) newMask |= oldMask;
       dictionary.put(arg, newMask);
     }
+  }
+  
+  /**
+   * Setup predefined call list
+   * @param callList list of predefined calls
+   */
+  protected void setupCallList(String ... callList) {
+    if (callList != null) {
+      callDictionary = new TreeSet<String>(new Comparator<String>(){
+        @Override
+        public int compare(String str1, String str2) {
+          return -str1.compareTo(str2);
+        }});
+    }
+    for (String call : callList) callDictionary.add(call + " ");
   }
   
   /**
@@ -436,7 +462,40 @@ public abstract class SmartAddressParser extends MsgParser {
     lastCity = -1;
     Result result = new Result();
     lastResult = result;
-    
+
+    // If we have a call dictionary, and address starts with a call, search
+    // the dictionary to see if address line starts with matching call
+    if (sType == StartType.START_CALL && callDictionary != null) {
+      
+      // Search the call dictionary sorted set for the highest entry less than or
+      // equal to message body.  If the body starts with this string, we have a
+      // match.  If not, we have to keep searching backward through the sorted set
+      // for the entry less than or equal to the message body
+      
+      // We reversed the tree order so we can accomplish this trick without
+      // needing a backward read feature, with Android seems to be lacking
+      String firstWord = new Parser(address).get(' ');
+      SortedSet<String> tail =  callDictionary.tailSet(address);
+      for (String call : tail) {
+        if (address.startsWith(call)) {
+          
+          // We have a match.  Store the call (without the trailing space)
+          // in the result call prefix.  Remove the call prefix from the address
+          // line, and set the start type to start with the address
+          result.callPrefix = call.trim();
+          address = address.substring(call.length()).trim();
+          if (address.startsWith("@")) address = address.substring(2).trim();
+          if (address.startsWith("REPORTED AT ")) address = address.substring(12).trim();
+          sType = StartType.START_ADDR;
+        }
+        
+        // If the prospective call no longer starts with the first word
+        // of the address line, we are not going to find anything
+        if (!call.startsWith(firstWord)) break;
+      }
+    }
+
+    // Save the result address type
     result.startType = sType;
     
     // Before we do anything else, see if we can find some GPS coordinates
@@ -1645,6 +1704,7 @@ public abstract class SmartAddressParser extends MsgParser {
     private String[] tokens;
     private StartType startType;
     private int status = -1;
+    private String callPrefix = null;
     private int initAddress = -1;
     private int startAddress = -1; 
     private int initPlace = -1;
@@ -1726,6 +1786,8 @@ public abstract class SmartAddressParser extends MsgParser {
           data.strPlace = buildData(0, initAddress, 0).replaceAll(" / ", "/");
         }
         break;
+      case START_ADDR:
+        if (callPrefix != null) data.strCall = callPrefix;
       }
     }
     

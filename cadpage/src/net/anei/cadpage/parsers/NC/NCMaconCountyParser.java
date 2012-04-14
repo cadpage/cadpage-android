@@ -27,23 +27,28 @@ Sender: 8283715166
 */
 
 public class NCMaconCountyParser extends DispatchBParser {
-  
-  private static final String[] CITY_CODES = new String[]{
-    "FRANKLIN", "HIGHLANDS", "OTTO",
-    "FRANKLIN TWP", "HIGHLANDS TWP", "SUGARFORK TWP", "BURNINGTOWN TWP",
-    "CARTOOGECHAYE TWP", "ELLIJAY TWP", "NANTAHALA TWP", "SMITHBRIDGE TWP",
-    "MILLSHOAL TWP"
-  };
-
-  private static final String DEF_STATE = "NC";
-  private static final String DEF_CITY = "MACON COUNTY";
  
   public NCMaconCountyParser() {
-    super(CITY_CODES, DEF_CITY, DEF_STATE);
+    super(CITY_LIST, "MACON COUNTY", "NC");
   }
   
   @Override
   protected boolean isPageMsg(String body) {
     return body.startsWith("911 CENTER:");
   }
+
+  private static final String[] CITY_LIST = new String[]{
+    "FRANKLIN", 
+    "HIGHLANDS", 
+    "OTTO",
+    "FRANKLIN TWP", 
+    "HIGHLANDS TWP", 
+    "SUGARFORK TWP", 
+    "BURNINGTOWN TWP",
+    "CARTOOGECHAYE TWP", 
+    "ELLIJAY TWP", 
+    "MILLSHOAL TWP",
+    "NANTAHALA TWP", 
+    "SMITHBRIDGE TWP",
+  };
 }

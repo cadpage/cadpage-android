@@ -612,6 +612,7 @@ public class MsgInfo {
     Pattern.compile("\\b(RT|RTE|HW|HWY|US|ST|I|CO|CR|SRT|I)-?(\\d{1,3})(?:[NSEW]B?)?\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern ROUTE_PTN2 =
     Pattern.compile("\\b([A-Z]{2})(\\d{1,3})(?:[NSEW]B)?\\b", Pattern.CASE_INSENSITIVE);
+  private static final Pattern SRT_PTN = Pattern.compile("\\bSRT\\b", Pattern.CASE_INSENSITIVE);
   
   private String cleanRoutes(String sAddress) {
     Matcher match = ROUTE_PTN.matcher(sAddress);
@@ -627,6 +628,7 @@ public class MsgInfo {
       match.appendTail(sb);
       sAddress = sb.toString();
     }
+    sAddress = SRT_PTN.matcher(sAddress).replaceAll("ST");
     return sAddress;
   }
 

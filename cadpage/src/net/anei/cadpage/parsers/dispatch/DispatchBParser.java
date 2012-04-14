@@ -224,10 +224,12 @@ public class DispatchBParser extends SmartAddressParser {
   
   public DispatchBParser(String[] cityList, String defCity, String defState) {
     super(cityList, defCity, defState);
+    setup();
   }
   
   public DispatchBParser(String defCity, String defState) {
     super(defCity, defState);
+    setup();
   }
   
   /**
@@ -255,13 +257,13 @@ public class DispatchBParser extends SmartAddressParser {
       data.strPhone = match.group(1);
       field = field.substring(0,match.start()).trim();
     }
-    parseAddress(StartType.START_CALL, field, data);
+    parseAddress(StartType.START_CALL, FLAG_START_FLD_REQ, field, data);
     data.strName = getLeft();
     return true;
   }
 
   @Override
-  protected boolean parseMsg(String body, Data data) {
+ protected boolean parseMsg(String body, Data data) {
     
     if (! isPageMsg(body)) return false;
     
@@ -277,4 +279,143 @@ public class DispatchBParser extends SmartAddressParser {
     
     return true;
   }
+  
+  private void setup() {
+    setupCallList(
+        "ACCIDENT MVA WITH INJURIES",
+        "ACCIDENT W/ INJURIES",
+        "ACCIDENT WITH INJURIES",
+        "ABDOM PAIN - FEM 12-50 W/FAINT",
+        "ABDOMINAL PAIN/PROBLEM",
+        "ADVANCED LIFE SUPPORT CALL",
+        "AUTO ACCIDENT/INJURY",
+        "AUTO ACCIDENT/NO INJURY",
+        "AUTO ALARM/FIRE",
+        "ALARM ACTIVATION",
+        "ALARM FIRE",
+        "ALARM/FIRE",
+        "ALARM SYSTEM-NIGHT",
+        "ALARMS",
+        "ALS",
+        "ALTERED MENTAL STATUS",
+        "ASSAULT/SEXUAL ASSAULT",
+        "ASSISTANCE/ MUTUAL AID",
+        "BASIC LIFE SUPPORT CALL",
+        "BLS",
+        "BREATHING ALS",
+        "BREATHING DIFFICULTY",
+        "BREATHING PROBLEMS",
+        "BREATHING PROBLEMS A",
+        "BREATHING PROBLEMS / SEVERE",
+        "BRUSH FIRE",
+        "BUILDING FIRE",
+        "CARDIAC OR RESP ARREST/DEATH",
+        "CARDIAC PROBLEMS",
+        "CARDIAC/RESPIRATORY ARREST",
+        "CARDIAC/RESP ARREST / DEATH",
+        "CARDIAC SYMPTOMS",
+        "CHEST PAIN",
+        "CHEST PAIN - SEVERE SOB",
+        "CHILD LOCKED IN CAR",
+        "CO DETECTOR / FIRE RESPONSE",
+        "DIABETIC-ALS PRI2",
+        "DIABETIC EMRG.",
+        "DIABETIC PROBLEM",
+        "DOMESTIC DISTURBANCE",
+        "DUMPSTER FIRE",
+        "ELEC HAZ/PWR REPT DISCONNECTED",
+        "EMERGENACY RUN",
+        "EMS CALL",
+        "EMS LIFELINE CALL",
+        "FALL - ANY",
+        "FALLS",
+        "FALLS/ACCIDENTS BLS",
+        "FALLS-ALS PRI1-FR",
+        "FALLS-BLS PRI2 ",
+        "FIGHT",
+        "FIRE ALARM",
+        "FIRE CALL",
+        "FIRE INDUSTRIAL",
+        "FIRE/GENERAL ALARM-COMM STRUC",
+        "FIRE RESIDENTIAL",
+        "FIRE - STRUCTURE", 
+        "FIRE SMOKE INVESTIGATION",
+        "FIRE TREE DOWN",
+        "FIRE/WILDFIRE",
+        "GAS ODOR/OUTSIDE",
+        "HAZARDOUS MATERIALS",
+        "HEM/LACER-SERIOUS",
+        "HEMORRHAGE / LAC - DANGER HEM",
+        "HEMORRHAGE / LACERATIONS",
+        "HGH LIFE HZD ALRM GEN",
+        "ILL PERSON",
+        "ILLPERSON",
+        "IMMEDIATE TRANSPORT",
+        "LIFT ASSIST/NON EMER EMS",
+        "MVA-ALS PRI1",
+        "M.V.A. - POSSIBLE INJURIES",
+        "MEDICAL",
+        "MEDICAL CALL",
+        "MEDICAL DELTA",
+        "MEDICAL ALARM",
+        "MEDICAL EMERGENCY",
+        "MEDICAL GENERIC",
+        "MISC",
+        "MISSING PERSON / RUNAWAY",
+        "MOTOR VEH ACC UNKNOWN INJ",
+        "MOTOR VEHICLE ACCIDENT",
+        "MUTUAL AID/ASSIST OUTSIDE AGEN",
+        "MV ACCIDENT W/INJURY",
+        "MVA",
+        "MVA -EJECTION- HIGH MECHANISM",
+        "MVA - UNKNOWN STATUS",
+        "MVA-TRAPPED MULTI PT/ADD RESPO",
+        "MVA WITH INJURIES",
+        "MVA WITH UNKNOW INJUIRIES",
+        "NON-SPECIFIC DIAGNOSIS",
+        "ODOR / OTHER THAN SMOKE",
+        "OTHER-FIRE",
+        "POSSIBLE OPEN BURN",
+        "RES (SINGLE) HEAT DETECTOR",
+        "ROAD HAZARD",
+        "SEIZURES",
+        "SEIZURES - NOT CURRENT NOT VER",
+        "SICK - NO SYMPTOMS",
+        "SICK PERSON",
+        "SICK/UNKNOWN ALS",
+        "SMOKE IN THE AREA",
+        "SMOKE INVESTIGATION",
+        "SPILL (TYPE)",
+        "STROKE",
+        "STROKE-CVA",
+        "STROKE (CVA) BREATH NORM > 35",
+        "STRUCTURE FIRE",
+        "STRUCTURE FIRE - LOW HAZARD",
+        "STRUCTURE FIRE-MEDIUM HAZARD",
+        "STRUCTURE FIRE - HIGH HAZARD",
+        "STRUC FIRE-SINGLE RESIDENTIAL",
+        "STRUCTURE FIRE- HIGH RISE",
+        "TRAUMATIC INJURY",
+        "TRAFF OR TRANSPT ACC/MVA W/INJ",
+        "TRAFFIC CONTRO",
+        "TRAUMATIC INJ - DANGEROUS",
+        "TREE_DOWN",
+        "TREES/WIRES DOWN URGENT",
+        "UNCONCIOUS",
+        "UNCONSCIOUS/FAINTING",
+        "UNCONSCIOUS/FAINTING (NEAR)",
+        "UNCONSCIOUS SUBJECT",
+        "UNK PROBLEM-LIFE STAT QUESTION",
+        "UNKNOWN/PERSON DOWN",
+        "UNKNOWN PROBLEM",
+        "UNRSPONSIVE / SYNCOPE ALS",
+        "VEHICLE ACCIDENT",
+        "WILDLAND FIRE",
+        "WIRES",
+        "WIRES DOWN",
+        "WIRE(S) DOWN",
+        "WIRES DOWN / ARCING",
+        "WRECK"
+    );
+  };
 }
