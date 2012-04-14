@@ -45,6 +45,11 @@ COntact: Diana York <hawkmeadow@gmail.com>
 Sender: alrt_350Z@berks.alertpa.org
 CAD MSG: *D ALSMED   459 MEMORIAL HWY 0091 F IN SEIZURES / 1YOF /
 
+Contact: Phoenix <aphoenixrising13@gmail.com>
+Sender: 1410000075
+FRM: \nMSG:CAD MSG: *D AFA      1501 ELIZABETH AV @THOMS TAVERN 0067 KEYPAD FIRE ALM ZONE 95 BUS # 484-794-6038 / GRUMPY'S BARB
+
+
 ** NOT PARSING YET ***
 Contact: "greek@vjgreek.com" <greek@vjgreek.com>
 CAD MSG: *D FSB      CITY SB 1, 10, 36, 55, 64,69 @ CITY FIRE INCIDENT CITY 2ND ALARM FIRE/E1 AND E64 RESPOND INTO THE CITYI

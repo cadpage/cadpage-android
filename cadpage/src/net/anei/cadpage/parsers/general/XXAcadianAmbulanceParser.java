@@ -7,7 +7,7 @@ import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /*
-Acadian Ambulance, LA (also TX, and MS)
+Acadian Ambulance, (LA, MS, and TX)
 Contact: Heath Manson <heath.manson@gmail.com>
 Sender: commcenter@acadian.com
 

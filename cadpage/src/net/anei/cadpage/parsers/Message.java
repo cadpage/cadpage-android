@@ -306,6 +306,10 @@ public class Message {
 
     } while (false);
     parseMessageBody = finish(body);
+    
+    // If we extracted an empty address from the text string, restore the
+    // original address
+    if (parseAddress.length() == 0) parseAddress = fromAddress;
   }
 
   /**
