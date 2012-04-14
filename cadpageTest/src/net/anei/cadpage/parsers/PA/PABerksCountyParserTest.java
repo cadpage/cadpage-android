@@ -119,6 +119,15 @@ public class PABerksCountyParserTest extends BaseParserTest {
         "ADDR:459 MEMORIAL HWY",
         "CITY:RUSCOMBMANOR TWP",
         "INFO:F IN SEIZURES / 1YOF /");
+
+    doTest("T15",
+        "FRM: \nMSG:CAD MSG: *D AFA      1501 ELIZABETH AV @THOMS TAVERN 0067 KEYPAD FIRE ALM ZONE 95 BUS # 484-794-6038 / GRUMPY'S BARB",
+        "CALL:AFA - Fire Alarm",
+        "ADDR:1501 ELIZABETH AV",
+        "MADDR:1501 ELIZABETH AVE",
+        "PLACE:THOMS TAVERN",
+        "CITY:LAURELDALE",
+        "INFO:KEYPAD FIRE ALM ZONE 95 BUS # 484-794-6038 / GRUMPY'S BARB");
   }
   
   public static void main(String[] args) {
