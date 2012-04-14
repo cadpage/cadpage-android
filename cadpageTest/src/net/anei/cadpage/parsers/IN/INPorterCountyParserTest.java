@@ -172,6 +172,27 @@ public class INPorterCountyParserTest extends BaseParserTest {
         "X:RIGG RD and E 300 N",
         "PRI:1",
         "INFO:COMPLAINI");
+
+    doTest("T15",
+        "(CAD Page) #120048030 - \n" +
+        "E32:\n" +
+        "UNK.PROB.(MAN DOWN) @ MM22,BHB\n" +
+        "- at 240 I94,BHB\n" +
+        "CROSS: btwn I94&US20 D and ST RD 149\n" +
+        "GRP:PM\n" +
+        "PRI:1\n" +
+        "comment: I 94 WESTBOUND 22 M",
+
+        "ID:120048030",
+        "UNIT:E32",
+        "CALL:UNK.PROB.(MAN DOWN)",
+        "PLACE:MM22",
+        "ADDR:240 I94",
+        "MADDR:240 I 94",
+        "CITY:Burns Harbor",
+        "X:I94&US20 D and ST RD 149",
+        "PRI:1",
+        "INFO:I 94 WESTBOUND 22 M");
   }
   
   public static void main(String[] args) {
