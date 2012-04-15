@@ -1306,6 +1306,11 @@ NAME-KENDRA;  LOC-4001 STINSON BLVD NE [#404;  EVTYPE-STROKE;  COMMENTS-POSSIBLE
 NAME-BRINATTE,HELEN;  LOC-2626 KENZIE TER [#114 [@WALKER ON KENZIE APT;  EVTYPE-ILL;  COMMENTS-2626 KENZIE TER : cross stre
 NAME-;  LOC-2600 39TH AVE NE [#100 [@SILVER LAKE CLINIC;  EVTYPE-BREATH;  COMMENTS-2600 39TH AVE NE : cross streets : SILVE
 ***************************************************************************
+Jasper County, MO (MOJasperCountyParser)
+S: M:LONE ELM/ESTATE LN- ROLLOVER\n
+S: M:1725B Redbud dr- 87 yom fall - back pain\n
+S: M:VEHICLE FIRE FIR AND BLACK CAT\n
+***************************************************************************
 Jefferson County, MO (MOJeffersonCountyParser)
 Location: @PACIFIC STATION 2 Call Type: MOVEUP MUP Comments: 7376 HIGHWAY O RP's Address: Pri: 4 Area: 77 Disp: 7724
 Location: 16 SYCAMORE GREEN ACRES CNTY Call Type: STILL CHKBLDG Comments: CARD 77272 MAP 77 RP's Address: 16 SYCAMORE GREEN ACRES Pri: 3 Area: 77 Disp: 7710
@@ -4296,18 +4301,6 @@ Sender: miccom@nnjmicu.org <miccom@nnjmicu.org>
 **********************************************************
 **********************************************************
 **********************************************************
-Jasper County, MO
-Contact: "C. Virgin F. F. 452" <cjfpd452@yahoo.com>
-Sender: @jasco.org
-System: Integraph (changing to QSSI in August)
-S: M:LONE ELM/ESTATE LN- ROLLOVER\n
-S: M:1725B Redbud dr- 87 yom fall - back pain\n
-S: M:VEHICLE FIRE FIR AND BLACK CAT\n
-S: M:6653 PARK CIR APTD - 87 YOM FELL\n
-S: M:3169 N MISSOURI 20 DAY OLD DIFF BREATING DELTA MBP 51C\n\n\n\n\n\n
-S: M:302 KEENEY DR - CJ JUNIOR HIGH - POSSIBLE SEIZURE\n
-S: M:25589 TABOR MAIN - DIFF BREATHING\n
-S: M:3169 N MISSOURI 20 DAY OLD DIFF BREATING DELTA MBP 51C\n\n\n\n\n\n
 **********************************************************
 Pender County, NC
 Contact: Tripp Lanier <triper99@gmail.com>
