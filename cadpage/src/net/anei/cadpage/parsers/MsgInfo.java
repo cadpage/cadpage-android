@@ -17,6 +17,9 @@ public class MsgInfo {
   
   // Suppress EXT removal
   public static final int MAP_FLG_SUPPR_EXT = 2;
+  
+  // Add default city/county in back of parsed city/county
+  public static final int MAP_FLG_ADD_DEFAULT_CNTY = 4;
 
   private String strCall;
   private String strPlace;
@@ -297,7 +300,10 @@ public class MsgInfo {
     if (city.equals("OUT OF COUNTY")) city = "";
     else if (city.length() == 0) {
       city = (overrideCity != null ? overrideCity : defCity);
+    } else if (overrideCity == null && (parser.getMapFlags() & MAP_FLG_ADD_DEFAULT_CNTY) != 0) {
+      city = city.length() == 0 ? defCity : city + ',' + defCity; 
     }
+
     if (city.length() > 0 && !city.equalsIgnoreCase("NONE")) {
       sb.append(",");
       sb.append(city);

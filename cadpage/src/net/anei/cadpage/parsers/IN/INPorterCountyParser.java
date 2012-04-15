@@ -46,43 +46,23 @@ Sender: pcdisp@porterco-ps.org
 
 public class INPorterCountyParser extends FieldProgramParser {
   
-  private static final Properties CITY_CODES = buildCodeTable(new String[]{
-      "BHB", "Burns Harbor",
-      "BSH", "Beverly Shores",
-      "CHE", "Chesterton",
-      "HEB", "Hebron",
-      "KTS", "Kouts",
-      "OGD", "Ogden Dunes",
-      "PTG", "Portage",
-      "PTR", "Porter",
-      "VAL", "Valparaiso",
-              
-      "BNT", "Boone Twp",
-      "CCT", "Center Twp",
-      "CTT", "Center Twp",
-      "ECT", "Eagle Creek Twp",
-      "JKT", "Jackson Twp",
-      "LBT", "Liberty Twp",
-      "MGT", "Morgan Twp",
-      "PGT", "Portage Twp",
-      "PLT", "Pleasant Twp",
-      "PNT", "Pine Twp",
-      "POT", "Porter Twp",
-      "UNT", "Union Twp",
-      "WCT", "Westchester Twp",
-      "WGT", "Washington Twp",
-      "WNT", "Winfield Twp",
-  });
+  private static final Pattern MISSING_LF_PTN = Pattern.compile("(?<=[^\n])(?=GRP:)");
   
   public INPorterCountyParser() {
     super("PORTER COUNTY", "IN",
-           "ID UNIT ADDR! ADDR2 CROSS:X? GRP:SKIP? PRI:PRI comment:INFO");
+           "ID UNIT ADDR! ADDR2 CROSS:X? GRP:SRC? PRI:PRI comment:INFO");
   }
   
   @Override
+  public int getMapFlags() {
+    return MAP_FLG_ADD_DEFAULT_CNTY; 
+  }
+
+  @Override
   public boolean parseMsg(String subject, String body, Data data) {
     if (!subject.equals("CAD Page")) return false;
-    if (!parseFields(body.split("\n"), data)) return false;
+    body = MISSING_LF_PTN.matcher(body).replaceAll("\n");
+    if (!parseFields(body.split("\n"), 4, data)) return false;
     String sAddr = data.strAddress;
     data.strAddress = "";
     parseAddress(sAddr, data);
@@ -120,6 +100,7 @@ public class INPorterCountyParser extends FieldProgramParser {
       String sCity = field.substring(pt2+1).trim();
       pt1 = sCity.indexOf('-');
       if (pt1 >= 0) sCity = sCity.substring(0,pt1).trim();
+      if (sCity.equals("WNT")) data.defCity = "LAKE COUNTY";
       data.strCity = convertCodes(sCity, CITY_CODES);
     }
     
@@ -158,4 +139,32 @@ public class INPorterCountyParser extends FieldProgramParser {
     if (name.equals("X")) return new MyCrossField();
     return super.getField(name);
   }
+  
+  private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "BHB", "Burns Harbor",
+      "BSH", "Beverly Shores",
+      "CHE", "Chesterton",
+      "HEB", "Hebron",
+      "KTS", "Kouts",
+      "OGD", "Ogden Dunes",
+      "PTG", "Portage",
+      "PTR", "Porter",
+      "VAL", "Valparaiso",
+              
+      "BNT", "Boone Twp",
+      "CCT", "Center Twp",
+      "CTT", "Center Twp",
+      "ECT", "Eagle Creek Twp",
+      "JKT", "Jackson Twp",
+      "LBT", "Liberty Twp",
+      "MGT", "Morgan Twp",
+      "PGT", "Portage Twp",
+      "PLT", "Pleasant Twp",
+      "PNT", "Pine Twp",
+      "POT", "Porter Twp",
+      "UNT", "Union Twp",
+      "WCT", "Westchester Twp",
+      "WGT", "Washington Twp",
+      "WNT", "Winfield Twp",  // Lake County
+  });
 }
