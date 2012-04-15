@@ -82,6 +82,13 @@ public class NYNassauCountyFiretrackerParserTest extends BaseParserTest {
         "CALL:SIG 9 MALE VOMITTING",
         "ADDR:21 NORTON ST",
         "X:GUY LOMBARDO AVE / HUDSON AVE");
+
+    doTest("T10",
+        "** FFD FIRE CALL ** CARBON AUTOMATIC/NO PERMIT 109 MARYLAND AVE C/S: SEAMAN (W) AVE / CALIFORNIA AVE TOA: 20:55 [FireTracker]",
+        "SRC:FFD",
+        "CALL:CARBON AUTOMATIC/NO PERMIT",
+        "ADDR:109 MARYLAND AVE",
+        "X:SEAMAN (W) AVE / CALIFORNIA AVE");
  
   }
   
