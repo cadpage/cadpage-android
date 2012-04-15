@@ -20,7 +20,9 @@ Sender: dispatch@firetracker.net
 (FirePage) ** FFD FIRE CALL ** GENERAL 22 PEARSALL AVE C/S: LONG BEACH (N) AVE /\nPENNSYLVANIA AVE TOA: 15:56 [FireTracker]
 
 Contact: Nick Stein <snickphotos@gmail.com>
+Sender: +15163018638
 FirePage / ** FFD SIGNAL 9 ** SIG 9 MALE VOMITTING 21 NORTON ST C/S: GUY LOMBARDO\nAVE / HUDSON AVE TOA: 18:42 [FireTracker]\n
+** FFD FIRE CALL ** CARBON AUTOMATIC/NO PERMIT 109 MARYLAND AVE C/S: SEAMAN (W) AVE / CALIFORNIA AVE TOA: 20:55 [FireTracker]
 
 Contact: Louis Sabatino <lousab1@optonline.net>
 Contact: Mike Torregrossa <torr393@gmail.com>
@@ -52,7 +54,6 @@ Contact: FRED DAVIS <fred.davis337@gmail.com>, "derf337@aol.com" <derf337@aol.co
 Sender: dispatch@firetracker.net
 (FirePage) **WPFD** [CARBON] (CARB) [UPSTAIRS BEDROOM-NO AIDED] 141 COLLINS AVE\nWILLISTON PARK C/S:LAFAYETTE ST / CENTER ST TOA:18:12 4/4/2012\n[
 
-
 */
 public class NYNassauCountyFiretrackerParser extends FieldProgramParser {
   
@@ -72,14 +73,7 @@ public class NYNassauCountyFiretrackerParser extends FieldProgramParser {
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
     
-    do {
-      if (subject.equals("FirePage")) break;
-      if (body.startsWith("FirePage / ")) {
-        body = body.substring(11).trim();
-        break;
-      }
-      return false;
-    } while (false);
+    if (body.startsWith("FirePage / ")) body = body.substring(11).trim();
     
     int pt = body.lastIndexOf('[');
     if (pt < 0) return false;
