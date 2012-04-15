@@ -22,6 +22,7 @@ public class INPorterCountyParserTest extends BaseParserTest {
         "ADDR:380 N 400 E",
         "CITY:Washington Twp",
         "X:AUGUSTINE DR and E 400 N",
+        "SRC:WF",
         "PRI:2",
         "INFO:Medical P");
 
@@ -33,6 +34,7 @@ public class INPorterCountyParserTest extends BaseParserTest {
         "ADDR:4 WILLIAMSBURG DR",
         "CITY:Washington Twp",
         "X:DEAD END and VIRGINIA CT",
+        "SRC:WF",
         "PRI:4",
         "INFO:UN");
 
@@ -43,7 +45,8 @@ public class INPorterCountyParserTest extends BaseParserTest {
         "CALL:EMS AST-P2",
         "ADDR:342 N 325 E",
         "CITY:Washington Twp",
-        "X:LONG PRAIRIE RD and STREAMWOOD DR GRP:WF",
+        "X:LONG PRAIRIE RD and STREAMWOOD DR",
+        "SRC:WF",
         "PRI:2");
 
     doTest("T4",
@@ -54,6 +57,7 @@ public class INPorterCountyParserTest extends BaseParserTest {
         "ADDR:3705 VALE PARK RD",
         "CITY:Washington Twp",
         "X:ST RD 49 and BARTZ RD",
+        "SRC:WF",
         "PRI:1",
         "INFO:2 PO");
 
@@ -65,6 +69,7 @@ public class INPorterCountyParserTest extends BaseParserTest {
         "ADDR:13 WILLIAMSBURG DR",
         "CITY:Washington Twp",
         "X:DEAD END and JAMESTOWN AV",
+        "SRC:WF",
         "PRI:1");
 
     doTest("T6",
@@ -86,6 +91,7 @@ public class INPorterCountyParserTest extends BaseParserTest {
         "ADDR:177 HEATHERHILL DR",
         "CITY:Center Twp",
         "X:DEAD END and HACKNEY LN",
+        "SRC:WF",
         "PRI:1");
 
     doTest("T8",
@@ -96,6 +102,7 @@ public class INPorterCountyParserTest extends BaseParserTest {
         "ADDR:380 N 400 E",
         "CITY:Washington Twp",
         "X:AUGUSTINE DR and E 400 N",
+        "SRC:WF",
         "PRI:2",
         "INFO:Medical P");
 
@@ -107,6 +114,7 @@ public class INPorterCountyParserTest extends BaseParserTest {
         "ADDR:E US HWY 6 & EDMOND CT",
         "MADDR:E US 6 & EDMOND CT",
         "CITY:Liberty Twp",
+        "SRC:PM",
         "PRI:1",
         "INFO:CAR VS PICKUP, CAR IS IN DITCH");
 
@@ -117,6 +125,7 @@ public class INPorterCountyParserTest extends BaseParserTest {
         "CALL:BRUSH/GRASS FIRE",
         "ADDR:E ENGEL DR & CAIN DR",
         "CITY:Washington Twp",
+        "SRC:WF",
         "PRI:1",
         "INFO:OPEN BURN IN AREA/");
 
@@ -128,7 +137,8 @@ public class INPorterCountyParserTest extends BaseParserTest {
         "PLACE:PILOT TRAVEL CENTER",
         "ADDR:4105 E MORTHLAND DR",
         "CITY:Washington Twp",
-        "X:near DEAD END");
+        "X:near DEAD END",
+        "SRC:WF");
 
     doTest("T12",
         "Subject:CAD Page\n\n#110137072 - \nF35P1:\nEMS AST-P1 @ 429 E ST RD 2,WGT\nCROSS: btwn N 400 E and N 450 E\nGRP:WF\nPRI:1\ncomment: Medical ProQ",
@@ -139,6 +149,7 @@ public class INPorterCountyParserTest extends BaseParserTest {
         "MADDR:429 E ST 2",
         "CITY:Washington Twp",
         "X:N 400 E and N 450 E",
+        "SRC:WF",
         "PRI:1",
         "INFO:Medical ProQ");
 
@@ -150,6 +161,7 @@ public class INPorterCountyParserTest extends BaseParserTest {
         "ADDR:53 ASPEN RD",
         "CITY:Ogden Dunes",
         "X:BITTERSWEET LN and OGDEN RD",
+        "SRC:OF",
         "PRI:1",
         "INFO:Medica");
 
@@ -170,6 +182,7 @@ public class INPorterCountyParserTest extends BaseParserTest {
         "MADDR:253 N ST 2",
         "CITY:Washington Twp",
         "X:RIGG RD and E 300 N",
+        "SRC:WF",
         "PRI:1",
         "INFO:COMPLAINI");
 
@@ -191,6 +204,7 @@ public class INPorterCountyParserTest extends BaseParserTest {
         "MADDR:240 I 94",
         "CITY:Burns Harbor",
         "X:I94&US20 D and ST RD 149",
+        "SRC:PM",
         "PRI:1",
         "INFO:I 94 WESTBOUND 22 M");
   }
