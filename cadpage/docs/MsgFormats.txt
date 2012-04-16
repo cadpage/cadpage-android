@@ -4285,7 +4285,28 @@ FRM:CFD.Dispatch@cincinnati-oh.gov\nMSG:fyi - working fire 7131 fernbank - garag
 FRM:CFD.Dispatch@cincinnati-oh.gov<mailto:CFD.Dispatch@cincinnati-oh.gov>\nMSG:WORKING FIRE 2609 CUMMINS, FIREGROUND 2 CFD Dispatch
 FRM:CFD.Dispatch@cincinnati-oh.gov<mailto:CFD.Dispatch@cincinnati-oh.gov>\nMSG:REPORT OF CHILD & ADULT TRAPPED ON 4TH FLOOR. 2ND ALARM ON 907 FORAKER AVE. FIRE GROUND 2... CFD Dispatch
 **********************************************************
+Casselton, ND (in Cass County)
+Contact: scott mcconnell <mcconnellscooter@gmail.com>
+Sender: dispatch@rrrdc.org
+
+Accident - Injury 15605 29 ST SE CAST 02/10/12 16:21 CFS #: 430 10-50
+ROLLOVER I  Nature Of Call: 10-50 ROLLOVER I  Nature Of Call: 10-50
+ROLLOVER  9500-CASTFIR 6611-CASTAMB 608 8800-CASSRES
+
+
+Accident - Injury 102 LANGER AVE S CAST CENEX PETRO SERVE - 102 LANGER AVE
+S - CAST04/03/12 12:15 CFS #: 967 MEDICAL  Dispatch received by unit 3523
+ Dispatch received by unit 3518  M WAS HIT BY HIS OWN VEH  Nature Of Call:
+MEDICAL  9500-CASTFIR 6611-CASTAMB 609 8800-CASSRES
+
+Residential Fire 321 8 AVE N CAST 03/27/12 20:57 CFS #: 787 RESIDENTIAL
+FIRE  SMELLS HOT UP IN COMPS DAUGHTERS ROOM  Nature Of Call: RESIDENTIAL
+FIRE  9501-CASTFIR
 **********************************************************
+WIKenoshaCountyB replacement?
+Contact: David Wilkinson <dwilkinson@plprairiewi.com>
+Sender: CAD@plprairiewi.com
+Subject:Phoenix Notification\n2012000453 {04/15/2012 14:23:51}\r\nMED CALL - Medical Call{1}\r\n9747 84th Pl\r\nUnits:\r\n    5642    \r\nComments:\r\n\r
 **********************************************************
 **********************************************************
 ************  READY TO ROLL ******************************

@@ -19,12 +19,19 @@ Dispatch ** 21:42 ** WATER PROBLEM ** 3243 ROUTE 20 , NELSON ** - ** michael man
 Dispatch ** 16:22 ** BREATHING PROBLEM ** 4188 MEADOW HILL RD , CAZENOVIA ( / ROUTE 20) ** - **  **  **
 Dispatch ** 21:42 ** WATER PROBLEM ** 3243 ROUTE 20 , NELSON ** - ** michael manion ** 6559325 **
 
+Contact: Erick Haas <erick.haas@live.com>
+Sender: lfdfire@verizon.net
+FRM:lfdfire@verizon.net\nMSG:13:54 ** MVA - UNKNOWN ** OXBOW RD \\ CLOCKVILLE RD (, LINCOLN) ** - **  **  **
+FRM:lfdfire@verizon.net\nMSG:00:20 ** UNCONSCIOUS/FAINTING ** 6765 OXBOW RD , LINCOLN ( INGALLS CORNER ** - ** HUGHES, DUANE ** 315-697-261 ** 
+FRM:lfdfire@verizon.net\nMSG:07:04 ** BREATHING PROBLEM ** 6998 NELSON RD , LINCOLN ** - ** ROSEKRANS DOUGL ** 315-697-986 ** 
+
 */
 
 
 public class NYMadisonCountyAParser extends FieldProgramParser {
 
-  private static final Pattern MARKER = Pattern.compile("^Dispatch \\*\\* \\d\\d:\\d\\d \\*\\* ");
+  private static final Pattern MARKER = Pattern.compile("^(?:Dispatch \\*\\* )?\\d\\d:\\d\\d \\*\\* ");
+  private static final Pattern BACKSLASH_PTN = Pattern.compile("\\\\+");
   
   public NYMadisonCountyAParser() {
     super("MADISON COUNTY", "NY",
@@ -33,7 +40,7 @@ public class NYMadisonCountyAParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "cazfd@fdcms.com,cazfire1@windstream.net";
+    return "cazfd@fdcms.com,cazfire1@windstream.net,lfdfire@verizon.net";
   }
 
   @Override
@@ -69,7 +76,9 @@ public class NYMadisonCountyAParser extends FieldProgramParser {
       else {
         Parser p = new Parser(field);
         String sAddr = p.getOptional(',');
+        if (sAddr.endsWith("(")) sAddr = sAddr.substring(0,sAddr.length()-1);
         if (sAddr.length() == 0) abort();
+        sAddr = BACKSLASH_PTN.matcher(sAddr).replaceAll("&");
         parseAddress(sAddr, data);
         data.strCity = p.get('(');
         String sCross = p.get();

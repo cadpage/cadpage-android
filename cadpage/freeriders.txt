@@ -1280,6 +1280,8 @@ $paid_2013_list
 Michael Krott(krott.michael@gmail.com)
 %%03/02/2012
 Nick Thiele(thiele.nick@gmail.com)
+%%04/15/2012
+Catherine Santaniello (gary.santaniello@gmail.com)
 
 // List of users getting free credit for 2012
 $free_2012_list
