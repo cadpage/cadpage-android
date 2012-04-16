@@ -301,6 +301,15 @@ public class MDFrederickCountyParserTest extends BaseParserTest {
         "MAP:4566D3",
         "UNIT:A29");
 
+    doTest("T28",
+        "CT: INJURED PERSON /  160 WILLOWDALE DR FRE2: @BROOKSIDE II APTS: APT M-403 MAP: 4565J3  Disp: A28",
+        "CALL:INJURED PERSON /",
+        "ADDR:160 WILLOWDALE DR",
+        "CITY:Frederick City",
+        "PLACE:BROOKSIDE II APTS: APT M-403",
+        "MAP:4565J3",
+        "UNIT:A28");
+
   }
   
   public static void main(String[] args) {
