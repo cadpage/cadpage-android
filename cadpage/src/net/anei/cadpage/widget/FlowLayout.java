@@ -17,7 +17,7 @@ public class FlowLayout extends ViewGroup {
   private static final int JUSTIFY_CENTER = 3;
   private static final int JUSTIFY_FILL = 4;
   
-  private static final boolean DEBUG = false;
+  private static final boolean DEBUG = true;
 	private int mHorizontalSpacing;
 	private int mVerticalSpacing;
 	private boolean mBalance;
@@ -84,7 +84,7 @@ public class FlowLayout extends ViewGroup {
     
     // If the balance option is set, we will multiple calls to calclayout
     // the first locks the window height.  Then we will make calls progressively
-    // reducing the effective width to the point where it will for a layout
+    // reducing the effective width to the point where it will force a layout
     // change.  The one we want is the minimal effective width that has the
     // same window height as are original call
     if (mBalance) {
@@ -94,6 +94,7 @@ public class FlowLayout extends ViewGroup {
         int trialWidth = getMeasuredWidth()-1;
         calcLayout(trialWidth, -1);
         if (getMeasuredHeight() > height) break;
+        if (getMeasuredWidth() > trialWidth) break;
         if (trialWidth >= widthSize) {
           throw new RuntimeException("FlowLayout loop calculating view for wspec:" + MeasureSpec.toString(widthMeasureSpec) + 
                                                                          "  hspec:" + MeasureSpec.toString(heightMeasureSpec));
