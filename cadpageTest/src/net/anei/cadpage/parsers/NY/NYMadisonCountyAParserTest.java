@@ -64,6 +64,36 @@ public class NYMadisonCountyAParserTest extends BaseParserTest {
 
   }
   
+  @Test
+  public void test() {
+
+    doTest("T1",
+        "FRM:lfdfire@verizon.net\nMSG:13:54 ** MVA - UNKNOWN ** OXBOW RD \\\\ CLOCKVILLE RD (, LINCOLN) ** - **  **  **",
+        "CALL:MVA - UNKNOWN",
+        "ADDR:OXBOW RD & CLOCKVILLE RD",
+        "CITY:LINCOLN");
+
+    doTest("T2",
+        "FRM:lfdfire@verizon.net\n" +
+        "MSG:00:20 ** UNCONSCIOUS/FAINTING ** 6765 OXBOW RD , LINCOLN ( INGALLS CORNER ** - ** HUGHES, DUANE ** 315-697-261 ** ",
+
+        "CALL:UNCONSCIOUS/FAINTING",
+        "ADDR:6765 OXBOW RD",
+        "CITY:LINCOLN",
+        "X:INGALLS CORNER",
+        "NAME:HUGHES, DUANE",
+        "PHONE:315-697-261");
+
+    doTest("T3",
+        "FRM:lfdfire@verizon.net\nMSG:07:04 ** BREATHING PROBLEM ** 6998 NELSON RD , LINCOLN ** - ** ROSEKRANS DOUGL ** 315-697-986 ** ",
+        "CALL:BREATHING PROBLEM",
+        "ADDR:6998 NELSON RD",
+        "CITY:LINCOLN",
+        "NAME:ROSEKRANS DOUGL",
+        "PHONE:315-697-986");
+
+  }
+  
   public static void main(String[] args) {
     new NYMadisonCountyAParserTest().generateTests("T1");
   }
