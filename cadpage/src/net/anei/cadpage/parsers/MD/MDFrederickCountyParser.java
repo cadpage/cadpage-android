@@ -66,6 +66,9 @@ Contact: Joseph Wentz <ccsgt82@gmail.com>
 Sender: messaging@iamresponding.com
 (JFC 2) CT: BACK PAIN /  801 TOLL HOUSE AVE FRE1: SUITE C-3 MAP: 4566D3  Disp: A29
 
+Contact: Kyle Stull <ktstull@gmail.com>
+CT: INJURED PERSON /  160 WILLOWDALE DR FRE2: @BROOKSIDE II APTS: APT M-403 MAP: 4565J3  Disp: A28
+
 ***/
 
 public class MDFrederickCountyParser extends FieldProgramParser {
@@ -83,16 +86,25 @@ public class MDFrederickCountyParser extends FieldProgramParser {
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     
-    if (subject.length() == 0) return false;
-    String[] subjects = subject.split("\\|");
-    if (subjects.length > 2) return false;
-    if (subjects.length == 2) {
-      if (subjects[0].equals("CAD")) subject = subjects[1];
-      else if (subjects[1].equals("CAD")) subject = subjects[0];
-      else return false;
+    if (subject.length() > 0) {
+      String[] subjects = subject.split("\\|");
+      if (subjects.length > 2) return false;
+      if (subjects.length == 2) {
+        if (subjects[0].equals("CAD")) subject = subjects[1];
+        else if (subjects[1].equals("CAD")) subject = subjects[0];
+        else return false;
+      }
+      data.strSource = subject;
     }
-    data.strSource = subject;
-    return super.parseMsg(body, data);
+    
+    if (!super.parseMsg(body, data)) return false;
+    
+    // Parser is getting pretty sloppy, anything starting with CT: will pass
+    // this.  Let's make sure they have at least one additional field
+    return data.strTime.length() > 0 ||
+            data.strBox.length() > 0 ||
+            data.strMap.length() > 0 ||
+            data.strUnit.length() > 0;
   }
   
   // Address field gets complicated
@@ -214,6 +226,7 @@ public class MDFrederickCountyParser extends FieldProgramParser {
         "CWAL","Walkersville",
         "FRAN CO", "Franklin County",
         "FRE1", "Frederick City",
+        "FRE2", "Frederick City",
         "MTAY", "Mt Airy",
         "NEWM", "New Market",
         "THUR","Thurmont",
