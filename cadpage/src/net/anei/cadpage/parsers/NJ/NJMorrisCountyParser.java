@@ -72,7 +72,7 @@ public class NJMorrisCountyParser extends MsgParser {
   
   @Override
   public String getFilter() {
-    return "Dispatch@co.morris.nj.us,mcdispatch@optimum.net";
+    return "Dispatch@co.morris.nj.us,mcdispatch@optimum.net,iamresponding.com";
   }
   
   @Override
