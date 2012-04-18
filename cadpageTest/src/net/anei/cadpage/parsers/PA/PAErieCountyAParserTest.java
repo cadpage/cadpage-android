@@ -237,9 +237,19 @@ public class PAErieCountyAParserTest extends BaseParserTest {
         "X:TATE RD",
         "ID:2012-0000020343");
 
+    doTest("T24",
+        "ERIE911:ROAD CLOSING ARBUCKLE RD XS: FOOTEMILL RD Cad: 2012-0000043019 ARBUCKLE FROM FOOTMILL TO LAKE PLEASANT RD CLOSED BY STREET DEPT",
+        "SRC:ERIE911",
+        "CALL:ERIE911: ROAD CLOSING",
+        "ADDR:ARBUCKLE RD",
+        "MADDR:ARBUCKLE RD & FOOTEMILL RD",
+        "X:FOOTEMILL RD",
+        "ID:2012-0000043019",
+        "INFO:ARBUCKLE FROM FOOTMILL TO LAKE PLEASANT RD CLOSED BY STREET DEPT");
+
   }
   
   public static void main(String[] args) {
-    new PAErieCountyAParserTest().generateTests("T23", "SRC CALL ADDR CITY X NAME MAP PLACE ID");
+    new PAErieCountyAParserTest().generateTests("T23", "SRC CALL ADDR CITY X NAME MAP PLACE ID INFO");
   }
 }

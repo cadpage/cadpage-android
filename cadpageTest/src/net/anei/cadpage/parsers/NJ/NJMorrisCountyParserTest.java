@@ -353,6 +353,41 @@ public class NJMorrisCountyParserTest extends BaseParserTest {
         "INFO:3 YOM FELT DIZZY , FELL AND BROKE",
         "UNIT:3682,3681,3683");
 
+    doTest("T2",
+        "(Roxbury Fire) SKYLANDS MEDICAL (36) 1ST FLOOR, 150 LAKESIDE BLVD [Roxbury Twp] (BREATHING) - 3682,3681,3683,8000\n" +
+        "SHORTNESS OF BREATH\n" +
+        "3rd Party, 1 Patie",
+
+        "PLACE:SKYLANDS MEDICAL (36) 1ST FLOOR",
+        "ADDR:150 LAKESIDE BLVD",
+        "CITY:Roxbury Twp",
+        "CALL:BREATHING",
+        "INFO:SHORTNESS OF BREATH / 3rd Party, 1 Patie",
+        "UNIT:3682,3681,3683,8000");
+
+    doTest("T3",
+        "prvs=2454f7cf85=dispatch@co.morris.nj.us SKYLANDS MEDICAL (36) 1ST FLOOR, 150 LAKESIDE BLVD [Roxbury Twp] (BREATHING) - 3682,3681,3683,8000\n" +
+        "SHORTNESS OF BREATH\n" +
+        "3rd Party, 1 Patient",
+
+        "PLACE:SKYLANDS MEDICAL (36) 1ST FLOOR",
+        "ADDR:150 LAKESIDE BLVD",
+        "CITY:Roxbury Twp",
+        "CALL:BREATHING",
+        "INFO:SHORTNESS OF BREATH / 3rd Party, 1 Patient",
+        "UNIT:3682,3681,3683,8000");
+
+    doTest("T4",
+        "prvs=2454f7cf85=dispatch@co.morris.nj.us 104 WHISPER WAY E [Roxbury Twp] (RESD FIRE) - 3691,3692,3693,3681,3682,3683,2899\n" +
+        "CALLER STATES THERE IS A FIRE NEAR HIS APT COMPLEX\n" +
+        "F12108",
+
+        "ADDR:104 WHISPER WAY E",
+        "CITY:Roxbury Twp",
+        "CALL:RESD FIRE",
+        "INFO:CALLER STATES THERE IS A FIRE NEAR HIS APT COMPLEX / F12108",
+        "UNIT:3691,3692,3693,3681,3682,3683,2899");
+
   }
   
   public static void main(String[] args) {
