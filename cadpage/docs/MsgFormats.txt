@@ -4310,6 +4310,9 @@ Subject:Phoenix Notification\n2012000453 {04/15/2012 14:23:51}\r\nMED CALL - Med
 Subject:Phoenix Notification\n2012000454 {04/15/2012 17:21:48}\r\nFIRE SNG - Fire - Single Engine{1}\r\n905 114th St\r\nUnits:\r\n    5641    5611  \r
 Subject:Phoenix Notification\n2012000454 {04/15/2012 17:21:48}\r\nFIRE SNG - Fire - Single Engine{1}\r\n905 114th St\r\nUnits:\r\n\4s5641\4s5611\2s\r
 **********************************************************
+Washington County, VA
+Contact: Mike White <cwwilliamsfire@comcast.net>
+System: Southeastern Software
 **********************************************************
 **********************************************************
 **********************************************************
@@ -4482,4 +4485,49 @@ SUGA
                                   RS
 /1557  (619     )  DISP    A134    #125093   PANKOE,RYAN 
 /1557              ADD     QUT60  
+ 
+***************************************************************************** 
+From:alrt491597@alert.princegeorgescountymd.gov
+Body:(3/10) s time, Unit:E833\n\n\n\n\n\n\nThis E-mail and any of its attachments may contain Prince George s\n\nCounty Gover
+Body:(5/10) Information,\n\nwhich is privileged and confidential.\2sThis E-mail is intended\n\nsolely for the use of the
+Body:(7/10) you are hereby notified that any dissemination, distribution,\n\ncopying, or action taken in relation to t
+Body:(8/10) he contents of and\n\nattachments to this E-mail is strictly prohibited by federal law\n\nand may expose you
+Body:(10/10) r immediately\n\nand permanently delete the original and any copy of this E-mail and\n\nany printout.
+Body:(6/10) individual or entity to which it is\n\naddressed.\2sIf you are not the intended recipient of this E-mail,
+Send time:1334662527000
+Rec time: 1334662549998
+
+From:alrt491639@alert.princegeorgescountymd.gov
+Body:(2/10) D, TalkGroup: TGA2, Box: 4818, Map: 5411 C 1, Text: Fire ProQA recommends dispatch at this time, Unit:E8
+Body:(10/10) and permanently delete the original and any copy of this E-mail and\n\nany printout.
+Body:(5/10) which is privileged and confidential.\2sThis E-mail is intended\n\nsolely for the use of the individual or
+Body:(8/10) and\n\nattachments to this E-mail is strictly prohibited by federal law\n\nand may expose you to civil and/
+Send time:1334666672000
+Rec time: 1334666683430
+
+From:alrt491639@alert.princegeorgescountymd.gov
+Body:(2/10) D, TalkGroup: TGA2, Box: 4818, Map: 5411 C 1, Text: Fire ProQA recommends dispatch at this time, Unit:E8
+Body:(10/10) and permanently delete the original and any copy of this E-mail and\n\nany printout.
+Body:(5/10) which is privileged and confidential.\2sThis E-mail is intended\n\nsolely for the use of the individual or
+Body:(8/10) and\n\nattachments to this E-mail is strictly prohibited by federal law\n\nand may expose you to civil and/
+Send time:1334666672000
+Rec time: 1334666683430
+
+From:alrt491676@alert.princegeorgescountymd.gov
+Body:(5/10) s privileged and confidential.\2sThis E-mail is intended\n\nsolely for the use of the individual or entity
+Body:(9/10) inal penalties. If you have\n\nreceived this E-mail in error, please notify the sender immediately\n\nand pe
+Body:(4/10) e's County 7th Judicial Circuit\n\nCourt proprietary information or Protected Health Information,\n\nwhich i
+Body:(8/10) ttachments to this E-mail is strictly prohibited by federal law\n\nand may expose you to civil and/or crim
+Send time:1334669483000
+Rec time: 1334669495794
+
+From:alrt491682@alert.princegeorgescountymd.gov
+Eff From:alrt491682@alert.princegeorgescountymd.gov
+Body:(8/11) tion taken in relation to the contents of and\n\nattachments to this E-mail is strictly prohibited by fede
+Body:(5/11) mation or Protected Health Information,\n\nwhich is privileged and confidential.\2sThis E-mail is intended
+Body:(2/11) BLVD and EDGEWORTH DR, TalkGroup: TGA2, Box: 3702, Map: 5531 E 9, Text: SUSPICIOUS PACKAGE PER CRAIG BLA
+Body:(3/11) CK...16 ONLY GOING, Units:E816, HC816, PA816\n\n\n\n\n\n\nThis E-mail and any of its attachments may contain Pr
+Body:(1/11) HC816 Incident: F121080089, Type: Hazmat Service Call, Loc: 9140 EAST HAMPTON DR, PP, btwn HAMPTON PARK
+end time:1334670280000
+Rec time: 1334670392241
  
