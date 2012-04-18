@@ -86,6 +86,7 @@ Sig3 Full Crew Need *** 16 *** 160 WALT WHITMAN RD CS: PINETREE RD TOA: 11:16 04
 Contact: edepasquale@commackfd.org
 Sender: paging2@firerescuesystems.xohost.com
 ***23 Heavy Rescue***  SUNKEN MEADOW PKY CS: NORTHERN STATE PKY TOA: 23:23 04-01-12
+***23 Motor Vehicle Accident*** INDIAN HEAD RD COMMACK CS: SOMERS LN TOA: 09:38 04-18-12
 
 */
 
@@ -94,6 +95,7 @@ public class NYSuffolkCountyBParser extends FieldProgramParser {
   public NYSuffolkCountyBParser() {
     super(CITY_LIST, "SUFFOLK COUNTY", "NY",
            "ADDR/SP! CS:X? ADTML:CODE? TOA:TIMEDATE TYPE:INFO LOC:SKIP");
+    setupMultiWordStreets("INDIAN HEAD");
   }
   
   @Override
