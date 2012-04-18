@@ -275,7 +275,14 @@ public class DispatchBParser extends SmartAddressParser {
     data.strBox = props.getProperty("BOX", "");
     data.strMap = props.getProperty("Map", "");
     String callId = props.getProperty("Cad");
-    if (callId != null) data.strCallId = callId;
+    if (callId != null) {
+      int pt = callId.indexOf(' ');
+      if (pt >= 0) {
+        data.strSupp = callId.substring(pt+1).trim();
+        callId = callId.substring(0,pt);
+      }
+      data.strCallId = callId;
+    }
     
     return true;
   }

@@ -4314,6 +4314,38 @@ Washington County, VA
 Contact: Mike White <cwwilliamsfire@comcast.net>
 System: Southeastern Software
 **********************************************************
+Chester County, PA (alternate)
+Contact: "jtgff72@aol.com" <jtgff72@aol.com>
+Sender: wgfc22@comcast.net
+Subject: Dispatch
+Inc History #NCCF12000028           
+                      
+ Entered      04/17/12  13:15:35  BY FD16     135    
+ Dispatched   04/17/12  13:15:42  BY FD16     135    
+
+ Initial Type: RELOCAT    Final Type: RELOCAT (RELOCATE FIRE/EMS UNITS)
+ Initial Priority: 3      Final Priority: 3 
+ Initial Alarm Level: 1   Final Alarm Level: 1
+ Disposition:        Source: T    Primary Unit: ENG22       Rsp: 0099  
+ Police BOX:   Fire BOX:   EMS BOX:  
+ Group: C88F          Section:   Map:          X: 0000000  Y: 0000000
+
+ Loc: NCC STA19   (NV)
+ AKA:   Municipality:        Dev: 
+ Name: NCC ENG19               Addr:                         PH:                
+
+/1315  (135   )  ENTRY            NO FURTHER INFORMATION
+/1315            DISP    ENG242    #ENG242 ENG242 MDT 
+/1323           $PREMPT  ENG242   
+/1323           $DISP    ENG22     #ENG22  ENG22 MDT 
+/1323            EXCH    ENG242   ENG22    
+PRIOR PREMISE HISTORY FOR: NCC STA19                                         
+
+No Prior Premise History found for the Location
+
++++
+{
+ ***  *** Dispatch *** 
 **********************************************************
 **********************************************************
 **********************************************************
@@ -4412,6 +4444,8 @@ CFFD:2012:308\nDISPATCHED\nMEDALS\n581, BEVERLY AV ;CANAL FULTON
 CFFD:2012:309\nDISPATCHED\nMEDALS\n8757, SPRING GROVE AV NW ;LAWRENCE TWP
 **********************************************************
 Bucks County, PA (Alternate)
+Contact: Ryan Pankoe <rpankoe@chalfontems.org>
+Sender: mss@co.bucks.pa.us
 
 I have the option of having the initial Bucks County dispatches sent in the
 following format via email, instead of the "text message" format.  I'm
@@ -4486,6 +4520,191 @@ SUGA
 /1557  (619     )  DISP    A134    #125093   PANKOE,RYAN 
 /1557              ADD     QUT60  
  
+***
+Sent: Friday, April 13, 2012 9:11 PM
+To: countyprints@chalfontems.org
+Subject: 911 Data
+
+ <SYSTEM GENERATED> TO INT1 FROM FS01  :
+134
+
+
+
+ Inc History for: #ED1213447    Xref:
+#PD121041267
+
+ Entered      04/13/12  21:10:06  BY PD06   576
+ Dispatched   04/13/12  21:11:21  BY FS01   807
+
+ Initial Type: BOD     Initial Alarm Level:  1  Final Alarm Level:  1
+ Final Type: BOD   (OVERDOSE/POISIONING (NON CRIT)) Pri: 4 Dspo:
+Prem: [  ]
+ EMS Blk:  134062 Fire Blk:  74062  Police Blk:  48101  Map Page: 3033E6
+ Group: EN  Beat: 134 Src:   ATT:
+ Loc: 214 HAMPSHIRE DR ,48  btwn CORNWALL DR & SURREY RD
+
+ Loc Info:
+ Name: SHANNON GILROY          Addr:                         Phone:
+2679873669
+
+/2110  (576     )  COPY           ,FOR AN INTOX MALE
+/2110             $CROSS          #PD121041267
+                                  ,FOR AN INTOX MALE
+/2111  (807     )  DISP    A134    #125093   PANKOE,RYAN
+
+-- 
+
+
+DISCLAIMER: This electronic message transmission has been sent by Chalfont Emergency Medical Services, Inc., which may contain confidential or privileged information. This information is intended for the individual or entity named above. If you are not the intended recipient, be aware that any disclosure, copying, distribution or use of the contents of this information is prohibited. If you have received this electronic transmission in error, please notify us immediately by telephone at 215-822-1308 x116, or by electronic mail (reply).
+
+***
+Subject: 911 Data
+
+ <SYSTEM GENERATED> TO INT1 FROM FS01  :
+125/134
+
+
+
+ Inc History for: #ED1213623    Xref:                           #PD121060278
+
+ Received     04/15/12  09:18:45  BY FD01   619
+ Entered      04/15/12  09:19:25  BY FD01   619
+ Dispatched   04/15/12  09:19:51  BY FS01   271
+
+ Initial Type: ATRAN   Initial Alarm Level:  1  Final Alarm Level:  1
+ Final Type: ATRAN (NON-SPECIFIC (CRITICAL) EMERG) Pri: 3 Dspo:      Prem:
+[  ]
+ EMS Blk:  125003 Fire Blk:  19003  Police Blk:  29202  Map Page: 2922D10
+ Group: EN  Beat: 125 Src:  9 ATT:
+ Loc: 39 PINEVALE RD ,29  btwn PINE VALLEY RD S & PINE VALLEY RD N
+
+ Loc Info:
+ Name: KAREN RICHARDSON        Addr: DAUGHTER                Phone:
+2153487812
+
+/0919  (619     )  ENTRY:         82YOF,,VERY WEAK,,UNABLE TO WALK
+/0919  (271     )  DISP    A134    #078910   MCDONAGH, PENELOPE
+                                  #131319   MEEHAN, JOSEPH (EMT)
+/0919              ADD     1253    #208306   WHITESIDE, JESSICA (EMT)
+                                  #100580   HARKER, KEVIN (EMT)
+
+
+
+--
+
+
+DISCLAIMER: This electronic message transmission has been sent by Chalfont
+Emergency Medical Services, Inc., which may contain confidential or
+privileged information. This information is intended for the individual or
+entity named above. If you are not the intended recipient, be aware that
+any disclosure, copying, distribution or use of the contents of this
+information is prohibited. If you have received this electronic
+transmission in error, please notify us immediately by telephone at
+215-822-1308
+x116, or by electronic mail (reply).
+
+***
+Subject: 911 Data
+
+ <SYSTEM GENERATED> TO INT1 FROM FD02  :
+134
+
+
+
+ Inc History for: #ED1213579    Xref:                           #PD121051282
+
+ Entered      04/14/12  23:49:37  BY PD06   741
+ Dispatched   04/14/12  23:50:00  BY FD02   807
+
+ Initial Type: BUNK    Initial Alarm Level:  1  Final Alarm Level:  1
+ Final Type: BUNK  (UNKNOWN EMERGENCY (3RD PARTY)) Pri: 3 Dspo:      Prem:
+[]
+ EMS Blk:  134004 Fire Blk:  34005  Police Blk:  48201  Map Page: 2921F10
+ Group: EN  Beat: 134 Src:   ATT:
+ Loc: CALLOWHILL RD/NEW GALENA RD ,48
+
+ Loc Info:
+ Name:                         Addr:                         Phone:
+
+/2349  (741     )  COPY           ,OFC REQ BLS SQUAD DIDN'T SPECIFY WHAT
+FOR WHE
+                                 N ASKED
+/2349             $CROSS          #PD121051282
+                                 ,OFC REQ BLS SQUAD DIDN'T SPECIFY WHAT FOR
+WHE
+                                 N ASKED
+/2350  (807     )  DISP    A134    #078910   MCDONAGH, PENELOPE
+                                  #131319   MEEHAN, JOSEPH (EMT)
+
+
+
+--
+
+
+DISCLAIMER: This electronic message transmission has been sent by Chalfont
+Emergency Medical Services, Inc., which may contain confidential or
+privileged information. This information is intended for the individual or
+entity named above. If you are not the intended recipient, be aware that
+any disclosure, copying, distribution or use of the contents of this
+information is prohibited. If you have received this electronic
+transmission in error, please notify us immediately by telephone at
+215-822-1308
+x116, or by electronic mail (reply).
+
+***
+
+Subject: 911 Data
+
+ <SYSTEM GENERATED> TO INT1 FROM FS01  :
+151/134/E59
+
+
+
+ Inc History for: #ED1213550    Xref:                           #PD121051005
+
+ Received     04/14/12  19:03:19  BY CT10   830
+ Entered      04/14/12  19:08:14  BY CT10   830
+ Dispatched   04/14/12  19:10:06  BY FS01   488
+
+ Initial Type: BTRAN   Initial Alarm Level:  1  Final Alarm Level:  1
+ Final Type: BTRAN (EMERGENCY TRANSPORTATION) Pri: 4 Dspo:      Prem: [FW]
+ EMS Blk:  152204 Fire Blk:  59004  Police Blk:  36118  Map Page: 2920E5
+ Group: EN  Beat: 151 Src:  9 ATT:
+ Loc: 1120 DIAMOND ST ,36  btwn NAROTHYN RD & E SCHOOLHOUSE RD
+
+ Loc Info: LIFEPATH HOME
+ Name: TAHALNY,JANET           Addr:                         Phone:
+2152574233
+
+/1908  (830     )  ENTRY:         COMPL UNSURE OF TWP,,KEEPS GIVING
+SELLERSVILLE
+                                  AND CALLING THE BUISNESS
+LIFEPATH.....56/F,,B
+                                 P 112/78,,GENERAL WEAKNESS,,HX OF MENTAL
+RETAR
+                                 DATION
+/1909  (488     )  HOLD
+/1910              DISP    A134    #078910   MCDONAGH, PENELOPE
+                                  #131319   MEEHAN, JOSEPH (EMT)
+/1910              ADD     1512
+/1910              ADD     QUT59
+
+
+
+--
+
+
+DISCLAIMER: This electronic message transmission has been sent by Chalfont
+Emergency Medical Services, Inc., which may contain confidential or
+privileged information. This information is intended for the individual or
+entity named above. If you are not the intended recipient, be aware that
+any disclosure, copying, distribution or use of the contents of this
+information is prohibited. If you have received this electronic
+transmission in error, please notify us immediately by telephone at
+215-822-1308
+x116, or by electronic mail (reply).
+
+ 
 ***************************************************************************** 
 From:alrt491597@alert.princegeorgescountymd.gov
 Body:(3/10) s time, Unit:E833\n\n\n\n\n\n\nThis E-mail and any of its attachments may contain Prince George s\n\nCounty Gover
@@ -4530,4 +4749,3 @@ Body:(3/11) CK...16 ONLY GOING, Units:E816, HC816, PA816\n\n\n\n\n\n\nThis E-mai
 Body:(1/11) HC816 Incident: F121080089, Type: Hazmat Service Call, Loc: 9140 EAST HAMPTON DR, PP, btwn HAMPTON PARK
 end time:1334670280000
 Rec time: 1334670392241
- 

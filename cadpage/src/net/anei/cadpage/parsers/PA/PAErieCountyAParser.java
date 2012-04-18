@@ -46,12 +46,12 @@ From: 8144312596,8149232720
 1 of 2:ERIE911:65A >MUTUAL AID/ASSIST OUTSIDE AGEN 328 HIGH ST XS: N PARK ROW WATERFORD BORO CHIEF CHRIS BARBER
 ERIE911:1C4 >ABDOM PAIN - FEM 12-50 W/FAINT 9625 MARK RD XS: WATTSBURG RD GREENE TWP WEED DAVID Map:307 Grids:, Cad: 2012-0000006327
 ERIE911:29D4A >MVA-TRAPPED MULTI PT/ADD RESPO LAKE PLEASANT RD&TATE RD XS: TATE RD GREENE TWP Cad: 2012-0000020343
+ERIE911:ROAD CLOSING ARBUCKLE RD XS: FOOTEMILL RD Cad: 2012-0000043019 ARBUCKLE FROM FOOTMILL TO LAKE PLEASANT RD CLOSED BY STREET DEPT
 
 */
 
 public class PAErieCountyAParser extends DispatchBParser {
   
-  private static final Pattern MARKER = Pattern.compile("^ERIE911:\\w{3,} ?>");
   private static final Pattern MARKER2 = Pattern.compile("^[0-9A-Z]+ ?>");
  
   public PAErieCountyAParser() {
@@ -70,11 +70,6 @@ public class PAErieCountyAParser extends DispatchBParser {
     do {
       if (body.startsWith("ERIE911:")) {
         data.strSource = "ERIE911";
-        if (!MARKER.matcher(body).find()) {
-          data.strCall = "GENERAL ALERT";
-          data.strPlace = body.substring(8).trim();
-          return true;
-        }
         break;
       }
       
@@ -83,12 +78,21 @@ public class PAErieCountyAParser extends DispatchBParser {
           data.strSource = subject;
           break;
         }
-        
       }
       
       return false;
     } while (false);
     
-    return super.parseMsg(body, data);
+    boolean result = super.parseMsg(body, data);
+    result = result && 
+      (data.strCross.length() > 0 || 
+       data.strCity.length() > 0 || 
+       data.strCallId.length() > 0);
+    if (!result && body.startsWith("ERIE911:")) {
+      data.parseGeneralAlert(body.substring(8).trim());
+      data.strSource = "ERIE911";
+      result = true;
+    }
+    return result;
   }
 }
