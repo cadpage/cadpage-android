@@ -515,9 +515,19 @@ public class NYSuffolkCountyBParserTest extends BaseParserTest {
         "X:NORTHERN STATE PKY",
         "TIME:23:23",
         "DATE:04-01-12");
+
+    doTest("T51",
+        "***23 Motor Vehicle Accident*** INDIAN HEAD RD COMMACK CS: SOMERS LN TOA: 09:38 04-18-12",
+        "CALL:23 Motor Vehicle Accident",
+        "ADDR:INDIAN HEAD RD",
+        "MADDR:INDIAN HEAD RD & SOMERS LN",
+        "CITY:COMMACK",
+        "X:SOMERS LN",
+        "TIME:09:38",
+        "DATE:04-18-12");
   }
   
   public static void main(String[] args) {
-    new NYSuffolkCountyBParserTest().generateTests("T46");
+    new NYSuffolkCountyBParserTest().generateTests("T1");
   }
 }
