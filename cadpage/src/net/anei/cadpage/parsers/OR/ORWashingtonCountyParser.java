@@ -20,6 +20,10 @@ Clackamas County, OR
 Contact: Tyree Zander <tzander.depoebayfire@gmail.com>
 Sender: 777109496789
     UNCON/FAINTING 37905 SE SERBAN RD (SE BLUFF RD & SE BAUMBACK RD) SAN MAP: 6013B UNIT: E74 M1
+    
+Contact: zak delair <zakdelair117@gmail.com>
+Sender: 93001003
+UNK PROB/MN DOWN 95 82ND DR (SAFEWAY (GLADSTONE)) GLA MAP: 6398D UNIT: R101 M1
 
 */
 
@@ -33,6 +37,7 @@ public class ORWashingtonCountyParser extends SmartAddressParser {
       "HIL", "HILLSBORO",
       "CON", "CORNELIUS",
       "FOR", "FOREST GROVE",
+      "GLA", "GLADSTONE",
       "SAN", "SANDY"
   });
   

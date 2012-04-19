@@ -29,6 +29,11 @@ Sender: lelandems+bncCOqwh4kZEO2g9_EEGgTkSK1X@googlegroups.com
 Contact: Doritto <no1bravesfancandy@gmail.com>
 1051:MT PISGAH BAPTIST CHURCH 494 MT PISGAH RD SW SUPPLY 11-085300 18:43:59 Brush Fire ON THE RIGHT IF GOING TOWARDS HOLDEN BEACH RD JUST PASSED MT PISGAH CHURCH ... ADVD SMALL FIRE IN T
 
+Contact: Joe Jenkins <chasenfins@gmail.com>
+Sender: vtext.com@returns.groups.yahoo.com
+sentto-81008140-155-1334858821-9109162452=vtext.com@returns.groups.yahoo.com ([northwestvfd] ) 812:9035 DALES HAVEN RD NE NORTHWEST MDL 17B03-G 12-029328 14:02:41 Falls MEDICAL ALA
+sentto-81008140-157-1334863333-9109162452=vtext.com@returns.groups.yahoo.com ([northwestvfd] ) 814:6598 NEW GROUND TR NE NORTHWEST MDL 26C02 12-029355 15:17:43 Sick Person (Specifi
+
 */
 
 public class NCBrunswickCountyParser extends DispatchSouthernParser {
