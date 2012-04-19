@@ -118,9 +118,15 @@ public class FLSarasotaCountyParserTest extends BaseParserTest {
   }
   
   @Test
-  public void testFallback() {
-    
-    
+  public void testBillHoad() {
+
+    doTest("T1",
+        "SARASOTA COUNTY EVENT TYPE: VEHICLE FIRE Location: 4700 FORBES TRL AREA: G434 MUN: SCTY TIME: 12:12:10\\2sDisp: B26,BN4,E21,E24,E26,R21",
+        "CALL:VEHICLE FIRE",
+        "ADDR:4700 FORBES TRL",
+        "MAP:G434",
+        "TIME:12:12:10\\2sDisp: B26,BN4,E21,E24,E26,R21");
+
   }
   
   public static void main(String[] args) {
