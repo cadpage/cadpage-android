@@ -75,6 +75,20 @@ public class ORWashingtonCountyParserTest extends BaseParserTest {
         "UNIT:E74 M1");
   }
   
+  @Test
+  public void testZakDelair() {
+
+    doTest("T1",
+        "UNK PROB/MN DOWN 95 82ND DR (SAFEWAY (GLADSTONE)) GLA MAP: 6398D UNIT: R101 M1",
+        "CALL:UNK PROB/MN DOWN",
+        "ADDR:95 82ND DR",
+        "X:GLADSTONE)",
+        "CITY:GLADSTONE",
+        "MAP:6398D",
+        "UNIT:R101 M1");
+
+  }
+  
   public static void main(String[] args) {
     new ORWashingtonCountyParserTest().generateTests("T1", "CALL ADDR X CITY MAP UNIT");
   }

@@ -6,10 +6,10 @@ import java.util.regex.Pattern;
 public class PatternTest {
 
   private static final Pattern MASTER = 
-      Pattern.compile("http://maps.google.com/maps\\?q=");
+      Pattern.compile("^(?:[-=.+_a-z0-9]*[0-9a-f]{8,}[-=.+_a-z0-9]*=)?([\\w.!\\-]+@[\\w.]+)[\\s:]");
   
   public static void main(String[] args) {
-    doTest("http://maps.google.com/maps?q=+40.34854%20-78.40453");
+    doTest("sentto-81008140-157-1334863333-9109162452=vtext.com@returns.groups.yahoo.com ([northwestvfd] ) 814:6598 NEW GROUND TR NE NORTHWEST MDL 26C02 12-029355 15:17:43 Sick Person (Specifi");
   }
   
   private static void doTest(String test) {

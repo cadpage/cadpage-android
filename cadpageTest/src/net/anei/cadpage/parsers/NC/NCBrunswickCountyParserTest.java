@@ -145,6 +145,29 @@ public class NCBrunswickCountyParserTest extends BaseParserTest {
         "INFO:Brush Fire ON THE RIGHT IF GOING TOWARDS HOLDEN BEACH RD JUST PASSED MT PISGAH CHURCH ... ADVD SMALL FIRE IN T");
 
   }
+  
+  @Test
+  public void testJoeJenkins() {
+
+    doTest("T1",
+        "sentto-81008140-155-1334858821-9109162452=vtext.com@returns.groups.yahoo.com ([northwestvfd] ) 812:9035 DALES HAVEN RD NE NORTHWEST MDL 17B03-G 12-029328 14:02:41 Falls MEDICAL ALA",
+        "ADDR:9035 DALES HAVEN RD NE",
+        "CITY:NORTHWEST",
+        "CODE:17B03-G",
+        "ID:12-029328",
+        "TIME:14:02:41",
+        "INFO:Falls MEDICAL ALA");
+
+    doTest("T2",
+        "sentto-81008140-157-1334863333-9109162452=vtext.com@returns.groups.yahoo.com ([northwestvfd] ) 814:6598 NEW GROUND TR NE NORTHWEST MDL 26C02 12-029355 15:17:43 Sick Person (Specifi",
+        "ADDR:6598 NEW GROUND TR NE",
+        "CITY:NORTHWEST",
+        "CODE:26C02",
+        "ID:12-029355",
+        "TIME:15:17:43",
+        "INFO:Sick Person (Specifi");
+    
+  }
 
   public static void main(String[] args) {
     new NCBrunswickCountyParserTest().generateTests("T1", "PLACE ADDR CITY NAME PHONE CODE ID TIME CALL INFO");
