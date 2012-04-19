@@ -178,6 +178,14 @@ public class PALebanonCountyParserTest extends BaseParserTest {
         "BOX:Fire:12-03 EMS:190-16",
         "UNIT:FG 3 E12");
 
+    doTest("T2",
+        "North Annville Township BLACKS BRIDGE RD HOSTETTER LN AREA OF SF - Dwelling Fire Barn Fire FG3 E6 R5 QRS6 E7 E12 E75 TK12 SQ12 T6 T6-1 T7 PT47 AmbCo19",
+        "CITY:NORTH ANNVILLE TOWNSHIP",
+        "ADDR:BLACKS BRIDGE RD & HOSTETTER LN",
+        "PLACE:AREA OF",
+        "CALL:SF - Dwelling Fire Barn Fire",
+        "UNIT:FG3 E6 R5 QRS6 E7 E12 E75 TK12 SQ12 T6 T6-1 T7 PT47 AMBCO19");
+
   }
   
   public static void main(String[] args) {
