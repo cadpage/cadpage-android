@@ -39,6 +39,7 @@ Subject:Sta 29@12:50\nSouth Lebanon Twp 2618 KING ST MI - Miscellaneous Wire Dow
 Contact: "Roger Funck" <rogerfunck@verizon.net>
 Sender: 7176798487
 East Hanover Township 7 TOWER LN AREA OF MV - Accident w/Injuries fg 3 E12  Fire-Box 12-03 EMS-Box 190-16
+North Annville Township BLACKS BRIDGE RD HOSTETTER LN AREA OF SF - Dwelling Fire Barn Fire FG3 E6 R5 QRS6 E7 E12 E75 TK12 SQ12 T6 T6-1 T7 PT47 AmbCo19
 
 */
 
@@ -50,9 +51,10 @@ public class PALebanonCountyParser extends SmartAddressParser {
     Pattern.compile("^City of ([^ ]*) "),
     Pattern.compile("^(.*) Borough ")
   };
-  private static final Pattern CALL_BOX_PTN = 
-      Pattern.compile(" (?:Med Class(\\d) |([A-Z]{2,3} - ))(.*) " + 
-                      "(?:(?:Box|BOX) ?([0-9\\-]+)|Fire-Box ([0-9\\-]+) EMS-Box ([0-9\\-]+))");
+  private static final Pattern CALL_PREFIX_PTN =
+      Pattern.compile(" (?:Med Class(\\d) |([A-Z]{2,3} - ))");
+  private static final Pattern BOX_PTN = 
+      Pattern.compile(" (?:(?:Box|BOX) ?([0-9\\-]+)|Fire-Box ([0-9\\-]+) EMS-Box ([0-9\\-]+))");
   private static final Pattern TAIL_CLASS_PTN = Pattern.compile("^Class (\\d) for EMS ");
   private static final Pattern UNIT_PTN = Pattern.compile(" +([A-Z]+[0-9]+(?:-[0-9]+)?|[0-9]+[A-Z]+|FG[ -]?\\d)$", Pattern.CASE_INSENSITIVE);
 
@@ -77,17 +79,28 @@ public class PALebanonCountyParser extends SmartAddressParser {
     }
     if (data.strCity.length() == 0) return false;
     
-    Matcher match = CALL_BOX_PTN.matcher(body);
+    Matcher match = CALL_PREFIX_PTN.matcher(body);
     if (!match.find()) return false;
     String sAddress = body.substring(0,match.start()).trim();
     data.strPriority = getOptGroup(match.group(1));
     String sCallPfx = match.group(2);
-    data.strCall = (sCallPfx == null ? "" : sCallPfx) + match.group(3).trim();
-    data.strBox = match.group(4);
-    if (data.strBox == null) {
-      data.strBox = "Fire:" + match.group(5) + " EMS:" + match.group(6);
+    String sTail = body.substring(match.end());
+
+    String sCall;
+    match = BOX_PTN.matcher(sTail);
+    if (! match.find()) {
+      sCall = sTail;
+      sTail = "";
+    } else {
+      sCall = sTail.substring(0,match.start()).trim();
+      String sBox = match.group(1);
+      if (sBox == null) {
+        sBox = "Fire:" + match.group(2) + " EMS:" + match.group(3);
+      }
+      data.strBox = sBox;
+      sTail = sTail.substring(match.end()).trim();
     }
-    String sTail = body.substring(match.end()).trim();
+    data.strCall = (sCallPfx == null ? "" : sCallPfx) + sCall;
     
     parseAddress(StartType.START_ADDR, FLAG_IMPLIED_INTERSECT, sAddress, data);
     data.strPlace = getLeft();
