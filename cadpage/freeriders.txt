@@ -1239,6 +1239,8 @@ Stephen valvo (valvo0822@yahoo.com)
 Steven Atherton (firemansteve1614@gmail.com)<steve@stlouisarsenal.com> // St Louis County, MO (B)
 %%04/17/2012
 Michael Watkins(doc.watkins@yahoo.com)
+%%04/18/2012
+Robert Balderson(rab901comsup@yahoo.com)
 
 // *** Insert Paid Users here ***
 %2012/Pennfield FD //chief@pennfieldtwp.com  - {Payment Pending)
@@ -1278,6 +1280,17 @@ EMS Spare       (2194058995)
 EMS 3           (2194058218)
 Dale Lanham     (2194055168)
 Gary Atherton   (2194055167)
+
+%2012/Fleischmanns Vol Fire Department // Paid
+%%04/18/2012
+Todd Wickham    (5186497202)
+Bob Van Valkenburgh (5186497363)
+Jacki Van VValkenburgh (9144669081)
+Tom Miller      (5186497496)
+Grant Cure      (8459011418)
+Marshall Bouton (8457502230)
+Brianna Wickman (8455143189)
+Matthew Wickman (8455143187)
 
 // List of users getting credit for 2013
 $paid_2013_list
