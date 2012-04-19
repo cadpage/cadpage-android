@@ -29,6 +29,10 @@ EVENT TYPE: OUTSIDE FIRE-BRUSH Location: COLFAX LN/TOWN TER NPRT G544 TIME: 17:2
 EVENT TYPE: STRUCTURE FIRE Location: 2633 RIDGEWOOD DR NPRT G544 TIME: 01:26:04
 EVENT TYPE: STRUCTURE FIRE Location: PAN AMERICAN BLVD/LA BREA ST NPRT G565 TIME: 19:07:40
 
+Contact: Bill Hoag <bikeh1@gmail.com>
+Sender: 7771
+SARASOTA COUNTY EVENT TYPE: VEHICLE FIRE Location: 4700 FORBES TRL AREA: G434 MUN: SCTY TIME: 12:12:10\2sDisp: B26,BN4,E21,E24,E26,R21
+
 
 *** FREE FORM - NOT PARSED ***
 WORKING BRUSH FIRE @ 3261 TOWN TER NORTH PORT, XST YEADON TER, APX 1/4 ACRE// MED TO HEAVY FUEL// FAST MOVING// UNITS ON SCENE // FD3 DISPATCH 2641 B82 B83 BN8 DOF E81 RAV84 T83 TRK84
@@ -41,7 +45,7 @@ public class FLSarasotaCountyParser extends FieldProgramParser {
   
   public FLSarasotaCountyParser() {
     super(CITY_CODES, "SARASOTA COUNTY", "FL",
-        "EVENT_TYPE:CALL! Location:ADDR/S! TIME:TIME! Disp:UNIT");
+        "EVENT_TYPE:CALL! Location:ADDR/S! AREA:MAP? MUN:CITY? TIME:TIME! Disp:UNIT");
   }
   
   @Override
@@ -51,7 +55,7 @@ public class FLSarasotaCountyParser extends FieldProgramParser {
 
   @Override
   public String getFilter() {
-    return "77711,93001";
+    return "7771,93001";
   }
   
   @Override
@@ -72,9 +76,10 @@ public class FLSarasotaCountyParser extends FieldProgramParser {
       }
       
       Matcher match = MAP_PTN.matcher(field);
-      if (!match.find()) abort();
-      data.strMap = match.group(1);
-      field = field.substring(0,match.start()).trim();
+      if (match.find()) {
+        data.strMap = match.group(1);
+        field = field.substring(0,match.start()).trim();
+      }
       super.parse(field, data);
     }
     
