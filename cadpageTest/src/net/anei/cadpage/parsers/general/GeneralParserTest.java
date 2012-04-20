@@ -268,6 +268,14 @@ public class GeneralParserTest extends BaseParserTest {
         "MADDR:64 RICHARDS LN",
         "INFO:88   (NV) * X-STRT DARIEN RD - COVERED * NCC * Dispatch");
 
+    doTest("T31",
+        "911-CENTER:52C03 >FIRE ALARM COMMERCIAL/INDUST 101 MAPLE DR XS: ROUTE 322 ELK TWP MC ALARMS 6077869897 Map: Grids:G-10, Cad: 2012-0000012260",
+        "CALL:52C03 >FIRE ALARM COMMERCIAL/INDUST",
+        "ADDR:101 MAPLE DR",
+        "X:ROUTE 322 ELK TWP MC ALARMS 6077869897",
+        "MAP:G-10",
+        "ID:2012-0000012260");
+    
   }
   
 }
