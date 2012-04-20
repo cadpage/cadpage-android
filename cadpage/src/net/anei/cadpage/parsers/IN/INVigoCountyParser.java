@@ -18,6 +18,7 @@ Ct:EMS MAJOR Loc:6244 WILMINGTON PIKE Apt: XSt:CLYO RD CENTER POINT DR Grid:003B
 
 Contact: "Dennis Boyd" <dboyd462@gmail.com>
 Ct:FIRE-ENTRAPMENT Loc:101 N 7TH ST WTH Apt: XSt:JOHNSON AV MILLER AV Grid:0WTH Units:E-41 E-42 L-41 R-41 Rmk:HOUSE ON FIRE PEOPLE STILL INSIDE
+
 ***/
 
 public class INVigoCountyParser extends DispatchCiscoParser {

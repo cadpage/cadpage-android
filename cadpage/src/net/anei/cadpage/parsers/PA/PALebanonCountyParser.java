@@ -40,6 +40,7 @@ Contact: "Roger Funck" <rogerfunck@verizon.net>
 Sender: 7176798487
 East Hanover Township 7 TOWER LN AREA OF MV - Accident w/Injuries fg 3 E12  Fire-Box 12-03 EMS-Box 190-16
 North Annville Township BLACKS BRIDGE RD HOSTETTER LN AREA OF SF - Dwelling Fire Barn Fire FG3 E6 R5 QRS6 E7 E12 E75 TK12 SQ12 T6 T6-1 T7 PT47 AmbCo19
+North Annville Township BLACKS BRIDGE RD HOSTETTER LN AREA OF BF - Barn Fire Barn Fire FG3  Box is In-Service Auth Dep 6 SQ12 T6 T6-1  Fire-Box 6-03 E
 
 */
 
