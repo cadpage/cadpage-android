@@ -19,7 +19,8 @@ public class KYDaviessCountyParserTest extends BaseParserTest {
         "CALL:SEIZURES",
         "ADDR:4255 NEW HARTFORD RD",
         "X:NEAR SOUTHEASTERN PKY",
-        "NAME:OWENSBORO DAY, RUS",
+        "CITY:OWENSBORO",
+        "NAME:DAY, RUS",
         "ID:2011-0000013611");
 
     doTest("T1",
@@ -27,7 +28,8 @@ public class KYDaviessCountyParserTest extends BaseParserTest {
         "CALL:BREATHING DIFFICULTY",
         "ADDR:6261 MILLERS MILL RD",
         "X:HIGHWAY 142",
-        "NAME:PHILPOT MARTIN",
+        "CITY:PHILPOT",
+        "NAME:MARTIN",
         "ID:2011-0000013315");
 
     doTest("T2",
@@ -35,7 +37,8 @@ public class KYDaviessCountyParserTest extends BaseParserTest {
         "CALL:ACCIDENT WITH INJURIES",
         "ADDR:3970 CRANE POND RD",
         "X:US HIGHWAY 231",
-        "NAME:PHILPOT JOHNS, AMY",
+        "CITY:PHILPOT",
+        "NAME:JOHNS, AMY",
         "ID:2011-0000013291");
 
     doTest("T3",
@@ -43,7 +46,8 @@ public class KYDaviessCountyParserTest extends BaseParserTest {
         "CALL:WILDLAND FIRE",
         "ADDR:9707 OLD HARTFORD RD",
         "X:US HIGHWAY 231",
-        "NAME:UTICA KIPLING, ED",
+        "CITY:UTICA",
+        "NAME:KIPLING, ED",
         "ID:2011-0000013076");
 
     doTest("T4",
@@ -51,7 +55,8 @@ public class KYDaviessCountyParserTest extends BaseParserTest {
         "CALL:WILDLAND FIRE",
         "ADDR:12957 RED HILL-MAXWELL RD",
         "X:E HARMONS FERRY RD",
-        "NAME:UTICA PRESSON, DAVID",
+        "CITY:UTICA",
+        "NAME:PRESSON, DAVID",
         "ID:2011-0000012778");
 
     doTest("T8",
@@ -59,7 +64,8 @@ public class KYDaviessCountyParserTest extends BaseParserTest {
         "CALL:UNKNOWN/PERSON DOWN",
         "ADDR:4255 NEW HARTFORD RD",
         "X:NEAR SOUTHEASTERN PKY",
-        "NAME:OWENSBORO DAVIESS COUNTY BOARD OF EDUCAT",
+        "CITY:OWENSBORO",
+        "NAME:DAVIESS COUNTY BOARD OF EDUCAT",
         "ID:2011-0000013349");
 
     doTest("T9",
@@ -67,7 +73,8 @@ public class KYDaviessCountyParserTest extends BaseParserTest {
         "CALL:WILDLAND FIRE",
         "ADDR:2324 HARRIET LN",
         "X:OLD HARTFORD RD",
-        "NAME:OWENSBORO HUTCHINSON, G & M",
+        "CITY:OWENSBORO",
+        "NAME:HUTCHINSON, G & M",
         "ID:2011-0000013387");
 
     doTest("T10",
@@ -75,7 +82,7 @@ public class KYDaviessCountyParserTest extends BaseParserTest {
         "CALL:STROKE",
         "ADDR:3294 BELLTOWN RD",
         "X:NEW BETHEL CHURCH LN",
-        "NAME:HARTFORD",
+        "CITY:HARTFORD",
         "ID:2011-0000013576");
 
     doTest("T11",
@@ -83,7 +90,8 @@ public class KYDaviessCountyParserTest extends BaseParserTest {
         "CALL:SEIZURES",
         "ADDR:4255 NEW HARTFORD RD",
         "X:NEAR SOUTHEASTERN PKY",
-        "NAME:OWENSBORO DAY, RUS",
+        "CITY:OWENSBORO",
+        "NAME:DAY, RUS",
         "ID:2011-0000013611");
   }
   
@@ -100,7 +108,8 @@ public class KYDaviessCountyParserTest extends BaseParserTest {
         "CALL:BREATHING DIFFICULTY",
         "ADDR:6261 MILLERS MILL RD",
         "X:HIGHWAY 142",
-        "NAME:PHILPOT MARTIN",
+        "CITY:PHILPOT",
+        "NAME:MARTIN",
         "ID:2011-0000013315");
 
     doTest("T2",
@@ -113,7 +122,8 @@ public class KYDaviessCountyParserTest extends BaseParserTest {
         "CALL:WILDLAND FIRE",
         "ADDR:12957 RED HILL-MAXWELL RD",
         "X:E HARMONS FERRY RD",
-        "NAME:UTICA PRESSON, DAVID",
+        "CITY:UTICA",
+        "NAME:PRESSON, DAVID",
         "ID:2011-0000012778");
 
     doTest("T3",
@@ -124,7 +134,8 @@ public class KYDaviessCountyParserTest extends BaseParserTest {
         "CALL:WILDLAND FIRE",
         "ADDR:9707 OLD HARTFORD RD",
         "X:US HIGHWAY 231",
-        "NAME:UTICA KIPLING, ED",
+        "CITY:UTICA",
+        "NAME:KIPLING, ED",
         "ID:2011-0000013076");
 
     doTest("T4",
@@ -138,7 +149,8 @@ public class KYDaviessCountyParserTest extends BaseParserTest {
         "CALL:ACCIDENT WITH INJURIES",
         "ADDR:3970 CRANE POND RD",
         "X:US HIGHWAY 231",
-        "NAME:PHILPOT JOHNS, AMY",
+        "CITY:PHILPOT",
+        "NAME:JOHNS, AMY",
         "ID:2011-0000013291");
 
     doTest("T5",
@@ -152,7 +164,8 @@ public class KYDaviessCountyParserTest extends BaseParserTest {
         "CALL:BREATHING DIFFICULTY",
         "ADDR:6261 MILLERS MILL RD",
         "X:HIGHWAY 142",
-        "NAME:PHILPOT MARTIN",
+        "CITY:PHILPOT",
+        "NAME:MARTIN",
         "ID:2011-0000013315");
 
     doTest("T6",
@@ -165,7 +178,7 @@ public class KYDaviessCountyParserTest extends BaseParserTest {
         "CALL:UNKNOWN/PERSON DOWN",
         "ADDR:4255 NEW HARTFORD RD",
         "X:NEAR SOUTHEASTERN PKY",
-        "NAME:OWENSBORO");
+        "CITY:OWENSBORO");
 
     doTest("T7",
         "1 of 2\n" +
@@ -178,7 +191,8 @@ public class KYDaviessCountyParserTest extends BaseParserTest {
         "CALL:WILDLAND FIRE",
         "ADDR:2324 HARRIET LN",
         "X:OLD HARTFORD RD",
-        "NAME:OWENSBORO HUTCHINSON, G & M",
+        "CITY:OWENSBORO",
+        "NAME:HUTCHINSON, G & M",
         "ID:2011-0000013387");
 
     doTest("T8",
@@ -189,7 +203,7 @@ public class KYDaviessCountyParserTest extends BaseParserTest {
         "CALL:STROKE",
         "ADDR:3294 BELLTOWN RD",
         "X:NEW BETHEL CHURCH LN",
-        "NAME:HARTFORD",
+        "CITY:HARTFORD",
         "ID:2011-0000013576");
 
     doTest("T9",
@@ -203,7 +217,8 @@ public class KYDaviessCountyParserTest extends BaseParserTest {
         "CALL:SEIZURES",
         "ADDR:4255 NEW HARTFORD RD",
         "X:NEAR SOUTHEASTERN PKY",
-        "NAME:OWENSBORO DAY, RUS",
+        "CITY:OWENSBORO",
+        "NAME:DAY, RUS",
         "ID:2011-0000013611");
 
     doTest("T10",
@@ -216,7 +231,8 @@ public class KYDaviessCountyParserTest extends BaseParserTest {
         "CALL:ACCIDENT WITH INJURIES",
         "ADDR:3970 CRANE POND RD",
         "X:US HIGHWAY 231",
-        "NAME:PHILPOT JOHNS, AMY",
+        "CITY:PHILPOT",
+        "NAME:JOHNS, AMY",
         "ID:2011-0000013291");
 
     doTest("T11",
@@ -224,7 +240,8 @@ public class KYDaviessCountyParserTest extends BaseParserTest {
         "CALL:WILDLAND FIRE",
         "ADDR:9707 OLD HARTFORD RD",
         "X:US HIGHWAY 231",
-        "NAME:UTICA KIPLING, ED",
+        "CITY:UTICA",
+        "NAME:KIPLING, ED",
         "ID:2011-0000013076");
 
   }
@@ -237,7 +254,8 @@ public class KYDaviessCountyParserTest extends BaseParserTest {
         "CALL:UNCONCIOUS",
         "ADDR:5005 HIGHWAY 142",
         "X:TIMBER RIDGE DR",
-        "NAME:PHILPOT BIRKHEAD, LARRY, REV",
+        "CITY:PHILPOT",
+        "NAME:BIRKHEAD, LARRY, REV",
         "ID:2012-0000008822");
 
     doTest("T2",
@@ -247,7 +265,8 @@ public class KYDaviessCountyParserTest extends BaseParserTest {
         "CALL:TRAUMATIC INJURY",
         "ADDR:1734 DANIELS LN",
         "X:HAYDEN RD",
-        "NAME:OWENSBORO HARMON, MATT",
+        "CITY:OWENSBORO",
+        "NAME:HARMON, MATT",
         "ID:2012-0000010677");
 
   }
@@ -265,7 +284,8 @@ public class KYDaviessCountyParserTest extends BaseParserTest {
         "CALL:CHILD LOCKED IN CAR",
         "ADDR:3523 HIGHWAY 54",
         "X:NEAR COMMONWEALTH CT",
-        "NAME:OWENSBORO SHULER, JASON",
+        "CITY:OWENSBORO",
+        "NAME:SHULER, JASON",
         "ID:2012-0000010440");
 
     doTest("T2",
@@ -275,12 +295,13 @@ public class KYDaviessCountyParserTest extends BaseParserTest {
         "CALL:BREATHING DIFFICULTY",
         "ADDR:4913 GRANDVIEW DR",
         "X:REID RD",
-        "NAME:OWENSBORO YELLOW AMBULANCE",
+        "CITY:OWENSBORO",
+        "NAME:YELLOW AMBULANCE",
         "ID:2012-0000011569");
 
   }
   
   public static void main(String[] args) {
-    new KYDaviessCountyParserTest().generateTests("T1", "CALL ADDR X NAME ID");
+    new KYDaviessCountyParserTest().generateTests("T1", "CALL ADDR X CITY NAME ID");
   }
 }
