@@ -4355,6 +4355,7 @@ Sender: Cisco.Paging@VigoCounty.IN.Gov
 (FIRE-RESIDENTIAL-STRUCTURE) Loc:POPLAR DR/SCHLEY PL Grid:0152 Units:51RIT E-52 Rmk:
 (Msg From: SITTLER,JOSH D) Hose testing tomorrow at Station 91, starts at 0800 and then dinner will be provided.  Would like to thank all those that
 (FIRE-RESIDENTIAL-STRUCTURE) Loc:POPLAR DR/SCHLEY PL Grid:0152 Units:E-41 E-42 T-41 T-42 R-41 Rmk:
+(Msg From: WATSON,PAUL A II) Unit: 91RIT  Is Clearing from -> POPLAR DR/SCHLEY PL
 **********************************************************
 Unknown
 Contact: chris cochran <topher55@yahoo.com>

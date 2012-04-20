@@ -22,18 +22,31 @@ Contact: Nathan McCraw <mccraw44@yahoo.com>
 Sender: MAILBOX@ccgvn.net
 S: M:MAILBOX:CO13 POWER IN GENERATOR @FIRE STATION IS OUT. DOORS HAVE TO BE OPENED MANUALLY PER CHIEF 13\n
 
+Contact: Mark Moss <mmoss@altavistaems.com>
+Sender: MAILBOX@ccgvn.net
+MAILBOX:SQ01 HEADACHE 002243 BEDFORD HWY LYN CFS# 2012-018620\r
+MAILBOX:SQ01 PAIN 000149 BEALE RD LYN CFS# 2012-018617 76 YO F PAIN IN NECK AND SHOULDER HX HIGH BLOOD PRESSURE BLOCKAGE IN LEFT SIDE PRI 2\r
+MAILBOX:SQ01 MENTAL SUBJECT 001011 7TH ST ALT CFS# 2012-018608 ASSIST APD W/ A MENTAL SUBJECT PRIORITY 3\r
+MAILBOX:SQ01 MUTUAL AID (OUTSIDE OF COUNTY 000901 N MAIN ST- GRETNA CFS# 2012-018626 MEADOWBROOK TRAILER PARK --LOT 4 33 Y/O F CHEST PAIN pri\r
+MAILBOX:SQ01 CHEST PAIN (NO CARDIAC HISTORY 001280 MAIN ST A ALT CFS# 2012-018645\r
+
 */
 
 public class VACampbellCountyParser extends SmartAddressParser {
   
   private static Properties CITY_CODES = buildCodeTable(new String[]{
-      "EVI", ""
+      "ALT", "ALTA VISTA",
+      
+      "EVI", "EVINGTON",
+      "LYN", "LYNCH STATION",
   });
   
   
   private static final String[] KEYWORDS = new String[]{"LOC", "CFS"};
   
   private static final Pattern MARKER = Pattern.compile("^MAILBOX:([A-Z]{2}\\d{2}) ");
+  private static final Pattern ZERO_FILL_NUMBER = Pattern.compile("\\b0+(\\d+)\\b");
+  private static final Pattern OUTSIDE_COUNTY = Pattern.compile("(?<=OUTSIDE OF COUNTY) +(?=\\d)");
   
   public VACampbellCountyParser() {
     super(CITY_CODES, "CAMPBELL COUNTY","VA");
@@ -71,7 +84,23 @@ public class VACampbellCountyParser extends SmartAddressParser {
     
     // OK, now to work out the address field
     String sAddress = props.getProperty("LOC", "");
-    parseAddress(StartType.START_CALL, FLAG_ANCHOR_END, sAddress, data);
+    String sCity = null;
+    int pt = sAddress.lastIndexOf('-');
+    if (pt >= 0) {
+      sCity = sAddress.substring(pt+1).trim();
+      sAddress = sAddress.substring(0,pt).trim();
+    }
+    sAddress = ZERO_FILL_NUMBER.matcher(sAddress).replaceAll("$1");
+    
+    StartType st = StartType.START_CALL;
+    match = OUTSIDE_COUNTY.matcher(sAddress);
+    if (match.find()) {
+      data.strCall = sAddress.substring(0,match.start());
+      sAddress = sAddress.substring(match.end());
+      st = StartType.START_ADDR;
+    }
+    parseAddress(st, FLAG_ANCHOR_END, sAddress, data);
+    if (sCity != null) data.strCity = sCity;
     
     return true;
   }

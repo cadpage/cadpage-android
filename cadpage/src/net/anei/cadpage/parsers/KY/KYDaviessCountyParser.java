@@ -49,7 +49,7 @@ public class KYDaviessCountyParser extends DispatchBParser {
   private static final Pattern US_PTN = Pattern.compile("\\bU +S\\b", Pattern.CASE_INSENSITIVE);
  
   public KYDaviessCountyParser() {
-    super("DAVIESS COUNTY", "KY");
+    super(CITY_LIST, "DAVIESS COUNTY", "KY");
   }
   
   @Override
@@ -70,4 +70,11 @@ public class KYDaviessCountyParser extends DispatchBParser {
     if (body.startsWith("911-CENTER:")) return true;
     return super.isPageMsg(body);
   }
+  
+  private static final String[] CITY_LIST = new String[]{
+    "HARTFORD",
+    "OWENSBORO",
+    "PHILPOT",
+    "UTICA",
+  };
 }
