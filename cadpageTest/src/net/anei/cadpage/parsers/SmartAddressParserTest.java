@@ -39,16 +39,24 @@ public class SmartAddressParserTest extends BaseParserTest {
   
   @Test
   public void testProblem() {
-    doTest(CALL,"EMS-UNCONSCIOUS VIRGIL H GOODE HWY & GLEN MEADOW HWY",
-           "CALL:EMS-UNCONSCIOUS",
-           "ADDR:VIRGIL H GOODE HWY & GLEN MEADOW HWY");
   }
   
   @Test
   public void testProblems() {
+    
+    doTest(CALL, "FIRE ALARM COMMERCIAL/INDUST 101 MAPLE DR XS: ROUTE 322 ELK TWP MC ALARMS",
+        "CALL:FIRE ALARM COMMERCIAL/INDUST", 
+        "ADDR:101 MAPLE DR",
+        "X:ROUTE 322");
+     
+    doTest(CALL,"EMS-UNCONSCIOUS VIRGIL H GOODE HWY & GLEN MEADOW HWY",
+          "CALL:EMS-UNCONSCIOUS",
+          "ADDR:VIRGIL H GOODE HWY & GLEN MEADOW HWY");
+    
     doTest(PLACE, FLAG_AT_BOTH | FLAG_ANCHOR_END, "515 FLETCHWOOD RD @WAREHOUSE S",
            "ADDR:515 FLETCHWOOD RD",
            "PLACE:WAREHOUSE S");
+    
     doTest(CALL, "MVA-TRAPPED MULTI PT/ADD RESPO LAKE PLEASANT RD&TATE RD EXTRA",
           "CALL:MVA-TRAPPED MULTI PT/ADD RESPO",
           "ADDR:LAKE PLEASANT RD & TATE RD");
