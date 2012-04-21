@@ -17,7 +17,7 @@ public class FlowLayout extends ViewGroup {
   private static final int JUSTIFY_CENTER = 3;
   private static final int JUSTIFY_FILL = 4;
   
-  private static final boolean DEBUG = true;
+  private static final boolean DEBUG = false;
 	private int mHorizontalSpacing;
 	private int mVerticalSpacing;
 	private boolean mBalance;

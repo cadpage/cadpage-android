@@ -24,6 +24,10 @@ Contact: Andrew Gaede <veghunter10@gmail.com>
 Sender: tfddispatch@att.net
 @4:38:53 PM // Rock Creek (Dunn) // HWY 85 & 870th // Motorvehicle\nCollision // 3 vehicle 10/50 PI, no extrication, Station 5 requested for\nassistance
 
+Contact: Me <cody@wisconsinrangers.net>
+Sender: tfddispatch@att.net
+(Case# 12-099) @2:45:18 AM // Seymour // Peterson Ave & Olson Dr. // MVC Extrication //\n10/50 PI with Extrication needed
+
  */
 public class WIEauClaireParser extends FieldProgramParser {
   
@@ -56,7 +60,7 @@ public class WIEauClaireParser extends FieldProgramParser {
     
     @Override
     public void parse(String field, Data data) {
-      field = field.substring(2).trim();
+      field = field.substring(1).trim();
       super.parse(field, data);
     }
   }

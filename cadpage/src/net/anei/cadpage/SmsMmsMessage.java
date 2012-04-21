@@ -587,7 +587,7 @@ public class SmsMmsMessage implements Serializable {
       if (!marker.equals("AM") && !marker.equals("PM")) return null;
     }
     int[] result = splitDateTime(field);
-    if (marker != null) {
+    if (result != null && marker != null) {
       if (result[0] > 12) return null;
       if (marker.equals("PM")) result[0] += 12;
     }
