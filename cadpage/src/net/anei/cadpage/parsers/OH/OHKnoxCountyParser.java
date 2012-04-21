@@ -1,10 +1,6 @@
 package net.anei.cadpage.parsers.OH;
 
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-
-import net.anei.cadpage.parsers.FieldProgramParser;
-import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.dispatch.DispatchEmergitechParser;
 
 /*
 Knox County, OH
@@ -20,38 +16,15 @@ Dispatch:[SD24]- NATURE: UNCONCIOUS/PASSING OUT (NONTRAUMATI LOCATION : 164 W HO
  */
 
 
-public class OHKnoxCountyParser extends FieldProgramParser {
-  
-  private static final Pattern MARKER = Pattern.compile("^Dispatch:\\[([A-Z0-9]+)\\]- ");
+public class OHKnoxCountyParser extends DispatchEmergitechParser {
   
   public OHKnoxCountyParser() {
-    super(CITY_LIST, "KNOX COUNTY", "OH",
-           "NATURE:CALL! LOCATION:ADDR/S! BETWEEN:X? COMMENTS:INFO");
+    super("Dispatch:", 69, CITY_LIST, "KNOX COUNTY", "OH");
   }
   
   @Override
   public String getFilter() {
     return "Dispatch@smtp-server.Columbus.rr.com";
-  }
-  
-  @Override
-  public boolean parseMsg(String body, Data data) {
-    Matcher match = MARKER.matcher(body);
-    if (!match.find()) return false;
-    
-    // For unknown reasons, an extraneous blank always seems to be inserted in postion 69
-    // which we will try to remove
-    data.strUnit = match.group(1);
-    if (body.length() > 69 && body.charAt(69) == ' ') {
-      body = body.substring(0,69) + body.substring(70);
-    }
-    body = body.substring(match.end()).trim().replace(" BETWEEN ", " BETWEEN: ");
-    return super.parseMsg(body, data);
-  }
-  
-  @Override
-  public String getProgram() {
-    return "UNIT " + super.getProgram();
   }
   
   private static final String[] CITY_LIST = new String[]{

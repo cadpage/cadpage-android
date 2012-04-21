@@ -318,6 +318,15 @@ public abstract class SmartAddressParser extends MsgParser {
       dictionary.put(arg, newMask);
     }
   }
+
+  /**
+   * Look up a word on our internal dictionary
+   * @param word word to be checked
+   * @return true if word is found in dictionary
+   */
+  public boolean isDictionaryWord(String word) {
+    return dictionary.containsKey(word);
+  }
   
   /**
    * Setup predefined call list
@@ -341,6 +350,7 @@ public abstract class SmartAddressParser extends MsgParser {
   protected void setupMultiWordStreets(String ... names) {
     mWordStreets = new MultiWordList(-1, 0, ID_MULTIWORD, 0, names);
   }
+
   
   
   // Parser working variables
