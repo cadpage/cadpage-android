@@ -32,6 +32,7 @@ Sender: postmaster@sparkgroup.net
 (Station 41 ALERT!!) BUILDING FIRE\nCAR-43\nE432 S414 T404 E412\n643 LUCABAUGH MILL RD\n\nIncident Number (120971868)
 (Station 41 ALERT!!) EMOT ILL CONS/BREATHING\n041-23\nM415 M315\n400 VALLEY MEADOW CI APT B1, 21136, MD\n\nIncident Number (120990430)
 (Station 41 ALERT!!) FAINTING  ALERT W/TRBR\n041-23\nM415 M56\n406 DEACON BROOK CI, 21136, MD\n\nIncident Number (120990933)
+(Station 41 ALERT!!) 1050PI\n043-03\nA435 E432 CCM28 A415 M56 EMS7\nRT 30 & DOVER RD, 21155, MD\nIncident Number (121111313)
 
 */
 
@@ -41,7 +42,7 @@ public class MDBaltimoreCountyParser extends FieldProgramParser {
   
   public MDBaltimoreCountyParser() {
     super("BALTIMORE COUNTY", "MD",
-           "CALL MAP UNIT ADDR/S INFO ID!");
+           "CALL MAP UNIT ADDR/S INFO? ID!");
   }
   
   @Override
@@ -55,7 +56,7 @@ public class MDBaltimoreCountyParser extends FieldProgramParser {
     Matcher match = SUBJECT_PTN.matcher(subject);
     if (!match.find()) return false;
     data.strSource = match.group(1);
-    return parseFields(body.split("\n"), 6, data);
+    return parseFields(body.split("\n"), 5, data);
   }
   
   @Override
@@ -83,10 +84,16 @@ public class MDBaltimoreCountyParser extends FieldProgramParser {
   private static final Pattern ID_PTN = Pattern.compile("Incident Number \\((\\d+)\\)");
   private class MyIdField extends IdField {
     @Override
-    public void parse(String field, Data data) {
+    public boolean checkParse(String field, Data data) {
       Matcher match = ID_PTN.matcher(field);
-      if (!match.matches()) abort();
+      if (!match.matches()) return false;
       super.parse(match.group(1), data);
+      return true;
+    }
+
+    @Override
+    public void parse(String field, Data data) {
+      if (!checkParse(field, data)) abort();
     }
   }
 
