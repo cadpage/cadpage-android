@@ -238,6 +238,16 @@ public class MDBaltimoreCountyParserTest extends BaseParserTest {
         "MADDR:406 DEACON BROOK CIR",
         "CITY:21136",
         "ID:120990933");
+
+    doTest("T22",
+        "(Station 41 ALERT!!) 1050PI\n043-03\nA435 E432 CCM28 A415 M56 EMS7\nRT 30 & DOVER RD, 21155, MD\nIncident Number (121111313)",
+        "SRC:41",
+        "CALL:1050PI",
+        "MAP:043-03",
+        "UNIT:A435 E432 CCM28 A415 M56 EMS7",
+        "ADDR:RT 30 & DOVER RD",
+        "CITY:21155",
+        "ID:121111313");
   }
   
   public static void main(String[] args) {
