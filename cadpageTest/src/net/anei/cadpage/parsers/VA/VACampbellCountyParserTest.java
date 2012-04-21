@@ -93,7 +93,7 @@ public class VACampbellCountyParserTest extends BaseParserTest {
         "MAILBOX:SQ01 MENTAL SUBJECT 001011 7TH ST ALT CFS# 2012-018608 ASSIST APD W/ A MENTAL SUBJECT PRIORITY 3\r",
         "SRC:SQ01",
         "CALL:MENTAL SUBJECT",
-        "CITY:ALTA VISTA",
+        "CITY:ALTAVISTA",
         "ADDR:1011 7TH ST",
         "ID:2012-018608",
         "INFO:ASSIST APD W/ A MENTAL SUBJECT PRIORITY 3");
@@ -111,7 +111,7 @@ public class VACampbellCountyParserTest extends BaseParserTest {
         "MAILBOX:SQ01 CHEST PAIN (NO CARDIAC HISTORY 001280 MAIN ST A ALT CFS# 2012-018645\r",
         "SRC:SQ01",
         "CALL:CHEST PAIN (NO CARDIAC HISTORY",
-        "CITY:ALTA VISTA",
+        "CITY:ALTAVISTA",
         "ADDR:1280 MAIN ST A",
         "ID:2012-018645");
  
