@@ -50,6 +50,10 @@ COntact: "cignotis7@gmail.com" <cignotis7@gmail.com>
 Sender: msg@cfmsg.com
 Subject:Chief ALT\n[71 EMS] -- Assault/Sexual Assault-ALS -- 25687 Cornelia St Seaford 19973\n
 
+Contact:tiffany cassell <tcassell711@gmail.com>
+Sender: msg@cfmsg.com
+(Chief ALT) [84 EMS] -- Chest Pain-ALS -- 84 Hq
+
  */
 
 
