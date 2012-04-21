@@ -195,6 +195,20 @@ public class MDQueenAnnesCountyParserTest extends BaseParserTest {
         "INFO:MEDICAL ALARM",
         "BOX:Q07");
 
+    doTest("T3",
+        "[CAD] D 7-2 BREATHING PROBLEMS 2013 PONDTOWN RD ABNORMAL BREATHING Q07",
+        "CALL:7-2 BREATHING PROBLEMS",
+        "ADDR:2013 PONDTOWN RD",
+        "INFO:ABNORMAL BREATHING",
+        "BOX:Q07");
+
+    doTest("T4",
+        "[CAD] D 7-1 CO ALARM 72 ADAM DR LOCAL BOX Q07",
+        "CALL:7-1 CO ALARM",
+        "ADDR:72 ADAM DR",
+        "INFO:LOCAL",
+        "BOX:Q07");
+
   }
   
   @Test
@@ -232,7 +246,6 @@ public class MDQueenAnnesCountyParserTest extends BaseParserTest {
         "INFO:MULTIPLE UNITS HOT KENT");
 
   }
-  
   
   public static void main(String[] args) {
     new MDQueenAnnesCountyParserTest().generateTests("T1", "CALL CITY ADDR PLACE INFO BOX");
