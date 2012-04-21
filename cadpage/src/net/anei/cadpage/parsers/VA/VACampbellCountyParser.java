@@ -35,7 +35,7 @@ MAILBOX:SQ01 CHEST PAIN (NO CARDIAC HISTORY 001280 MAIN ST A ALT CFS# 2012-01864
 public class VACampbellCountyParser extends SmartAddressParser {
   
   private static Properties CITY_CODES = buildCodeTable(new String[]{
-      "ALT", "ALTA VISTA",
+      "ALT", "ALTAVISTA",
       
       "EVI", "EVINGTON",
       "LYN", "LYNCH STATION",
