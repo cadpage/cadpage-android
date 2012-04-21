@@ -71,4 +71,22 @@ public class INVigoCountyParserTest extends BaseParserTest {
         "INFO:HOUSE ON FIRE PEOPLE STILL INSIDE");
     
   }
+  
+  @Test
+  public void testParser2() {
+
+    doTest("T1",
+        "[TRASH OR RUBBISH-FIRE]  Loc:428 W POPLAR ST XSt:5TH ST WTH 4TH ST WTH Grid:0WTH Units:E-41 Rmk:RP ADV MALE SUBJECT THERE THAT IS CAUSING PROBLEMS AND",
+        "CALL:TRASH OR RUBBISH-FIRE",
+        "ADDR:428 W POPLAR ST",
+        "X:5TH ST WTH 4TH ST WTH",
+        "MAP:0WTH",
+        "UNIT:E-41",
+        "INFO:RP ADV MALE SUBJECT THERE THAT IS CAUSING PROBLEMS AND");
+    
+  }
+  
+  public static void main(String[] args) {
+    new INVigoCountyParserTest().generateTests("T1");
+  }
 }
