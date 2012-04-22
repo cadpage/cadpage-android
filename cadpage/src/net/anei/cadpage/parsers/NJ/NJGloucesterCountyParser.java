@@ -41,6 +41,10 @@ Contact: John Godish <jg10306@gmail.com>
 Sender: 777146881581
 COUNTY OF GLOUCESTER (#353135) Dispatch\n\nSta:10-3\nType:ALRM\nLoc:5600 BLACK HORSE PIKE         \nVen:WASHINGTON\nDsp-04:11:36     \nClr- STOP
 
+Contact: Richard Harris <rwh037@gmail.com>,"rwh037@verizon.net" <rwh037@verizon.net>
+Sender: 777
+Sta:6-3\nType:RSQM\nLoc:1719 FRONT ST                 \nVen:W-DEPTFORD\nDsp-18:53:53     \nClr- STOP
+
  */
 
 
@@ -53,7 +57,7 @@ public class NJGloucesterCountyParser extends FieldProgramParser {
  
   @Override
   public String getFilter() {
-    return "@private.gloucesteralert.com,7771";
+    return "@private.gloucesteralert.com,777";
   }
 
   @Override
@@ -97,6 +101,7 @@ public class NJGloucesterCountyParser extends FieldProgramParser {
       "S", "S HARRISON TWP",
       "WASHINGTON", "WASHINGTON TWP",
       "WEST DEPTFORD", "W DEPTFORD TWP",
+      "W-DEPTFORD", "W DEPTFORD TWP",
       "WOOLWICH", "WOOLWICH TWP",
       "WOODBRYHGT", "WOODBURY HEIGHTS"
   });
