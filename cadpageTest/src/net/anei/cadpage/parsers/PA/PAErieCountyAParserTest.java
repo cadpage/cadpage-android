@@ -247,9 +247,19 @@ public class PAErieCountyAParserTest extends BaseParserTest {
         "ID:2012-0000043019",
         "INFO:ARBUCKLE FROM FOOTMILL TO LAKE PLEASANT RD CLOSED BY STREET DEPT");
 
+    doTest("T25",
+        "ERIE911:28C2L >STROKE-ABNORMAL BREATH <2HRS 835 LINDEN AVE XS: W LAKE RD MILLCREEK TWP Map:9769 Grids:, Cad: 2012-0000044276",
+        "SRC:ERIE911",
+        "CALL:STROKE-ABNORMAL BREATH <2HRS",
+        "ADDR:835 LINDEN AVE",
+        "CITY:MILLCREEK TWP",
+        "X:W LAKE RD",
+        "MAP:9769",
+        "ID:2012-0000044276");
+
   }
   
   public static void main(String[] args) {
-    new PAErieCountyAParserTest().generateTests("T23", "SRC CALL ADDR CITY X NAME MAP PLACE ID INFO");
+    new PAErieCountyAParserTest().generateTests("T1", "SRC CALL ADDR CITY X NAME MAP PLACE ID INFO");
   }
 }
