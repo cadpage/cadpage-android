@@ -22,7 +22,7 @@ Sender: 911-CENTER@williamson-tn.org
 public class TNWilliamsonCountyParser extends DispatchBParser {
   
   public TNWilliamsonCountyParser() {
-    super(CITY_LIST, "SUMNER COUNTY", "TN");
+    super(CITY_LIST, "WILLIAMSON COUNTY", "TN");
   }
   
   @Override
