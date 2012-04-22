@@ -1,6 +1,8 @@
 package net.anei.cadpage.parsers.NJ;
 
 import java.util.Properties;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
@@ -44,20 +46,22 @@ COUNTY OF GLOUCESTER (#353135) Dispatch\n\nSta:10-3\nType:ALRM\nLoc:5600 BLACK H
 Contact: Richard Harris <rwh037@gmail.com>,"rwh037@verizon.net" <rwh037@verizon.net>
 Sender: 777
 Sta:6-3\nType:RSQM\nLoc:1719 FRONT ST                 \nVen:W-DEPTFORD\nDsp-18:53:53     \nClr- STOP
+Sta:6-3\nType:MVCC\nLoc:RT 45                         \nVen:W-DEPTFORD\nDsp-\nClr- STOP
+Sta:6-3\nType:BRSH\nLoc:1762 THIRD ST                 \nVen:W-DEPTFORD\nDsp-19:54:13     \nClr- STOP
 
- */
+*/
 
 
 public class NJGloucesterCountyParser extends FieldProgramParser {
   
   public NJGloucesterCountyParser() {
     super(CITY_CODES, "GLOUCESTER COUNTY", "NJ",
-        "Sta:SRC! Type:CALL! Loc:ADDR! Ven:CITY!");
+        "Sta:SRC! Type:CALL! Loc:ADDR! Ven:CITY! TIME");
   }
  
   @Override
   public String getFilter() {
-    return "@private.gloucesteralert.com,777";
+    return "@private.gloucesteralert.com,7771";
   }
 
   @Override
@@ -82,9 +86,20 @@ public class NJGloucesterCountyParser extends FieldProgramParser {
     }
   }
   
+  private static final Pattern TIME_PTN = Pattern.compile("Dsp-(\\d\\d:\\d\\d:\\d\\d)");
+  private class MyTimeField extends TimeField {
+    @Override
+    public void parse(String field, Data data) {
+      Matcher match = TIME_PTN.matcher(field);
+      if (!match.matches()) return;
+      super.parse(match.group(1), data);
+    }
+  }
+  
   @Override
   protected Field getField(String name) {
     if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("TIME")) return new MyTimeField();
     return super.getField(name);
   }
 
