@@ -174,6 +174,18 @@ public class NJGloucesterCountyParserTest extends BaseParserTest {
 
   }
   
+  @Test
+  public void testRichardHarris() {
+
+    doTest("T1",
+        "Sta:6-3\nType:RSQM\nLoc:1719 FRONT ST                 \nVen:W-DEPTFORD\nDsp-18:53:53     \nClr- STOP",
+        "SRC:6-3",
+        "CALL:RSQM",
+        "ADDR:1719 FRONT ST",
+        "CITY:W DEPTFORD TWP");
+
+  }
+  
   public static void main(String[] args) {
     new NJGloucesterCountyParserTest().generateTests("T1", "SRC CALL ADDR APT CITY");
   }
