@@ -349,6 +349,7 @@ public class DispatchBParser extends SmartAddressParser {
         "FALLS/ACCIDENTS BLS",
         "FALLS-ALS PRI1-FR",
         "FALLS-BLS PRI2 ",
+        "FALLS (GRD/FLR) POSS DANGER BO",
         "FIGHT",
         "FIRE ALARM",
         "FIRE CALL",
