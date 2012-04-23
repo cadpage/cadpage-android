@@ -44,10 +44,16 @@ public class SmartAddressParserTest extends BaseParserTest {
   @Test
   public void testProblems() {
     
+    doTest(CALL, "FALLS (GRD/FLR) POSS DANGER BO 9184 OLD WATTSBURG RD XS: HORSESHOE DR KEN TOWN",
+           "CALL:FALLS (GRD/FLR) POSS DANGER BO",
+           "ADDR:9184 OLD WATTSBURG RD",
+           "X:HORSESHOE DR",
+           "CITY:KEN TOWN");
+        
     doTest(CALL, "FIRE ALARM COMMERCIAL/INDUST 101 MAPLE DR XS: ROUTE 322 ELK TWP MC ALARMS",
-        "CALL:FIRE ALARM COMMERCIAL/INDUST", 
-        "ADDR:101 MAPLE DR",
-        "X:ROUTE 322");
+           "CALL:FIRE ALARM COMMERCIAL/INDUST", 
+           "ADDR:101 MAPLE DR",
+           "X:ROUTE 322");
      
     doTest(CALL,"EMS-UNCONSCIOUS VIRGIL H GOODE HWY & GLEN MEADOW HWY",
           "CALL:EMS-UNCONSCIOUS",

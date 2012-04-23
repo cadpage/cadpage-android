@@ -257,6 +257,16 @@ public class PAErieCountyAParserTest extends BaseParserTest {
         "MAP:9769",
         "ID:2012-0000044276");
 
+    doTest("T26",
+        "ERIE911:17B1G >FALLS (GRD/FLR) POSS DANGER BO 9184 OLD WATTSBURG RD XS: HORSESHOE DR GREENE TWP Map:298 Grids:, Cad: 2012-0000045463",
+        "SRC:ERIE911",
+        "CALL:FALLS (GRD/FLR) POSS DANGER BO",
+        "ADDR:9184 OLD WATTSBURG RD",
+        "CITY:GREENE TWP",
+        "X:HORSESHOE DR",
+        "MAP:298",
+        "ID:2012-0000045463");
+
   }
   
   public static void main(String[] args) {
