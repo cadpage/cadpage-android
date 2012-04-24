@@ -4334,7 +4334,13 @@ Sender: Cisco.Paging@VigoCounty.IN.Gov
 (FIRE-RESIDENTIAL-STRUCTURE) Loc:POPLAR DR/SCHLEY PL Grid:0152 Units:E-41 E-42 T-41 T-42 R-41 Rmk:
 (Msg From: WATSON,PAUL A II) Unit: 91RIT  Is Clearing from -> POPLAR DR/SCHLEY PL
 **********************************************************
+Bear County, TX
+Contact: "Dorian Davis (IT GUY)" <dorian@bexarcountyfire.org>
+Fire - Structure     - Stockport / Chipping           - 585E1 - comp states a house is on fire[Shared],Multi-Agency BCLE Incident #: BCSO-2012-0105711,Automatic Case Number(s) issued for Camelot FD: CAM-2012-000000502. [Shared],Automatic Case Number(s) issued for Windcrest FD: WIND-2012-000000571. [Shared],Automatic Case Number(s) issued for Converse FD: CONV-2012-000000420. [Shared],Automatic Case Number(s) issued for Kirby FD: KIRB-2012-000000372. [Shared],
 **********************************************************
+Safire, TX
+Contact: "Dorian Davis (IT GUY)" <dorian@bexarcountyfire.org>
+a structure fire \nVALLEY RIDGE MOBILE PARK \n8671 Sw Loop 410, Unit 520 \nSB SW LP 410 OFRPOP RD/OLD PEARSALL RD \n*TAC2 \nDistrict: D2 \nE36, L36, E44, E35 and BC2 
 **********************************************************
 ************  READY TO ROLL ******************************
 **********************************************************

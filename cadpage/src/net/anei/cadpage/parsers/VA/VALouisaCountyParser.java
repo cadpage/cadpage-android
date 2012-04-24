@@ -24,7 +24,7 @@ Sender: 911@louisa.org
 (Incident Notification) Call#: -2095 ; EMS-Seizure ; 172 DAVIS HWY ; DOLLAR GENERAL - MINERAL; Box 201 ; Info:  GREY VAN  3YOM SIEZING
 Subject:Incident Notification\nCall#: -3239 ; EMS-Trauma with Injury ; 17383 JEFFERSON HWY ; ; Box 509 ; Info: \r
 (Incident Notification) Call#: -1991 ; MVC-Injury ; JEFFERSON HWY ; ; Box 501 ; Info:  SPOKE TO VSP DISPATCH -- RESCUE NEEDED -- NO DEPUTY  CALLER WAS A PASSERBY WHO
-
+(Incident Notification) Call#: -3951 ; EMS-Chest Pain/Cardiac Problem ; 1503 BETHANY CHURCH RD ; ; ; Info:  NO HX OF HEART PROBLEMS  NO RECENT INJURY OR TRAUMA  AWAK
 
 ***/
 
@@ -33,7 +33,7 @@ public class VALouisaCountyParser extends FieldProgramParser {
   
   public VALouisaCountyParser() {
     super(CITY_CODES, "LOUISA COUNTY", "VA",
-           "Call#:ID! CALL! ADDR/S! PLACE Box:BOX! Info:INFO!");
+           "Call#:ID! CALL! ADDR/S! PLACE BOX! Info:INFO!");
   }
   
   @Override
@@ -44,7 +44,6 @@ public class VALouisaCountyParser extends FieldProgramParser {
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
     if (!subject.equals("Incident Notification")) return false;
-    body = body.replace(" Box ", " Box:");
     int pt = body.indexOf(" Closed APCO Case:");
     if (pt < 0) pt = body.indexOf(" Opened APCO Case:");
     if (pt >= 0) body = body.substring(0,pt).trim();
@@ -60,9 +59,20 @@ public class VALouisaCountyParser extends FieldProgramParser {
     }
   }
   
+  private class MyBoxField extends BoxField {
+    @Override
+    public void parse(String field, Data data) {
+      if (field.length() == 0) return;
+      if (!field.startsWith("Box ")) abort();
+      field = field.substring(4).trim();
+      super.parse(field, data);
+    }
+  }
+  
   @Override
   public Field getField(String name) {
     if (name.equals("ID")) return new MyIdField();
+    if (name.equals("BOX")) return new MyBoxField();
     return super.getField(name);
   }
   
