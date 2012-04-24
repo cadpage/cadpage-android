@@ -49,6 +49,12 @@ Contact: Phoenix <aphoenixrising13@gmail.com>
 Sender: 1410000075
 FRM: \nMSG:CAD MSG: *D AFA      1501 ELIZABETH AV @THOMS TAVERN 0067 KEYPAD FIRE ALM ZONE 95 BUS # 484-794-6038 / GRUMPY'S BARB
 
+Contact: support@active911.com
+Sender: @berks.alertpa.org
+(berks.co45@rsix.roamsecure.net) CAD MSG: *D MVAUNK   WILLOW RD / OAK LN 0091 1 VEH/ OFF THE ROAD INTO THE TREES/ ON WILLOW RD IN THE BEND RIGHT AFT\n\nSent by Berks County RSAN to CO45 All Call\n\n--\n\nYou received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org
+(berks.co45@rsix.roamsecure.net) CAD MSG: *D SF       50 MISTY LN 0084 HOUSE ON FIRE /COMP DEAN WINTERS/SMOKE COMING OUT OF WINDOWS/ COMP\n\nSent by Berks County RSAN to CO45 All Call\n\n--\n\nYou received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org
+(berks.co45@rsix.roamsecure.net) CAD MSG: *D MVAWITH  81 FORGEDALE RD ;NEAR BICK RD 0087 VEH STRUCK SOMEKIND OF CONCRETE FIXTURE/SHE IS CHECKING ON INJURIES/PO\n\nSent by Berks County RSAN to CO45 All Call\n\n--\n\nYou received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org
+
 
 ** NOT PARSING YET ***
 Contact: "greek@vjgreek.com" <greek@vjgreek.com>
@@ -72,6 +78,10 @@ public class PABerksCountyParser extends SmartAddressParser {
     int pt = body.indexOf("CAD MSG: *D ");
     if (pt < 0) return false;
     body = body.substring(pt);
+    
+    // Strip of trailing fluff
+    pt = body.indexOf('\n');
+    if (pt >= 0) body = body.substring(0,pt).trim();
     
     // Extract primary call description
     if (body.length() < 20) return false;
@@ -110,6 +120,11 @@ public class PABerksCountyParser extends SmartAddressParser {
         data.strPlace = part1;
         address = part2;
       }
+    }
+    pt = address.indexOf(" ;NEAR ");
+    if (pt >= 0) {
+      data.strCross = address.substring(pt+7).trim();
+      address = address.substring(0,pt).trim();
     }
     parseAddress(address, data);
     
