@@ -22,6 +22,10 @@ Sender: cad@messages.princegeorgeva.org
 368:CAD:FIRE CARBON MONOXIDE/SMOKE DET;714 JOHNS RD;S CRATER RD;OAK HILL CT;CARS
 366:CAD:ACCIDENT - COMMERICAL VEHICLE;16699 S CRATER RD/PRINCE GEORGE DR;PETE
 
+Contact: "joeclary@yahoo.com" <joeclary@yahoo.com>
+Sender: CAD@messages.princegeorgeva.org
+1108:CAD:ACCIDENT UNKNOWN INJURY;43 I95 N;PETE
+
 ***/
 
 public class VAPrinceGeorgeCountyParser extends DispatchOSSIParser {
