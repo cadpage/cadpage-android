@@ -109,6 +109,13 @@ public class VALouisaCountyParserTest extends BaseParserTest {
         "ADDR:JEFFERSON HWY",
         "BOX:501",
         "INFO:SPOKE TO VSP DISPATCH -- RESCUE NEEDED -- NO DEPUTY  CALLER WAS A PASSERBY WHO");
+
+    doTest("T13",
+        "(Incident Notification) Call#: -3951 ; EMS-Chest Pain/Cardiac Problem ; 1503 BETHANY CHURCH RD ; ; ; Info:  NO HX OF HEART PROBLEMS  NO RECENT INJURY OR TRAUMA  AWAK",
+        "ID:3951",
+        "CALL:EMS-Chest Pain/Cardiac Problem",
+        "ADDR:1503 BETHANY CHURCH RD",
+        "INFO:NO HX OF HEART PROBLEMS  NO RECENT INJURY OR TRAUMA  AWAK");
    
   }
   
