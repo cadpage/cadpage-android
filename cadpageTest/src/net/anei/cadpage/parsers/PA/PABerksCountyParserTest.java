@@ -130,7 +130,46 @@ public class PABerksCountyParserTest extends BaseParserTest {
         "INFO:KEYPAD FIRE ALM ZONE 95 BUS # 484-794-6038 / GRUMPY'S BARB");
   }
   
+  @Test
+  public void testActive911() {
+
+    doTest("T1",
+        "(berks.co45@rsix.roamsecure.net) CAD MSG: *D MVAUNK   WILLOW RD / OAK LN 0091 1 VEH/ OFF THE ROAD INTO THE TREES/ ON WILLOW RD IN THE BEND RIGHT AFT\n\n" +
+        "Sent by Berks County RSAN to CO45 All Call\n\n" +
+        "--\n\n" +
+        "You received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org",
+
+        "CALL:MVAUNK - Accident unknown inj",
+        "ADDR:WILLOW RD & OAK LN",
+        "CITY:RUSCOMBMANOR TWP",
+        "INFO:1 VEH/ OFF THE ROAD INTO THE TREES/ ON WILLOW RD IN THE BEND RIGHT AFT");
+
+    doTest("T2",
+        "(berks.co45@rsix.roamsecure.net) CAD MSG: *D SF       50 MISTY LN 0084 HOUSE ON FIRE /COMP DEAN WINTERS/SMOKE COMING OUT OF WINDOWS/ COMP\n\n" +
+        "Sent by Berks County RSAN to CO45 All Call\n\n" +
+        "--\n\n" +
+        "You received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org",
+
+        "CALL:SF - Structure Fire",
+        "ADDR:50 MISTY LN",
+        "CITY:RICHMOND TWP",
+        "INFO:HOUSE ON FIRE /COMP DEAN WINTERS/SMOKE COMING OUT OF WINDOWS/ COMP");
+
+    doTest("T3",
+        "(berks.co45@rsix.roamsecure.net) CAD MSG: *D MVAWITH  81 FORGEDALE RD ;NEAR BICK RD 0087 VEH STRUCK SOMEKIND OF CONCRETE FIXTURE/SHE IS CHECKING ON INJURIES/PO\n\n" +
+        "Sent by Berks County RSAN to CO45 All Call\n\n" +
+        "--\n\n" +
+        "You received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org",
+
+        "CALL:MVAWITH - Accident w/ injury",
+        "ADDR:81 FORGEDALE RD",
+        "X:BICK RD",
+        "CITY:ROCKLAND TWP",
+        "INFO:VEH STRUCK SOMEKIND OF CONCRETE FIXTURE/SHE IS CHECKING ON INJURIES/PO");
+    
+  }
+  
   public static void main(String[] args) {
-    new PABerksCountyParserTest().generateTests("T15", "CALL ADDR PLACE CITY INFO");
+    new PABerksCountyParserTest().generateTests("T1", "CALL ADDR PLACE X CITY INFO");
   }
 }
