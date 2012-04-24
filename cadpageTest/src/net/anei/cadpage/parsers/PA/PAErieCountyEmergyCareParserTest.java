@@ -126,6 +126,16 @@ public class PAErieCountyEmergyCareParserTest extends BaseParserTest {
         "ADDR:UPMC HAMOT MEDICAL CENTER",
         "CITY:16550",
         "INFO:WOUND CLINIC / TWINBROOK MEDICAL CENTER / NO SPEC ATTN / CREW TO GET MED NEC / HUTCHINSON / CHARLES / X=2ND&DOBBINS LANDING");
+
+    doTest("T12",
+        "(- part 1 of 1) RC:Run# 23232/0160-A/16:30/ALS-V/Priority 3 / Local/UPMC HAMOT MEDICAL CENTER/16550/ICU SOUTH BED 14/<PROQA_DET>/PRESQUE ISLE REHAB AND NURSI",
+        "ID:23232",
+        "TIME:16:30",
+        "CALL:ALS-V",
+        "PRI:3",
+        "ADDR:UPMC HAMOT MEDICAL CENTER",
+        "CITY:16550",
+        "INFO:ICU SOUTH BED 14 / PRESQUE ISLE REHAB AND NURSI");
   
   }
   
