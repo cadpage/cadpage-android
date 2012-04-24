@@ -101,6 +101,14 @@ public class VALouisaCountyParserTest extends BaseParserTest {
         "CALL:EMS-Trauma with Injury",
         "ADDR:17383 JEFFERSON HWY",
         "BOX:509");
+
+    doTest("T12",
+        "(Incident Notification) Call#: -1991 ; MVC-Injury ; JEFFERSON HWY ; ; Box 501 ; Info:  SPOKE TO VSP DISPATCH -- RESCUE NEEDED -- NO DEPUTY  CALLER WAS A PASSERBY WHO",
+        "ID:1991",
+        "CALL:MVC-Injury",
+        "ADDR:JEFFERSON HWY",
+        "BOX:501",
+        "INFO:SPOKE TO VSP DISPATCH -- RESCUE NEEDED -- NO DEPUTY  CALLER WAS A PASSERBY WHO");
    
   }
   

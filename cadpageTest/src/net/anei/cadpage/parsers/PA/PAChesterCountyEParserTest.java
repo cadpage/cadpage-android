@@ -89,6 +89,18 @@ public class PAChesterCountyEParserTest extends BaseParserTest {
         "CITY:NEW CASTLE COUNTY",
         "ST:DE");
 
+    doTest("T7",
+        "(Dispatch) 04/23/12 * 11:59:38 * ACCIDENT - UNKNOWN INJURIES * * WB W AVONDALE RD WO STATE RD ,71   (V) *  * NEWLON * - *  * C610-299-21 * 1202 *  * 12 * Dispatc",
+        "DATE:04/23/12",
+        "TIME:11:59:38",
+        "CALL:ACCIDENT - UNKNOWN INJURIES",
+        "ADDR:WB W AVONDALE RD WO STATE RD",
+        "MADDR:W AVONDALE RD & STATE RD",
+        "CITY:NEW LONDON TWP",
+        "PHONE:C610-299-21",
+        "UNIT:1202",
+        "SRC:12");
+
   }
   
   public static void main(String[] args) {

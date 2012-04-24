@@ -282,6 +282,16 @@ public class NYSuffolkCountyAParserTest extends BaseParserTest {
         "X:BELL AV / BUFFIN LN",
         "CODE:52-C-3P",
         "TIME:13:20:43");
+
+    doTest("T30",
+        "TYPE: SICK LOC: 54 MANHASSET AV FARMVI   CROSS: ADIRONDACK DR / S BICYCLE PATH CODE: 26-A-1 TIME: 17:52:15",
+        "CALL:SICK",
+        "ADDR:54 MANHASSET AV",
+        "MADDR:54 MANHASSET AVE",
+        "CITY:FARMINGVILLE",
+        "X:ADIRONDACK DR / S BICYCLE PATH",
+        "CODE:26-A-1",
+        "TIME:17:52:15");
   
   }
   
