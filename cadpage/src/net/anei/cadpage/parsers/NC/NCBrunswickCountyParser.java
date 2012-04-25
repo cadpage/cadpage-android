@@ -34,6 +34,10 @@ Sender: vtext.com@returns.groups.yahoo.com
 sentto-81008140-155-1334858821-9109162452=vtext.com@returns.groups.yahoo.com ([northwestvfd] ) 812:9035 DALES HAVEN RD NE NORTHWEST MDL 17B03-G 12-029328 14:02:41 Falls MEDICAL ALA
 sentto-81008140-157-1334863333-9109162452=vtext.com@returns.groups.yahoo.com ([northwestvfd] ) 814:6598 NEW GROUND TR NE NORTHWEST MDL 26C02 12-029355 15:17:43 Sick Person (Specifi
 
+Contact: Luke Duke <bigcountrymud@gmail.com>
+Sender: vtext.com@returns.groups.yahoo.com
+([civietownvfd] )\n1644:375 HIGH HILL DR SW SHALLOTTE 12-030794 18:13:00 Traffic-Transportation Incident
+
 */
 
 public class NCBrunswickCountyParser extends DispatchSouthernParser {

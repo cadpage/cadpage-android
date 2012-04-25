@@ -4342,6 +4342,16 @@ Safire, TX
 Contact: "Dorian Davis (IT GUY)" <dorian@bexarcountyfire.org>
 a structure fire \nVALLEY RIDGE MOBILE PARK \n8671 Sw Loop 410, Unit 520 \nSB SW LP 410 OFRPOP RD/OLD PEARSALL RD \n*TAC2 \nDistrict: D2 \nE36, L36, E44, E35 and BC2 
 **********************************************************
+Brunswick County, NC (alternate?)
+Contact: Luke Duke <bigcountrymud@gmail.com>
+Sender: vtext.com@returns.groups.yahoo.com
+([civietownvfd] )\n1645:12-030794|ST9(DS)18:13:00|980C(ER)18:14:28|ST9(IS)18:14:29|971E(DS)18:15:31|971E
+([civietownvfd] )\n1644:375 HIGH HILL DR SW SHALLOTTE 12-030794 18:13:00 Traffic-Transportation Incident
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
 ************  READY TO ROLL ******************************
 **********************************************************
 **********************************************************
@@ -4352,28 +4362,6 @@ Sender: miccom@nnjmicu.org <miccom@nnjmicu.org>
 (I-2012-000063)FFIRA @ 105 OLD NEW BRIDGE ROAD  , NEW MILFORD BORO - WATER FLOW ALARM AT ZANZARI'S 
 303 CANCEL: #12-0034873 New Milford Boro *745 Chestnut St Paged:15:34 Enrte:15:36 Scene:15:38 Avail:15:48 Cxl Rsn: Refused Medical Aid Code:
 (I-2012-000067)FBRSH @ 413 BOULEVARD  , NEW MILFORD BORO - 
-**********************************************************
-**********************************************************
-**********************************************************
-Farmington, CT
-Contact: Vincenzo <vgarcia1322@comcast.net>
-Sender: pdpaging@farmington-ct.org
-1100024685 MEDICAL CALL CHARLIE RESPONSE 00088  SCOTT SWAMP RD   UM1 XXFF AMR1 111117 15:13
-
-Contact: "J. Neves" <jneves@effd.org>
-Sender: pdpaging@farmington-ct.org
-1200006652 FIRE - BRUSH FIRE 01825 FARMINGTON AVE Prem Map -  PARK POND PL/SOUTH MAIN ST  XXTH 120409 11:05\r\n\r
-1200006665 FIRE - MV  00270 FARMINGTON AVE Prem Map -  TALCOTT NOTCH RD/PARK DR  EXOG UE1 XXEF 120409 15:40\r\n\r
-1200006659 FIRE - BRUSH FIRE SPIELMAN HWY/ MOUNTAIN SPRING RD\3sLC1 XXBF 120409 13:26\r\n\r
-1200006665 FIRE - MV  00270 FARMINGTON AVE Prem Map -  TALCOTT NOTCH RD/PARK DR  EXOG UE1 XXEF 120409 15:40\r\n\r
-1200006653 MEDICAL CALL BRAVO RESPONSE 00204 MAIN ST BIDWELL SQ/ROURKE PL  XXFF AMR1 120409 11:12\r\n\r
-1200006626 FIRE - SMOKE/GAS INVEST OUTSIDE 00339 MEADOW RD SOMERSBY WAY/JUDSON LA  EXSW XXFF 120409 00:12\r\n\r
-1200006038 MEDICAL CALL CHARLIE RESPONSE 00051 LITCHFIELD RD PLAINVILLE AVE/BIRCH ST  UM1 XXTH AMR1 120330 20:14\r\n\r
-**********************************************************
-New Haven, CT (alternate or replacement)
-Contact: "nemo48@sbcglobal.net" <nemo48@sbcglobal.net>
-Sender: paging@easthavenfire.com
-1100005182 ALPHA MEDICAL 00055 THOMPSON ST  Prem Map -14 PP 65 FOXON RD/GAY ST  (Prem Map -14 PP 65)\4sS5 111120 15:40
 **********************************************************
 Colchester Emergency Communications, CT
 Contact: Kevin McManus <kmacinct@gmail.com>
@@ -4386,7 +4374,6 @@ COLCHESTER\  ROUTE 2 WEST \ \@  \ M/V ACCIDENT\ area of exit 18 \  ** 12-6481  \
 COLCHESTER\ 13 HUNTERS CT\ \@  MELANIE LN\ DIFFICULTY BREATHING\ FORTIN,V \ ** 12-6400  \ 23:17 ** MapIt:  13  HUNTERS CT, COLCHESTER , CT ( 40S MALE - ATTN G LAKE R2 MUTUAL AID )
 COLCHESTER\ 27 VICKI LN\ \@  OLD HEBRON RD\ ALLERG. REACT\ CINCIRIPINO,JEFFREY \  ** 12-6342  \ 00:32 ** MapIt:  27  VICKI LN, COLCHESTER , CT ( 27 MALE REACTION TO MEDICATION )
 COLCHESTER\ 64 BALABAN RD\ 505\@  GILLETTES LN\ SICK PERSON\ STAPLES,ARTHUR J \  ** 12-6360  \ 10:13 ** MapIt:  64  BALABAN RD, COLCHESTER , CT
-**********************************************************
 **********************************************************
 Bucks County, PA (Alternate)
 Contact: Ryan Pankoe <rpankoe@chalfontems.org>

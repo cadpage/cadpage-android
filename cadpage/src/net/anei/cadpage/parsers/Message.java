@@ -362,7 +362,7 @@ public class Message {
       if (pt2 >= body.length()) break;
     }
     
-    body = body.substring(pt1);
+    body = body.substring(pt1).trim();
     if (body.startsWith("MSG:")) body = body.substring(4).trim();
     
     // Last check, if we ended up with no message, use the last subject as the message

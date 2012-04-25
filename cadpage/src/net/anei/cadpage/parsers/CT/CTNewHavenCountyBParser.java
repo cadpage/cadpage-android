@@ -35,7 +35,7 @@ East Haven, CT (in New Haven county)
 Contact: "nemo48@sbcglobal.net" <nemo48@sbcglobal.net>
 Contact: "Mark Nimons" <MNimons@easthavenfire.com>
 Sender: paging@easthavenfire.com
-1100005182 ALPHA MEDICAL 00055 THOMPSON ST  Prem Map -14 PP 65 FOXON RD/GAY ST  (Prem Map -14 PP 65)\4sS5 111120 15:40
+1100005182 ALPHA MEDICAL 00055 THOMPSON ST  Prem Map -14 PP 65 FOXON RD/GAY ST  (Prem Map -14 PP 65)    S5 111120 15:40
 1100004628 CHARLIE MEDICAL TF1 00057 MAIN ST Prem Map -5 PP 80 SALTONSTALL PKWY/DEBORAH LA (Prem Map -5 PP 80) R1 111017 09:16
 1100004627 CHARLIE MEDICAL TF3 00267 RUSSO AVE Map -13 BRENNAN ST/ANN ST S5 111017 03:25
 1100004626 MVA WITH INJURIES LAUREL ST/ NORTH HIGH ST E1 R1 C4 S2 111016 23:29
@@ -43,23 +43,40 @@ Sender: paging@easthavenfire.com
 1100004612 ALPHA MEDICAL 01270 NORTH HIGH ST Prem Map -14 PP 63 CORBIN RD/MAPLE ST S5 111015 21:49
 1100004608 DELTA MEDICAL TF1 00152 KIMBERLY AVE Map -7 PARDEE PL/KIMBERLY AVE R1 111015 19:03
 
+Farmington, CT (in Hartford county)
+Contact: "J. Neves" <jneves@effd.org>
+Contact: Vincenzo <vgarcia1322@comcast.net>
+Sender: pdpaging@farmington-ct.org
+
+1100024685 MEDICAL CALL CHARLIE RESPONSE 00088  SCOTT SWAMP RD   UM1 XXFF AMR1 111117 15:13
+1200006652 FIRE - BRUSH FIRE 01825 FARMINGTON AVE Prem Map -  PARK POND PL/SOUTH MAIN ST  XXTH 120409 11:05\r\n\r
+1200006665 FIRE - MV  00270 FARMINGTON AVE Prem Map -  TALCOTT NOTCH RD/PARK DR  EXOG UE1 XXEF 120409 15:40\r\n\r
+1200006659 FIRE - BRUSH FIRE SPIELMAN HWY/ MOUNTAIN SPRING RD   LC1 XXBF 120409 13:26\r\n\r
+1200006653 MEDICAL CALL BRAVO RESPONSE 00204 MAIN ST BIDWELL SQ/ROURKE PL  XXFF AMR1 120409 11:12\r\n\r
+1200006626 FIRE - SMOKE/GAS INVEST OUTSIDE 00339 MEADOW RD SOMERSBY WAY/JUDSON LA  EXSW XXFF 120409 00:12\r\n\r
+1200006038 MEDICAL CALL CHARLIE RESPONSE 00051 LITCHFIELD RD PLAINVILLE AVE/BIRCH ST  UM1 XXTH AMR1 120330 20:14\r\n\r
 
 */
 
 public class CTNewHavenCountyBParser extends SmartAddressParser {
   
+//  private static final Pattern UNIT_PTN = Pattern.compile("(?: +(?:\\d{3}|[EX]X[A-Z]{2}|(?:MED|R|T|E|ET|BR|A|S|AMR|UM|LC|UE)\\d{1,2}))+$");
+  
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
     "WLFD", "WALLINFORD"
   });
   
-  private static final Pattern MASTER = Pattern.compile("(\\d{10}) +(.*?) *\\d{6} (\\d\\d:\\d\\d)");
-  private static final Pattern UNIT_PTN = Pattern.compile("(?: +(?:\\d{3}|(?:MED|R|T|E|ET|BR|A|S)\\d{1,2}))+$");
+  private static final Pattern MASTER = Pattern.compile("(\\d{10}) +(.*?) *(\\d{6}) (\\d\\d:\\d\\d)");
   private static final Pattern MAP_PFX_PTN =Pattern.compile("^(?:Prem )?Map -");
   private static final Pattern MAP_PTN = Pattern.compile("^\\d{1,2}(?: ?[A-Z]{2} ?\\d{1,3})?\\b");
   private static final Pattern LEAD_ZERO_PTN = Pattern.compile("^0+(?=\\d)");
   
   public CTNewHavenCountyBParser() {
-    super(CITY_CODES, "NORTH BRANFORD", "CT");
+    this(CITY_CODES, "NORTH BRANFORD", "CT");
+  }
+  
+  public CTNewHavenCountyBParser(Properties cityCodes, String defCity, String defState) {
+    super(cityCodes, defCity, defState);
   }
   
   @Override
@@ -73,16 +90,30 @@ public class CTNewHavenCountyBParser extends SmartAddressParser {
     if (!match.matches()) return false;
     data.strCallId = match.group(1);
     body = match.group(2);
-    data.strTime = match.group(3);
+    String date = match.group(3);
+    data.strDate = date.substring(2,4) + "/" + date.substring(4,6) + "/" + date.substring(0,2);
+    data.strTime = match.group(4);
+
+    // Unit are at the end of the body separated by a double blank.
+    // But we don't want to actually extract them here, we want to do it after
+    // we have parsed out the address and city.  Except that parsing the address
+    // and city removes the double blank we are looking for :(
     
-    match = UNIT_PTN.matcher(body);
-    if (match.find()) {
-      data.strUnit = match.group().trim();
-      body = body.substring(0, match.start());
+    // So, we'll check for the double blank here and save the prospective unit
+    // field.  Then, after the address has been parsed, if the extra string
+    // still ends with this prospective unit, then we will strip it off
+    String sUnit = null;
+    int pt = body.lastIndexOf(") ");
+    if (pt >= 0) {
+      data.strUnit = body.substring(pt+2).trim();
+      body = body.substring(0,pt+1);
+    } else {
+      if (pt < 0) pt = body.lastIndexOf("  ");
+      if (pt >= 0) sUnit = body.substring(pt+2).trim();
     }
     
     String sExtra;
-    int pt = body.indexOf(',');
+    pt = body.indexOf(',');
     if (pt >= 0) {
       sExtra = body.substring(pt+1).trim();
       body = body.substring(0,pt).trim();
@@ -107,6 +138,24 @@ public class CTNewHavenCountyBParser extends SmartAddressParser {
         if (pt >= 0) sExtra = sExtra.substring(0,pt).trim();
       }
     }
+    if (sUnit != null && sExtra.endsWith(sUnit)) {
+      data.strUnit = sUnit;
+      sExtra = sExtra.substring(0, sExtra.length() - sUnit.length()).trim();
+    }
+    
+    // That usually does the trick, but if we didn't find a unit that way
+    // just grab the last word
+    if (data.strUnit.length() == 0) {
+      pt = sExtra.lastIndexOf(' ');
+      if (pt >= 0) {
+        data.strUnit = sExtra.substring(pt+1).trim();
+        sExtra = sExtra.substring(0,pt).trim();
+      } else {
+        data.strUnit = sExtra;
+        sExtra = "";
+      }
+    }
+    
     data.strCross = sExtra;
     
     match = LEAD_ZERO_PTN.matcher(data.strAddress);
