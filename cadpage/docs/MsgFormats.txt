@@ -4342,11 +4342,6 @@ Safire, TX
 Contact: "Dorian Davis (IT GUY)" <dorian@bexarcountyfire.org>
 a structure fire \nVALLEY RIDGE MOBILE PARK \n8671 Sw Loop 410, Unit 520 \nSB SW LP 410 OFRPOP RD/OLD PEARSALL RD \n*TAC2 \nDistrict: D2 \nE36, L36, E44, E35 and BC2 
 **********************************************************
-Brunswick County, NC (alternate?)
-Contact: Luke Duke <bigcountrymud@gmail.com>
-Sender: vtext.com@returns.groups.yahoo.com
-([civietownvfd] )\n1645:12-030794|ST9(DS)18:13:00|980C(ER)18:14:28|ST9(IS)18:14:29|971E(DS)18:15:31|971E
-([civietownvfd] )\n1644:375 HIGH HILL DR SW SHALLOTTE 12-030794 18:13:00 Traffic-Transportation Incident
 **********************************************************
 **********************************************************
 **********************************************************

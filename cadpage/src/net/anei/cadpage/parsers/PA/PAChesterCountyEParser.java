@@ -21,6 +21,9 @@ Sender: wgfc22@comcast.net
 (Dispatch) 03/23/12 * 11:11:49 * HOUSE FIRE * * 64 RICHARDS LA,88   (NV) *  *  * ** X-STRT DARIEN RD - COVERED * NCC *  *  *  *  * Dispatch *
 (Dispatch) 04/23/12 * 11:59:38 * ACCIDENT - UNKNOWN INJURIES * * WB W AVONDALE RD WO STATE RD ,71   (V) *  * NEWLON * - *  * C610-299-21 * 1202 *  * 12 * Dispatc
 
+*NOT PARSING* (missing city)
+(Dispatch) 04/24/12 * 14:21:46 * DEBRIS / FD RESP * * RT 796/RT 896 ,71    (V) *  *  * ON 896 AT THE SPLIT AT 796- * PSPA *  * 1201 *  * 12 * Dispatch * 
+
  */
 
 

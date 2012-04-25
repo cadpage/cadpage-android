@@ -25,6 +25,10 @@ IPS I/Page Notification / 10433 SALIDA ST ADAM CCPD 06:51:58 TYPE CODE: FRALRM C
 Contact: JC Langley <ashaman01@gmail.com>
 (IPS I/Page Notification) E 470 EB ADAM ADAM: @E 470 EB/E 56TH AVE 22:58:36 TYPE CODE: NONSTR CALLER NAME:  TIME: 22:58:36 Comments:  -104.701552 +39.798521 WH
 
+Contact: "Schuppe, Michael" <mschuppe@brightonfire.org>
+Sender: ipspage@adcom911.org
+Subject:IPS I/Page Notification\n510.5 S 2nd Ave major incident-- hazmat  no additional equip needed at this time\r\n\r\n\r
+
  */
 
 
