@@ -168,6 +168,19 @@ public class NCBrunswickCountyParserTest extends BaseParserTest {
         "INFO:Sick Person (Specifi");
     
   }
+  
+  @Test
+  public void testLukeDuke() {
+
+    doTest("T1",
+        "([civietownvfd] )\n1644:375 HIGH HILL DR SW SHALLOTTE 12-030794 18:13:00 Traffic-Transportation Incident",
+        "ADDR:375 HIGH HILL DR SW",
+        "CITY:SHALLOTTE",
+        "ID:12-030794",
+        "TIME:18:13:00",
+        "INFO:Traffic-Transportation Incident");
+
+  }
 
   public static void main(String[] args) {
     new NCBrunswickCountyParserTest().generateTests("T1", "PLACE ADDR CITY NAME PHONE CODE ID TIME CALL INFO");

@@ -21,6 +21,7 @@ public class CTNewHavenCountyBParserTest extends BaseParserTest {
         "ADDR:167 BRANFORD RD",
         "X:HUBBARD RD / TWIN LAKE RD",
         "UNIT:MED4 503",
+        "DATE:09/10/11",
         "TIME:11:50");
 
     doTest("T2",
@@ -30,6 +31,7 @@ public class CTNewHavenCountyBParserTest extends BaseParserTest {
         "ADDR:9 SALEM ST",
         "X:CLINTONVILLE RD / VILLAGE ST",
         "UNIT:MED4 R2",
+        "DATE:09/09/11",
         "TIME:17:55");
 
     doTest("T3",
@@ -39,6 +41,7 @@ public class CTNewHavenCountyBParserTest extends BaseParserTest {
         "ADDR:392 HOPE HILL RD",
         "X:WALLINGFORD",
         "UNIT:MED4",
+        "DATE:09/09/11",
         "TIME:15:38");
 
     doTest("T4",
@@ -48,6 +51,7 @@ public class CTNewHavenCountyBParserTest extends BaseParserTest {
         "ADDR:51 CIRO RD",
         "X:FOXON RD / DEAD END",
         "UNIT:E1 ET11 ET22 T1 R11 515",
+        "DATE:09/09/11",
         "TIME:10:07");
 
     doTest("T5",
@@ -57,6 +61,7 @@ public class CTNewHavenCountyBParserTest extends BaseParserTest {
         "ADDR:49 CAPUTO RD",
         "X:FOXON RD ROUTE 80 / MILL RD",
         "UNIT:R1 MED4 515",
+        "DATE:09/09/11",
         "TIME:08:38");
 
     doTest("T6",
@@ -65,6 +70,7 @@ public class CTNewHavenCountyBParserTest extends BaseParserTest {
         "CALL:BRUSH FIRE TWIN",
         "ADDR:LAKES RD & LAKE RD",
         "UNIT:BR1 ET11 502",
+        "DATE:09/04/11",
         "TIME:12:22");
   }
   
@@ -79,6 +85,7 @@ public class CTNewHavenCountyBParserTest extends BaseParserTest {
         "MADDR:N MAIN ST & RT 68",
         "CITY:WALLINFORD",
         "UNIT:A44",
+        "DATE:09/06/11",
         "TIME:17:05");
 
     doTest("T2",
@@ -88,8 +95,9 @@ public class CTNewHavenCountyBParserTest extends BaseParserTest {
         "ADDR:909 BEAVER HEAD RD",
         "CITY:GUILFORD",
         "UNIT:MED4",
+        "DATE:08/11/11",
         "TIME:01:16");
-   
+  
   }
   
   @Test
@@ -102,6 +110,7 @@ public class CTNewHavenCountyBParserTest extends BaseParserTest {
         "ADDR:254 BRANFORD RD",
         "X:HARRISON RD / FOXON RD",
         "UNIT:MED4 R1",
+        "DATE:11/16/11",
         "TIME:23:04");
 
     doTest("T2",
@@ -111,6 +120,7 @@ public class CTNewHavenCountyBParserTest extends BaseParserTest {
         "ADDR:1739 FOXON RD",
         "X:NORTH ST / SEA HILL RD",
         "UNIT:MED4 R1",
+        "DATE:12/30/11",
         "TIME:23:13");
 
     doTest("T3",
@@ -120,6 +130,7 @@ public class CTNewHavenCountyBParserTest extends BaseParserTest {
         "ADDR:260 FOREST RD",
         "X:JERZ LN / OLD FOREST RD",
         "UNIT:MED4",
+        "DATE:12/31/11",
         "TIME:03:49");
 
     doTest("T4",
@@ -129,13 +140,15 @@ public class CTNewHavenCountyBParserTest extends BaseParserTest {
         "ADDR:43 WOODCHASE LN",
         "X:TOTOKET RD / MILL RD",
         "UNIT:515 MED4",
+        "DATE:12/31/11",
         "TIME:05:02");
-   
+  
   }
   
   @Test
   public void testEastHaven() {
-    doTest("T2",
+
+    doTest("T1",
         "1100005182 ALPHA MEDICAL 00055 THOMPSON ST  Prem Map -14 PP 65 FOXON RD/GAY ST  (Prem Map -14 PP 65)    S5 111120 15:40",
         "ID:1100005182",
         "CALL:ALPHA MEDICAL",
@@ -143,9 +156,10 @@ public class CTNewHavenCountyBParserTest extends BaseParserTest {
         "MAP:14 PP 65",
         "X:FOXON RD / GAY ST",
         "UNIT:S5",
+        "DATE:11/20/11",
         "TIME:15:40");
 
-    doTest("T3",
+    doTest("T2",
         "1100004628 CHARLIE MEDICAL TF1 00057 MAIN ST Prem Map -5 PP 80 SALTONSTALL PKWY/DEBORAH LA (Prem Map -5 PP 80) R1 111017 09:16",
         "ID:1100004628",
         "CALL:CHARLIE MEDICAL TF1",
@@ -153,9 +167,10 @@ public class CTNewHavenCountyBParserTest extends BaseParserTest {
         "MAP:5 PP 80",
         "X:SALTONSTALL PKWY / DEBORAH LA",
         "UNIT:R1",
+        "DATE:10/17/11",
         "TIME:09:16");
 
-    doTest("T4",
+    doTest("T3",
         "1100004627 CHARLIE MEDICAL TF3 00267 RUSSO AVE Map -13 BRENNAN ST/ANN ST S5 111017 03:25",
         "ID:1100004627",
         "CALL:CHARLIE MEDICAL TF3",
@@ -163,18 +178,20 @@ public class CTNewHavenCountyBParserTest extends BaseParserTest {
         "MAP:13",
         "X:BRENNAN ST / ANN ST",
         "UNIT:S5",
+        "DATE:10/17/11",
         "TIME:03:25");
 
-    doTest("T5",
+    doTest("T4",
         "1100004626 MVA WITH INJURIES LAUREL ST/ NORTH HIGH ST E1 R1 C4 S2 111016 23:29",
         "ID:1100004626",
         "CALL:MVA WITH INJURIES",
         "ADDR:LAUREL ST & NORTH HIGH ST",
         "X:E1 R1 C4",
         "UNIT:S2",
+        "DATE:10/16/11",
         "TIME:23:29");
 
-    doTest("T6",
+    doTest("T5",
         "1100004625 CHARLIE MEDICAL TF4A 00038 TALMADGE AVE Prem Map -3 PP165 POND ST/DEAD END (Prem Map -3 PP165) R1 111016 22:00",
         "ID:1100004625",
         "CALL:CHARLIE MEDICAL TF4A",
@@ -182,9 +199,10 @@ public class CTNewHavenCountyBParserTest extends BaseParserTest {
         "MAP:3 PP165",
         "X:POND ST / DEAD END",
         "UNIT:R1",
+        "DATE:10/16/11",
         "TIME:22:00");
 
-    doTest("T7",
+    doTest("T6",
         "1100004612 ALPHA MEDICAL 01270 NORTH HIGH ST Prem Map -14 PP 63 CORBIN RD/MAPLE ST S5 111015 21:49",
         "ID:1100004612",
         "CALL:ALPHA MEDICAL",
@@ -192,9 +210,10 @@ public class CTNewHavenCountyBParserTest extends BaseParserTest {
         "MAP:14 PP 63",
         "X:CORBIN RD / MAPLE ST",
         "UNIT:S5",
+        "DATE:10/15/11",
         "TIME:21:49");
 
-    doTest("T8",
+    doTest("T7",
         "1100004608 DELTA MEDICAL TF1 00152 KIMBERLY AVE Map -7 PARDEE PL/KIMBERLY AVE R1 111015 19:03",
         "ID:1100004608",
         "CALL:DELTA MEDICAL TF1",
@@ -202,11 +221,12 @@ public class CTNewHavenCountyBParserTest extends BaseParserTest {
         "MAP:7",
         "X:PARDEE PL / KIMBERLY AVE",
         "UNIT:R1",
+        "DATE:10/15/11",
         "TIME:19:03");
 
   }
   
   public static void main(String[] args) {
-    new CTNewHavenCountyBParserTest().generateTests("T2", "ID CALL ADDR CITY MAP X UNIT TIME");
+    new CTNewHavenCountyBParserTest().generateTests("T1", "ID CALL ADDR CITY MAP X UNIT DATE TIME");
   }
 }
