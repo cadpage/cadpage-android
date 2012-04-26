@@ -102,7 +102,7 @@ public class MsgInfo {
     /**
      * Initialize existing Data structure to original state
      */
-    private void initialize() {
+    public void initialize() {
       expectMore = false;
       
       strCall = "";
