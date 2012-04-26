@@ -12,7 +12,7 @@ public class FLSarasotaCountyParserTest extends BaseParserTest {
   }
   
   @Test
-  public void testParser() {
+  public void testBillHoag() {
 
     doTest("T1",
         "SARASOTA COUNTY EVENT TYPE: ODOR-INSIDE Location: 4546 DEER CREEK BLVD NCTY G225 TIME: 21:39:20  Disp: BN3,E14,E15,R14",
@@ -86,6 +86,20 @@ public class FLSarasotaCountyParserTest extends BaseParserTest {
         "MAP:G124",
         "TIME:19:28:44",
         "UNIT:BN1,E2,EMS1,R2");
+
+    doTest("T10",
+        "SARASOTA COUNTY EVENT TYPE: VEHICLE FIRE Location: 4700 FORBES TRL AREA: G434 MUN: SCTY TIME: 12:12:10\\2sDisp: B26,BN4,E21,E24,E26,R21",
+        "CALL:VEHICLE FIRE",
+        "ADDR:4700 FORBES TRL",
+        "MAP:G434",
+        "TIME:12:12:10\\2sDisp: B26,BN4,E21,E24,E26,R21");
+
+    doTest("T11",
+        "SARASOTA COUNTY EVENT TYPE: VEHICLE CRASH WITH INJURIES AREA: G147 MUN: NCTY TIME: 20:37:53  Disp: BN2,BN3,E16,E18,EMS1,R12,R8,SQ8",
+        "CALL:VEHICLE CRASH WITH INJURIES",
+        "MAP:G147",
+        "TIME:20:37:53",
+        "UNIT:BN2,BN3,E16,E18,EMS1,R12,R8,SQ8");
   }
   
   @Test
@@ -115,25 +129,6 @@ public class FLSarasotaCountyParserTest extends BaseParserTest {
         "CITY:NORTH PORT",
         "MAP:G565",
         "TIME:19:07:40");
-  }
-  
-  @Test
-  public void testBillHoag() {
-
-    doTest("T1",
-        "SARASOTA COUNTY EVENT TYPE: VEHICLE FIRE Location: 4700 FORBES TRL AREA: G434 MUN: SCTY TIME: 12:12:10\\2sDisp: B26,BN4,E21,E24,E26,R21",
-        "CALL:VEHICLE FIRE",
-        "ADDR:4700 FORBES TRL",
-        "MAP:G434",
-        "TIME:12:12:10\\2sDisp: B26,BN4,E21,E24,E26,R21");
-
-    doTest("T2",
-        "SARASOTA COUNTY EVENT TYPE: VEHICLE CRASH WITH INJURIES AREA: G147 MUN: NCTY TIME: 20:37:53  Disp: BN2,BN3,E16,E18,EMS1,R12,R8,SQ8",
-        "CALL:VEHICLE CRASH WITH INJURIES",
-        "MAP:G147",
-        "TIME:20:37:53",
-        "UNIT:BN2,BN3,E16,E18,EMS1,R12,R8,SQ8");
-
   }
   
   @Test

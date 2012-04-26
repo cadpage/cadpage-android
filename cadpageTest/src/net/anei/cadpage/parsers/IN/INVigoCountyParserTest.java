@@ -96,7 +96,7 @@ public class INVigoCountyParserTest extends BaseParserTest {
   }
   
   @Test
-  public void test() {
+  public void testJoshSittler() {
 
     doTest("T1",
         "(FIRE-RESIDENTIAL-STRUCTURE) Loc:1670 W EDGEMONT DR XSt:RAVINE PL EDGEWOOD AV Grid:0126 Units:91RIT CV912 Rmk:ADV HER NEIGHBORS HOUSE IS ON FIRE/OPEN",
@@ -124,6 +124,20 @@ public class INVigoCountyParserTest extends BaseParserTest {
         "MAP:237A",
         "UNIT:R-53");
    
+  }
+  
+  @Test
+  public void testPaulWatson() {
+
+    doTest("T1",
+        "(FIRE-RESIDENTIAL-STRUCTURE) Loc:1318 S 11TH HLF ST XSt:COLLEGE AV WASHINGTON ST Grid:0741 Units:EC-2 EC-6 EC-9 L-5 M-9 Rmk:BACK OF THE HOUSE IS ON F",
+        "CALL:FIRE-RESIDENTIAL-STRUCTURE",
+        "ADDR:1318 S 11TH HLF ST",
+        "X:COLLEGE AV WASHINGTON ST",
+        "MAP:0741",
+        "UNIT:EC-2 EC-6 EC-9 L-5 M-9",
+        "INFO:BACK OF THE HOUSE IS ON F");
+    
   }
   
   public static void main(String[] args) {
