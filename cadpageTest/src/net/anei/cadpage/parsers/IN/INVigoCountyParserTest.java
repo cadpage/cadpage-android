@@ -13,7 +13,7 @@ public class INVigoCountyParserTest extends BaseParserTest {
   }
   
   @Test
-  public void testParser() {
+  public void testBillyRoberts() {
 
     doTest("T1",
         "Ct:FALL Loc:3301 ST MARY'S RD Apt: XSt:BLOOMTOWN RD US HWY 150 Grid:112D Units:E-42 TC-1 Rmk:92 YOLD FML; FELL; FACE DOWN ON FLOOR -",
@@ -69,6 +69,15 @@ public class INVigoCountyParserTest extends BaseParserTest {
         "MAP:0WTH",
         "UNIT:E-41 E-42 L-41 R-41",
         "INFO:HOUSE ON FIRE PEOPLE STILL INSIDE");
+
+    doTest("T7",
+        "(MEDICAL ALARM) Loc:1334 6TH AV Grid:0563 Units:M-7 Rmk:PUSHED PENDANT BUTTON/ UNABLE TO REACH",
+        "CALL:MEDICAL ALARM",
+        "ADDR:1334 6TH AV",
+        "MADDR:1334 6TH AVE",
+        "MAP:0563",
+        "UNIT:M-7",
+        "INFO:PUSHED PENDANT BUTTON/ UNABLE TO REACH");
     
   }
   
