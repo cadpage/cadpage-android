@@ -31,6 +31,10 @@ Sender: Cisco.Paging@VigoCounty.IN.Gov
 (FIRE-RESIDENTIAL-STRUCTURE) Loc:1670 W EDGEMONT DR XSt:RAVINE PL EDGEWOOD AV Grid:0126 Units:E-42 E-41 T-42 T-41 R-41 Rmk:ADV HER NEIGHBORS HOUSE IS
 (INJURED PERSON) Loc:7201 E GROSS DR XSt:LAMA ST ST RD 159 Grid:237A Units:R-53 Rmk:
 
+Contact: Paul Watson <paul.watson252@gmail.com>
+Sender: Cisco.Paging@VigoCounty.IN.Gov
+(FIRE-RESIDENTIAL-STRUCTURE) Loc:1318 S 11TH HLF ST XSt:COLLEGE AV WASHINGTON ST Grid:0741 Units:EC-2 EC-6 EC-9 L-5 M-9 Rmk:BACK OF THE HOUSE IS ON F
+
 ***/
 
 public class INVigoCountyParser extends DispatchCiscoParser {

@@ -944,6 +944,11 @@ Litchfield County, CT (CTLitchfieldCountyParser)
 (LCD) MEDIC 4 RESPOND TO 70 CHAPEL HILL RD   SHERMAN, , 92Y M DIFF BREATH, 6-D-2 :12:36
 (LCD) MEDIC 4 RESPOND TO  WELLERS BRIDGE RD   HEMLOCK ROXBURY, ,   TRAFFIC ACCIDENT,  :10:44
 ***************************************************************************
+New London County, CT (CTNewLondonCountyParser)
+COLCHESTER\ 25 VILLAGE CT\ \@  AMSTON RD\ FAINTING OR UNCONC. PERS\ VOGEL,HERBERT H \  ** 12-6474  \ 11:42 ** MapIt:  25  VILLAGE CT, COLCHESTER , CT ( UNCONSCIOUS )
+COLCHESTER\ 15 OLD HARTFORD RD\ \@  WALL ST\ DIFFICULTY BREATHING\ STATE POLICE TROOP K - LOBBY \  ** 12-6456  \ 05:21 ** MapIt:  15  OLD HARTFORD RD, COLCHESTER , CT
+COLCHESTER\  ROUTE 2 WEST \ \@  \ M/V ACCIDENT\ area of exit 18 \  ** 12-6481  \ 12:30 ** MapIt:    ROUTE 2 WEST , COLCHESTER , CT ( ROLLOVER. )
+***************************************************************************
 New Haven County, CT (CTNewHavenCountyAParser)
 MARINE INCIDENT, - SEARCH at BLOCK ISLAND RD BRANFORD, GUILFORD . . 14:27:56
 CODE 5,- AUTOMATIC FIRE ALARM at 275 LAKE DRIVE GUILFORD 15:57
@@ -4354,7 +4359,6 @@ Fire - Unauthorized Burn  9279 Aqua Dr                   - 447A3   - Unauth BUrn
 **********************************************************
 **********************************************************
 **********************************************************
-**********************************************************
 ************  READY TO ROLL ******************************
 **********************************************************
 **********************************************************
@@ -4366,17 +4370,6 @@ Sender: miccom@nnjmicu.org <miccom@nnjmicu.org>
 303 CANCEL: #12-0034873 New Milford Boro *745 Chestnut St Paged:15:34 Enrte:15:36 Scene:15:38 Avail:15:48 Cxl Rsn: Refused Medical Aid Code:
 (I-2012-000067)FBRSH @ 413 BOULEVARD  , NEW MILFORD BORO - 
 **********************************************************
-Colchester Emergency Communications, CT
-Contact: Kevin McManus <kmacinct@gmail.com>
-Sender: messaging@iamresponding.com,911@kx911.com
-INCIDENT TOWN\ ADDRESS \ APARTMENT \ CROSS STREET \ NATURE OF EMERGENCY \ NAME OR LOCATION NAME \ ** INCIDENT NUMBER \ TIME OF DISPATCH ** MapIt: Address and town in line, CT (Free Text by Dispatcher)
-
-COLCHESTER\ 25 VILLAGE CT\ \@  AMSTON RD\ FAINTING OR UNCONC. PERS\ VOGEL,HERBERT H \  ** 12-6474  \ 11:42 ** MapIt:  25  VILLAGE CT, COLCHESTER , CT ( UNCONSCIOUS )
-COLCHESTER\ 15 OLD HARTFORD RD\ \@  WALL ST\ DIFFICULTY BREATHING\ STATE POLICE TROOP K - LOBBY \  ** 12-6456  \ 05:21 ** MapIt:  15  OLD HARTFORD RD, COLCHESTER , CT
-COLCHESTER\  ROUTE 2 WEST \ \@  \ M/V ACCIDENT\ area of exit 18 \  ** 12-6481  \ 12:30 ** MapIt:    ROUTE 2 WEST , COLCHESTER , CT ( ROLLOVER. )
-COLCHESTER\ 13 HUNTERS CT\ \@  MELANIE LN\ DIFFICULTY BREATHING\ FORTIN,V \ ** 12-6400  \ 23:17 ** MapIt:  13  HUNTERS CT, COLCHESTER , CT ( 40S MALE - ATTN G LAKE R2 MUTUAL AID )
-COLCHESTER\ 27 VICKI LN\ \@  OLD HEBRON RD\ ALLERG. REACT\ CINCIRIPINO,JEFFREY \  ** 12-6342  \ 00:32 ** MapIt:  27  VICKI LN, COLCHESTER , CT ( 27 MALE REACTION TO MEDICATION )
-COLCHESTER\ 64 BALABAN RD\ 505\@  GILLETTES LN\ SICK PERSON\ STAPLES,ARTHUR J \  ** 12-6360  \ 10:13 ** MapIt:  64  BALABAN RD, COLCHESTER , CT
 **********************************************************
 Bucks County, PA (Alternate)
 Contact: Ryan Pankoe <rpankoe@chalfontems.org>
@@ -5143,6 +5136,7 @@ Location: 9913 289TH ST E MY Estimated Address TYPE CODE: OUTSIDE FIRE INSIDE LO
 Location: 35100 SR 64 E MY Estimated Address: @FAULKNER FARMS TYPE CODE: TRAUMATIC INJURIES INSIDE LOCATION: SUB TYPE: RE-UNCONSCIOUS OR ARREST TIME: 19:04:35 MAP GRID: 1602-B
 Location: 9913 289TH ST E MY Estimated Address TYPE CODE: OUTSIDE FIRE INSIDE LOCATION: SUB TYPE: LARGE OUTSIDE FIRE (THREAT RESIDENTIAL) TIME: 19:21:37 MAP GRID: 2207-A
 Location: SINGLETARY RD/289TH ST E MY Estimated Address TYPE CODE: OUTSIDE FIRE INSIDE LOCATION: SUB TYPE: BRUSH FIRE TIME: 15:07:03 MAP GRID: 2218-C
+Location: 30771 BETTS RD MY Estimated Address TYPE CODE: OUTSIDE FIRE INSIDE LOCATION: SUB TYPE: LARGE OUTSIDE FIRE TIME: 15:16:08 MAP GRID: 2208-A
 **********************************************************
 Erie County, PA (alternate)
 Contact: Matthew Whiting <firefighter015@gmail.com>
@@ -5170,4 +5164,15 @@ Sender: e911@ps400.hanoverva.org
 (5677 a ) Unit:E07 UnitSts: Inc#:2012-00000667 Inc:OutSmall Loc:BELLFLOWER CR/TIFFANY MapRef:R Map 1503 Addtl:WPH2:
 [(5243]  a ) Unit:E07 UnitSts: Inc#:2012-00031927 Inc:VehCrash Loc:COLD HARBOR RD/BELL CREEK MapRef:R Map 1594 3 VEH MVA, UNKNW INJURIES Addtl:ONE ON RIGHT
 [(3875]  a ) Unit:E07 UnitSts: Inc#:2012-00031920 Inc:OutSmall Loc:MECHANICSVILLE TP/COLONY MapRef:R Map 1592   IN THE MEDIAN SMOKING Addtl:
+**********************************************************
+Bloomington, MN
+Contact: "Meyer, Curt" <CMeyer@ci.bloomington.mn.us>
+System: Motorola Premier 1
+User DispatchPrintrakParser??
+RESIDENTIAL FIRE ALM AD: 9824 DELLRIDGE RD CMT1: AUDIBLE RESIDENTIAL FIRE ALARM NO ANSWER ON CALLING INSIDE 952-884-001
+STRUCTURE FIRE AD: 8336 17 AV S CMT1: READING ON CO DETECTOR GAS ADN 225 - BEEPING - NO ONE FEELS ILL
+SELECT STATION CALL APT: 6 AD: 25 98 ST W LOC: METRO APARTMENTS CMT1: STOVE WAS LEFT ON - NEED VENTILATION - OFFICER IS ON SCENE
+RESET ALARM AD: 5230 102 ST W LOC: TARNHILL APARTMENTS CMT1: ON 3RD FLOOR WESTEND - PULL STATION ACTIVATED - FALSE ALARM - NEEDS
+STRUCTURE FIRE AD: 8100 HIGHWOOD DR LOC: FRIENDSHIP VILLAGE/M CMT1: MALE WITH LEG TRAPPED IN MECHANISM OF ELEVATOR
+ELEVATOR RESCUE AD: 5401 GREEN VALLEY DR LOC: CROWNE PLAZA HOTEL CMT1: ONE STUCK IN ELEVATOR FOR 20 MIN - IN SOUTH TOWER BET 5TH
 **********************************************************
