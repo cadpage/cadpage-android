@@ -163,7 +163,13 @@ Subject:1/2\nSTA45 STA0:FAPT \nadr:106 DISPATCH DR ,72 \nbtwn:LEXINGTON CT & DIS
 
 Contact: "jecashjr@hotmail.com" <jecashjr@hotmail.com>
 Sender: a@bnn.us
-STA26 STA23 STA87 STA17 STA18:FDWL adr:1032 OLD BETHLEHEM RD ,33 btwn:RIDGE RD & CREEK RD box:76030 tm:09:07:08 FD1202476 Run: TW26 TR23 E26 E17 Sent 
+STA26 STA23 STA87 STA17 STA18:FDWL adr:1032 OLD BETHLEHEM RD ,33 btwn:RIDGE RD & CREEK RD box:76030 tm:09:07:08 FD1202476 Run: TW26 TR23 E26 E17 Sent
+
+ Contact: lorren barrett <allflyeredup@gmail.com>
+ Sender: alert31089@alert.bucksema.org
+alert31089@alert.bucksema.org /1/1 /STA13:FINV\nadr:INDIAN CREEK DR/INDIAN CREEK PS ,25\nbox:13005\ntm:04:27:01 FD1205233  Run: SQ13
+alert31277@alert.bucksema.org /1/1 /STA13 STA10:WATER\nadr:ACME MARKET ,25 at 6800 NEW FALLS RD ,25\nbtwn:WOERNER AV & EDGELY AV\naai:2159461840\n
+alert33407@alert.bucksema.org /1/1 /STA13:FALRM\nadr:ADRIATIC PIZZA ,25 at 7757 NEW FALLS RD ,25\nbtwn:APPLETREE DR & WISTAR RD\naai:;2159498520\n
 
 Contact support@active911.com
 Sender: "Bucks RSAN" <alert10965@alert.bucksema.org>

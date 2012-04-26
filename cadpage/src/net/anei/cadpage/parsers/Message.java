@@ -77,6 +77,7 @@ public class Message {
     Pattern.compile("^\\((\\d)/(\\d)\\)"),
     Pattern.compile("^ *(\\d)/(\\d) / "),
     Pattern.compile("^\\( *(\\d) +of +(\\d) *\\)"),
+    Pattern.compile("^([\\w\\.]+@[\\w\\.]+) /(\\d)/(\\d) /"),
     Pattern.compile("^Subject:(\\d)/(\\d)\\n"),
     Pattern.compile("\\[(\\d) of (\\d)\\]$"),
     Pattern.compile(":(\\d)of(\\d)$")
@@ -129,8 +130,12 @@ public class Message {
         if (found) break;
       }
       if (found) {
-        msgIndex = Integer.parseInt(match.group(1));
-        msgCount = Integer.parseInt(match.group(2));
+        int ndx = 1;
+        if (match.groupCount() == 3) {
+          parseAddress = match.group(ndx++);
+        }
+        msgIndex = Integer.parseInt(match.group(ndx++));
+        msgCount = Integer.parseInt(match.group(ndx++));
         if (match.start() == 0) body = body.substring(match.end()).trim();
         else body = body.substring(0,match.start()).trim();
       } else {
