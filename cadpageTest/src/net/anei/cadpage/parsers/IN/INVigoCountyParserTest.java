@@ -86,6 +86,37 @@ public class INVigoCountyParserTest extends BaseParserTest {
     
   }
   
+  @Test
+  public void test() {
+
+    doTest("T1",
+        "(FIRE-RESIDENTIAL-STRUCTURE) Loc:1670 W EDGEMONT DR XSt:RAVINE PL EDGEWOOD AV Grid:0126 Units:91RIT CV912 Rmk:ADV HER NEIGHBORS HOUSE IS ON FIRE/OPEN",
+        "CALL:FIRE-RESIDENTIAL-STRUCTURE",
+        "ADDR:1670 W EDGEMONT DR",
+        "X:RAVINE PL EDGEWOOD AV",
+        "MAP:0126",
+        "UNIT:91RIT CV912",
+        "INFO:ADV HER NEIGHBORS HOUSE IS ON FIRE/OPEN");
+
+    doTest("T2",
+        "(FIRE-RESIDENTIAL-STRUCTURE) Loc:1670 W EDGEMONT DR XSt:RAVINE PL EDGEWOOD AV Grid:0126 Units:E-42 E-41 T-42 T-41 R-41 Rmk:ADV HER NEIGHBORS HOUSE IS",
+        "CALL:FIRE-RESIDENTIAL-STRUCTURE",
+        "ADDR:1670 W EDGEMONT DR",
+        "X:RAVINE PL EDGEWOOD AV",
+        "MAP:0126",
+        "UNIT:E-42 E-41 T-42 T-41 R-41",
+        "INFO:ADV HER NEIGHBORS HOUSE IS");
+
+    doTest("T3",
+        "(INJURED PERSON) Loc:7201 E GROSS DR XSt:LAMA ST ST RD 159 Grid:237A Units:R-53 Rmk:",
+        "CALL:INJURED PERSON",
+        "ADDR:7201 E GROSS DR",
+        "X:LAMA ST ST RD 159",
+        "MAP:237A",
+        "UNIT:R-53");
+   
+  }
+  
   public static void main(String[] args) {
     new INVigoCountyParserTest().generateTests("T1");
   }

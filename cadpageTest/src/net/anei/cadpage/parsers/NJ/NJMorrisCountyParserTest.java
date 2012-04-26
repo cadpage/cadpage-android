@@ -388,9 +388,41 @@ public class NJMorrisCountyParserTest extends BaseParserTest {
         "INFO:CALLER STATES THERE IS A FIRE NEAR HIS APT COMPLEX / F12108",
         "UNIT:3691,3692,3693,3681,3682,3683,2899");
 
+    doTest("T5",
+        "prvs=2463121dc2=dispatch@co.morris.nj.us 71 N HILLSIDE AVE [Roxbury Twp] (BREATHING) - 3681,3682,3683,8000,E80516\n" +
+        "  Y/O F DIFF BREATHING\n" +
+        "2nd Party, 1 Patient, 3 year(s) Female, Con",
+
+        "ADDR:71 N HILLSIDE AVE",
+        "CITY:Roxbury Twp",
+        "CALL:BREATHING",
+        "INFO:Y/O F DIFF BREATHING / 2nd Party, 1 Patient, 3 year(s) Female, Con",
+        "UNIT:3681,3682,3683,8000,E80516");
+
+    doTest("T6",
+        "prvs=2463121dc2=dispatch@co.morris.nj.us 71 N HILLSIDE AVE [Roxbury Twp] (BREATHING) - 3681,3682,3683,8000\n" +
+        "3 Y/O F DIFF BREATHING\n" +
+        "2nd Party, 1 Patient, 3 year(s) Female, Conscious,",
+
+        "ADDR:71 N HILLSIDE AVE",
+        "CITY:Roxbury Twp",
+        "CALL:BREATHING",
+        "INFO:3 Y/O F DIFF BREATHING / 2nd Party, 1 Patient, 3 year(s) Female, Conscious,",
+        "UNIT:3681,3682,3683,8000");
+
+    doTest("T7",
+        "(Roxbury Fire) 1 PUTTERS RD [Roxbury Twp] (GAS LEAK) - 3691,3681,F36E12,E36109,3682,3683,3692,3693\n" +
+        "ODOR OF HEATING OIL/CALLER IS CONCERNED ABOUT CO LEVE",
+
+        "ADDR:1 PUTTERS RD",
+        "CITY:Roxbury Twp",
+        "CALL:GAS LEAK",
+        "INFO:ODOR OF HEATING OIL/CALLER IS CONCERNED ABOUT CO LEVE",
+        "UNIT:3691,3681,F36E12,E36109,3682,3683,3692,3693");
+
   }
   
   public static void main(String[] args) {
-    new NJMorrisCountyParserTest().generateTests("T1", "PLACE ADDR APT CITY CALL INFO UNIT TIME");
+    new NJMorrisCountyParserTest().generateTests("T5", "PLACE ADDR APT CITY CALL INFO UNIT TIME");
   }
 }

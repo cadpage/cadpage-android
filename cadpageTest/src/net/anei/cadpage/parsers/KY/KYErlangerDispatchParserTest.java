@@ -139,18 +139,21 @@ public class KYErlangerDispatchParserTest extends BaseParserTest {
   public void testActive911() {
 
     doTest("T1",
-        "(Alert: Non Specific Diagnosis/Illness) ALRM LVL: 1\n" +
-        "LOC:\n" +
-        "1717 CHOCTAW TL\n" +
-        "ELSMERE\n" +
-        "BTWN: COMANCHE TL & SIOUX TL\n\n" +
-        "RCVD AS E-911 Call\n\n" +
-        "COM:\n" +
-        "FEMALE HAVING LEG SPASIMS\n" +
-        "FEMALE HAS CARDIO VASCULAR DISEASE\n" +
-        "71 FEMALE\n\n" +
-        "CT:\n" +
-        "22-DLP at POS 05",
+        "(Alert: Non Specific Diagnosis/Illness) ALRM LVL: 1\r\n" +
+        "LOC:\r\n" +
+        "1717 CHOCTAW TL\r\n" +
+        "ELSMERE\r\n" +
+        "BTWN: COMANCHE TL & SIOUX TL\r\n" +
+        "\r\n" +
+        "RCVD AS E-911 Call\r\n" +
+        "\r\n" +
+        "COM:\r\n" +
+        "FEMALE HAVING LEG SPASIMS\r\n" +
+        "FEMALE HAS CARDIO VASCULAR DISEASE\r\n" +
+        "71 FEMALE\r\n" +
+        "\r\n" +
+        "CT:\r\n" +
+        "22-DLP at POS 05\r\n",
 
         "CALL:Non Specific Diagnosis/Illness",
         "PRI:1",
@@ -161,22 +164,25 @@ public class KYErlangerDispatchParserTest extends BaseParserTest {
         "INFO:FEMALE HAVING LEG SPASIMS / FEMALE HAS CARDIO VASCULAR DISEASE / 71 FEMALE / 22-DLP at POS 05");
 
     doTest("T2",
-        "(Alert: Non Specific Diagnosis/Illness) ALRM LVL: 1\n" +
-        "LOC:\n" +
-        "7673 IRONBRIDGE CT\n" +
-        "ELSMERE\n" +
-        "BTWN: COVERED BRIDGE DR & N/A\n\n" +
-        "RCVD AS E-911 Call\n\n" +
-        "COM:\n" +
-        "REFUSING MEDICAL\n" +
-        "DOG BIT CHILD AT THE EAST COVERED BRIDGE PARK\n" +
-        "BROWN DOG\n" +
-        "POSS PIT BULL\n" +
-        "WRIST AND HAND\n\n" +
-        "CT:\n" +
-        "22-DLP at POS 01",
+        "(Alert: Bleeding / Lacerations) ALRM LVL: 1\r\n" +
+        "LOC:\r\n" +
+        "7673 IRONBRIDGE CT\r\n" +
+        "ELSMERE\r\n" +
+        "BTWN: COVERED BRIDGE DR & N/A\r\n" +
+        "\r\n" +
+        "RCVD AS E-911 Call\r\n" +
+        "\r\n" +
+        "COM:\r\n" +
+        "REFUSING MEDICAL\r\n" +
+        "DOG BIT CHILD AT THE EAST COVERED BRIDGE PARK\r\n" +
+        "BROWN DOG\r\n" +
+        "POSS PIT BULL\r\n" +
+        "WRIST AND HAND\r\n" +
+        "\r\n" +
+        "CT:\r\n" +
+        "22-DLP at POS 01\r\n",
 
-        "CALL:Non Specific Diagnosis/Illness",
+        "CALL:Bleeding / Lacerations",
         "PRI:1",
         "ADDR:7673 IRONBRIDGE CT",
         "CITY:ELSMERE",

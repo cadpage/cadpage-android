@@ -192,6 +192,25 @@ public class CTWaterfordTownParserTest extends BaseParserTest {
         "CALL:VEHICLE ACCIDENT WITH INJURIES",
         "UNIT:CO1,CO4,W100,W11,W400");
 
+    doTest("T2",
+        "2012-015044* 1 BEECHWOOD DRIVE* 106B* * WATERFORD* Place Comment: UPDATED 06-17-04 Landmark Comment: UPDATE 12/3/2002* EMS ALS* AMBULANCE CALL - ALS* ATRIA CROS",
+        "ID:2012-015044",
+        "ADDR:1 BEECHWOOD DRIVE",
+        "APT:106B",
+        "CITY:WATERFORD",
+        "INFO:Place Comment: UPDATED 06-17-04 Landmark Comment: UPDATE 12/3/2002",
+        "CALL:AMBULANCE CALL - ALS",
+        "NAME:ATRIA CROS");
+
+    doTest("T3",
+        "  / 2012-014889* 1 BEECHWOOD DRIVE* * * WATERFORD* * EMS ALS* AMBULANCE CALL - ALS* ATRIA CROSSROADS PLACE* * CO4* * * * *\n",
+        "ID:2012-014889",
+        "ADDR:1 BEECHWOOD DRIVE",
+        "CITY:WATERFORD",
+        "CALL:AMBULANCE CALL - ALS",
+        "PLACE:ATRIA CROSSROADS PLACE",
+        "UNIT:CO4");
+
   }
   
   public static void main(String[] args) {
