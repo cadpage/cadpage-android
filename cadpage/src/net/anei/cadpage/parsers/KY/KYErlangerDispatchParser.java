@@ -24,8 +24,8 @@ pscc@ci.erlanger.ky.us\nSUBJ:Alert: Unconscious / Unresponsive\nMSG:\nALRM LVL: 
 
 Contact: support@active911.com
 Sender: pscc@ci.erlanger.ky.us
-(Alert: Non Specific Diagnosis/Illness) ALRM LVL: 1\nLOC:\n1717 CHOCTAW TL\nELSMERE\nBTWN: COMANCHE TL & SIOUX TL\n\nRCVD AS E-911 Call\n\nCOM:\nFEMALE HAVING LEG SPASIMS\nFEMALE HAS CARDIO VASCULAR DISEASE\n71 FEMALE\n\nCT:\n22-DLP at POS 05
-(Alert: Non Specific Diagnosis/Illness) ALRM LVL: 1\nLOC:\n7673 IRONBRIDGE CT\nELSMERE\nBTWN: COVERED BRIDGE DR & N/A\n\nRCVD AS E-911 Call\n\nCOM:\nREFUSING MEDICAL\nDOG BIT CHILD AT THE EAST COVERED BRIDGE PARK\nBROWN DOG\nPOSS PIT BULL\nWRIST AND HAND\n\nCT:\n22-DLP at POS 01
+(Alert: Non Specific Diagnosis/Illness) ALRM LVL: 1\r\nLOC:\r\n1717 CHOCTAW TL\r\nELSMERE\r\nBTWN: COMANCHE TL & SIOUX TL\r\n\r\nRCVD AS E-911 Call\r\n\r\nCOM:\r\nFEMALE HAVING LEG SPASIMS\r\nFEMALE HAS CARDIO VASCULAR DISEASE\r\n71 FEMALE\r\n\r\nCT:\r\n22-DLP at POS 05\r\n
+(Alert: Bleeding / Lacerations) ALRM LVL: 1\r\nLOC:\r\n7673 IRONBRIDGE CT\r\nELSMERE\r\nBTWN: COVERED BRIDGE DR & N/A\r\n\r\nRCVD AS E-911 Call\r\n\r\nCOM:\r\nREFUSING MEDICAL\r\nDOG BIT CHILD AT THE EAST COVERED BRIDGE PARK\r\nBROWN DOG\r\nPOSS PIT BULL\r\nWRIST AND HAND\r\n\r\nCT:\r\n22-DLP at POS 01\r\n
 
 */
 public class KYErlangerDispatchParser extends DispatchA1Parser {

@@ -24,6 +24,12 @@ Contact: Billy Roberts <thfd334@gmail.com>
 Sender: 37284,cisco.paging@vigocounty.in.gov
 [TRASH OR RUBBISH-FIRE]  Loc:428 W POPLAR ST XSt:5TH ST WTH 4TH ST WTH Grid:0WTH Units:E-41 Rmk:RP ADV MALE SUBJECT THERE THAT IS CAUSING PROBLEMS AND
 
+Contact: "Sittler, Josh D." <Josh.Sittler@vigocounty.in.gov>
+Sender: Cisco.Paging@VigoCounty.IN.Gov
+(FIRE-RESIDENTIAL-STRUCTURE) Loc:1670 W EDGEMONT DR XSt:RAVINE PL EDGEWOOD AV Grid:0126 Units:91RIT CV912 Rmk:ADV HER NEIGHBORS HOUSE IS ON FIRE/OPEN
+(FIRE-RESIDENTIAL-STRUCTURE) Loc:1670 W EDGEMONT DR XSt:RAVINE PL EDGEWOOD AV Grid:0126 Units:E-42 E-41 T-42 T-41 R-41 Rmk:ADV HER NEIGHBORS HOUSE IS
+(INJURED PERSON) Loc:7201 E GROSS DR XSt:LAMA ST ST RD 159 Grid:237A Units:R-53 Rmk:
+
 ***/
 
 public class INVigoCountyParser extends DispatchCiscoParser {

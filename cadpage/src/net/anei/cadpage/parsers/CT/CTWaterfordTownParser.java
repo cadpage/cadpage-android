@@ -26,6 +26,9 @@ Sender: wecc@waterfordct.org
 Contact: Jared DiPierro <jared.dipierro@gmail.com>
   / 2012-010577* BOSTON POST ROAD* * * WATERFORD* * MVA WITH* VEHICLE ACCIDENT WITH INJURIES* * * CO1,CO4,W100,W11,W400* * * * *\n
 
+2012-015044* 1 BEECHWOOD DRIVE* 106B* * WATERFORD* Place Comment: UPDATED 06-17-04 Landmark Comment: UPDATE 12/3/2002* EMS ALS* AMBULANCE CALL - ALS* ATRIA CROS
+  / 2012-014889* 1 BEECHWOOD DRIVE* * * WATERFORD* * EMS ALS* AMBULANCE CALL - ALS* ATRIA CROSSROADS PLACE* * CO4* * * * *\n
+
 */
 
 public class CTWaterfordTownParser extends FieldProgramParser {
@@ -34,7 +37,7 @@ public class CTWaterfordTownParser extends FieldProgramParser {
   
   public CTWaterfordTownParser() {
     super("WATERFORD TWP", "CT",
-          "ID ADDR APT APT CITY INFO SKIP CALL PLACENAME PHONE UNIT! INFO+");
+          "ID ADDR APT APT CITY INFO SKIP CALL! PLACENAME PHONE UNIT INFO+");
   }
   
   @Override
@@ -45,7 +48,7 @@ public class CTWaterfordTownParser extends FieldProgramParser {
   @Override
   public boolean parseMsg(String body, Data data) {
     if (body.endsWith("*")) body = body + '\n';
-    return parseFields(DELIM.split(body), 11, data);
+    return parseFields(DELIM.split(body), 8, data);
   }
   
   @Override
