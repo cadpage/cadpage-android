@@ -22,6 +22,11 @@ Sender: pscc@ci.erlanger.ky.us
 
 pscc@ci.erlanger.ky.us\nSUBJ:Alert: Unconscious / Unresponsive\nMSG:\nALRM LVL: 1\nLOC:\n32 DUDLEY RD\nEDGEWOOD\nBTWN: MAPLE LN & WILDROSE DR\n\nRCVD AS E-911 Call\n\nCOM:\nSUBJ FELL IN BATHROOM\nUNK IF BREATHING\nBETWEEN THE TOILET AND BATH TUB\n\nCT:\n22-RCA at POS 03\n
 
+Contact: support@active911.com
+Sender: pscc@ci.erlanger.ky.us
+(Alert: Non Specific Diagnosis/Illness) ALRM LVL: 1\nLOC:\n1717 CHOCTAW TL\nELSMERE\nBTWN: COMANCHE TL & SIOUX TL\n\nRCVD AS E-911 Call\n\nCOM:\nFEMALE HAVING LEG SPASIMS\nFEMALE HAS CARDIO VASCULAR DISEASE\n71 FEMALE\n\nCT:\n22-DLP at POS 05
+(Alert: Non Specific Diagnosis/Illness) ALRM LVL: 1\nLOC:\n7673 IRONBRIDGE CT\nELSMERE\nBTWN: COVERED BRIDGE DR & N/A\n\nRCVD AS E-911 Call\n\nCOM:\nREFUSING MEDICAL\nDOG BIT CHILD AT THE EAST COVERED BRIDGE PARK\nBROWN DOG\nPOSS PIT BULL\nWRIST AND HAND\n\nCT:\n22-DLP at POS 01
+
 */
 public class KYErlangerDispatchParser extends DispatchA1Parser {
 
