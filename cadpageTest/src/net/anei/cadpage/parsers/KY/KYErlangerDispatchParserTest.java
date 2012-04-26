@@ -135,6 +135,56 @@ public class KYErlangerDispatchParserTest extends BaseParserTest {
     
   }
   
+  @Test
+  public void testActive911() {
+
+    doTest("T1",
+        "(Alert: Non Specific Diagnosis/Illness) ALRM LVL: 1\n" +
+        "LOC:\n" +
+        "1717 CHOCTAW TL\n" +
+        "ELSMERE\n" +
+        "BTWN: COMANCHE TL & SIOUX TL\n\n" +
+        "RCVD AS E-911 Call\n\n" +
+        "COM:\n" +
+        "FEMALE HAVING LEG SPASIMS\n" +
+        "FEMALE HAS CARDIO VASCULAR DISEASE\n" +
+        "71 FEMALE\n\n" +
+        "CT:\n" +
+        "22-DLP at POS 05",
+
+        "CALL:Non Specific Diagnosis/Illness",
+        "PRI:1",
+        "ADDR:1717 CHOCTAW TL",
+        "MADDR:1717 CHOCTAW TRL",
+        "CITY:ELSMERE",
+        "X:COMANCHE TL & SIOUX TL",
+        "INFO:FEMALE HAVING LEG SPASIMS / FEMALE HAS CARDIO VASCULAR DISEASE / 71 FEMALE / 22-DLP at POS 05");
+
+    doTest("T2",
+        "(Alert: Non Specific Diagnosis/Illness) ALRM LVL: 1\n" +
+        "LOC:\n" +
+        "7673 IRONBRIDGE CT\n" +
+        "ELSMERE\n" +
+        "BTWN: COVERED BRIDGE DR & N/A\n\n" +
+        "RCVD AS E-911 Call\n\n" +
+        "COM:\n" +
+        "REFUSING MEDICAL\n" +
+        "DOG BIT CHILD AT THE EAST COVERED BRIDGE PARK\n" +
+        "BROWN DOG\n" +
+        "POSS PIT BULL\n" +
+        "WRIST AND HAND\n\n" +
+        "CT:\n" +
+        "22-DLP at POS 01",
+
+        "CALL:Non Specific Diagnosis/Illness",
+        "PRI:1",
+        "ADDR:7673 IRONBRIDGE CT",
+        "CITY:ELSMERE",
+        "X:COVERED BRIDGE DR & N/A",
+        "INFO:REFUSING MEDICAL / DOG BIT CHILD AT THE EAST COVERED BRIDGE PARK / BROWN DOG / POSS PIT BULL / WRIST AND HAND / 22-DLP at POS 01");
+
+  }
+  
   public static void main(String[] args) {
     new KYErlangerDispatchParserTest().generateTests("T1");
   }

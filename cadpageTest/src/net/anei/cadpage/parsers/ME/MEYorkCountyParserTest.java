@@ -12,90 +12,57 @@ public class MEYorkCountyParserTest extends BaseParserTest {
   }
   
   @Test
-  public void testParser() {
+  public void testParser2() {
 
     doTest("T1",
-        "(Sanford RCC Page) MEDICAL EMERGENCY\nGOODALL HOSPITAL URGENT CARE/PHARMACY\n10 GOODALL DR \nWaterboro\n2/13/2012 16:59",
+        "(Sanford RCC Page) MEDICAL EMERGENCY\n47\nGOODWINS ACRES \nDAYTON\nFire District: DAY\n4/25/2012 08:26",
         "CALL:MEDICAL EMERGENCY",
-        "PLACE:GOODALL HOSPITAL URGENT CARE/PHARMACY",
-        "ADDR:10 GOODALL DR",
-        "CITY:Waterboro",
-        "DATE:2/13/2012",
-        "TIME:16:59");
+        "PLACE:47",
+        "ADDR:GOODWINS ACRES",
+        "MADDR:47,GOODWINS ACRES",
+        "CITY:DAYTON",
+        "SRC:DAY",
+        "DATE:4/25/2012",
+        "TIME:08:26");
 
     doTest("T2",
-        "(Sanford RCC Page) MEDICAL EMERGENCY\n22 COYNE RD \nWaterboro\n2/13/2012 10:51",
+        "(Sanford RCC Page) MOTOR VEHICLE ACCIDENT-PI/HAZ\n47\nGOODWINS ACRES \nDAYTON\nFire District: DAY\n4/25/2012 07:18",
+        "CALL:MOTOR VEHICLE ACCIDENT-PI/HAZ",
+        "PLACE:47",
+        "ADDR:GOODWINS ACRES",
+        "MADDR:47,GOODWINS ACRES",
+        "CITY:DAYTON",
+        "SRC:DAY",
+        "DATE:4/25/2012",
+        "TIME:07:18");
+
+    doTest("T3",
+        "(Sanford RCC Page) MEDICAL EMERGENCY\n2 EVERGREEN DR \nWaterboro\nFire District: WATF3\n4/24/2012 20:22",
+        "CALL:MEDICAL EMERGENCY",
+        "ADDR:2 EVERGREEN DR",
+        "CITY:Waterboro",
+        "SRC:WATF3",
+        "DATE:4/24/2012",
+        "TIME:20:22");
+
+    doTest("T4",
+        "(Sanford RCC Page) MEDICAL EMERGENCY\n22 COYNE RD \nWaterboro\nFire District: WATF4\n4/24/2012 10:37",
         "CALL:MEDICAL EMERGENCY",
         "ADDR:22 COYNE RD",
         "CITY:Waterboro",
-        "DATE:2/13/2012",
-        "TIME:10:51");
-
-    doTest("T3",
-        "(Sanford RCC Page) FIRE, OTHER\n23 BACK ST \nWaterboro\n2/13/2012 18:58",
-        "CALL:FIRE, OTHER",
-        "ADDR:23 BACK ST",
-        "CITY:Waterboro",
-        "DATE:2/13/2012",
-        "TIME:18:58");
-
-    doTest("T4",
-        "(Sanford RCC Page) MEDICAL EMERGENCY\n50 SANFORD RD \nWaterboro\n2/14/2012 14:53",
-        "CALL:MEDICAL EMERGENCY",
-        "ADDR:50 SANFORD RD",
-        "CITY:Waterboro",
-        "DATE:2/14/2012",
-        "TIME:14:53");
+        "SRC:WATF4",
+        "DATE:4/24/2012",
+        "TIME:10:37");
 
     doTest("T5",
-        "(Sanford RCC Page) MEDICAL EMERGENCY\n77 SOKOKIS TRL \nWaterboro\n2/14/2012 20:07",
+        "(Sanford RCC Page) MEDICAL EMERGENCY\n10 HUMMINGBIRD LN \nWaterboro\nFire District: WATF\n4/24/2012 07:29",
         "CALL:MEDICAL EMERGENCY",
-        "ADDR:77 SOKOKIS TRL",
+        "ADDR:10 HUMMINGBIRD LN",
         "CITY:Waterboro",
-        "DATE:2/14/2012",
-        "TIME:20:07");
+        "SRC:WATF",
+        "DATE:4/24/2012",
+        "TIME:07:29");
 
-    doTest("T6",
-        "(Sanford RCC Page) MEDICAL EMERGENCY\n22 MILL POND RD \nWaterboro\n2/15/2012 09:19",
-        "CALL:MEDICAL EMERGENCY",
-        "ADDR:22 MILL POND RD",
-        "CITY:Waterboro",
-        "DATE:2/15/2012",
-        "TIME:09:19");
-
-    doTest("T7",
-        "(Sanford RCC Page) MEDICAL EMERGENCY\nGOODALL HOSPITAL URGENT CARE/PHARMACY\n10 GOODALL DR \nWaterboro\n2/15/2012 10:30",
-        "CALL:MEDICAL EMERGENCY",
-        "PLACE:GOODALL HOSPITAL URGENT CARE/PHARMACY",
-        "ADDR:10 GOODALL DR",
-        "CITY:Waterboro",
-        "DATE:2/15/2012",
-        "TIME:10:30");
-
-    doTest("T8",
-        "(Sanford RCC Page) MEDICAL EMERGENCY\nLAKE ARROWHEAD\nWaterboro\n2/16/2012 14:53",
-        "CALL:MEDICAL EMERGENCY",
-        "ADDR:LAKE ARROWHEAD",
-        "CITY:Waterboro",
-        "DATE:2/16/2012",
-        "TIME:14:53");
-
-    doTest("T9",
-        "(Sanford RCC Page) MEDICAL EMERGENCY\n1331 SOKOKIS TRL \nWaterboro\n2/17/2012 05:41",
-        "CALL:MEDICAL EMERGENCY",
-        "ADDR:1331 SOKOKIS TRL",
-        "CITY:Waterboro",
-        "DATE:2/17/2012",
-        "TIME:05:41");
-
-    doTest("T10",
-        "(Sanford RCC Page) FIRE, OTHER\n26 LOGAN CIRCLE EXT \nWaterboro\n2/17/2012 11:29",
-        "CALL:FIRE, OTHER",
-        "ADDR:26 LOGAN CIRCLE EXT",
-        "MADDR:26 LOGAN CIRCLE",
-        "CITY:Waterboro",
-        "DATE:2/17/2012",
-        "TIME:11:29");
   }
   
   public static void main(String[] args) {
