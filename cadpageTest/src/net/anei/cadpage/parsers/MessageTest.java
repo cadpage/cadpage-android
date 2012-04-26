@@ -302,6 +302,13 @@ public class MessageTest {
   
   @Test
   public void testParseBreak() {
+    doParseTest("PABucksCounty",
+                "alert31089@alert.bucksema.org /1/2 /STA13:FINV\nadr:INDIAN CREEK DR/INDIAN CREEK PS ,25\nbox:13005\ntm:04:27:01 FD1205233  Run: SQ13",
+                "alert31089@alert.bucksema.org",
+                "",
+                "STA13:FINV\nadr:INDIAN CREEK DR/INDIAN CREEK PS ,25\nbox:13005\ntm:04:27:01 FD1205233  Run: SQ13", 
+                1, 2);
+        
     doParseTest("OHHamiltonCounty", "0002/0002 XST2: 6400 DAWSON RD",
                 "ken@cadpage.org", "", "XST2: 6400 DAWSON RD", 2, 2);
     

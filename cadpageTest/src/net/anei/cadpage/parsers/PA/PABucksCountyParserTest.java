@@ -1895,6 +1895,50 @@ public class PABucksCountyParserTest extends BaseParserTest {
   }
   
   @Test
+  public void testLorenBarret() {
+
+    doTest("T1",
+        "alert31089@alert.bucksema.org /1/1 /STA13:FINV\nadr:INDIAN CREEK DR/INDIAN CREEK PS ,25\nbox:13005\ntm:04:27:01 FD1205233  Run: SQ13",
+        "SRC:STA13",
+        "CALL:FINV - FIRE INVESTIGATION (LOC)",
+        "BOX:13005",
+        "ADDR:INDIAN CREEK DR & INDIAN CREEK PS",
+        "CITY:BRISTOL TWP",
+        "TIME:04:27:01",
+        "ID:FD1205233",
+        "UNIT:SQ13");
+
+    doTest("T2",
+        "alert31277@alert.bucksema.org /1/1 /STA13 STA10:WATER\n" +
+        "adr:ACME MARKET ,25 at 6800 NEW FALLS RD ,25\n" +
+        "btwn:WOERNER AV & EDGELY AV\n" +
+        "aai:2159461840\n",
+
+        "CALL:WATER - WATER FLOW (LOC)",
+        "PLACE:ACME MARKET",
+        "ADDR:6800 NEW FALLS RD",
+        "CITY:BRISTOL TWP",
+        "X:WOERNER AV & EDGELY AV",
+        "INFO:2159461840",
+        "UNIT:STA13 STA10");
+
+    doTest("T3",
+        "alert33407@alert.bucksema.org /1/1 /STA13:FALRM\n" +
+        "adr:ADRIATIC PIZZA ,25 at 7757 NEW FALLS RD ,25\n" +
+        "btwn:APPLETREE DR & WISTAR RD\n" +
+        "aai:;2159498520\n",
+
+        "CALL:FALRM - FIRE ALARM (LOC)",
+        "PLACE:ADRIATIC PIZZA",
+        "ADDR:7757 NEW FALLS RD",
+        "CITY:BRISTOL TWP",
+        "X:APPLETREE DR & WISTAR RD",
+        "INFO:;2159498520",
+        "UNIT:STA13");
+
+  }
+  
+  @Test
   public void testGeneralAlert() {
 
     doTest("T1",
