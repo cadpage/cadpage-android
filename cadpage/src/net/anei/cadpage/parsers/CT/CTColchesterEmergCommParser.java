@@ -18,13 +18,18 @@ COLCHESTER\ 64 BALABAN RD\ 505\@  GILLETTES LN\ SICK PERSON\ STAPLES,ARTHUR J \ 
 
 */
 
-public class CTNewLondonCountyParser extends FieldProgramParser {
+public class CTColchesterEmergCommParser extends FieldProgramParser {
   
-  public CTNewLondonCountyParser() {
-    super("NEW LONDON COUNTY", "CT",
+  public CTColchesterEmergCommParser() {
+    super("", "CT",
           "CITY ADDR APT X CALL PLACENAME ID! EXTRA");
   }
   
+  @Override
+  public String getLocName() {
+    return "Colchester Emergency Communications, CT";
+  }
+
   @Override
   public String getFilter() {
     return "messaging@iamresponding.com,911@kx911.com";
