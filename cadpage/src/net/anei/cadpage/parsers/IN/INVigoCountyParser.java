@@ -1,6 +1,7 @@
 package net.anei.cadpage.parsers.IN;
 
 import java.util.Properties;
+import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchCiscoParser;
@@ -34,6 +35,7 @@ Sender: Cisco.Paging@VigoCounty.IN.Gov
 Contact: Paul Watson <paul.watson252@gmail.com>
 Sender: Cisco.Paging@VigoCounty.IN.Gov
 (FIRE-RESIDENTIAL-STRUCTURE) Loc:1318 S 11TH HLF ST XSt:COLLEGE AV WASHINGTON ST Grid:0741 Units:EC-2 EC-6 EC-9 L-5 M-9 Rmk:BACK OF THE HOUSE IS ON F
+(FIRE-COMMERCIAL-STRUCTURE) Loc:663 OHIO ST Grid:0666 Units:EC-2 EC-3 EC-9 L-5 S-5 BAT-2 C-11 Rmk:FIRE SMOKE ALARM/BEEN GOING OFF FOR A COUPLE HRS
 
 ***/
 
@@ -42,6 +44,8 @@ public class INVigoCountyParser extends DispatchCiscoParser {
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "WTH", "WEST TERRE HAUTE"
   });
+  
+  private static final Pattern HLF_PATTERN = Pattern.compile("\\bHLF\\b", Pattern.CASE_INSENSITIVE);
   
   public INVigoCountyParser() {
     super(CITY_CODES, "VIGO COUNTY", "IN");
@@ -58,6 +62,10 @@ public class INVigoCountyParser extends DispatchCiscoParser {
       if (subject.length() == 0) return false;
       body = "Ct:" + subject + " " + body;
     }
-    return super.parseMsg(body, data);
+    if (!super.parseMsg(body, data)) return false;
+    
+    // Turn HLF -> 1/2
+    data.strAddress = HLF_PATTERN.matcher(data.strAddress).replaceAll("1/2");
+    return true;
   }
 }

@@ -371,7 +371,10 @@ public abstract class MsgParser {
          int len = key.length();
          int iTempPt = ipt - len;
          if (iTempPt < iDataPt) continue;
-         if (iTempPt > 0 && body.charAt(iTempPt-1)!=' ') continue;
+         if (iTempPt > 0) {
+           char chr = body.charAt(iTempPt-1);
+           if (!Character.isWhitespace(chr)) continue;
+         }
          if (!body.substring(iTempPt,ipt).equals(key)) continue;
          iNxtKey = ndx;
          iEndPt = iTempPt;
@@ -942,6 +945,23 @@ public abstract class MsgParser {
      ept = npt;
      while (ept > spt && line.charAt(ept-1)==' ') ept--;
      return result;
+   }
+   
+   /**
+    * Search for the next occurrance of a specific pattern and return the match result
+    * @param ptn Pattern for which we are searching
+    * @return a Match object matching the specified pattern if a match was found. Null 
+    * if no match was found
+    */
+   public Matcher getMatcher(Pattern ptn) {
+     Matcher match = ptn.matcher(line);
+     if (!match.find(spt)) {
+       spt = ept;
+       return null;
+     }
+     
+     spt = match.end();
+     return match;
    }
  }
 

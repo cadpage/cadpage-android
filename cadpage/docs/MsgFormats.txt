@@ -4435,15 +4435,12 @@ To:
  Final Type: ADIAB (DIABETIC EMERGENCY) Pri: 3 Dspo:      Prem: [  ]
  EMS Blk:  134620 Fire Blk:  60063  Police Blk:  36106  Map Page: 3032G4 
  Group: EN  Beat: 134 Src:  N ATT:  MTC - Meet the Complainant  
- Loc: RT 309 OFFICE FURN ,36 at 1711 BETHLEHEM PK ,36 btwn SWARTLEY RD &
-MILL RD
+ Loc: RT 309 OFFICE FURN ,36 at 1711 BETHLEHEM PK ,36 btwn SWARTLEY RD & MILL RD
  
  Loc Info: 
- Name: DAN MCTAGUE             Addr:                         Phone:
-2676406378
+ Name: DAN MCTAGUE             Addr:                         Phone:  2676406378
  
-/1557  (753     )  ENTRY:         63YOM,,AWAKE BUT INCOHERENT,,REFUSING THE
-SUGA
+/1557  (753     )  ENTRY:         63YOM,,AWAKE BUT INCOHERENT,,REFUSING THE SUGA
                                   RS
 /1557  (619     )  DISP    A134    #125093   PANKOE,RYAN 
 /1557              ADD     QUT60  
@@ -4604,12 +4601,9 @@ Subject: 911 Data
  Name: TAHALNY,JANET           Addr:                         Phone:
 2152574233
 
-/1908  (830     )  ENTRY:         COMPL UNSURE OF TWP,,KEEPS GIVING
-SELLERSVILLE
-                                  AND CALLING THE BUISNESS
-LIFEPATH.....56/F,,B
-                                 P 112/78,,GENERAL WEAKNESS,,HX OF MENTAL
-RETAR
+/1908  (830     )  ENTRY:         COMPL UNSURE OF TWP,,KEEPS GIVING SELLERSVILLE
+                                  AND CALLING THE BUISNESS LIFEPATH.....56/F,,B
+                                 P 112/78,,GENERAL WEAKNESS,,HX OF MENTAL RETAR
                                  DATION
 /1909  (488     )  HOLD
 /1910              DISP    A134    #078910   MCDONAGH, PENELOPE
@@ -4659,8 +4653,7 @@ Subject: 911 Data
  Name: BUGGELN ROBERT W        Addr: 17 WALDEN WY            Phone:
 2158229009
 
-/0217  (809     )  ENTRY:         95 YOF,, SEVERE RECTAL PAIN ,, PT IS NOT*
-ALON
+/0217  (809     )  ENTRY:         95 YOF,, SEVERE RECTAL PAIN ,, PT IS NOT* ALON
                                   E ,,
 /0217  (613     )  DISP    A134    #078910   MCDONAGH, PENELOPE 
                                    #131319   MEEHAN, JOSEPH (EMT) 
@@ -4700,10 +4693,8 @@ Subject: 911 Data
  Name: ROBERTSON,CARROLL       Addr:                         Phone:
 2157163337
 
-/2334  (778     )  ENTRY:         WIFE IS BEATING COMPL,, NRW,, COMPL HAS
-GUNS L
-                                  OCKED UP ATT,, NRI,, NO INTOX,, COMPL
-WANTS HE
+/2334  (778     )  ENTRY:         WIFE IS BEATING COMPL,, NRW,, COMPL HAS GUNS L
+                                  OCKED UP ATT,, NRI,, NO INTOX,, COMPL WANTS HE
                                   R BROUGHT TO CRISIS BY EMS
 /2334  (613     )  DISP    A134    #078910   MCDONAGH, PENELOPE 
                                    #131319   MEEHAN, JOSEPH (EMT) 
@@ -4744,8 +4735,7 @@ Subject: 911 Data
 2158220221
 
 /2102  (810     )  ENTRY:         TOOK WRONG DOSE OF INSULIN,, 75 YOF
-/2102              SUPP           TXT: NOT FEELING ANY SYMPTOMS ATT BUT
-WOULD LI
+/2102              SUPP           TXT: NOT FEELING ANY SYMPTOMS ATT BUT WOULD LI
                                   KE A SQUAD 
 /2102  (613     )  DISP    A134    #078910   MCDONAGH, PENELOPE 
                                    #131319   MEEHAN, JOSEPH (EMT) 
@@ -4825,8 +4815,7 @@ Subject: 911 Data
  Name: HENSHAW,JOYCE           Addr: WIFE                    Phone:
 2157210892
 
-/1833  (825     )  ENTRY:         68/M,,IN AND OUT ON
-CONCIOUSNESS,,COMPLAINING 
+/1833  (825     )  ENTRY:         68/M,,IN AND OUT ON CONCIOUSNESS,,COMPLAINING 
                                   OF PAIN IN HIS HANDS/LEGS,,PARKINSONS
 PATIENT,
                                   ,REQ GVH AND NO LIGHTS/SIRENS
@@ -4868,10 +4857,8 @@ PINE CREEK CONDOS
  Name: MARY GRAZIANO           Addr:                         Phone:
 2678974536
 
-/2054  (753     )  ENTRY:         MALE HAS FALLEN,,POSS SINCE THIS
-MORNING,,PT I
-                                  S YELLING,,DOOR IS LOCKED,, COMPL KICKED
-DOOR 
+/2054  (753     )  ENTRY:         MALE HAS FALLEN,,POSS SINCE THIS MORNING,,PT I
+                                  S YELLING,,DOOR IS LOCKED,, COMPL KICKED DOOR 
                                   IN
 /2054  (807     )  DISP    A134    #131431   HENLEY, SCOTT 
 
@@ -4993,10 +4980,8 @@ Subject: 911 Data
  Name: T MOBILE, USA           Addr: MICHAEL SCHMID          Phone:
 2153533596
 
-/1550  (749     )  ENTRY:         +040.318568 -075.211243,,25 YOM,,CALLER IS
-PT.
-                                  ..ON FOOT ...NOW SITTING ON CURB...CAN'T
-CATCH
+/1550  (749     )  ENTRY:         +040.318568 -075.211243,,25 YOM,,CALLER IS PT.
+                                  ..ON FOOT ...NOW SITTING ON CURB...CAN'T CATCH
                                    BREATH...HAS ADDICTION TO INHALLENTS
 /1550  (764     )  DISP    A134    #160645   BRUNK, RYAN 
 
@@ -5167,6 +5152,7 @@ Sender: e911@ps400.hanoverva.org
 **********************************************************
 Bloomington, MN
 Contact: "Meyer, Curt" <CMeyer@ci.bloomington.mn.us>
+Sender: logis-emergin-paging@logis.org
 System: Motorola Premier 1
 User DispatchPrintrakParser??
 RESIDENTIAL FIRE ALM AD: 9824 DELLRIDGE RD CMT1: AUDIBLE RESIDENTIAL FIRE ALARM NO ANSWER ON CALLING INSIDE 952-884-001

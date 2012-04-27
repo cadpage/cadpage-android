@@ -1,10 +1,9 @@
-  package net.anei.cadpage.parsers.PA;
+package net.anei.cadpage.parsers.PA;
 
 import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /*
@@ -202,15 +201,14 @@ Sender: "Bucks RSAN" <alert10965@alert.bucksema.org>
  */
 
 
-public class PABucksCountyParser extends FieldProgramParser {
+public class PABucksCountyParser extends PABucksCountyBaseParser {
   
   private static final Pattern MARKER1 = Pattern.compile("^[A-Z]+\\s+(?:Adr:|adr:|Box:)");
   private static final Pattern MARKER2 = Pattern.compile("^([A-Z0-9 ]+):([A-Z]+) *");
   private static final Pattern NAKED_DATE_TIME = Pattern.compile("(?<!: ?)\\d\\d/\\d\\d/\\d\\d +\\d\\d:\\d\\d:\\d\\d\\b");
   
   public PABucksCountyParser() {
-    super("BUCKS COUNTY", "PA",
-           "SRC type:CALL! Box:BOX? adr:ADDR! btwn:X aai:INFO box:BOX map:MAP tm:TIME% Run:UNIT");
+    super("SRC type:CALL! Box:BOX? adr:ADDR! aai:INFO box:BOX map:MAP tm:TIME% Run:UNIT");
   }
   
   @Override
@@ -243,7 +241,7 @@ public class PABucksCountyParser extends FieldProgramParser {
     }
     
     body = NAKED_DATE_TIME.matcher(body).replaceFirst(" tm: $0");
-    body = body.replace(" Adr:", " adr:").replaceAll(" s?btwn ", " btwn:").replace(" stype:", " type:").replace(" saai:", " aai:").trim();
+    body = body.replace(" Adr:", " adr:").replace(" stype:", " type:").replace(" saai:", " aai:").trim();
     if (super.parseMsg(body, data)) {
       if (mark2 && data.strUnit.length() == 0) {
         data.strUnit = data.strSource;
@@ -268,61 +266,18 @@ public class PABucksCountyParser extends FieldProgramParser {
     }
   }
   
-  private static final Pattern CITY_CODE_PTN = Pattern.compile("(\\d+)[- ]*(.*)");
   private class MyAddressField extends AddressField {
     
     @Override
     public void parse(String sAddr, Data data) {
-      Parser p = new Parser(sAddr);
-      data.strCross = p.getLastOptional("X/");
-      data.strPlace = p.getOptional(" at ");
-      int pt = data.strPlace.indexOf(',');
-      if (pt >= 0) data.strPlace = data.strPlace.substring(0,pt).trim();
-      String cityCode = p.getLastOptional(',');
-      sAddr = p.get();
-      sAddr = sAddr.replace("FRIER RD", "FREIER RD");
-      sAddr = sAddr.replace("WHITE BRIAR", "WHITEBRIAR");
-      sAddr = expandStreet("COLD SPRING CREAMERY", sAddr);
-      sAddr = expandStreet("FALLSINGTON TULLYTOWN", sAddr);
-      super.parse(sAddr, data);
-      if (cityCode.length() > 0) {
-        Matcher match = CITY_CODE_PTN.matcher(cityCode);
-        if (match.matches()) {
-          int iCity = Integer.parseInt(match.group(1));
-          iCity = iCity - INIT_TOWN_CODE;
-          if (iCity >= 0 && iCity < TOWN_CODES.length){
-            data.strCity = TOWN_CODES[iCity];
-          }
-          data.strPlace = append(data.strPlace, " - ", match.group(2));
-        } else {
-          data.strCity = cityCode;
-        }
-      }
-    }
-    
-    private final String expandStreet(String fullName, String field) {
-      int trigLen  = fullName.lastIndexOf(' ');
-      if (trigLen < 0) return field;
-      trigLen += 2;
-      if (trigLen > fullName.length()) return field;
-      String trigger = fullName.substring(0,trigLen);
-      int pt1 = 0;
-      while (true) {
-        int pt2 = field.indexOf(trigger, pt1);
-        if (pt2 < 0) break;
-        int pt3 = field.indexOf(' ', pt2+trigLen);
-        if (pt3 < 0) pt3 = field.length();
-        if (fullName.startsWith(field.substring(pt2,pt3))) {
-          field = field.substring(0,pt2) + fullName + field.substring(pt3);
-        }
-        pt1 = pt3;
-      }
-      return field;
+      
+      // Not the usual parseAddress method, this one is in the PABucksCountyBaseParser class
+      parseAddress(sAddr, data);
     }
     
     @Override
     public String getFieldNames() {
-      return "PLACE " + super.getFieldNames() + " CITY";
+      return "PLACE " + super.getFieldNames() + " CITY X";
     }
   }
   
@@ -376,69 +331,6 @@ public class PABucksCountyParser extends FieldProgramParser {
     if (name.equals("TIME")) return new MyTimeField();
     return super.getField(name);
   }
-  
-  private static final int INIT_TOWN_CODE = 21;
-  private static final String[] TOWN_CODES = new String[]{
-  /*21*/ "BEDMINSTER TWP",
-  /*22*/ "BENSALEM TWP",
-  /*23*/ "BRIDGETON TWP",
-  /*24*/ "BRISTOL",
-  /*25*/ "BRISTOL TWP",
-  /*26*/ "BUCKINGHAM TWP",
-  /*27*/ "CHALFONT",
-  /*28*/ "DOYLESTOWN",
-  /*29*/ "DOYLESTOWN TWP",
-  /*30*/ "",
-  /*31*/ "DUBLIN",
-  /*32*/ "DURHAM TWP",
-  /*33*/ "EAST ROCKHILL",
-  /*34*/ "FALLS TWP",
-  /*35*/ "HAYCOCK TWP",
-  /*36*/ "HILLTOWN TWP",
-  /*37*/ "HULMEVILLE",
-  /*38*/ "IVYLAND",
-  /*39*/ "LANGHORNE",
-  /*40*/ "",
-  /*41*/ "LANGHORNE MANOR",
-  /*42*/ "LOWER MAKEFIELD TWP",
-  /*43*/ "LOWER SOUTHAMPTON TWP",
-  /*44*/ "MIDDLETOWN TWP",
-  /*45*/ "MILFORD TWP",
-  /*46*/ "MORRISVILLE",
-  /*47*/ "NEW BRITAIN",
-  /*48*/ "NEW BRITAIN TWP",
-  /*49*/ "NEW HOPE",
-  /*50*/ "",
-  /*51*/ "NEWTOWN",
-  /*52*/ "NEWTOWN TWP",
-  /*53*/ "NOCKAMIXON TWP",
-  /*54*/ "NORTHAMPTON TWP",
-  /*55*/ "PENNDEL",
-  /*56*/ "PERKASIE",
-  /*57*/ "PLUMSTEAD TWP",
-  /*58*/ "QUAKERTOWN",
-  /*59*/ "RICHLAND TWP",
-  /*60*/ "",
-  /*61*/ "RICHLANDTOWN",
-  /*62*/ "RIEGELSVILLE",
-  /*63*/ "SELLERSVILLE",
-  /*64*/ "SILVERDALE",
-  /*65*/ "SOLEBURY TWP",
-  /*66*/ "SPRINGFIELD TWP",
-  /*67*/ "TELFORD",
-  /*68*/ "TINICUM TWP",
-  /*69*/ "TRUMBAUERSVILLE",
-  /*70*/ "",
-  /*71*/ "TULLYTOWN",
-  /*72*/ "UPPER MAKEFIELD TWP",
-  /*73*/ "UPPER SOUTHAMPTON TWP",
-  /*74*/ "WARMINSTER TWP",
-  /*75*/ "WARRINGTON TWP",
-  /*76*/ "WARWICK TWP",
-  /*77*/ "WEST ROCKHILL TWP",
-  /*78*/ "WRIGHTSTOWN TWP",
-  /*79*/ "YARDLEY"
-  };
   
   private static final Properties TYPE_CODES = buildCodeTable(new String[]{
       "AIRC",     "AIRPLANE CRASH (TAC)",
@@ -555,4 +447,118 @@ public class PABucksCountyParser extends FieldProgramParser {
       "ESPEC",      "STANDBY / SPECIAL ASSIGNMENT (EMS)",
       "MALRM",      "MEDICAL ALARM"
   });
+
+  
+  
+  
+  
+  // Common Bucks County Parsing logic starts here
+  
+  /**
+   * Clean idiosyncracies of Bucks County addresses
+   * @param sAddr original address from text page
+   * @return cleaned up address
+   */
+  static String cleanBucksCoAddress(String sAddr) {
+    sAddr = sAddr.replace("FRIER RD", "FREIER RD");
+    sAddr = sAddr.replace("WHITE BRIAR", "WHITEBRIAR");
+    sAddr = expandStreet("COLD SPRING CREAMERY", sAddr);
+    sAddr = expandStreet("FALLSINGTON TULLYTOWN", sAddr);
+    return sAddr;
+  }
+  
+  private static String expandStreet(String fullName, String field) {
+    int trigLen  = fullName.lastIndexOf(' ');
+    if (trigLen < 0) return field;
+    trigLen += 2;
+    if (trigLen > fullName.length()) return field;
+    String trigger = fullName.substring(0,trigLen);
+    int pt1 = 0;
+    while (true) {
+      int pt2 = field.indexOf(trigger, pt1);
+      if (pt2 < 0) break;
+      int pt3 = field.indexOf(' ', pt2+trigLen);
+      if (pt3 < 0) pt3 = field.length();
+      if (fullName.startsWith(field.substring(pt2,pt3))) {
+        field = field.substring(0,pt2) + fullName + field.substring(pt3);
+      }
+      pt1 = pt3;
+    }
+    return field;
+  }
+
+  /**
+   * Convert Bucks county city code to a city name
+   * @param cityCode numeric city code
+   * @return name of city
+   */
+  static String getCity(String cityCode) {
+    int iCity = Integer.parseInt(cityCode);
+    iCity = iCity - INIT_TOWN_CODE;
+    if (iCity < 0 || iCity >= TOWN_CODES.length) return "";
+    return TOWN_CODES[iCity];
+  }
+
+  private static final int INIT_TOWN_CODE = 21;
+  private static final String[] TOWN_CODES = new String[]{
+  /*21*/ "BEDMINSTER TWP",
+  /*22*/ "BENSALEM TWP",
+  /*23*/ "BRIDGETON TWP",
+  /*24*/ "BRISTOL",
+  /*25*/ "BRISTOL TWP",
+  /*26*/ "BUCKINGHAM TWP",
+  /*27*/ "CHALFONT",
+  /*28*/ "DOYLESTOWN",
+  /*29*/ "DOYLESTOWN TWP",
+  /*30*/ "",
+  /*31*/ "DUBLIN",
+  /*32*/ "DURHAM TWP",
+  /*33*/ "EAST ROCKHILL",
+  /*34*/ "FALLS TWP",
+  /*35*/ "HAYCOCK TWP",
+  /*36*/ "HILLTOWN TWP",
+  /*37*/ "HULMEVILLE",
+  /*38*/ "IVYLAND",
+  /*39*/ "LANGHORNE",
+  /*40*/ "",
+  /*41*/ "LANGHORNE MANOR",
+  /*42*/ "LOWER MAKEFIELD TWP",
+  /*43*/ "LOWER SOUTHAMPTON TWP",
+  /*44*/ "MIDDLETOWN TWP",
+  /*45*/ "MILFORD TWP",
+  /*46*/ "MORRISVILLE",
+  /*47*/ "NEW BRITAIN",
+  /*48*/ "NEW BRITAIN TWP",
+  /*49*/ "NEW HOPE",
+  /*50*/ "",
+  /*51*/ "NEWTOWN",
+  /*52*/ "NEWTOWN TWP",
+  /*53*/ "NOCKAMIXON TWP",
+  /*54*/ "NORTHAMPTON TWP",
+  /*55*/ "PENNDEL",
+  /*56*/ "PERKASIE",
+  /*57*/ "PLUMSTEAD TWP",
+  /*58*/ "QUAKERTOWN",
+  /*59*/ "RICHLAND TWP",
+  /*60*/ "",
+  /*61*/ "RICHLANDTOWN",
+  /*62*/ "RIEGELSVILLE",
+  /*63*/ "SELLERSVILLE",
+  /*64*/ "SILVERDALE",
+  /*65*/ "SOLEBURY TWP",
+  /*66*/ "SPRINGFIELD TWP",
+  /*67*/ "TELFORD",
+  /*68*/ "TINICUM TWP",
+  /*69*/ "TRUMBAUERSVILLE",
+  /*70*/ "",
+  /*71*/ "TULLYTOWN",
+  /*72*/ "UPPER MAKEFIELD TWP",
+  /*73*/ "UPPER SOUTHAMPTON TWP",
+  /*74*/ "WARMINSTER TWP",
+  /*75*/ "WARRINGTON TWP",
+  /*76*/ "WARWICK TWP",
+  /*77*/ "WEST ROCKHILL TWP",
+  /*78*/ "WRIGHTSTOWN TWP",
+  /*79*/ "YARDLEY"
+  };
 }
