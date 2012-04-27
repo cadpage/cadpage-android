@@ -132,12 +132,20 @@ public class INVigoCountyParserTest extends BaseParserTest {
     doTest("T1",
         "(FIRE-RESIDENTIAL-STRUCTURE) Loc:1318 S 11TH HLF ST XSt:COLLEGE AV WASHINGTON ST Grid:0741 Units:EC-2 EC-6 EC-9 L-5 M-9 Rmk:BACK OF THE HOUSE IS ON F",
         "CALL:FIRE-RESIDENTIAL-STRUCTURE",
-        "ADDR:1318 S 11TH HLF ST",
+        "ADDR:1318 S 11TH 1/2 ST",
         "X:COLLEGE AV WASHINGTON ST",
         "MAP:0741",
         "UNIT:EC-2 EC-6 EC-9 L-5 M-9",
         "INFO:BACK OF THE HOUSE IS ON F");
-    
+
+    doTest("T2",
+        "(FIRE-COMMERCIAL-STRUCTURE) Loc:663 OHIO ST Grid:0666 Units:EC-2 EC-3 EC-9 L-5 S-5 BAT-2 C-11 Rmk:FIRE SMOKE ALARM/BEEN GOING OFF FOR A COUPLE HRS",
+        "CALL:FIRE-COMMERCIAL-STRUCTURE",
+        "ADDR:663 OHIO ST",
+        "MAP:0666",
+        "UNIT:EC-2 EC-3 EC-9 L-5 S-5 BAT-2 C-11",
+        "INFO:FIRE SMOKE ALARM/BEEN GOING OFF FOR A COUPLE HRS");
+   
   }
   
   public static void main(String[] args) {

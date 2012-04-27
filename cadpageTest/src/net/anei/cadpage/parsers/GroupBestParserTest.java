@@ -26,7 +26,8 @@ public class GroupBestParserTest extends BaseParserTest {
         "Subject:IPS I/Page Notification E 64TH AVE/MONACO ST ADAM CCPD 09:51:48 TYPE CODE: ACCI CALLER NAME: TIME: 09:51:48 Comments: -104.90947",
         "ADDR:E 64TH AVE & MONACO ST",
         "TIME:09:51:48",
-        "CALL:ACCI");
+        "CALL:ACCI",
+        "INFO:-104.90947");
 
     setExpLocCode(weldCountyParser.getParserCode());
     setDefaults("WELD COUNTY", "CO");
