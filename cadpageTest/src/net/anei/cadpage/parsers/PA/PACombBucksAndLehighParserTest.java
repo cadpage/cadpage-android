@@ -12,7 +12,7 @@ import org.junit.runner.RunWith;
 @RunWith(Enclosed.class)
 public class PACombBucksAndLehighParserTest {
   
-  public static class TestBucksCounty extends PABucksCountyParserTest {
+  public static class TestBucksCounty extends PABucksCountyAParserTest {
     public TestBucksCounty() {
       setParser(new TestParser());
     }
