@@ -2068,7 +2068,7 @@ PENN TWP \n\n1060 WILSON AVE OLD RIDGE RD / YORK ST, GRANDVIEW RD FIRE VEHICLE H
 York County, PA (PAYorkCountyBParser)
 Rip and Run Report\nRip and Run Report\n\n~\nLocation Information:\n\nLocation:~~LEADER HEIGHTS~RD/~JOPPA~RD\nVenue:~YORK TWP\nCross Streets~\nQuadrant:~19-04\nDistrict:~19-04\n~\nCall Information:\n\nCall Number:~4326\nCall Type:~ DEBRIS REMOVAL\nSource:~DISPATCHED BY YORK COUNTY 911\nPriority:~ 4\nStatus:~IN PROGRESS\nAssigned To:~CALL TAKER 7\nCaller:~Starner,~Jeff\nCall Date/Time:~10/20/2011 22:55:13\nDispatch Date/Time:~10/20/2011 22:59:13\nArrive Date/Time:~\nClear Date/Time:~\nEnroute Date/Time:~\nLatest Unit Cleared Date/Time:~\n~\nIncident Number(s)\n2011-00001696~~GOODWILL FIRE COMPANY NO. 1 YORK TOWNSHIP\n2011-00025174~~YORK AREA REGIONAL POLICE DEPARTMENT\n~\nUnits Sent:~2\nFIRESTA19, 21-79~\n\nAlerts:\n~\nLocation Alerts\n\nPerson Alerts\n\nVehicle Alerts\n~~\nNarrative:\n\nNarrative Time~Narrative\n10/20/11 22:55:55~yes blocking\\n10/20/11 22:56:06~yes smoking\n10/20/11 22:56:08~yes leaking\n10/20/11 22:56:17~silver Toyota\n10/20/11 22:56:42~gry car\n10/20/11 22:56:48~in the bank lot\n10/20/11 22:56:56~no overturned\n10/20/11 22:57:14~c/o saw this happen\n10/20/11 22:57:56~he was not ivolved though\n10/20/11 22:58:03~inv\n10/20/11 22:57:00~Call #: 4328 - 2 veh acc\n10/20/11 22:57:05~Call #: 4328 - blocking entire roadway\n10/20/11 22:57:14~Call #: 4328 - both vehs are sedans\n10/20/11 22:57:30~Call #: 4328 - no smoking\n10/20/11 22:57:38~Call #: 4328 - possible leaking\n10/20/11 22:58:37~he spoke to the people and they do not need EMS according to them\n10/20/11 22:59:54~Nature Of Call: Veh Leaking
 Rip and Run Report\nRip and Run Report\n\n~\nLocation Information:\n\nLocation:~~LEADER HEIGHTS~RD/~PINE GROVE~RD\nVenue:~YORK TWP\nCross Streets~\nQuadrant:~19-04\nDistrict:~19-04\n~\nCall Information:\n\nCall Number:~8218\nCall Type:~ DEBRIS REMOVAL\nSource:~DISPATCHED BY YORK COUNTY 911\nPriority:~ 4\nStatus:~IN PROGRESS\nAssigned To:~BACK UP CALL TAKER 2\nCaller:~Winemiller,~Robert\nCall Date/Time:~10/24/2011 19:36:59\nDispatch Date/Time:~10/24/2011 19:40:19\nArrive Date/Time:~\nClear Date/Time:~\nEnroute Date/Time:~\nLatest Unit Cleared Date/Time:~\n~\nIncident Number(s)\n2011-00001705~~GOODWILL FIRE COMPANY NO. 1 YORK TOWNSHIP\n2011-00025487~~YORK AREA REGIONAL POLICE DEPARTMENT\n~\nUnits Sent:~2\nFIRESTA19, 21-81~\n\nAlerts:\n~\nLocation Alerts\n\nPerson Alerts\n\nVehicle Alerts\n~~\nNarrative:\n\nNarrative Time~Narrative\n10/24/11 19:38:09~no ot\n10/24/11 19:38:26~leaking fluids\n10/24/11 19:38:29~antifreeze\n10/24/11 19:38:45~no hazards\n10/24/11 19:39:10~both veh are blocking traffic\n10/24/11 19:39:19~in the middle of the intersection\n10/24/11 19:39:23~just occured\n10/24/11 19:39:43~veh 1: blue volzwagon passat\n10/24/11 19:39:50~veh 2: red dodge neon\n10/24/11 19:40:13~c/o has the blue veh\n10/24/11 19:40:32~Nature Of Call: fluids on roadway
-Rip and Run Report\nRip and Run Report\n\n~\nLocation Information:\n\nLocation:~2301~SPRINGWOOD~RD~\nVenue:~YORK TWP\nCross Streets~\nPAULINE DR / I 83 NB\nPhone:~(717) 741-2822\nQuadrant:~19-09\nDistrict:~19-09\n~\nCall Information:\n\nCall Number:~9986\nCall Type:~ FALLS CL 2\nSource:~DISPATCHED BY YORK COUNTY 911\nPriority:~ 4\nStatus:~IN PROGRESS\nAssigned To:~CALL TAKER 7\nCaller:~OnCall#Faith,~Acadian\nCall Date/Time:~10/26/2011 16:10:53\nDispatch Date/Time:~10/26/2011 16:14:53\nArrive Date/Time:~10/26/2011 16:19:44\nClear Date/Time:~\nEnroute Date/Time:~10/26/2011 16:17:09\nLatest Unit Cleared Date/Time:~10/26/2011 16:17:04\n~\nIncident Number(s)\n2011-00001710~~GOODWILL FIRE COMPANY NO. 1 YORK TOWNSHIP\n2011-00003105~~YOE FIRE CO AMBULANCE INC\n2011-00003067~~YOE FIRE COMPANY AMBULANCE SERVICE\n2011-00025631~~YORK AREA REGIONAL POLICE DEPARTMENT\n~\nUnits Sent:~5\nMICU19-2, MICU36-2, EMSSTA19, FIRESTA19, 21-89~\n\nAlerts:\n~\nLocation Alerts\n\nPerson Alerts\n\nVehicle Alerts\n~~\nNarrative:\n\nNarrative Time~Narrative\n10/26/11 16:12:49~Problem: fall-bleed from face.\2sPatient Info: 1 patient(s); 91 Years old; Female; Conscious: Yes; Breathing: Yes;\n10/26/11 16:12:49~ProQA Dispatch Message Sent; Chief Complaint Number: 17; Dispatch Level: 17B01; Response Text: Bravo\n10/26/11 16:12:56~no hosp preference\n10/26/11 16:13:16~lockbox on the side door-code for lock box is 2628 for key locatio\n10/26/11 16:13:27~Nature Of Call: 91 yof/\n10/26/11 16:13:35~ProQA Questionnaire Completed; Chief Complaint Number: 17; Dispatch Level: 17B01; Response Text: Bravo\n10/26/11 16:13:35~Problem: fall-bleed from face.\2sPatient Info: 1 patient(s); 91 Years old; Female; Conscious: Yes; Breathing: Yes;\n10/26/11 16:13:37~Nature Of Call: 91 yof/unkn dest\n10/26/11 16:32:01~Nature Of Call: Non emergency for lift assist
+Rip and Run Report\nRip and Run Report\n\n~\nLocation Information:\n\nLocation:~2301~SPRINGWOOD~RD~\nVenue:~YORK TWP\nCross Streets~\nPAULINE DR / I 83 NB\nPhone:~(717) 741-2822\nQuadrant:~19-09\nDistrict:~19-09\n~\nCall Information:\n\nCall Number:~9986\nCall Type:~ FALLS CL 2\nSource:~DISPATCHED BY YORK COUNTY 911\nPriority:~ 4\nStatus:~IN PROGRESS\nAssigned To:~CALL TAKER 7\nCaller:~OnCall#Faith,~Acadian\nCall Date/Time:~10/26/2011 16:10:53\nDispatch Date/Time:~10/26/2011 16:14:53\nArrive Date/Time:~10/26/2011 16:19:44\nClear Date/Time:~\nEnroute Date/Time:~10/26/2011 16:17:09\nLatest Unit Cleared Date/Time:~10/26/2011 16:17:04\n~\nIncident Number(s)\n2011-00001710~~GOODWILL FIRE COMPANY NO. 1 YORK TOWNSHIP\n2011-00003105~~YOE FIRE CO AMBULANCE INC\n2011-00003067~~YOE FIRE COMPANY AMBULANCE SERVICE\n2011-00025631~~YORK AREA REGIONAL POLICE DEPARTMENT\n~\nUnits Sent:~5\nMICU19-2, MICU36-2, EMSSTA19, FIRESTA19, 21-89~\n\nAlerts:\n~\nLocation Alerts\n\nPerson Alerts\n\nVehicle Alerts\n~~\nNarrative:\n\nNarrative Time~Narrative\n10/26/11 16:12:49~Problem: fall-bleed from face.  Patient Info: 1 patient(s); 91 Years old; Female; Conscious: Yes; Breathing: Yes;\n10/26/11 16:12:49~ProQA Dispatch Message Sent; Chief Complaint Number: 17; Dispatch Level: 17B01; Response Text: Bravo\n10/26/11 16:12:56~no hosp preference\n10/26/11 16:13:16~lockbox on the side door-code for lock box is 2628 for key locatio\n10/26/11 16:13:27~Nature Of Call: 91 yof/\n10/26/11 16:13:35~ProQA Questionnaire Completed; Chief Complaint Number: 17; Dispatch Level: 17B01; Response Text: Bravo\n10/26/11 16:13:35~Problem: fall-bleed from face.  Patient Info: 1 patient(s); 91 Years old; Female; Conscious: Yes; Breathing: Yes;\n10/26/11 16:13:37~Nature Of Call: 91 yof/unkn dest\n10/26/11 16:32:01~Nature Of Call: Non emergency for lift assist
 ***************************************************************************
 York County, PA (PAYorkCountyCParser)
 (Station 68) : 203 LOCUST DR \n  FAIRVIEW TWP\n  \nLONGVIEW AVE / PLEASANT VIEW RD\nDistrict: 68-02\n\n    FIRE STRUCT RESID\nUnits Sent: 2\nFIRESTA68, 52-03
@@ -3745,7 +3745,7 @@ MEDICAL; TEXACO STATION COTTONWOOD @ 19845 MAIN ST ,BOWMAN ; ; Inc# 008281; 2573
 San Diego County, CA
 Contact: Jeremy Christofferson <firemechanic85@gmail.com>
 Sender: mvucad@fire.ca.gov
-(CAD Page) Inc# 012638: 100 MONTEZUMA VALLEY RD / 200 PALM CANYON DR ,BORREGO_SPRINGS : R/A BGO1: :Map\2s1078_F_2: MED, TRAFFIC COLLISION: 5 MI W/O PALM CYN RD: BGO9
+(CAD Page) Inc# 012638: 100 MONTEZUMA VALLEY RD / 200 PALM CANYON DR ,BORREGO_SPRINGS : R/A BGO1: :Map  1078_F_2: MED, TRAFFIC COLLISION: 5 MI W/O PALM CYN RD: BGO9
 **********************************************************
 Monroe County, NY (alternate)
 Contact: "NEIL MATHEWS (RIT Student)" <nem9082@rit.edu>
@@ -3764,7 +3764,7 @@ Sender: messaging@iamresponding.com
 FAIRVIEW TWP I83 SB EXIT FISHING CREEK   I 83 SB I 83X36FISHINGCREEK SB VEH ACC INJ CL 2 unk age pt/bleeding from face/unk dest 68-83 FIRESTA68 E68-2 R68  11:36
 NEWBERRY TWP    46 MALL RD PRIVET DR / BILL DUGAN DR FIRE STRUCT RESID stove fire reported out still smoking  31-07 FIRESTA31 T31-1 E68-2 T28 T68 TK69 EMSSTA31 MICU31  12:51
 (Station 68) FAIRVIEW TWP    426 VALLEY RD SAND SPUR DR / TRAILER PARK FIRE STRUCT RESID Holding box to E69, E68-2,BLS 68-02 UFIRE68 UFIRE28  03:36
-(Station 68) FAIRVIEW TWP    56 MEADOWBROOK CT DEAD END / SHAUFFNERTOWN RD, DILLER RD FIRE STRUCT RESID Mobile home fire\3s68-05 FIRESTA68 E68-2 E69-1 T
+(Station 68) FAIRVIEW TWP    56 MEADOWBROOK CT DEAD END / SHAUFFNERTOWN RD, DILLER RD FIRE STRUCT RESID Mobile home fire   68-05 FIRESTA68 E68-2 E69-1 T
 
 
 *Rip and Run Report
@@ -3941,7 +3941,7 @@ Sender: rc.485@c-msg.net
 
 Contact: Tim Hank <goofytc@hotmail.com>
 Code Messaging acct #485
-[mCAD] DEPT24\2sTYP: ALS MEDICAL CALL |516 TOWER AVE |MAYBROOK /MERRADIC HEART BEAT 86 YEAR OLD MALE CONSCIOUS BREATHING 1)HE IS COMPL ETELY ALERT (RESPONDING APPROPRIATELY) 2)HE IS BREATHING NORMALLY 3)HEIS XST: 101 JEWELL ST /101 SPRING ST\6sThis message has been scanned for malware.\2s
+[mCAD] DEPT24  TYP: ALS MEDICAL CALL |516 TOWER AVE |MAYBROOK /MERRADIC HEART BEAT 86 YEAR OLD MALE CONSCIOUS BREATHING 1)HE IS COMPL ETELY ALERT (RESPONDING APPROPRIATELY) 2)HE IS BREATHING NORMALLY 3)HEIS XST: 101 JEWELL ST /101 SPRING ST      This message has been scanned for malware.  
 [mCAD] DEPT24 \tTYP: ALS MEDICAL CALL |305 HIGHLAND AVE |MAYBROOK /LHUSBAND SUICIDAL SUICIDAL PERSON / ATTEMPTED SUICIDE 1)THE CALLER IS ON SCENE BUT IS NOT THE VICTIM/SUSPECT (2ND PARTY) 2)THIS INCIDENT IS IN XST: BROADWAY \n
 **********************************************************
 Unknown
@@ -3985,7 +3985,7 @@ Contact: John Hamilton <skinink66@gmail.com>
 Unknown
 Contact: Michael Hill <fyrman1603@gmail.com>
 Sender: messaging@iamresponding.com
-Subject:OLNE 1600\nFIRE/RESCUE - 5755 N SHIPLEY OLNEY\4s-\3sBARN ON FIRE\r\n\r\n\r
+Subject:OLNE 1600\nFIRE/RESCUE - 5755 N SHIPLEY OLNEY    -   BARN ON FIRE\r\n\r\n\r
 **********************************************************
 Cumberland County, NC (replaced)
 Contact: Franco Webb <blueleaderrocko@gmail.com>
@@ -4295,7 +4295,7 @@ Contact: David Wilkinson <dwilkinson@plprairiewi.com>
 Sender: CAD@plprairiewi.com
 Subject:Phoenix Notification\n2012000453 {04/15/2012 14:23:51}\r\nMED CALL - Medical Call{1}\r\n9747 84th Pl\r\nUnits:\r\n    5642    \r\nComments:\r\n\r
 Subject:Phoenix Notification\n2012000454 {04/15/2012 17:21:48}\r\nFIRE SNG - Fire - Single Engine{1}\r\n905 114th St\r\nUnits:\r\n    5641    5611  \r
-Subject:Phoenix Notification\n2012000454 {04/15/2012 17:21:48}\r\nFIRE SNG - Fire - Single Engine{1}\r\n905 114th St\r\nUnits:\r\n\4s5641\4s5611\2s\r
+Subject:Phoenix Notification\n2012000454 {04/15/2012 17:21:48}\r\nFIRE SNG - Fire - Single Engine{1}\r\n905 114th St\r\nUnits:\r\n    5641    5611  \r
 **********************************************************
 Washington County, VA
 Contact: Mike White <cwwilliamsfire@comcast.net>
@@ -4344,27 +4344,11 @@ Sender: Cisco.Paging@VigoCounty.IN.Gov
 (FIRE-RESIDENTIAL-STRUCTURE) Loc:POPLAR DR/SCHLEY PL Grid:0152 Units:E-41 E-42 T-41 T-42 R-41 Rmk:
 (Msg From: WATSON,PAUL A II) Unit: 91RIT  Is Clearing from -> POPLAR DR/SCHLEY PL
 **********************************************************
-Safire, TX
-Contact: "Dorian Davis (IT GUY)" <dorian@bexarcountyfire.org>
-a structure fire \nVALLEY RIDGE MOBILE PARK \n8671 Sw Loop 410, Unit 520 \nSB SW LP 410 OFRPOP RD/OLD PEARSALL RD \n*TAC2 \nDistrict: D2 \nE36, L36, E44, E35 and BC2 
-**********************************************************
-Bexar County, TX
-Contact: "Dorian Davis (IT GUY)" <dorian@bexarcountyfire.org>
-Sender: visinet.command@sanantonio.gov
-System: Tritech
- 
-Fire - Structure     - Stockport / Chipping           - 585E1 - comp states a house is on fire[Shared],Multi-Agency BCLE Incident #: BCSO-2012-0105711,Automatic Case Number(s) issued for Camelot FD: CAM-2012-000000502. [Shared],Automatic Case Number(s) issued for Windcrest FD: WIND-2012-000000571. [Shared],Automatic Case Number(s) issued for Converse FD: CONV-2012-000000420. [Shared],Automatic Case Number(s) issued for Kirby FD: KIRB-2012-000000372. [Shared],
-Med - Sick Person         - 17694 Shepherd Rd              - 711F7   -  31 yo female...knee pain cause by past injury pt says it's a cut[Shared],Multi-Agency BCLE Incident #: BCSO-2012-0107603,[BCLE] has closed their incident [BCSO-2012-0107603],Automatic Case Number(s) issued for Lytle FD: LYTL-2012-000000122. [Shared],This incident LYTL-2012-0010282 has been sent to ACADIAN via the CAD2CAD Interface
-Fire - Vehicle            Ih 10 W / Tarpon Dr            - 447A2   - engine smoking c has pulled to the side of the road...tan f350...wb on 10..doesn't seem to be leaking fluid[Shared],A cellular re-bid has occurred, check the ANI/ALI Viewer for details[Shared],Invalid address received:3511  AT&T MOBILITY-SE SECTOR-QF 446F.[Shared],A cellular re-bid has occurred, check the ANI/ALI Viewer for details[Shared],Invalid address received:3511  AT&T MOBILITY-SE SECTOR-QF
-Fire - Structure     - Stockport / Chipping           - 585E1 - comp states a house is on fire[Shared],Multi-Agency BCLE Incident #: BCSO-2012-0105711,Automatic Case Number(s) issued for Camelot FD: CAM-2012-000000502. [Shared],Automatic Case Number(s) issued for Windcrest FD: WIND-2012-000000571. [Shared],Automatic Case Number(s) issued for Converse FD: CONV-2012-000000420. [Shared],Automatic Case Number(s) issued for Kirby FD: KIRB-2012-000000372. [Shared]
-MVC                             W Loop 1604 S / Spurs Ranch     646B1    GVIL-2012-000001006  - crash, injuries, one car roll over.  On the access rd, sb side.[Shared],Invalid address received:61  SPRINT-N SECTOR-QF 646C4.[Shared],A cellular re-bid has occurred, check the ANI/ALI Viewer for details[Shared],Multi-Agency BCLE Incident #: BCSO-2012-0107458,C is an off-duty officer with SAPD.  thinks the guy involved in crash is okay..but would like him checked out [Shared],Automatic Case Number(s)
-Respond For MVC                           @30000 Smithson Valley Rd                     ;      ;                              Cross- VOGEL VALLEY/FM 1863                                                            ;418D7;BBUL-2012-000000497 ;Multi-Agency BCLE Incident #: BCSO-2012-0104123,e veh roll over, injuries [Shared],Automatic Case Number(s) issued for Bexar Bulverde FD: BBUL-2012-000000497. [Shared]
-Fire - Unauthorized Burn  9279 Aqua Dr                   - 447A3   - Unauth BUrning  to the left of location,Automatic Case Number(s) issued for Leon Springs FD: LSPR-2012-000000283.
-**********************************************************
 Suffolk County, NY (alternate)
 Contact: Jim Lull <jlull65@gmail.com>
 Sender: Bob@relaycom.com
 /RELAY /201 TROT BROOK LANE FEMALE FACIAL INJURY\n
+**********************************************************
 **********************************************************
 **********************************************************
 **********************************************************
@@ -4383,18 +4367,18 @@ Sender: miccom@nnjmicu.org <miccom@nnjmicu.org>
 ***************************************************************************** 
 From:alrt491597@alert.princegeorgescountymd.gov
 Body:(3/10) s time, Unit:E833\n\n\n\n\n\n\nThis E-mail and any of its attachments may contain Prince George s\n\nCounty Gover
-Body:(5/10) Information,\n\nwhich is privileged and confidential.\2sThis E-mail is intended\n\nsolely for the use of the
+Body:(5/10) Information,\n\nwhich is privileged and confidential.  This E-mail is intended\n\nsolely for the use of the
 Body:(7/10) you are hereby notified that any dissemination, distribution,\n\ncopying, or action taken in relation to t
 Body:(8/10) he contents of and\n\nattachments to this E-mail is strictly prohibited by federal law\n\nand may expose you
 Body:(10/10) r immediately\n\nand permanently delete the original and any copy of this E-mail and\n\nany printout.
-Body:(6/10) individual or entity to which it is\n\naddressed.\2sIf you are not the intended recipient of this E-mail,
+Body:(6/10) individual or entity to which it is\n\naddressed.  If you are not the intended recipient of this E-mail,
 Send time:1334662527000
 Rec time: 1334662549998
 
 From:alrt491639@alert.princegeorgescountymd.gov
 Body:(2/10) D, TalkGroup: TGA2, Box: 4818, Map: 5411 C 1, Text: Fire ProQA recommends dispatch at this time, Unit:E8
 Body:(10/10) and permanently delete the original and any copy of this E-mail and\n\nany printout.
-Body:(5/10) which is privileged and confidential.\2sThis E-mail is intended\n\nsolely for the use of the individual or
+Body:(5/10) which is privileged and confidential.  This E-mail is intended\n\nsolely for the use of the individual or
 Body:(8/10) and\n\nattachments to this E-mail is strictly prohibited by federal law\n\nand may expose you to civil and/
 Send time:1334666672000
 Rec time: 1334666683430
@@ -4402,13 +4386,13 @@ Rec time: 1334666683430
 From:alrt491639@alert.princegeorgescountymd.gov
 Body:(2/10) D, TalkGroup: TGA2, Box: 4818, Map: 5411 C 1, Text: Fire ProQA recommends dispatch at this time, Unit:E8
 Body:(10/10) and permanently delete the original and any copy of this E-mail and\n\nany printout.
-Body:(5/10) which is privileged and confidential.\2sThis E-mail is intended\n\nsolely for the use of the individual or
+Body:(5/10) which is privileged and confidential.  This E-mail is intended\n\nsolely for the use of the individual or
 Body:(8/10) and\n\nattachments to this E-mail is strictly prohibited by federal law\n\nand may expose you to civil and/
 Send time:1334666672000
 Rec time: 1334666683430
 
 From:alrt491676@alert.princegeorgescountymd.gov
-Body:(5/10) s privileged and confidential.\2sThis E-mail is intended\n\nsolely for the use of the individual or entity
+Body:(5/10) s privileged and confidential.  This E-mail is intended\n\nsolely for the use of the individual or entity
 Body:(9/10) inal penalties. If you have\n\nreceived this E-mail in error, please notify the sender immediately\n\nand pe
 Body:(4/10) e's County 7th Judicial Circuit\n\nCourt proprietary information or Protected Health Information,\n\nwhich i
 Body:(8/10) ttachments to this E-mail is strictly prohibited by federal law\n\nand may expose you to civil and/or crim
@@ -4418,7 +4402,7 @@ Rec time: 1334669495794
 From:alrt491682@alert.princegeorgescountymd.gov
 Eff From:alrt491682@alert.princegeorgescountymd.gov
 Body:(8/11) tion taken in relation to the contents of and\n\nattachments to this E-mail is strictly prohibited by fede
-Body:(5/11) mation or Protected Health Information,\n\nwhich is privileged and confidential.\2sThis E-mail is intended
+Body:(5/11) mation or Protected Health Information,\n\nwhich is privileged and confidential.  This E-mail is intended
 Body:(2/11) BLVD and EDGEWORTH DR, TalkGroup: TGA2, Box: 3702, Map: 5531 E 9, Text: SUSPICIOUS PACKAGE PER CRAIG BLA
 Body:(3/11) CK...16 ONLY GOING, Units:E816, HC816, PA816\n\n\n\n\n\n\nThis E-mail and any of its attachments may contain Pr
 Body:(1/11) HC816 Incident: F121080089, Type: Hazmat Service Call, Loc: 9140 EAST HAMPTON DR, PP, btwn HAMPTON PARK
@@ -4511,4 +4495,24 @@ SELECT STATION CALL APT: 6 AD: 25 98 ST W LOC: METRO APARTMENTS CMT1: STOVE WAS 
 RESET ALARM AD: 5230 102 ST W LOC: TARNHILL APARTMENTS CMT1: ON 3RD FLOOR WESTEND - PULL STATION ACTIVATED - FALSE ALARM - NEEDS
 STRUCTURE FIRE AD: 8100 HIGHWOOD DR LOC: FRIENDSHIP VILLAGE/M CMT1: MALE WITH LEG TRAPPED IN MECHANISM OF ELEVATOR
 ELEVATOR RESCUE AD: 5401 GREEN VALLEY DR LOC: CROWNE PLAZA HOTEL CMT1: ONE STUCK IN ELEVATOR FOR 20 MIN - IN SOUTH TOWER BET 5TH
+**********************************************************
+Bexar County, TX
+Contact: "Dorian Davis (IT GUY)" <dorian@bexarcountyfire.org>
+Sender: visinet.command@sanantonio.gov
+System: Tritech
+General parser not working
+
+a structure fire \nVALLEY RIDGE MOBILE PARK \n8671 Sw Loop 410, Unit 520 \nSB SW LP 410 OFRPOP RD/OLD PEARSALL RD \n*TAC2 \nDistrict: D2 \nE36, L36, E44, E35 and BC2 
+Fire - Structure     - Stockport / Chipping           - 585E1 - comp states a house is on fire[Shared],Multi-Agency BCLE Incident #: BCSO-2012-0105711,Automatic Case Number(s) issued for Camelot FD: CAM-2012-000000502. [Shared],Automatic Case Number(s) issued for Windcrest FD: WIND-2012-000000571. [Shared],Automatic Case Number(s) issued for Converse FD: CONV-2012-000000420. [Shared],Automatic Case Number(s) issued for Kirby FD: KIRB-2012-000000372. [Shared],
+Med - Sick Person         - 17694 Shepherd Rd              - 711F7   -  31 yo female...knee pain cause by past injury pt says it's a cut[Shared],Multi-Agency BCLE Incident #: BCSO-2012-0107603,[BCLE] has closed their incident [BCSO-2012-0107603],Automatic Case Number(s) issued for Lytle FD: LYTL-2012-000000122. [Shared],This incident LYTL-2012-0010282 has been sent to ACADIAN via the CAD2CAD Interface
+Fire - Vehicle            Ih 10 W / Tarpon Dr            - 447A2   - engine smoking c has pulled to the side of the road...tan f350...wb on 10..doesn't seem to be leaking fluid[Shared],A cellular re-bid has occurred, check the ANI/ALI Viewer for details[Shared],Invalid address received:3511  AT&T MOBILITY-SE SECTOR-QF 446F.[Shared],A cellular re-bid has occurred, check the ANI/ALI Viewer for details[Shared],Invalid address received:3511  AT&T MOBILITY-SE SECTOR-QF
+Fire - Structure     - Stockport / Chipping           - 585E1 - comp states a house is on fire[Shared],Multi-Agency BCLE Incident #: BCSO-2012-0105711,Automatic Case Number(s) issued for Camelot FD: CAM-2012-000000502. [Shared],Automatic Case Number(s) issued for Windcrest FD: WIND-2012-000000571. [Shared],Automatic Case Number(s) issued for Converse FD: CONV-2012-000000420. [Shared],Automatic Case Number(s) issued for Kirby FD: KIRB-2012-000000372. [Shared]
+MVC                             W Loop 1604 S / Spurs Ranch     646B1    GVIL-2012-000001006  - crash, injuries, one car roll over.  On the access rd, sb side.[Shared],Invalid address received:61  SPRINT-N SECTOR-QF 646C4.[Shared],A cellular re-bid has occurred, check the ANI/ALI Viewer for details[Shared],Multi-Agency BCLE Incident #: BCSO-2012-0107458,C is an off-duty officer with SAPD.  thinks the guy involved in crash is okay..but would like him checked out [Shared],Automatic Case Number(s)
+Respond For MVC                           @30000 Smithson Valley Rd                     ;      ;                              Cross- VOGEL VALLEY/FM 1863                                                            ;418D7;BBUL-2012-000000497 ;Multi-Agency BCLE Incident #: BCSO-2012-0104123,e veh roll over, injuries [Shared],Automatic Case Number(s) issued for Bexar Bulverde FD: BBUL-2012-000000497. [Shared]
+Fire - Unauthorized Burn  9279 Aqua Dr                   - 447A3   - Unauth BUrning  to the left of location,Automatic Case Number(s) issued for Leon Springs FD: LSPR-2012-000000283.
+
+04/28 06:28 am - Med - Diabetic Problems   - 4455 Twin Valley            - 748E6   - C states her mother 72yo has low blood sugar..acad notifed[Shared],Multi-Agency BCLE Incident #: BCSO-2012-0109820,Automatic Case Number(s) issued for Somerset FD: SOM-2012-000000292. [Shared],
+MED - ASSAULT        - 7246 GLEN HILL                 - SA585 - ACADIAN: Unit:    740         9941959,ACADIAN: The cross street was verified by caller.,ACADIAN: Law enforcement on scene; it is safe for the crew to enter.,ACADIAN: assult to head unk age male,ACADIAN: [ProQA Session Aborted] Medical Professional,Transferred incident: Remote   Reference Number: 20120428-ZN16-0222 by Jacobs, Angela From ACADIAN,Interface has sent an ack message for CAM-2012-0010500 to the
+Med - Unconscious Pe - 7838 Sun Forest                -       - 585C1   - 24 yo female went over to comps resd to visit his son; comp states female started drinking some wine and passed out; comp states she is breathing ; does not know what to do with female[Shared],Multi-Agency BCLE Incident #: BCSO-2012-0109700,This incident WIND-2012-0010491 has been sent to ACADIAN via the CAD2CAD Interface. [Shared],Acknowledgement Received from ACADIAN 20120428-ZN16-0059 [Shared],Unit - 76
+Med - Sick Person    - 8216 Glen Boro                 - 553F8 - 50 YO F HAVING CHEST PAINS[Shared],Multi-Agency BCLE Incident #: BCSO-2012-0109833,[BCLE] has closed their incident [BCSO-2012-0109833],Automatic Case Number(s) issued for Camelot FD: CAM-2012-000000521. [Shared],
 **********************************************************
