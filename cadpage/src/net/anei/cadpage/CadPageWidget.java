@@ -20,6 +20,8 @@ public class CadPageWidget extends AppWidgetProvider {
   @Override
   public void onUpdate(Context context,AppWidgetManager appWidgetManager, int[] appWidgetIds){
     
+    Log.v("CadpageWidget.onUpdate()");
+    
     //First Button (Enable/Disable Cadpage)
     Intent aEnabledIntent = new Intent(context, CadPageWidget.class);
     aEnabledIntent.setAction(ACTION_CADPAGE_ENABLED);
@@ -38,6 +40,8 @@ public class CadPageWidget extends AppWidgetProvider {
     
    //Fourth Button (Show Unread Calls. Click to go into History)
     Intent dEnabledIntent = CallHistoryActivity.getLaunchIntent(context);
+    Log.v("Widget launch intent");
+    ContentQuery.dumpIntent(dEnabledIntent);
     PendingIntent callsPendingIntent = PendingIntent.getActivity(context, 0, dEnabledIntent, 0);
 
     
@@ -113,7 +117,7 @@ public class CadPageWidget extends AppWidgetProvider {
   
   @Override 
   public void onReceive(Context context, Intent intent){
-    Log.v("Widgit Activity");
+    Log.v("Widget Activity");
     ContentQuery.dumpIntent(intent);
 
     super.onReceive(context, intent);

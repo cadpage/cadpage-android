@@ -10,7 +10,8 @@
           android:label="@string/cadperm_title"
           android:description="@string/cadperm_desc"
           android:permissionGroup="android.permission-group.MESSAGES"
-          android:protectionLevel="dangerous" />
+          android:protectionLevel="dangerous" 
+          android:debuggable="true" />
   <permission android:name="net.anei.cadpage.permission.C2D_MESSAGE" android:protectionLevel="signature" />
   <uses-permission android:name="net.anei.cadpage.permission.C2D_MESSAGE" />
           
