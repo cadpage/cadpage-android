@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest
   xmlns:android="http://schemas.android.com/apk/res/android"
-  package="net.anei.cadpage" android:versionName="1.5.34" android:versionCode="15340"
+  package="net.anei.cadpage" android:versionName="1.5.34A" android:versionCode="15341"
   android:installLocation="auto">
   <uses-sdk
     android:targetSdkVersion="8" android:minSdkVersion="4"/>
@@ -10,8 +10,7 @@
           android:label="@string/cadperm_title"
           android:description="@string/cadperm_desc"
           android:permissionGroup="android.permission-group.MESSAGES"
-          android:protectionLevel="dangerous" 
-          android:debuggable="true" />
+          android:protectionLevel="dangerous" />
   <permission android:name="net.anei.cadpage.permission.C2D_MESSAGE" android:protectionLevel="signature" />
   <uses-permission android:name="net.anei.cadpage.permission.C2D_MESSAGE" />
           

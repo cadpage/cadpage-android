@@ -24,6 +24,10 @@ Sender: rc.531@c-msg.net
 [gCAD]  [!] EMS//171 GRANGER RD // 1 47 MEDINA BETWEEN N MEDINA LINE RD / DRUERIE LN//+ 041.134625-081.703584 87 YR FEMALE CONFUSED, NOT FEELING WE LL
 [gCAD]  [!] EMS//861 MEDINA RD MEDINA B ETWEEN STATE RD / BAMBECK RD//75-4 CALLED IN ADVISE D THEY RECXEIVED A CALL ON STATION FOR A TRANSPORT REF AN IN FECTION
 
+Medina County, OH (alternate)
+Contact: Mark Williams <mdaaa8775@gmail.com>
+EMS // 8809 LAKE RD SEVILLE B ETWEEN BUFFHAM RD / ST RT 224  // CALLBK=(440)796-7848 +041.038828-081.894171 FIELD 23 BACK MALE 17 KNEE INJURY
+
  */
 
 public class OHMedinaCountyParser extends FieldProgramParser {
@@ -41,8 +45,8 @@ public class OHMedinaCountyParser extends FieldProgramParser {
   
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
-    if (!SUBJECT_PTN.matcher(subject).matches()) return false;
-    return parseFields(body.split("//"), data);
+    if (!isPositiveId() && !SUBJECT_PTN.matcher(subject).matches()) return false;
+    return parseFields(body.split("//"), 3, data);
   }
   
   private static final Pattern BETWEEN_PTN = Pattern.compile("B *ETWEEN");
