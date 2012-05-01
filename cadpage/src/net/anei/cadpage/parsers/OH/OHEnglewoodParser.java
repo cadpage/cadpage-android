@@ -53,6 +53,11 @@ public class OHEnglewoodParser extends MsgParser {
   }
   
   @Override
+  public String getLocName() {
+    return "Englewood Regional Communications, OH";
+  }
+
+  @Override
   public boolean parseMsg(String body, Data data) {
     Matcher match = MASTER.matcher(body);
     if (!match.matches()) return false;

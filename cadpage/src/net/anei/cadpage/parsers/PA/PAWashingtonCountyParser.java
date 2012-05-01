@@ -33,6 +33,16 @@ Contact: Charles Wood <charlesrwood@gmail.com>
 Sender: WashCo911
 1 of 2\nFRM:WashCo911 \nSUBJ:911\nMSG:Location: 791 LOCUST AVE EX SSTR: @PCH 44 HAWTHORNE WOODS ASSISTED LIVING Xstreet: BERRY RD VERONA DR TYPE:\n(Con't) 2 of 2\nUNCONSCIOUS PT / IS BREATHING TIME: 08:26:06 Comments: 1ST FLOOR HEALTH ROOM\n(End)
 
+Victor Fedrick <v_a_fedrick@yahoo.com>
+Sender: WashCo911 <WashCo911@co.washington.pa.us>
+Subject:911\nLocation: 2 WHEELING PITTSBURGH STEEL DR ALLE: @AMROX Xstreet: MILL RD J F KENNEDY ST TYPE: FIRE TIME: 15:07:31 Comments: at the wheeling pittsburgh plant
+Subject:911\nLocation: 5 CENTER ST ALLE Xstreet: ANDERSON ST SR 88 TYPE: ODOR OF NATURAL GAS TIME: 21:39:50 Comments:
+Subject:911\nLocation: 1850 MAIN ST ALLE: @FD 40 ALLENPORT Xstreet: MALLARD ST WASHINGTON ST TYPE: VEHICLE ACCIDENT NO INJURIES TIME: 16:33:09 Comments:
+Subject:911\nLocation: 446 BOW ST STOC Xstreet: LOCUST ST WALNUT ST TYPE: STRUCTURE FIRE TIME: 08:56:53 Comments:
+Subject:911\nLocation: 1859 MAIN ST ALLE Xstreet: WASHINGTON ST BRIDGE ST TYPE: STRUCTURE FIRE TIME: 15:19:45 Comments:
+Subject:911\nLocation: 214 DALLY RD LONG Xstreet: ROCK DR CREST DR TYPE: FIRE ALARM TIME: 20:32:03 Comments: WAGNER/MACK RES - 412-716-7984
+
+
 ** Missing address - not parsed
 FRM:WashCo911 \nSUBJ:911\nMSG:Xstreet:   TYPE: MUTUAL AID REQUEST TIME: 09:10:04 Comments: BETWEEN SANITARUM RD/WAYNESBURG RD & 79\n
 
@@ -47,7 +57,7 @@ public class PAWashingtonCountyParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "company10paging,7247471210.WashCo911";
+    return "company10paging,WashCo911";
   }
 
   @Override

@@ -4348,6 +4348,7 @@ Suffolk County, NY (alternate)
 Contact: Jim Lull <jlull65@gmail.com>
 Sender: Bob@relaycom.com
 /RELAY /201 TROT BROOK LANE FEMALE FACIAL INJURY\n
+/FROM RELAY /1035 PARKWAY\nFEMALE WITH CHEST PAINS\n
 **********************************************************
 Prince Georges County, MD (Replacement for C)
 Contact: "Khaloughi, Kayman" <kkhaloughi@co.pg.md.us>
@@ -4365,6 +4366,9 @@ Sender: lead@ladisp.us
 06:34AM Sat 04/28 INC#:1219146-1 FROM:320 EMMETT ST, SCRANTON CITY RM:16D  TYPE:CHEST PAIN  to:
 **********************************************************
 **********************************************************
+********************************************************** 
+**********************************************************
+**********************************************************
 ************  READY TO ROLL ******************************
 **********************************************************
 **********************************************************
@@ -4375,52 +4379,6 @@ Sender: miccom@nnjmicu.org <miccom@nnjmicu.org>
 (I-2012-000063)FFIRA @ 105 OLD NEW BRIDGE ROAD  , NEW MILFORD BORO - WATER FLOW ALARM AT ZANZARI'S 
 303 CANCEL: #12-0034873 New Milford Boro *745 Chestnut St Paged:15:34 Enrte:15:36 Scene:15:38 Avail:15:48 Cxl Rsn: Refused Medical Aid Code:
 (I-2012-000067)FBRSH @ 413 BOULEVARD  , NEW MILFORD BORO - 
-**********************************************************
-**********************************************************
-***************************************************************************** 
-From:alrt491597@alert.princegeorgescountymd.gov
-Body:(3/10) s time, Unit:E833\n\n\n\n\n\n\nThis E-mail and any of its attachments may contain Prince George s\n\nCounty Gover
-Body:(5/10) Information,\n\nwhich is privileged and confidential.  This E-mail is intended\n\nsolely for the use of the
-Body:(7/10) you are hereby notified that any dissemination, distribution,\n\ncopying, or action taken in relation to t
-Body:(8/10) he contents of and\n\nattachments to this E-mail is strictly prohibited by federal law\n\nand may expose you
-Body:(10/10) r immediately\n\nand permanently delete the original and any copy of this E-mail and\n\nany printout.
-Body:(6/10) individual or entity to which it is\n\naddressed.  If you are not the intended recipient of this E-mail,
-Send time:1334662527000
-Rec time: 1334662549998
-
-From:alrt491639@alert.princegeorgescountymd.gov
-Body:(2/10) D, TalkGroup: TGA2, Box: 4818, Map: 5411 C 1, Text: Fire ProQA recommends dispatch at this time, Unit:E8
-Body:(10/10) and permanently delete the original and any copy of this E-mail and\n\nany printout.
-Body:(5/10) which is privileged and confidential.  This E-mail is intended\n\nsolely for the use of the individual or
-Body:(8/10) and\n\nattachments to this E-mail is strictly prohibited by federal law\n\nand may expose you to civil and/
-Send time:1334666672000
-Rec time: 1334666683430
-
-From:alrt491639@alert.princegeorgescountymd.gov
-Body:(2/10) D, TalkGroup: TGA2, Box: 4818, Map: 5411 C 1, Text: Fire ProQA recommends dispatch at this time, Unit:E8
-Body:(10/10) and permanently delete the original and any copy of this E-mail and\n\nany printout.
-Body:(5/10) which is privileged and confidential.  This E-mail is intended\n\nsolely for the use of the individual or
-Body:(8/10) and\n\nattachments to this E-mail is strictly prohibited by federal law\n\nand may expose you to civil and/
-Send time:1334666672000
-Rec time: 1334666683430
-
-From:alrt491676@alert.princegeorgescountymd.gov
-Body:(5/10) s privileged and confidential.  This E-mail is intended\n\nsolely for the use of the individual or entity
-Body:(9/10) inal penalties. If you have\n\nreceived this E-mail in error, please notify the sender immediately\n\nand pe
-Body:(4/10) e's County 7th Judicial Circuit\n\nCourt proprietary information or Protected Health Information,\n\nwhich i
-Body:(8/10) ttachments to this E-mail is strictly prohibited by federal law\n\nand may expose you to civil and/or crim
-Send time:1334669483000
-Rec time: 1334669495794
-
-From:alrt491682@alert.princegeorgescountymd.gov
-Eff From:alrt491682@alert.princegeorgescountymd.gov
-Body:(8/11) tion taken in relation to the contents of and\n\nattachments to this E-mail is strictly prohibited by fede
-Body:(5/11) mation or Protected Health Information,\n\nwhich is privileged and confidential.  This E-mail is intended
-Body:(2/11) BLVD and EDGEWORTH DR, TalkGroup: TGA2, Box: 3702, Map: 5531 E 9, Text: SUSPICIOUS PACKAGE PER CRAIG BLA
-Body:(3/11) CK...16 ONLY GOING, Units:E816, HC816, PA816\n\n\n\n\n\n\nThis E-mail and any of its attachments may contain Pr
-Body:(1/11) HC816 Incident: F121080089, Type: Hazmat Service Call, Loc: 9140 EAST HAMPTON DR, PP, btwn HAMPTON PARK
-end time:1334670280000
-Rec time: 1334670392241
 **********************************************************
 Clarion County, PA
 Contact: chris cochran <topher55@yahoo.com>
@@ -4469,6 +4427,9 @@ Location: 9913 289TH ST E MY Estimated Address TYPE CODE: OUTSIDE FIRE INSIDE LO
 Location: SINGLETARY RD/289TH ST E MY Estimated Address TYPE CODE: OUTSIDE FIRE INSIDE LOCATION: SUB TYPE: BRUSH FIRE TIME: 15:07:03 MAP GRID: 2218-C
 Location: 30771 BETTS RD MY Estimated Address TYPE CODE: OUTSIDE FIRE INSIDE LOCATION: SUB TYPE: LARGE OUTSIDE FIRE TIME: 15:16:08 MAP GRID: 2208-A
 Location: 6520 219TH ST E UB Estimated Address TYPE CODE: OUTSIDE FIRE INSIDE LOCATION: SUB TYPE: BRUSH FIRE TIME: 13:31:53 MAP GRID: 1721-C
+Location: 40721 11TH AVE E MY Estimated Address TYPE CODE: OUTSIDE FIRE INSIDE LOCATION: SUB TYPE: BRUSH FIRE TIME: 18:11:48 MAP GRID: 1432-E
+Location: 71ST AVE E/VERNA BETHANY RD MY Estimated Address TYPE CODE: OUTSIDE FIRE INSIDE LOCATION: SUB TYPE: BRUSH FIRE W/ UNK THREAT TIME: 14:26:20 MAP GRID: 1725-F
+Location: 25606 73RD AVE E MY Estimated Address TYPE CODE: OUTSIDE FIRE INSIDE LOCATION: SUB TYPE: LARGE OUTSIDE FIRE W/ UNK THREAT TIME: 14:31:14 MAP GRID: 1726-F
 
 Contact: Daniel Cacchiotti <dpcacchiotti@gmail.com>
 Sender: 9418123029 <user phone>
@@ -4532,4 +4493,15 @@ Fire - Unauthorized Burn  9279 Aqua Dr                   - 447A3   - Unauth BUrn
 MED - ASSAULT        - 7246 GLEN HILL                 - SA585 - ACADIAN: Unit:    740         9941959,ACADIAN: The cross street was verified by caller.,ACADIAN: Law enforcement on scene; it is safe for the crew to enter.,ACADIAN: assult to head unk age male,ACADIAN: [ProQA Session Aborted] Medical Professional,Transferred incident: Remote   Reference Number: 20120428-ZN16-0222 by Jacobs, Angela From ACADIAN,Interface has sent an ack message for CAM-2012-0010500 to the
 Med - Unconscious Pe - 7838 Sun Forest                -       - 585C1   - 24 yo female went over to comps resd to visit his son; comp states female started drinking some wine and passed out; comp states she is breathing ; does not know what to do with female[Shared],Multi-Agency BCLE Incident #: BCSO-2012-0109700,This incident WIND-2012-0010491 has been sent to ACADIAN via the CAD2CAD Interface. [Shared],Acknowledgement Received from ACADIAN 20120428-ZN16-0059 [Shared],Unit - 76
 Med - Sick Person    - 8216 Glen Boro                 - 553F8 - 50 YO F HAVING CHEST PAINS[Shared],Multi-Agency BCLE Incident #: BCSO-2012-0109833,[BCLE] has closed their incident [BCSO-2012-0109833],Automatic Case Number(s) issued for Camelot FD: CAM-2012-000000521. [Shared],
+Fire                            6126 Kimble Mill                577D3    GVIL-2012-000001031  - C thinks the grease fire in his pit is getting out of hand.  in his backyard[Shared],Multi-Agency BCLE Incident #: BCSO-2012-0110061,C has
+
+turned off burners [Shared],Automatic Case Number(s) issued for Geronimo Village FD: GVIL-2012-000001031. [Shared],
+07:35 pm   10410 Stallion Bay             :Rspnd for: Med - Sick Person    - 546C6   - D7FR-2012-000000330\r
+* BCFA Medical Emergency  - Ih 35 S Nb / Sb Ih 35 S Onrp S - 712A5   - unk where other fighters went[Shared],they have been drinking[Shared],no weapons[Shared],C says at los amigos there was a fight, three people are on the ground, req ems[Shared],Multi-Agency BCLE Incident #: BCSO-2012-0110791,Automatic Case Number(s) issued for Jarret FD: JARR-2012-000000207. [Shared],
+Respond For Med - Sick Person             @25715 Fan Flower                             ;      ;                              Cross- Dead End/BEAUTYBERRY                                                            ;452B7;BBUL-2012-000000532 ;C said a woman came by her house,is now seizing, 24 yo.[Shared],Invalid address received:520  AT&T MOBILITY -SE SECTOR-QF 451.[Shared],A cellular re-bid has occurred, check the ANI/ALI Viewer for details[Shared],Multi-Agency BCLE Incident #: BCSO-2012-0110748,Automatic Case Number(s) issued for Bexa
+Med - Possible Stroke           12446 Modena Bay                577D6    GVIL-2012-000001047  - 66 yom- poss stroke- acad advised[Shared],Multi-Agency BCLE Incident #: BCSO-2012-0110913,This incident GVIL-2012-0010627 has been sent to ACADIAN via the CAD2CAD Interface. [Shared],Acknowledgement Received from ACADIAN 20120429-ZN16-1184 [Shared],Automatic Case Number(s) issued for Geronimo Village FD: GVIL-2012-000001047. [Shared],
+MVC                       - 23101 - 24511 Campbellton - HICKORY WAY/RANCH TRAIL RD               - 783D1 - small dark colored suv[Shared],going north on cambellton, it will be on the left[Shared],A cellular re-bid has occurred, check the ANI/ALI Viewer for details[Shared],Invalid address received:1453  TMOBILE-SE SECTOR-QF 751A2.[Shared],C disconnected[Shared],C says there is a car, unoccupied, flipped over.[Shared],Invalid address received:1453  TMOBILE-SE SECTOR-QF 751A2.[Shared],A cellular re-bid has occurre
+Med - Sick Person    - 6739 Glen Fair                 - 553E7 - C says her niece had a seizure, 34 yo.  fell onto concrete[Shared],Invalid address received:343  SPRINT-E SECTOR-QF 553C8.[Shared],Multi-Agency BCLE Incident #: BCSO-2012-0110931,Automatic Case Number(s) issued for Camelot FD: CAM-2012-000000525. [Shared],
+Alarm - Fire         - 9503 Millers Rdg               -       - 553E7   - POE;SMOKE DETECTOR;JOHN GILG @ 653-7947[Shared],Multi-Agency BCLE Incident #: BCSO-2012-0111024,Automatic Case Number(s) issued for Windcrest FD: WIND-2012-000000599. [Shared],Automatic Case Number(s) issued for Camelot FD: CAM-2012-000000527. [Shared],Automatic Case Number(s) issued for Converse FD: CONV-2012-000000442. [Shared],
+
 **********************************************************
