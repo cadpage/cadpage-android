@@ -113,6 +113,21 @@ public class MSMarionCountyParserTest extends BaseParserTest {
         "CITY:FOXWORTH",
         "NAME:BLANSETT, ELISABETH",
         "ID:2012-0000005837");
+
+    doTest("T13",
+        "-  - 911-CENTER:1094 >VEHICLE PURSUIT STRINGER BULLOCK RD FOXWORTH Cad: 2012-0000007645\n",
+        "CALL:VEHICLE PURSUIT",
+        "ADDR:STRINGER BULLOCK RD",
+        "CITY:FOXWORTH",
+        "ID:2012-0000007645");
+
+    doTest("T14",
+        "-  - 911-CENTER:GWFIRE>GRASS/WOODS FIRE NEW HOPE KOKOMO RD KOKOMO C SPIRE WIRELESS Map: Grids:, Cad: 2012-0000007681\n",
+        "CALL:GRASS/WOODS FIRE",
+        "ADDR:NEW HOPE KOKOMO RD",
+        "CITY:KOKOMO",
+        "NAME:C SPIRE WIRELESS",
+        "ID:2012-0000007681");
  }
   
   @Test
