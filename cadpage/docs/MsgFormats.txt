@@ -4349,7 +4349,20 @@ Contact: Jim Lull <jlull65@gmail.com>
 Sender: Bob@relaycom.com
 /RELAY /201 TROT BROOK LANE FEMALE FACIAL INJURY\n
 **********************************************************
+Prince Georges County, MD (Replacement for C)
+Contact: "Khaloughi, Kayman" <kkhaloughi@co.pg.md.us>
+Fire Alarm-AFA, 8831 LOTTSFORD RD #423, PP, btwn LARGO DR W and HARRY S TRUMAN DR N, TGA2, 4616, Unit:PE846, F121210238
+BLS Amb, 4814 SILVER HILL RD, PP, btwn SUITLAND RD and PORTER AVE, TGC2, 2901, Unit:A829, F121210237
+BLS Amb, 1118 QUEBEC ST, PP, btwn NAVAHOE DR and 12TH AVE, TGA2, 3416, Units:A801, E834B, F121210236
+BLS Amb, 1801 METZEROTT RD, PP, btwn NEW HAMPSHIRE AVE and GREENSPIRE TER, TGA2, 3410, Unit:A809, F121210233
+Medic Local, 3006 TEAK LN, PP, btwn TANGLEWOOD LN and TYSON LN, TGA2, 3910, Units:A839, MD818, F121210235
+PIA Limited Access, SB CAP BELT IL A HWY/EB ANNAPOLIS RD, PP, at SB CAP BELT IL A HWY/EB ANNAPOLIS RD, PP <0/0>, TGA2, 2833, Units:A806, PE830, F121210336
+Acc w/Inj, GREENBELT METRO STATION, GP, at 5717 GREENBELT METRO DR, GP, TGA2, 1411, Unit:A812B, F121210316
 **********************************************************
+Lackawanna County, PA (alternate)
+Contact: Pat Gillott <pgill107@gmail.com>
+Sender: lead@ladisp.us
+06:34AM Sat 04/28 INC#:1219146-1 FROM:320 EMMETT ST, SCRANTON CITY RM:16D  TYPE:CHEST PAIN  to:
 **********************************************************
 **********************************************************
 ************  READY TO ROLL ******************************
@@ -4456,6 +4469,10 @@ Location: 9913 289TH ST E MY Estimated Address TYPE CODE: OUTSIDE FIRE INSIDE LO
 Location: SINGLETARY RD/289TH ST E MY Estimated Address TYPE CODE: OUTSIDE FIRE INSIDE LOCATION: SUB TYPE: BRUSH FIRE TIME: 15:07:03 MAP GRID: 2218-C
 Location: 30771 BETTS RD MY Estimated Address TYPE CODE: OUTSIDE FIRE INSIDE LOCATION: SUB TYPE: LARGE OUTSIDE FIRE TIME: 15:16:08 MAP GRID: 2208-A
 Location: 6520 219TH ST E UB Estimated Address TYPE CODE: OUTSIDE FIRE INSIDE LOCATION: SUB TYPE: BRUSH FIRE TIME: 13:31:53 MAP GRID: 1721-C
+
+Contact: Daniel Cacchiotti <dpcacchiotti@gmail.com>
+Sender: 9418123029 <user phone>
+Estimated Address: EST 17993 SR 70 E UB TYPE CODE: ACCIDENT W/ INJS (FIRE/EMS) INSIDE LOCATION: SUB TYPE: RE-UNK STATUS/OTHER CODES N/A TIME: 00:49:38 MAP GRID
 **********************************************************
 Erie County, PA (alternate)
 Contact: Matthew Whiting <firefighter015@gmail.com>
