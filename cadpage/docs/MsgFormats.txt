@@ -4352,13 +4352,8 @@ Sender: Bob@relaycom.com
 **********************************************************
 Prince Georges County, MD (Replacement for C)
 Contact: "Khaloughi, Kayman" <kkhaloughi@co.pg.md.us>
-Fire Alarm-AFA, 8831 LOTTSFORD RD #423, PP, btwn LARGO DR W and HARRY S TRUMAN DR N, TGA2, 4616, Unit:PE846, F121210238
-BLS Amb, 4814 SILVER HILL RD, PP, btwn SUITLAND RD and PORTER AVE, TGC2, 2901, Unit:A829, F121210237
-BLS Amb, 1118 QUEBEC ST, PP, btwn NAVAHOE DR and 12TH AVE, TGA2, 3416, Units:A801, E834B, F121210236
-BLS Amb, 1801 METZEROTT RD, PP, btwn NEW HAMPSHIRE AVE and GREENSPIRE TER, TGA2, 3410, Unit:A809, F121210233
-Medic Local, 3006 TEAK LN, PP, btwn TANGLEWOOD LN and TYSON LN, TGA2, 3910, Units:A839, MD818, F121210235
-PIA Limited Access, SB CAP BELT IL A HWY/EB ANNAPOLIS RD, PP, at SB CAP BELT IL A HWY/EB ANNAPOLIS RD, PP <0/0>, TGA2, 2833, Units:A806, PE830, F121210336
-Acc w/Inj, GREENBELT METRO STATION, GP, at 5717 GREENBELT METRO DR, GP, TGA2, 1411, Unit:A812B, F121210316
+Sender: @alert.princegeorgescountymd.gov - now
+Sender: @alert.co.pg.md.us - soon
 **********************************************************
 Lackawanna County, PA (alternate)
 Contact: Pat Gillott <pgill107@gmail.com>

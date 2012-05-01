@@ -352,10 +352,6 @@ public class SmsPopupActivity extends Activity {
       sb.append("\nBOX:");
       sb.append(info.getBox());
     }
-    if (info.getSupp().length() >0) {
-      sb.append("\nInfo:");
-      sb.append(info.getSupp());
-    }
     if (info.getUnit().length() > 0) {
       sb.append("\nUnits: ");
       sb.append(info.getUnit());
@@ -373,6 +369,10 @@ public class SmsPopupActivity extends Activity {
     if (info.getChannel().length() > 0) {
       sb.append("\nChannel: ");
       sb.append(info.getChannel());
+    }
+    if (info.getSupp().length() >0) {
+      sb.append("\nInfo:");
+      sb.append(info.getSupp());
     }
     if (info.getCallId().length() >0) {
       sb.append("\nCID:");
