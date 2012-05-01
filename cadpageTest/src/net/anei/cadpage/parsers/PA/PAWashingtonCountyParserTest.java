@@ -147,7 +147,60 @@ public class PAWashingtonCountyParserTest extends BaseParserTest {
         "CALL:UNCONSCIOUS PT / IS BREATHING");
   }
   
-  
+  @Test
+  public void testVictorFedrick() {
+
+    doTest("T1",
+        "Subject:911\n" +
+        "Location: 2 WHEELING PITTSBURGH STEEL DR ALLE: @AMROX Xstreet: MILL RD J F KENNEDY ST TYPE: FIRE TIME: 15:07:31 Comments: at the wheeling pittsburgh plant",
+
+        "ADDR:2 WHEELING PITTSBURGH STEEL DR",
+        "CITY:ALLENPORT",
+        "PLACE:AMROX",
+        "X:MILL RD & J F KENNEDY ST",
+        "CALL:FIRE");
+
+    doTest("T2",
+        "Subject:911\nLocation: 5 CENTER ST ALLE Xstreet: ANDERSON ST SR 88 TYPE: ODOR OF NATURAL GAS TIME: 21:39:50 Comments:",
+        "ADDR:5 CENTER ST",
+        "CITY:ALLENPORT",
+        "X:ANDERSON ST & SR 88",
+        "CALL:ODOR OF NATURAL GAS");
+
+    doTest("T3",
+        "Subject:911\n" +
+        "Location: 1850 MAIN ST ALLE: @FD 40 ALLENPORT Xstreet: MALLARD ST WASHINGTON ST TYPE: VEHICLE ACCIDENT NO INJURIES TIME: 16:33:09 Comments:",
+
+        "ADDR:1850 MAIN ST",
+        "CITY:ALLENPORT",
+        "PLACE:FD 40 ALLENPORT",
+        "X:MALLARD ST & WASHINGTON ST",
+        "CALL:VEHICLE ACCIDENT NO INJURIES");
+
+    doTest("T4",
+        "Subject:911\nLocation: 446 BOW ST STOC Xstreet: LOCUST ST WALNUT ST TYPE: STRUCTURE FIRE TIME: 08:56:53 Comments:",
+        "ADDR:446 BOW ST",
+        "CITY:STOCKDALE",
+        "X:LOCUST ST & WALNUT ST",
+        "CALL:STRUCTURE FIRE");
+
+    doTest("T5",
+        "Subject:911\nLocation: 1859 MAIN ST ALLE Xstreet: WASHINGTON ST BRIDGE ST TYPE: STRUCTURE FIRE TIME: 15:19:45 Comments:",
+        "ADDR:1859 MAIN ST",
+        "CITY:ALLENPORT",
+        "X:WASHINGTON ST & BRIDGE ST",
+        "CALL:STRUCTURE FIRE");
+
+    doTest("T6",
+        "Subject:911\n" +
+        "Location: 214 DALLY RD LONG Xstreet: ROCK DR CREST DR TYPE: FIRE ALARM TIME: 20:32:03 Comments: WAGNER/MACK RES - 412-716-7984",
+
+        "ADDR:214 DALLY RD",
+        "CITY:LONG BRANCH",
+        "X:ROCK DR & CREST DR",
+        "CALL:FIRE ALARM");
+
+  }
   
   public static void main(String[] args) {
     new PAWashingtonCountyParserTest().generateTests("T1");

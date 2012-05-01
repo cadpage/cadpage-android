@@ -204,9 +204,78 @@ public class MORayCountyParserTest extends BaseParserTest {
         "ADDR:W 206TH ST & HIGHWAY C",
         "INFO:on 206th n one mile west of c");
 
+    doTest("T2",
+        "LFD LMED1 10-50 TRAFFIC/TRANSPORTATION INCIDENT 69 HWY  Description: *** SOP Begin ***\n\n" +
+        "1. * HOW MANY VEHICLES: 1\n\n" +
+        "2. * ANY INJURIES: YES\n" +
+        "3. * IS TH",
+
+        "SRC:LFD",
+        "UNIT:LMED1",
+        "CALL:10-50 TRAFFIC/TRANSPORTATION INCIDENT",
+        "ADDR:69 HWY",
+        "INFO:*** SOP Begin *** 1. * HOW MANY VEHICLES: 1 2. * ANY INJURIES: YES 3. * IS TH");
+
+    doTest("T3",
+        "LFD FIRE MUTUAL AID 1410 HOSPITAL DRIVE  Description: EXCELSIUOR SPRINGS REQUESTING PUMPER AT 1410 VALLEY MANOR\n\n" +
+        "VALLEY MANOR AND REHAB CENTER\n\n" +
+        "Cro",
+
+        "SRC:LFD",
+        "CALL:FIRE MUTUAL AID",
+        "ADDR:1410 HOSPITAL DRIVE",
+        "INFO:EXCELSIUOR SPRINGS REQUESTING PUMPER AT 1410 VALLEY MANOR VALLEY MANOR AND REHAB CENTER");
+
+    doTest("T4",
+        "LMED1 LSQ1 L602 CHEST PAIN (NON-TRAUMATIC) 319 E 2ND ST, Apt. C2 LAWSON Description: CHEST PAINS LAST NIGHT AND STILL THIS MORNING\n" +
+        "83 YOM\n" +
+        "FRANCIS MC",
+
+        "UNIT:LMED1 LSQ1 L602",
+        "CALL:CHEST PAIN (NON-TRAUMATIC)",
+        "ADDR:319 E 2ND ST",
+        "APT:C2",
+        "CITY:LAWSON",
+        "INFO:CHEST PAINS LAST NIGHT AND STILL THIS MORNING 83 YOM FRANCIS MC");
+
+    doTest("T5",
+        "LMED1 10-50 TRAFFIC/TRANSPORTATION INCIDENT SALEM RD & N OF 166TH ST  Description: unknown if there are any injuries \n" +
+        "2 vehicles \n\n" +
+        "CrossStreets:",
+
+        "UNIT:LMED1",
+        "CALL:10-50 TRAFFIC/TRANSPORTATION INCIDENT",
+        "ADDR:SALEM RD & N OF 166TH ST",
+        "INFO:unknown if there are any injuries 2 vehicles");
+
+    doTest("T6",
+        "LMED1 10-50 TRAFFIC/TRANSPORTATION INCIDENT SALEM RD & 174TH  Description: CLAY COUNTY\n\n" +
+        "DWI ACCIDENT\n" +
+        "VEHICLE IN DITCH\n\n\n" +
+        "CrossStreets:",
+
+        "UNIT:LMED1",
+        "CALL:10-50 TRAFFIC/TRANSPORTATION INCIDENT",
+        "ADDR:SALEM RD & 174TH",
+        "INFO:CLAY COUNTY DWI ACCIDENT VEHICLE IN DITCH");
+
+    doTest("T7",
+        "LFD 10-50 TRAFFIC/TRANSPORTATION INCIDENT SALEM RD LAWSON Description: One mile south of Lawson on Salem Road. Just South of the Golf Course",
+        "SRC:LFD",
+        "CALL:10-50 TRAFFIC/TRANSPORTATION INCIDENT",
+        "ADDR:SALEM RD",
+        "CITY:LAWSON",
+        "INFO:One mile south of Lawson on Salem Road. Just South of the Golf Course");
+
+    doTest("T8",
+        "LFD SUICIDE ATTEMPT IP OR JO ENTRYWAY TO WATKINS MILL  Description: SUICIDAL SUBJ\n\nCrossStreets:",
+        "SRC:LFD",
+        "CALL:SUICIDE ATTEMPT IP OR JO ENTRYWAY TO WATKINS MILL",
+        "INFO:SUICIDAL SUBJ");
+
   }
 
   public static void main(String[] args) {
-    new MORayCountyParserTest().generateTests("T1");
+    new MORayCountyParserTest().generateTests("T2");
   }
 }
