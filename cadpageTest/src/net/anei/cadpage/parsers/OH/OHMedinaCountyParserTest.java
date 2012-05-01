@@ -89,6 +89,19 @@ public class OHMedinaCountyParserTest extends BaseParserTest {
         "INFO:75-4 CALLED IN ADVISE D THEY RECXEIVED A CALL ON STATION FOR A TRANSPORT REF AN IN FECTION");
   }
   
+  @Test
+  public void testMarkWilliams() {
+
+    doTest("T1",
+        "EMS // 8809 LAKE RD SEVILLE B ETWEEN BUFFHAM RD / ST RT 224  // CALLBK=(440)796-7848 +041.038828-081.894171 FIELD 23 BACK MALE 17 KNEE INJURY",
+        "CALL:EMS",
+        "ADDR:8809 LAKE RD",
+        "CITY:SEVILLE",
+        "X:BUFFHAM RD / ST RT 224",
+        "INFO:CALLBK=(440)796-7848 +041.038828-081.894171 FIELD 23 BACK MALE 17 KNEE INJURY");
+
+  }
+  
   public static void main(String[] args) {
     new OHMedinaCountyParserTest().generateTests("T1");
   }
