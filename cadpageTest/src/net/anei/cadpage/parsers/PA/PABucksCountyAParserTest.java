@@ -1853,6 +1853,24 @@ public class PABucksCountyAParserTest extends BaseParserTest {
         "TIME:12:30:21",
         "ID:ED1212342",
         "UNIT:SQ134");
+
+    doTest("T18",
+        "[Important message from Bucks County RSAN] SQ134 STA60:ADIAB\n" +
+        "adr:31 CHURCH RD ,36\n" +
+        "btwn:BETHLEHEM PK & PARK RD\n" +
+        "box:60011 map:3032E1\n" +
+        "tm:23:13:05 ED1215516\n" +
+        "Sent by mss911 Bucks to SQ134, STA60, mss911 Bucks (Voice/Fax Dialer, E-mail accounts, Pagers, Cell phones) through Bucks County RSAN\n",
+
+        "CALL:ADIAB - DIABETIC EMERGENCY",
+        "BOX:60011",
+        "ADDR:31 CHURCH RD",
+        "CITY:HILLTOWN TWP",
+        "X:BETHLEHEM PK & PARK RD",
+        "MAP:3032E1",
+        "TIME:23:13:05",
+        "ID:ED1215516",
+        "UNIT:SQ134 STA60");
   }
   
   @Test
