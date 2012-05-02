@@ -549,6 +549,31 @@ public class COWeldCountyParserTest extends BaseParserTest {
     
   }
   
+  @Test
+  public void testKalebStaley() {
+
+    doTest("T1",
+        "Fr:<wrc-hiplink@weldcorcc.co\n" +
+        "Su:Dispatch\n" +
+        "Txt: 24\n" +
+        "TAU\n" +
+        "D\n" +
+        "37TH ST @ 38TH AVE\n" +
+        "EVMIA\n" +
+        "3751\n" +
+        "CAME ACROSS A TA / REQ LAW & PM'S ROUTINE\n" +
+        "ProQA Medical Case 84958 Aborted 1. Caller hung up\n\n\n" +
+        "id:7",
+
+        "CODE:TAU",
+        "CALL:TRAFFIC ACCIDENT UNKNOWN INJ",
+        "ADDR:37TH ST & 38TH AVE",
+        "SRC:EVMIA",
+        "UNIT:3751",
+        "INFO:CAME ACROSS A TA / REQ LAW & PM'S ROUTINE / ProQA Medical Case 84958 Aborted 1. Caller hung up / id:7");
+
+  }
+  
   public static void  main(String[] args) {
     new COWeldCountyParserTest().generateTests("T1");
   }

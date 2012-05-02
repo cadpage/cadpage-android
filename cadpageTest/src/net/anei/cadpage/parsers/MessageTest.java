@@ -9,6 +9,12 @@ public class MessageTest {
   @Test
   public void testParseInfo() {
     
+    doParseTest("COWeldCounty",
+        "Fr:<wrc-hiplink@weldcorcc.co\nSu:Dispatch\nTxt: 24\nTAU\nD\n37TH ST @ 38TH AVE\nEVMIA\n3751\nCAME ACROSS A TA / REQ LAW & PM'S ROUTINE\nProQA Medical Case 84958 Aborted 1. Caller hung up\n\n\nid:7",
+        "wrc-hiplink@weldcorcc.co",
+        "Dispatch",
+        "24\nTAU\nD\n37TH ST @ 38TH AVE\nEVMIA\n3751\nCAME ACROSS A TA / REQ LAW & PM'S ROUTINE\nProQA Medical Case 84958 Aborted 1. Caller hung up\n\n\nid:7");
+    
     doParseTest("OHHamiltonCounty",
         "HC@hamilton-co.org\nMSG:\nHC:ODOR OF GAS 393 PROVIDENCE WY SHRN NEXT TO TRAILER..... CHARLES SOILBACK ** SMELL OF GAS ** SEE MALE COMPL REF ODOR OF NATURAL GAS LEAK FROM A POSS 1 INCH PIPE COMIN 12:07 HFE88 HFFG2 XST: 399 TARRYTON DR XST2: 337 CAMBRIDGE DR\r\n",
         "HC@hamilton-co.org",
