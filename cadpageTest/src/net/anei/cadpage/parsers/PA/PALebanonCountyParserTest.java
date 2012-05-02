@@ -186,6 +186,16 @@ public class PALebanonCountyParserTest extends BaseParserTest {
         "CALL:SF - Dwelling Fire Barn Fire",
         "UNIT:FG3 E6 R5 QRS6 E7 E12 E75 TK12 SQ12 T6 T6-1 T7 PT47 AMBCO19");
 
+    doTest("T3",
+        "(Sta 12@12:30) East Hanover Twp DAUPHIN COUNTY 257 BOW CREEK RD=AREA OF BF - Barn Fire FG 5 E1-1 TK12 Fire-Box EMS-Box\n\n" +
+        "To unsubscribe reply STOP",
+
+        "CITY:EAST HANOVER TWP, DAUPHIN COUNTY",
+        "ADDR:257 BOW CREEK RD",
+        "PLACE:AREA OF",
+        "CALL:BF - Barn Fire",
+        "UNIT:FG 5 E1-1 TK12");
+
   }
   
   public static void main(String[] args) {

@@ -610,6 +610,84 @@ public class PABucksCountyBParserTest extends BaseParserTest {
         "NAME:AGERO MONITORING CTR",
         "INFO:NRI,,BLOCKING,,2 VEHS,,2 CHILDREN IN VEHS PARE NT WANT THEM CHECKED OUT",
         "UNIT:A134");
+
+    doTest("T17",
+        "Subject: 911 Data \n\n" +
+        " <SYSTEM GENERATED> TO INT1 FROM FS01  : \n" +
+        "339/134/E59\n" +
+        " \n" +
+        "Inc History for: #ED1215743    Xref:                           #PD121221067 \n\n" +
+        "Received     05/01/12  16:19:21  BY CT11   749\n" +
+        "      \n" +
+        " Entered      05/01/12  16:20:58  BY CT11   749      \n" +
+        " Dispatched   05/01/12  16:22:41  BY FS01   764      \n\n" +
+        "Initial Type: ARESP   Initial Alarm Level:  1  Final Alarm Level:  1\n" +
+        "Final Type: ARESP (RESPIRATORY DISTRESS) Pri: 2 Dspo:      Prem: [  ]\n" +
+        "EMS Blk:  152741 Fire Blk:  37401  Police Blk:  36117  Map Page: 2920B10 \n" +
+        " Group: EN  Beat: 339 Src:  9 ATT:  MTC - Meet the Complainant  \n" +
+        " Loc: SKYVIEW MEDICAL CE ,36 at 3456 BETHLEHEM PK ,36 btwn RT 309 BY & CHERRY LA\n" +
+        "Loc Info: 2ND FLR,,RM #3\n" +
+        "Name: CHOP CARE NETWORK INDIA Addr: SANDY, RN               Phone: 2157237045\n" +
+        "/1620  (749     )  ENTRY:         4 MOS OLD MALE,,W/A DR ATT\n" +
+        "/1621  (764     )  CHANGE         LOC: 3456 BETHLEHEM PK ,36 -->  SKYVIEW MEDICA\n" +
+        "                                  L CE ,36\n" +
+        "/1622              DISP    A134    #077385   GRAKE,LARRY \n" +
+        "/1622              ADD     QUT59  \n\n" +
+        "---------\n\n" +
+        "-- \n\n" +
+        "DISCLAIMER: This electronic message transmission has been sent by Chalfont Emergency Medical Services, Inc., which may contain confidential or privileged information. This information is intended for the individual or entity named above. If you are not the intended recipient, be aware that any disclosure, copying, distribution or use of the contents of this information is prohibited. If you have received this electronic transmission in error, please notify us immediately by telephone at 215-822-1308 x116, or by electronic mail (reply).",
+
+        "ID:ED1215743",
+        "DATE:05/01/12",
+        "TIME:16:22:41",
+        "CALL:ARESP (RESPIRATORY DISTRESS)",
+        "BOX:F:37401 E:152741",
+        "MAP:2920B10",
+        "PLACE:SKYVIEW MEDICAL CE - 2ND FLR,,RM #3",
+        "ADDR:3456 BETHLEHEM PK",
+        "MADDR:3456 BETHLEHEM PIKE",
+        "CITY:HILLTOWN TWP",
+        "X:RT 309 BY & CHERRY LA",
+        "NAME:CHOP CARE NETWORK INDIA",
+        "PHONE:2157237045",
+        "INFO:4 MOS OLD MALE,,W/A DR ATT",
+        "UNIT:A134 QUT59");
+
+    doTest("T18",
+        " <SYSTEM GENERATED> TO INT1 FROM FS01  : \n" +
+        "134\n" +
+        "                                                        \n\n\n" +
+        " Inc History for: #ED1215718    Xref:                           #PD121220662 \n\n" +
+        " Received     05/01/12  12:46:58  BY CT12   325      \n" +
+        " Entered      05/01/12  12:47:57  BY CT12   325      \n" +
+        " Dispatched   05/01/12  12:48:29  BY FS01   764      \n\n" +
+        " Initial Type: AFAINT  Initial Alarm Level:  1  Final Alarm Level:  1\n" +
+        " Final Type: AFAINT(SYNCOPAL EPISODE (SYNCOPE)) Pri: 3 Dspo:      Prem: [  ]\n" +
+        " EMS Blk:  134058 Fire Blk:  74058  Police Blk:  48101  Map Page: 3033F8 \n" +
+        " Group: EN  Beat: 134 Src:  9 ATT:    \n" +
+        " Loc: 700 HORIZON CI ,48 -- GRANDVIEW MEDICAL btwn HORIZON DR & CUL DE SAC\n\n" +
+        " Loc Info: SUITE #103\n" +
+        " Name: GRAND VIEW MEDICAL PRAC Addr: KATIE                   Phone: 2158220852\n\n" +
+        "/1247  (325     )  ENTRY:         LIGHT HEADED AND NUMBNESS ON RIGHT SIDE,, 43YO\n" +
+        "                                  A FEMALE\n" +
+        "/1246?             SUPP           TXT: PT STILL W/DR , ,NO BREATHING ISSUES \n" +
+        "/1248  (764     )  DISP    A134    #077385   GRAKE,LARRY ",
+
+        "ID:ED1215718",
+        "DATE:05/01/12",
+        "TIME:12:48:29",
+        "CALL:AFAINT(SYNCOPAL EPISODE (SYNCOPE))",
+        "BOX:F:74058 E:134058",
+        "MAP:3033F8",
+        "PLACE:GRANDVIEW MEDICAL - SUITE #103",
+        "ADDR:700 HORIZON CI",
+        "MADDR:700 HORIZON CIR",
+        "CITY:NEW BRITAIN TWP",
+        "X:HORIZON DR & CUL DE SAC",
+        "NAME:GRAND VIEW MEDICAL PRAC",
+        "PHONE:2158220852",
+        "INFO:LIGHT HEADED AND NUMBNESS ON RIGHT SIDE,, 43YO A FEMALE\nTXT: PT STILL W/DR , ,NO BREATHING ISSUES",
+        "UNIT:A134");
  }
   
   
