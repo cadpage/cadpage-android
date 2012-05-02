@@ -16,6 +16,10 @@ System: InfoRad
 [FCC Page]  Incident Dispatch:  E43    FIRE MISC  1700 Tapo St                   11G2-B6 2 / 3  11-0032394
 [FCC Page]  Incident Dispatch:  E43    VEHICLE FI Wb 118 At / Kuehner Dr         11H1-A4 2 / 3  11-0032367
 
+Contact: Fred Martinez <raidernation.fm@gmail.com>
+Sender: FCC-DO-NOT-REPLY@ventura.org
+FCC Page / Incident Dispatch:  Q73    TC         W Pleasant Valley Rd / S C St  552-G5  48/ 47 12-0024847\n
+
  */
 
 
@@ -33,7 +37,16 @@ public class CAVenturaCountyParser extends MsgParser {
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     
-    if (!subject.equals("FCC Page")) return false;
+    do {
+      if (subject.equals("FCC Page")) break;
+      
+      if (body.startsWith("FCC Page / ")) {
+        body = body.substring(11).trim();
+        break;
+      }
+      return false;
+    } while (false);
+    
     if (!body.startsWith("Incident Dispatch: ")) return false;
     if (body.length() < 94) return false;
     data.strUnit = body.substring(19,27).trim();
