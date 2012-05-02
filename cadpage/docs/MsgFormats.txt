@@ -3816,11 +3816,6 @@ Sender: 6245
 alpha ems for a fall 3 hunter ln in the town of brunswick -32
 **********************************************************
 Unknown
-Contact: Adam Slater <adam@raymondmartin.com>
-Sender: VisiNet.Command@sanantonio.gov
-Respond for Alarm - Medical @ 24245 Wilderness Oak - 1408 - RETREAT AT CANYON SPRINGS With Cross Streets of CANYON GOLF RD/CANYO
-**********************************************************
-Unknown
 Contact: Gary Meadows <stonecoach@gmail.com>
 Sender: FMFDDispatchers@cityoffortmorgan.com
 City Fire\n930 Meeker Structure fire
@@ -4354,12 +4349,15 @@ Prince Georges County, MD (Replacement for C)
 Contact: "Khaloughi, Kayman" <kkhaloughi@co.pg.md.us>
 Sender: @alert.princegeorgescountymd.gov - now
 Sender: @alert.co.pg.md.us - soon
+
+Contact: Christopher Olson <lilsmokeeater5@yahoo.com>
+E812 Suicide, HAGERSTOWN HALL - UM 258, UM, at 258 ELLICOTT DR, UM, TGA2, 1210, Units:A812, E812, F121220001
+E816 Non-Emerg Service, BOWIE HEALTH CENTER, PP, at 15001 HEALTH CENTER DR, PP, TGA2, 1608, Unit:E816, F121220004
 **********************************************************
 Lackawanna County, PA (alternate)
 Contact: Pat Gillott <pgill107@gmail.com>
 Sender: lead@ladisp.us
 06:34AM Sat 04/28 INC#:1219146-1 FROM:320 EMMETT ST, SCRANTON CITY RM:16D  TYPE:CHEST PAIN  to:
-**********************************************************
 **********************************************************
 ********************************************************** 
 **********************************************************
@@ -4425,11 +4423,13 @@ Location: 6520 219TH ST E UB Estimated Address TYPE CODE: OUTSIDE FIRE INSIDE LO
 Location: 40721 11TH AVE E MY Estimated Address TYPE CODE: OUTSIDE FIRE INSIDE LOCATION: SUB TYPE: BRUSH FIRE TIME: 18:11:48 MAP GRID: 1432-E
 Location: 71ST AVE E/VERNA BETHANY RD MY Estimated Address TYPE CODE: OUTSIDE FIRE INSIDE LOCATION: SUB TYPE: BRUSH FIRE W/ UNK THREAT TIME: 14:26:20 MAP GRID: 1725-F
 Location: 25606 73RD AVE E MY Estimated Address TYPE CODE: OUTSIDE FIRE INSIDE LOCATION: SUB TYPE: LARGE OUTSIDE FIRE W/ UNK THREAT TIME: 14:31:14 MAP GRID: 1726-F
+Location: 25008 75TH AVE E MY Estimated Address TYPE CODE: OUTSIDE FIRE INSIDE LOCATION: SUB TYPE: BRUSH FIRE TIME: 09:29:29 MAP GRID: 1726-F
 
 Contact: Daniel Cacchiotti <dpcacchiotti@gmail.com>
 Sender: 9418123029 <user phone>
 Estimated Address: EST 17993 SR 70 E UB TYPE CODE: ACCIDENT W/ INJS (FIRE/EMS) INSIDE LOCATION: SUB TYPE: RE-UNK STATUS/OTHER CODES N/A TIME: 00:49:38 MAP GRID
 Location: 11031 GATEWOOD DR UB Estimated Address TYPE CODE: TEST CALL FOR ECC INSIDE LOCATION: SUB TYPE:  TIME: 11:06:59 MAP GRID: 1132-E
+Location: 71ST AVE E/VERNA BETHANY RD MY Estimated Address TYPE CODE: OUTSIDE FIRE INSIDE LOCATION: SUB TYPE: BRUSH FIRE W/ UNK THREAT TIME: 14:26:20 MAP GRID:
 **********************************************************
 Erie County, PA (alternate)
 Contact: Matthew Whiting <firefighter015@gmail.com>
@@ -4471,6 +4471,10 @@ STRUCTURE FIRE AD: 8100 HIGHWOOD DR LOC: FRIENDSHIP VILLAGE/M CMT1: MALE WITH LE
 ELEVATOR RESCUE AD: 5401 GREEN VALLEY DR LOC: CROWNE PLAZA HOTEL CMT1: ONE STUCK IN ELEVATOR FOR 20 MIN - IN SOUTH TOWER BET 5TH
 **********************************************************
 Bexar County, TX
+Contact: Adam Slater <adam@raymondmartin.com>
+Sender: VisiNet.Command@sanantonio.gov
+Respond for Alarm - Medical @ 24245 Wilderness Oak - 1408 - RETREAT AT CANYON SPRINGS With Cross Streets of CANYON GOLF RD/CANYO
+
 Contact: "Dorian Davis (IT GUY)" <dorian@bexarcountyfire.org>
 Sender: visinet.command@sanantonio.gov
 System: Tritech
@@ -4499,5 +4503,18 @@ Med - Possible Stroke           12446 Modena Bay                577D6    GVIL-20
 MVC                       - 23101 - 24511 Campbellton - HICKORY WAY/RANCH TRAIL RD               - 783D1 - small dark colored suv[Shared],going north on cambellton, it will be on the left[Shared],A cellular re-bid has occurred, check the ANI/ALI Viewer for details[Shared],Invalid address received:1453  TMOBILE-SE SECTOR-QF 751A2.[Shared],C disconnected[Shared],C says there is a car, unoccupied, flipped over.[Shared],Invalid address received:1453  TMOBILE-SE SECTOR-QF 751A2.[Shared],A cellular re-bid has occurre
 Med - Sick Person    - 6739 Glen Fair                 - 553E7 - C says her niece had a seizure, 34 yo.  fell onto concrete[Shared],Invalid address received:343  SPRINT-E SECTOR-QF 553C8.[Shared],Multi-Agency BCLE Incident #: BCSO-2012-0110931,Automatic Case Number(s) issued for Camelot FD: CAM-2012-000000525. [Shared],
 Alarm - Fire         - 9503 Millers Rdg               -       - 553E7   - POE;SMOKE DETECTOR;JOHN GILG @ 653-7947[Shared],Multi-Agency BCLE Incident #: BCSO-2012-0111024,Automatic Case Number(s) issued for Windcrest FD: WIND-2012-000000599. [Shared],Automatic Case Number(s) issued for Camelot FD: CAM-2012-000000527. [Shared],Automatic Case Number(s) issued for Converse FD: CONV-2012-000000442. [Shared],
-
+Med - Sick Person         - 16927 Ih 35 S Sb               - 711E6   -  23 YOF POSSIBLE BROKEN FOOT/FELL DOWN[Shared],Multi-Agency BCLE Incident #: BCSO-2012-0112109,[BCLE] has closed their incident [BCSO-2012-0112109],Automatic Case Number(s) issued for Lytle FD: LYTL-2012-000000126. [Shared],
+**********************************************************
+Newton County, MO
+Contact: jeffrey lechliter <jlechliter4512@gmail.com>
+Sender: 911@NC-CDC.ORG
+Subject:911 CALL\nSIGNIFICANT WEATHER ADVISORY FOR EASTERN NEWTON CO TILL 0300\r\n\r\n\r\n\r\n\r
+Subject:911 CALL\n11178 ELAND RD  CrossStreets: JUNIPER DR 0.01 mi SE IVY DR 0.73 mi N SICK PERSON ESN: pg6 Call Number: 763388
+Subject:911 CALL\nIRIS RD & STATE LINE RD  CrossStreets: TA-D (TONE PD) HIGH MECH-ALL TERRAIN ESN: pg6 Call Number: 760919
+Subject:911 CALL\n2953 ROWAN DR  CrossStreets: ANTELOPE RD 0.19 mi E HIGHWAY 43 0.81 mi W STRUCTURE FIRE-D / RES (SINGLE) ESN: pg8 Call Number: 7
+Subject:911 CALL\n13724 HIGHWAY 43, Apt. 30 TEEPEE MHP CrossStreets: AVALON LN 0.22 mi N LONNIE LN 0.33 mi SW STRUCTURE FIRE ESN: pg7 Call Number
+Subject:911 CALL\n20513 HIGHWAY Y  CrossStreets: RHINEHART LN 0.19 mi S REDBUD RD 0.62 mi N CHEST PAIN ESN: pg8 Call Number: 762218
+Subject:911 CALL\n5369 QUINCE RD  CrossStreets: DENNISON LN 0.03 mi E CROW RD 0.71 mi W TA INJURY ESN: pg8 Call Number: 762973
+Subject:911 CALL\n13724 HIGHWAY 43, Apt. 29 TEEPEE MHP CrossStreets: AVALON LN 0.22 mi N LONNIE LN 0.33 mi SW STRUCTURE FIRE-D / MH-PORTABLE OFC 
+Subject:911 CALL\n5156 JESSICA LN  CrossStreets: CROW RD 0.31 mi W FALL ESN: pg6 Call Number: 762520
 **********************************************************

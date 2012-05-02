@@ -28,6 +28,9 @@ Sender: mss@co.bucks.pa.us
 [911 Data]  <SYSTEM GENERATED> TO INT1 FROM FS01  : \n134\n                                                        \n Inc History for: #ED1215452    Xref:                           #PD121200569 \n Entered      04/29/12  14:13:01  BY CT06   815      \n Dispatched   04/29/12  14:13:56  BY FS01   271      \n Initial Type: BTAI    Initial Alarm Level:  1  Final Alarm Level:  1\n Final Type: BTAI  (TRAFFIC ACCIDENT(NON-CRITICAL)) Pri: 3 Dspo:      Prem: [  ]\n EMS Blk:  134055 Fire Blk:  74055  Police Blk:  48101  Map Page: 3033D7 \n Group: EN  Beat: 134 Src:  N ATT:    \n Loc: 560 W BUTLER AV ,48  btwn SCHOOL HOUSE RD & COUNTY LINE RD\n Loc Info: \n Name: AGERO MONITORING CTR    Addr: 3RD PARTY               Phone:           \n/1413  (815     )  ENTRY:         NRI,,BLOCKING,,2 VEHS,,2 CHILDREN IN VEHS PARE\n                                  NT WANT THEM CHECKED OUT\n/1413  (271     )  DISP    A134    #078910   MCDONAGH, PENELOPE \n                                   #095422   HUTTENLOCK, SCOTT (EMT) \n-- \nDISCLAIMER: This electronic message transmission has been sent by Chalfont Emergency Medical Services, Inc., which may contain confidential or privileged information. This information is intended for the individual or entity named above. If you are not the intended recipient, be aware that any disclosure, copying, distribution or use of the contents of this information is prohibited. If you have received this electronic transmission in error, please notify us immediately by telephone at 215-822-1308 x116, or by electronic mail (reply).\n
 Subject: 911 Data \n\n <SYSTEM GENERATED> TO INT1 FROM FS01  : \n339/134/E59\n \nInc History for: #ED1215743    Xref:                           #PD121221067 \n\nReceived     05/01/12  16:19:21  BY CT11   749\n      \n Entered      05/01/12  16:20:58  BY CT11   749      \n Dispatched   05/01/12  16:22:41  BY FS01   764      \n\nInitial Type: ARESP   Initial Alarm Level:  1  Final Alarm Level:  1\nFinal Type: ARESP (RESPIRATORY DISTRESS) Pri: 2 Dspo:      Prem: [  ]\nEMS Blk:  152741 Fire Blk:  37401  Police Blk:  36117  Map Page: 2920B10 \n Group: EN  Beat: 339 Src:  9 ATT:  MTC - Meet the Complainant  \n Loc: SKYVIEW MEDICAL CE ,36 at 3456 BETHLEHEM PK ,36 btwn RT 309 BY & CHERRY LA\nLoc Info: 2ND FLR,,RM #3\nName: CHOP CARE NETWORK INDIA Addr: SANDY, RN               Phone: 2157237045\n/1620  (749     )  ENTRY:         4 MOS OLD MALE,,W/A DR ATT\n/1621  (764     )  CHANGE         LOC: 3456 BETHLEHEM PK ,36 -->  SKYVIEW MEDICA\n                                  L CE ,36\n/1622              DISP    A134    #077385   GRAKE,LARRY \n/1622              ADD     QUT59  \n\n---------\n\n-- \n\nDISCLAIMER: This electronic message transmission has been sent by Chalfont Emergency Medical Services, Inc., which may contain confidential or privileged information. This information is intended for the individual or entity named above. If you are not the intended recipient, be aware that any disclosure, copying, distribution or use of the contents of this information is prohibited. If you have received this electronic transmission in error, please notify us immediately by telephone at 215-822-1308 x116, or by electronic mail (reply).
  <SYSTEM GENERATED> TO INT1 FROM FS01  : \n134\n                                                        \n\n\n Inc History for: #ED1215718    Xref:                           #PD121220662 \n\n Received     05/01/12  12:46:58  BY CT12   325      \n Entered      05/01/12  12:47:57  BY CT12   325      \n Dispatched   05/01/12  12:48:29  BY FS01   764      \n\n Initial Type: AFAINT  Initial Alarm Level:  1  Final Alarm Level:  1\n Final Type: AFAINT(SYNCOPAL EPISODE (SYNCOPE)) Pri: 3 Dspo:      Prem: [  ]\n EMS Blk:  134058 Fire Blk:  74058  Police Blk:  48101  Map Page: 3033F8 \n Group: EN  Beat: 134 Src:  9 ATT:    \n Loc: 700 HORIZON CI ,48 -- GRANDVIEW MEDICAL btwn HORIZON DR & CUL DE SAC\n\n Loc Info: SUITE #103\n Name: GRAND VIEW MEDICAL PRAC Addr: KATIE                   Phone: 2158220852\n\n/1247  (325     )  ENTRY:         LIGHT HEADED AND NUMBNESS ON RIGHT SIDE,, 43YO\n                                  A FEMALE\n/1246?             SUPP           TXT: PT STILL W/DR , ,NO BREATHING ISSUES \n/1248  (764     )  DISP    A134    #077385   GRAKE,LARRY 
+[911 Data]  <SYSTEM GENERATED> TO INT1 FROM FS01  : \n125/134\n                                                    \n Inc History for: #ED1215649    Xref:                           #PD121211320 \nEntered      04/30/12  21:29:44  BY CT06   810      \n Dispatched   04/30/12  21:30:08  BY FS01   613      \n Initial Type: ASEIZ   Initial Alarm Level:  1  Final Alarm Level:  1\n Final Type: ASEIZ (SEIZURE/ACTIVE (MEDIC)) Pri: 2 Dspo:      Prem: [  ]\n EMS Blk:  125007 Fire Blk:  19007  Police Blk:  47001  Map Page: 3034F2 \n Group: EN  Beat: 125 Src:  N ATT:  MTC - Meet the Complainant  \n Loc: FOUNDATIONS ADMIN ,47 at 833 E BUTLER AV ,47 btwn EVERGREEN AV & OLD RT 202\n Loc Info: BEHAVIOR HEALTH UNIT 19\n Name: KIRT                    Addr:                         Phone: 2679874076\n/2129  (810     )  ENTRY:         BLEEDING FROM THE MOUTH,, 24 YOM\n/2130  (613     )  DISP    A134    #077385   GRAKE,LARRY \n-- \nDISCLAIMER: This electronic message transmission has been sent by Chalfont Emergency Medical Services, Inc., which may contain confidential or privileged information. This information is intended for the individual or entity named above. If you are not the intended recipient, be aware that any disclosure, copying, distribution or use of the contents of this information is prohibited. If you have received this electronic transmission in error, please notify us immediately by telephone at 215-822-1308 x116, or by electronic mail (reply).\n
+[911 Data]  <SYSTEM GENERATED> TO INT1 FROM FS01  :\n125/134\n Inc History for: #ED1215649    Xref:                           #PD121211320\n Entered      04/30/12  21:29:44  BY CT06   810\n Dispatched   04/30/12  21:30:08  BY FS01   613\n Initial Type: ASEIZ   Initial Alarm Level:  1  Final Alarm Level:  1\n Final Type: ASEIZ (SEIZURE/ACTIVE (MEDIC)) Pri: 2 Dspo:      Prem: [  ]\n EMS Blk:  125007 Fire Blk:  19007  Police Blk:  47001  Map Page: 3034F2\n Group: EN  Beat: 125 Src:  N ATT:  MTC - Meet the Complainant\n Loc: FOUNDATIONS ADMIN ,47 at 833 E BUTLER AV ,47 btwn EVERGREEN AV & OLD\nRT 202\n Loc Info: BEHAVIOR HEALTH UNIT 19\n Name: KIRT                    Addr:                         Phone:\n2679874076\n/2129  (810     )  ENTRY:         BLEEDING FROM THE MOUTH,, 24 YOM\n/2130  (613     )  DISP    A134    #077385   GRAKE,LARRY\n-- \nDISCLAIMER: This electronic message transmission has been sent by Chalfont Emergency Medical Services, Inc., which may contain confidential or privileged information. This information is intended for the individual or entity named above. If you are not the intended recipient, be aware that any disclosure, copying, distribution or use of the contents of this information is prohibited. If you have received this electronic transmission in error, please notify us immediately by telephone at 215-822-1308 x116, or by electronic mail (reply).\n
+[911 Data]  <SYSTEM GENERATED> TO INT1 FROM FS01  :\n134\n Inc History for: #ED1215444    Xref:              #FD1205858   #PD121200524\n Entered      04/29/12  13:20:22  BY FD01   208\n Dispatched   04/29/12  13:21:07  BY FS01   271\n Initial Type: RMAR    Initial Alarm Level:  1  Final Alarm Level:  1\n Final Type: RMAR  (MARINE RESCUE (MBOX)) Pri: 1 Dspo:      Prem: [PW]\n EMS Blk:  134098 Fire Blk:  34098  Police Blk:  83002  Map Page: 2921J10\n Group: EN  Beat: 134 Src:  N ATT:\n Loc: PEACE VALL BOATRA2 ,83 at 264 CREEK RD ,83 btwn OLD IRON HILL RD &\nCHEESE FACTORY RD\n Loc Info: ANGLERS PIER\n Name: PALE, MARYANNE          Addr:                         Phone:\n2157049576\n/1320  (208     )  ENTRY:         OVERTURNED SAILBOAT,,THREE SUBJECTS IN\nTHE WAT\n                                 ER CALLING FOR HELP\n/1320  (271     )  HOLD\n/1321              DISP    A134    #078910   MCDONAGH, PENELOPE\n                                  #095422   HUTTENLOCK, SCOTT (EMT)\n-- \nDISCLAIMER: This electronic message transmission has been sent by Chalfont Emergency Medical Services, Inc., which may contain confidential or privileged information. This information is intended for the individual or entity named above. If you are not the intended recipient, be aware that any disclosure, copying, distribution or use of the contents of this information is prohibited. If you have received this electronic transmission in error, please notify us immediately by telephone at 215-822-1308 x116, or by electronic mail (reply).\n
 
  */
 
@@ -43,12 +46,16 @@ public class PABucksCountyBParser extends PABucksCountyBaseParser {
     return "8276,@bnn.us,iamresponding.com,Bucks RSAN,@alert.bucksema.org";
   }
   
+  private static final Pattern TERMINATOR_PTN = Pattern.compile("\n+--");
+  private static final Pattern SOFT_BREAK_PTN = Pattern.compile("\n(?=[^/ ])");
+  
+  private static final Pattern SRC_PTN = Pattern.compile("TO INT1 FROM [A-Z0-9]+ +: +(.*?)(?=\n)");
   private static final Pattern ID_PTN = Pattern.compile("\n *Inc History for: #(ED\\d+)\\b");
   private static final Pattern DATE_TIME_PTN = Pattern.compile("\n *Dispatched  +(\\d\\d/\\d\\d/\\d\\d) +(\\d\\d:\\d\\d:\\d\\d) +");
   private static final Pattern CALL_PTN = Pattern.compile("\n *Final Type: (.*?) Pri:");
   private static final Pattern BOX_MAP_PTN = Pattern.compile("\n *EMS Blk: +(\\d*) +Fire Blk: +(\\d*) +Police Blk: +\\d* +Map Page: *([A-Z0-9]*) *(?=\r?\n)");
   private static final Pattern ADDR_PTN = Pattern.compile("\n *Loc: *(.*?) *(?=\r?\n)");
-  private static final Pattern PLACE_NAME_PHONE_PTN = Pattern.compile("\n *Loc Info: *(.*?)\r?\n *Name: +(.*?) +Addr: +.*? +Phone: *(.*?) *\r?\n");
+  private static final Pattern PLACE_NAME_PHONE_PTN = Pattern.compile("\n *Loc Info: *(.*?)\r?\n *Name: +(.*?) +Addr: +(.*?) +Phone: *(.*?) *\r?\n");
   private static final Pattern NEXT_LINE_PTN = Pattern.compile("(.*?)(?:(\r?\n)|$)");
   
   private static final Pattern ENTRY_MARK_PTN = Pattern.compile("^/\\d++\\?? ");
@@ -56,9 +63,18 @@ public class PABucksCountyBParser extends PABucksCountyBaseParser {
   
   @Override
   protected boolean parseMsg(String body, Data data) {
+    
+    Matcher match = TERMINATOR_PTN.matcher(body);
+    if (match.find()) body = body.substring(0,match.start()).trim();
+    body = SOFT_BREAK_PTN.matcher(body).replaceAll(" ");
+    
     Parser p = new Parser(body);
     
-    Matcher match = p.getMatcher(ID_PTN);
+    match = p.getMatcher(SRC_PTN);
+    if (match == null) return false;
+    data.strSource = match.group(1).trim();
+    
+    match = p.getMatcher(ID_PTN);
     if (match == null) return false;
     data.strCallId = match.group(1);
     
@@ -88,7 +104,11 @@ public class PABucksCountyBParser extends PABucksCountyBaseParser {
     if (match == null) return false;
     data.strPlace = append(data.strPlace, " - ", match.group(1).trim());
     data.strName = match.group(2).trim();
-    data.strPhone = match.group(3).trim();
+    String sAddr = match.group(3).trim();
+    if (sAddr.length() > 0 && !sAddr.equals(data.strAddress)) {
+      data.strName = data.strName + " (" + sAddr + ")";
+    }
+    data.strPhone = match.group(4).trim();
     
     boolean entry = false;
     while (true) {
