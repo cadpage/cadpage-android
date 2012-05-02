@@ -70,6 +70,20 @@ public class CAVenturaCountyParserTest extends BaseParserTest {
         "ID:11-0032367");
   }
   
+  @Test
+  public void testFredMartinez() {
+
+    doTest("T1",
+        "FCC Page / Incident Dispatch:  Q73    TC         W Pleasant Valley Rd / S C St  552-G5  48/ 47 12-0024847\n",
+        "UNIT:Q73",
+        "CALL:TC",
+        "ADDR:W Pleasant Valley Rd & S C St",
+        "MAP:552-G5",
+        "CH:48/ 47",
+        "ID:12-0024847");
+
+  }
+  
   public static void main(String[] args) {
     new CAVenturaCountyParserTest().generateTests("T1", "UNIT CALL ADDR MAP CH ID");
   }
