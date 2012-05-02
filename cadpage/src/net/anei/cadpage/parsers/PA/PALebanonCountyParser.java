@@ -38,9 +38,11 @@ Subject:Sta 29@12:50\nSouth Lebanon Twp 2618 KING ST MI - Miscellaneous Wire Dow
 
 Contact: "Roger Funck" <rogerfunck@verizon.net>
 Sender: 7176798487
+Sender: km911alert@gmail.com
 East Hanover Township 7 TOWER LN AREA OF MV - Accident w/Injuries fg 3 E12  Fire-Box 12-03 EMS-Box 190-16
 North Annville Township BLACKS BRIDGE RD HOSTETTER LN AREA OF SF - Dwelling Fire Barn Fire FG3 E6 R5 QRS6 E7 E12 E75 TK12 SQ12 T6 T6-1 T7 PT47 AmbCo19
 North Annville Township BLACKS BRIDGE RD HOSTETTER LN AREA OF BF - Barn Fire Barn Fire FG3  Box is In-Service Auth Dep 6 SQ12 T6 T6-1  Fire-Box 6-03 E
+(Sta 12@12:30) East Hanover Twp DAUPHIN COUNTY 257 BOW CREEK RD=AREA OF BF - Barn Fire FG 5 E1-1 TK12 Fire-Box EMS-Box\n\nTo unsubscribe reply STOP
 
 */
 
@@ -52,10 +54,11 @@ public class PALebanonCountyParser extends SmartAddressParser {
     Pattern.compile("^City of ([^ ]*) "),
     Pattern.compile("^(.*) Borough ")
   };
+  private static final Pattern COUNTY_PTN = Pattern.compile("^[^ ]+ COUNTY\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern CALL_PREFIX_PTN =
       Pattern.compile(" (?:Med Class(\\d) |([A-Z]{2,3} - ))");
   private static final Pattern BOX_PTN = 
-      Pattern.compile(" (?:(?:Box|BOX) ?([0-9\\-]+)|Fire-Box ([0-9\\-]+) EMS-Box ([0-9\\-]+))");
+      Pattern.compile(" (?:(?:Box|BOX) ?([0-9\\-]+)|Fire-Box ([0-9\\-]+) EMS-Box ([0-9\\-]+)|Fire-Box EMS-Box)");
   private static final Pattern TAIL_CLASS_PTN = Pattern.compile("^Class (\\d) for EMS ");
   private static final Pattern UNIT_PTN = Pattern.compile(" +([A-Z]+[0-9]+(?:-[0-9]+)?|[0-9]+[A-Z]+|FG[ -]?\\d)$", Pattern.CASE_INSENSITIVE);
 
@@ -80,7 +83,14 @@ public class PALebanonCountyParser extends SmartAddressParser {
     }
     if (data.strCity.length() == 0) return false;
     
-    Matcher match = CALL_PREFIX_PTN.matcher(body);
+    // Check for county qualifier
+    Matcher match = COUNTY_PTN.matcher(body);
+    if (match.find()) {
+      data.strCity = data.strCity + ", " + match.group();
+      body = body.substring(match.end()).trim();
+    }
+    
+    match = CALL_PREFIX_PTN.matcher(body);
     if (!match.find()) return false;
     String sAddress = body.substring(0,match.start()).trim();
     data.strPriority = getOptGroup(match.group(1));
@@ -96,15 +106,27 @@ public class PALebanonCountyParser extends SmartAddressParser {
       sCall = sTail.substring(0,match.start()).trim();
       String sBox = match.group(1);
       if (sBox == null) {
-        sBox = "Fire:" + match.group(2) + " EMS:" + match.group(3);
+        sBox = match.group(2);
+        if (sBox != null) {
+          sBox = "Fire:" + match.group(2) + " EMS:" + match.group(3);
+        } else {
+          sBox = "";
+        }
       }
       data.strBox = sBox;
       sTail = sTail.substring(match.end()).trim();
     }
     data.strCall = (sCallPfx == null ? "" : sCallPfx) + sCall;
     
-    parseAddress(StartType.START_ADDR, FLAG_IMPLIED_INTERSECT, sAddress, data);
-    data.strPlace = getLeft();
+    pt = sAddress.indexOf('=');
+    if (pt >= 0) {
+      data.strPlace = sAddress.substring(pt+1).trim();
+      sAddress = sAddress.substring(0,pt).trim();
+      parseAddress(StartType.START_ADDR, FLAG_IMPLIED_INTERSECT | FLAG_ANCHOR_END, sAddress, data);
+    } else {
+      parseAddress(StartType.START_ADDR, FLAG_IMPLIED_INTERSECT, sAddress, data);
+      data.strPlace = getLeft();
+    }
     if (data.strPlace.startsWith("* ")) data.strPlace = data.strPlace.substring(2).trim();
     
     match = TAIL_CLASS_PTN.matcher(sTail);

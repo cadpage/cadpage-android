@@ -389,7 +389,7 @@ public class PABucksCountyAParser extends PABucksCountyBaseParser {
       "GALRM",    "GENERAL ALARM",
       "RAUTO",    "AUTO EXTRICATION (RBOX)",
       "RDOM",     "DOMESTIC RESCUE (RBOX)",
-      "RMAR",     "MARINE RESCUE (RBOX)",
+      "RMAR",     "MARINE RESCUE (MBOX)",
       "RVBLD",    "VEHICLE INTO A BUILDING (RBOX)",
       "STDBY",    "FIRE STANDBY",
       "WATER",    "WATER FLOW (LOC)",

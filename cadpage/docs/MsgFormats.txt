@@ -4429,6 +4429,7 @@ Location: 25606 73RD AVE E MY Estimated Address TYPE CODE: OUTSIDE FIRE INSIDE L
 Contact: Daniel Cacchiotti <dpcacchiotti@gmail.com>
 Sender: 9418123029 <user phone>
 Estimated Address: EST 17993 SR 70 E UB TYPE CODE: ACCIDENT W/ INJS (FIRE/EMS) INSIDE LOCATION: SUB TYPE: RE-UNK STATUS/OTHER CODES N/A TIME: 00:49:38 MAP GRID
+Location: 11031 GATEWOOD DR UB Estimated Address TYPE CODE: TEST CALL FOR ECC INSIDE LOCATION: SUB TYPE:  TIME: 11:06:59 MAP GRID: 1132-E
 **********************************************************
 Erie County, PA (alternate)
 Contact: Matthew Whiting <firefighter015@gmail.com>
