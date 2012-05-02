@@ -292,7 +292,7 @@ abstract class Vendor {
     
     // If already enabled, we don't have to do anything
     if (enabled) {
-      reconnect(context);
+      reconnect(context, false);
       return;
     }
 
@@ -377,12 +377,19 @@ abstract class Vendor {
   /**
    * Send current registration ID to vendor
    * @param context current context
+   * @param registerRequested true if previous vendor requested a new registration ID
+   * @param returns true if we requested new registration ID
    */
-  void reconnect(Context context) {
+  boolean reconnect(Context context, boolean registerRequested) {
     if (enabled || broken) {
       String registrationId = ManagePreferences.registrationId();
-      if (registrationId != null) sendReregister(context, registrationId);
+      if (registrationId == null && !registerRequested) {
+        if (!C2DMReceiver.register(context)) showNotice(context, R.string.vendor_reg_failure_msg, null);
+        return true;
+      }
+      sendReregister(context, registrationId);
     }
+    return false;
   }
   
   /**

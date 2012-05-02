@@ -101,7 +101,10 @@ public class VendorManager {
    * @param context current context
    */
   void reconnect(Context context) {
-    for (Vendor vendor : vendorList) vendor.reconnect(context);
+    boolean register = false;
+    for (Vendor vendor : vendorList) {
+      if (vendor.reconnect(context, register)) register = true;;
+    }
   }
   
   /**
