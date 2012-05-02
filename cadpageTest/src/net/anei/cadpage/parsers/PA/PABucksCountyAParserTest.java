@@ -236,7 +236,7 @@ public class PABucksCountyAParserTest extends BaseParserTest {
     doTest("T18",
         "911: STA53  type:RMAR    adr:LIONS PARK ,24 at 102 SAMUEL CLIFT ST ,24 btwn MILL ST & MARKET ST  aai:  box:51012  map:3375D5  tm:00:59:10  FD1105678 Run: R53 M53 M11",
         "SRC:STA53",
-        "CALL:RMAR - MARINE RESCUE (RBOX)",
+        "CALL:RMAR - MARINE RESCUE (MBOX)",
         "PLACE:LIONS PARK",
         "ADDR:102 SAMUEL CLIFT ST",
         "CITY:BRISTOL",
