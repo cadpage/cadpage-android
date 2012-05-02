@@ -95,7 +95,7 @@ public class Message {
   private static final Pattern FRM_TAG_PATTERN = Pattern.compile("\n *FRM:");
   private static final Pattern[] E_S_M_PATTERNS = new Pattern[]{
     Pattern.compile("^(?:([^ ,;/]+) +)?S: *(.*?)(?: +M:|\n)"), 
-    Pattern.compile("^Fr:<(.*?)>\nSu:(.*?)\nTxt: ")
+    Pattern.compile("^Fr:<(.*?)>?\nSu:(.*?)\nTxt: ")
   };
   
   private void preParse(String fromAddress, String subject, String body) {

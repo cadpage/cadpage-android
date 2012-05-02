@@ -58,6 +58,10 @@ Dispatch / GFD \nSI\n3206 70TH AVE\nGF5\nE5\nchest pain\n
 GFD\nSI\n5436 24TH ST\nGF5\nE5\nHUSBAND FELL, RP NOT ON SCENE\nProQA Medical Recommended Dispatch Level = 17A03G\nYou are responding to a patient involved in a fall. 
 BCOF\nSI\nD\n3722 MONTEREY PL\nBORUF\n2224\nWILL BE A TRANSPORT FOR M1 ...FEMALE IN HER MID 20'S..ENTER THE DOOR ON THELEFT\nSIDE OF THE HOUSE SLIDING GLASS DOORS &
 
+Contact: Kaleb Staley <kalebstaley@gmail.com>
+Sender: 86245
+Fr:<wrc-hiplink@weldcorcc.co\nSu:Dispatch\nTxt: 24\nTAU\nD\n37TH ST @ 38TH AVE\nEVMIA\n3751\nCAME ACROSS A TA / REQ LAW & PM'S ROUTINE\nProQA Medical Case 84958 Aborted 1. Caller hung up\n\n\nid:7
+
  */
 
 
@@ -124,7 +128,7 @@ public class COWeldCountyParser extends FieldProgramParser {
         }
         field = field.substring(0,pt).trim();
       }
-      field = WCR_PTN.matcher(field).replaceAll("CR");
+      field = WCR_PTN.matcher(field).replaceAll("CR").replace('@', '&');
       super.parse(field, data);
     }
     
