@@ -4316,7 +4316,6 @@ Lackawanna County, PA (alternate)
 Contact: Pat Gillott <pgill107@gmail.com>
 Sender: lead@ladisp.us
 06:34AM Sat 04/28 INC#:1219146-1 FROM:320 EMMETT ST, SCRANTON CITY RM:16D  TYPE:CHEST PAIN  to:
-**********************************************************
 ********************************************************** 
 **********************************************************
 **********************************************************
@@ -4349,10 +4348,19 @@ Contact: Francis Bauer <pgfd702@gmail.com>
 Sender: alrt509933@alert.princegeorgescountymd.gov
 E816 Fire Alarm-AFA, 607 JARVIS CREST CT, PP, btwn END and JOHNSTONE LN, TGA2, 4313, Unit:E816, F1212201
 PA816 F121220329: Assault, 5611 CHURCH RD, PP, btwn WESTVIEW FOREST DR and URBANA LN, TGA2, 3906, Units: E839, PA816
+F121230316: Departmental Acci, EB ANNAPOLIS RD/HILLMEADE RD, PP,  <12699/ 5899>, TGB3, 1815, Units:A839,
 
 Contact: "nhedrick36@aol.com" <nhedrick36@aol.com>
 Sender: alrt510628@alert.princegeorgescountymd.gov
 E836 F121220300: Medic Local, NB CAP BELT OL NO HWY/GLENARDEN PKY, PP, TGA2, 3332, Unit:E836
+
+Contact: "ga_cavaliere1 Cavaliere" <ga_cavaliere1@msn.com>
+Sender: rc.505@c-msg.net
+FRM:rc.505@c-msg.net\nSUBJ:CAD\nMSG:[PG11] F121230151: Acc w/Inj, 9330 BALTIMORE AVE, PP, btwn ERIE ST and FOX ST, TGA2, 1103, Units:A811B, E811\r\n\r\n
+FRM:rc.505@c-msg.net\nSUBJ:CAD\nMSG:[PG11] F121230126: Medic Local, 9020 49TH AVE, PP, btwn BLACKFOOT RD and CHEROKEE ST, TGA2, 1111, Units:A811B, MD812\r\n\r\n
+FRM:rc.505@c-msg.net\nSUBJ:CAD\nMSG:[PG11] F121220412: Fire Alarm-AFA, 9300 CHERRY HILL RD, PP, btwn PARK DR and SOUTH FARM DR, TGA2, 1101, Unit:E811\r\n\r\n
+1 of 2\nFRM:rc.505@c-msg.net\nSUBJ:CAD\nMSG:[PG11] F121220359: PIA Limited Access, NB CAP BELT OL A/SB I95, PP, at NB CAP BELT OL A/SB I95, PP\n(Con't) 2 of 2\n<23268/0>, TGB3, 1119, Units:A811B, E811, SQ814B\r\n\r\n\r\n(End)
+1 of 2\nFRM:rc.505@c-msg.net\nSUBJ:CAD\nMSG:[PG11] F121230187: Pedestrian Struck, 9591 BALTIMORE AVE, PP, btwn INDIAN LN and PERU RD, TGA2, 1103,\n(Con't) 2 of 2\nUnits:A811B, E811, MD812\r\n\r\n(End)
 **********************************************************
 New Milford, NJ
 Contact: Active911.com
@@ -4621,4 +4629,26 @@ No Prior Premise History found for the Location
 {
  ***  *** Dispatch ***
  
+**********************************************************
+Clinton County, NY (Keeseville)
+Contact: natebecca110611@gmail.com
+.... (Keeseville) Time: May 02, 2012 11:59:43 \n AgencyName: Keeseville EMS \n Address: 89 Second St, CHESTERFIELD (WASHINGTON ST/LUMBER ST) \n Resp.Type: 001Ambulance \n Priority: Priority 1
+
+.... (Keeseville) Time: May 01, 2012 19:26:16 
+ AgencyName: Keeseville EMS 
+ Address: 164 HILL ST, AUSABLE (TAYLOR HILL RD, HALLOCK HILL RD/87) 
+ Resp.Type: 001Ambulance 
+ Priority: Priority 1
+ 
+ .... (Keeseville) Time: April 30, 2012 18:54:04 
+ AgencyName: Keeseville EMS 
+ Address: 73 Clinton St, KEESEVILLE VILLAGE (CHESTERFIELD) (DIVISION ST/CHURCH ST) 
+ Resp.Type: 24B02-Unknown status/Other codes not applicable 
+ Priority:
+ 
+ .... (Keeseville) Time: April 30, 2012 17:49:11 
+ AgencyName: Keeseville 
+ Address: 80 PLEASANT ST, KEESEVILLE VILLAGE (AUSABLE) (LIBERTY ST/MAIN ST) 
+ Resp.Type: 003-Chimney Fire 
+ Priority: Priority 1
 **********************************************************

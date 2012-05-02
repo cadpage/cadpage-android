@@ -121,7 +121,9 @@ public class PABucksCountyBParser extends PABucksCountyBaseParser {
         String type = line.substring(19,25).trim();
         entry = type.equals("ENTRY:") || type.equals("COPY") || type.equals("SUPP");
         if (entry && line.length() > 33) {
-          data.strSupp = append(data.strSupp, "\n", line.substring(33).trim());
+          line = line.substring(33).trim();
+          if (line.startsWith("TXT:")) line = line.substring(4).trim();
+          data.strSupp = append(data.strSupp, "\n", line);
         }
         else if (type.equals("DISP") || type.equals("ADD")) {
           data.strUnit = append(data.strUnit, " ", substring(line,27,33).trim());
@@ -129,7 +131,12 @@ public class PABucksCountyBParser extends PABucksCountyBaseParser {
       }
       else if (CONT_MARK_PTN.matcher(line).find()) {
         if (entry && line.length() > 33) {
-          data.strSupp = append(data.strSupp, " ", line.substring(33).trim());
+          line = line.substring(33).trim();
+          if (line.startsWith("TXT:")) {
+            data.strSupp = append(data.strSupp, "\n", line.substring(4).trim());
+          } else {
+            data.strSupp = append(data.strSupp, " ", line);
+          }
         }
       }
       else break;
