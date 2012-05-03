@@ -209,6 +209,19 @@ public class NYChautauquaCountyParserTest extends BaseParserTest {
         "NAME:HC1",
         "INFO:Donna Bartelo / power lines arcing on a pole, in front of \\r");
 
+    doTest("T2",
+        "Subject:MSP CAD\n" +
+        "17:54 *STRUCTURE FIRE -3000 ; 35 CENTER ST ; C/T/V Forestville ; FOR1 ; KEVIN BARTHEL ; KITCHEN FIRE ; E131 E162 R131 T131 \r",
+
+        "SRC:MSP CAD",
+        "TIME:17:54",
+        "CALL:STRUCTURE FIRE -3000",
+        "ADDR:35 CENTER ST",
+        "CITY:Forestville",
+        "NAME:FOR1",
+        "INFO:KEVIN BARTHEL / KITCHEN",
+        "UNIT: FIRE");
+
   }
   
   @Test

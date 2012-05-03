@@ -120,6 +120,21 @@ public class ALLauderdaleCountyParserTest extends BaseParserTest {
 
   }
   
+  @Test
+  public void testChrisPhilips() {
+
+    doTest("T1",
+        "(IPS I/Page) PRI: KLEMS AD: 1650 HWY 72 KILL: @KILLEN POST OFFICE  TIME: 16:21:16 EV: WRECK-INJURY -: BLOCKAGE CS1: BRUSH CREEK RD CS2: POPLAR ST RE:  ALT#",
+        "SRC:KLEMS",
+        "ADDR:1650 HWY 72",
+        "CITY:KILLEN",
+        "PLACE:KILLEN POST OFFICE",
+        "CALL:WRECK-INJURY - BLOCKAGE",
+        "X:BRUSH CREEK RD & POPLAR ST",
+        "INFO:ALT#");
+
+  }
+  
   public static void main(String[] args) {
     new ALLauderdaleCountyParserTest().generateTests("T1");
   }

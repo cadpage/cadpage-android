@@ -817,10 +817,47 @@ public class PABucksCountyBParserTest extends BaseParserTest {
         "NAME:PALE, MARYANNE",
         "PHONE:2157049576",
         "INFO:OVERTURNED SAILBOAT,,THREE SUBJECTS IN THE WAT ER CALLING FOR HELP");
+
+    doTest("T22",
+        "[911 Data]  <SYSTEM GENERATED> TO INT1 FROM FS01  : \n" +
+        "134\n" +
+        "                                                        \n" +
+        " Inc History for: #ED1215775    Xref:                           #PD121221459 \n" +
+        " Entered      05/01/12  21:21:37  BY CT09   803      \n" +
+        " Dispatched   05/01/12  21:22:02  BY FS01   805      \n" +
+        " Initial Type: BALLR   Initial Alarm Level:  1  Final Alarm Level:  1\n" +
+        " Final Type: BALLR (ALLERGIC REACTION) Pri: 4 Dspo:      Prem: [PW]\n" +
+        " EMS Blk:  134099 Fire Blk:  34099  Police Blk:  27001  Map Page: 3033F4 \n" +
+        " Group: EN  Beat: 134 Src:  N ATT:  INV - Investigate  \n" +
+        " Loc: BRIGHTEN PLACE ,27 at 131 N MAIN ST ,27 btwn PARK AV & WISLER AV\n" +
+        " Loc Info: \n" +
+        " Name: TONY                    Addr: NURSE                   Phone: 2673154730\n" +
+        "/2121  (803     )  ENTRY:         60 YOM ALLERGIC REACTION TO UNK SUBSTANCE. JUS\n" +
+        "                                  T ADMINSTERED BACTRIM ABLE TO TALK, RED SWOLLE\n" +
+        "                                  N FACE AND CHEST.\n" +
+        "/2122  (805     )  DISP    A134    #131431   HENLEY, SCOTT \n" +
+        "-- \n" +
+        "DISCLAIMER: This electronic message transmission has been sent by Chalfont Emergency Medical Services, Inc., which may contain confidential or privileged information. This information is intended for the individual or entity named above. If you are not the intended recipient, be aware that any disclosure, copying, distribution or use of the contents of this information is prohibited. If you have received this electronic transmission in error, please notify us immediately by telephone at 215-822-1308 x116, or by electronic mail (reply).\n",
+
+        "SRC:134",
+        "ID:ED1215775",
+        "DATE:05/01/12",
+        "TIME:21:22:02",
+        "CALL:BALLR (ALLERGIC REACTION)",
+        "BOX:F:34099 E:134099",
+        "MAP:3033F4",
+        "PLACE:BRIGHTEN PLACE",
+        "ADDR:131 N MAIN ST",
+        "CITY:CHALFONT",
+        "X:PARK AV & WISLER AV",
+        "NAME:TONY (NURSE)",
+        "PHONE:2673154730",
+        "INFO:60 YOM ALLERGIC REACTION TO UNK SUBSTANCE. JUS T ADMINSTERED BACTRIM ABLE TO TALK, RED SWOLLE N FACE AND CHEST.",
+        "UNIT:A134");
  }
   
   
   public static void main(String[] args) {
-    new PABucksCountyBParserTest().generateTests("T19", "SRC ID DATE TIME CALL BOX MAP PLACE ADDR APT CITY X NAME PHONE INFO UNIT");
+    new PABucksCountyBParserTest().generateTests("T1", "SRC ID DATE TIME CALL BOX MAP PLACE ADDR APT CITY X NAME PHONE INFO UNIT");
   }
 }
