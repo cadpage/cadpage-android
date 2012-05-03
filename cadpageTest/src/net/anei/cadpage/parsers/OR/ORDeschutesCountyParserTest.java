@@ -110,9 +110,17 @@ public class ORDeschutesCountyParserTest extends BaseParserTest {
         "ADDR:6 WALLOWA LOOP",
         "MAP:191128");
 
+    doTest("T13",
+        "Stroke Vision Problems -C-271,221- 8 GROUSE LN 17887 GROUSE LN -Map 191132-17:56:37",
+        "CALL:Stroke Vision Problems",
+        "PRI:C",
+        "UNIT:271,221",
+        "ADDR:8 GROUSE LN",
+        "MAP:191132");
+
   }
   
   public static void main(String args[]) {
-    new ORDeschutesCountyParserTest().generateTests("T13");
+    new ORDeschutesCountyParserTest().generateTests("T1");
   }
 }
