@@ -46,7 +46,7 @@ public class CTTollandCountyParser extends SmartAddressParser {
   
   @Override
   public String getFilter() {
-    return "TN@TollandCounty911.org";
+    return "@TollandCounty911.org";
   }
   
   @Override
