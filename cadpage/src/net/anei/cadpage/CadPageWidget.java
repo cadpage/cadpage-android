@@ -22,6 +22,10 @@ public class CadPageWidget extends AppWidgetProvider {
     
     Log.v("CadpageWidget.onUpdate()");
     
+    // We don't know why, but a short delay here seems to help prevent the widget lockup
+    // problems that have been plaguing Cadpage
+    try { Thread.sleep(50); } catch (InterruptedException ex) {}
+    
     //First Button (Enable/Disable Cadpage)
     Intent aEnabledIntent = new Intent(context, CadPageWidget.class);
     aEnabledIntent.setAction(ACTION_CADPAGE_ENABLED);
