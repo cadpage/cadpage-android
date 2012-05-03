@@ -35,6 +35,7 @@ Sender: messaging@iamresponding.com
 Contact: "cdlj6286@yahoo.com" <cdlj6286@yahoo.com>
 Sender: dispatch@sheriff.us
 Subject:MSP CAD\n22:26 *SINGLE COMPANY ; 12082 HANOVER RD ; C/T/V Hanover ; HC1 ; Donna Bartelo ; power lines arcing on a pole, in front of \r
+Subject:MSP CAD\n17:54 *STRUCTURE FIRE -3000 ; 35 CENTER ST ; C/T/V Forestville ; FOR1 ; KEVIN BARTHEL ; KITCHEN FIRE ; E131 E162 R131 T131 \r
 
 Contact: Allen Koczwara <akoczwara@gmail.com>
 CHAUTAUQUA_COUNTY_SHERIFF (MSP CAD) 19:42 *EMS CALL ; 3711 RT5 46D3 ; C/T/V Dunkirk_T ; ED4 ; ; mother is at lot 46D3, DIB. ; R111 WCA1

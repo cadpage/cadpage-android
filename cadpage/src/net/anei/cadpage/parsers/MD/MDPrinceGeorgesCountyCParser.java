@@ -1,112 +1,108 @@
 package net.anei.cadpage.parsers.MD;
 
+import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /*
-Prince Georges County, MD
-Requires reverse merge support
-Contact: Kyle Armstrong <pgfd19338@yahoo.com>
-Contact: kyle hastings <kwhastings@gmail.com
-Contact: "Trey Kelso" <tkelso@laurelvfd.org>
+Prince Georges County, MD (Replacement for C)
 Contact: "Khaloughi, Kayman" <kkhaloughi@co.pg.md.us>
-Sender: @alert.princegeorgescountymd.gov
-Sender: alrt113574@alert.princegeorgescountymd.gov
+Sender: @alert.princegeorgescountymd.gov - now
+Sender: @alert.co.pg.md.us - soon
 
-A830 Incident: F111850165, Type: BLS Amb, Loc:7008 VARNUM ST, PP, btwn ALLISON ST and 71ST AVE, TalkGroup: TGA2, Box: 3005, Map: 5410 G 9, Text: Medical ProQA recommends
-E830 Incident: F111880399, Type: Medic Local, Loc: 4714 66TH PL, PP, btwn WEBSTER ST and 66TH AVE, TalkGroup: TGA2, Box: 3004, Map: 5410 F 10, Text: Medical ProQA recommends dispatch at this time, Units:A830,PE830
-A830 Incident: F111920132, Type: BLS Amb, Loc: 7321 LANDOVER RD, PP, btwn PINEBROOK AVE and KENT TOWN DR, TalkGroup: TGA2, Box: 3302, Map: 5530 H 2, Text: Police ProQA recommends dispatch at this time, Unit:A830
-A843 Incident: F111840152, Type: Suicide, Loc:2217 HINDLE LN, PP, btwn HALLOW LN and HAWK LN, TalkGroup: TGA2, Box: 1608, Map: 5413 D 9, Text: Police ProQA recommends dispatch at this time, Unit:A843
-E812 Incident: F111860096, Type: Working Code, Loc:KENT HALL - UM 22, UM, at 22 LEHIGH RD, UM, btwn PREINKERT DR and END, TalkGroup: TGA2, Box: 1207, Map: 5409 J 3, Text: UNCON MALE W/HEAD INJ, IFO BUILDING,UMPD ENROUTE, Unit:E812
-E812 Incident: F111870042, Type: Invest Any Type, Loc:CUMBERLAND HALL - UM 122, UM, at 122 VALLEY DR, UM, btwn FARM DR and END, TalkGroup: TG1, Box: 1211, Map: 5409 K 2,Text: BELLS, Unit:E812
-E812 Incident: F111870154, Type: Building Fire, Loc:UM 795 - AVRUM GUDELSKY VET, UM, at 8050 GREENMEADE DR, UM, btwn END and METZEROTT RD, TalkGroup: TA11, Box: 1109, Map: 5287 J 10, Text: SMOKE IN THE BUILD LOADING DOCK AREA UM PD L,L, Units:BO886, E712, E812, E834, E835, TK801, TK814, TW807
-E812 Incident: F111870241, Type: Fire Alarm-AFA, Loc: HAGERSTOWN HALL - UM 258, UM, at 258 ELLICOTT DR, UM, btwn HAGERSTOWN DR and FARM DR, TalkGroup: TG1, Box: 1210, Map: 5409 J 2, Text: GEN FIRE ALRM, Unit:E812
-E812 Incident: F111880093, Type: Working Code, Loc: UM 998 UNIVERSITY COMMONS 3, PP, at 4318 KNOX RD, PP, btwn ROSSBURG DR and STERLING PL, TalkGroup: TGA2, Box: 1203, Map: 5409 K 4, Text: Medical ProQA recommends dispatch at this time, Units:A812, E812, MD812
-E812 Incident: F111880115, Type: House Fire, Loc: 511 EAST INDIAN SPRING DR, TalkGroup: TG1, Box: MAMC,Text: BOX 16-7 4TH DUE ENG...7C, Unit:E812
-E812 Incident: F111880271, Type: BLS Amb, Loc: 4107 BUCK CREEK RD, PP, btwn MORTON PL and TRUDE ST, TalkGroup: TGC2, Box: 3221, Map: 5765 K 2, Text: Medical ProQA recommends dispatch at this time, Unit:E812
-TK812 Incident: F111890027, Type: Street Alarm, Loc: 7867 BEAVER DAM RD, PP, btwn SHEEP RD and RESEARCH RD, TalkGroup: TGA9, Box: 3120, Map: 5288 K 6, Text: Fire ProQA recommends dispatch at this time, Units:BO886, E831, E835, TK812, TK814
-TK812 Incident: F111890028, Type: House Fire, Loc: 36 RIDGE RD #Q, GP, btwn HAMILTON PL and RIDGE CT, TalkGroup: TGA4, Box: 3510, Map: 5289 A 10, Text: CALLER ADV SHE CAN SEE AND SMELL SMOKE...., Units:BO886, E807, E811, E818, E835, TK812, TK814, TK831
-A810 Incident: F111900107, Type: BLS Amb, Loc: 11217 BASSWOOD TER, PP, btwn BASSWOOD CT and END, TalkGroup: TGA2, Box: 4929, Map: 5289 H 3, Text: Medical ProQA recommends dispatch at this time, Unit:A810
-E810 Incident: F111900138, Type: Fire Alarm-AFA, Loc: 14402 LAUREL PL, LP, btwn MULBERRY ST and CATALPA ST, TalkGroup: TG1, Box: 1017, Map: 5169 C 6, Text: Fire ProQA recommends dispatch at this time, Unit:E810
-A810 Incident: F111900241, Type: BLS Amb, Loc: 14200 LAUREL PARK DR, LP, btwn PARK CENTER DR and VAN DUSEN RD, TalkGroup: TGA2, Box: 1016, Map: 5168 K 7, Text: Medical ProQA recommends dispatch at this time RM 103 BED A, Unit:A810
-TW810 Incident: F111910137, Type: House Fire, Loc: 10 MAIN ST, LP, btwn END and LAFAYETTE AVE, TalkGroup: TGA2, Box: 4911, Map: 5169 F 4, Text: CHILD ADV FIRE HERE HIS FRIEND LIVES HERE THEN DISC LINE CANT CALLBACK, Units:AE27, BO886, E831, E849, HE11, HTK06, TK715, TW810
-E820 Incident: F111970009, Type: Medic Local, Loc: 12124 WHEELING AVE, PP, btwn END and BASKERVILLE PL,TalkGroup: TGC2, Box: 4503, Map: 5768 C 7, Text: Medical ProQA recommends dispatch at this time, Units:A823, E820, MD825
-E808 Incident: F111940223, Type: Street Alarm, Loc: 6982 WALKER MILL RD, PP, btwn KAREN BLVD and SHADY GLEN DR, TalkGroup: TGC3, Box: 2617, Map: 5650 J 1, Text: Fire ProQA recommends dispatch at this time, Units:BO883, E808, E826, QT838, TK829 Eff Body:its:BO883, E808, E826, QT838, TK829
-E808 Incident: F111940099, Type: Medic Local, Loc: ROLLINS AVE/DENISE DR, PP,  <1200/ 1199>, TalkGroup:TGA2, Box: 0820, Map: 5650 F 1, Text: Medical ProQA recommends dispatch at this time, Units:A826, E808,MD846
-E808 Incident: F111940284, Type: Medic Local, Loc: 7945 CENTRAL AVE, PP, btwn JONQUIL AVE and WESTHAMPTON AVE, TalkGroup: TGA2, Box: 0806, Map: 5531 A 8, Text: Medical ProQA recommends dispatch at this time, Units:E808, PA838
-E820 Incident: F111970009, Type: Medic Local, Loc: 12124 WHEELING AVE, PP, btwn END and BASKERVILLE PL,TalkGroup: TGC2, Box: 4503, Map: 5768 C 7, Text: Medical ProQA recommends dispatch at this time, Units:A823, E820, MD825
-TK834 Incident: F112000125, Type: Apartment Gas Leak, Loc: 1521 MADISON ST #204, PP, btwn NICHOLSON ST and 16TH AVE, TalkGroup: TGA2, Box: 4401, Map: 5409 D 7, Text: Fire ProQA recommends dispatch at this time, Units:BO884, E855, PE844, TK801, TK834
-E810 Incident: F112050265, Type: Fire Alarm-AFA, Loc: 14402 LAUREL PL, LP, btwn MULBERRY ST and CATALPA ST, TalkGroup: TG1, Box: 1017, Map: 5169 C 6, Text: Fire ProQA recommends dispatch at this time, Unit:E810
-E808 Incident: F112050338, Type: Apartment Gas Leak, Loc: 5231 MARLBORO PIKE, PP, btwn SHAMROCK AVE and LEE JAY DR, TalkGroup: TGA4, Box: 2627, Map: 5650 D 2, Text: Fire ProQA recommends dispatch at this time, Units:BO883, E808, E817, QT838, TK829
-RE833 Incident: F112500109, Type: PIA Limited Access, Loc: WB JOHN HANSON HWY WB/BALTIMORE WASHINGTON PK Y NB, PP, at WB JOHN HANSON HWY WB/BALTIMORE WASHINGTON PKY NB, PP <0, TalkGroup: TGA2, Box: 2213, Map: 5530 A 3, Text: COMPL ADV OF A SIG 9I, LOC IS NEAR THE RAMP LOC IS B4 THE KENILWORTH EXIT ON THE RIGHT// E809, RE833
+Contact: Christopher Olson <lilsmokeeater5@yahoo.com>
+E812 Suicide, HAGERSTOWN HALL - UM 258, UM, at 258 ELLICOTT DR, UM, TGA2, 1210, Units:A812, E812, F121220001
+E816 Non-Emerg Service, BOWIE HEALTH CENTER, PP, at 15001 HEALTH CENTER DR, PP, TGA2, 1608, Unit:E816, F121220004
+E841 House Fire, 3408 OLIVE BRANCH, TGA2, MAMC, Units:BO886, E831, PE841B, SQ849, TW810, F121220113
+House Fire, 3408 OLIVE BRANCH, TGA2, MAMC, Units:BO886, E831, PE841B, SQ849, TW810, F121220113
+E831 House Fire, 3408 OLIVE BRANCH, TGA2, MAMC, Units:BO886, E831, PE841B, SQ849, TW810, F121220113
+E833 BLS Amb, LANDOVER METRO STATION, PP, at 3000 PENNSY DR, PP, TGA2, 3301, Units:A830, E833, F121220089
+A836 BLS Amb, BRANDYWINE FD 40, PP, at 14201 BRANDYWINE RD, PP, TGC2, 4010, Unit:A836, F121220133
+E836 Medic Local, MOLLY BERRY RD/VAN BRADY RD, PP,  <12000/ 13899>, TGC2, 4016, Units:E836, MD845, F121220136
+A848 Medic Local, DUVAL HIGH SCHOOL, PP, at 9880 GOOD LUCK RD, PP, TGA2, 4825, Units:A848, MD830, F121220179
+A848 F121220192: Medic Local, ELEANOR ROOSEVELT HIGH SCHOOL, GP, at 7601 HANOVER PKY, GP, TGA2, 3506, Units:A848, E835, MD830
+E828 F121220324: PIA Limited Access, WB JOHN HANSON HWY WB AT NB CAP BELT OL A HWY, PP, at WB JOHN HANSON HWY WB AT NB CAP BELT OL A HWY, PP <1900/, TGA2, 0619, Units:A830, E828B
+F121230149: Assault, 4351 GARDEN CITY DR, PP, btwn CORPORATE DR and PROFESSIONAL PL, TGA2, 2809, Units:A830, E828B, MD818
+A848 F121230155: BLS Amb, 8600 GLENARDEN PKY, PP, btwn MARTIN LUTHER KING HWY and MCLAIN AVE, TGA2, 3314, Unit:A848
+F121230193: Street Alarm, 3722 HALLOWAY PL, PP, btwn HALLOWAY CT and HALLOWAY NORTH, TA11, 2002, Units:BO887, E843, E845, SQ820, TW839
+A848 F121230210: BLS Amb, DUVAL HIGH SCHOOL, PP, at 9880 GOOD LUCK RD, PP, TGA2, 4825, Unit:A848
 
-Contact:Christopher Olson <lilsmokeeater5@yahoo.com>
-Sender:  alrt383233@alert.princegeorgescountymd.gov
-BC 882 Incident: F120220163, Type: House Gas Leak, Loc: 12112 FORGE LN, PP, btwn FEDERAL LN and FOXHILLLN, TalkGroup: TGG3, Box: 3910, Map: 5412 K 6, Text: Fire ProQA recommends 
-TK828 Incident: F120220163, Type: House Gas Leak, Loc: 12112 FORGE LN, PP, btwn FEDERAL LN and FOXHILL LN, TalkGroup: TGG3, Box: 3910, Map: 5412 K 6, Text: Fire ProQA recommends 
-BC 886 Incident: F120220232, Type: Street Alarm, Loc: 4726 MANGUM RD, PP, btwn 47TH PL and MUSKOGEE ST,TalkGroup: TGG3, Box: 1102, Map: 5288 B 8, Text: *CALLER ADV SMELL SMOKE FRM BASEMENT, Units:BO886, E811B, E812B, TK812, TK814
-WI Incident: F120710288, Type: PIA Limited Access, Loc: MANGO CAFE, BP, at 4719 ANNAPOLIS RD, BP, btwn K ENILWORTH AVE and 48TH ST, TalkGroup: TGA2, Box: 0914, Map: 5410 A 10, Text: 2 VEH ACC UNBK INJ UNK TRAP PED PEOPLE IN OTHER CALL CRYING, Unit:WI
-A855 Incident: F120760259, Type: BLS Amb, Loc: HYATTSVILLE STATION - PGPD, HP, at 5000 RHODE ISLAND AVE, HP, btwn 43RD AVE and FARRAGUT ST, TalkGroup: TGA2, Box: 5511, Map: 5409 K 8, Text: INBTWN THE LOBBY AN D THE COURTYARD OF THE COURTHOUSE,,HAVE A FEM LAYING ON THE GROUND COMPLAINING OF BACK PROBLEMS, Unit:A8 55
-A834 Incident: F120760294, Type: Overdose, Loc: OUTBACK STEAK HOUSE, HP, at 3500 EAST WEST HWY, HP, btwn EDITORS PARK DR and BELCREST RD, TalkGroup: TGA2, Box: 0107, Map: 5409 G 6, Text: Medical ProQA recomme nds dispatch at this time, Units:A834, E801
-E801 Incident: F120760294, Type: Overdose, Loc: OUTBACK STEAK HOUSE, HP, at 3500 EAST WEST HWY, HP, btwn EDITORS PARK DR and BELCREST RD, TalkGroup: TGA2, Box: 0107, Map: 5409 G 6, Text: Medical ProQA recomme nds dispatch at this time, Units:A834, E801
+Contact: Francis Bauer <pgfd702@gmail.com>
+Sender: alrt509933@alert.princegeorgescountymd.gov
+E816 Fire Alarm-AFA, 607 JARVIS CREST CT, PP, btwn END and JOHNSTONE LN, TGA2, 4313, Unit:E816, F1212201
+PA816 F121220329: Assault, 5611 CHURCH RD, PP, btwn WESTVIEW FOREST DR and URBANA LN, TGA2, 3906, Units: E839, PA816
+F121230316: Departmental Acci, EB ANNAPOLIS RD/HILLMEADE RD, PP,  <12699/ 5899>, TGB3, 1815, Units:A839,
 
-Contact: Jrcapt20 <jrcapt20@gmail.com>
-Sender: PSCC
-A820 Incident: F120860131, Type: Medic Local, Loc: 5011 ROBLEE DR, PP, btwn TENBURY CT and LYNFORD CT, TalkGroup: TGA2, Box: 2017, Map: 5651 K 9, Text: Medical ProQA recommends dispatch at this time, Units:A820, E820, MD826=
+Contact: "nhedrick36@aol.com" <nhedrick36@aol.com>
+Sender: alrt510628@alert.princegeorgescountymd.gov
+E836 F121220300: Medic Local, NB CAP BELT OL NO HWY/GLENARDEN PKY, PP, TGA2, 3332, Unit:E836
 
-
-Contact: support@active911.com
-(CAD Feed) Engine 811 Incident: F120060261, Type: Medic Local, Loc: 11000 BALTIMORE AVE #105, PP, btwn SELLMAN RD and HARFORD AVE, TalkGroup: TGA2, Box: 3104, Map: 5288 E 5, Text: Medical ProQA recommends dispatch at this time, Units:A814, E811B, MD810\n\nSent to Prince George's alert recipients (E-mail, Wireless) through Alert Prince George's\n... powered by Cooper Notification's Roam Secure Alert Network\n--\n
-(CAD Feed) Battalion Chief 884 Incident: F120790133, Type: Collapse Invest, Loc: 4316 FARRAGUT ST, HP, btwn 43RD AVE and CHURCH PL, TalkGroup: TGD3, Box: 5511, Map: 5409 K 8, Text: Fire ProQA recommends dispatch at this time, Units:A855, BO884, E855B, MD812, SQ801, SQ814, TS814 Sent to Prince George's alert recipients (E-mail, Wireless) through Alert Prince George's ... powered by Cooper Notification's Roam Secure Alert Network -- You received this message because you registered on Alert Prince George's.  To change your alerting preferences go to https://alert.princegeorgescountymd.gov/mygroups.php Reply to this message with "Stop" to end all notifications from Alert Prince George's to this device
-(CAD Feed) Engine 828 Incident: F120830248, Type: BLS Amb, Loc: NB CAP BELT OL A HWY AT NB BALTIMORE WASHINGTON PKY NB, GP, at NB CAP BELT OL A HWY AT NB BALTIMORE WASHINGTON PKY NB, G, TalkGroup: TGA2, Box: 2833, Map: 5410 J 2, Text: O/L OF THE CAP BELTWAY AT THE PARKWAY MSP ONSCENE W/ AN INJ PERSON FROM A PREV ACCIDENT, Units:A830, E828 Sent to Prince George's alert recipients (E-mail, Wireless) through Alert Prince George's ... powered by Cooper Notification's Roam Secure Alert Network -- You received this message because you registered on Alert Prince George's.\2sTo change your alerting preferences go to https://alert.princegeorgescountymd.gov/mygroups.php Reply to this message with "Stop" to end all notifications from Alert Prince George's to this device\2sresponse_url:http://active911.com/alaHkdEI 
-(CAD Feed) Engine 809 Incident: F121010358, Type: Street Alarm, Loc: 3205 RHODE ISLAND AVE #23, MR, btwn EASTERN AVE and 33RD ST, TalkGroup: TA11, Box: 5502, Map: 5529 F 1, Units:BO884, E809, E855B, TK801, TK809 Sent to Prince George's alert recipients (E-mail, Wireless) through Alert Prince George's ... powered by Cooper Notification's Roam Secure Alert Network -- You received this message because you registered on Alert Prince George's.\2sTo change your alerting preferences go to https://alert.princegeorgescountymd.gov/mygroups.php Reply to this message with "Stop" to end all notifications from Alert Prince George's to this device
-
-Contact: Dewey Thomas <dewey@codemessaging.net>
-[BATT6] Battalion Chief 886 Incident: F121030330, Type: PIA Limited Access, Loc: OL CAP BELTBETWEEN NEW HAMSHIRE AVE & COUNTY LINE, TalkGroup: TGA2, Box: MAMC, Text: PE841 A841 SQ814 BO886 CHANNEL 7 BRAVO, Units:A841, BO886, PE841, SQ814
-[BATT4] Battalion Chief 884 Incident: F121030295, Type: Street Alarm, Loc: 5437 16TH AVE #204, PP, btwn JONATHAN ST and KENNEDY ST, TalkGroup: TA11, Box: 4401, Map: 5409 C 8, Text: Fire ProQA recommends dispatch at this time, Units:BO884, E855B, PE844, TK801, TK834
-[EMS09] Ambulance 809 Incident: F121030289, Type: Acc w/Inj, Loc: EB RIVERDALE RD/EB NB KENILWORTH AVE OFRP EB EAST WEST HWY,, <0/ 0>, TalkGroup: TGA2, Box: 1303, Map: 5410 C 7, Text: RPPD O/S W/ A ACCIDENT, Units:A809, E807
-[EMS09] Ambulance 809 Incident: F121030276, Type: BLS Amb, Loc: 1 YOST PL, PP, btwn ALPACA PL and EAST CAPITOL ST, TalkGroup: TGA2, Box: 0817, Map: 5530 F 8, Text: TO THE REAR.., Unit:A809
-[EMS09] Ambulance 809 Incident: F121030225, Type: Acc w/Inj, Loc: DECATUR ST/46TH AVE, HP, <4600/ 4900>, TalkGroup: TGA2, Box: 0909, Map: 5409 K 8, Text: DUMPTRUCK AND MERCEDES...UNK INJ...HYATTSVILLE PD ADV, Units:A809, E809
-[PG09] Ambulance 809 Incident: F121030225, Type: Acc w/Inj, Loc: DECATUR ST/46TH AVE, HP, <4600/ 4900>, TalkGroup: TGA2, Box: 0909, Map: 5409 K 8, Text: DUMPTRUCK AND MERCEDES...UNK INJ...HYATTSVILLE PD ADV, Units:A809, E809
-[EMS09] Ambulance 809 Incident: F121030187, Type: BLS Amb, Loc: 3551 55TH AVE #3, PP, btwn MACBETH ST and MADISON WAY, TalkGroup: TGA2, Box: 0916, Map: 5530 C 1, Text: Medical ProQA recommends dispatch at this time, Unit:A809
-[BATT6] Battalion Chief 886 Incident: F121030179, Type: House Fire, Loc: 9406 GLEN RIDGE DR, TalkGroup: TGA2, Box: MAHC, Text: SQ849 TW810 A849 FOR THE HOUSEF HOWARD TGB1 HOWARD BOX 6-16, Units:A849B, BO886, SQ849, TW810
-[EMS09] Ambulance 809 Incident: F121030140, Type: Assault, Loc: 55TH AVE/EB LANDOVER RD, PP, <3799/ 5499>, TalkGroup: TGA2, Box: 0911, Map: 5410 C 10, Unit:A809
-[PG09] Engine 809 Incident: F121030103, Type: Outside Gas Leak, Loc: BLADENSBURG ELEMENTARY, BP, at 4915 ANNAPOLIS RD, BP, btwn EDMONSTON RD and 51ST ST, TalkGroup: TGA2, Box: 0914, Map: 5410 A 10, Text: Fire ProQA recommends dispatch at this time, Unit:E809
-[EMS09] Ambulance 809 Incident: F121030099, Type: Medic Local, Loc: PORT TOWNS ELEMENTARY, BP, at 4351 58TH AVE, BP, btwn 57TH AVE and EMERSON ST, TalkGroup: TGA2, Box: 0904, Map: 5410 D 9, Text: Medical ProQA recommends dispatch at this time, Units:A809, MD830
-[PG09] Engine 809 Incident: F121030089, Type: Outside Gas Leak, Loc: BLADENSBURG ELEMENTARY, BP, at 4915 ANNAPOLIS RD, BP, btwn EDMONSTON RD and 51ST ST, TalkGroup: TGA2, Box: 0914, Map: 5410 A 10, Text: Fire ProQA recommends dispatch at this time, Unit:E809
-[PGWFD] Working Incident Incident: F121030003, Type: Building Fire, Loc: 8500 ANNAPOLIS RD, PP, btwn 85TH AVE and SB CAP BELT HWY OFRP WB ANNAPOLIS RD, TalkGroup: TGA3, Box: 2805, Map: 5411 A 7, Text: Fire ProQA recommends dispatch at this time, Units:A806, BO881, EMSDO, MD830, NSO, WI
-[PG09] Truck 809 Incident: F121030003, Type: Building Fire, Loc: 8500 ANNAPOLIS RD, PP, btwn 85TH AVE and SB CAP BELT HWY OFRP WB ANNAPOLIS RD, TalkGroup: TGA2, Box: 2805, Map: 5411 A 7, Text: Fire ProQA recommends dispatch at this time, Units:BO882, E828, E833, E833B, PE830, SQ806, TK809, TW833
+Contact: "ga_cavaliere1 Cavaliere" <ga_cavaliere1@msn.com>
+Sender: rc.505@c-msg.net
+FRM:rc.505@c-msg.net\nSUBJ:CAD\nMSG:[PG11] F121230151: Acc w/Inj, 9330 BALTIMORE AVE, PP, btwn ERIE ST and FOX ST, TGA2, 1103, Units:A811B, E811\r\n\r\n
+FRM:rc.505@c-msg.net\nSUBJ:CAD\nMSG:[PG11] F121230126: Medic Local, 9020 49TH AVE, PP, btwn BLACKFOOT RD and CHEROKEE ST, TGA2, 1111, Units:A811B, MD812\r\n\r\n
+FRM:rc.505@c-msg.net\nSUBJ:CAD\nMSG:[PG11] F121220412: Fire Alarm-AFA, 9300 CHERRY HILL RD, PP, btwn PARK DR and SOUTH FARM DR, TGA2, 1101, Unit:E811\r\n\r\n
+1 of 2\nFRM:rc.505@c-msg.net\nSUBJ:CAD\nMSG:[PG11] F121220359: PIA Limited Access, NB CAP BELT OL A/SB I95, PP, at NB CAP BELT OL A/SB I95, PP\n(Con't) 2 of 2\n<23268/0>, TGB3, 1119, Units:A811B, E811, SQ814B\r\n\r\n\r\n(End)
+1 of 2\nFRM:rc.505@c-msg.net\nSUBJ:CAD\nMSG:[PG11] F121230187: Pedestrian Struck, 9591 BALTIMORE AVE, PP, btwn INDIAN LN and PERU RD, TGA2, 1103,\n(Con't) 2 of 2\nUnits:A811B, E811, MD812\r\n\r\n(End)
+FRM:rc.505@c-msg.net\nSUBJ:CAD\nMSG:[PG11] F121230226: Medic Local, 2213 APACHE ST, PP, btwn RIGGS RD and 23RD AVE, TGA2, 3405, Units:A811B, E834B, MD812\r\n\r\n
 
 */
 
 public class MDPrinceGeorgesCountyCParser extends FieldProgramParser {
   
+  private static final Pattern AGENCY_PTN = Pattern.compile("^([A-Z]{1,2}\\d{3}) ");
+  private static final Pattern CALL_PTN = Pattern.compile("(F\\d{6,}): ");
   private static final Pattern AT_PTN = Pattern.compile("\\bAT\\b", Pattern.CASE_INSENSITIVE);
   
   public MDPrinceGeorgesCountyCParser() {
     super("PRINCE GEORGES COUNTY", "MD",
-           "SRC! Incident:ID! Type:CALL! Loc:ADDR! PP ( AT PP | ) X? TalkGroup:CH% Box:BOX% Map:MAP? Text:INFO+ Units:UNIT+");
+           "CALL ADDR PP? AT? X? PP2? CH! BOX Units:UNIT% UNIT+? ID");
   }
   
   @Override
   public String getFilter() {
-    return "@alert.princegeorgescountymd.gov,PSCC";
+    return "@alert.princegeorgescountymd.gov,@alert.co.pg.md.us,rc.505@c-msg.net";
   }
   
   @Override
   public boolean parseMsg(String body, Data data) {
+    
     int pt = body.indexOf('\n');
     if (pt >= 0) body = body.substring(0,pt).trim();
-    pt = body.indexOf(" Sent to Prince George");
-    if (pt >= 0) body = body.substring(0,pt).trim();
-    body = body.replace(" Incident:", ", Incident:");
+    
+    // Check for leading agency code
+    Matcher match = AGENCY_PTN.matcher(body);
+    if (match.find()) {
+      data.strSource = match.group(1);
+      body = body.substring(match.end()).trim();
+    }
+    
+    // Check for leading call ID
+    match = CALL_PTN.matcher(body);
+    if (match.find()) {
+      data.strCallId = match.group(1);
+      body = body.substring(match.end()).trim();
+    }
+    
     body = body.replace(" Unit:", " Units:");
     if (!parseFields(body.split(","), data)) return false;
     if (data.strUnit.length() == 0) data.strUnit = data.strSource;
     data.strAddress = AT_PTN.matcher(data.strAddress).replaceAll("&");
     return true;
+  }
+  
+  @Override
+  public String getProgram() {
+    return "SRC " + super.getProgram();
+  }
+  
+  private class MyAddressField extends AddressField {
+    @Override
+    public String getFieldNames() {
+      return "PLACE " + super.getFieldNames();
+    }
   }
   
   // The AT field starts with an at keyword
@@ -123,11 +119,6 @@ public class MDPrinceGeorgesCountyCParser extends FieldProgramParser {
       if (data.strAddress.equals(data.strPlace)) data.strPlace = "";
       return true;
     }
-    
-    @Override
-    public String getFieldNames() {
-      return "PLACE " + super.getFieldNames();
-    }
   }
   
   // Cross field only exist if it has the correct keyword
@@ -141,15 +132,6 @@ public class MDPrinceGeorgesCountyCParser extends FieldProgramParser {
     }
   }
   
-  // Info field needs to skip junk
-  private class MyInfoField extends InfoField {
-    @Override
-    public void parse(String field, Data data) {
-      if (field.contains("ProQA ")) return;
-      super.parse(field, data);
-    }
-  }
-  
   // Unit fields join together with comma separators
   private class MyUnitField extends UnitField {
     @Override
@@ -160,11 +142,14 @@ public class MDPrinceGeorgesCountyCParser extends FieldProgramParser {
   
   @Override
   public Field getField(String name) {
-    if (name.equals("PP")) return new SkipField("[A-Z]{0,2}(?: <0)?", true);
+    if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("PP")) return new SkipField("[A-Z]{2}", true);
     if (name.equals("AT")) return new AtField();
     if (name.equals("X")) return new MyCrossField();
-    if (name.equals("INFO")) return new MyInfoField();
+    if (name.equals("PP2")) return new SkipField("[A-Z]{2} *(?:<\\d.*)?|<\\d.*", true);
+    if (name.equals("CH")) return new ChannelField("TG?[A-F]\\d{1,2}", true);
     if (name.equals("UNIT")) return new MyUnitField();
+    if (name.equals("ID")) return new IdField("F\\d{6,}");
     return super.getField(name);
   }
 
@@ -175,5 +160,5 @@ public class MDPrinceGeorgesCountyCParser extends FieldProgramParser {
     return CAP_BELT_PTN.matcher(sAddress).replaceAll("CAPITAL BELTWAY");
   }
   private static final Pattern CAP_BELT_PTN = 
-      Pattern.compile("\\bCAP BELT(?:WAY)?(?: OL A)(?: HWY)?\\b", Pattern.CASE_INSENSITIVE);
+      Pattern.compile("\\bCAP BELT(?:WAY)?(?: OL [A-Z]{1,2})(?: HWY)?\\b", Pattern.CASE_INSENSITIVE);
 }

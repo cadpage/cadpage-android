@@ -4322,45 +4322,6 @@ Sender: lead@ladisp.us
 ************  READY TO ROLL ******************************
 **********************************************************
 **********************************************************
-Prince Georges County, MD (Replacement for C)
-Contact: "Khaloughi, Kayman" <kkhaloughi@co.pg.md.us>
-Sender: @alert.princegeorgescountymd.gov - now
-Sender: @alert.co.pg.md.us - soon
-
-Contact: Christopher Olson <lilsmokeeater5@yahoo.com>
-E812 Suicide, HAGERSTOWN HALL - UM 258, UM, at 258 ELLICOTT DR, UM, TGA2, 1210, Units:A812, E812, F121220001
-E816 Non-Emerg Service, BOWIE HEALTH CENTER, PP, at 15001 HEALTH CENTER DR, PP, TGA2, 1608, Unit:E816, F121220004
-Body:E841 House Fire, 3408 OLIVE BRANCH, TGA2, MAMC, Units:BO886, E831, PE841B, SQ849, TW810, F121220113
-Body:House Fire, 3408 OLIVE BRANCH, TGA2, MAMC, Units:BO886, E831, PE841B, SQ849, TW810, F121220113
-Body:E831 House Fire, 3408 OLIVE BRANCH, TGA2, MAMC, Units:BO886, E831, PE841B, SQ849, TW810, F121220113
-E833 BLS Amb, LANDOVER METRO STATION, PP, at 3000 PENNSY DR, PP, TGA2, 3301, Units:A830, E833, F121220089
-Body:A836 BLS Amb, BRANDYWINE FD 40, PP, at 14201 BRANDYWINE RD, PP, TGC2, 4010, Unit:A836, F121220133
-E836 Medic Local, MOLLY BERRY RD/VAN BRADY RD, PP,\2s<12000/ 13899>, TGC2, 4016, Units:E836, MD845, F121220136
-A848 Medic Local, DUVAL HIGH SCHOOL, PP, at 9880 GOOD LUCK RD, PP, TGA2, 4825, Units:A848, MD830, F121220179
-A848 F121220192: Medic Local, ELEANOR ROOSEVELT HIGH SCHOOL, GP, at 7601 HANOVER PKY, GP, TGA2, 3506, Units:A848, E835, MD830
-E828 F121220324: PIA Limited Access, WB JOHN HANSON HWY WB AT NB CAP BELT OL A HWY, PP, at WB JOHN HANSON HWY WB AT NB CAP BELT OL A HWY, PP <1900/, TGA2, 0619, Units:A830, E828B
-F121230149: Assault, 4351 GARDEN CITY DR, PP, btwn CORPORATE DR and PROFESSIONAL PL, TGA2, 2809, Units:A830, E828B, MD818
-A848 F121230155: BLS Amb, 8600 GLENARDEN PKY, PP, btwn MARTIN LUTHER KING HWY and MCLAIN AVE, TGA2, 3314, Unit:A848
-F121230193: Street Alarm, 3722 HALLOWAY PL, PP, btwn HALLOWAY CT and HALLOWAY NORTH, TA11, 2002, Units:BO887, E843, E845, SQ820, TW839
-A848 F121230210: BLS Amb, DUVAL HIGH SCHOOL, PP, at 9880 GOOD LUCK RD, PP, TGA2, 4825, Unit:A848
-
-Contact: Francis Bauer <pgfd702@gmail.com>
-Sender: alrt509933@alert.princegeorgescountymd.gov
-E816 Fire Alarm-AFA, 607 JARVIS CREST CT, PP, btwn END and JOHNSTONE LN, TGA2, 4313, Unit:E816, F1212201
-PA816 F121220329: Assault, 5611 CHURCH RD, PP, btwn WESTVIEW FOREST DR and URBANA LN, TGA2, 3906, Units: E839, PA816
-F121230316: Departmental Acci, EB ANNAPOLIS RD/HILLMEADE RD, PP,  <12699/ 5899>, TGB3, 1815, Units:A839,
-
-Contact: "nhedrick36@aol.com" <nhedrick36@aol.com>
-Sender: alrt510628@alert.princegeorgescountymd.gov
-E836 F121220300: Medic Local, NB CAP BELT OL NO HWY/GLENARDEN PKY, PP, TGA2, 3332, Unit:E836
-
-Contact: "ga_cavaliere1 Cavaliere" <ga_cavaliere1@msn.com>
-Sender: rc.505@c-msg.net
-FRM:rc.505@c-msg.net\nSUBJ:CAD\nMSG:[PG11] F121230151: Acc w/Inj, 9330 BALTIMORE AVE, PP, btwn ERIE ST and FOX ST, TGA2, 1103, Units:A811B, E811\r\n\r\n
-FRM:rc.505@c-msg.net\nSUBJ:CAD\nMSG:[PG11] F121230126: Medic Local, 9020 49TH AVE, PP, btwn BLACKFOOT RD and CHEROKEE ST, TGA2, 1111, Units:A811B, MD812\r\n\r\n
-FRM:rc.505@c-msg.net\nSUBJ:CAD\nMSG:[PG11] F121220412: Fire Alarm-AFA, 9300 CHERRY HILL RD, PP, btwn PARK DR and SOUTH FARM DR, TGA2, 1101, Unit:E811\r\n\r\n
-1 of 2\nFRM:rc.505@c-msg.net\nSUBJ:CAD\nMSG:[PG11] F121220359: PIA Limited Access, NB CAP BELT OL A/SB I95, PP, at NB CAP BELT OL A/SB I95, PP\n(Con't) 2 of 2\n<23268/0>, TGB3, 1119, Units:A811B, E811, SQ814B\r\n\r\n\r\n(End)
-1 of 2\nFRM:rc.505@c-msg.net\nSUBJ:CAD\nMSG:[PG11] F121230187: Pedestrian Struck, 9591 BALTIMORE AVE, PP, btwn INDIAN LN and PERU RD, TGA2, 1103,\n(Con't) 2 of 2\nUnits:A811B, E811, MD812\r\n\r\n(End)
 **********************************************************
 New Milford, NJ
 Contact: Active911.com
