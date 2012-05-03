@@ -20,46 +20,7 @@ public class CadPageWidget extends AppWidgetProvider {
   @Override
   public void onUpdate(Context context,AppWidgetManager appWidgetManager, int[] appWidgetIds){
     
-    Log.v("CadpageWidget.onUpdate()");
-    
-    // We don't know why, but a short delay here seems to help prevent the widget lockup
-    // problems that have been plaguing Cadpage
-    try { Thread.sleep(50); } catch (InterruptedException ex) {}
-    
-    //First Button (Enable/Disable Cadpage)
-    Intent aEnabledIntent = new Intent(context, CadPageWidget.class);
-    aEnabledIntent.setAction(ACTION_CADPAGE_ENABLED);
-    PendingIntent actionPendingIntent = PendingIntent.getBroadcast(context, 0, aEnabledIntent, 0);
-
-    
-    //Second Button (Enable/Disable Alerts)
-    Intent bEnabledIntent = new Intent(context, CadPageWidget.class);
-    bEnabledIntent.setAction(ACTION_NOTIFICATION);
-    PendingIntent notificationPendingIntent = PendingIntent.getBroadcast(context, 0, bEnabledIntent, 0);
-    
-    //Third Button (Enable/Disable PopUps)
-    Intent cEnabledIntent = new Intent(context, CadPageWidget.class);
-    cEnabledIntent.setAction(ACTION_POPUP);
-    PendingIntent popupPendingIntent = PendingIntent.getBroadcast(context, 0, cEnabledIntent, 0);
-    
-   //Fourth Button (Show Unread Calls. Click to go into History)
-    Intent dEnabledIntent = CallHistoryActivity.getLaunchIntent(context);
-    Log.v("Widget launch intent");
-    ContentQuery.dumpIntent(dEnabledIntent);
-    PendingIntent callsPendingIntent = PendingIntent.getActivity(context, 0, dEnabledIntent, 0);
-
-    
-    RemoteViews views = new RemoteViews(context.getPackageName(), R.layout.widget);
-    views.setOnClickPendingIntent(R.id.widget_button_cadpage, actionPendingIntent);
-    views.setOnClickPendingIntent(R.id.widget_button_notification, notificationPendingIntent);
-    views.setOnClickPendingIntent(R.id.widget_button_popup, popupPendingIntent);
-    views.setOnClickPendingIntent(R.id.widget_text_newcalls, callsPendingIntent);
-
-    SmsMessageQueue instance = SmsMessageQueue.getInstance();
-    int newCallCount = (instance == null ? 0 : instance.getNewCallCount());
-    views.setTextViewText(R.id.widget_text_newcalls, Integer.toString(newCallCount));
-    
-    appWidgetManager.updateAppWidget(appWidgetIds, views);
+    Log.v("CadpageWidget.onUpdate(" + appWidgetIds.length + ")");
     
     updateEnabled(context,appWidgetManager,appWidgetIds);
    
@@ -67,38 +28,59 @@ public class CadPageWidget extends AppWidgetProvider {
   
     
   private void updateEnabled(Context context,AppWidgetManager appWidgetManager, int[] appWidgetIds) {
-    boolean aEnabled = ManagePreferences.enabled();
-    boolean bEnabled = ManagePreferences.notifyEnabled();
-    boolean cEnabled = ManagePreferences.popupEnabled();
-    RemoteViews views = new RemoteViews(context.getPackageName(),R.layout.widget);
-    if (aEnabled){
+    
+    RemoteViews views = new RemoteViews(context.getPackageName(), R.layout.widget);
+    
+    //First Button (Enable/Disable Cadpage)
+    Intent aEnabledIntent = new Intent(context, CadPageWidget.class);
+    aEnabledIntent.setAction(ACTION_CADPAGE_ENABLED);
+    PendingIntent actionPendingIntent = PendingIntent.getBroadcast(context, 0, aEnabledIntent, PendingIntent.FLAG_UPDATE_CURRENT);
+    views.setOnClickPendingIntent(R.id.widget_button_cadpage, actionPendingIntent);
+
+    
+    //Second Button (Enable/Disable Alerts)
+    Intent bEnabledIntent = new Intent(context, CadPageWidget.class);
+    bEnabledIntent.setAction(ACTION_NOTIFICATION);
+    PendingIntent notificationPendingIntent = PendingIntent.getBroadcast(context, 0, bEnabledIntent, PendingIntent.FLAG_UPDATE_CURRENT);
+    views.setOnClickPendingIntent(R.id.widget_button_notification, notificationPendingIntent);
+    
+    //Third Button (Enable/Disable PopUps)
+    Intent cEnabledIntent = new Intent(context, CadPageWidget.class);
+    cEnabledIntent.setAction(ACTION_POPUP);
+    PendingIntent popupPendingIntent = PendingIntent.getBroadcast(context, 0, cEnabledIntent, PendingIntent.FLAG_UPDATE_CURRENT);
+    views.setOnClickPendingIntent(R.id.widget_button_popup, popupPendingIntent);
+    
+   //Fourth Button (Show Unread Calls. Click to go into History)
+    Intent dEnabledIntent = CallHistoryActivity.getLaunchIntent(context);
+    PendingIntent callsPendingIntent = PendingIntent.getActivity(context, 0, dEnabledIntent, PendingIntent.FLAG_UPDATE_CURRENT);
+    views.setOnClickPendingIntent(R.id.widget_text_newcalls, callsPendingIntent);
+
+    if (ManagePreferences.enabled()){
       views.setImageViewResource(R.id.widget_button_cadpage, R.drawable.cadpage_widget_logo);
+      views.setViewVisibility(R.id.widget_button_notification,View.VISIBLE);
+      views.setViewVisibility(R.id.widget_button_popup,View.VISIBLE );
+      views.setViewVisibility(R.id.widget_text_newcalls, View.VISIBLE);
     } else {
       views.setImageViewResource(R.id.widget_button_cadpage, R.drawable.cadpage_widget_logo_disable);  
+      views.setViewVisibility(R.id.widget_button_notification,View.INVISIBLE);
+      views.setViewVisibility(R.id.widget_button_popup,View.INVISIBLE );
+      views.setViewVisibility(R.id.widget_text_newcalls, View.INVISIBLE);
     }
-    if (bEnabled){
+    if (ManagePreferences.notifyEnabled()){
       views.setImageViewResource(R.id.widget_button_notification, R.drawable.cadpage_widget_bell);
     } else {
       views.setImageViewResource(R.id.widget_button_notification, R.drawable.cadpage_widget_bell_disable);
     }
-    if (cEnabled){
+    if (ManagePreferences.popupEnabled()){
       views.setImageViewResource(R.id.widget_button_popup, R.drawable.cadpage_widget_talk);
     } else {
       views.setImageViewResource(R.id.widget_button_popup, R.drawable.cadpage_widget_talk_disable);
     }
     
-    if (aEnabled){
-      views.setViewVisibility(R.id.widget_button_notification,View.VISIBLE);
-      views.setViewVisibility(R.id.widget_button_popup,View.VISIBLE );
-      views.setViewVisibility(R.id.widget_text_newcalls, View.VISIBLE);
-    } else {
-      views.setViewVisibility(R.id.widget_button_notification,View.INVISIBLE);
-      views.setViewVisibility(R.id.widget_button_popup,View.INVISIBLE );
-      views.setViewVisibility(R.id.widget_text_newcalls, View.INVISIBLE);
-    }
     SmsMessageQueue instance = SmsMessageQueue.getInstance();
     int newCallCount = (instance == null ? 0 : instance.getNewCallCount());
     views.setTextViewText(R.id.widget_text_newcalls, Integer.toString(newCallCount));
+    
     appWidgetManager.updateAppWidget(appWidgetIds, views);
   }
   
