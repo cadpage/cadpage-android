@@ -198,6 +198,11 @@ public class PALebanonCountyParserTest extends BaseParserTest {
 
   }
   
+  @Test
+  public void testThomasMiller() {
+    
+  }
+  
   public static void main(String[] args) {
     new PALebanonCountyParserTest().generateTests("T1", "CITY ADDR APT PLACE PRI CALL BOX UNIT");
   }

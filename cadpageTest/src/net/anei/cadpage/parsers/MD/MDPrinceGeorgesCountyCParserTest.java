@@ -354,6 +354,21 @@ public class MDPrinceGeorgesCountyCParserTest extends BaseParserTest {
 
   }
   
+  @Test
+  public void testJohnCrisman() {
+
+    doTest("T1",
+        "A820 F121240285: Acc w/Inj, LARGO RD AT BROCK DR, PP,  <3100/ 3099>, TGA2, 2011, Units:A820, PE846, SQ820",
+        "SRC:A820",
+        "CALL:Acc w/Inj",
+        "ADDR:LARGO RD & BROCK DR",
+        "CH:TGA2",
+        "BOX:2011",
+        "UNIT:A820,PE846,SQ820",
+        "ID:F121240285");
+   
+  }
+  
   public static void main(String[] args) {
     new MDPrinceGeorgesCountyCParserTest().generateTests("T16");
   }
