@@ -116,9 +116,19 @@ public class VARockinghamCountyParserTest extends BaseParserTest {
         "CITY:TIMBERVILLE",
         "ID:2012-022275",
         "X:SHENANDOAH AVE/NEW MARKET RD");
+
+    doTest("T12",
+        "R50 22:29 EMS-DIFFICULTY BREATHING 400 LONE PINE DR HH4 TIM CFS# 2012-032012 CROSS: LONG MEADOW DR/AMERICAN LEGION DR",
+        "SRC:R50",
+        "TIME:22:29",
+        "CALL:EMS-DIFFICULTY BREATHING",
+        "ADDR:400 LONE PINE DR HH4",
+        "CITY:TIMBERVILLE",
+        "ID:2012-032012",
+        "X:LONG MEADOW DR/AMERICAN LEGION DR");
  }
   
   public static void main(String[] args) {
-    new VARockinghamCountyParserTest().generateTests("T11");
+    new VARockinghamCountyParserTest().generateTests("T1");
   }
 }
