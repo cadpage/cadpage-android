@@ -100,6 +100,15 @@ public class FLSarasotaCountyParserTest extends BaseParserTest {
         "MAP:G147",
         "TIME:20:37:53",
         "UNIT:BN2,BN3,E16,E18,EMS1,R12,R8,SQ8");
+
+    doTest("T12",
+        "SARASOTA COUNTY EVENT TYPE: STRUCTURE FIRE Location: 2911 N LOCKWOOD RIDGE RD: @GILLESPIE VILLAGE APTS AREA: G033 MUN: NCTY TIME: 18:42:00  Disp: BN2,E5,E6,E7,EMS1,R5,R6,SQ9,T41,TRK5",
+        "CALL:STRUCTURE FIRE",
+        "ADDR:2911 N LOCKWOOD RIDGE RD",
+        "MAP:G033",
+        "PLACE:GILLESPIE VILLAGE APTS",
+        "TIME:18:42:00",
+        "UNIT:BN2,E5,E6,E7,EMS1,R5,R6,SQ9,T41,TRK5");
   }
   
   @Test

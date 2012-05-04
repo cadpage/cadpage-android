@@ -1964,6 +1964,11 @@ public class PABucksCountyAParserTest extends BaseParserTest {
         "CALL:GENERAL ALERT",
         "PLACE:STA19, ANY AVAIL STATION 19 CHIEF OFFICER PHONE FIRE COMMUNICATIONS");
 
+    doTest("T2",
+        "(Important message from Bucks County RSAN) A134 ***test test test test*** Sent by mss911 Bucks to SQ134, mss911 Bucks (Voice/Fax Dialer, E-mail accounts, Pagers, Cell phones) through Bucks County RSAN",
+        "CALL:GENERAL ALERT",
+        "PLACE:A134 ***test test test test***");
+
   }
   
   

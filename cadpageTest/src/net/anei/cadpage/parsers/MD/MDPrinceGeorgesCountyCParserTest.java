@@ -172,6 +172,35 @@ public class MDPrinceGeorgesCountyCParserTest extends BaseParserTest {
         "UNIT:A848",
         "ID:F121230210");
 
+    doTest("T16",
+        "F121240261: PIA Limited Access, IL 495 PRIOR TO THE COUNTY LINE, TGA2, MAMC, Units:A841, BO886, PE841B, SQ814B",
+        "CALL:PIA Limited Access",
+        "ADDR:IL 495 PRIOR TO THE COUNTY LINE",
+        "CH:TGA2",
+        "BOX:MAMC",
+        "UNIT:A841,BO886,PE841B,SQ814B",
+        "ID:F121240261");
+
+    doTest("T17",
+        "F121240264: PIA Limited Access, NB CAP BELT OL A HWY AT NB BALTIMORE WASHINGTON PKY NB, PP, at NB CAP BELT OL A HWY AT NB BALTIMORE WASHINGTON PKY NB, P, TGB3, 2833, Units:A830, E828B, SQ814B",
+        "CALL:PIA Limited Access",
+        "ADDR:NB CAP BELT OL A HWY & NB BALTIMORE WASHINGTON PKY NB",
+        "MADDR:CAPITAL BELTWAY & BALTIMORE WASHINGTON PKY",
+        "CH:TGB3",
+        "BOX:2833",
+        "UNIT:A830,E828B,SQ814B",
+        "ID:F121240264");
+
+    doTest("T18",
+        "F121240280: Medic Local, MAGNOLIA GARDENS NURSG HOME, PP, at 8200 GOOD LUCK RD, PP, TGA2, 4807, Units:A84S8, MD818",
+        "CALL:Medic Local",
+        "PLACE:MAGNOLIA GARDENS NURSG HOME",
+        "ADDR:8200 GOOD LUCK RD",
+        "CH:TGA2",
+        "BOX:4807",
+        "UNIT:A84S8,MD818",
+        "ID:F121240280");
+
   }
   
   @Test
@@ -326,6 +355,6 @@ public class MDPrinceGeorgesCountyCParserTest extends BaseParserTest {
   }
   
   public static void main(String[] args) {
-    new MDPrinceGeorgesCountyCParserTest().generateTests("T1");
+    new MDPrinceGeorgesCountyCParserTest().generateTests("T16");
   }
 }
