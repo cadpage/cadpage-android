@@ -200,7 +200,16 @@ public class PALebanonCountyParserTest extends BaseParserTest {
   
   @Test
   public void testThomasMiller() {
-    
+
+    doTest("T1",
+        "(Sta 2@19:42) DAUPHIN EAST HANOVER 123 AUTOMATIC LN SF - Dwelling Fire WORKING STRUCTURE FIRE T2 Fire-Box EMS-Box\n\n" +
+        "To unsubscribe reply STOP",
+
+        "CITY:East Hanover Twp, DAUPHIN COUNTY",
+        "ADDR:123 AUTOMATIC LN",
+        "CALL:SF - Dwelling Fire WORKING STRUCTURE FIRE",
+        "UNIT:T2");
+
   }
   
   public static void main(String[] args) {
