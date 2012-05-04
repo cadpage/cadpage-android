@@ -43,6 +43,10 @@ Contact: "ecashff@aol.com" <ecashff@aim.com>
 Sender: MAILBOX@hrecc.org
 C60 EMS-FALLS 273 CENTER ST TIM CFS# 2012-022275 CROSS: SHENANDOAH AVE/NEW MARKET RD
 
+Contact: Wayne Crider <wcrider15@gmail.com>
+Sender: MAILBOX@hrecc.org
+R50 22:29 EMS-DIFFICULTY BREATHING 400 LONE PINE DR HH4 TIM CFS# 2012-032012 CROSS: LONG MEADOW DR/AMERICAN LEGION DR
+
 
 *** NOT IMPLEMENTED ***
 Contact: Michael Roper <ropermw2@gmail.com>

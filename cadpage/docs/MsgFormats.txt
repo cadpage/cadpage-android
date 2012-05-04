@@ -4332,9 +4332,19 @@ Contact: Martin Mikhail <martin.rsengineering@gmail.com>
 Sender: messaging@iamresponding.com
 Subject:34-4\n  2012-00000089                          WATR F WATER                Priority  1\r\nIncident Location  2305 W BANGS AV  \r
 **********************************************************
+Halifax County, NC
+Contact: Brandon Lindsey <blindseynfd@gmail.com>
+Dispatch A3 subclass (include Pender County, NC?)
+HalifaxCoE911@HalifaxNC911.com S: M:HalifaxCoE911:* JACKSON ST // 7TH ST* * * ROANOKE RAPIDS* * * * * WRECK NOPI* * * * C181,C182,FI14* * * * *
+HalifaxCoE911@HalifaxNC911.com S: M:HalifaxCoE911:* HWY 158 // AVE* * * ROANOKE RAPIDS* * * * * WRECK NOPI* * * * EMS4,EMS6,FI14* * * * *
+HalifaxCoE911@HalifaxNC911.com S: M:HalifaxCoE911:* 1403 EAST 10TH ST* * * ROANOKE RAPIDS* * * * * FIRE-ELEC* * * * FI14* * * * *
+HalifaxCoE911@HalifaxNC911.com S: M:HalifaxCoE911:* PILAND ST* * * ROANOKE RAPIDS* * * * * SPECIAL ASSG* * * * F1402,FI14* * * * *
+HalifaxCoE911@HalifaxNC911.com S: M:HalifaxCoE911:* SUBWAY // JULLIAN R ALLSBROOK* * * ROANOKE RAPIDS* * * * * WRECK NOPI* * * * FI14* * * * *
+HalifaxCoE911@HalifaxNC911.com S: M:HalifaxCoE911:* 93 ROANOKE AVE* * * ROANOKE RAPIDS* * * * * FIRE-SMOKE* * * * FI14* * * * *
+**********************************************************
+**********************************************************
 **********************************************************
 ************  READY TO ROLL ******************************
-**********************************************************
 **********************************************************
 **********************************************************
 New Milford, NJ
@@ -4344,7 +4354,6 @@ Sender: miccom@nnjmicu.org <miccom@nnjmicu.org>
 (I-2012-000063)FFIRA @ 105 OLD NEW BRIDGE ROAD  , NEW MILFORD BORO - WATER FLOW ALARM AT ZANZARI'S 
 303 CANCEL: #12-0034873 New Milford Boro *745 Chestnut St Paged:15:34 Enrte:15:36 Scene:15:38 Avail:15:48 Cxl Rsn: Refused Medical Aid Code:
 (I-2012-000067)FBRSH @ 413 BOULEVARD  , NEW MILFORD BORO - 
-**********************************************************
 **********************************************************
 Northumberland County, PA
 Contact: Chris Yetter <co50ffyetter@gmail.com>

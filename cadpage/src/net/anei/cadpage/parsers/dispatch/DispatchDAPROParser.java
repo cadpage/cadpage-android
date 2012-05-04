@@ -1,6 +1,8 @@
 package net.anei.cadpage.parsers.dispatch;
 
 import java.util.Properties;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
@@ -48,6 +50,7 @@ C30 EMS-TRAUMA INJURIES E SPOTSWOOD AVE & MORGAN AVE ELK CFS# 2010-094660
 C30 EMS-DIFFICULTY BREATHING 3240 THOROUGHFARE RD ELK CFS# 2010-094548 CROSS: WHISPERING WINDS TRL/EPPARD LN
 C30 EMS-DIFFICULTY BREATHING 320 E ROCKINGHAM ST ELK CFS# 2010-094840 CROSS: JACKSON AVE/PAGE ST
 R35 EMS-ILLNESS 516 W SPOTSWOOD TRL ELK CFS# 2011-018309 CROSS: SHENANDOAH AVE/2ND ST
+R50 22:29 EMS-DIFFICULTY BREATHING 400 LONE PINE DR HH4 TIM CFS# 2012-032012 CROSS: LONG MEADOW DR/AMERICAN LEGION DR
 
 King George County, VA
 KGFR1 MOTOR VEHICLE ACCIDENT KINGS HWY & BIG TIMBER RD CFS# 2012-007738 Run# 000668
@@ -106,21 +109,31 @@ public class DispatchDAPROParser extends FieldProgramParser {
     return true;
   }
   
+  private static final Pattern TIME_PTN = Pattern.compile("^(\\d\\d:\\d\\d) ");
   private class MyAddressField extends AddressField {
     
     @Override
     public void parse(String field, Data data) {
       
       // First token is always the source
-      Parser p = new Parser(field);
-      data.strSource = p.get(' ');
-      field = p.get();
+      int pt = field.indexOf(' ');
+      if (pt < 0) abort();
+      data.strSource = field.substring(0,pt);
+      field = field.substring(pt+1).trim();
+      
+      // Might be followed by a dispatch time
+      Matcher match = TIME_PTN.matcher(field);
+      if (match.find()) {
+        data.strTime = match.group(1);
+        field = field.substring(match.end()).trim();
+      }
+      
       super.parse(field, data);
     }
     
     @Override
     public String getFieldNames() {
-      return "SRC CALL ADDR CITY";
+      return "SRC TIME CALL ADDR CITY";
     }
   }
   
