@@ -44,6 +44,10 @@ North Annville Township BLACKS BRIDGE RD HOSTETTER LN AREA OF SF - Dwelling Fire
 North Annville Township BLACKS BRIDGE RD HOSTETTER LN AREA OF BF - Barn Fire Barn Fire FG3  Box is In-Service Auth Dep 6 SQ12 T6 T6-1  Fire-Box 6-03 E
 (Sta 12@12:30) East Hanover Twp DAUPHIN COUNTY 257 BOW CREEK RD=AREA OF BF - Barn Fire FG 5 E1-1 TK12 Fire-Box EMS-Box\n\nTo unsubscribe reply STOP
 
+Contact: Thomas Miller <rattielover35@yahoo.com>
+Sender: km911alert@gmail.com
+(Sta 2@19:42) DAUPHIN EAST HANOVER 123 AUTOMATIC LN SF - Dwelling Fire WORKING STRUCTURE FIRE T2 Fire-Box EMS-Box\n\nTo unsubscribe reply STOP
+
 */
 
 public class PALebanonCountyParser extends SmartAddressParser {
@@ -53,6 +57,9 @@ public class PALebanonCountyParser extends SmartAddressParser {
     Pattern.compile("^(.* Twp) "),
     Pattern.compile("^City of ([^ ]*) "),
     Pattern.compile("^(.*) Borough ")
+  };
+  private static final String[] DAUPHIN_EAST_HANOVER_STRINGS = new String[]{
+    "DAUPHIN EAST HANOVER "
   };
   private static final Pattern COUNTY_PTN = Pattern.compile("^[^ ]+ COUNTY\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern CALL_PREFIX_PTN =
@@ -81,7 +88,16 @@ public class PALebanonCountyParser extends SmartAddressParser {
         break;
       }
     }
-    if (data.strCity.length() == 0) return false;
+    if (data.strCity.length() == 0) {
+      for (String prefix : DAUPHIN_EAST_HANOVER_STRINGS) {
+        if (body.toUpperCase().startsWith(prefix)) {
+          data.strCity = "East Hanover Twp, DAUPHIN COUNTY";
+          body = body.substring(prefix.length()).trim();
+          break;
+        }
+      }
+      if (data.strCity.length() == 0) return false;
+    }
     
     // Check for county qualifier
     Matcher match = COUNTY_PTN.matcher(body);

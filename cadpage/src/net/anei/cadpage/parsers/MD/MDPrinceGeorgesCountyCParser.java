@@ -52,6 +52,9 @@ FRM:rc.505@c-msg.net\nSUBJ:CAD\nMSG:[PG11] F121220412: Fire Alarm-AFA, 9300 CHER
 1 of 2\nFRM:rc.505@c-msg.net\nSUBJ:CAD\nMSG:[PG11] F121230187: Pedestrian Struck, 9591 BALTIMORE AVE, PP, btwn INDIAN LN and PERU RD, TGA2, 1103,\n(Con't) 2 of 2\nUnits:A811B, E811, MD812\r\n\r\n(End)
 FRM:rc.505@c-msg.net\nSUBJ:CAD\nMSG:[PG11] F121230226: Medic Local, 2213 APACHE ST, PP, btwn RIGGS RD and 23RD AVE, TGA2, 3405, Units:A811B, E834B, MD812\r\n\r\n
 
+Contact: John Crisman <pumperdriver@gmail.com>
+A820 F121240285: Acc w/Inj, LARGO RD AT BROCK DR, PP,  <3100/ 3099>, TGA2, 2011, Units:A820, PE846, SQ820
+
 */
 
 public class MDPrinceGeorgesCountyCParser extends FieldProgramParser {
