@@ -299,6 +299,7 @@ public class DispatchBParser extends SmartAddressParser {
   
   private void setup() {
     setupCallList(
+        "ACCIDENT INJURIES",
         "ACCIDENT MVA WITH INJURIES",
         "ACCIDENT W/ INJURIES",
         "ACCIDENT WITH INJURIES",
@@ -341,6 +342,7 @@ public class DispatchBParser extends SmartAddressParser {
         "DOMESTIC DISTURBANCE",
         "DUMPSTER FIRE",
         "ELEC HAZ/PWR REPT DISCONNECTED",
+        "ELECTRICAL HAZARD",
         "EMERGENACY RUN",
         "EMS CALL",
         "EMS LIFELINE CALL",
@@ -352,6 +354,7 @@ public class DispatchBParser extends SmartAddressParser {
         "FALLS (GRD/FLR) POSS DANGER BO",
         "FIGHT",
         "FIRE ALARM",
+        "FIRE ALARM COMMERCIAL/INDUST",
         "FIRE CALL",
         "FIRE INDUSTRIAL",
         "FIRE/GENERAL ALARM-COMM STRUC",
@@ -395,6 +398,7 @@ public class DispatchBParser extends SmartAddressParser {
         "ODOR / OTHER THAN SMOKE",
         "OTHER-FIRE",
         "POSSIBLE OPEN BURN",
+        "REFINERY/TANK FARM/FUEL STORAG",
         "RES (SINGLE) HEAT DETECTOR",
         "ROAD HAZARD",
         "SEIZURES",
@@ -417,6 +421,7 @@ public class DispatchBParser extends SmartAddressParser {
         "TRAUMATIC INJURY",
         "TRAFF OR TRANSPT ACC/MVA W/INJ",
         "TRAFFIC CONTRO",
+        "TRAFFIC CONTROL",
         "TRAUMATIC INJ - DANGEROUS",
         "TREE_DOWN",
         "TREES/WIRES DOWN URGENT",
@@ -424,6 +429,7 @@ public class DispatchBParser extends SmartAddressParser {
         "UNCONSCIOUS/FAINTING",
         "UNCONSCIOUS/FAINTING (NEAR)",
         "UNCONSCIOUS SUBJECT",
+        "UNCONTAINED HAZMAT",
         "UNK PROBLEM-LIFE STAT QUESTION",
         "UNKNOWN/PERSON DOWN",
         "UNKNOWN PROBLEM",

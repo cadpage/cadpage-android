@@ -1281,7 +1281,7 @@ John Smith (33424584534)
 Bill Stone (3428820123)
 Joan Black (3429963432)
 
-%2012/Porter EMS, IL            // Payment pending
+%2012/Porter EMS, IL            // Paid
 %%04/06/2012
 Medic 11        (2194053540)
 Medic 12        (2194055126)

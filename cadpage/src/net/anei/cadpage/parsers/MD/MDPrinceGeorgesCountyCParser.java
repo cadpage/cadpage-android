@@ -29,6 +29,10 @@ A848 F121230155: BLS Amb, 8600 GLENARDEN PKY, PP, btwn MARTIN LUTHER KING HWY an
 F121230193: Street Alarm, 3722 HALLOWAY PL, PP, btwn HALLOWAY CT and HALLOWAY NORTH, TA11, 2002, Units:BO887, E843, E845, SQ820, TW839
 A848 F121230210: BLS Amb, DUVAL HIGH SCHOOL, PP, at 9880 GOOD LUCK RD, PP, TGA2, 4825, Unit:A848
 
+F121240261: PIA Limited Access, IL 495 PRIOR TO THE COUNTY LINE, TGA2, MAMC, Units:A841, BO886, PE841B, SQ814B
+F121240264: PIA Limited Access, NB CAP BELT OL A HWY AT NB BALTIMORE WASHINGTON PKY NB, PP, at NB CAP BELT OL A HWY AT NB BALTIMORE WASHINGTON PKY NB, P, TGB3, 2833, Units:A830, E828B, SQ814B
+F121240280: Medic Local, MAGNOLIA GARDENS NURSG HOME, PP, at 8200 GOOD LUCK RD, PP, TGA2, 4807, Units:A84S8, MD818
+
 Contact: Francis Bauer <pgfd702@gmail.com>
 Sender: alrt509933@alert.princegeorgescountymd.gov
 E816 Fire Alarm-AFA, 607 JARVIS CREST CT, PP, btwn END and JOHNSTONE LN, TGA2, 4313, Unit:E816, F1212201
@@ -143,10 +147,10 @@ public class MDPrinceGeorgesCountyCParser extends FieldProgramParser {
   @Override
   public Field getField(String name) {
     if (name.equals("ADDR")) return new MyAddressField();
-    if (name.equals("PP")) return new SkipField("[A-Z]{2}", true);
+    if (name.equals("PP")) return new SkipField("[A-Z]{1,2}", true);
     if (name.equals("AT")) return new AtField();
     if (name.equals("X")) return new MyCrossField();
-    if (name.equals("PP2")) return new SkipField("[A-Z]{2} *(?:<\\d.*)?|<\\d.*", true);
+    if (name.equals("PP2")) return new SkipField("[A-Z]{1,2} *(?:<\\d.*)?|<\\d.*", true);
     if (name.equals("CH")) return new ChannelField("TG?[A-F]\\d{1,2}", true);
     if (name.equals("UNIT")) return new MyUnitField();
     if (name.equals("ID")) return new IdField("F\\d{6,}");
