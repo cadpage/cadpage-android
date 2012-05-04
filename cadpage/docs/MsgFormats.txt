@@ -1034,6 +1034,11 @@ CAD:ST56* Unconscious / Fainting* 805 PLUMOSA AVENUE* FRUITLAND PARK*
 CAD:ST56* Miscellaneous* 303 URICK STREET* FRUITLAND ACRES* APT 4F* FRUITLAND PARK*
 CAD:ST56* Traffic / Transportation Accident* 305 CR 466A* CENTRAL FLORIDA NURSERY* FRUITLAND PARK*
 ***************************************************************************
+Manatee County, FL (FLManateeCountyParser)
+Location: SR70 EB FR I75 NB UB Estimated Address: alias EXIT 217 UB TYPE CODE: ACCIDENT W/ INJURIES - FIRE/EMS INSIDE LOCATION: SUB TYPE: RE-HIGH MECHANISM (ROLLOVER) TIME: 17:33:02 MAP GRID: 1913-D
+Location: 9913 289TH ST E MY Estimated Address TYPE CODE: OUTSIDE FIRE INSIDE LOCATION: SUB TYPE: LARGE OUTSIDE FIRE (THREAT RESIDENTIAL) TIME: 19:21:37 MAP GRID: 2207-A
+Location: 9913 289TH ST E MY Estimated Address TYPE CODE: OUTSIDE FIRE INSIDE LOCATION: SUB TYPE: BRUSH FIRE (THREAT BLDG) TIME: 17:32:16 MAP GRID: 2207-A
+***************************************************************************
 Sarasota County, FL (FLSarasotaCountyParser)
 SARASOTA COUNTY EVENT TYPE: ODOR-INSIDE Location: 4546 DEER CREEK BLVD NCTY G225 TIME: 21:39:20  Disp: BN3,E14,E15,R14
 SARASOTA COUNTY EVENT TYPE: STRUCTURE FIRE Location: 4681 MACEACHEN BLVD NCTY G146 TIME: 18:23:38  Disp: BN3,E11,E12,E8,R2,R7,T18,TRK11
@@ -4364,29 +4369,6 @@ S ANTHRACITE ST & W HIGH ST * SHA * FIRE - BRUSH * Dispatch: FP 80,ENG 41,BR 153
 19 N GRANT ST * SHA * FIRE - DWELLING - 1ST ALARM * Dispatch: FP 80,ENG 41,TK 32,S/CH 4,SQ 21,SQ 11,ENG 11,S/CH 1 ,ENG 51,SQ 66,AMB 919,SH 21,S/CH 3,S/CH 2,RES 62 ENG 11,SH 21,TK 32,ENG 41,ENG 51,RES 62,FP 80
 123 N FRANKLIN ST * SHA * FIRE - DWELLING - 1ST ALARM * Dispatch: FP 80,ENG 41,TK 32,S/CH 4,SQ 21,SQ 11,MICU 90\r
 **********************************************************
-Manatee County, FL
-Contact: "Lee Whitehurst" <lwhitehurst@emfr.org>
-Sender: 93001
-Location: SR70 EB FR I75 NB UB Estimated Address: alias EXIT 217 UB TYPE CODE: ACCIDENT W/ INJURIES - FIRE/EMS INSIDE LOCATION: SUB TYPE: RE-HIGH MECHANISM (ROLLOVER) TIME: 17:33:02 MAP GRID: 1913-D
-Location: 9913 289TH ST E MY Estimated Address TYPE CODE: OUTSIDE FIRE INSIDE LOCATION: SUB TYPE: LARGE OUTSIDE FIRE (THREAT RESIDENTIAL) TIME: 19:21:37 MAP GRID: 2207-A
-Location: 9913 289TH ST E MY Estimated Address TYPE CODE: OUTSIDE FIRE INSIDE LOCATION: SUB TYPE: BRUSH FIRE (THREAT BLDG) TIME: 17:32:16 MAP GRID: 2207-A
-E612 OUT OF SERVICE T613 IN SERVICE/ECCTODD
-Location: 9913 289TH ST E MY Estimated Address TYPE CODE: OUTSIDE FIRE INSIDE LOCATION: SUB TYPE: BRUSH FIRE (THREAT BLDG) TIME: 17:32:16 MAP GRID: 2207-A
-Location: 35100 SR 64 E MY Estimated Address: @FAULKNER FARMS TYPE CODE: TRAUMATIC INJURIES INSIDE LOCATION: SUB TYPE: RE-UNCONSCIOUS OR ARREST TIME: 19:04:35 MAP GRID: 1602-B
-Location: 9913 289TH ST E MY Estimated Address TYPE CODE: OUTSIDE FIRE INSIDE LOCATION: SUB TYPE: LARGE OUTSIDE FIRE (THREAT RESIDENTIAL) TIME: 19:21:37 MAP GRID: 2207-A
-Location: SINGLETARY RD/289TH ST E MY Estimated Address TYPE CODE: OUTSIDE FIRE INSIDE LOCATION: SUB TYPE: BRUSH FIRE TIME: 15:07:03 MAP GRID: 2218-C
-Location: 30771 BETTS RD MY Estimated Address TYPE CODE: OUTSIDE FIRE INSIDE LOCATION: SUB TYPE: LARGE OUTSIDE FIRE TIME: 15:16:08 MAP GRID: 2208-A
-Location: 6520 219TH ST E UB Estimated Address TYPE CODE: OUTSIDE FIRE INSIDE LOCATION: SUB TYPE: BRUSH FIRE TIME: 13:31:53 MAP GRID: 1721-C
-Location: 40721 11TH AVE E MY Estimated Address TYPE CODE: OUTSIDE FIRE INSIDE LOCATION: SUB TYPE: BRUSH FIRE TIME: 18:11:48 MAP GRID: 1432-E
-Location: 71ST AVE E/VERNA BETHANY RD MY Estimated Address TYPE CODE: OUTSIDE FIRE INSIDE LOCATION: SUB TYPE: BRUSH FIRE W/ UNK THREAT TIME: 14:26:20 MAP GRID: 1725-F
-Location: 25606 73RD AVE E MY Estimated Address TYPE CODE: OUTSIDE FIRE INSIDE LOCATION: SUB TYPE: LARGE OUTSIDE FIRE W/ UNK THREAT TIME: 14:31:14 MAP GRID: 1726-F
-Location: 25008 75TH AVE E MY Estimated Address TYPE CODE: OUTSIDE FIRE INSIDE LOCATION: SUB TYPE: BRUSH FIRE TIME: 09:29:29 MAP GRID: 1726-F
-
-Contact: Daniel Cacchiotti <dpcacchiotti@gmail.com>
-Sender: 9418123029 <user phone>
-Estimated Address: EST 17993 SR 70 E UB TYPE CODE: ACCIDENT W/ INJS (FIRE/EMS) INSIDE LOCATION: SUB TYPE: RE-UNK STATUS/OTHER CODES N/A TIME: 00:49:38 MAP GRID
-Location: 11031 GATEWOOD DR UB Estimated Address TYPE CODE: TEST CALL FOR ECC INSIDE LOCATION: SUB TYPE:  TIME: 11:06:59 MAP GRID: 1132-E
-Location: 71ST AVE E/VERNA BETHANY RD MY Estimated Address TYPE CODE: OUTSIDE FIRE INSIDE LOCATION: SUB TYPE: BRUSH FIRE W/ UNK THREAT TIME: 14:26:20 MAP GRID:
 **********************************************************
 Erie County, PA (alternate)
 Contact: Matthew Whiting <firefighter015@gmail.com>
@@ -4450,9 +4432,7 @@ Fire - Unauthorized Burn  9279 Aqua Dr                   - 447A3   - Unauth BUrn
 MED - ASSAULT        - 7246 GLEN HILL                 - SA585 - ACADIAN: Unit:    740         9941959,ACADIAN: The cross street was verified by caller.,ACADIAN: Law enforcement on scene; it is safe for the crew to enter.,ACADIAN: assult to head unk age male,ACADIAN: [ProQA Session Aborted] Medical Professional,Transferred incident: Remote   Reference Number: 20120428-ZN16-0222 by Jacobs, Angela From ACADIAN,Interface has sent an ack message for CAM-2012-0010500 to the
 Med - Unconscious Pe - 7838 Sun Forest                -       - 585C1   - 24 yo female went over to comps resd to visit his son; comp states female started drinking some wine and passed out; comp states she is breathing ; does not know what to do with female[Shared],Multi-Agency BCLE Incident #: BCSO-2012-0109700,This incident WIND-2012-0010491 has been sent to ACADIAN via the CAD2CAD Interface. [Shared],Acknowledgement Received from ACADIAN 20120428-ZN16-0059 [Shared],Unit - 76
 Med - Sick Person    - 8216 Glen Boro                 - 553F8 - 50 YO F HAVING CHEST PAINS[Shared],Multi-Agency BCLE Incident #: BCSO-2012-0109833,[BCLE] has closed their incident [BCSO-2012-0109833],Automatic Case Number(s) issued for Camelot FD: CAM-2012-000000521. [Shared],
-Fire                            6126 Kimble Mill                577D3    GVIL-2012-000001031  - C thinks the grease fire in his pit is getting out of hand.  in his backyard[Shared],Multi-Agency BCLE Incident #: BCSO-2012-0110061,C has
-
-turned off burners [Shared],Automatic Case Number(s) issued for Geronimo Village FD: GVIL-2012-000001031. [Shared],
+Fire                            6126 Kimble Mill                577D3    GVIL-2012-000001031  - C thinks the grease fire in his pit is getting out of hand.  in his backyard[Shared],Multi-Agency BCLE Incident #: BCSO-2012-0110061,C has turned off burners [Shared],Automatic Case Number(s) issued for Geronimo Village FD: GVIL-2012-000001031. [Shared],
 07:35 pm   10410 Stallion Bay             :Rspnd for: Med - Sick Person    - 546C6   - D7FR-2012-000000330\r
 * BCFA Medical Emergency  - Ih 35 S Nb / Sb Ih 35 S Onrp S - 712A5   - unk where other fighters went[Shared],they have been drinking[Shared],no weapons[Shared],C says at los amigos there was a fight, three people are on the ground, req ems[Shared],Multi-Agency BCLE Incident #: BCSO-2012-0110791,Automatic Case Number(s) issued for Jarret FD: JARR-2012-000000207. [Shared],
 Respond For Med - Sick Person             @25715 Fan Flower                             ;      ;                              Cross- Dead End/BEAUTYBERRY                                                            ;452B7;BBUL-2012-000000532 ;C said a woman came by her house,is now seizing, 24 yo.[Shared],Invalid address received:520  AT&T MOBILITY -SE SECTOR-QF 451.[Shared],A cellular re-bid has occurred, check the ANI/ALI Viewer for details[Shared],Multi-Agency BCLE Incident #: BCSO-2012-0110748,Automatic Case Number(s) issued for Bexa
