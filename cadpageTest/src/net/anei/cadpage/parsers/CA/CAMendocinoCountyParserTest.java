@@ -129,6 +129,16 @@ public class CAMendocinoCountyParserTest extends BaseParserTest {
         "GPS:X: -123 3.36672  Y: 38 54.7440",
         "UNIT:B1113 HOP CLD ADMIN",
         "INFO:big rig fire - chp responding");
+
+    doTest("T12",
+        "[CAD Page]  MEDICAL, DELTA; 875 BAUER RD ,LAYT ; Inc# 002829X: -123 29.8632  Y: 39 41.2492 LVF; 65 YOF DIFF BREATHING",
+        "CALL:MEDICAL, DELTA",
+        "ADDR:875 BAUER RD",
+        "CITY:LAYTONVILLE",
+        "ID:002829",
+        "GPS:X: -123 29.8632  Y: 39 41.2492",
+        "UNIT:LVF",
+        "INFO:65 YOF DIFF BREATHING");
   }
   
   public static void main(String[] args) {

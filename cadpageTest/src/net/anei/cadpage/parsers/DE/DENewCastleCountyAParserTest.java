@@ -236,6 +236,21 @@ public class DENewCastleCountyAParserTest extends BaseParserTest {
  
   }
   
+  @Test
+  public void testTimLynch() {
+
+    doTest("T1",
+        "(17CAD) [eFB] F00 14:42 1 - T:69D6O (L3*RESIDENTIAL FIRE) L:4 ATKINS AV ,MW *LANCASTER VILLAGE - X:btwn LANCASTER AV ~ WATSON AV DESC: odor of smoke in res.?!?!?!",
+        "SRC:17CAD",
+        "CALL:69D6O (L3*RESIDENTIAL FIRE)",
+        "ADDR:4 ATKINS AV",
+        "MADDR:4 ATKINS AVE",
+        "PLACE:LANCASTER VILLAGE",
+        "X:btwn LANCASTER AV ~ WATSON AV",
+        "INFO:odor of smoke in res.?!?!?!");
+    
+  }
+  
   public static void main(String[] args) {
     new DENewCastleCountyAParserTest().generateTests("T1");
   }

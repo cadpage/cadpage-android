@@ -854,6 +854,41 @@ public class PABucksCountyBParserTest extends BaseParserTest {
         "PHONE:2673154730",
         "INFO:60 YOM ALLERGIC REACTION TO UNK SUBSTANCE. JUS T ADMINSTERED BACTRIM ABLE TO TALK, RED SWOLLE N FACE AND CHEST.",
         "UNIT:A134");
+
+    doTest("T23",
+        "[911 Data]  <SYSTEM GENERATED> TO INT1 FROM FS01  : \n" +
+        "129/134\n" +
+        "                                                    \n" +
+        " Inc History for: #ED1216062    Xref:                           #PD121250085 \n" +
+        " Received     05/04/12  02:15:38  BY PD04   794      \n" +
+        " Entered      05/04/12  02:16:25  BY PD04   794      \n" +
+        " Dispatched   05/04/12  02:16:54  BY FS01   807      \n" +
+        " Initial Type: AFAINT  Initial Alarm Level:  1  Final Alarm Level:  1\n" +
+        " Final Type: AFAINT(SYNCOPAL EPISODE (SYNCOPE)) Pri: 3 Dspo:      Prem: [  ]\n" +
+        " EMS Blk:  129106 Fire Blk:  78035  Police Blk:  75401  Map Page: 3034B7 \n" +
+        " Group: EN  Beat: 129 Src:  9 ATT:  MTC - Meet the Complainant  \n" +
+        " Loc: 3465 PICKERTOWN RD ,75  btwn KINGS CT & RED COAT FARM DR\n" +
+        " Loc Info: \n" +
+        " Name: BOWLING,LORI            Addr:                         Phone: 2159975078\n" +
+        "/0216  (794     )  ENTRY:         45 YOF,,FAINTED,,FEELS NAUSEA\n" +
+        "/0216  (807     )  DISP    A134    #125093   PANKOE,RYAN \n" +
+        "-- \n" +
+        "DISCLAIMER: This electronic message transmission has been sent by Chalfont Emergency Medical Services, Inc., which may contain confidential or privileged information. This information is intended for the individual or entity named above. If you are not the intended recipient, be aware that any disclosure, copying, distribution or use of the contents of this information is prohibited. If you have received this electronic transmission in error, please notify us immediately by telephone at 215-822-1308 x116, or by electronic mail (reply).\n",
+
+        "SRC:129/134",
+        "ID:ED1216062",
+        "DATE:05/04/12",
+        "TIME:02:16:54",
+        "CALL:AFAINT(SYNCOPAL EPISODE (SYNCOPE))",
+        "BOX:F:78035 E:129106",
+        "MAP:3034B7",
+        "ADDR:3465 PICKERTOWN RD",
+        "CITY:WARRINGTON TWP",
+        "X:KINGS CT & RED COAT FARM DR",
+        "NAME:BOWLING,LORI",
+        "PHONE:2159975078",
+        "INFO:45 YOF,,FAINTED,,FEELS NAUSEA",
+        "UNIT:A134");
  }
   
   

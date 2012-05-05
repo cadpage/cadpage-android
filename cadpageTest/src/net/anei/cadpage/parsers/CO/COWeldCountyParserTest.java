@@ -572,6 +572,25 @@ public class COWeldCountyParserTest extends BaseParserTest {
         "UNIT:3751",
         "INFO:CAME ACROSS A TA / REQ LAW & PM'S ROUTINE / ProQA Medical Case 84958 Aborted 1. Caller hung up / id:7");
 
+    doTest("T2",
+        "Fr:<wrc-hiplink@weldcorcc.co\n" +
+        "Su:Dispatch\n" +
+        "Txt: 37\n" +
+        "SIPF\n" +
+        "D\n" +
+        "31195 6TH ST\n" +
+        "KE\n" +
+        "37\n" +
+        "SPEECH SLURRED, VISION IS BLURRY, PAIN ON 1 SIDE OF HEAD\n\n\n" +
+        "id:12",
+
+        "CODE:SIPF",
+        "CALL:SICK AND INJURED POLICE/FIRE",
+        "ADDR:31195 6TH ST",
+        "SRC:KE",
+        "UNIT:37",
+        "INFO:SPEECH SLURRED, VISION IS BLURRY, PAIN ON 1 SIDE OF HEAD / id:12");
+
   }
   
   public static void  main(String[] args) {

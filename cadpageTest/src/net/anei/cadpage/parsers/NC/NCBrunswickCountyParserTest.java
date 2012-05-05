@@ -181,6 +181,19 @@ public class NCBrunswickCountyParserTest extends BaseParserTest {
         "INFO:Traffic-Transportation Incident");
 
   }
+  
+  @Test
+  public void testDanielMcCarthy() {
+
+    doTest("T1",
+        "S:[calabashvems]  M:7045:998 WATERVIEW LN CAROLINA SHORES 12-034031 17:20:33 Sick Person (Specific Diagnosis) 2 YOM SICK AND THROWING UP FOR 5 DAYS\n",
+        "ADDR:998 WATERVIEW LN",
+        "CITY:CAROLINA SHORES",
+        "ID:12-034031",
+        "TIME:17:20:33",
+        "INFO:Sick Person (Specific Diagnosis) 2 YOM SICK AND THROWING UP FOR 5 DAYS");
+
+  }
 
   public static void main(String[] args) {
     new NCBrunswickCountyParserTest().generateTests("T1", "PLACE ADDR CITY NAME PHONE CODE ID TIME CALL INFO");
