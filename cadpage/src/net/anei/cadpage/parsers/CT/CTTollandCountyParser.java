@@ -33,6 +33,10 @@ Contact: R R <rlandry0769@gmail.com>
 Contact: Stuart Cobb <scobb213@gmail.com>
 (TN Alert) 140 RIVER RD / Willington * Lyon Manor BLS Commital 06:29 Cross Street DEPOT RD / VILLAGE ST 2011-00000860
 
+Contact: Peter Krawetzky <pkrawetzky@gmail.com>
+Sender: north-coventry@tollandcounty911.com
+(TN Alert) 957 N  RIVER RD / Coventry ALS DIFF BREATHING 17:59 Cross Street MERROW RD / GOOSE LN 2012-00000183
+
 */
 
 public class CTTollandCountyParser extends SmartAddressParser {
@@ -46,7 +50,7 @@ public class CTTollandCountyParser extends SmartAddressParser {
   
   @Override
   public String getFilter() {
-    return "@TollandCounty911.org";
+    return "@TollandCounty911.org,@TollandCounty911.org";
   }
   
   @Override
