@@ -137,6 +137,19 @@ public class WVKanawhaCountyParserTest extends BaseParserTest {
     
   }
   
+  @Test
+  public void testParser2() {
+
+    doTest("T1",
+        "Metro911@metro911.org Msg: Metro911:HIGH WATER / FLOODING ISSUES reported at NEW GOFF MOUNTAIN RD // 1ST AVE S in CROSS LANES on 05/05/12 13:30",
+        "CALL:HIGH WATER / FLOODING ISSUES",
+        "ADDR:NEW GOFF MOUNTAIN RD & 1ST AVE S",
+        "CITY:CROSS LANES",
+        "DATE:05/05/12",
+        "TIME:13:30");
+
+  }
+  
   public static void main(String[] args) {
     new WVKanawhaCountyParserTest().generateTests("T1", "CALL ADDR CITY DATE TIME");
   }
