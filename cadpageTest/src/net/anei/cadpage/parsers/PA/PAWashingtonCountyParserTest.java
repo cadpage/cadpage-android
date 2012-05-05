@@ -11,7 +11,7 @@ public class PAWashingtonCountyParserTest extends BaseParserTest {
     setParser(new PAWashingtonCountyParser(), "WASHINGTON COUNTY", "PA");
   }
   
-  @Test
+//  @Test
   public void testParser1() {
 
     doTest("T1",
@@ -70,7 +70,7 @@ public class PAWashingtonCountyParserTest extends BaseParserTest {
    
   }
   
-  @Test
+//  @Test
   public void testParser2() {
 
     doTest("T1",
@@ -99,7 +99,7 @@ public class PAWashingtonCountyParserTest extends BaseParserTest {
   
   }
   
-  @Test
+//  @Test
   public void testParser3() {
 
     doTest("T1",
@@ -134,7 +134,7 @@ public class PAWashingtonCountyParserTest extends BaseParserTest {
         "CALL:UNCONSCIOUS PT / IS BREATHING");
   }
   
-  @Test
+//  @Test
   public void testParser4() {
     
     doTest("T1",
@@ -147,7 +147,7 @@ public class PAWashingtonCountyParserTest extends BaseParserTest {
         "CALL:UNCONSCIOUS PT / IS BREATHING");
   }
   
-  @Test
+//  @Test
   public void testVictorFedrick() {
 
     doTest("T1",
@@ -199,6 +199,18 @@ public class PAWashingtonCountyParserTest extends BaseParserTest {
         "CITY:LONG BRANCH",
         "X:ROCK DR & CREST DR",
         "CALL:FIRE ALARM");
+  }
+  
+  @Test
+  public void testJanisMiller() {
+
+    doTest("T1",
+        "(911) Loc: 36 LYNNCREST CIR CECI Xsts: HILLCREST DR DEAD END Type: ALMED Time: 15:36:27 Loc Com: KOSANOVICH RES//7247462905",
+        "ADDR:36 LYNNCREST CIR",
+        "CITY:CECIL TWP",
+        "X:HILLCREST DR DEAD END",
+        "CALL:ALMED",
+        "INFO:KOSANOVICH RES//7247462905");
 
   }
   
