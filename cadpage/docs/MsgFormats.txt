@@ -2154,6 +2154,11 @@ LOC: 640 SCARLET OAK DR BELL TYPE CODE: STRUCT SubType: CALLER NAME: CLRNUM: TIM
 LOC: CHAPPARAL RD/E TRIMMIER RD BELL TYPE CODE: TTA SubType: CALLER NAME: CLAY/CBF&R 513 CLRNUM: 830-426-0696 TIME: 15:38:34 Comments: TX 8304260696 -097.690451 +031.030079 CALLED IN BY A CENTAL BELL FIRE &RECUE NOT BLOCKING, BOTH VEH IN DIRT 5 INDIVIDUAL INVOLVED - 4 FEM, 1 MALE 2 VEH ACC Number of patients: 5 Age: Unknown Range Gender: Unknown Conscious: Unknown Breathing: Unknown ProQA chief complaint code: 29 Responder script: Age unknown, 2 VEH ACC. RED HYUNDAI SEDAN VS TAN SUBURBAN SUBURBAN RADIATOR IS LEAKING AIRBAG DEPLOYED ON SEDAN
 LOC: CHAPPARAL RD/SCARLET OAK DR BELL TYPE CODE: GRASS SubType: CITY CALLER NAME: SW 706 CLRNUM:  TIME: 17:50:51
 *******************************************************************************
+Bexar County, TX (TXBexarCountyParser)
+Fire - Structure     - Stockport / Chipping           - 585E1 - comp states a house is on fire[Shared],Multi-Agency BCLE Incident #: BCSO-2012-0105711,Automatic Case Number(s) issued for Camelot FD: CAM-2012-000000502. [Shared],Automatic Case Number(s) issued for Windcrest FD: WIND-2012-000000571. [Shared],Automatic Case Number(s) issued for Converse FD: CONV-2012-000000420. [Shared],Automatic Case Number(s) issued for Kirby FD: KIRB-2012-000000372. [Shared],
+Med - Sick Person         - 17694 Shepherd Rd              - 711F7   -  31 yo female...knee pain cause by past injury pt says it's a cut[Shared],Multi-Agency BCLE Incident #: BCSO-2012-0107603,[BCLE] has closed their incident [BCSO-2012-0107603],Automatic Case Number(s) issued for Lytle FD: LYTL-2012-000000122. [Shared],This incident LYTL-2012-0010282 has been sent to ACADIAN via the CAD2CAD Interface
+Fire - Vehicle            Ih 10 W / Tarpon Dr            - 447A2   - engine smoking c has pulled to the side of the road...tan f350...wb on 10..doesn't seem to be leaking fluid[Shared],A cellular re-bid has occurred, check the ANI/ALI Viewer for details[Shared],Invalid address received:3511  AT&T MOBILITY-SE SECTOR-QF 446F.[Shared],A cellular re-bid has occurred, check the ANI/ALI Viewer for details[Shared],Invalid address received:3511  AT&T MOBILITY-SE SECTOR-QF
+*******************************************************************************
 Collin County, TX (TXCollinCountyParser)
 11048794  FIRE PUBLIC ASSIST  2701 ASPEN CT IN COLLIN COUNTY  COUNTY ROAD 392  [LCFD DIST: LCF1 GRID: 1322]  UNITS: LCF1  ST RMK: 7K4  CFS RMK 22:10 REQ FD TO CHECK BP...40 YRO FEMALE.   {CAD001 22:13}
 11031079 First Responders 3274 Almeta LN in Collin County FM 546 [LCFD DIST: LCF1 GRID: 1331]
@@ -4451,6 +4456,7 @@ MVC                       - 23101 - 24511 Campbellton - HICKORY WAY/RANCH TRAIL 
 Med - Sick Person    - 6739 Glen Fair                 - 553E7 - C says her niece had a seizure, 34 yo.  fell onto concrete[Shared],Invalid address received:343  SPRINT-E SECTOR-QF 553C8.[Shared],Multi-Agency BCLE Incident #: BCSO-2012-0110931,Automatic Case Number(s) issued for Camelot FD: CAM-2012-000000525. [Shared],
 Alarm - Fire         - 9503 Millers Rdg               -       - 553E7   - POE;SMOKE DETECTOR;JOHN GILG @ 653-7947[Shared],Multi-Agency BCLE Incident #: BCSO-2012-0111024,Automatic Case Number(s) issued for Windcrest FD: WIND-2012-000000599. [Shared],Automatic Case Number(s) issued for Camelot FD: CAM-2012-000000527. [Shared],Automatic Case Number(s) issued for Converse FD: CONV-2012-000000442. [Shared],
 Med - Sick Person         - 16927 Ih 35 S Sb               - 711E6   -  23 YOF POSSIBLE BROKEN FOOT/FELL DOWN[Shared],Multi-Agency BCLE Incident #: BCSO-2012-0112109,[BCLE] has closed their incident [BCSO-2012-0112109],Automatic Case Number(s) issued for Lytle FD: LYTL-2012-000000126. [Shared],
+Alarm                - 8210 Ih 35 N                  -       - 552E8   Dept-E108,C145,E145B,120A - Automatic Case Number(s) issued for Windcrest FD: WIND-2012-000000612.,Automatic Case Number(s) issued for Camelot FD: CAM-2012-000000547.,FIRE ALARM-RED LOBSTERS REST.,Backed up C145 with E145B,SINGLE STORY LIGHT SMOKE SHOWING AND SMOKE IN KITCHEN,Automatic Case Number(s) issued for Gardendale FD: GARD-2012-000000134.,
 **********************************************************
 Newton County, MO
 Contact: jeffrey lechliter <jlechliter4512@gmail.com>
@@ -4607,10 +4613,38 @@ Lackawanna County, PA (alternate - Lackawanna Ambulance)
 Contact: Pat Gillott <pgill107@gmail.com>
 Sender: lead@ladisp.us
 06:34AM Sat 04/28 INC#:1219146-1 FROM:320 EMMETT ST, SCRANTON CITY RM:16D  TYPE:CHEST PAIN  to:
-01:03PM Thu 05/03 INC#:1219963-1 FROM:345 PHELPS ST, SCRANTON CITY\2sTYPE:EMERGENT EVAL\2sto:
-11:16AM Thu 05/03 INC#:1219939-1 FROM:1435 N WASHINGTON AVE, SCRANTON CITY RM:Kwik mart\2sTYPE:EMERGENT EVAL\2sto:
-10:06AM Thu 05/03 INC#:1219924-1 FROM:APT - LUTHERWOOD- 1 LAKE SCR RD RM:211\2sTYPE:PUBLIC ASSIST\2sto:
-00 Meade St, Dunmore\2s1000 MEADE ST, DUNMORE, PA\2sMODE:BLS\2sPU: 0915 (02/02)
-08:14AM Thu 05/03 INC#:1219854-1 FROM:EVERGREEN H.C.C. - formerly MTH Skilled RM:7\2sTYPE:DR APPOINTMENT PT:Barbara Martin\2sto: DELTA MEDIX -
-06:23AM Thu 05/03 INC#:1219903-1 FROM:1020 MULBERRY ST, SCRANTON CITY RM:Nelvelle Hall Rm 107\2sTYPE:UNKNOWN\2sto:
+01:03PM Thu 05/03 INC#:1219963-1 FROM:345 PHELPS ST, SCRANTON CITY  TYPE:EMERGENT EVAL  to:
+11:16AM Thu 05/03 INC#:1219939-1 FROM:1435 N WASHINGTON AVE, SCRANTON CITY RM:Kwik mart  TYPE:EMERGENT EVAL  to:
+10:06AM Thu 05/03 INC#:1219924-1 FROM:APT - LUTHERWOOD- 1 LAKE SCR RD RM:211  TYPE:PUBLIC ASSIST  to:
+00 Meade St, Dunmore  1000 MEADE ST, DUNMORE, PA  MODE:BLS  PU: 0915 (02/02)
+08:14AM Thu 05/03 INC#:1219854-1 FROM:EVERGREEN H.C.C. - formerly MTH Skilled RM:7  TYPE:DR APPOINTMENT PT:Barbara Martin  to: DELTA MEDIX -
+06:23AM Thu 05/03 INC#:1219903-1 FROM:1020 MULBERRY ST, SCRANTON CITY RM:Nelvelle Hall Rm 107  TYPE:UNKNOWN  to:
+**********************************************************
+Jefferson County, MO
+Contact: support@active911.com
+Sender: paging@jeffcitymo.org
+(DONOTREPLY) E3  13:39 Line Down  - 1304 MCCARTY -Cross Streets- HAVANA ST, HART ST / HAVANA ST   TREE DOWN ACROSS W MCCARTY STREET - TOOK DOWN POWER LINES AS WELL  Call #: 617 - RP THINKS WIRES ARE DOWN ON MCCARTY  Call #: 617 - RP HEARD A LOUD POPPING SOUND 
+(DONOTREPLY) E1  13:46 Assist Police - 2201 MAIN -Cross Streets- MEMORIAL PARK DR / FOREST HILL AVE   93 REQUESTING WASH DOWN AFTER THE SAFETY PATROL PICNIC. (JUST SEND E1) 
+(DONOTREPLY) Degraffenreid, Jenny 14:24 Medical Emergency 120 DUNKLIN -Cross Streets- W DUNKLIN ST, JEFFERSON ST / MADISON ST S5  
+(DONOTREPLY) AC2 E4 S5 E3 L1  14:48 Fire Alarm - 1201 FAIRGROUNDS -Cross Streets- VILLAGE DR / S COUNTRY CLUB DR, W EDGEWOOD DR   OFFICE AREA 
+(DONOTREPLY) Taylor, Tiffany 15:08 Medical Emergency 711 KANSAS -Cross Streets- WASHINGTON PARK DR / MYRTLE AVE, SOUTH BLVD E1   SUBJ IS NOW TRYING TO LEAVE -  RP WAS ABLE TO GET
+(DONOTREPLY) Degraffenreid, Jenny 16:33 Medical Emergency 406 ATCHISON -Cross Streets- No Cross Streets Found E1   SEIZURE - BEING COMBATIVE 
+(DONOTREPLY) Degraffenreid, Jenny 16:42 Medical Emergency 2021 WILLIAM -Cross Streets- BLAIR DR / DIX RD E3   STOMACH PAIN, FACE IS FLUSH, PRESSURE IN HEAD.  S
+(DONOTREPLY) AC2 L1 E4  16:42 Accident with Injuries - JEFFERSON -Cross Streets-   EMS NOTIFIED  Call #: 691 - METALIC CAR  ELDERLY MALE DRIVER  Call #: 691 - AT CONOCO  UNKNOWN INJURIES  SIL CAR RAN INTO GAURD-RAIL  Call #: 691 - CALLER DOES NOT BELIEVE THIS IS AN ACCIDENT, BUT MAYBE ELDERLY MALE HAVING SOME KIND OF ISSUE  Call #: 691 - VEH IS UP ON GUARD RAIL  Call #: 691 - W/M
+(DONOTREPLY) Degraffenreid, Jenny 16:42 Medical Emergency 2021 WILLIAM -Cross Streets- BLAIR DR / DIX RD L3   STOMACH PAIN, FACE IS FLUSH, PRESSURE IN HEAD.  S
+(DONOTREPLY) Schlitt, Meagen 18:53 Medical Emergency 3038 TRUMAN -Cross Streets- DUPONT CIR / N TEN MILE DR E3   RM 401  RESIDENT MAY BE HAVING HEART ATTACK 
+(DONOTREPLY) AC2 E1 L1 S2 E4  19:22 Structure Fire - ELM -Cross Streets-   WHITE SMOKE COMING FROM FRONT OF BUILDING 
+(DONOTREPLY) Degraffenreid, Jenny 09:41 Medical Emergency 2225 WEATHERED ROCK 4 -Cross Streets- LORENZO GREENE DR / MILLBROOK DR E1   SAYS SHE TRIED TO DRIVE BUT COULDN'T. BLEEDING FR
+(DONOTREPLY) 1101 1401 1110 112 CCPager  16:58 Fire Alarm - 2227 SADDLEBROOKE LAKE -Cross Streets- CHERISH CT / SCRUGGS STATION RD   ALLEN RESIDENCE 
+(DONOTREPLY) ALARM ON SADDLEBROOKE LAKE DR HAS BEEN CANCELLED
+(DONOTREPLY) AC2 E1 L1 S2 E3  08:40 Fire Alarm - 1445 CHRISTY -Cross Streets- OSCAR DR / RAMP 31-970733, TANNER BRIDGE RD   GENERAL  FIRE ALARM - ROOM SMOKE  MID MO ANESTHIA 
+(DONOTREPLY) DC4 E1 L1 S2 E4  23:39 Fire Alarm - 2033 CHRISTY -Cross Streets- VETERANS LN / RT B   Call Number 434 was created from Call Number 433(May  3 2012 11:37PM)  PERIMETER AND FIRE ALARM - OFFICE HALL MOTION DETECTOR #2406 
+(DONOTREPLY) S5  22:59 Accident with Injuries - 1700 INDUSTRIAL -Cross Streets- ARGONNE ST / HUGHES ST   EMS ADV  CAR VS TRAIN-  TRAPPED IN VEH 
+(DONOTREPLY) Batt11  22:59 Extrication - 1700 INDUSTRIAL -Cross Streets- ARGONNE ST / HUGHES ST   UNION PACIFIC ADVISED- THEY CALLED INTO REPORT A PROBLEM - THEY WERE UNSURE OF WHAT THE PROBLEM WAS- THEY HAVE BEEN ADVISED TO STOP ALL TRAIN TRAFFIC  EMS ADV  CAR VS TRAIN-  TRAPPED IN VEH 
+(DONOTREPLY) Gabathuler, Erin 20:08 Medical Alarm 1509 STADIUM -Address Between- MYRTLE AVE / SOUTHWEST BLVD E4   CCEMS ADVISED  KEY - UNDER WHITE ROCK - UNDER/NEX
+(DONOTREPLY)  19:01 Test - 1229 BROADWAY -Cross Streets- W RAILROAD RD, MARION ST / RT NN, MAIN ST   REGIONAL WEST FIRE PROTECTION DISTRICT ALARM AND PAGER TEST. 
+(DONOTREPLY) Gabathuler, Erin 19:46 Medical Emergency 925 DUNKLIN A -Cross Streets- LEE DR, LINN ST / CHESTNUT ST E1   FEMALE WAS SPEAKING WITH THE RP AND THEN HER EYES
+(DONOTREPLY) Suchanek, Celeste 17:51 Medical Emergency 8501 NO MORE VICTIMS -Cross Streets- DEAD END / CORTEZ DR S2   nose bleed   front entrance 
+(DONOTREPLY) E4  18:42 Natural Cover  - 7 HILLS -Cross Streets-   NATURAL COVER FIRE IN THE AREA 
+(DONOTREPLY) Suchanek, Celeste 17:02 Medical Emergency 807 MONROE -Cross Streets- E HESS WAY / E ASHLEY ST E1   FALLEN OFF BIKE 
 **********************************************************
