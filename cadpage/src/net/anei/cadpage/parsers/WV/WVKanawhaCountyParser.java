@@ -26,10 +26,14 @@ Sender: METRO911@metro911.org
 (Message Forwarded by PageGate)  INJURED PERSON reported at 15 RIVER WALK MALL in SOUTH CHARLESTON on 02/15/12 11:57
 (Message Forwarded by PageGate)  UNRESPONSIVE PATIENT reported at 46 RHL BLVD in SOUTH CHARLESTON on 02/17/12 16:10
 
+Contact: Robert Carpenter <robbie2017@gmail.com>
+Sender: Metro911@metro911.org
+Metro911@metro911.org Msg: Metro911:HIGH WATER / FLOODING ISSUES reported at NEW GOFF MOUNTAIN RD // 1ST AVE S in CROSS LANES on 05/05/12 13:30
+
 */
 public class WVKanawhaCountyParser extends MsgParser {
   
-  private static final Pattern MASTER = Pattern.compile("(.+?) reported at (.+?) in (.+?) on (\\d\\d/\\d\\d/\\d\\d) (\\d\\d:\\d\\d)");
+  private static final Pattern MASTER = Pattern.compile("(?:Metro911:)?(.+?) reported at (.+?) in (.+?) on (\\d\\d/\\d\\d/\\d\\d) (\\d\\d:\\d\\d)");
   
   public WVKanawhaCountyParser() {
     super("KANAWHA COUNTY", "WV");
@@ -42,13 +46,10 @@ public class WVKanawhaCountyParser extends MsgParser {
   
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
-    
-    if (!subject.equals("Message Forwarded by PageGate")) return false;
-
     Matcher match = MASTER.matcher(body);
     if (!match.matches()) return false;
     data.strCall = match.group(1).trim();
-    parseAddress(match.group(2).trim(), data);
+    parseAddress(match.group(2).trim().replaceAll("//", "/"), data);
     data.strCity = match.group(3).trim();
     data.strDate = match.group(4);
     data.strTime = match.group(5);

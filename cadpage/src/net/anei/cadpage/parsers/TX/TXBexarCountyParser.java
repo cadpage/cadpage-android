@@ -8,8 +8,6 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /* 
 Bexar County, TX
-Sender: VisiNet.Command@sanantonio.gov
-
 Contact: "Dorian Davis (IT GUY)" <dorian@bexarcountyfire.org>
 Contact: Adam Slater <adam@raymondmartin.com>
 Sender: visinet.command@sanantonio.gov
