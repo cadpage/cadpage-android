@@ -57,6 +57,10 @@ Contact: Andrew H <modernmidnight@gmail.com>
 Sender: rc.1@c-msg.net
 [FB] F00 10:25 1 - T:M29B1 (MVC) L:LIBRARY AV~E MAIN ST ,PK *NEWARK - LI:IFO MCDONALDS - DESC:
 
+Contact: Tim Lynch <tlynch@ofc424.com>
+Sender: rc.50@c-msg.net
+(17CAD) [eFB] F00 14:42 1 - T:69D6O (L3*RESIDENTIAL FIRE) L:4 ATKINS AV ,MW *LANCASTER VILLAGE - X:btwn LANCASTER AV ~ WATSON AV DESC: odor of smoke in res.?!?!?!
+
  */
 
 

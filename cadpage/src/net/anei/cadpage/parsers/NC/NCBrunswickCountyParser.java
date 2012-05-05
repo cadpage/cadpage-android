@@ -38,6 +38,10 @@ Contact: Luke Duke <bigcountrymud@gmail.com>
 Sender: vtext.com@returns.groups.yahoo.com
 ([civietownvfd] )\n1644:375 HIGH HILL DR SW SHALLOTTE 12-030794 18:13:00 Traffic-Transportation Incident
 
+Contact: Daniel McCarthy <mcca6564@student.brunswickcc.edu>
+Sender: pagegate@brunswickes.com
+S:[calabashvems]  M:7045:998 WATERVIEW LN CAROLINA SHORES 12-034031 17:20:33 Sick Person (Specific Diagnosis) 2 YOM SICK AND THROWING UP FOR 5 DAYS\n
+
 */
 
 public class NCBrunswickCountyParser extends DispatchSouthernParser {

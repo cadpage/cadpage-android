@@ -4321,11 +4321,6 @@ Contact: Jim Lull <jlull65@gmail.com>
 Sender: Bob@relaycom.com
 /RELAY /201 TROT BROOK LANE FEMALE FACIAL INJURY\n
 /FROM RELAY /1035 PARKWAY\nFEMALE WITH CHEST PAINS\n
-**********************************************************
-Lackawanna County, PA (alternate)
-Contact: Pat Gillott <pgill107@gmail.com>
-Sender: lead@ladisp.us
-06:34AM Sat 04/28 INC#:1219146-1 FROM:320 EMMETT ST, SCRANTON CITY RM:16D  TYPE:CHEST PAIN  to:
 ********************************************************** 
 Neptune County, NJ (alternate)
 Contact: Martin Mikhail <martin.rsengineering@gmail.com>
@@ -4341,6 +4336,12 @@ HalifaxCoE911@HalifaxNC911.com S: M:HalifaxCoE911:* 1403 EAST 10TH ST* * * ROANO
 HalifaxCoE911@HalifaxNC911.com S: M:HalifaxCoE911:* PILAND ST* * * ROANOKE RAPIDS* * * * * SPECIAL ASSG* * * * F1402,FI14* * * * *
 HalifaxCoE911@HalifaxNC911.com S: M:HalifaxCoE911:* SUBWAY // JULLIAN R ALLSBROOK* * * ROANOKE RAPIDS* * * * * WRECK NOPI* * * * FI14* * * * *
 HalifaxCoE911@HalifaxNC911.com S: M:HalifaxCoE911:* 93 ROANOKE AVE* * * ROANOKE RAPIDS* * * * * FIRE-SMOKE* * * * FI14* * * * *
+**********************************************************
+New Castle County, DE (replace)
+Contact: Tim Lynch <tlynch@ofc424.com>
+Sender: fivepoints17@chiefmessaging.com
+07:58\nPERSON FALLEN\n512 GLOVER RD btwn DENVER RD &\nWESTVIEW\n21B3 Lat:3
+**********************************************************
 **********************************************************
 **********************************************************
 **********************************************************
@@ -4601,4 +4602,15 @@ Sender: 777-154,777-163
  Address: 80 PLEASANT ST, KEESEVILLE VILLAGE (AUSABLE) (LIBERTY ST/MAIN ST) 
  Resp.Type: 003-Chimney Fire 
  Priority: Priority 1
+**********************************************************
+Lackawanna County, PA (alternate - Lackawanna Ambulance)
+Contact: Pat Gillott <pgill107@gmail.com>
+Sender: lead@ladisp.us
+06:34AM Sat 04/28 INC#:1219146-1 FROM:320 EMMETT ST, SCRANTON CITY RM:16D  TYPE:CHEST PAIN  to:
+01:03PM Thu 05/03 INC#:1219963-1 FROM:345 PHELPS ST, SCRANTON CITY\2sTYPE:EMERGENT EVAL\2sto:
+11:16AM Thu 05/03 INC#:1219939-1 FROM:1435 N WASHINGTON AVE, SCRANTON CITY RM:Kwik mart\2sTYPE:EMERGENT EVAL\2sto:
+10:06AM Thu 05/03 INC#:1219924-1 FROM:APT - LUTHERWOOD- 1 LAKE SCR RD RM:211\2sTYPE:PUBLIC ASSIST\2sto:
+00 Meade St, Dunmore\2s1000 MEADE ST, DUNMORE, PA\2sMODE:BLS\2sPU: 0915 (02/02)
+08:14AM Thu 05/03 INC#:1219854-1 FROM:EVERGREEN H.C.C. - formerly MTH Skilled RM:7\2sTYPE:DR APPOINTMENT PT:Barbara Martin\2sto: DELTA MEDIX -
+06:23AM Thu 05/03 INC#:1219903-1 FROM:1020 MULBERRY ST, SCRANTON CITY RM:Nelvelle Hall Rm 107\2sTYPE:UNKNOWN\2sto:
 **********************************************************

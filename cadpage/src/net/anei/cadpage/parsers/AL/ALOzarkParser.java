@@ -34,7 +34,7 @@ public class ALOzarkParser extends SmartAddressParser {
   
   @Override
   public String getFilter() {
-    return "@ozarkdale911.org";
+    return "@ozarkdale911.org,ozarkdale911@gmail.com";
   }
   
   @Override
