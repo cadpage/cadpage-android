@@ -42,6 +42,10 @@ Subject:911\nLocation: 446 BOW ST STOC Xstreet: LOCUST ST WALNUT ST TYPE: STRUCT
 Subject:911\nLocation: 1859 MAIN ST ALLE Xstreet: WASHINGTON ST BRIDGE ST TYPE: STRUCTURE FIRE TIME: 15:19:45 Comments:
 Subject:911\nLocation: 214 DALLY RD LONG Xstreet: ROCK DR CREST DR TYPE: FIRE ALARM TIME: 20:32:03 Comments: WAGNER/MACK RES - 412-716-7984
 
+Contact: Janis Miller <janis.lakus@gmail.com>
+Sender: WashCo911@co.washington.pa.us
+(911) Loc: 36 LYNNCREST CIR CECI Xsts: HILLCREST DR DEAD END Type: ALMED Time: 15:36:27 Loc Com: KOSANOVICH RES//7247462905
+
 
 ** Missing address - not parsed
 FRM:WashCo911 \nSUBJ:911\nMSG:Xstreet:   TYPE: MUTUAL AID REQUEST TIME: 09:10:04 Comments: BETWEEN SANITARUM RD/WAYNESBURG RD & 79\n
@@ -52,7 +56,7 @@ public class PAWashingtonCountyParser extends FieldProgramParser {
   
   public PAWashingtonCountyParser() {
     super("WASHINGTON COUNTY", "PA",
-           "Location:ADDR? Xstreet:X? TYPE:CALL! TIME:SKIP COMMENTS:INFO");
+           "Loc:ADDR/S? Xsts:X? Type:CALL! Time:SKIP Loc_Com:INFO");
   }
   
   @Override
