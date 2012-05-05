@@ -123,6 +123,14 @@ public class CTTollandCountyParserTest extends BaseParserTest {
         "CALL:Lyon Manor BLS Commital",
         "X:DEPOT RD / VILLAGE ST",
         "ID:2011-00000860");
+
+    doTest("T15",
+        "(TN Alert) 957 N  RIVER RD / Coventry ALS DIFF BREATHING 17:59 Cross Street MERROW RD / GOOSE LN 2012-00000183",
+        "ADDR:957 N RIVER RD",
+        "CITY:Coventry",
+        "CALL:ALS DIFF BREATHING",
+        "X:MERROW RD / GOOSE LN",
+        "ID:2012-00000183");
  }
   
   public static void main(String[] args) {
