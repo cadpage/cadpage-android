@@ -30,6 +30,11 @@ Sender: messaging@iamresponding.com
 [1700]  17-11-365 12/19 07:53\nSUNNYDALE RD // MCPHERSON AV, POTT COUNTY\nFIRE - EXTRICATION
 [1700]  17-11-339 11/23 08:32\n20595 MCPHERSON AV, POTT COUNTY\nFIRE - WEED GRASS FIRE\nXST: STATE ORCHARD RD//SUNNYDALE RD
 
+Contact: "kelly.rapier@yahoo.com" <kelly.rapier@yahoo.com>
+Sender: messaging@iamresponding.com
+(1700) 05/06 14:48\n45 I29, POTT COUNTY\nFIRE - CAR AUTOMOBILE FIRE\nXST: 490 ST//ANTIQUE CITY DR
+
+
  */
 
 
@@ -63,13 +68,13 @@ public class IAPottawattamieCountyParser extends FieldProgramParser {
   }
   
   private static final Pattern ID_DATE_TIME_PTN = 
-    Pattern.compile("(\\d\\d-\\d\\d-\\d{3}(?: /\\d\\d-\\d\\d-\\d{3})*) (\\d\\d/\\d\\d) (\\d\\d:\\d\\d)");
+    Pattern.compile("(?:(\\d\\d-\\d\\d-\\d{3}(?: /\\d\\d-\\d\\d-\\d{3})*) )?(\\d\\d/\\d\\d) (\\d\\d:\\d\\d)");
   private class MyIdDateTimeField extends Field {
     @Override
     public void parse(String field, Data data) {
       Matcher match = ID_DATE_TIME_PTN.matcher(field);
       if (!match.matches()) abort();
-      data.strCallId = match.group(1);
+      data.strCallId = getOptGroup(match.group(1));
       data.strDate = match.group(2);
       data.strTime = match.group(3);
     }
