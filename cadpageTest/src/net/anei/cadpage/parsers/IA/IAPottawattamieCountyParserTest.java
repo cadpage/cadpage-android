@@ -199,9 +199,22 @@ public class IAPottawattamieCountyParserTest extends BaseParserTest {
         "X:STATE ORCHARD RD//SUNNYDALE RD");
   }
 
- 
+  @Test
+  public void testParser2() {
+
+    doTest("T1",
+        "(1700) 05/06 14:48\n45 I29, POTT COUNTY\nFIRE - CAR AUTOMOBILE FIRE\nXST: 490 ST//ANTIQUE CITY DR",
+        "SRC:1700",
+        "DATE:05/06",
+        "TIME:14:48",
+        "ADDR:45 I29",
+        "MADDR:45 I 29",
+        "CALL:FIRE - CAR AUTOMOBILE FIRE",
+        "X:490 ST//ANTIQUE CITY DR");
+
+  }
   
   public static void main(String[] args) {
-    new IAPottawattamieCountyParserTest().generateTests("T9");
+    new IAPottawattamieCountyParserTest().generateTests("T1");
   }
 }
