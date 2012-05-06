@@ -4367,18 +4367,6 @@ Sender: miccom@nnjmicu.org <miccom@nnjmicu.org>
 **********************************************************
 **********************************************************
 **********************************************************
-Erie County, PA (alternate)
-Contact: Matthew Whiting <firefighter015@gmail.com>
-Sender: dispatch@townofhamburgny.com
-*2Alarm Activation: General fire alarm at 7207 WARD RD, Boston  c/s: COLE RD . . 17:41:51
-Repage for 7207 WARD RD Note: Call back from alarm company - they spoke to resident reporting an accidental trip . . 17:44:21
-*2EMS: 15 MONTH CHILD - SEIZURES - BLS HOT at BOSTON STATE RD / WILDWOOD DR, Boston . . 14:57:05
-*2Misc Rubbish/Brush, RUBBISH PROBLEM: LEAVES AND UNDERBRUSH ON FIRE IN WOODS WELL AWAY FROM HOUSE at 6754 OMPHALIUS RD, Boston  c/s: EDDY RD . . 13:47
-*2EMS: 70F Uncon Medic at 6714 Hilcroft . . 00:39:43
-*2EMS Auto Accident: AUTO ACCIDENT WITH INJURY POSS ROLL OVER 20 & 29 TO THE HALL at LOWER EAST HILL RD / WOHLHUETER RD, Boston . . 23:16:18
-*2Alarm Activation: general fire alarm at evans nat bank at 7205 BOSTON STATE RD, Boston  c/s: ZIMMERMAN RD   O: EVANS NATIONAL BANK . . 16:11:51
-*2EMS: 69 Years Male Chest pain- medic response at 7898 BOSTON STATE RD #40, Boston  c/s: WILDWOOD DR   O: BOSTON HILLS MOBILE HOME PARK . . 19:09:24
-*2EMS: M/chest pains at 8112 COLE RD, Boston  c/s: OMPHALIUS RD . . 20:05:16
 **********************************************************
 Hanover County, VA
 Contact: James Mayhew <kc4bpx@gmail.com>
