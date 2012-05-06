@@ -25,7 +25,7 @@ public class PANorthumberlandCountyParserTest extends BaseParserTest {
     doTest("T2",
         "desc 202 E PINE ST * YSE * FIRE - DWELLING - 2ND ALARM * Dispatch: ENG 561,TK 542,RES 735,MICU 545,ENG 572,SQ 563,UN 548,CH 505,RH 544 affected loc UN 548",
         "ADDR:202 E PINE ST",
-        "CITY:YSE",
+        "CITY:SNYDER",
         "CALL:FIRE - DWELLING - 2ND ALARM",
         "UNIT:ENG 561,TK 542,RES 735,MICU 545,ENG 572,SQ 563,UN 548,CH 505,RH 544 affected loc UN 548");
 

@@ -70,10 +70,81 @@ public class NYErieCountyRedAlertParserTest extends BaseParserTest {
         "CITY:Boston",
         "X:PA/BO LINE",
         "TIME:13:54:46");
+
+    doTest("T7",
+        "*2Alarm Activation: General fire alarm at 7207 WARD RD, Boston  c/s: COLE RD . . 17:41:51",
+        "CALL:Alarm Activation",
+        "INFO:General fire alarm",
+        "ADDR:7207 WARD RD",
+        "CITY:Boston",
+        "X:COLE RD",
+        "TIME:17:41:51");
+
+    doTest("T8",
+        "*2EMS: 15 MONTH CHILD - SEIZURES - BLS HOT at BOSTON STATE RD / WILDWOOD DR, Boston . . 14:57:05",
+        "CALL:EMS",
+        "INFO:15 MONTH CHILD - SEIZURES - BLS HOT",
+        "ADDR:BOSTON STATE RD & WILDWOOD DR",
+        "CITY:Boston",
+        "TIME:14:57:05");
+
+    doTest("T9",
+        "*2Misc Rubbish/Brush, RUBBISH PROBLEM: LEAVES AND UNDERBRUSH ON FIRE IN WOODS WELL AWAY FROM HOUSE at 6754 OMPHALIUS RD, Boston  c/s: EDDY RD . . 13:47",
+        "CALL:Misc Rubbish/Brush, RUBBISH PROBLEM",
+        "INFO:LEAVES AND UNDERBRUSH ON FIRE IN WOODS WELL AWAY FROM HOUSE",
+        "ADDR:6754 OMPHALIUS RD",
+        "CITY:Boston",
+        "X:EDDY RD",
+        "TIME:13:47");
+
+    doTest("T10",
+        "*2EMS: 70F Uncon Medic at 6714 Hilcroft . . 00:39:43",
+        "CALL:EMS",
+        "INFO:70F Uncon Medic",
+        "ADDR:6714 Hilcroft",
+        "TIME:00:39:43");
+
+    doTest("T11",
+        "*2EMS Auto Accident: AUTO ACCIDENT WITH INJURY POSS ROLL OVER 20 & 29 TO THE HALL at LOWER EAST HILL RD / WOHLHUETER RD, Boston . . 23:16:18",
+        "CALL:EMS Auto Accident",
+        "INFO:AUTO ACCIDENT WITH INJURY POSS ROLL OVER 20 & 29 TO THE HALL",
+        "ADDR:LOWER EAST HILL RD & WOHLHUETER RD",
+        "CITY:Boston",
+        "TIME:23:16:18");
+
+    doTest("T12",
+        "*2Alarm Activation: general fire alarm at evans nat bank at 7205 BOSTON STATE RD, Boston  c/s: ZIMMERMAN RD   O: EVANS NATIONAL BANK . . 16:11:51",
+        "CALL:Alarm Activation",
+        "INFO:general fire alarm at evans nat bank",
+        "ADDR:7205 BOSTON STATE RD",
+        "CITY:Boston",
+        "X:ZIMMERMAN RD",
+        "PLACE:EVANS NATIONAL BANK",
+        "TIME:16:11:51");
+
+    doTest("T13",
+        "*2EMS: 69 Years Male Chest pain- medic response at 7898 BOSTON STATE RD #40, Boston  c/s: WILDWOOD DR   O: BOSTON HILLS MOBILE HOME PARK . . 19:09:24",
+        "CALL:EMS",
+        "INFO:69 Years Male Chest pain- medic response",
+        "ADDR:7898 BOSTON STATE RD",
+        "APT:40",
+        "CITY:Boston",
+        "X:WILDWOOD DR",
+        "PLACE:BOSTON HILLS MOBILE HOME PARK",
+        "TIME:19:09:24");
+
+    doTest("T14",
+        "*2EMS: M/chest pains at 8112 COLE RD, Boston  c/s: OMPHALIUS RD . . 20:05:16",
+        "CALL:EMS",
+        "INFO:M/chest pains",
+        "ADDR:8112 COLE RD",
+        "CITY:Boston",
+        "X:OMPHALIUS RD",
+        "TIME:20:05:16");
   }
   
   public static void main(String[] args) {
-    new NYErieCountyRedAlertParserTest().generateTests("T1", "CALL INFO ADDR APT CITY X PLACE TIME");
+    new NYErieCountyRedAlertParserTest().generateTests("T7", "CALL INFO ADDR APT CITY X PLACE TIME");
   }
 
 }
