@@ -161,10 +161,20 @@ public class NCDavidsonCountyParserTest extends BaseParserTest {
         "ID:2012003053",
         "X:S MAIN ST & GARNER ST",
         "INFO:stomach pains # PAT");
+
+    doTest("T13",
+        "CAD:TK65 TRANSPORT;207 OLD LEXINGTON RD;THOMASVILLE MEDICAL CENTER;FORD ST;HOSPITAL DR E;to Chapel Hill in the am [05/04/12 12:07:13 JEVERHART]",
+        "CALL:TK65 TRANSPORT",
+        "ADDR:207 OLD LEXINGTON RD",
+        "PLACE:THOMASVILLE MEDICAL CENTER",
+        "X:FORD ST & HOSPITAL DR E",
+        "INFO:to Chapel Hill in the am",
+        "DATE:05/04/12",
+        "TIME:12:07:13");
   }
   
   public static void main(String[] args) {
-    new NCDavidsonCountyParserTest().generateTests("T11");
+    new NCDavidsonCountyParserTest().generateTests("T13");
   }
 }
 
