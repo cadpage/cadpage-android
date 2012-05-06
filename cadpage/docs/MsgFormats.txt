@@ -2050,11 +2050,6 @@ Lancaster (PALancasterCounty)
 (VEH ACCIDENT-MASS TRANSIT-1A) MANHEIM TWP~2475 OREGON PIKE~WHITEMARSH DR~VALLEY RD~ENG271~08:13:50^
 (SPILL CONTROL) EAST DONEGAL TWP~1158 RIVER RD~N BANK ST~ANDERSON FERRY RD~HAZ291~11:55:37^
 **************************************************************************
-Washington County, PA
-Location: 116 GRANT ST MCDO Xstreet: NORTH ST STATION ST TYPE: STRUCTURE FIRE TIME: 23:42:41 Comments: IN THE BACK POSS 112 OR 114
-Location: 50 STONECREST LN CECI Xstreet: MCCONNELL RD DEAD END TYPE: FIRE TIME: 23:40:09 Comments:
-Location: 1647 MILLERS RUN RD MTPL: @KEEPSAKE ARABIANS Xstreet: PLEASANT RD FORT CHERRY RD TYPE: FIRE ALARM TIME: 22:31:54 Comments:
-**************************************************************************
 Lebanon County, PA (PALebanonCountyParser)
 Heidelberg Township 3 GLASSMOYER LN WF - Wildfire/Brush Fire Box 35-05 FG3 A160
 City of Lebanon 541 SPRUCE ST Med Class1 Hemorrhage Box 190-2 199MU
@@ -2064,6 +2059,16 @@ Montgomery county, Pa (PAMontgomeryCountyParser)
 Subject:Dispatch\n09:39 * RESCUE - WATER * 316 RIVER RD * - *
 Subject:Dispatch\n11:12 * PUMP DETAIL * 114 KOEGEL LN * - * 
 Subject:Dispatch\n13:32 * GAS-ODOR/LEAK OUTSIDE * 2409 DAIRY LN * - * 
+***************************************************************************
+Northumberland County, PA (PANorthumberlandCountyParser)
+LINCOLN ST & MEMORIAL DR * SUN * CARBON MONOXIDE INCIDENT * Dispatch: CH 503,CH 504,TK 542,ENG 531,SQ 581,MICU 91,ENG 572,CH 501,CH 502
+330 S SHAMOKIN ST * SHA * FIRE - VEHICLE (CAR/SUV/VAN/ETC...) * Dispatch: FP 80,ENG 41,S/CH 4,ENG 11,S/CH 1 ,SH 21,S/CH 3,RES 62 ENG 11,SH 21,S/CH 3,RES 62,FP 80
+S ANTHRACITE ST & W HIGH ST * SHA * FIRE - BRUSH * Dispatch: FP 80,ENG 41,BR 153,S/CH 4,SQ 21,ENG 11,S/CH 1 ,SH 21,S/CH 3,S/CH 2,RES 62 SH 21
+**************************************************************************
+Washington County, PA
+Location: 116 GRANT ST MCDO Xstreet: NORTH ST STATION ST TYPE: STRUCTURE FIRE TIME: 23:42:41 Comments: IN THE BACK POSS 112 OR 114
+Location: 50 STONECREST LN CECI Xstreet: MCCONNELL RD DEAD END TYPE: FIRE TIME: 23:40:09 Comments:
+Location: 1647 MILLERS RUN RD MTPL: @KEEPSAKE ARABIANS Xstreet: PLEASANT RD FORT CHERRY RD TYPE: FIRE ALARM TIME: 22:31:54 Comments:
 ***************************************************************************
 Westmoreland County, PA (PAWestmorelandCountyParser)
 Loc: 118 S 4TH ST YNGWD_B X-sts: CHESTNUT ST & LOCUST ST  Inc#:F11000861 NATURE: FIRE  CALLER: ANTHONY GALADIAY TOC: 19:08:40 Comments: FLAMES COMING OUT OF THE WALL  Disp: E26-1
@@ -4347,6 +4352,12 @@ Contact: Tim Lynch <tlynch@ofc424.com>
 Sender: fivepoints17@chiefmessaging.com
 07:58\nPERSON FALLEN\n512 GLOVER RD btwn DENVER RD &\nWESTVIEW\n21B3 Lat:3
 **********************************************************
+Roanoke County, VA
+Contact: Josh Waagmeester <josh@cavespringfire.org>
+System: New World AEGIS
+CO9 W9 CO10 W10 CO3 W3 RES9 M92 TOWR9 BATT1 EMS2  COMMERCIAL FIRE ALARM(RKCHFIELD MEMORY CARE CENTER3719 KNOLLRIDGE RD XST 5/5/2012 11:38:29 AM
+COMMERCIAL FIRE ALARM RICHFIELD MEMORY CARE CENTER3719 KNOLLRIDGE RD XST 5/5/2012 11:40:27 AM
+CO3 W3 CO11 E11 CO7 W7 RES3 M31 L3 EMS2 Commercial Structure Fire 3155 Berry LN XST ELECTRIC RD POSTAL DR DEAD END
 **********************************************************
 **********************************************************
 **********************************************************
@@ -4361,28 +4372,6 @@ Sender: miccom@nnjmicu.org <miccom@nnjmicu.org>
 303 CANCEL: #12-0034873 New Milford Boro *745 Chestnut St Paged:15:34 Enrte:15:36 Scene:15:38 Avail:15:48 Cxl Rsn: Refused Medical Aid Code:
 (I-2012-000067)FBRSH @ 413 BOULEVARD  , NEW MILFORD BORO - 
 **********************************************************
-Northumberland County, PA
-Contact: Chris Yetter <co50ffyetter@gmail.com>
-Sender: @northumberland.alertpa.org
-desc STHY 147 & BRUSH VALLEY RD * UPA * ACCIDENT - MVA WITH UNKNOWN INJURY(S) * Dispatch: CH 503,TK 542,MICU 545,ENG 721,CH 723,SQ 723,CH 721,ENG 541,SQ 553,SQ 581,RES 552,AMB 547,CH 722,CH 505,BR 724 affected loc AMB 547,MICU 545,ENG 541,RES 552,SQ 581,CH 721,CH 722,CH 723,ENG 721,SQ 723,CH 503,CH 505,BR 724,TK 542,SQ 553
-desc 202 E PINE ST * YSE * FIRE - DWELLING - 2ND ALARM * Dispatch: ENG 561,TK 542,RES 735,MICU 545,ENG 572,SQ 563,UN 548,CH 505,RH 544 affected loc UN 548
-Subject:1/2
-LINCOLN ST & MEMORIAL DR * SUN * CARBON MONOXIDE INCIDENT * Dispatch: CH 503,CH 504,TK 542,ENG 531,
-Subject:2/2
-SQ 581,MICU 91,ENG 572,CH 501,CH 502
-
-Contact: Kyle Rudy <rescuengine41@yahoo.com>
-Sender: @northumberland.alertpa.org
-COA - COAL
-SHA - SHAMOKIN
-*DO NOT INSERT BLANK BETWEEN MESSAGES!!
-
-Subject:1/2\nA STRONG THUNDERSTORM WILL AFFECT SOUTHWESTERN NORTHUMBERLAND CTY, 40 MPH WIND GUSTS AND SMALL HAI\r
-330 S SHAMOKIN ST * SHA * FIRE - VEHICLE (CAR/SUV/VAN/ETC...) * Dispatch: FP 80,ENG 41,S/CH 4,ENG 11,S/CH 1 ,SH 21,S/CH 3,RES 62 ENG 11,SH 21,S/CH 3,RES 62,FP 80
-S ANTHRACITE ST & W HIGH ST * SHA * FIRE - BRUSH * Dispatch: FP 80,ENG 41,BR 153,S/CH 4,SQ 21,ENG 11,S/CH 1 ,SH 21,S/CH 3,S/CH 2,RES 62 SH 21
-204 MAIN ST * COA * STAND-BY ASSIGNMENT * Dispatch: ENG 141,ENG 41,ENG1,TK 32,AT 21,MICU 90,UT 195,SQ 66,ENG 294,A/L 36,ENG 161,SH 21,RES 62,AMB 923 AMB 923,MICU 90,AT 21,ENG 141,ENG 161,UT 195,ENG1,ENG 294,SH 21,TK 32,ENG 41,RES 62
-19 N GRANT ST * SHA * FIRE - DWELLING - 1ST ALARM * Dispatch: FP 80,ENG 41,TK 32,S/CH 4,SQ 21,SQ 11,ENG 11,S/CH 1 ,ENG 51,SQ 66,AMB 919,SH 21,S/CH 3,S/CH 2,RES 62 ENG 11,SH 21,TK 32,ENG 41,ENG 51,RES 62,FP 80
-123 N FRANKLIN ST * SHA * FIRE - DWELLING - 1ST ALARM * Dispatch: FP 80,ENG 41,TK 32,S/CH 4,SQ 21,SQ 11,MICU 90\r
 **********************************************************
 **********************************************************
 Erie County, PA (alternate)
@@ -4424,39 +4413,6 @@ RESET ALARM AD: 5230 102 ST W LOC: TARNHILL APARTMENTS CMT1: ON 3RD FLOOR WESTEN
 STRUCTURE FIRE AD: 8100 HIGHWOOD DR LOC: FRIENDSHIP VILLAGE/M CMT1: MALE WITH LEG TRAPPED IN MECHANISM OF ELEVATOR
 ELEVATOR RESCUE AD: 5401 GREEN VALLEY DR LOC: CROWNE PLAZA HOTEL CMT1: ONE STUCK IN ELEVATOR FOR 20 MIN - IN SOUTH TOWER BET 5TH
 **********************************************************
-Bexar County, TX
-Contact: Adam Slater <adam@raymondmartin.com>
-Sender: VisiNet.Command@sanantonio.gov
-Respond for Alarm - Medical @ 24245 Wilderness Oak - 1408 - RETREAT AT CANYON SPRINGS With Cross Streets of CANYON GOLF RD/CANYO
-
-Contact: "Dorian Davis (IT GUY)" <dorian@bexarcountyfire.org>
-Sender: visinet.command@sanantonio.gov
-System: Tritech
-General parser not working
-
-a structure fire \nVALLEY RIDGE MOBILE PARK \n8671 Sw Loop 410, Unit 520 \nSB SW LP 410 OFRPOP RD/OLD PEARSALL RD \n*TAC2 \nDistrict: D2 \nE36, L36, E44, E35 and BC2 
-Fire - Structure     - Stockport / Chipping           - 585E1 - comp states a house is on fire[Shared],Multi-Agency BCLE Incident #: BCSO-2012-0105711,Automatic Case Number(s) issued for Camelot FD: CAM-2012-000000502. [Shared],Automatic Case Number(s) issued for Windcrest FD: WIND-2012-000000571. [Shared],Automatic Case Number(s) issued for Converse FD: CONV-2012-000000420. [Shared],Automatic Case Number(s) issued for Kirby FD: KIRB-2012-000000372. [Shared],
-Med - Sick Person         - 17694 Shepherd Rd              - 711F7   -  31 yo female...knee pain cause by past injury pt says it's a cut[Shared],Multi-Agency BCLE Incident #: BCSO-2012-0107603,[BCLE] has closed their incident [BCSO-2012-0107603],Automatic Case Number(s) issued for Lytle FD: LYTL-2012-000000122. [Shared],This incident LYTL-2012-0010282 has been sent to ACADIAN via the CAD2CAD Interface
-Fire - Vehicle            Ih 10 W / Tarpon Dr            - 447A2   - engine smoking c has pulled to the side of the road...tan f350...wb on 10..doesn't seem to be leaking fluid[Shared],A cellular re-bid has occurred, check the ANI/ALI Viewer for details[Shared],Invalid address received:3511  AT&T MOBILITY-SE SECTOR-QF 446F.[Shared],A cellular re-bid has occurred, check the ANI/ALI Viewer for details[Shared],Invalid address received:3511  AT&T MOBILITY-SE SECTOR-QF
-Fire - Structure     - Stockport / Chipping           - 585E1 - comp states a house is on fire[Shared],Multi-Agency BCLE Incident #: BCSO-2012-0105711,Automatic Case Number(s) issued for Camelot FD: CAM-2012-000000502. [Shared],Automatic Case Number(s) issued for Windcrest FD: WIND-2012-000000571. [Shared],Automatic Case Number(s) issued for Converse FD: CONV-2012-000000420. [Shared],Automatic Case Number(s) issued for Kirby FD: KIRB-2012-000000372. [Shared]
-MVC                             W Loop 1604 S / Spurs Ranch     646B1    GVIL-2012-000001006  - crash, injuries, one car roll over.  On the access rd, sb side.[Shared],Invalid address received:61  SPRINT-N SECTOR-QF 646C4.[Shared],A cellular re-bid has occurred, check the ANI/ALI Viewer for details[Shared],Multi-Agency BCLE Incident #: BCSO-2012-0107458,C is an off-duty officer with SAPD.  thinks the guy involved in crash is okay..but would like him checked out [Shared],Automatic Case Number(s)
-Respond For MVC                           @30000 Smithson Valley Rd                     ;      ;                              Cross- VOGEL VALLEY/FM 1863                                                            ;418D7;BBUL-2012-000000497 ;Multi-Agency BCLE Incident #: BCSO-2012-0104123,e veh roll over, injuries [Shared],Automatic Case Number(s) issued for Bexar Bulverde FD: BBUL-2012-000000497. [Shared]
-Fire - Unauthorized Burn  9279 Aqua Dr                   - 447A3   - Unauth BUrning  to the left of location,Automatic Case Number(s) issued for Leon Springs FD: LSPR-2012-000000283.
-
-04/28 06:28 am - Med - Diabetic Problems   - 4455 Twin Valley            - 748E6   - C states her mother 72yo has low blood sugar..acad notifed[Shared],Multi-Agency BCLE Incident #: BCSO-2012-0109820,Automatic Case Number(s) issued for Somerset FD: SOM-2012-000000292. [Shared],
-MED - ASSAULT        - 7246 GLEN HILL                 - SA585 - ACADIAN: Unit:    740         9941959,ACADIAN: The cross street was verified by caller.,ACADIAN: Law enforcement on scene; it is safe for the crew to enter.,ACADIAN: assult to head unk age male,ACADIAN: [ProQA Session Aborted] Medical Professional,Transferred incident: Remote   Reference Number: 20120428-ZN16-0222 by Jacobs, Angela From ACADIAN,Interface has sent an ack message for CAM-2012-0010500 to the
-Med - Unconscious Pe - 7838 Sun Forest                -       - 585C1   - 24 yo female went over to comps resd to visit his son; comp states female started drinking some wine and passed out; comp states she is breathing ; does not know what to do with female[Shared],Multi-Agency BCLE Incident #: BCSO-2012-0109700,This incident WIND-2012-0010491 has been sent to ACADIAN via the CAD2CAD Interface. [Shared],Acknowledgement Received from ACADIAN 20120428-ZN16-0059 [Shared],Unit - 76
-Med - Sick Person    - 8216 Glen Boro                 - 553F8 - 50 YO F HAVING CHEST PAINS[Shared],Multi-Agency BCLE Incident #: BCSO-2012-0109833,[BCLE] has closed their incident [BCSO-2012-0109833],Automatic Case Number(s) issued for Camelot FD: CAM-2012-000000521. [Shared],
-Fire                            6126 Kimble Mill                577D3    GVIL-2012-000001031  - C thinks the grease fire in his pit is getting out of hand.  in his backyard[Shared],Multi-Agency BCLE Incident #: BCSO-2012-0110061,C has turned off burners [Shared],Automatic Case Number(s) issued for Geronimo Village FD: GVIL-2012-000001031. [Shared],
-07:35 pm   10410 Stallion Bay             :Rspnd for: Med - Sick Person    - 546C6   - D7FR-2012-000000330\r
-* BCFA Medical Emergency  - Ih 35 S Nb / Sb Ih 35 S Onrp S - 712A5   - unk where other fighters went[Shared],they have been drinking[Shared],no weapons[Shared],C says at los amigos there was a fight, three people are on the ground, req ems[Shared],Multi-Agency BCLE Incident #: BCSO-2012-0110791,Automatic Case Number(s) issued for Jarret FD: JARR-2012-000000207. [Shared],
-Respond For Med - Sick Person             @25715 Fan Flower                             ;      ;                              Cross- Dead End/BEAUTYBERRY                                                            ;452B7;BBUL-2012-000000532 ;C said a woman came by her house,is now seizing, 24 yo.[Shared],Invalid address received:520  AT&T MOBILITY -SE SECTOR-QF 451.[Shared],A cellular re-bid has occurred, check the ANI/ALI Viewer for details[Shared],Multi-Agency BCLE Incident #: BCSO-2012-0110748,Automatic Case Number(s) issued for Bexa
-Med - Possible Stroke           12446 Modena Bay                577D6    GVIL-2012-000001047  - 66 yom- poss stroke- acad advised[Shared],Multi-Agency BCLE Incident #: BCSO-2012-0110913,This incident GVIL-2012-0010627 has been sent to ACADIAN via the CAD2CAD Interface. [Shared],Acknowledgement Received from ACADIAN 20120429-ZN16-1184 [Shared],Automatic Case Number(s) issued for Geronimo Village FD: GVIL-2012-000001047. [Shared],
-MVC                       - 23101 - 24511 Campbellton - HICKORY WAY/RANCH TRAIL RD               - 783D1 - small dark colored suv[Shared],going north on cambellton, it will be on the left[Shared],A cellular re-bid has occurred, check the ANI/ALI Viewer for details[Shared],Invalid address received:1453  TMOBILE-SE SECTOR-QF 751A2.[Shared],C disconnected[Shared],C says there is a car, unoccupied, flipped over.[Shared],Invalid address received:1453  TMOBILE-SE SECTOR-QF 751A2.[Shared],A cellular re-bid has occurre
-Med - Sick Person    - 6739 Glen Fair                 - 553E7 - C says her niece had a seizure, 34 yo.  fell onto concrete[Shared],Invalid address received:343  SPRINT-E SECTOR-QF 553C8.[Shared],Multi-Agency BCLE Incident #: BCSO-2012-0110931,Automatic Case Number(s) issued for Camelot FD: CAM-2012-000000525. [Shared],
-Alarm - Fire         - 9503 Millers Rdg               -       - 553E7   - POE;SMOKE DETECTOR;JOHN GILG @ 653-7947[Shared],Multi-Agency BCLE Incident #: BCSO-2012-0111024,Automatic Case Number(s) issued for Windcrest FD: WIND-2012-000000599. [Shared],Automatic Case Number(s) issued for Camelot FD: CAM-2012-000000527. [Shared],Automatic Case Number(s) issued for Converse FD: CONV-2012-000000442. [Shared],
-Med - Sick Person         - 16927 Ih 35 S Sb               - 711E6   -  23 YOF POSSIBLE BROKEN FOOT/FELL DOWN[Shared],Multi-Agency BCLE Incident #: BCSO-2012-0112109,[BCLE] has closed their incident [BCSO-2012-0112109],Automatic Case Number(s) issued for Lytle FD: LYTL-2012-000000126. [Shared],
-Alarm                - 8210 Ih 35 N                  -       - 552E8   Dept-E108,C145,E145B,120A - Automatic Case Number(s) issued for Windcrest FD: WIND-2012-000000612.,Automatic Case Number(s) issued for Camelot FD: CAM-2012-000000547.,FIRE ALARM-RED LOBSTERS REST.,Backed up C145 with E145B,SINGLE STORY LIGHT SMOKE SHOWING AND SMOKE IN KITCHEN,Automatic Case Number(s) issued for Gardendale FD: GARD-2012-000000134.,
 **********************************************************
 Newton County, MO
 Contact: jeffrey lechliter <jlechliter4512@gmail.com>
@@ -4620,31 +4576,4 @@ Sender: lead@ladisp.us
 08:14AM Thu 05/03 INC#:1219854-1 FROM:EVERGREEN H.C.C. - formerly MTH Skilled RM:7  TYPE:DR APPOINTMENT PT:Barbara Martin  to: DELTA MEDIX -
 06:23AM Thu 05/03 INC#:1219903-1 FROM:1020 MULBERRY ST, SCRANTON CITY RM:Nelvelle Hall Rm 107  TYPE:UNKNOWN  to:
 **********************************************************
-Jefferson County, MO
-Contact: support@active911.com
-Sender: paging@jeffcitymo.org
-(DONOTREPLY) E3  13:39 Line Down  - 1304 MCCARTY -Cross Streets- HAVANA ST, HART ST / HAVANA ST   TREE DOWN ACROSS W MCCARTY STREET - TOOK DOWN POWER LINES AS WELL  Call #: 617 - RP THINKS WIRES ARE DOWN ON MCCARTY  Call #: 617 - RP HEARD A LOUD POPPING SOUND 
-(DONOTREPLY) E1  13:46 Assist Police - 2201 MAIN -Cross Streets- MEMORIAL PARK DR / FOREST HILL AVE   93 REQUESTING WASH DOWN AFTER THE SAFETY PATROL PICNIC. (JUST SEND E1) 
-(DONOTREPLY) Degraffenreid, Jenny 14:24 Medical Emergency 120 DUNKLIN -Cross Streets- W DUNKLIN ST, JEFFERSON ST / MADISON ST S5  
-(DONOTREPLY) AC2 E4 S5 E3 L1  14:48 Fire Alarm - 1201 FAIRGROUNDS -Cross Streets- VILLAGE DR / S COUNTRY CLUB DR, W EDGEWOOD DR   OFFICE AREA 
-(DONOTREPLY) Taylor, Tiffany 15:08 Medical Emergency 711 KANSAS -Cross Streets- WASHINGTON PARK DR / MYRTLE AVE, SOUTH BLVD E1   SUBJ IS NOW TRYING TO LEAVE -  RP WAS ABLE TO GET
-(DONOTREPLY) Degraffenreid, Jenny 16:33 Medical Emergency 406 ATCHISON -Cross Streets- No Cross Streets Found E1   SEIZURE - BEING COMBATIVE 
-(DONOTREPLY) Degraffenreid, Jenny 16:42 Medical Emergency 2021 WILLIAM -Cross Streets- BLAIR DR / DIX RD E3   STOMACH PAIN, FACE IS FLUSH, PRESSURE IN HEAD.  S
-(DONOTREPLY) AC2 L1 E4  16:42 Accident with Injuries - JEFFERSON -Cross Streets-   EMS NOTIFIED  Call #: 691 - METALIC CAR  ELDERLY MALE DRIVER  Call #: 691 - AT CONOCO  UNKNOWN INJURIES  SIL CAR RAN INTO GAURD-RAIL  Call #: 691 - CALLER DOES NOT BELIEVE THIS IS AN ACCIDENT, BUT MAYBE ELDERLY MALE HAVING SOME KIND OF ISSUE  Call #: 691 - VEH IS UP ON GUARD RAIL  Call #: 691 - W/M
-(DONOTREPLY) Degraffenreid, Jenny 16:42 Medical Emergency 2021 WILLIAM -Cross Streets- BLAIR DR / DIX RD L3   STOMACH PAIN, FACE IS FLUSH, PRESSURE IN HEAD.  S
-(DONOTREPLY) Schlitt, Meagen 18:53 Medical Emergency 3038 TRUMAN -Cross Streets- DUPONT CIR / N TEN MILE DR E3   RM 401  RESIDENT MAY BE HAVING HEART ATTACK 
-(DONOTREPLY) AC2 E1 L1 S2 E4  19:22 Structure Fire - ELM -Cross Streets-   WHITE SMOKE COMING FROM FRONT OF BUILDING 
-(DONOTREPLY) Degraffenreid, Jenny 09:41 Medical Emergency 2225 WEATHERED ROCK 4 -Cross Streets- LORENZO GREENE DR / MILLBROOK DR E1   SAYS SHE TRIED TO DRIVE BUT COULDN'T. BLEEDING FR
-(DONOTREPLY) 1101 1401 1110 112 CCPager  16:58 Fire Alarm - 2227 SADDLEBROOKE LAKE -Cross Streets- CHERISH CT / SCRUGGS STATION RD   ALLEN RESIDENCE 
-(DONOTREPLY) ALARM ON SADDLEBROOKE LAKE DR HAS BEEN CANCELLED
-(DONOTREPLY) AC2 E1 L1 S2 E3  08:40 Fire Alarm - 1445 CHRISTY -Cross Streets- OSCAR DR / RAMP 31-970733, TANNER BRIDGE RD   GENERAL  FIRE ALARM - ROOM SMOKE  MID MO ANESTHIA 
-(DONOTREPLY) DC4 E1 L1 S2 E4  23:39 Fire Alarm - 2033 CHRISTY -Cross Streets- VETERANS LN / RT B   Call Number 434 was created from Call Number 433(May  3 2012 11:37PM)  PERIMETER AND FIRE ALARM - OFFICE HALL MOTION DETECTOR #2406 
-(DONOTREPLY) S5  22:59 Accident with Injuries - 1700 INDUSTRIAL -Cross Streets- ARGONNE ST / HUGHES ST   EMS ADV  CAR VS TRAIN-  TRAPPED IN VEH 
-(DONOTREPLY) Batt11  22:59 Extrication - 1700 INDUSTRIAL -Cross Streets- ARGONNE ST / HUGHES ST   UNION PACIFIC ADVISED- THEY CALLED INTO REPORT A PROBLEM - THEY WERE UNSURE OF WHAT THE PROBLEM WAS- THEY HAVE BEEN ADVISED TO STOP ALL TRAIN TRAFFIC  EMS ADV  CAR VS TRAIN-  TRAPPED IN VEH 
-(DONOTREPLY) Gabathuler, Erin 20:08 Medical Alarm 1509 STADIUM -Address Between- MYRTLE AVE / SOUTHWEST BLVD E4   CCEMS ADVISED  KEY - UNDER WHITE ROCK - UNDER/NEX
-(DONOTREPLY)  19:01 Test - 1229 BROADWAY -Cross Streets- W RAILROAD RD, MARION ST / RT NN, MAIN ST   REGIONAL WEST FIRE PROTECTION DISTRICT ALARM AND PAGER TEST. 
-(DONOTREPLY) Gabathuler, Erin 19:46 Medical Emergency 925 DUNKLIN A -Cross Streets- LEE DR, LINN ST / CHESTNUT ST E1   FEMALE WAS SPEAKING WITH THE RP AND THEN HER EYES
-(DONOTREPLY) Suchanek, Celeste 17:51 Medical Emergency 8501 NO MORE VICTIMS -Cross Streets- DEAD END / CORTEZ DR S2   nose bleed   front entrance 
-(DONOTREPLY) E4  18:42 Natural Cover  - 7 HILLS -Cross Streets-   NATURAL COVER FIRE IN THE AREA 
-(DONOTREPLY) Suchanek, Celeste 17:02 Medical Emergency 807 MONROE -Cross Streets- E HESS WAY / E ASHLEY ST E1   FALLEN OFF BIKE 
 **********************************************************

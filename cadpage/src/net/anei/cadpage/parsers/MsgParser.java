@@ -241,6 +241,8 @@ public abstract class MsgParser {
    * @return map address adjustment flags<br>
    * MAP_FLG_SUPPR_LA suppresses LA -> LN adjustment<br>
    * MAP_FLG_SUPPR_EXT suppresses EXT removal
+   * MAP_FLG_ADD_DEFAULT_CNTY always add default county
+   * MAP_FLG_SUPPR_DIRO suppresses [NEWS]O -> & adjustment
    */
   public int getMapFlags() {
     return 0;
@@ -248,6 +250,7 @@ public abstract class MsgParser {
   public static final int MAP_FLG_SUPPR_LA = MsgInfo.MAP_FLG_SUPPR_LA;
   public static final int MAP_FLG_SUPPR_EXT = MsgInfo.MAP_FLG_SUPPR_EXT;
   public static final int MAP_FLG_ADD_DEFAULT_CNTY = MsgInfo.MAP_FLG_ADD_DEFAULT_CNTY;
+  public static final int MAP_FLG_SUPPR_DIRO = MsgInfo.MAP_FLG_SUPPR_DIRO;
 
 
   /**

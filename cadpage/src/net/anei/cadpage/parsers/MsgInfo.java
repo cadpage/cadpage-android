@@ -20,6 +20,9 @@ public class MsgInfo {
   
   // Add default city/county in back of parsed city/county
   public static final int MAP_FLG_ADD_DEFAULT_CNTY = 4;
+  
+  // Suppress NO EO SO WO -> & translation
+  public static final int MAP_FLG_SUPPR_DIRO = 8;
 
   private String strCall;
   private String strPlace;
@@ -412,7 +415,9 @@ public class MsgInfo {
       }
     }
     
-    sAddr = DIR_OF_PTN.matcher(sAddr).replaceAll(" & ");
+    if ((parser.getMapFlags() & MAP_FLG_SUPPR_DIRO) == 0) {
+      sAddr = DIR_OF_PTN.matcher(sAddr).replaceAll(" & ");
+    }
     sAddr = cleanStreetSuffix(sAddr);
     sAddr = cleanBlock(sAddr);
     sAddr = cleanBounds(sAddr);
