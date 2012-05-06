@@ -198,8 +198,8 @@ public class NYNiagaraCountyParserTest extends BaseParserTest {
     doTest("T28",
         "((38762) NCFC JBEILEIN ) LOCKPORT JUNCTION/UPPER MOUNTAIN RD MVA CAR STRUCK BUS BLS P",
         "ID:38762",
-        "CALL:LOCKPORT JUNCTION/UPPER",
-        "ADDR:MOUNTAIN RD",
+        "CALL:LOCKPORT JUNCTION /",
+        "ADDR:UPPER MOUNTAIN RD",
         "INFO:MVA CAR STRUCK BUS BLS P");
 
     doTest("T29",
