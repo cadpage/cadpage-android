@@ -31,7 +31,8 @@ public class TNHamiltonCountyParserTest extends BaseParserTest {
         "RT:AFA NURSING HOME  Loc:4586 FORSYTHIA WAY, COLLEGEDALE  (ILENE CT/LEYLAND DR) #[4500-4599]",
         "CALL:AFA NURSING HOME",
         "ADDR:4586 FORSYTHIA WAY",
-        "CITY:COLLEGEDALE  (ILENE CT/LEYLAND DR) #[4500-4599]");
+        "CITY:COLLEGEDALE",
+        "X:ILENE CT/LEYLAND DR");
 
     doTest("T4",
         "RT:AFA DORMITORY  Loc:4891 TAYLOR CIR, COLLEGEDALE  (UNIVERSITY DR/UNIVERSITY DR)  #[4800-4899]",
@@ -104,13 +105,20 @@ public class TNHamiltonCountyParserTest extends BaseParserTest {
         "ADDR:8475 COMMUNITY PL",
         "X:PITTMAN LN/PATTENTOWN RD");
 
-    doTest("T1",
+    doTest("T4",
         "RT:FMUAID-FIRE DEPARTMENT MUTUAL AID ALARM  Loc:281 CLARK RD, DOGWOOD RD THE CROSS CATOOSA CO",
         "CALL:FMUAID-FIRE DEPARTMENT MUTUAL AID ALARM",
         "ADDR:281 CLARK RD",
         "CITY:CATOOSA COUNTY",
         "ST:GA",
         "X:DOGWOOD RD THE CROSS");
+
+    doTest("T5",
+        "RT:ANSBT-ANIMAL OR SNAKE BITE  Loc:@WAFFLE HOUSE 8912 LEE HWY  (8912 LEE HWY, CH",
+        "CALL:ANSBT-ANIMAL OR SNAKE BITE",
+        "PLACE:WAFFLE HOUSE",
+        "ADDR:8912 LEE HWY",
+        "X:8912 LEE HWY, CH");
 
   }
   
