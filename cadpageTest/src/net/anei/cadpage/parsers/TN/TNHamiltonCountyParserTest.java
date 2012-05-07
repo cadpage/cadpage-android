@@ -114,11 +114,12 @@ public class TNHamiltonCountyParserTest extends BaseParserTest {
         "X:DOGWOOD RD THE CROSS");
 
     doTest("T5",
-        "RT:ANSBT-ANIMAL OR SNAKE BITE  Loc:@WAFFLE HOUSE 8912 LEE HWY  (8912 LEE HWY, CH",
+        "RT:ANSBT-ANIMAL OR SNAKE BITE  Loc:@WAFFLE HOUSE 8912 LEE HWY  (8912 LEE HWY, CHATANOOGA)",
         "CALL:ANSBT-ANIMAL OR SNAKE BITE",
         "PLACE:WAFFLE HOUSE",
         "ADDR:8912 LEE HWY",
-        "X:8912 LEE HWY, CH");
+        "X:8912 LEE HWY",
+        "CITY:CHATANOOGA");
 
   }
   
