@@ -26,7 +26,7 @@ RT:AFA RESIDENTIAL  Loc:2706 NILE RD, HAMILTON COUNTY  (CLIPPER DR/DANUBE DR)  #
 RT:FASEMS-FIRE DEPARTMENT ASSISTING EMS WITH MANPOWER  Loc:9407 CATHOWKEN DR, HA MILTON COUNTY  (FULLER RD/DEAD END)  #[9400-9499]
 RT:FASCIT-FIRE DEPARTMENT ASSISTING A CITIZEN  Loc:8475 COMMUNITY PL, HAMILTON COUNTY  (PITTMAN LN/PATTENTOWN RD)  #[8400-8499]
 RT:FMUAID-FIRE DEPARTMENT MUTUAL AID ALARM  Loc:281 CLARK RD, DOGWOOD RD THE CROSS CATOOSA CO
-RT:ANSBT-ANIMAL OR SNAKE BITE  Loc:@WAFFLE HOUSE 8912 LEE HWY  (8912 LEE HWY, CH
+RT:ANSBT-ANIMAL OR SNAKE BITE  Loc:@WAFFLE HOUSE 8912 LEE HWY  (8912 LEE HWY, CHATTANOOGA)
 
 Contact: "Danny" <robertdcooke@epbfi.com>
 RT:STROKE-STROKE  Loc:10320 HAMBY RD, HAMILTON COUNTY  (SEQUOYAH ACCESS RD/PLES LN)  #[10206-10329]
@@ -62,8 +62,16 @@ public class TNHamiltonCountyParser extends FieldProgramParser {
       if (field.endsWith(")")) field = field.substring(0,field.length()-1).trim();
       int pt = field.indexOf('(');
       if (pt>0) {
-        data.strCross = field.substring(pt+1, field.length()).trim();
+        if (field.endsWith(")")) field = field.substring(0,field.length()-1).trim();
+        else data.expectMore = true;
+        String sCross = field.substring(pt+1, field.length()).trim();
         field = field.substring(0,pt).trim();
+        pt = sCross.indexOf(',');
+        if (pt >= 0) {
+          data.strCity = sCross.substring(pt+1).trim();
+          sCross = sCross.substring(0,pt).trim();
+        }
+        data.strCross = sCross;
       }
       
       pt = field.indexOf(',');
