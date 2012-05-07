@@ -63,7 +63,14 @@ public class NCHokeCountyParserTest extends BaseParserTest {
         "ADDR:730 GALATIA CHURCH RD",
         "CALL:EMD",
         "CH:pos4",
-        "X:5365 ROCKFISH RD//CUMBERLAND CO LINE*");
+        "X:5365 ROCKFISH RD//CUMBERLAND CO LINE");
+
+    doTest("T9",
+        "Hoke Co 911:100 WAYSIDE RD* * * * * **AC/PI* * * * * * * * 04/25/2012 18:18:57 : pos2 : RCRUMPLER3351 Cross streets: FAYETTEVILLE RD//OLD OAK RD*",
+        "ADDR:100 WAYSIDE RD",
+        "CALL:AC/PI",
+        "CH:pos2",
+        "X:FAYETTEVILLE RD//OLD OAK RD");
   }
 
   public static void main(String[] args) {

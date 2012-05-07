@@ -267,6 +267,14 @@ public class PAErieCountyAParserTest extends BaseParserTest {
         "MAP:298",
         "ID:2012-0000045463");
 
+    doTest("T27",
+        "FRM:messaging@iamresponding.com\nSUBJ:West Ridge Fire\nMSG:29B1 >MVA - WITH INJURIES 4440 ASBURY RD XS: LESTER LN MILLCREEK TWP\r\n",
+        "SRC:West Ridge Fire",
+        "CALL:MVA - WITH INJURIES",
+        "ADDR:4440 ASBURY RD",
+        "CITY:MILLCREEK TWP",
+        "X:LESTER LN");
+
   }
   
   public static void main(String[] args) {
