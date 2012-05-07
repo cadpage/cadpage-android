@@ -26,6 +26,7 @@ RT:AFA RESIDENTIAL  Loc:2706 NILE RD, HAMILTON COUNTY  (CLIPPER DR/DANUBE DR)  #
 RT:FASEMS-FIRE DEPARTMENT ASSISTING EMS WITH MANPOWER  Loc:9407 CATHOWKEN DR, HA MILTON COUNTY  (FULLER RD/DEAD END)  #[9400-9499]
 RT:FASCIT-FIRE DEPARTMENT ASSISTING A CITIZEN  Loc:8475 COMMUNITY PL, HAMILTON COUNTY  (PITTMAN LN/PATTENTOWN RD)  #[8400-8499]
 RT:FMUAID-FIRE DEPARTMENT MUTUAL AID ALARM  Loc:281 CLARK RD, DOGWOOD RD THE CROSS CATOOSA CO
+RT:ANSBT-ANIMAL OR SNAKE BITE  Loc:@WAFFLE HOUSE 8912 LEE HWY  (8912 LEE HWY, CH
 
 Contact: "Danny" <robertdcooke@epbfi.com>
 RT:STROKE-STROKE  Loc:10320 HAMBY RD, HAMILTON COUNTY  (SEQUOYAH ACCESS RD/PLES LN)  #[10206-10329]
@@ -45,7 +46,7 @@ public class TNHamiltonCountyParser extends FieldProgramParser {
     // There is always some trailing junk that needs to be stripped off.
     // But if we don't find it, assume more is coming
     
-    int pt = body.indexOf("  #[");
+    int pt = body.indexOf(" #[");
     if (pt >= 0) body = body.substring(0,pt).trim();
     else data.expectMore = true;
 
@@ -58,14 +59,14 @@ public class TNHamiltonCountyParser extends FieldProgramParser {
     
     @Override
     public void parse(String field, Data data) {
-      if (field.endsWith(")")) {
-        int pt = field.indexOf('(');
-        if (pt < 0) abort();
-        data.strCross = field.substring(pt+1, field.length()-1).trim();
+      if (field.endsWith(")")) field = field.substring(0,field.length()-1).trim();
+      int pt = field.indexOf('(');
+      if (pt>0) {
+        data.strCross = field.substring(pt+1, field.length()).trim();
         field = field.substring(0,pt).trim();
       }
       
-      int pt = field.indexOf(',');
+      pt = field.indexOf(',');
       if (pt >= 0) {
         String city = field.substring(pt+1).trim();
         field = field.substring(0,pt).trim();
@@ -78,12 +79,16 @@ public class TNHamiltonCountyParser extends FieldProgramParser {
         data.strCity = city;
       }
       
-      super.parse(field, data);
+      if (field.startsWith("@")) {
+        parseAddress(StartType.START_PLACE, FLAG_START_FLD_REQ | FLAG_ANCHOR_END, field.substring(1).trim(), data);
+      } else {
+        parseAddress(field, data);
+      }
     }
     
     @Override
     public String getFieldNames() {
-      return super.getFieldNames() + " CITY ST X";
+      return "PLACE ADDR APT CITY ST X";
     }
   }
   
