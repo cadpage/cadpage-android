@@ -131,6 +131,22 @@ public class CTTollandCountyParserTest extends BaseParserTest {
         "CALL:ALS DIFF BREATHING",
         "X:MERROW RD / GOOSE LN",
         "ID:2012-00000183");
+
+    doTest("T16",
+        "(TN Alert) 34 CAMPBELL AVE / Vernon ALS abdominal pain 01:29 Cross Street DEAD END / DOBSON RD 2012-00001475",
+        "ADDR:34 CAMPBELL AVE",
+        "CITY:Vernon",
+        "CALL:ALS abdominal pain",
+        "X:DEAD END / DOBSON RD",
+        "ID:2012-00001475");
+
+    doTest("T17",
+        "[TN Alert] 10 PITKIN RD / Vernon Smoke/Odor Investigation STOP AND SHOP 12:07 Cross Street STOP AND SHOP PLAZA / DOBSON RD 2012-00001471 ",
+        "ADDR:10 PITKIN RD",
+        "CITY:Vernon",
+        "CALL:Smoke/Odor Investigation STOP AND SHOP",
+        "X:STOP AND SHOP PLAZA / DOBSON RD",
+        "ID:2012-00001471");
  }
   
   public static void main(String[] args) {

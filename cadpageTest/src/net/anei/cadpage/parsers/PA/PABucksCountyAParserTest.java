@@ -1954,6 +1954,20 @@ public class PABucksCountyAParserTest extends BaseParserTest {
         "INFO:;2159498520",
         "UNIT:STA13");
 
+    doTest("T4",
+        "alert31277@alert.bucksema.org /1/2 /STA13 STA10:WATER\n" +
+        "adr:ACME MARKET ,25 at 6800 NEW FALLS RD ,25\n" +
+        "btwn:WOERNER AV & EDGELY AV\n" +
+        "aai:2159461840\n",
+
+        "CALL:WATER - WATER FLOW (LOC)",
+        "PLACE:ACME MARKET",
+        "ADDR:6800 NEW FALLS RD",
+        "CITY:BRISTOL TWP",
+        "X:WOERNER AV & EDGELY AV",
+        "INFO:2159461840",
+        "UNIT:STA13 STA10");
+
   }
   
   @Test
