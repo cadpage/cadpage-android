@@ -32,6 +32,8 @@ Med - Sick Person    - 6739 Glen Fair                 - 553E7 - C says her niece
 Alarm - Fire         - 9503 Millers Rdg               -       - 553E7   - POE;SMOKE DETECTOR;JOHN GILG @ 653-7947[Shared],Multi-Agency BCLE Incident #: BCSO-2012-0111024,Automatic Case Number(s) issued for Windcrest FD: WIND-2012-000000599. [Shared],Automatic Case Number(s) issued for Camelot FD: CAM-2012-000000527. [Shared],Automatic Case Number(s) issued for Converse FD: CONV-2012-000000442. [Shared],
 Med - Sick Person         - 16927 Ih 35 S Sb               - 711E6   -  23 YOF POSSIBLE BROKEN FOOT/FELL DOWN[Shared],Multi-Agency BCLE Incident #: BCSO-2012-0112109,[BCLE] has closed their incident [BCSO-2012-0112109],Automatic Case Number(s) issued for Lytle FD: LYTL-2012-000000126. [Shared],
 Alarm                - 8210 Ih 35 N                  -       - 552E8   Dept-E108,C145,E145B,120A - Automatic Case Number(s) issued for Windcrest FD: WIND-2012-000000612.,Automatic Case Number(s) issued for Camelot FD: CAM-2012-000000547.,FIRE ALARM-RED LOBSTERS REST.,Backed up C145 with E145B,SINGLE STORY LIGHT SMOKE SHOWING AND SMOKE IN KITCHEN,Automatic Case Number(s) issued for Gardendale FD: GARD-2012-000000134.,
+Med - Sick Person               9615 Rainbow Crk                612C5      GVIL-2012-000001138  Dept-123C - Multi-Agency BCLE Incident #: BCSO-2012-0118460,Automatic Case Number(s) issued for Geronimo Village FD: GVIL-2012-000001138. [Shared],
+Med - Sick Person         - 1460 Martinez Losoya           # SRST  - 717B8 Dept-141E - 6 YO F BROKE ARM[Shared],Multi-Agency BCLE Incident #: BCSO-2012-0118435,Automatic Case Number(s) issued for South Bexar FD: SOBX-2012-000000251. [Shared],
 
 *** Variant T2
 07:35 pm   10410 Stallion Bay             :Rspnd for: Med - Sick Person    - 546C6   - D7FR-2012-000000330\r
@@ -47,9 +49,11 @@ a structure fire \nVALLEY RIDGE MOBILE PARK \n8671 Sw Loop 410, Unit 520 \nSB SW
 
 public class TXBexarCountyParser extends FieldProgramParser {
   
+  private static final String MAP_PATTERN = "(?:\\d{3}[A-Z]\\d|SA\\d{3})";
   private static final Pattern DASH_DELIM_PTN = Pattern.compile(" +- ");
   private static final Pattern BLANK_DELIM_PTN = Pattern.compile(" {4,}");
   private static final Pattern SHORT_BLANK_DELIM_PTN = Pattern.compile("(?<![ -])  +(?![ -])");
+  private static final Pattern MAP_BLANK_DELIM_PTN = Pattern.compile(" " + MAP_PATTERN + " +(?=[^ -])");
   
   public TXBexarCountyParser() {
     super("BEXAR COUNTY", "TX",
@@ -90,11 +94,14 @@ public class TXBexarCountyParser extends FieldProgramParser {
     
     // The main format is usually dash delimited, but occasionally drops the dashes in favor on
     // long strings of blanks, which we will turn in regular dash delimiters
+    // And then, they occasionally leave a single space delimiter after the Map field
     body = DASH_DELIM_PTN.matcher(body).replaceAll(" - ");
     body = BLANK_DELIM_PTN.matcher(body).replaceAll(" - ");
+    body = MAP_BLANK_DELIM_PTN.matcher(body).replaceFirst("$0- ");
     pt = body.lastIndexOf(" - ");
     if (pt < 0) return false;
     body = SHORT_BLANK_DELIM_PTN.matcher(body.substring(0,pt)).replaceAll(" - ") + body.substring(pt);
+    
     body = prefix + " - " + body;
     return parseFields(body.split(" - "), data);
   }
@@ -178,7 +185,7 @@ public class TXBexarCountyParser extends FieldProgramParser {
     if (name.equals("CALL")) return new MyCallField();
     if (name.equals("ADDR")) return new MyAddressField();
     if (name.equals("APT")) return new MyAptField();
-    if (name.equals("MAP")) return new MapField("\\d{3}[A-Z]\\d|SA\\d{3}", true);
+    if (name.equals("MAP")) return new MapField(MAP_PATTERN, true);
     if (name.equals("ID")) return new IdField("[A-Z]{3,4}-\\d{4}-\\d{6,}");
     if (name.equals("INFO")) return new MyInfoField();
     return super.getField(name);

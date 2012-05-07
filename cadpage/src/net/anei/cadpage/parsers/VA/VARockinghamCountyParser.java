@@ -47,6 +47,10 @@ Contact: Wayne Crider <wcrider15@gmail.com>
 Sender: MAILBOX@hrecc.org
 R50 22:29 EMS-DIFFICULTY BREATHING 400 LONE PINE DR HH4 TIM CFS# 2012-032012 CROSS: LONG MEADOW DR/AMERICAN LEGION DR
 
+Contact: "R. Chris French" <frenchrc@gmail.com>
+Sender: messaging@iamresponding.com
+(Rescue 40) R40 11:27 EMS-CHEST PAIN 847 CANTRELL AVE HAR CFS# 2012-032892 CROSS: RESERVOIR ST/E MARKET ST
+
 
 *** NOT IMPLEMENTED ***
 Contact: Michael Roper <ropermw2@gmail.com>
