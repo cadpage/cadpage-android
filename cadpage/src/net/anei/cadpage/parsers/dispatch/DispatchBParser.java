@@ -393,6 +393,7 @@ public class DispatchBParser extends SmartAddressParser {
         "MVA - UNKNOWN STATUS",
         "MVA-TRAPPED MULTI PT/ADD RESPO",
         "MVA WITH INJURIES",
+        "MVA - WITH INJURIES",
         "MVA WITH UNKNOW INJUIRIES",
         "NON-SPECIFIC DIAGNOSIS",
         "ODOR / OTHER THAN SMOKE",
