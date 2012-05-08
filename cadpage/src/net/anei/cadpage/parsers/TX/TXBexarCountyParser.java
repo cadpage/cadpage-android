@@ -34,6 +34,10 @@ Med - Sick Person         - 16927 Ih 35 S Sb               - 711E6   -  23 YOF P
 Alarm                - 8210 Ih 35 N                  -       - 552E8   Dept-E108,C145,E145B,120A - Automatic Case Number(s) issued for Windcrest FD: WIND-2012-000000612.,Automatic Case Number(s) issued for Camelot FD: CAM-2012-000000547.,FIRE ALARM-RED LOBSTERS REST.,Backed up C145 with E145B,SINGLE STORY LIGHT SMOKE SHOWING AND SMOKE IN KITCHEN,Automatic Case Number(s) issued for Gardendale FD: GARD-2012-000000134.,
 Med - Sick Person               9615 Rainbow Crk                612C5      GVIL-2012-000001138  Dept-123C - Multi-Agency BCLE Incident #: BCSO-2012-0118460,Automatic Case Number(s) issued for Geronimo Village FD: GVIL-2012-000001138. [Shared],
 Med - Sick Person         - 1460 Martinez Losoya           # SRST  - 717B8 Dept-141E - 6 YO F BROKE ARM[Shared],Multi-Agency BCLE Incident #: BCSO-2012-0118435,Automatic Case Number(s) issued for South Bexar FD: SOBX-2012-000000251. [Shared],
+Alarm - Fire              - 7406 Scintilla                 - 413F8   Dept-133A,126E,SPK activated general fire alarm,borene pd called this one in,Automatic Case Number(s) issued for Leon Springs FD: LSPR-2012-000000339.,Automatic Case Number(s) issued for Grey Forest FD: GRYF-2012-000000169.,
+Med - Diabetic Problems   - 14085 Ih 35 S                  - 713B2   Dept-130C 67 yof diabetic feeling light headed[Shared],Multi-Agency BCLE Incident #: BCSO-2012-0119030,This incident JARR-2012-0011429 has been sent to ACADIAN via the CAD2CAD Interface. [Shared],Acknowledgement Received from ACADIAN 20120508-ZN16-0205 [Shared],Unit - 709, status change to STATUS_DISPATCHED by ACADIAN at 05/08/2012 04:33:59 [Shared],trlr 15 [Shared],[BCLE] has closed their incident [BCSO-2012-011903
+Med - Cardiac Arrest            2918 FISHERS GLADE              SA612/F8   GVIL-2012-000001157  Dept-123B - ACADIAN: Unit:    734         9963763,Transferred incident: Remote   Reference Number: 20120508-ZN16-0370 by Brunson, Savannah L. From ACADIAN,Interface has sent an ack message for GVIL-2012-0011432 to the remote CAD,9963763,This incident 20120508-ZN16-0370 has been sent to BCFA via the CAD2CAD Interface.,Unit - 734, status change to STATUS_RESPONDING by ACADIAN at 05/08/2012 06:25:35,Automatic Case Number
+
 
 *** Variant T2
 07:35 pm   10410 Stallion Bay             :Rspnd for: Med - Sick Person    - 546C6   - D7FR-2012-000000330\r
@@ -49,7 +53,7 @@ a structure fire \nVALLEY RIDGE MOBILE PARK \n8671 Sw Loop 410, Unit 520 \nSB SW
 
 public class TXBexarCountyParser extends FieldProgramParser {
   
-  private static final String MAP_PATTERN = "(?:\\d{3}[A-Z]\\d|SA\\d{3})";
+  private static final String MAP_PATTERN = "(?:\\d{3}[A-Z]\\d|SA\\d{3}(?:/[A-Z]\\d)?)";
   private static final Pattern DASH_DELIM_PTN = Pattern.compile(" +- ");
   private static final Pattern BLANK_DELIM_PTN = Pattern.compile(" {4,}");
   private static final Pattern SHORT_BLANK_DELIM_PTN = Pattern.compile("(?<![ -])  +(?![ -])");
@@ -157,7 +161,7 @@ public class TXBexarCountyParser extends FieldProgramParser {
   // Info field tries to clean up some of the more useless information
   private static final Pattern ACADIAN_PTN = Pattern.compile("\\bACADIAN: *");
   private static final Pattern INFO_ID_PTN = Pattern.compile("(?:(?:^|,)[^,]*?)?\\b([A-Z]{3,4}-\\d{4}-\\d{6,})\\b[^,]*");
-  private static final Pattern TRASH_PTN = Pattern.compile("(?:^|,) *(?:A cellular re-bid |check the ANI/ALI |Invalid address received:|Automatic Case |\\[ProQA Session Aborted\\]|Transferred incident:|Acknowledgement Received |Reference Number:)[^,]*");
+  private static final Pattern TRASH_PTN = Pattern.compile("(?:^|,) *(?:A cellular re-bid |check the ANI/ALI |Invalid address received:|Automatic Case |\\[ProQA Session Aborted\\]|Transferred incident:|Acknowledgement Received |Reference Number:|status change to |This incident [-A-Z0-9]+ has been sent to )[^,]*");
   private static final Pattern TRIM_PTN = Pattern.compile("^[, ]+|[, ]+$");
   private class MyInfoField extends InfoField {
     @Override
