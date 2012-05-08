@@ -286,6 +286,30 @@ public class TNUnionCountyParserTest extends BaseParserTest {
  
   }
   
+  @Test
+  public void test() {
+
+    doTest("T1",
+        "FRM:dispatch@911email.net\nSUBJ:E911\nMSG:FIRE VEHICLE\r\nAARON WILLIAMS 1162 RACCOON VALLEY RD, MAYNARDVILLE\r\n",
+        "CALL:FIRE VEHICLE",
+        "NAME:AARON WILLIAMS",
+        "ADDR:1162 RACCOON VALLEY RD",
+        "CITY:MAYNARDVILLE");
+
+    doTest("T2",
+        "FRM:dispatch@911email.net\nSUBJ:E911\nMSG:TREE IN ROADWAY\r\nWELCH DR\r\n",
+        "CALL:TREE IN ROADWAY",
+        "ADDR:WELCH DR");
+
+    doTest("T3",
+        "FRM:dispatch@911email.net\nSUBJ:E911\nMSG:HEART PROBLEM\r\nDESSIE WILLIAMS 431 SATTERFIELD RD, LUTTRELL\r\n",
+        "CALL:HEART PROBLEM",
+        "NAME:DESSIE WILLIAMS",
+        "ADDR:431 SATTERFIELD RD",
+        "CITY:LUTTRELL");
+   
+  }
+  
 
   public static void main(String[] args) {
     new TNUnionCountyParserTest().generateTests("T1");

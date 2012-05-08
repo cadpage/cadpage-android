@@ -161,6 +161,23 @@ public class TXBexarCountyParserTest extends BaseParserTest {
         "ID:WIND-2012-000000612",
         "INFO:Dept-E108,C145,E145B,120A - FIRE ALARM-RED LOBSTERS REST.,Backed up C145 with E145B,SINGLE STORY LIGHT SMOKE SHOWING AND SMOKE IN KITCHEN");
 
+    doTest("T19",
+        "Med - Sick Person               9615 Rainbow Crk                612C5      GVIL-2012-000001138  Dept-123C - Multi-Agency BCLE Incident #: BCSO-2012-0118460,Automatic Case Number(s) issued for Geronimo Village FD: GVIL-2012-000001138. [Shared],",
+        "CALL:Med - Sick Person",
+        "ADDR:9615 Rainbow Crk",
+        "MAP:612C5",
+        "ID:GVIL-2012-000001138",
+        "INFO:Dept-123C");
+
+    doTest("T20",
+        "Med - Sick Person         - 1460 Martinez Losoya           # SRST  - 717B8 Dept-141E - 6 YO F BROKE ARM[Shared],Multi-Agency BCLE Incident #: BCSO-2012-0118435,Automatic Case Number(s) issued for South Bexar FD: SOBX-2012-000000251. [Shared],",
+        "CALL:Med - Sick Person",
+        "ADDR:1460 Martinez Losoya",
+        "APT:# SRST",
+        "MAP:717B8",
+        "ID:BCSO-2012-0118435",
+        "INFO:Dept-141E - 6 YO F BROKE ARM");
+
   }
   
   @Test

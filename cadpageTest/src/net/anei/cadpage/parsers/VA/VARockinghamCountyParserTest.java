@@ -126,6 +126,16 @@ public class VARockinghamCountyParserTest extends BaseParserTest {
         "CITY:TIMBERVILLE",
         "ID:2012-032012",
         "X:LONG MEADOW DR/AMERICAN LEGION DR");
+
+    doTest("T13",
+        "(Rescue 40) R40 11:27 EMS-CHEST PAIN 847 CANTRELL AVE HAR CFS# 2012-032892 CROSS: RESERVOIR ST/E MARKET ST",
+        "SRC:R40",
+        "TIME:11:27",
+        "CALL:EMS-CHEST PAIN",
+        "ADDR:847 CANTRELL AVE",
+        "CITY:HARRISONBURG",
+        "ID:2012-032892",
+        "X:RESERVOIR ST/E MARKET ST");
  }
   
   public static void main(String[] args) {
