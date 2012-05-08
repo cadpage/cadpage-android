@@ -164,6 +164,26 @@ public class FLManateeCountyParserTest extends BaseParserTest {
         "CALL:OUTSIDE FIRE INSIDE LOCATION:",
         "INFO:BRUSH FIRE W/ UNK THREAT",
         "TIME:14:26:20");
+
+    doTest("T4",
+        "Location: SR 64 E/LAKEWOOD RANCH BLVD UB Estimated Address TYPE CODE: VEHICLE FIRE INSIDE LOCATION: SUB TYPE: COMMERCIAL VEHICLE TIME: 18:44:41 MAP GRID: 1130-E",
+        "ADDR:SR 64 E & LAKEWOOD RANCH BLVD",
+        "MADDR:ST 64 E & LAKEWOOD RANCH BLVD",
+        "CITY:BRADENTON",
+        "CALL:VEHICLE FIRE INSIDE LOCATION:",
+        "INFO:COMMERCIAL VEHICLE",
+        "TIME:18:44:41",
+        "MAP:1130-E");
+
+    doTest("T5",
+        "Location: 11030 SR 64 E UB Estimated Address TYPE CODE: VEHICLE FIRE INSIDE LOCATION: SUB TYPE: COMMERCIAL VEHICLE TIME: 18:44:41 MAP GRID: 1129-E",
+        "ADDR:11030 SR 64 E",
+        "MADDR:11030 ST 64 E",
+        "CITY:BRADENTON",
+        "CALL:VEHICLE FIRE INSIDE LOCATION:",
+        "INFO:COMMERCIAL VEHICLE",
+        "TIME:18:44:41",
+        "MAP:1129-E");
   }
   
   public static void main(String[] args) {

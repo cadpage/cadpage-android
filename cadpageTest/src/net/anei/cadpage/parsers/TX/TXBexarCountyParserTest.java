@@ -178,6 +178,30 @@ public class TXBexarCountyParserTest extends BaseParserTest {
         "ID:BCSO-2012-0118435",
         "INFO:Dept-141E - 6 YO F BROKE ARM");
 
+    doTest("T21",
+        "Alarm - Fire              - 7406 Scintilla                 - 413F8   Dept-133A,126E,SPK activated general fire alarm,borene pd called this one in,Automatic Case Number(s) issued for Leon Springs FD: LSPR-2012-000000339.,Automatic Case Number(s) issued for Grey Forest FD: GRYF-2012-000000169.,",
+        "CALL:Alarm - Fire",
+        "ADDR:7406 Scintilla",
+        "MAP:413F8",
+        "ID:LSPR-2012-000000339",
+        "INFO:Dept-133A,126E,SPK activated general fire alarm,borene pd called this one in");
+
+    doTest("T22",
+        "Med - Diabetic Problems   - 14085 Ih 35 S                  - 713B2   Dept-130C 67 yof diabetic feeling light headed[Shared],Multi-Agency BCLE Incident #: BCSO-2012-0119030,This incident JARR-2012-0011429 has been sent to ACADIAN via the CAD2CAD Interface. [Shared],Acknowledgement Received from ACADIAN 20120508-ZN16-0205 [Shared],Unit - 709, status change to STATUS_DISPATCHED by ACADIAN at 05/08/2012 04:33:59 [Shared],trlr 15 [Shared],[BCLE] has closed their incident [BCSO-2012-011903",
+        "CALL:Med - Diabetic Problems",
+        "ADDR:14085 I 35 S",
+        "MAP:713B2",
+        "ID:BCSO-2012-0119030",
+        "INFO:Dept-130C 67 yof diabetic feeling light headed,Unit - 709,trlr 15");
+
+    doTest("T23",
+        "Med - Cardiac Arrest            2918 FISHERS GLADE              SA612/F8   GVIL-2012-000001157  Dept-123B - ACADIAN: Unit:    734         9963763,Transferred incident: Remote   Reference Number: 20120508-ZN16-0370 by Brunson, Savannah L. From ACADIAN,Interface has sent an ack message for GVIL-2012-0011432 to the remote CAD,9963763,This incident 20120508-ZN16-0370 has been sent to BCFA via the CAD2CAD Interface.,Unit - 734, status change to STATUS_RESPONDING by ACADIAN at 05/08/2012 06:25:35,Automatic Case Number",
+        "CALL:Med - Cardiac Arrest",
+        "ADDR:2918 FISHERS GLADE",
+        "MAP:SA612/F8",
+        "ID:GVIL-2012-000001157",
+        "INFO:Dept-123B - Unit: - 734 - 9963763 - Savannah L. From ACADIAN,9963763,Unit - 734");
+
   }
   
   @Test
@@ -217,6 +241,6 @@ public class TXBexarCountyParserTest extends BaseParserTest {
   }
   
   public static void main(String[] args) {
-    new TXBexarCountyParserTest().generateTests("T1");
+    new TXBexarCountyParserTest().generateTests("T21");
   }
 }
