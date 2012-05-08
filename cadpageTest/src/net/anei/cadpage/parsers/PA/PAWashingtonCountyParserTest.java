@@ -214,6 +214,18 @@ public class PAWashingtonCountyParserTest extends BaseParserTest {
 
   }
   
+  @Test
+  public void testMark181() {
+
+    doTest("T1",
+        "(911) Loc: 75 BEATTY LN NBET Xsts: GARRETT RD FARM LN Type: FIRST Time: 23:13:21 Loc Com:",
+        "ADDR:75 BEATTY LN",
+        "CITY:NORTH BETHLEHEM TWP",
+        "X:GARRETT RD & FARM LN",
+        "CALL:FIRST");
+    
+  }
+  
   public static void main(String[] args) {
     new PAWashingtonCountyParserTest().generateTests("T1");
   }
