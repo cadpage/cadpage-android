@@ -4347,16 +4347,6 @@ Contact: Martin Mikhail <martin.rsengineering@gmail.com>
 Sender: messaging@iamresponding.com
 Subject:34-4\n  2012-00000089                          WATR F WATER                Priority  1\r\nIncident Location  2305 W BANGS AV  \r
 **********************************************************
-Halifax County, NC
-Contact: Brandon Lindsey <blindseynfd@gmail.com>
-Dispatch A3 subclass (include Pender County, NC?)
-HalifaxCoE911@HalifaxNC911.com S: M:HalifaxCoE911:* JACKSON ST // 7TH ST* * * ROANOKE RAPIDS* * * * * WRECK NOPI* * * * C181,C182,FI14* * * * *
-HalifaxCoE911@HalifaxNC911.com S: M:HalifaxCoE911:* HWY 158 // AVE* * * ROANOKE RAPIDS* * * * * WRECK NOPI* * * * EMS4,EMS6,FI14* * * * *
-HalifaxCoE911@HalifaxNC911.com S: M:HalifaxCoE911:* 1403 EAST 10TH ST* * * ROANOKE RAPIDS* * * * * FIRE-ELEC* * * * FI14* * * * *
-HalifaxCoE911@HalifaxNC911.com S: M:HalifaxCoE911:* PILAND ST* * * ROANOKE RAPIDS* * * * * SPECIAL ASSG* * * * F1402,FI14* * * * *
-HalifaxCoE911@HalifaxNC911.com S: M:HalifaxCoE911:* SUBWAY // JULLIAN R ALLSBROOK* * * ROANOKE RAPIDS* * * * * WRECK NOPI* * * * FI14* * * * *
-HalifaxCoE911@HalifaxNC911.com S: M:HalifaxCoE911:* 93 ROANOKE AVE* * * ROANOKE RAPIDS* * * * * FIRE-SMOKE* * * * FI14* * * * *
-**********************************************************
 New Castle County, DE (replace)
 Contact: Tim Lynch <tlynch@ofc424.com>
 Sender: fivepoints17@chiefmessaging.com
@@ -4550,6 +4540,17 @@ Sender: 777-154,777-163
  Address: 80 PLEASANT ST, KEESEVILLE VILLAGE (AUSABLE) (LIBERTY ST/MAIN ST) 
  Resp.Type: 003-Chimney Fire 
  Priority: Priority 1
+**********************************************************
+Halifax County, NC
+Contact: Brandon Lindsey <blindseynfd@gmail.com>
+Sender: HalifaxCoE911@HalifaxNC911.com
+Dispatch A3 subclass (include Pender County, NC?)
+HalifaxCoE911@HalifaxNC911.com S: M:HalifaxCoE911:* JACKSON ST // 7TH ST* * * ROANOKE RAPIDS* * * * * WRECK NOPI* * * * C181,C182,FI14* * * * *
+HalifaxCoE911@HalifaxNC911.com S: M:HalifaxCoE911:* HWY 158 // AVE* * * ROANOKE RAPIDS* * * * * WRECK NOPI* * * * EMS4,EMS6,FI14* * * * *
+HalifaxCoE911@HalifaxNC911.com S: M:HalifaxCoE911:* 1403 EAST 10TH ST* * * ROANOKE RAPIDS* * * * * FIRE-ELEC* * * * FI14* * * * *
+HalifaxCoE911@HalifaxNC911.com S: M:HalifaxCoE911:* PILAND ST* * * ROANOKE RAPIDS* * * * * SPECIAL ASSG* * * * F1402,FI14* * * * *
+HalifaxCoE911@HalifaxNC911.com S: M:HalifaxCoE911:* SUBWAY // JULLIAN R ALLSBROOK* * * ROANOKE RAPIDS* * * * * WRECK NOPI* * * * FI14* * * * *
+HalifaxCoE911@HalifaxNC911.com S: M:HalifaxCoE911:* 93 ROANOKE AVE* * * ROANOKE RAPIDS* * * * * FIRE-SMOKE* * * * FI14* * * * *
 **********************************************************
 Lackawanna County, PA (alternate - Lackawanna Ambulance)
 Contact: Pat Gillott <pgill107@gmail.com>
