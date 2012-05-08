@@ -28,6 +28,19 @@ Contact: Me <cody@wisconsinrangers.net>
 Sender: tfddispatch@att.net
 (Case# 12-099) @2:45:18 AM // Seymour // Peterson Ave & Olson Dr. // MVC Extrication //\n10/50 PI with Extrication needed
 
+Contact: Chris Hedlund <chrishedlund213@yahoo.com>
+Sender: tfddispatch@att.net
+(Case# 12-117) @2:40:48 PM // Washington // henry at pamona // Motorvehicle Collision\n//
+(Case# 12-116) @1:51:32 PM // Washington // 500 block Deerfield RD  //\nIllegal/Attempted Burn // large brush pile
+(Case# 12-115) @10:31:26 PM // Seymour // 13034 Rossman Dr. // Electrical/Powerline\nEmergency // wires arcing
+(Case# 12-114) @6:32:48 PM // Union // 2211 Sherman Creek Rd // Service Call // Tree\nhas fallen into a house
+(Case# 12-112) @5:58:51 AM // Tiffany Twp (Dunn) // N11504 280th St // Search Call //\nSearch for hunter missing for 26+hours.  Request is for Manpower and\npossi
+(Case# 12-110) @1:10:09 PM // Brunswick // 4800 Karissa Dr. // Motorvehicle Collision\n// 10/50 PI
+(Case# 12-107) @8:14:11 AM // Seymour // Freeway 53 92mm Southbound // Vehicle Fire //\nvehicle fire
+(Case# 12-104) @11:13:39 AM // Brunswick // S8725 County Line Rd // Brush/Wildland Fire\n// possible out of control burn/brush fire in a field
+(Case# 12-099) @2:45:18 AM // Seymour // Peterson Ave & Olson Dr. // MVC Extrication //\n10/50 PI with Extrication needed
+(Case# 12-100) @1:33:50 PM // Pleasant Valley // S10700 Hwy 93 // Brush/Wildland Fire\n// grass fire
+
  */
 public class WIEauClaireParser extends FieldProgramParser {
   
@@ -65,9 +78,28 @@ public class WIEauClaireParser extends FieldProgramParser {
     }
   }
   
+  private static final Pattern CITY_COUNTY_PTN = Pattern.compile("(.*)\\((.*)\\)");
+  private class MyCityField extends CityField {
+    @Override
+    public void parse(String field, Data data) {
+      Matcher match = CITY_COUNTY_PTN.matcher(field);
+      String county = "";
+      if (match.find()) {
+        field = match.group(1).trim();
+        county = match.group(2).trim();
+      }
+      if (field.toUpperCase().endsWith(" TWP")) {
+        field = field.substring(0, field.length()-4).trim();
+      }
+      field = append(field, ", ", county);
+      super.parse(field, data);
+    }
+  }
+  
   @Override
   public Field getField(String name) {
     if (name.equals("TIME")) return new MyTimeField();
+    if (name.equals("CITY")) return new MyCityField();
     return super.getField(name);
   }
   

@@ -2300,7 +2300,7 @@ Kanawha County, WV (WVKanawhaCountyParser)
 (Message Forwarded by PageGate)  DECREASED LOC (SEMI-UNRESPONSIVE) reported at 2700 MOUNTAINEER BLVD in SOUTH CHARLESTON on 02/10/12 18:43
 (Message Forwarded by PageGate)  SHORTNESS OF BREATH reported at 5218 1/2 INDIANA ST in SOUTH CHARLESTON on 02/10/12 19:03
 ***************************************************************************
-Eau Claire, WI (VAEauClaireParser)
+Eau Claire, WI (WIEauClaireParser)
 [Case# 11-253]  @5:23:16 AM // Brunswick // W2250 Rim Rock Rd // Vehicle Fire // vehicle fire, no exposures
 [Case# 11-252]  @7:21:18 PM // Washington // 4940 Meadowbrook Ln // Sounding Fire Alarm // sounding fire alarm, showing 1st & 2nd floor smoke detector
 [Case# 11-251]  @4:03:35 PM // Washington // 4400 blk South Lowes creek  rd // Fire //
@@ -4379,7 +4379,6 @@ SNRWLC, RFA 8835-101, Firstname Surname, 137 RIVER RD, NORTHWOOD, 0419999 999, L
 SNRWLC  will change:
 SNR=Sydney Northern Region
 WLC = Unit Name
-
 **********************************************************
 **********************************************************
 **********************************************************
