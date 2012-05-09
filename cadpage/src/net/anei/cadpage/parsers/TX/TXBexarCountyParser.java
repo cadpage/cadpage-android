@@ -1,5 +1,7 @@
 package net.anei.cadpage.parsers.TX;
 
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -111,6 +113,7 @@ public class TXBexarCountyParser extends FieldProgramParser {
   }
   
   private static final Pattern DATE_TIME_PTN = Pattern.compile("(\\d\\d/\\d\\d )?(\\d\\d:\\d\\d [ap]m)");
+  private static final DateFormat TIME_FMT = new SimpleDateFormat("KK:mm aa");
   private class MyDateTimeField extends DateTimeField {
     @Override
     public boolean canFail() {
@@ -122,7 +125,7 @@ public class TXBexarCountyParser extends FieldProgramParser {
       Matcher match = DATE_TIME_PTN.matcher(field);
       if (!match.matches()) return false;
       data.strDate = getOptGroup(match.group(1));
-      data.strTime = match.group(2);
+      setTime(TIME_FMT, match.group(2), data);
       return true;
     }
   }

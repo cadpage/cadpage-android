@@ -1,6 +1,10 @@
 package net.anei.cadpage.parsers;
 
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Properties;
@@ -543,6 +547,62 @@ public abstract class MsgParser {
    if (data.strAddress.startsWith(" & ")) data.strAddress = data.strAddress.substring(3).trim();
    if (data.strAddress.endsWith(" & ")) data.strAddress = data.strAddress.substring(0,data.strAddress.length()-3);
  }
+  
+  /**
+   * Set formated date/time field
+   * @param dateFmt Date format to be used to parse date/time string
+   * @param field date/time string to be parsed
+   * @param data Data object where information should be saved
+   * @param returns true if field was parsed successfully
+   */
+  public static boolean setDateTime(DateFormat dateFmt, String field, Data data) {
+    try {
+       Date date = dateFmt.parse(field);
+       data.strDate = DATE_FMT.format(date);
+       data.strTime = TIME_FMT.format(date);
+       return true;
+    } catch (ParseException ex) {
+      return false;
+    }
+  }
+  
+  /**
+   * Set formated date field
+   * @param dateFmt Date format to be used to parse date string
+   * @param field date string to be parsed
+   * @param data Data object where information should be saved
+   * @param returns true if field was parsed successfully
+   */
+  public static boolean setDate(DateFormat dateFmt, String field, Data data) {
+    try {
+       Date date = dateFmt.parse(field);
+       data.strDate = DATE_FMT.format(date);
+       return true;
+    } catch (ParseException ex) {
+      return false;
+    }
+  }
+  
+  /**
+   * Set formated time field
+   * @param dateFmt Date format to be used to parse date/time string
+   * @param field time string to be parsed
+   * @param data Data object where information should be saved
+   * @param returns true if field was parsed successfully
+   */
+  public static boolean setTime(DateFormat dateFmt, String field, Data data) {
+    try {
+       Date date = dateFmt.parse(field);
+       data.strTime = TIME_FMT.format(date);
+       return true;
+    } catch (ParseException ex) {
+      return false;
+    }
+  }
+  
+  private static final DateFormat DATE_FMT = new SimpleDateFormat("MM/dd/yyyy");
+  private static final DateFormat TIME_FMT = new SimpleDateFormat("HH:mm:ss");
+ 
 
  /**
   * Build a code table for use by convertCodeTable

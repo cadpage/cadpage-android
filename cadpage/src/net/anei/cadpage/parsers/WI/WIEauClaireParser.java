@@ -1,5 +1,7 @@
 package net.anei.cadpage.parsers.WI;
 
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -66,15 +68,13 @@ public class WIEauClaireParser extends FieldProgramParser {
     return parseFields(body.split("//"), data);
   }
   
+  private static final DateFormat TIME_FMT = new SimpleDateFormat("hh:mm:ss aa");
   private class MyTimeField extends TimeField {
-    public MyTimeField() {
-      setPattern(Pattern.compile("@\\d{1,2}:\\d{1,2}:\\d{1,2} [AP]M"), true);
-    }
     
     @Override
     public void parse(String field, Data data) {
-      field = field.substring(1).trim();
-      super.parse(field, data);
+      if (!field.startsWith("@")) abort();
+      setTime(TIME_FMT, field.substring(1), data);
     }
   }
   
