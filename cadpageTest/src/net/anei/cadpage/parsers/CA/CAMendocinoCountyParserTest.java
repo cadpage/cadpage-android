@@ -139,9 +139,65 @@ public class CAMendocinoCountyParserTest extends BaseParserTest {
         "GPS:X: -123 29.8632  Y: 39 41.2492",
         "UNIT:LVF",
         "INFO:65 YOF DIFF BREATHING");
+
+    doTest("T13",
+        "[CAD Page]  MED, TRAFFIC COLLISION; 1450 SPYROCK RD / 54002 N HWY 101 ,LAYT ; Inc# 005543X: -123 32.5373  Y: 39 47.8728 REACH5 LVF-P; 4 miles up veh over side w/ role over",
+        "CALL:MED, TRAFFIC COLLISION",
+        "ADDR:1450 SPYROCK RD & 54002 N HWY 101",
+        "MADDR:1450 SPYROCK RD",
+        "CITY:LAYTONVILLE",
+        "ID:005543",
+        "GPS:X: -123 32.5373  Y: 39 47.8728",
+        "UNIT:REACH5 LVF-P",
+        "INFO:4 miles up veh over side w/ role over");
+
+    doTest("T14",
+        "[CAD Page]  MEDICAL, DELTA; STANDISH-HICKEY STATE PARK @ 69350 N HWY 101 ,LEGG ; Inc# 005545X: -123 43.4727  Y: 39 52.6809 LVF; 19yom long fall  and 20 yomfall holding on to edge of cliff",
+        "CALL:MEDICAL, DELTA",
+        "PLACE:STANDISH-HICKEY STATE PARK",
+        "ADDR:69350 N HWY 101",
+        "CITY:LEGGETT",
+        "ID:005545",
+        "GPS:X: -123 43.4727  Y: 39 52.6809",
+        "UNIT:LVF",
+        "INFO:19yom long fall  and 20 yomfall holding on to edge of cliff");
+
+    doTest("T15",
+        "[CAD Page]  FIRE, WILDLAND; HWY 101 MP 067.50 @ =L(39.660449,-123.477308) ,LAYT ; Inc# 005554X: -123 28.6384  Y: 39 39.6269 B1114 AA110 T90 T91 LVF-P E1184 E1160 E1166 E1168 DOZ1142 CCR3 ADMIN; SOUTH ON HWY 101 - 1 1.25 SOUTH OF LAYTONVILLE -",
+        "CALL:FIRE, WILDLAND",
+        "PLACE:HWY 101 MP 067.50",
+        "ADDR:=L(39.660449,-123.477308)",
+        "CITY:LAYTONVILLE",
+        "ID:005554",
+        "GPS:X: -123 28.6384  Y: 39 39.6269",
+        "UNIT:B1114 AA110 T90 T91 LVF-P E1184 E1160 E1166 E1168 DOZ1142 CCR3 ADMIN",
+        "INFO:SOUTH ON HWY 101 - 1 1.25 SOUTH OF LAYTONVILLE -");
+
+    doTest("T16",
+        "[CAD Page]  MEDICAL, CHARLIE; 50 BRANSCOMB RD ,LAYT (LONG VALLEY HEATH CENTER); Inc# 005457X: -123 29.0380  Y: 39 41.2658 LVF-P; 53 yom chest pain cardic hx",
+        "CALL:MEDICAL, CHARLIE",
+        "PLACE:LONG VALLEY HEATH CENTER",
+        "ADDR:50 BRANSCOMB RD",
+        "CITY:LAYTONVILLE",
+        "ID:005457",
+        "GPS:X: -123 29.0380  Y: 39 41.2658",
+        "UNIT:LVF-P",
+        "INFO:53 yom chest pain cardic hx");
+
+    doTest("T17",
+        "[CAD Page]  MEDICAL, BRAVO; LAYTONVILLE FIREHOUSE @ 44950 WILLIS AV ,LAYT ; Inc# 005464X: -123 29.0915  Y: 39 41.2270 LVF-P; POSS WALK IN",
+        "CALL:MEDICAL, BRAVO",
+        "PLACE:LAYTONVILLE FIREHOUSE",
+        "ADDR:44950 WILLIS AV",
+        "MADDR:44950 WILLIS AVE",
+        "CITY:LAYTONVILLE",
+        "ID:005464",
+        "GPS:X: -123 29.0915  Y: 39 41.2270",
+        "UNIT:LVF-P",
+        "INFO:POSS WALK IN");
   }
   
   public static void main(String[] args) {
-    new CAMendocinoCountyParserTest().generateTests("T1");
+    new CAMendocinoCountyParserTest().generateTests("T13");
   }
 }
