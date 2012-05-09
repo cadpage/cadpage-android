@@ -1349,6 +1349,11 @@ CAD MSG: *D A3   57       HANSON BLVD NW / ANDOVER BLVD NW  NE CORNER..SMOKE/CHA
 CAD MSG: *D A3   39F      17844 XEON ST NW  FIRE ALARM... SMOKE OR HEAT UPSTAIRS OR IN GARAGE... SMALL DOG ONSITE INC:10019638  
 CAD MSG: *D A3   45F      14950 HANSON BLVD NW @ANDOVER ELEMENTARY  PLANNED FIRE DRILL AT 1330 ... WILL CALL BACK WHEN COMPLETE INC:10019627   
 ***************************************************************************
+Festus, MO (MOFestus)
+(call) FIRE / BRUSH / 2819 NORTH SELMA ROAD JEFFCO/R7 /DOOLING HO /EMS /6610 /jpad brush with exposer R-7 FD720146 /JPAD 603031
+(call) FIRE/10-50 J-2/ STATE RD CC JEFFCO/FESTUS FIRE / HWY 67 /FIRE DEP /H4 FI H1 FESTUS  FD66651 / JPAD H4 FI H1
+S:Call M:FIRE / MUTUAL AID / 12532 STATE RD TT JEFFCO/R-7 / R7SCHOOLRD / EMS / H3 FI H1 / BRUSH ENDANGERING A STRUCTURE/ 66 14 6037 \nR-7 FD720096 / JPAD H3 FI H1\n
+***************************************************************************
 Hennepin county, MN (MNHennepinCountyParser)
 NAME-KENDRA;  LOC-4001 STINSON BLVD NE [#404;  EVTYPE-STROKE;  COMMENTS-POSSIBLE STROKE --- USE MAIN ENTRANCE TO THE 4TH FL
 NAME-BRINATTE,HELEN;  LOC-2626 KENZIE TER [#114 [@WALKER ON KENZIE APT;  EVTYPE-ILL;  COMMENTS-2626 KENZIE TER : cross stre
@@ -1369,15 +1374,15 @@ Johnson County, MO (MOJohnsonCountyParser)
 [ 911 Page ] Dispatch: 7/20/2011 19:24:58 FIRE VEHCILE 793 NE 101 RD JOHNSON COUNTY MO
 [ 911 Page ] Dispatch: 7/18/2011 22:25:03 FIRE GRASS SE DD HWY & SE 341 RD JOHNSON COUNTY
 ***************************************************************************
-Festus, MO (MOFestus)
-(call) FIRE / BRUSH / 2819 NORTH SELMA ROAD JEFFCO/R7 /DOOLING HO /EMS /6610 /jpad brush with exposer R-7 FD720146 /JPAD 603031
-(call) FIRE/10-50 J-2/ STATE RD CC JEFFCO/FESTUS FIRE / HWY 67 /FIRE DEP /H4 FI H1 FESTUS  FD66651 / JPAD H4 FI H1
-S:Call M:FIRE / MUTUAL AID / 12532 STATE RD TT JEFFCO/R-7 / R7SCHOOLRD / EMS / H3 FI H1 / BRUSH ENDANGERING A STRUCTURE/ 66 14 6037 \nR-7 FD720096 / JPAD H3 FI H1\n
-***************************************************************************
 Jefferson City, MO (MOJeffersonCityParser)
 Subject:DONOTREPLY\nSnyder, Jodi 14:00 Medical Emergency 718 MICHIGAN -Cross Streets- LOUISIANA AVE / MISSOURI BLVD E1   CONSCIOUS  OUTSID
 Subject:DONOTREPLY\nE4  14:28 Line Down  - 1505 SOUTHWEST -Cross Streets- CEDAR RIDGE RD / EDGEWOOD DR   LIMB IS ON A POWER LINE \n
 Subject:DONOTREPLY\nMcDowell, Shelley 13:40 Medical Emergency 301 HIGH -Cross Streets- BROADWAY ST / RAMP OFF RAMP, RAMP ON RAMP E1   FEMA
+***************************************************************************
+Newton County, MO (MONewtonCountyParser)
+Subject:911 CALL\n11178 ELAND RD  CrossStreets: JUNIPER DR 0.01 mi SE IVY DR 0.73 mi N SICK PERSON ESN: pg6 Call Number: 763388
+Subject:911 CALL\nIRIS RD & STATE LINE RD  CrossStreets: TA-D (TONE PD) HIGH MECH-ALL TERRAIN ESN: pg6 Call Number: 760919
+Subject:911 CALL\n2953 ROWAN DR  CrossStreets: ANTELOPE RD 0.19 mi E HIGHWAY 43 0.81 mi W STRUCTURE FIRE-D / RES (SINGLE) ESN: pg8 Call Number: 7
 ***************************************************************************
 Pulaski County, MO (MOPulaskiCountyParser)
 STRUCTURE FIRE RESIDENTIAL  11280 BATTLE LN  PULASKI COUNTY CrossStreets: Highway 17 0.42 mi W CFD1 DFD2 M23 TCFD1 DFD2 1553 1552 1562 1560 1351 1501 PCSD1 RESCUE MILLER T1 WRFD1 SRFD1 1902 1361 1952 T2 1650 HFD1 Call Received Time: 12/6/2010 20:46:54 Dispatch: 12/6/2010 21:50:29
@@ -4389,18 +4394,6 @@ WLC = Unit Name
 ************  READY TO ROLL ******************************
 **********************************************************
 **********************************************************
-Newton County, MO
-Contact: jeffrey lechliter <jlechliter4512@gmail.com>
-Sender: 911@NC-CDC.ORG
-Subject:911 CALL\nSIGNIFICANT WEATHER ADVISORY FOR EASTERN NEWTON CO TILL 0300\r\n\r\n\r\n\r\n\r
-Subject:911 CALL\n11178 ELAND RD  CrossStreets: JUNIPER DR 0.01 mi SE IVY DR 0.73 mi N SICK PERSON ESN: pg6 Call Number: 763388
-Subject:911 CALL\nIRIS RD & STATE LINE RD  CrossStreets: TA-D (TONE PD) HIGH MECH-ALL TERRAIN ESN: pg6 Call Number: 760919
-Subject:911 CALL\n2953 ROWAN DR  CrossStreets: ANTELOPE RD 0.19 mi E HIGHWAY 43 0.81 mi W STRUCTURE FIRE-D / RES (SINGLE) ESN: pg8 Call Number: 7
-Subject:911 CALL\n13724 HIGHWAY 43, Apt. 30 TEEPEE MHP CrossStreets: AVALON LN 0.22 mi N LONNIE LN 0.33 mi SW STRUCTURE FIRE ESN: pg7 Call Number
-Subject:911 CALL\n20513 HIGHWAY Y  CrossStreets: RHINEHART LN 0.19 mi S REDBUD RD 0.62 mi N CHEST PAIN ESN: pg8 Call Number: 762218
-Subject:911 CALL\n5369 QUINCE RD  CrossStreets: DENNISON LN 0.03 mi E CROW RD 0.71 mi W TA INJURY ESN: pg8 Call Number: 762973
-Subject:911 CALL\n13724 HIGHWAY 43, Apt. 29 TEEPEE MHP CrossStreets: AVALON LN 0.22 mi N LONNIE LN 0.33 mi SW STRUCTURE FIRE-D / MH-PORTABLE OFC 
-Subject:911 CALL\n5156 JESSICA LN  CrossStreets: CROW RD 0.31 mi W FALL ESN: pg6 Call Number: 762520
 **********************************************************
 Chester County, PA (alternate)
 Contact: "jtgff72@aol.com" <jtgff72@aol.com>

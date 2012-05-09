@@ -560,7 +560,7 @@ public class MsgInfo {
 
   // Clean up any BLK indicators
   // Remove occurance of BLK bracketed by non-alpha characters
-  private static final Pattern BLK_PAT = Pattern.compile("(?:-|(?<![A-Z]))(?:BLK|BLOCK)(?![A-Z])", Pattern.CASE_INSENSITIVE);
+  private static final Pattern BLK_PAT = Pattern.compile("(?:-|(?<![A-Z]))BLK(?![A-Z])", Pattern.CASE_INSENSITIVE);
   private String cleanBlock(String sAddr) {
     sAddr = sAddr.replaceAll("[\\{\\}]", "");
     Matcher match = BLK_PAT.matcher(sAddr);

@@ -96,10 +96,20 @@ public class WIEauClaireParser extends FieldProgramParser {
     }
   }
   
+  private static final Pattern BLOCK_PTN = Pattern.compile("\\bBLOCK\\b", Pattern.CASE_INSENSITIVE);
+  private class MyAddressField extends AddressField {
+    @Override
+    public void parse(String field, Data data) {
+      field = BLOCK_PTN.matcher(field).replaceAll("BLK");
+      super.parse(field, data);
+    }
+  }
+  
   @Override
   public Field getField(String name) {
     if (name.equals("TIME")) return new MyTimeField();
     if (name.equals("CITY")) return new MyCityField();
+    if (name.equals("ADDR")) return new MyAddressField();
     return super.getField(name);
   }
   
