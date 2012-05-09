@@ -1,14 +1,14 @@
-package net.anei.cadpage.parsers.ZUK;
+package net.anei.cadpage.parsers.ZAU;
 
 import net.anei.cadpage.parsers.general.GeneralParser;
 
-public class ZUKGeneralParser extends GeneralParser {
+public class ZAUGeneralParser extends GeneralParser {
 
   /**
    * Default constructor
    */
-  public ZUKGeneralParser() {
-    super(CountryCode.UK);
+  public ZAUGeneralParser() {
+    super(CountryCode.AU);
   }
   
   @Override

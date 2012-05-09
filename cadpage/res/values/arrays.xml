@@ -249,6 +249,7 @@
     <item>WA Washington</item>
     <item>WV West Virginia</item>
     <item>WI Wisconsin</item>
+    <item>ZAU Austrailia</item>
     <item>ZUK United Kingdom</item>
   </string-array>
 
@@ -657,6 +658,10 @@
     <item>WIKenoshaCounty</item>
     <item>WIOutagamieCounty</item>
     <item>WIWinnebagoCounty</item>
+    <item>ZAUNewSouthWales</item>
+    <item>ZAUGeneral</item>
+    <item>ZAUGeneralSlash</item>
+    <item>ZAUGeneralDash</item>
     <item>ZUKWestMidlands</item>
     <item>ZUKGeneral</item>
     <item>ZUKGeneralSlash</item>
@@ -1067,6 +1072,10 @@
     <item>Kenosha County, WI</item>
     <item>Outagamie County, WI</item>
     <item>Winnebago County, WI</item>
+    <item>New South Wales, AU</item>
+    <item>Generic Location</item>
+    <item>Generic (slash field separator)</item>
+    <item>Generic (dash field separator)</item>
     <item>West Midlands Region, UK</item>
     <item>Generic Location</item>
     <item>Generic (slash field separator)</item>

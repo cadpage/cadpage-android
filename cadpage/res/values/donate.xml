@@ -170,6 +170,15 @@
     Cadpage becomes well established there.
   </string>
   
+  <string name="donate_cadpage_au_title">Austrailia location</string>
+  <string name="donate_cadpage_au_text">
+    You are using a location in the Austrailia.\n
+    We are not charging Austrailian users at this time.  Partly because non-US location
+    support is still experimental and partly because we want encourage more
+    users to try it there.  We may change this at some later time if/when
+    Cadpage becomes well established there.
+  </string>
+  
   <string name="donate_cadpage_title">Sponsored by Cadpage</string>
   <string name="donate_cadpage_text">
     You are using a location sponsored by Cadpage.\n 

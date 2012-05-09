@@ -22,7 +22,7 @@ public abstract class MsgParser {
   /**
    * Country code passed to constructor to set up tables for specific countries
    */
-  public enum CountryCode {US, UK};
+  public enum CountryCode {US, UK, AU};
   
   /**
    * Parse flag indicates that sender address filtering should not be checked
@@ -230,7 +230,8 @@ public abstract class MsgParser {
   public String getSponsor() {
     
     // UK locations are free for now
-    if (countryCode == MsgParser.CountryCode.UK) return "UK"; 
+    if (countryCode == CountryCode.UK) return "UK";
+    if (countryCode == CountryCode.AU) return "AU"; 
     return null;
   }
   

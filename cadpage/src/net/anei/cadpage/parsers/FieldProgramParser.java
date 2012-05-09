@@ -186,6 +186,13 @@ public class FieldProgramParser extends SmartAddressParser {
     setProgram(programStr);
   }
   
+  public FieldProgramParser(String[] cities, String defCity, String defState, CountryCode country, 
+                             String programStr) {
+    super(cities, defCity, defState, country);
+    this.cities = new HashSet<String>(Arrays.asList(cities));;
+    setProgram(programStr);
+  }
+
   /**
    * @return uncompiled program string
    */
