@@ -112,7 +112,7 @@ public class NCJohnstonCountyParserTest extends BaseParserTest {
         "SRC:CLD",
         "CALL:VEHICLE FIRE",
         "ADDR:314 I-40 HWY",
-        "MADDR:314 I 40 HWY",
+        "MADDR:314 I 40",
         "X:314.5 & SPRINT PCS",
         "DATE:02/07/2011",
         "TIME:15:54:03");
@@ -121,7 +121,7 @@ public class NCJohnstonCountyParserTest extends BaseParserTest {
         "CAD:Standby At The Station;314 I-40 HWY; BENS;314.5",
         "CALL:Standby At The Station",
         "ADDR:314 I-40 HWY",
-        "MADDR:314 I 40 HWY",
+        "MADDR:314 I 40",
         "X:BENS & 314.5");
 
     doTest("T12",

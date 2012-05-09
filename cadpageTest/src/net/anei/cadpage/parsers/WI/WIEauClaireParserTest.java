@@ -133,7 +133,7 @@ public class WIEauClaireParserTest extends BaseParserTest {
         "ID:12-116",
         "TIME:1:51:32 PM",
         "CITY:Washington",
-        "ADDR:500 block Deerfield RD",
+        "ADDR:500 BLK Deerfield RD",
         "MADDR:500  Deerfield RD",
         "CALL:Illegal/Attempted Burn",
         "INFO:large brush pile");
