@@ -4510,28 +4510,6 @@ No Prior Premise History found for the Location
  ***  *** Dispatch ***
  
 **********************************************************
-Clinton County, NY (Keeseville)
-Contact: natebecca110611@gmail.com
-Sender: 777-154,777-163
-.... (Keeseville) Time: May 02, 2012 11:59:43 \n AgencyName: Keeseville EMS \n Address: 89 Second St, CHESTERFIELD (WASHINGTON ST/LUMBER ST) \n Resp.Type: 001Ambulance \n Priority: Priority 1
-
-.... (Keeseville) Time: May 01, 2012 19:26:16 
- AgencyName: Keeseville EMS 
- Address: 164 HILL ST, AUSABLE (TAYLOR HILL RD, HALLOCK HILL RD/87) 
- Resp.Type: 001Ambulance 
- Priority: Priority 1
- 
- .... (Keeseville) Time: April 30, 2012 18:54:04 
- AgencyName: Keeseville EMS 
- Address: 73 Clinton St, KEESEVILLE VILLAGE (CHESTERFIELD) (DIVISION ST/CHURCH ST) 
- Resp.Type: 24B02-Unknown status/Other codes not applicable 
- Priority:
- 
- .... (Keeseville) Time: April 30, 2012 17:49:11 
- AgencyName: Keeseville 
- Address: 80 PLEASANT ST, KEESEVILLE VILLAGE (AUSABLE) (LIBERTY ST/MAIN ST) 
- Resp.Type: 003-Chimney Fire 
- Priority: Priority 1
 **********************************************************
 Halifax County, NC
 Contact: Brandon Lindsey <blindseynfd@gmail.com>
