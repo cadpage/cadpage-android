@@ -64,7 +64,7 @@ public class TXBexarCountyParserTest extends BaseParserTest {
     doTest("T7",
         "04/28 06:28 am - Med - Diabetic Problems   - 4455 Twin Valley            - 748E6   - C states her mother 72yo has low blood sugar..acad notifed[Shared],Multi-Agency BCLE Incident #: BCSO-2012-0109820,Automatic Case Number(s) issued for Somerset FD: SOM-2012-000000292. [Shared],",
         "DATE:04/28",
-        "TIME:06:28 am",
+        "TIME:06:28:00",
         "CALL:Med - Diabetic Problems",
         "ADDR:4455 Twin Valley",
         "MAP:748E6",
@@ -209,7 +209,7 @@ public class TXBexarCountyParserTest extends BaseParserTest {
 
     doTest("T1",
         "07:35 pm   10410 Stallion Bay             :Rspnd for: Med - Sick Person    - 546C6   - D7FR-2012-000000330\r",
-        "TIME:07:35 pm",
+        "TIME:19:35:00",
         "CALL:Med - Sick Person",
         "ADDR:10410 Stallion Bay",
         "ID:D7FR-2012-000000330",
