@@ -71,6 +71,18 @@ public class NCPersonCountyParserTest extends BaseParserTest {
         "INFO:design works building 2 general fire alarm adt 8772857397");
   }
   
+  @Test
+  public void testToddLane() {
+
+    doTest("T1",
+        "BOAKLEY:120 N OLD LANTERN RD TIMBERLAKE PLANTERS WAY X INT L/R CARRIAGE LN 18:44:47 FIRE STOVE GAS GRILL PROPANE TANK EXPLODED",
+        "ADDR:120 N OLD LANTERN RD",
+        "PLACE:TIMBERLAKE PLANTERS WAY X INT L / R CARRIAGE LN",
+        "TIME:18:44:47",
+        "INFO:FIRE STOVE GAS GRILL PROPANE TANK EXPLODED");
+    
+  }
+  
 
   public static void main(String[] args) {
     new NCPersonCountyParserTest().generateTests("T1", "ADDR CITY PLACE CODE ID TIME CALL INFO");
