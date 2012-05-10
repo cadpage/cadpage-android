@@ -205,7 +205,7 @@ public class NJMonmouthCountyAParserTest extends BaseParserTest {
         "CALL:FIRA F FIRE ALARM",
         "PRI:1",
         "ADDR:327 ST HWY 33",
-        "MADDR:327 ST 33",
+        "MADDR:327 NJ 33",
         "CITY:MANALAPAN",
         "X:WOODWARD RD/IRON ORE RD",
         "PLACE:MARRIANE MANOR LLC",

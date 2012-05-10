@@ -142,7 +142,7 @@ public class TXNassauBayParserTest extends BaseParserTest {
         "SRC:WBFD",
         "CALL:MINOR ACCIDENT",
         "ADDR:SH 3 HWY & MAGNOLIA AVE",
-        "MADDR:ST 3 & MAGNOLIA AVE",
+        "MADDR:TX 3 & MAGNOLIA AVE",
         "CITY:WEBSTER",
         "CODE:WBE",
         "DATE:04/10/2011",

@@ -3,6 +3,8 @@ package net.anei.cadpage.parsers;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import net.anei.cadpage.parsers.MsgParser.CountryCode;
+
 /**
  * This class contains all of the useful data fields that are parsed from
  * the actual message text
@@ -426,6 +428,7 @@ public class MsgInfo {
     sAddr = cleanDoubleRoutes(sAddr);
     sAddr = cleanInterstate(sAddr);
     sAddr = cleanOffRamp(sAddr);
+    sAddr = cleanSTRoutes(sAddr);
     
     // Make sure & are surrounded by blanks
     sAddr = sAddr.replaceAll(" *& *", " & ");
@@ -445,6 +448,7 @@ public class MsgInfo {
         sCross = cleanDoubleRoutes(sCross);
         sCross = cleanInterstate(sCross);
         sCross = cleanOffRamp(sCross);
+        sCross = cleanSTRoutes(sCross);
         sAddr = prefix + sAddr + " & " + sCross;
       }
     
@@ -628,6 +632,11 @@ public class MsgInfo {
   private static final Pattern SRT_PTN = Pattern.compile("\\bSRT\\b", Pattern.CASE_INSENSITIVE);
   
   private String cleanRoutes(String sAddress) {
+    
+    // Google gets confused by the ST abbreviation for State hwy.  We have a couple choices but lets use
+    // the default state if there is one and STATE if there isn't.
+    String state = (countryCode == CountryCode.US && defState.length() > 0 ? defState : "STATE");
+
     Matcher match = ROUTE_PTN.matcher(sAddress);
     sAddress = match.replaceAll("$1 $2");
     
@@ -641,7 +650,7 @@ public class MsgInfo {
       match.appendTail(sb);
       sAddress = sb.toString();
     }
-    sAddress = SRT_PTN.matcher(sAddress).replaceAll("ST");
+    sAddress = SRT_PTN.matcher(sAddress).replaceAll(state);
     return sAddress;
   }
 
@@ -694,6 +703,15 @@ public class MsgInfo {
     Matcher match = OFFRAMP_PTN.matcher(sAddress);
     if (match.find()) sAddress = sAddress.substring(0,match.start()).trim();
     return sAddress;
+  }
+  
+  private static final Pattern ST_PTN = Pattern.compile("(?<=^|& ?|\\d ?(?:[NSEW] ?)?)ST(?= +\\d+)\\b", Pattern.CASE_INSENSITIVE);
+  private String cleanSTRoutes(String sAddress) {
+    
+    // Google gets confused by the ST abbreviation for State hwy.  We have a couple choices but lets use
+    // the default state if there is one and STATE if there isn't.
+    String state = (countryCode == CountryCode.US && defState.length() > 0 ? defState : "STATE");
+    return ST_PTN.matcher(sAddress).replaceAll(state);
   }
 
   

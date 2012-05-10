@@ -16,9 +16,9 @@ public class MsgInfoTest {
   @Test
   public void testGetMapAddress() {
     
-    doMapTest("TXLibertyCounty", "16897 ST 146,KENBURG,XX", "16897 SH-146N");
+    doMapTest("TXLibertyCounty", "16897 XX 146,KENBURG,XX", "16897 SH-146N");
     
-    doMapTest("INStJosephCounty", "30750 ST 2,KENBURG,XX", "30750 SR 2 HW");
+    doMapTest("INStJosephCounty", "30750 XX 2,KENBURG,XX", "30750 SR 2 HW");
     
     doMapTest("CASanBernardino", "I 10 E & N University St,KENBURG,XX", "I 10 Fwy E & N University St");
     
@@ -40,7 +40,7 @@ public class MsgInfoTest {
     
     doMapTest("NCAlexanderCounty", "8510 XX 90 E,KENBURG,XX", "8510 XX 90 HWY E");
     
-    doMapTest("TXNassauBay", "ST 3 & MAGNOLIA AVE,KENBURG,XX", "SH 3 HWY & MAGNOLIA AVE");
+    doMapTest("TXNassauBay", "XX 3 & MAGNOLIA AVE,KENBURG,XX", "SH 3 HWY & MAGNOLIA AVE");
     
     doMapTest("TXNassauBay", "20233  45 FWY,KENBURG,XX", "20233 IH 45 FWY");
     
@@ -75,15 +75,15 @@ public class MsgInfoTest {
     doMapPlaceTest("PLC1", "PARK PLACE,US HIGHWAY 100,KENBURG,XX", "US HIGHWAY 100", "PARK PLACE");
     doMapPlaceTest("PLC2", "850 US HIGHWAY 100,KENBURG,XX", "850 US HIGHWAY 100", "PARK PLACE");
     
-    doMapTest("RT1", "ST 150 & HWY 12,KENBURG,XX", "ST150 & HWY12");
+    doMapTest("RT1", "XX 150 & HWY 12,KENBURG,XX", "ST150 & HWY12");
     doMapTest("RT2", "SAME XX 30 & XX 15 LAST,KENBURG,XX", "SAME XX30 & XX15 LAST");
     doMapTest("RT3", "WE75 & XX 10,KENBURG,XX", "WE75&XX10");
     
     doMapTest("DR1", "345 W US 30,KENBURG,XX", "345 W US RT 30");
-    doMapTest("DR2", "345 w st 30,KENBURG,XX", "345 w st hwy 30");
+    doMapTest("DR2", "345 w XX 30,KENBURG,XX", "345 w st hwy 30");
     doMapTest("DR3", "345 XX 22,KENBURG,XX", "345 XX RT 22");
     doMapTest("DR4", "345 XY RT 22,KENBURG,XX", "345 XY RT 22");
-    doMapTest("DR5", "3643 ST 281,KENBURG,XX", "3643 STHY 281");
+    doMapTest("DR5", "3643 XX 281,KENBURG,XX", "3643 STHY 281");
     
     doMapTest("BLK1", "6000 REIDSVILLE RD,KENBURG,XX", "6000BLK REIDSVILLE RD");
     doMapTest("BLK2", "6000 OBLKA ST,KENBURG,XX", "6000 OBLKA ST");
@@ -96,13 +96,13 @@ public class MsgInfoTest {
     doMapTest("Hw", "Hwy 20,KENBURG,XX", "Hw 20");
     doMapTest("hw", "hwy 20,KENBURG,XX", "hw 20");
     
-    doMapTest("STH", "ST 29 & 32,KENBURG,XX", "STH 29 & 32");
+    doMapTest("STH", "XX 29 & 32,KENBURG,XX", "STH 29 & 32");
     
     doMapTest("&", "RED RD & BLACK ST,KENBURG,XX", "RED RD&BLACK ST");
     
     doMapTest("EO", "BLACK ST & RED RD,KENBURG,XX", "BLACK ST EO RED RD");
     
-    doMapTest("SRT", "ST 155 & ST 161,KENBURG,XX", "SRT155&SRT161");
+    doMapTest("SRT", "XX 155 & XX 161,KENBURG,XX", "SRT155&SRT161");
     
     doMapTest("NEAR", "BRICK CHURCH RD & RT 214,KENBURG,XX", "BRICK CHURCH RD NEAR RT 214");
   }

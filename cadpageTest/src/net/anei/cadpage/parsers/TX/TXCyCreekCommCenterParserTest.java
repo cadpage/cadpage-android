@@ -264,7 +264,7 @@ public class TXCyCreekCommCenterParserTest extends BaseParserTest {
         "DATE:09/11",
         "TIME:23:25",
         "ADDR:22539 SH 249 SB",
-        "MADDR:22539 ST 249",
+        "MADDR:22539 TX 249",
         "MAP:329N-",
         "PLACE:MATTRESS GIANT",
         "CALL:69-LIGHT STRUCTURE INCIDENT",

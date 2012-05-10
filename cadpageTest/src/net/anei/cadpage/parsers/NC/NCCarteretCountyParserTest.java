@@ -120,6 +120,7 @@ public class NCCarteretCountyParserTest extends BaseParserTest {
     doTest("T13",
         "CEC:11-082157 11:29:34 MVC PI OR ROLLOVER WILCO HESS MHC 4TH ST 400 ARENDELL ST MOREHEAD CITY",
         "ADDR:ST 400 ARENDELL ST",
+        "MADDR:NC 400 ARENDELL ST",
         "CITY:MOREHEAD CITY",
         "ID:11-082157",
         "TIME:11:29:34",

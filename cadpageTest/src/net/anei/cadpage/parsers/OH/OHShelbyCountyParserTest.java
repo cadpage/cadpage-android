@@ -39,7 +39,7 @@ public class OHShelbyCountyParserTest extends BaseParserTest {
         "CALL:28 - MIS",
         "INFO:UKNOWN TYPE FIRE ON EAST SIDE OF ROAD NORTH OF CARDO NEAR LOY RD",
         "ADDR:8000-B SR 66",
-        "MADDR:8000 ST 66",
+        "MADDR:8000 OH 66",
         "CITY:FT LORAMIE",
         "X:LOY RD & BASINBURG RD");
 
@@ -61,7 +61,7 @@ public class OHShelbyCountyParserTest extends BaseParserTest {
         "CALL:58 - EMS",
         "INFO:SHOT HIMSELF IN THE HEAD, HE IS GONE",
         "ADDR:18590 SR 29",
-        "MADDR:18590 ST 29",
+        "MADDR:18590 OH 29",
         "CITY:NEW KNOXVILLE",
         "X:BOTKINS RD & WIERWILLE RD");
 
@@ -213,7 +213,7 @@ public class OHShelbyCountyParserTest extends BaseParserTest {
         "CALL:28-FF",
         "INFO:GRASS FIRE",
         "ADDR:3000-B SR 48",
-        "MADDR:3000 ST 48",
+        "MADDR:3000 OH 48",
         "CITY:HOUSTON",
         "X:RUSSIA VERSAILLES RD & RUSSIA HOUSTON RD");
 
@@ -246,7 +246,7 @@ public class OHShelbyCountyParserTest extends BaseParserTest {
         "CALL:9-",
         "INFO:CAR SMOKING DRIVING DOWN ROAD",
         "ADDR:18000-B SR 47",
-        "MADDR:18000 ST 47",
+        "MADDR:18000 OH 47",
         "CITY:SIDNEY",
         "X:CORP LIMITS & HERRING RD",
         "PLACE:18000-B SR 47");
@@ -369,7 +369,7 @@ public class OHShelbyCountyParserTest extends BaseParserTest {
         "CALL:29-EMS",
         "INFO:50 YOM THROWING UP SHORTNESS OF BREATH",
         "ADDR:3012 SR 66",
-        "MADDR:3012 ST 66",
+        "MADDR:3012 OH 66",
         "CITY:HOUSTON",
         "X:SMITH RD & STILLWATER RD",
         "NAME:GOINGS");
@@ -381,7 +381,7 @@ public class OHShelbyCountyParserTest extends BaseParserTest {
         "CALL:9-",
         "INFO:DEBRIE",
         "ADDR:SR 29 & WELLS RD",
-        "MADDR:ST 29 & WELLS RD",
+        "MADDR:OH 29 & WELLS RD",
         "CITY:ANNA");
 
     doTest("T26",
@@ -464,7 +464,7 @@ public class OHShelbyCountyParserTest extends BaseParserTest {
         "TIME:04:52:00",
         "CALL:9-",
         "ADDR:5881 SR 29",
-        "MADDR:5881 ST 29",
+        "MADDR:5881 OH 29",
         "CITY:SIDNEY",
         "X:SR 706 & CSX RAILROAD",
         "NAME:PASCO GROCERY");

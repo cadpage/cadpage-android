@@ -32,7 +32,7 @@ public class NYSullivanCountyParserTest extends BaseParserTest {
         "(911 Page) 09;17 Type: E-29B MVA Loc:STHY 52 X: HYSANA RD V: LIBERTY CN:",
         "CALL:E-29B MVA",
         "ADDR:STHY 52",
-        "MADDR:ST 52 & HYSANA RD",
+        "MADDR:NY 52 & HYSANA RD",
         "X:HYSANA RD",
         "CITY:LIBERTY");
 

@@ -18,7 +18,7 @@ public class SCOconeeCountyParserTest extends BaseParserTest {
         "[911 Message]  S80 - CORONARY PROBLEM  1280 N  STHY 11 XStreet: SPRINGDALE DR / SCENIC HEIGHTS RD, FOWLER RD WEST UNION    2011-00000815  09/26/11 22:27  Narr:   S",
         "CALL:S80 - CORONARY PROBLEM",
         "ADDR:1280 N STHY 11",
-        "MADDR:1280 N ST 11",
+        "MADDR:1280 N SC 11",
         "X:SPRINGDALE DR / SCENIC HEIGHTS RD, FOWLER RD",
         "CITY:WEST UNION",
         "ID:2011-00000815",
@@ -41,7 +41,8 @@ public class SCOconeeCountyParserTest extends BaseParserTest {
         "CALL:S46 - ALTERED MENTAL STATUS",
         "ADDR:308 N LAUREL ST",
         "X:ARDASHIR LN / WALHALLA GARDENS CIR",
-        "CITY:WALHALLA",
+        "CITY:WALHALLA"
+        ,
         "ID:2011-00000777",
         "DATE:09/16/11",
         "TIME:12:24",

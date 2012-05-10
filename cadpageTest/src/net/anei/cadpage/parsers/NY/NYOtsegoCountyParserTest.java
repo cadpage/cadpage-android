@@ -19,7 +19,7 @@ public class NYOtsegoCountyParserTest extends BaseParserTest {
         "CALL:HAZARD ALL",
         "PLACE:WILBER NATIONAL BANK - COOPERS",
         "ADDR:5378 ST HWY 28",
-        "MADDR:5378 ST 28",
+        "MADDR:5378 NY 28",
         "SRC:COOP3",
         "X:CO HWY 26 /WALNUT",
         "INFO:NARR SOUTH OF BANK MVA PDAA NEED FIR POLICE  PERSON: (COMPLAINANT) (FMLS) TIM  DONLAN");
@@ -29,7 +29,7 @@ public class NYOtsegoCountyParserTest extends BaseParserTest {
         "CALL:MVA PD",
         "PLACE:GRASSLANDS",
         "ADDR:ST HWY 28",
-        "MADDR:GRASSLANDS,ST 28",
+        "MADDR:GRASSLANDS,NY 28",
         "SRC:COUNTY",
         "INFO:NARR 1 CAR PDMVA PERSON: (COMPLAINANT) (FMLS) SUE  JENNINGS");
 
@@ -38,7 +38,7 @@ public class NYOtsegoCountyParserTest extends BaseParserTest {
         "CALL:TRAFFIC ACCIDENTS",
         "SRC:MIDD1",
         "ADDR:ST HWY 166 & CO HWY 52",
-        "MADDR:ST 166 & CO 52",
+        "MADDR:NY 166 & CO 52",
         "INFO:NARR CAR OVER THE BANK - ROLLOVER PERSON: (COMPLAINANT)");
 
     doTest("T5",

@@ -224,7 +224,8 @@ public class NJSomersetCountyParserTest extends BaseParserTest {
         "TIME:21:34:50",
         "CALL:FIRE ALARM:GENERAL",
         "CITY:FRANKLIN TWP",
-        "ADDR:3333 ST 27");
+        "ADDR:3333 ST 27",
+        "MADDR:3333 NJ 27");
 
     doTest("T11",
         "GRG-FD:11079916:07/14/2011 17:36:09:MVC:V POLE: FRANKLI-BUTLER ROAD & S MIDDLEBUSH ROAD",

@@ -80,7 +80,7 @@ public class NYMontgomeryCountyParserTest extends BaseParserTest {
         "CALL:MOTOR VEHICLE ACCIDENT",
         "PLACE:RECOVERY SPORTS GRILL",
         "ADDR:5005 STHWY 30",
-        "MADDR:5005 ST 30",
+        "MADDR:5005 NY 30",
         "CITY:AMSTERDAM",
         "ID:1331");
 

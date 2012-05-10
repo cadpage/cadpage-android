@@ -30,7 +30,7 @@ public class NYOrangeCountyAParserTest extends BaseParserTest {
         "SRC:Vails Gate",
         "CALL:EXTRICATION",
         "ADDR:ST RTE 32 & ORRS MILLS RD",
-        "MADDR:ST 32 & ORRS MILLS RD",
+        "MADDR:NY 32 & ORRS MILLS RD",
         "CITY:CORNWALL",
         "INFO:SPRINT PCS WIRELESS / CALLER REPORTS CAR INTO TREE POSS ENTRAPEMENT / Parent Inc MCO11112");
 
@@ -39,7 +39,7 @@ public class NYOrangeCountyAParserTest extends BaseParserTest {
         "SRC:Vails Gate",
         "CALL:ROLLOVER MVA",
         "ADDR:2406 ST RTE 32",
-        "MADDR:2406 ST 32",
+        "MADDR:2406 NY 32",
         "CITY:CORNWALL",
         "INFO:JESSICA / ONE CAR ROLLOVER//UNK INJS / Parent Inc MCO111126000959 UPDATE PriUnt to CO/CODIS",
         "TIME:23:");

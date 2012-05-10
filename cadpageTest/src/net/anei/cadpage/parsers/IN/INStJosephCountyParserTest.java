@@ -88,7 +88,7 @@ public class INStJosephCountyParserTest extends BaseParserTest {
         "CALL:CRASH009",
         "UNIT:G-453",
         "ADDR:30750 SR 2 HW",
-        "MADDR:30750 ST 2",
+        "MADDR:30750 IN 2",
         "CITY:NEW CARLISLE",
         "ID:56000",
         "INFO:LARRISON DRPI");

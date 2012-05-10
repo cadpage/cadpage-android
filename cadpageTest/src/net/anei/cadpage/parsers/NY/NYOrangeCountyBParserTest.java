@@ -30,7 +30,7 @@ public class NYOrangeCountyBParserTest extends BaseParserTest {
         "SRC:DEPTWK",
         "CALL:MVA- UNKNOWN STATUS",
         "ADDR:ST RTE 17 W & EXIT 120 W OFF",
-        "MADDR:ST 17 W & EXIT 120 W &",
+        "MADDR:NY 17 W & EXIT 120 W &",
         "CITY:WALLKILL",
         "NAME:RICHARD",
         "INFO:CALLER REPORTS A 2 CAR MV");
@@ -60,7 +60,7 @@ public class NYOrangeCountyBParserTest extends BaseParserTest {
         "SRC:DEPTWK",
         "CALL:MVA WITH INJURIES",
         "ADDR:637 ST RTE 211 W",
-        "MADDR:637 ST 211 W",
+        "MADDR:637 NY 211 W",
         "CITY:WALLKILL",
         "NAME:PAULIE SMITH",
         "INFO:CAR OFF ROADWAY UNK INJURIES");
@@ -71,7 +71,7 @@ public class NYOrangeCountyBParserTest extends BaseParserTest {
         "CALL:POISONING/OVERDOSE",
         "APT:124",
         "ADDR:563 ST RTE 211 E",
-        "MADDR:563 ST 211 E",
+        "MADDR:563 NY 211 E",
         "CITY:WALLKILL",
         "NAME:CARMINE AT THE DESK",
         "INFO:MALE AUBJECT TR");
@@ -81,7 +81,7 @@ public class NYOrangeCountyBParserTest extends BaseParserTest {
         "SRC:DEPTPB",
         "CALL:MEDICAL ASSISTANCE",
         "ADDR:ST RTE 302 & BRUYN AVE",
-        "MADDR:ST 302 & BRUYN AVE",
+        "MADDR:NY 302 & BRUYN AVE",
         "CITY:CRAWFORD",
         "INFO:Parent Inc F35110110000013 UPDATE PriUnt to");
 
@@ -90,7 +90,7 @@ public class NYOrangeCountyBParserTest extends BaseParserTest {
         "SRC:DEPTWK",
         "CALL:ASSAULT",
         "ADDR:470 ST RTE 211 E",
-        "MADDR:470 ST 211 E",
+        "MADDR:470 NY 211 E",
         "CITY:WALLKILL",
         "NAME:HOPE TOTTEN",
         "INFO:WAS PUNCHED IN THE BACK OF THE HEAD BY CUST");
@@ -110,7 +110,7 @@ public class NYOrangeCountyBParserTest extends BaseParserTest {
         "SRC:DEPTWK",
         "CALL:MVA- UNKNOWN STATUS",
         "ADDR:470 ST RTE 211 E",
-        "MADDR:470 ST 211 E",
+        "MADDR:470 NY 211 E",
         "CITY:WALLKILL",
         "NAME:AMBER",
         "INFO:1 CAR INTO A POLE WITH AIRBAG DEPLOYM");
@@ -157,7 +157,7 @@ public class NYOrangeCountyBParserTest extends BaseParserTest {
         "SRC:DEPTWK",
         "CALL:MVA WITH INJURIES",
         "ADDR:ST RTE 211 E & EXIT 120 W OFF",
-        "MADDR:ST 211 E & EXIT 120 W &",
+        "MADDR:NY 211 E & EXIT 120 W &",
         "CITY:WALLKILL",
         "NAME:MARGRET BUTLER JOHNS",
         "INFO:2 CAR NO WITH");
@@ -167,7 +167,7 @@ public class NYOrangeCountyBParserTest extends BaseParserTest {
         "SRC:DEPTPB",
         "CALL:MEDICAL ASSISTANCE",
         "ADDR:3105 ST RTE 52",
-        "MADDR:3105 ST 52",
+        "MADDR:3105 NY 52",
         "CITY:ULSTER",
         "NAME:ULSTER",
         "INFO:63 Y/O/M DIFF BREATHING/CHEST PAIN");
@@ -177,7 +177,7 @@ public class NYOrangeCountyBParserTest extends BaseParserTest {
         "SRC:DEPTPB",
         "CALL:MEDICAL ASSISTANCE",
         "ADDR:CO RTE 48 & ST RTE 302",
-        "MADDR:CO 48 & ST 302",
+        "MADDR:CO 48 & NY 302",
         "CITY:CRAWFORD",
         "INFO:PT WITH RIB INJURIES / 2ND TO MVA/ USE EXTRE");
 
@@ -195,7 +195,7 @@ public class NYOrangeCountyBParserTest extends BaseParserTest {
         "SRC:DEPTWK",
         "CALL:MVA- UNKNOWN STATUS",
         "ADDR:ST RTE 211 E & EXIT 120 E ON",
-        "MADDR:ST 211 E & EXIT 120 E ON",
+        "MADDR:NY 211 E & EXIT 120 E ON",
         "CITY:WALLKILL",
         "NAME:ROSEALEE",
         "INFO:3 CAR MVA /// CALLER C/O");
@@ -265,7 +265,7 @@ public class NYOrangeCountyBParserTest extends BaseParserTest {
         "SRC:DEPT47",
         "CALL:FIRE",
         "ADDR:ST RTE 94 S & OAKLAND AVE",
-        "MADDR:ST 94 S & OAKLAND AVE",
+        "MADDR:NY 94 S & OAKLAND AVE",
         "CITY:WARWICK",
         "INFO:POLE ON FIRE",
         "TIME:01:24");

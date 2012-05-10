@@ -25,7 +25,7 @@ public class INMadisonCountyParserTest extends BaseParserTest {
         "Unit:AM45 UnitSts: Loc:6197 N SR 9 Venue:RICHLA TWP Inc:EMS Call Date:10/17/2010 Time:01:12 56 YOM / ADV HE DOESNT FEEL GOOD / VOMITING A Addtl:ND NO APPITITE ALL DAY / WILL BE WATING OUTSI DE RESD:",
         "UNIT:AM45",
         "ADDR:6197 N SR 9",
-        "MADDR:6197 N ST 9",
+        "MADDR:6197 N IN 9",
         "CALL:EMS Call",
         "INFO:56 YOM / ADV HE DOESNT FEEL GOOD / VOMITING A ND NO APPITITE ALL DAY / WILL BE WATING OUTSI DE RESD:");
 
@@ -40,7 +40,7 @@ public class INMadisonCountyParserTest extends BaseParserTest {
         "Unit:ST40 UnitSts: Loc:3551 N SR 9 Venue:LAFAYE TWP TOM WOOD HONDA Inc:Accidnt PI Date:10/14/2010 Time:07:43 UNKNOWN 2 VEHS Addtl:",
         "UNIT:ST40",
         "ADDR:3551 N SR 9",
-        "MADDR:3551 N ST 9",
+        "MADDR:3551 N IN 9",
         "CALL:Accidnt PI",
         "INFO:UNKNOWN 2 VEHS");
         
