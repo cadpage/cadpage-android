@@ -29,7 +29,7 @@ public class NYClintonCountyParser extends FieldProgramParser {
     
     @Override
     public String getFilter() {
-      return "777-154,777-163";
+      return "777-";
     }
 
 	  @Override
