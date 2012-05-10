@@ -147,6 +147,8 @@ ack_req:  String of characters indicating what kind manual responses may be sent
           where code is the code that will be reported to the server when this 
                      response is selected
                 desc is the text for this response that will be displayed
+          sequence of numeric digits - An index that will be used to search for
+          a predefined custom response menu for this vendor.
 
 
 Cadpage acknowledgments

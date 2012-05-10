@@ -95,6 +95,18 @@ public class VendorManager {
     if (vendor == null) return null;
     return vendor.getEmailAddress();
   }
+
+  /**
+   * Get predefined custom response menu sequence
+   * @param vendorCode vendor code
+   * @param index response menu index
+   * @return the custom response menu for this vendor and index, or null if not defined
+   */
+  public String getResponseMenu(String vendorCode, int index) {
+    Vendor vendor = findVendor(vendorCode);
+    if (vendor == null) return null;
+    return vendor.getResponseMenu(index);
+  }
   
   /**
    * Reconnect all enabled vendors

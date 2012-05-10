@@ -25,6 +25,17 @@ class Active911Vendor extends Vendor {
   boolean isAvailable() {
     return true;
   }
+  
+  @Override
+  String getResponseMenu(int index) {
+    switch (index) {
+    case 1:
+      return "R=Respond;A=Arrive;Y=Available;N=Unavailable;C=Cancel";
+    
+    default:
+      return null;
+    }
+  }
 
   @Override
   Uri getBaseURI(String req) {

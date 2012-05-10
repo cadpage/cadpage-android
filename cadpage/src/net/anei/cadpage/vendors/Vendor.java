@@ -148,6 +148,15 @@ abstract class Vendor {
   }
 
   /**
+   * get custom response menu for a given index
+   * @param index requested index
+   * @return custom response menu if defined, null otherwise
+   */
+  String getResponseMenu(int index) {
+    return null;
+  }
+
+  /**
    * @return true if users registered with this vendor are sponsored by the agency
    */
   boolean isSponsored() {

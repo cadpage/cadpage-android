@@ -265,8 +265,18 @@ public class SmsMmsMessage implements Serializable {
       this.responseMenu = match.group(1);
       ackReq = ackReq.substring(0,match.start()) + ackReq.substring(match.end());
     }
+    
+    // Check for a predefined custom response menu
+    else {
+      match = NUMBER.matcher(ackReq);
+      if (match.find()) {
+        int code = Integer.parseInt(match.group());
+        this.responseMenu = VendorManager.instance().getResponseMenu(vendorCode, code);
+      }
+    }
     this.ackReq = ackReq;
   }
+  private static final Pattern NUMBER = Pattern.compile("\\d+");
   private static final Pattern SQ_BRACKETS = Pattern.compile("\\[(.*)\\]");
   
 

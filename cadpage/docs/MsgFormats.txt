@@ -4530,7 +4530,6 @@ W3  ALS 3556 KENWICK TRL XST  VERONA TRL   OVERHILL TRL 5/6/2012 3:56:38 PM
 CO7 W7 CO3 W3 RES7 M7 L3 BATT1 EMS2  Residential Structure Fire 7249 BIRCH CT XST  SOUTH MOUNTAIN DR   PINE CT 5/6/2012 4:56:42 PM
 **********************************************************
 **********************************************************
-
 **********************************************************
 Suffolk County, NY (alternate)
 Contact: Jim Lull <jlull65@gmail.com>
