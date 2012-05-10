@@ -128,7 +128,7 @@ public class NCJohnstonCountyParserTest extends BaseParserTest {
         "CAD:No Add`l Personnel / Unit;314 I-40 HWY; BENS;314.5",
         "CALL:No Add`l Personnel / Unit",
         "ADDR:314 I-40 HWY",
-        "MADDR:314 I 40 HWY",
+        "MADDR:314 I 40",
         "X:BENS & 314.5");
 
     doTest("T13",
