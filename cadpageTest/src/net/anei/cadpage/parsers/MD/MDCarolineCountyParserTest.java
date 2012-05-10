@@ -93,9 +93,17 @@ public class MDCarolineCountyParserTest extends BaseParserTest {
         "ADDR:420 Dutchmans Ln",
         "CITY:Greensboro",
         "X:Dead End / Dead End");
+
+    doTest("T11",
+        "(Chief ALT) [200 EMS] 10 C-Chest Pain -- 215 Apple Ln Preston - XSts: Dead End / Back Landing Rd",
+        "SRC:200 EMS",
+        "CALL:10 C-Chest Pain",
+        "ADDR:215 Apple Ln",
+        "CITY:Preston",
+        "X:Dead End / Back Landing Rd");
   }
   
   public static void main(String[] args) {
-    new MDCarolineCountyParserTest().generateTests("T10","SRC CALL ADDR CITY X");
+    new MDCarolineCountyParserTest().generateTests("T1","SRC CALL ADDR CITY X");
   }
 }
