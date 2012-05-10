@@ -15,6 +15,10 @@ Bmelton:HURDLE MILLS RD / POINDEXTER RD 2011019760 17:21:08 TREE DOWN
 BGILLISPIE:796 WHEELERS CHURCH RD HURDLE MILLS MDL 10C01 2011019661 05:54:13 CHEST PAIN CARD 10
 BROWN:225 CROWN BLVD TIMBERLAKE 2011020040 11:49:49 ALARMS-FIRE design works building 2 general fire alarm adt 8772857397
 
+Contact: "todd.lane@yahoo.com" <todd.lane@yahoo.com>
+Sender: BOAKLEY@personcounty.net
+BOAKLEY:120 N OLD LANTERN RD TIMBERLAKE PLANTERS WAY X INT L/R CARRIAGE LN 18:44:47 FIRE STOVE GAS GRILL PROPANE TANK EXPLODED
+
 */
 
 public class NCPersonCountyParser extends DispatchSouthernParser {
@@ -39,7 +43,7 @@ public class NCPersonCountyParser extends DispatchSouthernParser {
   };
 
   public NCPersonCountyParser() {
-    super(CITY_LIST, "PERSON COUNTY", "NC");
+    super(CITY_LIST, "PERSON COUNTY", "NC", DSFLAG_DISPATCH_ID | DSFLAG_ID_OPTIONAL);
   }
 
 }
