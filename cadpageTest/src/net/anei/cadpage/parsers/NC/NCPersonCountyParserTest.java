@@ -83,6 +83,20 @@ public class NCPersonCountyParserTest extends BaseParserTest {
     
   }
   
+  @Test
+  public void testBrettWren() {
+
+    doTest("T1",
+        "JBROWN:138 LAYNE ST ROXBORO MDL 06C01 2012020746 11:17:40 BREATHING PROBLEMS CARD 6 MY SON CANT",
+        "ADDR:138 LAYNE ST",
+        "CITY:ROXBORO",
+        "CODE:06C01",
+        "ID:2012020746",
+        "TIME:11:17:40",
+        "INFO:BREATHING PROBLEMS CARD 6 MY SON CANT");
+
+  }
+  
 
   public static void main(String[] args) {
     new NCPersonCountyParserTest().generateTests("T1", "ADDR CITY PLACE CODE ID TIME CALL INFO");
