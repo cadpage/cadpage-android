@@ -17,9 +17,9 @@ public class NCNorthamptonCountyParserTest extends BaseParserTest {
     doTest("T1",
         "S: M:Northampton911:* URIAH MARTIN RD // NEAR CEMETERY* * * CONWAY* * FIRE - BRUSH* * * * EMS3,FS20* * Medical: No* Hazards: No* * ",
         "ADDR:URIAH MARTIN RD",
-        "MADDR:/ / NEAR CEMETERY,URIAH MARTIN RD",
+        "MADDR:NEAR CEMETERY,URIAH MARTIN RD",
         "CITY:CONWAY",
-        "PLACE:/ / NEAR CEMETERY",
+        "PLACE:NEAR CEMETERY",
         "CALL:FIRE - BRUSH",
         "UNIT:EMS3,FS20",
         "INFO:Medical: No / Hazards: No");
