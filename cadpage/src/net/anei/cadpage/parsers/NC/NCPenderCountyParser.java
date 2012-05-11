@@ -1,7 +1,7 @@
 package net.anei.cadpage.parsers.NC;
 
-import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.dispatch.DispatchA3Parser;
 
 /* 
 Pender County, NC
@@ -17,11 +17,10 @@ Sender: 911-@pendersheriff.com
 
 */
 
-public class NCPenderCountyParser extends FieldProgramParser {
+public class NCPenderCountyParser extends DispatchA3Parser {
   
   public NCPenderCountyParser() {
-    super("PENDER COUNTY", "NC",
-           "ID ADDR UNK UNK UNK UNK UNK UNK UNK UNK CALL UNK UNK UNIT! INFO+");
+    super("PENDER COUNTY", "NC");
   }
   
   @Override
@@ -33,29 +32,6 @@ public class NCPenderCountyParser extends FieldProgramParser {
   protected boolean parseMsg(String body, Data data) {
     if (!body.startsWith("911-:=")) return false;
     body = body.substring(6).trim();
-    if (body.endsWith("*")) body = body + ' ';
-    return parseFields(body.split("\\* "), 14, data);
-  }
-  
-  private class UnknownField extends SkipField {
-    @Override
-    public void parse(String field, Data data) {
-      if (field.length() > 0) abort();
-    }
-  }
-  
-  private class MyAddressField extends AddressField {
-    @Override
-    public void parse(String field, Data data) {
-      super.parse(field.replaceAll("//+", "/"), data);
-    }
-  }
-  
-  @Override
-  public Field getField(String name) {
-    if (name.equals("ID")) return new IdField("\\d{2}-\\d{6}");
-    if (name.equals("ADDR")) return new MyAddressField();
-    if (name.equals("UNK")) return new UnknownField();
-    return super.getField(name);
+    return super.parseMsg(body, data);
   }
 }
