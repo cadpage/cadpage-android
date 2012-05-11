@@ -69,6 +69,23 @@ public class CAButteCountyParserTest extends BaseParserTest {
 
   }
   
+  @Test
+  public void testJeffHarter() {
+
+    doTest("T1",
+        "(CAD Page) LEVEL 1 HAZ-MAT; BANK OF THE WEST @ 2626 OROVILLE DAM BLVD E ,ORO ; ; 2499 BLK WASHINGTON AVE; Map: 6683/6683; Inc# 004468; Date-Time: 10-May-2012/12:",
+        "CALL:LEVEL 1 HAZ-MAT",
+        "PLACE:BANK OF THE WEST",
+        "ADDR:2626 OROVILLE DAM BLVD E",
+        "CITY:OROVILLE",
+        "X:2499 BLK WASHINGTON AVE",
+        "MAP:6683/6683",
+        "ID:004468",
+        "DATE:10-May-2012",
+        "TIME:12:");
+
+  }
+  
   public static void main(String[] args) {
     new CAButteCountyParserTest().generateTests("T1");
   }
