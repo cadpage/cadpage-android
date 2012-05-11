@@ -56,8 +56,9 @@ public class NCPenderCountyParserTest extends BaseParserTest {
     doTest("T6",
         "911-:=12-009855* 14976 NC HWY 53 EAST* * * * * * * * * ASSIST EMS* * * FD13,FD15* * * * *",
         "ID:12-009855",
-        "ADDR:14976 NC HWY 53 EAST",
-        "MADDR:14976 NC 53 EAST",
+        "ADDR:14976 NC HWY 53",
+        "MADDR:14976 NC 53",
+        "PLACE:EAST",
         "CALL:ASSIST EMS",
         "UNIT:FD13,FD15");
   }
