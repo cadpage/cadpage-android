@@ -95,3 +95,4 @@ Creating a free version of Cadpage
 * Publish notice in Cadpage facebook page as above
 
 Next Free release v1.5.06
+Next Free release v1.5.34

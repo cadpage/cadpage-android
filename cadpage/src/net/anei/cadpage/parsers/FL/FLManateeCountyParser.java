@@ -38,12 +38,12 @@ public class FLManateeCountyParser extends FieldProgramParser {
   
   public FLManateeCountyParser() {
     super(CITY_CODES, "MANATEE COUNTY", "FL",
-        "Location:ADDR/S? Estimated_Address:PLACE? TYPE_CODE:CALL! SUB_TYPE:INFO TIME:TIME MAP_GRID:MAP");
+        "Location:ADDR/S? Estimated_Address:PLACE? TYPE_CODE:CALL! SUB_TYPE:INFO TIME:TIME% MAP_GRID:MAP");
   }
 
   @Override
   public String getFilter() {
-    return "93001";
+    return "93001,777";
   }
   
   @Override
