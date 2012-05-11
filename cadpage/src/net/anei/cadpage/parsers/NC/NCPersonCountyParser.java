@@ -19,6 +19,10 @@ Contact: "todd.lane@yahoo.com" <todd.lane@yahoo.com>
 Sender: BOAKLEY@personcounty.net
 BOAKLEY:120 N OLD LANTERN RD TIMBERLAKE PLANTERS WAY X INT L/R CARRIAGE LN 18:44:47 FIRE STOVE GAS GRILL PROPANE TANK EXPLODED
 
+Contact: Brett Wrenn <bwrenn89@gmail.com>
+Sender: 3365043576
+JBROWN:138 LAYNE ST ROXBORO MDL 06C01 2012020746 11:17:40 BREATHING PROBLEMS CARD 6 MY SON CANT
+
 */
 
 public class NCPersonCountyParser extends DispatchSouthernParser {
