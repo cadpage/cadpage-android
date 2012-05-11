@@ -18,6 +18,10 @@ Contact: chip fowler <chipfowler86@gmail.com>
 Sender: btucad@fire.ca.gov
 FRM:btucad@fire.ca.gov\nSUBJ:CAD Page\nMSG:MEDICAL; 6423 JACK HILL DR ,KELLY_RDGE ; ; 5499 BLK HIGH ROCKS CT; Map:6534; Inc# 003098;\n(Con't) 2 of 2\nDate-Time: 31-Mar-2012/22:38:02; ILL MALE; (End)
 
+Contact: jeff harter <jeff.harter2113@gmail.com>
+Sender: btucad@fire.ca.gov
+(CAD Page) LEVEL 1 HAZ-MAT; BANK OF THE WEST @ 2626 OROVILLE DAM BLVD E ,ORO ; ; 2499 BLK WASHINGTON AVE; Map: 6683/6683; Inc# 004468; Date-Time: 10-May-2012/12:
+
  */
 
 
@@ -25,7 +29,7 @@ public class CAButteCountyParser extends FieldProgramParser {
   
   public CAButteCountyParser() {
     super(CITY_CODES, "BUTTE COUNTY", "CA",
-           "CALL ADDRCITY! X/Z+ Map:MAP Inc:ID! Date-Time:DATETIME! CALL!");
+           "CALL ADDRCITY! X/Z+ Map:MAP Inc:ID! Date-Time:DATETIME! CALL");
   }
   
   @Override
@@ -47,6 +51,23 @@ public class CAButteCountyParser extends FieldProgramParser {
     return true;
   }
   
+  private class MyAddressCityField extends AddressCityField {
+    @Override
+    public void parse(String field, Data data) {
+      int pt = field.indexOf('@');
+      if (pt >= 0) {
+        data.strPlace = field.substring(0,pt).trim();
+        field = field.substring(pt+1).trim();
+      }
+      super.parse(field, data);
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "PLACE " + super.getFieldNames();
+    }
+  }
+  
   private class MyDateTimeField extends Field {
     @Override
     public void parse(String field, Data data) {
@@ -64,6 +85,7 @@ public class CAButteCountyParser extends FieldProgramParser {
   
   @Override
   public Field getField(String name) {
+    if (name.equals("ADDRCITY")) return new MyAddressCityField();
     if (name.equals("DATETIME")) return new MyDateTimeField();
     return super.getField(name);
   }

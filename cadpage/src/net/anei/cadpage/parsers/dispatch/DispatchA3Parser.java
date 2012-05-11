@@ -24,6 +24,14 @@ S: M:Northampton911:* BOAT LANDING* * * WELDON* * MISSING PERS* * * * EMS8,FS20*
 S: M:Northampton911:* 907 HORNE RD* * * PENDLETON* * FIRE - SMOKE* * * * EMS3,FS18,FS20* * Medical: No* Hazards: No* * 
 S: M:Northampton911:* 203 WHITE ST* * * CONWAY* * ODOR OF GAS* * * * FS20* * Medical: No* Hazards: No* * 
 
+Halifax County, NC
+HalifaxCoE911@HalifaxNC911.com S: M:HalifaxCoE911:* JACKSON ST // 7TH ST* * * ROANOKE RAPIDS* * * * * WRECK NOPI* * * * C181,C182,FI14* * * * *
+HalifaxCoE911@HalifaxNC911.com S: M:HalifaxCoE911:* HWY 158 // AVE* * * ROANOKE RAPIDS* * * * * WRECK NOPI* * * * EMS4,EMS6,FI14* * * * *
+HalifaxCoE911@HalifaxNC911.com S: M:HalifaxCoE911:* 1403 EAST 10TH ST* * * ROANOKE RAPIDS* * * * * FIRE-ELEC* * * * FI14* * * * *
+HalifaxCoE911@HalifaxNC911.com S: M:HalifaxCoE911:* PILAND ST* * * ROANOKE RAPIDS* * * * * SPECIAL ASSG* * * * F1402,FI14* * * * *
+HalifaxCoE911@HalifaxNC911.com S: M:HalifaxCoE911:* SUBWAY // JULLIAN R ALLSBROOK* * * ROANOKE RAPIDS* * * * * WRECK NOPI* * * * FI14* * * * *
+HalifaxCoE911@HalifaxNC911.com S: M:HalifaxCoE911:* 93 ROANOKE AVE* * * ROANOKE RAPIDS* * * * * FIRE-SMOKE* * * * FI14* * * * *
+
 */
 public class DispatchA3Parser extends FieldProgramParser {
   
@@ -31,7 +39,7 @@ public class DispatchA3Parser extends FieldProgramParser {
   
   public DispatchA3Parser(String defCity, String defState) {
     super(defCity, defState,
-           "ID? ADDR/SXP APT APT CITY! CALL CALL INFO ( UNIT! | NAME UNIT! | NAME PHONE UNIT ) INFO+");
+           "ID? ADDR/SXP APT APT CITY! EMPTY+? CALL INFO ( UNIT! | NAME UNIT! | NAME PHONE UNIT ) INFO+");
   }
   
   @Override
@@ -45,9 +53,30 @@ public class DispatchA3Parser extends FieldProgramParser {
     }
   }
   
+  private class MyAddressField extends AddressField {
+    @Override
+    public void parse(String field, Data data) {
+      field = field.replace("//", "/");
+      super.parse(field, data);
+      if (data.strPlace.startsWith("/")) data.strPlace = data.strPlace.substring(1).trim();
+    }
+  }
+  
   private class MyAptField extends AptField {
     public MyAptField() {
       setPattern(Pattern.compile("[-A-Z0-9]{1,3}"));
+    }
+  }
+  
+  private class EmptyField extends SkipField {
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      return field.length() == 0;
     }
   }
   
@@ -76,10 +105,12 @@ public class DispatchA3Parser extends FieldProgramParser {
   @Override
   public Field getField(String name) {
     if (name.equals("ID")) return new MyIdField();
+    if (name.equals("ADDR")) return new MyAddressField();
     if (name.equals("APT")) return new MyAptField();
     if (name.equals("CITY")) return new MyCityField();
+    if (name.equals("EMPTY")) return new EmptyField();
     if (name.equals("INFO")) return new MyInfoField();
-    if (name.equals("UNIT")) return new UnitField("[A-Z0-9]{1,3}[0-9](?:,[A-Z0-9]{1,4})*", true);
+    if (name.equals("UNIT")) return new UnitField("[A-Z0-9]{1,4}[0-9](?:,[A-Z0-9]{1,4})*", true);
     return super.getField(name);
   }
 }
