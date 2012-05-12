@@ -34,13 +34,17 @@ Sender: Bob@relaycom.com
 /FROM RELAY /819 E MAIN\nDEPT OF SOCIAL SVCS\nPOSSIBLE OVER DOSE\n
 /FROM RELAY /UNITED COMPREHENSIVE CARE\n170 OLD COUNTRY RD\nADULT MALE TROUBLE BREATHING\n
 /FROM RELAY /TANGER 2 STE 101 NY&CO\nFEMALE SUBJECT ILL\n
+/MSG TO RELAY /NORTHVILLE TURNPIKE & EAST AVE: INJURY NECK & BACK:MVA\n
+/FROM RELAY /641 DOCTOR'S PATH APT 7  FEMALE SICK\n
+/FROM RELAY /1145 MIDDLE RD  RIVERHEAD LANDINGS  APT 7A  ELDERLY FEMALE INJURY FROM A \nFALL\n
+/FRTOM RELAY /20 EAST MAIN ST   CULINARY ART SCHOOL   FEMALE  FOOD ALLERGY\n
 
  */
 
 public class NYSuffolkCountyEParser extends SmartAddressParser {
 
-  private static final Pattern MARKER = Pattern.compile("^/(?:FROM )?RELAY */");
-  private static final Pattern DELIM = Pattern.compile(" *\n *|  +| *,+ +");
+  private static final Pattern MARKER = Pattern.compile("^/[A-Z ]*RELAY */");
+  private static final Pattern DELIM = Pattern.compile(" *\n *|  +| *(?<!XS)[,:]+ *");
   private static final Pattern OFF_OF = Pattern.compile("\\bOFF OF\\b");
   
   public NYSuffolkCountyEParser() {

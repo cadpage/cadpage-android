@@ -1,6 +1,8 @@
 package net.anei.cadpage.parsers.VA;
 
 import java.util.Properties;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
@@ -26,6 +28,11 @@ Subject:Incident Notification\nCall#: -3239 ; EMS-Trauma with Injury ; 17383 JEF
 (Incident Notification) Call#: -1991 ; MVC-Injury ; JEFFERSON HWY ; ; Box 501 ; Info:  SPOKE TO VSP DISPATCH -- RESCUE NEEDED -- NO DEPUTY  CALLER WAS A PASSERBY WHO
 (Incident Notification) Call#: -3951 ; EMS-Chest Pain/Cardiac Problem ; 1503 BETHANY CHURCH RD ; ; ; Info:  NO HX OF HEART PROBLEMS  NO RECENT INJURY OR TRAUMA  AWAK
 
+Contact: Bradley Melson <tvfrchief@gmail.com>
+Sender: Dispatch@louisa.org
+ 1 of 4\nFRM:Dispatch@louisa.org\nSUBJ:Incident Notification\nMSG:MVC-No Injuries ; 3329 S SPOTSWOOD TRL ; ; Box 605 ; Info:  3329 S SPOTSWOOD TRL,\n(Con't) 2 of 4\nMVC--1 CAR, NO SMOKE OR FLAMES, OVERTURNED, UNK EJECTION, 1 PERSON STILL IN VEH, OTHER IS OUT, EXPLORER, 540-223-6700  HER SON CALLED AND\n(Con't) 3 of 4\nSTATED THEY ARE NOT INJURED//MARIE MCCADE--5409670983  IS IN A YARD, NOT IN THE ROADWAY  CALLER DID NOT STOP AND CHECK - OTHER PEOPLE ARE\n(Con't) 4 of 4\nTHERE  ABOUT HALF MILE NORTH  LT TAN SUV  VEH ON IT'S SIDE (End)
+ 1 of 2\nFRM:Dispatch@louisa.org\nSUBJ:Incident Notification\nMSG:EMS-Abdominal Pain ; 1055 PEACH GROVE RD ; ; Box 601 ; Info:  63YOM COMP OF\n(Con't) 2 of 2\nABDOMINAL PAINS  E911 Info - Class of Service: RESD Special Response Info: FRM 669 TK RGHT ON 613 TO LF (End)
+
 ***/
 
 public class VALouisaCountyParser extends FieldProgramParser {
@@ -33,7 +40,7 @@ public class VALouisaCountyParser extends FieldProgramParser {
   
   public VALouisaCountyParser() {
     super(CITY_CODES, "LOUISA COUNTY", "VA",
-           "Call#:ID! CALL! ADDR/S! PLACE BOX! Info:INFO!");
+           "ID? CALL! ADDR/S! PLACE BOX! Info:INFO!");
   }
   
   @Override
@@ -51,11 +58,24 @@ public class VALouisaCountyParser extends FieldProgramParser {
   }
   
   // ID field, confirm has correct form
+  private static final Pattern CALL_ID_PTN = Pattern.compile("Call#: *-(\\d+)");
   private class MyIdField extends IdField {
     @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      Matcher match = CALL_ID_PTN.matcher(field);
+      if (!match.matches()) return false;
+      data.strCallId = match.group(1);
+      return true;
+    }
+    
+    @Override
     public void parse(String field, Data data) {
-      if (field.startsWith("-")) field = field.substring(1).trim();
-      super.parse(field, data);
+      if (!checkParse(field, data)) abort();
     }
   }
   
