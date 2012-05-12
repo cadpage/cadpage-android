@@ -121,10 +121,31 @@ public class NYSuffolkCountyEParserTest extends BaseParserTest {
         "ADDR:TANGER 2 STE 101 NY & CO",
         "INFO:FEMALE SUBJECT ILL");
 
+    doTest("T9",
+        "/MSG TO RELAY /NORTHVILLE TURNPIKE & EAST AVE: INJURY NECK & BACK:MVA\n",
+        "ADDR:NORTHVILLE TURNPIKE & EAST AVE",
+        "INFO:INJURY NECK & BACK - MVA");
+
+    doTest("T10",
+        "/FROM RELAY /641 DOCTOR'S PATH APT 7  FEMALE SICK\n",
+        "ADDR:641 DOCTOR'S PATH",
+        "APT:7",
+        "INFO:FEMALE SICK");
+
+    doTest("T11",
+        "/FROM RELAY /1145 MIDDLE RD  RIVERHEAD LANDINGS  APT 7A  ELDERLY FEMALE INJURY FROM A \nFALL\n",
+        "ADDR:1145 MIDDLE RD",
+        "INFO:RIVERHEAD LANDINGS - APT 7A - ELDERLY FEMALE INJURY FROM A - FALL");
+
+    doTest("T12",
+        "/FRTOM RELAY /20 EAST MAIN ST   CULINARY ART SCHOOL   FEMALE  FOOD ALLERGY\n",
+        "ADDR:20 EAST MAIN ST",
+        "INFO:CULINARY ART SCHOOL - FEMALE - FOOD ALLERGY");
+
   }
   
   public static void main(String[] args) {
-    new NYSuffolkCountyEParserTest().generateTests("T1", "PLACE ADDR APT CITY INFO");
+    new NYSuffolkCountyEParserTest().generateTests("T9", "PLACE ADDR APT CITY INFO");
   }
 
 }

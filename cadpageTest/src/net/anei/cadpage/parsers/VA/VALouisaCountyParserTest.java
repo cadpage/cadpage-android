@@ -119,6 +119,41 @@ public class VALouisaCountyParserTest extends BaseParserTest {
    
   }
   
+  @Test
+  public void testParser2() {
+
+    doTest("T1",
+        " 1 of 4\n" +
+        "FRM:Dispatch@louisa.org\n" +
+        "SUBJ:Incident Notification\n" +
+        "MSG:MVC-No Injuries ; 3329 S SPOTSWOOD TRL ; ; Box 605 ; Info:  3329 S SPOTSWOOD TRL,\n" +
+        "(Con't) 2 of 4\n" +
+        "MVC--1 CAR, NO SMOKE OR FLAMES, OVERTURNED, UNK EJECTION, 1 PERSON STILL IN VEH, OTHER IS OUT, EXPLORER, 540-223-6700  HER SON CALLED AND\n" +
+        "(Con't) 3 of 4\n" +
+        "STATED THEY ARE NOT INJURED//MARIE MCCADE--5409670983  IS IN A YARD, NOT IN THE ROADWAY  CALLER DID NOT STOP AND CHECK - OTHER PEOPLE ARE\n" +
+        "(Con't) 4 of 4\n" +
+        "THERE  ABOUT HALF MILE NORTH  LT TAN SUV  VEH ON IT'S SIDE (End)",
+
+        "CALL:MVC-No Injuries",
+        "ADDR:3329 S SPOTSWOOD TRL",
+        "BOX:605",
+        "INFO:3329 S SPOTSWOOD TRL, MVC--1 CAR, NO SMOKE OR FLAMES, OVERTURNED, UNK EJECTION, 1 PERSON STILL IN VEH, OTHER IS OUT, EXPLORER, 540-223-6700  HER SON CALLED AND STATED THEY ARE NOT INJURED//MARIE MCCADE--5409670983  IS IN A YARD, NOT IN THE ROADWAY  CALLER DID NOT STOP AND CHECK - OTHER PEOPLE ARE THERE  ABOUT HALF MILE NORTH  LT TAN SUV  VEH ON IT'S SIDE");
+
+    doTest("T2",
+        " 1 of 2\n" +
+        "FRM:Dispatch@louisa.org\n" +
+        "SUBJ:Incident Notification\n" +
+        "MSG:EMS-Abdominal Pain ; 1055 PEACH GROVE RD ; ; Box 601 ; Info:  63YOM COMP OF\n" +
+        "(Con't) 2 of 2\n" +
+        "ABDOMINAL PAINS  E911 Info - Class of Service: RESD Special Response Info: FRM 669 TK RGHT ON 613 TO LF (End)",
+
+        "CALL:EMS-Abdominal Pain",
+        "ADDR:1055 PEACH GROVE RD",
+        "BOX:601",
+        "INFO:63YOM COMP OF ABDOMINAL PAINS  E911 Info - Class of Service: RESD Special Response Info: FRM 669 TK RGHT ON 613 TO LF");
+
+  }
+  
   public static void main(String[] args) {
     new VALouisaCountyParserTest().generateTests("T1");
   }
