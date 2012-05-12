@@ -1264,6 +1264,8 @@ louis yunker(rca2racer@gmail.com)(louisyunker@yahoo.com)
 %%05/10/2012
 "lyons2340@frontier.com" <lyons2340@frontier.com>
 "Nathaniel & Rebecca" <natebecca110611@gmail.com> // Clinton County, NY
+%%05/11/2012
+Brandon Lindsey <blindseynfd@gmail.com> //Halifax County, NC
 
 // *** Insert Paid Users here ***
 %2012/Pennfield FD //chief@pennfieldtwp.com  - {Payment Pending)
@@ -1314,6 +1316,15 @@ Grant Cure      (8459011418)
 Marshall Bouton (8457502230)
 Brianna Wickman (8455143189)
 Matthew Wickman (8455143187)
+
+%2012/Bloomington Fire Dept // (payment pending)
+%%05/12/2012
+Ulie Seal (9522926609)
+Jay Forster (9522928336)
+Laura McCarthy (9522925585)
+Curt Meyer (6127598086)
+Mike Lessard (9522925958)
+Rob Vierling (9522922517)
 
 // List of users getting credit for 2013
 $paid_2013_list

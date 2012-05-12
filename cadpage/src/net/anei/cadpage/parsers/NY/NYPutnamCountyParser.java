@@ -1,5 +1,8 @@
 package net.anei.cadpage.parsers.NY;
 
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 import net.anei.cadpage.parsers.MsgParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
@@ -22,6 +25,10 @@ Contact: "smadsen70@aol.com" <smadsen70@aol.com>
 Sender: 777119178284
 .... (17 Lake Carmel) BREATHING PROBLEMS||78 DREW RD  STA 17 XS  |NARR PROQA SUMMARY:CHARLIE 06C01 BREATHING PROBLEMS PATIENT WITH BREATHING PROBLEMS.  93-YEAR-OLD MALE, CONSCIOUS AND BREATHING.
 .... (17 Lake Carmel) UNCONSCIOUS/FAINTING (NEAR)||18 STANLEY CT  STA 17 XS DEAD END /MINELLO DR|NARR PROQA SUMMARY:ALPHA 31A01 FALLS PATIENT IS UNCONSCIOUS (OR HAS FAINTED). THE PATIENT  IS A 71-YEAR-OLD MALE, CONSCIOUS AND BREATHING.
+
+Contact: Dan Venezia <danrango@gmail.com>
+Sender: 777166991580
+.... (31 Carmel VAC) TRANSFER/INTERFACILITY|PHC| 670 STONELEIGH AV,CARMEL |STA 12 XS VISTA ON THE LAKE /ALEXANDRA CT
 
 Station numbers FYI
 11 Brewster
@@ -46,6 +53,8 @@ Station numbers FYI
  */
 
 public class NYPutnamCountyParser extends MsgParser {
+  
+  private static final Pattern STA_MARKER = Pattern.compile("[\\| ]STA ");
 
 
   public NYPutnamCountyParser() {
@@ -60,12 +69,18 @@ public class NYPutnamCountyParser extends MsgParser {
 
 @Override
   protected boolean parseMsg(String body, Data data) {
+  
+    Matcher match = STA_MARKER.matcher(body);
+    if (!match.find()) return false;
+    String sPart1 = body.substring(0,match.start()).trim();
+    String sPart2 = body.substring(match.end()).trim();
     
-    if (!body.contains(" STA ")) return false;
-    Parser p = new Parser(body);
+    Parser p = new Parser(sPart1);
     data.strCall = p.get('|');
     data.strPlace = p.get('|');
-    parseAddress(p.get(" STA "), data);
+    parseAddress(p.get(','), data);
+    data.strCity = p.get();
+    p = new Parser(sPart2);
     data.strSource = p.get(' ');
     data.strCross = p.get('|');
     if (data.strCross.equals("XS")) data.strCross = "";
