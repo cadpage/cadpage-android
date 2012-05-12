@@ -275,6 +275,7 @@ public class GeneralParserTest extends BaseParserTest {
         "X:ROUTE 322 ELK TWP MC ALARMS 6077869897",
         "MAP:G-10",
         "ID:2012-0000012260");
+        
     
   }
   

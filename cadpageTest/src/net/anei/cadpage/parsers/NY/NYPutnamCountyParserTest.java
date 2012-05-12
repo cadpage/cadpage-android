@@ -85,10 +85,20 @@ public class NYPutnamCountyParserTest extends BaseParserTest {
         "SRC:17",
         "X:DEAD END /MINELLO DR",
         "INFO:PROQA SUMMARY:ALPHA 31A01 FALLS PATIENT IS UNCONSCIOUS (OR HAS FAINTED). THE PATIENT  IS A 71-YEAR-OLD MALE, CONSCIOUS AND BREATHING.");
+
+    doTest("T10",
+        ".... (31 Carmel VAC) TRANSFER/INTERFACILITY|PHC| 670 STONELEIGH AV,CARMEL |STA 12 XS VISTA ON THE LAKE /ALEXANDRA CT",
+        "CALL:TRANSFER/INTERFACILITY",
+        "PLACE:PHC",
+        "ADDR:670 STONELEIGH AV",
+        "MADDR:670 STONELEIGH AVE",
+        "CITY:CARMEL",
+        "SRC:12",
+        "X:VISTA ON THE LAKE /ALEXANDRA CT");
    
   }
   
   public static void main(String[] args) {
-    new NYPutnamCountyParserTest().generateTests("T1", "CALL ADDR SRC X INFO");
+    new NYPutnamCountyParserTest().generateTests("T1", "CALL PLACE ADDR CITY SRC X INFO");
   }
 }
