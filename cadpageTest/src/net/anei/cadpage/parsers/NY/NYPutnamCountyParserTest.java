@@ -95,7 +95,19 @@ public class NYPutnamCountyParserTest extends BaseParserTest {
         "CITY:CARMEL",
         "SRC:12",
         "X:VISTA ON THE LAKE /ALEXANDRA CT");
-   
+
+    doTest("T11",
+        "(11 Brewster) PSYCHIATRIC/ABNORMAL BEHAVIOR|PUTNAM AVENUE APARTMENTS| 34 PUTNAM AV,BREWSTER |APT C2 |STA 11 XS EAGLES RIDGE  RD/PUTNAM TERR|NARR WPH1-NE",
+        "CALL:PSYCHIATRIC/ABNORMAL BEHAVIOR",
+        "PLACE:PUTNAM AVENUE APARTMENTS",
+        "ADDR:34 PUTNAM AV",
+        "MADDR:34 PUTNAM AVE",
+        "CITY:BREWSTER",
+        "APT:C2",
+        "SRC:11",
+        "X:EAGLES RIDGE  RD/PUTNAM TERR",
+        "INFO:WPH1-NE");
+  
   }
   
   public static void main(String[] args) {
