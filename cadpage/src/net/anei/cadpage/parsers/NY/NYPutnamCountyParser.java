@@ -30,6 +30,10 @@ Contact: Dan Venezia <danrango@gmail.com>
 Sender: 777166991580
 .... (31 Carmel VAC) TRANSFER/INTERFACILITY|PHC| 670 STONELEIGH AV,CARMEL |STA 12 XS VISTA ON THE LAKE /ALEXANDRA CT
 
+Contact: mahopacfire2003 <mahopacfire2003@gmail.com>
+Sender: messaging@iamresponding.com
+(11 Brewster) PSYCHIATRIC/ABNORMAL BEHAVIOR|PUTNAM AVENUE APARTMENTS| 34 PUTNAM AV,BREWSTER |APT C2 |STA 11 XS EAGLES RIDGE  RD/PUTNAM TERR|NARR WPH1-NE
+
 Station numbers FYI
 11 Brewster
 12 Carmel
@@ -79,7 +83,8 @@ public class NYPutnamCountyParser extends MsgParser {
     data.strCall = p.get('|');
     data.strPlace = p.get('|');
     parseAddress(p.get(','), data);
-    data.strCity = p.get();
+    data.strCity = p.get("|APT");
+    data.strApt = p.get();
     p = new Parser(sPart2);
     data.strSource = p.get(' ');
     data.strCross = p.get('|');
