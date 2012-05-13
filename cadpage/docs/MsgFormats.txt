@@ -2070,10 +2070,15 @@ Ill Patient - 32 W PEARL STREET - Barnett Building  (PRE-PLAN) - APT 210 - Julie
 Anaphylaxis - 9004 ROUTE 215 -  - HANSON RESIDENCE - CONNEAUT TWP LINE & WOOD ROAD
 Cardiac - 155 E STATE STREET - Albion Family Practice  (PRE-PLAN) - Wells Avenue & Elk Street
 **********************************************************
-Lackawanna County, PA (PALackawannaCountyParser)
+Lackawanna County, PA (PALackawannaCountyAParser)
 Unit  Location: 206 MILLER RD STEVENSON RD / CARBONDALE RD 1 Common Name: Call Type: ALS Call Time: 09/26/11 17:02 Narrative  pd notified  POSS CONFUSED ALSO  Nature Of Call: 79YOF FEELING WEEK. SHE DID FALL EARLIER
 Unit  Location: 711 MAY ST MAPLE ST / DEAD END 59 Common Name: Call Type: ALS Call Time: 09/26/11 21:33 Narrative  PD ADVISED  REF EMD  HX OF HEART PROBLEMS  Nature Of Call: 56 YOM RAPID HEART RATE
 Unit  Location: 108 TERRACE DR STURGES RD / SCRANTON CARBONDALE HWY 20 Common Name: LACKAWANNA HEALTH AND REHABCall Type: ALS Call Time: 09/26/11 21:02 Narrative  22-9/LA4 TO MOSES TAYLOR  22-9 ENRT MOMENTARILY  Nature Of Call: in c-2 -- 90 yo f diff breathing low o2 sats
+***************************************************************************
+Lackawanna County, PA (PALackawannaCountyAmbulanceParser)
+06:34AM Sat 04/28 INC#:1219146-1 FROM:320 EMMETT ST, SCRANTON CITY RM:16D  TYPE:CHEST PAIN  to:
+01:03PM Thu 05/03 INC#:1219963-1 FROM:345 PHELPS ST, SCRANTON CITY  TYPE:EMERGENT EVAL  to:
+11:16AM Thu 05/03 INC#:1219939-1 FROM:1435 N WASHINGTON AVE, SCRANTON CITY RM:Kwik mart  TYPE:EMERGENT EVAL  to:
 ***************************************************************************
 Lancaster (PALancasterCounty)
 (VEH ACCIDENT-STANDBY) MANHEIM TWP~LITITZ PIKE / PETERSBURG RD~~ENG271,SQ27~20:19:57^
@@ -4501,16 +4506,6 @@ No Prior Premise History found for the Location
  
 **********************************************************
 *********************************************************
-Lackawanna County, PA (alternate - Lackawanna Ambulance)
-Contact: Pat Gillott <pgill107@gmail.com>
-Sender: lead@ladisp.us
-06:34AM Sat 04/28 INC#:1219146-1 FROM:320 EMMETT ST, SCRANTON CITY RM:16D  TYPE:CHEST PAIN  to:
-01:03PM Thu 05/03 INC#:1219963-1 FROM:345 PHELPS ST, SCRANTON CITY  TYPE:EMERGENT EVAL  to:
-11:16AM Thu 05/03 INC#:1219939-1 FROM:1435 N WASHINGTON AVE, SCRANTON CITY RM:Kwik mart  TYPE:EMERGENT EVAL  to:
-10:06AM Thu 05/03 INC#:1219924-1 FROM:APT - LUTHERWOOD- 1 LAKE SCR RD RM:211  TYPE:PUBLIC ASSIST  to:
-00 Meade St, Dunmore  1000 MEADE ST, DUNMORE, PA  MODE:BLS  PU: 0915 (02/02)
-08:14AM Thu 05/03 INC#:1219854-1 FROM:EVERGREEN H.C.C. - formerly MTH Skilled RM:7  TYPE:DR APPOINTMENT PT:Barbara Martin  to: DELTA MEDIX -
-06:23AM Thu 05/03 INC#:1219903-1 FROM:1020 MULBERRY ST, SCRANTON CITY RM:Nelvelle Hall Rm 107  TYPE:UNKNOWN  to:
 **********************************************************
 Roanoke County, VA
 Contact: Josh Waagmeester <josh@cavespringfire.org>
