@@ -91,7 +91,7 @@ public class Message {
     Pattern.compile("^(?:[-=.+_a-z0-9]*[0-9a-f]{8,}[-=.+_a-z0-9]*=)?([\\w.!\\-]+@[\\w.]+)[\\s:]"),
     Pattern.compile("^\\*\\d+: \\*([\\w\\w]+@[\\w\\.]+) +")
   };
-  private static final Pattern EMAIL_PFX_PATTERN = Pattern.compile("^([\\w\\.]+@[\\w\\.]+)\\n");
+  private static final Pattern EMAIL_PFX_PATTERN = Pattern.compile("^([\\w\\.]+@[\\w\\.]+)(?:\\n|: )");
   private static final Pattern FRM_TAG_PATTERN = Pattern.compile("\n *FRM:");
   private static final Pattern[] E_S_M_PATTERNS = new Pattern[]{
     Pattern.compile("^(?:([^ ,;/]+) +)?S: *(.*?)(?: +M:|\n)"), 
@@ -368,6 +368,12 @@ public class Message {
     }
     
     body = body.substring(pt1).trim();
+    Matcher match = EMAIL_PFX_PATTERN.matcher(body);
+    if (match.find()) {
+      parseAddress = match.group(1).trim();
+      body = body.substring(match.end()).trim();
+    }
+    
     if (body.startsWith("MSG:")) body = body.substring(4).trim();
     
     // Last check, if we ended up with no message, use the last subject as the message

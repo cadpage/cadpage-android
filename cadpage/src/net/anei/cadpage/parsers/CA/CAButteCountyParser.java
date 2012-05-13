@@ -22,6 +22,10 @@ Contact: jeff harter <jeff.harter2113@gmail.com>
 Sender: btucad@fire.ca.gov
 (CAD Page) LEVEL 1 HAZ-MAT; BANK OF THE WEST @ 2626 OROVILLE DAM BLVD E ,ORO ; ; 2499 BLK WASHINGTON AVE; Map: 6683/6683; Inc# 004468; Date-Time: 10-May-2012/12:
 
+Contact: "Harter, Jeff" <Jeff.Harter@fire.ca.gov>
+Sender: btucad@fire.ca.gov
+(CAD Page) T/C HIGHWAY/HIGH SPD; STA 37 @ 3595 SHUMAN LN ,CONCOW ; WHT PU VS HYDRANT; 11400 BLK CONCOW RD; Map: 5934; Inc# 004582; Date-Time: 12-May-2012/23:53:0
+
  */
 
 

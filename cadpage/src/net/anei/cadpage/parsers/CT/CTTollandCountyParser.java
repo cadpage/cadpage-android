@@ -39,6 +39,11 @@ Contact: Peter Krawetzky <pkrawetzky@gmail.com>
 Sender: north-coventry@tollandcounty911.com
 (TN Alert) 957 N  RIVER RD / Coventry ALS DIFF BREATHING 17:59 Cross Street MERROW RD / GOOSE LN 2012-00000183
 
+Contact: "Grant Genlot" <grant.videography@gmail.com>
+[05/13/2012 10:35] tn@tollandcounty911.com:  TN Alert / TOLLAND COUNTY DIVERS SERVICE CALL: IF AVAILABLE MEET AT STATION 8 AT 1300.
+[05/13/2012 11:28] tn@tollandcounty911.com:  TN Alert / NO DIVE IN COVENTRY TODAY. REPEAT DIVE CANCELLED!
+
+
 */
 
 public class CTTollandCountyParser extends SmartAddressParser {

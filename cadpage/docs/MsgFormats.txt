@@ -4382,6 +4382,9 @@ Contact: Josh Waagmeester <josh@jtsolve.com>
 Sender: dispatch@cavespringfire.org
 RES3 R33 CO3 W3 EMS2  ACCIDENT PERSONAL INJURY CHAPARRAL DR XST  PENN FOREST
 **********************************************************
+Waren County, NC
+Contact: Bull Dog <jaybarnes73@hotmail.com>,2525781438@email.uscc.net
+S: M:ALARM FIRE 200780988 110 WOODLAWN CT LITTLETON BUS, CAMILLE WILGING, NO KEYHOLDER INFO; OPER 7069 
 **********************************************************
 **********************************************************
 **********************************************************
@@ -4461,4 +4464,49 @@ Contact: "Brian Kazmierzak" <brian@firefighterclosecalls.com>
 [!] 3 FIELD021 ^ 57830 APPLETREE LN PE :(57354) APPLE RDNEIGHBORS FENCE ON FIRE 1512,006OSCEO,PENN3 
 [!] 2 MEDIC021 ^ 17850 IRELAND RD PE :(59500) IROWNWOOD RDF SEIXING 1442,014ME10 ,PENN1 
 [!] 0 COMAL021 ^ 13366 MCKINLEY HW PE :(55800) FRANCIS AVHOWARDS AUTO SALES 1409,0148772387730 KEYPAD 1410,014PENN RPT # = 12-21000471
+
+k let me take a shot at this:
+
+MEDIC021, STRUC021, VEHIC021, WATER021, ASSIS021, CRASH021, INVES021,
+FIELD021, RESCU021, MUTUA021, RESAL021, COMMA021, COMMF021 are all the CAD
+Codes, the 1st 5 letters are the incident type, the last is the dept. CAD #
+
+013,014, 021 is Penn Twps. CAD #
+002, 003, 004 is Clay Twp.
+005 is Lakeville
+006 is Madison
+009 is New Carlisle
+010 is Liberty Twp
+012 is Osceola
+018 is Warren
+20 is Southwest Central
+022 is VEST
+
+PE would also mean Penn Twp
+OS would be Osceola
+SB would be South Bend
+MI would be Mishawaka
+CL would be Clay Twp.
+GE would be German Twp
+HA would be Harris Twp
+MA would be Madison Twp
+SO would be Southwest Central
+WA would be Warren Twp
+NC would be New Carlisle
+ND would be Notre Dame
+CE would be Centre Twp.
+PO would be Portage Twp.
+GR would be Green Twp.
+
+The 4 digit # before, ME12, PENN4 is the time of dispatch
+
+ME12 is Medic 12, ME11 is Medic 11, etc, 10, 13, 14, 41, 45
+
+PENN4 would be it is in Penn District 4
+No I have NO CLUE why that number is appearing that is new.
+
+As far as the other time trailing not sure on that obviously we have some consistency issues with either the cad or the dispatchers
+
+Looking again some of those numbers are apparatus such as 1660 is an EMS chase car, etc. I am thinking that is what those are
+
 **********************************************************
