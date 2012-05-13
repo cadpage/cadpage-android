@@ -201,6 +201,16 @@ public class MDPrinceGeorgesCountyCParserTest extends BaseParserTest {
         "UNIT:A84S8,MD818",
         "ID:F121240280");
 
+    doTest("T19",
+        "F121330384: PIA Limited Access, WB JOHN HANSON HWY WB/NB CAP BELT OL A HWY, PP, at WB JOHN HANSON HWY WB/NB CAP BELT OL A HWY, PP <1900/0>, TGB3, 0619, Units:A848, E828B",
+        "CALL:PIA Limited Access",
+        "ADDR:WB JOHN HANSON HWY WB & NB CAP BELT OL A HWY",
+        "MADDR:JOHN HANSON HWY & CAPITAL BELTWAY",
+        "CH:TGB3",
+        "BOX:0619",
+        "UNIT:A848,E828B",
+        "ID:F121330384");
+
   }
   
   @Test
