@@ -2030,6 +2030,11 @@ Chester County, PA (PAChesterCountyFParser)
 (Dispatch) CARDIAC/RESP ARREST - ALS * ** 167 MOUNT PLEASANT RD ,69 ** ENOTT **  ** GRANT ST & COOPER LA ** - ** 48/F--LIPS BLUE\nDETAILS TO FOLLOW\n**
 (Dispatch) ALARM - FIRE * ** 117 HYACINTH DR ,71 ** NEWLON ** THUNDER HILL ** RIDGE DR & MCBERTY CT ** - ** SMOKE ALARM GOING OFF - NO VIS SMOKE - 2ND FLO\nOR **
 ***************************************************************************
+Chester County, PA (PAChesterCountyGParser)
+Inc History #NCCF12000028           \n                      \n Entered      04/17/12  13:15:35  BY FD16     135    \n Dispatched   04/17/12  13:15:42  BY FD16     135    \n\n Initial Type: RELOCAT    Final Type: RELOCAT (RELOCATE FIRE/EMS UNITS)\n Initial Priority: 3      Final Priority: 3 \n Initial Alarm Level: 1   Final Alarm Level: 1\n Disposition:        Source: T    Primary Unit: ENG22       Rsp: 0099  \n Police BOX:   Fire BOX:   EMS BOX:  \n Group: C88F          Section:   Map:          X: 0000000  Y: 0000000\n\n Loc: NCC STA19   (NV)\n AKA:   Municipality:        Dev: \n Name: NCC ENG19               Addr:                         PH:                \n\n/1315  (135   )  ENTRY            NO FURTHER INFORMATION\n/1315            DISP    ENG242    #ENG242 ENG242 MDT \n/1323           $PREMPT  ENG242   \n/1323           $DISP    ENG22     #ENG22  ENG22 MDT \n/1323            EXCH    ENG242   ENG22    \nPRIOR PREMISE HISTORY FOR: NCC STA19                                         \n\nNo Prior Premise History found for the Location
+Inc History #WGRF12000543  Xref: #58PJ12000321\n\n Entered      04/26/12  06:09:05  BY CT09     693\n Dispatched   04/26/12  06:09:53  BY FD16     157\n Initial Type: ACCENT     Final Type: ACCENT  (ACCIDENT - ENTRAPMENT *)\n Initial Priority: E      Final Priority: E\n Initial Alarm Level: 1   Final Alarm Level: 1\n Disposition:        Source: T    Primary Unit: RES22       Rsp: 0002\n Police BOX: 5802  Fire BOX: 2204  EMS BOX: 2204\n Group: 22FD          Section: 22     Map:          X: 7586988  Y: 3982389\n Loc: OLD BALTIMORE PK/RT 796 ,58    (V)\n AKA:                            Municipality: PENN\nDev:\n Name:                         Addr:                         PH:\n610-633-8998C\n/0609  (693   )  ENTRY            2 VEHS -- HEAD ON COLLISION -- ENTRAPMENT\n/0609            ENTRY            DETAILS TO FOLLOW\n/0609  (157   )  DTSEEN           INFO SEEN\n/0609            DISP    RES22     #RES22  RES22 MDT\n/0609            ASST    ENG22     #ENG22  ENG22 MDT\n/0609            ASST    AMB221    #AMB221 AMB221 MDT\n/0609            ASST    MED941    #MED941 MED941 MDT\n/0609            ASST    ENG12     #ENG12  ENG12 MDT\n/0609            ASST    AMB222    #AMB222 AMB222 MDT\n/0609            ASST    ENG32     #ENG32  ENG32 MDT\nPRIOR PREMISE HISTORY FOR: OLD BALTIMORE PK/RT 796\n,58\nNo Prior Premise History found for the Location\n*** List of closest hydrants\n***\n Inc #WGRF12000543 Type: ACCENT  Loc: OLD BALTIMORE PK/RT 796 ,58\n ID   STAT  GPM   LOCATION\n58-014      0      835 W BALTIMORE PK, 58\n\n58-013      0      835 W BALTIMORE PK, 58\n\n58-012      0      835 W BALTIMORE PK, 58\n\n58-011      0      835 W BALTIMORE PK, 58
+Inc History #WGRF12000549  Xref: #59PJ12000174\n\n Entered      04/27/12  23:31:33  BY CT08     663\n Dispatched   04/27/12  23:32:07  BY FD16     135\n\n Initial Type: INVOUT     Final Type: INVOUT  (SMOKE/ODOR INVEST (OUTSIDE)\n*)\n Initial Priority: 1      Final Priority: 1\n Initial Alarm Level: 1   Final Alarm Level: 1\n Disposition:        Source: T    Primary Unit: ENG22       Rsp: 0026\n Police BOX: 59BP  Fire BOX: 2202  EMS BOX: 2202\n Group: 22FD          Section: 22     Map: 45D7     X: 7580925  Y: 3983699\n\n Loc: 160 SB RT 1 BP ,59  btwn CHATHAM RD & BAKER STATION RD (V)\n AKA: KENNETT OXFORD BP  Municipality: LGROVE Dev:\n Name: WERTZ, JONATHON         Addr: 343 LEA DR              PH:\n610-812-0021\n\n/2331  (663   )  ENTRY            LOOKED LIKE WHAREHOUSE MIGHT HAVE BEEN ON\nFIRE\n                                   ONLY SAW WHITE COLORED SMOKE WHILE\nDRIVING BY\n/2332  (135   )  DISP    ENG22     #ENG22  ENG22 MDT\n/2332            ASST    LAD22     #LAD22  LAD22 MDT\n/2332            ASST    ENG12     #ENG12  ENG12 MDT\n/2332            ASST    ENG32     #ENG32  ENG32 MDT\nPRIOR PREMISE HISTORY FOR: 160 SB RT 1 BP\n,59\n\nNo Prior Premise History found for the Location
+***************************************************************************
 Dauphin County, PA (PADauphinCountyParser)
 (29CAD) [!] Box:29-1 Loc:31 S RIVER RD HFT DAUP XSts:PETERS MOUNTAIN RD ,SYCAMORE AV Event Type:OVERDOSE / POISONING (INGESTION) Class: 1 Disp: P29
 (29CAD) [!] Box:29-6 Loc:100 S FOURTH ST HFX DAUP: @BEER AND SODA PLUS XSts:RISE ST ,PETERS MOUNTAIN RD Event Type:TRAFFIC / TRANSPORTATION ACCIDENT INJURIES Class: Disp: E29-1
@@ -4390,120 +4395,6 @@ RES3 R33 CO3 W3 EMS2  ACCIDENT PERSONAL INJURY CHAPARRAL DR XST  PENN FOREST
 **********************************************************
 **********************************************************
 **********************************************************
-Chester County, PA (alternate)
-Contact: "jtgff72@aol.com" <jtgff72@aol.com>
-Sender: wgfc22@comcast.net
-This is the PABucksCountyB format!!
-
-Subject: Dispatch
-Inc History #NCCF12000028           
-                      
- Entered      04/17/12  13:15:35  BY FD16     135    
- Dispatched   04/17/12  13:15:42  BY FD16     135    
-
- Initial Type: RELOCAT    Final Type: RELOCAT (RELOCATE FIRE/EMS UNITS)
- Initial Priority: 3      Final Priority: 3 
- Initial Alarm Level: 1   Final Alarm Level: 1
- Disposition:        Source: T    Primary Unit: ENG22       Rsp: 0099  
- Police BOX:   Fire BOX:   EMS BOX:  
- Group: C88F          Section:   Map:          X: 0000000  Y: 0000000
-
- Loc: NCC STA19   (NV)
- AKA:   Municipality:        Dev: 
- Name: NCC ENG19               Addr:                         PH:                
-
-/1315  (135   )  ENTRY            NO FURTHER INFORMATION
-/1315            DISP    ENG242    #ENG242 ENG242 MDT 
-/1323           $PREMPT  ENG242   
-/1323           $DISP    ENG22     #ENG22  ENG22 MDT 
-/1323            EXCH    ENG242   ENG22    
-PRIOR PREMISE HISTORY FOR: NCC STA19                                         
-
-No Prior Premise History found for the Location
-
-+++
-{
- ***  *** Dispatch *** 
- 
-Inc History #WGRF12000543  Xref: #58PJ12000321
-
- Entered      04/26/12  06:09:05  BY CT09     693
- Dispatched   04/26/12  06:09:53  BY FD16     157
- Initial Type: ACCENT     Final Type: ACCENT  (ACCIDENT - ENTRAPMENT *)
- Initial Priority: E      Final Priority: E
- Initial Alarm Level: 1   Final Alarm Level: 1
- Disposition:        Source: T    Primary Unit: RES22       Rsp: 0002
- Police BOX: 5802  Fire BOX: 2204  EMS BOX: 2204
- Group: 22FD          Section: 22     Map:          X: 7586988  Y: 3982389
- Loc: OLD BALTIMORE PK/RT 796 ,58    (V)
- AKA:                            Municipality: PENN
-Dev:
- Name:                         Addr:                         PH:
-610-633-8998C
-/0609  (693   )  ENTRY            2 VEHS -- HEAD ON COLLISION -- ENTRAPMENT
-/0609            ENTRY            DETAILS TO FOLLOW
-/0609  (157   )  DTSEEN           INFO SEEN
-/0609            DISP    RES22     #RES22  RES22 MDT
-/0609            ASST    ENG22     #ENG22  ENG22 MDT
-/0609            ASST    AMB221    #AMB221 AMB221 MDT
-/0609            ASST    MED941    #MED941 MED941 MDT
-/0609            ASST    ENG12     #ENG12  ENG12 MDT
-/0609            ASST    AMB222    #AMB222 AMB222 MDT
-/0609            ASST    ENG32     #ENG32  ENG32 MDT
-PRIOR PREMISE HISTORY FOR: OLD BALTIMORE PK/RT 796
-,58
-No Prior Premise History found for the Location
-*** List of closest hydrants
-***
- Inc #WGRF12000543 Type: ACCENT  Loc: OLD BALTIMORE PK/RT 796 ,58
- ID   STAT  GPM   LOCATION
-58-014      0      835 W BALTIMORE PK, 58
-
-58-013      0      835 W BALTIMORE PK, 58
-
-58-012      0      835 W BALTIMORE PK, 58
-
-58-011      0      835 W BALTIMORE PK, 58
-
-+++
-{
- ***  *** Dispatch ***
-
- Inc History #WGRF12000549  Xref: #59PJ12000174
-
- Entered      04/27/12  23:31:33  BY CT08     663
- Dispatched   04/27/12  23:32:07  BY FD16     135
-
- Initial Type: INVOUT     Final Type: INVOUT  (SMOKE/ODOR INVEST (OUTSIDE)
-*)
- Initial Priority: 1      Final Priority: 1
- Initial Alarm Level: 1   Final Alarm Level: 1
- Disposition:        Source: T    Primary Unit: ENG22       Rsp: 0026
- Police BOX: 59BP  Fire BOX: 2202  EMS BOX: 2202
- Group: 22FD          Section: 22     Map: 45D7     X: 7580925  Y: 3983699
-
- Loc: 160 SB RT 1 BP ,59  btwn CHATHAM RD & BAKER STATION RD (V)
- AKA: KENNETT OXFORD BP  Municipality: LGROVE Dev:
- Name: WERTZ, JONATHON         Addr: 343 LEA DR              PH:
-610-812-0021
-
-/2331  (663   )  ENTRY            LOOKED LIKE WHAREHOUSE MIGHT HAVE BEEN ON
-FIRE
-                                   ONLY SAW WHITE COLORED SMOKE WHILE
-DRIVING BY
-/2332  (135   )  DISP    ENG22     #ENG22  ENG22 MDT
-/2332            ASST    LAD22     #LAD22  LAD22 MDT
-/2332            ASST    ENG12     #ENG12  ENG12 MDT
-/2332            ASST    ENG32     #ENG32  ENG32 MDT
-PRIOR PREMISE HISTORY FOR: 160 SB RT 1 BP
-,59
-
-No Prior Premise History found for the Location
-
-+++
-{
- ***  *** Dispatch ***
- 
 **********************************************************
 *********************************************************
 **********************************************************
@@ -4570,3 +4461,4 @@ Contact: "Brian Kazmierzak" <brian@firefighterclosecalls.com>
 [!] 3 FIELD021 ^ 57830 APPLETREE LN PE :(57354) APPLE RDNEIGHBORS FENCE ON FIRE 1512,006OSCEO,PENN3 
 [!] 2 MEDIC021 ^ 17850 IRELAND RD PE :(59500) IROWNWOOD RDF SEIXING 1442,014ME10 ,PENN1 
 [!] 0 COMAL021 ^ 13366 MCKINLEY HW PE :(55800) FRANCIS AVHOWARDS AUTO SALES 1409,0148772387730 KEYPAD 1410,014PENN RPT # = 12-21000471
+**********************************************************

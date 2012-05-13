@@ -1,15 +1,14 @@
 package net.anei.cadpage.parsers.PA;
 import java.util.Properties;
-import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.dispatch.DispatchA7BaseParser;
 
-public class PAChesterCountyBaseParser extends FieldProgramParser {
+public class PAChesterCountyBaseParser extends DispatchA7BaseParser {
   
   public PAChesterCountyBaseParser(String programStr) {
-    super(CITY_CODES, "CHESTER COUNTY", "PA", programStr);
+    super(0, CITY_LIST, CITY_CODES, "CHESTER COUNTY", "PA", programStr);
   }
   
   @Override
@@ -48,12 +47,14 @@ public class PAChesterCountyBaseParser extends FieldProgramParser {
     
     @Override
     public boolean checkParse(String field, Data data) {
-      return parseChesterAddress(field, data);
+      if (!field.contains(",")) return false;
+      parseChesterAddress(field, data);
+      return true;
     }
     
     @Override
     public void parse(String field, Data data) {
-      if (!parseChesterAddress(field, data)) abort();
+      parseChesterAddress(field, data);
     }
     
     @Override
@@ -225,16 +226,24 @@ public class PAChesterCountyBaseParser extends FieldProgramParser {
     return super.getField(name);
   }
 
-  private static final Pattern ADDR_PTN = Pattern.compile("(.*), *(\\d\\d)(?: +\\(.*\\))?");
-  public boolean parseChesterAddress(String field, Data data) {
-    Matcher match = ADDR_PTN.matcher(field);
-    if (!match.matches()) return false;
-    parseAddress(match.group(1).trim(), data);
-    
-    int ndx = Integer.parseInt(match.group(2));
-    if (ndx < CITY_LIST.length) data.strCity = CITY_LIST[ndx];
-    return true;
+  public void parseChesterAddress(String field, Data data) {
+    parseAddressA7(field, data);
   }
+  
+  public String convertCityCode(String city) {
+    return convertCodes(city, CITY_CODES);
+  }
+  
+  /**
+   * Check if this is variant G message.  These are long complicated, and often
+   * pass for another variant, so we check here to eliminate them early
+   * @param body message body
+   * @return true if this is a variant G message
+   */
+  public boolean isVariantGMsg(String body) {
+    return VARIANT_G_MARKER.matcher(body).find();
+  }
+  private static final Pattern VARIANT_G_MARKER = Pattern.compile("^ *Inc History");
   
   private static final String[] CITY_LIST = new String[]{
     /* 00 */ "",

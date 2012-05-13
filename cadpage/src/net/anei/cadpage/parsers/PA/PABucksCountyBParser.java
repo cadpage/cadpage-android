@@ -101,7 +101,7 @@ public class PABucksCountyBParser extends PABucksCountyBaseParser {
     
     match = p.getMatcher(ADDR_PTN);
     if (match == null) return false;
-    parseAddress(match.group(1).trim(), data);
+    parseAddressA7(match.group(1).trim(), data);
     
     match = p.getMatcher(PLACE_NAME_PHONE_PTN);
     if (match == null) return false;

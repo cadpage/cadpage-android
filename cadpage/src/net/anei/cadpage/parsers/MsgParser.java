@@ -635,6 +635,34 @@ public abstract class MsgParser {
    }
    return cnt >= 2;
  }
+ 
+ /**
+  * Look for an abbreviated form of a full street name.  If found, expand it to the full
+  * street name 
+  * @param fullName Full street name
+  * @param field address field containing possible abbreviated street name
+  * @return address field with street name expanded to full name
+  */
+ protected String expandStreet(String fullName, String field) {
+   int trigLen  = fullName.lastIndexOf(' ');
+   if (trigLen < 0) return field;
+   trigLen += 2;
+   if (trigLen > fullName.length()) return field;
+   String trigger = fullName.substring(0,trigLen);
+   int pt1 = 0;
+   while (true) {
+     int pt2 = field.indexOf(trigger, pt1);
+     if (pt2 < 0) break;
+     int pt3 = field.indexOf(' ', pt2+trigLen);
+     if (pt3 < 0) pt3 = field.length();
+     if (fullName.startsWith(field.substring(pt2,pt3))) {
+       field = field.substring(0,pt2) + fullName + field.substring(pt3);
+       pt3 += fullName.length()-(pt3-pt2);
+     }
+     pt1 = pt3;
+   }
+   return field;
+ }
 
  /**
   * Convert any special codes in an item

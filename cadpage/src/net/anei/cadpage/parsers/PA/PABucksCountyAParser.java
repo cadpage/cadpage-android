@@ -274,7 +274,7 @@ public class PABucksCountyAParser extends PABucksCountyBaseParser {
     public void parse(String sAddr, Data data) {
       
       // Not the usual parseAddress method, this one is in the PABucksCountyBaseParser class
-      parseAddress(sAddr, data);
+      parseAddressA7(sAddr, data);
     }
     
     @Override

@@ -36,6 +36,8 @@ public class PAChesterCountyD1Parser extends PAChesterCountyBaseParser {
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
+    
+    if (isVariantGMsg(body)) return false;
 
     // subject is truncated version of address that we don't care about
     // but it has to be non-empty
@@ -72,7 +74,7 @@ public class PAChesterCountyD1Parser extends PAChesterCountyBaseParser {
       field = p.get();
       field = INTERSECT.matcher(field).replaceAll("&");
       field = PIKE.matcher(field).replaceAll("PIKE");
-      if (!parseChesterAddress(field, data)) abort();
+      parseChesterAddress(field, data);
     }
     
     @Override
