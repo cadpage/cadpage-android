@@ -107,6 +107,22 @@ public class NYPutnamCountyParserTest extends BaseParserTest {
         "SRC:11",
         "X:EAGLES RIDGE  RD/PUTNAM TERR",
         "INFO:WPH1-NE");
+
+    doTest("T12",
+        " 1 of 2\n" +
+        "FRM:messaging@iamresponding.com\n" +
+        "SUBJ:23 Putnam Lake\n" +
+        "MSG:DRILL|| 112 OLD ROUTE 6,CARMEL |STA 12 XS ROUTE 6 /HUGHSON RD|NARR CHILD SAFEYT\n" +
+        "(Con' 2 of 2\n" +
+        "EXPO PERSON: (COMPLAINANT) (FMLS)   BUREAU OF EMERGENCY SERVICES\r\n" +
+        "(End)",
+
+        "CALL:DRILL",
+        "ADDR:112 OLD ROUTE 6",
+        "CITY:CARMEL",
+        "SRC:12",
+        "X:ROUTE 6 /HUGHSON RD",
+        "INFO:CHILD SAFEYT EXPO PERSON: (COMPLAINANT) (FMLS)   BUREAU OF EMERGENCY SERVICES");
   
   }
   

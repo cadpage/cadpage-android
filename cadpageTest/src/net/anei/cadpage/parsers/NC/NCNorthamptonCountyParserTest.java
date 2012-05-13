@@ -47,6 +47,13 @@ public class NCNorthamptonCountyParserTest extends BaseParserTest {
         "CALL:ODOR OF GAS",
         "UNIT:FS20",
         "INFO:Medical: No / Hazards: No");
+
+    doTest("T5",
+        "S: M:Northampton911:* 113 ARBORVITAE CIR* * * LITTLETON* * ASSISTANCE* * * * FS11* * * * * ",
+        "ADDR:113 ARBORVITAE CIR",  // Not mapping
+        "CITY:LITTLETON",
+        "CALL:ASSISTANCE",
+        "UNIT:FS11");
   }
 
   public static void main(String[] args) {

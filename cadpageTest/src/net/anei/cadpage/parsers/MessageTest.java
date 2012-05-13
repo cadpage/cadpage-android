@@ -9,6 +9,12 @@ public class MessageTest {
   @Test
   public void testParseInfo() {
     
+    doParseTest("CTTollandCounty",
+        "[05/13/2012 11:28] tn@tollandcounty911.com:  TN Alert / NO DIVE IN COVENTRY TODAY. REPEAT DIVE CANCELLED!",
+        "tn@tollandcounty911.com",
+        "05/13/2012 11:28",
+        "TN Alert / NO DIVE IN COVENTRY TODAY. REPEAT DIVE CANCELLED!");
+    
     doParseTest("COWeldCounty",
         "Fr:<wrc-hiplink@weldcorcc.co\nSu:Dispatch\nTxt: 24\nTAU\nD\n37TH ST @ 38TH AVE\nEVMIA\n3751\nCAME ACROSS A TA / REQ LAW & PM'S ROUTINE\nProQA Medical Case 84958 Aborted 1. Caller hung up\n\n\nid:7",
         "wrc-hiplink@weldcorcc.co",

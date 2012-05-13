@@ -86,6 +86,23 @@ public class CAButteCountyParserTest extends BaseParserTest {
 
   }
   
+  @Test
+  public void test() {
+
+    doTest("T1",
+        "(CAD Page) T/C HIGHWAY/HIGH SPD; STA 37 @ 3595 SHUMAN LN ,CONCOW ; WHT PU VS HYDRANT; 11400 BLK CONCOW RD; Map: 5934; Inc# 004582; Date-Time: 12-May-2012/23:53:0",
+        "CALL:T/C HIGHWAY/HIGH SPD",
+        "PLACE:STA 37",
+        "ADDR:3595 SHUMAN LN",
+        "CITY:CONCOW",
+        "X:WHT PU VS HYDRANT & 11400 BLK CONCOW RD",
+        "MAP:5934",
+        "ID:004582",
+        "DATE:12-May-2012",
+        "TIME:23:53:0");
+
+  }
+  
   public static void main(String[] args) {
     new CAButteCountyParserTest().generateTests("T1");
   }
