@@ -39,7 +39,8 @@ Med - Sick Person         - 1460 Martinez Losoya           # SRST  - 717B8 Dept-
 Alarm - Fire              - 7406 Scintilla                 - 413F8   Dept-133A,126E,SPK activated general fire alarm,borene pd called this one in,Automatic Case Number(s) issued for Leon Springs FD: LSPR-2012-000000339.,Automatic Case Number(s) issued for Grey Forest FD: GRYF-2012-000000169.,
 Med - Diabetic Problems   - 14085 Ih 35 S                  - 713B2   Dept-130C 67 yof diabetic feeling light headed[Shared],Multi-Agency BCLE Incident #: BCSO-2012-0119030,This incident JARR-2012-0011429 has been sent to ACADIAN via the CAD2CAD Interface. [Shared],Acknowledgement Received from ACADIAN 20120508-ZN16-0205 [Shared],Unit - 709, status change to STATUS_DISPATCHED by ACADIAN at 05/08/2012 04:33:59 [Shared],trlr 15 [Shared],[BCLE] has closed their incident [BCSO-2012-011903
 Med - Cardiac Arrest            2918 FISHERS GLADE              SA612/F8   GVIL-2012-000001157  Dept-123B - ACADIAN: Unit:    734         9963763,Transferred incident: Remote   Reference Number: 20120508-ZN16-0370 by Brunson, Savannah L. From ACADIAN,Interface has sent an ack message for GVIL-2012-0011432 to the remote CAD,9963763,This incident 20120508-ZN16-0370 has been sent to BCFA via the CAD2CAD Interface.,Unit - 734, status change to STATUS_RESPONDING by ACADIAN at 05/08/2012 06:25:35,Automatic Case Number
-
+Med - Sick Person    - 8510 WINDY CROSS               -       - SA553/C Dept-145D - ACADIAN: Unit:    735         9975423,Transferred incident: Remote   Reference Number: 20120513-ZN16-0481 by Reed, Juliana E. From ACADIAN,Interface has sent an ack message for WIND-2012-0011843 to the remote CAD,9975423,This incident 20120513-ZN16-0481 has been sent to BCFA via the CAD2CAD Interface.,ACADIAN HAS CHANGED the CALL BACK PHONE# to:,Automatic Case Number(s) issued for Windcrest FD: WIND-2012-0
+Med - Heart Problems - 8835 WILLMON WAY               -       - SA552/F Dept-145A - ACADIAN: The cross street was verified by caller.,ACADIAN: Unit:    733         9975214,ACADIAN: The patient's weight is below 300 pounds.,ACADIAN: [ProQA Script] Dispatch code: 19D02  You are responding to a patient  with heart problems.  The patient is a  66-year-old female, who is    conscious and breathing. DIFFICULTY  SPEAKING BETWEEN BREATHS.  Heart Problems / A.I.C.D..  DIFFICULTY SPE,AKING BETWEEN
 
 *** Variant T2
 07:35 pm   10410 Stallion Bay             :Rspnd for: Med - Sick Person    - 546C6   - D7FR-2012-000000330\r
@@ -55,8 +56,9 @@ a structure fire \nVALLEY RIDGE MOBILE PARK \n8671 Sw Loop 410, Unit 520 \nSB SW
 
 public class TXBexarCountyParser extends FieldProgramParser {
   
-  private static final String MAP_PATTERN = "(?:\\d{3}[A-Z]\\d|SA\\d{3}(?:/[A-Z]\\d)?)";
+  private static final String MAP_PATTERN = "(?:\\d{3}[A-Z]\\d|SA\\d{3}(?:/[A-Z]\\d?)?)";
   private static final Pattern DASH_DELIM_PTN = Pattern.compile(" +- ");
+  private static final Pattern PROTECT_KEYWORD = Pattern.compile("(?<=:)  +(?=[^ ])");
   private static final Pattern BLANK_DELIM_PTN = Pattern.compile(" {4,}");
   private static final Pattern SHORT_BLANK_DELIM_PTN = Pattern.compile("(?<![ -])  +(?![ -])");
   private static final Pattern MAP_BLANK_DELIM_PTN = Pattern.compile(" " + MAP_PATTERN + " +(?=[^ -])");
@@ -102,8 +104,10 @@ public class TXBexarCountyParser extends FieldProgramParser {
     // long strings of blanks, which we will turn in regular dash delimiters
     // And then, they occasionally leave a single space delimiter after the Map field
     body = DASH_DELIM_PTN.matcher(body).replaceAll(" - ");
+    body = PROTECT_KEYWORD.matcher(body).replaceAll(" ");
     body = BLANK_DELIM_PTN.matcher(body).replaceAll(" - ");
     body = MAP_BLANK_DELIM_PTN.matcher(body).replaceFirst("$0- ");
+    
     pt = body.lastIndexOf(" - ");
     if (pt < 0) return false;
     body = SHORT_BLANK_DELIM_PTN.matcher(body.substring(0,pt)).replaceAll(" - ") + body.substring(pt);
@@ -162,18 +166,26 @@ public class TXBexarCountyParser extends FieldProgramParser {
   }
   
   // Info field tries to clean up some of the more useless information
-  private static final Pattern ACADIAN_PTN = Pattern.compile("\\bACADIAN: *");
-  private static final Pattern INFO_ID_PTN = Pattern.compile("(?:(?:^|,)[^,]*?)?\\b([A-Z]{3,4}-\\d{4}-\\d{6,})\\b[^,]*");
-  private static final Pattern TRASH_PTN = Pattern.compile("(?:^|,) *(?:A cellular re-bid |check the ANI/ALI |Invalid address received:|Automatic Case |\\[ProQA Session Aborted\\]|Transferred incident:|Acknowledgement Received |Reference Number:|status change to |This incident [-A-Z0-9]+ has been sent to )[^,]*");
-  private static final Pattern TRIM_PTN = Pattern.compile("^[, ]+|[, ]+$");
+  private static final Pattern ACADIAN_PTN = Pattern.compile("(?:\\bACADIAN:|\\[ProQA Script\\]) *");
+  private static final Pattern SPEC_INFO_PTN = Pattern.compile("(?<=^|,) *Unit: *([^ ]+)\\b|" +                                // Unit:
+                                                                  "(?<=^|,) *Dispatch code: *([^ ]+)\\b|" +                       // Dispatch code:
+                                                                  "(?:(?:^|,)[^,]*?)?\\b([A-Z]{3,4}-\\d{4}-\\d{6,})\\b[^,]*");    // Call ID
+  private static final Pattern TRASH_PTN = Pattern.compile("(?:^|,) *(?:A cellular re-bid |check the ANI/ALI |Invalid address received:|Automatic Case |\\[ProQA Session Aborted\\]|Transferred incident:|Acknowledgement Received |Reference Number:|status change to |This incident [-A-Z0-9]+ has been sent to |ACADIAN HAS CHANGED )[^,]*");
+  private static final Pattern TRIM_PTN = Pattern.compile("^[, \\.]+|[, \\.]+$");
   private class MyInfoField extends InfoField {
     @Override
     public void parse(String field, Data data) {
       field = ACADIAN_PTN.matcher(field).replaceAll("");
-      Matcher match = INFO_ID_PTN.matcher(field);
+      Matcher match = SPEC_INFO_PTN.matcher(field);
       StringBuffer sb = new StringBuffer();
       while (match.find()) {
-        if (data.strCallId.length() == 0) data.strCallId = match.group(1);
+        if (match.group(1) != null) {
+          data.strUnit = append(data.strUnit, " ", match.group(1));
+        } else if (match.group(2) != null) {
+          data.strCode = match.group(2);
+        } else {
+          if (data.strCallId.length() == 0) data.strCallId = match.group(3);
+        }
         match.appendReplacement(sb, "");
       }
       match.appendTail(sb);
@@ -182,6 +194,11 @@ public class TXBexarCountyParser extends FieldProgramParser {
       field = field.replace("[Shared]", "");
       field = TRIM_PTN.matcher(field).replaceAll("");
       data.strSupp = append(data.strSupp, " - ", field);
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "UNIT CODE ID INFO";
     }
   }
   
