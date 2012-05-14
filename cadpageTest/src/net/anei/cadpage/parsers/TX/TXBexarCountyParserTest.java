@@ -77,7 +77,8 @@ public class TXBexarCountyParserTest extends BaseParserTest {
         "ADDR:7246 GLEN HILL",
         "MAP:SA585",
         "ID:CAM-2012-0010500",
-        "INFO:Unit: - 740 - 9941959,The cross street was verified by caller.,Law enforcement on scene; it is safe for the crew to enter.,assult to head unk age male, Angela From ACADIAN");
+        "UNIT:740",
+        "INFO:9941959,The cross street was verified by caller.,Law enforcement on scene; it is safe for the crew to enter.,assult to head unk age male, Angela From ACADIAN");
 
     doTest("T9",
         "Med - Unconscious Pe - 7838 Sun Forest                -       - 585C1   - 24 yo female went over to comps resd to visit his son; comp states female started drinking some wine and passed out; comp states she is breathing ; does not know what to do with female[Shared],Multi-Agency BCLE Incident #: BCSO-2012-0109700,This incident WIND-2012-0010491 has been sent to ACADIAN via the CAD2CAD Interface. [Shared],Acknowledgement Received from ACADIAN 20120428-ZN16-0059 [Shared],Unit - 76",
@@ -126,7 +127,7 @@ public class TXBexarCountyParserTest extends BaseParserTest {
         "ADDR:24511 Campbellton",
         "APT:HICKORY WAY/RANCH TRAIL RD",
         "MAP:783D1",
-        "INFO:small dark colored suv,going north on cambellton, it will be on the left,C disconnected,C says there is a car, unoccupied, flipped over.");
+        "INFO:small dark colored suv,going north on cambellton, it will be on the left,C disconnected,C says there is a car, unoccupied, flipped over");
 
     doTest("T15",
         "Med - Sick Person    - 6739 Glen Fair                 - 553E7 - C says her niece had a seizure, 34 yo.  fell onto concrete[Shared],Invalid address received:343  SPRINT-E SECTOR-QF 553C8.[Shared],Multi-Agency BCLE Incident #: BCSO-2012-0110931,Automatic Case Number(s) issued for Camelot FD: CAM-2012-000000525. [Shared],",
@@ -200,7 +201,26 @@ public class TXBexarCountyParserTest extends BaseParserTest {
         "ADDR:2918 FISHERS GLADE",
         "MAP:SA612/F8",
         "ID:GVIL-2012-000001157",
-        "INFO:Dept-123B - Unit: - 734 - 9963763 - Savannah L. From ACADIAN,9963763,Unit - 734");
+        "UNIT:734",
+        "INFO:Dept-123B - 9963763 - Savannah L. From ACADIAN,9963763,Unit - 734");
+
+    doTest("T24",
+        "Med - Sick Person    - 8510 WINDY CROSS               -       - SA553/C Dept-145D - ACADIAN: Unit:    735         9975423,Transferred incident: Remote   Reference Number: 20120513-ZN16-0481 by Reed, Juliana E. From ACADIAN,Interface has sent an ack message for WIND-2012-0011843 to the remote CAD,9975423,This incident 20120513-ZN16-0481 has been sent to BCFA via the CAD2CAD Interface.,ACADIAN HAS CHANGED the CALL BACK PHONE# to:,Automatic Case Number(s) issued for Windcrest FD: WIND-2012-0",
+        "CALL:Med - Sick Person",
+        "ADDR:8510 WINDY CROSS",
+        "MAP:SA553/C",
+        "ID:WIND-2012-0011843",
+        "UNIT:735",
+        "INFO:Dept-145D - 9975423, Juliana E. From ACADIAN,9975423");
+
+    doTest("T25",
+        "Med - Heart Problems - 8835 WILLMON WAY               -       - SA552/F Dept-145A - ACADIAN: The cross street was verified by caller.,ACADIAN: Unit:    733         9975214,ACADIAN: The patient's weight is below 300 pounds.,ACADIAN: [ProQA Script] Dispatch code: 19D02  You are responding to a patient  with heart problems.  The patient is a  66-year-old female, who is    conscious and breathing. DIFFICULTY  SPEAKING BETWEEN BREATHS.  Heart Problems / A.I.C.D..  DIFFICULTY SPE,AKING BETWEEN",
+        "CALL:Med - Heart Problems",
+        "ADDR:8835 WILLMON WAY",
+        "MAP:SA552/F",
+        "CODE:19D02",
+        "UNIT:733",
+        "INFO:Dept-145A - The cross street was verified by caller - 9975214,The patient's weight is below 300 pounds - You are responding to a patient - with heart problems - The patient is a - 66-year-old female, who is - conscious and breathing. DIFFICULTY  SPEAKING BETWEEN BREATHS.  Heart Problems / A.I.C.D..  DIFFICULTY SPE,AKING BETWEEN");
 
   }
   
@@ -236,11 +256,11 @@ public class TXBexarCountyParserTest extends BaseParserTest {
         "MAP:452B7",
         "ID:BBUL-2012-000000532",
         "X:Dead End/BEAUTYBERRY",
-        "INFO:C said a woman came by her house,is now seizing, 24 yo.");
+        "INFO:C said a woman came by her house,is now seizing, 24 yo");
     
   }
   
   public static void main(String[] args) {
-    new TXBexarCountyParserTest().generateTests("T21");
+    new TXBexarCountyParserTest().generateTests("T24");
   }
 }
