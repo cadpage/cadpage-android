@@ -44,6 +44,10 @@ public class SmartAddressParserTest extends BaseParserTest {
   @Test
   public void testProblems() {
     
+    doTest(CALL, FLAG_START_FLD_REQ, "CHEST PAIN - BREATH NORMAL=>35 5125 W RIDGE RD",
+           "CALL:CHEST PAIN - BREATH NORMAL=>35",
+           "ADDR:5125 W RIDGE RD");
+    
     doTest(CALL, "FALLS (GRD/FLR) POSS DANGER BO 9184 OLD WATTSBURG RD XS: HORSESHOE DR KEN TOWN",
            "CALL:FALLS (GRD/FLR) POSS DANGER BO",
            "ADDR:9184 OLD WATTSBURG RD",

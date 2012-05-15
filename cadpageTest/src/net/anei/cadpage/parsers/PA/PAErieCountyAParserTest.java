@@ -49,6 +49,22 @@ public class PAErieCountyAParserTest extends BaseParserTest {
         "CITY:FAIRVIEW TWP",
         "MAP:1888",
         "ID:2011-0000043981");
+
+    doTest("T4",
+        "FRM:messaging@iamresponding.com\n" +
+        "SUBJ:West Ridge Fire\n" +
+        "MSG:10C4 >CHEST PAIN - BREATH NORMAL=>35 5125 W RIDGE RD Apt: 314 Bldg XS:CARLETON CT MILLCREEK TWP\r\n",
+
+        "SRC:West Ridge Fire",
+        "CALL:CHEST PAIN - BREATH NORMAL=>35",
+        "APT:314 Bldg",
+        "ADDR:5125 W RIDGE RD",
+        "CITY:MILLCREEK TWP",
+        "X:CARLETON CT");
+  }
+  
+  @Test
+  public void testParser2() {
         
     doTest("T4",
         "ERIE911:29B4 >MVA - UNKNOWN STATUS W LAKE RD&WHITEHALL PL XS: LORD RD FAIRVIEW TWP WOOD, RODNEY Cad: 2011-0000042496",
@@ -274,7 +290,6 @@ public class PAErieCountyAParserTest extends BaseParserTest {
         "ADDR:4440 ASBURY RD",
         "CITY:MILLCREEK TWP",
         "X:LESTER LN");
-
   }
   
   public static void main(String[] args) {
