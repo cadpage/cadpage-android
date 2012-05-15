@@ -240,6 +240,7 @@
     <item>OK Oklahoma</item>
     <item>OR Oregon</item>
     <item>PA Pennsylvania</item>
+    <item>RI Rhode Island</item>
     <item>SC South Carolina</item>
     <item>SD South Dakota</item>
     <item>TN Tennessee</item>
@@ -583,6 +584,7 @@
     <item>PAWashingtonCounty</item>
     <item>PAWestmorelandCounty</item>
     <item>PAYorkCounty</item>
+    <item>RIWashingtonCounty</item>
     <item>SCAndersonCounty</item>
     <item>SCCharlestonCounty</item>
     <item>SCFlorenceCounty</item>
@@ -998,6 +1000,7 @@
     <item>Washington County, PA</item>
     <item>Westmoreland County, PA</item>
     <item>York County, PA</item>
+    <item>Washington County, RI</item>
     <item>Anderson County, SC</item>
     <item>Charleston County, SC</item>
     <item>Florence County, SC</item>
