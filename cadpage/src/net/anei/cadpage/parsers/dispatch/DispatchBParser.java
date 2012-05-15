@@ -333,6 +333,7 @@ public class DispatchBParser extends SmartAddressParser {
         "CARDIAC/RESP ARREST / DEATH",
         "CARDIAC SYMPTOMS",
         "CHEST PAIN",
+        "CHEST PAIN - BREATH NORMAL=>35",
         "CHEST PAIN - SEVERE SOB",
         "CHILD LOCKED IN CAR",
         "CO DETECTOR / FIRE RESPONSE",

@@ -40,6 +40,7 @@ Contact: Matt Exley <mexley46@gmail.com>
 FRM:messaging@iamresponding.com\nSUBJ:West Ridge Fire\nMSG:21B1 &gt;HEMORRHAGE / LACERATIONS 4242 ASBURY RD XS: THOROUGHBRED LOOP MILLCREEK TWP\n
 FRM:messaging@iamresponding.com\nSUBJ:West Ridge Fire\nMSG:9E1 &gt;CARDIAC/RESP ARREST / DEATH 4411 FOREST GLEN DR XS: W 38TH ST MILLCREEK TWP\n
 FRM:messaging@iamresponding.com\nSUBJ:West Ridge Fire\nMSG:28C10G&gt;STROKE (CVA) BREATH NORM &gt; 35 3643 MEADOW DR XS: CAUGHEY RD MILLCREEK TWP\n
+FRM:messaging@iamresponding.com\nSUBJ:West Ridge Fire\nMSG:10C4 >CHEST PAIN - BREATH NORMAL=>35 5125 W RIDGE RD Apt: 314 Bldg XS:CARLETON CT MILLCREEK TWP\r\n
 
 Contact: Matt Fuller <mfullererie@gmail.com>
 From: 8144312596,8149232720
