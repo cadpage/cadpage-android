@@ -36,6 +36,11 @@ class Active911Vendor extends Vendor {
       return null;
     }
   }
+  
+  @Override
+  int getVersion() {
+    return 1;
+  }
 
   @Override
   Uri getBaseURI(String req) {

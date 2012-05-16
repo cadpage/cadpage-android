@@ -1,6 +1,7 @@
 package net.anei.cadpage.vendors;
 
 import net.anei.cadpage.C2DMReceiver;
+import net.anei.cadpage.CadPageApplication;
 import net.anei.cadpage.HttpService;
 import net.anei.cadpage.SmsPopupUtils;
 import net.anei.cadpage.HttpService.HttpRequest;
@@ -54,6 +55,9 @@ abstract class Vendor {
   
   // Vendor Activity that may need to be updated when status changes
   private VendorActivity activity = null;
+  
+  // Client version code
+  private String clientVersion = null;
   
   
   Vendor(int titleId, int summaryId, int textId, int iconId, int logoId,
@@ -171,6 +175,23 @@ abstract class Vendor {
     return false;
   }
   
+  /**
+   * @return interface version id - generally used to determine which response menus are available
+   */
+  int getVersion() {
+    return 0;
+  }
+  
+  /**
+   * @return client version code
+   */
+  String getClientVersion() {
+    if (clientVersion == null) {
+      clientVersion = "" + getVersion() + "-" + CadPageApplication.getVersionCode();
+    }
+    return clientVersion;
+  }
+
   /**
    * Register VendorPreference associated with this vendor
    * @param preference Vendor preference object
@@ -491,6 +512,7 @@ abstract class Vendor {
     if (phone != null) builder = builder.appendQueryParameter("phone", phone);
     builder = builder.appendQueryParameter("type", "C2DM");
     if (registrationId != null) builder = builder.appendQueryParameter("CadpageRegId", registrationId);
+    builder.appendQueryParameter("version", getClientVersion());
     
     // Add random seed to register request to defeat any browser cache
     if (req.equals("register")) builder = builder.appendQueryParameter("seed", "" + System.currentTimeMillis() % 10000);

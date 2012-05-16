@@ -52,6 +52,7 @@ req=register - initial user request to register phone
     phone           Phone number if we have it (for Android tablets we probably will not)
     type            C2DM for now (Another code my be used in future for Apple Push connections)
     CadpageRegId    Cadpage registration ID, this is what you need to send messages to this device
+    version         Cadpage client version
 
     This also comes from a web browser.  If you redirect them to other links, it is
     your responsibility to preserve the passed parameters, either by adding them to
@@ -67,6 +68,7 @@ req=reregister  Used by Cadpage to report a change to the device registration ID
     token           Security token reported in REGISTER request to device
     type            C2DM for now (Another code my be used in future for Apple Push connections)
     CadpageRegId    New Cadpage registration ID
+    version         Cadpage client version
     
     Return an 200 - OK if successful
               400 - ERROR if device is not found or has been deregistered
@@ -81,6 +83,7 @@ req=unregister     Used by Cadpage to inidicate user request to unregister their
     token           Security token reported in REGISTER request to device
     type            C2DM for now (Another code my be used in future for Apple Push connections)
     CadpageRegId    New Cadpage registration ID
+    version         Cadpage client version
     
     Return an OK or ERROR response code to indicate success or failure
     
@@ -140,6 +143,7 @@ ack_req:  String of characters indicating what kind manual responses may be sent
               as in L300/30.  This tells Cadpage to continue sending periodic
               location reports for 300 seconds at 30 second intervals
           P - Request user payment status
+          
           [...] - Custom Response menu.  The response menu consists of any
           number of response definition separated by semicolons.  Each
           response definition look like
@@ -147,8 +151,12 @@ ack_req:  String of characters indicating what kind manual responses may be sent
           where code is the code that will be reported to the server when this 
                      response is selected
                 desc is the text for this response that will be displayed
+                
           sequence of numeric digits - An index that will be used to search for
-          a predefined custom response menu for this vendor.
+          a predefined custom response menu for this vendor.  Before using this, 
+          you should check the first part of client version reported by Cadpage 
+          to ensure that this version supports the predefined custom response 
+          menu you wish to use.  If it doesn't, use the Custom Response menu sequence.
 
 
 Cadpage acknowledgments
@@ -167,10 +175,20 @@ paid_status: Cadpage subscription status if requested
              NO  - user is not a paid Cadpage subscriber
 paid_expire_date: If subscription status is YES, this contains the date the subscription
                   expires as MM/DD/YYYY.  If the subscription never expires, it has a value
-                  of "LIFE".            
+                  of "LIFE".  
+version   Cadpage client version                           
 
 Note: If message content was delivered through content_url instead of a content 
 keyword an automatic acknowledgment is redundant and will not be sent.
+
+
+Client version codes
+All HTTP requests originated by recent versions of Cadpage will include a client version code.
+This code will consist of two numeric portionas separated by a dash.  The first will be a one
+or possibly 2 digit number that is tied specifically to your vendor interface.  In particular
+this number should be used to confirm whether or not this version of Cadpage supports any
+particular precompiled response menu before you try to use it.  The second number will be 5-6
+digits long and is tied to the actual Cadpage release code. 
 
 
 SMS text message discovery

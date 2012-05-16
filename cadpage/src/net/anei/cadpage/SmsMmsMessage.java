@@ -710,7 +710,7 @@ public class SmsMmsMessage implements Serializable {
    */
   public void acknowledge(Context context) {
     if (ackNeeded) {
-      C2DMReceiver.sendResponseMsg(context, ackReq, ackURL, "ACK");
+      C2DMReceiver.sendResponseMsg(context, ackReq, ackURL, "ACK", vendorCode);
       ackNeeded = false;
       reportDataChange();
     }
@@ -722,7 +722,7 @@ public class SmsMmsMessage implements Serializable {
    * @param respCode response code to be sent
    */
   public void sendResponse(Context context, String respCode) {
-    C2DMReceiver.sendResponseMsg(context, ackReq, ackURL, respCode);
+    C2DMReceiver.sendResponseMsg(context, ackReq, ackURL, respCode, vendorCode);
     
   }
   

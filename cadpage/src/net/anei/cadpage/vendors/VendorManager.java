@@ -109,6 +109,18 @@ public class VendorManager {
   }
   
   /**
+   * Get client version code for this vendor
+   * @param vendorCode vendor code
+   * @return client version code for this vendor
+   */
+  public String getClientVersion(String vendorCode) {
+    Vendor vendor = findVendor(vendorCode);
+    if (vendor == null) return null;
+    return vendor.getClientVersion();
+    
+  }
+
+  /**
    * Reconnect all enabled vendors
    * @param context current context
    */

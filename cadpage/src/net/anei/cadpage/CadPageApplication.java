@@ -76,6 +76,10 @@ public class CadPageApplication extends Application {
     return nameVersion;
   }
   
+  public static int getVersionCode() {
+    return versionCode;
+  }
+  
   public static boolean isBetaRelease() {
     return versionCode % 10 > 0;
   }

@@ -40,6 +40,10 @@ Contact: Michael Simms <michael.a.simm
 LC911:TRAFFIC ACCIDENT 161 WB NEAR BEECH RD\n
 LC911:FIRE - HOUSE 13335 NORTH DR OUTSIDE E 9-1-1 CO\n
 
+Contact: Corey Weekly <cweekly07@gmail.com>
+Sender: LC911@lcounty.com
+LC911:[4597]-- - Nature: SICK PERSON (SPECIFIC DIAGNOSIS) - Location: 277.00 N HIGH ST HEBRON - Comments:
+
 */
 public class OHLickingCountyParser extends SmartAddressParser {
   

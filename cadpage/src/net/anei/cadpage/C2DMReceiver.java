@@ -114,23 +114,25 @@ public class C2DMReceiver extends BroadcastReceiver {
     Log.w("Processing C2DM Message");
     ContentQuery.dumpIntent(intent);
     
+    // Get the vendor code
+    String vendorCode = intent.getStringExtra("vendor");
+    
     // See what kind of message this is
     String type = intent.getStringExtra("type");
     if (type == null) type = "PAGE";
     
     // Ping just needs to be acknowledged
     if (type.equals("PING")) {
-      sendAutoAck(context, intent);
+      sendAutoAck(context, intent, vendorCode);
       return;
     }
     
     // Register and unregister requests are handled by VendorManager
     if (type.equals("REGISTER") || type.equals("UNREGISTER")) {
-      String vendor = intent.getStringExtra("vendor");
       String account = intent.getStringExtra("account");
       String token = intent.getStringExtra("token");
-      VendorManager.instance().vendorRequest(context, type, vendor, account, token);
-      sendAutoAck(context, intent);
+      VendorManager.instance().vendorRequest(context, type, vendorCode, account, token);
+      sendAutoAck(context, intent, vendorCode);
       return;
     }
     
@@ -141,7 +143,7 @@ public class C2DMReceiver extends BroadcastReceiver {
     String content = intent.getStringExtra("content");
     if (content != null) {
       processContent(context, intent, content, timestamp);
-      sendAutoAck(context, intent);
+      sendAutoAck(context, intent, vendorCode);
       return;
     }
     
@@ -163,10 +165,10 @@ public class C2DMReceiver extends BroadcastReceiver {
    * @param context current context
    * @param intent received intent
    */
-  private void sendAutoAck(Context context, Intent intent) {
+  private void sendAutoAck(Context context, Intent intent, String vendorCode) {
     String ackReq = intent.getStringExtra("ack_req");
     String ackURL = intent.getStringExtra("ack_url");
-    sendResponseMsg(context, ackReq, ackURL, "AUTO");
+    sendResponseMsg(context, ackReq, ackURL, "AUTO", vendorCode);
   }
     
   private void processContent(Context context, Intent intent, String content, 
@@ -239,7 +241,8 @@ public class C2DMReceiver extends BroadcastReceiver {
    * @param ackURL acknowledge URL
    * @param type request type to be sent 
    */
-  public static void sendResponseMsg(Context context, String ackReq, String ackURL, String type) {
+  public static void sendResponseMsg(Context context, String ackReq, String ackURL, String type,
+                                       String vendorCode) {
     if (ackURL == null) return;
     if (ackReq == null) ackReq = "";
     Uri.Builder bld = Uri.parse(ackURL).buildUpon().appendQueryParameter("type", type);
@@ -264,6 +267,11 @@ public class C2DMReceiver extends BroadcastReceiver {
       }
       bld.appendQueryParameter("paid_status", paid);
       if (expireDate != null) bld.appendQueryParameter("paid_expire_date", expireDate);
+    }
+    
+    // Add version code
+    if (vendorCode != null) {
+      bld.appendQueryParameter("version", VendorManager.instance().getClientVersion(vendorCode));
     }
     
     // Send the request
