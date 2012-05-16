@@ -157,6 +157,17 @@ public class OHLickingCountyParserTest extends BaseParserTest {
     
   }
   
+  @Test
+  public void testCoreyWeekly() {
+
+    doTest("T1",
+        "LC911:[4597]-- - Nature: SICK PERSON (SPECIFIC DIAGNOSIS) - Location: 277.00 N HIGH ST HEBRON - Comments:",
+        "CALL:SICK PERSON (SPECIFIC DIAGNOSIS)",
+        "ADDR:277 N HIGH ST",
+        "CITY:HEBRON");
+
+  }
+  
   public static void main(String[] args) {
     new OHLickingCountyParserTest().generateTests("T1", "CALL ADDR APT CITY INFO");
   }
