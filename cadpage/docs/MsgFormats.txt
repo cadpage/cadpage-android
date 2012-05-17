@@ -4235,13 +4235,6 @@ Residential Fire 321 8 AVE N CAST 03/27/12 20:57 CFS #: 787 RESIDENTIAL
 FIRE  SMELLS HOT UP IN COMPS DAUGHTERS ROOM  Nature Of Call: RESIDENTIAL
 FIRE  9501-CASTFIR
 **********************************************************
-WIKenoshaCountyB replacement?
-Contact: David Wilkinson <dwilkinson@plprairiewi.com>
-Sender: CAD@plprairiewi.com
-Subject:Phoenix Notification\n2012000453 {04/15/2012 14:23:51}\r\nMED CALL - Medical Call{1}\r\n9747 84th Pl\r\nUnits:\r\n    5642    \r\nComments:\r\n\r
-Subject:Phoenix Notification\n2012000454 {04/15/2012 17:21:48}\r\nFIRE SNG - Fire - Single Engine{1}\r\n905 114th St\r\nUnits:\r\n    5641    5611  \r
-Subject:Phoenix Notification\n2012000454 {04/15/2012 17:21:48}\r\nFIRE SNG - Fire - Single Engine{1}\r\n905 114th St\r\nUnits:\r\n    5641    5611  \r
-**********************************************************
 Washington County, VA
 Contact: Mike White <cwwilliamsfire@comcast.net>
 System: Southeastern Software
@@ -4533,3 +4526,14 @@ Sender:
 (Clearfield Alert) Inc: Traffic Accident-Injury ALS\nAdd: 2299 SHAMOKIN TRL\nCity: BRADY\nUnits: STA30 ER30 FG2\n30FD\n5/2/2012 6:08:35 PM
 (Clearfield Alert) Inc: 1st Alarm Structure Fire\nAdd: 918 JUNIATA STREET EXT\nCity: SANDY\nUnits: 813 STDC STA38 ET38 R38 TA36 SU36 E36 E37 TA37 ET35 E73
 (Clearfield Alert) Inc: Automatic Fire Alarm\nAdd: 14070 TREASURE LAKE RD\nCity: SANDY\nUnits: STDC ET35 ET38 SU36 E36 TA36 E37 TA37 ET39 E73 4251\n36FD
+**********************************************************
+Pleasant Prarie Dispatch, WI (Kenosha County)
+Contact: David Wilkinson <dwilkinson@plprairiewi.com>
+Sender: CAD@plprairiewi.com
+System: Prophoenix
+Same as Wayne County, NJ
+Subject:Phoenix Notification\n2012000453 {04/15/2012 14:23:51}\r\nMED CALL - Medical Call{1}\r\n9747 84th Pl\r\nUnits:\r\n    5642    \r\nComments:\r\n\r
+Subject:Phoenix Notification\n2012000454 {04/15/2012 17:21:48}\r\nFIRE SNG - Fire - Single Engine{1}\r\n905 114th St\r\nUnits:\r\n    5641    5611  \r
+Subject:Phoenix Notification\n2012000454 {04/15/2012 17:21:48}\r\nFIRE SNG - Fire - Single Engine{1}\r\n905 114th St\r\nUnits:\r\n    5641    5611  \r
+Subject:Phoenix Notification\n2012000619 {05/16/2012 17:47:56}\r\nFIRE ALA - Fire - Alarm{1}\r\n9901 77th St,CMPLX\r\nUnits:\r\n    5642    \r\nCommen\r
+Subject:Phoenix Notification\n2012000618 {05/16/2012 13:31:17}\r\nMED CALL - Medical Call{1}\r\n13000BLK 104th St\r\nUnits:\r\n    5642    \r\nComment\r
