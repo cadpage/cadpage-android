@@ -455,7 +455,22 @@ public class TNWashingtonCountyParserTest extends BaseParserTest {
         "MAP:47D",
         "TIME:16:50:49",
         "ID:11147626");
-   
+
+    doTest("T6",
+        "Subject:<No Subject>\n" +
+        "INVESTIGATION \r\n" +
+        "402 E LOCUST ST\r\n" +
+        "20:37:04\r\n" +
+        "\r\n" +
+        "\r\n" +
+        "\r\n" +
+        "Think green: Only print this e-mail and any attachment if necessary.\r\n" +
+        "\r",
+
+        "CALL:INVESTIGATION",
+        "ADDR:402 E LOCUST ST",
+        "TIME:20:37:04");
+  
   }
   
   @Test
