@@ -199,6 +199,7 @@ Sender: "Bucks RSAN" <alert10965@alert.bucksema.org>
 ** General Alert **
 (Important message from Bucks County RSAN) STA19, ANY AVAIL STATION 19 CHIEF OFFICER PHONE FIRE COMMUNICATIONS Sent by mss911 Bucks to STA19, mss911 Bucks (Voice/Fax Dialer, E-mail accounts, Pagers, Cell phones) through Bucks County RSAN
 (Important message from Bucks County RSAN) A134 ***test test test test*** Sent by mss911 Bucks to SQ134, mss911 Bucks (Voice/Fax Dialer, E-mail accounts, Pagers, Cell phones) through Bucks County RSAN
+(Important message from Bucks County RSAN) STA19,ANY AVAIL STATION 19 CHIEF OFFICER PHONE FIRE COMMUNICATIONS Sent by mss911 Bucks to STA19, mss911 Bucks (Voice/Fax Dialer, E-mail accounts, Pagers, Cell phones) through Bucks County RSAN
 
  */
 

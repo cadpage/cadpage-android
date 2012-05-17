@@ -1271,7 +1271,9 @@ Kyle Rudy (ffrudy41@gmail.com)<rescuengine41@yahoo.com> // Northumberland County
 %%05/13/2012
 "C. Virgin F. F. 452" (cjfpd452@gmail.com)<cjfpd452@yahoo.com>  // Jasper County, MO
 %%05/15/2012
-Patrick Hawkins <forestryfire302@gmail.com>  // Washington County, RI
+Patrick Hawkins <forestryfire302@gmail.com>  // Washington County, RI 
+%%05/16/2012
+Pat Gillott <pgill107@gmail.com> // Lackawanna County, PA
 
 // *** Insert Paid Users here ***
 %2012/Pennfield FD //chief@pennfieldtwp.com  - {Payment Pending)
@@ -1331,6 +1333,14 @@ Laura McCarthy (9522925585)
 Curt Meyer (6127598086)
 Mike Lessard (9522925958)
 Rob Vierling (9522922517)
+
+%2012/Davie County // (payment pending)
+%%05/16/2012
+Mark Hancock            (3369091082)
+Andy Lipscomb           (3363453410)
+Joseph Ashburn          (3364774806)
+Jerry Myers             (3369091164)
+Brent Crotts            (3369091408)
 
 // List of users getting credit for 2013
 $paid_2013_list
@@ -2124,5 +2134,4 @@ trenton potter <trentonpotter153@gmail.com>
 %%05/15/2012
 Evan Orowetz <evan33327@gmail.com>
 Thomas Harvey (tjh21310@gmail.com) <thomas.harvey@stu.wdt.edu>
-Bradley Case <bcase55.bc@gmail.com>
 Alysia Hensley <alysiah63@gmail.com>
