@@ -50,6 +50,14 @@ Contact: "mark181@windstream.net" <mark181@windstream.net>
 Sender: station15+bncCLyug7vZGRD0nqL9BBoET_-1zg@googlegroups.com
 (911) Loc: 75 BEATTY LN NBET Xsts: GARRETT RD FARM LN Type: FIRST Time: 23:13:21 Loc Com:
 
+Contact: support@active911.com
+[] (911) Loc: 323 MUSE BISHOP RD CECI: EST Xsts: CIAFFONI RD BURNSIDE RD Type: RDCLS Time: 22:14:11 Loc Com:\n
+[] (911) Xsts: WEAVERTOWN LN MILLERS RUN RD Type: ACCIN Time: 12:17:20 Loc Com:\n
+[] (911) Loc: 52 CARLISLE ST CECI Xsts: 2ND ST 3RD ST Type: MUTAF Time: 15:49:08 Loc Com:\n
+[] (911) Location: 307 ROSEWOOD DR CECI Xstreet: RIDGEWOOD DR RIDGEWOOD DR TYPE: FIRE ALARM TIME: 14:59:51 Comments: SHAWN KELLY\n
+[] (911) Loc: 27 HIGHLAND DR CECI Xsts: SR 980 PROFIO RD Type: FIRAL Time: 13:58:32 Loc Com: MARKOVIC RES 724-9262427\n
+[] (911) Xstreet: MORGANZA RD DEAD END TYPE: STRUCTURE FIRE TIME: 22:27:03 Comments:\n
+
 ** Missing address - not parsed
 FRM:WashCo911 \nSUBJ:911\nMSG:Xstreet:   TYPE: MUTUAL AID REQUEST TIME: 09:10:04 Comments: BETWEEN SANITARUM RD/WAYNESBURG RD & 79\n
 
@@ -59,7 +67,7 @@ public class PAWashingtonCountyParser extends FieldProgramParser {
   
   public PAWashingtonCountyParser() {
     super("WASHINGTON COUNTY", "PA",
-           "Loc:ADDR/S? Xsts:X? Type:CALL! Time:SKIP Loc_Com:INFO");
+           "Loc:ADDR/S? Xsts:X? Type:CALL! Time:TIME Loc_Com:INFO Comments:INFO");
   }
   
   @Override
@@ -72,6 +80,7 @@ public class PAWashingtonCountyParser extends FieldProgramParser {
     
     // Regular parseMsg processing, but return failure if we didn't get an address
     // from either a Location or Xstreet
+    body = body.replace("Location:", "Loc:").replace("Xstreet:", "Xsts:").replace("TYPE:", "Type:").replace("TIME:", "Time:");
     if (!super.parseMsg(body, data)) return false;
     if (data.strAddress.length() == 0)  return false;
     return true;
