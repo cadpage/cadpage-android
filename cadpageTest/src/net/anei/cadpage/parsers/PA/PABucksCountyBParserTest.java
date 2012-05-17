@@ -889,6 +889,41 @@ public class PABucksCountyBParserTest extends BaseParserTest {
         "PHONE:2159975078",
         "INFO:45 YOF,,FAINTED,,FEELS NAUSEA",
         "UNIT:A134");
+
+    doTest("T24",
+        "[911 Data]  <SYSTEM GENERATED> TO INT1 FROM FS01  : \n" +
+        "019\n" +
+        "                                                        \n" +
+        "Run: E19    \n" +
+        " Inc History for: #FD1206776    Xref:                           #PD121371055 \n" +
+        " Entered      05/16/12  15:51:28  BY EMS2   748      \n" +
+        " Dispatched   05/16/12  15:51:53  BY FS01   271      \n" +
+        " Initial Type: FALRM   Initial Alarm Level:  1  Final Alarm Level:  1\n" +
+        " Final Type: FALRM (FIRE ALARM (LOC)) Pri: 4 Dspo:      Prem: [  ]\n" +
+        " EMS Blk:  125056 Fire Blk:  19056  Police Blk:  28107  Map Page: 2922K10 \n" +
+        " Group: NO  Beat: 019 Src:  N ATT:  INV - Investigate  \n" +
+        " Loc: BRIARLEAF NH ,28 at 252 BELMONT AV ,28 btwn SPRUCE ST & COTTAGE ST\n" +
+        " Loc Info: #215-348-2983\n" +
+        " Name: METRO SECURITY          Addr: #3510                   Phone: 8006332677\n" +
+        "/1551  (748     )  ENTRY:         ZONE 7 (UNK WHERE),,W/N\n" +
+        "/1551  (271     )  DISP    E19     #MD0802   E19 \n",
+
+        "SRC:019",
+        "ID:FD1206776",
+        "DATE:05/16/12",
+        "TIME:15:51:53",
+        "CALL:FALRM (FIRE ALARM (LOC))",
+        "BOX:F:19056 E:125056",
+        "MAP:2922K10",
+        "PLACE:BRIARLEAF NH - #215-348-2983",
+        "ADDR:252 BELMONT AV",
+        "MADDR:252 BELMONT AVE",
+        "CITY:DOYLESTOWN",
+        "X:SPRUCE ST & COTTAGE ST",
+        "NAME:METRO SECURITY (#3510)",
+        "PHONE:8006332677",
+        "INFO:ZONE 7 (UNK WHERE),,W/N",
+        "UNIT:E19");
  }
   
   

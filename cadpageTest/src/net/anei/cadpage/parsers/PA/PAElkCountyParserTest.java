@@ -40,4 +40,8 @@ public class PAElkCountyParserTest extends BaseParserTest {
           "SRC:ST MARYS AMB");
     
   }
+  
+  public static void main(String[] args) {
+    new PAElkCountyParserTest().generateTests("T1", "CALL ADDR CITY X SRC");
+  }
 }
