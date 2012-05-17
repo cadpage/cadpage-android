@@ -6,12 +6,11 @@ import java.util.regex.Pattern;
 public class PatternTest {
 
   private static final Pattern MASTER = 
-      Pattern.compile("(?<=^|,) *Unit: *|(?<=^|,) *Dispatch code: *([^ ]+)\\b|([^ ]+)\\b|(?:(?:^|,)[^,]*?)?\\b([A-Z]{3,4}-\\d{4}-\\d{6,})\\b[^,]*");
+      Pattern.compile("(?:(\\d+) )?(\\d\\d:?\\d?\\d?)\\b");
   
   public static void main(String[] args) {
-    doTest("Unit: 735");
-    doTest("Dispatch code: 342A6");
-    doTest("Incident #: BCSO-2012-0105711,");
+    doTest("TAC 30 1106797 21:01");
+    doTest("1106797 21:01");
   }
   
   private static void doTest(String test) {
