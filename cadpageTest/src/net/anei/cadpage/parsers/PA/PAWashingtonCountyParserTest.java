@@ -11,7 +11,7 @@ public class PAWashingtonCountyParserTest extends BaseParserTest {
     setParser(new PAWashingtonCountyParser(), "WASHINGTON COUNTY", "PA");
   }
   
-//  @Test
+  @Test
   public void testParser1() {
 
     doTest("T1",
@@ -19,14 +19,17 @@ public class PAWashingtonCountyParserTest extends BaseParserTest {
         "ADDR:116 GRANT ST",
         "CITY:MCDONALD",
         "X:NORTH ST & STATION ST",
-        "CALL:STRUCTURE FIRE");
+        "CALL:STRUCTURE FIRE",
+        "TIME:23:42:41",
+        "INFO:IN THE BACK POSS 112 OR 114");
 
     doTest("T2",
         "Location: 50 STONECREST LN CECI Xstreet: MCCONNELL RD DEAD END TYPE: FIRE TIME: 23:40:09 Comments:",
         "ADDR:50 STONECREST LN",
         "CITY:CECIL TWP",
         "X:MCCONNELL RD DEAD END",
-        "CALL:FIRE");
+        "CALL:FIRE",
+        "TIME:23:40:09");
 
     doTest("T3",
         "Location: 1647 MILLERS RUN RD MTPL: @KEEPSAKE ARABIANS Xstreet: PLEASANT RD FORT CHERRY RD TYPE: FIRE ALARM TIME: 22:31:54 Comments:",
@@ -34,14 +37,16 @@ public class PAWashingtonCountyParserTest extends BaseParserTest {
         "CITY:MT PLEASANT TWP",
         "PLACE:KEEPSAKE ARABIANS",
         "X:PLEASANT RD & FORT CHERRY RD",
-        "CALL:FIRE ALARM");
+        "CALL:FIRE ALARM",
+        "TIME:22:31:54");
 
     doTest("T4",
         "Location: 22 2ND ST CECI Xstreet: SCHOOL ST BOYCE ST TYPE: STRUCTURE FIRE TIME: 22:40:10 Comments:",
         "ADDR:22 2ND ST",
         "CITY:CECIL TWP",
         "X:SCHOOL ST & BOYCE ST",
-        "CALL:STRUCTURE FIRE");
+        "CALL:STRUCTURE FIRE",
+        "TIME:22:40:10");
 
     doTest("T5",
         "Location: 345 SOUTHPOINTE BLVD CECI: @LOCAL 23 UFCW Xstreet: SOUTHPOINTE BLVD NB SOUTHPOINTE BLVD NB TYPE: FIRE ALARM TIME: 11:39:27 Comments:",
@@ -49,28 +54,34 @@ public class PAWashingtonCountyParserTest extends BaseParserTest {
         "CITY:CECIL TWP",
         "PLACE:LOCAL 23 UFCW",
         "X:SOUTHPOINTE BLVD NB & SOUTHPOINTE BLVD NB",
-        "CALL:FIRE ALARM");
+        "CALL:FIRE ALARM",
+        "TIME:11:39:27");
 
     doTest("T6",
         "Xstreet: REISSING RD SR 50 TYPE: GRASS OR FIELD FIRE TIME: 15:07:34 Comments: ON REISSING NEAR SR 50",
         "ADDR:REISSING RD & SR 50",
-        "MADDR:REISSING RD & ST 50",
-        "CALL:GRASS OR FIELD FIRE");
+        "MADDR:REISSING RD & PA 50",
+        "CALL:GRASS OR FIELD FIRE",
+        "TIME:15:07:34",
+        "INFO:ON REISSING NEAR SR 50");
 
     doTest("T7",
         "Xstreet: REISSING RD TAYLOR DR TYPE: VEHICLE ACCIDENT WITH UNKNOWN INJURIES TIME: 05:36:10 Comments:",
         "ADDR:REISSING RD & TAYLOR DR",
-        "CALL:VEHICLE ACCIDENT WITH UNKNOWN INJURIES");
+        "CALL:VEHICLE ACCIDENT WITH UNKNOWN INJURIES",
+        "TIME:05:36:10");
 
     doTest("T8",
         "Xstreet: SR 980 HIGHLAND DR TYPE: VEHICLE ACCIDENT WITH INJURIES TIME: 14:17:43 Comments: JUST PASSED HIGHLAND HEADED TOWARD CECIL",
         "ADDR:SR 980 & HIGHLAND DR",
-        "MADDR:ST 980 & HIGHLAND DR",
-        "CALL:VEHICLE ACCIDENT WITH INJURIES");
+        "MADDR:PA 980 & HIGHLAND DR",
+        "CALL:VEHICLE ACCIDENT WITH INJURIES",
+        "TIME:14:17:43",
+        "INFO:JUST PASSED HIGHLAND HEADED TOWARD CECIL");
    
   }
   
-//  @Test
+  @Test
   public void testParser2() {
 
     doTest("T1",
@@ -82,14 +93,6 @@ public class PAWashingtonCountyParserTest extends BaseParserTest {
         "CALL:FIRE ALAR");
 
     doTest("T2",
-        "(911) Location: 200 TANDEM VILLAGE RD NSTR: @PCH 48 CONSULATE BLDG 2 Xstreet: LINDEN CREEK RD DEAD END TYPE: FIRE ALAR",
-        "ADDR:200 TANDEM VILLAGE RD",
-        "CITY:NORTH STRABANE TWP",
-        "PLACE:PCH 48 CONSULATE BLDG 2",
-        "X:LINDEN CREEK RD DEAD END",
-        "CALL:FIRE ALAR");
-
-    doTest("T3",
         "(911) Location: 100 MEDICAL BLVD NSTR: @CANONSBURG HOSPITAL Xstreet: BOONE AVE HILL CHURCH HOUSTON RD TYPE: FIRE ALARM",
         "ADDR:100 MEDICAL BLVD",
         "CITY:NORTH STRABANE TWP",
@@ -99,7 +102,7 @@ public class PAWashingtonCountyParserTest extends BaseParserTest {
   
   }
   
-//  @Test
+  @Test
   public void testParser3() {
 
     doTest("T1",
@@ -108,14 +111,15 @@ public class PAWashingtonCountyParserTest extends BaseParserTest {
         "CITY:LONG BRANCH",
         "PLACE:EST",
         "X:EXPRESS WAY & EB DALLY RD",
-        "CALL:VEHICLE ACCIDENT WITH UNKNOWN INJURIES");
+        "CALL:VEHICLE ACCIDENT WITH UNKNOWN INJURIES TIM");
 
     doTest("T2",
         "Subject:911\nLocation: 6 RAILROAD ST ALLE Xstreet: FRANKLIN ST HAMILTON ST TYPE: MUTUAL AID REQUEST TIME: 11:34:09 Comments:",
         "ADDR:6 RAILROAD ST",
         "CITY:ALLENPORT",
         "X:FRANKLIN ST & HAMILTON ST",
-        "CALL:MUTUAL AID REQUEST");
+        "CALL:MUTUAL AID REQUEST",
+        "TIME:11:34:09");
 
     doTest("T3",
         "Subject:911\nLocation: 213 EXPRESS WAY LONG: EST Xstreet: EXPRESS WAY EB DALLY RD TYPE: VEHICLE ACCIDENT WITH UNKNOWN INJURIES TIM",
@@ -123,7 +127,7 @@ public class PAWashingtonCountyParserTest extends BaseParserTest {
         "CITY:LONG BRANCH",
         "PLACE:EST",
         "X:EXPRESS WAY & EB DALLY RD",
-        "CALL:VEHICLE ACCIDENT WITH UNKNOWN INJURIES");
+        "CALL:VEHICLE ACCIDENT WITH UNKNOWN INJURIES TIM");
 
     doTest("T4",
         "Subject:911\nLocation: 3 HIGH RD ROSC: EST Xstreet: MOUNT TABOR RD LATTA HOLLOW RD TYPE: UNCONSCIOUS PT / IS BREATHING TIME: 03:21",
@@ -131,23 +135,33 @@ public class PAWashingtonCountyParserTest extends BaseParserTest {
         "CITY:ROSCOE",
         "PLACE:EST",
         "X:MOUNT TABOR RD & LATTA HOLLOW RD",
-        "CALL:UNCONSCIOUS PT / IS BREATHING");
+        "CALL:UNCONSCIOUS PT / IS BREATHING",
+        "TIME:03:21");
   }
   
-//  @Test
+  @Test
   public void testParser4() {
-    
+
     doTest("T1",
-        "1 of 2\nFRM:WashCo911 \nSUBJ:911\nMSG:Location: 791 LOCUST AVE EX SSTR: @PCH 44 HAWTHORNE WOODS ASSISTED LIVING Xstreet: BERRY RD VERONA DR TYPE:\n(Con't) 2 of 2\nUNCONSCIOUS PT / IS BREATHING TIME: 08:26:06 Comments: 1ST FLOOR HEALTH ROOM\n(End)",
+        "1 of 2\n" +
+        "FRM:WashCo911 \n" +
+        "SUBJ:911\n" +
+        "MSG:Location: 791 LOCUST AVE EX SSTR: @PCH 44 HAWTHORNE WOODS ASSISTED LIVING Xstreet: BERRY RD VERONA DR TYPE:\n" +
+        "(Con't) 2 of 2\n" +
+        "UNCONSCIOUS PT / IS BREATHING TIME: 08:26:06 Comments: 1ST FLOOR HEALTH ROOM\n" +
+        "(End)",
+
         "ADDR:791 LOCUST AVE EX",
         "MADDR:791 LOCUST AVE",
         "CITY:SOUTH STRABANE TWP",
         "PLACE:PCH 44 HAWTHORNE WOODS ASSISTED LIVING",
         "X:BERRY RD & VERONA DR",
-        "CALL:UNCONSCIOUS PT / IS BREATHING");
+        "CALL:UNCONSCIOUS PT / IS BREATHING",
+        "TIME:08:26:06",
+        "INFO:1ST FLOOR HEALTH ROOM");
   }
   
-//  @Test
+  @Test
   public void testVictorFedrick() {
 
     doTest("T1",
@@ -158,14 +172,17 @@ public class PAWashingtonCountyParserTest extends BaseParserTest {
         "CITY:ALLENPORT",
         "PLACE:AMROX",
         "X:MILL RD & J F KENNEDY ST",
-        "CALL:FIRE");
+        "CALL:FIRE",
+        "TIME:15:07:31",
+        "INFO:at the wheeling pittsburgh plant");
 
     doTest("T2",
         "Subject:911\nLocation: 5 CENTER ST ALLE Xstreet: ANDERSON ST SR 88 TYPE: ODOR OF NATURAL GAS TIME: 21:39:50 Comments:",
         "ADDR:5 CENTER ST",
         "CITY:ALLENPORT",
         "X:ANDERSON ST & SR 88",
-        "CALL:ODOR OF NATURAL GAS");
+        "CALL:ODOR OF NATURAL GAS",
+        "TIME:21:39:50");
 
     doTest("T3",
         "Subject:911\n" +
@@ -175,21 +192,24 @@ public class PAWashingtonCountyParserTest extends BaseParserTest {
         "CITY:ALLENPORT",
         "PLACE:FD 40 ALLENPORT",
         "X:MALLARD ST & WASHINGTON ST",
-        "CALL:VEHICLE ACCIDENT NO INJURIES");
+        "CALL:VEHICLE ACCIDENT NO INJURIES",
+        "TIME:16:33:09");
 
     doTest("T4",
         "Subject:911\nLocation: 446 BOW ST STOC Xstreet: LOCUST ST WALNUT ST TYPE: STRUCTURE FIRE TIME: 08:56:53 Comments:",
         "ADDR:446 BOW ST",
         "CITY:STOCKDALE",
         "X:LOCUST ST & WALNUT ST",
-        "CALL:STRUCTURE FIRE");
+        "CALL:STRUCTURE FIRE",
+        "TIME:08:56:53");
 
     doTest("T5",
         "Subject:911\nLocation: 1859 MAIN ST ALLE Xstreet: WASHINGTON ST BRIDGE ST TYPE: STRUCTURE FIRE TIME: 15:19:45 Comments:",
         "ADDR:1859 MAIN ST",
         "CITY:ALLENPORT",
         "X:WASHINGTON ST & BRIDGE ST",
-        "CALL:STRUCTURE FIRE");
+        "CALL:STRUCTURE FIRE",
+        "TIME:15:19:45");
 
     doTest("T6",
         "Subject:911\n" +
@@ -198,7 +218,9 @@ public class PAWashingtonCountyParserTest extends BaseParserTest {
         "ADDR:214 DALLY RD",
         "CITY:LONG BRANCH",
         "X:ROCK DR & CREST DR",
-        "CALL:FIRE ALARM");
+        "CALL:FIRE ALARM",
+        "TIME:20:32:03",
+        "INFO:WAGNER/MACK RES - 412-716-7984");
   }
   
   @Test
@@ -210,6 +232,7 @@ public class PAWashingtonCountyParserTest extends BaseParserTest {
         "CITY:CECIL TWP",
         "X:HILLCREST DR DEAD END",
         "CALL:ALMED",
+        "TIME:15:36:27",
         "INFO:KOSANOVICH RES//7247462905");
 
   }
@@ -222,8 +245,61 @@ public class PAWashingtonCountyParserTest extends BaseParserTest {
         "ADDR:75 BEATTY LN",
         "CITY:NORTH BETHLEHEM TWP",
         "X:GARRETT RD & FARM LN",
-        "CALL:FIRST");
+        "CALL:FIRST",
+        "TIME:23:13:21");
     
+  }
+  
+  @Test
+  public void testActive911() {
+
+    doTest("T1",
+        "[] (911) Loc: 323 MUSE BISHOP RD CECI: EST Xsts: CIAFFONI RD BURNSIDE RD Type: RDCLS Time: 22:14:11 Loc Com:\n",
+        "ADDR:323 MUSE BISHOP RD",
+        "CITY:CECIL TWP",
+        "PLACE:EST",
+        "X:CIAFFONI RD & BURNSIDE RD",
+        "CALL:RDCLS",
+        "TIME:22:14:11");
+
+    doTest("T2",
+        "[] (911) Xsts: WEAVERTOWN LN MILLERS RUN RD Type: ACCIN Time: 12:17:20 Loc Com:\n",
+        "ADDR:WEAVERTOWN LN & MILLERS RUN RD",  // Not mapping
+        "CALL:ACCIN",
+        "TIME:12:17:20");
+
+    doTest("T3",
+        "[] (911) Loc: 52 CARLISLE ST CECI Xsts: 2ND ST 3RD ST Type: MUTAF Time: 15:49:08 Loc Com:\n",
+        "ADDR:52 CARLISLE ST",
+        "CITY:CECIL TWP",
+        "X:2ND ST & 3RD ST",
+        "CALL:MUTAF",
+        "TIME:15:49:08");
+
+    doTest("T4",
+        "[] (911) Location: 307 ROSEWOOD DR CECI Xstreet: RIDGEWOOD DR RIDGEWOOD DR TYPE: FIRE ALARM TIME: 14:59:51 Comments: SHAWN KELLY\n",
+        "ADDR:307 ROSEWOOD DR",
+        "CITY:CECIL TWP",
+        "X:RIDGEWOOD DR & RIDGEWOOD DR",
+        "CALL:FIRE ALARM",
+        "TIME:14:59:51",
+        "INFO:SHAWN KELLY");
+
+    doTest("T5",
+        "[] (911) Loc: 27 HIGHLAND DR CECI Xsts: SR 980 PROFIO RD Type: FIRAL Time: 13:58:32 Loc Com: MARKOVIC RES 724-9262427\n",
+        "ADDR:27 HIGHLAND DR",
+        "CITY:CECIL TWP",
+        "X:SR 980 & PROFIO RD",
+        "CALL:FIRAL",
+        "TIME:13:58:32",
+        "INFO:MARKOVIC RES 724-9262427");
+
+    doTest("T6",
+        "[] (911) Xstreet: MORGANZA RD DEAD END TYPE: STRUCTURE FIRE TIME: 22:27:03 Comments:\n",
+        "ADDR:MORGANZA RD DEAD END", // Not mapping
+        "CALL:STRUCTURE FIRE",
+        "TIME:22:27:03");
+
   }
   
   public static void main(String[] args) {
