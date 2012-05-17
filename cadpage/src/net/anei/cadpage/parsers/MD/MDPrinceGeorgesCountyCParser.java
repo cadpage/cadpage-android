@@ -32,6 +32,7 @@ F121240261: PIA Limited Access, IL 495 PRIOR TO THE COUNTY LINE, TGA2, MAMC, Uni
 F121240264: PIA Limited Access, NB CAP BELT OL A HWY AT NB BALTIMORE WASHINGTON PKY NB, PP, at NB CAP BELT OL A HWY AT NB BALTIMORE WASHINGTON PKY NB, P, TGB3, 2833, Units:A830, E828B, SQ814B
 F121240280: Medic Local, MAGNOLIA GARDENS NURSG HOME, PP, at 8200 GOOD LUCK RD, PP, TGA2, 4807, Units:A84S8, MD818
 F121330384: PIA Limited Access, WB JOHN HANSON HWY WB/NB CAP BELT OL A HWY, PP, at WB JOHN HANSON HWY WB/NB CAP BELT OL A HWY, PP <1900/0>, TGB3, 0619, Units:A848, E828B
+F121380057: PIA Limited Access, SB CAP BELT IL A HWY BEFORE NB BALTIMORE WASHINGTON PKY NB,, at SB CAP BELT IL A HWY BEFORE NB BALTIMORE WASHINGTON PKY N, TGA2, 3520, Units:A814, E835, SQ814
 
 Contact: Francis Bauer <pgfd702@gmail.com>
 Sender: alrt509933@alert.princegeorgescountymd.gov
@@ -152,10 +153,10 @@ public class MDPrinceGeorgesCountyCParser extends FieldProgramParser {
   @Override
   public Field getField(String name) {
     if (name.equals("ADDR")) return new MyAddressField();
-    if (name.equals("PP")) return new SkipField("[A-Z]{1,2}", true);
+    if (name.equals("PP")) return new SkipField("[A-Z]{1,2}|", true);
     if (name.equals("AT")) return new AtField();
     if (name.equals("X")) return new MyCrossField();
-    if (name.equals("PP2")) return new SkipField("[A-Z]{1,2} *(?:<\\d.*)?|<\\d.*", true);
+    if (name.equals("PP2")) return new SkipField("[A-Z]{1,2} *(?:<\\d.*)?|<\\d.*|", true);
     if (name.equals("CH")) return new ChannelField("TG?[A-F]\\d{1,2}", true);
     if (name.equals("UNIT")) return new MyUnitField();
     if (name.equals("ID")) return new IdField("F\\d{6,}");
