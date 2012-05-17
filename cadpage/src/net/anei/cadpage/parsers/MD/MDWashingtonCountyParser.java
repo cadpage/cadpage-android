@@ -45,6 +45,10 @@ Contact: "ForbergerJames@yahoo.com" <ForbergerJames@yahoo.com>
 Sender: support@cadpage.org
 WCo / [!] 1396 S POTOMAC ST, SHEETZ - PIC, PERS INJURY COLLISION - E05,R75,UT3 - 1200168 10:39\n\n
 
+Contact: richard Gilbert <rgilbert65@gmail.com>
+Sender: rc.327@c-msg.net
+Subject:CAD\n[!] W FRANKLIN ST / N BURHANS BLVD - PIC, PERS INJURY COLLISION - E04,S75,S754,UT3 - Traffic / Transportation Accident (Crash). 12\r
+
 Contact: support@active911.com
 Sender: rc.337@c-msg.net
 Subject: WCo\n[!] 17850 GARLAND GROH BLVD, SUPER WALMART CENTER - Accident - Property Damage - 9C16 - Traffic / Transportation Accident (Crash). 11:57
@@ -175,16 +179,20 @@ public class MDWashingtonCountyParser extends FieldProgramParser {
     }
   }
   
-  private static final Pattern TIME_PTN = Pattern.compile("(?<=^| )(\\d\\d:\\d?\\d?)\\b");
+  private static final Pattern TIME_PTN = Pattern.compile("(?<=^| )(\\d\\d:\\d\\d)\\b");
+  private static final Pattern TIME2_PTN = Pattern.compile("\\b\\d[\\d:]*$");
   private static final Pattern ID_PTN = Pattern.compile("\\b\\d{7}$");
   private class TrailField extends Field {
 
     @Override
     public void parse(String field, Data data) {
       Matcher match = TIME_PTN.matcher(field);
-      if (!match.find()) abort();
-      data.strTime = match.group(1);
-      if (data.strTime.length() != 5) data.strTime = "";
+      if (match.find()) {
+        data.strTime = match.group(1);
+      } else {
+        match = TIME2_PTN.matcher(field);
+        if (!match.find()) abort();
+      }
       String sPart1 = field.substring(0,match.start()).trim();
       String sPart2 = field.substring(match.end()).trim();
       
