@@ -71,6 +71,8 @@ req=reregister  Used by Cadpage to report a change to the device registration ID
     version         Cadpage client version
     
     Return an 200 - OK if successful
+              299 - registration is successful, but the registration ID we passed is known 
+                    to be non-functional and should be replaced
               400 - ERROR if device is not found or has been deregistered
               Anything else indicates link is broken but fixable.  In a broken
               state Cadpage will attempt a reregister with the old account

@@ -1245,7 +1245,7 @@ Stephen valvo (valvo0822@yahoo.com)
 %%04/16/2012
 Steven Atherton (firemansteve1614@gmail.com)<steve@stlouisarsenal.com> // St Louis County, MO (B)
 %%04/17/2012
-Michael Watkins(doc.watkins@yahoo.com)
+Michael Watkins (thesizzler228@gmail.com)(doc.watkins@yahoo.com)
 %%04/18/2012
 Robert Balderson (rab901comsup@google.com)(rab901comsup@yahoo.com)
 %%04/22/2012
@@ -1274,6 +1274,8 @@ Kyle Rudy (ffrudy41@gmail.com)<rescuengine41@yahoo.com> // Northumberland County
 Patrick Hawkins <forestryfire302@gmail.com>  // Washington County, RI 
 %%05/16/2012
 Pat Gillott <pgill107@gmail.com> // Lackawanna County, PA
+%%05/17/2012
+John Mortise (chief05atv@gmail.com)(jmkw101904@yahoo.com)
 
 // *** Insert Paid Users here ***
 %2012/Pennfield FD //chief@pennfieldtwp.com  - {Payment Pending)
@@ -1341,6 +1343,25 @@ Andy Lipscomb           (3363453410)
 Joseph Ashburn          (3364774806)
 Jerry Myers             (3369091164)
 Brent Crotts            (3369091408)
+
+%2012/Chiloquin Agency Lake RFPD  // (payment pending)
+%%05/17/2012
+Dewaine Holster         (5417832649)
+Dewaine Holster         (5418912203)
+Susan Holster           (5418911640)
+Dominic Herrera         (5415391612)
+Morning Martinez        (5415391611)
+Joe McWilliams          (9515223744)
+Dave Knight             (5415913827)
+Anna Montoya            (5418803119)
+Renee Hansen            (5412741516)
+Becca Knight            (5415913826)
+Missy Danforth          (5418912322)
+Nick Danforth           (5418910652)
+Sam Seybold             (5418917864)
+Briston Gilman          (5412383100)
+Deb Ryan                (5418913607)
+
 
 // List of users getting credit for 2013
 $paid_2013_list

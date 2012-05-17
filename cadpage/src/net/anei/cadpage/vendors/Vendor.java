@@ -446,6 +446,11 @@ abstract class Vendor {
         // indicates that it is broken
         boolean newStat = ((status / 100) == 2);
         
+        // A 299 response indicates that the server has been having trouble with our registration ID
+        // and we should request another one.  Actually all we do is unregister the one we have.  Once
+        // the unregister is acknowledged, an new registration will be automatically requested
+        if (status == 299) C2DMReceiver.unregister(context);
+        
         // If nothing has changed, all is well
         if (enabled == newStat) return;
         
