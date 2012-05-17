@@ -7,7 +7,9 @@ import java.io.InputStreamReader;
 import java.io.PrintStream;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -23,7 +25,8 @@ public class GenFreeRiders {
   private static final File IN_FILE = new File("freeriders.txt");
   private static final File OUT_FILE = new File("./res/values/freeriders.xml");
   private static final File CSV_FILE = new File("freeriders.csv");
-  
+
+  private static Map<String,String> purchaseDateMap = new HashMap<String,String>();
   
 
   public static void main(String[] args) throws IOException {
@@ -75,7 +78,12 @@ public class GenFreeRiders {
         if (skipHash) line = line.substring(2);
         UserInfo info = cvtUser(line);
         if (!skipHash) userList.add(generateHashLine(info));
-        line = generateCsvLine(info, status, purchase, sponsor);
+        String tmpPurchase = purchaseDateMap.get(info.user);
+        if (tmpPurchase == null) {
+          tmpPurchase = purchase;
+          purchaseDateMap.put(info.user, tmpPurchase);
+        }
+        line = generateCsvLine(info, status, tmpPurchase, sponsor);
         ps2.println(line);
       }
     }
