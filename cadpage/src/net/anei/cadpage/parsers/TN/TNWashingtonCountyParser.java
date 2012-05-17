@@ -56,6 +56,7 @@ Breathing Problems-CHARLIE M1,E1,R1 \n1 UNAKA CT #7 \nMap 39D 21:23:05 11112056 
 House/Residential Fire Alarm E2 \n2701 S ROAN ST #124 \nHERITAGE TRAILER PARK \nMap 55D 22:50:03 115214 \nThink green: Only print this e-mail and an
 Assault/Sexual Assault-BRAVO M3,R3,E9 \n2918 BRISTOL HY \nADVANCE AUTO PARTS \nMap 38A 19:53:06 11113913 \nThink green: Only print this e-mail and a
 Chest Pain(Non-Traumatic)-DELTA M1,R1,E3\n805 KENTUCKY ST\nX-STR= COLORADO ST\nORLEANS ST\nMap 47D 16:50:49 11147626\nThink green: Only print thi
+Subject:<No Subject>\nINVESTIGATION \r\n402 E LOCUST ST\r\n20:37:04\r\n\r\n\r\n\r\nThink green: Only print this e-mail and any attachment if necessary.\r\n\r
 
 Contact: Derick Hughes <smokeeater1@gmail.com>
 Sender: cfdtext@johnsoncitytn.org
@@ -122,7 +123,7 @@ public class TNWashingtonCountyParser extends FieldProgramParser {
   }
   
   // CPU - Combined Call / Priority / Unit field
-  private static final Pattern UNIT_PTN = Pattern.compile("[A-Z0-9]{2,4}(?:,[A-Z0-9]{2,4})*$");
+  private static final Pattern UNIT_PTN = Pattern.compile("\\b[A-Z0-9]{2,4}(?:,[A-Z0-9]{2,4})*$");
   private static final Pattern PRI_PTN = Pattern.compile("-(?:ALPHA|BRAVO|CHARLIE|DELTA)");
   private class CallPriUnitField extends Field {
     
@@ -162,7 +163,7 @@ public class TNWashingtonCountyParser extends FieldProgramParser {
     public boolean checkParse(String field, Data data) {
       if (data.strUnit.length() > 0) return false;
       Matcher match = UNIT_PTN.matcher(field);
-      if (!match.matches()) abort();
+      if (!match.matches()) return false;
       data.strUnit = field;
       return true;
     }
