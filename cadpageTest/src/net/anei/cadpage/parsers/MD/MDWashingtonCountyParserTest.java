@@ -226,6 +226,20 @@ public class MDWashingtonCountyParserTest extends BaseParserTest {
   }
   
   @Test
+  public void testRichardGilbert() {
+
+    doTest("T1",
+        "Subject:CAD\n" +
+        "[!] W FRANKLIN ST / N BURHANS BLVD - PIC, PERS INJURY COLLISION - E04,S75,S754,UT3 - Traffic / Transportation Accident (Crash). 12\r",
+
+        "ADDR:W FRANKLIN ST & N BURHANS BLVD",
+        "CALL:PIC, PERS INJURY COLLISION",
+        "UNIT:E04,S75,S754,UT3",
+        "INFO:Traffic / Transportation Accident (Crash).");
+
+  }
+  
+  @Test
   public void testActive911() {
 
     doTest("T1",
