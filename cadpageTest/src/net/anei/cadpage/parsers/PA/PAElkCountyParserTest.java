@@ -13,7 +13,7 @@ public class PAElkCountyParserTest extends BaseParserTest {
   }
   
   @Test
-  public void testParser() {
+  public void testElkCounty() {
     
     doTest("T1",
           "Inc: DIABETIC PROBLEMS Add: 890 BURNING WELL RD\nCity: JONES\nXSt: OLD KANE RD * ROCKY RUN RD\nAgency: ST MARYS AMB",
