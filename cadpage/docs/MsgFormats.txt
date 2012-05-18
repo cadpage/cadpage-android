@@ -283,6 +283,11 @@ Code:  MVA   >MOTOR VEHICLE ACCIDENT\nCode Detail:  Address:  XS:  City:  Caller
 Code:  FIRES >STRUCTURE FIRE\nCode Detail:  Address: 9-1-1 CENTER:605 PINEY RUN RD  XS:  ENGLES MILL RD SALISBURY WEIMER SUSAN  City:  Caller:  Caller Ph:  Map:  Grid: CAD INC #: 2011-0000028647\n\nUnformatted Message: 9-1-1 CENTER:605 PINEY RUN RD XS: ENGLES MILL RD SALISBURY WEIMER SUSAN 8146624073 Map: Grids:, Cad: 2011-0000028647
 Code:  FIRES >STRUCTURE FIRE\nCode Detail:  Address: 9-1-1 CENTER:5467 MOUNT DAVIS RD  XS:  SAINT PAUL RD MEYERSDALE BENDER LINDA  City:  Caller:  Caller Ph:  Map:  Grid: CAD INC #: 2011-0000030088\n\nUnformatted Message: 9-1-1 CENTER:5467 MOUNT DAVIS RD XS: SAINT PAUL RD MEYERSDALE BENDER LINDA 8146622352 Map: Grids:, Cad: 2011-0000030088
 *******************************************************************************
+Susquehanna County, PA (PASusquehannaCounty)
+MVA >MOTOR VEHICLE ACCIDENT 228 I81 S GREAT BEND TWP PHAN,ABDUL Map: Grids:0,0 Cad: 2012-0000006018 (HSF)
+TREES >TREES DOWN 21907 SR 11 GREAT BEND Map: Grids:, Cad: 2012-0000006063 (HSF)
+BRUSH >BRUSH FIRE HARMONY RD GREAT BEND GALLELLI,JOHN Map: Grids:, Cad: 2012-0000006113 (HSF)
+*******************************************************************************
 Tioga County, PA (PATiogaCountyParser)
 TC911:21D >HEMORRHAGE / LAC - DANGER HEM 76 BAKER CREST LN XS: HICKORY RD RUTLAND TWP DONALD BAKER Map: Grids:, Cad: 2011-0000020687
 TC911:MVA >MOTOR VEHICLE ACCIDENT PITTS RD XS: CANOE CAMP CREEK RD RICHMOND TWP BRANT MAXWELL Map: Grids:, Cad: 2011-0000020573
@@ -4409,14 +4414,6 @@ Looking again some of those numbers are apparatus such as 1660 is an EMS chase c
 
 **********************************************************
 **********************************************************
-Susquehanna County, PA
-Contact: Chad Sinnett <csinnett7@gmail.com>
-Sender: @susqco.alertpa.org
-MVA >MOTOR VEHICLE ACCIDENT 228 I81 S GREAT BEND TWP PHAN,ABDUL Map: Grids:0,0 Cad: 2012-0000006018 (HSF)
-TREES >TREES DOWN 21907 SR 11 GREAT BEND Map: Grids:, Cad: 2012-0000006063 (HSF)
-BRUSH >BRUSH FIRE HARMONY RD GREAT BEND GALLELLI,JOHN Map: Grids:, Cad: 2012-0000006113 (HSF)
-WIRES >WIRES DOWN SR 11 GREAT BEND ANTHONY Map: Grids:, Cad: 2012-0000006114 (HSF)
-17 >FALLS 1004 HARMONY RD GREAT BEND CST - LINK TO LIFE Map: Grids:, Cad: 2012-0000006142 (HSF)
 **********************************************************
 **********************************************************
 Clearfield County, PA
