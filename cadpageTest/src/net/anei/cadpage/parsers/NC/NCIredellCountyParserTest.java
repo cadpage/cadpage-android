@@ -58,6 +58,30 @@ public class NCIredellCountyParserTest extends BaseParserTest {
 
   }
   
+  @Test
+  public void testActive911() {
+
+    doTest("T1",
+        "[] FD18 C-90 HOUSE FIRE, 127 FLORA LN\n",
+        "SRC:FD18",
+        "CALL:C-90 HOUSE FIRE",
+        "ADDR:127 FLORA LN");
+
+    doTest("T2",
+        "[] FD18 C-36 STAND BY AT BASE, 1819 RIDGE RD\n",
+        "SRC:FD18",
+        "CALL:C-36 STAND BY AT BASE",
+        "ADDR:1819 RIDGE RD");
+
+    doTest("T3",
+        "[] FD18 C-5 FIRE ALARM, 1969 MOCKSVILLE HW\n",
+        "SRC:FD18",
+        "CALL:C-5 FIRE ALARM",
+        "ADDR:1969 MOCKSVILLE HW",
+        "MADDR:1969 MOCKSVILLE HWY");
+    
+  }
+  
 
   public static void main(String[] args) {
     new NCIredellCountyParserTest().generateTests("T1", "SRC CALL ADDR");
