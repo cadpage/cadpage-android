@@ -22,6 +22,11 @@ Contact: Carrie La Basco <labascofamily@gmail.com>
 Sender: Basepage@co.iredell.nc.us
 FD70 C-90 GRASS / WOODS FIRE, TIMBER RD
 
+Contact: support.active911.com
+[] FD18 C-90 HOUSE FIRE, 127 FLORA LN\n
+[] FD18 C-36 STAND BY AT BASE, 1819 RIDGE RD\n
+[] FD18 C-5 FIRE ALARM, 1969 MOCKSVILLE HW\n
+
 */
 
 public class NCIredellCountyParser extends MsgParser {
