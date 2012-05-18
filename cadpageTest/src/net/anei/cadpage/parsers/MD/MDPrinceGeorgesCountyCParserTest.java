@@ -12,6 +12,12 @@ public class MDPrinceGeorgesCountyCParserTest extends BaseParserTest {
   }
   
   @Test
+  public void testBad() {
+    doBadTest("B CAP BELT HWY ONRP NB I95 HWY, PP <0/, TGB3, 4112, Units:A712, BO886, MD712, PE712, SQ814");
+  }
+
+  
+  @Test
   public void testChristopherOlsen() {
 
     doTest("T1",
