@@ -1,40 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">05102012</string>
-  <string name="release_version">v1.5.36</string>
+  <string name="release_date">05172012</string>
+  <string name="release_version">v1.5.37</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="min_expire_date">10012012</string>
   <string name="release_text">
 New Locations:\n
-Bloomington, MN\n
-Newton County, MO\n
-Clinton County, NY\n
-Halifax County, NC\n
-Northumberland County, PA\n
-Bexar County, TX\n
-Hanover County, VA\n
-New South Wales, Austrailia\n
+Chester County, PA (alt)\n
+Lackawanna County, PA\n
+Susquehanna County, PA\n
+Washington County, RI\n
+Roanoke County, VA\n
 \n
 Location Parsing Fixes:\n
-Ozark, AL\n
 Tolland County, CT\n
-Polk County, IN\n
-Pottawattamie County, IA\n
-Jefferson City, MO\n
-Erie County, NY\n
+Prince George\'s County, MD\n
+Washington County, MD\n
 Suffolk County, NY\n
-Davidson County, NC\n
-Person County, NC\n
+Bucks County, PA\n
 Erie County, PA\n
-Washington County, PA\n
-Kanawha County, WV\n
-Eau Claire, WI\n
+Washgington County, PA\n
+Washington County, TN\n
+Bexar County, TX\n
+Louisa County, VA\n
 \n
-General Fixes:\n
-Tried to resolve Map confusion resulting from ambiguous use of ST\n
-\n
-Not quite caught up on locations, but getting close.\n
+Alas, lots of new location requests, falling behind again :(\n
   </string>  
 </resources>
   
