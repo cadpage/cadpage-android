@@ -12,6 +12,9 @@ Contact: "Khaloughi, Kayman" <kkhaloughi@co.pg.md.us>
 Sender: @alert.princegeorgescountymd.gov - now
 Sender: @alert.co.pg.md.us - soon
 
+Incomplete, should be rejected
+B CAP BELT HWY ONRP NB I95 HWY, PP <0/, TGB3, 4112, Units:A712, BO886, MD712, PE712, SQ814
+
 Contact: Christopher Olson <lilsmokeeater5@yahoo.com>
 E812 Suicide, HAGERSTOWN HALL - UM 258, UM, at 258 ELLICOTT DR, UM, TGA2, 1210, Units:A812, E812, F121220001
 E816 Non-Emerg Service, BOWIE HEALTH CENTER, PP, at 15001 HEALTH CENTER DR, PP, TGA2, 1608, Unit:E816, F121220004
@@ -100,6 +103,10 @@ public class MDPrinceGeorgesCountyCParser extends FieldProgramParser {
     if (!parseFields(body.split(","), data)) return false;
     if (data.strUnit.length() == 0) data.strUnit = data.strSource;
     data.strAddress = AT_PTN.matcher(data.strAddress).replaceAll("&");
+    
+    // Truncated messages may confuse PP field for address
+    if (data.strAddress.length() < 5 || data.strAddress.contains("<")) return false;
+    
     return true;
   }
   
