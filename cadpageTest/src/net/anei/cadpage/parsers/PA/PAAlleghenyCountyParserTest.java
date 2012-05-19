@@ -24,7 +24,8 @@ public class PAAlleghenyCountyParserTest extends BaseParserTest {
         "APT:902",
         "X:S MAIN ST and 7TH ST",
         "SRC:NFD3",
-        "UNIT:265002 102EN1 111EN1 149EN1 191EN1",
+        "BOX:265002",
+        "UNIT:102EN1 111EN1 149EN1 191EN1",
         "INFO:CALLER REPORTING A STRONG SMELL OF \"SCHLAK\" PAINT OR AMMONIA IN THE BUILDING. CALLER WAS ADVISED TO EVAC");
         
     doTest("T2",
@@ -36,7 +37,8 @@ public class PAAlleghenyCountyParserTest extends BaseParserTest {
         "X:CHAPEL OAK RD and OLD MILL RD",
         "INFO:ON THE STREET / IN FRONT OF",
         "SRC:NFD3",
-        "UNIT:157001 102EN1 157EN1 172EN1");
+        "BOX:157001",
+        "UNIT:102EN1 157EN1 172EN1");
     
     doTest("T3",
         "ALLEGHENY COUNTY 911 :NGASCOM, F1, NATURAL GAS SMELL/LEAK COM BLDG, FREEPORT MEDICAL ASSOC, ASP, at 241 FREEPORT RD, ASP, SUITE 7-FOX CHAPEL DERMETOLOGY, btwn CENTER AVE and EASTERN AVE, NFD3, 102001, STRONG SMELL OF NATURAL GAS IN THE BLDG, Units:102EN1, 111EN2, 157RQ1, 191TK1, 260RQ1, 265TK1 - From 405 11/10/2010 10:02:01 TXT STOP to opt-out",
@@ -48,7 +50,8 @@ public class PAAlleghenyCountyParserTest extends BaseParserTest {
         "INFO:SUITE 7-FOX CHAPEL DERMETOLOGY / STRONG SMELL OF NATURAL GAS IN THE BLDG",
         "X:CENTER AVE and EASTERN AVE",
         "SRC:NFD3", 
-        "UNIT:102001 102EN1 111EN2 157RQ1 191TK1 260RQ1 265TK1");
+        "BOX:102001",
+        "UNIT:102EN1 111EN2 157RQ1 191TK1 260RQ1 265TK1");
         
      doTest("T4",   
         "ALLEGHENY COUNTY 911 :NGASRES, F1, NATURAL GAS SMELL/LEAK RES BLDG, 262 EMERSON RD, SHA, btwn JORDAN LN and HAWTHORNE RD, NFD3, 260001, NAT TXT STOP to opt-out",
@@ -58,7 +61,7 @@ public class PAAlleghenyCountyParserTest extends BaseParserTest {
         "CITY:SHALER", 
         "X:JORDAN LN and HAWTHORNE RD", 
         "SRC:NFD3", 
-        "UNIT:260001",
+        "BOX:260001",
         "INFO:NAT");
         
      doTest("T5",
@@ -69,7 +72,7 @@ public class PAAlleghenyCountyParserTest extends BaseParserTest {
         "CITY:SHARPSBURG", 
         "X:SHORT CANAL ST and PILGRIM WAY", 
         "SRC:NFD3", 
-        "UNIT:265001", 
+        "BOX:265001", 
         "INFO:STRON");
         
     doTest("T6",
@@ -80,7 +83,7 @@ public class PAAlleghenyCountyParserTest extends BaseParserTest {
         "CITY:ASPINWALL", 
         "X:RIVER OAKS DR and RIVER OAKS DR", 
         "SRC:NFD3", 
-        "UNIT:102001", 
+        "BOX:102001", 
         "INFO:74YOF CHEST");
         
     doTest("T7",
@@ -91,7 +94,8 @@ public class PAAlleghenyCountyParserTest extends BaseParserTest {
         "CITY:ROSS",
         "INFO:<310/ 0> / GARAGE ON FIRE", 
         "SRC:NFD3", 
-        "UNIT:247006 191001 102EN1 149EN1 191EN1 191TK1 240SQ1 247TK1 259EN1 260TK1 312RQ40");
+        "BOX:247006 191001",
+        "UNIT:102EN1 149EN1 191EN1 191TK1 240SQ1 247TK1 259EN1 260TK1 312RQ40");
 
     doTest("T8",
         ":FRVEH, F2, VEHICLE FIRE, 3541 LAKETON RD, PEN, btwn LINDBERG AVE and NELBON AVE, EFD1, 225001",
@@ -101,7 +105,7 @@ public class PAAlleghenyCountyParserTest extends BaseParserTest {
         "CITY:PENN HILLS",
         "X:LINDBERG AVE and NELBON AVE",
         "SRC:EFD1",
-        "UNIT:225001");
+        "BOX:225001");
 
     doTest("T9",
         "ALLEGHENY COUNTY 911 :QRS3, Q3, E-3 QRS / EMS ASSIST, 1000 ROSS PARK MALL DR, ROS, btwn ROSS PARK DR and CHERYL DR, CALIFORNIA PIZZA KITCHEN, NFD3, 24700",
@@ -112,7 +116,7 @@ public class PAAlleghenyCountyParserTest extends BaseParserTest {
         "X:ROSS PARK DR and CHERYL DR",
         "INFO:CALIFORNIA PIZZA KITCHEN",
         "SRC:NFD3",
-        "UNIT:24700");
+        "BOX:24700");
 
     doTest("T10",
         "ALLEGHENY COUNTY 911 :27D3S, E0, STABBING - CENTRAL WOUNDS, 612 CENTER AVE, ASP, btwn E 6TH ST and W 8TH ST, NMD1, E14004, Medical ProQA recommends dispatch at this time, Units:142, 269 - From 406 05/07/2011 02:34:31 TXT STOP to opt-out",
@@ -122,7 +126,8 @@ public class PAAlleghenyCountyParserTest extends BaseParserTest {
         "CITY:ASPINWALL",
         "X:E 6TH ST and W 8TH ST",
         "SRC:NMD1",
-        "UNIT:E14004 142 269");
+        "BOX:E14004",
+        "UNIT:142 269");
 
     doTest("T11",
         "ALLEGHENY COUNTY 911 :FRILL, F3, ILLEGAL FIRE, 5172 LOMBARDI DR, BWB, btwn SUNNY DR and END, SFD1, 104002, Units:104AST1, 104AST2 - From 701 02/23/2012 13:23:10",
@@ -132,7 +137,8 @@ public class PAAlleghenyCountyParserTest extends BaseParserTest {
         "CITY:BALDWIN",
         "X:SUNNY DR and END",
         "SRC:SFD1",
-        "UNIT:104002 104AST1 104AST2");
+        "BOX:104002",
+        "UNIT:104AST1 104AST2");
   }
   
   @Test
@@ -148,7 +154,8 @@ public class PAAlleghenyCountyParserTest extends BaseParserTest {
         "CITY:SOUTH FAYETTE",
         "X:END and MILLERS RUN RD",
         "SRC:SFD3",
-        "UNIT:268003 268EN1 268RQ1",
+        "BOX:268003",
+        "UNIT:268EN1 268RQ1",
         "INFO:CAR OVERTURNED");
    
   }
