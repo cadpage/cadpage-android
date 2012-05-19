@@ -1,6 +1,7 @@
 package net.anei.cadpage.parsers.CA;
 
 import java.util.Properties;
+import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
@@ -56,7 +57,12 @@ Loc: 814 OWL CT BBY BOX: 3535 C1 TYP: STRU CN: CASTLE,STACEY C#: (707) 875-9870 
 Loc: BLOOMFIELD RD/SUTTON ST BLO BOX: 3542 B4 TYP: HC CN: 8540 C#:  TYPE CODE: HC CALLER NAME: 8540 CALLER ADDR:  TIME: 20:39:02 COM:  veh in ditch and water start 8580
 BOX: 3437 TYP: VEG CN: VERIZON WIRELESS 800 451 5242 4 C#: (707) 321-9508 TYPE CODE: VEG CALLER NAME: VERIZON WIRELESS 800 451 5242 4 CALLER ADDR: 2885 BAY HILL RD BDGA BAY TIME: 12:33:30 COM:  N -122.9738 T 38.33546 METERS 41 RIGHT BEFORE THE BODEGA HWY TURN OFF SHE COULD NOT GIVE AN ADDRESS OR A MILE MARKER
 Loc: BBY: @HWY 1 MM012.42 BOX: 3332 B TYP: TC-EX CN: CHP LOG 344 C#:  TYPE CODE: TC-EX CALLER NAME: CHP LOG 344 CALLER ADDR:  TIME: 03:44:34 COM:  OVER TURNED VEH NEAR SALMON CREEK CONTROL 2 
-Loc: HWY 1/BODEGA HW BOD BOX: 3436 TYP: TC-EX CN: CHP C#:  TYPE CODE: TC-EX CALLER NAME: CHP CALLER ADDR:  TIME: 20:46:20 COM:  OVERTURNED VEH ON HWY 1, BETWEEN VALLEY FORD AND BODEGA HWY BAD CONNECTION WITH RP, PER CHP 
+Loc: HWY 1/BODEGA HW BOD BOX: 3436 TYP: TC-EX CN: CHP C#:  TYPE CODE: TC-EX CALLER NAME: CHP CALLER ADDR:  TIME: 20:46:20 COM:  OVERTURNED VEH ON HWY 1, BETWEEN VALLEY FORD AND BODEGA HWY BAD CONNECTION WITH RP, PER CHP
+
+Contact: support@active911.com
+[] EVENT: SON121380005 Loc: 91 NAPA RD SO,117: @VINTAGE AT SONOMA CN: SPRINT NEXTEL-CDMA 866-398-3284 EID: 4444104 TYP: MED CALLER ADDR: 4499 STAGE GULCH RD SNMA TIME: 13:45:54 COM:  N -122.4580 T 38.27444 METERS 41 FALL / HEAD INJURY ** Case number SON12001670 has been assigned for SON:F33 Unit 3382 requested case number SON12001670 ** >>>> by: ERIN GRACE on terminal: red2 87 YOM RT HIP PAIN CONTROL 4 ROOM 117 17 B 1 - G\n
+[] Loc: 4255 WARM SPRINGS RD GLE CN: ROSEWSKY HANS & ALICE EID: 4444131 TYP: MED CALLER ADDR: 4255 WARM SPRINGS RD TIME: 14:06:30 COM:  DIFF BREATHING DIZZY CONTROL 4 POSS CARBON MONOXIDE PROBLEM ** Case number SON12001671 has been assigned for SON:F33 ** Case number GLE12000125 has been assigned for GLE:F32 ** >>>> by: FRANCES ROSSITER on terminal: red6 Unit 3281 requested case number GLE12000125 Unit MED303 requested case number SON12001671 ** >>>> by: FRANCES ROSSITER on terminal: red6 WIFE, SON, FRIEND AND RP RP IS IN A HOSPITAL BED, CAN'T GET OUT THE FRIEND FELT DIZZY ALSO LAST NIGHT WAS COUGHING AND DIZZY, HIS O2 MACHINE ON ALL NIGHT\n
+[] Loc: RIDGEVIEW DR/MONTECITO LN SRO BOX: 2850 C2 CN: ROMERO JOHN C#: (707) 546-0315 TYP: STRU CALLER ADDR: 3333 MONTECITO LN TIME: 23:56:10 COM:  MULT CALLERS UNK TYPE FIRE CONTROL 3 RP ASSUMED IT WAS A STRU RP CONFIRMED A STRU ** Case number KWD12000080 has been assigned for KWD:F31 ** Case number SRS12009323 has been assigned for SRS:F71 ** >>>> by: JOE WAYT on terminal: red2 Unit 7580 requested case number SRS12009323 ** >>>> by: JOE WAYT on terminal: red2 Unit 3197 requested case number KWD12000080 TAC 5 ASSIGNED\n
 
  */
 
@@ -99,6 +105,7 @@ public class CASonomaCountyParser extends FieldProgramParser {
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
+    body = body.replace(" CN:COM ", " CN: COM:").replace(" CN:COM:", " CN: COM:");
     if (! super.parseMsg(body, data)) return false;
     if (data.strAddress.length() == 0) return false;
     data.strAddress = HW_PTN.matcher(data.strAddress).replaceAll("HWY");
@@ -162,11 +169,33 @@ public class CASonomaCountyParser extends FieldProgramParser {
     }
   }
   
+  private static final String JUNK_MARKER = " ** Case number";
+  private static final Pattern END_JUNK_PTN = Pattern.compile(" on terminal: \\w+ +| case number [A-Z]{3}[0-9]{8} +");
+  private class MyInfoField extends InfoField {
+    @Override
+    public void parse(String field, Data data) {
+      int pt = field.indexOf(" **");
+      if (pt >= 0) {
+        String tail = field.substring(pt);
+        if (tail.startsWith(JUNK_MARKER) || JUNK_MARKER.startsWith(tail)) {
+          field = field.substring(0,pt).trim();
+          Matcher match = END_JUNK_PTN.matcher(tail);
+          pt = tail.length();
+          while (match.find()) pt = match.end();
+          field = append(field, " - ", tail.substring(pt).trim());
+            
+        }
+      } else if (field.equals("**")) field = "";
+      super.parse(field, data);
+    }
+  }
+  
   @Override
   public Field getField(String name) {
     if (name.equals("ADDR")) return new MyAddressField();
     if (name.equals("ADDR2")) return new MyAddress2Field();
     if (name.equals("TIME")) return new MyTimeField();
+    if (name.equals("INFO")) return new MyInfoField();
     return super.getField(name);
   }
 }
