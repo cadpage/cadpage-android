@@ -114,6 +114,13 @@ public class NYOrleansCountyParserTest extends BaseParserTest {
         "CITY:YATES",
         "INFO:73 YOF CANCER PT",
         "CODE:1-A-1");
+
+    doTest("T14",
+        "OCDISPATCH@ORLEANSNY.COM ALS ONLY RESPONSE; 8462 RIDGE HAR; 66 YOM POSS STROKE TXT STOP to opt-out",
+        "CALL:ALS ONLY RESPONSE",
+        "ADDR:8462 RIDGE",
+        "CITY:HARTLAND",
+        "INFO:66 YOM POSS STROKE");
  }
   
   public static void main(String[] args) {

@@ -283,6 +283,92 @@ public class TXMontgomeryCountyParserTest extends BaseParserTest {
         "MADDR:I 45 N & RAYFORD RD");
   }
   
+  @Test
+  public void testActive911() {
+
+    doTest("T1",
+        "(Nature: 02C01-ALLERGIC REACTION - Difficulty bre) New Fire Run: 2012-13412,,E112,Location: 29048 SAN BERNARD RIVER LOOP,Building: ,Cross: ,,Grid: 253Y,Map: 5373,.",
+        "ID:2012-13412",
+        "CALL:02C01-ALLERGIC REACTION - Difficulty bre",
+        "UNIT:E112",
+        "ADDR:29048 SAN BERNARD RIVER LOOP");
+
+    doTest("T2",
+        "(Nature: 21B02-HEMORRHAGE/LACERATIONS - Serious H) New Fire Run: 2012-13430,,B113,Location: 26014 LEAFYWOOD DR,Building: ,Cross: ,,Grid: 252P,Map: 5173,.",
+        "ID:2012-13430",
+        "CALL:21B02-HEMORRHAGE/LACERATIONS - Serious H",
+        "UNIT:B113",
+        "ADDR:26014 LEAFYWOOD DR");
+
+    doTest("T3",
+        "(Nature: 29-MVA - PRE-ALERT) New Fire Run: 2012-13431,,L111,Location: 25602 INTERSTATE 45 N,Building: ,Cross: ,,Grid: 252S,Map: 5173,.",
+        "ID:2012-13431",
+        "CALL:29-MVA - PRE-ALERT",
+        "UNIT:L111",
+        "ADDR:25602 INTERSTATE 45 N");
+
+    doTest("T4",
+        "(Nature: F04A-AUTOMATIC ALARM PULL) New Fire Run: 2012-13376,,E111,Location: 24717 OAKHURST DR-SC,Building: KINDERCARE LEARNING C,Cross: 25078 I45 N-SC,,Grid: 252W,Map: 5172,.",
+        "ID:2012-13376",
+        "CALL:F04A-AUTOMATIC ALARM PULL",
+        "UNIT:E111",
+        "ADDR:24717 OAKHURST DR",
+        "CITY:SPRING",
+        "PLACE:KINDERCARE LEARNING C",
+        "X:25078 I45 N");
+
+    doTest("T5",
+        "(Nature: 21D02-HEMORRHAGE/LACERATION - Not Alert) New Fire Run: 2012-13401,,B113,Location: 25807 WOODGLEN DR,Building: ,Cross: ,,Grid: 252T,Map: 5173,.",
+        "ID:2012-13401",
+        "CALL:21D02-HEMORRHAGE/LACERATION - Not Alert",
+        "UNIT:B113",
+        "ADDR:25807 WOODGLEN DR");
+
+    doTest("T6",
+        "(Nature: F06-CHILD LOCKED IN A VEHICLE) New Fire Run: 2012-13384,,E113,Location: I45 N-OR/ROBINSON RD-OR,Building: ,Cross: 27000 I45 N-OR,,Grid: 252J,Map: 5174,.",
+        "ID:2012-13384",
+        "CALL:F06-CHILD LOCKED IN A VEHICLE",
+        "UNIT:E113",
+        "ADDR:I45 N & ROBINSON RD",
+        "MADDR:I 45 N & ROBINSON RD",
+        "CITY:OAK RIDGE",
+        "X:27000 I45 N");
+
+    doTest("T7",
+        "(Nature: 10C04-CHEST PAIN - Breathing Normally =>) New Fire Run: 2012-13343,,E114,Location: 1619 EASTVALE DR,Building: ,Cross: ,,Grid: 252U,Map: 5273,.",
+        "ID:2012-13343",
+        "CALL:10C04-CHEST PAIN - Breathing Normally =>",
+        "UNIT:E114",
+        "ADDR:1619 EASTVALE DR");
+
+    doTest("T8",
+        "(Nature: 17B01G-FALL on the Ground or Floor - Pos) New Fire Run: 2012-13370,,B113,Location: 26523 HILLSIDE DR,Building: ,Cross: ,,Grid: 252J,Map: 5173,.",
+        "ID:2012-13370",
+        "CALL:17B01G-FALL on the Ground or Floor - Pos",
+        "UNIT:B113",
+        "ADDR:26523 HILLSIDE DR");
+
+    doTest("T9",
+        "(Nature: F18-LIVE WIRES DOWN) New Fire Run: 2012-13449,,E114,Location: 2359 HICKORY HOLLOW LN-SC,Building: ,Cross: 29702 WILD ROSE DR-S,Grid: 252Z,Map: 5272,.",
+        "ID:2012-13449",
+        "CALL:F18-LIVE WIRES DOWN",
+        "UNIT:E114",
+        "ADDR:2359 HICKORY HOLLOW LN",
+        "CITY:SPRING",
+        "X:29702 WILD ROSE DR");
+
+    doTest("T10",
+        "(Nature: F16-VEHICLE EXTRICATION) New Fire Run: 2012-13333,,E111,Location: 25186 I45 N-SC,Building: ,Cross: 102 RAYFORD FOREST L,Grid: 252S,Map: 5173,.",
+        "ID:2012-13333",
+        "CALL:F16-VEHICLE EXTRICATION",
+        "UNIT:E111",
+        "ADDR:25186 I45 N",
+        "MADDR:25186 I 45 N",
+        "CITY:SPRING",
+        "X:102 RAYFORD FOREST L");
+
+  }
+  
   public static void main(String[] args) {
     new TXMontgomeryCountyParserTest().generateTests("T1");
   }
