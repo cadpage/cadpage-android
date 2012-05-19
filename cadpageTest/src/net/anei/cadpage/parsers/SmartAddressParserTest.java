@@ -44,6 +44,15 @@ public class SmartAddressParserTest extends BaseParserTest {
   @Test
   public void testProblems() {
     
+    doTest(ADDR, "22576 MACARTHUR BL SUITE 354",
+           "ADDR:22576 MACARTHUR BL",
+           "APT:354");
+    
+    doTest(ADDR, "200 N 11 ST SUITE: APT 5 KENSBURG",
+           "ADDR:200 N 11 ST",
+           "APT:APT 5",
+           "CITY:KENSBURG");
+    
     doTest(CALL, FLAG_START_FLD_REQ, "CHEST PAIN - BREATH NORMAL=>35 5125 W RIDGE RD",
            "CALL:CHEST PAIN - BREATH NORMAL=>35",
            "ADDR:5125 W RIDGE RD");

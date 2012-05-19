@@ -52,8 +52,8 @@ public class MDDorchesterCountyParserTest extends BaseParserTest {
         "DOR911:CT:SICK PERSON 5226 WOODS RD @CAMBRIDGE CLUB APT 6 APT 6127 CAMB BOX:1-1 DUE: P101 RS1-1 :DC",
         "CALL:SICK PERSON",
         "ADDR:5226 WOODS RD",
-        "PLACE:CAMBRIDGE CLUB APT 6",
-        "APT:6127",
+        "PLACE:CAMBRIDGE CLUB",
+        "APT:6 APT 6127",
         "CITY:CAMBRIDGE",
         "BOX:1-1",
         "UNIT:P101 RS1-1");
