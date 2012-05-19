@@ -43,7 +43,7 @@ public class DispatchA6Parser extends SmartAddressParser {
     super(cityCodes, defCity, defState);
   }
   
-  private static final Pattern LEAD_DATE_PAT = Pattern.compile("^(?:([A-Z0-9]+) )?(?:([-A-Z0-9]+) )?(?:\\d\\d/\\d\\d/\\d\\d|\\^) ");
+  private static final Pattern LEAD_DATE_PAT = Pattern.compile("^(?:([- A-Z0-9]+) )?(?:\\d\\d/\\d\\d/\\d\\d|\\^) ");
   private static final Pattern TRAIL_TIME_PAT = Pattern.compile(" \\d{4},\\d{3} *$");
   private static final Pattern MID_ID_PAT = Pattern.compile(" :\\( *(\\d*) *\\) ");
   
@@ -54,7 +54,6 @@ public class DispatchA6Parser extends SmartAddressParser {
     if (!match.find()) return false;
     body = body.substring(match.end()).trim();
     data.strCall = getOptGroup(match.group(1));
-    data.strUnit = getOptGroup(match.group(2));
     
     match = TRAIL_TIME_PAT.matcher(body);
     if (match.find()) body = body.substring(0, match.start()).trim();

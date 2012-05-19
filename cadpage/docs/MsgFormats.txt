@@ -597,6 +597,20 @@ Monmouth County, NJ (NJMonmouthCountyAParser)
 (<MCSOZD2@MCSONJ.ORG>) S:Automatic R&R Notification\nIncident Number  : 2012-00000042                    ORI: 26-2          Station: STA 26-2  \nIncident Type  . : FIRS F FIRE STRUC           Priority: 1  \nIncident Location: 90 OAKLAND MILLS RD                                  Venue: MANALAPAN  \nLocated Between  : MILL RD/ \n\nCall Time- 17:25:27                                Date- 01/19/2012  \nDispatch -              En-route-              On-scene-              Depart 1-  \nArrive 2 -              Depart 2-              In-statn- \n\nArea: 26A4              Section :   33         Beat  . : 26A4        Map . . :  \nGrid:                   Quadrant: 262S         District: E262 \n\nPhone Number: (732) 308-4591                Call Source:  911 \n\nCaller. . . : ROB YUHAS \n\nNature of Call : CHIMNEY FIRE/ ADVISED TO EVACUATE \n\nAdditional Info  \n  RESD: \n\nAdditional Inc#s: \n\nThe Call Taker is DALY EVAN  \nThe Dispatcher is BRUNO CHRISTOPHER
 *******************************************************************************
 *******************************************************************************
+* DispatchA6Parser subclasses
+*******************************************************************************
+***************************************************************************
+Peoria County, IL (ILPeoriaCountyParser)
+12/23/10 1223 N MURPHY RD CO :(12100) W JO DAN CT JUST N OF HERE, SEES ALOT OF BLK SMOKE 1137,006
+12/26/10 2800 S ZESSIN RD CO :(20200) W MC DONALD RD 84 YOM CARRYING SOMETHING IN GARAGE, FELL BACKWARD, HIT HEAD ON CONCRETE, C/A/B OK
+12/27/10 533 N BRAD CT HC :( 600) N PEKIN LN 82 YO MALE FELL HAS HEAD AND HIP INJ NO BLEEDING 1527,004
+***************************************************************************
+St Joseph County, IN (INStJosephCountyParser)
+[!] MEDIC021 ^ 11035 MC*KINLEY HW PE :(55500) BEECH RDFEMALE FELL 0958,006PENN4 
+[!] MEDIC021 ^ 11311 BIRCHWAY DR PE :(55730) BIRCH RDF PASSED OUT 0332,014ME12 ,PENN4 5/10/2012 18:19 
+[!] 1 MEDIC021 ^ 60101 BODNAR ST PE :(14100) JACKSON RDIN LOT M FALL 1752,006ME10 ,PENN1VERIFY NAME OF THE BUSINESS 10/29/09 NJL 5/10/2012 15:55 
+*******************************************************************************
+*******************************************************************************
 * DispatchGeoconxParser subclasses
 *******************************************************************************
 *******************************************************************************
@@ -1135,11 +1149,6 @@ Kankakee County, IL
 [NWS Message]  ALARM:FIRE Location: KANKAKEE TERRACE 100 BELLE AIRE AVE Bourbonnais 05/27/11 05:29 Incident #: 2011-00001016
 [NWS Message]  SMOKE/ODOR Location: COURT STREET FORD 558 WILLIAM LATHAM DR Bourbonnais 05/09/11 15:57 Incident #: 2011-00000889
 [NWS Message]  WIRES DOWN Location: 968 N 2750E RD Kankakee 05/30/11 11:09 Incident #: 2011-00000111
-***************************************************************************
-Peoria County, IL (ILPeoriaCountyParser)
-12/23/10 1223 N MURPHY RD CO :(12100) W JO DAN CT JUST N OF HERE, SEES ALOT OF BLK SMOKE 1137,006
-12/26/10 2800 S ZESSIN RD CO :(20200) W MC DONALD RD 84 YOM CARRYING SOMETHING IN GARAGE, FELL BACKWARD, HIT HEAD ON CONCRETE, C/A/B OK
-12/27/10 533 N BRAD CT HC :( 600) N PEKIN LN 82 YO MALE FELL HAS HEAD AND HIP INJ NO BLEEDING 1527,004
 ***************************************************************************
 Rock Island County, IL (ILRockIslandCountyParser)
 @RIFD: 15221:;CRASH PERSONAL INJURIES;24TH ST/18TH AV
@@ -4332,13 +4341,8 @@ MON
 St Joseph County, IN
 Contact: Eric Yoder <pennfire38@sbcglobal.net>
 Sender: rc.425@c-msg.net
-Needs to be cleaned up somehow!
-Subject:CAD\n[!] ->Inc Addr = 00017 RIVERCREST DREquip = PENN4Create = 16 17 39Asgned = 16 19 43Eroute = 16 20 40Scene = 16 27 13Tran\n
-Subject:CAD\nsp =Arrive =Avail = 16 29 04Rpt # = 11-21000478\n
 Subject:CAD\n[!] ^ 11425 MCKINLEY HW PE :(55231) BELAIR STGAS LEAK FROM PUTING IN A POST 1626,006NIPSCO 1627,014PEN4A\n
-Subject:CAD\n87, PREMISE # 1619,006574-674-9624 NO KEYHOLDER AT THIS TIME 1619,006OSCEO,ME12 ,PENN4\n
 Subject:CAD\n[!] ^ 17 RIVERCREST DR OS :( 600) N BEECH RDFROM MEDICAL ALARM COMP UNK MED 1617,006CALL BACK # TO ALARM COMP 800-325-17\n
-Subject:CAD\nrrive =Avail = 11 18 45Rpt # = 11-21000477\n
 
 Contact: Tyler Heckaman <ty.heckaman@gmail.com>
 Subject:CAD\n[!] CRASH021 ^ 2 BYPASS HW PE :(60000) ELM RD2 VEH UNK INJ 0613,010ME10 ,PENN1 
