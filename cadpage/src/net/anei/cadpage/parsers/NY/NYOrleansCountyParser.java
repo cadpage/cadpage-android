@@ -36,6 +36,7 @@ Contact: "jeffelsenheimer@yahoo.com" <jeffelsenheimer@yahoo.com>
 (FrmFireCntrl1) ALS ONLY RESPONSE; 28 MAIN ST MDL; MEDINA ALS 83 YOF ABDOMINAL PAIN
 (FrmFireCntrl3) ACCIDENT VEH PDO; 1355 YATES CARLTON TL RD TCR; ATV ROLLOVER, NO PT FOUND COVA/CAFD
 OCDISPATCH@ORLEANSNY.COM ABDOMINAL PAIN /PROBLEMS; 2103 NIA ORL CTYLINE RD TYA; 73 YOF CANCER PT   1-A-1 TXT STOP to opt-out
+OCDISPATCH@ORLEANSNY.COM ALS ONLY RESPONSE; 8462 RIDGE HAR; 66 YOM POSS STROKE TXT STOP to opt-out
 
 */
 
@@ -95,17 +96,18 @@ public class NYOrleansCountyParser extends MsgParser {
       "BAR", "ALBION", 
       "TGN", "ALBION", 
       "TCR", "CARLTON",
+      "TGP", "GASPORT",  
+      "HAR", "HARTLAND",
+      "VHL", "HOLLEY", 
+      "TMR", "HOLLEY", 
+      "TCL", "HOLLEY",
+      "TKN", "KENDALL", 
       "VLD", "LYNDONVILLE", 
       "YAT", "LYNDONVILLE",
       "VMD", "MEDINA", 
       "TRW", "MEDINA", 
       "TSH", "MEDINA",
-      "VHL", "HOLLEY", 
-      "TMR", "HOLLEY", 
-      "TCL", "HOLLEY",
-      "TKN", "KENDALL", 
-      "TGP", "GASPORT",  
-      "TYA", "YATES",
-      "MDL", "MIDDLEPORT"
+      "MDL", "MIDDLEPORT",
+      "TYA", "YATES"
   });
 }
