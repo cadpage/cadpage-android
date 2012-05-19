@@ -39,6 +39,9 @@ ALLEGHENY COUNTY 911 :FRILL, F3, ILLEGAL FIRE, 5172 LOMBARDI DR, BWB, btwn SUNNY
 
 Contact: support@active911.com
 (268 Station) 29D2P, F0, TRAFFIC-HIGH MECHANISM (ROLLOVER), BRIDGEVILLE EXIT, SFT, at 54 SB I-79 OFRP MILLERS RUN RD RMP, SFT, btwn END and MILLERS RUN RD, SFD3, 268003, CAR OVERTURNED, Units:268EN1, 268RQ1 - From 703 01/31/2012 19:18:34
+  :FRCOM1, 1A, FIRE COM BLDG - FLAMES AND/OR ENTRAPMENT, 3185 BABCOCK BLVD, ROS, btwn OAKGLEN RD and EVERGREEN RD, NFD3, 253001, F120033786, COMP STATING RIGHT IN FRONT OF WEST PENN BILLIARDS THERE IS A BUILDING ON FIRE// CAN SEE SMOKE AND FLAMES, Unit:247EN1 - From 405 05/18/2012 13:54:25
+  :29B1, Q1, TRAFFIC -WITH INJURIES, POST OFFICE ROS - MCKNIGHT 15237, ROS, at 4981 MCKNIGHT RD, ROS, US POST OFFICE, btwn MCKNIGHT CIR and SB MKNGHT RD OFRP SIEBERT RD, NFD3, 247004, F120033283, 2 CAR MVC... IN LOT OF POST OFFICE...  NO INJURIES, Units:247EN1, 312RQ40 - From 405 05/16/2012 13:49:00
+
 
 */
 
@@ -47,7 +50,7 @@ public class PAAlleghenyCountyParser extends MsgParser {
   private static final String MARKER = "ALLEGHENY COUNTY 911 :";
   
   // Run ID consists of one or two 6+ digit numbers
-  private static final Pattern UNIT_PTN = Pattern.compile("E?\\d{5,}(?: +E?\\d{5,})*");
+  private static final Pattern BOX_PTN = Pattern.compile("E?\\d{5,}(?: +E?\\d{5,})*");
   
   public PAAlleghenyCountyParser() {
     super("ALLEGHENY COUNTY", "PA");
@@ -129,10 +132,10 @@ public class PAAlleghenyCountyParser extends MsgParser {
         data.strCross = fld.substring(5).trim();
         continue;
       }
-      if (UNIT_PTN.matcher(fld).matches()) {
+      if (BOX_PTN.matcher(fld).matches()) {
         if (source != null) data.strSource = append(data.strSource, " ", source);
         source = null;
-        data.strUnit = append(data.strUnit, " ", fld);
+        data.strBox = append(data.strBox, " ", fld);
         break;
       }
       if (source != null) {
