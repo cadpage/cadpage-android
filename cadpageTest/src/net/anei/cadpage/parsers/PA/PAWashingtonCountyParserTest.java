@@ -245,7 +245,7 @@ public class PAWashingtonCountyParserTest extends BaseParserTest {
         "ADDR:75 BEATTY LN",
         "CITY:NORTH BETHLEHEM TWP",
         "X:GARRETT RD & FARM LN",
-        "CALL:FIRST",
+        "CALL:STRUCTURE FIRE",
         "TIME:23:13:21");
     
   }
@@ -259,13 +259,13 @@ public class PAWashingtonCountyParserTest extends BaseParserTest {
         "CITY:CECIL TWP",
         "PLACE:EST",
         "X:CIAFFONI RD & BURNSIDE RD",
-        "CALL:RDCLS",
+        "CALL:ROAD CLOSURE",
         "TIME:22:14:11");
 
     doTest("T2",
         "[] (911) Xsts: WEAVERTOWN LN MILLERS RUN RD Type: ACCIN Time: 12:17:20 Loc Com:\n",
         "ADDR:WEAVERTOWN LN & MILLERS RUN RD",  // Not mapping
-        "CALL:ACCIN",
+        "CALL:ACCIDENT W/INJURIES",
         "TIME:12:17:20");
 
     doTest("T3",
@@ -273,7 +273,7 @@ public class PAWashingtonCountyParserTest extends BaseParserTest {
         "ADDR:52 CARLISLE ST",
         "CITY:CECIL TWP",
         "X:2ND ST & 3RD ST",
-        "CALL:MUTAF",
+        "CALL:MUTUAL AID REQUEST",
         "TIME:15:49:08");
 
     doTest("T4",
@@ -290,7 +290,7 @@ public class PAWashingtonCountyParserTest extends BaseParserTest {
         "ADDR:27 HIGHLAND DR",
         "CITY:CECIL TWP",
         "X:SR 980 & PROFIO RD",
-        "CALL:FIRAL",
+        "CALL:FIRE ALARM",
         "TIME:13:58:32",
         "INFO:MARKOVIC RES 724-9262427");
 
@@ -300,9 +300,141 @@ public class PAWashingtonCountyParserTest extends BaseParserTest {
         "CALL:STRUCTURE FIRE",
         "TIME:22:27:03");
 
+    doTest("T7",
+        "[] (911) Location: 232 RAILROAD ST CECI Xstreet: JOHNSTON ST DEAD END TYPE: UNCONSCIOUS PT / IS BREATHING TIME: 22:36:33 Comments:\n",
+        "ADDR:232 RAILROAD ST",
+        "CITY:CECIL TWP",
+        "X:JOHNSTON ST DEAD END",
+        "CALL:UNCONSCIOUS PT / IS BREATHING",
+        "TIME:22:36:33");
+
+    doTest("T8",
+        "[] (911) Location: 3351 MILLERS RUN RD CECI: @FD 10 CECIL Xstreet: NUGENT ST COLEMAN RD TYPE: MUTUAL AID REQUEST TIME: 16:25:10 Comments:\n",
+        "ADDR:3351 MILLERS RUN RD",
+        "CITY:CECIL TWP",
+        "PLACE:FD 10 CECIL",
+        "X:NUGENT ST & COLEMAN RD",
+        "CALL:MUTUAL AID REQUEST",
+        "TIME:16:25:10");
+
+    doTest("T9",
+        "[] (911) Location: 3351 MILLERS RUN RD CECI: @FD 10 CECIL Xstreet: NUGENT ST COLEMAN RD TYPE: MUTUAL AID REQUEST TIME: 16:25:10 Comments:\n",
+        "ADDR:3351 MILLERS RUN RD",
+        "CITY:CECIL TWP",
+        "PLACE:FD 10 CECIL",
+        "X:NUGENT ST & COLEMAN RD",
+        "CALL:MUTUAL AID REQUEST",
+        "TIME:16:25:10");
+
+    doTest("T10",
+        "[] (911) Location: 1000 CORPORATE DR CECI: @HILTON GARDEN INN Xstreet: KLINGER RD DEAD END TYPE: FIRE ALARM TIME: 06:57:37 Comments:\n",
+        "ADDR:1000 CORPORATE DR",
+        "CITY:CECIL TWP",
+        "PLACE:HILTON GARDEN INN",
+        "X:KLINGER RD DEAD END",
+        "CALL:FIRE ALARM",
+        "TIME:06:57:37");
+
+    doTest("T11",
+        "[] (911) Location: 1029 MAYFAIR DR CECI Xstreet: GREENFIELD DR FIELDSTONE DR TYPE: FIRE ALARM TIME: 09:01:11 Comments:\n",
+        "ADDR:1029 MAYFAIR DR",
+        "CITY:CECIL TWP",
+        "X:GREENFIELD DR & FIELDSTONE DR",
+        "CALL:FIRE ALARM",
+        "TIME:09:01:11");
+
+    doTest("T12",
+        "[] (911) Location: 11 HICKORY GRADE RD CECI Xstreet: CECIL HENDERSON RD ANDREIS LN TYPE: ODOR OF NATURAL GAS TIME: 13:11:16 Comments:\n",
+        "ADDR:11 HICKORY GRADE RD",
+        "CITY:CECIL TWP",
+        "X:CECIL HENDERSON RD & ANDREIS LN",
+        "CALL:ODOR OF NATURAL GAS",
+        "TIME:13:11:16");
+
+    doTest("T13",
+        "[] (911) Loc: 323 MUSE BISHOP RD CECI: EST Xsts: CIAFFONI RD BURNSIDE RD Type: RDCLS Time: 22:14:11 Loc Com:\n",
+        "ADDR:323 MUSE BISHOP RD",
+        "CITY:CECIL TWP",
+        "PLACE:EST",
+        "X:CIAFFONI RD & BURNSIDE RD",
+        "CALL:ROAD CLOSURE",
+        "TIME:22:14:11");
+
+    doTest("T14",
+        "[] (911) Loc: 545 MUSE BISHOP RD CECI Xsts: CUMER RD MCCONNELL RD Type: ACCUN Time: 20:41:52 Loc Com:\n",
+        "ADDR:545 MUSE BISHOP RD",
+        "CITY:CECIL TWP",
+        "X:CUMER RD & MCCONNELL RD",
+        "CALL:ACCIDENT W/UNK INJURIES",
+        "TIME:20:41:52");
+
+    doTest("T15",
+        "[] (911) Location: 307 ROSEWOOD DR CECI Xstreet: RIDGEWOOD DR RIDGEWOOD DR TYPE: FIRE ALARM TIME: 14:59:51 Comments: SHAWN KELLY\n",
+        "ADDR:307 ROSEWOOD DR",
+        "CITY:CECIL TWP",
+        "X:RIDGEWOOD DR & RIDGEWOOD DR",
+        "CALL:FIRE ALARM",
+        "TIME:14:59:51",
+        "INFO:SHAWN KELLY");
+
+    doTest("T16",
+        "[] (911) Loc: 27 HIGHLAND DR CECI Xsts: SR 980 PROFIO RD Type: FIRAL Time: 13:58:32 Loc Com: MARKOVIC RES 724-9262427\n",
+        "ADDR:27 HIGHLAND DR",
+        "CITY:CECIL TWP",
+        "X:SR 980 & PROFIO RD",
+        "CALL:FIRE ALARM",
+        "TIME:13:58:32",
+        "INFO:MARKOVIC RES 724-9262427");
+
+    doTest("T17",
+        "[] (911) Xsts: WEAVERTOWN LN MILLERS RUN RD Type: ACCIN Time: 12:17:20 Loc Com:\n",
+        "ADDR:WEAVERTOWN LN & MILLERS RUN RD",  // Google can't find
+        "CALL:ACCIDENT W/INJURIES",
+        "TIME:12:17:20");
+
+    doTest("T18",
+        "[] (911) Xsts: CUMER RD BERNARDI LN Type: FIRE Time: 11:45:58 Loc Com: ON CUMER...1/2MI FROM MUSE BISHOP\n",
+        "ADDR:CUMER RD & BERNARDI LN",
+        "CALL:FIRE",
+        "TIME:11:45:58",
+        "INFO:ON CUMER...1/2MI FROM MUSE BISHOP");
+
+    doTest("T19",
+        "[] (911) Loc: 1000 CORPORATE DR CECI: @HILTON GARDEN INN Xsts: KLINGER RD DEAD END Type: FIRAL Time: 17:58:17 Loc Com:\n",
+        "ADDR:1000 CORPORATE DR",
+        "CITY:CECIL TWP",
+        "PLACE:HILTON GARDEN INN",
+        "X:KLINGER RD DEAD END",
+        "CALL:FIRE ALARM",
+        "TIME:17:58:17");
+
+    doTest("T20",
+        "[] (911) Loc: 27 HIGHLAND DR CECI Xsts: SR 980 PROFIO RD Type: FIRAL Time: 13:58:32 Loc Com: MARKOVIC RES 724-9262427\n",
+        "ADDR:27 HIGHLAND DR",
+        "CITY:CECIL TWP",
+        "X:SR 980 & PROFIO RD",
+        "CALL:FIRE ALARM",
+        "TIME:13:58:32",
+        "INFO:MARKOVIC RES 724-9262427");
+
+    doTest("T21",
+        "[] (911) Loc: 1000 CORPORATE DR CECI: @HILTON GARDEN INN Xsts: KLINGER RD DEAD END Type: FIRAL Time: 17:58:17 Loc Com:\n",
+        "ADDR:1000 CORPORATE DR",
+        "CITY:CECIL TWP",
+        "PLACE:HILTON GARDEN INN",
+        "X:KLINGER RD DEAD END",
+        "CALL:FIRE ALARM",
+        "TIME:17:58:17");
+
+    doTest("T22",
+        "[911] Xsts: SLATEMORE DR MILLERS RUN RD Type: ACCIN Time: 17:48:51 Loc Com:\n",
+        "ADDR:SLATEMORE DR & MILLERS RUN RD", // Google can't find - reported
+        "CALL:ACCIDENT W/INJURIES",
+        "TIME:17:48:51");
+
   }
   
   public static void main(String[] args) {
-    new PAWashingtonCountyParserTest().generateTests("T1");
+    new PAWashingtonCountyParserTest().generateTests("T7");
   }
 }
