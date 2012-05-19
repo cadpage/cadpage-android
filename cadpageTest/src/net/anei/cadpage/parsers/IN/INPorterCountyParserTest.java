@@ -207,6 +207,25 @@ public class INPorterCountyParserTest extends BaseParserTest {
         "SRC:PM",
         "PRI:1",
         "INFO:I 94 WESTBOUND 22 M");
+
+    doTest("T16",
+        "(CAD Page) #120065003 - \n" +
+        "F35P1:\n" +
+        "EMS AST-P1 @ 1118 WINTER PARK DR,LBT\n" +
+        "CROSS: btwn ASPEN DR and SUN VALLEY DR\n" +
+        "GRP:LF\n" +
+        "PRI:1\n" +
+        "comment: Medical ProQA recommends di",
+
+        "ID:120065003",
+        "UNIT:F35P1",
+        "CALL:EMS AST-P1",
+        "ADDR:1118 WINTER PARK DR",
+        "CITY:Liberty Twp",
+        "X:ASPEN DR and SUN VALLEY DR",
+        "SRC:LF",
+        "PRI:1",
+        "INFO:Medical ProQA recommends di");
   }
   
   public static void main(String[] args) {

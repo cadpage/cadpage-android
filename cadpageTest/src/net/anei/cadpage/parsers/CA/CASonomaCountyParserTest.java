@@ -143,7 +143,7 @@ public class CASonomaCountyParserTest extends BaseParserTest {
         "CALL:TC-EX",
         "NAME:CHP LOG 721",
         "TIME:10:44:33",
-        "INFO:CRO 3 ** Case number SRS11016088 has been assigned fo");
+        "INFO:CRO 3");
 
     doTest("T14",
         "Loc: 2055 RANGE AV SR,326: @LAMPLIGHTERS SENIOR CITIZEN INN BOX: 2848 D3 CN: MCNEIL K C#: (707) 528-6259 TYP: FA-RES CALLER ADDR: 2055 RANGE AV TIME: 22:39:  ",
@@ -167,7 +167,7 @@ public class CASonomaCountyParserTest extends BaseParserTest {
         "CALL:STRU",
         "APT:12",
         "TIME:17:46:46",
-        "INFO:apt 12 ** Case number SRS11015986 has been");
+        "INFO:apt 12");
 
     doTest("T16",
         "Loc: BEL: @NB 101 NO TODD BOX: 3149 C4 CN:  C#:  TYP: TC-EX CALLER ADDR:  TIME: 08:36:59 COM:  VEH OVERTURNED ** Case number SRS11015469 has been assigned f  ",
@@ -177,7 +177,7 @@ public class CASonomaCountyParserTest extends BaseParserTest {
         "BOX:3149 C4",
         "CALL:TC-EX",
         "TIME:08:36:59",
-        "INFO:VEH OVERTURNED ** Case number SRS11015469 has been assigned f");
+        "INFO:VEH OVERTURNED");
 
     doTest("T17",
         "Loc: 2350 MCBRIDE LN SR,C9: @MCBRIDE APTS BOX: 2848 D2 CN: GUTIERREZ A C#: (707) 576-7446 TYP: GAS-IN CALLER ADDR: 2350 MC BRIDE LN TIME: 22:04:37 COM:  **  ",
@@ -189,8 +189,7 @@ public class CASonomaCountyParserTest extends BaseParserTest {
         "NAME:GUTIERREZ A",
         "PHONE:(707) 576-7446",
         "APT:C9",
-        "TIME:22:04:37",
-        "INFO:**");
+        "TIME:22:04:37");
 
     doTest("T18",
         "Loc: WALKER AV/TODD RD BEL BOX: 3247 A CN:  C#:  TYP: STRU CALLER ADDR:  TIME: 02:07:14 COM:  FLAMES SEEN RP FROM 5002 LLANO RD APPEARS TO BE SPREADING ** C  ",
@@ -200,7 +199,7 @@ public class CASonomaCountyParserTest extends BaseParserTest {
         "BOX:3247 A",
         "CALL:STRU",
         "TIME:02:07:14",
-        "INFO:FLAMES SEEN RP FROM 5002 LLANO RD APPEARS TO BE SPREADING ** C");
+        "INFO:FLAMES SEEN RP FROM 5002 LLANO RD APPEARS TO BE SPREADING");
 
     doTest("T19",
         "Loc: 555 1ST ST SR: @LOT 12 BOX: 2949 D1 CN: BARRY C#: 1-800-470-1000 TYP: FA-WF CALLER ADDR: BAY ALARM TIME: 13:51:38 COM:  CONTROL 3 WATER FLOW 6 INCH MAI  ",
@@ -273,7 +272,7 @@ public class CASonomaCountyParserTest extends BaseParserTest {
         "CALL:MED",
         "PHONE:(707) 939-9366",
         "TIME:01:38:32",
-        "INFO:HIGH BP FEELING ILL ** Case number SON11002627 has bee");
+        "INFO:HIGH BP FEELING ILL");
 
     doTest("T26",
         "Loc: 1850 SPERRING RD SCH BOX: 3759 B1 CN: STANLEY 877 476 4968 C#: (707) 933-9300 TYP: FA-RES CALLER ADDR:  TIME: 09:26:52 COM:  SMOKE DETECTOR HALLWAY CON",
@@ -328,14 +327,14 @@ public class CASonomaCountyParserTest extends BaseParserTest {
         "ADDR:4000 D ST",
         "SRC:PET",
         "BOX:4052 D",
-        "NAME:COM  N -122.6389 T 38.19909 METERS 16 CONTORL 4 SMALL BUT GROWING **");
+        "INFO:N -122.6389 T 38.19909 METERS 16 CONTORL 4 SMALL BUT GROWING");
 
     doTest("T2",
-        "(Wilmar) Loc: 200 KUCK LN PET BOX: 3749 D CN:COM:  DIARRHEA DIFFICULTY BREATHING **",
+        "(Wilmar) Loc: 200 KUCK LN PET BOX: 3749 D CN:COM:  DIARRHEA DIFFICULTY BREATHING",
         "ADDR:200 KUCK LN",
         "SRC:PET",
         "BOX:3749 D",
-        "NAME:COM:  DIARRHEA DIFFICULTY BREATHING **");
+        "INFO:DIARRHEA DIFFICULTY BREATHING");
 
   }
   
@@ -416,6 +415,41 @@ public class CASonomaCountyParserTest extends BaseParserTest {
         "TIME:20:46:20",
         "INFO:OVERTURNED VEH ON HWY 1, BETWEEN VALLEY FORD AND BODEGA HWY BAD CONNECTION WITH RP, PER CHP");
     
+  }
+  
+  @Test
+  public void testActive911() {
+
+    doTest("T1",
+        "[] EVENT: SON121380005 Loc: 91 NAPA RD SO,117: @VINTAGE AT SONOMA CN: SPRINT NEXTEL-CDMA 866-398-3284 EID: 4444104 TYP: MED CALLER ADDR: 4499 STAGE GULCH RD SNMA TIME: 13:45:54 COM:  N -122.4580 T 38.27444 METERS 41 FALL / HEAD INJURY ** Case number SON12001670 has been assigned for SON:F33 Unit 3382 requested case number SON12001670 ** >>>> by: ERIN GRACE on terminal: red2 87 YOM RT HIP PAIN CONTROL 4 ROOM 117 17 B 1 - G\n",
+        "ADDR:91 NAPA RD",
+        "SRC:SO",
+        "PLACE:VINTAGE AT SONOMA",
+        "CALL:MED",
+        "NAME:SPRINT NEXTEL-CDMA 866-398-3284 EID: 4444104",
+        "APT:117",
+        "TIME:13:45:54",
+        "INFO:N -122.4580 T 38.27444 METERS 41 FALL / HEAD INJURY - 87 YOM RT HIP PAIN CONTROL 4 ROOM 117 17 B 1 - G");
+
+    doTest("T2",
+        "[] Loc: 4255 WARM SPRINGS RD GLE CN: ROSEWSKY HANS & ALICE EID: 4444131 TYP: MED CALLER ADDR: 4255 WARM SPRINGS RD TIME: 14:06:30 COM:  DIFF BREATHING DIZZY CONTROL 4 POSS CARBON MONOXIDE PROBLEM ** Case number SON12001671 has been assigned for SON:F33 ** Case number GLE12000125 has been assigned for GLE:F32 ** >>>> by: FRANCES ROSSITER on terminal: red6 Unit 3281 requested case number GLE12000125 Unit MED303 requested case number SON12001671 ** >>>> by: FRANCES ROSSITER on terminal: red6 WIFE, SON, FRIEND AND RP RP IS IN A HOSPITAL BED, CAN'T GET OUT THE FRIEND FELT DIZZY ALSO LAST NIGHT WAS COUGHING AND DIZZY, HIS O2 MACHINE ON ALL NIGHT\n",
+        "ADDR:4255 WARM SPRINGS RD GLE",
+        "CALL:MED",
+        "NAME:ROSEWSKY HANS & ALICE EID: 4444131",
+        "TIME:14:06:30",
+        "INFO:DIFF BREATHING DIZZY CONTROL 4 POSS CARBON MONOXIDE PROBLEM - WIFE, SON, FRIEND AND RP RP IS IN A HOSPITAL BED, CAN'T GET OUT THE FRIEND FELT DIZZY ALSO LAST NIGHT WAS COUGHING AND DIZZY, HIS O2 MACHINE ON ALL NIGHT");
+
+    doTest("T3",
+        "[] Loc: RIDGEVIEW DR/MONTECITO LN SRO BOX: 2850 C2 CN: ROMERO JOHN C#: (707) 546-0315 TYP: STRU CALLER ADDR: 3333 MONTECITO LN TIME: 23:56:10 COM:  MULT CALLERS UNK TYPE FIRE CONTROL 3 RP ASSUMED IT WAS A STRU RP CONFIRMED A STRU ** Case number KWD12000080 has been assigned for KWD:F31 ** Case number SRS12009323 has been assigned for SRS:F71 ** >>>> by: JOE WAYT on terminal: red2 Unit 7580 requested case number SRS12009323 ** >>>> by: JOE WAYT on terminal: red2 Unit 3197 requested case number KWD12000080 TAC 5 ASSIGNED\n",
+        "ADDR:RIDGEVIEW DR & MONTECITO LN",
+        "SRC:SRO",
+        "BOX:2850 C2",
+        "CALL:STRU",
+        "NAME:ROMERO JOHN",
+        "PHONE:(707) 546-0315",
+        "TIME:23:56:10",
+        "INFO:MULT CALLERS UNK TYPE FIRE CONTROL 3 RP ASSUMED IT WAS A STRU RP CONFIRMED A STRU - TAC 5 ASSIGNED");
+   
   }
   
   public static void main(String[] args) {
