@@ -169,7 +169,7 @@ public class MDSaintMarysCountyParser extends SmartAddressParser {
         if (fld.endsWith(" INTERSECTN")) {
           if (lastFld != null) data.strPlace = lastFld;
           parseAddress(StartType.START_ADDR, fld.substring(0, fld.length()-11), data);
-          data.strApt = getLeft();
+          data.strApt = append(data.strApt, "-", getLeft());
           break;
         }
         
@@ -195,7 +195,7 @@ public class MDSaintMarysCountyParser extends SmartAddressParser {
         if (lastResult.getStatus() < result.getStatus()) {
           data.strPlace = lastFld;
           result.getData(data);
-          data.strApt = result.getLeft();
+          data.strApt = append(data.strApt, "-", getLeft());
           break;
         }
         

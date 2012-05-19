@@ -514,7 +514,7 @@ public abstract class MsgParser {
   * @param parseCity true if cities should be parsed with dashes
   */
  private static final Pattern INTERSECT = Pattern.compile("/|&");
- private static final Pattern APT = Pattern.compile("(?:\\bAPT|#APT|#|\\bUNIT)#* *(.+)$",Pattern.CASE_INSENSITIVE);
+ private static final Pattern APT = Pattern.compile("(?:\\bAPT|#APT|#|\\bUNIT|\\bSUITE)#* *(.+)$",Pattern.CASE_INSENSITIVE);
  private static final Pattern DOT = Pattern.compile("\\.(?!\\d)");
  private static void parseAddress(String addressLine, MsgInfo.Data data, 
                                      boolean parseCity) {
