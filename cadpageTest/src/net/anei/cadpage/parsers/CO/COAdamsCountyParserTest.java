@@ -81,7 +81,20 @@ public class COAdamsCountyParserTest extends BaseParserTest {
         "Subject:IPS I/Page Notification\n510.5 S 2nd Ave major incident-- hazmat  no additional equip needed at this time\r\n\r\n\r",
         "ADDR:510.5 S 2nd Ave",
         "CALL:major incident-- hazmat no additional equip needed at this time");
+  }
+  
+  @Test
+  public void testActive911() {
     
+    doTest("T1",
+        "(IPS I/Page Notification) 8055 WASHINGTON ST ADAM ADAM: @STATION 31 13:45:48 TYPE CODE: EMS CALLER NAME: FIL MARTINEZ TIME: 13:45:48 Comments:  TEST CARD",
+        "ADDR:8055 WASHINGTON ST",
+        "PLACE:STATION 31",
+        "CALL:EMS",
+        "NAME:FIL MARTINEZ",
+        "TIME:13:45:48",
+        "INFO:TEST CARD");
+
   }
   
   public static void main(String[] args) {
