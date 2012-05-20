@@ -11,6 +11,8 @@ Kenosha County, WI
 public class WIKenoshaCountyParser extends GroupBestParser {
   
   public WIKenoshaCountyParser() {
-    super(new WIKenoshaCountyAParser(), new WIKenoshaCountyBParser());
+    super(new WIKenoshaCountyAParser(), 
+           new WIKenoshaCountyBParser(),
+           new WIKenoshaCountyCParser());
   }
 }
