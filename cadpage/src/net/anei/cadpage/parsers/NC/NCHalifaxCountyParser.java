@@ -1,6 +1,5 @@
 package net.anei.cadpage.parsers.NC;
 
-import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchA3Parser;
 
 /*
@@ -18,22 +17,12 @@ HalifaxCoE911@HalifaxNC911.com S: M:HalifaxCoE911:* 93 ROANOKE AVE* * * ROANOKE 
 */
 public class NCHalifaxCountyParser extends DispatchA3Parser {
   
-  private static final String MARKER = "HalifaxCoE911:* ";
-  
   public NCHalifaxCountyParser() {
-    super("HALIFAX COUNTY", "NC");
+    super(0, "HalifaxCoE911:* ", "HALIFAX COUNTY", "NC");
   }
   
   @Override
   public String getFilter() {
     return "HalifaxCoE911@HalifaxNC911.com";
   }
-
-  @Override
-  protected boolean parseMsg(String body, Data data) {
-    if (!body.startsWith(MARKER)) return false;
-    body = body.substring(MARKER.length()).trim();
-    return super.parseMsg(body, data);
-  }
-  
 }

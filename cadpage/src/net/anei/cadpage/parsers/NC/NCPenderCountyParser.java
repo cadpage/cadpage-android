@@ -1,6 +1,5 @@
 package net.anei.cadpage.parsers.NC;
 
-import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchA3Parser;
 
 /* 
@@ -20,18 +19,11 @@ Sender: 911-@pendersheriff.com
 public class NCPenderCountyParser extends DispatchA3Parser {
   
   public NCPenderCountyParser() {
-    super("PENDER COUNTY", "NC");
+    super(0, "911-:=", "PENDER COUNTY", "NC");
   }
   
   @Override
   public String getFilter() {
     return "911-@pendersheriff.com";
-  }
-
-  @Override
-  protected boolean parseMsg(String body, Data data) {
-    if (!body.startsWith("911-:=")) return false;
-    body = body.substring(6).trim();
-    return super.parseMsg(body, data);
   }
 }

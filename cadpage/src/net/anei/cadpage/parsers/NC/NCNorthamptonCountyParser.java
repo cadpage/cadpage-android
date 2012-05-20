@@ -1,6 +1,5 @@
 package net.anei.cadpage.parsers.NC;
 
-import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.dispatch.DispatchA3Parser;
 
 /*
@@ -19,22 +18,12 @@ S: M:Northampton911:* 113 ARBORVITAE CIR* * * LITTLETON* * ASSISTANCE* * * * FS1
 */
 public class NCNorthamptonCountyParser extends DispatchA3Parser {
   
-  private static final String MARKER = "Northampton911:* ";
-  
   public NCNorthamptonCountyParser() {
-    super("NORTHAMPTON COUNTY", "NC");
+    super(1, "Northampton911:* ", "NORTHAMPTON COUNTY", "NC");
   }
   
   @Override
   public String getFilter() {
     return "Northampton911@nhcnc.net";
   }
-
-  @Override
-  protected boolean parseMsg(String body, Data data) {
-    if (!body.startsWith(MARKER)) return false;
-    body = body.substring(MARKER.length()).trim();
-    return super.parseMsg(body, data);
-  }
-  
 }

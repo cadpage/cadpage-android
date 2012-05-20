@@ -24,7 +24,7 @@ astudstill@co.camden.ga.us:2012-037466* BOONE AND SUMMERBROOK* * * KINGSLAND* * 
 public class GACamdenCountyParser extends DispatchA3Parser {
   
   public GACamdenCountyParser() {
-    super("CAMDEN COUNTY", "GA");
+    super(1, "", "CAMDEN COUNTY", "GA");
   }
   
   @Override

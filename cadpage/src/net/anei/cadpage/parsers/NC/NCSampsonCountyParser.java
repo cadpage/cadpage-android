@@ -1,9 +1,6 @@
 package net.anei.cadpage.parsers.NC;
 
-import java.util.regex.Pattern;
-
-import net.anei.cadpage.parsers.FieldProgramParser;
-import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.dispatch.DispatchA3Parser;
 
 /*
 Sampson County, NC
@@ -30,36 +27,17 @@ EMS:2012-012830* 203 N MAIN ST* * * SALEMBURG* CLINTON ST* CHURCH ST* K6* * BREA
 EMS:2012-012826* 939 SOUTHWEST BLVD* * TAC3* CLINTON* MARTIN LUTH KING BLV* * L12* * STRUCTURE FI* STRUCTURE FIRE* CSRS,EMS72,STA14,STA16,STA8* 1380* Medical: No*
 EMS:2012-012816* 301 MAIN ST* * * NEWTON GROVE* E CIRCLE ST* N CHURCH ST* C11* Landmark Comment: UPDATED 2-02* BREATH DIFF* BREATHING DIFFICULTIES* EMS71,EMS72,NG
 EMS:2012-017694* 79 ROMAY MCKOY LN* * * ROSE HILL* BILL TOWN RD* LOOPS BACK TO ITSELF* S14* Geo Comment: *24* ABDOMINAL* ABDOMINAL PAIN* EMS77* 1352A* Medical: No
+EMS:2011-038193* 980 CARROLL STORE RD* TAC4* * AUTRYVILLE* * GRASS/BRUSH* GRASS OR BRUSH FIRE* STA10,STA12* 1309* Medical: No* Hazards: No* *
 
 */
-public class NCSampsonCountyParser extends FieldProgramParser {
-  
-  private static final Pattern DELIM = Pattern.compile("\\* +");
+public class NCSampsonCountyParser extends DispatchA3Parser {
   
   public NCSampsonCountyParser() {
-    super("SAMPSON COUNTY", "NC",
-           "ID ADDR APT CH CITY X X MAP INFO CALL INFO UNIT INFO+");
+    super(0, "EMS:", "SAMPSON COUNTY", "NC");
   }
   
   @Override
   public String getFilter() {
     return "EMS@sampsonnc.com";
   }
-
-  @Override
-  protected boolean parseMsg(String body, Data data) {
-    if (!body.startsWith("EMS:")) return false;
-    body = body.substring(4).trim();
-    if (body.endsWith("*")) body = body + " ";
-    String[] flds = DELIM.split(body);
-    if (flds.length < 12) return false;
-    return parseFields(flds, data);
-  }
-  
-  @Override
-  public Field getField(String name) {
-    if (name.equals("ID")) return new IdField("\\d{4}-\\d{6}", true);
-    return super.getField(name);
-  }
-  
 }
