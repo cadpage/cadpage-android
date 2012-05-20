@@ -21,8 +21,8 @@ public class NCSampsonCountyParserTest extends BaseParserTest {
         "CITY:CLINTON",
         "X:WEDGEWOOD LN & BUMPY LN",
         "MAP:K12",
-        "INFO:ABDOMINAL PAIN / 1328A / Medical: No / Hazards:",
-        "CALL:ABDOMINAL",
+        "INFO:1328A / Medical: No / Hazards:",
+        "CALL:ABDOMINAL PAIN",
         "UNIT:CSRS,EMS79");
 
     doTest("T2",
@@ -39,8 +39,9 @@ public class NCSampsonCountyParserTest extends BaseParserTest {
     doTest("T3",
         "EMS:2012-013047* I40 MM 343* * * NEWTON GROVE* MCLAMB RD UNDERPASS* EXIT 343 HOBBTON HWY* D11* * MVA I* MOTOR VEHICLE ACCIDENT WITH INJURIES* EMS79* 1263* Medical",
         "ID:2012-013047",
-        "ADDR:I40 MM 343",
-        "MADDR:I 40 MM 343 & MCLAMB RD UNDERPASS",
+        "ADDR:I-40",
+        "PLACE:MM 343",
+        "MADDR:I 40 & MCLAMB RD UNDERPASS",
         "CITY:NEWTON GROVE",
         "X:MCLAMB RD UNDERPASS & EXIT 343 HOBBTON HWY",
         "MAP:D11",
@@ -55,7 +56,7 @@ public class NCSampsonCountyParserTest extends BaseParserTest {
         "CITY:GARLAND",
         "X:W THIRD ST & W FOURTH ST",
         "MAP:T10",
-        "INFO:CHEST PAIN / 1376 / Medical: No / Hazards: No",
+        "INFO:1376 / Medical: No / Hazards: No",
         "CALL:CHEST PAIN",
         "UNIT:EMS77");
 
@@ -66,8 +67,8 @@ public class NCSampsonCountyParserTest extends BaseParserTest {
         "CITY:CLINTON",
         "X:WEEKS ST & SOUTHEAST BLVD",
         "MAP:L12",
-        "INFO:UNCONSCIOUS/FAINTING / 1380 / Medical: No / H",
-        "CALL:UNCONSCIOUS",
+        "INFO:1380 / Medical: No / H",
+        "CALL:UNCONSCIOUS/FAINTING",
         "UNIT:CSRS,EMS77");
 
     doTest("T6",
@@ -89,7 +90,7 @@ public class NCSampsonCountyParserTest extends BaseParserTest {
         "CITY:CLINTON",
         "X:LISBON ST & DEVANE ST",
         "MAP:L12",
-        "INFO:BURNS / 1275 / Medical: No / Hazards: No",
+        "INFO:1275 / Medical: No / Hazards: No",
         "CALL:BURNS",
         "UNIT:CSRS,EMS75");
 
@@ -100,7 +101,7 @@ public class NCSampsonCountyParserTest extends BaseParserTest {
         "CITY:GARLAND",
         "X:S CHURCH AVE & BROOKS AVE",
         "MAP:T10",
-        "INFO:SICK CALLS / 1376 / Medical: No / Hazards: No",
+        "INFO:1376 / Medical: No / Hazards: No",
         "CALL:SICK CALLS",
         "UNIT:7112");
 
@@ -122,7 +123,7 @@ public class NCSampsonCountyParserTest extends BaseParserTest {
         "CITY:CLINTON",
         "X:KING RD & KING RD",
         "MAP:I14",
-        "INFO:Geo Comment: TRACT *10 / OVERDOSE / 1284A / Medical: No / Hazards: No",
+        "INFO:Geo Comment: TRACT *10 / 1284A / Medical: No / Hazards: No",
         "CALL:OVERDOSE",
         "UNIT:CSRS,EMS71");
 
@@ -133,8 +134,8 @@ public class NCSampsonCountyParserTest extends BaseParserTest {
         "CITY:ROSEBORO",
         "X:PORTER RD & DEAD END",
         "MAP:M9",
-        "INFO:STRUCTURE FIRE / 1336 / Medical: No / Hazards: No",
-        "CALL:STRUCTURE FI",
+        "INFO:1336 / Medical: No / Hazards: No",
+        "CALL:STRUCTURE FIRE",
         "UNIT:CSRS,EMS76");
 
     doTest("T12",
@@ -144,7 +145,7 @@ public class NCSampsonCountyParserTest extends BaseParserTest {
         "CITY:CLINTON",
         "X:HUCKLEBERRY LN & STEVE HARRIS LN",
         "MAP:N14,N15",
-        "INFO:CHEST PAIN / 1347A / Medical: No / Hazards: No",
+        "INFO:1347A / Medical: No / Hazards: No",
         "CALL:CHEST PAIN",
         "UNIT:CSRS,EMS71");
 
@@ -155,7 +156,7 @@ public class NCSampsonCountyParserTest extends BaseParserTest {
         "CITY:CLINTON",
         "X:KING RD & KING RD",
         "MAP:I14",
-        "INFO:Geo Comment: TRACT *10 / OVERDOSE / 1284A / Medical: No / Hazards: No",
+        "INFO:Geo Comment: TRACT *10 / 1284A / Medical: No / Hazards: No",
         "CALL:OVERDOSE",
         "UNIT:CSRS,EMS71");
 
@@ -178,7 +179,7 @@ public class NCSampsonCountyParserTest extends BaseParserTest {
         "CITY:DUNN",
         "X:MIDWAY ELEM SCH RD & DEAD END",
         "MAP:E6",
-        "INFO:SICK CALLS / 1255A / Medical: No / Hazards: No",
+        "INFO:1255A / Medical: No / Hazards: No",
         "CALL:SICK CALLS",
         "UNIT:EMS78");
 
@@ -201,8 +202,8 @@ public class NCSampsonCountyParserTest extends BaseParserTest {
         "CITY:CLINTON",
         "X:MARTIN LUTH KING BLV",
         "MAP:L12",
-        "INFO:STRUCTURE FIRE / 1380 / Medical: No",
-        "CALL:STRUCTURE FI",
+        "INFO:1380 / Medical: No",
+        "CALL:STRUCTURE FIRE",
         "UNIT:CSRS,EMS72,STA14,STA16,STA8");
 
     doTest("T18",
@@ -223,9 +224,21 @@ public class NCSampsonCountyParserTest extends BaseParserTest {
         "CITY:ROSE HILL",
         "X:BILL TOWN RD & LOOPS BACK TO ITSELF",
         "MAP:S14",
-        "INFO:Geo Comment: *24 / ABDOMINAL PAIN / 1352A / Medical: No",
-        "CALL:ABDOMINAL",
+        "INFO:Geo Comment: *24 / 1352A / Medical: No",
+        "CALL:ABDOMINAL PAIN",
         "UNIT:EMS77");
+
+    doTest("T20",
+        "EMS:2011-038193* 980 CARROLL STORE RD* TAC4* * AUTRYVILLE* * GRASS/BRUSH* GRASS OR BRUSH FIRE* STA10,STA12* 1309* Medical: No* Hazards: No* *",
+        "ID:2011-038193",
+        "ADDR:980 CARROLL STORE RD",
+        "CH:TAC4",
+        "CITY:AUTRYVILLE",
+        "X:GRASS/BRUSH",
+        "MAP:GRASS OR BRUSH FIRE",
+        "INFO:STA10,STA12 / Medical: No",
+        "CALL:1309",
+        "NAME:Hazards: No");
   }
 
   public static void main(String[] args) {

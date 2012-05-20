@@ -21,7 +21,7 @@ public class GACamdenCountyParserTest extends BaseParserTest {
         "MADDR:STEFFANS,HIGHWAY 17",
         "CITY:KINGSLAND",
         "PLACE:STEFFANS",
-        "CALL:Traffic Stop",
+        "CALL:TRAFFIC STOP",
         "UNIT:1128,1140,1150,1152,509,514,523,532,LS3,R3",
         "INFO:Med");
 
@@ -81,8 +81,7 @@ public class GACamdenCountyParserTest extends BaseParserTest {
         "ID:2012-037466",
         "ADDR:BOONE AND SUMMERBROOK",
         "CITY:KINGSLAND",
-        "CALL:INVESTIGATE",
-        "INFO:SUSPICIOUS PERSON/VEHICLE",
+        "CALL:INVESTIGATE SUSPICIOUS PERSON/VEHICLE",
         "NAME:JUAN RODRIGUEZ",
         "PHONE:912-8");
   
