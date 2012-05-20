@@ -407,6 +407,7 @@ public class DispatchBParser extends SmartAddressParser {
         "SEIZURES - NOT CURRENT NOT VER",
         "SICK - NO SYMPTOMS",
         "SICK PERSON",
+        "SICK PERSON - NOT ALERT",
         "SICK/UNKNOWN ALS",
         "SMOKE IN THE AREA",
         "SMOKE INVESTIGATION",

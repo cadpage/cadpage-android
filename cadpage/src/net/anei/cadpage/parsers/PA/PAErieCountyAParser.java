@@ -57,6 +57,7 @@ ERIE911:28C2L >STROKE-ABNORMAL BREATH <2HRS 835 LINDEN AVE XS: W LAKE RD MILLCRE
 Contact: Matt Exley <mexley46@gmail.com>
 Sender: messaging@iamresponding.com
 FRM:messaging@iamresponding.com\nSUBJ:West Ridge Fire\nMSG:29B1 >MVA - WITH INJURIES 4440 ASBURY RD XS: LESTER LN MILLCREEK TWP\r\n
+FRM:messaging@iamresponding.com\nSUBJ:West Ridge Fire\nMSG:26D1 >SICK PERSON - NOT ALERT 3912 E BOARDWALK PL XS: MEDITERRANEAN PL MILLCREEK TWP\r\n
 
 */
 
