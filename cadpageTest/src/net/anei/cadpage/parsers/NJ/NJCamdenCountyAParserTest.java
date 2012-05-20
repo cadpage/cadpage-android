@@ -21,30 +21,50 @@ public class NJCamdenCountyAParserTest extends BaseParserTest {
         "CITY:Gloucester City",
         "X:CENTER/CHERRY",
         "MAP:14A",
+        "DATE:03/31/2011",
+        "TIME:10:44:12",
         "ID:110073123",
         "UNIT:SD45");
 
     doTest("T2",
-        "(Dispatch SD45) M.V.A\nROUTE 295 SB RAMP TO 76 SB ALJO CUR ,04\n#:\nX:/\nZN:04Q\nCP:ROUTE 295 SB RAMP T  2011-03-31 09:06:36\nMI#:110073062",
+        "(Dispatch SD45) M.V.A\n" +
+        "ROUTE 295 SB RAMP TO 76 SB ALJO CUR ,04\n" +
+        "#:\n" +
+        "X:/\n" +
+        "ZN:04Q\n" +
+        "CP:ROUTE 295 SB RAMP T  2011-03-31 09:06:36\n" +
+        "MI#:110073062 ",
+
         "CALL:M.V.A",
         "ADDR:ROUTE 295 SB",
         "MADDR:RAMP TO 76 SB ALJO CUR ROUTE 295 SB RAMP T,ROUTE 295",
         "CITY:Bellmawr",
         "MAP:04Q",
         "PLACE:RAMP TO 76 SB ALJO CUR ROUTE 295 SB RAMP T",
+        "DATE:03/31/2011",
+        "TIME:09:06:36",
         "ID:110073062",
         "UNIT:SD45");
 
     doTest("T3",
-        "(Dispatch SD45) DIABETIC\n217 BLACK HORSE PK N ,25\n#:4\nX:CARLISLE/LAKEVIEW\nZN:25B\nCP:MAX GROUP PHILLY CO  2011-03-30 13:23:26\nMI#:11007",
+        "(Dispatch SD45) DIABETIC\n" +
+        "217 BLACK HORSE PK N ,25\n" +
+        "#:4\n" +
+        "X:CARLISLE/LAKEVIEW\n" +
+        "ZN:25B\n" +
+        "CP:MAX GROUP PHILLY CO  2011-03-30 13:23:26\n" +
+        "MI#:11007",
+
         "CALL:DIABETIC",
         "ADDR:217 BLACK HORSE PK N",
         "MADDR:217 BLACK HORSE PIKE N",
-        "APT:4",
         "CITY:Mount Ephraim",
+        "APT:4",
         "X:CARLISLE/LAKEVIEW",
         "MAP:25B",
         "PLACE:MAX GROUP PHILLY CO",
+        "DATE:03/30/2011",
+        "TIME:13:23:26",
         "ID:11007",
         "UNIT:SD45");
 
@@ -54,6 +74,8 @@ public class NJCamdenCountyAParserTest extends BaseParserTest {
         "ADDR:BURLINGTON ST S & MONMOUTH ST",
         "CITY:Gloucester City",
         "MAP:14A",
+        "DATE:03/30/2011",
+        "TIME:10:33:28",
         "ID:110072287",
         "UNIT:SD45");
   }
@@ -77,6 +99,8 @@ public class NJCamdenCountyAParserTest extends BaseParserTest {
         "X:BLACKWOOD CLEMENTON/",
         "MAP:22B",
         "PLACE:STONINGTON COURT AP",
+        "DATE:03/09/2012",
+        "TIME:07:24:49",
         "UNIT:QT60");
 
   }
@@ -100,10 +124,108 @@ public class NJCamdenCountyAParserTest extends BaseParserTest {
         "CITY:Audubon",
         "X:BELOIT/WYOMING",
         "MAP:01A",
+        "DATE:03/25/2012",
+        "TIME:07:29:59",
         "ID:1200",
         "UNIT:SD11");
 
   }
+  
+  @Test
+  public void testActive911() {
+
+    doTest("T1",
+        "Subject: Dispatch SD379\n" +
+        "INCIDENTAL  \n" +
+        "217 RUSSELL AV ,03 03;HOUSE NEXT DO  \n" +
+        "#:  \n" +
+        "X:MOORE/RICHARDS  \n" +
+        "ZN:03D  \n" +
+        "CP:  2012-05-18 23:01:45  \n" +
+        "MI#:120117862  \n" +
+        "RES#:SD379",
+
+        "CALL:INCIDENTAL",
+        "ADDR:217 RUSSELL AV",
+        "MADDR:217 RUSSELL AVE",
+        "CITY:Barrington",
+        "X:MOORE/RICHARDS",
+        "MAP:03D",
+        "PLACE:HOUSE NEXT DO",
+        "DATE:05/18/2012",
+        "TIME:23:01:45",
+        "ID:120117862",
+        "UNIT:SD379");
+
+    doTest("T2",
+        "Subject: Dispatch SD379\n" +
+        "M.V.A  \n" +
+        "ROUTE 295 EXIT 28 ,18   \n" +
+        "#:  \n" +
+        "X:/  \n" +
+        "ZN:03W  \n" +
+        "CP:ROUTE 295 EXIT 28  2012-05-19 02:38:47  \n" +
+        "MI#:120118005  \n" +
+        "RES#:SD379",
+
+        "CALL:M.V.A",
+        "ADDR:ROUTE 295",
+        "MADDR:EXIT 28 ROUTE 295 EXIT 28,ROUTE 295",
+        "CITY:Haddon Heights",
+        "MAP:03W",
+        "PLACE:EXIT 28 ROUTE 295 EXIT 28",
+        "DATE:05/19/2012",
+        "TIME:02:38:47",
+        "ID:120118005",
+        "UNIT:SD379");
+
+    doTest("T3",
+        "Subject: Dispatch R32\n" +
+        "APARTMENT  \n" +
+        "1306 HANCOCK DR ,03   \n" +
+        "#:5  \n" +
+        "X:CLEMENTS BRIDGE RD/  \n" +
+        "ZN:03D  \n" +
+        "CP:WILLOWS APTS  2012-05-20 07:08:50  \n" +
+        "MI#:120118985  \n" +
+        "RES#:R32",
+
+        "CALL:APARTMENT",
+        "ADDR:1306 HANCOCK DR",
+        "CITY:Barrington",
+        "APT:5",
+        "X:CLEMENTS BRIDGE RD/",
+        "MAP:03D",
+        "PLACE:WILLOWS APTS",
+        "DATE:05/20/2012",
+        "TIME:07:08:50",
+        "ID:120118985",
+        "UNIT:R32");
+
+    doTest("T4",
+        "Subject: Dispatch R32\n" +
+        "RESCUE  \n" +
+        "ROUTE 42 EXIT 14 ,04   \n" +
+        "#:  \n" +
+        "X:/  \n" +
+        "ZN:BMA  \n" +
+        "CP:ROUTE 42 EXIT 14  2012-05-19 16:47:48  \n" +
+        "MI#:120118461  \n" +
+        "RES#:R32",
+
+        "CALL:RESCUE",
+        "ADDR:ROUTE 42",
+        "MADDR:EXIT 14 ROUTE 42 EXIT 14,ROUTE 42",
+        "CITY:Bellmawr",
+        "MAP:BMA",
+        "PLACE:EXIT 14 ROUTE 42 EXIT 14",
+        "DATE:05/19/2012",
+        "TIME:16:47:48",
+        "ID:120118461",
+        "UNIT:R32");
+   
+  }
+  
   public static void main(String[] args) {
     new NJCamdenCountyAParserTest().generateTests("T1");
   }
