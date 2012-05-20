@@ -827,6 +827,20 @@ Suffolk County, NY (NYSuffolkCountyEParser)
 /FROM RELAY /TANGER 2 STE 101 NY&CO\nFEMALE SUBJECT ILL\n
 *******************************************************************************
 *******************************************************************************
+* DispatchProphoenixParser
+*******************************************************************************
+***************************************************************************
+Wayne County, NJ (NJWayneCountyParser)
+2012000006 {01/03/2012 10:58:16}\nAFCI     - Fire alarm - commercial/industrial{3}\n3 Willowbrook Mall;PD\nUnits:\n\nComments:\n  Station Dispatched : {C1 } Station Dispatched : {C2 } Units Recommended: ,;\nDispatched: {C2 }, {C1 } ZONE 3 FIRE ALARM/IDHIT/8772387739/ACWN/ADT
+2012000019 {01/04/2012 11:47:19}\nFCI      - Fire - commercial/industrial{1}\n1520 Rt23;PD\nUnits:\n\nComments:\n  Station Dispatched : {C3 } Station Dispatched : {C1 } Loc changed  \nfrom {1530 Rt23;PD} to {1520 Rt23;PD}\n\nPri from -> 5 to 1\n  Station Dispatched : {C2 } Station Dispatched : {C5 } Units Recommended: (Not able to recommend);\nDispatched: {C5 }, {C2 } Elco admin services\nRough,Jim  862 226 9566\nCaller stated her heard a popping sound inside the building and they nsmell smoke\nAddress in 1538 rt23  behing wayne Hardware Update reviewed by dispatcher- Peterson, Tracy L-716
+2012000017 {01/04/2012 10:49:09}\nAFCI     - Fire alarm - commercial/industrial{3}\n520 Rt46;PD.\n  Units:\n\nComments:\n  Station Dispatched : {C1 } Station Dispatched : {C2 } Units Recommended: ,;\nDispatched: {C2 }, {C1 } Adt/877 2387739/id iub/acwn\nRed Lobster\nzone 18 ANSUL
+*******************************************************************************
+Kenosha County, WI (WIKenoshaCountyCParser)
+Subject:Phoenix Notification\n2012000453 {04/15/2012 14:23:51}\r\nMED CALL - Medical Call{1}\r\n9747 84th Pl\r\nUnits:\r\n    5642    \r\nComments:\r\n\r
+Subject:Phoenix Notification\n2012000454 {04/15/2012 17:21:48}\r\nFIRE SNG - Fire - Single Engine{1}\r\n905 114th St\r\nUnits:\r\n    5641    5611  \r
+Subject:Phoenix Notification\n2012000454 {04/15/2012 17:21:48}\r\nFIRE SNG - Fire - Single Engine{1}\r\n905 114th St\r\nUnits:\r\n    5641    5611  \r
+*******************************************************************************
+*******************************************************************************
 * Nassau County NY Collection
 *******************************************************************************
 *******************************************************************************
@@ -1531,11 +1545,6 @@ Sussex County, NJ (NJSussexCountyBParser)
 [Message from HipLink]  BTFD\nFire Alarm\nPAGED\n11 MANSFIELD DR\nBTF02\nBTFIRE\nADT,877-535-0563 OPER#AMH, REPORTS AN ACTIVATED GENERAL FIRE ALARM.
 [Message from HipLink]  BTFD\nFire Other\nPAGED\n16 CARLISLE DR\nBTF03\nBTFIRE\nREPORT OF A FIRE IN THE FURNACE
 [Message from HipLink]  BTFD\nSuspicious Acti\nPAGED\n161 LACKAWANNA DR\nBTF02\nBTFIRE\nPOSSIBLE CHIMNEY FIRE\n24 E/R\nchief 2 i/s\nCall type l reopened by Cat
-***************************************************************************
-Wayne County, NJ (NJWayneCountyParser)
-2012000006 {01/03/2012 10:58:16}\nAFCI     - Fire alarm - commercial/industrial{3}\n3 Willowbrook Mall;PD\nUnits:\n\nComments:\n  Station Dispatched : {C1 } Station Dispatched : {C2 } Units Recommended: ,;\nDispatched: {C2 }, {C1 } ZONE 3 FIRE ALARM/IDHIT/8772387739/ACWN/ADT
-2012000019 {01/04/2012 11:47:19}\nFCI      - Fire - commercial/industrial{1}\n1520 Rt23;PD\nUnits:\n\nComments:\n  Station Dispatched : {C3 } Station Dispatched : {C1 } Loc changed  \nfrom {1530 Rt23;PD} to {1520 Rt23;PD}\n\nPri from -> 5 to 1\n  Station Dispatched : {C2 } Station Dispatched : {C5 } Units Recommended: (Not able to recommend);\nDispatched: {C5 }, {C2 } Elco admin services\nRough,Jim  862 226 9566\nCaller stated her heard a popping sound inside the building and they nsmell smoke\nAddress in 1538 rt23  behing wayne Hardware Update reviewed by dispatcher- Peterson, Tracy L-716
-2012000017 {01/04/2012 10:49:09}\nAFCI     - Fire alarm - commercial/industrial{3}\n520 Rt46;PD.\n  Units:\n\nComments:\n  Station Dispatched : {C1 } Station Dispatched : {C2 } Units Recommended: ,;\nDispatched: {C2 }, {C1 } Adt/877 2387739/id iub/acwn\nRed Lobster\nzone 18 ANSUL
 ***************************************************************************
 Albany County, NY (NYAlbanyCountyParser)
 FIRE ALARM E405,E406,RS2,E412\n54 SUNSET BL\n HIGGINS ROBERT\nMap COL VILL 12:00:30
@@ -4338,17 +4347,6 @@ MON
 **********************************************************
 **********************************************************
 **********************************************************
-Pleasant Prarie Dispatch, WI (Kenosha County)
-Contact: David Wilkinson <dwilkinson@plprairiewi.com>
-Sender: CAD@plprairiewi.com
-System: Prophoenix
-Same as Wayne County, NJ
-Subject:Phoenix Notification\n2012000453 {04/15/2012 14:23:51}\r\nMED CALL - Medical Call{1}\r\n9747 84th Pl\r\nUnits:\r\n    5642    \r\nComments:\r\n\r
-Subject:Phoenix Notification\n2012000454 {04/15/2012 17:21:48}\r\nFIRE SNG - Fire - Single Engine{1}\r\n905 114th St\r\nUnits:\r\n    5641    5611  \r
-Subject:Phoenix Notification\n2012000454 {04/15/2012 17:21:48}\r\nFIRE SNG - Fire - Single Engine{1}\r\n905 114th St\r\nUnits:\r\n    5641    5611  \r
-Subject:Phoenix Notification\n2012000619 {05/16/2012 17:47:56}\r\nFIRE ALA - Fire - Alarm{1}\r\n9901 77th St,CMPLX\r\nUnits:\r\n    5642    \r\nCommen\r
-Subject:Phoenix Notification\n2012000618 {05/16/2012 13:31:17}\r\nMED CALL - Medical Call{1}\r\n13000BLK 104th St\r\nUnits:\r\n    5642    \r\nComment\r
-
 **********************************************************
 Onondaga County, NY (alternate)
 Contact: Michael Remillard <mremillard1982@gmail.com>
