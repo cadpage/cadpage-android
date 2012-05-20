@@ -78,7 +78,8 @@ public class DispatchProphoenixParser extends FieldProgramParser {
       if (pt >= 0) field = field.substring(0,pt).trim();
       pt = field.lastIndexOf(',');
       if (pt >= 0) {
-        
+        data.strApt = field.substring(pt+1).trim();
+        field = field.substring(0,pt).trim();
       }
       super.parse(field, data);
     }
