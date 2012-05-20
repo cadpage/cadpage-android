@@ -19,4 +19,10 @@ public class WIKenoshaCountyParserTest {
       setParser(new WIKenoshaCountyParser());
     }
   }
+  
+  public static class TestC extends WIKenoshaCountyCParserTest {
+    public TestC() {
+      setParser(new WIKenoshaCountyParser());
+    }
+  }
 }
