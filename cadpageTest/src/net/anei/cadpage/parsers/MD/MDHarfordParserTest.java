@@ -134,9 +134,31 @@ public class MDHarfordParserTest extends BaseParserTest {
         "NAME:ROGERS,WILLIAM",
         "BOX:417",
         "ID:209431");
+
+    doTest("T12",
+        "(HCCAD) [!] EOC:F07 MVAR >MVA W/ RESCUE 4830 NORRISVILLE RD XS: X AYRES CHAPEL RD WHITE HALL GLACIER,KATHY BOX: 712 Cad: 2012-0000101402",
+        "UNIT:F07",
+        "CALL:MVA W/ RESCUE",
+        "ADDR:4830 NORRISVILLE RD",
+        "X:AYRES CHAPEL RD",
+        "CITY:WHITE HALL",
+        "NAME:GLACIER,KATHY",
+        "BOX:712",
+        "ID:2012-0000101402");
+
+    doTest("T13",
+        "(HCCAD) [!] EOC:F07 MVAR >MVA W/ RESCUE 1219 BALDWIN MILL RD XS: INGLESIDE DR JARRETTSVILLE BARNHILL,DAVE BOX: 700 Cad: 2012-0000101401",
+        "UNIT:F07",
+        "CALL:MVA W/ RESCUE",
+        "ADDR:1219 BALDWIN MILL RD",
+        "X:INGLESIDE DR",
+        "CITY:JARRETTSVILLE",
+        "NAME:BARNHILL,DAVE",
+        "BOX:700",
+        "ID:2012-0000101401");
   }
   
   public static void main(String[] args) {
-    new MDHarfordParserTest().generateTests("T12", "UNIT CALL ADDR APT X CITY NAME BOX ID");
+    new MDHarfordParserTest().generateTests("T42", "UNIT CALL ADDR APT X CITY NAME BOX ID");
   }
 }
