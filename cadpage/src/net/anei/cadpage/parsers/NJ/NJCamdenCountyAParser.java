@@ -24,18 +24,11 @@ Contact: "Guy Dietrich Jr." <dvipergtsrgt@gmail.com>
 Subject:Dispatch SD11\nINCIDENTAL  \r\n260 AUDUBON AV ,01   \r\n#:  \r\nX:BELOIT/WYOMING  \r\nZN:01A  \r\nCP:  2012-03-25 07:29:59  \r\nMI#:1200\r
 
 Contact: support@active911.com
-
-Subject: Free E33
-Body: 501 BENIGNO BD ,04 04  
-MI#:120118554  
-Disp:18:32:50  
-Enr:  
-Arr:  
-Enr Hosp:  
-Arr Hosp:  
-Clr:  
-RES#:E33  
-
+Subject: Dispatch E331\nBRUSH  \n501 BENIGNO BD ,04   \n#:  \nX:HAIG/LEAF  \nZN:04B  \nCP:POST OFFICE ADMIN B  2012-05-19 18:32:49  \nMI#:120118554  \nRES#:E331
+Subject: Dispatch SD379\nINCIDENTAL  \n217 RUSSELL AV ,03 03;HOUSE NEXT DO  \n#:  \nX:MOORE/RICHARDS  \nZN:03D  \nCP:  2012-05-18 23:01:45  \nMI#:120117862  \nRES#:SD379
+Subject: Dispatch SD379\nM.V.A  \nROUTE 295 EXIT 28 ,18   \n#:  \nX:/  \nZN:03W  \nCP:ROUTE 295 EXIT 28  2012-05-19 02:38:47  \nMI#:120118005  \nRES#:SD379
+Subject: Dispatch R32\nAPARTMENT  \n1306 HANCOCK DR ,03   \n#:5  \nX:CLEMENTS BRIDGE RD/  \nZN:03D  \nCP:WILLOWS APTS  2012-05-20 07:08:50  \nMI#:120118985  \nRES#:R32
+Subject: Dispatch R32\nRESCUE  \nROUTE 42 EXIT 14 ,04   \n#:  \nX:/  \nZN:BMA  \nCP:ROUTE 42 EXIT 14  2012-05-19 16:47:48  \nMI#:120118461  \nRES#:R32
 
 */
 
@@ -69,6 +62,11 @@ public class NJCamdenCountyAParser extends FieldProgramParser {
 
     @Override
     public void parse(String field, Data data) {
+      int pt = field.lastIndexOf(';');
+      if (pt >= 0) {
+        data.strPlace = field.substring(pt+1).trim();
+        field = field.substring(0,pt).trim();
+      }
       Matcher match = CITY_PTN.matcher(field);
       if (match.find()) {
         Integer ndx = Integer.parseInt(match.group(1));
@@ -93,13 +91,22 @@ public class NJCamdenCountyAParser extends FieldProgramParser {
     }
   }
   
-  private static final Pattern DATE_TIME_PTN = Pattern.compile("\\b\\d{4}-\\d\\d-\\d\\d \\d\\d:\\d\\d:\\d\\d$");
+  private static final Pattern DATE_TIME_PTN = Pattern.compile("\\b(\\d{4})-(\\d\\d)-(\\d\\d) (\\d\\d:\\d\\d:\\d\\d)$");
   private class MyPlaceField extends PlaceField {
     @Override
     public void parse(String field, Data data) {
       Matcher match = DATE_TIME_PTN.matcher(field);
-      if (match.find()) field = field.substring(0,match.start()).trim(); 
+      if (match.find()) {
+        data.strDate = match.group(2) + "/" + match.group(3) + "/" + match.group(1);
+        data.strTime = match.group(4);
+        field = field.substring(0,match.start()).trim(); 
+      }
       data.strPlace = append(data.strPlace, " ", field);
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "PLACE DATE TIME";
     }
   }
   
