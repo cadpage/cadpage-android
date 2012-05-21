@@ -12,6 +12,11 @@ public class NCRowanCountyParserTest extends BaseParserTest {
   }
   
   @Test
+  public void testBad() {
+    doBadTest("CAD:Davidson County Rescue Squad is hold a barbecue chicken dinner at St6 until food is gone. Dinner includes chicken, beans, potato salad, roll , and dess");
+  }
+  
+  @Test
   public void testParser() {
 
     doTest("T1",
