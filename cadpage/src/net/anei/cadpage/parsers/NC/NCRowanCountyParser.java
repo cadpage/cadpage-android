@@ -67,6 +67,9 @@ Contact: support@active911.com
 First 4 in Cooleemee, Davies County
 Last could be Nellie dr in Davidson County
 
+*** General alert
+CAD:Davidson County Rescue Squad is hold a barbecue chicken dinner at St6 until food is gone. Dinner includes chicken, beans, potato salad, roll , and dess
+
 */
 
 public class NCRowanCountyParser extends DispatchOSSIParser {
@@ -94,7 +97,7 @@ public class NCRowanCountyParser extends DispatchOSSIParser {
       if (!ok) return false;
       data.defCity = "";
     }
-    return true;
+    return data.strAddress.length() > 0;
   }
   
   // Special place field that only triggers if there is no city field
