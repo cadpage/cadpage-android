@@ -1,5 +1,7 @@
 package net.anei.cadpage.parsers.TN;
 
+import java.util.regex.Pattern;
+
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
@@ -29,9 +31,30 @@ E911 / MARFVD - FROST BOTTOM ROAD  OLIVER SPRINGS, TN - MVA\n\n
 E911 / MARFVD FIRST RESP - 1180 DUTCH VALLEY ROAD  CLINTON, TN - DIFFICULTY  BREATHING\n\n
 E911 / Fire Alarm-Residential - 351 WOODLAND HILLS ROAD CLINTON, TN - REC:12:11 DISP:12:12 RESP:12:16 ONSC: INSRV:12:17 TRK#:188459\n\n
 
+Contact: Active911.com
+[E911] AVFD FIRST RESP - 130 HUMPHREY CEMETERY HEISKELL, TN - STROKE\n
+[E911] Service Call - Investigation - 414 NORTH DOGWOOD RD POWELL, TN\n
+[E911] Service Call - Investigation - 414 NORTH DOGWOOD RD POWELL, TN\n
+[E911] EMS Assist - 444 EAST WOLF VALLEY RD HEISKELL, TN - REC:19:17 DISP:19:18\nRESP:19:20 ONSC:19:28 INSRV:19:50 TRK#:211465\n
+[E911] Natural Disaster - 101 SOUTH MAIN ST., CLINTON, TN\n
+[E911] MVA - Injury - 101 SOUTH MAIN ST, CLINTON, TN\n
+[E911] Fire - Commercial - 402 BETHEL RD, OAK RIDGE, TN\n
+[E911] Fire - Commercial - 402 BETHEL RD, OAK RIDGE, TN\n
+[E911] Fire Alarm-Residential- 410 MEHAFFEY RD CLINTON, TN\n
+[Fwd: E911] Fire Alarm-Residential- 410 MEHAFFEY RD CLINTON TN\n
+[E911] Fire Alarm-Residential- 410 MEHAFFEY RD CLINTON TN\n
+[E911] Fire Alarm-Residential- 410 MEHAFFEY RD CLINTON TN\n
+[E911] Fire Alarm-Residential- 410 MEHAFFEY RD CLINTON TN\n
+[E911] Lift Assist - 100 MARLOW CIR, CLINTON, TN\n
+[E911] Airplane Crash - 123 WEST BROAD ST, CLINTON, TN\n
+[E911] Lift Assist - 100 MARLOW CIR, CLINTON, TN - REC:14:12 DISP:14:12 RESP: ONSC: INSRV:14:19 TRK#:211540\n
+[E911] Airplane Crash - 123 WEST BROAD ST, CLINTON, TN - REC:14:17 DISP:14:18 RESP: ONSC: INSRV:14:19 TRK#:211543\n
+
  */
 
 public class TNAndersonCountyParser extends FieldProgramParser {
+  
+  private static final Pattern DELIM = Pattern.compile(" - ?|- ");
   
   public TNAndersonCountyParser() {
     super(CITY_LIST, "ANDERSON COUNTY", "TN",
@@ -49,6 +72,7 @@ public class TNAndersonCountyParser extends FieldProgramParser {
     // Dummy loop
     do {
       if (subject.equals("E911")) break;
+      if (subject.equals("Fwd: E911")) break;
       if (body.startsWith("E911 / ")) {
         body = body.substring(6).trim();
         break;
@@ -56,8 +80,7 @@ public class TNAndersonCountyParser extends FieldProgramParser {
       return false;
     } while (false);
     
-    body = body.replace(" -REC:", " - REC:");
-    return parseFields(body.split(" - "), data);
+    return parseFields(DELIM.split(body), data);
   }
   
   // Call field appends to previous call field with - separator
@@ -73,10 +96,18 @@ public class TNAndersonCountyParser extends FieldProgramParser {
   private class MyAddressField extends AddressField {
     @Override
     public boolean checkParse(String field, Data data) {
-      if (!field.endsWith(", TN")) return false;
-      field = field.substring(0, field.length()-4).trim();
+      if (!field.endsWith(" TN")) return false;
+      field = field.substring(0, field.length()-3).trim();
+      if (field.endsWith(",")) field = field.substring(0, field.length()-1).trim();
+      String city = null;
+      int pt = field.lastIndexOf(',');
+      if (pt >= 0) {
+        city = field.substring(pt+1).trim();
+        field = field.substring(0,pt).trim();
+      }
       field = field.replace('@', '&');
       super.parse(field, data);
+      if (city != null) data.strCity = city;
       return true;
     }
   }
@@ -124,11 +155,13 @@ public class TNAndersonCountyParser extends FieldProgramParser {
     "DEVONIA",
     "FORK MOUNTAIN",
     "FRATERVILLE",
+    "HEISKELL",
     "LAKE CITY",
     "MARLOW",
     "NORRIS",
     "OAK RIDGE",
     "OLIVER SPRINGS",
+    "POWELL",
     "ROSEDALE"
   };
 }
