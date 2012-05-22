@@ -872,7 +872,9 @@ public abstract class SmartAddressParser extends MsgParser {
     // Don't have to look for city because we wouldn't be here if both startAddr
     // and city was found
     if (result.startAddress >= 0) {
-      ndx = findRoadEnd(result.startAddress);
+      ndx = result.startAddress;
+      while (isType(ndx, ID_OPT_ROAD_PFX)) ndx++;
+      ndx = findRoadEnd(ndx);
       if (ndx < 0) return false;
     }
     
