@@ -153,8 +153,7 @@ public class WVCabellCountyParserTest extends BaseParserTest {
         "CALL:Structure Fire",
         "ADDR:722 4TH ST",
         "CITY:HUNTINGTON",
-        "PLACE:RR TRACKS",
-        "X:8TH AVE",
+        "X:RR TRACKS & 8TH AVE",
         "INFO:SEND E1 PER HFD43");
 
     doTest("T7",
@@ -182,6 +181,19 @@ public class WVCabellCountyParserTest extends BaseParserTest {
         "CITY:LESAGE",
         "X:OLD RT 2",
         "INFO:JUST BEFORE THIS / SEVERAL MEN STANDING BY THE ROADWAY AND");
+
+    doTest("T9",
+        "\" \" (29217) CCERC911\r\n" +
+        ": 121420332/05-21-12/19:26:29/Structure Fire/722 4TH ST/HUNTINGTON/RR TRACKS/8TH AVE/SEND E1 PER HFD43/ TXT STOP to opt-out",
+
+        "ID:121420332",
+        "DATE:05-21-12",
+        "TIME:19:26:29",
+        "CALL:Structure Fire",
+        "ADDR:722 4TH ST",
+        "CITY:HUNTINGTON",
+        "X:RR TRACKS & 8TH AVE",
+        "INFO:SEND E1 PER HFD43");
 
   }
   
