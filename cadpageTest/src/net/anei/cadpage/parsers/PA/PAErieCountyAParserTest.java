@@ -301,6 +301,17 @@ public class PAErieCountyAParserTest extends BaseParserTest {
         "ADDR:3912 E BOARDWALK PL",
         "CITY:MILLCREEK TWP",
         "X:MEDITERRANEAN PL");
+
+    doTest("T29",
+        "FRM:messaging@iamresponding.com\n" +
+        "SUBJ:West Ridge Fire\n" +
+        "MSG:10C2 >CHEST PAIN - CARDIAC HISTORY 3121 PINE TREE TER XS: VILLAGE ST MILLCREEK TWP\r\n",
+
+        "SRC:West Ridge Fire",
+        "CALL:CHEST PAIN - CARDIAC HISTORY",
+        "ADDR:3121 PINE TREE TER",
+        "CITY:MILLCREEK TWP",
+        "X:VILLAGE ST");
   }
   
   public static void main(String[] args) {
