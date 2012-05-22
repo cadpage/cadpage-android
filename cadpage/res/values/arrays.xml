@@ -210,6 +210,7 @@
   <string-array name="pref_state_names">
     <item>Ge General location</item>
     <item>AL Alabama</item>
+    <item>AZ Arizona</item>
     <item>CA California</item>
     <item>CO Colorado</item>
     <item>CT Connecticut</item>
@@ -268,6 +269,7 @@
     <item>ALMorganCounty</item>
     <item>ALOzark</item>
     <item>ALStClairCounty</item>
+    <item>AZMaricopaCounty</item>
     <item>CAButteCounty</item>
     <item>CAElDoradoCounty</item>
     <item>CAMendocinoCounty</item>
@@ -689,6 +691,7 @@
     <item>Morgan County, AL</item>
     <item>Ozark, AL</item>
     <item>St Clair County, AL</item>
+    <item>Maricopa County, AZ</item>
     <item>Butte County, CA</item>
     <item>El Dorado County, CA</item>
     <item>Mendocino County, CA</item>
