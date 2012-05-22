@@ -187,7 +187,7 @@ public class TNAndersonCountyParserTest extends BaseParserTest {
     doTest("T7",
         "[E911] Fire - Commercial - 402 BETHEL RD, OAK RIDGE, TN\n",
         "CALL:Fire - Commercial",
-        "ADDR:402 BETHEL RD",
+        "ADDR:402 BETHEL RD",  // Not mapping
         "CITY:OAK RIDGE");
 
     doTest("T8",
