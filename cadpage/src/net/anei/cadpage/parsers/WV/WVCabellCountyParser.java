@@ -27,6 +27,7 @@ Sender: 7771
 " " (29217) CCERC911\r\n: 121420332/05-21-12/19:26:29/Structure Fire/722 4TH ST/HUNTINGTON/RR TRACKS/8TH AVE/SEND E1 PER HFD43/ TXT STOP to opt-out
 " " (29364) CCERC911\r\n: 121430008/05-22-12/00:20:02/Structure Fire/1801 12TH AVE/HUNTINGTON/18TH ST/19TH ST/VACANT HOUSE // TXT STOP to opt-out
 " " (29169) CCERC911\r\n: 121420325/05-21-12/19:11:12/Smoke Investigation/7800 OHIO RIVER RD INTERSECTN/LESAGE/OLD RT 2/JUST BEFORE THIS/SEVERAL MEN STANDING BY THE ROADWAY AND/ TXT STOP to opt-out
+" " (29217) CCERC911\r\n: 121420332/05-21-12/19:26:29/Structure Fire/722 4TH ST/HUNTINGTON/RR TRACKS/8TH AVE/SEND E1 PER HFD43/ TXT STOP to opt-out
 
 */
 public class WVCabellCountyParser extends FieldProgramParser {
@@ -89,7 +90,7 @@ public class WVCabellCountyParser extends FieldProgramParser {
   private class MyCrossField extends CrossField {
     @Override
     public boolean checkParse(String field, Data data) {
-      if (field.equals("END")) {
+      if (field.equals("END") || field.equals("RR TRACKS")) {
         parse(field, data);
         return true;
       }
