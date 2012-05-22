@@ -80,6 +80,9 @@ public class TNAndersonCountyParser extends FieldProgramParser {
       return false;
     } while (false);
     
+    // If page contains times keywords, report as general alert
+    if (body.contains(" INSRV:")) return data.parseGeneralAlert(body);;
+    
     return parseFields(DELIM.split(body), data);
   }
   
@@ -118,16 +121,9 @@ public class TNAndersonCountyParser extends FieldProgramParser {
     @Override
     public void parse(String field, Data data) {
       
-      // If this starts with REC:, then it is some time and tracking
-      // information marking the end of call
-      if (field.startsWith("REC:")) {
-        data.strCall = data.strCall + " (END)";
-        data.strSupp = field;
-      }
-      
-      // Anything else, this is really the call description
+      // This is really the call description
       // and what we thought was the call description is really the department
-      else {
+      if (field.length() != 0) {
         data.strSource = data.strCall;
         data.strCall = field;
       }
