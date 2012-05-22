@@ -143,6 +143,117 @@ public class TNAndersonCountyParserTest extends BaseParserTest {
    
   }
   
+  @Test
+  public void testActive911() {
+
+    doTest("T1",
+        "[E911] AVFD FIRST RESP - 130 HUMPHREY CEMETERY HEISKELL, TN - STROKE\n",
+        "SRC:AVFD FIRST RESP",
+        "CALL:STROKE",
+        "ADDR:130 HUMPHREY CEMETERY",
+        "CITY:HEISKELL");
+
+    doTest("T2",
+        "[E911] Service Call - Investigation - 414 NORTH DOGWOOD RD POWELL, TN\n",
+        "CALL:Service Call - Investigation",
+        "ADDR:414 NORTH DOGWOOD RD",
+        "CITY:POWELL");
+
+    doTest("T3",
+        "[E911] Service Call - Investigation - 414 NORTH DOGWOOD RD POWELL, TN\n",
+        "CALL:Service Call - Investigation",
+        "ADDR:414 NORTH DOGWOOD RD",
+        "CITY:POWELL");
+
+    doTest("T4",
+        "[E911] EMS Assist - 444 EAST WOLF VALLEY RD HEISKELL, TN - REC:19:17 DISP:19:18\nRESP:19:20 ONSC:19:28 INSRV:19:50 TRK#:211465\n",
+        "CALL:EMS Assist (END)",
+        "ADDR:444 EAST WOLF VALLEY RD",
+        "CITY:HEISKELL",
+        "INFO:REC:19:17 DISP:19:18\nRESP:19:20 ONSC:19:28 INSRV:19:50 TRK#:211465");
+
+    doTest("T5",
+        "[E911] Natural Disaster - 101 SOUTH MAIN ST., CLINTON, TN\n",
+        "CALL:Natural Disaster",
+        "ADDR:101 SOUTH MAIN ST",
+        "CITY:CLINTON");
+
+    doTest("T6",
+        "[E911] MVA - Injury - 101 SOUTH MAIN ST, CLINTON, TN\n",
+        "CALL:MVA - Injury",
+        "ADDR:101 SOUTH MAIN ST",
+        "CITY:CLINTON");
+
+    doTest("T7",
+        "[E911] Fire - Commercial - 402 BETHEL RD, OAK RIDGE, TN\n",
+        "CALL:Fire - Commercial",
+        "ADDR:402 BETHEL RD",
+        "CITY:OAK RIDGE");
+
+    doTest("T8",
+        "[E911] Fire - Commercial - 402 BETHEL RD, OAK RIDGE, TN\n",
+        "CALL:Fire - Commercial",
+        "ADDR:402 BETHEL RD",
+        "CITY:OAK RIDGE");
+
+    doTest("T9",
+        "[E911] Fire Alarm-Residential- 410 MEHAFFEY RD CLINTON, TN\n",
+        "CALL:Fire Alarm-Residential",
+        "ADDR:410 MEHAFFEY RD",
+        "CITY:CLINTON");
+
+    doTest("T10",
+        "[Fwd: E911] Fire Alarm-Residential- 410 MEHAFFEY RD CLINTON TN\n",
+        "CALL:Fire Alarm-Residential",
+        "ADDR:410 MEHAFFEY RD",
+        "CITY:CLINTON");
+
+    doTest("T11",
+        "[E911] Fire Alarm-Residential- 410 MEHAFFEY RD CLINTON TN\n",
+        "CALL:Fire Alarm-Residential",
+        "ADDR:410 MEHAFFEY RD",
+        "CITY:CLINTON");
+
+    doTest("T12",
+        "[E911] Fire Alarm-Residential- 410 MEHAFFEY RD CLINTON TN\n",
+        "CALL:Fire Alarm-Residential",
+        "ADDR:410 MEHAFFEY RD",
+        "CITY:CLINTON");
+
+    doTest("T13",
+        "[E911] Fire Alarm-Residential- 410 MEHAFFEY RD CLINTON TN\n",
+        "CALL:Fire Alarm-Residential",
+        "ADDR:410 MEHAFFEY RD",
+        "CITY:CLINTON");
+
+    doTest("T14",
+        "[E911] Lift Assist - 100 MARLOW CIR, CLINTON, TN\n",
+        "CALL:Lift Assist",
+        "ADDR:100 MARLOW CIR",
+        "CITY:CLINTON");
+
+    doTest("T15",
+        "[E911] Airplane Crash - 123 WEST BROAD ST, CLINTON, TN\n",
+        "CALL:Airplane Crash",
+        "ADDR:123 WEST BROAD ST",
+        "CITY:CLINTON");
+
+    doTest("T16",
+        "[E911] Lift Assist - 100 MARLOW CIR, CLINTON, TN - REC:14:12 DISP:14:12 RESP: ONSC: INSRV:14:19 TRK#:211540\n",
+        "CALL:Lift Assist (END)",
+        "ADDR:100 MARLOW CIR",
+        "CITY:CLINTON",
+        "INFO:REC:14:12 DISP:14:12 RESP: ONSC: INSRV:14:19 TRK#:211540");
+
+    doTest("T17",
+        "[E911] Airplane Crash - 123 WEST BROAD ST, CLINTON, TN - REC:14:17 DISP:14:18 RESP: ONSC: INSRV:14:19 TRK#:211543\n",
+        "CALL:Airplane Crash (END)",
+        "ADDR:123 WEST BROAD ST",
+        "CITY:CLINTON",
+        "INFO:REC:14:17 DISP:14:18 RESP: ONSC: INSRV:14:19 TRK#:211543");
+    
+  }
+  
 
   public static void main(String[] args) {
     new TNAndersonCountyParserTest().generateTests("T1");
