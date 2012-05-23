@@ -4579,6 +4579,35 @@ CHILD - 1YOM - CONC - BREATHING - POSS WHIPLASH - IS ALERT\n
 \n
 BC2,E22,R3,\n
 MOF
+
+Body:05/22/12\n
+19:05\n
+MOF123900554\n
+TCL\n
+F-DIFFICULTY BREATHING\n
+7595 ASTER DR\n
+DAHLIA CIR AND IRIS LN\n
+-\n
+LANSETTE,DEAN\n
+LANCETTE-FIC, LYNETTE RESD 05/22 18:51:02\n
+911 CC DEAN -\n
+DIFB\n
+Number of patients: 1\n
+Responder script: 65 year old, Male, Conscious, Breathing. Breathing
+Problems.\n
+Caller Statement: DIFB.\n
+Response text: Delta\n
+Responder script: DIFFICULTY SPEAKING BETWEEN BREATHS.\n
+POI\n
+Reconfigured on another card: No\n
+89A1 -- STAT ALL SET -- REQ RESCUE FOR LIFT ASST\n
+NEED RESCUE FOR LIFTING\n
+\n
+\n
+\n
+MOF
+
+
 **********************************************************
 **********************************************************
 Burlington County, NJ (alternate?)
