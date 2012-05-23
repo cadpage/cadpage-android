@@ -381,7 +381,8 @@ public class MDMontgomeryCountyParserTest extends BaseParserTest {
         "BOX:DC00",
         "CALL:TRANSFER",
         "ADDR:5760 GEORGIA AVE NW",
-        "CITY:DC",
+        "CITY:WASHINGTON",
+        "ST:DC",
         "UNIT:E702");
 
     doTest("T23",
@@ -395,7 +396,7 @@ public class MDMontgomeryCountyParserTest extends BaseParserTest {
         "CALL:TRANSFER",
         "ADDR:4300 WISCONSIN AVE NW",
         "CITY:WASHINGTON",
-        "STATE:DC",
+        "ST:DC",
         "UNIT:E711");
 
     doTest("T24",
