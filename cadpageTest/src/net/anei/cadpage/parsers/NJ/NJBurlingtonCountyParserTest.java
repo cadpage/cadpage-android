@@ -24,4 +24,10 @@ public class NJBurlingtonCountyParserTest {
       setParser(new NJBurlingtonCountyParser());
     }
   }
+  
+  public static class TestD extends NJBurlingtonCountyDParserTest {
+    public TestD() {
+      setParser(new NJBurlingtonCountyParser());
+    }
+  }
 }
