@@ -1,5 +1,7 @@
 package net.anei.cadpage.parsers.dispatch;
 
+import java.util.Properties;
+
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
@@ -62,11 +64,24 @@ pscc@ci.erlanger.ky.us\nSUBJ:Alert: Unconscious / Unresponsive\nMSG:\nALRM LVL: 
 (Alert: Fire Structure) ALRM LVL: 1\nLOC:\n1717 CHOCTAW TL\nELSMERE\nBTWN: COMANCHE TL & SIOUX TL\n\nRCVD AS E-911 Call\n\nCOM:\nFEMALE HAVING LEG SPASIMS\nFEMALE HAS CARDIO VASCULAR DISEASE\n71 FEMALE\n\nCT:\n22-DLP at POS 05
 (Alert: Fire Structure) ALRM LVL: 1\nLOC:\n7673 IRONBRIDGE CT\nELSMERE\nBTWN: COVERED BRIDGE DR & N/A\n\nRCVD AS E-911 Call\n\nCOM:\nREFUSING MEDICAL\nDOG BIT CHILD AT THE EAST COVERED BRIDGE PARK\nBROWN DOG\nPOSS PIT BULL\nWRIST AND HAND\n\nCT:\n22-DLP at POS 01
 
+Loveland, OH
+Subject: Alert: EMS FALLS\nALRM LVL: 1\nLOC:\nPAXTON'S GRILL ***\n126 W LOVELAND AV\nLOVELD\nBTWN: 2ND ST & RAILROAD AV\n\n\n\nCOM:\n\n\nCT:\nD-JMP at POS 02
+Subject: Alert: EMS ABDOMINAL PAIN\nALRM LVL: 1\nLOC:\n9270 CACTUS LN\nSYMMTP\nBTWN: MCKINNEY RD & DEADEND\n\n\n\nCOM:\nM/58\n\nCT:\nD-CMS at POS 01
+Subject: Alert: EMS DIABETIC EMERGENCY\nALRM LVL: 1\nLOC:\n438 MAIN ST\nLOVELD\nBTWN: RIVERSIDE DR & WALL ST\n\nRCVD AS 911 Call\n\nCOM:\nF-40...LOW SUGAR\n\nCT:\nD-RCS at POS 02
+Subject: Alert: FIRE ODOR INVESTIGATION\nALRM LVL: 1\nLOC:\n497 N 2ND ST\nLOVELD\nBTWN: LYONS AV & SENTRY HILL DR\n\nRCVD AS Phone\n\nCOM:\nSMOKE IN THE AREA\nPOSS ON LYONS\n\nCT:\nD-AWK at POS 01
+Subject: Alert: EMS DIABETIC EMERGENCY\nALRM LVL: 1\nLOC:\nSTATION 61\n8871 WEEKLY LN\nSYMMTP\nBTWN: MASON RD & DEAD END\n\n\n\nCOM:\nM/20\nEMS\nLOW BLOOD SUGAR\nLOBBY\nIN FRT LOBBY\n\nCT:\nD-AWK at POS 02
+Subject: Alert: EMS DIABETIC EMERGENCY\nALRM LVL: 1\nLOC:\nSTATION 61\n8871 WEEKLY LN\nSYMMTP\nBTWN: MASON RD & DEAD END\n\n\n\nCOM:\nM/20\nEMS\nLOW BLOOD SUGAR\nLOBBY\nIN FRT LOBBY\n\nCT:\nD-AWK at POS 02
+Subject: Alert: EMS ABDOMINAL PAIN\nALRM LVL: 1\nLOC:\n154 FALLENOAK CT\nLOVELD\nBTWN: RAVINEWOOD TE & DEADEND\n\nRCVD AS Phone\n\nCOM:\nM-13....VOMITING & HALLUCENATING\n\nCT:\nD-RCS at POS 02
+
 */
 public class DispatchA1Parser extends FieldProgramParser {
 
   public DispatchA1Parser(String defCity, String defState) {
-    super(defCity, defState, 
+    this(null, defCity, defState);
+  }
+  
+  public DispatchA1Parser(Properties cityCodes, String defCity, String defState) {
+    super(cityCodes, defCity, defState, 
            "ALRM_LVL:PRI LOC:SKIP PLACE? ADDR! APT? CITY BTWN:X COM:INFO INFO+ CT:INFO INFO+");
   }
   

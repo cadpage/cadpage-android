@@ -1904,6 +1904,11 @@ LC911:ILLNESS    24 S OREGON ST   JOHNSTOWN
 LC911:[3298]-- - Nature: HEMMORAGE/LACERATION - Location: 36.00 S MAIN ST   JOHNSTOWN -
 LC911:- Nature: ILLNESS - NON SPECIFIC - Location:      65.00 S WILLIAMS ST  Suite:RM 206 JOHNSTOWN
 ***************************************************************************
+Loveland, OH (OHLovelandParser)
+Subject: Alert: EMS FALLS\nALRM LVL: 1\nLOC:\nPAXTON'S GRILL ***\n126 W LOVELAND AV\nLOVELD\nBTWN: 2ND ST & RAILROAD AV\n\n\n\nCOM:\n\n\nCT:\nD-JMP at POS 02
+Subject: Alert: EMS ABDOMINAL PAIN\nALRM LVL: 1\nLOC:\n9270 CACTUS LN\nSYMMTP\nBTWN: MCKINNEY RD & DEADEND\n\n\n\nCOM:\nM/58\n\nCT:\nD-CMS at POS 01
+Subject: Alert: EMS DIABETIC EMERGENCY\nALRM LVL: 1\nLOC:\n438 MAIN ST\nLOVELD\nBTWN: RIVERSIDE DR & WALL ST\n\nRCVD AS 911 Call\n\nCOM:\nF-40...LOW SUGAR\n\nCT:\nD-RCS at POS 02
+***************************************************************************
 Medina County, OH (OHMedinaCountyParser)
 (lCAD) [!] EMS//6387 CARSTEN RD MEDINA BETWEEN CHATHAM RD / COON CLUB RD//FEMALE FALL VIC TIM NEEDS LIFT ASSIST NO INJURY RECENTLY OUT OF THE HOSPITAL
 [gCAD]  [!] - NATURE: 2 //WB MEDINA RD / MEDINA L INE RD MEDINA//CALLBK=041.135838-081 .678843 1 VEH ON THE NORTH SIDE OF THE ROAD NO ONE AROUND IT
@@ -4621,19 +4626,6 @@ MOF
 **********************************************************
 **********************************************************
 **********************************************************
-Loveland, OH
-Contact: support@active911.com
-Sender: "dispatcher@safety-center.org" <dispatcher@safety-center.org>
-DispatchA1Parser subclass
-
-Subject: Alert: EMS FALLS\nALRM LVL: 1\nLOC:\nPAXTON'S GRILL ***\n126 W LOVELAND AV\nLOVELD\nBTWN: 2ND ST & RAILROAD AV\n\n\n\nCOM:\n\n\nCT:\nD-JMP at POS 02
-Subject: Alert: EMS ABDOMINAL PAIN\nALRM LVL: 1\nLOC:\n9270 CACTUS LN\nSYMMTP\nBTWN: MCKINNEY RD & DEADEND\n\n\n\nCOM:\nM/58\n\nCT:\nD-CMS at POS 01
-Subject: Alert: EMS DIABETIC EMERGENCY\nALRM LVL: 1\nLOC:\n438 MAIN ST\nLOVELD\nBTWN: RIVERSIDE DR & WALL ST\n\nRCVD AS 911 Call\n\nCOM:\nF-40...LOW SUGAR\n\nCT:\nD-RCS at POS 02
-Subject: Alert: FIRE ODOR INVESTIGATION\nALRM LVL: 1\nLOC:\n497 N 2ND ST\nLOVELD\nBTWN: LYONS AV & SENTRY HILL DR\n\nRCVD AS Phone\n\nCOM:\nSMOKE IN THE AREA\nPOSS ON LYONS\n\nCT:\nD-AWK at POS 01
-Subject: Alert: EMS DIABETIC EMERGENCY\nALRM LVL: 1\nLOC:\nSTATION 61\n8871 WEEKLY LN\nSYMMTP\nBTWN: MASON RD & DEAD END\n\n\n\nCOM:\nM/20\nEMS\nLOW BLOOD SUGAR\nLOBBY\nIN FRT LOBBY\n\nCT:\nD-AWK at POS 02
-Subject: Alert: EMS DIABETIC EMERGENCY\nALRM LVL: 1\nLOC:\nSTATION 61\n8871 WEEKLY LN\nSYMMTP\nBTWN: MASON RD & DEAD END\n\n\n\nCOM:\nM/20\nEMS\nLOW BLOOD SUGAR\nLOBBY\nIN FRT LOBBY\n\nCT:\nD-AWK at POS 02
-Subject: AlertTS Text Message\nThis is the weekly test message for the ESU
-Subject: Alert: EMS ABDOMINAL PAIN\nALRM LVL: 1\nLOC:\n154 FALLENOAK CT\nLOVELD\nBTWN: RAVINEWOOD TE & DEADEND\n\nRCVD AS Phone\n\nCOM:\nM-13....VOMITING & HALLUCENATING\n\nCT:\nD-RCS at POS 02
 **********************************************************
 
 
