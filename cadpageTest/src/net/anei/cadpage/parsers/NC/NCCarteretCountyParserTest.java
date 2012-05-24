@@ -274,7 +274,7 @@ public class NCCarteretCountyParserTest extends BaseParserTest {
   }
   
   @Test
-  public void testOtherParser() {
+  public void testJames() {
 
     doTest("T1",
         "wcfd.comm2+caf_=2522413726=vtext.com@gmail.com CEC:392 CROATAN DR CAPE CARTERET MDL 01D01 11-109565 11:32:17 FALLS",
@@ -293,6 +293,55 @@ public class NCCarteretCountyParserTest extends BaseParserTest {
         "TIME:16:24:22",
         "CALL:STROKE");
   
+  }
+  
+  @Test
+  public void test() {
+
+    doTest("T1",
+        "eifdcalls2+caf_=9103300503=vtext.com@gmail.com CEC:1211 EMERALD DR EMERALD ISLE MDL 29D04-A 12-062259 15:07:41 MVC PI OR ROLLOVER",
+        "ADDR:1211 EMERALD DR",
+        "CITY:EMERALD ISLE",
+        "CODE:29D04-A",
+        "ID:12-062259",
+        "TIME:15:07:41",
+        "CALL:MVC PI OR ROLLOVER");
+
+    doTest("T2",
+        "eifdcalls2+caf_=9103300503=vtext.com@gmail.com CEC:1211 EMERALD DR EMERALD ISLE MDL 29D04-A 12-062259 15:07:41 MVC PI OR ROLLOVER",
+        "ADDR:1211 EMERALD DR",
+        "CITY:EMERALD ISLE",
+        "CODE:29D04-A",
+        "ID:12-062259",
+        "TIME:15:07:41",
+        "CALL:MVC PI OR ROLLOVER");
+
+    doTest("T3",
+        "eifdcalls2+caf_=9103300503=vtext.com@gmail.com CEC:117 SEAGULL RD EMERALD ISLE MDL 28C01-L 12-063412 03:24:27 STROKE",
+        "ADDR:117 SEAGULL RD",
+        "CITY:EMERALD ISLE",
+        "CODE:28C01-L",
+        "ID:12-063412",
+        "TIME:03:24:27",
+        "CALL:STROKE");
+
+    doTest("T4",
+        "eifdcalls2+caf_=9103300503=vtext.com@gmail.com CEC:204 E SHOREWOOD DR EMERALD ISLE MDL 31C02 12-062435 21:40:52 FALLS",
+        "ADDR:204 E SHOREWOOD DR",
+        "CITY:EMERALD ISLE",
+        "CODE:31C02",
+        "ID:12-062435",
+        "TIME:21:40:52",
+        "CALL:FALLS");
+
+    doTest("T5",
+        "eifdcalls2+caf_=9103300503=vtext.com@gmail.com CEC:7603 OCEAN DR EMERALD ISLE 12-060974 02:51:34 ALLERGIES - REACTION",
+        "ADDR:7603 OCEAN DR",
+        "CITY:EMERALD ISLE",
+        "ID:12-060974",
+        "TIME:02:51:34",
+        "CALL:ALLERGIES - REACTION");
+   
   }
   
   public static void main(String[] args) {

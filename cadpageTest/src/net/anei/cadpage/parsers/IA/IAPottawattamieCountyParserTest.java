@@ -214,6 +214,20 @@ public class IAPottawattamieCountyParserTest extends BaseParserTest {
 
   }
   
+  @Test
+  public void testMartyMoore() {
+
+    doTest("T1",
+        "(2400) 24-12-088 05/23 12:38\nIDLEWOOD RD // 265 ST, POTT COUNTY\nEMS/FIRE - INJURY/TRAFFIC ACCIDENT",
+        "SRC:2400",
+        "ID:24-12-088",
+        "DATE:05/23",
+        "TIME:12:38",
+        "ADDR:IDLEWOOD RD &  & 265 ST",
+        "CALL:EMS/FIRE - INJURY/TRAFFIC ACCIDENT");
+
+  }
+  
   public static void main(String[] args) {
     new IAPottawattamieCountyParserTest().generateTests("T1");
   }
