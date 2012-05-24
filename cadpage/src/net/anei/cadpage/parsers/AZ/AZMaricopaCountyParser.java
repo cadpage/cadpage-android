@@ -28,8 +28,15 @@ Sender:CAD ADMIN <cad.admin@mesaaz.gov>
 public class AZMaricopaCountyParser extends FieldProgramParser {
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
-      "MESA", "MESA",
-      "TEMP", "TEMPE"
+	"SCOT", "SCOTTSDALE",
+	"SNLK", "SUN LAKES",
+	"APJU", "APACHE JUNCTION",
+	"CHAN", "CHANDLER",
+	"GILB", "GILBERT",
+	"MESA", "MESA",
+	"PINA", "PINAL",
+	"QNCR", "QUEEN CREEK",
+	"TEMP", "TEMPE"
   });
 
   public AZMaricopaCountyParser() {

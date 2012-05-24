@@ -225,7 +225,6 @@ public class IAPottawattamieCountyParserTest extends BaseParserTest {
         "TIME:12:38",
         "ADDR:IDLEWOOD RD &  & 265 ST",
         "CALL:EMS/FIRE - INJURY/TRAFFIC ACCIDENT");
-
   }
   
   public static void main(String[] args) {
