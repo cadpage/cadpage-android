@@ -118,6 +118,14 @@ public class ORDeschutesCountyParserTest extends BaseParserTest {
         "ADDR:8 GROUSE LN",
         "MAP:191132");
 
+    doTest("T14",
+        "BACK PAIN-A-571- 8562 SW SUNDOWN CANYON RD -Map 131216-23:38:04",
+        "CALL:BACK PAIN",
+        "PRI:A",
+        "UNIT:571",
+        "ADDR:8562 SW SUNDOWN CANYON RD",
+        "MAP:131216");
+
   }
   
   public static void main(String args[]) {
