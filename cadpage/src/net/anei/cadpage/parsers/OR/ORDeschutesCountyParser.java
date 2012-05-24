@@ -26,11 +26,14 @@ Contact: JASON ZOE ARNOLD <jzarnold@msn.com>
 Stroke Abnormal breathing -C-271,221- 2 ROGUE LN 17692 ROGUE LN -Map 191129-08:11:41
 Uncons / Fainting Not alert\3s-D-271,221- 10 HUMMINGBIRD LN 17553 HUMMINGBIRD LN -Map 191130-08:45:45
 CHEST PAIN-C-271,221- 6 WALLOWA LOOP 57720 WALLOWA LOOP -Map 191128-06:54:45
-
  
 Contact: "jaredjeffcott@yahoo.com" <jaredjeffcott@yahoo.com>
 Sender: 911@deschutes.org
 Stroke Vision Problems -C-271,221- 8 GROUSE LN 17887 GROUSE LN -Map 191132-17:56:37
+
+Contact: : "fastflat255@yahoo.com" <fastflat255@yahoo.com>
+Sender: 911@deschutes.org
+BACK PAIN-A-571- 8562 SW SUNDOWN CANYON RD -Map 131216-23:38:04
 
 */
 
