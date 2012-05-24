@@ -149,8 +149,12 @@ public class PAErieCountyAParserTest extends BaseParserTest {
         "MAP:2540",
         "CITY:FAIRVIEW TWP",
         "ID:2011-0000046825");
+  }
+  
+  @Test
+  public void testDanEdwards() {
 
-    doTest("T12",
+    doTest("T1",
         "ERIE911:6C1 >BREATHING PROBLEMS 817 POTOMAC AVE XS: W LAKE RD MILLCREEK TWP WATTS, BETTY Map:9214 Grids:, Cad: 2011-0000076275",
         "SRC:ERIE911",
         "CALL:BREATHING PROBLEMS",
@@ -160,26 +164,31 @@ public class PAErieCountyAParserTest extends BaseParserTest {
         "MAP:9214",
         "CITY:MILLCREEK TWP",
         "ID:2011-0000076275");
+    
+  }
+  
+  @Test
+  public void testMatFuller() {
 
-    doTest("T13",
+    doTest("T1",
         "ERIE911:HASKINS RD IS NOW OPEN",
         "SRC:ERIE911",
         "CALL:GENERAL ALERT",
         "PLACE:HASKINS RD IS NOW OPEN");
 
-    doTest("T14",
+    doTest("T2",
         "ERIE911:ACTIVE SHOOTER INCIDENTS - MANDATORY TRAINING - SEPT 6,7 OR 8TH. EIGHT HOUR COURSE. REQUIRED TO ATTEND ONE OF THE DAYS.",
         "SRC:ERIE911",
         "CALL:GENERAL ALERT",
         "PLACE:ACTIVE SHOOTER INCIDENTS - MANDATORY TRAINING - SEPT 6,7 OR 8TH. EIGHT HOUR COURSE. REQUIRED TO ATTEND ONE OF THE DAYS.");
 
-    doTest("T15",
+    doTest("T3",
         "ERIE911:SAMPSON RD NOW OPEN......",
         "SRC:ERIE911",
         "CALL:GENERAL ALERT",
         "PLACE:SAMPSON RD NOW OPEN......");
 
-    doTest("T16",
+    doTest("T4",
         "ERIE911:32B1 >UNKNOWN PROBLEM 10793 ETTER RD XS: LAKE PLEASANT RD GREENE TWP DUSILA,CANDY Map:277 Grids:, Cad: 2011-0000090035",
         "SRC:ERIE911",
         "CALL:UNKNOWN PROBLEM",
@@ -190,7 +199,7 @@ public class PAErieCountyAParserTest extends BaseParserTest {
         "MAP:277",
         "ID:2011-0000090035");
 
-    doTest("T17",
+    doTest("T5",
         "ERIE911:29D2N2>MVA -EJECTION- HIGH MECHANISM PLUM RD VENANGO TWP ADAM Map:489 Grids:, Cad: 2011-0000096580",
         "SRC:ERIE911",
         "CALL:MVA -EJECTION- HIGH MECHANISM",
@@ -200,31 +209,7 @@ public class PAErieCountyAParserTest extends BaseParserTest {
         "MAP:489",
         "ID:2011-0000096580");
 
-    doTest("T18",
-        "FRM:messaging@iamresponding.com\nSUBJ:West Ridge Fire\nMSG:21B1 &gt;HEMORRHAGE / LACERATIONS 4242 ASBURY RD XS: THOROUGHBRED LOOP MILLCREEK TWP\n",
-        "SRC:West Ridge Fire",
-        "CALL:HEMORRHAGE / LACERATIONS",
-        "ADDR:4242 ASBURY RD",
-        "CITY:MILLCREEK TWP",
-        "X:THOROUGHBRED LOOP");
-
-    doTest("T19",
-        "FRM:messaging@iamresponding.com\nSUBJ:West Ridge Fire\nMSG:9E1 &gt;CARDIAC/RESP ARREST / DEATH 4411 FOREST GLEN DR XS: W 38TH ST MILLCREEK TWP\n",
-        "SRC:West Ridge Fire",
-        "CALL:CARDIAC/RESP ARREST / DEATH",
-        "ADDR:4411 FOREST GLEN DR",
-        "CITY:MILLCREEK TWP",
-        "X:W 38TH ST");
-
-    doTest("T20",
-        "FRM:messaging@iamresponding.com\nSUBJ:West Ridge Fire\nMSG:28C10G&gt;STROKE (CVA) BREATH NORM &gt; 35 3643 MEADOW DR XS: CAUGHEY RD MILLCREEK TWP\n",
-        "SRC:West Ridge Fire",
-        "CALL:STROKE (CVA) BREATH NORM > 35",
-        "ADDR:3643 MEADOW DR",
-        "CITY:MILLCREEK TWP",
-        "X:CAUGHEY RD");
-
-    doTest("T21",
+    doTest("T4",
         "1 of 2:ERIE911:65A >MUTUAL AID/ASSIST OUTSIDE AGEN 328 HIGH ST XS: N PARK ROW WATERFORD BORO CHIEF CHRIS BARBER",
         "SRC:ERIE911",
         "CALL:MUTUAL AID/ASSIST OUTSIDE AGEN",
@@ -233,7 +218,7 @@ public class PAErieCountyAParserTest extends BaseParserTest {
         "X:N PARK ROW",
         "NAME:BORO CHIEF CHRIS BARBER");
 
-    doTest("T22",
+    doTest("T5",
         "ERIE911:1C4 >ABDOM PAIN - FEM 12-50 W/FAINT 9625 MARK RD XS: WATTSBURG RD GREENE TWP WEED DAVID Map:307 Grids:, Cad: 2012-0000006327",
         "SRC:ERIE911",
         "CALL:ABDOM PAIN - FEM 12-50 W/FAINT",
@@ -244,7 +229,7 @@ public class PAErieCountyAParserTest extends BaseParserTest {
         "MAP:307",
         "ID:2012-0000006327");
 
-    doTest("T23",
+    doTest("T6",
         "ERIE911:29D4A >MVA-TRAPPED MULTI PT/ADD RESPO LAKE PLEASANT RD&TATE RD XS: TATE RD GREENE TWP Cad: 2012-0000020343",
         "SRC:ERIE911",
         "CALL:MVA-TRAPPED MULTI PT/ADD RESPO",
@@ -253,7 +238,7 @@ public class PAErieCountyAParserTest extends BaseParserTest {
         "X:TATE RD",
         "ID:2012-0000020343");
 
-    doTest("T24",
+    doTest("T7",
         "ERIE911:ROAD CLOSING ARBUCKLE RD XS: FOOTEMILL RD Cad: 2012-0000043019 ARBUCKLE FROM FOOTMILL TO LAKE PLEASANT RD CLOSED BY STREET DEPT",
         "SRC:ERIE911",
         "CALL:ERIE911: ROAD CLOSING",
@@ -263,17 +248,7 @@ public class PAErieCountyAParserTest extends BaseParserTest {
         "ID:2012-0000043019",
         "INFO:ARBUCKLE FROM FOOTMILL TO LAKE PLEASANT RD CLOSED BY STREET DEPT");
 
-    doTest("T25",
-        "ERIE911:28C2L >STROKE-ABNORMAL BREATH <2HRS 835 LINDEN AVE XS: W LAKE RD MILLCREEK TWP Map:9769 Grids:, Cad: 2012-0000044276",
-        "SRC:ERIE911",
-        "CALL:STROKE-ABNORMAL BREATH <2HRS",
-        "ADDR:835 LINDEN AVE",
-        "CITY:MILLCREEK TWP",
-        "X:W LAKE RD",
-        "MAP:9769",
-        "ID:2012-0000044276");
-
-    doTest("T26",
+    doTest("T8",
         "ERIE911:17B1G >FALLS (GRD/FLR) POSS DANGER BO 9184 OLD WATTSBURG RD XS: HORSESHOE DR GREENE TWP Map:298 Grids:, Cad: 2012-0000045463",
         "SRC:ERIE911",
         "CALL:FALLS (GRD/FLR) POSS DANGER BO",
@@ -283,7 +258,45 @@ public class PAErieCountyAParserTest extends BaseParserTest {
         "MAP:298",
         "ID:2012-0000045463");
 
-    doTest("T27",
+    doTest("T9",
+        "ERIE911:10D2 >CHEST PAIN DIFF SPEAK BTW BRE 10101 WATTSBURG RD XS: DEWEY RD/DUTCH RD GREENE TWP Map:173 Grids:, Cad: 2012-0000059733",
+        "SRC:ERIE911",
+        "CALL:CHEST PAIN DIFF SPEAK BTW BRE",
+        "ADDR:10101 WATTSBURG RD",
+        "CITY:GREENE TWP",
+        "X:DEWEY RD / DUTCH RD",
+        "MAP:173",
+        "ID:2012-0000059733");
+  }
+  
+  @Test
+  public void testMatExley() {
+
+    doTest("T1",
+        "FRM:messaging@iamresponding.com\nSUBJ:West Ridge Fire\nMSG:21B1 &gt;HEMORRHAGE / LACERATIONS 4242 ASBURY RD XS: THOROUGHBRED LOOP MILLCREEK TWP\n",
+        "SRC:West Ridge Fire",
+        "CALL:HEMORRHAGE / LACERATIONS",
+        "ADDR:4242 ASBURY RD",
+        "CITY:MILLCREEK TWP",
+        "X:THOROUGHBRED LOOP");
+
+    doTest("T2",
+        "FRM:messaging@iamresponding.com\nSUBJ:West Ridge Fire\nMSG:9E1 &gt;CARDIAC/RESP ARREST / DEATH 4411 FOREST GLEN DR XS: W 38TH ST MILLCREEK TWP\n",
+        "SRC:West Ridge Fire",
+        "CALL:CARDIAC/RESP ARREST / DEATH",
+        "ADDR:4411 FOREST GLEN DR",
+        "CITY:MILLCREEK TWP",
+        "X:W 38TH ST");
+
+    doTest("T3",
+        "FRM:messaging@iamresponding.com\nSUBJ:West Ridge Fire\nMSG:28C10G&gt;STROKE (CVA) BREATH NORM &gt; 35 3643 MEADOW DR XS: CAUGHEY RD MILLCREEK TWP\n",
+        "SRC:West Ridge Fire",
+        "CALL:STROKE (CVA) BREATH NORM > 35",
+        "ADDR:3643 MEADOW DR",
+        "CITY:MILLCREEK TWP",
+        "X:CAUGHEY RD");
+
+    doTest("T4",
         "FRM:messaging@iamresponding.com\nSUBJ:West Ridge Fire\nMSG:29B1 >MVA - WITH INJURIES 4440 ASBURY RD XS: LESTER LN MILLCREEK TWP\r\n",
         "SRC:West Ridge Fire",
         "CALL:MVA - WITH INJURIES",
@@ -291,7 +304,7 @@ public class PAErieCountyAParserTest extends BaseParserTest {
         "CITY:MILLCREEK TWP",
         "X:LESTER LN");
 
-    doTest("T28",
+    doTest("T5",
         "FRM:messaging@iamresponding.com\n" +
         "SUBJ:West Ridge Fire\n" +
         "MSG:26D1 >SICK PERSON - NOT ALERT 3912 E BOARDWALK PL XS: MEDITERRANEAN PL MILLCREEK TWP\r\n",
@@ -302,7 +315,7 @@ public class PAErieCountyAParserTest extends BaseParserTest {
         "CITY:MILLCREEK TWP",
         "X:MEDITERRANEAN PL");
 
-    doTest("T29",
+    doTest("T6",
         "FRM:messaging@iamresponding.com\n" +
         "SUBJ:West Ridge Fire\n" +
         "MSG:10C2 >CHEST PAIN - CARDIAC HISTORY 3121 PINE TREE TER XS: VILLAGE ST MILLCREEK TWP\r\n",
@@ -313,7 +326,7 @@ public class PAErieCountyAParserTest extends BaseParserTest {
         "CITY:MILLCREEK TWP",
         "X:VILLAGE ST");
 
-    doTest("T30",
+    doTest("T7",
         "FRM:messaging@iamresponding.com\n" +
         "SUBJ:West Ridge Fire\n" +
         "MSG:29D4 >MVA - PINNED / ENTRAPPED GRUBB RD&HERSHEY RD XS: HERSHEY RD MILLCREEK TWP\r\n",
@@ -324,13 +337,27 @@ public class PAErieCountyAParserTest extends BaseParserTest {
         "CITY:MILLCREEK TWP",
         "X:HERSHEY RD");
 
-    doTest("T31",
+    doTest("T8",
         "FRM:messaging@iamresponding.com\nSUBJ:West Ridge Fire\nMSG:29D1 >MVA - MAJOR INCIDENT W RIDGE RD&W 23RD ST Cad: 2012-0000059501\r\n\r\n",
         "SRC:West Ridge Fire",
         "CALL:MVA - MAJOR INCIDENT",
         "ADDR:W RIDGE RD & W 23RD ST",
         "ID:2012-0000059501");
   }
+
+  @Test
+  public void testKmccaslin1() {
+
+    doTest("T1",
+        "ERIE911:28C2L >STROKE-ABNORMAL BREATH <2HRS 835 LINDEN AVE XS: W LAKE RD MILLCREEK TWP Map:9769 Grids:, Cad: 2012-0000044276",
+        "SRC:ERIE911",
+        "CALL:STROKE-ABNORMAL BREATH <2HRS",
+        "ADDR:835 LINDEN AVE",
+        "CITY:MILLCREEK TWP",
+        "X:W LAKE RD",
+        "MAP:9769",
+        "ID:2012-0000044276");
+ }
   
   public static void main(String[] args) {
     new PAErieCountyAParserTest().generateTests("T1", "SRC CALL ADDR CITY X NAME MAP PLACE ID INFO");
