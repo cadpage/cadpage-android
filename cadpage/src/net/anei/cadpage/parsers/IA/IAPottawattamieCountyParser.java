@@ -34,6 +34,9 @@ Contact: "kelly.rapier@yahoo.com" <kelly.rapier@yahoo.com>
 Sender: messaging@iamresponding.com
 (1700) 05/06 14:48\n45 I29, POTT COUNTY\nFIRE - CAR AUTOMOBILE FIRE\nXST: 490 ST//ANTIQUE CITY DR
 
+Contact: marty moore <martymoore130@gmail.com>
+Sender: messaging@iamresponding.com
+(2400) 24-12-088 05/23 12:38\nIDLEWOOD RD // 265 ST, POTT COUNTY\nEMS/FIRE - INJURY/TRAFFIC ACCIDENT
 
  */
 

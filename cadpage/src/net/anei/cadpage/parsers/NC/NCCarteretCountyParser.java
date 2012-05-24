@@ -46,6 +46,15 @@ Contact: James <firefighter1249@gmail.com>
 wcfd.comm2+caf_=2522413726=vtext.com@gmail.com CEC:392 CROATAN DR CAPE CARTERET MDL 01D01 11-109565 11:32:17 FALLS
 wcfd.comm2+caf_=2522413726=vtext.com@gmail.com CEC:129 HUNTER BROWN DR CAPE CARTERET 11-113600 16:24:22 STROKE
 
+Contact: William Matthias <coastalfireequip@yahoo.com>
+Sender: vtext.com@gmail.com
+eifdcalls2+caf_=9103300503=vtext.com@gmail.com CEC:1211 EMERALD DR EMERALD ISLE MDL 29D04-A 12-062259 15:07:41 MVC PI OR ROLLOVER
+eifdcalls2+caf_=9103300503=vtext.com@gmail.com CEC:1211 EMERALD DR EMERALD ISLE MDL 29D04-A 12-062259 15:07:41 MVC PI OR ROLLOVER
+eifdcalls2+caf_=9103300503=vtext.com@gmail.com CEC:117 SEAGULL RD EMERALD ISLE MDL 28C01-L 12-063412 03:24:27 STROKE
+eifdcalls2+caf_=9103300503=vtext.com@gmail.com CEC:204 E SHOREWOOD DR EMERALD ISLE MDL 31C02 12-062435 21:40:52 FALLS
+eifdcalls2+caf_=9103300503=vtext.com@gmail.com CEC:7603 OCEAN DR EMERALD ISLE 12-060974 02:51:34 ALLERGIES - REACTION
+
+
 */
 
 public class NCCarteretCountyParser extends DispatchSouthernParser {
