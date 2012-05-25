@@ -1,7 +1,6 @@
 package net.anei.cadpage.parsers.NY;
 
 import net.anei.cadpage.parsers.BaseParserTest;
-import net.anei.cadpage.parsers.NY.NYOneidaCountyParser;
 
 import org.junit.Test;
 
