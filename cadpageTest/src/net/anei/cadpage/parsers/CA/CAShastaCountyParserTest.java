@@ -124,6 +124,36 @@ public class CAShastaCountyParserTest extends BaseParserTest {
   }
   
   @Test
+  public void test() {
+
+    doTest("T1",
+        "(CAD Page) MEDICAL; 19598 WOODHILL DR ,MONTGOMERYCK ; ; 19500 BLK COVE RD; Map: 2630; Inc# 003704; AMB17 VOL71; <a href=\"http://maps.google.com/?q=40.856939,-121.907293\" />Map",
+        "CALL:MEDICAL",
+        "ADDR:19598 WOODHILL DR",
+        "SRC:MONTGOMERYCK",
+        "X:19500 BLK COVE RD",
+        "MAP:2630",
+        "ID:003704",
+        "UNIT:AMB17 VOL71",
+        "INFO:<a href=\"http://maps.google.com/?q=40.856939,-121.907293\" />Map");
+
+    doTest("T2",
+        "FRM:shucad@fire.ca.gov\n" +
+        "SUBJ:CAD Page\n" +
+        "MSG:MEDICAL; 31102 WEBSTER WY ,MONTGOMERYCK ; ;  DEAD-END; Map: 2630; Inc# 003418; AMB217 VOL71; 68 F diabetic",
+
+        "CALL:MEDICAL",
+        "ADDR:31102 WEBSTER WY",
+        "SRC:MONTGOMERYCK",
+        "X:DEAD-END",
+        "MAP:2630",
+        "ID:003418",
+        "UNIT:AMB217 VOL71",
+        "INFO:68 F diabetic");
+ 
+  }
+  
+  @Test
   public void testActive911() {
 
     doTest("T1",
