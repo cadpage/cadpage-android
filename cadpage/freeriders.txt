@@ -1240,7 +1240,7 @@ Levon Ellian (MCP2461@aol.com)
 %%04/10/2012
 FRANCIS BAUER (pgfd702@gmail.com)(pgfdid702@gmail.com)(pgfd702@comcast.net)
 %%04/11/2012
-Barry Sigmon (buford13@charter.net)
+Barry Sigmon <barrysigmon@gmail.com> (buford13@charter.net)
 Ocey Grant (orneryocey@gmail.com)(tas@wbcable.net)
 %%04/12/2012
 LuAnne Cress (luanne.cress@rowanrescue.org)(lcress1@windstream.net)
