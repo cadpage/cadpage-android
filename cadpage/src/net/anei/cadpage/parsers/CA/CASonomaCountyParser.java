@@ -69,32 +69,9 @@ Contact: support@active911.com
 
 public class CASonomaCountyParser extends FieldProgramParser {
   
-  private static final Properties STATION_CODES = buildCodeTable(new String[]{
-    "BEL",  "BEL",
-    "BBY",  "BBY", // Bodega Bay
-    "BLO",  "BLO", // Bloomfield
-    "BOD",  "BOD", // ???
-    "LAR",  "LAR",
-    "MWS",  "MWS",
-    "PET",  "PET",
-    "RIN",  "RIN",
-    "ROS",  "ROS",
-    "SCH",  "SCH",
-    "SO",   "SO",
-    "SR",   "SR",
-    "SRO",  "SRO",
-    "VFR",  "VFR", // Valley Ford
-    "WI",   "WI",
-    "WSR",  "WSR",
-
-    "BDGA",      "BODEGA",
-    "BDGA BAY",  "BODEGA BAY",
-  });
-  
-  private static final Pattern HW_PTN = Pattern.compile("\\bHW\\b");
-  
   public CASonomaCountyParser() {
-    super(STATION_CODES, "SONOMA COUNTY", "CA",
+    super(CITY_LIST, 
+           "SONOMA COUNTY", "CA",
            "Loc:ADDR? BOX:BOX TYP:CALL? CN:NAME C#:PHONE TYP:CALL? TYPE_CODE:SKIP CALLER_NAME:NAME CALLER_ADDR:ADDR2/S TIME:TIME COM:INFO");
   }
   
@@ -108,7 +85,6 @@ public class CASonomaCountyParser extends FieldProgramParser {
     body = body.replace(" CN:COM ", " CN: COM:").replace(" CN:COM:", " CN: COM:");
     if (! super.parseMsg(body, data)) return false;
     if (data.strAddress.length() == 0) return false;
-    data.strAddress = HW_PTN.matcher(data.strAddress).replaceAll("HWY");
     return true;
   }
   
@@ -135,24 +111,23 @@ public class CASonomaCountyParser extends FieldProgramParser {
       }
       
       fld = fld.replace(" AT ", " & ");
-      if (data.strSource.length() > 0) {
-        parseAddress(fld, data);
-      } else {
-        parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END, fld, data);
-        if (data.strCity.length() <= 3) {
-          data.strSource = data.strCity;
-          data.strCity = "";
-        }
+      parseAddress(StartType.START_ADDR, FLAG_ANCHOR_END, fld, data);
+      if (data.strCity.length() > 0) {
+        if (data.strSource.length() == 0) data.strSource = data.strCity;
+        data.strCity = convertCodes(data.strCity, CITY_CODES);
+      } else if (data.strSource.length() > 0) {
+        data.strCity = convertCodes(data.strSource, CITY_CODES);
       }
+      if (data.strCity.length() <= 3) data.strCity = "";
     }
     
     @Override
     public String getFieldNames() {
-      return "ADDR SRC PLACE";
+      return "ADDR CITY SRC PLACE";
     }
   }
   
-  private class MyAddress2Field extends AddressField {
+  private class MyAddress2Field extends MyAddressField {
     @Override
     public void parse(String field, Data data) {
       if (data.strAddress.length() > 0) return;
@@ -198,4 +173,86 @@ public class CASonomaCountyParser extends FieldProgramParser {
     if (name.equals("INFO")) return new MyInfoField();
     return super.getField(name);
   }
+  
+  private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "AGU", "AQUA CALIENTE",
+      "ANP", "ANNAPOLIS",
+      "AST", "CLOVERDALE",
+      "BBY", "BODEGA BAY",
+      "BEL", "SANTA ROSA",
+      "BEN", "SANTA ROSA",
+      "BLO", "PETALUMA",
+      "BOD", "BODEGA",
+      "BOY", "BOYES HOT SPRINGS",
+      "CAM", "CAMP MEEKER",
+      "CAZ", "CAZADERO",
+      "CL",  "CLOVERDALE",
+      "CLO", "CLOVERDALE",
+      "CO",  "COTATI",
+      "COT", "COTATI",
+      "DRC", "HEALDSBURG",
+      "DUN", "DUNCANS MILLS",
+      "ELD", "ELDRIDGE",
+      "ELV", "EL VERANO",
+      "FIT", "HEALDSBURG",
+      "FOR", "FORESTVILLE",
+      "FTR", "FORT ROSS",
+      "FUL", "SANTA ROSA",
+      "GEY", "GEYSERVILLE",
+      "GLE", "GLEN ELLEN",
+      "GRA", "GRATON",
+      "GUE", "GUERNVILLE",
+      "HE",  "HEALDSBURG",
+      "HEA", "HEALDSBURG",
+      "HES", "SEBATOPOL",
+      "JCD", "JCD",
+      "JEN", "JENNER",
+      "KEN", "KENWOOD",
+      "KNI", "CALISTOGA",
+      "KOR", "FORESTVILLE",
+      "LAK", "PETALUMA",
+      "LAR", "SANTA ROSA",
+      "LKC", "LAKE COUNTY",
+      "LSO", "GEYSERVILLE",
+      "MAY", "GLEN ELLEN",
+      "MEN", "MENDOCINO COUNTY",
+      "MRN", "MARIN COUNTY",
+      "MRO", "MONTE RIO",
+      "MTN", "CALISTOGA",
+      "MWS", "SANTA ROSA",
+      "NAP", "NAPA",
+      "OCC", "OCCIDENTAL",
+      "PE",  "PETALUMA",
+      "PEN", "PENNGROVE",
+      "PET", "PETALUMA",
+      "RIN", "SANTA ROSA",
+      "RLN", "HEALDSBURG",
+      "RND", "RIO NIDO",
+      "ROH", "ROHNERT PARK",
+      "ROS", "SANTA ROSA",
+      "RP",  "ROHNERT PARK",
+      "SCH", "SCHELLVILLE",
+      "SE",  "SEBATOPOL",
+      "SEB", "SEBATOPOL",
+      "SO",  "SONOMA",
+      "SOL", "SOLANO COUNTY",
+      "SON", "SONOMA",
+      "SR",  "SANTA ROSA",
+      "SRO", "SANTA ROSA",
+      "SSU", "ROHNERT PARK",
+      "TCG", "PETALUMA",
+      "TIM", "TIMBER COVE",
+      "TSR", "SEA RANCH",
+      "TWI", "SEBATOPOL",
+      "TWR", "PETALUMA",
+      "VFR", "VALLEY FORD",
+      "WI",  "WINDSOR",
+      "WIN", "WINDSOR",
+      "WSR", "SANTA ROSA",
+
+      "BDGA",      "BODEGA",
+      "BDGA BAY",  "BODEGA BAY"
+  });
+  
+  private static final String[] CITY_LIST = CITY_CODES.keySet().toArray(new String[CITY_CODES.size()]);
 }
