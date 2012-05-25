@@ -102,12 +102,12 @@
     your Paypal account and see if that helps.
   </string>
   
-  <string name="donate_wrong_user_title">"I've made a Paypal payment"</string>
+  <string name="donate_wrong_user_title">"Hey, I've already contributed"</string>
   <string name="donate_wrong_user_text">
-    Our sincere apologies.  Cadpage tracks you by your Google Market account
-    "which is %s. If this doesn't match the Paypal account you used to pay"
-    us, we will need some help figuring out who you are. Just clicking the
-    button below will send us an email that will hopefully clear things up.
+    Our sincere apologies.  Please click the button below to generate an email.  
+    It helps if the email includes your full name somewhere so we can use it to
+    look you up in our payment records.  We will do our best to get this
+    straitened out.  
   </string>
   
   <string name="donate_android_title">Purchase through Android Market</string>
