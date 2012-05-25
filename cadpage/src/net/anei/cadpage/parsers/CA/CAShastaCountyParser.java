@@ -24,6 +24,11 @@ Contact: Mark Kendall <mark.kendall2408@gmail.com>
 Sender: 5304482408
 FIRE, OTHER; 7600 BLACK BUTTE RD / 28502 HWY 44 ,SHINGLETOWN ; ; ; Map: 3678; Inc# 003825; E2460 VOL20 B2408; portable saw on fire.
 
+Contact: ransomgreenslade <ransomgreenslade@yahoo.com>
+Sender: shucad@fire.ca.gov
+(CAD Page) MEDICAL; 19598 WOODHILL DR ,MONTGOMERYCK ; ; 19500 BLK COVE RD; Map: 2630; Inc# 003704; AMB17 VOL71; <a href="http://maps.google.com/?q=40.856939,-121.907293" />Map
+FRM:shucad@fire.ca.gov\nSUBJ:CAD Page\nMSG:MEDICAL; 31102 WEBSTER WY ,MONTGOMERYCK ; ;  DEAD-END; Map: 2630; Inc# 003418; AMB217 VOL71; 68 F diabetic
+
 Contact: support@active911.com
 From: shucad@fire.ca.gov
 (CAD Page) MEDICAL; 11633 SONORA TRL,SHASTACOLL ; ; 20818 BLK HWY 299 E;\nMap:3225; Inc# 001115;E2452 VOL33; 80 YOF GEN ILL

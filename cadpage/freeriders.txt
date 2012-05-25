@@ -1376,7 +1376,7 @@ Nick Danforth           (5418910652)
 Sam Seybold             (5418917864)
 Briston Gilman          (5412383100)
 Deb Ryan                (5418913607)
-
+Eric Trygstad           (5412819975)
 
 // List of users getting credit for 2013
 $paid_2013_list
@@ -2207,3 +2207,9 @@ Dustin Dilks (5954dilks@gmail.com) <res5cue54@yahoo.com>
 Jacob Craig <jcraig1230@vcat.cvcc.edu>
 Kenneth Barron <kbarron6@gmail.com>
 Robert Wood <cvfd53@gmail.com>
+%%05/23/2012
+Keith Guerin <keithguerin5@gmail.com>
+ashley leibforth <aleibforth@gmail.com>
+Terry Peacock <fireguy4045@gmail.com>
+Jonathan Holcomb <jholcomb09@gmail.com>
+"gerardhoch@yahoo.com" (ghoch643@gmail.com) <gerardhoch@yahoo.com>
