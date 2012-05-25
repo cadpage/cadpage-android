@@ -87,7 +87,7 @@
     You have been using Cadpage for %1$d days.  Your cadpage demo expired %2$d days ago.  
   </string>
   
-  <string name="donate_android16_title">"Hey, I've already contributed"</string>
+  <string name="donate_android16_title">"Hey, I've already paid for this"</string>
   <string name="donate_android16_text">
     Our sincere apologies.  Cadpage tracks you by your Google Market account
     and you are running Android 1.6 which does not gives us the ability to 
@@ -95,14 +95,14 @@
     ride as long as you are running Android 1.6.
   </string>
   
-  <string name="donate_no_user_title">"Hey, I've already contributed"</string>
+  <string name="donate_no_user_title">"Hey, I've already paid for this"</string>
   <string name="donate_no_user_text">
     Our sincere apologies.  Cadpage tracks you by your Google Market account
     "and you don't seem to have one.  Try logging into the Android Market with"
     your Paypal account and see if that helps.
   </string>
   
-  <string name="donate_wrong_user_title">"Hey, I've already contributed"</string>
+  <string name="donate_wrong_user_title">"Hey, I've already paid for this"</string>
   <string name="donate_wrong_user_text">
     Our sincere apologies.  Please click the button below to generate an email.  
     It helps if the email includes your full name somewhere so we can use it to
