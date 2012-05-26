@@ -54,7 +54,7 @@ public class VAPrinceWilliamCountyParser extends FieldProgramParser {
   
   public VAPrinceWilliamCountyParser() {
     super(CITY_CODES, "PRINCE WILLIAM COUNTY", "VA",
-           "DATE TIME CODE ADDR X/Z+? BOX UNIT INFO+");
+           "DATE TIME CODE ADDR X/Z+? BOX UNIT! INFO+");
   }
 
   @Override
@@ -66,7 +66,7 @@ public class VAPrinceWilliamCountyParser extends FieldProgramParser {
   protected boolean parseMsg(String body, Data data) {
     int pt = body.indexOf('\n');
     if (pt >= 0) body = body.substring(0,pt).trim();
-    return parseFields(body.split("/"), data);
+    return parseFields(body.split("/"), 6, data);
   }
   
   private static final DateFormat DATE_FMT = new SimpleDateFormat("dd-MMM-yyyy");
