@@ -12,6 +12,10 @@ Contact: Jeff Gooch <goochff21@gmail.com>
 "."@butlerco.911 :FIRST >FIRE - STRUCTURE 20036 ROUTE 19 CRANBERRY TWP CANDLEWOOD EXTENDED STAY Map: Grids:00000,000 Cad: 2011-0000074503
 "."@co.butler.pa.us :ALAF >ALARM/FIRE 20620 ROUTE 19 CRANBERRY TWP RAMPART Map: Grids:00000,000 Cad: 2012-0000006337
 
+Contact: Kenneth Chiacchia <chiacchiakb@gmail.com>
+Sender: 6245
+"."@co.butler.pa.us :ALAF >ALARM/FIRE 804 PROSPECT RD CONNOQ TWP GAURDIAN Map: Grids:00000,000 Cad: 2012-0000035901
+
 */
 
 public class PAButlerCountyParser extends DispatchBParser {
@@ -44,6 +48,7 @@ public class PAButlerCountyParser extends DispatchBParser {
     if (!found) return false;
     
     if (! super.parseMsg(body, data)) return false;
+    if (data.strCity.equals("CONNOQ TWP")) data.strCity = "CONNOQUENESSING TWP";
     if (data.strMap.equals("00000,000")) data.strMap = "";
     return true;
   }
@@ -86,6 +91,7 @@ public class PAButlerCountyParser extends DispatchBParser {
     "CLEARFIELD TWP",
     "CLINTON TWP",
     "CONCORD TWP",
+    "CONNOQ TWP",
     "CONNOQUENESSING TWP",
     "CRANBERRY TWP",
     "DONEGAL TWP",

@@ -55,6 +55,19 @@ public class PAButlerCountyParserTest extends BaseParserTest {
         "ID:2012-0000006337");
   }
   
+  @Test
+  public void test() {
+
+    doTest("T1",
+        "\".\"@co.butler.pa.us :ALAF >ALARM/FIRE 804 PROSPECT RD CONNOQ TWP GAURDIAN Map: Grids:00000,000 Cad: 2012-0000035901",
+        "CALL:ALARM/FIRE",
+        "ADDR:804 PROSPECT RD",
+        "CITY:CONNOQUENESSING TWP",
+        "NAME:GAURDIAN",
+        "ID:2012-0000035901");
+  
+  }
+  
   public static void main(String[] args) {
     new PAButlerCountyParserTest().generateTests("T1", "CALL ADDR CITY X PLACE NAME PHONE MAP ID");
   }
