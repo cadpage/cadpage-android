@@ -36,6 +36,14 @@ public class ILRockIslandCountyParserTest extends BaseParserTest {
         "CALL:FIRE ALARM",
         "ADDR:3605 11TH AV",
         "MADDR:3605 11TH AVE");
+
+    doTest("T4",
+        "@RIFD: 16193:;MEDICAL CALL;2300-46 79TH AV W",
+        "SRC:RIFD",
+        "ID:16193",
+        "CALL:MEDICAL CALL",
+        "ADDR:2300-46 79TH AV W",
+        "MADDR:2300 79TH AVE W");
     
   }
   

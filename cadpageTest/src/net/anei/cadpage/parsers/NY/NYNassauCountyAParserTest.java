@@ -138,4 +138,8 @@ public class NYNassauCountyAParserTest extends BaseParserTest {
         "INFO:FAS TRUCK--WANG HALL");
    
   }
+  
+  public static void main(String[] args) {
+    new NYNassauCountyAParserTest().generateTests("T1", "CALL PLACE ADDR CITY X INFO");
+  }
 }

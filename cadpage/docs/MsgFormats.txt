@@ -4346,8 +4346,34 @@ Contact: Jim fear <jimmyboy762@yahoo.com>
 Sender: dispatch@montville-ct.org
 (Imc Solutions Page) MOTOR VEHICLE ACCIDENT\nCUMBERLAND FARMS\n863 NORWICH NEW LONDON TPKE \nMONTVILLE\nFire District: MFD1\n5/24/2012 18:17
 **********************************************************
+Pierce County, WA
+Contact: swampjeep01 <swampjeep01@gmail.com>
+Sender: 41411
+Body:FIRE911\n
+\n
+31D3 @ 16:57:29\r\n
+DLOC\r\n
+6505 CLIFF AV KS,16\r\n
+Map=300,RD=16- 400\r\n
+to: F16\n
+\n
+Powered by m.textmarks.com\n
+\n
+*Psoriasis treatment option http://4in.fo/gP_Gbw
+Body:FIRE911\n
+\n
+26C1 @ 02:48:37\r\n
+ALTERED LOC\r\n
+2627 200TH AV KS,16\r\n
+Map=195,RD=16- 320\r\n
+to: F16\n
+\n
+Powered by m.textmarks.com
 **********************************************************
-**********************************************************
+Nassau County, NY
+Contact:  Debbie glowinski <luvmy4cats_2001@yahoo.com>
+Sender: vtext.com@mxsp2.email-od.com 
+96f.10.5163221713=vtext.com@mxsp2.email-od.com (** ALARM: ** SIGNAL 9 **) ** SIGNAL 9 ** SANDS POINT NURSING HOME  1440 PORT WASHINGTON BLVD  C/S: HARBOR ROAD / AVENUE A - ADTNL: [
 **********************************************************
 **********************************************************
 **********************************************************
@@ -4384,6 +4410,15 @@ MONTEVALL - ALMONT
 CARDIAC   ADLT
 MON
 140 DAVIS-HAWKINS ST @ YOUNG BLVD / GILMORE-NICK CIR
+**********************************************************
+Baldwin County, AL
+Contact: Josh Hines <josh36530@gmail.com>
+Sender: cad@baldwin911.org
+- E911 Notification - Elberta VFD - 05-20-12 13:43: Station STA31 dispatched to Incident ID 290161 (Stroke) at 25855 WILLOW RIDGE R
+- E911 Notification - Elberta VFD - 05-21-12 15:35: Station STA31 dispatched to Incident ID 290600 (Fire - Grass) at 17305 JOE GOTTLER RD
+- E911 Notification - Elberta VFD - 05-24-12 08:48: Station STA31 dispatched to Incident ID 291543 (Auto Accident) at 14850 87\n
+- E911 Notification - Elberta VFD - 05-26-12 08:04: Station STA31 dispatched to Incident ID 292420 (Auto Accident) at US HWY 98 @ SANDY LN
+
 **********************************************************
 
 
