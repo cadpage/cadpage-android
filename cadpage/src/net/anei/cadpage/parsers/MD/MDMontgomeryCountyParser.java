@@ -91,8 +91,8 @@ public class MDMontgomeryCountyParser extends FieldProgramParser {
 	protected boolean parseMsg(String body, Data data) {
   
 	  int pt = body.indexOf("* D * ");
-    body = body.substring(pt+6).trim();
 	  if (pt < 0) return false;
+	  body = body.substring(pt+6).trim();
 	  pt = body.indexOf('\n');
 	  if (pt >= 0) body = body.substring(0,pt).trim();
 	  return parseFields(body.split("\\*"), 4, data);
@@ -113,7 +113,7 @@ public class MDMontgomeryCountyParser extends FieldProgramParser {
         data.strCity = "WASHINGTON";
         data.strState = "DC";
       }
-	  }
+    }
 	  
 	  @Override
 	  public String getFieldNames() {

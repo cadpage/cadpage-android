@@ -69,7 +69,7 @@ public class MORayCountyParser extends DispatchGlobalDispatchParser {
   
   @Override
   public String getFilter() {
-    return "raycountycentraldispatch@gmail.com";
+    return "dispatch@raycounty911.com";
   }
   
   @Override

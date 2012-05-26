@@ -12,6 +12,11 @@ public class MDMontgomeryCountyParserTest extends BaseParserTest {
   }
   
   @Test
+  public void testBad() {
+    doBadTest("(MCo) T");
+  }
+  
+  @Test
   public void testParser() {
     
     doTest("T1",

@@ -13,6 +13,11 @@ public class VAPrinceWilliamCountyParserTest extends BaseParserTest {
   }
   
   @Test
+  public void testBad() {
+    doBadTest("You want me to find coverage for Sunday morning?");
+  }
+  
+  @Test
   public void testParser() {
 
     doTest("T1",
