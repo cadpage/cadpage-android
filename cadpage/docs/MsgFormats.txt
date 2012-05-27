@@ -3442,11 +3442,6 @@ Contact: Dennis Rutter <dennis.rutter73@gmail.com>
 From: wcpsn@wcoh.net
 F76110829001200 TYP: OUTDOOR FIRE AD: 5765 S ST RT 48 CTY: HAMILTON TWP MAP: R9 LOC: GREAT CLIPS FOR HAIR CN: CHRISTY ONEAL CMT1: Original Location : GREAT CLIP
 **********************************************************
-Erie County, NY (alternate)
-Contact: Peter <pputnam1@verizon.net>
-Sender: 17165415102
-Erie_Alert EDEN 2097 SHERMAN- 1 YOA MALE CHOKING 15 TO HALL NEED 1 ADD'L  <NOREPLY>
-**********************************************************
 Unknown
 Contact: Chris DeMaskey <demaskey@msrc.org>
 From: alerts@cssofla.com
@@ -4376,6 +4371,17 @@ Sender: vtext.com@mxsp2.email-od.com
 96f.10.5163221713=vtext.com@mxsp2.email-od.com (** ALARM: ** SIGNAL 9 **) ** SIGNAL 9 ** SANDS POINT NURSING HOME  1440 PORT WASHINGTON BLVD  C/S: HARBOR ROAD / AVENUE A - ADTNL: [
 **********************************************************
 **********************************************************
+Erie County, NY (alternate)
+Contact: Peter <pputnam1@verizon.net>
+Sender: 17165415102
+Erie_Alert EDEN 2097 SHERMAN- 1 YOA MALE CHOKING 15 TO HALL NEED 1 ADD'L  <NOREPLY>
+
+Erie County, PA
+Contact: "joshkunch@msn.com" <joshkunch@msn.com>
+Sender: +12063560182
+Erie_Alert MES/NCEMS: ALL MEMBERS PARTICIPATING IN THE MEMORIAL DAY PARADE MEET @ HALL ON MON 5/28 @ 0815 HRS IN FULL DRESS UNIFORM  <NOREPLY>
+Erie_Alert ANIMAL INJURY  TN OF EDEN EDEN 805+707 TO REESPOND COLD TO 2880 BELKNAP FOR INJURED ANIMAL EXTRACTION  <NOREPLY>
+**********************************************************
 **********************************************************
 **********************************************************
 **********************************************************
@@ -4418,7 +4424,7 @@ Sender: cad@baldwin911.org
 - E911 Notification - Elberta VFD - 05-21-12 15:35: Station STA31 dispatched to Incident ID 290600 (Fire - Grass) at 17305 JOE GOTTLER RD
 - E911 Notification - Elberta VFD - 05-24-12 08:48: Station STA31 dispatched to Incident ID 291543 (Auto Accident) at 14850 87\n
 - E911 Notification - Elberta VFD - 05-26-12 08:04: Station STA31 dispatched to Incident ID 292420 (Auto Accident) at US HWY 98 @ SANDY LN
-
+- E911 Notification - Elberta VFD - 05-26-12 16:24: Station STA31 dispatched to Incident ID 292625 (Auto Accident) at HWY98 @ CORD9
 **********************************************************
 
 
