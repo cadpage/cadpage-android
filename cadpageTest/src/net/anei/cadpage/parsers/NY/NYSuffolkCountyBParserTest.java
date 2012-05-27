@@ -527,6 +527,454 @@ public class NYSuffolkCountyBParserTest extends BaseParserTest {
         "DATE:04-18-12");
   }
   
+  @Test
+  public void testActive911() {
+
+    doTest("T1",
+        "*** 13 - Structure Fire *** 336 W 24TH ST CS: DIX ST  - DEAD END TOA: 18:05 05-22-12 ELECTRICAL DEER PARK FIRE DISTRICT 2012-001125 HY: 6' 172 W 24TH ST - 6' 224 W 24TH ST",
+        "CALL:13 - Structure Fire",
+        "ADDR:336 W 24TH ST",
+        "X:DIX ST  - DEAD END",
+        "TIME:18:05",
+        "DATE:05-22-12",
+        "SRC:DEER PARK FIRE DISTRICT",
+        "ID:2012-001125",
+        "INFO:ELECTRICAL HY: 6' 172 W 24TH ST - 6' 224 W 24TH ST");
+
+    doTest("T2",
+        "*** 16A- Rescue Frn Fam *** 31 CHATHAM ST CS: CARLLS PA  - CAYUGA AVE TOA: 20:19 05-22-12 MALE CHILD FACIAL INJURY FROM A FALL 2012-001126",
+        "CALL:16A- Rescue Frn Fam",
+        "ADDR:31 CHATHAM ST",
+        "X:CARLLS PA  - CAYUGA AVE",
+        "TIME:20:19",
+        "DATE:05-22-12",
+        "ID:2012-001126",
+        "INFO:MALE CHILD FACIAL INJURY FROM A FALL");
+
+    doTest("T3",
+        "*** 16 - Rescue *** 122 CLAREMONT ST CS: DEER PARK AVE  - WILDWOOD AVE TOA: 06:10 05-23-12 E/M RESP DIFF  DEER PARK FIRE DISTRICT 2012-001128",
+        "CALL:16 - Rescue",
+        "ADDR:122 CLAREMONT ST",
+        "X:DEER PARK AVE  - WILDWOOD AVE",
+        "TIME:06:10",
+        "DATE:05-23-12",
+        "SRC:DEER PARK FIRE DISTRICT",
+        "ID:2012-001128",
+        "INFO:E/M RESP DIFF");
+
+    doTest("T4",
+        "*** 23 - Miscellaneous Fire *** 37 LIBERTY ST CS: JEFFERSON AVE  - GLASGOW AVE TOA: 19:38 05-24-12 AUTOMATIC FIRE ALARM DEER PARK FIRE DISTRICT 2012-001143 HY: 8' 37 LIBERTY ST - 8' 127 OAK ST",
+        "CALL:23 - Miscellaneous Fire",
+        "ADDR:37 LIBERTY ST",
+        "X:JEFFERSON AVE  - GLASGOW AVE",
+        "TIME:19:38",
+        "DATE:05-24-12",
+        "SRC:DEER PARK FIRE DISTRICT",
+        "ID:2012-001143",
+        "INFO:AUTOMATIC FIRE ALARM HY: 8' 37 LIBERTY ST - 8' 127 OAK ST");
+
+    doTest("T5",
+        "*** 16 - Rescue *** 4TH E ST & GRAND BD E 4TH ST CS: GRAND BLVD TOA: 00:00 05-25-12 MALE VICTIM OF VIOLENCE DEER PARK FIRE DISTRICT 2012-001145",
+        "CALL:16 - Rescue",
+        "ADDR:4TH E ST & GRAND BD E 4TH ST",
+        "X:GRAND BLVD",
+        "TIME:00:00",
+        "DATE:05-25-12",
+        "SRC:DEER PARK FIRE DISTRICT",
+        "ID:2012-001145",
+        "INFO:MALE VICTIM OF VIOLENCE");
+
+    doTest("T6",
+        "*** 16 - Rescue *** DEER PARK AV & NICHOLLS RD DEER PARK AVE CS: NICHOLS RD TOA: 00:34 05-25-12 A/M UNKOWN DEER PARK FIRE DISTRICT 2012-001146",
+        "CALL:16 - Rescue",
+        "ADDR:DEER PARK AV & NICHOLLS RD DEER PARK AVE",
+        "MADDR:DEER PARK AVE & NICHOLLS RD DEER PARK AVE",
+        "X:NICHOLS RD",
+        "TIME:00:34",
+        "DATE:05-25-12",
+        "SRC:DEER PARK FIRE DISTRICT",
+        "ID:2012-001146",
+        "INFO:A/M UNKOWN");
+
+    doTest("T7",
+        "*** 16 - Rescue *** BROOKVIEW COMMONS 1906 COMMONS WAY CS: BROOK AVE  - MORGAN AVE TOA: 01:19 05-25-12 DEER PARK FIRE DISTRICT 2012-001147",
+        "CALL:16 - Rescue",
+        "PLACE:BROOKVIEW COMMONS",
+        "ADDR:1906 COMMONS WAY",
+        "X:BROOK AVE  - MORGAN AVE",
+        "TIME:01:19",
+        "DATE:05-25-12",
+        "SRC:DEER PARK FIRE DISTRICT",
+        "ID:2012-001147");
+
+    doTest("T8",
+        "*** 24/16 - Mutual Aid *** DEPARTMENT OF SOCIAL SERVICES 2 S 2ND ST CS: SAXWOOD ST  - DUNTON AVE TOA: 18:44 05-25-12 A/M KNEE INJURY TO BRENTWOOD LEGION AMBULANCE DEER PARK FIRE DISTRICT 2012-001155",
+        "CALL:24/16 - Mutual Aid",
+        "PLACE:DEPARTMENT OF SOCIAL SERVICES",
+        "ADDR:2 S 2ND ST",
+        "X:SAXWOOD ST  - DUNTON AVE",
+        "TIME:18:44",
+        "DATE:05-25-12",
+        "SRC:DEER PARK FIRE DISTRICT",
+        "ID:2012-001155",
+        "INFO:A/M KNEE INJURY TO BRENTWOOD LEGION AMBULANCE");
+
+    doTest("T9",
+        "*** 16 - Rescue *** YORKSHIRE COMMONS CONDOS 42 GREENMEADOW CT CS: SUMMERFIELD CT  - DEAD END TOA: 07:21 05-24-12 E/M ABDOMINAL PAINS DEER PARK FIRE DISTRICT 2012-001138",
+        "CALL:16 - Rescue",
+        "PLACE:YORKSHIRE COMMONS CONDOS",
+        "ADDR:42 GREENMEADOW CT",
+        "X:SUMMERFIELD CT  - DEAD END",
+        "TIME:07:21",
+        "DATE:05-24-12",
+        "SRC:DEER PARK FIRE DISTRICT",
+        "ID:2012-001138",
+        "INFO:E/M ABDOMINAL PAINS");
+
+    doTest("T10",
+        "*** 09 *** DEER PARK SR HIGH SCHOOL 1 FALCON PL CS: N 1ST ST  - N 5TH ST TOA: 07:50 05-24-12 1-4-4,5 DEER PARK FIRE DISTRICT 2012-001139",
+        "CALL:09",
+        "PLACE:DEER PARK SR HIGH SCHOOL",
+        "ADDR:1 FALCON PL",
+        "X:N 1ST ST  - N 5TH ST",
+        "TIME:07:50",
+        "DATE:05-24-12",
+        "SRC:DEER PARK FIRE DISTRICT",
+        "ID:2012-001139",
+        "INFO:1-4-4,5");
+
+    doTest("T11",
+        "*** 23 - Miscellaneous Fire *** ACORN ST & HHR ACORN ST CS: HALF HOLLOW RD TOA: 08:02 05-24-12 WIRES DOWN;POLE LEANING DEER PARK FIRE DISTRICT 2012-001140 HY: 10' 253 ACORN ST - 10' 729 ACORN ST",
+        "CALL:23 - Miscellaneous Fire",
+        "ADDR:ACORN ST & HHR ACORN ST",
+        "X:HALF HOLLOW RD",
+        "TIME:08:02",
+        "DATE:05-24-12",
+        "SRC:DEER PARK FIRE DISTRICT",
+        "ID:2012-001140",
+        "INFO:WIRES DOWN;POLE LEANING HY: 10' 253 ACORN ST - 10' 729 ACORN ST");
+
+    doTest("T12",
+        "*** 16 - Rescue *** 192 W 18TH ST CS: PARK AVE  - CENTRAL AVE TOA: 16:06 05-25-12 A/M INJ FROM FALL DEER PARK FIRE DISTRICT 2012-001154",
+        "CALL:16 - Rescue",
+        "ADDR:192 W 18TH ST",
+        "X:PARK AVE  - CENTRAL AVE",
+        "TIME:16:06",
+        "DATE:05-25-12",
+        "SRC:DEER PARK FIRE DISTRICT",
+        "ID:2012-001154",
+        "INFO:A/M INJ FROM FALL");
+
+    doTest("T13",
+        "*** 09 *** DEER PARK SR HIGH SCHOOL 1 FALCON PL CS: N 1ST ST  - N 5TH ST TOA: 18:37 05-24-12 sig 9 at high school DEER PARK FIRE DISTRICT 2012-001142",
+        "CALL:09",
+        "PLACE:DEER PARK SR HIGH SCHOOL",
+        "ADDR:1 FALCON PL",
+        "X:N 1ST ST  - N 5TH ST",
+        "TIME:18:37",
+        "DATE:05-24-12",
+        "SRC:DEER PARK FIRE DISTRICT",
+        "ID:2012-001142",
+        "INFO:sig 9 at high school");
+
+    doTest("T14",
+        "*** 16 - Rescue *** HOME DEPOT DPFD 475 COMMACK RD CS: LONG ISLAND AVE  - GRAND BLVD TOA: 13:23 05-24-12 A/M INJURY FROM FALL DEER PARK FIRE DISTRICT 2012-001141",
+        "CALL:16 - Rescue",
+        "PLACE:HOME DEPOT DPFD",
+        "ADDR:475 COMMACK RD",
+        "X:LONG ISLAND AVE  - GRAND BLVD",
+        "TIME:13:23",
+        "DATE:05-24-12",
+        "SRC:DEER PARK FIRE DISTRICT",
+        "ID:2012-001141",
+        "INFO:A/M INJURY FROM FALL");
+
+    doTest("T15",
+        "*** MV - Motor Vehicle Accident *** COMAC RD & LIA COMMACK RD CS: LONG ISLAND AVE TOA: 11:43 05-25-12 DEER PARK FIRE DISTRICT 2012-001151 - 10' 450 COMMACK RD",
+        "CALL:MV - Motor Vehicle Accident",
+        "ADDR:COMAC RD & LIA COMMACK RD",  // Not mapping, typo????
+        "X:LONG ISLAND AVE",
+        "TIME:11:43",
+        "DATE:05-25-12",
+        "SRC:DEER PARK FIRE DISTRICT",
+        "ID:2012-001151",
+        "INFO:- 10' 450 COMMACK RD");
+
+    doTest("T16",
+        "*** 2nd/16 - Rescue *** 338 W 5TH ST CS: ALO CT  - ERLANGER BLVD TOA: 11:34 05-25-12 E/F INJURY FROM FALL DEER PARK FIRE DISTRICT 2012-001150",
+        "CALL:2nd/16 - Rescue",
+        "ADDR:338 W 5TH ST",
+        "X:ALO CT  - ERLANGER BLVD",
+        "TIME:11:34",
+        "DATE:05-25-12",
+        "SRC:DEER PARK FIRE DISTRICT",
+        "ID:2012-001150",
+        "INFO:E/F INJURY FROM FALL");
+
+    doTest("T17",
+        "*** 16 - Rescue *** 145 W 8TH ST CS: GRAND BLVD  - PARK AVE TOA: 10:49 05-25-12 A/F SICK DEER PARK FIRE DISTRICT 2012-001149",
+        "CALL:16 - Rescue",
+        "ADDR:145 W 8TH ST",
+        "X:GRAND BLVD  - PARK AVE",
+        "TIME:10:49",
+        "DATE:05-25-12",
+        "SRC:DEER PARK FIRE DISTRICT",
+        "ID:2012-001149",
+        "INFO:A/F SICK");
+
+    doTest("T18",
+        "*** 16A- Rescue Frn Fam *** 145 W 8TH ST CS: GRAND BLVD  - PARK AVE TOA: 10:49 05-25-12 A/F SICK 2012-001149",
+        "CALL:16A- Rescue Frn Fam",
+        "ADDR:145 W 8TH ST",
+        "X:GRAND BLVD  - PARK AVE",
+        "TIME:10:49",
+        "DATE:05-25-12",
+        "ID:2012-001149",
+        "INFO:A/F SICK");
+
+    doTest("T19",
+        "*** 16A- Rescue Frn Fam *** 11 MONMOUTH ST CS: BURLINGTON AVE  - BERGEN DR TOA: 08:42 05-25-12 INJ FROM A FALL 2012-001148",
+        "CALL:16A- Rescue Frn Fam",
+        "ADDR:11 MONMOUTH ST",
+        "X:BURLINGTON AVE  - BERGEN DR",
+        "TIME:08:42",
+        "DATE:05-25-12",
+        "ID:2012-001148",
+        "INFO:INJ FROM A FALL");
+
+    doTest("T20",
+        "*** 16 - Rescue *** 11 MONMOUTH ST CS: BURLINGTON AVE  - BERGEN DR TOA: 08:42 05-25-12 INJ FROM A FALL DEER PARK FIRE DISTRICT 2012-001148",
+        "CALL:16 - Rescue",
+        "ADDR:11 MONMOUTH ST",
+        "X:BURLINGTON AVE  - BERGEN DR",
+        "TIME:08:42",
+        "DATE:05-25-12",
+        "SRC:DEER PARK FIRE DISTRICT",
+        "ID:2012-001148",
+        "INFO:INJ FROM A FALL");
+
+    doTest("T21",
+        "*** 24/16 - Mutual Aid *** testDEPARTMENT OF SOCIAL SERVICES 2 S 2ND ST CS: SAXWOOD ST - DUNTON AVE TOA: 18:44 05-25-12 A/M KNEE INJURY TO BRENTWOOD LEGION AMBULANCE DEER PARK FIRE DISTRICT 2012-001155 ",
+        "CALL:24/16 - Mutual Aid",
+        "PLACE:testDEPARTMENT OF SOCIAL SERVICES",
+        "ADDR:2 S 2ND ST",
+        "X:SAXWOOD ST - DUNTON AVE",
+        "TIME:18:44",
+        "DATE:05-25-12",
+        "SRC:DEER PARK FIRE DISTRICT",
+        "ID:2012-001155",
+        "INFO:A/M KNEE INJURY TO BRENTWOOD LEGION AMBULANCE");
+
+    doTest("T22",
+        "*** 2nd/16 - Rescue *** YORKSHIRE COMMONS CONDOS 125 GREENMEADOW DR CS: OAK PARK CT - QUAIL RUN DR TOA: 18:44 05-20-12 E/F CVA DEER PARK FIRE DISTRICT 2012-001110 ",
+        "CALL:2nd/16 - Rescue",
+        "PLACE:YORKSHIRE COMMONS CONDOS",
+        "ADDR:125 GREENMEADOW DR",
+        "X:OAK PARK CT - QUAIL RUN DR",
+        "TIME:18:44",
+        "DATE:05-20-12",
+        "SRC:DEER PARK FIRE DISTRICT",
+        "ID:2012-001110",
+        "INFO:E/F CVA");
+
+    doTest("T23",
+        "*** 16 - Rescue *** 58 COLLINS AVE CS: OAK ST - GLEELAND ST TOA: 21:38 05-19-12 A/M UNCONSCIOUS DEER PARK FIRE DISTRICT 2012-001100 ",
+        "CALL:16 - Rescue",
+        "ADDR:58 COLLINS AVE",
+        "X:OAK ST - GLEELAND ST",
+        "TIME:21:38",
+        "DATE:05-19-12",
+        "SRC:DEER PARK FIRE DISTRICT",
+        "ID:2012-001100",
+        "INFO:A/M UNCONSCIOUS");
+
+    doTest("T24",
+        "*** 13 - Structure Fire *** IRENES DRY CLEANERS 1823 DEER PARK AVE CS: LAKE AVE - GRAND BLVD TOA: 03:53 05-21-12 DEER PARK FIRE DISTRICT 2012-001115 HY: 10' 1817 DEER PARK AV(E/S DPA) - 8' 80 E 1ST ST ",
+        "CALL:13 - Structure Fire",
+        "PLACE:IRENES DRY CLEANERS",
+        "ADDR:1823 DEER PARK AVE",
+        "X:LAKE AVE - GRAND BLVD",
+        "TIME:03:53",
+        "DATE:05-21-12",
+        "SRC:DEER PARK FIRE DISTRICT",
+        "ID:2012-001115",
+        "INFO:HY: 10' 1817 DEER PARK AV(E/S DPA) - 8' 80 E 1ST ST");
+
+    doTest("T25",
+        "*** MV - Motor Vehicle Accident *** CARLLS PA & JOHN VIGIANO II BD CARLLS PA CS: GRAND BLVD TOA: 17:12 05-23-12 mva DEER PARK FIRE DISTRICT 2012-001133 - 8' 623 GRAND BD",
+        "CALL:MV - Motor Vehicle Accident",
+        "ADDR:CARLLS PA & JOHN VIGIANO II BD CARLLS PA", // What is this!!!
+        "MADDR:CARLLS PATH & JOHN VIGIANO II BD CARLLS PATH",
+        "X:GRAND BLVD",
+        "TIME:17:12",
+        "DATE:05-23-12",
+        "SRC:DEER PARK FIRE DISTRICT",
+        "ID:2012-001133",
+        "INFO:mva - 8' 623 GRAND BD");
+
+    doTest("T26",
+        "*** 16 - Rescue *** MANGANO FUNERAL HOME 1701 DEER PARK AVE CS: WESTON AVE  - WINNECOMAC AVE TOA: 19:23 05-23-12 E/M RESP DIFF DEER PARK FIRE DISTRICT 2012-001134",
+        "CALL:16 - Rescue",
+        "PLACE:MANGANO FUNERAL HOME",
+        "ADDR:1701 DEER PARK AVE",
+        "X:WESTON AVE  - WINNECOMAC AVE",
+        "TIME:19:23",
+        "DATE:05-23-12",
+        "SRC:DEER PARK FIRE DISTRICT",
+        "ID:2012-001134",
+        "INFO:E/M RESP DIFF");
+
+    doTest("T27",
+        "*** CO - Carbon Monoxide Detector Activation *** 18 FAIRLAWN DR CS: DAHLIA LN  - ELMWOOD RD TOA: 20:27 05-23-12 DEER PARK FIRE DISTRICT 2012-001135 - 8' 20 ELMWOOD RD",
+        "CALL:CO - Carbon Monoxide Detector Activation",
+        "ADDR:18 FAIRLAWN DR",
+        "X:DAHLIA LN  - ELMWOOD RD",
+        "TIME:20:27",
+        "DATE:05-23-12",
+        "SRC:DEER PARK FIRE DISTRICT",
+        "ID:2012-001135",
+        "INFO:- 8' 20 ELMWOOD RD");
+
+    doTest("T28",
+        "*** 13 - Structure Fire *** 41 BURLINGTON AVE CS: MORRIS PL  - NICHOLS RD TOA: 22:29 05-23-12 DEER PARK FIRE DISTRICT 2012-001136 HY: 10' 38 BURLINGTON AV - 8' 883 NICHOLS RD",
+        "CALL:13 - Structure Fire",
+        "ADDR:41 BURLINGTON AVE",
+        "X:MORRIS PL  - NICHOLS RD",
+        "TIME:22:29",
+        "DATE:05-23-12",
+        "SRC:DEER PARK FIRE DISTRICT",
+        "ID:2012-001136",
+        "INFO:HY: 10' 38 BURLINGTON AV - 8' 883 NICHOLS RD");
+
+    doTest("T29",
+        "*** 16 - Rescue *** 361 COMMACK RD CS: GRAND BLVD  - QUAIL RUN DR TOA: 23:27 05-23-12 A/M ABD PAIN DEER PARK FIRE DISTRICT 2012-001137",
+        "CALL:16 - Rescue",
+        "ADDR:361 COMMACK RD",
+        "X:GRAND BLVD  - QUAIL RUN DR",
+        "TIME:23:27",
+        "DATE:05-23-12",
+        "SRC:DEER PARK FIRE DISTRICT",
+        "ID:2012-001137",
+        "INFO:A/M ABD PAIN");
+
+    doTest("T30",
+        "*** 16 - Rescue *** MANOR PARK SR CITIZENS APTS 215 CARLLS PA G24 CS: CARA CT  - TELL AVE TOA: 10:10 05-23-12 E/F SICK DEER PARK FIRE DISTRICT 2012-001132",
+        "CALL:16 - Rescue",
+        "PLACE:MANOR PARK SR CITIZENS APTS",
+        "ADDR:215 CARLLS PA G24", 
+        "MADDR:215 CARLLS PATH G24", 
+        "X:CARA CT  - TELL AVE",
+        "TIME:10:10",
+        "DATE:05-23-12",
+        "SRC:DEER PARK FIRE DISTRICT",
+        "ID:2012-001132",
+        "INFO:E/F SICK");
+
+    doTest("T31",
+        "*** 16 - Rescue *** 102 ELLEN SUE DR CS: DARTMOUTH DR  - KATHLEEN LN TOA: 09:11 05-23-12 A/M RESP DIFF DEER PARK FIRE DISTRICT 2012-001131",
+        "CALL:16 - Rescue",
+        "ADDR:102 ELLEN SUE DR",              // Not mapping
+        "X:DARTMOUTH DR  - KATHLEEN LN",
+        "TIME:09:11",
+        "DATE:05-23-12",
+        "SRC:DEER PARK FIRE DISTRICT",
+        "ID:2012-001131",
+        "INFO:A/M RESP DIFF");
+
+    doTest("T32",
+        "*** 16 - Rescue *** 89 W 15TH ST CS: LAKE AVE  - GRAND BLVD TOA: 03:05 05-23-12 F/Y ABD PAIN DEER PARK FIRE DISTRICT 2012-001127",
+        "CALL:16 - Rescue",
+        "ADDR:89 W 15TH ST",
+        "X:LAKE AVE  - GRAND BLVD",
+        "TIME:03:05",
+        "DATE:05-23-12",
+        "SRC:DEER PARK FIRE DISTRICT",
+        "ID:2012-001127",
+        "INFO:F/Y ABD PAIN");
+
+    doTest("T33",
+        "*** 16 - Rescue *** DEER PARK AVENUE VILLAS 49 JACQUELINE WAY 49 CS: DEER PARK AVE  - BAY SHORE RD TOA: 17:49 05-22-12 52Y/O MALE UNCONCIOUS DEER PARK FIRE DISTRICT 2012-001124",
+        "CALL:16 - Rescue",
+        "PLACE:DEER PARK AVENUE VILLAS",
+        "ADDR:49 JACQUELINE WAY 49",
+        "X:DEER PARK AVE  - BAY SHORE RD",
+        "TIME:17:49",
+        "DATE:05-22-12",
+        "SRC:DEER PARK FIRE DISTRICT",
+        "ID:2012-001124",
+        "INFO:52Y/O MALE UNCONCIOUS");
+
+    doTest("T34",
+        "*** 09 *** DEER PARK SR HIGH SCHOOL 1 FALCON PL CS: N 1ST ST  - N 5TH ST TOA: 07:50 05-23-12 1-4-4 1-4-5 AND 33 ALL SIG 9 DEER PARK FIRE DISTRICT 2012-001130",
+        "CALL:09",
+        "PLACE:DEER PARK SR HIGH SCHOOL",
+        "ADDR:1 FALCON PL",
+        "X:N 1ST ST  - N 5TH ST",
+        "TIME:07:50",
+        "DATE:05-23-12",
+        "SRC:DEER PARK FIRE DISTRICT",
+        "ID:2012-001130",
+        "INFO:1-4-4 1-4-5 AND 33 ALL SIG 9");
+
+    doTest("T35",
+        "*** 3/16 - Rescue *** 95 OAKLAND AVE CS: W 2ND ST  - W 1ST ST TOA: 06:15 05-23-12 FULL CREW NEEDED A/F INCOHEIRENT DEER PARK FIRE DISTRICT 2012-001129",
+        "CALL:3/16 - Rescue",
+        "ADDR:95 OAKLAND AVE",
+        "X:W 2ND ST  - W 1ST ST",
+        "TIME:06:15",
+        "DATE:05-23-12",
+        "SRC:DEER PARK FIRE DISTRICT",
+        "ID:2012-001129",
+        "INFO:FULL CREW NEEDED A/F INCOHEIRENT");
+
+    doTest("T36",
+        "*** 2nd/16 - Rescue *** 95 OAKLAND AVE CS: W 2ND ST  - W 1ST ST TOA: 06:15 05-23-12 A/F INCOHEIRENT DEER PARK FIRE DISTRICT 2012-001129",
+        "CALL:2nd/16 - Rescue",
+        "ADDR:95 OAKLAND AVE",
+        "X:W 2ND ST  - W 1ST ST",
+        "TIME:06:15",
+        "DATE:05-23-12",
+        "SRC:DEER PARK FIRE DISTRICT",
+        "ID:2012-001129",
+        "INFO:A/F INCOHEIRENT");
+
+    doTest("T37",
+        "*** 16 - Rescue *** 76 WRIGHT AVE CS: LIBERTY ST  - NICHOLS RD TOA: 21:17 05-26-12 E/M RESP DIFF DEER PARK FIRE DISTRICT 2012-001161",
+        "CALL:16 - Rescue",
+        "ADDR:76 WRIGHT AVE",
+        "X:LIBERTY ST  - NICHOLS RD",
+        "TIME:21:17",
+        "DATE:05-26-12",
+        "SRC:DEER PARK FIRE DISTRICT",
+        "ID:2012-001161",
+        "INFO:E/M RESP DIFF");
+
+    doTest("T38",
+        "*** 16 - Rescue *** 16 JERSEY ST CS: CARLLS PA  - CAYUGA AVE TOA: 09:15 05-22-12 A/F CHEST PAINS DEER PARK FIRE DISTRICT 2012-001122",
+        "CALL:16 - Rescue",
+        "ADDR:16 JERSEY ST",
+        "X:CARLLS PA  - CAYUGA AVE",
+        "TIME:09:15",
+        "DATE:05-22-12",
+        "SRC:DEER PARK FIRE DISTRICT",
+        "ID:2012-001122",
+        "INFO:A/F CHEST PAINS");
+
+    doTest("T39",
+        "*** MV - Motor Vehicle Accident *** MARCUS BD & GRAND BD GRAND BLVD CS: MARCUS BLVD TOA: 16:28 05-22-12 DEER PARK FIRE DISTRICT 2012-001123 - 10' 95 MARCUS BD",
+        "CALL:MV - Motor Vehicle Accident",
+        "PLACE:MARCUS BD & GRAND BD",
+        "ADDR:GRAND BLVD",
+        "MADDR:GRAND BLVD & MARCUS BLVD",
+        "X:MARCUS BLVD",
+        "TIME:16:28",
+        "DATE:05-22-12",
+        "SRC:DEER PARK FIRE DISTRICT",
+        "ID:2012-001123",
+        "INFO:- 10' 95 MARCUS BD");
+   
+  }
+  
   public static void main(String[] args) {
     new NYSuffolkCountyBParserTest().generateTests("T1");
   }

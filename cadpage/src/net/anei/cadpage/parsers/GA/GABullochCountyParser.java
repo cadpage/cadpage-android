@@ -10,6 +10,7 @@ Bulloch County, GA
 Contact: Kelly <kellybarnard@frontiernet.net> (911 center director)
 Contact: "maleman876@gmail.com" <maleman876@gmail.com>
 Contact: Andrew Freeman <andrewfreemanemail@gmail.com>
+Contact:  Steve Champion <swchampion@ymail.com>
 Sender: bullochga911@smtp.sgcce-inc.com
 
 (STRUCTURE FIRE) STRUCTURE FIRE\nCLYDES #47\n513 BROOKLET EAST\nBURNING SMELL FROM FUSE BOX
@@ -22,6 +23,10 @@ Sender: bullochga911@smtp.sgcce-inc.com
 (WOODS FIRE) SHUMAN RD OFF OF OLD RIVER RD  NORTH
 (1070B) OLD RIVER RD NORTH IN FRONT OF COOPER WEISS BUILDING, BRUSH FIRE FLAIR UP
 (TIMBERLAND POINTE 116 BRUSH FI) TIMBERLAND POINT BRUSH FIRE\n3698 HWY 24  APT 116 BRUSH
+
+*** Not parsing - no address ***
+(1070G) CEDARWOOD ACRES LOT 21\nYARD SET ON FIRE BY OWNERS\nNOT THREATENING ANYTHING\n1070G
+
 
 */
 public class GABullochCountyParser extends SmartAddressParser {
@@ -49,8 +54,7 @@ public class GABullochCountyParser extends SmartAddressParser {
     // or the call description
     if (subject.length() == 0) return false;
     
-    // String is broken up by newlines, and we won't accept strigns with less
-    // than segments
+    // String is broken up by newlines
     String flds[] = body.split("\n");
     //if (flds.length < 3) return false;
     

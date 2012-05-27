@@ -4379,8 +4379,10 @@ Erie_Alert EDEN 2097 SHERMAN- 1 YOA MALE CHOKING 15 TO HALL NEED 1 ADD'L  <NOREP
 Erie County, PA
 Contact: "joshkunch@msn.com" <joshkunch@msn.com>
 Sender: +12063560182
+General alert not working
 Erie_Alert MES/NCEMS: ALL MEMBERS PARTICIPATING IN THE MEMORIAL DAY PARADE MEET @ HALL ON MON 5/28 @ 0815 HRS IN FULL DRESS UNIFORM  <NOREPLY>
 Erie_Alert ANIMAL INJURY  TN OF EDEN EDEN 805+707 TO REESPOND COLD TO 2880 BELKNAP FOR INJURED ANIMAL EXTRACTION  <NOREPLY>
+Erie_Alert FIRST AID 2209 EDEN EVANS CNTR RD EDEN 76/F TROUBLE BREATHING CONCIOUS AND ALERT 55+13+M1 TO HALL  <NOREPLY>
 **********************************************************
 **********************************************************
 **********************************************************
@@ -4426,5 +4428,3 @@ Sender: cad@baldwin911.org
 - E911 Notification - Elberta VFD - 05-26-12 08:04: Station STA31 dispatched to Incident ID 292420 (Auto Accident) at US HWY 98 @ SANDY LN
 - E911 Notification - Elberta VFD - 05-26-12 16:24: Station STA31 dispatched to Incident ID 292625 (Auto Accident) at HWY98 @ CORD9
 **********************************************************
-
-
