@@ -44,7 +44,32 @@ public class ILRockIslandCountyParserTest extends BaseParserTest {
         "CALL:MEDICAL CALL",
         "ADDR:2300-46 79TH AV W",
         "MADDR:2300 79TH AVE W");
-    
+  }
+  
+  @Test
+  public void testParser2() {
+
+    doTest("T1",
+        "S: M:67:FYI: ;STRUCTURE FIRE/GENERAL;2932 RODMAN AV\n",
+        "ID:67",
+        "CALL:STRUCTURE FIRE/GENERAL",
+        "ADDR:2932 RODMAN AV",
+        "MADDR:2932 RODMAN AVE");
+
+    doTest("T2",
+        "S: M:68:CANCEL;2932 RODMAN AV; RIA\n",
+        "ID:68",
+        "CALL:CANCEL - RIA",
+        "ADDR:2932 RODMAN AV",
+        "MADDR:2932 RODMAN AVE");
+
+    doTest("T3",
+        "S: M:69:Update: ;FIRE MUTUAL AID;2932 RODMAN AV\n",
+        "ID:69",
+        "CALL:FIRE MUTUAL AID",
+        "ADDR:2932 RODMAN AV",
+        "MADDR:2932 RODMAN AVE");
+
   }
   
   public static void main(String[] args) {
