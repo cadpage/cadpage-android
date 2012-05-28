@@ -53,8 +53,7 @@ public class NCLincolnCountyParserTest extends BaseParserTest {
         "CALL:SMOKE INVESTIGATION",
         "ADDR:N LITTLE EGYPT RD & NC 73 HWY",
         "MADDR:N LITTLE EGYPT RD & NC 73",
-        "PLACE:near the ball field",
-        "X:blk smoke near track unkn source",
+        "INFO:near the ball field / blk smoke near track unkn source",
         "DATE:03/22/11",
         "TIME:10:13:09");
 
@@ -111,9 +110,7 @@ public class NCLincolnCountyParserTest extends BaseParserTest {
         "CALL:UNCONSCIOUS/FAINTING",
         "ADDR:6471 NC 73 HWY",
         "MADDR:6471 NC 73",
-        "PLACE:EAST LINCOLN HIGH SI",
-        "X:320 & S INGLESIDE FARM RD",
-        "INFO:N LITTLE EGYPT RD / You are responding to a patient who is unconscious (or has fainted). The patient is a 17 / year / old female, who is conscious and breathing. No");
+        "INFO:EAST LINCOLN HIGH SI / 320 / S INGLESIDE FARM RD / N LITTLE EGYPT RD / You are responding to a patient who is unconscious (or has fainted). The patient is a 17 / year / old female, who is conscious and breathing. No");
 
     doTest("T10",
         "2642:CAD:ELF-201102489-29B01-29-B-1 TRAFFIC ACCIDENT-N NC 16 HWY/NC 73 HWY-[Medical Priority Info] RESPONSE: Bravo RESPONDER SCRIPT: Age unknown, Female, Conscious, Breathing. Traffic / Transportation Incidents. Injuries. Caller Statement: 2 veh . 1.The incident involves m",
@@ -123,7 +120,7 @@ public class NCLincolnCountyParserTest extends BaseParserTest {
         "CALL:TRAFFIC ACCIDENT",
         "ADDR:N NC 16 HWY & NC 73 HWY",
         "MADDR:N NC 16 & NC 73",
-        "X:Age unknown, Female, Conscious, Breathing. Traffic / Transportation Incidents. Injuries. Caller Statement: 2 veh . 1.The incident involves m");
+        "INFO:Age unknown, Female, Conscious, Breathing. Traffic / Transportation Incidents. Injuries. Caller Statement: 2 veh . 1.The incident involves m");
 
     doTest("T11",
         "2616:CAD:ELF-201102226-107B01-ASSIST MOTORIST AGENCY OFFICER-5514 NC 73 HWY-SCHRONCE RD-INVERLOCHY RD-JUST BEFORE EAST LINCOLN HIGH SCHOOL [04/19/11 05:22:28 CGRANTLAND] CALLER IS EXTREMELY UPSET [04/19/11 05:21:48 CGRANTLAND] RIGHT HAND SIDE OF RD COMING FROM LINCOLNTON [04/19/11 05:21:39 CGRANT",
@@ -170,6 +167,34 @@ public class NCLincolnCountyParserTest extends BaseParserTest {
         "PLACE:CMC LINCOLN (NEW)",
         "X:BEECHNUT ST & MEDICAL CENTER DR",
         "INFO:going to brian center/ no special");
+  }
+  
+  @Test
+  public void testActive911() {
+
+    doTest("T1",
+        "[] 1:CAD:HCF-VEHICLE ACC PD ONLY-7046787685-AT&T MOBILITY-SHOAL RD/LAMA LN-VEH IS PARTLY IN RDWY [05/25/12 20:19:16 CHARKEY]\n",
+        "ID:1",
+        "SRC:HCF",
+        "CALL:VEHICLE ACC PD ONLY",
+        "ADDR:7046787685",
+        "MADDR:7046787685 & SHOAL RD",
+        "PLACE:AT&T MOBILITY",
+        "X:SHOAL RD/LAMA LN",
+        "INFO:VEH IS PARTLY IN RDWY",
+        "DATE:05/25/12",
+        "TIME:20:19:16");
+
+    doTest("T2",
+        "[] 4:CAD:N3F-1200000772-OUTSIDE FIRE-BUFFALO SHOALS RD/BLAIR RD-Event spawned from LARCENY / THEFT. [05/27/2012 18:18:31 CLAFFERTY] {L182} x1 detained [05/27/12 18:09:22 SPITTS] gave to county [05/27/12 18:03:27 SPITTS] {CITY15} red chevy tk right on buffalo\n",
+        "ID:1200000772",
+        "SRC:N3F",
+        "CALL:OUTSIDE FIRE",
+        "ADDR:BUFFALO SHOALS RD & BLAIR RD",
+        "INFO:Event spawned from LARCENY / THEFT. / {L182} x1 detained / gave to county / {CITY15} red chevy tk right on buffalo",
+        "DATE:05/27/2012",
+        "TIME:18:18:31");
+   
   }
   
   // @Test

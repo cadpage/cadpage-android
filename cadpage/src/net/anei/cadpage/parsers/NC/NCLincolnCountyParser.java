@@ -36,6 +36,10 @@ Contact: Lisa Dellinger <lisadellinger2@gmail.com>
 Sender: CAD@lincolne911.org
 1112:CAD:FYI: -EMSC-201201013-TRANSFER-433 MCALISTER RD-CMC LINCOLN (NEW)-BEECHNUT ST-MEDICAL CENTER DR-going to brian center/ no special :1of2\n\n\nDISCLAIMER: Pu
 
+Contact: support@active911.com
+[] 1:CAD:HCF-VEHICLE ACC PD ONLY-7046787685-AT&T MOBILITY-SHOAL RD/LAMA LN-VEH IS PARTLY IN RDWY [05/25/12 20:19:16 CHARKEY]\n
+[] 4:CAD:N3F-1200000772-OUTSIDE FIRE-BUFFALO SHOALS RD/BLAIR RD-Event spawned from LARCENY / THEFT. [05/27/2012 18:18:31 CLAFFERTY] {L182} x1 detained [05/27/12 18:09:22 SPITTS] gave to county [05/27/12 18:03:27 SPITTS] {CITY15} red chevy tk right on buffalo\n
+
 */
 
 public class NCLincolnCountyParser extends DispatchOSSIParser {
@@ -44,7 +48,7 @@ public class NCLincolnCountyParser extends DispatchOSSIParser {
   
   public NCLincolnCountyParser() {
     super("LINCOLN COUNTY", "NC",
-           "ID: FYI? SRC ID? CODE? CALL ADDR PLACE? X X? INFO+");
+           "ID: FYI? SRC ID? CODE? CALL ADDR! ( X X? | PLACE X X? | ) INFO+");
   }
   
   @Override
@@ -77,6 +81,7 @@ public class NCLincolnCountyParser extends DispatchOSSIParser {
       setPattern(Pattern.compile("\\d{2,3}[A-Z]\\d{2}[A-Za-z]?"));
     }
   }
+  
   
   @Override
   protected Field getField(String name) {
