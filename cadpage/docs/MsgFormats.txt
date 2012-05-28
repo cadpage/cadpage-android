@@ -4400,7 +4400,6 @@ Sent to FD 29-1 WILLIAMSTOWN FC (Voice/Fax Dialer, e-mail accounts, Pagers, cell
 **********************************************************
 **********************************************************
 **********************************************************
-**********************************************************
 ************  READY TO ROLL ******************************
 **********************************************************
 **********************************************************
@@ -4473,4 +4472,389 @@ Sender: @alert.co.pg.md.us
 (CAD Feed) F121450096: PIA Limited Access, NB BALTIMORE WASHINGTON PKY NB/EB RIVERDALE RD, PP, at NB BALTIMORE WASHINGTON PKY NB/EB RIVERDALE RD, PP <6499, TGB3, 3517, Units:A814B, E835, SQ814
 (CAD Feed) F121450147: Building Fire, CHECKERS - GREENBELT, PP, at 6051 GREENBELT RD, PP, TGA3, 1410, Units:BO886, E807B, E811, E831B, E835, TK801, TK812, TK814
 **********************************************************
+Agency name: WAVES Location: Camillus, NY (Onondaga County)
+Sender: wavescalls@me.com
+Subject: Dispatch
+Body: Dispatch ** 07:06:07 ** E-PERSONAL INJURY ** 916 STATE FAIR BLVD ** SNOWBIRDS LANDING II-NEAR THE **  ** (315) 460-0168 **  **  ** MALE FELL APPEARS UNSTABLE
+Number of patients: 1
+Responder script: 86 year old, Male, Conscious, Breathing. Falls. Caller
+Statement: MALE FELL APPEARS UNSTABLE .
+MALE FELL APPEARS UNSTABLE
+Respon ** 05/26/12 ** PINJ ** WVE128700889 ** WVE ** Fire Station Dispatch Report   Dispatch Time:  05-26-2012  07:06:07
+Agency: GBE 
+    Event: E12052600040
 
+Case Number: WVE128700889
+Event Type Code: PINJ PERSONAL INJURY
+Event Subtype Code:         
+
+Address:
+SNOWBIRDS LANDING II
+916  STATE FAIR BLVD 
+Location Info: NEAR THE ST IFO THIS LOCATION 
+
+Municipality: TGD
+Cross Street: CONKLIN ST AND SENECA ST
+
+Caller Information:
+
+  Caller Name: 
+  Caller Phone Number: (315) 460-0168
+  Caller Address: 
+
+Responding Units:
+
+  87A3  WVE1  EMS
+ ** TGD **  ** GB **  ** CONKLIN ST AND SENECA ST **  ** A3, ** 
+Subject: Dispatch
+Body: Dispatch ** 12:02:25 ** E-DIFFICULTY BREATHING ** 700 EAGLE LN ** -APT 9 ** TOLBERT,SHAVON ** (315) 876-1934 **  **  ** TIGHTNESS IN CHEST
+Number of patients: 1
+Responder script: 30 year old, Female, Conscious, Breathing. Breathing Problems.
+Caller Statement: TIGHTNESS IN CHEST .
+SAYS SHE HAS ASTHMA
+SCRATCHY THROA ** 05/26/12 ** DIFB ** WVE128700893 ** WVE ** Fire Station Dispatch Report   Dispatch Time:  05-26-2012  12:02:25
+Agency: WVE 
+    Event: E12052600094
+
+Case Number: WVE128700893
+Event Type Code: DIFB DIFFICULTY BREATHING
+Event Subtype Code:         
+
+Address:
+
+700  EAGLE LN 
+Location Info: APT 9 
+
+Municipality: TCM
+Cross Street: ARLINGTON SQ AND ARLINGTON SQ
+
+Caller Information:
+
+  Caller Name: TOLBERT,SHAVON
+  Caller Phone Number: (315) 876-1934
+  Caller Address: 
+
+Responding Units:
+
+  87A4  WVE1  EMS
+  
+
+Event Comments:
+TIGHT ** TCM **  ** WV **  ** ARLINGTON SQ AND ARLINGTO **  ** A4, ** 
+Subject: Dispatch
+Body: Dispatch ** 22:11:48 ** E-DIABETIC EMERGENCY ** 2 WALLACE AVE ** - ** NARUSKY, ROBERT J ** (315) 672-3455 **  **  ** NARUSKY, ROBERT J RESD 05/26 22:09:55
+LOW BLOOD SUGAR
+LOW BLOOD SUGAR OF 73
+Number of patients: 1
+Responder script: 86 year old, Male, Conscious, Breathing. Diabetic Problems.
+Caller Statement: L ** 05/26/12 ** DIAB ** WVE128700894 ** WVE ** Fire Station Dispatch Report  Dispatch Time:  05-26-2012  22:11:48
+Agency: WVE 
+    Event: E12052600217
+
+Case Number: WVE128700894
+Event Type Code: DIAB DIABETIC EMERGENCY
+Event Subtype Code:         
+
+Address:
+
+2  WALLACE AVE 
+Location Info: 
+
+Municipality: VCM
+Cross Street: ELDERKIN AVE AND KASTOR AVE
+
+Caller Information:
+
+  Caller Name: NARUSKY, ROBERT J
+  Caller Phone Number: (315) 672-3455
+  Caller Address: 2 WALLACE AV CAMILLUS_VILLAGE
+
+Responding Units:
+
+  87A4  WVE1  EMS
+  
+
+ ** VCM **  ** WV **  ** ELDERKIN AVE AND KASTOR A **  ** A4, ** 
+Subject: Dispatch
+Body: Dispatch ** 11:23:30 ** E-DIABETIC EMERGENCY ** 4611 W GENESEE ST ** FAIRMOUNT FD- **  **  **  **  ** PER 19 BASE
+ ** 05/26/12 ** DIAB ** WVE128700892 ** WVE ** Fire Station Dispatch Report   Dispatch Time:  05-26-2012  11:23:30
+Agency: WVE 
+    Event: E12052600088
+
+Case Number: WVE128700892
+Event Type Code: DIAB DIABETIC EMERGENCY
+Event Subtype Code:         
+
+Address:
+FAIRMOUNT FD
+4611 W GENESEE ST 
+Location Info: 
+
+Municipality: TCM
+Cross Street: MALE AVE AND TURNER AVE
+
+Caller Information:
+
+  Caller Name: 
+  Caller Phone Number: 
+  Caller Address: 
+
+Responding Units:
+
+  87A4  WVE1  EMS
+  
+
+Event Comments:
+PER 19 BASE
+** Case number SHP ** TCM **  ** WV **  ** MALE AVE AND TURNER AVE **  ** A4, ** 
+Subject: Dispatch
+Body: Dispatch ** 11:00:32 ** E-CHEST PAIN POSSIBLE HEART ** 5101 W GENESEE ST ** -ST. JOSEPH DYALIS UNIT ** VELANTI,ELIZABETH ** (315) 488-2979 **  **  ** ST JOSEPH'S HOSPITAL HEALTH PBXb 05/26 10:55:50
+SPECIAL ADDRESS COMMENT:
+This record created by the CADAVU (Address Verification Utility) program.
+IRREGULAR HEART RATE
+Number of patients: 1
+Respo ** 05/26/12 ** CARD ** WVE128700891 ** WVE ** Fire Station Dispatch Report  Dispatch Time:  05-26-2012  11:00:32
+Agency: WVE 
+    Event: E12052600082
+
+Case Number: WVE128700891
+Event Type Code: CARD CHEST PAIN-POSS HEART
+Event Subtype Code:         
+
+Address:
+
+5101 W GENESEE ST 
+Location Info: ST. JOSEPH DYALIS UNIT
+
+Municipality: TCM
+Cross Street: DUNNING DR AND STONEHEDGE RD
+
+Caller Information:
+
+  Caller Name: VELANTI,ELIZABETH
+  Caller Phone Number: (315) 488-2979
+  Caller Address: 5101 W GENESEE CAMILLUS_TOWN
+
+Responding Un ** TCM **  ** WV **  ** DUNNING DR AND STONEHEDGE **  ** A3, ** 
+Subject: Dispatch
+Body: Dispatch ** 10:07:49 ** E-MOTOR VEHICLE COLLISION-WITH INJURIES ** 5399 W GENESEE ST ** WALMART- **  ** (315) 406-0904 **  **  ** SPECIAL ADDRESS COMMENT:
+CROSS STREETS ARE VANIDA DR AND KASSON RD
+M911 CC IS EMPLOYEE SAYS 60'S FEMALE HIT A LIGHT POLE IN LOT-STATES NO INJ BUT
+APPEARS SHAKEN
+ ** 05/26/12 ** MVC-I ** WVE128700890 ** WVE ** Fire Station Dispatch Report  Dispatch Time:  05-26-2012  10:07:49
+Agency: WVE 
+    Event: E12052600068
+
+Case Number: WVE128700890
+Event Type Code: MVC  MOTOR VEHICLE COLLISION
+Event Subtype Code: IB        INJURIES PRESENTED
+
+Address:
+WALMART
+5399 W GENESEE ST 
+Location Info: 
+
+Municipality: TCM
+Cross Street: VANIDA DR AND CAMILLUS COMMONS
+
+Caller Information:
+
+  Caller Name: 
+  Caller Phone Number: (315) 406-0904
+  Caller Address: 
+
+Responding Units:
+
+  87A3  WVE1  EMS
+  
+
+Event Co ** TCM **  ** WV **  ** VANIDA DR AND CAMILLUS CO **  ** A3, ** 
+Subject: Dispatch
+Body: Dispatch ** 22:00:39 ** E-EXPOSURE TO HEAT-Heat ** 1500 ELM CIR ** -APT 10 , ELM HILL ESTATES ** LAMONTAGNE,REIS ** (315) 382-6668 **  **  ** N SECTOR -076.270115 043.050849 CAUTION: WIRELESS CALL 05/27 21:57:20
+HEART WAS RACING,SHAKY,LITTLE DISO
+Number of patients: 1
+Responder script: 27 year old, Male, Conscious, Breathing. Heat / Cold ** 05/27/12 ** EXPO-H ** WVE128700897 ** WVE ** Fire Station Dispatch Report   Dispatch Time:  05-27-2012  22:00:39
+Agency: WVE 
+    Event: E12052700172
+
+Case Number: WVE128700897
+Event Type Code: EXPO EXPOSURE
+Event Subtype Code: H       Heat
+
+Address:
+
+1500  ELM CIR 
+Location Info: APT 10 , ELM HILL ESTATES 
+
+Municipality: TCM
+Cross Street: ARLINGTON SQ 
+
+Caller Information:
+
+  Caller Name: LAMONTAGNE,REIS
+  Caller Phone Number: (315) 382-6668
+  Caller Address: 
+
+Responding Units:
+
+  87A3  WVE1  EMS
+  
+
+Event Comments:
+N SECTO ** TCM **  ** WV **  ** ARLINGTON SQ **  ** A3, ** 
+Subject: Dispatch
+Body: Dispatch ** 10:35:32 ** E-GENERAL ILLNESS ** 401 ANSONIA CT ** -OFF W GENESEE ** MCINTYRE MARTHA ** (315) 399-4889 **  **  ** TWCBL MCINTYRE MARTHA VOIP 05/27 10:30:15
+DRUG WITHDRAWEL
+Number of patients: 1
+Responder script: 62 year old, Female, Conscious, Breathing. Sick Person
+(Specific Diagnosis). Caller Statement: DRU ** 05/27/12 ** GILL ** WVE128700896 ** WVE ** Fire Station Dispatch Report  Dispatch Time:  05-27-2012  10:35:32
+Agency: WVE 
+    Event: E12052700064
+
+Case Number: WVE128700896
+Event Type Code: GILL GENERAL ILLNESS
+Event Subtype Code:         
+
+Address:
+
+401  ANSONIA CT 
+Location Info: OFF W GENESEE
+
+Municipality: TCM
+Cross Street: VANTAGE DR 
+
+Caller Information:
+
+  Caller Name: MCINTYRE MARTHA
+  Caller Phone Number: (315) 399-4889
+  Caller Address: 401 ANSONIA CT CAMILLUS_TOWN
+
+Responding Units:
+
+  87A3  WVE1  EMS
+  
+
+Event C ** TCM **  ** WV **  ** VANTAGE DR **  ** A3, ** 
+Subject: Dispatch
+Body: Dispatch ** 23:34:07 ** E-PERSONAL INJURY ** 5731 NORTH ST ** - ** GENDRON, DONALD ** (315) 345-9566 **  **  ** - DISORIENTED -
+Number of patients: 1
+Responder script: 91 year old, Female, Conscious, Breathing. Falls. Caller
+Statement: - DISORIENTED - .
+- DISORIENTED -
+Response text: Delta
+Responder scrip ** 05/26/12 ** PINJ ** WVE128700895 ** WVE ** Fire Station Dispatch Report  Dispatch Time:  05-26-2012  23:34:07
+Agency: WVE 
+    Event: E12052600232
+
+Case Number: WVE128700895
+Event Type Code: PINJ PERSONAL INJURY
+Event Subtype Code:         
+
+Address:
+
+5731  NORTH ST 
+Location Info: 
+
+Municipality: TCM
+Cross Street: RYAN WAY 
+
+Caller Information:
+
+  Caller Name: GENDRON, DONALD
+  Caller Phone Number: (315) 345-9566
+  Caller Address: 
+
+Responding Units:
+
+  87A4  WVE1  EMS
+  
+
+Event Comments:
+- DISORIENTED -
+Number of patient ** TCM **  ** WV **  ** RYAN WAY **  ** A4, ** 
+Subject: Dispatch
+Body: Dispatch ** 02:15:19 ** E-DIFFICULTY BREATHING ** 133 EAGLE CREST DR ** - ** GRECCO, JAMES ** (315) 672-9739 **  **  ** TWCBL GRECCO, JAMES VOIP 05/28 02:13:59
+DIFB
+Number of patients: 1
+Responder script: 14 year old, Male, Conscious, Breathing. Breathing Problems.
+Caller Statement: DIFB.
+Response text: Delta
+Res ** 05/28/12 ** DIFB ** WVE128700898 ** WVE ** Fire Station Dispatch Report  Dispatch Time:  05-28-2012  02:15:19
+Agency: WVE 
+    Event: E12052800019
+
+Case Number: WVE128700898
+Event Type Code: DIFB DIFFICULTY BREATHING
+Event Subtype Code:         
+
+Address:
+
+133  EAGLE CREST DR 
+Location Info: 
+
+Municipality: TCM
+Cross Street: IKE DIXON RD AND RAIL FENCE RD
+
+Caller Information:
+
+  Caller Name: GRECCO, JAMES
+  Caller Phone Number: (315) 672-9739
+  Caller Address: 133 EAGLE CREST DR CAMILLUS_TOWN
+
+Responding Units:
+
+  87A3  WVE1   ** TCM **  ** WV **  ** IKE DIXON RD AND RAIL FEN **  ** A3, ** 
+**********************************************************
+Lake County, CA
+Contact: Gavin Wells <gwells@lakeportfire.com>
+Sender: lakecounty.dispatch@lakecountyca.gov
+System: Sun Ridge Systems
+
+The incident format is as follows:
+
+Single Family:
+ Address ** Cross Street ** City * Incident Type ** Description 
+
+Multi Family/Trailer Parks (Space, or Apartment): 
+Address ** Cross Street * Unit Number/Letter * City * Incident Type ** Description 
+
+Business: 
+Address, City * Business Name* Cross Street * * Incident Type * * Description 
+
+Intersection:
+Street/Cross Street, City * *Cross Street * * Incident Type * * Description 
+
+
+Other Information: 
+
+On some occasions for unknown reasons the text page will begin with (Dispatched Call) or (Page From RiMS).  The parentheses are included in what is sent.   
+
+On occasion there are two cross streets listed when this occurs they are separated with a front slash (/).  
+
+
+Incident Type Codes: 
+
+FDAA = Auto Accident      FDMA = Medical Aid    FDSF = Structure Fire
+FDSC = Smoke Check      FDPA = Public Assist    FDLL = Life Line Alert
+FDVF = Vehicle Fire     FDWF = Wildland Fire    FDWR = Water Rescue 
+FDCF = Chimney Fire       FDAF = Appliance Fire   FDOE = Other Event 
+FDWI = Walk-In        FDWC = Welfare Check     
+
+
+Addressed Locations: 
+
+475 FOREST DR * * SUNSET DR/TERRACE DR * * LP * FDMA * * 8 YOF FALL W/ BLOODY NOSE, C/A/B
+330 9TH * * N HIGH/N BRUSH * * LP * FDMA * * 19 YOM ASSLT VIC W/ HEAD LAC
+600 YELLOW HAMMER LN * * OSPREY CT * * LP * FDMA * * MED AID 17 YOM DIFF BREATH ETOH VOMITING POSS ALCOHOL POISONING
+644 MARTIN * * S ESTEP/S POLK * 3 * LP * FDMA * * MED AID 49 YOF ASSUALT VICT CODE 2 FACIAL LACERATION
+301 S MAIN * EXPRESS MART * MARTIN/C * * LP * FDMA * * POSS STROKE...AT PUMPS
+
+Intersection Locations:
+SCOTTS VALLEY RANCHERIA/HARTLEY RD, Lakeport * * HARTLEY RD * * FDWF * * VEGITATION FIRE
+[Dispatched Call]  S STATE HWY 29/HIGHLAND SPRINGS RD, Lakeport *  * HIGHLAND SPRINGS RD *  * FDMA *  * BETWEEN ARGONAUT AND HIGHLAND SPRINGS IN
+[Dispatched Call]  FINLEY EAST RD/THOMAS, Finley *  * THOMAS *  * FDOE *  * TARP WRAPPED INTO THE PG&E WIRES...RP IS CONCERNED THEY ARE GOING TO
+
+Business Locations: 
+
+2725 S MAIN, Lakeport * ROTTEN ROBBIE * STATE HWY 175 * * FDMA * * 15YOF FALL VIC WITH HEAD INJ C/A
+  

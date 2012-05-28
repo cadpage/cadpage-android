@@ -151,6 +151,16 @@ public class OHClermontCountyParserTest extends BaseParserTest {
         "CITY:LINDALE",
         "NAME:REFUSED",
         "ID:2012-0000025310");
+
+    doTest("T15",
+        "\" \" 26A01 >SICK PERSON (SPECIFIC DIAG) 1751 OHIO PIKE Apt: 156 Bldg XS: EAST FORK DR PIERCE TOWNSHIP REFUSED Map: Grids:, Cad: 2012-0000046833",
+        "CALL:SICK PERSON (SPECIFIC DIAG)",
+        "ADDR:1751 OHIO PIKE",
+        "APT:156 Bldg",
+        "X:EAST FORK DR",
+        "CITY:PIERCE TOWNSHIP",
+        "NAME:REFUSED",
+        "ID:2012-0000046833");
     
   }
   
