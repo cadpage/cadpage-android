@@ -59,8 +59,39 @@ public class INVigoCountyParserTest extends BaseParserTest {
         "MAP:0169",
         "UNIT:E-41",
         "INFO:SEMI AND PASSENGER CAR//UNKNOWN Injuries");
-    
+
     doTest("T6",
+        "(MEDICAL ALARM) Loc:1334 6TH AV Grid:0563 Units:M-7 Rmk:PUSHED PENDANT BUTTON/ UNABLE TO REACH",
+        "CALL:MEDICAL ALARM",
+        "ADDR:1334 6TH AV",
+        "MADDR:1334 6TH AVE",
+        "MAP:0563",
+        "UNIT:M-7",
+        "INFO:PUSHED PENDANT BUTTON/ UNABLE TO REACH");
+
+    doTest("T7",
+        "[TRASH OR RUBBISH-FIRE]  Loc:428 W POPLAR ST XSt:5TH ST WTH 4TH ST WTH Grid:0WTH Units:E-41 Rmk:RP ADV MALE SUBJECT THERE THAT IS CAUSING PROBLEMS AND",
+        "CALL:TRASH OR RUBBISH-FIRE",
+        "ADDR:428 W POPLAR ST",
+        "X:5TH ST WTH 4TH ST WTH",
+        "MAP:0WTH",
+        "UNIT:E-41",
+        "INFO:RP ADV MALE SUBJECT THERE THAT IS CAUSING PROBLEMS AND");
+
+    doTest("T8",
+        "(BRUSH-FIRE-NO-EXPOSURE) Loc:447 N THORPE PL XSt:SARAH MYERS DR OLD PARIS RD Grid:0148 Units:B-41 T-42 Rmk:FIRE NEXT TO WOODS WITH ALL THE GRAVE PROP",
+        "CALL:BRUSH-FIRE-NO-EXPOSURE",
+        "ADDR:447 N THORPE PL",
+        "X:SARAH MYERS DR OLD PARIS RD",
+        "MAP:0148",
+        "UNIT:B-41 T-42",
+        "INFO:FIRE NEXT TO WOODS WITH ALL THE GRAVE PROP");
+  }
+  
+  @Test
+  public void testDenisBoyd() {
+    
+    doTest("T1",
         "Ct:FIRE-ENTRAPMENT Loc:101 N 7TH ST WTH Apt: XSt:JOHNSON AV MILLER AV Grid:0WTH Units:E-41 E-42 L-41 R-41 Rmk:HOUSE ON FIRE PEOPLE STILL INSIDE",
         "CALL:FIRE-ENTRAPMENT",
         "ADDR:101 N 7TH ST",
@@ -69,30 +100,6 @@ public class INVigoCountyParserTest extends BaseParserTest {
         "MAP:0WTH",
         "UNIT:E-41 E-42 L-41 R-41",
         "INFO:HOUSE ON FIRE PEOPLE STILL INSIDE");
-
-    doTest("T7",
-        "(MEDICAL ALARM) Loc:1334 6TH AV Grid:0563 Units:M-7 Rmk:PUSHED PENDANT BUTTON/ UNABLE TO REACH",
-        "CALL:MEDICAL ALARM",
-        "ADDR:1334 6TH AV",
-        "MADDR:1334 6TH AVE",
-        "MAP:0563",
-        "UNIT:M-7",
-        "INFO:PUSHED PENDANT BUTTON/ UNABLE TO REACH");
-    
-  }
-  
-  @Test
-  public void testParser2() {
-
-    doTest("T1",
-        "[TRASH OR RUBBISH-FIRE]  Loc:428 W POPLAR ST XSt:5TH ST WTH 4TH ST WTH Grid:0WTH Units:E-41 Rmk:RP ADV MALE SUBJECT THERE THAT IS CAUSING PROBLEMS AND",
-        "CALL:TRASH OR RUBBISH-FIRE",
-        "ADDR:428 W POPLAR ST",
-        "X:5TH ST WTH 4TH ST WTH",
-        "MAP:0WTH",
-        "UNIT:E-41",
-        "INFO:RP ADV MALE SUBJECT THERE THAT IS CAUSING PROBLEMS AND");
-    
   }
   
   @Test
