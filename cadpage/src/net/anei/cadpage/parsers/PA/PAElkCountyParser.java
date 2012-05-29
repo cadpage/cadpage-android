@@ -1,9 +1,10 @@
 package net.anei.cadpage.parsers.PA;
 
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.Properties;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
-import net.anei.cadpage.parsers.MsgParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /*
@@ -20,6 +21,10 @@ Inc: TRAFFIC ACCIDENT/INJURIES Add: IRISHTOWN RD and MAIN ST\nCity: FOX\nXSt: SK
 Inc: ALARMS-COMMERCIAL Add: 109 JEEP RD\nCity: ST_MARYS\nXSt: S SAINT MARYS ST\nAgency: ST MARYS AMB 
 Inc: SICK PERSON Add: 303 CHESTNUT ST\nCity: ST_MARYS\nXSt: E MILL ST * OAK ST\nAgency: ST MARYS AMB
 
+Contact: "Mike Healy" <mike.healy@thefirehall.net>
+Sender: alerts@elkcounty911.ealertgov.com
+Inc: ELEC HAZ-ELECTRICAL HAZ-WATER Add: 1449 SHAWMUT RD \nCity: HORTON \nXSt: ROUTE 219 * ROCKY LN \nAgency: ELK COMPANY 1 FD \n\n5/29/2012 4:03:58 PM
+
  */
 
 
@@ -31,7 +36,7 @@ public class PAElkCountyParser extends FieldProgramParser {
   
   public  PAElkCountyParser() {
     super(CITY_TABLE, "ELK COUNTY", "PA",
-          "Inc:CALL! Add:ADDR! City:CITY! XSt:X! Agency:SRC!");
+          "Inc:CALL! Add:ADDR! City:CITY! XSt:X! Agency:SRC! INFO DATETIME");
   }
   
   @Override
@@ -44,5 +49,22 @@ public class PAElkCountyParser extends FieldProgramParser {
     
     body = body.replace(" Add:", "\nAdd:");
     return parseFields(body.split("\n"), 5, data);
+  }
+  
+  private final static DateFormat TIME_FMT = new SimpleDateFormat("hh:mm:ss aa");
+  private class MyDateTimeField extends DateTimeField {
+    @Override
+    public void parse(String field, Data data) {
+      int pt = field.indexOf(' ');
+      if (pt < 0) return;
+      data.strDate = field.substring(0,pt).trim();
+      setTime(TIME_FMT, field.substring(pt+1).trim(), data);
+    }
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("DATETIME")) return new MyDateTimeField();
+    return super.getField(name);
   }
 }
