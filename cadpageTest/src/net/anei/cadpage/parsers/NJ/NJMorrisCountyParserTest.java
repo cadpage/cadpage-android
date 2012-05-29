@@ -250,7 +250,8 @@ public class NJMorrisCountyParserTest extends BaseParserTest {
         "MERRY HEART NURSING HOME BLD A (36) BUILDING B, 200 RT 10 W [Roxbury Twp] (HEART) - 3681,3682,3683,8000\r\n" +
         "PT WITH ALTERED MENTAL STATUS\r",
 
-        "PLACE:MERRY HEART NURSING HOME BLD A (36) BUILDING B",
+        "PLACE:MERRY HEART NURSING HOME BLD A",
+        "APT:BUILDING B",
         "ADDR:200 RT 10 W",
         "CITY:Roxbury Twp",
         "CALL:HEART",
@@ -273,7 +274,8 @@ public class NJMorrisCountyParserTest extends BaseParserTest {
         "UNCONCIOUS FEMALE\r\n" +
         "1 Patient, 73 \r",
 
-        "PLACE:ROXBURY FAMILY CARE (36) 4TH FLOOR",
+        "PLACE:ROXBURY FAMILY CARE",
+        "APT:4TH FLOOR",
         "ADDR:66 SUNSET STRP",
         "CITY:Roxbury Twp",
         "CALL:UNCONSCIOU",
@@ -358,7 +360,8 @@ public class NJMorrisCountyParserTest extends BaseParserTest {
         "SHORTNESS OF BREATH\n" +
         "3rd Party, 1 Patie",
 
-        "PLACE:SKYLANDS MEDICAL (36) 1ST FLOOR",
+        "PLACE:SKYLANDS MEDICAL",
+        "APT:1ST FLOOR",
         "ADDR:150 LAKESIDE BLVD",
         "CITY:Roxbury Twp",
         "CALL:BREATHING",
@@ -370,7 +373,8 @@ public class NJMorrisCountyParserTest extends BaseParserTest {
         "SHORTNESS OF BREATH\n" +
         "3rd Party, 1 Patient",
 
-        "PLACE:SKYLANDS MEDICAL (36) 1ST FLOOR",
+        "PLACE:SKYLANDS MEDICAL",
+        "APT:1ST FLOOR",
         "ADDR:150 LAKESIDE BLVD",
         "CITY:Roxbury Twp",
         "CALL:BREATHING",
@@ -422,7 +426,24 @@ public class NJMorrisCountyParserTest extends BaseParserTest {
 
   }
   
+  @Test
+  public void testLeeBender() {
+
+    doTest("T1",
+        "prvs=44951d6e4e=dispatch@co.morris.nj.us MORRIS MEWS (22) BLDING 2, APT C7, 95 KETCH RD [Morris Twp] (UNKNOWN) - E2368\n" +
+        "UNKNOWN PROBLEM, LANGUAGE BARRIER, CALLER STATES NEEDS TO GO",
+
+        "PLACE:MORRIS MEWS",
+        "APT:BLDING 2 - APT C7",
+        "ADDR:95 KETCH RD",
+        "CITY:Morris Twp",
+        "CALL:UNKNOWN",
+        "INFO:UNKNOWN PROBLEM, LANGUAGE BARRIER, CALLER STATES NEEDS TO GO",
+        "UNIT:E2368");
+    
+  }
+  
   public static void main(String[] args) {
-    new NJMorrisCountyParserTest().generateTests("T5", "PLACE ADDR APT CITY CALL INFO UNIT TIME");
+    new NJMorrisCountyParserTest().generateTests("T5", "PLACE APT ADDR CITY CALL INFO UNIT TIME");
   }
 }
