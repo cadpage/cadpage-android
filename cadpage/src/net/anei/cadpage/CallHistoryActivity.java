@@ -47,6 +47,9 @@ public class CallHistoryActivity extends ListActivity {
     int height = displaymetrics.heightPixels;
     int width = displaymetrics.widthPixels;
     ManagePreferences.setScreenSize(""+width+"X"+height);
+
+    // Initialize billing manager
+    BillingManager.instance().initialize(this);
     
     // If preferences have never been initialized, bring up the preference
     // screen to initialize them now.  This is necessary because the new
@@ -56,9 +59,6 @@ public class CallHistoryActivity extends ListActivity {
       Intent intent = new Intent(this, SmsPopupConfigActivity.class);
       startActivity(intent);
     }
-
-    // Initialize billing manager
-    BillingManager.instance().initialize(this);
     
     // Set up list heading
     TextView tv = new TextView(this);
