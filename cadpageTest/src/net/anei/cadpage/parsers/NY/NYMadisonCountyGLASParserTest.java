@@ -152,6 +152,13 @@ public class NYMadisonCountyGLASParserTest extends BaseParserTest {
         "CITY:CANASTOTA VILLAGE",
         "X:RASBACH");
 
+    doTest("T19",
+        "FRM:messaging@iamresponding.com\nSUBJ:Greater Lenox\nMSG:Headache\r\n206 BROAD , ONEIDA CITY INSIDE ( WASHINGTON AV / LENOX AV)",
+        "CALL:Headache",
+        "ADDR:206 BROAD",
+        "CITY:ONEIDA CITY INSIDE",
+        "X:WASHINGTON AV / LENOX AV");
+
   }
   
   public static void main(String[] args) {
