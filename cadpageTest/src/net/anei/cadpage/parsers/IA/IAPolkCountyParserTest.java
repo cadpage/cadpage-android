@@ -77,6 +77,28 @@ public class IAPolkCountyParserTest extends BaseParserTest {
   }
   
   @Test
+  public void testTadWatson() {
+
+    doTest("T1",
+        "(WHTS FD) Location: 6750 SCHOOL ST WIND: @WINDSOR PARK TOWNHOMES - WIND Type: MEDICAL  Caller:  Time: 19:43:52",
+        "SRC:WHTS FD",
+        "ADDR:6750 SCHOOL ST",
+        "CITY:WINDSOR HEIGHTS",
+        "CALL:MEDICAL",
+        "PLACE:WINDSOR PARK TOWNHOMES",
+        "TIME:19:43:52");
+
+    doTest("T2",
+        "(WHTS FD) Location: 73RD ST/UNIVERSITY AVE WIND Type: RESCUE UNK Caller:  Time: 16:25:27",
+        "SRC:WHTS FD",
+        "ADDR:73RD ST & UNIVERSITY AVE",
+        "CITY:WINDSOR HEIGHTS",
+        "CALL:RESCUE UNK",
+        "TIME:16:25:27");
+
+  }
+  
+  @Test
   public void testActive911() {
 
     doTest("T1",

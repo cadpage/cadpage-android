@@ -1975,14 +1975,29 @@ public class PABucksCountyAParserTest extends BaseParserTest {
 
     doTest("T1",
         "(Important message from Bucks County RSAN) STA19, ANY AVAIL STATION 19 CHIEF OFFICER PHONE FIRE COMMUNICATIONS Sent by mss911 Bucks to STA19, mss911 Bucks (Voice/Fax Dialer, E-mail accounts, Pagers, Cell phones) through Bucks County RSAN",
+        "SRC:STA19",
         "CALL:GENERAL ALERT",
-        "PLACE:STA19, ANY AVAIL STATION 19 CHIEF OFFICER PHONE FIRE COMMUNICATIONS");
+        "PLACE:ANY AVAIL STATION 19 CHIEF OFFICER PHONE FIRE COMMUNICATIONS");
 
     doTest("T2",
         "(Important message from Bucks County RSAN) A134 ***test test test test*** Sent by mss911 Bucks to SQ134, mss911 Bucks (Voice/Fax Dialer, E-mail accounts, Pagers, Cell phones) through Bucks County RSAN",
+        "SRC:A134",
         "CALL:GENERAL ALERT",
-        "PLACE:A134 ***test test test test***");
+        "PLACE:***test test test test***");
 
+    doTest("T3",
+        "(Important message from Bucks County RSAN) STA19,ANY AVAIL STATION 19 CHIEF OFFICER PHONE FIRE COMMUNICATIONS Sent by mss911 Bucks to STA19, mss911 Bucks (Voice/Fax Dialer, E-mail accounts, Pagers, Cell phones) through Bucks County RSAN",
+        "SRC:STA19",
+        "CALL:GENERAL ALERT",
+        "PLACE:ANY AVAIL STATION 19 CHIEF OFFICER PHONE FIRE COMMUNICATIONS");
+
+    doTest("T4",
+        "[911 Data]  05/29/12  10:17:27 ~TO~ INT1 FROM FS01:\nSTA19,ANY AVAIL STA 19 OR 79 CHIEF OFC CALL FIRE COMM/#764\n",
+        "SRC:STA19",
+        "CALL:GENERAL ALERT",
+        "PLACE:ANY AVAIL STA 19 OR 79 CHIEF OFC CALL FIRE COMM/#764",
+        "DATE:05/29/12",
+        "TIME:10:17:27");
   }
   
   
