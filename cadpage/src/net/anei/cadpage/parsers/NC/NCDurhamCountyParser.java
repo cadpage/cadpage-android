@@ -43,6 +43,18 @@ Sender: CAD@durhamnc.gov
 (CAD:)  STRUCTURE FIRE;7121 BLALOCK RD;UNABLE TO CONFIRM IF ANYONE IS IN THE HOUSE [05/25/12 16:21:27 SMITHK] OPS2 O [05/25/12 16:20:44 SMITHK] ACROSS THE STREET [05/25/12 16:20:26 SMITHK] house on fire [05/25/12 16:20:19 SMITHK] ;WILLARDVILLE 
 (CAD:STRUCTURE FIRE;7121 BLALOCK RD;ACROSS THE STREET  [05/25/12 16)  20:26 SMITHK] house on fire [05/25/12 16:20:19 SMITHK] ;WILLARDVILLE STATION RD;SEINEVIEW LN
 
+(CAD:ALLERGIES;249 COUNTRY CLUB DR;GREEN LANE DR;GREEN LANE DR) 
+(CAD:FALL;5600 N ROXBORO ST;GIVEN BY CALLER  [05/26/12 05) 47:42 ROBINSONC] 9194795652 [05/26/12 05:47:34 ROBINSONC] ;GOODWIN RD;N ROXBORO RD
+(CAD:EYE PROBLEM;5600 N ROXBORO ST;no eval  [05/27/12 15) 59:18 TANKSLEY] ;GOODWIN RD;N ROXBORO RD
+(CAD:BREATHING PROBLEM;2202 MILTON RD;WHITT RD;EDSEL RD) 
+(CAD:) DIABETIC PROBLEM;5600 N ROXBORO ST;patient has not been evaluated by nurse or doctor- [05/27/12 12:06:40 SNYDERS] ;GOODWIN RD;N ROXBORO RD
+(CAD:UNCONSCIOUS;5617 LAUREL CREST DR;GOODWIN RD) 
+(CAD:FIRE ALARM;6014 GUESS RD;OPS1  [05/27/12 09) 48:49 WEAVERM] hall smoke detector [05/27/12 09:48:40 MILLS] ;CARDENS CREEK DR;MILTON RD
+(CAD:) TRASH FIRE;800 KNIGHT DR;UNK WHAT MATERIAL IS BURNING IN THE BARRELL- [05/29/12 10:56:20 SNYDERS] CALLER WAS ADVISED TO CALL WHEN HIS NEIGHBOR IS BURNING A FIRE IN THE BACK OF HIS HOUSE, NOT THREATENING A STRUCTURE [05/29/;GEOFFRY RD;PR
+(CAD:) STRUCTURE FIRE;7121 BLALOCK RD;UNABLE TO CONFIRM IF ANYONE IS IN THE HOUSE [05/25/12 16:21:27 SMITHK] OPS2 O [05/25/12 16:20:44 SMITHK] ACROSS THE STREET [05/25/12 16:20:26 SMITHK] house on fire [05/25/12 16:20:19 SMITHK] ;WILLARDVILLE 
+(CAD:STRUCTURE FIRE;7121 BLALOCK RD;ACROSS THE STREET  [05/25/12 16) 20:26 SMITHK] house on fire [05/25/12 16:20:19 SMITHK] ;WILLARDVILLE STATION RD;SEINEVIEW LN
+(CAD:SICK PERSON;429 CONTINENTAL DR;attempting to get further  [05/28/12 18) 21:03 DILLARD] male in the frt yard not feeling good -- [05/28/12 18:20:50 DILLARD] ;LARK LN;GREEN LANE DR
+
 */
 
 public class NCDurhamCountyParser extends DispatchOSSIParser {
@@ -58,10 +70,17 @@ public class NCDurhamCountyParser extends DispatchOSSIParser {
   }
   
   private static final Pattern UNIT_PTN = Pattern.compile("^\\{(.*?)\\}");
+  private static final Pattern JOIN_PTN = Pattern.compile("\\d\\d/\\d\\d/\\d\\d \\d\\d$");
   
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
-    if (subject.startsWith("CAD:")) body = subject + body;
+    if (subject.startsWith("CAD:")) {
+      String join;
+      if (subject.length() == 4) join = "";
+      else if (JOIN_PTN.matcher(subject).find()) join = ":";
+      else join = "";
+      body = subject + join + body;
+    }
     if (!super.parseMsg(body, data)) return false;
     Matcher match = UNIT_PTN.matcher(data.strSupp);
     if (match.find()) {

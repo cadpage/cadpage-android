@@ -4397,6 +4397,12 @@ Body: ALL members report 10:30am in class A uniforms for a parade detail.
 
 Sent to FD 29-1 WILLIAMSTOWN FC (Voice/Fax Dialer, e-mail accounts, Pagers, cell phones devices) through Gloucester County RSAN
 **********************************************************
+Jackson County, GA
+Contact: Jeffrey Jones <jljones87@gmail.com>
+Sender: 93001nnn
+DispatchBParser subclass
+JACKSONE911:1070 >FIRE 1382 WILHITE RD XS: PAYNEVILLE RD JEFFERSON WIER, GILBERT L & SUE 7063678650 Map: Grids:0,0 Cad: 2012-0000049643
+JACKSONE911:1050I >ACCIDENT - INJURIES 3835 APPLE VALLEY RD BILL Cad: 2012-0000049719
 **********************************************************
 **********************************************************
 **********************************************************
