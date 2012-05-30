@@ -33,6 +33,7 @@ FRM:messaging@iamresponding.com\nSUBJ:Greater Lenox\nMSG:Chest Pain\n@THERMOLD &
 FRM:messaging@iamresponding.com\nSUBJ:Greater Lenox\nMSG:Chest Pain\n@THERMOLD & RMH CORPORATION (7059 HARP RD (LENOX) )
 FRM:messaging@iamresponding.com\nSUBJ:Greater Lenox\nMSG:Traumatic Injuries\n@SCHOOL CANASTOTA ROBERTS ST JR SR HIGH SCHOOL (302 ROBERTS ST (CANASTOTA VILLAGE) )
 FRM:messaging@iamresponding.com\nSUBJ:Greater Lenox\nMSG:Psychiatric/Suicide Attempt\r\n403 S PETERBORO , CANASTOTA VILLAGE ( / RASBACH)
+FRM:messaging@iamresponding.com\nSUBJ:Greater Lenox\nMSG:Headache\r\n206 BROAD , ONEIDA CITY INSIDE ( WASHINGTON AV / LENOX AV)
 
 */
 
@@ -85,7 +86,7 @@ public class NYMadisonCountyGLASParser extends MsgParser {
     int pt = data.strCity.lastIndexOf(' ');
     if (pt >= 0) {
       String last = data.strCity.substring(pt+1).trim().toUpperCase();
-      for (String city : new String[]{"VILLAGE"}) {
+      for (String city : new String[]{"VILLAGE", "INSIDE"}) {
         if (city.equals(last)) break;
         if (city.startsWith(last)) {
           data.strCity = data.strCity.substring(0,pt+1) + city;
