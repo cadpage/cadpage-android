@@ -4404,10 +4404,6 @@ DispatchBParser subclass
 JACKSONE911:1070 >FIRE 1382 WILHITE RD XS: PAYNEVILLE RD JEFFERSON WIER, GILBERT L & SUE 7063678650 Map: Grids:0,0 Cad: 2012-0000049643
 JACKSONE911:1050I >ACCIDENT - INJURIES 3835 APPLE VALLEY RD BILL Cad: 2012-0000049719
 **********************************************************
-Unknown
-Contact: 5152400762@vtext.com
-Location: 6750 SCHOOL ST WIND: @WINDSOR PARK TOWNHOMES - WIND Type: MEDICAL  Caller:  Time: 19:43:52
-Location: 73RD ST/UNIVERSITY AVE WIND Type: RESCUE UNK Caller:  Time: 16:25:27
 **********************************************************
 **********************************************************
 ************  READY TO ROLL ******************************

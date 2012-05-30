@@ -20,6 +20,10 @@ Contact: Rich Davis <med1c@msn.com>
 Sender: messaging@iamresponding.com
 (PCFD) Location: 6015 NW 62ND AVE JOHN: @JOFD Type: MA MEDICAL Time: 13:46:40
 
+Contact: Tad Watson <tad.watson84@yahoo.com>, 5152400762@vtext.com
+(WHTS FD) Location: 6750 SCHOOL ST WIND: @WINDSOR PARK TOWNHOMES - WIND Type: MEDICAL  Caller:  Time: 19:43:52
+(WHTS FD) Location: 73RD ST/UNIVERSITY AVE WIND Type: RESCUE UNK Caller:  Time: 16:25:27
+
 Contact: support@active911.com
 [CAD] Location: 819 WREN DR ALTO Type: MEDICAL  Caller: MCGINNIS,WILLIAM & DORIS Time: 15:48:02\n
 [CAD] Location: 2ND AVE SW/5TH ST SW ALTO Type: RESCUE PIA Caller: REBER,JEFF Time: 16:05:56\n
