@@ -132,13 +132,15 @@ public class NCDurhamCountyParserTest extends BaseParserTest {
         "ADDR:5600 N ROXBORO ST",
         "INFO:GIVEN BY CALLER / 9194795652 / GOODWIN RD / N ROXBORO RD",
         "DATE:05/26/12",
-        "TIME:05:47:34");
+        "TIME:05:47:42");
 
     doTest("T3",
         "(CAD:EYE PROBLEM;5600 N ROXBORO ST;no eval  [05/27/12 15)  59:18 TANKSLEY] ;GOODWIN RD;N ROXBORO RD",
         "CALL:EYE PROBLEM",
         "ADDR:5600 N ROXBORO ST",
-        "INFO:no eval / GOODWIN RD / N ROXBORO RD");
+        "INFO:no eval / GOODWIN RD / N ROXBORO RD",
+        "DATE:05/27/12",
+        "TIME:15:59:18");
 
     doTest("T4",
         "(CAD:BREATHING PROBLEM;2202 MILTON RD;WHITT RD;EDSEL RD)  ",
@@ -167,7 +169,7 @@ public class NCDurhamCountyParserTest extends BaseParserTest {
         "CH:OPS1",
         "INFO:hall smoke detector / CARDENS CREEK DR / MILTON RD",
         "DATE:05/27/12",
-        "TIME:09:48:40");
+        "TIME:09:48:49");
 
     doTest("T8",
         "(CAD:UNCONSCIOUS;5616 RUSSELL RD;FITZFORD CT;LAKE VISTA DR)  ",
@@ -190,11 +192,95 @@ public class NCDurhamCountyParserTest extends BaseParserTest {
         "X:ACROSS THE STREET",
         "INFO:house on fire / WILLARDVILLE STATION RD / SEINEVIEW LN",
         "DATE:05/25/12",
-        "TIME:16:20:19");
-  
+        "TIME:16:20:26");
+
+    doTest("T11",
+        "(CAD:ALLERGIES;249 COUNTRY CLUB DR;GREEN LANE DR;GREEN LANE DR) ",
+        "CALL:ALLERGIES",
+        "ADDR:249 COUNTRY CLUB DR",
+        "X:GREEN LANE DR & GREEN LANE DR");
+
+    doTest("T12",
+        "(CAD:FALL;5600 N ROXBORO ST;GIVEN BY CALLER  [05/26/12 05) 47:42 ROBINSONC] 9194795652 [05/26/12 05:47:34 ROBINSONC] ;GOODWIN RD;N ROXBORO RD",
+        "CALL:FALL",
+        "ADDR:5600 N ROXBORO ST",
+        "INFO:GIVEN BY CALLER / 9194795652 / GOODWIN RD / N ROXBORO RD",
+        "DATE:05/26/12",
+        "TIME:05:47:42");
+
+    doTest("T13",
+        "(CAD:EYE PROBLEM;5600 N ROXBORO ST;no eval  [05/27/12 15) 59:18 TANKSLEY] ;GOODWIN RD;N ROXBORO RD",
+        "CALL:EYE PROBLEM",
+        "ADDR:5600 N ROXBORO ST",
+        "INFO:no eval / GOODWIN RD / N ROXBORO RD",
+        "DATE:05/27/12",
+        "TIME:15:59:18");
+
+    doTest("T14",
+        "(CAD:BREATHING PROBLEM;2202 MILTON RD;WHITT RD;EDSEL RD) ",
+        "CALL:BREATHING PROBLEM",
+        "ADDR:2202 MILTON RD",
+        "X:WHITT RD & EDSEL RD");
+
+    doTest("T15",
+        "(CAD:) DIABETIC PROBLEM;5600 N ROXBORO ST;patient has not been evaluated by nurse or doctor- [05/27/12 12:06:40 SNYDERS] ;GOODWIN RD;N ROXBORO RD",
+        "CALL:DIABETIC PROBLEM",
+        "ADDR:5600 N ROXBORO ST",
+        "INFO:patient has not been evaluated by nurse or doctor- / GOODWIN RD / N ROXBORO RD",
+        "DATE:05/27/12",
+        "TIME:12:06:40");
+
+    doTest("T16",
+        "(CAD:UNCONSCIOUS;5617 LAUREL CREST DR;GOODWIN RD) ",
+        "CALL:UNCONSCIOUS",
+        "ADDR:5617 LAUREL CREST DR",
+        "X:GOODWIN RD");
+
+    doTest("T17",
+        "(CAD:FIRE ALARM;6014 GUESS RD;OPS1  [05/27/12 09) 48:49 WEAVERM] hall smoke detector [05/27/12 09:48:40 MILLS] ;CARDENS CREEK DR;MILTON RD",
+        "CALL:FIRE ALARM",
+        "ADDR:6014 GUESS RD",
+        "CH:OPS1",
+        "INFO:hall smoke detector / CARDENS CREEK DR / MILTON RD",
+        "DATE:05/27/12",
+        "TIME:09:48:49");
+
+    doTest("T18",
+        "(CAD:) TRASH FIRE;800 KNIGHT DR;UNK WHAT MATERIAL IS BURNING IN THE BARRELL- [05/29/12 10:56:20 SNYDERS] CALLER WAS ADVISED TO CALL WHEN HIS NEIGHBOR IS BURNING A FIRE IN THE BACK OF HIS HOUSE, NOT THREATENING A STRUCTURE [05/29/;GEOFFRY RD;PR",
+        "CALL:TRASH FIRE",
+        "ADDR:800 KNIGHT DR",
+        "INFO:UNK WHAT MATERIAL IS BURNING IN THE BARRELL- / CALLER WAS ADVISED TO CALL WHEN HIS NEIGHBOR IS BURNING A FIRE IN THE BACK OF HIS HOUSE, NOT THREATENING A STRUCTURE",
+        "DATE:05/29/12",
+        "TIME:10:56:20");
+
+    doTest("T19",
+        "(CAD:) STRUCTURE FIRE;7121 BLALOCK RD;UNABLE TO CONFIRM IF ANYONE IS IN THE HOUSE [05/25/12 16:21:27 SMITHK] OPS2 O [05/25/12 16:20:44 SMITHK] ACROSS THE STREET [05/25/12 16:20:26 SMITHK] house on fire [05/25/12 16:20:19 SMITHK] ;WILLARDVILLE ",
+        "CALL:STRUCTURE FIRE",
+        "ADDR:7121 BLALOCK RD",
+        "INFO:UNABLE TO CONFIRM IF ANYONE IS IN THE HOUSE / OPS2 O / ACROSS THE STREET / house on fire / WILLARDVILLE",
+        "DATE:05/25/12",
+        "TIME:16:21:27");
+
+    doTest("T20",
+        "(CAD:STRUCTURE FIRE;7121 BLALOCK RD;ACROSS THE STREET  [05/25/12 16) 20:26 SMITHK] house on fire [05/25/12 16:20:19 SMITHK] ;WILLARDVILLE STATION RD;SEINEVIEW LN",
+        "CALL:STRUCTURE FIRE",
+        "ADDR:7121 BLALOCK RD",
+        "X:ACROSS THE STREET",
+        "INFO:house on fire / WILLARDVILLE STATION RD / SEINEVIEW LN",
+        "DATE:05/25/12",
+        "TIME:16:20:26");
+
+    doTest("T21",
+        "(CAD:SICK PERSON;429 CONTINENTAL DR;attempting to get further  [05/28/12 18) 21:03 DILLARD] male in the frt yard not feeling good -- [05/28/12 18:20:50 DILLARD] ;LARK LN;GREEN LANE DR",
+        "CALL:SICK PERSON",
+        "ADDR:429 CONTINENTAL DR",
+        "INFO:attempting to get further / male in the frt yard not feeling good -- / LARK LN / GREEN LANE DR",
+        "DATE:05/28/12",
+        "TIME:18:21:03");
+ 
   }
   
   public static void main(String[] args) {
-    new NCDurhamCountyParserTest().generateTests("T1");
+    new NCDurhamCountyParserTest().generateTests("T11");
   }
 }

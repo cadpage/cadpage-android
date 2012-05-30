@@ -64,7 +64,7 @@ public class MILivingstonCountyParserTest extends BaseParserTest {
         "X:WILDWOOD DR",
         "INFO:Event spawned from CITIZEN ASSIST LAW. / CALLER LIVES NEXT DOOR TO THE ADDRESS OF THE WATER MAIN BREAK / CALLER ADV OF A WATER MAIN BREAK",
         "DATE:12/10/10",
-        "TIME:20:08:59");
+        "TIME:20:04:40");
 
     doTest("T8",
         "CAD:FYI: ;CITAF;5579 E GRAND RIVER;WILDWOOD DR;Event spawned from CITIZEN ASSIST LAW. [12/10/10 20:08:59 SPHILLIPS] CALLER LIVES NEXT DOOR TO THE ADDRESS OF THE WATER MAIN BREAK [12/10/10 20:04:40 HROSSNER] CALLER ADV OF A WATER MAIN BREAK",
@@ -73,7 +73,7 @@ public class MILivingstonCountyParserTest extends BaseParserTest {
         "X:WILDWOOD DR",
         "INFO:Event spawned from CITIZEN ASSIST LAW. / CALLER LIVES NEXT DOOR TO THE ADDRESS OF THE WATER MAIN BREAK / CALLER ADV OF A WATER MAIN BREAK",
         "DATE:12/10/10",
-        "TIME:20:08:59");
+        "TIME:20:04:40");
 
     doTest("T9",
         "CAD:FYI: ;UNCON;SANCTURY OF WOODLAND;7533 W GRAND RIVER;COURT ST;[Medical Priority Info] RESPONSE: P1 STA 1 2 3 4 5 6 7 8 FC FT RESPONDER SCRIPT: 80 year old, Female, Unconscious, Breathing. Unconscious / Fainting (Near). Unconscious -- Eff",
