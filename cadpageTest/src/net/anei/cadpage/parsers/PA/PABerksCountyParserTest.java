@@ -77,7 +77,7 @@ public class PABerksCountyParserTest extends BaseParserTest {
     doTest("T9",
         "CAD MSG: *D MVAWITH  I78 / MP 39.6 EB 0078 MC DRIVER DOWN IN THE ROADWAY / NOT MOVING / 2 TT PULLED OFF TO THE SI",
         "CALL:MVAWITH - Accident w/ injury",
-        "ADDR:I78 & MP 39.6 EB",
+        "ADDR:I-78 & MP 39.6 EB",
         "MADDR:I 78 & MP 39.6",
         "CITY:GREENWICH TWP",
         "INFO:MC DRIVER DOWN IN THE ROADWAY / NOT MOVING / 2 TT PULLED OFF TO THE SI");
@@ -166,10 +166,89 @@ public class PABerksCountyParserTest extends BaseParserTest {
         "X:BICK RD",
         "CITY:ROCKLAND TWP",
         "INFO:VEH STRUCK SOMEKIND OF CONCRETE FIXTURE/SHE IS CHECKING ON INJURIES/PO");
+
+    doTest("T4",
+        "[berks.575@rsix.roamsecure.net] CAD MSG: *D ALSMED   120 TREXLER AV @KUTZTOWN MANORAPT 221  0081 78YOM/PEG TUB CAME OUT/FLUIDS IN HIS LUNGS/TO RHMC/HX DEMENTIA ,DIABET\n" +
+        "Sent by Berks County RSAN to Topton EMS All CALL\n" +
+        "--\n" +
+        "You received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org\n",
+
+        "CALL:ALSMED",
+        "ADDR:120 TREXLER AV",
+        "MADDR:120 TREXLER AVE",
+        "APT:221",
+        "PLACE:KUTZTOWN MANOR",
+        "CITY:KUTZTOWN",
+        "INFO:78YOM/PEG TUB CAME OUT/FLUIDS IN HIS LUNGS/TO RHMC/HX DEMENTIA ,DIABET");
+
+    doTest("T5",
+        "[berks.575@rsix.roamsecure.net] CAD MSG: *D ALSMED   403 HEILMAN HSE ; TOPTON LUTHERAN HOME 1 S HOME AVAPT 403  0086 83YOF/ COUGHING UP BLOOD / NORMAL BREATHING / BRIGHT RED/ TO RHMC/\n" +
+        "Sent by Berks County RSAN to Topton EMS All CALL\n" +
+        "--\n" +
+        "You received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org\n",
+
+        "CALL:ALSMED",
+        "PLACE:403 HEILMAN HSE - TOPTON LUTHERAN HOME",
+        "ADDR:1 S HOME AV",
+        "MADDR:1 S HOME AVE",
+        "APT:403",
+        "CITY:LONGSWAMP TWP",
+        "INFO:83YOF/ COUGHING UP BLOOD / NORMAL BREATHING / BRIGHT RED/ TO RHMC/");
+
+    doTest("T6",
+        "[berks.575@rsix.roamsecure.net] CAD MSG: *D ALSMED   1 S HOME AV @TOPTON LUTHERAN HOMEAPT 137A  0086 A WING / ROTUNDA ENTRANCE / 83 YOM / ADEMA IN THE LEFT LEG / WEAKNESS\n" +
+        "Sent by Berks County RSAN to Topton EMS All CALL\n" +
+        "--\n" +
+        "You received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org\n",
+
+        "CALL:ALSMED",
+        "ADDR:1 S HOME AV",
+        "MADDR:1 S HOME AVE",
+        "APT:137A",
+        "PLACE:TOPTON LUTHERAN HOME",
+        "CITY:LONGSWAMP TWP",
+        "INFO:A WING / ROTUNDA ENTRANCE / 83 YOM / ADEMA IN THE LEFT LEG / WEAKNESS");
+
+    doTest("T7",
+        "[berks.co85@rsix.roamsecure.net] CAD MSG: *D SF       721 DANIEL DRAPT 2  0066 FIRE IN BATHROOM\n" +
+        "Sent by Berks County RSAN to CO85 All Call\n" +
+        "--\n" +
+        "You received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org\n",
+
+        "CALL:SF - Structure Fire",
+        "ADDR:721 DANIEL DR",
+        "APT:2",
+        "CITY:MUHLENBERG TWP",
+        "INFO:FIRE IN BATHROOM");
+
+    doTest("T8",
+        "[berks.co85@rsix.roamsecure.net] CAD MSG: *D SF       1007 MT LAUREL AV ;FLR 2APT 3  0066 ALARMS SOUNDING //SMOKE SHOWING //\n" +
+        "Sent by Berks County RSAN to CO85 All Call\n" +
+        "--\n" +
+        "You received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org\n",
+
+        "CALL:SF - Structure Fire",
+        "ADDR:1007 MT LAUREL AV",
+        "MADDR:1007 MT LAUREL AVE",
+        "APT:FLR 2 - APT 3",
+        "CITY:MUHLENBERG TWP",
+        "INFO:ALARMS SOUNDING /SMOKE SHOWING /");
+
+    doTest("T9",
+        "[berks.co85@rsix.roamsecure.net] CAD MSG: *D LIFTASST 1348 WEST WYOMISSING CTAPT P  0043 59 YOF /FELL BUT NOT INJ /COMP JUST NEEDS HELP GETTING HER UP /COMP\n" +
+        "Sent by Berks County RSAN to CO85 All Call\n" +
+        "--\n" +
+        "You received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org\n",
+
+        "CALL:LIFTASST",
+        "ADDR:1348 WEST WYOMISSING CT",
+        "APT:P",
+        "CITY:SPRING TWP",
+        "INFO:59 YOF /FELL BUT NOT INJ /COMP JUST NEEDS HELP GETTING HER UP /COMP");
     
   }
   
   public static void main(String[] args) {
-    new PABerksCountyParserTest().generateTests("T1", "CALL ADDR PLACE X CITY INFO");
+    new PABerksCountyParserTest().generateTests("T4", "CALL ADDR APT PLACE X CITY INFO");
   }
 }

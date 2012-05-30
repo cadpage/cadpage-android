@@ -54,7 +54,12 @@ Sender: @berks.alertpa.org
 (berks.co45@rsix.roamsecure.net) CAD MSG: *D MVAUNK   WILLOW RD / OAK LN 0091 1 VEH/ OFF THE ROAD INTO THE TREES/ ON WILLOW RD IN THE BEND RIGHT AFT\n\nSent by Berks County RSAN to CO45 All Call\n\n--\n\nYou received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org
 (berks.co45@rsix.roamsecure.net) CAD MSG: *D SF       50 MISTY LN 0084 HOUSE ON FIRE /COMP DEAN WINTERS/SMOKE COMING OUT OF WINDOWS/ COMP\n\nSent by Berks County RSAN to CO45 All Call\n\n--\n\nYou received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org
 (berks.co45@rsix.roamsecure.net) CAD MSG: *D MVAWITH  81 FORGEDALE RD ;NEAR BICK RD 0087 VEH STRUCK SOMEKIND OF CONCRETE FIXTURE/SHE IS CHECKING ON INJURIES/PO\n\nSent by Berks County RSAN to CO45 All Call\n\n--\n\nYou received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org
-
+[berks.575@rsix.roamsecure.net] CAD MSG: *D ALSMED   120 TREXLER AV @KUTZTOWN MANORAPT 221  0081 78YOM/PEG TUB CAME OUT/FLUIDS IN HIS LUNGS/TO RHMC/HX DEMENTIA ,DIABET\nSent by Berks County RSAN to Topton EMS All CALL\n--\nYou received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org\n
+[berks.575@rsix.roamsecure.net] CAD MSG: *D ALSMED   403 HEILMAN HSE ; TOPTON LUTHERAN HOME 1 S HOME AVAPT 403  0086 83YOF/ COUGHING UP BLOOD / NORMAL BREATHING / BRIGHT RED/ TO RHMC/\nSent by Berks County RSAN to Topton EMS All CALL\n--\nYou received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org\n
+[berks.575@rsix.roamsecure.net] CAD MSG: *D ALSMED   1 S HOME AV @TOPTON LUTHERAN HOMEAPT 137A  0086 A WING / ROTUNDA ENTRANCE / 83 YOM / ADEMA IN THE LEFT LEG / WEAKNESS\nSent by Berks County RSAN to Topton EMS All CALL\n--\nYou received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org\n
+[berks.co85@rsix.roamsecure.net] CAD MSG: *D SF       721 DANIEL DRAPT 2  0066 FIRE IN BATHROOM\nSent by Berks County RSAN to CO85 All Call\n--\nYou received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org\n
+[berks.co85@rsix.roamsecure.net] CAD MSG: *D SF       1007 MT LAUREL AV ;FLR 2APT 3  0066 ALARMS SOUNDING //SMOKE SHOWING //\nSent by Berks County RSAN to CO85 All Call\n--\nYou received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org\n
+[berks.co85@rsix.roamsecure.net] CAD MSG: *D LIFTASST 1348 WEST WYOMISSING CTAPT P  0043 59 YOF /FELL BUT NOT INJ /COMP JUST NEEDS HELP GETTING HER UP /COMP\nSent by Berks County RSAN to CO85 All Call\n--\nYou received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org\n
 
 ** NOT PARSING YET ***
 Contact: "greek@vjgreek.com" <greek@vjgreek.com>
@@ -65,7 +70,7 @@ CAD MSG: *D FSB      CITY SB 1, 10, 36, 55, 64,69 @ CITY FIRE INCIDENT CITY 2ND 
 
 public class PABerksCountyParser extends SmartAddressParser {
   
-  private static final Pattern MUNI_CODE_PAT = Pattern.compile(" 00\\d\\d ");
+  private static final Pattern MUNI_CODE_PAT = Pattern.compile(" 00(\\d\\d) ");
   
   public PABerksCountyParser() {
     super("BERKS COUNTY", "PA");
@@ -95,7 +100,7 @@ public class PABerksCountyParser extends SmartAddressParser {
     Matcher match = MUNI_CODE_PAT.matcher(body);
     if (! match.find()) return false;
     
-    String muniCode = body.substring(match.start()+1, match.end()-1);
+    String muniCode = match.group(1);
     int iMuniCode = Integer.parseInt(muniCode);
     iMuniCode -= FIRST_MUNI_CODE;
     if (iMuniCode >= 0 && iMuniCode < MUNI_CODES.length && MUNI_CODES[iMuniCode] != null) {
@@ -106,27 +111,47 @@ public class PABerksCountyParser extends SmartAddressParser {
     String address = body.substring(0, match.start()).trim();
     body = body.substring(match.end()).trim();
     
-    // An '@' splits place name from address
-    // They aren't consistent about which is which, so we will use the address
-    // check logic to make that determination
-    pt = address.indexOf('@');
-    if (pt >= 0) {
-      String part1 = address.substring(0, pt).trim();
-      String part2 = address.substring(pt+1).trim();
-      if (checkAddress(part1) > checkAddress(part2)) {
-        address = part1;
-        data.strPlace = part2;
-      } else {
-        data.strPlace = part1;
-        address = part2;
-      }
-    }
+    // Check for cross street
     pt = address.indexOf(" ;NEAR ");
     if (pt >= 0) {
       data.strCross = address.substring(pt+7).trim();
       address = address.substring(0,pt).trim();
     }
-    parseAddress(address, data);
+    
+    // See if address ends with an APT designation
+    pt = address.indexOf("APT ");
+    if (pt >= 0) {
+      data.strApt = address.substring(pt+4).trim();
+      address = address.substring(0,pt).trim();
+    }
+    
+    // Check for floor
+    pt = address.indexOf(";FLR ");
+    if (pt >= 0) {
+      data.strApt = append(address.substring(pt+1), " - APT ", data.strApt);
+      address = address.substring(0,pt).trim();
+    }
+    
+    // An '@' splits place name from address
+    // They aren't consistent about which is which, so we will use the address
+    // check logic to make that determination
+    pt = address.indexOf('@');
+    if (pt < 0) pt = address.indexOf(';');
+    if (pt >= 0) {
+      String part1 = address.substring(0, pt).trim();
+      String part2 = address.substring(pt+1).trim();
+      Result res1 = parseAddress(StartType.START_PLACE, FLAG_ANCHOR_END, part1);
+      Result res2 = parseAddress(StartType.START_PLACE, FLAG_ANCHOR_END, part2);
+      if (res1.getStatus() > res2.getStatus()) {
+        res1.getData(data);
+        data.strPlace = append(data.strPlace, " - ", part2);
+      } else {
+        res2.getData(data);
+        data.strPlace = append(part1, " - ", data.strPlace);
+      }
+    } else {
+      parseAddress(StartType.START_PLACE, FLAG_ANCHOR_END, address, data);
+    }
     
     // Anything beyond that is supplemental info
     data.strSupp = body.replaceAll("//+", "/");
