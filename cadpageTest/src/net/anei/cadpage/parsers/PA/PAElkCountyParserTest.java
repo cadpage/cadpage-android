@@ -38,7 +38,26 @@ public class PAElkCountyParserTest extends BaseParserTest {
           "CITY:ST MARYS",
           "X:ANTHONY RD * RIDGWAY ST MARYS RD",
           "SRC:ST MARYS AMB");
-    
+  }
+  
+  @Test
+  public void testMikeHealy() {
+
+    doTest("T1",
+        "Inc: ELEC HAZ-ELECTRICAL HAZ-WATER Add: 1449 SHAWMUT RD \n" +
+        "City: HORTON \n" +
+        "XSt: ROUTE 219 * ROCKY LN \n" +
+        "Agency: ELK COMPANY 1 FD \n\n" +
+        "5/29/2012 4:03:58 PM",
+
+        "CALL:ELEC HAZ-ELECTRICAL HAZ-WATER",
+        "ADDR:1449 SHAWMUT RD",
+        "CITY:HORTON",
+        "X:ROUTE 219 * ROCKY LN",
+        "SRC:ELK COMPANY 1 FD",
+        "DATE:5/29/2012",
+        "TIME:16:03:58");
+   
   }
   
   public static void main(String[] args) {

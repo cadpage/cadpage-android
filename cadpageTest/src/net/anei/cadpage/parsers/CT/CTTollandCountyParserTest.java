@@ -147,6 +147,15 @@ public class CTTollandCountyParserTest extends BaseParserTest {
         "CALL:Smoke/Odor Investigation STOP AND SHOP",
         "X:STOP AND SHOP PLAZA / DOBSON RD",
         "ID:2012-00001471");
+
+    doTest("T18",
+        "(TN Alert) 664 SILVER ST / APT B Coventry ALS SICK/ALT.MENT.STAT. 18:38 Cross Street LOVE LN / SOUTH ST 2012-00000205",
+        "ADDR:664 SILVER ST",
+        "APT:B",
+        "CITY:Coventry",
+        "CALL:ALS SICK/ALTMENTSTAT",
+        "X:LOVE LN / SOUTH ST",
+        "ID:2012-00000205");
  }
   
   public static void main(String[] args) {
