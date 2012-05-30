@@ -30,7 +30,7 @@ public class PAChesterCountyD3Parser extends PAChesterCountyBaseParser {
   
   @Override
   public String getFilter() {
-    return "gfc@goshenfireco.org";
+    return "gfc@goshenfireco.org,GFC54@goshenfireco.org";
   }
 
   @Override

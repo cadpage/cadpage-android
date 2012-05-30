@@ -43,6 +43,9 @@ Contact: "Grant Genlot" <grant.videography@gmail.com>
 [05/13/2012 10:35] tn@tollandcounty911.com:  TN Alert / TOLLAND COUNTY DIVERS SERVICE CALL: IF AVAILABLE MEET AT STATION 8 AT 1300.
 [05/13/2012 11:28] tn@tollandcounty911.com:  TN Alert / NO DIVE IN COVENTRY TODAY. REPEAT DIVE CANCELLED!
 
+Contact: Peter Krawetzky <pkrawetzky@gmail.com>
+Sender: Administrator@tollandcounty911.com
+(TN Alert) 664 SILVER ST / APT B Coventry ALS SICK/ALT.MENT.STAT. 18:38 Cross Street LOVE LN / SOUTH ST 2012-00000205
 
 */
 
@@ -87,7 +90,7 @@ public class CTTollandCountyParser extends SmartAddressParser {
     if (res.getStatus() > 0) {
       data.strAddress = append(data.strAddress, " & ", sAddr);
     } else {
-      data.strApt = sAddr;
+      data.strApt = append(data.strApt, " - ", sAddr);
     }
     
     // Everything from city to time field is the call description
