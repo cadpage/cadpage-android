@@ -101,6 +101,16 @@ public class MOGreeneCountyParserTest extends BaseParserTest {
         "MAP:E-8",
         "NAME:PAULA",
         "INFO:NEAR THE S CURVES.. SAYS A BRUSH FIRE. NEAR THE ROADWAY. BY SOME PROPERT");
+
+    doTest("T9",
+        "TYP: FIRE ALARM AD: 400 W WALNUT LN CTY: WILLARD MAP: I-11 LOC: WILLARD CARE CENTER/742-3594 CN: 914 CMT1: FIRE ALARM ZONE 1 CMT2: Original Location : WILLAR",
+        "CALL:FIRE ALARM",
+        "ADDR:400 W WALNUT LN",
+        "CITY:WILLARD",
+        "MAP:I-11",
+        "PLACE:WILLARD CARE CENTER/742-3594",
+        "NAME:914",
+        "INFO:FIRE ALARM ZONE 1 / Original Location : WILLAR");
   }
 
   public static void main(String[] args) {

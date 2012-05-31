@@ -68,6 +68,16 @@ public class PAVenangoCountyParserTest extends BaseParserTest {
         "CITY:CORNPLANTER",
         "NAME:ENOS BYRON A",
         "ID:2011-0000017129");
+
+    doTest("T7",
+        "VENANGO 911:MEDC >MEDICAL CHARLIE 157 COUNTRY LN XS: JOHNSTONE RD CRANBERRY PAUP DEB 8146761307 Map: Grids:, Cad: 2012-0000011134",
+        "CALL:MEDICAL CHARLIE",
+        "ADDR:157 COUNTRY LN",
+        "X:JOHNSTONE RD",
+        "CITY:CRANBERRY",
+        "NAME:PAUP DEB",
+        "PHONE:8146761307",
+        "ID:2012-0000011134");
   }
   
   public static void main(String[] args) {
