@@ -422,7 +422,7 @@ public class OHStarkCountyCencommParserTest extends BaseParserTest {
         "SRC:CFFD",
         "ID:2012:424",
         "CALL:MVAINJ",
-        "ADDR:WEAVER AND HIGH");
+        "ADDR:WEAVER AND HIGH");   // Not mapping
 
     doTest("T15",
         "[LTFD] CFFD:2012:425\nDISPATCHED\nMEDALS\n336, CHIPPEWA ST ;CANAL FULTON\n",
