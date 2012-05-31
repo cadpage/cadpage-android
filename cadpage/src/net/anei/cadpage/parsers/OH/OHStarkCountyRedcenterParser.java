@@ -52,6 +52,13 @@ public class OHStarkCountyRedcenterParser extends DispatchEmergitechParser {
   }
   
   @Override
+  public int getMapFlags() {
+    
+    // Suppressing the LA -> LN translation fixes problems when LAWRENCE is split wrong
+    return MAP_FLG_SUPPR_LA;
+  }
+
+  @Override
   public String getFilter() {
     return "RED@sssnet.com";
   }
