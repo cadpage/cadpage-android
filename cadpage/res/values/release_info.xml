@@ -1,44 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">05262012</string>
-  <string name="release_version">v1.5.39</string>
+  <string name="release_date">06012012</string>
+  <string name="release_version">v1.5.40</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="min_expire_date">10012012</string>
   <string name="release_text">
-v1.5.39\n
-Location Parsing Fixes:\n
-Montgomery County, MD crashes when parsing short strings\n
-Prince William County, VA grabs all text messages\n
-Ray County, MO\n
-Butler County, PA\n
-\n
-v1.5.38\n      
 New Locations:\n
-Maricopa County, AZ\n
-Burlington County, NJ (alt)\n
-New Hanover County, NC\n
-Butler County, OH\n
-Loveland, OH\n
-Highland County, OH\n
-Onondaga County, NY (alt)\n
-Kenosha County, WI (alt)\n
+Baldwin County, AL\n
+Shelby County, AL\n
+Callaway County, MO\n
+Erie County, NY (alt)\n
 \n
 Location Parsing Fixes:\n
-Allegheny County, PA\n
-Erie County, PA\n
-Sonoma County, CA\n
-St Joseph County, IN\n
-Harford, MD\n
-Montgomery County, MD\n
+Tolland County, CT\n
+Rock Island County, IL\n
 Prince Georges County, MD\n
-Camden, NJ\n
-Rowan County, NC\n
-Orleans County, MY\n
-Washington County, PA\n
-Anderson County, TN\n
-Prince William County, VA\n
-Cabell County, WV\n
+Madison County, NY\n
+Suffolk County, NY\n
+Moris County, NJ\n
+Durham County, NC\n
+Lincoln County, NC\n
+Clermont County, OH\n
+Stark County, OH\n
+Berks County, PA\n
+Chester County, PA\n
+Delaware County, PA\n
+Elk County, PA\n
+Venange County, PA\n
+\n
+General Fixes:\n
+Fixed force close in billing logic\n
   </string>  
 </resources>
   
