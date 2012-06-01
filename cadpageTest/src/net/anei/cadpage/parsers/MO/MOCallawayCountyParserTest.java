@@ -28,7 +28,7 @@ public class MOCallawayCountyParserTest extends BaseParserTest {
         "CODE:2",
         "CALL:Convulsions/Seizures",
         "PLACE:Mertens Mini Mart",
-        "ADDR:6603 St Hwy NN",  // not mapping
+        "ADDR:6603 St Hwy NN",
         "MADDR:6603 MO NN",
         "NAME:Andrea",
         "PHONE:642-6443",
