@@ -468,7 +468,7 @@ public class MsgInfo {
 	}
   
   // Clean up any street suffix abbreviations that Google isn't happy with
-  private static final Pattern CRNN_PTN = Pattern.compile("\\bCR[- ]+(\\d+[A-Z]?)\\b");
+  private static final Pattern CRNN_PTN = Pattern.compile("\\b(?:CR|CO|CORD)[- ]*(\\d+[A-Z]?)\\b");
   private static final Pattern AV_PTN = Pattern.compile("\\bAV\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern HW_PTN = Pattern.compile("\\bH[WY]\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern STH_PTN = Pattern.compile("\\bST?HY?\\b", Pattern.CASE_INSENSITIVE);
@@ -628,7 +628,7 @@ public class MsgInfo {
   // This method breaks those up into two separate tokens, also dropping any
   // direction qualifiers
   private static final Pattern ROUTE_PTN =
-    Pattern.compile("\\b(RT|RTE|HW|HWY|US|ST|I|CO|CR|SRT|I)-?(\\d{1,3})(?:[NSEW]B?)?\\b", Pattern.CASE_INSENSITIVE);
+    Pattern.compile("\\b(RT|RTE|HW|HWY|US|ST|I|CO|CR|CORD|SRT|I)-?(\\d{1,3})(?:[NSEW]B?)?\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern ROUTE_PTN2 =
     Pattern.compile("\\b([A-Z]{2})(\\d{1,3})(?:[NSEW]B)?\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern SRT_PTN = Pattern.compile("\\bSRT\\b", Pattern.CASE_INSENSITIVE);

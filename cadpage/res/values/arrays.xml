@@ -260,6 +260,7 @@
     <item>General</item>
     <item>GeneralSlash</item>
     <item>GeneralDash</item>
+    <item>ALBaldwinCounty</item>
     <item>ALChiltonCounty</item>
     <item>ALColbertCounty</item>
     <item>ALDothan</item>
@@ -685,6 +686,7 @@
     <item>Generic Location</item>
     <item>Generic (slash field separator)</item>
     <item>Generic (dash field separator)</item>
+    <item>Baldwin County, AL</item>
     <item>Chilton County, AL</item>
     <item>Colbert County, AL</item>
     <item>Dothan, AL</item>
