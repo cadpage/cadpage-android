@@ -19,6 +19,12 @@ public class NYErieCountyParserTest {
     }
   }
   
+  public static class TestC extends NYErieCountyCParserTest {
+    public TestC() {
+      setParser(new NYErieCountyParser());
+    }
+  }
+  
   public static class TestRedAlert extends NYErieCountyRedAlertParserTest {
     public TestRedAlert() {
       setParser(new NYErieCountyParser());
