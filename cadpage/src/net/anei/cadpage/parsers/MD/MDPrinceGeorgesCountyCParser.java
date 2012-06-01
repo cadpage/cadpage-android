@@ -59,7 +59,20 @@ FRM:rc.505@c-msg.net\nSUBJ:CAD\nMSG:[PG11] F121230226: Medic Local, 2213 APACHE 
 Contact: John Crisman <pumperdriver@gmail.com>
 A820 F121240285: Acc w/Inj, LARGO RD AT BROCK DR, PP,  <3100/ 3099>, TGA2, 2011, Units:A820, PE846, SQ820
 
-Contact: 
+Contact: support@active911.com
+Sender: @alert.co.pg.md.us
+(CAD Feed) F121480376: Departmental Acci, INDIAN HEAD HWY/RT 227, F1, Unit:BO887
+(CAD Feed) F121430192: Building Fire, 5900 PRINCESS GARDEN PKY, PP, btwn ANNAPOLIS RD and NAVAL AVE, TGA3, 4805, Units:BO882, E828, E833, E835, PE830, RE833, TK809, TK814
+(CAD Feed) F121440231: Apartment Fire, 39 RIDGE RD #G, GP, btwn RIDGE CT and RIDGE CT, TGA3, 3510, Units:BO886, E811, E812, E835, E848, SQ814, TK814, TW807
+(CAD Feed) F121430209: PIA Limited Access, NB CAP BELT OL A HWY/NB BALTIMORE WASHINGTON PKY NB, PP, at NB CAP BELT OL A HWY/NB BALTIMORE WASHINGTON PKY NB, PP, TGB3, 2833, Units:A835, E835
+(CAD Feed) F121450320: House Fire, 11704 OLD GUNPOWDER RD, PP, btwn POWDER MILL RD and POWDER MILL RD, TGA3, 4105, Units:BO886, E810C, E835, PE841, TK814, TK831, TW715
+(CAD Feed) F121460029: PIA Limited Access, NB CAP BELT OL A HWY/NB KENILWORTH AVE, GP, at NB CAP BELT OL A HWY/NB KENILWORTH AVE, GP <0/0>, TGB3, 3514, Units:A835, E835, SQ814
+(CAD Feed) F121440389: Working Code, 1-B WESTWAY, GP, btwn CRESCENT RD and RIDGE RD, TGA2, 3510, Units:A835, E835, MD818
+(CAD Feed) F121450034: BLS Amb, NB CAP BELT OL A HWY/NB BALTIMORE AVE, PP, at NB CAP BELT OL A HWY/NB BALTIMORE AVE, PP <9949/0>, TGA2, 3519, Units:A835, E835
+(CAD Feed) F121460246: Medic Local, 115 CENTERWAY RD, GP, btwn SOUTHWAY and GARDENWAY, TGA2, 3510, Units:A814B, E835, MD812
+(CAD Feed) F121450096: PIA Limited Access, NB BALTIMORE WASHINGTON PKY NB/EB RIVERDALE RD, PP, at NB BALTIMORE WASHINGTON PKY NB/EB RIVERDALE RD, PP <6499, TGB3, 3517, Units:A814B, E835, SQ814
+(CAD Feed) F121450147: Building Fire, CHECKERS - GREENBELT, PP, at 6051 GREENBELT RD, PP, TGA3, 1410, Units:BO886, E807B, E811, E831B, E835, TK801, TK812, TK814
+
 
 */
 
@@ -164,7 +177,7 @@ public class MDPrinceGeorgesCountyCParser extends FieldProgramParser {
     if (name.equals("AT")) return new AtField();
     if (name.equals("X")) return new MyCrossField();
     if (name.equals("PP2")) return new SkipField("[A-Z]{1,2} *(?:<\\d.*)?|<\\d.*|", true);
-    if (name.equals("CH")) return new ChannelField("TG?[A-F]\\d{1,2}", true);
+    if (name.equals("CH")) return new ChannelField("T?G?[A-F]\\d{1,2}", true);
     if (name.equals("UNIT")) return new MyUnitField();
     if (name.equals("ID")) return new IdField("F\\d{6,}");
     return super.getField(name);
