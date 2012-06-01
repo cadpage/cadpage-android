@@ -70,7 +70,7 @@ public class MNAnokaCountyParserTest extends BaseParserTest {
         "SRC:A2",
         "CALL:56 - Smoke/Gas Odor",
         "ADDR:CO-7 NW & CO-58 NW",
-        "MADDR:CO 7 NW & CO 58 NW",
+        "MADDR:COUNTY ROAD 7 NW & COUNTY ROAD 58 NW",
         "INFO:STRONG GAS ODOR IN THE AREA",
         "ID:10019278");
     

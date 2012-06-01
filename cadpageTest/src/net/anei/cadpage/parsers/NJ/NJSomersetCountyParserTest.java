@@ -153,7 +153,8 @@ public class NJSomersetCountyParserTest extends BaseParserTest {
         "TIME:17:32:48",
         "CALL:SMOKE CONDITION",
         "CITY:MONTGOMERY TWP",
-        "ADDR:952 CO 518");
+        "ADDR:952 CO 518",
+        "MADDR:952 COUNTY ROAD 518");
 
     doTest("T4",
         "GRG-FD:11088457:08/02/2011 15:39:21:MV FIRE:SMOKE ONLY: FRANKLI-12 BARBIERI CT",
