@@ -60,7 +60,11 @@ public class DispatchA5Parser extends FieldProgramParser {
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     if (!subject.equals("Automatic R&R Notification")) return false;
-    if (body.contains("** FINAL REPORT **")) return false;
+    if (body.contains("** FINAL REPORT **")) {
+      data.strCall = "RUN REPORT";
+      data.strPlace = body;
+      return true;
+    }
     
     int pt = body.indexOf("\nAdditional Info");
     if (pt < 0) return false;

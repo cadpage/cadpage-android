@@ -1427,6 +1427,11 @@ NAME-KENDRA;  LOC-4001 STINSON BLVD NE [#404;  EVTYPE-STROKE;  COMMENTS-POSSIBLE
 NAME-BRINATTE,HELEN;  LOC-2626 KENZIE TER [#114 [@WALKER ON KENZIE APT;  EVTYPE-ILL;  COMMENTS-2626 KENZIE TER : cross stre
 NAME-;  LOC-2600 39TH AVE NE [#100 [@SILVER LAKE CLINIC;  EVTYPE-BREATH;  COMMENTS-2600 39TH AVE NE : cross streets : SILVE
 ***************************************************************************
+Callaway County, MO (MOCallawayCountyParser)
+Subject: NEWOCC #12-1590  12 - Convulsions/Seizures\nNEWOCC #12-1590  12 - Convulsions/Seizures\nAddress: Mertens Mini Mart - 6603 St Hwy NN, Callaway County\nReporting Person: Andrea Phone: 642-6443\nDetail: subject had a siezure, no longer siezing\npossibly because of drugs
+Subject: NEWOCC #12-1589  602 - Structure Fire\nNEWOCC #12-1589  602 - Structure Fire\nAddress: 181 Lorene, Holts Summit\nReporting Person: Lisa Phone: 616-1063\nDetail: 
+Subject: NEWOCC #12-1582  6 - Breathing Problems\nNEWOCC #12-1582  6 - Breathing Problems\nAddress: 921 Merklin Dr, Fulton\nReporting Person: Frita Phone: 642-6978\nDetail: 
+***************************************************************************
 Jasper County, MO (MOJasperCountyParser)
 S: M:LONE ELM/ESTATE LN- ROLLOVER\n
 S: M:1725B Redbud dr- 87 yom fall - back pain\n
@@ -4406,18 +4411,17 @@ JACKSONE911:1050I >ACCIDENT - INJURIES 3835 APPLE VALLEY RD BILL Cad: 2012-00000
 **********************************************************
 **********************************************************
 **********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
 ************  READY TO ROLL ******************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
 **********************************************************
 **********************************************************
 Erie County, NY (alternate)
@@ -4864,8 +4868,25 @@ Business Locations:
 
 2725 S MAIN, Lakeport * ROTTEN ROBBIE * STATE HWY 175 * * FDMA * * 15YOF FALL VIC WITH HEAD INJ C/A
 **********************************************************
-Contact: Christopher Olson <lilsmokeeater5@yahoo.com>
-Sender: alrt_BQ6C@alert.co.pg.md.us
-(1/2) F121510236: PIA Limited Access, NB CAP BELT OL A HWY AT NB BRANCHa AVE, PP, at NB CAP BELT OL A HWY AT NB BRANCH AVE, PP
-CALL: PIA Limited Access ADDR: NB CAP BELT OL A HWY & NB BRANCH AVE BOX: 2941 CH: TGB3 UNIT: A829,E823,SQ827 ID: F121510236 DCITY: PRINCE GEORGES COUNTY DST: MD MADDR: CAPITAL BELTWAY & BRANCH AVE\2sresponse_url:http://active911.com/a7sL4i2EG
+Pitt County, NC
+Contact: noah smith <firefighter2114@gmail.com>
+Sender: donotreply@pittcountync.gov
+S:911 Fire Call M:F24|Rcvd:05/31/2012 03:34|Rsn:FIRE ALARM ACT|Note:SAME|Adr:1550  QUALITY LN
+S:911 Fire Call M: F14 | Rcvd:05/27/2012 01:16 | Rsn: MVC PI | Note:MARTIN LUTHER KING JR DR | WHICHARD RD | Adr:0 
+S:911 Fire Call M: F14 | Rcvd:05/25/2012 17:12 | Rsn:47 YOM STROKE | Note:618 DANIELLE DR | Adr:0
+S:911 Fire Call M: F14 | Rcvd:05/25/2012 01:41 | Rsn: POSS ELECTRICAL FIRE |Note:3157 OLD RIVER RD | Adr:0
+S:911 Fire Call M: F14 | Rcvd:05/23/2012 19:55 | Rsn: MVC PI | Note:OLDR RIVER RD | BROWN PLACE DR @ THE BRIDGE | Adr:0
+S:911 Fire Call M: F24 | Rcvd:05/22/2012 17:16 | Rsn: FIRE ALARM | Note:SAME | Adr:2185 OAKLEY RD
 
+ok so here is a sample of what my dept text pages look like the part where
+has F14 is the station number so it means like fire 14 or fire 24 pretty
+much fire then station number then it gives the date and time of call
+followed by the reason of the call weather it be a wreck (MVC) or a fire or
+fire alarm and so fourth then the note section of the text is the address
+of the call or the intersection where its at and the last part of the text
+is the address and its never the same some times its a 0 and sometimes it
+will be the address to the 911 comm building and sometimes the note will be
+the address to the call and also the adr section will be the same as
+note just depends on whos sending out the text that day other words who
+ever is work communications that day they all do it different
+**********************************************************
