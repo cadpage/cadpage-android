@@ -1641,6 +1641,11 @@ NYK| Erie County (Lancaster)| Technical Rescue| | Como Park|PD O/S reporting ped
 NYK / NYK| Buffalo| 1 Alarm Fire| | 63 Crestwood Ave|F20 O/S reporting fire in a dwelling-victims rescued-ACW| NYK109| 12:13\n\n
 NYK| Erie County (Lancaster)| 1 Alarm Fire| 453.500| 17 E Drullard Ave|Lancaster FD O/S Rep Fire in a 2 Story Occ Brick Apt Bldg. AHW| NYK004| 22:29
 ***************************************************************************
+Erie County, NY (NYErieCountyCParser)
+Erie_Alert EDEN 2097 SHERMAN- 1 YOA MALE CHOKING 15 TO HALL NEED 1 ADD'L  <NOREPLY>
+Erie_Alert MES/NCEMS: ALL MEMBERS PARTICIPATING IN THE MEMORIAL DAY PARADE MEET @ HALL ON MON 5/28 @ 0815 HRS IN FULL DRESS UNIFORM  <NOREPLY>
+Erie_Alert ANIMAL INJURY  TN OF EDEN EDEN 805+707 TO REESPOND COLD TO 2880 BELKNAP FOR INJURED ANIMAL EXTRACTION  <NOREPLY>
+***************************************************************************
 Genesee County, NY (NYGeneseeCountyParser)
 [Dispatch]  Acc PIAA ** 392.3 RT 90 E** , BATAVIA - ** ONE VEHICLE ROLLOVER ** LEWISTON RD, I 90 / KELSEY RD, I 90 ** 07/12/11 17:29 **
 [Dispatch]  Alarm Fire ** ** 2614 W  MAIN STREET RD , BATAVIA - ** 2ND FLOOR SMOKE DETECRTOR KENNETH HERMAN RESIDENCE ** READ
@@ -4409,6 +4414,13 @@ DispatchBParser subclass
 JACKSONE911:1070 >FIRE 1382 WILHITE RD XS: PAYNEVILLE RD JEFFERSON WIER, GILBERT L & SUE 7063678650 Map: Grids:0,0 Cad: 2012-0000049643
 JACKSONE911:1050I >ACCIDENT - INJURIES 3835 APPLE VALLEY RD BILL Cad: 2012-0000049719
 **********************************************************
+Wayne County, IN
+Contact: AJ Locker <aj.locker@yahoo.com>
+Sender: amoore@co.wayne.in.us
+(911) 05/31 20:20 81 S 14TH ST #209 209: Landmark: MERLE HENDERSON APTS  E MAIN ST//S A ST  70 Y/O FEMALE.;CONSC AND ALERT. ABLE TO SPEAK. ; DB JUST STARTED.
+(911) 05/31 19:56 812 NW 5TH ST #LOT 4 10-52: Landmark: HARBOR LIGHTS  NW J ST//INDIANA AV  FEMALE FELL AGAIN FROM A STANDING POSITION NO LOC  SHE IS UP JUST
+(911) 05/31 18:43 2005 VI POST RD 10-52 DB:  TEST RD//SALISBURY RD S  72 Y/O MALE HAS BEEN SICK FOR A FEW DAYS. CONSC AND ALERT.
+(911) 05/31 16:37 E MAIN ST // WOODSIDE DR 10-50 PI: E MAIN ST // WOODSIDE DR  37TH ST//34TH ST  NECK PAIN;STILL IN THE ROAD WAY
 **********************************************************
 **********************************************************
 **********************************************************
@@ -4424,23 +4436,6 @@ JACKSONE911:1050I >ACCIDENT - INJURIES 3835 APPLE VALLEY RD BILL Cad: 2012-00000
 ************  READY TO ROLL ******************************
 **********************************************************
 **********************************************************
-Erie County, NY (alternate)
-Contact: Peter <pputnam1@verizon.net>
-Sender: 17165415102
-Erie_Alert EDEN 2097 SHERMAN- 1 YOA MALE CHOKING 15 TO HALL NEED 1 ADD'L  <NOREPLY>
-
-Erie County, NY
-Contact: "joshkunch@msn.com" <joshkunch@msn.com>
-Sender: +12063560182
-General alert not working
-Erie_Alert MES/NCEMS: ALL MEMBERS PARTICIPATING IN THE MEMORIAL DAY PARADE MEET @ HALL ON MON 5/28 @ 0815 HRS IN FULL DRESS UNIFORM  <NOREPLY>
-Erie_Alert ANIMAL INJURY  TN OF EDEN EDEN 805+707 TO REESPOND COLD TO 2880 BELKNAP FOR INJURED ANIMAL EXTRACTION  <NOREPLY>
-Erie_Alert FIRST AID 2209 EDEN EVANS CNTR RD EDEN 76/F TROUBLE BREATHING CONCIOUS AND ALERT 55+13+M1 TO HALL  <NOREPLY>
-Erie_Alert EMS: MHL 9.41 transport - Assemble a crew at the squad hall & wait for patrol to secure the scene - BLS cold response - 11, 27, 37, 55 
-Erie_Alert Working  Fire: working structure fire front of house on fire across from 2833 e church st at 2833 E CHURCH ST, Eden  c/s: HAMMOND DR . . ... 
-Erie_Alert FIRST AID 2724 W CHURCH ST EDEN 60/F FELL INSIDE THE BUILDING. CONSCIOUS AND ALERT. 49 TO THE HALL. MEDIC ONE TO THE SCE  <NOREPLY>
-Erie_Alert FIRST AID. MEET WITH PATROL FOR A 20/F ARM INJ FROM AN ACCIDENT CLARKSBURG/NEW OREGON 63/72 TO THE HALL  <NOREPLY>
-Erie_Alert 8202 E EDEN RD APT: 3 EDEN UPPER- USE DOOR ON LEFT SIDE OF BLDG,  FEMALE- BREATHING BUT UNRESPONSIVE-35, 41 TO HALL NEE  <NOREPLY>
 **********************************************************
 Shelby County, AL
 Contact: John Yancey <johnyancey7@gmail.com>
