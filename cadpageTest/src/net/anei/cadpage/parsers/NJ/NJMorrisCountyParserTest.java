@@ -336,8 +336,10 @@ public class NJMorrisCountyParserTest extends BaseParserTest {
         "ADDR:16 LINDSLEY RD",
         "CITY:Harding Twp",
         "CALL:CO ALARM",
-        "INFO:CO ACTIVATION SURIT RES ..973-538-0659 / F120950020 19:28",
-        "UNIT:1399");
+        "UNIT:1399",
+        "INFO:CO ACTIVATION SURIT RES ..973-538-0659",
+        "ID:F120950020",
+        "TIME:19:28");
     
   }
   
@@ -440,10 +442,22 @@ public class NJMorrisCountyParserTest extends BaseParserTest {
         "CALL:UNKNOWN",
         "INFO:UNKNOWN PROBLEM, LANGUAGE BARRIER, CALLER STATES NEEDS TO GO",
         "UNIT:E2368");
+
+    doTest("T2",
+        "prvs=4499e8115a=dispatch@co.morris.nj.us 1 AIRPORT RD [Morristown] (AIRPORT-A) - \n" +
+        "CAT A PLANE INBOUND GEAR PROBLEM\n" +
+        "F121530010 14:49",
+
+        "ADDR:1 AIRPORT RD",
+        "CITY:Morristown",
+        "CALL:AIRPORT-A",
+        "INFO:CAT A PLANE INBOUND GEAR PROBLEM",
+        "ID:F121530010",
+        "TIME:14:49");
     
   }
   
   public static void main(String[] args) {
-    new NJMorrisCountyParserTest().generateTests("T5", "PLACE APT ADDR CITY CALL INFO UNIT TIME");
+    new NJMorrisCountyParserTest().generateTests("T2", "PLACE APT ADDR CITY CALL INFO UNIT ID TIME");
   }
 }
