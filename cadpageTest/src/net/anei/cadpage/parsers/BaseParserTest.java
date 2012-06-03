@@ -372,7 +372,7 @@ public abstract class BaseParserTest {
     if (!parser.isPageMsg(msg, PARSE_FLAGS)) {
       System.out.println();
       System.out.println("// ************************ PARSE FAILURE *****************************");
-      System.out.println("// " + test);
+      System.out.println("// " + test.replace("\n", "\\n\n// ").replace("\r", "\\r"));
       return;
     }
     

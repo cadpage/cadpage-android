@@ -745,7 +745,64 @@ public class FieldProgramParser extends SmartAddressParser {
    * @return true if parsing was successful
    */
   protected boolean parseFields(String[] fields, Data data) {
-    return startLink.exec(fields, 0, data, null);
+    
+    State state = new State();
+    if (state.link(startLink)) return false;
+    do {} while (!state.exec(fields, data));
+    return state.getResult();
+  }
+  
+  // When executing, the parser acts as a state engine.  This class preserves the parser
+  // state as that engine executes
+  private class State {
+    private int index = 0;
+    private Step step = null ;
+    private Step lastStep = null;
+    private boolean result = true;
+    
+    public int getIndex() {
+      return index;
+    }
+    
+    public void setIndex(int index) {
+      this.index = index;
+    }
+    
+    public Step getLastStep() {
+      return lastStep;
+    }
+    
+    public boolean getResult() {
+      return result;
+    }
+    
+    public void setResult(boolean result) {
+      this.result = result;
+    }
+
+    public void setStep(Step step) {
+      this.step = step;
+    }
+
+    public boolean link(StepLink link) {
+      if (link == null) return true;
+      index += link.getInc();
+      lastStep = step;
+      step =  link.getStep();
+      return step == null;
+    }
+    
+    public boolean exec(String[] fields, Data data) {
+      if (!step.process(this, fields, data)) return false;
+      
+      // Parse state engine has completed
+      // But we still need to check for any unprocessed required fields
+      while (result && step != null) {
+        if (! step.checkFailure(data)) result = false;
+        step = step.getNextStep();
+      }
+      return true;
+    }
   }
   
   
@@ -813,6 +870,13 @@ public class FieldProgramParser extends SmartAddressParser {
      */
     public void setNextStep(Step nextStep) {
       this.nextStep = nextStep;
+    }
+    
+    /**
+     * @return next step
+     */
+    public Step getNextStep() {
+      return nextStep;
     }
     
     /**
@@ -894,37 +958,37 @@ public class FieldProgramParser extends SmartAddressParser {
     }
 
     /**
-     * Execute the program starting with this step.  The method will
-     * recursively call itself for subsequent steps until the entire
-     * program has been processed.
+     * Execute the program starting with this step.
      * @param flds Array of fields being processed
      * @param ndx current field index
      * @param data Data object being set up
      * @param lastStep most recently executed step
-     * @return true if successful, false otherwise
+     * @return the next link to be processed, or 
+     * SUCCESS to indicate a successful parse, or 
+     * FAILURE to indicate a parse failure
      */
-    public boolean process(String[] flds, int ndx, Data data, Step lastStep) {
-      
+    public boolean process(State state, String[] flds, Data data) {
+
+      int ndx = state.getIndex();
+      Step lastStep = state.getLastStep();
+
       // Have we passed the end of the data stream
       if (ndx >= flds.length) {
         
         // Yep, if this is an END step, take the success link
         if (field instanceof EndField) {
-          return succLink.exec(flds, ndx, data, this);
+          return state.link(succLink);
         }
 
         // Otherwise, if there is a failure link, execute it
         // Unless it points back to ourselves, which can happen if there was
         // a repeating condition SKIP step
         if (failLink != null && failLink.step != this){
-          return failLink.exec(flds, ndx, data, this);
+          return state.link(failLink);
         } 
         
-        // Otherwise check to make sure there are no required fields in
-        // the remaining program steps
-        else {
-          return checkFailure(data);
-        }
+        // Otherwise we are finsished
+        return true;
       }
       
       // Now we have to deal with any tag complications
@@ -950,7 +1014,7 @@ public class FieldProgramParser extends SmartAddressParser {
           // If this is an option tagged step, take failure branch
           // if tags do not match, otherwise process this step
           if (tag != null && failLink != null) {
-            if (! tag.equals(curTag)) return failLink.exec(flds, ndx, data, this);
+            if (! tag.equals(curTag)) return state.link(failLink);
             curFld = curVal;
             break;
           }
@@ -971,7 +1035,7 @@ public class FieldProgramParser extends SmartAddressParser {
             if (procStep == null) {
               procStep = startStep;
               if (procStep.tag == null) break;
-              if (++ndx >= flds.length) return checkFailure(data);
+              if (++ndx >= flds.length) return true;
               curFld = flds[ndx].trim();
               continue;
             }
@@ -980,7 +1044,8 @@ public class FieldProgramParser extends SmartAddressParser {
             // If we had to skip over a required field, return failure
             // Otherwise we are ready to process this step
             if (skipReq) {
-              return false;
+              state.setResult(false);
+              return true;
             }
             curFld = curVal;
             break;
@@ -992,9 +1057,7 @@ public class FieldProgramParser extends SmartAddressParser {
           if (ndx == flds.length-1 && curFld.length() > 0) {
             Step tStep = procStep;
             while (tStep != null) {
-              if (tStep.tag != null && tStep.tag.startsWith(curFld)) {
-                return checkFailure(data);
-              }
+              if (tStep.tag != null && tStep.tag.startsWith(curFld)) return true;
               tStep = tStep.nextStep;
             }
           }
@@ -1016,7 +1079,7 @@ public class FieldProgramParser extends SmartAddressParser {
             // this text.  Which means we have reached the end of text processing
             // and need only check if there are any required fields we haven't
             // encountered
-            if (!startStep.optional) return checkFailure(data);
+            if (!startStep.optional) return true;
             
             // Otherwise, the assumption is that there is no matching
             // tagged field.  So we start the whole process all over again
@@ -1028,16 +1091,21 @@ public class FieldProgramParser extends SmartAddressParser {
             
             // If this hits the end of the chain, make sure we didn't skip
             // any required fields
-            if (startStep == null) return checkFailure(data);
+            if (startStep == null) return true;
           }
           curFld = flds[ndx].trim();
           continue;
         }
       }
-      return procStep.process2(curFld, flds, ndx, data);
+      state.setIndex(ndx);
+      state.setStep(procStep);
+      return procStep.process2(state, curFld, flds, data);
     }
 
-    public boolean process2(String curFld, String[] flds, int ndx, Data data) {
+    public boolean process2(State state, String curFld, String[] flds, Data data) {
+      
+      // Get current field and state information
+      int ndx = state.getIndex();
       
       // Next we invoke our field object to process the current data field.
       // If there is a fail step, we will ask the field object to check to
@@ -1055,38 +1123,25 @@ public class FieldProgramParser extends SmartAddressParser {
           }
         }
       } catch (FieldProgramException ex) {
-        return false;
+        state.setResult(false);
+        return true;
       }
       
       // Jump to the next step
-      StepLink link = (success ? succLink : failLink);
-      
-      // if the next step link is null, the program has completed and we can
-      // return a successful result.  Otherwise call ourselves to process
-      // the next step on the program.
-      if (link == null) return true;
-      return link.exec(flds, ndx, data, this);
+      return state.link(success ? succLink : failLink);
     }
     
     /**
-     * This is called when we have reached the end of the data fields and
-     * need to ensure that there are no required fields remaining to be
-     * processed.
-     * 
-     * @return true if there are no required fields remaining in the normal
-     * program sequence
+     * This is called for a process step beyond the end of the data fields
+     * it returns a false status if it is a require process step
+     * @return true if this is not a required field step
      */
-    private boolean checkFailure(Data data) {
+    public boolean checkFailure(Data data) {
 
       // If this is a required step, return failure
       if (required == EReqStatus.REQUIRED) return false;
       if (required == EReqStatus.EXPECTED) data.expectMore = true; 
-      
-      // If there are no more program steps, return success
-      if (nextStep == null) return true;
-      
-      // Still undetermined, return the failure status of the next step
-      return nextStep.checkFailure(data);
+      return true;
     }
 
     public void checkForSkips() {
@@ -1157,11 +1212,6 @@ public class FieldProgramParser extends SmartAddressParser {
       this.step = step;
       if (step != null) step.getInLinks().add(this);
       this.inc += incAdj;
-    }
-    
-    public boolean exec(String[] flds, int ndx, Data data, Step lastStep) {
-      if (step == null) return true;
-      return step.process(flds, ndx+inc, data, lastStep);
     }
     
     @Override

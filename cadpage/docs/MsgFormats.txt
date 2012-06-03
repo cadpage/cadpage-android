@@ -4423,14 +4423,6 @@ DispatchBParser subclass
 JACKSONE911:1070 >FIRE 1382 WILHITE RD XS: PAYNEVILLE RD JEFFERSON WIER, GILBERT L & SUE 7063678650 Map: Grids:0,0 Cad: 2012-0000049643
 JACKSONE911:1050I >ACCIDENT - INJURIES 3835 APPLE VALLEY RD BILL Cad: 2012-0000049719
 **********************************************************
-Wayne County, IN
-Contact: AJ Locker <aj.locker@yahoo.com>
-Sender: amoore@co.wayne.in.us
-(911) 05/31 20:20 81 S 14TH ST #209 209: Landmark: MERLE HENDERSON APTS  E MAIN ST//S A ST  70 Y/O FEMALE.;CONSC AND ALERT. ABLE TO SPEAK. ; DB JUST STARTED.
-(911) 05/31 19:56 812 NW 5TH ST #LOT 4 10-52: Landmark: HARBOR LIGHTS  NW J ST//INDIANA AV  FEMALE FELL AGAIN FROM A STANDING POSITION NO LOC  SHE IS UP JUST
-(911) 05/31 18:43 2005 VI POST RD 10-52 DB:  TEST RD//SALISBURY RD S  72 Y/O MALE HAS BEEN SICK FOR A FEW DAYS. CONSC AND ALERT.
-(911) 05/31 16:37 E MAIN ST // WOODSIDE DR 10-50 PI: E MAIN ST // WOODSIDE DR  37TH ST//34TH ST  NECK PAIN;STILL IN THE ROAD WAY
-**********************************************************
 **********************************************************
 **********************************************************
 **********************************************************
@@ -4857,12 +4849,19 @@ the address to the call and also the adr section will be the same as
 note just depends on whos sending out the text that day other words who
 ever is work communications that day they all do it different
 **********************************************************
-From:911@lehighcounty.org
-Body:ST2000 TYP: TRAFFIC CONTROL AD: 630 E EMMAUS AV CTY: SALISBURY CN: FERNANDO TRINIDAD CMT1: **TRAFFIC CONTROL CMT2: INCIDENT CLONED
-Send time:1338653179000
-Rec time: 1338667613691
+Wayne County, IN
+Contact: AJ Locker <aj.locker@yahoo.com>
+Sender: amoore@co.wayne.in.us
 
-From:911@lehighcounty.org
-Body:FROM PARENT: LPD120602045599 TIME: 16:06 UNTS: FD/ST20 XST: 2301 S FILBERT ST XST2: 1949 S POTOMAC ST
-Send time:1338653179000
-Rec time: 1338667605082
+The 209 is an apartment or room #. In Indiana, a 10-52 is a medical run. A 10-50 is an MVA. For the complete list of Indiana 10 codes visit http://www.n9wp.com/scan/codes.htm.  
+
+(911) 05/31 20:20 81 S 14TH ST #209 209: Landmark: MERLE HENDERSON APTS  E MAIN ST//S A ST  70 Y/O FEMALE.;CONSC AND ALERT. ABLE TO SPEAK. ; DB JUST STARTED.
+(911) 05/31 19:56 812 NW 5TH ST #LOT 4 10-52: Landmark: HARBOR LIGHTS  NW J ST//INDIANA AV  FEMALE FELL AGAIN FROM A STANDING POSITION NO LOC  SHE IS UP JUST
+(911) 05/31 18:43 2005 VI POST RD 10-52 DB:  TEST RD//SALISBURY RD S  72 Y/O MALE HAS BEEN SICK FOR A FEW DAYS. CONSC AND ALERT.
+(911) 05/31 16:37 E MAIN ST // WOODSIDE DR 10-50 PI: E MAIN ST // WOODSIDE DR  37TH ST//34TH ST  NECK PAIN;STILL IN THE ROAD WAY
+(911) 06/01 10:29 408 S 10TH ST #D 10-52 DB:  S C ST//S E ST  48 Y/O FEMALE. TROUBLE BREATHING HISTORY: COPD
+(911) 06/01 12:20 1212 S 20TH ST 10-52: Landmark: BETHLEHEM MANOR APARTMENTS  S L ST// ACCIDENTAL CUT TO THE HAND..WAITING AT THE ENTRANCE 
+(911) 06/01 13:27 3601 E MAIN ST : Landmark Comment: WALMART PLAZA Landmark: WALMART  37TH ST//34TH ST  ;JUST INSIDE THE GROCERY ENTRANCE
+(911) 06/01 00:00 BEELOR RD // US 27 10-50 UNK: 3081 BEELOR RD S US 27 // LIBERY AV  VEH IN THE DITCH NO DESC
+(911) 06/01 09:43 900 S A ST : Landmark: LELAND RESIDENCE  S 10TH ST//S 9TH ST
+**********************************************************

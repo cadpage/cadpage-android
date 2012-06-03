@@ -20,6 +20,11 @@ Sender; Dispatcher@safety-center.org,rc.340@c-msg.net
 Contact: Nate Ritchey <nwritchey911@gmail.com>
 Subject:NECC\n[E] LV:1 EMS SUICIDAL SUBJECT\n/\n11645 THISTLEHILL DR\n(SY)\nXS: HEIDLEBERG DR & SYMBOLA DR\n\nRCVD AS Phone\n\nCOM:\nC\nALLED IN 3RD PARTY-BY THE PATIENTS COUNSELOR -\nJENNIFER REDWITZ - 685.9344\nSHE STATED THAT THE 26-F @ THIS ADDRESS IS \n
 
+Contact:  Matt Fox <mattfox79@gmail.com>
+Sender: rc.340@c-msg.net
+rc.340@c-msg.net\nSUBJ:NECC\nMSG:\n[E] LV:1 EMS UNK ILL/INJ\r\n/\r\n3056 STRATFORD CT\r\n(LV)\r\nXS: ENYART RD & N/A\r\n\r\n\r\n\r\nCOM:\r\n\r\n\r\n
+rc.340@c-msg.net\nSUBJ:NECC\nMSG:\n[E] LV:1 EMS CHEST PAIN/HEART\r\n/\r\nVAN\r\n8500 GOVERNORS HILL DR\r\n(SY)\r\nXS: MASON RD & N/A\r\n\r\n\r\n\r\nCOM:\r\nF/OLDER\r\n\r\n
+
 */
 public class OHNECCParser extends FieldProgramParser {
   
@@ -33,7 +38,7 @@ public class OHNECCParser extends FieldProgramParser {
       "SYCMTP","SYCAMORE TWP"
   });
   
-  private static final Pattern SUBJECT_PTN = Pattern.compile("NECC\\|[EF]");
+  private static final Pattern SUBJECT_PTN = Pattern.compile("(?:NECC\\|)?[EF]|");
   private static final Pattern PHONE_PTN = Pattern.compile("<tel:(.*)>");
 
   public OHNECCParser() {

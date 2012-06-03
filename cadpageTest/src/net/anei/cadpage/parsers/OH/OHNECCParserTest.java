@@ -55,10 +55,41 @@ public class OHNECCParserTest extends BaseParserTest {
         "CITY:SYMMES",
         "X:HEIDLEBERG DR & SYMBOLA DR",
         "INFO:C / ALLED IN 3RD PARTY-BY THE PATIENTS COUNSELOR - / JENNIFER REDWITZ - 685.9344 / SHE STATED THAT THE 26-F @ THIS ADDRESS IS");
+
+    doTest("T6",
+        "rc.340@c-msg.net\nSUBJ:NECC\nMSG:\n[E] LV:1 EMS UNK ILL/INJ\r\n/\r\n3056 STRATFORD CT\r\n(LV)\r\nXS: ENYART RD & N/A\r\n\r\n\r\n\r\nCOM:\r\n\r\n\r\n",
+        "CALL:EMS UNK ILL/INJ",
+        "ADDR:3056 STRATFORD CT",
+        "CITY:LOVELAND",
+        "X:ENYART RD & N/A");
+
+    doTest("T7",
+        "rc.340@c-msg.net\n" +
+        "SUBJ:NECC\n" +
+        "MSG:\n" +
+        "[E] LV:1 EMS CHEST PAIN/HEART\r\n" +
+        "/\r\n" +
+        "VAN\r\n" +
+        "8500 GOVERNORS HILL DR\r\n" +
+        "(SY)\r\n" +
+        "XS: MASON RD & N/A\r\n" +
+        "\r\n" +
+        "\r\n" +
+        "\r\n" +
+        "COM:\r\n" +
+        "F/OLDER\r\n" +
+        "\r\n",
+
+        "CALL:EMS CHEST PAIN/HEART",
+        "PLACE:VAN",
+        "ADDR:8500 GOVERNORS HILL DR",
+        "CITY:SYMMES",
+        "X:MASON RD & N/A",
+        "INFO:F/OLDER");
      
   }
   
   public static void main(String[] args) {
-    new OHNECCParserTest().generateTests("T5");
+    new OHNECCParserTest().generateTests("T8");
   }
 }

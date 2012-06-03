@@ -21,13 +21,6 @@ public class FieldProgramParserTest extends BaseParserTest {
   
   @Test
   public void testProblem() {
-    
-    doFieldTest("repeat",
-        "Typ:CALL Com:INFO+ Run:ID",
-        "Typ:FIRE;Com:LINE1;Com:LINE2;Run:666",
-        "CALL:FIRE",
-        "INFO:LINE1 / LINE2",
-        "ID:666");
   }
   
   @Test
@@ -318,6 +311,12 @@ public class FieldProgramParserTest extends BaseParserTest {
         "PLACE:BIG HOUSE",
         "NAME:KEN CORBIN",
         "ID:666");
+    
+    doFieldTest("Labeled repeat field",
+        "TYP:CALL+ DATA:INFO+",
+        "TYP:BIG;FIRE;DATA:AT;MY;HOUSE",
+        "CALL:BIG / FIRE",
+        "INFO:AT / MY / HOUSE");
   }
   
   @Test

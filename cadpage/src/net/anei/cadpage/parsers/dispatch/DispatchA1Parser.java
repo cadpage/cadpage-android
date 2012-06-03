@@ -82,7 +82,7 @@ public class DispatchA1Parser extends FieldProgramParser {
   
   public DispatchA1Parser(Properties cityCodes, String defCity, String defState) {
     super(cityCodes, defCity, defState, 
-           "ALRM_LVL:PRI LOC:SKIP PLACE? ADDR! APT? CITY BTWN:X COM:INFO INFO+ CT:INFO INFO+");
+           "ALRM_LVL:PRI LOC:SKIP PLACE? ADDR! APT? CITY BTWN:X COM:INFO INFO+? CT:INFO INFO+?");
   }
   
   @Override
@@ -137,10 +137,25 @@ public class DispatchA1Parser extends FieldProgramParser {
     }
   }
   
+  private class MyInfoField extends InfoField {
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      if (field.length() == 0) return false;
+      parse(field, data);
+      return true;
+    }
+  }
+  
   @Override
   public Field getField(String name) {
     if (name.equals("PLACE")) return new MyPlaceField();
     if (name.equals("APT")) return new MyAptField();
+    if (name.equals("INFO")) return new MyInfoField();
     return super.getField(name);
   }
   
