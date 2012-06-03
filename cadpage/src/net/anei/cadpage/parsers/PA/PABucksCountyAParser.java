@@ -201,6 +201,7 @@ Sender: "Bucks RSAN" <alert10965@alert.bucksema.org>
 (Important message from Bucks County RSAN) A134 ***test test test test*** Sent by mss911 Bucks to SQ134, mss911 Bucks (Voice/Fax Dialer, E-mail accounts, Pagers, Cell phones) through Bucks County RSAN
 (Important message from Bucks County RSAN) STA19,ANY AVAIL STATION 19 CHIEF OFFICER PHONE FIRE COMMUNICATIONS Sent by mss911 Bucks to STA19, mss911 Bucks (Voice/Fax Dialer, E-mail accounts, Pagers, Cell phones) through Bucks County RSAN
 [911 Data]  05/29/12  10:17:27 ~TO~ INT1 FROM FS01:\nSTA19,ANY AVAIL STA 19 OR 79 CHIEF OFC CALL FIRE COMM/#764\n
+(911 Data) 06/03/12  10:43:56 ~TO~ INT1 FROM FS01: STA19,ANY AVAILABLE STA 19 CHIEF OFFICER PHONE COMMUNICATIONS
 
  */
 
@@ -210,7 +211,7 @@ public class PABucksCountyAParser extends PABucksCountyBaseParser {
   private static final Pattern MARKER1 = Pattern.compile("^[A-Z]+\\s+(?:Adr:|adr:|Box:)");
   private static final Pattern MARKER2 = Pattern.compile("^([A-Z0-9 ]+):([A-Z]+) *");
   private static final Pattern NAKED_DATE_TIME = Pattern.compile("(?<!: ?)\\d\\d/\\d\\d/\\d\\d +\\d\\d:\\d\\d:\\d\\d\\b");
-  private static final Pattern GEN_ALERT_MARKER = Pattern.compile("^(\\d\\d/\\d\\d/\\d\\d) +(\\d\\d:\\d\\d:\\d\\d) +~TO~ [A-Z0-9]+ FROM [A-Z0-9]+:\n");
+  private static final Pattern GEN_ALERT_MARKER = Pattern.compile("^(\\d\\d/\\d\\d/\\d\\d) +(\\d\\d:\\d\\d:\\d\\d) +~TO~ [A-Z0-9]+ FROM [A-Z0-9]+:\n?");
   private static final Pattern SRC_MARKER = Pattern.compile("^([A-Z]+[0-9]+)[, ]");
   
   public PABucksCountyAParser() {
