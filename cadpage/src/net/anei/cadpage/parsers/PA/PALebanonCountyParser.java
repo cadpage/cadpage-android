@@ -35,6 +35,7 @@ Sender: km911alert@gmail.com
 Contact: nevin weaver <weavmy36@gmail.com>
 Sender: km911alert@gmail.com
 Subject:Sta 29@12:50\nSouth Lebanon Twp 2618 KING ST MI - Miscellaneous Wire Down FG 3 E29 Fire-Box 29-01 EMS-Box 140-1\r\n\r\nTo unsubscribe r\r
+Subject:Sta 29@04:39\nRichland Boro 308 POPLAR ST CORETEC PLASTICS BC - Business/Commercial Roof Fire FG-3 E33 SQ33 E34 E34-1 W31 TK31 PT30\r
 
 Contact: "Roger Funck" <rogerfunck@verizon.net>
 Sender: 7176798487
@@ -56,7 +57,8 @@ public class PALebanonCountyParser extends SmartAddressParser {
     Pattern.compile("^(.* Township) "),
     Pattern.compile("^(.* Twp) "),
     Pattern.compile("^City of ([^ ]*) "),
-    Pattern.compile("^(.*) Borough ")
+    Pattern.compile("^(.*) Borough "),
+    Pattern.compile("^(.*) Boro ")
   };
   private static final String[] DAUPHIN_EAST_HANOVER_STRINGS = new String[]{
     "DAUPHIN EAST HANOVER "
