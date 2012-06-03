@@ -164,6 +164,16 @@ public class PALebanonCountyParserTest extends BaseParserTest {
         "BOX:Fire:29-01 EMS:140-1",
         "UNIT:FG 3 E29");
 
+    doTest("T2",
+        "Subject:Sta 29@04:39\n" +
+        "Richland Boro 308 POPLAR ST CORETEC PLASTICS BC - Business/Commercial Roof Fire FG-3 E33 SQ33 E34 E34-1 W31 TK31 PT30\r",
+
+        "CITY:RICHLAND",
+        "ADDR:308 POPLAR ST",
+        "PLACE:CORETEC PLASTICS",
+        "CALL:BC - Business/Commercial Roof Fire",
+        "UNIT:FG-3 E33 SQ33 E34 E34-1 W31 TK31 PT30");
+
   }
   
   @Test

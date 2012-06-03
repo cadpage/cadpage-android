@@ -277,10 +277,18 @@ public class NCDurhamCountyParserTest extends BaseParserTest {
         "INFO:attempting to get further / male in the frt yard not feeling good -- / LARK LN / GREEN LANE DR",
         "DATE:05/28/12",
         "TIME:18:21:03");
+
+    doTest("T22",
+        "CAD:INVESTIGATION;109 CAPTAINS CT;EITHER 107 OR 109 [06/02/12 18:46:18 GLOSSON] open fire.... [06/02/12 18:46:01 GLOSSON] ;CRAIG RD",
+        "CALL:INVESTIGATION",
+        "ADDR:109 CAPTAINS CT",
+        "INFO:EITHER 107 OR 109 / open fire.... / CRAIG RD",
+        "DATE:06/02/12",
+        "TIME:18:46:18");
  
   }
   
   public static void main(String[] args) {
-    new NCDurhamCountyParserTest().generateTests("T11");
+    new NCDurhamCountyParserTest().generateTests("T1");
   }
 }
