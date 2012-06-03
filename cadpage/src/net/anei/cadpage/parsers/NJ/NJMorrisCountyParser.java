@@ -66,15 +66,17 @@ prvs=2463121dc2=dispatch@co.morris.nj.us 71 N HILLSIDE AVE [Roxbury Twp] (BREATH
 Contact: Lee Bender <leebender@morrisminutemen.org> 
 Sender: dispatch@co.morris.nj.us
 prvs=44951d6e4e=dispatch@co.morris.nj.us MORRIS MEWS (22) BLDING 2, APT C7, 95 KETCH RD [Morris Twp] (UNKNOWN) - E2368\nUNKNOWN PROBLEM, LANGUAGE BARRIER, CALLER STATES NEEDS TO GO
+prvs=4499e8115a=dispatch@co.morris.nj.us 1 AIRPORT RD [Morristown] (AIRPORT-A) - \nCAT A PLANE INBOUND GEAR PROBLEM\nF121530010 14:49
 
 */
 
 public class NJMorrisCountyParser extends MsgParser {
   
   private static final Pattern MASTER_PTN = 
-    Pattern.compile("(.*?) \\[([-A-Za-z ]+)\\] \\(([A-Z\\\\/ ]+)\\) - (.*)", Pattern.DOTALL);
+    Pattern.compile("(.*?) \\[([-A-Za-z ]+)\\] \\(([-A-Z\\\\/ ]+)\\) - (.*)", Pattern.DOTALL);
   
   private static final Pattern PLACE_CODE_PTN = Pattern.compile("\\(\\d+\\)");
+  private static final Pattern ID_TIME_PTN = Pattern.compile("(F\\d{6,}) +(\\d\\d:\\d\\d)");
   
   public NJMorrisCountyParser() {
     super("MORRIS COUNTY", "NJ");
@@ -110,8 +112,18 @@ public class NJMorrisCountyParser extends MsgParser {
     String[] flds = sExtra.split("\n");
     if (flds.length > 1) {
       data.strUnit = flds[0].trim();
-      for (int ndx = 1; ndx < flds.length; ndx++) {
-        data.strSupp = append(data.strSupp, " / ", flds[ndx].trim());
+      int last = flds.length-1;
+      match = ID_TIME_PTN.matcher(flds[last]);
+      if (match.matches()) {
+        data.strCallId = match.group(1);
+        data.strTime =match.group(2);
+        last--;
+      }
+      for (int ndx = 1; ndx <= last; ndx++) {
+        String fld = flds[ndx].trim();
+        if (fld.length() > 0) {
+          data.strSupp = append(data.strSupp, " / ", fld);
+        }
       }
     }
     
