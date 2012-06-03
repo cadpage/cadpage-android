@@ -1998,6 +1998,14 @@ public class PABucksCountyAParserTest extends BaseParserTest {
         "PLACE:ANY AVAIL STA 19 OR 79 CHIEF OFC CALL FIRE COMM/#764",
         "DATE:05/29/12",
         "TIME:10:17:27");
+
+    doTest("T5",
+        "(911 Data) 06/03/12  10:43:56 ~TO~ INT1 FROM FS01: STA19,ANY AVAILABLE STA 19 CHIEF OFFICER PHONE COMMUNICATIONS",
+        "SRC:STA19",
+        "CALL:GENERAL ALERT",
+        "PLACE:ANY AVAILABLE STA 19 CHIEF OFFICER PHONE COMMUNICATIONS",
+        "DATE:06/03/12",
+        "TIME:10:43:56");
   }
   
   
