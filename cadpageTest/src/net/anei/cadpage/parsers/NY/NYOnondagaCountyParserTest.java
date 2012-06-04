@@ -18,4 +18,10 @@ public class NYOnondagaCountyParserTest {
       setParser(new NYOnondagaCountyParser());
     }
   }
+  
+  public static class TestC extends NYOnondagaCountyCParserTest {
+    public TestC() {
+      setParser(new NYOnondagaCountyParser());
+    }
+  }
 }

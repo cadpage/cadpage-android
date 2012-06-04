@@ -130,7 +130,7 @@ public class NCMecklenburgCountyAParserTest extends BaseParserTest {
         "ADDR:13000-blk Hidcote Ct",
         "MADDR:13000 Hidcote Ct",
         "PLACE:BURNING BRUSH",
-        "INFO:Fire -  Emergency",
+        "CALL:Fire -  Emergency",
         "CODE:67");
 
     doTest("T3",
@@ -160,13 +160,30 @@ public class NCMecklenburgCountyAParserTest extends BaseParserTest {
         "(Incoming Message) Beatties Ford Rd & Mcilwaine R          TREE DOWN BLOCKING ONE LANE   Fire -  Emergency             53-",
         "ADDR:Beatties Ford Rd & Mcilwaine R",
         "PLACE:TREE DOWN BLOCKING ONE LANE",
-        "INFO:Fire -  Emergency",
+        "CALL:Fire -  Emergency",
         "CODE:53");
 
   }
   
+  @Test
+  public void testMarkScheible() {
+
+    doTest("1",
+        "(Incoming Message) 12903 Thistlebrook Ln                                                 Bravo-BLS COLD",
+        "ADDR:12903 Thistlebrook Ln",
+        "CALL:Bravo-BLS COLD");
+
+    doTest("2",
+        "(Incoming Message) 11530 Beatties Ford Rd        MAIN ENTR Hopewell High School AED      Charlie       ",
+        "ADDR:11530 Beatties Ford Rd",
+        "APT:MAIN ENTR",
+        "PLACE:Hopewell High School AED",
+        "CALL:Charlie");
+    
+  }
+  
 
   public static void main(String[] args) {
-    new NCMecklenburgCountyAParserTest().generateTests("7", "ADDR APT PLACE INFO CALL X CH MAP ID");
+    new NCMecklenburgCountyAParserTest().generateTests("T1", "ADDR APT PLACE INFO CALL X CH MAP ID");
   }
 }
