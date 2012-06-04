@@ -50,6 +50,10 @@ Contact: Ben Reagan <breagan@eastlincolnfd.org>
 (Incoming Message) 12019 Verhoeff Dr                       Huntersville Oaks Nursing *SNFFire -  Emergency             52F
 (Incoming Message) Beatties Ford Rd & Mcilwaine R          TREE DOWN BLOCKING ONE LANE   Fire -  Emergency             53-
 
+Contact: Mark Scheible <scheible_mark@yahoo.com>
+Sender: s01page+bncCMiZ9YPHFxClpLL-BBoErtV5Mg@huntersvillefd.com
+(Incoming Message) 12903 Thistlebrook Ln                                                 Bravo-BLS COLD
+(Incoming Message) 11530 Beatties Ford Rd        MAIN ENTR Hopewell High School AED      Charlie       
 
 ** NOT IMPLEMENTED **
 Contact: John Stroup <j.stroup@northmeckrescue.org>
@@ -88,13 +92,13 @@ public class NCMecklenburgCountyAParser extends MsgParser {
   
   @Override
   public String getFilter() {
-    return "paging@rcscom.com,@huntersvillefd.com,Group_Page_Notification@archwireless.net";
+    return "paging@rcscom.com,@huntersvillefd.com,Group_Page_Notification@archwireless.net,@huntersvillefd.com";
   }
   
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
     
-    if(body.length() < 103) return false;
+    if(body.length() < 74) return false;
     if (body.contains("Received:")) return false;
     
     boolean good = subject.equals("Text Page") || subject.equals("Incoming Message");
@@ -119,6 +123,10 @@ public class NCMecklenburgCountyAParser extends MsgParser {
       else data.strCall = data.strCall.substring(pt+1).trim();
       String callDesc = CALL_CODES.getProperty(data.strCode);
       if (callDesc != null && callDesc.startsWith(data.strCall)) data.strCall = callDesc;
+    }
+    if (data.strCall.length() == 0) {
+      data.strCall = data.strSupp;
+      data.strSupp = "";
     }
     return true;
   }

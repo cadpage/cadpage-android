@@ -1047,10 +1047,7 @@ public abstract class MsgParser {
     */
    public Matcher getMatcher(Pattern ptn) {
      Matcher match = ptn.matcher(line);
-     if (!match.find(spt)) {
-       spt = ept;
-       return null;
-     }
+     if (!match.find(spt)) return null;
      
      spt = match.end();
      return match;
