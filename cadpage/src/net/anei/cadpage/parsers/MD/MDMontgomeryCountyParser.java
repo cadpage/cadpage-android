@@ -146,6 +146,8 @@ public class MDMontgomeryCountyParser extends FieldProgramParser {
       "MCG", "",
       "PG",  "PRINCE GEORGES COUNTY",
       "RO",  "ROCKVILLE",
+      "SS",  "SILVER SPRING",
+      "TP",  "TACOMA PARK"
   });
 }
 /***
