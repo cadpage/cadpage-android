@@ -13,7 +13,7 @@ class Active911Vendor extends Vendor {
            R.drawable.active_911_logo,
            "http://www.active911.com",
            ">A91",
-           "joseph.sullivan@active911.com");
+           null);
   }
 
   @Override
