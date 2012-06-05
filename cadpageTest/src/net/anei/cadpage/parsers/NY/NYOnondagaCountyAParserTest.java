@@ -12,6 +12,35 @@ public class NYOnondagaCountyAParserTest extends BaseParserTest {
   }
   
   @Test
+  public void testBad() {
+    doBadTest(
+        "(Dispatch) Dispatch ** 07:06:07 ** E-PERSONAL INJURY ** 916 STATE FAIR BLVD ** SNOWBIRDS LANDING II-NEAR THE **  ** (315) 460-0168 **  **  ** MALE FELL APPEARS UNSTABLE\n" +
+        "Number of patients: 1\n" +
+        "Responder script: 86 year old, Male, Conscious, Breathing. Falls. Caller\n" +
+        "Statement: MALE FELL APPEARS UNSTABLE .\n" +
+        "MALE FELL APPEARS UNSTABLE\n" +
+        "Respon ** 05/26/12 ** PINJ ** WVE128700889 ** WVE ** Fire Station Dispatch Report   Dispatch Time:  05-26-2012  07:06:07\n" +
+        "Agency: GBE \n" +
+        "    Event: E12052600040\n\n" +
+        "Case Number: WVE128700889\n" +
+        "Event Type Code: PINJ PERSONAL INJURY\n" +
+        "Event Subtype Code:         \n\n" +
+        "Address:\n" +
+        "SNOWBIRDS LANDING II\n" +
+        "916  STATE FAIR BLVD \n" +
+        "Location Info: NEAR THE ST IFO THIS LOCATION \n\n" +
+        "Municipality: TGD\n" +
+        "Cross Street: CONKLIN ST AND SENECA ST\n\n" +
+        "Caller Information:\n\n" +
+        "  Caller Name: \n" +
+        "  Caller Phone Number: (315) 460-0168\n" +
+        "  Caller Address: \n\n" +
+        "Responding Units:\n\n" +
+        "  87A3  WVE1  EMS\n" +
+        " ** TGD **  ** GB **  ** CONKLIN ST AND SENECA ST **  ** A3, ** ");
+  }
+  
+  @Test
   public void testPompey() {
 
     doTest("T1",
