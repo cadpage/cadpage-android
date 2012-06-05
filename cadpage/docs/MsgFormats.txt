@@ -4421,13 +4421,6 @@ Body: ALL members report 10:30am in class A uniforms for a parade detail.
 
 Sent to FD 29-1 WILLIAMSTOWN FC (Voice/Fax Dialer, e-mail accounts, Pagers, cell phones devices) through Gloucester County RSAN
 **********************************************************
-Jackson County, GA
-Contact: Jeffrey Jones <jljones87@gmail.com>
-Sender: 93001nnn
-DispatchBParser subclass
-JACKSONE911:1070 >FIRE 1382 WILHITE RD XS: PAYNEVILLE RD JEFFERSON WIER, GILBERT L & SUE 7063678650 Map: Grids:0,0 Cad: 2012-0000049643
-JACKSONE911:1050I >ACCIDENT - INJURIES 3835 APPLE VALLEY RD BILL Cad: 2012-0000049719
-**********************************************************
 Rogers County, OK (Tulsa) (Replace)
 
 Contact: Greg Miller <catoosafd23@yahoo.com>
@@ -4642,7 +4635,18 @@ Contact: John Yancey <johnyancey7@gmail.com>
 Sender: arns@shelby911.org
 1 of 2\nFRM:arns@shelby911.org\nSUBJ:SHELBY911 ARNS ALERT\nMSG:\r\n6/3/2012 4:23:11 PM\r\nFIRE1209430\r\nCAH_VALY - MAID181\r\nMVC-CHECK_INJURIES\r\n\r\n   @\n(Con't) 2 of 2\nCAHABA VALLEY RD / LEGACY DR\r\n\r\nAT&T MOBILITY(End)
 **********************************************************
+Las Vegas County, NV
+Contact: Andy Stone <akmedic33@gmail.com>
+Sender: sms@pageway.net
+(SMS) I: 4273738 U: 3901, P: 3, G: 3423, PH: 17 L: 2711 W WINDMILL LN# , B: , AL: PC:, 1A N:1A], 17:07:17 [Geographic Area: 2711 W WINDMILL LN]
 **********************************************************
+Jackson County, GA
+Contact: Jeffrey Jones <jljones87@gmail.com>
+Sender: 93001nnn
+DispatchBParser subclass
+JACKSONE911:1070 >FIRE 1382 WILHITE RD XS: PAYNEVILLE RD JEFFERSON WIER, GILBERT L & SUE 7063678650 Map: Grids:0,0 Cad: 2012-0000049643
+JACKSONE911:1050I >ACCIDENT - INJURIES 3835 APPLE VALLEY RD BILL Cad: 2012-0000049719
+JACKSONE911:SIG16 >STROKE/CVA PATIENT 87 BEND DR XS: COMMERCE RD JEFFERSON FLOYD PAULSON 7066148432 Map:H6 Grids:0,0 Cad: 2012-0000053376
 **********************************************************
 **********************************************************
 **********************************************************
