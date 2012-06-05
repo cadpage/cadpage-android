@@ -124,6 +124,8 @@ public class NYOnondagaCountyBParser extends FieldProgramParser {
 
   @Override
   protected Field getField(String name) {
+    if (name.equals("DATE")) return new DateField("\\d\\d/\\d\\d/\\d\\d", true);
+    if (name.equals("TIME")) return new TimeField("\\d\\d:\\d\\d", true);
     if (name.equals("PLACE")) return new MyPlaceField();
     if (name.equals("INFO")) return new MyInfoField();
     return super.getField(name);
