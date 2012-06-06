@@ -1530,6 +1530,11 @@ Burlington County, NJ (NJBurlingtonCountyDParser)
 (Messenger 911) Call Time: 11:58:04\nIncident #: 03272         S\nIncident Type: EMS E EMS Call\nQuadrant: 3410\nLocation: 1 STUDENT DR\nLocated Btwn: WOODLANE RD/DEAD END\nNature: JUV FELL OFF JUNGLE GYM
 (Messenger 911) Call Time: 17:34:50\nIncident #: 03131         S\nIncident Type: 16 F Alarms\nQuadrant: 1340\nLocation: 1570 E RT38\nLocated Btwn: MT HOLLY BP/MAIN ST\nNature: FIRE ALARM//BASEMENT SMOKE DET
 (Messenger 911) Call Time: 18:41:40\nIncident #: 03272         S\nIncident Type: EMS E EMS Call\nQuadrant: 2731\nLocation: 71 FIELDCREST DR\nLocated Btwn: WILDBERRY DR/SHARPLESS BV\nNature: MALE SLID OFF BED ONTO FLOOR
+**********************************************************
+Burlington County, NJ (NJBurligntonCountyEParser) 
+EMS E EMS Call 3690 NJTP VENUE : NJTP MALE INTOXICATED 16:01:53 05/12/2012
+FIRE F Fire Call N CROPWELL  RD  VENUE : WASH DOWN/MVA 08:06:57 05/07/2012
+EMS E EMS Call 422 SEDGEWICK LA VENUE : Evesham MALE SWEATY SLURRED SPEECH POSS STROKE CARDIA 08:16:51 05/23/2012
 ***************************************************************************
 Camden County, NJ (NJCamdenCountyAParser)
 (Dispatch SD45) DWELLING\n312 9TH ST ,14\n#:\nX:CENTER/CHERRY\nZN:14A\nCP:  2011-03-31 10:44:12\nMI#:110073123\nRES#:SD45
@@ -4854,14 +4859,6 @@ Incident Number(s)
 2012-00011231~~Gaston Emergency Medical Services
 2012-00014936~~Rescue Squads Gaston Co
 2012-00000112~~Tryon Fire Dept.
-**********************************************************
-Burlington County, NJ 
-Contact: "David Maxey" <dmaxey09@vt.edu>
-EMS E EMS Call 3690 NJTP VENUE : NJTP MALE INTOXICATED 16:01:53 05/12/2012
-FIRE F Fire Call N CROPWELL  RD  VENUE : WASH DOWN/MVA 08:06:57 05/07/2012
-EMS E EMS Call 422 SEDGEWICK LA VENUE : Evesham MALE SWEATY SLURRED SPEECH POSS STROKE CARDIA 08:16:51 05/23/2012
-EMS E EMS Call 360 s RT73 VENUE : Evesham MALE?ALLEGRIC REACTION 12:22:28 06/04/2012
-117 E Falls 803 JONATHAN LA VENUE : Evesham SUBJECT FELL 00:34:25 05/16/2012
 **********************************************************
 **********************************************************
 **********************************************************

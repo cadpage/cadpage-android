@@ -11,8 +11,7 @@ import net.anei.cadpage.parsers.SmartAddressParser;
 
 /*
 Burlington County, Evesham, NJ 
-Contact: 
-Sender: 
+Contact: "David Maxey" <dmaxey09@vt.edu>
 
 EMS E EMS Call 3690 NJTP VENUE : NJTP MALE INTOXICATED 16:01:53 05/12/2012
 FIRE F Fire Call N CROPWELL  RD  VENUE : WASH DOWN/MVA 08:06:57 05/07/2012
@@ -28,6 +27,11 @@ public class NJBurlingtonCountyEParser extends SmartAddressParser {
   
   public NJBurlingtonCountyEParser() {
     super("BURLINGTON COUNTY", "NJ");
+  }
+  
+  @Override
+  public String getFilter() {
+    return "@c-msg.net";
   }
   
   @Override
