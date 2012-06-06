@@ -103,9 +103,12 @@ System: Pro QA Medical & Pro QA Fire
 ((52100) CAD ) 12:20:08*Mutual Aid EMS*11740 ASBUSY CIRCLE INTERSECTN*CALVERT COUNTY*ST38*APT1203-TROUBLE BREATHING*
 ((49925) CAD ) 17:16:22*Mutual Aid EMS*13650 KERSEY WY*ST38*302-CVA*
 
-Unknown
 Contact: 2402989668@vtext.com
 (27758 CAD ) 20:38:46*ODOR UNKNOWN*49154 WYNNE RD*WOODLAWN LN*RIDGE*CO4 CO14*Odor (Strange / Unknown).  Odor inside.Caller Statement:*
+
+Contact: Brian Brown <brian.brown86@gmail.com>
+* ST MARY'S COUNTY GOVERNMENT P (6077) CAD : 11:16:28*Diabetic Problems*21275 LEXWOOD CT APT 29A*LEXWOOD DR*LEXINGTON PARK*ST39* stop
+* ST MARY'S COUNTY GOVERNMENT P (6354) CAD400PAGE﻿ : 12:17:53*Allergic Reaction/Bee Stings*PHILLIP BEAN MED CENTER*24035 THREE NOTCH RD*SANDY BOTTOM RD*HOLLYWOOD*ALS CO79 ST38* stop
 
  */
 
@@ -128,7 +131,8 @@ public class MDSaintMarysCountyParser extends SmartAddressParser {
   protected boolean parseMsg(String body, Data data) {
     Matcher match = MARKER.matcher(body);
     if (!match.find()) return false;
-    body = body.substring(match.start());
+    body = body.substring(match.start()).trim();
+    if (body.endsWith(" stop")) body = body.substring(0,body.length()-5).trim();
     
     // Special case, field delimited by double starts is a place name
     // that should be removed from the message string
