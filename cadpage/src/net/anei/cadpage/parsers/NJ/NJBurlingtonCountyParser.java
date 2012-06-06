@@ -13,6 +13,7 @@ public class NJBurlingtonCountyParser extends GroupBestParser {
     super(new NJBurlingtonCountyAParser(), 
           new NJBurlingtonCountyBParser(),
           new NJBurlingtonCountyCParser(),
-          new NJBurlingtonCountyDParser());
+          new NJBurlingtonCountyDParser(),
+          new NJBurlingtonCountyEParser());
   }
 }
