@@ -218,7 +218,7 @@ public class PAWashingtonCountyParser extends FieldProgramParser {
       "WBRO", "WEST BROWNSVILLE",
       "WFIN", "WEST FINLEY TWP",
       "WMID", "WEST MIDDLETOWN",
-      "WPIK", "WEST PIKE RUN TWP"
+      "WPIK", "WEST PIKE RUN TWP",
   });
   
   private static final Properties CALL_CODES = buildCodeTable(new String[]{

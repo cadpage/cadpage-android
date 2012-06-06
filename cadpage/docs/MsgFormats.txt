@@ -4635,11 +4635,6 @@ Contact: John Yancey <johnyancey7@gmail.com>
 Sender: arns@shelby911.org
 1 of 2\nFRM:arns@shelby911.org\nSUBJ:SHELBY911 ARNS ALERT\nMSG:\r\n6/3/2012 4:23:11 PM\r\nFIRE1209430\r\nCAH_VALY - MAID181\r\nMVC-CHECK_INJURIES\r\n\r\n   @\n(Con't) 2 of 2\nCAHABA VALLEY RD / LEGACY DR\r\n\r\nAT&T MOBILITY(End)
 **********************************************************
-Las Vegas County, NV
-Contact: Andy Stone <akmedic33@gmail.com>
-Sender: sms@pageway.net
-(SMS) I: 4273738 U: 3901, P: 3, G: 3423, PH: 17 L: 2711 W WINDMILL LN# , B: , AL: PC:, 1A N:1A], 17:07:17 [Geographic Area: 2711 W WINDMILL LN]
-**********************************************************
 Jackson County, GA
 Contact: Jeffrey Jones <jljones87@gmail.com>
 Sender: 93001nnn
@@ -4648,6 +4643,10 @@ JACKSONE911:1070 >FIRE 1382 WILHITE RD XS: PAYNEVILLE RD JEFFERSON WIER, GILBERT
 JACKSONE911:1050I >ACCIDENT - INJURIES 3835 APPLE VALLEY RD BILL Cad: 2012-0000049719
 JACKSONE911:SIG16 >STROKE/CVA PATIENT 87 BEND DR XS: COMMERCE RD JEFFERSON FLOYD PAULSON 7066148432 Map:H6 Grids:0,0 Cad: 2012-0000053376
 **********************************************************
+New Castle, DE ???
+Contact: John Pase <boullox@gmail.com>
+Sender: rc.87@c-msg.net
+(27CAD) [eFB] F00 21:16 1 - T:65A1 (L1*MUTUAL AID-MULTI UNIT~TO IN) L:1068 HOWELL SCHOOL RD ,HU11 -- LUMS POND STATE PK - X:btwn BUCK JERSEY RD
 **********************************************************
 **********************************************************
 **********************************************************
@@ -4763,3 +4762,18 @@ T.KENNEDY:353 E I 40 MM CALLEWR DUPLIN 12:34:02
 T.KENNEDY:110 E MAIN ST EXT FAISON 16:15:11
 T.KENNEDY:1 16:37:58 OUT OF SERVICE FOR ANY REASON FAISON RESCUE 5 10-17 BRUSH WILL RESPONSE IN THERE PLACE OCA: 2012001083
 T.KENNEDY:364 I 40 MM DUPLIN 15:50:25 ACCIDENT-PROPERTY DAMAGE ONLY AND FAISON EXIT NO ONE IS HURT GREY HONDA AND A SILEVR TAURUS VEHICLES IN RD DUPLIN I 40
+**********************************************************
+Las Vegas County, NV
+Contact: Andy Stone <akmedic33@gmail.com>
+Sender: sms@pageway.net
+(SMS) I: 4273738 U: 3901, P: 3, G: 3423, PH: 17 L: 2711 W WINDMILL LN# , B: , AL: PC:, 1A N:1A], 17:07:17 [Geographic Area: 2711 W WINDMILL LN]
+(SMS) I: 4274400 U: 3901, P: 2, G: 3217, PH: 61 L: S DURANGO DR / W MAULE AVE# , B: , AL: PC:, 32B N:32B], 19:02:59 [Geographic Area: S DURANGO
+(SMS) I: 4273913 U: 3901, P: 1, G: 2821, PH: 13 L: 4285 DUNEVILLE ST-CC# 236 , B: , AL: PC:, 6D N:6D], Location from Fire: 4285 DUNEVILLE ST, 00
+[SMS]  ALL UNITS BE ADVISED H9 & H2 ARE SWITCHING TO THEIR NEW COMPUTER, SYSTEM, EXPECT LONG DELAYS - THX(DNL)
+[SMS]  I: 4273807 U: 3901, P: 1, G: 2814, PH: 55 L: 4541 BERSAGLIO ST-CC# , B: , AL: PC:, 5C N:5C], Location from Fire: 4541 BERSAGLIO ST, 19:51:
+(SMS) RUN#:4273913 /RCV:00:32:57/ENR:00:34:10/ONS:00:40:00/TRS:01:23:33/DES:01:28:03/MIL:
+(SMS) POSTASSIGN, Please move from:19 , To :31J RAINBOW & RUSSELL
+(SMS) RN#4274400 /RCV:19:03:42/ENR:19:04:20/ONS:19:08:38/AVA:19:13:06
+(SMS) RUN#:A225728 /RCV:16:31:14/ENR:16:31:15/ONS:16:31:15/TRS:/DES:/MIL:
+(SMS) ~ STATUS CHECK PLEASE (SNA)
+(SMS) I: 4274438 U: 3901, P: 1, G: 2815, PH: 17 L: W FLAMINGO RD / N I 215# , B: , AL: PC:, 12D N:12D], 20:33:59 [Geographic Area: W FLAMINGO RD
