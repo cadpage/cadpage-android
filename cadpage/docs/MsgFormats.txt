@@ -4122,7 +4122,6 @@ New Castle County, DE
 Contact: Matthew Comegys <mcomegys2832@gmail.com>
 Sender: rc.69@c-msg.net
 15CAD / ESC:??DSC:DIFF BREATHING ?! PAT:1 SEX:Female AGE:30Years CON:Y BRE:Y\n\n
-15CAD / [eFB] F00 23:39 1 - T:M6D4 (DIFF BREATHING-CLAMMY) L:758 JAVELIN WY ,HNRN btwn BRIDLE WY ~ TROPHY WY *HUNTERS RUN TP - D\n\n
 15CAD / ESC:??DSC:DIFF BREATHING ?! PAT:1 SEX:Female AGE:30Years CON:Y BRE:Y\n\n
 
 New Castle County, DE
@@ -4643,10 +4642,6 @@ JACKSONE911:1070 >FIRE 1382 WILHITE RD XS: PAYNEVILLE RD JEFFERSON WIER, GILBERT
 JACKSONE911:1050I >ACCIDENT - INJURIES 3835 APPLE VALLEY RD BILL Cad: 2012-0000049719
 JACKSONE911:SIG16 >STROKE/CVA PATIENT 87 BEND DR XS: COMMERCE RD JEFFERSON FLOYD PAULSON 7066148432 Map:H6 Grids:0,0 Cad: 2012-0000053376
 **********************************************************
-New Castle, DE ???
-Contact: John Pase <boullox@gmail.com>
-Sender: rc.87@c-msg.net
-(27CAD) [eFB] F00 21:16 1 - T:65A1 (L1*MUTUAL AID-MULTI UNIT~TO IN) L:1068 HOWELL SCHOOL RD ,HU11 -- LUMS POND STATE PK - X:btwn BUCK JERSEY RD
 **********************************************************
 Gaston County, NC? (alternate)
 Contact: Stephen Wilkinson <smwilkin61@gmail.com>

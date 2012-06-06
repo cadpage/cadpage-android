@@ -61,6 +61,15 @@ Contact: Tim Lynch <tlynch@ofc424.com>
 Sender: rc.50@c-msg.net
 (17CAD) [eFB] F00 14:42 1 - T:69D6O (L3*RESIDENTIAL FIRE) L:4 ATKINS AV ,MW *LANCASTER VILLAGE - X:btwn LANCASTER AV ~ WATSON AV DESC: odor of smoke in res.?!?!?!
 
+Contact: Matthew Comegys <mcomegys2832@gmail.com>
+Sender: rc.69@c-msg.net
+15CAD / [eFB] F00 23:39 1 - T:M6D4 (DIFF BREATHING-CLAMMY) L:758 JAVELIN WY ,HNRN btwn BRIDLE WY ~ TROPHY WY *HUNTERS RUN TP - D\n\n
+
+Contact: John Pase <boullox@gmail.com>
+Sender: rc.87@c-msg.net
+(27CAD) [eFB] F00 21:16 1 - T:65A1 (L1*MUTUAL AID-MULTI UNIT~TO IN) L:1068 HOWELL SCHOOL RD ,HU11 -- LUMS POND STATE PK - X:btwn BUCK JERSEY RD
+(27CAD) [eFB] F00 10:31 1 - T:68A1 (L1*SMOKE INVESTIGATION) L:BOYDS CORNER RD~NORFOLK SOUTHERN RR ,HU1 - X:
+
  */
 
 
@@ -139,8 +148,9 @@ public class DENewCastleCountyAParser extends FieldProgramParser {
   private class MyCrossField extends CrossField {
     @Override
     public void parse(String fld, Data data) {
+      if (fld.startsWith("btwn ")) fld = fld.substring(5).trim();
       Parser p = new Parser(fld);
-      super.parse(p.get(" *"), data);
+      super.parse(p.get(" *").replace('~', '&'), data);
       parsePlace(p.get(), data);
     }
   }
