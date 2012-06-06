@@ -54,6 +54,20 @@ public class MDAlleganyCountyParserTest extends BaseParserTest {
 
   }
   
+  @Test
+  public void testParser3() {
+
+    doTest("T1",
+        "S:CAD M:03:16 #024484 BREATHING DIFFICULTY 12030 IRIS AVE SW  BOX:F0801 DUE:A396\n\n",
+        "TIME:03:16",
+        "ID:024484",
+        "CALL:BREATHING DIFFICULTY",
+        "ADDR:12030 IRIS AVE SW",
+        "BOX:F0801",
+        "UNIT:A396");
+
+  }
+  
   public static void main(String[] args) {
     new MDAlleganyCountyParserTest().generateTests("T1");
   }

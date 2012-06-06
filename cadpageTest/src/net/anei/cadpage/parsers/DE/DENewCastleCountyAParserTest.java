@@ -15,30 +15,30 @@ public class DENewCastleCountyAParserTest extends BaseParserTest {
   public void testParser() {
 
     doTest("T1",
-        "(25CAD) [FB] F00 19:58 1 - T:69D5 (L3*MULTI-RESIDENTIAL FIRE) L:755 MONTCLAIR DR #2 ,PF *NAAMANS APTS - X:btwn NAAMANS RD ~ SOCIETY DR DESC: smoke fromneighbors",
+        "(25CAD) [FB] F00 19:58 1 - T:69D5 (L3*MULTI-RESIDENTIAL FIRE) L:755 MONTCLAIR DR #2 ,PF *NAAMANS APTS - X:NAAMANS RD ~ SOCIETY DR DESC: smoke fromneighbors",
         "SRC:25CAD",
         "CALL:69D5 (L3*MULTI-RESIDENTIAL FIRE)",
         "ADDR:755 MONTCLAIR DR",
         "APT:2",
         "PLACE:NAAMANS APTS",
-        "X:btwn NAAMANS RD ~ SOCIETY DR",
+        "X:NAAMANS RD & SOCIETY DR",
         "INFO:smoke fromneighbors");
 
     doTest("T2",
-        "(25CAD) [FB] F00 12:11 1 - T:69D7 (L3*CHIMNEY FIRE) L:2007 FERNDALE DR ,X1 *WESTWOOD MANOR - X:btwn FORREST RD ~ VEALE RD DESC: chimney.?!?!",
+        "(25CAD) [FB] F00 12:11 1 - T:69D7 (L3*CHIMNEY FIRE) L:2007 FERNDALE DR ,X1 *WESTWOOD MANOR - X:FORREST RD ~ VEALE RD DESC: chimney.?!?!",
         "SRC:25CAD",
         "CALL:69D7 (L3*CHIMNEY FIRE)",
         "ADDR:2007 FERNDALE DR",
         "PLACE:WESTWOOD MANOR",
-        "X:btwn FORREST RD ~ VEALE RD",
+        "X:FORREST RD & VEALE RD",
         "INFO:chimney.?!?!");
 
     doTest("T3",
-        "[FB] F00 03:14 1 - T:69D6 (L3*RESIDENTIAL FIRE) L:108 CARLIE RD ,NT *LYNNFIELD - X:btwn HOMEWOOD RD ~ RIDGELAND RD",
+        "[FB] F00 03:14 1 - T:69D6 (L3*RESIDENTIAL FIRE) L:108 CARLIE RD ,NT *LYNNFIELD - X:HOMEWOOD RD ~ RIDGELAND RD",
         "CALL:69D6 (L3*RESIDENTIAL FIRE)",
         "ADDR:108 CARLIE RD",
         "PLACE:LYNNFIELD",
-        "X:btwn HOMEWOOD RD ~ RIDGELAND RD");
+        "X:HOMEWOOD RD & RIDGELAND RD");
 
     doTest("T4",
         "[FB] F00 08:06 1 - T:55B2 (L1*ELECTRICAL HAZARD-WIRES DWN) L:ELGIN LA~SHIPLEY RD ,QB *OAK LANE MANOR - X: DESC: WIRES DOWN.?!?!",
@@ -49,39 +49,39 @@ public class DENewCastleCountyAParserTest extends BaseParserTest {
         "INFO:WIRES DOWN.?!?!");
 
     doTest("T5",
-        "(25CAD) [FB] F00 01:38 1 - T:52C3S (L1*COMMERCIAL FIRE ALARM) L:4130 CONCORD PK ,HU06 -- 6TH AVE ELECTRONIC - X:btwn SILVERSIDE RD ~ PASSMORE RD DESC: fire alar",
+        "(25CAD) [FB] F00 01:38 1 - T:52C3S (L1*COMMERCIAL FIRE ALARM) L:4130 CONCORD PK ,HU06 -- 6TH AVE ELECTRONIC - X:SILVERSIDE RD ~ PASSMORE RD DESC: fire alar",
         "SRC:25CAD",
         "CALL:52C3S (L1*COMMERCIAL FIRE ALARM)",
         "ADDR:4130 CONCORD PK",
         "MADDR:4130 CONCORD PIKE",
         "PLACE:6TH AVE ELECTRONIC",
-        "X:btwn SILVERSIDE RD ~ PASSMORE RD",
+        "X:SILVERSIDE RD & PASSMORE RD",
         "INFO:fire alar");
 
     doTest("T6",
-        "(25CAD) [FB] F00 08:35 1 - T:69D4O (L3*COMMERCIAL STRUC FIRE W~HZ) L:4238 PHILADELPHIA PK ,HU06 -- CLAYMONT STEEL PLA - LI:PLATE MILL - X:btwn ALCOTT AV ~ NAAMANS RD",
+        "(25CAD) [FB] F00 08:35 1 - T:69D4O (L3*COMMERCIAL STRUC FIRE W~HZ) L:4238 PHILADELPHIA PK ,HU06 -- CLAYMONT STEEL PLA - LI:PLATE MILL - X:ALCOTT AV ~ NAAMANS RD",
         "SRC:25CAD",
         "CALL:69D4O (L3*COMMERCIAL STRUC FIRE W~HZ)",
         "ADDR:4238 PHILADELPHIA PK",
         "MADDR:4238 PHILADELPHIA PIKE",
         "PLACE:CLAYMONT STEEL PLA - LI:PLATE MILL",
-        "X:btwn ALCOTT AV ~ NAAMANS RD");
+        "X:ALCOTT AV & NAAMANS RD");
 
     doTest("T7",
-        "(25CAD) [FB] F00 11:48 1 - T:52C3G (L1*COMMERCIAL FIRE ALARM) L:1801 AUGUSTINE CUT OFF ,HU06 -- ACCENTURE CONSULTI - X:btwn W EIGHTEENTH ST ~ STONE HILL RD DESC",
+        "(25CAD) [FB] F00 11:48 1 - T:52C3G (L1*COMMERCIAL FIRE ALARM) L:1801 AUGUSTINE CUT OFF ,HU06 -- ACCENTURE CONSULTI - X:W EIGHTEENTH ST ~ STONE HILL RD DESC",
         "SRC:25CAD",
         "CALL:52C3G (L1*COMMERCIAL FIRE ALARM)",
         "ADDR:1801 AUGUSTINE CUT OFF",
         "PLACE:ACCENTURE CONSULTI",
-        "X:btwn W EIGHTEENTH ST ~ STONE HILL RD");
+        "X:W EIGHTEENTH ST & STONE HILL RD");
 
     doTest("T8",
-        "(25CAD) [FB] F00 22:27 1 - T:52C1G (L1*FIRE ALARM~GENERAL) L:4641 WELDIN RD ,XF -- MARY CAMPBELL CNTR *WELDIN WOODS - X:btwn JACOB WELDIN PL ~ WELDIN CI DESC: F",
+        "(25CAD) [FB] F00 22:27 1 - T:52C1G (L1*FIRE ALARM~GENERAL) L:4641 WELDIN RD ,XF -- MARY CAMPBELL CNTR *WELDIN WOODS - X:JACOB WELDIN PL ~ WELDIN CI DESC: F",
         "SRC:25CAD",
         "CALL:52C1G (L1*FIRE ALARM~GENERAL)",
         "ADDR:4641 WELDIN RD",
         "PLACE:MARY CAMPBELL CNTR *WELDIN WOODS",
-        "X:btwn JACOB WELDIN PL ~ WELDIN CI",
+        "X:JACOB WELDIN PL & WELDIN CI",
         "INFO:F");
 
     doTest("T9",
@@ -89,7 +89,7 @@ public class DENewCastleCountyAParserTest extends BaseParserTest {
         "CALL:52B1G (L1*RES FIRE ALARM~GENERAL ALAR)",
         "ADDR:401 CAMPBELL RD",
         "CITY:GREENVILLE",
-        "X:KENNETT PK ~ MINKER CT",
+        "X:KENNETT PK & MINKER CT",
         "INFO:afa.?!?!");
 
     doTest("T10",
@@ -98,7 +98,7 @@ public class DENewCastleCountyAParserTest extends BaseParserTest {
         "ADDR:100 ORCHARD LA",
         "MADDR:100 ORCHARD LN",
         "CITY:HOLLY OAK",
-        "X:WALNUT ST ~ RIDGE RD",
+        "X:WALNUT ST & RIDGE RD",
         "APT:1");
 
     doTest("T11",
@@ -123,7 +123,7 @@ public class DENewCastleCountyAParserTest extends BaseParserTest {
         "CALL:52B1G (L1*RES FIRE ALARM~GENERAL ALAR)",
         "ADDR:401 CAMPBELL RD",
         "CITY:GREENVILLE",
-        "X:KENNETT PK ~ MINKER CT",
+        "X:KENNETT PK & MINKER CT",
         "INFO:afa.");
 
     doTest("T14",
@@ -132,7 +132,7 @@ public class DENewCastleCountyAParserTest extends BaseParserTest {
         "ADDR:102 PONDS LA",
         "MADDR:102 PONDS LN",
         "PLACE:PONDS OF GREENVILLE",
-        "X:MONTCHANIN RD ~ DEAD-END",
+        "X:MONTCHANIN RD & DEAD-END",
         "INFO:afa");
 
     doTest("T15",
@@ -148,7 +148,7 @@ public class DENewCastleCountyAParserTest extends BaseParserTest {
         "CALL:69D6 (L3*RESIDENTIAL FIRE)",
         "ADDR:15 GLENROCK DR",
         "PLACE:RADNOR GREEN",
-        "X:BENNING RD ~ PENNSYLVANIA AV",
+        "X:BENNING RD & PENNSYLVANIA AV",
         "INFO:fire");
 
     doTest("T17",
@@ -156,14 +156,14 @@ public class DENewCastleCountyAParserTest extends BaseParserTest {
         "CALL:52C3G (L1*COMMERCIAL FIRE ALARM)",
         "ADDR:1001 ROCKLAND RD",
         "PLACE:DUPONT CC GOLF COU - LI:EQUIPMENT CENTER",
-        "X:BLACK GATES RD ~ COUNTRY CLUB DR");
+        "X:BLACK GATES RD & COUNTRY CLUB DR");
 
     doTest("T18",
         "03:51T:55C1 (L1*ELECTRICAL HAZ W~NEAR WATER) L:112 BUCK RD ,HU07 - LI:IN FRONT OF ABV - X:ARDLEIGH DR ~ GREENOCK DR : transformer",
         "CALL:55C1 (L1*ELECTRICAL HAZ W~NEAR WATER)",
         "ADDR:112 BUCK RD",
         "PLACE:LI:IN FRONT OF ABV",
-        "X:ARDLEIGH DR ~ GREENOCK DR",
+        "X:ARDLEIGH DR & GREENOCK DR",
         "INFO:transformer");
 
     doTest("T19",
@@ -188,7 +188,7 @@ public class DENewCastleCountyAParserTest extends BaseParserTest {
         "CALL:M10D2 (CHEST PAINS-DIFF SPEAKING BETW)",
         "ADDR:1000 SNOWY EGRET LA",
         "MADDR:1000 SNOWY EGRET LN",
-        "X:btwn POLE BRIDGE RD ~ BOBWHITE CT",
+        "X:POLE BRIDGE RD & BOBWHITE CT",
         "PLACE:AUGUSTINE CREEK II",
         "INFO:??DSC:CHEST PAIN?! PAT:1 SEX:Male AGE:52Years CON:Y BRE:Y");
 
@@ -197,7 +197,7 @@ public class DENewCastleCountyAParserTest extends BaseParserTest {
         "SRC:24CAD",
         "CALL:M24B1 (EMERGENCY MATERNITY)",
         "ADDR:106 N SIXTH ST",
-        "X:btwn MAIN ST ~ HIGH ST",
+        "X:MAIN ST & HIGH ST",
         "CITY:ODESSA",
         "INFO:??DSC:water");
 
@@ -207,7 +207,7 @@ public class DENewCastleCountyAParserTest extends BaseParserTest {
         "CALL:M24B1 (EMERGENCY MATERNITY)",
         "ADDR:16 DEL HAVEN CT",
         "CITY:HOLLY OAK",
-        "X:btwn GOVERNOR PRINTZ BL ~ WALNUT ST",
+        "X:GOVERNOR PRINTZ BL & WALNUT ST",
         "INFO:??DSC:MATERNITY 25YOF ~~~ ?! PAT:1 SEX:Female AGE:25Years CON:Y BRE:Y");
 
     doTest("T24",
@@ -217,14 +217,14 @@ public class DENewCastleCountyAParserTest extends BaseParserTest {
         "ADDR:113 S DUPONT HY",
         "MADDR:113 S DUPONT HWY",
         "PLACE:LONE STAR STEAKHOU / HARES CORNER",
-        "X:btwn CHRISTIANA RD ~ FIFTH AV");
+        "X:CHRISTIANA RD & FIFTH AV");
 
     doTest("T25",
         "[eFB] F00 14:33 1 - T:M31D3 (SYNCOPE-NOT ALERT) L:160 ACADEMY ST ,3B --* **DRAKE HALL *btwn E DELAWARE AV ~ LOVETT AV *UD CENTRAL MALL - LI:RM #054 - DESC:—àDSC:DIZZY, PASSED OUT—! PAT:1 SEX:Female AGE:19Years CON:Y BRE:Y",
         "CALL:M31D3 (SYNCOPE-NOT ALERT)",
         "ADDR:160 ACADEMY ST",
         "PLACE:DRAKE HALL / UD CENTRAL MALL - LI:RM #054",
-        "X:btwn E DELAWARE AV ~ LOVETT AV",
+        "X:E DELAWARE AV & LOVETT AV",
         "INFO:—àDSC:DIZZY, PASSED OUT—! PAT:1 SEX:Female AGE:19Years CON:Y BRE:Y");
 
     doTest("T26",
@@ -234,21 +234,38 @@ public class DENewCastleCountyAParserTest extends BaseParserTest {
         "MADDR:LIBRARY AVE & E MAIN ST",
         "PLACE:NEWARK - LI:IFO MCDONALDS");
  
-  }
-  
-  @Test
-  public void testTimLynch() {
-
-    doTest("T1",
-        "(17CAD) [eFB] F00 14:42 1 - T:69D6O (L3*RESIDENTIAL FIRE) L:4 ATKINS AV ,MW *LANCASTER VILLAGE - X:btwn LANCASTER AV ~ WATSON AV DESC: odor of smoke in res.?!?!?!",
+    doTest("T27",
+        "(17CAD) [eFB] F00 14:42 1 - T:69D6O (L3*RESIDENTIAL FIRE) L:4 ATKINS AV ,MW *LANCASTER VILLAGE - X:LANCASTER AV ~ WATSON AV DESC: odor of smoke in res.?!?!?!",
         "SRC:17CAD",
         "CALL:69D6O (L3*RESIDENTIAL FIRE)",
         "ADDR:4 ATKINS AV",
         "MADDR:4 ATKINS AVE",
         "PLACE:LANCASTER VILLAGE",
-        "X:btwn LANCASTER AV ~ WATSON AV",
+        "X:LANCASTER AV & WATSON AV",
         "INFO:odor of smoke in res.?!?!?!");
-    
+
+    doTest("T28",
+        "15CAD / [eFB] F00 23:39 1 - T:M6D4 (DIFF BREATHING-CLAMMY) L:758 JAVELIN WY ,HNRN btwn BRIDLE WY ~ TROPHY WY *HUNTERS RUN TP - D\n\n",
+        "SRC:15CAD",
+        "CALL:M6D4 (DIFF BREATHING-CLAMMY)",
+        "ADDR:758 JAVELIN WY",
+        "PLACE:HUNTERS RUN TP",
+        "X:BRIDLE WY & TROPHY WY");
+
+    doTest("T29",
+        "(27CAD) [eFB] F00 21:16 1 - T:65A1 (L1*MUTUAL AID-MULTI UNIT~TO IN) L:1068 HOWELL SCHOOL RD ,HU11 -- LUMS POND STATE PK - X:BUCK JERSEY RD",
+        "SRC:27CAD",
+        "CALL:65A1 (L1*MUTUAL AID-MULTI UNIT~TO IN)",
+        "ADDR:1068 HOWELL SCHOOL RD",
+        "PLACE:LUMS POND STATE PK",
+        "X:BUCK JERSEY RD");
+
+    doTest("T30",
+        "(27CAD) [eFB] F00 10:31 1 - T:68A1 (L1*SMOKE INVESTIGATION) L:BOYDS CORNER RD~NORFOLK SOUTHERN RR ,HU1 - X:",
+        "SRC:27CAD",
+        "CALL:68A1 (L1*SMOKE INVESTIGATION)",
+        "ADDR:BOYDS CORNER RD & NORFOLK SOUTHERN RR");
+   
   }
   
   public static void main(String[] args) {
