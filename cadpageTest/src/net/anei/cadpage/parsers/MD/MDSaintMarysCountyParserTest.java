@@ -800,6 +800,31 @@ public class MDSaintMarysCountyParserTest extends BaseParserTest {
         "INFO:Odor (Strange / Unknown).  Odor inside.Caller Statement:");
 
   }
+  
+  @Test
+  public void testParser2() {
+
+
+    doTest("T1",
+        "* ST MARY'S COUNTY GOVERNMENT P (6077) CAD : 11:16:28*Diabetic Problems*21275 LEXWOOD CT APT 29A*LEXWOOD DR*LEXINGTON PARK*ST39* stop",
+        "TIME:11:16:28",
+        "CALL:Diabetic Problems",
+        "ADDR:21275 LEXWOOD CT",
+        "X:LEXWOOD DR",
+        "CITY:LEXINGTON PARK",
+        "UNIT:ST39");
+
+    doTest("T2",
+        "* ST MARY'S COUNTY GOVERNMENT P (6354) CAD400PAGE﻿ : 12:17:53*Allergic Reaction/Bee Stings*PHILLIP BEAN MED CENTER*24035 THREE NOTCH RD*SANDY BOTTOM RD*HOLLYWOOD*ALS CO79 ST38* stop",
+        "TIME:12:17:53",
+        "CALL:Allergic Reaction/Bee Stings",
+        "ADDR:24035 THREE NOTCH RD",
+        "X:SANDY BOTTOM RD",
+        "PLACE:PHILLIP BEAN MED CENTER",
+        "CITY:HOLLYWOOD",
+        "UNIT:ALS CO79 ST38");
+
+  }
 
   public static void main(String[] args) {
     new MDSaintMarysCountyParserTest().generateTests("T1", "TIME CALL ADDR APT X PLACE CITY UNIT INFO");
