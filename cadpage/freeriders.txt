@@ -339,6 +339,7 @@ Daniel Schneider (daniel.schneider.07@gmail.com)
 randy bebeau (acfdfire72@gmail.com)(bebes73@hotmail.com)
 Anthony Durkin (tdurkin74@gmail.com)(tdurkin11@comcast.net)
 Fred Windisch (fwindisch49@gmail.com)(fwindisch@ponderosavfd.org)
+Matthew Stritmater <mstrit63@gmail.com> // Market failure
 %%11/06/2011
 Benjamin Wagner (roanokefpd8@gmail.com)(roanokefpd8@gmail.com)
 Charles Schriver (chuckles494@gmail.com)(chuckles_co7@yahoo.com)
@@ -727,7 +728,6 @@ Lisa Edwards (jojosmima@gmail.com)<ledwards@townofchapelhill.org>
 >>Kaleb Staley <kalebstaley@gmail.com>
 >>Felicha Janoski <felichajanoski@gmail.com>
 >>Sl Ls (fireman6408@gmail.com)<fireup69@gmail.com>
->>Matthew Stritmater <mstrit63@gmail.com> // Market failure
 %%11/06/2011
 >>Justin Fisher (justin62911@gmail.com)<justin62911@comcast.net>
 >>Michael Pinkney <mpick4040@gmail.com>
@@ -2295,4 +2295,6 @@ Steven Gay <stevengay1992@gmail.com>
 "Richard Remels" (riremels@gmail.com) <riremels@cisco.com>
 Quentin Mills (qmills@gmail.com) <qmills@dcvfd.org>
 lee pierce <autobldsol@gmail.com>
-
+Daniel Carr <djdancarr@gmail.com>
+%%06/05/2012
+John Lester <jlester3446@gmail.com>

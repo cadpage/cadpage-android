@@ -103,20 +103,20 @@ public class NJGloucesterCountyParser extends FieldProgramParser {
   }
 
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
-      "DEPTFORD", "DEPFORD TWP",
+      "DEPTFORD",       "DEPFORD TWP",
       "EAST GREENWICH", "E GREENWICH TWP",
-      "ELK", "ELK TWP",
-      "FRANKLIN", "FRANKLIN TWP",
-      "HARRISON", "HARRISON TWP",
-      "LOGAN", "LOGAN TWP",
-      "MANTUA", "MANTUA TWP",
-      "MONROE", "MONROE TWP",
-      "NATNL", "NATIONAL PARK",
-      "S", "S HARRISON TWP",
-      "WASHINGTON", "WASHINGTON TWP",
-      "WEST DEPTFORD", "W DEPTFORD TWP",
-      "W-DEPTFORD", "W DEPTFORD TWP",
-      "WOOLWICH", "WOOLWICH TWP",
-      "WOODBRYHGT", "WOODBURY HEIGHTS"
+      "ELK",            "ELK TWP",
+      "FRANKLIN",       "FRANKLIN TWP",
+      "HARRISON",       "HARRISON TWP",
+      "LOGAN",          "LOGAN TWP",
+      "MANTUA",         "MANTUA TWP",
+      "MONROE",         "MONROE TWP",
+      "NATNL",          "NATIONAL PARK",
+      "S",              "S HARRISON TWP",
+      "WASHINGTON",     "WASHINGTON TWP",
+      "WEST DEPTFORD",  "W DEPTFORD TWP",
+      "W-DEPTFORD",     "W DEPTFORD TWP",
+      "WOOLWICH",       "WOOLWICH TWP",
+      "WOODBRYHGT",     "WOODBURY HEIGHTS"
   });
 }

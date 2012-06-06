@@ -52,6 +52,21 @@ Respond For Med - Sick Person             @25715 Fan Flower                     
 ** This variant is not currently parsed, waiting to see if it pops up more than once
 a structure fire \nVALLEY RIDGE MOBILE PARK \n8671 Sw Loop 410, Unit 520 \nSB SW LP 410 OFRPOP RD/OLD PEARSALL RD \n*TAC2 \nDistrict: D2 \nE36, L36, E44, E35 and BC2
 
+********************************************************************************************************
+All of the above are in the process of being phased out and may be droppped  New text page format follows
+
+Contact: "Dorian Davis (IT GUY)" <dorian@bexarcountyfire.org>
+Sender: VisiNet.Command@sanantonio.gov
+Med - Sick Person              ; 21746 Thunder Basin                           ;       ; 485B5 ; BBUL-2012-000000701  Dept-104B ;  mother is Emma Gardley, 90 yo.[Shared],C says his mother is mentally unstable, possibly violent, he cannot control her.[Shared],Multi-Agency BCLE Incident #: BCSO-2012-0143660,This incident BBUL-2012-0013756 has been sent to ACADIAN via the CAD2CAD Interface. [Shared],Acknowledgement Received from ACADIAN 20120603-ZN16-1062 [Shared],Automatic Case Number(s) issued for Bexar Bulverde FD: BBUL-2012-000000701
+MVC                            ; Us Hwy 281 N / Bulverde Rd                    ;       ; 451D6 ; BBUL-2012-000000702  Dept-103D ;  sb side gold tahoe vs blk car /female with neck pain[Shared],Multi-Agency BCLE Incident #: BCSO-2012-0143974,Automatic Case Number(s) issued for Bexar Bulverde FD: BBUL-2012-000000702. [Shared],unk age of female [Shared],
+Med - Choking                  ; 734 Ottawa Way St                             ;       ; 451A4 ; BBUL-2012-000000699  Dept-103D ;  35 yo.[Shared],C says that her father has a bone in his throat, choking.[Shared],A cellular re-bid has occurred, check the ANI/ALI Viewer for details[Shared],Multi-Agency BCLE Incident #: BCSO-2012-0143557,Automatic Case Number(s) issued for Bexar Bulverde FD: BBUL-2012-000000699. [Shared],
+MVC - OTV                      ; 21415 Battle Crk                              ;       ; 484E6 ; BBUL-2012-000000698  Dept-104A ;  C says a pickup truck crashed, behind loc.\2sunk injuries.[Shared],Multi-Agency BCLE Incident #: BCSO-2012-0143514,white pickup [Shared],the vehicle crashed into some trees, vehicle is turned over [Shared],C says he may be trapped in the vehicle, people are attempting to get him out [Shared],Automatic Case Number(s) issued for Bexar Bulverde FD: BBUL-2012-000000698. [Shared],
+Med - Sick Person              ; 849 Pine Eagle Ln                             #       ; 451A4 ; BBUL-2012-000000704  Dept 103D ;  female trouble breathing 64yo[Shared],Multi-Agency BCLE Incident #: BCSO-2012-0144879,Automatic Case Number(s) issued for Bexar Bulverde FD: BBUL-2012-000000704. [Shared],This incident BBUL-2012-0013867 has been sent to ACADIAN via the CAD2CAD Interface. [Shared],
+
+Med - Fall           - 8502 GLEN BREEZE               - 553F8 Dept-108B - ACADIAN: Unit:    731         10041536,Transferred incident: Remote   Reference Number: 20120603-ZN16-1180 by Stinson, Nathaniel T. From ACADIAN,Interface has sent an ack message for CAM-2012-0013763 to the remote CAD,10041536,This incident 20120603-ZN16-1180 has been sent to BCFA via the CAD2CAD Interface.,Unit - 731, status change to STATUS_RESPONDING by ACADIAN at 06/03/2012 23:07:18,ACADIAN HAS CHANGED
+Fire-Authorized Burn      - 24440 Loma Verde          - RED GATE DR/TOPALA DR                    - 783B3  Dept-138B - unk what is burning[Shared],C says she sees smoke coming from her neighbors yard.  Unk address.[Shared],Invalid address received:220  VERIZON-E SECTOR-QF 783A4.[Shared],Multi-Agency BCLE Incident #: BCSO-2012-0142874,Automatic Case Number(s) issued for Sandy Oaks FD: SOAK-2012-000000498. [Shared],
+
+
 */
 
 public class TXBexarCountyParser extends FieldProgramParser {
