@@ -159,6 +159,12 @@ public class NYMadisonCountyGLASParserTest extends BaseParserTest {
         "CITY:ONEIDA CITY INSIDE",
         "X:WASHINGTON AV / LENOX AV");
 
+    doTest("T20",
+        "FRM:messaging@iamresponding.com\nSUBJ:Greater Lenox\nMSG:MVA - Unknown\r\nROUTE 31 \\\\ MORRIS RD (, LENOX)",
+        "CALL:MVA - Unknown",
+        "ADDR:ROUTE 31 & MORRIS RD",
+        "CITY:LENOX");
+
   }
   
   public static void main(String[] args) {
