@@ -30,7 +30,7 @@ public class NVLasVegasParser extends FieldProgramParser {
   
   public NVLasVegasParser() {
     super("LAS VEGAS", "NV",
-           "I:ID! U:UNIT! P:PRI! G:MAP! PH:INFO! L:ADDR! B:PLACE! AL:INFO! PC:INFO! INFO N:SKIP TIME+");
+           "I:ID! U:UNIT! P:PRI! G:MAP! PH:MAP! L:ADDR! B:PLACE! AL:INFO! PC:CODE! CODE N:SKIP TIME+");
   }
   
   @Override
@@ -43,6 +43,13 @@ public class NVLasVegasParser extends FieldProgramParser {
     if (!subject.equals("SMS")) return false;
     body = body.replace(" U:", ", U:").replace(" L:", ", L:").replace(" PC:", ", PC:").replace(" N:", ", N:");
     return parseFields(body.split(","), 9, data);
+  }
+  
+  private class MyMapField extends MapField {
+    @Override
+    public void parse(String field, Data data) {
+      data.strMap = append(data.strMap, "-", field);
+    }
   }
   
   private class MyAddressField extends AddressField {
@@ -76,6 +83,7 @@ public class NVLasVegasParser extends FieldProgramParser {
   
   @Override
   public Field getField(String name) {
+    if (name.equals("MAP")) return new MyMapField();
     if (name.equals("ADDR")) return new MyAddressField();
     if (name.equals("TIME")) return new MyTimeField();
     return super.getField(name);

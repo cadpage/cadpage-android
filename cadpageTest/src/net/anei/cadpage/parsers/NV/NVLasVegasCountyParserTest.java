@@ -19,8 +19,8 @@ public class NVLasVegasCountyParserTest extends BaseParserTest {
         "ID:4273738",
         "UNIT:3901",
         "PRI:3",
-        "MAP:3423",
-        "INFO:17 / 1A",
+        "MAP:3423-17",
+        "CODE:1A",
         "ADDR:2711 W WINDMILL LN",
         "TIME:17:07:17");
 
@@ -29,8 +29,8 @@ public class NVLasVegasCountyParserTest extends BaseParserTest {
         "ID:4274400",
         "UNIT:3901",
         "PRI:2",
-        "MAP:3217",
-        "INFO:61 / 32B",
+        "MAP:3217-61",
+        "CODE:32B",
         "ADDR:S DURANGO DR & W MAULE AVE",
         "TIME:19:02:59");
 
@@ -39,8 +39,8 @@ public class NVLasVegasCountyParserTest extends BaseParserTest {
         "ID:4273913",
         "UNIT:3901",
         "PRI:1",
-        "MAP:2821",
-        "INFO:13 / 6D",
+        "MAP:2821-13",
+        "CODE:6D",
         "APT:236",
         "ADDR:4285 DUNEVILLE ST",
         "CITY:CLARK COUNTY");
@@ -50,8 +50,8 @@ public class NVLasVegasCountyParserTest extends BaseParserTest {
         "ID:4273807",
         "UNIT:3901",
         "PRI:1",
-        "MAP:2814",
-        "INFO:55 / 5C",
+        "MAP:2814-55",
+        "CODE:5C",
         "ADDR:4541 BERSAGLIO ST",
         "CITY:CLARK COUNTY");
 
@@ -60,8 +60,8 @@ public class NVLasVegasCountyParserTest extends BaseParserTest {
         "ID:4274438",
         "UNIT:3901",
         "PRI:1",
-        "MAP:2815",
-        "INFO:17 / 12D",
+        "MAP:2815-17",
+        "CODE:12D",
         "ADDR:W FLAMINGO RD & N I 215", // Not mapping
         "TIME:20:33:59");
 
@@ -70,8 +70,8 @@ public class NVLasVegasCountyParserTest extends BaseParserTest {
         "ID:4274468",
         "UNIT:3901",
         "PRI:3",
-        "MAP:3425",
-        "INFO:25 / 17A",
+        "MAP:3425-25",
+        "CODE:17A",
         "ADDR:8105 BURNT SIENNA ST",
         "CITY:CLARK COUNTY");
 
@@ -80,8 +80,9 @@ public class NVLasVegasCountyParserTest extends BaseParserTest {
         "ID:4274545",
         "UNIT:3901",
         "PRI:7",
-        "MAP:3216",
-        "INFO:11 / 9MOM / IV MON O2 / H1P ER / 430 N",
+        "MAP:3216-11",
+        "INFO:9MOM / IV MON O2 / H1P ER",
+        "CODE:430 N",
         "APT:ER 1",
         "ADDR:9300 W SUNSET RD",
         "CITY:CLARK COUNTY",
