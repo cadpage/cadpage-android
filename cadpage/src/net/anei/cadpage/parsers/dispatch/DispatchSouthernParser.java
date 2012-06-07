@@ -295,6 +295,7 @@ public class DispatchSouthernParser extends SmartAddressParser {
       }
     }
     data.strSupp = sExtra;
+    if (data.strCall.length() == 0 && data.strSupp.length() == 0) data.strCall= "ALERT";
   }
 
   protected void parseExtra2(String sExtra, Data data) {
