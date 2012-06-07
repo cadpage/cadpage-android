@@ -20,9 +20,19 @@ Contact: afd_jlo@yahoo.com <afd_jlo@yahoo.com>
 Sender: 8643146900
 AND 911:17A01 >FALLS-BLS PRI2 141 ASHTON LN Apt: 141 Bldg ANDERSON LOUIE SHEILDS 6264049863 Map: Grids:0,0 Cad: 2011-0000202072
 
+Contact: support@active911.com
+Sender: @andersonsheriff.com>
+active911: FIRE ALARM 201 EDGEBROOK DR XS: HWY 81 N Cad: 2012-0000120876
+
 */
 
 public class SCAndersonCountyParser extends DispatchBParser {
+  
+  private static final String[] MARKERS = new String[] {
+    "ANDERSON CO 911:",
+    "AND 911:",
+    "active911:"
+  };
   
   private static final String[] CITY_CODES = new String[]{
     "ANDERSON", "BELTON", "CLEMSON", "EASLEY", "HONEA PATH", "IVA", "PELZER", 
@@ -44,21 +54,18 @@ public class SCAndersonCountyParser extends DispatchBParser {
   protected boolean parseMsg(String body, Data data) {
     
     // See if this is one of our pages
-    do {
-      if (body.startsWith("ANDERSON CO 911:")) {
-        body = body.substring(16);
+    boolean good = false;
+    for (String marker : MARKERS) {
+      if (body.startsWith(marker)) {
+        body = body.substring(marker.length()).trim();
+        good = true;
         break;
       }
-      if (body.startsWith("AND 911:")) {
-        body = body.substring(8);
-        break;
-      }
-      return false;
-    } while (false);
+    }
+    if (!good) return false;
     
     int pt = body.indexOf('>');
-    if (pt < 0) return false;
-    data.strCode = body.substring(0,pt).trim();
+    if (pt >= 0) data.strCode = body.substring(0,pt).trim();
     
     // Call superclass parser
     return super.parseMsg(body, data);
