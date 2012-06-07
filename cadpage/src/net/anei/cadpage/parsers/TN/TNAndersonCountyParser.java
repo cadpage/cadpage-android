@@ -49,6 +49,7 @@ Contact: Active911.com
 [E911] Airplane Crash - 123 WEST BROAD ST, CLINTON, TN\n
 [E911] Lift Assist - 100 MARLOW CIR, CLINTON, TN - REC:14:12 DISP:14:12 RESP: ONSC: INSRV:14:19 TRK#:211540\n
 [E911] Airplane Crash - 123 WEST BROAD ST, CLINTON, TN - REC:14:17 DISP:14:18 RESP: ONSC: INSRV:14:19 TRK#:211543\n
+[E911] Lift Assist - 617 PINE RIDGE RD, CLINTON, TN - REC:17:14 DISP:17:14 RESP: ONSC: INSRV:17:19 TRK#:212848
 
  */
 
@@ -81,7 +82,7 @@ public class TNAndersonCountyParser extends FieldProgramParser {
     } while (false);
     
     // If page contains times keywords, report as general alert
-    if (body.contains(" INSRV:")) return data.parseGeneralAlert(body);;
+    if (body.contains(" INSRV:")) return data.parseRunReport(body);;
     
     return parseFields(DELIM.split(body), data);
   }

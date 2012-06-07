@@ -156,6 +156,19 @@ public class MsgInfo {
       return true;
     }
     
+    /**
+     * Clear any information left over from a failed parse attempt, and 
+     * set the data field to return a RUN REPORT status
+     * @param message message to be set as the general alert text
+     * @returns always returns true
+     */
+    public boolean parseRunReport(String message) {
+      initialize();
+      strCall = "RUN REPORT";
+      strPlace = message;
+      return true;
+    }
+    
 
     /**
      * @return relative score that can be used to pick out the better result
