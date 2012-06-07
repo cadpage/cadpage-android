@@ -1879,10 +1879,15 @@ NASH911:* 7400 LANCASTER STORE RD* * * SPRING HOPE* * ALARM-FIRE* * SEC CENTRAL*
 NASH911:* 6658 RED OAK RD* * * BATTLEBORO* * ALARM-FIRE* * ADT SECURITY* * * * * * *
 NASH911:* 2311 DUKE RD* * * NASHVILLE* * HEMORRHA-H* * EVANS* * * * * * *
 ***************************************************************************
-Orange County, NC (NCOrangeCountyParse)
+Orange County, NC (NCOrangeCountyParser)
 (CAD Page for CFS 060911-335) OPS \nTRNG/WRK SESSION\nTRNG AT 1900 HRS\nApt: \nBuild:
 (CAD Page for CFS 060511-228) OPS 2\nAuto Fire Alarm\n6514 DOC CORBETT RD\nApt: \nBuild:
 (CAD Page for CFS 060411-348) OPS 1\nBREATHING\n8100 NC 86 N\nApt: \nBuild:
+***************************************************************************
+Pitt County, NC (NCPittCountyParser)
+S:911 Fire Call M:F24|Rcvd:05/31/2012 03:34|Rsn:FIRE ALARM ACT|Note:SAME|Adr:1550  QUALITY LN
+S:911 Fire Call M: F14 | Rcvd:05/27/2012 01:16 | Rsn: MVC PI | Note:MARTIN LUTHER KING JR DR | WHICHARD RD | Adr:0 
+S:911 Fire Call M: F14 | Rcvd:05/25/2012 17:12 | Rsn:47 YOM STROKE | Note:618 DANIELLE DR | Adr:0
 ***************************************************************************
 Randolph County, NC (NCRandolphCountyParser)
 Randolph 911 - GRFD\nBREATHING\n5064 CROTTS DR\nSTA40\nSTA40\n10-15 JAMES KIRKMAN...BREATHING DIFF...TIGHTNESS IN CHEST...HANDS TINGLING...HEART RATE IS 45\n16:34:30 08/21/2011 - WATSON,A D\nProQA Medical Case Entry Finished\n16:35:13 08/2
@@ -4644,14 +4649,6 @@ Contact: John Yancey <johnyancey7@gmail.com>
 Sender: arns@shelby911.org
 1 of 2\nFRM:arns@shelby911.org\nSUBJ:SHELBY911 ARNS ALERT\nMSG:\r\n6/3/2012 4:23:11 PM\r\nFIRE1209430\r\nCAH_VALY - MAID181\r\nMVC-CHECK_INJURIES\r\n\r\n   @\n(Con't) 2 of 2\nCAHABA VALLEY RD / LEGACY DR\r\n\r\nAT&T MOBILITY(End)
 **********************************************************
-Jackson County, GA
-Contact: Jeffrey Jones <jljones87@gmail.com>
-Sender: 93001nnn
-DispatchBParser subclass
-JACKSONE911:1070 >FIRE 1382 WILHITE RD XS: PAYNEVILLE RD JEFFERSON WIER, GILBERT L & SUE 7063678650 Map: Grids:0,0 Cad: 2012-0000049643
-JACKSONE911:1050I >ACCIDENT - INJURIES 3835 APPLE VALLEY RD BILL Cad: 2012-0000049719
-JACKSONE911:SIG16 >STROKE/CVA PATIENT 87 BEND DR XS: COMMERCE RD JEFFERSON FLOYD PAULSON 7066148432 Map:H6 Grids:0,0 Cad: 2012-0000053376
-**********************************************************
 **********************************************************
 Gaston County, NC? (alternate)
 Contact: Stephen Wilkinson <smwilkin61@gmail.com>
@@ -4879,27 +4876,6 @@ Incident Number(s)
 **********************************************************
 **********************************************************
 **********************************************************
-Pitt County, NC
-Contact: noah smith <firefighter2114@gmail.com>
-Sender: donotreply@pittcountync.gov
-S:911 Fire Call M:F24|Rcvd:05/31/2012 03:34|Rsn:FIRE ALARM ACT|Note:SAME|Adr:1550  QUALITY LN
-S:911 Fire Call M: F14 | Rcvd:05/27/2012 01:16 | Rsn: MVC PI | Note:MARTIN LUTHER KING JR DR | WHICHARD RD | Adr:0 
-S:911 Fire Call M: F14 | Rcvd:05/25/2012 17:12 | Rsn:47 YOM STROKE | Note:618 DANIELLE DR | Adr:0
-S:911 Fire Call M: F14 | Rcvd:05/25/2012 01:41 | Rsn: POSS ELECTRICAL FIRE |Note:3157 OLD RIVER RD | Adr:0
-S:911 Fire Call M: F14 | Rcvd:05/23/2012 19:55 | Rsn: MVC PI | Note:OLDR RIVER RD | BROWN PLACE DR @ THE BRIDGE | Adr:0
-S:911 Fire Call M: F24 | Rcvd:05/22/2012 17:16 | Rsn: FIRE ALARM | Note:SAME | Adr:2185 OAKLEY RD
-
-ok so here is a sample of what my dept text pages look like the part where
-has F14 is the station number so it means like fire 14 or fire 24 pretty
-much fire then station number then it gives the date and time of call
-followed by the reason of the call weather it be a wreck (MVC) or a fire or
-fire alarm and so fourth then the note section of the text is the address
-of the call or the intersection where its at and the last part of the text
-is the address and its never the same some times its a 0 and sometimes it
-will be the address to the 911 comm building and sometimes the note will be
-the address to the call and also the adr section will be the same as
-note just depends on whos sending out the text that day other words who
-ever is work communications that day they all do it different
 **********************************************************
 Wayne County, IN
 Contact: AJ Locker <aj.locker@yahoo.com>
@@ -4926,4 +4902,13 @@ T.KENNEDY:353 E I 40 MM CALLEWR DUPLIN 12:34:02
 T.KENNEDY:110 E MAIN ST EXT FAISON 16:15:11
 T.KENNEDY:1 16:37:58 OUT OF SERVICE FOR ANY REASON FAISON RESCUE 5 10-17 BRUSH WILL RESPONSE IN THERE PLACE OCA: 2012001083
 T.KENNEDY:364 I 40 MM DUPLIN 15:50:25 ACCIDENT-PROPERTY DAMAGE ONLY AND FAISON EXIT NO ONE IS HURT GREY HONDA AND A SILEVR TAURUS VEHICLES IN RD DUPLIN I 40
+**********************************************************
+Jackson County, GA
+Contact: Jeffrey Jones <jljones87@gmail.com>
+Sender: 93001nnn
+DispatchBParser subclass
+JACKSONE911:1070 >FIRE 1382 WILHITE RD XS: PAYNEVILLE RD JEFFERSON WIER, GILBERT L & SUE 7063678650 Map: Grids:0,0 Cad: 2012-0000049643
+JACKSONE911:1050I >ACCIDENT - INJURIES 3835 APPLE VALLEY RD BILL Cad: 2012-0000049719
+JACKSONE911:SIG16 >STROKE/CVA PATIENT 87 BEND DR XS: COMMERCE RD JEFFERSON FLOYD PAULSON 7066148432 Map:H6 Grids:0,0 Cad: 2012-0000053376
+JACKSONE911:SIG3 >CHEST PAIN/RESPIRATORY DISTRES 95 W G LEGG RD XS: RAFORD WILSON RD COMMERCE LEGG, JERRY 7063675387 Cad: 2012-0000055115
 **********************************************************
