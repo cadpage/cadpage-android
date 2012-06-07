@@ -360,7 +360,8 @@ public class SmsPopupConfigActivity extends PreferenceActivity {
           }
           if (! multi) {
             LocationListPreference list = new LocationListPreference(this, locMgr, main);
-            String state = stName.substring(3);
+            int pt = stName.indexOf(' ');
+            String state = stName.substring(pt+1);
             list.setTitle(state);
             list.setDialogTitle(state);
             int locCnt = ndx - startNdx;

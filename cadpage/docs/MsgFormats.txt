@@ -2478,6 +2478,16 @@ Kenosha County, WI (WIKenoshaCountyBParser)
 6245: CAD¡plprairiewi.com Subject:Phoenix Notification 2012000152 ä02/08/2012 16:54:48ñ MED CALL - Medical Callä1ñ 9500BLK 88th Ave Units: 5642 Comments
 6245: CAD¡plprairiewi.com Subject:Phoenix Notification 2012000153 ä02/08/2012 17:47:01ñ FIRE STR - Fire - Structureä1ñ 8000 95th St Units: 5691 5641 56
 ***************************************************************************
+Lacombe County, AB, CA (ZCAABLacombeCountyParser)
+(Incident Message) Date: 2012-06-02 13:02:11\nType: GRASS - 2.3 Grass/ Brush/ Forest\nLocation: Unknown Location - Call Dispatch\nLatitude: 52.38667500\nLongitude: -113.81778000
+(Incident Message) Date: 2012-06-02 13:02:11\nType: GRASS - 2.3 Grass/ Brush/ Forest\nLocation: 1 BLACKFALDS, TOWN OF, BLACKFALDS\nUnits Responding: BLKP4, BLKP2, BLKT1, BLKC
+(Incident Message) Date: 2012-06-04 01:21:42\nType: ALARMS - 2.6 Alarms\nLocation: 7 GREYSTONE DR, BLACKFALDS RURAL\nUnits Responding: BLKP1, BLKP2, BLKR3, BLKC, BLKT1
+***************************************************************************
+New South Wales, Austrailia (ZAUNewSouthWalesParser)
+SNRWLC, RFA 9071-54, Firstname Surname, 65 MCCLELLAND ST, WILLOUGHBY, 0433 381 999, LGE BRANCH, 15M UP THREAT TO FALL IN YARD.. CALL 0242516111
+SNRWLC, RFA 9071-17, Firstname Surname, 37 INNES ROAD GREENWICH, 9906 999, TREE FALLEN & WEDGED ON 2 FENCES/SPLIT IN 3. CALL 0242516111
+SNRWLC, RFA 9072-18, Firstname Surname, 75 PARK ROAD NAREMBURN, 9439 999, ROOF GARDEN SHED COME LOOSE AND THREAT FALL.. CALL 0242516111
+***************************************************************************
 West Midlands, UK (ZUKWestMidlandsParser)
 E:1699 (16:45) Unconscious DY8 4JA The Brambles Residential Home 69a Vicarage Road Amblecote Stourbridge (390070,285129)
 E:989 (12:13) Abdo Pain DY8 1HB Highbury House Nursing Home The Old Rectory Parkfield Road Stourbridge (390537,284075)
@@ -4895,5 +4905,5 @@ Incident Number(s)
 **********************************************************
 **********************************************************
 **********************************************************
-Lacombe County, AB, CA
-https://www.active911.com/interface/parser_report.php?key=636-3GXrP
+
+
