@@ -967,6 +967,11 @@ El Dorado County, CA (CAElDoradoCountyParser)
 (CAD Page) 19-May-2011/12:37:08: MEDICAL: Inc# 010306: 6530 WENTWORTH SPRINGS RD ,GEORGETOWN (GEORGETOWN ELEMENTARY SCHOOL) GEOCHF GEOENG M89 61; ; X: -120 49.84
 (CAD Page) 17-May-2011/01:52:37: MED, TRAFFIC COLLISION: Inc# 010121: 4800 BLACK OAK MINE RD / 4702 MARSHALL RD ,GARDEN_VALLEY  GRVCHF E2772 E251N M61 51 GEOENGN
 ***************************************************************************
+Lake County, CA
+475 FOREST DR * * SUNSET DR/TERRACE DR * * LP * FDMA * * 8 YOF FALL W/ BLOODY NOSE, C/A/B
+[Dispatched Call]  S STATE HWY 29/HIGHLAND SPRINGS RD, Lakeport *  * HIGHLAND SPRINGS RD *  * FDMA *  * BETWEEN ARGONAUT AND HIGHLAND SPRINGS IN
+2725 S MAIN, Lakeport * ROTTEN ROBBIE * STATE HWY 175 * * FDMA * * 15YOF FALL VIC WITH HEAD INJ C/A
+***************************************************************************
 Monterey County, CA (CAMontereyCountyParser)
 FRM:donotreply@co.monterey.ca.us\nSUBJ:CAD Page\nMSG:52161HA - MEO:NOT XFR - 13200 CIELO AZULUnits:E5211, 52A
 FRM:donotreply@co.monterey.ca.us\nSUBJ:CAD Page\nMSG:5261BT - MEO:MEDICAL EMERGNCY - 7881 SANDHOLDT RDUnit:CH5202
@@ -4873,58 +4878,6 @@ Incident Number(s)
 **********************************************************
 **********************************************************
 **********************************************************
-Lake County, CA
-Contact: Gavin Wells <gwells@lakeportfire.com>
-Sender: lakecounty.dispatch@lakecountyca.gov
-System: Sun Ridge Systems
-
-The incident format is as follows:
-
-Single Family:
- Address ** Cross Street ** City * Incident Type ** Description 
-
-Multi Family/Trailer Parks (Space, or Apartment): 
-Address ** Cross Street * Unit Number/Letter * City * Incident Type ** Description 
-
-Business: 
-Address, City * Business Name* Cross Street * * Incident Type * * Description 
-
-Intersection:
-Street/Cross Street, City * *Cross Street * * Incident Type * * Description 
-
-
-Other Information: 
-
-On some occasions for unknown reasons the text page will begin with (Dispatched Call) or (Page From RiMS).  The parentheses are included in what is sent.   
-
-On occasion there are two cross streets listed when this occurs they are separated with a front slash (/).  
-
-
-Incident Type Codes: 
-
-FDAA = Auto Accident      FDMA = Medical Aid    FDSF = Structure Fire
-FDSC = Smoke Check      FDPA = Public Assist    FDLL = Life Line Alert
-FDVF = Vehicle Fire     FDWF = Wildland Fire    FDWR = Water Rescue 
-FDCF = Chimney Fire       FDAF = Appliance Fire   FDOE = Other Event 
-FDWI = Walk-In        FDWC = Welfare Check     
-
-
-Addressed Locations: 
-
-475 FOREST DR * * SUNSET DR/TERRACE DR * * LP * FDMA * * 8 YOF FALL W/ BLOODY NOSE, C/A/B
-330 9TH * * N HIGH/N BRUSH * * LP * FDMA * * 19 YOM ASSLT VIC W/ HEAD LAC
-600 YELLOW HAMMER LN * * OSPREY CT * * LP * FDMA * * MED AID 17 YOM DIFF BREATH ETOH VOMITING POSS ALCOHOL POISONING
-644 MARTIN * * S ESTEP/S POLK * 3 * LP * FDMA * * MED AID 49 YOF ASSUALT VICT CODE 2 FACIAL LACERATION
-301 S MAIN * EXPRESS MART * MARTIN/C * * LP * FDMA * * POSS STROKE...AT PUMPS
-
-Intersection Locations:
-SCOTTS VALLEY RANCHERIA/HARTLEY RD, Lakeport * * HARTLEY RD * * FDWF * * VEGITATION FIRE
-[Dispatched Call]  S STATE HWY 29/HIGHLAND SPRINGS RD, Lakeport *  * HIGHLAND SPRINGS RD *  * FDMA *  * BETWEEN ARGONAUT AND HIGHLAND SPRINGS IN
-[Dispatched Call]  FINLEY EAST RD/THOMAS, Finley *  * THOMAS *  * FDOE *  * TARP WRAPPED INTO THE PG&E WIRES...RP IS CONCERNED THEY ARE GOING TO
-
-Business Locations: 
-
-2725 S MAIN, Lakeport * ROTTEN ROBBIE * STATE HWY 175 * * FDMA * * 15YOF FALL VIC WITH HEAD INJ C/A
 **********************************************************
 Pitt County, NC
 Contact: noah smith <firefighter2114@gmail.com>
