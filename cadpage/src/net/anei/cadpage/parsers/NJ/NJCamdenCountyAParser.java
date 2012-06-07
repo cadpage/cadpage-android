@@ -30,11 +30,15 @@ Subject: Dispatch SD379\nM.V.A  \nROUTE 295 EXIT 28 ,18   \n#:  \nX:/  \nZN:03W 
 Subject: Dispatch R32\nAPARTMENT  \n1306 HANCOCK DR ,03   \n#:5  \nX:CLEMENTS BRIDGE RD/  \nZN:03D  \nCP:WILLOWS APTS  2012-05-20 07:08:50  \nMI#:120118985  \nRES#:R32
 Subject: Dispatch R32\nRESCUE  \nROUTE 42 EXIT 14 ,04   \n#:  \nX:/  \nZN:BMA  \nCP:ROUTE 42 EXIT 14  2012-05-19 16:47:48  \nMI#:120118461  \nRES#:R32
 
+[Free SD379] ROUTE 295 EXIT 28 ,18 18  \nMI#:120118005  \nDisp:02:38:48  \nEnr:  \nArr:  \nEnr Hosp:  \nArr Hosp:  \nClr:02:39:15  \nRES#:SD379  \n
+[Free SD32] 294 ROUTE 295 ,04 04  \nMI#:120118005  \nDisp:02:39:15  \nEnr:02:41:47  \nArr:02:47:43  \nEnr Hosp:  \nArr Hosp:  \nClr:02:59:23  \nRES#:SD32  \n
+
 */
 
 public class NJCamdenCountyAParser extends FieldProgramParser {
   
   private static final Pattern SUBJECT_PTN = Pattern.compile("Dispatch (.*)"); 
+  private static final Pattern SUBJECT2_PTN = Pattern.compile("Free (.*)");
   
   public NJCamdenCountyAParser() {
     super("CAMDEN COUNTY", "NJ",
@@ -50,7 +54,14 @@ public class NJCamdenCountyAParser extends FieldProgramParser {
   public boolean parseMsg(String subject, String body, Data data) {
     
     Matcher match = SUBJECT_PTN.matcher(subject);
-    if (!match.matches()) return false;
+    if (!match.matches()) {
+      match = SUBJECT2_PTN.matcher(subject);
+      if (!match.matches()) return false;
+      data.strCall = "RUN REPORT";
+      data.strPlace = body;
+      data.strUnit = match.group(1);
+      return true;
+    }
     data.strUnit = match.group(1);
     
     body = body.replace("MI#:", "MI:").replace("RES#:", "RES:");
