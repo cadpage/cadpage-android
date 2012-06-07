@@ -194,6 +194,14 @@ public class FLManateeCountyParserTest extends BaseParserTest {
         "INFO:COMMERCIAL VEHICLE",
         "TIME:18:44:41",
         "MAP:1129-E");
+
+    doTest("T6",
+        "  Location: LEGACY BLVD/UNIVERSITY PKWY UB Estimated Address TYPE CODE: MVC W/ INJS (FIRE/EMS) INSIDE LOCATION: SUB TYPE: RE-ENTRAPMENT TIME: 17:24:28 MAP GRID:",
+        "ADDR:LEGACY BLVD & UNIVERSITY PKWY",
+        "CITY:BRADENTON",
+        "CALL:MVC W/ INJS (FIRE/EMS) INSIDE LOCATION:",
+        "INFO:RE-ENTRAPMENT",
+        "TIME:17:24:28");
   }
   
   public static void main(String[] args) {
