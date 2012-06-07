@@ -824,6 +824,43 @@ public class MDSaintMarysCountyParserTest extends BaseParserTest {
         "CITY:HOLLYWOOD",
         "UNIT:ALS CO79 ST38");
 
+    doTest("T3",
+        "ST MARY'S COUNTY GOVERNMENT P (8534) CAD\r\n" +
+        ": 23:31:09*Traumatic Injuries*17498 GRAYSON RD*BEACHVILLE RD*ST INIGOES*CO49R*POLICE ON THE SCENE WITH SHOTS FIRED // NEED AMBULANCE TO* stop",
+
+        "TIME:23:31:09",
+        "CALL:Traumatic Injuries",
+        "ADDR:17498 GRAYSON RD",
+        "X:BEACHVILLE RD",
+        "CITY:ST INIGOES",
+        "UNIT:CO49R",
+        "INFO:POLICE ON THE SCENE WITH SHOTS FIRED // NEED AMBULANCE TO");
+
+    doTest("T4",
+        "ST MARY'S COUNTY GOVERNMENT P CAD﻿\n" +
+        ": 06:42:36*Personal Injury Accident*MECHANICSVILLE BURCH MART*28270 THREE NOTCH RD*OLD FLORA CORNER RD*MECHANICSVILLE*CO2 E22 CO29 EMS42*single vehile rollover northbound* stop ",
+
+        "TIME:06:42:36",
+        "CALL:Personal Injury Accident",
+        "ADDR:28270 THREE NOTCH RD",
+        "X:OLD FLORA CORNER RD",
+        "PLACE:MECHANICSVILLE BURCH MART",
+        "CITY:MECHANICSVILLE",
+        "UNIT:CO2 E22 CO29 EMS42",
+        "INFO:single vehile rollover northbound");
+
+    doTest("T5",
+        "ST MARY'S COUNTY GOVERNMENT P CAD﻿\n" +
+        ": 22:23:27*Hemmorhage/Lacerations*38180 ZANE CT*CARPENTER DR*MECHANICSVILLE*CO29*71 year old, Male, Conscious, Breathing.* stop ",
+
+        "TIME:22:23:27",
+        "CALL:Hemmorhage/Lacerations",
+        "ADDR:38180 ZANE CT",
+        "X:CARPENTER DR",
+        "CITY:MECHANICSVILLE",
+        "UNIT:CO29",
+        "INFO:71 year old, Male, Conscious, Breathing.");
+
   }
 
   public static void main(String[] args) {

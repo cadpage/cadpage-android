@@ -87,6 +87,16 @@ public class NVLasVegasCountyParserTest extends BaseParserTest {
         "ADDR:9300 W SUNSET RD",
         "CITY:CLARK COUNTY",
         "PLACE:SOUTHERN HILLS HOSPI");
+
+    doTest("T8",
+        "(SMS) I: 4275070 U: 1972, P: 1, G: 3516, PH: 56 L: 8898 DEEP RIDGE CT-CC# , B: , AL: PC:, 10C N:10C], Location from Fire: 8898 DEEP RIDGE CT, 19",
+        "ID:4275070",
+        "UNIT:1972",
+        "PRI:1",
+        "MAP:3516-56",
+        "ADDR:8898 DEEP RIDGE CT",
+        "CITY:CLARK COUNTY",
+        "CODE:10C");
   }
   
 
