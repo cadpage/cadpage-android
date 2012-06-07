@@ -81,6 +81,18 @@ public class SCAndersonCountyParserTest extends BaseParserTest {
    
   }
   
+  @Test
+  public void testActive911() {
+
+    doTest("T1",
+        "active911: FIRE ALARM 201 EDGEBROOK DR XS: HWY 81 N Cad: 2012-0000120876",
+        "CALL:FIRE ALARM",
+        "ADDR:201 EDGEBROOK DR",
+        "X:HWY 81 N",
+        "ID:2012-0000120876");
+
+  }
+  
   public static void main(String[] args) {
     new SCAndersonCountyParserTest().generateTests("T1", "CODE CALL ADDR APT X CITY NAME BOX MAP ID");
   }
