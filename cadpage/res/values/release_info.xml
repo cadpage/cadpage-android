@@ -1,36 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">06012012</string>
-  <string name="release_version">v1.5.40</string>
+  <string name="release_date">06072012</string>
+  <string name="release_version">v1.5.41</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="min_expire_date">10012012</string>
   <string name="release_text">
 New Locations:\n
-Baldwin County, AL\n
-Shelby County, AL\n
-Callaway County, MO\n
-Erie County, NY (alt)\n
+Lake County, CA\n
+Montville, CT\n
+Jackson County,GA\n
+Wayne County, IN\n
+Las Vegas, NV (replace)\n
+Burlington County, NJ (alt)\n
+Onondaga County, NY (alt)\n
+Duplin County, NC\n
+Pitt County, NC\n
+Lacombe County, AB\n
 \n
 Location Parsing Fixes:\n
-Tolland County, CT\n
-Rock Island County, IL\n
-Prince Georges County, MD\n
+New Castle County, DE\n
+Montgomery County, MD\n
+St Marys County, MD\n
+Camden County, NJ\n
+Morris County, NJ\n
 Madison County, NY\n
-Suffolk County, NY\n
-Moris County, NJ\n
-Durham County, NC\n
-Lincoln County, NC\n
-Clermont County, OH\n
-Stark County, OH\n
-Berks County, PA\n
-Chester County, PA\n
-Delaware County, PA\n
-Elk County, PA\n
-Venange County, PA\n
+NECC, OH\n
+Bucks County, PA\n
+Lebannon County, PA\n
+Anderson County, SC\n
+Prince William County, VA\n
 \n
 General Fixes:\n
-Fixed force close in billing logic\n
+Force close parsing some long pages\n
   </string>  
 </resources>
   
