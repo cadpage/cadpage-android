@@ -861,6 +861,18 @@ public class MDSaintMarysCountyParserTest extends BaseParserTest {
         "UNIT:CO29",
         "INFO:71 year old, Male, Conscious, Breathing.");
 
+    doTest("T6",
+        "ST MARY'S COUNTY GOVERNMENT P (16343) CAD\r\n" +
+        ": 07:18:10*Personal Injury Accident*29301 THREE NOTCH RD INTERSECTN*NEW MARKET RD*NEW MARKET*CO2 E22 CO29 EMS42*S/B LANES IN THE INTERSECTION 2",
+
+        "TIME:07:18:10",
+        "CALL:Personal Injury Accident",
+        "ADDR:29301 THREE NOTCH RD",
+        "X:NEW MARKET RD",
+        "CITY:NEW MARKET",
+        "UNIT:CO2 E22 CO29 EMS42",
+        "INFO:S/B LANES IN THE INTERSECTION 2");
+
   }
 
   public static void main(String[] args) {
