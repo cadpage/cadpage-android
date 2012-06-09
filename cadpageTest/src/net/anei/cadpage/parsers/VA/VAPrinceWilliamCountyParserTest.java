@@ -105,6 +105,27 @@ public class VAPrinceWilliamCountyParserTest extends BaseParserTest {
   }
   
   @Test
+  public void testPaulGupta() {
+
+    doTest("T1",
+        "(Important message f...) dis08-Jun-2012/21:28:21/SICA/16820 FLOTILLA WY ,PWC (VICTORIA PARK APT)/23/A523 M523 /FRIEND WHITEHEAD, KATE HAS HIGH SUGAR LEVEL, SHE IS CONX // SHE IS WITH AN AIDE NOW\r\n" +
+        "\r\n" +
+        "Sent by PW Alert to A523, M523, DFR CAD through Prince William County RSAN\r\r\n" +
+        "--\r\r\n" +
+        "- update your account at https://rsan1.rsan.pwcgov.org",
+
+        "TIME:21:28:21",
+        "CODE:SICA",
+        "CALL:ALS - Sickness",
+        "ADDR:16820 FLOTILLA WY",
+        "PLACE:VICTORIA PARK APT",
+        "BOX:23",
+        "UNIT:A523 M523",
+        "INFO:FRIEND WHITEHEAD, KATE HAS HIGH SUGAR LEVEL, SHE IS CONX / SHE IS WITH AN AIDE NOW");
+   
+  }
+  
+  @Test
   public void testActive911() {
 
     doTest("T1",
