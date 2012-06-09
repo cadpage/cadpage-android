@@ -427,7 +427,7 @@ public class MDHowardCountyParserTest extends BaseParserTest {
         "(Station 1) EVENT: F12015319 RT 95 NB/RT 175 SCOL TYPE: RESCUE--UNKNOW @ 02:57:53 BEAT/BOX: 095037 ",
         "SRC:Station 1",
         "ID:F12015319",
-        "ADDR:RT 95 NB & RT 175",  // No RT 95 found
+        "ADDR:RT 95 NB & RT 175",
         "MADDR:RT 95 & RT 175", 
         "CITY:COLUMBIA",
         "CALL:RESCUE--UNKNOW",
@@ -1056,7 +1056,7 @@ public class MDHowardCountyParserTest extends BaseParserTest {
         "(Station 1) EVENT: F12015899 WASHINGTON BLVD/LOUDON AVE ELK TYPE: MEDICAL-BLS-HOT @ 20:14:00 BEAT/BOX: 0103 ",
         "SRC:Station 1",
         "ID:F12015899",
-        "ADDR:WASHINGTON BLVD & LOUDON AVE",
+        "ADDR:WASHINGTON BLVD & LOUDON AVE", // Not found, reported
         "CITY:ELKRIDGE",
         "CALL:MEDICAL-BLS-HOT",
         "TIME:20:14:00",
@@ -1109,7 +1109,7 @@ public class MDHowardCountyParserTest extends BaseParserTest {
         "(Station 1) EVENT: F12015956 BALTIMORE COUNTY ENGC: @BC37 TYPE: MUTAID-MAALS @ 15:36:10 BEAT/BOX: BC37 ",
         "SRC:Station 1",
         "ID:F12015956",
-        "ADDR:BALTIMORE COUNTY ENGC",
+        "ADDR:BALTIMORE COUNTY ENGC", // What is this???
         "MADDR:BC37,BALTIMORE COUNTY ENGC",
         "PLACE:BC37",
         "CALL:MUTAID-MAALS",
@@ -1120,7 +1120,7 @@ public class MDHowardCountyParserTest extends BaseParserTest {
         "(Station 1) EVENT: F12015957 BALTIMORE COUNTY HALE: @BC5 TYPE: MUTAID-MAALS @ 16:02:45 BEAT/BOX: BC05 ",
         "SRC:Station 1",
         "ID:F12015957",
-        "ADDR:BALTIMORE COUNTY HALE",
+        "ADDR:BALTIMORE COUNTY HALE",  // And this
         "MADDR:BC5,BALTIMORE COUNTY HALE",
         "PLACE:BC5",
         "CALL:MUTAID-MAALS",

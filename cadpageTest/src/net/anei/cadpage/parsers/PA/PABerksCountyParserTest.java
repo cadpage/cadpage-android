@@ -245,10 +245,21 @@ public class PABerksCountyParserTest extends BaseParserTest {
         "APT:P",
         "CITY:SPRING TWP",
         "INFO:59 YOF /FELL BUT NOT INJ /COMP JUST NEEDS HELP GETTING HER UP /COMP");
-    
+
+    doTest("T10",
+        "[rfdall@rsix.roamsecure.net] CAD MSG: *G RSF      423 S 16 ST 0019 2ND FLR FRONT WINDOW / FLAMES SHOWING / THEYRE TRYING TO PUT THE FIRE\n" +
+        "Sent by Berks County RSAN to Reading Fire All Call\n" +
+        "--\n" +
+        "You received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org\n",
+
+        "CALL:RSF - Reading Structure Fire",
+        "ADDR:423 S 16 ST",
+        "CITY:READING",
+        "INFO:2ND FLR FRONT WINDOW / FLAMES SHOWING / THEYRE TRYING TO PUT THE FIRE");
+   
   }
   
   public static void main(String[] args) {
-    new PABerksCountyParserTest().generateTests("T4", "CALL ADDR APT PLACE X CITY INFO");
+    new PABerksCountyParserTest().generateTests("T1", "CALL ADDR APT PLACE X CITY INFO");
   }
 }
