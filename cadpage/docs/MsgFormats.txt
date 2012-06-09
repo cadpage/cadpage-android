@@ -2506,80 +2506,6 @@ E:1131 (13:07) Allergy DY8 4AT 15 Jardine Close Amblecote Stourbridge (390184,28
 **********************************************************
 ************** EMAIL ONLY ********************************
 **********************************************************
-Wake County, NC
-Contact: "wendelldispatch@yahoo.com" <wendelldispatch@yahoo.com>
-Sender: wcps@wakegov.com
-
-Looks like email only pages
-
-From: wcps@wakegov.com
-Date: Thu, Apr 7, 2011 2:55 pm
-Subject: WCPS
-To: <wendelldispatch@yahoo.com>
-
-Incident: FHEART: 
-Map: 066O 
-Address: 6437 FALCONWOOD DR 
-Location:  
-Apt:  
-Cross:  CARRINGTON WOODS DR   /   MARTIN POND RD 
-Units: WEB114,
-Talk Group: T16
-City: WCWD 
-Comments: **CARDIAC**
-PRIMARY UNIT CHANGED TO: FD/WEB114
-R
-
-Date: Wed, Apr 6, 2011 7:47 pm
-Subject: WCPS
-To: <wendelldispatch@yahoo.com>
-
-Incident: FGRASS: 
-Map: 066I 
-Address: US 64, HWY EB / WENDELL BLVD 
-Location: EXIT 429 WENDELL BLV 
-Apt:  
-Cross: 
-Units: WEB114,
-Talk Group: O1
-City: WCKD 
-Comments: **GRASS FIRE**
-ORIGINAL LOCATION : EXIT 429 WENDELL BLV
-ON RI
-
-From: wcps@wakegov.com
-Date: Wed, Apr 6, 2011 4:45 pm
-Subject: WCPS
-To: <wendelldispatch@yahoo.com>
-
-Incident: F50IC : 
-Map: 066D 
-Address: US 64, HWY E / ROLESVILLE RD 
-Location: EXIT 430 WB ROLESVIL 
-Apt:  
-Cross: 
-Units: WEE113,WER110,
-Talk Group: T16
-City: WCWD 
-Comments: **ACCIDENT-WITH INJURIES**
-4 VEH ACCIDENT ....JUST EAS
-
-From: wcps@wakegov.com
-Date: Wed, Apr 6, 2011 5:16 pm
-Subject: WCPS
-To: <wendelldispatch@yahoo.com>
-
-Incident: FSEIZ : 
-Map: 066D 
-Address: US 64, HWY E / ROLESVILLE RD 
-Location:  
-Apt:  
-Cross: 
-Units: WEB114,
-Talk Group: T17
-City: WCWD 
-Comments: **SEIZURES**
-ON THE EB, PASSED THE EXIT, IN THE MEDIAN, PT IS INSIDE A GRY NISSAN
 **********************************************************
 HOLD - Page only
 Arlington County, VA
@@ -4890,7 +4816,137 @@ Contact: Doug Bickerstaff <d.bickerstaff@northmeckrescue.org>
 Sender: cadmail@medic911.com
 Subject:CAD email\n13825 Hunton Ln               110B      Olde Knox Commons *SNF*       Bravo-BLS COLD                17BC-Falls/Back inju\r
 **********************************************************
+Looks like email only pages
+
+Wake County, NC
+Contact: "A.C. Rich" <ac_rich@earthlink.net>  (Chief)
+Sender: wcps@wakegov.com
+System: Motorola Printrax
+
+WCWF = WAKE FOREST
+WCCR = CREEDMOOR
+
+[WCPS]  
+Inc: FBD : 
+Map: 010Q 
+Add: 2412 MOLLYNICK LN 
+Loc:  
+Apt:  
+CS:    /   THOMPSON MILL RD 
+Unt: SHB263,
+TG: T15
+Cty: WCWF 
+Comm:
+
+[WCPS]  
+Inc: FBD : 
+Map: 002X 
+Add: 3229 OLIVE GROVE CHURCH RD 
+Loc:  
+Apt:  
+CS:  OLD WEAVER TRL   /   
+Unt: SHB399,
+TG: T15
+Cty: WCCR
+
+Inc: FWF : 
+Map: 039W 
+Add: 6160 JOHNSDALE RD 
+Loc:  
+Apt:  
+Unt: RFC20,RFAIR1,RFC10,
+TG: 
+Cty: RA
+
+[WCPS]  
+Inc: FBD : 
+Map: 009O 
+Add: 12525 ONEAL RD 
+Loc:  
+Apt:  
+CS:  MONTHAVEN DR   /   NOLABEE LN 
+Unt: SHB263,
+TG: T14
+Cty: WCWF 
+
+
+Probably obsolete
+Contact: "wendelldispatch@yahoo.com" <wendelldispatch@yahoo.com>
+Sender: wcps@wakegov.com
+
+From: wcps@wakegov.com
+Date: Thu, Apr 7, 2011 2:55 pm
+Subject: WCPS
+To: <wendelldispatch@yahoo.com>
+
+Incident: FHEART: 
+Map: 066O 
+Address: 6437 FALCONWOOD DR 
+Location:  
+Apt:  
+Cross:  CARRINGTON WOODS DR   /   MARTIN POND RD 
+Units: WEB114,
+Talk Group: T16
+City: WCWD 
+Comments: **CARDIAC**
+PRIMARY UNIT CHANGED TO: FD/WEB114
+R
+
+Date: Wed, Apr 6, 2011 7:47 pm
+Subject: WCPS
+To: <wendelldispatch@yahoo.com>
+
+Incident: FGRASS: 
+Map: 066I 
+Address: US 64, HWY EB / WENDELL BLVD 
+Location: EXIT 429 WENDELL BLV 
+Apt:  
+Cross: 
+Units: WEB114,
+Talk Group: O1
+City: WCKD 
+Comments: **GRASS FIRE**
+ORIGINAL LOCATION : EXIT 429 WENDELL BLV
+ON RI
+
+From: wcps@wakegov.com
+Date: Wed, Apr 6, 2011 4:45 pm
+Subject: WCPS
+To: <wendelldispatch@yahoo.com>
+
+Incident: F50IC : 
+Map: 066D 
+Address: US 64, HWY E / ROLESVILLE RD 
+Location: EXIT 430 WB ROLESVIL 
+Apt:  
+Cross: 
+Units: WEE113,WER110,
+Talk Group: T16
+City: WCWD 
+Comments: **ACCIDENT-WITH INJURIES**
+4 VEH ACCIDENT ....JUST EAS
+
+From: wcps@wakegov.com
+Date: Wed, Apr 6, 2011 5:16 pm
+Subject: WCPS
+To: <wendelldispatch@yahoo.com>
+
+Incident: FSEIZ : 
+Map: 066D 
+Address: US 64, HWY E / ROLESVILLE RD 
+Location:  
+Apt:  
+Cross: 
+Units: WEB114,
+Talk Group: T17
+City: WCWD 
+Comments: **SEIZURES**
+ON THE EB, PASSED THE EXIT, IN THE MEDIAN, PT IS INSIDE A GRY NISSAN
 **********************************************************
+Linn County, OR (alternate or replacement?)
+Contact: "sta32jp@yahoo.com" <sta32jp@yahoo.com>
+Sender: linn911@linnsheriff.org
+FRM:linn911@linnsheriff.org\nSUBJ:!\nMSG:DIABETIC PROB/32717 OLD MILL RD/06-08-12/21:20:12/63 year old, Male, Conscious, Breathing.  Diabetic/E32/
 **********************************************************
 **********************************************************
 **********************************************************
@@ -4908,13 +4964,3 @@ Subject:CAD email\n13825 Hunton Ln               110B      Olde Knox Commons *SN
 **********************************************************
 **********************************************************
 **********************************************************
-From:777167453799
-Body:GRID: 1726-F
-Send time:1339163200000
-Rec time: 1339163292825
-
-From:777167453799
-Body:\2sLocation: 7215 249TH ST E MY Estimated Address TYPE CODE: FIRE
-ALARM INSIDE LOCATION: SUB TYPE: UNK SITUATION/BLDG TYPE (GENERAL SIGNAL)
-Send time:1339163200000
-Rec time: 1339163207179
