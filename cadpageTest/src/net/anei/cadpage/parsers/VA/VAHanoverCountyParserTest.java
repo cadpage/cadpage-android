@@ -477,8 +477,7 @@ public class VAHanoverCountyParserTest extends BaseParserTest {
         "ID:2012-00045393",
         "UNIT:E01",
         "CALL:AlmComm",
-        "ADDR:11132 PROGRESS RD",
-        "APT:B",
+        "ADDR:11132 PROGRESS RD STE B",
         "MAP:R Map 1154");
     
   }
