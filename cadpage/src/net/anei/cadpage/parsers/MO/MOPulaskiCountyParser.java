@@ -1,10 +1,9 @@
 package net.anei.cadpage.parsers.MO;
 
-import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import net.anei.cadpage.parsers.SmartAddressParser;
+import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /*
@@ -24,14 +23,85 @@ BREATHING DIFFICULTY  32064 ROUTE 66   CrossStreets: HFD1 Call Received Time: 12
 MOTOR VEHICLE ACCIDENT WITH INJURY  150 I-44 EAST UNIT PULASKI COUNTY CrossStreets: HFD2 Call Received Time: 12/6/2010 22:25:49 Dispatch: 12/6/2010 22:28:11
 STRUCTURE FIRE RESIDENTIAL  30684 HIGHWAY AB - V2W UNIT RICHLAND CrossStreets: HFD1 Call Received Time: 12/5/2010 03:31:42 Dispatch: 12/5/2010 03:34:35
 VEHICLE FIRE  28795 HIGHWAY 17  PULASKI COUNTY CrossStreets: Sassafras Ln 0.12 mi SHighway AB 0.27 mi NE HFD1 Call Received Time: 12/3/2010 02:07:51 Dispatch: 12/3/2010 02:08:38
- 
+
+Contact: Doug Yurecko <dyurecko5u@gmail.com>
+Sender: 911dispatch@embarqmail.com
+ 1 of 2\nFRM:911dispatch@embarqmail.com\nSUBJ:DO NOT REPLY\nMSG:MOTOR VEHICLE ACCIDENT WITH INJURY  DYER ST & W HISTORIC 66, Apt. UNIT WAYNESVILLE\n(Con't) 2 of 2\nCrossStreets: WPD M25 WRFD1 Call Received Time: 6/8/2012 07:44:22 Dispatch: 6/8/2012 07:46:06\r\n\r\n\r\n\r\n(End)
+ 1 of 2\nFRM:911dispatch@embarqmail.com\nSUBJ:DO NOT REPLY\nMSG:NATURAL COVER FIRE  TEMPORAL RD, Apt. UNIT PULASKI COUNTY CrossStreets: WRFD1 Call\n(Con't) 2 of 2\nReceived Time: 6/6/2012 11:27:42 Dispatch: 6/6/2012 11:30:25\r\n\r\n\r\n\r\n(End)
+ 1 of 2\nFRM:911dispatch@embarqmail.com\nSUBJ:DO NOT REPLY\nMSG:FALLS/ ACCIDENTS  LONGVIEW LN & HIGHWAY 17 PULASKI COUNTY CrossStreets: M22 WRFD1\n(Con't) 2 of 2\nCall Received Time: 6/6/2012 07:10:40 Dispatch: 6/6/2012 07:16:16\r\n\r\n\r\n\r\n(End)
+
 */
 
 
-public class MOPulaskiCountyParser extends SmartAddressParser {
-
-  private static final String[] KEYWORDS = 
-    new String[]{"MSG", "CrossStreets", "Call Received Time", "Dispatch"};
+public class MOPulaskiCountyParser extends FieldProgramParser {
+  
+  public MOPulaskiCountyParser() {
+    super(CITY_TABLE, "PULASKI COUNTY", "MO",
+           "ADDR/SC! CrossStreets:X! Call_Received_Time:SKIP! Dispatch:DATETIME");
+  }
+  
+  @Override
+  public String getFilter() {
+    return "911dispatch@embarqmail.com";
+  }
+  
+  private class MyAddressField extends AddressField {
+    @Override
+    public void parse(String field, Data data) {
+      String[] parts = field.split("  +");
+      if (parts.length == 3) {
+        data.strCall = parts[0];
+        parseAddress(cleanAddress(parts[1]), data);
+        data.strCity = parts[2];
+      } else if (parts.length == 2) {
+        data.strCall = parts[0];
+        parseAddress(StartType.START_ADDR, FLAG_START_FLD_REQ | FLAG_ANCHOR_END, cleanAddress(parts[1]), data);
+      } else {
+        super.parse(cleanAddress(field), data);
+      }
+      
+      if (data.strCity.equalsIgnoreCase("PULASKI COUNTY")) data.strCity = "";
+      if (data.strAddress.endsWith(" UNIT")) {
+        data.strAddress = data.strAddress.substring(0, data.strAddress.length()-5).trim();
+      }
+      if (data.strApt.endsWith("UNIT")) {
+        data.strApt = data.strApt.substring(0, data.strApt.length()-4).trim();
+      }
+    }
+    
+    private String cleanAddress(String addr) {
+      return addr.replace(" - ", "APT: ").replace(",", " ");
+    }
+  }
+  
+  // Unit codes will be nnnn, or xFDn, or Mnn
+  private static final Pattern UNIT_PTN = Pattern.compile("\\b(\\d{4}|[A-Z]{1,2}[FP]D\\d|M\\d\\d)\\b");
+  private class MyCrossField extends CrossField {
+    @Override
+    public void parse(String field, Data data) {
+      
+      // Cross street field contains cross streets and units and extra stuff that we discard
+      Matcher match = UNIT_PTN.matcher(field);
+      if (!match.find()) {
+        data.strCross = field;
+      } else {
+        data.strCross = field.substring(0,match.start()).trim();
+        data.strUnit = field.substring(match.start());
+      }
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "X UNIT";
+    }
+  }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("X")) return new MyCrossField();
+    return super.getField(name);
+  }
   
   private static final String[] CITY_TABLE = new String[]{
     "PULASKI COUNTY",
@@ -47,47 +117,4 @@ public class MOPulaskiCountyParser extends SmartAddressParser {
     "SWEDEBORG",
     "WAYNESVILLE"
   };
-  
-  // Unit codes will be nnnn, or xFDn, or Mnn
-  private static final Pattern UNIT_PTN = Pattern.compile("\\b(\\d{4}|[A-Z]{1,2}FD\\d|M\\d\\d)\\b");
-  
-  public MOPulaskiCountyParser() {
-    super(CITY_TABLE, "PULASKI COUNTY", "MO");
-  }
-  
-  @Override
-  public String getFilter() {
-    return "911dispatch@embarqmail.com";
-  }
-
-  @Override
-  protected boolean parseMsg(String body, Data data) {
-    
-    if (!body.contains(" CrossStreets:")) return false;
-    
-    Properties props = parseMessage("MSG:" + body, KEYWORDS);
-    
-    // Parse call description and address
-    String sAddr = props.getProperty("MSG", "");
-    parseAddress(StartType.START_CALL, FLAG_ANCHOR_END, sAddr, data);
-    
-    // Strip out extraneous address text
-    int pt = data.strAddress.indexOf(" - ");
-    if (pt >= 0) data.strAddress = data.strAddress.substring(0, pt).trim();
-    if (data.strAddress.endsWith(" UNIT")) {
-      data.strAddress = data.strAddress.substring(0, data.strAddress.length()-5).trim();
-    }
-    
-    // Cross street field contains cross streets and units and extra stuff that we discard
-    String fld = props.getProperty("CrossStreets", "");
-    Matcher match = UNIT_PTN.matcher(fld);
-    if (!match.find()) {
-      data.strCross = fld;
-    } else {
-      data.strCross = fld.substring(0,match.start()).trim();
-      data.strUnit = fld.substring(match.start());
-    }
-    
-    return true;
-  }
 }
