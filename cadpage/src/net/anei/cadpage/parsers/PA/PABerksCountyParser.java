@@ -60,6 +60,7 @@ Sender: @berks.alertpa.org
 [berks.co85@rsix.roamsecure.net] CAD MSG: *D SF       721 DANIEL DRAPT 2  0066 FIRE IN BATHROOM\nSent by Berks County RSAN to CO85 All Call\n--\nYou received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org\n
 [berks.co85@rsix.roamsecure.net] CAD MSG: *D SF       1007 MT LAUREL AV ;FLR 2APT 3  0066 ALARMS SOUNDING //SMOKE SHOWING //\nSent by Berks County RSAN to CO85 All Call\n--\nYou received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org\n
 [berks.co85@rsix.roamsecure.net] CAD MSG: *D LIFTASST 1348 WEST WYOMISSING CTAPT P  0043 59 YOF /FELL BUT NOT INJ /COMP JUST NEEDS HELP GETTING HER UP /COMP\nSent by Berks County RSAN to CO85 All Call\n--\nYou received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org\n
+[rfdall@rsix.roamsecure.net] CAD MSG: *G RSF      423 S 16 ST 0019 2ND FLR FRONT WINDOW / FLAMES SHOWING / THEYRE TRYING TO PUT THE FIRE\nSent by Berks County RSAN to Reading Fire All Call\n--\nYou received this message because you registered on Alert Berks.  To change your alerting preferences go to http://berks.alertpa.org\n
 
 ** NOT PARSING YET ***
 Contact: "greek@vjgreek.com" <greek@vjgreek.com>
@@ -70,6 +71,7 @@ CAD MSG: *D FSB      CITY SB 1, 10, 36, 55, 64,69 @ CITY FIRE INCIDENT CITY 2ND 
 
 public class PABerksCountyParser extends SmartAddressParser {
   
+  private static final Pattern MARKER = Pattern.compile("CAD MSG: \\*[DG] ");
   private static final Pattern MUNI_CODE_PAT = Pattern.compile(" 00(\\d\\d) ");
   
   public PABerksCountyParser() {
@@ -80,12 +82,12 @@ public class PABerksCountyParser extends SmartAddressParser {
   protected boolean parseMsg(String body, Data data) {
 
     // Strip off any prefix
-    int pt = body.indexOf("CAD MSG: *D ");
-    if (pt < 0) return false;
-    body = body.substring(pt);
+    Matcher match = MARKER.matcher(body);
+    if (!match.find()) return false;
+    body = body.substring(match.start());
     
     // Strip of trailing fluff
-    pt = body.indexOf('\n');
+    int pt = body.indexOf('\n');
     if (pt >= 0) body = body.substring(0,pt).trim();
     
     // Extract primary call description
@@ -97,7 +99,7 @@ public class PABerksCountyParser extends SmartAddressParser {
     body = body.substring(20);
     
     // Look for a 4 digit station ID, this marks the end of the address
-    Matcher match = MUNI_CODE_PAT.matcher(body);
+    match = MUNI_CODE_PAT.matcher(body);
     if (! match.find()) return false;
     
     String muniCode = match.group(1);
