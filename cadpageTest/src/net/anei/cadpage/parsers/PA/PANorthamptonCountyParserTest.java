@@ -165,7 +165,7 @@ public class PANorthamptonCountyParserTest extends BaseParserTest {
         "Tell a friend/co-worker about Northampton County Alert Network! Forward this message to them and have them register for this free service at www.notifync.org \n",
 
         "UNIT:e46",
-        "CALL:MVA NON INJURY",
+        "CALL:MVA NONE INJURY",
         "ADDR:AIRPORT RD",
         "CITY:EAST ALLEN",
         "NAME:4676",
