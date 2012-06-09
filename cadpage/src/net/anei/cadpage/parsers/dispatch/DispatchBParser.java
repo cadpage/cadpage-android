@@ -407,7 +407,7 @@ public class DispatchBParser extends SmartAddressParser {
 //        "MVA",
         "MVA -EJECTION- HIGH MECHANISM",
         "MVA - MAJOR INCIDENT",
-        "MVA NON INJURY",
+        "MVA NONE INJURY",
         "MVA - PINNED",
         "MVA - UNKNOWN STATUS",
         "MVA-TRAPPED MULTI PT/ADD RESPO",
