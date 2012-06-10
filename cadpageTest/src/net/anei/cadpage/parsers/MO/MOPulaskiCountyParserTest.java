@@ -108,8 +108,7 @@ public class MOPulaskiCountyParserTest extends BaseParserTest {
         "CALL:MOTOR VEHICLE ACCIDENT WITH INJURY",
         "ADDR:DYER ST & W HISTORIC 66",
         "CITY:WAYNESVILLE",
-        "X:WPD",
-        "UNIT:M25 WRFD1",
+        "UNIT:WPD M25 WRFD1",
         "DATE:6/8/2012",
         "TIME:07:46:06");
 
@@ -148,6 +147,27 @@ public class MOPulaskiCountyParserTest extends BaseParserTest {
         "UNIT:M22 WRFD1",
         "DATE:6/6/2012",
         "TIME:07:16:16");
+
+    doTest("T4",
+        " 1 of 3\n" +
+        "FRM:911dispatch@embarqmail.com\n" +
+        "SUBJ:DO NOT REPLY\n" +
+        "MSG:UNCONSCIOUS/UNRESPONSIVE  21501 HIGHWAY 28, Apt. UNIT PULASKI COUNTY CrossStreets:\n" +
+        "(Con't) 2 of 3\n" +
+        "Hawk Dr 0.01 mi NE Private Dr 0.16 mi NW M22 WRFD1 Call Received Time: 6/10/2012 09:19:51 Dispatch: 6/10/2012 09:21:29 Dispatch:\n" +
+        "(Con't) 3 of 3\n" +
+        "6/10/2012 09:21:29\r\n" +
+        "\r\n" +
+        "\r\n" +
+        "\r\n" +
+        "(End)",
+
+        "CALL:UNCONSCIOUS/UNRESPONSIVE",
+        "ADDR:21501 HIGHWAY 28",
+        "X:Hawk Dr 0.01 mi NE Private Dr 0.16 mi NW",
+        "UNIT:M22 WRFD1",
+        "DATE:6/10/2012",
+        "TIME:09:21:29");
 
   }
   

@@ -6,11 +6,10 @@ import java.util.regex.Pattern;
 public class PatternTest {
 
   private static final Pattern MASTER = 
-      Pattern.compile("(?:(\\d+) )?(\\d\\d:?\\d?\\d?)\\b");
+      Pattern.compile("\\b(?:\\d{4}|[A-Z]{1,2}[FP]D\\d?|M\\d\\d)\\b");
   
   public static void main(String[] args) {
-    doTest("TAC 30 1106797 21:01");
-    doTest("1106797 21:01");
+    doTest("WPD M25 WRFD1");
   }
   
   private static void doTest(String test) {
