@@ -134,6 +134,18 @@ public class TNHamiltonCountyParserTest extends BaseParserTest {
 
   }
   
+  @Test
+  public void testStuartBell() {
+
+    doTest("T1",
+        "RT:FASCIT-FIRE DEPARTMENT ASSISTING A CITIZEN  Loc:8601 CAMP COLUMBUS RD, LAKESITE  (DEAD END/ST JOHNS RD)  #[8600-8604]",
+        "CALL:FASCIT-FIRE DEPARTMENT ASSISTING A CITIZEN",
+        "ADDR:8601 CAMP COLUMBUS RD",
+        "CITY:LAKESITE",
+        "X:DEAD END/ST JOHNS RD");
+
+  }
+  
 
   public static void main(String[] args) {
     new TNHamiltonCountyParserTest().generateTests("T1");

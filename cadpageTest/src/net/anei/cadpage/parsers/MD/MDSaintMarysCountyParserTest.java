@@ -873,6 +873,19 @@ public class MDSaintMarysCountyParserTest extends BaseParserTest {
         "UNIT:CO2 E22 CO29 EMS42",
         "INFO:S/B LANES IN THE INTERSECTION 2");
 
+    doTest("T7",
+        "ST MARY'S COUNTY GOVERNMENT P (24054) CAD\r\n" +
+        ": 16:22:50*Heat/Cold Exposure*POINT LOOKOUT STATE PARK*11175 POINT LOOKOUT RD*DEAD END*SCOTLAND*CO49R*down by beach house* stop",
+
+        "TIME:16:22:50",
+        "CALL:Heat/Cold Exposure",
+        "ADDR:11175 POINT LOOKOUT RD",
+        "X:DEAD END",
+        "PLACE:POINT LOOKOUT STATE PARK",
+        "CITY:SCOTLAND",
+        "UNIT:CO49R",
+        "INFO:down by beach house");
+
   }
 
   public static void main(String[] args) {

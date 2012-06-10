@@ -12,6 +12,80 @@ public class VAHanoverCountyParserTest extends BaseParserTest {
   }
   
   @Test
+  public void testParser() {
+
+        doTest("T1",
+            "Subject:(21777) a\n" +
+            "Unit:E12 UnitSts: Inc#:2010-00000919 Inc:MVANoInj Loc:36 S INTERSTATE 295 MapRef:R Map 1591 VEH VS DEER, NO INJS, H",
+
+            "ID:2010-00000919",
+            "UNIT:E12",
+            "CALL:MVANoInj",
+            "ADDR:36 S INTERSTATE 295",
+            "MAP:R Map 1591",
+            "INFO:VEH VS DEER, NO INJS, H");
+
+        doTest("T2",
+            "(16407]  a ) Unit:E07 UnitSts: Inc#:2012-00031976 Inc:DifBreathn Loc:7103 NEW HUNTER RD MapRef:R Map 1593 APT 1011 Addtl:DIFF BREATHING",
+            "ID:2012-00031976",
+            "UNIT:E07",
+            "CALL:DifBreathn",
+            "ADDR:7103 NEW HUNTER RD",
+            "MAP:R Map 1593",
+            "INFO:APT 1011 -DIFF BREATHING");
+
+        doTest("T3",
+            "(12716a ) Unit:E07 UnitSts: Inc#:2012-00031961 Inc:Unconscous Loc:7052 MECHANICSVILLE TP MapRef:R Map 1592 PASSED OUT Addtl:",
+            "ID:2012-00031961",
+            "UNIT:E07",
+            "CALL:Unconscous",
+            "ADDR:7052 MECHANICSVILLE TP",
+            "MADDR:7052 MECHANICSVILLE TPK",
+            "MAP:R Map 1592",
+            "INFO:PASSED OUT");
+
+        doTest("T4",
+            "[(7584]  a ) Unit:E07 UnitSts: Inc#:2012-00031934 Inc:VehFire Loc:MECHANICSVILLE TP/BELL CREEK MapRef:R Map 1592 Addtl:IN TURNING LANE, ON FIRE",
+            "ID:2012-00031934",
+            "UNIT:E07",
+            "CALL:VehFire",
+            "ADDR:MECHANICSVILLE TP & BELL CREEK",
+            "MADDR:MECHANICSVILLE TPK & BELL CREEK",
+            "MAP:R Map 1592",
+            "INFO:IN TURNING LANE, ON FIRE");
+
+        doTest("T5",
+            "(5677 a ) Unit:E07 UnitSts: Inc#:2012-00000667 Inc:OutSmall Loc:BELLFLOWER CR/TIFFANY MapRef:R Map 1503 Addtl:WPH2:",
+            "ID:2012-00000667",
+            "UNIT:E07",
+            "CALL:OutSmall",
+            "ADDR:BELLFLOWER CR & TIFFANY",
+            "MADDR:BELLFLOWER CIR & TIFFANY",
+            "MAP:R Map 1503",
+            "INFO:WPH2:");
+
+        doTest("T6",
+            "[(5243]  a ) Unit:E07 UnitSts: Inc#:2012-00031927 Inc:VehCrash Loc:COLD HARBOR RD/BELL CREEK MapRef:R Map 1594 3 VEH MVA, UNKNW INJURIES Addtl:ONE ON RIGHT",
+            "ID:2012-00031927",
+            "UNIT:E07",
+            "CALL:VehCrash",
+            "ADDR:COLD HARBOR RD & BELL CREEK",
+            "MAP:R Map 1594",
+            "INFO:3 VEH MVA, UNKNW INJURIES -ONE ON RIGHT");
+
+        doTest("T7",
+            "[(3875]  a ) Unit:E07 UnitSts: Inc#:2012-00031920 Inc:OutSmall Loc:MECHANICSVILLE TP/COLONY MapRef:R Map 1592   IN THE MEDIAN SMOKING Addtl:",
+            "ID:2012-00031920",
+            "UNIT:E07",
+            "CALL:OutSmall",
+            "ADDR:MECHANICSVILLE TP & COLONY",
+            "MADDR:MECHANICSVILLE TPK & COLONY",
+            "MAP:R Map 1592",
+            "INFO:IN THE MEDIAN SMOKING");
+   
+  }
+  
+  @Test
   public void testActive911() {
 
     doTest("T1",
@@ -480,10 +554,204 @@ public class VAHanoverCountyParserTest extends BaseParserTest {
         "ADDR:11132 PROGRESS RD",
         "APT:B",
         "MAP:R Map 1154");
+
+    doTest("T54",
+        "((37882) a ) Unit:Q01 UnitSts: Inc:Unknown Inc#:2012-00043119 Loc:11182 TINSLEY DR MapRef:R Map 67 Addtl:",
+        "ID:2012-00043119",
+        "UNIT:Q01",
+        "CALL:Unknown",
+        "ADDR:11182 TINSLEY DR",
+        "MAP:R Map 67");
+
+    doTest("T55",
+        "((37936) a ) Unit:E04 UnitSts: Inc#:2012-00001031 Inc:ProQA Loc:14199 WASHINGTON HW MapRef:R Map 68 HEAVY BLACK SMOKE Addtl:",
+        "ID:2012-00001031",
+        "UNIT:E04",
+        "CALL:ProQA",
+        "ADDR:14199 WASHINGTON HW",
+        "MADDR:14199 WASHINGTON HWY",
+        "MAP:R Map 68",
+        "INFO:HEAVY BLACK SMOKE");
+
+    doTest("T56",
+        "((38154) a ) Unit:M04 UnitSts: Inc#:2012-00007180 Inc:StrComm Loc:423 ENGLAND ST MapRef:R Map 82-4 SMELLS SMELLS SOMETHING BURNING Addtl:VOIP:",
+        "ID:2012-00007180",
+        "UNIT:M04",
+        "CALL:StrComm",
+        "ADDR:423 ENGLAND ST",
+        "MAP:R Map 82-4",
+        "INFO:SMELLS SMELLS SOMETHING BURNING -VOIP:");
+
+    doTest("T57",
+        "((39472) a ) Unit:M04 UnitSts: Inc#:2012-00040228 Inc:Poisoning Loc:15411 ROBERT TERRELL RD MapRef:R Map 51      POSS OVERDOSE//COMBATIVE Addtl:",
+        "ID:2012-00040228",
+        "UNIT:M04",
+        "CALL:Poisoning",
+        "ADDR:15411 ROBERT TERRELL RD",
+        "MAP:R Map 51",
+        "INFO:POSS OVERDOSE//COMBATIVE");
+
+    doTest("T58",
+        "((50237) a ) Unit:A04 UnitSts: Inc#:2012-00020190 Inc:Assault Loc:9900 DOSWELL RD RM 131 MapRef:R Map 58 Addtl:",
+        "ID:2012-00020190",
+        "UNIT:A04",
+        "CALL:Assault",
+        "ADDR:9900 DOSWELL RD",
+        "APT:131",
+        "MAP:R Map 58");
+
+    doTest("T59",
+        "((39976) a ) Unit:M04 UnitSts: Inc#:2012-00001054 Inc:Sickness Loc:15102 DEARBORN DR MapRef:R Map 56 Addtl:",
+        "ID:2012-00001054",
+        "UNIT:M04",
+        "CALL:Sickness",
+        "ADDR:15102 DEARBORN DR",
+        "MAP:R Map 56");
+
+    doTest("T60",
+        "((40529) a ) Unit:A04 UnitSts: Inc#:2012-00014113 Inc:VehCrash Loc:VERDON RD/LANDORA BRIDGE MapRef:R Map 14 MC MAN DOWN Addtl:",
+        "ID:2012-00014113",
+        "UNIT:A04",
+        "CALL:VehCrash",
+        "ADDR:VERDON RD & LANDORA BRIDGE",
+        "MAP:R Map 14",
+        "INFO:MC MAN DOWN");
+
+    doTest("T61",
+        "((42488) a ) Unit:E04 UnitSts: Inc#:2012-00084730 Inc:StrHiLife Loc:221 COTTAGE GREENE DR MapRef:R Map 83-3 GREASE FIRE Addtl:VOIP:",
+        "ID:2012-00084730",
+        "UNIT:E04",
+        "CALL:StrHiLife",
+        "ADDR:221 COTTAGE GREENE DR",
+        "MAP:R Map 83-3",
+        "INFO:GREASE FIRE -VOIP:");
+
+    doTest("T62",
+        "((42693) a ) Unit:Q01 UnitSts: Inc:StrHiLife Inc#:2012-00084730 Loc:221 COTTAGE GREENE DR MapRef:R Map 83-3 GREASE FIRE Addtl:VOIP:",
+        "ID:2012-00084730",
+        "UNIT:Q01",
+        "CALL:StrHiLife",
+        "ADDR:221 COTTAGE GREENE DR",
+        "MAP:R Map 83-3",
+        "INFO:GREASE FIRE -VOIP:");
+
+    doTest("T63",
+        "((43410) a ) Unit:Q01 UnitSts: Inc:AlmComm Inc#:2012-00045389 Loc:9407 KINGS CHARTER DR MapRef:R Map 1271 Addtl:",
+        "ID:2012-00045389",
+        "UNIT:Q01",
+        "CALL:AlmComm",
+        "ADDR:9407 KINGS CHARTER DR",
+        "MAP:R Map 1271");
+
+    doTest("T64",
+        "((43505) a ) Unit:E04 UnitSts: Inc#:2012-00045389 Inc:AlmComm Loc:9407 KINGS CHARTER DR MapRef:R Map 1271 Addtl:",
+        "ID:2012-00045389",
+        "UNIT:E04",
+        "CALL:AlmComm",
+        "ADDR:9407 KINGS CHARTER DR",
+        "MAP:R Map 1271");
+
+    doTest("T65",
+        "((44043) a ) Unit:A04 UnitSts: Inc#:2012-00020191 Inc:Sickness Loc:11020 HEMLOCK LN MapRef:R Map 56 Addtl:",
+        "ID:2012-00020191",
+        "UNIT:A04",
+        "CALL:Sickness",
+        "ADDR:11020 HEMLOCK LN",
+        "MAP:R Map 56");
+
+    doTest("T66",
+        "((44241) a ) Unit:A04 UnitSts: Inc#:2012-00007182 Inc:Psych Loc:101 OMNI RD MapRef:R Map 83-3 Addtl:EXTREMELY SUICIDAL CRYING ALL DAY AND ALL NIGHT",
+        "ID:2012-00007182",
+        "UNIT:A04",
+        "CALL:Psych",
+        "ADDR:101 OMNI RD",
+        "MAP:R Map 83-3",
+        "INFO:EXTREMELY SUICIDAL CRYING ALL DAY AND ALL NIGHT");
+
+    doTest("T67",
+        "((44666) a ) Unit:A04 UnitSts: Inc#:2012-00001070 Inc:VehCrash Loc:ENGLAND ST/CARTER MapRef:R Map 83-3 2 VEH NO INJ Addtl:",
+        "ID:2012-00001070",
+        "UNIT:A04",
+        "CALL:VehCrash",
+        "ADDR:ENGLAND ST & CARTER",
+        "MAP:R Map 83-3",
+        "INFO:2 VEH NO INJ");
+
+    doTest("T68",
+        "((44823) a ) Unit:A04 UnitSts: Inc#:2012-00020192 Inc:ChestPain Loc:17107 ENGLISH WALNUT RD MapRef:R Map 33 WIFE IS HAVING TROUBLE BREATHING Addtl:RES :",
+        "ID:2012-00020192",
+        "UNIT:A04",
+        "CALL:ChestPain",
+        "ADDR:17107 ENGLISH WALNUT RD",
+        "MAP:R Map 33",
+        "INFO:WIFE IS HAVING TROUBLE BREATHING -RES :");
+
+    doTest("T69",
+        "((45368) a ) Unit:Q01 UnitSts: Inc:Sickness Inc#:2012-00084733 Loc:145 SOUTH HILL CARTER PK MapRef:R Map 98-1 REQSTNG AMBULANCE Addtl:SHEILA",
+        "ID:2012-00084733",
+        "UNIT:Q01",
+        "CALL:Sickness",
+        "ADDR:145 SOUTH HILL CARTER PK",  // Not mapping, possibly CARTER RD
+        "MADDR:145 SOUTH HILL CARTER PKWY",
+        "MAP:R Map 98-1",
+        "INFO:REQSTNG AMBULANCE -SHEILA");
+
+    doTest("T70",
+        "((45781) a ) Unit:Q01 UnitSts: Inc:DifBreathn Inc#:2012-00045391 Loc:9300 FALCON DR MapRef:R Map 1273 Addtl:",
+        "ID:2012-00045391",
+        "UNIT:Q01",
+        "CALL:DifBreathn",
+        "ADDR:9300 FALCON DR",
+        "MAP:R Map 1273");
+
+    doTest("T71",
+        "((46307) a ) Unit:A04 UnitSts: Inc#:2012-00001072 Inc:Assault Loc:407 ENGLAND ST MapRef:R Map 82-4      YELLING SCREAMING Addtl:WPH2: SOMEONE WAS PUNCHED IN THE FACE",
+        "ID:2012-00001072",
+        "UNIT:A04",
+        "CALL:Assault",
+        "ADDR:407 ENGLAND ST",
+        "MAP:R Map 82-4",
+        "INFO:YELLING SCREAMING -WPH2: SOMEONE WAS PUNCHED IN THE FACE");
+
+    doTest("T72",
+        "((46337) a ) Unit:Q01 UnitSts: Inc:Seizures Inc#:2012-00084735 Loc:11252 GWATHMEY CHURCH RD MapRef:R Map 97-3 MALIE HAVING SEIZURE Addtl:",
+        "ID:2012-00084735",
+        "UNIT:Q01",
+        "CALL:Seizures",
+        "ADDR:11252 GWATHMEY CHURCH RD",
+        "MAP:R Map 97-3",
+        "INFO:MALIE HAVING SEIZURE");
+
+    doTest("T73",
+        "((47409) a ) Unit:M04 UnitSts: Inc#:2012-00020193 Inc:ChestPain Loc:16000 THEME PARK WY MapRef:R Map 46 51 YOF / SVT / NO HX 194 PULSE Addtl:144/110 - MINOR CHEST PAIN / ALS AMBULANCE / NO LIGHTS OR SIRENS",
+        "ID:2012-00020193",
+        "UNIT:M04",
+        "CALL:ChestPain",
+        "ADDR:16000 THEME PARK WY",
+        "MAP:R Map 46",
+        "INFO:51 YOF / SVT / NO HX 194 PULSE -144/110 - MINOR CHEST PAIN / ALS AMBULANCE / NO LIGHTS OR SIRENS");
+
+    doTest("T74",
+        "((47903) a ) Unit:A04 UnitSts: Inc#:2012-00007183 Inc:Abdominal Loc:101 OMNI RD MapRef:R Map 83-3 OMNI PARK PLACE Addtl:CTX :",
+        "ID:2012-00007183",
+        "UNIT:A04",
+        "CALL:Abdominal",
+        "ADDR:101 OMNI RD",
+        "MAP:R Map 83-3",
+        "INFO:OMNI PARK PLACE -CTX :");
+
+    doTest("T75",
+        "((48821) a ) Unit:Q01 UnitSts: Inc:ChestPain Inc#:2012-00052172 Loc:7190 HIGGINS LN MapRef:R Map 162 MOTHER CHEST PAINS,SOB Addtl:",
+        "ID:2012-00052172",
+        "UNIT:Q01",
+        "CALL:ChestPain",
+        "ADDR:7190 HIGGINS LN",
+        "MAP:R Map 162",
+        "INFO:MOTHER CHEST PAINS,SOB");
     
   }
   
   public static void main(String[] args) {
-    new VAHanoverCountyParserTest().generateTests("T1");
+    new VAHanoverCountyParserTest().generateTests("T54");
   }
 }

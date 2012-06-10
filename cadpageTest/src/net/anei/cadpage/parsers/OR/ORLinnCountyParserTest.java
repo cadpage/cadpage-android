@@ -194,6 +194,17 @@ public class ORLinnCountyParserTest extends BaseParserTest {
         "ADDR:1173 W SHERMAN ST",
         "CITY:Lebanon",
         "MAP:4142A3131");
+
+    doTest("T24",
+        "FRM:linn911@linnsheriff.org\n" +
+        "SUBJ:!\n" +
+        "MSG:DIABETIC PROB/32717 OLD MILL RD/06-08-12/21:20:12/63 year old, Male, Conscious, Breathing.  Diabetic/E32/",
+
+        "CALL:DIABETIC PROB",
+        "ADDR:32717 OLD MILL RD",
+        "DATE:06/08/12",
+        "TIME:21:20:12",
+        "INFO:63 year old, Male, Conscious, Breathing.  Diabetic");
   }
   
   @Test
