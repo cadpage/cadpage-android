@@ -41,6 +41,10 @@ Contact: Jared Reeves <jreeves@liag.net>
 Sender: paging@wantaghfd.xohost.com
 *** 640 INVESTIGATION-WIRES-LIPA *** LEVITTOWN SCHOOL MAINT. BLDG 850 SEAMANS NECK RD CS: HUNT RD  - DUNHILL RD M-6 TOA: 07:41 08-15-11 STATION 2 STATIO
 
+Contact: "Zachary Goldfarb" <zach@imscommand.com>
+Sender: eastmeadowfd@gmail.com
+68 - F/F Family ***Rescue Call*** 1964 LINCOLN AVE CS: DEVON ST  / VILLAGE DR TOA: 15:25 06/09/12 'SIGNAL 68 - MEMBERS HOUSE - LADDER ONE
+
 */
 
 public class NYNassauCountyDParser extends FieldProgramParser {

@@ -29,6 +29,7 @@ Sender: 911dispatch@embarqmail.com
  1 of 2\nFRM:911dispatch@embarqmail.com\nSUBJ:DO NOT REPLY\nMSG:MOTOR VEHICLE ACCIDENT WITH INJURY  DYER ST & W HISTORIC 66, Apt. UNIT WAYNESVILLE\n(Con't) 2 of 2\nCrossStreets: WPD M25 WRFD1 Call Received Time: 6/8/2012 07:44:22 Dispatch: 6/8/2012 07:46:06\r\n\r\n\r\n\r\n(End)
  1 of 2\nFRM:911dispatch@embarqmail.com\nSUBJ:DO NOT REPLY\nMSG:NATURAL COVER FIRE  TEMPORAL RD, Apt. UNIT PULASKI COUNTY CrossStreets: WRFD1 Call\n(Con't) 2 of 2\nReceived Time: 6/6/2012 11:27:42 Dispatch: 6/6/2012 11:30:25\r\n\r\n\r\n\r\n(End)
  1 of 2\nFRM:911dispatch@embarqmail.com\nSUBJ:DO NOT REPLY\nMSG:FALLS/ ACCIDENTS  LONGVIEW LN & HIGHWAY 17 PULASKI COUNTY CrossStreets: M22 WRFD1\n(Con't) 2 of 2\nCall Received Time: 6/6/2012 07:10:40 Dispatch: 6/6/2012 07:16:16\r\n\r\n\r\n\r\n(End)
+ 1 of 3\nFRM:911dispatch@embarqmail.com\nSUBJ:DO NOT REPLY\nMSG:UNCONSCIOUS/UNRESPONSIVE  21501 HIGHWAY 28, Apt. UNIT PULASKI COUNTY CrossStreets:\n(Con't) 2 of 3\nHawk Dr 0.01 mi NE Private Dr 0.16 mi NW M22 WRFD1 Call Received Time: 6/10/2012 09:19:51 Dispatch: 6/10/2012 09:21:29 Dispatch:\n(Con't) 3 of 3\n6/10/2012 09:21:29\r\n\r\n\r\n\r\n(End)
 
 */
 
@@ -37,7 +38,7 @@ public class MOPulaskiCountyParser extends FieldProgramParser {
   
   public MOPulaskiCountyParser() {
     super(CITY_TABLE, "PULASKI COUNTY", "MO",
-           "ADDR/SC! CrossStreets:X! Call_Received_Time:SKIP! Dispatch:DATETIME");
+           "ADDR/SC! CrossStreets:X! Call_Received_Time:SKIP! Dispatch:DATETIME Dispatch:SKIP");
   }
   
   @Override
@@ -75,7 +76,7 @@ public class MOPulaskiCountyParser extends FieldProgramParser {
   }
   
   // Unit codes will be nnnn, or xFDn, or Mnn
-  private static final Pattern UNIT_PTN = Pattern.compile("\\b(\\d{4}|[A-Z]{1,2}[FP]D\\d|M\\d\\d)\\b");
+  private static final Pattern UNIT_PTN = Pattern.compile("\\b(\\d{4}|[A-Z]{1,2}[FP]D\\d?|M\\d\\d)\\b");
   private class MyCrossField extends CrossField {
     @Override
     public void parse(String field, Data data) {

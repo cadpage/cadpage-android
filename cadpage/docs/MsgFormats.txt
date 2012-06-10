@@ -4980,13 +4980,7 @@ Contact: "sta32jp@yahoo.com" <sta32jp@yahoo.com>
 Sender: linn911@linnsheriff.org
 FRM:linn911@linnsheriff.org\nSUBJ:!\nMSG:DIABETIC PROB/32717 OLD MILL RD/06-08-12/21:20:12/63 year old, Male, Conscious, Breathing.  Diabetic/E32/
 **********************************************************
-Montgomery County, TX (alternate?)
-Contact: "Charles O'Quin" <charles.oquin@nwems.org>
-Sender: cad@nwems.org
-Possibly DispatchA3
-  / * 13415 MEDICAL COMPLEX DR* 320* * * * 01C05* ABD PAIN -Males w/pain above navel* * * M-1* * * * *\n
-**********************************************************
-**********************************************************
+*********************************************************
 **********************************************************
 **********************************************************
 **********************************************************
@@ -5008,3 +5002,18 @@ https://www.active911.com/interface/parser_report.php?key=722-adhND
 **********************************************************
 Currituck County, NC
 https://www.active911.com/interface/parser_report.php?key=414-qqp6C
+**********************************************************
+Hartford County, MD
+https://www.active911.com/interface/parser_report.php?key=328-xtLLh
+**********************************************************
+**********************************************************
+**********************************************************
+NWEMS, TX (in Harris County)
+Contact: "Charles O'Quin" <charles.oquin@nwems.org>
+Sender: cad@nwems.org
+Possibly DispatchA3
+  / * 13415 MEDICAL COMPLEX DR* 320* * * * 01C05* ABD PAIN -Males w/pain above navel* * * M-1* * * * *\n
+  / * 28602 TOMBALL PKWY* * * * * 19D04* HEART PROBLEMS-Clammy* * * M-1* * * * *
+  / * 502 JAMES ST* * * * * 17A01* FALL - Not Dangerous* * * M-1* * * * *
+  / * 605 HOLDERRIETH BLVD* 527* * * * 33A02* OUT OF DISTRICT TRANSFER* * * M-1* * * * *
+  / * 1019 HICKORY POST CT* * * * * OVERDOSE* OVERDOGE/INGESTION* * * M-1* * * * *
