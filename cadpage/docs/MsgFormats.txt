@@ -4823,8 +4823,40 @@ Contact: "A.C. Rich" <ac_rich@earthlink.net>  (Chief)
 Sender: wcps@wakegov.com
 System: Motorola Printrax
 
-WCWF = WAKE FOREST
-WCCR = CREEDMOOR
+AN  ANGIER
+WCAN  ANGIER WAKE CO
+AP  APEX
+WCAP  APEX WAKE CO
+CA  CARY
+WCCA  CARY WAKE CO
+WCCL  CLAYTON WAKE CO
+WCCR  CREEDMOOR WAKE CO
+WCDU  DURHAM WAKE CO
+FV  FUQUAY-VARINA
+WCFV  FUQUAY-VARINA WAKE CO
+GR  GARNER
+WCGR  GARNER WAKE CO
+HS  HOLLY SPRINGS
+WCHS  HOLLY SPRINGS WAKE CO
+KD  KNIGHTDALE
+WCKD  KNIGHTDALE WAKE CO
+MV  MORRISVILLE
+WCMV  MORRISVILLE WAKE CO
+WCNH  NEW HILL WAKE CO
+RA  RALEIGH
+WCRA  RALEIGH WAKE CO
+RDU RDU
+RO  ROLESVILLE
+WCRO  ROLESVILLE WAKE CO
+WF  WAKE FOREST
+WCWF  WAKE FOREST WAKE CO
+WD  WENDELL
+WCWD  WENDELL WAKE CO
+WCWS  WILLOW SPRINGS WAKE CO
+WCYV  YOUNGSVILLE WAKE CO
+ZB  ZEBULON
+WCZB  ZEBULON WAKE CO
+
 
 [WCPS]  
 Inc: FBD : 
@@ -4948,18 +4980,23 @@ Contact: "sta32jp@yahoo.com" <sta32jp@yahoo.com>
 Sender: linn911@linnsheriff.org
 FRM:linn911@linnsheriff.org\nSUBJ:!\nMSG:DIABETIC PROB/32717 OLD MILL RD/06-08-12/21:20:12/63 year old, Male, Conscious, Breathing.  Diabetic/E32/
 **********************************************************
+Montgomery County, TX (alternate?)
+Contact: "Charles O'Quin" <charles.oquin@nwems.org>
+Sender: cad@nwems.org
+Possibly DispatchA3
+  / * 13415 MEDICAL COMPLEX DR* 320* * * * 01C05* ABD PAIN -Males w/pain above navel* * * M-1* * * * *\n
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
 **********************************************************
 **********************************************************
 ************  READY TO ROLL ******************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
 **********************************************************
 **********************************************************
 Crawford County, MO

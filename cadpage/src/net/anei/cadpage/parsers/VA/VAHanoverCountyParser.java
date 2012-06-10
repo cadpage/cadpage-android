@@ -12,14 +12,13 @@ Contact: brian_grimes@verizon.net
 Contact: James Mayhew <kc4bpx@gmail.com>
 Sender: e911@ps400.hanoverva.org
 
-** OLD FORMAT - NO LONGER PARSING **
-//Subject:(21777) a\nUnit:E12 UnitSts: Inc#:2010-00000919 Inc:MVANoInj Loc:36 S INTERSTATE 295 MapRef:R Map 1591 VEH VS DEER, NO INJS, H
-//(16407]  a ) Unit:E07 UnitSts: Inc#:2012-00031976 Inc:DifBreathn Loc:7103 NEW HUNTER RD MapRef:R Map 1593 APT 1011 Addtl:DIFF BREATHING
-//(12716a ) Unit:E07 UnitSts: Inc#:2012-00031961 Inc:Unconscous Loc:7052 MECHANICSVILLE TP MapRef:R Map 1592 PASSED OUT Addtl:
-//[(7584]  a ) Unit:E07 UnitSts: Inc#:2012-00031934 Inc:VehFire Loc:MECHANICSVILLE TP/BELL CREEK MapRef:R Map 1592 Addtl:IN TURNING LANE, ON FIRE
-//(5677 a ) Unit:E07 UnitSts: Inc#:2012-00000667 Inc:OutSmall Loc:BELLFLOWER CR/TIFFANY MapRef:R Map 1503 Addtl:WPH2:
-//[(5243]  a ) Unit:E07 UnitSts: Inc#:2012-00031927 Inc:VehCrash Loc:COLD HARBOR RD/BELL CREEK MapRef:R Map 1594 3 VEH MVA, UNKNW INJURIES Addtl:ONE ON RIGHT
-//[(3875]  a ) Unit:E07 UnitSts: Inc#:2012-00031920 Inc:OutSmall Loc:MECHANICSVILLE TP/COLONY MapRef:R Map 1592   IN THE MEDIAN SMOKING Addtl:
+Subject:(21777) a\nUnit:E12 UnitSts: Inc#:2010-00000919 Inc:MVANoInj Loc:36 S INTERSTATE 295 MapRef:R Map 1591 VEH VS DEER, NO INJS, H
+(16407]  a ) Unit:E07 UnitSts: Inc#:2012-00031976 Inc:DifBreathn Loc:7103 NEW HUNTER RD MapRef:R Map 1593 APT 1011 Addtl:DIFF BREATHING
+(12716a ) Unit:E07 UnitSts: Inc#:2012-00031961 Inc:Unconscous Loc:7052 MECHANICSVILLE TP MapRef:R Map 1592 PASSED OUT Addtl:
+[(7584]  a ) Unit:E07 UnitSts: Inc#:2012-00031934 Inc:VehFire Loc:MECHANICSVILLE TP/BELL CREEK MapRef:R Map 1592 Addtl:IN TURNING LANE, ON FIRE
+(5677 a ) Unit:E07 UnitSts: Inc#:2012-00000667 Inc:OutSmall Loc:BELLFLOWER CR/TIFFANY MapRef:R Map 1503 Addtl:WPH2:
+[(5243]  a ) Unit:E07 UnitSts: Inc#:2012-00031927 Inc:VehCrash Loc:COLD HARBOR RD/BELL CREEK MapRef:R Map 1594 3 VEH MVA, UNKNW INJURIES Addtl:ONE ON RIGHT
+[(3875]  a ) Unit:E07 UnitSts: Inc#:2012-00031920 Inc:OutSmall Loc:MECHANICSVILLE TP/COLONY MapRef:R Map 1592   IN THE MEDIAN SMOKING Addtl:
 
 Contact: support@active911.com
 Agency name: Ashland Volunteer Fire Company Location: Ashland, VA 
@@ -78,6 +77,30 @@ Sender: e911@ps400.hanoverva.org
 ((46514) a ) Unit:SQ01 UnitSts: Inc:VehCrash Inc#:2012-00016157 Loc:MECHANICSVILLE TP/DEER COON MapRef:R Map 1512 MVA / REQ RESCUE Addtl:
 ((46694) a ) Unit:E01 UnitSts: Inc:AlmComm Inc#:2012-00045393 Loc:11132 PROGRESS RD STE B MapRef:R Map 1154 Addtl:
 
+((37882) a ) Unit:Q01 UnitSts: Inc:Unknown Inc#:2012-00043119 Loc:11182 TINSLEY DR MapRef:R Map 67 Addtl:
+((37936) a ) Unit:E04 UnitSts: Inc#:2012-00001031 Inc:ProQA Loc:14199 WASHINGTON HW MapRef:R Map 68 HEAVY BLACK SMOKE Addtl:
+((38154) a ) Unit:M04 UnitSts: Inc#:2012-00007180 Inc:StrComm Loc:423 ENGLAND ST MapRef:R Map 82-4 SMELLS SMELLS SOMETHING BURNING Addtl:VOIP:
+((39472) a ) Unit:M04 UnitSts: Inc#:2012-00040228 Inc:Poisoning Loc:15411 ROBERT TERRELL RD MapRef:R Map 51      POSS OVERDOSE//COMBATIVE Addtl:
+((50237) a ) Unit:A04 UnitSts: Inc#:2012-00020190 Inc:Assault Loc:9900 DOSWELL RD RM 131 MapRef:R Map 58 Addtl:
+((39976) a ) Unit:M04 UnitSts: Inc#:2012-00001054 Inc:Sickness Loc:15102 DEARBORN DR MapRef:R Map 56 Addtl:
+((40529) a ) Unit:A04 UnitSts: Inc#:2012-00014113 Inc:VehCrash Loc:VERDON RD/LANDORA BRIDGE MapRef:R Map 14 MC MAN DOWN Addtl:
+((42488) a ) Unit:E04 UnitSts: Inc#:2012-00084730 Inc:StrHiLife Loc:221 COTTAGE GREENE DR MapRef:R Map 83-3 GREASE FIRE Addtl:VOIP:
+((42693) a ) Unit:Q01 UnitSts: Inc:StrHiLife Inc#:2012-00084730 Loc:221 COTTAGE GREENE DR MapRef:R Map 83-3 GREASE FIRE Addtl:VOIP:
+((43410) a ) Unit:Q01 UnitSts: Inc:AlmComm Inc#:2012-00045389 Loc:9407 KINGS CHARTER DR MapRef:R Map 1271 Addtl:
+((43505) a ) Unit:E04 UnitSts: Inc#:2012-00045389 Inc:AlmComm Loc:9407 KINGS CHARTER DR MapRef:R Map 1271 Addtl:
+((44043) a ) Unit:A04 UnitSts: Inc#:2012-00020191 Inc:Sickness Loc:11020 HEMLOCK LN MapRef:R Map 56 Addtl:
+((44241) a ) Unit:A04 UnitSts: Inc#:2012-00007182 Inc:Psych Loc:101 OMNI RD MapRef:R Map 83-3 Addtl:EXTREMELY SUICIDAL CRYING ALL DAY AND ALL NIGHT
+((44666) a ) Unit:A04 UnitSts: Inc#:2012-00001070 Inc:VehCrash Loc:ENGLAND ST/CARTER MapRef:R Map 83-3 2 VEH NO INJ Addtl:
+((44823) a ) Unit:A04 UnitSts: Inc#:2012-00020192 Inc:ChestPain Loc:17107 ENGLISH WALNUT RD MapRef:R Map 33 WIFE IS HAVING TROUBLE BREATHING Addtl:RES :
+((45368) a ) Unit:Q01 UnitSts: Inc:Sickness Inc#:2012-00084733 Loc:145 SOUTH HILL CARTER PK MapRef:R Map 98-1 REQSTNG AMBULANCE Addtl:SHEILA
+((45781) a ) Unit:Q01 UnitSts: Inc:DifBreathn Inc#:2012-00045391 Loc:9300 FALCON DR MapRef:R Map 1273 Addtl:
+((46307) a ) Unit:A04 UnitSts: Inc#:2012-00001072 Inc:Assault Loc:407 ENGLAND ST MapRef:R Map 82-4      YELLING SCREAMING Addtl:WPH2: SOMEONE WAS PUNCHED IN THE FACE
+((46337) a ) Unit:Q01 UnitSts: Inc:Seizures Inc#:2012-00084735 Loc:11252 GWATHMEY CHURCH RD MapRef:R Map 97-3 MALIE HAVING SEIZURE Addtl:
+((47409) a ) Unit:M04 UnitSts: Inc#:2012-00020193 Inc:ChestPain Loc:16000 THEME PARK WY MapRef:R Map 46 51 YOF / SVT / NO HX 194 PULSE Addtl:144/110 - MINOR CHEST PAIN / ALS AMBULANCE / NO LIGHTS OR SIRENS
+((47903) a ) Unit:A04 UnitSts: Inc#:2012-00007183 Inc:Abdominal Loc:101 OMNI RD MapRef:R Map 83-3 OMNI PARK PLACE Addtl:CTX :
+((48821) a ) Unit:Q01 UnitSts: Inc:ChestPain Inc#:2012-00052172 Loc:7190 HIGGINS LN MapRef:R Map 162 MOTHER CHEST PAINS,SOB Addtl:
+
+
 ** oddball - not parsing
 ((23057) a) > E01|ChestPain|16355 LITTLE RIVER DR , Ashland, VA|R Map 44 |WPH2:
 
@@ -92,7 +115,7 @@ public class VAHanoverCountyParser extends FieldProgramParser {
   
   public VAHanoverCountyParser() {
     super("HANOVER COUNTY", "VA",
-           "Unit:UNIT! UnitSts:SKIP! Inc:CALL Inc#:ID! Loc:ADDR! MapRef:MAP");
+           "Unit:UNIT! UnitSts:SKIP! Inc:CALL? Inc#:ID! Inc:CALL? Loc:ADDR! MapRef:MAP");
   }
   
   @Override

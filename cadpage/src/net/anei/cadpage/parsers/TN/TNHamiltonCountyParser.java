@@ -31,6 +31,10 @@ RT:ANSBT-ANIMAL OR SNAKE BITE  Loc:@WAFFLE HOUSE 8912 LEE HWY  (8912 LEE HWY, CH
 Contact: "Danny" <robertdcooke@epbfi.com>
 RT:STROKE-STROKE  Loc:10320 HAMBY RD, HAMILTON COUNTY  (SEQUOYAH ACCESS RD/PLES LN)  #[10206-10329]
 
+Contact: Stuart Ball <smball09@gmail.com>
+Sender: 4236671103 (user phone)
+RT:FASCIT-FIRE DEPARTMENT ASSISTING A CITIZEN  Loc:8601 CAMP COLUMBUS RD, LAKESITE  (DEAD END/ST JOHNS RD)  #[8600-8604]
+
  */
 
 public class TNHamiltonCountyParser extends FieldProgramParser {

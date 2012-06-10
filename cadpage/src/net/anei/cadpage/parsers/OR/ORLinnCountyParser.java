@@ -36,6 +36,10 @@ Contact: Zach Akin <brfdfireman@gmail.com>
 Sender: 93001NNN
 ICOM/400 notification,HOUSE FIRE/ 1173 W SHERMAN ST Lebanon/ 4142A3131/
 
+Contact: "sta32jp@yahoo.com" <sta32jp@yahoo.com>
+Sender: linn911@linnsheriff.org
+FRM:linn911@linnsheriff.org\nSUBJ:!\nMSG:DIABETIC PROB/32717 OLD MILL RD/06-08-12/21:20:12/63 year old, Male, Conscious, Breathing.  Diabetic/E32/
+
 Contact: Active911.com
 [ICOM/400 notification] TEST 1st ALARM FIRE/ 1115 SE JACKSON ST Albany LINN CO SHERIFFS OFFICE/JAIL/ 282511S11/\n
 [ICOM/400 notification] OTH STRCT FIRE/ 36149 RIVERSIDE DR INTERSECTN Linn County  /  OAKVILLE RD/ 30181111/\n
@@ -52,7 +56,7 @@ public class ORLinnCountyParser extends FieldProgramParser {
   
   public ORLinnCountyParser() {
     super(CITY_LIST, "LINN COUNTY", "OR",
-           "CALL CALL!+? ADDR/SXP! X/Z? MAP! UNIT? INFO");
+           "CALL CALL!+? ADDR/SXP! ( DATE TIME! | X/Z? MAP! ) UNIT? INFO");
   }
   
   @Override
@@ -80,9 +84,23 @@ public class ORLinnCountyParser extends FieldProgramParser {
     }
   }
   
+  private class MyDateField extends DateField {
+    public MyDateField() {
+      super("\\d\\d-\\d\\d-\\d\\d", true);
+    }
+    
+    @Override
+    public void parse(String field, Data data) {
+      field = field.replace("-", "/");
+      super.parse(field, data);
+    }
+  }
+  
   @Override
   public Field getField(String name) {
     if (name.equals("CALL")) return new MyCallField();
+    if (name.equals("DATE")) return new MyDateField();
+    if (name.equals("TIME")) return new TimeField("\\d\\d:\\d\\d:\\d\\d", true);
     if (name.equals("MAP")) return new MapField("(?:\\d{4}[A-Z]?\\d\\d\\*?[A-Z]?\\d\\d|)", true);
     if (name.equals("UNIT")) return new UnitField("[A-Z0-9 ]+");
     return super.getField(name);
