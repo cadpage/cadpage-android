@@ -187,8 +187,9 @@ public class NYWestchesterCountyParserTest extends BaseParserTest {
     doTest("T10",
         "(IPage) 14 COWDRAY PARK DR NORTH_CASTLE:MAIN HOUSE, Cross: HURLINGHAM DR, Type:ALARM, CO, Time out: 12:51:45 Area: BANKS,Alarm",
         "ADDR:14 COWDRAY PARK DR",
-        "CITY:BANKS",
-        "PLACE:MAIN HOUSE",
+        "CITY:GREENWICH",
+        "ST:CT",
+        "PLACE:MAIN HOUSE - BANKSVILLE",
         "X:HURLINGHAM DR",
         "CALL:ALARM / CO",
         "TIME:12:51:45");
@@ -196,7 +197,9 @@ public class NYWestchesterCountyParserTest extends BaseParserTest {
     doTest("T11",
         "(IPage) 16 ST MARYS CHURCH RD NORTH_CASTLE, Cross: E MIDDLE PATENT RD, Type:ALARM, RESD, Time out: 18:54:25 Area: BANKS,Alarm",
         "ADDR:16 ST MARYS CHURCH RD",
-        "CITY:BANKS",
+        "CITY:GREENWICH",
+        "ST:CT",
+        "PLACE:BANKSVILLE",
         "X:E MIDDLE PATENT RD",
         "CALL:ALARM / RESD",
         "TIME:18:54:25");
