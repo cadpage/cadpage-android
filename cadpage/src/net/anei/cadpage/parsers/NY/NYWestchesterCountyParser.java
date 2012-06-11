@@ -103,7 +103,7 @@ public class NYWestchesterCountyParser extends FieldProgramParser {
     }
     if (data.strCity.equals("BANKSVILLE")) {
       data.strPlace = append(data.strPlace, " - ", data.strCity);
-      data.strCity = "GREENWICH";
+      data.strCity = "BEDFORD";
     }
     return true;
   }
