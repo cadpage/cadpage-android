@@ -4980,7 +4980,12 @@ Contact: "sta32jp@yahoo.com" <sta32jp@yahoo.com>
 Sender: linn911@linnsheriff.org
 FRM:linn911@linnsheriff.org\nSUBJ:!\nMSG:DIABETIC PROB/32717 OLD MILL RD/06-08-12/21:20:12/63 year old, Male, Conscious, Breathing.  Diabetic/E32/
 **********************************************************
-*********************************************************
+Saginaw County, MI  (replace!?)
+Contact: David Smigiel <bportfire2@gmail.com>
+Sender: 27538
+System: NXT
+LOC:S PORTSMOUTH RD / KING RD DESC:LAT: <43.384720>  LONG: <-83.837678> APT: TYP:*M*PDA PIN IN JUST OCCU
+**********************************************************
 **********************************************************
 **********************************************************
 **********************************************************
@@ -5007,7 +5012,6 @@ Hartford County, MD
 https://www.active911.com/interface/parser_report.php?key=328-xtLLh
 **********************************************************
 **********************************************************
-**********************************************************
 NWEMS, TX (in Harris County)
 Contact: "Charles O'Quin" <charles.oquin@nwems.org>
 Sender: cad@nwems.org
@@ -5017,3 +5021,5 @@ Possibly DispatchA3
   / * 502 JAMES ST* * * * * 17A01* FALL - Not Dangerous* * * M-1* * * * *
   / * 605 HOLDERRIETH BLVD* 527* * * * 33A02* OUT OF DISTRICT TRANSFER* * * M-1* * * * *
   / * 1019 HICKORY POST CT* * * * * OVERDOSE* OVERDOGE/INGESTION* * * M-1* * * * *
+**********************************************************
+  

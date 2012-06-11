@@ -514,7 +514,7 @@ public abstract class MsgParser {
   * @param parseCity true if cities should be parsed with dashes
   */
  private static final Pattern INTERSECT = Pattern.compile("/|&");
- private static final Pattern APT = Pattern.compile("(?:\\bAPT|#APT|#|\\bUNIT|\\bSUITE|\\bROOM|\\bSTE\\b|\\bRM\\b)[ #\\.]*(.+)$",Pattern.CASE_INSENSITIVE);
+ private static final Pattern APT = Pattern.compile("(\\bAPT|#APT|#|\\bUNIT|\\bSUITE|\\bROOM|\\bSTE\\b|\\bRM\\b|\\bFLOOR\\b|\\bFLR)[ #\\.]*(.+)$",Pattern.CASE_INSENSITIVE);
  private static final Pattern DOT = Pattern.compile("\\.(?!\\d)");
  private static void parseAddress(String addressLine, MsgInfo.Data data, 
                                      boolean parseCity) {
@@ -527,7 +527,9 @@ public abstract class MsgParser {
    // Pick off trailing address
    Matcher match = APT.matcher(addressLine);
    if (match.find()) {
-     data.strApt = match.group(1);
+     String sPrefix = match.group(1);
+     if (!sPrefix.startsWith("FL")) sPrefix = "";
+     data.strApt = append(sPrefix, " ", match.group(2));
      addressLine = addressLine.substring(0,match.start()).trim();
    }
 
@@ -725,7 +727,7 @@ public abstract class MsgParser {
   * @param str2 second string
   * @return appended string
   */
- protected String append(String str1, String connector, String str2) {
+ protected static String append(String str1, String connector, String str2) {
    if (str1.length() == 0) return str2;
    if (str2.length() == 0) return str1;
    return str1 + connector + str2;
