@@ -93,7 +93,19 @@ public class ZAUNewSouthWalesParserTest extends BaseParserTest {
         "CITY:NORTHWOOD",
         "PHONE:0419999 999",
         "CALL:LARGE TREE DOWN");
-    
+
+    doTest("T9",
+        "SNRWLC, RFA 9400-20, MICHAEL FARBENBLUM, 62 TAMBOURINE BAY RD LANE COVE, 0419 257 816, FLOODING. CALL 0242516111 10/06 16:02:51",
+        "UNIT:SNRWLC",
+        "ID:RFA 9400-20",
+        "NAME:MICHAEL FARBENBLUM",
+        "ADDR:62 TAMBOURINE BAY RD",
+        "CITY:LANE COVE",
+        "PHONE:0419 257 816",
+        "CALL:FLOODING",
+        "DATE:10/06",
+        "TIME:16:02:51");
+   
   }
   
   public static void main(String[] args) {
