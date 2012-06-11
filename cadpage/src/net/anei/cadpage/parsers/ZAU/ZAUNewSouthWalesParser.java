@@ -19,10 +19,13 @@ SNRWLC, RFA 9045-41, Firstname Surname, 13B FRY ST, CHATSWOOD, 0477 415 999, LEA
 SNRWLC, RFA 8902-70, Firstname Surname, 5 EMERSTAN DRIVE, CASTLE COVE, 9417 999, SUBSIDENCE- RETAINING WALL. CALL 0242516111
 SNRWLC, RFA 8835-101, Firstname Surname, 137 RIVER RD, NORTHWOOD, 0419999 999, LARGE TREE DOWN. CALL 0242516111
 
+SNRWLC, RFA 9400-20, MICHAEL FARBENBLUM, 62 TAMBOURINE BAY RD LANE COVE, 0419 257 816, FLOODING. CALL 0242516111 10/06 16:02:51
+
+
 */
 public class ZAUNewSouthWalesParser extends FieldProgramParser {
   
-  private static final Pattern CALLBACK_PTN = Pattern.compile("\\.* *CALL \\d{10}$");
+  private static final Pattern CALLBACK_PTN = Pattern.compile("\\.* *CALL \\d{10}(?: (\\d\\d/\\d\\d) (\\d\\d:\\d\\d:\\d\\d))?$");
 
   public ZAUNewSouthWalesParser() {
     super(CITY_LIST, "", "NSW", CountryCode.AU,
@@ -38,8 +41,15 @@ public class ZAUNewSouthWalesParser extends FieldProgramParser {
   protected boolean parseMsg(String body, Data data) {
     Matcher match = CALLBACK_PTN.matcher(body);
     if (!match.find()) return false;
+    data.strDate = getOptGroup(match.group(1));
+    data.strTime = getOptGroup(match.group(2));
     body = body.substring(0,match.start()).trim();
     return parseFields(body.split(","), 6, data);
+  }
+  
+  @Override
+  public String getProgram() {
+    return super.getProgram() + " DATE TIME";
   }
   
   private class MyInfoField extends InfoField {
