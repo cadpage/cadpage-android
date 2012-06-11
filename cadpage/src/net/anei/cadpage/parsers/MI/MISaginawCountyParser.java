@@ -38,7 +38,7 @@ public class MISaginawCountyParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "emergin@saginawcounty.com";
+    return "emergin@saginawcounty.com,27538";
   }
 
   @Override
