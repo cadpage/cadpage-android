@@ -54,7 +54,9 @@ From: _IPAGE@westchestergov.com
 public class NYWestchesterCountyParser extends FieldProgramParser {
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "BANKS", "BANKSVILLE,CT",
       "CHAPQ", "CHAPPAQUA",
+      "GNWCH", "GREENWICH,CT",
       "LARCH", "LARCHMONT",
       "MAMTW", "MAMARONECK",
       "MILLW", "MILLWOOD",
@@ -93,7 +95,17 @@ public class NYWestchesterCountyParser extends FieldProgramParser {
     } while (false);
     
     body = body.replace(" Area:", ",Area:");
-    return parseFields(body.split(","), data);
+    if (!parseFields(body.split(","), data)) return false;
+    int pt = data.strCity.indexOf(',');
+    if (pt >= 0) {
+      data.strState = data.strCity.substring(pt+1).trim();
+      data.strCity = data.strCity.substring(0,pt).trim();
+    }
+    if (data.strCity.equals("BANKSVILLE")) {
+      data.strPlace = append(data.strPlace, " - ", data.strCity);
+      data.strCity = "GREENWICH";
+    }
+    return true;
   }
 
   private class MyAddressField extends AddressField {
@@ -118,7 +130,7 @@ public class NYWestchesterCountyParser extends FieldProgramParser {
 
     @Override
     public String getFieldNames() {
-      return "ADDR CITY PLACE APT";
+      return "ADDR CITY ST PLACE APT";
     }
   }
 
