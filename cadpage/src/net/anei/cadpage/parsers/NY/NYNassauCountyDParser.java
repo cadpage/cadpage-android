@@ -44,6 +44,14 @@ Sender: paging@wantaghfd.xohost.com
 Contact: "Zachary Goldfarb" <zach@imscommand.com>
 Sender: eastmeadowfd@gmail.com
 68 - F/F Family ***Rescue Call*** 1964 LINCOLN AVE CS: DEVON ST  / VILLAGE DR TOA: 15:25 06/09/12 'SIGNAL 68 - MEMBERS HOUSE - LADDER ONE
+***Rescue Call*** 1964 LINCOLN AVE CS: DEVON ST  / VILLAGE DR TOA: 15:25 06/09/12 'SIGNAL 68 - MEMBERS HOUSE - LADDER ONE'
+68 - F/F Family ***Rescue Call*** 170 MAPLE AVE CS: FRONT ST  / DANNET PL TOA: 22:07 06/08/12
+68 - F/F Family ***Rescue Call*** 197 E MEADOW AVE CS: FRONT ST  / FAIRHAVEN RD TOA: 08:27 06/07/12 ONE PERSON ALWAYS IN THE BUILDING 24 
+***Rescue Call*** 197 E MEADOW AVE CS: FRONT ST  / FAIRHAVEN RD TOA: 08:27 06/07/12 ONE PERSON ALWAYS IN THE BUILDING 24 HOURS A DAY
+***Rescue Call*** 2354 7TH ST CS: PROSPECT AVE  / DEWOLFE PL TOA: 15:46 06/06/12
+***Auto Accident*** NEWBRIDGE RD CS: 7TH AVE TOA: 19:06 06/03/12
+***Auto Accident*** 123 MERRICK AVE CS: LLOYD CT  / PETERS GATE TOA: 15:20 06/03/12 ** DANGEROUS ROOF CONSTRUCTION - COMPOSITE 'TECTUM' R
+***Rescue Call*** 38 MORRIS DR CS: RONNI DR  / SUSAN CT TOA: 12:07 06/01/12
 
 */
 
@@ -67,11 +75,11 @@ public class NYNassauCountyDParser extends FieldProgramParser {
     }
     
     // Call description is in front of text bracketed by three asterisks
-    if (!body.startsWith("***")) return false;
-    int pt1 = 3;
-    int pt2 = body.indexOf("*** ", pt1);
+    int pt1 = body.indexOf("***");
+    if (pt1 < 0) return false;
+    int pt2 = body.indexOf("*** ", pt1+2);
     if (pt2 < 0) return false;
-    data.strCall = body.substring(pt1, pt2).trim();
+    data.strCall = append(body.substring(0,pt1).trim(), " / ", body.substring(pt1+3, pt2).trim());
     
     body = body.substring(pt2+4).trim();
     return super.parseMsg(body, data);
@@ -81,8 +89,10 @@ public class NYNassauCountyDParser extends FieldProgramParser {
     
     @Override
     public void parse(String field, Data data) {
-      if (field.length() < 14) return;
-      field = field.substring(14).trim();
+      Parser p = new Parser(field);
+      data.strTime = p.get(' ');
+      data.strDate = p.get(' ').replace('-', '/');
+      field = p.get();
       
       Matcher match = ID_PTN2.matcher(field);
       if (match.find()) {
@@ -91,6 +101,11 @@ public class NYNassauCountyDParser extends FieldProgramParser {
         field = field.trim().replaceAll("  +", " ");
       }
       super.parse(field, data);
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "X DATE TIME INFO ID";
     }
   }
   
