@@ -44,7 +44,7 @@ public class NJBurlingtonCountyDParserTest extends BaseParserTest {
         "ID:03131",
         "CALL:16 F Alarms",
         "MAP:1340",
-        "ADDR:1570 E RT38",  // not mapping correctly
+        "ADDR:1570 E RT38",
         "MADDR:1570 E RT 38",
         "X:MT HOLLY BP/MAIN ST",
         "INFO:FIRE ALARM//BASEMENT SMOKE DET");
@@ -325,7 +325,7 @@ public class NJBurlingtonCountyDParserTest extends BaseParserTest {
 
         "TIME:20:55:02",
         "ID:2012-00000543",
-        "CALL:133 E TrfcEntp",  // What is this????
+        "CALL:133 E TrfcEntp",
         "X:NEW FREEDOM RD/HILLIARDS BRIDG",
         "INFO:CALLER REPORTING VEH ON TOP OF",
         "ADDR:335 RED LION RD");
