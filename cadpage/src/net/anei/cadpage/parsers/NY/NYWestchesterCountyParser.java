@@ -54,7 +54,7 @@ From: _IPAGE@westchestergov.com
 public class NYWestchesterCountyParser extends FieldProgramParser {
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
-      "BANKS", "BANKSVILLE,CT",
+      "BANKS", "BANKSVILLE",
       "CHAPQ", "CHAPPAQUA",
       "GNWCH", "GREENWICH,CT",
       "LARCH", "LARCHMONT",
