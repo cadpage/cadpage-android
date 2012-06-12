@@ -6,6 +6,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 /*
 Hanover, NH (in Grafton County)
 Contact: "Daniel A. Perry (Student)" <DAP634@students.jwu.edu>
+Contact: Zachary Lang <zacharymichaellang@gmail.com>,8024613731@vtext.com
 Sender: DISPATCH@HANOVER.PD
 
 (_) MEDU 72 Y M FALLEN\nHUNTINGTON APARTMENTS\n493 S MAIN ST \nBRADFORD\n2/9/2012 18:54
@@ -29,14 +30,16 @@ Sender: DISPATCH@HANOVER.PD
 [_]  MEDU - 87 F LOW O2 LEVELS\nGILBERT RESD - FARMERS EXCHG BLDG\n245 S MAIN ST APT 2\nBRADFORD\n2/6/2012 16:53
 (_)  MEDU 72 Y M FALLEN\nHUNTINGTON APARTMENTS\n493 S MAIN ST\nBRADFORD\n2/9/2012 18:54
 
+(_) MUTUAL AID FIRE/AMB CALL\nHAVERHILL CORNER STATION\nHAVERHILL\nWITH ENGINE AND TANKER FOR COVERAGE\n6/10/2012 17:05
+
 */
 
 
 public class NHHanoverParser extends FieldProgramParser {
   
   public NHHanoverParser() {
-    super("HANOVER","NH",
-           "CALL PLACE? ADDR/Z CITY/Z DATETIME/Z END");
+    super(CITY_LIST, "HANOVER","NH",
+           "CALL PLACE? ADDR/Z CITY! INFO? DATETIME/Z! END");
   }
   
   @Override
@@ -48,8 +51,10 @@ public class NHHanoverParser extends FieldProgramParser {
   protected boolean parseMsg(String subject, String body, Data data) {
     if (!subject.equals("_")) return false;
     String[] flds = body.split("\n");
-    if (flds.length != 4 && flds.length != 5) return false;
-    return parseFields(flds, data);
+    if (flds.length < 4 || flds.length > 6) return false;
+    if (!parseFields(flds, data)) return false;
+    if (data.strCity.equals("BRADFORD")) data.defState = "VT";
+    return true;
   }
   
   @Override
@@ -57,4 +62,10 @@ public class NHHanoverParser extends FieldProgramParser {
     if (name.equals("DATETIME")) return new DateTimeField("\\d{1,2}/\\d{1,2}/\\d{4} \\d\\d:\\d\\d", true);
     return super.getField(name);
   }
+  
+  private static final String[] CITY_LIST = new String[]{
+    "BRADFORD",
+    "HANOVER",
+    "HAVERHILL"
+  };
 }
