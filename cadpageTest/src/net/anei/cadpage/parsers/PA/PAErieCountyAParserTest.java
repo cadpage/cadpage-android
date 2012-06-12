@@ -359,6 +359,22 @@ public class PAErieCountyAParserTest extends BaseParserTest {
         "ID:2012-0000044276");
  }
   
+  @Test
+  public void test() {
+
+    doTest("T1",
+        "FRM:messaging@iamresponding.com\n" +
+        "SUBJ:West Ridge Fire\n" +
+        "MSG:69C >STRUCTURE FIRE CHARLEY RESPONS 705 POTOMAC AVE XS: W LAKE RD MILLCREEK TWP\r\n",
+
+        "SRC:West Ridge Fire",
+        "CALL:STRUCTURE FIRE CHARLEY RESPONS",
+        "ADDR:705 POTOMAC AVE",
+        "CITY:MILLCREEK TWP",
+        "X:W LAKE RD");
+
+  }
+  
   public static void main(String[] args) {
     new PAErieCountyAParserTest().generateTests("T1", "SRC CALL ADDR CITY X NAME MAP PLACE ID INFO");
   }
