@@ -59,6 +59,10 @@ Contact: "kmccaslin1@verizon.net" <kmccaslin1@verizon.net>
 Sender: 8144409141
 ERIE911:28C2L >STROKE-ABNORMAL BREATH <2HRS 835 LINDEN AVE XS: W LAKE RD MILLCREEK TWP Map:9769 Grids:, Cad: 2012-0000044276
 
+Contact: Matt Exley <mexley46@gmail.com>
+Sender: messaging@iamresponding.com
+FRM:messaging@iamresponding.com\nSUBJ:West Ridge Fire\nMSG:69C >STRUCTURE FIRE CHARLEY RESPONS 705 POTOMAC AVE XS: W LAKE RD MILLCREEK TWP\r\n
+
 */
 
 public class PAErieCountyAParser extends DispatchBParser {
