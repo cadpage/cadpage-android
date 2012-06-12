@@ -1438,7 +1438,7 @@ public class FieldProgramParser extends SmartAddressParser {
   /**
    * Address field processor
    */
-  private static final Pattern SLOPPY_ADDR_PTN = Pattern.compile("\\d+ .*|.*[/&].*");
+  private static final Pattern SLOPPY_ADDR_PTN = Pattern.compile("\\d.*|.*[/&].*");
   public class AddressField extends Field {
     
     private boolean incCity = false;

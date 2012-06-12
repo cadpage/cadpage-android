@@ -1,6 +1,8 @@
 package net.anei.cadpage.parsers.TX;
 
+import java.util.HashSet;
 import java.util.Properties;
+import java.util.Set;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.MsgInfo.Data;
@@ -33,29 +35,18 @@ CAD:TRAFFIC TRANSPORT INCIDENT;MEADOWVIEW DR/FORESTWOOD DR;CORI;[LAW] UDTS: {314
 
 CAD:110137609;238 STRAIT LN;HILLTOP LN;HICKORY CREEK;LCFD;FIRE STRUCTURE
 CAD:110138525;08/05/2011 17:00:12;FIRE VEHICLE;ORR NISSAN;5650 I35 E;LCFD;brake on fire - sees flame [08/05/11 17:01:04 TPRICE]
-
 CAD:FYI: ;120027784;02/12/2012 23:49:22;TRAFFIC TRANSPORT INCIDENT;458MM I 35 E;LCFD;[Medical Priority Info] RESPONSE: Bravo RESPONDER SCRIPT: Unknown status/O
 CAD:FYI: ;120027776;02/12/2012 23:38:48;FIRE STRUCTURE;1402 CHEYENNE RD;LARAMIE DR;LVFD;2 ALARM [02/12/12 23:41:25 MELLIS] OPS CHANNEL 4 [02/12/12 23:40:31 MEL
 CAD:FYI: ;120027767;02/12/2012 23:05:32;BREATHING PROBLEMS;1652 KNOLL RIDGE CIR;SHADOW CREST DR;LCFD;[Medical Priority Info] RESPONSE: Delta RESPONDER SCRIPT:
-
 CAD:FYI: ;120112563;06/11/2012 08:33:17;HEAT COLD EXPOSURE;201-147 N SHADY SHORES RD;LAKE DALLAS;E OVERLY DR;LCFD;[Medical Priority Info] P
 
  */
 
 public class TXDentonCountyParser extends DispatchOSSIParser {
   
-  private static final Properties CITY_CODES = buildCodeTable(new String[]{
-      "CORI", "CORINTH",
-      "LAKE", "LAKE DALLAS",
-      "LVFD", "LEWISVILLE",
-      "HICK", "HICKORY CREEK",
-      "SHAD", "SHADY SHORES",
-      "LCFD", ""
-  });
-  
   public TXDentonCountyParser() {
     super(CITY_CODES, "DENTON COUNTY", "TX",
-          "FYI? ( ID ( DATIME CALL ( ADDR/Z CITY | NAME ADDR CITY ) INFO+ | ADDR X X CITY CALL ) | CALL ADDR CITY INFO+ )");
+          "FYI? ( ID ( DATIME CALL NAME? ADDR/s X/Z+? CITY INFO+ | ADDR X X CITY CALL ) | CALL ADDR CITY INFO+ )");
   }
   
   @Override
@@ -83,6 +74,14 @@ public class TXDentonCountyParser extends DispatchOSSIParser {
     }
   }
   
+  private class MyCrossField extends CrossField {
+    @Override
+    public void parse(String field, Data data) {
+      if (CITY_SET.contains(field.toUpperCase())) data.strCity = field;
+      else data.strCross = field;
+    }
+  }
+  
   private static final Pattern CITY_PTN = Pattern.compile("[A-Z]{4}");
   private class MyCityField extends CityField {
     @Override
@@ -96,6 +95,12 @@ public class TXDentonCountyParser extends DispatchOSSIParser {
       parse(field, data);
       return true;
     }
+    
+    @Override
+    public void parse(String field, Data data) {
+      if (data.strCity.length() > 0) return;
+      super.parse(field, data);
+    }
   }
   
   @Override
@@ -103,7 +108,25 @@ public class TXDentonCountyParser extends DispatchOSSIParser {
     if (name.equals("ID")) return new MyIdField();
     if (name.equals("DATIME")) return new DateTimeField("\\d\\d/\\d\\d/\\d{4} \\d\\d:\\d\\d:\\d\\d");
     if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("X")) return new MyCrossField();
     if (name.equals("CITY")) return new MyCityField();
     return super.getField(name);
+  }
+  
+  private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "CORI", "CORINTH",
+      "LAKE", "LAKE DALLAS",
+      "LVFD", "LEWISVILLE",
+      "HICK", "HICKORY CREEK",
+      "SHAD", "SHADY SHORES",
+      "LCFD", ""
+  });
+  
+  private static final Set<String> CITY_SET = new HashSet<String>();
+  static {
+    for (Object obj : CITY_CODES.values()) {
+      String city = (String)obj;
+      if (city.length() > 0) CITY_SET.add(city);
+    }
   }
 }
