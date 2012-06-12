@@ -4980,6 +4980,13 @@ Sender: 27538
 System: NXT
 LOC:S PORTSMOUTH RD / KING RD DESC:LAT: <43.384720>  LONG: <-83.837678> APT: TYP:*M*PDA PIN IN JUST OCCU
 **********************************************************
+Bradford, VT
+Contact: Zachary Lang <zacharymichaellang@gmail.com>,8024613731@vtext.com
+(_) MUTUAL AID FIRE/AMB CALL
+HAVERHILL CORNER STATION
+HAVERHILL
+WITH ENGINE AND TANKER FOR COVERAGE
+6/10/2012 17:05
 **********************************************************
 **********************************************************
 **********************************************************

@@ -58,6 +58,7 @@ All of the above are in the process of being phased out and may be droppped  New
 Contact: support@active911.com
 Agency name: Hollywood Park FD Location: San Antonio, TX
 Final status unknown 
+*** These are not currently supported ***
 07:37 - Med - Sick Person              - 206 Donella Dr                           -           -Case - HPK-2012-000000230   - 69 YO F FELL AND CANT GET UP[Shared],Multi-Agency BCLE Incident #: HPPD-2012-0138384,Automatic Case Number(s) issued for Hollywood Park FD: HPK-2012-000000230. [Shared],
 07:42 - Assist - Law Enforcement       - Sun Way Dr / El Cerrito Cir              -           -Case - HPK-2012-000000231   - 9217s  thousand oaks/us hwy 281 egg and i restaraunt[Shared],9217s  looking around us hwy 281/mecca. person said heading towards 1604 bleeding from head[Shared],SUBJ STATED HE STARTED A NEW MEDS AND HE IS TRYING TO FIND HIS PARENTS HOUSE[Shared],W/M/DK HAIR/SHIRT BLK/SHORT RED/SANDLES. COMP STATES THAT THE SUBJ CAME UP TO HER AND STATED HE LOST HIS GLASSES AND IS CONFUSED. WALKING TOWARDS US HWY 281[Shared
 17:26 - Assist - Lift                  - 339 Donella Dr                           -           -Case - HPK-2012-000000229   - 98 yo female...lift assist only[Shared],Multi-Agency BCLE Incident #: HPPD-2012-0137362,Automatic Case Number(s) issued for Hollywood Park FD: HPK-2012-000000229. [Shared],
@@ -112,12 +113,12 @@ MED - TOX INGEST - INTENTIONAL ; 1234 Wilder Pond                              ;
 Med - Fall           - 8502 GLEN BREEZE               - 553F8 Dept-108B - ACADIAN: Unit:    731         10041536,Transferred incident: Remote   Reference Number: 20120603-ZN16-1180 by Stinson, Nathaniel T. From ACADIAN,Interface has sent an ack message for CAM-2012-0013763 to the remote CAD,10041536,This incident 20120603-ZN16-1180 has been sent to BCFA via the CAD2CAD Interface.,Unit - 731, status change to STATUS_RESPONDING by ACADIAN at 06/03/2012 23:07:18,ACADIAN HAS CHANGED
 Fire-Authorized Burn      - 24440 Loma Verde          - RED GATE DR/TOPALA DR                    - 783B3  Dept-138B - unk what is burning[Shared],C says she sees smoke coming from her neighbors yard.  Unk address.[Shared],Invalid address received:220  VERIZON-E SECTOR-QF 783A4.[Shared],Multi-Agency BCLE Incident #: BCSO-2012-0142874,Automatic Case Number(s) issued for Sandy Oaks FD: SOAK-2012-000000498. [Shared],
 
-
 */
 
 public class TXBexarCountyParser extends FieldProgramParser {
   
   private static final String MAP_PATTERN = "(?:\\d{3}[A-Z]\\d|SA\\d{3}(?:/[A-Z]\\d?)?)";
+  private static final Pattern SEMI_DELIM = Pattern.compile("(?<= ) *; ");
   private static final Pattern DASH_DELIM_PTN = Pattern.compile(" +- ");
   private static final Pattern PROTECT_KEYWORD = Pattern.compile("(?<=:)  +(?=[^ ])");
   private static final Pattern BLANK_DELIM_PTN = Pattern.compile(" {4,}");
@@ -126,7 +127,7 @@ public class TXBexarCountyParser extends FieldProgramParser {
   
   public TXBexarCountyParser() {
     super("BEXAR COUNTY", "TX",
-          "( T1 DATETIME? CALL ( ADDR/Z MAP | CALL ADDR/Z APT/Z MAP | ADDR/Z APT MAP | CALL ADDR/Z MAP ) ID? | T2 DATETIME? ADDR CALL CALL? CODE ID | T3 X MAP ID ) INFO+");
+          "DATETIME? CALL ( ADDR/Z MAP | CALL ADDR/Z APT/Z MAP | ADDR/Z APT MAP | CALL ADDR/Z MAP ) ID? INFO+");
   }
   
   public String getFilter() {
@@ -136,45 +137,27 @@ public class TXBexarCountyParser extends FieldProgramParser {
   @Override
   protected boolean parseMsg(String body, Data data) {
     
-    // All kinds of wierd special cases
+    // New main format is semicolon delimted.  So let's give that a try
+    body = body.replace(" ;Apt", " ; Apt");
+    String flds[] = SEMI_DELIM.split(body);
     
-    // One uncommon variant uses an @ at a fixed place marking the call from the address
-    if (body.length() < 43) return false;
-    if (body.charAt(42) == '@') {
-      data.strCall = body.substring(0,41).trim();
-      body = body.substring(43).trim();
-      int pt = body.indexOf("Cross-");
+    // If we don't get enough fields, fall back to using the old ugly logic
+    if (flds.length < 5) {
+      
+      // The main format is usually dash delimited, but occasionally drops the dashes in favor on
+      // long strings of blanks, which we will turn in regular dash delimiters
+      // And then, they occasionally leave a single space delimiter after the Map field
+      body = DASH_DELIM_PTN.matcher(body).replaceAll(" - ");
+      body = PROTECT_KEYWORD.matcher(body).replaceAll(" ");
+      body = BLANK_DELIM_PTN.matcher(body).replaceAll(" - ");
+      body = MAP_BLANK_DELIM_PTN.matcher(body).replaceFirst("$0 - ");
+      
+      int pt = body.lastIndexOf(" - ");
       if (pt < 0) return false;
-      String sAddr = body.substring(0,pt).trim();
-      body = body.substring(pt+6).trim();
-      pt = sAddr.indexOf(';');
-      if (pt >= 0) sAddr = sAddr.substring(0,pt).trim();
-      parseAddress(sAddr, data);
-      body = "T3;" + body;
-      return parseFields(body.split(";"), data);
+      body = SHORT_BLANK_DELIM_PTN.matcher(body.substring(0,pt)).replaceAll(" - ") + body.substring(pt);
+      flds = body.split(" - ");
     }
-    
-    String prefix = "T1";
-    int pt = body.indexOf(":Rspnd for:");
-    if (pt >= 0) {
-      prefix = "T2";
-      body = body.substring(0,pt) + body.substring(pt+11);
-    }
-    
-    // The main format is usually dash delimited, but occasionally drops the dashes in favor on
-    // long strings of blanks, which we will turn in regular dash delimiters
-    // And then, they occasionally leave a single space delimiter after the Map field
-    body = DASH_DELIM_PTN.matcher(body).replaceAll(" - ");
-    body = PROTECT_KEYWORD.matcher(body).replaceAll(" ");
-    body = BLANK_DELIM_PTN.matcher(body).replaceAll(" - ");
-    body = MAP_BLANK_DELIM_PTN.matcher(body).replaceFirst("$0- ");
-    
-    pt = body.lastIndexOf(" - ");
-    if (pt < 0) return false;
-    body = SHORT_BLANK_DELIM_PTN.matcher(body.substring(0,pt)).replaceAll(" - ") + body.substring(pt);
-    
-    body = prefix + " - " + body;
-    return parseFields(body.split(" - "), data);
+    return parseFields(flds, data);
   }
   
   private static final Pattern DATE_TIME_PTN = Pattern.compile("(\\d\\d/\\d\\d )?(\\d\\d:\\d\\d [ap]m)");
@@ -220,13 +203,33 @@ public class TXBexarCountyParser extends FieldProgramParser {
     
     @Override
     public boolean checkParse(String field, Data data) {
+      if (field.startsWith("Apt")) field = field.substring(3).trim();
       if (field.length() > 5) return false;
       parse(field, data);
       return true;
     }
   }
   
+  private static final Pattern ID_PTN = Pattern.compile("([A-Z]{3,4}-\\d{4}-\\d{6,})(?: +Dept[ -](.*))?");
+  private class MyIdField extends IdField {
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      Matcher match = ID_PTN.matcher(field);
+      if (!match.matches()) return false;
+      data.strCallId = match.group(1);
+      data.strUnit = getOptGroup(match.group(2));
+      return true;
+    }
+    
+    @Override
+    public void parse(String field, Data data) {
+      if (!checkParse(field, data)) abort();
+    }
+  }
+  
   // Info field tries to clean up some of the more useless information
+  private static final Pattern INFO_DEPT_PTN = Pattern.compile("^Dept[ -]([^ ]+?)(?: |$)");
   private static final Pattern ACADIAN_PTN = Pattern.compile("(?:\\bACADIAN:|\\[ProQA Script\\]) *");
   private static final Pattern SPEC_INFO_PTN = Pattern.compile("(?<=^|,) *Unit: *([^ ]+)\\b|" +                                // Unit:
                                                                   "(?<=^|,) *Dispatch code: *([^ ]+)\\b|" +                       // Dispatch code:
@@ -236,8 +239,13 @@ public class TXBexarCountyParser extends FieldProgramParser {
   private class MyInfoField extends InfoField {
     @Override
     public void parse(String field, Data data) {
+      Matcher match = INFO_DEPT_PTN.matcher(field);
+      if (match.find()) {
+        data.strUnit = append(data.strUnit, " ", match.group(1));
+        field = field.substring(match.end()).trim();
+      }
       field = ACADIAN_PTN.matcher(field).replaceAll("");
-      Matcher match = SPEC_INFO_PTN.matcher(field);
+      match = SPEC_INFO_PTN.matcher(field);
       StringBuffer sb = new StringBuffer();
       while (match.find()) {
         if (match.group(1) != null) {
@@ -271,7 +279,7 @@ public class TXBexarCountyParser extends FieldProgramParser {
     if (name.equals("ADDR")) return new MyAddressField();
     if (name.equals("APT")) return new MyAptField();
     if (name.equals("MAP")) return new MapField(MAP_PATTERN, true);
-    if (name.equals("ID")) return new IdField("[A-Z]{3,4}-\\d{4}-\\d{6,}");
+    if (name.equals("ID")) return new MyIdField();
     if (name.equals("INFO")) return new MyInfoField();
     return super.getField(name);
   }
