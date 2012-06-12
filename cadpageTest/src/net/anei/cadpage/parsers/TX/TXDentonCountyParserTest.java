@@ -187,7 +187,8 @@ public class TXDentonCountyParserTest extends BaseParserTest {
         "ID:110137609",
         "CALL:FIRE STRUCTURE",
         "ADDR:238 STRAIT LN",
-        "X:HILLTOP LN & HICKORY CREEK");
+        "X:HILLTOP LN",
+        "CITY:HICKORY CREEK");
 
     doTest("T2",
         "CAD:110138525;08/05/2011 17:00:12;FIRE VEHICLE;ORR NISSAN;5650 I35 E;LCFD;brake on fire - sees flame [08/05/11 17:01:04 TPRICE]",
@@ -215,8 +216,8 @@ public class TXDentonCountyParserTest extends BaseParserTest {
         "DATE:02/12/2012",
         "TIME:23:38:48",
         "CALL:FIRE STRUCTURE",
-        "NAME:1402 CHEYENNE RD",
-        "ADDR:LARAMIE DR",
+        "ADDR:1402 CHEYENNE RD",
+        "X:LARAMIE DR",
         "CITY:LEWISVILLE",
         "INFO:2 ALARM / OPS CHANNEL 4");
 
@@ -226,8 +227,8 @@ public class TXDentonCountyParserTest extends BaseParserTest {
         "DATE:02/12/2012",
         "TIME:23:05:32",
         "CALL:BREATHING PROBLEMS",
-        "NAME:1652 KNOLL RIDGE CIR",
-        "ADDR:SHADOW CREST DR");
+        "ADDR:1652 KNOLL RIDGE CIR",
+        "X:SHADOW CREST DR");
 
     doTest("T6",
         "CAD:FYI: ;120112563;06/11/2012 08:33:17;HEAT COLD EXPOSURE;201-147 N SHADY SHORES RD;LAKE DALLAS;E OVERLY DR;LCFD;[Medical Priority Info] P",
@@ -235,10 +236,10 @@ public class TXDentonCountyParserTest extends BaseParserTest {
         "DATE:06/11/2012",
         "TIME:08:33:17",
         "CALL:HEAT COLD EXPOSURE",
-        "ADDR:LAKE DALLAS",
-        "CITY:E OVERLY DR",
-        "NAME:201-147 N SHADY SHORES RD",
-        "INFO:LCFD");
+        "ADDR:201-147 N SHADY SHORES RD",
+        "MADDR:201 N SHADY SHORES RD",
+        "CITY:LAKE DALLAS",
+        "X:E OVERLY DR");
   }
   
   public static void main(String[] args) {
