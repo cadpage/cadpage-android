@@ -12,7 +12,9 @@ public class NHHanoverParserTest extends BaseParserTest {
   }
   
   @Test
-  public void testParser() {
+  public void testParserVT() {
+    
+    setDefaults("HANOVER", "VT");
 
     doTest("T1",
         "(_) MEDU 72 Y M FALLEN\nHUNTINGTON APARTMENTS\n493 S MAIN ST \nBRADFORD\n2/9/2012 18:54",
@@ -192,6 +194,20 @@ public class NHHanoverParserTest extends BaseParserTest {
         "CITY:BRADFORD",
         "DATE:2/9/2012",
         "TIME:18:54");
+    
+  }
+  
+  @Test
+  public void testParserNH() {
+
+    doTest("T1",
+        "(_) MUTUAL AID FIRE/AMB CALL\nHAVERHILL CORNER STATION\nHAVERHILL\nWITH ENGINE AND TANKER FOR COVERAGE\n6/10/2012 17:05",
+        "CALL:MUTUAL AID FIRE/AMB CALL",
+        "ADDR:HAVERHILL CORNER STATION",
+        "CITY:HAVERHILL",
+        "INFO:WITH ENGINE AND TANKER FOR COVERAGE",
+        "DATE:6/10/2012",
+        "TIME:17:05");
   }
 
   public static void main(String[] args) {

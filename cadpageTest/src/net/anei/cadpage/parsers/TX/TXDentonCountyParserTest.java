@@ -228,6 +228,17 @@ public class TXDentonCountyParserTest extends BaseParserTest {
         "CALL:BREATHING PROBLEMS",
         "NAME:1652 KNOLL RIDGE CIR",
         "ADDR:SHADOW CREST DR");
+
+    doTest("T6",
+        "CAD:FYI: ;120112563;06/11/2012 08:33:17;HEAT COLD EXPOSURE;201-147 N SHADY SHORES RD;LAKE DALLAS;E OVERLY DR;LCFD;[Medical Priority Info] P",
+        "ID:120112563",
+        "DATE:06/11/2012",
+        "TIME:08:33:17",
+        "CALL:HEAT COLD EXPOSURE",
+        "ADDR:LAKE DALLAS",
+        "CITY:E OVERLY DR",
+        "NAME:201-147 N SHADY SHORES RD",
+        "INFO:LCFD");
   }
   
   public static void main(String[] args) {
