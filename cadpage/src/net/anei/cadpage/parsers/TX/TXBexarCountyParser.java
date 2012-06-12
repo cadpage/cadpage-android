@@ -2,6 +2,9 @@ package net.anei.cadpage.parsers.TX;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -125,9 +128,15 @@ public class TXBexarCountyParser extends FieldProgramParser {
   private static final Pattern SHORT_BLANK_DELIM_PTN = Pattern.compile("(?<![ -])  +(?![ -])");
   private static final Pattern MAP_BLANK_DELIM_PTN = Pattern.compile(" " + MAP_PATTERN + " +(?=[^ -])");
   
+  private static final Set<String> CALL_PREFIX_SET = new HashSet<String>(Arrays.asList(new String[]{
+      "Alarm", "Assist", "Fire", "Med", "MED",
+  }));
+  
+  private boolean dashStyle;
+  
   public TXBexarCountyParser() {
     super("BEXAR COUNTY", "TX",
-          "DATETIME? CALL ( ADDR/Z MAP | CALL ADDR/Z APT/Z MAP | ADDR/Z APT MAP | CALL ADDR/Z MAP ) ID? INFO+");
+          "DATETIME? CALL CALL2? ADDR XAPT+? MAP ID? INFO+");
   }
   
   public String getFilter() {
@@ -142,7 +151,9 @@ public class TXBexarCountyParser extends FieldProgramParser {
     String flds[] = SEMI_DELIM.split(body);
     
     // If we don't get enough fields, fall back to using the old ugly logic
+    dashStyle = false;
     if (flds.length < 5) {
+      dashStyle = true;
       
       // The main format is usually dash delimited, but occasionally drops the dashes in favor on
       // long strings of blanks, which we will turn in regular dash delimiters
@@ -160,7 +171,7 @@ public class TXBexarCountyParser extends FieldProgramParser {
     return parseFields(flds, data);
   }
   
-  private static final Pattern DATE_TIME_PTN = Pattern.compile("(\\d\\d/\\d\\d )?(\\d\\d:\\d\\d [ap]m)");
+  private static final Pattern DATE_TIME_PTN = Pattern.compile("(\\d\\d/\\d\\d )?(\\d\\d:\\d\\d(?: [ap]m)?)");
   private static final DateFormat TIME_FMT = new SimpleDateFormat("KK:mm aa");
   private class MyDateTimeField extends DateTimeField {
     @Override
@@ -173,7 +184,12 @@ public class TXBexarCountyParser extends FieldProgramParser {
       Matcher match = DATE_TIME_PTN.matcher(field);
       if (!match.matches()) return false;
       data.strDate = getOptGroup(match.group(1));
-      setTime(TIME_FMT, match.group(2), data);
+      String time = match.group(2);
+      if (time.endsWith("m")) {
+        setTime(TIME_FMT, time, data);
+      } else {
+        data.strTime = time;
+      }
       return true;
     }
   }
@@ -182,20 +198,11 @@ public class TXBexarCountyParser extends FieldProgramParser {
     @Override
     public void parse(String field, Data data) {
       if (field.startsWith("*")) field = field.substring(1).trim();
-      data.strCall = append(data.strCall, " - ", field);
-    }
-  }
-  
-  private static final Pattern IH_PTN = Pattern.compile("\\bIh\\b", Pattern.CASE_INSENSITIVE);
-  private class MyAddressField extends AddressField {
-    @Override
-    public void parse(String field, Data data) {
-      field = IH_PTN.matcher(field).replaceAll("I");
       super.parse(field, data);
     }
   }
   
-  private class MyAptField extends AptField {
+  private class MyCall2Field extends CallField {
     @Override
     public boolean canFail() {
       return true;
@@ -203,10 +210,62 @@ public class TXBexarCountyParser extends FieldProgramParser {
     
     @Override
     public boolean checkParse(String field, Data data) {
-      if (field.startsWith("Apt")) field = field.substring(3).trim();
-      if (field.length() > 5) return false;
-      parse(field, data);
+
+      // The whole point it to correct for dashes in data field that got
+      // confused with field delimiters, if we aren't using dash field
+      // delimiters, there is no point
+      if (!dashStyle) return false;
+      
+      // A numeric field is assumed to be part of a street range that will
+      // be prepended to the address that is coming up next
+      if (NUMERIC.matcher(field).matches()) {
+        data.strAddress = field;
+        return true;
+      }
+      
+      // Otherwise see if the previous call description was one of the short keywords taht
+      // we expect to be followed by a second call description
+      // If it is, and this field doesn't start with zero, append it to the 
+      // previous call description
+      if (!CALL_PREFIX_SET.contains(data.strCall)) return false;
+      if (field.length() == 0) return false;
+      if (Character.isDigit(field.charAt(0))) return false;
+      
+      data.strCall = append(data.strCall, " - ", field);
       return true;
+    }
+  }
+  
+  private static final Pattern IH_PTN = Pattern.compile("\\bIh\\b", Pattern.CASE_INSENSITIVE);
+  private class MyAddressField extends AddressField {
+    @Override
+    public void parse(String field, Data data) {
+      String prefix = data.strAddress;
+      data.strAddress = "";
+      field = IH_PTN.matcher(field).replaceAll("I");
+      super.parse(field, data);
+      data.strAddress = append(prefix, "-", data.strAddress);
+    }
+  }
+  
+  private class MyCrossAptField extends Field {
+    
+    @Override
+    public void parse(String field, Data data) {
+      if (field.startsWith("Apt")) {
+        data.strApt = append(data.strApt, " - ", field.substring(3).trim());
+      } else if (field.startsWith("#")) {
+        data.strApt = append(data.strApt, " - ", field.substring(1).trim());
+      } else if (field.length() > 5) {
+        data.strCross = append(data.strCross, " & ", field);
+      } else {
+        data.strApt = append(data.strApt, " - ", field);
+      }
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "X APT";
     }
   }
   
@@ -276,8 +335,9 @@ public class TXBexarCountyParser extends FieldProgramParser {
     if (name.startsWith("T") && name.length()==2) return new SkipField(name, true);
     if (name.equals("DATETIME")) return new MyDateTimeField();
     if (name.equals("CALL")) return new MyCallField();
+    if (name.equals("CALL2")) return new MyCall2Field();
     if (name.equals("ADDR")) return new MyAddressField();
-    if (name.equals("APT")) return new MyAptField();
+    if (name.equals("XAPT")) return new MyCrossAptField();
     if (name.equals("MAP")) return new MapField(MAP_PATTERN, true);
     if (name.equals("ID")) return new MyIdField();
     if (name.equals("INFO")) return new MyInfoField();
