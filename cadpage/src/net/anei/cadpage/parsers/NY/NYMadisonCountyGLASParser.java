@@ -34,8 +34,8 @@ FRM:messaging@iamresponding.com\nSUBJ:Greater Lenox\nMSG:Chest Pain\n@THERMOLD &
 FRM:messaging@iamresponding.com\nSUBJ:Greater Lenox\nMSG:Traumatic Injuries\n@SCHOOL CANASTOTA ROBERTS ST JR SR HIGH SCHOOL (302 ROBERTS ST (CANASTOTA VILLAGE) )
 FRM:messaging@iamresponding.com\nSUBJ:Greater Lenox\nMSG:Psychiatric/Suicide Attempt\r\n403 S PETERBORO , CANASTOTA VILLAGE ( / RASBACH)
 FRM:messaging@iamresponding.com\nSUBJ:Greater Lenox\nMSG:Headache\r\n206 BROAD , ONEIDA CITY INSIDE ( WASHINGTON AV / LENOX AV)
-FRM:messaging@iamresponding.com\nSUBJ:Greater Lenox\nMSG:MVA - Unknown\r\nROUTE 31 \\ MORRIS RD (, LENOX)
-FRM:messaging@iamresponding.com\nSUBJ:Greater Lenox\nMSG:MVA - Personal Injury\r\nOXBOW RD \\ WHITMAN RD (, LINCOLN)
+FRM:messaging@iamresponding.com\nSUBJ:Greater Lenox\nMSG:MVA - Unknown\r\nROUTE 31 \ MORRIS RD (, LENOX)
+FRM:messaging@iamresponding.com\nSUBJ:Greater Lenox\nMSG:MVA - Personal Injury\r\nOXBOW RD \ WHITMAN RD (, LINCOLN)
 
 */
 

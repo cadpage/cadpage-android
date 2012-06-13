@@ -19,6 +19,9 @@ Chengango County, NY
 [911 EVENT]  CHEST PAIN|GREENE FAMILY MEDICINE|29 N CHENANGO ST  STA GREENE XS SCOTT  AV/ELM ST|NARR PROQA DETAIL:CHARLIE 10C04 CHEST PAIN| YOU ARE RESPONDING
 [911 EVENT]  HEMORRHAGE / LACERATION|NYS VETS HOME|4207 STATE HWY 220   STA OXFORD XS COUNTY RD 35 /COUNTY RD 32|NARR SPRUCE COTTAGE - 68YOM - NOSE BLEED - 21-
 [911 EVENT]  STRUCTURE FIRE/RESIDENTIAL||103 CURTIS COURT   STA SMITHVILLE XS ROUND POND  RD/***DEAD END***|NARR PERSON: (COMPLAINANT) (FMLS) VICKY CURTIS  NO
+[911 EVENT] MVA- UNKNOWN||  |STA NEW BERLIN XS STATE HWY 8 |NARR 1 CAR MVA OVER THE GARD RAIL UNKNOWN ON INJURIES BY THE OLD ROOSTER TAIL  1 MILE 1/2 SOUTH OF THE VILLAGE  PERSON: (COMPLAINANT) (FMLS) TERESA  HYZER  DARK COLORED CAR\n
+[911 EVENT] TRAUMATIC INJURIES (SPECIFIC)|UNADILLA VALLEY CENTRAL SCHOOL| 4238 STATE HWY 8,NEW BERLIN |STA NB/UVAC XS GOLF COURSE  RD/RAINBOW LN|NARR PROQA SUMMARY:BRAVO 30B01 FEMALE HIT IN THE FOREHEAD| 11 YEAR OLD, FEMALE, CONSCIOUS, BREATHING. TRAUMATIC INJURIES (SPECIFIC).\n
+[911 EVENT] UNCONSCIOUS/FAINTING (NEAR)|UNADILLA VALLEY CENTRAL SCHOOL| 4238 STATE HWY 8,NEW BERLIN |STA NB/UVAC XS GOLF COURSE  RD/RAINBOW LN|NARR PROQA SUMMARY:DELTA 31D03 UNRESPONSIVE| 45 YEAR OLD, FEMALE, CONSCIOUS, BREATHING. UNCONSCIOUS / FAINTING (NEAR).\n
 
 */
 
@@ -27,7 +30,7 @@ public class DispatchA2Parser extends FieldProgramParser {
     
     public DispatchA2Parser(String defCity, String defState) {
       super(defCity, defState,
-             "CALL PLACE ADDR SKIP INFO");
+             "CALL PLACE ADDR SRCX? TIME? INFO+");
     }
 
 	  @Override
@@ -38,34 +41,79 @@ public class DispatchA2Parser extends FieldProgramParser {
 	    int ipt = body.indexOf("\nDisclaimer:");
 	    if (ipt >= 0) body = body.substring(0,ipt).trim();
 	    
-	    return parseFields(body.split("\\|"), data);
+	    if (!parseFields(body.split("\\|"), data)) return false;
+	    if (data.strAddress.length() == 0) {
+	      parseAddress(data.strCross, data);
+	      data.strCross = "";
+	    }
+	    return true;
 	  }
 
-	  // Address field contains Address, Map code, and cross steet info
-	  private class MyAddressField extends AddressField {
+	  // Address field may contains Address, station, and cross steet info
+	  private class BaseAddressField extends AddressField {
 
       @Override
       public void parse(String field, Data data) {
-        Parser p = new Parser(" " + field + " ");
-        parseAddress(p.get(" STA "), data);
-        data.strSource = p.get(" XS ");
-        String strCross = p.get();
-        if (data.strAddress.length() == 0) {
-          parseAddress(strCross, data);
+        int pt = field.lastIndexOf(',');
+        if (pt >= 0) {
+          parseAddress(field.substring(0,pt).trim(), data);
+          data.strCity = field.substring(pt).trim();
         } else {
-          data.strCross = strCross;
+          Parser p = new Parser(" " + field + " ");
+          parseAddress(p.get(" STA "), data);
+          data.strSource = p.get(" XS ");
+          data.strCross = p.get();
         }
       }
 
       @Override
       public String getFieldNames() {
-        return super.getFieldNames() + " SRC MAP X";
+        return super.getFieldNames() + " SRC X CITY";
       }
+	  }
+	  
+	  private class BaseSourceCrossField extends Field {
+	    
+	    @Override
+	    public boolean canFail() {
+	      return true;
+	    }
+	    
+	    @Override
+	    public boolean checkParse(String field, Data data) {
+	      if (!field.startsWith("STA ")) return false;
+	      Parser p = new Parser(field.substring(4).trim() + " ");
+	      data.strSource =p.get(" XS ");
+	      data.strCross = p.get();
+	      return true;
+	    }
+
+      @Override
+      public void parse(String field, Data data) {
+        if (!checkParse(field, data)) abort();
+      }
+
+      @Override
+      public String getFieldNames() {
+        return "SRC X";
+      }
+	  }
+
+	  private class BaseInfoField extends InfoField {
+	    @Override
+	    public void parse(String field, Data data) {
+	      if (field.equals("NARR")) return;
+	      if (field.startsWith("NARR ")) field = field.substring(5).trim();
+	      super.parse(field, data);
+	    }
 	  }
 
     @Override
     protected Field getField(String name) {
-      if (name.equals("ADDR")) return new MyAddressField();
+      if (name.equals("ADDR")) return new BaseAddressField();
+      if (name.equals("SRCX")) return new BaseSourceCrossField();
+      if (name.equals("TIME")) return new TimeField("\\d\\d:\\d\\d");
+      if (name.equals("INFO")) return new BaseInfoField();
       return super.getField(name);
     }
 	  
