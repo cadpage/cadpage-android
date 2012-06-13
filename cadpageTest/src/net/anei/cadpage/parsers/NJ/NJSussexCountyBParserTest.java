@@ -94,6 +94,57 @@ public class NJSussexCountyBParserTest extends BaseParserTest {
         "UNIT:BTF03 BTFIRE");
   }
   
+  @Test
+  public void testParser2() {
+
+    doTest("T1",
+        "NWES\r\nMedical Emerg\r\nPAGED\r\n31 PATERSON AVE; APT 28\r\nNWES\r\nNWESPG\r\n9-1-1 CALLER REQ EMS FOR THE 2YOA HAVING A SEIZURE\r",
+        "SRC:NWES",
+        "CALL:Medical Emerg",
+        "ADDR:31 PATERSON AVE;",
+        "APT:28",
+        "UNIT:NWES NWESPG",
+        "INFO:9-1-1 CALLER REQ EMS FOR THE 2YOA HAVING A SEIZURE");
+
+    doTest("T2",
+        "NWES\r\nFire Alarm\r\nPAGED\r\n4 ACADEMY ST\r\nNWES\r\nNWESPG\r\nACTIVATED FIRE ALARM. MULTIPLE ZONE ACTIVATIONS",
+        "SRC:NWES",
+        "CALL:Fire Alarm",
+        "ADDR:4 ACADEMY ST",
+        "UNIT:NWES NWESPG",
+        "INFO:ACTIVATED FIRE ALARM. MULTIPLE ZONE ACTIVATIONS");
+
+    doTest("T3",
+        "NWES\r\nMedical Emerg\r\nPAGED\r\n39 TRINITY ST\r\nNWES\r\nNWESPG",
+        "SRC:NWES",
+        "CALL:Medical Emerg",
+        "ADDR:39 TRINITY ST",
+        "UNIT:NWES NWESPG");
+
+    doTest("T4",
+        "NWFD\r\nFire Alarm\r\nPAGED\r\n3 HIGH ST\r\nNWFD\r\nNWESPG\r\nSCSO REQUEST FD RESPOND FOR THE ACTIVATED FIRE ALARM.",
+        "SRC:NWFD",
+        "CALL:Fire Alarm",
+        "ADDR:3 HIGH ST",
+        "UNIT:NWFD NWESPG",
+        "INFO:SCSO REQUEST FD RESPOND FOR THE ACTIVATED FIRE ALARM.");
+
+    doTest("T5",
+        "NWES\r\nMedical Emerg\r\nPAGED\r\n7 E CLINTON ST\r\nNWES\r\nNWESPG",
+        "SRC:NWES",
+        "CALL:Medical Emerg",
+        "ADDR:7 E CLINTON ST",
+        "UNIT:NWES NWESPG");
+
+    doTest("T6",
+        "NWES\r\nMedical Emerg\r\nPAGED\r\n160 SPRING STREET\r\nNWES\r\nNWESPG",
+        "SRC:NWES",
+        "CALL:Medical Emerg",
+        "ADDR:160 SPRING STREET",
+        "UNIT:NWES NWESPG");
+
+  }
+  
   public static void main(String[] args) {
     new NJSussexCountyBParserTest().generateTests("T1");
   }
