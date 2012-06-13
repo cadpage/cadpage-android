@@ -4986,8 +4986,6 @@ Contact: "skearns80@yahoo.com" <skearns80@yahoo.com>
  BLAZING. 6/11/2012 5:32:08 PM : pos2 : SESTABROOK Cross streets: DEEPWOOD RD// BEDROOM ON FIRE.*:2of2
  * 1035 NEWFIELD AV* * * * * F ALARM* * JEWISH COMM CENTER* 203-322-7900* * * * * 05/29/2012 14:53:36 : pos4 : hkokinchak Landmark: JEWISH COMMUNITY CENTER Cross streets: VINE RD//CLUB RD USA CENT OP 33 800-422-2300 GENERAL FIRE*
  * 2700 BEDFORD ST* C* * * * 654 STRUCT* * * 203- -* * * * * 5/12/2012 10:11:52 PM : pos2 : SESTABROOK FIRE IN APT C. 5/12/2012 10:11:40 PM : pos2 : SESTABROOK FIRE IN APT C. 5/12/2012 10:10:50 PM : pos2 : SESTABROOK Cross streets: LOCUST LN//HIGH RIDGE RD 5/12/2012 10:10:16 PM : pos2 : SESTABROOK: Cross streets: LOCUST:
-
-**********************************************************
 **********************************************************
 **********************************************************
 **********************************************************
@@ -5182,4 +5180,5 @@ From: "PW-RSAN #2NS2" <_2NS2@rsan.pwcgov.org>
 (Working Incident Box 8170) Event Type: House Fire  \nInc. Address: 9318 Main Street  \nBox Number: 8170  \nRadio Channel: 5C  \nCommand:   \nComments: Units on the scene with with smoke showing from a single fmaily house\n\nSent by PW Alert to FSIGEVENT through Prince William County RSAN\n\n--\n\n- update your account at https://rsan1.rsan.pwcgov.org
 (Working Incident - MVA Extrication) Event Type: Auto Acc with extrication  \n Inc. Address: I-95 South 156.2 MM   \n Box Number: 2087  \n Radio Channel: 5C   \n Command: E512   \n Comments: Auto accident involving several vehicles and a Tanker Placard 1993, no active leaks. One pt. needing extrication.\n \n Sent by PW Alert to FSIGEVENT through Prince William County RSAN\n \n --\n \n - update your account at https://rsan1.rsan.pwcgov.org
 (Working Incident) Event Type: ACCX  \n Inc. Address: I95 SB 152MM  \n Box Number: 1087  \n Radio Channel: 5C  \n Command: 5D//BC507 (BAUM)  \n Comments: UNITS ON SCENE REPORTING 1 DOA//5 ALS//1 BLS//2 PT REFUSALS\n \n Sent by PW Alert to FSIGEVENT through Prince William County RSAN\n \n --\n \n - update your account at https://rsan1.rsan.pwcgov.org
+**********************************************************
 
