@@ -33,6 +33,11 @@ public class NJSussexCountyBParser extends FieldProgramParser {
     super("SUSSEX COUNTY", "NJ",
           "SRC CALL PAGED ADDR UNIT UNIT INFO+");
   }
+  
+  @Override
+  public String getFilter() {
+    return "paging@sussexcountysheriff.com";
+  }
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {

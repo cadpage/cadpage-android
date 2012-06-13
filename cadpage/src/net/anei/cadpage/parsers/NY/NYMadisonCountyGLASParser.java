@@ -35,6 +35,7 @@ FRM:messaging@iamresponding.com\nSUBJ:Greater Lenox\nMSG:Traumatic Injuries\n@SC
 FRM:messaging@iamresponding.com\nSUBJ:Greater Lenox\nMSG:Psychiatric/Suicide Attempt\r\n403 S PETERBORO , CANASTOTA VILLAGE ( / RASBACH)
 FRM:messaging@iamresponding.com\nSUBJ:Greater Lenox\nMSG:Headache\r\n206 BROAD , ONEIDA CITY INSIDE ( WASHINGTON AV / LENOX AV)
 FRM:messaging@iamresponding.com\nSUBJ:Greater Lenox\nMSG:MVA - Unknown\r\nROUTE 31 \\ MORRIS RD (, LENOX)
+FRM:messaging@iamresponding.com\nSUBJ:Greater Lenox\nMSG:MVA - Personal Injury\r\nOXBOW RD \\ WHITMAN RD (, LINCOLN)
 
 */
 
@@ -65,15 +66,15 @@ public class NYMadisonCountyGLASParser extends MsgParser {
     if (sPart1.startsWith("@")) {
      data.strPlace = sPart1.substring(1).trim(); 
      if (sPart2.length() > 0) {
-       parseAddress(sPart2.replace("\\\\", "&"), data);
+       parseAddress(sPart2.replace("\\", "&"), data);
        data.strCross = sPart3;
      } else {
        Parser p = new Parser(sPart3);
-       parseAddress(p.get('(').replace("\\\\", "&"), data);
+       parseAddress(p.get('(').replace("\\", "&"), data);
        data.strCity = p.get(')');
      }
     } else {
-      parseAddress(sPart1.replace("\\\\", "&"), data);
+      parseAddress(sPart1.replace("\\", "&"), data);
       data.strCity = sPart2;
       if (sPart3.startsWith("/")) sPart3 = sPart3.substring(1).trim();
       if (sPart3.startsWith(",")) {
