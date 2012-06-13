@@ -83,7 +83,7 @@ public class NYMadisonCountyGLASParserTest extends BaseParserTest {
     doTest("T10",
         "FRM:messaging@iamresponding.com\nSUBJ:Greater Lenox\nMSG:MVA - Unknown\nRAILROAD \\ DEPOT (, CANASTOTA VILLAGE)",
         "CALL:MVA - Unknown",
-        "ADDR:RAILROAD \\ DEPOT",
+        "ADDR:RAILROAD & DEPOT",
         "CITY:CANASTOTA VILLAGE");
 
     doTest("T11",
@@ -160,10 +160,16 @@ public class NYMadisonCountyGLASParserTest extends BaseParserTest {
         "X:WASHINGTON AV / LENOX AV");
 
     doTest("T20",
-        "FRM:messaging@iamresponding.com\nSUBJ:Greater Lenox\nMSG:MVA - Unknown\r\nROUTE 31 \\\\ MORRIS RD (, LENOX)",
+        "FRM:messaging@iamresponding.com\nSUBJ:Greater Lenox\nMSG:MVA - Unknown\r\nROUTE 31 \\ MORRIS RD (, LENOX)",
         "CALL:MVA - Unknown",
         "ADDR:ROUTE 31 & MORRIS RD",
         "CITY:LENOX");
+
+    doTest("T21",
+        "FRM:messaging@iamresponding.com\nSUBJ:Greater Lenox\nMSG:MVA - Personal Injury\r\nOXBOW RD \\ WHITMAN RD (, LINCOLN)",
+        "CALL:MVA - Personal Injury",
+        "ADDR:OXBOW RD & WHITMAN RD",
+        "CITY:LINCOLN");
 
   }
   
