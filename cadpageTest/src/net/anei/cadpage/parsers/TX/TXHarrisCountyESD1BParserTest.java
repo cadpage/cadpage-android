@@ -12,6 +12,26 @@ public class TXHarrisCountyESD1BParserTest extends BaseParserTest {
   }
   
   @Test
+  public void testRunReport() {
+
+    doTest("T11",
+        "ID#:11-08-29436 - UNIT:L32 - DISP: 21:06:25 - ER: - OUT: - TO: - AT: - AIR: 21:0",
+        "CALL:RUN REPORT",
+        "PLACE:ID#:11-08-29436 - UNIT:L32 - DISP: 21:06:25 - ER: - OUT: - TO: - AT: - AIR: 21:0");
+
+    doTest("T12",
+        "FRM:cadnoreply@proxy.hcec.com\nMSG:ID#:12-06-21170- UNIT:E13 - DISP: 11:19:11 - ER: - OUT: - AIR: 11:23:42",
+        "CALL:RUN REPORT",
+        "PLACE:ID#:12-06-21170- UNIT:E13 - DISP: 11:19:11 - ER: - OUT: - AIR: 11:23:42");
+
+    doTest("T13",
+        "FRM:cadnoreply@proxy.hcec.com\nMSG:ID#:12-06-21170- UNIT:BRU23 - DISP: 10:57:35 - ER: - OUT: - AIR: 11:23:56",
+        "CALL:RUN REPORT",
+        "PLACE:ID#:12-06-21170- UNIT:BRU23 - DISP: 10:57:35 - ER: - OUT: - AIR: 11:23:56");
+
+  }
+  
+  @Test
   public void testParser() {
 
     doTest("T1",
@@ -203,6 +223,25 @@ public class TXHarrisCountyESD1BParserTest extends BaseParserTest {
         "MAP:456D",
         "X:ARBOR FIELD LN/STONEFIELD MANO",
         "BOX:3304");
+  }
+  
+  @Test
+  public void testParser3() {
+
+    doTest("T1",
+        " 1 of 2\n" +
+        "FRM:cadnoreply@proxy.hcec.com\n" +
+        "MSG:ID#:12-06-21170 - 67D02 - 67D2 LG GRASS AND WO - US 90 / SHELDON US 90 RAMP - Apt: - Bldg: - Key Map:\n" +
+        "(Con't) 2 of 2\n" +
+        "458C - Cross Streets: - Box #:3304(End)",
+
+        "ID:12-06-21170",
+        "ADDR:US 90 & SHELDON US 90 RAMP",
+        "MAP:458C",
+        "CODE:67D02",
+        "CALL:67D2 LG GRASS AND WO",
+        "BOX:3304");
+
   }
   
   @Test
