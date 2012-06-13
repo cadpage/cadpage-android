@@ -9,6 +9,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 Harris County ESD #1, TX
 Contact: Nathan Mathews <nbmathews807@gmail.com>
 Contact: Richy Hancock <richy@huffmanfire.org>
+Contact: Ennio Ponte <EPonte@channelviewfire.com>
 Sender: cadnoreply@proxy.hcec.com
 Sender: 930010nn
 ID#:11-06-20685 - - TRASH FIRE - 111 Bayou Dr - Apt:C - Bldg: - Key Map: 498D - Cross Streets:EAST FWY/MARKET - Box #:2002
@@ -34,16 +35,21 @@ ID#:11-08-26080 - 13D01 - DIABETIC PROBLEMS - 10710 Green River Dr - Apt: - Bldg
 ID#:11-08-26159 - - Stab / GSW (B) - 919 Holbech - Apt: - Bldg: - Key Map: 497D
 ID#:11-08-26160 - - HEART PROBLEMS - 9402 Abbotshall Ln - Apt: - Bldg: - Key Map: 456D - Cross Streets:ARBOR FIELD LN/STONEFIELD MANO - Box #:3304
 
+ 1 of 2\nFRM:cadnoreply@proxy.hcec.com\nMSG:ID#:12-06-21170 - 67D02 - 67D2 LG GRASS AND WO - US 90 / SHELDON US 90 RAMP - Apt: - Bldg: - Key Map:\n(Con't) 2 of 2\n458C - Cross Streets: - Box #:3304(End)
+
 ID#:11-08-29410 - Address changed to:uvalde/kinsman - Cross Streets: - Key Map:NOT F
 ID#:11-08-26067 - Address changed to:620 SHELDON RD - Cross Streets:AVE C/RIDLON - Key Map:498B
 ID#:11-08-26080 - Address changed to:10710 Greens Crossing Blvd - Cross Streets
 
 ID#:11-08-29436 - UNIT:L32 - DISP: 21:06:25 - ER: - OUT: - TO: - AT: - AIR: 21:0
+FRM:cadnoreply@proxy.hcec.com\nMSG:ID#:12-06-21170- UNIT:E13 - DISP: 11:19:11 - ER: - OUT: - AIR: 11:23:42
+FRM:cadnoreply@proxy.hcec.com\nMSG:ID#:12-06-21170- UNIT:BRU23 - DISP: 10:57:35 - ER: - OUT: - AIR: 11:23:56
 
 */
 
 public class TXHarrisCountyESD1BParser extends FieldProgramParser {
   
+  private static final Pattern REPORT_PTN = Pattern.compile("^ID#:[^ ]+ *- *UNIT:[^ ]+ *- *DISP:");
   private static final Pattern DELIM = Pattern.compile(" *(?: -)+ *| *(?:- )+ *");
 
   public TXHarrisCountyESD1BParser() {
@@ -59,7 +65,17 @@ public class TXHarrisCountyESD1BParser extends FieldProgramParser {
   
   @Override
   public boolean parseMsg(String body, Data data) {
+    if (REPORT_PTN.matcher(body).find()) {
+      data.strCall = "RUN REPORT";
+      data.strPlace = body;
+      return true;
+    }
     return parseFields(DELIM.split(body), data);
+  }
+  
+  @Override
+  public String getProgram() {
+    return super.getProgram() + " PLACE";
   }
   
   // Address change field 
