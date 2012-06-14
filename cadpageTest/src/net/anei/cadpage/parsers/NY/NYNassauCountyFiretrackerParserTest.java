@@ -281,6 +281,26 @@ public class NYNassauCountyFiretrackerParserTest extends BaseParserTest {
 
   }
   
+  @Test
+  public void testTracyBodwin() {
+
+    doTest("T1",
+        "(FirePage) **RFD** CHIEF 2 [INVE] ALARM SOUNDING 68 DEBEVOISE AVE C/S:GILBERT PL /\r\nCHARLES ST TOA:02:26 [FireTracker]",
+        "SRC:RFD",
+        "CALL:CHIEF 2 [INVE] ALARM SOUNDING",
+        "ADDR:68 DEBEVOISE AVE",
+        "X:GILBERT PL / CHARLES ST");
+
+    doTest("T2",
+        "(FirePage) **RFD** AUTOACC [MVA] E/B E/O 21 SOUTHERN STATE PKWY E/B C/S:NASSAU ROAD\r\n/ EXIT 21 TOA:10:37 [FireTracker]",
+        "SRC:RFD",
+        "CALL:AUTOACC [MVA] E/B E/O",
+        "ADDR:21 SOUTHERN STATE PKWY E",
+        "PLACE:/ B",
+        "X:NASSAU ROAD / EXIT 21");
+
+  }
+  
   public static void main(String[] args) {
     new NYNassauCountyFiretrackerParserTest().generateTests("T1");
     //new NYNassauCountyFiretrackerParserTest().generateTests("T1", "SRC CALL ADDR X INFO");
