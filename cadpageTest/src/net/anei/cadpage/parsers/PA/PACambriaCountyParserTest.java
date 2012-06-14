@@ -134,6 +134,123 @@ public class PACambriaCountyParserTest extends BaseParserTest {
 
   }
   
+  @Test
+  public void testParser4() {
+
+    doTest("T1",
+        "DATE: 06/13/12\r\n" +
+        " | 13:21:53\r\n" +
+        " | 25B06V-BRAVO PSYCHIATRIC PROBLEM\r\n" +
+        " | 1109 DEVEAUX ST-WC\r\n" +
+        " | NUMBER 1 RD-WC FRAZIER ST-WC\r\n" +
+        " | Sta 64",
+
+        "DATE:06/13/12",
+        "TIME:13:21:53",
+        "CALL:25B06V-BRAVO PSYCHIATRIC PROBLEM",
+        "ADDR:1109 DEVEAUX ST",
+        "CITY:WEST CARROLL TWP",
+        "X:NUMBER 1 RD & FRAZIER ST",
+        "UNIT:Sta 64");
+
+    doTest("T2",
+        "DATE: 06/13/12\r\n | 13:08:24\r\n | 17A01G-ALPHA FALL\r\n | 180 WOOD AVE-CM\r\n | BELAIR ST-CM EDSEL ST\r\n | Sta 48",
+        "DATE:06/13/12",
+        "TIME:13:08:24",
+        "CALL:17A01G-ALPHA FALL",
+        "ADDR:180 WOOD AVE",
+        "CITY:CAMBRIA TWP",
+        "X:BELAIR ST & EDSEL ST",
+        "UNIT:Sta 48");
+
+    doTest("T3",
+        "DATE: 06/12/12\r\n | 20:34:38\r\n | SS-EMS STATION STILL\r\n | 100 N CAROLINE ST-EB\r\n | E HIGH ST-EB\r\n | Sta 48",
+        "DATE:06/12/12",
+        "TIME:20:34:38",
+        "CALL:SS-EMS STATION STILL",
+        "ADDR:100 N CAROLINE ST",
+        "CITY:EBENSBURG",
+        "X:E HIGH ST",
+        "UNIT:Sta 48");
+
+    doTest("T4",
+        "DATE: 06/12/12\r\n | 18:55:55\r\n | 26A01-ALPHA  SICK PERSON\r\n | 700 N CENTER ST-EB\r\n | BOLTON ST-EB W HIGHLAND AVE-EB\r\n | Sta 48",
+        "DATE:06/12/12",
+        "TIME:18:55:55",
+        "CALL:26A01-ALPHA  SICK PERSON",
+        "ADDR:700 N CENTER ST",
+        "CITY:EBENSBURG",
+        "X:BOLTON ST & W HIGHLAND AVE",
+        "UNIT:Sta 48");
+
+    doTest("T5",
+        "DATE: 06/12/12\r\n | 18:55:55\r\n | 26A01-ALPHA  SICK PERSON\r\n | 700 N CENTER ST-EB\r\n | BOLTON ST-EB W HIGHLAND AVE-EB\r\n | Sta 48",
+        "DATE:06/12/12",
+        "TIME:18:55:55",
+        "CALL:26A01-ALPHA  SICK PERSON",
+        "ADDR:700 N CENTER ST",
+        "CITY:EBENSBURG",
+        "X:BOLTON ST & W HIGHLAND AVE",
+        "UNIT:Sta 48");
+
+    doTest("T6",
+        "DATE: 06/12/12\r\n | 18:35:37\r\n | BLS-BLS EMS CALL\r\n | 121 UNION ST-CM\r\n | DEAD END TRIPOLI RD-CM\r\n | Sta 40, Sta 48",
+        "DATE:06/12/12",
+        "TIME:18:35:37",
+        "CALL:BLS-BLS EMS CALL",
+        "ADDR:121 UNION ST",
+        "CITY:CAMBRIA TWP",
+        "X:DEAD END TRIPOLI RD",
+        "UNIT:Sta 40, Sta 48");
+
+    doTest("T7",
+        "DATE: 06/12/12\r\n | 11:14:25\r\n | 10C01-CHARLIE CHEST PAIN\r\n | 1100 W HIGH ST-CM\r\n | MYERS ST-CM NEW GERMANY RD-CM\r\n | Sta 48",
+        "DATE:06/12/12",
+        "TIME:11:14:25",
+        "CALL:10C01-CHARLIE CHEST PAIN",
+        "ADDR:1100 W HIGH ST",
+        "CITY:CAMBRIA TWP",
+        "X:MYERS ST & NEW GERMANY RD",
+        "UNIT:Sta 48");
+
+    doTest("T8",
+        "DATE: 06/12/12\r\n" +
+        " | 09:56:39\r\n" +
+        " | 52C03S-CHARLIE SMOKE DETECTOR ALARM\r\n" +
+        " | 140 E CARROLL ST-CL\r\n" +
+        " | BEDE ST-CL N CHURCH ST-CL\r\n" +
+        " | Sta 5",
+
+        "DATE:06/12/12",
+        "TIME:09:56:39",
+        "CALL:52C03S-CHARLIE SMOKE DETECTOR ALARM",
+        "ADDR:140 E CARROLL ST",
+        "CITY:CARROLLTOWN",
+        "X:BEDE ST & N CHURCH ST",
+        "UNIT:Sta 5");
+
+    doTest("T9",
+        "DATE: 06/11/12\r\n | 23:56:26\r\n | 28C03L-CHARLIE STROKE\r\n | 429 MANOR DR-CM\r\n | WINDY VALLEY RD-CM\r\n | Sta 48",
+        "DATE:06/11/12",
+        "TIME:23:56:26",
+        "CALL:28C03L-CHARLIE STROKE",
+        "ADDR:429 MANOR DR",
+        "CITY:CAMBRIA TWP",
+        "X:WINDY VALLEY RD",
+        "UNIT:Sta 48");
+
+    doTest("T10",
+        "DATE: 06/13/12\r\n | 15:52:42\r\n | 18C05-CHARLIE  HEADACHE\r\n | 236 JAMESWAY RD-CM\r\n | WALMART DR-CM ADMIRAL PEARY HWY-CM\r\n | Sta 48",
+        "DATE:06/13/12",
+        "TIME:15:52:42",
+        "CALL:18C05-CHARLIE  HEADACHE",
+        "ADDR:236 JAMESWAY RD",
+        "CITY:CAMBRIA TWP",
+        "X:WALMART DR & ADMIRAL PEARY HWY",
+        "UNIT:Sta 48");
+
+  }
+  
   
   public static void main(String[] args) {
     new PACambriaCountyParserTest().generateTests("T1");
