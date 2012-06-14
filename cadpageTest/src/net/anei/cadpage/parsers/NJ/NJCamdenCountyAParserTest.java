@@ -242,6 +242,7 @@ public class NJCamdenCountyAParserTest extends BaseParserTest {
 
         "CALL:RUN REPORT",
         "PLACE:ROUTE 295 EXIT 28 ,18 18  \nMI#:120118005  \nDisp:02:38:48  \nEnr:  \nArr:  \nEnr Hosp:  \nArr Hosp:  \nClr:02:39:15  \nRES#:SD379",
+        "ID:120118005",
         "UNIT:SD379");
     
 
@@ -258,7 +259,24 @@ public class NJCamdenCountyAParserTest extends BaseParserTest {
 
         "CALL:RUN REPORT",
         "PLACE:294 ROUTE 295 ,04 04  \nMI#:120118005  \nDisp:02:39:15  \nEnr:02:41:47  \nArr:02:47:43  \nEnr Hosp:  \nArr Hosp:  \nClr:02:59:23  \nRES#:SD32",
+        "ID:120118005",
         "UNIT:SD32");
+
+    doTest("T3",
+        "[Free R32] ROUTE 295 EXIT 26 ,04 04  \n" +
+        "MI#:120140280  \n" +
+        "Disp:18:32:56  \n" +
+        "Enr:18:33:27  \n" +
+        "Arr:18:35:41  \n" +
+        "Enr Hosp:  \n" +
+        "Arr Hosp:  \n" +
+        "Clr:18:51:43  \n" +
+        "RES#:R32  \n",
+
+        "CALL:RUN REPORT",
+        "PLACE:ROUTE 295 EXIT 26 ,04 04  \nMI#:120140280  \nDisp:18:32:56  \nEnr:18:33:27  \nArr:18:35:41  \nEnr Hosp:  \nArr Hosp:  \nClr:18:51:43  \nRES#:R32",
+        "ID:120140280",
+        "UNIT:R32");
 
   }
   

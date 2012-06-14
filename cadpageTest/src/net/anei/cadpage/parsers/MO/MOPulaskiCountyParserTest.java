@@ -169,6 +169,26 @@ public class MOPulaskiCountyParserTest extends BaseParserTest {
         "DATE:6/10/2012",
         "TIME:09:21:29");
 
+    doTest("T5",
+        " 1 of 2\n" +
+        "FRM:911dispatch@embarqmail.com\n" +
+        "SUBJ:DO NOT REPLY\n" +
+        "MSG:MOTOR VEHICLE ACCIDENT WITH INJURY  101 DISCOVERY DR, Apt. UNIT WAYNESVILLE\n" +
+        "(Con't) 2 of 2\n" +
+        "CrossStreets: Lowe Av 0.02 mi N 707 WRFD1 Call Received Time: 6/13/2012 18:59:14 Dispatch: 6/13/2012 19:01:33\r\n" +
+        "\r\n" +
+        "\r\n" +
+        "\r\n" +
+        "(End)",
+
+        "CALL:MOTOR VEHICLE ACCIDENT WITH INJURY",
+        "ADDR:101 DISCOVERY DR",
+        "CITY:WAYNESVILLE",
+        "X:Lowe Av 0.02 mi N 707",
+        "UNIT:WRFD1",
+        "DATE:6/13/2012",
+        "TIME:19:01:33");
+
   }
   
   public static void main(String[] args) {
