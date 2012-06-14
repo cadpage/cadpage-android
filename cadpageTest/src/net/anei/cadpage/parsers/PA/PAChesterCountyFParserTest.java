@@ -26,7 +26,7 @@ public class PAChesterCountyFParserTest extends BaseParserTest {
         "(Dispatch) CARDIAC/RESP ARREST - ALS * ** 167 MOUNT PLEASANT RD ,69 ** ENOTT **  ** GRANT ST & COOPER LA ** - ** 48/F--LIPS BLUE\nDETAILS TO FOLLOW\n**",
         "CALL:CARDIAC/RESP ARREST - ALS",
         "ADDR:167 MOUNT PLEASANT RD",
-        "CITY:EAST NOTINGHAM TWP",
+        "CITY:EAST NOTTINGHAM TWP",
         "X:GRANT ST & COOPER LA",
         "INFO:48/F--LIPS BLUE");
 

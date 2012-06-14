@@ -21,7 +21,7 @@ public class PAChesterCountyD1ParserTest extends BaseParserTest {
         "ADDR:340 RIDGE RD",
         "CITY:EAST VINCENT TWP",
         "PLACE:EAST VINCENT ELEM SC",
-        "ID:6253",
+        "BOX:6253",
         "INFO:AFA/GENERAL/ATN");
 
     doTest("T2",
@@ -31,7 +31,7 @@ public class PAChesterCountyD1ParserTest extends BaseParserTest {
         "ADDR:56 WADE DR",
         "CITY:EAST VINCENT TWP",
         "X:NOTTINGHAM DR & SHE",
-        "ID:6203",
+        "BOX:6203",
         "INFO:AFA - GEN - ATN");
 
     doTest("T3",
@@ -41,7 +41,7 @@ public class PAChesterCountyD1ParserTest extends BaseParserTest {
         "ADDR:WB BETHEL CHURCH RD & STONEY RUN RD",
         "MADDR:BETHEL CHURCH RD & STONEY RUN RD",
         "CITY:EAST COVENTRY TWP",
-        "ID:6201",
+        "BOX:6201",
         "INFO:1 VEH, BLOCKING, AIR BAG DEPLOYM");
 
     doTest("T4",
@@ -51,7 +51,7 @@ public class PAChesterCountyD1ParserTest extends BaseParserTest {
         "ADDR:1059 SANATOGA RD",
         "CITY:EAST COVENTRY TWP",
         "X:MEADOW LA & E",
-        "ID:6201",
+        "BOX:6201",
         "INFO:ELECTRIC FIRE IN WALL - FLAMES AND SMOKE DETAILS");
 
     doTest("T5",
@@ -61,7 +61,7 @@ public class PAChesterCountyD1ParserTest extends BaseParserTest {
         "ADDR:SB FULMER RD & EBELHARE RD",
         "MADDR:FULMER RD & EBELHARE RD",
         "CITY:EAST COVENTRY TWP",
-        "ID:6201",
+        "BOX:6201",
         "INFO:MC VS TREE --- DETAILS TO FOLLOW");
 
     doTest("T6",
@@ -71,7 +71,7 @@ public class PAChesterCountyD1ParserTest extends BaseParserTest {
         "ADDR:1701  POTTSTOWN PIKE",
         "CITY:POTTSTOWN",
         "PLACE:MAIN EVENT SPOR",
-        "ID:6205",
+        "BOX:6205",
         "INFO:TWO DOWN IN THE ROADWAY");
  
   }

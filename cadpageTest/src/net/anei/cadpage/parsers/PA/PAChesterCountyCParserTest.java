@@ -44,6 +44,7 @@ public class PAChesterCountyCParserTest extends BaseParserTest {
         "FUEL SPILL **1001 HICKORY HILL RD*HONEYTREE LA & HILLENDALERD*PNSBRY*18:15*250 GALLON OIL TANK FOR F",
         "CALL:FUEL SPILL *",
         "ADDR:1001 HICKORY HILL RD",
+        "CITY:PENNSBURY TWP",
         "X:HONEYTREE LA & HILLENDALERD",
         "TIME:18:15",
         "INFO:250 GALLON OIL TANK FOR F");
