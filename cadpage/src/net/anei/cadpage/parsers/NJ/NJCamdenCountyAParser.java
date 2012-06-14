@@ -32,6 +32,7 @@ Subject: Dispatch R32\nRESCUE  \nROUTE 42 EXIT 14 ,04   \n#:  \nX:/  \nZN:BMA  \
 
 [Free SD379] ROUTE 295 EXIT 28 ,18 18  \nMI#:120118005  \nDisp:02:38:48  \nEnr:  \nArr:  \nEnr Hosp:  \nArr Hosp:  \nClr:02:39:15  \nRES#:SD379  \n
 [Free SD32] 294 ROUTE 295 ,04 04  \nMI#:120118005  \nDisp:02:39:15  \nEnr:02:41:47  \nArr:02:47:43  \nEnr Hosp:  \nArr Hosp:  \nClr:02:59:23  \nRES#:SD32  \n
+[Free R32] ROUTE 295 EXIT 26 ,04 04  \nMI#:120140280  \nDisp:18:32:56  \nEnr:18:33:27  \nArr:18:35:41  \nEnr Hosp:  \nArr Hosp:  \nClr:18:51:43  \nRES#:R32  \n
 
 */
 
@@ -39,6 +40,7 @@ public class NJCamdenCountyAParser extends FieldProgramParser {
   
   private static final Pattern SUBJECT_PTN = Pattern.compile("Dispatch (.*)"); 
   private static final Pattern SUBJECT2_PTN = Pattern.compile("Free (.*)");
+  private static final Pattern REPORT_ID_PTN = Pattern.compile("\nMI#:(\\d+) *\n");
   
   public NJCamdenCountyAParser() {
     super("CAMDEN COUNTY", "NJ",
@@ -60,6 +62,8 @@ public class NJCamdenCountyAParser extends FieldProgramParser {
       data.strCall = "RUN REPORT";
       data.strPlace = body;
       data.strUnit = match.group(1);
+      match = REPORT_ID_PTN.matcher(body);
+      if (match.find()) data.strCallId = match.group(1);
       return true;
     }
     data.strUnit = match.group(1);

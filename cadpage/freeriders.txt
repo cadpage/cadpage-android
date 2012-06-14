@@ -1117,7 +1117,7 @@ Tare Kennedy <tare@owen-kennedy.com>
 %%01/19/2012
 "aschloss@terpalum.umd.edu" (aschloss1@gmail.com)<aschloss@terpalum.umd.edu>
 %%01/20/2012
-Cody Matthews (glennfootballalumni64@gmail.com) // Market Purchase
+Cody Matthews (glennfootballalumni64@gmail.com)<glennfootballalumni64@gmail.com> // Market Purchase
 %%01/22/2012
 Andrew Myers (ajm5389@gmail.com) // Market failure
 %%01/23/2012
@@ -2336,3 +2336,11 @@ jimmy romerhausen <jromerhausen@gmail.com>
 Brad Benton <benton.bradley@gmail.com>
 %%06/11/2012
 Arthur Aubin Jr <tkdblackbelt489@gmail.com>
+%%06/12/2012
+"r5060@aol.com" (r5060.jl@gmail.com) <r5060@aol.com>
+Zach Haller <zhaller68@gmail.com>
+%%06/13/2012
+"ncsoundman115@yahoo.com" (maddeli0711@gmail.com) <ncsoundman115@yahoo.com>
+ingrid bouldin <bouldin1114@gmail.com>
+Matthew Rounds <mateo42007@gmail.com>
+Jerry Green <socalmazdafun2010@gmail.com>
