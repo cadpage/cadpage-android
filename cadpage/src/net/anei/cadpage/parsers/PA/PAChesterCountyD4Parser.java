@@ -7,7 +7,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 
 
 /* 
-Chester County, PA (alternate)
+Chester County, PA
 Contact: support@active911.com
 Agency name: Chester County Emergency Services Location: West Chester, PA
 Sender: <despaging@chesco.org> 

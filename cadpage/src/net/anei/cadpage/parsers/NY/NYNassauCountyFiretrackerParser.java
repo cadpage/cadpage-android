@@ -54,11 +54,16 @@ Contact: FRED DAVIS <fred.davis337@gmail.com>, "derf337@aol.com" <derf337@aol.co
 Sender: dispatch@firetracker.net
 (FirePage) **WPFD** [CARBON] (CARB) [UPSTAIRS BEDROOM-NO AIDED] 141 COLLINS AVE\nWILLISTON PARK C/S:LAFAYETTE ST / CENTER ST TOA:18:12 4/4/2012\n[
 
+Contact: Tracy Bowdwin <bowdwin32@gmail.com>
+Sender: dispatch@firetracker.net
+(FirePage) **RFD** CHIEF 2 [INVE] ALARM SOUNDING 68 DEBEVOISE AVE C/S:GILBERT PL /\r\nCHARLES ST TOA:02:26 [FireTracker]
+(FirePage) **RFD** AUTOACC [MVA] E/B E/O 21 SOUTHERN STATE PKWY E/B C/S:NASSAU ROAD\r\n/ EXIT 21 TOA:10:37 [FireTracker]
+
 */
 public class NYNassauCountyFiretrackerParser extends FieldProgramParser {
   
   private static final Pattern FFD_MARKER = Pattern.compile("^\\*\\* FFD [^\\*]+ \\*\\* ");
-  private static final Pattern FD_MARKER = Pattern.compile("^\\*{0,2}([A-Z]{2,3}FD)\\*{0,2} +");
+  private static final Pattern FD_MARKER = Pattern.compile("^\\*{0,2}([A-Z]{1,3}FD)\\*{0,2} +");
   
   public NYNassauCountyFiretrackerParser() {
     super("NASSAU COUNTY", "NY", 
