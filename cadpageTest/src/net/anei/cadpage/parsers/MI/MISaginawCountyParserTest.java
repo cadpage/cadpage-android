@@ -12,93 +12,53 @@ public class MISaginawCountyParserTest extends BaseParserTest {
   }
   
   @Test
-  public void testTritwpParser() {
+  public void testParserDavidSmigiel() {
 
     doTest("T1",
-        "TRITWP *: FIRE ALARM *: 5100 S GRAHAM RD CTY: 23 *: *WILLIAMS RES - GENERAL FIRE",
-        "SRC:TRITWP",
-        "CALL:FIRE ALARM",
-        "ADDR:5100 S GRAHAM RD",
-        "MAP:23",
-        "INFO:*WILLIAMS RES - GENERAL FIRE");
-
-    doTest("T2",
-        "TRITWP *: FIRE ALARM *: 5401 S GRAHAM RD CTY: 23 *: *APOTHECARY PRODUCTS/SMK DET",
-        "SRC:TRITWP",
-        "CALL:FIRE ALARM",
-        "ADDR:5401 S GRAHAM RD",
-        "MAP:23",
-        "INFO:*APOTHECARY PRODUCTS/SMK DET");
-
-    doTest("T3",
-        "TRITWP *: PI PIN-IN *: S FORDNEY RD&NELSON RD CTY: 12 *: *OCCD VEH ROLLED OVER IN DITCH",
-        "SRC:TRITWP",
-        "CALL:PI PIN-IN",
-        "ADDR:S FORDNEY RD & NELSON RD",
-        "MAP:12",
-        "INFO:*OCCD VEH ROLLED OVER IN DITCH");
-
-    doTest("T4",
-        "TRITWP *: STAND BY *: BENTLEY ST&FIRWOOD ST CTY: 46 *: STANDBY REF POSS FIRE IN CHESA",
-        "SRC:TRITWP",
-        "CALL:STAND BY",
-        "ADDR:BENTLEY ST & FIRWOOD ST",
-        "MAP:46",
-        "INFO:STANDBY REF POSS FIRE IN CHESA");
-
-    doTest("T5",
-        "TRITWP *: MUTUAL AID *: 2385 S FORDNEY RD CTY: 12 *: NEED LZ SET UP",
-        "SRC:TRITWP",
-        "CALL:MUTUAL AID",
-        "ADDR:2385 S FORDNEY RD",
-        "MAP:12",
-        "INFO:NEED LZ SET UP");
-
-    doTest("T6",
-        "TRITWP *: WIRES UP/ARCING *: 1125 W BELLE CTY: 21 *: *TREE ON WIRE SPARKING",
-        "SRC:TRITWP",
-        "CALL:WIRES UP/ARCING",
-        "ADDR:1125 W BELLE",
-        "MAP:21",
-        "INFO:*TREE ON WIRE SPARKING");
-
-    doTest("T7",
-        "TRITWP  *: FIRE OUTSIDE *: PARKWAY&N SAGINAW CTY: 39 *: *BARREL ON FIRE AT PARK",
-        "SRC:TRITWP",
-        "CALL:FIRE OUTSIDE",
-        "ADDR:PARKWAY & N SAGINAW",
-        "MAP:39",
-        "INFO:*BARREL ON FIRE AT PARK");
-
-    doTest("T8",
-        "TRITWP  *: FIRE ALARM *: 810 W WALNUT CTY: 39",
-        "SRC:TRITWP",
-        "CALL:FIRE ALARM",
-        "ADDR:810 W WALNUT",
-        "MAP:39");
+        "LOC:S PORTSMOUTH RD / KING RD DESC:LAT: <43.384720>  LONG: <-83.837678> APT: TYP:*M*PDA PIN IN JUST OCCU",
+        "ADDR:S PORTSMOUTH RD & KING RD",
+        "CALL:PDA PIN IN JUST OCCU",
+        "GPS:43.384720,-83.837678");
  }
   
-  @Test
-  public void testTritwp2() {
-    doTest("T1",
-        "FRM:emergin@saginawcounty.com\nMSG:TRITWP ¿*: APPLIANCE FIRE *: 122 W WALNUT CTY: 39 *: STOVE FIRE\n",
-        "SRC:TRITWP",
-        "CALL:APPLIANCE FIRE",
-        "ADDR:122 W WALNUT",
-        "MAP:39",
-        "INFO:STOVE FIRE");
-  }
-  
-  @Test
-  public void testAlbeeParsaer() {
+  public void testTld2a() {
 
     doTest("T1",
-        "ALBEE   *: ASSIST PERSON UP *: 4737 W BURT RD CTY: 01 *: *LIFT ASSIST CMT1: PRIORITY ONE",
-        "SRC:ALBEE",
-        "CALL:ASSIST PERSON UP",
-        "ADDR:4737 W BURT RD",
-        "MAP:01",
-        "INFO:*LIFT ASSIST CMT1: PRIORITY ONE");
+        "LOC:2673 OHIO DESC:52/M DIFF BREATHING/CHEST PAINS APT: TYP:*M*SICK PERSON IN PROGRESS",
+        "ADDR:2673 OHIO",
+        "CALL:52/M DIFF BREATHING/CHEST PAINS");
+
+    doTest("T2",
+        "LOC:3833 ORANGE ST DESC:79/F DIFF BREATHING/CHEST PAIN APT: TYP:*M*SICK PERSON IN PROGRESS",
+        "ADDR:3833 ORANGE ST",
+        "CALL:79/F DIFF BREATHING/CHEST PAIN");
+
+    doTest("T3",
+        "LOC:3459 WOODLAND CT DESC:86 FE DIFF BREATHING APT: TYP:*M*SICK PERSON IN PROGRESS",
+        "ADDR:3459 WOODLAND CT",
+        "CALL:86 FE DIFF BREATHING");
+
+    doTest("T4",
+        "LOC:4030 JORDAN DR DESC:80/M  CHEST PAIN APT: TYP:*M*SICK PERSON IN PROGRESS",
+        "ADDR:4030 JORDAN DR",
+        "CALL:80/M  CHEST PAIN");
+
+    doTest("T5",
+        "LOC:S PORTSMOUTH RD / KING RD DESC:LAT: <43.384720>  LONG: <-83.837678> APT: TYP:*M*PDA PIN IN JUST OCCU",
+        "ADDR:S PORTSMOUTH RD & KING RD",
+        "CALL:PDA PIN IN JUST OCCU",
+        "GPS:43.384720,-83.837678");
+
+    doTest("T6",
+        "LOC:7723 DIXIE HWY DESC: APT: TYP:*M*FIRE OUTSIDE",
+        "ADDR:7723 DIXIE HWY",
+        "CALL:FIRE OUTSIDE");
+
+    doTest("T7",
+        "LOC:2895 E MOORE RD DESC:80F CHEST PAIN APT: TYP:*M*SICK PERSON IN PROGRESS",
+        "ADDR:2895 E MOORE RD",
+        "CALL:80F CHEST PAIN");
+ 
   }
   
   public static void main(String[] args) {
