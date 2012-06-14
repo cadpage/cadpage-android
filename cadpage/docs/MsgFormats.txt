@@ -1422,9 +1422,9 @@ Richmond, MI (MIRichmondParser)
 ** MEDICAL ** 35388 DIANE LN  HEART ATTACK
 ***************************************************************************
 Saginaw County, MI (MISaginawCountyParser)
-TRITWP *: FIRE ALARM *: 5100 S GRAHAM RD CTY: 23 *: *WILLIAMS RES - GENERAL FIRE
-TRITWP *: FIRE ALARM *: 5401 S GRAHAM RD CTY: 23 *: *APOTHECARY PRODUCTS/SMK DET
-TRITWP *: PI PIN-IN *: S FORDNEY RD&NELSON RD CTY: 12 *: *OCCD VEH ROLLED OVER IN DITCH
+LOC:2673 OHIO DESC:52/M DIFF BREATHING/CHEST PAINS APT: TYP:*M*SICK PERSON IN PROGRESS
+LOC:3833 ORANGE ST DESC:79/F DIFF BREATHING/CHEST PAIN APT: TYP:*M*SICK PERSON IN PROGRESS
+LOC:3459 WOODLAND CT DESC:86 FE DIFF BREATHING APT: TYP:*M*SICK PERSON IN PROGRESS
 ***************************************************************************
 Anoka County, MN (MNAnokaCountyParser)
 CAD MSG: *D A3   57       HANSON BLVD NW / ANDOVER BLVD NW  NE CORNER..SMOKE/CHARRED GRASS...SM FLAMES INC:10019729   [42]
@@ -4838,19 +4838,6 @@ Body: 1 of 2\nFRM:LifecomCellPaging@amr.net\nMSG:      12014058     Vegetation F
 **********************************************************
 **********************************************************
 **********************************************************
-Cambria County, PA (alternate)
-Contact: Brian Flora <USMARINE_2002@yahoo.com>
-Sender: alerts@cambria.ealertgov.com
-DATE: 06/13/12\r\n | 13:21:53\r\n | 25B06V-BRAVO PSYCHIATRIC PROBLEM\r\n | 1109 DEVEAUX ST-WC\r\n | NUMBER 1 RD-WC FRAZIER ST-WC\r\n | Sta 64
-DATE: 06/13/12\r\n | 13:08:24\r\n | 17A01G-ALPHA FALL\r\n | 180 WOOD AVE-CM\r\n | BELAIR ST-CM EDSEL ST\r\n | Sta 48
-DATE: 06/12/12\r\n | 20:34:38\r\n | SS-EMS STATION STILL\r\n | 100 N CAROLINE ST-EB\r\n | E HIGH ST-EB\r\n | Sta 48
-DATE: 06/12/12\r\n | 18:55:55\r\n | 26A01-ALPHA  SICK PERSON\r\n | 700 N CENTER ST-EB\r\n | BOLTON ST-EB W HIGHLAND AVE-EB\r\n | Sta 48
-DATE: 06/12/12\r\n | 18:55:55\r\n | 26A01-ALPHA  SICK PERSON\r\n | 700 N CENTER ST-EB\r\n | BOLTON ST-EB W HIGHLAND AVE-EB\r\n | Sta 48
-DATE: 06/12/12\r\n | 18:35:37\r\n | BLS-BLS EMS CALL\r\n | 121 UNION ST-CM\r\n | DEAD END TRIPOLI RD-CM\r\n | Sta 40, Sta 48
-DATE: 06/12/12\r\n | 11:14:25\r\n | 10C01-CHARLIE CHEST PAIN\r\n | 1100 W HIGH ST-CM\r\n | MYERS ST-CM NEW GERMANY RD-CM\r\n | Sta 48
-DATE: 06/12/12\r\n | 09:56:39\r\n | 52C03S-CHARLIE SMOKE DETECTOR ALARM\r\n | 140 E CARROLL ST-CL\r\n | BEDE ST-CL N CHURCH ST-CL\r\n | Sta 5
-DATE: 06/11/12\r\n | 23:56:26\r\n | 28C03L-CHARLIE STROKE\r\n | 429 MANOR DR-CM\r\n | WINDY VALLEY RD-CM\r\n | Sta 48
-DATE: 06/13/12\r\n | 15:52:42\r\n | 18C05-CHARLIE  HEADACHE\r\n | 236 JAMESWAY RD-CM\r\n | WALMART DR-CM ADMIRAL PEARY HWY-CM\r\n | Sta 48
 **********************************************************
 Harris County, TX (NWEMS)
 Contact: "Charles O'Quin" <charles.oquin@nwems.org>
