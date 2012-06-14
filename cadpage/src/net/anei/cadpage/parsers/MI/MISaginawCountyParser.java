@@ -1,73 +1,62 @@
 package net.anei.cadpage.parsers.MI;
 
+import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /*
-Saginaw County, MI
-Contact: "Marco Isome" <misome@sbcglobal.net>
-Sender: emergin@saginawcounty.com
-TRITWP *: FIRE ALARM *: 5100 S GRAHAM RD CTY: 23 *: *WILLIAMS RES - GENERAL FIRE
-TRITWP *: FIRE ALARM *: 5401 S GRAHAM RD CTY: 23 *: *APOTHECARY PRODUCTS/SMK DET
-TRITWP *: PI PIN-IN *: S FORDNEY RD&NELSON RD CTY: 12 *: *OCCD VEH ROLLED OVER IN DITCH
-TRITWP *: STAND BY *: BENTLEY ST&FIRWOOD ST CTY: 46 *: STANDBY REF POSS FIRE IN CHESA
-TRITWP *: MUTUAL AID *: 2385 S FORDNEY RD CTY: 12 *: NEED LZ SET UP
-TRITWP *: WIRES UP/ARCING *: 1125 W BELLE CTY: 21 *: *TREE ON WIRE SPARKING
-TRITWP  *: FIRE OUTSIDE *: PARKWAY&N SAGINAW CTY: 39 *: *BARREL ON FIRE AT PARK
-TRITWP  *: FIRE ALARM *: 810 W WALNUT CTY: 39
+Saginaw County, MI (replacement)
+Contact: David Smigiel <bportfire2@gmail.com>
+Sender: 27538
+System: NXT
+LOC:S PORTSMOUTH RD / KING RD DESC:LAT: <43.384720>  LONG: <-83.837678> APT: TYP:*M*PDA PIN IN JUST OCCU
 
-Contact: Justin <jmkinney13@yahoo.com>
-FRM:emergin@saginawcounty.com\nMSG:TRITWP ¿*: APPLIANCE FIRE *: 122 W WALNUT CTY: 39 *: STOVE FIRE\n
-  
-Contact: Chris Gerding <atfdgerding@yahoo.com>
-ALBEE   *: ASSIST PERSON UP *: 4737 W BURT RD CTY: 01 *: *LIFT ASSIST CMT1: PRIORITY ONE
-
+Contact: "tld2a@sbcglobal.net" <tld2a@sbcglobal.net>
+Sender: 27538
+LOC:2673 OHIO DESC:52/M DIFF BREATHING/CHEST PAINS APT: TYP:*M*SICK PERSON IN PROGRESS
+LOC:3833 ORANGE ST DESC:79/F DIFF BREATHING/CHEST PAIN APT: TYP:*M*SICK PERSON IN PROGRESS
+LOC:3459 WOODLAND CT DESC:86 FE DIFF BREATHING APT: TYP:*M*SICK PERSON IN PROGRESS
+LOC:4030 JORDAN DR DESC:80/M  CHEST PAIN APT: TYP:*M*SICK PERSON IN PROGRESS
+LOC:S PORTSMOUTH RD / KING RD DESC:LAT: <43.384720>  LONG: <-83.837678> APT: TYP:*M*PDA PIN IN JUST OCCU
+LOC:7723 DIXIE HWY DESC: APT: TYP:*M*FIRE OUTSIDE
+LOC:2895 E MOORE RD DESC:80F CHEST PAIN APT: TYP:*M*SICK PERSON IN PROGRESS
 
  */
 public class MISaginawCountyParser extends FieldProgramParser {
   
-  private static final Pattern NON_PRINT = Pattern.compile("[^ -~]");
-  private static final Pattern DELIM = Pattern.compile(" *(?<= )\\*: +");
-  
   public MISaginawCountyParser() {
     super("SAGINAW COUNTY", "MI",
-           "SRC CALL ADDR! INFO+");
+           "LOC:ADDR! DESC:CALL! APT:APT! TYP:CALL2!");
   }
   
   @Override
   public String getFilter() {
-    return "emergin@saginawcounty.com,27538";
-  }
-
-  @Override
-  protected boolean parseMsg(String body, Data data) {
-    
-    body = NON_PRINT.matcher(body).replaceAll("");
-    String[] flds = DELIM.split(body);
-    if (flds.length < 3) return false;
-    return parseFields(flds, data);
+    return "27538";
   }
   
-  private class MyAddressField extends AddressField {
-    
+  private static final Pattern GPS_PTN = Pattern.compile("LAT: <([+-]?[\\d\\.]+)> +LONG: <([+-]?[\\d\\.]+)>");
+  private class MyCall2Field extends CallField {
     @Override
     public void parse(String field, Data data) {
-      Parser p = new Parser(field);
-      super.parse(p.get(" CTY:"), data);
-      data.strMap = p.get();
+      Matcher match = GPS_PTN.matcher(data.strCall);
+      if (match.find()) {
+        data.strGPSLoc = match.group(1) + "," + match.group(2);
+      } else if (data.strCall.length() > 0) return;
+      if (field.startsWith("*M*")) field = field.substring(3).trim();
+      data.strCall = field;
     }
     
     @Override
     public String getFieldNames() {
-      return "ADDR MAP";
+      return "GPS";
     }
   }
   
   @Override
   public Field getField(String name) {
-    if (name.equals("ADDR")) return new MyAddressField();
+    if (name.equals("CALL2")) return new MyCall2Field();
     return super.getField(name);
   }
 }

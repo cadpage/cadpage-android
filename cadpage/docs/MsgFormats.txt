@@ -4837,22 +4837,6 @@ Body: 1 of 2\nFRM:LifecomCellPaging@amr.net\nMSG:      12014058     Vegetation F
 **********************************************************
 **********************************************************
 **********************************************************
-Saginaw County, MI (replacement)
-Contact: David Smigiel <bportfire2@gmail.com>
-Sender: 27538
-System: NXT
-LOC:S PORTSMOUTH RD / KING RD DESC:LAT: <43.384720>  LONG: <-83.837678> APT: TYP:*M*PDA PIN IN JUST OCCU
-
-Contact: "tld2a@sbcglobal.net" <tld2a@sbcglobal.net>
-Sender: 27538
-LOC:2673 OHIO DESC:52/M DIFF BREATHING/CHEST PAINS APT: TYP:*M*SICK PERSON IN PROGRESS
-LOC:2673 OHIO DESC:52/M DIFF BREATHING/CHEST PAINS APT: TYP:*M*SICK PERSON IN PROGRESS
-LOC:3833 ORANGE ST DESC:79/F DIFF BREATHING/CHEST PAIN APT: TYP:*M*SICK PERSON IN PROGRESS
-LOC:3459 WOODLAND CT DESC:86 FE DIFF BREATHING APT: TYP:*M*SICK PERSON IN PROGRESS
-LOC:4030 JORDAN DR DESC:80/M  CHEST PAIN APT: TYP:*M*SICK PERSON IN PROGRESS
-LOC:S PORTSMOUTH RD / KING RD DESC:LAT: <43.384720>  LONG: <-83.837678> APT: TYP:*M*PDA PIN IN JUST OCCU
-LOC:7723 DIXIE HWY DESC: APT: TYP:*M*FIRE OUTSIDE
-LOC:2895 E MOORE RD DESC:80F CHEST PAIN APT: TYP:*M*SICK PERSON IN PROGRESS
 **********************************************************
 Cambria County, PA (alternate)
 Contact: Brian Flora <USMARINE_2002@yahoo.com>

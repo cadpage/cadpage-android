@@ -163,8 +163,10 @@ public class MsgInfo {
      * @returns always returns true
      */
     public boolean parseRunReport(String message) {
+      String saveCallId = strCallId;
       initialize();
       strCall = "RUN REPORT";
+      strCallId = saveCallId;
       strPlace = message;
       return true;
     }
