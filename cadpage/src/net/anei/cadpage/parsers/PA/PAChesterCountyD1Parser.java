@@ -26,7 +26,7 @@ public class PAChesterCountyD1Parser extends PAChesterCountyBaseParser {
   private static final Pattern DELIM = Pattern.compile("\\*\\*");
   
   public PAChesterCountyD1Parser() {
-    super("TIME! CALL ADDRPLX ID INFO+");
+    super("TIME! CALL ADDRPLX BOX INFO+");
   }
   
   @Override

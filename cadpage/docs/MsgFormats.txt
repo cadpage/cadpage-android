@@ -219,10 +219,7 @@ BC911:MVAUNK>MOTOR VEH ACC UNKNOWN INJ STATE HIGHWAY 39 JENKINS VERIZON WIRELESS
 BC911:FIRES >STRUCTURE FIRE 23270 STATE HIGHWAY TT BARRY COUNTY CAHD REAVIS 3350036 Map: Grids:0,0 Cad: 2011-0000015655
 ***************************************************************************
 Marion County, MS (MSMarionCountyParser)
--  - 911-CENTER:SFIRE >STRUCTURE FIRE 1129 PICKWICK RD FOXWORTH FORBES, WILLEASE Map: Grids:, Cad: 2012-0000001317\n
--  - 911-CENTER:SIG72 >MEDICAL CALL 577 MT CARMEL CHURCH RD FOXWORTH AT&T MOBILITY Map: Grids:, Cad: 2012-0000001285\n
--  - 911-CENTER:SIG72 >MEDICAL CALL 244 SPRING HILL CHURCH RD SANDY HOOK AT&T MOBILITY Map: Grids:, Cad: 2012-0000001188\n
-***************************************************************************
+-  - 911-CENTER:SFIRE >STRUCTURE FIRE 1129 PICKWICK RD FOXWORTH FORBES, WILLEASE Map: Grids:, Cad: 2012-0000001317\n-  - 911-CENTER:SIG72 >MEDICAL CALL 577 MT CARMEL CHURCH RD FOXWORTH AT&T MOBILITY Map: Grids:, Cad: 2012-0000001285\n-  - 911-CENTER:SIG72 >MEDICAL CALL 244 SPRING HILL CHURCH RD SANDY HOOK AT&T MOBILITY Map: Grids:, Cad: 2012-0000001188\n***************************************************************************
 Salem County, NJ (NJSalemCountyParser)
 911-CENTER:06N >ALARM SYSTEM-NIGHT 40 EATON RD XS: LINCOLN DR AND S WASHINGTON DR PENNSVILLE TWP TC02 // MONITORING CENT 
 911-CENTER:02 >STRUCTURE FIRE-MEDIUM HAZARD 429 N BROADWAY WAY XS: ROUTE 130 OVERPASS PENNSVILLE TWP KIM MILLER 3511754 
@@ -842,15 +839,7 @@ SICK - NO PRIORITY SYMPTOMS (COMPLAINT CONDITIONS 2-11 NOT IDENTIFIED) code: 26-
 BURNS (SCALDS) / EXPLOSION - FIRE ALARM (UNKNOWN SITUATION) code: 7-A-2 at: 11 BRADDOCK CT c/s: STRATHMORE CT d/t: 06/28 19:37:00
 *******************************************************************************
 Suffolk County, NY (NYSuffolkCountyEParser)
-/RELAY /201 TROT BROOK LANE FEMALE FACIAL INJURY\n
-/FROM RELAY /1035 PARKWAY\nFEMALE WITH CHEST PAINS\n
-/FROM RELAY /641 NORTHVILLE TPKE & FISHEL\nFEMALE IS SICK\n
-/FROM RELAY /MERCY HIGH SCHOOL\nYOUNG ADULT HEAD INJURY\nWEIGHT ROOM\n
-/FROM RELAY /ATLANTIS MARINE WORLD\nGIFT SHOP  FEMALE INJURIES FROM A FALL\n
-/FROM RELAY /819 E MAIN\nDEPT OF SOCIAL SVCS\nPOSSIBLE OVER DOSE\n
-/FROM RELAY /UNITED COMPREHENSIVE CARE\n170 OLD COUNTRY RD\nADULT MALE TROUBLE BREATHING\n
-/FROM RELAY /TANGER 2 STE 101 NY&CO\nFEMALE SUBJECT ILL\n
-*******************************************************************************
+/RELAY /201 TROT BROOK LANE FEMALE FACIAL INJURY\n/FROM RELAY /1035 PARKWAY\nFEMALE WITH CHEST PAINS\n/FROM RELAY /641 NORTHVILLE TPKE & FISHEL\nFEMALE IS SICK\n/FROM RELAY /MERCY HIGH SCHOOL\nYOUNG ADULT HEAD INJURY\nWEIGHT ROOM\n/FROM RELAY /ATLANTIS MARINE WORLD\nGIFT SHOP  FEMALE INJURIES FROM A FALL\n/FROM RELAY /819 E MAIN\nDEPT OF SOCIAL SVCS\nPOSSIBLE OVER DOSE\n/FROM RELAY /UNITED COMPREHENSIVE CARE\n170 OLD COUNTRY RD\nADULT MALE TROUBLE BREATHING\n/FROM RELAY /TANGER 2 STE 101 NY&CO\nFEMALE SUBJECT ILL\n*******************************************************************************
 *******************************************************************************
 * DispatchProphoenixParser
 *******************************************************************************
@@ -925,8 +914,7 @@ VFD Type:70 SUBTYPE:? LOC:N 5TH ST & E PINE ST C:11/25/2011 05:09:23 10-85 CALLE
 Baldwin County, AL (ALBaldwinCountyParser)
 - E911 Notification - Elberta VFD - 05-20-12 13:43: Station STA31 dispatched to Incident ID 290161 (Stroke) at 25855 WILLOW RIDGE R
 - E911 Notification - Elberta VFD - 05-21-12 15:35: Station STA31 dispatched to Incident ID 290600 (Fire - Grass) at 17305 JOE GOTTLER RD
-- E911 Notification - Elberta VFD - 05-24-12 08:48: Station STA31 dispatched to Incident ID 291543 (Auto Accident) at 14850 87\n
-***************************************************************************
+- E911 Notification - Elberta VFD - 05-24-12 08:48: Station STA31 dispatched to Incident ID 291543 (Auto Accident) at 14850 87\n***************************************************************************
 Dothan, AL (ALDothanParser)
 15:49:38/SC-Service Call Non-Emergency/801 E LAFAYETTE ST/DOTHAN/14523968/ref lines fell at front door, see c404/
 16:31:23/SC-Service Call Non-Emergency/401 W INEZ RD/DOTHAN/TANGLEWOOD APARTMENTS/24135869/POWER LINES DOWN AT ENTRANCE, POSS SPARKING, RELAYED BY/
@@ -1003,10 +991,7 @@ MED, PERSON DOWN; STN621 @ 54160 MARANATHA DR ,IDYL ; ; 25778 BLK JOHNSON RD; 81
 MED, PERSON DOWN; 25280 NORWOOD DR ,PINC ; RX TO PRES MEDS; 52100 BLK ACORN LN; 813_H_5/154__116; Inc# 118213; Cmd: RRU SUP 8; Tac: RVC TAC 0; STN23A E23 M624; NO TEXT
 ***************************************************************************
 San Bernardino County, CA (CASanBernardinoCountyParser)
-[] | TU - T>W Cypress Ave / S Center St - REDC >LOC INFO: >AGN MAP:RED045 -TB MAP:648 B2 >X ST: >E261,MS261,AMR33>COMMENTS:GREEN 300 vs BLACK SEDAN,External Case Number 'RED _1200689' added for Redlands.,Automatic Case Number(s) issued for Ground Ambulance: \n
-[] | HEART->1600 E Citrus Ave -A REDC >LOC INFO:DR HOENSHELL >AGN MAP:RED069 -TB MAP:608 F7 >X ST:N DEARBORN ST/S LA SALLE ST >E261,MS261,AMR37>COMMENTS:[ProQA Session Aborted] ALLIED AGENCY,External Case Number 'RED _1200691' added for Redlands.,Automatic C\n
-[] | SICK-D>105 Terracina Blvd -106-a REDC >LOC INFO:BROOKSIDE HEALTH >AGN MAP:RED043 -TB MAP:647 H2 >X ST:BROOKSIDE AVE/CORDOVA AVE >E264,ME263R,AMR39>COMMENTS:793-2271,[ProQA Script] Dispatch code: 26D01 85 year old, Male, Conscious, Breathing. Sick Person\n
-***************************************************************************
+[] | TU - T>W Cypress Ave / S Center St - REDC >LOC INFO: >AGN MAP:RED045 -TB MAP:648 B2 >X ST: >E261,MS261,AMR33>COMMENTS:GREEN 300 vs BLACK SEDAN,External Case Number 'RED _1200689' added for Redlands.,Automatic Case Number(s) issued for Ground Ambulance: \n[] | HEART->1600 E Citrus Ave -A REDC >LOC INFO:DR HOENSHELL >AGN MAP:RED069 -TB MAP:608 F7 >X ST:N DEARBORN ST/S LA SALLE ST >E261,MS261,AMR37>COMMENTS:[ProQA Session Aborted] ALLIED AGENCY,External Case Number 'RED _1200691' added for Redlands.,Automatic C\n[] | SICK-D>105 Terracina Blvd -106-a REDC >LOC INFO:BROOKSIDE HEALTH >AGN MAP:RED043 -TB MAP:647 H2 >X ST:BROOKSIDE AVE/CORDOVA AVE >E264,ME263R,AMR39>COMMENTS:793-2271,[ProQA Script] Dispatch code: 26D01 85 year old, Male, Conscious, Breathing. Sick Person\n***************************************************************************
 Shasta County, CA
 (CAD Page) FIRE, SMOKE CHECK; 21199 HWY 299 E ,BELLAVISTA ; ; 11764 BLK REBECCA LN; Map: 3225; Inc# 009012; VOL33; neighbor burning
 (CAD Page) MED, TRAFFIC COLLISION; 21044 HWY 299 E / 11760 NEAL LN ,BELLAVISTA ; ; ; Map: 3225; Inc# 009230; B2413 VOL33 E2462; VEH
@@ -1200,8 +1185,7 @@ HAUS\nACCIDENT INJURY\nN WATERFORD LOOP & N HAUSER LAKE RD\nGW7A \nB751\nOPS4 \n
 KCFR\nFIRE STRUCTURE \nN SMITH LN & E MULLAN AVE\nF1C  \nF1V\nOPS1 \nTRAILER FULLY ENGULFED ON SMITH RD JUST OFF MULLAN   FLAMES FROM WINDOWS AND\nROOF \n10:49:32 05/28/20
 ***************************************************************************
 Cook County, IL (ILCookCountyParser)
-[10:20:32 11-08-2011] *D 1307 AFAF/407 N MAIN ST ,MP (COMMUNITY PRESBYTERIAN CHURCH) TWR13 E13 A14 BAT3 \n
-[20:10:53 11-07-2011] *D 1303 3F/409 OAK ST ,MP TWR13 E14 E12 A14 A12 BAT3
+[10:20:32 11-08-2011] *D 1307 AFAF/407 N MAIN ST ,MP (COMMUNITY PRESBYTERIAN CHURCH) TWR13 E13 A14 BAT3 \n[20:10:53 11-07-2011] *D 1303 3F/409 OAK ST ,MP TWR13 E14 E12 A14 A12 BAT3
 [21:05:25 11-10-2011] *D 1202 3F/725 HUNTINGTON COMMONS RD ,MP (LAKESIDE CONDOS) TWR13 E12 E13 A12 A13 BAT3
 ***************************************************************************
 Champaign-Urbana, IL (Champaign, Dewit, & Doublas Counties)
@@ -1225,9 +1209,7 @@ FIRE/RESCUE - DEERFARM/SHIPLEY -
 FIRE/RESCUE - S PALMER ST NOBLE -
 ***************************************************************************
 Winnebago County, IL (ILWinnebagoParser)
-S:HRFD: Med: 687 Marion Rd M: 56 f deleious\n\n
-S:HRFD: Med:9918 Bluebonnet M: 70 M diaahra\n\n
-(HRFD: Med:14244 krotz Dr) m fall victim
+S:HRFD: Med: 687 Marion Rd M: 56 f deleious\n\nS:HRFD: Med:9918 Bluebonnet M: 70 M diaahra\n\n(HRFD: Med:14244 krotz Dr) m fall victim
 (HRFD: Med:6792 Michelle Dr) F Trouble Breathing
 ***************************************************************************
 Jackson County, IN (INJacksonCountyParser)
@@ -1262,10 +1244,7 @@ Black Hawk County, IA (IABlackHawkCountyParser)
 10-124880 MVA ROLLOVER 1941 W 6TH ST EUREKA/ MITCHELL/WATERLOO
 ***************************************************************************
 Jackson County, IA (IAJacksonCountyParser)
-S:Dispatch Center M:11-004602 GENERAL MEDICAL/AMBULANCE\n33618 MILL CREEK RD\n325 AVE / SIEVERDING/RIDGE RD\nBELLEVUE\nBEA1 BEF1\n\n\n
-S:Dispatch Center M:11-004682 GENERAL MEDICAL/AMBULANCE\n208 N 12 ST\nSTATE ST / PARK ST/\nMEDICAL ASSOCIATES OF BELLEVUE  BELLEVUE\nBEA1\n\n\n
-S:Dispatch Center M:11-004692 MOTOR VEH ACCIDENT W/INJURIES\nE 1 ST/ N MAIN ST\nST DONATUS\n49 8 BEA1 BEA2 BEF1\n\n\n
-***************************************************************************
+S:Dispatch Center M:11-004602 GENERAL MEDICAL/AMBULANCE\n33618 MILL CREEK RD\n325 AVE / SIEVERDING/RIDGE RD\nBELLEVUE\nBEA1 BEF1\n\n\nS:Dispatch Center M:11-004682 GENERAL MEDICAL/AMBULANCE\n208 N 12 ST\nSTATE ST / PARK ST/\nMEDICAL ASSOCIATES OF BELLEVUE  BELLEVUE\nBEA1\n\n\nS:Dispatch Center M:11-004692 MOTOR VEH ACCIDENT W/INJURIES\nE 1 ST/ N MAIN ST\nST DONATUS\n49 8 BEA1 BEA2 BEF1\n\n\n***************************************************************************
 Polk County, IA (IAPolkCountyParser)
 .... (Grimes) Location: 500 S JAMES ST GRIM: @SCHOOL - GRIM Type: STILL VEHICLE Caller:  Time: 19:47:24
 .... (Grimes) Location: 101 SE DESTINATION DR GRIMES Type: MEDICAL  Caller: GRIMES FAMILY PHYSICIANS Time: 10:54:07
@@ -1455,8 +1434,7 @@ CAD MSG: *D A3   45F      14950 HANSON BLVD NW @ANDOVER ELEMENTARY  PLANNED FIRE
 Festus, MO (MOFestus)
 (call) FIRE / BRUSH / 2819 NORTH SELMA ROAD JEFFCO/R7 /DOOLING HO /EMS /6610 /jpad brush with exposer R-7 FD720146 /JPAD 603031
 (call) FIRE/10-50 J-2/ STATE RD CC JEFFCO/FESTUS FIRE / HWY 67 /FIRE DEP /H4 FI H1 FESTUS  FD66651 / JPAD H4 FI H1
-S:Call M:FIRE / MUTUAL AID / 12532 STATE RD TT JEFFCO/R-7 / R7SCHOOLRD / EMS / H3 FI H1 / BRUSH ENDANGERING A STRUCTURE/ 66 14 6037 \nR-7 FD720096 / JPAD H3 FI H1\n
-***************************************************************************
+S:Call M:FIRE / MUTUAL AID / 12532 STATE RD TT JEFFCO/R-7 / R7SCHOOLRD / EMS / H3 FI H1 / BRUSH ENDANGERING A STRUCTURE/ 66 14 6037 \nR-7 FD720096 / JPAD H3 FI H1\n***************************************************************************
 Hennepin county, MN (MNHennepinCountyParser)
 NAME-KENDRA;  LOC-4001 STINSON BLVD NE [#404;  EVTYPE-STROKE;  COMMENTS-POSSIBLE STROKE --- USE MAIN ENTRANCE TO THE 4TH FL
 NAME-BRINATTE,HELEN;  LOC-2626 KENZIE TER [#114 [@WALKER ON KENZIE APT;  EVTYPE-ILL;  COMMENTS-2626 KENZIE TER : cross stre
@@ -1468,10 +1446,7 @@ Subject: NEWOCC #12-1589  602 - Structure Fire\nNEWOCC #12-1589  602 - Structure
 Subject: NEWOCC #12-1582  6 - Breathing Problems\nNEWOCC #12-1582  6 - Breathing Problems\nAddress: 921 Merklin Dr, Fulton\nReporting Person: Frita Phone: 642-6978\nDetail: 
 ***************************************************************************
 Jasper County, MO (MOJasperCountyParser)
-S: M:LONE ELM/ESTATE LN- ROLLOVER\n
-S: M:1725B Redbud dr- 87 yom fall - back pain\n
-S: M:VEHICLE FIRE FIR AND BLACK CAT\n
-***************************************************************************
+S: M:LONE ELM/ESTATE LN- ROLLOVER\nS: M:1725B Redbud dr- 87 yom fall - back pain\nS: M:VEHICLE FIRE FIR AND BLACK CAT\n***************************************************************************
 Jefferson County, MO (MOJeffersonCountyParser)
 Location: @PACIFIC STATION 2 Call Type: MOVEUP MUP Comments: 7376 HIGHWAY O RP's Address: Pri: 4 Area: 77 Disp: 7724
 Location: 16 SYCAMORE GREEN ACRES CNTY Call Type: STILL CHKBLDG Comments: CARD 77272 MAP 77 RP's Address: 16 SYCAMORE GREEN ACRES Pri: 3 Area: 77 Disp: 7710
@@ -1484,8 +1459,7 @@ Johnson County, MO (MOJohnsonCountyParser)
 ***************************************************************************
 Jefferson City, MO (MOJeffersonCityParser)
 Subject:DONOTREPLY\nSnyder, Jodi 14:00 Medical Emergency 718 MICHIGAN -Cross Streets- LOUISIANA AVE / MISSOURI BLVD E1   CONSCIOUS  OUTSID
-Subject:DONOTREPLY\nE4  14:28 Line Down  - 1505 SOUTHWEST -Cross Streets- CEDAR RIDGE RD / EDGEWOOD DR   LIMB IS ON A POWER LINE \n
-Subject:DONOTREPLY\nMcDowell, Shelley 13:40 Medical Emergency 301 HIGH -Cross Streets- BROADWAY ST / RAMP OFF RAMP, RAMP ON RAMP E1   FEMA
+Subject:DONOTREPLY\nE4  14:28 Line Down  - 1505 SOUTHWEST -Cross Streets- CEDAR RIDGE RD / EDGEWOOD DR   LIMB IS ON A POWER LINE \nSubject:DONOTREPLY\nMcDowell, Shelley 13:40 Medical Emergency 301 HIGH -Cross Streets- BROADWAY ST / RAMP OFF RAMP, RAMP ON RAMP E1   FEMA
 ***************************************************************************
 Newton County, MO (MONewtonCountyParser)
 Subject:911 CALL\n11178 ELAND RD  CrossStreets: JUNIPER DR 0.01 mi SE IVY DR 0.73 mi N SICK PERSON ESN: pg6 Call Number: 763388
@@ -1547,9 +1521,7 @@ Burlington County, NJ (NJBurlingtonCountyAParser)
 .... (Station 171) :  EMS E EMS Call             Priority: 1  : 1883 RT38                                          Venue: Southamptn  Located Between  : SMITHVILLE RD/RT206   : DIAMOND M LUMBER Call Time- 09:35:44                      : 1711: (609) 261-2701                Caller : NJSP Nature of Call : MVA / RQST EMS
 ***************************************************************************
 Burlington County, NJ (NJBurlingtonCountyBParser)
-Messenger 911 / [Update]\n18:43:42\n133 E TrfcEntp\n5010\nSOUTH AV\nPINE ST\nPINE ST\n
-Messenger 911 / 18:43:42\n129 E AccInjry\n5010\nSOUTH AV\nPINE ST\nPINE ST\n
-Messenger 911 / [Update]\n22:39:55\n16 F Alarms\n1321\n691 EAYRESTOWN RD\nMUNICIPAL DR/RT38\n609.267.1224/GENERAL ALARM
+Messenger 911 / [Update]\n18:43:42\n133 E TrfcEntp\n5010\nSOUTH AV\nPINE ST\nPINE ST\nMessenger 911 / 18:43:42\n129 E AccInjry\n5010\nSOUTH AV\nPINE ST\nPINE ST\nMessenger 911 / [Update]\n22:39:55\n16 F Alarms\n1321\n691 EAYRESTOWN RD\nMUNICIPAL DR/RT38\n609.267.1224/GENERAL ALARM
 ***************************************************************************
 Burlington County, NJ (NJBurlingtonCountyDParser)
 (Messenger 911) Call Time: 11:58:04\nIncident #: 03272         S\nIncident Type: EMS E EMS Call\nQuadrant: 3410\nLocation: 1 STUDENT DR\nLocated Btwn: WOODLANE RD/DEAD END\nNature: JUV FELL OFF JUNGLE GYM
@@ -1672,14 +1644,10 @@ NOTIFICATIONS 85 MANITOU ST DEPEW CONDUCTED THE DAILY FIRE RADIO AND PAGER TEST
 4569 BROADWAY DEPEW COMMERCIAL FIRE ALARM COMING FROM THE BANQUET ROOM
 ***************************************************************************
 Erie County, NY (NYErieCountyAParser)
-(Call) FIRE RESIDENTIAL 6680 LAKE SHORE RD EVANS FOREGIN OBJECT STRUCK A LIVE ELECTRICAL OUTLET.?\n
-(Call) EMS 1425 STURGEON PT RD EVANS H/NE/RM ACT  CARBON MONOXIDE DETECTOR WITH ILLNESS IN THE RESIDENCE?\n
-(Call) NE ACT FOR A ENGINE M/A TO LAKEVIEW FOR AN AUTO ACCIDENT ROUTE 5 AND OLD LAKESHORE RD?\n
-***************************************************************************
+(Call) FIRE RESIDENTIAL 6680 LAKE SHORE RD EVANS FOREGIN OBJECT STRUCK A LIVE ELECTRICAL OUTLET.?\n(Call) EMS 1425 STURGEON PT RD EVANS H/NE/RM ACT  CARBON MONOXIDE DETECTOR WITH ILLNESS IN THE RESIDENCE?\n(Call) NE ACT FOR A ENGINE M/A TO LAKEVIEW FOR AN AUTO ACCIDENT ROUTE 5 AND OLD LAKESHORE RD?\n***************************************************************************
 Erie County, NY (NYErieCountyBParser)
 NYK| Erie County (Lancaster)| Technical Rescue| | Como Park|PD O/S reporting pedestrian walk bridge collapse- 1 victim with leg trapped- request FD with saws| NYK109| 16:54
-NYK / NYK| Buffalo| 1 Alarm Fire| | 63 Crestwood Ave|F20 O/S reporting fire in a dwelling-victims rescued-ACW| NYK109| 12:13\n\n
-NYK| Erie County (Lancaster)| 1 Alarm Fire| 453.500| 17 E Drullard Ave|Lancaster FD O/S Rep Fire in a 2 Story Occ Brick Apt Bldg. AHW| NYK004| 22:29
+NYK / NYK| Buffalo| 1 Alarm Fire| | 63 Crestwood Ave|F20 O/S reporting fire in a dwelling-victims rescued-ACW| NYK109| 12:13\n\nNYK| Erie County (Lancaster)| 1 Alarm Fire| 453.500| 17 E Drullard Ave|Lancaster FD O/S Rep Fire in a 2 Story Occ Brick Apt Bldg. AHW| NYK004| 22:29
 ***************************************************************************
 Erie County, NY (NYErieCountyCParser)
 Erie_Alert EDEN 2097 SHERMAN- 1 YOA MALE CHOKING 15 TO HALL NEED 1 ADD'L  <NOREPLY>
@@ -1847,8 +1815,7 @@ Location: 9350 FREEMAN RD FC Nature: Headache P:1  - VISION_PROBLEMS DISTRICT: R
 Gaston County, NC (NCGastonCountyParser)
 (*CAD*) [CAD]   29D2P ~RIVERSIDE~DR/~HICKORY GROVE~RD  X-ST: Phone:~(704) 905-8283 - Station:~Station 40 Station 40 08/25/2011 15:48:11 7\nLD400, EN403, C161, RSU,
 (*CAD*) [CAD]   29D2L ~WESLEYAN~DR/~MAIN~ST  X-ST: Phone:~(704) 460-7016 - Station:~Station 40 Station 40 08/29/2011 16:49:18 1\nEN403  WRECK.
-(*CAD*) [CAD]   Tree In Roadway 124~CHURCH~ST~  X-ST: ROBINETTE LN - Phone:~(704) 634-0269 Station 40 08/30/2011 05:13:05 1\n
-***************************************************************************
+(*CAD*) [CAD]   Tree In Roadway 124~CHURCH~ST~  X-ST: ROBINETTE LN - Phone:~(704) 634-0269 Station 40 08/30/2011 05:13:05 1\n***************************************************************************
 Guilford County, NC (NCGuilfordCountyParser)
 [summerfieldfiredist Jan24-10:01]  CAD:SMFD;ST09;1;52C03C;FIRAL;7607 BLUE SAGE CT
 [summerfieldfiredist Jan19-18:15]  CAD:SMFD;ST29;1;50PI;SCALESVILLE RD/LAKE BRANDT RD
@@ -1861,8 +1828,7 @@ HalifaxCoE911@HalifaxNC911.com S: M:HalifaxCoE911:* 1403 EAST 10TH ST* * * ROANO
 ***************************************************************************
 Harnett County, NC (NCHarnettCountyParser)
 1102-012074*8326 NC 27 W***LILLINGTON***RESIDENTIAL STRUCTURE FIRE****1175****
-S: M:1107-061052*3058 CRAWFORD RD***ERWIN***MOTOR VEHICLE ACCIDENT****1186****\n
-FRM:cadpage@harnett.org\nMSG:1108-070330*1995 BETHEL BAPTIST RD***SPRING LAKE***ELECTRICAL HAZARD****1120****
+S: M:1107-061052*3058 CRAWFORD RD***ERWIN***MOTOR VEHICLE ACCIDENT****1186****\nFRM:cadpage@harnett.org\nMSG:1108-070330*1995 BETHEL BAPTIST RD***SPRING LAKE***ELECTRICAL HAZARD****1120****
 ***************************************************************************
 Hoke County, NC (NCHokeCountyParser)
 Hoke Co 911:795 TC JONES RD* * * * * **EMD* * * * * * * * 09/15/2011 14:36:26 : pos4 : mblack3325 ** EMD Case Entry Finished ** Chief Complaint Number: 19 Key Q
@@ -1940,8 +1906,7 @@ Las Vegas, NV (NVLasVegasParser)
 (SMS) I: 4273913 U: 3901, P: 1, G: 2821, PH: 13 L: 4285 DUNEVILLE ST-CC# 236 , B: , AL: PC:, 6D N:6D], Location from Fire: 4285 DUNEVILLE ST, 00
 ***************************************************************************
 Englewood, OH (OHEnglewoodParser)
-CAD@englewood.oh.us\nSUBJ:<No Subject>\nMSG:\n622 EE98 EM98 OP72:12:31:00-53B:E53:2 VEH ACC UNK INJ:@9200 N MAIN ST,DAYTON:FDC SOUTH WALL\n\n
-CAD@englewood.oh.us\nSUBJ:<No Subject>\nMSG:\n630 632 EM98:16:10:00-45:E45:MEDIC/SUICIDAL SUBJECT:@9000 N MAIN ST UNIT 300,DAYTON: 
+CAD@englewood.oh.us\nSUBJ:<No Subject>\nMSG:\n622 EE98 EM98 OP72:12:31:00-53B:E53:2 VEH ACC UNK INJ:@9200 N MAIN ST,DAYTON:FDC SOUTH WALL\n\nCAD@englewood.oh.us\nSUBJ:<No Subject>\nMSG:\n630 632 EM98:16:10:00-45:E45:MEDIC/SUICIDAL SUBJECT:@9000 N MAIN ST UNIT 300,DAYTON: 
 CAD@englewood.oh.us\nSUBJ:<No Subject>\nMSG:\n622 EE98 EM98 OP72:12:31:00-53B:E53:2 VEH ACC UNK INJ:@9200 N MAIN ST,DAYTON:FDC SOUTH WALL 
 ***************************************************************************
 Franklin, OH (OHFranklinParser)
@@ -2000,9 +1965,7 @@ Stark County, OH (OHStarkCountyCencommParser)
 (FIRES CALLS) CFFD:2012:308\nDISPATCHED\nMEDALS\n581, BEVERLY AV ;CANAL FULTON
 ***************************************************************************
 Union County, OH (OHUnionCountyParser)
-FIRE, 121 E BLAGROVE ST 1/2 RICHWOOD, BEATTY AVE,RICHWOOD//N CLINTON ST,RICHWOOD,\n
-HEART PROBLEMS, 10535 MAPLE DELL RD MARYSVILLE, STATE ROUTE 37,MARYSVILLE//, 53 YOF POSS HEART\n
-FALL/BACK INJURY, 85 ROSE ST MAGNETIC SPRINGS, W CATHERINE ST,MAGNETIC SPRINGS//W MAGNETIC ST,MAGNETIC SPRINGS, DALE FAGG FELL AND HI
+FIRE, 121 E BLAGROVE ST 1/2 RICHWOOD, BEATTY AVE,RICHWOOD//N CLINTON ST,RICHWOOD,\nHEART PROBLEMS, 10535 MAPLE DELL RD MARYSVILLE, STATE ROUTE 37,MARYSVILLE//, 53 YOF POSS HEART\nFALL/BACK INJURY, 85 ROSE ST MAGNETIC SPRINGS, W CATHERINE ST,MAGNETIC SPRINGS//W MAGNETIC ST,MAGNETIC SPRINGS, DALE FAGG FELL AND HI
 ***************************************************************************
 Wadsworth, OH (OHWadsworthParser)
 (From: WadsTextSender) 0,,COLLEGE/MAIN,WADSWORTHMVA,MVA (EMS) (INJURY)MVA...NECK PAIN
@@ -2130,8 +2093,7 @@ ACCIDENT - SERIOUS **N BROAD ST / E LINDEN ST*KNTSQR*11:31*1 VEH, BLOCKING, CAR 
 ***************************************************************************
 Chester County, PA (PAChesterCountyD1Parser)
 (340 RIDGE RD ,21 -- EAST) 14:04 ** ALARM - FIRE * ** 340 RIDGE RD ,21 -- EAST VINCENT ELEM SC ** 6253 ** AFA/GENERAL/ATN\n**  **
-(56 WADE DR ,21  btwn NOT) 11:43 ** ALARM - FIRE * ** 56 WADE DR ,21  btwn NOTTINGHAM DR & SHE ** 6203 ** AFA - GEN - ATN\n
-(WB BETHEL CHURCH RD WO S) 08:53 ** ACCIDENT - UNKNOWN INJURIES * **  WB BETHEL CHURCH RD WO STONEY RUN RD ,18 ** 6201 ** 1 VEH, BLOCKING, AIR BAG DEPLOYM
+(56 WADE DR ,21  btwn NOT) 11:43 ** ALARM - FIRE * ** 56 WADE DR ,21  btwn NOTTINGHAM DR & SHE ** 6203 ** AFA - GEN - ATN\n(WB BETHEL CHURCH RD WO S) 08:53 ** ACCIDENT - UNKNOWN INJURIES * **  WB BETHEL CHURCH RD WO STONEY RUN RD ,18 ** 6201 ** 1 VEH, BLOCKING, AIR BAG DEPLOYM
 ***************************************************************************
 Chester County, PA (PAChesterCountyD2Parser)
 (309 STARR ST ,15) ACCIDENT - INJURIES * * VEH VRS POLE\nDETAILS TO FOLLOW\nTYP: ACCUNK  --> ACCINJ  \nRSP: 0050   --> 0004   \n* 05/08/11 * 11:11 *
@@ -2149,8 +2111,7 @@ Chester County, PA (PAChesterCountyEParser)
 (Dispatch) 05/31/11 * 09:30:53 * HYPO TENSION - ALS * * 774 W GLENVIEW DR ,58 * PHEASANT WY & EDGEWOOD CT * PENN * - *  * 610-345-136 * 2203 *  * 22 * Dispatch *
 ***************************************************************************
 Chester County, PA (PAChesterCountyFParser)
-(Dispatch) ACCIDENT - PEDESTRIAN STRUCK * ** WB LANCASTER PK EO BETHEL RD ,56   (V) ** LWROXF **  **  ** - ** VEH VS MALE\nDETAILS TO FOLLOW\n
-(Dispatch) CARDIAC/RESP ARREST - ALS * ** 167 MOUNT PLEASANT RD ,69 ** ENOTT **  ** GRANT ST & COOPER LA ** - ** 48/F--LIPS BLUE\nDETAILS TO FOLLOW\n**
+(Dispatch) ACCIDENT - PEDESTRIAN STRUCK * ** WB LANCASTER PK EO BETHEL RD ,56   (V) ** LWROXF **  **  ** - ** VEH VS MALE\nDETAILS TO FOLLOW\n(Dispatch) CARDIAC/RESP ARREST - ALS * ** 167 MOUNT PLEASANT RD ,69 ** ENOTT **  ** GRANT ST & COOPER LA ** - ** 48/F--LIPS BLUE\nDETAILS TO FOLLOW\n**
 (Dispatch) ALARM - FIRE * ** 117 HYACINTH DR ,71 ** NEWLON ** THUNDER HILL ** RIDGE DR & MCBERTY CT ** - ** SMOKE ALARM GOING OFF - NO VIS SMOKE - 2ND FLO\nOR **
 ***************************************************************************
 Chester County, PA (PAChesterCountyGParser)
@@ -2566,7 +2527,6 @@ Sender: rc.306@c-msg.net
 Contact: terry barnes <firefighter2049@gmail.com>
 Sender: rc.236@c-msg.net
 Subject:WCo\n[!] 17430 VIRGINIA AVE - VEHICLE, AUTO FIRE -CO26,CO2,TWR26,C26,E24,E261,8FP261,ET2 - 1110036 21:12\n\n
-
 **********************************************************
 Unknown?
 Contact: Cody Shell <spiritcontra@gmail.com>
@@ -2891,12 +2851,10 @@ UD COPIAGUE, NY -SUFFOLK- BANK ROBBERY 314 GREAT NECK RD - POLISH & SLAVIC FEDER
 Contact: Robert Player <fd225ny@aol.com>
 PLAINVIEW, NY -NASSAU- PED STRUCK WOODBURY RD CS WEST GATE. SFD CHF-5800 OS RPT A PED STRUCK BY AUTO W SERIOUS INJ'S, REQ AMB-5893 FW. NY96\n
 
-
 Garden City
 Contact: Brian Gallo <tarkwolf@gmail.com>
 Sender: news@1rwn.com
 FREEPORT, NY (NASSAU) WORKING FIRE 22 PEARSALL AVE C/S N LONG BEACH AVE. E-216 RPTS FIRE ON 1 FL OF A MD. M/A E/R. NY255\n
-
 Contact: "mjty2j@aol.com" <mjty2j@aol.com>
 Sender: ispatch@firetracker.net
 (** TEST ALARM ** DO NOT RESPOND **) FSMFD 8/22/04 TOA:19:25 RESCUE   [AMBU] 292 HERRICKS ROAD CLARISSA ROAD 48 Y/O LOW BP DIFF BREATHING
@@ -2904,20 +2862,10 @@ Sender: ispatch@firetracker.net
 Contact:Mario Orlassino <morlassi@gmail.com>
 Sender: bfc-alert@bfc1.net
 System: Alarm Data Interface
-RESCUE-AMBULANCE\n18:09\n06/01/11\nELDERLY FEMALE-STROKE\n3 BALDWIN BLVD\nBAYARD AVE / KNOLLWOOD AVE\nMAP 6-C\n
-RESCUE-AMBULANCE \n16:19 \n06/13/11 \nMALE DIZZY \n80 GODFREY AVE \nMOUNTAIN AVE / MURRAY ST \nMAP 17-B \n
-GENERAL-WIRE \n19:07 \n06/14/11 \nWIRES BURNING POLE TO POLE \n122 BAYVILLE AVE \nSCHOOL ST / GARDEN ST \nMAP 7-A \n
-
+RESCUE-AMBULANCE\n18:09\n06/01/11\nELDERLY FEMALE-STROKE\n3 BALDWIN BLVD\nBAYARD AVE / KNOLLWOOD AVE\nMAP 6-C\nRESCUE-AMBULANCE \n16:19 \n06/13/11 \nMALE DIZZY \n80 GODFREY AVE \nMOUNTAIN AVE / MURRAY ST \nMAP 17-B \nGENERAL-WIRE \n19:07 \n06/14/11 \nWIRES BURNING POLE TO POLE \n122 BAYVILLE AVE \nSCHOOL ST / GARDEN ST \nMAP 7-A \n
 Contact: "Andrew Moreno" <a_moreno@verizon.net>
 Sender: 2ndSignal@secondsignal.com
-(* ) RESCUE\n
-7:29 PM\n
-181 MEADOWBROOK ROAD\n
-MERRICK\n
-AKEL CT\n
-WILLIS AVE\n
-MALE IN PAIN/PREVIOUS MVA\n
-1-516-324-2379   support@2sig.com
+(* ) RESCUE\n7:29 PM\n181 MEADOWBROOK ROAD\nMERRICK\nAKEL CT\nWILLIS AVE\nMALE IN PAIN/PREVIOUS MVA\n1-516-324-2379   support@2sig.com
 **********************************************************
 Harris County, TX
 Contact: Nathan Mathews <nbmathews807@gmail.com>
@@ -2930,9 +2878,7 @@ ID#/ 11-04-10077 / 67D03 / OUTSIDE FIRE / 14946 Lawther / BLD: / KM: 497H / CROS
 
 Contact: Richard Clark <richard686@comcast.net>
 Sender: CAD@hcesd-1.org
-FRM:CAD@hcesd-1.org\n
-MSG:\n
-ID#/ 11-03-09995 / 21B01 / Hemorrhage/Lacerations / 19110 Miller Wilson Rd / BLD:  / KM: 379R / CROSS: LAWRENCE ST/SUNDOWN MEADOWS ST
+FRM:CAD@hcesd-1.org\nMSG:\nID#/ 11-03-09995 / 21B01 / Hemorrhage/Lacerations / 19110 Miller Wilson Rd / BLD:  / KM: 379R / CROSS: LAWRENCE ST/SUNDOWN MEADOWS ST
  
 Contact: g wise <firedawg2009@gmail.com>
 Sender: CAD@hcesd-1.org
@@ -2993,12 +2939,8 @@ bnnfeed:U/D NY| Suffolk| Brentwood| *Explosion*| 43 4th St| CMD adv pri srches i
 Onslow County, NC
 Contact: Chris Bennett <fireman2497@gmail.com>
 Sender: CAD@ocmail2.onslownc.gov
-1 of 2\n
-FRM:CAD@ocmail2.onslownc.gov\n
-MSG:CAD:CONVULSIONS/SEIZURES;187 COSTON RD;RICH;10;[Medical Priority Info]
-Key Questions Complete RESPONSE:\n
-(Con't 2 of 2\n
-Delta RESPONDER SCRIPT: 13 year old, Male, Conscious, Breathing. Convulsions
+1 of 2\nFRM:CAD@ocmail2.onslownc.gov\nMSG:CAD:CONVULSIONS/SEIZURES;187 COSTON RD;RICH;10;[Medical Priority Info]
+Key Questions Complete RESPONSE:\n(Con't 2 of 2\nDelta RESPONDER SCRIPT: 13 year old, Male, Conscious, Breathing. Convulsions
 / Seizures. CONTINUOUS or MULTIPLE seizures (Epileptic or P(End)
 
 Contact: <cecilhigginbotham@gmail.com>
@@ -3017,6 +2959,10 @@ MEDICAL CALL 2589 CO. RD. 6, 75 YEAR OLD MALE COLONOSCOPY THIS MORNING. EXTREME 
 **********************************************************
 Alternate Chester County, PA
 
+Contact: Thomas Guaschino <guaschino1@gmail.com>
+Sender: adi62@ridgefirecompany.com
+1 of 2\nFRM:adi62@ridgefirecompany.com\nSUBJ:645 RIDGE RD ,18  btwn S\nMSG:Dispatch ** 02:08 ** ACCIDENT - UNKNOWN INJURIES * ** 645 RIDGE RD ,18 \n(Con't) 2 of 2\nbtwn SLONAKER RD & FUL ** IFO ** VOWLBY, COREY/H ** 6201 ** 07/10/11 ** ACCUNK ** RDGF11000542 ** ECVNTY ** \n(End)
+
 Contact: Sergio Ora <skip513@gmail.com>
 Sender: 47dispatch@gmail.com
 FRM:47dispatch@gmail.com\nMSG:TSOULES SWEENEY AND MARTIN--610-423-4200*ALARM - FIRE **29 DOWLIN FORGE RD*AFA--HEAT DETECTOR--ATN*UWCHLN
@@ -3024,29 +2970,14 @@ FRM:47dispatch@gmail.com\nMSG:TSOULES SWEENEY AND MARTIN--610-423-4200*ALARM - F
 Contact: Jonathan Kern <jtk0702@gmail.com>
 Sender: libertyfc@fdcms.com
 12:15\nHOUSE FIRE *\n691 SANDRA LA ,27  btwn VERONICA LA & AU\n\nHOUSE FULL OF SMOKE--POSS KITCHEN FIRE\nDETAILS TO FOLLOW\nLOC: 737 SANDRA
-
-Contact: Thomas Guaschino <guaschino1@gmail.com>
-Sender: adi62@ridgefirecompany.com
-1 of 2\n
-FRM:adi62@ridgefirecompany.com\n
-SUBJ:645 RIDGE RD ,18  btwn S\n
-MSG:Dispatch ** 02:08 ** ACCIDENT - UNKNOWN INJURIES * ** 645 RIDGE RD ,18
-\n
-(Con't) 2 of 2\n
-btwn SLONAKER RD & FUL ** IFO ** VOWLBY, COREY/H ** 6201 ** 07/10/11 ** ACCUNK ** RDGF11000542 ** ECVNTY ** \n(End)
  
 Contact: Bill Nestor <bnest19@gmail.com>
 Sender: wwfc.fdcms1@verizon.net
 FRM:wwfc.fdcms1@verizon.net\nSUBJ:Dispatch\nMSG:14:30 ** BRIANS HOUSE--610-594-8344- ** DEAD END & OAK LA ** ALARM - FIRE * ** 0603 ** WWHITE **
 
-Contact: Dick Guth <dguth01@gmail.com>
-Sender: lcfc73@fdcms.info
-Dispatch ** 18:00 ** ALARM - FIRE * ** 2316 CONESTOGA RD ,25 ** RITCHIE RES/610-827-9328- ** ADT/GQQ ** 877-238-7730 ** Inc
-
 Contact: Jinx Ratcliff <mysterymachinegt@yahoo.com>
 Sender: 44@westwoodfire.com
-  / Dispatch\n19:40\nBUILDING FIRE *\n1614 COBBLESTONE DR ,16  btwn FLINT DR &\n3RD FLR\nCOUZ,GABRIEL\n610-354-282\n\n
-**********************************************************
+  / Dispatch\n19:40\nBUILDING FIRE *\n1614 COBBLESTONE DR ,16  btwn FLINT DR &\n3RD FLR\nCOUZ,GABRIEL\n610-354-282\n\n**********************************************************
 Unknown
 Contact: Chris <chrisdi9@aol.com>
 Sender: Dispatch@TomsRiver.org
@@ -3057,9 +2988,7 @@ Contact: Taurean Summers <summerstaurean@gmail.com>
 Sender: From:access@mvrda.org
 Looks like Oneida County, NY parser
 
-?OFD2011-00574>Dispatched\n
->Disturbance Domestic Injury\n
->5236 MESCALERO TRL (SUNLAND AVE/WESTMORELAND AVE)
+?OFD2011-00574>Dispatched\n>Disturbance Domestic Injury\n>5236 MESCALERO TRL (SUNLAND AVE/WESTMORELAND AVE)
 
 **********************************************************
 Unknown
@@ -3110,8 +3039,7 @@ Sender: cadpage@rmetro.com
 **********************************************************
 Unknown
 Contact: Jason Reed <reedjasonf@gmail.com>
-MESSAGE / M50 MOTOR VEHICLE ACCIDENT-INJURIES  COUNTY ROAD 322  MapRegions:  CrossStreets: Description:  Dispatch: 6/22/2011 14:12:48\n\n\n\n\n
-**********************************************************
+MESSAGE / M50 MOTOR VEHICLE ACCIDENT-INJURIES  COUNTY ROAD 322  MapRegions:  CrossStreets: Description:  Dispatch: 6/22/2011 14:12:48\n\n\n\n\n**********************************************************
 Kanappolis, NC
 Contact: "jellyroll5502@yahoo.com" <jellyroll5502@yahoo.com>
 Sender: CAD@ci.kannapolis.nc.us
@@ -3211,12 +3139,7 @@ Sender: moon.dispatch@moontwpfire.com
 Unknown,
 Contact: anthony benbenek <abjconstruct@gmail.com>
 Sender: communications@easthamptonvillageny.gov
-(CALL) 07/24/2011 00:52\n
-EMS ALARM\n
-SHV 38 WALKER AV\n
-AZUREST\n
-PATTERSON\n
-BLEEDING FROM A PRIOR TONSILECTOMY
+(CALL) 07/24/2011 00:52\nEMS ALARM\nSHV 38 WALKER AV\nAZUREST\nPATTERSON\nBLEEDING FROM A PRIOR TONSILECTOMY
 **********************************************************
 Dupage County, IL
 Contact: Eric Davison <edavison22@gmail.com>
@@ -3368,8 +3291,7 @@ to: F22
 Berkley County, WV
 Contact: Keith Baker <keithbakerwv@gmail.com>
 Sender: alert@berkeleywv.org
-Subject:Alert\nDescription:FUEL CON SM\nAddress: 14000 I-81 \nMARTINSBURG\n\n
-**********************************************************
+Subject:Alert\nDescription:FUEL CON SM\nAddress: 14000 I-81 \nMARTINSBURG\n\n**********************************************************
 Kannapolis, NC (In Rowan & Cabarrus counties)
 Contact: "Ernie Hiers" <ehiers@cityofkannapolis.com>
 Sender: 93001048
@@ -3506,21 +3428,12 @@ Alleghany County, MD (alternate?)
 Contact: Jeremy <athey9014@yahoo.com>
 Contact: "Roger Bennett" <rbennett@allconet.org>  (AllCoNet.org) (Dispatch center)
 Sender: acgov_911_cad@allconet.org
-S:CAD M:08:26 #047678 BEHAVORIAL EMERGENCY 12037 IRIS AVE SW  BOX:F0801 DUE:A396 M514\n\n\n
-**********************************************************
+S:CAD M:08:26 #047678 BEHAVORIAL EMERGENCY 12037 IRIS AVE SW  BOX:F0801 DUE:A396 M514\n\n\n**********************************************************
 Unknown:
 Contact: Charlie Humert <humbert04.ch@gmail.com>
 Sender: KC-911@kc911.us
 Looks a lot like Crook County, OR
-EVENT # 1109180028 11\n
-2 - ALS MEDICAL CALL\n
-PRIORITY 1 \n
-LOCATION 137447 97 N\n
-CITY CRESCENT\n
-APT \n
-PREMISE \n
-COMMENT DIFF BREATHING\n
-62 YOF
+EVENT # 1109180028 11\n2 - ALS MEDICAL CALL\nPRIORITY 1 \nLOCATION 137447 97 N\nCITY CRESCENT\nAPT \nPREMISE \nCOMMENT DIFF BREATHING\n62 YOF
 **********************************************************
 Washington Metropolatin Airport Authority (MWAA), DC
 Contact: "Gervis, Steve" <Steve.Gervis@mwaa.com>
@@ -3563,20 +3476,7 @@ F83 ALERT: MV ACCID UNK INJ LUKOIL / 143 E WASHINGTON AVE WASHINGTON BORO (SENT 
 Lancaster, PA (alternate)
 Contact: Justin Fisher <justin62911@gmail.com>
 Sender: messaging@iamresponding.com
-FRM:messaging@iamresponding.com\n
-WBFC\nMSG:BRUSH-1A \nMANOR TWP~341 PORT RD~CONESTOGA RIVER~FRYS RUN~TAN903,ENG903,BR903,ENG907~19:44:08 \n
-**********************************************************
-Saginaw Cuonty, MI (replacement or alternate)
-Contact: Cam <rapter8me@hotmail.com>
-Sender: emergin@saginawcounty.com
-FRM:emergin@saginawcounty.com\nMSG:TRITWP ¿AD: 11245 S FORDNEY TIME: 22:16 CORRECT ADDX IS 11199 S FORDNEY\n
-
-Contact: marco isome <misome@sbcglobal.net>
-TRITWP  AD: 11245 S FORDNEY TIME: 22:16 CORRECT ADDX IS 11199 S FORDNEY
-
-Chris reports old format was working as of a couple days ago, but dispatch was upgrading software.
-Marco reports everything still working.  In particular this call worked
-**********************************************************
+FRM:messaging@iamresponding.com\nWBFC\nMSG:BRUSH-1A \nMANOR TWP~341 PORT RD~CONESTOGA RIVER~FRYS RUN~TAN903,ENG903,BR903,ENG907~19:44:08 \n**********************************************************
 Tehama County, CA
 Contact: 5309455142@messaging.sprintpcs.com
 Sender: Tgucad@fire.ca.gov
@@ -3609,8 +3509,7 @@ Smoke In The Bldg - Commercial AT: 334 Savannah Garden Dr APT:  BUS: SAVANNAH RI
 St Charles, MD (Alternate)
 Contact: Edward Cave <explorer77727@gmail.com>
 Sender: sms.dispatch@ccmedicunit.org
-  / CHEST PAINS, EMS, ALS, 10C, 10D\n\n3047 OCTOBER PL, UNIT B\n\nDISTRICT: 1338\nTG: 10 F6\n\n1119161\n10.19.11 22:19\n\nNotes:\n\n
-**********************************************************
+  / CHEST PAINS, EMS, ALS, 10C, 10D\n\n3047 OCTOBER PL, UNIT B\n\nDISTRICT: 1338\nTG: 10 F6\n\n1119161\n10.19.11 22:19\n\nNotes:\n\n**********************************************************
 Newberry County, SC
 Contact: John Flynn <jfscmedic@yahoo.com>
 Sender: 911@ncso.sc.gov
@@ -3666,15 +3565,7 @@ CITY OF TEMPLE Incidents. Caller Statement: TTA MULTIPLE INJ . TTA MULTIPLE INJ 
 Androscoggin County, ME
 Contact: Matthew Conklin <tfd949@gmail.com>
 From: asodispatch1@roadrunner.com
-S:FIRE CALL M:RT 4 AT BRODY WAY. CAR V. M/C. WITH INJURIES. \n
-S: M:Pager Test \n
-S:FIRE CALL M:91 MATTHEWb  S WAY. TURNER ELEMENTARY. FIRE ALARM ACTIVATION. SIMPLEX PANEL ZONE 1. \n
-S:fire call M:vicinity of 437 lower st. garage on fire. \n
-S:Fire Weather M:Today is a class 2 day with winds Northwest at 6-9 mph.\n
-S: M:auburn rd just north of twitchells airport. power line down across rdway.\n
-S:Fire Weather M:Today is a class 1 day with winds South/Southwest @ 5 mph.\n
-S:Fire Call M:Wire down vicinity of 15 Magnum Dr. Caller heard a loud band just prior. Power still on in the area. \n
-**********************************************************
+S:FIRE CALL M:RT 4 AT BRODY WAY. CAR V. M/C. WITH INJURIES. \nS: M:Pager Test \nS:FIRE CALL M:91 MATTHEWb  S WAY. TURNER ELEMENTARY. FIRE ALARM ACTIVATION. SIMPLEX PANEL ZONE 1. \nS:fire call M:vicinity of 437 lower st. garage on fire. \nS:Fire Weather M:Today is a class 2 day with winds Northwest at 6-9 mph.\nS: M:auburn rd just north of twitchells airport. power line down across rdway.\nS:Fire Weather M:Today is a class 1 day with winds South/Southwest @ 5 mph.\nS:Fire Call M:Wire down vicinity of 15 Magnum Dr. Caller heard a loud band just prior. Power still on in the area. \n**********************************************************
 Broome County, NY (alternate?)
 Contact: "Tom Vroman" <Tvroman@ix.netcom.com>
 Sender: mplus@co.broome.ny.us
@@ -3776,8 +3667,7 @@ FIRESTA31, TK69, T68, E68-2, T28, T31-1~*
 Orange County, VA (alternate or replacement)
 Contact: Kenneth Lebrun <klebrun24@gmail.com>
 Sender: messaging@iamresponding.com
-(GVFC)  LAMS DR   Outside Fire   [INCIDENT#]: 2011-00005083 19:09 Louisa County\n\n
-(GVFC)  8627 JAMES MADISON HWY   AA- Auto Accident  [INCIDENT#]: 2011-00005159 05:43 Louisa County  driver is out  one vehicle  map
+(GVFC)  LAMS DR   Outside Fire   [INCIDENT#]: 2011-00005083 19:09 Louisa County\n\n(GVFC)  8627 JAMES MADISON HWY   AA- Auto Accident  [INCIDENT#]: 2011-00005159 05:43 Louisa County  driver is out  one vehicle  map
 **********************************************************
 Unknown?
 Contact: David Silva <david.silva92@yahoo.com>
@@ -3800,8 +3690,7 @@ Rural medical report to the fire station   \n14390 hw 34 space 53
 Montgomery County, PA (alternate)
 Contact: Matt Sibley <msibley53@yahoo.com>
 Sender: adi53@comcast.net
-Alarm Close / 10:38 ** BUILDING FIRE NON-COMMERCIAL ** 472 5TH ST ** - ** 66-10 ** WASHINGTON ST AND WAYNE AVE ** \n
-**********************************************************
+Alarm Close / 10:38 ** BUILDING FIRE NON-COMMERCIAL ** 472 5TH ST ** - ** 66-10 ** WASHINGTON ST AND WAYNE AVE ** \n**********************************************************
 Unknown
 Contact: Ryan Klackle <klacklery@gmail.com>
 CAD:828-151A E Washington ST;1107030;[Medical Priority Info] RESPONSE; Amb & Rescue RESPONDER SCRIPT: 80 year old, Female, Conscious, Breathing. ALTERED LEVEL OF C
@@ -3822,17 +3711,11 @@ Switzerland County, IN
 Contact: Cody McNeely <poseyvfd78209@yahoo.com>
 
 Sender: @scso-in.org
-Subject:SWITZERLAND COUNTY SHERIFF'S OFFICE (IN)\n20147 hansman ln\n\n75 yo male fell hurt ankel\n
-Subject:SWITZERLAND COUNTY SHERIFF'S OFFICE (IN)\n10303 searcy ridge rd\n70 year old female injured in fall\nconcious and breathing\n
-
+Subject:SWITZERLAND COUNTY SHERIFF'S OFFICE (IN)\n20147 hansman ln\n\n75 yo male fell hurt ankel\nSubject:SWITZERLAND COUNTY SHERIFF'S OFFICE (IN)\n10303 searcy ridge rd\n70 year old female injured in fall\nconcious and breathing\n
 Sender: messaging@iamresponding.com
-Subject:PVFD\nPosey first responders run to 14612 antioch road 58 year old male bleeding\nfrom sore on hip\n\n\n
-Subject:PVFD\nantioch rd near shawnee campground\n10-50 P I\n\n\n
-
+Subject:PVFD\nPosey first responders run to 14612 antioch road 58 year old male bleeding\nfrom sore on hip\n\n\nSubject:PVFD\nantioch rd near shawnee campground\n10-50 P I\n\n\n
 Sender: colin.english@rocketmail.com
-Subject:PVFD\nbusiness meeting and elections tongiht all members to attendand per 201\n
-Subject:PVFD\nATTN POSEY FIRE MEMBERS MANDOTORY HAZMAT REFRESHER TRAINING TONIGHT @ 6PM\n
-**********************************************************
+Subject:PVFD\nbusiness meeting and elections tongiht all members to attendand per 201\nSubject:PVFD\nATTN POSEY FIRE MEMBERS MANDOTORY HAZMAT REFRESHER TRAINING TONIGHT @ 6PM\n**********************************************************
 Loudoun County, VA (alternate?)
 Contact: "tom_tuck@hotmail.com" <tom_tuck@hotmail.com>
 Sender: alert_76507@mail.emacoop.loudoun.gov
@@ -3859,7 +3742,6 @@ Unknown
 Contact; Wayne Jackson <southhillfire721@yahoo.com>
 Sender: swpage@vameck911.comcastbiz.net
 Subject:MECK 911\n11-030267 ACCIDENT W/INJURY\nNB I-85 MM 4\n//\nNB INTERSTATE EIGHTY-FIVE - MM 04  MECK CO\nCO#7 SSRS VSP\n\n
-
 Contact: Michael Herndon <mherndonffemt@gmail.com>
 Sender: swpage@vameck911.comcastbiz.net
 (MECK 911) 12-001451 SUBJECT FALLEN\n5539 HIGHWAY FORTY-SEVEN\n//\nCHASE CITY NURSING AND REHAB CENTER  MECK CO\nCCRS
@@ -3879,8 +3761,7 @@ TRT TEAM NEEDED AT 700 ALEXANDRIA PIKE IN FT THOMAS @ NKY WATER SERVICE SUBJECT 
 Unknown, NY
 Contact: Mike ECFW <webmaster@ecfwire.com>
 Sender: news@1rwn.com
-  / DEPEW, NY -ERIE- *WORKING FIRE* 108 WYANDOTTE ST CS LAVERACK AVE. SVCS OS ADV ATTIC FIRE IN A 1 STY OCC DWG. 1 LSO.  MA REQ TO SCN. NY537\n\n
-**********************************************************
+  / DEPEW, NY -ERIE- *WORKING FIRE* 108 WYANDOTTE ST CS LAVERACK AVE. SVCS OS ADV ATTIC FIRE IN A 1 STY OCC DWG. 1 LSO.  MA REQ TO SCN. NY537\n\n**********************************************************
 Lincoln County, NC (or not) (alternate)
 Contact: Craig Spry <kcspry@gmail.com>
 Sender: paging@rcscom.com
@@ -3900,8 +3781,7 @@ CAD:BREATHING PROBLEMS;006;5812 NC71 HWY N;REV BILL RD;ARTHUR RD;12002171;[Medic
 Orange County, NY
 Contact: Ian Zuckerman <izuckerman5632@gmail.com>
 Sender: OC911@co.orange.ny.us
-DEPT37     AD: WEBB RD LOC: BOX 37-10 TIME: 15:21 TYP: STRUCTURE FIRE 2ND ALARM TRANSMITTED FOR VACANT HOUSE FIRE\n\n\n
-**********************************************************
+DEPT37     AD: WEBB RD LOC: BOX 37-10 TIME: 15:21 TYP: STRUCTURE FIRE 2ND ALARM TRANSMITTED FOR VACANT HOUSE FIRE\n\n\n**********************************************************
 Orange County, NY (alternate)
 Contact: Mark Rosen <mrosen922@gmail.com>
 Sender: rc.485@c-msg.net
@@ -3910,8 +3790,7 @@ Sender: rc.485@c-msg.net
 Contact: Tim Hank <goofytc@hotmail.com>
 Code Messaging acct #485
 [mCAD] DEPT24  TYP: ALS MEDICAL CALL |516 TOWER AVE |MAYBROOK /MERRADIC HEART BEAT 86 YEAR OLD MALE CONSCIOUS BREATHING 1)HE IS COMPL ETELY ALERT (RESPONDING APPROPRIATELY) 2)HE IS BREATHING NORMALLY 3)HEIS XST: 101 JEWELL ST /101 SPRING ST      This message has been scanned for malware.  
-[mCAD] DEPT24 \tTYP: ALS MEDICAL CALL |305 HIGHLAND AVE |MAYBROOK /LHUSBAND SUICIDAL SUICIDAL PERSON / ATTEMPTED SUICIDE 1)THE CALLER IS ON SCENE BUT IS NOT THE VICTIM/SUSPECT (2ND PARTY) 2)THIS INCIDENT IS IN XST: BROADWAY \n
-**********************************************************
+[mCAD] DEPT24 \tTYP: ALS MEDICAL CALL |305 HIGHLAND AVE |MAYBROOK /LHUSBAND SUICIDAL SUICIDAL PERSON / ATTEMPTED SUICIDE 1)THE CALLER IS ON SCENE BUT IS NOT THE VICTIM/SUSPECT (2ND PARTY) 2)THIS INCIDENT IS IN XST: BROADWAY \n**********************************************************
 Unknown
 Contact: 2158284694@messaging.sprintpcs.com
 Subject:Station 71 & 81\nFAPT   Box:71038 adr: 106 DISPATCH DR ,72 bt
@@ -3937,11 +3816,8 @@ Contact: Andrew H <modernmidnight@gmail.com>
 Tipton County, TN
 Contact: Franklin Brown <franklin.brown4782@gmail.com>
 Sender: tipton911dispatch@gmail.com
-6 56 03 Transp = Arrive = Avail  =  7 18 43 Rpt # = 00-TS000000\n
-- null - ACK OF HEAD 0647,005 TAU3 ,TSFD1 (02/02)\n
-- null - Ic# 162 EMS Ds# 540916 Al# 1 Utl# BEA-VER 02/27/12 650 JIMMY PAYNE RD TC :( ) BEAVER CREEK RD 49 YO MALE SICKLE C
-6 Transp = Arrive = Avail  = 17 32 05 Rpt # = 00-TS000000\n
-- null - Ic# 106 EMS Ds# 540916 Al# 1 Utl# BEA-VER 02/26/12 1056 WRIGHT RD TC :( ) BEAVER CREEK RD 60 Y/O MALE FALLEN PART
+6 56 03 Transp = Arrive = Avail  =  7 18 43 Rpt # = 00-TS000000\n- null - ACK OF HEAD 0647,005 TAU3 ,TSFD1 (02/02)\n- null - Ic# 162 EMS Ds# 540916 Al# 1 Utl# BEA-VER 02/27/12 650 JIMMY PAYNE RD TC :( ) BEAVER CREEK RD 49 YO MALE SICKLE C
+6 Transp = Arrive = Avail  = 17 32 05 Rpt # = 00-TS000000\n- null - Ic# 106 EMS Ds# 540916 Al# 1 Utl# BEA-VER 02/26/12 1056 WRIGHT RD TC :( ) BEAVER CREEK RD 60 Y/O MALE FALLEN PART
 FELL AND HIT HER HEAD // IS BLEEDING // NOT ON BLOOD THINNERS // FELL WHILE USING HER WALKING AND HIT HEAD ON DOOR // B (0
 Y/ /UNKN INJURIES //ALTER MENTAL STATUS TAU3 ,TSFD1 Name(HOOD, JIMMY) P#/Type(476-0036/ City = BRIGHTON ,State = ,Zip C (0 E
 - null - Ic# 169 MVCU Ds# 540916 Al# 1 Utl# HIL-LTO 02/28/12 5021 HWY 14 S HY TC :( ) HILLTOP CR SINGLE VEHICLE VS DEER UN
@@ -4067,14 +3943,11 @@ Subject:Dispatch\n09:22 ** SPECIAL SERVICE ** 6 LAWRENCE RD ** - ** 66-06 ** LPR
 New Castle County, DE
 Contact: Matthew Comegys <mcomegys2832@gmail.com>
 Sender: rc.69@c-msg.net
-15CAD / ESC:??DSC:DIFF BREATHING ?! PAT:1 SEX:Female AGE:30Years CON:Y BRE:Y\n\n
-15CAD / ESC:??DSC:DIFF BREATHING ?! PAT:1 SEX:Female AGE:30Years CON:Y BRE:Y\n\n
-
+15CAD / ESC:??DSC:DIFF BREATHING ?! PAT:1 SEX:Female AGE:30Years CON:Y BRE:Y\n\n15CAD / ESC:??DSC:DIFF BREATHING ?! PAT:1 SEX:Female AGE:30Years CON:Y BRE:Y\n\n
 New Castle County, DE
 Contact: TRACY VOHWINKLE <twinpeaks001@gmail.com
 Sender: rc.32@c-msg.net
-21CAD / URINATE PAT:1 SEX:Male AGE:82Years CON:Y BRE:Y?!\n
-**********************************************************
+21CAD / URINATE PAT:1 SEX:Male AGE:82Years CON:Y BRE:Y?!\n**********************************************************
 Nassau County, NY (alternate)
 Contact: Besnik Gjonlekaj <tigerfdny@gmail.com>
 Sender: Alarm@WHFD.com
@@ -4300,44 +4173,10 @@ prvs=0484c9755a=dispatch@jeffersoncountypa.com (Incident) Fire - Alarm. 3823 ROU
 Pierce County, WA
 Contact: swampjeep01 <swampjeep01@gmail.com>
 Sender: 41411
-Body:FIRE911\n
-\n
-31D3 @ 16:57:29\r\n
-DLOC\r\n
-6505 CLIFF AV KS,16\r\n
-Map=300,RD=16- 400\r\n
-to: F16\n
-\n
-Powered by m.textmarks.com\n
-\n
-*Psoriasis treatment option http://4in.fo/gP_Gbw
-Body:FIRE911\n
-\n
-26C1 @ 02:48:37\r\n
-ALTERED LOC\r\n
-2627 200TH AV KS,16\r\n
-Map=195,RD=16- 320\r\n
-to: F16\n
-\n
-Powered by m.textmarks.com
-Body:FIRE911\n
-\n
-19C7 @ 11:23:01\r\n
-HEART PROB\r\n
-19515 28TH ST KS,16\r\n
-Map=195,RD=16- 320\r\n
-to: F16\n
-\n
-Powered by m.textmarks.com
-Body:FIRE911\n
-\n
-26B1 @ 14:42:53\r\n
-WELFARE CHECK\r\n
-14201 134TH ST KN,16\r\n
-Map=18,RD=16- 500\r\n
-to: F16\n
-\n
-Powered by m.textmarks.com
+Body:FIRE911\n\n31D3 @ 16:57:29\r\nDLOC\r\n6505 CLIFF AV KS,16\r\nMap=300,RD=16- 400\r\nto: F16\n\nPowered by m.textmarks.com\n\n*Psoriasis treatment option http://4in.fo/gP_Gbw
+Body:FIRE911\n\n26C1 @ 02:48:37\r\nALTERED LOC\r\n2627 200TH AV KS,16\r\nMap=195,RD=16- 320\r\nto: F16\n\nPowered by m.textmarks.com
+Body:FIRE911\n\n19C7 @ 11:23:01\r\nHEART PROB\r\n19515 28TH ST KS,16\r\nMap=195,RD=16- 320\r\nto: F16\n\nPowered by m.textmarks.com
+Body:FIRE911\n\n26B1 @ 14:42:53\r\nWELFARE CHECK\r\n14201 134TH ST KN,16\r\nMap=18,RD=16- 500\r\nto: F16\n\nPowered by m.textmarks.com
 **********************************************************
 Nassau County, NY
 Contact:  Debbie glowinski <luvmy4cats_2001@yahoo.com>
@@ -4949,12 +4788,6 @@ Contact: "sta32jp@yahoo.com" <sta32jp@yahoo.com>
 Sender: linn911@linnsheriff.org
 FRM:linn911@linnsheriff.org\nSUBJ:!\nMSG:DIABETIC PROB/32717 OLD MILL RD/06-08-12/21:20:12/63 year old, Male, Conscious, Breathing.  Diabetic/E32/
 **********************************************************
-Saginaw County, MI  (replace!?)
-Contact: David Smigiel <bportfire2@gmail.com>
-Sender: 27538
-System: NXT
-LOC:S PORTSMOUTH RD / KING RD DESC:LAT: <43.384720>  LONG: <-83.837678> APT: TYP:*M*PDA PIN IN JUST OCCU
-**********************************************************
 Stamford, CT
 Contact: "skearns80@yahoo.com" <skearns80@yahoo.com>
  * 107 EAGLE DR* * * * * 654 STRUCT* * * 203-274-3396* * * * * 6/11/2012 5:32:43 PM : pos2 : SESTABROOK CALLER AND HIS WIFE WILL BE OUT
@@ -4989,22 +4822,59 @@ MSG:E18-1 11020566     Fire Alarm - Co  5045 S State Route 99 E F E ARCH RD/E SU
 
 Contact: David Reinhard <r26loki@hotmail.com>
 Sender: LifecomCellPaging@amr.net
-Body: 1 of 2\n
-FRM:LifecomCellPaging@amr.net\n
-MSG:      12014058     Vegetation Fire 30000 S Kasson Rd              E LINNE RD/E DEODARA T386            \n
-(Con't) 2 of 2\n
-    Assigned Units: E9-3,E9-2,E26-2,BC9-0\r\n
-(End)
+Body: 1 of 2\nFRM:LifecomCellPaging@amr.net\nMSG:      12014058     Vegetation Fire 30000 S Kasson Rd              E LINNE RD/E DEODARA T386            \n(Con't) 2 of 2\n    Assigned Units: E9-3,E9-2,E26-2,BC9-0\r\n(End)
 
 12014058     Vegetation Fire 30000 S Kasson Rd              E LINNE RD/E DEODARA T386     Assigned Units: E9-3,E9-2,E26-2,BC9-0
 **********************************************************
 **********************************************************
 ************  READY TO ROLL ******************************
 **********************************************************
-Chester County, PA (alternate)
-Contact: support@active911.com
-https://www.active911.com/interface/parser_report.php?key=393-cfXqP
 **********************************************************
+**********************************************************
+**********************************************************
+**********************************************************
+Saginaw County, MI (replacement)
+Contact: David Smigiel <bportfire2@gmail.com>
+Sender: 27538
+System: NXT
+LOC:S PORTSMOUTH RD / KING RD DESC:LAT: <43.384720>  LONG: <-83.837678> APT: TYP:*M*PDA PIN IN JUST OCCU
+
+Contact: "tld2a@sbcglobal.net" <tld2a@sbcglobal.net>
+Sender: 27538
+LOC:2673 OHIO DESC:52/M DIFF BREATHING/CHEST PAINS APT: TYP:*M*SICK PERSON IN PROGRESS
+LOC:2673 OHIO DESC:52/M DIFF BREATHING/CHEST PAINS APT: TYP:*M*SICK PERSON IN PROGRESS
+LOC:3833 ORANGE ST DESC:79/F DIFF BREATHING/CHEST PAIN APT: TYP:*M*SICK PERSON IN PROGRESS
+LOC:3459 WOODLAND CT DESC:86 FE DIFF BREATHING APT: TYP:*M*SICK PERSON IN PROGRESS
+LOC:4030 JORDAN DR DESC:80/M  CHEST PAIN APT: TYP:*M*SICK PERSON IN PROGRESS
+LOC:S PORTSMOUTH RD / KING RD DESC:LAT: <43.384720>  LONG: <-83.837678> APT: TYP:*M*PDA PIN IN JUST OCCU
+LOC:7723 DIXIE HWY DESC: APT: TYP:*M*FIRE OUTSIDE
+LOC:2895 E MOORE RD DESC:80F CHEST PAIN APT: TYP:*M*SICK PERSON IN PROGRESS
+**********************************************************
+Harris County, TX (NWEMS)
+Contact: "Charles O'Quin" <charles.oquin@nwems.org>
+Sender: cad@nwems.org
+Possibly DispatchA3
+  / * 13415 MEDICAL COMPLEX DR* 320* * * * 01C05* ABD PAIN -Males w/pain above navel* * * M-1* * * * *\n  / * 28602 TOMBALL PKWY* * * * * 19D04* HEART PROBLEMS-Clammy* * * M-1* * * * *
+  / * 502 JAMES ST* * * * * 17A01* FALL - Not Dangerous* * * M-1* * * * *
+  / * 605 HOLDERRIETH BLVD* 527* * * * 33A02* OUT OF DISTRICT TRANSFER* * * M-1* * * * *
+  / * 1019 HICKORY POST CT* * * * * OVERDOSE* OVERDOGE/INGESTION* * * M-1* * * * *
+**********************************************************
+Gooding County, ID
+Contact: Christopher Bailey <wvfd9240@yahoo.com>
+Sender: PagingService@sircomm.com
+Also here is a list of the citys in Gooding County. Gooding, Wendell, Hagerman, Bliss
+
+ SIRCOMM / 1:34 PM\nNEW EVENT WND092\nFIRE\nFIRE ALL OTHER OR UN\n2000 E 3100 SOUTH\nWND AREA\n
+ SIRCOMM / 1:55 AM\nNEW EVENT WND092\nACCU\nACCIDENT W/UNKNOWN I\n2285 E 3300 SOUTH\nWND AREA\n
+ SIRCOMM / 9:59 PM\nNEW EVENT WND092\nFIREI\nFIRE INVESTIGATION\n1511 E 3600 SOUTH\nWND AREA\n
+ SIRCOMM / 12:39 PM\nNEW EVENT WND092\n911\n911 DROP OFF/OPEN LI\n2175 E 3600 SOUTH\nWND AREA\n
+ SIRCOMM / 7:39 AM\nNEW EVENT WND092\nFIREV\nVEHICLE FIRE\n3232 S 1800 EAST\nWND AREA\n
+ SIRCOMM / 8:58 AM\nNEW EVENT WND092\nUT\nUTILITY PROBLEMS\n336 3RD AVE E\nWENDELL\n
+ SIRCOMM / 7:33 AM\nNEW EVENT WND092\nFIREB\nBRUSH/GRASS FIRE\n1425 E 2700 SOUTH\nWND AREA\n
+ SIRCOMM / 9:14 PM\nNEW EVENT WND092\nFIREI\nFIRE INVESTIGATION\n1800 E 2800 SOUTH\nWND AREA\n
+ SIRCOMM / 8:28 PM\nNEW EVENT WND092\nFIREB\nBRUSH/GRASS FIRE\n2132 NIAGRA SPRINGS GR\nWND AREA\n
+ SIRCOMM / 8:52 AM\nNEW EVENT WND092\nUT\nUTILITY PROBLEMS\n145 N HAGERMAN ST\nWENDELL\n
+ **********************************************************
 Crawford County, MO
 Contact: support@active911.com
 https://www.active911.com/interface/parser_report.php?key=743-DQXxP
@@ -5052,16 +4922,6 @@ From: "PW-RSAN #2NS2" <_2NS2@rsan.pwcgov.org>
 (Working Incident - MVA Extrication) Event Type: Auto Acc with extrication  \n Inc. Address: I-95 South 156.2 MM   \n Box Number: 2087  \n Radio Channel: 5C   \n Command: E512   \n Comments: Auto accident involving several vehicles and a Tanker Placard 1993, no active leaks. One pt. needing extrication.\n \n Sent by PW Alert to FSIGEVENT through Prince William County RSAN\n \n --\n \n - update your account at https://rsan1.rsan.pwcgov.org
 (Working Incident) Event Type: ACCX  \n Inc. Address: I95 SB 152MM  \n Box Number: 1087  \n Radio Channel: 5C  \n Command: 5D//BC507 (BAUM)  \n Comments: UNITS ON SCENE REPORTING 1 DOA//5 ALS//1 BLS//2 PT REFUSALS\n \n Sent by PW Alert to FSIGEVENT through Prince William County RSAN\n \n --\n \n - update your account at https://rsan1.rsan.pwcgov.org
 **********************************************************
-Harris County, TX (NWEMS)
-Contact: "Charles O'Quin" <charles.oquin@nwems.org>
-Sender: cad@nwems.org
-Possibly DispatchA3
-  / * 13415 MEDICAL COMPLEX DR* 320* * * * 01C05* ABD PAIN -Males w/pain above navel* * * M-1* * * * *\n
-  / * 28602 TOMBALL PKWY* * * * * 19D04* HEART PROBLEMS-Clammy* * * M-1* * * * *
-  / * 502 JAMES ST* * * * * 17A01* FALL - Not Dangerous* * * M-1* * * * *
-  / * 605 HOLDERRIETH BLVD* 527* * * * 33A02* OUT OF DISTRICT TRANSFER* * * M-1* * * * *
-  / * 1019 HICKORY POST CT* * * * * OVERDOSE* OVERDOGE/INGESTION* * * M-1* * * * *
-**********************************************************
 Jasper County, MO (alternate)
 Contact: support@active911.com
 Sender: Michael White <mwhite@rmfd.org>
@@ -5098,7 +4958,4 @@ Agency name: Redings Mill Fire District Location: Joplin, MO
 (911 CALL) 4257 HIGHWAY NN  CrossStreets: BROADLAWN BLVD 0.35 mi NW CLIFF LN 0.18 mi SE SICK PERSON ESN: pg4/38 Call Number: 771825
 (911 CALL) 4368 OLD HIGHWAY 71 SAGAMOUNT BIBLE CAMP CrossStreets: HAROLD LN 0.18 mi SE CHRISTY LN 0.22 mi NW OUTSIDE FIRE ESN: pg9 Call Number: 771831
 (911 CALL) 4704 ELM DR  CrossStreets: CARTER LN 0.23 mi W HIGHWAY 43 0.23 mi E TA INJURY ESN: pg5 Call Number: 771874
-**********************************************************
-**********************************************************
-**********************************************************
 **********************************************************

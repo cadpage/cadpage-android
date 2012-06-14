@@ -1054,6 +1054,16 @@ public abstract class MsgParser {
      spt = match.end();
      return match;
    }
+   
+   /**
+    * Convenience method to return first group of a pattern match
+    * @param ptn Pattern to be searched for
+    * @return First group value if match found, empty string otherwise
+    */
+   public String getMatcherValue(Pattern ptn) {
+     Matcher match = getMatcher(ptn);
+     return match == null ? "" : match.group(1);
+   }
  }
 
  /**
