@@ -26,4 +26,10 @@ public class MDPrinceGeorgesCountyParserTest {
     }
   }
   
+  public static class TestE extends MDPrinceGeorgesCountyEParserTest {
+    public TestE() {
+      setParser(new MDPrinceGeorgesCountyParser());
+    }
+  }
+  
 }
