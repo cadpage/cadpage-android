@@ -1,5 +1,6 @@
 package net.anei.cadpage.parsers;
 
+import java.text.DateFormat;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashSet;
@@ -2051,6 +2052,8 @@ public class FieldProgramParser extends SmartAddressParser {
    */
   public class TimeField extends Field {
     
+    private DateFormat fmt = null;
+    
     public TimeField() {};
     public TimeField(String pattern) {
       super(pattern);
@@ -2058,10 +2061,14 @@ public class FieldProgramParser extends SmartAddressParser {
     public TimeField(String pattern, boolean hardPattern) {
       super(pattern, hardPattern);
     }
+    public TimeField(DateFormat fmt) {
+      this.fmt = fmt;
+    }
 
     @Override
     public void parse(String field, Data data) {
-      data.strTime = field;
+      if (fmt != null) setTime(fmt, field, data);
+      else data.strTime = field;
     }
   }
 

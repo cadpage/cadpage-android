@@ -336,6 +336,7 @@
     <item>GAWebsterCounty</item>
     <item>GAWhitfieldCounty</item>
     <item>IDBlaineCounty</item>
+    <item>IDGoodingCounty</item>
     <item>IDKootenaiCounty</item>
     <item>ILChampaignUrbana</item>
     <item>ILCookCounty</item>
@@ -564,6 +565,7 @@
     <item>ORDeschutesCounty</item>
     <item>ORKlamathCounty</item>
     <item>ORLaneCounty</item>
+    <item>ORLincolnCity</item>
     <item>ORLinnCounty</item>
     <item>ORMarionCountyN</item>
     <item>ORWashingtonCounty</item>
@@ -770,6 +772,7 @@
     <item>Webster County, GA</item>
     <item>Whitfield County, GA</item>
     <item>Blaine County, ID</item>
+    <item>Gooding County, ID</item>
     <item>Kootenai County, ID</item>
     <item>Champaign-Urbana, IL</item>
     <item>Cook County, IL</item>
@@ -998,6 +1001,7 @@
     <item>Deschutes County, OR</item>
     <item>Klamath County, OR</item>
     <item>Lane County, OR</item>
+    <item>Lincoln City, OR</item>
     <item>Linn County, OR</item>
     <item>Marion County(N), OR</item>
     <item>Washington County, OR</item>
