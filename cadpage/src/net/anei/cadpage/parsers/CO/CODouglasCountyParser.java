@@ -20,7 +20,11 @@ Elbert County (dispatched through Douglas County)
 Contact: Ian McQueen <imcqueen@gmail.com>
 Sender: dcso@douglas.co.us
 (Dispatch) Call: F MED ASSIST Location: S PINE ST / SPRUCE ST Map: AJ44 Units: MED271 E273 XXX271  Common Name: Time: 09/20/11 17:13 Narrative:  PER LE 473 PINE
-(Dispatch) Call: F MED ASSIST Location: CR 136 / PADDOCK ST EOPS1 Map: AJ44 Units: MED271 E271 XXX272\2sCommon Name: Time: 09/23/11 13:06 Narrative:\2sNature Of Ca
+(Dispatch) Call: F MED ASSIST Location: CR 136 / PADDOCK ST EOPS1 Map: AJ44 Units: MED271 E271 XXX272  Common Name: Time: 09/23/11 13:06 Narrative:  Nature Of Ca
+
+Contact: "ericjoern@pm.sprint.com" <ericjoern@pm.sprint.com>
+Subject:Dispatch\nCall: F LIGHTNING Location: STATE HIGHWAY 86 / CHEROKEE TRL Map: AJ42 Units: E271 XXX271  Common Name: Time: 06/13/12 21:06
+Subject:Dispatch\nCall: F BRUSH (T) Location: 4495 W KIOWA CREEK RD / Map: AV44 Units: XXX231 XXX271  BADGER LN / PUMA DR Common Name: Time:
 
  */
 
