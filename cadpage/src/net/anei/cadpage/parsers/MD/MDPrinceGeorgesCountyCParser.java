@@ -7,7 +7,10 @@ import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /*
-Prince Georges County, MD (Replacement for C)
+Things are a bit confused, this probably obsolete and superseeded by the D variant.  But we are keeping it for
+a while to things settle down
+
+Prince Georges County, MD
 Contact: "Khaloughi, Kayman" <kkhaloughi@co.pg.md.us>
 Sender: @alert.princegeorgescountymd.gov - now
 Sender: @alert.co.pg.md.us - soon
@@ -72,7 +75,6 @@ Sender: @alert.co.pg.md.us
 (CAD Feed) F121460246: Medic Local, 115 CENTERWAY RD, GP, btwn SOUTHWAY and GARDENWAY, TGA2, 3510, Units:A814B, E835, MD812
 (CAD Feed) F121450096: PIA Limited Access, NB BALTIMORE WASHINGTON PKY NB/EB RIVERDALE RD, PP, at NB BALTIMORE WASHINGTON PKY NB/EB RIVERDALE RD, PP <6499, TGB3, 3517, Units:A814B, E835, SQ814
 (CAD Feed) F121450147: Building Fire, CHECKERS - GREENBELT, PP, at 6051 GREENBELT RD, PP, TGA3, 1410, Units:BO886, E807B, E811, E831B, E835, TK801, TK812, TK814
-
 
 */
 
