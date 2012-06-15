@@ -61,6 +61,16 @@ public class MISaginawCountyParserTest extends BaseParserTest {
  
   }
   
+  @Test
+  public void testChrisGerding() {
+
+    doTest("T1",
+        "LOC:NICHOLS RD / ASHMAN DESC:ENG SQUAD TENDER APT: TYP:*M*MUTUAL AID",
+        "ADDR:NICHOLS RD & ASHMAN",
+        "CALL:ENG SQUAD TENDER");
+
+  }
+  
   public static void main(String[] args) {
     new MISaginawCountyParserTest().generateTests("T1");
   }
