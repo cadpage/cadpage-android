@@ -57,13 +57,32 @@ public class CODouglasCountyParserTest extends BaseParserTest {
         "UNIT:MED271 E273 XXX271");
 
     doTest("T2",
-        "(Dispatch) Call: F MED ASSIST Location: CR 136 / PADDOCK ST EOPS1 Map: AJ44 Units: MED271 E271 XXX272\2sCommon Name: Time: 09/23/11 13:06 Narrative:\2sNature Of Ca",
+        "(Dispatch) Call: F MED ASSIST Location: CR 136 / PADDOCK ST EOPS1 Map: AJ44 Units: MED271 E271 XXX272  Common Name: Time: 09/23/11 13:06 Narrative:  Nature Of Ca",
         "CALL:F MED ASSIST",
         "ADDR:CR 136 & PADDOCK ST",
         "MADDR:COUNTY ROAD 136 & PADDOCK ST",
         "CH:EOPS1",
         "MAP:AJ44",
-        "UNIT:MED271 E271 XXX272\2sCommon Name:");
+        "UNIT:MED271 E271 XXX272");
+
+    doTest("T3",
+        "Subject:Dispatch\n" +
+        "Call: F LIGHTNING Location: STATE HIGHWAY 86 / CHEROKEE TRL Map: AJ42 Units: E271 XXX271  Common Name: Time: 06/13/12 21:06",
+
+        "CALL:F LIGHTNING",
+        "ADDR:STATE HIGHWAY 86 & CHEROKEE TRL",
+        "MAP:AJ42",
+        "UNIT:E271 XXX271");
+
+    doTest("T4",
+        "Subject:Dispatch\n" +
+        "Call: F BRUSH (T) Location: 4495 W KIOWA CREEK RD / Map: AV44 Units: XXX231 XXX271  BADGER LN / PUMA DR Common Name: Time:",
+
+        "CALL:F BRUSH (T)",
+        "ADDR:4495 W KIOWA CREEK RD",
+        "MAP:AV44",
+        "UNIT:XXX231 XXX271",
+        "X:BADGER LN / PUMA DR");
 
   }
   
