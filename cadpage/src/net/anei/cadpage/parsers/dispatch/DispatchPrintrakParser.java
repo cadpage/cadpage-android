@@ -101,6 +101,21 @@ RESET ALARM AD: 5230 102 ST W LOC: TARNHILL APARTMENTS CMT1: ON 3RD FLOOR WESTEN
 STRUCTURE FIRE AD: 8100 HIGHWOOD DR LOC: FRIENDSHIP VILLAGE/M CMT1: MALE WITH LEG TRAPPED IN MECHANISM OF ELEVATOR
 ELEVATOR RESCUE AD: 5401 GREEN VALLEY DR LOC: CROWNE PLAZA HOTEL CMT1: ONE STUCK IN ELEVATOR FOR 20 MIN - IN SOUTH TOWER BET 5TH
 
+Calhoun County, MI
+PRI: 0 INC: F15111123000853 TYP: UNKN ROLLOVER ACC AD: 10921 BELLEVUE RD CTY: PT CN: GAW, LEWIS TIME: 07:30 151531 XST: 20199 11
+PRI: 2 INC: F15111123000852 TYP: TREE/LIMB DOWN AD: CLEAR LAKE RD&WALKINSHAW RD CTY: PT CN: BILL BAMMER CMT1: TREE DOWN BLOCKING
+PRI: 1 INC: F15111122000851 TYP: P1 MEDICAL APT: 19 AD: 1419 NE CAPITAL AVE CTY: PT LOC: PINES AT PENNFIELD CN: FEMALE CMT1: PIN
+PRI: 2 INC: F15111121000849 TYP: CITIZEN ASSIST AD: 1427 NE CAPITAL AVE CTY: PT LOC: PINES AT PENNFIELD CN: TAKESH WORTHEM CMT1:
+PRI: 1 INC: F15111121000850 TYP: P1 MEDICAL AD: 23650 M78 CTY: PT LOC: MELVIN WHITING RESD CN: LIFEALERT CMT1: --89YOM--HEART BE
+PRI: 2 INC: F15111121000849 TYP: CITIZEN ASSIST AD: 1427 NE CAPITAL AVE CTY: PT LOC: PINES AT PENNFIELD CN: TAKESH WORTHEM CMT1:
+[] PRI: 1 INC: F07120614000534 TYP: BRUSH/GRASS FIRE AD: 321 SAWYER ST CTY: ET LOC: CALLBK=(517)962-1010 CN: DUSTIN NELSON CMT1: 10X10 FOOT BRUSH FIRE MOVING TWD THE WOODS, NOT THREAT TO STRUCTURES CMT2: Original Location : CALLBK=(517)962-101\n
+[] PRI: 1 INC: F07120614000534 TYP: BRUSH/GRASS FIRE AD: 321 SAWYER ST CTY: ET LOC: CALLBK=(517)962-1010 CN: DUSTIN NELSON CMT1: 10X10 FOOT BRUSH FIRE MOVING TWD THE WOODS, NOT THREAT TO STRUCTURES CMT2: Original Location : CALLBK=(517)962-101\n
+[] PRI: 1 INC: F07120615000535 TYP: P1 MEDICAL AD: 1275 E MICHIGAN AVE CTY: ET CN: AMBLER,LORI CMT1: CE: 87 YEAR OLD FEMALE CONSCIOUS BREATHING BREATHING PROBLEMS CALLER CMT2: STATEMENT: RESIDENT TRBL BREATHING TIME: 09:27 0707PAGE1 0707ONDTY \n
+[] PRI: 1 INC: F07120615000536 TYP: P1 MEDICAL AD: 11177 MICHIGAN AVE CTY: ET LOC: FIREKEEPERS CASINO CN: FIREKEEPERS DEVELOPM CMT1: RESTROOM-USE BUS ENTR CMT2: CE: 25 YEAR OLD MALE UNCONSCIOUS BREATHING STATUS UNKNOWN CARDIAC OR TIME: 10:44 0\n
+[] PRI: 1 INC: F07120615000537 TYP: P1 MEDICAL AD: 11177 MICHIGAN AVE CTY: ET LOC: FIREKEEPERS CASINO CN: FIREKEEPERS DEVELOPM CMT1: REQUESTING MEDICAL P1. CMT2: SiblingInc LET120615003613 UPDATE PriUnt to ET/761 TIME: 13:46 0707PAGE1 070752 0\n
+[] PRI: 1 INC: F07120615000538 TYP: P1 MEDICAL AD: 142 JERICHO RD CTY: ET CN: AUTUMN HAWKINS CMT1: DAUGHTER IS NOT RESPONDING WELL CMT2: CE: 2 YEAR OLD FEMALE UNCONSCIOUS BREATHING UNCONSCIOUS / FAINTING (N TIME: 20:33 0707PAGE1 0707ONDTY 07EF\n
+[] PRI: 2 INC: F07120616000539 TYP: ODOR INSIDE APT: 1/2 AD: 560 WESTBROOK AVE CTY: ET CN: CHAD JUAREZ CMT1: VERY STRONG ODOR OF NATURAL GAS-CALLER DID HAVE A HEADACHE BUT AFTER OPEI CMT2: NG A COUPLE WINDOWS, HE AND HIS WIFE GOT OUT. HE WOULD\n
+
 ***/
 
 public class DispatchPrintrakParser extends FieldProgramParser {
@@ -133,7 +148,7 @@ public class DispatchPrintrakParser extends FieldProgramParser {
                         " CMT2:INFO TIME:TIME UNTS:UNIT XST:X XST2:X UNTS:UNIT", expTerm));
   }
   
-  private class MyAptField extends AptField {
+  private class BaseAptField extends AptField {
     
     @Override
     public void parse(String field, Data data) {
@@ -141,7 +156,23 @@ public class DispatchPrintrakParser extends FieldProgramParser {
     }
   }
   
-  private class MyTimeField extends TimeField {
+  private class BasePlaceField extends PlaceField {
+    @Override
+    public void parse(String field, Data data) {
+      if (field.startsWith("CALLBK=")) {
+        data.strPhone = field.substring(7).trim();
+      } else {
+        data.strPlace = field;
+      }
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "PLACE PHONE";
+    }
+  }
+  
+  private class BaseTimeField extends TimeField {
     @Override
     public void parse(String field, Data data) {
       int pt = field.indexOf(' ');
@@ -158,7 +189,7 @@ public class DispatchPrintrakParser extends FieldProgramParser {
     }
   }
   
-  private class Call2Field extends CallField {
+  private class BaseCall2Field extends CallField {
     @Override
     public void parse(String field, Data data) {
       if (field.startsWith("**")) field = field.substring(2).trim();
@@ -168,9 +199,10 @@ public class DispatchPrintrakParser extends FieldProgramParser {
   
   @Override
   public Field getField(String name) {
-    if (name.equals("APT")) return new MyAptField();
-    if (name.equals("TIME")) return new MyTimeField();
-    if (name.equals("CALL2")) return new Call2Field();
+    if (name.equals("APT")) return new BaseAptField();
+    if (name.equals("PLACE")) return new BasePlaceField();
+    if (name.equals("TIME")) return new BaseTimeField();
+    if (name.equals("CALL2")) return new BaseCall2Field();
     return super.getField(name);
   }
 }
