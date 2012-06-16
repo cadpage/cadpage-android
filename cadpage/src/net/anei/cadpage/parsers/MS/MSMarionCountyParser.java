@@ -67,7 +67,6 @@ public class MSMarionCountyParser extends DispatchBParser {
     Matcher match = MARKER.matcher(body);
     if (!match.find()) return false;
     body = body.substring(match.end());
-    if (body.startsWith("EVENT:")) return false;
     if (! super.parseMsg(body, data)) return false;
     return true;
   }
