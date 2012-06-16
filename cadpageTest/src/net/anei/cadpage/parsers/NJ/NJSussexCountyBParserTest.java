@@ -145,6 +145,19 @@ public class NJSussexCountyBParserTest extends BaseParserTest {
 
   }
   
+  @Test
+  public void testParser3() {
+
+    doTest("T1",
+        "[SUSPECT:]  BTFD\nHazard Cond\nPAGED\nWATERLOO RD\nBTF06\nBTFE4\nDAMAGE CAUSED BY DEBRIS IN THE ROADWAY.\nCall type l reopened by",
+        "SRC:BTFD",
+        "CALL:Hazard Cond",
+        "ADDR:WATERLOO RD",
+        "UNIT:BTF06 BTFE4",
+        "INFO:DAMAGE CAUSED BY DEBRIS IN THE ROADWAY. / Call type l reopened by");
+
+  }
+  
   public static void main(String[] args) {
     new NJSussexCountyBParserTest().generateTests("T1");
   }

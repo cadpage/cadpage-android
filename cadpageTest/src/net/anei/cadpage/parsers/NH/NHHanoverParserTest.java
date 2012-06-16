@@ -194,6 +194,15 @@ public class NHHanoverParserTest extends BaseParserTest {
         "CITY:BRADFORD",
         "DATE:2/9/2012",
         "TIME:18:54");
+
+    doTest("T22",
+        "(_) FD- STILL-SMOKE INVEST\nS PLEASANT ST\nBRADFORD\nFire District: F20\n6/15/2012 13:43",
+        "CALL:FD- STILL-SMOKE INVEST",
+        "ADDR:S PLEASANT ST",
+        "CITY:BRADFORD",
+        "INFO:Fire District: F20",
+        "DATE:6/15/2012",
+        "TIME:13:43");
     
   }
   

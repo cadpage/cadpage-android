@@ -111,6 +111,20 @@ public class MDPrinceGeorgesCountyEParserTest extends BaseParserTest {
         "UNIT:A830,E828",
         "DATE:06/15/2012",
         "TIME:00:59:09");
+
+    doTest("T8",
+        "ALS1, Medic Local, 7321 SPLIT RAIL LN, LP, btwn MILL CREEK CT and DORSET RD, LAUREL,MD, TGA2, 1013, 5168 K 3, Medical ProQA recommends dispatch at this time, Units:A724, E810C, HMD06 - From FED01 06/15/2012 13:11:28",
+        "CODE:ALS1",
+        "CALL:Medic Local",
+        "ADDR:7321 SPLIT RAIL LN",
+        "X:MILL CREEK CT and DORSET RD",
+        "CITY:LAUREL",
+        "CH:TGA2",
+        "BOX:1013",
+        "MAP:5168 K 3",
+        "UNIT:A724,E810C,HMD06",
+        "DATE:06/15/2012",
+        "TIME:13:11:28");
  
   }
  

@@ -71,6 +71,16 @@ public class MISaginawCountyParserTest extends BaseParserTest {
 
   }
   
+  @Test
+  public void testEricBrown() {
+
+    doTest("T1",
+        "LOC:442 S 24TH DESC:32F- DIFF BREATH   STOMACH PAIN APT: TYP:*M*SICK PERSON IN PROGRESS",
+        "ADDR:442 S 24TH",
+        "CALL:32F- DIFF BREATH   STOMACH PAIN");
+
+  }
+  
   public static void main(String[] args) {
     new MISaginawCountyParserTest().generateTests("T1");
   }
