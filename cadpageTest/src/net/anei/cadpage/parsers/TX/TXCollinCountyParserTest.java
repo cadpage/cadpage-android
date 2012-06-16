@@ -12,6 +12,16 @@ public class TXCollinCountyParserTest extends BaseParserTest {
   }
   
   @Test
+  public void testProblem() {
+
+    doTest("T6",
+        "Message From Dispatch DISREGARD MAJOR AT MONTE CARLO AND 380 LOCATION WAS CHANGED AND IS PNFD SORRY FOR THE PAGE",
+        "CALL:GENERAL ALERT",
+        "PLACE:DISREGARD MAJOR AT MONTE CARLO AND 380 LOCATION WAS CHANGED AND IS PNFD SORRY FOR THE PAGE");
+
+  }
+  
+  @Test
   public void testCCSOParser() {
 
     doTest("T1",

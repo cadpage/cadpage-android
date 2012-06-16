@@ -123,7 +123,18 @@ public class NYPutnamCountyParserTest extends BaseParserTest {
         "SRC:12",
         "X:ROUTE 6 /HUGHSON RD",
         "INFO:CHILD SAFEYT EXPO PERSON: (COMPLAINANT) (FMLS)   BUREAU OF EMERGENCY SERVICES");
-  
+
+    doTest("T13",
+        "Subject:17 Lake Carmel\n" +
+        "SMOKE INVESTIGATION|| 17 EMERSON RD,KENT |STA 17 XS TICONDEROGA  RD/BALDWIN RD|NARR SMOKE INVESTIGATION/CALL\r",
+
+        "CALL:SMOKE INVESTIGATION",
+        "ADDR:17 EMERSON RD",
+        "CITY:KENT",
+        "SRC:17",
+        "X:TICONDEROGA  RD/BALDWIN RD",
+        "INFO:SMOKE INVESTIGATION/CALL");
+ 
   }
   
   public static void main(String[] args) {

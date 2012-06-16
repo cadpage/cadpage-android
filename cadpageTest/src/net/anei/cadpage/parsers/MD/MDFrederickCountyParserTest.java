@@ -147,6 +147,7 @@ public class MDFrederickCountyParserTest extends BaseParserTest {
         "SRC:FredCo",
         "CALL:INJURY FROM VEHICLE ACCIDENT",
         "ADDR:LL(-77:23:59.6013,39:21:53.1520)",
+        "MADDR:39.36476444444445,-77.39988925",
         "PLACE:I270NB / MONOCACY RIVER",
         "BOX:327002",
         "MAP:46");
@@ -309,6 +310,95 @@ public class MDFrederickCountyParserTest extends BaseParserTest {
         "PLACE:BROOKSIDE II APTS: APT M-403",
         "MAP:4565J3",
         "UNIT:A28");
+
+  }
+  
+  @Test
+  public void testActive911() {
+
+    doTest("T1",
+        "[CAD] [FredCo] CT: STROKE / default 216 THIRD AVE BRUN MAP: 4683A10 Disp: A197,M20\n",
+        "SRC:FredCo",
+        "CALL:STROKE/default",
+        "ADDR:216 THIRD AVE",
+        "CITY:Brunswick",
+        "MAP:4683A10",
+        "UNIT:A197,M20");
+
+    doTest("T2",
+        "[CAD] [FredCo] CT: STROKE / default 216 THIRD AVE BRUN MAP: 4683A10 Disp: A197,M20\n",
+        "SRC:FredCo",
+        "CALL:STROKE/default",
+        "ADDR:216 THIRD AVE",
+        "CITY:Brunswick",
+        "MAP:4683A10",
+        "UNIT:A197,M20");
+
+    doTest("T3",
+        "[CAD] [FredCo] CT: VEHICLE ACCIDENT / default LL(-77:38:25.0189,39:20:22.5676): @RT340EB / RT17 MAP: 4682H6 Disp: A197,A199,RS19,E51,LCE616\n",
+        "SRC:FredCo",
+        "CALL:VEHICLE ACCIDENT/default",
+        "ADDR:LL(-77:38:25.0189,39:20:22.5676)",
+        "MADDR:39.33960211111111,-77.64028302777778",
+        "PLACE:RT340EB / RT17",
+        "MAP:4682H6",
+        "UNIT:A197,A199,RS19,E51,LCE616");
+
+    doTest("T4",
+        "[CAD] [FredCo] CT: VEHICLE ACCIDENT / default LL(-77:38:25.0189,39:20:22.5676): @RT340EB / RT17 MAP: 4682H6 Disp: A197,A199,RS19,E51,LCE616\n",
+        "SRC:FredCo",
+        "CALL:VEHICLE ACCIDENT/default",
+        "ADDR:LL(-77:38:25.0189,39:20:22.5676)",
+        "MADDR:39.33960211111111,-77.64028302777778",
+        "PLACE:RT340EB / RT17",
+        "MAP:4682H6",
+        "UNIT:A197,A199,RS19,E51,LCE616");
+
+    doTest("T5",
+        "[CAD] [FredCo] CT: VEHICLE ACCIDENT / default LL(-77:38:25.0189,39:20:22.5676): @RT340EB / RT17 MAP: 4682H6 Disp: A197,A199,RS19,E51,LCE616\n",
+        "SRC:FredCo",
+        "CALL:VEHICLE ACCIDENT/default",
+        "ADDR:LL(-77:38:25.0189,39:20:22.5676)",
+        "MADDR:39.33960211111111,-77.64028302777778",
+        "PLACE:RT340EB / RT17",
+        "MAP:4682H6",
+        "UNIT:A197,A199,RS19,E51,LCE616");
+
+    doTest("T6",
+        "[CAD] [FredCo] CT: HEMORRHAGE / default 22 E C ST BRUN MAP: 4682K10 Disp: A197,M20\n",
+        "SRC:FredCo",
+        "CALL:HEMORRHAGE/default",
+        "ADDR:22 E C ST",
+        "CITY:Brunswick",
+        "MAP:4682K10",
+        "UNIT:A197,M20");
+
+    doTest("T7",
+        "[CAD] [FredCo] CT: HEMORRHAGE / default 22 E C ST BRUN MAP: 4682K10 Disp: A197,M20\n",
+        "SRC:FredCo",
+        "CALL:HEMORRHAGE/default",
+        "ADDR:22 E C ST",
+        "CITY:Brunswick",
+        "MAP:4682K10",
+        "UNIT:A197,M20");
+
+    doTest("T8",
+        "[CAD] [FredCo] CT: INJURED PERSON / default 303 E POTOMAC ST BRUN MAP: 4803A1 Disp: A197\n",
+        "SRC:FredCo",
+        "CALL:INJURED PERSON/default",
+        "ADDR:303 E POTOMAC ST",
+        "CITY:Brunswick",
+        "MAP:4803A1",
+        "UNIT:A197");
+
+    doTest("T9",
+        "[CAD] [FredCo] CT: INJURED PERSON / default 303 E POTOMAC ST BRUN MAP: 4803A1 Disp: A197\n",
+        "SRC:FredCo",
+        "CALL:INJURED PERSON/default",
+        "ADDR:303 E POTOMAC ST",
+        "CITY:Brunswick",
+        "MAP:4803A1",
+        "UNIT:A197");
 
   }
   

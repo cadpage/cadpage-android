@@ -75,6 +75,7 @@ public class CAElDoradoCountyParserTest extends BaseParserTest {
         "CALL:MEDICAL",
         "ID:013054",
         "ADDR:=L(38.906110,-120.645832)",
+        "MADDR:38.90611,-120.645832",
         "CITY:GEORGETOWN",
         "PLACE:UNIVERSITY FALLS GATE",
         "UNIT:GEOCHF E33F M61 65 GEOENG",

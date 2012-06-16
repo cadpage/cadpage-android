@@ -886,6 +886,20 @@ public class MDSaintMarysCountyParserTest extends BaseParserTest {
         "UNIT:CO49R",
         "INFO:down by beach house");
 
+    doTest("T8",
+        "ST MARY'S COUNTY GOVERNMENT P (54070) CAD\r\n" +
+        ": 06:28:39*Sick Person*SOUTH RIDGE*13425 POINT LOOKOUT RD UNIT4*CURLEYS RD*RIDGE*CO49R*71 year old, Male, Conscious, Breathing.* stop",
+
+        "TIME:06:28:39",
+        "CALL:Sick Person",
+        "ADDR:13425 POINT LOOKOUT RD",
+        "APT:UNIT4",
+        "X:CURLEYS RD",
+        "PLACE:SOUTH RIDGE",
+        "CITY:RIDGE",
+        "UNIT:CO49R",
+        "INFO:71 year old, Male, Conscious, Breathing.");
+
   }
 
   public static void main(String[] args) {

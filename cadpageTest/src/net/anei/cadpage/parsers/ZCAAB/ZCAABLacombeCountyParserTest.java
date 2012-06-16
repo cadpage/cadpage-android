@@ -25,6 +25,7 @@ public class ZCAABLacombeCountyParserTest extends BaseParserTest {
         "TIME:13:02:11",
         "CALL:GRASS - 2.3 Grass/ Brush/ Forest",
         "ADDR:52.38667500,-113.81778000",
+        "MADDR:52.386675,-113.81778",
         "GPS:52.38667500,-113.81778000");
 
     doTest("T2",

@@ -85,6 +85,7 @@ public class CANapaCountyParserTest extends BaseParserTest {
         "CALL:FIRE, VEH PASSENGER",
         "PLACE:RLS",
         "ADDR:=L(38.654873,-122.596711)",
+        "MADDR:38.654873,-122.596711",
         "CITY:MIDDLETOWN",
         "ID:000149",
         "INFO:NEAR RLS. 60 PICK FLAMES SEEN FROM ENGINE COMPARTMENT",

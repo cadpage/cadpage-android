@@ -180,9 +180,16 @@ public abstract class BaseParserTest {
       assertEquals(title + ":location", parserLocCode, msg.getLocationCode());
     }
     MsgInfo info = msg.getInfo();
+    
+    // Calculate reported map address.  GPS coordinate conversion doesn't get
+    // handled by the regulare getBaseMapAddress() method.  We will detect it
+    // by calling getMapAddress() and using its results if it doesn't start with
+    // the value returned by getBaseMapAddress()
     String actMapAddr = "";
     if (chkMapAddr) {
+      String longMapAddr = info.getMapAddress(false, "XXXX", "XX");
       actMapAddr = info.getBaseMapAddress();
+      if (longMapAddr != null && !longMapAddr.startsWith(actMapAddr)) actMapAddr = longMapAddr;
       if (actMapAddr.equals(info.getAddress())) actMapAddr = "";
     }
     
