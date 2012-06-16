@@ -27,6 +27,11 @@ Contact: Chris Gerding <atfdgerding@yahoo.com>
 Sender: 27538
 LOC:NICHOLS RD / ASHMAN DESC:ENG SQUAD TENDER APT: TYP:*M*MUTUAL AID
 
+Contact: Eric Brown <e.j.brown678@gmail.com>
+Sender: 27538
+LOC:442 S 24TH DESC:32F- DIFF BREATH   STOMACH PAIN APT: TYP:*M*SICK PERSON IN PROGRESS
+
+
  */
 public class MISaginawCountyParser extends FieldProgramParser {
   

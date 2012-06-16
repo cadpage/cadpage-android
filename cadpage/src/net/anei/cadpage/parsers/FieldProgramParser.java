@@ -1781,13 +1781,9 @@ public class FieldProgramParser extends SmartAddressParser {
    */
   public class StateField extends Field {
     
-    public StateField() {};
-    public StateField(String pattern) {
-      super(pattern);
-    }
-    public StateField(String pattern, boolean hardPattern) {
-      super(pattern, hardPattern);
-    }
+    public StateField() {
+      super("[A-Z]{2}", true);
+    };
 
     @Override
     public void parse(String field, Data data) {

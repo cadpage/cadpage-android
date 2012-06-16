@@ -23,6 +23,9 @@ NWFD\r\nFire Alarm\r\nPAGED\r\n3 HIGH ST\r\nNWFD\r\nNWESPG\r\nSCSO REQUEST FD RE
 NWES\r\nMedical Emerg\r\nPAGED\r\n7 E CLINTON ST\r\nNWES\r\nNWESPG
 NWES\r\nMedical Emerg\r\nPAGED\r\n160 SPRING STREET\r\nNWES\r\nNWESPG
 
+Contact: Todd Rudloff <btfd43capt2@gmail.com>
+[SUSPECT:]  BTFD\nHazard Cond\nPAGED\nWATERLOO RD\nBTF06\nBTFE4\nDAMAGE CAUSED BY DEBRIS IN THE ROADWAY.\nCall type l reopened by
+
  */
 
 
