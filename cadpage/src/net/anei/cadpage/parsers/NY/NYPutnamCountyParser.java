@@ -37,7 +37,10 @@ Sender: messaging@iamresponding.com
 Contact: James Gagliardo <ffgagsemt@gmail.com>
 Sender: messaging@iamresponding.com
  1 of 2\nFRM:messaging@iamresponding.com\nSUBJ:23 Putnam Lake\nMSG:DRILL|| 112 OLD ROUTE 6,CARMEL |STA 12 XS ROUTE 6 /HUGHSON RD|NARR CHILD SAFEYT\n(Con' 2 of 2\nEXPO PERSON: (COMPLAINANT) (FMLS)   BUREAU OF EMERGENCY SERVICES\r\n(End)
-
+ 
+Contact: "Wm. Walters" <lcff791@gmail.com>
+Sender: messaging@iamresponding.com
+Subject:17 Lake Carmel\nSMOKE INVESTIGATION|| 17 EMERSON RD,KENT |STA 17 XS TICONDEROGA  RD/BALDWIN RD|NARR SMOKE INVESTIGATION/CALL\r
 
 Station numbers FYI
 11 Brewster

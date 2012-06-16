@@ -69,6 +69,19 @@ Sender: messaging@iamresponding.com
 Contact: Kyle Stull <ktstull@gmail.com>
 CT: INJURED PERSON /  160 WILLOWDALE DR FRE2: @BROOKSIDE II APTS: APT M-403 MAP: 4565J3  Disp: A28
 
+Contact: Active911.com
+[CAD] [FredCo] CT: STROKE / default 216 THIRD AVE BRUN MAP: 4683A10 Disp: A197,M20\n
+[CAD] [FredCo] CT: STROKE / default 216 THIRD AVE BRUN MAP: 4683A10 Disp: A197,M20\n
+[CAD] [FredCo] CT: VEHICLE ACCIDENT / default LL(-77:38:25.0189,39:20:22.5676): @RT340EB / RT17 MAP: 4682H6 Disp: A197,A199,RS19,E51,LCE616\n
+[CAD] [FredCo] CT: VEHICLE ACCIDENT / default LL(-77:38:25.0189,39:20:22.5676): @RT340EB / RT17 MAP: 4682H6 Disp: A197,A199,RS19,E51,LCE616\n
+[CAD] [FredCo] CT: VEHICLE ACCIDENT / default LL(-77:38:25.0189,39:20:22.5676): @RT340EB / RT17 MAP: 4682H6 Disp: A197,A199,RS19,E51,LCE616\n
+[CAD] [FredCo] CT: HEMORRHAGE / default 22 E C ST BRUN MAP: 4682K10 Disp: A197,M20\n
+[CAD] [FredCo] CT: HEMORRHAGE / default 22 E C ST BRUN MAP: 4682K10 Disp: A197,M20\n
+[*] [Lipscomb,Roy]Help is needed  right  now moving the LaFrance out to get the hose cart out. Chief.5\n
+[CAD] [FredCo] CT: INJURED PERSON / default 303 E POTOMAC ST BRUN MAP: 4803A1 Disp: A197\n
+[CAD] [FredCo] CT: INJURED PERSON / default 303 E POTOMAC ST BRUN MAP: 4803A1 Disp: A197\n
+
+
 ***/
 
 public class MDFrederickCountyParser extends FieldProgramParser {
