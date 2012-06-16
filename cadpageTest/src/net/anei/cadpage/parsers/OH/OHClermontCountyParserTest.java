@@ -12,12 +12,6 @@ public class OHClermontCountyParserTest extends BaseParserTest {
   }
   
   @Test
-  public void testBad() {
-    doBadTest("EVENT: FSTRUC LOC:966 E LEGENDARY RUN Cad: 2011-0000069848 DSP >20:41 Case: 0000000534 Disp: ER >20:43 FG6 CLR >20:49");
-    doBadTest("  / EVENT: 09E01 LOC:1286 PEBBLE BROOKE TRL Cad: 2011-0000055550 DSP >13:22 ER >13:24 CLR >13:26\n");
-  }
-  
-  @Test
   public void testParser() {
 
     doTest("T1",
@@ -164,7 +158,50 @@ public class OHClermontCountyParserTest extends BaseParserTest {
     
   }
   
+  @Test
+  public void testActive911() {
+
+    doTest("T1",
+        "[] 911-CENTER:MED >MED GENERIC DO NOT DELETE 51 DEERFIELD DR XS: DEERFIELD RD GOSHEN TOWNSHIP PAYTES,TINA & TED Map: Grids:, Cad: 2012-0000052916\n",
+        "CALL:MED GENERIC DO NOT DELETE",
+        "ADDR:51 DEERFIELD DR",
+        "X:DEERFIELD RD",
+        "CITY:GOSHEN TOWNSHIP",
+        "NAME:PAYTES,TINA & TED",
+        "ID:2012-0000052916");
+
+    doTest("T2",
+        "[] 911-CENTER:EVENT: 06D02 LOC:51 DEERFIELD DR Cad: 2012-0000052916 DSP >12:10 ER >12:11 CLR >12:39\n",
+        "CALL:RUN REPORT",
+        "ID:2012-0000052916",
+        "PLACE:EVENT: 06D02 LOC:51 DEERFIELD DR Cad: 2012-0000052916 DSP >12:10 ER >12:11 CLR >12:39");
+
+    doTest("T3",
+        "[] 911-CENTER:06D02 >BREATHING PROBLEMS 51 DEERFIELD DR XS: DEERFIELD RD GOSHEN TOWNSHIP PAYTES,TINA & TED Map: Grids:, Cad: 2012-0000052916\n",
+        "CALL:BREATHING PROBLEMS",
+        "ADDR:51 DEERFIELD DR",
+        "X:DEERFIELD RD",
+        "CITY:GOSHEN TOWNSHIP",
+        "NAME:PAYTES,TINA & TED",
+        "ID:2012-0000052916");
+
+    doTest("T4",
+        "[] 911-CENTER:06D02 >BREATHING PROBLEMS 6409 SNIDER RD XS: WOODVILLE PI GOSHEN TOWNSHIP GODSEY,GENEVA Map: Grids:, Cad: 2012-0000053000\n",
+        "CALL:BREATHING PROBLEMS",
+        "ADDR:6409 SNIDER RD",
+        "CITY:WOODVILLE",
+        "NAME:PI GOSHEN TOWNSHIP GODSEY,GENEVA",
+        "ID:2012-0000053000");
+
+    doTest("T5",
+        "[] 911-CENTER:EVENT: 06D02 LOC:6409 SNIDER RD Cad: 2012-0000053000 ER >16:54 OS >16:59 OK >17:10 CLR >17:17\n",
+        "CALL:RUN REPORT",
+        "ID:2012-0000053000",
+        "PLACE:EVENT: 06D02 LOC:6409 SNIDER RD Cad: 2012-0000053000 ER >16:54 OS >16:59 OK >17:10 CLR >17:17");
+
+  }
+  
   public static void main(String[] args) {
-    new OHClermontCountyParserTest().generateTests("T1", "CALL ADDR APT X CITY NAME ID");
+    new OHClermontCountyParserTest().generateTests("T1", "CALL ADDR APT X CITY NAME ID PLACE");
   }
 }

@@ -12,8 +12,12 @@ public class MSMarionCountyParserTest extends BaseParserTest {
   }
   
   @Test
-  public void testBadMsg() {
-    doBadTest("-  - 911-CENTER:EVENT: SIG72 LOC:37 STRINGER BULLOCK RD Cad: 2012-0000001996 ENR >21:01 1023 >21:15 1024 >21:41\n");
+  public void testRunReport() {
+    doTest("T1",
+        "-  - 911-CENTER:EVENT: SIG72 LOC:37 STRINGER BULLOCK RD Cad: 2012-0000001996 ENR >21:01 1023 >21:15 1024 >21:41\n",
+        "CALL:RUN REPORT",
+        "PLACE:EVENT: SIG72 LOC:37 STRINGER BULLOCK RD Cad: 2012-0000001996 ENR >21:01 1023 >21:15 1024 >21:41",
+        "ID:2012-0000001996");
   }
   
   @Test
