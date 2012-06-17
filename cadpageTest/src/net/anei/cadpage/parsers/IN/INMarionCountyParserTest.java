@@ -139,6 +139,46 @@ public class INMarionCountyParserTest extends BaseParserTest {
 
   }
   
+  @Test
+  public void testTodParker() {
+
+    doTest("T1",
+        "CAD: E 46ST ST/N COLLEGE AV, WAS N04700 E00700 PI W/ENTRAPMENT MD31 BC12 C1822 OP1 EG31 LD31 TC14 SQ14 . TXT STOP to opt-out",
+        "ADDR:E 46ST ST & N COLLEGE AV",
+        "MADDR:E 46ST ST & N COLLEGE AVE",
+        "CITY:Washington TWP",
+        "MAP:N04700 E00700",
+        "CALL:PI W/ENTRAPMENT",
+        "UNIT:MD31 BC12 C1822 OP1 EG31 LD31 TC14 SQ14 .");
+
+    doTest("T2",
+        "CAD: 402 KENTUCKY AV,IND S00500 W00500 BLDG/HR/WORKING IFDFYI, SET TO WORKING, NO ADDITIONAL UNITS REQUIRED, BC13 HAD COMMAND ON OP5. TXT STOP to opt out",
+        "ADDR:402 KENTUCKY AV",
+        "MADDR:402 KENTUCKY AVE",
+        "CITY:Indianapolis",
+        "MAP:S00500 W00500",
+        "CALL:BLDG/HR/WORKING",
+        "INFO:IFDFYI, SET TO WORKING, NO ADDITIONAL UNITS REQUIRED, BC13 HAD COMMAND ON OP5.");
+
+    doTest("T3",
+        "CAD: W 38TH ST/N MICHIGAN RD, WAS N03900 W01100 PI W/ENTRAPMENT BC11 C1822 OP1 EG23 EG12 EXTF TC14 I04679. TXT STOP to opt out",
+        "ADDR:W 38TH ST & N MICHIGAN RD",
+        "CITY:Washington TWP",
+        "MAP:N03900 W01100",
+        "CALL:PI W/ENTRAPMENT",
+        "UNIT:BC11 C1822 OP1 EG23 EG12 EXTF TC14 I04679.");
+
+    doTest("T4",
+        "CAD: 729-1/2 N HOLMES AV,WAY N00800 W02700 DOUBLE RESI/WRK RS02 I04981. TXT STOP to opt out",
+        "ADDR:729-1/2 N HOLMES AV",
+        "MADDR:729 N HOLMES AVE",
+        "CITY:Wayne TWP",
+        "MAP:N00800 W02700",
+        "CALL:DOUBLE",
+        "INFO:RESI/WRK RS02 I04981.");
+
+  }
+  
   public static void main(String[] args) {
     new INMarionCountyParserTest().generateTests("T1", "ADDR CITY MAP CALL UNIT INFO ID");
   }
