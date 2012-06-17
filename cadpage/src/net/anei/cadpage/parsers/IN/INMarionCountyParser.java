@@ -27,6 +27,13 @@ W WASHINGTON ST/S WEST ST, IND N00001 W00500 PI W/ ENTRAPMENT MD01 BC13 C1823 OP
 1720 W THOMPSON RD,PER S05000 W02200 SEMI/RV/MOTHM TC64 NONEMG FOR TOOLS ONLY, TNB I03861\n
 S NORFOLK ST/W MINNESOTA ST,WAY S01600 W05450 RESIDENCE/WORKIN MD82 TS83 WPAGE MEDIA I03875\n\n.
 
+Contact: Tod Parker <todfparker@gmail.com>
+Sender: 7771
+CAD: E 46ST ST/N COLLEGE AV, WAS N04700 E00700 PI W/ENTRAPMENT MD31 BC12 C1822 OP1 EG31 LD31 TC14 SQ14 . TXT STOP to opt-out
+CAD: 402 KENTUCKY AV,IND S00500 W00500 BLDG/HR/WORKING IFDFYI, SET TO WORKING, NO ADDITIONAL UNITS REQUIRED, BC13 HAD COMMAND ON OP5. TXT STOP to opt out
+CAD: W 38TH ST/N MICHIGAN RD, WAS N03900 W01100 PI W/ENTRAPMENT BC11 C1822 OP1 EG23 EG12 EXTF TC14 I04679. TXT STOP to opt out
+CAD: 729-1/2 N HOLMES AV,WAY N00800 W02700 DOUBLE RESI/WRK RS02 I04981. TXT STOP to opt out
+
 */
 
 public class INMarionCountyParser extends MsgParser {
@@ -41,7 +48,7 @@ public class INMarionCountyParser extends MsgParser {
   
   @Override
   public String getFilter() {
-    return "CAD@pager.mecagov.org";
+    return "CAD@pager.mecagov.org,7771";
   }
   
   @Override
@@ -49,6 +56,7 @@ public class INMarionCountyParser extends MsgParser {
     
     int pt = body.indexOf('\n');
     if (pt >= 0) body = body.substring(0,pt).trim();
+    if (body.startsWith("CAD:")) body = body.substring(4).trim();
     Matcher match = MASTER.matcher(body);
     if (!match.matches()) return false;
     parseAddress(match.group(1).trim(), data);
