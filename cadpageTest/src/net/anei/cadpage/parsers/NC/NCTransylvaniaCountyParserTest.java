@@ -119,6 +119,19 @@ public class NCTransylvaniaCountyParserTest extends BaseParserTest {
 
   }
   
+  @Test
+  public void testActive911() {
+
+    doTest("T1",
+        "1319 PINE MOUNTAIN TRL BREVARD CITY 2012-022142 15:57:59 STRUCTURE FIRE STRAUS PKWY-PINE MOUN",
+        "ADDR:1319 PINE MOUNTAIN TRL",
+        "CITY:BREVARD CITY",
+        "ID:2012-022142",
+        "TIME:15:57:59",
+        "INFO:STRUCTURE FIRE STRAUS PKWY-PINE MOUN");
+
+  }
+  
 
   public static void main(String[] args) {
     new NCTransylvaniaCountyParserTest().generateTests("T1", "ADDR CITY PLACE CODE ID TIME CALL INFO");
