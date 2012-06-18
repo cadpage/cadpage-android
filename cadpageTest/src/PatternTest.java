@@ -6,10 +6,10 @@ import java.util.regex.Pattern;
 public class PatternTest {
 
   private static final Pattern MASTER = 
-      Pattern.compile("\\b(?:\\d{4}|[A-Z]{1,2}[FP]D\\d?|M\\d\\d)\\b");
+      Pattern.compile("^P, *([A-Z]*[0-9]+)");
   
   public static void main(String[] args) {
-    doTest("WPD M25 WRFD1");
+    doTest("P,3627 E61 SQ60 816 ONE VEHICLE INTO GUARD RAIL. UNKNOWN INJURIES. UNKNOWN ENTRAPMENT.");
   }
   
   private static void doTest(String test) {

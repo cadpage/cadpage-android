@@ -1446,6 +1446,11 @@ CAD MSG: *D A3   57       HANSON BLVD NW / ANDOVER BLVD NW  NE CORNER..SMOKE/CHA
 CAD MSG: *D A3   39F      17844 XEON ST NW  FIRE ALARM... SMOKE OR HEAT UPSTAIRS OR IN GARAGE... SMALL DOG ONSITE INC:10019638  
 CAD MSG: *D A3   45F      14950 HANSON BLVD NW @ANDOVER ELEMENTARY  PLANNED FIRE DRILL AT 1330 ... WILL CALL BACK WHEN COMPLETE INC:10019627   
 ***************************************************************************
+Crawford County, MO (MOCrawfordCounty)
+(Bourbon Fire) STILL ALARM MVC /  / 222.3 I44 WB BOURBON /  /  /  / P,3627 E61 SQ60 816 ONE VEHICLE INTO GUARD RAIL. UNKNOWN INJURIES. UNKNOWN ENTRAPMENT.\n
+(Bourbon Fire) MED EMER /  / 216 I44 EB BOURBON /  /  /  / Call Received on 06/09/2012 @ 20:07 P,3627 2YOF SEIZURE ACTIVITY. NOT BREATHING. IN A GREY SEBRING ON SIDE OF ROADWAY. DOES HAVE HISTORY OF SEIZURE.
+(Bourbon Fire) STILL ALARM MVC /  / BLUE SPRINGS RD BOURBON /  /  /  / Call Received on 06/09/2012 @ 23:04 P,3627 E61 SQ60 VEHICLE IN DITCH. POSSIBLE 10-55. UNKNOWN INJURIES OR ENTRAPMENT. SEDAN. ADVISES THE VEHICLE IS IN THE GRASS OFF INTO THE DITCH. THE RP DOES ADVISE THAT THE VEHICLE IS UPRIGHT.
+***************************************************************************
 Festus, MO (MOFestus)
 (call) FIRE / BRUSH / 2819 NORTH SELMA ROAD JEFFCO/R7 /DOOLING HO /EMS /6610 /jpad brush with exposer R-7 FD720146 /JPAD 603031
 (call) FIRE/10-50 J-2/ STATE RD CC JEFFCO/FESTUS FIRE / HWY 67 /FIRE DEP /H4 FI H1 FESTUS  FD66651 / JPAD H4 FI H1
@@ -4856,6 +4861,10 @@ Body: 1 of 2\nFRM:LifecomCellPaging@amr.net\nMSG:      12014058     Vegetation F
 
 12014058     Vegetation Fire 30000 S Kasson Rd              E LINNE RD/E DEODARA T386     Assigned Units: E9-3,E9-2,E26-2,BC9-0
 **********************************************************
+Unknown
+Contact:  Matt Exley <mexley46@gmail.com>
+From:messaging@iamresponding.com
+FRM:messaging@iamresponding.com\nSUBJ:West Ridge Fire\nMSG:17B3G >FALLS (GRND/FLOOR) UNK STATUS 3038 COLERIDGE DR XS: CROSSWINDS DR MILLCREEK TWP\r\n
 **********************************************************
 **********************************************************
 **********************************************************
@@ -4953,18 +4962,18 @@ Agency name: Redings Mill Fire District Location: Joplin, MO
 Mercer County, PA
 "Kane, Thomas J." <KANETJ1@gcc.edu>
 Sender: 9-1-1"@mcc.co.mercer.pa.us
-9-1-1"@mcc.co.mercer.pa.us (IPS I/Page Notification) Location: N BROAD ST/LINCOLN AVE GROV EID: 2360315 TYPE CODE: MVU CALLER NAME: LARRY GRACE CALLER ADDR: 522 E MAIN ST E
-9-1-1"@mcc.co.mercer.pa.us (IPS I/Page Notification) Location: 666 FLOWER ST GROV EID: 2363268 TYPE CODE: COM CALLER NAME:  CALLER ADDR: 109 GEORGE JUNIOR RD PINE TIME: 20:
-9-1-1"@mcc.co.mercer.pa.us (IPS I/Page Notification) Location: 597 CLARKSVILLE RD COOL: alias 597 RT 258 0 COOL EID: 2366343 TYPE CODE: HF CALLER NAME: 
-9-1-1"@mcc.co.mercer.pa.us (IPS I/Page Notification) Location: 129 E PINE ST GROV: @PENN GROVE HOTEL EID: 2368267 TYPE CODE: FALM CALLER NAME: VECTOR-42
-9-1-1"@mcc.co.mercer.pa.us (IPS I/Page Notification) Location: FOREST DR/LINCOLN AVE GROV EID: 2368281 TYPE CODE: TREE CALLER NAME: LUKE SPEARS CALLER A
-9-1-1"@mcc.co.mercer.pa.us (IPS I/Page Notification) Location: N CENTER ST/W CHESTNUT ST GROV EID: 2370662 TYPE CODE: MVF CALLER NAME: TAMMY OCONNER CAL
-9-1-1"@mcc.co.mercer.pa.us (IPS I/Page Notification) Location: 209 W MERCER ST EID: 2351183 TYPE CODE: MUT CALLER NAME: BUTLER CALLER ADDR:  TIM
-9-1-1"@mcc.co.mercer.pa.us (IPS I/Page Notification) Location: 55 FRANKLIN ST STON EID: 2351363 TYPE CODE: CHIM CALLER NAME: BARTHOLOMEW, BRENDA
-9-1-1"@mcc.co.mercer.pa.us (IPS I/Page Notification) Location: 150 LATONKA DR JACK EID: 2353811 TYPE CODE: HF CALLER NAME: MARKS, KATHLEEN CALLE
-9-1-1"@mcc.co.mercer.pa.us (IPS I/Page Notification) Location: 819 SUNSET AVE GROV EID: 2354410 TYPE CODE: ELO CALLER NAME: MONTGOMERY BEVERLY C
-9-1-1"@mcc.co.mercer.pa.us (IPS I/Page Notification) Location: 201 ERIE ST GROV: @ALLIED NEWS / THE HERALD EID: 2354451 TYPE CODE: ELI CALLER NA
-9-1-1"@mcc.co.mercer.pa.us (IPS I/Page Notification) Location: 123 W MAIN ST GROV: @GROVE CITY BOROUGH EID: 2354882 TYPE CODE: BRU CALLER NAME: C
+"9-1-1"@mcc.co.mercer.pa.us (IPS I/Page Notification) Location: N BROAD ST/LINCOLN AVE GROV EID: 2360315 TYPE CODE: MVU CALLER NAME: LARRY GRACE CALLER ADDR: 522 E MAIN ST E
+"9-1-1"@mcc.co.mercer.pa.us (IPS I/Page Notification) Location: 666 FLOWER ST GROV EID: 2363268 TYPE CODE: COM CALLER NAME:  CALLER ADDR: 109 GEORGE JUNIOR RD PINE TIME: 20:
+"9-1-1"@mcc.co.mercer.pa.us (IPS I/Page Notification) Location: 597 CLARKSVILLE RD COOL: alias 597 RT 258 0 COOL EID: 2366343 TYPE CODE: HF CALLER NAME: 
+"9-1-1"@mcc.co.mercer.pa.us (IPS I/Page Notification) Location: 129 E PINE ST GROV: @PENN GROVE HOTEL EID: 2368267 TYPE CODE: FALM CALLER NAME: VECTOR-42
+"9-1-1"@mcc.co.mercer.pa.us (IPS I/Page Notification) Location: FOREST DR/LINCOLN AVE GROV EID: 2368281 TYPE CODE: TREE CALLER NAME: LUKE SPEARS CALLER A
+"9-1-1"@mcc.co.mercer.pa.us (IPS I/Page Notification) Location: N CENTER ST/W CHESTNUT ST GROV EID: 2370662 TYPE CODE: MVF CALLER NAME: TAMMY OCONNER CAL
+"9-1-1"@mcc.co.mercer.pa.us (IPS I/Page Notification) Location: 209 W MERCER ST EID: 2351183 TYPE CODE: MUT CALLER NAME: BUTLER CALLER ADDR:  TIM
+"9-1-1"@mcc.co.mercer.pa.us (IPS I/Page Notification) Location: 55 FRANKLIN ST STON EID: 2351363 TYPE CODE: CHIM CALLER NAME: BARTHOLOMEW, BRENDA
+"9-1-1"@mcc.co.mercer.pa.us (IPS I/Page Notification) Location: 150 LATONKA DR JACK EID: 2353811 TYPE CODE: HF CALLER NAME: MARKS, KATHLEEN CALLE
+"9-1-1"@mcc.co.mercer.pa.us (IPS I/Page Notification) Location: 819 SUNSET AVE GROV EID: 2354410 TYPE CODE: ELO CALLER NAME: MONTGOMERY BEVERLY C
+"9-1-1"@mcc.co.mercer.pa.us (IPS I/Page Notification) Location: 201 ERIE ST GROV: @ALLIED NEWS / THE HERALD EID: 2354451 TYPE CODE: ELI CALLER NA
+"9-1-1"@mcc.co.mercer.pa.us (IPS I/Page Notification) Location: 123 W MAIN ST GROV: @GROVE CITY BOROUGH EID: 2354882 TYPE CODE: BRU CALLER NAME: C
 
 Location is a street address or intersection followed by township, borough, or city.  If there is a specific business at that location there will be an @NAMEOFBUSINESS
 MVU=Motor Vehicle Crash w/ unknown injuries
