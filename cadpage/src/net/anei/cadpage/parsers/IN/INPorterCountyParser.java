@@ -46,6 +46,9 @@ Contact: Michael Zappia <mk.zappia@gmail.com>
 Sender: pcdisp@porterco-ps.org
 (CAD Page) #120065003 - \nF35P1:\nEMS AST-P1 @ 1118 WINTER PARK DR,LBT\nCROSS: btwn ASPEN DR and SUN VALLEY DR\nGRP:LF\nPRI:1\ncomment: Medical ProQA recommends di
 
+Contact: Christopher Diaz <cdiaz@lofsfire.com>
+Sender: messaging@iamresponding.com
+Subject:LOFS\nF32:\nRESP.ARR.AST EMS @ CHICAGOLAND CHRISTIAN VILLAGE,WNT\n- at 6685 E 117TH AV,WNT\nCROSS: btwn GIBSON ST and JAY ST\n-\r
 
 */
 
@@ -55,7 +58,7 @@ public class INPorterCountyParser extends FieldProgramParser {
   
   public INPorterCountyParser() {
     super("PORTER COUNTY", "IN",
-           "ID UNIT ADDR! ADDR2 CROSS:X? GRP:SRC? PRI:PRI comment:INFO");
+           "ID? UNIT ADDR! ADDR2 CROSS:X? GRP:SRC? PRI:PRI comment:INFO");
   }
   
   @Override
@@ -65,7 +68,15 @@ public class INPorterCountyParser extends FieldProgramParser {
 
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
-    if (!subject.equals("CAD Page")) return false;
+    do {
+      if (subject.equals("CAD Page")) break;
+      if (subject.endsWith("FS")) {
+        data.strSource = subject;
+        break;
+      }
+      return false;
+    } while (false);
+    
     body = MISSING_LF_PTN.matcher(body).replaceAll("\n");
     if (!parseFields(body.split("\n"), 4, data)) return false;
     String sAddr = data.strAddress;
@@ -74,14 +85,30 @@ public class INPorterCountyParser extends FieldProgramParser {
     return true;
   }
   
+  @Override
+  public String getProgram() {
+    return ("SRC " + super.getProgram());
+  }
+  
   private static final Pattern ID_PTN = Pattern.compile("#(\\d{9}) -");
   private class MyIdField extends IdField {
     
     @Override
-    public void parse(String field, Data data) {
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
       Matcher match = ID_PTN.matcher(field);
-      if (!match.matches()) abort();
+      if (!match.matches()) return false;
       super.parse(match.group(1), data);
+      return true;
+    }
+    
+    @Override
+    public void parse(String field, Data data) {
+      if (!checkParse(field, data)) abort();
     }
   }
   

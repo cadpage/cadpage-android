@@ -4866,18 +4866,23 @@ Contact:  Matt Exley <mexley46@gmail.com>
 From:messaging@iamresponding.com
 FRM:messaging@iamresponding.com\nSUBJ:West Ridge Fire\nMSG:17B3G >FALLS (GRND/FLOOR) UNK STATUS 3038 COLERIDGE DR XS: CROSSWINDS DR MILLCREEK TWP\r\n
 **********************************************************
+Duchess County, NY
+Contact: "corey1193@gmail.com" <corey1193@gmail.com>
+PV-1: Type:EMS P2 |Address: 923 SALT POINT TRNPK, PLEASANT VALLEY, New York |Nature: 17 YOM FEELING DIZZY |Cross:BLOSSOM HILL - WEST 
+PV-1: Type:EMS P4 |Address: 1434 ROUTE 44 , PLEASANT VALLEY, New York  |Nature: 57YOM FELL ,SHOULDER PAIN FATHER FELL |Cross:WILBUR RD
+**********************************************************
+Mineral County, WV
+Contact: Chris Green <mediccgreen@gmail.com>
+Sender: xdc@mineralcounty911.com
+S: M: ??? PFD:2012:0140 >2012-06-17 21:14:30 >ALERTED >ODOR UNKNOWN >47 WEST HAMPSHIRE ST, PIEDMONT
+**********************************************************
+**********************************************************
+**********************************************************
 **********************************************************
 **********************************************************
 **********************************************************
 ************  READY TO ROLL ******************************
 **********************************************************
-**********************************************************
-**********************************************************
-**********************************************************
- **********************************************************
-Crawford County, MO
-Contact: support@active911.com
-https://www.active911.com/interface/parser_report.php?key=743-DQXxP
 **********************************************************
 Calhoun County, MS
 https://www.active911.com/interface/parser_report.php?key=722-adhND
