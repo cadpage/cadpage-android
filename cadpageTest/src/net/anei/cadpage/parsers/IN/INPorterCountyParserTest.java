@@ -228,6 +228,29 @@ public class INPorterCountyParserTest extends BaseParserTest {
         "INFO:Medical ProQA recommends di");
   }
   
+  @Test
+  public void testLakeCounty() {
+    
+    setDefaults("LAKE COUNTY", "IN");
+
+    doTest("T1",
+        "Subject:LOFS\n" +
+        "F32:\n" +
+        "RESP.ARR.AST EMS @ CHICAGOLAND CHRISTIAN VILLAGE,WNT\n" +
+        "- at 6685 E 117TH AV,WNT\n" +
+        "CROSS: btwn GIBSON ST and JAY ST\n" +
+        "-\r",
+
+        "SRC:LOFS",
+        "UNIT:F32",
+        "CALL:RESP.ARR.AST EMS",
+        "PLACE:CHICAGOLAND CHRISTIAN VILLAGE",
+        "ADDR:6685 E 117TH AV",
+        "MADDR:6685 E 117TH AVE",
+        "CITY:Winfield Twp",
+        "X:GIBSON ST and JAY ST");
+ }
+  
   public static void main(String[] args) {
     new INPorterCountyParserTest().generateTests("T1");
   }

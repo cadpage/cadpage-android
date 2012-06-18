@@ -114,6 +114,22 @@ public class OHShelbyCountyParserTest extends BaseParserTest {
   }
   
   @Test
+  public void testShirleyJones() {
+
+    doTest("T1",
+        "(CAD Page) 12-009303|05:27:56|29-EMS|MEDICAL CALL 76 YO MALE NOT FEELING HAVEING STOMACH PAINS  @ 151 S LIBERTY WAY UNIT B, FT LORAMIE X OF ELM ST & CUL",
+        "ID:12-009303",
+        "TIME:05:27:56",
+        "CALL:29-EMS",
+        "INFO:MEDICAL CALL 76 YO MALE NOT FEELING HAVEING STOMACH PAINS",
+        "ADDR:151 S LIBERTY WAY",
+        "APT:B",
+        "CITY:FT LORAMIE",
+        "X:ELM ST & CUL");
+
+  }
+  
+  @Test
   public void testActive911() {
 
     doTest("T1",

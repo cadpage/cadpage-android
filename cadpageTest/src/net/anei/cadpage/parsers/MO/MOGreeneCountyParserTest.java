@@ -112,6 +112,39 @@ public class MOGreeneCountyParserTest extends BaseParserTest {
         "NAME:914",
         "INFO:FIRE ALARM ZONE 1 / Original Location : WILLAR");
   }
+  
+  @Test
+  public void testRogersville() {
+
+    doTest("T1",
+        "TYP: FIRE OUTSIDE AD: POWER LINE RD&US60 CTY: ROGERSVILLE CN: LRF CMT1: ** STATION 3 ZONE ** CMT2: FIRE OUTSIDE TIME: 15:03 UNTS: GF/LRF",
+        "CALL:FIRE OUTSIDE",
+        "ADDR:POWER LINE RD & US60",
+        "MADDR:POWER LINE RD & US 60",
+        "CITY:ROGERSVILLE",
+        "NAME:LRF",
+        "INFO:** STATION 3 ZONE ** / FIRE OUTSIDE",
+        "TIME:15:03",
+        "UNIT:GF/LRF");
+
+    doTest("T2",
+        "TYP: MEDICAL AD: 5337 S STONEHAVEN DR CTY: GREENE COUNTY MAP: U-23 CN: AT&T MOBILITY (TCS) CMT1: ** HIGHLAND SPRINGS NORTH GATE 5000 S HIGHLAND SPRINGS BL",
+        "CALL:MEDICAL",
+        "ADDR:5337 S STONEHAVEN DR",
+        "CITY:GREENE COUNTY",
+        "MAP:U-23",
+        "NAME:AT&T MOBILITY (TCS)",
+        "INFO:** HIGHLAND SPRINGS NORTH GATE 5000 S HIGHLAND SPRINGS BL");
+
+    doTest("T3",
+        "TYP: MEDICAL AD: 245 W HELENA ST CTY: ROGERSVILLE CN: 4177666491 CMT1: ** STATION 5 ZONE ** CMT2: XFER FROM WEBSTER CO. MALE HAVING CHEST PAINS. CO",
+        "CALL:MEDICAL",
+        "ADDR:245 W HELENA ST",
+        "CITY:ROGERSVILLE",
+        "NAME:4177666491",
+        "INFO:** STATION 5 ZONE ** / XFER FROM WEBSTER CO. MALE HAVING CHEST PAINS. CO");
+
+  }
 
   public static void main(String[] args) {
     new MOGreeneCountyParserTest().generateTests("T1");
