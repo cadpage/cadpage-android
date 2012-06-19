@@ -46,6 +46,7 @@ Brown County, OH
 (Alert: SICK PERSON (SPECIFIC DIAG)) ALRM LVL: 1\nLOC:\nDEERFIELD TOWNHOUSE APARTMENTS\n455 W MAIN ST\nAPT 703\nMT ORAB\nBTWN: N/A & N/A\n\nRCVD AS Phone\n\nCOM:
 (Alert: STRUCTURE FIRE UNCONFIRMED) ALRM LVL: 1\nLOC:\n2567 US RTE 134\nBTWN: N/A & N/A\n\nRCVD AS PHONE\n\nCOM: ADVISED SMOKE WAS COMING OUT OF THE WINDOWS CA
 (Alert: FIRE ALARM) ALARM LVL: 1\nLOC:\n11519 US RTE 62\nEAGLE\nBTWN: N/A & MAPLE DR\n\nRCVD AS PHONE\n\nCOM: FIRE ALARM EASTERN MIDDLE SCHOOL DUCT SMOKE D
+(Alert: BREATHING PROBLEMS) ALRM LVL: 1\r\nLOC:\r\n6072 TRI-COUNTY HWY\r\nLOT 1\r\nWASHINGTON\r\nBTWN: WARDLOW RD & N/A\r\n\r\nRCVD AS Phone\r\n\r\nCOM:\r\nBREATHING PROBLE
 
 Erlanger Dispatch, KY
 (Alert: Fire Structure) ALRM LVL: 1\nLOC:\n709 ORCHARD ST\nELSMERE\nBTWN: MAIN ST & LYTLE AV\n\nRCVD AS E-911 Call\n\nCOM:\nSMOKE FILLED BASEMENT\nHEARD A POP\n\nCT:\n22-
@@ -110,7 +111,8 @@ public class DispatchA1Parser extends FieldProgramParser {
       
       // If next field looks like an apartment, and third field starts with BTWN:, 
       // then this must be an address followed by apartment and city
-      if ((getRelativeField(1).length()<=3 || getRelativeField(1).startsWith("APT"))&& 
+      String aptFld = getRelativeField(1);
+      if ((aptFld.length()<=3 || aptFld.startsWith("APT") || aptFld.startsWith("LOT"))&& 
            getRelativeField(3).startsWith("BTWN:")) return false;
       
       // Otherwise, we can be a place field
@@ -130,7 +132,9 @@ public class DispatchA1Parser extends FieldProgramParser {
     public boolean checkParse(String field, Data data) {
       if (field.startsWith("APT")) {
         field = field.substring(3).trim();
-      } 
+      }
+      else if (field.startsWith("LOT")) {
+      }
       else if (field.length() > 3) return false; 
       parse(field, data);
       return true;
