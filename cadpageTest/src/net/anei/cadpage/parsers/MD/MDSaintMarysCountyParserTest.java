@@ -900,6 +900,28 @@ public class MDSaintMarysCountyParserTest extends BaseParserTest {
         "UNIT:CO49R",
         "INFO:71 year old, Male, Conscious, Breathing.");
 
+    doTest("T9",
+        "ST MARY'S COUNTY GOVERNMENT P (65438) CAD\r\n" +
+        ": 19:20:59*Overdose/Poisoning*LEXINGTON ESTATES*20598 TREETOP RD*HILLSIDE DR*HERMANVILLE*ALS ST39*4 yom* stop",
+
+        "TIME:19:20:59",
+        "CALL:Overdose/Poisoning",
+        "ADDR:20598 TREETOP RD",
+        "X:HILLSIDE DR",
+        "PLACE:LEXINGTON ESTATES",
+        "CITY:LEXINGTON PARK",
+        "UNIT:ALS ST39",
+        "INFO:4 yom");
+        
+    /* Returned by Active911
+        "TIME: 19:20:59",
+        "CALL: Overdose/Poisoning",
+        "ADDR: LEXINGTON ESTATES",
+        "X: 20598 TREETOP RD & HILLSIDE DR",
+        "INFO: HERMANVILLE * ALS ST39 * 4 yom",
+        "MADDR: LEXINGTON ESTATES & 20598 TREETOP RD");
+    **/
+
   }
 
   public static void main(String[] args) {

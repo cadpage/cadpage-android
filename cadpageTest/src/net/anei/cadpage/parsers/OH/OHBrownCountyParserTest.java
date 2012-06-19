@@ -115,6 +115,27 @@ public class OHBrownCountyParserTest extends BaseParserTest {
         "CITY:EAGLE",
         "X:MAPLE DR",
         "INFO:FIRE ALARM EASTERN MIDDLE SCHOOL DUCT SMOKE D");
+
+    doTest("T13",
+        "(Alert: BREATHING PROBLEMS) ALRM LVL: 1\r\n" +
+        "LOC:\r\n" +
+        "6072 TRI-COUNTY HWY\r\n" +
+        "LOT 1\r\n" +
+        "WASHINGTON\r\n" +
+        "BTWN: WARDLOW RD & N/A\r\n" +
+        "\r\n" +
+        "RCVD AS Phone\r\n" +
+        "\r\n" +
+        "COM:\r\n" +
+        "BREATHING PROBLE",
+
+        "CALL:BREATHING PROBLEMS",
+        "PRI:1",
+        "ADDR:6072 TRI-COUNTY HWY",
+        "APT:LOT 1",
+        "CITY:WASHINGTON",
+        "X:WARDLOW RD",
+        "INFO:BREATHING PROBLE");
       
   }
   
