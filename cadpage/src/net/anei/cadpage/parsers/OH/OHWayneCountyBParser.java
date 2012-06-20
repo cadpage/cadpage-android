@@ -20,6 +20,7 @@ Sender: dispatch@ohiomuni.net
 Contact:  Jackie Elkins <elk607@gmail.com>
 Sender: dispatch@orrville.com
 (Dispatch Message) MUTUAL AID REQUESTED BY US\r961 ROSELAND \rNORTH LAWRENCE REQ RIT TEAM FOR STRUCTURE FIRE, NORTH OF 172, EAST OF KENYON
+(Dispatch Message) SQUAD: (FREE TEXT)        \r718 ELM S \rELDERLY FEMALE NO RESPONDING HAS HISTORY OF STROKE AND IS BREATHING
 
  */
 

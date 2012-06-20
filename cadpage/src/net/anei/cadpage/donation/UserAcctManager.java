@@ -110,9 +110,7 @@ public abstract class UserAcctManager {
       String[] freeList = context.getResources().getStringArray(R.array.free_rider_list);
       String[] paid2013List = context.getResources().getStringArray(R.array.paid_2013_list);
       String[] paid2012List = context.getResources().getStringArray(R.array.paid_2012_list);
-      String[] free2012List = context.getResources().getStringArray(R.array.free_2012_list);
       String[] paid2011List = context.getResources().getStringArray(R.array.paid_2011_list);
-      String[] free2011List = context.getResources().getStringArray(R.array.free_2011_list);
       String hash = calcHash(acct);
       if (Arrays.binarySearch(freeList, hash) >= 0) {
         if (isAcct) userEmail = acct;
@@ -123,9 +121,7 @@ public abstract class UserAcctManager {
       if (!isAcct) acct = null;
       if (checkAcctList(hash, acct, 2013, false, paid2013List)) return;
       if (checkAcctList(hash, acct, 2012, false, paid2012List)) return;
-      if (checkAcctList(hash, acct, 2012, true, free2012List)) return;
       if (checkAcctList(hash, acct, 2011, false, paid2011List)) return;
-      if (checkAcctList(hash, acct, 2011, true, free2011List)) return;
     }
     
     private boolean checkAcctList(String hash, String acct, 

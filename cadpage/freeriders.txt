@@ -464,7 +464,7 @@ Boiling Springs #1 (bsfd09@gmail.com)
 Boiling Springs #2 (bsfd10@gmail.com)
 
 // List of users getting free credit for 2011
-$free_2011_list
+$ // free_2011_list
 %2011/FREE
 %%10/14/2011
 >>pedro saldanha (psaldanha3115@gmail.com)
@@ -1435,7 +1435,7 @@ Nick Thiele(thiele.nick@gmail.com)
 Catherine Santaniello (gary.santaniello@gmail.com)
 
 // List of users getting free credit for 2012
-$free_2012_list
+$ // free_2012_list
 %2012/FREE
 %%01/01/2012
 >>Kyle Miller <millerk1110@gmail.com>

@@ -88,6 +88,11 @@ CAD:ASSAULT W/ INJURY;2339 ODELL SCHOOL RD;CON;CONCORD HOUSE;HILLSDELL DR;LOCKWO
 CAD:BREATHING PROBLEMS;5412 ASHBURY LN;DAV;TERRILL RIDGE DR;TERRILL RIDGE DR;BRACEY III JOSEPH O     
 CAD:STRUCTURE FIRE;1606 DUCKHORN ST NW;CON;From CPD:;RAVENSCROFT LN NW;INDIAN BEECH AV NW;BUCKELEW, HEATHER     
 ***************************************************************************
+Currituck County, NC (NCCurrituckCountyParser)
+CAD:INV REPORT OF SMOKE OR ALARM;806 WHALEHEAD DR;JOHNS BROS
+CAD:INV REPORT OF SMOKE OR ALARM;135 SALT HOUSE RD;JOHNS BROTHERS;8007682767
+CAD:ASSIST FOR AGENCY OR PUBLIC;1013 LIGHTHOUSE DR;VERIZON WIRELESS;7248753289
+***************************************************************************
 Durham County, NC
 CAD:TRANSPORTATION ACCIDENT;2399 S ALSTON AVE/RIDDLE RD;{M8} CODE 2 RESPONSE [06/30/11 15:48:22 GRIFFINT] {M8} SEND ADDTL MEDIC UNIT [06/30/11 15:46:11 GRIFFINT] [
 CAD:BACK PAIN;5499 SUTTERIDGE CT/LYON FARM DR;[Medical Priority Info] PROBLEM: back pain # PATS: 1 AGE: 50 Years SEX: Male CONSCIOUS: Yes BREATHING: Yes [07/05/11
@@ -4878,6 +4883,11 @@ Clark County, WA
 Contact:  Doug Gelsleichter <dgelsleichter@ecfr.us>
 Sender: 777171393073
 CRESA LOC: 3615 NE EVERETT ST CAM MAP: 1302 OPS:   SEIZURE SUB TYPE: A1 PRI: 4 TIME: 18:51:00 EV#: 12166142 ALARM: 1  Disp: E41,E91,M41
+CRESA LOC: 1315 NE 310TH AVE CLK MAP: 2430 OPS:   PUBLIC ASSIST/SERVICE CALL SUB TYPE: BU PRI: 4 TIME: 07:42:36 EV#: 12166548 ALARM: 1  Disp: SQ91
+CAM = Camas
+CLK = Clark County
+WAS = Washouglas
+VAN = Vancouver
 **********************************************************
 **********************************************************
 **********************************************************
@@ -4887,8 +4897,6 @@ CRESA LOC: 3615 NE EVERETT ST CAM MAP: 1302 OPS:   SEIZURE SUB TYPE: A1 PRI: 4 T
 **********************************************************
 **********************************************************
 **********************************************************
-Currituck County, NC
-https://www.active911.com/interface/parser_report.php?key=414-qqp6C
 **********************************************************
 Hartford County, MD
 https://www.active911.com/interface/parser_report.php?key=328-xtLLh
