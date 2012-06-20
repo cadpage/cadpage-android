@@ -4869,6 +4869,10 @@ Contact: Chris Green <mediccgreen@gmail.com>
 Sender: xdc@mineralcounty911.com
 S: M: ??? PFD:2012:0140 >2012-06-17 21:14:30 >ALERTED >ODOR UNKNOWN >47 WEST HAMPSHIRE ST, PIEDMONT
 **********************************************************
+Clark County, WA
+Contact:  Doug Gelsleichter <dgelsleichter@ecfr.us>
+Sender: 777171393073
+CRESA LOC: 3615 NE EVERETT ST CAM MAP: 1302 OPS:   SEIZURE SUB TYPE: A1 PRI: 4 TIME: 18:51:00 EV#: 12166142 ALARM: 1  Disp: E41,E91,M41
 **********************************************************
 **********************************************************
 **********************************************************

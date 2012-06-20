@@ -197,7 +197,6 @@ public class NYGeneseeCountyParser extends FieldProgramParser {
   
   private static final String[] CITY_LIST = new String[]{
     "ALABAMA",
-    "ALDEN",
     "ALEXANDER",
     "ATTICA",
     "BATAVIA",
@@ -212,6 +211,18 @@ public class NYGeneseeCountyParser extends FieldProgramParser {
     "OAKFIELD",
     "PAVILION",
     "PEMBROKE",
-    "STAFFORD"
+    "STAFFORD",
+
+    // Erie County
+    "ALDEN",
+    "AKRON",
+    
+    // Wyoming County
+    "ATTICA",
+    "BENNINGTON",
+    
+    // Erie County,
+    "CLARENCE",
+    "NEWSTEAD"
   };
 }
