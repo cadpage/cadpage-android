@@ -72,6 +72,12 @@ public class OHWayneCountyBParserTest extends BaseParserTest {
         "INFO:NORTH LAWRENCE REQ RIT TEAM FOR STRUCTURE FIRE, NORTH OF 172, EAST OF KENYON",
         "CITY:NORTH LAWRENCE");
 
+    doTest("T2",
+        "(Dispatch Message) SQUAD: (FREE TEXT)        \r718 ELM S \rELDERLY FEMALE NO RESPONDING HAS HISTORY OF STROKE AND IS BREATHING",
+        "CALL:SQUAD: (FREE TEXT)",
+        "ADDR:718 ELM S",
+        "INFO:ELDERLY FEMALE NO RESPONDING HAS HISTORY OF STROKE AND IS BREATHING");
+
   }
   
   public static void main(String[] args) {

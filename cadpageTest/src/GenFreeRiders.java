@@ -180,6 +180,7 @@ public class GenFreeRiders {
       if (userList.size() == 0) return;
       throw new RuntimeException("Missing initial list name");
     }
+    if (listName.length() == 0) return;
     ps.println("  <string-array name=\"" + listName + "\">");
     
     String[] users = userList.toArray(new String[userList.size()]);
