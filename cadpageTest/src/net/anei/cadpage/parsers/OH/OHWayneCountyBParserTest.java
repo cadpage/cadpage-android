@@ -62,6 +62,18 @@ public class OHWayneCountyBParserTest extends BaseParserTest {
         "INFO:PATIENT PULLED TRAC OUT NEEDS TO GO TO DUNLAP ER, USE BACK DOOR DOGWOOD");
   }
   
+  @Test
+  public void testJackieElkins() {
+
+    doTest("T1",
+        "(Dispatch Message) MUTUAL AID REQUESTED BY US\r961 ROSELAND \rNORTH LAWRENCE REQ RIT TEAM FOR STRUCTURE FIRE, NORTH OF 172, EAST OF KENYON",
+        "CALL:MUTUAL AID REQUESTED BY US",
+        "ADDR:961 ROSELAND",
+        "INFO:NORTH LAWRENCE REQ RIT TEAM FOR STRUCTURE FIRE, NORTH OF 172, EAST OF KENYON",
+        "CITY:NORTH LAWRENCE");
+
+  }
+  
   public static void main(String[] args) {
     new OHWayneCountyBParserTest().generateTests("T1");
   }

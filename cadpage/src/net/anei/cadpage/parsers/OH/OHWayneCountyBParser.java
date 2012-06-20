@@ -17,6 +17,10 @@ Sender: dispatch@ohiomuni.net
 (Dispatch Message) SQUAD: (FREE TEXT)        \n1 ARLINGTON CT 1\n51 YOM SEVERE HEADACHE  BLDG 3
 (Dispatch Message) SQUAD: (FREE TEXT)        \n15028 OLD LINCOLN WAY \nPATIENT PULLED TRAC OUT NEEDS TO GO TO DUNLAP ER, USE BACK DOOR DOGWOOD
 
+Contact:  Jackie Elkins <elk607@gmail.com>
+Sender: dispatch@orrville.com
+(Dispatch Message) MUTUAL AID REQUESTED BY US\r961 ROSELAND \rNORTH LAWRENCE REQ RIT TEAM FOR STRUCTURE FIRE, NORTH OF 172, EAST OF KENYON
+
  */
 
 
@@ -35,6 +39,18 @@ public class OHWayneCountyBParser extends FieldProgramParser {
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
     if (!subject.equals("Dispatch Message")) return false;
-    return parseFields(body.split("\n"), data);
+    if (!parseFields(body.split("\n"), data)) return false;
+    String info = data.strSupp.toUpperCase();
+    for (String city : CITY_LIST) {
+      if (info.contains(city)) {
+        data.strCity = city;
+        break;
+      }
+    }
+    return true;
   }
+  
+  private static final String[] CITY_LIST = new String[] {
+    "NORTH LAWRENCE"
+  };
 }
