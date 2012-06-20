@@ -53,8 +53,8 @@ Sender: CAD@durhamnc.gov
 (CAD:) STRUCTURE FIRE;7121 BLALOCK RD;UNABLE TO CONFIRM IF ANYONE IS IN THE HOUSE [05/25/12 16:21:27 SMITHK] OPS2 O [05/25/12 16:20:44 SMITHK] ACROSS THE STREET [05/25/12 16:20:26 SMITHK] house on fire [05/25/12 16:20:19 SMITHK] ;WILLARDVILLE 
 (CAD:STRUCTURE FIRE;7121 BLALOCK RD;ACROSS THE STREET  [05/25/12 16) 20:26 SMITHK] house on fire [05/25/12 16:20:19 SMITHK] ;WILLARDVILLE STATION RD;SEINEVIEW LN
 (CAD:SICK PERSON;429 CONTINENTAL DR;attempting to get further  [05/28/12 18) 21:03 DILLARD] male in the frt yard not feeling good -- [05/28/12 18:20:50 DILLARD] ;LARK LN;GREEN LANE DR
-[CAD:INVESTIGATION;109 CAPTAINS CT;EITHER 107 OR 109  [06/02/12 18] 46:18 GLOSSON] open fire.... [06/02/12 18:46:01 GLOSSON] ;CRAIG RD\n
 (CAD:INVESTIGATION;109 CAPTAINS CT;EITHER 107 OR 109  [06/02/12 18) 46:18 GLOSSON] open fire.... [06/02/12 18:46:01 GLOSSON] ;CRAIG RD
+[CAD:SICK PERSON;1207 TORREDGE RD;[Medical Priority Info] PROBLEM] mom has fever and throwing up # PATS: 1 AGE: 85 Years SEX: Female CONSCIOUS: Yes BREATHING: Yes [06/19/12 15:19:27 HOLP] 919-477-3013 ph number per ANI [0;GLENOAKS DR;COLLINS D
 
 */
 
@@ -71,7 +71,7 @@ public class NCDurhamCountyParser extends DispatchOSSIParser {
   }
   
   private static final Pattern UNIT_PTN = Pattern.compile("^\\{(.*?)\\}");
-  private static final Pattern JOIN_PTN = Pattern.compile("\\d\\d/\\d\\d/\\d\\d \\d\\d$");
+  private static final Pattern JOIN_PTN = Pattern.compile("\\d\\d/\\d\\d/\\d\\d \\d\\d$|PROBLEM$");
   
   @Override
   public boolean parseMsg(String subject, String body, Data data) {

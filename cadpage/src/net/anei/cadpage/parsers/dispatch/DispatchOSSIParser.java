@@ -50,7 +50,7 @@ public class DispatchOSSIParser extends FieldProgramParser {
   private Pattern delimPattern = Pattern.compile("\\[|;");
   
   // Pattern searching for "PROBLEM: or "RESPONDER SCRIPT:"
-  private static final Pattern KEYWORD = Pattern.compile("\\b(PROBLEM:|RESPONDER SCRIPT:)");
+  private static final Pattern KEYWORD = Pattern.compile("\\b(?:PROBLEM:|RESPONDER SCRIPT:)");
   
   // Pattern marking a trailing token that may need to be removed
   private static final Pattern TAIL_PAT = Pattern.compile("CLDR?[0-9]");
