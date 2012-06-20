@@ -273,6 +273,22 @@ public class NYGeneseeCountyParserTest extends BaseParserTest {
   }
   
   @Test
+  public void testBrianSchollard() {
+
+    doTest("T1",
+        "GENESEE COUNTY DISPATCH Fire Mutual Aid ** ** 13415 GENESEE ST , ALDEN - ** CORFU 1 ENG TO FILL IN ** CRITTENDEN RD / PETERS CORNERS RD, S NEWSTEAD RD ** 06/19/12 13:29 ** 2012-00000051 ** TXT STOP to opt-out",
+        "CALL:Fire Mutual Aid",
+        "ADDR:13415 GENESEE ST",
+        "CITY:ALDEN",
+        "INFO:CORFU 1 ENG TO FILL IN",
+        "X:CRITTENDEN RD / PETERS CORNERS RD, S NEWSTEAD RD",
+        "DATE:06/19/12",
+        "TIME:13:29",
+        "ID:2012-00000051");
+
+  }
+  
+  @Test
   public void testActive911() {
 
 
