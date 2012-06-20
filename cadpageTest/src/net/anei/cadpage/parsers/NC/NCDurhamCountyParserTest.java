@@ -286,6 +286,14 @@ public class NCDurhamCountyParserTest extends BaseParserTest {
         "DATE:06/02/12",
         "TIME:18:46:18");
 
+    doTest("T23",
+        "[CAD:SICK PERSON;1207 TORREDGE RD;[Medical Priority Info] PROBLEM] mom has fever and throwing up # PATS: 1 AGE: 85 Years SEX: Female CONSCIOUS: Yes BREATHING: Yes [06/19/12 15:19:27 HOLP] 919-477-3013 ph number per ANI [0;GLENOAKS DR;COLLINS D",
+        "CALL:SICK PERSON",
+        "ADDR:1207 TORREDGE RD",
+        "INFO:mom has fever and throwing up # PATS: 1 AGE: 85 Years SEX: Female CONSCIOUS: Yes BREATHING: Yes / 919-477-3013 ph number per ANI",
+        "DATE:06/19/12",
+        "TIME:15:19:27");
+
   }
   
   public static void main(String[] args) {

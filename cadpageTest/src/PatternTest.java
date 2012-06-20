@@ -6,10 +6,10 @@ import java.util.regex.Pattern;
 public class PatternTest {
 
   private static final Pattern MASTER = 
-      Pattern.compile("^P, *([A-Z]*[0-9]+)");
+      Pattern.compile("\\b(?:PROBLEM:|RESPONDER SCRIPT:)");
   
   public static void main(String[] args) {
-    doTest("P,3627 E61 SQ60 816 ONE VEHICLE INTO GUARD RAIL. UNKNOWN INJURIES. UNKNOWN ENTRAPMENT.");
+    doTest("PROBLEM:mom has fever and throwing up # PATS: 1 AGE: 85 Years SEX: Female CONSCIOUS: Yes BREATHING: Yes");
   }
   
   private static void doTest(String test) {
