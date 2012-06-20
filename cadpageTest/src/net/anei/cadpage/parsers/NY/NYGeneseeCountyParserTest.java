@@ -265,7 +265,7 @@ public class NYGeneseeCountyParserTest extends BaseParserTest {
         "CALL:Fire Mutual Aid",
         "ADDR:157 ASPEN ST",
         "INFO:STANDBY TANKERS IN YOUR HALL",
-        "X:NEWSTEAD",
+        "CITY:NEWSTEAD",
         "DATE:03/31/12",
         "TIME:14:44",
         "ID:2012-00000055");
