@@ -116,7 +116,14 @@ public class VALouisaCountyParserTest extends BaseParserTest {
         "CALL:EMS-Chest Pain/Cardiac Problem",
         "ADDR:1503 BETHANY CHURCH RD",
         "INFO:NO HX OF HEART PROBLEMS  NO RECENT INJURY OR TRAUMA  AWAK");
-   
+
+    doTest("T14",
+        "(Incident Notification) Explosion ; 1219 JACKSON RD ; ; Box 512 ; Info:  NO SMOKES  FROM HER HOUSE ON THE RIGHT HAND SIDE//SEES RED SPARKLES  UNABLE TO UNDERSTAN",
+        "CALL:Explosion",
+        "ADDR:1219 JACKSON RD",
+        "BOX:512",
+        "INFO:NO SMOKES  FROM HER HOUSE ON THE RIGHT HAND SIDE//SEES RED SPARKLES  UNABLE TO UNDERSTAN");
+  
   }
   
   @Test
