@@ -71,6 +71,7 @@ public class Message {
   // Patterns used to perform front end descrambling
   private static final Pattern LEAD_BLANK = Pattern.compile("^ *\" \" +");
   private static final Pattern DISCLAIMER_PTN = Pattern.compile("\\n+DISCLA.*$", Pattern.CASE_INSENSITIVE);
+  private static final Pattern FWD_HEADER_PTN = Pattern.compile("^Fwd:|^\\[FWD?:[^\\]]*?\\] *\n(?:.*Original Message.*\n)?", Pattern.CASE_INSENSITIVE);
   private static final Pattern[] MSG_HEADER_PTNS = new Pattern[]{
     Pattern.compile("^(000\\d)/(000\\d)\\b"),
     Pattern.compile("^(\\d) *of *(\\d):"),
@@ -95,7 +96,8 @@ public class Message {
   private static final Pattern FRM_TAG_PATTERN = Pattern.compile("\n *FRM:");
   private static final Pattern[] E_S_M_PATTERNS = new Pattern[]{
     Pattern.compile("^(?:([^ ,;/]+) +)?S: *(.*?)(?: +M:|\n)"), 
-    Pattern.compile("^Fr:<(.*?)>?\nSu:(.*?)\nTxt: ")
+    Pattern.compile("^Fr:<(.*?)>?\nSu:(.*?)\nTxt: "),
+    Pattern.compile("^From: *(.*?)\n(?:\\[?mailto:.*]\n)?(?:Sent:.*\n)?(?:To:.*\n)?(?:Subject: (.*)\n)?")
   };
   
   private void preParse(String fromAddress, String subject, String body) {
@@ -114,7 +116,8 @@ public class Message {
     body = DISCLAIMER_PTN.matcher(body).replaceFirst("");
     
     // Remove leading Fwd: flag
-    if (body.startsWith("Fwd:")) body = body.substring(4).trim();
+    Matcher match = FWD_HEADER_PTN.matcher(body);
+    if (match.find()) body = body.substring(match.end()).trim();
     
     // Dummy loop we can break out of
     do {
@@ -122,7 +125,7 @@ public class Message {
       // Check the message header pattern,these contain a msg number and total
       // counts.  If the values don't match, set the flag indicating more data
       // is expected
-      Matcher match = null;
+      match = null;
       boolean found = false;
       for (Pattern ptn : MSG_HEADER_PTNS) {
         match = ptn.matcher(body);
@@ -286,9 +289,9 @@ public class Message {
       
       if (found) {
         String from = match.group(1);
-        if (from != null) parseAddress = from;
+        if (from != null) parseAddress = from.trim();
         String sub = match.group(2);
-        if (sub != null) addSubject(sub);
+        if (sub != null) addSubject(sub.trim());
         body = body.substring(match.end()).trim();
         break;
       }
