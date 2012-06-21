@@ -19,8 +19,6 @@ System: Firecom
 [Fire CAD Message]  New Fire Run: 2010-63762,Nature: 10C04-CHEST PAIN - Breathing Normally => 35,MR51,Location: 24495 REED RD,Building: ,Cross: ,
 [Fire CAD Message]  New Fire Run: 2010-63789,Nature: 17D03-FALL - Not alert,MR51,Location: 1953 DR MARTIN LUTHER KING JR DR,Building: ,Cross: ,,G
 [Fire CAD Message]  New Fire Run: 2010-63800,Nature: 28C01G-STROKE/CVA - Not alert - Greater than one hour onset,MR55,Location: 1 FAIRFIELD DR,Bu
-[Fire CAD Message]  2011-64534,CLOSED CALL: DISP 18:06:34,AVL 18:24:17,.
-[Fire CAD Message]  Run# 2010-63824 Trk E51,E54,E55,E31,T51,T31,TN51,FM1,BAT5,TN31 TAC NORTH (01900149-940),.
 
 Contact: johnny jessie <johann475@gmail.com>
 (Nature: 13D01-DIABETIC PROBLEMS - Unconscious) New Fire Run: 2011-76911,,MR18,Location: 35219 W PINE HILL,Building: ,Cross: ,,Grid: 247F,Map: 4
@@ -82,8 +80,6 @@ Sender:Fire Dispatch <firecad@thewoodlandstownship-tx.gov>
 (Nature: F16-VEHICLE EXTRICATION) New Fire Run: 2012-13333,,E111,Location: 25186 I45 N-SC,Building: ,Cross: 102 RAYFORD FOREST L,Grid: 252S,Map: 5173,.
 (Nature: 29-MVA - PRE-ALERT) New Fire Run: 2012-13492,,E111,Location: BUDDE RD & PRUITT RD,Building: ,Cross: ,,Grid: 252W,Map: 5172,.
 
-
-
 [Nature: 32D01-UNKNOWN PROBLEM/MAN DOWN - Life St] New Fire Run: 2012-16406,,B111,Location: INTERSTATE 45 N & RAYFORD RD,Building: ,Cross: ,,Grid: 252W,Map: 5173,.\n
 [Fire CAD Message] Run# 2012-16406 Trk B111,TN111 FD3 (01900153-937),.\n
 [Fire CAD Message] 2012-16406,CLOSED CALL: DISP 02:33:31,AVL 02:36:49,.\n
@@ -110,12 +106,6 @@ public class TXMontgomeryCountyParser extends FieldProgramParser {
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     
-    if (subject.equals("Fire CAD Message")) {
-      data.strCall = "RUN REPORT";
-      data.strPlace = body;
-      return true;
-    }
-    
     // Sometime Nature field gets pulled out of text string and put in subject
     // When that happens we need to put it back
     if (subject.startsWith("Nature:")) {
@@ -125,7 +115,15 @@ public class TXMontgomeryCountyParser extends FieldProgramParser {
       if (pt < 0) return false;
       body = body.substring(0,pt+1) + subject + body.substring(pt+1);
     }
-    return parseFields(body.split(","), data);
+    if (parseFields(body.split(","), data)) return true;
+    
+    if (subject.equals("Fire CAD Message")) {
+      data.strCall = "RUN REPORT";
+      data.strPlace = body;
+      return true;
+    }
+    
+    return false;
   }
   
   // Unit field, remove extraneous trailing semicolon

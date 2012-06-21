@@ -52,6 +52,7 @@ public class NYErieCountyRedAlertParser extends DispatchRedAlertParser {
   
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
+    if (body.startsWith("Erie_Alert ")) return false;
     if (body.startsWith("*2")) body = body.substring(2).trim();
     int pt = body.indexOf('\n');
     if (pt >= 0) body = body.substring(0,pt);
