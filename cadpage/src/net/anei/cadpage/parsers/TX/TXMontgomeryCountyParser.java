@@ -82,6 +82,12 @@ Sender:Fire Dispatch <firecad@thewoodlandstownship-tx.gov>
 (Nature: F16-VEHICLE EXTRICATION) New Fire Run: 2012-13333,,E111,Location: 25186 I45 N-SC,Building: ,Cross: 102 RAYFORD FOREST L,Grid: 252S,Map: 5173,.
 (Nature: 29-MVA - PRE-ALERT) New Fire Run: 2012-13492,,E111,Location: BUDDE RD & PRUITT RD,Building: ,Cross: ,,Grid: 252W,Map: 5172,.
 
+
+
+[Nature: 32D01-UNKNOWN PROBLEM/MAN DOWN - Life St] New Fire Run: 2012-16406,,B111,Location: INTERSTATE 45 N & RAYFORD RD,Building: ,Cross: ,,Grid: 252W,Map: 5173,.\n
+[Fire CAD Message] Run# 2012-16406 Trk B111,TN111 FD3 (01900153-937),.\n
+[Fire CAD Message] 2012-16406,CLOSED CALL: DISP 02:33:31,AVL 02:36:49,.\n
+
 ** NOT PARSING ***
 Contact: Bill Holt <billholt1960@gmail.com>
 Sender: firecad@thewoodlandstownship-tx.gov
@@ -90,18 +96,6 @@ Fire CAD Message / Run# 2012-05791 Trk E105 FD2>> (01900145-937),.\n
  */
 
 public class TXMontgomeryCountyParser extends FieldProgramParser {
-  
-  private static final Properties CITY_CODES = buildCodeTable(new String[]{
-      "CR",   "CONROE",
-      "MO",   "MONTGOMERY",
-      "NC",   "NEW CANEY",
-      "OR",   "OAK RIDGE",
-      "PG",   "PATTON VILLAGE",
-      "RF",   "ROMAN FOREST",
-      "SC",   "SPRING",
-      "SP",   "SPLENDORA",
-      "WD",   "WOODLANDS"
-  });
   
   public TXMontgomeryCountyParser() {
     super(CITY_CODES, "MONTGOMERY COUNTY", "TX",
@@ -115,6 +109,12 @@ public class TXMontgomeryCountyParser extends FieldProgramParser {
 
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
+    
+    if (subject.equals("Fire CAD Message")) {
+      data.strCall = "RUN REPORT";
+      data.strPlace = body;
+      return true;
+    }
     
     // Sometime Nature field gets pulled out of text string and put in subject
     // When that happens we need to put it back
@@ -151,4 +151,16 @@ public class TXMontgomeryCountyParser extends FieldProgramParser {
     if (name.equals("ADDR")) return new MyAddressField();
     return super.getField(name);
   }
+  
+  private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "CR",   "CONROE",
+      "MO",   "MONTGOMERY",
+      "NC",   "NEW CANEY",
+      "OR",   "OAK RIDGE",
+      "PG",   "PATTON VILLAGE",
+      "RF",   "ROMAN FOREST",
+      "SC",   "SPRING",
+      "SP",   "SPLENDORA",
+      "WD",   "WOODLANDS"
+  });
 }

@@ -476,7 +476,29 @@ public class TXMontgomeryCountyParserTest extends BaseParserTest {
 
   }
   
+  @Test
+  public void testRunReport() {
+
+    doTest("T1",
+        "[Nature: 32D01-UNKNOWN PROBLEM/MAN DOWN - Life St] New Fire Run: 2012-16406,,B111,Location: INTERSTATE 45 N & RAYFORD RD,Building: ,Cross: ,,Grid: 252W,Map: 5173,.\n",
+        "ID:2012-16406",
+        "CALL:32D01-UNKNOWN PROBLEM/MAN DOWN - Life St",
+        "UNIT:B111",
+        "ADDR:INTERSTATE 45 N & RAYFORD RD");
+
+    doTest("T2",
+        "[Fire CAD Message] Run# 2012-16406 Trk B111,TN111 FD3 (01900153-937),.\n",
+        "CALL:RUN REPORT",
+        "PLACE:Run# 2012-16406 Trk B111,TN111 FD3 (01900153-937),.");
+
+    doTest("T3",
+        "[Fire CAD Message] 2012-16406,CLOSED CALL: DISP 02:33:31,AVL 02:36:49,.\n",
+        "CALL:RUN REPORT",
+        "PLACE:2012-16406,CLOSED CALL: DISP 02:33:31,AVL 02:36:49,.");
+         
+  }
+  
   public static void main(String[] args) {
-    new TXMontgomeryCountyParserTest().generateTests("T11");
+    new TXMontgomeryCountyParserTest().generateTests("T1");
   }
 }
