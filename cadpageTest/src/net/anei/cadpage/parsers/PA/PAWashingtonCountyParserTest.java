@@ -231,7 +231,7 @@ public class PAWashingtonCountyParserTest extends BaseParserTest {
         "ADDR:36 LYNNCREST CIR",
         "CITY:CECIL TWP",
         "X:HILLCREST DR DEAD END",
-        "CALL:ALMED",
+        "CALL:MEDICAL ALARM",
         "TIME:15:36:27",
         "INFO:KOSANOVICH RES//7247462905");
 
@@ -273,7 +273,7 @@ public class PAWashingtonCountyParserTest extends BaseParserTest {
         "ADDR:52 CARLISLE ST",
         "CITY:CECIL TWP",
         "X:2ND ST & 3RD ST",
-        "CALL:MUTUAL AID REQUEST",
+        "CALL:REQUEST ASSISTANCE",
         "TIME:15:49:08");
 
     doTest("T4",
