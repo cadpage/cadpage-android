@@ -29,6 +29,10 @@ Sender: dispatch@townofhamburgny.com
 *2EMS: 69 Years Male Chest pain- medic response at 7898 BOSTON STATE RD #40, Boston  c/s: WILDWOOD DR   O: BOSTON HILLS MOBILE HOME PARK . . 19:09:24
 *2EMS: M/chest pains at 8112 COLE RD, Boston  c/s: OMPHALIUS RD . . 20:05:16
 
+Contact: eric dahlgren <ercdahl@gmail.com>
+Sender: dispatch@townofhamburgny.com
+EMS: HA 8 RESP FOR A TRANSPORT.  NO FURTHER REPONSE NECESSARY. at 239 BROOKWOOD DR, Village of Hamburg  c/s: BIRKSHIRE RD . . 21:3\r
+
 */
 
 public class NYErieCountyRedAlertParser extends DispatchRedAlertParser {
@@ -48,8 +52,7 @@ public class NYErieCountyRedAlertParser extends DispatchRedAlertParser {
   
   @Override
   public boolean parseMsg(String subject, String body, Data data) {
-    if (!body.startsWith("*2")) return false;
-    body = body.substring(2).trim();
+    if (body.startsWith("*2")) body = body.substring(2).trim();
     int pt = body.indexOf('\n');
     if (pt >= 0) body = body.substring(0,pt);
     return super.parseMsg(subject, body, data);
