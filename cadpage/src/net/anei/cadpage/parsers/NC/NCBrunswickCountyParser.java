@@ -42,6 +42,10 @@ Contact: Daniel McCarthy <mcca6564@student.brunswickcc.edu>
 Sender: pagegate@brunswickes.com
 S:[calabashvems]  M:7045:998 WATERVIEW LN CAROLINA SHORES 12-034031 17:20:33 Sick Person (Specific Diagnosis) 2 YOM SICK AND THROWING UP FOR 5 DAYS\n
 
+Contact: Keith Richardson <aldo4371@gmail.com>
+Sender: vtext.com@returns.groups.yahoo.com
+sentto-81052485-2179-1340294796-8439951185= vtext.com@returns.groups.yahoo.com ([calabashvems]) 7678:204 AZALEA CIR SUNSET BEACH 12-048247 12:04:31 Breathing Problems BREATHING PROB
+
 */
 
 public class NCBrunswickCountyParser extends DispatchSouthernParser {
@@ -53,7 +57,7 @@ public class NCBrunswickCountyParser extends DispatchSouthernParser {
   
   @Override
   public String getFilter() {
-    return "pagegate@brunswickes.com";
+    return "pagegate@brunswickes.com,vtext.com@returns.groups.yahoo.com";
   }
   
   private static final String[] CITY_LIST = new String[]{
