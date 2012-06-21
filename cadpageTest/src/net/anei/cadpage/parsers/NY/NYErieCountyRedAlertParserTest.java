@@ -143,6 +143,19 @@ public class NYErieCountyRedAlertParserTest extends BaseParserTest {
         "TIME:20:05:16");
   }
   
+  @Test
+  public void test() {
+
+    doTest("T1",
+        "EMS: HA 8 RESP FOR A TRANSPORT.  NO FURTHER REPONSE NECESSARY. at 239 BROOKWOOD DR, Village of Hamburg  c/s: BIRKSHIRE RD . . 21:3\r",
+        "CALL:EMS",
+        "INFO:HA 8 RESP FOR A TRANSPORT. NO FURTHER REPONSE NECESSARY.",
+        "ADDR:239 BROOKWOOD DR",
+        "CITY:Village of Hamburg",
+        "X:BIRKSHIRE RD");
+
+  }
+  
   public static void main(String[] args) {
     new NYErieCountyRedAlertParserTest().generateTests("T7", "CALL INFO ADDR APT CITY X PLACE TIME");
   }
