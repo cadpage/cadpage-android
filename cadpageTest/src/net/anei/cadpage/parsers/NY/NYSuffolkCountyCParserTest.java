@@ -433,6 +433,19 @@ public class NYSuffolkCountyCParserTest extends BaseParserTest {
         "X:LAKELAND AVENUE",
         "PLACE:NBTY / NATAURES BOUNTY",
         "TIME:10:41:21");
+  }
+  
+  @Test
+  public void testRalphOswald() {
+
+    doTest("T1",
+        "Ambulance Call, Chest Pains: A/F at 10 Holzman Drive, Hampton Bays  c/s: Newtown Road . . 12:33:48",
+        "CALL:Ambulance Call, Chest Pains",
+        "INFO:A/F",
+        "ADDR:10 Holzman Drive",
+        "CITY:Hampton Bays",
+        "X:Newtown Road",
+        "TIME:12:33:48");
 
   }
   
