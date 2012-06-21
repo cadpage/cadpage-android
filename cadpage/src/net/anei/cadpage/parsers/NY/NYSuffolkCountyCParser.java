@@ -97,7 +97,9 @@ Contact: "Lord Richard S. Michels" <sirblknight007@aol.com>
 Sender: 3-13-0@rednmx.com
 FRM:3-13-0@rednmx.com\nMSG:Ambulance Call: A/M RESP at 2100 SMITHTOWN AVENUE, RONKONKOMA  c/s: LAKELAND AVENUE   O: NBTY / NATAURES BOUNTY . . 10:41:21
 
-
+Contact: Ralph Oswald <medic154@gmail.com>
+Sender: hamptonbays@rednmxcad.com
+Ambulance Call, Chest Pains: A/F at 10 Holzman Drive, Hampton Bays  c/s: Newtown Road . . 12:33:48
 
 */
 

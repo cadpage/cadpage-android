@@ -4219,13 +4219,6 @@ Waren County, NC
 Contact: Bull Dog <jaybarnes73@hotmail.com>,2525781438@email.uscc.net
 S: M:ALARM FIRE 200780988 110 WOODLAWN CT LITTLETON BUS, CAMILLE WILGING, NO KEYHOLDER INFO; OPER 7069 
 **********************************************************
-Jefferson County, PA
-Contact: "Rhed, Tony" <trhed@crossettinc.com>
-Sender: Dispatch@jeffersoncountypa.com
-prvs=0482c7782c=dispatch@jeffersoncountypa.com (Incident) MVA -29-D Entrapment N 4TH ST HILL ST Reynoldsville Narrative:  10 YEAR OLD BOY HIT BY A CAR.
-prvs=0483bf5710=dispatch@jeffersoncountypa.com (Incident) Structure Fire CRICKET RD & VO TECH RD Winslow Narrative:  612 TO STATION  634 TO STATION UNKNOWN INJURIES  POSSIBLE  ENTRAPMENT. BOX 6-F
-prvs=0484c9755a=dispatch@jeffersoncountypa.com (Incident) Fire - Alarm. 3823 ROUTE 310 HIMES HILL RD / CHIPS RD Winslow.    Narrative:  basement smoke detector-  6-C Fire Tower
-**********************************************************
 Pierce County, WA
 Contact: swampjeep01 <swampjeep01@gmail.com>
 Sender: 41411
@@ -4890,6 +4883,8 @@ Contact:  Doug Gelsleichter <dgelsleichter@ecfr.us>
 Sender: 777171393073
 CRESA LOC: 3615 NE EVERETT ST CAM MAP: 1302 OPS:   SEIZURE SUB TYPE: A1 PRI: 4 TIME: 18:51:00 EV#: 12166142 ALARM: 1  Disp: E41,E91,M41
 CRESA LOC: 1315 NE 310TH AVE CLK MAP: 2430 OPS:   PUBLIC ASSIST/SERVICE CALL SUB TYPE: BU PRI: 4 TIME: 07:42:36 EV#: 12166548 ALARM: 1  Disp: SQ91
+CRESA LOC: 39801 NE 26TH ST CLK: @STATION 96 S96 MAP: 2424 OPS:   PUBLIC ASSIST/Service Call SUB TYPE: A PRI: 5 TIME: 15:36:47 EV#: 12168096 ALARM: 1 Disp: SQ96
+CRESA LOC: 26719 NE HATHAWAY RD CLK MAP: 2326 OPS:   FALLS SUB TYPE: A1 PRI: 5 TIME: 11:41:49 EV#: 12167852 ALARM: 1  Disp: E91,M45
 CAM = Camas
 CLK = Clark County
 WAS = Washouglas
@@ -5001,4 +4996,19 @@ PV-1: Type:EMS P4 |Address: 1434 ROUTE 44 , PLEASANT VALLEY, New York  |Nature: 
 PV-1: Type:Alarm Fire |Address: 1903 ROUTE 44 , PLEASANT VALLEY, New York |Nature: AFA -2ND FLOOR PULL-WEST SIDE |Cross:BREWSTER LN -
 PV-1: Type:EMS P3 |Address: 11 WALNUT DR , PLEASANT VALLEY, New York  |Nature: 59 YOM ABDOMINAL-POST SURGICAL COMPLICATIONS |Cross:WAT 
 PV-1: Type:EMS P1 |Address: 7 BRISTOL DR , PLEASANT VALLEY, New York |Nature: 70 YOF CHEST AND BACK PAIN |Cross:FREEDOM RD - FOREST V
+**********************************************************
+Jefferson County, PA
+Contact: "Rhed, Tony" <trhed@crossettinc.com>  (historical)
+Sender: Dispatch@jeffersoncountypa.com
+prvs=0482c7782c=dispatch@jeffersoncountypa.com (Incident) MVA -29-D Entrapment N 4TH ST HILL ST Reynoldsville Narrative:  10 YEAR OLD BOY HIT BY A CAR.
+prvs=0483bf5710=dispatch@jeffersoncountypa.com (Incident) Structure Fire CRICKET RD & VO TECH RD Winslow Narrative:  612 TO STATION  634 TO STATION UNKNOWN INJURIES  POSSIBLE  ENTRAPMENT. BOX 6-F
+prvs=0484c9755a=dispatch@jeffersoncountypa.com (Incident) Fire - Alarm. 3823 ROUTE 310 HIMES HILL RD / CHIPS RD Winslow.    Narrative:  basement smoke detector-  6-C Fire Tower
+
+Contact: Chris Smith <ffsmith20@gmail.com>
+Sender: dispatch@jeffersoncountypa.com
+prvs=0518956c10=dispatch@ <dispatch@jeffersoncountypa.com> jeffersoncountypa.com <dispatch@jeffersoncountypa.com> (Incident) Fire - Alarm 251 S PENN STREET EXT Punxsutawney DEAD END / CLIFF ST 20-A Snyder Hill
+prvs=0518956c10=dispatch@ <dispatch@jeffersoncountypa.com> jeffersoncountypa.com <dispatch@jeffersoncountypa.com> (Incident) Structure Fire 251 S PENN ST Punxsutawney
+prvs=0516eca2ae=dispatch@ <dispatch@jeffersoncountypa.com> jeffersoncountypa.com <dispatch@jeffersoncountypa.com> (Incident) MVA ROUTE 119 / ROUTE 436 Young Narrative:
+prvs=0514f9c90b=dispatch@ <dispatch@jeffersoncountypa.com> jeffersoncountypa.com <dispatch@jeffersoncountypa.com> (Incident) MVA 3637 ROUTE 36 SPRING RD / HOLLIS LN Oliver SMITH HAULINGNarrative: 5-A Coolspring
+prvs=0512e03127=dispatch@ <dispatch@jeffersoncountypa.com> jeffersoncountypa.com <dispatch@jeffersoncountypa.com> (Incident) Structure Fire 106 FOUNDRY ST CRISSMAN ALY / W MAHONING ST Punxsutawney Narrative: 40-A Snyder Hill
 **********************************************************
