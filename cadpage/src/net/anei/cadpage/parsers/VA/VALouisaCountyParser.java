@@ -12,7 +12,7 @@ Louisa County, VA
 Contact: Lisa Burruss <medic725@gmail.com>
 Contact: "Jason Slater" <jaiebo@yahoo.com>
 Contact: george hill <glhill1964@gmail.com>
-Sender: 911@louisa.org
+Sender: 911@louisa.org,CADEMS4@louisa.org
 
 (Incident Notification) Call#: -1994 ; EMS-Extremity Injury ; 118 FREESTYLE LN ; ; Box 407 ; Info:  DOG ON SITE...  Closed APCO Case: -1994  APCO Narrative: Is the p
 (Incident Notification) Call#: -2165 ; EMS-Chest Pain/Cardiac Problem ; 16247 JONES FARM RD ; ; Box 509 ; Info:  EMD/PAS  NO DRUGS USED  NOT FAINTED - HE IS WEAK AND
@@ -27,6 +27,7 @@ Sender: 911@louisa.org
 Subject:Incident Notification\nCall#: -3239 ; EMS-Trauma with Injury ; 17383 JEFFERSON HWY ; ; Box 509 ; Info: \r
 (Incident Notification) Call#: -1991 ; MVC-Injury ; JEFFERSON HWY ; ; Box 501 ; Info:  SPOKE TO VSP DISPATCH -- RESCUE NEEDED -- NO DEPUTY  CALLER WAS A PASSERBY WHO
 (Incident Notification) Call#: -3951 ; EMS-Chest Pain/Cardiac Problem ; 1503 BETHANY CHURCH RD ; ; ; Info:  NO HX OF HEART PROBLEMS  NO RECENT INJURY OR TRAUMA  AWAK
+(Incident Notification) Explosion ; 1219 JACKSON RD ; ; Box 512 ; Info:  NO SMOKES  FROM HER HOUSE ON THE RIGHT HAND SIDE//SEES RED SPARKLES  UNABLE TO UNDERSTAN
 
 Contact: Bradley Melson <tvfrchief@gmail.com>
 Sender: Dispatch@louisa.org
@@ -45,7 +46,7 @@ public class VALouisaCountyParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "911@louisa.org,Dispatch@louisa.org";
+    return "911@louisa.org,Dispatch@louisa.org,CADEMS4@louisa.org";
   }
   
   @Override
