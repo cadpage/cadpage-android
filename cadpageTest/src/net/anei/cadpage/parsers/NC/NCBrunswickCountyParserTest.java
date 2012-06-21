@@ -192,6 +192,19 @@ public class NCBrunswickCountyParserTest extends BaseParserTest {
         "ID:12-034031",
         "TIME:17:20:33",
         "INFO:Sick Person (Specific Diagnosis) 2 YOM SICK AND THROWING UP FOR 5 DAYS");
+  }
+  
+  @Test
+  public void testKeithRichardson() {
+
+    doTest("T1",
+        "sentto-81052485-2179-1340294796-8439951185= vtext.com@returns.groups.yahoo.com ([calabashvems]) 7678:204 AZALEA CIR SUNSET BEACH 12-048247 12:04:31 Breathing Problems BREATHING PROB",
+        "PLACE:sentto-81052485-2179-1340294796-8439951185= vtextcom@returnsgroupsyahoocom ([calabashvems]) 7678:",
+        "ADDR:204 AZALEA CIR",
+        "CITY:SUNSET BEACH",
+        "ID:12-048247",
+        "TIME:12:04:31",
+        "INFO:Breathing Problems BREATHING PROB");
 
   }
 
