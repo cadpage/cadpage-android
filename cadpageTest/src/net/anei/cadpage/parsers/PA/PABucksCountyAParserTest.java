@@ -1968,6 +1968,23 @@ public class PABucksCountyAParserTest extends BaseParserTest {
         "INFO:2159461840",
         "UNIT:STA13 STA10");
 
+    doTest("T5",
+        "alert34161@alert.bucksema.org /1/2 /STA13 STA10:FUMES\n" +
+        "adr:15 RIDGE LA ,25\n" +
+        "btwn:RED CEDAR DR & RED MAPLE LA\n" +
+        "box:13008\n" +
+        "tm:17:24:19 FD1205726  Ru",
+
+        "CALL:FUMES - FUMES OUTSIDE (LOC)",
+        "BOX:13008",
+        "ADDR:15 RIDGE LA",
+        "MADDR:15 RIDGE LN",
+        "CITY:BRISTOL TWP",
+        "X:RED CEDAR DR & RED MAPLE LA",
+        "TIME:17:24:19",
+        "ID:FD1205726",
+        "UNIT:STA13 STA10");
+
   }
   
   @Test
