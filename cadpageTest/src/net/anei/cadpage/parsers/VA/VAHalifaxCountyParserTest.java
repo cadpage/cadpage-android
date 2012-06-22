@@ -93,6 +93,55 @@ public class VAHalifaxCountyParserTest extends BaseParserTest {
         "CITY:SOUTH BOSTON");
   }
   
+  @Test
+  public void testRandyDockery() {
+
+    doTest("T1",
+        "(from Central) 12-024703 EMERGENCY MEDICAL SERVICE\r\n\r\n" +
+        "Reported: 06/22/2012 03:50:22\r\n\r\n" +
+        "510 GREENWAY DR\r\n\r\n" +
+        "WILBORN AVE / NORWOO/D AVE\r\n\r\n" +
+        "SOUTH BOSTON",
+
+        "ID:12-024703",
+        "CALL:EMERGENCY MEDICAL SERVICE",
+        "DATE:06/22/2012",
+        "TIME:03:50:22",
+        "ADDR:510 GREENWAY DR",
+        "X:WILBORN AVE / NORWOO/D AVE",
+        "CITY:SOUTH BOSTON");
+
+    doTest("T2",
+        "(from Central) 12-024641 RESIDENTIAL\r\n\r\n" +
+        "Reported: 06/21/2012 18:23:30\r\n\r\n" +
+        "2123 HORSESHOE TRL\r\n\r\n" +
+        "HUELL MATTHEWS HWY //DEAD END\r\n\r\n" +
+        "ALTON",
+
+        "ID:12-024641",
+        "CALL:RESIDENTIAL",
+        "DATE:06/21/2012",
+        "TIME:18:23:30",
+        "ADDR:2123 HORSESHOE TRL",
+        "X:HUELL MATTHEWS HWY //DEAD END",
+        "CITY:ALTON");
+
+    doTest("T3",
+        "(from Central) 12-024654 GENERAL COMPLAINT - SICK\r\n\r\n" +
+        "Reported: 06/21/2012 20:13:43\r\n\r\n" +
+        "1419 WASHINGTON AVE\r\n\r\n" +
+        "EDMUNDS ST / WEBSTER/ST\r\n\r\n" +
+        "SOUTH BOSTON",
+
+        "ID:12-024654",
+        "CALL:GENERAL COMPLAINT - SICK",
+        "DATE:06/21/2012",
+        "TIME:20:13:43",
+        "ADDR:1419 WASHINGTON AVE",
+        "X:EDMUNDS ST / WEBSTER/ST",
+        "CITY:SOUTH BOSTON");
+  }
+  
   public static void main(String[] args) {
     new VAHalifaxCountyParserTest().generateTests("T1");
   }
