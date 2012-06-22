@@ -7,8 +7,7 @@ import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
 /*
-Things are a bit confused, this probably obsolete and superseeded by the D variant.  But we are keeping it for
-a while to things settle down
+Obsolete - replaced by E variant
 
 Prince Georges County, MD
 Contact: "Khaloughi, Kayman" <kkhaloughi@co.pg.md.us>

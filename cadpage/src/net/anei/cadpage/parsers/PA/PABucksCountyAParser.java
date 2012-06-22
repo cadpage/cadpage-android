@@ -170,6 +170,7 @@ alert31089@alert.bucksema.org /1/1 /STA13:FINV\nadr:INDIAN CREEK DR/INDIAN CREEK
 alert31277@alert.bucksema.org /1/1 /STA13 STA10:WATER\nadr:ACME MARKET ,25 at 6800 NEW FALLS RD ,25\nbtwn:WOERNER AV & EDGELY AV\naai:2159461840\n
 alert33407@alert.bucksema.org /1/1 /STA13:FALRM\nadr:ADRIATIC PIZZA ,25 at 7757 NEW FALLS RD ,25\nbtwn:APPLETREE DR & WISTAR RD\naai:;2159498520\n
 alert31277@alert.bucksema.org /1/2 /STA13 STA10:WATER\nadr:ACME MARKET ,25 at 6800 NEW FALLS RD ,25\nbtwn:WOERNER AV & EDGELY AV\naai:2159461840\n
+alert34161@alert.bucksema.org /1/2 /STA13 STA10:FUMES\nadr:15 RIDGE LA ,25\nbtwn:RED CEDAR DR & RED MAPLE LA\nbox:13008\ntm:17:24:19 FD1205726  Ru
 
 Contact support@active911.com
 Sender: "Bucks RSAN" <alert10965@alert.bucksema.org>
