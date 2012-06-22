@@ -20,6 +20,12 @@ Sender: halifaxeoc@co.halifax.va.us
 [from Central]  11-017088 SHORTNESS OF BREATH, ETC.\n1110 HENRYS TRL\nAMBERSTONE DR / DEAD/END\nNATHALIE
 (from Central) 11-022783 ACCIDENT INVOLVING PEDESTRIAN\n104-20 LOVE SHOP PARK RD\nOLD HALIFAX RD / DEA/D END\nLOVE SHOP TRAILER PARK  SOUTH BOSTON
 
+Contact: Randy Dockery <k3rn3lkill3r@gmail.com>
+Sender: halifaxeoc@co.halifax.va.us
+(from Central) 12-024703 EMERGENCY MEDICAL SERVICE\r\n\r\nReported: 06/22/2012 03:50:22\r\n\r\n510 GREENWAY DR\r\n\r\nWILBORN AVE / NORWOO/D AVE\r\n\r\nSOUTH BOSTON
+(from Central) 12-024641 RESIDENTIAL\r\n\r\nReported: 06/21/2012 18:23:30\r\n\r\n2123 HORSESHOE TRL\r\n\r\nHUELL MATTHEWS HWY //DEAD END\r\n\r\nALTON
+(from Central) 12-024654 GENERAL COMPLAINT - SICK\r\n\r\nReported: 06/21/2012 20:13:43\r\n\r\n1419 WASHINGTON AVE\r\n\r\nEDMUNDS ST / WEBSTER/ST\r\n\r\nSOUTH BOSTON
+
  */
 public class VAHalifaxCountyParser extends DispatchShieldwareParser {
   

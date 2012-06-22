@@ -4878,18 +4878,6 @@ Contact: Chris Green <mediccgreen@gmail.com>
 Sender: xdc@mineralcounty911.com
 S: M: ??? PFD:2012:0140 >2012-06-17 21:14:30 >ALERTED >ODOR UNKNOWN >47 WEST HAMPSHIRE ST, PIEDMONT
 **********************************************************
-Clark County, WA
-Contact:  Doug Gelsleichter <dgelsleichter@ecfr.us>
-Sender: 777171393073
-CRESA LOC: 3615 NE EVERETT ST CAM MAP: 1302 OPS:   SEIZURE SUB TYPE: A1 PRI: 4 TIME: 18:51:00 EV#: 12166142 ALARM: 1  Disp: E41,E91,M41
-CRESA LOC: 1315 NE 310TH AVE CLK MAP: 2430 OPS:   PUBLIC ASSIST/SERVICE CALL SUB TYPE: BU PRI: 4 TIME: 07:42:36 EV#: 12166548 ALARM: 1  Disp: SQ91
-CRESA LOC: 39801 NE 26TH ST CLK: @STATION 96 S96 MAP: 2424 OPS:   PUBLIC ASSIST/Service Call SUB TYPE: A PRI: 5 TIME: 15:36:47 EV#: 12168096 ALARM: 1 Disp: SQ96
-CRESA LOC: 26719 NE HATHAWAY RD CLK MAP: 2326 OPS:   FALLS SUB TYPE: A1 PRI: 5 TIME: 11:41:49 EV#: 12167852 ALARM: 1  Disp: E91,M45
-CAM = Camas
-CLK = Clark County
-WAS = Washouglas
-VAN = Vancouver
-**********************************************************
 **********************************************************
 **********************************************************
 **********************************************************
@@ -5011,4 +4999,17 @@ prvs=0518956c10=dispatch@ <dispatch@jeffersoncountypa.com> jeffersoncountypa.com
 prvs=0516eca2ae=dispatch@ <dispatch@jeffersoncountypa.com> jeffersoncountypa.com <dispatch@jeffersoncountypa.com> (Incident) MVA ROUTE 119 / ROUTE 436 Young Narrative:
 prvs=0514f9c90b=dispatch@ <dispatch@jeffersoncountypa.com> jeffersoncountypa.com <dispatch@jeffersoncountypa.com> (Incident) MVA 3637 ROUTE 36 SPRING RD / HOLLIS LN Oliver SMITH HAULINGNarrative: 5-A Coolspring
 prvs=0512e03127=dispatch@ <dispatch@jeffersoncountypa.com> jeffersoncountypa.com <dispatch@jeffersoncountypa.com> (Incident) Structure Fire 106 FOUNDRY ST CRISSMAN ALY / W MAHONING ST Punxsutawney Narrative: 40-A Snyder Hill
+**********************************************************
+Clark County, WA
+Contact:  Doug Gelsleichter <dgelsleichter@ecfr.us>
+Sender: 777171393073
+CRESA LOC: 3615 NE EVERETT ST CAM MAP: 1302 OPS:   SEIZURE SUB TYPE: A1 PRI: 4 TIME: 18:51:00 EV#: 12166142 ALARM: 1  Disp: E41,E91,M41
+CRESA LOC: 1315 NE 310TH AVE CLK MAP: 2430 OPS:   PUBLIC ASSIST/SERVICE CALL SUB TYPE: BU PRI: 4 TIME: 07:42:36 EV#: 12166548 ALARM: 1  Disp: SQ91
+CRESA LOC: 39801 NE 26TH ST CLK: @STATION 96 S96 MAP: 2424 OPS:   PUBLIC ASSIST/Service Call SUB TYPE: A PRI: 5 TIME: 15:36:47 EV#: 12168096 ALARM: 1 Disp: SQ96
+CRESA LOC: 26719 NE HATHAWAY RD CLK MAP: 2326 OPS:   FALLS SUB TYPE: A1 PRI: 5 TIME: 11:41:49 EV#: 12167852 ALARM: 1  Disp: E91,M45
+CRESA LOC: NE 261ST AVE/NE 38TH ST CLK MAP: 2323 OPS:   UNKNOWN PROBLEM SUB TYPE: B3 PRI: 3 TIME: 07:52:21 EV#: 12168775 ALARM: 1  Disp: E91,M45
+CAM = Camas
+CLK = Clark County
+WAS = Washouglas
+VAN = Vancouver
 **********************************************************

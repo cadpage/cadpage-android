@@ -9,7 +9,8 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 /*
 Prince Georges County, MD (Replacement for C)
 Contact: Christopher Olson <lilsmokeeater5@yahoo.com>
-COtnact: Tommy Scaggs <rtscaggs@gmail.com>
+Cotnact: Tommy Scaggs <rtscaggs@gmail.com>
+Contact: kyle hastings <kwhastings@gmail.com>
 Sender: @alert.co.pg.md.us
 
 (CAD Feed) ALS1, Medic Local, 8500 MAGNOLIA DR, PP, btwn WOOD THRUSH DR and BLUE BIRD CT, TGA2, 4820, 5411 C 4, Medical ProQA recommends dispatch at this time, Units:A848, MD818 - From FED01 06/14/2012 19:47:08\n\n
@@ -20,6 +21,7 @@ STREET, Street Alarm, 3745 WILKINSON DR, PP, btwn CHERRY DR and PARK BLVD, SUITL
 (CAD Feed) HOUSEF, House Fire, 9300 ALLENTOWN RD, PP, btwn PINEHURST DR and CONSTANTINE DR, FORT WASHINGTON, TGC3, 3206, 5765 G 9, Fire ProQA recommends dispatch at this time, Units:BO885, E821B, E823B, E832B, PE842, SQ847, TK825, TK829 - From FED10 06/14/2012 22:25:10
 (CAD Feed) PIAH, PIA Limited Access, SB CAP BELT IL A HWY/SB BALTIMORE WASHINGTON PKY SB, PP, at SB CAP BELT IL A HWY/SB BALTIMORE WASHINGTON PKY SB, PP, TGB3, 3516, 5410 J 2, COMPL ADV 2 CAR ACC BROWN MITSUBISHI VS GIANT FOOD TRACTOR TRAILER, UNK INJ, FEM MAY NEED AMBO. WILL NOTF MSP, Units:A830, E828 - From FED03 06/15/2012 00:59:09
 ALS1, Medic Local, 7321 SPLIT RAIL LN, LP, btwn MILL CREEK CT and DORSET RD, LAUREL,MD, TGA2, 1013, 5168 K 3, Medical ProQA recommends dispatch at this time, Units:A724, E810C, HMD06 - From FED01 06/15/2012 13:11:28
+DEPFD, Departmental Acci, SB CAP BELT IL A HWY/NB BALTIMORE WASHINGTON PKY NB, PP, at SB CAP BELT IL A HWY/NB BALTIMORE WASHINGTON PKY NB, PP, TGA2, 3520, 5410 J 2, EMSDO REAR ENDED BY A VEHICLE ON THE BELTWAY WHILE SHE WAS RESPONDING TO PGTC....UNABLE TO GET A DESCRIPTION OF THE STRIKING VEHICLE....PROPERTY DAMAGE ONLY, Units:BO886, E835, EMSDO, NSO, SO8 00
 
 Contact: Active911
 [CAD Feed] STREET, Street Alarm, 9001 MCHUGH DR, PP, btwn END and CAMPUS WAY N, TA11, 0616, 5531 D 3, ODOR OF ELECTRICAL BURNING IN THE STORE, Units:BO881, E833, E837, QT838, TK828\n

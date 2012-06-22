@@ -28,6 +28,10 @@ Halifax County, VA
 [from Central]  11-023038 FALLEN PATIENT\n103 WHITE OAK DR\nSYCAMORE RD / SYCAMO/RE RD\nSOUTH BOSTON
 [from Central]  11-017088 SHORTNESS OF BREATH, ETC.\n1110 HENRYS TRL\nAMBERSTONE DR / DEAD/END\nNATHALIE
 (from Central) 11-022783 ACCIDENT INVOLVING PEDESTRIAN\n104-20 LOVE SHOP PARK RD\nOLD HALIFAX RD / DEA/D END\nLOVE SHOP TRAILER PARK  SOUTH BOSTON
+(from Central) 12-024703 EMERGENCY MEDICAL SERVICE\r\n\r\nReported: 06/22/2012 03:50:22\r\n\r\n510 GREENWAY DR\r\n\r\nWILBORN AVE / NORWOO/D AVE\r\n\r\nSOUTH BOSTON
+(from Central) 12-024641 RESIDENTIAL\r\n\r\nReported: 06/21/2012 18:23:30\r\n\r\n2123 HORSESHOE TRL\r\n\r\nHUELL MATTHEWS HWY //DEAD END\r\n\r\nALTON
+(from Central) 12-024654 GENERAL COMPLAINT - SICK\r\n\r\nReported: 06/21/2012 20:13:43\r\n\r\n1419 WASHINGTON AVE\r\n\r\nEDMUNDS ST / WEBSTER/ST\r\n\r\nSOUTH BOSTON
+
 
 Winchester, VA
 (Winchester ECC info) 11-041989 INSIDE SMELL OR SMOKE\n336 GRAY AVE\nNATIONAL AVE / VIRGI/NIA AVE\nWINCHESTER\nBAT6 E4 E5 EC18 M41 TK2 W1 E
@@ -49,8 +53,8 @@ public class DispatchShieldwareParser extends FieldProgramParser {
   
   protected DispatchShieldwareParser(String defCity, String defState, int flags) {
     super(defCity, defState,
-           (flags & FLG_NO_UNIT) == 0 ? "CALL ADDR X/Z? PLCITY! UNIT END"
-                                      : "CALL ADDR X/Z? PLCITY! END");
+           (flags & FLG_NO_UNIT) == 0 ? "CALL DATETIME? ADDR X/Z? PLCITY! UNIT END"
+                                      : "CALL DATETIME? ADDR X/Z? PLCITY! END");
   }
   
   @Override
@@ -59,12 +63,26 @@ public class DispatchShieldwareParser extends FieldProgramParser {
     if (!match.find()) return false;
     data.strCallId = match.group(1);
     body = body.substring(match.end());
-    return parseFields(body.split("\n"), data);
+    return parseFields(body.split("\n+"), data);
   }
   
   @Override
   public String getProgram() {
     return "ID " + super.getProgram();
+  }
+  
+  private class MyDateTimeField extends DateTimeField {
+    @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      if (!field.startsWith("Reported: ")) return false;
+      super.parse(field.substring(10).trim(), data);
+      return true;
+    }
   }
   
   private class PlaceCityField extends Field {
@@ -84,6 +102,7 @@ public class DispatchShieldwareParser extends FieldProgramParser {
   
   @Override
   public Field getField(String name) {
+    if (name.equals("DATETIME")) return new MyDateTimeField();
     if (name.equals("PLCITY")) return new PlaceCityField();
     return super.getField(name);
     
