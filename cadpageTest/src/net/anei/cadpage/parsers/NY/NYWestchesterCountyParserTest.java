@@ -202,6 +202,22 @@ public class NYWestchesterCountyParserTest extends BaseParserTest {
         "CALL:ALARM / RESD",
         "TIME:18:54:25");
 
+    doTest("T12",
+        "(IPage) NORTH_CASTLE: @I684 SB 07.5 BRIDGE (RT22 UNDERPASS), Cross: , Type:MA, FIRE, Time out: 11:36:54 Area: ARMNK,Alarm lev:",
+        "ADDR:I684 SB 07.5 BRIDGE (RT22 UNDERPASS)",
+        "MADDR:I 684 07.5 BRIDGE (RT 22 UNDERPASS)",
+        "CITY:ARMONK",
+        "CALL:MA / FIRE",
+        "TIME:11:36:54");
+
+    doTest("T13",
+        "(IPage) 400 BEDFORD RD ARMONK: @FIRE DEPT - ARMONK, Cross: N GREENWICH RD, Type:MA, OTHER, Time out: 12:36:23 Area:",
+        "ADDR:400 BEDFORD RD",
+        "PLACE:FIRE DEPT - ARMONK",
+        "X:N GREENWICH RD",
+        "CALL:MA / OTHER",
+        "TIME:12:36:23");
+
   }
   
   @Test
