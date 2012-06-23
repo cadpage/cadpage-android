@@ -56,7 +56,7 @@ public class PAButlerCountyParserTest extends BaseParserTest {
   }
   
   @Test
-  public void test() {
+  public void testKennethChiacchia() {
 
     doTest("T1",
         "\".\"@co.butler.pa.us :ALAF >ALARM/FIRE 804 PROSPECT RD CONNOQ TWP GAURDIAN Map: Grids:00000,000 Cad: 2012-0000035901",

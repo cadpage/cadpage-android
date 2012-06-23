@@ -19,33 +19,18 @@ Sender: 6245
 */
 
 public class PAButlerCountyParser extends DispatchBParser {
-  
-  private static final String[] MARKERS = new String[]{
-    "\".\"@butlerco.911 :",
-    "\".\"@co.butler.pa.us :"
-  };
 
   public PAButlerCountyParser() {
     super(CITY_LIST, "BUTLER COUNTY", "PA");
   }
   
   @Override
-  protected boolean isPageMsg(String body) {
-    return true;
+  public String getFilter() {
+    return "@butlerco.911,@co.butler.pa.us";
   }
   
   @Override
   public boolean parseMsg(String body, Data data) {
-
-    boolean found = false;
-    for (String marker : MARKERS) {
-      if (body.startsWith(marker)) {
-        found = true;
-        body = body.substring(marker.length()).trim();
-        break;
-      }
-    }
-    if (!found) return false;
     
     if (! super.parseMsg(body, data)) return false;
     if (data.strCity.equals("CONNOQ TWP")) data.strCity = "CONNOQUENESSING TWP";
