@@ -1,43 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="release_date">06142012</string>
-  <string name="release_version">v1.5.42</string>
+  <string name="release_date">06222012</string>
+  <string name="release_version">v1.5.43</string>
   <!-- Magic word - change quarterly and email to Richard Lieder <Richard.Lieder@ccvfd.com> -->
   <string name="release_magic_word2">quantum</string>
   <string name="min_expire_date">10012012</string>
   <string name="release_text">
 New Locations:\n
-Gooding County, ID\n
-Lincoln City, OR\n
-Chester County, PA (alt)\n
-Harris County NWEMS, TX\n
+Crawford County, MO\n
+Calhoun County, MS\n
+Gloucester County, NJ (alt)
+Duchess County, NY\n
+Currituck County, NC\n
+Mercer County, PA\n
+Prince William County, VA (alt)\n
 \n
 Location Parsing Fixes:\n
-Hancock County, IN\n
-Howard County, MD\n
+Marion County, IN\n
+Porter County, IN\n
 Prince Georges County, MD\n
-St Marys County, MD\n
-Saginaw County, MI\n
-Pulaski County, MO\n
-Hanover, NH\n
-Burlington County, NJ\n
-Camden County, NJ\n
-Sussex County, NJ\n
-Chenango County, NY\n
-Madison County, NY\n
-Nassau County, NY\n
-Ostero County, NY\n
-Westchester County, NY\n
-Linn County, OR\n
-Berks County, PA\n
-Cambria County, PA\n
-Erie County, PA\n
-Northampton County, PA\n
-Bexar County, TX\n
-Denton County, TX\n
-Harris County ESD#1, TX\n
-Hanover County, VA\n
-New South Wales, AU\n
+Calhoun County, MI\n
+Erie County, NY\n
+Genesee County, NY\n
+WestChester County, NY
+Brunswick County, NC\n
+Durham County, NC\n
+Brown County, OH\n
+Wayne County, OH\n
+Washington County, PA\n
+Anderson County, TN\n
+Montgomery County, TX\n
+Halifax County, VA\n
+Louisa County, VA\n
   </string>  
 </resources>
   
