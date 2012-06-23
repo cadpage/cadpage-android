@@ -267,7 +267,15 @@ public class PAErieCountyAParserTest extends BaseParserTest {
         "X:DEWEY RD / DUTCH RD",
         "MAP:173",
         "ID:2012-0000059733");
-  }
+
+    doTest("T10",
+        ".... (Kuhl Hose Fire) ERIE911:26A6 >SICK PERSON - NAUSEA 10707 WATTSBURG RD XS: MAY RD GREENE TWP",
+        "SRC:ERIE911",
+        "CALL:SICK PERSON - NAUSEA",
+        "ADDR:10707 WATTSBURG RD",
+        "CITY:GREENE TWP",
+        "X:MAY RD");
+ }
   
   @Test
   public void testMatExley() {
