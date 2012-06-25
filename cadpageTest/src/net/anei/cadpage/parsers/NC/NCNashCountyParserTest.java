@@ -97,10 +97,17 @@ public class NCNashCountyParserTest extends BaseParserTest {
         "ADDR:S NASH ST",
         "CITY:MIDDLESEX",
         "CALL:CHEST-H");
+
+    doTest("T13",
+        "NASH911:* 220 W WASHINGTON ST* * * NASHVILLE* * ELECTRICAL* * NC8* * 14FD1* * * * *",
+        "ADDR:220 W WASHINGTON ST",
+        "CITY:NASHVILLE",
+        "CALL:ELECTRICAL",
+        "PLACE:NC8");
 }
   
 
   public static void main(String[] args) {
-    new NCNashCountyParserTest().generateTests("T12");
+    new NCNashCountyParserTest().generateTests("T1");
   }
 }

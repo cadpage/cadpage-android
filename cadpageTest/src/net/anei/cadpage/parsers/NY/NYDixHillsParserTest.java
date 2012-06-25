@@ -93,6 +93,15 @@ public class NYDixHillsParserTest extends BaseParserTest {
         "CALL:23- Misc Fire",
         "ADDR:CARLLS STRAIGHT PATH & S SERVICE RD S",
         "INFO:SERVICE RD");
+    
+    doTest("T10",
+        "SIG 3 DRV/EMT 2012-001184 08:53 *** 16- Rescue *** 99 DIX HWY KWON, HEE SOO Dix Hills HQ 28-C-5C STROKE (CVA) HWY DIXHIL TYPE: STROKE (CVA) LOC",
+        "ID:2012-001184",
+        "TIME:08:53",
+        "CALL:16- Rescue - SIG 3 DRV/EMT",
+        "ADDR:99 DIX HWY",
+        "NAME:KWON, HEE SOO",
+        "INFO:HQ 28-C-5C STROKE (CVA) HWY DIXHIL TYPE: STROKE (CVA) LOC");
   }
   
   public static void main(String[] args) {

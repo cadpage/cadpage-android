@@ -13,6 +13,11 @@ public class NYSuffolkCountyBParserTest extends BaseParserTest {
   }
   
   @Test
+  public void testBad() {
+    doBadTest("SIG 3 DRV/EMT 2012-001184 08:53 *** 16- Rescue *** 99 DIX HWY KWON, HEE SOO Dix Hills HQ 28-C-5C STROKE (CVA) HWY DIXHIL TYPE: STROKE (CVA) LOC");
+  }
+  
+  @Test
   public void testParser() {
 
     doTest("T1",
