@@ -1,10 +1,6 @@
 package net.anei.cadpage.parsers.NC;
 
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-
-import net.anei.cadpage.parsers.MsgParser;
-import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.dispatch.DispatchVisionAirParser;
 
 /* 
 Hoke County, NC
@@ -26,36 +22,14 @@ Hoke Co 911:100 WAYSIDE RD* * * * * **AC/PI* * * * * * * * 04/25/2012 18:18:57 :
 
 */
 
-public class NCHokeCountyParser extends MsgParser {
-  
-  private static final Pattern MASTER = 
-      Pattern.compile("Hoke Co 911:([^\\*]+)\\*(?: \\*)*\\*([^\\*]+)\\*(?: \\*)+ *\\d\\d/\\d\\d/\\d{4} \\d\\d:\\d\\d:\\d\\d : (pos\\d+)(?: : [A-Za-z]+\\d+ (.*))?");
+public class NCHokeCountyParser extends DispatchVisionAirParser {
   
   public NCHokeCountyParser() {
-    super("HOKE COUNTY", "NC");
+    super("Hoke Co 911:", "HOKE COUNTY", "NC");
   }
   
   @Override
   public String getFilter() {
     return "Hoke@hokecounty.org";
-  }
-
-  @Override
-  protected boolean parseMsg(String body, Data data) {
-    if (body.endsWith("*")) body = body.substring(0,body.length()-1).trim();
-    Matcher match = MASTER.matcher(body);
-    if (!match.matches()) return false;
-    parseAddress(match.group(1).trim(), data);
-    data.strCall = match.group(2).trim();
-    data.strChannel =  match.group(3).trim();
-    String sExtra = getOptGroup(match.group(4));
-    int pt = sExtra.indexOf("Cross streets:");
-    if (pt >= 0) {
-      sExtra = sExtra.substring(pt+14).trim();
-      pt = sExtra.indexOf(" Cross");
-      if (pt >= 0) sExtra = sExtra.substring(0,pt).trim();
-      data.strCross = sExtra;
-    }
-    return true;
   }
 }
