@@ -27,6 +27,10 @@ Contact: Kevin Thomas <emtffkev@gmail.com>
 Contact: Austin wrenn <wrennaustin@gmail.com>
 NASH911:* S NASH ST* * * MIDDLESEX* * CHEST-H* * * * * * * * *
 
+Contact: "quintinjefferies76@gmail.com" <quintinjefferies76@gmail.com>
+Sender: NASH911@NASHCOUNTYNC.GOV
+NASH911:* 220 W WASHINGTON ST* * * NASHVILLE* * ELECTRICAL* * NC8* * 14FD1* * * * *
+
 */
 
 public class NCNashCountyParser extends DispatchOSSIParser {

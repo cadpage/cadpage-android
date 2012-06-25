@@ -153,11 +153,13 @@ public class NYSuffolkCountyBParser extends FieldProgramParser {
     
     int pt1 = body.indexOf("***");
     if (pt1 < 0) return false;
+    boolean good = (pt1 == 0);
     int pt2 = body.indexOf("***",pt1+3); 
     if (pt2 < 0) return false;
     data.strCall = append(body.substring(pt1+3, pt2).trim(), " - ", body.substring(0,pt1));
     body = body.substring(pt2+3).trim();
     if (! super.parseMsg(body, data)) return false;
+    if (!good && data.strCross.length() == 0 && data.strTime.length() == 0) return false;
     if (data.strPlace.endsWith("*")) data.strPlace = data.strPlace.substring(0, data.strPlace.length()-1).trim();
     if (data.strAddress.length() == 0) {
       data.strAddress = data.strPlace;

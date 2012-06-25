@@ -1,5 +1,8 @@
 package net.anei.cadpage.parsers.NY;
 
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 import net.anei.cadpage.parsers.SmartAddressParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 
@@ -17,10 +20,16 @@ sender: paging@dixhillsfd.xohost.com
 2010-001923 11:44 *** 16- Rescue *** 337 DEER PARK AV SUNRISE ASSISTED LIVING RED MAPLE LA Alert
 2010-001991 08:42 *** 23- Misc Fire ***  CARLLS STRAIGHT PATH CARLLS STRAIGHT PA & S SERVICE RD S SERVICE RD
 
+Contact: Ralph Oswald <medic154@gmail.com>
+Sender: paging1@firerescuesystems.xohost.com
+SIG 3 DRV/EMT 2012-001184 08:53 *** 16- Rescue *** 99 DIX HWY KWON, HEE SOO Dix Hills HQ 28-C-5C STROKE (CVA) HWY DIXHIL TYPE: STROKE (CVA) LOC
+
 *** Google doesn't understand PA, translate to CARLS STRAIGHT PATH & S SERVICE RD
 */
 
 public class NYDixHillsParser extends SmartAddressParser {
+  
+  private static final Pattern MARKER = Pattern.compile("\\b(\\d{4}-\\d{6}) (\\d\\d:\\d\\d) \\*\\*\\* (.*?) \\*\\*\\* ");
   
   public NYDixHillsParser() {
     super("DIX HILLS", "NY");
@@ -28,24 +37,22 @@ public class NYDixHillsParser extends SmartAddressParser {
   
   @Override
   public String getFilter() {
-    return "paging@dixhillsfd.xohost.com";
+    return "paging@dixhillsfd.xohost.com,@firerescuesystems.xohost.com";
   }
 
   @Override
   protected boolean parseMsg(String body, Data data) {
     
-    if (body.length() < 22 ||! body.substring(17, 22).equals(" *** ")) return false;
-    data.strCallId = body.substring(0,11);
-    data.strTime = body.substring(12,17);
-    body = body.substring(22).trim();
-    int pt = body.indexOf("***");
-    if (pt < 0) return false;
-    data.strCall = body.substring(0,pt).trim();
-    body = body.substring(pt+3).trim();
+    Matcher match = MARKER.matcher(body);
+    if (!match.find()) return false;
+    data.strCallId = match.group(1);
+    data.strTime = match.group(2);
+    data.strCall = append(match.group(3), " - ", body.substring(0,match.start()).trim());
+    body = body.substring(match.end()).trim();
     body = cleanup(body);
     parseAddress(StartType.START_ADDR, body, data);
     String sExtra = getLeft();
-    pt = sExtra.indexOf(" Dix Hills ");
+    int pt = sExtra.indexOf(" Dix Hills ");
     if (pt >= 0) {
       data.strName = sExtra.substring(0,pt).trim();
       sExtra = sExtra.substring(pt+11).trim();
