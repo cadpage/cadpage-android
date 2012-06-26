@@ -61,10 +61,33 @@ public class PASomersetCountyParserTest extends BaseParserTest {
         "NAME:LOTTIG,C",
         "PHONE:8146348503",
         "ID:2011-0000030890");
+  }
+  
+  @Test
+  public void testParser2() {
+
+    doTest("T1",
+        "1 of 2\n" +
+        "FRM:911CENTER@co.somerset.pa.us\n" +
+        "SUBJ:FALLB >FALL INJURY BLS\n" +
+        "MSG:911CENTER:969 BARN ST Apt: 101 Bldg XS: HIGHLAND AVE HOOVERSVILLE STANKO,\n" +
+        "(Con't) 2 of 2\n" +
+        "GEORGIANA 8147987022 Map: Grids:, Cad: 2012-0000017811\r\n" +
+        "\r\n" +
+        "(End)",
+
+        "CALL:FALL INJURY BLS",
+        "ADDR:969 BARN ST",
+        "APT:101 Bldg",
+        "CITY:HOOVERSVILLE",
+        "X:HIGHLAND AVE",
+        "NAME:STANKO, GEORGIANA",
+        "PHONE:8147987022",
+        "ID:2012-0000017811");
   
   }
   
   public static void main(String[] args) {
-    new PASomersetCountyParserTest().generateTests("T1", "CALL ADDR CITY X PLACE NAME PHONE MAP ID");
+    new PASomersetCountyParserTest().generateTests("T1", "CALL ADDR APT CITY X PLACE NAME PHONE MAP ID");
   }
 }
