@@ -36,6 +36,17 @@ Subject:CAD Page for CFS 112211-111\nTG: OPS \nINC: Auto Fire Alarm\nLOC: 511 HI
 Subject:CAD Page for CFS 012512-269\nRECD: 16:43:44\nTG: OPS 1\nINC: HEART PROBLEMS\nLOC: 741 W BARBEE CHAPEL RD\nAPT: \nBLDG: \nEMD: 19C03
 (CAD Page for CFS 012512-150) RECD: 11:42:42\nTG: OPS 1\nINC: HEART PROBLEMS\nLOC: 218 CEDAR CLUB CIR\nAPT: \nBLDG: \nEMD:
 
+From:6245
+Body:0001/0002 cadpage@orangeem.org Subject:CAD Page for CFS 062512-155\nRECD: 11:14:46\r\nTG: OPS 2\r\nINC: Auto Fire Alarm\r\nLOC: 555 W CAMERON AVE\r\n
+Send time:1340637369000
+Rec time: 1340637373962
+
+From:6245
+Body:0002/0002 APT: \r\nBLDG: \r\nEMD: \r\n\r
+Send time:1340637369000
+Rec time: 1340637374679
+
+
 Contact: Chapel Hill Fire Department <chfdfm91@gmail.com>
 (CAD Page for CFS 020112-248) RECD: 16:04:19\nTG: OPS \nINC: OTHER, FIRE\nLOC: 403 MARTIN LUTHER KING JR BLVD\nAPT: \nBLDG: \nEMD:
 
