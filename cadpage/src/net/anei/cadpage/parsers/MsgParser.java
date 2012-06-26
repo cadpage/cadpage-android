@@ -157,7 +157,7 @@ public abstract class MsgParser {
     
     // Decode the call page and place the data in the database
     String strSubject = msg.getSubject();
-    String strMessage = msg.getMessageBody();
+    String strMessage = msg.getMessageBody().trim();
     Data data = new Data(this);
     if (strMessage == null) return data;
     if (parseMsg(strSubject, strMessage, data)) {

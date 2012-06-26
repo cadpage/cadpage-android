@@ -95,7 +95,8 @@ public class Message {
   private static final Pattern EMAIL_PFX_PATTERN = Pattern.compile("^([\\w\\.]+@[\\w\\.]+)(?:\\n|: )");
   private static final Pattern FRM_TAG_PATTERN = Pattern.compile("\n *FRM:");
   private static final Pattern[] E_S_M_PATTERNS = new Pattern[]{
-    Pattern.compile("^(?:([^ ,;/]+) +)?S: *(.*?)(?: +M:|\n)"), 
+    Pattern.compile("^(?:([\\w\\.]+@[\\w\\.]+) +)?Subject: *(.*)\n"),
+    Pattern.compile("^(?:([^ ,;/]+) +)?S:(.*?)(?: +M:|\n)"), 
     Pattern.compile("^Fr:<(.*?)>?\nSu:(.*?)\nTxt: "),
     Pattern.compile("^From: *(.*?)\n(?:\\[?mailto:.*]\n)?(?:Sent:.*\n)?(?:To:.*\n)?(?:Subject: (.*)\n)?")
   };
@@ -117,7 +118,7 @@ public class Message {
     
     // Remove leading Fwd: flag
     Matcher match = FWD_HEADER_PTN.matcher(body);
-    if (match.find()) body = body.substring(match.end()).trim();
+    if (match.find()) body = trimLead(body.substring(match.end()));
     
     // Dummy loop we can break out of
     do {
@@ -139,19 +140,19 @@ public class Message {
         }
         msgIndex = Integer.parseInt(match.group(ndx++));
         msgCount = Integer.parseInt(match.group(ndx++));
-        if (match.start() == 0) body = body.substring(match.end()).trim();
-        else body = body.substring(0,match.start()).trim();
+        if (match.start() == 0) body = trimLead(body.substring(match.end()));
+        else body = trimLead(body.substring(0,match.start()));
       } else {
-        if (body.startsWith("/ ")) body = body.substring(2).trim();
+        if (body.startsWith("/ ")) body = trimLead(body.substring(2));
       }
       
       // Get rid of leading quoted blanks
       match = LEAD_BLANK.matcher(body);
-      if (match.find()) body = body.substring(match.end());
+      if (match.find()) body = trimLead(body.substring(match.end()));
       
       // And trailing opt out message
       match = OPT_OUT_PTN.matcher(body);
-      if (match.find()) body = body.substring(0,match.start()).trim();
+      if (match.find()) body = trimLead(body.substring(0,match.start()));
       
       /* Decode patterns that look like this.....
       1 of 3
@@ -213,7 +214,7 @@ public class Message {
               }
               trimLast(sb, "(End)");
               trimLast(sb, "\nMore?");
-              body = sb.toString().trim();
+              body = trimLead(sb.toString());
               break;
             }
           }
@@ -225,21 +226,10 @@ public class Message {
        */
       int ipt = body.indexOf(" [] ");
       if (ipt >= 0) {
-        parseAddress = body.substring(0, ipt).trim();
-        if (parseAddress.contains("@")) {
-          body = body.substring(ipt+4).trim();
-          break;
-        }
-      }
-      
-      /* Decode patterns that look like this
-      Subject:HCCAD\nEOC:F03 WIRES >WIRES/POLE SHAWNEE DR&WALTERS MILL RD XS: WALTERS MILL RD FOREST HILL NOT ENTERED Cad: 2010-000019169
-      */
-      if (body.startsWith("Subject:")) {
-        ipt = body.indexOf('\n');
-        if (ipt >= 0) {
-          addSubject(body.substring(8,ipt).trim());
-          body = body.substring(ipt+1).trim();
+        String sAddr = body.substring(0, ipt).trim();
+        if (sAddr.contains("@")) {
+          parseAddress = sAddr;
+          body = trimLead(body.substring(ipt+4));
           break;
         }
       }
@@ -252,7 +242,7 @@ public class Message {
         String addr = body.substring(0,ipt).trim();
         if (addr.contains("@") && ! addr.contains(":")) {
           parseAddress = addr;
-          body = body.substring(ipt+5).trim();
+          body = trimLead(body.substring(ipt+5));
           break;
         }
       }
@@ -263,7 +253,7 @@ public class Message {
       match = PAGECOPY_PATTERN.matcher(body);
       if (match.find()) {
         parseAddress = match.group(1);
-        body = body.substring(match.end()).trim();
+        body = trimLead(body.substring(match.end()));
         break;
       }
       
@@ -273,7 +263,7 @@ public class Message {
       ipt  = body.indexOf("\nMSG:\n");
       if (ipt >= 0) {
         parseAddress = body.substring(0,ipt);
-        body = body.substring(ipt+6).trim();
+        body = trimLead(body.substring(ipt+6));
         break;
       }
       
@@ -292,7 +282,7 @@ public class Message {
         if (from != null) parseAddress = from.trim();
         String sub = match.group(2);
         if (sub != null) addSubject(sub.trim());
-        body = body.substring(match.end()).trim();
+        body = trimLead(body.substring(match.end()));
         break;
       }
     
@@ -308,7 +298,7 @@ public class Message {
       }
       if (found) {
         parseAddress = match.group(1);
-        body = body.substring(match.end()).trim();
+        body = trimLead(body.substring(match.end()));
         break;
       }
 
@@ -319,6 +309,12 @@ public class Message {
     // original address
     if (parseAddress.length() == 0) parseAddress = fromAddress;
   }
+  
+  private static String trimLead(String str) {
+    int pt = 0;
+    while (pt < str.length() && Character.isWhitespace(str.charAt(pt))) pt++;
+    return str.substring(pt);
+  }
 
   /**
    * Remove common HTML sequences
@@ -326,8 +322,8 @@ public class Message {
    * @return
    */
   private String decode(String body) {
-    return body.replaceAll("&nbsp;",  " ").replaceAll("&amp;",  "&")
-               .replaceAll("<br>", "\n").replaceAll("&gt;", ">").replaceAll("&lt;", "<").trim();
+    return trimLead(body.replaceAll("&nbsp;",  " ").replaceAll("&amp;",  "&")
+               .replaceAll("<br>", "\n").replaceAll("&gt;", ">").replaceAll("&lt;", "<"));
   }
   
   /**
@@ -370,14 +366,14 @@ public class Message {
       if (pt2 >= body.length()) break;
     }
     
-    body = body.substring(pt1).trim();
+    body = trimLead(body.substring(pt1));
     Matcher match = EMAIL_PFX_PATTERN.matcher(body);
     if (match.find()) {
       parseAddress = match.group(1).trim();
-      body = body.substring(match.end()).trim();
+      body = trimLead(body.substring(match.end()));
     }
     
-    if (body.startsWith("MSG:")) body = body.substring(4).trim();
+    if (body.startsWith("MSG:")) body = trimLead(body.substring(4));
     
     // Last check, if we ended up with no message, use the last subject as the message
     if (body.length() == 0) {
