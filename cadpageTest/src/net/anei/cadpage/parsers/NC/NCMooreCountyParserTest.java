@@ -76,6 +76,16 @@ public class NCMooreCountyParserTest extends BaseParserTest {
         "TIME:11:36:50",
         "UNIT:M10",
         "INFO:CHEST PAIN CHEST PAIN");
+
+    doTest("T8",
+        "232 ALLEN LN ABERDEEN MDL 30A01 2012028950 15:18:54 M30 TRAUMATIC INJURIES\r",
+        "ADDR:232 ALLEN LN",
+        "CITY:ABERDEEN",
+        "CODE:30A01",
+        "ID:2012028950",
+        "TIME:15:18:54",
+        "UNIT:M30",
+        "CALL:TRAUMATIC INJURIES");
   }
   
 

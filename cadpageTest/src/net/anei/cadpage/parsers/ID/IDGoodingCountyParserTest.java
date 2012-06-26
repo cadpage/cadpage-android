@@ -95,6 +95,26 @@ public class IDGoodingCountyParserTest extends BaseParserTest {
         "CALL:UTILITY PROBLEMS",
         "ADDR:145 N HAGERMAN ST",
         "CITY:WENDELL");
+  }
+  
+  @Test
+  public void testParser2() {
+
+    doTest("T1",
+        "(SIRCOMM) 7:45 PM\r\nNEW EVENT GDG099\r\nMED\r\nMEDICAL CALL\r\n521 UTAH ST\r\nGOODING [Attachment(s) removed]",
+        "TIME:12:07:45",
+        "SRC:GDG099",
+        "CALL:MEDICAL CALL",
+        "ADDR:521 UTAH ST",
+        "CITY:GOODING");
+
+    doTest("T2",
+        "(SIRCOMM) 7:49 AM\r\nNEW EVENT GDG099\r\nACCI\r\nACCIDENT W/INJURIES\r\n2200 E 3000 SOUTH\r\nWND AREA [Attachment(s) removed]",
+        "TIME:00:07:49",
+        "SRC:GDG099",
+        "CALL:ACCIDENT W/INJURIES",
+        "ADDR:2200 E 3000 SOUTH",
+        "CITY:WENDELL");
 
   }
   
