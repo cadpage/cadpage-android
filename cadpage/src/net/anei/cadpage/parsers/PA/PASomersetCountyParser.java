@@ -17,6 +17,10 @@ Code:  FIRES >STRUCTURE FIRE\nCode Detail:  Address: 9-1-1 CENTER:5467 MOUNT DAV
 Code:  SPILL >SPILL (TYPE)\nCode Detail:  Address: 9-1-1 CENTER:1041 SHAW MINES RD  XS:  City:  Caller: Caller Ph:  Map:  Grid: CAD INC #:  2011-0000029694\n\nUnformatted Message: 9-1-1 CENTER:1041 SHAW MINES RD XS: SKYLINE DR MEYERSDALE 130 Map: Grids:, Cad: 2011-0000029694
 Code:  TC    >TRAFFIC CONTROL\nCode Detail:  Address: 9-1-1 CENTER:1222 GLADE CITY RD  XS:  DEAL RD MEYERSDALE LOTTIG,C  City:  Caller:  Caller Ph:  Map:  Grid: CAD INC #: 2011-0000030890\n\nUnformatted Message: 9-1-1 CENTER:1222 GLADE CITY RD XS: DEAL RD MEYERSDALE LOTTIG,C 8146348503 Map: Grids:, Cad: 2011-0000030890
 
+Contact: Paul Bomboy <training@easthillsems.com>
+Sender: 911CENTER@co.somerset.pa.us
+1 of 2\nFRM:911CENTER@co.somerset.pa.us\nSUBJ:FALLB >FALL INJURY BLS\nMSG:911CENTER:969 BARN ST Apt: 101 Bldg XS: HIGHLAND AVE HOOVERSVILLE STANKO,\n(Con't) 2 of 2\nGEORGIANA 8147987022 Map: Grids:, Cad: 2012-0000017811\r\n\r\n(End)
+
 */
 
 public class PASomersetCountyParser extends DispatchBParser {
@@ -29,7 +33,7 @@ public class PASomersetCountyParser extends DispatchBParser {
   
   @Override
   public String getFilter() {
-    return "alert@ecm2.com";
+    return "alert@ecm2.com,911CENTER@co.somerset.pa.us";
   }
   
   @Override
@@ -38,10 +42,21 @@ public class PASomersetCountyParser extends DispatchBParser {
   }
   
   @Override
-  public boolean parseMsg(String body, Data data) {
-    Matcher match = MASTER.matcher(body);
-    if (!match.matches()) return false;
-    body = match.group(1) + " @ " + match.group(2);
+  public boolean parseMsg(String subject, String body, Data data) {
+    do {
+      Matcher match = MASTER.matcher(body);
+      if (match.matches()) {
+        body = match.group(1) + " @ " + match.group(2);
+        break;
+      }
+      
+      if (body.startsWith("911CENTER:") && subject.length() > 0) {
+        body = subject + " " + body.substring(10);
+        break;
+      }
+      return false;
+    } while (false);
+    
     body = body.replace(" AT ", " & ");
     return super.parseMsg(body, data);
   }
