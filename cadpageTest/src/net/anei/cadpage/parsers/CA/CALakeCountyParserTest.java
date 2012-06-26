@@ -90,6 +90,15 @@ public class CALakeCountyParserTest extends BaseParserTest {
         "CALL:FDMA - Medical Aid",
         "INFO:15YOF FALL VIC WITH HEAD INJ C/A");
 
+    doTest("T10",
+        "(Dispatched Call) 6633 EICKHOFF RD, Lakeport * MCGEOCH RESIDENCE * PEAR VIEW RD *  * FDAR * 12 * DIINING ROOM SMOKE",
+        "ADDR:6633 EICKHOFF RD",
+        "PLACE:MCGEOCH RESIDENCE",
+        "X:PEAR VIEW RD",
+        "CITY:Lakeport",
+        "CALL:FDAR - Alarm Sounding",
+        "INFO:12 / DIINING ROOM SMOKE");
+
   }
   
   public static void main(String[] args) {
