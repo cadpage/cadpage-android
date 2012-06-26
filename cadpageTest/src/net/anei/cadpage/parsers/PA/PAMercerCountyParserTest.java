@@ -109,6 +109,15 @@ public class PAMercerCountyParserTest extends BaseParserTest {
         "PLACE:GROVE CITY BOROUGH",
         "ID:2354882",
         "CALL:Brush Fire");
+
+    doTest("T13",
+        "\"mercer 9-1-1\"@mcc.co.mercer.pa.us (IPS I/Page Notification) Location: 160 GEORGE JUNIOR RD GROV: @GROVE CITY ARMORY EID: 2374687 TYPE CODE: SERV CALLER NAME: ERIC MERSHIMER CALLER",
+        "ADDR:160 GEORGE JUNIOR RD",
+        "CITY:GROVE CITY",
+        "PLACE:GROVE CITY ARMORY",
+        "ID:2374687",
+        "CALL:SERV",
+        "NAME:ERIC MERSHIMER");
  }
   
   public static void main(String[] args) {

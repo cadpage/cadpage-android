@@ -84,7 +84,16 @@ public class PASomersetCountyParserTest extends BaseParserTest {
         "NAME:STANKO, GEORGIANA",
         "PHONE:8147987022",
         "ID:2012-0000017811");
-  
+
+    doTest("T2",
+        "[FIRES >STRUCTURE FIRE]  911CENTER:MAIN ST BOSWELL LEWIS,NANCY 8146299728 Cad: 2012-0000017870",
+        "CALL:STRUCTURE FIRE",
+        "ADDR:MAIN ST",
+        "CITY:BOSWELL",
+        "NAME:LEWIS,NANCY",
+        "PHONE:8146299728",
+        "ID:2012-0000017870");
+ 
   }
   
   public static void main(String[] args) {
