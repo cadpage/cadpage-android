@@ -70,7 +70,7 @@ public class Message {
   
   // Patterns used to perform front end descrambling
   private static final Pattern LEAD_BLANK = Pattern.compile("^ *\" \" +");
-  private static final Pattern DISCLAIMER_PTN = Pattern.compile("\\n+DISCLA.*$", Pattern.CASE_INSENSITIVE);
+  private static final Pattern DISCLAIMER_PTN = Pattern.compile("\\n+DISCLA.*$| *\\[Attachment\\(s\\) removed\\]$", Pattern.CASE_INSENSITIVE);
   private static final Pattern FWD_HEADER_PTN = Pattern.compile("^Fwd:|^\\[FWD?:[^\\]]*?\\] *\n(?:.*Original Message.*\n)?", Pattern.CASE_INSENSITIVE);
   private static final Pattern[] MSG_HEADER_PTNS = new Pattern[]{
     Pattern.compile("^(000\\d)/(000\\d)\\b"),

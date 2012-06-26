@@ -22,6 +22,11 @@ Sender: PagingService@sircomm.com
  SIRCOMM / 9:14 PM\nNEW EVENT WND092\nFIREI\nFIRE INVESTIGATION\n1800 E 2800 SOUTH\nWND AREA\n
  SIRCOMM / 8:28 PM\nNEW EVENT WND092\nFIREB\nBRUSH/GRASS FIRE\n2132 NIAGRA SPRINGS GR\nWND AREA\n
  SIRCOMM / 8:52 AM\nNEW EVENT WND092\nUT\nUTILITY PROBLEMS\n145 N HAGERMAN ST\nWENDELL\n
+ 
+Contact: dwayne woodbridge <wendellfire9219@gmail.com>
+Sender: PagingService@sircomm.com
+(SIRCOMM) 7:45 PM\r\nNEW EVENT GDG099\r\nMED\r\nMEDICAL CALL\r\n521 UTAH ST\r\nGOODING [Attachment(s) removed]
+(SIRCOMM) 7:49 AM\r\nNEW EVENT GDG099\r\nACCI\r\nACCIDENT W/INJURIES\r\n2200 E 3000 SOUTH\r\nWND AREA [Attachment(s) removed]
 
 */
 
@@ -39,9 +44,17 @@ public class IDGoodingCountyParser extends FieldProgramParser {
   }
   
   @Override
-  protected boolean parseMsg(String body, Data data) {
-    if (!body.startsWith("SIRCOMM / ")) return false;
-    body = body.substring(10).trim();
+  protected boolean parseMsg(String subject, String body, Data data) {
+    do {
+      if (subject.equals("SIRCOMM")) break;
+
+      if (body.startsWith("SIRCOMM / ")) {
+        body = body.substring(10).trim();
+        break;
+      }
+      return false;
+    } while (false);
+    
     return parseFields(body.split("\n"), 6, data);
   }
 

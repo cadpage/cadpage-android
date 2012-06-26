@@ -17,6 +17,10 @@ Sender: dispatch911@moorecountync.gov
 Contact: Stephanie Dziok <dzioks@gmail.com>
 6 PAR DR WHISPERING PINES 2011045777 11:36:50 M10 CHEST PAIN CHEST PAIN
 
+Contact: David Alston <davidalston66@gmail.com>
+Sender: dispatch911@moorecountync.gov
+232 ALLEN LN ABERDEEN MDL 30A01 2012028950 15:18:54 M30 TRAUMATIC INJURIES\r
+
 */
 
 public class NCMooreCountyParser extends DispatchSouthernParser {
