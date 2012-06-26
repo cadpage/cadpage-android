@@ -21,6 +21,10 @@ Contact: chris oliva <chrisoliva1@gmail.com>
 Sender: newcitycad@rednmxcad.com
   / ALARM SOUNDING at 254 S MAIN ST, New City  c/s: ELINOR PL / SCHRIEVER LN . . 14:01:52\n
 
+Contact: Eric <eskala@monseyfd.org>
+Sender: monseyfd@rednmxcad.com
+OVEN/APPLIANCE/COOKING FIRE at 23 RITA AV, Kaser  c/s: JILL LN / ASHEL LN . . 16:58:34
+
 */
 
 public class NYRocklandCountyAParser extends DispatchRedAlertParser {
