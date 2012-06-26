@@ -21,6 +21,9 @@ Contact: Paul Bomboy <training@easthillsems.com>
 Sender: 911CENTER@co.somerset.pa.us
 1 of 2\nFRM:911CENTER@co.somerset.pa.us\nSUBJ:FALLB >FALL INJURY BLS\nMSG:911CENTER:969 BARN ST Apt: 101 Bldg XS: HIGHLAND AVE HOOVERSVILLE STANKO,\n(Con't) 2 of 2\nGEORGIANA 8147987022 Map: Grids:, Cad: 2012-0000017811\r\n\r\n(End)
 
+Contact: Marc Jackson <marcmjackson@gmail.com>
+[FIRES >STRUCTURE FIRE]  911CENTER:MAIN ST BOSWELL LEWIS,NANCY 8146299728 Cad: 2012-0000017870
+
 */
 
 public class PASomersetCountyParser extends DispatchBParser {

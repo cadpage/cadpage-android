@@ -23,6 +23,7 @@ Sender: 9-1-1"@mcc.co.mercer.pa.us
 "9-1-1"@mcc.co.mercer.pa.us (IPS I/Page Notification) Location: 819 SUNSET AVE GROV EID: 2354410 TYPE CODE: ELO CALLER NAME: MONTGOMERY BEVERLY C
 "9-1-1"@mcc.co.mercer.pa.us (IPS I/Page Notification) Location: 201 ERIE ST GROV: @ALLIED NEWS / THE HERALD EID: 2354451 TYPE CODE: ELI CALLER NA
 "9-1-1"@mcc.co.mercer.pa.us (IPS I/Page Notification) Location: 123 W MAIN ST GROV: @GROVE CITY BOROUGH EID: 2354882 TYPE CODE: BRU CALLER NAME: C
+"mercer 9-1-1"@mcc.co.mercer.pa.us (IPS I/Page Notification) Location: 160 GEORGE JUNIOR RD GROV: @GROVE CITY ARMORY EID: 2374687 TYPE CODE: SERV CALLER NAME: ERIC MERSHIMER CALLER
 
  */
 
@@ -36,7 +37,7 @@ public class PAMercerCountyParser extends FieldProgramParser {
   
   @Override
   public String getFilter() {
-    return "\"9-1-1\"@mcc.co.mercer.pa.us";
+    return "9-1-1\"@mcc.co.mercer.pa.us,";
   }
 
   @Override
