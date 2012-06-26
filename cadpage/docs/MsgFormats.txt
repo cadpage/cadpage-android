@@ -4896,6 +4896,7 @@ S: M: ??? PFD:2012:0140 >2012-06-17 21:14:30 >ALERTED >ODOR UNKNOWN >47 WEST HAM
 S: M: ??? PFD:2012:0143 >2012-06-24 12:47:25 >ALERTED >CARBON MONOXIDE/ETC-8 >49 1/2 THIRD STREET
 S:CAD M:11:31 E24-13\2sIs Enroute To: 119 RIORDON RD\n\n
 S: M: ??? PFD:2012:0142 >2012-06-23 11:27:29 >ALERTED >TREE DOWN >119 RIORDIN RD WESTERNPORT
+S: M: ??? PFD:2012:0144 >2012-06-25 18:45:52 >ALERTED >MVA W/INJURIES >RT 46, BETWEEN KEYSER& PIEDMONT
 **********************************************************
 **********************************************************
 **********************************************************

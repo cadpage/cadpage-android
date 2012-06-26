@@ -21,6 +21,7 @@ SCOTTS VALLEY RANCHERIA/HARTLEY RD, Lakeport * * HARTLEY RD * * FDWF * * VEGITAT
 [Dispatched Call]  S STATE HWY 29/HIGHLAND SPRINGS RD, Lakeport *  * HIGHLAND SPRINGS RD *  * FDMA *  * BETWEEN ARGONAUT AND HIGHLAND SPRINGS IN
 [Dispatched Call]  FINLEY EAST RD/THOMAS, Finley *  * THOMAS *  * FDOE *  * TARP WRAPPED INTO THE PG&E WIRES...RP IS CONCERNED THEY ARE GOING TO
 2725 S MAIN, Lakeport * ROTTEN ROBBIE * STATE HWY 175 * * FDMA * * 15YOF FALL VIC WITH HEAD INJ C/A
+(Dispatched Call) 6633 EICKHOFF RD, Lakeport * MCGEOCH RESIDENCE * PEAR VIEW RD *  * FDAR * 12 * DIINING ROOM SMOKE
 
  */
 
@@ -114,6 +115,7 @@ public class CALakeCountyParser extends FieldProgramParser {
   
   private static final Properties CALL_CODES = buildCodeTable(new String[]{
       "FDAA", "Auto Accident",
+      "FDAR", "Alarm Sounding",
       "FDMA", "Medical Aid",
       "FDSF", "Structure Fire",
       "FDSC", "Smoke Check",
