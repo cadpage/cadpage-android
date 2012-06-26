@@ -77,6 +77,15 @@ public class NYRocklandCountyAParserTest extends BaseParserTest {
         "X:ELINOR PL / SCHRIEVER LN",
         "TIME:14:01:52");
 
+    doTest("T9",
+        "OVEN/APPLIANCE/COOKING FIRE at 23 RITA AV, Kaser  c/s: JILL LN / ASHEL LN . . 16:58:34",
+        "CALL:OVEN/APPLIANCE/COOKING FIRE",
+        "ADDR:23 RITA AV",
+        "MADDR:23 RITA AVE",
+        "CITY:Kaser",
+        "X:JILL LN / ASHEL LN",
+        "TIME:16:58:34");
+
   }
   
   public static void main(String[] args) {
