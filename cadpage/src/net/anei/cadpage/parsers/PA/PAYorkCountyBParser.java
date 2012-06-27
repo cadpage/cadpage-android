@@ -1,17 +1,11 @@
 package net.anei.cadpage.parsers.PA;
 
 import java.util.Properties;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
-import net.anei.cadpage.parsers.FieldProgramParser;
-import net.anei.cadpage.parsers.MsgInfo.Data;
+import net.anei.cadpage.parsers.dispatch.DispatchA9Parser;
 
 /*
 York County, PA
-Contact: William Blackwell <ff2blackwell@yahoo.com>
-Sender:messaging@iamresponding.com
-
 Rip and Run Report\nRip and Run Report\n\n~\nLocation Information:\n\nLocation:~~LEADER HEIGHTS~RD/~JOPPA~RD\nVenue:~YORK TWP\nCross Streets~\nQuadrant:~19-04\nDistrict:~19-04\n~\nCall Information:\n\nCall Number:~4326\nCall Type:~ DEBRIS REMOVAL\nSource:~DISPATCHED BY YORK COUNTY 911\nPriority:~ 4\nStatus:~IN PROGRESS\nAssigned To:~CALL TAKER 7\nCaller:~Starner,~Jeff\nCall Date/Time:~10/20/2011 22:55:13\nDispatch Date/Time:~10/20/2011 22:59:13\nArrive Date/Time:~\nClear Date/Time:~\nEnroute Date/Time:~\nLatest Unit Cleared Date/Time:~\n~\nIncident Number(s)\n2011-00001696~~GOODWILL FIRE COMPANY NO. 1 YORK TOWNSHIP\n2011-00025174~~YORK AREA REGIONAL POLICE DEPARTMENT\n~\nUnits Sent:~2\nFIRESTA19, 21-79~\n\nAlerts:\n~\nLocation Alerts\n\nPerson Alerts\n\nVehicle Alerts\n~~\nNarrative:\n\nNarrative Time~Narrative\n10/20/11 22:55:55~yes blocking\\n10/20/11 22:56:06~yes smoking\n10/20/11 22:56:08~yes leaking\n10/20/11 22:56:17~silver Toyota\n10/20/11 22:56:42~gry car\n10/20/11 22:56:48~in the bank lot\n10/20/11 22:56:56~no overturned\n10/20/11 22:57:14~c/o saw this happen\n10/20/11 22:57:56~he was not ivolved though\n10/20/11 22:58:03~inv\n10/20/11 22:57:00~Call #: 4328 - 2 veh acc\n10/20/11 22:57:05~Call #: 4328 - blocking entire roadway\n10/20/11 22:57:14~Call #: 4328 - both vehs are sedans\n10/20/11 22:57:30~Call #: 4328 - no smoking\n10/20/11 22:57:38~Call #: 4328 - possible leaking\n10/20/11 22:58:37~he spoke to the people and they do not need EMS according to them\n10/20/11 22:59:54~Nature Of Call: Veh Leaking
 Rip and Run Report\nRip and Run Report\n\n~\nLocation Information:\n\nLocation:~~LEADER HEIGHTS~RD/~PINE GROVE~RD\nVenue:~YORK TWP\nCross Streets~\nQuadrant:~19-04\nDistrict:~19-04\n~\nCall Information:\n\nCall Number:~8218\nCall Type:~ DEBRIS REMOVAL\nSource:~DISPATCHED BY YORK COUNTY 911\nPriority:~ 4\nStatus:~IN PROGRESS\nAssigned To:~BACK UP CALL TAKER 2\nCaller:~Winemiller,~Robert\nCall Date/Time:~10/24/2011 19:36:59\nDispatch Date/Time:~10/24/2011 19:40:19\nArrive Date/Time:~\nClear Date/Time:~\nEnroute Date/Time:~\nLatest Unit Cleared Date/Time:~\n~\nIncident Number(s)\n2011-00001705~~GOODWILL FIRE COMPANY NO. 1 YORK TOWNSHIP\n2011-00025487~~YORK AREA REGIONAL POLICE DEPARTMENT\n~\nUnits Sent:~2\nFIRESTA19, 21-81~\n\nAlerts:\n~\nLocation Alerts\n\nPerson Alerts\n\nVehicle Alerts\n~~\nNarrative:\n\nNarrative Time~Narrative\n10/24/11 19:38:09~no ot\n10/24/11 19:38:26~leaking fluids\n10/24/11 19:38:29~antifreeze\n10/24/11 19:38:45~no hazards\n10/24/11 19:39:10~both veh are blocking traffic\n10/24/11 19:39:19~in the middle of the intersection\n10/24/11 19:39:23~just occured\n10/24/11 19:39:43~veh 1: blue volzwagon passat\n10/24/11 19:39:50~veh 2: red dodge neon\n10/24/11 19:40:13~c/o has the blue veh\n10/24/11 19:40:32~Nature Of Call: fluids on roadway
 Rip and Run Report\nRip and Run Report\n\n~\nLocation Information:\n\nLocation:~2301~SPRINGWOOD~RD~\nVenue:~YORK TWP\nCross Streets~\nPAULINE DR / I 83 NB\nPhone:~(717) 741-2822\nQuadrant:~19-09\nDistrict:~19-09\n~\nCall Information:\n\nCall Number:~9986\nCall Type:~ FALLS CL 2\nSource:~DISPATCHED BY YORK COUNTY 911\nPriority:~ 4\nStatus:~IN PROGRESS\nAssigned To:~CALL TAKER 7\nCaller:~OnCall#Faith,~Acadian\nCall Date/Time:~10/26/2011 16:10:53\nDispatch Date/Time:~10/26/2011 16:14:53\nArrive Date/Time:~10/26/2011 16:19:44\nClear Date/Time:~\nEnroute Date/Time:~10/26/2011 16:17:09\nLatest Unit Cleared Date/Time:~10/26/2011 16:17:04\n~\nIncident Number(s)\n2011-00001710~~GOODWILL FIRE COMPANY NO. 1 YORK TOWNSHIP\n2011-00003105~~YOE FIRE CO AMBULANCE INC\n2011-00003067~~YOE FIRE COMPANY AMBULANCE SERVICE\n2011-00025631~~YORK AREA REGIONAL POLICE DEPARTMENT\n~\nUnits Sent:~5\nMICU19-2, MICU36-2, EMSSTA19, FIRESTA19, 21-89~\n\nAlerts:\n~\nLocation Alerts\n\nPerson Alerts\n\nVehicle Alerts\n~~\nNarrative:\n\nNarrative Time~Narrative\n10/26/11 16:12:49~Problem: fall-bleed from face.\2sPatient Info: 1 patient(s); 91 Years old; Female; Conscious: Yes; Breathing: Yes;\n10/26/11 16:12:49~ProQA Dispatch Message Sent; Chief Complaint Number: 17; Dispatch Level: 17B01; Response Text: Bravo\n10/26/11 16:12:56~no hosp preference\n10/26/11 16:13:16~lockbox on the side door-code for lock box is 2628 for key locatio\n10/26/11 16:13:27~Nature Of Call: 91 yof/\n10/26/11 16:13:35~ProQA Questionnaire Completed; Chief Complaint Number: 17; Dispatch Level: 17B01; Response Text: Bravo\n10/26/11 16:13:35~Problem: fall-bleed from face.\2sPatient Info: 1 patient(s); 91 Years old; Female; Conscious: Yes; Breathing: Yes;\n10/26/11 16:13:37~Nature Of Call: 91 yof/unkn dest\n10/26/11 16:32:01~Nature Of Call: Non emergency for lift assist
@@ -26,54 +20,23 @@ Rip and Run Report\nRip and Run Report\n\n~\nLocation Information:\n\nLocation:~
 Rip and Run Report\nRip and Run Report\n\n~\nLocation Information:\n\nLocation:~1450~BEE TREE~RD~\nVenue:~SP GARDEN TWP\nCross Streets~\nHIGHLAND TER / SUMMIT TER\nQuadrant:~89-205\nDistrict:~89-205\n~\nCall Information:\n\nCall Number:~4892\nCall Type:~ FIRE WIRES\nSource:~DISPATCHED BY YORK COUNTY 911\nPriority:~ 4\nStatus:~IN PROGRESS\nAssigned To:~CALL TAKER 5\nCaller:~Robinson,~John\nCall Date/Time:~10/29/2011 20:27:54\nDispatch Date/Time:~10/29/2011 20:32:12\nArrive Date/Time:~\nClear Date/Time:~\nEnroute Date/Time:~\nLatest Unit Cleared Date/Time:~\n~\nIncident Number(s)\n2011-00001730~~GOODWILL FIRE COMPANY NO. 1 YORK TOWNSHIP\n2011-00003667~~YORK AREA UNITED FIRE AND RESCUE\n~\nUnits Sent:~2\nFIRESTA892, E19~\n\nAlerts:\n~\nLocation Alerts\n\nPerson Alerts\n\nVehicle Alerts\n~~\nNarrative:\n\nNarrative Time~Narrative\n10/29/11 20:28:39~c/o adv that they have wires sparking in the front yard\n10/29/11 20:28:45~not threatening home but near tree branches\n10/29/11 20:28:50~c/o does not have power\n10/29/11 20:28:59~do not see flames\n10/29/11 20:29:22~wires are not down, they are sparking in the air\n10/29/11 20:31:20~Nature Of Call: odor of gas outside\n10/29/11 20:32:05~Nature Of Call: wires sparking
 Rip and Run Report\nRip and Run Report\n\n~\nLocation Information:\n\nLocation:~~I~83~NB/~I~83X14LEADERHEIGHTS~NB\nVenue:~YORK TWP\nCross Streets~\nQuadrant:~19-833\nDistrict:~19-833\n~\nCall Information:\n\nCall Number:~3936\nCall Type:~ FIRE VEHICLE \nSource:~DISPATCHED BY YORK COUNTY 911\nPriority:~ 2\nStatus:~IN PROGRESS\nAssigned To:~CALL TAKER 2\nCaller:~Himmelright,~Christine\nCall Date/Time:~02/26/2012 17:42:25\nDispatch Date/Time:~02/26/2012 17:44:07\nArrive Date/Time:~\nClear Date/Time:~\nEnroute Date/Time:~\nLatest Unit Cleared Date/Time:~\n~\nIncident Number(s)\n2012-00001075~~GOODWILL FIRE COMPANY NO. 1 YORK TOWNSHIP\n~\nUnits Sent:~1\nFIRESTA19~\n\nAlerts:\n~\nLocation Alerts\n\nPerson Alerts\n\nVehicle Alerts\n~~\nNarrative:\n\nNarrative Time~Narrative\n02/26/12 17:43:52~In the medium of the road smoke and flames
 Rip and Run Report\nRip and Run Report\n\n~\nLocation Information:\n\nLocation:~25~MONUMENT~RD~\nVenue:~YORK TWP\nCross Streets~\nS GEORGE ST\nOLD BALTIMORE PIKE / GRANTLEY RD\nPhone:~(717) 851-2604\nQuadrant:~19-05\nDistrict:~19-05\n~\nCall Information:\n\nCall Number:~4561\nCall Type:~ FIRE AFA FALSE\nSource:~DISPATCHED BY YORK COUNTY 911\nPriority:~ 4\nStatus:~IN PROGRESS\nAssigned To:~CALL TAKER 1\nCaller:~Kevin,~Simplex\nCall Date/Time:~02/27/2012 11:24:29\nDispatch Date/Time:~02/27/2012 11:26:16\nArrive Date/Time:~\nClear Date/Time:~\nEnroute Date/Time:~\nLatest Unit Cleared Date/Time:~02/27/2012 11:28:12\n~\nIncident Number(s)\n2012-00001076~~GOODWILL FIRE COMPANY NO. 1 YORK TOWNSHIP\n2012-00005505~~YORK AREA REGIONAL POLICE DEPARTMENT\n~\nUnits Sent:~2\nFIRESTA19, 21-66~\n\nAlerts:\n~\nLocation Alerts\n\nPerson Alerts\n\nVehicle Alerts\n~~\nNarrative:\n\nNarrative Time~Narrative\n02/27/12 11:25:22~unk location, general fire\n02/27/12 11:25:32~will att premsis, will att keyholders\n02/27/12 11:25:51~disp adv'd to hold on have someone calling in\n02/27/12 11:26:20~spoke to Barbra stated false alarm, unk reason, all isok\n02/27/12 11:26:51~still did not have a location\n02/27/12 11:27:18~Nature Of Call: general alm\n02/27/12 11:27:18~Barbara Hess on scene saying sprinkler system was beingrehooked up and that is why it went off\n02/27/12 11:27:22~nNO EMERGENCY\n02/27/12 11:28:04~Nature Of Call: general alm /reconnected sprinkler system
-
-Contact: Acting Captains <24acting@gmail.com>
-Sender: messaging@iamresponding.com
 Rip and Run Report\nRip and Run Report\n\n~\nLocation Information:\n\nLocation:~887~DELTA~RD~\nVenue:~WINDSOR TWP\nCross Streets~\nBAHNS MILL RD / BURKHOLDER RD\nPhone:~(717) 246-5500\nQuadrant:~34-401\nDistrict:~34-401\n~\nCall Information:\n\nCall Number:~5361\nCall Type:~ FIRE AFA HIGH RISK\nSource:~DISPATCHED BY YORK COUNTY 911\nPriority:~ 4\nStatus:~IN PROGRESS\nAssigned To:~CALL TAKER 6\nCaller:~#96538,~Advantage\nCall Date/Time:~03/08/2012 19:19:22\nDispatch Date/Time:~03/08/2012 19:21:17\nArrive Date/Time:~\nClear Date/Time:~\nEnroute Date/Time:~\nLatest Unit Cleared Date/Time:~\n~\nIncident Number(s)\n2012-00001103~~GOODWILL FIRE COMPANY NO. 1 YORK TOWNSHIP\n2012-00001033~~LAUREL FIRE COMPANY NO. 1\n2012-00001117~~LEO INDEPENDENT FIRE ENGINE COMPANY\n2012-00001103~~YOE FIRE COMPANY\n2012-00006285~~YORK AREA REGIONAL POLICE DEPARTMENT\n~\nUnits Sent:~7\nFIRESTA34, E37-1, T36, TK34, E34, TK19, 21-89~\n\nAlerts:\n~\nLocation Alerts\n\nPerson Alerts\n\nVehicle Alerts\n~~\nNarrative:\n\nNarrative Time~Narrative\n03/08/12 19:20:16~alarm from zone 2 and radio back up\n03/08/12 19:20:19~audible alarm\n03/08/12 19:20:26~attempting premise and keyholders\n03/08/12 19:20:32~unknown structure type\n03/08/12 19:20:59~Nature Of Call: zone 2
 
  */
 
 
-public class PAYorkCountyBParser extends FieldProgramParser {
-  
-  private static final String START_MARKER = "Rip and Run Report\nRip and Run Report\n\n~\n";
+public class PAYorkCountyBParser extends DispatchA9Parser {
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
       "SP GARDEN TWP",    "SPRING GARDEN TWP"
   });
   
   public PAYorkCountyBParser() {
-    super(CITY_CODES, "YORK COUNTY", "PA",
-           "Location:ADDR! Venue:CITY! SKIP X Quadrant:MAP! Call_Number:ID! Call_Type:CALL! Priority:PRI Caller:NAME Call_Date/Time:DATETIME SKIP+? Units_Sent:SKIP UNIT Narrative:SKIP INFO+");
+    super(CITY_CODES, "YORK COUNTY", "PA");
   }
   
   @Override
   public String getFilter() {
     return "messaging@iamresponding.com";
-  }
-
-  @Override
-  protected boolean parseMsg(String body, Data data) {
-    body = body.replace("\r", "").replace("\t", " ");
-    if (!body.startsWith(START_MARKER)) return false;
-    body = body.replace('~', ' ');
-    return parseFields(body.split("\n"), data);
-  }
-  
-  private static final Pattern INFO_MARKER = Pattern.compile("^\\d\\d/\\d\\d/\\d\\d \\d\\d:\\d\\d:\\d\\d ");
-  private class MyInfoField extends InfoField {
-    @Override
-    public void parse(String field, Data data) {
-      Matcher match = INFO_MARKER.matcher(field);
-      if (!match.find()) return;
-      field = field.substring(match.end()).trim();
-      super.parse(field, data);
-    }
-  }
-  
-  @Override
-  public Field getField(String name) {
-    if (name.equals("INFO")) return new MyInfoField();
-    return super.getField(name);
   }
 }

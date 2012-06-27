@@ -638,6 +638,20 @@ St Joseph County, IN (INStJosephCountyParser)
 [!] 1 MEDIC021 ^ 60101 BODNAR ST PE :(14100) JACKSON RDIN LOT M FALL 1752,006ME10 ,PENN1VERIFY NAME OF THE BUSINESS 10/29/09 NJL 5/10/2012 15:55 
 *******************************************************************************
 *******************************************************************************
+* DispatchA9Parser subclasses
+*******************************************************************************
+*******************************************************************************
+Gaston County, NC (NCGastonCountyBParser)
+(FW: Rip and Run Report) ---------- Forwarded message ----------\nFrom: NWSAdmin <NWSAdmin@cityofgastonia.com>\nDate: Mon, Jun 4, 2012 at 4:41 PM\nSubject: FW: Rip and Run Report\nTo: "AG Center (agcenter61@gmail.com)" <agcenter61@gmail.com>\n\n\n\n-------------------------------------------\nFrom: sqlinfo@cityofgastonia.com[SMTP:SQLINFO@CITYOFGASTONIA.COM]\nSent: Monday, June 04, 2012 4:41:06 PM\nTo: NWSAdmin\nSubject: Rip and Run Report\nAuto forwarded by a Rule\n\nRip and Run Report\n\n~\nLocation Information:\n\nLocation:~~M L KISER~RD/~PUETTS CHAPEL~RD\nVenue:~COUNTY\nCross Streets~\nPhone:~(704) 842-4272\nStation:~Station 61\nQuadrant:~61E\nDistrict:~3CM2\n~\nCall Information:\n\nCall Number:~4284\nCall Type:~ Fire-Vehicle\nSource:~911 Call\nPriority:~ 2\nStatus:~In Progress\nAssigned To:~Position 12 Police Back Up\nCaller:~stephanie\nCall Date/Time:~06/04/2012 16:40:08\nDispatch Date/Time:~06/04/2012 16:41:02\nArrive Date/Time:~\nClear Date/Time:~\nEnroute Date/Time:~\nLatest Unit Cleared Date/Time:~\n~\nIncident Number(s)\n2012-00000194~~AG Center Fire Dept.\n~\nUnits Sent:~1\nEN611~\n\nAlerts:\n~\nLocation Alerts\n\nPerson Alerts\n\nVehicle Alerts\n~~\nNarrative:\n\nNarrative Time~Narrative\n06/04/12 16:40:46~hay bale on trailer is on fire
+(Fwd: FW: Rip and Run Report) ---------- Forwarded message ----------\nFrom: "NWSAdmin" <NWSAdmin@cityofgastonia.com>\nDate: Jun 3, 2012 2:31 PM\nSubject: FW: Rip and Run Report\nTo: "AG Center (agcenter61@gmail.com)" <agcenter61@gmail.com>\n\n\n-------------------------------------------\nFrom: sqlinfo@cityofgastonia.com[SMTP:SQLINFO@CITYOFGASTONIA.COM]\nSent: Sunday, June 03, 2012 2:31:14 PM\nTo: NWSAdmin\nSubject: Rip and Run Report\nAuto forwarded by a Rule\n\nRip and Run Report\n\n~\nLocation Information:\n\nLocation:~320~N ~MYRTLE SCHOOL~RD~\nVenue:~GASTONIA\nCross Streets~\nWHITENER ST / TWIN AVE\nStation:~Station 1\nQuadrant:~GF1A\nDistrict:~1GR1\n~\nCall Information:\n\nCall Number:~3041\nCall Type:~ Fire-House\nSource:~Phone\nPriority:~ 1\nStatus:~In Progress\nAssigned To:~Position 9 Co Fire\nCaller:~allen,~ann\nCall Date/Time:~06/03/2012 14:29:44\nDispatch Date/Time:~06/03/2012 14:31:03\nArrive Date/Time:~\nClear Date/Time:~\nEnroute Date/Time:~06/03/2012 14:31:05\nLatest Unit Cleared Date/Time:~\n~\nIncident Number(s)\n2012-00000192~~AG Center Fire Dept.\n2012-00011140~~Gaston Emergency Medical Services\n2012-00003728~~Gastonia Fire Dept.\n~\nUnits Sent:~6\nRS1, LD61, EN8, EN5, LD1, E24P~\n\nAlerts:\n~\nLocation Alerts\n\nPerson Alerts\n\nVehicle Alerts\n~~\nNarrative:\n\nNarrative Time~Narrative\n06/03/12 14:30:08~propane gas tank caught on fire\n06/03/12 14:30:29~this is in her carport attached to the house
+(FW: Rip and Run Report) \n-------------------------------------------\nFrom: sqlinfo@cityofgastonia.com[SMTP:SQLINFO@CITYOFGASTONIA.COM]\nSent: Monday, June 04, 2012 10:59:40 PM\nTo: NWSAdmin\nSubject: Rip and Run Report\nAuto forwarded by a Rule\n\nRip and Run Report\n\n~\nLocation Information:\n\nLocation:~2912~CLONINGER~RD~\nVenue:~COUNTY\nCross Streets~\nNIXON SMITH RD / COLT THORNBURG RD\nPhone:~(980) 329-2486\nStation:~Station 61\nQuadrant:~61C\nDistrict:~1DR2\n~\nCall Information:\n\nCall Number:~4631\nCall Type:~ Veh Acc-PI\nSource:~911 Call\nPriority:~ 1\nStatus:~Just Occurred\nAssigned To:~Position 15 Call Taking\nCaller:~HUGGINS,~JAY\nCall Date/Time:~06/04/2012 22:58:17\nDispatch Date/Time:~06/04/2012 22:59:36\nArrive Date/Time:~\nClear Date/Time:~\nEnroute Date/Time:~\nLatest Unit Cleared Date/Time:~\n~\nIncident Number(s)\n2012-00000196~~AG Center Fire Dept.\n~\nUnits Sent:~1\nEN611~\n\nAlerts:\n~\nLocation Alerts\n\nPerson Alerts\n\nVehicle Alerts\n~~\nNarrative:\n\nNarrative Time~Narrative\n06/04/12 22:58:43~New ProQA Case Number has been assigned: 4988669\n06/04/12 22:59:04~CAR HIT A TREE AND THEY ARE PINNED IN
+*******************************************************************************
+York County, PA (PAYorkCountyBParser)
+Rip and Run Report\nRip and Run Report\n\n~\nLocation Information:\n\nLocation:~~LEADER HEIGHTS~RD/~JOPPA~RD\nVenue:~YORK TWP\nCross Streets~\nQuadrant:~19-04\nDistrict:~19-04\n~\nCall Information:\n\nCall Number:~4326\nCall Type:~ DEBRIS REMOVAL\nSource:~DISPATCHED BY YORK COUNTY 911\nPriority:~ 4\nStatus:~IN PROGRESS\nAssigned To:~CALL TAKER 7\nCaller:~Starner,~Jeff\nCall Date/Time:~10/20/2011 22:55:13\nDispatch Date/Time:~10/20/2011 22:59:13\nArrive Date/Time:~\nClear Date/Time:~\nEnroute Date/Time:~\nLatest Unit Cleared Date/Time:~\n~\nIncident Number(s)\n2011-00001696~~GOODWILL FIRE COMPANY NO. 1 YORK TOWNSHIP\n2011-00025174~~YORK AREA REGIONAL POLICE DEPARTMENT\n~\nUnits Sent:~2\nFIRESTA19, 21-79~\n\nAlerts:\n~\nLocation Alerts\n\nPerson Alerts\n\nVehicle Alerts\n~~\nNarrative:\n\nNarrative Time~Narrative\n10/20/11 22:55:55~yes blocking\\n10/20/11 22:56:06~yes smoking\n10/20/11 22:56:08~yes leaking\n10/20/11 22:56:17~silver Toyota\n10/20/11 22:56:42~gry car\n10/20/11 22:56:48~in the bank lot\n10/20/11 22:56:56~no overturned\n10/20/11 22:57:14~c/o saw this happen\n10/20/11 22:57:56~he was not ivolved though\n10/20/11 22:58:03~inv\n10/20/11 22:57:00~Call #: 4328 - 2 veh acc\n10/20/11 22:57:05~Call #: 4328 - blocking entire roadway\n10/20/11 22:57:14~Call #: 4328 - both vehs are sedans\n10/20/11 22:57:30~Call #: 4328 - no smoking\n10/20/11 22:57:38~Call #: 4328 - possible leaking\n10/20/11 22:58:37~he spoke to the people and they do not need EMS according to them\n10/20/11 22:59:54~Nature Of Call: Veh Leaking
+Rip and Run Report\nRip and Run Report\n\n~\nLocation Information:\n\nLocation:~~LEADER HEIGHTS~RD/~PINE GROVE~RD\nVenue:~YORK TWP\nCross Streets~\nQuadrant:~19-04\nDistrict:~19-04\n~\nCall Information:\n\nCall Number:~8218\nCall Type:~ DEBRIS REMOVAL\nSource:~DISPATCHED BY YORK COUNTY 911\nPriority:~ 4\nStatus:~IN PROGRESS\nAssigned To:~BACK UP CALL TAKER 2\nCaller:~Winemiller,~Robert\nCall Date/Time:~10/24/2011 19:36:59\nDispatch Date/Time:~10/24/2011 19:40:19\nArrive Date/Time:~\nClear Date/Time:~\nEnroute Date/Time:~\nLatest Unit Cleared Date/Time:~\n~\nIncident Number(s)\n2011-00001705~~GOODWILL FIRE COMPANY NO. 1 YORK TOWNSHIP\n2011-00025487~~YORK AREA REGIONAL POLICE DEPARTMENT\n~\nUnits Sent:~2\nFIRESTA19, 21-81~\n\nAlerts:\n~\nLocation Alerts\n\nPerson Alerts\n\nVehicle Alerts\n~~\nNarrative:\n\nNarrative Time~Narrative\n10/24/11 19:38:09~no ot\n10/24/11 19:38:26~leaking fluids\n10/24/11 19:38:29~antifreeze\n10/24/11 19:38:45~no hazards\n10/24/11 19:39:10~both veh are blocking traffic\n10/24/11 19:39:19~in the middle of the intersection\n10/24/11 19:39:23~just occured\n10/24/11 19:39:43~veh 1: blue volzwagon passat\n10/24/11 19:39:50~veh 2: red dodge neon\n10/24/11 19:40:13~c/o has the blue veh\n10/24/11 19:40:32~Nature Of Call: fluids on roadway
+Rip and Run Report\nRip and Run Report\n\n~\nLocation Information:\n\nLocation:~2301~SPRINGWOOD~RD~\nVenue:~YORK TWP\nCross Streets~\nPAULINE DR / I 83 NB\nPhone:~(717) 741-2822\nQuadrant:~19-09\nDistrict:~19-09\n~\nCall Information:\n\nCall Number:~9986\nCall Type:~ FALLS CL 2\nSource:~DISPATCHED BY YORK COUNTY 911\nPriority:~ 4\nStatus:~IN PROGRESS\nAssigned To:~CALL TAKER 7\nCaller:~OnCall#Faith,~Acadian\nCall Date/Time:~10/26/2011 16:10:53\nDispatch Date/Time:~10/26/2011 16:14:53\nArrive Date/Time:~10/26/2011 16:19:44\nClear Date/Time:~\nEnroute Date/Time:~10/26/2011 16:17:09\nLatest Unit Cleared Date/Time:~10/26/2011 16:17:04\n~\nIncident Number(s)\n2011-00001710~~GOODWILL FIRE COMPANY NO. 1 YORK TOWNSHIP\n2011-00003105~~YOE FIRE CO AMBULANCE INC\n2011-00003067~~YOE FIRE COMPANY AMBULANCE SERVICE\n2011-00025631~~YORK AREA REGIONAL POLICE DEPARTMENT\n~\nUnits Sent:~5\nMICU19-2, MICU36-2, EMSSTA19, FIRESTA19, 21-89~\n\nAlerts:\n~\nLocation Alerts\n\nPerson Alerts\n\nVehicle Alerts\n~~\nNarrative:\n\nNarrative Time~Narrative\n10/26/11 16:12:49~Problem: fall-bleed from face.  Patient Info: 1 patient(s); 91 Years old; Female; Conscious: Yes; Breathing: Yes;\n10/26/11 16:12:49~ProQA Dispatch Message Sent; Chief Complaint Number: 17; Dispatch Level: 17B01; Response Text: Bravo\n10/26/11 16:12:56~no hosp preference\n10/26/11 16:13:16~lockbox on the side door-code for lock box is 2628 for key locatio\n10/26/11 16:13:27~Nature Of Call: 91 yof/\n10/26/11 16:13:35~ProQA Questionnaire Completed; Chief Complaint Number: 17; Dispatch Level: 17B01; Response Text: Bravo\n10/26/11 16:13:35~Problem: fall-bleed from face.  Patient Info: 1 patient(s); 91 Years old; Female; Conscious: Yes; Breathing: Yes;\n10/26/11 16:13:37~Nature Of Call: 91 yof/unkn dest\n10/26/11 16:32:01~Nature Of Call: Non emergency for lift assist
+*******************************************************************************
+*******************************************************************************
 * DispatchGeoconxParser subclasses
 *******************************************************************************
 *******************************************************************************
@@ -1867,7 +1881,7 @@ Location: 1 STOKES COUNTY: @STOKES COUNTY: 2312 HWY 65 E Nature: Unconscious/Unr
 Location: 6206 REIDSVILLE RD FC: @CREEKSIDE MANOR Nature: Chest Pain/Heart Problems P:1  - WITH_SYMPTOMS DISTRICT: R31 X Str: GOODWILL CHURCH RD/PINEY GR
 Location: 9350 FREEMAN RD FC Nature: Headache P:1  - VISION_PROBLEMS DISTRICT: R31 X Str: PINEY GROVE RD/GOODWILL CHURCH RD CALLER NAME: MARTIN, NAOMI
 ***************************************************************************
-Gaston County, NC (NCGastonCountyParser)
+Gaston County, NC (NCGastonCountyAParser)
 (*CAD*) [CAD]   29D2P ~RIVERSIDE~DR/~HICKORY GROVE~RD  X-ST: Phone:~(704) 905-8283 - Station:~Station 40 Station 40 08/25/2011 15:48:11 7\nLD400, EN403, C161, RSU,
 (*CAD*) [CAD]   29D2L ~WESLEYAN~DR/~MAIN~ST  X-ST: Phone:~(704) 460-7016 - Station:~Station 40 Station 40 08/29/2011 16:49:18 1\nEN403  WRECK.
 (*CAD*) [CAD]   Tree In Roadway 124~CHURCH~ST~  X-ST: ROBINETTE LN - Phone:~(704) 634-0269 Station 40 08/30/2011 05:13:05 1\n***************************************************************************
@@ -2274,11 +2288,6 @@ York County, PA (PAYorkCountyAParser)
 NORTH CODORUS TWP \n\n1983 SLAGEL RD STOVERSTOWN RD / VIEW DR FIRE STRUCT RESID Working Fire 12-01 S99-1 RIT1 17:05 
 YORK TWP COUNTRY MEADOWS \n\n2760 PINE GROVE RD 2760 PINE GROVE RD LEADER HEIGHTS RD, PINE GROVE CIR / PINE GROVE CMN FIRE AFA HIGH RISK general alm from the Leader Heights Building 19-04 FIRESTA19 E19 E18-1 E89-2 E35-2 TK19 TK34 EMSSTA18 A18 12:22 
 PENN TWP \n\n1060 WILSON AVE OLD RIDGE RD / YORK ST, GRANDVIEW RD FIRE VEHICLE HR mulching machine on fire 49-17 FIRESTA49 E49-2 E46-3 E49-1 
-***************************************************************************
-York County, PA (PAYorkCountyBParser)
-Rip and Run Report\nRip and Run Report\n\n~\nLocation Information:\n\nLocation:~~LEADER HEIGHTS~RD/~JOPPA~RD\nVenue:~YORK TWP\nCross Streets~\nQuadrant:~19-04\nDistrict:~19-04\n~\nCall Information:\n\nCall Number:~4326\nCall Type:~ DEBRIS REMOVAL\nSource:~DISPATCHED BY YORK COUNTY 911\nPriority:~ 4\nStatus:~IN PROGRESS\nAssigned To:~CALL TAKER 7\nCaller:~Starner,~Jeff\nCall Date/Time:~10/20/2011 22:55:13\nDispatch Date/Time:~10/20/2011 22:59:13\nArrive Date/Time:~\nClear Date/Time:~\nEnroute Date/Time:~\nLatest Unit Cleared Date/Time:~\n~\nIncident Number(s)\n2011-00001696~~GOODWILL FIRE COMPANY NO. 1 YORK TOWNSHIP\n2011-00025174~~YORK AREA REGIONAL POLICE DEPARTMENT\n~\nUnits Sent:~2\nFIRESTA19, 21-79~\n\nAlerts:\n~\nLocation Alerts\n\nPerson Alerts\n\nVehicle Alerts\n~~\nNarrative:\n\nNarrative Time~Narrative\n10/20/11 22:55:55~yes blocking\\n10/20/11 22:56:06~yes smoking\n10/20/11 22:56:08~yes leaking\n10/20/11 22:56:17~silver Toyota\n10/20/11 22:56:42~gry car\n10/20/11 22:56:48~in the bank lot\n10/20/11 22:56:56~no overturned\n10/20/11 22:57:14~c/o saw this happen\n10/20/11 22:57:56~he was not ivolved though\n10/20/11 22:58:03~inv\n10/20/11 22:57:00~Call #: 4328 - 2 veh acc\n10/20/11 22:57:05~Call #: 4328 - blocking entire roadway\n10/20/11 22:57:14~Call #: 4328 - both vehs are sedans\n10/20/11 22:57:30~Call #: 4328 - no smoking\n10/20/11 22:57:38~Call #: 4328 - possible leaking\n10/20/11 22:58:37~he spoke to the people and they do not need EMS according to them\n10/20/11 22:59:54~Nature Of Call: Veh Leaking
-Rip and Run Report\nRip and Run Report\n\n~\nLocation Information:\n\nLocation:~~LEADER HEIGHTS~RD/~PINE GROVE~RD\nVenue:~YORK TWP\nCross Streets~\nQuadrant:~19-04\nDistrict:~19-04\n~\nCall Information:\n\nCall Number:~8218\nCall Type:~ DEBRIS REMOVAL\nSource:~DISPATCHED BY YORK COUNTY 911\nPriority:~ 4\nStatus:~IN PROGRESS\nAssigned To:~BACK UP CALL TAKER 2\nCaller:~Winemiller,~Robert\nCall Date/Time:~10/24/2011 19:36:59\nDispatch Date/Time:~10/24/2011 19:40:19\nArrive Date/Time:~\nClear Date/Time:~\nEnroute Date/Time:~\nLatest Unit Cleared Date/Time:~\n~\nIncident Number(s)\n2011-00001705~~GOODWILL FIRE COMPANY NO. 1 YORK TOWNSHIP\n2011-00025487~~YORK AREA REGIONAL POLICE DEPARTMENT\n~\nUnits Sent:~2\nFIRESTA19, 21-81~\n\nAlerts:\n~\nLocation Alerts\n\nPerson Alerts\n\nVehicle Alerts\n~~\nNarrative:\n\nNarrative Time~Narrative\n10/24/11 19:38:09~no ot\n10/24/11 19:38:26~leaking fluids\n10/24/11 19:38:29~antifreeze\n10/24/11 19:38:45~no hazards\n10/24/11 19:39:10~both veh are blocking traffic\n10/24/11 19:39:19~in the middle of the intersection\n10/24/11 19:39:23~just occured\n10/24/11 19:39:43~veh 1: blue volzwagon passat\n10/24/11 19:39:50~veh 2: red dodge neon\n10/24/11 19:40:13~c/o has the blue veh\n10/24/11 19:40:32~Nature Of Call: fluids on roadway
-Rip and Run Report\nRip and Run Report\n\n~\nLocation Information:\n\nLocation:~2301~SPRINGWOOD~RD~\nVenue:~YORK TWP\nCross Streets~\nPAULINE DR / I 83 NB\nPhone:~(717) 741-2822\nQuadrant:~19-09\nDistrict:~19-09\n~\nCall Information:\n\nCall Number:~9986\nCall Type:~ FALLS CL 2\nSource:~DISPATCHED BY YORK COUNTY 911\nPriority:~ 4\nStatus:~IN PROGRESS\nAssigned To:~CALL TAKER 7\nCaller:~OnCall#Faith,~Acadian\nCall Date/Time:~10/26/2011 16:10:53\nDispatch Date/Time:~10/26/2011 16:14:53\nArrive Date/Time:~10/26/2011 16:19:44\nClear Date/Time:~\nEnroute Date/Time:~10/26/2011 16:17:09\nLatest Unit Cleared Date/Time:~10/26/2011 16:17:04\n~\nIncident Number(s)\n2011-00001710~~GOODWILL FIRE COMPANY NO. 1 YORK TOWNSHIP\n2011-00003105~~YOE FIRE CO AMBULANCE INC\n2011-00003067~~YOE FIRE COMPANY AMBULANCE SERVICE\n2011-00025631~~YORK AREA REGIONAL POLICE DEPARTMENT\n~\nUnits Sent:~5\nMICU19-2, MICU36-2, EMSSTA19, FIRESTA19, 21-89~\n\nAlerts:\n~\nLocation Alerts\n\nPerson Alerts\n\nVehicle Alerts\n~~\nNarrative:\n\nNarrative Time~Narrative\n10/26/11 16:12:49~Problem: fall-bleed from face.  Patient Info: 1 patient(s); 91 Years old; Female; Conscious: Yes; Breathing: Yes;\n10/26/11 16:12:49~ProQA Dispatch Message Sent; Chief Complaint Number: 17; Dispatch Level: 17B01; Response Text: Bravo\n10/26/11 16:12:56~no hosp preference\n10/26/11 16:13:16~lockbox on the side door-code for lock box is 2628 for key locatio\n10/26/11 16:13:27~Nature Of Call: 91 yof/\n10/26/11 16:13:35~ProQA Questionnaire Completed; Chief Complaint Number: 17; Dispatch Level: 17B01; Response Text: Bravo\n10/26/11 16:13:35~Problem: fall-bleed from face.  Patient Info: 1 patient(s); 91 Years old; Female; Conscious: Yes; Breathing: Yes;\n10/26/11 16:13:37~Nature Of Call: 91 yof/unkn dest\n10/26/11 16:32:01~Nature Of Call: Non emergency for lift assist
 ***************************************************************************
 York County, PA (PAYorkCountyCParser)
 (Station 68) : 203 LOCUST DR \n  FAIRVIEW TWP\n  \nLONGVIEW AVE / PLEASANT VIEW RD\nDistrict: 68-02\n\n    FIRE STRUCT RESID\nUnits Sent: 2\nFIRESTA68, 52-03
@@ -4482,217 +4491,6 @@ Sender: arns@shelby911.org
 1 of 2\nFRM:arns@shelby911.org\nSUBJ:SHELBY911 ARNS ALERT\nMSG:\r\n6/3/2012 4:23:11 PM\r\nFIRE1209430\r\nCAH_VALY - MAID181\r\nMVC-CHECK_INJURIES\r\n\r\n   @\n(Con't) 2 of 2\nCAHABA VALLEY RD / LEGACY DR\r\n\r\nAT&T MOBILITY(End)
 **********************************************************
 **********************************************************
-Gaston County, NC? (alternate)
-Contact: Stephen Wilkinson <smwilkin61@gmail.com>
-Same as York County
-
-From: sqlinfo@cityofgastonia.com[SMTP:SQLINFO@CITYOFGASTONIA.COM]
-Sent: Monday, June 04, 2012 11:32:16 PM
-To: NWSAdmin
-Subject: Rip and Run Report
-Auto forwarded by a Rule
-
-Rip and Run Report
-
-~
-Location Information:
-
-Location:~2912~CLONINGER~RD~
-Venue:~COUNTY
-Cross Streets~
-NIXON SMITH RD / COLT THORNBURG RD
-Phone:~(980) 329-2486
-Station:~Station 61
-Quadrant:~61C
-District:~1DR2
-~
-Call Information:
-
-Call Number:~4631
-Call Type:~ 29D4
-Source:~911 Call
-Priority:~ 1
-Status:~In Progress
-Assigned To:~Position 15 Call Taking
-Caller:~HUGGINS,~JAY
-Call Date/Time:~06/04/2012 22:58:17
-Dispatch Date/Time:~06/04/2012 22:59:36
-Arrive Date/Time:~06/04/2012 23:07:11
-Clear Date/Time:~
-Enroute Date/Time:~06/04/2012 23:00:45
-Latest Unit Cleared Date/Time:~06/04/2012 23:32:10
-~
-Incident Number(s)
-2012-00000196~~AG Center Fire Dept.
-2012-00001324~~Gaston Co. 9-1-1
-2012-00011250~~Gaston Emergency Medical Services
-2012-00014963~~Rescue Squads Gaston Co
-~
-Units Sent:~10
-E40A, NCSHP, RS619, CAR61, EN611, D189, D186, D180, SP173, E43P~
-
-Alerts:
-~
-Location Alerts
-
-Person Alerts
-
-Vehicle Alerts
-~~
-Narrative:
-
-Narrative Time~Narrative
-06/04/12 22:58:43~New ProQA Case Number has been assigned: 4988669
-06/04/12 22:59:04~CAR HIT A TREE AND THEY ARE PINNED IN
-06/04/12 23:00:50~20 year old, Female, Conscious, Breathing.  Traffic /
-Transportation Incidents.  Caller Statement: MVA.  1.The incident involves
-a single vehicle.
-06/04/12 23:00:50~ProQA Questionnaire Aborted; Chief Complaint Number: 29 -
-DUP CALL
-06/04/12 23:00:50~Problem: MVA.  Patient Info: 1 patient(s); 20 Years old;
-Female; Conscious: Yes; Breathing: Yes;
-06/04/12 23:03:33~20 year old, Female, Conscious, Breathing.  Traffic /
-Transportation Incidents.  Caller Statement: MV.  1.The incident involves a
-single vehicle.
-06/04/12 23:03:33~An Error occurred in ProQA; Chief Complaint Number: 29 -
-CASE ALREADY ON FILE.
-06/04/12 23:03:33~per 6102 resend again
-06/04/12 23:03:36~Problem: MVA.  Patient Info: 1 patient(s); 20 Years old;
-Female; Conscious: Yes; Breathing: Yes;
-06/04/12 23:03:36~ProQA Dispatch Message Sent; Chief Complaint Number: 29;
-Dispatch Level: 29B01; Response Text: Bravo - CASE ALREADY ON FILE.
-06/04/12 23:03:36~20 year old, Female, Conscious, Breathing.  Traffic /
-Transportation Incidents.  Injuries.  Caller Statement: MV.  1.The incident
-involves a single vehicle.  2.Chemicals or other hazards are not involved.
- 3.There is no one pinned.  4.No one was thrown from the vehicle.
- 5.Everyone appears to be completely awake (alert).  6.Her injuries are
-described as other than to a NOT DANGEROUS area.  7.There is no bleeding
-now.
-06/04/12 23:03:54~20 year old, Female, Conscious, Breathing.  Traffic /
-Transportation Incidents.  Injuries.  Caller Statement: MV.  1.The incident
-involves a single vehicle.  2.Chemicals or other hazards are not involved.
- 3.There is no one pinned.  4.No one was thrown from the vehicle.
- 5.Everyone appears to be completely awake (alert).  6.Her injuries are
-described as other than to a NOT DANGEROUS area.  7.There is no bleeding
-now.
-06/04/12 23:03:54~Problem: MVA.  Patient Info: 1 patient(s); 20 Years old;
-Female; Conscious: Yes; Breathing: Yes;
-06/04/12 23:03:54~ProQA Questionnaire Completed; Chief Complaint Number:
-29; Dispatch Level: 29B01; Response Text: Bravo - CASE ALREADY ON FILE.
-06/04/12 23:04:00~20 year old, Female, Conscious, Breathing.  Traffic /
-Transportation Incidents.  Injuries.  Caller Statement: MV.
-06/04/12 23:04:00~An Error occurred in ProQA; Chief Complaint Number: 29 -
-CASE ALREADY ON FILE.
-06/04/12 23:04:02~20 year old, Female, Conscious, Breathing.  Traffic /
-Transportation Incidents.  Injuries.  Caller Statement: MV.
-06/04/12 23:04:02~ProQA Questionnaire Completed; Chief Complaint Number: 29
-- CASE ALREADY ON FILE.
-06/04/12 23:04:48~SP173 CLEARED FROM HOSPITAL AND WERE DISPATCHED...D186
-ADV THEY WERE AVAILABLE W/O A MDT..D186 WILL HANDLE
-06/04/12 23:06:01~6106 on scene
-06/04/12 23:06:29~1 car mod damage not a pin in per 6106
-06/04/12 23:14:58~female pt in spinal now, any further ems can 10-22 per
-e40a
-06/04/12 23:22:57~88 gmh
-
------------------------------------------------------------------
-From: sqlinfo@cityofgastonia.com[SMTP:SQLINFO@CITYOFGASTONIA.COM]
-Sent: Monday, June 04, 2012 10:59:40 PM
-To: NWSAdmin
-Subject: Rip and Run Report
-Auto forwarded by a Rule
-
-Rip and Run Report
-
-~
-Location Information:
-
-Location:~2912~CLONINGER~RD~
-Venue:~COUNTY
-Cross Streets~
-NIXON SMITH RD / COLT THORNBURG RD
-Phone:~(980) 329-2486
-Station:~Station 61
-Quadrant:~61C
-District:~1DR2
-~
-Call Information:
-
-Call Number:~4631
-Call Type:~ Veh Acc-PI
-Source:~911 Call
-Priority:~ 1
-Status:~Just Occurred
-Assigned To:~Position 15 Call Taking
-Caller:~HUGGINS,~JAY
-Call Date/Time:~06/04/2012 22:58:17
-Dispatch Date/Time:~06/04/2012 22:59:36
-Arrive Date/Time:~
-Clear Date/Time:~
-Enroute Date/Time:~
-Latest Unit Cleared Date/Time:~
-~
-Incident Number(s)
-2012-00000196~~AG Center Fire Dept.
-~
-Units Sent:~1
-EN611~
-
-Alerts:
-~
-Location Alerts
-
-Person Alerts
-
-Vehicle Alerts
-~~
-Narrative:
-
-Narrative Time~Narrative
-06/04/12 22:58:43~New ProQA Case Number has been assigned: 4988669
-06/04/12 22:59:04~CAR HIT A TREE AND THEY ARE PINNED IN
-------------------------------------------------------------------------------------------------
-From: sqlinfo@cityofgastonia.com[SMTP:SQLINFO@CITYOFGASTONIA.COM]
-Sent: Monday, June 04, 2012 6:54:49 PM
-To: NWSAdmin
-Subject: Rip and Run Report
-Auto forwarded by a Rule
-
-Rip and Run Report
-
-~
-Location Information:
-
-Location:~~COSTNER SCHOOL~RD/~JOE CLONINGER~RD
-Venue:~COUNTY
-Cross Streets~
-Phone:~(704) 675-0268
-Station:~Station 61
-Quadrant:~61A
-District:~1DR1
-~
-Call Information:
-
-Call Number:~4397
-Call Type:~ 29B1
-Source:~911 Call
-Priority:~ 3
-Status:~In Progress
-Assigned To:~Position 15 Call Taking
-Caller:~jenna
-Call Date/Time:~06/04/2012 18:11:05
-Dispatch Date/Time:~06/04/2012 18:15:41
-Arrive Date/Time:~06/04/2012 18:22:29
-Clear Date/Time:~
-Enroute Date/Time:~06/04/2012 18:16:26
-Latest Unit Cleared Date/Time:~06/04/2012 18:54:44
-~
-Incident Number(s)
-2012-00000195~~AG Center Fire Dept.
-2012-00001323~~Gaston Co. 9-1-1
-2012-00011231~~Gaston Emergency Medical Services
-2012-00014936~~Rescue Squads Gaston Co
-2012-00000112~~Tryon Fire Dept.
 **********************************************************
 Unknown
 Contact: Doug Bickerstaff <d.bickerstaff@northmeckrescue.org>
@@ -4931,14 +4729,8 @@ DELTA DETERMINATE DIABETIC PROBLEM, 17 ARBOR DR -29
 **********************************************************
 **********************************************************
 **********************************************************
-Hartford County, MD
-https://www.active911.com/interface/parser_report.php?key=328-xtLLh
 **********************************************************
-Nightwatch security, Statten Island, NY
-https://www.active911.com/interface/parser_report.php?key=561-KUqet
 **********************************************************
-Nooksville, VDF
-https://www.active911.com/interface/parser_report.php?key=633-tmmkx
 **********************************************************
 Jasper County, MO (alternate)
 Contact: support@active911.com
