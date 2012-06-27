@@ -9,6 +9,12 @@ public class MessageTest {
   @Test
   public void testParseInfo() {
     
+    doParseTest("PAJeffersonCounty",
+        "prvs=0518956c10=dispatch@ <dispatch@jeffersoncountypa.com> jeffersoncountypa.com <dispatch@jeffersoncountypa.com> (Incident) Fire - Alarm 251 S PENN STREET EXT Punxsutawney DEAD END / CLIFF ST 20-A Snyder Hill",
+        "dispatch@jeffersoncountypa.com",
+        "Incident",
+        "Fire - Alarm 251 S PENN STREET EXT Punxsutawney DEAD END / CLIFF ST 20-A Snyder Hill");
+    
     doParseTest("NCOrangeCounty",
         "0001/0002 cadpage@orangeem.org Subject:CAD Page for CFS 062512-155\nRECD: 11:14:46\nTG: OPS 2\nINC: Auto Fire Alarm\nLOC: 555 W CAMERON AVE\n",
         "cadpage@orangeem.org",
