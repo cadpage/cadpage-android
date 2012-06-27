@@ -137,6 +137,26 @@ public class MDPrinceGeorgesCountyEParserTest extends BaseParserTest {
         "MAP:5410 J 2",
         "INFO:EMSDO REAR ENDED BY A VEHICLE ON THE BELTWAY WHILE SHE WAS RESPONDING TO PGTC....UNABLE TO GET A DESCRIPTION OF THE STRIKING VEHICLE....PROPERTY DAMAGE ONLY",
         "UNIT:BO886,E835,EMSDO,NSO,SO8 00");
+
+    doTest("T10",
+        "F121790236: Brush Fire, 8310 ANNAPOLIS RD, PP, btwn RIVERDALE RD and 85TH AVE, TGA2, 2831, Unit:E828",
+        "ID:F121790236",
+        "CALL:Brush Fire",
+        "ADDR:8310 ANNAPOLIS RD",
+        "X:RIVERDALE RD and 85TH AVE",
+        "CH:TGA2",
+        "BOX:2831",
+        "UNIT:E828");
+
+    doTest("T11",
+        "F121790235: BLS Amb, TIPICOS LAS AMERICAS, PP, at 9452 LANHAM SEVERN RD, PP, TGA2, 4816, Unit:A848",
+        "ID:F121790235",
+        "CALL:BLS Amb",
+        "PLACE:TIPICOS LAS AMERICAS",
+        "ADDR:9452 LANHAM SEVERN RD",
+        "CH:TGA2",
+        "BOX:4816",
+        "UNIT:A848");
  
   }
   
