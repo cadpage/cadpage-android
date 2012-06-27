@@ -22,6 +22,8 @@ STREET, Street Alarm, 3745 WILKINSON DR, PP, btwn CHERRY DR and PARK BLVD, SUITL
 (CAD Feed) PIAH, PIA Limited Access, SB CAP BELT IL A HWY/SB BALTIMORE WASHINGTON PKY SB, PP, at SB CAP BELT IL A HWY/SB BALTIMORE WASHINGTON PKY SB, PP, TGB3, 3516, 5410 J 2, COMPL ADV 2 CAR ACC BROWN MITSUBISHI VS GIANT FOOD TRACTOR TRAILER, UNK INJ, FEM MAY NEED AMBO. WILL NOTF MSP, Units:A830, E828 - From FED03 06/15/2012 00:59:09
 ALS1, Medic Local, 7321 SPLIT RAIL LN, LP, btwn MILL CREEK CT and DORSET RD, LAUREL,MD, TGA2, 1013, 5168 K 3, Medical ProQA recommends dispatch at this time, Units:A724, E810C, HMD06 - From FED01 06/15/2012 13:11:28
 DEPFD, Departmental Acci, SB CAP BELT IL A HWY/NB BALTIMORE WASHINGTON PKY NB, PP, at SB CAP BELT IL A HWY/NB BALTIMORE WASHINGTON PKY NB, PP, TGA2, 3520, 5410 J 2, EMSDO REAR ENDED BY A VEHICLE ON THE BELTWAY WHILE SHE WAS RESPONDING TO PGTC....UNABLE TO GET A DESCRIPTION OF THE STRIKING VEHICLE....PROPERTY DAMAGE ONLY, Units:BO886, E835, EMSDO, NSO, SO8 00
+F121790236: Brush Fire, 8310 ANNAPOLIS RD, PP, btwn RIVERDALE RD and 85TH AVE, TGA2, 2831, Unit:E828
+F121790235: BLS Amb, TIPICOS LAS AMERICAS, PP, at 9452 LANHAM SEVERN RD, PP, TGA2, 4816, Unit:A848
 
 Contact: Active911
 [CAD Feed] STREET, Street Alarm, 9001 MCHUGH DR, PP, btwn END and CAMPUS WAY N, TA11, 0616, 5531 D 3, ODOR OF ELECTRICAL BURNING IN THE STORE, Units:BO881, E833, E837, QT838, TK828\n
@@ -62,12 +64,13 @@ Contact: Active911
 
 public class MDPrinceGeorgesCountyEParser extends FieldProgramParser {
   
+  private static final Pattern ID_PTN = Pattern.compile("^(F\\d{6,}):");
   private static final Pattern TRAILER = Pattern.compile(" - From [A-Z0-9]+ (\\d\\d/\\d\\d/\\d{4}) (\\d\\d:\\d\\d:\\d\\d)$");
   private static final Pattern AT_PTN = Pattern.compile("\\bAT\\b", Pattern.CASE_INSENSITIVE);
   
   public MDPrinceGeorgesCountyEParser() {
     super("PRINCE GEORGES COUNTY", "MD",
-           "CODE CALL ADDR PP? AT? X? PP2? ( CITY ST CH | CITY CH | CH! ) BOX MAP INFO+ Units:UNIT% UNIT+");
+           "CODE? CALL ADDR PP? AT? X? PP2? ( CITY ST CH | CITY CH | CH! ) BOX MAP INFO+ Units:UNIT% UNIT+");
   }
   
   @Override
@@ -78,10 +81,15 @@ public class MDPrinceGeorgesCountyEParser extends FieldProgramParser {
   @Override
   public boolean parseMsg(String body, Data data) {
     
+    Matcher match = ID_PTN.matcher(body);
+    if (match.find()) {
+      data.strCallId = match.group(1);
+      body = body.substring(match.end()).trim();
+    }
     int pt = body.indexOf('\n');
     if (pt >= 0) body = body.substring(0,pt).trim();
     
-    Matcher match = TRAILER.matcher(body);
+    match = TRAILER.matcher(body);
     if (match.find()) {
       data.strDate = match.group(1);
       data.strTime = match.group(2);
@@ -103,7 +111,7 @@ public class MDPrinceGeorgesCountyEParser extends FieldProgramParser {
   
   @Override
   public String getProgram() {
-    return super.getProgram() + " DATE TIME";
+    return "ID " + super.getProgram() + " DATE TIME";
   }
   
   private class MyAddressField extends AddressField {
@@ -159,6 +167,7 @@ public class MDPrinceGeorgesCountyEParser extends FieldProgramParser {
   
   @Override
   public Field getField(String name) {
+    if (name.equals("CODE")) return new CodeField("[A-Z]+\\d?");
     if (name.equals("ADDR")) return new MyAddressField();
     if (name.equals("PP")) return new SkipField("[A-Z]{1,2}|", true);
     if (name.equals("AT")) return new AtField();
