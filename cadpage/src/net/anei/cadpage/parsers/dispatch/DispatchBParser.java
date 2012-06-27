@@ -418,6 +418,7 @@ public class DispatchBParser extends SmartAddressParser {
         "HGH LIFE HZD ALRM GEN",
         "ILL PERSON",
         "ILLPERSON",
+        "ILL PERSON BLS",
         "IMMEDIATE TRANSPORT",
         "LIFT ASSIST/NON EMER EMS",
         "MVA-ALS PRI1",
