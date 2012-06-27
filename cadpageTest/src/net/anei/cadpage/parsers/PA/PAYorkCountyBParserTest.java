@@ -24,7 +24,7 @@ public class PAYorkCountyBParserTest extends BaseParserTest {
         "PRI:4",
         "NAME:Starner, Jeff",
         "DATE:10/20/2011",
-        "TIME:22:55:13",
+        "TIME:22:59:13",
         "UNIT:FIRESTA19, 21-79",
         "INFO:yes blocking\\ / yes smoking / yes leaking / silver Toyota / gry car / in the bank lot / no overturned / c/o saw this happen / he was not ivolved though / inv / Call #: 4328 - 2 veh acc / Call #: 4328 - blocking entire roadway / Call #: 4328 - both vehs are sedans / Call #: 4328 - no smoking / Call #: 4328 - possible leaking / he spoke to the people and they do not need EMS according to them / Nature Of Call: Veh Leaking");
 
@@ -38,7 +38,7 @@ public class PAYorkCountyBParserTest extends BaseParserTest {
         "PRI:4",
         "NAME:Winemiller, Robert",
         "DATE:10/24/2011",
-        "TIME:19:36:59",
+        "TIME:19:40:19",
         "UNIT:FIRESTA19, 21-81",
         "INFO:no ot / leaking fluids / antifreeze / no hazards / both veh are blocking traffic / in the middle of the intersection / just occured / veh 1: blue volzwagon passat / veh 2: red dodge neon / c/o has the blue veh / Nature Of Call: fluids on roadway");
 
@@ -47,13 +47,14 @@ public class PAYorkCountyBParserTest extends BaseParserTest {
         "ADDR:2301 SPRINGWOOD RD",
         "CITY:YORK TWP",
         "X:PAULINE DR / I 83 NB",
+        "PHONE:(717) 741-2822",
         "MAP:19-09",
         "ID:9986",
         "CALL:FALLS CL 2",
         "PRI:4",
         "NAME:OnCall#Faith, Acadian",
         "DATE:10/26/2011",
-        "TIME:16:10:53",
+        "TIME:16:14:53",
         "UNIT:MICU19-2, MICU36-2, EMSSTA19, FIRESTA19, 21-89",
         "INFO:Problem: fall-bleed from face.\\2sPatient Info: 1 patient(s); 91 Years old; Female; Conscious: Yes; Breathing: Yes; / ProQA Dispatch Message Sent; Chief Complaint Number: 17; Dispatch Level: 17B01; Response Text: Bravo / no hosp preference / lockbox on the side door-code for lock box is 2628 for key locatio / Nature Of Call: 91 yof/ / ProQA Questionnaire Completed; Chief Complaint Number: 17; Dispatch Level: 17B01; Response Text: Bravo / Problem: fall-bleed from face.\\2sPatient Info: 1 patient(s); 91 Years old; Female; Conscious: Yes; Breathing: Yes; / Nature Of Call: 91 yof/unkn dest / Nature Of Call: Non emergency for lift assist");
 
@@ -62,13 +63,14 @@ public class PAYorkCountyBParserTest extends BaseParserTest {
         "ADDR:3175 CAPE HORN RD",
         "CITY:WINDSOR TWP",
         "X:LOMBARD RD / KIRKLAND DR",
+        "PHONE:(717) 246-7137",
         "MAP:36-403",
         "ID:381",
         "CALL:FIRE AFA HIGH RISK",
         "PRI:4",
         "NAME:#218, Giant",
         "DATE:10/26/2011",
-        "TIME:23:15:42",
+        "TIME:23:17:33",
         "UNIT:FIRESTA36, T36, R36, E35-2, TK34, TK19",
         "INFO:fire panel alarm / no contact with premise / will att to notify / Nature Of Call: fire panel alarm");
 
@@ -83,7 +85,7 @@ public class PAYorkCountyBParserTest extends BaseParserTest {
         "PRI:3",
         "NAME:Ottinger, James",
         "DATE:10/26/2011",
-        "TIME:14:18:58",
+        "TIME:14:22:08",
         "UNIT:FIRESTA34, T36, E35-2, TK34, E34, TK19",
         "INFO:AutoZone / gas leak inside / buiding is evacuated / columbia gas on location at this time requesting FD Response / Nature Of Call: Gas Leak/ Building Evacuated / caller works for autozone");
 
@@ -92,13 +94,14 @@ public class PAYorkCountyBParserTest extends BaseParserTest {
         "ADDR:150 FARM LN",
         "CITY:YORK TWP",
         "X:CRESTVIEW DR / S QUEEN ST",
+        "PHONE:(717) 846-7151",
         "MAP:19-02",
         "ID:2717",
         "CALL:FIRE AFA HIGH RISK",
         "PRI:4",
         "NAME:System, Blazer, Security",
         "DATE:10/29/2011",
-        "TIME:08:39:44",
+        "TIME:08:41:45",
         "UNIT:FIRESTA19",
         "INFO:Susquehanna Civil Incorporated is the company / Operator Joyce / 1st fl smoke sensor / unk structure / c/o provided the company name / Nature Of Call: 1st fl smoke sensor");
 
@@ -113,7 +116,7 @@ public class PAYorkCountyBParserTest extends BaseParserTest {
         "PRI:2",
         "NAME:Hall, Nancy",
         "DATE:10/29/2011",
-        "TIME:10:33:33",
+        "TIME:10:39:46",
         "UNIT:MICU18, EMSSTA19, FIRESTA19",
         "INFO:74 yoa male collapsed on ground +conscious +breathing -alert / breathing is abnormal / chest feels rigid / PROQA wll not fire / CAD crashed during questioning / c/o adv now no breathing and no pulse / beginning CPR instructions / PD REQING TO KNOW IF SOMEONE IS WITH PT / DISREGARD / Nature Of Call: 74 M / CPR started");
 
@@ -127,7 +130,7 @@ public class PAYorkCountyBParserTest extends BaseParserTest {
         "PRI:4",
         "NAME:Ed, Met",
         "DATE:10/29/2011",
-        "TIME:14:32:44",
+        "TIME:14:42:14",
         "UNIT:FIRESTA19",
         "INFO:c/o req to have the road barracaded due to tree's falling along Powder Mill Rd / btwn Tyler Run and Powder Mill and also George/Manor / Nature Of Call: shut down road for trees down");
 
@@ -142,7 +145,7 @@ public class PAYorkCountyBParserTest extends BaseParserTest {
         "PRI:2",
         "NAME:McAltin, Rebecca",
         "DATE:10/29/2011",
-        "TIME:18:13:37",
+        "TIME:18:17:01",
         "UNIT:MICU18, MICU19-2, EMSSTA19, EMSSTA18, FIRESTA19",
         "INFO:travelling SB / Just north of the Leader Heights exit / smoking / off to side of road / ProQA Dispatch Message Sent; Chief Complaint Number: 29; Dispatch Level: 29B01; Response Text: Bravo / Problem: vehicle accident.\\2sPatient Info: 1 patient(s); 36 Years old; Female; Conscious: Yes; Breathing: Yes; / Nature Of Call: SB N of the exit/Veh smoking / Problem: vehicle accident.\\2sPatient Info: 1 patient(s); 36 Years old; Female; Conscious: Yes; Breathing: Yes; / ProQA Questionnaire Completed; Chief Complaint Number: 29; Dispatch Level: 29B01; Response Text: Bravo / Nature Of Call: SB N of the exit/Veh smoking/36F/Cons / veh Silver Dodge Caravan vs. dark SUV / not blocking, Silver dodge on left side / SUV on right side");
 
@@ -157,7 +160,7 @@ public class PAYorkCountyBParserTest extends BaseParserTest {
         "PRI:4",
         "NAME:Martini, Jack",
         "DATE:10/29/2011",
-        "TIME:18:59:43",
+        "TIME:19:03:50",
         "UNIT:FIRESTA19",
         "INFO:c/o wants someone check on son because there is no electricity and adv they are not able to leave the home due to tree fell across the door / home is right by Channel 43 / no one is inj / c/o wants someone to assist them in getting out of the home / c/o was not able to vfy the municipality / Nature Of Call: Tree down across Porch/can not get of house");
 
@@ -172,7 +175,7 @@ public class PAYorkCountyBParserTest extends BaseParserTest {
         "PRI:4",
         "NAME:Robinson, John",
         "DATE:10/29/2011",
-        "TIME:20:27:54",
+        "TIME:20:32:12",
         "UNIT:FIRESTA892, E19",
         "INFO:c/o adv that they have wires sparking in the front yard / not threatening home but near tree branches / c/o does not have power / do not see flames / wires are not down, they are sparking in the air / Nature Of Call: odor of gas outside / Nature Of Call: wires sparking");
 
@@ -226,7 +229,7 @@ public class PAYorkCountyBParserTest extends BaseParserTest {
         "PRI:2",
         "NAME:Himmelright, Christine",
         "DATE:02/26/2012",
-        "TIME:17:42:25",
+        "TIME:17:44:07",
         "UNIT:FIRESTA19",
         "INFO:In the medium of the road smoke and flames");
 
@@ -286,13 +289,14 @@ public class PAYorkCountyBParserTest extends BaseParserTest {
         "ADDR:25 MONUMENT RD",
         "CITY:YORK TWP",
         "X:S GEORGE ST",
+        "PHONE:(717) 851-2604",
         "MAP:19-05",
         "ID:4561",
         "CALL:FIRE AFA FALSE",
         "PRI:4",
         "NAME:Kevin, Simplex",
         "DATE:02/27/2012",
-        "TIME:11:24:29",
+        "TIME:11:26:16",
         "UNIT:FIRESTA19, 21-66",
         "INFO:unk location, general fire / will att premsis, will att keyholders / disp adv'd to hold on have someone calling in / spoke to Barbra stated false alarm, unk reason, all isok / still did not have a location / Nature Of Call: general alm / Barbara Hess on scene saying sprinkler system was beingrehooked up and that is why it went off / nNO EMERGENCY / Nature Of Call: general alm /reconnected sprinkler system");
 
@@ -355,13 +359,14 @@ public class PAYorkCountyBParserTest extends BaseParserTest {
         "ADDR:887 DELTA RD",
         "CITY:WINDSOR TWP",
         "X:BAHNS MILL RD / BURKHOLDER RD",
+        "PHONE:(717) 246-5500",
         "MAP:34-401",
         "ID:5361",
         "CALL:FIRE AFA HIGH RISK",
         "PRI:4",
         "NAME:#96538, Advantage",
         "DATE:03/08/2012",
-        "TIME:19:19:22",
+        "TIME:19:21:17",
         "UNIT:FIRESTA34, E37-1, T36, TK34, E34, TK19, 21-89",
         "INFO:alarm from zone 2 and radio back up / audible alarm / attempting premise and keyholders / unknown structure type / Nature Of Call: zone 2");
 
