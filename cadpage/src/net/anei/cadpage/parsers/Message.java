@@ -98,7 +98,8 @@ public class Message {
     Pattern.compile("^(?:([\\w\\.]+@[\\w\\.]+) +)?Subject: *(.*)\n"),
     Pattern.compile("^(?:([^ ,;/]+) +)?S:(.*?)(?: +M:|\n)"), 
     Pattern.compile("^Fr:<(.*?)>?\nSu:(.*?)\nTxt: "),
-    Pattern.compile("^From: *(.*?)\n(?:\\[?mailto:.*]\n)?(?:Sent:.*\n)?(?:To:.*\n)?(?:Subject: (.*)\n)?")
+    Pattern.compile("^From: *(.*?)\n(?:\\[?mailto:.*]\n)?(?:Sent:.*\n)?(?:To:.*\n)?(?:Subject: (.*)\n)?"),
+    Pattern.compile("^prvs=[0-9a-f]{8,}=[\\w .<>@]*<([\\w.\\-]+@[\\w.]+)> *\\((.*?)\\)")
   };
   
   private void preParse(String fromAddress, String subject, String body) {
