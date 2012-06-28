@@ -44,6 +44,9 @@ public class SmartAddressParserTest extends BaseParserTest {
   @Test
   public void testProblems() {
     
+    doTest(ADDR, "4368 OLD HIGHWAY 71 SAGAMOUNT BIBLE CAMP",
+                 "ADDR:4368 OLD HIGHWAY 71");
+    
     doTest(ADDR, "22576 MACARTHUR BL SUITE 354",
            "ADDR:22576 MACARTHUR BL",
            "APT:354");
