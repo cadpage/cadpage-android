@@ -1359,7 +1359,8 @@ public abstract class SmartAddressParser extends MsgParser {
       // See if this is a numbered highway
       if (isType(start, ID_ROUTE_PFX)) {
         end = start + 1;
-        if (isType(start, ID_ROUTE_PFX_PFX) && isType(start+1, ID_ROUTE_PFX_EXT)) end++;
+        if (isType(start, ID_ROUTE_PFX_PFX) && isType(start+1, ID_ROUTE_PFX_EXT)) 
+             if (!tokens[start].equalsIgnoreCase("STATE") || !tokens[start+1].equals("RD")) end++;
         if (isType(end, ID_NUMBER | ID_ALPHA_ROUTE)) {
           
           // Yet another special case Texas FM number highways can be terminated
