@@ -72,7 +72,7 @@ public class VAPrinceWilliamCountyAParserTest extends BaseParserTest {
         "DATE:10/29/2010",
         "TIME:09:21:10",
         "CODE:UNC",
-        "CALL:Unconscious/Stop Breathing/CPR",
+        "CALL:Unconscious",
         "ADDR:18303 OLD TRIANGLE RD",
         "BOX:03R",
         "UNIT:E503B E523 M503 STA03R female screaming something is wrong w male in t he house .");

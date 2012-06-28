@@ -54,10 +54,11 @@ abstract class VAPrinceWilliamCountyBaseParser extends FieldProgramParser {
   }
   
   private static final Properties CALL_CODES = buildCodeTable(new String[]{
-    "ACCA",     "Motor Vehicle Accident/ALS/Trapped",
+    "ACCA",     "Motor Vehicle Accident/ALS",
     "ACCAIR",   "Aircraft Crash/Fire/Distress/Leak",
     "ACCX",     "Auto Accident with Entrapment",
     "ACCB",     "Motor Vehicle Accident/BLS",
+    "AIRHAZ",   "Aircraft Hazard",
     "APPA",     "Appliance Fire in an Apartment",
     "APPH",     "Appliance Fire in an House",
     "APPT",     "Appliance Fire in an Townhouse",
@@ -83,17 +84,18 @@ abstract class VAPrinceWilliamCountyBaseParser extends FieldProgramParser {
     "CSPACE",   "Confined Space",
     "DROA",     "ALS - Drowning",
     "DROB",     "BLS - Drowning",
+    "ESERV",    "EMS Service Call",
     "ESERVICE", "BLS - EMS Service",
     "FALARM",   "Fire Alarm Sounding",
     "FOUT",     "Fire Reported Out",
+    "FSERV",    "Fire Service Call",
     "FSERVICE", "Fire Service",
     "HANGLE",   "High Angle Rescue",
     "HAZARD",   "Hazardous Situation",
     "HAZMAT",   "HazMat Incident",
     "HOUSE",    "House Fire",
     "INGASA",   "Inside Gas Leak Apartment",
-    "INGASC",   "Inside Gas Leak Commercial",
-    "INGASC",   "Building Collapse w/ Inside Gas Leak",
+    "INGASC",   "Inside Gas Leak Commercial Building",
     "INGASH",   "Inside Gas Leak Single Family Dwelling",
     "INGAST",   "Inside Gas Leak Townhouse",
     "INJA",     "ALS - Injury",
@@ -110,7 +112,7 @@ abstract class VAPrinceWilliamCountyBaseParser extends FieldProgramParser {
     "RIVRES",   "River Rescue",
     "SICA",     "ALS - Sickness",
     "SICB",     "BLS - Sickness",
-    "SMELL",    "Smell/Odor of Smoke",
+    "SMELL",    "Odor of Smoke",
     "STOP",     "Stoppage Of Breathing",
     "STRUCT",   "Structure Fire - All Types",
     "STRUCT-2", "Structure Fire - 2nd Alarm or Greater",
@@ -122,9 +124,8 @@ abstract class VAPrinceWilliamCountyBaseParser extends FieldProgramParser {
     "TRENCH",   "Trench Space",
     "TRUCK",    "Vehicle Fire (large vehicles)",
     "UALARM",   "Unknown Alarm Sounding",
-    "UNC",      "Unconscious/Stop Breathing/CPR",
+    "UNC",      "Unconscious",
     "UNKSIT",   "Unknown Situation",
-    "VEH",      "Vehicle Fire (small vehicles)",
-
+    "VEH",      "Vehicle Fire (small vehicles)"
   });
 }
