@@ -24,6 +24,7 @@ public class SmartAddressParserTest extends BaseParserTest {
   private static final int FLAG_ONLY_CITY = SmartAddressParser.FLAG_ONLY_CITY;
   private static final int FLAG_ONLY_CROSS = SmartAddressParser.FLAG_ONLY_CROSS;
   private static final int FLAG_CROSS_FOLLOWS = SmartAddressParser.FLAG_CROSS_FOLLOWS;
+  private static final int FLAG_NO_IMPLIED_APT = SmartAddressParser.FLAG_NO_IMPLIED_APT;
   
   private static final String[] CITY_LIST = new String[]{"KENSBURG", "KEN TOWN"};
   private static final String DEF_CITY = "STATE OF MIND";
@@ -43,6 +44,9 @@ public class SmartAddressParserTest extends BaseParserTest {
   
   @Test
   public void testProblems() {
+    
+    doTest(ADDR, FLAG_NO_IMPLIED_APT, "9922 OLD STATE RD 90 YO FEMALE DIFF BREATHING",
+                 "ADDR:9922 OLD STATE RD");
     
     doTest(ADDR, "4368 OLD HIGHWAY 71 SAGAMOUNT BIBLE CAMP",
                  "ADDR:4368 OLD HIGHWAY 71");

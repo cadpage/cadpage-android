@@ -142,7 +142,7 @@ public class SmsMmsMessageTest extends BaseParserTest {
         "PRI:2",
         "NAME:Himmelright, Christine",
         "DATE:02/26/2012",
-        "TIME:17:42:25",
+        "TIME:17:44:07",
         "UNIT:FIRESTA19",
         "INFO:In the medium of the road smoke and flames");
     
