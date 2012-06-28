@@ -22,6 +22,10 @@ Contact: Justin Crom <cromj87@gmail.com>
 Sender: GRNPAGE@springfieldmo.gov
 TYP: FIRE ALARM AD: 400 W WALNUT LN CTY: WILLARD MAP: I-11 LOC: WILLARD CARE CENTER/742-3594 CN: 914 CMT1: FIRE ALARM ZONE 1 CMT2: Original Location : WILLAR
 
+Contact: Mark Hensley <marklrfire@gmail.com>
+Sender: GRNPAGE@springfieldmo.gov
+TYP: AUTO FIRE AD: E FR164&S SHJ CTY: GREENE COUNTY MAP: R-26 CN: VERIZON WIRELESS CMT1: ** STATION 1 ZONE ** CMT2: TRUCK ON FIRE TIME: 09:45 UNTS: GF/LRF
+
 Webster County, MO
 Contact: Mark Hensley <marklrfire@gmail.com>,Mh0356111@OTC.edu
 Sender: GRNPAGE@springfieldmo.gov
