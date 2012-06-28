@@ -211,6 +211,15 @@ public class CTWaterfordTownParserTest extends BaseParserTest {
         "PLACE:ATRIA CROSSROADS PLACE",
         "UNIT:CO4");
 
+    doTest("T4",
+        "  / 2012-023639* 155 WATERFORD PARKWAY NORTH* * * WATERFORD* * EMS ALS* AMBULANCE CALL - ALS* WALMART STORE* * CO4* * * * *\n",
+        "ID:2012-023639",
+        "ADDR:155 WATERFORD PARKWAY NORTH",
+        "CITY:WATERFORD",
+        "CALL:AMBULANCE CALL - ALS",
+        "NAME:WALMART STORE",
+        "UNIT:CO4");
+
   }
   
   public static void main(String[] args) {
