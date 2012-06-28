@@ -111,6 +111,17 @@ public class MOGreeneCountyParserTest extends BaseParserTest {
         "PLACE:WILLARD CARE CENTER/742-3594",
         "NAME:914",
         "INFO:FIRE ALARM ZONE 1 / Original Location : WILLAR");
+
+    doTest("T10",
+        "TYP: AUTO FIRE AD: E FR164&S SHJ CTY: GREENE COUNTY MAP: R-26 CN: VERIZON WIRELESS CMT1: ** STATION 1 ZONE ** CMT2: TRUCK ON FIRE TIME: 09:45 UNTS: GF/LRF",
+        "CALL:AUTO FIRE",
+        "ADDR:E FR164 & S SHJ",
+        "CITY:GREENE COUNTY",
+        "MAP:R-26",
+        "NAME:VERIZON WIRELESS",
+        "INFO:** STATION 1 ZONE ** / TRUCK ON FIRE",
+        "TIME:09:45",
+        "UNIT:GF/LRF");
   }
   
   @Test
