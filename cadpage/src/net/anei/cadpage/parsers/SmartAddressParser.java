@@ -1340,6 +1340,9 @@ public abstract class SmartAddressParser extends MsgParser {
     // If this starts with a street direction, skip over it
     if (isType(start, ID_DIRECTION)) start++;
     
+    // Ditto for a street prefix
+    if (isType(start, ID_OPT_ROAD_PFX)) start++;
+    
     // Dummy loop that we can break out of when we find a road end
     int end;
     do {
