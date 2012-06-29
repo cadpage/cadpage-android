@@ -13,74 +13,55 @@ public class GADadeCountyParserTest extends BaseParserTest {
   
   @Test
   public void testParser() {
+
     doTest("T1",
-        "DADE COUNTY 911:M10 >CHEST PAIN 367 GRAY RD XS: 224 FAWN DAWN DR. NEW SALEM KATY DILLS Map:10-D1,E1 Grids:0,0 Cad: 2011-0000000796",
-        "CALL:CHEST PAIN",
-        "ADDR:367 GRAY RD",
-        "X:224 FAWN DAWN DR",
-        "PLACE:NEW SALEM",
-        "NAME:KATY DILLS",
-        "MAP:10-D1,E1",
-        "ID:2011-0000000796");
-    
+        " 1 of 2\n" +
+        "FRM:E911@dadega.com\n" +
+        "SUBJ:!\n" +
+        "MSG:Brush, Grass, Field, Woods 220 HOOKER CEMETERY RD DEAD END / HWY 299 WILDWOOD     BRUSH FIRE ON BOTH SIDES\n" +
+        "(Con't) 2 of 2\n" +
+        "OF THE RAILRIAD TRACKS  06/26/12 20:35(End)",
+
+        "CALL:Brush, Grass, Field, Woods",
+        "ADDR:220 HOOKER CEMETERY RD",
+        "X:DEAD END / HWY 299",
+        "CITY:WILDWOOD",
+        "INFO:BRUSH FIRE ON BOTH SIDES OF THE RAILRIAD TRACKS",
+        "DATE:06/26/12",
+        "TIME:20:35");
+
     doTest("T2",
-        "DADE COUNTY 911:M26 >SICK PERSON 391 BIBLE GULF RD XS: 869 TATUM GULF RD OFF OLD STATE RD HEAD RIVER KEATON, GLENN Map:12-D2 Grids:0,0 Cad: 2011-0000000651",
-        "CALL:SICK PERSON",
-        "ADDR:391 BIBLE GULF RD",
-        "X:869 TATUM GULF RD OFF OLD STATE RD",
-        "PLACE:HEAD RIVER",
-        "NAME:KEATON, GLENN",
-        "MAP:12-D2",
-        "ID:2011-0000000651");
+        " 1 of 2\n" +
+        "FRM:E911@dadega.com\n" +
+        "SUBJ:!\n" +
+        "MSG:Convulsions/Seizures 93 MARCH LN DEAD END / HARRIS RD SLYGO     12 YOM, HAVING A SEIZURE, HISTORY OF\n" +
+        "(Con't) 2 of 2\n" +
+        "SEIZURE, HAS NOT COME  06/28/12 00:47(End)",
+
+        "CALL:Convulsions/Seizures",
+        "ADDR:93 MARCH LN",
+        "X:DEAD END / HARRIS RD",
+        "PLACE:SLYGO",
+        "CITY:TRENTON",
+        "INFO:12 YOM, HAVING A SEIZURE, HISTORY OF SEIZURE, HAS NOT COME",
+        "DATE:06/28/12",
+        "TIME:00:47");
 
     doTest("T3",
-        "DADE COUNTY 911:M5 >FALL - ANY 2862 YANKEE RD XS: HWY 157 S HEAD RIVER KEENER, CAROL Map:11,12 Grids:0,0 Cad: 2011-0000001152",
-        "CALL:FALL - ANY",
-        "ADDR:2862 YANKEE RD",
-        "X:HWY 157 S",
-        "PLACE:HEAD RIVER",
-        "NAME:KEENER, CAROL",
-        "MAP:11,12",
-        "ID:2011-0000001152");
-        
-    doTest("T4",
-        "DADE COUNTY 911:50PI >M.V.A. - POSSIBLE INJURIES 13500 HWY 136 E XS: N & S MOORE RD NEW SALEM ROBERTS, CHIP Map:6,15 Grids:0,0 Cad: 2011-0000000992",
-        "CALL:M.V.A. - POSSIBLE INJURIES",
-        "ADDR:13500 HWY 136 E",
-        "X:N & S MOORE RD",
-        "PLACE:NEW SALEM",
-        "NAME:ROBERTS, CHIP",
-        "MAP:6,15",
-        "ID:2011-0000000992");
-        
-    doTest("T5",
-        "DADE COUNTY 911:M1 >ABDOMINAL PAIN/PROBLEM 2321 OLD STATE RD XS: 16548 HWY 157 S HEAD RIVER CHAD LANIER Map:11,12 Grids:0,0 Cad: 2011-0000001270",
-        "CALL:ABDOMINAL PAIN/PROBLEM",
-        "ADDR:2321 OLD STATE RD",
-        "X:16548 HWY 157 S",
-        "PLACE:HEAD RIVER",
-        "NAME:CHAD LANIER",
-        "MAP:11,12",
-        "ID:2011-0000001270");
-        
-    doTest("T6",
-        "DADE COUNTY 911:78 >ASSISTANCE/ MUTUAL AID 84 RUSHING WATER TRL CHRISTY / WALKER Cad: 2011-0000001334",
-        "CALL:ASSISTANCE/ MUTUAL AID",
-        "ADDR:84 RUSHING WATER TRL",
-        "NAME:CHRISTY / WALKER",
-        "ID:2011-0000001334");
+        "FRM:E911@dadega.com\n" +
+        "SUBJ:!\n" +
+        "MSG:Fall 650 HWY 299 WILDWOOD    Pilot Travel Center #254 E911 Info - Class of Service: BUSN  06/29/12 08:32",
 
-    doTest("T7",
-        "DADE COUNTY 911:78 >ASSISTANCE/ MUTUAL AID 8376 HWY 157 S HEAD RIVER WALKER CO Cad: 2011-0000015531",
-        "CALL:ASSISTANCE/ MUTUAL AID",
-        "ADDR:8376 HWY 157 S",
-        "PLACE:HEAD RIVER",
-        "NAME:WALKER CO",
-        "ID:2011-0000015531");
-        
+        "CALL:Fall",
+        "ADDR:650 HWY 299",
+        "CITY:WILDWOOD",
+        "INFO:Pilot Travel Center #254 E911 Info - Class of Service: BUSN",
+        "DATE:06/29/12",
+        "TIME:08:32");
+
   }
   
   public static void main(String[] args) {
-    new GADadeCountyParserTest().generateTests("T7", "CALL ADDR X PLACE NAME ID");
+    new GADadeCountyParserTest().generateTests("T1", "CALL ADDR APT X PLACE CITY INFO DATE TIME");
   }
 }
