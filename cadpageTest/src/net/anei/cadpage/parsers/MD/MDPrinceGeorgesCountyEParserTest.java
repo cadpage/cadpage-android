@@ -198,6 +198,16 @@ public class MDPrinceGeorgesCountyEParserTest extends BaseParserTest {
         "CH:TGB3",
         "BOX:2020",
         "UNIT:A823,BO887,E845,MD845,SQ820");
+
+    doTest("T16",
+        "F121800373: Collapse, 1501 CABIN BRANCH DR, PP, btwn SAVAGE ST and COLUMBIA PARK RD, TGA7, 3808, Unit:TW810",
+        "ID:F121800373",
+        "CALL:Collapse",
+        "ADDR:1501 CABIN BRANCH DR",
+        "X:SAVAGE ST and COLUMBIA PARK RD",
+        "CH:TGA7",
+        "BOX:3808",
+        "UNIT:TW810");
  
   }
   
