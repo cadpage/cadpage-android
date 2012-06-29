@@ -157,6 +157,47 @@ public class MDPrinceGeorgesCountyEParserTest extends BaseParserTest {
         "CH:TGA2",
         "BOX:4816",
         "UNIT:A848");
+
+    doTest("T12",
+        "F121800211: Acc w/Inj, EB ANNAPOLIS RD BEFORE NB CAP BELT OL A HWY, PP,\\2s<0/ 0>, TGA2, 2806, Units:A830, TK828",
+        "ID:F121800211",
+        "CALL:Acc w/Inj",
+        "ADDR:EB ANNAPOLIS RD BEFORE NB CAP BELT OL A HWY",
+        "MADDR:ANNAPOLIS RD BEFORE CAPITAL BELTWAY",
+        "CITY:\\2s<0/ 0>",
+        "CH:TGA2",
+        "BOX:2806",
+        "UNIT:A830,TK828");
+
+    doTest("T13",
+        "F121800225: Medic Local, 8300 QUINTANA ST, PP, btwn END and 84TH AVE, TGA2, 2825, Units:A807, E828, MD818",
+        "ID:F121800225",
+        "CALL:Medic Local",
+        "ADDR:8300 QUINTANA ST",
+        "X:END and 84TH AVE",
+        "CH:TGA2",
+        "BOX:2825",
+        "UNIT:A807,E828,MD818");
+
+    doTest("T14",
+        "F121800232: Medic Local, 9206 5TH ST, PP, btwn MAIN ST and END, TGA2, 4809, Units:A848, MD830",
+        "ID:F121800232",
+        "CALL:Medic Local",
+        "ADDR:9206 5TH ST",
+        "X:MAIN ST and END",
+        "CH:TGA2",
+        "BOX:4809",
+        "UNIT:A848,MD830");
+
+    doTest("T15",
+        "F121800279: PIA w/Entrapment, EQUESTRIAN CENTER, PP, at 5651 WATER ST, PP, TGB3, 2020, Units:A823, BO887, E845, MD845, SQ820",
+        "ID:F121800279",
+        "CALL:PIA w/Entrapment",
+        "PLACE:EQUESTRIAN CENTER",
+        "ADDR:5651 WATER ST",
+        "CH:TGB3",
+        "BOX:2020",
+        "UNIT:A823,BO887,E845,MD845,SQ820");
  
   }
   
@@ -550,6 +591,123 @@ public class MDPrinceGeorgesCountyEParserTest extends BaseParserTest {
         "INFO:ANIMAL LOCKED INSIDE OF CAR",
         "UNIT:E828");
 
+  }
+  
+  @Test
+  public void testCodeMessaging() {
+
+    doTest("T1",
+        "[PG09] ALS1, Medic Local, 3521 54TH AVE #1, PP, btwn MACBETH ST and NEWTON ST, TGA2, 0916, 5530 B 1, Medical ProQA recommends dispatch at this time, Units:A830, E809B, PE830",
+        "CODE:ALS1",
+        "CALL:Medic Local",
+        "ADDR:3521 54TH AVE",
+        "APT:1",
+        "X:MACBETH ST and NEWTON ST",
+        "CH:TGA2",
+        "BOX:0916",
+        "MAP:5530 B 1",
+        "UNIT:A830,E809B,PE830");
+
+    doTest("T2",
+        "[PGWFD] F121510277: House Fire, 5311 LORRAINE DR, PP, btwn JOYCE DR and END, TGC3, 2931, Units:A827, EMSDO, MD829, SSO, WI",
+        "ID:F121510277",
+        "CALL:House Fire",
+        "ADDR:5311 LORRAINE DR",
+        "X:JOYCE DR and END",
+        "CH:TGC3",
+        "BOX:2931",
+        "UNIT:A827,EMSDO,MD829,SSO,WI");
+
+    doTest("T3",
+        "[BATT6] F121520221: House Gas Leak, 3713 GREEN ASH CT, PP, btwn GREEN ASH LN and END, TA11, 4101, Units:BO886, PE712, PE841, TK812, TK831",
+        "ID:F121520221",
+        "CALL:House Gas Leak",
+        "ADDR:3713 GREEN ASH CT",
+        "X:GREEN ASH LN and END",
+        "CH:TA11",
+        "BOX:4101",
+        "UNIT:BO886,PE712,PE841,TK812,TK831");
+
+    doTest("T4",
+        "[PGWFD] F121520220: Building Fire, 4221 BRANCH AVE, PP, btwn SB BRANCH AVE ONRP EB IVERSON ST and ST BARNABAS RD, TGC3, 2907, Units:A827, BO881, EMSDO, MD826, NSO, WI",
+        "ID:F121520220",
+        "CALL:Building Fire",
+        "ADDR:4221 BRANCH AVE",
+        "X:SB BRANCH AVE ONRP EB IVERSON ST and ST BARNABAS RD",
+        "CH:TGC3",
+        "BOX:2907",
+        "UNIT:A827,BO881,EMSDO,MD826,NSO,WI");
+
+    doTest("T5",
+        "[SAFE] F121520220: Building Fire, 4221 BRANCH AVE, PP, btwn SB BRANCH AVE ONRP EB IVERSON ST and ST BARNABAS RD, TGC3, 2907, Units:A827, BO881, EMSDO, MD826, NSO, WI",
+        "ID:F121520220",
+        "CALL:Building Fire",
+        "ADDR:4221 BRANCH AVE",
+        "X:SB BRANCH AVE ONRP EB IVERSON ST and ST BARNABAS RD",
+        "CH:TGC3",
+        "BOX:2907",
+        "UNIT:A827,BO881,EMSDO,MD826,NSO,WI");
+
+    doTest("T6",
+        "[PGWFD] F121520346: PIA w/Entrapment, 2254 HANNON ST, PP, btwn FORDHAM ST and 23RD AVE, TGB3, 3412, Unit:WI",
+        "ID:F121520346",
+        "CALL:PIA w/Entrapment",
+        "ADDR:2254 HANNON ST",
+        "X:FORDHAM ST and 23RD AVE",
+        "CH:TGB3",
+        "BOX:3412",
+        "UNIT:WI");
+
+    doTest("T7",
+        "[BATT4] F121530476: Street Alarm, 4108 CRITTENDEN ST, HP, btwn 40TH PL and RHODE ISLAND AVE, TA11, 5511, Units:BO884, E809B, E855, TK809, TW807",
+        "ID:F121530476",
+        "CALL:Street Alarm",
+        "ADDR:4108 CRITTENDEN ST",
+        "X:40TH PL and RHODE ISLAND AVE",
+        "CH:TA11",
+        "BOX:5511",
+        "UNIT:BO884,E809B,E855,TK809,TW807");
+
+    doTest("T8",
+        "[BATT6] F121540040: House Fire, 3307 MAJOR DENTON DR, PP, btwn CHERRY HILL RD and CHERRY HILL CT, TGA3, 4101, Units:BO886, E811B, E812B, E831, E834B, TK812, TK814, TW715",
+        "ID:F121540040",
+        "CALL:House Fire",
+        "ADDR:3307 MAJOR DENTON DR",
+        "X:CHERRY HILL RD and CHERRY HILL CT",
+        "CH:TGA3",
+        "BOX:4101",
+        "UNIT:BO886,E811B,E812B,E831,E834B,TK812,TK814,TW715");
+
+    doTest("T9",
+        "[BATT4] F121540061: PIA w/Entrapment, 9200 NEW HAMPSHIRE AVE, PP, btwn METZEROTT RD and END, TGB3, 3410, Units:A834, BO884, E834B, MD712, SQ814",
+        "ID:F121540061",
+        "CALL:PIA w/Entrapment",
+        "ADDR:9200 NEW HAMPSHIRE AVE",
+        "X:METZEROTT RD and END",
+        "CH:TGB3",
+        "BOX:3410",
+        "UNIT:A834,BO884,E834B,MD712,SQ814");
+
+    doTest("T10",
+        "[BATT6] F121540097: House Fire, 7525 LOCKMAN LN, PP, btwn CEDARHURST DR and LONGWOOD DR, TGA3, 3115, Units:BO886, E811B, E831, E849, PE841, TK812, TK814, TW810",
+        "ID:F121540097",
+        "CALL:House Fire",
+        "ADDR:7525 LOCKMAN LN",
+        "X:CEDARHURST DR and LONGWOOD DR",
+        "CH:TGA3",
+        "BOX:3115",
+        "UNIT:BO886,E811B,E831,E849,PE841,TK812,TK814,TW810");
+
+    doTest("T11",
+        "[SAFE] F121540252: Water Rescue, NATIONAL HARBOR, PP, at 300 WATERFRONT ST, PP, TGD3, 5801, Units:BO885, BT847, BT856, E847, EMSDO, MD847, NSO, PA842, PE842, TR806, WI, WR856, WR857",
+        "ID:F121540252",
+        "CALL:Water Rescue",
+        "PLACE:NATIONAL HARBOR",
+        "ADDR:300 WATERFRONT ST",
+        "CH:TGD3",
+        "BOX:5801",
+        "UNIT:BO885,BT847,BT856,E847,EMSDO,MD847,NSO,PA842,PE842,TR806,WI,WR856,WR857");
+  
   }
  
   public static void main(String[] args) {
