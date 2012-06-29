@@ -1184,6 +1184,11 @@ Manatee County, FL (FLManateeCountyParser)
 Location: SR70 EB FR I75 NB UB Estimated Address: alias EXIT 217 UB TYPE CODE: ACCIDENT W/ INJURIES - FIRE/EMS INSIDE LOCATION: SUB TYPE: RE-HIGH MECHANISM (ROLLOVER) TIME: 17:33:02 MAP GRID: 1913-D
 Location: 9913 289TH ST E MY Estimated Address TYPE CODE: OUTSIDE FIRE INSIDE LOCATION: SUB TYPE: LARGE OUTSIDE FIRE (THREAT RESIDENTIAL) TIME: 19:21:37 MAP GRID: 2207-A
 Location: 9913 289TH ST E MY Estimated Address TYPE CODE: OUTSIDE FIRE INSIDE LOCATION: SUB TYPE: BRUSH FIRE (THREAT BLDG) TIME: 17:32:16 MAP GRID: 2207-A
+**************************************************************************
+Pensacola, FL (FLPensacolaParser)
+Call_Number: PFD12CAD003118 | Units: L11, | Complaint: PUBLIC ASSISTANCE | Location: X2[SCOTT ST E] | Address: 2400 N 7TH AV  | Xst 1:  YONGE ST E | Xst 2:   | City: PENSACOLA | State: FL | CAddress1 : 2400 N 7TH AV | CAddress2: X2[SCOTT ST E] | Loc_Display: 2400 N 7TH AV [X2[SCOTT ST E]]  x[YONGE ST E]    [PENSACOLA] | Time_Dispatched: 2012-06-25 09:33:23 | Narrative:  | This_Unit: L11
+Call_Number: PFD12CAD003114 | Units: ENG2, | Complaint: RESCUE | Location: X2[9TH AV N] | Address: 813  WOODLAND DR  | Xst 1:  ACACIA DR | Xst 2:   | City: PENSACOLA | State: FL | CAddress1 : 813 WOODLAND DR | CAddress2: X2[9TH AV N] | Loc_Display: 813 WOODLAND DR [X2[9TH AV N]]  x[ACACIA DR]    [PENSACOLA] | Time_Dispatched: 2012-06-25 00:58:02 | Narrative: CHEST PAINS | This_Unit: ENG2
+Call_Number: PFD12CAD003116 | Units: ENG2, | Complaint: RESCUE | Location: X2[KENNETH ST] | Address: 611  BERKLEY DR  | Xst 1:  BOXWOOD DR | Xst 2:   | City: PENSACOLA | State: FL | CAddress1 : 611 BERKLEY DR | CAddress2: X2[KENNETH ST] | Loc_Display: 611 BERKLEY DR [X2[KENNETH ST]]  x[BOXWOOD DR]    [PENSACOLA] | Time_Dispatched: 2012-06-25 08:05:47 | Narrative: EMS 12-25415 | This_Unit: ENG2
 ***************************************************************************
 Sarasota County, FL (FLSarasotaCountyParser)
 SARASOTA COUNTY EVENT TYPE: ODOR-INSIDE Location: 4546 DEER CREEK BLVD NCTY G225 TIME: 21:39:20  Disp: BN3,E14,E15,R14
@@ -4205,24 +4210,6 @@ FRM:CFD.Dispatch@cincinnati-oh.gov\nMSG:fyi - working fire 7131 fernbank - garag
 FRM:CFD.Dispatch@cincinnati-oh.gov<mailto:CFD.Dispatch@cincinnati-oh.gov>\nMSG:WORKING FIRE 2609 CUMMINS, FIREGROUND 2 CFD Dispatch
 FRM:CFD.Dispatch@cincinnati-oh.gov<mailto:CFD.Dispatch@cincinnati-oh.gov>\nMSG:REPORT OF CHILD & ADULT TRAPPED ON 4TH FLOOR. 2ND ALARM ON 907 FORAKER AVE. FIRE GROUND 2... CFD Dispatch
 **********************************************************
-Casselton, ND (in Cass County)
-Contact: scott mcconnell <mcconnellscooter@gmail.com>
-Sender: dispatch@rrrdc.org
-
-Accident - Injury 15605 29 ST SE CAST 02/10/12 16:21 CFS #: 430 10-50
-ROLLOVER I  Nature Of Call: 10-50 ROLLOVER I  Nature Of Call: 10-50
-ROLLOVER  9500-CASTFIR 6611-CASTAMB 608 8800-CASSRES
-
-
-Accident - Injury 102 LANGER AVE S CAST CENEX PETRO SERVE - 102 LANGER AVE
-S - CAST04/03/12 12:15 CFS #: 967 MEDICAL  Dispatch received by unit 3523
- Dispatch received by unit 3518  M WAS HIT BY HIS OWN VEH  Nature Of Call:
-MEDICAL  9500-CASTFIR 6611-CASTAMB 609 8800-CASSRES
-
-Residential Fire 321 8 AVE N CAST 03/27/12 20:57 CFS #: 787 RESIDENTIAL
-FIRE  SMELLS HOT UP IN COMPS DAUGHTERS ROOM  Nature Of Call: RESIDENTIAL
-FIRE  9501-CASTFIR
-**********************************************************
 INVirgoCounty, IN (replace)
 Contact: "Josh Sittler" <joshsittler@vigocountyfire.com>
 Sender: Cisco.Paging@VigoCounty.IN.Gov
@@ -4717,14 +4704,9 @@ Rensseleaer County, NY
 Contact: "David R. Young JR." <dave@impressions-dj.com>, 5183658048@messaging.sprintpcs.com
 DELTA DETERMINATE DIABETIC PROBLEM, 17 ARBOR DR -29
 **********************************************************
-Dale County, GA (replacement)
-Contact: toptech82 <toptech82@gmail.com>
-Sender: E911@dadega.com
- 1 of 2\nFRM:E911@dadega.com\nSUBJ:!\nMSG:Brush, Grass, Field, Woods 220 HOOKER CEMETERY RD DEAD END / HWY 299 WILDWOOD     BRUSH FIRE ON BOTH SIDES\n(Con't) 2 of 2\nOF THE RAILRIAD TRACKS  06/26/12 20:35(End)
- 1 of 2\nFRM:E911@dadega.com\nSUBJ:!\nMSG:Convulsions/Seizures 93 MARCH LN DEAD END / HARRIS RD SLYGO\5s12 YOM, HAVING A SEIZURE, HISTORY OF\n(Con't) 2 of 2\nSEIZURE, HAS NOT COME\2s06/28/12 00:47(End)
-**********************************************************
 **********************************************************
 ************  READY TO ROLL ******************************
+**********************************************************
 **********************************************************
 **********************************************************
 **********************************************************
@@ -4833,8 +4815,19 @@ Contact: Chris Green <mediccgreen@gmail.com>
 Sender: xdc@mineralcounty911.com
 S: M: ??? PFD:2012:0140 >2012-06-17 21:14:30 >ALERTED >ODOR UNKNOWN >47 WEST HAMPSHIRE ST, PIEDMONT
 S: M: ??? PFD:2012:0143 >2012-06-24 12:47:25 >ALERTED >CARBON MONOXIDE/ETC-8 >49 1/2 THIRD STREET
-S:CAD M:11:31 E24-13\2sIs Enroute To: 119 RIORDON RD\n\n
+S:CAD M:11:31 E24-13  Is Enroute To: 119 RIORDON RD\n\n
 S: M: ??? PFD:2012:0142 >2012-06-23 11:27:29 >ALERTED >TREE DOWN >119 RIORDIN RD WESTERNPORT
 S: M: ??? PFD:2012:0144 >2012-06-25 18:45:52 >ALERTED >MVA W/INJURIES >RT 46, BETWEEN KEYSER& PIEDMONT
 S: M: ??? PFD:2012:0145 >2012-06-28 18:43:10 >ALERTED >STAND BY >CO 20 STATION
+**********************************************************
+Cass County, ND
+Contact: scott mcconnell <mcconnellscooter@gmail.com>,7014297950@vzwpix.com
+Sender: dispatch@rrrdc.org
+
+Accident - Injury 15605 29 ST SE CAST 02/10/12 16:21 CFS #: 430 10-50 ROLLOVER I  Nature Of Call: 10-50 ROLLOVER I  Nature Of Call: 10-50 ROLLOVER  9500-CASTFIR 6611-CASTAMB 608 8800-CASSRES
+Accident - Injury 102 LANGER AVE S CAST CENEX PETRO SERVE - 102 LANGER AVE S - CAST04/03/12 12:15 CFS #: 967 MEDICAL  Dispatch received by unit 3523 Dispatch received by unit 3518  M WAS HIT BY HIS OWN VEH  Nature Of Call: MEDICAL  9500-CASTFIR 6611-CASTAMB 609 8800-CASSRES
+Residential Fire 321 8 AVE N CAST 03/27/12 20:57 CFS #: 787 RESIDENTIAL FIRE  SMELLS HOT UP IN COMPS DAUGHTERS ROOM  Nature Of Call: RESIDENTIAL FIRE  9501-CASTFIR
+Residential Fire 411 8 AVE S CAST 06/24/12 13:52 CFS #: 963 RESIDENTIAL FIRE  Nature Of Call: RESIDENTIAL FIRE  ELEMENT IN BASEMENT IT ON FIRE, CAN NOT TURN IT OFF  Nature Of Call: RMF  9500-CASTFIR
+Grass Fire 15556 37 ST SE CAST GORDYS - 15556 37 ST SE - CAST06/27/12 21:32 CFS #: 962 GRASS FIRE  Nature Of Call: GRASS FIRE  9500-CASTFIR
+Vehicle Fire CAST 322 mm I94 CASS W06/18/12 09:15 CFS #: 277 VEH ON FIRE  BLAZER  NO HAZMAT IN VEH.  UNSURE EXACTLY WHICH EXIT.  THINKS 324, BUT COULD BE 322  ON WB OFF RAMP.    FLAMES IN ENG  Nature Of Call: VEH ON FIRE  
 **********************************************************
