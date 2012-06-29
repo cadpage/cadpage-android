@@ -29,7 +29,7 @@ public class FLPensacolaParser extends FieldProgramParser {
   
   public FLPensacolaParser() {
     super("PENSACOLA", "FL",
-        "Call_Number:ID! Units:UNIT! Complaint:CALL! Location:PLACE! Address:ADDR! Xst_1:X! Xst_2:SKIP! City:CITY! State:ST! CAddress1:SKIP! CAddress2:SKIP! Loc_Display:SKIP! Time_Dispatched:DATETIME! Narrative:INFO! This_Unit:SRC!");
+        "Call_Number:ID! Units:UNIT! Complaint:CALL! Location:PLACE! Address:ADDR! Xst_1:X! Xst_2:SKIP! City:CITY! State:ST! CAddress1:SKIP! CAddress2:SKIP! Loc_Display:SKIP! Time_Dispatched:DATETIME! Narrative:INFO! This_Unit:SKIP!");
   }
 
   @Override

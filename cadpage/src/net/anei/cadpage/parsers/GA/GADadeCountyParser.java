@@ -8,7 +8,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.SmartAddressParser;
 
 /*
-Dale County, GA (replacement)
+Dade County, GA
 Contact: toptech82 <toptech82@gmail.com>
 Sender: E911@dadega.com
  1 of 2\nFRM:E911@dadega.com\nSUBJ:!\nMSG:Brush, Grass, Field, Woods 220 HOOKER CEMETERY RD DEAD END / HWY 299 WILDWOOD     BRUSH FIRE ON BOTH SIDES\n(Con't) 2 of 2\nOF THE RAILRIAD TRACKS  06/26/12 20:35(End)
