@@ -80,8 +80,7 @@ public class DispatchShieldwareParser extends FieldProgramParser {
     @Override
     public boolean checkParse(String field, Data data) {
       if (!field.startsWith("Reported: ")) return false;
-      super.parse(field.substring(10).trim(), data);
-      return true;
+      return super.checkParse(field.substring(10).trim(), data);
     }
   }
   

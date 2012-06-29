@@ -84,6 +84,11 @@ public class MDBaltimoreCountyParser extends FieldProgramParser {
   private static final Pattern ID_PTN = Pattern.compile("Incident Number \\((\\d+)\\)");
   private class MyIdField extends IdField {
     @Override
+    public boolean canFail() {
+      return true;
+    }
+    
+    @Override
     public boolean checkParse(String field, Data data) {
       Matcher match = ID_PTN.matcher(field);
       if (!match.matches()) return false;

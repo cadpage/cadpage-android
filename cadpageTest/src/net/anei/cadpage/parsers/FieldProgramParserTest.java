@@ -578,5 +578,11 @@ public class FieldProgramParserTest extends BaseParserTest {
       return parseFields(message.split(";"), data);
     }
     
+    @Override
+    public Field getField(String name) {
+      if (name.equals("ID"))  return new IdField("\\d{3,}");
+      return super.getField(name);
+    }
+    
   }
 }

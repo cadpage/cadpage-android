@@ -11,9 +11,10 @@ public class NJBurlingtonCountyParser extends GroupBestParser {
   
   public NJBurlingtonCountyParser() {
     super(new NJBurlingtonCountyAParser(), 
-          new NJBurlingtonCountyBParser(),
-          new NJBurlingtonCountyCParser(),
-          new NJBurlingtonCountyDParser(),
-          new NJBurlingtonCountyEParser());
+           new NJBurlingtonCountyBParser(),
+           new NJBurlingtonCountyCParser(),
+           new NJBurlingtonCountyDParser(),
+           new NJBurlingtonCountyEParser(),
+           new NJBurlingtonCountyFParser());
   }
 }

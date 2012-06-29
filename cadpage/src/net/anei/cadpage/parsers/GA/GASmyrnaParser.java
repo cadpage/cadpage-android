@@ -24,4 +24,10 @@ public class GASmyrnaParser extends DispatchOSSIParser {
   public String getFilter() {
     return "cad@ci.smyrna.ga.us";
   }
+  
+  @Override
+  public Field getField(String name) {
+    if (name.equals("ID")) return new IdField("\\d{4,}");
+    return super.getField(name);
+  }
 }

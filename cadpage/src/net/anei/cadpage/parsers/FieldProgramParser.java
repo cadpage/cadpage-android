@@ -1290,6 +1290,7 @@ public class FieldProgramParser extends SmartAddressParser {
      */
     public final boolean doCanFail() {
       if (noVerify) return false;
+      if (pattern != null) return true;
       if (trigger != 0) return true;
       return canFail();
     }
@@ -1299,7 +1300,7 @@ public class FieldProgramParser extends SmartAddressParser {
      * field is valid
      */
     public boolean canFail() {
-      return pattern != null;
+      return false;
     }
     
     public void setFieldList(String[] fieldList, int index) {
@@ -1322,7 +1323,7 @@ public class FieldProgramParser extends SmartAddressParser {
         parse(field.substring(1).trim(), data);
         return true;
       }
-      
+      if (pattern != null && !pattern.matcher(field).matches()) return false;
       return checkParse(field, data);
     }
 
@@ -1333,8 +1334,6 @@ public class FieldProgramParser extends SmartAddressParser {
      * @return if this is a valid field
      */
     public boolean checkParse(String field, Data data) {
-      
-      if (pattern != null && !pattern.matcher(field).matches()) return false;
       parse(field, data);
       return true;
     }
@@ -1813,12 +1812,9 @@ public class FieldProgramParser extends SmartAddressParser {
   /**
    * ID field processor
    */
-  private static final Pattern NORMAL_ID_PAT = Pattern.compile("[0-9]{3,}");
   public class IdField extends Field {
     
-    public IdField() {
-      setPattern(NORMAL_ID_PAT);
-    }
+    public IdField() {}
     
     public IdField(String pattern) {
       super(pattern);
@@ -2029,6 +2025,9 @@ public class FieldProgramParser extends SmartAddressParser {
    */
   public class DateField extends Field {
     
+    private DateFormat fmt = null;
+    boolean hardPattern = false;
+    
     public DateField() {};
     public DateField(String pattern) {
       super(pattern);
@@ -2036,10 +2035,36 @@ public class FieldProgramParser extends SmartAddressParser {
     public DateField(String pattern, boolean hardPattern) {
       super(pattern, hardPattern);
     }
+    public DateField(DateFormat fmt) {
+      this.fmt = fmt;
+    }
+    public DateField(DateFormat fmt, boolean hardPattern) {
+      this.fmt = fmt;
+      this.hardPattern = hardPattern;
+    }
+    
+    @Override
+    public boolean canFail() {
+      return hardPattern || super.canFail();
+    }
 
     @Override
     public void parse(String field, Data data) {
-      data.strDate = field;
+      if (fmt != null) {
+        if (!checkParse(field, data) && hardPattern) abort();
+      } else {
+        data.strDate = field;
+      }
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      if (fmt != null) {
+        return setDate(fmt, field, data);
+      } else {
+        parse(field, data);
+        return true;
+      }
     }
   }
 
@@ -2049,6 +2074,7 @@ public class FieldProgramParser extends SmartAddressParser {
   public class TimeField extends Field {
     
     private DateFormat fmt = null;
+    boolean hardPattern = false;
     
     public TimeField() {};
     public TimeField(String pattern) {
@@ -2060,11 +2086,33 @@ public class FieldProgramParser extends SmartAddressParser {
     public TimeField(DateFormat fmt) {
       this.fmt = fmt;
     }
+    public TimeField(DateFormat fmt, boolean hardPattern) {
+      this.fmt = fmt;
+      this.hardPattern = hardPattern;
+    }
+    
+    @Override
+    public boolean canFail() {
+      return hardPattern || super.canFail();
+    }
 
     @Override
     public void parse(String field, Data data) {
-      if (fmt != null) setTime(fmt, field, data);
-      else data.strTime = field;
+      if (fmt != null) {
+        if (!checkParse(field, data) && hardPattern) abort();
+      } else {
+        data.strTime = field;
+      }
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      if (fmt != null) {
+        return setTime(fmt, field, data);
+      } else {
+        parse(field, data);
+        return true;
+      }
     }
   }
 
@@ -2073,6 +2121,9 @@ public class FieldProgramParser extends SmartAddressParser {
    */
   public class DateTimeField extends Field {
     
+    DateFormat fmt = null;
+    boolean hardPattern = false;
+    
     public DateTimeField () {};
     public DateTimeField (String pattern) {
       super(pattern);
@@ -2080,13 +2131,45 @@ public class FieldProgramParser extends SmartAddressParser {
     public DateTimeField (String pattern, boolean hardPattern) {
       super(pattern, hardPattern);
     }
+    
+    public DateTimeField(DateFormat fmt) {
+      this.fmt = fmt;
+    }
+    
+    public DateTimeField(DateFormat fmt, boolean hardPattern) {
+      this.fmt = fmt;
+      this.hardPattern = hardPattern;
+    }
+    
+    @Override
+    public boolean canFail() {
+      return hardPattern || super.canFail();
+    }
 
     @Override
     public void parse(String field, Data data) {
-      int pt = field.indexOf(' ');
-      if (pt < 0) abort();
-      data.strDate = field.substring(0,pt).trim();
-      data.strTime = field.substring(pt+1).trim();
+      if (fmt != null) {
+        if  (!checkParse(field, data) && hardPattern) abort();
+      } else {
+        int pt = field.indexOf(' ');
+        if (pt >= 0) {
+          data.strDate = field.substring(0,pt).trim();
+          data.strTime = field.substring(pt+1).trim();
+        }
+      }
+    }
+    
+    @Override
+    public boolean checkParse(String field, Data data) {
+      if (fmt != null) {
+        return setDateTime(fmt, field, data);
+      } else {
+        int pt = field.indexOf(' ');
+        if (pt < 0) return false;
+        data.strDate = field.substring(0,pt).trim();
+        data.strTime = field.substring(pt+1).trim();
+        return true;
+      }
     }
     
     @Override

@@ -1,7 +1,10 @@
 package net.anei.cadpage.parsers.OR;
 
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
 
 
 import net.anei.cadpage.parsers.FieldProgramParser;
@@ -143,16 +146,22 @@ public class ORMarionCountyNParser extends FieldProgramParser {
       data.strTime = field.substring(0,2) + ":" + field.substring(2,4) + ":" + field.substring(4,6);
     }
   }
-  
+
+  private static final DateFormat DATE_TIME_FMT = new SimpleDateFormat("MM/dd/yyyy hh-mm-ss aa"); 
   private class MyDateTimeField extends DateTimeField {
     public MyDateTimeField() {
       super("\\d{1,2}/\\d{1,2}/\\d{4}\\b.*");
     }
     
     @Override
+    public boolean checkParse(String field, Data data) {
+      setDateTime(DATE_TIME_FMT, field, data);
+      return true;
+    }
+    
+    @Override
     public void parse(String field, Data data) {
-      field = field.replace('-', ':');
-      if (field.contains(" ")) super.parse(field, data);
+      checkParse(field, data);
     }
   }
   

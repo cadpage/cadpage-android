@@ -1,8 +1,6 @@
 package net.anei.cadpage.parsers.NJ;
 
-
-
-
+import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -10,12 +8,11 @@ import java.util.regex.Pattern;
 import net.anei.cadpage.parsers.MsgInfo.Data;
 import net.anei.cadpage.parsers.FieldProgramParser;
 
-
 /*
 Burlington County, Willingboro, NJ 
-Contact: "David Maxey" <dmaxey09@vt.edu>
-
-
+Contact: CodeMessaging.net
+Contact: John Hamilton <skinink66@gmail.com>
+[MLCAD] EMS E EMS Call Loc: 5142 CHURCH RD Ven: Mt Laurel XS: PREAKNESS DR/SHARP RD Nature: SON IS CHOKING // 15:44:31 02/14/2012
 EMS E EMS Call Loc: 20 WOODHAVEN LA Ven: Willingbor XS: WINDOVER LA/WELDON LA Nature: CHANGE IN MENTAL STATUS 07:03:09 06/27/2012
 EMS E EMS Call Loc: 4 THORNHILL LA Ven: Willingbor XS: TYLER DR/TREBING LA Nature: FM/DECEASED 08:29:39 06/27/2012
 EMS E EMS Call Loc: 15 BLUEBERRY LA Ven: Willingbor XS: BABBITT LA/BRADFORD LA Nature: 7MT PREGNANT /FALL VICTIM/SPOTTING 08:42:37 06/27/2012
@@ -33,7 +30,7 @@ public class NJBurlingtonCountyFParser extends FieldProgramParser {
 
 
   public NJBurlingtonCountyFParser() {
-    super("Willingboro", "NJ",
+    super(CITY_CODES, "BURLINGTON COUNTY", "NJ",
         "CALL! Loc:ADDR! Ven:CITY! XS:X! Nature:INFO!");
   }
 
@@ -43,29 +40,19 @@ public class NJBurlingtonCountyFParser extends FieldProgramParser {
   }
 
   private static final Pattern INFO_PTN = 
-      Pattern.compile("([A-Za-z0-9-/ ]+) (\\d\\d:\\d\\d:\\d\\d) (\\d\\d/\\d\\d/\\d{4})");
+      Pattern.compile("[ /]* (\\d\\d:\\d\\d:\\d\\d) +(\\d\\d/\\d\\d/\\d{4})$");
 
   private class MyInfoField extends InfoField {
 
     @Override
-    public boolean canFail() {
-      return true;
-    }
-
-    @Override
-    public boolean checkParse(String field, Data data) {
-      Matcher match = INFO_PTN.matcher(field);
-      if (!match.matches()) return false;
-      data.strSupp = match.group(1).trim();
-      data.strTime = match.group(2);
-      data.strDate = match.group(3);
-
-      return true;
-    }
-
-    @Override
     public void parse(String field, Data data) {
-      if (!checkParse(field, data)) abort();
+      Matcher match = INFO_PTN.matcher(field);
+      if (match.find()) {
+        data.strTime = match.group(1);
+        data.strDate = match.group(2);
+        field = field.substring(0,match.start());
+      }
+      super.parse(field, data);
     }
 
     @Override
@@ -79,6 +66,10 @@ public class NJBurlingtonCountyFParser extends FieldProgramParser {
     if (name.equals("INFO")) return new MyInfoField();
     return super.getField(name);
   }
+  
+  private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "Willingbor", "Willingboro"
+  });
 }
 
 	    

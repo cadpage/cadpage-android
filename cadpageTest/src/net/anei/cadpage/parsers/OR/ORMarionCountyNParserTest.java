@@ -381,8 +381,8 @@ public class ORMarionCountyNParserTest extends BaseParserTest {
         "MAP:NORTH 7",
         "UNIT:R404, D411, MED24",
         "INFO:41 YOM IN AND OUT CONS/DIFF BREA/A",
-        "DATE:4/8/2012",
-        "TIME:1:32:13 PM");
+        "DATE:04/08/2012",
+        "TIME:13:32:13");
 
     doTest("T3",
         "(Incident) UNC F:1015 OAK ST 20 , SILVERTON:SILVER CLIFF ESTATES:::R404, D411, MED24::39 YOF UNC/BREA/A DIAB EMERGECY:4/8/2012",

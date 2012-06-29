@@ -90,6 +90,7 @@ public class VAAccomackCountyParser extends DispatchOSSIParser {
   protected Field getField(String name) {
     if (name.equals("CITYST")) return new CityStField();
     if (name.equals("MAP")) return new MyMapField();
+    if (name.equals("ID")) return new IdField("\\d{8,}");
     return super.getField(name);
   }
   

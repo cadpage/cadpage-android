@@ -271,6 +271,10 @@ public class TXBexarCountyParser extends FieldProgramParser {
   
   private static final Pattern ID_PTN = Pattern.compile("([A-Z]{3,4}-\\d{4}-\\d{6,})(?: +Dept[ -](.*))?");
   private class MyIdField extends IdField {
+    @Override
+    public boolean canFail() {
+      return true;
+    }
     
     @Override
     public boolean checkParse(String field, Data data) {

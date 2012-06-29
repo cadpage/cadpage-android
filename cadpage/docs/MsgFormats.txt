@@ -1611,6 +1611,11 @@ EMS E EMS Call 3690 NJTP VENUE : NJTP MALE INTOXICATED 16:01:53 05/12/2012
 FIRE F Fire Call N CROPWELL  RD  VENUE : WASH DOWN/MVA 08:06:57 05/07/2012
 EMS E EMS Call 422 SEDGEWICK LA VENUE : Evesham MALE SWEATY SLURRED SPEECH POSS STROKE CARDIA 08:16:51 05/23/2012
 ***************************************************************************
+Burlington County, NJ (NJBurlingtonCountyFParser) 
+EMS E EMS Call Loc: 20 WOODHAVEN LA Ven: Willingbor XS: WINDOVER LA/WELDON LA Nature: CHANGE IN MENTAL STATUS 07:03:09 06/27/2012
+EMS E EMS Call Loc: 4 THORNHILL LA Ven: Willingbor XS: TYLER DR/TREBING LA Nature: FM/DECEASED 08:29:39 06/27/2012
+EMS E EMS Call Loc: 15 BLUEBERRY LA Ven: Willingbor XS: BABBITT LA/BRADFORD LA Nature: 7MT PREGNANT /FALL VICTIM/SPOTTING 08:42:37 06/27/2012
+***************************************************************************
 Camden County, NJ (NJCamdenCountyAParser)
 (Dispatch SD45) DWELLING\n312 9TH ST ,14\n#:\nX:CENTER/CHERRY\nZN:14A\nCP:  2011-03-31 10:44:12\nMI#:110073123\nRES#:SD45
 (Dispatch SD45) M.V.A\nROUTE 295 SB RAMP TO 76 SB ALJO CUR ,04\n#:\nX:/\nZN:04Q\nCP:ROUTE 295 SB RAMP T  2011-03-31 09:06:36\nMI#:110073062 
@@ -3921,9 +3926,6 @@ FELL AND HIT HER HEAD // IS BLEEDING // NOT ON BLOOD THINNERS // FELL WHILE USIN
 Y/ /UNKN INJURIES //ALTER MENTAL STATUS TAU3 ,TSFD1 Name(HOOD, JIMMY) P#/Type(476-0036/ City = BRIGHTON ,State = ,Zip C (0 E
 - null - Ic# 169 MVCU Ds# 540916 Al# 1 Utl# HIL-LTO 02/28/12 5021 HWY 14 S HY TC :( ) HILLTOP CR SINGLE VEHICLE VS DEER UN
 **********************************************************
-Burlington County, NJ (alternate?)
-Contact: John Hamilton <skinink66@gmail.com>
-[MLCAD] EMS E EMS Call Loc: 5142 CHURCH RD Ven: Mt Laurel XS: PREAKNESS DR/SHARP RD Nature: SON IS CHOKING // 15:44:31 02/14/2012
 **********************************************************
 Unknown
 Contact: Michael Hill <fyrman1603@gmail.com>
