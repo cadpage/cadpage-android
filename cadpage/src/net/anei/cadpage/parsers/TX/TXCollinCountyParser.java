@@ -36,10 +36,15 @@ Message From Dispatch MUTUAL AID SFIRE 6031 FM 546 CFS 12006098
 Message From Dispatch MUTUAL AID STRUCTURE FIRE 6031 FM 546 CFS 12006098-- MUTUAL AID WITH BRANCH
 12008893  TEST CALL  305 S POWELL PKWY IN ANNA   {ANNA FIRE DEPT}   W 5 ST / W 6 ST  [ANFD DIST: ANF1 GRID: 1900]  UNITS: ANF1  ST RMK: 17J4  CFS RMK 14:46 TEST  TEST TEST ONLY  {CAD006 14:46}
 
+Contact: Jeff Erickson <jerickson919@gmail.com>
+Sender: farmersvillefd+caf_=7042218878=vtext.com@gmail.com
+12053430  FIRST RESPONDERS  1878 COUNTY ROAD 655 IN COLLIN COUNTY   {BRANNUM RES # 1518}   PRIVATE ROAD 5398 / COUNTY ROAD 653  [ ESS I  {CAD001 23:00} (02/02)
+
 */
 
 public class TXCollinCountyParser extends FieldProgramParser {
-  
+
+  private static final Pattern TRAIL_JUNK_PTN = Pattern.compile("\\{CAD|  \\{C|\\[ ESS");
   private static final Pattern CFS_ID_PTN = Pattern.compile(" CFS (\\d{8})\\b");
   private static final Pattern LEAD_DASH_PTN = Pattern.compile("^[ -]+");
   private static final Pattern DIST_GRID_PTN = Pattern.compile("\\[([A-Z]+) DIST: .* GRID: (\\d+) *\\]");
@@ -89,20 +94,20 @@ public class TXCollinCountyParser extends FieldProgramParser {
     }
 
     // Remove trailing ID
-    int pt = body.lastIndexOf('{');
-    if (pt >= 0) body = body.substring(0,pt).trim();
+    Matcher match = TRAIL_JUNK_PTN.matcher(body);
+    if (match.find()) body = body.substring(0,match.start()).trim();
     
     // Some variants include the source and map code in square brackets
     // If this is one of those, extract that information and remove the
     // square bracket construct
-    Matcher match = DIST_GRID_PTN.matcher(body);
+    match = DIST_GRID_PTN.matcher(body);
     if (match.find()) {
       data.strSource = match.group(1).trim();
       data.strMap = match.group(2).trim();
       body = body.substring(0,match.start()) + body.substring(match.end());
     }
     
-    pt = body.indexOf("CFS No: ");
+    int pt = body.indexOf("CFS No: ");
     if (pt >= 0) {
       data.strSupp = body.substring(0,pt).trim();
       body = body.substring(pt+8).trim();
