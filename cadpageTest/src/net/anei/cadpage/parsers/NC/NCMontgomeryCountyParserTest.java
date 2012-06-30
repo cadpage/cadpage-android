@@ -60,6 +60,17 @@ public class NCMontgomeryCountyParserTest extends BaseParserTest {
         "CITY:CANDOR",
         "TIME:20:52:18",
         "CALL:SMOKE INVESTIGATION (OUTSIDE) ADV THERE IS SMOKE AND IT IS MAKING HER SICK FROM FIRE EARLIER TODAY");
+  }
+  
+  @Test
+  public void testRobertGeorge() {
+
+    doTest("T1",
+        "CAD:232 HARPER ST STAR 15:48:25 COMMUNICATING THREATS CALE HARRIS EX HUSBAND JUST PULLED GUN :1of2",
+        "ADDR:232 HARPER ST",
+        "CITY:STAR",
+        "TIME:15:48:25",
+        "CALL:COMMUNICATING THREATS CALE HARRIS EX HUSBAND JUST PULLED GUN");
 
   }
   
