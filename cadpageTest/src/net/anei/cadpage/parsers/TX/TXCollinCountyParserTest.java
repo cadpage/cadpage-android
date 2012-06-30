@@ -249,9 +249,22 @@ public class TXCollinCountyParserTest extends BaseParserTest {
         "MAP:1900",
         "UNIT:ANF1",
         "INFO:17J4 / 14:46 TEST  TEST TEST ONLY");
+    
+  }
+  
+  @Test
+  public void testJeffErickson() {
+
+    doTest("T1",
+        "12053430  FIRST RESPONDERS  1878 COUNTY ROAD 655 IN COLLIN COUNTY   {BRANNUM RES # 1518}   PRIVATE ROAD 5398 / COUNTY ROAD 653  [ ESS I  {CAD001 23:00} (02/02)",
+        "ID:12053430",
+        "CALL:FIRST RESPONDERS",
+        "ADDR:1878 COUNTY ROAD 655",
+        "PLACE:BRANNUM RES # 1518",
+        "X:PRIVATE ROAD 5398 / COUNTY ROAD 653");
   }
   
   public static void main(String[] args) {
-    new TXCollinCountyParserTest().generateTests("T6");
+    new TXCollinCountyParserTest().generateTests("T1");
   }
 }
