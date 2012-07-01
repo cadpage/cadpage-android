@@ -119,7 +119,18 @@ public class TXGalvestonCountyParserTest extends BaseParserTest {
         "INFO:CLR ADV THERE WAS A TRANSFORMER ON FIRE AT THIS ADDRESS AVD THAT IT IS OUT HAS STOPPED SMOKING",
         "DATE:03/04/12",
         "TIME:07:48:36");
+  }
+  
+  @Test
+  public void testTimJohnson() {
 
+    doTest("T1",
+        "FYI: SMOKE INVESTIGATION 2322 AVE D ST 518 IN [07/01/12 07:47:16 MULLC] 517 IN [07/01/12 07:47:10 MULLC] COMING FROM A WIRE ON A TELEPHONE OR ELECTRICAL POLE",
+        "CALL:SMOKE INVESTIGATION",
+        "ADDR:2322 AVE D",
+        "INFO:518 IN / 517 IN / COMING FROM A WIRE ON A TELEPHONE OR ELECTRICAL POLE",
+        "DATE:07/01/12",
+        "TIME:07:47:16");
 
   }
   
