@@ -643,16 +643,17 @@ public class MsgInfo {
   // This method breaks those up into two separate tokens, also dropping any
   // direction qualifiers
   private static final Pattern ROUTE_PTN =
-    Pattern.compile("\\b(RT|RTE|HW|HWY|US|ST|I|CO|CR|CORD|SRT|I)-?(\\d{1,3})(?:[NSEW]B?)?\\b", Pattern.CASE_INSENSITIVE);
+    Pattern.compile("\\b(RT|RTE|HW|HWY|US|ST|I|CO|CR|CORD|SRT?|I)-?(\\d{1,3})(?:[NSEW]B?)?\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern ROUTE_PTN2 =
     Pattern.compile("\\b([A-Z]{2})(\\d{1,3})(?:[NSEW]B)?\\b", Pattern.CASE_INSENSITIVE);
-  private static final Pattern SRT_PTN = Pattern.compile("\\bSRT\\b", Pattern.CASE_INSENSITIVE);
+  private static final Pattern SRT_PTN = Pattern.compile("\\bSRT?\\b", Pattern.CASE_INSENSITIVE);
   
   private String cleanRoutes(String sAddress) {
     
     // Google gets confused by the ST abbreviation for State hwy.  We have a couple choices but lets use
     // the default state if there is one and STATE if there isn't.
-    String state = (countryCode == CountryCode.US && defState.length() > 0 ? defState : "STATE");
+    String state = (strState.length() > 0 ? strState : 
+                    countryCode == CountryCode.US && defState.length() > 0 ? defState : "STATE");
 
     Matcher match = ROUTE_PTN.matcher(sAddress);
     sAddress = match.replaceAll("$1 $2");
@@ -661,7 +662,7 @@ public class MsgInfo {
     if (match.find()) {
       StringBuffer sb = new StringBuffer();
       do {
-        String replace = (defState.equalsIgnoreCase(match.group(1)) ? "$1 $2" : "$0");
+        String replace = (state.equalsIgnoreCase(match.group(1)) ? "$1 $2" : "$0");
         match.appendReplacement(sb, replace);
       } while (match.find());
       match.appendTail(sb);
@@ -691,7 +692,7 @@ public class MsgInfo {
         String prefix = match.group(1);
         String suffix = match.group(2);
         String state = strState;
-        if (strState.length() == 0) state = defState;
+        if (state.length() == 0) state = defState;
         if (prefix.length() != 2 ||
             (prefix.equalsIgnoreCase(state) ||
              prefix.equalsIgnoreCase("CO") ||

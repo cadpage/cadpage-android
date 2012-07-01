@@ -2457,6 +2457,11 @@ paging@co.davis.ut.us<http://us.mc330.mail.yahoo.com/mc/compose?to=paging@co.dav
 Child Birth\n2539 N 475 W; #B\n17:02:14 11/29/2010 - dmaples\nProQA Medical Recommended Dispatch Level = 24D5\n28 year old, Female, Conscious, B
 Pregnancy Prob\n2248 N 75 W\n22:20:36 11/28/2010 - carchbol\nProQA Medical Recommended Dispatch Level = 24D4\n19 year old, Female, Conscious, Br
 ***************************************************************************
+Summit County, UT (UTSummitCountyParser)
+UHP\nTraffic Stop\nN SR224 & N SILVER SPRINGS RD; SILVER SP,PC\nUHP\n563\nTraffic stop                                                                    \n22:30:34 06/07/2012 - Rose A         \n\nState Response:\n\nAlert: REPORTED TO INSURITE SOLD OR REG OUT OF STATE\nLicense Plate: 963KPF, UT\nVIN: F36ZPGH0035\nExpires: --\nColor: \nYe
+UHP\nTraffic Stop\nN SR224 & W SUN PEAK DR; OLD RANCH RD,PC\nUHP\nK33\n10-60
+UHP\nTraffic Stop\nN SR224 & W SUN PEAK DR; SUN PEAK DR,PC\nUHP\nK18\nTraffic stop
+***************************************************************************
 Albemarle County, VA (VAAlbemarleCountyParser)
 EARLYSVILL EXTRICATION AD: SEMINOLE TRL&FRAYS MILL RD CTY: AC LOC: SB JUST S OF THE STOPLIGHT CALLER WAS GOING NB AND SAW A VEHICLE ROLL OVER SE
 EARLYSVILL EMS CALL AD: 1700 FOXTAIL PNES CTY: AC 93YOM, DIFF BREATHING, JUST DISCHARGED FROM HEALTHSOUTH, AWAKE/TALKING XST2: 2497 ASPENWOOD RD
