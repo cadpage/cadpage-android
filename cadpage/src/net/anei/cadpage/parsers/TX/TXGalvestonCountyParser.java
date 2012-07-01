@@ -25,9 +25,12 @@ DICK = Dickinson
 .... (Santa Fe Fire) CAD:FYI: FIRE - NON SPECIFIC 7600 AVE E ST between 32nd st and 33rd st..res is on Ave E..large fire appears to be speading to brush [11/30/11 20:49:27 BSCOTT]
 .... (Santa Fe Fire) CAD:FYI: FIRE - NON SPECIFIC 7330 AVE M ST FIRE IN HOME HEATER CENTRAL UNIT SMOKE THEN FLAMES IS OUT NOW WITH WATER IN TRL [12/07/11 10:30:23 JHILLMAN]
 .... (Santa Fe Fire) CAD:Update: FIRE - NON SPECIFIC 12619 HARRIETT LN SMALL CONT IN FENCE DUE TO WEATHER FIRE PUT OUT [12/07/11 12:58:06 JHILLMAN] IN AREA LOOKING OUT [12/07/11 12:53:05 JHILLMAN] NO CONTROL BURNS CALLED IN TODAY ON HARRIET LN MADE CONT WITH FI
-
 .... (Santa Fe Fire) LANDING ZONE 15117 WALNUT ST Event spawned from STROKE. [03/04/2012 21:08:14 BSCOTT] {SFMED1} NEED LF OUT HERE [03/04/12 21:07:26 BSCOTT] CALLER ADV HE ASKED HIS WIFE IF SHE KNEW WHO HE WAS AND SHE THOUGHT HE WAS AN EMT.. [0
 .... (Santa Fe Fire) POLE FIRE 5318 IKE FRANK RD CLR ADV THERE WAS A TRANSFORMER ON FIRE AT THIS ADDRESS. AVD THAT IT IS OUT. HAS STOPPED SMOKING [03/04/12 07:48:36 JIDEMA]
+
+Contact: Tim Johnson <dvfd502@gmail.com>
+Sender: CAD@ci.dickinson.tx.us
+FYI: SMOKE INVESTIGATION 2322 AVE D ST 518 IN [07/01/12 07:47:16 MULLC] 517 IN [07/01/12 07:47:10 MULLC] COMING FROM A WIRE ON A TELEPHONE OR ELECTRICAL POLE
 
  */
 
@@ -37,7 +40,7 @@ public class TXGalvestonCountyParser extends DispatchOSSIParser {
   
   public TXGalvestonCountyParser() {
     super("GALVESTON COUNTY", "TX",
-          "ADDR/SCI INFO+");
+          "ADDR/aSCI INFO+");
   }
   
   @Override
@@ -47,8 +50,17 @@ public class TXGalvestonCountyParser extends DispatchOSSIParser {
   
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
-    if (! SUBJECT_PTN.matcher(subject).matches()) return false;
-    data.strSource = subject;
+    do {
+      if (SUBJECT_PTN.matcher(subject).matches()) {;
+        data.strSource = subject;
+        break;
+      }
+      
+      if (isPositiveId()) break;
+      
+      return false;
+    } while (false);
+    
     if (!body.startsWith("CAD:")) body = "CAD:" + body;
     return super.parseMsg(body, data);
   }

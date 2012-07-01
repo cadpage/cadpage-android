@@ -203,7 +203,7 @@ public class NCGuilfordCountyParser extends DispatchOSSIParser {
   
   @Override
   public String getFilter() {
-    return "@edispatches.com,93001,firedistrict13@listserve.com";
+    return "@edispatches.com,93001,firedistrict13@listserve.com,CAD@greensboro-nc.gov";
   }
   
   @Override

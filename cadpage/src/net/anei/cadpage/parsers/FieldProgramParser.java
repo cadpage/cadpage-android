@@ -58,6 +58,7 @@ import net.anei.cadpage.parsers.MsgInfo.Data;
  *     y - parse -xx city convention
  *     i - implied intersection convention
  *     s - accept sloppy addresses
+ *     a - no implied address (only with smart parser logic)
  *     S - Invoke smart parser logic, this is followed by some optional flag
  *         characters, followed by up two 3 field designation characters
  *         Flag characters
@@ -1520,6 +1521,7 @@ public class FieldProgramParser extends SmartAddressParser {
         }
         parseFlags |= FLAG_IMPLIED_INTERSECT;
       }
+      if (qual.contains("a") && startType != null) parseFlags |= FLAG_NO_IMPLIED_APT;
     }
 
     @Override
