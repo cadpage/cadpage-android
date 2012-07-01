@@ -44,14 +44,19 @@ NEWBERRY TWP    46 MALL RD PRIVET DR / BILL DUGAN DR FIRE STRUCT RESID stove fir
 (Station 68) NEWBERRY TWP    OLD TRAIL RD PINES RD VEH ACC INJ CL 2 updated locat ion 31-01 UFIRE31 UEMS31 UFIRE68  03:57
 (Station 68) FAIRVIEW TWP    02 FOXFIRE LN OLD FORGE RD / WHEATLAND RD FIRE STRUCT RESID fire on back porch 68-04 FIRESTA68 E68-2 CCE24 E69-1 T68 CCT24
 
+Contact: Matthew Russ <smokeater841@gmail.com>
+Sender: messaging@iamresponding.com
+Subject:Fire Incident\nMANCH TWP HOMEWOOD SUITES BY HILTON   200 MASONIC DR PARKLYN LN / IRONSTONE DR RESC RESID CL 2 poss someone stuck in elev\r
+
 */
 
 public class PAYorkCountyAParser extends SmartAddressParser {
   
-  private static final Pattern MASTER = Pattern.compile("(.*) (\\d{2}-\\d{2,3})(?: (.*?)(?: \\d\\d:\\d\\d.?)?)?", Pattern.DOTALL);
-  private static final Pattern DELIM = Pattern.compile("\n\n|    *");
+  private static final Pattern TIME_PTN = Pattern.compile(" +(\\d\\d:\\d\\d)¿?$");
   private static final Pattern ID_PTN = Pattern.compile("^(\\d{7}) ");
-  private static final Pattern CITY_PTN = Pattern.compile("^.*? (?:CITY|BORO|TWP)\\b");
+  private static final Pattern CITY_PTN = Pattern.compile("^([A-Z ]+?) +(?:CITY|BORO|TWP)\\b *");
+  private static final Pattern MAP_PTN = Pattern.compile("\\b(\\d{2}-\\d{2,3})\\b");
+  private static final Pattern DELIM = Pattern.compile("\n\n|    *");
   private static final Pattern SRC_PTN = Pattern.compile("^(FIRESTA\\d+) ");
   
   public PAYorkCountyAParser() {
@@ -66,65 +71,60 @@ public class PAYorkCountyAParser extends SmartAddressParser {
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     
-    // Rule out variant C  Otherwise the code might be enought to pass
-    if (body.contains("District:")) return false;
-    
     if (subject.length() > 0) {
       if (subject.startsWith("Station ")) data.strSource = subject;
     }
     
-    Matcher match = MASTER.matcher(body);
-    if (!match.matches()) return false;
-    String sAddr = match.group(1).trim();
-    data.strMap = match.group(2).trim();
-    String part3 = getOptGroup(match.group(3));
+    Matcher match = TIME_PTN.matcher(body);
+    if (match.find()) {
+      data.strTime = match.group(1);
+      body = body.substring(0,match.start()).trim();
+    }
+    
+    if (body.startsWith("Fire Incident / ")) {
+      body = body.substring(16).trim();
+    }
+    
+    // See if there is a leading call number
+    match = ID_PTN.matcher(body);
+    if (match.find()) {
+      data.strCallId = match.group(1);
+      body = body.substring(match.end()).trim();
+    }
+
+    // There has to be a leading city
+    match = CITY_PTN.matcher(body);
+    if (!match.find()) return false;
+    data.strCity = match.group(1);
+    if (data.strCity.equals("MANCH")) data.strCity = "MANCHESTER";
+    body = body.substring(match.end()).trim();
+    
+    match = MAP_PTN.matcher(body);
+    String part3 = "";
+    if (match.find()) {
+      data.strMap = match.group(1);
+      part3 = body.substring(match.end()).trim();
+      body = body.substring(0,match.start()).trim();
+    }
     
     // Hopefully we can find a clear delimiter separating the first message piece 
     // into two parts.  If not, use the smart address parser to break up the 
     // address field
     StartType st = StartType.START_PLACE;
-    String part1 = null;
-    match = DELIM.matcher(sAddr);
+    match = DELIM.matcher(body);
     if (match.find()) {
       // work on the message header
       // May contain a call description followed by slash
-      part1 = sAddr.substring(0,match.start()).trim();
-      sAddr = sAddr.substring(match.end()).trim();
+      data.strPlace = body.substring(0,match.start()).trim();
+      body = body.substring(match.end()).trim();
       st = StartType.START_ADDR;
     } 
     
-    sAddr = sAddr.replace(',', ' ');
-    parseAddress(st, FLAG_IMPLIED_INTERSECT, sAddr, data);
-    if (part1 == null) {
-      part1 = data.strPlace;
-      data.strPlace = "";
-    }
-    
-    // Now to work on the leader section
-    // Strip off averying preceeding a /
-    int pt = part1.indexOf(" / ");
-    if (pt >= 0) part1 = part1.substring(pt+3).trim();
-    
-    // See if there is a leading call number
-    match = ID_PTN.matcher(part1);
-    if (match.find()) {
-      data.strCallId = match.group(1);
-      part1 = part1.substring(match.end()).trim();
-    }
-    
-    // Rest should be a city name followed by an optional place name
-    // City names always end in BORO, CITY or TWP (we hope)
-    match = CITY_PTN.matcher(part1);
-    if (match.find()) {
-      data.strCity = match.group();
-      data.strPlace = part1.substring(match.end()).trim();
-    } else {
-      data.strCity = part1;
-    }
-    if (data.strCity.equals("MANCH TWP")) data.strCity = "MANCHESTER TWP";
+    body = body.replace(',', ' ');
+    parseAddress(st, FLAG_IMPLIED_INTERSECT, body, data);
 
       // The address may be a simple address followed by a cross street
-    sAddr = getLeft();
+    String sAddr = getLeft();
     if (sAddr.startsWith("/")) sAddr = sAddr.substring(1).trim();
     parseAddress(StartType.START_ADDR, FLAG_ONLY_CROSS | FLAG_IMPLIED_INTERSECT, sAddr, data);
 
