@@ -25,11 +25,14 @@ Sender: dispatch@co.pennington.sd.us
 Contact: Alexander Ingalls <alexingalls09@gmail.com>
 (Page ) Unit:RV Status:DISPATCHED FIRE 300 E  SIGNAL DR NATIONAL WEATHER SERVICERapid City  1/4 ACRE MOVING TO THE WEST TOWARDS THE TALL GRASS.  1/4 ACRE
 (Page ) Unit:RV Status:DISPATCHED SUIC 2064 S VALLEY DR PENNCO  RPT**  MALE SUBJ HUNG HIMSELF AT ABOVE LOC  13:10
+(Page) Unit:RV Status:DISPATCHED STRUCF CALLBK=(605)391-43 NW Sector Rapid City  69D10  TRAILER HOUSE ON FIRE.  AT THE END OF 150TH AV  09:50
 
 */
 
 public class SDPenningtonCountyParser extends FieldProgramParser {
  
+  private static final Pattern TIME_PTN = Pattern.compile(" (\\d\\d:\\d\\d)$"); 
+  
   public SDPenningtonCountyParser() {
     super(CITY_LIST, "PENNINGTON COUNTY", "SD",
            "Unit:UNIT! Status:STATUS! Problem:INFO Patient_info:INFO");
@@ -43,10 +46,22 @@ public class SDPenningtonCountyParser extends FieldProgramParser {
   @Override
   protected boolean parseMsg(String subject, String body, Data data) {
     if (!subject.equalsIgnoreCase("page")) return false;
+    
+    Matcher match = TIME_PTN.matcher(body);
+    if (match.find()) {
+      data.strTime = match.group(1);
+      body = body.substring(0,match.start()).trim();
+    }
     return super.parseMsg(body, data);
   }
   
-  private static final Pattern CODE_PTN = Pattern.compile("\\b\\d{1,2}-[A-Za-z]-\\d{1,2}[A-Za-z]?\\b");
+  @Override
+  public String getProgram() {
+    return super.getProgram() + " TIME";
+  }
+  
+  private static final Pattern CALLBACK_PTN = Pattern.compile("\\bCALLBK=([-0-9\\(\\)]+)\\b");
+  private static final Pattern CODE_PTN = Pattern.compile("\\b\\d{1,2}-?[A-Za-z]-?\\d{1,2}[A-Za-z]?\\b");
   private class StatusField extends AddressField {
     
     @Override
@@ -59,15 +74,34 @@ public class SDPenningtonCountyParser extends FieldProgramParser {
         }
         field = field.substring(0,pt).trim();
       }
-      parseAddress(StartType.START_CALL, FLAG_PAD_FIELD | FLAG_IGNORE_AT, field, data);
+      
+      StartType st = StartType.START_CALL;
+      int flags = FLAG_PAD_FIELD | FLAG_IGNORE_AT;
+      
+      Matcher match = CALLBACK_PTN.matcher(field);
+      if (match.find()) {
+        data.strPhone = match.group(1);
+        data.strCall = field.substring(0,match.start()).trim();
+        field = field.substring(match.end()).trim();
+        st = StartType.START_ADDR;
+      }
+      
+      match = CODE_PTN.matcher(field);
+      if (match.find()) {
+        data.strCode = match.group();
+        data.strSupp = field.substring(match.end()).trim();
+        field = field.substring(0,match.start()).trim();
+        flags |= FLAG_ANCHOR_END;
+      }
+      parseAddress(st, flags, field, data);
       data.strPlace = getPadField();
-      data.strSupp = getLeft();
+      if ((flags & FLAG_ANCHOR_END) == 0) data.strSupp = getLeft();
       if (data.strCity.equalsIgnoreCase("PENNCO")) data.strCity = "";
     }
     
     @Override
     public String getFieldNames() {
-      return "CALL ADDR APT PLACE CITY INFO CODE";
+      return "CALL PHONE ADDR APT PLACE CITY INFO CODE";
     }
   }
   
