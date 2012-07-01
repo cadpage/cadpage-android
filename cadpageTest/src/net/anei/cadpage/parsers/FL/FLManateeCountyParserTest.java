@@ -17,7 +17,7 @@ public class FLManateeCountyParserTest extends BaseParserTest {
     doTest("T1",
         "Location: SR70 EB FR I75 NB UB Estimated Address: alias EXIT 217 UB TYPE CODE: ACCIDENT W/ INJURIES - FIRE/EMS INSIDE LOCATION: SUB TYPE: RE-HIGH MECHANISM (ROLLOVER) TIME: 17:33:02 MAP GRID: 1913-D",
         "ADDR:SR70 EB FR I75 NB",
-        "MADDR:alias EXIT 217 UB,SR70 FRONTAGE RD I 75",
+        "MADDR:alias EXIT 217 UB,FL 70 FRONTAGE RD I 75",
         "CITY:BRADENTON",
         "PLACE:alias EXIT 217 UB",
         "CALL:ACCIDENT W/ INJURIES - FIRE/EMS INSIDE LOCATION:",
