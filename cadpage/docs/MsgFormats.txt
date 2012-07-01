@@ -4708,8 +4708,10 @@ Rensseleaer County, NY
 Contact: "David R. Young JR." <dave@impressions-dj.com>, 5183658048@messaging.sprintpcs.com
 DELTA DETERMINATE DIABETIC PROBLEM, 17 ARBOR DR -29
 **********************************************************
-Simsbury Fire, CT
+Simsbury, CT
 Contact: Andrew Gaines <againes128@gmail.com>
+System: Inforad
+From: 93001001 - 93001050
 8 ROSWELL RD Suite: 1 TYPE:SF new oven making noises smells like burning rubber
 530 BUSHY HILL RD Suite: 03 TYPE:FA
 235 FARMS VILLAGE RD TYPE:VA 2 CAR MVA WITH FLUIDS
@@ -4845,8 +4847,6 @@ Vehicle Fire CAST 322 mm I94 CASS W06/18/12 09:15 CFS #: 277 VEH ON FIRE  BLAZER
 Contact: Active911.com
 Agency name: Stokesdale Fire Department Location: Stokesdale, NC 
 From: CAD@greensboro-nc.gov
-
-
 CAD:STKD;ST12;1;SICK;7717 ATHENS RD;SOUTHERN MEADOWS DR;26C02
 CAD:UNDER CONTROL;7717 ATHENS RD; ST
 CAD:SMFD;ST29;1;OSFIR;US 158/HUDSON RD;67D02B
@@ -4953,3 +4953,5 @@ CAD:STKD;ST12;1;SERV;8480 SOUTHARD RD;THOMAS RD;53A05
 CAD:UNDER CONTROL;8480 SOUTHARD RD; ST
 CAD:STKD;ST12;1;MED;4585 ELLISBORO RD;CHRISTOPHER RD;10-50 PI PIN IN
 CAD:UNDER CONTROL;4585 ELLISBORO RD; ROCK;10-50 PI PIN IN
+**********************************************************
+Monroe County, NY
