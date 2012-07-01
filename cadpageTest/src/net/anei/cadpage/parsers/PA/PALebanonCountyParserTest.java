@@ -206,6 +206,13 @@ public class PALebanonCountyParserTest extends BaseParserTest {
         "CALL:BF - Barn Fire",
         "UNIT:FG 5 E1-1 TK12");
 
+    doTest("T4",
+        "DAUPHIN CO/EAST HANOVER  9708 ALLENTOWN BLVD. AFA - Auto Fire Alarm TK12 E1-1  Fire-Box EMS-Box",
+        "CITY:East Hanover Twp, DAUPHIN COUNTY",
+        "ADDR:9708 ALLENTOWN BLVD",
+        "CALL:AFA - Auto Fire Alarm",
+        "UNIT:TK12 E1-1");
+
   }
   
   @Test
