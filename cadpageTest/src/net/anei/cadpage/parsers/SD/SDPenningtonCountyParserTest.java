@@ -105,7 +105,19 @@ public class SDPenningtonCountyParserTest extends BaseParserTest {
         "UNIT:RV",
         "CALL:DISPATCHED SUIC",
         "ADDR:2064 S VALLEY DR",
-        "INFO:RPT** MALE SUBJ HUNG HIMSELF AT ABOVE LOC 13: 10");
+        "INFO:RPT** MALE SUBJ HUNG HIMSELF AT ABOVE LOC",
+        "TIME:13:10");
+
+    doTest("T3",
+        "(Page) Unit:RV Status:DISPATCHED STRUCF CALLBK=(605)391-43 NW Sector Rapid City  69D10  TRAILER HOUSE ON FIRE.  AT THE END OF 150TH AV  09:50",
+        "UNIT:RV",
+        "CALL:DISPATCHED STRUCF",
+        "PHONE:(605)391-43",
+        "ADDR:NW Sector",
+        "CITY:Rapid City",
+        "INFO:TRAILER HOUSE ON FIRE.  AT THE END OF 150TH AV",
+        "CODE:69D10",
+        "TIME:09:50");
 
   }
   
