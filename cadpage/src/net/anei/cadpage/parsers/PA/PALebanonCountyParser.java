@@ -44,11 +44,11 @@ East Hanover Township 7 TOWER LN AREA OF MV - Accident w/Injuries fg 3 E12  Fire
 North Annville Township BLACKS BRIDGE RD HOSTETTER LN AREA OF SF - Dwelling Fire Barn Fire FG3 E6 R5 QRS6 E7 E12 E75 TK12 SQ12 T6 T6-1 T7 PT47 AmbCo19
 North Annville Township BLACKS BRIDGE RD HOSTETTER LN AREA OF BF - Barn Fire Barn Fire FG3  Box is In-Service Auth Dep 6 SQ12 T6 T6-1  Fire-Box 6-03 E
 (Sta 12@12:30) East Hanover Twp DAUPHIN COUNTY 257 BOW CREEK RD=AREA OF BF - Barn Fire FG 5 E1-1 TK12 Fire-Box EMS-Box\n\nTo unsubscribe reply STOP
+DAUPHIN CO/EAST HANOVER  9708 ALLENTOWN BLVD. AFA - Auto Fire Alarm TK12 E1-1  Fire-Box EMS-Box
 
 Contact: Thomas Miller <rattielover35@yahoo.com>
 Sender: km911alert@gmail.com
 (Sta 2@19:42) DAUPHIN EAST HANOVER 123 AUTOMATIC LN SF - Dwelling Fire WORKING STRUCTURE FIRE T2 Fire-Box EMS-Box\n\nTo unsubscribe reply STOP
-
 */
 
 public class PALebanonCountyParser extends SmartAddressParser {
@@ -61,7 +61,8 @@ public class PALebanonCountyParser extends SmartAddressParser {
     Pattern.compile("^(.*) Boro ")
   };
   private static final String[] DAUPHIN_EAST_HANOVER_STRINGS = new String[]{
-    "DAUPHIN EAST HANOVER "
+    "DAUPHIN EAST HANOVER ",
+    "DAUPHIN CO/EAST HANOVER "
   };
   private static final Pattern COUNTY_PTN = Pattern.compile("^[^ ]+ COUNTY\\b", Pattern.CASE_INSENSITIVE);
   private static final Pattern CALL_PREFIX_PTN =
