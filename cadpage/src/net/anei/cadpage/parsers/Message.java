@@ -419,4 +419,42 @@ public class Message {
   public MsgInfo getInfo() {
     return info;
   }
+
+  /**
+   * Escape a string containing tabs, newlines, or multiple spaces so it
+   * will better survive transmission through an email message
+   * @param message message to be escaped
+   * @return escaped message
+   */
+  private static final Pattern MULT_SPACES = Pattern.compile(" {2,}");
+  private static final Pattern UNPRINTABLE = Pattern.compile("[^\\p{Print}\n]");
+  static public String escape(String message) {
+    if (message == null) return message;
+    message = message.replace("\\", "\\\\");
+    message = message.replace("\t", "\\t");
+    message = message.replace("\n", "\\n\n");
+    message = message.replace("\r", "\\r");
+    message = message.replace("\f", "\\f");
+    message = message.replace("\b", "\\b");
+    Matcher match = MULT_SPACES.matcher(message);
+    if (match.find()) {
+      StringBuffer sb = new StringBuffer();
+      do {
+        match.appendReplacement(sb, "\\\\" + (match.end()-match.start()) + "s");
+      } while (match.find());
+      match.appendTail(sb);
+      message = sb.toString();
+    }
+    match = UNPRINTABLE.matcher(message); 
+    if (match.find()) {
+      StringBuffer sb = new StringBuffer();
+      do {
+        int code = message.charAt(match.start());
+        match.appendReplacement(sb, String.format("\\\\u%04x",code));
+      } while (match.find());
+      match.appendTail(sb);
+      message = sb.toString();
+    }
+    return message;
+  }
 }

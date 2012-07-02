@@ -3,6 +3,7 @@ package net.anei.cadpage.parsers;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.io.PrintStream;
 
 /**
  * Wrapper class allowing the Cadpage Parser to be invoked as a Java program
@@ -19,6 +20,8 @@ import java.io.InputStreamReader;
  *    format code is the parser format code.  Default or - to read from stdin
  * SUBJ=<message subject>
  *    message subject.  Default or - to read from stdin
+ * LOG=<filename>
+ *    Specify log file name.  Default no logging
  * 
  * Message text is always from from stdin.  Can be terminated with EOF or a
  * line containing
@@ -37,16 +40,32 @@ public class Parser {
   private String fmtCode = "-";
   private String subject = "-";
   
+  private PrintStream logStream = null;
+  
   private BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
 
   private Parser(String[] args) throws IOException {
     setup(args);
+    if (logStream != null) {
+      logStream.print("Startup Args:");
+      for (String arg : args) {
+        logStream.print(' ');
+        logStream.print(arg);
+      }
+      logStream.println();
+    }
     while (true) {
       String tFlags = getValue(flags);
       String tFmtCode = getValue(fmtCode);
       String tSubject = getValue(subject);
       String text = getText();
       if (text == null) break;
+      
+      if (logStream != null) {
+        logStream.println(Message.escape(text));
+        logStream.println(EOD_MARKER);
+        logStream.flush();
+      }
       
       Message msg = new Message(tFlags.contains("P"), null, tSubject, text);
       MsgParser parser = null;
@@ -78,6 +97,13 @@ public class Parser {
       if (key.equals("FLGS")) flags = val;
       else if (key.equals("FMT")) fmtCode = val;
       else if (key.equals("SUBJ")) subject = val;
+      else if (key.equals("LOG")) {
+        try {
+          logStream = new PrintStream(val);
+        } catch (IOException ex) {
+          throw new RuntimeException("Cannot open log file:" + val, ex);
+        }
+      }
       else {
         throw new RuntimeException("Invalid argument - " + arg);
       }
@@ -90,6 +116,7 @@ public class Parser {
       if (EOD_MARKER.equals(value)) {
         throw new IOException("inappropraite EOD marker"); 
       }
+      if (logStream != null) logStream.println(Message.escape(value));
     }
     return value;
   }
