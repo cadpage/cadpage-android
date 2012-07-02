@@ -37,6 +37,30 @@ public class FLCrestviewParserTest extends BaseParserTest {
         "DATE:06/25/2012",
         "TIME:01:47:29",
         "INFO:305 adams dr near bob sikes school");
+
+    doTest("T3",
+        "Call_Number: 1871 | Inc_Number: 1536 | Units: CFD,Rescue 3, | Complaint: EMS DELTA | Location: Lloyd -N (100-1708) | Address: 966 NLloyd ST  | Disposition:  | Box: 1 | Time_Dispatched: 2012-07-01 14:14:13 | Narrative: unknown aged male possible stroke | This_Unit: Rescue 3",
+        "ID:1871",
+        "UNIT:CFD,Rescue 3",
+        "CALL:EMS DELTA",
+        "PLACE:Lloyd -N (100-1708)",
+        "ADDR:966 NLloyd ST",
+        "BOX:1",
+        "DATE:07/01/2012",
+        "TIME:14:14:13",
+        "INFO:unknown aged male possible stroke");
+
+    doTest("T4",
+        "Call_Number: 1869 | Inc_Number:  | Units: CFD,Rescue 3, | Complaint: EMS DELTA | Location: Griffith -E Avenue    (200-664) | Address: 503 EGriffith AVE  | Disposition:  | Box: 1 | Time_Dispatched: 2012-07-01 13:16:45 | Narrative: 53 yo male having seizures | This_Unit: Rescue 3",
+        "ID:1869",
+        "UNIT:CFD,Rescue 3",
+        "CALL:EMS DELTA",
+        "PLACE:Griffith -E Avenue    (200-664)",
+        "ADDR:503 EGriffith AVE",
+        "BOX:1",
+        "DATE:07/01/2012",
+        "TIME:13:16:45",
+        "INFO:53 yo male having seizures");
     
   }
   

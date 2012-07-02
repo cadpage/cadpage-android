@@ -189,6 +189,25 @@ public class MOPulaskiCountyParserTest extends BaseParserTest {
         "DATE:6/13/2012",
         "TIME:19:01:33");
 
+    doTest("T6",
+        " 1 of 2\n" +
+        "FRM:911dispatch@embarqmail.com\n" +
+        "SUBJ:DO NOT REPLY\n" +
+        "MSG:NATURAL COVER FIRE  15365 TOP DR PULASKI COUNTY CrossStreets: Turkey Dr 0.10 mi SE\n" +
+        "(Con't) 2 of 2\n" +
+        "True Rd 0.24 mi SW WRFD1 Call Received Time: 7/1/2012 21:38:25 Dispatch: 7/1/2012 21:40:28\r\n" +
+        "\r\n" +
+        "\r\n" +
+        "\r\n" +
+        "(End)",
+
+        "CALL:NATURAL COVER FIRE",
+        "ADDR:15365 TOP DR",
+        "X:Turkey Dr 0.10 mi SE True Rd 0.24 mi SW",
+        "UNIT:WRFD1",
+        "DATE:7/1/2012",
+        "TIME:21:40:28");
+
   }
   
   public static void main(String[] args) {

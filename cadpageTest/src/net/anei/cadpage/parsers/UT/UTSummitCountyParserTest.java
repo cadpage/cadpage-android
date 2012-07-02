@@ -75,8 +75,8 @@ public class UTSummitCountyParserTest extends BaseParserTest {
         "UHP\nTraffic Stop\n144 I80 EASTBOUND,PC\nUHP\n401\nTraffic stop",
         "SRC:UHP",
         "CALL:Traffic Stop",
-        "ADDR:144 I80 EASTBOUND",
-        "MADDR:144 I 80 EASTBOUND",
+        "ADDR:144 I80 EB",
+        "MADDR:144 I 80",
         "CITY:PARK CITY",
         "UNIT:401",
         "INFO:Traffic stop");
@@ -116,8 +116,8 @@ public class UTSummitCountyParserTest extends BaseParserTest {
         "UHP\nInjury Accident\n8 SR40 EASTBOUND,HEB\nUHP\n537\nWhite durango,nissan titan alph bravo injuries.",
         "SRC:UHP",
         "CALL:Injury Accident",
-        "ADDR:8 SR40 EASTBOUND",
-        "MADDR:8 UT 40 EASTBOUND",
+        "ADDR:8 SR40 EB",
+        "MADDR:8 UT 40",
         "CITY:HEBER",
         "UNIT:537",
         "INFO:White durango,nissan titan alph bravo injuries.");
@@ -152,8 +152,8 @@ public class UTSummitCountyParserTest extends BaseParserTest {
         "UHP\nTraffic Stop\n4 SR40 WESTBOUND; ramp,PC\nUHP\n240\n1060",
         "SRC:UHP",
         "CALL:Traffic Stop",
-        "ADDR:4 SR40 WESTBOUND",
-        "MADDR:4 UT 40 WESTBOUND",
+        "ADDR:4 SR40 WB",
+        "MADDR:4 UT 40",
         "X:ramp",
         "CITY:PARK CITY",
         "UNIT:240,1060");
@@ -211,8 +211,8 @@ public class UTSummitCountyParserTest extends BaseParserTest {
         "UHP\nTraffic Stop\n146 I80 EASTBOUND,PC\nUHP\n563\n1060",
         "SRC:UHP",
         "CALL:Traffic Stop",
-        "ADDR:146 I80 EASTBOUND",
-        "MADDR:146 I 80 EASTBOUND",
+        "ADDR:146 I80 EB",
+        "MADDR:146 I 80",
         "CITY:PARK CITY",
         "UNIT:563,1060");
 
@@ -372,8 +372,8 @@ public class UTSummitCountyParserTest extends BaseParserTest {
         "UHP\nTraffic Stop\n4 SR40 EASTBOUND,PC\nUHP\n401\ntraffic",
         "SRC:UHP",
         "CALL:Traffic Stop",
-        "ADDR:4 SR40 EASTBOUND",
-        "MADDR:4 UT 40 EASTBOUND",
+        "ADDR:4 SR40 EB",
+        "MADDR:4 UT 40",
         "CITY:PARK CITY",
         "UNIT:401,traffic");
 
@@ -440,8 +440,8 @@ public class UTSummitCountyParserTest extends BaseParserTest {
         "UHP\nTraffic Stop\n47 SR40 EASTBOUND,HEB\nUHP\n401\ntraffic",
         "SRC:UHP",
         "CALL:Traffic Stop",
-        "ADDR:47 SR40 EASTBOUND",
-        "MADDR:47 UT 40 EASTBOUND",
+        "ADDR:47 SR40 EB",
+        "MADDR:47 UT 40",
         "CITY:HEBER",
         "UNIT:401,traffic");
 
@@ -610,8 +610,8 @@ public class UTSummitCountyParserTest extends BaseParserTest {
 
         "SRC:UHP",
         "CALL:Injury Accident",
-        "ADDR:146 I80 EASTBOUND",
-        "MADDR:146 I 80 EASTBOUND",
+        "ADDR:146 I80 EB",
+        "MADDR:146 I 80",
         "CITY:PARK CITY",
         "UNIT:563",
         "INFO:four car accident two black cars, 1 blue car, 1 white car. Non injuries, not / blocking. / 16:27:06 06/15/2012 - Pyper J / white jetta 21 yof c/b/a complaining of neck pain / 16:28:02 06/15/2012 - Pyper J / comp in the white jetta needs a tow 610h9 Matt Strader 435");
@@ -705,8 +705,8 @@ public class UTSummitCountyParserTest extends BaseParserTest {
 
         "SRC:NSFD",
         "CALL:Brush Fire",
-        "ADDR:169 I80 WESTBOUND",
-        "MADDR:169 I 80 WESTBOUND",
+        "ADDR:169 I80 WB",
+        "MADDR:169 I 80",
         "CITY:COALVILLE",
         "INFO:east of echo on i80 on the tracks / 15:08:50 06/15/2012 - Pyper J / union pacific notified they will stop the trains / 15:32:31 06/15/2012 - Pyper J / fire contained at this time / 17:22:58 06/15/2012 - Pyper J / have reopened the railroad at reduced speed rp on scen");
 

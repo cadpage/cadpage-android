@@ -78,13 +78,39 @@ public class FLPensacolaParserTest extends BaseParserTest {
         "ID:PFD12CAD003111",
         "UNIT:ENG6",
         "CALL:RESCUE",
-        "PLACE:THE FLATS AT 9TH AVENUE  308-5345",
+        "PLACE:THE FLATS AT 9TH AVENUE",
+        "PHONE:308-5345",
         "ADDR:7601 N 9TH AV 107",
         "MADDR:7601 N 9TH AVE 107",
         "X:BEAU TERRA LN & I10",
         "CITY:PENSACOLA",
         "DATE:06/24/2012",
         "TIME:23:18:28");
+
+    doTest("T7",
+        "Call_Number: PFD12CAD003213 | Units: ENG5, | Complaint: RESCUE | Location: | Address: 690 E HEINBERG ST  | Xst 1:  10TH AV N | Xst 2:   | City: PENSACOLA | State: FL | CAddress1 : 690 E HEINBERG ST | CAddress2:  | Loc_Display: 690 E HEINBERG ST x[10TH AV N]    [PENSACOLA] | Time_Dispatched: 2012-07-01 03:01:20 | Narrative:  | This_Unit: ENG5",
+        "ID:PFD12CAD003213",
+        "UNIT:ENG5",
+        "CALL:RESCUE",
+        "ADDR:690 E HEINBERG ST",
+        "X:10TH AV N",
+        "CITY:PENSACOLA",
+        "DATE:07/01/2012",
+        "TIME:03:01:20");
+
+    doTest("T8",
+        "Call_Number: PFD12CAD003211 | Units: ENG6,ENG2,ENG1, | Complaint: ACTIVATED FIRE ALARM | Location: CORDOVA MALL  477-1663 X2[AIRPORT BLVD] | Address: 5100 N 9TH AV  | Xst 1:  BAYOU BLVD | Xst 2:   | City: PENSACOLA | State: FL | CAddress1 : 5100 N 9TH AV | CAddress2: CORDOVA MALL  477-1663 X2[AIRPORT BLVD] | Loc_Display: 5100 N 9TH AV [CORDOVA MALL  477-1663 X2[AIRPORT BLVD]]  x[BAYOU BLVD]    [PENSA | Time_Dispatched: 2012-06-30 23:03:28 | Narrative:  | This_Unit: ENG2",
+        "ID:PFD12CAD003211",
+        "UNIT:ENG6,ENG2,ENG1",
+        "CALL:ACTIVATED FIRE ALARM",
+        "PLACE:CORDOVA MALL",
+        "PHONE:477-1663",
+        "ADDR:5100 N 9TH AV",
+        "MADDR:5100 N 9TH AVE",
+        "X:AIRPORT BLVD & BAYOU BLVD",
+        "CITY:PENSACOLA",
+        "DATE:06/30/2012",
+        "TIME:23:03:28");
  }
   
   public static void main(String[] args) {
