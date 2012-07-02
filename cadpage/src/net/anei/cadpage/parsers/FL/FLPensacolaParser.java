@@ -22,6 +22,9 @@ Call_Number: PFD12CAD003117 | Units: ENG1, | Complaint: RESCUE | Location: X2[LA
 Call_Number: PFD12CAD003115 | Units: ENG1, | Complaint: RESCUE | Location: X2[C ST N] | Address: 815 W LA RUA ST  | Xst 1:  B ST N | Xst 2:   | City: PENSACOLA | State: FL | CAddress1 : 815 W LA RUA ST | CAddress2: X2[C ST N] | Loc_Display: 815 W LA RUA ST [X2[C ST N]]  x[B ST N]    [PENSACOLA] | Time_Dispatched: 2012-06-25 03:32:10 | Narrative:  | This_Unit: ENG1
 Call_Number: PFD12CAD003111 | Units: ENG6, | Complaint: RESCUE | Location: THE FLATS AT 9TH AVENUE  308-5345 X2[BEAU TERRA LN] | Address: 7601 N 9TH AV 107 | Xst 1:  I10 | Xst 2:   | City: PENSACOLA | State: FL | CAddress1 : 7601 N 9TH AV | CAddress2: THE FLATS AT 9TH AVENUE  308-5345 X2[BEAU TERRA LN] | Loc_Display: 7601 N 9TH AV [THE FLATS AT 9TH AVENUE  308-5345 X2[BEAU TERRA LN]]  x[I10]    [ | Time_Dispatched: 2012-06-24 23:18:28 | Narrative:  | This_Unit: ENG6
 
+Call_Number: PFD12CAD003213 | Units: ENG5, | Complaint: RESCUE | Location: | Address: 690 E HEINBERG ST  | Xst 1:  10TH AV N | Xst 2:   | City: PENSACOLA | State: FL | CAddress1 : 690 E HEINBERG ST | CAddress2:  | Loc_Display: 690 E HEINBERG ST x[10TH AV N]    [PENSACOLA] | Time_Dispatched: 2012-07-01 03:01:20 | Narrative:  | This_Unit: ENG5
+Call_Number: PFD12CAD003211 | Units: ENG6,ENG2,ENG1, | Complaint: ACTIVATED FIRE ALARM | Location: CORDOVA MALL  477-1663 X2[AIRPORT BLVD] | Address: 5100 N 9TH AV  | Xst 1:  BAYOU BLVD | Xst 2:   | City: PENSACOLA | State: FL | CAddress1 : 5100 N 9TH AV | CAddress2: CORDOVA MALL  477-1663 X2[AIRPORT BLVD] | Loc_Display: 5100 N 9TH AV [CORDOVA MALL  477-1663 X2[AIRPORT BLVD]]  x[BAYOU BLVD]    [PENSA | Time_Dispatched: 2012-06-30 23:03:28 | Narrative:  | This_Unit: ENG2
+
 */
 
 public class FLPensacolaParser extends FieldProgramParser {
@@ -59,6 +62,7 @@ public class FLPensacolaParser extends FieldProgramParser {
   }
   
   private static final Pattern PLACE_X_PTN = Pattern.compile("\\bX2\\[([^\\[\\]]+)\\]$");
+  private static final Pattern PHONE_PTN = Pattern.compile("\\b(?:\\d{3}-?)?\\d{3}-?\\d{4}$");
   private class MyPlaceField extends PlaceField {
     @Override
     public void parse(String field, Data data) {
@@ -67,7 +71,17 @@ public class FLPensacolaParser extends FieldProgramParser {
         data.strCross = match.group(1).trim();
         field = field.substring(0,match.start()).trim();
       }
+      match = PHONE_PTN.matcher(field);
+      if (match.find()) {
+        data.strPhone = match.group().trim();
+        field = field.substring(0,match.start()).trim();
+      }
       super.parse(field, data);
+    }
+    
+    @Override
+    public String getFieldNames() {
+      return "PLACE PHONE X";
     }
   }
 

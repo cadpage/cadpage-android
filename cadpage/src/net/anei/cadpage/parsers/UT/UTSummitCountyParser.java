@@ -1,6 +1,8 @@
 package net.anei.cadpage.parsers.UT;
 
 import java.util.Properties;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import net.anei.cadpage.parsers.FieldProgramParser;
 import net.anei.cadpage.parsers.MsgInfo.Data;
@@ -109,6 +111,7 @@ public class UTSummitCountyParser extends FieldProgramParser {
     return parseFields(body.split("\n"), 4, data);
   }
   
+  private static final Pattern BOUND_PTN = Pattern.compile("\\b(?:NORTH|EAST|SOUTH|WEST)BOUND\\b");
   private class MyAddressField extends AddressField {
     @Override
     public void parse(String field, Data data) {
@@ -121,10 +124,17 @@ public class UTSummitCountyParser extends FieldProgramParser {
       }
       data.strCity = city;
       data.strCross = p.getLastOptional(';');
-      parseAddress(p.get(), data);
-      if (data.strAddress.endsWith("@")) {
-        data.strAddress = data.strAddress.substring(0,data.strAddress.length()-1).trim();
+      String sAddr = p.get();
+      if (sAddr.endsWith("@")) sAddr = sAddr.substring(0,sAddr.length()-1).trim();
+      StringBuffer sb = new StringBuffer();
+      Matcher match = BOUND_PTN.matcher(sAddr);
+      while (match.find()) {
+        match.appendReplacement(sb, "");
+        sb.append(match.group().charAt(0));
+        sb.append('B');
       }
+      match.appendTail(sb);
+      parseAddress(sb.toString(), data);
     }
     
     @Override
