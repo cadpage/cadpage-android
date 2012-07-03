@@ -30,7 +30,7 @@ F121800225: Medic Local, 8300 QUINTANA ST, PP, btwn END and 84TH AVE, TGA2, 2825
 F121800232: Medic Local, 9206 5TH ST, PP, btwn MAIN ST and END, TGA2, 4809, Units:A848, MD830
 F121800279: PIA w/Entrapment, EQUESTRIAN CENTER, PP, at 5651 WATER ST, PP, TGB3, 2020, Units:A823, BO887, E845, MD845, SQ820
 F121800373: Collapse, 1501 CABIN BRANCH DR, PP, btwn SAVAGE ST and COLUMBIA PARK RD, TGA7, 3808, Unit:TW810
-
+TR F121850028: Confined Space Rescu, 4706 HOLLYWOOD RD, PP, btwn 47TH PL and 48TH AVE, TGD3, 1102, Units:A812, AU816, BO886, C699, E811, EMSDO, HC816, MD812, NSO, TR806, TS814, WI
 
 Contact: Active911
 [CAD Feed] STREET, Street Alarm, 9001 MCHUGH DR, PP, btwn END and CAMPUS WAY N, TA11, 0616, 5531 D 3, ODOR OF ELECTRICAL BURNING IN THE STORE, Units:BO881, E833, E837, QT838, TK828\n
@@ -84,7 +84,7 @@ Contact: CodeMessaging
 
 public class MDPrinceGeorgesCountyEParser extends FieldProgramParser {
   
-  private static final Pattern ID_PTN = Pattern.compile("^(F\\d{6,}):");
+  private static final Pattern ID_PTN = Pattern.compile("^(?:TR +)?(F\\d{6,}):");
   private static final Pattern TRAILER = Pattern.compile(" - From [A-Z0-9]+ (\\d\\d/\\d\\d/\\d{4}) (\\d\\d:\\d\\d:\\d\\d)$");
   private static final Pattern AT_PTN = Pattern.compile("\\bAT\\b", Pattern.CASE_INSENSITIVE);
   
