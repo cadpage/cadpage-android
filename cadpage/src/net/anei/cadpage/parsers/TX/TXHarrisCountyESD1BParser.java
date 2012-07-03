@@ -45,6 +45,15 @@ ID#:11-08-29436 - UNIT:L32 - DISP: 21:06:25 - ER: - OUT: - TO: - AT: - AIR: 21:0
 FRM:cadnoreply@proxy.hcec.com\nMSG:ID#:12-06-21170- UNIT:E13 - DISP: 11:19:11 - ER: - OUT: - AIR: 11:23:42
 FRM:cadnoreply@proxy.hcec.com\nMSG:ID#:12-06-21170- UNIT:BRU23 - DISP: 10:57:35 - ER: - OUT: - AIR: 11:23:56
 
+Contact: Active911
+[] ID#:12-06-23555 - - 60B1 GAS LEAK/ODOR ( - 11000 E Canal Rd - Apt: - Bldg: - Key Map: 460J - Cross Streets:OAK AVE/HOLLY DR - Box #:1705\n
+[]  ID#:12-06-23555 - Address changed to:1100 E CANAL RD - Cross Streets:OAK AVE/HOLLY DR - Key Map:460J\n
+[]  ID#:12-06-23588 - Address changed to:ORLEANS ST / COTTONTAIL DR - Cross Streets: - Key Map:420W\n
+[]  ID#:12-06-23588 - Address changed to:630 COTTONTAIL DR - Cross Streets:JOAN OF ARC ST/ORLEANS ST - Key Map:419Z\n
+
+*** Not parsing 
+[]  - - 32B1 UNKNOWN PROBLEM - 123 Test Street - Apt: - Bldg: TESTING AP - Key Map:496K - Cross Streets:Dead End/Dead End - Box #:4104\n
+
 */
 
 public class TXHarrisCountyESD1BParser extends FieldProgramParser {
@@ -83,6 +92,7 @@ public class TXHarrisCountyESD1BParser extends FieldProgramParser {
     @Override
     public boolean checkParse(String field, Data data) {
       if (!field.startsWith("Address changed to:")) return false;
+      data.strCall = "Address changed to:";
       field = field.substring(19).trim();
       super.parse(field, data);
       return true;
