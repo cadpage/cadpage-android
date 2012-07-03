@@ -31,15 +31,6 @@ public class SmsMmsMessageTest extends BaseParserTest {
     doTimeTest("full dt/AM time", "01/01/2012 13:23:10", "12/13/2011", "1:18:50 PM",
                "12/13/2011 13:18:50");
   }
-
-  @Test
-  public void testEscape() {
-    assertEquals("BIG RED ONE", SmsMmsMessage.escape("BIG RED ONE"));
-    assertEquals("BIG RED ONE\\n\n\\tOVER THERE\\n\nSIX\\6sSPACES\\3s3", 
-                 SmsMmsMessage.escape("BIG RED ONE\n\tOVER THERE\nSIX      SPACES   3"));
-    assertEquals("ODD CHARS \\t\\b\\f\\r\\n\n", SmsMmsMessage.escape("ODD CHARS \t\b\f\r\n"));
-    assertEquals("BIG\\u0001ONE\\u0005RED", SmsMmsMessage.escape("BIG\u0001ONE\u0005RED"));
-  }
   
   @Test
   public void testIncidentDate() {

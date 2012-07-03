@@ -409,6 +409,15 @@ public class MessageTest {
         "ken@cadpage.org", "", "Dispatch\n\nSta:43-2\n\nType:SERV", 1, 2);
 
   }
+
+  @Test
+  public void testEscape() {
+    assertEquals("BIG RED ONE", Message.escape("BIG RED ONE"));
+    assertEquals("BIG RED ONE\\n\n\\tOVER THERE\\n\nSIX\\6sSPACES\\3s3", 
+                 Message.escape("BIG RED ONE\n\tOVER THERE\nSIX      SPACES   3"));
+    assertEquals("ODD CHARS \\t\\b\\f\\r\\n\n", Message.escape("ODD CHARS \t\b\f\r\n"));
+    assertEquals("BIG\\u0001ONE\\u0005RED", Message.escape("BIG\u0001ONE\u0005RED"));
+  }
   
   private void doParseTest(String title, String body, String expFrom, String expSubject, String expBody) {
     doParseTest(title, body, expFrom, expSubject, expBody, -1, -1);

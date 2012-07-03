@@ -554,10 +554,60 @@ public class VAPrinceWilliamCountyAParserTest extends BaseParserTest {
         "UNIT:E509 T501",
         "INFO:COMM / 703 330 0540 / AUD-GENERAL PULL STATION / WILL ATC");
 
+    doTest("T22",
+        "[Important message from PW-ALERT] 29-Jun-2012/16:42:20/COMM/7 COUNTY COMPLEX CT #ENTIRE ,PWC (PWC STADIUM COMPLEX)/MC/5D A510B BC503 BC504 E513 E514 E516 E518 E520 M513 M520 SF502 STA13 T501 TW512 TW513 /gas leak i\n" +
+        "Sent by PW Alert to BC503, BC504, E513, E514, E516, E518, E520, M513, SF502, T501, A510, T512, T513, DFR CAD through Prince William County RSAN\n" +
+        "--\n" +
+        "- update your account at https://rsan1.rsan.pwcgov.org\n",
+
+        "DATE:06/29/2012",
+        "TIME:16:42:20",
+        "CODE:COMM",
+        "CALL:Commercial Fire",
+        "ADDR:7 COUNTY COMPLEX CT",
+        "APT:ENTIRE",
+        "PLACE:PWC STADIUM COMPLEX",
+        "BOX:MC",
+        "UNIT:5D A510B BC503 BC504 E513 E514 E516 E518 E520 M513 M520 SF502 STA13 T501 TW512 TW513",
+        "INFO:gas leak i");
+
+    doTest("T23",
+        "[Important message from PW-ALERT] 29-Jun-2012/16:42:20/COMM/7 COUNTY COMPLEX CT #ENTIRE ,PWC (PWC STADIUM COMPLEX)/MC/5D A510B BC502 BC503 E513 E514 E516 E518 E520 M513 M520 R502 SF502 STA13 T501 TW512 TW513 /gas l\n" +
+        "Sent by PW Alert to BC502, BC503, E513, E514, E516, E518, E520, M513, R502, SF502, T501, A510, T512, T513, DFR CAD through Prince William County RSAN\n" +
+        "--\n" +
+        "- update your account at https://rsan1.rsan.pwcgov.org\n",
+
+        "DATE:06/29/2012",
+        "TIME:16:42:20",
+        "CODE:COMM",
+        "CALL:Commercial Fire",
+        "ADDR:7 COUNTY COMPLEX CT",
+        "APT:ENTIRE",
+        "PLACE:PWC STADIUM COMPLEX",
+        "BOX:MC",
+        "UNIT:5D A510B BC502 BC503 E513 E514 E516 E518 E520 M513 M520 R502 SF502 STA13 T501 TW512 TW513",
+        "INFO:gas l");
+
+    doTest("T24",
+        "[Important message from PW-ALERT] 29-Jun-2012/16:42:20/COMM/7 COUNTY COMPLEX CT #ENTIRE ,PWC (PWC STADIUM COMPLEX)/MC/5D 5E A510B BC406 BC502 BC503 E513 E514 E516 E518 E520 FM516 FM523 M513 M520 R419 R502 RH520 SF5\n" +
+        "Sent by PW Alert to BC502, BC503, E513, E514, E516, E518, E520, FM523, M513, R502, SF502, A510, T501, T512, T513, DFR CAD through Prince William County RSAN\n" +
+        "--\n" +
+        "- update your account at https://rsan1.rsan.pwcgov.org\n",
+
+        "DATE:06/29/2012",
+        "TIME:16:42:20",
+        "CODE:COMM",
+        "CALL:Commercial Fire",
+        "ADDR:7 COUNTY COMPLEX CT",
+        "APT:ENTIRE",
+        "PLACE:PWC STADIUM COMPLEX",
+        "BOX:MC",
+        "UNIT:5D 5E A510B BC406 BC502 BC503 E513 E514 E516 E518 E520 FM516 FM523 M513 M520 R419 R502 RH520 SF5");
+
   }
   
   public static void main(String[] args) {
-    new VAPrinceWilliamCountyAParserTest().generateTests("T1");
+    new VAPrinceWilliamCountyAParserTest().generateTests("T22");
   }
 
 }
