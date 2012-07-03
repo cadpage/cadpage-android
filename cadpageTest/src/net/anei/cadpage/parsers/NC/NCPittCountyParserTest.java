@@ -67,6 +67,11 @@ public class NCPittCountyParserTest extends BaseParserTest {
         "CALL:FIRE ALARM",
         "ADDR:2185 OAKLEY RD");
   }
+  
+  @Test
+  public void testActive911() {
+
+  }
 
   public static void main(String[] args) {
     new NCPittCountyParserTest().generateTests("T1");
