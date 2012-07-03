@@ -36,13 +36,14 @@ Sender: 27538
 LOC:4891 IRONWOOD ST DESC:GREASE SPILL - SMOKE NO FLAMES APT: TYP:*M*APPLIANCE FIRE
 LOC:4019 EMERICK ST DESC:BONFIRE IN BACK YD APT: TYP:*M*FIRE OUTSIDE
 LOC:4787 FASHION SQUARE BLVD DESC:MACY UPPERLEVEL SMELL OF ELECTRICAL BURN APT: TYP:*M*ELEVATOR ENTRAPMENT RESCUE
+LOC:GRATIOT RD / N CENTER RD DESC:PRINTER SHOP APT: TYP:*M*STRUCTURE FIRE
 
  */
 public class MISaginawCountyParser extends FieldProgramParser {
   
   public MISaginawCountyParser() {
     super("SAGINAW COUNTY", "MI",
-           "LOC:ADDR! DESC:CALL! APT:APT! TYP:CALL2!");
+           "LOC:ADDR! DESC:INFO! APT:APT! TYP:CALL!");
   }
   
   @Override
@@ -51,26 +52,35 @@ public class MISaginawCountyParser extends FieldProgramParser {
   }
   
   private static final Pattern GPS_PTN = Pattern.compile("LAT: <([+-]?[\\d\\.]+)> +LONG: <([+-]?[\\d\\.]+)>");
-  private class MyCall2Field extends CallField {
-    @Override
+  private class MyInfoField extends InfoField {
     public void parse(String field, Data data) {
-      Matcher match = GPS_PTN.matcher(data.strCall);
+      Matcher match = GPS_PTN.matcher(field);
       if (match.find()) {
         data.strGPSLoc = match.group(1) + "," + match.group(2);
-      } else if (data.strCall.length() > 0) return;
-      if (field.startsWith("*M*")) field = field.substring(3).trim();
-      data.strCall = field;
+      } else {
+        super.parse(field, data);
+      }
     }
     
     @Override
     public String getFieldNames() {
-      return "GPS";
+      return "INFO GPS";
+    }
+  }
+  
+  
+  private class MyCallField extends CallField {
+    @Override
+    public void parse(String field, Data data) {
+      if (field.startsWith("*M*")) field = field.substring(3).trim();
+      super.parse(field, data);
     }
   }
   
   @Override
   public Field getField(String name) {
-    if (name.equals("CALL2")) return new MyCall2Field();
+    if (name.equals("INFO")) return new MyInfoField();
+    if (name.equals("CALL")) return new MyCallField();
     return super.getField(name);
   }
 }
