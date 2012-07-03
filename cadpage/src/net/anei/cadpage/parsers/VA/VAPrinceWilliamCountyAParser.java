@@ -49,6 +49,9 @@ Subject: Important message from PW-ALERT\n 22-May-2012/07:11:17/SWRES/GC BRISTOW
 Subject: Important message from PW-ALERT\n 22-May-2012/08:21:30/FALARM/125 MARKET ST ,MNPK (CITY CENTER RES & COMM)/09/E509 STA09 T501 /COMM  CITY CENTER APTMENT...703-330-0540  AUD PULL STATION WILL ATC\n \n Sent by PW Alert to T501, DFR CAD through Prince William County RSAN\n \n --\n \n - update your account at https://rsan1.rsan.pwcgov.org
 Subject: Important message from PW-ALERT\n 22-May-2012/06:29:45/SWRES/12298 LUCASVILLE RD / 12408 BRISTOW RD ,PWC /07/5E AC506 BC502 BC504 E505 E506B E507B M525 STA07 T501 Z507B /MAN W/SUBMERGED VEHICLE//SITTING ON ROOF//AP\n \n Sent by PW Alert to AC506, BC502, BC504, E505, M525, T501, E506, E507, Z507, DFR CAD through Prince William County RSAN\n \n --\n \n - update your account at https://rsan1.rsan.pwcgov.org
 Subject: Important message from PW-ALERT\n 21-May-2012/19:10:42/FALARM/170 MARKET ST ,MNPK (CITY CENTER RES & COMM)/09/E509 T501 /COMM/ 703 330 0540/ AUD-GENERAL PULL STATION / WILL ATC\n \n Sent by PW Alert to T501, DFR CAD through Prince William County RSAN\n \n --\n \n - update your account at https://rsan1.rsan.pwcgov.org 
+[Important message from PW-ALERT] 29-Jun-2012/16:42:20/COMM/7 COUNTY COMPLEX CT #ENTIRE ,PWC (PWC STADIUM COMPLEX)/MC/5D A510B BC503 BC504 E513 E514 E516 E518 E520 M513 M520 SF502 STA13 T501 TW512 TW513 /gas leak i\nSent by PW Alert to BC503, BC504, E513, E514, E516, E518, E520, M513, SF502, T501, A510, T512, T513, DFR CAD through Prince William County RSAN\n--\n- update your account at https://rsan1.rsan.pwcgov.org\n
+[Important message from PW-ALERT] 29-Jun-2012/16:42:20/COMM/7 COUNTY COMPLEX CT #ENTIRE ,PWC (PWC STADIUM COMPLEX)/MC/5D A510B BC502 BC503 E513 E514 E516 E518 E520 M513 M520 R502 SF502 STA13 T501 TW512 TW513 /gas l\nSent by PW Alert to BC502, BC503, E513, E514, E516, E518, E520, M513, R502, SF502, T501, A510, T512, T513, DFR CAD through Prince William County RSAN\n--\n- update your account at https://rsan1.rsan.pwcgov.org\n
+[Important message from PW-ALERT] 29-Jun-2012/16:42:20/COMM/7 COUNTY COMPLEX CT #ENTIRE ,PWC (PWC STADIUM COMPLEX)/MC/5D 5E A510B BC406 BC502 BC503 E513 E514 E516 E518 E520 FM516 FM523 M513 M520 R419 R502 RH520 SF5\nSent by PW Alert to BC502, BC503, E513, E514, E516, E518, E520, FM523, M513, R502, SF502, A510, T501, T512, T513, DFR CAD through Prince William County RSAN\n--\n- update your account at https://rsan1.rsan.pwcgov.org\n
 
 */
 
@@ -92,7 +95,13 @@ public class VAPrinceWilliamCountyAParser extends VAPrinceWilliamCountyBaseParse
       String sPlace = append(p.getOptional('@'), " - ", p.getLastOptional('('));
       if (sPlace.endsWith(")")) sPlace = sPlace.substring(0, sPlace.length()-1).trim();
       data.strPlace = sPlace;
-      data.strCity = convertCodes(p.getLastOptional(','), CITY_CODES);
+      String city = convertCodes(p.getLastOptional(','), CITY_CODES);
+      int pt = city.indexOf(',');
+      if (pt >= 0) {
+        data.strState = city.substring(pt+1);
+        city = city.substring(0,pt);
+      }
+      data.strCity = city;
       parseAddress(p.get(), data);
     }
     
@@ -124,12 +133,6 @@ public class VAPrinceWilliamCountyAParser extends VAPrinceWilliamCountyBaseParse
     }
   }
   
-  private class MyBoxField extends BoxField {
-    public MyBoxField() {
-      setPattern("\\d\\d[A-Z]?", true);
-    }
-  }
-  
   private static final Pattern ID_PTN = Pattern.compile("\\[(\\d+)]?$");
   private class MyInfoField extends InfoField {
     @Override
@@ -154,14 +157,28 @@ public class VAPrinceWilliamCountyAParser extends VAPrinceWilliamCountyBaseParse
     if (name.equals("TIME")) return new MyTimeField();
     if (name.equals("ADDR")) return new MyAddressField();
     if (name.equals("X")) return new MyCrossField();
-    if (name.equals("BOX")) return new MyBoxField();
+    if (name.equals("BOX")) return new BoxField("\\d\\d[A-Z]?|MC", true);
     if (name.equals("INFO")) return new MyInfoField();
     return super.getField(name);
   }
   
   private static final Properties CITY_CODES = buildCodeTable(new String[]{
+      "CHAR", "CHARLES COUNTY,MD",
+      "DULL", "DULLES",
+      "DUMF", "DUMFRIES",
+      "FAIR", "FAIRFAX",
+      "FAUQ", "FAUQUIER",
+      "FBEL", "FORT BELVOIR",
+      "FXCT", "FAIRFAX",
+      "HAYM", "HAYMARKET",
+      "LOUD", "LOUDOUN",
+      "MCB",  "MARINE CORPS BASE QUANTICO",
       "MNPK", "MANASSAS PARK",
       "MNSS", "MANASSAS",
-      "PWC",  ""
+      "OCCO", "OCCOQUAN",
+      "PWC",  "",
+      "QUAN", "QUANTICO",
+      "STAF", "STAFFORD",
+      "WAR",  "WARRENTON"
   });
 }
