@@ -170,7 +170,7 @@ public class NCLincolnCountyParserTest extends BaseParserTest {
   }
   
   @Test
-  public void testActive911() {
+  public void testActive911A() {
 
     doTest("T1",
         "[] 1:CAD:HCF-VEHICLE ACC PD ONLY-7046787685-AT&T MOBILITY-SHOAL RD/LAMA LN-VEH IS PARTLY IN RDWY [05/25/12 20:19:16 CHARKEY]\n",
@@ -194,21 +194,44 @@ public class NCLincolnCountyParserTest extends BaseParserTest {
         "INFO:Event spawned from LARCENY / THEFT. / {L182} x1 detained / gave to county / {CITY15} red chevy tk right on buffalo",
         "DATE:05/27/2012",
         "TIME:18:18:31");
-   
+    
   }
   
-  // @Test
-  public void testFixLater() {
-    
-    // This is what T4 really should do.  Will try to fix later
-    doTest("T4",
-        "4570:CAD:KLF-201101460-SMOKE INVESTIGATION-N LITTLE EGYPT RD/NC 73 HWY-near the ball field [03/22/11 10:13:09 DISPATCHER] blk smoke near track unkn source [03/22/11 10:12:22]",
-        "SRC:KLF",
-        "ID:201101460",
-        "CALL:SMOKE INVESTIGATION",
-        "ADDR:N LITTLE EGYPT RD & NC 73 HWY",
-        "MADDR:N LITTLE EGYPT RD & NC 73",
-        "INFO:near the ball field / blk smoke near track unkn source");
+  @Test
+  public void testActive911B() {
+   
+
+    doTest("T1",
+        "CAD:BCF-ALLERGIES ALLERGIC REACTION-410 MCALISTER RD-POSSIBLE ALLERGIC REACTION TO BEE STING. TK40 ADV STANDBY ON EMS [07/02/2012 21:07:31 TRAPER] -BEECHNUT ST-MEDICAL CENTER DR",
+        "ID:0",
+        "SRC:BCF",
+        "CALL:ALLERGIES ALLERGIC REACTION",
+        "ADDR:410 MCALISTER RD",
+        "INFO:POSSIBLE ALLERGIC REACTION TO BEE STING. TK40 ADV STANDBY ON EMS / BEECHNUT ST / MEDICAL CENTER DR",
+        "DATE:07/02/2012",
+        "TIME:21:07:31");
+
+    doTest("T2",
+        "CAD:BCF-17D04-17-D-4 FALLS-441 BUFFALO SHOALS RD-HIGHLAND DR-INDIAN TR-[Medical Priority Info] RESPONSE: Delta RESPONDER SCRIPT: 61 year old, Female, Conscious, Breathing. Falls. Chest or Neck injury (with difficulty breathing). 1.This happened now (less than 6hr",
+        "ID:0",
+        "SRC:BCF",
+        "CODE:17D04",
+        "CALL:FALLS",
+        "ADDR:441 BUFFALO SHOALS RD",
+        "X:HIGHLAND DR & INDIAN TR",
+        "INFO:61 year old, Female, Conscious, Breathing. Falls. Chest or Neck injury (with difficulty breathing). 1.This happened now (less than 6hr");
+
+    doTest("T3",
+        "CAD:N3F-1200000490-52C03G-ALARMS FOR FIRE-621 LINCOLN COUNTY PARKWAY EXT-CRATE AND BARREL-FINGER MILL RD-[Fire Priority Info] RESPONSE: Charlie RESPONDER SCRIPT: ALARMS. COMMERCIAL/INDUSTRIAL BUILDING (GENERAL/FIRE).CALLER STATEMENT: FIRE ALARM. 1.THE CALLER IS AN ALARM MONITORING COMPANY. 2.IT I",
+        "ID:1200000490",
+        "SRC:N3F",
+        "CODE:52C03G",
+        "CALL:ALARMS FOR FIRE",
+        "ADDR:621 LINCOLN COUNTY PARKWAY EXT",
+        "MADDR:621 LINCOLN COUNTY PARKWAY",
+        "X:FINGER MILL RD",
+        "PLACE:CRATE AND BARREL",
+        "INFO:ALARMS. COMMERCIAL/INDUSTRIAL BUILDING (GENERAL/FIRE).CALLER STATEMENT: FIRE ALARM. 1.THE CALLER IS AN ALARM MONITORING COMPANY. 2.IT I");
   }
   
 
