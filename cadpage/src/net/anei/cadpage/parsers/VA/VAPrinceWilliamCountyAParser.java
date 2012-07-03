@@ -157,7 +157,7 @@ public class VAPrinceWilliamCountyAParser extends VAPrinceWilliamCountyBaseParse
     if (name.equals("TIME")) return new MyTimeField();
     if (name.equals("ADDR")) return new MyAddressField();
     if (name.equals("X")) return new MyCrossField();
-    if (name.equals("BOX")) return new BoxField("\\d\\d[A-Z]?|MC", true);
+    if (name.equals("BOX")) return new BoxField("\\d\\d[A-Z]?|[A-Z]{2}", true);
     if (name.equals("INFO")) return new MyInfoField();
     return super.getField(name);
   }
