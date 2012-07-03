@@ -250,21 +250,61 @@ public class TXHarrisCountyESD1BParserTest extends BaseParserTest {
     doTest("T1",
         "ID#:11-08-29410 - Address changed to:uvalde/kinsman - Cross Streets: - Key Map:NOT F",
         "ID:11-08-29410",
+        "CALL:Address changed to:",
         "ADDR:uvalde & kinsman",
         "MAP:NOT F");
 
     doTest("T2",
         "ID#:11-08-26067 - Address changed to:620 SHELDON RD - Cross Streets:AVE C/RIDLON - Key Map:498B",
         "ID:11-08-26067",
+        "CALL:Address changed to:",
         "ADDR:620 SHELDON RD",
         "X:AVE C/RIDLON",
         "MAP:498B");
 
     doTest("T3",
         "ID#:11-08-26080 - Address changed to:10710 Greens Crossing Blvd - Cross Streets",
+        "CALL:Address changed to:",
         "ID:11-08-26080",
         "ADDR:10710 Greens Crossing Blvd");
 
+  }
+  
+  @Test
+  public void testAcive911() {
+
+    doTest("T1",
+        "[] ID#:12-06-23555 - - 60B1 GAS LEAK/ODOR ( - 11000 E Canal Rd - Apt: - Bldg: - Key Map: 460J - Cross Streets:OAK AVE/HOLLY DR - Box #:1705\n",
+        "ID:12-06-23555",
+        "ADDR:11000 E Canal Rd",
+        "X:OAK AVE/HOLLY DR",
+        "MAP:460J",
+        "CALL:60B1 GAS LEAK/ODOR (",
+        "BOX:1705");
+
+    doTest("T2",
+        "[]  ID#:12-06-23555 - Address changed to:1100 E CANAL RD - Cross Streets:OAK AVE/HOLLY DR - Key Map:460J\n",
+        "ID:12-06-23555",
+        "ADDR:1100 E CANAL RD",
+        "X:OAK AVE/HOLLY DR",
+        "MAP:460J",
+        "CALL:Address changed to:");
+
+    doTest("T3",
+        "[]  ID#:12-06-23588 - Address changed to:ORLEANS ST / COTTONTAIL DR - Cross Streets: - Key Map:420W\n",
+        "ID:12-06-23588",
+        "ADDR:ORLEANS ST & COTTONTAIL DR",
+        "MAP:420W",
+        "CALL:Address changed to:");
+
+    doTest("T4",
+        "[]  ID#:12-06-23588 - Address changed to:630 COTTONTAIL DR - Cross Streets:JOAN OF ARC ST/ORLEANS ST - Key Map:419Z\n",
+        "ID:12-06-23588",
+        "ADDR:630 COTTONTAIL DR",
+        "X:JOAN OF ARC ST/ORLEANS ST",
+        "MAP:419Z",
+        "CALL:Address changed to:");
+    
   }
 
   public static void main(String[] args) {
