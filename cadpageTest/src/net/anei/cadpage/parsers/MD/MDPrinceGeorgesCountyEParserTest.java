@@ -208,6 +208,16 @@ public class MDPrinceGeorgesCountyEParserTest extends BaseParserTest {
         "CH:TGA7",
         "BOX:3808",
         "UNIT:TW810");
+
+    doTest("T1",
+        "TR F121850028: Confined Space Rescu, 4706 HOLLYWOOD RD, PP, btwn 47TH PL and 48TH AVE, TGD3, 1102, Units:A812, AU816, BO886, C699, E811, EMSDO, HC816, MD812, NSO, TR806, TS814, WI",
+        "ID:F121850028",
+        "CALL:Confined Space Rescu",
+        "ADDR:4706 HOLLYWOOD RD",
+        "X:47TH PL and 48TH AVE",
+        "CH:TGD3",
+        "BOX:1102",
+        "UNIT:A812,AU816,BO886,C699,E811,EMSDO,HC816,MD812,NSO,TR806,TS814,WI");
  
   }
   
