@@ -309,6 +309,7 @@ public class PAWashingtonCountyParser extends FieldProgramParser {
       "STROK",  "STROKE",
       "SUIC",   "SUICIDE",
       "TEST",   "TESTING",
+      "UNCON",  "UNCONSCIOUS PATIENT",
       "WEATH",  "WEATHER UPDATES",
       "WIRES",  "DOWNED/LOW HANGING WIRE"
 
