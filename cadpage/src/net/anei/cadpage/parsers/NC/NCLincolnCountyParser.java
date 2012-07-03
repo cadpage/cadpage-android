@@ -40,6 +40,13 @@ Contact: support@active911.com
 [] 1:CAD:HCF-VEHICLE ACC PD ONLY-7046787685-AT&T MOBILITY-SHOAL RD/LAMA LN-VEH IS PARTLY IN RDWY [05/25/12 20:19:16 CHARKEY]\n
 [] 4:CAD:N3F-1200000772-OUTSIDE FIRE-BUFFALO SHOALS RD/BLAIR RD-Event spawned from LARCENY / THEFT. [05/27/2012 18:18:31 CLAFFERTY] {L182} x1 detained [05/27/12 18:09:22 SPITTS] gave to county [05/27/12 18:03:27 SPITTS] {CITY15} red chevy tk right on buffalo\n
 
+Contact: active911.com
+Agency name: Boger City Fire Department Location: Lincolnton, NC 
+Sender: CAD@do-not-reply-lincolne911.org
+CAD:BCF-ALLERGIES ALLERGIC REACTION-410 MCALISTER RD-POSSIBLE ALLERGIC REACTION TO BEE STING. TK40 ADV STANDBY ON EMS [07/02/2012 21:07:31 TRAPER] -BEECHNUT ST-MEDICAL CENTER DR
+CAD:BCF-17D04-17-D-4 FALLS-441 BUFFALO SHOALS RD-HIGHLAND DR-INDIAN TR-[Medical Priority Info] RESPONSE: Delta RESPONDER SCRIPT: 61 year old, Female, Conscious, Breathing. Falls. Chest or Neck injury (with difficulty breathing). 1.This happened now (less than 6hr
+CAD:N3F-1200000490-52C03G-ALARMS FOR FIRE-621 LINCOLN COUNTY PARKWAY EXT-CRATE AND BARREL-FINGER MILL RD-[Fire Priority Info] RESPONSE: Charlie RESPONDER SCRIPT: ALARMS. COMMERCIAL/INDUSTRIAL BUILDING (GENERAL/FIRE).CALLER STATEMENT: FIRE ALARM. 1.THE CALLER IS AN ALARM MONITORING COMPANY. 2.IT I
+
 */
 
 public class NCLincolnCountyParser extends DispatchOSSIParser {
@@ -58,6 +65,10 @@ public class NCLincolnCountyParser extends DispatchOSSIParser {
   
   @Override
   public boolean parseMsg(String body, Data data) {
+    
+    // The OSSI parser either expects a leading ID field, or does not expect one.  It can't handle our case
+    // where it sometimes is there and sometimes isn't.  We fix that by adding a dummy ID if there isn't one.
+    if (body.startsWith("CAD:")) body = "0:" + body;
     
     // For medical call, the code is duplicated and the one in the call
     // description has dashes, which we are going to use a field separators
